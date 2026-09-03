@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,40 +34,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The akismet/v1 API from CaaMTech — 7 operation(s) for akismet/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The akismet/v1 API from CaaMTech — 7 operation(s) for akismet/v1.
   name: CaaMTech Akismet/v1 API
   slug: caamtech-akismet-v1-api
-- description: The mcp API from CaaMTech — 2 operation(s) for mcp.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The mcp API from CaaMTech — 2 operation(s) for mcp.
   name: CaaMTech MCP API
   slug: caamtech-mcp-api
-- description: The objectcache/v1 API from CaaMTech — 5 operation(s) for objectcache/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The objectcache/v1 API from CaaMTech — 5 operation(s) for objectcache/v1.
   name: CaaMTech Objectcache/v1 API
   slug: caamtech-objectcache-v1-api
-- description: The oembed/1.0 API from CaaMTech — 3 operation(s) for oembed/1.0.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The oembed/1.0 API from CaaMTech — 3 operation(s) for oembed/1.0.
   name: CaaMTech Oembed/1.0 API
   slug: caamtech-oembed-1-0-api
-- description: The regenerate-thumbnails/v1 API from CaaMTech — 4 operation(s) for regenerate-thumbnails/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The regenerate-thumbnails/v1 API from CaaMTech — 4 operation(s) for regenerate-thumbnails/v1.
   name: CaaMTech Regenerate Thumbnails/v1 API
   slug: caamtech-regenerate-thumbnails-v1-api
-- description: The root API from CaaMTech — 2 operation(s) for root.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The root API from CaaMTech — 2 operation(s) for root.
   name: CaaMTech Root API
   slug: caamtech-root-api
-- description: The wp-abilities/v1 API from CaaMTech — 6 operation(s) for wp-abilities/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The wp-abilities/v1 API from CaaMTech — 6 operation(s) for wp-abilities/v1.
   name: CaaMTech Wp Abilities/v1 API
   slug: caamtech-wp-abilities-v1-api
-- description: The wp-block-editor/v1 API from CaaMTech — 4 operation(s) for wp-block-editor/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The wp-block-editor/v1 API from CaaMTech — 4 operation(s) for wp-block-editor/v1.
   name: CaaMTech Wp Block Editor/v1 API
   slug: caamtech-wp-block-editor-v1-api
-- description: The wp-site-health/v1 API from CaaMTech — 8 operation(s) for wp-site-health/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The wp-site-health/v1 API from CaaMTech — 8 operation(s) for wp-site-health/v1.
   name: CaaMTech Wp Site Health/v1 API
   slug: caamtech-wp-site-health-v1-api
-- description: The wp/v2 API from CaaMTech — 106 operation(s) for wp/v2.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The wp/v2 API from CaaMTech — 106 operation(s) for wp/v2.
   name: CaaMTech Wp/v2 API
   slug: caamtech-wp-v2-api
-- description: The wpforms/v1 API from CaaMTech — 8 operation(s) for wpforms/v1.
+- baseURL: https://caam.tech/wp-json
+  baseurl_source: declared
+  description: The wpforms/v1 API from CaaMTech — 8 operation(s) for wpforms/v1.
   name: CaaMTech Wpforms/v1 API
   slug: caamtech-wpforms-v1-api
 artifact_total: 27
@@ -182,7 +215,7 @@ score:
   band: emerging
   composite: 15.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -213,8 +246,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/caamtech/refs/heads/main/screenshots/caamtech-2026-09-02T144955.png
 security:
 - kind: authentication
   name: Caamtech Authentication

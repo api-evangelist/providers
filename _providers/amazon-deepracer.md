@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage DeepRacer physical vehicles and their configurations
+- baseURL: https://deepracer.amazonaws.com
+  baseurl_source: declared
+  description: Manage DeepRacer physical vehicles and their configurations
   name: Amazon DeepRacer Cars API
   slug: amazon-deepracer-cars-api
-- description: Manage racing leaderboards and submissions
+- baseURL: https://deepracer.amazonaws.com
+  baseurl_source: declared
+  description: Manage racing leaderboards and submissions
   name: Amazon DeepRacer Leaderboards API
   slug: amazon-deepracer-leaderboards-api
-- description: Manage reinforcement learning models for autonomous racing
+- baseURL: https://deepracer.amazonaws.com
+  baseurl_source: declared
+  description: Manage reinforcement learning models for autonomous racing
   name: Amazon DeepRacer Models API
   slug: amazon-deepracer-models-api
-- description: Manage virtual and physical racing tracks
+- baseURL: https://deepracer.amazonaws.com
+  baseurl_source: declared
+  description: Manage virtual and physical racing tracks
   name: Amazon DeepRacer Tracks API
   slug: amazon-deepracer-tracks-api
 artifact_total: 58
@@ -349,7 +357,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/screenshots/amazon-deepracer-2026-06-20T171619.png
 security:

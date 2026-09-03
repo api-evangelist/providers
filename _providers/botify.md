@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,34 +36,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server at mcp.botify.com, advertised via RFC 9728 protected-resource metadata as "Botify Agents MCP" with the single scope mcp_read_write. Authorization is delegated to a
   name: Botify Agents MCP
   slug: botify-agents-mcp
-- description: The Analysis API from Botify — 30 operation(s) for analysis.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The Analysis API from Botify — 30 operation(s) for analysis.
   name: Botify Analysis API
   slug: botify-analysis-api
-- description: The Collections API from Botify — 2 operation(s) for collections.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The Collections API from Botify — 2 operation(s) for collections.
   name: Botify Collections API
   slug: botify-collections-api
-- description: The Datasource API from Botify — 1 operation(s) for datasource.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The Datasource API from Botify — 1 operation(s) for datasource.
   name: Botify Datasource API
   slug: botify-datasource-api
-- description: The Job API from Botify — 2 operation(s) for job.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The Job API from Botify — 2 operation(s) for job.
   name: Botify Job API
   slug: botify-job-api
-- description: The KeywordsGroups API from Botify — 1 operation(s) for keywordsgroups.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The KeywordsGroups API from Botify — 1 operation(s) for keywordsgroups.
   name: Botify Keywords Groups API
   slug: botify-keywordsgroups-api
-- description: The Project API from Botify — 9 operation(s) for project.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The Project API from Botify — 9 operation(s) for project.
   name: Botify Project API
   slug: botify-project-api
-- description: The ProjectQuery API from Botify — 1 operation(s) for projectquery.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The ProjectQuery API from Botify — 1 operation(s) for projectquery.
   name: Botify Project Query API
   slug: botify-projectquery-api
-- description: The User API from Botify — 1 operation(s) for user.
+- baseURL: https://api.botify.com/v1
+  baseurl_source: declared
+  description: The User API from Botify — 1 operation(s) for user.
   name: Botify User API
   slug: botify-user-api
 artifact_total: 23
@@ -254,7 +282,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botify/refs/heads/main/screenshots/botify-2026-08-17T080653.png
 security:

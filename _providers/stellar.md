@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -47,100 +47,164 @@ apis:
 - description: The Stellar RPC API (formerly Soroban RPC) is a JSON-RPC interface for interacting with Soroban smart contracts deployed on the Stellar network. It supports simulating and submitting contract invocati
   name: Stellar RPC API
   slug: stellar-rpc-api
-- description: Users interact with the Stellar network through accounts. Everything else in the ledger—assets, offers, trustlines, etc. are owned by accounts, and accounts must authorize all changes to the ledger th
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Users interact with the Stellar network through accounts. Everything else in the ledger—assets, offers, trustlines, etc. are owned by accounts, and accounts must authorize all changes to the ledger th
   name: Stellar Accounts API
   slug: stellar-accounts-api
-- description: The Admin API oversees the management of tenants within the system, facilitating tasks such as provisioning new tenants, updating their information, and retrieving tenant data.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The Admin API oversees the management of tenants within the system, facilitating tasks such as provisioning new tenants, updating their information, and retrieving tenant data.
   name: Stellar Admin API
   slug: stellar-admin-api
-- description: API Keys functionality allows to create access key with granular permissions and resource management.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: API Keys functionality allows to create access key with granular permissions and resource management.
   name: Stellar API Keys API
   slug: stellar-api-keys-api
-- description: Assets are representations of value issued on the Stellar network. An asset consists of a type, code, and issuer.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Assets are representations of value issued on the Stellar network. An asset consists of a type, code, and issuer.
   name: Stellar Assets API
   slug: stellar-assets-api
-- description: Authentication controls the log in/log out process for all SDP users, as well as the token refresh process. Authentication uses a JWT approach signed with an ES256 private key.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Authentication controls the log in/log out process for all SDP users, as well as the token refresh process. Authentication uses a JWT approach signed with an ES256 private key.
   name: Stellar Authentication API
   slug: stellar-authentication-api
-- description: Endpoints related to balances. A balance is an amount of a particular asset held by an organization, tenant, or account.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Endpoints related to balances. A balance is an amount of a particular asset held by an organization, tenant, or account.
   name: Stellar Balances API
   slug: stellar-balances-api
-- description: Bridge integration endpoints for connecting organizations with Bridge services. **Integration Flow:** 1. Organization opts into Bridge (OPTED_IN status) 2. Complete KYC verification process via Bridge
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Bridge integration endpoints for connecting organizations with Bridge services. **Integration Flow:** 1. Organization opts into Bridge (OPTED_IN status) 2. Complete KYC verification process via Bridge
   name: Stellar Bridge Integration API
   slug: stellar-bridge-integration-api
-- description: A Claimable Balance represents the transfer of ownership of some amount of an asset. Claimable balances provide a mechanism for setting up a payment which can be claimed in the future. This allows you
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: A Claimable Balance represents the transfer of ownership of some amount of an asset. Claimable balances provide a mechanism for setting up a payment which can be claimed in the future. This allows you
   name: Stellar Claimable Balances API
   slug: stellar-claimable-balances-api
-- description: '[SEP-12](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0012.md) requests made from client applications.'
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: '[SEP-12](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0012.md) requests made from client applications.'
   name: Stellar Customers API
   slug: stellar-customers-api
-- description: Endpoints related to disbursements. A disbursement is a group of payments sent to multiple individuals at once. An SDP user with the appropriate role triggers a new disbursement through the SDP dashbo
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Endpoints related to disbursements. A disbursement is a group of payments sent to multiple individuals at once. An SDP user with the appropriate role triggers a new disbursement through the SDP dashbo
   name: Stellar Disbursements API
   slug: stellar-disbursements-api
-- description: Effects represent specific changes that occur in the ledger as a result of successful operations, but are not necessarily directly reflected in the ledger or history, as transactions and operations ar
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Effects represent specific changes that occur in the ledger as a result of successful operations, but are not necessarily directly reflected in the ledger or history, as transactions and operations ar
   name: Stellar Effects API
   slug: stellar-effects-api
-- description: The Events API from Stellar — 1 operation(s) for events.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The Events API from Stellar — 1 operation(s) for events.
   name: Stellar Events API
   slug: stellar-events-api
-- description: The Exports API from Stellar — 3 operation(s) for exports.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The Exports API from Stellar — 3 operation(s) for exports.
   name: Stellar Exports API
   slug: stellar-exports-api
-- description: Fee stats are used to predict what fee to set for a transaction before submitting it to the network.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Fee stats are used to predict what fee to set for a transaction before submitting it to the network.
   name: Stellar Fee Stats API
   slug: stellar-fee-stats-api
-- description: Each ledger stores the state of the network at a point in time and contains all the changes - transactions, operations, effects, etc. - to that state.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Each ledger stores the state of the network at a point in time and contains all the changes - transactions, operations, effects, etc. - to that state.
   name: Stellar Ledgers API
   slug: stellar-ledgers-api
-- description: Liquidity Pools provide a simple, non-interactive way to trade large amounts of capital and enable high volumes of trading.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Liquidity Pools provide a simple, non-interactive way to trade large amounts of capital and enable high volumes of trading.
   name: Stellar Liquidity Pools API
   slug: stellar-liquidity-pools-api
-- description: Offers are statements about how much of an asset an account wants to buy or sell.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Offers are statements about how much of an asset an account wants to buy or sell.
   name: Stellar Offers API
   slug: stellar-offers-api
-- description: 'Operations are objects that represent a desired change to the ledger: payments, offers to exchange currency, changes made to account options, etc. Operations are submitted to the Stellar network group'
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: 'Operations are objects that represent a desired change to the ledger: payments, offers to exchange currency, changes made to account options, etc. Operations are submitted to the Stellar network group'
   name: Stellar Operations API
   slug: stellar-operations-api
-- description: An order book is a collections of offers for a specific pair of assets.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: An order book is a collections of offers for a specific pair of assets.
   name: Stellar Order Books API
   slug: stellar-order-books-api
-- description: Organization endpoints manage the process of getting and updating organizational profile information. The organization's profile has basic information set at the time of SDP deployment. It can be modi
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Organization endpoints manage the process of getting and updating organizational profile information. The organization's profile has basic information set at the time of SDP deployment. It can be modi
   name: Stellar Organization API
   slug: stellar-organization-api
-- description: Paths provide information about potential path payments. A path can be used to populate the necessary fields for a path payment operation.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Paths provide information about potential path payments. A path can be used to populate the necessary fields for a path payment operation.
   name: Stellar Paths API
   slug: stellar-paths-api
-- description: Endpoints related to payments. An SDP payment is an individual payment from an organization to a receiver. Each payment is part of a disbursement and occurs on the Stellar network. Granular payment st
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Endpoints related to payments. An SDP payment is an individual payment from an organization to a receiver. Each payment is part of a disbursement and occurs on the Stellar network. Granular payment st
   name: Stellar Payments API
   slug: stellar-payments-api
-- description: Profiles endpoints manage the process of getting and updating individual profile information. Profile information is set when the account is created and can be updated by the user on the SDP dashboard
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Profiles endpoints manage the process of getting and updating individual profile information. Profile information is set when the account is created and can be updated by the user on the SDP dashboard
   name: Stellar Profile API
   slug: stellar-profile-api
-- description: Requests containing data that can be used to provide exchange rates between on & off-chain assets.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Requests containing data that can be used to provide exchange rates between on & off-chain assets.
   name: Stellar Rates API
   slug: stellar-rates-api
-- description: Endpoints related to receivers. A receiver is an individual receiving a payment in a disbursement. The receiver is tracked by phone number to reduce the need for personally identifiable information. E
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Endpoints related to receivers. A receiver is an individual receiving a payment in a disbursement. The receiver is tracked by phone number to reduce the need for personally identifiable information. E
   name: Stellar Receivers API
   slug: stellar-receivers-api
-- description: The registration endpoints guide the process for a receiver to verify their identity and link their wallet address to an SDP. The registration process only needs to happen once per receiver to link th
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The registration endpoints guide the process for a receiver to verify their identity and link their wallet address to an SDP. The registration process only needs to happen once per receiver to link th
   name: Stellar Registration API
   slug: stellar-registration-api
-- description: Statistics endpoints return general aggregated data per organization, as well as disbursement-specific metrics. SDP users can use this data to monitor their disbursements over time.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Statistics endpoints return general aggregated data per organization, as well as disbursement-specific metrics. SDP users can use this data to monitor their disbursements over time.
   name: Stellar Statistics API
   slug: stellar-statistics-api
-- description: A trade aggregation represents aggregated statistics on an asset pair (base and counter) for a specific time period. Trade aggregations are useful to developers of trading clients and provide historic
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: A trade aggregation represents aggregated statistics on an asset pair (base and counter) for a specific time period. Trade aggregations are useful to developers of trading clients and provide historic
   name: Stellar Trade Aggregations API
   slug: stellar-trade-aggregations-api
-- description: When an offer is fully or partially fulfilled, a trade happens. Trades can also be caused by successful path payments, because path payments involve fulfilling offers. A trade occurs between two parti
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: When an offer is fully or partially fulfilled, a trade happens. Trades can also be caused by successful path payments, because path payments involve fulfilling offers. A trade occurs between two parti
   name: Stellar Trades API
   slug: stellar-trades-api
-- description: Transactions initiated by client applications via SEP APIs
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: Transactions initiated by client applications via SEP APIs
   name: Stellar Transactions API
   slug: stellar-transactions-api
-- description: The users endpoints facilitate the creation of new SDP users - including setting the appropriate role, sending an email invitation, and activating a user - and managing roles.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The users endpoints facilitate the creation of new SDP users - including setting the appropriate role, sending an email invitation, and activating a user - and managing roles.
   name: Stellar Users API
   slug: stellar-users-api
-- description: The Wallets API from Stellar — 2 operation(s) for wallets.
+- baseURL: https://horizon.stellar.org
+  baseurl_source: declared
+  description: The Wallets API from Stellar — 2 operation(s) for wallets.
   name: Stellar Wallets API
   slug: stellar-wallets-api
 artifact_total: 248
@@ -901,7 +965,7 @@ score:
     catalog_gap: 35.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -914,7 +978,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 45.1
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -929,7 +993,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png
 security:

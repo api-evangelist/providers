@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -56,79 +56,129 @@ apis:
 - description: Bulk historical and ongoing blockchain dataset exports (Parquet/CSV via S3 / Snowflake share).
   name: Moralis Datashare
   slug: datashare
-- description: The Balance API from Moralis — 2 operation(s) for balance.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Balance API from Moralis — 2 operation(s) for balance.
   name: Moralis Balance API
   slug: moralis-balance-api
-- description: The Block API from Moralis — 3 operation(s) for block.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Block API from Moralis — 3 operation(s) for block.
   name: Moralis Block API
   slug: moralis-block-api
-- description: The Categories API from Moralis — 1 operation(s) for categories.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Categories API from Moralis — 1 operation(s) for categories.
   name: Moralis Categories API
   slug: moralis-categories-api
-- description: The DeFi API from Moralis — 3 operation(s) for defi.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The DeFi API from Moralis — 3 operation(s) for defi.
   name: Moralis DeFi API
   slug: moralis-defi-api
-- description: The Discovery API from Moralis — 11 operation(s) for discovery.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Discovery API from Moralis — 11 operation(s) for discovery.
   name: Moralis Discovery API
   slug: moralis-discovery-api
-- description: The Entities API from Moralis — 4 operation(s) for entities.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Entities API from Moralis — 4 operation(s) for entities.
   name: Moralis Entities API
   slug: moralis-entities-api
-- description: The Get Balance API from Moralis — 1 operation(s) for get balance.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Balance API from Moralis — 1 operation(s) for get balance.
   name: Moralis Get Balance API
   slug: moralis-get-balance-api
-- description: The Get Collections API from Moralis — 4 operation(s) for get collections.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Collections API from Moralis — 4 operation(s) for get collections.
   name: Moralis Get Collections API
   slug: moralis-get-collections-api
-- description: The Get Floor Price API from Moralis — 3 operation(s) for get floor price.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Floor Price API from Moralis — 3 operation(s) for get floor price.
   name: Moralis Get Floor Price API
   slug: moralis-get-floor-price-api
-- description: The Get Market Data API from Moralis — 11 operation(s) for get market data.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Market Data API from Moralis — 11 operation(s) for get market data.
   name: Moralis Get Market Data API
   slug: moralis-get-market-data-api
-- description: The Get Metadata API from Moralis — 4 operation(s) for get metadata.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Metadata API from Moralis — 4 operation(s) for get metadata.
   name: Moralis Get Metadata API
   slug: moralis-get-metadata-api
-- description: The Get Mutiple NFTs API from Moralis — 1 operation(s) for get mutiple nfts.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Mutiple NFTs API from Moralis — 1 operation(s) for get mutiple nfts.
   name: Moralis Get Mutiple NFTs API
   slug: moralis-get-mutiple-nfts-api
-- description: The Get NFTs API from Moralis — 2 operation(s) for get nfts.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get NFTs API from Moralis — 2 operation(s) for get nfts.
   name: Moralis Get NFTs API
   slug: moralis-get-nfts-api
-- description: The Get Owners API from Moralis — 3 operation(s) for get owners.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Owners API from Moralis — 3 operation(s) for get owners.
   name: Moralis Get Owners API
   slug: moralis-get-owners-api
-- description: The Get Ownership API from Moralis — 1 operation(s) for get ownership.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Ownership API from Moralis — 1 operation(s) for get ownership.
   name: Moralis Get Ownership API
   slug: moralis-get-ownership-api
-- description: The Get Transactions API from Moralis — 2 operation(s) for get transactions.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Transactions API from Moralis — 2 operation(s) for get transactions.
   name: Moralis Get Transactions API
   slug: moralis-get-transactions-api
-- description: The Get Transfers API from Moralis — 3 operation(s) for get transfers.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Transfers API from Moralis — 3 operation(s) for get transfers.
   name: Moralis Get Transfers API
   slug: moralis-get-transfers-api
-- description: The Get Unique Owners API from Moralis — 1 operation(s) for get unique owners.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Get Unique Owners API from Moralis — 1 operation(s) for get unique owners.
   name: Moralis Get Unique Owners API
   slug: moralis-get-unique-owners-api
-- description: The Market Data API from Moralis — 6 operation(s) for market data.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Market Data API from Moralis — 6 operation(s) for market data.
   name: Moralis Market Data API
   slug: moralis-market-data-api
-- description: The NFT API from Moralis — 28 operation(s) for nft.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The NFT API from Moralis — 28 operation(s) for nft.
   name: Moralis NFT API
   slug: moralis-nft-api
-- description: The Resolve Web3 Domain API from Moralis — 4 operation(s) for resolve web3 domain.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Resolve Web3 Domain API from Moralis — 4 operation(s) for resolve web3 domain.
   name: Moralis Resolve Web3 Domain API
   slug: moralis-resolve-web3-domain-api
-- description: The Token API from Moralis — 35 operation(s) for token.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Token API from Moralis — 35 operation(s) for token.
   name: Moralis Token API
   slug: moralis-token-api
-- description: The Transaction API from Moralis — 4 operation(s) for transaction.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Transaction API from Moralis — 4 operation(s) for transaction.
   name: Moralis Transaction API
   slug: moralis-transaction-api
-- description: The Utils API from Moralis — 4 operation(s) for utils.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Utils API from Moralis — 4 operation(s) for utils.
   name: Moralis Utils API
   slug: moralis-utils-api
-- description: The Wallets API from Moralis — 13 operation(s) for wallets.
+- baseURL: https://deep-index.moralis.io/api/v2.2
+  baseurl_source: declared
+  description: The Wallets API from Moralis — 13 operation(s) for wallets.
   name: Moralis Wallets API
   slug: moralis-wallets-api
 artifact_total: 63
@@ -315,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moralis/refs/heads/main/screenshots/moralis-2026-06-20T185806.png
 security:

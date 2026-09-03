@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -80,19 +80,29 @@ apis:
 - description: Security documentation for Amazon SES covering authentication, authorization, and encryption.
   name: Amazon SES Security
   slug: amazon-ses-security
-- description: Operations for managing contact lists.
+- baseURL: https://email.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing contact lists.
   name: Amazon SES Contact Lists API
   slug: amazon-ses-contact-lists-api
-- description: Operations for sending email messages.
+- baseURL: https://email.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for sending email messages.
   name: Amazon SES Email Sending API
   slug: amazon-ses-email-sending-api
-- description: Operations for managing email identities.
+- baseURL: https://email.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing email identities.
   name: Amazon SES Identities API
   slug: amazon-ses-identities-api
-- description: Operations for managing email templates.
+- baseURL: https://email.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing email templates.
   name: Amazon SES Templates API
   slug: amazon-ses-templates-api
-- description: The Email API from Amazon SES — 60 operation(s) for email.
+- baseURL: https://email.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Email API from Amazon SES — 60 operation(s) for email.
   name: Amazon SES Email API
   slug: amazon-ses-email-api
 artifact_total: 47
@@ -486,23 +496,23 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 76.1
+  composite: 76.7
   coverage:
     artifact_dirs: 31
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 62.8
+    contract_quality: 64.9
     developer_ergonomics: 90.5
     discoverability: 57.4
     governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 76.2
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -514,7 +524,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:

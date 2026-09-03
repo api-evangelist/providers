@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Events API from SeatGeek — 2 operation(s) for events.
+- baseURL: https://api.seatgeek.com/2
+  baseurl_source: declared
+  description: The Events API from SeatGeek — 2 operation(s) for events.
   name: SeatGeek Events API
   slug: seatgeek-events-api
-- description: The Performers API from SeatGeek — 2 operation(s) for performers.
+- baseURL: https://api.seatgeek.com/2
+  baseurl_source: declared
+  description: The Performers API from SeatGeek — 2 operation(s) for performers.
   name: SeatGeek Performers API
   slug: seatgeek-performers-api
-- description: The Recommendations API from SeatGeek — 2 operation(s) for recommendations.
+- baseURL: https://api.seatgeek.com/2
+  baseurl_source: declared
+  description: The Recommendations API from SeatGeek — 2 operation(s) for recommendations.
   name: SeatGeek Recommendations API
   slug: seatgeek-recommendations-api
-- description: The Taxonomies API from SeatGeek — 1 operation(s) for taxonomies.
+- baseURL: https://api.seatgeek.com/2
+  baseurl_source: declared
+  description: The Taxonomies API from SeatGeek — 1 operation(s) for taxonomies.
   name: SeatGeek Taxonomies API
   slug: seatgeek-taxonomies-api
-- description: The Venues API from SeatGeek — 2 operation(s) for venues.
+- baseURL: https://api.seatgeek.com/2
+  baseurl_source: declared
+  description: The Venues API from SeatGeek — 2 operation(s) for venues.
   name: SeatGeek Venues API
   slug: seatgeek-venues-api
 artifact_total: 30
@@ -272,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 38 operations · 22 acting
 api_count: 1
 apis:
-- description: The Connections API from Ragie — 8 operation(s) for connections.
+- baseURL: https://api.ragie.ai
+  baseurl_source: declared
+  description: The Connections API from Ragie — 8 operation(s) for connections.
   name: Ragie Connections API
   slug: ragie-ai-connections-api
-- description: The Documents API from Ragie — 10 operation(s) for documents.
+- baseURL: https://api.ragie.ai
+  baseurl_source: declared
+  description: The Documents API from Ragie — 10 operation(s) for documents.
   name: Ragie Documents API
   slug: ragie-ai-documents-api
-- description: The Entities API from Ragie — 4 operation(s) for entities.
+- baseURL: https://api.ragie.ai
+  baseurl_source: declared
+  description: The Entities API from Ragie — 4 operation(s) for entities.
   name: Ragie Entities API
   slug: ragie-ai-entities-api
-- description: The Partitions API from Ragie — 3 operation(s) for partitions.
+- baseURL: https://api.ragie.ai
+  baseurl_source: declared
+  description: The Partitions API from Ragie — 3 operation(s) for partitions.
   name: Ragie Partitions API
   slug: ragie-ai-partitions-api
-- description: The Retrievals API from Ragie — 2 operation(s) for retrievals.
+- baseURL: https://api.ragie.ai
+  baseurl_source: declared
+  description: The Retrievals API from Ragie — 2 operation(s) for retrievals.
   name: Ragie Retrievals API
   slug: ragie-ai-retrievals-api
 artifact_total: 19
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ragie-ai/refs/heads/main/screenshots/ragie-ai-2026-06-20T192529.png
 security:

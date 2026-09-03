@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The UPMC Health Plan Developer API is the payer-side FHIR API mandated by the ONC 21st Century Cures Act and the CMS Interoperability and Patient Access Final Rule. It allows registered third-party ap
@@ -121,7 +121,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upmc/refs/heads/main/screenshots/upmc-2026-06-20T200522.png
 security:

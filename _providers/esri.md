@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Esri ArcGIS Platform API is a set of REST APIs and SDKs from Esri, provider of the ArcGIS GIS suite. It enables developers to integrate Esri's mapping, geocoding, routing, and spatial analysis ser
   name: Esri ArcGIS Platform API
   slug: esri-arcgis-platform-api
-- description: The Auth API from Esri — 1 operation(s) for auth.
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: The Auth API from Esri — 1 operation(s) for auth.
   name: Esri Auth API
   slug: esri-auth-api
-- description: The Geocoding API from Esri — 4 operation(s) for geocoding.
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: The Geocoding API from Esri — 4 operation(s) for geocoding.
   name: Esri Geocoding API
   slug: esri-geocoding-api
-- description: The Routing API from Esri — 1 operation(s) for routing.
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: The Routing API from Esri — 1 operation(s) for routing.
   name: Esri Routing API
   slug: esri-routing-api
 artifact_total: 16
@@ -163,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri/refs/heads/main/screenshots/esri-2026-06-20T180822.png
 security:

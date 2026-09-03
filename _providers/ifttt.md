@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ apis:
 - description: Public HTTP API for triggering IFTTT Applets from any device or service by sending GET or POST requests to a per-user trigger URL. Supports up to three positional values per call or arbitrary JSON pay
   name: IFTTT Maker Webhooks API
   slug: webhooks-api
-- description: The Trigger API from IFTTT — 2 operation(s) for trigger.
+- baseURL: https://maker.ifttt.com
+  baseurl_source: declared
+  description: The Trigger API from IFTTT — 2 operation(s) for trigger.
   name: IFTTT Trigger API
   slug: ifttt-trigger-api
 artifact_total: 7
@@ -136,7 +138,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/screenshots/ifttt-2026-06-20T183215.png
 security:

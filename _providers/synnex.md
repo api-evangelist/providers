@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Digital Bridge Developer Portal gives engineering teams direct access to REST APIs for products, pricing, orders, renewals, and cloud services. Partners can get sandbox API keys, test endpoints, a
   name: TD SYNNEX Digital Bridge API
   slug: digital-bridge
-- description: Shopping cart operations.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Shopping cart operations.
   name: Synnex Cart API
   slug: synnex-cart-api
-- description: End customer account management.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: End customer account management.
   name: Synnex Customers API
   slug: synnex-customers-api
-- description: Order creation and management.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Order creation and management.
   name: Synnex Orders API
   slug: synnex-orders-api
-- description: Product catalog and SKU operations.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Product catalog and SKU operations.
   name: Synnex Products API
   slug: synnex-products-api
-- description: Usage and billing reports.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Usage and billing reports.
   name: Synnex Reports API
   slug: synnex-reports-api
-- description: Cloud subscription lifecycle management.
+- baseURL: https://ion.tdsynnex.com/api/v3
+  baseurl_source: declared
+  description: Cloud subscription lifecycle management.
   name: Synnex Subscriptions API
   slug: synnex-subscriptions-api
 artifact_total: 29
@@ -252,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/screenshots/synnex-2026-06-20T194829.png
 security:

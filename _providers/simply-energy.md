@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 27 operations · 5 acting
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Simply Energy Data Holder Customers API
   slug: simply-energy-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Simply Energy Data Holder Operations API
   slug: simply-energy-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Simply Energy Distributed Energy Resources API
   slug: simply-energy-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Simply Energy Electricity Service Points API
   slug: simply-energy-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Simply Energy Electricity Usage API
   slug: simply-energy-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Simply Energy Energy Account Balances API
   slug: simply-energy-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Simply Energy Energy Account Billing API
   slug: simply-energy-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Simply Energy Energy Accounts API
   slug: simply-energy-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/engie/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Simply Energy Energy Plans API
   slug: simply-energy-energy-plans-api
 artifact_total: 18
@@ -275,7 +306,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/screenshots/simply-energy-2026-08-17T125320.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The USDA Local Food Directories API provides data sharing access to directory information for farmers markets, food hubs, on-farm markets, community supported agriculture (CSA) operations, and food co
   name: USDA Local Food Directories API
   slug: usda-local-food-directories-api
-- description: USDA AMS market news offices
+- baseURL: https://marsapi.ams.usda.gov/services/v1.2
+  baseurl_source: declared
+  description: USDA AMS market news offices
   name: Agricultural Marketing Service Offices API
   slug: agricultural-marketing-service-offices-api
-- description: Agricultural market news reports across all commodity types
+- baseURL: https://marsapi.ams.usda.gov/services/v1.2
+  baseurl_source: declared
+  description: Agricultural market news reports across all commodity types
   name: Agricultural Marketing Service Reports API
   slug: agricultural-marketing-service-reports-api
 - description: The Livestock Mandatory Price Reporting System (LMPRS) API provides programmatic access to federally mandated livestock price report data. The API requires no authentication for public access and retu
@@ -307,7 +311,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:

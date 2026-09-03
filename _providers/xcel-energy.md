@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 57 operations · 8 acting
 api_count: 29
 apis:
-- description: Third-party application registration metadata used by the Data Custodian.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Third-party application registration metadata used by the Data Custodian.
   name: Xcel Energy ApplicationInformation API
   slug: xcel-energy-applicationinformation-api
-- description: OAuth 2.0 authorizations granted by retail customers to third-party applications.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorizations granted by retail customers to third-party applications.
   name: Xcel Energy Authorization API
   slug: xcel-energy-authorization-api
-- description: Bulk Atom feeds aggregating multiple resources for a subscription.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Bulk Atom feeds aggregating multiple resources for a subscription.
   name: Xcel Energy Batch API
   slug: xcel-energy-batch-api
-- description: Configuration resource for a device.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Configuration resource for a device.
   name: Xcel Energy Configuration API
   slug: xcel-energy-configuration-api
-- description: Demand Response programs and load control events.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Demand Response programs and load control events.
   name: Xcel Energy DemandResponse API
   slug: xcel-energy-demandresponse-api
-- description: Distributed Energy Resource programs, controls, and settings.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Distributed Energy Resource programs, controls, and settings.
   name: Xcel Energy DER API
   slug: xcel-energy-der-api
-- description: Root resource that lists the function sets supported by the meter.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Root resource that lists the function sets supported by the meter.
   name: Xcel Energy DeviceCapability API
   slug: xcel-energy-devicecapability-api
-- description: Manufacturer, hardware, and firmware metadata for a device.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Manufacturer, hardware, and firmware metadata for a device.
   name: Xcel Energy DeviceInformation API
   slug: xcel-energy-deviceinformation-api
-- description: Operational status, op-time, and event indicators for a device.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Operational status, op-time, and event indicators for a device.
   name: Xcel Energy DeviceStatus API
   slug: xcel-energy-devicestatus-api
-- description: Aggregate power-quality measurements for a UsagePoint.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Aggregate power-quality measurements for a UsagePoint.
   name: Xcel Energy ElectricPowerQualitySummary API
   slug: xcel-energy-electricpowerqualitysummary-api
-- description: Billing-period aggregate summaries of electric power usage.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Billing-period aggregate summaries of electric power usage.
   name: Xcel Energy ElectricPowerUsageSummary API
   slug: xcel-energy-electricpowerusagesummary-api
-- description: End devices managed by the meter (the meter itself and any subordinate devices).
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: End devices managed by the meter (the meter itself and any subordinate devices).
   name: Xcel Energy EndDevice API
   slug: xcel-energy-enddevice-api
-- description: Groups of function sets assigned to an EndDevice by the server operator.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Groups of function sets assigned to an EndDevice by the server operator.
   name: Xcel Energy FunctionSetAssignments API
   slug: xcel-energy-functionsetassignments-api
-- description: Time-series interval-level energy usage data captured at a meter.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Time-series interval-level energy usage data captured at a meter.
   name: Xcel Energy IntervalBlock API
   slug: xcel-energy-intervalblock-api
-- description: Time zone and daylight-savings-time parameters used to interpret interval timestamps.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Time zone and daylight-savings-time parameters used to interpret interval timestamps.
   name: Xcel Energy LocalTimeParameters API
   slug: xcel-energy-localtimeparameters-api
-- description: Log events emitted by the device.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Log events emitted by the device.
   name: Xcel Energy Log API
   slug: xcel-energy-log-api
-- description: Text and HTML messages targeted at end-users.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Text and HTML messages targeted at end-users.
   name: Xcel Energy Messaging API
   slug: xcel-energy-messaging-api
-- description: Container for measured IntervalBlocks captured at a UsagePoint.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Container for measured IntervalBlocks captured at a UsagePoint.
   name: Xcel Energy MeterReading API
   slug: xcel-energy-meterreading-api
-- description: Client-supplied mirror usage points used to publish readings to the server.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Client-supplied mirror usage points used to publish readings to the server.
   name: Xcel Energy MirrorUsagePoint API
   slug: xcel-energy-mirrorusagepoint-api
-- description: Real-time power flow and battery status for a device.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Real-time power flow and battery status for a device.
   name: Xcel Energy PowerStatus API
   slug: xcel-energy-powerstatus-api
-- description: Metadata describing the units, multiplier, accumulation, and flow direction of meter readings.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Metadata describing the units, multiplier, accumulation, and flow direction of meter readings.
   name: Xcel Energy ReadingType API
   slug: xcel-energy-readingtype-api
-- description: EndDevice registration and provisioning state.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: EndDevice registration and provisioning state.
   name: Xcel Energy Registration API
   slug: xcel-energy-registration-api
-- description: Acknowledgement responses for received events.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Acknowledgement responses for received events.
   name: Xcel Energy Response API
   slug: xcel-energy-response-api
-- description: Retail customer, account, agreement, service location, and meter information.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Retail customer, account, agreement, service location, and meter information.
   name: Xcel Energy RetailCustomer API
   slug: xcel-energy-retailcustomer-api
-- description: Convenience resource referring to the device that hosts the API.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Convenience resource referring to the device that hosts the API.
   name: Xcel Energy SelfDevice API
   slug: xcel-energy-selfdevice-api
-- description: Operational status of the Green Button Connect My Data service.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Operational status of the Green Button Connect My Data service.
   name: Xcel Energy ServiceStatus API
   slug: xcel-energy-servicestatus-api
-- description: Subscription/notification resources for resource-change events.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Subscription/notification resources for resource-change events.
   name: Xcel Energy Subscription API
   slug: xcel-energy-subscription-api
-- description: Current device time and time-zone configuration.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Current device time and time-zone configuration.
   name: Xcel Energy Time API
   slug: xcel-energy-time-api
-- description: Logical metered points that produce energy usage data for a service.
+- baseURL: https://api.xcelenergy.com
+  baseurl_source: declared
+  description: Logical metered points that produce energy usage data for a service.
   name: Xcel Energy UsagePoint API
   slug: xcel-energy-usagepoint-api
 artifact_total: 95
@@ -402,7 +460,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png
 security:

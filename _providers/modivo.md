@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: The GraphQL endpoint that powers the MODIVO storefront and mobile applications, exposed at https://modivo.pl/graphql with introspection left open to anonymous callers. The schema carries 770 types, 11
@@ -43,109 +43,179 @@ apis:
 - description: MODIVO's third-party marketplace runs on a Mirakl tenant at modivo.mirakl.net. Sellers automate offers, stock, prices, orders and tracking numbers through the standard Mirakl Marketplace Seller API on
   name: MODIVO Marketplace Seller API (Mirakl)
   slug: modivo-marketplace-seller-api-mirakl
-- description: Interface which provides product renders information for products.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface which provides product renders information for products.
   name: MODIVO Catalog Product Render List V1 API
   slug: modivo-catalogproductrenderlistv1-api
-- description: The chatbotOrderRestApiOrderRestApiServiceV1 API from MODIVO — 2 operation(s) for chatbotorderrestapiorderrestapiservicev1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The chatbotOrderRestApiOrderRestApiServiceV1 API from MODIVO — 2 operation(s) for chatbotorderrestapiorderrestapiservicev1.
   name: MODIVO Chatbot Order Rest API Order Rest API Service V1 API
   slug: modivo-chatbotorderrestapiorderrestapiservicev1-api
-- description: Interface for managing guest payment information
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface for managing guest payment information
   name: MODIVO Checkout Guest Payment Information Management V1 API
   slug: modivo-checkoutguestpaymentinformationmanagementv1-api
-- description: Interface for managing guest shipping address information
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface for managing guest shipping address information
   name: MODIVO Checkout Guest Shipping Information Management V1 API
   slug: modivo-checkoutguestshippinginformationmanagementv1-api
-- description: Interface for guest quote totals calculation
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface for guest quote totals calculation
   name: MODIVO Checkout Guest Totals Information Management V1 API
   slug: modivo-checkoutguesttotalsinformationmanagementv1-api
-- description: Interface for managing customers accounts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface for managing customers accounts.
   name: MODIVO Customer Account Management V1 API
   slug: modivo-customeraccountmanagementv1-api
-- description: Country information acquirer interface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Country information acquirer interface
   name: MODIVO Directory Country Information Acquirer V1 API
   slug: modivo-directorycountryinformationacquirerv1-api
-- description: Currency information acquirer interface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Currency information acquirer interface
   name: MODIVO Directory Currency Information Acquirer V1 API
   slug: modivo-directorycurrencyinformationacquirerv1-api
-- description: Interface HttpServiceInterface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface HttpServiceInterface
   name: MODIVO Eob JWT HTTP Service V1 API
   slug: modivo-eobjwthttpservicev1-api
-- description: The eobMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for eobmyreturnswebhookwebhookv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The eobMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for eobmyreturnswebhookwebhookv1.
   name: MODIVO Eob My Returns Webhook Webhook V1 API
   slug: modivo-eobmyreturnswebhookwebhookv1-api
-- description: The eobPlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for eobplaceorderordermanagementv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The eobPlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for eobplaceorderordermanagementv1.
   name: MODIVO Eob Place Order Order Management V1 API
   slug: modivo-eobplaceorderordermanagementv1-api
-- description: The eobTrustmateIntegrationDisplayApiV1 API from MODIVO — 1 operation(s) for eobtrustmateintegrationdisplayapiv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The eobTrustmateIntegrationDisplayApiV1 API from MODIVO — 1 operation(s) for eobtrustmateintegrationdisplayapiv1.
   name: MODIVO Eob Trustmate Integration Display API V1 API
   slug: modivo-eobtrustmateintegrationdisplayapiv1-api
-- description: Interface GuestCartRepositoryInterface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface GuestCartRepositoryInterface
   name: MODIVO Gift Message Guest Cart Repository V1 API
   slug: modivo-giftmessageguestcartrepositoryv1-api
-- description: Interface GuestItemRepositoryInterface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface GuestItemRepositoryInterface
   name: MODIVO Gift Message Guest Item Repository V1 API
   slug: modivo-giftmessageguestitemrepositoryv1-api
-- description: Interface providing token generation for Admins
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface providing token generation for Admins
   name: MODIVO Integration Admin Token Service V1 API
   slug: modivo-integrationadmintokenservicev1-api
-- description: Interface providing token generation for Customers
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface providing token generation for Customers
   name: MODIVO Integration Customer Token Service V1 API
   slug: modivo-integrationcustomertokenservicev1-api
-- description: 'Get Pickup Locations filtered by provided Search Request. Pickup Location entities are Immutable object and can not be changed after creation. All modification of Pickup Location must be done through '
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: 'Get Pickup Locations filtered by provided Search Request. Pickup Location entities are Immutable object and can not be changed after creation. All modification of Pickup Location must be done through '
   name: MODIVO Inventory In Store Pickup API Get Pickup Locations V1 API
   slug: modivo-inventoryinstorepickupapigetpickuplocationsv1-api
-- description: The marketplacePlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for marketplaceplaceorderordermanagementv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The marketplacePlaceOrderOrderManagementV1 API from MODIVO — 1 operation(s) for marketplaceplaceorderordermanagementv1.
   name: MODIVO Marketplace Place Order Order Management V1 API
   slug: modivo-marketplaceplaceorderordermanagementv1-api
-- description: The modivoMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for modivomyreturnswebhookwebhookv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The modivoMyReturnsWebhookWebhookV1 API from MODIVO — 1 operation(s) for modivomyreturnswebhookwebhookv1.
   name: MODIVO Modivo My Returns Webhook Webhook V1 API
   slug: modivo-modivomyreturnswebhookwebhookv1-api
-- description: The paymentServicesPaypalCompleteOrderV1 API from MODIVO — 1 operation(s) for paymentservicespaypalcompleteorderv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The paymentServicesPaypalCompleteOrderV1 API from MODIVO — 1 operation(s) for paymentservicespaypalcompleteorderv1.
   name: MODIVO Payment Services Paypal Complete Order V1 API
   slug: modivo-paymentservicespaypalcompleteorderv1-api
-- description: The paymentServicesPaypalPaymentConfigRequestV1 API from MODIVO — 5 operation(s) for paymentservicespaypalpaymentconfigrequestv1.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: The paymentServicesPaypalPaymentConfigRequestV1 API from MODIVO — 5 operation(s) for paymentservicespaypalpaymentconfigrequestv1.
   name: MODIVO Payment Services Paypal Payment Config Request V1 API
   slug: modivo-paymentservicespaypalpaymentconfigrequestv1-api
-- description: An interface for the REST WebAPI request to create an order
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: An interface for the REST WebAPI request to create an order
   name: MODIVO Payment Services Paypal Payment Order Request V1 API
   slug: modivo-paymentservicespaypalpaymentorderrequestv1-api
-- description: An interface for the REST WebAPI to get payment sdk urls
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: An interface for the REST WebAPI to get payment sdk urls
   name: MODIVO Payment Services Paypal Payment SDK Request V1 API
   slug: modivo-paymentservicespaypalpaymentsdkrequestv1-api
-- description: Interface AuthInterface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface AuthInterface
   name: MODIVO Pay Pal Braintree Auth V1 API
   slug: modivo-paypalbraintreeauthv1-api
-- description: Billing address management interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Billing address management interface for guest carts.
   name: MODIVO Quote Guest Billing Address Management V1 API
   slug: modivo-quoteguestbillingaddressmanagementv1-api
-- description: Cart Item repository interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Cart Item repository interface for guest carts.
   name: MODIVO Quote Guest Cart Item Repository V1 API
   slug: modivo-quoteguestcartitemrepositoryv1-api
-- description: Cart Management interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Cart Management interface for guest carts.
   name: MODIVO Quote Guest Cart Management V1 API
   slug: modivo-quoteguestcartmanagementv1-api
-- description: Cart Repository interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Cart Repository interface for guest carts.
   name: MODIVO Quote Guest Cart Repository V1 API
   slug: modivo-quoteguestcartrepositoryv1-api
-- description: Bundled API to collect totals for cart based on shipping/payment methods and additional data.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Bundled API to collect totals for cart based on shipping/payment methods and additional data.
   name: MODIVO Quote Guest Cart Total Management V1 API
   slug: modivo-quoteguestcarttotalmanagementv1-api
-- description: Cart totals repository interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Cart totals repository interface for guest carts.
   name: MODIVO Quote Guest Cart Total Repository V1 API
   slug: modivo-quoteguestcarttotalrepositoryv1-api
-- description: Coupon management interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Coupon management interface for guest carts.
   name: MODIVO Quote Guest Coupon Management V1 API
   slug: modivo-quoteguestcouponmanagementv1-api
-- description: Payment method management interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Payment method management interface for guest carts.
   name: MODIVO Quote Guest Payment Method Management V1 API
   slug: modivo-quoteguestpaymentmethodmanagementv1-api
-- description: Interface GuestShipmentEstimationInterface
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Interface GuestShipmentEstimationInterface
   name: MODIVO Quote Guest Shipment Estimation V1 API
   slug: modivo-quoteguestshipmentestimationv1-api
-- description: Shipping method management interface for guest carts.
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Shipping method management interface for guest carts.
   name: MODIVO Quote Guest Shipping Method Management V1 API
   slug: modivo-quoteguestshippingmethodmanagementv1-api
-- description: Search API for all requests
+- baseURL: https://modivo.pl/rest/all
+  baseurl_source: declared
+  description: Search API for all requests
   name: MODIVO Search V1 API
   slug: modivo-searchv1-api
 artifact_total: 44
@@ -306,7 +376,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -316,7 +386,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 39.5
+  previous_composite: 39.3
   provenance:
     conformance: derived
     contracts:
@@ -333,7 +403,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modivo/refs/heads/main/screenshots/modivo-2026-08-07T184029.png
 security:

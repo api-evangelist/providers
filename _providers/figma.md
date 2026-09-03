@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,52 +45,84 @@ agentic_access:
   summary_line: 31 operations · 6 acting
 api_count: 3
 apis:
-- description: Figma Files API provides access to design file data including document trees, nodes, images, version history, and file metadata. Read and export design data from Figma files programmatically.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Files API provides access to design file data including document trees, nodes, images, version history, and file metadata. Read and export design data from Figma files programmatically.
   name: Figma Files API
   slug: figma-files-api
-- description: Figma Images API provides endpoints for rendering and exporting images from Figma files in various formats including PNG, JPG, SVG, and PDF.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Images API provides endpoints for rendering and exporting images from Figma files in various formats including PNG, JPG, SVG, and PDF.
   name: Figma Images API
   slug: figma-images-api
-- description: Figma Teams API provides endpoints for managing team-level resources including webhooks, projects, and team configuration.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Teams API provides endpoints for managing team-level resources including webhooks, projects, and team configuration.
   name: Figma Teams API
   slug: figma-teams-api
-- description: Figma Projects API provides endpoints for listing team projects and retrieving project files.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Projects API provides endpoints for listing team projects and retrieving project files.
   name: Figma Projects API
   slug: figma-projects-api
-- description: Figma Me API provides the endpoint for retrieving information about the currently authenticated user.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Me API provides the endpoint for retrieving information about the currently authenticated user.
   name: Figma Me API
   slug: figma-me-api
-- description: Figma Component Sets API provides endpoints for retrieving published component set metadata from team libraries.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Component Sets API provides endpoints for retrieving published component set metadata from team libraries.
   name: Figma Component Sets API
   slug: figma-component-sets-api
-- description: Figma Styles API provides endpoints for retrieving published style metadata including colors, text styles, and effects from team libraries.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Styles API provides endpoints for retrieving published style metadata including colors, text styles, and effects from team libraries.
   name: Figma Styles API
   slug: figma-styles-api
-- description: Figma Activity Logs API provides endpoints for retrieving activity log events for an organization, enabling audit trail and compliance monitoring.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Activity Logs API provides endpoints for retrieving activity log events for an organization, enabling audit trail and compliance monitoring.
   name: Figma Activity Logs API
   slug: figma-activity-logs-api
-- description: Figma Payments API provides endpoints for querying user payment information on plugins, widgets, and Community files.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Payments API provides endpoints for querying user payment information on plugins, widgets, and Community files.
   name: Figma Payments API
   slug: figma-payments-api
-- description: Figma Dev Resources API provides endpoints for creating, updating, and deleting dev resources attached to design nodes, enabling design-to-code workflows.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Figma Dev Resources API provides endpoints for creating, updating, and deleting dev resources attached to design nodes, enabling design-to-code workflows.
   name: Figma Dev Resources API
   slug: figma-dev-resources-api
-- description: Endpoints for managing comments and reactions on Figma files, including creating, listing, and deleting comments.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Endpoints for managing comments and reactions on Figma files, including creating, listing, and deleting comments.
   name: Figma Comments API
   slug: figma-comments-api
-- description: Endpoints for querying published components, component sets, and styles from team libraries.
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Endpoints for querying published components, component sets, and styles from team libraries.
   name: Figma Components API
   slug: figma-components-api
-- description: Operations that use unique style keys for identification
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Operations that use unique style keys for identification
   name: Figma Keys API
   slug: figma-keys-api
-- description: Operations for retrieving library usage and action analytics data
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Operations for retrieving library usage and action analytics data
   name: Figma Library Analytics API
   slug: figma-library-analytics-api
-- description: Operations related to user information and authentication
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Operations related to user information and authentication
   name: Figma Users API
   slug: figma-users-api
-- description: Operations for managing webhook subscriptions and notifications
+- baseURL: https://api.figma.com
+  baseurl_source: declared
+  description: Operations for managing webhook subscriptions and notifications
   name: Figma Webhooks API
   slug: figma-webhooks-api
 arazzos:
@@ -2045,7 +2077,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -2058,7 +2090,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 59.3
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2069,7 +2101,7 @@ score:
       total: 16
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:

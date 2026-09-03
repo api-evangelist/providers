@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 67 operations · 32 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: The Additional API functionality API from Przelewy24 — 9 operation(s) for additional api functionality.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Additional API functionality API from Przelewy24 — 9 operation(s) for additional api functionality.
   name: Przelewy24 Additional API functionality API
   slug: przelewy24-additional-api-functionality-api
-- description: Mass Payment Identification System is an easy way for a payer to make a payment to an individual bank account created. For a payer wishing to make a traditional transfer, an individual bank account is
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: Mass Payment Identification System is an easy way for a payer to make a payment to an individual bank account created. For a payer wishing to make a traditional transfer, an individual bank account is
   name: Przelewy24 Additional services Mass Payments Transactions API
   slug: przelewy24-additional-services-mass-payments-transactions-api
-- description: The APay API API from Przelewy24 — 1 operation(s) for apay api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The APay API API from Przelewy24 — 1 operation(s) for apay api.
   name: Przelewy24 APay API API
   slug: przelewy24-apay-api-api
-- description: The BLIK API API from Przelewy24 — 4 operation(s) for blik api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The BLIK API API from Przelewy24 — 4 operation(s) for blik api.
   name: Przelewy24 BLIK API API
   slug: przelewy24-blik-api-api
-- description: The Card API API from Przelewy24 — 5 operation(s) for card api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Card API API from Przelewy24 — 5 operation(s) for card api.
   name: Przelewy24 Card API API
   slug: przelewy24-card-api-api
-- description: The Ekspres P24 API API from Przelewy24 — 10 operation(s) for ekspres p24 api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Ekspres P24 API API from Przelewy24 — 10 operation(s) for ekspres p24 api.
   name: Przelewy24 Ekspres P24 API API
   slug: przelewy24-ekspres-p24-api-api
-- description: The GPay API API from Przelewy24 — 1 operation(s) for gpay api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The GPay API API from Przelewy24 — 1 operation(s) for gpay api.
   name: Przelewy24 GPay API API
   slug: przelewy24-gpay-api-api
-- description: The Marketplace Management API API from Przelewy24 — 5 operation(s) for marketplace management api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Marketplace Management API API from Przelewy24 — 5 operation(s) for marketplace management api.
   name: Przelewy24 Marketplace Management API API
   slug: przelewy24-marketplace-management-api-api
-- description: The Marketplace Merchant API API from Przelewy24 — 2 operation(s) for marketplace merchant api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Marketplace Merchant API API from Przelewy24 — 2 operation(s) for marketplace merchant api.
   name: Przelewy24 Marketplace Merchant API API
   slug: przelewy24-marketplace-merchant-api-api
-- description: The Marketplace Partner API API from Przelewy24 — 2 operation(s) for marketplace partner api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Marketplace Partner API API from Przelewy24 — 2 operation(s) for marketplace partner api.
   name: Przelewy24 Marketplace Partner API API
   slug: przelewy24-marketplace-partner-api-api
-- description: In order to register a recurring transaction, it is necessary to send transaction registration request first to <a href="#tag/Transaction-service-API/paths/~1api~1v1~1transaction~1register/post">/tran
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: In order to register a recurring transaction, it is necessary to send transaction registration request first to <a href="#tag/Transaction-service-API/paths/~1api~1v1~1transaction~1register/post">/tran
   name: Przelewy24 Recursion (doPayment) API
   slug: przelewy24-recursion-dopayment-api
-- description: The Report API API from Przelewy24 — 3 operation(s) for report api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Report API API from Przelewy24 — 3 operation(s) for report api.
   name: Przelewy24 Report API API
   slug: przelewy24-report-api-api
-- description: The Transaction service API API from Przelewy24 — 2 operation(s) for transaction service api.
+- baseURL: https://secure.przelewy24.pl/api/v1
+  baseurl_source: declared
+  description: The Transaction service API API from Przelewy24 — 2 operation(s) for transaction service api.
   name: Przelewy24 Transaction service API API
   slug: przelewy24-transaction-service-api-api
 artifact_total: 449
@@ -1510,7 +1536,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:

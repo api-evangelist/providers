@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Juleb's REST API for the health/retail/distribution platform, documented at docs.juleb.com. Documented resource surface spans inventory (batch, picking, product, product-template), point of sale (conf
@@ -107,7 +107,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juleb/refs/heads/main/screenshots/juleb-2026-07-25T223303.png
 security:

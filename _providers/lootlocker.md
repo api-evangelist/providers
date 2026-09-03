@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The Game API is the primary client-side interface integrated into game builds for communication between the game and the LootLocker backend. It handles player session management, inventory, characters
@@ -160,7 +160,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lootlocker/refs/heads/main/screenshots/lootlocker-2026-06-20T184721.png
 security:

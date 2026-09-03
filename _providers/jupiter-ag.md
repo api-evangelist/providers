@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,7 +74,9 @@ apis:
 - description: Open-source embeddable swap widget that drops a fully-featured Jupiter swap experience into any web app with a few lines of code.
   name: Jupiter Terminal
   slug: terminal
-- description: Quote and build Solana DEX-aggregator swap transactions.
+- baseURL: https://api.jup.ag/swap
+  baseurl_source: declared
+  description: Quote and build Solana DEX-aggregator swap transactions.
   name: Jupiter Swap API
   slug: jupiter-ag-swap-api
 artifact_total: 20
@@ -185,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupiter-ag/refs/heads/main/screenshots/jupiter-ag-2026-06-20T183836.png
 security:

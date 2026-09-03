@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Beta API for integrating external business processes with Microsoft Planner through business scenarios, allowing creation of scenario-controlled Planner tasks and plans.
   name: Microsoft Graph Business Scenarios Planner API (Beta)
   slug: microsoft-graph-business-scenarios-planner-api-beta
-- description: Operations for managing Planner buckets
+- baseURL: https://graph.microsoft.com/v1.0/planner
+  baseurl_source: declared
+  description: Operations for managing Planner buckets
   name: Microsoft Planner Buckets API
   slug: microsoft-planner-buckets-api
-- description: Operations for managing additional plan details
+- baseURL: https://graph.microsoft.com/v1.0/planner
+  baseurl_source: declared
+  description: Operations for managing additional plan details
   name: Microsoft Planner Plan Details API
   slug: microsoft-planner-plan-details-api
-- description: Operations for managing Planner plans
+- baseURL: https://graph.microsoft.com/v1.0/planner
+  baseurl_source: declared
+  description: Operations for managing Planner plans
   name: Microsoft Planner Plans API
   slug: microsoft-planner-plans-api
-- description: Operations for managing additional task details
+- baseURL: https://graph.microsoft.com/v1.0/planner
+  baseurl_source: declared
+  description: Operations for managing additional task details
   name: Microsoft Planner Task Details API
   slug: microsoft-planner-task-details-api
-- description: Operations for managing Planner tasks
+- baseURL: https://graph.microsoft.com/v1.0/planner
+  baseurl_source: declared
+  description: Operations for managing Planner tasks
   name: Microsoft Planner Tasks API
   slug: microsoft-planner-tasks-api
 arazzos:
@@ -783,7 +793,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: TypeScript and Rust SDKs plus a CLI for creating and operating Squads multisigs (smart accounts) on Solana — creating multisigs, proposing, approving and executing transactions, and managing program-u
@@ -169,7 +169,7 @@ score:
   band: developing
   composite: 41.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +196,9 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/squads/refs/heads/main/screenshots/squads-2026-09-02T160642.png
 security:
 - kind: authentication
   name: Squads Authentication

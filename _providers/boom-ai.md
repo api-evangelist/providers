@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 69.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 80 operations · 41 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The CDP Custom Objects API from Boom Ai — 5 operation(s) for cdp custom objects.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The CDP Custom Objects API from Boom Ai — 5 operation(s) for cdp custom objects.
   name: Boom Ai CDP Custom Objects API
   slug: boom-ai-cdp-custom-objects-api
-- description: The CDP Events API from Boom Ai — 3 operation(s) for cdp events.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The CDP Events API from Boom Ai — 3 operation(s) for cdp events.
   name: Boom Ai CDP Events API
   slug: boom-ai-cdp-events-api
-- description: The CDP People API from Boom Ai — 4 operation(s) for cdp people.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The CDP People API from Boom Ai — 4 operation(s) for cdp people.
   name: Boom Ai CDP People API
   slug: boom-ai-cdp-people-api
-- description: The CDP Relationships API from Boom Ai — 4 operation(s) for cdp relationships.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The CDP Relationships API from Boom Ai — 4 operation(s) for cdp relationships.
   name: Boom Ai CDP Relationships API
   slug: boom-ai-cdp-relationships-api
-- description: The CDP Sources API from Boom Ai — 1 operation(s) for cdp sources.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The CDP Sources API from Boom Ai — 1 operation(s) for cdp sources.
   name: Boom Ai CDP Sources API
   slug: boom-ai-cdp-sources-api
-- description: The HTTP credentials API from Boom Ai — 1 operation(s) for http credentials.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The HTTP credentials API from Boom Ai — 1 operation(s) for http credentials.
   name: Boom Ai HTTP credentials API
   slug: boom-ai-http-credentials-api
-- description: The Initiatives API from Boom Ai — 14 operation(s) for initiatives.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The Initiatives API from Boom Ai — 14 operation(s) for initiatives.
   name: Boom Ai Initiatives API
   slug: boom-ai-initiatives-api
-- description: The Journeys API from Boom Ai — 16 operation(s) for journeys.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The Journeys API from Boom Ai — 16 operation(s) for journeys.
   name: Boom Ai Journeys API
   slug: boom-ai-journeys-api
-- description: The Segments API from Boom Ai — 7 operation(s) for segments.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The Segments API from Boom Ai — 7 operation(s) for segments.
   name: Boom Ai Segments API
   slug: boom-ai-segments-api
-- description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
   name: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
-- description: The Environments API from Boom Ai — 1 operation(s) for environments.
+- baseURL: https://www.useboom.ai
+  baseurl_source: declared
+  description: The Environments API from Boom Ai — 1 operation(s) for environments.
   name: Boom Ai Environments API
   slug: boom-ai-environments-api
 artifact_total: 31
@@ -325,7 +347,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -335,7 +357,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 69.8
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,7 +375,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

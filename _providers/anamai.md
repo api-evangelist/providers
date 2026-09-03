@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 57 operations · 31 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Avatars API from Anam.ai — 2 operation(s) for avatars.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Avatars API from Anam.ai — 2 operation(s) for avatars.
   name: Anam.ai Avatars API
   slug: anamai-avatars-api
-- description: The Engine API from Anam.ai — 1 operation(s) for engine.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Engine API from Anam.ai — 1 operation(s) for engine.
   name: Anam.ai Engine API
   slug: anamai-engine-api
-- description: The Knowledge API from Anam.ai — 6 operation(s) for knowledge.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Knowledge API from Anam.ai — 6 operation(s) for knowledge.
   name: Anam.ai Knowledge API
   slug: anamai-knowledge-api
-- description: The LLMs API from Anam.ai — 2 operation(s) for llms.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The LLMs API from Anam.ai — 2 operation(s) for llms.
   name: Anam.ai LLMs API
   slug: anamai-llms-api
-- description: The Meetings API from Anam.ai — 2 operation(s) for meetings.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Meetings API from Anam.ai — 2 operation(s) for meetings.
   name: Anam.ai Meetings API
   slug: anamai-meetings-api
-- description: The Personas API from Anam.ai — 2 operation(s) for personas.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Personas API from Anam.ai — 2 operation(s) for personas.
   name: Anam.ai Personas API
   slug: anamai-personas-api
-- description: The Sessions API from Anam.ai — 9 operation(s) for sessions.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Sessions API from Anam.ai — 9 operation(s) for sessions.
   name: Anam.ai Sessions API
   slug: anamai-sessions-api
-- description: The Share Links API from Anam.ai — 2 operation(s) for share links.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Share Links API from Anam.ai — 2 operation(s) for share links.
   name: Anam.ai Share Links API
   slug: anamai-share-links-api
-- description: The Tools API from Anam.ai — 2 operation(s) for tools.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Tools API from Anam.ai — 2 operation(s) for tools.
   name: Anam.ai Tools API
   slug: anamai-tools-api
-- description: The Voices API from Anam.ai — 3 operation(s) for voices.
+- baseURL: https://api.anam.ai/v1/
+  baseurl_source: declared
+  description: The Voices API from Anam.ai — 3 operation(s) for voices.
   name: Anam.ai Voices API
   slug: anamai-voices-api
 artifact_total: 38
@@ -342,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anamai/refs/heads/main/screenshots/anamai-2026-07-25T200158.png
 security:

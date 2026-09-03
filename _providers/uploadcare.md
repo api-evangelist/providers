@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 24 acting
 api_count: 2
 apis:
-- description: An `Add-On` is an application implemented by Uploadcare that accepts uploaded files as an input and can produce other files and/or [appdata](#operation/fileInfo) as an output.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: An `Add-On` is an application implemented by Uploadcare that accepts uploaded files as an input and can produce other files and/or [appdata](#operation/fileInfo) as an output.
   name: Uploadcare Add-Ons API
   slug: uploadcare-add-ons-api
-- description: The Conversion API from Uploadcare — 5 operation(s) for conversion.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: The Conversion API from Uploadcare — 5 operation(s) for conversion.
   name: Uploadcare Conversion API
   slug: uploadcare-conversion-api
-- description: The File API from Uploadcare — 6 operation(s) for file.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: The File API from Uploadcare — 6 operation(s) for file.
   name: Uploadcare File API
   slug: uploadcare-file-api
-- description: 'There are a few ways to get information about uploaded file. One of them is on-the-fly with a request to CDN. Note: Other APIs also let you read file info: [after Upload](/docs/api/upload/upload/file-'
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: 'There are a few ways to get information about uploaded file. One of them is on-the-fly with a request to CDN. Note: Other APIs also let you read file info: [after Upload](/docs/api/upload/upload/file-'
   name: Uploadcare File information API
   slug: uploadcare-file-information-api
-- description: File metadata is additional, arbitrary data, associated with uploaded file. As an example, you could store unique file identifier from your system. Metadata is key-value data. You can specify up to 50
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: File metadata is additional, arbitrary data, associated with uploaded file. As an example, you could store unique file identifier from your system. Metadata is key-value data. You can specify up to 50
   name: Uploadcare File metadata API
   slug: uploadcare-file-metadata-api
-- description: 'Your original filenames can be accessed via [REST API](/docs/api/rest/). Make a request to receive a JSON response with file parameters including `original_filename`. You can set an optional filename '
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: 'Your original filenames can be accessed via [REST API](/docs/api/rest/). Make a request to receive a JSON response with file parameters including `original_filename`. You can set an optional filename '
   name: Uploadcare File names API
   slug: uploadcare-file-names-api
-- description: The Group API from Uploadcare — 2 operation(s) for group.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: The Group API from Uploadcare — 2 operation(s) for group.
   name: Uploadcare Group API
   slug: uploadcare-group-api
-- description: The Project API from Uploadcare — 1 operation(s) for project.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: The Project API from Uploadcare — 1 operation(s) for project.
   name: Uploadcare Project API
   slug: uploadcare-project-api
-- description: The Webhook API from Uploadcare — 3 operation(s) for webhook.
+- baseURL: https://api.uploadcare.com
+  baseurl_source: declared
+  description: The Webhook API from Uploadcare — 3 operation(s) for webhook.
   name: Uploadcare Webhook API
   slug: uploadcare-webhook-api
 artifact_total: 40
@@ -301,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/screenshots/uploadcare-2026-06-20T200444.png
 security:

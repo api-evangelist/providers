@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Microsoft Entra ID (formerly Azure AD) is a cloud-based identity and access management service for authenticating and authorizing users and applications with OAuth2, OIDC, and SAML support.
   name: Microsoft Entra ID
   slug: microsoft-entra-id
-- description: Application registration management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: Application registration management
   name: Microsoft Entra ID Applications API
   slug: microsoft-entra-id-applications-api
-- description: Directory role management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: Directory role management
   name: Microsoft Entra ID DirectoryRoles API
   slug: microsoft-entra-id-directoryroles-api
-- description: Group management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: Group management
   name: Microsoft Entra ID Groups API
   slug: microsoft-entra-id-groups-api
-- description: Service principal management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: Service principal management
   name: Microsoft Entra ID ServicePrincipals API
   slug: microsoft-entra-id-serviceprincipals-api
-- description: User identity management
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: User identity management
   name: Microsoft Entra ID Users API
   slug: microsoft-entra-id-users-api
 artifact_total: 22
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra-id/refs/heads/main/screenshots/microsoft-entra-id-2026-06-20T185459.png
 security:

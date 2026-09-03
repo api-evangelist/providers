@@ -15,6 +15,7 @@
      "name": "Smarter Sorting",
      "slug": "smarter-sorting",
      "description": "Smarter Sorting (which rebranded as SmarterX in 2023 and now operates as part of Syndigo) is an Austin, Texas product-intelligence and regulatory-classification company serving retailers, consumer-goods brands and the logistics industry. Its Smarter-1 platform takes a customer's product catalog — at minimum a UPC and a product name — and returns machine-generated regulatory classifications covering hazardous-waste handling (RCRA waste codes and state waste codes), transport of dangerous goods (DOT, IATA and IMDG hazard classes, UN numbers, packing groups and proper shipping names), NFPA 704 fire-diamond ratings, lithium-battery attributes and UN 38.3 documentation, so that a retailer can decide whether an item may be sold, shipped, donated, recycled, reclaimed or must be disposed of as regulated waste. The company publishes a public Customer Classification API (OpenAPI 3.1.0) alongside its Back of Store Solution (BOSS) platform, a developer portal, a staging environment and a public status page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/screenshots/smarter-sorting-2026-09-02T155912.png",
      "score": 45.4,
      "band": "developing",
      "band_label": "Developing",
@@ -28,7 +29,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -73,7 +74,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -136,7 +137,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +189,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -232,7 +233,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -263,6 +264,7 @@
      "name": "Supergoop!",
      "slug": "supergoop",
      "description": "Supergoop! is a prestige suncare brand founded in 2005 by Holly Thaggard and headquartered in San Antonio, Texas, selling SPF-first skincare, body, makeup and kids products direct-to-consumer at supergoop.com and through retail partners; Blackstone Growth took a majority stake in 2021 at a reported $600-700 million valuation. It is not a software company and runs no developer program, but its Shopify storefront exposes three live, anonymous machine surfaces on its own domain: a Universal Commerce Protocol (UCP) shopping MCP server at /api/ucp/mcp with 13 tools, a fully introspectable Storefront GraphQL API at /api/2026-07/graphql.json with 428 types, and agent-facing instructions at /agents.md and /llms.txt that publish the discovery paths, the six-step agent purchase flow and a hard human-approval rule on payment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supergoop/refs/heads/main/screenshots/supergoop-2026-09-02T161239.png",
      "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
@@ -276,7 +278,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -321,7 +323,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 38.0,
      "agent_band": "agent-ready",
@@ -365,7 +367,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -410,7 +412,7 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -455,7 +457,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.2,
      "agent_band": "agent-native",
@@ -499,7 +501,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -544,7 +546,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -589,7 +591,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -641,7 +643,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -676,8 +678,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 42,
-   "shown": 42,
+   "count": 43,
+   "shown": 43,
    "providers": [
     {
      "name": "Archer Daniels Midland",
@@ -697,7 +699,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -742,7 +744,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -787,7 +789,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -832,7 +834,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -863,6 +865,7 @@
      "name": "True Botanicals",
      "slug": "true-botanicals",
      "description": "True Botanicals is a clean-luxury skincare company selling clinically tested, MADE SAFE certified face and body products direct to consumers from truebotanicals.com. It is not a developer-tools company and publishes no developer portal, API keys or SDKs; its machine-readable surface is the agent-commerce layer its Shopify storefront exposes on its own domain — an llms.txt and agents.md at the site root, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, an unauthenticated MCP endpoint at /api/ucp/mcp serving 13 catalog, cart, checkout and order tools, a keyless Shopify Storefront GraphQL endpoint, and OAuth 2.0 / OpenID Connect discovery documents for Shopify customer accounts. Every artifact in this repo was probed live from truebotanicals.com; the schemas behind them are platform-authored by Shopify and shared with every Shopify merchant, and are recorded here as served, not as contracts True Botanicals authored.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/true-botanicals/refs/heads/main/screenshots/true-botanicals-2026-09-02T164331.png",
      "score": 23.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -876,7 +879,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
@@ -921,7 +924,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
@@ -966,7 +969,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1011,7 +1014,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1039,6 +1042,51 @@
      "rank": 22
     },
     {
+     "name": "American Eagle Outfitters",
+     "slug": "american-eagle-outfitters",
+     "description": "American Eagle Outfitters (AEO) is a global specialty retailer operating the American Eagle and Aerie brands, offering on-trend clothing, accessories, and personal care products at affordable prices. The company operates over 1,000 stores across the Americas and online, with a unified commerce strategy spanning e-commerce, mobile, and in-store experiences.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-eagle-outfitters/refs/heads/main/screenshots/american-eagle-outfitters-2026-06-20T171908.png",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 25.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 23
+    },
+    {
      "name": "Skechers U.S.A.",
      "slug": "skechers-usa",
      "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
@@ -1056,7 +1104,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1081,12 +1129,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "The Beard Club",
      "slug": "the-beard-club",
      "description": "The Beard Club is a men's grooming and beard-care brand selling beard oils, balms, washes, aftershave, grooming kits, trimmers, and subscription grooming boxes through its Shopify-powered online store at thebeardclub.com. Beyond the consumer storefront, the store is agent-commerce ready: it implements the Universal Commerce Protocol (UCP 2026-04-08) with a native Model Context Protocol (MCP) endpoint at /api/ucp/mcp, a machine-readable /llms.txt and /agents.md, UCP service discovery at /.well-known/ucp, Shopify Customer Account OpenID Connect authentication, and read-only product and collection JSON endpoints — so AI shopping assistants can search the catalog, build carts, and complete buyer-approved checkouts programmatically.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-beard-club/refs/heads/main/screenshots/the-beard-club-2026-09-02T163330.png",
      "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1100,7 +1149,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -1125,7 +1174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Adidas",
@@ -1144,7 +1193,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1169,7 +1218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "LAKRIDS BY BÜLOW",
@@ -1189,7 +1238,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1214,7 +1263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Tempur Sealy International",
@@ -1234,7 +1283,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1259,7 +1308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Bespoke Post",
@@ -1279,7 +1328,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
@@ -1304,7 +1353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Anheuser-Busch",
@@ -1324,7 +1373,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1349,7 +1398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "CRU Kafe",
@@ -1369,7 +1418,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -1394,7 +1443,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Mars",
@@ -1414,7 +1463,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1439,7 +1488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "MORI",
@@ -1459,7 +1508,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -1484,12 +1533,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "The Honest Company",
      "slug": "the-honest-company",
      "description": "The Honest Company is a consumer-goods brand selling baby, personal-care, beauty, and household products through its direct-to-consumer storefront at honest.com and through major retailers. It was surfaced in the API Evangelist network as a portfolio company of iconiq-capital, ivp, and lightspeed-venture-partners. The honest.com storefront runs on Shopify and does not publish a first-party developer API; the only machine-readable API surface discoverable on the domain is Shopify's Customer Account API (OIDC/OAuth2) advertised via the store's /.well-known/ discovery documents. This profile captures that authentication surface, the domain security posture, and the storefront's public web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-honest-company/refs/heads/main/screenshots/the-honest-company-2026-09-02T163347.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1503,7 +1553,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -1528,7 +1578,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "LVMH",
@@ -1548,7 +1598,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -1573,7 +1623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "SAIB & Co.",
@@ -1593,7 +1643,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -1618,7 +1668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Butternut Box",
@@ -1638,7 +1688,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1663,12 +1713,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Ten Little",
      "slug": "tenlittle",
      "description": "Ten Little is a direct-to-consumer children's footwear and essentials brand that designs healthy, non-toxic shoes for babies and kids. Its APMA-approved shoes use a proprietary TenForm Fit System — wide, foot-shaped toe boxes and flexible zero-drop soles grounded in medical and biomechanical research — to support natural movement and healthy foot development at every size and stage, and to accommodate AFO/SMO orthotics and braces. The brand sells online through a Shopify storefront and publishes no first-party developer API; the only API surfaces reachable on its domain are Shopify's platform-level Customer Account OIDC/OAuth and MCP endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenlittle/refs/heads/main/screenshots/tenlittle-2026-09-02T163102.png",
      "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1682,7 +1733,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -1707,7 +1758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Hawthorne",
@@ -1727,7 +1778,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -1752,7 +1803,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Duroflexworld",
@@ -1772,7 +1823,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1797,7 +1848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "buynomics",
@@ -1817,52 +1868,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Josh Wood Colour",
-     "slug": "josh-wood-colour",
-     "description": "Josh Wood Colour is a UK-based at-home hair colour brand founded by celebrity colourist Josh Wood, selling permanent and semi-permanent hair dye, root touch-up, gloss, toners, blonde and grey-blending products, and haircare direct to consumers through a Shopify-powered online store at joshwoodcolour.com. The brand pairs its retail catalogue with a free personalised colour-matching consultation service and editorial hair-care advice. It was surfaced as a portfolio company of Index Ventures and added to the API Evangelist network. As a consumer retail e-commerce brand it exposes no public developer API, OpenAPI, or documentation surface; this profile captures its web identity, security posture, and customer-facing properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/josh-wood-colour/refs/heads/main/screenshots/josh-wood-colour-2026-07-25T223249.png",
-     "score": 13.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1890,6 +1896,51 @@
      "rank": 41
     },
     {
+     "name": "Josh Wood Colour",
+     "slug": "josh-wood-colour",
+     "description": "Josh Wood Colour is a UK-based at-home hair colour brand founded by celebrity colourist Josh Wood, selling permanent and semi-permanent hair dye, root touch-up, gloss, toners, blonde and grey-blending products, and haircare direct to consumers through a Shopify-powered online store at joshwoodcolour.com. The brand pairs its retail catalogue with a free personalised colour-matching consultation service and editorial hair-care advice. It was surfaced as a portfolio company of Index Ventures and added to the API Evangelist network. As a consumer retail e-commerce brand it exposes no public developer API, OpenAPI, or documentation surface; this profile captures its web identity, security posture, and customer-facing properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/josh-wood-colour/refs/heads/main/screenshots/josh-wood-colour-2026-07-25T223249.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
+    },
+    {
      "name": "Columbia Sportswear",
      "slug": "columbia-sportswear",
      "description": "Columbia Sportswear is a global designer, marketer, and distributor of outdoor, active, and everyday lifestyle apparel, footwear, accessories, and equipment under the Columbia, Mountain Hardwear, SOREL, and prAna brands. Columbia Sportswear Digital operates a partner-focused developer portal on Microsoft Azure API Management at columbia.portal.azure-api.net, exposing APIs for Order Management, Consumer Management, Product Lifecycle Management, Cognitive, Weather, and Translation. The developer portal is gated: registered partners create an account, browse products and APIs, request subscription keys, and integrate against the published endpoints. The company also exchanges traditional EDI documents (POs, ASNs, invoices) with retail trading partners through providers like TrueCommerce and eZCom.",
@@ -1907,7 +1958,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1932,7 +1983,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "FIGS",
@@ -1952,7 +2003,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1984,7 +2035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Grove",
@@ -2004,52 +2055,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Valspar",
-     "slug": "valspar",
-     "description": "The Valspar Corporation was a global manufacturer of paints and coatings founded in 1806 before being acquired by Sherwin-Williams in 2017 for approximately $11.3 billion. Valspar continues to operate as a brand within Sherwin-Williams, offering consumer paints, industrial coatings, and protective coatings. Digital tools include color visualizers, virtual painters, and color consultation services. No public developer API is available; color and product integrations are available through Sherwin-Williams' partner programs including BIMsmith and Autodesk Revit.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/screenshots/valspar-2026-06-20T200759.png",
-     "score": 12.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 14.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2077,6 +2083,51 @@
      "rank": 45
     },
     {
+     "name": "Valspar",
+     "slug": "valspar",
+     "description": "The Valspar Corporation was a global manufacturer of paints and coatings founded in 1806 before being acquired by Sherwin-Williams in 2017 for approximately $11.3 billion. Valspar continues to operate as a brand within Sherwin-Williams, offering consumer paints, industrial coatings, and protective coatings. Digital tools include color visualizers, virtual painters, and color consultation services. No public developer API is available; color and product integrations are available through Sherwin-Williams' partner programs including BIMsmith and Autodesk Revit.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/screenshots/valspar-2026-06-20T200759.png",
+     "score": 12.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 14.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
+    },
+    {
      "name": "Seaboard",
      "slug": "seaboard",
      "description": "Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation.",
@@ -2093,52 +2144,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "The Coca-Cola Company",
-     "slug": "coca-cola",
-     "description": "The Coca-Cola Company is the world's largest non-alcoholic beverage company, owning and marketing more than 200 brands across sparkling soft drinks, water, hydration, sports, coffee, tea, juice, dairy, and plant-based drinks. The company sells its products in more than 200 countries through a bottling and distribution partner network. While Coca-Cola does not currently publish a broadly available public REST API, it is a heavy enterprise API consumer running an internal API program on MuleSoft that connects ERP, manufacturing, distribution, retail, marketing, and consumer engagement systems through a Center for Enablement (C4E) model. Historical Coca-Cola Enterprises (CCE) Product and Location APIs at developer.cokecce.com are no longer maintained as a public-facing developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png",
-     "score": 12.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2166,24 +2172,24 @@
      "rank": 47
     },
     {
-     "name": "H.B. Fuller Company",
-     "slug": "h-b-fuller",
-     "description": "H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182448.png",
-     "score": 11.9,
+     "name": "The Coca-Cola Company",
+     "slug": "coca-cola",
+     "description": "The Coca-Cola Company is the world's largest non-alcoholic beverage company, owning and marketing more than 200 brands across sparkling soft drinks, water, hydration, sports, coffee, tea, juice, dairy, and plant-based drinks. The company sells its products in more than 200 countries through a bottling and distribution partner network. While Coca-Cola does not currently publish a broadly available public REST API, it is a heavy enterprise API consumer running an internal API program on MuleSoft that connects ERP, manufacturing, distribution, retail, marketing, and consumer engagement systems through a Center for Enablement (C4E) model. Historical Coca-Cola Enterprises (CCE) Product and Location APIs at developer.cokecce.com are no longer maintained as a public-facing developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coca-cola/refs/heads/main/screenshots/coca-cola-2026-06-20T174646.png",
+     "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 9.5,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2211,6 +2217,51 @@
      "rank": 48
     },
     {
+     "name": "H.B. Fuller Company",
+     "slug": "h-b-fuller",
+     "description": "H.B. Fuller Company is a major US corporation and Fortune 1000 company. The H.B. Fuller Company API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h-b-fuller/refs/heads/main/screenshots/h-b-fuller-2026-06-20T182448.png",
+     "score": 11.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
      "name": "Mayvenn",
      "slug": "mayvenn",
      "description": "Mayvenn is an Oakland, California beauty-commerce company that sells quality virgin human hair extensions, sew-in weave bundles, closures, frontals, and human hair wigs directly to consumers and through a network of more than 100,000 hair stylists. Founded by Diishan Imira and backed by a16z and 500 Global, Mayvenn pairs its hair products with a stylist-driven distribution model and a 30-day return policy, running its storefront on Shopify at shop.mayvenn.com. The company does not currently publish a public first-party developer API; this profile captures its web identity, security posture, and commercial link surface for the API Evangelist network.",
@@ -2228,51 +2279,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "L'Oréal",
-     "slug": "loreal",
-     "description": "L'Oréal is the world's largest cosmetics and beauty company, producing skincare, makeup, haircare, and fragrance products. The group operates a portfolio of over 35 brands, including Lancôme, Maybelline, Garnier, NYX Professional Makeup, Kérastase, La Roche-Posay, and Kiehl's, sold in over 150 countries. L'Oréal's primary developer surface is the ModiFace platform (a wholly owned subsidiary), which exposes an AR virtual try-on SDK and API for partner brands and retailers. L'Oréal Group itself does not operate a general-purpose corporate developer portal.",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2300,23 +2307,23 @@
      "rank": 50
     },
     {
-     "name": "SpartanNash",
-     "slug": "spartannash",
-     "description": "SpartanNash is a Byron Center, Michigan food solutions company that operates as both a wholesale grocery distributor and a retail grocer. Its wholesale segment supplies roughly 2,100 independent retail locations, national accounts and e-commerce partners from a network of distribution centers, and through its MDV business it is the leading distributor of grocery products to United States military commissaries and exchanges worldwide. Its retail segment operates roughly 200 corporate-owned supermarkets under banners including Family Fare, Martin's Super Markets, D&W Fresh Market, VG's Grocery, Dan's Supermarket, Family Fresh Market, Needler's Fresh Market, Fresh City Market, Forest Hills Foods and Supermercado Nuestra Familia, alongside pharmacy and fuel centers. Formed by the 2013 merger of Spartan Stores and Nash Finch, the company traded on Nasdaq as SPTN until C&S Wholesale Grocers completed its acquisition of SpartanNash on September 22, 2025; SpartanNash now operates as part of C&S and its corporate web properties are progressively being folded into cswg.com. SpartanNash publishes no public developer program, API documentation or machine-readable API contract; supplier and customer system integration is transacted over EDI through trading-partner onboarding rather than a public API.",
+     "name": "L'Oréal",
+     "slug": "loreal",
+     "description": "L'Oréal is the world's largest cosmetics and beauty company, producing skincare, makeup, haircare, and fragrance products. The group operates a portfolio of over 35 brands, including Lancôme, Maybelline, Garnier, NYX Professional Makeup, Kérastase, La Roche-Posay, and Kiehl's, sold in over 150 countries. L'Oréal's primary developer surface is the ModiFace platform (a wholly owned subsidiary), which exposes an AR virtual try-on SDK and API for partner brands and retailers. L'Oréal Group itself does not operate a general-purpose corporate developer portal.",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2344,23 +2351,24 @@
      "rank": 51
     },
     {
-     "name": "TreeHouse Foods",
-     "slug": "treehouse-foods",
-     "description": "TreeHouse Foods is one of the largest manufacturers of private label packaged foods and beverages in North America, producing snack and convenience foods for retail grocery and foodservice customers. The company is publicly traded on the NYSE (THS) and is headquartered in Oak Brook, Illinois. TreeHouse Foods produces over 1,600 SKUs across snacking, beverage, and meal preparation categories.",
-     "score": 11.6,
+     "name": "SpartanNash",
+     "slug": "spartannash",
+     "description": "SpartanNash is a Byron Center, Michigan food solutions company that operates as both a wholesale grocery distributor and a retail grocer. Its wholesale segment supplies roughly 2,100 independent retail locations, national accounts and e-commerce partners from a network of distribution centers, and through its MDV business it is the leading distributor of grocery products to United States military commissaries and exchanges worldwide. Its retail segment operates roughly 200 corporate-owned supermarkets under banners including Family Fare, Martin's Super Markets, D&W Fresh Market, VG's Grocery, Dan's Supermarket, Family Fresh Market, Needler's Fresh Market, Fresh City Market, Forest Hills Foods and Supermercado Nuestra Familia, alongside pharmacy and fuel centers. Formed by the 2013 merger of Spartan Stores and Nash Finch, the company traded on Nasdaq as SPTN until C&S Wholesale Grocers completed its acquisition of SpartanNash on September 22, 2025; SpartanNash now operates as part of C&S and its corporate web properties are progressively being folded into cswg.com. SpartanNash publishes no public developer program, API documentation or machine-readable API contract; supplier and customer system integration is transacted over EDI through trading-partner onboarding rather than a public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spartannash/refs/heads/main/screenshots/spartannash-2026-09-02T160340.png",
+     "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 10.7,
-      "governance": 15.2,
-      "contract_governance": 15.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2388,6 +2396,50 @@
      "rank": 52
     },
     {
+     "name": "TreeHouse Foods",
+     "slug": "treehouse-foods",
+     "description": "TreeHouse Foods is one of the largest manufacturers of private label packaged foods and beverages in North America, producing snack and convenience foods for retail grocery and foodservice customers. The company is publicly traded on the NYSE (THS) and is headquartered in Oak Brook, Illinois. TreeHouse Foods produces over 1,600 SKUs across snacking, beverage, and meal preparation categories.",
+     "score": 11.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
+    },
+    {
      "name": "Central Garden and Pet",
      "slug": "central-garden-and-pet",
      "description": "Central Garden and Pet is a major US corporation and Fortune 1000 company. The Central Garden and Pet API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -2405,52 +2457,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Energizer Holdings",
-     "slug": "energizer-holdings",
-     "description": "Energizer Holdings is a major US corporation and Fortune 1000 company. The Energizer Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energizer-holdings/refs/heads/main/screenshots/energizer-holdings-2026-06-20T180707.png",
-     "score": 11.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2478,69 +2485,24 @@
      "rank": 54
     },
     {
-     "name": "RPM International",
-     "slug": "rpm-international",
-     "description": "RPM International Inc. is a multinational specialty coatings and sealants company headquartered in Medina, Ohio, with annual revenues of approximately $7.4 billion. RPM operates a portfolio of over 100 leading brands across three segments: Consumer (Rust-Oleum, DAP, Zinsser), Construction (Tremco, Dryvit, Flowcrete), and Performance Coatings (Carboline, Stonhard, Plasite). RPM International does not currently offer a public developer API, but its subsidiaries and brands serve the construction, maintenance, and protective coatings markets globally.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/screenshots/rpm-international-2026-06-20T193235.png",
+     "name": "Energizer Holdings",
+     "slug": "energizer-holdings",
+     "description": "Energizer Holdings is a major US corporation and Fortune 1000 company. The Energizer Holdings API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/energizer-holdings/refs/heads/main/screenshots/energizer-holdings-2026-06-20T180707.png",
      "score": 11.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 10.7,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Nike",
-     "slug": "nike",
-     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
-     "score": 11.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 53.7,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2565,37 +2527,27 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 109,
-   "shown": 109,
-   "providers": [
+     "rank": 55
+    },
     {
-     "name": "Chobani",
-     "slug": "chobani",
-     "description": "Chobani is an American food and beverage company founded in 2005 by Hamdi Ulukaya, best known for popularizing strained Greek yogurt in the United States and for operating what it describes as the world's largest yogurt facility in Twin Falls, Idaho. Its portfolio spans Greek yogurt, oat milk, plant-based yogurt, probiotic drinks, nutritional shakes, and — following the 2023 acquisition of La Colombe Coffee Roasters — ready-to-drink coffee. Chobani sells through retail grocery, an away-from-home foodservice channel, Chobani Cafe locations, and a direct-to-consumer shop. Chobani is a privately held consumer packaged goods manufacturer and does not operate a public developer program: it publishes no developer portal, API documentation, machine-readable API contract, SDKs, or public webhook surface, and integrates with retail and distribution partners through EDI and private supply-chain connections rather than an open API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chobani/refs/heads/main/screenshots/chobani-2026-08-07T163320.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "name": "RPM International",
+     "slug": "rpm-international",
+     "description": "RPM International Inc. is a multinational specialty coatings and sealants company headquartered in Medina, Ohio, with annual revenues of approximately $7.4 billion. RPM operates a portfolio of over 100 leading brands across three segments: Consumer (Rust-Oleum, DAP, Zinsser), Construction (Tremco, Dryvit, Flowcrete), and Performance Coatings (Carboline, Stonhard, Plasite). RPM International does not currently offer a public developer API, but its subsidiaries and brands serve the construction, maintenance, and protective coatings markets globally.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rpm-international/refs/heads/main/screenshots/rpm-international-2026-06-20T193235.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "governance": 25.0,
+      "contract_governance": 25.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2620,7 +2572,107 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 56
+    },
+    {
+     "name": "Nike",
+     "slug": "nike",
+     "description": "Nike is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment, designing, developing, and marketing products under the Nike, Jordan, and Converse brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nike/refs/heads/main/screenshots/nike-2026-06-20T190340.png",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 57
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 108,
+   "shown": 108,
+   "providers": [
+    {
+     "name": "Chobani",
+     "slug": "chobani",
+     "description": "Chobani is an American food and beverage company founded in 2005 by Hamdi Ulukaya, best known for popularizing strained Greek yogurt in the United States and for operating what it describes as the world's largest yogurt facility in Twin Falls, Idaho. Its portfolio spans Greek yogurt, oat milk, plant-based yogurt, probiotic drinks, nutritional shakes, and — following the 2023 acquisition of La Colombe Coffee Roasters — ready-to-drink coffee. Chobani sells through retail grocery, an away-from-home foodservice channel, Chobani Cafe locations, and a direct-to-consumer shop. Chobani is a privately held consumer packaged goods manufacturer and does not operate a public developer program: it publishes no developer portal, API documentation, machine-readable API contract, SDKs, or public webhook surface, and integrates with retail and distribution partners through EDI and private supply-chain connections rather than an open API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chobani/refs/heads/main/screenshots/chobani-2026-08-07T163320.png",
+     "score": 10.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
     },
     {
      "name": "PharmaCann",
@@ -2640,7 +2692,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2672,7 +2724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Everdrop",
@@ -2692,52 +2744,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Martie",
-     "slug": "martie",
-     "description": "Martie is a woman-owned, San Francisco-based online discount grocery marketplace founded in 2021 to fight food waste and make quality goods accessible and affordable. Martie works directly with brands on their overstock, surplus, seasonal, and old-packaging inventory — pantry staples, beauty, and household goods — and resells it to consumers at up to 80% off retail with no membership or subscription required. Shoppers browse daily deals through the martie.com website or the Martie iOS and Android apps. The company reports having diverted over five million pounds of food from landfill since launch. Martie is a direct-to-consumer e-commerce brand (a Shopify-hosted storefront) and does not currently publish a public developer platform, API, or documentation surface; this profile was surfaced as a Seedcamp portfolio company and enriched with company identity plus a domain-security probe.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/martie/refs/heads/main/screenshots/martie-2026-08-07T172115.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2765,10 +2772,10 @@
      "rank": 60
     },
     {
-     "name": "One Five",
-     "slug": "one-five",
-     "description": "One Five (styled one.five) is a sustainable packaging technology company based in Holm, Germany that pairs an AI-driven decision platform, Quartermaster, with ready-to-use recyclable and compostable packaging products. The Quartermaster platform embeds product-market-fit and material analysis into packaging development to accelerate material scouting and packing trials, helping consumer brands cut R&D spend, improve customer acquisition efficiency, and meet emerging packaging regulations while reducing environmental impact. One Five ships flexible sustainable packaging for categories such as dishwasher tablets and gummies through partners including Bluemorph and Glassleaf, and is backed by Speedinvest. The company offers no public developer API, SDKs, or developer portal at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/one-five/refs/heads/main/screenshots/one-five-2026-08-07T190242.png",
+     "name": "Martie",
+     "slug": "martie",
+     "description": "Martie is a woman-owned, San Francisco-based online discount grocery marketplace founded in 2021 to fight food waste and make quality goods accessible and affordable. Martie works directly with brands on their overstock, surplus, seasonal, and old-packaging inventory — pantry staples, beauty, and household goods — and resells it to consumers at up to 80% off retail with no membership or subscription required. Shoppers browse daily deals through the martie.com website or the Martie iOS and Android apps. The company reports having diverted over five million pounds of food from landfill since launch. Martie is a direct-to-consumer e-commerce brand (a Shopify-hosted storefront) and does not currently publish a public developer platform, API, or documentation surface; this profile was surfaced as a Seedcamp portfolio company and enriched with company identity plus a domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/martie/refs/heads/main/screenshots/martie-2026-08-07T172115.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2782,7 +2789,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2810,55 +2817,11 @@
      "rank": 61
     },
     {
-     "name": "P&G",
-     "slug": "p-g",
-     "description": "Procter & Gamble provides an API Marketplace - the central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/screenshots/p-g-2026-06-20T191300.png",
-     "score": 10.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 62
-    },
-    {
-     "name": "Sealed Air",
-     "slug": "sealed-air",
-     "description": "Sealed Air Corporation (SEE) is a global packaging company headquartered in Charlotte, North Carolina, now privately held following its acquisition by Clayton, Dubilier & Rice. It designs and manufactures food packaging, protective packaging and automated packaging equipment under the Bubble Wrap, Cryovac, AutoBag, Liquibox and NexCel brands, and pairs them with digital services including SEE Smart Service Link for connected-equipment monitoring and prismiq for digital printing and smart packaging. Its developer surface is an Azure API Management program at developer.sealedair.com whose API catalog requires a portal account, so no public OpenAPI, reference or SDK is available to an unauthenticated integrator.",
-     "score": 10.4,
+     "name": "One Five",
+     "slug": "one-five",
+     "description": "One Five (styled one.five) is a sustainable packaging technology company based in Holm, Germany that pairs an AI-driven decision platform, Quartermaster, with ready-to-use recyclable and compostable packaging products. The Quartermaster platform embeds product-market-fit and material analysis into packaging development to accelerate material scouting and packing trials, helping consumer brands cut R&D spend, improve customer acquisition efficiency, and meet emerging packaging regulations while reducing environmental impact. One Five ships flexible sustainable packaging for categories such as dishwasher tablets and gummies through partners including Bluemorph and Glassleaf, and is backed by Speedinvest. The company offers no public developer API, SDKs, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/one-five/refs/heads/main/screenshots/one-five-2026-08-07T190242.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2867,55 +2830,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 5.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Thrasio",
-     "slug": "thrasio",
-     "description": "Thrasio is a consumer products company founded in 2018 and headquartered in Walpole, Massachusetts, that acquires and operates e-commerce-native consumer brands — principally Amazon marketplace sellers — and then scales them with data science, supply-chain and marketing operations. The company states it is one of Amazon's top five sellers, that its products reach more than 80 million households, and that it sells across 150+ retailers. Thrasio is a brand aggregator and operator rather than a software vendor: it publishes no developer portal, no public API, no SDKs and no machine-readable specifications, and its own marketplace integrations run over Amazon's Selling Partner API rather than over any Thrasio-published interface.",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2940,14 +2859,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 62
     },
     {
-     "name": "Public Goods",
-     "slug": "public-goods",
-     "description": "Public Goods is a direct-to-consumer e-commerce retailer selling household essentials, personal care, and home products under its own private label, with an emphasis on natural formulations, simplified ingredient lists, minimalist packaging, and sustainable sourcing. The company operates a membership model (an annual fee unlocking member pricing, free shipping, and store credit) and a wholesale channel. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As a consumer retail brand it publishes no developer API, SDK, or technical documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-goods/refs/heads/main/screenshots/public-goods-2026-09-02T152313.png",
-     "score": 10.2,
+     "name": "P&G",
+     "slug": "p-g",
+     "description": "Procter & Gamble provides an API Marketplace - the central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/screenshots/p-g-2026-06-20T191300.png",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
+    },
+    {
+     "name": "Sealed Air",
+     "slug": "sealed-air",
+     "description": "Sealed Air Corporation (SEE) is a global packaging company headquartered in Charlotte, North Carolina, now privately held following its acquisition by Clayton, Dubilier & Rice. It designs and manufactures food packaging, protective packaging and automated packaging equipment under the Bubble Wrap, Cryovac, AutoBag, Liquibox and NexCel brands, and pairs them with digital services including SEE Smart Service Link for connected-equipment monitoring and prismiq for digital printing and smart packaging. Its developer surface is an Azure API Management program at developer.sealedair.com whose API catalog requires a portal account, so no public OpenAPI, reference or SDK is available to an unauthenticated integrator.",
+     "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2956,11 +2919,56 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "Thrasio",
+     "slug": "thrasio",
+     "description": "Thrasio is a consumer products company founded in 2018 and headquartered in Walpole, Massachusetts, that acquires and operates e-commerce-native consumer brands — principally Amazon marketplace sellers — and then scales them with data science, supply-chain and marketing operations. The company states it is one of Amazon's top five sellers, that its products reach more than 80 million households, and that it sells across 150+ retailers. Thrasio is a brand aggregator and operator rather than a software vendor: it publishes no developer portal, no public API, no SDKs and no machine-readable specifications, and its own marketplace integrations run over Amazon's Selling Partner API rather than over any Thrasio-published interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrasio/refs/heads/main/screenshots/thrasio-2026-09-02T163558.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2988,9 +2996,10 @@
      "rank": 65
     },
     {
-     "name": "smol",
-     "slug": "smolproducts",
-     "description": "smol (smol.com, formerly reachable via smolproducts.com) is a UK-based Certified B Corporation direct-to-consumer home cleaning brand founded in 2018 by ex-Unilever product leaders. It sells concentrated, eco-conscious laundry capsules, dishwasher tablets, and household cleaning products on a letterbox subscription model designed to cut plastic, carbon, and chemical waste. smol runs a consumer e-commerce storefront and a Zendesk help centre only; enrichment found no public developer API, OpenAPI definition, SDKs, webhooks, or agent/MCP surface.",
+     "name": "Public Goods",
+     "slug": "public-goods",
+     "description": "Public Goods is a direct-to-consumer e-commerce retailer selling household essentials, personal care, and home products under its own private label, with an emphasis on natural formulations, simplified ingredient lists, minimalist packaging, and sustainable sourcing. The company operates a membership model (an annual fee unlocking member pricing, free shipping, and store credit) and a wholesale channel. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As a consumer retail brand it publishes no developer API, SDK, or technical documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/public-goods/refs/heads/main/screenshots/public-goods-2026-09-02T152313.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3004,7 +3013,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3032,9 +3041,10 @@
      "rank": 66
     },
     {
-     "name": "The Scotts Miracle-Gro Company",
-     "slug": "scotts-miracle-gro",
-     "description": "The Scotts Miracle-Gro Company is the world's largest marketer of branded consumer lawn and garden products, with brands including Scotts, Miracle-Gro, Ortho, Roundup and Tomcat. It is a physical consumer-goods manufacturer and retailer: its digital surface is a Salesforce Commerce Cloud storefront and corporate site at scottsmiraclegro.com, plus end-user mobile apps. It publishes no developer program, no public API, and no machine-readable contract. The one developer-facing surface it ever marketed — the open API for the GRO connected smart-watering platform (Gro 7 Zone Controller, Gro Water Sensors) — had its cloud service discontinued on 2021-12-30 and its hosts no longer resolve. The Hawthorne Gardening Company subsidiary was divested to Vireo Growth in April 2026 and is no longer part of this company's surface.",
+     "name": "smol",
+     "slug": "smolproducts",
+     "description": "smol (smol.com, formerly reachable via smolproducts.com) is a UK-based Certified B Corporation direct-to-consumer home cleaning brand founded in 2018 by ex-Unilever product leaders. It sells concentrated, eco-conscious laundry capsules, dishwasher tablets, and household cleaning products on a letterbox subscription model designed to cut plastic, carbon, and chemical waste. smol runs a consumer e-commerce storefront and a Zendesk help centre only; enrichment found no public developer API, OpenAPI definition, SDKs, webhooks, or agent/MCP surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smolproducts/refs/heads/main/screenshots/smolproducts-2026-09-02T155950.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3048,7 +3058,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3076,11 +3086,10 @@
      "rank": 67
     },
     {
-     "name": "In Your Shoe",
-     "slug": "in-your-shoe",
-     "description": "In Your Shoe is an Egyptian streetwear and apparel brand, founded in 2018 and based in Cairo, Egypt, that designs and sells playful, statement-driven ready-to-wear pieces — oversized and boxy tees, shirts, jeans, jorts, loungewear, kids' lines, and accessories — letting Millennials and Gen-Z express themselves through high-quality, self-expressive fashion. The company sells direct-to-consumer through a Shopify storefront and is backed by 500 Global and the Misk 500 MENA Accelerator. It publishes no first-party developer API, SDK, or documentation surface; this profile captures its identity and public web properties for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/in-your-shoe/refs/heads/main/screenshots/in-your-shoe-2026-08-07T170650.png",
-     "score": 9.7,
+     "name": "The Scotts Miracle-Gro Company",
+     "slug": "scotts-miracle-gro",
+     "description": "The Scotts Miracle-Gro Company is the world's largest marketer of branded consumer lawn and garden products, with brands including Scotts, Miracle-Gro, Ortho, Roundup and Tomcat. It is a physical consumer-goods manufacturer and retailer: its digital surface is a Salesforce Commerce Cloud storefront and corporate site at scottsmiraclegro.com, plus end-user mobile apps. It publishes no developer program, no public API, and no machine-readable contract. The one developer-facing surface it ever marketed — the open API for the GRO connected smart-watering platform (Gro 7 Zone Controller, Gro Water Sensors) — had its cloud service discontinued on 2021-12-30 and its hosts no longer resolve. The Hawthorne Gardening Company subsidiary was divested to Vireo Growth in April 2026 and is no longer part of this company's surface.",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3089,11 +3098,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3121,24 +3130,24 @@
      "rank": 68
     },
     {
-     "name": "Bloom & Wild",
-     "slug": "bloom--wild",
-     "description": "Bloom & Wild is a British direct-to-consumer online florist and gifting brand founded in 2013 by Aron Gelbard and Ben Stanway, best known for pioneering letterbox flowers — bouquets packed flat so they fit through a UK letterbox — alongside hand-tied bouquets, plants, gift sets, gift cards and recurring flower subscriptions. Bloom & Wild Group trades as Bloom & Wild in the United Kingdom, Ireland, Germany and Austria, and operates the sister brands bloomon (Netherlands, Belgium, Denmark) and Bergamotte (France) on separate storefronts. The group is a certified B Corp and runs its own commerce platform — a Ruby on Rails backend fronted by Kong, an Angular multi-brand web app and native iOS and Android clients, on AWS and GCP. Bloom & Wild publishes NO public developer portal, no API documentation, no OpenAPI or other machine-readable API description, and no partner or corporate-gifting API: business and bulk gifting is transacted through a contact form, an account manager and invoicing, not through a programmatic surface. The application backends at api.bloomandwild.com and capi.bloomandwild.com are live but private to the brand's own clients and undocumented. What the group does publish for machines is narrow but real: an llms.txt on the UK and German storefronts that routes assistants to the correct market by delivery destination and even ships an optional agent widget specification, and an RFC 9116 security.txt served across every group storefront.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloom--wild/refs/heads/main/screenshots/bloom--wild-2026-08-07T162636.png",
-     "score": 9.6,
+     "name": "In Your Shoe",
+     "slug": "in-your-shoe",
+     "description": "In Your Shoe is an Egyptian streetwear and apparel brand, founded in 2018 and based in Cairo, Egypt, that designs and sells playful, statement-driven ready-to-wear pieces — oversized and boxy tees, shirts, jeans, jorts, loungewear, kids' lines, and accessories — letting Millennials and Gen-Z express themselves through high-quality, self-expressive fashion. The company sells direct-to-consumer through a Shopify storefront and is backed by 500 Global and the Misk 500 MENA Accelerator. It publishes no first-party developer API, SDK, or documentation surface; this profile captures its identity and public web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/in-your-shoe/refs/heads/main/screenshots/in-your-shoe-2026-08-07T170650.png",
+     "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3166,24 +3175,24 @@
      "rank": 69
     },
     {
-     "name": "Kimberly-Clark",
-     "slug": "kimberly-clark",
-     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
+     "name": "Bloom & Wild",
+     "slug": "bloom--wild",
+     "description": "Bloom & Wild is a British direct-to-consumer online florist and gifting brand founded in 2013 by Aron Gelbard and Ben Stanway, best known for pioneering letterbox flowers — bouquets packed flat so they fit through a UK letterbox — alongside hand-tied bouquets, plants, gift sets, gift cards and recurring flower subscriptions. Bloom & Wild Group trades as Bloom & Wild in the United Kingdom, Ireland, Germany and Austria, and operates the sister brands bloomon (Netherlands, Belgium, Denmark) and Bergamotte (France) on separate storefronts. The group is a certified B Corp and runs its own commerce platform — a Ruby on Rails backend fronted by Kong, an Angular multi-brand web app and native iOS and Android clients, on AWS and GCP. Bloom & Wild publishes NO public developer portal, no API documentation, no OpenAPI or other machine-readable API description, and no partner or corporate-gifting API: business and bulk gifting is transacted through a contact form, an account manager and invoicing, not through a programmatic surface. The application backends at api.bloomandwild.com and capi.bloomandwild.com are live but private to the brand's own clients and undocumented. What the group does publish for machines is narrow but real: an llms.txt on the UK and German storefronts that routes assistants to the correct market by delivery destination and even ships an optional agent widget specification, and an RFC 9116 security.txt served across every group storefront.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloom--wild/refs/heads/main/screenshots/bloom--wild-2026-08-07T162636.png",
      "score": 9.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3211,69 +3220,24 @@
      "rank": 70
     },
     {
-     "name": "Campbell Soup",
-     "slug": "campbell-soup",
-     "description": "Campbell Soup Company (now rebranded as The Campbell's Company) is a manufacturer and marketer of high-quality branded convenience food products, including soups, simple meals, beverages, snacks, and packaged fresh foods under brands such as Campbell's, Swanson, Pace, Prego, V8, Pepperidge Farm, Goldfish, and Snyder's of Hanover. Historically Campbell's ran a public Campbell's Kitchen Developer API exposing recipes, products, UPC lookup, and nutrition data for web and mobile integrations, though current availability of the public developer portal varies and typically requires partner access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/screenshots/campbell-soup-2026-06-20T173906.png",
-     "score": 9.4,
+     "name": "Kimberly-Clark",
+     "slug": "kimberly-clark",
+     "description": "Kimberly-Clark is a global personal care and consumer tissue company with brands including Huggies, Kleenex, Scott, Kotex, Cottonelle, Poise, Depend, and Pull-Ups. No public APIs or developer portal have been identified for Kimberly-Clark; this repository tracks corporate, supplier, and integration surfaces for ongoing API discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kimberly-clark/refs/heads/main/screenshots/kimberly-clark-2026-07-25T223748.png",
+     "score": 9.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 71
-    },
-    {
-     "name": "Kontoor Brands",
-     "slug": "kontoor-brands",
-     "description": "Kontoor Brands, Inc. is a global lifestyle apparel company with a portfolio of iconic denim and casual apparel brands including Wrangler, Lee, and Rock & Republic. Headquartered in Greensboro, North Carolina, the company designs, manufactures, sources, markets, and distributes its apparel products worldwide through wholesale, retail, and direct-to-consumer channels. Kontoor Brands does not currently publish a public developer API or documentation portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kontoor-brands/refs/heads/main/screenshots/kontoor-brands-2026-06-20T184137.png",
-     "score": 9.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3298,27 +3262,72 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
-     "name": "Razor Group",
-     "slug": "razor-group",
-     "description": "Razor Group (Whele LLC) is a Berlin- and Boston-headquartered consumer goods holding company that acquires, consolidates and scales profitable e-commerce brands selling on Amazon FBA, Walmart, Target, Chewy and other online marketplaces. Founded in 2020, the company has raised over $1 billion, employs 450+ people across five offices in Europe, North America and Asia, and operates more than 40,000 SKUs across brands including GymKeg, POWRX, Tranquil Spa and Porto Vino. In August 2025 Razor merged with Infinite Commerce to form the largest consolidator in the FBA aggregator space, operating a unified internal technology platform for demand forecasting, pricing and advertising. Razor Group is a buyer and operator of physical consumer products, not a software vendor: it publishes no public API, SDK, webhook surface or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/razor-group/refs/heads/main/screenshots/razor-group-2026-09-02T152932.png",
-     "score": 8.7,
+     "name": "Campbell Soup",
+     "slug": "campbell-soup",
+     "description": "Campbell Soup Company (now rebranded as The Campbell's Company) is a manufacturer and marketer of high-quality branded convenience food products, including soups, simple meals, beverages, snacks, and packaged fresh foods under brands such as Campbell's, Swanson, Pace, Prego, V8, Pepperidge Farm, Goldfish, and Snyder's of Hanover. Historically Campbell's ran a public Campbell's Kitchen Developer API exposing recipes, products, UPC lookup, and nutrition data for web and mobile integrations, though current availability of the public developer portal varies and typically requires partner access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/campbell-soup/refs/heads/main/screenshots/campbell-soup-2026-06-20T173906.png",
+     "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "Kontoor Brands",
+     "slug": "kontoor-brands",
+     "description": "Kontoor Brands, Inc. is a global lifestyle apparel company with a portfolio of iconic denim and casual apparel brands including Wrangler, Lee, and Rock & Republic. Headquartered in Greensboro, North Carolina, the company designs, manufactures, sources, markets, and distributes its apparel products worldwide through wholesale, retail, and direct-to-consumer channels. Kontoor Brands does not currently publish a public developer API or documentation portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kontoor-brands/refs/heads/main/screenshots/kontoor-brands-2026-06-20T184137.png",
+     "score": 9.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3346,9 +3355,10 @@
      "rank": 73
     },
     {
-     "name": "Una Brands",
-     "slug": "una-brands",
-     "description": "Una Brands is a Singapore-headquartered, digital-age e-commerce house of brands that acquires and operates consumer e-commerce businesses across the APAC region, accelerating their growth with operational expertise and AI-led innovation from teams in Singapore, China, and Indonesia. The company publishes no public developer API, but its website ships an llms.txt and a live Wix Site MCP endpoint that lets AI agents retrieve business details, search products and services, book appointments, and start purchases.",
+     "name": "Razor Group",
+     "slug": "razor-group",
+     "description": "Razor Group (Whele LLC) is a Berlin- and Boston-headquartered consumer goods holding company that acquires, consolidates and scales profitable e-commerce brands selling on Amazon FBA, Walmart, Target, Chewy and other online marketplaces. Founded in 2020, the company has raised over $1 billion, employs 450+ people across five offices in Europe, North America and Asia, and operates more than 40,000 SKUs across brands including GymKeg, POWRX, Tranquil Spa and Porto Vino. In August 2025 Razor merged with Infinite Commerce to form the largest consolidator in the FBA aggregator space, operating a unified internal technology platform for demand forecasting, pricing and advertising. Razor Group is a buyer and operator of physical consumer products, not a software vendor: it publishes no public API, SDK, webhook surface or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/razor-group/refs/heads/main/screenshots/razor-group-2026-09-02T152932.png",
      "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3362,96 +3372,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 3.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 74
-    },
-    {
-     "name": "Tamara Mellon",
-     "slug": "tamara-mellon",
-     "description": "Tamara Mellon Brand, Inc. is a Los Angeles based direct-to-consumer luxury footwear company founded in 2016 by designer Tamara Mellon, co-founder of Jimmy Choo, together with chief executive Jill Layfield. The brand sells Italian-made women's shoes and accessories straight to customers online rather than through wholesale, releasing product in monthly drops instead of following the traditional fashion calendar, and it is reported to have raised roughly $87 million in venture funding after the earlier Tamara Mellon LLC filed for Chapter 11 in 2015. In August 2025 the company announced a licensing and operating partnership with footwear licensing firm Titan Industries. It is a consumer goods retailer rather than a software company: it publishes no public API, developer portal, SDK, or machine-readable specification of any kind. As probed on 2026-08-29 its canonical domain returns HTTP 404 on every path from an unprovisioned CDN origin, and its Shopify storefront at shop.tamaramellon.com redirects to a store password gate.",
-     "score": 8.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 17.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 75
-    },
-    {
-     "name": "Huckberry",
-     "slug": "huckberry",
-     "description": "Huckberry is an American direct-to-consumer online retailer of men's apparel, outdoor gear and lifestyle goods, founded in 2010 by Andy Forch and Richard Greiner and headquartered in San Francisco with offices in Austin and Columbus. It pairs a first-party e-commerce storefront with a large editorial operation — the Huckberry Journal — and an in-house brand portfolio, selling an \"everyday adventure\" assortment that sits between traditional outdoor retail and menswear. Huckberry is a retailer, not a software vendor: it publishes no developer program, no public API, no SDK and no machine-readable contract. Its public GitHub organization (Huckberry Inc) holds eight repositories, seven of them forks of third-party Ruby e-commerce gems — Solidus AvaTax, Affirm, Paperclip, omniauth-slack — which evidence a self-hosted Ruby storefront rather than a published platform. Partner and affiliate integration is outsourced to the Partnerize network, and customer self-service runs on a Zendesk help center tenant at help.huckberry.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huckberry/refs/heads/main/screenshots/huckberry-2026-09-02T145800.png",
-     "score": 8.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3476,26 +3397,117 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
-     "name": "Reynolds American",
-     "slug": "reynolds-american",
-     "description": "Reynolds American Inc. is the second-largest tobacco company in the United States and a subsidiary of British American Tobacco (BAT). Its subsidiaries include R.J. Reynolds Tobacco Company (Camel, Newport, Pall Mall), American Snuff Company (Grizzly, Kodiak), Santa Fe Natural Tobacco Company (Natural American Spirit), and R.J. Reynolds Vapor Company. Reynolds American does not offer a public developer API or data services.",
-     "score": 7.9,
+     "name": "Una Brands",
+     "slug": "una-brands",
+     "description": "Una Brands is a Singapore-headquartered, digital-age e-commerce house of brands that acquires and operates consumer e-commerce businesses across the APAC region, accelerating their growth with operational expertise and AI-led innovation from teams in Singapore, China, and Indonesia. The company publishes no public developer API, but its website ships an llms.txt and a live Wix Site MCP endpoint that lets AI agents retrieve business details, search products and services, book appointments, and start purchases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/una-brands/refs/heads/main/screenshots/una-brands-2026-09-02T164825.png",
+     "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 10.7,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 0.0,
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 3.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 75
+    },
+    {
+     "name": "Tamara Mellon",
+     "slug": "tamara-mellon",
+     "description": "Tamara Mellon Brand, Inc. is a Los Angeles based direct-to-consumer luxury footwear company founded in 2016 by designer Tamara Mellon, co-founder of Jimmy Choo, together with chief executive Jill Layfield. The brand sells Italian-made women's shoes and accessories straight to customers online rather than through wholesale, releasing product in monthly drops instead of following the traditional fashion calendar, and it is reported to have raised roughly $87 million in venture funding after the earlier Tamara Mellon LLC filed for Chapter 11 in 2015. In August 2025 the company announced a licensing and operating partnership with footwear licensing firm Titan Industries. It is a consumer goods retailer rather than a software company: it publishes no public API, developer portal, SDK, or machine-readable specification of any kind. As probed on 2026-08-29 its canonical domain returns HTTP 404 on every path from an unprovisioned CDN origin, and its Shopify storefront at shop.tamaramellon.com redirects to a store password gate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tamara-mellon/refs/heads/main/screenshots/tamara-mellon-2026-09-02T162509.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 17.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "Huckberry",
+     "slug": "huckberry",
+     "description": "Huckberry is an American direct-to-consumer online retailer of men's apparel, outdoor gear and lifestyle goods, founded in 2010 by Andy Forch and Richard Greiner and headquartered in San Francisco with offices in Austin and Columbus. It pairs a first-party e-commerce storefront with a large editorial operation — the Huckberry Journal — and an in-house brand portfolio, selling an \"everyday adventure\" assortment that sits between traditional outdoor retail and menswear. Huckberry is a retailer, not a software vendor: it publishes no developer program, no public API, no SDK and no machine-readable contract. Its public GitHub organization (Huckberry Inc) holds eight repositories, seven of them forks of third-party Ruby e-commerce gems — Solidus AvaTax, Affirm, Paperclip, omniauth-slack — which evidence a self-hosted Ruby storefront rather than a published platform. Partner and affiliate integration is outsourced to the Partnerize network, and customer self-service runs on a Zendesk help center tenant at help.huckberry.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huckberry/refs/heads/main/screenshots/huckberry-2026-09-02T145800.png",
+     "score": 8.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3523,24 +3535,23 @@
      "rank": 77
     },
     {
-     "name": "Bunge",
-     "slug": "bunge",
-     "description": "Bunge Global SA is a multinational agribusiness and food company connecting farmers to consumers by sourcing, processing, and supplying oilseed and grain products. Operates across grain origination, oilseed processing, refined and specialty oils, milling, sugarcane and biofuel production, and fertilizer sales. In 2025 Bunge completed its merger with Viterra to create a major global agricultural trading and processing platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunge/refs/heads/main/screenshots/bunge-2026-06-20T173759.png",
-     "score": 7.8,
+     "name": "Reynolds American",
+     "slug": "reynolds-american",
+     "description": "Reynolds American Inc. is the second-largest tobacco company in the United States and a subsidiary of British American Tobacco (BAT). Its subsidiaries include R.J. Reynolds Tobacco Company (Camel, Newport, Pall Mall), American Snuff Company (Grizzly, Kodiak), Santa Fe Natural Tobacco Company (Natural American Spirit), and R.J. Reynolds Vapor Company. Reynolds American does not offer a public developer API or data services.",
+     "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "discoverability": 40.7,
+      "contract_quality": 10.7,
+      "governance": 9.8,
+      "contract_governance": 9.8,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3568,24 +3579,24 @@
      "rank": 78
     },
     {
-     "name": "Crown Holdings",
-     "slug": "crown",
-     "description": "Crown Holdings, Inc. is a global leader in the design, manufacture, and sale of rigid packaging products for consumer goods, including metal beverage cans and ends, food cans, aerosol cans, specialty closures and promotional tins, as well as transit and protective packaging products for industrial markets. The company operates in more than 40 countries and supports customers with design, decoration, reprographics, compound development, pilot facilities, and seaming training services. Crown Holdings does not publish a public developer API program; technical collaboration with customers happens through B2B and EDI channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crown/refs/heads/main/screenshots/crown-2026-06-20T175252.png",
+     "name": "Bunge",
+     "slug": "bunge",
+     "description": "Bunge Global SA is a multinational agribusiness and food company connecting farmers to consumers by sourcing, processing, and supplying oilseed and grain products. Operates across grain origination, oilseed processing, refined and specialty oils, milling, sugarcane and biofuel production, and fertilizer sales. In 2025 Bunge completed its merger with Viterra to create a major global agricultural trading and processing platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunge/refs/heads/main/screenshots/bunge-2026-06-20T173759.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 59.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3613,24 +3624,24 @@
      "rank": 79
     },
     {
-     "name": "Heineken",
-     "slug": "heineken",
-     "description": "A Dutch multinational brewing company and one of the world's largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis. Maintains an internal HEIWAY API portal (api-portal.production.az.heiway.com) used for partner, distributor, and on-trade B2B integrations; access is gated and not openly published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heineken/refs/heads/main/screenshots/heineken-2026-06-20T182617.png",
-     "score": 7.7,
+     "name": "Crown Holdings",
+     "slug": "crown",
+     "description": "Crown Holdings, Inc. is a global leader in the design, manufacture, and sale of rigid packaging products for consumer goods, including metal beverage cans and ends, food cans, aerosol cans, specialty closures and promotional tins, as well as transit and protective packaging products for industrial markets. The company operates in more than 40 countries and supports customers with design, decoration, reprographics, compound development, pilot facilities, and seaming training services. Crown Holdings does not publish a public developer API program; technical collaboration with customers happens through B2B and EDI channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crown/refs/heads/main/screenshots/crown-2026-06-20T175252.png",
+     "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3658,23 +3669,24 @@
      "rank": 80
     },
     {
-     "name": "Silgan Holdings",
-     "slug": "silgan-holdings",
-     "description": "Silgan Holdings Inc. is a leading global sustainable packaging provider for consumer goods products. The company partners with customers to deliver essential products to the world in efficient, sustainable, and cost-effective packaging formats. Silgan operates through three primary business segments: Dispensing and Specialty Closures, Metal Containers, and Custom Containers. With 123 manufacturing facilities on four continents, over 17,200 employees, and approximately $6 billion in annual sales, Silgan serves the food, beverage, healthcare, home and garden, personal care, fragrance, and beauty end markets.",
+     "name": "Heineken",
+     "slug": "heineken",
+     "description": "A Dutch multinational brewing company and one of the world's largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis. Maintains an internal HEIWAY API portal (api-portal.production.az.heiway.com) used for partner, distributor, and on-trade B2B integrations; access is gated and not openly published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heineken/refs/heads/main/screenshots/heineken-2026-06-20T182617.png",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 10.7,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3702,10 +3714,9 @@
      "rank": 81
     },
     {
-     "name": "WhiteWave Foods",
-     "slug": "whitewave-foods",
-     "description": "The WhiteWave Foods Company was a consumer packaged food and beverage company headquartered in Denver, Colorado. It offered plant-based foods and beverages, coffee creamers, dairy, and organic produce under brands including Silk, So Delicious, Horizon Organic, International Delight, LAND O LAKES, Vega, Wallaby Organic, and Earthbound Farm. WhiteWave was acquired by Danone in April 2017 and is now part of Danone North America.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whitewave-foods/refs/heads/main/screenshots/whitewave-foods-2026-06-20T201443.png",
+     "name": "Silgan Holdings",
+     "slug": "silgan-holdings",
+     "description": "Silgan Holdings Inc. is a leading global sustainable packaging provider for consumer goods products. The company partners with customers to deliver essential products to the world in efficient, sustainable, and cost-effective packaging formats. Silgan operates through three primary business segments: Dispensing and Specialty Closures, Metal Containers, and Custom Containers. With 123 manufacturing facilities on four continents, over 17,200 employees, and approximately $6 billion in annual sales, Silgan serves the food, beverage, healthcare, home and garden, personal care, fragrance, and beauty end markets.",
      "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3719,7 +3730,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3747,24 +3758,24 @@
      "rank": 82
     },
     {
-     "name": "Coty",
-     "slug": "coty",
-     "description": "Coty Inc. is one of the world's largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, skin and body care. The company operates two divisions: Prestige (premium fragrance, cosmetics, and skincare brands such as Gucci, Burberry, Calvin Klein, Hugo Boss, Marc Jacobs, Tiffany, Chloe, Davidoff, Lancaster, philosophy, and Kylie Cosmetics) and Consumer Beauty (mass-market color cosmetics, hair care, and body care brands such as CoverGirl, Rimmel, Max Factor, Sally Hansen, Bourjois, and Adidas). Coty does not publish a public developer API; supplier and partner integrations occur through the Coty Supplier Portal and B2B / EDI channels.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coty/refs/heads/main/screenshots/coty-2026-06-20T175055.png",
-     "score": 7.6,
+     "name": "WhiteWave Foods",
+     "slug": "whitewave-foods",
+     "description": "The WhiteWave Foods Company was a consumer packaged food and beverage company headquartered in Denver, Colorado. It offered plant-based foods and beverages, coffee creamers, dairy, and organic produce under brands including Silk, So Delicious, Horizon Organic, International Delight, LAND O LAKES, Vega, Wallaby Organic, and Earthbound Farm. WhiteWave was acquired by Danone in April 2017 and is now part of Danone North America.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whitewave-foods/refs/heads/main/screenshots/whitewave-foods-2026-06-20T201443.png",
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3792,10 +3803,10 @@
      "rank": 83
     },
     {
-     "name": "Miniso",
-     "slug": "miniso",
-     "description": "MINISO is a global value retailer of lifestyle and consumer products — home goods, accessories, cosmetics, stationery, toys and seasonal items — known for its IP-collaboration merchandise (Harry Potter, PEANUTS, Sanrio, BT21 and others). Founded in Guangzhou, China and publicly listed (NYSE/HKEX), the company operates 7,700+ stores across 112 markets worldwide. Surfaced in the API Evangelist network as a portfolio company of Hillhouse; the public web presence is consumer- and investor-facing and exposes no developer API, developer portal, or partner integration platform at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miniso/refs/heads/main/screenshots/miniso-2026-08-07T172955.png",
+     "name": "Coty",
+     "slug": "coty",
+     "description": "Coty Inc. is one of the world's largest beauty companies with an iconic portfolio of brands across fragrance, color cosmetics, skin and body care. The company operates two divisions: Prestige (premium fragrance, cosmetics, and skincare brands such as Gucci, Burberry, Calvin Klein, Hugo Boss, Marc Jacobs, Tiffany, Chloe, Davidoff, Lancaster, philosophy, and Kylie Cosmetics) and Consumer Beauty (mass-market color cosmetics, hair care, and body care brands such as CoverGirl, Rimmel, Max Factor, Sally Hansen, Bourjois, and Adidas). Coty does not publish a public developer API; supplier and partner integrations occur through the Coty Supplier Portal and B2B / EDI channels.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coty/refs/heads/main/screenshots/coty-2026-06-20T175055.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3809,7 +3820,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3837,11 +3848,11 @@
      "rank": 84
     },
     {
-     "name": "VF Corporation",
-     "slug": "vf",
-     "description": "VF Corporation is a global apparel and footwear company headquartered in Denver, Colorado. VF owns major brands including Vans, The North Face, Timberland, Altra, Eastpak, Icebreaker, JanSport, Kipling, Napapijri, and Smartwool. The company does not offer a public developer API program; its technology integrations are handled through third-party e-commerce platforms and enterprise supply chain systems. VF Corporation operates more than 1,500 stores globally and integrates with platforms such as Shopify, Amazon, Magento, WooCommerce, and BigCommerce via third-party integration services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vf/refs/heads/main/screenshots/vf-2026-06-20T201005.png",
-     "score": 7.4,
+     "name": "Miniso",
+     "slug": "miniso",
+     "description": "MINISO is a global value retailer of lifestyle and consumer products — home goods, accessories, cosmetics, stationery, toys and seasonal items — known for its IP-collaboration merchandise (Harry Potter, PEANUTS, Sanrio, BT21 and others). Founded in Guangzhou, China and publicly listed (NYSE/HKEX), the company operates 7,700+ stores across 112 markets worldwide. Surfaced in the API Evangelist network as a portfolio company of Hillhouse; the public web presence is consumer- and investor-facing and exposes no developer API, developer portal, or partner integration platform at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miniso/refs/heads/main/screenshots/miniso-2026-08-07T172955.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3850,11 +3861,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3882,11 +3893,11 @@
      "rank": 85
     },
     {
-     "name": "Berry Global",
-     "slug": "berry-global",
-     "description": "Berry Global is a leading global manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials for consumer and industrial end markets. In 2024, Berry Global merged with Amcor to form one of the world's largest packaging companies. Berry's products include rigid open top packaging, closures and dispensing systems, flexible packaging, tapes, and engineered materials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berry-global/refs/heads/main/screenshots/berry-global-2026-06-20T173155.png",
-     "score": 7.2,
+     "name": "VF Corporation",
+     "slug": "vf",
+     "description": "VF Corporation is a global apparel and footwear company headquartered in Denver, Colorado. VF owns major brands including Vans, The North Face, Timberland, Altra, Eastpak, Icebreaker, JanSport, Kipling, Napapijri, and Smartwool. The company does not offer a public developer API program; its technology integrations are handled through third-party e-commerce platforms and enterprise supply chain systems. VF Corporation operates more than 1,500 stores globally and integrates with platforms such as Shopify, Amazon, Magento, WooCommerce, and BigCommerce via third-party integration services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vf/refs/heads/main/screenshots/vf-2026-06-20T201005.png",
+     "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3894,12 +3905,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3927,11 +3938,11 @@
      "rank": 86
     },
     {
-     "name": "Peach",
-     "slug": "peach",
-     "description": "Peach (Peach, inc., ticker PEAC on secondary markets) was a Waltham, Massachusetts direct-sales retailer of intimate apparel, basics and athleisure for women, founded in 2013 by Janet Kraus (CEO) and Derek Ohly. It blended an in-home personal-styling experience delivered by a network of independent stylists with an online replenishment storefront at discoverpeach.com, raising roughly $10.2M before winding down. The company has since closed: its own homepage carries a farewell notice (\"Peach has closed its doors\") and refers customers to Cabi Clothing. Peach was a consumer retail brand, not a software vendor — it never operated a developer program, published no API documentation, and no machine-readable contract of any kind was found on its surviving surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peach/refs/heads/main/screenshots/peach-2026-09-02T150926.png",
-     "score": 7.1,
+     "name": "Berry Global",
+     "slug": "berry-global",
+     "description": "Berry Global is a leading global manufacturer and marketer of plastic packaging products, nonwoven specialty materials, and engineered materials for consumer and industrial end markets. In 2024, Berry Global merged with Amcor to form one of the world's largest packaging companies. Berry's products include rigid open top packaging, closures and dispensing systems, flexible packaging, tapes, and engineered materials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berry-global/refs/heads/main/screenshots/berry-global-2026-06-20T173155.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3939,12 +3950,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3972,11 +3983,11 @@
      "rank": 87
     },
     {
-     "name": "Keurig Dr Pepper",
-     "slug": "keurig-dr-pepper",
-     "description": "Keurig Dr Pepper is a leading North American beverage company formed by the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group. It operates a portfolio of more than 125 owned, licensed, partner, and allied brands across hot and cold beverages, including Keurig single-serve brewing systems and brands such as Dr Pepper, 7UP, Snapple, Mott's, Bai, Green Mountain Coffee Roasters, and Peet's Coffee.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keurig-dr-pepper/refs/heads/main/screenshots/keurig-dr-pepper-2026-06-20T184001.png",
-     "score": 6.9,
+     "name": "Peach",
+     "slug": "peach",
+     "description": "Peach (Peach, inc., ticker PEAC on secondary markets) was a Waltham, Massachusetts direct-sales retailer of intimate apparel, basics and athleisure for women, founded in 2013 by Janet Kraus (CEO) and Derek Ohly. It blended an in-home personal-styling experience delivered by a network of independent stylists with an online replenishment storefront at discoverpeach.com, raising roughly $10.2M before winding down. The company has since closed: its own homepage carries a farewell notice (\"Peach has closed its doors\") and refers customers to Cabi Clothing. Peach was a consumer retail brand, not a software vendor — it never operated a developer program, published no API documentation, and no machine-readable contract of any kind was found on its surviving surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peach/refs/heads/main/screenshots/peach-2026-09-02T150926.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3985,11 +3996,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4017,10 +4028,10 @@
      "rank": 88
     },
     {
-     "name": "Sonoco Products",
-     "slug": "sonoco-products",
-     "description": "Sonoco Products Company is a global leader in sustainable metal and fiber consumer and industrial packaging, operating 285 facilities across 40 countries with 23,000+ employees. Products include metal packaging (aerosol cans, steel food cans, closures), rigid paper packaging (paper containers, fiber cartridges), industrial paper packaging (tubes, cores, recycled paperboard), and industrial specialty packaging (plastic components, reels, spools). Serves food and beverage, pet care, household products, beauty, automotive, and industrial markets. A Fortune 500 company (NYSE: SON).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sonoco-products/refs/heads/main/screenshots/sonoco-products-2026-06-20T194207.png",
+     "name": "Keurig Dr Pepper",
+     "slug": "keurig-dr-pepper",
+     "description": "Keurig Dr Pepper is a leading North American beverage company formed by the 2018 merger of Keurig Green Mountain and Dr Pepper Snapple Group. It operates a portfolio of more than 125 owned, licensed, partner, and allied brands across hot and cold beverages, including Keurig single-serve brewing systems and brands such as Dr Pepper, 7UP, Snapple, Mott's, Bai, Green Mountain Coffee Roasters, and Peet's Coffee.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keurig-dr-pepper/refs/heads/main/screenshots/keurig-dr-pepper-2026-06-20T184001.png",
      "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4034,7 +4045,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4062,24 +4073,24 @@
      "rank": 89
     },
     {
-     "name": "American Eagle Outfitters",
-     "slug": "american-eagle-outfitters",
-     "description": "American Eagle Outfitters (AEO) is a global specialty retailer operating the American Eagle and Aerie brands, offering on-trend clothing, accessories, and personal care products at affordable prices. The company operates over 1,000 stores across the Americas and online, with a unified commerce strategy spanning e-commerce, mobile, and in-store experiences.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-eagle-outfitters/refs/heads/main/screenshots/american-eagle-outfitters-2026-06-20T171908.png",
-     "score": 6.7,
+     "name": "Sonoco Products",
+     "slug": "sonoco-products",
+     "description": "Sonoco Products Company is a global leader in sustainable metal and fiber consumer and industrial packaging, operating 285 facilities across 40 countries with 23,000+ employees. Products include metal packaging (aerosol cans, steel food cans, closures), rigid paper packaging (paper containers, fiber cartridges), industrial paper packaging (tubes, cores, recycled paperboard), and industrial specialty packaging (plastic components, reels, spools). Serves food and beverage, pet care, household products, beauty, automotive, and industrial markets. A Fortune 500 company (NYSE: SON).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sonoco-products/refs/heads/main/screenshots/sonoco-products-2026-06-20T194207.png",
+     "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4110,6 +4121,7 @@
      "name": "Thrive Market",
      "slug": "thrive-market",
      "description": "Thrive Market is a membership-based online grocery retailer headquartered in Marina del Rey, California, selling organic and natural food, pantry staples, frozen meat and seafood, beauty and personal care, baby, pet and household products directly to consumers across the United States. Members pay an annual or monthly fee in exchange for below-retail pricing, and the company operates its own Thrive Market private label alongside thousands of third-party brands. It filters its catalog by diet, ingredient, certification and social value, accepts EBT/SNAP for grocery purchases, and funds free memberships for lower-income families through its Thrive Gives program. Thrive Market is a direct-to-consumer commerce company: it ships a website and mobile apps to shoppers, but publishes no public developer program, API reference, or machine-readable API contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrive-market/refs/heads/main/screenshots/thrive-market-2026-09-02T163630.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4123,7 +4135,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4175,7 +4187,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4220,7 +4232,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4264,7 +4276,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4309,7 +4321,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4354,7 +4366,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4398,7 +4410,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4442,7 +4454,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4487,7 +4499,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4531,7 +4543,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4576,7 +4588,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4621,7 +4633,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4666,7 +4678,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4711,7 +4723,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4755,7 +4767,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4800,7 +4812,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4845,7 +4857,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4890,7 +4902,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4942,7 +4954,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4986,7 +4998,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5031,7 +5043,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5075,7 +5087,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5120,7 +5132,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5165,7 +5177,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5209,7 +5221,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5254,7 +5266,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5298,7 +5310,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5342,7 +5354,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5387,7 +5399,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5432,7 +5444,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5476,7 +5488,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5520,7 +5532,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5565,7 +5577,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5609,7 +5621,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5654,7 +5666,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5698,7 +5710,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5743,7 +5755,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5788,7 +5800,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5833,7 +5845,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5864,6 +5876,7 @@
      "name": "Studio Moderna",
      "slug": "studio-moderna",
      "description": "Studio Moderna is one of the largest multichannel direct-to-consumer retailers across Central and Eastern Europe, the Middle East, and beyond, founded in 1992 and headquartered in Emmen, Switzerland, with major operations based in Ljubljana, Slovenia. The company reaches consumers through TV direct-response (Top Shop), e-commerce, print catalogs, call centers, and physical retail stores in roughly twenty countries. Its portfolio of house brands spans sleep and home (Dormeo), kitchenware (Delimano), footwear and wellness (Walkmaxx), and health and lifestyle products (Kosmodisk, Rovus, WellNeo). It was surfaced as a portfolio company of Insight Partners and added to the API Evangelist network for enrichment; the company exposes no public developer or API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/studio-moderna/refs/heads/main/screenshots/studio-moderna-2026-09-02T161140.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5877,7 +5890,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5921,7 +5934,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5952,6 +5965,7 @@
      "name": "Wonder Brands",
      "slug": "wonder-brands",
      "description": "Wonder Brands is a Latin American digital-first e-commerce company that builds and operates a portfolio of 15+ consumer product brands (including AlebriPets, Tropical Heal, Somos Reyes, Kingsman, KingsHouse, and KingsPort) spanning mattresses and bedroom furniture, sports equipment, home appliances, travel gear, tools, home and garden furniture, pet and baby products, and personal care. Operating an online-first omnichannel model across Uruguay, Mexico, Colombia, and Chile, it fulfills over 2 million annual orders from 25,000+ square meters of warehouse space, backed by proprietary technology for product optimization, marketing, pricing, and demand forecasting. Backed by QED Investors. The company exposes no public developer API, documentation, or SDKs at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wonder-brands/refs/heads/main/screenshots/wonder-brands-2026-09-02T170909.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5965,7 +5979,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6010,7 +6024,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6055,7 +6069,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6100,7 +6114,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6145,7 +6159,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6190,7 +6204,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6235,7 +6249,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6280,7 +6294,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6331,7 +6345,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6376,7 +6390,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6421,7 +6435,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6466,7 +6480,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6511,7 +6525,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6556,7 +6570,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6601,7 +6615,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6632,6 +6646,7 @@
      "name": "Vida",
      "slug": "vida",
      "description": "Vida is a company surfaced as a portfolio company of 500-global, gv, slow-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vida/refs/heads/main/screenshots/vida-2026-09-02T165852.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6645,7 +6660,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6690,7 +6705,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6735,7 +6750,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6787,7 +6802,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6839,7 +6854,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6884,7 +6899,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6928,7 +6943,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6980,7 +6995,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7031,7 +7046,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7076,7 +7091,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7121,7 +7136,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7166,7 +7181,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7210,7 +7225,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7255,12 +7270,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7305,7 +7320,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7350,12 +7365,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7400,7 +7415,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7445,12 +7460,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7495,7 +7510,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

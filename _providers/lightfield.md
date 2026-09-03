@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 55 operations · 21 acting
 api_count: 1
 apis:
-- description: The Accounts API from Lightfield — 3 operation(s) for accounts.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Accounts API from Lightfield — 3 operation(s) for accounts.
   name: Lightfield Accounts API
   slug: lightfield-accounts-api
-- description: The Auth API from Lightfield — 1 operation(s) for auth.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Auth API from Lightfield — 1 operation(s) for auth.
   name: Lightfield Auth API
   slug: lightfield-auth-api
-- description: The Contacts API from Lightfield — 3 operation(s) for contacts.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Contacts API from Lightfield — 3 operation(s) for contacts.
   name: Lightfield Contacts API
   slug: lightfield-contacts-api
-- description: The Emails API from Lightfield — 4 operation(s) for emails.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Emails API from Lightfield — 4 operation(s) for emails.
   name: Lightfield Emails API
   slug: lightfield-emails-api
-- description: The Files API from Lightfield — 5 operation(s) for files.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Files API from Lightfield — 5 operation(s) for files.
   name: Lightfield Files API
   slug: lightfield-files-api
-- description: The Lists API from Lightfield — 5 operation(s) for lists.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Lists API from Lightfield — 5 operation(s) for lists.
   name: Lightfield Lists API
   slug: lightfield-lists-api
-- description: The Meetings API from Lightfield — 2 operation(s) for meetings.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Meetings API from Lightfield — 2 operation(s) for meetings.
   name: Lightfield Meetings API
   slug: lightfield-meetings-api
-- description: The Members API from Lightfield — 2 operation(s) for members.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Members API from Lightfield — 2 operation(s) for members.
   name: Lightfield Members API
   slug: lightfield-members-api
-- description: The Notes API from Lightfield — 2 operation(s) for notes.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Notes API from Lightfield — 2 operation(s) for notes.
   name: Lightfield Notes API
   slug: lightfield-notes-api
-- description: The Objects API from Lightfield — 5 operation(s) for objects.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Objects API from Lightfield — 5 operation(s) for objects.
   name: Lightfield Objects API
   slug: lightfield-objects-api
-- description: The Opportunities API from Lightfield — 3 operation(s) for opportunities.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Opportunities API from Lightfield — 3 operation(s) for opportunities.
   name: Lightfield Opportunities API
   slug: lightfield-opportunities-api
-- description: The Tasks API from Lightfield — 3 operation(s) for tasks.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The Tasks API from Lightfield — 3 operation(s) for tasks.
   name: Lightfield Tasks API
   slug: lightfield-tasks-api
-- description: The WorkflowRun API from Lightfield — 1 operation(s) for workflowrun.
+- baseURL: https://api.lightfield.app/v1
+  baseurl_source: declared
+  description: The WorkflowRun API from Lightfield — 1 operation(s) for workflowrun.
   name: Lightfield WorkflowRun API
   slug: lightfield-workflowrun-api
 artifact_total: 50
@@ -384,7 +410,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -394,7 +420,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 69.8
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +432,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:

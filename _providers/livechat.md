@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -58,25 +58,39 @@ apis:
 - description: Retrieve reporting data for chats, agents, tags, and customer activity across the LiveChat organization.
   name: LiveChat Reports API
   slug: reports-api
-- description: The Chats API from LiveChat — 12 operation(s) for chats.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Chats API from LiveChat — 12 operation(s) for chats.
   name: LiveChat Chats API
   slug: livechat-chats-api
-- description: The Customers API from LiveChat — 3 operation(s) for customers.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Customers API from LiveChat — 3 operation(s) for customers.
   name: LiveChat Customers API
   slug: livechat-customers-api
-- description: The Events API from LiveChat — 5 operation(s) for events.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Events API from LiveChat — 5 operation(s) for events.
   name: LiveChat Events API
   slug: livechat-events-api
-- description: The Other API from LiveChat — 3 operation(s) for other.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Other API from LiveChat — 3 operation(s) for other.
   name: LiveChat Other API
   slug: livechat-other-api
-- description: The Properties API from LiveChat — 6 operation(s) for properties.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Properties API from LiveChat — 6 operation(s) for properties.
   name: LiveChat Properties API
   slug: livechat-properties-api
-- description: The Status API from LiveChat — 2 operation(s) for status.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Status API from LiveChat — 2 operation(s) for status.
   name: LiveChat Status API
   slug: livechat-status-api
-- description: The Threads API from LiveChat — 4 operation(s) for threads.
+- baseURL: https://api.livechatinc.com/v3.5/agent
+  baseurl_source: declared
+  description: The Threads API from LiveChat — 4 operation(s) for threads.
   name: LiveChat Threads API
   slug: livechat-threads-api
 artifact_total: 25
@@ -200,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:

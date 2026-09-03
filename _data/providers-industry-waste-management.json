@@ -1,6 +1,6 @@
 {
- "total": 29,
- "shown": 29,
+ "total": 30,
+ "shown": 30,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -92,7 +92,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -123,6 +123,7 @@
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/screenshots/wm-2026-09-02T170901.png",
      "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
@@ -136,7 +137,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -192,7 +193,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -237,7 +238,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -289,7 +290,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -334,7 +335,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -379,7 +380,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -424,7 +425,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -469,7 +470,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -514,7 +515,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -548,8 +549,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 18,
-   "shown": 18,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Recycleye",
@@ -569,7 +570,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -614,7 +615,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -666,7 +667,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -697,6 +698,7 @@
      "name": "SolarCycle",
      "slug": "solarcycle",
      "description": "SolarCycle is a technology-driven solar recycling company founded in 2022 that provides certified end-of-life management for solar energy systems. It recovers up to 97% of panel materials (silver, copper, gold, aluminum, glass), recycles power electronics such as inverters and transformers, and handles logistics and field operations for large-scale solar projects, achieving 100% landfill diversion. SolarCycle operates seven facilities across Georgia, Illinois, Texas, Nevada, and Arizona and is building a domestic recycled-solar-glass manufacturing plant, serving major solar companies including Q Cells, AES, Orsted, and Sunrun. It is a portfolio company of Fifth Wall. This is a physical circular-economy operations business with no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solarcycle/refs/heads/main/screenshots/solarcycle-2026-09-02T160109.png",
      "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -710,7 +712,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -762,7 +764,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -807,7 +809,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -852,7 +854,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -897,7 +899,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -942,7 +944,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -987,7 +989,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1015,11 +1017,10 @@
      "rank": 21
     },
     {
-     "name": "Dimension",
-     "slug": "dimension",
-     "description": "Dimension is a nationwide, on-demand waste management and junk removal platform (formerly Trash Warrior) backed by 500 Global. It offers digital booking with instant AI-generated pricing (their \"Mirror Mirror AI\" quoter), same-day and next-day pickup for cardboard, appliances, mattresses, hazardous and medical waste, plus dumpster rentals, for both businesses and individuals. Every job includes tracking with detailed diversion data, receipts, and photos, and can be booked as a one-off or recurring service. Dimension has been awarded a State of California RFP contract for PPE waste removal. The company operates a customer-facing booking application and help center but does not currently publish a public developer API, SDKs, or developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimension/refs/heads/main/screenshots/dimension-2026-07-25T212038.png",
-     "score": 6.4,
+     "name": "Vaulted Deep",
+     "slug": "vaulted-deep",
+     "description": "Vaulted Deep is a permanent carbon removal and organic waste disposal company that injects carbon-filled organic waste — biosolids, agricultural byproducts and manure, and pulp and paper sludge — thousands of feet underground as a slurry, using patented geologic slurry sequestration technology adapted from oil and gas practice so the carbon is trapped permanently beneath impermeable rock. Spun out of Advantek Waste Management Services in 2023 and co-founded by Julia Reichelstein and Omar Abou-Sayed, it operates the Great Plains site in Hutchinson, Kansas and the Terminal Island site in Los Angeles, California, serving municipal wastewater utilities and agricultural operators while selling durable carbon removal credits to corporate buyers. It publishes no public API, SDK, or developer program.",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1028,11 +1029,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1060,9 +1061,10 @@
      "rank": 22
     },
     {
-     "name": "Whole Surplus",
-     "slug": "whole-surplus",
-     "description": "Whole Surplus (now operating as Fazla) is a Turkish technology-based waste management and circular-economy company backed by Techstars. It prevents waste at its source and recovers surplus products back into the circular economy with maximum environmental, social, and economic benefit across the entire supply chain from producers to consumers. Its platform combines an AI-powered analysis tool that identifies the optimal recovery path for each product with services including Fazla Market (discounted resale), donations to food banks, animal-feed conversion, recycling, a smart-scale detection system, and sustainability consultancy. Fazla is the first B Corp certified waste-management company in Turkey and is supported by the UN Development Programme (UNDP). The company operates a customer web application (app.fazla.com) but publishes no public API, developer portal, SDKs, or machine-readable specification at this time.",
+     "name": "Dimension",
+     "slug": "dimension",
+     "description": "Dimension is a nationwide, on-demand waste management and junk removal platform (formerly Trash Warrior) backed by 500 Global. It offers digital booking with instant AI-generated pricing (their \"Mirror Mirror AI\" quoter), same-day and next-day pickup for cardboard, appliances, mattresses, hazardous and medical waste, plus dumpster rentals, for both businesses and individuals. Every job includes tracking with detailed diversion data, receipts, and photos, and can be booked as a one-off or recurring service. Dimension has been awarded a State of California RFP contract for PPE waste removal. The company operates a customer-facing booking application and help center but does not currently publish a public developer API, SDKs, or developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dimension/refs/heads/main/screenshots/dimension-2026-07-25T212038.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1076,7 +1078,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1104,10 +1106,11 @@
      "rank": 23
     },
     {
-     "name": "GreenQ",
-     "slug": "greenq",
-     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem) promoting the \"Internet of Garbage\" — turning ordinary garbage trucks into smart trucks. Its GreenTrack device installs on any collection vehicle to weigh incoming waste and track route, mileage, capacity, time and per-bin (single-can-level) pickup data without requiring sensors on the bins, using a patent-pending visual-recognition algorithm. A recommendations engine then suggests route-optimization and scheduling improvements, surfaced through the GreenQ dashboard of reports and analytics. Collected data can be integrated with a municipality's local-authority systems through a private integration API; the company publishes no public developer portal, API reference, SDKs, or specification. GreenQ was surfaced as a portfolio company of 500 Global (also backed by URBAN-X) and added to the API Evangelist network.",
-     "score": 5.7,
+     "name": "Whole Surplus",
+     "slug": "whole-surplus",
+     "description": "Whole Surplus (now operating as Fazla) is a Turkish technology-based waste management and circular-economy company backed by Techstars. It prevents waste at its source and recovers surplus products back into the circular economy with maximum environmental, social, and economic benefit across the entire supply chain from producers to consumers. Its platform combines an AI-powered analysis tool that identifies the optimal recovery path for each product with services including Fazla Market (discounted resale), donations to food banks, animal-feed conversion, recycling, a smart-scale detection system, and sustainability consultancy. Fazla is the first B Corp certified waste-management company in Turkey and is supported by the UN Development Programme (UNDP). The company operates a customer web application (app.fazla.com) but publishes no public API, developer portal, SDKs, or machine-readable specification at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whole-surplus/refs/heads/main/screenshots/whole-surplus-2026-09-02T170735.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1116,11 +1119,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1148,11 +1151,10 @@
      "rank": 24
     },
     {
-     "name": "Rubicon",
-     "slug": "rubicon",
-     "description": "Rubicon (formerly NYSE: RBT) is a waste, recycling, and sustainability technology company founded in 2008. It went public in 2022 via a SPAC merger with Founder SPAC at a pro forma valuation of roughly $1.7 billion, branding itself a \"digital challenger\" to the traditional waste-hauling industry with a marketplace connecting waste generators to independent haulers plus the RUBICONSmartCity fleet-and-routing platform used by more than 70 municipalities. Operating Status: the company subsequently faced severe financial distress - layoffs and debt restructuring in 2023, a June 2024 NYSE delisting, and a May 2024 divestiture of its entire fleet technology and smart-city business unit (RUBICONSmartCity, RUBICONPro, RUBICONPremier) to Rodina Capital for roughly $68 million plus a possible $12 million earnout; those assets were subsequently absorbed by Routeware. In early 2025 Rubicon deregistered its securities and became a privately held company, majority-owned by Jose Miguel Enrich through MBI Holdings, and remains the subject of shareholder litigation over the change-of-control terms. The surviving company operates as a smaller enterprise waste brokerage and sustainability-data business built around the RUBICONConnect platform (service, equipment, pickup, and cost visibility for enterprise customers such as Chipotle and FedEx), alongside RUBICONRegWatch compliance tooling, sustainability reporting, technical advisory services, and the Rubicon Now on-demand dumpster-rental service in a handful of cities. rubicon.com publishes no developer portal, no public API reference, and no OpenAPI specification. The only discoverable API artifact tied to the rubicon.com domain is a \"Routeware Smartcity Public Api\" Swagger UI hosted at a dev subdomain (haulerpublic-api.dev.aws.rubicon.com) - leftover infrastructure from the divested fleet/smart-city business - which returned a 503 Service Unavailable on every check during this review and is not publicly documented or reachable. Any hauler or municipal system integration Rubicon references (for example, connecting to city 311 systems) is negotiated per partner and gated behind sales and onboarding rather than exposed through self-serve developer documentation. Pricing across RUBICONConnect and Rubicon's enterprise services is entirely quote-based and negotiated per contract; no public pricing, tiers, or rate limits are published. This entry is maintained as an honest stub pending any future public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon/refs/heads/main/screenshots/rubicon-2026-09-02T154155.png",
-     "score": 5.5,
+     "name": "GreenQ",
+     "slug": "greenq",
+     "description": "GreenQ is an Israeli smart waste-management technology company (founded 2015, Jerusalem) promoting the \"Internet of Garbage\" — turning ordinary garbage trucks into smart trucks. Its GreenTrack device installs on any collection vehicle to weigh incoming waste and track route, mileage, capacity, time and per-bin (single-can-level) pickup data without requiring sensors on the bins, using a patent-pending visual-recognition algorithm. A recommendations engine then suggests route-optimization and scheduling improvements, surfaced through the GreenQ dashboard of reports and analytics. Collected data can be integrated with a municipality's local-authority systems through a private integration API; the company publishes no public developer portal, API reference, SDKs, or specification. GreenQ was surfaced as a portfolio company of 500 Global (also backed by URBAN-X) and added to the API Evangelist network.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1161,11 +1163,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 3.6,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1193,11 +1195,11 @@
      "rank": 25
     },
     {
-     "name": "Schuettflix",
-     "slug": "schuettflix",
-     "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/schuettflix/refs/heads/main/screenshots/schuettflix-2026-09-02T154528.png",
-     "score": 5.3,
+     "name": "Rubicon",
+     "slug": "rubicon",
+     "description": "Rubicon (formerly NYSE: RBT) is a waste, recycling, and sustainability technology company founded in 2008. It went public in 2022 via a SPAC merger with Founder SPAC at a pro forma valuation of roughly $1.7 billion, branding itself a \"digital challenger\" to the traditional waste-hauling industry with a marketplace connecting waste generators to independent haulers plus the RUBICONSmartCity fleet-and-routing platform used by more than 70 municipalities. Operating Status: the company subsequently faced severe financial distress - layoffs and debt restructuring in 2023, a June 2024 NYSE delisting, and a May 2024 divestiture of its entire fleet technology and smart-city business unit (RUBICONSmartCity, RUBICONPro, RUBICONPremier) to Rodina Capital for roughly $68 million plus a possible $12 million earnout; those assets were subsequently absorbed by Routeware. In early 2025 Rubicon deregistered its securities and became a privately held company, majority-owned by Jose Miguel Enrich through MBI Holdings, and remains the subject of shareholder litigation over the change-of-control terms. The surviving company operates as a smaller enterprise waste brokerage and sustainability-data business built around the RUBICONConnect platform (service, equipment, pickup, and cost visibility for enterprise customers such as Chipotle and FedEx), alongside RUBICONRegWatch compliance tooling, sustainability reporting, technical advisory services, and the Rubicon Now on-demand dumpster-rental service in a handful of cities. rubicon.com publishes no developer portal, no public API reference, and no OpenAPI specification. The only discoverable API artifact tied to the rubicon.com domain is a \"Routeware Smartcity Public Api\" Swagger UI hosted at a dev subdomain (haulerpublic-api.dev.aws.rubicon.com) - leftover infrastructure from the divested fleet/smart-city business - which returned a 503 Service Unavailable on every check during this review and is not publicly documented or reachable. Any hauler or municipal system integration Rubicon references (for example, connecting to city 311 systems) is negotiated per partner and gated behind sales and onboarding rather than exposed through self-serve developer documentation. Pricing across RUBICONConnect and Rubicon's enterprise services is entirely quote-based and negotiated per contract; no public pricing, tiers, or rate limits are published. This entry is maintained as an honest stub pending any future public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rubicon/refs/heads/main/screenshots/rubicon-2026-09-02T154155.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1205,12 +1207,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1238,11 +1240,11 @@
      "rank": 26
     },
     {
-     "name": "Roadrunner",
-     "slug": "roadrunner",
-     "description": "RoadRunner is a tech-enabled managed waste and recycling services company operating across all 50 US states, serving 14,000+ commercial customers in hospitality, healthcare, retail, logistics and manufacturing. It consolidates multi-location waste programs and layers proprietary optimization tooling (Oversite, Waste Metering, BillCheck, Priceshield) plus the RecycleMORE and CleanStream recycling programs on top of hauler networks. Backed by Fifth Wall and Kleiner Perkins in the climate sector. As of this enrichment pass RoadRunner publishes a marketing site and a customer + payment portal but no public developer/API surface, so no OpenAPI, SDK, MCP or event artifacts were found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roadrunner/refs/heads/main/screenshots/roadrunner-2026-09-02T153951.png",
-     "score": 5.0,
+     "name": "Schuettflix",
+     "slug": "schuettflix",
+     "description": "Schuettflix is a German digital logistics platform for the construction industry, founded in 2018 in Guetersloh. It operates a neutral B2B marketplace that connects construction companies, bulk-material suppliers, freight forwarders and waste-disposal firms in a single fully digital workflow. Through its iOS and Android apps, customers order sand, gravel and crushed stone with transparent real-time pricing, coordinate dispatch and transport, capture delivery documentation, manage routes, and handle mineral-waste disposal and circular-economy recycling of construction materials. The company digitizes the traditionally analog and fragmented process of procuring and delivering bulk goods, earning a commission on the transactions facilitated through its platform. It was surfaced as a portfolio company of Speedinvest. No public developer API, developer portal, or machine-readable API specification was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/schuettflix/refs/heads/main/screenshots/schuettflix-2026-09-02T154528.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1250,12 +1252,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1283,24 +1285,24 @@
      "rank": 27
     },
     {
-     "name": "Veolia",
-     "slug": "veolia",
-     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
-     "score": 4.7,
+     "name": "Roadrunner",
+     "slug": "roadrunner",
+     "description": "RoadRunner is a tech-enabled managed waste and recycling services company operating across all 50 US states, serving 14,000+ commercial customers in hospitality, healthcare, retail, logistics and manufacturing. It consolidates multi-location waste programs and layers proprietary optimization tooling (Oversite, Waste Metering, BillCheck, Priceshield) plus the RecycleMORE and CleanStream recycling programs on top of hauler networks. Backed by Fifth Wall and Kleiner Perkins in the climate sector. As of this enrichment pass RoadRunner publishes a marketing site and a customer + payment portal but no public developer/API surface, so no OpenAPI, SDK, MCP or event artifacts were found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roadrunner/refs/heads/main/screenshots/roadrunner-2026-09-02T153951.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 42.6,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1328,6 +1330,51 @@
      "rank": 28
     },
     {
+     "name": "Veolia",
+     "slug": "veolia",
+     "description": "A French multinational corporation and the global leader in environmental services including water management, waste management, and energy services. Operates in nearly 50 countries providing solutions for water treatment, waste recycling, and pollution remediation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veolia/refs/heads/main/screenshots/veolia-2026-06-20T200919.png",
+     "score": 4.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 42.6,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 29
+    },
+    {
      "name": "Fulcrum BioEnergy",
      "slug": "fulcrum-bioenergy",
      "description": "Fulcrum BioEnergy, Inc. was a Pleasanton, California waste-to-fuels project developer founded in 2007 that converted municipal solid waste into synthetic crude oil for refining into sustainable aviation fuel (SAF) and diesel, using a shred-and-sort feedstock line feeding a gasifier and a Fischer-Tropsch conversion train. Its first and only commercial plant, the Sierra BioFuels Plant in the Tahoe Reno Industrial Center outside Reno, Nevada, was designed to take roughly 175,000-219,000 tons of household garbage a year from an adjacent feedstock processing facility and began production in late 2022. The company raised on the order of a billion dollars in equity, debt and government support over its life, including strategic investments and offtake alliances with United Airlines, Waste Management, Cathay Pacific Airways, Marubeni and bp, plus a US Department of Energy loan guarantee, USDA loan guarantee and Department of Defense grants; E. James Macias led it as president and CEO through its build-out years, and it had announced follow-on projects including a Gary, Indiana plant and the NorthPoint facility in the UK. The Sierra plant stopped operating in mid-May 2024 after persistent equipment problems, the company laid off essentially its entire workforce and took its website down, and on 2024-09-09 Fulcrum BioEnergy, Fulcrum Sierra Holdings and Fulcrum Sierra Finance Co. filed voluntary Chapter 11 petitions in the US Bankruptcy Court for the District of Delaware listing more than $456 million owed to over 200 creditors. A November 2024 auction sold the biorefinery to Switch, Ltd. for $55 million and the adjacent feedstock processing facility to Refuse Inc., a WM subsidiary; the plan of liquidation was confirmed in April 2025 and went effective in May 2025. Fulcrum was an industrial energy project developer rather than a software company and never published a developer program, public API, SDK, webhook surface, or machine-readable specification — a Wayback index of its corporate site from 2008 through 2024 turns up no developer, reference, or spec path of any kind. Its corporate host fulcrum-bioenergy.com no longer resolves to any web server, and the alternate registration fulcrumbioenergy.com is parked on the GoDaddy/Afternic aftermarket and listed for sale. This profile is retained as a historical record; there is no API surface to enrich.",
@@ -1344,7 +1391,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1376,7 +1423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     }
    ]
   }

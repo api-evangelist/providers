@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -43,196 +43,324 @@ agentic_access:
   summary_line: 413 operations · 254 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The accounting API from Picker — 1 operation(s) for accounting.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The accounting API from Picker — 1 operation(s) for accounting.
   name: Picker accounting API
   slug: picker-accounting-api
-- description: The Admin API from Picker — 132 operation(s) for admin.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The Admin API from Picker — 132 operation(s) for admin.
   name: Picker Admin API
   slug: picker-admin-api
-- description: The antiFraud API from Picker — 2 operation(s) for antifraud.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The antiFraud API from Picker — 2 operation(s) for antifraud.
   name: Picker antiFraud API
   slug: picker-antifraud-api
-- description: The appVersion API from Picker — 3 operation(s) for appversion.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The appVersion API from Picker — 3 operation(s) for appversion.
   name: Picker appVersion API
   slug: picker-appversion-api
-- description: The banner API from Picker — 5 operation(s) for banner.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The banner API from Picker — 5 operation(s) for banner.
   name: Picker banner API
   slug: picker-banner-api
-- description: The bill API from Picker — 1 operation(s) for bill.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The bill API from Picker — 1 operation(s) for bill.
   name: Picker bill API
   slug: picker-bill-api
-- description: The booking API from Picker — 60 operation(s) for booking.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The booking API from Picker — 60 operation(s) for booking.
   name: Picker booking API
   slug: picker-booking-api
-- description: The bookingAssignment API from Picker — 3 operation(s) for bookingassignment.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The bookingAssignment API from Picker — 3 operation(s) for bookingassignment.
   name: Picker bookingAssignment API
   slug: picker-bookingassignment-api
-- description: The bookingIssue API from Picker — 1 operation(s) for bookingissue.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The bookingIssue API from Picker — 1 operation(s) for bookingissue.
   name: Picker bookingIssue API
   slug: picker-bookingissue-api
-- description: The BookingIssues API from Picker — 2 operation(s) for bookingissues.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The BookingIssues API from Picker — 2 operation(s) for bookingissues.
   name: Picker BookingIssues API
   slug: picker-bookingissues-api
-- description: The bookings API from Picker — 3 operation(s) for bookings.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The bookings API from Picker — 3 operation(s) for bookings.
   name: Picker bookings API
   slug: picker-bookings-api
-- description: The business API from Picker — 40 operation(s) for business.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The business API from Picker — 40 operation(s) for business.
   name: Picker business API
   slug: picker-business-api
-- description: The businesses API from Picker — 2 operation(s) for businesses.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The businesses API from Picker — 2 operation(s) for businesses.
   name: Picker businesses API
   slug: picker-businesses-api
-- description: The busy API from Picker — 1 operation(s) for busy.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The busy API from Picker — 1 operation(s) for busy.
   name: Picker busy API
   slug: picker-busy-api
-- description: The cancel API from Picker — 1 operation(s) for cancel.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The cancel API from Picker — 1 operation(s) for cancel.
   name: Picker cancel API
   slug: picker-cancel-api
-- description: The cancelReason API from Picker — 1 operation(s) for cancelreason.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The cancelReason API from Picker — 1 operation(s) for cancelreason.
   name: Picker cancelReason API
   slug: picker-cancelreason-api
-- description: The card API from Picker — 2 operation(s) for card.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The card API from Picker — 2 operation(s) for card.
   name: Picker card API
   slug: picker-card-api
-- description: The cards API from Picker — 1 operation(s) for cards.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The cards API from Picker — 1 operation(s) for cards.
   name: Picker cards API
   slug: picker-cards-api
-- description: The chat API from Picker — 2 operation(s) for chat.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The chat API from Picker — 2 operation(s) for chat.
   name: Picker chat API
   slug: picker-chat-api
-- description: The chatbot API from Picker — 1 operation(s) for chatbot.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The chatbot API from Picker — 1 operation(s) for chatbot.
   name: Picker chatbot API
   slug: picker-chatbot-api
-- description: The cronJobs API from Picker — 1 operation(s) for cronjobs.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The cronJobs API from Picker — 1 operation(s) for cronjobs.
   name: Picker cronJobs API
   slug: picker-cronjobs-api
-- description: The customer API from Picker — 20 operation(s) for customer.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The customer API from Picker — 20 operation(s) for customer.
   name: Picker customer API
   slug: picker-customer-api
-- description: The dashboard API from Picker — 9 operation(s) for dashboard.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The dashboard API from Picker — 9 operation(s) for dashboard.
   name: Picker dashboard API
   slug: picker-dashboard-api
-- description: The datil API from Picker — 1 operation(s) for datil.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The datil API from Picker — 1 operation(s) for datil.
   name: Picker datil API
   slug: picker-datil-api
-- description: The deliveryPartner API from Picker — 1 operation(s) for deliverypartner.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The deliveryPartner API from Picker — 1 operation(s) for deliverypartner.
   name: Picker deliveryPartner API
   slug: picker-deliverypartner-api
-- description: The DeliveryPartnerMarketingData API from Picker — 1 operation(s) for deliverypartnermarketingdata.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The DeliveryPartnerMarketingData API from Picker — 1 operation(s) for deliverypartnermarketingdata.
   name: Picker DeliveryPartnerMarketingData API
   slug: picker-deliverypartnermarketingdata-api
-- description: The driver API from Picker — 21 operation(s) for driver.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The driver API from Picker — 21 operation(s) for driver.
   name: Picker driver API
   slug: picker-driver-api
-- description: The driverTag API from Picker — 2 operation(s) for drivertag.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The driverTag API from Picker — 2 operation(s) for drivertag.
   name: Picker driverTag API
   slug: picker-drivertag-api
-- description: The duty API from Picker — 1 operation(s) for duty.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The duty API from Picker — 1 operation(s) for duty.
   name: Picker duty API
   slug: picker-duty-api
-- description: The fares API from Picker — 1 operation(s) for fares.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The fares API from Picker — 1 operation(s) for fares.
   name: Picker fares API
   slug: picker-fares-api
-- description: The favorite API from Picker — 2 operation(s) for favorite.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The favorite API from Picker — 2 operation(s) for favorite.
   name: Picker favorite API
   slug: picker-favorite-api
-- description: The health-check API from Picker — 1 operation(s) for health-check.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The health-check API from Picker — 1 operation(s) for health-check.
   name: Picker health-check API
   slug: picker-health-check-api
-- description: The integrations API from Picker — 1 operation(s) for integrations.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The integrations API from Picker — 1 operation(s) for integrations.
   name: Picker integrations API
   slug: picker-integrations-api
-- description: The list API from Picker — 2 operation(s) for list.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The list API from Picker — 2 operation(s) for list.
   name: Picker list API
   slug: picker-list-api
-- description: The location API from Picker — 5 operation(s) for location.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The location API from Picker — 5 operation(s) for location.
   name: Picker location API
   slug: picker-location-api
-- description: The Mass Delivery API from Picker — 1 operation(s) for mass delivery.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The Mass Delivery API from Picker — 1 operation(s) for mass delivery.
   name: Picker Mass Delivery API
   slug: picker-mass-delivery-api
-- description: The notification API from Picker — 4 operation(s) for notification.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The notification API from Picker — 4 operation(s) for notification.
   name: Picker notification API
   slug: picker-notification-api
-- description: The pause API from Picker — 1 operation(s) for pause.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The pause API from Picker — 1 operation(s) for pause.
   name: Picker pause API
   slug: picker-pause-api
-- description: The paymentez API from Picker — 7 operation(s) for paymentez.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The paymentez API from Picker — 7 operation(s) for paymentez.
   name: Picker paymentez API
   slug: picker-paymentez-api
-- description: The play API from Picker — 1 operation(s) for play.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The play API from Picker — 1 operation(s) for play.
   name: Picker play API
   slug: picker-play-api
-- description: The product API from Picker — 1 operation(s) for product.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The product API from Picker — 1 operation(s) for product.
   name: Picker product API
   slug: picker-product-api
-- description: The products API from Picker — 3 operation(s) for products.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The products API from Picker — 3 operation(s) for products.
   name: Picker products API
   slug: picker-products-api
-- description: The promo API from Picker — 6 operation(s) for promo.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The promo API from Picker — 6 operation(s) for promo.
   name: Picker promo API
   slug: picker-promo-api
-- description: The public API from Picker — 1 operation(s) for public.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The public API from Picker — 1 operation(s) for public.
   name: Picker public API
   slug: picker-public-api
-- description: The referral API from Picker — 4 operation(s) for referral.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The referral API from Picker — 4 operation(s) for referral.
   name: Picker referral API
   slug: picker-referral-api
-- description: The region API from Picker — 12 operation(s) for region.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The region API from Picker — 12 operation(s) for region.
   name: Picker region API
   slug: picker-region-api
-- description: The reports API from Picker — 1 operation(s) for reports.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The reports API from Picker — 1 operation(s) for reports.
   name: Picker reports API
   slug: picker-reports-api
-- description: The review API from Picker — 3 operation(s) for review.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The review API from Picker — 3 operation(s) for review.
   name: Picker review API
   slug: picker-review-api
-- description: The service API from Picker — 5 operation(s) for service.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The service API from Picker — 5 operation(s) for service.
   name: Picker service API
   slug: picker-service-api
-- description: The serviceProvider API from Picker — 6 operation(s) for serviceprovider.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The serviceProvider API from Picker — 6 operation(s) for serviceprovider.
   name: Picker serviceProvider API
   slug: picker-serviceprovider-api
-- description: The Share My Ride API from Picker — 3 operation(s) for share my ride.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The Share My Ride API from Picker — 3 operation(s) for share my ride.
   name: Picker Share My Ride API
   slug: picker-share-my-ride-api
-- description: The shopify API from Picker — 2 operation(s) for shopify.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The shopify API from Picker — 2 operation(s) for shopify.
   name: Picker shopify API
   slug: picker-shopify-api
-- description: The social API from Picker — 2 operation(s) for social.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The social API from Picker — 2 operation(s) for social.
   name: Picker social API
   slug: picker-social-api
-- description: The spoonity API from Picker — 1 operation(s) for spoonity.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The spoonity API from Picker — 1 operation(s) for spoonity.
   name: Picker spoonity API
   slug: picker-spoonity-api
-- description: The stripePay API from Picker — 10 operation(s) for stripepay.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The stripePay API from Picker — 10 operation(s) for stripepay.
   name: Picker stripePay API
   slug: picker-stripepay-api
-- description: The support API from Picker — 8 operation(s) for support.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The support API from Picker — 8 operation(s) for support.
   name: Picker support API
   slug: picker-support-api
-- description: The ticket API from Picker — 2 operation(s) for ticket.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The ticket API from Picker — 2 operation(s) for ticket.
   name: Picker ticket API
   slug: picker-ticket-api
-- description: The tracking API from Picker — 3 operation(s) for tracking.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The tracking API from Picker — 3 operation(s) for tracking.
   name: Picker tracking API
   slug: picker-tracking-api
-- description: The update API from Picker — 5 operation(s) for update.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The update API from Picker — 5 operation(s) for update.
   name: Picker update API
   slug: picker-update-api
-- description: The user API from Picker — 56 operation(s) for user.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The user API from Picker — 56 operation(s) for user.
   name: Picker user API
   slug: picker-user-api
-- description: The UsermarketingData API from Picker — 2 operation(s) for usermarketingdata.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The UsermarketingData API from Picker — 2 operation(s) for usermarketingdata.
   name: Picker UsermarketingData API
   slug: picker-usermarketingdata-api
-- description: The users API from Picker — 1 operation(s) for users.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The users API from Picker — 1 operation(s) for users.
   name: Picker users API
   slug: picker-users-api
-- description: The vehicles API from Picker — 1 operation(s) for vehicles.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The vehicles API from Picker — 1 operation(s) for vehicles.
   name: Picker vehicles API
   slug: picker-vehicles-api
-- description: The vtex API from Picker — 1 operation(s) for vtex.
+- baseURL: https://api.pickerexpress.com
+  baseurl_source: declared
+  description: The vtex API from Picker — 1 operation(s) for vtex.
   name: Picker vtex API
   slug: picker-vtex-api
 artifact_total: 133
@@ -546,11 +674,11 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -560,7 +688,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 29.8
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -572,8 +700,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/picker/refs/heads/main/screenshots/picker-2026-09-02T151222.png
 security:
 - kind: authentication
   name: Picker Authentication

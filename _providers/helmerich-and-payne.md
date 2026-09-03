@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,10 +48,10 @@ description: Helmerich & Payne is a contract drilling company providing drilling
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/helmerich-and-payne.png
 layout: provider
 modified: '2026-04-28'
-name: helmerich-and-payne
+name: Helmerich And Payne
 nav: Providers
 network: true
-overview: helmerich-and-payne is profiled on the [APIs.io](https://apis.io/) network.
+overview: Helmerich And Payne is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: tm261920-1_nonfiling - none - 21.9154899s
@@ -96,10 +96,10 @@ score:
   previous_composite: 2.6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: helmerich-and-payne
 website: https://www.helmerich-and-payne.com

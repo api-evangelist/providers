@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 33 operations · 21 acting
 api_count: 1
 apis:
-- description: Account storage usage and viewing analytics.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Account storage usage and viewing analytics.
   name: Cloudflare Stream Analytics API
   slug: cloudflare-stream-analytics-api
-- description: Per-language captions and subtitles for a video.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Per-language captions and subtitles for a video.
   name: Cloudflare Stream Captions API
   slug: cloudflare-stream-captions-api
-- description: Live inputs receiving RTMPS or SRT broadcasts, plus simulcast outputs.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Live inputs receiving RTMPS or SRT broadcasts, plus simulcast outputs.
   name: Cloudflare Stream Live Inputs API
   slug: cloudflare-stream-live-inputs-api
-- description: Signing keys and per-video signed playback tokens.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: Signing keys and per-video signed playback tokens.
   name: Cloudflare Stream Signed URLs API
   slug: cloudflare-stream-signed-urls-api
-- description: On-demand video upload, storage, encoding, and management.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: On-demand video upload, storage, encoding, and management.
   name: Cloudflare Stream Videos API
   slug: cloudflare-stream-videos-api
-- description: The single per-account webhook for video processing notifications.
+- baseURL: https://api.cloudflare.com/client/v4
+  baseurl_source: declared
+  description: The single per-account webhook for video processing notifications.
   name: Cloudflare Stream Webhooks API
   slug: cloudflare-stream-webhooks-api
 artifact_total: 21
@@ -197,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/screenshots/cloudflare-stream-2026-07-25T205657.png
 security:

@@ -34,157 +34,257 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 17
 apis:
-- description: 'The current Spredfast / Khoros Marketing publishing and content surface — 39 operations covering initiatives, account sets, message publishing and scheduling, the Content Center (assets and folders), '
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: 'The current Spredfast / Khoros Marketing publishing and content surface — 39 operations covering initiatives, account sets, message publishing and scheduling, the Content Center (assets and folders), '
   name: Spredfast Conversations API (v2)
   slug: spredfast-conversations-api-v2
-- description: The AccountSet API from Spredfast — 1 operation(s) for accountset.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The AccountSet API from Spredfast — 1 operation(s) for accountset.
   name: Spredfast Account Set API
   slug: spredfast-accountset-api
-- description: The Admin API from Spredfast — 2 operation(s) for admin.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Admin API from Spredfast — 2 operation(s) for admin.
   name: Spredfast Admin API
   slug: spredfast-admin-api
-- description: The Asset API from Spredfast — 1 operation(s) for asset.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Asset API from Spredfast — 1 operation(s) for asset.
   name: Spredfast Asset API
   slug: spredfast-asset-api
-- description: The Assets API from Spredfast — 3 operation(s) for assets.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Assets API from Spredfast — 3 operation(s) for assets.
   name: Spredfast Assets API
   slug: spredfast-assets-api
-- description: The Case API from Spredfast — 2 operation(s) for case.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Case API from Spredfast — 2 operation(s) for case.
   name: Spredfast Case API
   slug: spredfast-case-api
-- description: The Compare.json?streams API from Spredfast — 1 operation(s) for compare.json?streams.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Compare.json?streams API from Spredfast — 1 operation(s) for compare.json?streams.
   name: Spredfast Compare.json?streams API
   slug: spredfast-compare-json-streams-api
-- description: The Compare.json?streams={content}&sort API from Spredfast — 1 operation(s) for compare.json?streams={content}&sort.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&sort API from Spredfast — 1 operation(s) for compare.json?streams={content}&sort.
   name: Spredfast Compare.json?streams={content}&sort API
   slug: spredfast-compare-json-streams-content-sort-api
-- description: The Compare.json?streams={content}&target API from Spredfast — 1 operation(s) for compare.json?streams={content}&target.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&target API from Spredfast — 1 operation(s) for compare.json?streams={content}&target.
   name: Spredfast Compare.json?streams={content}&target API
   slug: spredfast-compare-json-streams-content-target-api
-- description: The Compare.json?streams={content}&target={number}&precision API from Spredfast — 1 operation(s) for compare.json?streams={content}&target={number}&precision.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&target={number}&precision API from Spredfast — 1 operation(s) for compare.json?streams={content}&target={number}&precision.
   name: Spredfast Compare.json?streams={content}&target={number}&precision API
   slug: spredfast-compare-json-streams-content-target-number-precision-api
-- description: The Customer API from Spredfast — 4 operation(s) for customer.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Customer API from Spredfast — 4 operation(s) for customer.
   name: Spredfast Customer API
   slug: spredfast-customer-api
-- description: The Customers API from Spredfast — 1 operation(s) for customers.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Customers API from Spredfast — 1 operation(s) for customers.
   name: Spredfast Customers API
   slug: spredfast-customers-api
-- description: The Data API from Spredfast — 1 operation(s) for data.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Data API from Spredfast — 1 operation(s) for data.
   name: Spredfast Data API
   slug: spredfast-data-api
-- description: The Entities.json?entity Ids API from Spredfast — 1 operation(s) for entities.json?entity ids.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Entities.json?entity Ids API from Spredfast — 1 operation(s) for entities.json?entity ids.
   name: Spredfast Entities.json?entity Ids API
   slug: spredfast-entities-json-entity-ids-api
-- description: The Export API from Spredfast — 10 operation(s) for export.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Export API from Spredfast — 10 operation(s) for export.
   name: Spredfast Export API
   slug: spredfast-export-api
-- description: The Folder API from Spredfast — 3 operation(s) for folder.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Folder API from Spredfast — 3 operation(s) for folder.
   name: Spredfast Folder API
   slug: spredfast-folder-api
-- description: The Initiatives API from Spredfast — 2 operation(s) for initiatives.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Initiatives API from Spredfast — 2 operation(s) for initiatives.
   name: Spredfast Initiatives API
   slug: spredfast-initiatives-api
-- description: The Introspection Api API from Spredfast — 1 operation(s) for introspection api.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Introspection Api API from Spredfast — 1 operation(s) for introspection api.
   name: Spredfast Introspection API
   slug: spredfast-introspection-api-api
-- description: The Labels API from Spredfast — 1 operation(s) for labels.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Labels API from Spredfast — 1 operation(s) for labels.
   name: Spredfast Labels API
   slug: spredfast-labels-api
-- description: The Labelsets Api API from Spredfast — 1 operation(s) for labelsets api.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Labelsets Api API from Spredfast — 1 operation(s) for labelsets api.
   name: Spredfast Labelsets API
   slug: spredfast-labelsets-api-api
-- description: The List API from Spredfast — 2 operation(s) for list.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The List API from Spredfast — 2 operation(s) for list.
   name: Spredfast List API
   slug: spredfast-list-api
-- description: The Me API from Spredfast — 2 operation(s) for me.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Me API from Spredfast — 2 operation(s) for me.
   name: Spredfast Me API
   slug: spredfast-me-api
-- description: The Messages API from Spredfast — 6 operation(s) for messages.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Messages API from Spredfast — 6 operation(s) for messages.
   name: Spredfast Messages API
   slug: spredfast-messages-api
-- description: The Meta API from Spredfast — 1 operation(s) for meta.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta API from Spredfast — 1 operation(s) for meta.
   name: Spredfast Meta API
   slug: spredfast-meta-api
-- description: The Meta.json?activity API from Spredfast — 1 operation(s) for meta.json?activity.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?activity API from Spredfast — 1 operation(s) for meta.json?activity.
   name: Spredfast Meta.json?activity API
   slug: spredfast-meta-json-activity-api
-- description: The Meta.json?all Topics API from Spredfast — 1 operation(s) for meta.json?all topics.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?all Topics API from Spredfast — 1 operation(s) for meta.json?all topics.
   name: Spredfast Meta.json?all Topics API
   slug: spredfast-meta-json-all-topics-api
-- description: The Meta.json API from Spredfast — 1 operation(s) for meta.json.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json API from Spredfast — 1 operation(s) for meta.json.
   name: Spredfast Meta.json API
   slug: spredfast-meta-json-api
-- description: The Meta.json?disregard API from Spredfast — 1 operation(s) for meta.json?disregard.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?disregard API from Spredfast — 1 operation(s) for meta.json?disregard.
   name: Spredfast Meta.json?disregard API
   slug: spredfast-meta-json-disregard-api
-- description: The Meta.json?finish API from Spredfast — 1 operation(s) for meta.json?finish.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?finish API from Spredfast — 1 operation(s) for meta.json?finish.
   name: Spredfast Meta.json?finish API
   slug: spredfast-meta-json-finish-api
-- description: The Meta.json? Networks API from Spredfast — 1 operation(s) for meta.json? networks.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json? Networks API from Spredfast — 1 operation(s) for meta.json? networks.
   name: Spredfast Meta.json? Networks API
   slug: spredfast-meta-json-networks-api
-- description: The Meta.json?num Contributors API from Spredfast — 1 operation(s) for meta.json?num contributors.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Contributors API from Spredfast — 1 operation(s) for meta.json?num contributors.
   name: Spredfast Meta.json?num Contributors API
   slug: spredfast-meta-json-num-contributors-api
-- description: The Meta.json?num Days API from Spredfast — 1 operation(s) for meta.json?num days.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Days API from Spredfast — 1 operation(s) for meta.json?num days.
   name: Spredfast Meta.json?num Days API
   slug: spredfast-meta-json-num-days-api
-- description: The Meta.json?num Hashtags API from Spredfast — 1 operation(s) for meta.json?num hashtags.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Hashtags API from Spredfast — 1 operation(s) for meta.json?num hashtags.
   name: Spredfast Meta.json?num Hashtags API
   slug: spredfast-meta-json-num-hashtags-api
-- description: The Meta.json?num Hours API from Spredfast — 1 operation(s) for meta.json?num hours.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Hours API from Spredfast — 1 operation(s) for meta.json?num hours.
   name: Spredfast Meta.json?num Hours API
   slug: spredfast-meta-json-num-hours-api
-- description: The Meta.json?num Minutes API from Spredfast — 1 operation(s) for meta.json?num minutes.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Minutes API from Spredfast — 1 operation(s) for meta.json?num minutes.
   name: Spredfast Meta.json?num Minutes API
   slug: spredfast-meta-json-num-minutes-api
-- description: The Meta.json?num Trends API from Spredfast — 1 operation(s) for meta.json?num trends.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?num Trends API from Spredfast — 1 operation(s) for meta.json?num trends.
   name: Spredfast Meta.json?num Trends API
   slug: spredfast-meta-json-num-trends-api
-- description: The Meta.json?percent API from Spredfast — 1 operation(s) for meta.json?percent.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?percent API from Spredfast — 1 operation(s) for meta.json?percent.
   name: Spredfast Meta.json?percent API
   slug: spredfast-meta-json-percent-api
-- description: The Meta.json?precision API from Spredfast — 1 operation(s) for meta.json?precision.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?precision API from Spredfast — 1 operation(s) for meta.json?precision.
   name: Spredfast Meta.json?precision API
   slug: spredfast-meta-json-precision-api
-- description: The Meta.json?sort API from Spredfast — 1 operation(s) for meta.json?sort.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?sort API from Spredfast — 1 operation(s) for meta.json?sort.
   name: Spredfast Meta.json?sort API
   slug: spredfast-meta-json-sort-api
-- description: The Meta.json?top Count API from Spredfast — 1 operation(s) for meta.json?top count.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?top Count API from Spredfast — 1 operation(s) for meta.json?top count.
   name: Spredfast Meta.json?top Count API
   slug: spredfast-meta-json-top-count-api
-- description: The Meta.json?top Periods API from Spredfast — 1 operation(s) for meta.json?top periods.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?top Periods API from Spredfast — 1 operation(s) for meta.json?top periods.
   name: Spredfast Meta.json?top Periods API
   slug: spredfast-meta-json-top-periods-api
-- description: The Meta.json?top Periods Relative API from Spredfast — 1 operation(s) for meta.json?top periods relative.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Meta.json?top Periods Relative API from Spredfast — 1 operation(s) for meta.json?top periods relative.
   name: Spredfast Meta.json?top Periods Relative API
   slug: spredfast-meta-json-top-periods-relative-api
-- description: The MultiChannelMessages API from Spredfast — 1 operation(s) for multichannelmessages.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The MultiChannelMessages API from Spredfast — 1 operation(s) for multichannelmessages.
   name: Spredfast Multi Channel Messages API
   slug: spredfast-multichannelmessages-api
-- description: The Permissions API from Spredfast — 1 operation(s) for permissions.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Permissions API from Spredfast — 1 operation(s) for permissions.
   name: Spredfast Permissions API
   slug: spredfast-permissions-api
-- description: The Plans API from Spredfast — 1 operation(s) for plans.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Plans API from Spredfast — 1 operation(s) for plans.
   name: Spredfast Plans API
   slug: spredfast-plans-api
-- description: The Stream Api API from Spredfast — 25 operation(s) for stream api.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Stream Api API from Spredfast — 25 operation(s) for stream api.
   name: Spredfast Stream API
   slug: spredfast-stream-api-api
-- description: The Streams API from Spredfast — 1 operation(s) for streams.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Streams API from Spredfast — 1 operation(s) for streams.
   name: Spredfast Streams API
   slug: spredfast-streams-api
-- description: The Subscription API from Spredfast — 3 operation(s) for subscription.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Subscription API from Spredfast — 3 operation(s) for subscription.
   name: Spredfast Subscription API
   slug: spredfast-subscription-api
-- description: The Surveys API from Spredfast — 1 operation(s) for surveys.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Surveys API from Spredfast — 1 operation(s) for surveys.
   name: Spredfast Surveys API
   slug: spredfast-surveys-api
-- description: The Users API from Spredfast — 1 operation(s) for users.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Users API from Spredfast — 1 operation(s) for users.
   name: Spredfast Users API
   slug: spredfast-users-api
 artifact_total: 67
@@ -403,7 +503,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -413,7 +513,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 36.5
+  previous_composite: 36.3
   provenance:
     conformance: derived
     contracts:
@@ -424,7 +524,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png
 security:

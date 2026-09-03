@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -62,49 +62,79 @@ apis:
 - description: API for Foundation and Foundation Central, enabling automated cluster deployment and remote node imaging.
   name: Nutanix Foundation API
   slug: foundation
-- description: Retrieve and manage cluster alerts for monitoring health and operational events.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Retrieve and manage cluster alerts for monitoring health and operational events.
   name: Nutanix Alerts API
   slug: nutanix-alerts-api
-- description: Manage categories and category values used for tagging and organizing resources across the Nutanix environment.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage categories and category values used for tagging and organizing resources across the Nutanix environment.
   name: Nutanix Categories API
   slug: nutanix-categories-api
-- description: Retrieve and manage Nutanix cluster configurations and metadata across the Prism Central deployment.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Retrieve and manage Nutanix cluster configurations and metadata across the Prism Central deployment.
   name: Nutanix Clusters API
   slug: nutanix-clusters-api
-- description: Retrieve information about physical hosts in the Nutanix cluster infrastructure.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Retrieve information about physical hosts in the Nutanix cluster infrastructure.
   name: Nutanix Hosts API
   slug: nutanix-hosts-api
-- description: Manage disk images distributed across clusters for VM provisioning, including ISO and disk image uploads.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage disk images distributed across clusters for VM provisioning, including ISO and disk image uploads.
   name: Nutanix Images API
   slug: nutanix-images-api
-- description: Manage Flow microsegmentation policies that control network traffic between VMs based on categories.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage Flow microsegmentation policies that control network traffic between VMs based on categories.
   name: Nutanix Network Security Rules API
   slug: nutanix-network-security-rules-api
-- description: Manage projects that define resource quotas, user access, and infrastructure boundaries for self-service consumption.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage projects that define resource quotas, user access, and infrastructure boundaries for self-service consumption.
   name: Nutanix Projects API
   slug: nutanix-projects-api
-- description: Manage protection domains that define groups of VMs and volume groups for data protection and disaster recovery.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage protection domains that define groups of VMs and volume groups for data protection and disaster recovery.
   name: Nutanix Protection Domains API
   slug: nutanix-protection-domains-api
-- description: Manage VM snapshots for point-in-time recovery of virtual machines.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage VM snapshots for point-in-time recovery of virtual machines.
   name: Nutanix Snapshots API
   slug: nutanix-snapshots-api
-- description: Manage storage containers that provide logical storage partitions within the Nutanix distributed storage fabric.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage storage containers that provide logical storage partitions within the Nutanix distributed storage fabric.
   name: Nutanix Storage Containers API
   slug: nutanix-storage-containers-api
-- description: Manage storage pools which represent groups of physical disks used for storing data across the cluster.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage storage pools which represent groups of physical disks used for storing data across the cluster.
   name: Nutanix Storage Pools API
   slug: nutanix-storage-pools-api
-- description: Manage AHV network subnets including VLAN and overlay network configurations.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage AHV network subnets including VLAN and overlay network configurations.
   name: Nutanix Subnets API
   slug: nutanix-subnets-api
-- description: Manage virtual disks including disk statistics and configuration within the cluster.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage virtual disks including disk statistics and configuration within the cluster.
   name: Nutanix Virtual Disks API
   slug: nutanix-virtual-disks-api
-- description: Manage virtual machines including creation, update, deletion, and power state operations through the intent-based API model.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage virtual machines including creation, update, deletion, and power state operations through the intent-based API model.
   name: Nutanix VMs API
   slug: nutanix-vms-api
-- description: Manage webhook listeners that receive event notifications from the Nutanix platform.
+- baseURL: https://{{prism-central-ip}}:9440/api/nutanix/v3
+  baseurl_source: declared
+  description: Manage webhook listeners that receive event notifications from the Nutanix platform.
   name: Nutanix Webhooks API
   slug: nutanix-webhooks-api
 artifact_total: 81
@@ -423,7 +453,7 @@ score:
     catalog_gap: 70.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -433,7 +463,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 46.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -442,7 +472,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:

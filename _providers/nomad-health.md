@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Default namespace
+- baseURL: https://nomadhealth.com/api/v1
+  baseurl_source: declared
+  description: Default namespace
   name: Nomad Health Default API
   slug: nomad-health-default-api
 artifact_total: 6
@@ -187,7 +200,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad-health/refs/heads/main/screenshots/nomad-health-2026-08-07T185440.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +145,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -153,8 +166,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/glowbar/refs/heads/main/screenshots/glowbar-2026-09-02T145614.png
 security:
 - kind: authentication
   name: Glowbar Authentication

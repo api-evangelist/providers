@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,67 +36,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 35
 apis:
-- description: SafeIQ brand safety timeline API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: SafeIQ brand safety timeline API
   name: CreatorIQ Brand Safety API
   slug: creatoriq-brand-safety-api
-- description: Brand Safety Public API (draft)
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Brand Safety Public API (draft)
   name: CreatorIQ Brand Safety API
   slug: creatoriq-brandsafety-api
-- description: Campaign information
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Campaign information
   name: CreatorIQ Campaign API
   slug: creatoriq-campaign-api
-- description: Campaign Conversion Metrics
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Campaign Conversion Metrics
   name: CreatorIQ Campaign Conversion Metrics API
   slug: creatoriq-campaign-conversion-metrics-api
-- description: CJ reports
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: CJ reports
   name: CreatorIQ CJ API
   slug: creatoriq-cj-api
-- description: Creator payment-info collection status
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Creator payment-info collection status
   name: CreatorIQ Creator Payment Info API
   slug: creatoriq-creator-payment-info-api
-- description: Divisions public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Divisions public API
   name: CreatorIQ Divisions API
   slug: creatoriq-divisions-api
-- description: Ecommerce public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Ecommerce public API
   name: CreatorIQ Ecommerce API
   slug: creatoriq-ecommerce-api
-- description: General section of reporting
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: General section of reporting
   name: CreatorIQ General API
   slug: creatoriq-general-api
-- description: Global Conversion Metrics Configuration
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Global Conversion Metrics Configuration
   name: CreatorIQ Global Conversion Metrics Configuration API
   slug: creatoriq-global-conversion-metrics-configuration-api
-- description: LinkTracking public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: LinkTracking public API
   name: CreatorIQ Link Tracking API
   slug: creatoriq-linktracking-api
-- description: Lists public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Lists public API
   name: CreatorIQ Lists API
   slug: creatoriq-lists-api
-- description: Notes public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Notes public API
   name: CreatorIQ Notes API
   slug: creatoriq-notes-api
-- description: Onesheets public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Onesheets public API
   name: CreatorIQ Onesheet API
   slug: creatoriq-onesheet-api
-- description: Creator payables
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Creator payables
   name: CreatorIQ Payables API
   slug: creatoriq-payables-api
-- description: Creator payouts
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Creator payouts
   name: CreatorIQ Payouts API
   slug: creatoriq-payouts-api
-- description: Publisher public API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Publisher public API
   name: CreatorIQ Publisher API
   slug: creatoriq-publisher-api
-- description: Reporting
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Reporting
   name: CreatorIQ Reporting API
   slug: creatoriq-reporting-api
-- description: Public social API
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Public social API
   name: CreatorIQ Social API
   slug: creatoriq-social-api
-- description: Subscription API part
+- baseURL: https://apis.creatoriq.com
+  baseurl_source: declared
+  description: Subscription API part
   name: CreatorIQ Subscription API
   slug: creatoriq-subscription-api
 artifact_total: 44
@@ -313,7 +366,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -323,7 +376,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 64.1
+  previous_composite: 63.9
   provenance:
     conformance: derived
     contracts:
@@ -346,7 +399,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png
 security:

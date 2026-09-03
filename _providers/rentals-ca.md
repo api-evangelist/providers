@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: REST API described on the public Rentsync Partners portal (branded "LIFT System API") as giving partners "access to the underlying data structures of the LIFT System" with "detailed Canadian rental in
@@ -107,7 +117,7 @@ score:
   band: emerging
   composite: 15.2
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -129,8 +139,9 @@ score:
     regime_id: securities_market_data
     score: 23.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rentals-ca/refs/heads/main/screenshots/rentals-ca-2026-09-02T153431.png
 security:
 - kind: domain-security
   name: Rentals Ca Domain Security

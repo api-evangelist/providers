@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
-- description: Create, retrieve, and update the customers (bank-account holders) that Rotessa withdraws recurring payments from. Supports lookup by Rotessa customer ID or by a merchant-supplied custom identifier, an
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and update the customers (bank-account holders) that Rotessa withdraws recurring payments from. Supports lookup by Rotessa customer ID or by a merchant-supplied custom identifier, an
   name: Rotessa Customers API
   slug: rotessa-customers-api
-- description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Create and manage one-time and recurring pre-authorized debit / ACH transaction schedules against a customer's bank account, including schedule frequency, creation by Rotessa customer ID or custom ide
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
-- description: Retrieve financial transaction records and their status (and status reasons) for reconciliation and reporting via the transaction report endpoint. Base URL https://api.rotessa.com/v1; API-key authenti
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Retrieve financial transaction records and their status (and status reasons) for reconciliation and reporting via the transaction report endpoint. Base URL https://api.rotessa.com/v1; API-key authenti
   name: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
-- description: Create, retrieve, and update the bank-account holders Rotessa withdraws from.
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and update the bank-account holders Rotessa withdraws from.
   name: Rotessa Customers API
   slug: rotessa-customers-api
-- description: Retrieve financial transaction records and their status for reconciliation.
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Retrieve financial transaction records and their status for reconciliation.
   name: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
-- description: Create and manage one-time and recurring PAD/ACH transaction schedules.
+- baseURL: https://api.rotessa.com/v1
+  baseurl_source: declared
+  description: Create and manage one-time and recurring PAD/ACH transaction schedules.
   name: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
 artifact_total: 11
@@ -239,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/screenshots/rotessa-2026-08-17T081633.png
 security:

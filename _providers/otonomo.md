@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 18 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The EU API from Otonomo — 15 operation(s) for eu.
+- baseURL: https://api.otonomo.io/v1/
+  baseurl_source: declared
+  description: The EU API from Otonomo — 15 operation(s) for eu.
   name: Otonomo EU API
   slug: otonomo-eu-api
-- description: The US API from Otonomo — 2 operation(s) for us.
+- baseURL: https://api.otonomo.io/v1/
+  baseurl_source: declared
+  description: The US API from Otonomo — 2 operation(s) for us.
   name: Otonomo US API
   slug: otonomo-us-api
 artifact_total: 12
@@ -158,7 +162,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -168,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 30.9
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -180,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

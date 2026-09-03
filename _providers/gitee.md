@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 41 operations · 14 acting
 api_count: 1
 apis:
-- description: Gitee Enterprise Edition - enterprises, members, weekly reports.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Gitee Enterprise Edition - enterprises, members, weekly reports.
   name: Gitee Enterprises API
   slug: gitee-enterprises-api
-- description: Code snippets (gists) and their comments.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Code snippets (gists) and their comments.
   name: Gitee Gists API
   slug: gitee-gists-api
-- description: Issue tracking - issues, comments, labels, milestones.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Issue tracking - issues, comments, labels, milestones.
   name: Gitee Issues API
   slug: gitee-issues-api
-- description: Organizations and their members.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Organizations and their members.
   name: Gitee Organizations API
   slug: gitee-organizations-api
-- description: Pull requests - create, review, merge, and inspect changes.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Pull requests - create, review, merge, and inspect changes.
   name: Gitee Pull Requests API
   slug: gitee-pull-requests-api
-- description: Repositories and their contents - branches, tags, commits, contents, forks.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Repositories and their contents - branches, tags, commits, contents, forks.
   name: Gitee Repositories API
   slug: gitee-repositories-api
-- description: Search across repositories, issues, and users.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Search across repositories, issues, and users.
   name: Gitee Search API
   slug: gitee-search-api
-- description: The authenticated user, keys, followers, and following.
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: The authenticated user, keys, followers, and following.
   name: Gitee Users API
   slug: gitee-users-api
-- description: Repository WebHooks (outbound HTTP event callbacks).
+- baseURL: https://gitee.com/api/v5
+  baseurl_source: declared
+  description: Repository WebHooks (outbound HTTP event callbacks).
   name: Gitee Webhooks API
   slug: gitee-webhooks-api
 artifact_total: 26
@@ -203,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitee/refs/heads/main/screenshots/gitee-2026-07-25T215849.png
 security:

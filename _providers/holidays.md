@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Country metadata, codes, languages, currencies, and subdivisions.
+- baseURL: https://holidayapi.com/v1
+  baseurl_source: declared
+  description: Country metadata, codes, languages, currencies, and subdivisions.
   name: Holiday API Countries API
   slug: holidays-countries-api
-- description: Public holidays and observances for countries, states, and provinces.
+- baseURL: https://holidayapi.com/v1
+  baseurl_source: declared
+  description: Public holidays and observances for countries, states, and provinces.
   name: Holiday API Holidays API
   slug: holidays-holidays-api
-- description: Supported languages for retrieving localized holiday names.
+- baseURL: https://holidayapi.com/v1
+  baseurl_source: declared
+  description: Supported languages for retrieving localized holiday names.
   name: Holiday API Languages API
   slug: holidays-languages-api
-- description: Working / business day calculations honoring country workweeks and holidays.
+- baseURL: https://holidayapi.com/v1
+  baseurl_source: declared
+  description: Working / business day calculations honoring country workweeks and holidays.
   name: Holiday API Workdays API
   slug: holidays-workdays-api
 artifact_total: 57
@@ -358,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/screenshots/holidays-2026-06-20T182809.png
 security:

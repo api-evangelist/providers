@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: 'Partner-facing developer portal hosted at developer.devops.chvac.trane.com for Trane Commercial HVAC ("CHVAC") cloud and controls APIs. The portal is gated and surfaces API design, documentation, and '
@@ -215,7 +215,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 31.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trane-technologies/refs/heads/main/screenshots/trane-technologies-2026-06-20T195537.png
 security:

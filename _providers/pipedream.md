@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 62 operations · 31 acting
 api_count: 2
 apis:
-- description: The Accounts API from Pipedream — 4 operation(s) for accounts.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Accounts API from Pipedream — 4 operation(s) for accounts.
   name: Pipedream Accounts API
   slug: pipedream-accounts-api
-- description: The Actions API from Pipedream — 5 operation(s) for actions.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Actions API from Pipedream — 5 operation(s) for actions.
   name: Pipedream Actions API
   slug: pipedream-actions-api
-- description: The App Categories API from Pipedream — 2 operation(s) for app categories.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The App Categories API from Pipedream — 2 operation(s) for app categories.
   name: Pipedream App Categories API
   slug: pipedream-app-categories-api
-- description: The Apps API from Pipedream — 6 operation(s) for apps.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Apps API from Pipedream — 6 operation(s) for apps.
   name: Pipedream Apps API
   slug: pipedream-apps-api
-- description: The Components API from Pipedream — 4 operation(s) for components.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Components API from Pipedream — 4 operation(s) for components.
   name: Pipedream Components API
   slug: pipedream-components-api
-- description: The Deployed Triggers API from Pipedream — 7 operation(s) for deployed triggers.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Deployed Triggers API from Pipedream — 7 operation(s) for deployed triggers.
   name: Pipedream Deployed Triggers API
   slug: pipedream-deployed-triggers-api
-- description: The File Stash API from Pipedream — 1 operation(s) for file stash.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The File Stash API from Pipedream — 1 operation(s) for file stash.
   name: Pipedream File Stash API
   slug: pipedream-file-stash-api
-- description: The MCP API from Pipedream — 1 operation(s) for mcp.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The MCP API from Pipedream — 1 operation(s) for mcp.
   name: Pipedream MCP API
   slug: pipedream-mcp-api
-- description: The OAuth API from Pipedream — 1 operation(s) for oauth.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The OAuth API from Pipedream — 1 operation(s) for oauth.
   name: Pipedream OAuth API
   slug: pipedream-oauth-api
-- description: The Projects API from Pipedream — 4 operation(s) for projects.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Projects API from Pipedream — 4 operation(s) for projects.
   name: Pipedream Projects API
   slug: pipedream-projects-api
-- description: The Proxy API from Pipedream — 1 operation(s) for proxy.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Proxy API from Pipedream — 1 operation(s) for proxy.
   name: Pipedream Proxy API
   slug: pipedream-proxy-api
-- description: The Tokens API from Pipedream — 2 operation(s) for tokens.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Tokens API from Pipedream — 2 operation(s) for tokens.
   name: Pipedream Tokens API
   slug: pipedream-tokens-api
-- description: The Triggers API from Pipedream — 5 operation(s) for triggers.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Triggers API from Pipedream — 5 operation(s) for triggers.
   name: Pipedream Triggers API
   slug: pipedream-triggers-api
-- description: The Usage API from Pipedream — 1 operation(s) for usage.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Usage API from Pipedream — 1 operation(s) for usage.
   name: Pipedream Usage API
   slug: pipedream-usage-api
-- description: The Users API from Pipedream — 1 operation(s) for users.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Users API from Pipedream — 1 operation(s) for users.
   name: Pipedream Users API
   slug: pipedream-users-api
-- description: The Webhooks API from Pipedream — 2 operation(s) for webhooks.
+- baseURL: https://api.pipedream.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Pipedream — 2 operation(s) for webhooks.
   name: Pipedream Webhooks API
   slug: pipedream-webhooks-api
 arazzos:
@@ -1057,7 +1089,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:

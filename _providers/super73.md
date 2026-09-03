@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'The agent-facing commerce API for the SUPER73 North American storefront. Implements the Universal Commerce Protocol (UCP) 2026-08-25 over MCP: a merchant profile at /.well-known/ucp declares the suppo'
@@ -163,11 +176,11 @@ score:
   band: emerging
   composite: 23.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -177,14 +190,15 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 23.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/screenshots/super73-2026-09-02T161213.png
 security:
 - kind: authentication
   name: Super73 Authentication

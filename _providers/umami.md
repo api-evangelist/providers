@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 7
 apis:
-- description: Login and token verification
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Login and token verification
   name: Umami Authentication API
   slug: umami-authentication-api
-- description: Custom event tracking
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Custom event tracking
   name: Umami Events API
   slug: umami-events-api
-- description: Visitor session data
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Visitor session data
   name: Umami Sessions API
   slug: umami-sessions-api
-- description: Team and access management
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Team and access management
   name: Umami Teams API
   slug: umami-teams-api
-- description: User account management
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: User account management
   name: Umami Users API
   slug: umami-users-api
-- description: Analytics metrics, pageviews, and statistics
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Analytics metrics, pageviews, and statistics
   name: Umami Website Statistics API
   slug: umami-website-statistics-api
-- description: Website management and configuration
+- baseURL: https://api.umami.is/v1
+  baseurl_source: declared
+  description: Website management and configuration
   name: Umami Websites API
   slug: umami-websites-api
 artifact_total: 112
@@ -588,7 +602,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umami/refs/heads/main/screenshots/umami-2026-06-20T200011.png
 security:

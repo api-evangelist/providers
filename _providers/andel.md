@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The purchases API from Andel — 2 operation(s) for purchases.
+- baseURL: https://api.andel.org/exchange/v1
+  baseurl_source: declared
+  description: The purchases API from Andel — 2 operation(s) for purchases.
   name: Andel purchases API
   slug: andel-purchases-api
-- description: The webhooks API from Andel — 2 operation(s) for webhooks.
+- baseURL: https://api.andel.org/exchange/v1
+  baseurl_source: declared
+  description: The webhooks API from Andel — 2 operation(s) for webhooks.
   name: Andel webhooks API
   slug: andel-webhooks-api
 artifact_total: 11
@@ -202,7 +206,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -212,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,7 +234,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andel/refs/heads/main/screenshots/andel-2026-07-25T200224.png
 security:

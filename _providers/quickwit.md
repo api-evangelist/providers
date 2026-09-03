@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Monitor cluster state and node health
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Monitor cluster state and node health
   name: Quickwit Cluster API
   slug: quickwit-cluster-api
-- description: Remove documents matching queries from indexes
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Remove documents matching queries from indexes
   name: Quickwit Delete Tasks API
   slug: quickwit-delete-tasks-api
-- description: Manage index templates for automatic index creation
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Manage index templates for automatic index creation
   name: Quickwit Index Templates API
   slug: quickwit-index-templates-api
-- description: Create, update, retrieve, and manage search indexes
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Create, update, retrieve, and manage search indexes
   name: Quickwit Indexes API
   slug: quickwit-indexes-api
-- description: Add documents to indexes via NDJSON format
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Add documents to indexes via NDJSON format
   name: Quickwit Ingest API
   slug: quickwit-ingest-api
-- description: Query documents across indexes using full-text and aggregation queries
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Query documents across indexes using full-text and aggregation queries
   name: Quickwit Search API
   slug: quickwit-search-api
-- description: Configure data sources such as Kafka, Kinesis, and Pulsar
+- baseURL: https://your-quickwit-node/api/v1
+  baseurl_source: declared
+  description: Configure data sources such as Kafka, Kinesis, and Pulsar
   name: Quickwit Sources API
   slug: quickwit-sources-api
 artifact_total: 20
@@ -230,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/screenshots/quickwit-2026-06-20T192434.png
 security:

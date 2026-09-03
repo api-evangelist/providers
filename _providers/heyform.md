@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: Authentication and social login (OAuth)
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Authentication and social login (OAuth)
   name: HeyForm Auth API
   slug: heyform-auth-api
-- description: Runtime configuration
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Runtime configuration
   name: HeyForm Config API
   slug: heyform-config-api
-- description: Form rendering (public endpoint)
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Form rendering (public endpoint)
   name: HeyForm Forms API
   slug: heyform-forms-api
-- description: Primary data API (GraphQL over HTTP)
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Primary data API (GraphQL over HTTP)
   name: HeyForm GraphQL API
   slug: heyform-graphql-api
-- description: Image proxy and resizing
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Image proxy and resizing
   name: HeyForm Images API
   slug: heyform-images-api
-- description: Export form submission data
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: Export form submission data
   name: HeyForm Submissions API
   slug: heyform-submissions-api
-- description: File upload
+- baseURL: https://api.heyform.net
+  baseurl_source: declared
+  description: File upload
   name: HeyForm Upload API
   slug: heyform-upload-api
 artifact_total: 27
@@ -214,7 +228,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -224,7 +238,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 60.5
-  previous_composite: 45.0
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -233,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/screenshots/heyform-2026-06-20T182715.png
 security:

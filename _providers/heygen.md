@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -47,40 +47,64 @@ apis:
 - description: The HeyGen REST API exposes video generation, avatar management, text-to-speech (Starfish), video translation, and lipsync capabilities. It supports avatar videos generated from a single text prompt v
   name: HeyGen API
   slug: heygen-api
-- description: Quota and account information endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Quota and account information endpoints.
   name: HeyGen Account API
   slug: heygen-account-api
-- description: Asset upload endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Asset upload endpoints.
   name: HeyGen Assets API
   slug: heygen-assets-api
-- description: Avatar and avatar group discovery endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Avatar and avatar group discovery endpoints.
   name: HeyGen Avatars API
   slug: heygen-avatars-api
-- description: Digital Twin creation, status, and deletion endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Digital Twin creation, status, and deletion endpoints.
   name: HeyGen Digital Twins API
   slug: heygen-digital-twins-api
-- description: Folder management endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Folder management endpoints.
   name: HeyGen Folders API
   slug: heygen-folders-api
-- description: Photo avatar generation, training, and enhancement endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Photo avatar generation, training, and enhancement endpoints.
   name: HeyGen Photo Avatars API
   slug: heygen-photo-avatars-api
-- description: Streaming avatar session lifecycle and task endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Streaming avatar session lifecycle and task endpoints.
   name: HeyGen Streaming API
   slug: heygen-streaming-api
-- description: Template listing, retrieval, and template-based video generation.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Template listing, retrieval, and template-based video generation.
   name: HeyGen Templates API
   slug: heygen-templates-api
-- description: Video translation and supported-language endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Video translation and supported-language endpoints.
   name: HeyGen Video Translation API
   slug: heygen-video-translation-api
-- description: Video generation, retrieval, and management endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Video generation, retrieval, and management endpoints.
   name: HeyGen Videos API
   slug: heygen-videos-api
-- description: Voice listing and voice-management endpoints.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Voice listing and voice-management endpoints.
   name: HeyGen Voices API
   slug: heygen-voices-api
-- description: Webhook event and endpoint management.
+- baseURL: https://api.heygen.com/v3
+  baseurl_source: declared
+  description: Webhook event and endpoint management.
   name: HeyGen Webhooks API
   slug: heygen-webhooks-api
 artifact_total: 35
@@ -240,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heygen/refs/heads/main/screenshots/heygen-2026-06-20T182718.png
 security:

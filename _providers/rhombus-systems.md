@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,202 +37,332 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Real-time organization change events delivered over a STOMP 1.2 session framed on a secure WebSocket. Clients subscribe to /topic/change/{orgUuid} and receive a MESSAGE frame for every entity change i
+- baseURL: wss://ws.rhombussystems.com:8443/websocket
+  baseurl_source: declared
+  description: Real-time organization change events delivered over a STOMP 1.2 session framed on a secure WebSocket. Clients subscribe to /topic/change/{orgUuid} and receive a MESSAGE frame for every entity change i
   name: Rhombus Console WebSocket API
   slug: rhombus-systems-console-websocket-api
-- description: The Access Control Integrations Webservice API from Rhombus Systems — 101 operation(s) for access control integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Access Control Integrations Webservice API from Rhombus Systems — 101 operation(s) for access control integrations webservice.
   name: Rhombus Systems Access Control Integrations Webservice API
   slug: rhombus-systems-access-control-integrations-webservice-api
-- description: The Access Control Webservice API from Rhombus Systems — 65 operation(s) for access control webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Access Control Webservice API from Rhombus Systems — 65 operation(s) for access control webservice.
   name: Rhombus Systems Access Control Webservice API
   slug: rhombus-systems-access-control-webservice-api
-- description: The Alarm Monitoring Keypad Webservice API from Rhombus Systems — 5 operation(s) for alarm monitoring keypad webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Alarm Monitoring Keypad Webservice API from Rhombus Systems — 5 operation(s) for alarm monitoring keypad webservice.
   name: Rhombus Systems Alarm Monitoring Keypad Webservice API
   slug: rhombus-systems-alarm-monitoring-keypad-webservice-api
-- description: The Alert Monitoring Webservice API from Rhombus Systems — 11 operation(s) for alert monitoring webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Alert Monitoring Webservice API from Rhombus Systems — 11 operation(s) for alert monitoring webservice.
   name: Rhombus Systems Alert Monitoring Webservice API
   slug: rhombus-systems-alert-monitoring-webservice-api
-- description: The AudioGateway Webservice API from Rhombus Systems — 10 operation(s) for audiogateway webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The AudioGateway Webservice API from Rhombus Systems — 10 operation(s) for audiogateway webservice.
   name: Rhombus Systems AudioGateway Webservice API
   slug: rhombus-systems-audiogateway-webservice-api
-- description: The AudioPlayback Webservice API from Rhombus Systems — 6 operation(s) for audioplayback webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The AudioPlayback Webservice API from Rhombus Systems — 6 operation(s) for audioplayback webservice.
   name: Rhombus Systems AudioPlayback Webservice API
   slug: rhombus-systems-audioplayback-webservice-api
-- description: The Badge Reader Webservice API from Rhombus Systems — 2 operation(s) for badge reader webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Badge Reader Webservice API from Rhombus Systems — 2 operation(s) for badge reader webservice.
   name: Rhombus Systems Badge Reader Webservice API
   slug: rhombus-systems-badge-reader-webservice-api
-- description: The BLE Webservice API from Rhombus Systems — 1 operation(s) for ble webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The BLE Webservice API from Rhombus Systems — 1 operation(s) for ble webservice.
   name: Rhombus Systems BLE Webservice API
   slug: rhombus-systems-ble-webservice-api
-- description: The Button Webservice API from Rhombus Systems — 8 operation(s) for button webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Button Webservice API from Rhombus Systems — 8 operation(s) for button webservice.
   name: Rhombus Systems Button Webservice API
   slug: rhombus-systems-button-webservice-api
-- description: The Camera Webservice API from Rhombus Systems — 61 operation(s) for camera webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Camera Webservice API from Rhombus Systems — 61 operation(s) for camera webservice.
   name: Rhombus Systems Camera Webservice API
   slug: rhombus-systems-camera-webservice-api
-- description: The ClaimKey Webservice API from Rhombus Systems — 3 operation(s) for claimkey webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The ClaimKey Webservice API from Rhombus Systems — 3 operation(s) for claimkey webservice.
   name: Rhombus Systems ClaimKey Webservice API
   slug: rhombus-systems-claimkey-webservice-api
-- description: The Climate Webservice API from Rhombus Systems — 12 operation(s) for climate webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Climate Webservice API from Rhombus Systems — 12 operation(s) for climate webservice.
   name: Rhombus Systems Climate Webservice API
   slug: rhombus-systems-climate-webservice-api
-- description: The Component Webservice API from Rhombus Systems — 62 operation(s) for component webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Component Webservice API from Rhombus Systems — 62 operation(s) for component webservice.
   name: Rhombus Systems Component Webservice API
   slug: rhombus-systems-component-webservice-api
-- description: The Customer Webservice API from Rhombus Systems — 6 operation(s) for customer webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Customer Webservice API from Rhombus Systems — 6 operation(s) for customer webservice.
   name: Rhombus Systems Customer Webservice API
   slug: rhombus-systems-customer-webservice-api
-- description: The Developer Webservice API from Rhombus Systems — 4 operation(s) for developer webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Developer Webservice API from Rhombus Systems — 4 operation(s) for developer webservice.
   name: Rhombus Systems Developer Webservice API
   slug: rhombus-systems-developer-webservice-api
-- description: The Device Config Webservice API from Rhombus Systems — 2 operation(s) for device config webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Device Config Webservice API from Rhombus Systems — 2 operation(s) for device config webservice.
   name: Rhombus Systems Device Config Webservice API
   slug: rhombus-systems-device-config-webservice-api
-- description: The Door Controller Webservice API from Rhombus Systems — 2 operation(s) for door controller webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Door Controller Webservice API from Rhombus Systems — 2 operation(s) for door controller webservice.
   name: Rhombus Systems Door Controller Webservice API
   slug: rhombus-systems-door-controller-webservice-api
-- description: The Door Webservice API from Rhombus Systems — 4 operation(s) for door webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Door Webservice API from Rhombus Systems — 4 operation(s) for door webservice.
   name: Rhombus Systems Door Webservice API
   slug: rhombus-systems-door-webservice-api
-- description: The Doorbell Camera Webservice API from Rhombus Systems — 10 operation(s) for doorbell camera webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Doorbell Camera Webservice API from Rhombus Systems — 10 operation(s) for doorbell camera webservice.
   name: Rhombus Systems Doorbell Camera Webservice API
   slug: rhombus-systems-doorbell-camera-webservice-api
-- description: The Elevator Webservice API from Rhombus Systems — 6 operation(s) for elevator webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Elevator Webservice API from Rhombus Systems — 6 operation(s) for elevator webservice.
   name: Rhombus Systems Elevator Webservice API
   slug: rhombus-systems-elevator-webservice-api
-- description: The Event Search Webservice API from Rhombus Systems — 2 operation(s) for event search webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Event Search Webservice API from Rhombus Systems — 2 operation(s) for event search webservice.
   name: Rhombus Systems Event Search Webservice API
   slug: rhombus-systems-event-search-webservice-api
-- description: The Event Webservice API from Rhombus Systems — 42 operation(s) for event webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Event Webservice API from Rhombus Systems — 42 operation(s) for event webservice.
   name: Rhombus Systems Event Webservice API
   slug: rhombus-systems-event-webservice-api
-- description: The Export Webservice API from Rhombus Systems — 16 operation(s) for export webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Export Webservice API from Rhombus Systems — 16 operation(s) for export webservice.
   name: Rhombus Systems Export Webservice API
   slug: rhombus-systems-export-webservice-api
-- description: The Face Recognition Event Webservice API from Rhombus Systems — 4 operation(s) for face recognition event webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Face Recognition Event Webservice API from Rhombus Systems — 4 operation(s) for face recognition event webservice.
   name: Rhombus Systems Face Recognition Event Webservice API
   slug: rhombus-systems-face-recognition-event-webservice-api
-- description: The Face Recognition Matchmaker Webservice API from Rhombus Systems — 9 operation(s) for face recognition matchmaker webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Face Recognition Matchmaker Webservice API from Rhombus Systems — 9 operation(s) for face recognition matchmaker webservice.
   name: Rhombus Systems Face Recognition Matchmaker Webservice API
   slug: rhombus-systems-face-recognition-matchmaker-webservice-api
-- description: The Face Recognition Person Webservice API from Rhombus Systems — 8 operation(s) for face recognition person webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Face Recognition Person Webservice API from Rhombus Systems — 8 operation(s) for face recognition person webservice.
   name: Rhombus Systems Face Recognition Person Webservice API
   slug: rhombus-systems-face-recognition-person-webservice-api
-- description: The Feature Webservice API from Rhombus Systems — 5 operation(s) for feature webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Feature Webservice API from Rhombus Systems — 5 operation(s) for feature webservice.
   name: Rhombus Systems Feature Webservice API
   slug: rhombus-systems-feature-webservice-api
-- description: The Guest Management Kiosk Webservice API from Rhombus Systems — 1 operation(s) for guest management kiosk webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Guest Management Kiosk Webservice API from Rhombus Systems — 1 operation(s) for guest management kiosk webservice.
   name: Rhombus Systems Guest Management Kiosk Webservice API
   slug: rhombus-systems-guest-management-kiosk-webservice-api
-- description: The Help Webservice API from Rhombus Systems — 7 operation(s) for help webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Help Webservice API from Rhombus Systems — 7 operation(s) for help webservice.
   name: Rhombus Systems Help Webservice API
   slug: rhombus-systems-help-webservice-api
-- description: The Incident Management Integrations Webservice API from Rhombus Systems — 34 operation(s) for incident management integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Incident Management Integrations Webservice API from Rhombus Systems — 34 operation(s) for incident management integrations webservice.
   name: Rhombus Systems Incident Management Integrations Webservice API
   slug: rhombus-systems-incident-management-integrations-webservice-api
-- description: The Integrations Webservice API from Rhombus Systems — 32 operation(s) for integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Integrations Webservice API from Rhombus Systems — 32 operation(s) for integrations webservice.
   name: Rhombus Systems Integrations Webservice API
   slug: rhombus-systems-integrations-webservice-api
-- description: The Internal Webservice API from Rhombus Systems — 1 operation(s) for internal webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Internal Webservice API from Rhombus Systems — 1 operation(s) for internal webservice.
   name: Rhombus Systems Internal Webservice API
   slug: rhombus-systems-internal-webservice-api
-- description: The IoT Integrations Webservice API from Rhombus Systems — 12 operation(s) for iot integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The IoT Integrations Webservice API from Rhombus Systems — 12 operation(s) for iot integrations webservice.
   name: Rhombus Systems IoT Integrations Webservice API
   slug: rhombus-systems-iot-integrations-webservice-api
-- description: The License Webservice API from Rhombus Systems — 16 operation(s) for license webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The License Webservice API from Rhombus Systems — 16 operation(s) for license webservice.
   name: Rhombus Systems License Webservice API
   slug: rhombus-systems-license-webservice-api
-- description: The Location Webservice API from Rhombus Systems — 13 operation(s) for location webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Location Webservice API from Rhombus Systems — 13 operation(s) for location webservice.
   name: Rhombus Systems Location Webservice API
   slug: rhombus-systems-location-webservice-api
-- description: The Lockdown Plan Webservice API from Rhombus Systems — 17 operation(s) for lockdown plan webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Lockdown Plan Webservice API from Rhombus Systems — 17 operation(s) for lockdown plan webservice.
   name: Rhombus Systems Lockdown Plan Webservice API
   slug: rhombus-systems-lockdown-plan-webservice-api
-- description: The Logistics Webservice API from Rhombus Systems — 4 operation(s) for logistics webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Logistics Webservice API from Rhombus Systems — 4 operation(s) for logistics webservice.
   name: Rhombus Systems Logistics Webservice API
   slug: rhombus-systems-logistics-webservice-api
-- description: The Media Device Webservice API from Rhombus Systems — 1 operation(s) for media device webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Media Device Webservice API from Rhombus Systems — 1 operation(s) for media device webservice.
   name: Rhombus Systems Media Device Webservice API
   slug: rhombus-systems-media-device-webservice-api
-- description: The OAuth Webservice API from Rhombus Systems — 6 operation(s) for oauth webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The OAuth Webservice API from Rhombus Systems — 6 operation(s) for oauth webservice.
   name: Rhombus Systems OAuth Webservice API
   slug: rhombus-systems-oauth-webservice-api
-- description: The Occupancy Webservice API from Rhombus Systems — 4 operation(s) for occupancy webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Occupancy Webservice API from Rhombus Systems — 4 operation(s) for occupancy webservice.
   name: Rhombus Systems Occupancy Webservice API
   slug: rhombus-systems-occupancy-webservice-api
-- description: The Org Integrations Webservice API from Rhombus Systems — 4 operation(s) for org integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Org Integrations Webservice API from Rhombus Systems — 4 operation(s) for org integrations webservice.
   name: Rhombus Systems Org Integrations Webservice API
   slug: rhombus-systems-org-integrations-webservice-api
-- description: The Org Webservice API from Rhombus Systems — 47 operation(s) for org webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Org Webservice API from Rhombus Systems — 47 operation(s) for org webservice.
   name: Rhombus Systems Org Webservice API
   slug: rhombus-systems-org-webservice-api
-- description: The Partner Webservice API from Rhombus Systems — 22 operation(s) for partner webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Partner Webservice API from Rhombus Systems — 22 operation(s) for partner webservice.
   name: Rhombus Systems Partner Webservice API
   slug: rhombus-systems-partner-webservice-api
-- description: The Permission Webservice API from Rhombus Systems — 10 operation(s) for permission webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Permission Webservice API from Rhombus Systems — 10 operation(s) for permission webservice.
   name: Rhombus Systems Permission Webservice API
   slug: rhombus-systems-permission-webservice-api
-- description: The Policy Webservice API from Rhombus Systems — 54 operation(s) for policy webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Policy Webservice API from Rhombus Systems — 54 operation(s) for policy webservice.
   name: Rhombus Systems Policy Webservice API
   slug: rhombus-systems-policy-webservice-api
-- description: The Proximity Webservice API from Rhombus Systems — 4 operation(s) for proximity webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Proximity Webservice API from Rhombus Systems — 4 operation(s) for proximity webservice.
   name: Rhombus Systems Proximity Webservice API
   slug: rhombus-systems-proximity-webservice-api
-- description: The RapidSOS Webservice API from Rhombus Systems — 1 operation(s) for rapidsos webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The RapidSOS Webservice API from Rhombus Systems — 1 operation(s) for rapidsos webservice.
   name: Rhombus Systems RapidSOS Webservice API
   slug: rhombus-systems-rapidsos-webservice-api
-- description: The Relay Webservice API from Rhombus Systems — 27 operation(s) for relay webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Relay Webservice API from Rhombus Systems — 27 operation(s) for relay webservice.
   name: Rhombus Systems Relay Webservice API
   slug: rhombus-systems-relay-webservice-api
-- description: The Report Webservice API from Rhombus Systems — 30 operation(s) for report webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Report Webservice API from Rhombus Systems — 30 operation(s) for report webservice.
   name: Rhombus Systems Report Webservice API
   slug: rhombus-systems-report-webservice-api
-- description: The Rules Records Webservice API from Rhombus Systems — 3 operation(s) for rules records webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Rules Records Webservice API from Rhombus Systems — 3 operation(s) for rules records webservice.
   name: Rhombus Systems Rules Records Webservice API
   slug: rhombus-systems-rules-records-webservice-api
-- description: The Rules Webservice API from Rhombus Systems — 10 operation(s) for rules webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Rules Webservice API from Rhombus Systems — 10 operation(s) for rules webservice.
   name: Rhombus Systems Rules Webservice API
   slug: rhombus-systems-rules-webservice-api
-- description: The Scene Query Webservice API from Rhombus Systems — 9 operation(s) for scene query webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Scene Query Webservice API from Rhombus Systems — 9 operation(s) for scene query webservice.
   name: Rhombus Systems Scene Query Webservice API
   slug: rhombus-systems-scene-query-webservice-api
-- description: The Schedule Webservice API from Rhombus Systems — 12 operation(s) for schedule webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Schedule Webservice API from Rhombus Systems — 12 operation(s) for schedule webservice.
   name: Rhombus Systems Schedule Webservice API
   slug: rhombus-systems-schedule-webservice-api
-- description: The Search Webservice API from Rhombus Systems — 4 operation(s) for search webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Search Webservice API from Rhombus Systems — 4 operation(s) for search webservice.
   name: Rhombus Systems Search Webservice API
   slug: rhombus-systems-search-webservice-api
-- description: The Sensor Webservice API from Rhombus Systems — 3 operation(s) for sensor webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Sensor Webservice API from Rhombus Systems — 3 operation(s) for sensor webservice.
   name: Rhombus Systems Sensor Webservice API
   slug: rhombus-systems-sensor-webservice-api
-- description: The Service Management Integrations Webservice API from Rhombus Systems — 14 operation(s) for service management integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Service Management Integrations Webservice API from Rhombus Systems — 14 operation(s) for service management integrations webservice.
   name: Rhombus Systems Service Management Integrations Webservice API
   slug: rhombus-systems-service-management-integrations-webservice-api
-- description: The Storage Integrations Webservice API from Rhombus Systems — 18 operation(s) for storage integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Storage Integrations Webservice API from Rhombus Systems — 18 operation(s) for storage integrations webservice.
   name: Rhombus Systems Storage Integrations Webservice API
   slug: rhombus-systems-storage-integrations-webservice-api
-- description: The TvOs Config Webservice API from Rhombus Systems — 3 operation(s) for tvos config webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The TvOs Config Webservice API from Rhombus Systems — 3 operation(s) for tvos config webservice.
   name: Rhombus Systems TvOs Config Webservice API
   slug: rhombus-systems-tvos-config-webservice-api
-- description: The Upload Webservice API from Rhombus Systems — 7 operation(s) for upload webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Upload Webservice API from Rhombus Systems — 7 operation(s) for upload webservice.
   name: Rhombus Systems Upload Webservice API
   slug: rhombus-systems-upload-webservice-api
-- description: The User Metadata Webservice API from Rhombus Systems — 8 operation(s) for user metadata webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The User Metadata Webservice API from Rhombus Systems — 8 operation(s) for user metadata webservice.
   name: Rhombus Systems User Metadata Webservice API
   slug: rhombus-systems-user-metadata-webservice-api
-- description: The User Webservice API from Rhombus Systems — 12 operation(s) for user webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The User Webservice API from Rhombus Systems — 12 operation(s) for user webservice.
   name: Rhombus Systems User Webservice API
   slug: rhombus-systems-user-webservice-api
-- description: The Vehicle Webservice API from Rhombus Systems — 12 operation(s) for vehicle webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Vehicle Webservice API from Rhombus Systems — 12 operation(s) for vehicle webservice.
   name: Rhombus Systems Vehicle Webservice API
   slug: rhombus-systems-vehicle-webservice-api
-- description: The Video Webservice API from Rhombus Systems — 21 operation(s) for video webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Video Webservice API from Rhombus Systems — 21 operation(s) for video webservice.
   name: Rhombus Systems Video Webservice API
   slug: rhombus-systems-video-webservice-api
-- description: The Webhook Integrations Webservice API from Rhombus Systems — 7 operation(s) for webhook integrations webservice.
+- baseURL: https://api2.rhombussystems.com/api
+  baseurl_source: declared
+  description: The Webhook Integrations Webservice API from Rhombus Systems — 7 operation(s) for webhook integrations webservice.
   name: Rhombus Systems Webhook Integrations Webservice API
   slug: rhombus-systems-webhook-integrations-webservice-api
 artifact_total: 73
@@ -435,23 +578,23 @@ rate_limits:
   slug: rhombus-systems-rate-limits
 score:
   band: strong
-  composite: 57.8
+  composite: 58.7
   coverage:
-    artifact_dirs: 23
-    catalog_gap: 74.0
+    artifact_dirs: 24
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 64.1
     developer_ergonomics: 59.5
-    discoverability: 61.1
+    discoverability: 70.4
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 58.0
+  previous_composite: 57.8
   provenance:
     conformance: first-party
     contracts:
@@ -462,8 +605,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rhombus-systems/refs/heads/main/screenshots/rhombus-systems-2026-09-02T153758.png
 security:
 - kind: authentication
   name: Rhombus Systems Authentication

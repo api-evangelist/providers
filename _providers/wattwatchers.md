@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -33,16 +45,24 @@ agentic_access:
   summary_line: 14 operations · 1 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations related to devices
+- baseURL: https://api-v3.wattwatchers.com.au
+  baseurl_source: declared
+  description: Operations related to devices
   name: Wattwatchers Devices API
   slug: wattwatchers-devices-api
-- description: Operations related to Long Energy (LE)
+- baseURL: https://api-v3.wattwatchers.com.au
+  baseurl_source: declared
+  description: Operations related to Long Energy (LE)
   name: Wattwatchers Long Energy API
   slug: wattwatchers-long-energy-api
-- description: Operations related to Modbus
+- baseURL: https://api-v3.wattwatchers.com.au
+  baseurl_source: declared
+  description: Operations related to Modbus
   name: Wattwatchers Modbus API
   slug: wattwatchers-modbus-api
-- description: Operations related to Short Energy (SE)
+- baseURL: https://api-v3.wattwatchers.com.au
+  baseurl_source: declared
+  description: Operations related to Short Energy (SE)
   name: Wattwatchers Short Energy API
   slug: wattwatchers-short-energy-api
 artifact_total: 11
@@ -205,7 +225,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -237,8 +257,9 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/screenshots/wattwatchers-2026-09-02T170454.png
 security:
 - kind: authentication
   name: Wattwatchers Authentication

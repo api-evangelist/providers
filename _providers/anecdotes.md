@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 10
@@ -36,55 +48,89 @@ apis:
 - description: 'A hosted Model Context Protocol proxy that exposes Anecdotes GRC domains - risk, control, evidence, policy, framework, uar, analysis, comments, requirement and semantic search - to any MCP-capable AI '
   name: Anecdotes MCP Proxy
   slug: anecdotes-mcp-proxy
-- description: '**Analysis rules** evaluate evidence table rows for **gaps or warnings**; configure query, scoping, and alert levels, and read **execution results** per instance. [Analysis rules (product)](https://he'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Analysis rules** evaluate evidence table rows for **gaps or warnings**; configure query, scoping, and alert levels, and read **execution results** per instance. [Analysis rules (product)](https://he'
   name: anecdotes Analysis Rules API
   slug: anecdotes-analysis-rules-api
-- description: API key to JWT exchange and token management.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: API key to JWT exchange and token management.
   name: anecdotes Authorization API
   slug: anecdotes-authorization-api
-- description: Create one or more **custom controls** in a framework.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: Create one or more **custom controls** in a framework.
   name: anecdotes Create Controls API
   slug: anecdotes-create-controls-api
-- description: 'Create custom **Evidence Collections**, **attach** JSON/CSV files to a collection, and upload **manual** evidence of any type. Customer-pushed evidence can also carry **IPE** (Information Produced by '
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: 'Create custom **Evidence Collections**, **attach** JSON/CSV files to a collection, and upload **manual** evidence of any type. Customer-pushed evidence can also carry **IPE** (Information Produced by '
   name: anecdotes Create Evidence API
   slug: anecdotes-create-evidence-api
-- description: '**Custom fields** extend platform resources (including **requirements**) with your own **dropdown**, **multi-select**, or **free-text** values. These endpoints manage the field **definitions** — creat'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Custom fields** extend platform resources (including **requirements**) with your own **dropdown**, **multi-select**, or **free-text** values. These endpoints manage the field **definitions** — creat'
   name: anecdotes Custom Fields API
   slug: anecdotes-custom-fields-api
-- description: Download **raw** evidence payloads, processed **evidence tables**, combined full-or-raw streams, and latest binary payloads.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: Download **raw** evidence payloads, processed **evidence tables**, combined full-or-raw streams, and latest binary payloads.
   name: anecdotes Download Evidence API
   slug: anecdotes-download-evidence-api
-- description: '**Findings** record compliance gaps and issues, including links to controls, evidence, and policies.'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Findings** record compliance gaps and issues, including links to controls, evidence, and policies.'
   name: anecdotes Findings API
   slug: anecdotes-findings-api
-- description: 'A **framework** in anecdotes is a compliance program built from a formally written standard or regulation (e.g. ISO/IEC 27001, SOC 2, HIPAA, CSA STAR). It is organized into **control categories** and '
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: 'A **framework** in anecdotes is a compliance program built from a formally written standard or regulation (e.g. ISO/IEC 27001, SOC 2, HIPAA, CSA STAR). It is organized into **control categories** and '
   name: anecdotes Framework API
   slug: anecdotes-framework-api
-- description: Authorization package, KSI and evidence endpoints. Require an approved FedRAMP user JWT.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: Authorization package, KSI and evidence endpoints. Require an approved FedRAMP user JWT.
   name: anecdotes Gated API
   slug: anecdotes-gated-api
-- description: '**Policy Manager** allows you to create, edit, and manage policies for your organization. List customer-owned policies, library templates, policy versions, and configure approval cycles.'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Policy Manager** allows you to create, edit, and manage policies for your organization. List customer-owned policies, library templates, policy versions, and configure approval cycles.'
   name: anecdotes Policy Manager API
   slug: anecdotes-policy-manager-api
-- description: Public Trust Center information. No authentication required.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: Public Trust Center information. No authentication required.
   name: anecdotes Public API
   slug: anecdotes-public-api
-- description: List all controls or fetch by framework or id.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: List all controls or fetch by framework or id.
   name: anecdotes Read Controls API
   slug: anecdotes-read-controls-api
-- description: List and retrieve **evidence definitions**, **instance metadata**, and multi-instance **run history**.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: List and retrieve **evidence definitions**, **instance metadata**, and multi-instance **run history**.
   name: anecdotes Read Evidence Metadata API
   slug: anecdotes-read-evidence-metadata-api
-- description: '**Requirements** tie **controls** to expected **evidence** and framework scoping. These endpoints cover listing customer requirements, simple **create / read / update / delete** for a single requireme'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Requirements** tie **controls** to expected **evidence** and framework scoping. These endpoints cover listing customer requirements, simple **create / read / update / delete** for a single requireme'
   name: anecdotes Requirements API
   slug: anecdotes-requirements-api
-- description: '**Risks** live in **risk registers** in Risk Manager: inherent/residual dimensions, treatment, custom fields, and links to evidence. **API:** create, list (full), get, update. [Risk Manager](https://h'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: '**Risks** live in **risk registers** in Risk Manager: inherent/residual dimensions, treatment, custom fields, and links to evidence. **API:** create, list (full), get, update. [Risk Manager](https://h'
   name: anecdotes Risk API
   slug: anecdotes-risk-api
-- description: 'Exchange your **API key** for a **short-lived JWT** (1 hour). Send the JWT as `Authorization: Bearer <token>` on all subsequent requests.'
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: 'Exchange your **API key** for a **short-lived JWT** (1 hour). Send the JWT as `Authorization: Bearer <token>` on all subsequent requests.'
   name: anecdotes Token API
   slug: anecdotes-token-api
-- description: Update or delete a **custom control**'s name, description, category, and implementation.
+- baseURL: https://api.anecdotes.ai
+  baseurl_source: declared
+  description: Update or delete a **custom control**'s name, description, category, and implementation.
   name: anecdotes Update Control Metadata API
   slug: anecdotes-update-control-metadata-api
 artifact_total: 30
@@ -282,7 +328,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -292,7 +338,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 64.0
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,7 +350,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anecdotes/refs/heads/main/screenshots/anecdotes-2026-08-07T161404.png
 security:

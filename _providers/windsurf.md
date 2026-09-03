@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: Self-hosted / managed enterprise SKU with admin dashboards, analytics, RBAC, and SSO.
   name: Windsurf Enterprise (Codeium for Enterprise)
   slug: enterprise
-- description: The CascadeAnalytics API from Windsurf — 1 operation(s) for cascadeanalytics.
+- baseURL: https://windsurf.com
+  baseurl_source: declared
+  description: The CascadeAnalytics API from Windsurf — 1 operation(s) for cascadeanalytics.
   name: Windsurf CascadeAnalytics API
   slug: windsurf-cascadeanalytics-api
-- description: The CreditBalance API from Windsurf — 1 operation(s) for creditbalance.
+- baseURL: https://windsurf.com
+  baseurl_source: declared
+  description: The CreditBalance API from Windsurf — 1 operation(s) for creditbalance.
   name: Windsurf CreditBalance API
   slug: windsurf-creditbalance-api
-- description: The CustomAnalytics API from Windsurf — 1 operation(s) for customanalytics.
+- baseURL: https://windsurf.com
+  baseurl_source: declared
+  description: The CustomAnalytics API from Windsurf — 1 operation(s) for customanalytics.
   name: Windsurf CustomAnalytics API
   slug: windsurf-customanalytics-api
-- description: The UsageConfiguration API from Windsurf — 2 operation(s) for usageconfiguration.
+- baseURL: https://windsurf.com
+  baseurl_source: declared
+  description: The UsageConfiguration API from Windsurf — 2 operation(s) for usageconfiguration.
   name: Windsurf UsageConfiguration API
   slug: windsurf-usageconfiguration-api
-- description: The UserAnalytics API from Windsurf — 1 operation(s) for useranalytics.
+- baseURL: https://windsurf.com
+  baseurl_source: declared
+  description: The UserAnalytics API from Windsurf — 1 operation(s) for useranalytics.
   name: Windsurf UserAnalytics API
   slug: windsurf-useranalytics-api
 artifact_total: 23
@@ -200,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/screenshots/windsurf-2026-06-20T201508.png
 security:

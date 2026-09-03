@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage participant corrals for wave start events.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Manage participant corrals for wave start events.
   name: RunSignup Corrals API
   slug: runsignup-corrals-api
-- description: Manage age group and category divisions for accurate results processing.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Manage age group and category divisions for accurate results processing.
   name: RunSignup Divisions API
   slug: runsignup-divisions-api
-- description: Retrieve donation and fundraising data associated with race registrations.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Retrieve donation and fundraising data associated with race registrations.
   name: RunSignup Donations API
   slug: runsignup-donations-api
-- description: Manage race participants including registration, editing, deletion, bib/chip assignment, and participant data retrieval.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Manage race participants including registration, editing, deletion, bib/chip assignment, and participant data retrieval.
   name: RunSignup Participants API
   slug: runsignup-participants-api
-- description: List, search, and retrieve race and event information including details, events, schedules, and registration settings.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: List, search, and retrieve race and event information including details, events, schedules, and registration settings.
   name: RunSignup Races API
   slug: runsignup-races-api
-- description: Reference data such as countries and states used across the API.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Reference data such as countries and states used across the API.
   name: RunSignup Reference API
   slug: runsignup-reference-api
-- description: Submit, import, and retrieve race results including finishing times, result sets, and full results with place and time data.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Submit, import, and retrieve race results including finishing times, result sets, and full results with place and time data.
   name: RunSignup Results API
   slug: runsignup-results-api
-- description: Manage teams and groups for team-based race events.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Manage teams and groups for team-based race events.
   name: RunSignup Teams API
   slug: runsignup-teams-api
-- description: Manage user accounts and authentication for the RunSignup platform.
+- baseURL: https://runsignup.com/Rest
+  baseurl_source: declared
+  description: Manage user accounts and authentication for the RunSignup platform.
   name: RunSignup Users API
   slug: runsignup-users-api
 artifact_total: 34
@@ -264,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/screenshots/runsignup-2026-06-20T193255.png
 security:

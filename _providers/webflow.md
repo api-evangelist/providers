@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -48,61 +48,99 @@ apis:
 - description: The Webflow Designer Extension API allows developers to build extensions that run inside the Webflow Designer, enabling custom UI panels and interactions with the designer canvas and site content.
   name: Webflow Designer Extension API
   slug: designer-extension-api
-- description: The Asset Folders API from Webflow — 2 operation(s) for asset folders.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Asset Folders API from Webflow — 2 operation(s) for asset folders.
   name: Webflow Asset Folders API
   slug: webflow-asset-folders-api
-- description: Assets are files that are uploaded to your Webflow account.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Assets are files that are uploaded to your Webflow account.
   name: Webflow Assets API
   slug: webflow-assets-api
-- description: Collections are CMS collections of items.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Collections are CMS collections of items.
   name: Webflow Collections API
   slug: webflow-collections-api
-- description: The Comments API from Webflow — 3 operation(s) for comments.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Comments API from Webflow — 3 operation(s) for comments.
   name: Webflow Comments API
   slug: webflow-comments-api
-- description: The Components API from Webflow — 3 operation(s) for components.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Components API from Webflow — 3 operation(s) for components.
   name: Webflow Components API
   slug: webflow-components-api
-- description: Custom code is JavaScript that is added to your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Custom code is JavaScript that is added to your Webflow site.
   name: Webflow Custom Code API
   slug: webflow-custom-code-api
-- description: Forms are forms that are created on your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Forms are forms that are created on your Webflow site.
   name: Webflow Forms API
   slug: webflow-forms-api
-- description: Inventory is the stock of e-commerce items in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Inventory is the stock of e-commerce items in your Webflow site.
   name: Webflow Inventory API
   slug: webflow-inventory-api
-- description: Items are the individual e-commerce items in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Items are the individual e-commerce items in your Webflow site.
   name: Webflow Items API
   slug: webflow-items-api
-- description: Meta is the metadata for your Webflow API token.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Meta is the metadata for your Webflow API token.
   name: Webflow Meta API
   slug: webflow-meta-api
-- description: Orders are the orders for your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Orders are the orders for your Webflow site.
   name: Webflow Orders API
   slug: webflow-orders-api
-- description: Pages are the pages in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Pages are the pages in your Webflow site.
   name: Webflow Pages API
   slug: webflow-pages-api
-- description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
   name: Webflow Products & SKUs API
   slug: webflow-products-skus-api
-- description: Settings are the e-commerce settings for your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Settings are the e-commerce settings for your Webflow site.
   name: Webflow Settings API
   slug: webflow-settings-api
-- description: The Site Activity API from Webflow — 1 operation(s) for site activity.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Site Activity API from Webflow — 1 operation(s) for site activity.
   name: Webflow Site Activity API
   slug: webflow-site-activity-api
-- description: The Site Administration API from Webflow — 1 operation(s) for site administration.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Site Administration API from Webflow — 1 operation(s) for site administration.
   name: Webflow Site Administration API
   slug: webflow-site-administration-api
-- description: Sites are the sites in your Webflow workspace.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Sites are the sites in your Webflow workspace.
   name: Webflow Sites API
   slug: webflow-sites-api
-- description: Webhooks are the webhooks in your Webflow site.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: Webhooks are the webhooks in your Webflow site.
   name: Webflow Webhooks API
   slug: webflow-webhooks-api
-- description: The Workspce Audit Logs API from Webflow — 1 operation(s) for workspce audit logs.
+- baseURL: https://api.webflow.com/v2
+  baseurl_source: declared
+  description: The Workspce Audit Logs API from Webflow — 1 operation(s) for workspce audit logs.
   name: Webflow Workspce Audit Logs API
   slug: webflow-workspce-audit-logs-api
 arazzos:
@@ -639,7 +677,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -649,7 +687,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 59.7
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -658,7 +696,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

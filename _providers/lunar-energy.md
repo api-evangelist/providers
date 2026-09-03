@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -47,43 +47,69 @@ apis:
 - description: Gridshare publishes a remote Model Context Protocol (MCP) server that exposes the Customer API as MCP tools for AI agents. Authenticated with the same Cognito-issued bearer tokens as the Customer API.
   name: Gridshare Remote MCP Server
   slug: gridshare-remote-mcp
-- description: List, get, and partially update customer devices
+- baseURL: https://developer-api.customer.mygridshare.com
+  baseurl_source: spec
+  description: List, get, and partially update customer devices
   name: Lunar Energy Devices API
   slug: lunar-energy-devices-api
-- description: Request and commit differential adjustments to a prognosis
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Request and commit differential adjustments to a prognosis
   name: Lunar Energy Diff Requests API
   slug: lunar-energy-diff-requests-api
-- description: Manage dynamic time-series tariffs with 7-day pagination
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Manage dynamic time-series tariffs with 7-day pagination
   name: Lunar Energy Dynamic Tariffs API
   slug: lunar-energy-dynamic-tariffs-api
-- description: Opt participants out of an active flex dispatch
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Opt participants out of an active flex dispatch
   name: Lunar Energy Flex Dispatches API
   slug: lunar-energy-flex-dispatches-api
-- description: Schedule and update flex events for a flex group
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Schedule and update flex events for a flex group
   name: Lunar Energy Flex Events API
   slug: lunar-energy-flex-events-api
-- description: Define and manage groups of DERs participating in flex programs
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Define and manage groups of DERs participating in flex programs
   name: Lunar Energy Flex Groups API
   slug: lunar-energy-flex-groups-api
-- description: Read or change the Gridshare operation mode of a device
+- baseURL: https://developer-api.customer.mygridshare.com
+  baseurl_source: spec
+  description: Read or change the Gridshare operation mode of a device
   name: Lunar Energy Operation Mode API
   slug: lunar-energy-operation-mode-api
-- description: Manage periodical (recurring) tariffs
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Manage periodical (recurring) tariffs
   name: Lunar Energy Periodical Tariffs API
   slug: lunar-energy-periodical-tariffs-api
-- description: Read or set overlay plans for short-term device dispatch
+- baseURL: https://developer-api.customer.mygridshare.com
+  baseurl_source: spec
+  description: Read or set overlay plans for short-term device dispatch
   name: Lunar Energy Plans API
   slug: lunar-energy-plans-api
-- description: Forecasted aggregate power profiles for flex groups
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Forecasted aggregate power profiles for flex groups
   name: Lunar Energy Prognoses API
   slug: lunar-energy-prognoses-api
-- description: List sites and read site topology
+- baseURL: https://developer-api.customer.mygridshare.com
+  baseurl_source: spec
+  description: List sites and read site topology
   name: Lunar Energy Sites API
   slug: lunar-energy-sites-api
-- description: Time-bucketed per-sensor telemetry readings
+- baseURL: https://developer-api.customer.mygridshare.com
+  baseurl_source: spec
+  description: Time-bucketed per-sensor telemetry readings
   name: Lunar Energy Telemetry API
   slug: lunar-energy-telemetry-api
-- description: Record on-site visits for installation or service
+- baseURL: https://developer-api.partner.us.mygridshare.com
+  baseurl_source: spec
+  description: Record on-site visits for installation or service
   name: Lunar Energy Visits API
   slug: lunar-energy-visits-api
 artifact_total: 68
@@ -369,7 +395,7 @@ score:
     catalog_gap: 33.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -379,7 +405,7 @@ score:
     discoverability: 59.3
     governance: 54.5
     operational_transparency: 34.2
-  previous_composite: 53.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -394,7 +420,7 @@ score:
     regime_id: energy_utilities
     score: 52.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar-energy/refs/heads/main/screenshots/lunar-energy-2026-06-20T184758.png
 security:

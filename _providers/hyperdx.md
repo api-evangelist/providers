@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The documented v1 API on HyperDX Cloud, covering alerts, dashboards and chart series queries at api.hyperdx.io under /api/v1, authenticated with a Bearer personal API key. Documented as prose on hyper
@@ -32,31 +46,49 @@ apis:
 - description: 'First-party Model Context Protocol server shipped inside the HyperDX API package, served at /api/mcp on your instance over Streamable HTTP with Bearer authentication. Exposes 27 tools covering source '
   name: HyperDX (ClickStack) MCP Server
   slug: hyperdx-mcp-server
-- description: Endpoints for managing monitoring alerts
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing monitoring alerts
   name: HyperDX Alerts API
   slug: hyperdx-alerts-api
-- description: Endpoints for querying chart data
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for querying chart data
   name: HyperDX Charts API
   slug: hyperdx-charts-api
-- description: Endpoints for managing ClickHouse connections
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing ClickHouse connections
   name: HyperDX Connections API
   slug: hyperdx-connections-api
-- description: Endpoints for managing dashboards and their visualizations
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing dashboards and their visualizations
   name: HyperDX Dashboards API
   slug: hyperdx-dashboards-api
-- description: The Saved Searches API from HyperDX — 2 operation(s) for saved searches.
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: The Saved Searches API from HyperDX — 2 operation(s) for saved searches.
   name: HyperDX Saved Searches API
   slug: hyperdx-saved-searches-api
-- description: Endpoints for querying raw data from log and trace sources
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for querying raw data from log and trace sources
   name: HyperDX Search API
   slug: hyperdx-search-api
-- description: Endpoints for managing data sources
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing data sources
   name: HyperDX Sources API
   slug: hyperdx-sources-api
-- description: The Team API from HyperDX — 6 operation(s) for team.
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: The Team API from HyperDX — 6 operation(s) for team.
   name: HyperDX Team API
   slug: hyperdx-team-api
-- description: Endpoints for managing webhooks
+- baseURL: https://{hyperdx-instance-host}/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing webhooks
   name: HyperDX Webhooks API
   slug: hyperdx-webhooks-api
 artifact_total: 17
@@ -239,23 +271,23 @@ rate_limits:
   slug: hyperdx-rate-limits
 score:
   band: strong
-  composite: 63.2
+  composite: 64.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.5
+  delta: 0.8
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
-    contract_quality: 61.9
+    contract_quality: 65.3
     developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 65.7
+  previous_composite: 63.2
   provenance:
     conformance: derived
     contracts:
@@ -266,8 +298,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hyperdx/refs/heads/main/screenshots/hyperdx-2026-09-02T145808.png
 security:
 - kind: authentication
   name: Hyperdx Authentication

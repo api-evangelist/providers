@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -68,16 +68,24 @@ apis:
 - description: Model Context Protocol (MCP) server exposing LanceDB tables as retrieval tools for MCP-aware agents and IDEs.
   name: LanceDB MCP Server
   slug: mcp-server
-- description: The MaterializedView API from LanceDB — 2 operation(s) for materializedview.
+- baseURL: https://github.com/lancedb/lancedb
+  baseurl_source: declared
+  description: The MaterializedView API from LanceDB — 2 operation(s) for materializedview.
   name: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
-- description: Operations that are related to a namespace
+- baseURL: https://github.com/lancedb/lancedb
+  baseurl_source: declared
+  description: Operations that are related to a namespace
   name: LanceDB Namespace API
   slug: lancedb-namespace-api
-- description: Operations that are related to a table
+- baseURL: https://github.com/lancedb/lancedb
+  baseurl_source: declared
+  description: Operations that are related to a table
   name: LanceDB Table API
   slug: lancedb-table-api
-- description: Operations that are related to a transaction
+- baseURL: https://github.com/lancedb/lancedb
+  baseurl_source: declared
+  description: Operations that are related to a transaction
   name: LanceDB Transaction API
   slug: lancedb-transaction-api
 artifact_total: 41
@@ -310,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/screenshots/lancedb-2026-06-20T184404.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 32 operations · 16 acting
 api_count: 1
 apis:
-- description: Token issuance and credential management
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Token issuance and credential management
   name: Ava Protocol Auth API
   slug: ava-protocol-auth-api
-- description: Workflow execution history and status
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Workflow execution history and status
   name: Ava Protocol Executions API
   slug: ava-protocol-executions-api
-- description: Liveness / readiness probes
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Liveness / readiness probes
   name: Ava Protocol Health API
   slug: ava-protocol-health-api
-- description: Stand-alone node execution
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Stand-alone node execution
   name: Ava Protocol Nodes API
   slug: ava-protocol-nodes-api
-- description: Connected operator status (read-only)
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Connected operator status (read-only)
   name: Ava Protocol Operators API
   slug: ava-protocol-operators-api
-- description: User/workflow/org secret storage
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: User/workflow/org secret storage
   name: Ava Protocol Secrets API
   slug: ava-protocol-secrets-api
-- description: ERC-20 metadata lookup
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: ERC-20 metadata lookup
   name: Ava Protocol Tokens API
   slug: ava-protocol-tokens-api
-- description: Stand-alone trigger evaluation
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Stand-alone trigger evaluation
   name: Ava Protocol Triggers API
   slug: ava-protocol-triggers-api
-- description: Smart-wallet derivation and operations
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Smart-wallet derivation and operations
   name: Ava Protocol Wallets API
   slug: ava-protocol-wallets-api
-- description: Workflow CRUD and lifecycle actions
+- baseURL: https://gateway.avaprotocol.org/api/v1
+  baseurl_source: declared
+  description: Workflow CRUD and lifecycle actions
   name: Ava Protocol Workflows API
   slug: ava-protocol-workflows-api
 artifact_total: 25
@@ -290,7 +310,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-protocol/refs/heads/main/screenshots/ava-protocol-2026-07-25T201902.png
 security:

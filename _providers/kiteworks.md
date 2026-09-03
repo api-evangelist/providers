@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -43,127 +43,209 @@ agentic_access:
   summary_line: 400 operations · 207 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- description: The activities API from Kiteworks — 2 operation(s) for activities.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The activities API from Kiteworks — 2 operation(s) for activities.
   name: Kiteworks activities API
   slug: kiteworks-activities-api
-- description: The admin API from Kiteworks — 19 operation(s) for admin.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The admin API from Kiteworks — 19 operation(s) for admin.
   name: Kiteworks admin API
   slug: kiteworks-admin-api
-- description: The adminRoles API from Kiteworks — 4 operation(s) for adminroles.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The adminRoles API from Kiteworks — 4 operation(s) for adminroles.
   name: Kiteworks adminRoles API
   slug: kiteworks-adminroles-api
-- description: The advancedForms API from Kiteworks — 1 operation(s) for advancedforms.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The advancedForms API from Kiteworks — 1 operation(s) for advancedforms.
   name: Kiteworks advancedForms API
   slug: kiteworks-advancedforms-api
-- description: The cards API from Kiteworks — 3 operation(s) for cards.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The cards API from Kiteworks — 3 operation(s) for cards.
   name: Kiteworks cards API
   slug: kiteworks-cards-api
-- description: The clientEventLogs API from Kiteworks — 1 operation(s) for clienteventlogs.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The clientEventLogs API from Kiteworks — 1 operation(s) for clienteventlogs.
   name: Kiteworks clientEventLogs API
   slug: kiteworks-clienteventlogs-api
-- description: The clients API from Kiteworks — 4 operation(s) for clients.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The clients API from Kiteworks — 4 operation(s) for clients.
   name: Kiteworks clients API
   slug: kiteworks-clients-api
-- description: The comments API from Kiteworks — 4 operation(s) for comments.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The comments API from Kiteworks — 4 operation(s) for comments.
   name: Kiteworks comments API
   slug: kiteworks-comments-api
-- description: The contacts API from Kiteworks — 2 operation(s) for contacts.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The contacts API from Kiteworks — 2 operation(s) for contacts.
   name: Kiteworks contacts API
   slug: kiteworks-contacts-api
-- description: The devices API from Kiteworks — 6 operation(s) for devices.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The devices API from Kiteworks — 6 operation(s) for devices.
   name: Kiteworks devices API
   slug: kiteworks-devices-api
-- description: The dli API from Kiteworks — 18 operation(s) for dli.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The dli API from Kiteworks — 18 operation(s) for dli.
   name: Kiteworks dli API
   slug: kiteworks-dli-api
-- description: The externalDL API from Kiteworks — 1 operation(s) for externaldl.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The externalDL API from Kiteworks — 1 operation(s) for externaldl.
   name: Kiteworks externalDL API
   slug: kiteworks-externaldl-api
-- description: The favorites API from Kiteworks — 3 operation(s) for favorites.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The favorites API from Kiteworks — 3 operation(s) for favorites.
   name: Kiteworks favorites API
   slug: kiteworks-favorites-api
-- description: The files API from Kiteworks — 61 operation(s) for files.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The files API from Kiteworks — 61 operation(s) for files.
   name: Kiteworks files API
   slug: kiteworks-files-api
-- description: The folders API from Kiteworks — 30 operation(s) for folders.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The folders API from Kiteworks — 30 operation(s) for folders.
   name: Kiteworks folders API
   slug: kiteworks-folders-api
-- description: The groups API from Kiteworks — 2 operation(s) for groups.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The groups API from Kiteworks — 2 operation(s) for groups.
   name: Kiteworks groups API
   slug: kiteworks-groups-api
-- description: The internal API from Kiteworks — 1 operation(s) for internal.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The internal API from Kiteworks — 1 operation(s) for internal.
   name: Kiteworks internal API
   slug: kiteworks-internal-api
-- description: The languages API from Kiteworks — 2 operation(s) for languages.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The languages API from Kiteworks — 2 operation(s) for languages.
   name: Kiteworks languages API
   slug: kiteworks-languages-api
-- description: The ldapGroups API from Kiteworks — 2 operation(s) for ldapgroups.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The ldapGroups API from Kiteworks — 2 operation(s) for ldapgroups.
   name: Kiteworks ldapGroups API
   slug: kiteworks-ldapgroups-api
-- description: The locations API from Kiteworks — 2 operation(s) for locations.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The locations API from Kiteworks — 2 operation(s) for locations.
   name: Kiteworks locations API
   slug: kiteworks-locations-api
-- description: The mail API from Kiteworks — 29 operation(s) for mail.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The mail API from Kiteworks — 29 operation(s) for mail.
   name: Kiteworks mail API
   slug: kiteworks-mail-api
-- description: The mobileSync API from Kiteworks — 5 operation(s) for mobilesync.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The mobileSync API from Kiteworks — 5 operation(s) for mobilesync.
   name: Kiteworks mobileSync API
   slug: kiteworks-mobilesync-api
-- description: The notifications API from Kiteworks — 3 operation(s) for notifications.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The notifications API from Kiteworks — 3 operation(s) for notifications.
   name: Kiteworks notifications API
   slug: kiteworks-notifications-api
-- description: The permissions API from Kiteworks — 4 operation(s) for permissions.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The permissions API from Kiteworks — 4 operation(s) for permissions.
   name: Kiteworks permissions API
   slug: kiteworks-permissions-api
-- description: The profiles API from Kiteworks — 3 operation(s) for profiles.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The profiles API from Kiteworks — 3 operation(s) for profiles.
   name: Kiteworks profiles API
   slug: kiteworks-profiles-api
-- description: The requestFile API from Kiteworks — 13 operation(s) for requestfile.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The requestFile API from Kiteworks — 13 operation(s) for requestfile.
   name: Kiteworks requestFile API
   slug: kiteworks-requestfile-api
-- description: The roles API from Kiteworks — 2 operation(s) for roles.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The roles API from Kiteworks — 2 operation(s) for roles.
   name: Kiteworks roles API
   slug: kiteworks-roles-api
-- description: The scim API from Kiteworks — 9 operation(s) for scim.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The scim API from Kiteworks — 9 operation(s) for scim.
   name: Kiteworks scim API
   slug: kiteworks-scim-api
-- description: The search API from Kiteworks — 3 operation(s) for search.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The search API from Kiteworks — 3 operation(s) for search.
   name: Kiteworks search API
   slug: kiteworks-search-api
-- description: The settings API from Kiteworks — 2 operation(s) for settings.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The settings API from Kiteworks — 2 operation(s) for settings.
   name: Kiteworks settings API
   slug: kiteworks-settings-api
-- description: The sharedMailbox API from Kiteworks — 6 operation(s) for sharedmailbox.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The sharedMailbox API from Kiteworks — 6 operation(s) for sharedmailbox.
   name: Kiteworks sharedMailbox API
   slug: kiteworks-sharedmailbox-api
-- description: The shortLinks API from Kiteworks — 1 operation(s) for shortlinks.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The shortLinks API from Kiteworks — 1 operation(s) for shortlinks.
   name: Kiteworks shortLinks API
   slug: kiteworks-shortlinks-api
-- description: The sources API from Kiteworks — 15 operation(s) for sources.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The sources API from Kiteworks — 15 operation(s) for sources.
   name: Kiteworks sources API
   slug: kiteworks-sources-api
-- description: The sourceTypes API from Kiteworks — 2 operation(s) for sourcetypes.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The sourceTypes API from Kiteworks — 2 operation(s) for sourcetypes.
   name: Kiteworks sourceTypes API
   slug: kiteworks-sourcetypes-api
-- description: The system API from Kiteworks — 6 operation(s) for system.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The system API from Kiteworks — 6 operation(s) for system.
   name: Kiteworks system API
   slug: kiteworks-system-api
-- description: The tasks API from Kiteworks — 3 operation(s) for tasks.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The tasks API from Kiteworks — 3 operation(s) for tasks.
   name: Kiteworks tasks API
   slug: kiteworks-tasks-api
-- description: The uploads API from Kiteworks — 10 operation(s) for uploads.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The uploads API from Kiteworks — 10 operation(s) for uploads.
   name: Kiteworks uploads API
   slug: kiteworks-uploads-api
-- description: The users API from Kiteworks — 30 operation(s) for users.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The users API from Kiteworks — 30 operation(s) for users.
   name: Kiteworks users API
   slug: kiteworks-users-api
-- description: The userSshPublicKeys API from Kiteworks — 7 operation(s) for usersshpublickeys.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The userSshPublicKeys API from Kiteworks — 7 operation(s) for usersshpublickeys.
   name: Kiteworks userSshPublicKeys API
   slug: kiteworks-usersshpublickeys-api
-- description: The webForms API from Kiteworks — 2 operation(s) for webforms.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The webForms API from Kiteworks — 2 operation(s) for webforms.
   name: Kiteworks webForms API
   slug: kiteworks-webforms-api
-- description: The webhook API from Kiteworks — 2 operation(s) for webhook.
+- baseURL: https://your.kiteworks.domain/rest
+  baseurl_source: declared
+  description: The webhook API from Kiteworks — 2 operation(s) for webhook.
   name: Kiteworks webhook API
   slug: kiteworks-webhook-api
 artifact_total: 92
@@ -484,7 +566,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -494,7 +576,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 57.0
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -506,7 +588,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Accounts the authenticated user can access.
+- baseURL: https://api.awin.com
+  baseurl_source: declared
+  description: Accounts the authenticated user can access.
   name: Awin Accounts API
   slug: awin-affiliate-accounts-api
-- description: Commission groups and rates for a programme.
+- baseURL: https://api.awin.com
+  baseurl_source: declared
+  description: Commission groups and rates for a programme.
   name: Awin Commission Groups API
   slug: awin-affiliate-commission-groups-api
-- description: Advertiser programmes and their details.
+- baseURL: https://api.awin.com
+  baseurl_source: declared
+  description: Advertiser programmes and their details.
   name: Awin Programmes API
   slug: awin-affiliate-programmes-api
-- description: Aggregated performance reports.
+- baseURL: https://api.awin.com
+  baseurl_source: declared
+  description: Aggregated performance reports.
   name: Awin Reports API
   slug: awin-affiliate-reports-api
-- description: Individual publisher and advertiser transactions.
+- baseURL: https://api.awin.com
+  baseurl_source: declared
+  description: Individual publisher and advertiser transactions.
   name: Awin Transactions API
   slug: awin-affiliate-transactions-api
 artifact_total: 21
@@ -295,7 +305,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -305,7 +315,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 69.5
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,7 +327,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/screenshots/awin-affiliate-2026-07-25T202025.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -56,34 +56,54 @@ apis:
 - description: API and connector framework for integrating Xceptor with external systems and data sources. Provides pre-built connectors for cloud storage (AWS S3, Azure Blob, Google Cloud Storage), messaging system
   name: Xceptor Connector API
   slug: xceptor-connector-api
-- description: Operations for authenticating with the Xceptor platform and managing access tokens.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for authenticating with the Xceptor platform and managing access tokens.
   name: Xceptor Authentication API
   slug: xceptor-authentication-api
-- description: Operations for configuring and managing connections to external data sources used by the Xceptor platform.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for configuring and managing connections to external data sources used by the Xceptor platform.
   name: Xceptor Data Sources API
   slug: xceptor-data-sources-api
-- description: Operations for uploading, listing, and managing documents in the Xceptor platform.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for uploading, listing, and managing documents in the Xceptor platform.
   name: Xceptor Documents API
   slug: xceptor-documents-api
-- description: Operations for triggering and monitoring document data extraction using Xceptor's AI-powered processing engine.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for triggering and monitoring document data extraction using Xceptor's AI-powered processing engine.
   name: Xceptor Extraction API
   slug: xceptor-extraction-api
-- description: Operations for checking the health and status of the Xceptor API services.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for checking the health and status of the Xceptor API services.
   name: Xceptor Health API
   slug: xceptor-health-api
-- description: Operations for creating, monitoring, and managing data processing jobs that execute within the Xceptor platform.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for creating, monitoring, and managing data processing jobs that execute within the Xceptor platform.
   name: Xceptor Jobs API
   slug: xceptor-jobs-api
-- description: Operations for managing extraction templates that define the fields and tables to extract from specific document types.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for managing extraction templates that define the fields and tables to extract from specific document types.
   name: Xceptor Templates API
   slug: xceptor-templates-api
-- description: Operations for executing workflows, monitoring run status, and retrieving run history and output.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for executing workflows, monitoring run status, and retrieving run history and output.
   name: Xceptor Workflow Runs API
   slug: xceptor-workflow-runs-api
-- description: Operations for managing the individual processing steps that compose a workflow, including step ordering and configuration.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for managing the individual processing steps that compose a workflow, including step ordering and configuration.
   name: Xceptor Workflow Steps API
   slug: xceptor-workflow-steps-api
-- description: Operations for creating, updating, listing, and deleting workflow definitions.
+- baseURL: https://api.xceptor.com/v1
+  baseurl_source: declared
+  description: Operations for creating, updating, listing, and deleting workflow definitions.
   name: Xceptor Workflows API
   slug: xceptor-workflows-api
 artifact_total: 67
@@ -411,7 +431,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/screenshots/xceptor-2026-06-20T201656.png
 security:

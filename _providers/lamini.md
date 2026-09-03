@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 9 acting
 api_count: 1
 apis:
-- description: LLM classifier classification and prediction endpoints.
+- baseURL: https://api.lamini.ai
+  baseurl_source: declared
+  description: LLM classifier classification and prediction endpoints.
   name: Lamini Classify API
   slug: lamini-classify-api
-- description: Text embedding generation.
+- baseURL: https://api.lamini.ai
+  baseurl_source: declared
+  description: Text embedding generation.
   name: Lamini Embeddings API
   slug: lamini-embeddings-api
-- description: Tuning and Memory Tuning job submission and management.
+- baseURL: https://api.lamini.ai
+  baseurl_source: declared
+  description: Tuning and Memory Tuning job submission and management.
   name: Lamini Fine-Tuning API
   slug: lamini-fine-tuning-api
-- description: Text completion and streaming generation endpoints.
+- baseURL: https://api.lamini.ai
+  baseurl_source: declared
+  description: Text completion and streaming generation endpoints.
   name: Lamini Inference API
   slug: lamini-inference-api
-- description: Version and platform metadata endpoints.
+- baseURL: https://api.lamini.ai
+  baseurl_source: declared
+  description: Version and platform metadata endpoints.
   name: Lamini Platform API
   slug: lamini-platform-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/screenshots/lamini-2026-06-20T184254.png
 security:

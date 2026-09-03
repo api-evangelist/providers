@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 65 operations · 34 acting
 api_count: 1
 apis:
-- description: Unified messaging models - channels, users, messages.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified messaging models - channels, users, messages.
   name: Revert Chat API
   slug: revert-api-chat-api
-- description: Manage linked third-party connections and connection webhooks per tenant.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Manage linked third-party connections and connection webhooks per tenant.
   name: Revert Connection Management API
   slug: revert-api-connection-management-api
-- description: Unified CRM models - contacts, leads, companies, deals, notes, events, tasks, users.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM models - contacts, leads, companies, deals, notes, events, tasks, users.
   name: Revert CRM API
   slug: revert-api-crm-api
-- description: Environment / app configuration for the connect UI.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Environment / app configuration for the connect UI.
   name: Revert Metadata API
   slug: revert-api-metadata-api
-- description: Passthrough proxy to the underlying provider's native API.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Passthrough proxy to the underlying provider's native API.
   name: Revert Proxy API
   slug: revert-api-proxy-api
-- description: Unified ticketing models - tasks, users, comments, collections.
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified ticketing models - tasks, users, comments, collections.
   name: Revert Ticketing API
   slug: revert-api-ticketing-api
 artifact_total: 20
@@ -158,7 +170,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +193,9 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revert-api/refs/heads/main/screenshots/revert-api-2026-09-02T153719.png
 security:
 - kind: authentication
   name: Revert Api Authentication

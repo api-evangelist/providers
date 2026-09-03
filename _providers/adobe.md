@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -81,124 +81,204 @@ apis:
 - description: Create, read, update, and delete content, assets, and forms in Adobe Experience Manager as a Cloud Service.
   name: Adobe Experience Manager API
   slug: adobe-experience-manager-api
-- description: Automatically add accessibility tags to PDF documents using AI.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Automatically add accessibility tags to PDF documents using AI.
   name: Adobe PDF Services Accessibility Auto-Tag API
   slug: adobe-accessibility-auto-tag-api
-- description: Upload and manage assets (source files) for PDF operations.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Upload and manage assets (source files) for PDF operations.
   name: Adobe PDF Services Assets API
   slug: adobe-assets-api
-- description: Combine multiple PDF documents into a single PDF.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Combine multiple PDF documents into a single PDF.
   name: Adobe PDF Services Combine PDF API
   slug: adobe-combine-pdf-api
-- description: Reduce the file size of PDF documents while maintaining quality.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Reduce the file size of PDF documents while maintaining quality.
   name: Adobe PDF Services Compress PDF API
   slug: adobe-compress-pdf-api
-- description: Create PDF documents from supported file formats including Microsoft Office, images, and HTML.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Create PDF documents from supported file formats including Microsoft Office, images, and HTML.
   name: Adobe PDF Services Create PDF API
   slug: adobe-create-pdf-api
-- description: Delete specific pages from a PDF document.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Delete specific pages from a PDF document.
   name: Adobe PDF Services Delete Pages API
   slug: adobe-delete-pages-api
-- description: Generate PDF and Word documents from templates with dynamic JSON data.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Generate PDF and Word documents from templates with dynamic JSON data.
   name: Adobe PDF Services Document Generation API
   slug: adobe-document-generation-api
-- description: Export (convert) PDF documents to other formats such as DOCX, PPTX, XLSX, images, and RTF.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Export (convert) PDF documents to other formats such as DOCX, PPTX, XLSX, images, and RTF.
   name: Adobe PDF Services Export PDF API
   slug: adobe-export-pdf-api
-- description: Extract text, tables, and figures from PDF documents into structured JSON output.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Extract text, tables, and figures from PDF documents into structured JSON output.
   name: Adobe PDF Services Extract PDF API
   slug: adobe-extract-pdf-api
-- description: Insert pages from one PDF into another.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Insert pages from one PDF into another.
   name: Adobe PDF Services Insert Pages API
   slug: adobe-insert-pages-api
-- description: Poll for the status and results of asynchronous PDF operations.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Poll for the status and results of asynchronous PDF operations.
   name: Adobe PDF Services Jobs API
   slug: adobe-jobs-api
-- description: Optimize PDFs for fast web viewing (linearization).
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Optimize PDFs for fast web viewing (linearization).
   name: Adobe PDF Services Linearize PDF API
   slug: adobe-linearize-pdf-api
-- description: Apply optical character recognition to scanned PDFs to make text searchable and selectable.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Apply optical character recognition to scanned PDFs to make text searchable and selectable.
   name: Adobe PDF Services OCR API
   slug: adobe-ocr-api
-- description: Retrieve metadata and properties from PDF documents.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Retrieve metadata and properties from PDF documents.
   name: Adobe PDF Services PDF Properties API
   slug: adobe-pdf-properties-api
-- description: Add password protection and encryption to PDF documents.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Add password protection and encryption to PDF documents.
   name: Adobe PDF Services Protect PDF API
   slug: adobe-protect-pdf-api
-- description: Remove password protection from PDF documents.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Remove password protection from PDF documents.
   name: Adobe PDF Services Remove Protection API
   slug: adobe-remove-protection-api
-- description: Reorder pages within a PDF document.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Reorder pages within a PDF document.
   name: Adobe PDF Services Reorder Pages API
   slug: adobe-reorder-pages-api
-- description: Replace pages in a PDF with pages from another PDF.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Replace pages in a PDF with pages from another PDF.
   name: Adobe PDF Services Replace Pages API
   slug: adobe-replace-pages-api
-- description: Rotate pages within a PDF document.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Rotate pages within a PDF document.
   name: Adobe PDF Services Rotate Pages API
   slug: adobe-rotate-pages-api
-- description: Split a PDF document into multiple smaller PDFs.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Split a PDF document into multiple smaller PDFs.
   name: Adobe PDF Services Split PDF API
   slug: adobe-split-pdf-api
-- description: The Composites API from Adobe — 1 operation(s) for composites.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The Composites API from Adobe — 1 operation(s) for composites.
   name: Adobe Composites API
   slug: adobe-composites-api
-- description: The Export PDF Form Data API will retrieve the data from a PDF form and return it as a JSON file.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The Export PDF Form Data API will retrieve the data from a PDF form and return it as a JSON file.
   name: Adobe Export PDF Form Data API
   slug: adobe-export-pdf-form-data-api
-- description: 'Creates an access token using client id and client secret. Click <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/IMS/">here</a> to refer '
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: 'Creates an access token using client id and client secret. Click <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/IMS/">here</a> to refer '
   name: Adobe Generate Token API
   slug: adobe-generate-token-api
-- description: Convert HTML Resources to a PDF File
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Convert HTML Resources to a PDF File
   name: Adobe Html to PDF API
   slug: adobe-html-to-pdf-api
-- description: The Import PDF Form Data API will take the form data provided as a JSON, insert it into the PDF form, and generate the resulting PDF.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The Import PDF Form Data API will take the form data provided as a JSON, insert it into the PDF form, and generate the resulting PDF.
   name: Adobe Import PDF Form Data API
   slug: adobe-import-pdf-form-data-api
-- description: App-facing APIs for Adobe CC Libraries.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: App-facing APIs for Adobe CC Libraries.
   name: Adobe Library Service API
   slug: adobe-library-service-api
-- description: App-facing APIs specifically for Adobe CC Library Bookmarks.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: App-facing APIs specifically for Adobe CC Library Bookmarks.
   name: Adobe Library Service - Bookmarks API
   slug: adobe-library-service-bookmarks-api
-- description: App-facing APIs specifically for Adobe CC Public Libraries.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: App-facing APIs specifically for Adobe CC Public Libraries.
   name: Adobe Library Service - Public API
   slug: adobe-library-service-public-api
-- description: Rotate and delete pages of a PDF File
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Rotate and delete pages of a PDF File
   name: Adobe Page Manipulation API
   slug: adobe-page-manipulation-api
-- description: Operation to create the tagged pdf and excel report for accessibility auto-tag use case.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Operation to create the tagged pdf and excel report for accessibility auto-tag use case.
   name: Adobe PDF Accessibility Auto-Tag API
   slug: adobe-pdf-accessibility-auto-tag-api
-- description: Accessibility Checker API will check PDF files to see if they meet the machine-verifiable requirements of PDF/UA and WCAG.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Accessibility Checker API will check PDF files to see if they meet the machine-verifiable requirements of PDF/UA and WCAG.
   name: Adobe PDF Accessibility Checker API
   slug: adobe-pdf-accessibility-checker-api
-- description: Create electronic seal on PDF documents like invoices, agreements etc using the digital certificate issued to the user by Trust Service Provider.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Create electronic seal on PDF documents like invoices, agreements etc using the digital certificate issued to the user by Trust Service Provider.
   name: Adobe PDF Electronic Seal API
   slug: adobe-pdf-electronic-seal-api
-- description: Convert a PDF File to image files
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Convert a PDF File to image files
   name: Adobe PDF To Images API
   slug: adobe-pdf-to-images-api
-- description: Extract content from PDF documents and output it in a well-formatted LLM-friendly Markdown text, along with tables and figures
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: Extract content from PDF documents and output it in a well-formatted LLM-friendly Markdown text, along with tables and figures
   name: Adobe PDF To Markdown API
   slug: adobe-pdf-to-markdown-api
-- description: PDF Watermark API will add a watermark in PDF document.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: PDF Watermark API will add a watermark in PDF document.
   name: Adobe PDF Watermark API
   slug: adobe-pdf-watermark-api
-- description: The Scenes API from Adobe — 5 operation(s) for scenes.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The Scenes API from Adobe — 5 operation(s) for scenes.
   name: Adobe Scenes API
   slug: adobe-scenes-api
-- description: The Spaces API from Adobe — 2 operation(s) for spaces.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The Spaces API from Adobe — 2 operation(s) for spaces.
   name: Adobe Spaces API
   slug: adobe-spaces-api
-- description: The SpacesFrameIO API from Adobe — 1 operation(s) for spacesframeio.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The SpacesFrameIO API from Adobe — 1 operation(s) for spacesframeio.
   name: Adobe Spaces Frame IO API
   slug: adobe-spacesframeio-api
-- description: The SpacesNextFrameIO API from Adobe — 1 operation(s) for spacesnextframeio.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The SpacesNextFrameIO API from Adobe — 1 operation(s) for spacesnextframeio.
   name: Adobe Spaces Next Frame IO API
   slug: adobe-spacesnextframeio-api
-- description: The SpacesURL API from Adobe — 1 operation(s) for spacesurl.
+- baseURL: https://pdf-services.adobe.io
+  baseurl_source: declared
+  description: The SpacesURL API from Adobe — 1 operation(s) for spacesurl.
   name: Adobe Spaces URL API
   slug: adobe-spacesurl-api
 arazzos:
@@ -1109,23 +1189,23 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 78.0
+  composite: 78.1
   coverage:
     artifact_dirs: 38
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 73.2
+    contract_quality: 73.6
     developer_ergonomics: 95.2
     discoverability: 57.4
     governance: 47.0
     operational_transparency: 71.1
-  previous_composite: 78.2
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1137,7 +1217,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:

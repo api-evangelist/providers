@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Real-time football market-intelligence API exposing valuation data (Expected Transfer Value / xTV base and development values), transfer data (availability signals, contract expiry, estimated salary b
@@ -89,7 +89,7 @@ score:
   band: emerging
   composite: 14.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -105,8 +105,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/transferroom/refs/heads/main/screenshots/transferroom-2026-09-02T164123.png
 security:
 - kind: domain-security
   name: Transferroom Domain Security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 78 operations · 42 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: The Audit API from Siro — 1 operation(s) for audit.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Audit API from Siro — 1 operation(s) for audit.
   name: Siro Audit API
   slug: siro-audit-api
-- description: The Core API from Siro — 23 operation(s) for core.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Core API from Siro — 23 operation(s) for core.
   name: Siro Core API
   slug: siro-core-api
-- description: The Folders API from Siro — 2 operation(s) for folders.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Folders API from Siro — 2 operation(s) for folders.
   name: Siro Folders API
   slug: siro-folders-api
-- description: The Integrations API from Siro — 21 operation(s) for integrations.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Integrations API from Siro — 21 operation(s) for integrations.
   name: Siro Integrations API
   slug: siro-integrations-api
-- description: The Agents API from Siro — 3 operation(s) for agents.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Agents API from Siro — 3 operation(s) for agents.
   name: Siro Agents API
   slug: siro-agents-api
-- description: The Billing Graph API from Siro — 10 operation(s) for billing graph.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Billing Graph API from Siro — 10 operation(s) for billing graph.
   name: Siro Billing Graph API
   slug: siro-billing-graph-api
-- description: The Docs API from Siro — 1 operation(s) for docs.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Docs API from Siro — 1 operation(s) for docs.
   name: Siro Docs API
   slug: siro-docs-api
-- description: The Halftime API from Siro — 1 operation(s) for halftime.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Halftime API from Siro — 1 operation(s) for halftime.
   name: Siro Halftime API
   slug: siro-halftime-api
-- description: The Intercom API from Siro — 1 operation(s) for intercom.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Intercom API from Siro — 1 operation(s) for intercom.
   name: Siro Intercom API
   slug: siro-intercom-api
-- description: The Invoices API from Siro — 1 operation(s) for invoices.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Invoices API from Siro — 1 operation(s) for invoices.
   name: Siro Invoices API
   slug: siro-invoices-api
-- description: The Jobs API from Siro — 3 operation(s) for jobs.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Jobs API from Siro — 3 operation(s) for jobs.
   name: Siro Jobs API
   slug: siro-jobs-api
-- description: The Licenses API from Siro — 1 operation(s) for licenses.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Licenses API from Siro — 1 operation(s) for licenses.
   name: Siro Licenses API
   slug: siro-licenses-api
-- description: The Portal API from Siro — 1 operation(s) for portal.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Portal API from Siro — 1 operation(s) for portal.
   name: Siro Portal API
   slug: siro-portal-api
-- description: The Sessions API from Siro — 4 operation(s) for sessions.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Sessions API from Siro — 4 operation(s) for sessions.
   name: Siro Sessions API
   slug: siro-sessions-api
-- description: The Subscription API from Siro — 1 operation(s) for subscription.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Subscription API from Siro — 1 operation(s) for subscription.
   name: Siro Subscription API
   slug: siro-subscription-api
-- description: The Suggested Questions API from Siro — 1 operation(s) for suggested questions.
+- baseURL: https://functions.siro.ai/api-externalApi
+  baseurl_source: declared
+  description: The Suggested Questions API from Siro — 1 operation(s) for suggested questions.
   name: Siro Suggested Questions API
   slug: siro-suggested-questions-api
 artifact_total: 28
@@ -276,7 +308,7 @@ rate_limits:
   slug: siro-rate-limits
 score:
   band: developing
-  composite: 50.6
+  composite: 50.4
   coverage:
     artifact_dirs: 22
     catalog_gap: 67.0
@@ -287,12 +319,12 @@ score:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
-    contract_quality: 52.7
+    contract_quality: 51.9
     developer_ergonomics: 71.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,7 +336,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png
 security:

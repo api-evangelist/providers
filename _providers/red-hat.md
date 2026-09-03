@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -168,106 +168,174 @@ apis:
 - description: API providing RHEL product lifecycle data including release dates, end-of-life schedules, and upgrade path planning information.
   name: Red Hat Lightspeed for RHEL Planning API
   slug: red-hat-lightspeed-for-rhel-planning-api
-- description: Operations for managing cluster add-ons that extend OpenShift cluster functionality.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for managing cluster add-ons that extend OpenShift cluster functionality.
   name: Red Hat Add-Ons API
   slug: red-hat-add-ons-api
-- description: Operations for managing client applications registered in a realm for authentication and authorization.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing client applications registered in a realm for authentication and authorization.
   name: Red Hat Clients API
   slug: red-hat-clients-api
-- description: Operations for listing available cloud providers and their regions for cluster deployment.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for listing available cloud providers and their regions for cluster deployment.
   name: Red Hat Cloud Providers API
   slug: red-hat-cloud-providers-api
-- description: Operations for provisioning, managing, and retrieving OpenShift clusters across cloud providers.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for provisioning, managing, and retrieving OpenShift clusters across cloud providers.
   name: Red Hat Clusters API
   slug: red-hat-clusters-api
-- description: Operations for managing content views that define curated snapshots of software repositories for controlled content delivery.
+- baseURL: https://satellite.example.com
+  baseurl_source: spec
+  description: Operations for managing content views that define curated snapshots of software repositories for controlled content delivery.
   name: Red Hat Content Views API
   slug: red-hat-content-views-api
-- description: Operations for managing credentials used by automation jobs to authenticate with managed hosts and external services.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing credentials used by automation jobs to authenticate with managed hosts and external services.
   name: Red Hat Credentials API
   slug: red-hat-credentials-api
-- description: Operations for managing lifecycle environments that define the promotion path for content from development to production.
+- baseURL: https://satellite.example.com
+  baseurl_source: spec
+  description: Operations for managing lifecycle environments that define the promotion path for content from development to production.
   name: Red Hat Environments API
   slug: red-hat-environments-api
-- description: Operations for listing and managing errata (security advisories, bug fixes, and enhancements) applicable to registered hosts.
+- baseURL: https://satellite.example.com
+  baseurl_source: spec
+  description: Operations for listing and managing errata (security advisories, bug fixes, and enhancements) applicable to registered hosts.
   name: Red Hat Errata API
   slug: red-hat-errata-api
-- description: Operations for managing user groups that enable bulk role and attribute assignment.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing user groups that enable bulk role and attribute assignment.
   name: Red Hat Groups API
   slug: red-hat-groups-api
-- description: Operations for managing host groups that provide shared configuration templates for provisioning and management.
+- baseURL: https://satellite.example.com
+  baseurl_source: spec
+  description: Operations for managing host groups that provide shared configuration templates for provisioning and management.
   name: Red Hat Host Groups API
   slug: red-hat-host-groups-api
-- description: Operations for managing hosts registered with Satellite, including provisioning, facts, and power management.
+- baseURL: https://satellite.example.com
+  baseurl_source: spec
+  description: Operations for managing hosts registered with Satellite, including provisioning, facts, and power management.
   name: Red Hat Hosts API
   slug: red-hat-hosts-api
-- description: Operations for managing external identity providers for federated authentication such as SAML and OIDC.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing external identity providers for federated authentication such as SAML and OIDC.
   name: Red Hat Identity Providers API
   slug: red-hat-identity-providers-api
-- description: Operations for managing inventories that define collections of hosts and groups for automation targeting.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing inventories that define collections of hosts and groups for automation targeting.
   name: Red Hat Inventories API
   slug: red-hat-inventories-api
-- description: Operations for managing job templates that define parameterized playbook runs against inventories of managed hosts.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing job templates that define parameterized playbook runs against inventories of managed hosts.
   name: Red Hat Job Templates API
   slug: red-hat-job-templates-api
-- description: Operations for launching, monitoring, and managing automation job executions and their output.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for launching, monitoring, and managing automation job executions and their output.
   name: Red Hat Jobs API
   slug: red-hat-jobs-api
-- description: Operations for managing machine pools that define groups of compute nodes within a cluster.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for managing machine pools that define groups of compute nodes within a cluster.
   name: Red Hat Machine Pools API
   slug: red-hat-machine-pools-api
-- description: Operations for retrieving manifest information and security scan results for container images.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: spec
+  description: Operations for retrieving manifest information and security scan results for container images.
   name: Red Hat Manifests API
   slug: red-hat-manifests-api
-- description: Operations for managing organizations that provide multi-tenancy and access control boundaries.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing organizations that provide multi-tenancy and access control boundaries.
   name: Red Hat Organizations API
   slug: red-hat-organizations-api
-- description: Operations for managing projects that represent collections of Ansible playbooks sourced from version control.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing projects that represent collections of Ansible playbooks sourced from version control.
   name: Red Hat Projects API
   slug: red-hat-projects-api
-- description: Operations for managing Keycloak realms that serve as tenants for isolating identity configurations.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing Keycloak realms that serve as tenants for isolating identity configurations.
   name: Red Hat Realms API
   slug: red-hat-realms-api
-- description: Operations for managing container image repositories, including creation, listing, and deletion.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: spec
+  description: Operations for managing container image repositories, including creation, listing, and deletion.
   name: Red Hat Repositories API
   slug: red-hat-repositories-api
-- description: The Repository API from Red Hat — 2 operation(s) for repository.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: spec
+  description: The Repository API from Red Hat — 2 operation(s) for repository.
   name: Red Hat Repository API
   slug: red-hat-repository-api
-- description: Operations for managing robot accounts that provide automated access to repositories.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: spec
+  description: Operations for managing robot accounts that provide automated access to repositories.
   name: Red Hat Robot Accounts API
   slug: red-hat-robot-accounts-api
-- description: Operations for managing realm-level and client-level roles for authorization.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing realm-level and client-level roles for authorization.
   name: Red Hat Roles API
   slug: red-hat-roles-api
-- description: Operations for listing and retrieving Advisor rules that define the detection logic for system issues.
+- baseURL: https://console.redhat.com/api
+  baseurl_source: spec
+  description: Operations for listing and retrieving Advisor rules that define the detection logic for system issues.
   name: Red Hat Rules API
   slug: red-hat-rules-api
-- description: Operations for viewing and managing active user sessions across a realm.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for viewing and managing active user sessions across a realm.
   name: Red Hat Sessions API
   slug: red-hat-sessions-api
-- description: Operations for retrieving aggregate statistics about system health and recommendation coverage.
+- baseURL: https://console.redhat.com/api
+  baseurl_source: spec
+  description: Operations for retrieving aggregate statistics about system health and recommendation coverage.
   name: Red Hat Stats API
   slug: red-hat-stats-api
-- description: Operations for managing OpenShift cluster subscriptions and entitlements.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for managing OpenShift cluster subscriptions and entitlements.
   name: Red Hat Subscriptions API
   slug: red-hat-subscriptions-api
-- description: Operations for retrieving registered systems and their Insights status.
+- baseURL: https://console.redhat.com/api
+  baseurl_source: spec
+  description: Operations for retrieving registered systems and their Insights status.
   name: Red Hat Systems API
   slug: red-hat-systems-api
-- description: Operations for managing teams within organizations and their repository permissions.
+- baseURL: https://quay.io/api/v1
+  baseurl_source: spec
+  description: Operations for managing teams within organizations and their repository permissions.
   name: Red Hat Teams API
   slug: red-hat-teams-api
-- description: Operations for retrieving curated topics that group related recommendations by technology area or risk category.
+- baseURL: https://console.redhat.com/api
+  baseurl_source: spec
+  description: Operations for retrieving curated topics that group related recommendations by technology area or risk category.
   name: Red Hat Topics API
   slug: red-hat-topics-api
-- description: Operations for managing user accounts, credentials, and profile attributes within a realm.
+- baseURL: https://keycloak.example.com
+  baseurl_source: spec
+  description: Operations for managing user accounts, credentials, and profile attributes within a realm.
   name: Red Hat Users API
   slug: red-hat-users-api
-- description: Operations for listing available OpenShift versions for cluster provisioning and upgrades.
+- baseURL: https://api.openshift.com
+  baseurl_source: spec
+  description: Operations for listing available OpenShift versions for cluster provisioning and upgrades.
   name: Red Hat Versions API
   slug: red-hat-versions-api
-- description: Operations for managing workflow job templates that chain multiple job templates into orchestrated automation workflows.
+- baseURL: https://ansible-platform.example.com
+  baseurl_source: spec
+  description: Operations for managing workflow job templates that chain multiple job templates into orchestrated automation workflows.
   name: Red Hat Workflow Job Templates API
   slug: red-hat-workflow-job-templates-api
 arazzos:
@@ -1386,7 +1454,7 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -1399,7 +1467,7 @@ score:
   open_source:
     applies: true
     score: 35.0
-  previous_composite: 54.4
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1410,7 +1478,7 @@ score:
       total: 34
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:

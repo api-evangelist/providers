@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Chat API from Shapes — 1 operation(s) for chat.
+- baseURL: https://api.shapes.inc/v1/
+  baseurl_source: declared
+  description: The Chat API from Shapes — 1 operation(s) for chat.
   name: Shapes Chat API
   slug: shapes-chat-api
-- description: The Models API from Shapes — 1 operation(s) for models.
+- baseURL: https://api.shapes.inc/v1/
+  baseurl_source: declared
+  description: The Models API from Shapes — 1 operation(s) for models.
   name: Shapes Models API
   slug: shapes-models-api
-- description: The Shapes API from Shapes — 1 operation(s) for shapes.
+- baseURL: https://api.shapes.inc/v1/
+  baseurl_source: declared
+  description: The Shapes API from Shapes — 1 operation(s) for shapes.
   name: Shapes Shapes API
   slug: shapes-shapes-api
 artifact_total: 10
@@ -202,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shapes/refs/heads/main/screenshots/shapes-2026-08-17T081822.png
 security:

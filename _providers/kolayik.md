@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 46 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Approval Process API from KolayIK — 1 operation(s) for approval process.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Approval Process API from KolayIK — 1 operation(s) for approval process.
   name: KolayIK Approval Process API
   slug: kolayik-approval-process-api
-- description: The Calendar API from KolayIK — 5 operation(s) for calendar.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Calendar API from KolayIK — 5 operation(s) for calendar.
   name: KolayIK Calendar API
   slug: kolayik-calendar-api
-- description: The Expense API from KolayIK — 1 operation(s) for expense.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Expense API from KolayIK — 1 operation(s) for expense.
   name: KolayIK Expense API
   slug: kolayik-expense-api
-- description: The Leave API from KolayIK — 3 operation(s) for leave.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Leave API from KolayIK — 3 operation(s) for leave.
   name: KolayIK Leave API
   slug: kolayik-leave-api
-- description: The Payroll API from KolayIK — 2 operation(s) for payroll.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Payroll API from KolayIK — 2 operation(s) for payroll.
   name: KolayIK Payroll API
   slug: kolayik-payroll-api
-- description: The Person API from KolayIK — 18 operation(s) for person.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Person API from KolayIK — 18 operation(s) for person.
   name: KolayIK Person API
   slug: kolayik-person-api
-- description: The Profile API from KolayIK — 1 operation(s) for profile.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Profile API from KolayIK — 1 operation(s) for profile.
   name: KolayIK Profile API
   slug: kolayik-profile-api
-- description: The Timelog API from KolayIK — 4 operation(s) for timelog.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Timelog API from KolayIK — 4 operation(s) for timelog.
   name: KolayIK Timelog API
   slug: kolayik-timelog-api
-- description: The Training API from KolayIK — 5 operation(s) for training.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Training API from KolayIK — 5 operation(s) for training.
   name: KolayIK Training API
   slug: kolayik-training-api
-- description: The Transaction API from KolayIK — 4 operation(s) for transaction.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Transaction API from KolayIK — 4 operation(s) for transaction.
   name: KolayIK Transaction API
   slug: kolayik-transaction-api
-- description: The Unit API from KolayIK — 2 operation(s) for unit.
+- baseURL: https://api.kolayik.com
+  baseurl_source: declared
+  description: The Unit API from KolayIK — 2 operation(s) for unit.
   name: KolayIK Unit API
   slug: kolayik-unit-api
 arazzos:
@@ -333,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:

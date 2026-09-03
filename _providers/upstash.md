@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,19 +49,29 @@ apis:
 - description: Per-database REST API for executing Redis commands over HTTPS from edge and serverless runtimes. Uses Bearer token authentication scoped to individual Redis databases.
   name: Upstash Redis REST API
   slug: redis-rest-api
-- description: Kafka cluster and topic management
+- baseURL: https://api.upstash.com/v2
+  baseurl_source: declared
+  description: Kafka cluster and topic management
   name: Upstash Kafka API
   slug: upstash-kafka-api
-- description: Redis database management
+- baseURL: https://api.upstash.com/v2
+  baseurl_source: declared
+  description: Redis database management
   name: Upstash Redis API
   slug: upstash-redis-api
-- description: Per-database Redis command execution
+- baseURL: https://api.upstash.com/v2
+  baseurl_source: declared
+  description: Per-database Redis command execution
   name: Upstash RedisCommand API
   slug: upstash-rediscommand-api
-- description: Team and member management
+- baseURL: https://api.upstash.com/v2
+  baseurl_source: declared
+  description: Team and member management
   name: Upstash Teams API
   slug: upstash-teams-api
-- description: Vector index management
+- baseURL: https://api.upstash.com/v2
+  baseurl_source: declared
+  description: Vector index management
   name: Upstash Vector API
   slug: upstash-vector-api
 artifact_total: 17
@@ -176,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/screenshots/upstash-2026-06-20T200514.png
 security:

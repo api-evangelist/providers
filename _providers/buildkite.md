@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 5
@@ -53,55 +53,89 @@ apis:
 - description: API consumed by buildkite-agent — register, retrieve work, send job events and upload artifacts/annotations. Used by self-hosted and hosted agents.
   name: Buildkite Agent API
   slug: agent-api
-- description: The AccessToken API from Buildkite — 1 operation(s) for accesstoken.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The AccessToken API from Buildkite — 1 operation(s) for accesstoken.
   name: Buildkite AccessToken API
   slug: buildkite-accesstoken-api
-- description: The Agents API from Buildkite — 5 operation(s) for agents.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Agents API from Buildkite — 5 operation(s) for agents.
   name: Buildkite Agents API
   slug: buildkite-agents-api
-- description: The AgentTokens API from Buildkite — 2 operation(s) for agenttokens.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The AgentTokens API from Buildkite — 2 operation(s) for agenttokens.
   name: Buildkite AgentTokens API
   slug: buildkite-agenttokens-api
-- description: The Annotations API from Buildkite — 2 operation(s) for annotations.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Annotations API from Buildkite — 2 operation(s) for annotations.
   name: Buildkite Annotations API
   slug: buildkite-annotations-api
-- description: The Artifacts API from Buildkite — 4 operation(s) for artifacts.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Artifacts API from Buildkite — 4 operation(s) for artifacts.
   name: Buildkite Artifacts API
   slug: buildkite-artifacts-api
-- description: The Builds API from Buildkite — 6 operation(s) for builds.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Builds API from Buildkite — 6 operation(s) for builds.
   name: Buildkite Builds API
   slug: buildkite-builds-api
-- description: The Clusters API from Buildkite — 2 operation(s) for clusters.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Clusters API from Buildkite — 2 operation(s) for clusters.
   name: Buildkite Clusters API
   slug: buildkite-clusters-api
-- description: The Emojis API from Buildkite — 1 operation(s) for emojis.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Emojis API from Buildkite — 1 operation(s) for emojis.
   name: Buildkite Emojis API
   slug: buildkite-emojis-api
-- description: The Jobs API from Buildkite — 5 operation(s) for jobs.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Jobs API from Buildkite — 5 operation(s) for jobs.
   name: Buildkite Jobs API
   slug: buildkite-jobs-api
-- description: The Meta API from Buildkite — 1 operation(s) for meta.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Meta API from Buildkite — 1 operation(s) for meta.
   name: Buildkite Meta API
   slug: buildkite-meta-api
-- description: The Organizations API from Buildkite — 4 operation(s) for organizations.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Organizations API from Buildkite — 4 operation(s) for organizations.
   name: Buildkite Organizations API
   slug: buildkite-organizations-api
-- description: The Pipelines API from Buildkite — 5 operation(s) for pipelines.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Pipelines API from Buildkite — 5 operation(s) for pipelines.
   name: Buildkite Pipelines API
   slug: buildkite-pipelines-api
-- description: The PipelineTemplates API from Buildkite — 2 operation(s) for pipelinetemplates.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The PipelineTemplates API from Buildkite — 2 operation(s) for pipelinetemplates.
   name: Buildkite PipelineTemplates API
   slug: buildkite-pipelinetemplates-api
-- description: The Queues API from Buildkite — 4 operation(s) for queues.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Queues API from Buildkite — 4 operation(s) for queues.
   name: Buildkite Queues API
   slug: buildkite-queues-api
-- description: The Rules API from Buildkite — 2 operation(s) for rules.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Rules API from Buildkite — 2 operation(s) for rules.
   name: Buildkite Rules API
   slug: buildkite-rules-api
-- description: The Teams API from Buildkite — 2 operation(s) for teams.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The Teams API from Buildkite — 2 operation(s) for teams.
   name: Buildkite Teams API
   slug: buildkite-teams-api
-- description: The User API from Buildkite — 1 operation(s) for user.
+- baseURL: https://api.buildkite.com/v2
+  baseurl_source: declared
+  description: The User API from Buildkite — 1 operation(s) for user.
   name: Buildkite User API
   slug: buildkite-user-api
 artifact_total: 47
@@ -276,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite/refs/heads/main/screenshots/buildkite-2026-06-20T173751.png
 security:

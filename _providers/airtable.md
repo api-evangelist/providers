@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: List and create bases, retrieve base schemas
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: List and create bases, retrieve base schemas
   name: Airtable Bases API
   slug: airtable-bases-api
-- description: Manage comments on individual records
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Manage comments on individual records
   name: Airtable Comments API
   slug: airtable-comments-api
-- description: Create and update field definitions within a table
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Create and update field definitions within a table
   name: Airtable Fields API
   slug: airtable-fields-api
-- description: Manage user groups within the enterprise
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Manage user groups within the enterprise
   name: Airtable Groups API
   slug: airtable-groups-api
-- description: Create, read, update, and delete records in a table
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Create, read, update, and delete records in a table
   name: Airtable Records API
   slug: airtable-records-api
-- description: Create and update table definitions within a base
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Create and update table definitions within a base
   name: Airtable Tables API
   slug: airtable-tables-api
-- description: Manage enterprise users, permissions, and access
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Manage enterprise users, permissions, and access
   name: Airtable Users API
   slug: airtable-users-api
-- description: Subscribe to real-time change notifications on bases
+- baseURL: https://api.airtable.com
+  baseurl_source: declared
+  description: Subscribe to real-time change notifications on bases
   name: Airtable Webhooks API
   slug: airtable-webhooks-api
 arazzos:
@@ -828,7 +844,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -838,7 +854,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 63.7
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -847,7 +863,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:

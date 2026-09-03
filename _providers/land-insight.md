@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Endpoint to get details of sites from Homes England Land Hub
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details of sites from Homes England Land Hub
   name: Land Insight Additional Opportunities API
   slug: land-insight-additional-opportunities-api
-- description: Endpoint to get details of various development constraints. Includes airport, HS2, rail and building (wharf) safeguarding. Also includes article 4 and national landscape data.
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details of various development constraints. Includes airport, HS2, rail and building (wharf) safeguarding. Also includes article 4 and national landscape data.
   name: Land Insight Development Constraints API
   slug: land-insight-development-constraints-api
-- description: Endpoint to get details of Named Regeneration Areas and Area Action Plans
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details of Named Regeneration Areas and Area Action Plans
   name: Land Insight Development Opportunities API
   slug: land-insight-development-opportunities-api
-- description: Endpoints to help you understand how to interact with the API.
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoints to help you understand how to interact with the API.
   name: Land Insight Getting Started API
   slug: land-insight-getting-started-api
-- description: Endpoint to get details about Land Availability Assessment sites
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details about Land Availability Assessment sites
   name: Land Insight Land Availability Assessment API
   slug: land-insight-land-availability-assessment-api
-- description: Endpoint to get details of local plan policies
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details of local plan policies
   name: Land Insight Local Policy API
   slug: land-insight-local-policy-api
-- description: Endpoints to get details about land ownership and property information.
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoints to get details about land ownership and property information.
   name: Land Insight Ownership API
   slug: land-insight-ownership-api
-- description: Endpoints to search for parcels and associated attributes.
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoints to search for parcels and associated attributes.
   name: Land Insight Parcels API
   slug: land-insight-parcels-api
-- description: Endpoints to search for planning applications and get details on individual applications.
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoints to search for planning applications and get details on individual applications.
   name: Land Insight Planning Applications API
   slug: land-insight-planning-applications-api
-- description: Endpoint to get details of substations, lines, cables and towers
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details of substations, lines, cables and towers
   name: Land Insight Power API
   slug: land-insight-power-api
-- description: Endpoint to get details on sites from the Renewable Energy Planning Database
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint to get details on sites from the Renewable Energy Planning Database
   name: Land Insight Renewable Energy Planning DB API
   slug: land-insight-renewable-energy-planning-db-api
-- description: Endpoint for details on strategic industrial location
+- baseURL: https://app.land.tech/api
+  baseurl_source: declared
+  description: Endpoint for details on strategic industrial location
   name: Land Insight Strategic Industrial Location API
   slug: land-insight-strategic-industrial-location-api
 artifact_total: 29
@@ -272,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/land-insight/refs/heads/main/screenshots/land-insight-2026-07-25T224458.png
 security:

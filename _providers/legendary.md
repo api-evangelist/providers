@@ -33,136 +33,222 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The block-directory API from Legendary Entertainment — 1 operation(s) for block-directory.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The block-directory API from Legendary Entertainment — 1 operation(s) for block-directory.
   name: Legendary Entertainment block-directory API
   slug: legendary-block-directory-api
-- description: The block-patterns API from Legendary Entertainment — 2 operation(s) for block-patterns.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The block-patterns API from Legendary Entertainment — 2 operation(s) for block-patterns.
   name: Legendary Entertainment block-patterns API
   slug: legendary-block-patterns-api
-- description: The block-renderer API from Legendary Entertainment — 1 operation(s) for block-renderer.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The block-renderer API from Legendary Entertainment — 1 operation(s) for block-renderer.
   name: Legendary Entertainment block-renderer API
   slug: legendary-block-renderer-api
-- description: The block-types API from Legendary Entertainment — 3 operation(s) for block-types.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The block-types API from Legendary Entertainment — 3 operation(s) for block-types.
   name: Legendary Entertainment block-types API
   slug: legendary-block-types-api
-- description: The blocks API from Legendary Entertainment — 6 operation(s) for blocks.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The blocks API from Legendary Entertainment — 6 operation(s) for blocks.
   name: Legendary Entertainment blocks API
   slug: legendary-blocks-api
-- description: The categories API from Legendary Entertainment — 2 operation(s) for categories.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The categories API from Legendary Entertainment — 2 operation(s) for categories.
   name: Legendary Entertainment categories API
   slug: legendary-categories-api
-- description: The comics API from Legendary Entertainment — 6 operation(s) for comics.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The comics API from Legendary Entertainment — 6 operation(s) for comics.
   name: Legendary Entertainment comics API
   slug: legendary-comics-api
-- description: The comments API from Legendary Entertainment — 2 operation(s) for comments.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The comments API from Legendary Entertainment — 2 operation(s) for comments.
   name: Legendary Entertainment comments API
   slug: legendary-comments-api
-- description: The digital API from Legendary Entertainment — 6 operation(s) for digital.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The digital API from Legendary Entertainment — 6 operation(s) for digital.
   name: Legendary Entertainment digital API
   slug: legendary-digital-api
-- description: The film API from Legendary Entertainment — 6 operation(s) for film.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The film API from Legendary Entertainment — 6 operation(s) for film.
   name: Legendary Entertainment film API
   slug: legendary-film-api
-- description: The font-collections API from Legendary Entertainment — 2 operation(s) for font-collections.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The font-collections API from Legendary Entertainment — 2 operation(s) for font-collections.
   name: Legendary Entertainment font-collections API
   slug: legendary-font-collections-api
-- description: The font-families API from Legendary Entertainment — 4 operation(s) for font-families.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The font-families API from Legendary Entertainment — 4 operation(s) for font-families.
   name: Legendary Entertainment font-families API
   slug: legendary-font-families-api
-- description: The global-styles API from Legendary Entertainment — 5 operation(s) for global-styles.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The global-styles API from Legendary Entertainment — 5 operation(s) for global-styles.
   name: Legendary Entertainment global-styles API
   slug: legendary-global-styles-api
-- description: The grid_filter API from Legendary Entertainment — 2 operation(s) for grid_filter.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The grid_filter API from Legendary Entertainment — 2 operation(s) for grid_filter.
   name: Legendary Entertainment grid_filter API
   slug: legendary-grid-filter-api
-- description: The icons API from Legendary Entertainment — 2 operation(s) for icons.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The icons API from Legendary Entertainment — 2 operation(s) for icons.
   name: Legendary Entertainment icons API
   slug: legendary-icons-api
-- description: The ldn API from Legendary Entertainment — 6 operation(s) for ldn.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The ldn API from Legendary Entertainment — 6 operation(s) for ldn.
   name: Legendary Entertainment ldn API
   slug: legendary-ldn-api
-- description: The media API from Legendary Entertainment — 4 operation(s) for media.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The media API from Legendary Entertainment — 4 operation(s) for media.
   name: Legendary Entertainment media API
   slug: legendary-media-api
-- description: The menu-items API from Legendary Entertainment — 4 operation(s) for menu-items.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The menu-items API from Legendary Entertainment — 4 operation(s) for menu-items.
   name: Legendary Entertainment menu-items API
   slug: legendary-menu-items-api
-- description: The menu-locations API from Legendary Entertainment — 2 operation(s) for menu-locations.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The menu-locations API from Legendary Entertainment — 2 operation(s) for menu-locations.
   name: Legendary Entertainment menu-locations API
   slug: legendary-menu-locations-api
-- description: The menus API from Legendary Entertainment — 2 operation(s) for menus.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The menus API from Legendary Entertainment — 2 operation(s) for menus.
   name: Legendary Entertainment menus API
   slug: legendary-menus-api
-- description: The navigation API from Legendary Entertainment — 6 operation(s) for navigation.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The navigation API from Legendary Entertainment — 6 operation(s) for navigation.
   name: Legendary Entertainment navigation API
   slug: legendary-navigation-api
-- description: The pages API from Legendary Entertainment — 6 operation(s) for pages.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The pages API from Legendary Entertainment — 6 operation(s) for pages.
   name: Legendary Entertainment pages API
   slug: legendary-pages-api
-- description: The pattern-directory API from Legendary Entertainment — 1 operation(s) for pattern-directory.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The pattern-directory API from Legendary Entertainment — 1 operation(s) for pattern-directory.
   name: Legendary Entertainment pattern-directory API
   slug: legendary-pattern-directory-api
-- description: The plugins API from Legendary Entertainment — 2 operation(s) for plugins.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The plugins API from Legendary Entertainment — 2 operation(s) for plugins.
   name: Legendary Entertainment plugins API
   slug: legendary-plugins-api
-- description: The posts API from Legendary Entertainment — 6 operation(s) for posts.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The posts API from Legendary Entertainment — 6 operation(s) for posts.
   name: Legendary Entertainment posts API
   slug: legendary-posts-api
-- description: The root API from Legendary Entertainment — 1 operation(s) for root.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The root API from Legendary Entertainment — 1 operation(s) for root.
   name: Legendary Entertainment root API
   slug: legendary-root-api
-- description: The search API from Legendary Entertainment — 1 operation(s) for search.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The search API from Legendary Entertainment — 1 operation(s) for search.
   name: Legendary Entertainment search API
   slug: legendary-search-api
-- description: The settings API from Legendary Entertainment — 1 operation(s) for settings.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The settings API from Legendary Entertainment — 1 operation(s) for settings.
   name: Legendary Entertainment settings API
   slug: legendary-settings-api
-- description: The sidebars API from Legendary Entertainment — 2 operation(s) for sidebars.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The sidebars API from Legendary Entertainment — 2 operation(s) for sidebars.
   name: Legendary Entertainment sidebars API
   slug: legendary-sidebars-api
-- description: The socials API from Legendary Entertainment — 4 operation(s) for socials.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The socials API from Legendary Entertainment — 4 operation(s) for socials.
   name: Legendary Entertainment socials API
   slug: legendary-socials-api
-- description: The statuses API from Legendary Entertainment — 2 operation(s) for statuses.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The statuses API from Legendary Entertainment — 2 operation(s) for statuses.
   name: Legendary Entertainment statuses API
   slug: legendary-statuses-api
-- description: The tags API from Legendary Entertainment — 2 operation(s) for tags.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The tags API from Legendary Entertainment — 2 operation(s) for tags.
   name: Legendary Entertainment tags API
   slug: legendary-tags-api
-- description: The taxonomies API from Legendary Entertainment — 2 operation(s) for taxonomies.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The taxonomies API from Legendary Entertainment — 2 operation(s) for taxonomies.
   name: Legendary Entertainment taxonomies API
   slug: legendary-taxonomies-api
-- description: The television API from Legendary Entertainment — 6 operation(s) for television.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The television API from Legendary Entertainment — 6 operation(s) for television.
   name: Legendary Entertainment television API
   slug: legendary-television-api
-- description: The template-parts API from Legendary Entertainment — 7 operation(s) for template-parts.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The template-parts API from Legendary Entertainment — 7 operation(s) for template-parts.
   name: Legendary Entertainment template-parts API
   slug: legendary-template-parts-api
-- description: The templates API from Legendary Entertainment — 7 operation(s) for templates.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The templates API from Legendary Entertainment — 7 operation(s) for templates.
   name: Legendary Entertainment templates API
   slug: legendary-templates-api
-- description: The themes API from Legendary Entertainment — 2 operation(s) for themes.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The themes API from Legendary Entertainment — 2 operation(s) for themes.
   name: Legendary Entertainment themes API
   slug: legendary-themes-api
-- description: The trailers API from Legendary Entertainment — 4 operation(s) for trailers.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The trailers API from Legendary Entertainment — 4 operation(s) for trailers.
   name: Legendary Entertainment trailers API
   slug: legendary-trailers-api
-- description: The types API from Legendary Entertainment — 2 operation(s) for types.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The types API from Legendary Entertainment — 2 operation(s) for types.
   name: Legendary Entertainment types API
   slug: legendary-types-api
-- description: The users API from Legendary Entertainment — 6 operation(s) for users.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The users API from Legendary Entertainment — 6 operation(s) for users.
   name: Legendary Entertainment users API
   slug: legendary-users-api
-- description: The widget-types API from Legendary Entertainment — 4 operation(s) for widget-types.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The widget-types API from Legendary Entertainment — 4 operation(s) for widget-types.
   name: Legendary Entertainment widget-types API
   slug: legendary-widget-types-api
-- description: The widgets API from Legendary Entertainment — 2 operation(s) for widgets.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The widgets API from Legendary Entertainment — 2 operation(s) for widgets.
   name: Legendary Entertainment widgets API
   slug: legendary-widgets-api
-- description: The wp_pattern_category API from Legendary Entertainment — 2 operation(s) for wp_pattern_category.
+- baseURL: https://www.legendary.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The wp_pattern_category API from Legendary Entertainment — 2 operation(s) for wp_pattern_category.
   name: Legendary Entertainment wp_pattern_category API
   slug: legendary-wp-pattern-category-api
 artifact_total: 90
@@ -414,7 +500,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png
 security:

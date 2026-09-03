@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 47 operations · 2 acting
 api_count: 2
 apis:
-- description: Subscription-based realtime stream of Tensor marketplace events. Channels include `newTransaction` (every confirmed marketplace action), `ammOrderUpdate` / `ammOrderUpdateAll` (TSwap and TAmm pool sta
+- baseURL: wss://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: Subscription-based realtime stream of Tensor marketplace events. Channels include `newTransaction` (every confirmed marketplace action), `ammOrderUpdate` / `ammOrderUpdateAll` (TSwap and TAmm pool sta
   name: Tensor WebSocket API
   slug: tensor-websocket-api
-- description: The Bids API from Tensor — 8 operation(s) for bids.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Bids API from Tensor — 8 operation(s) for bids.
   name: Tensor Bids API
   slug: tensor-bids-api
-- description: The Collections API from Tensor — 5 operation(s) for collections.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Collections API from Tensor — 5 operation(s) for collections.
   name: Tensor Collections API
   slug: tensor-collections-api
-- description: The Escrow API from Tensor — 2 operation(s) for escrow.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Escrow API from Tensor — 2 operation(s) for escrow.
   name: Tensor Escrow API
   slug: tensor-escrow-api
-- description: The Listings API from Tensor — 6 operation(s) for listings.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Listings API from Tensor — 6 operation(s) for listings.
   name: Tensor Listings API
   slug: tensor-listings-api
-- description: The NFTs API from Tensor — 3 operation(s) for nfts.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The NFTs API from Tensor — 3 operation(s) for nfts.
   name: Tensor NFTs API
   slug: tensor-nfts-api
-- description: The Pools API from Tensor — 7 operation(s) for pools.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Pools API from Tensor — 7 operation(s) for pools.
   name: Tensor Pools API
   slug: tensor-pools-api
-- description: The User API from Tensor — 10 operation(s) for user.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The User API from Tensor — 10 operation(s) for user.
   name: Tensor User API
   slug: tensor-user-api
-- description: The Utility API from Tensor — 6 operation(s) for utility.
+- baseURL: https://api.mainnet.tensordev.io
+  baseurl_source: declared
+  description: The Utility API from Tensor — 6 operation(s) for utility.
   name: Tensor Utility API
   slug: tensor-utility-api
 artifact_total: 56
@@ -447,7 +465,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -457,7 +475,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 52.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -472,7 +490,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensor/refs/heads/main/screenshots/tensor-2026-06-20T195119.png
 security:

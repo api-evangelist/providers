@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -48,43 +48,69 @@ apis:
 - description: AMQP 0-9-1 messaging protocol for producing and consuming messages via exchanges, queues, and bindings with support for multiple exchange types, message acknowledgment, and consumer groups.
   name: RabbitMQ AMQP Messaging API
   slug: rabbitmq-amqp-messaging-api
-- description: The Bindings API from RabbitMQ — 2 operation(s) for bindings.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Bindings API from RabbitMQ — 2 operation(s) for bindings.
   name: RabbitMQ Bindings API
   slug: rabbitmq-bindings-api
-- description: The Channels API from RabbitMQ — 1 operation(s) for channels.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Channels API from RabbitMQ — 1 operation(s) for channels.
   name: RabbitMQ Channels API
   slug: rabbitmq-channels-api
-- description: The Connections API from RabbitMQ — 2 operation(s) for connections.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Connections API from RabbitMQ — 2 operation(s) for connections.
   name: RabbitMQ Connections API
   slug: rabbitmq-connections-api
-- description: The Definitions API from RabbitMQ — 1 operation(s) for definitions.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Definitions API from RabbitMQ — 1 operation(s) for definitions.
   name: RabbitMQ Definitions API
   slug: rabbitmq-definitions-api
-- description: The Exchanges API from RabbitMQ — 4 operation(s) for exchanges.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Exchanges API from RabbitMQ — 4 operation(s) for exchanges.
   name: RabbitMQ Exchanges API
   slug: rabbitmq-exchanges-api
-- description: The Health API from RabbitMQ — 2 operation(s) for health.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Health API from RabbitMQ — 2 operation(s) for health.
   name: RabbitMQ Health API
   slug: rabbitmq-health-api
-- description: The Nodes API from RabbitMQ — 2 operation(s) for nodes.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Nodes API from RabbitMQ — 2 operation(s) for nodes.
   name: RabbitMQ Nodes API
   slug: rabbitmq-nodes-api
-- description: The Overview API from RabbitMQ — 2 operation(s) for overview.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Overview API from RabbitMQ — 2 operation(s) for overview.
   name: RabbitMQ Overview API
   slug: rabbitmq-overview-api
-- description: The Permissions API from RabbitMQ — 1 operation(s) for permissions.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Permissions API from RabbitMQ — 1 operation(s) for permissions.
   name: RabbitMQ Permissions API
   slug: rabbitmq-permissions-api
-- description: The Policies API from RabbitMQ — 2 operation(s) for policies.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Policies API from RabbitMQ — 2 operation(s) for policies.
   name: RabbitMQ Policies API
   slug: rabbitmq-policies-api
-- description: The Queues API from RabbitMQ — 5 operation(s) for queues.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Queues API from RabbitMQ — 5 operation(s) for queues.
   name: RabbitMQ Queues API
   slug: rabbitmq-queues-api
-- description: The Users API from RabbitMQ — 3 operation(s) for users.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Users API from RabbitMQ — 3 operation(s) for users.
   name: RabbitMQ Users API
   slug: rabbitmq-users-api
-- description: The Virtual Hosts API from RabbitMQ — 2 operation(s) for virtual hosts.
+- baseURL: http://localhost:15672/api
+  baseurl_source: declared
+  description: The Virtual Hosts API from RabbitMQ — 2 operation(s) for virtual hosts.
   name: RabbitMQ Virtual Hosts API
   slug: rabbitmq-virtual-hosts-api
 artifact_total: 39
@@ -237,7 +263,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -247,7 +273,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabbitmq/refs/heads/main/screenshots/rabbitmq-2026-06-20T192503.png
 security:

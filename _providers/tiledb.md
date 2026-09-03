@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +37,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The primary TileDB Cloud REST API. 168 operations across arrays, groups, assets, files, notebooks, UDFs, task graphs, SQL, queries, users, organizations, invitations, favorites and tokens. Published b
+- baseURL: https://api.tiledb.com/v1
+  baseurl_source: declared
+  description: The primary TileDB Cloud REST API. 168 operations across arrays, groups, assets, files, notebooks, UDFs, task graphs, SQL, queries, users, organizations, invitations, favorites and tokens. Published b
   name: TileDB Storage Platform API (v1)
   slug: tiledb-storage-platform-api-v1
-- description: The v2 routes of the TileDB Cloud REST API — 21 operations concentrated on groups, assets, array metadata, files, notebooks, users and organizations. Published by TileDB as a separate Swagger 2.0 cont
+- baseURL: https://api.tiledb.com/v2
+  baseurl_source: declared
+  description: The v2 routes of the TileDB Cloud REST API — 21 operations concentrated on groups, assets, array metadata, files, notebooks, users and organizations. Published by TileDB as a separate Swagger 2.0 cont
   name: TileDB Storage Platform API (v2)
   slug: tiledb-storage-platform-api-v2
 artifact_total: 7
@@ -180,11 +198,11 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -194,7 +212,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 54.4
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -211,8 +229,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tiledb/refs/heads/main/screenshots/tiledb-2026-09-02T163742.png
 security:
 - kind: authentication
   name: Tiledb Authentication

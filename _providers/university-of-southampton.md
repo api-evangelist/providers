@@ -33,19 +33,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'Institution-built, institution-hosted linked open data covering the physical and organisational University: buildings and sites, term dates, organisational structure, research facilities, points of se'
+- baseURL: https://data.southampton.ac.uk/
+  baseurl_source: declared
+  description: 'Institution-built, institution-hosted linked open data covering the physical and organisational University: buildings and sites, term dates, organisational structure, research facilities, points of se'
   name: University of Southampton Open Data Service (Linked Data)
   slug: open-data-linked-data
 - description: The University's own Shibboleth 3.x Identity Provider, entityID https://webauth.soton.ac.uk/shibboleth, asserting shibmd:Scope soton.ac.uk. Its entity descriptor is published both by the IdP itself an
   name: Shibboleth SAML Identity Provider (UK Access Management Federation)
   slug: shibboleth-saml-idp
-- description: 'Live, open OAI-PMH 2.0 metadata harvesting for ePrints Soton, the University''s institutional research repository. Verified 2026-08-30: Identify returned repositoryName ''ePrints Soton'', repositoryIdent'
+- baseURL: https://eprints.soton.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: 'Live, open OAI-PMH 2.0 metadata harvesting for ePrints Soton, the University''s institutional research repository. Verified 2026-08-30: Identify returned repositoryName ''ePrints Soton'', repositoryIdent'
   name: ePrints Soton OAI-PMH Interface
   slug: eprints-oai-pmh
-- description: Read-only REST interface over the ePrints Soton data model, exposing the repository's eprint, user and subject datasets. Unauthenticated. Individual records dereference by identifier with a format ext
+- baseURL: https://eprints.soton.ac.uk/rest
+  baseurl_source: declared
+  description: Read-only REST interface over the ePrints Soton data model, exposing the repository's eprint, user and subject datasets. Unauthenticated. Individual records dereference by identifier with a format ext
   name: ePrints Soton REST Interface
   slug: eprints-rest
 - description: 'The University''s tenancy of Elsevier Pure, its Current Research Information System, at pure.soton.ac.uk. Pure is now the system of record: researchers deposit into Pure and outputs flow onward to ePri'
@@ -231,7 +237,7 @@ score:
     catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -241,7 +247,7 @@ score:
     discoverability: 74.1
     governance: 3.8
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -256,8 +262,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-southampton/refs/heads/main/screenshots/university-of-southampton-2026-06-20T200226.png
 security:
 - kind: authentication

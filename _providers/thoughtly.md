@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Voice and chat agent operations. Agents are referenced as "interviews" in URLs.
+- baseURL: https://api.thoughtly.com
+  baseurl_source: declared
+  description: Voice and chat agent operations. Agents are referenced as "interviews" in URLs.
   name: Thoughtly agent API
   slug: thoughtly-agent-api
-- description: Contact management — create, retrieve, update, and call contacts.
+- baseURL: https://api.thoughtly.com
+  baseurl_source: declared
+  description: Contact management — create, retrieve, update, and call contacts.
   name: Thoughtly contact API
   slug: thoughtly-contact-api
-- description: Authenticated user details.
+- baseURL: https://api.thoughtly.com
+  baseurl_source: declared
+  description: Authenticated user details.
   name: Thoughtly user API
   slug: thoughtly-user-api
-- description: Webhook subscription, unsubscription, and automation triggers.
+- baseURL: https://api.thoughtly.com
+  baseurl_source: declared
+  description: Webhook subscription, unsubscription, and automation triggers.
   name: Thoughtly webhooks API
   slug: thoughtly-webhooks-api
 artifact_total: 50
@@ -346,7 +354,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -356,7 +364,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -371,7 +379,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:

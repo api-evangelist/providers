@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Operations for managing delivery pipelines
+- baseURL: https://clouddeploy.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing delivery pipelines
   name: Google Cloud Deploy DeliveryPipelines API
   slug: google-cloud-deploy-deliverypipelines-api
-- description: Operations for managing releases
+- baseURL: https://clouddeploy.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing releases
   name: Google Cloud Deploy Releases API
   slug: google-cloud-deploy-releases-api
-- description: Operations for managing rollouts
+- baseURL: https://clouddeploy.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing rollouts
   name: Google Cloud Deploy Rollouts API
   slug: google-cloud-deploy-rollouts-api
-- description: Operations for managing deployment targets
+- baseURL: https://clouddeploy.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing deployment targets
   name: Google Cloud Deploy Targets API
   slug: google-cloud-deploy-targets-api
 artifact_total: 25
@@ -245,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-deploy/refs/heads/main/screenshots/google-cloud-deploy-2026-06-20T182104.png
 security:

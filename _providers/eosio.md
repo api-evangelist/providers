@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -52,34 +52,54 @@ apis:
 - description: The net_api_plugin exposes endpoints under /v1/net for inspecting and managing peer-to-peer connections of an Antelope node, including connections, status, connect, and disconnect operations.
   name: EOSIO Nodeos Net API
   slug: nodeos-net-api
-- description: The Get Abi API from EOSIO — 1 operation(s) for get abi.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Abi API from EOSIO — 1 operation(s) for get abi.
   name: EOSIO Get Abi API
   slug: eosio-get-abi-api
-- description: The Get Account API from EOSIO — 1 operation(s) for get account.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Account API from EOSIO — 1 operation(s) for get account.
   name: EOSIO Get Account API
   slug: eosio-get-account-api
-- description: The Get Block API from EOSIO — 1 operation(s) for get block.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Block API from EOSIO — 1 operation(s) for get block.
   name: EOSIO Get Block API
   slug: eosio-get-block-api
-- description: The Get Code API from EOSIO — 1 operation(s) for get code.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Code API from EOSIO — 1 operation(s) for get code.
   name: EOSIO Get Code API
   slug: eosio-get-code-api
-- description: The Get Currency Balance API from EOSIO — 1 operation(s) for get currency balance.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Currency Balance API from EOSIO — 1 operation(s) for get currency balance.
   name: EOSIO Get Currency Balance API
   slug: eosio-get-currency-balance-api
-- description: The Get Info API from EOSIO — 1 operation(s) for get info.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Info API from EOSIO — 1 operation(s) for get info.
   name: EOSIO Get Info API
   slug: eosio-get-info-api
-- description: The Get Required Keys API from EOSIO — 1 operation(s) for get required keys.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Required Keys API from EOSIO — 1 operation(s) for get required keys.
   name: EOSIO Get Required Keys API
   slug: eosio-get-required-keys-api
-- description: The Get Table Rows API from EOSIO — 1 operation(s) for get table rows.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Get Table Rows API from EOSIO — 1 operation(s) for get table rows.
   name: EOSIO Get Table Rows API
   slug: eosio-get-table-rows-api
-- description: The Push Transaction API from EOSIO — 1 operation(s) for push transaction.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Push Transaction API from EOSIO — 1 operation(s) for push transaction.
   name: EOSIO Push Transaction API
   slug: eosio-push-transaction-api
-- description: The Send Transaction API from EOSIO — 1 operation(s) for send transaction.
+- baseURL_template: '{node}/v1/chain'
+  baseurl_source: spec_template
+  description: The Send Transaction API from EOSIO — 1 operation(s) for send transaction.
   name: EOSIO Send Transaction API
   slug: eosio-send-transaction-api
 artifact_total: 30
@@ -240,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

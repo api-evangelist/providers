@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: First-party in-world scripting API for IMVU Live Rooms. Room scripts are single-file Lua programs executed server-side in a Luau sandbox; the engine calls event functions (event_start, event_begin_ite
@@ -139,7 +152,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -158,8 +171,9 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imvu/refs/heads/main/screenshots/imvu-2026-09-02T145854.png
 security:
 - kind: authentication
   name: Imvu Authentication

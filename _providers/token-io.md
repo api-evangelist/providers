@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -77,58 +77,94 @@ apis:
 - description: Hands-on workshop for integrating a merchant with Token Checkout.
   name: Merchant Integration Workshop
   slug: merchant-integration-workshop
-- description: These endpoints allow you to create and manage an Account on File from bank account details. The Account on File can then be used in other API requests instead of sending the full account details.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints allow you to create and manage an Account on File from bank account details. The Account on File can then be used in other API requests instead of sending the full account details.
   name: token-io Account on File API
   slug: token-io-account-on-file-api
-- description: These endpoints provide authorized access to an authenticated user's account information.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints provide authorized access to an authenticated user's account information.
   name: token-io Accounts API
   slug: token-io-accounts-api
-- description: These endpoints are for managing the public keys that are used for JWT authentication.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints are for managing the public keys that are used for JWT authentication.
   name: token-io Authentication keys API
   slug: token-io-authentication-keys-api
-- description: These endpoints filter and fetch the list of connected banks, get information on specific banks, and initiate authorization with user-selected banks using Payments v1.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints filter and fetch the list of connected banks, get information on specific banks, and initiate authorization with user-selected banks using Payments v1.
   name: token-io Banks v1 API
   slug: token-io-banks-v1-api
-- description: This endpoint filters and fetches the list of connected banks, gets information on specific banks, and initiates authorization with user-selected banks using Payments v2.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: This endpoint filters and fetches the list of connected banks, gets information on specific banks, and initiates authorization with user-selected banks using Payments v2.
   name: token-io Banks v2 API
   slug: token-io-banks-v2-api
-- description: These endpoints allow you to create and manage payment links. Payment links are reusable or single-use payment URLs that can be shared with customers, supporting fixed or variable amounts, usage limit
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints allow you to create and manage payment links. Payment links are reusable or single-use payment URLs that can be shared with customers, supporting fixed or variable amounts, usage limit
   name: token-io Pay by Link API
   slug: token-io-pay-by-link-api
-- description: Creates and initiates a single immediate payment or a future-dated payment. Also supports initiating a Variable Recurring Payment (VRP) using an existing VRP mandate that has been created and authoris
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: Creates and initiates a single immediate payment or a future-dated payment. Also supports initiating a Variable Recurring Payment (VRP) using an existing VRP mandate that has been created and authoris
   name: token-io Payments v2 API
   slug: token-io-payments-v2-api
-- description: These endpoints allow you to make payouts.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints allow you to make payouts.
   name: token-io Payouts API
   slug: token-io-payouts-api
-- description: These endpoints allow you to handle registration, posting, and retrieval of refunds associated with original transaction account information.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints allow you to handle registration, posting, and retrieval of refunds associated with original transaction account information.
   name: token-io Refunds API
   slug: token-io-refunds-api
-- description: These endpoints retrieve the current AIS and PIS status of connected banks.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints retrieve the current AIS and PIS status of connected banks.
   name: token-io Reports API
   slug: token-io-reports-api
-- description: These endpoints allow you to initiate a Payments v1 request or an AIS request, and retrieve the status of the request.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints allow you to initiate a Payments v1 request or an AIS request, and retrieve the status of the request.
   name: token-io Requests - for Payments v1 or AIS API
   slug: token-io-requests-for-payments-v1-or-ais-api
-- description: These endpoints provide authorized access to an authenticated user's settlement account information, enabling you to create settlement accounts, retrieve settlement account details, transactions and p
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints provide authorized access to an authenticated user's settlement account information, enabling you to create settlement accounts, retrieve settlement account details, transactions and p
   name: token-io Settlement Accounts API
   slug: token-io-settlement-accounts-api
-- description: These endpoints are for resellers using Token.io's licence to create, retrieve and delete sub-TPPs.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints are for resellers using Token.io's licence to create, retrieve and delete sub-TPPs.
   name: token-io Sub-TPPs API
   slug: token-io-sub-tpps-api
-- description: These endpoints retrieve all tokens, a filtered list of tokens, or a specific token, as well as allowing you to cancel an existing token.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints retrieve all tokens, a filtered list of tokens, or a specific token, as well as allowing you to cancel an existing token.
   name: token-io Tokens API
   slug: token-io-tokens-api
-- description: These endpoints relate to transfers, which are requests to move money between accounts.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints relate to transfers, which are requests to move money between accounts.
   name: token-io Transfers - for Payments v1 API
   slug: token-io-transfers-for-payments-v1-api
-- description: These endpoints enable you to initiate Variable Recurring Payments (VRP). Note, that VRP is also available in Payments v2 API.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints enable you to initiate Variable Recurring Payments (VRP). Note, that VRP is also available in Payments v2 API.
   name: token-io Variable Recurring Payments API
   slug: token-io-variable-recurring-payments-api
-- description: The Verification API from token-io — 1 operation(s) for verification.
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: The Verification API from token-io — 1 operation(s) for verification.
   name: token-io Verification API
   slug: token-io-verification-api
-- description: These endpoints configure, retrieve and remove webhooks. See <a href="https://developer.token.io/token_rest_api_doc/content/e-rest/api-basics.htm#Webhook" target="_blank">Webhooks</a> for more details
+- baseURL: https://api.token.io
+  baseurl_source: declared
+  description: These endpoints configure, retrieve and remove webhooks. See <a href="https://developer.token.io/token_rest_api_doc/content/e-rest/api-basics.htm#Webhook" target="_blank">Webhooks</a> for more details
   name: token-io Webhooks API
   slug: token-io-webhooks-api
 artifact_total: 113
@@ -431,10 +467,10 @@ score:
       total: 18
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:

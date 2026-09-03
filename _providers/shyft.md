@@ -33,175 +33,287 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authentication > Email API from Shyft — 2 operation(s) for authentication > email.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Authentication > Email API from Shyft — 2 operation(s) for authentication > email.
   name: Shyft Authentication > Email API
   slug: shyft-authentication-email-api
-- description: The Authentication > PhoneNumber API from Shyft — 4 operation(s) for authentication > phonenumber.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Authentication > PhoneNumber API from Shyft — 4 operation(s) for authentication > phonenumber.
   name: Shyft Authentication > PhoneNumber API
   slug: shyft-authentication-phonenumber-api
-- description: The Callbacks API from Shyft — 3 operation(s) for callbacks.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Callbacks API from Shyft — 3 operation(s) for callbacks.
   name: Shyft Callbacks API
   slug: shyft-callbacks-api
-- description: The Compact > Applicants API from Shyft — 1 operation(s) for compact > applicants.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > Applicants API from Shyft — 1 operation(s) for compact > applicants.
   name: Shyft Compact > Applicants API
   slug: shyft-compact-applicants-api
-- description: The Compact > Plans API from Shyft — 1 operation(s) for compact > plans.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > Plans API from Shyft — 1 operation(s) for compact > plans.
   name: Shyft Compact > Plans API
   slug: shyft-compact-plans-api
-- description: What is Free Post? Free Post is basically a type of `post`, with `post_type = 22` * free post requires `postable_type` and `postable_id` * current user must has visibility of `postable` to create a fr
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: What is Free Post? Free Post is basically a type of `post`, with `post_type = 22` * free post requires `postable_type` and `postable_id` * current user must has visibility of `postable` to create a fr
   name: Shyft Compact > Posts API
   slug: shyft-compact-posts-api
-- description: The Compact > RequstTimeOff API from Shyft — 2 operation(s) for compact > requsttimeoff.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > RequstTimeOff API from Shyft — 2 operation(s) for compact > requsttimeoff.
   name: Shyft Compact > RequstTimeOff API
   slug: shyft-compact-requsttimeoff-api
-- description: The Compact > Shifts API from Shyft — 2 operation(s) for compact > shifts.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > Shifts API from Shyft — 2 operation(s) for compact > shifts.
   name: Shyft Compact > Shifts API
   slug: shyft-compact-shifts-api
-- description: The Compact > Subscriptions API from Shyft — 1 operation(s) for compact > subscriptions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > Subscriptions API from Shyft — 1 operation(s) for compact > subscriptions.
   name: Shyft Compact > Subscriptions API
   slug: shyft-compact-subscriptions-api
-- description: The Compact > UserPrivileges API from Shyft — 1 operation(s) for compact > userprivileges.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Compact > UserPrivileges API from Shyft — 1 operation(s) for compact > userprivileges.
   name: Shyft Compact > UserPrivileges API
   slug: shyft-compact-userprivileges-api
-- description: The Customer > Action Jobs API from Shyft — 2 operation(s) for customer > action jobs.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Action Jobs API from Shyft — 2 operation(s) for customer > action jobs.
   name: Shyft Customer > Action Jobs API
   slug: shyft-customer-action-jobs-api
-- description: The Customer > AdminClaims API from Shyft — 2 operation(s) for customer > adminclaims.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > AdminClaims API from Shyft — 2 operation(s) for customer > adminclaims.
   name: Shyft Customer > AdminClaims API
   slug: shyft-customer-adminclaims-api
-- description: The Customer > AI API from Shyft — 1 operation(s) for customer > ai.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > AI API from Shyft — 1 operation(s) for customer > ai.
   name: Shyft Customer > AI API
   slug: shyft-customer-ai-api
-- description: The Customer > Applicants API from Shyft — 3 operation(s) for customer > applicants.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Applicants API from Shyft — 3 operation(s) for customer > applicants.
   name: Shyft Customer > Applicants API
   slug: shyft-customer-applicants-api
-- description: The Customer > Availabilities > admin_role > request API from Shyft — 3 operation(s) for customer > availabilities > admin_role > request.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Availabilities > admin_role > request API from Shyft — 3 operation(s) for customer > availabilities > admin_role > request.
   name: Shyft Customer > Availabilities > admin_role > request API
   slug: shyft-customer-availabilities-admin-role-request-api
-- description: Acting as a regular user for specific location
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: Acting as a regular user for specific location
   name: Shyft Customer > Availabilities > user_role API
   slug: shyft-customer-availabilities-user-role-api
-- description: The Customer > Availabilities > user_role > Deprecated API from Shyft — 2 operation(s) for customer > availabilities > user_role > deprecated.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Availabilities > user_role > Deprecated API from Shyft — 2 operation(s) for customer > availabilities > user_role > deprecated.
   name: Shyft Customer > Availabilities > user_role > Deprecated API
   slug: shyft-customer-availabilities-user-role-deprecated-api
-- description: The Customer > Availabilities > user_role > Deprecated > request API from Shyft — 1 operation(s) for customer > availabilities > user_role > deprecated > request.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Availabilities > user_role > Deprecated > request API from Shyft — 1 operation(s) for customer > availabilities > user_role > deprecated > request.
   name: Shyft Customer > Availabilities > user_role > Deprecated > request API
   slug: shyft-customer-availabilities-user-role-deprecated-request-api
-- description: The Customer > Channels API from Shyft — 7 operation(s) for customer > channels.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Channels API from Shyft — 7 operation(s) for customer > channels.
   name: Shyft Customer > Channels API
   slug: shyft-customer-channels-api
-- description: The Customer > Chats > ChatMessages API from Shyft — 3 operation(s) for customer > chats > chatmessages.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Chats > ChatMessages API from Shyft — 3 operation(s) for customer > chats > chatmessages.
   name: Shyft Customer > Chats > ChatMessages API
   slug: shyft-customer-chats-chatmessages-api
-- description: The Customer > Chats > ChatSessions API from Shyft — 5 operation(s) for customer > chats > chatsessions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Chats > ChatSessions API from Shyft — 5 operation(s) for customer > chats > chatsessions.
   name: Shyft Customer > Chats > ChatSessions API
   slug: shyft-customer-chats-chatsessions-api
-- description: The Customer > Comments API from Shyft — 3 operation(s) for customer > comments.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Comments API from Shyft — 3 operation(s) for customer > comments.
   name: Shyft Customer > Comments API
   slug: shyft-customer-comments-api
-- description: The Customer > Demands API from Shyft — 3 operation(s) for customer > demands.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Demands API from Shyft — 3 operation(s) for customer > demands.
   name: Shyft Customer > Demands API
   slug: shyft-customer-demands-api
-- description: The Customer > Departments API from Shyft — 6 operation(s) for customer > departments.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Departments API from Shyft — 6 operation(s) for customer > departments.
   name: Shyft Customer > Departments API
   slug: shyft-customer-departments-api
-- description: The Customer > Departments > Memberships API from Shyft — 3 operation(s) for customer > departments > memberships.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Departments > Memberships API from Shyft — 3 operation(s) for customer > departments > memberships.
   name: Shyft Customer > Departments > Memberships API
   slug: shyft-customer-departments-memberships-api
-- description: 'Ojbect Serializer: [EWA Account Serializer] Attribute | Values | R | Description --- | --- | --- | --- id | | | tos_yes | | | Indciate if user has accepted the TOS by going through all pages. is_activ'
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: 'Ojbect Serializer: [EWA Account Serializer] Attribute | Values | R | Description --- | --- | --- | --- id | | | tos_yes | | | Indciate if user has accepted the TOS by going through all pages. is_activ'
   name: Shyft Customer > EWA API
   slug: shyft-customer-ewa-api
-- description: The Customer > GeofenceLogs API from Shyft — 1 operation(s) for customer > geofencelogs.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > GeofenceLogs API from Shyft — 1 operation(s) for customer > geofencelogs.
   name: Shyft Customer > GeofenceLogs API
   slug: shyft-customer-geofencelogs-api
-- description: The Customer > Griddler API from Shyft — 1 operation(s) for customer > griddler.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Griddler API from Shyft — 1 operation(s) for customer > griddler.
   name: Shyft Customer > Griddler API
   slug: shyft-customer-griddler-api
-- description: The Customer > Images API from Shyft — 1 operation(s) for customer > images.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Images API from Shyft — 1 operation(s) for customer > images.
   name: Shyft Customer > Images API
   slug: shyft-customer-images-api
-- description: The Customer > Invitations API from Shyft — 1 operation(s) for customer > invitations.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Invitations API from Shyft — 1 operation(s) for customer > invitations.
   name: Shyft Customer > Invitations API
   slug: shyft-customer-invitations-api
-- description: The Customer > Locations > user_role API from Shyft — 15 operation(s) for customer > locations > user_role.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Locations > user_role API from Shyft — 15 operation(s) for customer > locations > user_role.
   name: Shyft Customer > Locations > user_role API
   slug: shyft-customer-locations-user-role-api
-- description: The Customer > Messions API from Shyft — 4 operation(s) for customer > messions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Messions API from Shyft — 4 operation(s) for customer > messions.
   name: Shyft Customer > Messions API
   slug: shyft-customer-messions-api
-- description: APIs for user/admin to manage notifications belonging to him/her
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: APIs for user/admin to manage notifications belonging to him/her
   name: Shyft Customer > Notifications API
   slug: shyft-customer-notifications-api
-- description: 'Ojbect Serializer: [Receipt Serializer] Attribute | Values | R | Description --- | --- | --- | --- user_id | integer | * | User''s ID who owns this receipt created_at | datetime | * | Time receipt gene'
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: 'Ojbect Serializer: [Receipt Serializer] Attribute | Values | R | Description --- | --- | --- | --- user_id | integer | * | User''s ID who owns this receipt created_at | datetime | * | Time receipt gene'
   name: Shyft Customer > Posts API
   slug: shyft-customer-posts-api
-- description: The Customer > Products API from Shyft — 1 operation(s) for customer > products.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Products API from Shyft — 1 operation(s) for customer > products.
   name: Shyft Customer > Products API
   slug: shyft-customer-products-api
-- description: The Customer > RequestJobs API from Shyft — 1 operation(s) for customer > requestjobs.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > RequestJobs API from Shyft — 1 operation(s) for customer > requestjobs.
   name: Shyft Customer > RequestJobs API
   slug: shyft-customer-requestjobs-api
-- description: The Customer > RequstTimeOff API from Shyft — 8 operation(s) for customer > requsttimeoff.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > RequstTimeOff API from Shyft — 8 operation(s) for customer > requsttimeoff.
   name: Shyft Customer > RequstTimeOff API
   slug: shyft-customer-requsttimeoff-api
-- description: The Customer > Schedules API from Shyft — 4 operation(s) for customer > schedules.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Schedules API from Shyft — 4 operation(s) for customer > schedules.
   name: Shyft Customer > Schedules API
   slug: shyft-customer-schedules-api
-- description: The Customer > Segments API from Shyft — 1 operation(s) for customer > segments.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Segments API from Shyft — 1 operation(s) for customer > segments.
   name: Shyft Customer > Segments API
   slug: shyft-customer-segments-api
-- description: The Customer > SetupActions API from Shyft — 1 operation(s) for customer > setupactions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > SetupActions API from Shyft — 1 operation(s) for customer > setupactions.
   name: Shyft Customer > SetupActions API
   slug: shyft-customer-setupactions-api
-- description: The Customer > Shifts API from Shyft — 25 operation(s) for customer > shifts.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Shifts API from Shyft — 25 operation(s) for customer > shifts.
   name: Shyft Customer > Shifts API
   slug: shyft-customer-shifts-api
-- description: The Customer > Skill API from Shyft — 4 operation(s) for customer > skill.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Skill API from Shyft — 4 operation(s) for customer > skill.
   name: Shyft Customer > Skill API
   slug: shyft-customer-skill-api
-- description: The Customer > SsoSessions API from Shyft — 2 operation(s) for customer > ssosessions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > SsoSessions API from Shyft — 2 operation(s) for customer > ssosessions.
   name: Shyft Customer > SsoSessions API
   slug: shyft-customer-ssosessions-api
-- description: The Customer > Subscriptions API from Shyft — 6 operation(s) for customer > subscriptions.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Subscriptions API from Shyft — 6 operation(s) for customer > subscriptions.
   name: Shyft Customer > Subscriptions API
   slug: shyft-customer-subscriptions-api
-- description: The Customer > Tag API from Shyft — 6 operation(s) for customer > tag.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Tag API from Shyft — 6 operation(s) for customer > tag.
   name: Shyft Customer > Tag API
   slug: shyft-customer-tag-api
-- description: The Customer > ToS API from Shyft — 1 operation(s) for customer > tos.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > ToS API from Shyft — 1 operation(s) for customer > tos.
   name: Shyft Customer > ToS API
   slug: shyft-customer-tos-api
-- description: The Customer > UnregisteredUsers API from Shyft — 5 operation(s) for customer > unregisteredusers.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > UnregisteredUsers API from Shyft — 5 operation(s) for customer > unregisteredusers.
   name: Shyft Customer > UnregisteredUsers API
   slug: shyft-customer-unregisteredusers-api
-- description: The Customer > Uploader API from Shyft — 1 operation(s) for customer > uploader.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Uploader API from Shyft — 1 operation(s) for customer > uploader.
   name: Shyft Customer > Uploader API
   slug: shyft-customer-uploader-api
-- description: The Customer > UserNews API from Shyft — 3 operation(s) for customer > usernews.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > UserNews API from Shyft — 3 operation(s) for customer > usernews.
   name: Shyft Customer > UserNews API
   slug: shyft-customer-usernews-api
-- description: The Customer > UserPrivileges > admin_role API from Shyft — 1 operation(s) for customer > userprivileges > admin_role.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > UserPrivileges > admin_role API from Shyft — 1 operation(s) for customer > userprivileges > admin_role.
   name: Shyft Customer > UserPrivileges > admin_role API
   slug: shyft-customer-userprivileges-admin-role-api
-- description: The Customer > UserPrivileges API from Shyft — 10 operation(s) for customer > userprivileges.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > UserPrivileges API from Shyft — 10 operation(s) for customer > userprivileges.
   name: Shyft Customer > UserPrivileges API
   slug: shyft-customer-userprivileges-api
-- description: The Customer > Users > admin_role API from Shyft — 2 operation(s) for customer > users > admin_role.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Users > admin_role API from Shyft — 2 operation(s) for customer > users > admin_role.
   name: Shyft Customer > Users > admin_role API
   slug: shyft-customer-users-admin-role-api
-- description: The Customer > Users > user_role API from Shyft — 7 operation(s) for customer > users > user_role.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Customer > Users > user_role API from Shyft — 7 operation(s) for customer > users > user_role.
   name: Shyft Customer > Users > user_role API
   slug: shyft-customer-users-user-role-api
-- description: The Deprecated API from Shyft — 1 operation(s) for deprecated.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Deprecated API from Shyft — 1 operation(s) for deprecated.
   name: Shyft Deprecated API
   slug: shyft-deprecated-api
-- description: The General API from Shyft — 1 operation(s) for general.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The General API from Shyft — 1 operation(s) for general.
   name: Shyft General API
   slug: shyft-general-api
-- description: The Support API from Shyft — 2 operation(s) for support.
+- baseURL: https://app.myshyft.com
+  baseurl_source: declared
+  description: The Support API from Shyft — 2 operation(s) for support.
   name: Shyft Support API
   slug: shyft-support-api
 artifact_total: 116
@@ -475,7 +587,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -500,8 +612,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shyft/refs/heads/main/screenshots/shyft-2026-09-02T155358.png
 security:
 - kind: authentication
   name: Shyft Authentication

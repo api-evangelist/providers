@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Data API from LI-COR Intermediate — 1 operation(s) for data.
+- baseURL: https://api.licor.cloud
+  baseurl_source: declared
+  description: The Data API from LI-COR Intermediate — 1 operation(s) for data.
   name: LI-COR Intermediate Data API
   slug: li-cor-intermediate-data-api
-- description: The Newa API from LI-COR Intermediate — 1 operation(s) for newa.
+- baseURL: https://api.licor.cloud
+  baseurl_source: declared
+  description: The Newa API from LI-COR Intermediate — 1 operation(s) for newa.
   name: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
 artifact_total: 10
@@ -206,7 +210,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

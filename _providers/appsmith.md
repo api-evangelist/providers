@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Low-code application management
+- baseURL: https://app.appsmith.com/api/v1
+  baseurl_source: spec
+  description: Low-code application management
   name: Appsmith Applications API
   slug: appsmith-applications-api
-- description: Connected datasource management
+- baseURL: https://app.appsmith.com/api/v1
+  baseurl_source: spec
+  description: Connected datasource management
   name: Appsmith Datasources API
   slug: appsmith-datasources-api
-- description: Workspace organization and management
+- baseURL: https://app.appsmith.com/api/v1
+  baseurl_source: spec
+  description: Workspace organization and management
   name: Appsmith Workspaces API
   slug: appsmith-workspaces-api
 artifact_total: 20
@@ -217,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/screenshots/appsmith-2026-06-20T172348.png
 security:

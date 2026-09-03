@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 6 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: The Clusters API from Azure Stream Analytics — 1 operation(s) for clusters.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Clusters API from Azure Stream Analytics — 1 operation(s) for clusters.
   name: Azure Stream Analytics Clusters API
   slug: microsoft-azure-stream-analytics-clusters-api
-- description: The Functions API from Azure Stream Analytics — 1 operation(s) for functions.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Functions API from Azure Stream Analytics — 1 operation(s) for functions.
   name: Azure Stream Analytics Functions API
   slug: microsoft-azure-stream-analytics-functions-api
-- description: The Inputs API from Azure Stream Analytics — 1 operation(s) for inputs.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Inputs API from Azure Stream Analytics — 1 operation(s) for inputs.
   name: Azure Stream Analytics Inputs API
   slug: microsoft-azure-stream-analytics-inputs-api
-- description: The Outputs API from Azure Stream Analytics — 1 operation(s) for outputs.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Outputs API from Azure Stream Analytics — 1 operation(s) for outputs.
   name: Azure Stream Analytics Outputs API
   slug: microsoft-azure-stream-analytics-outputs-api
-- description: The StreamingJobs API from Azure Stream Analytics — 5 operation(s) for streamingjobs.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The StreamingJobs API from Azure Stream Analytics — 5 operation(s) for streamingjobs.
   name: Azure Stream Analytics StreamingJobs API
   slug: microsoft-azure-stream-analytics-streamingjobs-api
-- description: The Transformations API from Azure Stream Analytics — 1 operation(s) for transformations.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Transformations API from Azure Stream Analytics — 1 operation(s) for transformations.
   name: Azure Stream Analytics Transformations API
   slug: microsoft-azure-stream-analytics-transformations-api
 artifact_total: 20
@@ -201,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-stream-analytics/refs/heads/main/screenshots/microsoft-azure-stream-analytics-2026-06-20T185440.png
 security:

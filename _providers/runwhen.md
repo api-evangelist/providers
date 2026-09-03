@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 10
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 417 operations · 181 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: The alert-query-proxy API from RunWhen — 1 operation(s) for alert-query-proxy.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The alert-query-proxy API from RunWhen — 1 operation(s) for alert-query-proxy.
   name: RunWhen alert-query-proxy API
   slug: runwhen-alert-query-proxy-api
-- description: The auth API from RunWhen — 5 operation(s) for auth.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The auth API from RunWhen — 5 operation(s) for auth.
   name: RunWhen auth API
   slug: runwhen-auth-api
-- description: The auth-providers API from RunWhen — 1 operation(s) for auth-providers.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The auth-providers API from RunWhen — 1 operation(s) for auth-providers.
   name: RunWhen auth-providers API
   slug: runwhen-auth-providers-api
-- description: The auth0 API from RunWhen — 5 operation(s) for auth0.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The auth0 API from RunWhen — 5 operation(s) for auth0.
   name: RunWhen auth0 API
   slug: runwhen-auth0-api
-- description: The author API from RunWhen — 8 operation(s) for author.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The author API from RunWhen — 8 operation(s) for author.
   name: RunWhen author API
   slug: runwhen-author-api
-- description: The chat-config API from RunWhen — 11 operation(s) for chat-config.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The chat-config API from RunWhen — 11 operation(s) for chat-config.
   name: RunWhen chat-config API
   slug: runwhen-chat-config-api
-- description: The codebundles API from RunWhen — 1 operation(s) for codebundles.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The codebundles API from RunWhen — 1 operation(s) for codebundles.
   name: RunWhen codebundles API
   slug: runwhen-codebundles-api
-- description: The codecollections API from RunWhen — 3 operation(s) for codecollections.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The codecollections API from RunWhen — 3 operation(s) for codecollections.
   name: RunWhen codecollections API
   slug: runwhen-codecollections-api
-- description: The comments API from RunWhen — 5 operation(s) for comments.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The comments API from RunWhen — 5 operation(s) for comments.
   name: RunWhen comments API
   slug: runwhen-comments-api
-- description: The configuration API from RunWhen — 1 operation(s) for configuration.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The configuration API from RunWhen — 1 operation(s) for configuration.
   name: RunWhen configuration API
   slug: runwhen-configuration-api
-- description: The explorer API from RunWhen — 8 operation(s) for explorer.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The explorer API from RunWhen — 8 operation(s) for explorer.
   name: RunWhen explorer API
   slug: runwhen-explorer-api
-- description: The Graphql API from RunWhen — 1 operation(s) for graphql.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The Graphql API from RunWhen — 1 operation(s) for graphql.
   name: RunWhen Graphql API
   slug: runwhen-graphql-api
-- description: The health API from RunWhen — 4 operation(s) for health.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The health API from RunWhen — 4 operation(s) for health.
   name: RunWhen health API
   slug: runwhen-health-api
-- description: The internal API from RunWhen — 2 operation(s) for internal.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The internal API from RunWhen — 2 operation(s) for internal.
   name: RunWhen internal API
   slug: runwhen-internal-api
-- description: The issue-occurrences API from RunWhen — 6 operation(s) for issue-occurrences.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The issue-occurrences API from RunWhen — 6 operation(s) for issue-occurrences.
   name: RunWhen issue-occurrences API
   slug: runwhen-issue-occurrences-api
-- description: The issues API from RunWhen — 14 operation(s) for issues.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The issues API from RunWhen — 14 operation(s) for issues.
   name: RunWhen issues API
   slug: runwhen-issues-api
-- description: The jwks API from RunWhen — 1 operation(s) for jwks.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The jwks API from RunWhen — 1 operation(s) for jwks.
   name: RunWhen jwks API
   slug: runwhen-jwks-api
-- description: The llm-config API from RunWhen — 1 operation(s) for llm-config.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The llm-config API from RunWhen — 1 operation(s) for llm-config.
   name: RunWhen llm-config API
   slug: runwhen-llm-config-api
-- description: The notes (deprecated v3) API from RunWhen — 2 operation(s) for notes (deprecated v3).
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The notes (deprecated v3) API from RunWhen — 2 operation(s) for notes (deprecated v3).
   name: RunWhen notes (deprecated v3) API
   slug: runwhen-notes-deprecated-v3-api
-- description: The notes-import-v4 API from RunWhen — 4 operation(s) for notes-import-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The notes-import-v4 API from RunWhen — 4 operation(s) for notes-import-v4.
   name: RunWhen notes-import-v4 API
   slug: runwhen-notes-import-v4-api
-- description: The notes-v4 API from RunWhen — 2 operation(s) for notes-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The notes-v4 API from RunWhen — 2 operation(s) for notes-v4.
   name: RunWhen notes-v4 API
   slug: runwhen-notes-v4-api
-- description: The oauth-server API from RunWhen — 8 operation(s) for oauth-server.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The oauth-server API from RunWhen — 8 operation(s) for oauth-server.
   name: RunWhen oauth-server API
   slug: runwhen-oauth-server-api
-- description: The persona-v4 API from RunWhen — 3 operation(s) for persona-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The persona-v4 API from RunWhen — 3 operation(s) for persona-v4.
   name: RunWhen persona-v4 API
   slug: runwhen-persona-v4-api
-- description: The personas API from RunWhen — 2 operation(s) for personas.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The personas API from RunWhen — 2 operation(s) for personas.
   name: RunWhen personas API
   slug: runwhen-personas-api
-- description: The profile API from RunWhen — 2 operation(s) for profile.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The profile API from RunWhen — 2 operation(s) for profile.
   name: RunWhen profile API
   slug: runwhen-profile-api
-- description: The run-requests API from RunWhen — 18 operation(s) for run-requests.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The run-requests API from RunWhen — 18 operation(s) for run-requests.
   name: RunWhen run-requests API
   slug: runwhen-run-requests-api
-- description: The run-sessions API from RunWhen — 20 operation(s) for run-sessions.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The run-sessions API from RunWhen — 20 operation(s) for run-sessions.
   name: RunWhen run-sessions API
   slug: runwhen-run-sessions-api
-- description: The runbook-v4 API from RunWhen — 2 operation(s) for runbook-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The runbook-v4 API from RunWhen — 2 operation(s) for runbook-v4.
   name: RunWhen runbook-v4 API
   slug: runwhen-runbook-v4-api
-- description: The runbooks API from RunWhen — 2 operation(s) for runbooks.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The runbooks API from RunWhen — 2 operation(s) for runbooks.
   name: RunWhen runbooks API
   slug: runwhen-runbooks-api
-- description: The runners API from RunWhen — 2 operation(s) for runners.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The runners API from RunWhen — 2 operation(s) for runners.
   name: RunWhen runners API
   slug: runwhen-runners-api
-- description: The rwfs API from RunWhen — 1 operation(s) for rwfs.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The rwfs API from RunWhen — 1 operation(s) for rwfs.
   name: RunWhen rwfs API
   slug: runwhen-rwfs-api
-- description: The rwsupport API from RunWhen — 14 operation(s) for rwsupport.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The rwsupport API from RunWhen — 14 operation(s) for rwsupport.
   name: RunWhen rwsupport API
   slug: runwhen-rwsupport-api
-- description: The rwsupport-prompt-hub API from RunWhen — 5 operation(s) for rwsupport-prompt-hub.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The rwsupport-prompt-hub API from RunWhen — 5 operation(s) for rwsupport-prompt-hub.
   name: RunWhen rwsupport-prompt-hub API
   slug: runwhen-rwsupport-prompt-hub-api
-- description: The rwsupport-scrubhub API from RunWhen — 11 operation(s) for rwsupport-scrubhub.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The rwsupport-scrubhub API from RunWhen — 11 operation(s) for rwsupport-scrubhub.
   name: RunWhen rwsupport-scrubhub API
   slug: runwhen-rwsupport-scrubhub-api
-- description: The slack API from RunWhen — 2 operation(s) for slack.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slack API from RunWhen — 2 operation(s) for slack.
   name: RunWhen slack API
   slug: runwhen-slack-api
-- description: The sli-v4 API from RunWhen — 2 operation(s) for sli-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The sli-v4 API from RunWhen — 2 operation(s) for sli-v4.
   name: RunWhen sli-v4 API
   slug: runwhen-sli-v4-api
-- description: The slis API from RunWhen — 6 operation(s) for slis.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slis API from RunWhen — 6 operation(s) for slis.
   name: RunWhen slis API
   slug: runwhen-slis-api
-- description: The slo-v4 API from RunWhen — 2 operation(s) for slo-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slo-v4 API from RunWhen — 2 operation(s) for slo-v4.
   name: RunWhen slo-v4 API
   slug: runwhen-slo-v4-api
-- description: The slos API from RunWhen — 4 operation(s) for slos.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slos API from RunWhen — 4 operation(s) for slos.
   name: RunWhen slos API
   slug: runwhen-slos-api
-- description: The slx-v4 API from RunWhen — 3 operation(s) for slx-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slx-v4 API from RunWhen — 3 operation(s) for slx-v4.
   name: RunWhen slx-v4 API
   slug: runwhen-slx-v4-api
-- description: The slxs API from RunWhen — 16 operation(s) for slxs.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The slxs API from RunWhen — 16 operation(s) for slxs.
   name: RunWhen slxs API
   slug: runwhen-slxs-api
-- description: The social-auth API from RunWhen — 6 operation(s) for social-auth.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The social-auth API from RunWhen — 6 operation(s) for social-auth.
   name: RunWhen social-auth API
   slug: runwhen-social-auth-api
-- description: The sync API from RunWhen — 14 operation(s) for sync.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The sync API from RunWhen — 14 operation(s) for sync.
   name: RunWhen sync API
   slug: runwhen-sync-api
-- description: The tokens API from RunWhen — 8 operation(s) for tokens.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The tokens API from RunWhen — 8 operation(s) for tokens.
   name: RunWhen tokens API
   slug: runwhen-tokens-api
-- description: The tutorials API from RunWhen — 2 operation(s) for tutorials.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The tutorials API from RunWhen — 2 operation(s) for tutorials.
   name: RunWhen tutorials API
   slug: runwhen-tutorials-api
-- description: The users API from RunWhen — 17 operation(s) for users.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The users API from RunWhen — 17 operation(s) for users.
   name: RunWhen users API
   slug: runwhen-users-api
-- description: The workflow-v4 API from RunWhen — 3 operation(s) for workflow-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The workflow-v4 API from RunWhen — 3 operation(s) for workflow-v4.
   name: RunWhen workflow-v4 API
   slug: runwhen-workflow-v4-api
-- description: The workflows API from RunWhen — 6 operation(s) for workflows.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The workflows API from RunWhen — 6 operation(s) for workflows.
   name: RunWhen workflows API
   slug: runwhen-workflows-api
-- description: The workspace-alerts API from RunWhen — 1 operation(s) for workspace-alerts.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The workspace-alerts API from RunWhen — 1 operation(s) for workspace-alerts.
   name: RunWhen workspace-alerts API
   slug: runwhen-workspace-alerts-api
-- description: The workspace-v4 API from RunWhen — 1 operation(s) for workspace-v4.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The workspace-v4 API from RunWhen — 1 operation(s) for workspace-v4.
   name: RunWhen workspace-v4 API
   slug: runwhen-workspace-v4-api
-- description: The workspaces API from RunWhen — 72 operation(s) for workspaces.
+- baseURL: https://papi.beta.runwhen.com
+  baseurl_source: declared
+  description: The workspaces API from RunWhen — 72 operation(s) for workspaces.
   name: RunWhen workspaces API
   slug: runwhen-workspaces-api
 artifact_total: 108
@@ -516,7 +618,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runwhen/refs/heads/main/screenshots/runwhen-2026-08-17T081659.png
 security:

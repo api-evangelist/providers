@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,28 +56,44 @@ apis:
 - description: The USGS National Map services provide geospatial data and elevation products via OGC web services, REST APIs, and download services covering topographic data, imagery, hydrography, boundaries, transp
   name: USGS National Map Services
   slug: national-map-api
-- description: OGC API collection discovery
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: OGC API collection discovery
   name: US Geological Survey Collections API
   slug: us-geological-survey-collections-api
-- description: Real-time and historical continuous sensor measurements
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: Real-time and historical continuous sensor measurements
   name: US Geological Survey Continuous Values API
   slug: us-geological-survey-continuous-values-api
-- description: Daily summary water data
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: Daily summary water data
   name: US Geological Survey Daily Values API
   slug: us-geological-survey-daily-values-api
-- description: Earthquake catalog query and count operations
+- baseURL: https://earthquake.usgs.gov/fdsnws/event/1
+  baseurl_source: spec
+  description: Earthquake catalog query and count operations
   name: US Geological Survey Earthquakes API
   slug: us-geological-survey-earthquakes-api
-- description: Physically measured values from site visits
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: Physically measured values from site visits
   name: US Geological Survey Field Measurements API
   slug: us-geological-survey-field-measurements-api
-- description: API metadata and discovery operations
+- baseURL: https://earthquake.usgs.gov/fdsnws/event/1
+  baseurl_source: spec
+  description: API metadata and discovery operations
   name: US Geological Survey Metadata API
   slug: us-geological-survey-metadata-api
-- description: Geographic and metadata for USGS monitoring stations
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: Geographic and metadata for USGS monitoring stations
   name: US Geological Survey Monitoring Locations API
   slug: us-geological-survey-monitoring-locations-api
-- description: Metadata about time series observations
+- baseURL: https://api.waterdata.usgs.gov/ogcapi/v0
+  baseurl_source: spec
+  description: Metadata about time series observations
   name: US Geological Survey Time Series Metadata API
   slug: us-geological-survey-time-series-metadata-api
 artifact_total: 35
@@ -236,7 +252,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:

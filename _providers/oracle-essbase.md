@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -56,61 +56,99 @@ apis:
 - description: Command-line interface for administering and managing Essbase applications and databases. Provides command-line access for common administrative tasks including application management, data operations
   name: Essbase CLI (Command Line Interface)
   slug: essbase-cli-command-line-interface
-- description: Manage application-level configuration settings
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage application-level configuration settings
   name: Oracle Essbase Application Configuration API
   slug: oracle-essbase-application-configuration-api
-- description: Manage Essbase applications and their lifecycle
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage Essbase applications and their lifecycle
   name: Oracle Essbase Applications API
   slug: oracle-essbase-applications-api
-- description: Manage global and application-level connections
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage global and application-level connections
   name: Oracle Essbase Connections API
   slug: oracle-essbase-connections-api
-- description: Manage databases (cubes) within applications
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage databases (cubes) within applications
   name: Oracle Essbase Databases API
   slug: oracle-essbase-databases-api
-- description: View dimension information, generations, and levels
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: View dimension information, generations, and levels
   name: Oracle Essbase Dimensions API
   slug: oracle-essbase-dimensions-api
-- description: Upload, download, copy, move, and delete files in the Essbase file catalog
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Upload, download, copy, move, and delete files in the Essbase file catalog
   name: Oracle Essbase Files API
   slug: oracle-essbase-files-api
-- description: Manage database security filters
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage database security filters
   name: Oracle Essbase Filters API
   slug: oracle-essbase-filters-api
-- description: Manage user groups and memberships
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage user groups and memberships
   name: Oracle Essbase Groups API
   slug: oracle-essbase-groups-api
-- description: Execute and monitor asynchronous jobs such as data loads, calculations, and exports
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Execute and monitor asynchronous jobs such as data loads, calculations, and exports
   name: Oracle Essbase Jobs API
   slug: oracle-essbase-jobs-api
-- description: Manage locks on database objects and blocks
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage locks on database objects and blocks
   name: Oracle Essbase Locks API
   slug: oracle-essbase-locks-api
-- description: Manage database partitions
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage database partitions
   name: Oracle Essbase Partitions API
   slug: oracle-essbase-partitions-api
-- description: MDX reports and drill-through reports
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: MDX reports and drill-through reports
   name: Oracle Essbase Reports API
   slug: oracle-essbase-reports-api
-- description: Service and application role provisioning
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Service and application role provisioning
   name: Oracle Essbase Roles API
   slug: oracle-essbase-roles-api
-- description: Manage calculation and MDX scripts
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage calculation and MDX scripts
   name: Oracle Essbase Scripts API
   slug: oracle-essbase-scripts-api
-- description: Server properties, configuration, and about information
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Server properties, configuration, and about information
   name: Oracle Essbase Server API
   slug: oracle-essbase-server-api
-- description: Manage active user sessions
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage active user sessions
   name: Oracle Essbase Sessions API
   slug: oracle-essbase-sessions-api
-- description: User login, logout, and password management
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: User login, logout, and password management
   name: Oracle Essbase User Session API
   slug: oracle-essbase-user-session-api
-- description: Create, search, update, and delete users
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Create, search, update, and delete users
   name: Oracle Essbase Users API
   slug: oracle-essbase-users-api
-- description: Manage server-level and application-level substitution variables
+- baseURL: https://{host}:{port}/essbase/rest/v1
+  baseurl_source: declared
+  description: Manage server-level and application-level substitution variables
   name: Oracle Essbase Variables API
   slug: oracle-essbase-variables-api
 artifact_total: 108
@@ -516,7 +554,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -120,31 +120,49 @@ apis:
 - description: 'The Dynatrace Platform Management API provides basic read-only information about the currently logged-in environment including environment settings, license information, and permissions. It is a core '
   name: Dynatrace Platform Management API
   slug: dynatrace-platform-management-api
-- description: Operations for querying monitored entities and entity types
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Operations for querying monitored entities and entity types
   name: Dynatrace Entities API
   slug: dynatrace-entities-api
-- description: Operations for listing environments in the account
+- baseURL: https://api.dynatrace.com
+  baseurl_source: declared
+  description: Operations for listing environments in the account
   name: Dynatrace Environments API
   slug: dynatrace-environments-api
-- description: Operations for querying and ingesting custom events
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Operations for querying and ingesting custom events
   name: Dynatrace Events API
   slug: dynatrace-events-api
-- description: Operations for managing user groups and group membership
+- baseURL: https://api.dynatrace.com
+  baseurl_source: declared
+  description: Operations for managing user groups and group membership
   name: Dynatrace Groups API
   slug: dynatrace-groups-api
-- description: Operations for ingesting, searching, aggregating, and exporting log records
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Operations for ingesting, searching, aggregating, and exporting log records
   name: Dynatrace Logs API
   slug: dynatrace-logs-api
-- description: Operations for querying, managing, and ingesting time-series metrics
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Operations for querying, managing, and ingesting time-series metrics
   name: Dynatrace Metrics API
   slug: dynatrace-metrics-api
-- description: Operations for querying account-level permissions
+- baseURL: https://api.dynatrace.com
+  baseurl_source: declared
+  description: Operations for querying account-level permissions
   name: Dynatrace Permissions API
   slug: dynatrace-permissions-api
-- description: Operations for querying and managing detected problems
+- baseURL: https://mySampleEnv.live.dynatrace.com/api/v2
+  baseurl_source: declared
+  description: Operations for querying and managing detected problems
   name: Dynatrace Problems API
   slug: dynatrace-problems-api
-- description: Operations for managing account users
+- baseURL: https://api.dynatrace.com
+  baseurl_source: declared
+  description: Operations for managing account users
   name: Dynatrace Users API
   slug: dynatrace-users-api
 arazzos:
@@ -2096,7 +2114,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -2106,7 +2124,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 77.4
+  previous_composite: 84.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2118,8 +2136,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:
 - kind: authentication

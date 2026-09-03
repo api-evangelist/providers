@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Aloha Cloud-specific endpoints including the In-Store API server (gRPC, default port 50051, 127.0.0.1) for local POS connectivity and the Business Services Layer (BSL) Order Service for routing online
   name: Aloha Cloud APIs
   slug: aloha-cloud-api
-- description: Item and item-price management.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Item and item-price management.
   name: Aloha POS Catalog API
   slug: aloha-pos-catalog-api
-- description: Menu structure and details.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Menu structure and details.
   name: Aloha POS Menu API
   slug: aloha-pos-menu-api
-- description: Order creation and lookup.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Order creation and lookup.
   name: Aloha POS Order API
   slug: aloha-pos-order-api
-- description: Site (location) provisioning and lookup.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Site (location) provisioning and lookup.
   name: Aloha POS Site API
   slug: aloha-pos-site-api
 artifact_total: 32
@@ -269,7 +277,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/screenshots/aloha-pos-2026-06-20T171543.png
 security:

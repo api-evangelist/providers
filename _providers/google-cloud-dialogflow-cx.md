@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: The Agents API from Google Cloud Dialogflow CX — 2 operation(s) for agents.
+- baseURL: https://dialogflow.googleapis.com
+  baseurl_source: declared
+  description: The Agents API from Google Cloud Dialogflow CX — 2 operation(s) for agents.
   name: Google Cloud Dialogflow CX Agents API
   slug: google-cloud-dialogflow-cx-agents-api
-- description: The Flows API from Google Cloud Dialogflow CX — 1 operation(s) for flows.
+- baseURL: https://dialogflow.googleapis.com
+  baseurl_source: declared
+  description: The Flows API from Google Cloud Dialogflow CX — 1 operation(s) for flows.
   name: Google Cloud Dialogflow CX Flows API
   slug: google-cloud-dialogflow-cx-flows-api
-- description: The Intents API from Google Cloud Dialogflow CX — 1 operation(s) for intents.
+- baseURL: https://dialogflow.googleapis.com
+  baseurl_source: declared
+  description: The Intents API from Google Cloud Dialogflow CX — 1 operation(s) for intents.
   name: Google Cloud Dialogflow CX Intents API
   slug: google-cloud-dialogflow-cx-intents-api
-- description: The Sessions API from Google Cloud Dialogflow CX — 1 operation(s) for sessions.
+- baseURL: https://dialogflow.googleapis.com
+  baseurl_source: declared
+  description: The Sessions API from Google Cloud Dialogflow CX — 1 operation(s) for sessions.
   name: Google Cloud Dialogflow CX Sessions API
   slug: google-cloud-dialogflow-cx-sessions-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/screenshots/google-cloud-dialogflow-cx-2026-06-20T182105.png
 security:

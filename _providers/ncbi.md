@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -62,28 +62,44 @@ apis:
 - description: The PMC OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) service allows bulk harvesting of metadata for all items in the PMC archive and full-text content for articles with Creative
   name: PMC OAI-PMH Service
   slug: pmc-oai-pmh-service
-- description: '#### Options to download BioSample data. This BioSample service allows you to get BioSample data as a data report.'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download BioSample data. This BioSample service allows you to get BioSample data as a data report.'
   name: National Center for Biotechnology Information (NCBI) BioSample API
   slug: ncbi-biosample-api
-- description: '#### Options to download gene data, including the associated sequence and metadata. These gene services allow you to get gene metadata as a data report or download gene, transcript and protein sequenc'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download gene data, including the associated sequence and metadata. These gene services allow you to get gene metadata as a data report or download gene, transcript and protein sequenc'
   name: National Center for Biotechnology Information (NCBI) Gene API
   slug: ncbi-gene-api
-- description: '#### Options to download assembled genome data, including the associated sequence, annotation and metadata. These genome services allow you to get genome metadata as a data report or download genome, '
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download assembled genome data, including the associated sequence, annotation and metadata. These genome services allow you to get genome metadata as a data report or download genome, '
   name: National Center for Biotechnology Information (NCBI) Genome API
   slug: ncbi-genome-api
-- description: '#### Options to download RefSeq organelle genome data, including the associated sequence and metadata. These organelle services allow you to get RefSeq organelle genome metadata as a data report or do'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download RefSeq organelle genome data, including the associated sequence and metadata. These organelle services allow you to get RefSeq organelle genome metadata as a data report or do'
   name: National Center for Biotechnology Information (NCBI) Organelle API
   slug: ncbi-organelle-api
-- description: '#### Options to download prokaryote gene data, including the associated sequence and metadata. These gene services allow you to download gene and protein sequence, and metadata as a prokaryote gene da'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download prokaryote gene data, including the associated sequence and metadata. These gene services allow you to download gene and protein sequence, and metadata as a prokaryote gene da'
   name: National Center for Biotechnology Information (NCBI) Prokaryote API
   slug: ncbi-prokaryote-api
-- description: '#### Options to download taxonomy data. These taxonomy services allow you to get taxonomy data as a data report or download taxonomy data as a taxonomy data package, for taxonomic nodes in NCBI Taxono'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download taxonomy data. These taxonomy services allow you to get taxonomy data as a data report or download taxonomy data as a taxonomy data package, for taxonomic nodes in NCBI Taxono'
   name: National Center for Biotechnology Information (NCBI) Taxonomy API
   slug: ncbi-taxonomy-api
-- description: '#### Retrieve the current version of all NCBI Datasets services. NCBI Datasets services follow the [Semantic Versioning 2.0.0 Schema](https://semver.org/spec/v2.0.0.html).'
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Retrieve the current version of all NCBI Datasets services. NCBI Datasets services follow the [Semantic Versioning 2.0.0 Schema](https://semver.org/spec/v2.0.0.html).'
   name: National Center for Biotechnology Information (NCBI) Version API
   slug: ncbi-version-api
-- description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/
+  baseurl_source: declared
+  description: '#### Options to download virus genome data, including the associated sequence and metadata. These virus services allow you to get virus genome metadata as a data report or download genome and protein '
   name: National Center for Biotechnology Information (NCBI) Virus API
   slug: ncbi-virus-api
 artifact_total: 57
@@ -322,7 +338,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/screenshots/ncbi-2026-06-20T190109.png
 security:

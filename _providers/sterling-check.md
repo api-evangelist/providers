@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: OAuth2 token exchange using your Client ID and Client Secret.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: OAuth2 token exchange using your Client ID and Client Secret.
   name: Sterling Authentication API
   slug: sterling-check-authentication-api
-- description: Candidate (subject) records that screenings are run against.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Candidate (subject) records that screenings are run against.
   name: Sterling Candidates API
   slug: sterling-check-candidates-api
-- description: Candidate invitations to complete consent and data collection.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Candidate invitations to complete consent and data collection.
   name: Sterling Invites API
   slug: sterling-check-invites-api
-- description: Screening packages (groups of screening products) available to your account.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Screening packages (groups of screening products) available to your account.
   name: Sterling Packages API
   slug: sterling-check-packages-api
-- description: Results of completed screenings, with per-item statuses (PDF or HTML).
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Results of completed screenings, with per-item statuses (PDF or HTML).
   name: Sterling Reports API
   slug: sterling-check-reports-api
-- description: Screening orders and their lifecycle, including recurring/continuous screening.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Screening orders and their lifecycle, including recurring/continuous screening.
   name: Sterling Screenings API
   slug: sterling-check-screenings-api
-- description: Real-time screening status callbacks.
+- baseURL: https://api.sterlingcheck.app/v2
+  baseurl_source: declared
+  description: Real-time screening status callbacks.
   name: Sterling Webhooks API
   slug: sterling-check-webhooks-api
 artifact_total: 23
@@ -177,7 +191,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +214,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/screenshots/sterling-check-2026-09-02T160857.png
 security:
 - kind: authentication
   name: Sterling Check Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage conference room reservations including creating, retrieving, updating, and cancelling bookings.
+- baseURL: https://roomwizard.local/api
+  baseurl_source: declared
+  description: Manage conference room reservations including creating, retrieving, updating, and cancelling bookings.
   name: Steelcase Bookings API
   slug: steelcase-bookings-api
-- description: Retrieve room information including availability, capacity, and equipment details.
+- baseURL: https://roomwizard.local/api
+  baseurl_source: declared
+  description: Retrieve room information including availability, capacity, and equipment details.
   name: Steelcase Rooms API
   slug: steelcase-rooms-api
-- description: Monitor the connectivity and health status of RoomWizard devices and the connector service.
+- baseURL: https://roomwizard.local/api
+  baseurl_source: declared
+  description: Monitor the connectivity and health status of RoomWizard devices and the connector service.
   name: Steelcase Status API
   slug: steelcase-status-api
 artifact_total: 23
@@ -257,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

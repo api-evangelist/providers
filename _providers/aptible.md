@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -36,154 +47,254 @@ apis:
 - description: The Aptible authentication and identity service at auth.aptible.com. A HAL+JSON API exposing organizations, sessions, tokens, OAuth clients, users, U2F trusted facets and SSH key pre-authorizations, p
   name: Aptible Auth API
   slug: auth
-- description: The Accounts API from Aptible — 4 operation(s) for accounts.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Accounts API from Aptible — 4 operation(s) for accounts.
   name: Aptible Accounts API
   slug: aptible-accounts-api
-- description: The actions API from Aptible — 2 operation(s) for actions.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The actions API from Aptible — 2 operation(s) for actions.
   name: Aptible Actions API
   slug: aptible-actions-api
-- description: The ActivityReports API from Aptible — 3 operation(s) for activityreports.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The ActivityReports API from Aptible — 3 operation(s) for activityreports.
   name: Aptible Activity Reports API
   slug: aptible-activityreports-api
-- description: The Apps API from Aptible — 5 operation(s) for apps.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Apps API from Aptible — 5 operation(s) for apps.
   name: Aptible Apps API
   slug: aptible-apps-api
-- description: The assets API from Aptible — 2 operation(s) for assets.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The assets API from Aptible — 2 operation(s) for assets.
   name: Aptible Assets API
   slug: aptible-assets-api
-- description: The BackupRetentionPolicies API from Aptible — 2 operation(s) for backupretentionpolicies.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The BackupRetentionPolicies API from Aptible — 2 operation(s) for backupretentionpolicies.
   name: Aptible Backup Retention Policies API
   slug: aptible-backupretentionpolicies-api
-- description: The Backups API from Aptible — 5 operation(s) for backups.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Backups API from Aptible — 5 operation(s) for backups.
   name: Aptible Backups API
   slug: aptible-backups-api
-- description: The Certificates API from Aptible — 2 operation(s) for certificates.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Certificates API from Aptible — 2 operation(s) for certificates.
   name: Aptible Certificates API
   slug: aptible-certificates-api
-- description: The Claims API from Aptible — 3 operation(s) for claims.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Claims API from Aptible — 3 operation(s) for claims.
   name: Aptible Claims API
   slug: aptible-claims-api
-- description: The CodeScanResults API from Aptible — 2 operation(s) for codescanresults.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The CodeScanResults API from Aptible — 2 operation(s) for codescanresults.
   name: Aptible Code Scan Results API
   slug: aptible-codescanresults-api
-- description: The Configurations API from Aptible — 3 operation(s) for configurations.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Configurations API from Aptible — 3 operation(s) for configurations.
   name: Aptible Configurations API
   slug: aptible-configurations-api
-- description: The connections API from Aptible — 2 operation(s) for connections.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The connections API from Aptible — 2 operation(s) for connections.
   name: Aptible Connections API
   slug: aptible-connections-api
-- description: The Containers API from Aptible — 4 operation(s) for containers.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Containers API from Aptible — 4 operation(s) for containers.
   name: Aptible Containers API
   slug: aptible-containers-api
-- description: The DatabaseCredentials API from Aptible — 2 operation(s) for databasecredentials.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The DatabaseCredentials API from Aptible — 2 operation(s) for databasecredentials.
   name: Aptible Database Credentials API
   slug: aptible-databasecredentials-api
-- description: The Databases API from Aptible — 5 operation(s) for databases.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Databases API from Aptible — 5 operation(s) for databases.
   name: Aptible Databases API
   slug: aptible-databases-api
-- description: The Deployments API from Aptible — 3 operation(s) for deployments.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Deployments API from Aptible — 3 operation(s) for deployments.
   name: Aptible Deployments API
   slug: aptible-deployments-api
-- description: The DiskAttachments API from Aptible — 5 operation(s) for diskattachments.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The DiskAttachments API from Aptible — 5 operation(s) for diskattachments.
   name: Aptible Disk Attachments API
   slug: aptible-diskattachments-api
-- description: The Disks API from Aptible — 2 operation(s) for disks.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Disks API from Aptible — 2 operation(s) for disks.
   name: Aptible Disks API
   slug: aptible-disks-api
-- description: The environments API from Aptible — 5 operation(s) for environments.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The environments API from Aptible — 5 operation(s) for environments.
   name: Aptible Environments API
   slug: aptible-environments-api
-- description: The EphemeralContainers API from Aptible — 3 operation(s) for ephemeralcontainers.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The EphemeralContainers API from Aptible — 3 operation(s) for ephemeralcontainers.
   name: Aptible Ephemeral Containers API
   slug: aptible-ephemeralcontainers-api
-- description: The EphemeralSessions API from Aptible — 3 operation(s) for ephemeralsessions.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The EphemeralSessions API from Aptible — 3 operation(s) for ephemeralsessions.
   name: Aptible Ephemeral Sessions API
   slug: aptible-ephemeralsessions-api
-- description: The Images API from Aptible — 4 operation(s) for images.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Images API from Aptible — 4 operation(s) for images.
   name: Aptible Images API
   slug: aptible-images-api
-- description: The IntrusionDetectionReports API from Aptible — 4 operation(s) for intrusiondetectionreports.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The IntrusionDetectionReports API from Aptible — 4 operation(s) for intrusiondetectionreports.
   name: Aptible Intrusion Detection Reports API
   slug: aptible-intrusiondetectionreports-api
-- description: The LlmGatewayConfigurations API from Aptible — 2 operation(s) for llmgatewayconfigurations.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The LlmGatewayConfigurations API from Aptible — 2 operation(s) for llmgatewayconfigurations.
   name: Aptible Llm Gateway Configurations API
   slug: aptible-llmgatewayconfigurations-api
-- description: The LlmKeys API from Aptible — 5 operation(s) for llmkeys.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The LlmKeys API from Aptible — 5 operation(s) for llmkeys.
   name: Aptible Llm Keys API
   slug: aptible-llmkeys-api
-- description: The LlmPolicies API from Aptible — 5 operation(s) for llmpolicies.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The LlmPolicies API from Aptible — 5 operation(s) for llmpolicies.
   name: Aptible Llm Policies API
   slug: aptible-llmpolicies-api
-- description: The LogDrains API from Aptible — 2 operation(s) for logdrains.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The LogDrains API from Aptible — 2 operation(s) for logdrains.
   name: Aptible Log Drains API
   slug: aptible-logdrains-api
-- description: The Maintenances API from Aptible — 2 operation(s) for maintenances.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Maintenances API from Aptible — 2 operation(s) for maintenances.
   name: Aptible Maintenances API
   slug: aptible-maintenances-api
-- description: The MetricDrains API from Aptible — 2 operation(s) for metricdrains.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The MetricDrains API from Aptible — 2 operation(s) for metricdrains.
   name: Aptible Metric Drains API
   slug: aptible-metricdrains-api
-- description: The operations API from Aptible — 18 operation(s) for operations.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The operations API from Aptible — 18 operation(s) for operations.
   name: Aptible Operations API
   slug: aptible-operations-api
-- description: The organizations API from Aptible — 4 operation(s) for organizations.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The organizations API from Aptible — 4 operation(s) for organizations.
   name: Aptible Organizations API
   slug: aptible-organizations-api
-- description: The Permissions API from Aptible — 3 operation(s) for permissions.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Permissions API from Aptible — 3 operation(s) for permissions.
   name: Aptible Permissions API
   slug: aptible-permissions-api
-- description: The PersistentDisks API from Aptible — 2 operation(s) for persistentdisks.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The PersistentDisks API from Aptible — 2 operation(s) for persistentdisks.
   name: Aptible Persistent Disks API
   slug: aptible-persistentdisks-api
-- description: The Plans API from Aptible — 2 operation(s) for plans.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Plans API from Aptible — 2 operation(s) for plans.
   name: Aptible Plans API
   slug: aptible-plans-api
-- description: The Releases API from Aptible — 2 operation(s) for releases.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Releases API from Aptible — 2 operation(s) for releases.
   name: Aptible Releases API
   slug: aptible-releases-api
-- description: The Root API from Aptible — 1 operation(s) for root.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Root API from Aptible — 1 operation(s) for root.
   name: Aptible Root API
   slug: aptible-root-api
-- description: The Services API from Aptible — 3 operation(s) for services.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Services API from Aptible — 3 operation(s) for services.
   name: Aptible Services API
   slug: aptible-services-api
-- description: The ServiceSizingPolicies API from Aptible — 4 operation(s) for servicesizingpolicies.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The ServiceSizingPolicies API from Aptible — 4 operation(s) for servicesizingpolicies.
   name: Aptible Service Sizing Policies API
   slug: aptible-servicesizingpolicies-api
-- description: The Settings API from Aptible — 5 operation(s) for settings.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Settings API from Aptible — 5 operation(s) for settings.
   name: Aptible Settings API
   slug: aptible-settings-api
-- description: The Sources API from Aptible — 4 operation(s) for sources.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Sources API from Aptible — 4 operation(s) for sources.
   name: Aptible Sources API
   slug: aptible-sources-api
-- description: The SshPortalConnections API from Aptible — 2 operation(s) for sshportalconnections.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The SshPortalConnections API from Aptible — 2 operation(s) for sshportalconnections.
   name: Aptible Ssh Portal Connections API
   slug: aptible-sshportalconnections-api
-- description: The Stacks API from Aptible — 2 operation(s) for stacks.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Stacks API from Aptible — 2 operation(s) for stacks.
   name: Aptible Stacks API
   slug: aptible-stacks-api
-- description: The System API from Aptible — 1 operation(s) for system.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The System API from Aptible — 1 operation(s) for system.
   name: Aptible System API
   slug: aptible-system-api
-- description: The Tool API from Aptible — 1 operation(s) for tool.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Tool API from Aptible — 1 operation(s) for tool.
   name: Aptible Tool API
   slug: aptible-tool-api
-- description: The Tools API from Aptible — 1 operation(s) for tools.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Tools API from Aptible — 1 operation(s) for tools.
   name: Aptible Tools API
   slug: aptible-tools-api
-- description: The utilities API from Aptible — 2 operation(s) for utilities.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The utilities API from Aptible — 2 operation(s) for utilities.
   name: Aptible Utilities API
   slug: aptible-utilities-api
-- description: The Vhosts API from Aptible — 5 operation(s) for vhosts.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The Vhosts API from Aptible — 5 operation(s) for vhosts.
   name: Aptible Vhosts API
   slug: aptible-vhosts-api
-- description: The VpcPeers API from Aptible — 2 operation(s) for vpcpeers.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The VpcPeers API from Aptible — 2 operation(s) for vpcpeers.
   name: Aptible Vpc Peers API
   slug: aptible-vpcpeers-api
-- description: The VpnTunnels API from Aptible — 2 operation(s) for vpntunnels.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The VpnTunnels API from Aptible — 2 operation(s) for vpntunnels.
   name: Aptible Vpn Tunnels API
   slug: aptible-vpntunnels-api
-- description: The worker API from Aptible — 1 operation(s) for worker.
+- baseURL: https://api.aptible.com
+  baseurl_source: declared
+  description: The worker API from Aptible — 1 operation(s) for worker.
   name: Aptible Worker API
   slug: aptible-worker-api
 artifact_total: 108
@@ -529,20 +640,20 @@ overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 2
 score:
   band: developing
-  composite: 48.5
+  composite: 50.2
   coverage:
     artifact_dirs: 21
-    catalog_gap: 85.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.7
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 4.5
     contract_quality: 53.2
     developer_ergonomics: 68.5
-    discoverability: 63.0
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
   open_source:
@@ -560,7 +671,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

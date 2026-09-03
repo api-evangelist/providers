@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'OAI-PMH 2.0 harvesting interface for RePub, the Erasmus University Rotterdam institutional publication repository. Keyless and live: Identify, ListMetadataFormats, ListSets and ListIdentifiers all ret'
+- baseURL: https://repub.eur.nl/oai
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 harvesting interface for RePub, the Erasmus University Rotterdam institutional publication repository. Keyless and live: Identify, ListMetadataFormats, ListSets and ListIdentifiers all ret'
   name: RePub OAI-PMH Metadata Harvesting Interface
   slug: repub-oai
 - description: 'An EUR-operated Kong API gateway. It is unambiguously live and unambiguously closed: the root returns 401 application/json {"message":"Unauthorized"} with WWW-Authenticate: Basic realm="kong", HSTS ma'
@@ -289,18 +291,18 @@ rate_limits:
   slug: erasmus-university-rotterdam-rate-limits
 score:
   band: developing
-  composite: 47.3
+  composite: 46.8
   coverage:
     artifact_dirs: 11
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 59.8
+    contract_quality: 57.9
     developer_ergonomics: 21.4
     discoverability: 79.6
     governance: 18.2
@@ -320,7 +322,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png
 security:

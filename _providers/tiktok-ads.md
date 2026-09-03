@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 2
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 202 operations · 102 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account Management API from TikTok Marketing API — 8 operation(s) for account management.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Account Management API from TikTok Marketing API — 8 operation(s) for account management.
   name: TikTok Marketing API Account Management API
   slug: tiktok-ads-account-management-api
-- description: The Ad API from TikTok Marketing API — 8 operation(s) for ad.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Ad API from TikTok Marketing API — 8 operation(s) for ad.
   name: TikTok Marketing API Ad API
   slug: tiktok-ads-ad-api
-- description: The Adgroup API from TikTok Marketing API — 4 operation(s) for adgroup.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Adgroup API from TikTok Marketing API — 4 operation(s) for adgroup.
   name: TikTok Marketing API Adgroup API
   slug: tiktok-ads-adgroup-api
-- description: The Ads Management API from TikTok Marketing API — 1 operation(s) for ads management.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Ads Management API from TikTok Marketing API — 1 operation(s) for ads management.
   name: TikTok Marketing API Ads Management API
   slug: tiktok-ads-ads-management-api
-- description: The APP Management API from TikTok Marketing API — 6 operation(s) for app management.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The APP Management API from TikTok Marketing API — 6 operation(s) for app management.
   name: TikTok Marketing API APP Management API
   slug: tiktok-ads-app-management-api
-- description: The Audience API from TikTok Marketing API — 18 operation(s) for audience.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Audience API from TikTok Marketing API — 18 operation(s) for audience.
   name: TikTok Marketing API Audience API
   slug: tiktok-ads-audience-api
-- description: The Automated_Rules API from TikTok Marketing API — 7 operation(s) for automated_rules.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Automated_Rules API from TikTok Marketing API — 7 operation(s) for automated_rules.
   name: TikTok Marketing API Automated Rules API
   slug: tiktok-ads-automated-rules-api
-- description: The BC API from TikTok Marketing API — 36 operation(s) for bc.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The BC API from TikTok Marketing API — 36 operation(s) for bc.
   name: TikTok Marketing API BC API
   slug: tiktok-ads-bc-api
-- description: The Campaign Creation API from TikTok Marketing API — 15 operation(s) for campaign creation.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Campaign Creation API from TikTok Marketing API — 15 operation(s) for campaign creation.
   name: TikTok Marketing API Campaign Creation API
   slug: tiktok-ads-campaign-creation-api
-- description: The Catalog API from TikTok Marketing API — 27 operation(s) for catalog.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Catalog API from TikTok Marketing API — 27 operation(s) for catalog.
   name: TikTok Marketing API Catalog API
   slug: tiktok-ads-catalog-api
-- description: The Comments API from TikTok Marketing API — 14 operation(s) for comments.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Comments API from TikTok Marketing API — 14 operation(s) for comments.
   name: TikTok Marketing API Comments API
   slug: tiktok-ads-comments-api
-- description: The Creative Management API from TikTok Marketing API — 15 operation(s) for creative management.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Creative Management API from TikTok Marketing API — 15 operation(s) for creative management.
   name: TikTok Marketing API Creative Management API
   slug: tiktok-ads-creative-management-api
-- description: The Identity API from TikTok Marketing API — 1 operation(s) for identity.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Identity API from TikTok Marketing API — 1 operation(s) for identity.
   name: TikTok Marketing API Identity API
   slug: tiktok-ads-identity-api
-- description: The Measurement API from TikTok Marketing API — 11 operation(s) for measurement.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Measurement API from TikTok Marketing API — 11 operation(s) for measurement.
   name: TikTok Marketing API Measurement API
   slug: tiktok-ads-measurement-api
-- description: The Reporting API from TikTok Marketing API — 7 operation(s) for reporting.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Reporting API from TikTok Marketing API — 7 operation(s) for reporting.
   name: TikTok Marketing API Reporting API
   slug: tiktok-ads-reporting-api
-- description: The Store API from TikTok Marketing API — 4 operation(s) for store.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Store API from TikTok Marketing API — 4 operation(s) for store.
   name: TikTok Marketing API Store API
   slug: tiktok-ads-store-api
-- description: The Tool API from TikTok Marketing API — 19 operation(s) for tool.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Tool API from TikTok Marketing API — 19 operation(s) for tool.
   name: TikTok Marketing API Tool API
   slug: tiktok-ads-tool-api
-- description: The Video API from TikTok Marketing API — 1 operation(s) for video.
+- baseURL: https://business-api.tiktok.com/open_api
+  baseurl_source: declared
+  description: The Video API from TikTok Marketing API — 1 operation(s) for video.
   name: TikTok Marketing API Video API
   slug: tiktok-ads-video-api
 artifact_total: 29
@@ -336,7 +372,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -346,7 +382,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 55.4
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -358,7 +394,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/screenshots/tiktok-ads-2026-06-20T195404.png
 security:

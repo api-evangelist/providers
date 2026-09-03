@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
@@ -48,13 +48,19 @@ apis:
 - description: The gRPC Server Reflection Protocol allows gRPC servers to declare the protobuf-defined APIs they export over a standardized RPC service, including all types referenced by request and response message
   name: gRPC Server Reflection
   slug: grpc-server-reflection
-- description: Channelz service for runtime introspection of gRPC channels, subchannels, servers, and sockets.
+- baseURL: https://localhost:8080
+  baseurl_source: spec
+  description: Channelz service for runtime introspection of gRPC channels, subchannels, servers, and sockets.
   name: gRPC Channelz API
   slug: grpc-channelz-api
-- description: gRPC Health Checking Protocol endpoints for monitoring service availability and readiness.
+- baseURL: https://localhost:8080
+  baseurl_source: spec
+  description: gRPC Health Checking Protocol endpoints for monitoring service availability and readiness.
   name: gRPC Health Checking API
   slug: grpc-health-checking-api
-- description: Server Reflection service for runtime discovery of available gRPC services and their definitions.
+- baseURL: https://localhost:8080
+  baseurl_source: spec
+  description: Server Reflection service for runtime discovery of available gRPC services and their definitions.
   name: gRPC Reflection API
   slug: grpc-reflection-api
 artifact_total: 16
@@ -216,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
 security:

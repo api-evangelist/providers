@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
@@ -172,7 +185,7 @@ score:
   band: developing
   composite: 44.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -192,8 +205,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/landbase/refs/heads/main/screenshots/landbase-2026-09-02T150332.png
 security:
 - kind: authentication
   name: Landbase Authentication

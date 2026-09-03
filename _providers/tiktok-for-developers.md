@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 18 operations · 17 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: OAuth 2.0 authorization and token management
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management
   name: TikTok for Developers OAuth API
   slug: tiktok-for-developers-oauth-api
-- description: Video publishing operations
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video publishing operations
   name: TikTok for Developers Post API
   slug: tiktok-for-developers-post-api
-- description: Comment data operations
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Comment data operations
   name: TikTok for Developers Research Comments API
   slug: tiktok-for-developers-research-comments-api
-- description: Social graph data
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Social graph data
   name: TikTok for Developers Research Social API
   slug: tiktok-for-developers-research-social-api
-- description: User information for research
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: User information for research
   name: TikTok for Developers Research Users API
   slug: tiktok-for-developers-research-users-api
-- description: Video search and query operations
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video search and query operations
   name: TikTok for Developers Research Videos API
   slug: tiktok-for-developers-research-videos-api
-- description: User profile information
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: User profile information
   name: TikTok for Developers User API
   slug: tiktok-for-developers-user-api
-- description: Video metadata and management
+- baseURL: https://open.tiktokapis.com
+  baseurl_source: declared
+  description: Video metadata and management
   name: TikTok for Developers Video API
   slug: tiktok-for-developers-video-api
 arazzos:
@@ -393,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok-for-developers/refs/heads/main/screenshots/tiktok-for-developers-2026-06-20T195354.png
 security:

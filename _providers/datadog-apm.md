@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Service Definitions API from Datadog APM — 2 operation(s) for service definitions.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: spec
+  description: The Service Definitions API from Datadog APM — 2 operation(s) for service definitions.
   name: Datadog APM Service Definitions API
   slug: datadog-apm-service-definitions-api
-- description: The Services API from Datadog APM — 1 operation(s) for services.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: spec
+  description: The Services API from Datadog APM — 1 operation(s) for services.
   name: Datadog APM Services API
   slug: datadog-apm-services-api
-- description: The SLOs API from Datadog APM — 3 operation(s) for slos.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: spec
+  description: The SLOs API from Datadog APM — 3 operation(s) for slos.
   name: Datadog APM SL Os API
   slug: datadog-apm-slos-api
-- description: The Spans API from Datadog APM — 2 operation(s) for spans.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: spec
+  description: The Spans API from Datadog APM — 2 operation(s) for spans.
   name: Datadog APM Spans API
   slug: datadog-apm-spans-api
-- description: The Traces API from Datadog APM — 1 operation(s) for traces.
+- baseURL: https://api.datadoghq.com
+  baseurl_source: spec
+  description: The Traces API from Datadog APM — 1 operation(s) for traces.
   name: Datadog APM Traces API
   slug: datadog-apm-traces-api
 artifact_total: 20
@@ -209,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog-apm/refs/heads/main/screenshots/datadog-apm-2026-06-20T175636.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 404
   human_in_the_loop: 8
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 586 operations · 404 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Admin API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: 'Admin API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Admin API
   slug: alphaus-admin-api
-- description: '(BETA) Billing API. Base URL: https://api.alphaus.cloud/m/blue/billing'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Billing API. Base URL: https://api.alphaus.cloud/m/blue/billing'
   name: Alphaus Billing API
   slug: alphaus-billing-api
-- description: 'Cost API. Base URL: https://api.alphaus.cloud/m/blue/cost'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: 'Cost API. Base URL: https://api.alphaus.cloud/m/blue/cost'
   name: Alphaus Cost API
   slug: alphaus-cost-api
-- description: '(BETA) Cover API. Base URL: https://api.alphaus.cloud/m/blue/cover'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Cover API. Base URL: https://api.alphaus.cloud/m/blue/cover'
   name: Alphaus Cover API
   slug: alphaus-cover-api
-- description: '(ALPHA) Flag API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(ALPHA) Flag API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Flags API
   slug: alphaus-flags-api
-- description: '(ALPHA) Flow API. Base URL: https://api.alphaus.cloud/m/blue/flow'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(ALPHA) Flow API. Base URL: https://api.alphaus.cloud/m/blue/flow'
   name: Alphaus Flow API
   slug: alphaus-flow-api
-- description: '(Alpha) GuaranteedCommitments API. Base URL: https://api.alphaus.cloud/m/blue/gc'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(Alpha) GuaranteedCommitments API. Base URL: https://api.alphaus.cloud/m/blue/gc'
   name: Alphaus GuaranteedCommitments API
   slug: alphaus-guaranteedcommitments-api
-- description: '(BETA) IAM API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) IAM API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Iam API
   slug: alphaus-iam-api
-- description: '(ALPHA) Luster API. Base URL: https://api.alphaus.cloud/m/blue/luster'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(ALPHA) Luster API. Base URL: https://api.alphaus.cloud/m/blue/luster'
   name: Alphaus Luster API
   slug: alphaus-luster-api
-- description: '(BETA) Long operations API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Long operations API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Operations API
   slug: alphaus-operations-api
-- description: '(BETA) Organization API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Organization API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Organization API
   slug: alphaus-organization-api
-- description: '(BETA) Preferences API. Base URL: https://api.alphaus.cloud/m/blue'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Preferences API. Base URL: https://api.alphaus.cloud/m/blue'
   name: Alphaus Preferences API
   slug: alphaus-preferences-api
-- description: '(BETA) Pricing API. Base URL: https://api.alphaus.cloud/m/blue/pricing'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(BETA) Pricing API. Base URL: https://api.alphaus.cloud/m/blue/pricing'
   name: Alphaus Pricing API
   slug: alphaus-pricing-api
-- description: '(Alpha) Prism API. Base URL: https://api.alphaus.cloud/m/blue/prism'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(Alpha) Prism API. Base URL: https://api.alphaus.cloud/m/blue/prism'
   name: Alphaus Prism API
   slug: alphaus-prism-api
-- description: '(Alpha) Vortex API. Base URL: https://api.alphaus.cloud/m/blue/vortex'
+- baseURL: https://api.alphaus.cloud/m/blue
+  baseurl_source: declared
+  description: '(Alpha) Vortex API. Base URL: https://api.alphaus.cloud/m/blue/vortex'
   name: Alphaus Vortex API
   slug: alphaus-vortex-api
 artifact_total: 36
@@ -303,7 +333,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaus/refs/heads/main/screenshots/alphaus-2026-07-25T195758.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST threat-intelligence API from the QAX Threat Intelligence Center. Provides IP reputation, domain and URL reputation, file/hash verdicts, compromise (失陷) detection intelligence and vulnerability in
@@ -156,7 +169,7 @@ score:
   band: emerging
   composite: 18.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -175,8 +188,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qi-anxin/refs/heads/main/screenshots/qi-anxin-2026-09-02T152639.png
 security:
 - kind: authentication
   name: Qi Anxin Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 64 operations · 32 acting
 api_count: 1
 apis:
-- description: Manage bars (features/items) within roadmaps
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Manage bars (features/items) within roadmaps
   name: ProductPlan Bars API
   slug: productplan-bars-api
-- description: Manage ideas, opportunities, customers, and idea forms
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Manage ideas, opportunities, customers, and idea forms
   name: ProductPlan Discovery API
   slug: productplan-discovery-api
-- description: Manage launches, checklist sections, and tasks
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Manage launches, checklist sections, and tasks
   name: ProductPlan Launches API
   slug: productplan-launches-api
-- description: Manage roadmaps, lanes, milestones, bars, and comments
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Manage roadmaps, lanes, milestones, bars, and comments
   name: ProductPlan Roadmaps API
   slug: productplan-roadmaps-api
-- description: Application status
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Application status
   name: ProductPlan Status API
   slug: productplan-status-api
-- description: Manage OKR objectives and key results
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: Manage OKR objectives and key results
   name: ProductPlan Strategy API
   slug: productplan-strategy-api
-- description: List teams
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: List teams
   name: ProductPlan Teams API
   slug: productplan-teams-api
-- description: List account users
+- baseURL: https://app.productplan.com
+  baseurl_source: declared
+  description: List account users
   name: ProductPlan Users API
   slug: productplan-users-api
 artifact_total: 39
@@ -271,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productplan/refs/heads/main/screenshots/productplan-2026-06-20T192137.png
 security:

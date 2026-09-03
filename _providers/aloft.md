@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -43,112 +43,184 @@ agentic_access:
   summary_line: 180 operations · 99 acting
 api_count: 1
 apis:
-- description: Accounts
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Accounts
   name: Aloft Accounts API
   slug: aloft-accounts-api
-- description: Activity
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Activity
   name: Aloft Activity API
   slug: aloft-activity-api
-- description: Aircraft
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Aircraft
   name: Aloft Aircraft API
   slug: aloft-aircraft-api
-- description: AirMesh
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: AirMesh
   name: Aloft AirMesh API
   slug: aloft-airmesh-api
-- description: Airspace
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Airspace
   name: Aloft Airspace API
   slug: aloft-airspace-api
-- description: Alert Recipients
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Alert Recipients
   name: Aloft Alert Recipients API
   slug: aloft-alert-recipients-api
-- description: Alerts
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Alerts
   name: Aloft Alerts API
   slug: aloft-alerts-api
-- description: Application Notices
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Application Notices
   name: Aloft Application Notices API
   slug: aloft-application-notices-api
-- description: Auth
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Auth
   name: Aloft Auth API
   slug: aloft-auth-api
-- description: Auto Tags
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Auto Tags
   name: Aloft Auto Tags API
   slug: aloft-auto-tags-api
-- description: Batteries
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Batteries
   name: Aloft Batteries API
   slug: aloft-batteries-api
-- description: Certification Renewal
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Certification Renewal
   name: Aloft Certification Renewal API
   slug: aloft-certification-renewal-api
-- description: Certifications
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Certifications
   name: Aloft Certifications API
   slug: aloft-certifications-api
-- description: Checklist Executions
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Checklist Executions
   name: Aloft Checklist Executions API
   slug: aloft-checklist-executions-api
-- description: Checklists
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Checklists
   name: Aloft Checklists API
   slug: aloft-checklists-api
-- description: Components
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Components
   name: Aloft Components API
   slug: aloft-components-api
-- description: Connections
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Connections
   name: Aloft Connections API
   slug: aloft-connections-api
-- description: Files
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Files
   name: Aloft Files API
   slug: aloft-files-api
-- description: Files by Resource
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Files by Resource
   name: Aloft Files by Resource API
   slug: aloft-files-by-resource-api
-- description: Flight Logs
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Flight Logs
   name: Aloft Flight Logs API
   slug: aloft-flight-logs-api
-- description: Flight Sessions
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Flight Sessions
   name: Aloft Flight Sessions API
   slug: aloft-flight-sessions-api
-- description: Flights
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Flights
   name: Aloft Flights API
   slug: aloft-flights-api
-- description: Incidents
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Incidents
   name: Aloft Incidents API
   slug: aloft-incidents-api
-- description: Maintenance
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Maintenance
   name: Aloft Maintenance API
   slug: aloft-maintenance-api
-- description: Maintenance Recommendations
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Maintenance Recommendations
   name: Aloft Maintenance Recommendations API
   slug: aloft-maintenance-recommendations-api
-- description: Maintenance Schedules (Beta)
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Maintenance Schedules (Beta)
   name: Aloft Maintenance Schedules (Beta) API
   slug: aloft-maintenance-schedules-beta-api
-- description: Missions
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Missions
   name: Aloft Missions API
   slug: aloft-missions-api
-- description: Notify & Fly
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Notify & Fly
   name: Aloft Notify & Fly API
   slug: aloft-notify-fly-api
-- description: Risk Assessment Executions
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Risk Assessment Executions
   name: Aloft Risk Assessment Executions API
   slug: aloft-risk-assessment-executions-api
-- description: Risk Assessments
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Risk Assessments
   name: Aloft Risk Assessments API
   slug: aloft-risk-assessments-api
-- description: Tag Associations
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Tag Associations
   name: Aloft Tag Associations API
   slug: aloft-tag-associations-api
-- description: Tag Groups
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Tag Groups
   name: Aloft Tag Groups API
   slug: aloft-tag-groups-api
-- description: Tags
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Tags
   name: Aloft Tags API
   slug: aloft-tags-api
-- description: Users
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Users
   name: Aloft Users API
   slug: aloft-users-api
-- description: VideoStreaming
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: VideoStreaming
   name: Aloft VideoStreaming API
   slug: aloft-videostreaming-api
-- description: Workflows
+- baseURL: https://api.aloft.ai
+  baseurl_source: declared
+  description: Workflows
   name: Aloft Workflows API
   slug: aloft-workflows-api
 artifact_total: 79
@@ -420,7 +492,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/screenshots/aloft-2026-07-25T195743.png
 security:

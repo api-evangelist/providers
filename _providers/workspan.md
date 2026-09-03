@@ -33,85 +33,137 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: The Actions API from WorkSpan — 2 operation(s) for actions.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Actions API from WorkSpan — 2 operation(s) for actions.
   name: WorkSpan Actions API
   slug: workspan-actions-api
-- description: The Audit API from WorkSpan — 1 operation(s) for audit.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Audit API from WorkSpan — 1 operation(s) for audit.
   name: WorkSpan Audit API
   slug: workspan-audit-api
-- description: The Authorize API from WorkSpan — 1 operation(s) for authorize.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Authorize API from WorkSpan — 1 operation(s) for authorize.
   name: WorkSpan Authorize API
   slug: workspan-authorize-api
-- description: The Bulkload API from WorkSpan — 2 operation(s) for bulkload.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Bulkload API from WorkSpan — 2 operation(s) for bulkload.
   name: WorkSpan Bulkload API
   slug: workspan-bulkload-api
-- description: The Bulkload Opportunity API from WorkSpan — 1 operation(s) for bulkload opportunity.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Bulkload Opportunity API from WorkSpan — 1 operation(s) for bulkload opportunity.
   name: WorkSpan Bulkload Opportunity API
   slug: workspan-bulkload-opportunity-api
-- description: The Chart Data API from WorkSpan — 1 operation(s) for chart data.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Chart Data API from WorkSpan — 1 operation(s) for chart data.
   name: WorkSpan Chart Data API
   slug: workspan-chart-data-api
-- description: The Chart Metadata API from WorkSpan — 1 operation(s) for chart metadata.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Chart Metadata API from WorkSpan — 1 operation(s) for chart metadata.
   name: WorkSpan Chart Metadata API
   slug: workspan-chart-metadata-api
-- description: The Check Attribute API from WorkSpan — 1 operation(s) for check attribute.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Check Attribute API from WorkSpan — 1 operation(s) for check attribute.
   name: WorkSpan Check Attribute API
   slug: workspan-check-attribute-api
-- description: The Cosell API from WorkSpan — 5 operation(s) for cosell.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Cosell API from WorkSpan — 5 operation(s) for cosell.
   name: WorkSpan Cosell API
   slug: workspan-cosell-api
-- description: The Crm Inbound API from WorkSpan — 1 operation(s) for crm inbound.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Crm Inbound API from WorkSpan — 1 operation(s) for crm inbound.
   name: WorkSpan Crm Inbound API
   slug: workspan-crm-inbound-api
-- description: The Crm Inbound V2 API from WorkSpan — 1 operation(s) for crm inbound v2.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Crm Inbound V2 API from WorkSpan — 1 operation(s) for crm inbound v2.
   name: WorkSpan Crm Inbound V2 API
   slug: workspan-crm-inbound-v2-api
-- description: The Data API from WorkSpan — 1 operation(s) for data.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Data API from WorkSpan — 1 operation(s) for data.
   name: WorkSpan Data API
   slug: workspan-data-api
-- description: The Data Schema API from WorkSpan — 1 operation(s) for data schema.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Data Schema API from WorkSpan — 1 operation(s) for data schema.
   name: WorkSpan Data Schema API
   slug: workspan-data-schema-api
-- description: The Export Report API from WorkSpan — 1 operation(s) for export report.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Export Report API from WorkSpan — 1 operation(s) for export report.
   name: WorkSpan Export Report API
   slug: workspan-export-report-api
-- description: The External Id API from WorkSpan — 1 operation(s) for external id.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The External Id API from WorkSpan — 1 operation(s) for external id.
   name: WorkSpan External Id API
   slug: workspan-external-id-api
-- description: The List API from WorkSpan — 1 operation(s) for list.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The List API from WorkSpan — 1 operation(s) for list.
   name: WorkSpan List API
   slug: workspan-list-api
-- description: The Lists API from WorkSpan — 1 operation(s) for lists.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Lists API from WorkSpan — 1 operation(s) for lists.
   name: WorkSpan Lists API
   slug: workspan-lists-api
-- description: The Metadata API from WorkSpan — 6 operation(s) for metadata.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Metadata API from WorkSpan — 6 operation(s) for metadata.
   name: WorkSpan Metadata API
   slug: workspan-metadata-api
-- description: The Status API from WorkSpan — 1 operation(s) for status.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Status API from WorkSpan — 1 operation(s) for status.
   name: WorkSpan Status API
   slug: workspan-status-api
-- description: The Subscriber API from WorkSpan — 2 operation(s) for subscriber.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Subscriber API from WorkSpan — 2 operation(s) for subscriber.
   name: WorkSpan Subscriber API
   slug: workspan-subscriber-api
-- description: The Token API from WorkSpan — 1 operation(s) for token.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Token API from WorkSpan — 1 operation(s) for token.
   name: WorkSpan Token API
   slug: workspan-token-api
-- description: The Upload Partner Account API from WorkSpan — 1 operation(s) for upload partner account.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Upload Partner Account API from WorkSpan — 1 operation(s) for upload partner account.
   name: WorkSpan Upload Partner Account API
   slug: workspan-upload-partner-account-api
-- description: The Usage API from WorkSpan — 1 operation(s) for usage.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Usage API from WorkSpan — 1 operation(s) for usage.
   name: WorkSpan Usage API
   slug: workspan-usage-api
-- description: The Usage Upload API from WorkSpan — 1 operation(s) for usage upload.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Usage Upload API from WorkSpan — 1 operation(s) for usage upload.
   name: WorkSpan Usage Upload API
   slug: workspan-usage-upload-api
-- description: The Users API from WorkSpan — 2 operation(s) for users.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The Users API from WorkSpan — 2 operation(s) for users.
   name: WorkSpan Users API
   slug: workspan-users-api
-- description: The View API from WorkSpan — 4 operation(s) for view.
+- baseURL: https://api-sandbox.workspan.com/oauth
+  baseurl_source: declared
+  description: The View API from WorkSpan — 4 operation(s) for view.
   name: WorkSpan View API
   slug: workspan-view-api
 artifact_total: 58
@@ -346,7 +398,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -356,7 +408,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 49.1
+  previous_composite: 49.0
   provenance:
     conformance: derived
     contracts:
@@ -367,7 +419,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:

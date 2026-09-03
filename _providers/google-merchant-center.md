@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: The Accounts API from Google Merchant Center — 1 operation(s) for accounts.
+- baseURL: https://merchantapi.googleapis.com
+  baseurl_source: declared
+  description: The Accounts API from Google Merchant Center — 1 operation(s) for accounts.
   name: Google Merchant Center Accounts API
   slug: google-merchant-center-accounts-api
-- description: The Inventories API from Google Merchant Center — 1 operation(s) for inventories.
+- baseURL: https://merchantapi.googleapis.com
+  baseurl_source: declared
+  description: The Inventories API from Google Merchant Center — 1 operation(s) for inventories.
   name: Google Merchant Center Inventories API
   slug: google-merchant-center-inventories-api
-- description: The Products API from Google Merchant Center — 2 operation(s) for products.
+- baseURL: https://merchantapi.googleapis.com
+  baseurl_source: declared
+  description: The Products API from Google Merchant Center — 2 operation(s) for products.
   name: Google Merchant Center Products API
   slug: google-merchant-center-products-api
-- description: The Promotions API from Google Merchant Center — 1 operation(s) for promotions.
+- baseURL: https://merchantapi.googleapis.com
+  baseurl_source: declared
+  description: The Promotions API from Google Merchant Center — 1 operation(s) for promotions.
   name: Google Merchant Center Promotions API
   slug: google-merchant-center-promotions-api
-- description: The Reports API from Google Merchant Center — 1 operation(s) for reports.
+- baseURL: https://merchantapi.googleapis.com
+  baseurl_source: declared
+  description: The Reports API from Google Merchant Center — 1 operation(s) for reports.
   name: Google Merchant Center Reports API
   slug: google-merchant-center-reports-api
 artifact_total: 27
@@ -254,7 +264,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/screenshots/google-merchant-center-2026-06-20T182216.png
 security:

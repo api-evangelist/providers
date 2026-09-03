@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The docs API from Soda Health — 10 operation(s) for docs.
+- baseURL: https://docs.evermoreoutcomes.com
+  baseurl_source: declared
+  description: The docs API from Soda Health — 10 operation(s) for docs.
   name: Soda Health docs API
   slug: soda-health-docs-api
-- description: The docs-auth API from Soda Health — 2 operation(s) for docs-auth.
+- baseURL: https://docs.evermoreoutcomes.com
+  baseurl_source: declared
+  description: The docs-auth API from Soda Health — 2 operation(s) for docs-auth.
   name: Soda Health docs-auth API
   slug: soda-health-docs-auth-api
-- description: The Evermore Docs Portal API from Soda Health — 1 operation(s) for evermore docs portal.
+- baseURL: https://docs.evermoreoutcomes.com
+  baseurl_source: declared
+  description: The Evermore Docs Portal API from Soda Health — 1 operation(s) for evermore docs portal.
   name: Soda Health Evermore Docs Portal API
   slug: soda-health-evermore-docs-portal-api
-- description: The health API from Soda Health — 3 operation(s) for health.
+- baseURL: https://docs.evermoreoutcomes.com
+  baseurl_source: declared
+  description: The health API from Soda Health — 3 operation(s) for health.
   name: Soda Health health API
   slug: soda-health-health-api
 artifact_total: 12
@@ -147,7 +155,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -178,8 +186,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/soda-health/refs/heads/main/screenshots/soda-health-2026-09-02T160055.png
 security:
 - kind: authentication
   name: Soda Health Authentication

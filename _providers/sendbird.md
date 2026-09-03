@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: The Sendbird AI Chatbot API enables building and deploying AI-powered chatbots within chat applications, supporting automated customer support and conversational AI experiences.
   name: Sendbird AI Chatbot API
   slug: sendbird-ai-chatbot-api
-- description: Operations for managing group and open channels.
+- baseURL: https://api-{application_id}.sendbird.com/v3
+  baseurl_source: declared
+  description: Operations for managing group and open channels.
   name: Sendbird Channels API
   slug: sendbird-channels-api
-- description: Operations for sending and managing messages.
+- baseURL: https://api-{application_id}.sendbird.com/v3
+  baseurl_source: declared
+  description: Operations for sending and managing messages.
   name: Sendbird Messages API
   slug: sendbird-messages-api
-- description: Operations for content moderation and user management.
+- baseURL: https://api-{application_id}.sendbird.com/v3
+  baseurl_source: declared
+  description: Operations for content moderation and user management.
   name: Sendbird Moderation API
   slug: sendbird-moderation-api
-- description: Operations for managing Sendbird users.
+- baseURL: https://api-{application_id}.sendbird.com/v3
+  baseurl_source: declared
+  description: Operations for managing Sendbird users.
   name: Sendbird Users API
   slug: sendbird-users-api
 arazzos:
@@ -435,7 +443,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -445,7 +453,7 @@ score:
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -457,10 +465,10 @@ score:
     mcp: derived
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:

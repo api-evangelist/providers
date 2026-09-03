@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -75,7 +75,9 @@ apis:
 - description: Shared authorization and consent model across CAMARA APIs, built on OAuth 2.0 / OpenID Connect Client-Initiated Backchannel Authentication (CIBA) so subscribers explicitly consent to application use o
   name: CAMARA Identity and Consent Management API
   slug: identity-and-consent-management-api
-- description: The Sessions API from CAMARA — 4 operation(s) for sessions.
+- baseURL: https://api.example.com/quality-on-demand/v0
+  baseurl_source: declared
+  description: The Sessions API from CAMARA — 4 operation(s) for sessions.
   name: CAMARA Sessions API
   slug: camara-sessions-api
 artifact_total: 22
@@ -244,7 +246,7 @@ score:
     regime_id: telecommunications
     score: 47.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara/refs/heads/main/screenshots/camara-2026-06-20T173901.png
 security:

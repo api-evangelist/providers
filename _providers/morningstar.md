@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: On-demand access to Morningstar's financial market data over HTTP in XML and JSON - real-time, delayed, and end-of-day pricing, price and quote, time and sales, price history, OHLCV, corporate actions
   name: Morningstar Market Data Web Services API
   slug: morningstar-market-data-web-services-api
-- description: OAuth 2.0 token issuance for all Morningstar APIs - POST /token/oauth with Basic credentials returns a bearer token valid for 60 minutes, usable against the regional Americas, EMEA, and APAC API bases
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance for all Morningstar APIs - POST /token/oauth with Basic credentials returns a bearer token valid for 60 minutes, usable against the regional Americas, EMEA, and APAC API bases
   name: Morningstar Authentication API
   slug: morningstar-authentication-api
-- description: Direct Web Services time series data - historical prices, cumulative return, growth, dividend, and other calculated series for securities and managed investments, offered in synchronous and asynchrono
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Direct Web Services time series data - historical prices, cumulative return, growth, dividend, and other calculated series for securities and managed investments, offered in synchronous and asynchrono
   name: Morningstar Time Series API
   slug: morningstar-time-series-api
-- description: Screen global equities and managed investments (funds, ETFs) against Morningstar data points, ratings, and classifications, returning display-ready result sets for advisor and investor applications.
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Screen global equities and managed investments (funds, ETFs) against Morningstar data points, ratings, and classifications, returning display-ready result sets for advisor and investor applications.
   name: Morningstar Screener APIs
   slug: morningstar-screener-api
-- description: 'Deep security-level data for equities and managed investments - profiles, ratings, performance, holdings, fees, and hundreds of Morningstar data points - in synchronous and asynchronous variants with '
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: 'Deep security-level data for equities and managed investments - profiles, ratings, performance, holdings, fees, and hundreds of Morningstar data points - in synchronous and asynchronous variants with '
   name: Morningstar Investment Details APIs
   slug: morningstar-investment-details-api
-- description: Retrieve curated and client-defined investment lists with associated Morningstar data points for rendering list-driven experiences.
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Retrieve curated and client-defined investment lists with associated Morningstar data points for rendering list-driven experiences.
   name: Morningstar Investment List API
   slug: morningstar-investment-list-api
-- description: 'Portfolio calculation engines as APIs - X-Ray decomposition, performance, hypothetical performance, optimizer, and the Morningstar Portfolio Risk Score - across Direct Web Services and the US Dynamic '
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: 'Portfolio calculation engines as APIs - X-Ray decomposition, performance, hypothetical performance, optimizer, and the Morningstar Portfolio Risk Score - across Direct Web Services and the US Dynamic '
   name: Morningstar Portfolio Analysis APIs
   slug: morningstar-portfolio-analysis-api
-- description: Asynchronous generative summaries and insights over Morningstar data and research, available in Americas and APAC/EMEA regions.
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Asynchronous generative summaries and insights over Morningstar data and research, available in Americas and APAC/EMEA regions.
   name: Morningstar AI Insights API
   slug: morningstar-ai-insights-api
-- description: Stress-test portfolios against historical and hypothetical market scenarios using Morningstar risk engines.
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Stress-test portfolios against historical and hypothetical market scenarios using Morningstar risk engines.
   name: Morningstar Scenario Analysis API
   slug: morningstar-scenario-analysis-api
-- description: Investor risk-tolerance profiling built on the FinaMetrica psychometric methodology, returning risk scores and profiles for suitability workflows.
+- baseURL: https://www.us-api.morningstar.com/risk-profiler
+  baseurl_source: declared
+  description: Investor risk-tolerance profiling built on the FinaMetrica psychometric methodology, returning risk scores and profiles for suitability workflows.
   name: Morningstar Risk Profiler API
   slug: morningstar-risk-profiler-api
-- description: Utility API for resolving the investment universes and identifiers available to an account across Direct Web Services.
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: Utility API for resolving the investment universes and identifiers available to an account across Direct Web Services.
   name: Morningstar Universe API
   slug: morningstar-universe-api
-- description: US financial-planning building blocks from the Dynamic Services APIs family - households, household members, portfolios, retirement plan lookup and benchmark fees, statement OCR, and report retrieval/
+- baseURL: https://www.us-api.morningstar.com
+  baseurl_source: declared
+  description: US financial-planning building blocks from the Dynamic Services APIs family - households, household members, portfolios, retirement plan lookup and benchmark fees, statement OCR, and report retrieval/
   name: Morningstar Financial Planning APIs
   slug: morningstar-financial-planning-apis
-- description: Dynamic Services investment-analysis endpoints - securities data (US and global ecint), screening, autocomplete, editorial research, Investor Pulse, risk analytics, risk models, and enterprise-compone
+- baseURL: https://www.us-api.morningstar.com/ec/v1
+  baseurl_source: declared
+  description: Dynamic Services investment-analysis endpoints - securities data (US and global ecint), screening, autocomplete, editorial research, Investor Pulse, risk analytics, risk models, and enterprise-compone
   name: Morningstar Investment Analysis APIs
   slug: morningstar-investment-analysis-apis
-- description: REST account-aggregation API from Morningstar's ByAllAccounts business, aggregating held-away investment account data for wealth platforms, also reachable through the us-api.morningstar.com aggapi gat
+- baseURL: https://www.byallaccounts.net/api/v1
+  baseurl_source: declared
+  description: REST account-aggregation API from Morningstar's ByAllAccounts business, aggregating held-away investment account data for wealth platforms, also reachable through the us-api.morningstar.com aggapi gat
   name: Morningstar ByAllAccounts API
   slug: morningstar-byallaccounts-api
 - description: APIs backing Morningstar's embeddable enterprise components - editorial and news search, security details and comparison, investment screener and find-similar, time series (price, dividend, growth, cu
@@ -95,7 +121,9 @@ apis:
 - description: On-demand Level 1 market data snapshots over HTTPS with OAuth 2.0, documented publicly through Morningstar's official .NET snapshot client library; endpoints are account-specific and provided during o
   name: Morningstar Snapshot API
   slug: morningstar-snapshot-api
-- description: Morningstar's AI integration surface - the Morningstar Agent API at agents.morningstar.com plus an MCP server exposing datapoint lookup and editorial research tools to AI agents, with a published agen
+- baseURL: https://agents.morningstar.com
+  baseurl_source: declared
+  description: Morningstar's AI integration surface - the Morningstar Agent API at agents.morningstar.com plus an MCP server exposing datapoint lookup and editorial research tools to AI agents, with a published agen
   name: Morningstar Agent API
   slug: morningstar-agent-api
 artifact_total: 142
@@ -665,7 +693,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:

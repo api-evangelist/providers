@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Bookings API from GetYourGuide — 2 operation(s) for bookings.
   name: GetYourGuide Bookings API
   slug: getyourguide-bookings-api
-- description: The Carts API from GetYourGuide — 2 operation(s) for carts.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Carts API from GetYourGuide — 2 operation(s) for carts.
   name: GetYourGuide Carts API
   slug: getyourguide-carts-api
-- description: The Categories API from GetYourGuide — 2 operation(s) for categories.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Categories API from GetYourGuide — 2 operation(s) for categories.
   name: GetYourGuide Categories API
   slug: getyourguide-categories-api
-- description: The Configuration API from GetYourGuide — 2 operation(s) for configuration.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Configuration API from GetYourGuide — 2 operation(s) for configuration.
   name: GetYourGuide Configuration API
   slug: getyourguide-configuration-api
-- description: The Options API from GetYourGuide — 1 operation(s) for options.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Options API from GetYourGuide — 1 operation(s) for options.
   name: GetYourGuide Options API
   slug: getyourguide-options-api
-- description: The Reviews API from GetYourGuide — 1 operation(s) for reviews.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Reviews API from GetYourGuide — 1 operation(s) for reviews.
   name: GetYourGuide Reviews API
   slug: getyourguide-reviews-api
-- description: The Suppliers API from GetYourGuide — 1 operation(s) for suppliers.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Suppliers API from GetYourGuide — 1 operation(s) for suppliers.
   name: GetYourGuide Suppliers API
   slug: getyourguide-suppliers-api
-- description: The Tours API from GetYourGuide — 5 operation(s) for tours.
+- baseURL: https://api.getyourguide.com
+  baseurl_source: declared
+  description: The Tours API from GetYourGuide — 5 operation(s) for tours.
   name: GetYourGuide Tours API
   slug: getyourguide-tours-api
 arazzos:
@@ -245,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getyourguide/refs/heads/main/screenshots/getyourguide-2026-07-25T215748.png
 security:

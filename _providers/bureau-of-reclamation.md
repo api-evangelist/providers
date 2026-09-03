@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 17 operations
 api_count: 6
 apis:
-- description: The Catalog API from Bureau of Reclamation — 5 operation(s) for catalog.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Catalog API from Bureau of Reclamation — 5 operation(s) for catalog.
   name: Bureau of Reclamation Catalog API
   slug: bureau-of-reclamation-catalog-api
-- description: The Locations API from Bureau of Reclamation — 2 operation(s) for locations.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Locations API from Bureau of Reclamation — 2 operation(s) for locations.
   name: Bureau of Reclamation Locations API
   slug: bureau-of-reclamation-locations-api
-- description: The Model Runs API from Bureau of Reclamation — 3 operation(s) for model runs.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Model Runs API from Bureau of Reclamation — 3 operation(s) for model runs.
   name: Bureau of Reclamation Model Runs API
   slug: bureau-of-reclamation-model-runs-api
-- description: The Parameters API from Bureau of Reclamation — 2 operation(s) for parameters.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Parameters API from Bureau of Reclamation — 2 operation(s) for parameters.
   name: Bureau of Reclamation Parameters API
   slug: bureau-of-reclamation-parameters-api
-- description: The Reference Data API from Bureau of Reclamation — 4 operation(s) for reference data.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Reference Data API from Bureau of Reclamation — 4 operation(s) for reference data.
   name: Bureau of Reclamation Reference Data API
   slug: bureau-of-reclamation-reference-data-api
-- description: The Results API from Bureau of Reclamation — 1 operation(s) for results.
+- baseURL: https://data.usbr.gov/rise/api/
+  baseurl_source: declared
+  description: The Results API from Bureau of Reclamation — 1 operation(s) for results.
   name: Bureau of Reclamation Results API
   slug: bureau-of-reclamation-results-api
 artifact_total: 19
@@ -178,7 +190,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/screenshots/bureau-of-reclamation-2026-06-20T173820.png
 security:

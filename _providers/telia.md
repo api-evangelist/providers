@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,10 +115,14 @@ apis:
 - description: 'Export API against Telia ACE Interaction View that allows content and data from recorded contact-centre interactions to be exported to external systems for analytics, quality management or archiving. '
   name: Telia ACE Interaction View API
   slug: telia-ace-interaction-view-api
-- description: Retrieves a list of geographic sites based on the provided site id or other fields.
+- baseURL: https://api-garden.teliacompany.com/v1/api/mef/geographicSiteManagement
+  baseurl_source: declared
+  description: Retrieves a list of geographic sites based on the provided site id or other fields.
   name: Telia Company List Geographic Site API
   slug: telia-listgeographicsite-api
-- description: Retrieves detailed information for a specific geographic site using its ID.
+- baseURL: https://api-garden.teliacompany.com/v1/api/mef/geographicSiteManagement
+  baseurl_source: declared
+  description: Retrieves detailed information for a specific geographic site using its ID.
   name: Telia Company Retrieve Geographic Site API
   slug: telia-retrievegeographicsite-api
 artifact_total: 33
@@ -328,7 +345,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -341,7 +358,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,7 +376,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png
 security:

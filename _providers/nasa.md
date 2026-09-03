@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 24 operations
 api_count: 6
 apis:
-- description: The Asset API from NASA — 1 operation(s) for asset.
+- baseURL: https://images-api.nasa.gov
+  baseurl_source: spec
+  description: The Asset API from NASA — 1 operation(s) for asset.
   name: NASA Asset API
   slug: nasa-asset-api
-- description: The Captions API from NASA — 1 operation(s) for captions.
+- baseURL: https://images-api.nasa.gov
+  baseurl_source: spec
+  description: The Captions API from NASA — 1 operation(s) for captions.
   name: NASA Captions API
   slug: nasa-captions-api
-- description: The DONKI API from NASA — 8 operation(s) for donki.
+- baseURL: https://api.nasa.gov
+  baseurl_source: spec
+  description: The DONKI API from NASA — 8 operation(s) for donki.
   name: NASA DONKI API
   slug: nasa-donki-api
-- description: The EPIC API from NASA — 5 operation(s) for epic.
+- baseURL: https://api.nasa.gov
+  baseurl_source: spec
+  description: The EPIC API from NASA — 5 operation(s) for epic.
   name: NASA EPIC API
   slug: nasa-epic-api
-- description: The Mars Photos API from NASA — 3 operation(s) for mars photos.
+- baseURL: https://api.nasa.gov
+  baseurl_source: spec
+  description: The Mars Photos API from NASA — 3 operation(s) for mars photos.
   name: NASA Mars Photos API
   slug: nasa-mars-photos-api
-- description: The Metadata API from NASA — 1 operation(s) for metadata.
+- baseURL: https://images-api.nasa.gov
+  baseurl_source: spec
+  description: The Metadata API from NASA — 1 operation(s) for metadata.
   name: NASA Metadata API
   slug: nasa-metadata-api
-- description: The Neo API from NASA — 3 operation(s) for neo.
+- baseURL: https://api.nasa.gov
+  baseurl_source: spec
+  description: The Neo API from NASA — 3 operation(s) for neo.
   name: NASA Neo API
   slug: nasa-neo-api
-- description: The Planetary API from NASA — 1 operation(s) for planetary.
+- baseURL: https://api.nasa.gov
+  baseurl_source: spec
+  description: The Planetary API from NASA — 1 operation(s) for planetary.
   name: NASA Planetary API
   slug: nasa-planetary-api
-- description: The Search API from NASA — 1 operation(s) for search.
+- baseURL: https://images-api.nasa.gov
+  baseurl_source: spec
+  description: The Search API from NASA — 1 operation(s) for search.
   name: NASA Search API
   slug: nasa-search-api
 arazzos:
@@ -390,7 +408,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -77,34 +77,54 @@ apis:
 - description: REST Administration API enabling APEX instance administrators to perform administrative functions over REST and HTTP protocols for machine-to-machine communication.
   name: Oracle APEX REST Administration API
   slug: oracle-apex-rest-administration-api
-- description: AutoREST object management. AutoREST enables automatic REST access to database tables and views.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: AutoREST object management. AutoREST enables automatic REST access to database tables and views.
   name: Oracle APEX AutoREST API
   slug: oracle-apex-autorest-api
-- description: REST template handler management. A handler implements an HTTP method on a template with source code.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: REST template handler management. A handler implements an HTTP method on a template with source code.
   name: Oracle APEX Handlers API
   slug: oracle-apex-handlers-api
-- description: REST module management. A module is a container for one or more templates with an associated base path.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: REST module management. A module is a container for one or more templates with an associated base path.
   name: Oracle APEX Modules API
   slug: oracle-apex-modules-api
-- description: ORDS OAuth client management. OAuth clients enable third-party applications to access protected resources.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: ORDS OAuth client management. OAuth clients enable third-party applications to access protected resources.
   name: Oracle APEX OAuth Clients API
   slug: oracle-apex-oauth-clients-api
-- description: ORDS schema overview and REST object summaries.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: ORDS schema overview and REST object summaries.
   name: Oracle APEX Overview API
   slug: oracle-apex-overview-api
-- description: REST handler parameter management. Parameters define input bindings for handlers.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: REST handler parameter management. Parameters define input bindings for handlers.
   name: Oracle APEX Parameters API
   slug: oracle-apex-parameters-api
-- description: ORDS privilege management. Privileges control access to REST modules and URL patterns.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: ORDS privilege management. Privileges control access to REST modules and URL patterns.
   name: Oracle APEX Privileges API
   slug: oracle-apex-privileges-api
-- description: ORDS configuration property management.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: ORDS configuration property management.
   name: Oracle APEX Properties API
   slug: oracle-apex-properties-api
-- description: ORDS role management. Roles group privileges for assignment to users and OAuth clients.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: ORDS role management. Roles group privileges for assignment to users and OAuth clients.
   name: Oracle APEX Roles API
   slug: oracle-apex-roles-api
-- description: REST module template management. A template defines a URI pattern within a module for routing requests.
+- baseURL: https://apex.oracle.com/pls/apex/
+  baseurl_source: declared
+  description: REST module template management. A template defines a URI pattern within a module for routing requests.
   name: Oracle APEX Templates API
   slug: oracle-apex-templates-api
 artifact_total: 82
@@ -396,7 +416,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/screenshots/oracle-apex-2026-06-20T191118.png
 security:

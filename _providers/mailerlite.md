@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -48,28 +48,44 @@ apis:
 - description: 'The MailerLite Classic API serves legacy MailerLite Classic accounts. New integrations should target the current API at connect.mailerlite.com. Corrected 2026-08-13: the Classic documentation host is '
   name: MailerLite Classic API (Legacy)
   slug: mailerlite-classic-api
-- description: The Automations API from MailerLite — 1 operation(s) for automations.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Automations API from MailerLite — 1 operation(s) for automations.
   name: MailerLite Automations API
   slug: mailerlite-automations-api
-- description: The Campaigns API from MailerLite — 2 operation(s) for campaigns.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Campaigns API from MailerLite — 2 operation(s) for campaigns.
   name: MailerLite Campaigns API
   slug: mailerlite-campaigns-api
-- description: The Fields API from MailerLite — 1 operation(s) for fields.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Fields API from MailerLite — 1 operation(s) for fields.
   name: MailerLite Fields API
   slug: mailerlite-fields-api
-- description: The Forms API from MailerLite — 1 operation(s) for forms.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Forms API from MailerLite — 1 operation(s) for forms.
   name: MailerLite Forms API
   slug: mailerlite-forms-api
-- description: The Groups API from MailerLite — 2 operation(s) for groups.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Groups API from MailerLite — 2 operation(s) for groups.
   name: MailerLite Groups API
   slug: mailerlite-groups-api
-- description: The Segments API from MailerLite — 1 operation(s) for segments.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Segments API from MailerLite — 1 operation(s) for segments.
   name: MailerLite Segments API
   slug: mailerlite-segments-api
-- description: The Subscribers API from MailerLite — 4 operation(s) for subscribers.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Subscribers API from MailerLite — 4 operation(s) for subscribers.
   name: MailerLite Subscribers API
   slug: mailerlite-subscribers-api
-- description: The Webhooks API from MailerLite — 2 operation(s) for webhooks.
+- baseURL: https://connect.mailerlite.com/api
+  baseurl_source: declared
+  description: The Webhooks API from MailerLite — 2 operation(s) for webhooks.
   name: MailerLite Webhooks API
   slug: mailerlite-webhooks-api
 artifact_total: 32
@@ -372,7 +388,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -382,7 +398,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 57.9
-  previous_composite: 76.0
+  previous_composite: 75.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -404,7 +420,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png
 security:

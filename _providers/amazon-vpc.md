@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: Operations for managing internet gateways that connect VPCs to the internet
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing internet gateways that connect VPCs to the internet
   name: Amazon VPC Internet Gateways API
   slug: amazon-vpc-internet-gateways-api
-- description: Operations for managing NAT gateways for outbound internet access from private subnets
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing NAT gateways for outbound internet access from private subnets
   name: Amazon VPC NAT Gateways API
   slug: amazon-vpc-nat-gateways-api
-- description: Operations for managing network access control lists for subnet-level traffic filtering
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing network access control lists for subnet-level traffic filtering
   name: Amazon VPC Network ACLs API
   slug: amazon-vpc-network-acls-api
-- description: Operations for managing route tables and routes within a VPC
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing route tables and routes within a VPC
   name: Amazon VPC Route Tables API
   slug: amazon-vpc-route-tables-api
-- description: Operations for creating and managing subnets within a VPC
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing subnets within a VPC
   name: Amazon VPC Subnets API
   slug: amazon-vpc-subnets-api
-- description: Operations for creating and managing Virtual Private Clouds
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing Virtual Private Clouds
   name: Amazon VPC VPCs API
   slug: amazon-vpc-vpcs-api
 artifact_total: 63
@@ -392,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/screenshots/amazon-vpc-2026-06-20T171843.png
 security:

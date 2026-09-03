@@ -35,553 +35,915 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
   name: Later Influence (Mavrck) Reporting API
   slug: mavrck-reporting-api
 - description: The full Mavrck (Later Influence) platform surface — 548 paths, 687 operations and 1071 schema definitions covering global users and memberships, communities and lists, campaigns, action groups and ca
   name: Mavrck Platform API
   slug: mavrck-platform-api
-- description: The AccountInvitations API from Mavrck — 5 operation(s) for accountinvitations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The AccountInvitations API from Mavrck — 5 operation(s) for accountinvitations.
   name: Mavrck Account Invitations API
   slug: mavrck-accountinvitations-api
-- description: The Action Groups API from Mavrck — 2 operation(s) for action groups.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Action Groups API from Mavrck — 2 operation(s) for action groups.
   name: Mavrck Action Groups API
   slug: mavrck-action-groups-api
-- description: The ActionGroupBrief API from Mavrck — 1 operation(s) for actiongroupbrief.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupBrief API from Mavrck — 1 operation(s) for actiongroupbrief.
   name: Mavrck Action Group Brief API
   slug: mavrck-actiongroupbrief-api
-- description: The ActionGroupBulkScheduledMessages API from Mavrck — 1 operation(s) for actiongroupbulkscheduledmessages.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupBulkScheduledMessages API from Mavrck — 1 operation(s) for actiongroupbulkscheduledmessages.
   name: Mavrck Action Group Bulk Scheduled Messages API
   slug: mavrck-actiongroupbulkscheduledmessages-api
-- description: The ActionGroupConversationTemplates API from Mavrck — 4 operation(s) for actiongroupconversationtemplates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupConversationTemplates API from Mavrck — 4 operation(s) for actiongroupconversationtemplates.
   name: Mavrck Action Group Conversation Templates API
   slug: mavrck-actiongroupconversationtemplates-api
-- description: The ActionGroupCustomInfluencerStatuses API from Mavrck — 4 operation(s) for actiongroupcustominfluencerstatuses.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupCustomInfluencerStatuses API from Mavrck — 4 operation(s) for actiongroupcustominfluencerstatuses.
   name: Mavrck Action Group Custom Influencer Statuses API
   slug: mavrck-actiongroupcustominfluencerstatuses-api
-- description: The ActionGroupCustomStatuses API from Mavrck — 5 operation(s) for actiongroupcustomstatuses.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupCustomStatuses API from Mavrck — 5 operation(s) for actiongroupcustomstatuses.
   name: Mavrck Action Group Custom Statuses API
   slug: mavrck-actiongroupcustomstatuses-api
-- description: The ActionGroups API from Mavrck — 14 operation(s) for actiongroups.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroups API from Mavrck — 14 operation(s) for actiongroups.
   name: Mavrck Action Groups API
   slug: mavrck-actiongroups-api
-- description: The ActionGroupScheduledMessages API from Mavrck — 3 operation(s) for actiongroupscheduledmessages.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupScheduledMessages API from Mavrck — 3 operation(s) for actiongroupscheduledmessages.
   name: Mavrck Action Group Scheduled Messages API
   slug: mavrck-actiongroupscheduledmessages-api
-- description: The ActionGroupsStatus API from Mavrck — 1 operation(s) for actiongroupsstatus.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActionGroupsStatus API from Mavrck — 1 operation(s) for actiongroupsstatus.
   name: Mavrck Action Groups Status API
   slug: mavrck-actiongroupsstatus-api
-- description: The Actions API from Mavrck — 5 operation(s) for actions.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Actions API from Mavrck — 5 operation(s) for actions.
   name: Mavrck Actions API
   slug: mavrck-actions-api
-- description: The Activations API from Mavrck — 12 operation(s) for activations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Activations API from Mavrck — 12 operation(s) for activations.
   name: Mavrck Activations API
   slug: mavrck-activations-api
-- description: The ActivationTags API from Mavrck — 2 operation(s) for activationtags.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActivationTags API from Mavrck — 2 operation(s) for activationtags.
   name: Mavrck Activation Tags API
   slug: mavrck-activationtags-api
-- description: The ActivationTagsAssociations API from Mavrck — 2 operation(s) for activationtagsassociations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActivationTagsAssociations API from Mavrck — 2 operation(s) for activationtagsassociations.
   name: Mavrck Activation Tags Associations API
   slug: mavrck-activationtagsassociations-api
-- description: The ActivityHistory API from Mavrck — 1 operation(s) for activityhistory.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ActivityHistory API from Mavrck — 1 operation(s) for activityhistory.
   name: Mavrck Activity History API
   slug: mavrck-activityhistory-api
-- description: The AdministrationAccountSlowMigration API from Mavrck — 1 operation(s) for administrationaccountslowmigration.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The AdministrationAccountSlowMigration API from Mavrck — 1 operation(s) for administrationaccountslowmigration.
   name: Mavrck Administration Account Slow Migration API
   slug: mavrck-administrationaccountslowmigration-api
-- description: The AdministratorAccounts API from Mavrck — 2 operation(s) for administratoraccounts.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The AdministratorAccounts API from Mavrck — 2 operation(s) for administratoraccounts.
   name: Mavrck Administrator Accounts API
   slug: mavrck-administratoraccounts-api
-- description: The Analytics API from Mavrck — 10 operation(s) for analytics.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Analytics API from Mavrck — 10 operation(s) for analytics.
   name: Mavrck Analytics API
   slug: mavrck-analytics-api
-- description: The AnonymousComments API from Mavrck — 1 operation(s) for anonymouscomments.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The AnonymousComments API from Mavrck — 1 operation(s) for anonymouscomments.
   name: Mavrck Anonymous Comments API
   slug: mavrck-anonymouscomments-api
-- description: The AnonymousIncentiveClaim API from Mavrck — 1 operation(s) for anonymousincentiveclaim.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The AnonymousIncentiveClaim API from Mavrck — 1 operation(s) for anonymousincentiveclaim.
   name: Mavrck Anonymous Incentive Claim API
   slug: mavrck-anonymousincentiveclaim-api
-- description: The Application API from Mavrck — 3 operation(s) for application.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Application API from Mavrck — 3 operation(s) for application.
   name: Mavrck Application API
   slug: mavrck-application-api
-- description: The Authentication API from Mavrck — 15 operation(s) for authentication.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Authentication API from Mavrck — 15 operation(s) for authentication.
   name: Mavrck Authentication API
   slug: mavrck-authentication-api
-- description: The Backfill Analytics API from Mavrck — 2 operation(s) for backfill analytics.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Backfill Analytics API from Mavrck — 2 operation(s) for backfill analytics.
   name: Mavrck Backfill Analytics API
   slug: mavrck-backfill-analytics-api
-- description: The BatchJobs API from Mavrck — 2 operation(s) for batchjobs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The BatchJobs API from Mavrck — 2 operation(s) for batchjobs.
   name: Mavrck Batch Jobs API
   slug: mavrck-batchjobs-api
-- description: The BazaarVoice API from Mavrck — 2 operation(s) for bazaarvoice.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The BazaarVoice API from Mavrck — 2 operation(s) for bazaarvoice.
   name: Mavrck Bazaar Voice API
   slug: mavrck-bazaarvoice-api
-- description: The Blogs API from Mavrck — 2 operation(s) for blogs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Blogs API from Mavrck — 2 operation(s) for blogs.
   name: Mavrck Blogs API
   slug: mavrck-blogs-api
-- description: The BrandSuitability API from Mavrck — 14 operation(s) for brandsuitability.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The BrandSuitability API from Mavrck — 14 operation(s) for brandsuitability.
   name: Mavrck Brand Suitability API
   slug: mavrck-brandsuitability-api
-- description: The BrandSuitabilityHarness API from Mavrck — 10 operation(s) for brandsuitabilityharness.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The BrandSuitabilityHarness API from Mavrck — 10 operation(s) for brandsuitabilityharness.
   name: Mavrck Brand Suitability Harness API
   slug: mavrck-brandsuitabilityharness-api
-- description: The Budgets API from Mavrck — 5 operation(s) for budgets.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Budgets API from Mavrck — 5 operation(s) for budgets.
   name: Mavrck Budgets API
   slug: mavrck-budgets-api
-- description: The BulkAssignCustomStatusesRequirements API from Mavrck — 1 operation(s) for bulkassigncustomstatusesrequirements.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The BulkAssignCustomStatusesRequirements API from Mavrck — 1 operation(s) for bulkassigncustomstatusesrequirements.
   name: Mavrck Bulk Assign Custom Statuses Requirements API
   slug: mavrck-bulkassigncustomstatusesrequirements-api
-- description: The CampaignApplication API from Mavrck — 3 operation(s) for campaignapplication.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CampaignApplication API from Mavrck — 3 operation(s) for campaignapplication.
   name: Mavrck Campaign Application API
   slug: mavrck-campaignapplication-api
-- description: The CampaignPerformance API from Mavrck — 5 operation(s) for campaignperformance.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CampaignPerformance API from Mavrck — 5 operation(s) for campaignperformance.
   name: Mavrck Campaign Performance API
   slug: mavrck-campaignperformance-api
-- description: The CampaignPlatformCallback API from Mavrck — 1 operation(s) for campaignplatformcallback.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CampaignPlatformCallback API from Mavrck — 1 operation(s) for campaignplatformcallback.
   name: Mavrck Campaign Platform Callback API
   slug: mavrck-campaignplatformcallback-api
-- description: The Campaigns API from Mavrck — 4 operation(s) for campaigns.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Campaigns API from Mavrck — 4 operation(s) for campaigns.
   name: Mavrck Campaigns API
   slug: mavrck-campaigns-api
-- description: The Candidates API from Mavrck — 5 operation(s) for candidates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Candidates API from Mavrck — 5 operation(s) for candidates.
   name: Mavrck Candidates API
   slug: mavrck-candidates-api
-- description: The CashPayments API from Mavrck — 2 operation(s) for cashpayments.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CashPayments API from Mavrck — 2 operation(s) for cashpayments.
   name: Mavrck Cash Payments API
   slug: mavrck-cashpayments-api
-- description: The Comments API from Mavrck — 3 operation(s) for comments.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Comments API from Mavrck — 3 operation(s) for comments.
   name: Mavrck Comments API
   slug: mavrck-comments-api
-- description: The Communities API from Mavrck — 4 operation(s) for communities.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Communities API from Mavrck — 4 operation(s) for communities.
   name: Mavrck Communities API
   slug: mavrck-communities-api
-- description: The Community API from Mavrck — 3 operation(s) for community.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Community API from Mavrck — 3 operation(s) for community.
   name: Mavrck Community API
   slug: mavrck-community-api
-- description: The CommunityBenchmarks API from Mavrck — 1 operation(s) for communitybenchmarks.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CommunityBenchmarks API from Mavrck — 1 operation(s) for communitybenchmarks.
   name: Mavrck Community Benchmarks API
   slug: mavrck-communitybenchmarks-api
-- description: The CommunityMetrics API from Mavrck — 2 operation(s) for communitymetrics.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CommunityMetrics API from Mavrck — 2 operation(s) for communitymetrics.
   name: Mavrck Community Metrics API
   slug: mavrck-communitymetrics-api
-- description: The Concepts API from Mavrck — 9 operation(s) for concepts.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Concepts API from Mavrck — 9 operation(s) for concepts.
   name: Mavrck Concepts API
   slug: mavrck-concepts-api
-- description: The Content API from Mavrck — 1 operation(s) for content.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Content API from Mavrck — 1 operation(s) for content.
   name: Mavrck Content API
   slug: mavrck-content-api
-- description: The Conversations API from Mavrck — 17 operation(s) for conversations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Conversations API from Mavrck — 17 operation(s) for conversations.
   name: Mavrck Conversations API
   slug: mavrck-conversations-api
-- description: The ConversationTemplates API from Mavrck — 2 operation(s) for conversationtemplates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ConversationTemplates API from Mavrck — 2 operation(s) for conversationtemplates.
   name: Mavrck Conversation Templates API
   slug: mavrck-conversationtemplates-api
-- description: The Conversions API from Mavrck — 1 operation(s) for conversions.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Conversions API from Mavrck — 1 operation(s) for conversions.
   name: Mavrck Conversions API
   slug: mavrck-conversions-api
-- description: The ConversionTags API from Mavrck — 2 operation(s) for conversiontags.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ConversionTags API from Mavrck — 2 operation(s) for conversiontags.
   name: Mavrck Conversion Tags API
   slug: mavrck-conversiontags-api
-- description: The CreatorProfileUpsert API from Mavrck — 1 operation(s) for creatorprofileupsert.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CreatorProfileUpsert API from Mavrck — 1 operation(s) for creatorprofileupsert.
   name: Mavrck Creator Profile Upsert API
   slug: mavrck-creatorprofileupsert-api
-- description: The CreatorSummary API from Mavrck — 1 operation(s) for creatorsummary.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The CreatorSummary API from Mavrck — 1 operation(s) for creatorsummary.
   name: Mavrck Creator Summary API
   slug: mavrck-creatorsummary-api
-- description: The Custom Analytics Admin API from Mavrck — 4 operation(s) for custom analytics admin.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Custom Analytics Admin API from Mavrck — 4 operation(s) for custom analytics admin.
   name: Mavrck Custom Analytics Admin API
   slug: mavrck-custom-analytics-admin-api
-- description: The Custom Analytics Controller API from Mavrck — 2 operation(s) for custom analytics controller.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Custom Analytics Controller API from Mavrck — 2 operation(s) for custom analytics controller.
   name: Mavrck Custom Analytics Controller API
   slug: mavrck-custom-analytics-controller-api
-- description: The Datapoints API from Mavrck — 3 operation(s) for datapoints.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Datapoints API from Mavrck — 3 operation(s) for datapoints.
   name: Mavrck Datapoints API
   slug: mavrck-datapoints-api
-- description: The DataSubjectRequest API from Mavrck — 1 operation(s) for datasubjectrequest.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The DataSubjectRequest API from Mavrck — 1 operation(s) for datasubjectrequest.
   name: Mavrck Data Subject Request API
   slug: mavrck-datasubjectrequest-api
-- description: The DBInfluencerAgreementHistoryFields API from Mavrck — 1 operation(s) for dbinfluenceragreementhistoryfields.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The DBInfluencerAgreementHistoryFields API from Mavrck — 1 operation(s) for dbinfluenceragreementhistoryfields.
   name: Mavrck DB Influencer Agreement History Fields API
   slug: mavrck-dbinfluenceragreementhistoryfields-api
-- description: The DraftContentViewed API from Mavrck — 1 operation(s) for draftcontentviewed.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The DraftContentViewed API from Mavrck — 1 operation(s) for draftcontentviewed.
   name: Mavrck Draft Content Viewed API
   slug: mavrck-draftcontentviewed-api
-- description: The Drafts API from Mavrck — 9 operation(s) for drafts.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Drafts API from Mavrck — 9 operation(s) for drafts.
   name: Mavrck Drafts API
   slug: mavrck-drafts-api
-- description: The EarnedMediaValue API from Mavrck — 2 operation(s) for earnedmediavalue.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The EarnedMediaValue API from Mavrck — 2 operation(s) for earnedmediavalue.
   name: Mavrck Earned Media Value API
   slug: mavrck-earnedmediavalue-api
-- description: The Elasticsearch API from Mavrck — 2 operation(s) for elasticsearch.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Elasticsearch API from Mavrck — 2 operation(s) for elasticsearch.
   name: Mavrck Elasticsearch API
   slug: mavrck-elasticsearch-api
-- description: The ElasticsearchOptions API from Mavrck — 1 operation(s) for elasticsearchoptions.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ElasticsearchOptions API from Mavrck — 1 operation(s) for elasticsearchoptions.
   name: Mavrck Elasticsearch Options API
   slug: mavrck-elasticsearchoptions-api
-- description: The Email Suppressions API from Mavrck — 1 operation(s) for email suppressions.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Email Suppressions API from Mavrck — 1 operation(s) for email suppressions.
   name: Mavrck Email Suppressions API
   slug: mavrck-email-suppressions-api
-- description: The EmailSettings API from Mavrck — 3 operation(s) for emailsettings.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The EmailSettings API from Mavrck — 3 operation(s) for emailsettings.
   name: Mavrck Email Settings API
   slug: mavrck-emailsettings-api
-- description: The Entitlements API from Mavrck — 2 operation(s) for entitlements.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Entitlements API from Mavrck — 2 operation(s) for entitlements.
   name: Mavrck Entitlements API
   slug: mavrck-entitlements-api
-- description: The EventLogs API from Mavrck — 1 operation(s) for eventlogs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The EventLogs API from Mavrck — 1 operation(s) for eventlogs.
   name: Mavrck Event Logs API
   slug: mavrck-eventlogs-api
-- description: The ExchangeRates API from Mavrck — 1 operation(s) for exchangerates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ExchangeRates API from Mavrck — 1 operation(s) for exchangerates.
   name: Mavrck Exchange Rates API
   slug: mavrck-exchangerates-api
-- description: The ExpiringAccessTokens API from Mavrck — 1 operation(s) for expiringaccesstokens.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ExpiringAccessTokens API from Mavrck — 1 operation(s) for expiringaccesstokens.
   name: Mavrck Expiring Access Tokens API
   slug: mavrck-expiringaccesstokens-api
-- description: The Exports API from Mavrck — 4 operation(s) for exports.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Exports API from Mavrck — 4 operation(s) for exports.
   name: Mavrck Exports API
   slug: mavrck-exports-api
-- description: The ExternalClients API from Mavrck — 5 operation(s) for externalclients.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ExternalClients API from Mavrck — 5 operation(s) for externalclients.
   name: Mavrck External Clients API
   slug: mavrck-externalclients-api
-- description: The FacebookProfile API from Mavrck — 1 operation(s) for facebookprofile.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The FacebookProfile API from Mavrck — 1 operation(s) for facebookprofile.
   name: Mavrck Facebook Profile API
   slug: mavrck-facebookprofile-api
-- description: The FacebookProfiles API from Mavrck — 2 operation(s) for facebookprofiles.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The FacebookProfiles API from Mavrck — 2 operation(s) for facebookprofiles.
   name: Mavrck Facebook Profiles API
   slug: mavrck-facebookprofiles-api
-- description: The Features API from Mavrck — 2 operation(s) for features.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Features API from Mavrck — 2 operation(s) for features.
   name: Mavrck Features API
   slug: mavrck-features-api
-- description: The GiftCards API from Mavrck — 3 operation(s) for giftcards.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GiftCards API from Mavrck — 3 operation(s) for giftcards.
   name: Mavrck Gift Cards API
   slug: mavrck-giftcards-api
-- description: The GlobalUser API from Mavrck — 22 operation(s) for globaluser.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GlobalUser API from Mavrck — 22 operation(s) for globaluser.
   name: Mavrck Global User API
   slug: mavrck-globaluser-api
-- description: The GlobalUserAudience API from Mavrck — 2 operation(s) for globaluseraudience.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GlobalUserAudience API from Mavrck — 2 operation(s) for globaluseraudience.
   name: Mavrck Global User Audience API
   slug: mavrck-globaluseraudience-api
-- description: The GlobalUserLists API from Mavrck — 8 operation(s) for globaluserlists.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GlobalUserLists API from Mavrck — 8 operation(s) for globaluserlists.
   name: Mavrck Global User Lists API
   slug: mavrck-globaluserlists-api
-- description: The GlobalUserMerge API from Mavrck — 2 operation(s) for globalusermerge.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GlobalUserMerge API from Mavrck — 2 operation(s) for globalusermerge.
   name: Mavrck Global User Merge API
   slug: mavrck-globalusermerge-api
-- description: The GlobalUsers API from Mavrck — 2 operation(s) for globalusers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GlobalUsers API from Mavrck — 2 operation(s) for globalusers.
   name: Mavrck Global Users API
   slug: mavrck-globalusers-api
-- description: The GroupHigh API from Mavrck — 1 operation(s) for grouphigh.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The GroupHigh API from Mavrck — 1 operation(s) for grouphigh.
   name: Mavrck Group High API
   slug: mavrck-grouphigh-api
-- description: The Images API from Mavrck — 1 operation(s) for images.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Images API from Mavrck — 1 operation(s) for images.
   name: Mavrck Images API
   slug: mavrck-images-api
-- description: The Incentives API from Mavrck — 8 operation(s) for incentives.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Incentives API from Mavrck — 8 operation(s) for incentives.
   name: Mavrck Incentives API
   slug: mavrck-incentives-api
-- description: The Influencer Polling API from Mavrck — 1 operation(s) for influencer polling.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Influencer Polling API from Mavrck — 1 operation(s) for influencer polling.
   name: Mavrck Influencer Polling API
   slug: mavrck-influencer-polling-api
-- description: The InfluencerCampaign API from Mavrck — 2 operation(s) for influencercampaign.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerCampaign API from Mavrck — 2 operation(s) for influencercampaign.
   name: Mavrck Influencer Campaign API
   slug: mavrck-influencercampaign-api
-- description: The InfluencerContractCampaignTemplates API from Mavrck — 2 operation(s) for influencercontractcampaigntemplates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerContractCampaignTemplates API from Mavrck — 2 operation(s) for influencercontractcampaigntemplates.
   name: Mavrck Influencer Contract Campaign Templates API
   slug: mavrck-influencercontractcampaigntemplates-api
-- description: The InfluencerContractCommunityTemplates API from Mavrck — 2 operation(s) for influencercontractcommunitytemplates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerContractCommunityTemplates API from Mavrck — 2 operation(s) for influencercontractcommunitytemplates.
   name: Mavrck Influencer Contract Community Templates API
   slug: mavrck-influencercontractcommunitytemplates-api
-- description: The InfluencerLinks API from Mavrck — 1 operation(s) for influencerlinks.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerLinks API from Mavrck — 1 operation(s) for influencerlinks.
   name: Mavrck Influencer Links API
   slug: mavrck-influencerlinks-api
-- description: The InfluencerList API from Mavrck — 1 operation(s) for influencerlist.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerList API from Mavrck — 1 operation(s) for influencerlist.
   name: Mavrck Influencer List API
   slug: mavrck-influencerlist-api
-- description: The InfluencerReviewDeliverable API from Mavrck — 2 operation(s) for influencerreviewdeliverable.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerReviewDeliverable API from Mavrck — 2 operation(s) for influencerreviewdeliverable.
   name: Mavrck Influencer Review Deliverable API
   slug: mavrck-influencerreviewdeliverable-api
-- description: The Influencers API from Mavrck — 1 operation(s) for influencers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Influencers API from Mavrck — 1 operation(s) for influencers.
   name: Mavrck Influencers API
   slug: mavrck-influencers-api
-- description: The InfluencerTopics API from Mavrck — 1 operation(s) for influencertopics.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InfluencerTopics API from Mavrck — 1 operation(s) for influencertopics.
   name: Mavrck Influencer Topics API
   slug: mavrck-influencertopics-api
-- description: The InstagramAccount API from Mavrck — 2 operation(s) for instagramaccount.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InstagramAccount API from Mavrck — 2 operation(s) for instagramaccount.
   name: Mavrck Instagram Account API
   slug: mavrck-instagramaccount-api
-- description: The Instance User Materialized View API from Mavrck — 1 operation(s) for instance user materialized view.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Instance User Materialized View API from Mavrck — 1 operation(s) for instance user materialized view.
   name: Mavrck Instance User Materialized View API
   slug: mavrck-instance-user-materialized-view-api
-- description: The InstanceBrands API from Mavrck — 1 operation(s) for instancebrands.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InstanceBrands API from Mavrck — 1 operation(s) for instancebrands.
   name: Mavrck Instance Brands API
   slug: mavrck-instancebrands-api
-- description: The InstanceDeactivation API from Mavrck — 2 operation(s) for instancedeactivation.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InstanceDeactivation API from Mavrck — 2 operation(s) for instancedeactivation.
   name: Mavrck Instance Deactivation API
   slug: mavrck-instancedeactivation-api
-- description: The InstanceReactivation API from Mavrck — 1 operation(s) for instancereactivation.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The InstanceReactivation API from Mavrck — 1 operation(s) for instancereactivation.
   name: Mavrck Instance Reactivation API
   slug: mavrck-instancereactivation-api
-- description: The Instances API from Mavrck — 2 operation(s) for instances.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Instances API from Mavrck — 2 operation(s) for instances.
   name: Mavrck Instances API
   slug: mavrck-instances-api
-- description: The LaterInfluencer API from Mavrck — 37 operation(s) for laterinfluencer.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The LaterInfluencer API from Mavrck — 37 operation(s) for laterinfluencer.
   name: Mavrck Later Influencer API
   slug: mavrck-laterinfluencer-api
-- description: The Links API from Mavrck — 2 operation(s) for links.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Links API from Mavrck — 2 operation(s) for links.
   name: Mavrck Links API
   slug: mavrck-links-api
-- description: The ListDeliverables API from Mavrck — 2 operation(s) for listdeliverables.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListDeliverables API from Mavrck — 2 operation(s) for listdeliverables.
   name: Mavrck List Deliverables API
   slug: mavrck-listdeliverables-api
-- description: The ListMember API from Mavrck — 2 operation(s) for listmember.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListMember API from Mavrck — 2 operation(s) for listmember.
   name: Mavrck List Member API
   slug: mavrck-listmember-api
-- description: The ListMemberDeliverables API from Mavrck — 5 operation(s) for listmemberdeliverables.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListMemberDeliverables API from Mavrck — 5 operation(s) for listmemberdeliverables.
   name: Mavrck List Member Deliverables API
   slug: mavrck-listmemberdeliverables-api
-- description: The ListMemberMavelyProfiles API from Mavrck — 3 operation(s) for listmembermavelyprofiles.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListMemberMavelyProfiles API from Mavrck — 3 operation(s) for listmembermavelyprofiles.
   name: Mavrck List Member Mavely Profiles API
   slug: mavrck-listmembermavelyprofiles-api
-- description: The ListMemberRewardWin API from Mavrck — 6 operation(s) for listmemberrewardwin.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListMemberRewardWin API from Mavrck — 6 operation(s) for listmemberrewardwin.
   name: Mavrck List Member Reward Win API
   slug: mavrck-listmemberrewardwin-api
-- description: The ListMembers API from Mavrck — 1 operation(s) for listmembers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ListMembers API from Mavrck — 1 operation(s) for listmembers.
   name: Mavrck List Members API
   slug: mavrck-listmembers-api
-- description: The Lists API from Mavrck — 1 operation(s) for lists.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Lists API from Mavrck — 1 operation(s) for lists.
   name: Mavrck Lists API
   slug: mavrck-lists-api
-- description: The MarketerFilterPreferences API from Mavrck — 1 operation(s) for marketerfilterpreferences.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MarketerFilterPreferences API from Mavrck — 1 operation(s) for marketerfilterpreferences.
   name: Mavrck Marketer Filter Preferences API
   slug: mavrck-marketerfilterpreferences-api
-- description: The MarketerNotifications API from Mavrck — 2 operation(s) for marketernotifications.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MarketerNotifications API from Mavrck — 2 operation(s) for marketernotifications.
   name: Mavrck Marketer Notifications API
   slug: mavrck-marketernotifications-api
-- description: The MavelyTransfers API from Mavrck — 1 operation(s) for mavelytransfers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MavelyTransfers API from Mavrck — 1 operation(s) for mavelytransfers.
   name: Mavrck Mavely Transfers API
   slug: mavrck-mavelytransfers-api
-- description: The Membership API from Mavrck — 7 operation(s) for membership.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Membership API from Mavrck — 7 operation(s) for membership.
   name: Mavrck Membership API
   slug: mavrck-membership-api
-- description: The MembershipDataPoints API from Mavrck — 2 operation(s) for membershipdatapoints.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MembershipDataPoints API from Mavrck — 2 operation(s) for membershipdatapoints.
   name: Mavrck Membership Data Points API
   slug: mavrck-membershipdatapoints-api
-- description: The MembershipPurchases API from Mavrck — 1 operation(s) for membershippurchases.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MembershipPurchases API from Mavrck — 1 operation(s) for membershippurchases.
   name: Mavrck Membership Purchases API
   slug: mavrck-membershippurchases-api
-- description: The MergeTagsCatalog API from Mavrck — 1 operation(s) for mergetagscatalog.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The MergeTagsCatalog API from Mavrck — 1 operation(s) for mergetagscatalog.
   name: Mavrck Merge Tags Catalog API
   slug: mavrck-mergetagscatalog-api
-- description: The Meta Ad Admin API from Mavrck — 5 operation(s) for meta ad admin.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Meta Ad Admin API from Mavrck — 5 operation(s) for meta ad admin.
   name: Mavrck Meta Ad Admin API
   slug: mavrck-meta-ad-admin-api
-- description: The Meta Business Assets API from Mavrck — 2 operation(s) for meta business assets.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Meta Business Assets API from Mavrck — 2 operation(s) for meta business assets.
   name: Mavrck Meta Business Assets API
   slug: mavrck-meta-business-assets-api
-- description: The Meta Business Integrations API from Mavrck — 2 operation(s) for meta business integrations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Meta Business Integrations API from Mavrck — 2 operation(s) for meta business integrations.
   name: Mavrck Meta Business Integrations API
   slug: mavrck-meta-business-integrations-api
-- description: The Meta Business Portfolios API from Mavrck — 2 operation(s) for meta business portfolios.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Meta Business Portfolios API from Mavrck — 2 operation(s) for meta business portfolios.
   name: Mavrck Meta Business Portfolios API
   slug: mavrck-meta-business-portfolios-api
-- description: The Meta Post Partnerships API from Mavrck — 1 operation(s) for meta post partnerships.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Meta Post Partnerships API from Mavrck — 1 operation(s) for meta post partnerships.
   name: Mavrck Meta Post Partnerships API
   slug: mavrck-meta-post-partnerships-api
-- description: The Networks API from Mavrck — 1 operation(s) for networks.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Networks API from Mavrck — 1 operation(s) for networks.
   name: Mavrck Networks API
   slug: mavrck-networks-api
-- description: The Notifications API from Mavrck — 4 operation(s) for notifications.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Notifications API from Mavrck — 4 operation(s) for notifications.
   name: Mavrck Notifications API
   slug: mavrck-notifications-api
-- description: The OpenAISearch API from Mavrck — 1 operation(s) for openaisearch.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The OpenAISearch API from Mavrck — 1 operation(s) for openaisearch.
   name: Mavrck Open AI Search API
   slug: mavrck-openaisearch-api
-- description: The OptIn API from Mavrck — 3 operation(s) for optin.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The OptIn API from Mavrck — 3 operation(s) for optin.
   name: Mavrck Opt In API
   slug: mavrck-optin-api
-- description: The PaymentAccount API from Mavrck — 9 operation(s) for paymentaccount.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PaymentAccount API from Mavrck — 9 operation(s) for paymentaccount.
   name: Mavrck Payment Account API
   slug: mavrck-paymentaccount-api
-- description: The PaymentAppAdmins API from Mavrck — 1 operation(s) for paymentappadmins.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PaymentAppAdmins API from Mavrck — 1 operation(s) for paymentappadmins.
   name: Mavrck Payment App Admins API
   slug: mavrck-paymentappadmins-api
-- description: The PaymentProvider API from Mavrck — 2 operation(s) for paymentprovider.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PaymentProvider API from Mavrck — 2 operation(s) for paymentprovider.
   name: Mavrck Payment Provider API
   slug: mavrck-paymentprovider-api
-- description: The PaymentRecipient API from Mavrck — 9 operation(s) for paymentrecipient.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PaymentRecipient API from Mavrck — 9 operation(s) for paymentrecipient.
   name: Mavrck Payment Recipient API
   slug: mavrck-paymentrecipient-api
-- description: The PaymentsLedger API from Mavrck — 3 operation(s) for paymentsledger.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PaymentsLedger API from Mavrck — 3 operation(s) for paymentsledger.
   name: Mavrck Payments Ledger API
   slug: mavrck-paymentsledger-api
-- description: The PayPalAccount API from Mavrck — 1 operation(s) for paypalaccount.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PayPalAccount API from Mavrck — 1 operation(s) for paypalaccount.
   name: Mavrck Pay Pal Account API
   slug: mavrck-paypalaccount-api
-- description: The PendingBatchJobs API from Mavrck — 1 operation(s) for pendingbatchjobs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PendingBatchJobs API from Mavrck — 1 operation(s) for pendingbatchjobs.
   name: Mavrck Pending Batch Jobs API
   slug: mavrck-pendingbatchjobs-api
-- description: The PinterestAuth API from Mavrck — 2 operation(s) for pinterestauth.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PinterestAuth API from Mavrck — 2 operation(s) for pinterestauth.
   name: Mavrck Pinterest Auth API
   slug: mavrck-pinterestauth-api
-- description: The Points API from Mavrck — 1 operation(s) for points.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Points API from Mavrck — 1 operation(s) for points.
   name: Mavrck Points API
   slug: mavrck-points-api
-- description: The PointsAdmin API from Mavrck — 2 operation(s) for pointsadmin.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PointsAdmin API from Mavrck — 2 operation(s) for pointsadmin.
   name: Mavrck Points Admin API
   slug: mavrck-pointsadmin-api
-- description: The Polling Queue Management API from Mavrck — 3 operation(s) for polling queue management.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Polling Queue Management API from Mavrck — 3 operation(s) for polling queue management.
   name: Mavrck Polling Queue Management API
   slug: mavrck-polling-queue-management-api
-- description: The PowerReviewsApp API from Mavrck — 1 operation(s) for powerreviewsapp.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PowerReviewsApp API from Mavrck — 1 operation(s) for powerreviewsapp.
   name: Mavrck Power Reviews App API
   slug: mavrck-powerreviewsapp-api
-- description: The PreviewPosts API from Mavrck — 1 operation(s) for previewposts.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The PreviewPosts API from Mavrck — 1 operation(s) for previewposts.
   name: Mavrck Preview Posts API
   slug: mavrck-previewposts-api
-- description: The Product API from Mavrck — 1 operation(s) for product.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Product API from Mavrck — 1 operation(s) for product.
   name: Mavrck Product API
   slug: mavrck-product-api
-- description: The Products API from Mavrck — 2 operation(s) for products.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Products API from Mavrck — 2 operation(s) for products.
   name: Mavrck Products API
   slug: mavrck-products-api
-- description: The Program API from Mavrck — 1 operation(s) for program.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Program API from Mavrck — 1 operation(s) for program.
   name: Mavrck Program API
   slug: mavrck-program-api
-- description: The Programs API from Mavrck — 1 operation(s) for programs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Programs API from Mavrck — 1 operation(s) for programs.
   name: Mavrck Programs API
   slug: mavrck-programs-api
-- description: The public API from Mavrck — 1 operation(s) for public.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The public API from Mavrck — 1 operation(s) for public.
   name: Mavrck Public API
   slug: mavrck-public-api
-- description: The ReferralProgram API from Mavrck — 1 operation(s) for referralprogram.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ReferralProgram API from Mavrck — 1 operation(s) for referralprogram.
   name: Mavrck Referral Program API
   slug: mavrck-referralprogram-api
-- description: The Reports API from Mavrck — 1 operation(s) for reports.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Reports API from Mavrck — 1 operation(s) for reports.
   name: Mavrck Reports API
   slug: mavrck-reports-api
-- description: The ReviewForm API from Mavrck — 1 operation(s) for reviewform.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ReviewForm API from Mavrck — 1 operation(s) for reviewform.
   name: Mavrck Review Form API
   slug: mavrck-reviewform-api
-- description: The ReviewFormResponse API from Mavrck — 1 operation(s) for reviewformresponse.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ReviewFormResponse API from Mavrck — 1 operation(s) for reviewformresponse.
   name: Mavrck Review Form Response API
   slug: mavrck-reviewformresponse-api
-- description: The ReviewFormResponses API from Mavrck — 2 operation(s) for reviewformresponses.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ReviewFormResponses API from Mavrck — 2 operation(s) for reviewformresponses.
   name: Mavrck Review Form Responses API
   slug: mavrck-reviewformresponses-api
-- description: The Reviews API from Mavrck — 1 operation(s) for reviews.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Reviews API from Mavrck — 1 operation(s) for reviews.
   name: Mavrck Reviews API
   slug: mavrck-reviews-api
-- description: The RewardWins API from Mavrck — 16 operation(s) for rewardwins.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The RewardWins API from Mavrck — 16 operation(s) for rewardwins.
   name: Mavrck Reward Wins API
   slug: mavrck-rewardwins-api
-- description: The ShareableLinksVisitors API from Mavrck — 1 operation(s) for shareablelinksvisitors.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ShareableLinksVisitors API from Mavrck — 1 operation(s) for shareablelinksvisitors.
   name: Mavrck Shareable Links Visitors API
   slug: mavrck-shareablelinksvisitors-api
-- description: The SharedCipher API from Mavrck — 3 operation(s) for sharedcipher.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The SharedCipher API from Mavrck — 3 operation(s) for sharedcipher.
   name: Mavrck Shared Cipher API
   slug: mavrck-sharedcipher-api
-- description: The ShopifyAccount API from Mavrck — 9 operation(s) for shopifyaccount.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ShopifyAccount API from Mavrck — 9 operation(s) for shopifyaccount.
   name: Mavrck Shopify Account API
   slug: mavrck-shopifyaccount-api
-- description: The ShopifyAdminApi API from Mavrck — 2 operation(s) for shopifyadminapi.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The ShopifyAdminApi API from Mavrck — 2 operation(s) for shopifyadminapi.
   name: Mavrck Shopify Admin API API
   slug: mavrck-shopifyadminapi-api
-- description: The SnapchatContent API from Mavrck — 2 operation(s) for snapchatcontent.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The SnapchatContent API from Mavrck — 2 operation(s) for snapchatcontent.
   name: Mavrck Snapchat Content API
   slug: mavrck-snapchatcontent-api
-- description: The Social Account Ingestion API from Mavrck — 1 operation(s) for social account ingestion.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Social Account Ingestion API from Mavrck — 1 operation(s) for social account ingestion.
   name: Mavrck Social Account Ingestion API
   slug: mavrck-social-account-ingestion-api
-- description: The SocialPresenceCreate API from Mavrck — 1 operation(s) for socialpresencecreate.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The SocialPresenceCreate API from Mavrck — 1 operation(s) for socialpresencecreate.
   name: Mavrck Social Presence Create API
   slug: mavrck-socialpresencecreate-api
-- description: The SocialProfileUpdates API from Mavrck — 1 operation(s) for socialprofileupdates.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The SocialProfileUpdates API from Mavrck — 1 operation(s) for socialprofileupdates.
   name: Mavrck Social Profile Updates API
   slug: mavrck-socialprofileupdates-api
-- description: The Specs API from Mavrck — 3 operation(s) for specs.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Specs API from Mavrck — 3 operation(s) for specs.
   name: Mavrck Specs API
   slug: mavrck-specs-api
-- description: The StripePayments API from Mavrck — 9 operation(s) for stripepayments.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The StripePayments API from Mavrck — 9 operation(s) for stripepayments.
   name: Mavrck Stripe Payments API
   slug: mavrck-stripepayments-api
-- description: The Subscribers API from Mavrck — 3 operation(s) for subscribers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Subscribers API from Mavrck — 3 operation(s) for subscribers.
   name: Mavrck Subscribers API
   slug: mavrck-subscribers-api
-- description: The SurveyResponse API from Mavrck — 2 operation(s) for surveyresponse.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The SurveyResponse API from Mavrck — 2 operation(s) for surveyresponse.
   name: Mavrck Survey Response API
   slug: mavrck-surveyresponse-api
-- description: The Surveys API from Mavrck — 1 operation(s) for surveys.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Surveys API from Mavrck — 1 operation(s) for surveys.
   name: Mavrck Surveys API
   slug: mavrck-surveys-api
-- description: The Tiktok Activations API from Mavrck — 1 operation(s) for tiktok activations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Tiktok Activations API from Mavrck — 1 operation(s) for tiktok activations.
   name: Mavrck Tiktok Activations API
   slug: mavrck-tiktok-activations-api
-- description: The TikTok TTCM API from Mavrck — 2 operation(s) for tiktok ttcm.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The TikTok TTCM API from Mavrck — 2 operation(s) for tiktok ttcm.
   name: Mavrck TikTok TTCM API
   slug: mavrck-tiktok-ttcm-api
-- description: The TikTokCampaignFields API from Mavrck — 1 operation(s) for tiktokcampaignfields.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The TikTokCampaignFields API from Mavrck — 1 operation(s) for tiktokcampaignfields.
   name: Mavrck Tik Tok Campaign Fields API
   slug: mavrck-tiktokcampaignfields-api
-- description: The TipaltiPayee API from Mavrck — 1 operation(s) for tipaltipayee.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The TipaltiPayee API from Mavrck — 1 operation(s) for tipaltipayee.
   name: Mavrck Tipalti Payee API
   slug: mavrck-tipaltipayee-api
-- description: The TipaltiTransfers API from Mavrck — 1 operation(s) for tipaltitransfers.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The TipaltiTransfers API from Mavrck — 1 operation(s) for tipaltitransfers.
   name: Mavrck Tipalti Transfers API
   slug: mavrck-tipaltitransfers-api
-- description: The Topics API from Mavrck — 1 operation(s) for topics.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Topics API from Mavrck — 1 operation(s) for topics.
   name: Mavrck Topics API
   slug: mavrck-topics-api
-- description: The Tracking Link API from Mavrck — 1 operation(s) for tracking link.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Tracking Link API from Mavrck — 1 operation(s) for tracking link.
   name: Mavrck Tracking Link API
   slug: mavrck-tracking-link-api
-- description: The TrackingLinks API from Mavrck — 2 operation(s) for trackinglinks.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The TrackingLinks API from Mavrck — 2 operation(s) for trackinglinks.
   name: Mavrck Tracking Links API
   slug: mavrck-trackinglinks-api
-- description: The Translations API from Mavrck — 1 operation(s) for translations.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Translations API from Mavrck — 1 operation(s) for translations.
   name: Mavrck Translations API
   slug: mavrck-translations-api
-- description: The uploadPolicy API from Mavrck — 1 operation(s) for uploadpolicy.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The uploadPolicy API from Mavrck — 1 operation(s) for uploadpolicy.
   name: Mavrck Upload Policy API
   slug: mavrck-uploadpolicy-api
-- description: The URLMetadata API from Mavrck — 1 operation(s) for urlmetadata.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The URLMetadata API from Mavrck — 1 operation(s) for urlmetadata.
   name: Mavrck URL Metadata API
   slug: mavrck-urlmetadata-api
-- description: The UserAccount API from Mavrck — 3 operation(s) for useraccount.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The UserAccount API from Mavrck — 3 operation(s) for useraccount.
   name: Mavrck User Account API
   slug: mavrck-useraccount-api
-- description: The Webhooks API from Mavrck — 1 operation(s) for webhooks.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Webhooks API from Mavrck — 1 operation(s) for webhooks.
   name: Mavrck Webhooks API
   slug: mavrck-webhooks-api
-- description: The WebPluginWidgets API from Mavrck — 1 operation(s) for webpluginwidgets.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The WebPluginWidgets API from Mavrck — 1 operation(s) for webpluginwidgets.
   name: Mavrck Web Plugin Widgets API
   slug: mavrck-webpluginwidgets-api
-- description: The Workflow API from Mavrck — 8 operation(s) for workflow.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Workflow API from Mavrck — 8 operation(s) for workflow.
   name: Mavrck Workflow API
   slug: mavrck-workflow-api
-- description: The Yotpo API from Mavrck — 1 operation(s) for yotpo.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The Yotpo API from Mavrck — 1 operation(s) for yotpo.
   name: Mavrck Yotpo API
   slug: mavrck-yotpo-api
-- description: The YtbcActionGroupChannels API from Mavrck — 2 operation(s) for ytbcactiongroupchannels.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The YtbcActionGroupChannels API from Mavrck — 2 operation(s) for ytbcactiongroupchannels.
   name: Mavrck Ytbc Action Group Channels API
   slug: mavrck-ytbcactiongroupchannels-api
-- description: The YtbcBrandChannels API from Mavrck — 2 operation(s) for ytbcbrandchannels.
+- baseURL: https://api.mavrck.co/v1
+  baseurl_source: declared
+  description: The YtbcBrandChannels API from Mavrck — 2 operation(s) for ytbcbrandchannels.
   name: Mavrck Ytbc Brand Channels API
   slug: mavrck-ytbcbrandchannels-api
-- description: The Campaign Level API from Mavrck — 1 operation(s) for campaign level.
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Campaign Level API from Mavrck — 1 operation(s) for campaign level.
   name: Mavrck Campaign Level API
   slug: mavrck-campaign-level-api
-- description: The Influencer Level API from Mavrck — 1 operation(s) for influencer level.
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Influencer Level API from Mavrck — 1 operation(s) for influencer level.
   name: Mavrck Influencer Level API
   slug: mavrck-influencer-level-api
-- description: The Instance Level API from Mavrck — 5 operation(s) for instance level.
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Instance Level API from Mavrck — 5 operation(s) for instance level.
   name: Mavrck Instance Level API
   slug: mavrck-instance-level-api
-- description: The Post Level API from Mavrck — 1 operation(s) for post level.
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Post Level API from Mavrck — 1 operation(s) for post level.
   name: Mavrck Post Level API
   slug: mavrck-post-level-api
-- description: The Social Network Level API from Mavrck — 2 operation(s) for social network level.
+- baseURL: https://api.mavrck.co
+  baseurl_source: declared
+  description: The Social Network Level API from Mavrck — 2 operation(s) for social network level.
   name: Mavrck Social Network Level API
   slug: mavrck-social-network-level-api
 artifact_total: 362
@@ -1274,7 +1636,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -1284,7 +1646,7 @@ score:
     discoverability: 51.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -1301,7 +1663,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:

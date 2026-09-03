@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 18 operations · 4 acting
 api_count: 1
 apis:
-- description: Wufoo webhooks POST form-submission payloads to a subscriber URL at the moment an entry is created. Up to 10 webhooks per form, with optional handshake key for verification and optional metadata for r
+- baseURL: https://{subscriber}/
+  baseurl_source: declared
+  description: Wufoo webhooks POST form-submission payloads to a subscriber URL at the moment an entry is created. Up to 10 webhooks per form, with optional handshake key for verification and optional metadata for r
   name: Wufoo Webhooks
   slug: wufoo-webhooks
-- description: Read comments attached to entries.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read comments attached to entries.
   name: Wufoo Comments API
   slug: wufoo-comments-api
-- description: Read and create form submissions.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read and create form submissions.
   name: Wufoo Entries API
   slug: wufoo-entries-api
-- description: Read the field structure of a form or report.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read the field structure of a form or report.
   name: Wufoo Fields API
   slug: wufoo-fields-api
-- description: Read forms and their metadata.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read forms and their metadata.
   name: Wufoo Forms API
   slug: wufoo-forms-api
-- description: Exchange credentials for an API key.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Exchange credentials for an API key.
   name: Wufoo Login API
   slug: wufoo-login-api
-- description: Read reports built on top of forms.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read reports built on top of forms.
   name: Wufoo Reports API
   slug: wufoo-reports-api
-- description: Read account user information.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read account user information.
   name: Wufoo Users API
   slug: wufoo-users-api
-- description: Subscribe to and unsubscribe from form submission webhooks.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Subscribe to and unsubscribe from form submission webhooks.
   name: Wufoo Webhooks API
   slug: wufoo-webhooks-api
-- description: Read widgets inside reports.
+- baseURL: https://{subdomain}.wufoo.com/api/v3
+  baseurl_source: declared
+  description: Read widgets inside reports.
   name: Wufoo Widgets API
   slug: wufoo-widgets-api
 arazzos:
@@ -448,7 +468,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -458,7 +478,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 60.3
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     contracts:
@@ -473,7 +493,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

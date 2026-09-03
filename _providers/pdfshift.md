@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: The account API from PDFShift — 1 operation(s) for account.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The account API from PDFShift — 1 operation(s) for account.
   name: PDFShift account API
   slug: pdfshift-account-api
-- description: The Convert API from PDFShift — 4 operation(s) for convert.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The Convert API from PDFShift — 4 operation(s) for convert.
   name: PDFShift Convert API
   slug: pdfshift-convert-api
-- description: The credits API from PDFShift — 1 operation(s) for credits.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The credits API from PDFShift — 1 operation(s) for credits.
   name: PDFShift credits API
   slug: pdfshift-credits-api
-- description: The details API from PDFShift — 1 operation(s) for details.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The details API from PDFShift — 1 operation(s) for details.
   name: PDFShift details API
   slug: pdfshift-details-api
-- description: The Invoices API from PDFShift — 1 operation(s) for invoices.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The Invoices API from PDFShift — 1 operation(s) for invoices.
   name: PDFShift Invoices API
   slug: pdfshift-invoices-api
-- description: The Logs API from PDFShift — 2 operation(s) for logs.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The Logs API from PDFShift — 2 operation(s) for logs.
   name: PDFShift Logs API
   slug: pdfshift-logs-api
-- description: The templates API from PDFShift — 4 operation(s) for templates.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The templates API from PDFShift — 4 operation(s) for templates.
   name: PDFShift templates API
   slug: pdfshift-templates-api
-- description: The usage API from PDFShift — 1 operation(s) for usage.
+- baseURL: https://api.pdfshift.io/v3
+  baseurl_source: declared
+  description: The usage API from PDFShift — 1 operation(s) for usage.
   name: PDFShift usage API
   slug: pdfshift-usage-api
 artifact_total: 48
@@ -297,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdfshift/refs/heads/main/screenshots/pdfshift-2026-06-20T191519.png
 security:

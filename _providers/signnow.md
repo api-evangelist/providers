@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 1
 apis:
-- description: OAuth2 token management
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: OAuth2 token management
   name: SignNow Authentication API
   slug: signnow-authentication-api
-- description: Upload, manage, and retrieve documents
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: Upload, manage, and retrieve documents
   name: SignNow Documents API
   slug: signnow-documents-api
-- description: Document group envelope management
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: Document group envelope management
   name: SignNow Envelopes API
   slug: signnow-envelopes-api
-- description: Send signature invitations and manage signers
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: Send signature invitations and manage signers
   name: SignNow Signing API
   slug: signnow-signing-api
-- description: Create and manage document templates
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: Create and manage document templates
   name: SignNow Templates API
   slug: signnow-templates-api
-- description: User account management
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: User account management
   name: SignNow Users API
   slug: signnow-users-api
-- description: Event subscription and notification management
+- baseURL: https://api.signnow.com
+  baseurl_source: declared
+  description: Event subscription and notification management
   name: SignNow Webhooks API
   slug: signnow-webhooks-api
 artifact_total: 37
@@ -277,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/screenshots/signnow-2026-06-20T193914.png
 security:

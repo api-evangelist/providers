@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: The Context7 CLI (ctx7) is a command-line tool for querying the Context7 index from the terminal. It provides ctx7 library for searching the catalog by library name and ctx7 docs for retrieving docume
   name: Context7 CLI
   slug: cli
-- description: The Add API from Context7 — 6 operation(s) for add.
+- baseURL: https://context7.com/api
+  baseurl_source: declared
+  description: The Add API from Context7 — 6 operation(s) for add.
   name: Context7 Add API
   slug: context7-add-api
-- description: The Context API from Context7 — 1 operation(s) for context.
+- baseURL: https://context7.com/api
+  baseurl_source: declared
+  description: The Context API from Context7 — 1 operation(s) for context.
   name: Context7 Context API
   slug: context7-context-api
-- description: The Libs API from Context7 — 1 operation(s) for libs.
+- baseURL: https://context7.com/api
+  baseurl_source: declared
+  description: The Libs API from Context7 — 1 operation(s) for libs.
   name: Context7 Libs API
   slug: context7-libs-api
-- description: The Policies API from Context7 — 1 operation(s) for policies.
+- baseURL: https://context7.com/api
+  baseurl_source: declared
+  description: The Policies API from Context7 — 1 operation(s) for policies.
   name: Context7 Policies API
   slug: context7-policies-api
-- description: The Refresh API from Context7 — 1 operation(s) for refresh.
+- baseURL: https://context7.com/api
+  baseurl_source: declared
+  description: The Refresh API from Context7 — 1 operation(s) for refresh.
   name: Context7 Refresh API
   slug: context7-refresh-api
 artifact_total: 21
@@ -200,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/context7/refs/heads/main/screenshots/context7-2026-06-20T174932.png
 security:

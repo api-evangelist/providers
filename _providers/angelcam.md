@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 8
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 124 operations · 53 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Endpoints for managing your activated services and assigning them to cameras. A service must first be activated (purchased) for your account, then assigned to a specific camera before it takes effect '
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'Endpoints for managing your activated services and assigning them to cameras. A service must first be activated (purchased) for your account, then assigned to a specific camera before it takes effect '
   name: AngelCam active-service API
   slug: angelcam-active-service-api
-- description: The angelcameras API from AngelCam — 1 operation(s) for angelcameras.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: The angelcameras API from AngelCam — 1 operation(s) for angelcameras.
   name: AngelCam angelcameras API
   slug: angelcam-angelcameras-api
-- description: Manage [Arrow clients](https://github.com/angelcam/arrow-client) — pair them with your account, inspect exposed services, and send commands. **Pairing:** restart the device (pairing mode is active for
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Manage [Arrow clients](https://github.com/angelcam/arrow-client) — pair them with your account, inspect exposed services, and send commands. **Pairing:** restart the device (pairing mode is active for
   name: AngelCam arrow-clients API
   slug: angelcam-arrow-clients-api
-- description: Endpoints for managing audio messages. Audio messages are pre-recorded audio clips that can be played through [speakers](#tag/speakers). Audio files are uploaded as Base64-encoded content. Supported f
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing audio messages. Audio messages are pre-recorded audio clips that can be played through [speakers](#tag/speakers). Audio files are uploaded as Base64-encoded content. Supported f
   name: AngelCam audio-message API
   slug: angelcam-audio-message-api
-- description: Endpoints for managing broadcasting settings and retrieving broadcasting streams. If a camera doesn't have the Broadcasting service activated, all camera broadcasting endpoints will return HTTP 404. T
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing broadcasting settings and retrieving broadcasting streams. If a camera doesn't have the Broadcasting service activated, all camera broadcasting endpoints will return HTTP 404. T
   name: AngelCam broadcasting API
   slug: angelcam-broadcasting-api
-- description: 'Manage your cameras and access live streams, snapshots, and recordings. Supported codecs: H.264, H.265 (experimental), MJPEG. Live streams are limited to 10 concurrent consumers per camera — use the ['
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'Manage your cameras and access live streams, snapshots, and recordings. Supported codecs: H.264, H.265 (experimental), MJPEG. Live streams are limited to 10 concurrent consumers per camera — use the ['
   name: AngelCam camera API
   slug: angelcam-camera-api
-- description: You can share your camera with a guest, this means, you allow guests to view stream from your camera. There is also an option to share also recordings together with live stream. When you adding new gu
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: You can share your camera with a guest, this means, you allow guests to view stream from your camera. There is also an option to share also recordings together with live stream. When you adding new gu
   name: AngelCam camera-guest API
   slug: angelcam-camera-guest-api
-- description: Using these endpoints you can verify if there are camera streams available on specified network address. Detection is asynchronous. For this reason there is one endpoint for initializing stream detect
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Using these endpoints you can verify if there are camera streams available on specified network address. Detection is asynchronous. For this reason there is one endpoint for initializing stream detect
   name: AngelCam camera-stream-detection API
   slug: angelcam-camera-stream-detection-api
-- description: 'Endpoints for reseller users to manage their clients. A reseller can create two types of client accounts: * **Full account** — the client has full control over their cameras and services. * **Limited '
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'Endpoints for reseller users to manage their clients. A reseller can create two types of client accounts: * **Full account** — the client has full control over their cameras and services. * **Limited '
   name: AngelCam client API
   slug: angelcam-client-api
-- description: A clip is a permanent, downloadable excerpt of recorded footage. Unlike a recording stream — which is a temporary playback session — a clip is processed into a file that can be downloaded or shared wi
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: A clip is a permanent, downloadable excerpt of recorded footage. Unlike a recording stream — which is a temporary playback session — a clip is processed into a file that can be downloaded or shared wi
   name: AngelCam clip API
   slug: angelcam-clip-api
-- description: Events represent detections reported by cameras or sensors — typically motion detected by a camera or a trigger from an external sensor. Events are the building blocks for [RTS incidents](#tag/inciden
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Events represent detections reported by cameras or sensors — typically motion detected by a camera or a trigger from an external sensor. Events are the building blocks for [RTS incidents](#tag/inciden
   name: AngelCam event API
   slug: angelcam-event-api
-- description: Endpoints for managing Real Time Security (RTS) incidents. An incident is a security event that has been detected and may require attention. Incidents are created automatically when sensor events or c
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing Real Time Security (RTS) incidents. An incident is a security event that has been detected and may require attention. Incidents are created automatically when sensor events or c
   name: AngelCam incidents API
   slug: angelcam-incidents-api
-- description: Endpoints for accessing and managing locations. Locations are used to organize cameras into groups. Every camera belongs to exactly one location, and every user has a root location whose ID is availab
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for accessing and managing locations. Locations are used to organize cameras into groups. Every camera belongs to exactly one location, and every user has a root location whose ID is availab
   name: AngelCam location API
   slug: angelcam-location-api
-- description: The order API from AngelCam — 3 operation(s) for order.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: The order API from AngelCam — 3 operation(s) for order.
   name: AngelCam order API
   slug: angelcam-order-api
-- description: Endpoints for browsing cameras that are publicly accessible. A camera appears here if it has the Broadcasting service active and has been marked as public — either because it uses free public broadcas
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for browsing cameras that are publicly accessible. A camera appears here if it has the Broadcasting service active and has been marked as public — either because it uses free public broadcas
   name: AngelCam public-camera API
   slug: angelcam-public-camera-api
-- description: Cloud Recording endpoints. Requires the Cloud Recording service to be active on the camera — otherwise all endpoints return 404. A camera can have multiple simultaneous recordings (e.g. continuous + e
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Cloud Recording endpoints. Requires the Cloud Recording service to be active on the camera — otherwise all endpoints return 404. A camera can have multiple simultaneous recordings (e.g. continuous + e
   name: AngelCam recording API
   slug: angelcam-recording-api
-- description: Endpoints for managing notifications. Base object is message. We create a message when something important happens. For example, when a camera goes offline, when a sensor detects motion, etc. When a m
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing notifications. Base object is message. We create a message when something important happens. For example, when a camera goes offline, when a sensor detects motion, etc. When a m
   name: AngelCam rts_messages API
   slug: angelcam-rts-messages-api
-- description: Manage notification methods — email and HTTP webhook. HTTP methods send a signed POST to your URL with a JSON payload on each notification. See the [Webhooks guide](/guides/webhooks/) for payload fiel
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Manage notification methods — email and HTTP webhook. HTTP methods send a signed POST to your URL with a JSON payload on each notification. See the [Webhooks guide](/guides/webhooks/) for payload fiel
   name: AngelCam rts_notification_methods API
   slug: angelcam-rts-notification-methods-api
-- description: 'Endpoints for managing notification rules. Notification rule is a rule that defines when and how we should send message to user. For example, we can create rule that says: "When camera goes offline, s'
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'Endpoints for managing notification rules. Notification rule is a rule that defines when and how we should send message to user. For example, we can create rule that says: "When camera goes offline, s'
   name: AngelCam rts_notification_rules API
   slug: angelcam-rts-notification-rules-api
-- description: 'Global Real Time Security (RTS) settings for your account. The main setting is `incident_ttl`, which controls how long (in [ISO 8601 duration format](#section/Angelcam-API/Time-and-duration-formats)) '
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'Global Real Time Security (RTS) settings for your account. The main setting is `incident_ttl`, which controls how long (in [ISO 8601 duration format](#section/Angelcam-API/Time-and-duration-formats)) '
   name: AngelCam rts_settings API
   slug: angelcam-rts-settings-api
-- description: With sensor endpoints you can view, manage and connect sensors to the user account. Sensor can be bind to one particular already connected [camera](#tag/camera) to mark received [events](#tag/event) o
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: With sensor endpoints you can view, manage and connect sensors to the user account. Sensor can be bind to one particular already connected [camera](#tag/camera) to mark received [events](#tag/event) o
   name: AngelCam sensor API
   slug: angelcam-sensor-api
-- description: A catalog of services available for purchase. Use these endpoints to discover service `code` values before activating a service via the [My services](#tag/active-service) endpoints. Services fall into
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: A catalog of services available for purchase. Use these endpoints to discover service `code` values before activating a service via the [My services](#tag/active-service) endpoints. Services fall into
   name: AngelCam service API
   slug: angelcam-service-api
-- description: 'For access to cameras which somebody shared with you. In general everything is same as in my cameras section, see above, there is only one difference. Together with cameras information you get also a '
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'For access to cameras which somebody shared with you. In general everything is same as in my cameras section, see above, there is only one difference. Together with cameras information you get also a '
   name: AngelCam shared-camera API
   slug: angelcam-shared-camera-api
-- description: Recording clips on cameras shared with you. Everything works the same as [My recording clips](#tag/clip) — just replace `cameras` with `shared-cameras` in the endpoint URLs.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Recording clips on cameras shared with you. Everything works the same as [My recording clips](#tag/clip) — just replace `cameras` with `shared-cameras` in the endpoint URLs.
   name: AngelCam shared-camera-clip API
   slug: angelcam-shared-camera-clip-api
-- description: Everything is same as in recording for my own cameras. Just replace `cameras` by `shared-cameras` in every endpoints url.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Everything is same as in recording for my own cameras. Just replace `cameras` by `shared-cameras` in every endpoints url.
   name: AngelCam shared-camera-recording API
   slug: angelcam-shared-camera-recording-api
-- description: 'A **space** is the organisational unit in Angelcam — it owns all resources: cameras, locations, recordings, services, and billing. Every API request operates within a space context — by default the us'
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'A **space** is the organisational unit in Angelcam — it owns all resources: cameras, locations, recordings, services, and billing. Every API request operates within a space context — by default the us'
   name: AngelCam space API
   slug: angelcam-space-api
-- description: Manage speakers and trigger audio playback. See the [Speakers guide](/guides/speakers/) for setup instructions, including how to configure an AngelBox as a speaker.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: Manage speakers and trigger audio playback. See the [Speakers guide](/guides/speakers/) for setup instructions, including how to configure an AngelBox as a speaker.
   name: AngelCam speakers API
   slug: angelcam-speakers-api
-- description: 'You normally don''t have to know the `streamer_domain` and `stream_id` path parameter, but use the generated endpoint URLs as reported by the `stream_controls` field in a create-stream response. Those '
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: 'You normally don''t have to know the `streamer_domain` and `stream_id` path parameter, but use the generated endpoint URLs as reported by the `stream_controls` field in a create-stream response. Those '
   name: AngelCam stream-controls API
   slug: angelcam-stream-controls-api
-- description: The user API from AngelCam — 1 operation(s) for user.
+- baseURL: https://api.angelcam.com/v1
+  baseurl_source: declared
+  description: The user API from AngelCam — 1 operation(s) for user.
   name: AngelCam user API
   slug: angelcam-user-api
 arazzos:
@@ -387,7 +445,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -397,7 +455,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +467,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png
 security:

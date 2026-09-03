@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -43,256 +43,424 @@ agentic_access:
   summary_line: 84 operations · 84 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectdominantlanguage.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectdominantlanguage.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectdominantlanguage-api
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectentities.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectentities.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectEntities API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectentities-api
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectkeyphrases.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectkeyphrases.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectKeyPhrases API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectkeyphrases-api
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectsentiment.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectsentiment.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectSentiment API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectsentiment-api
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectSyntax API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectsyntax.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectSyntax API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectsyntax.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectSyntax API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetectsyntax-api
-- description: 'The #X Amz Target=Comprehend 20171127.BatchDetectTargetedSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetecttargetedsentiment.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.BatchDetectTargetedSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetecttargetedsentiment.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectTargetedSentiment API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-batchdetecttargetedsentiment-api
-- description: 'The #X Amz Target=Comprehend 20171127.ClassifyDocument API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.classifydocument.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ClassifyDocument API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.classifydocument.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ClassifyDocument API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-classifydocument-api
-- description: 'The #X Amz Target=Comprehend 20171127.ContainsPiiEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.containspiientities.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ContainsPiiEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.containspiientities.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ContainsPiiEntities API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-containspiientities-api
-- description: 'The #X Amz Target=Comprehend 20171127.CreateDataset API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createdataset.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.CreateDataset API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createdataset.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.CreateDataset API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-createdataset-api
-- description: 'The #X Amz Target=Comprehend 20171127.CreateDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createdocumentclassifier.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.CreateDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createdocumentclassifier.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.CreateDocumentClassifier API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-createdocumentclassifier-api
-- description: 'The #X Amz Target=Comprehend 20171127.CreateEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createendpoint.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.CreateEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createendpoint.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.CreateEndpoint API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-createendpoint-api
-- description: 'The #X Amz Target=Comprehend 20171127.CreateEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createentityrecognizer.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.CreateEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createentityrecognizer.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.CreateEntityRecognizer API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-createentityrecognizer-api
-- description: 'The #X Amz Target=Comprehend 20171127.CreateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createflywheel.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.CreateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.createflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.CreateFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-createflywheel-api
-- description: 'The #X Amz Target=Comprehend 20171127.DeleteDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deletedocumentclassifier.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DeleteDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deletedocumentclassifier.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DeleteDocumentClassifier API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-deletedocumentclassifier-api
-- description: 'The #X Amz Target=Comprehend 20171127.DeleteEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteendpoint.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DeleteEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteendpoint.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DeleteEndpoint API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-deleteendpoint-api
-- description: 'The #X Amz Target=Comprehend 20171127.DeleteEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteentityrecognizer.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DeleteEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteentityrecognizer.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DeleteEntityRecognizer API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-deleteentityrecognizer-api
-- description: 'The #X Amz Target=Comprehend 20171127.DeleteFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteflywheel.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DeleteFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DeleteFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-deleteflywheel-api
-- description: 'The #X Amz Target=Comprehend 20171127.DeleteResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteresourcepolicy.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DeleteResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.deleteresourcepolicy.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DeleteResourcePolicy API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-deleteresourcepolicy-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeDataset API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedataset.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeDataset API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedataset.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeDataset API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describedataset-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeDocumentClassificationJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedocumentclassificationjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeDocumentClassificationJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedocumentclassificationjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeDocumentClassificationJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describedocumentclassificationjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedocumentclassifier.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedocumentclassifier.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeDocumentClassifier API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describedocumentclassifier-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedominantlanguagedetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describedominantlanguagedetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeDominantLanguageDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describedominantlanguagedetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeendpoint.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeendpoint.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeEndpoint API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeendpoint-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeentitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeentitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeentitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeentityrecognizer.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeentityrecognizer.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeEntityRecognizer API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeentityrecognizer-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeeventsdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeeventsdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeEventsDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeeventsdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeflywheel.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeflywheel-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeFlywheelIteration API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeflywheeliteration.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeFlywheelIteration API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeflywheeliteration.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeFlywheelIteration API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeflywheeliteration-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describekeyphrasesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describekeyphrasesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeKeyPhrasesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describekeyphrasesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribePiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describepiientitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribePiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describepiientitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribePiiEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describepiientitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeresourcepolicy.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describeresourcepolicy.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeResourcePolicy API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describeresourcepolicy-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describesentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describesentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describesentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describetargetedsentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describetargetedsentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeTargetedSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describetargetedsentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DescribeTopicsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describetopicsdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DescribeTopicsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.describetopicsdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DescribeTopicsDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-describetopicsdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectDominantLanguage API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectdominantlanguage.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectDominantLanguage API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectdominantlanguage.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectDominantLanguage API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectdominantlanguage-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectentities.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectentities.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectEntities API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectentities-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectKeyPhrases API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectkeyphrases.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectKeyPhrases API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectkeyphrases.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectKeyPhrases API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectkeyphrases-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectPiiEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectpiientities.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectPiiEntities API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectpiientities.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectPiiEntities API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectpiientities-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectsentiment.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectsentiment.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectSentiment API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectsentiment-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectSyntax API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectsyntax.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectSyntax API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detectsyntax.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectSyntax API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detectsyntax-api
-- description: 'The #X Amz Target=Comprehend 20171127.DetectTargetedSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detecttargetedsentiment.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.DetectTargetedSentiment API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.detecttargetedsentiment.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.DetectTargetedSentiment API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-detecttargetedsentiment-api
-- description: 'The #X Amz Target=Comprehend 20171127.ImportModel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.importmodel.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ImportModel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.importmodel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ImportModel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-importmodel-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListDatasets API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdatasets.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListDatasets API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdatasets.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListDatasets API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listdatasets-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassificationJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassificationjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassificationJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassificationjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListDocumentClassificationJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassificationjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassifiers API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassifiers.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassifiers API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassifiers.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListDocumentClassifiers API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassifiers-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassifierSummaries API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassifiersummaries.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListDocumentClassifierSummaries API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdocumentclassifiersummaries.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListDocumentClassifierSummaries API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listdocumentclassifiersummaries-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListDominantLanguageDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdominantlanguagedetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListDominantLanguageDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listdominantlanguagedetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListDominantLanguageDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listdominantlanguagedetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListEndpoints API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listendpoints.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListEndpoints API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listendpoints.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListEndpoints API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listendpoints-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListEntitiesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentitiesdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListEntitiesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentitiesdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListEntitiesDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listentitiesdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListEntityRecognizers API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentityrecognizers.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListEntityRecognizers API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentityrecognizers.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListEntityRecognizers API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listentityrecognizers-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListEntityRecognizerSummaries API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentityrecognizersummaries.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListEntityRecognizerSummaries API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listentityrecognizersummaries.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListEntityRecognizerSummaries API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listentityrecognizersummaries-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListEventsDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listeventsdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListEventsDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listeventsdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListEventsDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listeventsdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListFlywheelIterationHistory API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listflywheeliterationhistory.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListFlywheelIterationHistory API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listflywheeliterationhistory.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListFlywheelIterationHistory API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listflywheeliterationhistory-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListFlywheels API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listflywheels.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListFlywheels API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listflywheels.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListFlywheels API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listflywheels-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListKeyPhrasesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listkeyphrasesdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListKeyPhrasesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listkeyphrasesdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListKeyPhrasesDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listkeyphrasesdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListPiiEntitiesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listpiientitiesdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListPiiEntitiesDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listpiientitiesdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListPiiEntitiesDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listpiientitiesdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListSentimentDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listsentimentdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListSentimentDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listsentimentdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListSentimentDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listsentimentdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListTagsForResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtagsforresource.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListTagsForResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtagsforresource.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListTagsForResource API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listtagsforresource-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListTargetedSentimentDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtargetedsentimentdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListTargetedSentimentDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtargetedsentimentdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListTargetedSentimentDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listtargetedsentimentdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.ListTopicsDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtopicsdetectionjobs.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.ListTopicsDetectionJobs API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.listtopicsdetectionjobs.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.ListTopicsDetectionJobs API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-listtopicsdetectionjobs-api
-- description: 'The #X Amz Target=Comprehend 20171127.PutResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.putresourcepolicy.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.PutResourcePolicy API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.putresourcepolicy.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.PutResourcePolicy API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-putresourcepolicy-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartDocumentClassificationJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startdocumentclassificationjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartDocumentClassificationJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startdocumentclassificationjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartDocumentClassificationJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startdocumentclassificationjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startdominantlanguagedetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startdominantlanguagedetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartDominantLanguageDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startdominantlanguagedetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startentitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startentitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startentitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starteventsdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starteventsdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartEventsDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-starteventsdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartFlywheelIteration API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startflywheeliteration.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartFlywheelIteration API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startflywheeliteration.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartFlywheelIteration API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startflywheeliteration-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startkeyphrasesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startkeyphrasesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartKeyPhrasesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startkeyphrasesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartPiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startpiientitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartPiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startpiientitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartPiiEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startpiientitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startsentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.startsentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-startsentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starttargetedsentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starttargetedsentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartTargetedSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-starttargetedsentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StartTopicsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starttopicsdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StartTopicsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.starttopicsdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StartTopicsDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-starttopicsdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopdominantlanguagedetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopDominantLanguageDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopdominantlanguagedetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopDominantLanguageDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stopdominantlanguagedetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopentitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopentitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stopentitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopeventsdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopEventsDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopeventsdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopEventsDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stopeventsdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopkeyphrasesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopKeyPhrasesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopkeyphrasesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopKeyPhrasesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stopkeyphrasesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopPiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoppiientitiesdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopPiiEntitiesDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoppiientitiesdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopPiiEntitiesDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stoppiientitiesdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopsentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stopsentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stopsentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptargetedsentimentdetectionjob.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopTargetedSentimentDetectionJob API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptargetedsentimentdetectionjob.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopTargetedSentimentDetectionJob API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stoptargetedsentimentdetectionjob-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopTrainingDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptrainingdocumentclassifier.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopTrainingDocumentClassifier API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptrainingdocumentclassifier.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopTrainingDocumentClassifier API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stoptrainingdocumentclassifier-api
-- description: 'The #X Amz Target=Comprehend 20171127.StopTrainingEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptrainingentityrecognizer.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.StopTrainingEntityRecognizer API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.stoptrainingentityrecognizer.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.StopTrainingEntityRecognizer API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-stoptrainingentityrecognizer-api
-- description: 'The #X Amz Target=Comprehend 20171127.TagResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.tagresource.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.TagResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.tagresource.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.TagResource API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-tagresource-api
-- description: 'The #X Amz Target=Comprehend 20171127.UntagResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.untagresource.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.UntagResource API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.untagresource.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.UntagResource API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-untagresource-api
-- description: 'The #X Amz Target=Comprehend 20171127.UpdateEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateendpoint.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.UpdateEndpoint API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateendpoint.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.UpdateEndpoint API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-updateendpoint-api
-- description: 'The #X Amz Target=Comprehend 20171127.UpdateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateflywheel.'
+- baseURL: https://comprehend.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Comprehend 20171127.UpdateFlywheel API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.updateflywheel.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
   slug: amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
 artifact_total: 1274
@@ -4008,7 +4176,7 @@ score:
       total: 84
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/screenshots/amazon-comprehend-2026-07-25T200001.png
 security:

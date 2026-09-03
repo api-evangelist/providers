@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: The Firebase Remote Config API enables developers to change the behavior and appearance of their apps without requiring users to download an update. The API allows publishing new Remote Config templat
   name: Firebase Remote Config API
   slug: firebase-remote-config-api
-- description: Operations for reading and writing database nodes
+- baseURL: https://firebaseio.com
+  baseurl_source: declared
+  description: Operations for reading and writing database nodes
   name: Google Firebase Data API
   slug: google-firebase-data-api
-- description: Send messages to devices and topics
+- baseURL: https://firebaseio.com
+  baseurl_source: declared
+  description: Send messages to devices and topics
   name: Google Firebase Messages API
   slug: google-firebase-messages-api
 artifact_total: 33
@@ -270,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-firebase/refs/heads/main/screenshots/google-firebase-2026-06-20T182200.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -45,58 +45,94 @@ agentic_access:
   summary_line: 86 operations · 36 acting · 2 human-in-the-loop
 api_count: 6
 apis:
-- description: The AdGroups API from Cardlytics — 8 operation(s) for adgroups.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The AdGroups API from Cardlytics — 8 operation(s) for adgroups.
   name: Cardlytics Ad Groups API
   slug: cardlytics-adgroups-api
-- description: The Ads API from Cardlytics — 10 operation(s) for ads.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Ads API from Cardlytics — 10 operation(s) for ads.
   name: Cardlytics Ads API
   slug: cardlytics-ads-api
-- description: The ads-controller API from Cardlytics — 1 operation(s) for ads-controller.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The ads-controller API from Cardlytics — 1 operation(s) for ads-controller.
   name: Cardlytics Ads Controller API
   slug: cardlytics-ads-controller-api
-- description: The AudienceReach API from Cardlytics — 1 operation(s) for audiencereach.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The AudienceReach API from Cardlytics — 1 operation(s) for audiencereach.
   name: Cardlytics Audience Reach API
   slug: cardlytics-audiencereach-api
-- description: The Audiences API from Cardlytics — 6 operation(s) for audiences.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Audiences API from Cardlytics — 6 operation(s) for audiences.
   name: Cardlytics Audiences API
   slug: cardlytics-audiences-api
-- description: The AuditLogs API from Cardlytics — 1 operation(s) for auditlogs.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The AuditLogs API from Cardlytics — 1 operation(s) for auditlogs.
   name: Cardlytics Audit Logs API
   slug: cardlytics-auditlogs-api
-- description: The Authentication API from Cardlytics — 1 operation(s) for authentication.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Authentication API from Cardlytics — 1 operation(s) for authentication.
   name: Cardlytics Authentication API
   slug: cardlytics-authentication-api
-- description: The Campaigns API from Cardlytics — 14 operation(s) for campaigns.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Campaigns API from Cardlytics — 14 operation(s) for campaigns.
   name: Cardlytics Campaigns API
   slug: cardlytics-campaigns-api
-- description: The customer-controller API from Cardlytics — 3 operation(s) for customer-controller.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The customer-controller API from Cardlytics — 3 operation(s) for customer-controller.
   name: Cardlytics Customer Controller API
   slug: cardlytics-customer-controller-api
-- description: The Geo API from Cardlytics — 6 operation(s) for geo.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Geo API from Cardlytics — 6 operation(s) for geo.
   name: Cardlytics Geo API
   slug: cardlytics-geo-api
-- description: The Merchants API from Cardlytics — 1 operation(s) for merchants.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Merchants API from Cardlytics — 1 operation(s) for merchants.
   name: Cardlytics Merchants API
   slug: cardlytics-merchants-api
-- description: The Offers API from Cardlytics — 1 operation(s) for offers.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Offers API from Cardlytics — 1 operation(s) for offers.
   name: Cardlytics Offers API
   slug: cardlytics-offers-api
-- description: The PricingModels API from Cardlytics — 3 operation(s) for pricingmodels.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The PricingModels API from Cardlytics — 3 operation(s) for pricingmodels.
   name: Cardlytics Pricing Models API
   slug: cardlytics-pricingmodels-api
-- description: The PurchaseCategories API from Cardlytics — 2 operation(s) for purchasecategories.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The PurchaseCategories API from Cardlytics — 2 operation(s) for purchasecategories.
   name: Cardlytics Purchase Categories API
   slug: cardlytics-purchasecategories-api
-- description: The Redemptions API from Cardlytics — 1 operation(s) for redemptions.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Redemptions API from Cardlytics — 1 operation(s) for redemptions.
   name: Cardlytics Redemptions API
   slug: cardlytics-redemptions-api
-- description: The Reports API from Cardlytics — 1 operation(s) for reports.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Reports API from Cardlytics — 1 operation(s) for reports.
   name: Cardlytics Reports API
   slug: cardlytics-reports-api
-- description: The Rewards API from Cardlytics — 6 operation(s) for rewards.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The Rewards API from Cardlytics — 6 operation(s) for rewards.
   name: Cardlytics Rewards API
   slug: cardlytics-rewards-api
-- description: The session-controller API from Cardlytics — 1 operation(s) for session-controller.
+- baseURL: https://api.cardlytics.com
+  baseurl_source: declared
+  description: The session-controller API from Cardlytics — 1 operation(s) for session-controller.
   name: Cardlytics Session Controller API
   slug: cardlytics-session-controller-api
 artifact_total: 29
@@ -305,7 +341,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -315,7 +351,7 @@ score:
     discoverability: 92.6
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,7 +372,7 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:

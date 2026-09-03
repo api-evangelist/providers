@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Operations for managing EKS add-ons
+- baseURL: https://eks.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing EKS add-ons
   name: Amazon EKS Addons API
   slug: amazon-eks-addons-api
-- description: Operations for managing EKS clusters
+- baseURL: https://eks.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing EKS clusters
   name: Amazon EKS Clusters API
   slug: amazon-eks-clusters-api
-- description: Operations for managing EKS Fargate profiles
+- baseURL: https://eks.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing EKS Fargate profiles
   name: Amazon EKS Fargate Profiles API
   slug: amazon-eks-fargate-profiles-api
-- description: Operations for managing EKS managed node groups
+- baseURL: https://eks.amazonaws.com
+  baseurl_source: spec
+  description: Operations for managing EKS managed node groups
   name: Amazon EKS Node Groups API
   slug: amazon-eks-node-groups-api
 artifact_total: 122
@@ -541,7 +549,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/screenshots/amazon-eks-2026-06-20T171637.png
 security:

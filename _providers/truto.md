@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 30 operations · 9 acting
 api_count: 4
 apis:
-- description: Account records representing companies or organizations
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Account records representing companies or organizations
   name: Truto Accounts API
   slug: truto-accounts-api
-- description: Job applications linking candidates to jobs
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Job applications linking candidates to jobs
   name: Truto Applications API
   slug: truto-applications-api
-- description: Candidate profiles and contact information
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Candidate profiles and contact information
   name: Truto Candidates API
   slug: truto-candidates-api
-- description: Company and organization records
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Company and organization records
   name: Truto Companies API
   slug: truto-companies-api
-- description: Contact records representing individuals at companies
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Contact records representing individuals at companies
   name: Truto Contacts API
   slug: truto-contacts-api
-- description: Organizational departments
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Organizational departments
   name: Truto Departments API
   slug: truto-departments-api
-- description: Employee records and personal details
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Employee records and personal details
   name: Truto Employees API
   slug: truto-employees-api
-- description: Employment terms, positions, and job history
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Employment terms, positions, and job history
   name: Truto Employments API
   slug: truto-employments-api
-- description: Departments, teams, and organizational units
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Departments, teams, and organizational units
   name: Truto Groups API
   slug: truto-groups-api
-- description: Manage connected third-party accounts
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Manage connected third-party accounts
   name: Truto Integrated Accounts API
   slug: truto-integrated-accounts-api
-- description: Job postings and open positions
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Job postings and open positions
   name: Truto Jobs API
   slug: truto-jobs-api
-- description: Generate tokens for customer-initiated account connections
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Generate tokens for customer-initiated account connections
   name: Truto Link Tokens API
   slug: truto-link-tokens-api
-- description: Provision Model Context Protocol servers for AI agent access
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Provision Model Context Protocol servers for AI agent access
   name: Truto MCP Servers API
   slug: truto-mcp-servers-api
-- description: Job offers extended to candidates
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Job offers extended to candidates
   name: Truto Offers API
   slug: truto-offers-api
-- description: Sales opportunities and deals
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Sales opportunities and deals
   name: Truto Opportunities API
   slug: truto-opportunities-api
-- description: Opportunity pipeline stages
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Opportunity pipeline stages
   name: Truto Stages API
   slug: truto-stages-api
-- description: Tasks and follow-up actions
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Tasks and follow-up actions
   name: Truto Tasks API
   slug: truto-tasks-api
-- description: Time off requests and leave management
+- baseURL: https://api.truto.one
+  baseurl_source: declared
+  description: Time off requests and leave management
   name: Truto Timeoff API
   slug: truto-timeoff-api
 artifact_total: 61
@@ -354,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/screenshots/truto-2026-06-20T195809.png
 security:

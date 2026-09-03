@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,52 +47,84 @@ apis:
 - description: Newer REST API powering Stack Overflow for Teams (private/internal instances). Resource-oriented (questions, answers, articles, comments, tags, users, collections, communities) with full CRUD and bear
   name: Stack Overflow for Teams API v3
   slug: stack-overflow-for-teams-api-v3
-- description: OAuth access token introspection and invalidation.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: OAuth access token introspection and invalidation.
   name: Stack Exchange Access Tokens API
   slug: stackexchange-access-tokens-api
-- description: Answer objects — list, fetch by id, and per-question answers.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Answer objects — list, fetch by id, and per-question answers.
   name: Stack Exchange Answers API
   slug: stackexchange-answers-api
-- description: Badges defined on a site — by id, name, type, and recipients.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Badges defined on a site — by id, name, type, and recipients.
   name: Stack Exchange Badges API
   slug: stackexchange-badges-api
-- description: Comments attached to questions and answers across the network.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Comments attached to questions and answers across the network.
   name: Stack Exchange Comments API
   slug: stackexchange-comments-api
-- description: Recent network events (1.5 minute live window) for the authenticated user.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Recent network events (1.5 minute live window) for the authenticated user.
   name: Stack Exchange Events API
   slug: stackexchange-events-api
-- description: Custom response filter creation and inspection.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Custom response filter creation and inspection.
   name: Stack Exchange Filters API
   slug: stackexchange-filters-api
-- description: Site-wide statistics, totals, and metadata.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Site-wide statistics, totals, and metadata.
   name: Stack Exchange Info API
   slug: stackexchange-info-api
-- description: Convenience surfaces that infer the user from the OAuth access token.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Convenience surfaces that infer the user from the OAuth access token.
   name: Stack Exchange Me API
   slug: stackexchange-me-api
-- description: Generic post surfaces covering both questions and answers as `post` objects.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Generic post surfaces covering both questions and answers as `post` objects.
   name: Stack Exchange Posts API
   slug: stackexchange-posts-api
-- description: Question objects across the network — list, fetch, related, linked, search-equivalents.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Question objects across the network — list, fetch, related, linked, search-equivalents.
   name: Stack Exchange Questions API
   slug: stackexchange-questions-api
-- description: Revision history for posts.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Revision history for posts.
   name: Stack Exchange Revisions API
   slug: stackexchange-revisions-api
-- description: Question search — basic title-match, full-text excerpts, and advanced.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Question search — basic title-match, full-text excerpts, and advanced.
   name: Stack Exchange Search API
   slug: stackexchange-search-api
-- description: Enumeration and metadata for the 180+ Stack Exchange Q&A sites.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Enumeration and metadata for the 180+ Stack Exchange Q&A sites.
   name: Stack Exchange Sites API
   slug: stackexchange-sites-api
-- description: Pending edits proposed by users awaiting review.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Pending edits proposed by users awaiting review.
   name: Stack Exchange Suggested Edits API
   slug: stackexchange-suggested-edits-api
-- description: Tag catalog, synonyms, wikis, top askers/answerers, and related tags.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Tag catalog, synonyms, wikis, top askers/answerers, and related tags.
   name: Stack Exchange Tags API
   slug: stackexchange-tags-api
-- description: Site users, their reputation, badges, tags, top posts, timeline, and write surfaces.
+- baseURL: https://api.stackexchange.com/2.3
+  baseurl_source: declared
+  description: Site users, their reputation, badges, tags, top posts, timeline, and write surfaces.
   name: Stack Exchange Users API
   slug: stackexchange-users-api
 artifact_total: 125
@@ -573,7 +605,7 @@ score:
       marker_coverage: 100.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:

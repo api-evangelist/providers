@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: OneRoster v1.1-compliant REST API for exchanging K-12 roster data—users, orgs, courses, classes, enrollments, academicSessions, demographics, and resources—between ClassLink Roster Server and third-pa
@@ -177,7 +177,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classlink/refs/heads/main/screenshots/classlink-2026-06-20T174447.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 35 operations · 29 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Carriers API from Vooma — 2 operation(s) for carriers.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Carriers API from Vooma — 2 operation(s) for carriers.
   name: Vooma Carriers API
   slug: vooma-carriers-api
-- description: The Contacts API from Vooma — 2 operation(s) for contacts.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Contacts API from Vooma — 2 operation(s) for contacts.
   name: Vooma Contacts API
   slug: vooma-contacts-api
-- description: The Customers API from Vooma — 3 operation(s) for customers.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Customers API from Vooma — 3 operation(s) for customers.
   name: Vooma Customers API
   slug: vooma-customers-api
-- description: The Locations API from Vooma — 2 operation(s) for locations.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Locations API from Vooma — 2 operation(s) for locations.
   name: Vooma Locations API
   slug: vooma-locations-api
-- description: The Movements API from Vooma — 4 operation(s) for movements.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Movements API from Vooma — 4 operation(s) for movements.
   name: Vooma Movements API
   slug: vooma-movements-api
-- description: The Quotes API from Vooma — 2 operation(s) for quotes.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Quotes API from Vooma — 2 operation(s) for quotes.
   name: Vooma Quotes API
   slug: vooma-quotes-api
-- description: The Shipments API from Vooma — 3 operation(s) for shipments.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Shipments API from Vooma — 3 operation(s) for shipments.
   name: Vooma Shipments API
   slug: vooma-shipments-api
-- description: The Tracking Status API from Vooma — 1 operation(s) for tracking status.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Tracking Status API from Vooma — 1 operation(s) for tracking status.
   name: Vooma Tracking Status API
   slug: vooma-tracking-status-api
-- description: The Webhooks API from Vooma — 10 operation(s) for webhooks.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Webhooks API from Vooma — 10 operation(s) for webhooks.
   name: Vooma Webhooks API
   slug: vooma-webhooks-api
-- description: The Api API from Vooma — 0 operation(s) for api.
+- baseURL: https://api.vooma.ai/v0
+  baseurl_source: declared
+  description: The Api API from Vooma — 0 operation(s) for api.
   name: Vooma API
   slug: vooma-api-api
 artifact_total: 26
@@ -250,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -260,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,7 +298,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/screenshots/vooma-2026-08-17T082822.png
 security:

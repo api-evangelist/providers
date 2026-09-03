@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
@@ -49,16 +49,24 @@ apis:
 - description: 'Brand Search API matches brand names to their corresponding domain URLs and unique identifiers, enabling rich autocomplete experiences. Endpoint: GET https://api.brandfetch.io/v2/search/:name. Authent'
   name: Brandfetch Brand Search API
   slug: brandfetch-brand-search-api
-- description: The Brands API from Brand API (Brandfetch) — the tag-split refinement of the earlier single-operation harvest, superseded by the full nine-operation spec on the Brandfetch API entry above.
+- baseURL: https://api.brandfetch.io/v2
+  baseurl_source: declared
+  description: The Brands API from Brand API (Brandfetch) — the tag-split refinement of the earlier single-operation harvest, superseded by the full nine-operation spec on the Brandfetch API entry above.
   name: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
-- description: The context API from Brand API (Brandfetch) — 1 operation(s) for context.
+- baseURL: https://api.brandfetch.io
+  baseurl_source: declared
+  description: The context API from Brand API (Brandfetch) — 1 operation(s) for context.
   name: Brand API (Brandfetch) Context API
   slug: brand-api-context-api
-- description: The Search API from Brand API (Brandfetch) — 1 operation(s) for search.
+- baseURL: https://api.brandfetch.io
+  baseurl_source: declared
+  description: The Search API from Brand API (Brandfetch) — 1 operation(s) for search.
   name: Brand API (Brandfetch) Search API
   slug: brand-api-search-api
-- description: The viewer API from Brand API (Brandfetch) — 1 operation(s) for viewer.
+- baseURL: https://api.brandfetch.io
+  baseurl_source: declared
+  description: The viewer API from Brand API (Brandfetch) — 1 operation(s) for viewer.
   name: Brand API (Brandfetch) Viewer API
   slug: brand-api-viewer-api
 artifact_total: 19
@@ -287,7 +295,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -297,7 +305,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 66.3
+  previous_composite: 66.1
   provenance:
     conformance: first-party
     contracts:
@@ -314,7 +322,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:

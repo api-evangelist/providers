@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AI pull-request reviewer. Available as the Apache-2.0 open-source PR-Agent (CLI, GitHub Action, Docker, self-hosted webhook server) and as the hosted Qodo Merge Git app. It is invoked through Git prov
+- baseURL: https://www.qodo.ai
+  baseurl_source: spec
+  description: AI pull-request reviewer. Available as the Apache-2.0 open-source PR-Agent (CLI, GitHub Action, Docker, self-hosted webhook server) and as the hosted Qodo Merge Git app. It is invoked through Git prov
   name: Qodo Merge (PR-Agent)
   slug: qodo-merge-pr-agent
 - description: AI pair-programmer delivered as JetBrains and VS Code IDE plugins for context-aware code generation, test generation, and documentation. It is an editor extension and does not expose a public HTTP API
@@ -45,7 +47,9 @@ apis:
 - description: Terminal runtime for building, running, and managing AI agents across the SDLC, installed via npm (@qodo/command). Agents can be exposed locally as HTTP services (--webhook), as a web UI (--ui), or as
   name: Qodo Command/CLI
   slug: qodo-command-cli
-- description: The hosted Qodo platform that backs Qodo Merge, Qodo Gen, and Qodo Command. As of this writing Qodo does not publish a documented, general-purpose public HTTP REST API with stable endpoints; access is
+- baseURL: https://www.qodo.ai
+  baseurl_source: spec
+  description: The hosted Qodo platform that backs Qodo Merge, Qodo Gen, and Qodo Command. As of this writing Qodo does not publish a documented, general-purpose public HTTP REST API with stable endpoints; access is
   name: Qodo Hosted API
   slug: qodo-hosted-api
 artifact_total: 12
@@ -130,7 +134,7 @@ score:
   band: thin
   composite: 30.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -146,8 +150,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 30.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qodo/refs/heads/main/screenshots/qodo-2026-09-02T152526.png
 security:
 - kind: domain-security
   name: Qodo Domain Security

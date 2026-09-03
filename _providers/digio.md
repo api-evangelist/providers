@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -50,16 +50,24 @@ apis:
 - description: DigiShield - Anti-Money-Laundering and Counter-Financing-of-Terrorism screening and ongoing monitoring against sanctions and watchlists.
   name: Digio AML/CFT API
   slug: digio-aml-cft-api
-- description: DigiDocs - template-based document and agreement creation with eStamp.
+- baseURL: https://api.digio.in
+  baseurl_source: declared
+  description: DigiDocs - template-based document and agreement creation with eStamp.
   name: Digio Documents API
   slug: digio-documents-api
-- description: DigiCollect - eNACH / NACH electronic mandates for recurring debit.
+- baseURL: https://api.digio.in
+  baseurl_source: declared
+  description: DigiCollect - eNACH / NACH electronic mandates for recurring debit.
   name: Digio eMandate API
   slug: digio-emandate-api
-- description: DigiSign - Aadhaar and OTP based legally-valid electronic signatures.
+- baseURL: https://api.digio.in
+  baseurl_source: declared
+  description: DigiSign - Aadhaar and OTP based legally-valid electronic signatures.
   name: Digio eSign API
   slug: digio-esign-api
-- description: DigiKYC - identity verification via CKYC, KRA, DigiLocker, and offline Aadhaar.
+- baseURL: https://api.digio.in
+  baseurl_source: declared
+  description: DigiKYC - identity verification via CKYC, KRA, DigiLocker, and offline Aadhaar.
   name: Digio KYC API
   slug: digio-kyc-api
 artifact_total: 25
@@ -276,7 +284,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -286,7 +294,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:

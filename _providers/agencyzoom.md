@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 36 operations · 21 acting
 api_count: 1
 apis:
-- description: The Authentication API from AgencyZoom — 3 operation(s) for authentication.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Authentication API from AgencyZoom — 3 operation(s) for authentication.
   name: AgencyZoom Authentication API
   slug: agencyzoom-authentication-api
-- description: The Configuration API from AgencyZoom — 5 operation(s) for configuration.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Configuration API from AgencyZoom — 5 operation(s) for configuration.
   name: AgencyZoom Configuration API
   slug: agencyzoom-configuration-api
-- description: The Customers API from AgencyZoom — 4 operation(s) for customers.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Customers API from AgencyZoom — 4 operation(s) for customers.
   name: AgencyZoom Customers API
   slug: agencyzoom-customers-api
-- description: The Email API from AgencyZoom — 2 operation(s) for email.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Email API from AgencyZoom — 2 operation(s) for email.
   name: AgencyZoom Email API
   slug: agencyzoom-email-api
-- description: The Leads API from AgencyZoom — 8 operation(s) for leads.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Leads API from AgencyZoom — 8 operation(s) for leads.
   name: AgencyZoom Leads API
   slug: agencyzoom-leads-api
-- description: The Opportunities API from AgencyZoom — 4 operation(s) for opportunities.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Opportunities API from AgencyZoom — 4 operation(s) for opportunities.
   name: AgencyZoom Opportunities API
   slug: agencyzoom-opportunities-api
-- description: The Pipelines API from AgencyZoom — 2 operation(s) for pipelines.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Pipelines API from AgencyZoom — 2 operation(s) for pipelines.
   name: AgencyZoom Pipelines API
   slug: agencyzoom-pipelines-api
-- description: The Policies API from AgencyZoom — 3 operation(s) for policies.
+- baseURL: https://api.agencyzoom.com
+  baseurl_source: declared
+  description: The Policies API from AgencyZoom — 3 operation(s) for policies.
   name: AgencyZoom Policies API
   slug: agencyzoom-policies-api
 artifact_total: 21
@@ -182,7 +198,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/screenshots/agencyzoom-2026-06-20T165842.png
 security:

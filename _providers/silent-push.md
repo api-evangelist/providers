@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Unified REST gateway for Silent Push threat intelligence. Sections cover Enrich (single and bulk domain, IPv4 and IPv6 enrichment plus IP diversity), Export (CSV, JSON, TXT, RPZ, STIX), Feeds, Feed In
+- baseURL: https://api.silentpush.com/api/v1/merge-api/
+  baseurl_source: declared
+  description: Unified REST gateway for Silent Push threat intelligence. Sections cover Enrich (single and bulk domain, IPv4 and IPv6 enrichment plus IP diversity), Export (CSV, JSON, TXT, RPZ, STIX), Feeds, Feed In
   name: Silent Push API
   slug: silent-push-api
 - description: SaaS-hosted Model Context Protocol server announced in Release 6.0 (2026-06-12, beta). Exposes 33 read-only investigation tools across enrichment, PADNS, reputation, live scanning and SPQL fingerprint
@@ -191,7 +206,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -210,8 +225,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/silent-push/refs/heads/main/screenshots/silent-push-2026-09-02T155457.png
 security:
 - kind: authentication
   name: Silent Push Authentication

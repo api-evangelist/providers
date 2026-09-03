@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 52
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 100 operations · 52 acting · 52 human-in-the-loop
 api_count: 2
 apis:
-- description: The Ai Chat Sessions API from OutRival — 6 operation(s) for ai chat sessions.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Ai Chat Sessions API from OutRival — 6 operation(s) for ai chat sessions.
   name: OutRival Ai Chat Sessions API
   slug: outrival-ai-chat-sessions-api
-- description: The Assistants API from OutRival — 4 operation(s) for assistants.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants API from OutRival — 4 operation(s) for assistants.
   name: OutRival Assistants API
   slug: outrival-assistants-api
-- description: The Assistants Chat Configuration API from OutRival — 1 operation(s) for assistants chat configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants Chat Configuration API from OutRival — 1 operation(s) for assistants chat configuration.
   name: OutRival Assistants Chat Configuration API
   slug: outrival-assistants-chat-configuration-api
-- description: The Assistants Logs API from OutRival — 2 operation(s) for assistants logs.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants Logs API from OutRival — 2 operation(s) for assistants logs.
   name: OutRival Assistants Logs API
   slug: outrival-assistants-logs-api
-- description: The Assistants Sms Configuration API from OutRival — 1 operation(s) for assistants sms configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants Sms Configuration API from OutRival — 1 operation(s) for assistants sms configuration.
   name: OutRival Assistants Sms Configuration API
   slug: outrival-assistants-sms-configuration-api
-- description: The Assistants Theme Configuration API from OutRival — 1 operation(s) for assistants theme configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants Theme Configuration API from OutRival — 1 operation(s) for assistants theme configuration.
   name: OutRival Assistants Theme Configuration API
   slug: outrival-assistants-theme-configuration-api
-- description: The Assistants Voice Configuration API from OutRival — 1 operation(s) for assistants voice configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Assistants Voice Configuration API from OutRival — 1 operation(s) for assistants voice configuration.
   name: OutRival Assistants Voice Configuration API
   slug: outrival-assistants-voice-configuration-api
-- description: The Call API from OutRival — 3 operation(s) for call.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Call API from OutRival — 3 operation(s) for call.
   name: OutRival Call API
   slug: outrival-call-api
-- description: The Chat with Ai Assistant API from OutRival — 2 operation(s) for chat with ai assistant.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Chat with Ai Assistant API from OutRival — 2 operation(s) for chat with ai assistant.
   name: OutRival Chat with Ai Assistant API
   slug: outrival-chat-with-ai-assistant-api
-- description: The Edges API from OutRival — 2 operation(s) for edges.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Edges API from OutRival — 2 operation(s) for edges.
   name: OutRival Edges API
   slug: outrival-edges-api
-- description: The Files API from OutRival — 4 operation(s) for files.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Files API from OutRival — 4 operation(s) for files.
   name: OutRival Files API
   slug: outrival-files-api
-- description: The Nodes API from OutRival — 4 operation(s) for nodes.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Nodes API from OutRival — 4 operation(s) for nodes.
   name: OutRival Nodes API
   slug: outrival-nodes-api
-- description: The Nodes Chat Configuration API from OutRival — 1 operation(s) for nodes chat configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Nodes Chat Configuration API from OutRival — 1 operation(s) for nodes chat configuration.
   name: OutRival Nodes Chat Configuration API
   slug: outrival-nodes-chat-configuration-api
-- description: The Nodes Sms Configuration API from OutRival — 1 operation(s) for nodes sms configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Nodes Sms Configuration API from OutRival — 1 operation(s) for nodes sms configuration.
   name: OutRival Nodes Sms Configuration API
   slug: outrival-nodes-sms-configuration-api
-- description: The Nodes Voice Configuration API from OutRival — 1 operation(s) for nodes voice configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Nodes Voice Configuration API from OutRival — 1 operation(s) for nodes voice configuration.
   name: OutRival Nodes Voice Configuration API
   slug: outrival-nodes-voice-configuration-api
-- description: The Organization API from OutRival — 2 operation(s) for organization.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Organization API from OutRival — 2 operation(s) for organization.
   name: OutRival Organization API
   slug: outrival-organization-api
-- description: The Organization Keys API from OutRival — 3 operation(s) for organization keys.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Organization Keys API from OutRival — 3 operation(s) for organization keys.
   name: OutRival Organization Keys API
   slug: outrival-organization-keys-api
-- description: The Project variables API from OutRival — 2 operation(s) for project variables.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Project variables API from OutRival — 2 operation(s) for project variables.
   name: OutRival Project variables API
   slug: outrival-project-variables-api
-- description: The Projects API from OutRival — 4 operation(s) for projects.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Projects API from OutRival — 4 operation(s) for projects.
   name: OutRival Projects API
   slug: outrival-projects-api
-- description: The Projects Theme Configuration API from OutRival — 1 operation(s) for projects theme configuration.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Projects Theme Configuration API from OutRival — 1 operation(s) for projects theme configuration.
   name: OutRival Projects Theme Configuration API
   slug: outrival-projects-theme-configuration-api
-- description: The Rest API from OutRival — 2 operation(s) for rest.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Rest API from OutRival — 2 operation(s) for rest.
   name: OutRival Rest API
   slug: outrival-rest-api
-- description: The Settings API from OutRival — 3 operation(s) for settings.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Settings API from OutRival — 3 operation(s) for settings.
   name: OutRival Settings API
   slug: outrival-settings-api
-- description: The Webhooks Vapi API from OutRival — 2 operation(s) for webhooks vapi.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Webhooks Vapi API from OutRival — 2 operation(s) for webhooks vapi.
   name: OutRival Webhooks Vapi API
   slug: outrival-webhooks-vapi-api
-- description: The Workflow Deployment API from OutRival — 2 operation(s) for workflow deployment.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Workflow Deployment API from OutRival — 2 operation(s) for workflow deployment.
   name: OutRival Workflow Deployment API
   slug: outrival-workflow-deployment-api
-- description: The Workflows API from OutRival — 5 operation(s) for workflows.
+- baseURL: https://api.outrival.com
+  baseurl_source: declared
+  description: The Workflows API from OutRival — 5 operation(s) for workflows.
   name: OutRival Workflows API
   slug: outrival-workflows-api
 artifact_total: 58
@@ -355,7 +405,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -365,7 +415,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 49.8
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +433,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outrival/refs/heads/main/screenshots/outrival-2026-08-07T191105.png
 security:

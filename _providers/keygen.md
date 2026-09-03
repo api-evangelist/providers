@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 63 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Binary artifacts attached to releases.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Binary artifacts attached to releases.
   name: Keygen Artifacts API
   slug: keygen-artifacts-api
-- description: Hardware components of a machine fingerprint.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Hardware components of a machine fingerprint.
   name: Keygen Components API
   slug: keygen-components-api
-- description: Named feature flags attached to policies and licenses.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Named feature flags attached to policies and licenses.
   name: Keygen Entitlements API
   slug: keygen-entitlements-api
-- description: Issue, validate, and manage license keys.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Issue, validate, and manage license keys.
   name: Keygen Licenses API
   slug: keygen-licenses-api
-- description: Activate and manage node-locked machines.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Activate and manage node-locked machines.
   name: Keygen Machines API
   slug: keygen-machines-api
-- description: Licensing rules that govern licenses.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Licensing rules that govern licenses.
   name: Keygen Policies API
   slug: keygen-policies-api
-- description: Concurrent processes running on a machine.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Concurrent processes running on a machine.
   name: Keygen Processes API
   slug: keygen-processes-api
-- description: Applications being licensed and distributed.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Applications being licensed and distributed.
   name: Keygen Products API
   slug: keygen-products-api
-- description: Distributable, semver-tagged releases.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Distributable, semver-tagged releases.
   name: Keygen Releases API
   slug: keygen-releases-api
-- description: Authenticate and manage bearer tokens.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Authenticate and manage bearer tokens.
   name: Keygen Tokens API
   slug: keygen-tokens-api
-- description: End users and license owners.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: End users and license owners.
   name: Keygen Users API
   slug: keygen-users-api
-- description: Webhook endpoints and events.
+- baseURL: https://api.keygen.sh/v1/accounts/{account}
+  baseurl_source: declared
+  description: Webhook endpoints and events.
   name: Keygen Webhooks API
   slug: keygen-webhooks-api
 artifact_total: 34
@@ -229,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

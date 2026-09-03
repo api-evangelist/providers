@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -46,55 +46,89 @@ apis:
 - description: REST API for managing cards, collections, boards, board sections, folders, users, groups, tags, webhooks, analytics, and card verifications in Guru. Authentication uses HTTP Basic Auth with a user tok
   name: Guru REST API
   slug: rest-api
-- description: The Analytics API from Guru — 2 operation(s) for analytics.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Analytics API from Guru — 2 operation(s) for analytics.
   name: Guru Analytics API
   slug: guru-analytics-api
-- description: The Announcements API from Guru — 8 operation(s) for announcements.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Announcements API from Guru — 8 operation(s) for announcements.
   name: Guru Announcements API
   slug: guru-announcements-api
-- description: The Answers API from Guru — 3 operation(s) for answers.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Answers API from Guru — 3 operation(s) for answers.
   name: Guru Answers API
   slug: guru-answers-api
-- description: The CardComments API from Guru — 2 operation(s) for cardcomments.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The CardComments API from Guru — 2 operation(s) for cardcomments.
   name: Guru CardComments API
   slug: guru-cardcomments-api
-- description: The Cards API from Guru — 8 operation(s) for cards.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Cards API from Guru — 8 operation(s) for cards.
   name: Guru Cards API
   slug: guru-cards-api
-- description: The CardVerifiers API from Guru — 3 operation(s) for cardverifiers.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The CardVerifiers API from Guru — 3 operation(s) for cardverifiers.
   name: Guru CardVerifiers API
   slug: guru-cardverifiers-api
-- description: The Collections API from Guru — 3 operation(s) for collections.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Collections API from Guru — 3 operation(s) for collections.
   name: Guru Collections API
   slug: guru-collections-api
-- description: The Folders API from Guru — 10 operation(s) for folders.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Folders API from Guru — 10 operation(s) for folders.
   name: Guru Folders API
   slug: guru-folders-api
-- description: The Groups API from Guru — 5 operation(s) for groups.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Groups API from Guru — 5 operation(s) for groups.
   name: Guru Groups API
   slug: guru-groups-api
-- description: The Members API from Guru — 1 operation(s) for members.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Members API from Guru — 1 operation(s) for members.
   name: Guru Members API
   slug: guru-members-api
-- description: The People API from Guru — 3 operation(s) for people.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The People API from Guru — 3 operation(s) for people.
   name: Guru People API
   slug: guru-people-api
-- description: The Search API from Guru — 4 operation(s) for search.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Search API from Guru — 4 operation(s) for search.
   name: Guru Search API
   slug: guru-search-api
-- description: The Tags API from Guru — 8 operation(s) for tags.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Tags API from Guru — 8 operation(s) for tags.
   name: Guru Tags API
   slug: guru-tags-api
-- description: The Tasks API from Guru — 1 operation(s) for tasks.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Tasks API from Guru — 1 operation(s) for tasks.
   name: Guru Tasks API
   slug: guru-tasks-api
-- description: The Templates API from Guru — 5 operation(s) for templates.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The Templates API from Guru — 5 operation(s) for templates.
   name: Guru Templates API
   slug: guru-templates-api
-- description: The TicketLinking API from Guru — 5 operation(s) for ticketlinking.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The TicketLinking API from Guru — 5 operation(s) for ticketlinking.
   name: Guru TicketLinking API
   slug: guru-ticketlinking-api
-- description: The User API from Guru — 1 operation(s) for user.
+- baseURL: https://api.getguru.com/api/v1
+  baseurl_source: declared
+  description: The User API from Guru — 1 operation(s) for user.
   name: Guru User API
   slug: guru-user-api
 artifact_total: 40
@@ -249,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guru/refs/heads/main/screenshots/guru-2026-06-20T182441.png
 security:

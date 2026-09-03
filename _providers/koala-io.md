@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The client-side pixel loaded from cdn.getkoala.com/v1/{key}/sdk.js. Exposes ko.identify(), ko.track(), ko.qualify(), ko.reset() and autotracks pageviews, form fills, and session time. This is a browse
   name: Koala Web Pixel (JavaScript SDK)
   slug: koala-io-web-pixel-sdk
-- description: Account-level (company) trait and event ingestion.
+- baseURL: https://api2.getkoala.com/web/projects/{public_api_key}
+  baseurl_source: declared
+  description: Account-level (company) trait and event ingestion.
   name: Koala Accounts API
   slug: koala-io-accounts-api
-- description: Server-side ingestion of visitor identifies, events, and traits.
+- baseURL: https://api2.getkoala.com/web/projects/{public_api_key}
+  baseurl_source: declared
+  description: Server-side ingestion of visitor identifies, events, and traits.
   name: Koala Collection API
   slug: koala-io-collection-api
-- description: GDPR right-to-erasure requests and status.
+- baseURL: https://app.getkoala.com
+  baseurl_source: declared
+  description: GDPR right-to-erasure requests and status.
   name: Koala Deletion API
   slug: koala-io-deletion-api
-- description: Bootstrap configuration used by the client-side pixel.
+- baseURL: https://api2.getkoala.com/web/projects/{public_api_key}
+  baseurl_source: declared
+  description: Bootstrap configuration used by the client-side pixel.
   name: Koala SDK API
   slug: koala-io-sdk-api
 artifact_total: 31
@@ -366,7 +374,7 @@ score:
     catalog_gap: 34.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -376,7 +384,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 60.5
-  previous_composite: 66.0
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +396,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:

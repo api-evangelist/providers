@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Official TypeScript/Node.js SDK for integrating the Sync Labs API. Supports Node.js 18+. Install via npm install @sync.so/sdk.
   name: Sync Labs TypeScript SDK
   slug: sync-labs-typescript-sdk
-- description: Uploaded asset management
+- baseURL: https://api.sync.so/v2
+  baseurl_source: declared
+  description: Uploaded asset management
   name: Sync Labs Assets API
   slug: sync-labs-assets-api
-- description: Batch processing multiple videos
+- baseURL: https://api.sync.so/v2
+  baseurl_source: declared
+  description: Batch processing multiple videos
   name: Sync Labs Batch API
   slug: sync-labs-batch-api
-- description: Lip-sync video generation operations
+- baseURL: https://api.sync.so/v2
+  baseurl_source: declared
+  description: Lip-sync video generation operations
   name: Sync Labs Generate API
   slug: sync-labs-generate-api
-- description: Available AI model listing
+- baseURL: https://api.sync.so/v2
+  baseurl_source: declared
+  description: Available AI model listing
   name: Sync Labs Models API
   slug: sync-labs-models-api
 artifact_total: 24
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/screenshots/sync-labs-2026-06-20T194835.png
 security:

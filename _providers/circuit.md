@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
   name: Circuit Depots API
   slug: circuit-depots-api
-- description: Endpoints to operate on [Drivers](/docs/models/driver) resources.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Drivers](/docs/models/driver) resources.
   name: Circuit Drivers API
   slug: circuit-drivers-api
-- description: Endpoints to operate on [Plans](/docs/models/plan) resources when it's pending re-optimization and re-distribution. You must use these endpoints to apply the changes when any [Live Stops](#tag/Live-St
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Plans](/docs/models/plan) resources when it's pending re-optimization and re-distribution. You must use these endpoints to apply the changes when any [Live Stops](#tag/Live-St
   name: Circuit Live Plans API
   slug: circuit-live-plans-api
-- description: Endpoints to operate on [Stop](/docs/models/stop) resources when the plan is already optimized and therefore not writable. All the endpoints return the field `pending`. This field indicates whether th
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Stop](/docs/models/stop) resources when the plan is already optimized and therefore not writable. All the endpoints return the field `pending`. This field indicates whether th
   name: Circuit Live Stops API
   slug: circuit-live-stops-api
-- description: Endpoints to operate on Members resources.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on Members resources.
   name: Circuit Members API
   slug: circuit-members-api
-- description: Endpoints to operate on [Operations](/docs/models/operation) resources.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Operations](/docs/models/operation) resources.
   name: Circuit Operations API
   slug: circuit-operations-api
-- description: Endpoints to operate on [Plans](/docs/models/plan) resources.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Plans](/docs/models/plan) resources.
   name: Circuit Plans API
   slug: circuit-plans-api
-- description: Endpoints to operate on [Routes](/docs/models/route) resources. This resource is currently read-only on the API.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Routes](/docs/models/route) resources. This resource is currently read-only on the API.
   name: Circuit Routes API
   slug: circuit-routes-api
-- description: Endpoints to operate on [Stop](/docs/models/stop) resources. For any [Plans](/docs/models/plan) created before 2023-04-01 the stop collections and all related operations will not be available. For any
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Stop](/docs/models/stop) resources. For any [Plans](/docs/models/plan) created before 2023-04-01 the stop collections and all related operations will not be available. For any
   name: Circuit Stops API
   slug: circuit-stops-api
-- description: Endpoints to retrieve [Custom Stop Properties](/docs/models/customStopProperty).
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to retrieve [Custom Stop Properties](/docs/models/customStopProperty).
   name: Circuit Team API
   slug: circuit-team-api
-- description: Endpoints to operate on [Unassigned Stop](/docs/models/unassignedStop) resources.
+- baseURL: https://api.spoke.com/public/v1
+  baseurl_source: declared
+  description: Endpoints to operate on [Unassigned Stop](/docs/models/unassignedStop) resources.
   name: Circuit Unassigned Stops API
   slug: circuit-unassigned-stops-api
 artifact_total: 28
@@ -268,7 +290,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -278,7 +300,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 51.0
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -289,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:

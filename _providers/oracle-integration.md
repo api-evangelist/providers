@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -50,73 +50,119 @@ apis:
 - description: OCI control plane API for provisioning and managing Oracle Integration instances, custom endpoints, and data retention configuration.
   name: Oracle Integration Administrative API
   slug: oracle-integration-administrative-api
-- description: Rapid Adapter Builder for custom adapters.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Rapid Adapter Builder for custom adapters.
   name: Oracle Integration Adapters API
   slug: oracle-integration-adapters-api
-- description: Process analytics queries and data.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Process analytics queries and data.
   name: Oracle Integration Analytics API
   slug: oracle-integration-analytics-api
-- description: B2B document customization and schema management.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: B2B document customization and schema management.
   name: Oracle Integration B2B Documents API
   slug: oracle-integration-b2b-documents-api
-- description: Monitor B2B business and wire messages.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Monitor B2B business and wire messages.
   name: Oracle Integration B2B Monitoring API
   slug: oracle-integration-b2b-monitoring-api
-- description: Manage SSL certificates for secure connections.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage SSL certificates for secure connections.
   name: Oracle Integration Certificates API
   slug: oracle-integration-certificates-api
-- description: Manage connections that define integration endpoints.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage connections that define integration endpoints.
   name: Oracle Integration Connections API
   slug: oracle-integration-connections-api
-- description: Manage DMN decision models and services.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage DMN decision models and services.
   name: Oracle Integration Decision Models API
   slug: oracle-integration-decision-models-api
-- description: Manage deployed BPM projects.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage deployed BPM projects.
   name: Oracle Integration Deployed Projects API
   slug: oracle-integration-deployed-projects-api
-- description: Manage dynamic process definitions and instances.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage dynamic process definitions and instances.
   name: Oracle Integration Dynamic Processes API
   slug: oracle-integration-dynamic-processes-api
-- description: Configure CORS and environment settings.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Configure CORS and environment settings.
   name: Oracle Integration Environment API
   slug: oracle-integration-environment-api
-- description: Manage users, groups, and roles.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage users, groups, and roles.
   name: Oracle Integration Identities API
   slug: oracle-integration-identities-api
-- description: Create, manage, and deploy integrations.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Create, manage, and deploy integrations.
   name: Oracle Integration Integrations API
   slug: oracle-integration-integrations-api
-- description: Manage JavaScript libraries for use in integrations.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage JavaScript libraries for use in integrations.
   name: Oracle Integration Libraries API
   slug: oracle-integration-libraries-api
-- description: Manage lookup tables for data mapping.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage lookup tables for data mapping.
   name: Oracle Integration Lookups API
   slug: oracle-integration-lookups-api
-- description: Monitor and manage integration instances.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Monitor and manage integration instances.
   name: Oracle Integration Monitoring API
   slug: oracle-integration-monitoring-api
-- description: Manage packages for grouping integrations.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage packages for grouping integrations.
   name: Oracle Integration Packages API
   slug: oracle-integration-packages-api
-- description: Retrieve process definition metadata and configurations.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Retrieve process definition metadata and configurations.
   name: Oracle Integration Process Definitions API
   slug: oracle-integration-process-definitions-api
-- description: Manage process instances and related data.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage process instances and related data.
   name: Oracle Integration Process Instances API
   slug: oracle-integration-process-instances-api
-- description: Manage integration projects and deployments.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage integration projects and deployments.
   name: Oracle Integration Projects API
   slug: oracle-integration-projects-api
-- description: Manage scheduled integration execution.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage scheduled integration execution.
   name: Oracle Integration Scheduled Integrations API
   slug: oracle-integration-scheduled-integrations-api
-- description: Manage workspace spaces.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage workspace spaces.
   name: Oracle Integration Spaces API
   slug: oracle-integration-spaces-api
-- description: Manage user tasks and task actions.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage user tasks and task actions.
   name: Oracle Integration Tasks API
   slug: oracle-integration-tasks-api
-- description: Manage B2B trading partners and agreements.
+- baseURL: https://{instance}.integration.ocp.oraclecloud.com/ic/api/integration/v1
+  baseurl_source: declared
+  description: Manage B2B trading partners and agreements.
   name: Oracle Integration Trading Partners API
   slug: oracle-integration-trading-partners-api
 arazzos:
@@ -622,7 +668,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:

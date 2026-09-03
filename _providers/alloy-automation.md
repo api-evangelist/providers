@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 27 operations · 9 acting
 api_count: 1
 apis:
-- description: Discover resources/actions and execute typed actions.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Discover resources/actions and execute typed actions.
   name: Alloy Automation Connectivity API
   slug: alloy-automation-connectivity-api
-- description: Third-party connections held by a user, plus credential metadata.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Third-party connections held by a user, plus credential metadata.
   name: Alloy Automation Credentials API
   slug: alloy-automation-credentials-api
-- description: Execution events and observability.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Execution events and observability.
   name: Alloy Automation Events API
   slug: alloy-automation-events-api
-- description: Available connectors and a user's enabled integrations.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Available connectors and a user's enabled integrations.
   name: Alloy Automation Integrations API
   slug: alloy-automation-integrations-api
-- description: Raw proxied requests to a provider via a stored credential.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Raw proxied requests to a provider via a stored credential.
   name: Alloy Automation Passthrough API
   slug: alloy-automation-passthrough-api
-- description: Normalized accounting objects (accounts, invoices).
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Normalized accounting objects (accounts, invoices).
   name: Alloy Automation Unified Accounting API
   slug: alloy-automation-unified-accounting-api
-- description: Normalized commerce objects (products, orders, customers).
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Normalized commerce objects (products, orders, customers).
   name: Alloy Automation Unified Commerce API
   slug: alloy-automation-unified-commerce-api
-- description: Normalized CRM objects (contacts, companies, deals).
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Normalized CRM objects (contacts, companies, deals).
   name: Alloy Automation Unified CRM API
   slug: alloy-automation-unified-crm-api
-- description: Per-user JWTs for rendering the embedded frontend.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: Per-user JWTs for rendering the embedded frontend.
   name: Alloy Automation User Tokens API
   slug: alloy-automation-user-tokens-api
-- description: End-user records that scope credentials, integrations, and executions.
+- baseURL: https://embedded.runalloy.com/2024-03
+  baseurl_source: declared
+  description: End-user records that scope credentials, integrations, and executions.
   name: Alloy Automation Users API
   slug: alloy-automation-users-api
 artifact_total: 28
@@ -205,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/screenshots/alloy-automation-2026-07-25T195811.png
 security:

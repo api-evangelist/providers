@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Anonymous, unauthenticated feeds publishing live Second Life grid statistics (grid status, total registered accounts, avatars currently inworld) and LindeX currency-market data (limit and market buy/s
@@ -207,11 +221,11 @@ score:
   band: strong
   composite: 59.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -221,13 +235,14 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 59.4
+  previous_composite: 59.1
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linden-lab/refs/heads/main/screenshots/linden-lab-2026-09-02T150256.png
 security:
 - kind: authentication
   name: Linden Lab Authentication

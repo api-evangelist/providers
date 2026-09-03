@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 376 operations · 304 acting
 api_count: 20
 apis:
-- description: The accounts API from Vessel — 7 operation(s) for accounts.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The accounts API from Vessel — 7 operation(s) for accounts.
   name: Vessel Accounts API
   slug: vessel-accounts-api
-- description: The Actions API from Vessel — 115 operation(s) for actions.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Actions API from Vessel — 115 operation(s) for actions.
   name: Vessel Actions API
   slug: vessel-actions-api
-- description: The attendees API from Vessel — 5 operation(s) for attendees.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The attendees API from Vessel — 5 operation(s) for attendees.
   name: Vessel Attendees API
   slug: vessel-attendees-api
-- description: The Auth API from Vessel — 6 operation(s) for auth.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Auth API from Vessel — 6 operation(s) for auth.
   name: Vessel Auth API
   slug: vessel-auth-api
-- description: The Connection API from Vessel — 1 operation(s) for connection.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Connection API from Vessel — 1 operation(s) for connection.
   name: Vessel Connection API
   slug: vessel-connection-api
-- description: The connections API from Vessel — 5 operation(s) for connections.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The connections API from Vessel — 5 operation(s) for connections.
   name: Vessel Connections API
   slug: vessel-connections-api
-- description: The contactCustomFields API from Vessel — 1 operation(s) for contactcustomfields.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The contactCustomFields API from Vessel — 1 operation(s) for contactcustomfields.
   name: Vessel Contact Custom Fields API
   slug: vessel-contactcustomfields-api
-- description: The contacts API from Vessel — 5 operation(s) for contacts.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The contacts API from Vessel — 5 operation(s) for contacts.
   name: Vessel Contacts API
   slug: vessel-contacts-api
-- description: The Crm API from Vessel — 9 operation(s) for crm.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Crm API from Vessel — 9 operation(s) for crm.
   name: Vessel CRM API
   slug: vessel-crm-api
-- description: The deals API from Vessel — 5 operation(s) for deals.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The deals API from Vessel — 5 operation(s) for deals.
   name: Vessel Deals API
   slug: vessel-deals-api
-- description: The emails API from Vessel — 5 operation(s) for emails.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The emails API from Vessel — 5 operation(s) for emails.
   name: Vessel Emails API
   slug: vessel-emails-api
-- description: The engAccounts API from Vessel — 2 operation(s) for engaccounts.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engAccounts API from Vessel — 2 operation(s) for engaccounts.
   name: Vessel Eng Accounts API
   slug: vessel-engaccounts-api
-- description: The engAccountss API from Vessel — 1 operation(s) for engaccountss.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engAccountss API from Vessel — 1 operation(s) for engaccountss.
   name: Vessel Eng Accountss API
   slug: vessel-engaccountss-api
-- description: The engActions API from Vessel — 3 operation(s) for engactions.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engActions API from Vessel — 3 operation(s) for engactions.
   name: Vessel Eng Actions API
   slug: vessel-engactions-api
-- description: The engCalls API from Vessel — 2 operation(s) for engcalls.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engCalls API from Vessel — 2 operation(s) for engcalls.
   name: Vessel Eng Calls API
   slug: vessel-engcalls-api
-- description: The engContacts API from Vessel — 3 operation(s) for engcontacts.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engContacts API from Vessel — 3 operation(s) for engcontacts.
   name: Vessel Eng Contacts API
   slug: vessel-engcontacts-api
-- description: The engCustomFields API from Vessel — 2 operation(s) for engcustomfields.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engCustomFields API from Vessel — 2 operation(s) for engcustomfields.
   name: Vessel Eng Custom Fields API
   slug: vessel-engcustomfields-api
-- description: The engDispositions API from Vessel — 1 operation(s) for engdispositions.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engDispositions API from Vessel — 1 operation(s) for engdispositions.
   name: Vessel Eng Dispositions API
   slug: vessel-engdispositions-api
-- description: The engEmails API from Vessel — 3 operation(s) for engemails.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engEmails API from Vessel — 3 operation(s) for engemails.
   name: Vessel Eng Emails API
   slug: vessel-engemails-api
-- description: The engMailboxes API from Vessel — 1 operation(s) for engmailboxes.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engMailboxes API from Vessel — 1 operation(s) for engmailboxes.
   name: Vessel Eng Mailboxes API
   slug: vessel-engmailboxes-api
-- description: The engPassthrough API from Vessel — 1 operation(s) for engpassthrough.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engPassthrough API from Vessel — 1 operation(s) for engpassthrough.
   name: Vessel Eng Passthrough API
   slug: vessel-engpassthrough-api
-- description: The engSequences API from Vessel — 4 operation(s) for engsequences.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engSequences API from Vessel — 4 operation(s) for engsequences.
   name: Vessel Eng Sequences API
   slug: vessel-engsequences-api
-- description: The engTasks API from Vessel — 3 operation(s) for engtasks.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engTasks API from Vessel — 3 operation(s) for engtasks.
   name: Vessel Eng Tasks API
   slug: vessel-engtasks-api
-- description: The engUsers API from Vessel — 2 operation(s) for engusers.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The engUsers API from Vessel — 2 operation(s) for engusers.
   name: Vessel Eng Users API
   slug: vessel-engusers-api
-- description: The events API from Vessel — 5 operation(s) for events.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The events API from Vessel — 5 operation(s) for events.
   name: Vessel Events API
   slug: vessel-events-api
-- description: The integrations API from Vessel — 2 operation(s) for integrations.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The integrations API from Vessel — 2 operation(s) for integrations.
   name: Vessel Integrations API
   slug: vessel-integrations-api
-- description: The leadCustomFields API from Vessel — 1 operation(s) for leadcustomfields.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The leadCustomFields API from Vessel — 1 operation(s) for leadcustomfields.
   name: Vessel Lead Custom Fields API
   slug: vessel-leadcustomfields-api
-- description: The leads API from Vessel — 5 operation(s) for leads.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The leads API from Vessel — 5 operation(s) for leads.
   name: Vessel Leads API
   slug: vessel-leads-api
-- description: The links API from Vessel — 1 operation(s) for links.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The links API from Vessel — 1 operation(s) for links.
   name: Vessel Links API
   slug: vessel-links-api
-- description: The lists API from Vessel — 2 operation(s) for lists.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The lists API from Vessel — 2 operation(s) for lists.
   name: Vessel Lists API
   slug: vessel-lists-api
-- description: The notes API from Vessel — 5 operation(s) for notes.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The notes API from Vessel — 5 operation(s) for notes.
   name: Vessel Notes API
   slug: vessel-notes-api
-- description: The passthrough API from Vessel — 2 operation(s) for passthrough.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The passthrough API from Vessel — 2 operation(s) for passthrough.
   name: Vessel Passthrough API
   slug: vessel-passthrough-api
-- description: The tasks API from Vessel — 5 operation(s) for tasks.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The tasks API from Vessel — 5 operation(s) for tasks.
   name: Vessel Tasks API
   slug: vessel-tasks-api
-- description: The tokens API from Vessel — 1 operation(s) for tokens.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The tokens API from Vessel — 1 operation(s) for tokens.
   name: Vessel Tokens API
   slug: vessel-tokens-api
-- description: The Unifications API from Vessel — 107 operation(s) for unifications.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The Unifications API from Vessel — 107 operation(s) for unifications.
   name: Vessel Unifications API
   slug: vessel-unifications-api
-- description: The users API from Vessel — 5 operation(s) for users.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The users API from Vessel — 5 operation(s) for users.
   name: Vessel Users API
   slug: vessel-users-api
-- description: The webhooks API from Vessel — 5 operation(s) for webhooks.
+- baseURL: https://api.vessel.dev
+  baseurl_source: declared
+  description: The webhooks API from Vessel — 5 operation(s) for webhooks.
   name: Vessel Webhooks API
   slug: vessel-webhooks-api
 artifact_total: 55
@@ -444,7 +518,7 @@ score:
     catalog_gap: 17.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -457,7 +531,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 65.2
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -469,7 +543,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:

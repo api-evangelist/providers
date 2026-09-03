@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -33,7 +46,9 @@ agentic_access:
   summary_line: 75 operations · 67 acting
 api_count: 2
 apis:
-- description: The realtime video transformation surface. A client opens a WebRTC session (LiveKit-managed transport) against a Lucy realtime model and streams camera or video frames in; the model returns transforme
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The realtime video transformation surface. A client opens a WebRTC session (LiveKit-managed transport) against a Lucy realtime model and streams camera or video frames in; the model returns transforme
   name: Decart Realtime API
   slug: decart-realtime-api
 - description: A gRPC session protocol for Oasis 3 Preview, Decart's promptable real-time world model. A client initializes a session, sets a scene with a text prompt, then loops Infer calls that submit four driving
@@ -42,28 +57,44 @@ apis:
 - description: 'A hosted, unauthenticated Model Context Protocol server at docs.platform.decart.ai/mcp that exposes the Decart API Platform documentation to agents. Three tools: full-text search across the knowledge '
   name: Decart Documentation MCP Server
   slug: decart-docs-mcp
-- description: The Client API from Decart — 1 operation(s) for client.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Client API from Decart — 1 operation(s) for client.
   name: Decart Client API
   slug: decart-client-api
-- description: The Files API from Decart — 2 operation(s) for files.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Files API from Decart — 2 operation(s) for files.
   name: Decart Files API
   slug: decart-files-api
-- description: The Generate API from Decart — 4 operation(s) for generate.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Generate API from Decart — 4 operation(s) for generate.
   name: Decart Generate API
   slug: decart-generate-api
-- description: The Jobs API from Decart — 43 operation(s) for jobs.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Jobs API from Decart — 43 operation(s) for jobs.
   name: Decart Jobs API
   slug: decart-jobs-api
-- description: The Models API from Decart — 1 operation(s) for models.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Models API from Decart — 1 operation(s) for models.
   name: Decart Models API
   slug: decart-models-api
-- description: The Realtime API from Decart — 1 operation(s) for realtime.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Realtime API from Decart — 1 operation(s) for realtime.
   name: Decart Realtime API
   slug: decart-realtime-api
-- description: The Verify API from Decart — 1 operation(s) for verify.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Verify API from Decart — 1 operation(s) for verify.
   name: Decart Verify API
   slug: decart-verify-api
-- description: The Watch Stream API from Decart — 1 operation(s) for watch stream.
+- baseURL: https://api.decart.ai
+  baseurl_source: declared
+  description: The Watch Stream API from Decart — 1 operation(s) for watch stream.
   name: Decart Watch Stream API
   slug: decart-watch-stream-api
 artifact_total: 19
@@ -302,7 +333,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:

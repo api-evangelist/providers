@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Stanley X is the innovation arm of Stanley Black & Decker that provides IoT connectivity APIs enabling smart factory solutions, equipment management, and digital manufacturing workflows. Partners inte
   name: Stanley X IoT API
   slug: stanley-x-iot-api
-- description: Asset inventory and tracking operations
+- baseURL: https://api.dewalt.com
+  baseurl_source: spec
+  description: Asset inventory and tracking operations
   name: Stanley Black & Decker Assets API
   slug: stanley-black-and-decker-assets-api
-- description: Battery tracking and status operations
+- baseURL: https://api.dewalt.com
+  baseurl_source: spec
+  description: Battery tracking and status operations
   name: Stanley Black & Decker Batteries API
   slug: stanley-black-and-decker-batteries-api
-- description: Jobsite management operations
+- baseURL: https://api.dewalt.com
+  baseurl_source: spec
+  description: Jobsite management operations
   name: Stanley Black & Decker Jobsites API
   slug: stanley-black-and-decker-jobsites-api
-- description: Connected tool management operations
+- baseURL: https://api.dewalt.com
+  baseurl_source: spec
+  description: Connected tool management operations
   name: Stanley Black & Decker Tools API
   slug: stanley-black-and-decker-tools-api
-- description: User and team management operations
+- baseURL: https://api.dewalt.com
+  baseurl_source: spec
+  description: User and team management operations
   name: Stanley Black & Decker Users API
   slug: stanley-black-and-decker-users-api
 artifact_total: 27
@@ -254,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png
 security:

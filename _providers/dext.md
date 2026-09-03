@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Practice client data-health metrics and activity statistics
+- baseURL: https://api.precision.dext.com
+  baseurl_source: declared
+  description: Practice client data-health metrics and activity statistics
   name: Dext Clients API
   slug: dext-clients-api
 artifact_total: 9
@@ -224,7 +226,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dext/refs/heads/main/screenshots/dext-2026-07-25T211838.png
 security:

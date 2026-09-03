@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: Encore ships a built-in Model Context Protocol server (`encore mcp start` for SSE, `encore mcp run` for stdio) that exposes the live Encore application — services, middleware, auth handlers, databases
   name: Encore MCP Server
   slug: encore-mcp-server
-- description: The Apps API from Encore — 5 operation(s) for apps.
+- baseURL: https://api.encore.cloud/v1
+  baseurl_source: spec
+  description: The Apps API from Encore — 5 operation(s) for apps.
   name: Encore Apps API
   slug: encore-dev-apps-api
-- description: The Encore API from Encore — 2 operation(s) for encore.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Encore API from Encore — 2 operation(s) for encore.
   name: Encore Encore API
   slug: encore-dev-encore-api
-- description: The Encore Framework API API from Encore — 1 operation(s) for encore framework api.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Encore Framework API API from Encore — 1 operation(s) for encore framework api.
   name: Encore Encore Framework API API
   slug: encore-dev-encore-framework-api-api
 artifact_total: 48
@@ -371,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/screenshots/encore-dev-2026-06-20T180721.png
 security:

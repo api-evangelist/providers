@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: The Anomaly Detection API from Nixtla — 1 operation(s) for anomaly detection.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Anomaly Detection API from Nixtla — 1 operation(s) for anomaly detection.
   name: Nixtla Anomaly Detection API
   slug: nixtla-anomaly-detection-api
-- description: The Cross Validation API from Nixtla — 1 operation(s) for cross validation.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Cross Validation API from Nixtla — 1 operation(s) for cross validation.
   name: Nixtla Cross Validation API
   slug: nixtla-cross-validation-api
-- description: The excluded API from Nixtla — 1 operation(s) for excluded.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The excluded API from Nixtla — 1 operation(s) for excluded.
   name: Nixtla excluded API
   slug: nixtla-excluded-api
-- description: The Finetune API from Nixtla — 1 operation(s) for finetune.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Finetune API from Nixtla — 1 operation(s) for finetune.
   name: Nixtla Finetune API
   slug: nixtla-finetune-api
-- description: The Finetuned Models API from Nixtla — 2 operation(s) for finetuned models.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Finetuned Models API from Nixtla — 2 operation(s) for finetuned models.
   name: Nixtla Finetuned Models API
   slug: nixtla-finetuned-models-api
-- description: The Forecast API from Nixtla — 1 operation(s) for forecast.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Forecast API from Nixtla — 1 operation(s) for forecast.
   name: Nixtla Forecast API
   slug: nixtla-forecast-api
-- description: The Online Anomaly Detection API from Nixtla — 1 operation(s) for online anomaly detection.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Online Anomaly Detection API from Nixtla — 1 operation(s) for online anomaly detection.
   name: Nixtla Online Anomaly Detection API
   slug: nixtla-online-anomaly-detection-api
-- description: The Validate Api Key API from Nixtla — 1 operation(s) for validate api key.
+- baseURL: https://api.nixtla.io
+  baseurl_source: declared
+  description: The Validate Api Key API from Nixtla — 1 operation(s) for validate api key.
   name: Nixtla Validate Api Key API
   slug: nixtla-validate-api-key-api
 artifact_total: 22
@@ -264,7 +280,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixtla/refs/heads/main/screenshots/nixtla-2026-08-07T185350.png
 security:

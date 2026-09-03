@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Sitetracker''s programmable surface is the Salesforce Platform API over the Sitetracker managed package''s standard and custom objects. Sitetracker states: "You can build apps, automations, and integrat'
@@ -165,7 +177,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -190,8 +202,9 @@ score:
     regime_id: energy_utilities
     score: 48.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sitetracker/refs/heads/main/screenshots/sitetracker-2026-09-02T155659.png
 security:
 - kind: authentication
   name: Sitetracker Authentication

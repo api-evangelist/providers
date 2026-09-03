@@ -34,52 +34,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Bonds API from Marketstack — 2 operation(s) for bonds.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Bonds API from Marketstack — 2 operation(s) for bonds.
   name: Marketstack Bonds API
   slug: marketstack-bonds-api
-- description: The Commodities API from Marketstack — 2 operation(s) for commodities.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Commodities API from Marketstack — 2 operation(s) for commodities.
   name: Marketstack Commodities API
   slug: marketstack-commodities-api
-- description: The Company Ratings API from Marketstack — 1 operation(s) for company ratings.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Company Ratings API from Marketstack — 1 operation(s) for company ratings.
   name: Marketstack Company Ratings API
   slug: marketstack-company-ratings-api
-- description: The Currencies API from Marketstack — 1 operation(s) for currencies.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Currencies API from Marketstack — 1 operation(s) for currencies.
   name: Marketstack Currencies API
   slug: marketstack-currencies-api
-- description: The Dividends API from Marketstack — 1 operation(s) for dividends.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Dividends API from Marketstack — 1 operation(s) for dividends.
   name: Marketstack Dividends API
   slug: marketstack-dividends-api
-- description: The EDGAR API from Marketstack — 6 operation(s) for edgar.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The EDGAR API from Marketstack — 6 operation(s) for edgar.
   name: Marketstack EDGAR API
   slug: marketstack-edgar-api
-- description: The End-of-day API from Marketstack — 3 operation(s) for end-of-day.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The End-of-day API from Marketstack — 3 operation(s) for end-of-day.
   name: Marketstack End Of Day API
   slug: marketstack-end-of-day-api
-- description: The ETFs API from Marketstack — 2 operation(s) for etfs.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The ETFs API from Marketstack — 2 operation(s) for etfs.
   name: Marketstack ET Fs API
   slug: marketstack-etfs-api
-- description: The Exchanges API from Marketstack — 9 operation(s) for exchanges.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Exchanges API from Marketstack — 9 operation(s) for exchanges.
   name: Marketstack Exchanges API
   slug: marketstack-exchanges-api
-- description: The Indexes API from Marketstack — 2 operation(s) for indexes.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Indexes API from Marketstack — 2 operation(s) for indexes.
   name: Marketstack Indexes API
   slug: marketstack-indexes-api
-- description: The Intraday API from Marketstack — 3 operation(s) for intraday.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Intraday API from Marketstack — 3 operation(s) for intraday.
   name: Marketstack Intraday API
   slug: marketstack-intraday-api
-- description: The Splits API from Marketstack — 1 operation(s) for splits.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Splits API from Marketstack — 1 operation(s) for splits.
   name: Marketstack Splits API
   slug: marketstack-splits-api
-- description: The Stock Prices API from Marketstack — 1 operation(s) for stock prices.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Stock Prices API from Marketstack — 1 operation(s) for stock prices.
   name: Marketstack Stock Prices API
   slug: marketstack-stock-prices-api
-- description: The Tickers API from Marketstack — 10 operation(s) for tickers.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Tickers API from Marketstack — 10 operation(s) for tickers.
   name: Marketstack Tickers API
   slug: marketstack-tickers-api
-- description: The Timezones API from Marketstack — 1 operation(s) for timezones.
+- baseURL: https://api.marketstack.com/v2
+  baseurl_source: declared
+  description: The Timezones API from Marketstack — 1 operation(s) for timezones.
   name: Marketstack Timezones API
   slug: marketstack-timezones-api
 artifact_total: 21
@@ -237,7 +267,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -247,7 +277,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 54.3
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -264,7 +294,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

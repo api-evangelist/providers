@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: AsyncAPI 2.6 specification for Vimeo's documented webhook surface, covering the Vimeo OTT customer and subscription lifecycle topics (customer.created, customer.product.renewed, customer.tvod.created,
   name: Vimeo Webhooks
   slug: webhooks
-- description: The Albums API from Vimeo — 2 operation(s) for albums.
+- baseURL: https://api.vimeo.com
+  baseurl_source: declared
+  description: The Albums API from Vimeo — 2 operation(s) for albums.
   name: Vimeo Albums API
   slug: vimeo-albums-api
-- description: The Channels API from Vimeo — 3 operation(s) for channels.
+- baseURL: https://api.vimeo.com
+  baseurl_source: declared
+  description: The Channels API from Vimeo — 3 operation(s) for channels.
   name: Vimeo Channels API
   slug: vimeo-channels-api
-- description: The Users API from Vimeo — 2 operation(s) for users.
+- baseURL: https://api.vimeo.com
+  baseurl_source: declared
+  description: The Users API from Vimeo — 2 operation(s) for users.
   name: Vimeo Users API
   slug: vimeo-users-api
-- description: The Videos API from Vimeo — 3 operation(s) for videos.
+- baseURL: https://api.vimeo.com
+  baseurl_source: declared
+  description: The Videos API from Vimeo — 3 operation(s) for videos.
   name: Vimeo Videos API
   slug: vimeo-videos-api
 artifact_total: 18
@@ -168,7 +176,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -178,7 +186,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 35.7
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -187,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/screenshots/vimeo-2026-06-20T201045.png
 security:

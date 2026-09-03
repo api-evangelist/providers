@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 10 acting
 api_count: 1
 apis:
-- description: Define and execute business tools the AI agent can call.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: Define and execute business tools the AI agent can call.
   name: Gradient Labs Actions & Tools API
   slug: gradient-labs-actions-tools-api
-- description: Start, read, and manage the lifecycle of AI-agent conversations.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: Start, read, and manage the lifecycle of AI-agent conversations.
   name: Gradient Labs Conversations API
   slug: gradient-labs-conversations-api
-- description: Assign conversations between the AI agent and human participants.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: Assign conversations between the AI agent and human participants.
   name: Gradient Labs Hand-off API
   slug: gradient-labs-hand-off-api
-- description: Manage knowledge-base articles that ground the AI agent.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: Manage knowledge-base articles that ground the AI agent.
   name: Gradient Labs Knowledge API
   slug: gradient-labs-knowledge-api
-- description: Add inbound messages to a conversation.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: Add inbound messages to a conversation.
   name: Gradient Labs Messages API
   slug: gradient-labs-messages-api
-- description: The Gradient Labs API API from Gradient Labs — 0 operation(s) for gradient labs api.
+- baseURL: https://api.gradient-labs.ai
+  baseurl_source: declared
+  description: The Gradient Labs API API from Gradient Labs — 0 operation(s) for gradient labs api.
   name: Gradient Labs Gradient Labs API
   slug: gradient-labs-gradient-labs-api-api
 artifact_total: 19
@@ -182,7 +194,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/screenshots/gradient-labs-2026-07-25T220209.png
 security:

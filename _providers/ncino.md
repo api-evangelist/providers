@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,265 +37,435 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Two hosted, remote Model Context Protocol servers for the nCino Mortgage platform — an LO server for loan officers and an Admin server for organization administrators. Both use OAuth 2.1 authorization
   name: nCino Mortgage MCP Servers
   slug: mortgage-mcp
-- description: Webhook events pertaining to account assignment records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to account assignment records
   name: nCino Account Assignment Webhooks API
   slug: ncino-account-assignment-webhooks-api
-- description: The Audit Logs API from nCino — 1 operation(s) for audit logs.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Audit Logs API from nCino — 1 operation(s) for audit logs.
   name: nCino Audit Logs API
   slug: ncino-audit-logs-api
-- description: The Authentication API from nCino — 3 operation(s) for authentication.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Authentication API from nCino — 3 operation(s) for authentication.
   name: nCino Authentication API
   slug: ncino-authentication-api
-- description: Endpoints pertaining to borrower task reminders
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to borrower task reminders
   name: nCino Borrower Task Reminders API
   slug: ncino-borrower-task-reminders-api
-- description: Endpoints pertaining to <<glossary:borrower account>>s in the nCino Mortgage platform
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:borrower account>>s in the nCino Mortgage platform
   name: nCino Borrowers API
   slug: ncino-borrowers-api
-- description: Endpoints pertaining to <<glossary:branch>> images
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:branch>> images
   name: nCino Branch Images API
   slug: ncino-branch-images-api
-- description: Endpoints pertaining to <<glossary:branch>> links
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:branch>> links
   name: nCino Branch Links API
   slug: ncino-branch-links-api
-- description: Endpoints pertaining to <<glossary:branch>> reports
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:branch>> reports
   name: nCino Branch Reports API
   slug: ncino-branch-reports-api
-- description: Endpoints pertaining to <<glossary:branch>> <<glossary:state license>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:branch>> <<glossary:state license>>s
   name: nCino Branch State Licenses API
   slug: ncino-branch-state-licenses-api
-- description: Endpoints pertaining to <<glossary:company>> records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> records
   name: nCino Companies API
   slug: ncino-companies-api
-- description: Endpoints pertaining to <<glossary:company>> images
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> images
   name: nCino Company Images API
   slug: ncino-company-images-api
-- description: Endpoints pertaining to <<glossary:company>> <<glossary:link>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> <<glossary:link>>s
   name: nCino Company Links API
   slug: ncino-company-links-api
-- description: Endpoints pertaining to company milestones
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to company milestones
   name: nCino Company Milestones API
   slug: ncino-company-milestones-api
-- description: Endpoints pertaining to <<glossary:company>> regions
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> regions
   name: nCino Company Regions API
   slug: ncino-company-regions-api
-- description: Endpoints pertaining to <<glossary:company>> reports
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> reports
   name: nCino Company Reports API
   slug: ncino-company-reports-api
-- description: Endpoints pertaining to company state license templates
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to company state license templates
   name: nCino Company State License Templates API
   slug: ncino-company-state-license-templates-api
-- description: Endpoints pertaining to <<glossary:company>> state licenses
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:company>> state licenses
   name: nCino Company State Licenses API
   slug: ncino-company-state-licenses-api
-- description: The Connectivity API from nCino — 1 operation(s) for connectivity.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Connectivity API from nCino — 1 operation(s) for connectivity.
   name: nCino Connectivity API
   slug: ncino-connectivity-api
-- description: Endpoints pertaining to custom form requests (e.g. econsent, credit auth)
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to custom form requests (e.g. econsent, credit auth)
   name: nCino Custom Form Requests API
   slug: ncino-custom-form-requests-api
-- description: Endpoints pertaining to doc package orders
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to doc package orders
   name: nCino Doc Package Orders API
   slug: ncino-doc-package-orders-api
-- description: Webhook events pertaining to loan document changes
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to loan document changes
   name: nCino Document Webhooks API
   slug: ncino-document-webhooks-api
-- description: The Enotes API from nCino — 6 operation(s) for enotes.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Enotes API from nCino — 6 operation(s) for enotes.
   name: nCino Enotes API
   slug: ncino-enotes-api
-- description: Endpoints pertaining to inquiry <<glossary:task>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to inquiry <<glossary:task>>s
   name: nCino Inquiry Tasks API
   slug: ncino-inquiry-tasks-api
-- description: Webhook events pertaining to jobs
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to jobs
   name: nCino Job Webhooks API
   slug: ncino-job-webhooks-api
-- description: Endpoints pertaining to jobs
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to jobs
   name: nCino Jobs API
   slug: ncino-jobs-api
-- description: Endpoints pertaining to links
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to links
   name: nCino Links API
   slug: ncino-links-api
-- description: Endpoints pertaining to borrower task reminders
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to borrower task reminders
   name: nCino Loan App Borrower Task Reminders API
   slug: ncino-loan-app-borrower-task-reminders-api
-- description: Endpoints pertaining to custom form requests (e.g. econsent, credit auth)
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to custom form requests (e.g. econsent, credit auth)
   name: nCino Loan App Custom Form Requests API
   slug: ncino-loan-app-custom-form-requests-api
-- description: Endpoints pertaining to loan doc <<glossary:task>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan doc <<glossary:task>>s
   name: nCino Loan App Doc Tasks API
   slug: ncino-loan-app-doc-tasks-api
-- description: Endpoints pertaining to inquiry <<glossary:task>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to inquiry <<glossary:task>>s
   name: nCino Loan App Inquiry Tasks API
   slug: ncino-loan-app-inquiry-tasks-api
-- description: Endpoints pertaining to loan application borrowers
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan application borrowers
   name: nCino Loan Application Borrowers API
   slug: ncino-loan-application-borrowers-api
-- description: Endpoints pertaining to a loan application in nested format.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application in nested format.
   name: nCino Loan Application (Nested) API
   slug: ncino-loan-application-nested-api
-- description: Endpoints pertaining to a loan application's assets. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A persisted
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application's assets. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A persisted
   name: nCino Loan Application (Nested) Assets API
   slug: ncino-loan-application-nested-assets-api
-- description: Endpoints pertaining to a loan application's borrower's income sources. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field or
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application's borrower's income sources. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field or
   name: nCino Loan Application (Nested) Borrower Incomes API
   slug: ncino-loan-application-nested-borrower-incomes-api
-- description: Endpoints pertaining to a loan application's co-borrower's income sources. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application's co-borrower's income sources. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field
   name: nCino Loan Application (Nested) Co-borrower Incomes API
   slug: ncino-loan-application-nested-co-borrower-incomes-api
-- description: Endpoints pertaining to a loan application's expenses. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A persist
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application's expenses. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A persist
   name: nCino Loan Application (Nested) Expenses API
   slug: ncino-loan-application-nested-expenses-api
-- description: Endpoints pertaining to a loan application's liabilities. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A pers
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a loan application's liabilities. > 🚧 Interim identifier scheme `_id` is an opaque string, stable only for the lifetime of the loan application's current field ordering. A pers
   name: nCino Loan Application (Nested) Liabilities API
   slug: ncino-loan-application-nested-liabilities-api
-- description: Webhook events pertaining to loan applications
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to loan applications
   name: nCino Loan Application Webhooks API
   slug: ncino-loan-application-webhooks-api
-- description: Endpoints pertaining to loan applications
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan applications
   name: nCino Loan Applications API
   slug: ncino-loan-applications-api
-- description: Endpoints pertaining to <<glossary:loan borrower>> <<glossary:verification>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan borrower>> <<glossary:verification>>s
   name: nCino Loan Borrower Verifications API
   slug: ncino-loan-borrower-verifications-api
-- description: Endpoints pertaining to <<glossary:loan borrower>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan borrower>>s
   name: nCino Loan Borrowers API
   slug: ncino-loan-borrowers-api
-- description: Endpoints pertaining to loan doc <<glossary:task>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan doc <<glossary:task>>s
   name: nCino Loan Doc Tasks API
   slug: ncino-loan-doc-tasks-api
-- description: Endpoints for retrieving documents uploaded to a loan.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for retrieving documents uploaded to a loan.
   name: nCino Loan Documents API
   slug: ncino-loan-documents-api
-- description: Webhook events pertaining to loan milestone status changes
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to loan milestone status changes
   name: nCino Loan Milestone Webhooks API
   slug: ncino-loan-milestone-webhooks-api
-- description: Endpoints pertaining to loan milestone instances on a specific loan. These represent the completion status of milestones, not milestone definitions.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan milestone instances on a specific loan. These represent the completion status of milestones, not milestone definitions.
   name: nCino Loan Milestones API
   slug: ncino-loan-milestones-api
-- description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:alias>>es
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:alias>>es
   name: nCino Loan Officer Aliases API
   slug: ncino-loan-officer-aliases-api
-- description: Endpoints pertaining to sharing a <<glossary:loan officer>>'s app link
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to sharing a <<glossary:loan officer>>'s app link
   name: nCino Loan Officer App Shares API
   slug: ncino-loan-officer-app-shares-api
-- description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:assignment>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:assignment>>s
   name: nCino Loan Officer Assignments API
   slug: ncino-loan-officer-assignments-api
-- description: Endpoints pertaining to <<glossary:loan officer>> images
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> images
   name: nCino Loan Officer Images API
   slug: ncino-loan-officer-images-api
-- description: Endpoints pertaining to <<glossary:loan officer>> links
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> links
   name: nCino Loan Officer Links API
   slug: ncino-loan-officer-links-api
-- description: Endpoints pertaining to loan doc <<glossary:task>>s aggregated at the <<glossary:loan officer>> level
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to loan doc <<glossary:task>>s aggregated at the <<glossary:loan officer>> level
   name: nCino Loan Officer Loan Doc Tasks API
   slug: ncino-loan-officer-loan-doc-tasks-api
-- description: Endpoints pertaining to a <<glossary:loan officer>>s' <<glossary:partner>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a <<glossary:loan officer>>s' <<glossary:partner>>s
   name: nCino Loan Officer Partners API
   slug: ncino-loan-officer-partners-api
-- description: Endpoints pertaining to <<glossary:loan officer>> prospects
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> prospects
   name: nCino Loan Officer Prospects API
   slug: ncino-loan-officer-prospects-api
-- description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:state license>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>> <<glossary:state license>>s
   name: nCino Loan Officer State Licenses API
   slug: ncino-loan-officer-state-licenses-api
-- description: Webhook events pertaining to <<glossary:loan officer>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to <<glossary:loan officer>>s
   name: nCino Loan Officer Webhooks API
   slug: ncino-loan-officer-webhooks-api
-- description: Endpoints pertaining to <<glossary:loan officer>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:loan officer>>s
   name: nCino Loan Officers API
   slug: ncino-loan-officers-api
-- description: Webhook events pertaining to loans
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to loans
   name: nCino Loan Webhooks API
   slug: ncino-loan-webhooks-api
-- description: Endpoints for loans
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for loans
   name: nCino Loans API
   slug: ncino-loans-api
-- description: Webhook events pertaining to milestone records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to milestone records
   name: nCino Milestone Webhooks API
   slug: ncino-milestone-webhooks-api
-- description: Webhook events pertaining to organization records (i.e. companies, regions, and branches)
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to organization records (i.e. companies, regions, and branches)
   name: nCino Organization Webhooks API
   slug: ncino-organization-webhooks-api
-- description: Endpoints pertaining to partners
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to partners
   name: nCino Partner Images API
   slug: ncino-partner-images-api
-- description: Endpoints pertaining to partner links
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to partner links
   name: nCino Partner Links API
   slug: ncino-partner-links-api
-- description: Endpoints pertaining to permissions
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to permissions
   name: nCino Permissions API
   slug: ncino-permissions-api
-- description: Endpoints pertaining to a region's <<glossary:branch>>es
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to a region's <<glossary:branch>>es
   name: nCino Region Branches API
   slug: ncino-region-branches-api
-- description: Endpoints pertaining to region images
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to region images
   name: nCino Region Images API
   slug: ncino-region-images-api
-- description: Endpoints pertaining to region links
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to region links
   name: nCino Region Links API
   slug: ncino-region-links-api
-- description: Endpoints pertaining to region reports
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to region reports
   name: nCino Region Reports API
   slug: ncino-region-reports-api
-- description: Endpoints pertaining to region state licenses
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to region state licenses
   name: nCino Region State Licenses API
   slug: ncino-region-state-licenses-api
-- description: Endpoints for managing the <<glossary:permission>>s assigned to a <<glossary:role>>. Permissions are identified by their string *key* (e.g. `manage_roles`). Requests are scoped to the authenticated to
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for managing the <<glossary:permission>>s assigned to a <<glossary:role>>. Permissions are identified by their string *key* (e.g. `manage_roles`). Requests are scoped to the authenticated to
   name: nCino Role Permissions API
   slug: ncino-role-permissions-api
-- description: Endpoints for managing user assignments on a <<glossary:role>>.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for managing user assignments on a <<glossary:role>>.
   name: nCino Role Users API
   slug: ncino-role-users-api
-- description: Endpoints pertaining to <<glossary:role>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:role>>s
   name: nCino Roles API
   slug: ncino-roles-api
-- description: Webhook events pertaining to state license records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to state license records
   name: nCino State License Webhooks API
   slug: ncino-state-license-webhooks-api
-- description: Endpoints pertaining to <<glossary:State license>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:State license>>s
   name: nCino State Licenses API
   slug: ncino-state-licenses-api
-- description: Endpoints pertaining to webhook subscriptions
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to webhook subscriptions
   name: nCino Subscriptions API
   slug: ncino-subscriptions-api
-- description: Endpoints pertaining to team member assignments
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to team member assignments
   name: nCino Team Member Assignments API
   slug: ncino-team-member-assignments-api
-- description: Endpoints pertaining to team member images
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to team member images
   name: nCino Team Member Images API
   slug: ncino-team-member-images-api
-- description: Endpoints pertaining to team members
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to team members
   name: nCino Team Members API
   slug: ncino-team-members-api
-- description: The Transactions API from nCino — 8 operation(s) for transactions.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Transactions API from nCino — 8 operation(s) for transactions.
   name: nCino Transactions API
   slug: ncino-transactions-api
-- description: Endpoints for querying a user's effective permissions, resolved across all of their assigned roles.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for querying a user's effective permissions, resolved across all of their assigned roles.
   name: nCino User Permissions API
   slug: ncino-user-permissions-api
-- description: Endpoints for inspecting role assignments on a user.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints for inspecting role assignments on a user.
   name: nCino User Roles API
   slug: ncino-user-roles-api
-- description: Webhook events pertaining to user records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to user records
   name: nCino User Webhooks API
   slug: ncino-user-webhooks-api
-- description: Webhook events pertaining to verification report records
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Webhook events pertaining to verification report records
   name: nCino Verification Webhooks API
   slug: ncino-verification-webhooks-api
-- description: Endpoints pertaining to <<glossary:verification>>s
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: Endpoints pertaining to <<glossary:verification>>s
   name: nCino Verifications API
   slug: ncino-verifications-api
-- description: The Webhook Events API from nCino — 0 operation(s) for webhook events.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Webhook Events API from nCino — 0 operation(s) for webhook events.
   name: nCino Webhook Events API
   slug: ncino-webhook-events-api
-- description: The Webhooks API from nCino — 6 operation(s) for webhooks.
+- baseURL: https://api.ncinomortgage.com
+  baseurl_source: declared
+  description: The Webhooks API from nCino — 6 operation(s) for webhooks.
   name: nCino Webhooks API
   slug: ncino-webhooks-api
 artifact_total: 178
@@ -717,23 +900,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.7
+  composite: 37.6
   coverage:
     artifact_dirs: 21
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.9
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 4.5
     contract_quality: 63.4
     developer_ergonomics: 17.3
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 35.7
   provenance:
     conformance: derived
     contracts:
@@ -754,7 +937,7 @@ score:
     regime_id: banking_open_finance
     score: 51.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncino/refs/heads/main/screenshots/ncino-2026-08-07T184748.png
 security:

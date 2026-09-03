@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 33 operations · 16 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: The Cards API from Qonto — 1 operation(s) for cards.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Cards API from Qonto — 1 operation(s) for cards.
   name: Qonto Cards API
   slug: qonto-cards-api
-- description: The Client Invoices API from Qonto — 1 operation(s) for client invoices.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Client Invoices API from Qonto — 1 operation(s) for client invoices.
   name: Qonto Client Invoices API
   slug: qonto-client-invoices-api
-- description: The Internal Transfers API from Qonto — 1 operation(s) for internal transfers.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Internal Transfers API from Qonto — 1 operation(s) for internal transfers.
   name: Qonto Internal Transfers API
   slug: qonto-internal-transfers-api
-- description: The International Transfers API from Qonto — 2 operation(s) for international transfers.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The International Transfers API from Qonto — 2 operation(s) for international transfers.
   name: Qonto International Transfers API
   slug: qonto-international-transfers-api
-- description: The OAuth API from Qonto — 1 operation(s) for oauth.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The OAuth API from Qonto — 1 operation(s) for oauth.
   name: Qonto OAuth API
   slug: qonto-oauth-api
-- description: The Organizations & Accounts API from Qonto — 4 operation(s) for organizations & accounts.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Organizations & Accounts API from Qonto — 4 operation(s) for organizations & accounts.
   name: Qonto Organizations & Accounts API
   slug: qonto-organizations-accounts-api
-- description: The Payment Links API from Qonto — 1 operation(s) for payment links.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Payment Links API from Qonto — 1 operation(s) for payment links.
   name: Qonto Payment Links API
   slug: qonto-payment-links-api
-- description: The SEPA Direct Debit API from Qonto — 2 operation(s) for sepa direct debit.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The SEPA Direct Debit API from Qonto — 2 operation(s) for sepa direct debit.
   name: Qonto SEPA Direct Debit API
   slug: qonto-sepa-direct-debit-api
-- description: The SEPA Transfers API from Qonto — 3 operation(s) for sepa transfers.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The SEPA Transfers API from Qonto — 3 operation(s) for sepa transfers.
   name: Qonto SEPA Transfers API
   slug: qonto-sepa-transfers-api
-- description: The Supplier Invoices API from Qonto — 2 operation(s) for supplier invoices.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Supplier Invoices API from Qonto — 2 operation(s) for supplier invoices.
   name: Qonto Supplier Invoices API
   slug: qonto-supplier-invoices-api
-- description: The Terminals API from Qonto — 2 operation(s) for terminals.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Terminals API from Qonto — 2 operation(s) for terminals.
   name: Qonto Terminals API
   slug: qonto-terminals-api
-- description: The Transactions & Statements API from Qonto — 3 operation(s) for transactions & statements.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Transactions & Statements API from Qonto — 3 operation(s) for transactions & statements.
   name: Qonto Transactions & Statements API
   slug: qonto-transactions-statements-api
-- description: The Webhooks API from Qonto — 2 operation(s) for webhooks.
+- baseURL: https://thirdparty.qonto.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Qonto — 2 operation(s) for webhooks.
   name: Qonto Webhooks API
   slug: qonto-webhooks-api
 artifact_total: 51
@@ -400,7 +426,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -410,7 +436,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 73.3
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -434,7 +460,7 @@ score:
     regime_id: banking_open_finance
     score: 74.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/screenshots/qonto-2026-08-17T075403.png
 security:

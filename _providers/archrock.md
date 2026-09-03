@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Financials API from Archrock — 1 operation(s) for financials.
+- baseURL: https://api.archrock.com/v1
+  baseurl_source: spec
+  description: The Financials API from Archrock — 1 operation(s) for financials.
   name: Archrock Financials API
   slug: archrock-financials-api
-- description: The Fleet API from Archrock — 2 operation(s) for fleet.
+- baseURL: https://api.archrock.com/v1
+  baseurl_source: spec
+  description: The Fleet API from Archrock — 2 operation(s) for fleet.
   name: Archrock Fleet API
   slug: archrock-fleet-api
-- description: The Operations API from Archrock — 1 operation(s) for operations.
+- baseURL: https://api.archrock.com/v1
+  baseurl_source: spec
+  description: The Operations API from Archrock — 1 operation(s) for operations.
   name: Archrock Operations API
   slug: archrock-operations-api
-- description: The SEC Filings API from Archrock — 1 operation(s) for sec filings.
+- baseURL: https://api.archrock.com/v1
+  baseurl_source: spec
+  description: The SEC Filings API from Archrock — 1 operation(s) for sec filings.
   name: Archrock SEC Filings API
   slug: archrock-sec-filings-api
 artifact_total: 51
@@ -306,7 +314,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/screenshots/archrock-2026-06-20T172409.png
 security:

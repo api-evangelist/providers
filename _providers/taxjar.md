@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 22 operations · 11 acting
 api_count: 1
 apis:
-- description: Product tax categories
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Product tax categories
   name: TaxJar Categories API
   slug: taxjar-categories-api
-- description: Customer exemption management
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Customer exemption management
   name: TaxJar Customers API
   slug: taxjar-customers-api
-- description: Nexus region tracking
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Nexus region tracking
   name: TaxJar Nexus API
   slug: taxjar-nexus-api
-- description: Sales tax rate lookups
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Sales tax rate lookups
   name: TaxJar Rates API
   slug: taxjar-rates-api
-- description: Summarized sales tax rates by region
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Summarized sales tax rates by region
   name: TaxJar Summary Rates API
   slug: taxjar-summary-rates-api
-- description: Sales tax calculation
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Sales tax calculation
   name: TaxJar Taxes API
   slug: taxjar-taxes-api
-- description: Order transaction management
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Order transaction management
   name: TaxJar Transactions - Orders API
   slug: taxjar-transactions-orders-api
-- description: Refund transaction management
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Refund transaction management
   name: TaxJar Transactions - Refunds API
   slug: taxjar-transactions-refunds-api
-- description: Address and VAT validation
+- baseURL: https://api.taxjar.com/v2/
+  baseurl_source: declared
+  description: Address and VAT validation
   name: TaxJar Validations API
   slug: taxjar-validations-api
 artifact_total: 42
@@ -307,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taxjar/refs/heads/main/screenshots/taxjar-2026-06-20T194935.png
 security:

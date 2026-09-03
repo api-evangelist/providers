@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
-- description: Generate AI assets such as text-to-speech and text-to-image.
+- baseURL: https://api.shotstack.io/edit/v1
+  baseurl_source: declared
+  description: Generate AI assets such as text-to-speech and text-to-image.
   name: Shotstack Create API
   slug: shotstack-create-api
-- description: Render videos, images, and audio from a JSON edit specification.
+- baseURL: https://api.shotstack.io/edit/v1
+  baseurl_source: declared
+  description: Render videos, images, and audio from a JSON edit specification.
   name: Shotstack Edit API
   slug: shotstack-edit-api
-- description: Upload, store, and transform source assets.
+- baseURL: https://api.shotstack.io/edit/v1
+  baseurl_source: declared
+  description: Upload, store, and transform source assets.
   name: Shotstack Ingest API
   slug: shotstack-ingest-api
-- description: Inspect, manage, and deliver hosted assets.
+- baseURL: https://api.shotstack.io/edit/v1
+  baseurl_source: declared
+  description: Inspect, manage, and deliver hosted assets.
   name: Shotstack Serve API
   slug: shotstack-serve-api
-- description: Manage and render reusable edit templates with merge fields.
+- baseURL: https://api.shotstack.io/edit/v1
+  baseurl_source: declared
+  description: Manage and render reusable edit templates with merge fields.
   name: Shotstack Templates API
   slug: shotstack-templates-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/screenshots/shotstack-2026-06-20T193841.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 4
@@ -47,64 +47,104 @@ apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the Utrecht University Library institutional repository. Verified live 2026-08-30 on DSpace 9.0: Identify, ListMetadataFormats and ListRecords all answer,'
   name: Utrecht University Repository OAI-PMH
   slug: repository-oai
-- description: The admin API from Utrecht University — 1 operation(s) for admin.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The admin API from Utrecht University — 1 operation(s) for admin.
   name: Utrecht University admin API
   slug: utrecht-admin-api
-- description: The browse API from Utrecht University — 4 operation(s) for browse.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The browse API from Utrecht University — 4 operation(s) for browse.
   name: Utrecht University browse API
   slug: utrecht-browse-api
-- description: The data_access_token API from Utrecht University — 4 operation(s) for data_access_token.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The data_access_token API from Utrecht University — 4 operation(s) for data_access_token.
   name: Utrecht University data_access_token API
   slug: utrecht-data-access-token-api
-- description: The datarequest API from Utrecht University — 34 operation(s) for datarequest.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The datarequest API from Utrecht University — 34 operation(s) for datarequest.
   name: Utrecht University datarequest API
   slug: utrecht-datarequest-api
-- description: The folder API from Utrecht University — 7 operation(s) for folder.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The folder API from Utrecht University — 7 operation(s) for folder.
   name: Utrecht University folder API
   slug: utrecht-folder-api
-- description: The groups API from Utrecht University — 15 operation(s) for groups.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The groups API from Utrecht University — 15 operation(s) for groups.
   name: Utrecht University groups API
   slug: utrecht-groups-api
-- description: The meta API from Utrecht University — 2 operation(s) for meta.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The meta API from Utrecht University — 2 operation(s) for meta.
   name: Utrecht University meta API
   slug: utrecht-meta-api
-- description: The meta_form API from Utrecht University — 2 operation(s) for meta_form.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The meta_form API from Utrecht University — 2 operation(s) for meta_form.
   name: Utrecht University meta_form API
   slug: utrecht-meta-form-api
-- description: The notifications API from Utrecht University — 3 operation(s) for notifications.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The notifications API from Utrecht University — 3 operation(s) for notifications.
   name: Utrecht University notifications API
   slug: utrecht-notifications-api
-- description: The provenance API from Utrecht University — 1 operation(s) for provenance.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The provenance API from Utrecht University — 1 operation(s) for provenance.
   name: Utrecht University provenance API
   slug: utrecht-provenance-api
-- description: The publication_troubleshoot API from Utrecht University — 1 operation(s) for publication_troubleshoot.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The publication_troubleshoot API from Utrecht University — 1 operation(s) for publication_troubleshoot.
   name: Utrecht University publication_troubleshoot API
   slug: utrecht-publication-troubleshoot-api
-- description: The research API from Utrecht University — 13 operation(s) for research.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The research API from Utrecht University — 13 operation(s) for research.
   name: Utrecht University research API
   slug: utrecht-research-api
-- description: The revisions API from Utrecht University — 3 operation(s) for revisions.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The revisions API from Utrecht University — 3 operation(s) for revisions.
   name: Utrecht University revisions API
   slug: utrecht-revisions-api
-- description: The schema API from Utrecht University — 1 operation(s) for schema.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The schema API from Utrecht University — 1 operation(s) for schema.
   name: Utrecht University schema API
   slug: utrecht-schema-api
-- description: The schema_transformation API from Utrecht University — 1 operation(s) for schema_transformation.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The schema_transformation API from Utrecht University — 1 operation(s) for schema_transformation.
   name: Utrecht University schema_transformation API
   slug: utrecht-schema-transformation-api
-- description: The settings API from Utrecht University — 2 operation(s) for settings.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The settings API from Utrecht University — 2 operation(s) for settings.
   name: Utrecht University settings API
   slug: utrecht-settings-api
-- description: The stats API from Utrecht University — 4 operation(s) for stats.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The stats API from Utrecht University — 4 operation(s) for stats.
   name: Utrecht University stats API
   slug: utrecht-stats-api
-- description: The vault API from Utrecht University — 16 operation(s) for vault.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The vault API from Utrecht University — 16 operation(s) for vault.
   name: Utrecht University vault API
   slug: utrecht-vault-api
-- description: The vault_archive API from Utrecht University — 3 operation(s) for vault_archive.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The vault_archive API from Utrecht University — 3 operation(s) for vault_archive.
   name: Utrecht University vault_archive API
   slug: utrecht-vault-archive-api
-- description: The vault_deaccession API from Utrecht University — 4 operation(s) for vault_deaccession.
+- baseURL: https://portal.yoda.uu.nl/api
+  baseurl_source: declared
+  description: The vault_deaccession API from Utrecht University — 4 operation(s) for vault_deaccession.
   name: Utrecht University vault_deaccession API
   slug: utrecht-vault-deaccession-api
 - description: 'The DSpace 9.0 HAL/JSON REST API behind the Utrecht University Repository. Openly readable without a key: the root at /server/api enumerates ~60 link relations, and /server/api/discover/search/objects'
@@ -378,7 +418,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -391,7 +431,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 46.2
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,7 +447,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: Operations operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
   name: Microsoft Azure AI Foundry Operations API
   slug: microsoft-azure-ai-foundry-operations-api
-- description: Workspaces operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Workspaces operations
   name: Microsoft Azure AI Foundry Workspaces API
   slug: microsoft-azure-ai-foundry-workspaces-api
 artifact_total: 14
@@ -182,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/screenshots/microsoft-azure-ai-foundry-2026-06-20T185353.png
 security:

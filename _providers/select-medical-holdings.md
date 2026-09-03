@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Live HL7 FHIR R4 (4.0.1) patient-access API operated by Select Medical on its Epic platform (community et0948, Epic software version November 2025). The server's own CapabilityStatement self-identifie
+- baseURL: https://epicproxy.et0948.epichosted.com/FhirProxy/api/FHIR/R4
+  baseurl_source: declared
+  description: Live HL7 FHIR R4 (4.0.1) patient-access API operated by Select Medical on its Epic platform (community et0948, Epic software version November 2025). The server's own CapabilityStatement self-identifie
   name: Select Medical FHIR R4 API
   slug: select-medical-holdings-fhir-r4
 - description: 'Legacy HL7 FHIR DSTU2 (1.0.2) endpoint operated by Select Medical on the same Epic platform, registered as "Select Medical" in Epic''s public DSTU2 endpoint directory since 2020-06-01 and still listed '
@@ -179,7 +181,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -189,7 +191,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 34.0
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     contracts:
@@ -206,7 +208,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

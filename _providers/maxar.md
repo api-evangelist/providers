@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -80,13 +80,19 @@ apis:
 - description: Public Postman workspace documenting the Maxar Geospatial Platform API surface for quick exploration and testing.
   name: Maxar MGP Postman Collection
   slug: postman
-- description: The Authentication API from Maxar — 2 operation(s) for authentication.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Authentication API from Maxar — 2 operation(s) for authentication.
   name: Maxar Authentication API
   slug: maxar-authentication-api
-- description: The Discovery API from Maxar — 5 operation(s) for discovery.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Discovery API from Maxar — 5 operation(s) for discovery.
   name: Maxar Discovery API
   slug: maxar-discovery-api
-- description: The Ordering API from Maxar — 6 operation(s) for ordering.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Ordering API from Maxar — 6 operation(s) for ordering.
   name: Maxar Ordering API
   slug: maxar-ordering-api
 artifact_total: 26
@@ -219,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar/refs/heads/main/screenshots/maxar-2026-06-20T185048.png
 security:

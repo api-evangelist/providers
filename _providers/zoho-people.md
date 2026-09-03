@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Attendance entries, check-in / check-out, regularization.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Attendance entries, check-in / check-out, regularization.
   name: Zoho People Attendance API
   slug: zoho-people-attendance-api
-- description: Workflow and automation triggers.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Workflow and automation triggers.
   name: Zoho People Automation API
   slug: zoho-people-automation-api
-- description: Dashboard data reads for analytics widgets.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Dashboard data reads for analytics widgets.
   name: Zoho People Dashboard API
   slug: zoho-people-dashboard-api
-- description: Employee record CRUD across the People HRIS.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Employee record CRUD across the People HRIS.
   name: Zoho People Employee API
   slug: zoho-people-employee-api
-- description: Custom and standard form record operations.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Custom and standard form record operations.
   name: Zoho People Forms API
   slug: zoho-people-forms-api
-- description: Leave types, balances, and request lifecycle.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Leave types, balances, and request lifecycle.
   name: Zoho People Leave API
   slug: zoho-people-leave-api
-- description: Projects, jobs, and timesheet entries.
+- baseURL: https://people.zoho.com/people/api
+  baseurl_source: declared
+  description: Projects, jobs, and timesheet entries.
   name: Zoho People Time Tracker API
   slug: zoho-people-time-tracker-api
 artifact_total: 38
@@ -289,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-people/refs/heads/main/screenshots/zoho-people-2026-06-20T201945.png
 security:

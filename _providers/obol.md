@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 71 operations · 18 acting · 18 human-in-the-loop
 api_count: 1
 apis:
-- description: The Address API from Obol — 7 operation(s) for address.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Address API from Obol — 7 operation(s) for address.
   name: Obol Address API
   slug: obol-address-api
-- description: The Cluster Definition API from Obol — 4 operation(s) for cluster definition.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Cluster Definition API from Obol — 4 operation(s) for cluster definition.
   name: Obol Cluster Definition API
   slug: obol-cluster-definition-api
-- description: The Cluster Effectiveness API from Obol — 1 operation(s) for cluster effectiveness.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Cluster Effectiveness API from Obol — 1 operation(s) for cluster effectiveness.
   name: Obol Cluster Effectiveness API
   slug: obol-cluster-effectiveness-api
-- description: The Cluster Lock API from Obol — 22 operation(s) for cluster lock.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Cluster Lock API from Obol — 22 operation(s) for cluster lock.
   name: Obol Cluster Lock API
   slug: obol-cluster-lock-api
-- description: The Deposit Data API from Obol — 4 operation(s) for deposit data.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Deposit Data API from Obol — 4 operation(s) for deposit data.
   name: Obol Deposit Data API
   slug: obol-deposit-data-api
-- description: The DV Exit API from Obol — 8 operation(s) for dv exit.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The DV Exit API from Obol — 8 operation(s) for dv exit.
   name: Obol DV Exit API
   slug: obol-dv-exit-api
-- description: The DV Migrate API from Obol — 1 operation(s) for dv migrate.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The DV Migrate API from Obol — 1 operation(s) for dv migrate.
   name: Obol DV Migrate API
   slug: obol-dv-migrate-api
-- description: The Fee Recipient API from Obol — 4 operation(s) for fee recipient.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Fee Recipient API from Obol — 4 operation(s) for fee recipient.
   name: Obol Fee Recipient API
   slug: obol-fee-recipient-api
-- description: The Metrics API from Obol — 1 operation(s) for metrics.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Metrics API from Obol — 1 operation(s) for metrics.
   name: Obol Metrics API
   slug: obol-metrics-api
-- description: The OWR Information API from Obol — 1 operation(s) for owr information.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The OWR Information API from Obol — 1 operation(s) for owr information.
   name: Obol OWR Information API
   slug: obol-owr-information-api
-- description: The Positions API from Obol — 2 operation(s) for positions.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Positions API from Obol — 2 operation(s) for positions.
   name: Obol Positions API
   slug: obol-positions-api
-- description: The State API from Obol — 1 operation(s) for state.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The State API from Obol — 1 operation(s) for state.
   name: Obol State API
   slug: obol-state-api
-- description: System related endpoints.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: System related endpoints.
   name: Obol System API
   slug: obol-system-api
-- description: The Techne Credentials API from Obol — 4 operation(s) for techne credentials.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Techne Credentials API from Obol — 4 operation(s) for techne credentials.
   name: Obol Techne Credentials API
   slug: obol-techne-credentials-api
-- description: The Terms And Conditions API from Obol — 2 operation(s) for terms and conditions.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Terms And Conditions API from Obol — 2 operation(s) for terms and conditions.
   name: Obol Terms And Conditions API
   slug: obol-terms-and-conditions-api
-- description: The Test API from Obol — 2 operation(s) for test.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The Test API from Obol — 2 operation(s) for test.
   name: Obol Test API
   slug: obol-test-api
-- description: The tvs API from Obol — 2 operation(s) for tvs.
+- baseURL: https://api.obol.tech
+  baseurl_source: declared
+  description: The tvs API from Obol — 2 operation(s) for tvs.
   name: Obol tvs API
   slug: obol-tvs-api
 artifact_total: 40
@@ -330,7 +364,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/screenshots/obol-2026-08-07T185909.png
 security:

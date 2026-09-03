@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Google Image search results.
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google Image search results.
   name: ValueSERP Images API
   slug: valueserp-images-api
-- description: Google News article results.
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google News article results.
   name: ValueSERP News API
   slug: valueserp-news-api
-- description: Google Maps and local places search results.
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google Maps and local places search results.
   name: ValueSERP Places API
   slug: valueserp-places-api
-- description: Google product knowledge panel data (deprecated).
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google product knowledge panel data (deprecated).
   name: ValueSERP Product API
   slug: valueserp-product-api
-- description: Google organic web search results.
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google organic web search results.
   name: ValueSERP Search API
   slug: valueserp-search-api
-- description: Google Shopping product results.
+- baseURL: https://api.valueserp.com
+  baseurl_source: declared
+  description: Google Shopping product results.
   name: ValueSERP Shopping API
   slug: valueserp-shopping-api
 artifact_total: 29
@@ -318,7 +330,7 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -328,7 +340,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 81.6
-  previous_composite: 66.2
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -340,7 +352,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:

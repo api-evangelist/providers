@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Glama's MCP platform indexes open-source MCP servers and hosted connectors, offers an ephemeral MCP Inspector, hosts MCP servers on managed infrastructure, and proxies MCP traffic through the Glama Ga
   name: Glama MCP Marketplace & Gateway
   slug: mcp-platform
-- description: The Auth API from Glama AI — 1 operation(s) for auth.
+- baseURL: https://glama.ai
+  baseurl_source: declared
+  description: The Auth API from Glama AI — 1 operation(s) for auth.
   name: Glama AI Auth API
   slug: glama-auth-api
-- description: The Chat Completions API from Glama AI — 1 operation(s) for chat completions.
+- baseURL: https://glama.ai
+  baseurl_source: declared
+  description: The Chat Completions API from Glama AI — 1 operation(s) for chat completions.
   name: Glama AI Chat Completions API
   slug: glama-chat-completions-api
-- description: The Models API from Glama AI — 2 operation(s) for models.
+- baseURL: https://glama.ai
+  baseurl_source: declared
+  description: The Models API from Glama AI — 2 operation(s) for models.
   name: Glama AI Models API
   slug: glama-models-api
-- description: The Observability API from Glama AI — 1 operation(s) for observability.
+- baseURL: https://glama.ai
+  baseurl_source: declared
+  description: The Observability API from Glama AI — 1 operation(s) for observability.
   name: Glama AI Observability API
   slug: glama-observability-api
-- description: The Responses API from Glama AI — 1 operation(s) for responses.
+- baseURL: https://glama.ai
+  baseurl_source: declared
+  description: The Responses API from Glama AI — 1 operation(s) for responses.
   name: Glama AI Responses API
   slug: glama-responses-api
 artifact_total: 19
@@ -182,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glama/refs/heads/main/screenshots/glama-2026-06-20T181857.png
 security:

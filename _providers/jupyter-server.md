@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -45,28 +45,44 @@ agentic_access:
   summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: File checkpoint (snapshot) management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: File checkpoint (snapshot) management.
   name: Jupyter Server Checkpoints API
   slug: jupyter-server-checkpoints-api
-- description: Server configuration sections.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Server configuration sections.
   name: Jupyter Server Config API
   slug: jupyter-server-config-api
-- description: Notebook and file management operations.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Notebook and file management operations.
   name: Jupyter Server Contents API
   slug: jupyter-server-contents-api
-- description: Server information, identity, and status.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Server information, identity, and status.
   name: Jupyter Server General API
   slug: jupyter-server-general-api
-- description: Kernel lifecycle management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Kernel lifecycle management.
   name: Jupyter Server Kernels API
   slug: jupyter-server-kernels-api
-- description: Available kernel specifications.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Available kernel specifications.
   name: Jupyter Server Kernelspecs API
   slug: jupyter-server-kernelspecs-api
-- description: Notebook-kernel session management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Notebook-kernel session management.
   name: Jupyter Server Sessions API
   slug: jupyter-server-sessions-api
-- description: Terminal session management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Terminal session management.
   name: Jupyter Server Terminals API
   slug: jupyter-server-terminals-api
 artifact_total: 29
@@ -254,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-server/refs/heads/main/screenshots/jupyter-server-2026-06-20T183848.png
 security:

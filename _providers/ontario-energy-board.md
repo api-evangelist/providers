@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/applications-oeb'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/applications-oeb'
   name: Ontario Energy Board Applications before the OEB API
   slug: ontario-energy-board-applications-before-the-oeb-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-general-service-50-kw-rate-class'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-general-service-50-kw-rate-class'
   name: Ontario Energy Board Current Electricity Rates (General Service < 50 kW Rate Class) API
   slug: ontario-energy-board-current-electricity-rates-general-service-50-kw-rate-class-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-residential-rate-class'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-residential-rate-class'
   name: Ontario Energy Board Current Electricity Rates (Residential Rate Class) API
   slug: ontario-energy-board-current-electricity-rates-residential-rate-class-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-natural-gas-rates-residential-rate-classes'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-natural-gas-rates-residential-rate-classes'
   name: Ontario Energy Board Current Natural Gas Rates (Residential Rate Classes) API
   slug: ontario-energy-board-current-natural-gas-rates-residential-rate-classes-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-and-natural-gas-distributors-service-areas'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-and-natural-gas-distributors-service-areas'
   name: Ontario Energy Board Electricity and Natural Gas Distributors - Service Areas API
   slug: ontario-energy-board-electricity-and-natural-gas-distributors-service-areas-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-complaints-received-oeb'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-complaints-received-oeb'
   name: Ontario Energy Board Electricity Distributor Complaints Received by the OEB API
   slug: ontario-energy-board-electricity-distributor-complaints-received-by-the-oeb-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-performance-scorecard'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-performance-scorecard'
   name: Ontario Energy Board Electricity Distributor Performance – Scorecard API
   slug: ontario-energy-board-electricity-distributor-performance-scorecard-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-reporting-record-keeping-requirements-rrr-section-2142-system-reliability'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-reporting-record-keeping-requirements-rrr-section-2142-system-reliability'
   name: 'Ontario Energy Board Electricity Reporting & Record Keeping Requirements (RRR): Section ... API'
   slug: ontario-energy-board-electricity-reporting-record-keeping-requirements-rrr-section-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/historical-regulated-price-plan-electricity-rates'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/historical-regulated-price-plan-electricity-rates'
   name: Ontario Energy Board Historical Regulated Price Plan Electricity Rates API
   slug: ontario-energy-board-historical-regulated-price-plan-electricity-rates-api
-- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/licensed-market-participants'
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/licensed-market-participants'
   name: Ontario Energy Board Licensed Market Participants API
   slug: ontario-energy-board-licensed-market-participants-api
-- description: Search and retrieve records (filings, decisions, orders, licences, correspondence) in the OEB case record.
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: Search and retrieve records (filings, decisions, orders, licences, correspondence) in the OEB case record.
   name: Ontario Energy Board Records API
   slug: ontario-energy-board-records-api
-- description: The machine-readable query vocabulary the RDS search form itself loads.
+- baseURL: https://www.oeb.ca
+  baseurl_source: declared
+  description: The machine-readable query vocabulary the RDS search form itself loads.
   name: Ontario Energy Board Search Metadata API
   slug: ontario-energy-board-search-metadata-api
 artifact_total: 21
@@ -271,7 +306,7 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

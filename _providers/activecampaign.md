@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -34,175 +48,289 @@ agentic_access:
   summary_line: 384 operations · 201 acting · 3 human-in-the-loop
 api_count: 9
 apis:
-- description: The Accounts API from ActiveCampaign — 13 operation(s) for accounts.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Accounts API from ActiveCampaign — 13 operation(s) for accounts.
   name: ActiveCampaign Accounts API
   slug: activecampaign-accounts-api
-- description: The Addresses API from ActiveCampaign — 4 operation(s) for addresses.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Addresses API from ActiveCampaign — 4 operation(s) for addresses.
   name: ActiveCampaign Addresses API
   slug: activecampaign-addresses-api
-- description: The AI API from ActiveCampaign — 2 operation(s) for ai.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The AI API from ActiveCampaign — 2 operation(s) for ai.
   name: ActiveCampaign AI API
   slug: activecampaign-ai-api
-- description: The Automations API from ActiveCampaign — 3 operation(s) for automations.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Automations API from ActiveCampaign — 3 operation(s) for automations.
   name: ActiveCampaign Automations API
   slug: activecampaign-automations-api
-- description: The Branding API from ActiveCampaign — 2 operation(s) for branding.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Branding API from ActiveCampaign — 2 operation(s) for branding.
   name: ActiveCampaign Branding API
   slug: activecampaign-branding-api
-- description: The Broadcasts API from ActiveCampaign — 11 operation(s) for broadcasts.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Broadcasts API from ActiveCampaign — 11 operation(s) for broadcasts.
   name: ActiveCampaign Broadcasts API
   slug: activecampaign-broadcasts-api
-- description: The Bulk Import API from ActiveCampaign — 2 operation(s) for bulk import.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Bulk Import API from ActiveCampaign — 2 operation(s) for bulk import.
   name: ActiveCampaign Bulk Import API
   slug: activecampaign-bulk-import-api
-- description: The Calendars API from ActiveCampaign — 2 operation(s) for calendars.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Calendars API from ActiveCampaign — 2 operation(s) for calendars.
   name: ActiveCampaign Calendars API
   slug: activecampaign-calendars-api
-- description: The Campaigns API from ActiveCampaign — 6 operation(s) for campaigns.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Campaigns API from ActiveCampaign — 6 operation(s) for campaigns.
   name: ActiveCampaign Campaigns API
   slug: activecampaign-campaigns-api
-- description: The Contacts API from ActiveCampaign — 28 operation(s) for contacts.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Contacts API from ActiveCampaign — 28 operation(s) for contacts.
   name: ActiveCampaign Contacts API
   slug: activecampaign-contacts-api
-- description: The Credits API from ActiveCampaign — 1 operation(s) for credits.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Credits API from ActiveCampaign — 1 operation(s) for credits.
   name: ActiveCampaign Credits API
   slug: activecampaign-credits-api
-- description: The Custom Objects API from ActiveCampaign — 9 operation(s) for custom objects.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Custom Objects API from ActiveCampaign — 9 operation(s) for custom objects.
   name: ActiveCampaign Custom Objects API
   slug: activecampaign-custom-objects-api
-- description: The Deals API from ActiveCampaign — 25 operation(s) for deals.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Deals API from ActiveCampaign — 25 operation(s) for deals.
   name: ActiveCampaign Deals API
   slug: activecampaign-deals-api
-- description: The Ecommerce API from ActiveCampaign — 8 operation(s) for ecommerce.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Ecommerce API from ActiveCampaign — 8 operation(s) for ecommerce.
   name: ActiveCampaign Ecommerce API
   slug: activecampaign-ecommerce-api
-- description: The Event Tracking API from ActiveCampaign — 3 operation(s) for event tracking.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Event Tracking API from ActiveCampaign — 3 operation(s) for event tracking.
   name: ActiveCampaign Event Tracking API
   slug: activecampaign-event-tracking-api
-- description: The Exports API from ActiveCampaign — 2 operation(s) for exports.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Exports API from ActiveCampaign — 2 operation(s) for exports.
   name: ActiveCampaign Exports API
   slug: activecampaign-exports-api
-- description: The Failures API from ActiveCampaign — 1 operation(s) for failures.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Failures API from ActiveCampaign — 1 operation(s) for failures.
   name: ActiveCampaign Failures API
   slug: activecampaign-failures-api
-- description: The Fields API from ActiveCampaign — 7 operation(s) for fields.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Fields API from ActiveCampaign — 7 operation(s) for fields.
   name: ActiveCampaign Fields API
   slug: activecampaign-fields-api
-- description: The Forms API from ActiveCampaign — 3 operation(s) for forms.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Forms API from ActiveCampaign — 3 operation(s) for forms.
   name: ActiveCampaign Forms API
   slug: activecampaign-forms-api
-- description: The Groups API from ActiveCampaign — 7 operation(s) for groups.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Groups API from ActiveCampaign — 7 operation(s) for groups.
   name: ActiveCampaign Groups API
   slug: activecampaign-groups-api
-- description: The Lists API from ActiveCampaign — 5 operation(s) for lists.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Lists API from ActiveCampaign — 5 operation(s) for lists.
   name: ActiveCampaign Lists API
   slug: activecampaign-lists-api
-- description: The Messages API from ActiveCampaign — 2 operation(s) for messages.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Messages API from ActiveCampaign — 2 operation(s) for messages.
   name: ActiveCampaign Messages API
   slug: activecampaign-messages-api
-- description: The Metrics API from ActiveCampaign — 5 operation(s) for metrics.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Metrics API from ActiveCampaign — 5 operation(s) for metrics.
   name: ActiveCampaign Metrics API
   slug: activecampaign-metrics-api
-- description: The Notes API from ActiveCampaign — 2 operation(s) for notes.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Notes API from ActiveCampaign — 2 operation(s) for notes.
   name: ActiveCampaign Notes API
   slug: activecampaign-notes-api
-- description: The Other API from ActiveCampaign — 14 operation(s) for other.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Other API from ActiveCampaign — 14 operation(s) for other.
   name: ActiveCampaign Other API
   slug: activecampaign-other-api
-- description: The Personalizations API from ActiveCampaign — 5 operation(s) for personalizations.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Personalizations API from ActiveCampaign — 5 operation(s) for personalizations.
   name: ActiveCampaign Personalizations API
   slug: activecampaign-personalizations-api
-- description: The Recipients API from ActiveCampaign — 2 operation(s) for recipients.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Recipients API from ActiveCampaign — 2 operation(s) for recipients.
   name: ActiveCampaign Recipients API
   slug: activecampaign-recipients-api
-- description: The Saved Responses API from ActiveCampaign — 2 operation(s) for saved responses.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Saved Responses API from ActiveCampaign — 2 operation(s) for saved responses.
   name: ActiveCampaign Saved Responses API
   slug: activecampaign-saved-responses-api
-- description: The Scores API from ActiveCampaign — 2 operation(s) for scores.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Scores API from ActiveCampaign — 2 operation(s) for scores.
   name: ActiveCampaign Scores API
   slug: activecampaign-scores-api
-- description: The Site Tracking API from ActiveCampaign — 2 operation(s) for site tracking.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Site Tracking API from ActiveCampaign — 2 operation(s) for site tracking.
   name: ActiveCampaign Site Tracking API
   slug: activecampaign-site-tracking-api
-- description: The Snapshots API from ActiveCampaign — 1 operation(s) for snapshots.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Snapshots API from ActiveCampaign — 1 operation(s) for snapshots.
   name: ActiveCampaign Snapshots API
   slug: activecampaign-snapshots-api
-- description: The Tags API from ActiveCampaign — 2 operation(s) for tags.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Tags API from ActiveCampaign — 2 operation(s) for tags.
   name: ActiveCampaign Tags API
   slug: activecampaign-tags-api
-- description: The Tasks API from ActiveCampaign — 6 operation(s) for tasks.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Tasks API from ActiveCampaign — 6 operation(s) for tasks.
   name: ActiveCampaign Tasks API
   slug: activecampaign-tasks-api
-- description: The Templates API from ActiveCampaign — 1 operation(s) for templates.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Templates API from ActiveCampaign — 1 operation(s) for templates.
   name: ActiveCampaign Templates API
   slug: activecampaign-templates-api
-- description: The Users API from ActiveCampaign — 5 operation(s) for users.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Users API from ActiveCampaign — 5 operation(s) for users.
   name: ActiveCampaign Users API
   slug: activecampaign-users-api
-- description: The Webhooks API from ActiveCampaign — 3 operation(s) for webhooks.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Webhooks API from ActiveCampaign — 3 operation(s) for webhooks.
   name: ActiveCampaign Webhooks API
   slug: activecampaign-webhooks-api
-- description: Manage documents attached to AI customization profiles.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Manage documents attached to AI customization profiles.
   name: ActiveCampaign AI Customization Documents API
   slug: activecampaign-ai-customization-documents-api
-- description: Manage custom instructions for AI customization profiles.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Manage custom instructions for AI customization profiles.
   name: ActiveCampaign AI Customization Instructions API
   slug: activecampaign-ai-customization-instructions-api
-- description: Manage AI customization profiles.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Manage AI customization profiles.
   name: ActiveCampaign AI Customization Profiles API
   slug: activecampaign-ai-customization-profiles-api
-- description: Create and manage snapshots of reseller child accounts.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Create and manage snapshots of reseller child accounts.
   name: ActiveCampaign Child Account Snapshots API
   slug: activecampaign-child-account-snapshots-api
-- description: Manage reseller child accounts.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Manage reseller child accounts.
   name: ActiveCampaign Child Accounts API
   slug: activecampaign-child-accounts-api
-- description: The Conversations API from ActiveCampaign — 2 operation(s) for conversations.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Conversations API from ActiveCampaign — 2 operation(s) for conversations.
   name: ActiveCampaign Conversations API
   slug: activecampaign-conversations-api
-- description: The Count History API from ActiveCampaign — 2 operation(s) for count history.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Count History API from ActiveCampaign — 2 operation(s) for count history.
   name: ActiveCampaign Count History API
   slug: activecampaign-count-history-api
-- description: Read-only CRM pipeline reporting and metrics.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Read-only CRM pipeline reporting and metrics.
   name: ActiveCampaign CRM Reporting API
   slug: activecampaign-crm-reporting-api
-- description: Configure CRM synchronization for HQ pipelines.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Configure CRM synchronization for HQ pipelines.
   name: ActiveCampaign CRM Sync API
   slug: activecampaign-crm-sync-api
-- description: Manage CRM synchronization settings.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Manage CRM synchronization settings.
   name: ActiveCampaign CRM Sync Settings API
   slug: activecampaign-crm-sync-settings-api
-- description: The Event API from ActiveCampaign — 1 operation(s) for event.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Event API from ActiveCampaign — 1 operation(s) for event.
   name: ActiveCampaign Event API
   slug: activecampaign-event-api
-- description: Storage quota information for the partner.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Storage quota information for the partner.
   name: ActiveCampaign Files API
   slug: activecampaign-files-api
-- description: The Flows API from ActiveCampaign — 5 operation(s) for flows.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Flows API from ActiveCampaign — 5 operation(s) for flows.
   name: ActiveCampaign Flows API
   slug: activecampaign-flows-api
-- description: Retrieve and update partner insight cards.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Retrieve and update partner insight cards.
   name: ActiveCampaign Insight Cards API
   slug: activecampaign-insight-cards-api
-- description: Supported language and timezone catalogs.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Supported language and timezone catalogs.
   name: ActiveCampaign Locales API
   slug: activecampaign-locales-api
-- description: Return all Contact id's that match the given Segment and provided Additional Criteria
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Return all Contact id's that match the given Segment and provided Additional Criteria
   name: ActiveCampaign Match All API
   slug: activecampaign-match-all-api
-- description: Evaluate Contact Id against the provided SegmentId. Returns `true` if Contact matches the given Segment
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Evaluate Contact Id against the provided SegmentId. Returns `true` if Contact matches the given Segment
   name: ActiveCampaign Match One API
   slug: activecampaign-match-one-api
-- description: The Most Recent Count History API from ActiveCampaign — 1 operation(s) for most recent count history.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Most Recent Count History API from ActiveCampaign — 1 operation(s) for most recent count history.
   name: ActiveCampaign Most Recent Count History API
   slug: activecampaign-most-recent-count-history-api
-- description: Saved Segments have a name and are visible on the app/segments page. Saved Segments have Summaries
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Saved Segments have a name and are visible on the app/segments page. Saved Segments have Summaries
   name: ActiveCampaign Saved Segment Summaries API
   slug: activecampaign-saved-segment-summaries-api
-- description: Segment JSON structure is extremely flexible. Only segments that are supported by the segment-builder are guaranteed to work as expected. Specific Conditions types only support a subset of FieldDO and
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: Segment JSON structure is extremely flexible. Only segments that are supported by the segment-builder are guaranteed to work as expected. Specific Conditions types only support a subset of FieldDO and
   name: ActiveCampaign Segments API
   slug: activecampaign-segments-api
-- description: The Template API from ActiveCampaign — 1 operation(s) for template.
+- baseURL: https://youraccountname.api-us1.com/api/3
+  baseurl_source: declared
+  description: The Template API from ActiveCampaign — 1 operation(s) for template.
   name: ActiveCampaign Template API
   slug: activecampaign-template-api
 arazzos:
@@ -1030,7 +1158,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1040,7 +1168,7 @@ score:
     discoverability: 68.5
     governance: 33.3
     operational_transparency: 76.3
-  previous_composite: 66.3
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1052,7 +1180,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:

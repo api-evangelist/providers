@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Customer Due Diligence
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: Customer Due Diligence
   name: Diligent CDD API
   slug: diligent-cdd-api
-- description: Company Information
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: Company Information
   name: Diligent Company API
   slug: diligent-company-api
-- description: Instant Website Screening API
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: Instant Website Screening API
   name: Diligent Instant Screening (experimental) API
   slug: diligent-instant-screening-experimental-api
-- description: Website monitoring and alerts for changes and risks
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: Website monitoring and alerts for changes and risks
   name: Diligent Monitorings API
   slug: diligent-monitorings-api
-- description: Name screening remediation
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: Name screening remediation
   name: Diligent Name Screening API
   slug: diligent-name-screening-api
-- description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
+- baseURL: https://api.godiligent.ai
+  baseurl_source: declared
+  description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
   name: Diligent Webhooks API
   slug: diligent-webhooks-api
 artifact_total: 18
@@ -230,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -240,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 46.2
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -251,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +36,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Address API API from Solidus Labs — 1 operation(s) for address api.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Address API API from Solidus Labs — 1 operation(s) for address api.
   name: Solidus Labs Address API API
   slug: solidus-labs-address-api-api
-- description: The Chain API API from Solidus Labs — 1 operation(s) for chain api.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Chain API API from Solidus Labs — 1 operation(s) for chain api.
   name: Solidus Labs Chain API API
   slug: solidus-labs-chain-api-api
-- description: The Corrections API from Solidus Labs — 1 operation(s) for corrections.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Corrections API from Solidus Labs — 1 operation(s) for corrections.
   name: Solidus Labs Corrections API
   slug: solidus-labs-corrections-api
-- description: The Latest API from Solidus Labs — 1 operation(s) for latest.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Latest API from Solidus Labs — 1 operation(s) for latest.
   name: Solidus Labs Latest API
   slug: solidus-labs-latest-api
-- description: The Scams API from Solidus Labs — 2 operation(s) for scams.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Scams API from Solidus Labs — 2 operation(s) for scams.
   name: Solidus Labs Scams API
   slug: solidus-labs-scams-api
-- description: The Token API API from Solidus Labs — 1 operation(s) for token api.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Token API API from Solidus Labs — 1 operation(s) for token api.
   name: Solidus Labs Token API API
   slug: solidus-labs-token-api-api
-- description: The Webhooks API API from Solidus Labs — 2 operation(s) for webhooks api.
+- baseURL: https://tokensniffer.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API API from Solidus Labs — 2 operation(s) for webhooks api.
   name: Solidus Labs Webhooks API API
   slug: solidus-labs-webhooks-api-api
 artifact_total: 21
@@ -255,7 +282,7 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -265,7 +292,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 66.0
+  previous_composite: 65.8
   provenance:
     conformance: first-party
     contracts:
@@ -276,7 +303,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:

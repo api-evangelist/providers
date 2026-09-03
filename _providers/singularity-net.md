@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: 'The SingularityNET AI Marketplace REST API provides service discovery, organization management, and metadata access for the decentralized AI network. Allows consumers to browse available AI services, '
   name: SingularityNET Marketplace API
   slug: singularitynet-marketplace-api
-- description: Payment channel management for service access
+- baseURL: https://services.singularitynet.io
+  baseurl_source: declared
+  description: Payment channel management for service access
   name: SingularityNET Channels API
   slug: singularity-net-channels-api
-- description: AI service provider organization management
+- baseURL: https://services.singularitynet.io
+  baseurl_source: declared
+  description: AI service provider organization management
   name: SingularityNET Organizations API
   slug: singularity-net-organizations-api
-- description: Service endpoint group management
+- baseURL: https://services.singularitynet.io
+  baseurl_source: declared
+  description: Service endpoint group management
   name: SingularityNET Service Groups API
   slug: singularity-net-service-groups-api
-- description: AI service discovery and metadata
+- baseURL: https://services.singularitynet.io
+  baseurl_source: declared
+  description: AI service discovery and metadata
   name: SingularityNET Services API
   slug: singularity-net-services-api
 artifact_total: 22
@@ -225,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/screenshots/singularity-net-2026-06-20T193947.png
 security:

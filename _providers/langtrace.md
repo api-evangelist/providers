@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 4 acting
 api_count: 1
 apis:
-- description: Project and API key management.
+- baseURL: https://app.langtrace.ai/api
+  baseurl_source: declared
+  description: Project and API key management.
   name: Langtrace AI Projects API
   slug: langtrace-projects-api
-- description: Versioned prompt storage and retrieval.
+- baseURL: https://app.langtrace.ai/api
+  baseurl_source: declared
+  description: Versioned prompt storage and retrieval.
   name: Langtrace AI Prompt Registry API
   slug: langtrace-prompt-registry-api
-- description: OpenTelemetry trace ingestion and retrieval.
+- baseURL: https://app.langtrace.ai/api
+  baseurl_source: declared
+  description: OpenTelemetry trace ingestion and retrieval.
   name: Langtrace AI Traces API
   slug: langtrace-traces-api
 artifact_total: 14
@@ -163,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/screenshots/langtrace-2026-06-20T184310.png
 security:

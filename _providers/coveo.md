@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 551
   human_in_the_loop: 13
@@ -45,460 +45,764 @@ agentic_access:
   summary_line: 1018 operations · 551 acting · 13 human-in-the-loop
 api_count: 31
 apis:
-- description: The Activities API from Coveo — 7 operation(s) for activities.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Activities API from Coveo — 7 operation(s) for activities.
   name: Coveo Activities API
   slug: coveo-activities-api
-- description: The Administration API - Version 15 API from Coveo — 2 operation(s) for administration api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Administration API - Version 15 API from Coveo — 2 operation(s) for administration api - version 15.
   name: Coveo Administration API - Version 15 API
   slug: coveo-administration-api-version-15-api
-- description: The Advanced Model Configurations API from Coveo — 2 operation(s) for advanced model configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Advanced Model Configurations API from Coveo — 2 operation(s) for advanced model configurations.
   name: Coveo Advanced Model Configurations API
   slug: coveo-advanced-model-configurations-api
-- description: The Agent Configuration API API from Coveo — 2 operation(s) for agent configuration api.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Agent Configuration API API from Coveo — 2 operation(s) for agent configuration api.
   name: Coveo Agent Configuration API API
   slug: coveo-agent-configuration-api-api
-- description: The Agent Orchestration API API from Coveo — 2 operation(s) for agent orchestration api.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Agent Orchestration API API from Coveo — 2 operation(s) for agent orchestration api.
   name: Coveo Agent Orchestration API API
   slug: coveo-agent-orchestration-api-api
-- description: The Analysis V3 API from Coveo — 2 operation(s) for analysis v3.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Analysis V3 API from Coveo — 2 operation(s) for analysis v3.
   name: Coveo Analysis V3 API
   slug: coveo-analysis-v3-api
-- description: The Analytics API - Version 14 API from Coveo — 7 operation(s) for analytics api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Analytics API - Version 14 API from Coveo — 7 operation(s) for analytics api - version 14.
   name: Coveo Analytics API - Version 14 API
   slug: coveo-analytics-api-version-14-api
-- description: The Analytics API - Version 15 API from Coveo — 9 operation(s) for analytics api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Analytics API - Version 15 API from Coveo — 9 operation(s) for analytics api - version 15.
   name: Coveo Analytics API - Version 15 API
   slug: coveo-analytics-api-version-15-api
-- description: The Answer API from Coveo — 1 operation(s) for answer.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Answer API from Coveo — 1 operation(s) for answer.
   name: Coveo Answer API
   slug: coveo-answer-api
-- description: The Api Keys API from Coveo — 10 operation(s) for api keys.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Api Keys API from Coveo — 10 operation(s) for api keys.
   name: Coveo Api Keys API
   slug: coveo-api-keys-api
-- description: The Atlassian Connect App API from Coveo — 3 operation(s) for atlassian connect app.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Atlassian Connect App API from Coveo — 3 operation(s) for atlassian connect app.
   name: Coveo Atlassian Connect App API
   slug: coveo-atlassian-connect-app-api
-- description: The Badges API from Coveo — 1 operation(s) for badges.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Badges API from Coveo — 1 operation(s) for badges.
   name: Coveo Badges API
   slug: coveo-badges-api
-- description: The Built-in Groups API from Coveo — 1 operation(s) for built-in groups.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Built-in Groups API from Coveo — 1 operation(s) for built-in groups.
   name: Coveo Built-in Groups API
   slug: coveo-built-in-groups-api
-- description: The Case Assist API from Coveo — 7 operation(s) for case assist.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Case Assist API from Coveo — 7 operation(s) for case assist.
   name: Coveo Case Assist API
   slug: coveo-case-assist-api
-- description: The Case Classification Configuration API from Coveo — 4 operation(s) for case classification configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Case Classification Configuration API from Coveo — 4 operation(s) for case classification configuration.
   name: Coveo Case Classification Configuration API
   slug: coveo-case-classification-configuration-api
-- description: The Catalog Configurations API from Coveo — 3 operation(s) for catalog configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Catalog Configurations API from Coveo — 3 operation(s) for catalog configurations.
   name: Coveo Catalog Configurations API
   slug: coveo-catalog-configurations-api
-- description: The Catalog Content API from Coveo — 3 operation(s) for catalog content.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Catalog Content API from Coveo — 3 operation(s) for catalog content.
   name: Coveo Catalog Content API
   slug: coveo-catalog-content-api
-- description: The Catalog Filter API from Coveo — 1 operation(s) for catalog filter.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Catalog Filter API from Coveo — 1 operation(s) for catalog filter.
   name: Coveo Catalog Filter API
   slug: coveo-catalog-filter-api
-- description: The Catalogs API from Coveo — 6 operation(s) for catalogs.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Catalogs API from Coveo — 6 operation(s) for catalogs.
   name: Coveo Catalogs API
   slug: coveo-catalogs-api
-- description: The Conditions API from Coveo — 7 operation(s) for conditions.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Conditions API from Coveo — 7 operation(s) for conditions.
   name: Coveo Conditions API
   slug: coveo-conditions-api
-- description: The Configuration API from Coveo — 5 operation(s) for configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Configuration API from Coveo — 5 operation(s) for configuration.
   name: Coveo Configuration API
   slug: coveo-configuration-api
-- description: The Context API from Coveo — 1 operation(s) for context.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Context API from Coveo — 1 operation(s) for context.
   name: Coveo Context API
   slug: coveo-context-api
-- description: The Context Mapping Configurations API from Coveo — 2 operation(s) for context mapping configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Context Mapping Configurations API from Coveo — 2 operation(s) for context mapping configurations.
   name: Coveo Context Mapping Configurations API
   slug: coveo-context-mapping-configurations-api
-- description: The Crawling Module API from Coveo — 13 operation(s) for crawling module.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Crawling Module API from Coveo — 13 operation(s) for crawling module.
   name: Coveo Crawling Module API
   slug: coveo-crawling-module-api
-- description: The CRGA For Cases API from Coveo — 1 operation(s) for crga for cases.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The CRGA For Cases API from Coveo — 1 operation(s) for crga for cases.
   name: Coveo CRGA For Cases API
   slug: coveo-crga-for-cases-api
-- description: The Data Health API - Version 15 API from Coveo — 9 operation(s) for data health api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Data Health API - Version 15 API from Coveo — 9 operation(s) for data health api - version 15.
   name: Coveo Data Health API - Version 15 API
   slug: coveo-data-health-api-version-15-api
-- description: The Diagnostic Logs API from Coveo — 2 operation(s) for diagnostic logs.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Diagnostic Logs API from Coveo — 2 operation(s) for diagnostic logs.
   name: Coveo Diagnostic Logs API
   slug: coveo-diagnostic-logs-api
-- description: The Dimensions API - Version 14 API from Coveo — 11 operation(s) for dimensions api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Dimensions API - Version 14 API from Coveo — 11 operation(s) for dimensions api - version 14.
   name: Coveo Dimensions API - Version 14 API
   slug: coveo-dimensions-api-version-14-api
-- description: The Dimensions API - Version 15 API from Coveo — 12 operation(s) for dimensions api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Dimensions API - Version 15 API from Coveo — 12 operation(s) for dimensions api - version 15.
   name: Coveo Dimensions API - Version 15 API
   slug: coveo-dimensions-api-version-15-api
-- description: The Dynamic Navigation Experience Configuration API from Coveo — 7 operation(s) for dynamic navigation experience configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Dynamic Navigation Experience Configuration API from Coveo — 7 operation(s) for dynamic navigation experience configuration.
   name: Coveo Dynamic Navigation Experience Configuration API
   slug: coveo-dynamic-navigation-experience-configuration-api
-- description: The [Coveo Cloud Event API](https://docs.coveo.com/en/o3r90189/) allows you to log all events from end-user interactions. The event protocol reference can be found [here](https://docs.coveo.com/en/n9d
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The [Coveo Cloud Event API](https://docs.coveo.com/en/o3r90189/) allows you to log all events from end-user interactions. The event protocol reference can be found [here](https://docs.coveo.com/en/n9d
   name: Coveo Event API API
   slug: coveo-event-api-api
-- description: The Exports API - Version 14 API from Coveo — 7 operation(s) for exports api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Exports API - Version 14 API from Coveo — 7 operation(s) for exports api - version 14.
   name: Coveo Exports API - Version 14 API
   slug: coveo-exports-api-version-14-api
-- description: The Exports API - Version 15 API from Coveo — 14 operation(s) for exports api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Exports API - Version 15 API from Coveo — 14 operation(s) for exports api - version 15.
   name: Coveo Exports API - Version 15 API
   slug: coveo-exports-api-version-15-api
-- description: The Facet API from Coveo — 1 operation(s) for facet.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Facet API from Coveo — 1 operation(s) for facet.
   name: Coveo Facet API
   slug: coveo-facet-api
-- description: The Facet Field Configurations API from Coveo — 3 operation(s) for facet field configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Facet Field Configurations API from Coveo — 3 operation(s) for facet field configurations.
   name: Coveo Facet Field Configurations API
   slug: coveo-facet-field-configurations-api
-- description: Retrieve indexing pipeline log filters
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Retrieve indexing pipeline log filters
   name: Coveo Facets API
   slug: coveo-facets-api
-- description: The Fields API from Coveo — 9 operation(s) for fields.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Fields API from Coveo — 9 operation(s) for fields.
   name: Coveo Fields API
   slug: coveo-fields-api
-- description: Create a file container
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Create a file container
   name: Coveo File Container API
   slug: coveo-file-container-api
-- description: The Filters API - Version 14 API from Coveo — 7 operation(s) for filters api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Filters API - Version 14 API from Coveo — 7 operation(s) for filters api - version 14.
   name: Coveo Filters API - Version 14 API
   slug: coveo-filters-api-version-14-api
-- description: The Filters API - Version 15 API from Coveo — 8 operation(s) for filters api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Filters API - Version 15 API from Coveo — 8 operation(s) for filters api - version 15.
   name: Coveo Filters API - Version 15 API
   slug: coveo-filters-api-version-15-api
-- description: The Group Invites API from Coveo — 4 operation(s) for group invites.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Group Invites API from Coveo — 4 operation(s) for group invites.
   name: Coveo Group Invites API
   slug: coveo-group-invites-api
-- description: The Group Members API from Coveo — 2 operation(s) for group members.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Group Members API from Coveo — 2 operation(s) for group members.
   name: Coveo Group Members API
   slug: coveo-group-members-api
-- description: The Group Realms API from Coveo — 2 operation(s) for group realms.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Group Realms API from Coveo — 2 operation(s) for group realms.
   name: Coveo Group Realms API
   slug: coveo-group-realms-api
-- description: The Groups API from Coveo — 3 operation(s) for groups.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Groups API from Coveo — 3 operation(s) for groups.
   name: Coveo Groups API
   slug: coveo-groups-api
-- description: The Groups API - Version 15 API from Coveo — 6 operation(s) for groups api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Groups API - Version 15 API from Coveo — 6 operation(s) for groups api - version 15.
   name: Coveo Groups API - Version 15 API
   slug: coveo-groups-api-version-15-api
-- description: The Hosted Page API from Coveo — 4 operation(s) for hosted page.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Hosted Page API from Coveo — 4 operation(s) for hosted page.
   name: Coveo Hosted Page API
   slug: coveo-hosted-page-api
-- description: The In-App API from Coveo — 6 operation(s) for in-app.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The In-App API from Coveo — 6 operation(s) for in-app.
   name: Coveo In-App API
   slug: coveo-in-app-api
-- description: The Indexing Pipeline Extensions API from Coveo — 14 operation(s) for indexing pipeline extensions.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Indexing Pipeline Extensions API from Coveo — 14 operation(s) for indexing pipeline extensions.
   name: Coveo Indexing Pipeline Extensions API
   slug: coveo-indexing-pipeline-extensions-api
-- description: The Ingestion Content API from Coveo — 3 operation(s) for ingestion content.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Ingestion Content API from Coveo — 3 operation(s) for ingestion content.
   name: Coveo Ingestion Content API
   slug: coveo-ingestion-content-api
-- description: The Insight Panel API from Coveo — 14 operation(s) for insight panel.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Insight Panel API from Coveo — 14 operation(s) for insight panel.
   name: Coveo Insight Panel API
   slug: coveo-insight-panel-api
-- description: The Invites API from Coveo — 1 operation(s) for invites.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Invites API from Coveo — 1 operation(s) for invites.
   name: Coveo Invites API
   slug: coveo-invites-api
-- description: The IPX Configuration API from Coveo — 12 operation(s) for ipx configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The IPX Configuration API from Coveo — 12 operation(s) for ipx configuration.
   name: Coveo IPX Configuration API
   slug: coveo-ipx-configuration-api
-- description: The IPX loader API from Coveo — 1 operation(s) for ipx loader.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The IPX loader API from Coveo — 1 operation(s) for ipx loader.
   name: Coveo IPX loader API
   slug: coveo-ipx-loader-api
-- description: Manage items in a Push source
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Manage items in a Push source
   name: Coveo Item API
   slug: coveo-item-api
-- description: The License API from Coveo — 3 operation(s) for license.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The License API from Coveo — 3 operation(s) for license.
   name: Coveo License API
   slug: coveo-license-api
-- description: The License Metrics API from Coveo — 6 operation(s) for license metrics.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The License Metrics API from Coveo — 6 operation(s) for license metrics.
   name: Coveo License Metrics API
   slug: coveo-license-metrics-api
-- description: The Limits API from Coveo — 5 operation(s) for limits.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Limits API from Coveo — 5 operation(s) for limits.
   name: Coveo Limits API
   slug: coveo-limits-api
-- description: The Link API from Coveo — 3 operation(s) for link.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Link API from Coveo — 3 operation(s) for link.
   name: Coveo Link API
   slug: coveo-link-api
-- description: The Listing Configurations API from Coveo — 6 operation(s) for listing configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Listing Configurations API from Coveo — 6 operation(s) for listing configurations.
   name: Coveo Listing Configurations API
   slug: coveo-listing-configurations-api
-- description: The Listing Rule Preview API from Coveo — 2 operation(s) for listing rule preview.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Listing Rule Preview API from Coveo — 2 operation(s) for listing rule preview.
   name: Coveo Listing Rule Preview API
   slug: coveo-listing-rule-preview-api
-- description: The Listings API from Coveo — 1 operation(s) for listings.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Listings API from Coveo — 1 operation(s) for listings.
   name: Coveo Listings API
   slug: coveo-listings-api
-- description: Retrieve indexing pipeline logs
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Retrieve indexing pipeline logs
   name: Coveo Logs API
   slug: coveo-logs-api
-- description: The Machine learning associations API from Coveo — 7 operation(s) for machine learning associations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Machine learning associations API from Coveo — 7 operation(s) for machine learning associations.
   name: Coveo Machine learning associations API
   slug: coveo-machine-learning-associations-api
-- description: The Machine Learning Models API from Coveo — 6 operation(s) for machine learning models.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Machine Learning Models API from Coveo — 6 operation(s) for machine learning models.
   name: Coveo Machine Learning Models API
   slug: coveo-machine-learning-models-api
-- description: The Mappings API from Coveo — 11 operation(s) for mappings.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Mappings API from Coveo — 11 operation(s) for mappings.
   name: Coveo Mappings API
   slug: coveo-mappings-api
-- description: The Metadata API from Coveo — 2 operation(s) for metadata.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Metadata API from Coveo — 2 operation(s) for metadata.
   name: Coveo Metadata API
   slug: coveo-metadata-api
-- description: The Metrics API - Version 14 API from Coveo — 4 operation(s) for metrics api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Metrics API - Version 14 API from Coveo — 4 operation(s) for metrics api - version 14.
   name: Coveo Metrics API - Version 14 API
   slug: coveo-metrics-api-version-14-api
-- description: The Metrics API - Version 15 API from Coveo — 4 operation(s) for metrics api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Metrics API - Version 15 API from Coveo — 4 operation(s) for metrics api - version 15.
   name: Coveo Metrics API - Version 15 API
   slug: coveo-metrics-api-version-15-api
-- description: The Model Associations API from Coveo — 1 operation(s) for model associations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Model Associations API from Coveo — 1 operation(s) for model associations.
   name: Coveo Model Associations API
   slug: coveo-model-associations-api
-- description: The Model Detailed Info API from Coveo — 1 operation(s) for model detailed info.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Model Detailed Info API from Coveo — 1 operation(s) for model detailed info.
   name: Coveo Model Detailed Info API
   slug: coveo-model-detailed-info-api
-- description: The Model Listing API from Coveo — 1 operation(s) for model listing.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Model Listing API from Coveo — 1 operation(s) for model listing.
   name: Coveo Model Listing API
   slug: coveo-model-listing-api
-- description: The Organization Access API from Coveo — 2 operation(s) for organization access.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Access API from Coveo — 2 operation(s) for organization access.
   name: Coveo Organization Access API
   slug: coveo-organization-access-api
-- description: The Organization Api Keys Templates API from Coveo — 3 operation(s) for organization api keys templates.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Api Keys Templates API from Coveo — 3 operation(s) for organization api keys templates.
   name: Coveo Organization Api Keys Templates API
   slug: coveo-organization-api-keys-templates-api
-- description: The Organization Endpoints Monitoring API from Coveo — 4 operation(s) for organization endpoints monitoring.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Endpoints Monitoring API from Coveo — 4 operation(s) for organization endpoints monitoring.
   name: Coveo Organization Endpoints Monitoring API
   slug: coveo-organization-endpoints-monitoring-api
-- description: The Organization Global Configuration API from Coveo — 2 operation(s) for organization global configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Global Configuration API from Coveo — 2 operation(s) for organization global configuration.
   name: Coveo Organization Global Configuration API
   slug: coveo-organization-global-configuration-api
-- description: The Organization Invites API from Coveo — 1 operation(s) for organization invites.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Invites API from Coveo — 1 operation(s) for organization invites.
   name: Coveo Organization Invites API
   slug: coveo-organization-invites-api
-- description: The Organization Members API from Coveo — 4 operation(s) for organization members.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Members API from Coveo — 4 operation(s) for organization members.
   name: Coveo Organization Members API
   slug: coveo-organization-members-api
-- description: The Organization Privileges API from Coveo — 5 operation(s) for organization privileges.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Privileges API from Coveo — 5 operation(s) for organization privileges.
   name: Coveo Organization Privileges API
   slug: coveo-organization-privileges-api
-- description: The Organization Realms API from Coveo — 2 operation(s) for organization realms.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organization Realms API from Coveo — 2 operation(s) for organization realms.
   name: Coveo Organization Realms API
   slug: coveo-organization-realms-api
-- description: The Organizations API from Coveo — 14 operation(s) for organizations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Organizations API from Coveo — 14 operation(s) for organizations.
   name: Coveo Organizations API
   slug: coveo-organizations-api
-- description: The Passages Alpha API from Coveo — 1 operation(s) for passages alpha.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Passages Alpha API from Coveo — 1 operation(s) for passages alpha.
   name: Coveo Passages Alpha API
   slug: coveo-passages-alpha-api
-- description: The Passages V3 API from Coveo — 1 operation(s) for passages v3.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Passages V3 API from Coveo — 1 operation(s) for passages v3.
   name: Coveo Passages V3 API
   slug: coveo-passages-v3-api
-- description: The Pipelines API from Coveo — 8 operation(s) for pipelines.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Pipelines API from Coveo — 8 operation(s) for pipelines.
   name: Coveo Pipelines API
   slug: coveo-pipelines-api
-- description: The Platform Tokens API from Coveo — 1 operation(s) for platform tokens.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Platform Tokens API from Coveo — 1 operation(s) for platform tokens.
   name: Coveo Platform Tokens API
   slug: coveo-platform-tokens-api
-- description: The Predictive Query Suggest Configuration API from Coveo — 1 operation(s) for predictive query suggest configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Predictive Query Suggest Configuration API from Coveo — 1 operation(s) for predictive query suggest configuration.
   name: Coveo Predictive Query Suggest Configuration API
   slug: coveo-predictive-query-suggest-configuration-api
-- description: The Privilege Evaluator API from Coveo — 2 operation(s) for privilege evaluator.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Privilege Evaluator API from Coveo — 2 operation(s) for privilege evaluator.
   name: Coveo Privilege Evaluator API
   slug: coveo-privilege-evaluator-api
-- description: The Product Suggest Configurations API from Coveo — 1 operation(s) for product suggest configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Product Suggest Configurations API from Coveo — 1 operation(s) for product suggest configurations.
   name: Coveo Product Suggest Configurations API
   slug: coveo-product-suggest-configurations-api
-- description: The Projects API from Coveo — 9 operation(s) for projects.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Projects API from Coveo — 9 operation(s) for projects.
   name: Coveo Projects API
   slug: coveo-projects-api
-- description: The Property API API from Coveo — 2 operation(s) for property api.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Property API API from Coveo — 2 operation(s) for property api.
   name: Coveo Property API API
   slug: coveo-property-api-api
-- description: The Public Listing Page API API from Coveo — 4 operation(s) for public listing page api.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Public Listing Page API API from Coveo — 4 operation(s) for public listing page api.
   name: Coveo Public Listing Page API API
   slug: coveo-public-listing-page-api-api
-- description: The Query Configurations API from Coveo — 1 operation(s) for query configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Query Configurations API from Coveo — 1 operation(s) for query configurations.
   name: Coveo Query Configurations API
   slug: coveo-query-configurations-api
-- description: The Query Logs API from Coveo — 2 operation(s) for query logs.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Query Logs API from Coveo — 2 operation(s) for query logs.
   name: Coveo Query Logs API
   slug: coveo-query-logs-api
-- description: The Raw Metrics API from Coveo — 4 operation(s) for raw metrics.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Raw Metrics API from Coveo — 4 operation(s) for raw metrics.
   name: Coveo Raw Metrics API
   slug: coveo-raw-metrics-api
-- description: The Reader Account API - Version 15 API from Coveo — 9 operation(s) for reader account api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Reader Account API - Version 15 API from Coveo — 9 operation(s) for reader account api - version 15.
   name: Coveo Reader Account API - Version 15 API
   slug: coveo-reader-account-api-version-15-api
-- description: The Recommendations API from Coveo — 2 operation(s) for recommendations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Recommendations API from Coveo — 2 operation(s) for recommendations.
   name: Coveo Recommendations API
   slug: coveo-recommendations-api
-- description: The Recommendations Configuration API from Coveo — 7 operation(s) for recommendations configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Recommendations Configuration API from Coveo — 7 operation(s) for recommendations configuration.
   name: Coveo Recommendations Configuration API
   slug: coveo-recommendations-configuration-api
-- description: The Region Configuration API from Coveo — 2 operation(s) for region configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Region Configuration API from Coveo — 2 operation(s) for region configuration.
   name: Coveo Region Configuration API
   slug: coveo-region-configuration-api
-- description: The Relevance Generative Answering Configuration API from Coveo — 1 operation(s) for relevance generative answering configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Relevance Generative Answering Configuration API from Coveo — 1 operation(s) for relevance generative answering configuration.
   name: Coveo Relevance Generative Answering Configuration API
   slug: coveo-relevance-generative-answering-configuration-api
-- description: The Reports API - Version 14 API from Coveo — 5 operation(s) for reports api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Reports API - Version 14 API from Coveo — 5 operation(s) for reports api - version 14.
   name: Coveo Reports API - Version 14 API
   slug: coveo-reports-api-version-14-api
-- description: The Reports API - Version 15 API from Coveo — 8 operation(s) for reports api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Reports API - Version 15 API from Coveo — 8 operation(s) for reports api - version 15.
   name: Coveo Reports API - Version 15 API
   slug: coveo-reports-api-version-15-api
-- description: The Resources API from Coveo — 1 operation(s) for resources.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Resources API from Coveo — 1 operation(s) for resources.
   name: Coveo Resources API
   slug: coveo-resources-api
-- description: The Rest API from Coveo — 6 operation(s) for rest.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Rest API from Coveo — 6 operation(s) for rest.
   name: Coveo Rest API
   slug: coveo-rest-api
-- description: The Result rankings API from Coveo — 8 operation(s) for result rankings.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Result rankings API from Coveo — 8 operation(s) for result rankings.
   name: Coveo Result rankings API
   slug: coveo-result-rankings-api
-- description: The Salesforce Organizations API from Coveo — 3 operation(s) for salesforce organizations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Salesforce Organizations API from Coveo — 3 operation(s) for salesforce organizations.
   name: Coveo Salesforce Organizations API
   slug: coveo-salesforce-organizations-api
-- description: The Salesforce Source Configuration API from Coveo — 7 operation(s) for salesforce source configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Salesforce Source Configuration API from Coveo — 7 operation(s) for salesforce source configuration.
   name: Coveo Salesforce Source Configuration API
   slug: coveo-salesforce-source-configuration-api
-- description: The Salesforce Sources API from Coveo — 1 operation(s) for salesforce sources.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Salesforce Sources API from Coveo — 1 operation(s) for salesforce sources.
   name: Coveo Salesforce Sources API
   slug: coveo-salesforce-sources-api
-- description: The Salesforce Trial API from Coveo — 2 operation(s) for salesforce trial.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Salesforce Trial API from Coveo — 2 operation(s) for salesforce trial.
   name: Coveo Salesforce Trial API
   slug: coveo-salesforce-trial-api
-- description: The Saml Identity Providers API from Coveo — 4 operation(s) for saml identity providers.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Saml Identity Providers API from Coveo — 4 operation(s) for saml identity providers.
   name: Coveo Saml Identity Providers API
   slug: coveo-saml-identity-providers-api
-- description: The Search API from Coveo — 4 operation(s) for search.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search API from Coveo — 4 operation(s) for search.
   name: Coveo Search API
   slug: coveo-search-api
-- description: The Search Configurations API from Coveo — 1 operation(s) for search configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search Configurations API from Coveo — 1 operation(s) for search configurations.
   name: Coveo Search Configurations API
   slug: coveo-search-configurations-api
-- description: The Search Hub Entitlement Sync API from Coveo — 1 operation(s) for search hub entitlement sync.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search Hub Entitlement Sync API from Coveo — 1 operation(s) for search hub entitlement sync.
   name: Coveo Search Hub Entitlement Sync API
   slug: coveo-search-hub-entitlement-sync-api
-- description: The Search Hubs API from Coveo — 3 operation(s) for search hubs.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search Hubs API from Coveo — 3 operation(s) for search hubs.
   name: Coveo Search Hubs API
   slug: coveo-search-hubs-api
-- description: The Search Interface API from Coveo — 2 operation(s) for search interface.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search Interface API from Coveo — 2 operation(s) for search interface.
   name: Coveo Search Interface API
   slug: coveo-search-interface-api
-- description: The Search Page Configuration API from Coveo — 8 operation(s) for search page configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search Page Configuration API from Coveo — 8 operation(s) for search page configuration.
   name: Coveo Search Page Configuration API
   slug: coveo-search-page-configuration-api
-- description: Manage Classic hosted search pages
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Manage Classic hosted search pages
   name: Coveo Search Pages API
   slug: coveo-search-pages-api
-- description: The Search V2 API from Coveo — 16 operation(s) for search v2.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search V2 API from Coveo — 16 operation(s) for search v2.
   name: Coveo Search V2 API
   slug: coveo-search-v2-api
-- description: The Search V3 API from Coveo — 14 operation(s) for search v3.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Search V3 API from Coveo — 14 operation(s) for search v3.
   name: Coveo Search V3 API
   slug: coveo-search-v3-api
-- description: The Secure Data Sharing API - Version 15 API from Coveo — 2 operation(s) for secure data sharing api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Secure Data Sharing API - Version 15 API from Coveo — 2 operation(s) for secure data sharing api - version 15.
   name: Coveo Secure Data Sharing API - Version 15 API
   slug: coveo-secure-data-sharing-api-version-15-api
-- description: The Security Cache API from Coveo — 18 operation(s) for security cache.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Security Cache API from Coveo — 18 operation(s) for security cache.
   name: Coveo Security Cache API
   slug: coveo-security-cache-api
-- description: Manage security identities in a security identity provider
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Manage security identities in a security identity provider
   name: Coveo Security Identity API
   slug: coveo-security-identity-api
-- description: The Security Providers API from Coveo — 5 operation(s) for security providers.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Security Providers API from Coveo — 5 operation(s) for security providers.
   name: Coveo Security Providers API
   slug: coveo-security-providers-api
-- description: The Security Providers Schedules API from Coveo — 2 operation(s) for security providers schedules.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Security Providers Schedules API from Coveo — 2 operation(s) for security providers schedules.
   name: Coveo Security Providers Schedules API
   slug: coveo-security-providers-schedules-api
-- description: The Semantic Encoder Configuration API from Coveo — 1 operation(s) for semantic encoder configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Semantic Encoder Configuration API from Coveo — 1 operation(s) for semantic encoder configuration.
   name: Coveo Semantic Encoder Configuration API
   slug: coveo-semantic-encoder-configuration-api
-- description: The Setup API from Coveo — 1 operation(s) for setup.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Setup API from Coveo — 1 operation(s) for setup.
   name: Coveo Setup API
   slug: coveo-setup-api
-- description: The Smart Snippets Configuration API from Coveo — 3 operation(s) for smart snippets configuration.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Smart Snippets Configuration API from Coveo — 3 operation(s) for smart snippets configuration.
   name: Coveo Smart Snippets Configuration API
   slug: coveo-smart-snippets-configuration-api
-- description: The Snapshot Access API from Coveo — 3 operation(s) for snapshot access.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Snapshot Access API from Coveo — 3 operation(s) for snapshot access.
   name: Coveo Snapshot Access API
   slug: coveo-snapshot-access-api
-- description: The Snapshot API from Coveo — 10 operation(s) for snapshot.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Snapshot API from Coveo — 10 operation(s) for snapshot.
   name: Coveo Snapshot API
   slug: coveo-snapshot-api
-- description: The Snapshot Synchronization API from Coveo — 4 operation(s) for snapshot synchronization.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Snapshot Synchronization API from Coveo — 4 operation(s) for snapshot synchronization.
   name: Coveo Snapshot Synchronization API
   slug: coveo-snapshot-synchronization-api
-- description: The Source Extension Configurations API from Coveo — 1 operation(s) for source extension configurations.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Source Extension Configurations API from Coveo — 1 operation(s) for source extension configurations.
   name: Coveo Source Extension Configurations API
   slug: coveo-source-extension-configurations-api
-- description: The Source Item Types API from Coveo — 1 operation(s) for source item types.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Source Item Types API from Coveo — 1 operation(s) for source item types.
   name: Coveo Source Item Types API
   slug: coveo-source-item-types-api
-- description: Update the status of a Push source
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Update the status of a Push source
   name: Coveo Source Status API
   slug: coveo-source-status-api
-- description: The Sources API from Coveo — 45 operation(s) for sources.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Sources API from Coveo — 45 operation(s) for sources.
   name: Coveo Sources API
   slug: coveo-sources-api
-- description: The Statement groups API from Coveo — 8 operation(s) for statement groups.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Statement groups API from Coveo — 8 operation(s) for statement groups.
   name: Coveo Statement groups API
   slug: coveo-statement-groups-api
-- description: The Statements V1 API from Coveo — 8 operation(s) for statements v1.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Statements V1 API from Coveo — 8 operation(s) for statements v1.
   name: Coveo Statements V1 API
   slug: coveo-statements-v1-api
-- description: The Statements V2 API from Coveo — 10 operation(s) for statements v2.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Statements V2 API from Coveo — 10 operation(s) for statements v2.
   name: Coveo Statements V2 API
   slug: coveo-statements-v2-api
-- description: The Statistics API - Version 14 API from Coveo — 7 operation(s) for statistics api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Statistics API - Version 14 API from Coveo — 7 operation(s) for statistics api - version 14.
   name: Coveo Statistics API - Version 14 API
   slug: coveo-statistics-api-version-14-api
-- description: The Statistics API - Version 15 API from Coveo — 10 operation(s) for statistics api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Statistics API - Version 15 API from Coveo — 10 operation(s) for statistics api - version 15.
   name: Coveo Statistics API - Version 15 API
   slug: coveo-statistics-api-version-15-api
-- description: Manage streams
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Manage streams
   name: Coveo Stream API
   slug: coveo-stream-api
-- description: The Streaming Model Response API from Coveo — 1 operation(s) for streaming model response.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Streaming Model Response API from Coveo — 1 operation(s) for streaming model response.
   name: Coveo Streaming Model Response API
   slug: coveo-streaming-model-response-api
-- description: The Subscription API from Coveo — 10 operation(s) for subscription.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Subscription API from Coveo — 10 operation(s) for subscription.
   name: Coveo Subscription API
   slug: coveo-subscription-api
-- description: The Synonym API from Coveo — 2 operation(s) for synonym.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Synonym API from Coveo — 2 operation(s) for synonym.
   name: Coveo Synonym API
   slug: coveo-synonym-api
-- description: The Synonym Preview API from Coveo — 1 operation(s) for synonym preview.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Synonym Preview API from Coveo — 1 operation(s) for synonym preview.
   name: Coveo Synonym Preview API
   slug: coveo-synonym-preview-api
-- description: The Temporary Access API from Coveo — 10 operation(s) for temporary access.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Temporary Access API from Coveo — 10 operation(s) for temporary access.
   name: Coveo Temporary Access API
   slug: coveo-temporary-access-api
-- description: The Token Certificates API from Coveo — 1 operation(s) for token certificates.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Token Certificates API from Coveo — 1 operation(s) for token certificates.
   name: Coveo Token Certificates API
   slug: coveo-token-certificates-api
-- description: Validate usage analytics events from the [Coveo Usage Analytics Write API](https://docs.coveo.com/en/1373)
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: Validate usage analytics events from the [Coveo Usage Analytics Write API](https://docs.coveo.com/en/1373)
   name: Coveo Usage Analytics Event Validation API API
   slug: coveo-usage-analytics-event-validation-api-api
-- description: The User Statistics API - Version 15 API from Coveo — 2 operation(s) for user statistics api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The User Statistics API - Version 15 API from Coveo — 2 operation(s) for user statistics api - version 15.
   name: Coveo User Statistics API - Version 15 API
   slug: coveo-user-statistics-api-version-15-api
-- description: The Users API from Coveo — 2 operation(s) for users.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Users API from Coveo — 2 operation(s) for users.
   name: Coveo Users API
   slug: coveo-users-api
-- description: The Users API - Version 14 API from Coveo — 5 operation(s) for users api - version 14.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Users API - Version 14 API from Coveo — 5 operation(s) for users api - version 14.
   name: Coveo Users API - Version 14 API
   slug: coveo-users-api-version-14-api
-- description: The Users API - Version 15 API from Coveo — 5 operation(s) for users api - version 15.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Users API - Version 15 API from Coveo — 5 operation(s) for users api - version 15.
   name: Coveo Users API - Version 15 API
   slug: coveo-users-api-version-15-api
-- description: The Vault API from Coveo — 4 operation(s) for vault.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Vault API from Coveo — 4 operation(s) for vault.
   name: Coveo Vault API
   slug: coveo-vault-api
-- description: The View Definitions API from Coveo — 1 operation(s) for view definitions.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The View Definitions API from Coveo — 1 operation(s) for view definitions.
   name: Coveo View Definitions API
   slug: coveo-view-definitions-api
-- description: The Zendesk API from Coveo — 1 operation(s) for zendesk.
+- baseURL: https://platform.cloud.coveo.com
+  baseurl_source: declared
+  description: The Zendesk API from Coveo — 1 operation(s) for zendesk.
   name: Coveo Zendesk API
   slug: coveo-zendesk-api
 artifact_total: 508
@@ -1780,7 +2084,7 @@ score:
       marker_coverage: 0.0
       total: 152
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coveo/refs/heads/main/screenshots/coveo-2026-06-20T175131.png
 security:

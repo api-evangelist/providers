@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: The BookKeeper Java client API provides programmatic access for creating, writing, reading, and managing ledgers. It supports both the legacy LedgerHandle API and the newer Ledger API with explicit du
   name: Apache BookKeeper Java Client API
   slug: apache-bookkeeper-java-client
-- description: Under-replication detection and bookie recovery operations.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Under-replication detection and bookie recovery operations.
   name: Apache BookKeeper Auto Recovery API
   slug: apache-bookkeeper-auto-recovery-api
-- description: Bookie node management and status operations.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Bookie node management and status operations.
   name: Apache BookKeeper Bookies API
   slug: apache-bookkeeper-bookies-api
-- description: Server configuration management.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Server configuration management.
   name: Apache BookKeeper Configuration API
   slug: apache-bookkeeper-configuration-api
-- description: Ledger management and inspection operations.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Ledger management and inspection operations.
   name: Apache BookKeeper Ledgers API
   slug: apache-bookkeeper-ledgers-api
-- description: Health checks and metrics endpoints.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Health checks and metrics endpoints.
   name: Apache BookKeeper Monitoring API
   slug: apache-bookkeeper-monitoring-api
 artifact_total: 62
@@ -331,7 +341,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png
 security:

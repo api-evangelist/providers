@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 7 operations
 api_count: 3
 apis:
-- description: Course and section lookup and advanced search against the Self-Service Public Course Search API, which returns the Johns Hopkins course catalog as JSON. Filterable by school, department, course number
+- baseURL: https://sis.jhu.edu/api
+  baseurl_source: declared
+  description: Course and section lookup and advanced search against the Self-Service Public Course Search API, which returns the Johns Hopkins course catalog as JSON. Filterable by school, department, course number
   name: Johns Hopkins University SIS Classes API
   slug: johns-hopkins-university-classes-api
-- description: Reference code lists — schools, terms and departments — from the Self-Service Public Course Search API. The lookup vocabulary that makes the Classes API's filters usable. Requires an API key on the `k
+- baseURL: https://sis.jhu.edu/api
+  baseurl_source: declared
+  description: Reference code lists — schools, terms and departments — from the Self-Service Public Course Search API. The lookup vocabulary that makes the Classes API's filters usable. Requires an API key on the `k
   name: Johns Hopkins University SIS Codes API
   slug: johns-hopkins-university-codes-api
 - description: Central API management platform built on MuleSoft Anypoint, where Johns Hopkins developers and consumers view and request access to enterprise integration APIs. The portal answers 200 but its asset ca
@@ -66,10 +70,14 @@ apis:
 - description: 'The Johns Hopkins research information portal at pure.johnshopkins.edu, which CNAMEs to jhu.elsevierpure.com. This is an Elsevier Pure tenancy: the researcher profiles, publications and organizational'
   name: Johns Hopkins Research Portal (Elsevier Pure tenancy)
   slug: pure-research-portal
-- description: 'Content endpoints: announcements, articles, events, files, galleries and people.'
+- baseURL: https://api.hub.jhu.edu
+  baseurl_source: declared
+  description: 'Content endpoints: announcements, articles, events, files, galleries and people.'
   name: Johns Hopkins University Content API
   slug: johns-hopkins-university-content-api
-- description: 'Taxonomy endpoints: the vocabularies used to categorize and attribute Hub content.'
+- baseURL: https://api.hub.jhu.edu
+  baseurl_source: declared
+  description: 'Taxonomy endpoints: the vocabularies used to categorize and attribute Hub content.'
   name: Johns Hopkins University Taxonomy API
   slug: johns-hopkins-university-taxonomy-api
 artifact_total: 26
@@ -273,7 +281,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -283,7 +291,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 36.2
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -299,7 +307,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/screenshots/johns-hopkins-university-2026-06-20T183755.png
 security:

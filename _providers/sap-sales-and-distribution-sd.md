@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -44,142 +44,234 @@ agentic_access:
   summary_line: 118 operations · 52 acting
 api_count: 17
 apis:
-- description: Operations on billing document header (A_BillingDocument)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on billing document header (A_BillingDocument)
   name: SAP Sales and Distribution (SD) Billing Document API
   slug: sap-sales-and-distribution-sd-billing-document-api
-- description: Operations on billing document items (A_BillingDocumentItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on billing document items (A_BillingDocumentItem)
   name: SAP Sales and Distribution (SD) Billing Document Item API
   slug: sap-sales-and-distribution-sd-billing-document-item-api
-- description: Operations on billing document partners (A_BillingDocumentPartner)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on billing document partners (A_BillingDocumentPartner)
   name: SAP Sales and Distribution (SD) Billing Document Partner API
   slug: sap-sales-and-distribution-sd-billing-document-partner-api
-- description: Operations on business partner addresses (A_BusinessPartnerAddress)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on business partner addresses (A_BusinessPartnerAddress)
   name: SAP Sales and Distribution (SD) Business Partner Address API
   slug: sap-sales-and-distribution-sd-business-partner-address-api
-- description: Operations on business partner header entity (A_BusinessPartner)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on business partner header entity (A_BusinessPartner)
   name: SAP Sales and Distribution (SD) Business Partner API
   slug: sap-sales-and-distribution-sd-business-partner-api
-- description: Operations on condition record validity (A_SlsPrcgCndnRecdValidity)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on condition record validity (A_SlsPrcgCndnRecdValidity)
   name: SAP Sales and Distribution (SD) Condition Record Validity API
   slug: sap-sales-and-distribution-sd-condition-record-validity-api
-- description: Operations on credit management accounts
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on credit management accounts
   name: SAP Sales and Distribution (SD) Credit Account API
   slug: sap-sales-and-distribution-sd-credit-account-api
-- description: Operations on credit exposure data
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on credit exposure data
   name: SAP Sales and Distribution (SD) Credit Exposure API
   slug: sap-sales-and-distribution-sd-credit-exposure-api
-- description: Operations on customer credit limits
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer credit limits
   name: SAP Sales and Distribution (SD) Credit Limit API
   slug: sap-sales-and-distribution-sd-credit-limit-api
-- description: Operations on credit memo request header (A_CreditMemoRequest)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on credit memo request header (A_CreditMemoRequest)
   name: SAP Sales and Distribution (SD) Credit Memo Request API
   slug: sap-sales-and-distribution-sd-credit-memo-request-api
-- description: Operations on credit memo request items (A_CreditMemoReqItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on credit memo request items (A_CreditMemoReqItem)
   name: SAP Sales and Distribution (SD) Credit Memo Request Item API
   slug: sap-sales-and-distribution-sd-credit-memo-request-item-api
-- description: Operations on customer-specific data (A_Customer)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer-specific data (A_Customer)
   name: SAP Sales and Distribution (SD) Customer API
   slug: sap-sales-and-distribution-sd-customer-api
-- description: Operations on customer material info records (A_CustomerMaterial)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer material info records (A_CustomerMaterial)
   name: SAP Sales and Distribution (SD) Customer Material API
   slug: sap-sales-and-distribution-sd-customer-material-api
-- description: Operations on customer return header (A_CustomerReturn)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer return header (A_CustomerReturn)
   name: SAP Sales and Distribution (SD) Customer Return API
   slug: sap-sales-and-distribution-sd-customer-return-api
-- description: Operations on customer return items (A_CustomerReturnItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer return items (A_CustomerReturnItem)
   name: SAP Sales and Distribution (SD) Customer Return Item API
   slug: sap-sales-and-distribution-sd-customer-return-item-api
-- description: Operations on customer sales area data (A_CustomerSalesArea)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer sales area data (A_CustomerSalesArea)
   name: SAP Sales and Distribution (SD) Customer Sales Area API
   slug: sap-sales-and-distribution-sd-customer-sales-area-api
-- description: Operations on debit memo request header (A_DebitMemoRequest)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on debit memo request header (A_DebitMemoRequest)
   name: SAP Sales and Distribution (SD) Debit Memo Request API
   slug: sap-sales-and-distribution-sd-debit-memo-request-api
-- description: Operations on debit memo request items (A_DebitMemoReqItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on debit memo request items (A_DebitMemoReqItem)
   name: SAP Sales and Distribution (SD) Debit Memo Request Item API
   slug: sap-sales-and-distribution-sd-debit-memo-request-item-api
-- description: Operations on inbound delivery header (A_InbDeliveryHeader)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on inbound delivery header (A_InbDeliveryHeader)
   name: SAP Sales and Distribution (SD) Inbound Delivery Header API
   slug: sap-sales-and-distribution-sd-inbound-delivery-header-api
-- description: Operations on inbound delivery items (A_InbDeliveryItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on inbound delivery items (A_InbDeliveryItem)
   name: SAP Sales and Distribution (SD) Inbound Delivery Item API
   slug: sap-sales-and-distribution-sd-inbound-delivery-item-api
-- description: Operations on outbound delivery header (A_OutbDeliveryHeader)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on outbound delivery header (A_OutbDeliveryHeader)
   name: SAP Sales and Distribution (SD) Outbound Delivery Header API
   slug: sap-sales-and-distribution-sd-outbound-delivery-header-api
-- description: Operations on outbound delivery items (A_OutbDeliveryItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on outbound delivery items (A_OutbDeliveryItem)
   name: SAP Sales and Distribution (SD) Outbound Delivery Item API
   slug: sap-sales-and-distribution-sd-outbound-delivery-item-api
-- description: Operations on outbound delivery partners (A_OutbDeliveryPartner)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on outbound delivery partners (A_OutbDeliveryPartner)
   name: SAP Sales and Distribution (SD) Outbound Delivery Partner API
   slug: sap-sales-and-distribution-sd-outbound-delivery-partner-api
-- description: Operations on pricing condition records (A_SlsPrcgConditionRecord)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on pricing condition records (A_SlsPrcgConditionRecord)
   name: SAP Sales and Distribution (SD) Pricing Condition Record API
   slug: sap-sales-and-distribution-sd-pricing-condition-record-api
-- description: Operations on product/material master header (A_Product)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on product/material master header (A_Product)
   name: SAP Sales and Distribution (SD) Product API
   slug: sap-sales-and-distribution-sd-product-api
-- description: Operations on product descriptions (A_ProductDescription)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on product descriptions (A_ProductDescription)
   name: SAP Sales and Distribution (SD) Product Description API
   slug: sap-sales-and-distribution-sd-product-description-api
-- description: Operations on product plant data (A_ProductPlant)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on product plant data (A_ProductPlant)
   name: SAP Sales and Distribution (SD) Product Plant API
   slug: sap-sales-and-distribution-sd-product-plant-api
-- description: Operations on product sales and delivery data
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on product sales and delivery data
   name: SAP Sales and Distribution (SD) Product Sales Delivery API
   slug: sap-sales-and-distribution-sd-product-sales-delivery-api
-- description: Operations on customer returns delivery header
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer returns delivery header
   name: SAP Sales and Distribution (SD) Returns Delivery Header API
   slug: sap-sales-and-distribution-sd-returns-delivery-header-api
-- description: Operations on customer returns delivery items
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on customer returns delivery items
   name: SAP Sales and Distribution (SD) Returns Delivery Item API
   slug: sap-sales-and-distribution-sd-returns-delivery-item-api
-- description: Operations on sales contract header (A_SalesContract)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales contract header (A_SalesContract)
   name: SAP Sales and Distribution (SD) Sales Contract API
   slug: sap-sales-and-distribution-sd-sales-contract-api
-- description: Operations on sales contract items (A_SalesContractItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales contract items (A_SalesContractItem)
   name: SAP Sales and Distribution (SD) Sales Contract Item API
   slug: sap-sales-and-distribution-sd-sales-contract-item-api
-- description: Operations on sales inquiry header (A_SalesInquiry)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales inquiry header (A_SalesInquiry)
   name: SAP Sales and Distribution (SD) Sales Inquiry API
   slug: sap-sales-and-distribution-sd-sales-inquiry-api
-- description: Operations on sales inquiry items (A_SalesInquiryItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales inquiry items (A_SalesInquiryItem)
   name: SAP Sales and Distribution (SD) Sales Inquiry Item API
   slug: sap-sales-and-distribution-sd-sales-inquiry-item-api
-- description: Operations on sales order header entity (A_SalesOrder)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order header entity (A_SalesOrder)
   name: SAP Sales and Distribution (SD) Sales Order Header API
   slug: sap-sales-and-distribution-sd-sales-order-header-api
-- description: Operations on sales order item entity (A_SalesOrderItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order item entity (A_SalesOrderItem)
   name: SAP Sales and Distribution (SD) Sales Order Item API
   slug: sap-sales-and-distribution-sd-sales-order-item-api
-- description: Operations on sales order header partner entity (A_SalesOrderHeaderPartner)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order header partner entity (A_SalesOrderHeaderPartner)
   name: SAP Sales and Distribution (SD) Sales Order Partner API
   slug: sap-sales-and-distribution-sd-sales-order-partner-api
-- description: Operations on sales order pricing elements (A_SalesOrderHeaderPrElement)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order pricing elements (A_SalesOrderHeaderPrElement)
   name: SAP Sales and Distribution (SD) Sales Order Pricing Element API
   slug: sap-sales-and-distribution-sd-sales-order-pricing-element-api
-- description: Operations on sales order schedule lines (A_SalesOrderScheduleLine)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order schedule lines (A_SalesOrderScheduleLine)
   name: SAP Sales and Distribution (SD) Sales Order Schedule Line API
   slug: sap-sales-and-distribution-sd-sales-order-schedule-line-api
-- description: Operations on sales order text elements (A_SalesOrderText)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales order text elements (A_SalesOrderText)
   name: SAP Sales and Distribution (SD) Sales Order Text API
   slug: sap-sales-and-distribution-sd-sales-order-text-api
-- description: Operations on sales quotation header (A_SalesQuotation)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales quotation header (A_SalesQuotation)
   name: SAP Sales and Distribution (SD) Sales Quotation API
   slug: sap-sales-and-distribution-sd-sales-quotation-api
-- description: Operations on sales quotation items (A_SalesQuotationItem)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales quotation items (A_SalesQuotationItem)
   name: SAP Sales and Distribution (SD) Sales Quotation Item API
   slug: sap-sales-and-distribution-sd-sales-quotation-item-api
-- description: Operations on sales quotation partners (A_SalesQuotationPartner)
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on sales quotation partners (A_SalesQuotationPartner)
   name: SAP Sales and Distribution (SD) Sales Quotation Partner API
   slug: sap-sales-and-distribution-sd-sales-quotation-partner-api
-- description: Operations on delivery schedule lines
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on delivery schedule lines
   name: SAP Sales and Distribution (SD) Schedule Line API
   slug: sap-sales-and-distribution-sd-schedule-line-api
-- description: Operations on scheduling agreement header
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on scheduling agreement header
   name: SAP Sales and Distribution (SD) Scheduling Agreement API
   slug: sap-sales-and-distribution-sd-scheduling-agreement-api
-- description: Operations on scheduling agreement items
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: declared
+  description: Operations on scheduling agreement items
   name: SAP Sales and Distribution (SD) Scheduling Agreement Item API
   slug: sap-sales-and-distribution-sd-scheduling-agreement-item-api
 arazzos:
@@ -1031,7 +1123,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -1041,7 +1133,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 48.0
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1050,7 +1142,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:

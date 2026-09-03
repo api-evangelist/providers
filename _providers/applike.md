@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Reporting API exposing the metrics behind the justtrack dashboard — acquisition tables, cohort analysis and event drill-down — as POST endpoints under /reporting/v2 (v1 also documented). Requests carr
@@ -38,25 +50,39 @@ apis:
 - description: Per-user ad data report download for Playtime publishers. A single GET /v3/ssp-api/user-ad-data-report/sdk/{sdkHash} endpoint returns a text/csv report for a given date, answering 202 with a JSON body
   name: adjoe User Ad Data Report API
   slug: adjoe-user-ad-data-report-api
-- description: 'With the App Partner Connection API, you can: - View details about an app partner connection - Create a partner connection for an app (This is the API equivalent of connecting a partner in the dashboa'
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: 'With the App Partner Connection API, you can: - View details about an app partner connection - Create a partner connection for an app (This is the API equivalent of connecting a partner in the dashboa'
   name: AppLike Group App Partner Connection API
   slug: applike-app-partner-connection-api
-- description: The Appevents API from AppLike Group — 1 operation(s) for appevents.
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: The Appevents API from AppLike Group — 1 operation(s) for appevents.
   name: AppLike Group Appevents API
   slug: applike-appevents-api
-- description: 'With the App API, you can: - View your list of apps - Create an app'
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: 'With the App API, you can: - View your list of apps - Create an app'
   name: AppLike Group Apps API
   slug: applike-apps-api
-- description: 'Bidding operates as a distributed transaction. The sequential flow is as follows: 1. you upload a bid 2. we store it in justtrack -> status: pending 3. we try to apply it on partner side <br/> a. if s'
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: 'Bidding operates as a distributed transaction. The sequential flow is as follows: 1. you upload a bid 2. we store it in justtrack -> status: pending 3. we try to apply it on partner side <br/> a. if s'
   name: AppLike Group Bids API
   slug: applike-bids-api
-- description: The Campaigns API from AppLike Group — 2 operation(s) for campaigns.
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: The Campaigns API from AppLike Group — 2 operation(s) for campaigns.
   name: AppLike Group Campaigns API
   slug: applike-campaigns-api
-- description: 'In justtrack, you integrate your app with the advertising partners that run your campaigns. Depending on the integrated partner, we exchange data for at least one of the following features: * `attribu'
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: 'In justtrack, you integrate your app with the advertising partners that run your campaigns. Depending on the integrated partner, we exchange data for at least one of the following features: * `attribu'
   name: AppLike Group Partner Configurations API
   slug: applike-partner-configurations-api
-- description: The Partners API from AppLike Group — 1 operation(s) for partners.
+- baseURL: https://api.justtrack.io
+  baseurl_source: declared
+  description: The Partners API from AppLike Group — 1 operation(s) for partners.
   name: AppLike Group Partners API
   slug: applike-partners-api
 artifact_total: 24
@@ -270,7 +296,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -280,7 +306,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 58.5
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -290,7 +316,7 @@ score:
       total: 7
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applike/refs/heads/main/screenshots/applike-2026-08-07T161506.png
 security:

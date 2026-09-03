@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Country coverage index.
+- baseURL: https://io.discgolfapi.com/v1
+  baseurl_source: declared
+  description: Country coverage index.
   name: DiscGolfAPI Countries API
   slug: discgolfapi-countries-api
-- description: Course list and course detail endpoints.
+- baseURL: https://io.discgolfapi.com/v1
+  baseurl_source: declared
+  description: Course list and course detail endpoints.
   name: DiscGolfAPI Courses API
   slug: discgolfapi-courses-api
-- description: Dataset manifest and publication metadata.
+- baseURL: https://io.discgolfapi.com/v1
+  baseurl_source: declared
+  description: Dataset manifest and publication metadata.
   name: DiscGolfAPI Metadata API
   slug: discgolfapi-metadata-api
-- description: Region, state and subdivision coverage index.
+- baseURL: https://io.discgolfapi.com/v1
+  baseurl_source: declared
+  description: Region, state and subdivision coverage index.
   name: DiscGolfAPI Regions API
   slug: discgolfapi-regions-api
-- description: Recent public data updates.
+- baseURL: https://io.discgolfapi.com/v1
+  baseurl_source: declared
+  description: Recent public data updates.
   name: DiscGolfAPI Updates API
   slug: discgolfapi-updates-api
 artifact_total: 27
@@ -255,7 +265,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/screenshots/discgolfapi-2026-06-20T180032.png
 security:

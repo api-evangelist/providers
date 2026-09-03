@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -47,55 +47,89 @@ apis:
 - description: Apache APISIX provides rich traffic management features including load balancing, dynamic upstream configuration, canary releases, circuit breaking, authentication, observability plugins, and more. It
   name: Apache APISIX Gateway
   slug: apache-apisix-gateway
-- description: Manage consumer groups for shared plugin configurations.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage consumer groups for shared plugin configurations.
   name: Apache APISIX Consumer Groups API
   slug: apache-apisix-consumer-groups-api
-- description: Manage API consumers and their credentials.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage API consumers and their credentials.
   name: Apache APISIX Consumers API
   slug: apache-apisix-consumers-api
-- description: Runtime diagnostic operations.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Runtime diagnostic operations.
   name: Apache APISIX Diagnostics API
   slug: apache-apisix-diagnostics-api
-- description: Manage global plugin rules applied to all requests.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage global plugin rules applied to all requests.
   name: Apache APISIX Global Rules API
   slug: apache-apisix-global-rules-api
-- description: Monitor the health status of upstream nodes.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Monitor the health status of upstream nodes.
   name: Apache APISIX Health Check API
   slug: apache-apisix-health-check-api
-- description: Inspect the runtime configuration of the APISIX instance.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Inspect the runtime configuration of the APISIX instance.
   name: Apache APISIX Introspection API
   slug: apache-apisix-introspection-api
-- description: Manage reusable plugin configuration sets.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage reusable plugin configuration sets.
   name: Apache APISIX Plugin Configs API
   slug: apache-apisix-plugin-configs-api
-- description: Manage metadata for individual plugins.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage metadata for individual plugins.
   name: Apache APISIX Plugin Metadata API
   slug: apache-apisix-plugin-metadata-api
-- description: Query available plugins and their schemas.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Query available plugins and their schemas.
   name: Apache APISIX Plugins API
   slug: apache-apisix-plugins-api
-- description: Manage Protocol Buffer definition resources.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage Protocol Buffer definition resources.
   name: Apache APISIX Protos API
   slug: apache-apisix-protos-api
-- description: Manage HTTP routes that define rules for matching client requests.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage HTTP routes that define rules for matching client requests.
   name: Apache APISIX Routes API
   slug: apache-apisix-routes-api
-- description: Validate resource configurations against APISIX schemas.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Validate resource configurations against APISIX schemas.
   name: Apache APISIX Schema API
   slug: apache-apisix-schema-api
-- description: Manage secrets from external secret managers.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage secrets from external secret managers.
   name: Apache APISIX Secrets API
   slug: apache-apisix-secrets-api
-- description: The Services API from Apache APISIX — 2 operation(s) for services.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: The Services API from Apache APISIX — 2 operation(s) for services.
   name: Apache APISIX Services API
   slug: apache-apisix-services-api
-- description: Manage SSL/TLS certificate resources.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage SSL/TLS certificate resources.
   name: Apache APISIX SSL API
   slug: apache-apisix-ssl-api
-- description: Manage Layer 4 TCP/UDP stream routes.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage Layer 4 TCP/UDP stream routes.
   name: Apache APISIX Stream Routes API
   slug: apache-apisix-stream-routes-api
-- description: Manage upstream backend service definitions with load balancing.
+- baseURL: http://127.0.0.1:9180/apisix/admin
+  baseurl_source: spec
+  description: Manage upstream backend service definitions with load balancing.
   name: Apache APISIX Upstreams API
   slug: apache-apisix-upstreams-api
 artifact_total: 101
@@ -503,7 +537,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-apisix/refs/heads/main/screenshots/apache-apisix-2026-06-20T172044.png
 security:

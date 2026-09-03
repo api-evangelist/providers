@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,55 +47,89 @@ apis:
 - description: Chameleon REST API for managing user profiles, companies, tours, microsurveys, embeddables, segments, themes, webhooks, and other Experiences.
   name: Chameleon REST API
   slug: chameleon-rest-api
-- description: The Alert Groups API from Chameleon — 2 operation(s) for alert groups.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Alert Groups API from Chameleon — 2 operation(s) for alert groups.
   name: Chameleon Alert Groups API
   slug: chameleon-alert-groups-api
-- description: The Companies API from Chameleon — 2 operation(s) for companies.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Companies API from Chameleon — 2 operation(s) for companies.
   name: Chameleon Companies API
   slug: chameleon-companies-api
-- description: The Deliveries API from Chameleon — 2 operation(s) for deliveries.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Deliveries API from Chameleon — 2 operation(s) for deliveries.
   name: Chameleon Deliveries API
   slug: chameleon-deliveries-api
-- description: The Domains API from Chameleon — 2 operation(s) for domains.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Domains API from Chameleon — 2 operation(s) for domains.
   name: Chameleon Domains API
   slug: chameleon-domains-api
-- description: The Imports API from Chameleon — 2 operation(s) for imports.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Imports API from Chameleon — 2 operation(s) for imports.
   name: Chameleon Imports API
   slug: chameleon-imports-api
-- description: The Interactions API from Chameleon — 2 operation(s) for interactions.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Interactions API from Chameleon — 2 operation(s) for interactions.
   name: Chameleon Interactions API
   slug: chameleon-interactions-api
-- description: The Launchers API from Chameleon — 2 operation(s) for launchers.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Launchers API from Chameleon — 2 operation(s) for launchers.
   name: Chameleon Launchers API
   slug: chameleon-launchers-api
-- description: The Limit Groups API from Chameleon — 2 operation(s) for limit groups.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Limit Groups API from Chameleon — 2 operation(s) for limit groups.
   name: Chameleon Limit Groups API
   slug: chameleon-limit-groups-api
-- description: The Microsurveys API from Chameleon — 2 operation(s) for microsurveys.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Microsurveys API from Chameleon — 2 operation(s) for microsurveys.
   name: Chameleon Microsurveys API
   slug: chameleon-microsurveys-api
-- description: The Profiles API from Chameleon — 2 operation(s) for profiles.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Profiles API from Chameleon — 2 operation(s) for profiles.
   name: Chameleon Profiles API
   slug: chameleon-profiles-api
-- description: The Properties API from Chameleon — 2 operation(s) for properties.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Properties API from Chameleon — 2 operation(s) for properties.
   name: Chameleon Properties API
   slug: chameleon-properties-api
-- description: The Responses API from Chameleon — 1 operation(s) for responses.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Responses API from Chameleon — 1 operation(s) for responses.
   name: Chameleon Responses API
   slug: chameleon-responses-api
-- description: The Segments API from Chameleon — 2 operation(s) for segments.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Segments API from Chameleon — 2 operation(s) for segments.
   name: Chameleon Segments API
   slug: chameleon-segments-api
-- description: The Tags API from Chameleon — 2 operation(s) for tags.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Tags API from Chameleon — 2 operation(s) for tags.
   name: Chameleon Tags API
   slug: chameleon-tags-api
-- description: The Tooltips API from Chameleon — 2 operation(s) for tooltips.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Tooltips API from Chameleon — 2 operation(s) for tooltips.
   name: Chameleon Tooltips API
   slug: chameleon-tooltips-api
-- description: The Tours API from Chameleon — 2 operation(s) for tours.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Tours API from Chameleon — 2 operation(s) for tours.
   name: Chameleon Tours API
   slug: chameleon-tours-api
-- description: The Webhooks API from Chameleon — 2 operation(s) for webhooks.
+- baseURL: https://api.chameleon.io/v3
+  baseurl_source: declared
+  description: The Webhooks API from Chameleon — 2 operation(s) for webhooks.
   name: Chameleon Webhooks API
   slug: chameleon-webhooks-api
 artifact_total: 45
@@ -282,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/screenshots/chameleon-2026-06-20T174211.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 32 operations
 api_count: 2
 apis:
-- description: API to enumerate datasets
+- baseURL: https://ukpowernetworks.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to enumerate datasets
   name: UK Power Networks Catalog API
   slug: uk-power-networks-catalog-api
-- description: API to work on records
+- baseURL: https://ukpowernetworks.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to work on records
   name: UK Power Networks Dataset API
   slug: uk-power-networks-dataset-api
 artifact_total: 15
@@ -310,7 +326,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -323,7 +339,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 65.1
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,7 +357,7 @@ score:
     regime_id: energy_utilities
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
 security:

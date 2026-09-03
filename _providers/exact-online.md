@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: REST and OData API (v1) for Exact Online covering financials, sales, purchasing, inventory, HRM, CRM, project management, and master data. Authentication is OAuth 2.0; applications register in the Exa
   name: Exact Online REST / OData API
   slug: rest-api
-- description: The CRM API from Exact Online — 4 operation(s) for crm.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The CRM API from Exact Online — 4 operation(s) for crm.
   name: Exact Online CRM API
   slug: exact-online-crm-api
-- description: The Financial API from Exact Online — 1 operation(s) for financial.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The Financial API from Exact Online — 1 operation(s) for financial.
   name: Exact Online Financial API
   slug: exact-online-financial-api
-- description: The Logistics API from Exact Online — 1 operation(s) for logistics.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The Logistics API from Exact Online — 1 operation(s) for logistics.
   name: Exact Online Logistics API
   slug: exact-online-logistics-api
-- description: The Purchase API from Exact Online — 1 operation(s) for purchase.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The Purchase API from Exact Online — 1 operation(s) for purchase.
   name: Exact Online Purchase API
   slug: exact-online-purchase-api
-- description: The Sales API from Exact Online — 3 operation(s) for sales.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The Sales API from Exact Online — 3 operation(s) for sales.
   name: Exact Online Sales API
   slug: exact-online-sales-api
-- description: The System API from Exact Online — 3 operation(s) for system.
+- baseURL: https://start.exactonline.nl/api/v1
+  baseurl_source: declared
+  description: The System API from Exact Online — 3 operation(s) for system.
   name: Exact Online System API
   slug: exact-online-system-api
 artifact_total: 21
@@ -192,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/screenshots/exact-online-2026-06-20T180917.png
 security:

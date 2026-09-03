@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 34 operations · 7 acting
 api_count: 1
 apis:
-- description: Immutable audit trail of study changes.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Immutable audit trail of study changes.
   name: Castor Audit Trail API
   slug: castoredc-audit-trail-api
-- description: Bulk export of study data, structure, and option groups.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Bulk export of study data, structure, and option groups.
   name: Castor Data Export API
   slug: castoredc-data-export-api
-- description: Study fields and their metadata (dependencies, option groups, validations).
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Study fields and their metadata (dependencies, option groups, validations).
   name: Castor Fields API
   slug: castoredc-fields-api
-- description: Institutes (sites / centers) participating in a study.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Institutes (sites / centers) participating in a study.
   name: Castor Institutes API
   slug: castoredc-institutes-api
-- description: Reference metadata such as countries.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Reference metadata such as countries.
   name: Castor Metadata API
   slug: castoredc-metadata-api
-- description: Participants (records / subjects) enrolled in a study.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Participants (records / subjects) enrolled in a study.
   name: Castor Participants API
   slug: castoredc-participants-api
-- description: Reports / repeating data and their instances.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Reports / repeating data and their instances.
   name: Castor Reports API
   slug: castoredc-reports-api
-- description: Studies accessible to the API client.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Studies accessible to the API client.
   name: Castor Studies API
   slug: castoredc-studies-api
-- description: Collected values for study forms.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Collected values for study forms.
   name: Castor Study Data Points API
   slug: castoredc-study-data-points-api
-- description: Surveys, survey packages, and ePRO.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Surveys, survey packages, and ePRO.
   name: Castor Surveys API
   slug: castoredc-surveys-api
-- description: Users and study membership.
+- baseURL: https://data.castoredc.com/api
+  baseurl_source: declared
+  description: Users and study membership.
   name: Castor Users API
   slug: castoredc-users-api
 artifact_total: 32
@@ -234,7 +256,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/castoredc/refs/heads/main/screenshots/castoredc-2026-07-25T204743.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Messages
+- baseURL: https://invoca.net
+  baseurl_source: declared
+  description: Messages
   name: Invoca Messages API
   slug: invoca-messages-api
-- description: Phone Numbers
+- baseURL: https://invoca.net
+  baseurl_source: declared
+  description: Phone Numbers
   name: Invoca Phone Numbers API
   slug: invoca-phone-numbers-api
 artifact_total: 8
@@ -238,7 +242,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:

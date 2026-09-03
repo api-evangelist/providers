@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Operations for creating and managing dashboards
+- baseURL: https://quicksight.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing dashboards
   name: Amazon QuickSight Dashboards API
   slug: amazon-quicksight-dashboards-api
-- description: Operations for managing datasets
+- baseURL: https://quicksight.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing datasets
   name: Amazon QuickSight Datasets API
   slug: amazon-quicksight-datasets-api
 arazzos:
@@ -408,7 +412,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/screenshots/amazon-quicksight-2026-06-20T171805.png
 security:

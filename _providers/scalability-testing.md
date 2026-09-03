@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: Gatling is an open-source load testing framework built on Akka and Netty, providing high performance with a Scala/Java/Kotlin DSL for defining test scenarios. The Gatling Enterprise cloud platform pro
   name: Gatling Load Testing
   slug: gatling
-- description: The Projects API from Scalability Testing — 4 operation(s) for projects.
+- baseURL: https://api.k6.io/v3
+  baseurl_source: declared
+  description: The Projects API from Scalability Testing — 4 operation(s) for projects.
   name: Scalability Testing Projects API
   slug: scalability-testing-projects-api
 artifact_total: 20
@@ -201,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/screenshots/scalability-testing-2026-06-20T193451.png
 security:

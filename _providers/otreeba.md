@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Companies that create or distribute various forms of flowers, extracts, edibles, or products.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Companies that create or distribute various forms of flowers, extracts, edibles, or products.
   name: Otreeba Brands API
   slug: otreeba-brands-api
-- description: The Condition API from Otreeba — 1 operation(s) for condition.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Condition API from Otreeba — 1 operation(s) for condition.
   name: Otreeba Condition API
   slug: otreeba-condition-api
-- description: The Conditions API from Otreeba — 2 operation(s) for conditions.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Conditions API from Otreeba — 2 operation(s) for conditions.
   name: Otreeba Conditions API
   slug: otreeba-conditions-api
-- description: Consumable products infused with cannabis extracts or flowers.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Consumable products infused with cannabis extracts or flowers.
   name: Otreeba Edibles API
   slug: otreeba-edibles-api
-- description: Extracted or concentrated forms of cannabis.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Extracted or concentrated forms of cannabis.
   name: Otreeba Extracts API
   slug: otreeba-extracts-api
-- description: Finished cannabis seeds, clones, flowers, or shake.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Finished cannabis seeds, clones, flowers, or shake.
   name: Otreeba Flowers API
   slug: otreeba-flowers-api
-- description: The Identifiers API from Otreeba — 1 operation(s) for identifiers.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Identifiers API from Otreeba — 1 operation(s) for identifiers.
   name: Otreeba Identifiers API
   slug: otreeba-identifiers-api
-- description: The Ocpc API from Otreeba — 6 operation(s) for ocpc.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Ocpc API from Otreeba — 6 operation(s) for ocpc.
   name: Otreeba Ocpc API
   slug: otreeba-ocpc-api
-- description: Products not meant for consumption infused with cannabis extracts or flowers.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Products not meant for consumption infused with cannabis extracts or flowers.
   name: Otreeba Products API
   slug: otreeba-products-api
-- description: The Seed API from Otreeba — 3 operation(s) for seed.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Seed API from Otreeba — 3 operation(s) for seed.
   name: Otreeba Seed API
   slug: otreeba-seed-api
-- description: The Seed Companies API from Otreeba — 2 operation(s) for seed companies.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Seed Companies API from Otreeba — 2 operation(s) for seed companies.
   name: Otreeba Seed  Companies API
   slug: otreeba-seed-companies-api
-- description: The Slug API from Otreeba — 1 operation(s) for slug.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Slug API from Otreeba — 1 operation(s) for slug.
   name: Otreeba Slug API
   slug: otreeba-slug-api
-- description: Individual varieities of cannabis.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Individual varieities of cannabis.
   name: Otreeba Strains API
   slug: otreeba-strains-api
-- description: Studies on cannabis for different medical conditions.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: Studies on cannabis for different medical conditions.
   name: Otreeba Studies API
   slug: otreeba-studies-api
-- description: The Type API from Otreeba — 1 operation(s) for type.
+- baseURL: https://api.otreeba.com/v1
+  baseurl_source: declared
+  description: The Type API from Otreeba — 1 operation(s) for type.
   name: Otreeba Type API
   slug: otreeba-type-api
 artifact_total: 35
@@ -223,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

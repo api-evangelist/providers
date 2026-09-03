@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 46 operations · 15 acting
 api_count: 9
 apis:
-- description: The authentication API from Moveworks — 2 operation(s) for authentication.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The authentication API from Moveworks — 2 operation(s) for authentication.
   name: Moveworks authentication API
   slug: moveworks-authentication-api
-- description: The conversations API from Moveworks — 3 operation(s) for conversations.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The conversations API from Moveworks — 3 operation(s) for conversations.
   name: Moveworks conversations API
   slug: moveworks-conversations-api
-- description: The Default API from Moveworks — 14 operation(s) for default.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The Default API from Moveworks — 14 operation(s) for default.
   name: Moveworks Default API
   slug: moveworks-default-api
-- description: The deprecated API from Moveworks — 1 operation(s) for deprecated.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The deprecated API from Moveworks — 1 operation(s) for deprecated.
   name: Moveworks deprecated API
   slug: moveworks-deprecated-api
-- description: The events API from Moveworks — 1 operation(s) for events.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The events API from Moveworks — 1 operation(s) for events.
   name: Moveworks events API
   slug: moveworks-events-api
-- description: The messages API from Moveworks — 3 operation(s) for messages.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The messages API from Moveworks — 3 operation(s) for messages.
   name: Moveworks messages API
   slug: moveworks-messages-api
-- description: The responses API from Moveworks — 3 operation(s) for responses.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The responses API from Moveworks — 3 operation(s) for responses.
   name: Moveworks responses API
   slug: moveworks-responses-api
-- description: The smartForms API from Moveworks — 3 operation(s) for smartforms.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The smartForms API from Moveworks — 3 operation(s) for smartforms.
   name: Moveworks smartForms API
   slug: moveworks-smartforms-api
-- description: The webhooks API from Moveworks — 1 operation(s) for webhooks.
+- baseURL: https://api.moveworks.ai
+  baseurl_source: declared
+  description: The webhooks API from Moveworks — 1 operation(s) for webhooks.
   name: Moveworks webhooks API
   slug: moveworks-webhooks-api
 arazzos:
@@ -327,7 +345,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -337,7 +355,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 56.1
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,7 +367,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/screenshots/moveworks-2026-08-07T184356.png
 security:

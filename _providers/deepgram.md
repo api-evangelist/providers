@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 3
 apis:
-- description: 'The Deepgram Voice Agent API is an end-to-end solution that combines speech-to-text, LLM orchestration, and text-to-speech into a single real-time API. It simplifies the development of conversational '
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: 'The Deepgram Voice Agent API is an end-to-end solution that combines speech-to-text, LLM orchestration, and text-to-speech into a single real-time API. It simplifies the development of conversational '
   name: Deepgram Voice Agent API
   slug: voice-agent-api
-- description: Retrieve billing balance information for projects.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Retrieve billing balance information for projects.
   name: Deepgram Balances API
   slug: deepgram-balances-api
-- description: Manage project invitations.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Manage project invitations.
   name: Deepgram Invitations API
   slug: deepgram-invitations-api
-- description: Create, list, and manage API keys for projects.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Create, list, and manage API keys for projects.
   name: Deepgram Keys API
   slug: deepgram-keys-api
-- description: Manage project team members.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Manage project team members.
   name: Deepgram Members API
   slug: deepgram-members-api
-- description: Retrieve available model metadata.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Retrieve available model metadata.
   name: Deepgram Models API
   slug: deepgram-models-api
-- description: Transcribe pre-recorded audio files or audio from URLs.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Transcribe pre-recorded audio files or audio from URLs.
   name: Deepgram Pre-Recorded API
   slug: deepgram-pre-recorded-api
-- description: Manage Deepgram projects and project settings.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Manage Deepgram projects and project settings.
   name: Deepgram Projects API
   slug: deepgram-projects-api
-- description: Manage member scopes and permissions within projects.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Manage member scopes and permissions within projects.
   name: Deepgram Scopes API
   slug: deepgram-scopes-api
-- description: Analyze text content for summarization, sentiment, topics, and intents.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Analyze text content for summarization, sentiment, topics, and intents.
   name: Deepgram Text Intelligence API
   slug: deepgram-text-intelligence-api
-- description: Convert text into natural-sounding speech audio.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Convert text into natural-sounding speech audio.
   name: Deepgram Text-To-Speech API
   slug: deepgram-text-to-speech-api
-- description: Retrieve usage data and request logs for projects.
+- baseURL: https://api.deepgram.com
+  baseurl_source: declared
+  description: Retrieve usage data and request logs for projects.
   name: Deepgram Usage API
   slug: deepgram-usage-api
 arazzos:
@@ -557,7 +581,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -567,7 +591,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 49.2
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -576,7 +600,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:

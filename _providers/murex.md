@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,73 +47,119 @@ apis:
 - description: Comprehensive capital markets platform providing trading, risk management, and post-trade operations across all asset classes.
   name: Murex MX.3 Platform
   slug: murex-mx3-platform
-- description: Accounting entries and journal operations
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Accounting entries and journal operations
   name: Murex Accounting API
   slug: murex-accounting-api
-- description: Cash flow projections and management
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Cash flow projections and management
   name: Murex Cash Flows API
   slug: murex-cash-flows-api
-- description: Collateral management and margin operations
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Collateral management and margin operations
   name: Murex Collateral API
   slug: murex-collateral-api
-- description: Trade confirmation generation and matching
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Trade confirmation generation and matching
   name: Murex Confirmations API
   slug: murex-confirmations-api
-- description: Yield curves and forward curves
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Yield curves and forward curves
   name: Murex Curves API
   slug: murex-curves-api
-- description: Foreign exchange rates and crosses
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Foreign exchange rates and crosses
   name: Murex FX Rates API
   slug: murex-fx-rates-api
-- description: Financial instrument reference data
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Financial instrument reference data
   name: Murex Instruments API
   slug: murex-instruments-api
-- description: Risk limit monitoring and management
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Risk limit monitoring and management
   name: Murex Limits API
   slug: murex-limits-api
-- description: Order creation, modification, and lifecycle management
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Order creation, modification, and lifecycle management
   name: Murex Orders API
   slug: murex-orders-api
-- description: Profit and loss calculations and reporting
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Profit and loss calculations and reporting
   name: Murex P&L API
   slug: murex-p-l-api
-- description: Trading portfolio and book management
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Trading portfolio and book management
   name: Murex Portfolios API
   slug: murex-portfolios-api
-- description: Portfolio position retrieval and management
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Portfolio position retrieval and management
   name: Murex Positions API
   slug: murex-positions-api
-- description: Real-time and historical price quotes
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Real-time and historical price quotes
   name: Murex Quotes API
   slug: murex-quotes-api
-- description: Position and cash reconciliation operations
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Position and cash reconciliation operations
   name: Murex Reconciliations API
   slug: murex-reconciliations-api
-- description: Market reference and static data
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Market reference and static data
   name: Murex Reference Data API
   slug: murex-reference-data-api
-- description: Regulatory capital and compliance metrics
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Regulatory capital and compliance metrics
   name: Murex Regulatory API
   slug: murex-regulatory-api
-- description: Regulatory trade and transaction reporting
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Regulatory trade and transaction reporting
   name: Murex Regulatory Reporting API
   slug: murex-regulatory-reporting-api
-- description: Greek and sensitivity calculations
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Greek and sensitivity calculations
   name: Murex Sensitivities API
   slug: murex-sensitivities-api
-- description: Settlement instruction management and processing
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Settlement instruction management and processing
   name: Murex Settlements API
   slug: murex-settlements-api
-- description: Stress testing and scenario analysis
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Stress testing and scenario analysis
   name: Murex Stress Testing API
   slug: murex-stress-testing-api
-- description: Trade execution and trade blotter operations
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Trade execution and trade blotter operations
   name: Murex Trades API
   slug: murex-trades-api
-- description: Value at Risk calculations and reports
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Value at Risk calculations and reports
   name: Murex VaR API
   slug: murex-var-api
-- description: Volatility surfaces and skew data
+- baseURL: https://api.murex.com/v1/marketdata
+  baseurl_source: spec
+  description: Volatility surfaces and skew data
   name: Murex Volatility API
   slug: murex-volatility-api
 artifact_total: 63
@@ -334,7 +380,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:

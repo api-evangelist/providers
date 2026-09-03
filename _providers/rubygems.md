@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: The RubyGems Webhooks API enables webhook subscriptions that fire when gems are pushed to RubyGems.org. Webhooks can be scoped to a specific gem or applied globally using a wildcard. Includes test-fir
   name: RubyGems Webhooks API
   slug: webhooks-api
-- description: Endpoints for querying gem dependency information.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: Endpoints for querying gem dependency information.
   name: RubyGems Dependencies API
   slug: rubygems-dependencies-api
-- description: Endpoints for managing gem ownership, including listing owners, adding and removing owners, and listing gems by owner.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: Endpoints for managing gem ownership, including listing owners, adding and removing owners, and listing gems by owner.
   name: RubyGems Owners API
   slug: rubygems-owners-api
-- description: Endpoints for retrieving user profile information from RubyGems.org.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving user profile information from RubyGems.org.
   name: RubyGems Profiles API
   slug: rubygems-profiles-api
-- description: Endpoints for querying detailed version information for specific gem versions, including metadata, dependencies, checksums, and platform-specific builds.
+- baseURL: https://rubygems.org/api/v1
+  baseurl_source: declared
+  description: Endpoints for querying detailed version information for specific gem versions, including metadata, dependencies, checksums, and platform-specific builds.
   name: RubyGems Versions API
   slug: rubygems-versions-api
 artifact_total: 35
@@ -240,7 +248,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -250,7 +258,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 37.6
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -259,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/screenshots/rubygems-2026-06-20T193246.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Public REST API used alongside the Ramp Instant widget. Exposes available on-ramp assets and prices, off-ramp assets and prices, supported fiat currencies, payment methods, payout methods, on-ramp pur
@@ -195,11 +208,11 @@ score:
   band: developing
   composite: 52.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -209,7 +222,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -224,8 +237,9 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ramp-network/refs/heads/main/screenshots/ramp-network-2026-09-02T152834.png
 security:
 - kind: authentication
   name: Ramp Network Authentication

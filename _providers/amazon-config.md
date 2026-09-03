@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -43,280 +43,464 @@ agentic_access:
   summary_line: 92 operations · 92 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.batchgetaggregateresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.batchgetaggregateresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-batchgetaggregateresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.BatchGetResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.batchgetresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.BatchGetResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.batchgetresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.BatchGetResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-batchgetresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteAggregationAuthorization API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteaggregationauthorization.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteAggregationAuthorization API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteaggregationauthorization.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteAggregationAuthorization API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteaggregationauthorization-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteConfigurationAggregator API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigurationaggregator.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteConfigurationAggregator API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigurationaggregator.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteConfigurationAggregator API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteconfigurationaggregator-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigurationrecorder.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconfigurationrecorder.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteConfigurationRecorder API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteconfigurationrecorder-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconformancepack.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteconformancepack.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteConformancePack API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteconformancepack-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteDeliveryChannel API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletedeliverychannel.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteDeliveryChannel API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletedeliverychannel.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteDeliveryChannel API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deletedeliverychannel-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteEvaluationResults API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteevaluationresults.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteEvaluationResults API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteevaluationresults.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteEvaluationResults API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteevaluationresults-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteOrganizationConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteorganizationconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteOrganizationConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteorganizationconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteOrganizationConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteorganizationconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteOrganizationConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteorganizationconformancepack.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteOrganizationConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteorganizationconformancepack.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteOrganizationConformancePack API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteorganizationconformancepack-api
-- description: 'The #X Amz Target=StarlingDoveService.DeletePendingAggregationRequest API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletependingaggregationrequest.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeletePendingAggregationRequest API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletependingaggregationrequest.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeletePendingAggregationRequest API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deletependingaggregationrequest-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteRemediationConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteremediationconfiguration.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteRemediationConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteremediationconfiguration.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteRemediationConfiguration API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteremediationconfiguration-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteremediationexceptions.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteremediationexceptions.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteRemediationExceptions API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteremediationexceptions-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteRetentionConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteretentionconfiguration.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteRetentionConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deleteretentionconfiguration.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteRetentionConfiguration API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deleteretentionconfiguration-api
-- description: 'The #X Amz Target=StarlingDoveService.DeleteStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletestoredquery.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeleteStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deletestoredquery.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeleteStoredQuery API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deletestoredquery-api
-- description: 'The #X Amz Target=StarlingDoveService.DeliverConfigSnapshot API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deliverconfigsnapshot.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DeliverConfigSnapshot API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.deliverconfigsnapshot.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DeliverConfigSnapshot API'
   slug: amazon-config-x-amz-target-starlingdoveservice-deliverconfigsnapshot-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregatecompliancebyconfigrules.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregatecompliancebyconfigrules.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConfigRules API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeaggregatecompliancebyconfigrules-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregatecompliancebyconforman'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregatecompliancebyconforman'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeAggregateComplianceByConformancePacks API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeaggregatecompliancebyconformancepacks-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeAggregationAuthorizations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregationauthorizations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeAggregationAuthorizations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeaggregationauthorizations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeAggregationAuthorizations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeaggregationauthorizations-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeComplianceByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describecompliancebyconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeComplianceByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describecompliancebyconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeComplianceByConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describecompliancebyconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeComplianceByResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describecompliancebyresource.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeComplianceByResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describecompliancebyresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeComplianceByResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describecompliancebyresource-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigRuleEvaluationStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigruleevaluationstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigRuleEvaluationStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigruleevaluationstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigRuleEvaluationStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigruleevaluationstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigrules.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigrules.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigRules API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigrules-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationAggregators API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationaggregators.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationAggregators API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationaggregators.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigurationAggregators API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigurationaggregators-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationAggregatorSourcesStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationaggregatorsourcess'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationAggregatorSourcesStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationaggregatorsourcess'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigurationAggregatorSourcesStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigurationaggregatorsourcesstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationRecorders API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationrecorders.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationRecorders API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationrecorders.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigurationRecorders API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigurationrecorders-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationRecorderStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationrecorderstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConfigurationRecorderStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconfigurationrecorderstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConfigurationRecorderStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconfigurationrecorderstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePackCompliance API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepackcompliance.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePackCompliance API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepackcompliance.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConformancePackCompliance API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconformancepackcompliance-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepacks.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepacks.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConformancePacks API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconformancepacks-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePackStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepackstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeConformancePackStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeconformancepackstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeConformancePackStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeconformancepackstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeDeliveryChannels API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describedeliverychannels.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeDeliveryChannels API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describedeliverychannels.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeDeliveryChannels API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describedeliverychannels-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeDeliveryChannelStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describedeliverychannelstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeDeliveryChannelStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describedeliverychannelstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeDeliveryChannelStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describedeliverychannelstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconfigrules.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRules API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconfigrules.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRules API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeorganizationconfigrules-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRuleStatuses API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconfigrulestatuses.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRuleStatuses API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconfigrulestatuses.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeOrganizationConfigRuleStatuses API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeorganizationconfigrulestatuses-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconformancepacks.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePacks API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconformancepacks.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePacks API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeorganizationconformancepacks-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePackStatuses API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconformancepackstatu'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePackStatuses API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeorganizationconformancepackstatu'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeOrganizationConformancePackStatuses API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeorganizationconformancepackstatuses-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribePendingAggregationRequests API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describependingaggregationrequests.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribePendingAggregationRequests API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describependingaggregationrequests.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribePendingAggregationRequests API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describependingaggregationrequests-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationconfigurations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationconfigurations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeRemediationConfigurations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeremediationconfigurations-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationexceptions.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationexceptions.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeRemediationExceptions API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeremediationexceptions-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationExecutionStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationexecutionstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeRemediationExecutionStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeremediationexecutionstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeRemediationExecutionStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeremediationexecutionstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.DescribeRetentionConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeretentionconfigurations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.DescribeRetentionConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.describeretentionconfigurations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.DescribeRetentionConfigurations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-describeretentionconfigurations-api
-- description: 'The #X Amz Target=StarlingDoveService.GetAggregateComplianceDetailsByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregatecompliancedetailsbyconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetAggregateComplianceDetailsByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregatecompliancedetailsbyconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetAggregateComplianceDetailsByConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getaggregatecompliancedetailsbyconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.GetAggregateConfigRuleComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateconfigrulecompliancesummary.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetAggregateConfigRuleComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateconfigrulecompliancesummary.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetAggregateConfigRuleComplianceSummary API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getaggregateconfigrulecompliancesummary-api
-- description: 'The #X Amz Target=StarlingDoveService.GetAggregateConformancePackComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateconformancepackcompliancesu'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetAggregateConformancePackComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateconformancepackcompliancesu'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetAggregateConformancePackComplianceSummary API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getaggregateconformancepackcompliancesummary-api
-- description: 'The #X Amz Target=StarlingDoveService.GetAggregateDiscoveredResourceCounts API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregatediscoveredresourcecounts.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetAggregateDiscoveredResourceCounts API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregatediscoveredresourcecounts.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetAggregateDiscoveredResourceCounts API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getaggregatediscoveredresourcecounts-api
-- description: 'The #X Amz Target=StarlingDoveService.GetAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getaggregateresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetAggregateResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getaggregateresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.GetComplianceDetailsByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancedetailsbyconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetComplianceDetailsByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancedetailsbyconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetComplianceDetailsByConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getcompliancedetailsbyconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.GetComplianceDetailsByResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancedetailsbyresource.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetComplianceDetailsByResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancedetailsbyresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetComplianceDetailsByResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getcompliancedetailsbyresource-api
-- description: 'The #X Amz Target=StarlingDoveService.GetComplianceSummaryByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancesummarybyconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetComplianceSummaryByConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancesummarybyconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetComplianceSummaryByConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getcompliancesummarybyconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.GetComplianceSummaryByResourceType API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancesummarybyresourcetype.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetComplianceSummaryByResourceType API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcompliancesummarybyresourcetype.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetComplianceSummaryByResourceType API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getcompliancesummarybyresourcetype-api
-- description: 'The #X Amz Target=StarlingDoveService.GetConformancePackComplianceDetails API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getconformancepackcompliancedetails.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetConformancePackComplianceDetails API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getconformancepackcompliancedetails.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetConformancePackComplianceDetails API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getconformancepackcompliancedetails-api
-- description: 'The #X Amz Target=StarlingDoveService.GetConformancePackComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getconformancepackcompliancesummary.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetConformancePackComplianceSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getconformancepackcompliancesummary.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetConformancePackComplianceSummary API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getconformancepackcompliancesummary-api
-- description: 'The #X Amz Target=StarlingDoveService.GetCustomRulePolicy API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcustomrulepolicy.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetCustomRulePolicy API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getcustomrulepolicy.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetCustomRulePolicy API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getcustomrulepolicy-api
-- description: 'The #X Amz Target=StarlingDoveService.GetDiscoveredResourceCounts API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getdiscoveredresourcecounts.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetDiscoveredResourceCounts API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getdiscoveredresourcecounts.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetDiscoveredResourceCounts API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getdiscoveredresourcecounts-api
-- description: 'The #X Amz Target=StarlingDoveService.GetOrganizationConfigRuleDetailedStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationconfigruledetailedstatus.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetOrganizationConfigRuleDetailedStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationconfigruledetailedstatus.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetOrganizationConfigRuleDetailedStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getorganizationconfigruledetailedstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.GetOrganizationConformancePackDetailedStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationconformancepackdetaileds'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetOrganizationConformancePackDetailedStatus API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationconformancepackdetaileds'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetOrganizationConformancePackDetailedStatus API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getorganizationconformancepackdetailedstatus-api
-- description: 'The #X Amz Target=StarlingDoveService.GetOrganizationCustomRulePolicy API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationcustomrulepolicy.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetOrganizationCustomRulePolicy API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getorganizationcustomrulepolicy.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetOrganizationCustomRulePolicy API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getorganizationcustomrulepolicy-api
-- description: 'The #X Amz Target=StarlingDoveService.GetResourceConfigHistory API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getresourceconfighistory.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetResourceConfigHistory API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getresourceconfighistory.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetResourceConfigHistory API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getresourceconfighistory-api
-- description: 'The #X Amz Target=StarlingDoveService.GetResourceEvaluationSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getresourceevaluationsummary.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetResourceEvaluationSummary API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getresourceevaluationsummary.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetResourceEvaluationSummary API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getresourceevaluationsummary-api
-- description: 'The #X Amz Target=StarlingDoveService.GetStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getstoredquery.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.GetStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.getstoredquery.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.GetStoredQuery API'
   slug: amazon-config-x-amz-target-starlingdoveservice-getstoredquery-api
-- description: 'The #X Amz Target=StarlingDoveService.ListAggregateDiscoveredResources API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listaggregatediscoveredresources.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListAggregateDiscoveredResources API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listaggregatediscoveredresources.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListAggregateDiscoveredResources API'
   slug: amazon-config-x-amz-target-starlingdoveservice-listaggregatediscoveredresources-api
-- description: 'The #X Amz Target=StarlingDoveService.ListConformancePackComplianceScores API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listconformancepackcompliancescores.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListConformancePackComplianceScores API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listconformancepackcompliancescores.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListConformancePackComplianceScores API'
   slug: amazon-config-x-amz-target-starlingdoveservice-listconformancepackcompliancescores-api
-- description: 'The #X Amz Target=StarlingDoveService.ListDiscoveredResources API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listdiscoveredresources.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListDiscoveredResources API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listdiscoveredresources.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListDiscoveredResources API'
   slug: amazon-config-x-amz-target-starlingdoveservice-listdiscoveredresources-api
-- description: 'The #X Amz Target=StarlingDoveService.ListResourceEvaluations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listresourceevaluations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListResourceEvaluations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listresourceevaluations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListResourceEvaluations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-listresourceevaluations-api
-- description: 'The #X Amz Target=StarlingDoveService.ListStoredQueries API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.liststoredqueries.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListStoredQueries API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.liststoredqueries.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListStoredQueries API'
   slug: amazon-config-x-amz-target-starlingdoveservice-liststoredqueries-api
-- description: 'The #X Amz Target=StarlingDoveService.ListTagsForResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listtagsforresource.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.ListTagsForResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.listtagsforresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.ListTagsForResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-listtagsforresource-api
-- description: 'The #X Amz Target=StarlingDoveService.PutAggregationAuthorization API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putaggregationauthorization.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutAggregationAuthorization API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putaggregationauthorization.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutAggregationAuthorization API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putaggregationauthorization-api
-- description: 'The #X Amz Target=StarlingDoveService.PutConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.PutConfigurationAggregator API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigurationaggregator.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutConfigurationAggregator API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigurationaggregator.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutConfigurationAggregator API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putconfigurationaggregator-api
-- description: 'The #X Amz Target=StarlingDoveService.PutConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigurationrecorder.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconfigurationrecorder.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutConfigurationRecorder API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putconfigurationrecorder-api
-- description: 'The #X Amz Target=StarlingDoveService.PutConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconformancepack.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putconformancepack.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutConformancePack API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putconformancepack-api
-- description: 'The #X Amz Target=StarlingDoveService.PutDeliveryChannel API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putdeliverychannel.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutDeliveryChannel API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putdeliverychannel.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutDeliveryChannel API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putdeliverychannel-api
-- description: 'The #X Amz Target=StarlingDoveService.PutEvaluations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putevaluations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutEvaluations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putevaluations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutEvaluations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putevaluations-api
-- description: 'The #X Amz Target=StarlingDoveService.PutExternalEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putexternalevaluation.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutExternalEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putexternalevaluation.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutExternalEvaluation API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putexternalevaluation-api
-- description: 'The #X Amz Target=StarlingDoveService.PutOrganizationConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putorganizationconfigrule.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutOrganizationConfigRule API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putorganizationconfigrule.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutOrganizationConfigRule API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putorganizationconfigrule-api
-- description: 'The #X Amz Target=StarlingDoveService.PutOrganizationConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putorganizationconformancepack.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutOrganizationConformancePack API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putorganizationconformancepack.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutOrganizationConformancePack API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putorganizationconformancepack-api
-- description: 'The #X Amz Target=StarlingDoveService.PutRemediationConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putremediationconfigurations.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutRemediationConfigurations API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putremediationconfigurations.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutRemediationConfigurations API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putremediationconfigurations-api
-- description: 'The #X Amz Target=StarlingDoveService.PutRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putremediationexceptions.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutRemediationExceptions API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putremediationexceptions.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutRemediationExceptions API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putremediationexceptions-api
-- description: 'The #X Amz Target=StarlingDoveService.PutResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.PutRetentionConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putretentionconfiguration.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutRetentionConfiguration API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putretentionconfiguration.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutRetentionConfiguration API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putretentionconfiguration-api
-- description: 'The #X Amz Target=StarlingDoveService.PutStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putstoredquery.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.PutStoredQuery API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.putstoredquery.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.PutStoredQuery API'
   slug: amazon-config-x-amz-target-starlingdoveservice-putstoredquery-api
-- description: 'The #X Amz Target=StarlingDoveService.SelectAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.selectaggregateresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.SelectAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.selectaggregateresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.SelectAggregateResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-selectaggregateresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.SelectResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.selectresourceconfig.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.SelectResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.selectresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.SelectResourceConfig API'
   slug: amazon-config-x-amz-target-starlingdoveservice-selectresourceconfig-api
-- description: 'The #X Amz Target=StarlingDoveService.StartConfigRulesEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startconfigrulesevaluation.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.StartConfigRulesEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startconfigrulesevaluation.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.StartConfigRulesEvaluation API'
   slug: amazon-config-x-amz-target-starlingdoveservice-startconfigrulesevaluation-api
-- description: 'The #X Amz Target=StarlingDoveService.StartConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startconfigurationrecorder.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.StartConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startconfigurationrecorder.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.StartConfigurationRecorder API'
   slug: amazon-config-x-amz-target-starlingdoveservice-startconfigurationrecorder-api
-- description: 'The #X Amz Target=StarlingDoveService.StartRemediationExecution API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startremediationexecution.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.StartRemediationExecution API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startremediationexecution.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.StartRemediationExecution API'
   slug: amazon-config-x-amz-target-starlingdoveservice-startremediationexecution-api
-- description: 'The #X Amz Target=StarlingDoveService.StartResourceEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startresourceevaluation.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.StartResourceEvaluation API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.startresourceevaluation.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.StartResourceEvaluation API'
   slug: amazon-config-x-amz-target-starlingdoveservice-startresourceevaluation-api
-- description: 'The #X Amz Target=StarlingDoveService.StopConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.stopconfigurationrecorder.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.StopConfigurationRecorder API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.stopconfigurationrecorder.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.StopConfigurationRecorder API'
   slug: amazon-config-x-amz-target-starlingdoveservice-stopconfigurationrecorder-api
-- description: 'The #X Amz Target=StarlingDoveService.TagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.tagresource.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.TagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.tagresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.TagResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-tagresource-api
-- description: 'The #X Amz Target=StarlingDoveService.UntagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.untagresource.'
+- baseURL: https://config.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StarlingDoveService.UntagResource API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.untagresource.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.UntagResource API'
   slug: amazon-config-x-amz-target-starlingdoveservice-untagresource-api
 artifact_total: 1436
@@ -4499,7 +4683,7 @@ score:
       total: 92
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:

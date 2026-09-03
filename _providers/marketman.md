@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 24 operations · 24 acting
 api_count: 1
 apis:
-- description: Authorised buyer accounts and connected POS systems.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Authorised buyer accounts and connected POS systems.
   name: MarketMan Accounts API
   slug: marketman-accounts-api
-- description: Token acquisition and token status.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Token acquisition and token status.
   name: MarketMan Authentication API
   slug: marketman-authentication-api
-- description: Vendor delivery notes and document submission.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Vendor delivery notes and document submission.
   name: MarketMan Deliveries API
   slug: marketman-deliveries-api
-- description: Invoices and accounting documents.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Invoices and accounting documents.
   name: MarketMan Docs API
   slug: marketman-docs-api
-- description: Inventory items, counts, transfers, waste, and UOM types.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Inventory items, counts, transfers, waste, and UOM types.
   name: MarketMan Inventory API
   slug: marketman-inventory-api
-- description: Vendors connected to a buyer account.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Vendors connected to a buyer account.
   name: MarketMan Items API
   slug: marketman-items-api
-- description: Purchase orders and vendor catalog items.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Purchase orders and vendor catalog items.
   name: MarketMan Orders API
   slug: marketman-orders-api
-- description: Menu items, availability, and menu profitability.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Menu items, availability, and menu profitability.
   name: MarketMan Recipes API
   slug: marketman-recipes-api
-- description: Webhook subscriptions for order and account events.
+- baseURL: https://api.marketman.com/v3
+  baseurl_source: declared
+  description: Webhook subscriptions for order and account events.
   name: MarketMan Webhooks API
   slug: marketman-webhooks-api
 artifact_total: 26
@@ -203,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/screenshots/marketman-2026-07-25T230236.png
 security:

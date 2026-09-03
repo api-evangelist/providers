@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: API for managed systems to interact with JumpCloud on their own behalf using HTTP Signatures authentication. Used for system-initiated actions such as user provisioning and event reporting.
   name: JumpCloud System Context API
   slug: system-context-api
-- description: SSO/SAML application templates available for use.
+- baseURL: https://console.jumpcloud.com/api
+  baseurl_source: declared
+  description: SSO/SAML application templates available for use.
   name: JumpCloud Application Templates API
   slug: jumpcloud-application-templates-api
-- description: SSO/SAML applications configured in the organization.
+- baseURL: https://console.jumpcloud.com/api
+  baseurl_source: declared
+  description: SSO/SAML applications configured in the organization.
   name: JumpCloud Applications API
   slug: jumpcloud-applications-api
-- description: Execution results produced by commands run against systems.
+- baseURL: https://console.jumpcloud.com/api
+  baseurl_source: declared
+  description: Execution results produced by commands run against systems.
   name: JumpCloud Command Results API
   slug: jumpcloud-command-results-api
-- description: Commands that can be executed across managed systems.
+- baseURL: https://console.jumpcloud.com/api
+  baseurl_source: declared
+  description: Commands that can be executed across managed systems.
   name: JumpCloud Commands API
   slug: jumpcloud-commands-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/screenshots/jumpcloud-2026-06-20T183831.png
 security:

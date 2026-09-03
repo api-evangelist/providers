@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 27 operations · 5 acting
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: EnergyAustralia Data Holder Customers API
   slug: energyaustralia-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: EnergyAustralia Data Holder Operations API
   slug: energyaustralia-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: EnergyAustralia Distributed Energy Resources API
   slug: energyaustralia-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: EnergyAustralia Electricity Service Points API
   slug: energyaustralia-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: EnergyAustralia Electricity Usage API
   slug: energyaustralia-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: EnergyAustralia Energy Account Balances API
   slug: energyaustralia-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: EnergyAustralia Energy Account Billing API
   slug: energyaustralia-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: EnergyAustralia Energy Accounts API
   slug: energyaustralia-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/energyaustralia/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: EnergyAustralia Energy Plans API
   slug: energyaustralia-energy-plans-api
 artifact_total: 15
@@ -269,7 +287,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png
 security:

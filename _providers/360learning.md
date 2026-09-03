@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 164 operations · 104 acting · 104 human-in-the-loop
 api_count: 5
 apis:
-- description: The Authentication API from 360Learning — 3 operation(s) for authentication.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Authentication API from 360Learning — 3 operation(s) for authentication.
   name: 360Learning Authentication API
   slug: 360learning-authentication-api
-- description: The Certificate Outlines API from 360Learning — 2 operation(s) for certificate outlines.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Certificate Outlines API from 360Learning — 2 operation(s) for certificate outlines.
   name: 360Learning Certificate Outlines API
   slug: 360learning-certificate-outlines-api
-- description: The Classrooms API from 360Learning — 13 operation(s) for classrooms.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Classrooms API from 360Learning — 13 operation(s) for classrooms.
   name: 360Learning Classrooms API
   slug: 360learning-classrooms-api
-- description: The Courses API from 360Learning — 9 operation(s) for courses.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Courses API from 360Learning — 9 operation(s) for courses.
   name: 360Learning Courses API
   slug: 360learning-courses-api
-- description: The Custom Fields API from 360Learning — 3 operation(s) for custom fields.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Custom Fields API from 360Learning — 3 operation(s) for custom fields.
   name: 360Learning Custom Fields API
   slug: 360learning-custom-fields-api
-- description: The Custom Links API from 360Learning — 2 operation(s) for custom links.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Custom Links API from 360Learning — 2 operation(s) for custom links.
   name: 360Learning Custom Links API
   slug: 360learning-custom-links-api
-- description: The External IDs API from 360Learning — 2 operation(s) for external ids.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The External IDs API from 360Learning — 2 operation(s) for external ids.
   name: 360Learning External IDs API
   slug: 360learning-external-ids-api
-- description: The Groups API from 360Learning — 12 operation(s) for groups.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Groups API from 360Learning — 12 operation(s) for groups.
   name: 360Learning Groups API
   slug: 360learning-groups-api
-- description: The Integrations API from 360Learning — 5 operation(s) for integrations.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Integrations API from 360Learning — 5 operation(s) for integrations.
   name: 360Learning Integrations API
   slug: 360learning-integrations-api
-- description: The Learning Needs API from 360Learning — 1 operation(s) for learning needs.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Learning Needs API from 360Learning — 1 operation(s) for learning needs.
   name: 360Learning Learning Needs API
   slug: 360learning-learning-needs-api
-- description: The Operations API from 360Learning — 3 operation(s) for operations.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Operations API from 360Learning — 3 operation(s) for operations.
   name: 360Learning Operations API
   slug: 360learning-operations-api
-- description: The Paths API from 360Learning — 18 operation(s) for paths.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Paths API from 360Learning — 18 operation(s) for paths.
   name: 360Learning Paths API
   slug: 360learning-paths-api
-- description: The Projects API from 360Learning — 1 operation(s) for projects.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Projects API from 360Learning — 1 operation(s) for projects.
   name: 360Learning Projects API
   slug: 360learning-projects-api
-- description: The Skills API from 360Learning — 9 operation(s) for skills.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Skills API from 360Learning — 9 operation(s) for skills.
   name: 360Learning Skills API
   slug: 360learning-skills-api
-- description: The Subscriptions API from 360Learning — 8 operation(s) for subscriptions.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Subscriptions API from 360Learning — 8 operation(s) for subscriptions.
   name: 360Learning Subscriptions API
   slug: 360learning-subscriptions-api
-- description: The Tags API from 360Learning — 2 operation(s) for tags.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Tags API from 360Learning — 2 operation(s) for tags.
   name: 360Learning Tags API
   slug: 360learning-tags-api
-- description: The Users API from 360Learning — 17 operation(s) for users.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Users API from 360Learning — 17 operation(s) for users.
   name: 360Learning Users API
   slug: 360learning-users-api
-- description: The Bulk API from 360Learning — 0 operation(s) for bulk.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Bulk API from 360Learning — 0 operation(s) for bulk.
   name: 360Learning Bulk API
   slug: 360learning-bulk-api
-- description: The Course API from 360Learning — 0 operation(s) for course.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Course API from 360Learning — 0 operation(s) for course.
   name: 360Learning Course API
   slug: 360learning-course-api
-- description: The Group API from 360Learning — 0 operation(s) for group.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Group API from 360Learning — 0 operation(s) for group.
   name: 360Learning Group API
   slug: 360learning-group-api
-- description: The Path API from 360Learning — 0 operation(s) for path.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Path API from 360Learning — 0 operation(s) for path.
   name: 360Learning Path API
   slug: 360learning-path-api
-- description: The User API from 360Learning — 0 operation(s) for user.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The User API from 360Learning — 0 operation(s) for user.
   name: 360Learning User API
   slug: 360learning-user-api
-- description: The Xapi API from 360Learning — 0 operation(s) for xapi.
+- baseURL: https://app.360learning.com/api/v2
+  baseurl_source: declared
+  description: The Xapi API from 360Learning — 0 operation(s) for xapi.
   name: 360Learning Xapi API
   slug: 360learning-xapi-api
 artifact_total: 48
@@ -342,7 +388,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -352,7 +398,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 51.8
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -374,7 +420,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:

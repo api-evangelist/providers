@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
@@ -43,124 +43,204 @@ apis:
 - description: The Envoyer REST API for zero-downtime PHP deployments. Create and manage projects, servers, environments, deployment hooks, deployments, collaborators and notifications. Bearer API key authentication
   name: Envoyer API
   slug: envoyer-api
-- description: The Applications API from Laravel — 3 operation(s) for applications.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Applications API from Laravel — 3 operation(s) for applications.
   name: Laravel Applications API
   slug: laravel-applications-api
-- description: The Background Processes API from Laravel — 5 operation(s) for background processes.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Background Processes API from Laravel — 5 operation(s) for background processes.
   name: Laravel Background Processes API
   slug: laravel-background-processes-api
-- description: The Backups API from Laravel — 5 operation(s) for backups.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Backups API from Laravel — 5 operation(s) for backups.
   name: Laravel Backups API
   slug: laravel-backups-api
-- description: The Bucket Keys API from Laravel — 2 operation(s) for bucket keys.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Bucket Keys API from Laravel — 2 operation(s) for bucket keys.
   name: Laravel Bucket Keys API
   slug: laravel-bucket-keys-api
-- description: The Caches API from Laravel — 4 operation(s) for caches.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Caches API from Laravel — 4 operation(s) for caches.
   name: Laravel Caches API
   slug: laravel-caches-api
-- description: The Commands API from Laravel — 5 operation(s) for commands.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Commands API from Laravel — 5 operation(s) for commands.
   name: Laravel Commands API
   slug: laravel-commands-api
-- description: The Database Clusters API from Laravel — 4 operation(s) for database clusters.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Database Clusters API from Laravel — 4 operation(s) for database clusters.
   name: Laravel Database Clusters API
   slug: laravel-database-clusters-api
-- description: The Database Restores API from Laravel — 1 operation(s) for database restores.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Database Restores API from Laravel — 1 operation(s) for database restores.
   name: Laravel Database Restores API
   slug: laravel-database-restores-api
-- description: The Database Snapshots API from Laravel — 2 operation(s) for database snapshots.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Database Snapshots API from Laravel — 2 operation(s) for database snapshots.
   name: Laravel Database Snapshots API
   slug: laravel-database-snapshots-api
-- description: The Databases API from Laravel — 8 operation(s) for databases.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Databases API from Laravel — 8 operation(s) for databases.
   name: Laravel Databases API
   slug: laravel-databases-api
-- description: The Databases (Legacy) API from Laravel — 2 operation(s) for databases (legacy).
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Databases (Legacy) API from Laravel — 2 operation(s) for databases (legacy).
   name: Laravel Databases (Legacy) API
   slug: laravel-databases-legacy-api
-- description: The Dedicated Clusters API from Laravel — 1 operation(s) for dedicated clusters.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Dedicated Clusters API from Laravel — 1 operation(s) for dedicated clusters.
   name: Laravel Dedicated Clusters API
   slug: laravel-dedicated-clusters-api
-- description: The Deployments API from Laravel — 13 operation(s) for deployments.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Deployments API from Laravel — 13 operation(s) for deployments.
   name: Laravel Deployments API
   slug: laravel-deployments-api
-- description: The Domains API from Laravel — 3 operation(s) for domains.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Domains API from Laravel — 3 operation(s) for domains.
   name: Laravel Domains API
   slug: laravel-domains-api
-- description: The Environments API from Laravel — 9 operation(s) for environments.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Environments API from Laravel — 9 operation(s) for environments.
   name: Laravel Environments API
   slug: laravel-environments-api
-- description: The Firewall Rules API from Laravel — 2 operation(s) for firewall rules.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Firewall Rules API from Laravel — 2 operation(s) for firewall rules.
   name: Laravel Firewall Rules API
   slug: laravel-firewall-rules-api
-- description: The Instances API from Laravel — 10 operation(s) for instances.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Instances API from Laravel — 10 operation(s) for instances.
   name: Laravel Instances API
   slug: laravel-instances-api
-- description: The Integrations API from Laravel — 7 operation(s) for integrations.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Integrations API from Laravel — 7 operation(s) for integrations.
   name: Laravel Integrations API
   slug: laravel-integrations-api
-- description: The Logs API from Laravel — 1 operation(s) for logs.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Logs API from Laravel — 1 operation(s) for logs.
   name: Laravel Logs API
   slug: laravel-logs-api
-- description: The Meta API from Laravel — 2 operation(s) for meta.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Meta API from Laravel — 2 operation(s) for meta.
   name: Laravel Meta API
   slug: laravel-meta-api
-- description: The Monitors API from Laravel — 2 operation(s) for monitors.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Monitors API from Laravel — 2 operation(s) for monitors.
   name: Laravel Monitors API
   slug: laravel-monitors-api
-- description: The Nginx API from Laravel — 2 operation(s) for nginx.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Nginx API from Laravel — 2 operation(s) for nginx.
   name: Laravel Nginx API
   slug: laravel-nginx-api
-- description: The Object Storage Buckets API from Laravel — 2 operation(s) for object storage buckets.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Object Storage Buckets API from Laravel — 2 operation(s) for object storage buckets.
   name: Laravel Object Storage Buckets API
   slug: laravel-object-storage-buckets-api
-- description: The Organizations API from Laravel — 6 operation(s) for organizations.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Organizations API from Laravel — 6 operation(s) for organizations.
   name: Laravel Organizations API
   slug: laravel-organizations-api
-- description: The Providers API from Laravel — 8 operation(s) for providers.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Providers API from Laravel — 8 operation(s) for providers.
   name: Laravel Providers API
   slug: laravel-providers-api
-- description: The Recipes API from Laravel — 9 operation(s) for recipes.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Recipes API from Laravel — 9 operation(s) for recipes.
   name: Laravel Recipes API
   slug: laravel-recipes-api
-- description: The Redirect Rules API from Laravel — 2 operation(s) for redirect rules.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Redirect Rules API from Laravel — 2 operation(s) for redirect rules.
   name: Laravel Redirect Rules API
   slug: laravel-redirect-rules-api
-- description: The Roles API from Laravel — 7 operation(s) for roles.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Roles API from Laravel — 7 operation(s) for roles.
   name: Laravel Roles API
   slug: laravel-roles-api
-- description: The Scheduled Jobs API from Laravel — 6 operation(s) for scheduled jobs.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Scheduled Jobs API from Laravel — 6 operation(s) for scheduled jobs.
   name: Laravel Scheduled Jobs API
   slug: laravel-scheduled-jobs-api
-- description: The Security Rules API from Laravel — 2 operation(s) for security rules.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Security Rules API from Laravel — 2 operation(s) for security rules.
   name: Laravel Security Rules API
   slug: laravel-security-rules-api
-- description: The Server Credentials API from Laravel — 2 operation(s) for server credentials.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Server Credentials API from Laravel — 2 operation(s) for server credentials.
   name: Laravel Server Credentials API
   slug: laravel-server-credentials-api
-- description: The Servers API from Laravel — 28 operation(s) for servers.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Servers API from Laravel — 28 operation(s) for servers.
   name: Laravel Servers API
   slug: laravel-servers-api
-- description: The Sites API from Laravel — 30 operation(s) for sites.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Sites API from Laravel — 30 operation(s) for sites.
   name: Laravel Sites API
   slug: laravel-sites-api
-- description: The SSH Keys API from Laravel — 3 operation(s) for ssh keys.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The SSH Keys API from Laravel — 3 operation(s) for ssh keys.
   name: Laravel SSH Keys API
   slug: laravel-ssh-keys-api
-- description: The Storage Providers API from Laravel — 2 operation(s) for storage providers.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Storage Providers API from Laravel — 2 operation(s) for storage providers.
   name: Laravel Storage Providers API
   slug: laravel-storage-providers-api
-- description: The Teams API from Laravel — 6 operation(s) for teams.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Teams API from Laravel — 6 operation(s) for teams.
   name: Laravel Teams API
   slug: laravel-teams-api
-- description: The Usage API from Laravel — 1 operation(s) for usage.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The Usage API from Laravel — 1 operation(s) for usage.
   name: Laravel Usage API
   slug: laravel-usage-api
-- description: The User API from Laravel — 2 operation(s) for user.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The User API from Laravel — 2 operation(s) for user.
   name: Laravel User API
   slug: laravel-user-api
-- description: The WebSocket Applications API from Laravel — 3 operation(s) for websocket applications.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The WebSocket Applications API from Laravel — 3 operation(s) for websocket applications.
   name: Laravel WebSocket Applications API
   slug: laravel-websocket-applications-api
-- description: The WebSocket Clusters API from Laravel — 3 operation(s) for websocket clusters.
+- baseURL: https://forge.laravel.com/api
+  baseurl_source: declared
+  description: The WebSocket Clusters API from Laravel — 3 operation(s) for websocket clusters.
   name: Laravel WebSocket Clusters API
   slug: laravel-websocket-clusters-api
 artifact_total: 130
@@ -614,7 +694,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -624,7 +704,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 59.3
+  previous_composite: 59.1
   provenance:
     conformance: derived
     contracts:
@@ -635,7 +715,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

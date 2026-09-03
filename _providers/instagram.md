@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,25 +51,39 @@ apis:
 - description: The Instagram oEmbed endpoint returns HTML and metadata for embedding Instagram photos, videos, reels, and carousels on third-party websites using the standard oEmbed protocol.
   name: Instagram oEmbed API
   slug: instagram-oembed-api
-- description: Comment management and moderation
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Comment management and moderation
   name: Instagram Comments API
   slug: instagram-comments-api
-- description: Hashtag search and media discovery
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: Hashtag search and media discovery
   name: Instagram Hashtags API
   slug: instagram-hashtags-api
-- description: Account and media level analytics
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Account and media level analytics
   name: Instagram Insights API
   slug: instagram-insights-api
-- description: Photos, videos, stories, reels, and carousels
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Photos, videos, stories, reels, and carousels
   name: Instagram Media API
   slug: instagram-media-api
-- description: Content where account was mentioned
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Content where account was mentioned
   name: Instagram Mentions API
   slug: instagram-mentions-api
-- description: Content creation and publishing workflow
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Content creation and publishing workflow
   name: Instagram Publishing API
   slug: instagram-publishing-api
-- description: Instagram Business and Creator account profiles
+- baseURL: https://graph.instagram.com
+  baseurl_source: declared
+  description: Instagram Business and Creator account profiles
   name: Instagram Users API
   slug: instagram-users-api
 artifact_total: 97
@@ -540,7 +554,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -550,7 +564,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 76.3
-  previous_composite: 61.9
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -562,7 +576,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
 security:

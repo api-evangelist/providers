@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -34,91 +47,149 @@ agentic_access:
   summary_line: 121 operations · 48 acting
 api_count: 4
 apis:
-- description: The Appointments API from Alto (Vebra / Zoopla) — 7 operation(s) for appointments.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Appointments API from Alto (Vebra / Zoopla) — 7 operation(s) for appointments.
   name: Alto (Vebra / Zoopla) Appointments API
   slug: alto-vebra-appointments-api
-- description: The Appraisals API from Alto (Vebra / Zoopla) — 2 operation(s) for appraisals.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Appraisals API from Alto (Vebra / Zoopla) — 2 operation(s) for appraisals.
   name: Alto (Vebra / Zoopla) Appraisals API
   slug: alto-vebra-appraisals-api
-- description: The Branches API from Alto (Vebra / Zoopla) — 2 operation(s) for branches.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Branches API from Alto (Vebra / Zoopla) — 2 operation(s) for branches.
   name: Alto (Vebra / Zoopla) Branches API
   slug: alto-vebra-branches-api
-- description: The Charges API from Alto (Vebra / Zoopla) — 2 operation(s) for charges.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Charges API from Alto (Vebra / Zoopla) — 2 operation(s) for charges.
   name: Alto (Vebra / Zoopla) Charges API
   slug: alto-vebra-charges-api
-- description: The Clients API from Alto (Vebra / Zoopla) — 1 operation(s) for clients.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Clients API from Alto (Vebra / Zoopla) — 1 operation(s) for clients.
   name: Alto (Vebra / Zoopla) Clients API
   slug: alto-vebra-clients-api
-- description: The Contacts API from Alto (Vebra / Zoopla) — 13 operation(s) for contacts.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Contacts API from Alto (Vebra / Zoopla) — 13 operation(s) for contacts.
   name: Alto (Vebra / Zoopla) Contacts API
   slug: alto-vebra-contacts-api
-- description: The Documents API from Alto (Vebra / Zoopla) — 5 operation(s) for documents.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Documents API from Alto (Vebra / Zoopla) — 5 operation(s) for documents.
   name: Alto (Vebra / Zoopla) Documents API
   slug: alto-vebra-documents-api
-- description: The FileNotes API from Alto (Vebra / Zoopla) — 4 operation(s) for filenotes.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The FileNotes API from Alto (Vebra / Zoopla) — 4 operation(s) for filenotes.
   name: Alto (Vebra / Zoopla) File Notes API
   slug: alto-vebra-filenotes-api
-- description: The Inventory API from Alto (Vebra / Zoopla) — 10 operation(s) for inventory.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Inventory API from Alto (Vebra / Zoopla) — 10 operation(s) for inventory.
   name: Alto (Vebra / Zoopla) Inventory API
   slug: alto-vebra-inventory-api
-- description: The Landlords API from Alto (Vebra / Zoopla) — 2 operation(s) for landlords.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Landlords API from Alto (Vebra / Zoopla) — 2 operation(s) for landlords.
   name: Alto (Vebra / Zoopla) Landlords API
   slug: alto-vebra-landlords-api
-- description: The Leads API from Alto (Vebra / Zoopla) — 2 operation(s) for leads.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Leads API from Alto (Vebra / Zoopla) — 2 operation(s) for leads.
   name: Alto (Vebra / Zoopla) Leads API
   slug: alto-vebra-leads-api
-- description: The LettingsProgression API from Alto (Vebra / Zoopla) — 1 operation(s) for lettingsprogression.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The LettingsProgression API from Alto (Vebra / Zoopla) — 1 operation(s) for lettingsprogression.
   name: Alto (Vebra / Zoopla) Lettings Progression API
   slug: alto-vebra-lettingsprogression-api
-- description: The Listing API from Alto (Vebra / Zoopla) — 7 operation(s) for listing.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Listing API from Alto (Vebra / Zoopla) — 7 operation(s) for listing.
   name: Alto (Vebra / Zoopla) Listing API
   slug: alto-vebra-listing-api
-- description: The ManagementEvents API from Alto (Vebra / Zoopla) — 3 operation(s) for managementevents.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The ManagementEvents API from Alto (Vebra / Zoopla) — 3 operation(s) for managementevents.
   name: Alto (Vebra / Zoopla) Management Events API
   slug: alto-vebra-managementevents-api
-- description: The Media API from Alto (Vebra / Zoopla) — 3 operation(s) for media.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Media API from Alto (Vebra / Zoopla) — 3 operation(s) for media.
   name: Alto (Vebra / Zoopla) Media API
   slug: alto-vebra-media-api
-- description: The Negotiators API from Alto (Vebra / Zoopla) — 2 operation(s) for negotiators.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Negotiators API from Alto (Vebra / Zoopla) — 2 operation(s) for negotiators.
   name: Alto (Vebra / Zoopla) Negotiators API
   slug: alto-vebra-negotiators-api
-- description: The Offers API from Alto (Vebra / Zoopla) — 1 operation(s) for offers.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Offers API from Alto (Vebra / Zoopla) — 1 operation(s) for offers.
   name: Alto (Vebra / Zoopla) Offers API
   slug: alto-vebra-offers-api
-- description: The Owners API from Alto (Vebra / Zoopla) — 1 operation(s) for owners.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Owners API from Alto (Vebra / Zoopla) — 1 operation(s) for owners.
   name: Alto (Vebra / Zoopla) Owners API
   slug: alto-vebra-owners-api
-- description: The Parameters API from Alto (Vebra / Zoopla) — 6 operation(s) for parameters.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Parameters API from Alto (Vebra / Zoopla) — 6 operation(s) for parameters.
   name: Alto (Vebra / Zoopla) Parameters API
   slug: alto-vebra-parameters-api
-- description: The Partners API from Alto (Vebra / Zoopla) — 3 operation(s) for partners.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Partners API from Alto (Vebra / Zoopla) — 3 operation(s) for partners.
   name: Alto (Vebra / Zoopla) Partners API
   slug: alto-vebra-partners-api
-- description: The Products API from Alto (Vebra / Zoopla) — 4 operation(s) for products.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Products API from Alto (Vebra / Zoopla) — 4 operation(s) for products.
   name: Alto (Vebra / Zoopla) Products API
   slug: alto-vebra-products-api
-- description: The ReferenceChecks API from Alto (Vebra / Zoopla) — 2 operation(s) for referencechecks.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The ReferenceChecks API from Alto (Vebra / Zoopla) — 2 operation(s) for referencechecks.
   name: Alto (Vebra / Zoopla) Reference Checks API
   slug: alto-vebra-referencechecks-api
-- description: The Referral API from Alto (Vebra / Zoopla) — 1 operation(s) for referral.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Referral API from Alto (Vebra / Zoopla) — 1 operation(s) for referral.
   name: Alto (Vebra / Zoopla) Referral API
   slug: alto-vebra-referral-api
-- description: The Referrals API from Alto (Vebra / Zoopla) — 1 operation(s) for referrals.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Referrals API from Alto (Vebra / Zoopla) — 1 operation(s) for referrals.
   name: Alto (Vebra / Zoopla) Referrals API
   slug: alto-vebra-referrals-api
-- description: The REST Endpoints API from Alto (Vebra / Zoopla) — 2 operation(s) for rest endpoints.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The REST Endpoints API from Alto (Vebra / Zoopla) — 2 operation(s) for rest endpoints.
   name: Alto (Vebra / Zoopla) REST Endpoints API
   slug: alto-vebra-rest-endpoints-api
-- description: The SalesProgression API from Alto (Vebra / Zoopla) — 2 operation(s) for salesprogression.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The SalesProgression API from Alto (Vebra / Zoopla) — 2 operation(s) for salesprogression.
   name: Alto (Vebra / Zoopla) Sales Progression API
   slug: alto-vebra-salesprogression-api
-- description: The Suppliers API from Alto (Vebra / Zoopla) — 3 operation(s) for suppliers.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Suppliers API from Alto (Vebra / Zoopla) — 3 operation(s) for suppliers.
   name: Alto (Vebra / Zoopla) Suppliers API
   slug: alto-vebra-suppliers-api
-- description: The Tenancies API from Alto (Vebra / Zoopla) — 6 operation(s) for tenancies.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The Tenancies API from Alto (Vebra / Zoopla) — 6 operation(s) for tenancies.
   name: Alto (Vebra / Zoopla) Tenancies API
   slug: alto-vebra-tenancies-api
-- description: The WorkOrders API from Alto (Vebra / Zoopla) — 3 operation(s) for workorders.
+- baseURL: https://api.alto.zoopla.co.uk
+  baseurl_source: declared
+  description: The WorkOrders API from Alto (Vebra / Zoopla) — 3 operation(s) for workorders.
   name: Alto (Vebra / Zoopla) Work Orders API
   slug: alto-vebra-workorders-api
 artifact_total: 41
@@ -368,7 +439,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -378,7 +449,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -390,7 +461,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:

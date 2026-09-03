@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Semiconductors operations
+- baseURL: https://developer.qualcomm.com/api
+  baseurl_source: declared
+  description: Semiconductors operations
   name: qualcomm Semiconductors API
   slug: qualcomm-semiconductors-api
 artifact_total: 12
@@ -99,13 +101,13 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qualcomm.png
 layout: provider
 modified: '2026-05-19'
-name: qualcomm
+name: Qualcomm
 nav: Providers
 network: true
-overview: 'qualcomm publishes 1 API on the [APIs.io](https://apis.io/) network: Semiconductors API. Tagged areas include Fortune 500.
+overview: 'Qualcomm publishes 1 API on the [APIs.io](https://apis.io/) network: Semiconductors API. Tagged areas include Fortune 500.
 
 
-  qualcomm''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Qualcomm''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
 plans:
 - name: Qualcomm Plans Pricing
   plan_count: 1
@@ -158,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png
 security:

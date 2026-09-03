@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Emissary-Ingress supports a subset of the Kubernetes Gateway API standard, including GatewayClass, Gateway, and HTTPRoute resources. This enables teams to use the next-generation Kubernetes ingress st
   name: Emissary-Ingress Gateway API
   slug: emissary-ingress-gateway-api
-- description: Operations for managing AuthService custom resources that configure external authentication and authorization services. Emissary-Ingress will call the configured auth service before forwarding request
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing AuthService custom resources that configure external authentication and authorization services. Emissary-Ingress will call the configured auth service before forwarding request
   name: Emissary-Ingress AuthService API
   slug: emissary-ingress-authservice-api
-- description: Operations for managing Host custom resources that configure domain names, TLS certificate management via ACME/Let's Encrypt, and TLS termination for ingress traffic. A Host binds a hostname to TLS co
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing Host custom resources that configure domain names, TLS certificate management via ACME/Let's Encrypt, and TLS termination for ingress traffic. A Host binds a hostname to TLS co
   name: Emissary-Ingress Host API
   slug: emissary-ingress-host-api
-- description: Operations for managing Mapping custom resources that define routing rules for inbound HTTP/HTTPS traffic. A Mapping connects a URL path or prefix to a backend Kubernetes service with support for head
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing Mapping custom resources that define routing rules for inbound HTTP/HTTPS traffic. A Mapping connects a URL path or prefix to a backend Kubernetes service with support for head
   name: Emissary-Ingress Mapping API
   slug: emissary-ingress-mapping-api
-- description: Operations for managing RateLimitService custom resources that configure integration with external rate limiting services compatible with the Envoy rate limit API.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing RateLimitService custom resources that configure integration with external rate limiting services compatible with the Envoy rate limit API.
   name: Emissary-Ingress RateLimitService API
   slug: emissary-ingress-ratelimitservice-api
-- description: Operations for managing TLSContext custom resources that define reusable TLS configuration including certificates, cipher suites, minimum protocol versions, and client certificate validation settings.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing TLSContext custom resources that define reusable TLS configuration including certificates, cipher suites, minimum protocol versions, and client certificate validation settings.
   name: Emissary-Ingress TLSContext API
   slug: emissary-ingress-tlscontext-api
 artifact_total: 21
@@ -235,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emissary-ingress/refs/heads/main/screenshots/emissary-ingress-2026-06-20T180636.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -47,88 +47,144 @@ apis:
 - description: 'The self-hostable open source Svix server (svix-webhooks repo). Smaller surface area than the hosted product (no Stream, no Ingest, no Connectors, no Background Tasks, no multi-region) — 29 paths, 46 '
   name: Svix Open Source Server API
   slug: open-source-server
-- description: Consumer Applications are where messages are sent to. In most cases you would want to have one application for each of your users.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Consumer Applications are where messages are sent to. In most cases you would want to have one application for each of your users.
   name: Svix Application API
   slug: svix-application-api
-- description: Easily give your users access to our pre-built management UI.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Easily give your users access to our pre-built management UI.
   name: Svix Authentication API
   slug: svix-authentication-api
-- description: The background tasks that have been executed for your environment.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The background tasks that have been executed for your environment.
   name: Svix Background Task API
   slug: svix-background-task-api
-- description: Connectors allow you to connect applications to external services.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Connectors allow you to connect applications to external services.
   name: Svix Connector API
   slug: svix-connector-api
-- description: Endpoints are the URLs messages will be sent to. Each application can have up to 50 endpoints and each message sent to that application will be sent to all of them (unless they are not subscribed to t
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Endpoints are the URLs messages will be sent to. Each application can have up to 50 endpoints and each message sent to that application will be sent to all of them (unless they are not subscribed to t
   name: Svix Endpoint API
   slug: svix-endpoint-api
-- description: Manage your environments like development, staging and production.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Manage your environments like development, staging and production.
   name: Svix Environment API
   slug: svix-environment-api
-- description: The Event API from Svix — 2 operation(s) for event.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Event API from Svix — 2 operation(s) for event.
   name: Svix Event API
   slug: svix-event-api
-- description: Event types are identifiers denoting the type of message being sent. Event types are primarily used to decide which events are sent to which endpoint.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Event types are identifiers denoting the type of message being sent. Event types are primarily used to decide which events are sent to which endpoint.
   name: Svix Event Type API
   slug: svix-event-type-api
-- description: Health checks for the API.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Health checks for the API.
   name: Svix Health API
   slug: svix-health-api
-- description: Configure where Svix Ingest sends messages.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Configure where Svix Ingest sends messages.
   name: Svix Ingest Endpoint API
   slug: svix-ingest-endpoint-api
-- description: The Ingest Source API from Svix — 4 operation(s) for ingest source.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Ingest Source API from Svix — 4 operation(s) for ingest source.
   name: Svix Ingest Source API
   slug: svix-ingest-source-api
-- description: Integrations are services your users connect an application to. An integration can manage the application and its endpoints.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Integrations are services your users connect an application to. An integration can manage the application and its endpoints.
   name: Svix Integration API
   slug: svix-integration-api
-- description: Messages are the webhook events being sent.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Messages are the webhook events being sent.
   name: Svix Message API
   slug: svix-message-api
-- description: Attempts to deliver `Message`s to `Endpoint`s.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Attempts to deliver `Message`s to `Endpoint`s.
   name: Svix Message Attempt API
   slug: svix-message-attempt-api
-- description: The Sink API from Svix — 6 operation(s) for sink.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Sink API from Svix — 6 operation(s) for sink.
   name: Svix Sink API
   slug: svix-sink-api
-- description: Generate statistics about your Svix utilization
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Generate statistics about your Svix utilization
   name: Svix Statistics API
   slug: svix-statistics-api
-- description: The Stream API from Svix — 2 operation(s) for stream.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Stream API from Svix — 2 operation(s) for stream.
   name: Svix Stream API
   slug: svix-stream-api
-- description: The Stream Authentication API from Svix — 5 operation(s) for stream authentication.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Stream Authentication API from Svix — 5 operation(s) for stream authentication.
   name: Svix Stream Authentication API
   slug: svix-stream-authentication-api
-- description: The Stream Event Type API from Svix — 2 operation(s) for stream event type.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: The Stream Event Type API from Svix — 2 operation(s) for stream event type.
   name: Svix Stream Event Type API
   slug: svix-stream-event-type-api
-- description: Configure where operational webhooks are sent to.
+- baseURL: https://api.svix.com
+  baseurl_source: declared
+  description: Configure where operational webhooks are sent to.
   name: Svix Webhook Endpoint API
   slug: svix-webhook-endpoint-api
-- description: The Webhook API from Svix — 0 operation(s) for webhook.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Webhook API from Svix — 0 operation(s) for webhook.
   name: Svix Webhook API
   slug: svix-webhook-api
-- description: The Broadcast API from Svix — 1 operation(s) for broadcast.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Broadcast API from Svix — 1 operation(s) for broadcast.
   name: Svix Broadcast API
   slug: svix-broadcast-api
-- description: The Environment-Settings API from Svix — 3 operation(s) for environment-settings.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Environment-Settings API from Svix — 3 operation(s) for environment-settings.
   name: Svix Environment Settings API
   slug: svix-environment-settings-api
-- description: The Events API from Svix — 1 operation(s) for events.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Events API from Svix — 1 operation(s) for events.
   name: Svix Events API
   slug: svix-events-api
-- description: The Inbound API from Svix — 1 operation(s) for inbound.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Inbound API from Svix — 1 operation(s) for inbound.
   name: Svix Inbound API
   slug: svix-inbound-api
-- description: The Ingest Logs API from Svix — 1 operation(s) for ingest logs.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Ingest Logs API from Svix — 1 operation(s) for ingest logs.
   name: Svix Ingest Logs API
   slug: svix-ingest-logs-api
-- description: The Webhook Sink API from Svix — 10 operation(s) for webhook sink.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Webhook Sink API from Svix — 10 operation(s) for webhook sink.
   name: Svix Webhook Sink API
   slug: svix-webhook-sink-api
-- description: The Webhooks AutoConfig API from Svix — 3 operation(s) for webhooks autoconfig.
+- baseURL: http://localhost:8071
+  baseurl_source: declared
+  description: The Webhooks AutoConfig API from Svix — 3 operation(s) for webhooks autoconfig.
   name: Svix Webhooks AutoConfig API
   slug: svix-webhooks-autoconfig-api
 arazzos:
@@ -742,7 +798,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -755,7 +811,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 78.6
+  previous_composite: 78.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -773,7 +829,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:

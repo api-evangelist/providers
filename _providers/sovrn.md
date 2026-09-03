@@ -35,37 +35,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 26
 apis:
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
   name: Sovrn Commerce MCP Server
   slug: sovrn-commerce-mcp-server
-- description: The Account API from Sovrn — 1 operation(s) for account.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Account API from Sovrn — 1 operation(s) for account.
   name: Sovrn Account API
   slug: sovrn-account-api
-- description: The Ai Orchestration API from Sovrn — 1 operation(s) for ai orchestration.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Ai Orchestration API from Sovrn — 1 operation(s) for ai orchestration.
   name: Sovrn Ai Orchestration API
   slug: sovrn-ai-orchestration-api
-- description: The Bid API from Sovrn — 1 operation(s) for bid.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Bid API from Sovrn — 1 operation(s) for bid.
   name: Sovrn Bid API
   slug: sovrn-bid-api
-- description: The Link API from Sovrn — 1 operation(s) for link.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Link API from Sovrn — 1 operation(s) for link.
   name: Sovrn Link API
   slug: sovrn-link-api
-- description: The Merchant Group Summaries API from Sovrn — 2 operation(s) for merchant group summaries.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Merchant Group Summaries API from Sovrn — 2 operation(s) for merchant group summaries.
   name: Sovrn Merchant Group Summaries API
   slug: sovrn-merchant-group-summaries-api
-- description: The Product Coupons API from Sovrn — 1 operation(s) for product coupons.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Product Coupons API from Sovrn — 1 operation(s) for product coupons.
   name: Sovrn Product Coupons API
   slug: sovrn-product-coupons-api
-- description: The reporting API from Sovrn — 1 operation(s) for reporting.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The reporting API from Sovrn — 1 operation(s) for reporting.
   name: Sovrn Reporting API
   slug: sovrn-reporting-api
-- description: The reports API from Sovrn — 8 operation(s) for reports.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The reports API from Sovrn — 8 operation(s) for reports.
   name: Sovrn Reports API
   slug: sovrn-reports-api
-- description: The Sites API from Sovrn — 1 operation(s) for sites.
+- baseURL: https://api.viglink.com/api
+  baseurl_source: declared
+  description: The Sites API from Sovrn — 1 operation(s) for sites.
   name: Sovrn Sites API
   slug: sovrn-sites-api
 artifact_total: 26
@@ -316,7 +334,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:

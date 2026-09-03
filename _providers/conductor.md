@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 39 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Administrative and health check APIs
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: Administrative and health check APIs
   name: Conductor Admin API
   slug: conductor-admin-api
-- description: APIs for managing event handlers
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: APIs for managing event handlers
   name: Conductor Event API
   slug: conductor-event-api
-- description: APIs for managing task definitions
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: APIs for managing task definitions
   name: Conductor Metadata - Task API
   slug: conductor-metadata-task-api
-- description: APIs for managing workflow definitions
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: APIs for managing workflow definitions
   name: Conductor Metadata - Workflow API
   slug: conductor-metadata-workflow-api
-- description: APIs for polling and updating tasks
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: APIs for polling and updating tasks
   name: Conductor Task API
   slug: conductor-task-api
-- description: APIs for managing workflow executions
+- baseURL: https://localhost:8080/api
+  baseurl_source: spec
+  description: APIs for managing workflow executions
   name: Conductor Workflow API
   slug: conductor-workflow-api
 artifact_total: 89
@@ -398,7 +410,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -411,7 +423,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -420,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/screenshots/conductor-2026-06-20T174854.png
 security:

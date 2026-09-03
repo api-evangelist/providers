@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
-- description: The Admin API from Insforge — 54 operation(s) for admin.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: The Admin API from Insforge — 54 operation(s) for admin.
   name: Insforge Admin API
   slug: insforge-admin-api
-- description: Configure realtime channel patterns, webhooks, and availability.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Configure realtime channel patterns, webhooks, and availability.
   name: Insforge Channels API
   slug: insforge-channels-api
-- description: The Client API from Insforge — 35 operation(s) for client.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: The Client API from Insforge — 35 operation(s) for client.
   name: Insforge Client API
   slug: insforge-client-api
-- description: Manage realtime retention settings.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Manage realtime retention settings.
   name: Insforge Configuration API
   slug: insforge-configuration-api
-- description: Inspect realtime message history and delivery stats.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Inspect realtime message history and delivery stats.
   name: Insforge Messages API
   slug: insforge-messages-api
-- description: Provider webhook ingestion routes
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Provider webhook ingestion routes
   name: Insforge Payment Webhooks API
   slug: insforge-payment-webhooks-api
-- description: Manage helper endpoints for realtime RLS examples.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Manage helper endpoints for realtime RLS examples.
   name: Insforge Permissions API
   slug: insforge-permissions-api
-- description: Razorpay Orders, Subscriptions, catalog, manual webhook setup, sync, customer, and transaction routes
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Razorpay Orders, Subscriptions, catalog, manual webhook setup, sync, customer, and transaction routes
   name: Insforge Razorpay Payments API
   slug: insforge-razorpay-payments-api
-- description: The S3 Access Keys API from Insforge — 3 operation(s) for s3 access keys.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: The S3 Access Keys API from Insforge — 3 operation(s) for s3 access keys.
   name: Insforge S3 Access Keys API
   slug: insforge-s3-access-keys-api
-- description: The S3 Protocol API from Insforge — 1 operation(s) for s3 protocol.
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: The S3 Protocol API from Insforge — 1 operation(s) for s3 protocol.
   name: Insforge S3 Protocol API
   slug: insforge-s3-protocol-api
-- description: Stripe Checkout, Billing Portal, catalog, sync, customer, subscription, and transaction routes
+- baseURL: https://api.insforge.dev
+  baseurl_source: declared
+  description: Stripe Checkout, Billing Portal, catalog, sync, customer, subscription, and transaction routes
   name: Insforge Stripe Payments API
   slug: insforge-stripe-payments-api
 artifact_total: 28
@@ -301,7 +323,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:

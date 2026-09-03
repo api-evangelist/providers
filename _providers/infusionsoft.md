@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 336
   human_in_the_loop: 3
@@ -48,178 +48,294 @@ apis:
 - description: The legacy Infusionsoft XML-RPC API, explicitly labelled Deprecated in the Keap developer guide. It remains documented, with a published table schema reference, but Keap publishes no sunset date for i
   name: Infusionsoft XML-RPC API
   slug: xml-rpc
-- description: Account Info-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Account Info-Endpoint
   name: Infusionsoft (Keap) Account Info API
   slug: infusionsoft-account-info-api
-- description: Affiliates-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Affiliates-Endpoint
   name: Infusionsoft (Keap) Affiliate API
   slug: infusionsoft-affiliate-api
-- description: Access Appointment objects stored in Keap Max Classic. Appointment objects stored in Keap Pro or Keap Max are not available via these methods.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Access Appointment objects stored in Keap Max Classic. Appointment objects stored in Keap Pro or Keap Max are not available via these methods.
   name: Infusionsoft (Keap) Appointment API
   slug: infusionsoft-appointment-api
-- description: The Automation API from Infusionsoft (Keap) — 9 operation(s) for automation.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Automation API from Infusionsoft (Keap) — 9 operation(s) for automation.
   name: Infusionsoft (Keap) Automation API
   slug: infusionsoft-automation-api
-- description: The AutomationCategory API from Infusionsoft (Keap) — 2 operation(s) for automationcategory.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The AutomationCategory API from Infusionsoft (Keap) — 2 operation(s) for automationcategory.
   name: Infusionsoft (Keap) Automation Category API
   slug: infusionsoft-automationcategory-api
-- description: The Business Profile API from Infusionsoft (Keap) — 1 operation(s) for business profile.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Business Profile API from Infusionsoft (Keap) — 1 operation(s) for business profile.
   name: Infusionsoft (Keap) Business Profile API
   slug: infusionsoft-business-profile-api
-- description: Campaigns-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Campaigns-Endpoint
   name: Infusionsoft (Keap) Campaign API
   slug: infusionsoft-campaign-api
-- description: The Category Discounts API from Infusionsoft (Keap) — 4 operation(s) for category discounts.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Category Discounts API from Infusionsoft (Keap) — 4 operation(s) for category discounts.
   name: Infusionsoft (Keap) Category Discounts API
   slug: infusionsoft-category-discounts-api
-- description: Companies-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Companies-Endpoint
   name: Infusionsoft (Keap) Company API
   slug: infusionsoft-company-api
-- description: Contact-Tag-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Contact-Tag-Endpoint
   name: Infusionsoft (Keap) Contact API
   slug: infusionsoft-contact-api
-- description: The Custom Fields API from Infusionsoft (Keap) — 2 operation(s) for custom fields.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Custom Fields API from Infusionsoft (Keap) — 2 operation(s) for custom fields.
   name: Infusionsoft (Keap) Custom Fields API
   slug: infusionsoft-custom-fields-api
-- description: The DateExpression API from Infusionsoft (Keap) — 1 operation(s) for dateexpression.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The DateExpression API from Infusionsoft (Keap) — 1 operation(s) for dateexpression.
   name: Infusionsoft (Keap) Date Expression API
   slug: infusionsoft-dateexpression-api
-- description: The Deals API from Infusionsoft (Keap) — 12 operation(s) for deals.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Deals API from Infusionsoft (Keap) — 12 operation(s) for deals.
   name: Infusionsoft (Keap) Deals API
   slug: infusionsoft-deals-api
-- description: The Display Forms API from Infusionsoft (Keap) — 1 operation(s) for display forms.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Display Forms API from Infusionsoft (Keap) — 1 operation(s) for display forms.
   name: Infusionsoft (Keap) Display Forms API
   slug: infusionsoft-display-forms-api
-- description: E-Commerce-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: E-Commerce-Endpoint
   name: Infusionsoft (Keap) E Commerce API
   slug: infusionsoft-e-commerce-api
-- description: Email-Addresses-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Email-Addresses-Endpoint
   name: Infusionsoft (Keap) Email Address API
   slug: infusionsoft-email-address-api
-- description: Emails-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Emails-Endpoint
   name: Infusionsoft (Keap) Email API
   slug: infusionsoft-email-api
-- description: File-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: File-Endpoint
   name: Infusionsoft (Keap) File API
   slug: infusionsoft-file-api
-- description: The Files API from Infusionsoft (Keap) — 3 operation(s) for files.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Files API from Infusionsoft (Keap) — 3 operation(s) for files.
   name: Infusionsoft (Keap) Files API
   slug: infusionsoft-files-api
-- description: The Free Trial Discounts API from Infusionsoft (Keap) — 4 operation(s) for free trial discounts.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Free Trial Discounts API from Infusionsoft (Keap) — 4 operation(s) for free trial discounts.
   name: Infusionsoft (Keap) Free Trial Discounts API
   slug: infusionsoft-free-trial-discounts-api
-- description: The Integrations API from Infusionsoft (Keap) — 3 operation(s) for integrations.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Integrations API from Infusionsoft (Keap) — 3 operation(s) for integrations.
   name: Infusionsoft (Keap) Integrations API
   slug: infusionsoft-integrations-api
-- description: The Lead Source Categories API from Infusionsoft (Keap) — 2 operation(s) for lead source categories.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Lead Source Categories API from Infusionsoft (Keap) — 2 operation(s) for lead source categories.
   name: Infusionsoft (Keap) Lead Source Categories API
   slug: infusionsoft-lead-source-categories-api
-- description: The Lead Source Expenses API from Infusionsoft (Keap) — 2 operation(s) for lead source expenses.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Lead Source Expenses API from Infusionsoft (Keap) — 2 operation(s) for lead source expenses.
   name: Infusionsoft (Keap) Lead Source Expenses API
   slug: infusionsoft-lead-source-expenses-api
-- description: The Lead Source Recurring Expenses API from Infusionsoft (Keap) — 3 operation(s) for lead source recurring expenses.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Lead Source Recurring Expenses API from Infusionsoft (Keap) — 3 operation(s) for lead source recurring expenses.
   name: Infusionsoft (Keap) Lead Source Recurring Expenses API
   slug: infusionsoft-lead-source-recurring-expenses-api
-- description: The Lead Sources API from Infusionsoft (Keap) — 2 operation(s) for lead sources.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Lead Sources API from Infusionsoft (Keap) — 2 operation(s) for lead sources.
   name: Infusionsoft (Keap) Lead Sources API
   slug: infusionsoft-lead-sources-api
-- description: The LeadScore API from Infusionsoft (Keap) — 1 operation(s) for leadscore.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The LeadScore API from Infusionsoft (Keap) — 1 operation(s) for leadscore.
   name: Infusionsoft (Keap) Lead Score API
   slug: infusionsoft-leadscore-api
-- description: Locale-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Locale-Endpoint
   name: Infusionsoft (Keap) Locale API
   slug: infusionsoft-locale-api
-- description: Merchant-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Merchant-Endpoint
   name: Infusionsoft (Keap) Merchant API
   slug: infusionsoft-merchant-api
-- description: The Merchants API from Infusionsoft (Keap) — 1 operation(s) for merchants.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Merchants API from Infusionsoft (Keap) — 1 operation(s) for merchants.
   name: Infusionsoft (Keap) Merchants API
   slug: infusionsoft-merchants-api
-- description: Notes-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Notes-Endpoint
   name: Infusionsoft (Keap) Note API
   slug: infusionsoft-note-api
-- description: Opportunities-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Opportunities-Endpoint
   name: Infusionsoft (Keap) Opportunity API
   slug: infusionsoft-opportunity-api
-- description: The Order Total Discounts API from Infusionsoft (Keap) — 4 operation(s) for order total discounts.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Order Total Discounts API from Infusionsoft (Keap) — 4 operation(s) for order total discounts.
   name: Infusionsoft (Keap) Order Total Discounts API
   slug: infusionsoft-order-total-discounts-api
-- description: The Orders API from Infusionsoft (Keap) — 16 operation(s) for orders.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Orders API from Infusionsoft (Keap) — 16 operation(s) for orders.
   name: Infusionsoft (Keap) Orders API
   slug: infusionsoft-orders-api
-- description: The Payment Method Configs API from Infusionsoft (Keap) — 1 operation(s) for payment method configs.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Payment Method Configs API from Infusionsoft (Keap) — 1 operation(s) for payment method configs.
   name: Infusionsoft (Keap) Payment Method Configs API
   slug: infusionsoft-payment-method-configs-api
-- description: The Payment Methods API from Infusionsoft (Keap) — 4 operation(s) for payment methods.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Payment Methods API from Infusionsoft (Keap) — 4 operation(s) for payment methods.
   name: Infusionsoft (Keap) Payment Methods API
   slug: infusionsoft-payment-methods-api
-- description: The Pipelines API from Infusionsoft (Keap) — 8 operation(s) for pipelines.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Pipelines API from Infusionsoft (Keap) — 8 operation(s) for pipelines.
   name: Infusionsoft (Keap) Pipelines API
   slug: infusionsoft-pipelines-api
-- description: Products-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Products-Endpoint
   name: Infusionsoft (Keap) Product API
   slug: infusionsoft-product-api
-- description: The Product Categories API from Infusionsoft (Keap) — 5 operation(s) for product categories.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Product Categories API from Infusionsoft (Keap) — 5 operation(s) for product categories.
   name: Infusionsoft (Keap) Product Categories API
   slug: infusionsoft-product-categories-api
-- description: The Product Discounts API from Infusionsoft (Keap) — 4 operation(s) for product discounts.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Product Discounts API from Infusionsoft (Keap) — 4 operation(s) for product discounts.
   name: Infusionsoft (Keap) Product Discounts API
   slug: infusionsoft-product-discounts-api
-- description: The Product Interest Bundles API from Infusionsoft (Keap) — 4 operation(s) for product interest bundles.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Product Interest Bundles API from Infusionsoft (Keap) — 4 operation(s) for product interest bundles.
   name: Infusionsoft (Keap) Product Interest Bundles API
   slug: infusionsoft-product-interest-bundles-api
-- description: The Products API from Infusionsoft (Keap) — 9 operation(s) for products.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Products API from Infusionsoft (Keap) — 9 operation(s) for products.
   name: Infusionsoft (Keap) Products API
   slug: infusionsoft-products-api
-- description: The Referral API from Infusionsoft (Keap) — 1 operation(s) for referral.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Referral API from Infusionsoft (Keap) — 1 operation(s) for referral.
   name: Infusionsoft (Keap) Referral API
   slug: infusionsoft-referral-api
-- description: The Reporting API from Infusionsoft (Keap) — 4 operation(s) for reporting.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Reporting API from Infusionsoft (Keap) — 4 operation(s) for reporting.
   name: Infusionsoft (Keap) Reporting API
   slug: infusionsoft-reporting-api
-- description: '### _What are REST Hooks?_ _REST Hooks itself is not a specification, it is a collection of patterns that treat webhooks like subscriptions. These subscriptions are manipulated via a REST API just lik'
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: '### _What are REST Hooks?_ _REST Hooks itself is not a specification, it is a collection of patterns that treat webhooks like subscriptions. These subscriptions are manipulated via a REST API just lik'
   name: Infusionsoft (Keap) REST Hooks API
   slug: infusionsoft-rest-hooks-api
-- description: The Sales API from Infusionsoft (Keap) — 3 operation(s) for sales.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Sales API from Infusionsoft (Keap) — 3 operation(s) for sales.
   name: Infusionsoft (Keap) Sales API
   slug: infusionsoft-sales-api
-- description: Setting-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Setting-Endpoint
   name: Infusionsoft (Keap) Setting API
   slug: infusionsoft-setting-api
-- description: The Settings API from Infusionsoft (Keap) — 3 operation(s) for settings.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Settings API from Infusionsoft (Keap) — 3 operation(s) for settings.
   name: Infusionsoft (Keap) Settings API
   slug: infusionsoft-settings-api
-- description: The Shipping API from Infusionsoft (Keap) — 1 operation(s) for shipping.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Shipping API from Infusionsoft (Keap) — 1 operation(s) for shipping.
   name: Infusionsoft (Keap) Shipping API
   slug: infusionsoft-shipping-api
-- description: The Shipping Discounts API from Infusionsoft (Keap) — 4 operation(s) for shipping discounts.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Shipping Discounts API from Infusionsoft (Keap) — 4 operation(s) for shipping discounts.
   name: Infusionsoft (Keap) Shipping Discounts API
   slug: infusionsoft-shipping-discounts-api
-- description: The Stages API from Infusionsoft (Keap) — 4 operation(s) for stages.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Stages API from Infusionsoft (Keap) — 4 operation(s) for stages.
   name: Infusionsoft (Keap) Stages API
   slug: infusionsoft-stages-api
-- description: The Subscription Plans API from Infusionsoft (Keap) — 2 operation(s) for subscription plans.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Subscription Plans API from Infusionsoft (Keap) — 2 operation(s) for subscription plans.
   name: Infusionsoft (Keap) Subscription Plans API
   slug: infusionsoft-subscription-plans-api
-- description: The Subscriptions API from Infusionsoft (Keap) — 11 operation(s) for subscriptions.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Infusionsoft (Keap) — 11 operation(s) for subscriptions.
   name: Infusionsoft (Keap) Subscriptions API
   slug: infusionsoft-subscriptions-api
-- description: Tag-Company-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Tag-Company-Endpoint
   name: Infusionsoft (Keap) Tags API
   slug: infusionsoft-tags-api
-- description: Tasks-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Tasks-Endpoint
   name: Infusionsoft (Keap) Task API
   slug: infusionsoft-task-api
-- description: The User Groups API from Infusionsoft (Keap) — 2 operation(s) for user groups.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The User Groups API from Infusionsoft (Keap) — 2 operation(s) for user groups.
   name: Infusionsoft (Keap) User Groups API
   slug: infusionsoft-user-groups-api
-- description: Users-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Users-Endpoint
   name: Infusionsoft (Keap) Users API
   slug: infusionsoft-users-api
-- description: The Webforms API from Infusionsoft (Keap) — 2 operation(s) for webforms.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Webforms API from Infusionsoft (Keap) — 2 operation(s) for webforms.
   name: Infusionsoft (Keap) Webforms API
   slug: infusionsoft-webforms-api
-- description: UserInfo-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/xmlrpc/v1
+  baseurl_source: declared
+  description: UserInfo-Endpoint
   name: Infusionsoft (Keap) User Info API
   slug: infusionsoft-user-info-api
 artifact_total: 67
@@ -441,7 +557,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -451,7 +567,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 61.7
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -463,7 +579,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infusionsoft/refs/heads/main/screenshots/infusionsoft-2026-06-20T183345.png
 security:

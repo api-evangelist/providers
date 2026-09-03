@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: CloudGuard Network Security delivers cloud-native firewalling and threat prevention with management APIs for gateway provisioning, rule management, and integrations with CI/CD pipelines.
   name: CloudGuard Network Security API
   slug: cloudguard-network-security-api
-- description: The CloudAccounts API from CloudGuard — 4 operation(s) for cloudaccounts.
+- baseURL: https://api.dome9.com
+  baseurl_source: spec
+  description: The CloudAccounts API from CloudGuard — 4 operation(s) for cloudaccounts.
   name: CloudGuard CloudAccounts API
   slug: cloudguard-cloudaccounts-api
-- description: The Compliance API from CloudGuard — 1 operation(s) for compliance.
+- baseURL: https://api.dome9.com
+  baseurl_source: spec
+  description: The Compliance API from CloudGuard — 1 operation(s) for compliance.
   name: CloudGuard Compliance API
   slug: cloudguard-compliance-api
-- description: The Findings API from CloudGuard — 5 operation(s) for findings.
+- baseURL: https://api.dome9.com
+  baseurl_source: spec
+  description: The Findings API from CloudGuard — 5 operation(s) for findings.
   name: CloudGuard Findings API
   slug: cloudguard-findings-api
-- description: The Notifications API from CloudGuard — 2 operation(s) for notifications.
+- baseURL: https://api.dome9.com
+  baseurl_source: spec
+  description: The Notifications API from CloudGuard — 2 operation(s) for notifications.
   name: CloudGuard Notifications API
   slug: cloudguard-notifications-api
-- description: The Policies API from CloudGuard — 1 operation(s) for policies.
+- baseURL: https://api.dome9.com
+  baseurl_source: spec
+  description: The Policies API from CloudGuard — 1 operation(s) for policies.
   name: CloudGuard Policies API
   slug: cloudguard-policies-api
 artifact_total: 24
@@ -231,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudguard/refs/heads/main/screenshots/cloudguard-2026-06-20T174606.png
 security:

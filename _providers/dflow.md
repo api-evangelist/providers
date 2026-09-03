@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 3 acting
 api_count: 1
 apis:
-- description: The admin API from DFlow — 1 operation(s) for admin.
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: The admin API from DFlow — 1 operation(s) for admin.
   name: DFlow admin API
   slug: dflow-admin-api
-- description: Intent trading endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Intent trading endpoints
   name: DFlow intent API
   slug: dflow-intent-api
-- description: Order API endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Order API endpoints
   name: DFlow order API
   slug: dflow-order-api
-- description: Prediction market endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Prediction market endpoints
   name: DFlow prediction_market API
   slug: dflow-prediction-market-api
-- description: Swap API endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Swap API endpoints
   name: DFlow swap API
   slug: dflow-swap-api
-- description: Token endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Token endpoints
   name: DFlow tokens API
   slug: dflow-tokens-api
-- description: Venue endpoints
+- baseURL: https://quote-api.dflow.net
+  baseurl_source: declared
+  description: Venue endpoints
   name: DFlow venues API
   slug: dflow-venues-api
 artifact_total: 20
@@ -219,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -229,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 39.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -247,7 +261,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

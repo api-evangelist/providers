@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 61 operations · 10 acting
 api_count: 1
 apis:
-- description: Church calendaring, events, and facility resources.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Church calendaring, events, and facility resources.
   name: Planning Center Calendar API
   slug: planning-center-calendar-api
-- description: Attendance, events, locations, and stations.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Attendance, events, locations, and stations.
   name: Planning Center Check-Ins API
   slug: planning-center-check-ins-api
-- description: Donations, funds, batches, payment sources, and pledges.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Donations, funds, batches, payment sources, and pledges.
   name: Planning Center Giving API
   slug: planning-center-giving-api
-- description: Small groups, memberships, and group events.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Small groups, memberships, and group events.
   name: Planning Center Groups API
   slug: planning-center-groups-api
-- description: People, households, contact info, lists, forms, and workflows.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: People, households, contact info, lists, forms, and workflows.
   name: Planning Center People API
   slug: planning-center-people-api
-- description: Sermon channels, series, episodes, and speakers (read-only).
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Sermon channels, series, episodes, and speakers (read-only).
   name: Planning Center Publishing API
   slug: planning-center-publishing-api
-- description: Event signups, attendees, categories, and campuses.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Event signups, attendees, categories, and campuses.
   name: Planning Center Registrations API
   slug: planning-center-registrations-api
-- description: Service planning - service types, plans, songs, teams.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Service planning - service types, plans, songs, teams.
   name: Planning Center Services API
   slug: planning-center-services-api
-- description: Cross-product event subscriptions and deliveries.
+- baseURL: https://api.planningcenteronline.com/people/v2
+  baseurl_source: declared
+  description: Cross-product event subscriptions and deliveries.
   name: Planning Center Webhooks API
   slug: planning-center-webhooks-api
 artifact_total: 29
@@ -197,7 +215,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +238,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/planning-center/refs/heads/main/screenshots/planning-center-2026-09-02T151416.png
 security:
 - kind: authentication
   name: Planning Center Authentication

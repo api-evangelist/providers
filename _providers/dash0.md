@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 108 operations · 67 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Edge Collectors API from Dash0 — 1 operation(s) for edge collectors.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Edge Collectors API from Dash0 — 1 operation(s) for edge collectors.
   name: Dash0 Edge Collectors API
   slug: dash0-edge-collectors-api
-- description: The Manage Agent0 Automations API from Dash0 — 2 operation(s) for manage agent0 automations.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Agent0 Automations API from Dash0 — 2 operation(s) for manage agent0 automations.
   name: Dash0 Manage Agent0 Automations API
   slug: dash0-manage-agent0-automations-api
-- description: The Manage Alerting API from Dash0 — 5 operation(s) for manage alerting.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Alerting API from Dash0 — 5 operation(s) for manage alerting.
   name: Dash0 Manage Alerting API
   slug: dash0-manage-alerting-api
-- description: The Manage Dashboards API from Dash0 — 3 operation(s) for manage dashboards.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Dashboards API from Dash0 — 3 operation(s) for manage dashboards.
   name: Dash0 Manage Dashboards API
   slug: dash0-manage-dashboards-api
-- description: The Manage Notification Channels API from Dash0 — 2 operation(s) for manage notification channels.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Notification Channels API from Dash0 — 2 operation(s) for manage notification channels.
   name: Dash0 Manage Notification Channels API
   slug: dash0-manage-notification-channels-api
-- description: The Manage Recording Rules API from Dash0 — 2 operation(s) for manage recording rules.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Recording Rules API from Dash0 — 2 operation(s) for manage recording rules.
   name: Dash0 Manage Recording Rules API
   slug: dash0-manage-recording-rules-api
-- description: The Manage Sampling Rules API from Dash0 — 2 operation(s) for manage sampling rules.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Sampling Rules API from Dash0 — 2 operation(s) for manage sampling rules.
   name: Dash0 Manage Sampling Rules API
   slug: dash0-manage-sampling-rules-api
-- description: The Manage Signal To Metrics (BETA) API from Dash0 — 4 operation(s) for manage signal to metrics (beta).
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Signal To Metrics (BETA) API from Dash0 — 4 operation(s) for manage signal to metrics (beta).
   name: Dash0 Manage Signal To Metrics (BETA) API
   slug: dash0-manage-signal-to-metrics-beta-api
-- description: The Manage SLOs (Private BETA) API from Dash0 — 2 operation(s) for manage slos (private beta).
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage SLOs (Private BETA) API from Dash0 — 2 operation(s) for manage slos (private beta).
   name: Dash0 Manage SLOs (Private BETA) API
   slug: dash0-manage-slos-private-beta-api
-- description: The Manage Spam Filters API from Dash0 — 2 operation(s) for manage spam filters.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Spam Filters API from Dash0 — 2 operation(s) for manage spam filters.
   name: Dash0 Manage Spam Filters API
   slug: dash0-manage-spam-filters-api
-- description: The Manage Synthetic Checks API from Dash0 — 5 operation(s) for manage synthetic checks.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Synthetic Checks API from Dash0 — 5 operation(s) for manage synthetic checks.
   name: Dash0 Manage Synthetic Checks API
   slug: dash0-manage-synthetic-checks-api
-- description: The Manage Teams and Members API from Dash0 — 7 operation(s) for manage teams and members.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Teams and Members API from Dash0 — 7 operation(s) for manage teams and members.
   name: Dash0 Manage Teams and Members API
   slug: dash0-manage-teams-and-members-api
-- description: The Manage Time Series Aggregations (Private BETA) API from Dash0 — 2 operation(s) for manage time series aggregations (private beta).
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Time Series Aggregations (Private BETA) API from Dash0 — 2 operation(s) for manage time series aggregations (private beta).
   name: Dash0 Manage Time Series Aggregations (Private BETA) API
   slug: dash0-manage-time-series-aggregations-private-beta-api
-- description: The Manage Views API from Dash0 — 3 operation(s) for manage views.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Manage Views API from Dash0 — 3 operation(s) for manage views.
   name: Dash0 Manage Views API
   slug: dash0-manage-views-api
-- description: The OAuth 2.0 API from Dash0 — 6 operation(s) for oauth 2.0.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The OAuth 2.0 API from Dash0 — 6 operation(s) for oauth 2.0.
   name: Dash0 OAuth 2.0 API
   slug: dash0-oauth-2-0-api
-- description: The Prometheus API API from Dash0 — 9 operation(s) for prometheus api.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Prometheus API API from Dash0 — 9 operation(s) for prometheus api.
   name: Dash0 Prometheus API API
   slug: dash0-prometheus-api-api
-- description: The Query SQL API from Dash0 — 1 operation(s) for query sql.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Query SQL API from Dash0 — 1 operation(s) for query sql.
   name: Dash0 Query SQL API
   slug: dash0-query-sql-api
-- description: The Query Telemetry API from Dash0 — 4 operation(s) for query telemetry.
+- baseURL: https://api.eu-west-1.aws.dash0.com
+  baseurl_source: declared
+  description: The Query Telemetry API from Dash0 — 4 operation(s) for query telemetry.
   name: Dash0 Query Telemetry API
   slug: dash0-query-telemetry-api
 artifact_total: 45
@@ -354,7 +390,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -364,7 +400,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 57.5
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,7 +412,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:

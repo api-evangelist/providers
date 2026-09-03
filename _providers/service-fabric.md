@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Service Fabric SDK provides client libraries for .NET, Java, and Go for building Service Fabric services and interacting with the cluster. The SDK includes Reliable Collections, Reliable Actors, and t
   name: Service Fabric SDK
   slug: service-fabric-sdk
-- description: Application deployment and lifecycle
+- baseURL: http://{cluster-endpoint}:19080
+  baseurl_source: declared
+  description: Application deployment and lifecycle
   name: Service Fabric Applications API
   slug: service-fabric-applications-api
-- description: Cluster-level operations and configuration
+- baseURL: http://{cluster-endpoint}:19080
+  baseurl_source: declared
+  description: Cluster-level operations and configuration
   name: Service Fabric Cluster API
   slug: service-fabric-cluster-api
-- description: Health state queries and reporting
+- baseURL: http://{cluster-endpoint}:19080
+  baseurl_source: declared
+  description: Health state queries and reporting
   name: Service Fabric Health API
   slug: service-fabric-health-api
-- description: Cluster node management
+- baseURL: http://{cluster-endpoint}:19080
+  baseurl_source: declared
+  description: Cluster node management
   name: Service Fabric Nodes API
   slug: service-fabric-nodes-api
-- description: Service management within applications
+- baseURL: http://{cluster-endpoint}:19080
+  baseurl_source: declared
+  description: Service management within applications
   name: Service Fabric Services API
   slug: service-fabric-services-api
 artifact_total: 26
@@ -250,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/screenshots/service-fabric-2026-06-20T193724.png
 security:

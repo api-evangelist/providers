@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 7 acting
 api_count: 1
 apis:
-- description: Operations for managing automation executions.
+- baseURL: https://ssm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing automation executions.
   name: Amazon Systems Manager Automation API
   slug: amazon-systems-manager-automation-api
-- description: Operations for managing SSM documents.
+- baseURL: https://ssm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SSM documents.
   name: Amazon Systems Manager Documents API
   slug: amazon-systems-manager-documents-api
-- description: Operations for managing instance information.
+- baseURL: https://ssm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing instance information.
   name: Amazon Systems Manager Managed Instances API
   slug: amazon-systems-manager-managed-instances-api
-- description: Operations for managing parameters.
+- baseURL: https://ssm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing parameters.
   name: Amazon Systems Manager Parameter Store API
   slug: amazon-systems-manager-parameter-store-api
-- description: Operations for running commands on managed instances.
+- baseURL: https://ssm.amazonaws.com
+  baseurl_source: declared
+  description: Operations for running commands on managed instances.
   name: Amazon Systems Manager Run Command API
   slug: amazon-systems-manager-run-command-api
 artifact_total: 33
@@ -272,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/screenshots/amazon-systems-manager-2026-06-20T171837.png
 security:

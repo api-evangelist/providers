@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -149,7 +149,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/screenshots/landbot-2026-06-20T184258.png
 security:

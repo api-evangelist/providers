@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,13 +44,17 @@ agentic_access:
   summary_line: 29 operations · 16 acting
 api_count: 1
 apis:
-- description: Send push notifications across iOS, Android and web channels.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: Send push notifications across iOS, Android and web channels.
   name: Airship Push API
   slug: airship-push-api
 - description: Register, list and manage channels (devices) and named users.
   name: Airship Channels & Named Users API
   slug: airship-channels-named-users-api
-- description: Create and manage segments and tags for targeting.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: Create and manage segments and tags for targeting.
   name: Airship Segments API
   slug: airship-segments-api
 - description: Build automated and triggered journeys across channels.
@@ -59,37 +63,59 @@ apis:
 - description: Send email and SMS messages alongside push.
   name: Airship Email & SMS API
   slug: airship-email-sms-api
-- description: Read message and engagement reports.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: Read message and engagement reports.
   name: Airship Reports API
   slug: airship-reports-api
-- description: The Channels API from Airship — 2 operation(s) for channels.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Channels API from Airship — 2 operation(s) for channels.
   name: Airship Channels API
   slug: airship-channels-api
-- description: The Custom Events API from Airship — 1 operation(s) for custom events.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Custom Events API from Airship — 1 operation(s) for custom events.
   name: Airship Custom Events API
   slug: airship-custom-events-api
-- description: The Lists API from Airship — 2 operation(s) for lists.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Lists API from Airship — 2 operation(s) for lists.
   name: Airship Lists API
   slug: airship-lists-api
-- description: The Message Center API from Airship — 2 operation(s) for message center.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Message Center API from Airship — 2 operation(s) for message center.
   name: Airship Message Center API
   slug: airship-message-center-api
-- description: The Named Users API from Airship — 3 operation(s) for named users.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Named Users API from Airship — 3 operation(s) for named users.
   name: Airship Named Users API
   slug: airship-named-users-api
-- description: The Push API from Airship — 2 operation(s) for push.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Push API from Airship — 2 operation(s) for push.
   name: Airship Push API
   slug: airship-push-api
-- description: The Reports API from Airship — 2 operation(s) for reports.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Reports API from Airship — 2 operation(s) for reports.
   name: Airship Reports API
   slug: airship-reports-api
-- description: The Schedules API from Airship — 2 operation(s) for schedules.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Schedules API from Airship — 2 operation(s) for schedules.
   name: Airship Schedules API
   slug: airship-schedules-api
-- description: The Segments API from Airship — 2 operation(s) for segments.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Segments API from Airship — 2 operation(s) for segments.
   name: Airship Segments API
   slug: airship-segments-api
-- description: The Templates API from Airship — 2 operation(s) for templates.
+- baseURL: https://go.urbanairship.com/api
+  baseurl_source: declared
+  description: The Templates API from Airship — 2 operation(s) for templates.
   name: Airship Templates API
   slug: airship-templates-api
 artifact_total: 36
@@ -232,7 +258,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/screenshots/airship-2026-06-20T171434.png
 security:

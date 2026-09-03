@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: Legacy RETS 1.7 server (DMQL2 query language) providing backward compatibility for RETS clients, exposing Listing, Agent, Brokerage, Office, and OpenHouse resources via the Search and GetMetadata tran
   name: Perchwell RETS API
   slug: perchwell-rets-api
-- description: Real estate sale and rental listing feed.
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: Real estate sale and rental listing feed.
   name: Perchwell Listings API
   slug: perchwell-listings-api
-- description: RESO Media resource (nested within Property).
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: RESO Media resource (nested within Property).
   name: Perchwell Media API
   slug: perchwell-media-api
-- description: RESO Member resource (agents).
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: RESO Member resource (agents).
   name: Perchwell Member API
   slug: perchwell-member-api
-- description: OData service metadata.
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: OData service metadata.
   name: Perchwell Metadata API
   slug: perchwell-metadata-api
-- description: RESO Office resource.
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: RESO Office resource.
   name: Perchwell Office API
   slug: perchwell-office-api
-- description: RESO OpenHouse resource.
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: RESO OpenHouse resource.
   name: Perchwell OpenHouse API
   slug: perchwell-openhouse-api
-- description: RESO Property resource (listings; Media is nested).
+- baseURL: https://www.perchwell.com/api/feeds
+  baseurl_source: declared
+  description: RESO Property resource (listings; Media is nested).
   name: Perchwell Property API
   slug: perchwell-property-api
 artifact_total: 20
@@ -249,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/screenshots/perchwell-2026-08-17T081157.png
 security:

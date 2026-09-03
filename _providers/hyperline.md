@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 42 operations · 27 acting
 api_count: 1
 apis:
-- description: The Billable Events API from Hyperline — 2 operation(s) for billable events.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Billable Events API from Hyperline — 2 operation(s) for billable events.
   name: Hyperline Billable Events API
   slug: hyperline-billable-events-api
-- description: The Customers API from Hyperline — 5 operation(s) for customers.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Customers API from Hyperline — 5 operation(s) for customers.
   name: Hyperline Customers API
   slug: hyperline-customers-api
-- description: The Invoices API from Hyperline — 6 operation(s) for invoices.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Invoices API from Hyperline — 6 operation(s) for invoices.
   name: Hyperline Invoices API
   slug: hyperline-invoices-api
-- description: The Payments API from Hyperline — 2 operation(s) for payments.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Payments API from Hyperline — 2 operation(s) for payments.
   name: Hyperline Payments API
   slug: hyperline-payments-api
-- description: The Products API from Hyperline — 3 operation(s) for products.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Products API from Hyperline — 3 operation(s) for products.
   name: Hyperline Products API
   slug: hyperline-products-api
-- description: The Subscriptions API from Hyperline — 6 operation(s) for subscriptions.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Hyperline — 6 operation(s) for subscriptions.
   name: Hyperline Subscriptions API
   slug: hyperline-subscriptions-api
-- description: The Webhooks API from Hyperline — 3 operation(s) for webhooks.
+- baseURL: https://api.hyperline.co/v1
+  baseurl_source: declared
+  description: The Webhooks API from Hyperline — 3 operation(s) for webhooks.
   name: Hyperline Webhooks API
   slug: hyperline-webhooks-api
 artifact_total: 23
@@ -197,7 +211,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/screenshots/hyperline-2026-06-20T183050.png
 security:

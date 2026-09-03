@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -50,58 +50,94 @@ apis:
 - description: LlamaIndex TypeScript is the JavaScript and TypeScript implementation of the LlamaIndex framework for building LLM-powered applications. It provides server-side TypeScript support for building agents,
   name: LlamaIndex TypeScript Framework
   slug: typescript-framework
-- description: Manage data sources at the project level.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage data sources at the project level.
   name: llamaindex Data Sources API
   slug: llamaindex-data-sources-api
-- description: Create and manage extraction agents that are configured with specific schemas and extraction settings for processing documents.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Create and manage extraction agents that are configured with specific schemas and extraction settings for processing documents.
   name: llamaindex Extraction Agents API
   slug: llamaindex-extraction-agents-api
-- description: Run and monitor asynchronous extraction jobs that process documents through extraction agents.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Run and monitor asynchronous extraction jobs that process documents through extraction agents.
   name: llamaindex Extraction Jobs API
   slug: llamaindex-extraction-jobs-api
-- description: Upload, list, and manage files for use in pipelines and parsing jobs.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Upload, list, and manage files for use in pipelines and parsing jobs.
   name: llamaindex Files API
   slug: llamaindex-files-api
-- description: Connect and manage external data sources for automatic document ingestion into an index.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Connect and manage external data sources for automatic document ingestion into an index.
   name: llamaindex Index Data Sources API
   slug: llamaindex-index-data-sources-api
-- description: Manage files within an index, including upload, listing, and status monitoring.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage files within an index, including upload, listing, and status monitoring.
   name: llamaindex Index Files API
   slug: llamaindex-index-files-api
-- description: Query indexed content using configurable retrieval modes and parameters.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Query indexed content using configurable retrieval modes and parameters.
   name: llamaindex Index Retrieval API
   slug: llamaindex-index-retrieval-api
-- description: Monitor the processing status and health of an index.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Monitor the processing status and health of an index.
   name: llamaindex Index Status API
   slug: llamaindex-index-status-api
-- description: Create and manage indexes that serve as automated document ingestion pipelines with retrieval capabilities.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Create and manage indexes that serve as automated document ingestion pipelines with retrieval capabilities.
   name: llamaindex Indexes API
   slug: llamaindex-indexes-api
-- description: Monitor and retrieve results from asynchronous parsing jobs.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Monitor and retrieve results from asynchronous parsing jobs.
   name: llamaindex Jobs API
   slug: llamaindex-jobs-api
-- description: Parse documents into structured formats using AI-powered extraction. Supports multiple tiers for different quality and speed trade-offs.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Parse documents into structured formats using AI-powered extraction. Supports multiple tiers for different quality and speed trade-offs.
   name: llamaindex Parsing API
   slug: llamaindex-parsing-api
-- description: Manage data sinks that receive processed data from a pipeline.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage data sinks that receive processed data from a pipeline.
   name: llamaindex Pipeline Data Sinks API
   slug: llamaindex-pipeline-data-sinks-api
-- description: Manage data sources connected to a pipeline for automatic ingestion.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage data sources connected to a pipeline for automatic ingestion.
   name: llamaindex Pipeline Data Sources API
   slug: llamaindex-pipeline-data-sources-api
-- description: Manage files associated with a specific pipeline.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage files associated with a specific pipeline.
   name: llamaindex Pipeline Files API
   slug: llamaindex-pipeline-files-api
-- description: Monitor and manage ingestion jobs for a pipeline.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Monitor and manage ingestion jobs for a pipeline.
   name: llamaindex Pipeline Jobs API
   slug: llamaindex-pipeline-jobs-api
-- description: Create, configure, sync, and manage document ingestion pipelines.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Create, configure, sync, and manage document ingestion pipelines.
   name: llamaindex Pipelines API
   slug: llamaindex-pipelines-api
-- description: Manage projects that organize pipelines, files, and other resources.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Manage projects that organize pipelines, files, and other resources.
   name: llamaindex Projects API
   slug: llamaindex-projects-api
-- description: Query and retrieve content from indexed pipelines.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Query and retrieve content from indexed pipelines.
   name: llamaindex Retrieval API
   slug: llamaindex-retrieval-api
 artifact_total: 88
@@ -347,16 +383,16 @@ jsonld:
   slug: llamaindex-context
 layout: provider
 modified: '2026-05-19'
-name: llamaindex
+name: Llamaindex
 nav: Providers
 network: true
-overview: 'llamaindex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Extraction Agents API, Extraction Jobs API, and 15 more.
+overview: 'Llamaindex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Data Sources API, Extraction Agents API, Extraction Jobs API, and 15 more.
 
 
-  The llamaindex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Llamaindex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  llamaindex''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Llamaindex''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Llamaindex Plans Pricing
   plan_count: 4
@@ -369,7 +405,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: llamaindex API Rules
+  name: Llamaindex API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -405,10 +441,10 @@ score:
       total: 18
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/screenshots/llamaindex-2026-06-20T184621.png
 security:

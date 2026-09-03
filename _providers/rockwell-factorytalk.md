@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,32 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Rockwell FactoryTalk Hub provides cloud-based industrial API services for connecting FactoryTalk software applications, enabling centralized identity management, software licensing, and connected fact
+- baseURL: https://api.factorytalk.example.com
+  baseurl_source: declared
+  description: Rockwell FactoryTalk Hub provides cloud-based industrial API services for connecting FactoryTalk software applications, enabling centralized identity management, software licensing, and connected fact
   name: Rockwell FactoryTalk Hub API
   slug: factorytalk-hub-api
 - description: Rockwell Automation FactoryTalk Logix Designer provides programmatic access to Logix controller programming, allowing version control integration, CI/CD pipeline automation, and export of L5X controll
   name: Rockwell FactoryTalk Logix Designer API
   slug: logix-designer-api
-- description: Alarm and event management
+- baseURL: https://api.factorytalk.example.com
+  baseurl_source: declared
+  description: Alarm and event management
   name: rockwell-factorytalk Alarms API
   slug: rockwell-factorytalk-alarms-api
-- description: Recipe management
+- baseURL: https://api.factorytalk.example.com
+  baseurl_source: declared
+  description: Recipe management
   name: rockwell-factorytalk Recipes API
   slug: rockwell-factorytalk-recipes-api
-- description: The Tags API from rockwell-factorytalk — 3 operation(s) for tags.
+- baseURL: https://api.factorytalk.example.com
+  baseurl_source: declared
+  description: The Tags API from rockwell-factorytalk — 3 operation(s) for tags.
   name: rockwell-factorytalk Tags API
   slug: rockwell-factorytalk-tags-api
-- description: Historical trend data retrieval
+- baseURL: https://api.factorytalk.example.com
+  baseurl_source: declared
+  description: Historical trend data retrieval
   name: rockwell-factorytalk TrendData API
   slug: rockwell-factorytalk-trenddata-api
 artifact_total: 28
@@ -252,7 +262,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -262,7 +272,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -272,10 +282,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

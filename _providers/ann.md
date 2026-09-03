@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Ann Taylor's affiliate program enables publishers and content creators to earn commissions on sales generated through affiliate links to anntaylor.com. Available through affiliate networks including F
@@ -80,11 +80,35 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.anntaylor.com/privacy-policy
+  url: https://www.anntaylor.com/ann-privacy/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.anntaylor.com/terms-conditions
+  url: https://www.anntaylor.com/terms-of-use/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ann-llms.txt
+coverage:
+  checked: '2026-09-02'
+  detail: ANN Inc. is a women's apparel retailer (Ann Taylor, LOFT) held by KnitWell Group under Sycamore Partners; its only programmable surface is an affiliate program whose link, feed and reporting APIs belong to FlexOffers and CJ Affiliate, and full STEP 0b contract discovery found no first-party spec — api.anntaylor.com and developer.anntaylor.com do not resolve at all, while www.anntaylor.com and www.loft.com are Salesforce Commerce Cloud storefronts that answer HTTP 200 with the same storefront shell for every path including /openapi.json, /graphql, /llms.txt and a control path that cannot exist.
+  evidence:
+  - status: 0
+    url: https://api.anntaylor.com/openapi.json
+  - status: 0
+    url: https://developer.anntaylor.com/
+  - status: 200
+    url: https://www.anntaylor.com/openapi.json
+  - status: 200
+    url: https://www.anntaylor.com/.well-known/ann-negative-control-7f3ab91c.json
+  - status: 404
+    url: https://www.knitwellgroup.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.knitwellgroup.com/openapi.json
+  - status: 200
+    url: https://www.loft.com/graphql
+  reason: not-a-software-company
+  state: none
 created: '2026-03-23'
 description: ANN Inc. is the former parent company of Ann Taylor and LOFT, specialty retailers of women's apparel, shoes, and accessories. ANN Inc. was acquired by Ascena Retail Group in 2015 and subsequently sold to Sycamore Partners in December 2020 for $540 million, alongside Lane Bryant and Lou & Grey brands. The brands now operate under KnitWell Group (formerly Premium Apparel LLC), a Sycamore Partners holding company that also owns Talbots. Ann Taylor and LOFT offer affiliate programs for digital publishers.
 finops:
@@ -93,14 +117,14 @@ finops:
   slug: ann-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ann.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: ANN Inc.
 nav: Providers
 network: true
 overview: 'ANN Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ann Taylor, Fashion, KnitWell, LOFT, and Lou And Grey.
 
 
-  ANN Inc.''s developer surface includes support and 10 more developer resources.'
+  ANN Inc.''s developer surface includes support and 11 more developer resources.'
 plans:
 - name: Ann Plans Pricing
   plan_count: 1
@@ -128,25 +152,25 @@ rate_limits:
   slug: ann-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 17.2
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 74.0
+    artifact_dirs: 10
+    catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 63.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/screenshots/ann-2026-06-20T172011.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Brewery listing, retrieval, search, autocomplete, and metadata operations.
+- baseURL: https://api.openbrewerydb.org/v1
+  baseurl_source: spec
+  description: Brewery listing, retrieval, search, autocomplete, and metadata operations.
   name: Open Brewery DB Breweries API
   slug: open-brewery-db-breweries-api
 artifact_total: 16
@@ -191,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-brewery-db/refs/heads/main/screenshots/open-brewery-db-2026-06-20T190730.png
 security:

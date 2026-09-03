@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 59 operations · 22 acting
 api_count: 6
 apis:
-- description: The availability API from TableCheck — 1 operation(s) for availability.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The availability API from TableCheck — 1 operation(s) for availability.
   name: TableCheck availability API
   slug: tablecheck-availability-api
-- description: The blockages API from TableCheck — 2 operation(s) for blockages.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The blockages API from TableCheck — 2 operation(s) for blockages.
   name: TableCheck blockages API
   slug: tablecheck-blockages-api
-- description: The calendar API from TableCheck — 1 operation(s) for calendar.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The calendar API from TableCheck — 1 operation(s) for calendar.
   name: TableCheck calendar API
   slug: tablecheck-calendar-api
-- description: The customers API from TableCheck — 3 operation(s) for customers.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The customers API from TableCheck — 3 operation(s) for customers.
   name: TableCheck customers API
   slug: tablecheck-customers-api
-- description: The franchises API from TableCheck — 2 operation(s) for franchises.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The franchises API from TableCheck — 2 operation(s) for franchises.
   name: TableCheck franchises API
   slug: tablecheck-franchises-api
-- description: The membership_programs API from TableCheck — 2 operation(s) for membership_programs.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The membership_programs API from TableCheck — 2 operation(s) for membership_programs.
   name: TableCheck membership_programs API
   slug: tablecheck-membership-programs-api
-- description: The memberships API from TableCheck — 2 operation(s) for memberships.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The memberships API from TableCheck — 2 operation(s) for memberships.
   name: TableCheck memberships API
   slug: tablecheck-memberships-api
-- description: The pos_journals API from TableCheck — 3 operation(s) for pos_journals.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The pos_journals API from TableCheck — 3 operation(s) for pos_journals.
   name: TableCheck pos_journals API
   slug: tablecheck-pos-journals-api
-- description: The reservation_flags API from TableCheck — 2 operation(s) for reservation_flags.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The reservation_flags API from TableCheck — 2 operation(s) for reservation_flags.
   name: TableCheck reservation_flags API
   slug: tablecheck-reservation-flags-api
-- description: The reservations API from TableCheck — 6 operation(s) for reservations.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The reservations API from TableCheck — 6 operation(s) for reservations.
   name: TableCheck reservations API
   slug: tablecheck-reservations-api
-- description: The shops API from TableCheck — 3 operation(s) for shops.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The shops API from TableCheck — 3 operation(s) for shops.
   name: TableCheck shops API
   slug: tablecheck-shops-api
-- description: The table_status API from TableCheck — 2 operation(s) for table_status.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The table_status API from TableCheck — 2 operation(s) for table_status.
   name: TableCheck table_status API
   slug: tablecheck-table-status-api
-- description: The tables API from TableCheck — 1 operation(s) for tables.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The tables API from TableCheck — 1 operation(s) for tables.
   name: TableCheck tables API
   slug: tablecheck-tables-api
-- description: The timetable API from TableCheck — 1 operation(s) for timetable.
+- baseURL: https://api.tablecheck.com/api/availability/v1
+  baseurl_source: declared
+  description: The timetable API from TableCheck — 1 operation(s) for timetable.
   name: TableCheck timetable API
   slug: tablecheck-timetable-api
 artifact_total: 36
@@ -214,7 +242,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -237,8 +265,9 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/screenshots/tablecheck-2026-09-02T161720.png
 security:
 - kind: authentication
   name: Tablecheck Authentication

@@ -12,68 +12,15 @@
    "shown": 3,
    "providers": [
     {
-     "name": "Twilio",
-     "slug": "twilio",
-     "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 72.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 70.9,
-      "governance": 33.3,
-      "contract_governance": 33.3,
-      "operational_transparency": 71.1,
-      "developer_ergonomics": 83.3,
-      "commercial_clarity": 73.7,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 50.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "CPaaS & Messaging Aggregators",
-     "rank": 1
-    },
-    {
      "name": "Zoom Phone",
      "slug": "zoom-phone",
      "description": "Zoom Phone is the cloud PBX / UCaaS voice product of Zoom Communications, headquartered in San Jose, California, and sold worldwide from its United States home market. It replaces on-premise telephony with a cloud calling service — extensions, auto receptionists, IVR, call queues, shared line groups, voicemail, call recording, fax, emergency (E911) addressing, and SMS/MMS — delivered either on Zoom-provided PSTN service, on a customer's own carrier through BYOC and Cloud Peering (Provider Exchange), or resold through carrier partners. In the telecom value chain Zoom Phone sits above the network as a UCaaS application layer that buys wholesale connectivity and number inventory from carriers rather than operating a mobile network, and its API posture reflects the software half of that split rather than the carrier half: the Zoom Phone API is fully self-serve, published as downloadable OpenAPI 3.0 with 391 documented operations across 46 resource groups, a 71-event webhook catalog, a separate Number Management API covering number allocation, BYOC numbers, ported number orders, SIP trunks and 10DLC SMS campaigns, OAuth 2.0 with fine-grained phone:* scopes, a public Postman workspace, and an official Node/TypeScript SDK. It is not a mobile network operator, is not a GSMA Open Gateway signatory, and exposes no CAMARA network APIs — no CAMARA reference was found anywhere in its developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom-phone/refs/heads/main/screenshots/zoom-phone-2026-08-17T080441.png",
-     "score": 70.7,
+     "score": 72.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 51.9,
+      "discoverability": 70.4,
       "contract_quality": 68.6,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -82,7 +29,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -115,6 +62,59 @@
       "agentic_commerce": false
      },
      "tier": "UCaaS & Cloud Voice",
+     "rank": 1
+    },
+    {
+     "name": "Twilio",
+     "slug": "twilio",
+     "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
+     "score": 72.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 70.9,
+      "governance": 33.3,
+      "contract_governance": 33.3,
+      "operational_transparency": 71.1,
+      "developer_ergonomics": 83.3,
+      "commercial_clarity": 73.7,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 50.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "CPaaS & Messaging Aggregators",
      "rank": 2
     },
     {
@@ -135,7 +135,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -185,8 +185,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "8x8",
@@ -206,7 +206,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -259,7 +259,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -319,7 +319,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -359,11 +359,11 @@
      "slug": "kpn",
      "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
-     "score": 62.2,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 66.7,
       "contract_quality": 63.8,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -372,7 +372,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -425,7 +425,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -461,15 +461,121 @@
      "rank": 8
     },
     {
+     "name": "Netcracker",
+     "slug": "netcracker",
+     "description": "Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration software to communications service providers worldwide — it is a supplier to carriers rather than a carrier itself, sitting one layer behind the operator in the telecom value chain and never touching a public developer directly. Netcracker is a long-standing TM Forum participant, claims the TM Forum Platinum Badge for Open API and \"Ready for ODA\" certification for its BSS/OSS portfolio, and contributed conformance toolkits to the TM Forum Open API program. Its API posture toward the outside world is honestly partner-gated: netcracker.com publishes no developer portal (developer., developers., docs., api. subdomains do not resolve; /developer, /developers and /api all return 404), no product OpenAPI is downloadable, and every commercial API — the TM Forum Open APIs its products implement — reaches integrators only through a customer or partner engagement. The one genuinely public, self-serve API surface Netcracker publishes is Qubership, its open-source cloud platform at github.com/Netcracker and netcracker.github.io, which ships real, downloadable OpenAPI contracts for its APIHUB API registry, integration, messaging and database services. On CAMARA, Netcracker names the standard in product marketing alongside TM Forum, MEF, ETSI, 3GPP and O-RAN and says CSPs can monetize \"plug and play developer APIs, such as those from CAMARA\" — but no CAMARA API is implemented, specified or callable anywhere in its public surface. That is a positioning statement, not an implementation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png",
+     "score": 58.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 57.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 75.6,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 58.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Network Vendors & BSS/OSS",
+     "rank": 9
+    },
+    {
+     "name": "América Móvil",
+     "slug": "america-movil",
+     "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png",
+     "score": 58.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 60.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 72.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 10
+    },
+    {
      "name": "Nokia Network as Code",
      "slug": "nokia-network-as-code",
      "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png",
-     "score": 59.0,
+     "score": 57.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 63.0,
+      "discoverability": 44.4,
       "contract_quality": 63.7,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -478,7 +584,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -518,112 +624,6 @@
       "agentic_commerce": false
      },
      "tier": "Network-API Exposure (CAMARA / Open Gateway)",
-     "rank": 9
-    },
-    {
-     "name": "Netcracker",
-     "slug": "netcracker",
-     "description": "Netcracker Technology is a Waltham, Massachusetts-based BSS/OSS and digital business software vendor and a wholly owned subsidiary of NEC Corporation. It sells cloud BSS, digital commerce and monetization, convergent charging, service and network orchestration, and API management and integration software to communications service providers worldwide — it is a supplier to carriers rather than a carrier itself, sitting one layer behind the operator in the telecom value chain and never touching a public developer directly. Netcracker is a long-standing TM Forum participant, claims the TM Forum Platinum Badge for Open API and \"Ready for ODA\" certification for its BSS/OSS portfolio, and contributed conformance toolkits to the TM Forum Open API program. Its API posture toward the outside world is honestly partner-gated: netcracker.com publishes no developer portal (developer., developers., docs., api. subdomains do not resolve; /developer, /developers and /api all return 404), no product OpenAPI is downloadable, and every commercial API — the TM Forum Open APIs its products implement — reaches integrators only through a customer or partner engagement. The one genuinely public, self-serve API surface Netcracker publishes is Qubership, its open-source cloud platform at github.com/Netcracker and netcracker.github.io, which ships real, downloadable OpenAPI contracts for its APIHUB API registry, integration, messaging and database services. On CAMARA, Netcracker names the standard in product marketing alongside TM Forum, MEF, ETSI, 3GPP and O-RAN and says CSPs can monetize \"plug and play developer APIs, such as those from CAMARA\" — but no CAMARA API is implemented, specified or callable anywhere in its public surface. That is a positioning statement, not an implementation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png",
-     "score": 58.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 57.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 75.6,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 58.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Network Vendors & BSS/OSS",
-     "rank": 10
-    },
-    {
-     "name": "América Móvil",
-     "slug": "america-movil",
-     "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png",
-     "score": 58.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 60.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 54.2,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 72.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
      "rank": 11
     },
     {
@@ -644,7 +644,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -697,7 +697,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -750,7 +750,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -803,7 +803,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -847,7 +847,7 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 42.5,
+      "contract_quality": 42.4,
       "governance": 69.7,
       "contract_governance": 69.7,
       "operational_transparency": 23.7,
@@ -855,7 +855,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -908,7 +908,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -961,7 +961,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1008,131 +1008,15 @@
      "rank": 18
     },
     {
-     "name": "RingCentral",
-     "slug": "ringcentral",
-     "description": "RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png",
-     "score": 54.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 62.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 40.8,
-      "access_clarity": 40.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 54.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 41.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": true,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "UCaaS & Cloud Voice",
-     "rank": 19
-    },
-    {
-     "name": "TELUS",
-     "slug": "telus",
-     "description": "TELUS Corporation is one of Canada's three national facilities-based telecommunications carriers, operating a nationwide mobile network alongside broadband, TV, security, health (TELUS Health) and agriculture (TELUS Agriculture & Consumer Goods) businesses from its Vancouver headquarters. In the API value chain TELUS is a network owner rather than a developer-facing platform: its API Marketplace at api.telus.com sits behind the TELUS Client Identity login, its developers.telus.com \"Simplify\" portal is an internal/partner surface that refuses anonymous requests, and its IoT Marketplace is a login wall. Two TELUS APIs are nonetheless documented in the open, and neither is on a telus.com property. The TELUS Insights Location API publishes a 27-operation reference through Postman Documenter and runs a live OAuth2-protected gateway. The TELUS Health Collaborative Health Record (CHR) Enterprise API is a substantial GraphQL platform — 505 types, 64 queries, 49 mutations and a 21-topic signed webhook service — whose full introspection document is anonymously fetchable from apidocs.ca.inputhealth.com, making it the only machine-readable API contract TELUS publishes anywhere. Both are gated commercially: Insights credentials come from a sales-led ticket in the Insights Portal, and CHR Enterprise API access is a paid feature enabled per clinic account after a contract and a privacy questionnaire. TELUS is a named participant in the CAMARA project and appears in the CAMARA landscape as an operator, but it publishes no first-party CAMARA endpoint — its Number Verification and SIM Swap network APIs reach developers indirectly through EnStream LP, the Bell/Rogers/TELUS identity joint venture, which feeds Aduna and from there CPaaS channels such as Vonage. TELUS is partner-gated and, for network APIs, reachable only through aggregators.",
-     "score": 54.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 53.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 68.5,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 75.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 20
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 30,
-   "shown": 30,
-   "providers": [
-    {
      "name": "GSMA",
      "slug": "gsma",
      "description": "The GSMA (GSM Association) is the London-headquartered global trade body for the mobile industry, representing roughly 750 mobile network operators and around 400 companies in the wider mobile ecosystem, and the organiser of MWC Barcelona. In telecom's API value chain the GSMA is not a network operator and not an aggregator; it is the standards and commitment layer. Its GSMA Open Gateway initiative is the memorandum of understanding under which 69 operator groups, representing 78% of global mobile connections, commit to exposing a common set of network APIs, while the API specifications themselves are authored in the Linux Foundation's CAMARA project. The GSMA's API posture is unusually open for a standards body: its Open Gateway developer portal at open-gateway.gsma.com publishes 17 CAMARA OpenAPI 3.0.3 documents in full, without login, alongside a live public deployment map covering 607 launched API instances across 80 operators and 65 countries, and it runs a separate, fully open Mobile Money API developer portal with a downloadable OpenAPI 3.0.0 specification, SDKs, and use-case guides. The gates are real but narrow: the API sandbox requires a GitHub sign-in, the anti-fraud Scam Signal API is held in a private GSMA repository rather than in public CAMARA, and the commercial GSMA Services products (Device Check, IMEI Database, PathFinder, Disposable Number Check) are membership and contract gated with no public documentation. The GSMA runs no production network API endpoints of its own — every Open Gateway API is served by an operator or a channel partner such as Infobip, IPification, TMT iD, XConnect, or Singtel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png",
-     "score": 54.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 54.9,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 58.7,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -1141,7 +1025,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1174,8 +1058,124 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
-     "rank": 21
+     "rank": 19
     },
+    {
+     "name": "RingCentral",
+     "slug": "ringcentral",
+     "description": "RingCentral provides unified cloud communications for businesses including voice, video, messaging, contact center, and events. The RingCentral API exposes call control, SMS, faxing, voicemail, presence, team messaging, video, and analytics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png",
+     "score": 54.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 62.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 40.8,
+      "access_clarity": 40.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 54.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 41.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": true,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "UCaaS & Cloud Voice",
+     "rank": 20
+    },
+    {
+     "name": "TELUS",
+     "slug": "telus",
+     "description": "TELUS Corporation is one of Canada's three national facilities-based telecommunications carriers, operating a nationwide mobile network alongside broadband, TV, security, health (TELUS Health) and agriculture (TELUS Agriculture & Consumer Goods) businesses from its Vancouver headquarters. In the API value chain TELUS is a network owner rather than a developer-facing platform: its API Marketplace at api.telus.com sits behind the TELUS Client Identity login, its developers.telus.com \"Simplify\" portal is an internal/partner surface that refuses anonymous requests, and its IoT Marketplace is a login wall. Two TELUS APIs are nonetheless documented in the open, and neither is on a telus.com property. The TELUS Insights Location API publishes a 27-operation reference through Postman Documenter and runs a live OAuth2-protected gateway. The TELUS Health Collaborative Health Record (CHR) Enterprise API is a substantial GraphQL platform — 505 types, 64 queries, 49 mutations and a 21-topic signed webhook service — whose full introspection document is anonymously fetchable from apidocs.ca.inputhealth.com, making it the only machine-readable API contract TELUS publishes anywhere. Both are gated commercially: Insights credentials come from a sales-led ticket in the Insights Portal, and CHR Enterprise API access is a paid feature enabled per clinic account after a contract and a privacy questionnaire. TELUS is a named participant in the CAMARA project and appears in the CAMARA landscape as an operator, but it publishes no first-party CAMARA endpoint — its Number Verification and SIM Swap network APIs reach developers indirectly through EnStream LP, the Bell/Rogers/TELUS identity joint venture, which feeds Aduna and from there CPaaS channels such as Vonage. TELUS is partner-gated and, for network APIs, reachable only through aggregators.",
+     "score": 54.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 68.5,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 75.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 21
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 29,
+   "shown": 29,
+   "providers": [
     {
      "name": "Totogi",
      "slug": "totogi",
@@ -1194,7 +1194,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1247,7 +1247,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1300,7 +1300,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1336,227 +1336,15 @@
      "rank": 24
     },
     {
-     "name": "Rogers Communications",
-     "slug": "rogers",
-     "description": "Rogers Communications is Canada's largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country's largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers' network capabilities reach developers only through intermediaries: EnStream LP, the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft's Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna's integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing is callable from a Rogers-owned domain.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/screenshots/rogers-2026-08-17T081636.png",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 51.2,
-      "commercial_clarity": 69.7,
-      "access_clarity": 69.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 43.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 25
-    },
-    {
-     "name": "Telia Company",
-     "slug": "telia",
-     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
-     "score": 52.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 62.4,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 67.3,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 81.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 26
-    },
-    {
-     "name": "MTN Group",
-     "slug": "mtn-group",
-     "description": "MTN Group is Africa's largest mobile network operator, headquartered in Johannesburg, South Africa, serving roughly 290 million subscribers across around 16 markets in Africa. Beyond mobile voice, data and enterprise connectivity it runs MoMo, one of the continent's largest mobile-money platforms. Unusually for a carrier, MTN publishes a genuinely open developer surface: the MTN Developer Platform (MADAPI) at developers.mtn.com lists 221 API products across 15 African markets and lets anyone download the OpenAPI/Swagger definition for a product without an account, and momodeveloper.mtn.com is a self-serve Azure API Management portal with a sandbox for the MoMo Collection, Disbursements and Remittance APIs. Its catalogue is heavily TM Forum Open API shaped (TMF620, TMF621, TMF622, TMF629, TMF632, TMF633, TMF635, TMF637, TMF639, TMF652, TMF654, TMF658, TMF666, TMF667, TMF676, TMF677, TMF678, TMF681, TMF683, TMF685, TMF688, TMF720). MTN South Africa is a GSMA Open Gateway participant — it announced Number Verification and SIM Swap with Cell C and Telkom in February 2024 — but nothing in its published catalogue is CAMARA-shaped: its SIM Swap and Device Swap APIs are MTN-proprietary designs secured with OAuth2 client-credentials rather than the CAMARA OIDC/CIBA profile, and no CAMARA API is callable from either portal. MTN is not an Aduna shareholder. Sandbox access is self-serve; production access is vetted and commercially negotiated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png",
-     "score": 52.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 66.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mobile Network Operators",
-     "rank": 27
-    },
-    {
-     "name": "Vonage",
-     "slug": "vonage",
-     "description": "Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), video conferencing, and two-factor authentication. SDKs are available for Node.js, Python, Java, PHP, Ruby, .NET, Go, and Kotlin.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png",
-     "score": 52.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 68.6,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 66.7,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 43.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "CPaaS & Messaging Aggregators",
-     "rank": 28
-    },
-    {
      "name": "MEF",
      "slug": "mef",
      "description": "MEF — rebranded as Mplify Alliance on 24 June 2025 — is a US-headquartered nonprofit industry alliance of network, cloud, cybersecurity and enterprise organizations that defines the standards behind Carrier Ethernet, SD-WAN, SASE and Network-as-a-Service, and that publishes the LSO (Lifecycle Service Orchestration) API suite used by carriers to automate wholesale and inter-provider business and operational transactions. MEF sits on the wireline/standards side of the telecom value chain: it does not operate a network and sells no connectivity, it produces specifications, SDKs, an interop test service and the MEF 3.0 LSO API Certification Program that service providers and their software vendors implement. Its API posture is unusually open for this sector — the LSO Cantata, Sonata, Allegro, Interlude, Legato and Presto SDKs are published as Apache-2.0 OpenAPI documents in the public MEF-GIT GitHub organization, and lso.mplify.net is a genuine, no-login developer portal with an API catalog, payload catalog, an API blending tool and SDK release downloads. The membership wall sits one layer in, not around the specs: the per-API Developer Guides on GitHub and the test-requirements documents on the Mplify wiki are member-only, while the machine-readable API definitions themselves are free to anyone. On network APIs MEF is a GSMA Open Gateway MOU signatory (announced 11 November 2025, alongside the GSMA, the Linux Foundation and TM Forum) and ships a pre-standard LSO Quality on Demand payload schema explicitly aligned to the CAMARA QoD API — it complements CAMARA on the wireline side rather than exposing CAMARA endpoints itself, because it has no network to expose.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png",
-     "score": 52.2,
+     "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 66.7,
       "contract_quality": 52.3,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -1565,7 +1353,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1598,6 +1386,218 @@
       "agentic_commerce": false
      },
      "tier": "Standards Bodies",
+     "rank": 25
+    },
+    {
+     "name": "Rogers Communications",
+     "slug": "rogers",
+     "description": "Rogers Communications is Canada's largest wireless carrier and, following its 2023 acquisition of Shaw Communications, one of the country's largest cable, internet, and media companies. It operates a national 5G mobile network, broadband and TV services under the Rogers, Fido, chatr, and Shaw/Ignite brands, and owns Rogers Sports & Media. In the telecom API value chain Rogers sits squarely on the network-operator side, not the developer-facing side: it has no first-party developer portal, publishes no OpenAPI or Swagger definitions, runs no sandbox, and ships no first-party SDKs. Its legacy developer programme, Rogers Catalyst, is dead — www.rogers.com/developer still 301s to a meta-refresh page pointing at rogerscatalyst.com, a domain that no longer belongs to Rogers (re-registered through NameCheap with registrant privacy in December 2023) and that now serves a one-byte blank page. Rogers' network capabilities reach developers only through intermediaries: EnStream LP, the identity and fraud joint venture it co-owns with Bell Mobility and TELUS, which resells Canadian carrier Number Verification and SIM Swap data on a sales-led, contract-first basis with no public documentation; Aduna, the Ericsson-and-carrier joint venture that announced an EnStream partnership in February 2025 to bring Bell, Rogers, and TELUS network APIs onto a CAMARA-aligned platform; and, historically, a Canada-exclusive private preview of Microsoft's Azure Programmable Connectivity announced at MWC 2023, whose public documentation has since been retired. On 2026-06-30 Vonage commercially launched SIM Swap Detection and Silent Authentication across Canada, connecting to Bell, Rogers and TELUS via Aduna's integration with EnStream — the first documented, self-serve way to buy Rogers-derived network signals, though the contract, docs and sandbox all belong to Vonage. Rogers is partner-gated and reachable only through aggregators — the CAMARA posture is real but wholesale, and nothing is callable from a Rogers-owned domain.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rogers/refs/heads/main/screenshots/rogers-2026-08-17T081636.png",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 51.2,
+      "commercial_clarity": 69.7,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 43.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 26
+    },
+    {
+     "name": "Telia Company",
+     "slug": "telia",
+     "description": "Telia Company is the Nordic and Baltic telecommunications group headquartered in Solna, Sweden, operating mobile and fixed networks in Sweden, Finland, Norway, Denmark, Lithuania, Latvia and Estonia, plus a global carrier and IoT business. As a mobile network operator it sits on the connectivity side of the telecom value chain rather than the developer-facing side, and its API posture reflects that split. Telia runs a real first-party developer hub at developer.teliacompany.io that fronts exactly two programmes — LSO Sonata (MEF/Mplify and TM Forum derived wholesale ordering APIs) and CAMARA (GSMA Open Gateway network APIs) — but both catalogs sit on Apigee portals that require an existing commercial agreement with Telia, a whitelisted corporate email domain and manual support approval before any specification or credential is issued. Only one OpenAPI definition is downloadable anonymously across the whole estate. Its CAMARA portal names Quality on Demand and Device Location but publishes nothing callable without login, and Telia reaches network-API developers mainly through Nokia's Network as Code aggregator platform rather than directly. The genuinely open surface is a public Bulk Messaging implementation guide covering an SMPP endpoint and an SMS REST API, and a gRPC audio-forwarding contract for its Telia ACE contact-centre product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png",
+     "score": 52.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 62.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 67.3,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 81.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 27
+    },
+    {
+     "name": "MTN Group",
+     "slug": "mtn-group",
+     "description": "MTN Group is Africa's largest mobile network operator, headquartered in Johannesburg, South Africa, serving roughly 290 million subscribers across around 16 markets in Africa. Beyond mobile voice, data and enterprise connectivity it runs MoMo, one of the continent's largest mobile-money platforms. Unusually for a carrier, MTN publishes a genuinely open developer surface: the MTN Developer Platform (MADAPI) at developers.mtn.com lists 221 API products across 15 African markets and lets anyone download the OpenAPI/Swagger definition for a product without an account, and momodeveloper.mtn.com is a self-serve Azure API Management portal with a sandbox for the MoMo Collection, Disbursements and Remittance APIs. Its catalogue is heavily TM Forum Open API shaped (TMF620, TMF621, TMF622, TMF629, TMF632, TMF633, TMF635, TMF637, TMF639, TMF652, TMF654, TMF658, TMF666, TMF667, TMF676, TMF677, TMF678, TMF681, TMF683, TMF685, TMF688, TMF720). MTN South Africa is a GSMA Open Gateway participant — it announced Number Verification and SIM Swap with Cell C and Telkom in February 2024 — but nothing in its published catalogue is CAMARA-shaped: its SIM Swap and Device Swap APIs are MTN-proprietary designs secured with OAuth2 client-credentials rather than the CAMARA OIDC/CIBA profile, and no CAMARA API is callable from either portal. MTN is not an Aduna shareholder. Sandbox access is self-serve; production access is vetted and commercially negotiated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 58.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 66.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mobile Network Operators",
+     "rank": 28
+    },
+    {
+     "name": "Vonage",
+     "slug": "vonage",
+     "description": "Vonage (part of Ericsson) provides cloud communications APIs for voice, SMS, messaging, video, and verification. The Vonage API platform enables businesses to embed communication capabilities into applications including voice calls, SMS, multi-channel messaging (WhatsApp, Messenger, Viber, RCS), video conferencing, and two-factor authentication. SDKs are available for Node.js, Python, Java, PHP, Ruby, .NET, Go, and Kotlin.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png",
+     "score": 52.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 68.6,
+      "governance": 13.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 66.7,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 43.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 26.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "CPaaS & Messaging Aggregators",
      "rank": 29
     },
     {
@@ -1618,7 +1618,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1671,7 +1671,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1724,7 +1724,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1777,7 +1777,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1830,7 +1830,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1883,7 +1883,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1943,7 +1943,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1996,7 +1996,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2049,7 +2049,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2102,7 +2102,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2155,7 +2155,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2208,7 +2208,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2261,7 +2261,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2314,7 +2314,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2367,7 +2367,7 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2420,7 +2420,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2473,7 +2473,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2526,7 +2526,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2579,7 +2579,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2632,7 +2632,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2685,7 +2685,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2748,7 +2748,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2801,7 +2801,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2854,7 +2854,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2907,7 +2907,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2960,7 +2960,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3006,12 +3006,12 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -3057,7 +3057,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3110,7 +3110,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3163,7 +3163,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3216,7 +3216,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -3262,7 +3262,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3315,7 +3315,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3368,7 +3368,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3421,7 +3421,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3474,7 +3474,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3537,7 +3537,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3576,6 +3576,7 @@
      "name": "Virgin Media O2",
      "slug": "virgin-media-o2",
      "description": "Virgin Media O2 is the United Kingdom's converged fixed and mobile network operator, formed in 2021 as a 50/50 joint venture between Telefonica and Liberty Global by merging Virgin Media's cable broadband business with O2 UK's mobile network. It serves roughly half the UK population across mobile, broadband, and fixed wholesale, and sits at the connectivity layer of the telecom value chain rather than the developer-tools layer. Its API posture is partner-gated and sales-led: probing developer.virginmediao2.co.uk, developers.virginmediao2.co.uk, docs.virginmediao2.co.uk, api.virginmediao2.co.uk, opengateway.virginmediao2.co.uk, developer.o2.co.uk and the virginmediao2business.co.uk equivalents returns DNS failure or HTTP 404 in every case, and neither the o2.co.uk sitemap nor the corporate site contains a developer or API section. Virgin Media O2 is a GSMA Open Gateway participant and on 23 September 2025 joined BT/EE, Vodafone and CK Hutchison (Three UK) in the commercial UK launch of CAMARA-standardised KYC Age Verification and KYC Tenure APIs, with SIM Swap already live and KYC Match committed; but developers reach that network-API surface only through third-party aggregators such as JT Group and TMT.ID, never through a Virgin Media O2 portal. There is no public self-serve signup, no downloadable OpenAPI, no sandbox, and no first-party SDK. Its GitHub organisation exists and is empty.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-media-o2/refs/heads/main/screenshots/virgin-media-o2-2026-09-02T170000.png",
      "score": 24.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3589,7 +3590,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3642,7 +3643,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3695,7 +3696,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3734,6 +3735,7 @@
      "name": "Three UK",
      "slug": "three-uk",
      "description": "Three UK (Hutchison 3G UK Limited, Reading, England) is a United Kingdom mobile network operator that launched in 2003 as the country's first 3G-only carrier and grew into a consumer and business mobile, 5G, and home broadband provider, also operating the SMARTY sub-brand. Since 31 May 2025 Three UK has been a wholly owned subsidiary of VodafoneThree, the merged Vodafone UK / Three UK joint venture that is 51% Vodafone Group and 49% CK Hutchison Holdings, serving roughly 27 million UK customers. In the telecom value chain Three UK is a network owner and access provider, not a developer platform: it sells connectivity, spectrum-backed coverage, wholesale and MVNO capacity, and business connectivity, while its group-level enterprise, IoT, private-network and wholesale propositions are marketed through CK Hutchison's CKH IOD and Three Group Solutions. Its API posture is partner-gated and sales-led. Three UK publishes no public developer portal, no self-serve signup, no downloadable OpenAPI, no SDKs, and no public Postman workspace; every candidate developer hostname (developer, developers, docs, apis, sandbox, opengateway) resolves only to a wildcard Akamai record whose certificate does not cover it, and the Wayback Machine holds no snapshot of a Three UK developer portal ever existing. Three UK is nonetheless a real participant in the sector's standards layer: it is named in the CAMARA Project's governance participants list, its parent CK Hutchison Holdings is listed as an Operator in the CAMARA landscape, and on 23 September 2025 CK Hutchison Group Telecom (Three) commercially launched CAMARA KYC Age Verification and KYC Tenure network APIs alongside BT/EE, Virgin Media O2, and Vodafone under GSMA Open Gateway, on top of an already-available SIM Swap API, with KYC Match committed. Those APIs are reachable only through channel partners and aggregators — JT Group and TMT.ID are named as processing UK operator network API traffic, and Three UK's majority owner Vodafone Group is a founding venture partner in Aduna — never through a Three UK developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/three-uk/refs/heads/main/screenshots/three-uk-2026-09-02T163620.png",
      "score": 20.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3747,7 +3749,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3800,7 +3802,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3852,7 +3854,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3905,7 +3907,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3951,7 +3953,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4004,7 +4006,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4067,7 +4069,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4120,7 +4122,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4173,7 +4175,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4226,7 +4228,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4265,6 +4267,7 @@
      "name": "Skylo",
      "slug": "skylo",
      "description": "Skylo Technologies is a satellite communications company based in Mountain View, California, operating a global Non-Terrestrial Network (NTN) that lets standard smartphones and IoT cellular devices connect directly to satellites over 3GPP Release 17 direct-to-device (D2D) standards for SMS, sensor telemetry, and other low-bandwidth messaging. Founded in 2017 and backed by DCM, SoftBank, Intel Capital, Innovation Endeavors, BMW i Ventures, Samsung Catalyst, Next47, Seraphim Space, and NGP Capital, Skylo has commercial service across the US, Brazil, Australia, New Zealand, and Europe. Skylo does not publish a public REST/HTTP API; developer integration is device-level (certified modules such as Quectel, Murata, Blues Notecard and Particle) with detailed procedures gated behind a partner Knowledge Base. This API Evangelist profile tracks the company and its developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skylo/refs/heads/main/screenshots/skylo-2026-09-02T155807.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4278,7 +4281,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4330,7 +4333,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4376,7 +4379,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4429,7 +4432,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

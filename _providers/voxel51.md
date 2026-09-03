@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The open-source FiftyOne Python SDK is the primary interface for building and curating visual AI datasets - creating Datasets and Samples, slicing data with Views and aggregations, computing embedding
+- baseURL: https://docs.voxel51.com
+  baseurl_source: spec
+  description: The open-source FiftyOne Python SDK is the primary interface for building and curating visual AI datasets - creating Datasets and Samples, slicing data with Views and aggregations, computing embedding
   name: FiftyOne SDK (Python)
   slug: fiftyone-sdk-python
-- description: FiftyOne Enterprise (formerly Teams) adds the fiftyone.management Python module for administering users, service accounts, API keys, dataset permissions, user groups, and cloud credentials. It operate
+- baseURL: https://docs.voxel51.com
+  baseurl_source: spec
+  description: FiftyOne Enterprise (formerly Teams) adds the fiftyone.management Python module for administering users, service accounts, API keys, dataset permissions, user groups, and cloud credentials. It operate
   name: FiftyOne Enterprise Management SDK / API
   slug: fiftyone-enterprise-management-sdk
-- description: The plugin and operator framework extends FiftyOne with custom Python (and JavaScript/React) functionality - new App panels, operators, and integrations that run inside the FiftyOne App and SDK. Plugi
+- baseURL: https://docs.voxel51.com
+  baseurl_source: spec
+  description: The plugin and operator framework extends FiftyOne with custom Python (and JavaScript/React) functionality - new App panels, operators, and integrations that run inside the FiftyOne App and SDK. Plugi
   name: FiftyOne Plugins & Operators
   slug: fiftyone-plugins-operators
 artifact_total: 10
@@ -124,7 +130,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -140,8 +146,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 33.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/screenshots/voxel51-2026-09-02T170300.png
 security:
 - kind: authentication
   name: Voxel51 Authentication

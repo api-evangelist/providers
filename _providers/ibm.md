@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -188,25 +188,39 @@ apis:
 - description: Discover, catalog, categorize, and govern data assets and AI models with an intelligent data catalog for enterprise data governance.
   name: IBM Knowledge Catalog
   slug: ibm-knowledge-catalog
-- description: Create and manage API keys for users and service IDs
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Create and manage API keys for users and service IDs
   name: IBM API Keys API
   slug: ibm-api-keys-api
-- description: Manage claim rules for trusted profiles
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Manage claim rules for trusted profiles
   name: IBM Claim Rules API
   slug: ibm-claim-rules-api
-- description: Create and manage IAM access policies
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Create and manage IAM access policies
   name: IBM Policies API
   slug: ibm-policies-api
-- description: List and manage IAM roles
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: List and manage IAM roles
   name: IBM Roles API
   slug: ibm-roles-api
-- description: Create and manage service IDs for applications and services
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Create and manage service IDs for applications and services
   name: IBM Service IDs API
   slug: ibm-service-ids-api
-- description: Create and manage IAM access tokens
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Create and manage IAM access tokens
   name: IBM Tokens API
   slug: ibm-tokens-api
-- description: Create and manage trusted profiles for federated identities
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Create and manage trusted profiles for federated identities
   name: IBM Trusted Profiles API
   slug: ibm-trusted-profiles-api
 arazzos:
@@ -731,7 +745,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

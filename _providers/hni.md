@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,13 +56,13 @@ description: HNI is a performance-driven risk advisor that delivers insurance, b
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hni.png
 layout: provider
 modified: '2026-04-28'
-name: hni
+name: Hni
 nav: Providers
 network: true
-overview: 'hni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Hni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
-  hni''s developer surface includes engineering blog and 3 more developer resources.'
+  Hni''s developer surface includes engineering blog and 3 more developer resources.'
 press:
 - date: '2026-05-25'
   title: The companies have closed on the acquisition deal, HNI ...
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/screenshots/hni-2026-06-20T182807.png
 security:

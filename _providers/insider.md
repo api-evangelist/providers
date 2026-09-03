@@ -36,85 +36,135 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 18
 apis:
 - description: First-party remote Model Context Protocol server exposing 35 tools across Email, SMS, WhatsApp, Web Push, Mobile App and Architect — 28 read-only and 7 that create drafts for human review. Authenticat
   name: Insider One MCP Server
   slug: insider-one-mcp-server
-- description: The Algorithm Descriptions API from Insider — 19 operation(s) for algorithm descriptions.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Algorithm Descriptions API from Insider — 19 operation(s) for algorithm descriptions.
   name: Insider Algorithm Descriptions API
   slug: insider-algorithm-descriptions-api
-- description: The Architect API from Insider — 6 operation(s) for architect.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Architect API from Insider — 6 operation(s) for architect.
   name: Insider Architect API
   slug: insider-architect-api
-- description: The Catalog APIs API from Insider — 5 operation(s) for catalog apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Catalog APIs API from Insider — 5 operation(s) for catalog apis.
   name: Insider Catalog APIs API
   slug: insider-catalog-apis-api
-- description: The Category Merchandising API API from Insider — 2 operation(s) for category merchandising api.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Category Merchandising API API from Insider — 2 operation(s) for category merchandising api.
   name: Insider Category Merchandising API
   slug: insider-category-merchandising-api-api
-- description: The Conversational API API from Insider — 3 operation(s) for conversational api.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Conversational API API from Insider — 3 operation(s) for conversational api.
   name: Insider Conversational API
   slug: insider-conversational-api-api
-- description: The Data Governance APIs API from Insider — 4 operation(s) for data governance apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Data Governance APIs API from Insider — 4 operation(s) for data governance apis.
   name: Insider Data Governance APIs API
   slug: insider-data-governance-apis-api
-- description: The Email API from Insider — 10 operation(s) for email.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Email API from Insider — 10 operation(s) for email.
   name: Insider Email API
   slug: insider-email-api
-- description: The Email APIs API from Insider — 2 operation(s) for email apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Email APIs API from Insider — 2 operation(s) for email apis.
   name: Insider Email APIs API
   slug: insider-email-apis-api
-- description: The Event Collection API API from Insider — 1 operation(s) for event collection api.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Event Collection API API from Insider — 1 operation(s) for event collection api.
   name: Insider Event Collection API
   slug: insider-event-collection-api-api
-- description: The Live Activities API from Insider — 6 operation(s) for live activities.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Live Activities API from Insider — 6 operation(s) for live activities.
   name: Insider Live Activities API
   slug: insider-live-activities-api
-- description: The Mobile App API from Insider — 1 operation(s) for mobile app.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Mobile App API from Insider — 1 operation(s) for mobile app.
   name: Insider Mobile App API
   slug: insider-mobile-app-api
-- description: The Mobile App APIs API from Insider — 6 operation(s) for mobile app apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Mobile App APIs API from Insider — 6 operation(s) for mobile app apis.
   name: Insider Mobile App APIs API
   slug: insider-mobile-app-apis-api
-- description: The OnSite API from Insider — 3 operation(s) for onsite.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The OnSite API from Insider — 3 operation(s) for onsite.
   name: Insider On Site API
   slug: insider-onsite-api
-- description: The OTP for SMS API from Insider — 5 operation(s) for otp for sms.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The OTP for SMS API from Insider — 5 operation(s) for otp for sms.
   name: Insider OTP for SMS API
   slug: insider-otp-for-sms-api
-- description: The OTP for WhatsApp API from Insider — 3 operation(s) for otp for whatsapp.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The OTP for WhatsApp API from Insider — 3 operation(s) for otp for whatsapp.
   name: Insider OTP for WhatsApp API
   slug: insider-otp-for-whatsapp-api
-- description: The Recommendations API from Insider — 1 operation(s) for recommendations.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Recommendations API from Insider — 1 operation(s) for recommendations.
   name: Insider Recommendations API
   slug: insider-recommendations-api
-- description: The Search APIs API from Insider — 2 operation(s) for search apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Search APIs API from Insider — 2 operation(s) for search apis.
   name: Insider Search APIs API
   slug: insider-search-apis-api
-- description: The SMS API from Insider — 9 operation(s) for sms.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The SMS API from Insider — 9 operation(s) for sms.
   name: Insider SMS API
   slug: insider-sms-api
-- description: The Transactional API API from Insider — 3 operation(s) for transactional api.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Transactional API API from Insider — 3 operation(s) for transactional api.
   name: Insider Transactional API
   slug: insider-transactional-api-api
-- description: The Transactional Journeys API from Insider — 1 operation(s) for transactional journeys.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Transactional Journeys API from Insider — 1 operation(s) for transactional journeys.
   name: Insider Transactional Journeys API
   slug: insider-transactional-journeys-api
-- description: The Transactional SMS API from Insider — 2 operation(s) for transactional sms.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Transactional SMS API from Insider — 2 operation(s) for transactional sms.
   name: Insider Transactional SMS API
   slug: insider-transactional-sms-api
-- description: The User Data APIs API from Insider — 6 operation(s) for user data apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The User Data APIs API from Insider — 6 operation(s) for user data apis.
   name: Insider User Data APIs API
   slug: insider-user-data-apis-api
-- description: The Web Push API from Insider — 3 operation(s) for web push.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Web Push API from Insider — 3 operation(s) for web push.
   name: Insider Web Push API
   slug: insider-web-push-api
-- description: The Web Push APIs API from Insider — 3 operation(s) for web push apis.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The Web Push APIs API from Insider — 3 operation(s) for web push apis.
   name: Insider Web Push APIs API
   slug: insider-web-push-apis-api
-- description: The WhatsApp API from Insider — 4 operation(s) for whatsapp.
+- baseURL: https://unification.useinsider.com
+  baseurl_source: declared
+  description: The WhatsApp API from Insider — 4 operation(s) for whatsapp.
   name: Insider Whats App API
   slug: insider-whatsapp-api
 artifact_total: 53
@@ -439,7 +489,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -449,7 +499,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.4
+  previous_composite: 54.3
   provenance:
     conformance: first-party
     contracts:
@@ -470,7 +520,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:

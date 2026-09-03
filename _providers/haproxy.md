@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The HAProxy Data Plane API is a REST API for managing HAProxy configuration dynamically. It allows runtime configuration of frontends, backends, servers, ACLs, and other HAProxy objects without requir
+- baseURL: http://{haproxy-host}:5555/v3
+  baseurl_source: declared
+  description: The HAProxy Data Plane API is a REST API for managing HAProxy configuration dynamically. It allows runtime configuration of frontends, backends, servers, ACLs, and other HAProxy objects without requir
   name: HAProxy Data Plane API
   slug: haproxy-data-plane-api
 - description: 'The HAProxy Runtime API (formerly known as the stats socket) is a socket-based interface for dynamically managing HAProxy at runtime. It allows operators to enable or disable servers, adjust weights, '
@@ -202,18 +204,18 @@ rate_limits:
   slug: haproxy-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 44.6
   coverage:
     artifact_dirs: 21
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.4
+  delta: 0.8
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 4.5
-    contract_quality: 47.6
+    contract_quality: 51.0
     developer_ergonomics: 63.7
     discoverability: 74.1
     governance: 4.5
@@ -221,7 +223,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 46.2
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -232,7 +234,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haproxy/refs/heads/main/screenshots/haproxy-2026-06-20T182509.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 722 operations · 419 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth API from Socotra — 41 operation(s) for auth.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Auth API from Socotra — 41 operation(s) for auth.
   name: Socotra Auth API
   slug: socotra-auth-api
-- description: The Auxdata API from Socotra — 16 operation(s) for auxdata.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Auxdata API from Socotra — 16 operation(s) for auxdata.
   name: Socotra Auxdata API
   slug: socotra-auxdata-api
-- description: The Billing API from Socotra — 124 operation(s) for billing.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Billing API from Socotra — 124 operation(s) for billing.
   name: Socotra Billing API
   slug: socotra-billing-api
-- description: The Business Stats API from Socotra — 16 operation(s) for business stats.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Business Stats API from Socotra — 16 operation(s) for business stats.
   name: Socotra Business Stats API
   slug: socotra-business-stats-api
-- description: The Claim API from Socotra — 23 operation(s) for claim.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Claim API from Socotra — 23 operation(s) for claim.
   name: Socotra Claim API
   slug: socotra-claim-api
-- description: The Compliance API from Socotra — 4 operation(s) for compliance.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Compliance API from Socotra — 4 operation(s) for compliance.
   name: Socotra Compliance API
   slug: socotra-compliance-api
-- description: The Config API from Socotra — 19 operation(s) for config.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Config API from Socotra — 19 operation(s) for config.
   name: Socotra Config API
   slug: socotra-config-api
-- description: The Contact API from Socotra — 7 operation(s) for contact.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Contact API from Socotra — 7 operation(s) for contact.
   name: Socotra Contact API
   slug: socotra-contact-api
-- description: The Document API from Socotra — 28 operation(s) for document.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Document API from Socotra — 28 operation(s) for document.
   name: Socotra Document API
   slug: socotra-document-api
-- description: The Event API from Socotra — 18 operation(s) for event.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Event API from Socotra — 18 operation(s) for event.
   name: Socotra Event API
   slug: socotra-event-api
-- description: The Migration API from Socotra — 12 operation(s) for migration.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Migration API from Socotra — 12 operation(s) for migration.
   name: Socotra Migration API
   slug: socotra-migration-api
-- description: The Payment Execution API from Socotra — 5 operation(s) for payment execution.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Payment Execution API from Socotra — 5 operation(s) for payment execution.
   name: Socotra Payment Execution API
   slug: socotra-payment-execution-api
-- description: The Plugin API from Socotra — 5 operation(s) for plugin.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Plugin API from Socotra — 5 operation(s) for plugin.
   name: Socotra Plugin API
   slug: socotra-plugin-api
-- description: The Policy API from Socotra — 180 operation(s) for policy.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Policy API from Socotra — 180 operation(s) for policy.
   name: Socotra Policy API
   slug: socotra-policy-api
-- description: The Producers API from Socotra — 31 operation(s) for producers.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Producers API from Socotra — 31 operation(s) for producers.
   name: Socotra Producers API
   slug: socotra-producers-api
-- description: The Resource API from Socotra — 33 operation(s) for resource.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Resource API from Socotra — 33 operation(s) for resource.
   name: Socotra Resource API
   slug: socotra-resource-api
-- description: The Search API from Socotra — 4 operation(s) for search.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Search API from Socotra — 4 operation(s) for search.
   name: Socotra Search API
   slug: socotra-search-api
-- description: The Work Management API from Socotra — 39 operation(s) for work management.
+- baseURL: https://api.sandbox.socotra.com
+  baseurl_source: declared
+  description: The Work Management API from Socotra — 39 operation(s) for work management.
   name: Socotra Work Management API
   slug: socotra-work-management-api
 artifact_total: 43
@@ -321,7 +357,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -331,7 +367,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -349,7 +385,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
 security:

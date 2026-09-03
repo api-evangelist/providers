@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,34 +45,54 @@ agentic_access:
   summary_line: 21 operations
 api_count: 10
 apis:
-- description: Public, unauthenticated read access to the Envisics newsroom archive — press releases, news items, tech-shorts and did-you-know posts — via the WordPress core REST API. Verified live at 34 published p
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Envisics newsroom archive — press releases, news items, tech-shorts and did-you-know posts — via the WordPress core REST API. Verified live at 34 published p
   name: Envisics Posts API
   slug: envisics-posts-api
-- description: 'Public, unauthenticated read access to the static pages of envisics.com — Products, Technology, Company, Newsroom, Multi Media, Careers, Contact, Terms of Use, Supplier Terms & Conditions and Privacy '
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the static pages of envisics.com — Products, Technology, Company, Newsroom, Multi Media, Careers, Contact, Terms of Use, Supplier Terms & Conditions and Privacy '
   name: Envisics Pages API
   slug: envisics-pages-api
-- description: Public, unauthenticated read access to the media library behind envisics.com — AR HUD product imagery, holographic waveguide renders, press photography and brand assets with their generated size varia
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind envisics.com — AR HUD product imagery, holographic waveguide renders, press photography and brand assets with their generated size varia
   name: Envisics Media API
   slug: envisics-media-api
-- description: Public, unauthenticated cross-content search over envisics.com — posts and pages — returning lightweight id / title / url / type / subtype records. Verified live at 62 searchable objects on 2026-08-12
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over envisics.com — posts and pages — returning lightweight id / title / url / type / subtype records. Verified live at 62 searchable objects on 2026-08-12
   name: Envisics Search API
   slug: envisics-search-api
-- description: Public, unauthenticated discovery metadata for envisics.com — the registered content types and taxonomies, the publication statuses, and the public author records. This is the surface that makes the r
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated discovery metadata for envisics.com — the registered content types and taxonomies, the publication statuses, and the public author records. This is the surface that makes the r
   name: Envisics Discovery API
   slug: envisics-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for envisics.com URLs, returning embeddable rich metadata — title, author, dimensions and iframe HTML — for any post or page on the site.
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for envisics.com URLs, returning embeddable rich metadata — title, author, dimensions and iframe HTML — for any post or page on the site.
   name: Envisics oEmbed API
   slug: envisics-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any envisics.com URL — a structured-data view of every page without scraping the HTML.
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any envisics.com URL — a structured-data view of every page without scraping the HTML.
   name: Envisics SEO Metadata API
   slug: envisics-seo-api
-- description: Newsroom categories.
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Newsroom categories.
   name: Envisics Categories API
   slug: envisics-categories-api
-- description: Newsroom tags.
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Newsroom tags.
   name: Envisics Tags API
   slug: envisics-tags-api
-- description: Public author records.
+- baseURL: https://envisics.com/wp-json
+  baseurl_source: declared
+  description: Public author records.
   name: Envisics Users API
   slug: envisics-users-api
 artifact_total: 23
@@ -240,11 +272,11 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -254,7 +286,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 20.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +298,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/envisics/refs/heads/main/screenshots/envisics-2026-09-02T145408.png
 security:
 - kind: authentication
   name: Envisics Authentication

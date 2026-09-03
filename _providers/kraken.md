@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 71 operations · 45 acting
 api_count: 24
 apis:
-- description: 'Real-time market data and private user data over WebSocket v2 using subscribe/unsubscribe semantics. Public channels include ticker (L1), book (L2), trade, ohlc, instrument, and admin frames (status, '
+- baseURL: wss://ws.kraken.com/v2
+  baseurl_source: declared
+  description: 'Real-time market data and private user data over WebSocket v2 using subscribe/unsubscribe semantics. Public channels include ticker (L1), book (L2), trade, ohlc, instrument, and admin frames (status, '
   name: Kraken Spot WebSocket API v2
   slug: kraken-spot-websocket-api-v2
 - description: Legacy Kraken Spot WebSocket API. Continues to operate alongside v2 but v2 is the recommended path for new integrations. Public channels include ticker, book, trade, ohlc, spread; private channels inc
@@ -59,7 +61,9 @@ apis:
 - description: 'REST API for Kraken''s NFT marketplace surfaces: collections, asset lookups, listings, offers, watchlist, and user portfolio views. The NFT API is consumed alongside the Spot REST API using the same AP'
   name: Kraken NFT API
   slug: kraken-nft-api
-- description: REST endpoints for Kraken Earn (staking, yield, rewards). Lists strategies, allocates funds to a strategy, deallocates funds, and surfaces allocation status and reward history.
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: REST endpoints for Kraken Earn (staking, yield, rewards). Lists strategies, allocates funds to a strategy, deallocates funds, and surfaces allocation status and reward history.
   name: Kraken Earn API
   slug: kraken-earn-api
 - description: B2B integration API enabling partners to embed Kraken trading, custody, and Earn capabilities into their own products. Provides user management, assets, deposits, withdrawals, quote-based and custom o
@@ -80,40 +84,64 @@ apis:
 - description: Prime brokerage API surface (REST, WebSocket, FIX) for institutional clients consolidating execution, custody, financing, and reporting under a single relationship.
   name: Kraken Prime REST + WebSocket + FIX API
   slug: kraken-prime-rest-websocket-fix-api
-- description: Accounts, positions, orders, fills
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Accounts, positions, orders, fills
   name: Kraken Account API
   slug: kraken-account-api
-- description: Private endpoints returning account-scoped data
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Private endpoints returning account-scoped data
   name: Kraken Account Data API
   slug: kraken-account-data-api
-- description: API key checks
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: API key checks
   name: Kraken Auth API
   slug: kraken-auth-api
-- description: OHLC candle data and analytics
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: OHLC candle data and analytics
   name: Kraken Charts API
   slug: kraken-charts-api
-- description: Staking and yield allocation endpoints
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Staking and yield allocation endpoints
   name: Kraken Earn API
   slug: kraken-earn-api
-- description: Private endpoints for deposits, withdrawals, and transfers
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Private endpoints for deposits, withdrawals, and transfers
   name: Kraken Funding API
   slug: kraken-funding-api
-- description: Account, execution, order, trigger, and market history
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Account, execution, order, trigger, and market history
   name: Kraken History API
   slug: kraken-history-api
-- description: Public market data (no authentication required)
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Public market data (no authentication required)
   name: Kraken Market Data API
   slug: kraken-market-data-api
-- description: Subaccount creation and inter-account transfers
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Subaccount creation and inter-account transfers
   name: Kraken Subaccounts API
   slug: kraken-subaccounts-api
-- description: Order placement, edit, and cancellation
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Order placement, edit, and cancellation
   name: Kraken Trading API
   slug: kraken-trading-api
-- description: Wallet, margin, and subaccount transfers
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Wallet, margin, and subaccount transfers
   name: Kraken Transfers API
   slug: kraken-transfers-api
-- description: Endpoints that mint tokens for private WebSocket subscriptions
+- baseURL: https://api.kraken.com
+  baseurl_source: declared
+  description: Endpoints that mint tokens for private WebSocket subscriptions
   name: Kraken WebSocket API
   slug: kraken-websocket-api
 arazzos:
@@ -1501,7 +1529,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -1511,7 +1539,7 @@ score:
     discoverability: 88.9
     governance: 33.3
     operational_transparency: 50.0
-  previous_composite: 72.2
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1528,7 +1556,7 @@ score:
     regime_id: securities_market_data
     score: 83.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

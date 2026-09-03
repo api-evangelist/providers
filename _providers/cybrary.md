@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +46,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Daily completion-event exports as xAPI statements.
+- baseURL: https://app.cybrary.it/courses/api
+  baseurl_source: declared
+  description: Daily completion-event exports as xAPI statements.
   name: Cybrary Completions API
   slug: cybrary-completions-api
 artifact_total: 10
@@ -232,7 +247,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybrary/refs/heads/main/screenshots/cybrary-2026-08-07T164005.png
 security:

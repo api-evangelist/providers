@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -33,28 +46,44 @@ agentic_access:
   summary_line: 62 operations · 39 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: 'Secret keys provided to your company will be used for login. After successful login, you must use the token returned to your company in other endpoints. The validity period of the token is 1 hour, at '
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: 'Secret keys provided to your company will be used for login. After successful login, you must use the token returned to your company in other endpoints. The validity period of the token is 1 hour, at '
   name: Getir Auth API
   slug: getir-auth-api
-- description: The chain-menus API from Getir — 4 operation(s) for chain-menus.
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: The chain-menus API from Getir — 4 operation(s) for chain-menus.
   name: Getir Chain Menus API
   slug: getir-chain-menus-api
-- description: The changelog API from Getir — 1 operation(s) for changelog.
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: The changelog API from Getir — 1 operation(s) for changelog.
   name: Getir Changelog API
   slug: getir-changelog-api
-- description: Endpoints about food orders
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: Endpoints about food orders
   name: Getir Food Orders API
   slug: getir-food-orders-api
-- description: This endpoint can be used to check the health of the application
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: This endpoint can be used to check the health of the application
   name: Getir Health API
   slug: getir-health-api
-- description: The payment-methods API from Getir — 1 operation(s) for payment-methods.
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: The payment-methods API from Getir — 1 operation(s) for payment-methods.
   name: Getir Payment Methods API
   slug: getir-payment-methods-api
-- description: Endpoints in the products section can be used with product information obtained from restaurant endpoints.
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: Endpoints in the products section can be used with product information obtained from restaurant endpoints.
   name: Getir Products API
   slug: getir-products-api
-- description: Endpoints about restaurant and courier opening and closing features can be seen in the restaurants section.
+- baseURL: https://food-external-api-gateway.getirapi.com
+  baseurl_source: declared
+  description: Endpoints about restaurant and courier opening and closing features can be seen in the restaurants section.
   name: Getir Restaurants API
   slug: getir-restaurants-api
 artifact_total: 15
@@ -204,7 +233,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -214,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 34.8
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,7 +255,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:

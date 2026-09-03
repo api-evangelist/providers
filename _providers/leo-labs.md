@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
+- baseURL: https://api.leolabs.space/v1
+  baseurl_source: declared
+  description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
   name: LeoLabs catalog API
   slug: leo-labs-catalog-api
-- description: LeoLabs radar instruments and their tasking.
+- baseURL: https://api.leolabs.space/v1
+  baseurl_source: declared
+  description: LeoLabs radar instruments and their tasking.
   name: LeoLabs instruments API
   slug: leo-labs-instruments-api
 artifact_total: 10
@@ -201,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png
 security:

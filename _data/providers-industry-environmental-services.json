@@ -29,7 +29,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -60,6 +60,7 @@
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wm/refs/heads/main/screenshots/wm-2026-09-02T170901.png",
      "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
@@ -73,7 +74,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -108,8 +109,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "AECOM",
@@ -129,7 +130,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -157,25 +158,32 @@
      "rank": 3
     },
     {
-     "name": "Waste Connections",
-     "slug": "waste-connections",
-     "description": "Waste Connections is the third-largest integrated provider of solid waste services in North America, serving approximately nine million residential, commercial, and industrial customers across 46 U.S. states and six Canadian provinces. The company provides non-hazardous waste collection, transfer, disposal, and recycling services, primarily in exclusive and secondary markets. Waste Connections is investing in AI-powered dynamic routing and expanding customer connectivity features through its online customer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/screenshots/waste-connections-2026-06-20T201242.png",
-     "score": 17.4,
+     "name": "American Water Works",
+     "slug": "american-water-works",
+     "description": "American Water Works Company is the largest publicly traded U.S. water and wastewater utility company, providing drinking water, wastewater, and other related services to approximately 14 million people in more than 1,700 communities across 14 states. The company operates through regulated utility subsidiaries and offers customer self-service through its MyWater online portal and mobile app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png",
+     "score": 18.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 14.7,
-      "governance": 15.2,
-      "contract_governance": 15.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 27.0,
+      "matched_via": "tags"
+     },
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -202,6 +210,51 @@
      "rank": 4
     },
     {
+     "name": "Waste Connections",
+     "slug": "waste-connections",
+     "description": "Waste Connections is the third-largest integrated provider of solid waste services in North America, serving approximately nine million residential, commercial, and industrial customers across 46 U.S. states and six Canadian provinces. The company provides non-hazardous waste collection, transfer, disposal, and recycling services, primarily in exclusive and secondary markets. Waste Connections is investing in AI-powered dynamic routing and expanding customer connectivity features through its online customer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/screenshots/waste-connections-2026-06-20T201242.png",
+     "score": 17.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 14.7,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
+    {
      "name": "Stericycle",
      "slug": "stericycle",
      "description": "Stericycle is a Fortune 500 compliance company specializing in regulated medical waste disposal, sharps management, pharmaceutical waste, secure information destruction, and healthcare compliance training. In November 2024, Stericycle was acquired by Waste Management (WM) for approximately $7.2 billion. The company operates as WM Healthcare Solutions division, serving hospitals, clinics, medical offices, dental practices, veterinary facilities, and other healthcare organizations. Stericycle's MyStericycle customer portal enables online account management, scheduling, compliance training, and billing.",
@@ -219,7 +272,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -251,7 +304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Clean Harbors",
@@ -271,7 +324,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -296,7 +349,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     }
    ],
    "open": true
@@ -306,8 +359,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Rollins",
@@ -327,7 +380,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -352,7 +405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Amentum",
@@ -372,7 +425,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -404,7 +457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "HONESS (Shanghai Hongji Environmental Protection)",
@@ -424,52 +477,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "Republic Services",
-     "slug": "republic-services",
-     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
-     "score": 7.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -497,32 +505,25 @@
      "rank": 10
     },
     {
-     "name": "American Water Works",
-     "slug": "american-water-works",
-     "description": "American Water Works Company is the largest publicly traded U.S. water and wastewater utility company, providing drinking water, wastewater, and other related services to approximately 14 million people in more than 1,700 communities across 14 states. The company operates through regulated utility subsidiaries and offers customer self-service through its MyWater online portal and mobile app.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png",
-     "score": 6.8,
+     "name": "Republic Services",
+     "slug": "republic-services",
+     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "discoverability": 40.7,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 16.2,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -566,7 +567,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -611,7 +612,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -656,7 +657,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -701,7 +702,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 75 operations · 45 acting
 api_count: 1
 apis:
-- description: These endpoints allow you to list the contacts in your address book.<br><br>To add/remove contacts, visit the Fordefi web console. See the <a href='https://docs.fordefi.com/user-guide/address-book'>us
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to list the contacts in your address book.<br><br>To add/remove contacts, visit the Fordefi web console. See the <a href='https://docs.fordefi.com/user-guide/address-book'>us
   name: Fordefi Address Book API
   slug: fordefi-address-book-api
-- description: These endpoints allow you to get information about the assets in your organization, including metadata, balances, and prices. <br><br> Fordefi supports native assets and fungible tokens on each of the
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to get information about the assets in your organization, including metadata, balances, and prices. <br><br> Fordefi supports native assets and fungible tokens on each of the
   name: Fordefi Assets API
   slug: fordefi-assets-api
-- description: These endpoints allow you to manage audit logs. <br><br> Audit logs are used to track the actions of users in your organization.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage audit logs. <br><br> Audit logs are used to track the actions of users in your organization.
   name: Fordefi Audit Log API
   slug: fordefi-audit-log-api
-- description: These endpoints allow you to manage end-user authorization tokens used for Fordefi's WaaS solution.<br><br>Authorization tokens allow end users to authenticate with Fordefi. Each end user can have a m
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage end-user authorization tokens used for Fordefi's WaaS solution.<br><br>Authorization tokens allow end users to authenticate with Fordefi. Each end user can have a m
   name: Fordefi Authorization Tokens API
   slug: fordefi-authorization-tokens-api
-- description: These endpoints allow you to manage batch transactions on the Fordefi platform. <br><br> Batch transactions are currently supported only on Solana, for the purpose of supporting the `signAllTransactio
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage batch transactions on the Fordefi platform. <br><br> Batch transactions are currently supported only on Solana, for the purpose of supporting the `signAllTransactio
   name: Fordefi Batch Transactions API
   slug: fordefi-batch-transactions-api
-- description: These endpoints allow you to get information about blockchains supported by Fordefi.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to get information about blockchains supported by Fordefi.
   name: Fordefi Blockchains API
   slug: fordefi-blockchains-api
-- description: The Enclave Keys API from Fordefi — 1 operation(s) for enclave keys.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: The Enclave Keys API from Fordefi — 1 operation(s) for enclave keys.
   name: Fordefi Enclave Keys API
   slug: fordefi-enclave-keys-api
-- description: 'These endpoints allow you to manage WaaS end-users. <br><br> End users correspond to users of the platform who has integrated the Fordefi WaaS solution. For example, in the case of a retail platform, '
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: 'These endpoints allow you to manage WaaS end-users. <br><br> End users correspond to users of the platform who has integrated the Fordefi WaaS solution. For example, in the case of a retail platform, '
   name: Fordefi End Users API
   slug: fordefi-end-users-api
-- description: These endpoints allow you to manage asynchronous actions such as data exports.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage asynchronous actions such as data exports.
   name: Fordefi Exports API
   slug: fordefi-exports-api
-- description: The Organizations API from Fordefi — 4 operation(s) for organizations.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: The Organizations API from Fordefi — 4 operation(s) for organizations.
   name: Fordefi Organizations API
   slug: fordefi-organizations-api
-- description: These endpoints allow you to manage swaps.
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage swaps.
   name: Fordefi Swaps API
   slug: fordefi-swaps-api
-- description: 'These endpoints allow you to manage transactions on the Fordefi platform. <br><br> A transaction represents an operation that can be one of the following: <ul> <li>An on-chain action that modifies blo'
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: 'These endpoints allow you to manage transactions on the Fordefi platform. <br><br> A transaction represents an operation that can be one of the following: <ul> <li>An on-chain action that modifies blo'
   name: Fordefi Transactions API
   slug: fordefi-transactions-api
-- description: These endpoints allow you to view your user groups. <br><br> User Groups are used to collectively manage policies and view permissions for a group of users. <br><br> The API is read-only. To manage us
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to view your user groups. <br><br> User Groups are used to collectively manage policies and view permissions for a group of users. <br><br> The API is read-only. To manage us
   name: Fordefi User Groups API
   slug: fordefi-user-groups-api
-- description: 'These endpoints allow you to get information about users in your Fordefi organization. There are several types of users in the Fordefi platform: - **Person**: A human user of the platform. - **API Use'
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: 'These endpoints allow you to get information about users in your Fordefi organization. There are several types of users in the Fordefi platform: - **Person**: A human user of the platform. - **API Use'
   name: Fordefi Users API
   slug: fordefi-users-api
-- description: These endpoints allow you to view your vault groups. <br><br> Vault Groups are used to collectively manage policies and view permissions for a group of vaults. <br><br> The API is read-only. To manage
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to view your vault groups. <br><br> Vault Groups are used to collectively manage policies and view permissions for a group of vaults. <br><br> The API is read-only. To manage
   name: Fordefi Vault Groups API
   slug: fordefi-vault-groups-api
-- description: These endpoints allow you to manage vaults. <br><br> A vault is the basic unit to manage funds. Each vault supports a single "chain family", such as EVM, Bitcoin, Solana, Cosmos, etc., determined by t
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: These endpoints allow you to manage vaults. <br><br> A vault is the basic unit to manage funds. Each vault supports a single "chain family", such as EVM, Bitcoin, Solana, Cosmos, etc., determined by t
   name: Fordefi Vaults API
   slug: fordefi-vaults-api
-- description: 'These endpoints allow you to manually trigger your pre-configured webhooks.<br><br><a href=''https://docs.fordefi.com/reference/webhooks''>Use Webhooks</a> describes how to configure webhooks, validate '
+- baseURL: https://api.fordefi.com/
+  baseurl_source: declared
+  description: 'These endpoints allow you to manually trigger your pre-configured webhooks.<br><br><a href=''https://docs.fordefi.com/reference/webhooks''>Use Webhooks</a> describes how to configure webhooks, validate '
   name: Fordefi Webhooks API
   slug: fordefi-webhooks-api
 artifact_total: 41
@@ -307,7 +341,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -317,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.2
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,7 +369,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/screenshots/fordefi-2026-07-25T214929.png
 security:

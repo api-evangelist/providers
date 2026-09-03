@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Objects removed from OpenStreetMap but retained in Nominatim.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Objects removed from OpenStreetMap but retained in Nominatim.
   name: Nominatim Deletable API
   slug: nominatim-deletable-api
-- description: Internal place details, intended for debugging.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Internal place details, intended for debugging.
   name: Nominatim Details API
   slug: nominatim-details-api
-- description: Look up address details for OSM objects by their OSM ID.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Look up address details for OSM objects by their OSM ID.
   name: Nominatim Lookup API
   slug: nominatim-lookup-api
-- description: Problematic polygon data detected by the system.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Problematic polygon data detected by the system.
   name: Nominatim Polygons API
   slug: nominatim-polygons-api
-- description: Reverse geocoding — find the closest OSM object to a coordinate.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Reverse geocoding — find the closest OSM object to a coordinate.
   name: Nominatim Reverse API
   slug: nominatim-reverse-api
-- description: Forward geocoding — search OSM objects by name or address.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Forward geocoding — search OSM objects by name or address.
   name: Nominatim Search API
   slug: nominatim-search-api
-- description: Service and database status reporting.
+- baseURL: https://nominatim.openstreetmap.org
+  baseurl_source: declared
+  description: Service and database status reporting.
   name: Nominatim Status API
   slug: nominatim-status-api
 artifact_total: 61
@@ -370,7 +384,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:

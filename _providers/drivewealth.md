@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -47,94 +47,154 @@ apis:
 - description: Financial Information Exchange (FIX) protocol API for institutional-grade connectivity to DriveWealth's trading infrastructure.
   name: DriveWealth FIX API
   slug: drivewealth-fix-api
-- description: The Accounts API from DriveWealth — 8 operation(s) for accounts.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Accounts API from DriveWealth — 8 operation(s) for accounts.
   name: DriveWealth Accounts API
   slug: drivewealth-accounts-api
-- description: The Advisor Reports API from DriveWealth — 3 operation(s) for advisor reports.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Advisor Reports API from DriveWealth — 3 operation(s) for advisor reports.
   name: DriveWealth Advisor Reports API
   slug: drivewealth-advisor-reports-api
-- description: The Asset Transfer API from DriveWealth — 4 operation(s) for asset transfer.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Asset Transfer API from DriveWealth — 4 operation(s) for asset transfer.
   name: DriveWealth Asset Transfer API
   slug: drivewealth-asset-transfer-api
-- description: The Auth API from DriveWealth — 2 operation(s) for auth.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Auth API from DriveWealth — 2 operation(s) for auth.
   name: DriveWealth Auth API
   slug: drivewealth-auth-api
-- description: The AutoPilot API from DriveWealth — 4 operation(s) for autopilot.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The AutoPilot API from DriveWealth — 4 operation(s) for autopilot.
   name: DriveWealth AutoPilot API
   slug: drivewealth-autopilot-api
-- description: The Beneficiaries API from DriveWealth — 1 operation(s) for beneficiaries.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Beneficiaries API from DriveWealth — 1 operation(s) for beneficiaries.
   name: DriveWealth Beneficiaries API
   slug: drivewealth-beneficiaries-api
-- description: The Charts API from DriveWealth — 1 operation(s) for charts.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Charts API from DriveWealth — 1 operation(s) for charts.
   name: DriveWealth Charts API
   slug: drivewealth-charts-api
-- description: The Commission Schedules API from DriveWealth — 1 operation(s) for commission schedules.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Commission Schedules API from DriveWealth — 1 operation(s) for commission schedules.
   name: DriveWealth Commission Schedules API
   slug: drivewealth-commission-schedules-api
-- description: The Correspondent Reports API from DriveWealth — 1 operation(s) for correspondent reports.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Correspondent Reports API from DriveWealth — 1 operation(s) for correspondent reports.
   name: DriveWealth Correspondent Reports API
   slug: drivewealth-correspondent-reports-api
-- description: The Deposits API from DriveWealth — 6 operation(s) for deposits.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Deposits API from DriveWealth — 6 operation(s) for deposits.
   name: DriveWealth Deposits API
   slug: drivewealth-deposits-api
-- description: The Depth of Book API from DriveWealth — 1 operation(s) for depth of book.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Depth of Book API from DriveWealth — 1 operation(s) for depth of book.
   name: DriveWealth Depth of Book API
   slug: drivewealth-depth-of-book-api
-- description: The Exchanges API from DriveWealth — 4 operation(s) for exchanges.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Exchanges API from DriveWealth — 4 operation(s) for exchanges.
   name: DriveWealth Exchanges API
   slug: drivewealth-exchanges-api
-- description: The Funds API from DriveWealth — 3 operation(s) for funds.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Funds API from DriveWealth — 3 operation(s) for funds.
   name: DriveWealth Funds API
   slug: drivewealth-funds-api
-- description: The Instruments API from DriveWealth — 5 operation(s) for instruments.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Instruments API from DriveWealth — 5 operation(s) for instruments.
   name: DriveWealth Instruments API
   slug: drivewealth-instruments-api
-- description: The Linked Bank Accounts API from DriveWealth — 1 operation(s) for linked bank accounts.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Linked Bank Accounts API from DriveWealth — 1 operation(s) for linked bank accounts.
   name: DriveWealth Linked Bank Accounts API
   slug: drivewealth-linked-bank-accounts-api
-- description: The Orders API from DriveWealth — 6 operation(s) for orders.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Orders API from DriveWealth — 6 operation(s) for orders.
   name: DriveWealth Orders API
   slug: drivewealth-orders-api
-- description: The Physical Documents API from DriveWealth — 3 operation(s) for physical documents.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Physical Documents API from DriveWealth — 3 operation(s) for physical documents.
   name: DriveWealth Physical Documents API
   slug: drivewealth-physical-documents-api
-- description: The Portfolios API from DriveWealth — 3 operation(s) for portfolios.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Portfolios API from DriveWealth — 3 operation(s) for portfolios.
   name: DriveWealth Portfolios API
   slug: drivewealth-portfolios-api
-- description: The Positions API from DriveWealth — 2 operation(s) for positions.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Positions API from DriveWealth — 2 operation(s) for positions.
   name: DriveWealth Positions API
   slug: drivewealth-positions-api
-- description: The Quotes API from DriveWealth — 2 operation(s) for quotes.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Quotes API from DriveWealth — 2 operation(s) for quotes.
   name: DriveWealth Quotes API
   slug: drivewealth-quotes-api
-- description: The Settlements API from DriveWealth — 6 operation(s) for settlements.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Settlements API from DriveWealth — 6 operation(s) for settlements.
   name: DriveWealth Settlements API
   slug: drivewealth-settlements-api
-- description: The Statements API from DriveWealth — 4 operation(s) for statements.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Statements API from DriveWealth — 4 operation(s) for statements.
   name: DriveWealth Statements API
   slug: drivewealth-statements-api
-- description: The Subscriptions API from DriveWealth — 3 operation(s) for subscriptions.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Subscriptions API from DriveWealth — 3 operation(s) for subscriptions.
   name: DriveWealth Subscriptions API
   slug: drivewealth-subscriptions-api
-- description: The Supported Countries API from DriveWealth — 1 operation(s) for supported countries.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Supported Countries API from DriveWealth — 1 operation(s) for supported countries.
   name: DriveWealth Supported Countries API
   slug: drivewealth-supported-countries-api
-- description: The Trade Allocations API from DriveWealth — 3 operation(s) for trade allocations.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Trade Allocations API from DriveWealth — 3 operation(s) for trade allocations.
   name: DriveWealth Trade Allocations API
   slug: drivewealth-trade-allocations-api
-- description: The Transactions API from DriveWealth — 2 operation(s) for transactions.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Transactions API from DriveWealth — 2 operation(s) for transactions.
   name: DriveWealth Transactions API
   slug: drivewealth-transactions-api
-- description: The Users API from DriveWealth — 3 operation(s) for users.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Users API from DriveWealth — 3 operation(s) for users.
   name: DriveWealth Users API
   slug: drivewealth-users-api
-- description: The Violations API from DriveWealth — 2 operation(s) for violations.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Violations API from DriveWealth — 2 operation(s) for violations.
   name: DriveWealth Violations API
   slug: drivewealth-violations-api
-- description: The Virtual Bank Accounts API from DriveWealth — 1 operation(s) for virtual bank accounts.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Virtual Bank Accounts API from DriveWealth — 1 operation(s) for virtual bank accounts.
   name: DriveWealth Virtual Bank Accounts API
   slug: drivewealth-virtual-bank-accounts-api
-- description: The Withdrawals API from DriveWealth — 4 operation(s) for withdrawals.
+- baseURL: https://api.drivewealth.net
+  baseurl_source: declared
+  description: The Withdrawals API from DriveWealth — 4 operation(s) for withdrawals.
   name: DriveWealth Withdrawals API
   slug: drivewealth-withdrawals-api
 artifact_total: 76
@@ -422,7 +482,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

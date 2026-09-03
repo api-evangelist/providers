@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 177 operations · 102 acting
 api_count: 1
 apis:
-- description: Added in version 4.4.1.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.4.1.
   name: Weblate addons API
   slug: weblate-addons-api
-- description: The categories API from Weblate — 5 operation(s) for categories.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The categories API from Weblate — 5 operation(s) for categories.
   name: Weblate categories API
   slug: weblate-categories-api
-- description: The changes API from Weblate — 2 operation(s) for changes.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The changes API from Weblate — 2 operation(s) for changes.
   name: Weblate changes API
   slug: weblate-changes-api
-- description: Added in version 4.0.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.0.
   name: Weblate component-lists API
   slug: weblate-component-lists-api
-- description: The components API from Weblate — 17 operation(s) for components.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The components API from Weblate — 17 operation(s) for components.
   name: Weblate components API
   slug: weblate-components-api
-- description: The contributions API from Weblate — 1 operation(s) for contributions.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The contributions API from Weblate — 1 operation(s) for contributions.
   name: Weblate contributions API
   slug: weblate-contributions-api
-- description: Added in version 4.0.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.0.
   name: Weblate groups API
   slug: weblate-groups-api
-- description: Notification hooks allow external applications to notify Weblate that the VCS repository has been updated. You can use repository endpoints for projects, components and translations to update individu
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Notification hooks allow external applications to notify Weblate that the VCS repository has been updated. You can use repository endpoints for projects, components and translations to update individu
   name: Weblate hooks API
   slug: weblate-hooks-api
-- description: The languages API from Weblate — 3 operation(s) for languages.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The languages API from Weblate — 3 operation(s) for languages.
   name: Weblate languages API
   slug: weblate-languages-api
-- description: Added in version 4.14.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.14.
   name: Weblate memory API
   slug: weblate-memory-api
-- description: The metrics API from Weblate — 1 operation(s) for metrics.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The metrics API from Weblate — 1 operation(s) for metrics.
   name: Weblate metrics API
   slug: weblate-metrics-api
-- description: The projects API from Weblate — 20 operation(s) for projects.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The projects API from Weblate — 20 operation(s) for projects.
   name: Weblate projects API
   slug: weblate-projects-api
-- description: The roles API from Weblate — 2 operation(s) for roles.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The roles API from Weblate — 2 operation(s) for roles.
   name: Weblate roles API
   slug: weblate-roles-api
-- description: The schema API from Weblate — 1 operation(s) for schema.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The schema API from Weblate — 1 operation(s) for schema.
   name: Weblate schema API
   slug: weblate-schema-api
-- description: The screenshots API from Weblate — 5 operation(s) for screenshots.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The screenshots API from Weblate — 5 operation(s) for screenshots.
   name: Weblate screenshots API
   slug: weblate-screenshots-api
-- description: Added in version 4.18.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.18.
   name: Weblate search API
   slug: weblate-search-api
-- description: Many endpoints support displaying statistics for their objects.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Many endpoints support displaying statistics for their objects.
   name: Weblate statistics API
   slug: weblate-statistics-api
-- description: Added in version 4.4. Listing of the tasks is currently not available.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.4. Listing of the tasks is currently not available.
   name: Weblate tasks API
   slug: weblate-tasks-api
-- description: The translations API from Weblate — 10 operation(s) for translations.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: The translations API from Weblate — 10 operation(s) for translations.
   name: Weblate translations API
   slug: weblate-translations-api
-- description: A unit is a single piece of a translation which pairs a source string with a corresponding translated string and also contains some related metadata. The term is derived from the Translate Toolkit and
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: A unit is a single piece of a translation which pairs a source string with a corresponding translated string and also contains some related metadata. The term is derived from the Translate Toolkit and
   name: Weblate units API
   slug: weblate-units-api
-- description: Added in version 4.0.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Added in version 4.0.
   name: Weblate users API
   slug: weblate-users-api
-- description: Notifications sent by Weblate.
+- baseURL: https://hosted.weblate.org/api/
+  baseurl_source: declared
+  description: Notifications sent by Weblate.
   name: Weblate Webhooks API
   slug: weblate-webhooks-api
 artifact_total: 63
@@ -323,7 +367,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -333,7 +377,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 44.0
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/screenshots/weblate-2026-06-20T201333.png
 security:

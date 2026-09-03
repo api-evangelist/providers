@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -44,154 +44,254 @@ agentic_access:
   summary_line: 974 operations · 390 acting
 api_count: 4
 apis:
-- description: Operations related to property and agent advertising
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property and agent advertising
   name: VaultRE Advertising API
   slug: vaultre-advertising-api
-- description: Operations related to AML checks
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to AML checks
   name: VaultRE Aml API
   slug: vaultre-aml-api
-- description: Operations related to buildings
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to buildings
   name: VaultRE Buildings API
   slug: vaultre-buildings-api
-- description: Bulk operations
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Bulk operations
   name: VaultRE Bulk API
   slug: vaultre-bulk-api
-- description: Operations related to business properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to business properties
   name: VaultRE Business Properties API
   slug: vaultre-businessproperties-api
-- description: Operations related to calendar events
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to calendar events
   name: VaultRE Calendar API
   slug: vaultre-calendar-api
-- description: Operations related to marketing campaigns
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to marketing campaigns
   name: VaultRE Campaigns API
   slug: vaultre-campaigns-api
-- description: Operations related to categories
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to categories
   name: VaultRE Categories API
   slug: vaultre-categories-api
-- description: Operations related to clearing sales properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to clearing sales properties
   name: VaultRE Clearing Sales Properties API
   slug: vaultre-clearingsalesproperties-api
-- description: Operations related to commercial properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to commercial properties
   name: VaultRE Commercial Properties API
   slug: vaultre-commercialproperties-api
-- description: Operations related to conjunctional property deals
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to conjunctional property deals
   name: VaultRE Conjunctionals API
   slug: vaultre-conjunctionals-api
-- description: Operations related to contacts
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to contacts
   name: VaultRE Contacts API
   slug: vaultre-contacts-api
-- description: Operations related to CoreLogic
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to CoreLogic
   name: VaultRE Corelogic API
   slug: vaultre-corelogic-api
-- description: Operations related to commercial deals
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to commercial deals
   name: VaultRE Deals API
   slug: vaultre-deals-api
-- description: Operations related to email
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to email
   name: VaultRE Email API
   slug: vaultre-email-api
-- description: Operations related to listing enquiries
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to listing enquiries
   name: VaultRE Enquiries API
   slug: vaultre-enquiries-api
-- description: Operations related to the event stream
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to the event stream
   name: VaultRE Event Stream API
   slug: vaultre-eventstream-api
-- description: Operations related to property feedback
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property feedback
   name: VaultRE Feedback API
   slug: vaultre-feedback-api
-- description: Operations related to FMS leads
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to FMS leads
   name: VaultRE Fmsleads API
   slug: vaultre-fmsleads-api
-- description: Operations related to holiday rental properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to holiday rental properties
   name: VaultRE Holiday Rental Properties API
   slug: vaultre-holidayrentalproperties-api
-- description: Operations related to inspections
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to inspections
   name: VaultRE Inspections API
   slug: vaultre-inspections-api
-- description: Special endpoints for access by integrating partners
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Special endpoints for access by integrating partners
   name: VaultRE Integrator API
   slug: vaultre-integrator-api
-- description: Operations related to invoices
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to invoices
   name: VaultRE Invoices API
   slug: vaultre-invoices-api
-- description: Operations related to property keys
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property keys
   name: VaultRE Keys API
   slug: vaultre-keys-api
-- description: Operations related to land properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to land properties
   name: VaultRE Land Properties API
   slug: vaultre-landproperties-api
-- description: Operations related to distribution lists
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to distribution lists
   name: VaultRE Lists API
   slug: vaultre-lists-api
-- description: Operations related to livestock properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to livestock properties
   name: VaultRE Livestock Properties API
   slug: vaultre-livestockproperties-api
-- description: Operations related to maintenance jobs
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to maintenance jobs
   name: VaultRE Maintenance API
   slug: vaultre-maintenance-api
-- description: Operations related to merge fields for SMS and email templates
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to merge fields for SMS and email templates
   name: VaultRE Merge Fields API
   slug: vaultre-mergefields-api
-- description: Operations related to franchise and user messages
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to franchise and user messages
   name: VaultRE Messages API
   slug: vaultre-messages-api
-- description: Operations related to open homes
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to open homes
   name: VaultRE Openhomes API
   slug: vaultre-openhomes-api
-- description: Operations related to precincts
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to precincts
   name: VaultRE Precincts API
   slug: vaultre-precincts-api
-- description: Operations related to properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to properties
   name: VaultRE Properties API
   slug: vaultre-properties-api
-- description: Operations related to property offers
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property offers
   name: VaultRE Property Offer API
   slug: vaultre-propertyoffer-api
-- description: Operations related to property offer conditions
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property offer conditions
   name: VaultRE Property Offer Conditions API
   slug: vaultre-propertyofferconditions-api
-- description: Operations related to property portal stats
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to property portal stats
   name: VaultRE Property Stats API
   slug: vaultre-propertystats-api
-- description: Operations related to REINZ
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to REINZ
   name: VaultRE Reinz API
   slug: vaultre-reinz-api
-- description: Operations related to residential properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to residential properties
   name: VaultRE Residential Properties API
   slug: vaultre-residentialproperties-api
-- description: Operations related to rural properties
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to rural properties
   name: VaultRE Rural Properties API
   slug: vaultre-ruralproperties-api
-- description: Operations related to performing searches
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to performing searches
   name: VaultRE Search API
   slug: vaultre-search-api
-- description: Operations related to SMS
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to SMS
   name: VaultRE Sms API
   slug: vaultre-sms-api
-- description: Operations related to staff
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to staff
   name: VaultRE Staff API
   slug: vaultre-staff-api
-- description: Operations related to suburbs
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to suburbs
   name: VaultRE Suburbs API
   slug: vaultre-suburbs-api
-- description: Operations related to suggest services
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to suggest services
   name: VaultRE Suggest API
   slug: vaultre-suggest-api
-- description: Operations related to creditors / suppliers
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to creditors / suppliers
   name: VaultRE Suppliers API
   slug: vaultre-suppliers-api
-- description: Operations related to tasks
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to tasks
   name: VaultRE Tasks API
   slug: vaultre-tasks-api
-- description: Operations related to SMS and email templates
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to SMS and email templates
   name: VaultRE Templates API
   slug: vaultre-templates-api
-- description: The tenancies API from VaultRE — 1 operation(s) for tenancies.
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: The tenancies API from VaultRE — 1 operation(s) for tenancies.
   name: VaultRE Tenancies API
   slug: vaultre-tenancies-api
-- description: Operations related to various VaultRE object types
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to various VaultRE object types
   name: VaultRE Types API
   slug: vaultre-types-api
-- description: Operations related to users
+- baseURL: https://ap-southeast-2.api.vaultre.com.au/api/v1.3
+  baseurl_source: declared
+  description: Operations related to users
   name: VaultRE User API
   slug: vaultre-user-api
 artifact_total: 60
@@ -408,7 +508,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -418,7 +518,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,7 +530,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

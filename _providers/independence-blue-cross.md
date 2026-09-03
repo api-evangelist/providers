@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'Monthly machine-readable JSON files published under 45 CFR Part Â§147.211 / the Transparency in Coverage rule for three carrier brands operated by Independence Blue Cross: Keystone Health Plan East, Q'
   name: Independence Blue Cross Transparency In Coverage Data
   slug: transparency-in-coverage
-- description: Public Da Vinci USDF FHIR R4 drug formulary resources.
+- baseURL: https://eapics.ibx.com/formulary/v1/fhir
+  baseurl_source: declared
+  description: Public Da Vinci USDF FHIR R4 drug formulary resources.
   name: Independence Blue Cross Formulary API
   slug: independence-blue-cross-formulary-api
-- description: FHIR R4 Patient Access resources for member-authorized access.
+- baseURL: https://eapics.ibx.com/patient/v1/fhir
+  baseurl_source: declared
+  description: FHIR R4 Patient Access resources for member-authorized access.
   name: Independence Blue Cross Patient Access API
   slug: independence-blue-cross-patient-access-api
-- description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
+- baseURL: https://eapics.ibx.com/provider/v1/fhir
+  baseurl_source: declared
+  description: Public Da Vinci Plan-Net FHIR R4 provider directory resources.
   name: Independence Blue Cross Provider Directory API
   slug: independence-blue-cross-provider-directory-api
 artifact_total: 70
@@ -513,7 +519,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 17 acting
 api_count: 1
 apis:
-- description: Manage Budibase applications.
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: spec
+  description: Manage Budibase applications.
   name: Budibase Applications API
   slug: budibase-applications-api
-- description: Execute and search queries.
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: spec
+  description: Execute and search queries.
   name: Budibase Queries API
   slug: budibase-queries-api
-- description: Manage rows inside a table.
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: spec
+  description: Manage rows inside a table.
   name: Budibase Rows API
   slug: budibase-rows-api
-- description: Manage data tables inside an application.
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: spec
+  description: Manage data tables inside an application.
   name: Budibase Tables API
   slug: budibase-tables-api
-- description: Manage Budibase users.
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: spec
+  description: Manage Budibase users.
   name: Budibase Users API
   slug: budibase-users-api
 artifact_total: 27
@@ -272,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:

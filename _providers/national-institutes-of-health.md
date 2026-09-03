@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Projects API from National Institutes of Health — 1 operation(s) for projects.
+- baseURL: https://api.reporter.nih.gov
+  baseurl_source: declared
+  description: The Projects API from National Institutes of Health — 1 operation(s) for projects.
   name: National Institutes of Health Projects API
   slug: national-institutes-of-health-projects-api
-- description: The Publications API from National Institutes of Health — 1 operation(s) for publications.
+- baseURL: https://api.reporter.nih.gov
+  baseurl_source: declared
+  description: The Publications API from National Institutes of Health — 1 operation(s) for publications.
   name: National Institutes of Health Publications API
   slug: national-institutes-of-health-publications-api
 artifact_total: 11
@@ -150,7 +154,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:

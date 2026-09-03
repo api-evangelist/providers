@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Forto Public API provides programmatic access to Forto's digital freight forwarding platform. It exposes booking management (create, update, finalize, discard, list), shipment operations (list, ge
   name: Forto Public API
   slug: forto-public-api
-- description: The Bookings API from Forto — 4 operation(s) for bookings.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The Bookings API from Forto — 4 operation(s) for bookings.
   name: Forto Bookings API
   slug: forto-bookings-api
-- description: The Documents API from Forto — 2 operation(s) for documents.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The Documents API from Forto — 2 operation(s) for documents.
   name: Forto Documents API
   slug: forto-documents-api
-- description: The Shipments API from Forto — 2 operation(s) for shipments.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The Shipments API from Forto — 2 operation(s) for shipments.
   name: Forto Shipments API
   slug: forto-shipments-api
-- description: The Subscriptions API from Forto — 3 operation(s) for subscriptions.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The Subscriptions API from Forto — 3 operation(s) for subscriptions.
   name: Forto Subscriptions API
   slug: forto-subscriptions-api
-- description: The Tokens API from Forto — 2 operation(s) for tokens.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The Tokens API from Forto — 2 operation(s) for tokens.
   name: Forto Tokens API
   slug: forto-tokens-api
-- description: The TransportPlans API from Forto — 4 operation(s) for transportplans.
+- baseURL: https://api.forto.com
+  baseurl_source: declared
+  description: The TransportPlans API from Forto — 4 operation(s) for transportplans.
   name: Forto TransportPlans API
   slug: forto-transportplans-api
 artifact_total: 38
@@ -232,7 +244,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forto/refs/heads/main/screenshots/forto-2026-06-20T181445.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -43,169 +43,279 @@ agentic_access:
   summary_line: 379 operations · 173 acting · 32 human-in-the-loop
 api_count: 1
 apis:
-- description: List and modify all infrastructure and failure flag agents
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: List and modify all infrastructure and failure flag agents
   name: Gremlin agents API
   slug: gremlin-agents-api
-- description: Create, delete, activate, deactivate and list apikeys
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, delete, activate, deactivate and list apikeys
   name: Gremlin apikeys API
   slug: gremlin-apikeys-api
-- description: Create, halt, and list attacks
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, halt, and list attacks
   name: Gremlin attacks API
   slug: gremlin-attacks-api
-- description: Get metadata about the AWS IAM role creation for health checks
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get metadata about the AWS IAM role creation for health checks
   name: Gremlin aws.metadata API
   slug: gremlin-aws-metadata-api
-- description: List and modify all clients
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: List and modify all clients
   name: Gremlin clients API
   slug: gremlin-clients-api
-- description: Update company preferences, get all users or clients for a company, and get company details
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Update company preferences, get all users or clients for a company, and get company details
   name: Gremlin companies API
   slug: gremlin-companies-api
-- description: Get all active containers
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get all active containers
   name: Gremlin containers API
   slug: gremlin-containers-api
-- description: Read Datadog items
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Read Datadog items
   name: Gremlin datadog API
   slug: gremlin-datadog-api
-- description: Get and list disaster recovery test reports
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get and list disaster recovery test reports
   name: Gremlin disaster-recovery-test-reports API
   slug: gremlin-disaster-recovery-test-reports-api
-- description: Create, get, list, run, and complete disaster recovery tests
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, get, list, run, and complete disaster recovery tests
   name: Gremlin disaster-recovery-tests API
   slug: gremlin-disaster-recovery-tests-api
-- description: The executions API from Gremlin — 1 operation(s) for executions.
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: The executions API from Gremlin — 1 operation(s) for executions.
   name: Gremlin executions API
   slug: gremlin-executions-api
-- description: Used for managing authentication for Status Checks and Load Generators
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Used for managing authentication for Status Checks and Load Generators
   name: Gremlin external-integrations API
   slug: gremlin-external-integrations-api
-- description: Get, list, and protect applications
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get, list, and protect applications
   name: Gremlin failure-flags.apps API
   slug: gremlin-failure-flags-apps-api
-- description: Get, list, and protect experiments
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get, list, and protect experiments
   name: Gremlin failure-flags.experiments API
   slug: gremlin-failure-flags-experiments-api
-- description: Get, list, and protect failure flags
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get, list, and protect failure flags
   name: Gremlin failure-flags.flags API
   slug: gremlin-failure-flags-flags-api
-- description: Create, update and run GameDays
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, update and run GameDays
   name: Gremlin gamedays API
   slug: gremlin-gamedays-api
-- description: Fetch setup instructions for configuring a Google Cloud integration.
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Fetch setup instructions for configuring a Google Cloud integration.
   name: Gremlin google-cloud.integration API
   slug: gremlin-google-cloud-integration-api
-- description: List resources Gremlin has discovered through a configured integration.
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: List resources Gremlin has discovered through a configured integration.
   name: Gremlin google-cloud.integration.resources API
   slug: gremlin-google-cloud-integration-resources-api
-- description: Get Grafana alerts
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get Grafana alerts
   name: Gremlin grafana API
   slug: gremlin-grafana-api
-- description: Halt impacts across the Gremlin platform
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Halt impacts across the Gremlin platform
   name: Gremlin halts API
   slug: gremlin-halts-api
-- description: Create, read, update, delete health checks as well as test health check endpoint and evaluation configuration
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, read, update, delete health checks as well as test health check endpoint and evaluation configuration
   name: Gremlin health checks API
   slug: gremlin-health-checks-api
-- description: Manage images for different entities
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Manage images for different entities
   name: Gremlin images API
   slug: gremlin-images-api
-- description: Handle client integrations
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Handle client integrations
   name: Gremlin integration-clients API
   slug: gremlin-integration-clients-api
-- description: Used for interacting with the Private Network Integration
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Used for interacting with the Private Network Integration
   name: Gremlin integration-invocations API
   slug: gremlin-integration-invocations-api
-- description: Create, read Jira tickets
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, read Jira tickets
   name: Gremlin jira API
   slug: gremlin-jira-api
-- description: Create, halt, and list Kubernetes attacks
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, halt, and list Kubernetes attacks
   name: Gremlin kubernetes.attacks API
   slug: gremlin-kubernetes-attacks-api
-- description: Get information on attackable kubernetes targets
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get information on attackable kubernetes targets
   name: Gremlin kubernetes.targets API
   slug: gremlin-kubernetes-targets-api
-- description: Create, read, update, and delete LoadGenerators
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete LoadGenerators
   name: Gremlin load-generators API
   slug: gremlin-load-generators-api
-- description: Get metadata about the Gremlin commands.
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get metadata about the Gremlin commands.
   name: Gremlin metadata API
   slug: gremlin-metadata-api
-- description: Metrics for charting purposes
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Metrics for charting purposes
   name: Gremlin metrics API
   slug: gremlin-metrics-api
-- description: Read New Relic items
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Read New Relic items
   name: Gremlin newrelic API
   slug: gremlin-newrelic-api
-- description: Manage company level integrations with Slack/Datadog
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Manage company level integrations with Slack/Datadog
   name: Gremlin Notification Integrations API
   slug: gremlin-notification-integrations-api
-- description: View and modify a team's notification settings
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: View and modify a team's notification settings
   name: Gremlin notification-settings API
   slug: gremlin-notification-settings-api
-- description: OAuth callback endpoints
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: OAuth callback endpoints
   name: Gremlin oauth API
   slug: gremlin-oauth-api
-- description: Get and update org preferences. Generate new and delete old client certificates
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get and update org preferences. Generate new and delete old client certificates
   name: Gremlin orgs API
   slug: gremlin-orgs-api
-- description: Get Pagerduty services and incidents
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get Pagerduty services and incidents
   name: Gremlin pagerduty API
   slug: gremlin-pagerduty-api
-- description: Get a list of supported infrastructure providers and supported services by provider
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get a list of supported infrastructure providers and supported services by provider
   name: Gremlin providers API
   slug: gremlin-providers-api
-- description: API to access resources for reliability management
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: API to access resources for reliability management
   name: Gremlin reliability-management API
   slug: gremlin-reliability-management-api
-- description: Retrieve reliability report for a given service
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Retrieve reliability report for a given service
   name: Gremlin reliability-report API
   slug: gremlin-reliability-report-api
-- description: Get and run reliability tests
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get and run reliability tests
   name: Gremlin reliability-tests API
   slug: gremlin-reliability-tests-api
-- description: Get users, clients, and attacks summaries
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get users, clients, and attacks summaries
   name: Gremlin reports API
   slug: gremlin-reports-api
-- description: Endpoints for receiving access and event logs
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Endpoints for receiving access and event logs
   name: Gremlin reports.security API
   slug: gremlin-reports-security-api
-- description: List and modify roles
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: List and modify roles
   name: Gremlin roles API
   slug: gremlin-roles-api
-- description: Create, update, run, halt, and list scenarios
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, update, run, halt, and list scenarios
   name: Gremlin scenarios API
   slug: gremlin-scenarios-api
-- description: Get/List recommended scenarios
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get/List recommended scenarios
   name: Gremlin scenarios.recommended API
   slug: gremlin-scenarios-recommended-api
-- description: Get, create, and delete schedules
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get, create, and delete schedules
   name: Gremlin schedules API
   slug: gremlin-schedules-api
-- description: Overview of a service, including all activity that impacts a service
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Overview of a service, including all activity that impacts a service
   name: Gremlin service-overview API
   slug: gremlin-service-overview-api
-- description: Get metrics about intelligent health check target for a service
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get metrics about intelligent health check target for a service
   name: Gremlin services API
   slug: gremlin-services-api
-- description: Used for sharing agent assets (eg. K8s Namespaces) between teams
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Used for sharing agent assets (eg. K8s Namespaces) between teams
   name: Gremlin sharedAssets API
   slug: gremlin-sharedassets-api
-- description: Create, Retrieve, Update, and Delete endpoints for Teams
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, Retrieve, Update, and Delete endpoints for Teams
   name: Gremlin teams API
   slug: gremlin-teams-api
-- description: Create custom test suites
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create custom test suites
   name: Gremlin test-suites API
   slug: gremlin-test-suites-api
-- description: Get users (all or active) and activate, deactivate, update, and invite users.
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Get users (all or active) and activate, deactivate, update, and invite users.
   name: Gremlin users API
   slug: gremlin-users-api
-- description: Endpoints for non-MFA user auth
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Endpoints for non-MFA user auth
   name: Gremlin users.auth API
   slug: gremlin-users-auth-api
-- description: Endpoints for multi-factor user auth (MFA) and for managing MFA providers and secrets
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Endpoints for multi-factor user auth (MFA) and for managing MFA providers and secrets
   name: Gremlin users.auth.mfa API
   slug: gremlin-users-auth-mfa-api
-- description: Create, read, update, and delete webhooks
+- baseURL: https://api.gremlin.com/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete webhooks
   name: Gremlin webhooks API
   slug: gremlin-webhooks-api
 artifact_total: 120
@@ -512,7 +622,7 @@ score:
       marker_coverage: 0.0
       total: 55
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/screenshots/gremlin-2026-06-20T182400.png
 security:

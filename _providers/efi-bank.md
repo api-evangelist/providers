@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 34 operations · 22 acting
 api_count: 1
 apis:
-- description: OAuth2 client-credentials token endpoints (per host).
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: OAuth2 client-credentials token endpoints (per host).
   name: Efí Authorization API
   slug: efi-bank-authorization-api
-- description: Installment booklets. Host cobrancas.api.efipay.com.br, no mTLS.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Installment booklets. Host cobrancas.api.efipay.com.br, no mTLS.
   name: Efí Carnê API
   slug: efi-bank-carn-api
-- description: Boleto / card / Pix charges. Host cobrancas.api.efipay.com.br, no mTLS.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Boleto / card / Pix charges. Host cobrancas.api.efipay.com.br, no mTLS.
   name: Efí Cobranças API
   slug: efi-bank-cobran-as-api
-- description: Pix payment initiation via Open Finance. Host openfinance.api.efipay.com.br, mTLS required.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Pix payment initiation via Open Finance. Host openfinance.api.efipay.com.br, mTLS required.
   name: Efí Open Finance API
   slug: efi-bank-open-finance-api
-- description: Immediate (cob) and dated (cobv) Pix charges and payload locations. Host pix.api.efipay.com.br, mTLS required.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Immediate (cob) and dated (cobv) Pix charges and payload locations. Host pix.api.efipay.com.br, mTLS required.
   name: Efí Pix Charges API
   slug: efi-bank-pix-charges-api
-- description: Received Pix, sent Pix, and refunds. Host pix.api.efipay.com.br, mTLS required.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Received Pix, sent Pix, and refunds. Host pix.api.efipay.com.br, mTLS required.
   name: Efí Pix Payments API
   slug: efi-bank-pix-payments-api
-- description: Webhook registration for received-Pix notifications. Host pix.api.efipay.com.br, mTLS required.
+- baseURL: https://pix.api.efipay.com.br
+  baseurl_source: declared
+  description: Webhook registration for received-Pix notifications. Host pix.api.efipay.com.br, mTLS required.
   name: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
 artifact_total: 22
@@ -193,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/screenshots/efi-bank-2026-07-25T212946.png
 security:

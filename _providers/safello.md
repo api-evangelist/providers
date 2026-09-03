@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 52 operations · 21 acting
 api_count: 2
 apis:
-- description: Account management
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: Account management
   name: Safello account API
   slug: safello-account-api
-- description: Authentication flow
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: Authentication flow
   name: Safello auth API
   slug: safello-auth-api
-- description: User's compliance information/status
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: User's compliance information/status
   name: Safello compliance API
   slug: safello-compliance-api
-- description: Market endpoints
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: Market endpoints
   name: Safello market API
   slug: safello-market-api
-- description: Buy and sell crypto
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: Buy and sell crypto
   name: Safello orders API
   slug: safello-orders-api
-- description: Price endpoints
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: Price endpoints
   name: Safello prices API
   slug: safello-prices-api
-- description: User's wallet
+- baseURL: https://api.safello.com
+  baseurl_source: declared
+  description: User's wallet
   name: Safello wallet API
   slug: safello-wallet-api
 arazzos:
@@ -280,7 +294,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png
 security:

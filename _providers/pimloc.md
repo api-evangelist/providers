@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 22 operations · 11 acting
 api_count: 1
 apis:
-- description: Account information
+- baseURL: https://app.secureredact.co.uk
+  baseurl_source: declared
+  description: Account information
   name: Pimloc Account API
   slug: pimloc-account-api
-- description: Token exchange and user session
+- baseURL: https://app.secureredact.co.uk
+  baseurl_source: declared
+  description: Token exchange and user session
   name: Pimloc Authentication API
   slug: pimloc-authentication-api
-- description: Upload, redact, download and manage media
+- baseURL: https://app.secureredact.co.uk
+  baseurl_source: declared
+  description: Upload, redact, download and manage media
   name: Pimloc Media API
   slug: pimloc-media-api
-- description: Enterprise project and user management
+- baseURL: https://app.secureredact.co.uk
+  baseurl_source: declared
+  description: Enterprise project and user management
   name: Pimloc Projects API
   slug: pimloc-projects-api
-- description: The Secure Redact API API from Pimloc — 0 operation(s) for secure redact api.
+- baseURL: https://app.secureredact.co.uk
+  baseurl_source: declared
+  description: The Secure Redact API API from Pimloc — 0 operation(s) for secure redact api.
   name: Pimloc Secure Redact API
   slug: pimloc-secure-redact-api-api
 artifact_total: 15
@@ -232,7 +242,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -242,7 +252,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/screenshots/pimloc-2026-08-17T081234.png
 security:

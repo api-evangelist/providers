@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 72 operations · 49 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage access tokens using OAuth 2.0 standards
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage access tokens using OAuth 2.0 standards
   name: Elementum Access Token API
   slug: elementum-access-token-api
-- description: Manage AI agents
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage AI agents
   name: Elementum Agents API
   slug: elementum-agents-api
-- description: Compose and manage apps
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Compose and manage apps
   name: Elementum Apps API
   slug: elementum-apps-api
-- description: Manage the attachments of a record
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage the attachments of a record
   name: Elementum Attachments API
   slug: elementum-attachments-api
-- description: Manage automations
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage automations
   name: Elementum Automations API
   slug: elementum-automations-api
-- description: Manage the conversation of a record
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage the conversation of a record
   name: Elementum Comments API
   slug: elementum-comments-api
-- description: Manage organization domains
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage organization domains
   name: Elementum Domains API
   slug: elementum-domains-api
-- description: Manage elements imported from connected cloud sources
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage elements imported from connected cloud sources
   name: Elementum Elements API
   slug: elementum-elements-api
-- description: Manage flows
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage flows
   name: Elementum Flows API
   slug: elementum-flows-api
-- description: Manage groups and group membership
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage groups and group membership
   name: Elementum Groups API
   slug: elementum-groups-api
-- description: Manage your records
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage your records
   name: Elementum Records API
   slug: elementum-records-api
-- description: Manage the related items of a record
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage the related items of a record
   name: Elementum Related-items API
   slug: elementum-related-items-api
-- description: Manage search tables (snowflake and linked)
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage search tables (snowflake and linked)
   name: Elementum Search Tables API
   slug: elementum-search-tables-api
-- description: Manage agent skills
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage agent skills
   name: Elementum Skills API
   slug: elementum-skills-api
-- description: 'Manage tables: schemas, fields, joins, and join mappings'
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: 'Manage tables: schemas, fields, joins, and join mappings'
   name: Elementum Tables API
   slug: elementum-tables-api
-- description: Manage users in your organization
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage users in your organization
   name: Elementum Users API
   slug: elementum-users-api
-- description: Manage app views
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage app views
   name: Elementum Views API
   slug: elementum-views-api
-- description: Manage the watchers of a record
+- baseURL: https://api.elementum.io/v1
+  baseurl_source: declared
+  description: Manage the watchers of a record
   name: Elementum Watchers API
   slug: elementum-watchers-api
 artifact_total: 41
@@ -300,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elementum/refs/heads/main/screenshots/elementum-2026-07-25T213131.png
 security:

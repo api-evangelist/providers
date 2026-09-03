@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
   name: Flare Therapeutics Comments API
   slug: flare-therapeutics-comments-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Flare Therapeutics Discovery API
   slug: flare-therapeutics-discovery-api
-- description: Media library (419 attachments at harvest time — 400 images, 19 application/* documents, 0 video).
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Media library (419 attachments at harvest time — 400 images, 19 application/* documents, 0 video).
   name: Flare Therapeutics Media API
   slug: flare-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for www.flaretx.com URLs.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.flaretx.com URLs.
   name: Flare Therapeutics Oembed API
   slug: flare-therapeutics-oembed-api
-- description: Corporate pages (14 published at harvest time) — home, about, science, pipeline, fx-909, fx-111, publications, news, press-releases, join-us, contact, privacy-policy, terms-of-use, flaretx.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages (14 published at harvest time) — home, about, science, pipeline, fx-909, fx-111, publications, news, press-releases, join-us, contact, privacy-policy, terms-of-use, flaretx.
   name: Flare Therapeutics Pages API
   slug: flare-therapeutics-pages-api
-- description: Reusable block patterns and their categories. Registered and anonymously reachable, but both report zero published items.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Reusable block patterns and their categories. Registered and anonymously reachable, but both report zero published items.
   name: Flare Therapeutics Patterns API
   slug: flare-therapeutics-patterns-api
-- description: News archive — press releases, news coverage and scientific presentations, 2021-05-13 (Series A launch) to 2026-06-30 (Series C and CEO appointment). 42 published at harvest time.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, news coverage and scientific presentations, 2021-05-13 (Series A launch) to 2026-06-30 (Series C and CEO appointment). 42 published at harvest time.
   name: Flare Therapeutics Posts API
   slug: flare-therapeutics-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: Flare Therapeutics Search API
   slug: flare-therapeutics-search-api
-- description: Categories and tags. Four categories are registered (News 36, Press Release 8, FlareTx 3, Uncategorized 3); the post_tag taxonomy is registered but empty.
+- baseURL: https://www.flaretx.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Four categories are registered (News 36, Press Release 8, FlareTx 3, Uncategorized 3); the post_tag taxonomy is registered but empty.
   name: Flare Therapeutics Taxonomy API
   slug: flare-therapeutics-taxonomy-api
 artifact_total: 14
@@ -181,7 +211,7 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -211,8 +241,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flare-therapeutics/refs/heads/main/screenshots/flare-therapeutics-2026-09-02T145521.png
 security:
 - kind: authentication
   name: Flare Therapeutics Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: SOAP web service API for creating, managing, and executing custom reports in Workday using Report Writer functionality. Provides programmatic access to report definitions, calculated fields, and repor
   name: Workday Report Writer API
   slug: workday-report-writer-api
-- description: To view and maintain Agent Definitions with the Agent System of Record.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: To view and maintain Agent Definitions with the Agent System of Record.
   name: Workday Report Writer agentDefinition API
   slug: workday-report-writer-agentdefinition-api
-- description: Manage file upload buckets for staging compressed data files before executing data change tasks against tables
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage file upload buckets for staging compressed data files before executing data change tasks against tables
   name: Workday Report Writer Buckets API
   slug: workday-report-writer-buckets-api
-- description: Execute custom reports exposed as web service endpoints, returning data in multiple formats including JSON, CSV, and XML
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Execute custom reports exposed as web service endpoints, returning data in multiple formats including JSON, CSV, and XML
   name: Workday Report Writer Custom Reports API
   slug: workday-report-writer-custom-reports-api
-- description: Execute data change tasks to load, update, or delete data in Prism Analytics tables using files uploaded to buckets
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Execute data change tasks to load, update, or delete data in Prism Analytics tables using files uploaded to buckets
   name: Workday Report Writer Data Change Tasks API
   slug: workday-report-writer-data-change-tasks-api
-- description: Discover available data sources (tables) that can be queried using WQL, including their fields and filter definitions
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Discover available data sources (tables) that can be queried using WQL, including their fields and filter definitions
   name: Workday Report Writer Data Sources API
   slug: workday-report-writer-data-sources-api
-- description: Manage Prism Analytics datasets, which are read-only data collections used in Prism reports and dashboards
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Manage Prism Analytics datasets, which are read-only data collections used in Prism reports and dashboards
   name: Workday Report Writer Datasets API
   slug: workday-report-writer-datasets-api
-- description: Execute WQL queries against Workday data sources and retrieve paginated results
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Execute WQL queries against Workday data sources and retrieve paginated results
   name: Workday Report Writer Query Execution API
   slug: workday-report-writer-query-execution-api
-- description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Create and manage Prism Analytics tables that define the schema for external data loaded into Workday for reporting and analytics
   name: Workday Report Writer Tables API
   slug: workday-report-writer-tables-api
 artifact_total: 60
@@ -335,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:

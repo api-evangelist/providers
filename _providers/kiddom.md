@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Kiddom is a certified 1EdTech LTI Advantage 1.3 Tool (Assignment and Grade Services 2.0, Names and Role Provisioning Services 2.0, Deep Linking 2.0). The publicly reachable surface is the OIDC third-p
@@ -146,7 +158,7 @@ score:
   band: thin
   composite: 27.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +182,9 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kiddom/refs/heads/main/screenshots/kiddom-2026-09-02T150033.png
 security:
 - kind: authentication
   name: Kiddom Authentication

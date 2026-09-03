@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -34,85 +46,139 @@ agentic_access:
   summary_line: 118 operations · 70 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: The admin API from Sarj AI Developer API — 4 operation(s) for admin.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The admin API from Sarj AI Developer API — 4 operation(s) for admin.
   name: Sarj AI Developer API Admin API
   slug: sarj-ai-developer-api-admin-api
-- description: The agent-profiles API from Sarj AI Developer API — 5 operation(s) for agent-profiles.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The agent-profiles API from Sarj AI Developer API — 5 operation(s) for agent-profiles.
   name: Sarj AI Developer API Agent Profiles API
   slug: sarj-ai-developer-api-agent-profiles-api
-- description: The analytics API from Sarj AI Developer API — 1 operation(s) for analytics.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The analytics API from Sarj AI Developer API — 1 operation(s) for analytics.
   name: Sarj AI Developer API Analytics API
   slug: sarj-ai-developer-api-analytics-api
-- description: The Audio API from Sarj AI Developer API — 3 operation(s) for audio.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Audio API from Sarj AI Developer API — 3 operation(s) for audio.
   name: Sarj AI Developer API Audio API
   slug: sarj-ai-developer-api-audio-api
-- description: The batch API from Sarj AI Developer API — 9 operation(s) for batch.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The batch API from Sarj AI Developer API — 9 operation(s) for batch.
   name: Sarj AI Developer API Batch API
   slug: sarj-ai-developer-api-batch-api
-- description: Create outbound voice calls and retrieve call details and transcripts.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: Create outbound voice calls and retrieve call details and transcripts.
   name: Sarj AI Developer API Calls API
   slug: sarj-ai-developer-api-calls-api
-- description: The Debug API from Sarj AI Developer API — 1 operation(s) for debug.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Debug API from Sarj AI Developer API — 1 operation(s) for debug.
   name: Sarj AI Developer API Debug API
   slug: sarj-ai-developer-api-debug-api
-- description: The Health API from Sarj AI Developer API — 3 operation(s) for health.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Health API from Sarj AI Developer API — 3 operation(s) for health.
   name: Sarj AI Developer API Health API
   slug: sarj-ai-developer-api-health-api
-- description: The integrations API from Sarj AI Developer API — 19 operation(s) for integrations.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The integrations API from Sarj AI Developer API — 19 operation(s) for integrations.
   name: Sarj AI Developer API Integrations API
   slug: sarj-ai-developer-api-integrations-api
-- description: The messaging API from Sarj AI Developer API — 8 operation(s) for messaging.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The messaging API from Sarj AI Developer API — 8 operation(s) for messaging.
   name: Sarj AI Developer API Messaging API
   slug: sarj-ai-developer-api-messaging-api
-- description: The Metrics API from Sarj AI Developer API — 1 operation(s) for metrics.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Metrics API from Sarj AI Developer API — 1 operation(s) for metrics.
   name: Sarj AI Developer API Metrics API
   slug: sarj-ai-developer-api-metrics-api
-- description: The Models API from Sarj AI Developer API — 2 operation(s) for models.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Models API from Sarj AI Developer API — 2 operation(s) for models.
   name: Sarj AI Developer API Models API
   slug: sarj-ai-developer-api-models-api
-- description: The Openai API from Sarj AI Developer API — 1 operation(s) for openai.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Openai API from Sarj AI Developer API — 1 operation(s) for openai.
   name: Sarj AI Developer API Openai API
   slug: sarj-ai-developer-api-openai-api
-- description: The organization-sip API from Sarj AI Developer API — 7 operation(s) for organization-sip.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The organization-sip API from Sarj AI Developer API — 7 operation(s) for organization-sip.
   name: Sarj AI Developer API Organization Sip API
   slug: sarj-ai-developer-api-organization-sip-api
-- description: The organization-variables API from Sarj AI Developer API — 3 operation(s) for organization-variables.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The organization-variables API from Sarj AI Developer API — 3 operation(s) for organization-variables.
   name: Sarj AI Developer API Organization Variables API
   slug: sarj-ai-developer-api-organization-variables-api
-- description: The organizations API from Sarj AI Developer API — 7 operation(s) for organizations.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The organizations API from Sarj AI Developer API — 7 operation(s) for organizations.
   name: Sarj AI Developer API Organizations API
   slug: sarj-ai-developer-api-organizations-api
-- description: The report-templates API from Sarj AI Developer API — 3 operation(s) for report-templates.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The report-templates API from Sarj AI Developer API — 3 operation(s) for report-templates.
   name: Sarj AI Developer API Report Templates API
   slug: sarj-ai-developer-api-report-templates-api
-- description: The salesforce API from Sarj AI Developer API — 2 operation(s) for salesforce.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The salesforce API from Sarj AI Developer API — 2 operation(s) for salesforce.
   name: Sarj AI Developer API Salesforce API
   slug: sarj-ai-developer-api-salesforce-api
-- description: The salla API from Sarj AI Developer API — 3 operation(s) for salla.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The salla API from Sarj AI Developer API — 3 operation(s) for salla.
   name: Sarj AI Developer API Salla API
   slug: sarj-ai-developer-api-salla-api
-- description: The Sarj STT API API from Sarj AI Developer API — 1 operation(s) for sarj stt api.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Sarj STT API API from Sarj AI Developer API — 1 operation(s) for sarj stt api.
   name: Sarj AI Developer API Sarj STT API API
   slug: sarj-ai-developer-api-sarj-stt-api-api
-- description: The settings API from Sarj AI Developer API — 7 operation(s) for settings.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The settings API from Sarj AI Developer API — 7 operation(s) for settings.
   name: Sarj AI Developer API Settings API
   slug: sarj-ai-developer-api-settings-api
-- description: The sip API from Sarj AI Developer API — 7 operation(s) for sip.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The sip API from Sarj AI Developer API — 7 operation(s) for sip.
   name: Sarj AI Developer API Sip API
   slug: sarj-ai-developer-api-sip-api
-- description: Service health and status.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: Service health and status.
   name: Sarj AI Developer API System API
   slug: sarj-ai-developer-api-system-api
-- description: The task API from Sarj AI Developer API — 4 operation(s) for task.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The task API from Sarj AI Developer API — 4 operation(s) for task.
   name: Sarj AI Developer API Task API
   slug: sarj-ai-developer-api-task-api
-- description: The task-management API from Sarj AI Developer API — 5 operation(s) for task-management.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The task-management API from Sarj AI Developer API — 5 operation(s) for task-management.
   name: Sarj AI Developer API Task Management API
   slug: sarj-ai-developer-api-task-management-api
-- description: The Voices API from Sarj AI Developer API — 3 operation(s) for voices.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The Voices API from Sarj AI Developer API — 3 operation(s) for voices.
   name: Sarj AI Developer API Voices API
   slug: sarj-ai-developer-api-voices-api
-- description: The zoho API from Sarj AI Developer API — 10 operation(s) for zoho.
+- baseURL: https://platform-api.sarj.ai/api/v1
+  baseurl_source: declared
+  description: The zoho API from Sarj AI Developer API — 10 operation(s) for zoho.
   name: Sarj AI Developer API Zoho API
   slug: sarj-ai-developer-api-zoho-api
 artifact_total: 65
@@ -355,7 +421,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -365,7 +431,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 31.6
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,7 +443,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 34 operations · 21 acting
 api_count: 1
 apis:
-- description: Alert management, tagging, and status updates
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Alert management, tagging, and status updates
   name: Stellar Cyber Alerts API
   slug: stellar-cyber-alerts-api
-- description: API key and JWT token management
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: API key and JWT token management
   name: Stellar Cyber Authentication API
   slug: stellar-cyber-authentication-api
-- description: Security case creation, retrieval, update, and closure
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Security case creation, retrieval, update, and closure
   name: Stellar Cyber Cases API
   slug: stellar-cyber-cases-api
-- description: Data connector management for security telemetry ingestion
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Data connector management for security telemetry ingestion
   name: Stellar Cyber Connectors API
   slug: stellar-cyber-connectors-api
-- description: Security event management and bulk ingestion
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Security event management and bulk ingestion
   name: Stellar Cyber Events API
   slug: stellar-cyber-events-api
-- description: ATH Playbook response action management
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: ATH Playbook response action management
   name: Stellar Cyber Playbooks API
   slug: stellar-cyber-playbooks-api
-- description: Saved query management
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Saved query management
   name: Stellar Cyber Queries API
   slug: stellar-cyber-queries-api
-- description: Security report generation and retrieval
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Security report generation and retrieval
   name: Stellar Cyber Reports API
   slug: stellar-cyber-reports-api
-- description: Sensor monitoring and management
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Sensor monitoring and management
   name: Stellar Cyber Sensors API
   slug: stellar-cyber-sensors-api
-- description: Multi-tenant administration and grouping
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Multi-tenant administration and grouping
   name: Stellar Cyber Tenants API
   slug: stellar-cyber-tenants-api
-- description: Watchlist creation and management
+- baseURL: https://{platform-hostname}/connect/api/v1
+  baseurl_source: declared
+  description: Watchlist creation and management
   name: Stellar Cyber Watchlists API
   slug: stellar-cyber-watchlists-api
 artifact_total: 50
@@ -304,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar-cyber/refs/heads/main/screenshots/stellar-cyber-2026-06-20T194541.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: REST + SSE API for running Voiceflow agent turns, managing conversation state, updating variables, and emitting session events. Endpoints include Interact v4 (non-stream and SSE stream), Get/Update Co
   name: Voiceflow Conversations API
   slug: conversations
-- description: Run a turn against a Voiceflow agent.
+- baseURL: https://general-runtime.voiceflow.com
+  baseurl_source: declared
+  description: Run a turn against a Voiceflow agent.
   name: Voiceflow Interact API
   slug: voiceflow-interact-api
-- description: Start a session and emit session events.
+- baseURL: https://general-runtime.voiceflow.com
+  baseurl_source: declared
+  description: Start a session and emit session events.
   name: Voiceflow Session API
   slug: voiceflow-session-api
-- description: Read, replace, or delete the conversation state for a user.
+- baseURL: https://general-runtime.voiceflow.com
+  baseurl_source: declared
+  description: Read, replace, or delete the conversation state for a user.
   name: Voiceflow State API
   slug: voiceflow-state-api
-- description: Patch session variables.
+- baseURL: https://general-runtime.voiceflow.com
+  baseurl_source: declared
+  description: Patch session variables.
   name: Voiceflow Variables API
   slug: voiceflow-variables-api
 artifact_total: 19
@@ -184,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiceflow/refs/heads/main/screenshots/voiceflow-2026-06-20T201125.png
 security:

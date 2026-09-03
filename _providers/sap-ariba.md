@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -260,22 +260,34 @@ apis:
 - description: Integrates risk findings and event collaboration for supplier risk management.
   name: SAP Ariba Finding and Event Collaboration Integration API for Supplier Risk
   slug: sap-ariba-finding-and-event-collaboration-integration-api-for-supplier-risk
-- description: Process and manage invoices including creation, approval workflows, status tracking, and payment reconciliation.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Process and manage invoices including creation, approval workflows, status tracking, and payment reconciliation.
   name: SAP Ariba Invoices API
   slug: sap-ariba-invoices-api
-- description: Manage individual line items within purchase orders including quantities, pricing, delivery schedules, and accounting assignments.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Manage individual line items within purchase orders including quantities, pricing, delivery schedules, and accounting assignments.
   name: SAP Ariba Purchase Order Line Items API
   slug: sap-ariba-purchase-order-line-items-api
-- description: Create, retrieve, update, and manage purchase orders across the SAP Ariba Network. Supports standard and service purchase orders including new, change, cancel, and close operations.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Create, retrieve, update, and manage purchase orders across the SAP Ariba Network. Supports standard and service purchase orders including new, change, cancel, and close operations.
   name: SAP Ariba Purchase Orders API
   slug: sap-ariba-purchase-orders-api
-- description: Record goods receipts and service confirmations against purchase orders to support three-way matching.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Record goods receipts and service confirmations against purchase orders to support three-way matching.
   name: SAP Ariba Receipts API
   slug: sap-ariba-receipts-api
-- description: Create and manage purchase requisitions that initiate the procurement process and flow into purchase orders upon approval.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Create and manage purchase requisitions that initiate the procurement process and flow into purchase orders upon approval.
   name: SAP Ariba Requisitions API
   slug: sap-ariba-requisitions-api
-- description: Access and manage supplier profiles, onboarding, qualifications, performance, and risk assessments on the SAP Ariba Network.
+- baseURL: https://openapi.ariba.com/api/procurement
+  baseurl_source: declared
+  description: Access and manage supplier profiles, onboarding, qualifications, performance, and risk assessments on the SAP Ariba Network.
   name: SAP Ariba Suppliers API
   slug: sap-ariba-suppliers-api
 artifact_total: 250
@@ -937,7 +949,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -947,7 +959,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 37.6
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -956,7 +968,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/screenshots/sap-ariba-2026-06-20T193415.png
 security:

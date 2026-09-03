@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Hospitable v2 webhooks push near-real-time event notifications (reservation.created, reservation.changed, property.created/changed/deleted/merged, message.created, review.created) as JSON POST request
   name: Hospitable Webhooks API
   slug: hospitable-webhooks-api
-- description: Nightly availability, pricing, and restrictions per property.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Nightly availability, pricing, and restrictions per property.
   name: Hospitable Calendar API
   slug: hospitable-calendar-api
-- description: Channel listings (Airbnb, Vrbo, Booking.com, direct) mapped to a property.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Channel listings (Airbnb, Vrbo, Booking.com, direct) mapped to a property.
   name: Hospitable Listings API
   slug: hospitable-listings-api
-- description: Guest-host message threads per reservation.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Guest-host message threads per reservation.
   name: Hospitable Messages API
   slug: hospitable-messages-api
-- description: Vacation rental properties connected to the account.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Vacation rental properties connected to the account.
   name: Hospitable Properties API
   slug: hospitable-properties-api
-- description: Bookings across all connected channels.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Bookings across all connected channels.
   name: Hospitable Reservations API
   slug: hospitable-reservations-api
-- description: Guest reviews and host responses.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: Guest reviews and host responses.
   name: Hospitable Reviews API
   slug: hospitable-reviews-api
-- description: The authenticated Hospitable user.
+- baseURL: https://public.api.hospitable.com/v2
+  baseurl_source: declared
+  description: The authenticated Hospitable user.
   name: Hospitable User API
   slug: hospitable-user-api
 artifact_total: 22
@@ -187,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/screenshots/hospitable-2026-07-25T221454.png
 security:

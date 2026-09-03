@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -71,28 +71,44 @@ apis:
 - description: Native iOS and Android SDKs (with React Native and Flutter wrappers) integrate with common HTTP libraries (OkHttp, Alamofire, Axios, Dio) so DataDome verdicts can be applied to mobile API traffic, not
   name: DataDome Mobile SDKs
   slug: mobile-sdks
-- description: The Account API from DataDome — 4 operation(s) for account.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The Account API from DataDome — 4 operation(s) for account.
   name: DataDome Account API
   slug: datadome-account-api
-- description: The AccountProtect API from DataDome — 1 operation(s) for accountprotect.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The AccountProtect API from DataDome — 1 operation(s) for accountprotect.
   name: DataDome AccountProtect API
   slug: datadome-accountprotect-api
-- description: The CustomRules API from DataDome — 2 operation(s) for customrules.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The CustomRules API from DataDome — 2 operation(s) for customrules.
   name: DataDome CustomRules API
   slug: datadome-customrules-api
-- description: The Endpoints API from DataDome — 2 operation(s) for endpoints.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The Endpoints API from DataDome — 2 operation(s) for endpoints.
   name: DataDome Endpoints API
   slug: datadome-endpoints-api
-- description: The Priorities API from DataDome — 3 operation(s) for priorities.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The Priorities API from DataDome — 3 operation(s) for priorities.
   name: DataDome Priorities API
   slug: datadome-priorities-api
-- description: The Templates API from DataDome — 2 operation(s) for templates.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The Templates API from DataDome — 2 operation(s) for templates.
   name: DataDome Templates API
   slug: datadome-templates-api
-- description: The TrustedProxies API from DataDome — 2 operation(s) for trustedproxies.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The TrustedProxies API from DataDome — 2 operation(s) for trustedproxies.
   name: DataDome TrustedProxies API
   slug: datadome-trustedproxies-api
-- description: The VerifiedModels API from DataDome — 1 operation(s) for verifiedmodels.
+- baseURL: https://datadome.co
+  baseurl_source: declared
+  description: The VerifiedModels API from DataDome — 1 operation(s) for verifiedmodels.
   name: DataDome VerifiedModels API
   slug: datadome-verifiedmodels-api
 artifact_total: 33
@@ -236,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/screenshots/datadome-2026-06-20T175642.png
 security:

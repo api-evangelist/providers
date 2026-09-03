@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Skynet multi-metric project security scores.
+- baseURL: https://partner.certik-skynet.com
+  baseurl_source: declared
+  description: Skynet multi-metric project security scores.
   name: CertiK Security Score API
   slug: certik-security-score-api
-- description: Real-time on-chain token contract security analysis.
+- baseURL: https://partner.certik-skynet.com
+  baseurl_source: declared
+  description: Real-time on-chain token contract security analysis.
   name: CertiK Token Scan API
   slug: certik-token-scan-api
 artifact_total: 11
@@ -208,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/screenshots/certik-2026-07-25T205001.png
 security:

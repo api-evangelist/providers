@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'Search and retrieve articles, news content, and multimedia from The Guardian''s archive of 2 million+ pieces of content published since 1999. Supports keyword search, section filtering, tag filtering, '
   name: The Guardian Content API
   slug: the-guardian-content-api
-- description: Search and retrieve Guardian content items
+- baseURL: https://content.guardianapis.com/
+  baseurl_source: declared
+  description: Search and retrieve Guardian content items
   name: The Guardian Content API
   slug: guardian-content-api
-- description: Browse Guardian editions (UK, US, AU, International, Europe)
+- baseURL: https://content.guardianapis.com/
+  baseurl_source: declared
+  description: Browse Guardian editions (UK, US, AU, International, Europe)
   name: The Guardian Editions API
   slug: guardian-editions-api
-- description: Browse Guardian sections
+- baseURL: https://content.guardianapis.com/
+  baseurl_source: declared
+  description: Browse Guardian sections
   name: The Guardian Sections API
   slug: guardian-sections-api
-- description: Browse and search Guardian tags (keywords, series, contributors, etc.)
+- baseURL: https://content.guardianapis.com/
+  baseurl_source: declared
+  description: Browse and search Guardian tags (keywords, series, contributors, etc.)
   name: The Guardian Tags API
   slug: guardian-tags-api
 artifact_total: 33
@@ -232,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/screenshots/guardian-2026-06-20T182423.png
 security:

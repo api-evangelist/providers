@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +35,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Article
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Article
   name: Santé Académie Article API
   slug: santeacademie-article-api
-- description: CustomCatalog
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: CustomCatalog
   name: Santé Académie Custom Catalog API
   slug: santeacademie-customcatalog-api
-- description: Faq
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Faq
   name: Santé Académie Faq API
   slug: santeacademie-faq-api
-- description: Health Facility
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Health Facility
   name: Santé Académie Health Facility API
   slug: santeacademie-health-facility-api
-- description: Job
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Job
   name: Santé Académie Job API
   slug: santeacademie-job-api
-- description: JobSpace
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: JobSpace
   name: Santé Académie Job Space API
   slug: santeacademie-jobspace-api
-- description: MediaCategory
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: MediaCategory
   name: Santé Académie Media Category API
   slug: santeacademie-mediacategory-api
-- description: Pharmacy
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Pharmacy
   name: Santé Académie Pharmacy API
   slug: santeacademie-pharmacy-api
-- description: Resource
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Resource
   name: Santé Académie Resource API
   slug: santeacademie-resource-api
-- description: Sitemap
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Sitemap
   name: Santé Académie Sitemap API
   slug: santeacademie-sitemap-api
-- description: Testimonial
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Testimonial
   name: Santé Académie Testimonial API
   slug: santeacademie-testimonial-api
-- description: Topic
+- baseURL: https://frontstage.santeacademie.com
+  baseurl_source: declared
+  description: Topic
   name: Santé Académie Topic API
   slug: santeacademie-topic-api
 artifact_total: 17
@@ -197,7 +233,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -228,8 +264,9 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/santeacademie/refs/heads/main/screenshots/santeacademie-2026-09-02T154403.png
 security:
 - kind: authentication
   name: Santeacademie Authentication

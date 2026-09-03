@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -33,97 +45,159 @@ agentic_access:
   summary_line: 133 operations · 72 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: A merchant's connections to acquirers — board, list, update, enable/disable.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: A merchant's connections to acquirers — board, list, update, enable/disable.
   name: Fat Zebra Acquirer connections API
   slug: fat-zebra-acquirer-connections-api
-- description: The acquirer catalogue this partner may board onto.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The acquirer catalogue this partner may board onto.
   name: Fat Zebra Acquirers API
   slug: fat-zebra-acquirers-api
-- description: The Applicable Surcharge API from Fat Zebra — 1 operation(s) for applicable surcharge.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Applicable Surcharge API from Fat Zebra — 1 operation(s) for applicable surcharge.
   name: Fat Zebra Applicable Surcharge API
   slug: fat-zebra-applicable-surcharge-api
-- description: The Authenticate API from Fat Zebra — 3 operation(s) for authenticate.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Authenticate API from Fat Zebra — 3 operation(s) for authenticate.
   name: Fat Zebra Authenticate API
   slug: fat-zebra-authenticate-api
-- description: The Bank Accounts API from Fat Zebra — 2 operation(s) for bank accounts.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Bank Accounts API from Fat Zebra — 2 operation(s) for bank accounts.
   name: Fat Zebra Bank Accounts API
   slug: fat-zebra-bank-accounts-api
-- description: The Batches API from Fat Zebra — 4 operation(s) for batches.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Batches API from Fat Zebra — 4 operation(s) for batches.
   name: Fat Zebra Batches API
   slug: fat-zebra-batches-api
-- description: The Chargebacks API from Fat Zebra — 4 operation(s) for chargebacks.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Chargebacks API from Fat Zebra — 4 operation(s) for chargebacks.
   name: Fat Zebra Chargebacks API
   slug: fat-zebra-chargebacks-api
-- description: The Credit Cards API from Fat Zebra — 3 operation(s) for credit cards.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Credit Cards API from Fat Zebra — 3 operation(s) for credit cards.
   name: Fat Zebra Credit Cards API
   slug: fat-zebra-credit-cards-api
-- description: The Customers API from Fat Zebra — 3 operation(s) for customers.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Customers API from Fat Zebra — 3 operation(s) for customers.
   name: Fat Zebra Customers API
   slug: fat-zebra-customers-api
-- description: The Direct Credits API from Fat Zebra — 3 operation(s) for direct credits.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Direct Credits API from Fat Zebra — 3 operation(s) for direct credits.
   name: Fat Zebra Direct Credits API
   slug: fat-zebra-direct-credits-api
-- description: The Direct Debits API from Fat Zebra — 3 operation(s) for direct debits.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Direct Debits API from Fat Zebra — 3 operation(s) for direct debits.
   name: Fat Zebra Direct Debits API
   slug: fat-zebra-direct-debits-api
-- description: The Disputes API from Fat Zebra — 1 operation(s) for disputes.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Disputes API from Fat Zebra — 1 operation(s) for disputes.
   name: Fat Zebra Disputes API
   slug: fat-zebra-disputes-api
-- description: The Fat Zebra Billing API from Fat Zebra — 1 operation(s) for fat zebra billing.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Fat Zebra Billing API from Fat Zebra — 1 operation(s) for fat zebra billing.
   name: Fat Zebra Fat Zebra Billing API
   slug: fat-zebra-fat-zebra-billing-api
-- description: The Health API from Fat Zebra — 2 operation(s) for health.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Health API from Fat Zebra — 2 operation(s) for health.
   name: Fat Zebra Health API
   slug: fat-zebra-health-api
-- description: The Invoice Imports API from Fat Zebra — 1 operation(s) for invoice imports.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Invoice Imports API from Fat Zebra — 1 operation(s) for invoice imports.
   name: Fat Zebra Invoice Imports API
   slug: fat-zebra-invoice-imports-api
-- description: The Invoices API from Fat Zebra — 2 operation(s) for invoices.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Invoices API from Fat Zebra — 2 operation(s) for invoices.
   name: Fat Zebra Invoices API
   slug: fat-zebra-invoices-api
-- description: The Merchants API from Fat Zebra — 7 operation(s) for merchants.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Merchants API from Fat Zebra — 7 operation(s) for merchants.
   name: Fat Zebra Merchants API
   slug: fat-zebra-merchants-api
-- description: The Oauth Clients API from Fat Zebra — 1 operation(s) for oauth clients.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Oauth Clients API from Fat Zebra — 1 operation(s) for oauth clients.
   name: Fat Zebra Oauth Clients API
   slug: fat-zebra-oauth-clients-api
-- description: The authenticated partner (self).
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The authenticated partner (self).
   name: Fat Zebra Partner API
   slug: fat-zebra-partner-api
-- description: The Payment Plans API from Fat Zebra — 2 operation(s) for payment plans.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Payment Plans API from Fat Zebra — 2 operation(s) for payment plans.
   name: Fat Zebra Payment Plans API
   slug: fat-zebra-payment-plans-api
-- description: The Paypal API from Fat Zebra — 15 operation(s) for paypal.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Paypal API from Fat Zebra — 15 operation(s) for paypal.
   name: Fat Zebra Paypal API
   slug: fat-zebra-paypal-api
-- description: The Purchases API from Fat Zebra — 11 operation(s) for purchases.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Purchases API from Fat Zebra — 11 operation(s) for purchases.
   name: Fat Zebra Purchases API
   slug: fat-zebra-purchases-api
-- description: The Refunds API from Fat Zebra — 3 operation(s) for refunds.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Refunds API from Fat Zebra — 3 operation(s) for refunds.
   name: Fat Zebra Refunds API
   slug: fat-zebra-refunds-api
-- description: The Reports API from Fat Zebra — 2 operation(s) for reports.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Reports API from Fat Zebra — 2 operation(s) for reports.
   name: Fat Zebra Reports API
   slug: fat-zebra-reports-api
-- description: The Settlement API from Fat Zebra — 1 operation(s) for settlement.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Settlement API from Fat Zebra — 1 operation(s) for settlement.
   name: Fat Zebra Settlement API
   slug: fat-zebra-settlement-api
-- description: Partner SSO enforcement — read state, enforce, disable.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: Partner SSO enforcement — read state, enforce, disable.
   name: Fat Zebra SSO API
   slug: fat-zebra-sso-api
-- description: The Transactions API from Fat Zebra — 2 operation(s) for transactions.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Transactions API from Fat Zebra — 2 operation(s) for transactions.
   name: Fat Zebra Transactions API
   slug: fat-zebra-transactions-api
-- description: Partner dashboard users — CRUD plus deactivate/reactivate.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: Partner dashboard users — CRUD plus deactivate/reactivate.
   name: Fat Zebra Users API
   slug: fat-zebra-users-api
-- description: The Utilities API from Fat Zebra — 3 operation(s) for utilities.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Utilities API from Fat Zebra — 3 operation(s) for utilities.
   name: Fat Zebra Utilities API
   slug: fat-zebra-utilities-api
-- description: The Utlities API from Fat Zebra — 1 operation(s) for utlities.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Utlities API from Fat Zebra — 1 operation(s) for utlities.
   name: Fat Zebra Utlities API
   slug: fat-zebra-utlities-api
-- description: The Web Hooks API from Fat Zebra — 2 operation(s) for web hooks.
+- baseURL: https://gateway.pmnts.io/v1.0
+  baseurl_source: declared
+  description: The Web Hooks API from Fat Zebra — 2 operation(s) for web hooks.
   name: Fat Zebra Web Hooks API
   slug: fat-zebra-web-hooks-api
 artifact_total: 41
@@ -353,7 +427,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -363,7 +437,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 43.4
-  previous_composite: 55.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,7 +455,7 @@ score:
     regime_id: payments
     score: 58.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 33
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 65 operations · 33 acting · 33 human-in-the-loop
 api_count: 1
 apis:
-- description: The Connection Bridge API from Weld — 1 operation(s) for connection bridge.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Connection Bridge API from Weld — 1 operation(s) for connection bridge.
   name: Weld Connection Bridge API
   slug: weld-connection-bridge-api
-- description: The Connections API from Weld — 3 operation(s) for connections.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Connections API from Weld — 3 operation(s) for connections.
   name: Weld Connections API
   slug: weld-connections-api
-- description: The Custom Reports API from Weld — 1 operation(s) for custom reports.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Custom Reports API from Weld — 1 operation(s) for custom reports.
   name: Weld Custom Reports API
   slug: weld-custom-reports-api
-- description: The ELT Stream Runs API from Weld — 2 operation(s) for elt stream runs.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The ELT Stream Runs API from Weld — 2 operation(s) for elt stream runs.
   name: Weld ELT Stream Runs API
   slug: weld-elt-stream-runs-api
-- description: The ELT Streams API from Weld — 5 operation(s) for elt streams.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The ELT Streams API from Weld — 5 operation(s) for elt streams.
   name: Weld ELT Streams API
   slug: weld-elt-streams-api
-- description: The ELT Syncs API from Weld — 8 operation(s) for elt syncs.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The ELT Syncs API from Weld — 8 operation(s) for elt syncs.
   name: Weld ELT Syncs API
   slug: weld-elt-syncs-api
-- description: The Integrations API from Weld — 1 operation(s) for integrations.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Integrations API from Weld — 1 operation(s) for integrations.
   name: Weld Integrations API
   slug: weld-integrations-api
-- description: The Orchestration Runs API from Weld — 2 operation(s) for orchestration runs.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Orchestration Runs API from Weld — 2 operation(s) for orchestration runs.
   name: Weld Orchestration Runs API
   slug: weld-orchestration-runs-api
-- description: The Orchestrations API from Weld — 3 operation(s) for orchestrations.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Orchestrations API from Weld — 3 operation(s) for orchestrations.
   name: Weld Orchestrations API
   slug: weld-orchestrations-api
-- description: The Reverse ETL Failed Records API from Weld — 4 operation(s) for reverse etl failed records.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Reverse ETL Failed Records API from Weld — 4 operation(s) for reverse etl failed records.
   name: Weld Reverse ETL Failed Records API
   slug: weld-reverse-etl-failed-records-api
-- description: The Reverse ETL Sync Runs API from Weld — 2 operation(s) for reverse etl sync runs.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Reverse ETL Sync Runs API from Weld — 2 operation(s) for reverse etl sync runs.
   name: Weld Reverse ETL Sync Runs API
   slug: weld-reverse-etl-sync-runs-api
-- description: The Reverse ETL Syncs API from Weld — 9 operation(s) for reverse etl syncs.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Reverse ETL Syncs API from Weld — 9 operation(s) for reverse etl syncs.
   name: Weld Reverse ETL Syncs API
   slug: weld-reverse-etl-syncs-api
-- description: The Transforms API from Weld — 11 operation(s) for transforms.
+- baseURL: https://connect.weld.app
+  baseurl_source: declared
+  description: The Transforms API from Weld — 11 operation(s) for transforms.
   name: Weld Transforms API
   slug: weld-transforms-api
 artifact_total: 32
@@ -286,7 +312,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weld/refs/heads/main/screenshots/weld-2026-08-17T082909.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 27 operations · 18 acting · 18 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access Point API from steute Technologies GmbH & Co. KG — 6 operation(s) for access point.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The Access Point API from steute Technologies GmbH & Co. KG — 6 operation(s) for access point.
   name: steute Technologies GmbH & Co. KG Access Point API
   slug: steute-technologies-gmbh-and-co-kg-access-point-api
-- description: The Auth API from steute Technologies GmbH & Co. KG — 2 operation(s) for auth.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The Auth API from steute Technologies GmbH & Co. KG — 2 operation(s) for auth.
   name: steute Technologies GmbH & Co. KG Auth API
   slug: steute-technologies-gmbh-and-co-kg-auth-api
-- description: The History API from steute Technologies GmbH & Co. KG — 3 operation(s) for history.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The History API from steute Technologies GmbH & Co. KG — 3 operation(s) for history.
   name: steute Technologies GmbH & Co. KG History API
   slug: steute-technologies-gmbh-and-co-kg-history-api
-- description: The Notification Config API from steute Technologies GmbH & Co. KG — 3 operation(s) for notification config.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The Notification Config API from steute Technologies GmbH & Co. KG — 3 operation(s) for notification config.
   name: steute Technologies GmbH & Co. KG Notification Config API
   slug: steute-technologies-gmbh-and-co-kg-notification-config-api
-- description: The Switch API from steute Technologies GmbH & Co. KG — 3 operation(s) for switch.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The Switch API from steute Technologies GmbH & Co. KG — 3 operation(s) for switch.
   name: steute Technologies GmbH & Co. KG Switch API
   slug: steute-technologies-gmbh-and-co-kg-switch-api
-- description: The Switch Group API from steute Technologies GmbH & Co. KG — 3 operation(s) for switch group.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The Switch Group API from steute Technologies GmbH & Co. KG — 3 operation(s) for switch group.
   name: steute Technologies GmbH & Co. KG Switch Group API
   slug: steute-technologies-gmbh-and-co-kg-switch-group-api
-- description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
+- baseURL: http://192.168.3.32/api/v2
+  baseurl_source: declared
+  description: The System Status API from steute Technologies GmbH & Co. KG — 1 operation(s) for system status.
   name: steute Technologies GmbH & Co. KG System Status API
   slug: steute-technologies-gmbh-and-co-kg-system-status-api
 artifact_total: 20
@@ -211,11 +225,11 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -225,7 +239,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 39.4
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +257,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/steute-technologies-gmbh-and-co-kg/refs/heads/main/screenshots/steute-technologies-gmbh-and-co-kg-2026-09-02T160854.png
 security:
 - kind: authentication
   name: Steute Technologies Gmbh And Co Kg Authentication

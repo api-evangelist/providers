@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: MarineTraffic provides AIS (Automatic Identification System) vessel tracking APIs delivering real-time vessel positions, speeds, headings, destinations, and ETAs. The REST API returns XML-formatted AI
   name: MarineTraffic AIS Vessel Tracking API
   slug: marinetraffic-api
-- description: Port calls, arrivals, and departures
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: declared
+  description: Port calls, arrivals, and departures
   name: MarineTraffic Port Operations API
   slug: marinetraffic-port-operations-api
-- description: Real-time and historical vessel positions
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: declared
+  description: Real-time and historical vessel positions
   name: MarineTraffic Vessel Tracking API
   slug: marinetraffic-vessel-tracking-api
-- description: Vessel static data and characteristics
+- baseURL: https://services.marinetraffic.com/api
+  baseurl_source: declared
+  description: Vessel static data and characteristics
   name: MarineTraffic Vessels API
   slug: marinetraffic-vessels-api
 artifact_total: 32
@@ -235,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png
 security:

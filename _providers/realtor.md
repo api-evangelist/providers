@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: The Realtor.com Connections Plus API provides a direct connection between the Realtor.com lead delivery system and supporting CRM platforms. It enables real estate agents, brokers, and offices to rece
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Realtor.com Connections Plus API provides a direct connection between the Realtor.com lead delivery system and supporting CRM platforms. It enables real estate agents, brokers, and offices to rece
   name: Realtor.com Connections Plus API
   slug: connections-plus-api
-- description: The Realtor.com Lead Delivery API is an end-to-end integration layer that delivers real estate leads directly from Realtor.com to third-party CRM systems. It provides faster and more secure lead deliv
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Realtor.com Lead Delivery API is an end-to-end integration layer that delivers real estate leads directly from Realtor.com to third-party CRM systems. It provides faster and more secure lead deliv
   name: Realtor.com Lead Delivery API
   slug: lead-delivery-api
-- description: Endpoints for searching and retrieving information about real estate agents and brokers.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for searching and retrieving information about real estate agents and brokers.
   name: realtor Agents API
   slug: realtor-agents-api
-- description: Endpoints for retrieving mortgage rates and financial data relevant to real estate transactions.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for retrieving mortgage rates and financial data relevant to real estate transactions.
   name: realtor Finance API
   slug: realtor-finance-api
-- description: Endpoints for searching and auto-completing location names, addresses, and geographic areas used as inputs for property searches.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for searching and auto-completing location names, addresses, and geographic areas used as inputs for property searches.
   name: realtor Locations API
   slug: realtor-locations-api
-- description: Endpoints for searching, listing, and retrieving detailed property information including for-sale, for-rent, and recently sold listings.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for searching, listing, and retrieving detailed property information including for-sale, for-rent, and recently sold listings.
   name: realtor Properties API
   slug: realtor-properties-api
 artifact_total: 25
@@ -142,16 +154,16 @@ jsonld:
   slug: realtor-context
 layout: provider
 modified: '2026-05-19'
-name: realtor
+name: Realtor
 nav: Providers
 network: true
-overview: 'realtor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Realtor.com Connections Plus API, Realtor.com Lead Delivery API, Agents API, and 3 more.
+overview: 'Realtor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Realtor.com Connections Plus API, Realtor.com Lead Delivery API, Agents API, and 3 more.
 
 
-  The realtor catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Realtor catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  realtor''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Realtor''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Realtor Plans Pricing
   plan_count: 1
@@ -165,7 +177,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: realtor API Rules
+  name: Realtor API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -175,7 +187,7 @@ rules:
   slug: realtor-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: realtor API Rules
+  name: Realtor API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -191,7 +203,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -201,7 +213,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 30.5
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -211,10 +223,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtor/refs/heads/main/screenshots/realtor-2026-06-20T192649.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 2
 apis:
-- description: Claim pre-check, submission, and inquiry
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: Claim pre-check, submission, and inquiry
   name: UnitedHealthcare Claims API
   slug: unitedhealthcare-claims-api
-- description: Real-time eligibility and benefit verification
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: Real-time eligibility and benefit verification
   name: UnitedHealthcare Eligibility API
   slug: unitedhealthcare-eligibility-api
-- description: Drug formulary and coverage information
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: Drug formulary and coverage information
   name: UnitedHealthcare Formulary API
   slug: unitedhealthcare-formulary-api
-- description: FHIR R4 Patient Access API for member health data
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: FHIR R4 Patient Access API for member health data
   name: UnitedHealthcare Patient Access API
   slug: unitedhealthcare-patient-access-api
-- description: Prior authorization and referral actions
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: Prior authorization and referral actions
   name: UnitedHealthcare Prior Authorization API
   slug: unitedhealthcare-prior-authorization-api
-- description: FHIR R4 Provider Directory API for network information
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: FHIR R4 Provider Directory API for network information
   name: UnitedHealthcare Provider Directory API
   slug: unitedhealthcare-provider-directory-api
-- description: Provider demographics and directory
+- baseURL: https://api.uhcprovider.com
+  baseurl_source: declared
+  description: Provider demographics and directory
   name: UnitedHealthcare Providers API
   slug: unitedhealthcare-providers-api
 artifact_total: 61
@@ -294,7 +308,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -304,7 +318,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 33.2
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -319,7 +333,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/screenshots/unitedhealthcare-2026-06-20T200108.png
 security:

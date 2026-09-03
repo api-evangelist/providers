@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: REST API exposing projects, environments, releases, deployments, runbooks, accounts, certificates, tenants, variables, packages, and tasks managed by an Octopus Deploy server or Octopus Cloud instance
   name: Octopus Deploy REST API
   slug: rest-api
-- description: The Accounts API from Octopus Deploy — 1 operation(s) for accounts.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Accounts API from Octopus Deploy — 1 operation(s) for accounts.
   name: Octopus Deploy Accounts API
   slug: octopus-deploy-accounts-api
-- description: The Environments API from Octopus Deploy — 1 operation(s) for environments.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Environments API from Octopus Deploy — 1 operation(s) for environments.
   name: Octopus Deploy Environments API
   slug: octopus-deploy-environments-api
-- description: The Feeds API from Octopus Deploy — 1 operation(s) for feeds.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Feeds API from Octopus Deploy — 1 operation(s) for feeds.
   name: Octopus Deploy Feeds API
   slug: octopus-deploy-feeds-api
-- description: The Machines API from Octopus Deploy — 1 operation(s) for machines.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Machines API from Octopus Deploy — 1 operation(s) for machines.
   name: Octopus Deploy Machines API
   slug: octopus-deploy-machines-api
-- description: The Projects API from Octopus Deploy — 1 operation(s) for projects.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Projects API from Octopus Deploy — 1 operation(s) for projects.
   name: Octopus Deploy Projects API
   slug: octopus-deploy-projects-api
-- description: The Root API from Octopus Deploy — 1 operation(s) for root.
+- baseURL: https://your-octopus.example/api
+  baseurl_source: declared
+  description: The Root API from Octopus Deploy — 1 operation(s) for root.
   name: Octopus Deploy Root API
   slug: octopus-deploy-root-api
 artifact_total: 22
@@ -220,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
 security:

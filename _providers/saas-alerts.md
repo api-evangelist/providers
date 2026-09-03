@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: SaaS security event queries and reporting
+- baseURL: https://api.saasalerts.com
+  baseurl_source: declared
+  description: SaaS security event queries and reporting
   name: SaaS Alerts Events API
   slug: saas-alerts-events-api
-- description: Security event report generation
+- baseURL: https://api.saasalerts.com
+  baseurl_source: declared
+  description: Security event report generation
   name: SaaS Alerts Reports API
   slug: saas-alerts-reports-api
 artifact_total: 22
@@ -231,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/screenshots/saas-alerts-2026-08-17T083027.png
 security:

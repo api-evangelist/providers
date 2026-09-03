@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: REST API for managing StepZen accounts, deployed GraphQL endpoints, API keys, and usage metrics programmatically.
   name: StepZen Admin API
   slug: stepzen-admin-api
-- description: Account information and settings
+- baseURL: https://{account}.stepzen.net/{folder}/{name}/__graphql
+  baseurl_source: declared
+  description: Account information and settings
   name: StepZen Account API
   slug: stepzen-account-api
-- description: Manage API keys for endpoint access
+- baseURL: https://{account}.stepzen.net/{folder}/{name}/__graphql
+  baseurl_source: declared
+  description: Manage API keys for endpoint access
   name: StepZen API Keys API
   slug: stepzen-api-keys-api
-- description: Manage deployed GraphQL API endpoints
+- baseURL: https://{account}.stepzen.net/{folder}/{name}/__graphql
+  baseurl_source: declared
+  description: Manage deployed GraphQL API endpoints
   name: StepZen Endpoints API
   slug: stepzen-endpoints-api
 artifact_total: 23
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

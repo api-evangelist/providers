@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 6
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 160 operations · 67 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The AlertService API from StackRox — 9 operation(s) for alertservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The AlertService API from StackRox — 9 operation(s) for alertservice.
   name: StackRox AlertService API
   slug: stackrox-alertservice-api
-- description: The APITokenService API from StackRox — 4 operation(s) for apitokenservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The APITokenService API from StackRox — 4 operation(s) for apitokenservice.
   name: StackRox APITokenService API
   slug: stackrox-apitokenservice-api
-- description: The AuthProviderService API from StackRox — 4 operation(s) for authproviderservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The AuthProviderService API from StackRox — 4 operation(s) for authproviderservice.
   name: StackRox AuthProviderService API
   slug: stackrox-authproviderservice-api
-- description: The AuthService API from StackRox — 1 operation(s) for authservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The AuthService API from StackRox — 1 operation(s) for authservice.
   name: StackRox AuthService API
   slug: stackrox-authservice-api
-- description: The ClustersService API from StackRox — 2 operation(s) for clustersservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ClustersService API from StackRox — 2 operation(s) for clustersservice.
   name: StackRox ClustersService API
   slug: stackrox-clustersservice-api
-- description: The ComplianceManagementService API from StackRox — 3 operation(s) for compliancemanagementservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ComplianceManagementService API from StackRox — 3 operation(s) for compliancemanagementservice.
   name: StackRox ComplianceManagementService API
   slug: stackrox-compliancemanagementservice-api
-- description: The ComplianceService API from StackRox — 5 operation(s) for complianceservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ComplianceService API from StackRox — 5 operation(s) for complianceservice.
   name: StackRox ComplianceService API
   slug: stackrox-complianceservice-api
-- description: The ConfigService API from StackRox — 3 operation(s) for configservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ConfigService API from StackRox — 3 operation(s) for configservice.
   name: StackRox ConfigService API
   slug: stackrox-configservice-api
-- description: The DBService API from StackRox — 4 operation(s) for dbservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The DBService API from StackRox — 4 operation(s) for dbservice.
   name: StackRox DBService API
   slug: stackrox-dbservice-api
-- description: The DebugService API from StackRox — 1 operation(s) for debugservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The DebugService API from StackRox — 1 operation(s) for debugservice.
   name: StackRox DebugService API
   slug: stackrox-debugservice-api
-- description: The DeploymentService API from StackRox — 6 operation(s) for deploymentservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The DeploymentService API from StackRox — 6 operation(s) for deploymentservice.
   name: StackRox DeploymentService API
   slug: stackrox-deploymentservice-api
-- description: The DetectionService API from StackRox — 3 operation(s) for detectionservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The DetectionService API from StackRox — 3 operation(s) for detectionservice.
   name: StackRox DetectionService API
   slug: stackrox-detectionservice-api
-- description: The ExternalBackupService API from StackRox — 3 operation(s) for externalbackupservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ExternalBackupService API from StackRox — 3 operation(s) for externalbackupservice.
   name: StackRox ExternalBackupService API
   slug: stackrox-externalbackupservice-api
-- description: The FeatureFlagService API from StackRox — 1 operation(s) for featureflagservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The FeatureFlagService API from StackRox — 1 operation(s) for featureflagservice.
   name: StackRox FeatureFlagService API
   slug: stackrox-featureflagservice-api
-- description: The GroupService API from StackRox — 2 operation(s) for groupservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The GroupService API from StackRox — 2 operation(s) for groupservice.
   name: StackRox GroupService API
   slug: stackrox-groupservice-api
-- description: The ImageIntegrationService API from StackRox — 3 operation(s) for imageintegrationservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ImageIntegrationService API from StackRox — 3 operation(s) for imageintegrationservice.
   name: StackRox ImageIntegrationService API
   slug: stackrox-imageintegrationservice-api
-- description: The ImageService API from StackRox — 5 operation(s) for imageservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ImageService API from StackRox — 5 operation(s) for imageservice.
   name: StackRox ImageService API
   slug: stackrox-imageservice-api
-- description: The LicenseService API from StackRox — 3 operation(s) for licenseservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The LicenseService API from StackRox — 3 operation(s) for licenseservice.
   name: StackRox LicenseService API
   slug: stackrox-licenseservice-api
-- description: The MetadataService API from StackRox — 1 operation(s) for metadataservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The MetadataService API from StackRox — 1 operation(s) for metadataservice.
   name: StackRox MetadataService API
   slug: stackrox-metadataservice-api
-- description: The NamespaceService API from StackRox — 2 operation(s) for namespaceservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The NamespaceService API from StackRox — 2 operation(s) for namespaceservice.
   name: StackRox NamespaceService API
   slug: stackrox-namespaceservice-api
-- description: The NetworkGraphService API from StackRox — 1 operation(s) for networkgraphservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The NetworkGraphService API from StackRox — 1 operation(s) for networkgraphservice.
   name: StackRox NetworkGraphService API
   slug: stackrox-networkgraphservice-api
-- description: The NetworkPolicyService API from StackRox — 9 operation(s) for networkpolicyservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The NetworkPolicyService API from StackRox — 9 operation(s) for networkpolicyservice.
   name: StackRox NetworkPolicyService API
   slug: stackrox-networkpolicyservice-api
-- description: The NodeService API from StackRox — 2 operation(s) for nodeservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The NodeService API from StackRox — 2 operation(s) for nodeservice.
   name: StackRox NodeService API
   slug: stackrox-nodeservice-api
-- description: The NotifierService API from StackRox — 3 operation(s) for notifierservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The NotifierService API from StackRox — 3 operation(s) for notifierservice.
   name: StackRox NotifierService API
   slug: stackrox-notifierservice-api
-- description: The PingService API from StackRox — 1 operation(s) for pingservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The PingService API from StackRox — 1 operation(s) for pingservice.
   name: StackRox PingService API
   slug: stackrox-pingservice-api
-- description: The PolicyService API from StackRox — 8 operation(s) for policyservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The PolicyService API from StackRox — 8 operation(s) for policyservice.
   name: StackRox PolicyService API
   slug: stackrox-policyservice-api
-- description: The ProbeUploadService API from StackRox — 1 operation(s) for probeuploadservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ProbeUploadService API from StackRox — 1 operation(s) for probeuploadservice.
   name: StackRox ProbeUploadService API
   slug: stackrox-probeuploadservice-api
-- description: The ProcessService API from StackRox — 3 operation(s) for processservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ProcessService API from StackRox — 3 operation(s) for processservice.
   name: StackRox ProcessService API
   slug: stackrox-processservice-api
-- description: The ProcessWhitelistService API from StackRox — 3 operation(s) for processwhitelistservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ProcessWhitelistService API from StackRox — 3 operation(s) for processwhitelistservice.
   name: StackRox ProcessWhitelistService API
   slug: stackrox-processwhitelistservice-api
-- description: The RbacService API from StackRox — 6 operation(s) for rbacservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The RbacService API from StackRox — 6 operation(s) for rbacservice.
   name: StackRox RbacService API
   slug: stackrox-rbacservice-api
-- description: The RoleService API from StackRox — 5 operation(s) for roleservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The RoleService API from StackRox — 5 operation(s) for roleservice.
   name: StackRox RoleService API
   slug: stackrox-roleservice-api
-- description: The ScopedAccessControlService API from StackRox — 5 operation(s) for scopedaccesscontrolservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ScopedAccessControlService API from StackRox — 5 operation(s) for scopedaccesscontrolservice.
   name: StackRox ScopedAccessControlService API
   slug: stackrox-scopedaccesscontrolservice-api
-- description: The SearchService API from StackRox — 3 operation(s) for searchservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The SearchService API from StackRox — 3 operation(s) for searchservice.
   name: StackRox SearchService API
   slug: stackrox-searchservice-api
-- description: The SecretService API from StackRox — 3 operation(s) for secretservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The SecretService API from StackRox — 3 operation(s) for secretservice.
   name: StackRox SecretService API
   slug: stackrox-secretservice-api
-- description: The SensorUpgradeService API from StackRox — 2 operation(s) for sensorupgradeservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The SensorUpgradeService API from StackRox — 2 operation(s) for sensorupgradeservice.
   name: StackRox SensorUpgradeService API
   slug: stackrox-sensorupgradeservice-api
-- description: The ServiceAccountService API from StackRox — 2 operation(s) for serviceaccountservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ServiceAccountService API from StackRox — 2 operation(s) for serviceaccountservice.
   name: StackRox ServiceAccountService API
   slug: stackrox-serviceaccountservice-api
-- description: The ServiceIdentityService API from StackRox — 2 operation(s) for serviceidentityservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The ServiceIdentityService API from StackRox — 2 operation(s) for serviceidentityservice.
   name: StackRox ServiceIdentityService API
   slug: stackrox-serviceidentityservice-api
-- description: The SummaryService API from StackRox — 1 operation(s) for summaryservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The SummaryService API from StackRox — 1 operation(s) for summaryservice.
   name: StackRox SummaryService API
   slug: stackrox-summaryservice-api
-- description: The UserService API from StackRox — 3 operation(s) for userservice.
+- baseURL_template: https://{central-host}
+  baseurl_source: spec_template
+  description: The UserService API from StackRox — 3 operation(s) for userservice.
   name: StackRox UserService API
   slug: stackrox-userservice-api
 artifact_total: 94
@@ -466,7 +544,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackrox/refs/heads/main/screenshots/stackrox-2026-06-20T194449.png
 security:

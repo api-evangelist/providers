@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 16 operations · 4 acting
 api_count: 1
 apis:
-- description: Chain-level block and transaction data
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Chain-level block and transaction data
   name: Footprint Analytics Chain API
   slug: footprint-chain-api
-- description: DeFi protocol metrics including TVL, DEX liquidity, and yield
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: DeFi protocol metrics including TVL, DEX liquidity, and yield
   name: Footprint Analytics DeFi API
   slug: footprint-defi-api
-- description: Track user events via Growth Analytics SDK
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Track user events via Growth Analytics SDK
   name: Footprint Analytics Events API
   slug: footprint-events-api
-- description: Blockchain gaming economics and player analytics
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Blockchain gaming economics and player analytics
   name: Footprint Analytics GameFi API
   slug: footprint-gamefi-api
-- description: NFT collection and token market data
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: NFT collection and token market data
   name: Footprint Analytics NFT API
   slug: footprint-nft-api
-- description: Execute SQL queries against blockchain datasets
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Execute SQL queries against blockchain datasets
   name: Footprint Analytics Query API
   slug: footprint-query-api
-- description: Token price, supply, and holder analytics
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Token price, supply, and holder analytics
   name: Footprint Analytics Token API
   slug: footprint-token-api
-- description: Wallet profile, portfolio, and eligibility checks
+- baseURL: https://api.footprint.network
+  baseurl_source: declared
+  description: Wallet profile, portfolio, and eligibility checks
   name: Footprint Analytics Wallet API
   slug: footprint-wallet-api
 artifact_total: 32
@@ -232,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/footprint/refs/heads/main/screenshots/footprint-2026-06-20T181412.png
 security:

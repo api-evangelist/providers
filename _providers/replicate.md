@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 27 operations · 12 acting
 api_count: 1
 apis:
-- description: The Accounts API from Replicate — 1 operation(s) for accounts.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Accounts API from Replicate — 1 operation(s) for accounts.
   name: Replicate Accounts API
   slug: replicate-accounts-api
-- description: The Cancel API from Replicate — 2 operation(s) for cancel.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Cancel API from Replicate — 2 operation(s) for cancel.
   name: Replicate Cancel API
   slug: replicate-cancel-api
-- description: The Collections API from Replicate — 2 operation(s) for collections.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Collections API from Replicate — 2 operation(s) for collections.
   name: Replicate Collections API
   slug: replicate-collections-api
-- description: The Deployments API from Replicate — 3 operation(s) for deployments.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Deployments API from Replicate — 3 operation(s) for deployments.
   name: Replicate Deployments API
   slug: replicate-deployments-api
-- description: The Hardware API from Replicate — 1 operation(s) for hardware.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Hardware API from Replicate — 1 operation(s) for hardware.
   name: Replicate Hardware API
   slug: replicate-hardware-api
-- description: The Model API from Replicate — 5 operation(s) for model.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Model API from Replicate — 5 operation(s) for model.
   name: Replicate Model API
   slug: replicate-model-api
-- description: The Models API from Replicate — 1 operation(s) for models.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Models API from Replicate — 1 operation(s) for models.
   name: Replicate Models API
   slug: replicate-models-api
-- description: The Predictions API from Replicate — 5 operation(s) for predictions.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Predictions API from Replicate — 5 operation(s) for predictions.
   name: Replicate Predictions API
   slug: replicate-predictions-api
-- description: The Secrets API from Replicate — 1 operation(s) for secrets.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Secrets API from Replicate — 1 operation(s) for secrets.
   name: Replicate Secrets API
   slug: replicate-secrets-api
-- description: The Training API from Replicate — 2 operation(s) for training.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Training API from Replicate — 2 operation(s) for training.
   name: Replicate Training API
   slug: replicate-training-api
-- description: The Trainings API from Replicate — 1 operation(s) for trainings.
+- baseURL: https://api.replicate.com/v1
+  baseurl_source: spec
+  description: The Trainings API from Replicate — 1 operation(s) for trainings.
   name: Replicate Trainings API
   slug: replicate-trainings-api
 arazzos:
@@ -445,7 +467,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -455,7 +477,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 55.6
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -464,7 +486,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:

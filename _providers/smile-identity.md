@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
-- description: The Authentication API from Smile Identity — 1 operation(s) for authentication.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Authentication API from Smile Identity — 1 operation(s) for authentication.
   name: Smile Identity Authentication API
   slug: smile-identity-authentication-api
-- description: The Biometric Authentication API from Smile Identity — 1 operation(s) for biometric authentication.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Biometric Authentication API from Smile Identity — 1 operation(s) for biometric authentication.
   name: Smile Identity Biometric Authentication API
   slug: smile-identity-biometric-authentication-api
-- description: The Biometric Enrollment API from Smile Identity — 1 operation(s) for biometric enrollment.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Biometric Enrollment API from Smile Identity — 1 operation(s) for biometric enrollment.
   name: Smile Identity Biometric Enrollment API
   slug: smile-identity-biometric-enrollment-api
-- description: The Biometric KYC API from Smile Identity — 1 operation(s) for biometric kyc.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Biometric KYC API from Smile Identity — 1 operation(s) for biometric kyc.
   name: Smile Identity Biometric KYC API
   slug: smile-identity-biometric-kyc-api
-- description: The Callback Replay API from Smile Identity — 1 operation(s) for callback replay.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Callback Replay API from Smile Identity — 1 operation(s) for callback replay.
   name: Smile Identity Callback Replay API
   slug: smile-identity-callback-replay-api
-- description: The Document Verification API from Smile Identity — 1 operation(s) for document verification.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Document Verification API from Smile Identity — 1 operation(s) for document verification.
   name: Smile Identity Document Verification API
   slug: smile-identity-document-verification-api
-- description: The Enhanced Document Verification API from Smile Identity — 1 operation(s) for enhanced document verification.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Enhanced Document Verification API from Smile Identity — 1 operation(s) for enhanced document verification.
   name: Smile Identity Enhanced Document Verification API
   slug: smile-identity-enhanced-document-verification-api
-- description: The Enhanced KYC API from Smile Identity — 1 operation(s) for enhanced kyc.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Enhanced KYC API from Smile Identity — 1 operation(s) for enhanced kyc.
   name: Smile Identity Enhanced KYC API
   slug: smile-identity-enhanced-kyc-api
-- description: The Services API from Smile Identity — 4 operation(s) for services.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Services API from Smile Identity — 4 operation(s) for services.
   name: Smile Identity Services API
   slug: smile-identity-services-api
-- description: The Smart Selfie Compare API from Smile Identity — 1 operation(s) for smart selfie compare.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Smart Selfie Compare API from Smile Identity — 1 operation(s) for smart selfie compare.
   name: Smile Identity Smart Selfie Compare API
   slug: smile-identity-smart-selfie-compare-api
-- description: The Users API from Smile Identity — 1 operation(s) for users.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Users API from Smile Identity — 1 operation(s) for users.
   name: Smile Identity Users API
   slug: smile-identity-users-api
-- description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
+- baseURL: https://api.smileidentity.com
+  baseurl_source: declared
+  description: The Verification Status API from Smile Identity — 1 operation(s) for verification status.
   name: Smile Identity Verification Status API
   slug: smile-identity-verification-status-api
 artifact_total: 30
@@ -277,7 +301,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -287,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smile-identity/refs/heads/main/screenshots/smile-identity-2026-08-17T081942.png
 security:

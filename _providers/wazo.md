@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 540
   human_in_the_loop: 26
@@ -33,343 +46,569 @@ agentic_access:
   summary_line: 932 operations · 540 acting · 26 human-in-the-loop
 api_count: 25
 apis:
-- description: Phone auto-provisioning service. Manages device plugins, configuration templates, device registrations, DHCP integration and the plugin repository used to provision desk phones and ATAs from vendors s
+- baseURL: https://{wazo_stack}/api/provd/0.2
+  baseurl_source: declared
+  description: Phone auto-provisioning service. Manages device plugins, configuration templates, device registrations, DHCP integration and the plugin repository used to provision desk phones and ATAs from vendors s
   name: Wazo Phone Provisioning API (wazo-provd)
   slug: wazo-phone-provisioning-api-wazo-provd
-- description: WebSocket gateway onto the Wazo internal event bus. An authenticated client subscribes to named platform events (327 event types across confd, calld, agentd, dird, amid, sysconfd and webhookd) and rec
+- baseURL: wss://{wazo_stack}/api/websocketd/
+  baseurl_source: declared
+  description: WebSocket gateway onto the Wazo internal event bus. An authenticated client subscribes to named platform events (327 event types across confd, calld, agentd, dird, amid, sysconfd and webhookd) and rec
   name: Wazo Websocket Event Stream (wazo-websocketd)
   slug: wazo-websocket-event-stream-wazo-websocketd
-- description: The aastra API from Wazo — 2 operation(s) for aastra.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The aastra API from Wazo — 2 operation(s) for aastra.
   name: Wazo Aastra API
   slug: wazo-aastra-api
-- description: The access_features API from Wazo — 2 operation(s) for access_features.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The access_features API from Wazo — 2 operation(s) for access_features.
   name: Wazo Access Features API
   slug: wazo-access-features-api
-- description: The action API from Wazo — 1 operation(s) for action.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The action API from Wazo — 1 operation(s) for action.
   name: Wazo Action API
   slug: wazo-action-api
-- description: The adhoc_conferences API from Wazo — 3 operation(s) for adhoc_conferences.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The adhoc_conferences API from Wazo — 3 operation(s) for adhoc_conferences.
   name: Wazo Adhoc Conferences API
   slug: wazo-adhoc-conferences-api
-- description: The admin API from Wazo — 1 operation(s) for admin.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The admin API from Wazo — 1 operation(s) for admin.
   name: Wazo Admin API
   slug: wazo-admin-api
-- description: The agent_statistics API from Wazo — 2 operation(s) for agent_statistics.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The agent_statistics API from Wazo — 2 operation(s) for agent_statistics.
   name: Wazo Agent Statistics API
   slug: wazo-agent-statistics-api
-- description: The agents API from Wazo — 29 operation(s) for agents.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The agents API from Wazo — 29 operation(s) for agents.
   name: Wazo Agents API
   slug: wazo-agents-api
-- description: The applications API from Wazo — 25 operation(s) for applications.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The applications API from Wazo — 25 operation(s) for applications.
   name: Wazo Applications API
   slug: wazo-applications-api
-- description: The asterisk API from Wazo — 17 operation(s) for asterisk.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The asterisk API from Wazo — 17 operation(s) for asterisk.
   name: Wazo Asterisk API
   slug: wazo-asterisk-api
-- description: The backends API from Wazo — 5 operation(s) for backends.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The backends API from Wazo — 5 operation(s) for backends.
   name: Wazo Backends API
   slug: wazo-backends-api
-- description: The blocklist API from Wazo — 5 operation(s) for blocklist.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The blocklist API from Wazo — 5 operation(s) for blocklist.
   name: Wazo Blocklist API
   slug: wazo-blocklist-api
-- description: The callfilters API from Wazo — 5 operation(s) for callfilters.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The callfilters API from Wazo — 5 operation(s) for callfilters.
   name: Wazo Callfilters API
   slug: wazo-callfilters-api
-- description: The callpermissions API from Wazo — 5 operation(s) for callpermissions.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The callpermissions API from Wazo — 5 operation(s) for callpermissions.
   name: Wazo Callpermissions API
   slug: wazo-callpermissions-api
-- description: The callpickups API from Wazo — 6 operation(s) for callpickups.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The callpickups API from Wazo — 6 operation(s) for callpickups.
   name: Wazo Callpickups API
   slug: wazo-callpickups-api
-- description: The calls API from Wazo — 27 operation(s) for calls.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The calls API from Wazo — 27 operation(s) for calls.
   name: Wazo Calls API
   slug: wazo-calls-api
-- description: The cdr API from Wazo — 8 operation(s) for cdr.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The cdr API from Wazo — 8 operation(s) for cdr.
   name: Wazo Cdr API
   slug: wazo-cdr-api
-- description: The cisco API from Wazo — 3 operation(s) for cisco.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The cisco API from Wazo — 3 operation(s) for cisco.
   name: Wazo Cisco API
   slug: wazo-cisco-api
-- description: The command API from Wazo — 1 operation(s) for command.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The command API from Wazo — 1 operation(s) for command.
   name: Wazo Command API
   slug: wazo-command-api
-- description: The conference API from Wazo — 3 operation(s) for conference.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The conference API from Wazo — 3 operation(s) for conference.
   name: Wazo Conference API
   slug: wazo-conference-api
-- description: The conferences API from Wazo — 11 operation(s) for conferences.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The conferences API from Wazo — 11 operation(s) for conferences.
   name: Wazo Conferences API
   slug: wazo-conferences-api
-- description: The config API from Wazo — 1 operation(s) for config.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The config API from Wazo — 1 operation(s) for config.
   name: Wazo Config API
   slug: wazo-config-api
-- description: The configs API from Wazo — 5 operation(s) for configs.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The configs API from Wazo — 5 operation(s) for configs.
   name: Wazo Configs API
   slug: wazo-configs-api
-- description: The configuration API from Wazo — 26 operation(s) for configuration.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The configuration API from Wazo — 26 operation(s) for configuration.
   name: Wazo Configuration API
   slug: wazo-configuration-api
-- description: The connectors API from Wazo — 5 operation(s) for connectors.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The connectors API from Wazo — 5 operation(s) for connectors.
   name: Wazo Connectors API
   slug: wazo-connectors-api
-- description: The contexts API from Wazo — 4 operation(s) for contexts.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The contexts API from Wazo — 4 operation(s) for contexts.
   name: Wazo Contexts API
   slug: wazo-contexts-api
-- description: The custom API from Wazo — 4 operation(s) for custom.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The custom API from Wazo — 4 operation(s) for custom.
   name: Wazo Custom API
   slug: wazo-custom-api
-- description: The devices API from Wazo — 16 operation(s) for devices.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The devices API from Wazo — 16 operation(s) for devices.
   name: Wazo Devices API
   slug: wazo-devices-api
-- description: The dhcp API from Wazo — 1 operation(s) for dhcp.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The dhcp API from Wazo — 1 operation(s) for dhcp.
   name: Wazo Dhcp API
   slug: wazo-dhcp-api
-- description: The directories API from Wazo — 8 operation(s) for directories.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The directories API from Wazo — 8 operation(s) for directories.
   name: Wazo Directories API
   slug: wazo-directories-api
-- description: The emails API from Wazo — 5 operation(s) for emails.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The emails API from Wazo — 5 operation(s) for emails.
   name: Wazo Emails API
   slug: wazo-emails-api
-- description: The endpoint API from Wazo — 3 operation(s) for endpoint.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The endpoint API from Wazo — 3 operation(s) for endpoint.
   name: Wazo Endpoint API
   slug: wazo-endpoint-api
-- description: The endpoints API from Wazo — 18 operation(s) for endpoints.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The endpoints API from Wazo — 18 operation(s) for endpoints.
   name: Wazo Endpoints API
   slug: wazo-endpoints-api
-- description: The exports API from Wazo — 3 operation(s) for exports.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The exports API from Wazo — 3 operation(s) for exports.
   name: Wazo Exports API
   slug: wazo-exports-api
-- description: The extensions API from Wazo — 12 operation(s) for extensions.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The extensions API from Wazo — 12 operation(s) for extensions.
   name: Wazo Extensions API
   slug: wazo-extensions-api
-- description: The external API from Wazo — 3 operation(s) for external.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The external API from Wazo — 3 operation(s) for external.
   name: Wazo External API
   slug: wazo-external-api
-- description: The external_apps API from Wazo — 4 operation(s) for external_apps.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The external_apps API from Wazo — 4 operation(s) for external_apps.
   name: Wazo External Apps API
   slug: wazo-external-apps-api
-- description: The fanvil API from Wazo — 5 operation(s) for fanvil.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The fanvil API from Wazo — 5 operation(s) for fanvil.
   name: Wazo Fanvil API
   slug: wazo-fanvil-api
-- description: The favorites API from Wazo — 2 operation(s) for favorites.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The favorites API from Wazo — 2 operation(s) for favorites.
   name: Wazo Favorites API
   slug: wazo-favorites-api
-- description: The faxes API from Wazo — 2 operation(s) for faxes.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The faxes API from Wazo — 2 operation(s) for faxes.
   name: Wazo Faxes API
   slug: wazo-faxes-api
-- description: The forwards API from Wazo — 2 operation(s) for forwards.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The forwards API from Wazo — 2 operation(s) for forwards.
   name: Wazo Forwards API
   slug: wazo-forwards-api
-- description: The funckeys API from Wazo — 9 operation(s) for funckeys.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The funckeys API from Wazo — 9 operation(s) for funckeys.
   name: Wazo Funckeys API
   slug: wazo-funckeys-api
-- description: The gigaset API from Wazo — 1 operation(s) for gigaset.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The gigaset API from Wazo — 1 operation(s) for gigaset.
   name: Wazo Gigaset API
   slug: wazo-gigaset-api
-- description: The google API from Wazo — 4 operation(s) for google.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The google API from Wazo — 4 operation(s) for google.
   name: Wazo Google API
   slug: wazo-google-api
-- description: The groups API from Wazo — 15 operation(s) for groups.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The groups API from Wazo — 15 operation(s) for groups.
   name: Wazo Groups API
   slug: wazo-groups-api
-- description: The guests API from Wazo — 4 operation(s) for guests.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The guests API from Wazo — 4 operation(s) for guests.
   name: Wazo Guests API
   slug: wazo-guests-api
-- description: The ha API from Wazo — 1 operation(s) for ha.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The ha API from Wazo — 1 operation(s) for ha.
   name: Wazo Ha API
   slug: wazo-ha-api
-- description: The htek API from Wazo — 1 operation(s) for htek.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The htek API from Wazo — 1 operation(s) for htek.
   name: Wazo Htek API
   slug: wazo-htek-api
-- description: The iax API from Wazo — 7 operation(s) for iax.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The iax API from Wazo — 7 operation(s) for iax.
   name: Wazo Iax API
   slug: wazo-iax-api
-- description: The identities API from Wazo — 3 operation(s) for identities.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The identities API from Wazo — 3 operation(s) for identities.
   name: Wazo Identities API
   slug: wazo-identities-api
-- description: The idp API from Wazo — 3 operation(s) for idp.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The idp API from Wazo — 3 operation(s) for idp.
   name: Wazo Idp API
   slug: wazo-idp-api
-- description: The incalls API from Wazo — 4 operation(s) for incalls.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The incalls API from Wazo — 4 operation(s) for incalls.
   name: Wazo Incalls API
   slug: wazo-incalls-api
-- description: The infos API from Wazo — 1 operation(s) for infos.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The infos API from Wazo — 1 operation(s) for infos.
   name: Wazo Infos API
   slug: wazo-infos-api
-- description: The ingresses API from Wazo — 2 operation(s) for ingresses.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The ingresses API from Wazo — 2 operation(s) for ingresses.
   name: Wazo Ingresses API
   slug: wazo-ingresses-api
-- description: The ivr API from Wazo — 2 operation(s) for ivr.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The ivr API from Wazo — 2 operation(s) for ivr.
   name: Wazo Ivr API
   slug: wazo-ivr-api
-- description: The lines API from Wazo — 15 operation(s) for lines.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The lines API from Wazo — 15 operation(s) for lines.
   name: Wazo Lines API
   slug: wazo-lines-api
-- description: The localization API from Wazo — 1 operation(s) for localization.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The localization API from Wazo — 1 operation(s) for localization.
   name: Wazo Localization API
   slug: wazo-localization-api
-- description: The market API from Wazo — 2 operation(s) for market.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The market API from Wazo — 2 operation(s) for market.
   name: Wazo Market API
   slug: wazo-market-api
-- description: The meeting_authorizations API from Wazo — 6 operation(s) for meeting_authorizations.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The meeting_authorizations API from Wazo — 6 operation(s) for meeting_authorizations.
   name: Wazo Meeting Authorizations API
   slug: wazo-meeting-authorizations-api
-- description: The meetings API from Wazo — 16 operation(s) for meetings.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The meetings API from Wazo — 16 operation(s) for meetings.
   name: Wazo Meetings API
   slug: wazo-meetings-api
-- description: The messages API from Wazo — 2 operation(s) for messages.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The messages API from Wazo — 2 operation(s) for messages.
   name: Wazo Messages API
   slug: wazo-messages-api
-- description: The microsoft API from Wazo — 2 operation(s) for microsoft.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The microsoft API from Wazo — 2 operation(s) for microsoft.
   name: Wazo Microsoft API
   slug: wazo-microsoft-api
-- description: The mobile API from Wazo — 2 operation(s) for mobile.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The mobile API from Wazo — 2 operation(s) for mobile.
   name: Wazo Mobile API
   slug: wazo-mobile-api
-- description: The moh API from Wazo — 3 operation(s) for moh.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The moh API from Wazo — 3 operation(s) for moh.
   name: Wazo Moh API
   slug: wazo-moh-api
-- description: The notifications API from Wazo — 1 operation(s) for notifications.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The notifications API from Wazo — 1 operation(s) for notifications.
   name: Wazo Notifications API
   slug: wazo-notifications-api
-- description: The office365 API from Wazo — 1 operation(s) for office365.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The office365 API from Wazo — 1 operation(s) for office365.
   name: Wazo Office365 API
   slug: wazo-office365-api
-- description: The outcalls API from Wazo — 6 operation(s) for outcalls.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The outcalls API from Wazo — 6 operation(s) for outcalls.
   name: Wazo Outcalls API
   slug: wazo-outcalls-api
-- description: The pagings API from Wazo — 4 operation(s) for pagings.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The pagings API from Wazo — 4 operation(s) for pagings.
   name: Wazo Pagings API
   slug: wazo-pagings-api
-- description: The parking_lots API from Wazo — 6 operation(s) for parking_lots.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The parking_lots API from Wazo — 6 operation(s) for parking_lots.
   name: Wazo Parking Lots API
   slug: wazo-parking-lots-api
-- description: The personal API from Wazo — 4 operation(s) for personal.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The personal API from Wazo — 4 operation(s) for personal.
   name: Wazo Personal API
   slug: wazo-personal-api
-- description: The phone-numbers API from Wazo — 4 operation(s) for phone-numbers.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The phone-numbers API from Wazo — 4 operation(s) for phone-numbers.
   name: Wazo Phone Numbers API
   slug: wazo-phone-numbers-api
-- description: The phonebook API from Wazo — 11 operation(s) for phonebook.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The phonebook API from Wazo — 11 operation(s) for phonebook.
   name: Wazo Phonebook API
   slug: wazo-phonebook-api
-- description: The plugin API from Wazo — 4 operation(s) for plugin.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The plugin API from Wazo — 4 operation(s) for plugin.
   name: Wazo Plugin API
   slug: wazo-plugin-api
-- description: The plugins API from Wazo — 22 operation(s) for plugins.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The plugins API from Wazo — 22 operation(s) for plugins.
   name: Wazo Plugins API
   slug: wazo-plugins-api
-- description: The policies API from Wazo — 6 operation(s) for policies.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The policies API from Wazo — 6 operation(s) for policies.
   name: Wazo Policies API
   slug: wazo-policies-api
-- description: The polycom API from Wazo — 2 operation(s) for polycom.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The polycom API from Wazo — 2 operation(s) for polycom.
   name: Wazo Polycom API
   slug: wazo-polycom-api
-- description: The presences API from Wazo — 2 operation(s) for presences.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The presences API from Wazo — 2 operation(s) for presences.
   name: Wazo Presences API
   slug: wazo-presences-api
-- description: The provisioning API from Wazo — 1 operation(s) for provisioning.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The provisioning API from Wazo — 1 operation(s) for provisioning.
   name: Wazo Provisioning API
   slug: wazo-provisioning-api
-- description: The queue_statistics API from Wazo — 3 operation(s) for queue_statistics.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The queue_statistics API from Wazo — 3 operation(s) for queue_statistics.
   name: Wazo Queue Statistics API
   slug: wazo-queue-statistics-api
-- description: The queues API from Wazo — 9 operation(s) for queues.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The queues API from Wazo — 9 operation(s) for queues.
   name: Wazo Queues API
   slug: wazo-queues-api
-- description: The recordings-announcements API from Wazo — 1 operation(s) for recordings-announcements.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The recordings-announcements API from Wazo — 1 operation(s) for recordings-announcements.
   name: Wazo Recordings Announcements API
   slug: wazo-recordings-announcements-api
-- description: The registers API from Wazo — 3 operation(s) for registers.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The registers API from Wazo — 3 operation(s) for registers.
   name: Wazo Registers API
   slug: wazo-registers-api
-- description: The registrars API from Wazo — 2 operation(s) for registrars.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The registrars API from Wazo — 2 operation(s) for registrars.
   name: Wazo Registrars API
   slug: wazo-registrars-api
-- description: The relocates API from Wazo — 4 operation(s) for relocates.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The relocates API from Wazo — 4 operation(s) for relocates.
   name: Wazo Relocates API
   slug: wazo-relocates-api
-- description: The retention API from Wazo — 1 operation(s) for retention.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The retention API from Wazo — 1 operation(s) for retention.
   name: Wazo Retention API
   slug: wazo-retention-api
-- description: The rooms API from Wazo — 3 operation(s) for rooms.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The rooms API from Wazo — 3 operation(s) for rooms.
   name: Wazo Rooms API
   slug: wazo-rooms-api
-- description: The saml API from Wazo — 4 operation(s) for saml.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The saml API from Wazo — 4 operation(s) for saml.
   name: Wazo Saml API
   slug: wazo-saml-api
-- description: The sccp API from Wazo — 4 operation(s) for sccp.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The sccp API from Wazo — 4 operation(s) for sccp.
   name: Wazo Sccp API
   slug: wazo-sccp-api
-- description: The schedules API from Wazo — 7 operation(s) for schedules.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The schedules API from Wazo — 7 operation(s) for schedules.
   name: Wazo Schedules API
   slug: wazo-schedules-api
-- description: The sessions API from Wazo — 4 operation(s) for sessions.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The sessions API from Wazo — 4 operation(s) for sessions.
   name: Wazo Sessions API
   slug: wazo-sessions-api
-- description: The setup API from Wazo — 1 operation(s) for setup.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The setup API from Wazo — 1 operation(s) for setup.
   name: Wazo Setup API
   slug: wazo-setup-api
-- description: The sip API from Wazo — 11 operation(s) for sip.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The sip API from Wazo — 11 operation(s) for sip.
   name: Wazo Sip API
   slug: wazo-sip-api
-- description: The skills API from Wazo — 5 operation(s) for skills.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The skills API from Wazo — 5 operation(s) for skills.
   name: Wazo Skills API
   slug: wazo-skills-api
-- description: The snom API from Wazo — 2 operation(s) for snom.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The snom API from Wazo — 2 operation(s) for snom.
   name: Wazo Snom API
   slug: wazo-snom-api
-- description: The sounds API from Wazo — 4 operation(s) for sounds.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The sounds API from Wazo — 4 operation(s) for sounds.
   name: Wazo Sounds API
   slug: wazo-sounds-api
-- description: The status API from Wazo — 1 operation(s) for status.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The status API from Wazo — 1 operation(s) for status.
   name: Wazo Status API
   slug: wazo-status-api
-- description: The subscriptions API from Wazo — 6 operation(s) for subscriptions.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The subscriptions API from Wazo — 6 operation(s) for subscriptions.
   name: Wazo Subscriptions API
   slug: wazo-subscriptions-api
-- description: The switchboards API from Wazo — 9 operation(s) for switchboards.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The switchboards API from Wazo — 9 operation(s) for switchboards.
   name: Wazo Switchboards API
   slug: wazo-switchboards-api
-- description: The tenants API from Wazo — 4 operation(s) for tenants.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The tenants API from Wazo — 4 operation(s) for tenants.
   name: Wazo Tenants API
   slug: wazo-tenants-api
-- description: The thomson API from Wazo — 1 operation(s) for thomson.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The thomson API from Wazo — 1 operation(s) for thomson.
   name: Wazo Thomson API
   slug: wazo-thomson-api
-- description: The timezones API from Wazo — 1 operation(s) for timezones.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The timezones API from Wazo — 1 operation(s) for timezones.
   name: Wazo Timezones API
   slug: wazo-timezones-api
-- description: The token API from Wazo — 10 operation(s) for token.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The token API from Wazo — 10 operation(s) for token.
   name: Wazo Token API
   slug: wazo-token-api
-- description: The transcription API from Wazo — 1 operation(s) for transcription.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The transcription API from Wazo — 1 operation(s) for transcription.
   name: Wazo Transcription API
   slug: wazo-transcription-api
-- description: The transfers API from Wazo — 6 operation(s) for transfers.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The transfers API from Wazo — 6 operation(s) for transfers.
   name: Wazo Transfers API
   slug: wazo-transfers-api
-- description: The trunks API from Wazo — 7 operation(s) for trunks.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The trunks API from Wazo — 7 operation(s) for trunks.
   name: Wazo Trunks API
   slug: wazo-trunks-api
-- description: The users API from Wazo — 104 operation(s) for users.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The users API from Wazo — 104 operation(s) for users.
   name: Wazo Users API
   slug: wazo-users-api
-- description: The voicemail_transcriptions API from Wazo — 1 operation(s) for voicemail_transcriptions.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The voicemail_transcriptions API from Wazo — 1 operation(s) for voicemail_transcriptions.
   name: Wazo Voicemail Transcriptions API
   slug: wazo-voicemail-transcriptions-api
-- description: The voicemails API from Wazo — 20 operation(s) for voicemails.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The voicemails API from Wazo — 20 operation(s) for voicemails.
   name: Wazo Voicemails API
   slug: wazo-voicemails-api
-- description: The wazo API from Wazo — 1 operation(s) for wazo.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The wazo API from Wazo — 1 operation(s) for wazo.
   name: Wazo Wazo API
   slug: wazo-wazo-api
-- description: The wizard API from Wazo — 2 operation(s) for wizard.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The wizard API from Wazo — 2 operation(s) for wizard.
   name: Wazo Wizard API
   slug: wazo-wizard-api
-- description: The work_in_progress API from Wazo — 1 operation(s) for work_in_progress.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The work_in_progress API from Wazo — 1 operation(s) for work_in_progress.
   name: Wazo Work In Progress API
   slug: wazo-work-in-progress-api
-- description: The yealink API from Wazo — 4 operation(s) for yealink.
+- baseURL: https://{wazo_stack}/api/auth/0.1
+  baseurl_source: declared
+  description: The yealink API from Wazo — 4 operation(s) for yealink.
   name: Wazo Yealink API
   slug: wazo-yealink-api
 artifact_total: 131
@@ -706,7 +945,7 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -738,8 +977,9 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wazo/refs/heads/main/screenshots/wazo-2026-09-02T170515.png
 security:
 - kind: authentication
   name: Wazo Authentication

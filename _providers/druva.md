@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -62,28 +62,44 @@ apis:
 - description: The Druva Legal Hold Targeted Download API supports legal and compliance teams in initiating targeted downloads of preserved data from devices placed under legal hold within Druva.
   name: Druva Legal Hold Targeted Download API
   slug: legal-hold
-- description: The Accounts API from Druva — 2 operation(s) for accounts.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Accounts API from Druva — 2 operation(s) for accounts.
   name: Druva Accounts API
   slug: druva-accounts-api
-- description: The Authentication API from Druva — 1 operation(s) for authentication.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Authentication API from Druva — 1 operation(s) for authentication.
   name: Druva Authentication API
   slug: druva-authentication-api
-- description: The Backups API from Druva — 1 operation(s) for backups.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Backups API from Druva — 1 operation(s) for backups.
   name: Druva Backups API
   slug: druva-backups-api
-- description: The Cyber Resilience API from Druva — 2 operation(s) for cyber resilience.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Cyber Resilience API from Druva — 2 operation(s) for cyber resilience.
   name: Druva Cyber Resilience API
   slug: druva-cyber-resilience-api
-- description: The Policies API from Druva — 2 operation(s) for policies.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Policies API from Druva — 2 operation(s) for policies.
   name: Druva Policies API
   slug: druva-policies-api
-- description: The Reports API from Druva — 1 operation(s) for reports.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Reports API from Druva — 1 operation(s) for reports.
   name: Druva Reports API
   slug: druva-reports-api
-- description: The Schedules API from Druva — 1 operation(s) for schedules.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Schedules API from Druva — 1 operation(s) for schedules.
   name: Druva Schedules API
   slug: druva-schedules-api
-- description: The Servers API from Druva — 1 operation(s) for servers.
+- baseURL: https://apis.druva.com
+  baseurl_source: declared
+  description: The Servers API from Druva — 1 operation(s) for servers.
   name: Druva Servers API
   slug: druva-servers-api
 artifact_total: 31
@@ -223,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/druva/refs/heads/main/screenshots/druva-2026-06-20T180253.png
 security:

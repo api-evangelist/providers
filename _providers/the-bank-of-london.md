@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Bank of London's public REST banking API (v2/v3 path-versioned), published as OpenAPI 3.0.3 from the Developer Studio. 58 operations across ten tags — Accounts, Customer Management, Virtual Accoun
+- baseURL: https://api.bankoflondon.com/
+  baseurl_source: declared
+  description: The Bank of London's public REST banking API (v2/v3 path-versioned), published as OpenAPI 3.0.3 from the Developer Studio. 58 operations across ten tags — Accounts, Customer Management, Virtual Accoun
   name: Bank of London API
   slug: bank-of-london-api
 - description: The dedicated PSD2 Third Party Provider (TPP) interface for The Bank of London, implementing the UK Open Banking Read/Write API v3.1 (AIS, PIS, PIIS, plus dynamic client registration and OpenID Connec
@@ -189,23 +204,23 @@ rate_limits:
   slug: the-bank-of-london-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 52.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 57.0
+    contract_quality: 57.6
     developer_ergonomics: 66.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 54.0
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -217,8 +232,9 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/screenshots/the-bank-of-london-2026-09-02T163320.png
 security:
 - kind: authentication
   name: The Bank Of London Authentication

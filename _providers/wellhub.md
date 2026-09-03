@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
-- description: Endpoints for listing companies associated with the authenticated entity.
+- baseURL: https://api.clients.wellhub.com
+  baseurl_source: declared
+  description: Endpoints for listing companies associated with the authenticated entity.
   name: Wellhub Companies API
   slug: wellhub-companies-api
-- description: Endpoints for listing employees associated with a company or entity.
+- baseURL: https://api.clients.wellhub.com
+  baseurl_source: declared
+  description: Endpoints for listing employees associated with a company or entity.
   name: Wellhub Employees API
   slug: wellhub-employees-api
-- description: 'Endpoints for managing eligibility batch jobs. A job follows a lifecycle: Create → Add Items → Submit → Monitor. After submission, the job transitions through the following statuses: - `PENDING` — job'
+- baseURL: https://api.clients.wellhub.com
+  baseurl_source: declared
+  description: 'Endpoints for managing eligibility batch jobs. A job follows a lifecycle: Create → Add Items → Submit → Monitor. After submission, the job transitions through the following statuses: - `PENDING` — job'
   name: Wellhub Jobs API
   slug: wellhub-jobs-api
-- description: Endpoints for obtaining access tokens using the OAuth 2.0 Client Credentials flow.
+- baseURL: https://api.clients.wellhub.com
+  baseurl_source: declared
+  description: Endpoints for obtaining access tokens using the OAuth 2.0 Client Credentials flow.
   name: Wellhub OAuth API
   slug: wellhub-oauth-api
 artifact_total: 15
@@ -234,7 +242,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellhub/refs/heads/main/screenshots/wellhub-2026-08-17T082909.png
 security:

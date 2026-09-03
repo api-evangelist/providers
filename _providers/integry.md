@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: The Apps API from Integry — 2 operation(s) for apps.
+- baseURL: https://api.integry.io
+  baseurl_source: declared
+  description: The Apps API from Integry — 2 operation(s) for apps.
   name: Integry Apps API
   slug: integry-apps-api
-- description: The Functions API from Integry — 4 operation(s) for functions.
+- baseURL: https://api.integry.io
+  baseurl_source: declared
+  description: The Functions API from Integry — 4 operation(s) for functions.
   name: Integry Functions API
   slug: integry-functions-api
 artifact_total: 12
@@ -149,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integry/refs/heads/main/screenshots/integry-2026-06-20T183535.png
 security:

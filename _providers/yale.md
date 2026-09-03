@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 4
 apis:
-- description: 'Search and discovery across LUX scopes, returning Linked Art OrderedCollectionPage documents in JSON-LD. LUX is Yale''s own platform: the frontend, middle tier, Varnish cache, MarkLogic backend and dat'
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: 'Search and discovery across LUX scopes, returning Linked Art OrderedCollectionPage documents in JSON-LD. LUX is Yale''s own platform: the frontend, middle tier, Varnish cache, MarkLogic backend and dat'
   name: LUX Collections Discovery — Search API
   slug: yale-search-api
-- description: Retrieves a single entity from LUX as a Linked Art JSON-LD document by type and identifier. Institution-operated on lux.collections.yale.edu.
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: Retrieves a single entity from LUX as a Linked Art JSON-LD document by type and identifier. Institution-operated on lux.collections.yale.edu.
   name: LUX Collections Discovery — Documents API
   slug: yale-documents-api
-- description: Faceted aggregation over LUX search results, returning an OrderedCollectionPage of facet values and occurrence counts. Institution-operated on lux.collections.yale.edu.
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: Faceted aggregation over LUX search results, returning an OrderedCollectionPage of facet values and occurrence counts. Institution-operated on lux.collections.yale.edu.
   name: LUX Collections Discovery — Facets API
   slug: yale-facets-api
-- description: Related-entity discovery across LUX, returning an OrderedCollectionPage of documents connected to a given URI. Institution-operated on lux.collections.yale.edu.
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: Related-entity discovery across LUX, returning an OrderedCollectionPage of documents connected to a given URI. Institution-operated on lux.collections.yale.edu.
   name: LUX Collections Discovery — Related API
   slug: yale-related-api
-- description: Advanced-search configuration metadata for LUX, describing searchable terms by scope, search options and stop words. Verified 200 returning 43,502 bytes of JSON on 2026-08-19.
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: Advanced-search configuration metadata for LUX, describing searchable terms by scope, search options and stop words. Verified 200 returning 43,502 bytes of JSON on 2026-08-19.
   name: LUX Collections Discovery — Configuration API
   slug: yale-configuration-api
 - description: Yale's institution-operated developer portal documents four Portal APIs — Buildings (name and location of Yale campus buildings), Courses, Course Subjects and GatewayServiceMetrics. Yale's own page ca
@@ -73,13 +83,19 @@ apis:
 - description: Yale Course Search (courses.yale.edu) and the Yale University Publications bulletin (catalog.yale.edu) are the institution's public course-catalog surfaces. Both are Leepfrog CourseLeaf tenancies — co
   name: Yale Course Search and University Publications (CourseLeaf tenancy)
   slug: course-catalog
-- description: SAML 2.0 entity metadata
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: SAML 2.0 entity metadata
   name: Yale University Federation API
   slug: yale-federation-api
-- description: IIIF Presentation 3.0 manifests for digitized objects
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: IIIF Presentation 3.0 manifests for digitized objects
   name: Yale University IIIF API
   slug: yale-iiif-api
-- description: Deployment identity, version and metrics
+- baseURL: https://lux.collections.yale.edu
+  baseurl_source: declared
+  description: Deployment identity, version and metrics
   name: Yale University Info API
   slug: yale-info-api
 artifact_total: 41
@@ -339,7 +355,7 @@ score:
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -349,7 +365,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 48.3
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -365,7 +381,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
 security:

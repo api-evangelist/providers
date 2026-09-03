@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Bubble Workflow API enables external systems to trigger backend workflows in a Bubble app via HTTP requests. Workflows can receive data, execute business logic, and return results, supporting inte
   name: Bubble Workflow API
   slug: bubble-workflow-api
-- description: Generic CRUD operations against your Bubble application data types.
+- baseURL: https://{app-name}.bubbleapps.io/api/1.1
+  baseurl_source: declared
+  description: Generic CRUD operations against your Bubble application data types.
   name: Bubble Data API
   slug: bubbles-data-api
 artifact_total: 13
@@ -181,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubbles/refs/heads/main/screenshots/bubbles-2026-06-20T173737.png
 security:

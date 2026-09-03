@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 13 acting
 api_count: 1
 apis:
-- description: Custom event tracking
+- baseURL: https://api.productfruits.com
+  baseurl_source: declared
+  description: Custom event tracking
   name: Product Fruits Events API
   slug: product-fruits-events-api
-- description: User feedback submission
+- baseURL: https://api.productfruits.com
+  baseurl_source: declared
+  description: User feedback submission
   name: Product Fruits Feedback API
   slug: product-fruits-feedback-api
-- description: Knowledge base article and category management
+- baseURL: https://api.productfruits.com
+  baseurl_source: declared
+  description: Knowledge base article and category management
   name: Product Fruits Knowledge Base API
   slug: product-fruits-knowledge-base-api
-- description: User identification and management
+- baseURL: https://api.productfruits.com
+  baseurl_source: declared
+  description: User identification and management
   name: Product Fruits Users API
   slug: product-fruits-users-api
 artifact_total: 28
@@ -236,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/product-fruits/refs/heads/main/screenshots/product-fruits-2026-06-20T192135.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: First-party hosted remote Model Context Protocol server (streamable HTTP, protocol 2025-06-18) giving agents 12 tools to generate images, video, music and sound effects on the signed-in account, upsca
@@ -32,79 +46,129 @@ apis:
 - description: Read-only MCP server hosted on the BudgetPixel documentation site (Mintlify) giving agents two tools -- full-text documentation search and a sandboxed read-only filesystem query over the docs pages an
   name: BudgetPixel Docs Search MCP Server
   slug: budgetpixel-docs-search-mcp-server
-- description: Account and credit balance
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Account and credit balance
   name: BudgetPixel Account API
   slug: budgetpixel-account-api
-- description: The Alibaba API from BudgetPixel — 12 operation(s) for alibaba.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Alibaba API from BudgetPixel — 12 operation(s) for alibaba.
   name: BudgetPixel Alibaba API
   slug: budgetpixel-alibaba-api
-- description: Music and sound-effect job status
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Music and sound-effect job status
   name: BudgetPixel Audios API
   slug: budgetpixel-audios-api
-- description: FLUX image models
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: FLUX image models
   name: BudgetPixel Black Forest Labs API
   slug: budgetpixel-black-forest-labs-api
-- description: SeeDream image models
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: SeeDream image models
   name: BudgetPixel Bytedance API
   slug: budgetpixel-bytedance-api
-- description: SeeDance video models
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: SeeDance video models
   name: BudgetPixel ByteDance (SeeDance) API
   slug: budgetpixel-bytedance-seedance-api
-- description: Content classification — music genre detection
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Content classification — music genre detection
   name: BudgetPixel Classification API
   slug: budgetpixel-classification-api
-- description: Format conversion for images, video, and audio
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Format conversion for images, video, and audio
   name: BudgetPixel Conversions API
   slug: budgetpixel-conversions-api
-- description: The Google API from BudgetPixel — 3 operation(s) for google.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Google API from BudgetPixel — 3 operation(s) for google.
   name: BudgetPixel Google API
   slug: budgetpixel-google-api
-- description: Image job status
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Image job status
   name: BudgetPixel Images API
   slug: budgetpixel-images-api
-- description: Kuaishou Kling video models
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Kuaishou Kling video models
   name: BudgetPixel Kling API
   slug: budgetpixel-kling-api
-- description: The Lip Sync API from BudgetPixel — 3 operation(s) for lip sync.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Lip Sync API from BudgetPixel — 3 operation(s) for lip sync.
   name: BudgetPixel Lip Sync API
   slug: budgetpixel-lip-sync-api
-- description: The MiniMax API from BudgetPixel — 1 operation(s) for minimax.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The MiniMax API from BudgetPixel — 1 operation(s) for minimax.
   name: BudgetPixel Mini Max API
   slug: budgetpixel-minimax-api
-- description: Discover available models and pricing
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Discover available models and pricing
   name: BudgetPixel Models API
   slug: budgetpixel-models-api
-- description: Content moderation — NSFW rating and CSAM detection
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Content moderation — NSFW rating and CSAM detection
   name: BudgetPixel Moderation API
   slug: budgetpixel-moderation-api
-- description: The Motion Control API from BudgetPixel — 3 operation(s) for motion control.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Motion Control API from BudgetPixel — 3 operation(s) for motion control.
   name: BudgetPixel Motion Control API
   slug: budgetpixel-motion-control-api
-- description: Music generation models
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Music generation models
   name: BudgetPixel Music API
   slug: budgetpixel-music-api
-- description: The OpenAI API from BudgetPixel — 1 operation(s) for openai.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The OpenAI API from BudgetPixel — 1 operation(s) for openai.
   name: BudgetPixel Open AI API
   slug: budgetpixel-openai-api
-- description: The Pruna AI API from BudgetPixel — 3 operation(s) for pruna ai.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Pruna AI API from BudgetPixel — 3 operation(s) for pruna ai.
   name: BudgetPixel Pruna AI API
   slug: budgetpixel-pruna-ai-api
-- description: Publish posts to your BudgetPixel feed
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Publish posts to your BudgetPixel feed
   name: BudgetPixel Social API
   slug: budgetpixel-social-api
-- description: Text-to-sound-effect models (priced per second)
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Text-to-sound-effect models (priced per second)
   name: BudgetPixel Sound Effects API
   slug: budgetpixel-sound-effects-api
-- description: Upload input media for image/video generation
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Upload input media for image/video generation
   name: BudgetPixel Uploads API
   slug: budgetpixel-uploads-api
-- description: The Upscaling API from BudgetPixel — 5 operation(s) for upscaling.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The Upscaling API from BudgetPixel — 5 operation(s) for upscaling.
   name: BudgetPixel Upscaling API
   slug: budgetpixel-upscaling-api
-- description: Video job status
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: Video job status
   name: BudgetPixel Videos API
   slug: budgetpixel-videos-api
-- description: The xAI API from BudgetPixel — 2 operation(s) for xai.
+- baseURL: https://api.budgetpixel.com/v1
+  baseurl_source: declared
+  description: The xAI API from BudgetPixel — 2 operation(s) for xai.
   name: BudgetPixel X AI API
   slug: budgetpixel-xai-api
 artifact_total: 35
@@ -273,11 +337,11 @@ score:
   band: strong
   composite: 57.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -287,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.6
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -304,8 +368,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/budgetpixel/refs/heads/main/screenshots/budgetpixel-2026-09-02T144959.png
 security:
 - kind: authentication
   name: Budgetpixel Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 134 operations · 78 acting
 api_count: 2
 apis:
-- description: Build real-time two-way communication applications with WebSocket APIs.
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Build real-time two-way communication applications with WebSocket APIs.
   name: Amazon API Gateway WebSocket API
   slug: websocket-api
 - description: Lower latency and lower cost alternative to REST APIs with essential features for building HTTP-based APIs.
@@ -52,49 +54,79 @@ apis:
 - description: API for directly managing runtime aspects of deployed APIs, including sending data to connected WebSocket clients via the @connections endpoint and managing connection state.
   name: Amazon API Gateway Management API
   slug: management-api
-- description: Operations for managing API keys
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API keys
   name: Amazon API Gateway API Keys API
   slug: amazon-api-gateway-api-keys-api
-- description: Operations for managing API authorizers
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API authorizers
   name: Amazon API Gateway Authorizers API
   slug: amazon-api-gateway-authorizers-api
-- description: Operations for managing base path mappings
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing base path mappings
   name: Amazon API Gateway Base Path Mappings API
   slug: amazon-api-gateway-base-path-mappings-api
-- description: Operations for managing API deployments
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API deployments
   name: Amazon API Gateway Deployments API
   slug: amazon-api-gateway-deployments-api
-- description: Operations for managing API documentation
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API documentation
   name: Amazon API Gateway Documentation API
   slug: amazon-api-gateway-documentation-api
-- description: Operations for managing custom domain names
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing custom domain names
   name: Amazon API Gateway Domain Names API
   slug: amazon-api-gateway-domain-names-api
-- description: Operations for managing gateway responses
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing gateway responses
   name: Amazon API Gateway Gateway Responses API
   slug: amazon-api-gateway-gateway-responses-api
-- description: Operations for managing HTTP methods on resources
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing HTTP methods on resources
   name: Amazon API Gateway Methods API
   slug: amazon-api-gateway-methods-api
-- description: Operations for managing API data models
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API data models
   name: Amazon API Gateway Models API
   slug: amazon-api-gateway-models-api
-- description: Operations for managing request validators
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing request validators
   name: Amazon API Gateway Request Validators API
   slug: amazon-api-gateway-request-validators-api
-- description: Operations for managing API resources (URL paths)
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing API resources (URL paths)
   name: Amazon API Gateway Resources API
   slug: amazon-api-gateway-resources-api
-- description: Operations for creating and managing REST APIs
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing REST APIs
   name: Amazon API Gateway REST APIs API
   slug: amazon-api-gateway-rest-apis-api
-- description: Operations for managing deployment stages
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing deployment stages
   name: Amazon API Gateway Stages API
   slug: amazon-api-gateway-stages-api
-- description: Operations for managing usage plans and throttling
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing usage plans and throttling
   name: Amazon API Gateway Usage Plans API
   slug: amazon-api-gateway-usage-plans-api
-- description: Operations for managing VPC links
+- baseURL: https://apigateway.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing VPC links
   name: Amazon API Gateway VPC Links API
   slug: amazon-api-gateway-vpc-links-api
 artifact_total: 248
@@ -955,7 +987,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -965,7 +997,7 @@ score:
     discoverability: 61.1
     governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 51.3
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -976,7 +1008,7 @@ score:
       total: 15
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Microsoft Clarity provides heatmaps, session recordings, and behavioral analytics with API access for custom integrations.
   name: Microsoft Clarity API
   slug: api
-- description: 'Project live insights data export. One JWT-authenticated GET returns Clarity dashboard metrics as JSON for the last one to three days, sliced by up to three of nine dimensions. Capped at ten requests '
+- baseURL: https://www.clarity.ms/
+  baseurl_source: declared
+  description: 'Project live insights data export. One JWT-authenticated GET returns Clarity dashboard metrics as JSON for the last one to three days, sliced by up to three of nine dimensions. Capped at ten requests '
   name: Microsoft Clarity DataExport API
   slug: microsoft-clarity-dataexport-api
 artifact_total: 13
@@ -261,7 +263,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/screenshots/microsoft-clarity-2026-06-20T185449.png
 security:

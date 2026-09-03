@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Shares operations
+- baseURL: https://{account}.file.core.windows.net/
+  baseurl_source: declared
+  description: Shares operations
   name: Azure File Storage Shares API
   slug: microsoft-azure-file-storage-shares-api
 artifact_total: 10
@@ -147,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-file-storage/refs/heads/main/screenshots/microsoft-azure-file-storage-2026-06-20T185414.png
 security:

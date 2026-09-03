@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: User profile and balance.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: User profile and balance.
   name: DMarket Account API
   slug: dmarket-account-api
-- description: Aggregated market price data.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: Aggregated market price data.
   name: DMarket Aggregator API
   slug: dmarket-aggregator-api
-- description: Browse marketplace offers and buy orders (targets), and purchase items.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: Browse marketplace offers and buy orders (targets), and purchase items.
   name: DMarket Buy items API
   slug: dmarket-buy-items-api
-- description: User inventory, deposits and withdrawals.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: User inventory, deposits and withdrawals.
   name: DMarket Inventory/items API
   slug: dmarket-inventory-items-api
-- description: Create, edit, delete and list your sell offers.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: Create, edit, delete and list your sell offers.
   name: DMarket Sell Items API
   slug: dmarket-sell-items-api
-- description: History of your completed sales.
+- baseURL: https://api.dmarket.com
+  baseurl_source: declared
+  description: History of your completed sales.
   name: DMarket Sold user items API
   slug: dmarket-sold-user-items-api
 artifact_total: 16
@@ -210,7 +222,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dmarket/refs/heads/main/screenshots/dmarket-2026-07-25T212204.png
 security:

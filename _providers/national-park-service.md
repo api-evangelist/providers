@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: The Activities API from National Park Service — 1 operation(s) for activities.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Activities API from National Park Service — 1 operation(s) for activities.
   name: National Park Service Activities API
   slug: national-park-service-activities-api
-- description: The Alerts API from National Park Service — 1 operation(s) for alerts.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Alerts API from National Park Service — 1 operation(s) for alerts.
   name: National Park Service Alerts API
   slug: national-park-service-alerts-api
-- description: The Articles API from National Park Service — 1 operation(s) for articles.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Articles API from National Park Service — 1 operation(s) for articles.
   name: National Park Service Articles API
   slug: national-park-service-articles-api
-- description: The Campgrounds API from National Park Service — 1 operation(s) for campgrounds.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Campgrounds API from National Park Service — 1 operation(s) for campgrounds.
   name: National Park Service Campgrounds API
   slug: national-park-service-campgrounds-api
-- description: The Events API from National Park Service — 1 operation(s) for events.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Events API from National Park Service — 1 operation(s) for events.
   name: National Park Service Events API
   slug: national-park-service-events-api
-- description: The Newsreleases API from National Park Service — 1 operation(s) for newsreleases.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Newsreleases API from National Park Service — 1 operation(s) for newsreleases.
   name: National Park Service Newsreleases API
   slug: national-park-service-newsreleases-api
-- description: The Parks API from National Park Service — 1 operation(s) for parks.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Parks API from National Park Service — 1 operation(s) for parks.
   name: National Park Service Parks API
   slug: national-park-service-parks-api
-- description: The People API from National Park Service — 1 operation(s) for people.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The People API from National Park Service — 1 operation(s) for people.
   name: National Park Service People API
   slug: national-park-service-people-api
-- description: The Places API from National Park Service — 1 operation(s) for places.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Places API from National Park Service — 1 operation(s) for places.
   name: National Park Service Places API
   slug: national-park-service-places-api
-- description: The Topics API from National Park Service — 1 operation(s) for topics.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Topics API from National Park Service — 1 operation(s) for topics.
   name: National Park Service Topics API
   slug: national-park-service-topics-api
-- description: The Visitorcenters API from National Park Service — 1 operation(s) for visitorcenters.
+- baseURL: https://developer.nps.gov/api/v1/
+  baseurl_source: declared
+  description: The Visitorcenters API from National Park Service — 1 operation(s) for visitorcenters.
   name: National Park Service Visitorcenters API
   slug: national-park-service-visitorcenters-api
 artifact_total: 30
@@ -205,7 +227,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-park-service/refs/heads/main/screenshots/national-park-service-2026-06-20T190036.png
 security:

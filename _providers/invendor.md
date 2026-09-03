@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -43,130 +43,214 @@ agentic_access:
   summary_line: 353 operations · 194 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: The Accounts API from Invendor — 15 operation(s) for accounts.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Accounts API from Invendor — 15 operation(s) for accounts.
   name: Invendor Accounts API
   slug: invendor-accounts-api
-- description: The Auth API from Invendor — 3 operation(s) for auth.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Auth API from Invendor — 3 operation(s) for auth.
   name: Invendor Auth API
   slug: invendor-auth-api
-- description: The Barcodes API from Invendor — 1 operation(s) for barcodes.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Barcodes API from Invendor — 1 operation(s) for barcodes.
   name: Invendor Barcodes API
   slug: invendor-barcodes-api
-- description: The Consumption API from Invendor — 1 operation(s) for consumption.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Consumption API from Invendor — 1 operation(s) for consumption.
   name: Invendor Consumption API
   slug: invendor-consumption-api
-- description: The DataJobs API from Invendor — 2 operation(s) for datajobs.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The DataJobs API from Invendor — 2 operation(s) for datajobs.
   name: Invendor DataJobs API
   slug: invendor-datajobs-api
-- description: The Devices API from Invendor — 10 operation(s) for devices.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Devices API from Invendor — 10 operation(s) for devices.
   name: Invendor Devices API
   slug: invendor-devices-api
-- description: The Dimensions API from Invendor — 12 operation(s) for dimensions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Dimensions API from Invendor — 12 operation(s) for dimensions.
   name: Invendor Dimensions API
   slug: invendor-dimensions-api
-- description: The DimensionValues API from Invendor — 5 operation(s) for dimensionvalues.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The DimensionValues API from Invendor — 5 operation(s) for dimensionvalues.
   name: Invendor DimensionValues API
   slug: invendor-dimensionvalues-api
-- description: The Doors API from Invendor — 1 operation(s) for doors.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Doors API from Invendor — 1 operation(s) for doors.
   name: Invendor Doors API
   slug: invendor-doors-api
-- description: The DynamicScanContent API from Invendor — 2 operation(s) for dynamicscancontent.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The DynamicScanContent API from Invendor — 2 operation(s) for dynamicscancontent.
   name: Invendor DynamicScanContent API
   slug: invendor-dynamicscancontent-api
-- description: The ExtendedProperties API from Invendor — 3 operation(s) for extendedproperties.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The ExtendedProperties API from Invendor — 3 operation(s) for extendedproperties.
   name: Invendor ExtendedProperties API
   slug: invendor-extendedproperties-api
-- description: The FlagTypes API from Invendor — 2 operation(s) for flagtypes.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The FlagTypes API from Invendor — 2 operation(s) for flagtypes.
   name: Invendor FlagTypes API
   slug: invendor-flagtypes-api
-- description: The GlobalSettings API from Invendor — 6 operation(s) for globalsettings.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The GlobalSettings API from Invendor — 6 operation(s) for globalsettings.
   name: Invendor GlobalSettings API
   slug: invendor-globalsettings-api
-- description: The Gravity API from Invendor — 1 operation(s) for gravity.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Gravity API from Invendor — 1 operation(s) for gravity.
   name: Invendor Gravity API
   slug: invendor-gravity-api
-- description: The ItemQuantities API from Invendor — 3 operation(s) for itemquantities.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The ItemQuantities API from Invendor — 3 operation(s) for itemquantities.
   name: Invendor ItemQuantities API
   slug: invendor-itemquantities-api
-- description: The Items API from Invendor — 25 operation(s) for items.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Items API from Invendor — 25 operation(s) for items.
   name: Invendor Items API
   slug: invendor-items-api
-- description: The ItemTransactions API from Invendor — 1 operation(s) for itemtransactions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The ItemTransactions API from Invendor — 1 operation(s) for itemtransactions.
   name: Invendor ItemTransactions API
   slug: invendor-itemtransactions-api
-- description: The Journals API from Invendor — 10 operation(s) for journals.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Journals API from Invendor — 10 operation(s) for journals.
   name: Invendor Journals API
   slug: invendor-journals-api
-- description: The Locations API from Invendor — 21 operation(s) for locations.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Locations API from Invendor — 21 operation(s) for locations.
   name: Invendor Locations API
   slug: invendor-locations-api
-- description: The Metadata API from Invendor — 1 operation(s) for metadata.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Metadata API from Invendor — 1 operation(s) for metadata.
   name: Invendor Metadata API
   slug: invendor-metadata-api
-- description: The OperationDimGroups API from Invendor — 2 operation(s) for operationdimgroups.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The OperationDimGroups API from Invendor — 2 operation(s) for operationdimgroups.
   name: Invendor OperationDimGroups API
   slug: invendor-operationdimgroups-api
-- description: The Operations API from Invendor — 18 operation(s) for operations.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Operations API from Invendor — 18 operation(s) for operations.
   name: Invendor Operations API
   slug: invendor-operations-api
-- description: The Orders API from Invendor — 15 operation(s) for orders.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Orders API from Invendor — 15 operation(s) for orders.
   name: Invendor Orders API
   slug: invendor-orders-api
-- description: The QuestionDefinitions API from Invendor — 2 operation(s) for questiondefinitions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The QuestionDefinitions API from Invendor — 2 operation(s) for questiondefinitions.
   name: Invendor QuestionDefinitions API
   slug: invendor-questiondefinitions-api
-- description: The Questions API from Invendor — 3 operation(s) for questions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Questions API from Invendor — 3 operation(s) for questions.
   name: Invendor Questions API
   slug: invendor-questions-api
-- description: The Replenishment API from Invendor — 3 operation(s) for replenishment.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Replenishment API from Invendor — 3 operation(s) for replenishment.
   name: Invendor Replenishment API
   slug: invendor-replenishment-api
-- description: The Reports API from Invendor — 5 operation(s) for reports.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Reports API from Invendor — 5 operation(s) for reports.
   name: Invendor Reports API
   slug: invendor-reports-api
-- description: The Roles API from Invendor — 1 operation(s) for roles.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Roles API from Invendor — 1 operation(s) for roles.
   name: Invendor Roles API
   slug: invendor-roles-api
-- description: The ScaleLocker API from Invendor — 5 operation(s) for scalelocker.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The ScaleLocker API from Invendor — 5 operation(s) for scalelocker.
   name: Invendor ScaleLocker API
   slug: invendor-scalelocker-api
-- description: The Scales API from Invendor — 1 operation(s) for scales.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Scales API from Invendor — 1 operation(s) for scales.
   name: Invendor Scales API
   slug: invendor-scales-api
-- description: The Scans API from Invendor — 5 operation(s) for scans.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Scans API from Invendor — 5 operation(s) for scans.
   name: Invendor Scans API
   slug: invendor-scans-api
-- description: The Services API from Invendor — 2 operation(s) for services.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Services API from Invendor — 2 operation(s) for services.
   name: Invendor Services API
   slug: invendor-services-api
-- description: The Sessions API from Invendor — 2 operation(s) for sessions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Sessions API from Invendor — 2 operation(s) for sessions.
   name: Invendor Sessions API
   slug: invendor-sessions-api
-- description: The Subscriptions API from Invendor — 5 operation(s) for subscriptions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Subscriptions API from Invendor — 5 operation(s) for subscriptions.
   name: Invendor Subscriptions API
   slug: invendor-subscriptions-api
-- description: The UniqueItems API from Invendor — 3 operation(s) for uniqueitems.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The UniqueItems API from Invendor — 3 operation(s) for uniqueitems.
   name: Invendor UniqueItems API
   slug: invendor-uniqueitems-api
-- description: The UniqueItemStatuses API from Invendor — 2 operation(s) for uniqueitemstatuses.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The UniqueItemStatuses API from Invendor — 2 operation(s) for uniqueitemstatuses.
   name: Invendor UniqueItemStatuses API
   slug: invendor-uniqueitemstatuses-api
-- description: The UnitConversions API from Invendor — 3 operation(s) for unitconversions.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The UnitConversions API from Invendor — 3 operation(s) for unitconversions.
   name: Invendor UnitConversions API
   slug: invendor-unitconversions-api
-- description: The Units API from Invendor — 4 operation(s) for units.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Units API from Invendor — 4 operation(s) for units.
   name: Invendor Units API
   slug: invendor-units-api
-- description: The UserProfiles API from Invendor — 9 operation(s) for userprofiles.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The UserProfiles API from Invendor — 9 operation(s) for userprofiles.
   name: Invendor UserProfiles API
   slug: invendor-userprofiles-api
-- description: The Users API from Invendor — 14 operation(s) for users.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The Users API from Invendor — 14 operation(s) for users.
   name: Invendor Users API
   slug: invendor-users-api
-- description: The WMSItemLocationParams API from Invendor — 8 operation(s) for wmsitemlocationparams.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The WMSItemLocationParams API from Invendor — 8 operation(s) for wmsitemlocationparams.
   name: Invendor WMSItemLocationParams API
   slug: invendor-wmsitemlocationparams-api
-- description: The WMSLocations API from Invendor — 9 operation(s) for wmslocations.
+- baseURL: https://api.invendor.com
+  baseurl_source: declared
+  description: The WMSLocations API from Invendor — 9 operation(s) for wmslocations.
   name: Invendor WMSLocations API
   slug: invendor-wmslocations-api
 artifact_total: 90
@@ -445,7 +529,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

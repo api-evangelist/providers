@@ -34,40 +34,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Approvals API from N3XT — 2 operation(s) for approvals.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Approvals API from N3XT — 2 operation(s) for approvals.
   name: N3XT Approvals API
   slug: n3xt-approvals-api
-- description: The AuditTrail API from N3XT — 1 operation(s) for audittrail.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The AuditTrail API from N3XT — 1 operation(s) for audittrail.
   name: N3XT AuditTrail API
   slug: n3xt-audittrail-api
-- description: The Businesses API from N3XT — 2 operation(s) for businesses.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Businesses API from N3XT — 2 operation(s) for businesses.
   name: N3XT Businesses API
   slug: n3xt-businesses-api
-- description: The Contacts API from N3XT — 2 operation(s) for contacts.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Contacts API from N3XT — 2 operation(s) for contacts.
   name: N3XT Contacts API
   slug: n3xt-contacts-api
-- description: The Ndd Routes API from N3XT — 2 operation(s) for ndd routes.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Ndd Routes API from N3XT — 2 operation(s) for ndd routes.
   name: N3XT Ndd Routes API
   slug: n3xt-ndd-routes-api
-- description: The Payments API from N3XT — 5 operation(s) for payments.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Payments API from N3XT — 5 operation(s) for payments.
   name: N3XT Payments API
   slug: n3xt-payments-api
-- description: The Programmable API from N3XT — 5 operation(s) for programmable.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Programmable API from N3XT — 5 operation(s) for programmable.
   name: N3XT Programmable API
   slug: n3xt-programmable-api
-- description: The System API from N3XT — 2 operation(s) for system.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The System API from N3XT — 2 operation(s) for system.
   name: N3XT System API
   slug: n3xt-system-api
-- description: The Transfers API from N3XT — 1 operation(s) for transfers.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Transfers API from N3XT — 1 operation(s) for transfers.
   name: N3XT Transfers API
   slug: n3xt-transfers-api
-- description: The Users API from N3XT — 2 operation(s) for users.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Users API from N3XT — 2 operation(s) for users.
   name: N3XT Users API
   slug: n3xt-users-api
-- description: The Wallets API from N3XT — 6 operation(s) for wallets.
+- baseURL: https://openapi.n3xt.io
+  baseurl_source: declared
+  description: The Wallets API from N3XT — 6 operation(s) for wallets.
   name: N3XT Wallets API
   slug: n3xt-wallets-api
 artifact_total: 40
@@ -331,7 +353,7 @@ score:
     regime_id: banking_open_finance
     score: 62.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:

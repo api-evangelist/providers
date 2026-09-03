@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 1
 apis:
-- description: The CMSPage API from Knight Frank — 1 operation(s) for cmspage.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The CMSPage API from Knight Frank — 1 operation(s) for cmspage.
   name: Knight Frank CMS Page API
   slug: knight-frank-cmspage-api
-- description: The IntelligenceLab API from Knight Frank — 2 operation(s) for intelligencelab.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The IntelligenceLab API from Knight Frank — 2 operation(s) for intelligencelab.
   name: Knight Frank Intelligence Lab API
   slug: knight-frank-intelligencelab-api
-- description: The Office API from Knight Frank — 2 operation(s) for office.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The Office API from Knight Frank — 2 operation(s) for office.
   name: Knight Frank Office API
   slug: knight-frank-office-api
-- description: The Person API from Knight Frank — 3 operation(s) for person.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The Person API from Knight Frank — 3 operation(s) for person.
   name: Knight Frank Person API
   slug: knight-frank-person-api
-- description: The Search API from Knight Frank — 1 operation(s) for search.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The Search API from Knight Frank — 1 operation(s) for search.
   name: Knight Frank Search API
   slug: knight-frank-search-api
-- description: The ServiceLine API from Knight Frank — 1 operation(s) for serviceline.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The ServiceLine API from Knight Frank — 1 operation(s) for serviceline.
   name: Knight Frank Service Line API
   slug: knight-frank-serviceline-api
-- description: The Telemetry API from Knight Frank — 1 operation(s) for telemetry.
+- baseURL: https://api-v3.web.prd-knightfrank.com
+  baseurl_source: declared
+  description: The Telemetry API from Knight Frank — 1 operation(s) for telemetry.
   name: Knight Frank Telemetry API
   slug: knight-frank-telemetry-api
 arazzos:
@@ -260,7 +274,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

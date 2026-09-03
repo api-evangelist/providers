@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Real-time global AIS vessel-tracking stream delivered over a single WebSocket at "wss://stream.aisstream.io/v0/stream". The client connects, sends a JSON subscription message (APIKey plus BoundingBoxe
+- baseURL: wss://stream.aisstream.io/v0/stream
+  baseurl_source: declared
+  description: Real-time global AIS vessel-tracking stream delivered over a single WebSocket at "wss://stream.aisstream.io/v0/stream". The client connects, sends a JSON subscription message (APIKey plus BoundingBoxe
   name: AISStream AIS Stream API
   slug: aisstream-ais-stream-api
 artifact_total: 9
@@ -130,7 +132,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -140,9 +142,9 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 38.2
+  previous_composite: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aisstream/refs/heads/main/screenshots/aisstream-2026-07-25T195450.png
 security:

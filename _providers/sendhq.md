@@ -23,28 +23,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Session-authenticated workspace administration.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Session-authenticated workspace administration.
   name: SendHQ Account and billing API
   slug: sendhq-account-and-billing-api
-- description: Inspect events, reputation outcomes, and blocked recipients.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Inspect events, reputation outcomes, and blocked recipients.
   name: SendHQ Deliverability API
   slug: sendhq-deliverability-api
-- description: Provision sender identities and understand DNS verification state.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Provision sender identities and understand DNS verification state.
   name: SendHQ Domains API
   slug: sendhq-domains-api
-- description: Build composer flows with private attachment storage.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Build composer flows with private attachment storage.
   name: SendHQ Drafts and attachments API
   slug: sendhq-drafts-and-attachments-api
-- description: Send, retrieve, search, reply, and inspect delivery events.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Send, retrieve, search, reply, and inspect delivery events.
   name: SendHQ Emails and threads API
   slug: sendhq-emails-and-threads-api
-- description: Draft, render, test, version, publish, and send reusable content.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Draft, render, test, version, publish, and send reusable content.
   name: SendHQ Hosted templates API
   slug: sendhq-hosted-templates-api
-- description: Create addresses and work with received conversations.
+- baseURL: https://sendhq.cc/api/v1
+  baseurl_source: declared
+  description: Create addresses and work with received conversations.
   name: SendHQ Inbound email API
   slug: sendhq-inbound-email-api
 artifact_total: 7
@@ -103,18 +117,18 @@ overview: 'SendHQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 13
 score:
   band: thin
-  composite: 33.4
+  composite: 34.2
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 57.1
+    contract_quality: 60.5
     developer_ergonomics: 42.9
     discoverability: 63.0
     governance: 0.0
@@ -127,8 +141,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sendhq/refs/heads/main/screenshots/sendhq-2026-09-02T154838.png
 slug: sendhq
 tags:
 - Email API

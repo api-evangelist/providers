@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 20 operations · 11 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth API from Node-RED — 3 operation(s) for auth.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Auth API from Node-RED — 3 operation(s) for auth.
   name: Node-RED Auth API
   slug: node-red-auth-api
-- description: The Diagnostics API from Node-RED — 1 operation(s) for diagnostics.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Diagnostics API from Node-RED — 1 operation(s) for diagnostics.
   name: Node-RED Diagnostics API
   slug: node-red-diagnostics-api
-- description: The Flow API from Node-RED — 2 operation(s) for flow.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Flow API from Node-RED — 2 operation(s) for flow.
   name: Node-RED Flow API
   slug: node-red-flow-api
-- description: The Flows API from Node-RED — 2 operation(s) for flows.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Flows API from Node-RED — 2 operation(s) for flows.
   name: Node-RED Flows API
   slug: node-red-flows-api
-- description: The Nodes API from Node-RED — 3 operation(s) for nodes.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Nodes API from Node-RED — 3 operation(s) for nodes.
   name: Node-RED Nodes API
   slug: node-red-nodes-api
-- description: The Settings API from Node-RED — 1 operation(s) for settings.
+- baseURL: http://localhost:1880
+  baseurl_source: declared
+  description: The Settings API from Node-RED — 1 operation(s) for settings.
   name: Node-RED Settings API
   slug: node-red-settings-api
 artifact_total: 23
@@ -232,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/screenshots/node-red-2026-06-20T190350.png
 security:

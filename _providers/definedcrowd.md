@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 29 operations · 14 acting
 api_count: 1
 apis:
-- description: The result file is created after the project is completed and is referred to as deliverables. The file contains contributor metadata for completed input units.
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: The result file is created after the project is completed and is referred to as deliverables. The file contains contributor metadata for completed input units.
   name: Defined.ai (DefinedCrowd) Deliverables API
   slug: definedcrowd-deliverables-api
-- description: Each input unit is a single component of work done by the contributors. There are several types of units – audio, text, and image. In a given project, all units should have the same structure. The inp
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Each input unit is a single component of work done by the contributors. There are several types of units – audio, text, and image. In a given project, all units should have the same structure. The inp
   name: Defined.ai (DefinedCrowd) Input Units API
   slug: definedcrowd-input-units-api
-- description: Jobs are how your data (input units) connects the project with our contributors. Each job has data, instructions, and customizable parameters, which then convert inputs to outputs. Parameters are cust
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Jobs are how your data (input units) connects the project with our contributors. Each job has data, instructions, and customizable parameters, which then convert inputs to outputs. Parameters are cust
   name: Defined.ai (DefinedCrowd) Jobs API
   slug: definedcrowd-jobs-api
-- description: Aggregate ratings on the "intelligibility" and "naturalness" of utterances.
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Aggregate ratings on the "intelligibility" and "naturalness" of utterances.
   name: Defined.ai (DefinedCrowd) Mean Opinion Score API
   slug: definedcrowd-mean-opinion-score-api
-- description: Informally, projects can be viewed as configurable packages that process sets of Input Units. The project’s template determines how the Input Units are processed. Projects can be retrieved and managed
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Informally, projects can be viewed as configurable packages that process sets of Input Units. The project’s template determines how the Input Units are processed. Projects can be retrieved and managed
   name: Defined.ai (DefinedCrowd) Project Management API
   slug: definedcrowd-project-management-api
-- description: Confirm audio meets pronunciation standards.
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Confirm audio meets pronunciation standards.
   name: Defined.ai (DefinedCrowd) Pronunciation Validation API
   slug: definedcrowd-pronunciation-validation-api
-- description: Subscribe to automatic notifications for specific email addresses. Email notifications are sent for events that happen during the life cycle of the project. <small> By using this service, the user ful
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: Subscribe to automatic notifications for specific email addresses. Email notifications are sent for events that happen during the life cycle of the project. <small> By using this service, the user ful
   name: Defined.ai (DefinedCrowd) Subscriptions API
   slug: definedcrowd-subscriptions-api
-- description: 'Several of the Workflow Templates offer the ability to set a language / country code. These configurations instruct Defined.ai to use our human intelligence Contributors that speak and / or reside in '
+- baseURL: https://api.production-na01.definedcrowd.com
+  baseurl_source: declared
+  description: 'Several of the Workflow Templates offer the ability to set a language / country code. These configurations instruct Defined.ai to use our human intelligence Contributors that speak and / or reside in '
   name: Defined.ai (DefinedCrowd) Supported Languages API
   slug: definedcrowd-supported-languages-api
 artifact_total: 21
@@ -228,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/definedcrowd/refs/heads/main/screenshots/definedcrowd-2026-07-25T211622.png
 security:

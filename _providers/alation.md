@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 30 operations · 10 acting
 api_count: 4
 apis:
-- description: Retrieve aggregated context for AI applications
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Retrieve aggregated context for AI applications
   name: Alation Aggregated Context API
   slug: alation-aggregated-context-api
-- description: Retrieve column metadata
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Retrieve column metadata
   name: Alation Columns API
   slug: alation-columns-api
-- description: Manage custom field values
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage custom field values
   name: Alation Custom Fields API
   slug: alation-custom-fields-api
-- description: Manage data quality rules and scores
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage data quality rules and scores
   name: Alation Data Quality API
   slug: alation-data-quality-api
-- description: Manage data source connections
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage data source connections
   name: Alation Data Sources API
   slug: alation-data-sources-api
-- description: Manage dataflow lineage objects
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage dataflow lineage objects
   name: Alation Dataflows API
   slug: alation-dataflows-api
-- description: Manage business glossary terms
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage business glossary terms
   name: Alation Glossary Terms API
   slug: alation-glossary-terms-api
-- description: Retrieve lineage paths between catalog objects
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Retrieve lineage paths between catalog objects
   name: Alation Lineage API
   slug: alation-lineage-api
-- description: Manage data governance policies
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Manage data governance policies
   name: Alation Policies API
   slug: alation-policies-api
-- description: Retrieve schema metadata
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Retrieve schema metadata
   name: Alation Schemas API
   slug: alation-schemas-api
-- description: Search catalog assets
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Search catalog assets
   name: Alation Search API
   slug: alation-search-api
-- description: Retrieve table metadata
+- baseURL: https://your-instance.alation.com/integration/v2
+  baseurl_source: declared
+  description: Retrieve table metadata
   name: Alation Tables API
   slug: alation-tables-api
 artifact_total: 96
@@ -422,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/screenshots/alation-2026-06-20T171502.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 45 operations · 28 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Searchcraft — 2 operation(s) for authentication.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Authentication API from Searchcraft — 2 operation(s) for authentication.
   name: Searchcraft Authentication API
   slug: searchcraft-authentication-api
-- description: The Documents API from Searchcraft — 4 operation(s) for documents.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Documents API from Searchcraft — 4 operation(s) for documents.
   name: Searchcraft Documents API
   slug: searchcraft-documents-api
-- description: The Federation API from Searchcraft — 3 operation(s) for federation.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Federation API from Searchcraft — 3 operation(s) for federation.
   name: Searchcraft Federation API
   slug: searchcraft-federation-api
-- description: The Healthcheck API from Searchcraft — 1 operation(s) for healthcheck.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Healthcheck API from Searchcraft — 1 operation(s) for healthcheck.
   name: Searchcraft Healthcheck API
   slug: searchcraft-healthcheck-api
-- description: The Indexes API from Searchcraft — 4 operation(s) for indexes.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Indexes API from Searchcraft — 4 operation(s) for indexes.
   name: Searchcraft Indexes API
   slug: searchcraft-indexes-api
-- description: The Measure API from Searchcraft — 6 operation(s) for measure.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Measure API from Searchcraft — 6 operation(s) for measure.
   name: Searchcraft Measure API
   slug: searchcraft-measure-api
-- description: The Search API from Searchcraft — 2 operation(s) for search.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Search API from Searchcraft — 2 operation(s) for search.
   name: Searchcraft Search API
   slug: searchcraft-search-api
-- description: The Stopwords API from Searchcraft — 2 operation(s) for stopwords.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Stopwords API from Searchcraft — 2 operation(s) for stopwords.
   name: Searchcraft Stopwords API
   slug: searchcraft-stopwords-api
-- description: The Synonyms API from Searchcraft — 2 operation(s) for synonyms.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Synonyms API from Searchcraft — 2 operation(s) for synonyms.
   name: Searchcraft Synonyms API
   slug: searchcraft-synonyms-api
-- description: The Transactions API from Searchcraft — 2 operation(s) for transactions.
+- baseURL: https://your-cluster.searchcraft.io
+  baseurl_source: declared
+  description: The Transactions API from Searchcraft — 2 operation(s) for transactions.
   name: Searchcraft Transactions API
   slug: searchcraft-transactions-api
 artifact_total: 28
@@ -186,7 +206,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +229,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/searchcraft/refs/heads/main/screenshots/searchcraft-2026-09-02T154638.png
 security:
 - kind: authentication
   name: Searchcraft Authentication

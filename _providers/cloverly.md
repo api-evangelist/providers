@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 22 operations · 15 acting
 api_count: 4
 apis:
-- description: Create and retrieve carbon-offset estimates without committing a purchase. Supports shipping (distance + weight), vehicle (distance + fuel efficiency), flights (passenger-miles), electricity (kWh), di
+- baseURL: https://api.cloverly.com
+  baseurl_source: declared
+  description: Create and retrieve carbon-offset estimates without committing a purchase. Supports shipping (distance + weight), vehicle (distance + fuel efficiency), flights (passenger-miles), electricity (kWh), di
   name: Cloverly Estimates API
   slug: cloverly-estimates-api
-- description: Purchase and retire carbon offsets from Cloverly's curated marketplace. Mirrors the Estimates shape (shipping, vehicle, flight, electricity, carbon, currency) but immediately reserves and retires cred
+- baseURL: https://api.cloverly.com
+  baseurl_source: declared
+  description: Purchase and retire carbon offsets from Cloverly's curated marketplace. Mirrors the Estimates shape (shipping, vehicle, flight, electricity, carbon, currency) but immediately reserves and retires cred
   name: Cloverly Purchases API
   slug: cloverly-purchases-api
-- description: List the carbon-offset project types and individual offset sources available through Cloverly — including reforestation, biochar, direct air capture, renewable energy, methane abatement, and other reg
+- baseURL: https://api.cloverly.com
+  baseurl_source: declared
+  description: List the carbon-offset project types and individual offset sources available through Cloverly — including reforestation, biochar, direct air capture, renewable energy, methane abatement, and other reg
   name: Cloverly Offset Types API
   slug: cloverly-offset-types-api
-- description: Retrieve the authenticated account record including the configured currency, default offset type preferences, and the public/private API key context. Useful for confirming which environment (sandbox v
+- baseURL: https://api.cloverly.com
+  baseurl_source: declared
+  description: Retrieve the authenticated account record including the configured currency, default offset type preferences, and the public/private API key context. Useful for confirming which environment (sandbox v
   name: Cloverly Account API
   slug: cloverly-account-api
 artifact_total: 24
@@ -303,7 +311,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/screenshots/cloverly-2026-06-20T174623.png
 security:

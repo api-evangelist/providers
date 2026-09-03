@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -52,37 +52,59 @@ apis:
 - description: RESTful JSON payments API enabling online travel agencies to perform credit card authorizations, address validations, 3D Secure transactions, and reversals against designated merchant vendors. Current
   name: Travelport TripServices Pay API
   slug: trip-services-pay
-- description: The Booking API from Travelport — 1 operation(s) for booking.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Booking API from Travelport — 1 operation(s) for booking.
   name: Travelport Booking API
   slug: travelport-booking-api
-- description: The EMDs API from Travelport — 2 operation(s) for emds.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The EMDs API from Travelport — 2 operation(s) for emds.
   name: Travelport EMDs API
   slug: travelport-emds-api
-- description: The Fare Rules API from Travelport — 2 operation(s) for fare rules.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Fare Rules API from Travelport — 2 operation(s) for fare rules.
   name: Travelport Fare Rules API
   slug: travelport-fare-rules-api
-- description: The Modifications API from Travelport — 3 operation(s) for modifications.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Modifications API from Travelport — 3 operation(s) for modifications.
   name: Travelport Modifications API
   slug: travelport-modifications-api
-- description: The Pricing API from Travelport — 2 operation(s) for pricing.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Pricing API from Travelport — 2 operation(s) for pricing.
   name: Travelport Pricing API
   slug: travelport-pricing-api
-- description: The Queues API from Travelport — 3 operation(s) for queues.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Queues API from Travelport — 3 operation(s) for queues.
   name: Travelport Queues API
   slug: travelport-queues-api
-- description: The Reservations API from Travelport — 2 operation(s) for reservations.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Reservations API from Travelport — 2 operation(s) for reservations.
   name: Travelport Reservations API
   slug: travelport-reservations-api
-- description: The Search API from Travelport — 3 operation(s) for search.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Search API from Travelport — 3 operation(s) for search.
   name: Travelport Search API
   slug: travelport-search-api
-- description: The Seats and Ancillaries API from Travelport — 2 operation(s) for seats and ancillaries.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Seats and Ancillaries API from Travelport — 2 operation(s) for seats and ancillaries.
   name: Travelport Seats and Ancillaries API
   slug: travelport-seats-and-ancillaries-api
-- description: The Ticketing API from Travelport — 4 operation(s) for ticketing.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Ticketing API from Travelport — 4 operation(s) for ticketing.
   name: Travelport Ticketing API
   slug: travelport-ticketing-api
-- description: The Workbench API from Travelport — 3 operation(s) for workbench.
+- baseURL: https://api.travelport.net/11
+  baseurl_source: declared
+  description: The Workbench API from Travelport — 3 operation(s) for workbench.
   name: Travelport Workbench API
   slug: travelport-workbench-api
 artifact_total: 31
@@ -245,7 +267,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: The InCites API provides programmatic access to the Clarivate research benchmarking platform, enabling institutional research performance analytics built on Web of Science data.
   name: InCites Benchmarking and Analytics API
   slug: incites-api
-- description: The Documents API from Clarivate — 2 operation(s) for documents.
+- baseURL: https://api.clarivate.com/apis/wos-starter/v1
+  baseurl_source: spec
+  description: The Documents API from Clarivate — 2 operation(s) for documents.
   name: Clarivate Documents API
   slug: clarivate-documents-api
-- description: The Journals API from Clarivate — 2 operation(s) for journals.
+- baseURL: https://api.clarivate.com/apis/wos-starter/v1
+  baseurl_source: spec
+  description: The Journals API from Clarivate — 2 operation(s) for journals.
   name: Clarivate Journals API
   slug: clarivate-journals-api
 artifact_total: 18
@@ -211,7 +215,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png
 security:

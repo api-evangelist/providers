@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Production REST API covering 12 spiritual intelligence domains with 164+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -48,7 +48,7 @@ score:
   band: emerging
   composite: 16.9
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -70,8 +70,9 @@ score:
       reason: never_enriched
   previous_composite: 16.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/screenshots/roxyapi-2026-09-02T154145.png
 slug: roxyapi
 tags:
 - Astrology

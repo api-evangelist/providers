@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,19 +42,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 2
 apis:
-- description: The Searches API from Spekit — 1 operation(s) for searches.
+- baseURL: https://api.spekit.co
+  baseurl_source: declared
+  description: The Searches API from Spekit — 1 operation(s) for searches.
   name: Spekit Searches API
   slug: spekit-searches-api
-- description: The Spek Reactions API from Spekit — 1 operation(s) for spek reactions.
+- baseURL: https://api.spekit.co
+  baseurl_source: declared
+  description: The Spek Reactions API from Spekit — 1 operation(s) for spek reactions.
   name: Spekit Spek Reactions API
   slug: spekit-spek-reactions-api
-- description: The Spek Views API from Spekit — 1 operation(s) for spek views.
+- baseURL: https://api.spekit.co
+  baseurl_source: declared
+  description: The Spek Views API from Spekit — 1 operation(s) for spek views.
   name: Spekit Spek Views API
   slug: spekit-spek-views-api
-- description: The User Activities API from Spekit — 1 operation(s) for user activities.
+- baseURL: https://api.spekit.co
+  baseurl_source: declared
+  description: The User Activities API from Spekit — 1 operation(s) for user activities.
   name: Spekit User Activities API
   slug: spekit-user-activities-api
-- description: The Users API from Spekit — 1 operation(s) for users.
+- baseURL: https://api.spekit.co
+  baseurl_source: declared
+  description: The Users API from Spekit — 1 operation(s) for users.
   name: Spekit Users API
   slug: spekit-users-api
 artifact_total: 14
@@ -284,7 +294,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/screenshots/spekit-2026-08-17T082023.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Knox gateway proxies and secures access to Hadoop ecosystem services including HDFS WebHDFS, Hive, HBase REST, YARN, Oozie, Ambari, and Ranger with authentication and authorization enforcement.
   name: Apache Knox Gateway API
   slug: gateway-api
-- description: Simple descriptor management
+- baseURL: https://localhost:8443/gateway/admin
+  baseurl_source: spec
+  description: Simple descriptor management
   name: Apache Knox Descriptors API
   slug: apache-knox-descriptors-api
-- description: Provider configuration management
+- baseURL: https://localhost:8443/gateway/admin
+  baseurl_source: spec
+  description: Provider configuration management
   name: Apache Knox Providers API
   slug: apache-knox-providers-api
-- description: Gateway topology management
+- baseURL: https://localhost:8443/gateway/admin
+  baseurl_source: spec
+  description: Gateway topology management
   name: Apache Knox Topologies API
   slug: apache-knox-topologies-api
 artifact_total: 53
@@ -302,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/screenshots/apache-knox-2026-06-20T172116.png
 security:

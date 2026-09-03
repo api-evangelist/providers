@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -70,25 +70,39 @@ apis:
 - description: ANZ's first-party NPP Agency API set (Agency Core, Agency PayTo Payer, Agency PayTo Biller, and Agency Confirmation of Payee) provides core payment and account-management capabilities for New Payments
   name: Australia and New Zealand Banking Group (ANZ) NPP Agency API
   slug: anz-npp-agency-api
-- description: Banking Account Balance endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Account Balances API
   slug: anz-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Account Direct Debits API
   slug: anz-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Account Scheduled Payments API
   slug: anz-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Account Transactions API
   slug: anz-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Accounts API
   slug: anz-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Payees API
   slug: anz-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.anz/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Australia and New Zealand Banking Group (ANZ) Banking Products API
   slug: anz-banking-products-api
 artifact_total: 30
@@ -288,7 +302,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 39 operations · 14 acting
 api_count: 3
 apis:
-- description: 'Steadily uses Bearer Tokens to authenticate requests to the quoting endpoints on behalf of some appointed agent. There''s two steps to this process: 1. Use your agency''s Steadily API Key to request a b'
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: 'Steadily uses Bearer Tokens to authenticate requests to the quoting endpoints on behalf of some appointed agent. There''s two steps to this process: 1. Use your agency''s Steadily API Key to request a b'
   name: Steadily Account API
   slug: steadily-account-api
-- description: A Draft Quote is an editable draft of a policy. Create a new draft quote by passing in basic insured and property information to `POST /v1/agency/draft_quote` with an authenticated bearer token header
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: A Draft Quote is an editable draft of a policy. Create a new draft quote by passing in basic insured and property information to `POST /v1/agency/draft_quote` with an authenticated bearer token header
   name: Steadily Draft Quote API
   slug: steadily-draft-quote-api
-- description: Submit and retrieve lead referrals. Use the refer lead endpoint to submit a lead with full quote details and start the insurance quote process. You'll get back a quote estimate and a start_url for the
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: Submit and retrieve lead referrals. Use the refer lead endpoint to submit a lead with full quote details and start the insurance quote process. You'll get back a quote estimate and a start_url for the
   name: Steadily Lead Referrals API
   slug: steadily-lead-referrals-api
-- description: Policy information and change requests for third-party lender integrations
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: Policy information and change requests for third-party lender integrations
   name: Steadily Lender API
   slug: steadily-lender-api
-- description: A Policy is an issued insurance policy. The declaration document and policy packet are available.
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: A Policy is an issued insurance policy. The declaration document and policy packet are available.
   name: Steadily Policy API
   slug: steadily-policy-api
-- description: The Instant Estimate API is a one-step express API to quickly get a landlord insurance estimate you can display within your platform. To get started, you only need to send the address and a unique pro
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: The Instant Estimate API is a one-step express API to quickly get a landlord insurance estimate you can display within your platform. To get started, you only need to send the address and a unique pro
   name: Steadily Quote Estimates API
   slug: steadily-quote-estimates-api
-- description: An Offer is an immutable offer for coverage extended to a customer. Offers are generated from draft quotes and provides a PDF quote document. Creating an offer requires no outstanding underwriting ale
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: An Offer is an immutable offer for coverage extended to a customer. Offers are generated from draft quotes and provides a PDF quote document. Creating an offer requires no outstanding underwriting ale
   name: Steadily Quote Offer API
   slug: steadily-quote-offer-api
-- description: Reporting on the referrals you've sent Steadily and the referral fees you've earned. The lead, account, and policy endpoints follow each referral through its lifetime. The summary views provide aggreg
+- baseURL: https://api.steadily.com
+  baseurl_source: declared
+  description: Reporting on the referrals you've sent Steadily and the referral fees you've earned. The lead, account, and policy endpoints follow each referral through its lifetime. The summary views provide aggreg
   name: Steadily Reporting API
   slug: steadily-reporting-api
 artifact_total: 22
@@ -214,7 +230,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -246,8 +262,9 @@ score:
     regime_id: insurance
     score: 40.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/screenshots/steadily-2026-09-02T160824.png
 security:
 - kind: authentication
   name: Steadily Authentication

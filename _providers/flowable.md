@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 4
@@ -44,196 +44,324 @@ agentic_access:
   summary_line: 498 operations · 234 acting · 4 human-in-the-loop
 api_count: 7
 apis:
-- description: The Access Tokens API from Flowable — 2 operation(s) for access tokens.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Access Tokens API from Flowable — 2 operation(s) for access tokens.
   name: Flowable Access Tokens API
   slug: flowable-access-tokens-api
-- description: The Accounts API from Flowable — 1 operation(s) for accounts.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Accounts API from Flowable — 1 operation(s) for accounts.
   name: Flowable Accounts API
   slug: flowable-accounts-api
-- description: The Acquire and Execute API from Flowable — 5 operation(s) for acquire and execute.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Acquire and Execute API from Flowable — 5 operation(s) for acquire and execute.
   name: Flowable Acquire and Execute API
   slug: flowable-acquire-and-execute-api
-- description: The Batch parts API from Flowable — 1 operation(s) for batch parts.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Batch parts API from Flowable — 1 operation(s) for batch parts.
   name: Flowable Batch parts API
   slug: flowable-batch-parts-api
-- description: The Batches API from Flowable — 5 operation(s) for batches.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Batches API from Flowable — 5 operation(s) for batches.
   name: Flowable Batches API
   slug: flowable-batches-api
-- description: The Case Definitions API from Flowable — 16 operation(s) for case definitions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Case Definitions API from Flowable — 16 operation(s) for case definitions.
   name: Flowable Case Definitions API
   slug: flowable-case-definitions-api
-- description: The Case Instance Identity Links API from Flowable — 2 operation(s) for case instance identity links.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Case Instance Identity Links API from Flowable — 2 operation(s) for case instance identity links.
   name: Flowable Case Instance Identity Links API
   slug: flowable-case-instance-identity-links-api
-- description: The Case Instance Variables API from Flowable — 5 operation(s) for case instance variables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Case Instance Variables API from Flowable — 5 operation(s) for case instance variables.
   name: Flowable Case Instance Variables API
   slug: flowable-case-instance-variables-api
-- description: The Case Instances API from Flowable — 9 operation(s) for case instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Case Instances API from Flowable — 9 operation(s) for case instances.
   name: Flowable Case Instances API
   slug: flowable-case-instances-api
-- description: The Cmmn Engine API from Flowable — 1 operation(s) for cmmn engine.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Cmmn Engine API from Flowable — 1 operation(s) for cmmn engine.
   name: Flowable Cmmn Engine API
   slug: flowable-cmmn-engine-api
-- description: The Contact Filters API from Flowable — 2 operation(s) for contact filters.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Contact Filters API from Flowable — 2 operation(s) for contact filters.
   name: Flowable Contact Filters API
   slug: flowable-contact-filters-api
-- description: The Content item API from Flowable — 11 operation(s) for content item.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Content item API from Flowable — 11 operation(s) for content item.
   name: Flowable Content item API
   slug: flowable-content-item-api
-- description: The Content item metadata API from Flowable — 2 operation(s) for content item metadata.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Content item metadata API from Flowable — 2 operation(s) for content item metadata.
   name: Flowable Content item metadata API
   slug: flowable-content-item-metadata-api
-- description: The Current User API from Flowable — 5 operation(s) for current user.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Current User API from Flowable — 5 operation(s) for current user.
   name: Flowable Current User API
   slug: flowable-current-user-api
-- description: The Database tables API from Flowable — 4 operation(s) for database tables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Database tables API from Flowable — 4 operation(s) for database tables.
   name: Flowable Database tables API
   slug: flowable-database-tables-api
-- description: The Decision Tables API from Flowable — 4 operation(s) for decision tables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Decision Tables API from Flowable — 4 operation(s) for decision tables.
   name: Flowable Decision Tables API
   slug: flowable-decision-tables-api
-- description: The Decisions API from Flowable — 5 operation(s) for decisions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Decisions API from Flowable — 5 operation(s) for decisions.
   name: Flowable Decisions API
   slug: flowable-decisions-api
-- description: The Deployment API from Flowable — 18 operation(s) for deployment.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Deployment API from Flowable — 18 operation(s) for deployment.
   name: Flowable Deployment API
   slug: flowable-deployment-api
-- description: The DMN Decision Service API from Flowable — 4 operation(s) for dmn decision service.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The DMN Decision Service API from Flowable — 4 operation(s) for dmn decision service.
   name: Flowable DMN Decision Service API
   slug: flowable-dmn-decision-service-api
-- description: The DMN Rule Service API from Flowable — 2 operation(s) for dmn rule service.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The DMN Rule Service API from Flowable — 2 operation(s) for dmn rule service.
   name: Flowable DMN Rule Service API
   slug: flowable-dmn-rule-service-api
-- description: The Document Definitions API from Flowable — 4 operation(s) for document definitions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Document Definitions API from Flowable — 4 operation(s) for document definitions.
   name: Flowable Document Definitions API
   slug: flowable-document-definitions-api
-- description: The Engine API from Flowable — 6 operation(s) for engine.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Engine API from Flowable — 6 operation(s) for engine.
   name: Flowable Engine API
   slug: flowable-engine-api
-- description: The EngineProperties API from Flowable — 2 operation(s) for engineproperties.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The EngineProperties API from Flowable — 2 operation(s) for engineproperties.
   name: Flowable EngineProperties API
   slug: flowable-engineproperties-api
-- description: The Event subscriptions API from Flowable — 4 operation(s) for event subscriptions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Event subscriptions API from Flowable — 4 operation(s) for event subscriptions.
   name: Flowable Event subscriptions API
   slug: flowable-event-subscriptions-api
-- description: The Executions API from Flowable — 10 operation(s) for executions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Executions API from Flowable — 10 operation(s) for executions.
   name: Flowable Executions API
   slug: flowable-executions-api
-- description: The Form Definitions API from Flowable — 6 operation(s) for form definitions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Form Definitions API from Flowable — 6 operation(s) for form definitions.
   name: Flowable Form Definitions API
   slug: flowable-form-definitions-api
-- description: The Form Deployments API from Flowable — 3 operation(s) for form deployments.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Form Deployments API from Flowable — 3 operation(s) for form deployments.
   name: Flowable Form Deployments API
   slug: flowable-form-deployments-api
-- description: The Form Instance Models API from Flowable — 1 operation(s) for form instance models.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Form Instance Models API from Flowable — 1 operation(s) for form instance models.
   name: Flowable Form Instance Models API
   slug: flowable-form-instance-models-api
-- description: The Form Instances API from Flowable — 4 operation(s) for form instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Form Instances API from Flowable — 4 operation(s) for form instances.
   name: Flowable Form Instances API
   slug: flowable-form-instances-api
-- description: The Form Models API from Flowable — 1 operation(s) for form models.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Form Models API from Flowable — 1 operation(s) for form models.
   name: Flowable Form Models API
   slug: flowable-form-models-api
-- description: The Forms API from Flowable — 1 operation(s) for forms.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Forms API from Flowable — 1 operation(s) for forms.
   name: Flowable Forms API
   slug: flowable-forms-api
-- description: The Groups API from Flowable — 9 operation(s) for groups.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Groups API from Flowable — 9 operation(s) for groups.
   name: Flowable Groups API
   slug: flowable-groups-api
-- description: The Historic Decision Executions API from Flowable — 3 operation(s) for historic decision executions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Historic Decision Executions API from Flowable — 3 operation(s) for historic decision executions.
   name: Flowable Historic Decision Executions API
   slug: flowable-historic-decision-executions-api
-- description: The History API from Flowable — 17 operation(s) for history.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History API from Flowable — 17 operation(s) for history.
   name: Flowable History API
   slug: flowable-history-api
-- description: The History Case API from Flowable — 6 operation(s) for history case.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History Case API from Flowable — 6 operation(s) for history case.
   name: Flowable History Case API
   slug: flowable-history-case-api
-- description: The History Milestone API from Flowable — 3 operation(s) for history milestone.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History Milestone API from Flowable — 3 operation(s) for history milestone.
   name: Flowable History Milestone API
   slug: flowable-history-milestone-api
-- description: The History PlanItem API from Flowable — 3 operation(s) for history planitem.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History PlanItem API from Flowable — 3 operation(s) for history planitem.
   name: Flowable History PlanItem API
   slug: flowable-history-planitem-api
-- description: The History Process API from Flowable — 8 operation(s) for history process.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History Process API from Flowable — 8 operation(s) for history process.
   name: Flowable History Process API
   slug: flowable-history-process-api
-- description: The History Task API from Flowable — 11 operation(s) for history task.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The History Task API from Flowable — 11 operation(s) for history task.
   name: Flowable History Task API
   slug: flowable-history-task-api
-- description: The Info and Query API from Flowable — 2 operation(s) for info and query.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Info and Query API from Flowable — 2 operation(s) for info and query.
   name: Flowable Info and Query API
   slug: flowable-info-and-query-api
-- description: The Jobs API from Flowable — 28 operation(s) for jobs.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Jobs API from Flowable — 28 operation(s) for jobs.
   name: Flowable Jobs API
   slug: flowable-jobs-api
-- description: The Manage History Case Instances API from Flowable — 1 operation(s) for manage history case instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Manage History Case Instances API from Flowable — 1 operation(s) for manage history case instances.
   name: Flowable Manage History Case Instances API
   slug: flowable-manage-history-case-instances-api
-- description: The Manage History Process Instances API from Flowable — 1 operation(s) for manage history process instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Manage History Process Instances API from Flowable — 1 operation(s) for manage history process instances.
   name: Flowable Manage History Process Instances API
   slug: flowable-manage-history-process-instances-api
-- description: The Models API from Flowable — 4 operation(s) for models.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Models API from Flowable — 4 operation(s) for models.
   name: Flowable Models API
   slug: flowable-models-api
-- description: The Plan Item Instance Variables API from Flowable — 1 operation(s) for plan item instance variables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Plan Item Instance Variables API from Flowable — 1 operation(s) for plan item instance variables.
   name: Flowable Plan Item Instance Variables API
   slug: flowable-plan-item-instance-variables-api
-- description: The Plan Item Instances API from Flowable — 7 operation(s) for plan item instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Plan Item Instances API from Flowable — 7 operation(s) for plan item instances.
   name: Flowable Plan Item Instances API
   slug: flowable-plan-item-instances-api
-- description: The Privileges API from Flowable — 6 operation(s) for privileges.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Privileges API from Flowable — 6 operation(s) for privileges.
   name: Flowable Privileges API
   slug: flowable-privileges-api
-- description: The Process Definitions API from Flowable — 13 operation(s) for process definitions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Process Definitions API from Flowable — 13 operation(s) for process definitions.
   name: Flowable Process Definitions API
   slug: flowable-process-definitions-api
-- description: The Process Instance Identity Links API from Flowable — 2 operation(s) for process instance identity links.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Process Instance Identity Links API from Flowable — 2 operation(s) for process instance identity links.
   name: Flowable Process Instance Identity Links API
   slug: flowable-process-instance-identity-links-api
-- description: The Process Instance Variables API from Flowable — 5 operation(s) for process instance variables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Process Instance Variables API from Flowable — 5 operation(s) for process instance variables.
   name: Flowable Process Instance Variables API
   slug: flowable-process-instance-variables-api
-- description: The Process Instances API from Flowable — 9 operation(s) for process instances.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Process Instances API from Flowable — 9 operation(s) for process instances.
   name: Flowable Process Instances API
   slug: flowable-process-instances-api
-- description: The Query API from Flowable — 23 operation(s) for query.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Query API from Flowable — 23 operation(s) for query.
   name: Flowable Query API
   slug: flowable-query-api
-- description: The Rendition item API from Flowable — 6 operation(s) for rendition item.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Rendition item API from Flowable — 6 operation(s) for rendition item.
   name: Flowable Rendition item API
   slug: flowable-rendition-item-api
-- description: The Runtime API from Flowable — 5 operation(s) for runtime.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Runtime API from Flowable — 5 operation(s) for runtime.
   name: Flowable Runtime API
   slug: flowable-runtime-api
-- description: The Task Attachments API from Flowable — 3 operation(s) for task attachments.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Task Attachments API from Flowable — 3 operation(s) for task attachments.
   name: Flowable Task Attachments API
   slug: flowable-task-attachments-api
-- description: The Task Comments API from Flowable — 2 operation(s) for task comments.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Task Comments API from Flowable — 2 operation(s) for task comments.
   name: Flowable Task Comments API
   slug: flowable-task-comments-api
-- description: The Task Identity Links API from Flowable — 6 operation(s) for task identity links.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Task Identity Links API from Flowable — 6 operation(s) for task identity links.
   name: Flowable Task Identity Links API
   slug: flowable-task-identity-links-api
-- description: The Task Variables API from Flowable — 6 operation(s) for task variables.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Task Variables API from Flowable — 6 operation(s) for task variables.
   name: Flowable Task Variables API
   slug: flowable-task-variables-api
-- description: The Tasks API from Flowable — 14 operation(s) for tasks.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Tasks API from Flowable — 14 operation(s) for tasks.
   name: Flowable Tasks API
   slug: flowable-tasks-api
-- description: The Tenants API from Flowable — 1 operation(s) for tenants.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Tenants API from Flowable — 1 operation(s) for tenants.
   name: Flowable Tenants API
   slug: flowable-tenants-api
-- description: The Unacquire API from Flowable — 2 operation(s) for unacquire.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Unacquire API from Flowable — 2 operation(s) for unacquire.
   name: Flowable Unacquire API
   slug: flowable-unacquire-api
-- description: The User Admin API from Flowable — 2 operation(s) for user admin.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The User Admin API from Flowable — 2 operation(s) for user admin.
   name: Flowable User Admin API
   slug: flowable-user-admin-api
-- description: The User Definitions API from Flowable — 4 operation(s) for user definitions.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The User Definitions API from Flowable — 4 operation(s) for user definitions.
   name: Flowable User Definitions API
   slug: flowable-user-definitions-api
-- description: The Users API from Flowable — 20 operation(s) for users.
+- baseURL: https://your-server/process-api
+  baseurl_source: declared
+  description: The Users API from Flowable — 20 operation(s) for users.
   name: Flowable Users API
   slug: flowable-users-api
 artifact_total: 150
@@ -642,7 +770,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/screenshots/flowable-2026-06-20T181326.png
 security:

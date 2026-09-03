@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: Azure Event Hubs is a big data streaming platform and event ingestion service capable of receiving and processing millions of events per second. It is used for telemetry ingestion, application logging
   name: Azure Event Hubs
   slug: azure-event-hubs
-- description: Operations operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
   name: Microsoft Azure Integration Services Operations API
   slug: microsoft-azure-integration-services-operations-api
-- description: Services operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Services operations
   name: Microsoft Azure Integration Services Services API
   slug: microsoft-azure-integration-services-services-api
 artifact_total: 17
@@ -218,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/screenshots/microsoft-azure-integration-services-2026-06-20T185419.png
 security:

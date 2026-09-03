@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: Manage third-party app connections
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Manage third-party app connections
   name: Activepieces Connections API
   slug: activepieces-connections-api
-- description: Access execution history and run details
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Access execution history and run details
   name: Activepieces Flow Runs API
   slug: activepieces-flow-runs-api
-- description: Manage automation workflows
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Manage automation workflows
   name: Activepieces Flows API
   slug: activepieces-flows-api
-- description: Organize flows with folders
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Organize flows with folders
   name: Activepieces Folders API
   slug: activepieces-folders-api
-- description: Manage integration pieces
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Manage integration pieces
   name: Activepieces Pieces API
   slug: activepieces-pieces-api
-- description: Project management
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Project management
   name: Activepieces Projects API
   slug: activepieces-projects-api
-- description: Flow templates
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Flow templates
   name: Activepieces Templates API
   slug: activepieces-templates-api
-- description: User management
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: User management
   name: Activepieces Users API
   slug: activepieces-users-api
-- description: Worker queue metrics
+- baseURL: https://cloud.activepieces.com/api/v1
+  baseurl_source: declared
+  description: Worker queue metrics
   name: Activepieces Worker Machines API
   slug: activepieces-worker-machines-api
 artifact_total: 144
@@ -577,7 +595,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:

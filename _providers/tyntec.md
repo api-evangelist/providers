@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: One API for WhatsApp Business, Viber, and SMS. Send single (POST /messages) or bulk (POST /bulks) messages, track delivery status and events, upload and manage media, configure WhatsApp accounts / tem
   name: tyntec Conversations API
   slug: tyntec-conversations-api
-- description: HLR reachability/roaming and global number portability lookups (NIS).
+- baseURL: https://api.tyntec.com/verify/v1
+  baseurl_source: declared
+  description: HLR reachability/roaming and global number portability lookups (NIS).
   name: tyntec Number Information API
   slug: tyntec-number-information-api
-- description: Validate a phone number against reusable criteria templates (Verify API).
+- baseURL: https://api.tyntec.com/verify/v1
+  baseurl_source: declared
+  description: Validate a phone number against reusable criteria templates (Verify API).
   name: tyntec Number Verification API
   slug: tyntec-number-verification-api
-- description: Health and version metadata.
+- baseURL: https://api.tyntec.com/verify/v1
+  baseurl_source: declared
+  description: Health and version metadata.
   name: tyntec Service API
   slug: tyntec-service-api
-- description: Create and manage the criteria templates numbers are checked against.
+- baseURL: https://api.tyntec.com/verify/v1
+  baseurl_source: declared
+  description: Create and manage the criteria templates numbers are checked against.
   name: tyntec Verify Templates API
   slug: tyntec-verify-templates-api
 artifact_total: 19
@@ -167,7 +175,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +207,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tyntec/refs/heads/main/screenshots/tyntec-2026-09-02T164655.png
 security:
 - kind: authentication
   name: Tyntec Authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -51,16 +51,24 @@ apis:
 - description: The Trade Desk Reporting API provides programmatic access to campaign performance data including impressions, clicks, conversions, spend, win rates, viewability, effective CPM, completion rates, and 2
   name: The Trade Desk Reporting API
   slug: the-trade-desk-reporting-api
-- description: The Advertiser API from The Trade Desk — 1 operation(s) for advertiser.
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The Advertiser API from The Trade Desk — 1 operation(s) for advertiser.
   name: The Trade Desk Advertiser API
   slug: the-trade-desk-advertiser-api
-- description: The DeletionOptOut API from The Trade Desk — 3 operation(s) for deletionoptout.
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The DeletionOptOut API from The Trade Desk — 3 operation(s) for deletionoptout.
   name: The Trade Desk DeletionOptOut API
   slug: the-trade-desk-deletionoptout-api
-- description: The OfflineConversion API from The Trade Desk — 1 operation(s) for offlineconversion.
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The OfflineConversion API from The Trade Desk — 1 operation(s) for offlineconversion.
   name: The Trade Desk OfflineConversion API
   slug: the-trade-desk-offlineconversion-api
-- description: The ThirdParty API from The Trade Desk — 1 operation(s) for thirdparty.
+- baseURL: https://api.thetradedesk.com/v3
+  baseurl_source: declared
+  description: The ThirdParty API from The Trade Desk — 1 operation(s) for thirdparty.
   name: The Trade Desk ThirdParty API
   slug: the-trade-desk-thirdparty-api
 artifact_total: 57
@@ -334,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/screenshots/the-trade-desk-2026-06-20T195241.png
 security:

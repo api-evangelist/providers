@@ -29,7 +29,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -61,6 +61,7 @@
      "name": "UK Civil Aviation Authority",
      "slug": "uk-caa",
      "description": "The UK Civil Aviation Authority (CAA) is the United Kingdom's independent aviation regulator and a public corporation of the Department for Transport. It licenses UK airlines, registers UK civil aircraft on the G-INFO register, regulates airspace and airports, economically regulates Heathrow and Gatwick, enforces UK air passenger rights, and — the part that matters most to travel distribution — runs the Air Travel Organiser's Licence (ATOL) scheme, which is the statutory gate every business selling flight-inclusive packages to UK consumers must pass through, including sellers established outside the UK. The CAA sits above the distribution chain rather than inside it: it does not distribute inventory, does not operate a GDS or NDC connection, and has no NDC posture of its own. Its API posture is thin and honest to record — there is no developer portal, no OpenAPI, and no published aviation data API. The only documented, self-serve, key-free public API on a CAA domain is the Citizen Space (Delib) consultation API at consultations.caa.co.uk/api, a vendor platform API rather than an aviation data API. The aviation surfaces that do exist — the G-INFO aircraft register search and the Check an ATOL search — are undocumented ASP.NET JSON backends whose CORS policy is locked to www.caa.co.uk and which are reCAPTCHA-gated. Bulk aviation data is delivered as CSV, PDF and XLSX files behind opaque GUID download URLs, and the full G-INFO aircraft register is a paid subscription emailed as an MS Excel file licensed for use on a single PC. Home market is the United Kingdom.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uk-caa/refs/heads/main/screenshots/uk-caa-2026-09-02T164750.png",
      "score": 47.1,
      "band": "developing",
      "band_label": "Developing",
@@ -74,7 +75,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +128,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -170,6 +171,7 @@
      "name": "TravelPerk",
      "slug": "travelperk",
      "description": "TravelPerk is a business-travel management platform that lets companies book and manage flights, hotels, trains, and cars in one place. Its Open API gives partners and customers programmatic access to bookings and trips, invoices and expenses, travelers and members, cost centers, scheduled reports, and webhooks for real-time travel and finance data exchange with HR systems, ERPs, and expense tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelperk/refs/heads/main/screenshots/travelperk-2026-09-02T164145.png",
      "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
@@ -183,7 +185,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -229,7 +231,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -282,7 +284,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -335,7 +337,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -392,7 +394,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -424,6 +426,7 @@
      "name": "Trainline",
      "slug": "trainline",
      "description": "Trainline plc is Europe's leading independent rail and coach ticket retailer and distribution platform, headquartered in London and listed on the London Stock Exchange, with the United Kingdom as its home market. It aggregates fares, inventory and real-time journey data from 270+ rail and coach carriers across more than 40 countries and resells that content through its own consumer app and website, through Trainline for Business, and — via Trainline Solutions / Trainline Partner Solutions — as wholesale distribution to other travel sellers through its Global API, Agent Tool and White Label products. In distribution terms Trainline is an aggregator-reseller sitting between the carriers and the traveller: rail has no GDS-equivalent oligopoly and no NDC, so Trainline is itself the intermediation layer, holding the carrier connections, the ticket-issuing accreditation and the settlement relationships that a competitor would otherwise have to rebuild carrier by carrier. Its API posture is honestly gated: the Global API is publicly described as \"a modern, intuitive RESTful API\" on tps.thetrainline.com but there is no developer portal, no public reference, no sandbox and no OpenAPI — access requires a commercial agreement reached through a sales conversation, and in Great Britain a retailer also needs Rail Delivery Group / Rail Settlement Plan third-party retailer accreditation and a bond. The one genuinely open artifact is the ODbL-licensed European station database Trainline publishes on GitHub, which maps its internal station ids to UIC codes, ATOC/CRS codes and carrier-specific ids.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trainline/refs/heads/main/screenshots/trainline-2026-09-02T164109.png",
      "score": 22.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -437,7 +440,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -482,7 +485,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -535,7 +538,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -591,7 +594,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -637,7 +640,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -690,7 +693,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

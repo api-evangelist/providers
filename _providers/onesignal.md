@@ -34,40 +34,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Apps API from OneSignal — 21 operation(s) for apps.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Apps API from OneSignal — 21 operation(s) for apps.
   name: OneSignal Apps API
   slug: onesignal-apps-api
-- description: The Notifications API from OneSignal — 4 operation(s) for notifications.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Notifications API from OneSignal — 4 operation(s) for notifications.
   name: OneSignal Notifications API
   slug: onesignal-notifications-api
-- description: The Players API from OneSignal — 1 operation(s) for players.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Players API from OneSignal — 1 operation(s) for players.
   name: OneSignal Players API
   slug: onesignal-players-api
-- description: The Templates API from OneSignal — 3 operation(s) for templates.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Templates API from OneSignal — 3 operation(s) for templates.
   name: OneSignal Templates API
   slug: onesignal-templates-api
 - description: OneSignal's hosted Model Context Protocol server at https://api.onesignal.com/mcp/oauth, connected over browser-based OAuth 2.1 with PKCE. Listed in the Cursor marketplace and Claude's connector direc
   name: OneSignal MCP Server
   slug: onesignal-mcp
-- description: The Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API from OneSignal — 1 operation(s) for notifications?app id={app id}&li
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API from OneSignal — 1 operation(s) for notifications?app id={app id}&li
   name: OneSignal Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API
   slug: onesignal-notifications-app-id-app-id-limit-limit-offset-offset-kind-kind-template-id-template-id-time-offset-time-offset-api
-- description: The Notifications?c=email API from OneSignal — 1 operation(s) for notifications?c=email.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Notifications?c=email API from OneSignal — 1 operation(s) for notifications?c=email.
   name: OneSignal Notifications?c=email API
   slug: onesignal-notifications-c-email-api
-- description: The Notifications?c=push API from OneSignal — 1 operation(s) for notifications?c=push.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Notifications?c=push API from OneSignal — 1 operation(s) for notifications?c=push.
   name: OneSignal Notifications?c=push API
   slug: onesignal-notifications-c-push-api
-- description: The Notifications?c=sms API from OneSignal — 1 operation(s) for notifications?c=sms.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Notifications?c=sms API from OneSignal — 1 operation(s) for notifications?c=sms.
   name: OneSignal Notifications?c=sms API
   slug: onesignal-notifications-c-sms-api
-- description: The Organizations API from OneSignal — 1 operation(s) for organizations.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Organizations API from OneSignal — 1 operation(s) for organizations.
   name: OneSignal Organizations API
   slug: onesignal-organizations-api
-- description: The Templates?app Id={app Id}&limit={limit}&offset={offset} API from OneSignal — 1 operation(s) for templates?app id={app id}&limit={limit}&offset={offset}.
+- baseURL: https://api.onesignal.com
+  baseurl_source: declared
+  description: The Templates?app Id={app Id}&limit={limit}&offset={offset} API from OneSignal — 1 operation(s) for templates?app id={app id}&limit={limit}&offset={offset}.
   name: OneSignal Templates?app Id={app Id}&limit={limit}&offset={offset} API
   slug: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api
 artifact_total: 27
@@ -321,23 +341,23 @@ rate_limits:
   slug: onesignal-rate-limits
 score:
   band: exemplar
-  composite: 74.6
+  composite: 74.2
   coverage:
     artifact_dirs: 27
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.4
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 4.5
-    contract_quality: 72.1
+    contract_quality: 70.4
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 74.8
+  previous_composite: 74.6
   provenance:
     conformance: derived
     contracts:
@@ -354,7 +374,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

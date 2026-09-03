@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
   name: Farmers Edge canplug API
   slug: farmers-edge-canplug-api
-- description: The carbon API from Farmers Edge — 1 operation(s) for carbon.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The carbon API from Farmers Edge — 1 operation(s) for carbon.
   name: Farmers Edge carbon API
   slug: farmers-edge-carbon-api
-- description: The client API from Farmers Edge — 7 operation(s) for client.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The client API from Farmers Edge — 7 operation(s) for client.
   name: Farmers Edge client API
   slug: farmers-edge-client-api
-- description: The contact API from Farmers Edge — 2 operation(s) for contact.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The contact API from Farmers Edge — 2 operation(s) for contact.
   name: Farmers Edge contact API
   slug: farmers-edge-contact-api
-- description: The gridcalc API from Farmers Edge — 1 operation(s) for gridcalc.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The gridcalc API from Farmers Edge — 1 operation(s) for gridcalc.
   name: Farmers Edge gridcalc API
   slug: farmers-edge-gridcalc-api
-- description: The hefty API from Farmers Edge — 4 operation(s) for hefty.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The hefty API from Farmers Edge — 4 operation(s) for hefty.
   name: Farmers Edge hefty API
   slug: farmers-edge-hefty-api
-- description: The integrations API from Farmers Edge — 1 operation(s) for integrations.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The integrations API from Farmers Edge — 1 operation(s) for integrations.
   name: Farmers Edge integrations API
   slug: farmers-edge-integrations-api
-- description: The labcommand API from Farmers Edge — 3 operation(s) for labcommand.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The labcommand API from Farmers Edge — 3 operation(s) for labcommand.
   name: Farmers Edge labcommand API
   slug: farmers-edge-labcommand-api
-- description: The payments API from Farmers Edge — 3 operation(s) for payments.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The payments API from Farmers Edge — 3 operation(s) for payments.
   name: Farmers Edge payments API
   slug: farmers-edge-payments-api
-- description: The recengine API from Farmers Edge — 1 operation(s) for recengine.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The recengine API from Farmers Edge — 1 operation(s) for recengine.
   name: Farmers Edge recengine API
   slug: farmers-edge-recengine-api
-- description: The token-login API from Farmers Edge — 1 operation(s) for token-login.
+- baseURL: https://admin.farmcommand.com/
+  baseurl_source: declared
+  description: The token-login API from Farmers Edge — 1 operation(s) for token-login.
   name: Farmers Edge token-login API
   slug: farmers-edge-token-login-api
 artifact_total: 26
@@ -214,7 +236,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:

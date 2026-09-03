@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 8
 common:
@@ -188,7 +188,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerenovus/refs/heads/main/screenshots/cerenovus-2026-07-25T204948.png
 security:

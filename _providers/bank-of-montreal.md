@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: Real-time access to BMO Online Banking for Business account data — current balances; day-end, month-end and year-end balances; and transaction histories that can replace BAI files and other settlement
@@ -164,7 +176,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/screenshots/bank-of-montreal-2026-07-25T202338.png
 security:

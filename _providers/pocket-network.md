@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 29 operations · 3 acting
 api_count: 3
 apis:
-- description: Pocket application module — applications stake POKT to consume relays
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket application module — applications stake POKT to consume relays
   name: Pocket Network Application API
   slug: pocket-network-application-api
-- description: POKT supply, balances, and burn tracking
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: POKT supply, balances, and burn tracking
   name: Pocket Network Bank API
   slug: pocket-network-bank-api
-- description: Block and consensus state queries
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Block and consensus state queries
   name: Pocket Network Blocks API
   slug: pocket-network-blocks-api
-- description: Block, header, and consensus queries
+- baseURL: https://shannon-grove-rpc.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Block, header, and consensus queries
   name: Pocket Network Consensus API
   slug: pocket-network-consensus-api
-- description: Pocket gateway module — gateways stake POKT and proxy relays for applications
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket gateway module — gateways stake POKT and proxy relays for applications
   name: Pocket Network Gateway API
   slug: pocket-network-gateway-api
-- description: PATH service liveness and readiness probes
+- baseURL: https://rpc.grove.city
+  baseurl_source: spec
+  description: PATH service liveness and readiness probes
   name: Pocket Network Health API
   slug: pocket-network-health-api
-- description: Mempool inspection and broadcast
+- baseURL: https://shannon-grove-rpc.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Mempool inspection and broadcast
   name: Pocket Network Mempool API
   slug: pocket-network-mempool-api
-- description: Pocket proof module — claims and proofs that suppliers submit to earn POKT
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket proof module — claims and proofs that suppliers submit to earn POKT
   name: Pocket Network Proof API
   slug: pocket-network-proof-api
-- description: JSON-RPC, REST, and WebSocket relays proxied to Shannon suppliers
+- baseURL: https://rpc.grove.city
+  baseurl_source: spec
+  description: JSON-RPC, REST, and WebSocket relays proxied to Shannon suppliers
   name: Pocket Network Relays API
   slug: pocket-network-relays-api
-- description: Pocket service module — services represent the data sources (EVM chains, Solana, etc.) the network serves
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket service module — services represent the data sources (EVM chains, Solana, etc.) the network serves
   name: Pocket Network Service API
   slug: pocket-network-service-api
-- description: Pocket session module — sessions group applications, suppliers, and services for a given block window
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket session module — sessions group applications, suppliers, and services for a given block window
   name: Pocket Network Session API
   slug: pocket-network-session-api
-- description: Node status and network info
+- baseURL: https://shannon-grove-rpc.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Node status and network info
   name: Pocket Network Status API
   slug: pocket-network-status-api
-- description: Pocket supplier module — suppliers stake POKT and serve relays via RelayMiner
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket supplier module — suppliers stake POKT and serve relays via RelayMiner
   name: Pocket Network Supplier API
   slug: pocket-network-supplier-api
-- description: Pocket tokenomics module — global mint, burn, and reward parameters
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Pocket tokenomics module — global mint, burn, and reward parameters
   name: Pocket Network Tokenomics API
   slug: pocket-network-tokenomics-api
-- description: Transaction lookup and broadcast
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Transaction lookup and broadcast
   name: Pocket Network Transactions API
   slug: pocket-network-transactions-api
-- description: Staking and validator queries
+- baseURL: https://shannon-grove-api.mainnet.poktroll.com
+  baseurl_source: spec
+  description: Staking and validator queries
   name: Pocket Network Validators API
   slug: pocket-network-validators-api
 arazzos:
@@ -510,7 +542,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -523,7 +555,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 58.0
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -532,7 +564,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
@@ -45,13 +45,19 @@ apis:
 - description: The OpenTelemetry SDK API specifies language-level interfaces for instrumentation, including the Tracer, Meter, and Logger APIs used by application code to create spans, record metrics, and emit log r
   name: OpenTelemetry SDK API
   slug: opentelemetry-sdk-api
-- description: The Logs API from OpenTelemetry — 1 operation(s) for logs.
+- baseURL: http://localhost:4318
+  baseurl_source: spec
+  description: The Logs API from OpenTelemetry — 1 operation(s) for logs.
   name: OpenTelemetry Logs API
   slug: opentelemetry-logs-api
-- description: The Metrics API from OpenTelemetry — 1 operation(s) for metrics.
+- baseURL: http://localhost:4318
+  baseurl_source: spec
+  description: The Metrics API from OpenTelemetry — 1 operation(s) for metrics.
   name: OpenTelemetry Metrics API
   slug: opentelemetry-metrics-api
-- description: The Traces API from OpenTelemetry — 1 operation(s) for traces.
+- baseURL: http://localhost:4318
+  baseurl_source: spec
+  description: The Traces API from OpenTelemetry — 1 operation(s) for traces.
   name: OpenTelemetry Traces API
   slug: opentelemetry-traces-api
 artifact_total: 16
@@ -201,7 +207,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -214,7 +220,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 43.5
+  previous_composite: 43.4
   provenance:
     contracts:
       callable: 0.0
@@ -222,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:

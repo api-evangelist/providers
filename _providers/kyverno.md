@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: The Kyverno CLI provides a command-line interface for applying and testing Kyverno policies against Kubernetes resources outside of a cluster. It can be used in CI/CD pipelines to validate resources b
   name: Kyverno CLI
   slug: kyverno-cli
-- description: Cluster-scoped policy report endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Cluster-scoped policy report endpoints
   name: Kyverno ClusterPolicyReports API
   slug: kyverno-clusterpolicyreports-api
-- description: Health and readiness endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Health and readiness endpoints
   name: Kyverno Health API
   slug: kyverno-health-api
-- description: Namespace listing endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Namespace listing endpoints
   name: Kyverno Namespaces API
   slug: kyverno-namespaces-api
-- description: Policy listing and detail endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Policy listing and detail endpoints
   name: Kyverno Policies API
   slug: kyverno-policies-api
-- description: Namespaced policy report endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Namespaced policy report endpoints
   name: Kyverno PolicyReports API
   slug: kyverno-policyreports-api
-- description: Policy result query endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Policy result query endpoints
   name: Kyverno Results API
   slug: kyverno-results-api
-- description: Policy source listing endpoints
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Policy source listing endpoints
   name: Kyverno Sources API
   slug: kyverno-sources-api
 artifact_total: 26
@@ -264,7 +278,7 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyverno/refs/heads/main/screenshots/kyverno-2026-06-20T184228.png
 security:

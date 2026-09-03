@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 38 operations · 14 acting
 api_count: 1
 apis:
-- description: The artifacts API from GoHarbor — 2 operation(s) for artifacts.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The artifacts API from GoHarbor — 2 operation(s) for artifacts.
   name: GoHarbor artifacts API
   slug: goharbor-artifacts-api
-- description: The audit API from GoHarbor — 1 operation(s) for audit.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The audit API from GoHarbor — 1 operation(s) for audit.
   name: GoHarbor audit API
   slug: goharbor-audit-api
-- description: The health API from GoHarbor — 2 operation(s) for health.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The health API from GoHarbor — 2 operation(s) for health.
   name: GoHarbor health API
   slug: goharbor-health-api
-- description: The projects API from GoHarbor — 4 operation(s) for projects.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The projects API from GoHarbor — 4 operation(s) for projects.
   name: GoHarbor projects API
   slug: goharbor-projects-api
-- description: The quotas API from GoHarbor — 2 operation(s) for quotas.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The quotas API from GoHarbor — 2 operation(s) for quotas.
   name: GoHarbor quotas API
   slug: goharbor-quotas-api
-- description: The registries API from GoHarbor — 1 operation(s) for registries.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The registries API from GoHarbor — 1 operation(s) for registries.
   name: GoHarbor registries API
   slug: goharbor-registries-api
-- description: The replication API from GoHarbor — 2 operation(s) for replication.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The replication API from GoHarbor — 2 operation(s) for replication.
   name: GoHarbor replication API
   slug: goharbor-replication-api
-- description: The repositories API from GoHarbor — 3 operation(s) for repositories.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The repositories API from GoHarbor — 3 operation(s) for repositories.
   name: GoHarbor repositories API
   slug: goharbor-repositories-api
-- description: The robots API from GoHarbor — 2 operation(s) for robots.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The robots API from GoHarbor — 2 operation(s) for robots.
   name: GoHarbor robots API
   slug: goharbor-robots-api
-- description: The scan API from GoHarbor — 1 operation(s) for scan.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The scan API from GoHarbor — 1 operation(s) for scan.
   name: GoHarbor scan API
   slug: goharbor-scan-api
-- description: The search API from GoHarbor — 1 operation(s) for search.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The search API from GoHarbor — 1 operation(s) for search.
   name: GoHarbor search API
   slug: goharbor-search-api
-- description: The tags API from GoHarbor — 1 operation(s) for tags.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The tags API from GoHarbor — 1 operation(s) for tags.
   name: GoHarbor tags API
   slug: goharbor-tags-api
-- description: The usergroups API from GoHarbor — 2 operation(s) for usergroups.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The usergroups API from GoHarbor — 2 operation(s) for usergroups.
   name: GoHarbor usergroups API
   slug: goharbor-usergroups-api
-- description: The webhooks API from GoHarbor — 1 operation(s) for webhooks.
+- baseURL_template: https://{host}/api/v2.0
+  baseurl_source: spec_template
+  description: The webhooks API from GoHarbor — 1 operation(s) for webhooks.
   name: GoHarbor webhooks API
   slug: goharbor-webhooks-api
 artifact_total: 36
@@ -218,7 +246,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -231,7 +259,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 35.4
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -240,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/screenshots/goharbor-2026-06-20T181946.png
 security:

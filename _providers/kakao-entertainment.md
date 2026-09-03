@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Melon's first-party remote Model Context Protocol server, published by Kakao Entertainment's AI Application Technology team. Streamable HTTP transport at https://mcp.melon.com/mcp, OAuth 2.0 authentic
@@ -138,7 +151,7 @@ score:
   band: emerging
   composite: 16.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -158,8 +171,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kakao-entertainment/refs/heads/main/screenshots/kakao-entertainment-2026-09-02T150016.png
 security:
 - kind: authentication
   name: Kakao Entertainment Authentication

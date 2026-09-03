@@ -34,118 +34,190 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
   name: Lucidya Webhooks
   slug: lucidya-webhooks
-- description: The aggregated pages > Analytics API from Lucidya Ltd — 1 operation(s) for aggregated pages > analytics.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The aggregated pages > Analytics API from Lucidya Ltd — 1 operation(s) for aggregated pages > analytics.
   name: Lucidya Ltd aggregated pages > Analytics API
   slug: lucidya-ltd-aggregated-pages-analytics-api
-- description: The aggregated pages > Interactions API from Lucidya Ltd — 1 operation(s) for aggregated pages > interactions.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The aggregated pages > Interactions API from Lucidya Ltd — 1 operation(s) for aggregated pages > interactions.
   name: Lucidya Ltd aggregated pages > Interactions API
   slug: lucidya-ltd-aggregated-pages-interactions-api
-- description: Endpoints for creating and retrieving analytics jobs
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Endpoints for creating and retrieving analytics jobs
   name: Lucidya Ltd Analytics Jobs API
   slug: lucidya-ltd-analytics-jobs-api
-- description: Endpoints for discovering and managing analytics pages, widgets, and filters
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Endpoints for discovering and managing analytics pages, widgets, and filters
   name: Lucidya Ltd Analytics Pages API
   slug: lucidya-ltd-analytics-pages-api
-- description: The Audio Transcription API from Lucidya Ltd — 3 operation(s) for audio transcription.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Audio Transcription API from Lucidya Ltd — 3 operation(s) for audio transcription.
   name: Lucidya Ltd Audio Transcription API
   slug: lucidya-ltd-audio-transcription-api
-- description: Operations related to Genesys channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Genesys channel.
   name: Lucidya Ltd Calls > Genesys API
   slug: lucidya-ltd-calls-genesys-api
-- description: The Chats > chats API from Lucidya Ltd — 1 operation(s) for chats > chats.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Chats > chats API from Lucidya Ltd — 1 operation(s) for chats > chats.
   name: Lucidya Ltd Chats > chats API
   slug: lucidya-ltd-chats-chats-api
-- description: Operations related to Intercom channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Intercom channel.
   name: Lucidya Ltd Chats > Intercom API
   slug: lucidya-ltd-chats-intercom-api
-- description: The Chats > Whatsapp API from Lucidya Ltd — 1 operation(s) for chats > whatsapp.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Chats > Whatsapp API from Lucidya Ltd — 1 operation(s) for chats > whatsapp.
   name: Lucidya Ltd Chats > Whatsapp API
   slug: lucidya-ltd-chats-whatsapp-api
-- description: Endpoints for CSAT (Customer Satisfaction) survey analytics
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Endpoints for CSAT (Customer Satisfaction) survey analytics
   name: Lucidya Ltd CSAT Analytics API
   slug: lucidya-ltd-csat-analytics-api
-- description: Endpoints for retrieving per-engagement applied custom-field values (job-based)
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Endpoints for retrieving per-engagement applied custom-field values (job-based)
   name: Lucidya Ltd Custom Fields API
   slug: lucidya-ltd-custom-fields-api
-- description: Operations related to default and main endpoints on OmniChannel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to default and main endpoints on OmniChannel.
   name: Lucidya Ltd Default API
   slug: lucidya-ltd-default-api
-- description: The Dialects API from Lucidya Ltd — 1 operation(s) for dialects.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Dialects API from Lucidya Ltd — 1 operation(s) for dialects.
   name: Lucidya Ltd Dialects API
   slug: lucidya-ltd-dialects-api
-- description: The Domains API from Lucidya Ltd — 1 operation(s) for domains.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Domains API from Lucidya Ltd — 1 operation(s) for domains.
   name: Lucidya Ltd Domains API
   slug: lucidya-ltd-domains-api
-- description: Operations related to Gmail channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Gmail channel.
   name: Lucidya Ltd Email > Gmail API
   slug: lucidya-ltd-email-gmail-api
-- description: The Filters API from Lucidya Ltd — 1 operation(s) for filters.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Filters API from Lucidya Ltd — 1 operation(s) for filters.
   name: Lucidya Ltd Filters API
   slug: lucidya-ltd-filters-api
-- description: The Profile Interactions API from Lucidya Ltd — 2 operation(s) for profile interactions.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Profile Interactions API from Lucidya Ltd — 2 operation(s) for profile interactions.
   name: Lucidya Ltd Profile Interactions API
   slug: lucidya-ltd-profile-interactions-api
-- description: The Profiles API from Lucidya Ltd — 2 operation(s) for profiles.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Profiles API from Lucidya Ltd — 2 operation(s) for profiles.
   name: Lucidya Ltd Profiles API
   slug: lucidya-ltd-profiles-api
-- description: The Public API - Monitors List API from Lucidya Ltd — 1 operation(s) for public api - monitors list.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public API - Monitors List API from Lucidya Ltd — 1 operation(s) for public api - monitors list.
   name: Lucidya Ltd Public API - Monitors List API
   slug: lucidya-ltd-public-api-monitors-list-api
-- description: The Public APIs - Social Listening - Base APIs API from Lucidya Ltd — 3 operation(s) for public apis - social listening - base apis.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public APIs - Social Listening - Base APIs API from Lucidya Ltd — 3 operation(s) for public apis - social listening - base apis.
   name: Lucidya Ltd Public APIs - Social Listening - Base APIs API
   slug: lucidya-ltd-public-apis-social-listening-base-apis-api
-- description: The Public APIs - Social Listening - Facebook widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - facebook widget_data apis.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public APIs - Social Listening - Facebook widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - facebook widget_data apis.
   name: Lucidya Ltd Public APIs - Social Listening - Facebook widget_data APIs API
   slug: lucidya-ltd-public-apis-social-listening-facebook-widget-data-apis-api
-- description: The Public APIs - Social Listening - instagram widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - instagram widget_data apis.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public APIs - Social Listening - instagram widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - instagram widget_data apis.
   name: Lucidya Ltd Public APIs - Social Listening - instagram widget_data APIs API
   slug: lucidya-ltd-public-apis-social-listening-instagram-widget-data-apis-api
-- description: The Public APIs - Social Listening - nb widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - nb widget_data apis.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public APIs - Social Listening - nb widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - nb widget_data apis.
   name: Lucidya Ltd Public APIs - Social Listening - nb widget_data APIs API
   slug: lucidya-ltd-public-apis-social-listening-nb-widget-data-apis-api
-- description: The Public APIs - Social Listening - twitter widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - twitter widget_data apis.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Public APIs - Social Listening - twitter widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - twitter widget_data apis.
   name: Lucidya Ltd Public APIs - Social Listening - twitter widget_data APIs API
   slug: lucidya-ltd-public-apis-social-listening-twitter-widget-data-apis-api
-- description: Operations related to Google My Business channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Google My Business channel.
   name: Lucidya Ltd Rating > Google My Business API
   slug: lucidya-ltd-rating-google-my-business-api
-- description: Endpoints for fetching reference data (agents, teams, data sources)
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Endpoints for fetching reference data (agents, teams, data sources)
   name: Lucidya Ltd Reference Data API
   slug: lucidya-ltd-reference-data-api
-- description: The Segments API from Lucidya Ltd — 3 operation(s) for segments.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Segments API from Lucidya Ltd — 3 operation(s) for segments.
   name: Lucidya Ltd Segments API
   slug: lucidya-ltd-segments-api
-- description: The Sentiment API from Lucidya Ltd — 1 operation(s) for sentiment.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Sentiment API from Lucidya Ltd — 1 operation(s) for sentiment.
   name: Lucidya Ltd Sentiment API
   slug: lucidya-ltd-sentiment-api
-- description: Operations related to Facebook "Public and Private" channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Facebook "Public and Private" channel.
   name: Lucidya Ltd Social Media > Facebook API
   slug: lucidya-ltd-social-media-facebook-api
-- description: Operations related to Instagram "Public and Private" channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Instagram "Public and Private" channel.
   name: Lucidya Ltd Social Media > Instagram API
   slug: lucidya-ltd-social-media-instagram-api
-- description: Operations related to Linkedin channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to Linkedin channel.
   name: Lucidya Ltd Social Media > Linkedin API
   slug: lucidya-ltd-social-media-linkedin-api
-- description: Operations related to all social cannels.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to all social cannels.
   name: Lucidya Ltd Social Media > Social API
   slug: lucidya-ltd-social-media-social-api
-- description: Operations related to TikTok channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to TikTok channel.
   name: Lucidya Ltd Social Media > TikTok API
   slug: lucidya-ltd-social-media-tiktok-api
-- description: Operations related to X (Twitter) "Public and Private" channel.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: Operations related to X (Twitter) "Public and Private" channel.
   name: Lucidya Ltd Social Media > X (Twitter) API
   slug: lucidya-ltd-social-media-x-twitter-api
-- description: The Surveys API from Lucidya Ltd — 1 operation(s) for surveys.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Surveys API from Lucidya Ltd — 1 operation(s) for surveys.
   name: Lucidya Ltd Surveys API
   slug: lucidya-ltd-surveys-api
-- description: The Themes API from Lucidya Ltd — 1 operation(s) for themes.
+- baseURL: https://api.lucidya.com
+  baseurl_source: declared
+  description: The Themes API from Lucidya Ltd — 1 operation(s) for themes.
   name: Lucidya Ltd Themes API
   slug: lucidya-ltd-themes-api
 artifact_total: 50
@@ -394,7 +466,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -404,7 +476,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 67.5
+  previous_composite: 67.3
   provenance:
     conformance: first-party
     contracts:
@@ -415,7 +487,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:

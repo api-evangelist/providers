@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,16 +45,24 @@ agentic_access:
   summary_line: 24 operations · 7 acting
 api_count: 1
 apis:
-- description: Know-Your-Customer application submission and status.
+- baseURL: https://wallet-api.celsius.network
+  baseurl_source: declared
+  description: Know-Your-Customer application submission and status.
   name: Celsius Network KYC API
   slug: celsius-network-kyc-api
-- description: Creation and maintenance of partner-owned Celsius users (Segmented Integration).
+- baseURL: https://wallet-api.celsius.network
+  baseurl_source: declared
+  description: Creation and maintenance of partner-owned Celsius users (Segmented Integration).
   name: Celsius Network Users API
   slug: celsius-network-users-api
-- description: Reference data, statistics, terms of use and health.
+- baseURL: https://wallet-api.celsius.network
+  baseurl_source: declared
+  description: Reference data, statistics, terms of use and health.
   name: Celsius Network Utility API
   slug: celsius-network-utility-api
-- description: Balances, accrued interest, transactions, deposits and withdrawals.
+- baseURL: https://wallet-api.celsius.network
+  baseurl_source: declared
+  description: Balances, accrued interest, transactions, deposits and withdrawals.
   name: Celsius Network Wallet API
   slug: celsius-network-wallet-api
 artifact_total: 13
@@ -223,7 +243,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:

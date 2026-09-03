@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 19 acting
 api_count: 1
 apis:
-- description: Manage sub-accounts for customers including balances and funding
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Manage sub-accounts for customers including balances and funding
   name: Tango Accounts API
   slug: tango-accounts-api
-- description: Browse the global digital reward catalog
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Browse the global digital reward catalog
   name: Tango Catalog API
   slug: tango-catalog-api
-- description: Manage customer accounts within the Tango platform
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Manage customer accounts within the Tango platform
   name: Tango Customers API
   slug: tango-customers-api
-- description: Create and manage email delivery templates for rewards
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Create and manage email delivery templates for rewards
   name: Tango Digital Templates API
   slug: tango-digital-templates-api
-- description: Fund accounts via credit card deposits and fund transfers
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Fund accounts via credit card deposits and fund transfers
   name: Tango Funding API
   slug: tango-funding-api
-- description: Manage individual order line items
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Manage individual order line items
   name: Tango Line Items API
   slug: tango-line-items-api
-- description: Configure low balance alerts for accounts
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Configure low balance alerts for accounts
   name: Tango Low Balance Alerts API
   slug: tango-low-balance-alerts-api
-- description: Place and manage reward orders
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Place and manage reward orders
   name: Tango Orders API
   slug: tango-orders-api
-- description: Exchange rates, reward countries, and credential types
+- baseURL: https://api.tangocard.com/raas/v2
+  baseurl_source: declared
+  description: Exchange rates, reward countries, and credential types
   name: Tango Reference Data API
   slug: tango-reference-data-api
 arazzos:
@@ -393,7 +411,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/screenshots/tango-2026-06-20T194913.png
 security:

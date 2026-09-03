@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: 'OAI-PMH 2.0 metadata-harvesting endpoint for bonndata, the University of Bonn institutional research data repository. Re-verified live 2026-09-01: verb=Identify returns repositoryName "bonndata Datave'
   name: bonndata OAI-PMH Metadata Endpoint
   slug: bonndata-oai-pmh
-- description: 'Retrieve published datasets, their versions, and export metadata from bonndata. Re-verified live 2026-09-01: /datasets/:persistentId?persistentId=doi:10.60507/FK2/BBP6GG returned 200 with 12,647 bytes'
+- baseURL: https://bonndata.uni-bonn.de/api/datasets/:persistentId/?persistentId=doi:10.60507/FK2/BBP6GG
+  baseurl_source: declared
+  description: 'Retrieve published datasets, their versions, and export metadata from bonndata. Re-verified live 2026-09-01: /datasets/:persistentId?persistentId=doi:10.60507/FK2/BBP6GG returned 200 with 12,647 bytes'
   name: University of Bonn Datasets API
   slug: university-of-bonn-datasets-api
-- description: 'Repository version and software information for bonndata. Re-verified live 2026-09-01: GET /info/version returned {"status":"OK","data":{"version":"6.7.1","build":"1955-8e18f64"}}. The OpenAPI server '
+- baseURL: https://bonndata.uni-bonn.de/api/info/version
+  baseurl_source: declared
+  description: 'Repository version and software information for bonndata. Re-verified live 2026-09-01: GET /info/version returned {"status":"OK","data":{"version":"6.7.1","build":"1955-8e18f64"}}. The OpenAPI server '
   name: University of Bonn Info API
   slug: university-of-bonn-info-api
-- description: 'Aggregate repository metrics for bonndata. Re-verified live 2026-09-01: GET /info/metrics/datasets returned {"status":"OK","data":{"count":376}}. Note the path is /info/metrics/datasets — a bare /metr'
+- baseURL: https://bonndata.uni-bonn.de/api/info/metrics/datasets
+  baseurl_source: declared
+  description: 'Aggregate repository metrics for bonndata. Re-verified live 2026-09-01: GET /info/metrics/datasets returned {"status":"OK","data":{"count":376}}. Note the path is /info/metrics/datasets — a bare /metr'
   name: University of Bonn Metrics API
   slug: university-of-bonn-metrics-api
-- description: 'Search the published catalog of datasets, dataverses and files in bonndata. Re-verified live 2026-09-01: /search?q=*&type=dataset returned total_count 376 (362 at first profiling on 2026-06-03), and /'
+- baseURL: https://bonndata.uni-bonn.de/api/search?q=*&type=dataset
+  baseurl_source: declared
+  description: 'Search the published catalog of datasets, dataverses and files in bonndata. Re-verified live 2026-09-01: /search?q=*&type=dataset returned total_count 376 (362 at first profiling on 2026-06-03), and /'
   name: University of Bonn Search API
   slug: university-of-bonn-search-api
 - description: 'OAI-PMH 2.0 endpoint for bonndoc, "Der Publikationsserver der Universitaet Bonn" — the university''s DSpace-based publication and dissertation server, operated by the ULB. Verified live 2026-09-01: ver'
@@ -286,7 +294,7 @@ score:
     catalog_gap: 41.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 20.4
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -296,7 +304,7 @@ score:
     discoverability: 79.6
     governance: 28.0
     operational_transparency: 26.3
-  previous_composite: 25.3
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,8 +320,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bonn/refs/heads/main/screenshots/university-of-bonn-2026-06-20T200139.png
 security:
 - kind: authentication

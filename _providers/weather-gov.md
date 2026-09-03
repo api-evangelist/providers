@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 65 operations
 api_count: 1
 apis:
-- description: The Alerts API from Weather.gov — 8 operation(s) for alerts.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Alerts API from Weather.gov — 8 operation(s) for alerts.
   name: Weather.gov Alerts API
   slug: weather-gov-alerts-api
-- description: The Aviation API from Weather.gov — 7 operation(s) for aviation.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Aviation API from Weather.gov — 7 operation(s) for aviation.
   name: Weather.gov Aviation API
   slug: weather-gov-aviation-api
-- description: The Glossary API from Weather.gov — 1 operation(s) for glossary.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Glossary API from Weather.gov — 1 operation(s) for glossary.
   name: Weather.gov Glossary API
   slug: weather-gov-glossary-api
-- description: The Gridpoints API from Weather.gov — 4 operation(s) for gridpoints.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Gridpoints API from Weather.gov — 4 operation(s) for gridpoints.
   name: Weather.gov Gridpoints API
   slug: weather-gov-gridpoints-api
-- description: The Icons API from Weather.gov — 3 operation(s) for icons.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Icons API from Weather.gov — 3 operation(s) for icons.
   name: Weather.gov Icons API
   slug: weather-gov-icons-api
-- description: The Offices API from Weather.gov — 8 operation(s) for offices.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Offices API from Weather.gov — 8 operation(s) for offices.
   name: Weather.gov Offices API
   slug: weather-gov-offices-api
-- description: The Points API from Weather.gov — 3 operation(s) for points.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Points API from Weather.gov — 3 operation(s) for points.
   name: Weather.gov Points API
   slug: weather-gov-points-api
-- description: The Products API from Weather.gov — 9 operation(s) for products.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Products API from Weather.gov — 9 operation(s) for products.
   name: Weather.gov Products API
   slug: weather-gov-products-api
-- description: The Radar API from Weather.gov — 7 operation(s) for radar.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radar API from Weather.gov — 7 operation(s) for radar.
   name: Weather.gov Radar API
   slug: weather-gov-radar-api
-- description: The Radio API from Weather.gov — 1 operation(s) for radio.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radio API from Weather.gov — 1 operation(s) for radio.
   name: Weather.gov Radio API
   slug: weather-gov-radio-api
-- description: The Stations API from Weather.gov — 7 operation(s) for stations.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Stations API from Weather.gov — 7 operation(s) for stations.
   name: Weather.gov Stations API
   slug: weather-gov-stations-api
-- description: The Thumbnails API from Weather.gov — 1 operation(s) for thumbnails.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Thumbnails API from Weather.gov — 1 operation(s) for thumbnails.
   name: Weather.gov Thumbnails API
   slug: weather-gov-thumbnails-api
-- description: The Zones API from Weather.gov — 6 operation(s) for zones.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Zones API from Weather.gov — 6 operation(s) for zones.
   name: Weather.gov Zones API
   slug: weather-gov-zones-api
 artifact_total: 371
@@ -1250,7 +1276,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png
 security:

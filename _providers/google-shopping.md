@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage merchant accounts
+- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
+  baseurl_source: declared
+  description: Manage merchant accounts
   name: Google Content API for Shopping Accounts API
   slug: google-shopping-accounts-api
-- description: Manage data feeds
+- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
+  baseurl_source: declared
+  description: Manage data feeds
   name: Google Content API for Shopping Datafeeds API
   slug: google-shopping-datafeeds-api
-- description: Manage orders
+- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
+  baseurl_source: declared
+  description: Manage orders
   name: Google Content API for Shopping Orders API
   slug: google-shopping-orders-api
-- description: Manage product listings
+- baseURL: https://shoppingcontent.googleapis.com/content/v2.1
+  baseurl_source: declared
+  description: Manage product listings
   name: Google Content API for Shopping Products API
   slug: google-shopping-products-api
 artifact_total: 23
@@ -233,7 +241,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-shopping/refs/heads/main/screenshots/google-shopping-2026-06-20T182233.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -55,28 +55,44 @@ apis:
 - description: BOSH is Cloud Foundry's release engineering tool for packaging, deploying, and managing distributed software. The BOSH Director API exposes deployment, stemcell, release, task, and VM lifecycle operat
   name: BOSH Director API
   slug: bosh
-- description: The Apps API from Cloud Foundry — 4 operation(s) for apps.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Apps API from Cloud Foundry — 4 operation(s) for apps.
   name: Cloud Foundry Apps API
   slug: cloud-foundry-apps-api
-- description: The Builds API from Cloud Foundry — 1 operation(s) for builds.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Builds API from Cloud Foundry — 1 operation(s) for builds.
   name: Cloud Foundry Builds API
   slug: cloud-foundry-builds-api
-- description: The Cloud Foundry Cloud Controller API V3 API from Cloud Foundry — 2 operation(s) for cloud foundry cloud controller api v3.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Cloud Foundry Cloud Controller API V3 API from Cloud Foundry — 2 operation(s) for cloud foundry cloud controller api v3.
   name: Cloud Foundry Cloud Foundry Cloud Controller API V3 API
   slug: cloud-foundry-cloud-foundry-cloud-controller-api-v3-api
-- description: The Deployments API from Cloud Foundry — 1 operation(s) for deployments.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Deployments API from Cloud Foundry — 1 operation(s) for deployments.
   name: Cloud Foundry Deployments API
   slug: cloud-foundry-deployments-api
-- description: The Jobs API from Cloud Foundry — 1 operation(s) for jobs.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Jobs API from Cloud Foundry — 1 operation(s) for jobs.
   name: Cloud Foundry Jobs API
   slug: cloud-foundry-jobs-api
-- description: The Organizations API from Cloud Foundry — 2 operation(s) for organizations.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Organizations API from Cloud Foundry — 2 operation(s) for organizations.
   name: Cloud Foundry Organizations API
   slug: cloud-foundry-organizations-api
-- description: The Service Instances API from Cloud Foundry — 2 operation(s) for service instances.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Service Instances API from Cloud Foundry — 2 operation(s) for service instances.
   name: Cloud Foundry Service Instances API
   slug: cloud-foundry-service-instances-api
-- description: The Spaces API from Cloud Foundry — 2 operation(s) for spaces.
+- baseURL: https://api.cloudfoundry.org
+  baseurl_source: spec
+  description: The Spaces API from Cloud Foundry — 2 operation(s) for spaces.
   name: Cloud Foundry Spaces API
   slug: cloud-foundry-spaces-api
 artifact_total: 27
@@ -236,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-foundry/refs/heads/main/screenshots/cloud-foundry-2026-06-20T174548.png
 security:

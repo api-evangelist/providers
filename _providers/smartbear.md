@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: PactFlow is SmartBear's contract testing platform that ensures API changes do not break consumer applications. It integrates with SwaggerHub for bi-directional contract testing and uses REST principle
   name: PactFlow
   slug: pactflow
-- description: Manage API definitions and versions
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage API definitions and versions
   name: SmartBear APIs API
   slug: smartbear-apis-api
-- description: Manage reusable domain definitions
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage reusable domain definitions
   name: SmartBear Domains API
   slug: smartbear-domains-api
-- description: Manage API integrations with third-party services
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage API integrations with third-party services
   name: SmartBear Integrations API
   slug: smartbear-integrations-api
-- description: Manage organizations and members
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage organizations and members
   name: SmartBear Organizations API
   slug: smartbear-organizations-api
-- description: Manage SwaggerHub projects
+- baseURL: https://api.swaggerhub.com
+  baseurl_source: spec
+  description: Manage SwaggerHub projects
   name: SmartBear Projects API
   slug: smartbear-projects-api
 artifact_total: 31
@@ -300,7 +310,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png
 security:

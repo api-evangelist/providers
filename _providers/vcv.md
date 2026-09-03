@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The chatbot API from VCV — 2 operation(s) for chatbot.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The chatbot API from VCV — 2 operation(s) for chatbot.
   name: VCV chatbot API
   slug: vcv-chatbot-api
-- description: The companies API from VCV — 1 operation(s) for companies.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The companies API from VCV — 1 operation(s) for companies.
   name: VCV companies API
   slug: vcv-companies-api
-- description: The countries API from VCV — 2 operation(s) for countries.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The countries API from VCV — 2 operation(s) for countries.
   name: VCV countries API
   slug: vcv-countries-api
-- description: The enumeration API from VCV — 3 operation(s) for enumeration.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The enumeration API from VCV — 3 operation(s) for enumeration.
   name: VCV enumeration API
   slug: vcv-enumeration-api
-- description: The integration API from VCV — 7 operation(s) for integration.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The integration API from VCV — 7 operation(s) for integration.
   name: VCV integration API
   slug: vcv-integration-api
-- description: The interview API from VCV — 3 operation(s) for interview.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The interview API from VCV — 3 operation(s) for interview.
   name: VCV interview API
   slug: vcv-interview-api
-- description: The invite API from VCV — 2 operation(s) for invite.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The invite API from VCV — 2 operation(s) for invite.
   name: VCV invite API
   slug: vcv-invite-api
-- description: The Languages API from VCV — 1 operation(s) for languages.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The Languages API from VCV — 1 operation(s) for languages.
   name: VCV Languages API
   slug: vcv-languages-api
-- description: The limits API from VCV — 1 operation(s) for limits.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The limits API from VCV — 1 operation(s) for limits.
   name: VCV limits API
   slug: vcv-limits-api
-- description: The response API from VCV — 12 operation(s) for response.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The response API from VCV — 12 operation(s) for response.
   name: VCV response API
   slug: vcv-response-api
-- description: The survey API from VCV — 4 operation(s) for survey.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The survey API from VCV — 4 operation(s) for survey.
   name: VCV survey API
   slug: vcv-survey-api
-- description: The tags API from VCV — 4 operation(s) for tags.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The tags API from VCV — 4 operation(s) for tags.
   name: VCV tags API
   slug: vcv-tags-api
-- description: The test API from VCV — 4 operation(s) for test.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The test API from VCV — 4 operation(s) for test.
   name: VCV test API
   slug: vcv-test-api
-- description: The users API from VCV — 2 operation(s) for users.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The users API from VCV — 2 operation(s) for users.
   name: VCV users API
   slug: vcv-users-api
-- description: The vacancy API from VCV — 23 operation(s) for vacancy.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The vacancy API from VCV — 23 operation(s) for vacancy.
   name: VCV vacancy API
   slug: vcv-vacancy-api
-- description: The videointerview API from VCV — 4 operation(s) for videointerview.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The videointerview API from VCV — 4 operation(s) for videointerview.
   name: VCV videointerview API
   slug: vcv-videointerview-api
-- description: The webhook API from VCV — 2 operation(s) for webhook.
+- baseURL: https://my.vcv.ai
+  baseurl_source: declared
+  description: The webhook API from VCV — 2 operation(s) for webhook.
   name: VCV webhook API
   slug: vcv-webhook-api
 artifact_total: 39
@@ -276,11 +310,11 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -290,7 +324,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 38.3
+  previous_composite: 38.1
   provenance:
     conformance: derived
     contracts:
@@ -301,8 +335,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vcv/refs/heads/main/screenshots/vcv-2026-09-02T165534.png
 security:
 - kind: authentication
   name: Vcv Authentication

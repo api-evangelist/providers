@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -33,85 +47,139 @@ agentic_access:
   summary_line: 148 operations · 40 acting · 7 human-in-the-loop
 api_count: 3
 apis:
-- description: The Activations API from Enphase Energy — 5 operation(s) for activations.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Activations API from Enphase Energy — 5 operation(s) for activations.
   name: Enphase Energy Activations API
   slug: enphase-activations-api
-- description: Applications API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Applications API
   name: Enphase Energy Applications API
   slug: enphase-applications-api
-- description: The Arrays API from Enphase Energy — 1 operation(s) for arrays.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Arrays API from Enphase Energy — 1 operation(s) for arrays.
   name: Enphase Energy Arrays API
   slug: enphase-arrays-api
-- description: Auth Controller
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Auth Controller
   name: Enphase Energy Auth API
   slug: enphase-auth-api
-- description: The Companies API from Enphase Energy — 4 operation(s) for companies.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Companies API from Enphase Energy — 4 operation(s) for companies.
   name: Enphase Energy Companies API
   slug: enphase-companies-api
-- description: The Device Level Monitoring API from Enphase Energy — 7 operation(s) for device level monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Device Level Monitoring API from Enphase Energy — 7 operation(s) for device level monitoring.
   name: Enphase Energy Device Level Monitoring API
   slug: enphase-device-level-monitoring-api
-- description: The Estimate API from Enphase Energy — 1 operation(s) for estimate.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Estimate API from Enphase Energy — 1 operation(s) for estimate.
   name: Enphase Energy Estimate API
   slug: enphase-estimate-api
-- description: The EV Charger Control API from Enphase Energy — 2 operation(s) for ev charger control.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The EV Charger Control API from Enphase Energy — 2 operation(s) for ev charger control.
   name: Enphase Energy EV Charger Control API
   slug: enphase-ev-charger-control-api
-- description: The EV Charger Monitoring API from Enphase Energy — 6 operation(s) for ev charger monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The EV Charger Monitoring API from Enphase Energy — 6 operation(s) for ev charger monitoring.
   name: Enphase Energy EV Charger Monitoring API
   slug: enphase-ev-charger-monitoring-api
-- description: Events API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Events API
   name: Enphase Energy Events API
   slug: enphase-events-api
-- description: Forecast API (Contact us if you are interested in using this endpoint)
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Forecast API (Contact us if you are interested in using this endpoint)
   name: Enphase Energy Forecast API
   slug: enphase-forecast-api
-- description: The Grid Profiles API from Enphase Energy — 1 operation(s) for grid profiles.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Grid Profiles API from Enphase Energy — 1 operation(s) for grid profiles.
   name: Enphase Energy Grid Profiles API
   slug: enphase-grid-profiles-api
-- description: The Home Owner API from Enphase Energy — 1 operation(s) for home owner.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Home Owner API from Enphase Energy — 1 operation(s) for home owner.
   name: Enphase Energy Home Owner API
   slug: enphase-home-owner-api
-- description: Manage VPPs API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Manage VPPs API
   name: Enphase Energy Manage VPPs API
   slug: enphase-manage-vpps-api
-- description: The Meters API from Enphase Energy — 2 operation(s) for meters.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Meters API from Enphase Energy — 2 operation(s) for meters.
   name: Enphase Energy Meters API
   slug: enphase-meters-api
-- description: Programs API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: Programs API
   name: Enphase Energy Programs API
   slug: enphase-programs-api
-- description: The PvManufacturers API from Enphase Energy — 1 operation(s) for pvmanufacturers.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The PvManufacturers API from Enphase Energy — 1 operation(s) for pvmanufacturers.
   name: Enphase Energy Pv Manufacturers API
   slug: enphase-pvmanufacturers-api
-- description: The PvModels API from Enphase Energy — 1 operation(s) for pvmodels.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The PvModels API from Enphase Energy — 1 operation(s) for pvmodels.
   name: Enphase Energy Pv Models API
   slug: enphase-pvmodels-api
-- description: The Site Level Consumption Monitoring API from Enphase Energy — 11 operation(s) for site level consumption monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Site Level Consumption Monitoring API from Enphase Energy — 11 operation(s) for site level consumption monitoring.
   name: Enphase Energy Site Level Consumption Monitoring API
   slug: enphase-site-level-consumption-monitoring-api
-- description: The Site Level Production Monitoring API from Enphase Energy — 5 operation(s) for site level production monitoring.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Site Level Production Monitoring API from Enphase Energy — 5 operation(s) for site level production monitoring.
   name: Enphase Energy Site Level Production Monitoring API
   slug: enphase-site-level-production-monitoring-api
-- description: The Streaming APIs API from Enphase Energy — 1 operation(s) for streaming apis.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Streaming APIs API from Enphase Energy — 1 operation(s) for streaming apis.
   name: Enphase Energy Streaming APIs API
   slug: enphase-streaming-apis-api
-- description: System and Device Configuration API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: System and Device Configuration API
   name: Enphase Energy System and Device Configuration API
   slug: enphase-system-and-device-configuration-api
-- description: The System Configurations API from Enphase Energy — 4 operation(s) for system configurations.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The System Configurations API from Enphase Energy — 4 operation(s) for system configurations.
   name: Enphase Energy System Configurations API
   slug: enphase-system-configurations-api
-- description: System Details And Telemetry API
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: System Details And Telemetry API
   name: Enphase Energy System Details And Telemetry API
   slug: enphase-system-details-and-telemetry-api
-- description: The System Details API from Enphase Energy — 12 operation(s) for system details.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The System Details API from Enphase Energy — 12 operation(s) for system details.
   name: Enphase Energy System Details API
   slug: enphase-system-details-api
-- description: The Tariff API from Enphase Energy — 1 operation(s) for tariff.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Tariff API from Enphase Energy — 1 operation(s) for tariff.
   name: Enphase Energy Tariff API
   slug: enphase-tariff-api
-- description: The Users API from Enphase Energy — 4 operation(s) for users.
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Users API from Enphase Energy — 4 operation(s) for users.
   name: Enphase Energy Users API
   slug: enphase-users-api
 artifact_total: 39
@@ -368,7 +436,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -378,7 +446,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 66.7
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,7 +464,7 @@ score:
     regime_id: energy_utilities
     score: 75.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

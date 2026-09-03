@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 26 acting
 api_count: 1
 apis:
-- description: The Cells API from Hex — 3 operation(s) for cells.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Cells API from Hex — 3 operation(s) for cells.
   name: Hex Cells API
   slug: hexa-cells-api
-- description: The Collections API from Hex — 2 operation(s) for collections.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Collections API from Hex — 2 operation(s) for collections.
   name: Hex Collections API
   slug: hexa-collections-api
-- description: The Data Connections API from Hex — 3 operation(s) for data connections.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Data Connections API from Hex — 3 operation(s) for data connections.
   name: Hex Data Connections API
   slug: hexa-data-connections-api
-- description: The Embedding API from Hex — 1 operation(s) for embedding.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Embedding API from Hex — 1 operation(s) for embedding.
   name: Hex Embedding API
   slug: hexa-embedding-api
-- description: The Groups API from Hex — 2 operation(s) for groups.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Groups API from Hex — 2 operation(s) for groups.
   name: Hex Groups API
   slug: hexa-groups-api
-- description: The Guides API from Hex — 4 operation(s) for guides.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Guides API from Hex — 4 operation(s) for guides.
   name: Hex Guides API
   slug: hexa-guides-api
-- description: The Projects API from Hex — 10 operation(s) for projects.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Projects API from Hex — 10 operation(s) for projects.
   name: Hex Projects API
   slug: hexa-projects-api
-- description: The Semantic (projects|models) API from Hex — 2 operation(s) for semantic (projects|models).
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Semantic (projects|models) API from Hex — 2 operation(s) for semantic (projects|models).
   name: Hex Semantic (projects|models) API
   slug: hexa-semantic-projects-models-api
-- description: The Users API from Hex — 3 operation(s) for users.
+- baseURL: https://app.hex.tech/api/v1
+  baseurl_source: declared
+  description: The Users API from Hex — 3 operation(s) for users.
   name: Hex Users API
   slug: hexa-users-api
 artifact_total: 28
@@ -211,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/screenshots/hexa-2026-06-20T182713.png
 security:

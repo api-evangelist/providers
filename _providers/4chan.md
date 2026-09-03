@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 6
 apis:
-- description: Per-board list of OP numbers for closed, archived threads.
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: Per-board list of OP numbers for closed, archived threads.
   name: 4chan Archive API
   slug: 4chan-archive-api
-- description: List of all boards on 4chan and 4channel and their per-board settings.
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: List of all boards on 4chan and 4channel and their per-board settings.
   name: 4chan Boards API
   slug: 4chan-boards-api
-- description: Per-board catalog snapshot containing every OP and its preview replies, grouped by index page.
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: Per-board catalog snapshot containing every OP and its preview replies, grouped by index page.
   name: 4chan Catalog API
   slug: 4chan-catalog-api
-- description: Per-board, per-page index document of threads (each with a posts array including the OP and a small number of preview replies).
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: Per-board, per-page index document of threads (each with a posts array including the OP and a small number of preview replies).
   name: 4chan Indexes API
   slug: 4chan-indexes-api
-- description: Per-board summary list of every live thread (id, last-modified, reply count) grouped by index page.
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: Per-board summary list of every live thread (id, last-modified, reply count) grouped by index page.
   name: 4chan Threadlist API
   slug: 4chan-threadlist-api
-- description: Single-thread document containing the OP and every reply.
+- baseURL: https://a.4cdn.org
+  baseurl_source: declared
+  description: Single-thread document containing the OP and every reply.
   name: 4chan Threads API
   slug: 4chan-threads-api
 artifact_total: 58
@@ -369,7 +381,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:

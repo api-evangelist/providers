@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +35,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Core API from Neurable — 2 operation(s) for core.
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The Core API from Neurable — 2 operation(s) for core.
   name: Neurable Core API
   slug: neurable-core-api
-- description: The OAuth API from Neurable — 3 operation(s) for oauth.
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The OAuth API from Neurable — 3 operation(s) for oauth.
   name: Neurable O Auth API
   slug: neurable-oauth-api
-- description: The OIDC API from Neurable — 2 operation(s) for oidc.
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The OIDC API from Neurable — 2 operation(s) for oidc.
   name: Neurable OIDC API
   slug: neurable-oidc-api
-- description: The open API from Neurable — 1 operation(s) for open.
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The open API from Neurable — 1 operation(s) for open.
   name: Neurable Open API
   slug: neurable-open-api
-- description: The protected API from Neurable — 5 operation(s) for protected.
+- baseURL: https://analytics-service.neurable.com
+  baseurl_source: declared
+  description: The protected API from Neurable — 5 operation(s) for protected.
   name: Neurable Protected API
   slug: neurable-protected-api
 artifact_total: 18
@@ -186,7 +208,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -196,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.1
+  previous_composite: 39.4
   provenance:
     conformance: first-party
     contracts:
@@ -213,7 +235,7 @@ score:
     regime_id: health
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

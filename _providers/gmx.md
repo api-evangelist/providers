@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -55,58 +55,94 @@ apis:
 - description: 'Official @gmx-io/sdk package shipping two clients: GmxSdk (SDK v1) for full read/write access via RPC, and GmxApiSdk (SDK v2) for lightweight read-only HTTP access covering markets, tickers, tokens, p'
   name: GMX TypeScript SDK
   slug: typescript-sdk
-- description: The Allowances API from GMX — 1 operation(s) for allowances.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Allowances API from GMX — 1 operation(s) for allowances.
   name: GMX Allowances API
   slug: gmx-allowances-api
-- description: The APY API from GMX — 1 operation(s) for apy.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The APY API from GMX — 1 operation(s) for apy.
   name: GMX APY API
   slug: gmx-apy-api
-- description: The Balances API from GMX — 1 operation(s) for balances.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Balances API from GMX — 1 operation(s) for balances.
   name: GMX Balances API
   slug: gmx-balances-api
-- description: The Buyback API from GMX — 1 operation(s) for buyback.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Buyback API from GMX — 1 operation(s) for buyback.
   name: GMX Buyback API
   slug: gmx-buyback-api
-- description: The GMX Account API from GMX — 4 operation(s) for gmx account.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The GMX Account API from GMX — 4 operation(s) for gmx account.
   name: GMX GMX Account API
   slug: gmx-gmx-account-api
-- description: The JIT API from GMX — 2 operation(s) for jit.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The JIT API from GMX — 2 operation(s) for jit.
   name: GMX JIT API
   slug: gmx-jit-api
-- description: The Markets API from GMX — 5 operation(s) for markets.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Markets API from GMX — 5 operation(s) for markets.
   name: GMX Markets API
   slug: gmx-markets-api
-- description: The Order Transactions API from GMX — 6 operation(s) for order transactions.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Order Transactions API from GMX — 6 operation(s) for order transactions.
   name: GMX Order Transactions API
   slug: gmx-order-transactions-api
-- description: The Orders API from GMX — 2 operation(s) for orders.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Orders API from GMX — 2 operation(s) for orders.
   name: GMX Orders API
   slug: gmx-orders-api
-- description: The Pairs API from GMX — 1 operation(s) for pairs.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Pairs API from GMX — 1 operation(s) for pairs.
   name: GMX Pairs API
   slug: gmx-pairs-api
-- description: The Performance API from GMX — 2 operation(s) for performance.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Performance API from GMX — 2 operation(s) for performance.
   name: GMX Performance API
   slug: gmx-performance-api
-- description: The Positions API from GMX — 2 operation(s) for positions.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Positions API from GMX — 2 operation(s) for positions.
   name: GMX Positions API
   slug: gmx-positions-api
-- description: The Prices API from GMX — 1 operation(s) for prices.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Prices API from GMX — 1 operation(s) for prices.
   name: GMX Prices API
   slug: gmx-prices-api
-- description: The Rates API from GMX — 1 operation(s) for rates.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Rates API from GMX — 1 operation(s) for rates.
   name: GMX Rates API
   slug: gmx-rates-api
-- description: The Staking API from GMX — 1 operation(s) for staking.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Staking API from GMX — 1 operation(s) for staking.
   name: GMX Staking API
   slug: gmx-staking-api
-- description: The Subaccounts API from GMX — 2 operation(s) for subaccounts.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Subaccounts API from GMX — 2 operation(s) for subaccounts.
   name: GMX Subaccounts API
   slug: gmx-subaccounts-api
-- description: The Tokens API from GMX — 2 operation(s) for tokens.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Tokens API from GMX — 2 operation(s) for tokens.
   name: GMX Tokens API
   slug: gmx-tokens-api
-- description: The Trades API from GMX — 2 operation(s) for trades.
+- baseURL: https://arbitrum.gmxapi.io/v1
+  baseurl_source: declared
+  description: The Trades API from GMX — 2 operation(s) for trades.
   name: GMX Trades API
   slug: gmx-trades-api
 artifact_total: 159
@@ -619,7 +655,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gmx/refs/heads/main/screenshots/gmx-2026-06-20T181934.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Oracle SQL Developer Web and SQLcl, the SQL surfaces through which partitions are actually created and maintained. Partition DDL — CREATE TABLE ... PARTITION BY, ALTER TABLE ... SPLIT/MERGE/EXCHANGE/D
@@ -42,73 +42,119 @@ apis:
 - description: The Oracle Cloud Infrastructure Database API, which manages the DB systems, Autonomous Databases and Exadata infrastructure that host partitioned databases. It manages the database service, not indivi
   name: Oracle Cloud Infrastructure Database API - Partitioning
   slug: oracle-cloud-infrastructure-database-api-partitioning
-- description: Services related to the tables and views that provide information about the database.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to the tables and views that provide information about the database.
   name: Oracle Partitioning Data Dictionary API
   slug: oracle-partitioning-data-dictionary-api
-- description: Services related to Oracle Data Guard. The product must be installed in the Oracle database that ORDS is configured to use.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to Oracle Data Guard. The product must be installed in the Oracle database that ORDS is configured to use.
   name: Oracle Partitioning Data Guard API
   slug: oracle-partitioning-data-guard-api
-- description: Services related to Oracle Data Pump. Oracle Data Pump technology enables very high-speed movement of data and metadata from one database to another. Functionality may differ depending on the configur
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to Oracle Data Pump. Oracle Data Pump technology enables very high-speed movement of data and metadata from one database to another. Functionality may differ depending on the configur
   name: Oracle Partitioning Data Pump API
   slug: oracle-partitioning-data-pump-api
-- description: Services related to loading, manipulating and analyzing data.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to loading, manipulating and analyzing data.
   name: Oracle Partitioning Data Tools API
   slug: oracle-partitioning-data-tools-api
-- description: Services related to the Oracle database installation. The implementation is only available for Unix based operating systems.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to the Oracle database installation. The implementation is only available for Unix based operating systems.
   name: Oracle Partitioning Environment API
   slug: oracle-partitioning-environment-api
-- description: Services related to the Oracle database instance.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to the Oracle database instance.
   name: Oracle Partitioning General API
   slug: oracle-partitioning-general-api
-- description: Services related to monitoring the Oracle database instance.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to monitoring the Oracle database instance.
   name: Oracle Partitioning Monitoring API
   slug: oracle-partitioning-monitoring-api
-- description: Services related to the Open Service Broker compliant implementation that ORDS provides.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to the Open Service Broker compliant implementation that ORDS provides.
   name: Oracle Partitioning Open Service Broker API
   slug: oracle-partitioning-open-service-broker-api
-- description: Services related to Oracle APEX. The product must be installed in the Oracle database that ORDS is configured to use.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to Oracle APEX. The product must be installed in the Oracle database that ORDS is configured to use.
   name: Oracle Partitioning Oracle APEX API
   slug: oracle-partitioning-oracle-apex-api
-- description: Services related to Oracle Transactional Event Queues.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to Oracle Transactional Event Queues.
   name: Oracle Partitioning Oracle Transactional Event Queues API
   slug: oracle-partitioning-oracle-transactional-event-queues-api
-- description: Custom Oracle REST Data Services built with SQL & PL/SQL.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Custom Oracle REST Data Services built with SQL & PL/SQL.
   name: Oracle Partitioning ORDS REST Services API
   slug: oracle-partitioning-ords-rest-services-api
-- description: Services related to the runtime performance of the Oracle database instance.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to the runtime performance of the Oracle database instance.
   name: Oracle Partitioning Performance API
   slug: oracle-partitioning-performance-api
-- description: Services related to managing pluggable databases in an Oracle multitenant database instance.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to managing pluggable databases in an Oracle multitenant database instance.
   name: Oracle Partitioning Pluggable Database Lifecycle Management API
   slug: oracle-partitioning-pluggable-database-lifecycle-management-api
-- description: Services related to managing pluggable databases snapshots in an Oracle database instance.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to managing pluggable databases snapshots in an Oracle database instance.
   name: Oracle Partitioning Pluggable Database Snapshot Carousel API
   slug: oracle-partitioning-pluggable-database-snapshot-carousel-api
-- description: Services related to Oracle RDF Graph. Oracle RDF Graph provides functionality to manage knowledge graphs based on World Wide Web Consortium (W3C) standards such as RDF, OWL and SPARQL.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Services related to Oracle RDF Graph. Oracle RDF Graph provides functionality to manage knowledge graphs based on World Wide Web Consortium (W3C) standards such as RDF, OWL and SPARQL.
   name: Oracle Partitioning RDF Graph API
   slug: oracle-partitioning-rdf-graph-api
-- description: Oracle Scheduler, an enterprise job scheduler to help you simplify the scheduling of hundreds or even thousands of tasks. Oracle Scheduler (the Scheduler) is implemented by the procedures and function
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: Oracle Scheduler, an enterprise job scheduler to help you simplify the scheduling of hundreds or even thousands of tasks. Oracle Scheduler (the Scheduler) is implemented by the procedures and function
   name: Oracle Partitioning Scheduler API
   slug: oracle-partitioning-scheduler-api
-- description: The operations from the Vector Database/Inference Operations category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Inference Operations category.
   name: Oracle Partitioning Vector Database/Inference Operations API
   slug: oracle-partitioning-vector-database-inference-operations-api
-- description: The operations from the Vector Database/Models category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Models category.
   name: Oracle Partitioning Vector Database/Models API
   slug: oracle-partitioning-vector-database-models-api
-- description: The operations from the Vector Database/Summary category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Summary category.
   name: Oracle Partitioning Vector Database/Summary API
   slug: oracle-partitioning-vector-database-summary-api
-- description: The operations from the Vector Database/Vector Indexes category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Vector Indexes category.
   name: Oracle Partitioning Vector Database/Vector Indexes API
   slug: oracle-partitioning-vector-database-vector-indexes-api
-- description: The operations from the Vector Database/Vector Operations category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Vector Operations category.
   name: Oracle Partitioning Vector Database/Vector Operations API
   slug: oracle-partitioning-vector-database-vector-operations-api
-- description: The operations from the Vector Database/Vector Search category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Vector Search category.
   name: Oracle Partitioning Vector Database/Vector Search API
   slug: oracle-partitioning-vector-database-vector-search-api
-- description: The operations from the Vector Database/Vector Tables category.
+- baseURL: https://{server}/{context-root}/{database}/{schema}/_/db-api/stable
+  baseurl_source: declared
+  description: The operations from the Vector Database/Vector Tables category.
   name: Oracle Partitioning Vector Database/Vector Tables API
   slug: oracle-partitioning-vector-database-vector-tables-api
 artifact_total: 33
@@ -305,23 +351,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.1
+  composite: 55.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.5
+  delta: 0.8
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 4.5
-    contract_quality: 42.1
+    contract_quality: 45.5
     developer_ergonomics: 83.3
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 53.6
+  previous_composite: 55.1
   provenance:
     conformance: derived
     contracts:
@@ -332,7 +378,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/screenshots/oracle-partitioning-2026-06-20T191138.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Hosted Model Context Protocol server that doubles as Polar's HTTP API surface; invoke tools at POST https://api.polaranalytics.com/mcp/tool/<tool_name> with a Bearer API key. Exposes 8 tools for gener
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +173,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/polar-analytics/refs/heads/main/screenshots/polar-analytics-2026-09-02T151642.png
 security:
 - kind: authentication
   name: Polar Analytics Authentication

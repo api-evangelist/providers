@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,25 +83,39 @@ apis:
 - description: Provides access to a number of resources from the Solar System Dynamics group and the Center for Near-Earth Object Studies.
   name: SSD/CNEOS - Solar System Dynamics and Center for Near-Earth Object Studies
   slug: ssd-cneos
-- description: Astronomy Picture of the Day.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Astronomy Picture of the Day.
   name: The National Aeronautics and Space Administration APOD API
   slug: national-aeronautics-and-space-administration-apod-api
-- description: Space Weather Database Of Notifications, Knowledge, Information.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Space Weather Database Of Notifications, Knowledge, Information.
   name: The National Aeronautics and Space Administration DONKI API
   slug: national-aeronautics-and-space-administration-donki-api
-- description: Earth imagery and assets.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Earth imagery and assets.
   name: The National Aeronautics and Space Administration Earth API
   slug: national-aeronautics-and-space-administration-earth-api
-- description: Earth Polychromatic Imaging Camera.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Earth Polychromatic Imaging Camera.
   name: The National Aeronautics and Space Administration EPIC API
   slug: national-aeronautics-and-space-administration-epic-api
-- description: Mars weather from the InSight lander.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Mars weather from the InSight lander.
   name: The National Aeronautics and Space Administration InSight API
   slug: national-aeronautics-and-space-administration-insight-api
-- description: Photos from Curiosity, Opportunity, Perseverance, and Spirit.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Photos from Curiosity, Opportunity, Perseverance, and Spirit.
   name: The National Aeronautics and Space Administration Mars Rover Photos API
   slug: national-aeronautics-and-space-administration-mars-rover-photos-api
-- description: Near Earth Object Web Service.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: Near Earth Object Web Service.
   name: The National Aeronautics and Space Administration NeoWs API
   slug: national-aeronautics-and-space-administration-neows-api
 artifact_total: 35
@@ -243,7 +257,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/screenshots/national-aeronautics-and-space-administration-2026-06-20T185958.png
 security:

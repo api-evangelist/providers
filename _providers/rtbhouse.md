@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 3 acting
 api_count: 1
 apis:
-- description: The Advertisers API from RTB House — 12 operation(s) for advertisers.
+- baseURL: https://api.panel.rtbhouse.com/v5
+  baseurl_source: declared
+  description: The Advertisers API from RTB House — 12 operation(s) for advertisers.
   name: RTB House Advertisers API
   slug: rtbhouse-advertisers-api
-- description: The Dev API from RTB House — 1 operation(s) for dev.
+- baseURL: https://api.panel.rtbhouse.com/v5
+  baseurl_source: declared
+  description: The Dev API from RTB House — 1 operation(s) for dev.
   name: RTB House Dev API
   slug: rtbhouse-dev-api
-- description: The Statistics API from RTB House — 8 operation(s) for statistics.
+- baseURL: https://api.panel.rtbhouse.com/v5
+  baseurl_source: declared
+  description: The Statistics API from RTB House — 8 operation(s) for statistics.
   name: RTB House Statistics API
   slug: rtbhouse-statistics-api
-- description: The Tokens API from RTB House — 1 operation(s) for tokens.
+- baseURL: https://api.panel.rtbhouse.com/v5
+  baseurl_source: declared
+  description: The Tokens API from RTB House — 1 operation(s) for tokens.
   name: RTB House Tokens API
   slug: rtbhouse-tokens-api
-- description: The User API from RTB House — 1 operation(s) for user.
+- baseURL: https://api.panel.rtbhouse.com/v5
+  baseurl_source: declared
+  description: The User API from RTB House — 1 operation(s) for user.
   name: RTB House User API
   slug: rtbhouse-user-api
 artifact_total: 22
@@ -273,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/screenshots/rtbhouse-2026-06-20T193241.png
 security:

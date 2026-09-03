@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Events API from Trubrics — 1 operation(s) for events.
+- baseURL: https://app.trubrics.com/api/ingestion
+  baseurl_source: declared
+  description: The Events API from Trubrics — 1 operation(s) for events.
   name: Trubrics Events API
   slug: trubrics-events-api
-- description: The LLM Events API from Trubrics — 1 operation(s) for llm events.
+- baseURL: https://app.trubrics.com/api/ingestion
+  baseurl_source: declared
+  description: The LLM Events API from Trubrics — 1 operation(s) for llm events.
   name: Trubrics LLM Events API
   slug: trubrics-llm-events-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trubrics/refs/heads/main/screenshots/trubrics-2026-06-20T195747.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 166 operations · 99 acting
 api_count: 1
 apis:
-- description: 基于深度推理的科学问答（sigma-search，SSE 编排）。收费：创建会话 2 元/次。注意内部版本混用（sessions v4 / SSE v3 / history v4）。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 基于深度推理的科学问答（sigma-search，SSE 编排）。收费：创建会话 2 元/次。注意内部版本混用（sessions v4 / SSE v3 / history v4）。
   name: DP Technology (Bohrium) AI 科学小导师 (bohrium-mentor) API
   slug: dp-ai-bohrium-mentor-api
-- description: 数据集管理 — 创建、上传、下载、版本控制。免费。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 数据集管理 — 创建、上传、下载、版本控制。免费。
   name: DP Technology (Bohrium) 数据集 (bohrium-dataset) API
   slug: dp-bohrium-dataset-api
-- description: personal/share 盘文件管理 — 列出、上传、下载、移动、复制、删除。v1 用于 personal/share，v2 file 仅用于 appJob。免费。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: personal/share 盘文件管理 — 列出、上传、下载、移动、复制、删除。v1 用于 personal/share，v2 file 仅用于 appJob。免费。
   name: DP Technology (Bohrium) 文件盘 (bohrium-file) API
   slug: dp-bohrium-file-api
-- description: 容器镜像管理 — 查询、拉取、创建、删除镜像。免费。镜像地址位于 registry.dp.tech / registry.bohrium.dp.tech。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 容器镜像管理 — 查询、拉取、创建、删除镜像。免费。镜像地址位于 registry.dp.tech / registry.bohrium.dp.tech。
   name: DP Technology (Bohrium) 容器镜像 (bohrium-image) API
   slug: dp-bohrium-image-api
-- description: 计算任务管理 — 提交、查询、终止、删除任务（提交主要经 bohr CLI）。任务运行按机时收费，价格见 Job 定价页。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 计算任务管理 — 提交、查询、终止、删除任务（提交主要经 bohr CLI）。任务运行按机时收费，价格见 Job 定价页。
   name: DP Technology (Bohrium) 计算任务 (bohrium-job) API
   slug: dp-bohrium-job-api
-- description: 知识库管理 — 知识库/文件夹/文献/标签/笔记/召回/权限。网关转发至 literature-sage。免费（仅容量配额）。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 知识库管理 — 知识库/文件夹/文献/标签/笔记/召回/权限。网关转发至 literature-sage。免费（仅容量配额）。
   name: DP Technology (Bohrium) 知识库 (bohrium-knowledge-base) API
   slug: dp-bohrium-knowledge-base-api
-- description: LKM — 知识节点检索、推理链检索、论文知识图谱、追溯 claim 依据、批量节点水合、提交反馈。收费（定价中，待补充）。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: LKM — 知识节点检索、推理链检索、论文知识图谱、追溯 claim 依据、批量节点水合、提交反馈。收费（定价中，待补充）。
   name: DP Technology (Bohrium) 大知识模型 (bohrium-lkm) API
   slug: dp-bohrium-lkm-api
-- description: 开发节点管理 — 创建、启停、删除容器/虚拟机。运行按机时收费，价格见 Node 定价页。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 开发节点管理 — 创建、启停、删除容器/虚拟机。运行按机时收费，价格见 Node 定价页。
   name: DP Technology (Bohrium) 开发节点 (bohrium-node) API
   slug: dp-bohrium-node-api
-- description: RAG 引擎关键词+语义检索。收费。响应可能为多行 JSON（流式，解析第一行）。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: RAG 引擎关键词+语义检索。收费。响应可能为多行 JSON（流式，解析第一行）。
   name: DP Technology (Bohrium) 论文与专利搜索 (bohrium-paper-search) API
   slug: dp-bohrium-paper-search-api
-- description: 项目管理 — 创建项目、管理成员、设置额度。免费（管理成本额度，非按调用计费）。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 项目管理 — 创建项目、管理成员、设置额度。免费（管理成本额度，非按调用计费）。
   name: DP Technology (Bohrium) 项目管理 (bohrium-project) API
   slug: dp-bohrium-project-api
-- description: 学者搜索与画像 — 按姓名/机构检索，查看发文/引用/h-index/研究方向。免费。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 学者搜索与画像 — 按姓名/机构检索，查看发文/引用/h-index/研究方向。免费。
   name: DP Technology (Bohrium) 学者搜索 (bohrium-scholar-search) API
   slug: dp-bohrium-scholar-search-api
-- description: 科学百科 — 搜词条/关键词、浏览领域课程、看章节知识点、查主题知识图谱。免费（限时）。阅读链接指向 www.bohrium.com。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 科学百科 — 搜词条/关键词、浏览领域课程、看章节知识点、查主题知识图谱。免费（限时）。阅读链接指向 www.bohrium.com。
   name: DP Technology (Bohrium) 科学百科 (bohrium-sciencepedia) API
   slug: dp-bohrium-sciencepedia-api
-- description: 科学工具库 — 按领域/子领域浏览、混合检索工具、查看详情与分类。免费。语言经 Content-Language 头或 body language 指定。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 科学工具库 — 按领域/子领域浏览、混合检索工具、查看详情与分类。免费。语言经 Content-Language 头或 body language 指定。
   name: DP Technology (Bohrium) 科学工具库 (bohrium-tools) API
   slug: dp-bohrium-tools-api
-- description: 网页搜索 — 代理 searchapi.io 做开放互联网检索。免费。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: 网页搜索 — 代理 searchapi.io 做开放互联网检索。免费。
   name: DP Technology (Bohrium) 网页搜索 (bohrium-web-search) API
   slug: dp-bohrium-web-search-api
-- description: Uni-Parser — 提取文本、表格、图表、公式。收费：0.05 元/页（触发时扣）。figure 模块无权限时可能 403。
+- baseURL: https://open.bohrium.com
+  baseurl_source: declared
+  description: Uni-Parser — 提取文本、表格、图表、公式。收费：0.05 元/页（触发时扣）。figure 模块无权限时可能 403。
   name: DP Technology (Bohrium) PDF 解析 (bohrium-pdf-parser) API
   slug: dp-pdf-bohrium-pdf-parser-api
 artifact_total: 35
@@ -282,7 +312,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dp/refs/heads/main/screenshots/dp-2026-07-25T212347.png
 security:

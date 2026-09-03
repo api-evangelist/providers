@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,10 +68,14 @@ apis:
 - description: React library of components and hooks for building CARTO-powered location intelligence applications with widgets, filters, and deck.gl map integration.
   name: CARTO for React
   slug: carto-for-react
-- description: The Jobs API from Carto — 2 operation(s) for jobs.
+- baseURL: https://gcp-us-east1.api.carto.com
+  baseurl_source: declared
+  description: The Jobs API from Carto — 2 operation(s) for jobs.
   name: Carto Jobs API
   slug: carto-jobs-api
-- description: The SQL API from Carto — 1 operation(s) for sql.
+- baseURL: https://gcp-us-east1.api.carto.com
+  baseurl_source: declared
+  description: The SQL API from Carto — 1 operation(s) for sql.
   name: Carto SQL API
   slug: carto-sql-api
 artifact_total: 46
@@ -261,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/screenshots/carto-2026-06-20T174026.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 42 operations · 25 acting
 api_count: 1
 apis:
-- description: Employer (company) entities and configuration.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Employer (company) entities and configuration.
   name: Salsa Companies API
   slug: salsa-companies-api
-- description: User tokens, hosted onboarding, and mock onboarding.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: User tokens, hosted onboarding, and mock onboarding.
   name: Salsa Onboarding & Sessions API
   slug: salsa-onboarding-sessions-api
-- description: Worker pay groups and work weeks.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Worker pay groups and work weeks.
   name: Salsa Pay Schedules API
   slug: salsa-pay-schedules-api
-- description: Individual worker payments and disbursements.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Individual worker payments and disbursements.
   name: Salsa Payments API
   slug: salsa-payments-api
-- description: Payroll runs and reports.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Payroll runs and reports.
   name: Salsa Payrolls API
   slug: salsa-payrolls-api
-- description: Employer and worker tax setup.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Employer and worker tax setup.
   name: Salsa Tax API
   slug: salsa-tax-api
-- description: Webhook endpoint management.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Webhook endpoint management.
   name: Salsa Webhooks API
   slug: salsa-webhooks-api
-- description: Employees and contractors.
+- baseURL: https://api.salsa.dev/api/rest/v1
+  baseurl_source: declared
+  description: Employees and contractors.
   name: Salsa Workers API
   slug: salsa-workers-api
 artifact_total: 24
@@ -170,7 +186,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +215,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/salsa/refs/heads/main/screenshots/salsa-2026-09-02T154329.png
 security:
 - kind: authentication
   name: Salsa Authentication

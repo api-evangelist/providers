@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,19 +38,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Asynchronous API
+- baseURL: https://api.car-cutter.com
+  baseurl_source: declared
+  description: Asynchronous API
   name: Meero Asynchronous API
   slug: meero-asynchronous-api
-- description: Feature API
+- baseURL: https://api.car-cutter.com
+  baseurl_source: declared
+  description: Feature API
   name: Meero Feature API
   slug: meero-feature-api
-- description: Synchronous API
+- baseURL: https://api.car-cutter.com
+  baseurl_source: declared
+  description: Synchronous API
   name: Meero Synchronous API
   slug: meero-synchronous-api
-- description: Vehicle API
+- baseURL: https://api.car-cutter.com
+  baseurl_source: declared
+  description: Vehicle API
   name: Meero Vehicle API
   slug: meero-vehicle-api
 artifact_total: 10
@@ -207,7 +229,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -232,8 +254,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/meero/refs/heads/main/screenshots/meero-2026-09-02T150502.png
 security:
 - kind: authentication
   name: Meero Authentication

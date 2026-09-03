@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,19 +42,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 4
 apis:
-- description: The category-rated-areas API from Amadeus Traveler Media — 1 operation(s) for category-rated-areas.
+- baseURL: https://test.api.amadeus.com/v1
+  baseurl_source: declared
+  description: The category-rated-areas API from Amadeus Traveler Media — 1 operation(s) for category-rated-areas.
   name: Amadeus Traveler Media category-rated-areas API
   slug: amadeus-traveler-media-category-rated-areas-api
-- description: Sentiments about Hotels.
+- baseURL: https://test.api.amadeus.com/v1
+  baseurl_source: declared
+  description: Sentiments about Hotels.
   name: Amadeus Traveler Media Hotel Ratings API
   slug: amadeus-traveler-media-hotel-ratings-api
-- description: The recommended-locations API from Amadeus Traveler Media — 1 operation(s) for recommended-locations.
+- baseURL: https://test.api.amadeus.com/v1
+  baseurl_source: declared
+  description: The recommended-locations API from Amadeus Traveler Media — 1 operation(s) for recommended-locations.
   name: Amadeus Traveler Media recommended-locations API
   slug: amadeus-traveler-media-recommended-locations-api
-- description: The Retrieve API from Amadeus Traveler Media — 1 operation(s) for retrieve.
+- baseURL: https://test.api.amadeus.com/v1
+  baseurl_source: declared
+  description: The Retrieve API from Amadeus Traveler Media — 1 operation(s) for retrieve.
   name: Amadeus Traveler Media Retrieve API
   slug: amadeus-traveler-media-retrieve-api
-- description: The Search API from Amadeus Traveler Media — 2 operation(s) for search.
+- baseURL: https://test.api.amadeus.com/v1
+  baseurl_source: declared
+  description: The Search API from Amadeus Traveler Media — 2 operation(s) for search.
   name: Amadeus Traveler Media Search API
   slug: amadeus-traveler-media-search-api
 artifact_total: 143
@@ -649,7 +659,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:

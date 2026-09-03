@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,49 +46,79 @@ apis:
 - description: The ORCID Member API allows member organizations to read, write, and update data on ORCID records with user permission.
   name: ORCID Member API
   slug: orcid-member-api
-- description: The Address API from ORCID — 1 operation(s) for address.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Address API from ORCID — 1 operation(s) for address.
   name: ORCID Address API
   slug: orcid-address-api
-- description: The Educations API from ORCID — 1 operation(s) for educations.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Educations API from ORCID — 1 operation(s) for educations.
   name: ORCID Educations API
   slug: orcid-educations-api
-- description: The Email API from ORCID — 1 operation(s) for email.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Email API from ORCID — 1 operation(s) for email.
   name: ORCID Email API
   slug: orcid-email-api
-- description: The Employments API from ORCID — 1 operation(s) for employments.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Employments API from ORCID — 1 operation(s) for employments.
   name: ORCID Employments API
   slug: orcid-employments-api
-- description: The External Identifiers API from ORCID — 1 operation(s) for external identifiers.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The External Identifiers API from ORCID — 1 operation(s) for external identifiers.
   name: ORCID External Identifiers API
   slug: orcid-external-identifiers-api
-- description: The Fundings API from ORCID — 1 operation(s) for fundings.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Fundings API from ORCID — 1 operation(s) for fundings.
   name: ORCID Fundings API
   slug: orcid-fundings-api
-- description: The Keywords API from ORCID — 1 operation(s) for keywords.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Keywords API from ORCID — 1 operation(s) for keywords.
   name: ORCID Keywords API
   slug: orcid-keywords-api
-- description: The Other Names API from ORCID — 1 operation(s) for other names.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Other Names API from ORCID — 1 operation(s) for other names.
   name: ORCID Other Names API
   slug: orcid-other-names-api
-- description: The Peer Reviews API from ORCID — 1 operation(s) for peer reviews.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Peer Reviews API from ORCID — 1 operation(s) for peer reviews.
   name: ORCID Peer Reviews API
   slug: orcid-peer-reviews-api
-- description: The Person API from ORCID — 1 operation(s) for person.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Person API from ORCID — 1 operation(s) for person.
   name: ORCID Person API
   slug: orcid-person-api
-- description: The Personal Details API from ORCID — 1 operation(s) for personal details.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Personal Details API from ORCID — 1 operation(s) for personal details.
   name: ORCID Personal Details API
   slug: orcid-personal-details-api
-- description: The Record API from ORCID — 1 operation(s) for record.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Record API from ORCID — 1 operation(s) for record.
   name: ORCID Record API
   slug: orcid-record-api
-- description: The Researcher Urls API from ORCID — 1 operation(s) for researcher urls.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Researcher Urls API from ORCID — 1 operation(s) for researcher urls.
   name: ORCID Researcher Urls API
   slug: orcid-researcher-urls-api
-- description: The Summary API from ORCID — 1 operation(s) for summary.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Summary API from ORCID — 1 operation(s) for summary.
   name: ORCID Summary API
   slug: orcid-summary-api
-- description: The Works API from ORCID — 2 operation(s) for works.
+- baseURL: https://pub.orcid.org/v3.0
+  baseurl_source: declared
+  description: The Works API from ORCID — 2 operation(s) for works.
   name: ORCID Works API
   slug: orcid-works-api
 artifact_total: 37
@@ -260,7 +290,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orcid/refs/heads/main/screenshots/orcid-2026-06-20T191203.png
 security:

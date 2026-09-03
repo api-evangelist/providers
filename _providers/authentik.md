@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 27 operations · 8 acting
 api_count: 1
 apis:
-- description: Users, applications, groups and tokens.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Users, applications, groups and tokens.
   name: Authentik Core API
   slug: authentik-core-api
-- description: Certificate-key pairs.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Certificate-key pairs.
   name: Authentik Crypto API
   slug: authentik-crypto-api
-- description: Audit and notification events.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Audit and notification events.
   name: Authentik Events API
   slug: authentik-events-api
-- description: Authentication and enrollment flows.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Authentication and enrollment flows.
   name: Authentik Flows API
   slug: authentik-flows-api
-- description: Policies and policy bindings.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Policies and policy bindings.
   name: Authentik Policies API
   slug: authentik-policies-api
-- description: OAuth2/OIDC, SAML, LDAP, Proxy and other providers.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: OAuth2/OIDC, SAML, LDAP, Proxy and other providers.
   name: Authentik Providers API
   slug: authentik-providers-api
-- description: Role-based access control.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Role-based access control.
   name: Authentik RBAC API
   slug: authentik-rbac-api
-- description: Self-describing OpenAPI schema.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Self-describing OpenAPI schema.
   name: Authentik Schema API
   slug: authentik-schema-api
-- description: External identity sources.
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: External identity sources.
   name: Authentik Sources API
   slug: authentik-sources-api
-- description: Flow stages (identification, password, etc.).
+- baseURL: https://your-authentik-instance.example.com/api/v3
+  baseurl_source: declared
+  description: Flow stages (identification, password, etc.).
   name: Authentik Stages API
   slug: authentik-stages-api
 artifact_total: 47
@@ -267,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/screenshots/authentik-2026-06-20T172603.png
 security:

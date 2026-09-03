@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Single query endpoint for every Transparency Platform data item. The documentType, processType, and domain parameters select the dataset.
+- baseURL: https://web-api.tp.entsoe.eu/api
+  baseurl_source: declared
+  description: Single query endpoint for every Transparency Platform data item. The documentType, processType, and domain parameters select the dataset.
   name: ENTSO-E Market Data Query API
   slug: entso-e-market-data-query-api
 artifact_total: 13
@@ -206,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 18.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entso-e/refs/heads/main/screenshots/entso-e-2026-07-25T213441.png
 security:

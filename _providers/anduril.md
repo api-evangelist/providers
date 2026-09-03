@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -47,16 +47,24 @@ apis:
 - description: The Lattice SDK provides programmatic access to Anduril's Lattice platform so partners can publish entities, issue tasks to connected agents, and exchange binary objects across a shared mission data f
   name: Anduril Lattice SDK
   slug: lattice-sdk
-- description: Publish, query, override, and stream entities in the Lattice data fabric.
+- baseURL: https://developer.anduril.com
+  baseurl_source: declared
+  description: Publish, query, override, and stream entities in the Lattice data fabric.
   name: Anduril Industries Entities API
   slug: anduril-entities-api
-- description: Token issuance for client-credentials authentication.
+- baseURL: https://developer.anduril.com
+  baseurl_source: declared
+  description: Token issuance for client-credentials authentication.
   name: Anduril Industries OAuth API
   slug: anduril-oauth-api
-- description: Upload, fetch, list, and delete distributed binary objects.
+- baseURL: https://developer.anduril.com
+  baseurl_source: declared
+  description: Upload, fetch, list, and delete distributed binary objects.
   name: Anduril Industries Objects API
   slug: anduril-objects-api
-- description: Create, update, query, cancel, and stream tasks; agent-side listen/stream endpoints.
+- baseURL: https://developer.anduril.com
+  baseurl_source: declared
+  description: Create, update, query, cancel, and stream tasks; agent-side listen/stream endpoints.
   name: Anduril Industries Tasks API
   slug: anduril-tasks-api
 artifact_total: 19
@@ -201,7 +209,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/screenshots/anduril-2026-06-20T171951.png
 security:

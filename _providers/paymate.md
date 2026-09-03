@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +37,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Legacy India API (PMXClients service). Twelve JSON-over-POST methods let a business add vendors and customers as contacts, book and approve vendor payments, raise collection requests, generate hosted '
   name: PayMate India Business Payments API
   slug: paymate-india-business-payments-api
-- description: Business (KYB) onboarding, maintenance, charges and collection account setup
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Business (KYB) onboarding, maintenance, charges and collection account setup
   name: PayMate Businesses API
   slug: paymate-businesses-api
-- description: Commercial credit card enrolment and management
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Commercial credit card enrolment and management
   name: PayMate Cards API
   slug: paymate-cards-api
-- description: Payment collection requests, status and reporting
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Payment collection requests, status and reporting
   name: PayMate Collections API
   slug: paymate-collections-api
-- description: Buyer / supplier contact onboarding and maintenance
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Buyer / supplier contact onboarding and maintenance
   name: PayMate Contacts API
   slug: paymate-contacts-api
-- description: Vendor payment initiation, status and reporting
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Vendor payment initiation, status and reporting
   name: PayMate Payments API
   slug: paymate-payments-api
-- description: Reference data
+- baseURL: https://api.paymate.my
+  baseurl_source: declared
+  description: Reference data
   name: PayMate Reference API
   slug: paymate-reference-api
 artifact_total: 11
@@ -178,7 +204,7 @@ score:
   band: strong
   composite: 58.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +235,9 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/paymate/refs/heads/main/screenshots/paymate-2026-09-02T150923.png
 security:
 - kind: authentication
   name: Paymate Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Scraping Browser session metadata (CDP itself is over WebSocket).
+- baseURL: https://api.brightdata.com
+  baseurl_source: declared
+  description: Scraping Browser session metadata (CDP itself is over WebSocket).
   name: Bright Data Browser API API
   slug: brightdata-browser-api-api
-- description: Search-engine results via zone-based requests.
+- baseURL: https://api.brightdata.com
+  baseurl_source: declared
+  description: Search-engine results via zone-based requests.
   name: Bright Data SERP API
   slug: brightdata-serp-api
-- description: Trigger dataset collections and retrieve snapshots.
+- baseURL: https://api.brightdata.com
+  baseurl_source: declared
+  description: Trigger dataset collections and retrieve snapshots.
   name: Bright Data Web Scraper API
   slug: brightdata-web-scraper-api
-- description: Single-page unlocking via zone-based requests.
+- baseURL: https://api.brightdata.com
+  baseurl_source: declared
+  description: Single-page unlocking via zone-based requests.
   name: Bright Data Web Unlocker API
   slug: brightdata-web-unlocker-api
-- description: Account and proxy zone management.
+- baseURL: https://api.brightdata.com
+  baseurl_source: declared
+  description: Account and proxy zone management.
   name: Bright Data Zones API
   slug: brightdata-zones-api
 artifact_total: 20
@@ -179,7 +189,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -189,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 43.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightdata/refs/heads/main/screenshots/brightdata-2026-07-25T203834.png
 security:

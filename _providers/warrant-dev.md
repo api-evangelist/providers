@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 29 operations · 17 acting
 api_count: 1
 apis:
-- description: Real-time access checks and relationship queries.
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: Real-time access checks and relationship queries.
   name: Warrant Check API
   slug: warrant-dev-check-api
-- description: The authorization model - object types and their relations.
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: The authorization model - object types and their relations.
   name: Warrant Object Types API
   slug: warrant-dev-object-types-api
-- description: Resources and subjects that participate in the authorization model.
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: Resources and subjects that participate in the authorization model.
   name: Warrant Objects API
   slug: warrant-dev-objects-api
-- description: RBAC and entitlements convenience surface (roles, permissions, users, tenants, features, pricing tiers).
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: RBAC and entitlements convenience surface (roles, permissions, users, tenants, features, pricing tiers).
   name: Warrant Roles and Permissions API
   slug: warrant-dev-roles-and-permissions-api
-- description: Relationship tuples (access rules) between subjects and objects.
+- baseURL: https://api.warrant.dev/v1
+  baseurl_source: declared
+  description: Relationship tuples (access rules) between subjects and objects.
   name: Warrant Warrants API
   slug: warrant-dev-warrants-api
 artifact_total: 18
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/screenshots/warrant-dev-2026-06-20T201232.png
 security:

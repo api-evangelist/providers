@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 20 operations · 8 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Add User API from Amagi — 1 operation(s) for add user.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Add User API from Amagi — 1 operation(s) for add user.
   name: Amagi Add User API
   slug: amagi-add-user-api
-- description: The Cancel API from Amagi — 1 operation(s) for cancel.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Cancel API from Amagi — 1 operation(s) for cancel.
   name: Amagi Cancel API
   slug: amagi-cancel-api
-- description: The Create Customer API from Amagi — 1 operation(s) for create customer.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Create Customer API from Amagi — 1 operation(s) for create customer.
   name: Amagi Create Customer API
   slug: amagi-create-customer-api
-- description: The Delete Customer API from Amagi — 1 operation(s) for delete customer.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Delete Customer API from Amagi — 1 operation(s) for delete customer.
   name: Amagi Delete Customer API
   slug: amagi-delete-customer-api
-- description: The Destroy API from Amagi — 1 operation(s) for destroy.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Destroy API from Amagi — 1 operation(s) for destroy.
   name: Amagi Destroy API
   slug: amagi-destroy-api
-- description: The Disable User API from Amagi — 1 operation(s) for disable user.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Disable User API from Amagi — 1 operation(s) for disable user.
   name: Amagi Disable User API
   slug: amagi-disable-user-api
-- description: The Enable User API from Amagi — 1 operation(s) for enable user.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Enable User API from Amagi — 1 operation(s) for enable user.
   name: Amagi Enable User API
   slug: amagi-enable-user-api
-- description: The Get Info API from Amagi — 1 operation(s) for get info.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Get Info API from Amagi — 1 operation(s) for get info.
   name: Amagi Get Info API
   slug: amagi-get-info-api
-- description: The Get Key API from Amagi — 1 operation(s) for get key.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Get Key API from Amagi — 1 operation(s) for get key.
   name: Amagi Get Key API
   slug: amagi-get-key-api
-- description: The Get Metrics API from Amagi — 1 operation(s) for get metrics.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Get Metrics API from Amagi — 1 operation(s) for get metrics.
   name: Amagi Get Metrics API
   slug: amagi-get-metrics-api
-- description: The Head Key API from Amagi — 1 operation(s) for head key.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Head Key API from Amagi — 1 operation(s) for head key.
   name: Amagi Head Key API
   slug: amagi-head-key-api
-- description: The List API from Amagi — 1 operation(s) for list.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The List API from Amagi — 1 operation(s) for list.
   name: Amagi List API
   slug: amagi-list-api
-- description: The List Keys API from Amagi — 1 operation(s) for list keys.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The List Keys API from Amagi — 1 operation(s) for list keys.
   name: Amagi List Keys API
   slug: amagi-list-keys-api
-- description: The List Versions API from Amagi — 1 operation(s) for list versions.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The List Versions API from Amagi — 1 operation(s) for list versions.
   name: Amagi List Versions API
   slug: amagi-list-versions-api
-- description: The Logs API from Amagi — 1 operation(s) for logs.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Logs API from Amagi — 1 operation(s) for logs.
   name: Amagi Logs API
   slug: amagi-logs-api
-- description: The Regenerate Token API from Amagi — 1 operation(s) for regenerate token.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Regenerate Token API from Amagi — 1 operation(s) for regenerate token.
   name: Amagi Regenerate Token API
   slug: amagi-regenerate-token-api
-- description: The Retry API from Amagi — 1 operation(s) for retry.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Retry API from Amagi — 1 operation(s) for retry.
   name: Amagi Retry API
   slug: amagi-retry-api
-- description: The Set Key API from Amagi — 1 operation(s) for set key.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Set Key API from Amagi — 1 operation(s) for set key.
   name: Amagi Set Key API
   slug: amagi-set-key-api
-- description: The Status API from Amagi — 1 operation(s) for status.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Status API from Amagi — 1 operation(s) for status.
   name: Amagi Status API
   slug: amagi-status-api
-- description: The Submit API from Amagi — 1 operation(s) for submit.
+- baseURL: https://api.mapsor.amagi.tv
+  baseurl_source: declared
+  description: The Submit API from Amagi — 1 operation(s) for submit.
   name: Amagi Submit API
   slug: amagi-submit-api
 artifact_total: 45
@@ -292,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amagi/refs/heads/main/screenshots/amagi-2026-07-25T195909.png
 security:

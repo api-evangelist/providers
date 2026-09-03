@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: The Trimble Agriculture Telematics API provides access to real-time and historical equipment telematics data from connected Trimble displays and precision agriculture devices. Includes equipment locat
   name: Trimble Agriculture Telematics API
   slug: trimble-agriculture-telematics
-- description: The Boundaries API from Trimble Agriculture — 1 operation(s) for boundaries.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Boundaries API from Trimble Agriculture — 1 operation(s) for boundaries.
   name: Trimble Agriculture Boundaries API
   slug: trimble-agriculture-boundaries-api
-- description: The Crop Zones API from Trimble Agriculture — 2 operation(s) for crop zones.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Crop Zones API from Trimble Agriculture — 2 operation(s) for crop zones.
   name: Trimble Agriculture Crop Zones API
   slug: trimble-agriculture-crop-zones-api
-- description: The Equipment Activities API from Trimble Agriculture — 3 operation(s) for equipment activities.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Equipment Activities API from Trimble Agriculture — 3 operation(s) for equipment activities.
   name: Trimble Agriculture Equipment Activities API
   slug: trimble-agriculture-equipment-activities-api
-- description: The Farms API from Trimble Agriculture — 2 operation(s) for farms.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Farms API from Trimble Agriculture — 2 operation(s) for farms.
   name: Trimble Agriculture Farms API
   slug: trimble-agriculture-farms-api
-- description: The Fields API from Trimble Agriculture — 2 operation(s) for fields.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Fields API from Trimble Agriculture — 2 operation(s) for fields.
   name: Trimble Agriculture Fields API
   slug: trimble-agriculture-fields-api
-- description: The Imagery API from Trimble Agriculture — 1 operation(s) for imagery.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Imagery API from Trimble Agriculture — 1 operation(s) for imagery.
   name: Trimble Agriculture Imagery API
   slug: trimble-agriculture-imagery-api
-- description: The Materials API from Trimble Agriculture — 1 operation(s) for materials.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Materials API from Trimble Agriculture — 1 operation(s) for materials.
   name: Trimble Agriculture Materials API
   slug: trimble-agriculture-materials-api
-- description: The Organizations API from Trimble Agriculture — 2 operation(s) for organizations.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Organizations API from Trimble Agriculture — 2 operation(s) for organizations.
   name: Trimble Agriculture Organizations API
   slug: trimble-agriculture-organizations-api
-- description: The Prescriptions API from Trimble Agriculture — 2 operation(s) for prescriptions.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Prescriptions API from Trimble Agriculture — 2 operation(s) for prescriptions.
   name: Trimble Agriculture Prescriptions API
   slug: trimble-agriculture-prescriptions-api
-- description: The Work Orders API from Trimble Agriculture — 2 operation(s) for work orders.
+- baseURL: https://cloud.api.trimble.com/Trimble-Ag-Software/externalApi/3.0
+  baseurl_source: spec
+  description: The Work Orders API from Trimble Agriculture — 2 operation(s) for work orders.
   name: Trimble Agriculture Work Orders API
   slug: trimble-agriculture-work-orders-api
 artifact_total: 39
@@ -267,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/screenshots/trimble-agriculture-2026-06-20T195713.png
 security:

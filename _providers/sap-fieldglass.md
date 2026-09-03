@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,31 +53,49 @@ apis:
 - description: Retrieves configurable pick list values from SAP Fieldglass for use in integration and data validation, including worker types, cost centers, regions, and other reference data.
   name: SAP Fieldglass Pick List Value Download API
   slug: sap-fieldglass-pick-list-value-download-api
-- description: The Approval API from SAP Fieldglass — 5 operation(s) for approval.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Approval API from SAP Fieldglass — 5 operation(s) for approval.
   name: SAP Fieldglass Approval API
   slug: sap-fieldglass-approval-api
-- description: The Audit Trail API from SAP Fieldglass — 1 operation(s) for audit trail.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Audit Trail API from SAP Fieldglass — 1 operation(s) for audit trail.
   name: SAP Fieldglass Audit Trail API
   slug: sap-fieldglass-audit-trail-api
-- description: The Get Data API from SAP Fieldglass — 1 operation(s) for get data.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Get Data API from SAP Fieldglass — 1 operation(s) for get data.
   name: SAP Fieldglass Get Data API
   slug: sap-fieldglass-get-data-api
-- description: The Get Entities API from SAP Fieldglass — 1 operation(s) for get entities.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Get Entities API from SAP Fieldglass — 1 operation(s) for get entities.
   name: SAP Fieldglass Get Entities API
   slug: sap-fieldglass-get-entities-api
-- description: The Get Metadata API from SAP Fieldglass — 1 operation(s) for get metadata.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Get Metadata API from SAP Fieldglass — 1 operation(s) for get metadata.
   name: SAP Fieldglass Get Metadata API
   slug: sap-fieldglass-get-metadata-api
-- description: The Get Providers API from SAP Fieldglass — 1 operation(s) for get providers.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Get Providers API from SAP Fieldglass — 1 operation(s) for get providers.
   name: SAP Fieldglass Get Providers API
   slug: sap-fieldglass-get-providers-api
-- description: The Order Confirmation API from SAP Fieldglass — 1 operation(s) for order confirmation.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Order Confirmation API from SAP Fieldglass — 1 operation(s) for order confirmation.
   name: SAP Fieldglass Order Confirmation API
   slug: sap-fieldglass-order-confirmation-api
-- description: The Reports API from SAP Fieldglass — 2 operation(s) for reports.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Reports API from SAP Fieldglass — 2 operation(s) for reports.
   name: SAP Fieldglass Reports API
   slug: sap-fieldglass-reports-api
-- description: The Results API from SAP Fieldglass — 1 operation(s) for results.
+- baseURL: https://www.fieldglass.net/api
+  baseurl_source: declared
+  description: The Results API from SAP Fieldglass — 1 operation(s) for results.
   name: SAP Fieldglass Results API
   slug: sap-fieldglass-results-api
 artifact_total: 63
@@ -360,7 +378,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
 security:

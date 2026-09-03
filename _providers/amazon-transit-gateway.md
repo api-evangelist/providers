@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Route Tables API from Amazon Transit Gateway — 1 operation(s) for route tables.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The Route Tables API from Amazon Transit Gateway — 1 operation(s) for route tables.
   name: Amazon Transit Gateway Route Tables API
   slug: amazon-transit-gateway-route-tables-api
-- description: The Transit Gateways API from Amazon Transit Gateway — 3 operation(s) for transit gateways.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The Transit Gateways API from Amazon Transit Gateway — 3 operation(s) for transit gateways.
   name: Amazon Transit Gateway Transit Gateways API
   slug: amazon-transit-gateway-transit-gateways-api
-- description: The VPC Attachments API from Amazon Transit Gateway — 1 operation(s) for vpc attachments.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The VPC Attachments API from Amazon Transit Gateway — 1 operation(s) for vpc attachments.
   name: Amazon Transit Gateway VPC Attachments API
   slug: amazon-transit-gateway-vpc-attachments-api
 artifact_total: 32
@@ -291,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/screenshots/amazon-transit-gateway-2026-06-20T171838.png
 security:

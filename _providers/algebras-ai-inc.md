@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 44 operations · 25 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Algebras AI Inc. — 1 operation(s) for authentication.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Algebras AI Inc. — 1 operation(s) for authentication.
   name: Algebras AI Inc. Authentication API
   slug: algebras-ai-inc-authentication-api
-- description: The Common API from Algebras AI Inc. — 1 operation(s) for common.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Common API from Algebras AI Inc. — 1 operation(s) for common.
   name: Algebras AI Inc. Common API
   slug: algebras-ai-inc-common-api
-- description: The Glossaries API from Algebras AI Inc. — 7 operation(s) for glossaries.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Glossaries API from Algebras AI Inc. — 7 operation(s) for glossaries.
   name: Algebras AI Inc. Glossaries API
   slug: algebras-ai-inc-glossaries-api
-- description: The Languages API from Algebras AI Inc. — 2 operation(s) for languages.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Languages API from Algebras AI Inc. — 2 operation(s) for languages.
   name: Algebras AI Inc. Languages API
   slug: algebras-ai-inc-languages-api
-- description: The Localization API from Algebras AI Inc. — 3 operation(s) for localization.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Localization API from Algebras AI Inc. — 3 operation(s) for localization.
   name: Algebras AI Inc. Localization API
   slug: algebras-ai-inc-localization-api
-- description: The Realtime API from Algebras AI Inc. — 11 operation(s) for realtime.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Realtime API from Algebras AI Inc. — 11 operation(s) for realtime.
   name: Algebras AI Inc. Realtime API
   slug: algebras-ai-inc-realtime-api
-- description: The Storage API from Algebras AI Inc. — 1 operation(s) for storage.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Storage API from Algebras AI Inc. — 1 operation(s) for storage.
   name: Algebras AI Inc. Storage API
   slug: algebras-ai-inc-storage-api
-- description: The Translation API from Algebras AI Inc. — 6 operation(s) for translation.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Translation API from Algebras AI Inc. — 6 operation(s) for translation.
   name: Algebras AI Inc. Translation API
   slug: algebras-ai-inc-translation-api
-- description: The Video API from Algebras AI Inc. — 2 operation(s) for video.
+- baseURL: https://platform.algebras.ai/api/v1
+  baseurl_source: declared
+  description: The Video API from Algebras AI Inc. — 2 operation(s) for video.
   name: Algebras AI Inc. Video API
   slug: algebras-ai-inc-video-api
 artifact_total: 23
@@ -262,7 +280,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
 security:

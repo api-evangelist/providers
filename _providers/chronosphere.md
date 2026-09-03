@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 149 operations · 92 acting
 api_count: 3
 apis:
-- description: The Chronosphere HTTP/JSON API surface for Observability Platform, served from a per-customer subdomain. The Config V1 API alone carries 183 operations across 39 resource types, every write of which a
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Chronosphere HTTP/JSON API surface for Observability Platform, served from a per-customer subdomain. The Config V1 API alone carries 183 operations across 39 resource types, every write of which a
   name: Chronosphere
   slug: chronosphere
-- description: The Bucket API from Chronosphere — 2 operation(s) for bucket.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Bucket API from Chronosphere — 2 operation(s) for bucket.
   name: Chronosphere Bucket API
   slug: chronosphere-bucket-api
-- description: The ClassicDashboard API from Chronosphere — 2 operation(s) for classicdashboard.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ClassicDashboard API from Chronosphere — 2 operation(s) for classicdashboard.
   name: Chronosphere ClassicDashboard API
   slug: chronosphere-classicdashboard-api
-- description: The Collection API from Chronosphere — 2 operation(s) for collection.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Collection API from Chronosphere — 2 operation(s) for collection.
   name: Chronosphere Collection API
   slug: chronosphere-collection-api
-- description: The Dashboard API from Chronosphere — 2 operation(s) for dashboard.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Dashboard API from Chronosphere — 2 operation(s) for dashboard.
   name: Chronosphere Dashboard API
   slug: chronosphere-dashboard-api
-- description: The Dataset API from Chronosphere — 2 operation(s) for dataset.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Dataset API from Chronosphere — 2 operation(s) for dataset.
   name: Chronosphere Dataset API
   slug: chronosphere-dataset-api
-- description: The DerivedLabel API from Chronosphere — 2 operation(s) for derivedlabel.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The DerivedLabel API from Chronosphere — 2 operation(s) for derivedlabel.
   name: Chronosphere DerivedLabel API
   slug: chronosphere-derivedlabel-api
-- description: The DerivedMetric API from Chronosphere — 2 operation(s) for derivedmetric.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The DerivedMetric API from Chronosphere — 2 operation(s) for derivedmetric.
   name: Chronosphere DerivedMetric API
   slug: chronosphere-derivedmetric-api
-- description: The DropRule API from Chronosphere — 2 operation(s) for droprule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The DropRule API from Chronosphere — 2 operation(s) for droprule.
   name: Chronosphere DropRule API
   slug: chronosphere-droprule-api
-- description: The GcpMetricsIntegration API from Chronosphere — 2 operation(s) for gcpmetricsintegration.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The GcpMetricsIntegration API from Chronosphere — 2 operation(s) for gcpmetricsintegration.
   name: Chronosphere GcpMetricsIntegration API
   slug: chronosphere-gcpmetricsintegration-api
-- description: The GrafanaDashboard API from Chronosphere — 2 operation(s) for grafanadashboard.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The GrafanaDashboard API from Chronosphere — 2 operation(s) for grafanadashboard.
   name: Chronosphere GrafanaDashboard API
   slug: chronosphere-grafanadashboard-api
-- description: The LogAllocationConfig API from Chronosphere — 1 operation(s) for logallocationconfig.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogAllocationConfig API from Chronosphere — 1 operation(s) for logallocationconfig.
   name: Chronosphere LogAllocationConfig API
   slug: chronosphere-logallocationconfig-api
-- description: The LogIngestConfig API from Chronosphere — 1 operation(s) for logingestconfig.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogIngestConfig API from Chronosphere — 1 operation(s) for logingestconfig.
   name: Chronosphere LogIngestConfig API
   slug: chronosphere-logingestconfig-api
-- description: The LogScaleAction API from Chronosphere — 2 operation(s) for logscaleaction.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogScaleAction API from Chronosphere — 2 operation(s) for logscaleaction.
   name: Chronosphere LogScaleAction API
   slug: chronosphere-logscaleaction-api
-- description: The LogScaleAlert API from Chronosphere — 2 operation(s) for logscalealert.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The LogScaleAlert API from Chronosphere — 2 operation(s) for logscalealert.
   name: Chronosphere LogScaleAlert API
   slug: chronosphere-logscalealert-api
-- description: The MappingRule API from Chronosphere — 2 operation(s) for mappingrule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The MappingRule API from Chronosphere — 2 operation(s) for mappingrule.
   name: Chronosphere MappingRule API
   slug: chronosphere-mappingrule-api
-- description: The Monitor API from Chronosphere — 2 operation(s) for monitor.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Monitor API from Chronosphere — 2 operation(s) for monitor.
   name: Chronosphere Monitor API
   slug: chronosphere-monitor-api
-- description: The MutingRule API from Chronosphere — 2 operation(s) for mutingrule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The MutingRule API from Chronosphere — 2 operation(s) for mutingrule.
   name: Chronosphere MutingRule API
   slug: chronosphere-mutingrule-api
-- description: The NotificationPolicy API from Chronosphere — 2 operation(s) for notificationpolicy.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The NotificationPolicy API from Chronosphere — 2 operation(s) for notificationpolicy.
   name: Chronosphere NotificationPolicy API
   slug: chronosphere-notificationpolicy-api
-- description: The Notifier API from Chronosphere — 2 operation(s) for notifier.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Notifier API from Chronosphere — 2 operation(s) for notifier.
   name: Chronosphere Notifier API
   slug: chronosphere-notifier-api
-- description: The OtelMetricsIngestion API from Chronosphere — 1 operation(s) for otelmetricsingestion.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The OtelMetricsIngestion API from Chronosphere — 1 operation(s) for otelmetricsingestion.
   name: Chronosphere OtelMetricsIngestion API
   slug: chronosphere-otelmetricsingestion-api
-- description: The RecordingRule API from Chronosphere — 2 operation(s) for recordingrule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The RecordingRule API from Chronosphere — 2 operation(s) for recordingrule.
   name: Chronosphere RecordingRule API
   slug: chronosphere-recordingrule-api
-- description: The ResourcePools API from Chronosphere — 1 operation(s) for resourcepools.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ResourcePools API from Chronosphere — 1 operation(s) for resourcepools.
   name: Chronosphere ResourcePools API
   slug: chronosphere-resourcepools-api
-- description: The RollupRule API from Chronosphere — 2 operation(s) for rolluprule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The RollupRule API from Chronosphere — 2 operation(s) for rolluprule.
   name: Chronosphere RollupRule API
   slug: chronosphere-rolluprule-api
-- description: The Service API from Chronosphere — 1 operation(s) for service.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Service API from Chronosphere — 1 operation(s) for service.
   name: Chronosphere Service API
   slug: chronosphere-service-api
-- description: The ServiceAccount API from Chronosphere — 2 operation(s) for serviceaccount.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The ServiceAccount API from Chronosphere — 2 operation(s) for serviceaccount.
   name: Chronosphere ServiceAccount API
   slug: chronosphere-serviceaccount-api
-- description: The SLO API from Chronosphere — 2 operation(s) for slo.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The SLO API from Chronosphere — 2 operation(s) for slo.
   name: Chronosphere SLO API
   slug: chronosphere-slo-api
-- description: The Team API from Chronosphere — 2 operation(s) for team.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The Team API from Chronosphere — 2 operation(s) for team.
   name: Chronosphere Team API
   slug: chronosphere-team-api
-- description: The TraceBehavior API from Chronosphere — 2 operation(s) for tracebehavior.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceBehavior API from Chronosphere — 2 operation(s) for tracebehavior.
   name: Chronosphere TraceBehavior API
   slug: chronosphere-tracebehavior-api
-- description: The TraceBehaviorConfig API from Chronosphere — 1 operation(s) for tracebehaviorconfig.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceBehaviorConfig API from Chronosphere — 1 operation(s) for tracebehaviorconfig.
   name: Chronosphere TraceBehaviorConfig API
   slug: chronosphere-tracebehaviorconfig-api
-- description: The TraceJaegerRemoteSamplingStrategy API from Chronosphere — 2 operation(s) for tracejaegerremotesamplingstrategy.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceJaegerRemoteSamplingStrategy API from Chronosphere — 2 operation(s) for tracejaegerremotesamplingstrategy.
   name: Chronosphere TraceJaegerRemoteSamplingStrategy API
   slug: chronosphere-tracejaegerremotesamplingstrategy-api
-- description: The TraceMetricsRule API from Chronosphere — 2 operation(s) for tracemetricsrule.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceMetricsRule API from Chronosphere — 2 operation(s) for tracemetricsrule.
   name: Chronosphere TraceMetricsRule API
   slug: chronosphere-tracemetricsrule-api
-- description: The TraceTailSamplingRules API from Chronosphere — 1 operation(s) for tracetailsamplingrules.
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: The TraceTailSamplingRules API from Chronosphere — 1 operation(s) for tracetailsamplingrules.
   name: Chronosphere TraceTailSamplingRules API
   slug: chronosphere-tracetailsamplingrules-api
-- description: 'The Data API from Chronosphere - 9 operations for querying and writing telemetry: change events, log range queries, trace listing, metric metadata and dashboard panel annotations.'
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: 'The Data API from Chronosphere - 9 operations for querying and writing telemetry: change events, log range queries, trace listing, metric metadata and dashboard panel annotations.'
   name: Chronosphere Data V1 API
   slug: chronosphere-data-v1-api
-- description: 'The State API from Chronosphere - 3 read-only operations exposing derived state: metric usage by metric name, metric usage by label name, and rule evaluation health. The cost and cardinality analysis '
+- baseURL: https://{tenant}.chronosphere.io
+  baseurl_source: declared
+  description: 'The State API from Chronosphere - 3 read-only operations exposing derived state: metric usage by metric name, metric usage by label name, and rule evaluation health. The cost and cardinality analysis '
   name: Chronosphere State V1 API
   slug: chronosphere-state-v1-api
 artifact_total: 80
@@ -478,7 +548,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -488,7 +558,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 47.9
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -500,7 +570,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:

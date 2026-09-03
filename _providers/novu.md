@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 92
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 135 operations · 92 acting · 92 human-in-the-loop
 api_count: 1
 apis:
-- description: Client-side API and React Inbox component for rendering an embedded in-app notification center, marking notifications as read / archived / snoozed, and managing per-user notification preferences direc
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Client-side API and React Inbox component for rendering an embedded in-app notification center, marking notifications as read / archived / snoozed, and managing per-user notification preferences direc
   name: Novu Inbox / In-App API
   slug: inbox-api
 - description: Code-first workflow framework that lets developers define notification workflows in TypeScript / JavaScript using `@novu/framework`, then sync them to Novu Cloud (or a self-hosted instance) via the `n
@@ -53,55 +55,89 @@ apis:
 - description: Official Model Context Protocol server exposing the Novu REST API surface as MCP tools so AI agents (Claude Desktop, Cursor, agent frameworks) can trigger workflows, manage subscribers, list workflows
   name: Novu MCP Server
   slug: mcp-server
-- description: The Activity API from Novu — 1 operation(s) for activity.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Activity API from Novu — 1 operation(s) for activity.
   name: Novu Activity API
   slug: novu-activity-api
-- description: The Channel Connections API from Novu — 2 operation(s) for channel connections.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Channel Connections API from Novu — 2 operation(s) for channel connections.
   name: Novu Channel Connections API
   slug: novu-channel-connections-api
-- description: The Channel Endpoints API from Novu — 2 operation(s) for channel endpoints.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Channel Endpoints API from Novu — 2 operation(s) for channel endpoints.
   name: Novu Channel Endpoints API
   slug: novu-channel-endpoints-api
-- description: The Contexts API from Novu — 2 operation(s) for contexts.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Contexts API from Novu — 2 operation(s) for contexts.
   name: Novu Contexts API
   slug: novu-contexts-api
-- description: Used to manage your inbound email domains.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Used to manage your inbound email domains.
   name: Novu Domains API
   slug: novu-domains-api
-- description: The Environment Variables API from Novu — 3 operation(s) for environment variables.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Environment Variables API from Novu — 3 operation(s) for environment variables.
   name: Novu Environment Variables API
   slug: novu-environment-variables-api
-- description: Environments allow you to manage different stages of your application development lifecycle. Each environment has its own set of API keys and configurations, enabling you to separate development, stag
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Environments allow you to manage different stages of your application development lifecycle. Each environment has its own set of API keys and configurations, enabling you to separate development, stag
   name: Novu Environments API
   slug: novu-environments-api
-- description: Events represent a change in state of a subscriber. They are used to trigger workflows, and enable you to send notifications to subscribers based on their actions.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Events represent a change in state of a subscriber. They are used to trigger workflows, and enable you to send notifications to subscribers based on their actions.
   name: Novu Events API
   slug: novu-events-api
-- description: With the help of the Integration Store, you can easily integrate your favorite delivery provider. During the runtime of the API, the Integrations Store is responsible for storing the configurations of
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: With the help of the Integration Store, you can easily integrate your favorite delivery provider. During the runtime of the API, the Integrations Store is responsible for storing the configurations of
   name: Novu Integrations API
   slug: novu-integrations-api
-- description: Layouts are reusable wrappers for your email notifications.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Layouts are reusable wrappers for your email notifications.
   name: Novu Layouts API
   slug: novu-layouts-api
-- description: A message in Novu represents a notification delivered to a recipient on a particular channel. Messages contain information about the request that triggered its delivery, a view of the data sent to the
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: A message in Novu represents a notification delivered to a recipient on a particular channel. Messages contain information about the request that triggered its delivery, a view of the data sent to the
   name: Novu Messages API
   slug: novu-messages-api
-- description: The Notifications API from Novu — 2 operation(s) for notifications.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Notifications API from Novu — 2 operation(s) for notifications.
   name: Novu Notifications API
   slug: novu-notifications-api
-- description: A subscriber in Novu represents someone who should receive a message. A subscriber's profile information contains important attributes about the subscriber that will be used in messages (name, email).
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: A subscriber in Novu represents someone who should receive a message. A subscriber's profile information contains important attributes about the subscriber that will be used in messages (name, email).
   name: Novu Subscribers API
   slug: novu-subscribers-api
-- description: Topics are a way to group subscribers together so that they can be notified of events at once. A topic is identified by a custom key. This can be helpful for things like sending out marketing emails o
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Topics are a way to group subscribers together so that they can be notified of events at once. A topic is identified by a custom key. This can be helpful for things like sending out marketing emails o
   name: Novu Topics API
   slug: novu-topics-api
-- description: Used to localize your notifications to different languages.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: Used to localize your notifications to different languages.
   name: Novu Translations API
   slug: novu-translations-api
-- description: All notifications are sent via a workflow. Each workflow acts as a container for the logic and blueprint that are associated with a type of notification in your system.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: All notifications are sent via a workflow. Each workflow acts as a container for the logic and blueprint that are associated with a type of notification in your system.
   name: Novu Workflows API
   slug: novu-workflows-api
-- description: The Webhooks API from Novu — 0 operation(s) for webhooks.
+- baseURL: https://api.novu.co
+  baseurl_source: declared
+  description: The Webhooks API from Novu — 0 operation(s) for webhooks.
   name: Novu Webhooks API
   slug: novu-webhooks-api
 arazzos:
@@ -740,7 +776,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -750,7 +786,7 @@ score:
     discoverability: 70.4
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 72.1
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     contracts:
@@ -765,7 +801,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novu/refs/heads/main/screenshots/novu-2026-06-20T190442.png
 security:

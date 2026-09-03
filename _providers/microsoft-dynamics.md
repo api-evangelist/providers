@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 59 operations · 29 acting
 api_count: 3
 apis:
-- description: The Accounts API from Microsoft Dynamics — 3 operation(s) for accounts.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Accounts API from Microsoft Dynamics — 3 operation(s) for accounts.
   name: Microsoft Dynamics Accounts API
   slug: microsoft-dynamics-accounts-api
-- description: The Activities API from Microsoft Dynamics — 1 operation(s) for activities.
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Activities API from Microsoft Dynamics — 1 operation(s) for activities.
   name: Microsoft Dynamics Activities API
   slug: microsoft-dynamics-activities-api
-- description: The Cases API from Microsoft Dynamics — 1 operation(s) for cases.
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Cases API from Microsoft Dynamics — 1 operation(s) for cases.
   name: Microsoft Dynamics Cases API
   slug: microsoft-dynamics-cases-api
-- description: The Companies API from Microsoft Dynamics — 1 operation(s) for companies.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Companies API from Microsoft Dynamics — 1 operation(s) for companies.
   name: Microsoft Dynamics Companies API
   slug: microsoft-dynamics-companies-api
-- description: The Contacts API from Microsoft Dynamics — 2 operation(s) for contacts.
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Contacts API from Microsoft Dynamics — 2 operation(s) for contacts.
   name: Microsoft Dynamics Contacts API
   slug: microsoft-dynamics-contacts-api
-- description: The Customers API from Microsoft Dynamics — 3 operation(s) for customers.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Customers API from Microsoft Dynamics — 3 operation(s) for customers.
   name: Microsoft Dynamics Customers API
   slug: microsoft-dynamics-customers-api
-- description: The Employees API from Microsoft Dynamics — 1 operation(s) for employees.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Employees API from Microsoft Dynamics — 1 operation(s) for employees.
   name: Microsoft Dynamics Employees API
   slug: microsoft-dynamics-employees-api
-- description: The General Ledger API from Microsoft Dynamics — 2 operation(s) for general ledger.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The General Ledger API from Microsoft Dynamics — 2 operation(s) for general ledger.
   name: Microsoft Dynamics General Ledger API
   slug: microsoft-dynamics-general-ledger-api
-- description: The Human Resources API from Microsoft Dynamics — 1 operation(s) for human resources.
+- baseURL_template: https://{environment}.operations.dynamics.com/data
+  baseurl_source: spec_template
+  description: The Human Resources API from Microsoft Dynamics — 1 operation(s) for human resources.
   name: Microsoft Dynamics Human Resources API
   slug: microsoft-dynamics-human-resources-api
-- description: The Items API from Microsoft Dynamics — 1 operation(s) for items.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Items API from Microsoft Dynamics — 1 operation(s) for items.
   name: Microsoft Dynamics Items API
   slug: microsoft-dynamics-items-api
-- description: The Journals API from Microsoft Dynamics — 1 operation(s) for journals.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Journals API from Microsoft Dynamics — 1 operation(s) for journals.
   name: Microsoft Dynamics Journals API
   slug: microsoft-dynamics-journals-api
-- description: The Leads API from Microsoft Dynamics — 2 operation(s) for leads.
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Leads API from Microsoft Dynamics — 2 operation(s) for leads.
   name: Microsoft Dynamics Leads API
   slug: microsoft-dynamics-leads-api
-- description: The Opportunities API from Microsoft Dynamics — 2 operation(s) for opportunities.
+- baseURL_template: https://{organization}.api.crm.dynamics.com/api/data/v9.2
+  baseurl_source: spec_template
+  description: The Opportunities API from Microsoft Dynamics — 2 operation(s) for opportunities.
   name: Microsoft Dynamics Opportunities API
   slug: microsoft-dynamics-opportunities-api
-- description: The Products API from Microsoft Dynamics — 1 operation(s) for products.
+- baseURL_template: https://{environment}.operations.dynamics.com/data
+  baseurl_source: spec_template
+  description: The Products API from Microsoft Dynamics — 1 operation(s) for products.
   name: Microsoft Dynamics Products API
   slug: microsoft-dynamics-products-api
-- description: The Purchase Invoices API from Microsoft Dynamics — 1 operation(s) for purchase invoices.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Purchase Invoices API from Microsoft Dynamics — 1 operation(s) for purchase invoices.
   name: Microsoft Dynamics Purchase Invoices API
   slug: microsoft-dynamics-purchase-invoices-api
-- description: The Purchase Orders API from Microsoft Dynamics — 2 operation(s) for purchase orders.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Purchase Orders API from Microsoft Dynamics — 2 operation(s) for purchase orders.
   name: Microsoft Dynamics Purchase Orders API
   slug: microsoft-dynamics-purchase-orders-api
-- description: The Sales Invoices API from Microsoft Dynamics — 1 operation(s) for sales invoices.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Sales Invoices API from Microsoft Dynamics — 1 operation(s) for sales invoices.
   name: Microsoft Dynamics Sales Invoices API
   slug: microsoft-dynamics-sales-invoices-api
-- description: The Sales Orders API from Microsoft Dynamics — 2 operation(s) for sales orders.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Sales Orders API from Microsoft Dynamics — 2 operation(s) for sales orders.
   name: Microsoft Dynamics Sales Orders API
   slug: microsoft-dynamics-sales-orders-api
-- description: The Vendors API from Microsoft Dynamics — 2 operation(s) for vendors.
+- baseURL_template: https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environment}/api/v2.0
+  baseurl_source: spec_template
+  description: The Vendors API from Microsoft Dynamics — 2 operation(s) for vendors.
   name: Microsoft Dynamics Vendors API
   slug: microsoft-dynamics-vendors-api
 artifact_total: 64
@@ -316,7 +354,7 @@ score:
     catalog_gap: 72.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -326,7 +364,7 @@ score:
     discoverability: 40.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 33.4
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -335,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics/refs/heads/main/screenshots/microsoft-dynamics-2026-06-20T185452.png
 security:

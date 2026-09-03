@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
@@ -79,7 +79,7 @@ score:
       reason: never_enriched
   previous_composite: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/screenshots/listings-api-2026-07-25T225325.png
 slug: listings-api

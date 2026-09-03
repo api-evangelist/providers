@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 355
   human_in_the_loop: 3
@@ -47,22 +47,34 @@ apis:
 - description: 'A live but undocumented and token-gated API behind Premion''s OTT/CTV advertising platform. Probed 2026-08-13: the host root returns 200 {"message":"App is running"}, /health returns 200, and every pat'
   name: Premion Advertising Platform API (gated)
   slug: tegna-premion-platform-api
-- description: WordPress REST namespace `aioseo/v1` (137 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `aioseo/v1` (137 operations).
   name: TEGNA Aioseo/v1 API
   slug: tegna-aioseo-v1-api
-- description: WordPress REST namespace `contact-form-7/v1` (9 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `contact-form-7/v1` (9 operations).
   name: TEGNA Contact Form 7/v1 API
   slug: tegna-contact-form-7-v1-api
-- description: WordPress REST namespace `oembed/1.0` (3 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `oembed/1.0` (3 operations).
   name: TEGNA Oembed/1.0 API
   slug: tegna-oembed-1-0-api
-- description: WordPress REST namespace `wp-abilities/v1` (8 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `wp-abilities/v1` (8 operations).
   name: TEGNA Wp Abilities/v1 API
   slug: tegna-wp-abilities-v1-api
-- description: WordPress REST namespace `wp/v2` (209 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `wp/v2` (209 operations).
   name: TEGNA Wp/v2 API
   slug: tegna-wp-v2-api
-- description: WordPress REST namespace `yoast/v1` (51 operations).
+- baseURL: https://www.tegna.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST namespace `yoast/v1` (51 operations).
   name: TEGNA Yoast/v1 API
   slug: tegna-yoast-v1-api
 artifact_total: 17
@@ -307,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png
 security:

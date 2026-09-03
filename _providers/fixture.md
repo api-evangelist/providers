@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create, read, update, and delete company records.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete company records.
   name: Fixture Accounts API
   slug: fixture-accounts-api
-- description: List and ingest CRM Activity records.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: List and ingest CRM Activity records.
   name: Fixture Activities API
   slug: fixture-activities-api
-- description: Create, read, update, and delete person records.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete person records.
   name: Fixture Contacts API
   slug: fixture-contacts-api
-- description: Create, read, update, and delete Deal records.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete Deal records.
   name: Fixture Deals API
   slug: fixture-deals-api
-- description: The Fixture API API from Fixture — 1 operation(s) for fixture api.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: The Fixture API API from Fixture — 1 operation(s) for fixture api.
   name: Fixture Fixture API API
   slug: fixture-fixture-api-api
-- description: Create, read, update, and convert Leads.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and convert Leads.
   name: Fixture Leads API
   slug: fixture-leads-api
-- description: Create Notes linked to CRM entities.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create Notes linked to CRM entities.
   name: Fixture Notes API
   slug: fixture-notes-api
-- description: List Pipelines and inspect their nested stages.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: List Pipelines and inspect their nested stages.
   name: Fixture Pipelines API
   slug: fixture-pipelines-api
-- description: List Task status definitions available to the current organization.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: List Task status definitions available to the current organization.
   name: Fixture Task Statuses API
   slug: fixture-task-statuses-api
-- description: Create, read, update, and delete Tasks.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and delete Tasks.
   name: Fixture Tasks API
   slug: fixture-tasks-api
-- description: The Users API from Fixture — 1 operation(s) for users.
+- baseURL: https://beta-api.fixture.app/api/v1
+  baseurl_source: declared
+  description: The Users API from Fixture — 1 operation(s) for users.
   name: Fixture Users API
   slug: fixture-users-api
 artifact_total: 27
@@ -271,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/screenshots/fixture-2026-07-25T214655.png
 security:

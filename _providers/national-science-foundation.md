@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Awards API from National Science Foundation — 2 operation(s) for awards.
+- baseURL: https://api.nsf.gov/services/v1/
+  baseurl_source: declared
+  description: The Awards API from National Science Foundation — 2 operation(s) for awards.
   name: National Science Foundation Awards API
   slug: national-science-foundation-awards-api
-- description: The Awards.{format} API from National Science Foundation — 1 operation(s) for awards.{format}.
+- baseURL: https://api.nsf.gov/services/v1/
+  baseurl_source: declared
+  description: The Awards.{format} API from National Science Foundation — 1 operation(s) for awards.{format}.
   name: National Science Foundation Awards.{format} API
   slug: national-science-foundation-awards-format-api
 artifact_total: 11
@@ -154,7 +158,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/screenshots/national-science-foundation-2026-06-20T190040.png
 security:

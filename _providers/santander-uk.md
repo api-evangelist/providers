@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,106 +45,174 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The Account Access Consents API from Santander UK — 2 operation(s) for account access consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Account Access Consents API from Santander UK — 2 operation(s) for account access consents.
   name: Santander UK Account Access Consents API
   slug: santander-uk-account-access-consents-api
-- description: The Accounts API from Santander UK — 2 operation(s) for accounts.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Accounts API from Santander UK — 2 operation(s) for accounts.
   name: Santander UK Accounts API
   slug: santander-uk-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Santander UK ATM API
   slug: santander-uk-atm-api
-- description: The Balances API from Santander UK — 2 operation(s) for balances.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Balances API from Santander UK — 2 operation(s) for balances.
   name: Santander UK Balances API
   slug: santander-uk-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Santander UK BCA API
   slug: santander-uk-bca-api
-- description: The Beneficiaries API from Santander UK — 2 operation(s) for beneficiaries.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Beneficiaries API from Santander UK — 2 operation(s) for beneficiaries.
   name: Santander UK Beneficiaries API
   slug: santander-uk-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Santander UK Branch API
   slug: santander-uk-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Santander UK CCC API
   slug: santander-uk-ccc-api
-- description: The Direct Debits API from Santander UK — 2 operation(s) for direct debits.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Direct Debits API from Santander UK — 2 operation(s) for direct debits.
   name: Santander UK Direct Debits API
   slug: santander-uk-direct-debits-api
-- description: The Domestic Payment Consents API from Santander UK — 3 operation(s) for domestic payment consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Santander UK — 3 operation(s) for domestic payment consents.
   name: Santander UK Domestic Payment Consents API
   slug: santander-uk-domestic-payment-consents-api
-- description: The Domestic Payments API from Santander UK — 3 operation(s) for domestic payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Payments API from Santander UK — 3 operation(s) for domestic payments.
   name: Santander UK Domestic Payments API
   slug: santander-uk-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Santander UK — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Santander UK — 2 operation(s) for domestic scheduled payment consents.
   name: Santander UK Domestic Scheduled Payment Consents API
   slug: santander-uk-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Santander UK — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Santander UK — 3 operation(s) for domestic scheduled payments.
   name: Santander UK Domestic Scheduled Payments API
   slug: santander-uk-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Santander UK — 2 operation(s) for domestic standing order consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Santander UK — 2 operation(s) for domestic standing order consents.
   name: Santander UK Domestic Standing Order Consents API
   slug: santander-uk-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Santander UK — 3 operation(s) for domestic standing orders.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Santander UK — 3 operation(s) for domestic standing orders.
   name: Santander UK Domestic Standing Orders API
   slug: santander-uk-domestic-standing-orders-api
-- description: The File Payment Consents API from Santander UK — 3 operation(s) for file payment consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The File Payment Consents API from Santander UK — 3 operation(s) for file payment consents.
   name: Santander UK File Payment Consents API
   slug: santander-uk-file-payment-consents-api
-- description: The File Payments API from Santander UK — 4 operation(s) for file payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The File Payments API from Santander UK — 4 operation(s) for file payments.
   name: Santander UK File Payments API
   slug: santander-uk-file-payments-api
-- description: The Funds Confirmation Consents API from Santander UK — 2 operation(s) for funds confirmation consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Santander UK — 2 operation(s) for funds confirmation consents.
   name: Santander UK Funds Confirmation Consents API
   slug: santander-uk-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Santander UK — 1 operation(s) for funds confirmations.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Funds Confirmations API from Santander UK — 1 operation(s) for funds confirmations.
   name: Santander UK Funds Confirmations API
   slug: santander-uk-funds-confirmations-api
-- description: The International Payment Consents API from Santander UK — 3 operation(s) for international payment consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Payment Consents API from Santander UK — 3 operation(s) for international payment consents.
   name: Santander UK International Payment Consents API
   slug: santander-uk-international-payment-consents-api
-- description: The International Payments API from Santander UK — 3 operation(s) for international payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Payments API from Santander UK — 3 operation(s) for international payments.
   name: Santander UK International Payments API
   slug: santander-uk-international-payments-api
-- description: The International Scheduled Payments API from Santander UK — 3 operation(s) for international scheduled payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Santander UK — 3 operation(s) for international scheduled payments.
   name: Santander UK International Scheduled Payments API
   slug: santander-uk-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Santander UK — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Santander UK — 3 operation(s) for international scheduled payments consents.
   name: Santander UK International Scheduled Payments Consents API
   slug: santander-uk-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Santander UK — 3 operation(s) for international standing orders.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Standing Orders API from Santander UK — 3 operation(s) for international standing orders.
   name: Santander UK International Standing Orders API
   slug: santander-uk-international-standing-orders-api
-- description: The International Standing Orders Consents API from Santander UK — 2 operation(s) for international standing orders consents.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Santander UK — 2 operation(s) for international standing orders consents.
   name: Santander UK International Standing Orders Consents API
   slug: santander-uk-international-standing-orders-consents-api
-- description: The Offers API from Santander UK — 2 operation(s) for offers.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Offers API from Santander UK — 2 operation(s) for offers.
   name: Santander UK Offers API
   slug: santander-uk-offers-api
-- description: The Parties API from Santander UK — 3 operation(s) for parties.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Parties API from Santander UK — 3 operation(s) for parties.
   name: Santander UK Parties API
   slug: santander-uk-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Santander UK PCA API
   slug: santander-uk-pca-api
-- description: The Products API from Santander UK — 2 operation(s) for products.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Products API from Santander UK — 2 operation(s) for products.
   name: Santander UK Products API
   slug: santander-uk-products-api
-- description: The Scheduled Payments API from Santander UK — 2 operation(s) for scheduled payments.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Scheduled Payments API from Santander UK — 2 operation(s) for scheduled payments.
   name: Santander UK Scheduled Payments API
   slug: santander-uk-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Santander UK SME API
   slug: santander-uk-sme-api
-- description: The Standing Orders API from Santander UK — 2 operation(s) for standing orders.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Standing Orders API from Santander UK — 2 operation(s) for standing orders.
   name: Santander UK Standing Orders API
   slug: santander-uk-standing-orders-api
-- description: The Statements API from Santander UK — 5 operation(s) for statements.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Statements API from Santander UK — 5 operation(s) for statements.
   name: Santander UK Statements API
   slug: santander-uk-statements-api
-- description: The Transactions API from Santander UK — 2 operation(s) for transactions.
+- baseURL: https://api-portal.omni.slz.santander.co.uk/external/opendata
+  baseurl_source: declared
+  description: The Transactions API from Santander UK — 2 operation(s) for transactions.
   name: Santander UK Transactions API
   slug: santander-uk-transactions-api
 artifact_total: 40
@@ -272,7 +352,7 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -308,8 +388,9 @@ score:
     regime_id: banking_open_finance
     score: 65.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/santander-uk/refs/heads/main/screenshots/santander-uk-2026-09-02T154404.png
 security:
 - kind: authentication
   name: Santander Uk Authentication

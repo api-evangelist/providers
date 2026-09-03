@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 102 operations · 42 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Brands API from Wish — 1 operation(s) for brands.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Brands API from Wish — 1 operation(s) for brands.
   name: Wish Brands API
   slug: wish-brands-api
-- description: Products endpoints which process requests asynchronously and triggers a running job
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Products endpoints which process requests asynchronously and triggers a running job
   name: Wish Bulk Products API
   slug: wish-bulk-products-api
-- description: The Currencies API from Wish — 1 operation(s) for currencies.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Currencies API from Wish — 1 operation(s) for currencies.
   name: Wish Currencies API
   slug: wish-currencies-api
-- description: APIs that support EU Product Compliance -- EU Regulation 2019/1020 on Market Surveillance and Compliance of Products (MSR).</br> For a product to be compliant with the MSR, a product must be linked wi
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: APIs that support EU Product Compliance -- EU Regulation 2019/1020 on Market Surveillance and Compliance of Products (MSR).</br> For a product to be compliant with the MSR, a product must be linked wi
   name: Wish EU Product Compliance API
   slug: wish-eu-product-compliance-api
-- description: 'APIs that support France Extended Producer Responsibility (EPR) Compliance.</br> For a merchant to be compliant with the EPR regulation, a product category they intend to sell must be linked with one '
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: 'APIs that support France Extended Producer Responsibility (EPR) Compliance.</br> For a merchant to be compliant with the EPR regulation, a product category they intend to sell must be linked with one '
   name: Wish France EPR Compliance API
   slug: wish-france-epr-compliance-api
-- description: 'APIs that support Germany Extended Producer Responsibility (EPR) Compliance.</br> For a merchant to be compliant with the EPR regulation, their applicable products must be linked with one or more EPR '
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: 'APIs that support Germany Extended Producer Responsibility (EPR) Compliance.</br> For a merchant to be compliant with the EPR regulation, their applicable products must be linked with one or more EPR '
   name: Wish Germany EPR Compliance API
   slug: wish-germany-epr-compliance-api
-- description: Merchant APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Merchant APIs
   name: Wish Merchant API
   slug: wish-merchant-api
-- description: The OAuth API from Wish — 3 operation(s) for oauth.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The OAuth API from Wish — 3 operation(s) for oauth.
   name: Wish OAuth API
   slug: wish-oauth-api
-- description: The Orders API from Wish — 9 operation(s) for orders.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Orders API from Wish — 9 operation(s) for orders.
   name: Wish Orders API
   slug: wish-orders-api
-- description: Payments APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Payments APIs
   name: Wish Payments API
   slug: wish-payments-api
-- description: The Penalties API from Wish — 3 operation(s) for penalties.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Penalties API from Wish — 3 operation(s) for penalties.
   name: Wish Penalties API
   slug: wish-penalties-api
-- description: The ProductBoost API from Wish — 7 operation(s) for productboost.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The ProductBoost API from Wish — 7 operation(s) for productboost.
   name: Wish ProductBoost API
   slug: wish-productboost-api
-- description: Products APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Products APIs
   name: Wish Products API
   slug: wish-products-api
-- description: The Promotions Platform API from Wish — 6 operation(s) for promotions platform.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Promotions Platform API from Wish — 6 operation(s) for promotions platform.
   name: Wish Promotions Platform API
   slug: wish-promotions-platform-api
-- description: The Ratings API from Wish — 2 operation(s) for ratings.
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: The Ratings API from Wish — 2 operation(s) for ratings.
   name: Wish Ratings API
   slug: wish-ratings-api
-- description: Taxonomy APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Taxonomy APIs
   name: Wish Taxonomy API
   slug: wish-taxonomy-api
-- description: For each consumer question or complaint, a ticket is created to manage the dialogue between you, Wish, and the consumer. With this API, you can fetch tickets awaiting your response, fetch a specific t
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: For each consumer question or complaint, a ticket is created to manage the dialogue between you, Wish, and the consumer. With this API, you can fetch tickets awaiting your response, fetch a specific t
   name: Wish Tickets API
   slug: wish-tickets-api
-- description: Unification Initiative APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Unification Initiative APIs
   name: Wish Unification Initiative API
   slug: wish-unification-initiative-api
-- description: Variations APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Variations APIs
   name: Wish Variations API
   slug: wish-variations-api
-- description: Merchant Videos APIs
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: Merchant Videos APIs
   name: Wish Videos API
   slug: wish-videos-api
-- description: APIs for managing webhook subscriptions. Merchants can use webhook subscriptions to receive notifications about particular events, instead of having to make API calls periodically to check their statu
+- baseURL: https://merchant.wish.com/api/v3
+  baseurl_source: declared
+  description: APIs for managing webhook subscriptions. Merchants can use webhook subscriptions to receive notifications about particular events, instead of having to make API calls periodically to check their statu
   name: Wish Webhook API
   slug: wish-webhook-api
 artifact_total: 50
@@ -289,7 +331,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -299,7 +341,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,7 +359,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/screenshots/wish-2026-08-17T082925.png
 security:

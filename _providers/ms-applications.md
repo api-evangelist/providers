@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,13 +65,19 @@ apis:
 - description: API for creating and managing plans, tasks, and team collaboration.
   name: Microsoft Planner API
   slug: microsoft-planner-api
-- description: The Groups API from Microsoft Applications APIs — 1 operation(s) for groups.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Groups API from Microsoft Applications APIs — 1 operation(s) for groups.
   name: Microsoft Applications APIs Groups API
   slug: ms-applications-groups-api
-- description: The Me API from Microsoft Applications APIs — 8 operation(s) for me.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Me API from Microsoft Applications APIs — 8 operation(s) for me.
   name: Microsoft Applications APIs Me API
   slug: ms-applications-me-api
-- description: The Users API from Microsoft Applications APIs — 2 operation(s) for users.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Users API from Microsoft Applications APIs — 2 operation(s) for users.
   name: Microsoft Applications APIs Users API
   slug: ms-applications-users-api
 artifact_total: 23
@@ -173,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-applications/refs/heads/main/screenshots/ms-applications-2026-06-20T185844.png
 security:

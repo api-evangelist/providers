@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 47 operations · 20 acting
 api_count: 1
 apis:
-- description: Animal (patient) records and reference data. (Modeled.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Animal (patient) records and reference data. (Modeled.)
   name: ezyVet Animals API
   slug: ezyvet-animals-api
-- description: Appointments, types, and statuses. (Modeled.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Appointments, types, and statuses. (Modeled.)
   name: ezyVet Appointments API
   slug: ezyvet-appointments-api
-- description: OAuth 2.0 Client Credentials token exchange. (Confirmed.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: OAuth 2.0 Client Credentials token exchange. (Confirmed.)
   name: ezyVet Authentication API
   slug: ezyvet-authentication-api
-- description: Clinical consultation records. (Modeled.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Clinical consultation records. (Modeled.)
   name: ezyVet Consultations API
   slug: ezyvet-consultations-api
-- description: Contacts (clients / pet owners) and their details. (Confirmed CRUD.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Contacts (clients / pet owners) and their details. (Confirmed CRUD.)
   name: ezyVet Contacts API
   slug: ezyvet-contacts-api
-- description: Diagnostic requests and results (Standard Diagnostic Integration). (Confirmed integration.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Diagnostic requests and results (Standard Diagnostic Integration). (Confirmed integration.)
   name: ezyVet Diagnostics API
   slug: ezyvet-diagnostics-api
-- description: Invoices, invoice lines, and payments. (Modeled.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Invoices, invoice lines, and payments. (Modeled.)
   name: ezyVet Invoices API
   slug: ezyvet-invoices-api
-- description: Prescriptions and vaccinations. (Partially confirmed.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Prescriptions and vaccinations. (Partially confirmed.)
   name: ezyVet Prescriptions API
   slug: ezyvet-prescriptions-api
-- description: Product / inventory catalog. (Modeled.)
+- baseURL: https://api.ezyvet.com
+  baseurl_source: declared
+  description: Product / inventory catalog. (Modeled.)
   name: ezyVet Products API
   slug: ezyvet-products-api
 artifact_total: 27
@@ -209,7 +227,7 @@ score:
     regime_id: health
     score: 22.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/screenshots/ezyvet-2026-07-25T214103.png
 security:

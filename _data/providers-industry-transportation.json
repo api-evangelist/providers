@@ -1,6 +1,6 @@
 {
- "total": 394,
- "shown": 394,
+ "total": 395,
+ "shown": 395,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -61,12 +61,12 @@
      "slug": "mycarrier",
      "description": "MyCarrier is a transportation management system (TMS) for less-than-truckload (LTL) and full-truckload freight, founded in 2018 by Michael Bookout and Chris Scheid. The platform lets shippers quote, book, dispatch, track, audit and pay freight from a single connected workspace using direct carrier rates rather than broker markups, and connects to more than a dozen national LTL carriers. MyCarrier publishes a public REST API on developer.mycarrier.io covering order creation and management, rate quoting and dispatch, routing-guide rules, shipping locations, shipment detail retrieval, and a FreightAudit / invoice surface for freight bill audit, disputes, notes and payments. It also publishes a webhook catalog for shipment and invoice lifecycle events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mycarrier/refs/heads/main/screenshots/mycarrier-2026-09-02T150703.png",
-     "score": 54.5,
+     "score": 54.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 55.6,
+      "contract_quality": 56.0,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
@@ -74,7 +74,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -117,12 +117,12 @@
      "slug": "rose-rocket",
      "description": "Rose Rocket is a Toronto-based transportation management system (TMS) for freight brokers, carriers and 3PLs, sold as an AI-native, configurable operations platform rather than an off-the-shelf template. The product covers order intake, dispatch, tendering, tracking, documents, invoicing and billing, with no-code custom fields, boards and workflows, in-product AI agents (TED, Rosie, Rocky) and role-based access control down to the widget. Its developer surface is the Platform Model API, a single generic object-CRUD REST API served at network.roserocket.com/api/v2/platformModel that reads and writes every domain object — customer, order, task, stop, manifest, commodity, partner, quote, invoice, bill, asset, tag, contact, document — through one set of /objects operations keyed by objectKey, plus user groups, boards, events and webhook destinations. Authentication is OAuth 2.0 (authorization code or client-credentials service account) against an Auth0-hosted authorization server at a.roserocket.com. API access is not self-serve: credentials come from an account representative or the partnership team, and the pricing page lists \"unlimited API access\" as an Enterprise tier feature.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rose-rocket/refs/heads/main/screenshots/rose-rocket-2026-09-02T154132.png",
-     "score": 52.0,
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 48.6,
+      "contract_quality": 50.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 44.7,
@@ -130,7 +130,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.4,
      "agent_band": "agent-native",
@@ -175,7 +175,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -220,7 +220,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -265,7 +265,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -310,7 +310,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -362,7 +362,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -407,7 +407,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -452,7 +452,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -497,7 +497,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.8,
      "agent_band": "agent-ready",
@@ -525,150 +525,15 @@
      "rank": 11
     },
     {
-     "name": "Emerge",
-     "slug": "emerge",
-     "description": "Emerge (EmergeTech, Inc.) is a Scottsdale, Arizona freight procurement and transportation spend management platform — marketed as ProcureOS — that moves full truckload, volume/partial truckload and drop-trailer freight sourcing out of spreadsheets and email into a single system. The platform combines contract procurement (annual RFPs, mini-bids, awarding scenarios, carrier scorecards), spot procurement (quoting, tendering, Dynamic Book It Now, tracking and visibility), Emerge AI rate benchmarking and lane intelligence (Rate Pulse), and the Emerge Marketplace of 45,000+ pre-vetted asset-based carriers across the US, Canada and Mexico. Emerge publishes two public REST APIs — a Shipper (public) API for opportunities, options, awards, tenders, shipments, network partners and webhook subscriptions, and a Carrier API for capacity/integration providers responding to rate requests and tenders — plus a documented webhook event catalog, a testing sandbox, and TMS integrations with Project44, E2open, MercuryGate and Capacity Link partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png",
-     "score": 47.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 62.9,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 28.0,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 35.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "RunBuggy",
-     "slug": "runbuggy",
-     "description": "RunBuggy is a Phoenix, Arizona based technology company operating an open, automotive-focused vehicle transportation marketplace and TMS that connects car shippers — dealers, auctions, OEMs, rental and fleet operators — with car haulers and transporters. Its products are the RunBuggy Marketplace (transportation-as-a-service for finding, moving and tracking a vehicle), RunBuggy HITCH (a cloud transportation management system that connects to an existing dealer or auction management system and transporter network), RunBuggy One (personal vehicle shipping) and RunBot (a generative-AI assistant applied to order resolution and delivery-exception prediction). RunBuggy publishes a public Shippers API — Swagger 2.0 definitions for Orders, Vehicle Transfer Orders, Gate Passes, Webhooks, Companies and Authentication — at docs.runbuggy.com, and operates an OAuth-protected Model Context Protocol server for its data-science surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png",
-     "score": 46.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 60.8,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 14.5,
-      "access_clarity": 14.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 33.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Kardinal",
-     "slug": "kardinal",
-     "description": "Kardinal is a Paris-based logistics optimization company whose Always-on Route Optimization (ARO) API solves vehicle routing problems for last-mile delivery, post and parcel, waste and bulk transport, fresh delivery, field services and retail operators. Integrators submit a plan — resources (vehicles), orders (stops) and constraints such as capacities, time windows, driver skills and breaks — with a single idempotent PUT, and the engine optimizes it continuously rather than in a nightly batch, so new orders, cancellations, traffic and field updates are absorbed into the running solution instead of forcing a rerun. The REST API is documented with a published OpenAPI 3.0.3 definition covering 40 operations across authentication, plans, resources, orders and solutions, and is reachable per customer environment at https://<env>.kardinal.ai/api/v2 using short-lived JWT bearer tokens.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/screenshots/kardinal-2026-09-02T150130.png",
-     "score": 45.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 50.4,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 35.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "Decisiv",
      "slug": "decisiv",
      "description": "Decisiv is the Reston, Virginia company behind the commercial vehicle industry's Service Relationship Management (SRM) platform — a cloud service that connects fleets, asset owners, OEMs, dealers, independent service providers and component suppliers around a single service event. The platform orchestrates the whole repair lifecycle: asset registration and VIN-based identification, service requests, case creation, estimates and line items with VMRS coding, parts, labor and additional charges, technician time tasks, notes, attachments, approvals, sublet work between shops, and telematics-driven fault codes and diagnostic readings. Decisiv exposes this through the SRM Gateway APIs — four JSON:API-shaped OpenAPI 3.1 modules (Account Management, Asset Management, Service Management, Telematics) — plus the older Global Assets and Service Provider Swagger 2.0 APIs and the XML Platform API. Access is OAuth 2.0 and provisioned per account; documentation is public but credentials come through sales.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png",
-     "score": 45.7,
+     "score": 47.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 68.5,
       "contract_quality": 61.8,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -677,7 +542,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 49.0,
      "agent_band": "agent-native",
@@ -702,6 +567,141 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 12
+    },
+    {
+     "name": "Emerge",
+     "slug": "emerge",
+     "description": "Emerge (EmergeTech, Inc.) is a Scottsdale, Arizona freight procurement and transportation spend management platform — marketed as ProcureOS — that moves full truckload, volume/partial truckload and drop-trailer freight sourcing out of spreadsheets and email into a single system. The platform combines contract procurement (annual RFPs, mini-bids, awarding scenarios, carrier scorecards), spot procurement (quoting, tendering, Dynamic Book It Now, tracking and visibility), Emerge AI rate benchmarking and lane intelligence (Rate Pulse), and the Emerge Marketplace of 45,000+ pre-vetted asset-based carriers across the US, Canada and Mexico. Emerge publishes two public REST APIs — a Shipper (public) API for opportunities, options, awards, tenders, shipments, network partners and webhook subscriptions, and a Carrier API for capacity/integration providers responding to rate requests and tenders — plus a documented webhook event catalog, a testing sandbox, and TMS integrations with Project44, E2open, MercuryGate and Capacity Link partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png",
+     "score": 47.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 62.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 28.0,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 35.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "RunBuggy",
+     "slug": "runbuggy",
+     "description": "RunBuggy is a Phoenix, Arizona based technology company operating an open, automotive-focused vehicle transportation marketplace and TMS that connects car shippers — dealers, auctions, OEMs, rental and fleet operators — with car haulers and transporters. Its products are the RunBuggy Marketplace (transportation-as-a-service for finding, moving and tracking a vehicle), RunBuggy HITCH (a cloud transportation management system that connects to an existing dealer or auction management system and transporter network), RunBuggy One (personal vehicle shipping) and RunBot (a generative-AI assistant applied to order resolution and delivery-exception prediction). RunBuggy publishes a public Shippers API — Swagger 2.0 definitions for Orders, Vehicle Transfer Orders, Gate Passes, Webhooks, Companies and Authentication — at docs.runbuggy.com, and operates an OAuth-protected Model Context Protocol server for its data-science surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 60.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 14.5,
+      "access_clarity": 14.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 33.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Kardinal",
+     "slug": "kardinal",
+     "description": "Kardinal is a Paris-based logistics optimization company whose Always-on Route Optimization (ARO) API solves vehicle routing problems for last-mile delivery, post and parcel, waste and bulk transport, fresh delivery, field services and retail operators. Integrators submit a plan — resources (vehicles), orders (stops) and constraints such as capacities, time windows, driver skills and breaks — with a single idempotent PUT, and the engine optimizes it continuously rather than in a nightly batch, so new orders, cancellations, traffic and field updates are absorbed into the running solution instead of forcing a rerun. The REST API is documented with a published OpenAPI 3.0.3 definition covering 40 operations across authentication, plans, resources, orders and solutions, and is reachable per customer environment at https://<env>.kardinal.ai/api/v2 using short-lived JWT bearer tokens.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/screenshots/kardinal-2026-09-02T150130.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 50.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 35.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 15
     },
     {
@@ -722,7 +722,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -774,7 +774,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -826,7 +826,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -878,7 +878,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 39.8,
      "agent_band": "agent-native",
@@ -923,7 +923,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -968,7 +968,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.0,
      "agent_band": "agent-native",
@@ -1013,7 +1013,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1058,7 +1058,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
@@ -1103,7 +1103,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -1148,7 +1148,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -1193,7 +1193,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1238,7 +1238,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1283,7 +1283,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1328,7 +1328,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1373,7 +1373,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1425,7 +1425,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1470,7 +1470,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.8,
      "agent_band": "agent-native",
@@ -1515,7 +1515,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1560,7 +1560,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1599,12 +1599,12 @@
      "slug": "maven-machines",
      "description": "Maven Machines (branded \"Maven\") is a Pittsburgh, Pennsylvania software company that builds a cloud platform for automating the planning and execution of daily trucking operations. The product suite spans route planning and optimization, dispatch execution, driver workflow, ELD / hours-of-service compliance, telematics and fleet management, delivered through a web portal for planners and dispatchers and an Android driver application. Maven publishes a public developer hub at maven-machines.readme.io covering fifteen separate OpenAPI definitions against a single production base URL, https://integrations.mavenmachines.com, secured with an `apiKey` request header. The integration model is TMS-to-Maven — master data (users, vehicles, trailers, company locations), transactional data (shipments, P&D manifests, linehaul manifests and trips, truckload trips and stops) flows in, and business activity flows back out through a polled `GET /return-events` queue and an event-sourced manifest/movement commands API. Maven also operates per-customer integration middleware services on <customer>.middleware.mavenmachines.com, several of which publish their own Swagger/OpenAPI documents publicly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/screenshots/maven-machines-2026-09-02T150440.png",
-     "score": 41.3,
+     "score": 41.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 64.3,
+      "contract_quality": 65.0,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
@@ -1612,7 +1612,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
@@ -1657,7 +1657,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1702,7 +1702,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -1747,7 +1747,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -1792,7 +1792,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
@@ -1837,7 +1837,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
@@ -1882,7 +1882,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1927,7 +1927,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1972,7 +1972,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2035,7 +2035,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2087,7 +2087,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -2132,7 +2132,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2177,7 +2177,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2229,7 +2229,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2281,7 +2281,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -2326,7 +2326,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2371,7 +2371,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2416,7 +2416,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2468,7 +2468,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -2513,7 +2513,7 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2565,7 +2565,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2616,7 +2616,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 9.4,
      "agent_band": "agent-aware",
@@ -2661,7 +2661,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -2692,6 +2692,7 @@
      "name": "TicTacTrip",
      "slug": "tictactrip",
      "description": "TicTacTrip is a European multimodal travel search and booking platform (Techstars-backed) that aggregates train and bus inventory from 250+ carriers across 20+ European countries into single, combined itineraries. Its REST API exposes stop and city discovery, multimodal itinerary search with CO2 emissions per journey, and a full booking workflow — cart, order, book, e-ticket and cancellation — authenticated with partner bearer JWTs (API_SEARCH_PARTNER / API_BOOK_PARTNER roles). API access is provisioned via sales@tictactrip.eu.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tictactrip/refs/heads/main/screenshots/tictactrip-2026-09-02T163709.png",
      "score": 36.6,
      "band": "thin",
      "band_label": "Thin",
@@ -2705,7 +2706,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -2750,7 +2751,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -2795,7 +2796,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 44.3,
      "agent_band": "agent-ready",
@@ -2840,7 +2841,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -2885,7 +2886,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2930,7 +2931,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2982,7 +2983,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3027,7 +3028,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -3072,7 +3073,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3117,7 +3118,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.1,
      "agent_band": "agent-aware",
@@ -3162,7 +3163,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3214,7 +3215,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3266,7 +3267,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -3311,7 +3312,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3362,7 +3363,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -3407,7 +3408,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.3,
      "agent_band": "agent-aware",
@@ -3452,7 +3453,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3497,7 +3498,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -3542,7 +3543,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3587,7 +3588,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -3632,7 +3633,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.3,
      "agent_band": "agent-aware",
@@ -3677,7 +3678,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -3722,7 +3723,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3774,7 +3775,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -3819,7 +3820,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3871,7 +3872,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -3916,7 +3917,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -3961,7 +3962,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -4006,7 +4007,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -4051,7 +4052,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4096,7 +4097,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4148,7 +4149,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -4193,7 +4194,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4255,7 +4256,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4307,7 +4308,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4359,7 +4360,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4404,7 +4405,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4456,7 +4457,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4508,7 +4509,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4560,7 +4561,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4611,7 +4612,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4663,7 +4664,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -4708,7 +4709,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4746,6 +4747,7 @@
      "name": "UrbanLogiq",
      "slug": "urbanlogiq",
      "description": "UrbanLogiq (CommunityLogiq Software, Inc.) is a community intelligence platform that helps government leaders make faster, data-driven decisions by unifying siloed departmental data across transportation, planning, public safety, and economic development. The platform spans data integration, predictive modeling, cross-domain analytics, and governed generative AI (Ethica), and is served by a signed-request platform API with an official open source multi-language SDK (C++, Go, Java, Python, Rust, TypeScript) and CLI. Customers include the City of Toronto, Chicago DOT, the State of Hawaii, and Texas DOT; the service runs in separate US and Canada environments for data residency and is ISO/IEC 27001, 27701, 27017, and 27018 certified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urbanlogiq/refs/heads/main/screenshots/urbanlogiq-2026-09-02T165205.png",
      "score": 24.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4759,7 +4761,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4826,7 +4828,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -4871,7 +4873,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -4902,6 +4904,7 @@
      "name": "Super73",
      "slug": "super73",
      "description": "SUPER73 (legally SUPER73, Inc., founded 2016 in Orange County, California as Lithium Cycles) is an American electric-bicycle and lifestyle adventure brand best known for its moped-styled Class 2 e-bikes — the S-Series, ZX, RX, R-Series Adventure and the 2026 A-Series with modular dual-battery technology. The company sells direct-to-consumer through Shopify storefronts in North America (super73.com) and Europe (eu.super73.com, operated by SUPER73 BV), and pairs its bikes with a mobile app that adds Bluetooth ride telemetry plus a cellular IoT upgrade for GPS tracking, movement alerts, digital bike passport and remote immobilizer. SUPER73 publishes no traditional developer program, but both storefronts expose a real, anonymous, machine-callable agent surface: an /llms.txt and /agents.md agent instruction document, a Universal Commerce Protocol (UCP 2026-08-25) merchant profile at /.well-known/ucp, a live MCP endpoint at /api/ucp/mcp serving 13 commerce tools with full JSON Schema, and an anonymously introspectable Shopify Storefront GraphQL API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/super73/refs/heads/main/screenshots/super73-2026-09-02T161213.png",
      "score": 23.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4915,7 +4918,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.3,
      "agent_band": "agent-aware",
@@ -4960,7 +4963,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4998,6 +5001,7 @@
      "name": "Transport Canada",
      "slug": "transport-canada",
      "description": "Transport Canada (Transports Canada) is the federal department that regulates aviation, marine, rail and road transportation in Canada under the Aeronautics Act and the Canadian Aviation Regulations. In travel it is the safety-and-security regulator rather than a participant in distribution — it certifies air operators, registers aircraft on the Canadian Civil Aircraft Register, licenses pilots and drone operators, runs the Civil Aviation Daily Occurrence Reporting System (CADORS) and the Air Cargo Security program, and publishes the Canadian airports layer. It sits entirely outside the GDS/NDC distribution chain; airline economic licensing, all-in fare advertising and the Air Passenger Protection Regulations belong to the separate Canadian Transportation Agency. Its API posture is thin but genuinely open — no developer portal exists at tc.canada.ca, developer./developers./docs. subdomains do not resolve, and no OpenAPI is published anywhere. What does exist is real and ungated: a self-describing JSON/XML Vehicle Recalls Database API at data.tc.gc.ca, an ArcGIS REST and OGC WMS service for Canadian airports with air navigation services, and bulk CSV/XML extracts of CADORS, the Air Cargo Security members list and the vessel registers, all indexed through the Treasury-Board-operated open.canada.ca CKAN Action API under the Open Government Licence – Canada. No key, no account, no accreditation, no contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/transport-canada/refs/heads/main/screenshots/transport-canada-2026-09-02T164136.png",
      "score": 22.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5011,7 +5015,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5049,6 +5053,7 @@
      "name": "Waze",
      "slug": "waze",
      "description": "Waze is a Google-owned, community-driven navigation and real-time traffic application. Its developer surface is not a self-service JSON REST API but a set of public URL-invocation and embed contracts plus partner-gated data and SDK programs. Waze Deep Links open the Waze app from a URL to locate an address, drop a pin, or start turn-by-turn navigation; the Waze iFrame embeds the interactive Live Map in any web page; Waze for Cities Data Feeds let agencies exchange road-closure, incident, and working-vehicle data (CIFS, WZDx, DATEX II, ESRI) and receive a partner-specific JSON alerts feed; the Waze Transport SDK gives transportation apps ETA/routing and trip-data collection; and the Waze Audio Kit surfaces audio content in-drive. Developer documentation is hosted on Google for Developers at developers.google.com/waze and partner programs are provisioned through the Waze Partner Hub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/waze/refs/heads/main/screenshots/waze-2026-09-02T170520.png",
      "score": 22.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5062,7 +5067,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5107,7 +5112,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5145,6 +5150,7 @@
      "name": "Union Pacific",
      "slug": "union-pacific",
      "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/screenshots/union-pacific-2026-09-02T164906.png",
      "score": 22.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5158,7 +5164,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -5203,7 +5209,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5248,7 +5254,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5300,7 +5306,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5344,7 +5350,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -5389,7 +5395,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5433,7 +5439,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5478,7 +5484,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5530,7 +5536,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -5575,7 +5581,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5627,7 +5633,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5679,7 +5685,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5724,7 +5730,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5769,7 +5775,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5821,7 +5827,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5884,7 +5890,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5929,7 +5935,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5974,7 +5980,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6019,7 +6025,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6064,7 +6070,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6109,7 +6115,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6161,7 +6167,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6206,7 +6212,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6258,7 +6264,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6303,7 +6309,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -6347,7 +6353,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6378,6 +6384,7 @@
      "name": "Urban SDK",
      "slug": "urban-sdk",
      "description": "Urban SDK is a geospatial AI and data analytics company serving the public sector, delivering hourly road-speed and traffic data, analytics, and AI tools that help cities, counties, and transportation agencies prioritize issues, pinpoint trends, and act on traffic management, public safety, emergency response, and infrastructure planning. A Techstars portfolio company based in Jacksonville, Florida, Urban SDK delivers its data through a web platform and automated Workflows reports rather than a public API, and currently publishes no developer documentation or client SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urban-sdk/refs/heads/main/screenshots/urban-sdk-2026-09-02T165154.png",
      "score": 17.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6391,7 +6398,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6443,7 +6450,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6488,7 +6495,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6533,7 +6540,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6578,7 +6585,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6609,6 +6616,7 @@
      "name": "Skootar",
      "slug": "skootar",
      "description": "Skootar is a Thai on-demand courier, messenger, and logistics platform serving Bangkok, its surrounding provinces, and Chonburi. It offers same-day document delivery, cheque and bill collection, parcel shipping, business food delivery, and on-demand pickup-truck and moving jobs across a fleet of motorcycles, cars, and trucks, all with real-time tracking. Orders can be placed 24/7 through the website, the mobile app, or an API intended for high-volume businesses to wire delivery ordering into their own back-office systems. Skootar reports more than 130,000 business customers, 26,000+ drivers, and 9.2 million+ completed deliveries over 12 years, and is backed by 500 Global. No public developer portal, OpenAPI specification, or SDK is published; API access is arranged through its business/enterprise channel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skootar/refs/heads/main/screenshots/skootar-2026-09-02T155740.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6622,7 +6630,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6667,7 +6675,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6712,7 +6720,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6743,6 +6751,7 @@
      "name": "Souco",
      "slug": "souco",
      "description": "Souco (株式会社souco / souco Co., Ltd.) operates a warehouse-sharing marketplace and logistics resource optimization platform in Japan, connecting cargo owners with available space across a nationwide network of 3,000+ warehouses spanning all 47 prefectures. Businesses can secure short- or long-term storage on demand for a wide range of cargo — food ingredients, apparel, machinery, and documents — under ambient, refrigerated, frozen, or temperature-controlled conditions, with pickup and delivery coordination handled by the platform. Alongside the sharing marketplace, souco offers a rental-warehouse search portal, transportation services, and the Optis engine for optimizing logistics networks, plus consulting and DX support for the logistics industry. The company is backed by 500 Global and Sumitomo Corporation's corporate venture arm. souco is a customer-facing logistics platform and does not currently publish a public developer API, SDKs, or developer documentation; its digital surface is a login-gated web application at app.souco.space.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/souco/refs/heads/main/screenshots/souco-2026-09-02T160239.png",
      "score": 15.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6756,7 +6765,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6801,7 +6810,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6846,7 +6855,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6877,6 +6886,7 @@
      "name": "SmartHop",
      "slug": "smarthop",
      "description": "SmartHop is a fleet and trip management platform for small trucking companies, owner-operators, and independent dispatchers. It aggregates real-time loads from multiple freight sources into a single load board and provides load booking, trip creation and management, dispatch management, payroll, profit optimization, market analysis, and performance reporting. SmartHop consumes third-party freight APIs from partners including DAT Freight & Analytics, C.H. Robinson, Loadsmart, Redwood Logistics, Newtrul, and Parade, but does not publish a public developer API of its own; its api.smarthop.co host backs the SmartHop web and mobile apps rather than a documented external API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smarthop/refs/heads/main/screenshots/smarthop-2026-09-02T155923.png",
      "score": 14.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6890,7 +6900,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6921,6 +6931,7 @@
      "name": "Tier",
      "slug": "tier",
      "description": "Tier (now operating as Dott following the 2024 merger of TIER Mobility and Dott) is a European micromobility operator providing shared e-scooters and e-bikes across more than 400 cities in Europe and the Middle East. The company exposes a partner-facing Dott Partner API — an API-Key-gated data feed (including GBFS-style vehicle-availability data) governed by its published API Licence — alongside consumer rider apps for iOS and Android. Founded in 2018 and headquartered in Amsterdam, Tier/Dott was backed by Northzone, Point Nine, and Speedinvest.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tier/refs/heads/main/screenshots/tier-2026-09-02T163730.png",
      "score": 14.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6934,7 +6945,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6965,6 +6976,7 @@
      "name": "Sydney Airport",
      "slug": "sydney-airport",
      "description": "Sydney Airport Corporation Limited (ACN 082 578 809) operates Sydney Kingsford Smith Airport (IATA SYD, ICAO YSSY), Australia's principal international gateway, under private ownership by the Sydney Aviation Alliance consortium since its 2022 ASX delisting. In the travel distribution chain it is infrastructure rather than an intermediary - it sells no seats, holds no inventory, issues no PNRs, and sits outside the GDS and IATA NDC value chain entirely, monetising aeronautical charges, car parking, retail concessions and property instead. Its API posture is effectively nil - Sydney Airport publishes no developer portal, no API documentation, no OpenAPI, and no terms of use for machine access. Its public website is backed by undocumented JSON endpoints under /_a/ that return live flight and security wait-time data with no published contract, while its only credentialed partner surface, InfoSYD, is gated behind a ForgeRock OAuth 2.0 / OpenID Connect identity provider at id.syd.com.au and is restricted to airlines, ground handlers and on-airport tenants. The published terms of use expressly prohibit automated retrieval, scraping and indexing of the site, so there is public data but no public interface - and no documented exit path beyond an Australian Privacy Principle 12 personal-information access request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/screenshots/sydney-airport-2026-09-02T161434.png",
      "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6978,7 +6990,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -7023,7 +7035,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7068,7 +7080,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7113,7 +7125,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7158,7 +7170,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -7189,6 +7201,7 @@
      "name": "YQN",
      "slug": "yqn",
      "description": "YQN is a global digital logistics platform and NVOCC / digital freight forwarder founded in 2015 and headquartered in Shanghai, China. It lets shippers compare rates, book, and manage international sea freight, air freight, and rail freight, multimodal transport, trucking, customs clearance, cargo insurance, and overseas warehousing online. YQN operates 25+ global branches across North America, Latin America, Southeast Asia, and the Middle East with 1,500+ employees, 300+ shipping and airline partners, and 3,500+ supplier resources. It integrates directly with carriers such as Lufthansa Cargo via carrier APIs for rate-checking, allotment booking, and digital bill-of-lading generation. YQN holds FIATA, IATA, and NVOCC certifications, but publishes no public developer API portal or documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yqn/refs/heads/main/screenshots/yqn-2026-09-02T171350.png",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7202,7 +7215,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7247,7 +7260,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7292,7 +7305,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -7337,7 +7350,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7388,7 +7401,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7433,7 +7446,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7478,7 +7491,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7523,7 +7536,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7568,7 +7581,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -7613,7 +7626,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7658,7 +7671,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7703,7 +7716,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7748,7 +7761,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7793,7 +7806,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7838,7 +7851,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7869,6 +7882,7 @@
      "name": "Skyryse",
      "slug": "skyryse",
      "description": "Skyryse is an El Segundo, California aviation technology company founded in 2016 by Mark Groden and Mitch Adler that builds SkyOS, a universal operating system for flight. SkyOS is a retrofittable hardware and software stack that replaces complex mechanical flight controls with a triply redundant, software-driven system, letting a pilot fly an airplane or helicopter with a single control stick and touchscreens. The platform delivers simplified flight controls, inherent stability, automated maneuvers, emergency autorotation, automated zero-visibility landing, envelope protection, and optionally piloted capability. Skyryse also produces Skyryse One, a SkyOS-powered production helicopter, and Skylar, a universal AI flight assistant. Customers and partners span the U.S. military, law enforcement, Cal Fire, emergency medical services, disaster response, and private operators. In February 2026 the company raised over $300 million in Series C funding at a $1.15 billion post-money valuation, co-led by Autopilot and Fidelity Investments. Skyryse operates as a certified-avionics and aircraft manufacturer and does not publish a public developer API, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyryse/refs/heads/main/screenshots/skyryse-2026-09-02T155815.png",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7882,7 +7896,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7927,7 +7941,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7979,7 +7993,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8024,7 +8038,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8069,7 +8083,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -8114,7 +8128,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8145,6 +8159,7 @@
      "name": "Vay",
      "slug": "vay",
      "description": "Vay is a Berlin-headquartered teledriving (remote driving) mobility company, founded in 2018 by Thomas von der Ohe, Fabrizio Scelsi, and Bogdan Djukic, that operates the first commercial remotely driven car service. Customers in Las Vegas rent cars by the minute that are delivered and parked driverless by professional remote drivers from a Remote Driving Center; the company runs a 175-vehicle fleet, has served 50,000+ trips, and raised a Series C from Grab in December 2025. Vay is a consumer mobility service and does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vay/refs/heads/main/screenshots/vay-2026-09-02T165513.png",
      "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8158,7 +8173,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8203,7 +8218,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8248,7 +8263,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8293,7 +8308,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8324,6 +8339,7 @@
      "name": "Zum",
      "slug": "zum",
      "description": "Zum is a student transportation technology company that runs school bus operations for K-12 school districts through its Connected Mobility Experience (CMX) platform. Founded by Ritu Narayan and headquartered in Redwood City, California, Zum unifies parents, students, drivers, and district administrators with real-time ride tracking, route optimization, parent notification apps, driver tooling, fleet management dashboards, and an electrified bus program. The company serves roughly 6,500 schools and districts, has completed more than 159 million rides, and is backed by SoftBank Vision Fund. Zum operates consumer-facing parent and driver mobile apps and district dashboards, but publishes no public developer portal, API documentation, or API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zum/refs/heads/main/screenshots/zum-2026-09-02T171851.png",
      "score": 11.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -8337,7 +8353,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8388,7 +8404,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8433,7 +8449,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8488,7 +8504,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8540,7 +8556,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8584,7 +8600,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8629,7 +8645,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8674,7 +8690,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8719,7 +8735,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8764,7 +8780,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8809,7 +8825,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8854,7 +8870,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8899,7 +8915,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8944,7 +8960,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8989,7 +9005,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9034,7 +9050,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9079,7 +9095,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9124,7 +9140,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9169,7 +9185,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9200,6 +9216,7 @@
      "name": "Viewlocity",
      "slug": "viewlocity",
      "description": "Viewlocity Technologies Pty Ltd is a supply chain management software company that provides supply chain visibility, control tower, and execution solutions for global manufacturers, distributors, and logistics providers. Its solution set spans supply chain design, inventory and asset management, supply chain management, logistics and transportation, planning and production, order lifecycle management, and supplier management, delivered as SaaS and managed services to industries including aerospace and defense, automotive and industrial, consumer goods, high tech and electronics, manufacturing, retail, and third-party logistics. Viewlocity publishes a corporate marketing and resource website but does not expose a public developer portal, API documentation, or machine-readable API specifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viewlocity/refs/heads/main/screenshots/viewlocity-2026-09-02T165904.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9213,7 +9230,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9244,6 +9261,7 @@
      "name": "Wanderu",
      "slug": "wanderu",
      "description": "Wanderu is a ground-travel metasearch and booking platform - a Kayak-style aggregator that lets travelers search, compare, and book intercity bus and train tickets (plus flights and ferries) across hundreds of carriers in North America and Europe, including Amtrak, Greyhound, FlixBus, Megabus, Peter Pan, VIA Rail, and Deutsche Bahn. Its routing technology stitches together multi-operator bus-and-train itineraries, and bookings are completed in-platform with carriers paying a percentage of each fare. Wanderu operates a private booking/search API and publishes no public developer program, SDKs, or OpenAPI; its public open-source presence is internal engineering tooling on GitHub (the redis-backed \"bamboo\" queuing system). Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wanderu/refs/heads/main/screenshots/wanderu-2026-09-02T170421.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9257,7 +9275,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9302,7 +9320,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9347,7 +9365,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9378,6 +9396,7 @@
      "name": "Stack AV",
      "slug": "stack-av",
      "description": "Stack AV is a Pittsburgh, Pennsylvania autonomous-vehicle company founded in 2023 by Bryan Salesky (CEO), Peter Rander (President) and Brett Browning (CTO) — the leadership team behind Argo AI — and backed by SoftBank Group. The company develops AI-driven autonomy software and hardware for Class 8 commercial freight trucking, targeting driver shortages, vehicle uptime, safety, operating cost and emissions, and in May 2026 unveiled its first autonomous truck built in collaboration with PACCAR and Peterbilt Motors. Stack AV runs a public open-source engineering organization at github.com/stackav-oss (dltype, conch Triton kernels, clockwork, scene-tokens, push-guard, ai-workloads). It publishes no public developer program, API reference, or machine-readable API contract as of August 2026 — the product is an autonomous freight service, not a developer platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stack-av/refs/heads/main/screenshots/stack-av-2026-09-02T160658.png",
      "score": 10.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9391,7 +9410,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9436,7 +9455,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9481,7 +9500,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9512,6 +9531,7 @@
      "name": "Snowman",
      "slug": "snowman",
      "description": "Snowman Logistics is an Indian integrated cold-chain and temperature-controlled logistics company headquartered in Bengaluru, providing refrigerated (frozen and chilled) warehousing, cold storage, and distribution services across India. It serves frozen and chilled foods, dairy, seafood, quick-service restaurants, pharmaceuticals, and other perishables through a national network of temperature-controlled warehouses and a refrigerated transportation fleet. The company is publicly listed on Indian exchanges and was surfaced as a portfolio company of Norwest Venture Partners. This profile was enriched by the API Evangelist pipeline; the enrichment pass confirmed the company publishes a marketing/corporate website (snowman.in) but exposes no public developer, API, or well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowman/refs/heads/main/screenshots/snowman-2026-09-02T160025.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9525,7 +9545,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9570,7 +9590,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9622,7 +9642,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9667,7 +9687,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9719,7 +9739,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9750,6 +9770,7 @@
      "name": "SkyDrive",
      "slug": "skydrive",
      "description": "SkyDrive Inc. is a Japanese advanced air mobility manufacturer, founded in July 2018 by members of the CARTIVATOR volunteer project, that develops, manufactures, sells and operates eVTOL (electric vertical take-off and landing) aircraft. Its flagship aircraft, SKYDRIVE (model SD-05), is a compact three-seat electric aircraft in type certification with the Japan Civil Aviation Bureau and in concurrent validation with the US Federal Aviation Administration, and is produced with official manufacturing partner Suzuki Motor Corporation at Suzuki's plant in Iwata, Shizuoka. The company is headquartered in Toyota City, Aichi, with offices in Tokyo, Nagoya, Osaka and Yamaguchi and a US subsidiary, SkyDrive America. SkyDrive is a hardware and aircraft-operations company; it publishes no public developer program, API, SDK or machine-readable interface contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydrive/refs/heads/main/screenshots/skydrive-2026-09-02T155756.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9763,7 +9784,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9808,7 +9829,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9860,7 +9881,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9912,7 +9933,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9957,7 +9978,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10002,7 +10023,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10047,7 +10068,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10092,7 +10113,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10137,7 +10158,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10182,7 +10203,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10213,6 +10234,7 @@
      "name": "Telgani",
      "slug": "telgani",
      "description": "Telgani is an app-based car rental aggregator founded in 2018 and headquartered in Riyadh, Saudi Arabia. Its consumer iOS and Android apps let users compare prices and book cars from more than 50 partner rental companies with over 500 branches across the Kingdom, offering doorstep delivery, airport pickup, and daily, monthly, or yearly rentals. Backed by 500 Global, Impact46, and Elm, Telgani has raised roughly $8.5M across a seed round, a 2021 pre-Series A, and a 2023 Series A. Telgani operates as a consumer mobile marketplace and does not publish a public developer API program; this profile captures its public web properties (homepage, privacy policy, terms of service) and its domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telgani/refs/heads/main/screenshots/telgani-2026-09-02T162739.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10226,7 +10248,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10270,7 +10292,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10301,6 +10323,7 @@
      "name": "WeRide",
      "slug": "weride",
      "description": "WeRide (NASDAQ: WRD) is an autonomous driving technology company founded in 2017 and headquartered in Guangzhou, China. It develops Level 4 self-driving technology across a portfolio of five core products — Robotaxi, Robobus, Robovan, Robosweeper (autonomous sanitation) and advanced driver-assistance systems (ADAS) — and operates its fleets in more than 40 cities across 12 countries. WeRide does not publish a public developer API, SDK, or developer portal; this profile captures the company's public web presence and domain-security posture as surfaced by the API Evangelist enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/weride/refs/heads/main/screenshots/weride-2026-09-02T170629.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10314,7 +10337,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10359,7 +10382,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10404,7 +10427,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10449,7 +10472,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10480,6 +10503,7 @@
      "name": "Terawatt Infrastructure",
      "slug": "terawatt-infrastructure",
      "description": "Terawatt Infrastructure is a US infrastructure company that acquires, develops, owns, and operates purpose-built electric-vehicle charging centers for commercial fleets — medium- and heavy-duty trucking, drayage, autonomous vehicle and rideshare operators. The company sells charging-as-a-service rather than software: it holds real estate and grid interconnection, builds high-power charging sites (including the I-10 electrified corridor and sites near the Ports of Los Angeles and Long Beach), and runs them with its own proprietary Charge Management Software, operations and maintenance program, and a customer reservations portal. Terawatt states publicly that it has implemented the Open Charge Point Interface (OCPI) with custom extensions so fleet customers get visibility into its charging facilities, but it publishes no public developer portal, API reference, or machine-readable contract for that surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/terawatt-infrastructure/refs/heads/main/screenshots/terawatt-infrastructure-2026-09-02T163126.png",
      "score": 8.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10493,7 +10517,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10545,7 +10569,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10590,7 +10614,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10635,7 +10659,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10680,7 +10704,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10711,6 +10735,7 @@
      "name": "Upshift",
      "slug": "upshiftcars",
      "description": "Upshift is a San Francisco fractional car subscription service — \"a 2-car garage, in your pocket.\" Members choose 4, 8, or 12 driving days a month and get a premium Toyota hybrid delivered clean, fueled, insured, and maintained, then picked up when they are done, with plans from $399/month including insurance, delivery, and maintenance. A 500 Global and URBAN-X portfolio company, Upshift publishes no public developer program or API surface; the member experience runs through its iOS/Android apps and go.upshiftcars.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upshiftcars/refs/heads/main/screenshots/upshiftcars-2026-09-02T165100.png",
      "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10724,7 +10749,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -10769,7 +10794,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10814,7 +10839,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10859,7 +10884,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10904,7 +10929,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10949,7 +10974,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10980,6 +11005,7 @@
      "name": "Trucks Venture Fund I",
      "slug": "trucks-venture-fund-i",
      "description": "Trucks Venture Capital (Trucks VC) is an early-stage venture firm headquartered in San Francisco investing in companies building the future of transportation — making mobility decarbonized, safer, and more accessible. Its focus spans autonomous vehicles, electric aviation, agricultural robotics, fleet management, and mobility infrastructure. Trucks Venture Fund I is the firm's first fund; notable portfolio outcomes include Joby Aviation (NYSE: JOBY), Bear Flag Robotics (acquired by John Deere), nuTonomy (acquired by Delphi), Roadster (acquired by CDK Global), and Zendrive (acquired by Intuit). Surfaced as a portfolio relation of 500 Global and profiled in the API Evangelist network as a venture-capital firm; it publishes a marketing/portfolio website but no developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trucks-venture-fund-i/refs/heads/main/screenshots/trucks-venture-fund-i-2026-09-02T164320.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10993,7 +11019,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11038,7 +11064,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11090,7 +11116,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11135,7 +11161,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11166,6 +11192,7 @@
      "name": "Volteum",
      "slug": "volteum",
      "description": "Volteum provides fleet electrification and EV fleet management software that helps companies plan, execute, and operate the transition of their vehicle fleets to electric. The platform covers electrification planning, charging optimisation, and live fleet management, connecting directly to vehicles through OEM APIs across 30+ brands with no hardware installation to track mileage, fault codes, charging sessions, maintenance intervals, and costs across electric, diesel, petrol, and hybrid fleets. Volteum is a Techstars portfolio company and publishes no public developer portal; its telematics and fleet-system API integrations are offered to customers directly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/volteum/refs/heads/main/screenshots/volteum-2026-09-02T170239.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11179,7 +11206,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11231,7 +11258,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11276,7 +11303,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11321,7 +11348,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11366,7 +11393,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11411,7 +11438,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11456,7 +11483,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11501,7 +11528,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11546,7 +11573,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11591,7 +11618,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11636,7 +11663,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11681,7 +11708,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11726,7 +11753,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11771,7 +11798,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11816,7 +11843,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11861,7 +11888,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11906,7 +11933,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11951,7 +11978,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11996,7 +12023,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12041,7 +12068,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12086,7 +12113,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12131,7 +12158,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12176,7 +12203,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12221,7 +12248,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12266,7 +12293,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12311,7 +12338,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12356,7 +12383,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12400,7 +12427,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12445,7 +12472,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12490,7 +12517,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12535,7 +12562,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12580,7 +12607,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12625,7 +12652,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12670,7 +12697,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12715,7 +12742,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12760,7 +12787,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12805,7 +12832,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12850,7 +12877,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12895,7 +12922,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12940,7 +12967,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12985,7 +13012,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13030,7 +13057,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13075,7 +13102,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13120,7 +13147,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13165,7 +13192,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13210,7 +13237,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13254,7 +13281,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13299,7 +13326,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13330,6 +13357,7 @@
      "name": "XFuel",
      "slug": "xfuel",
      "description": "XFuel develops, patents, and deploys technologies that transform diverse waste into low-carbon drop-in transport fuels, using its Chemical Liquid Refining (CLR) and Mechanical Carbon Conversion (MECC) processes to produce marine (ISO 8217 DMA), road (EN590), and in-development sustainable aviation fuels. Headquartered in Dublin, Ireland, with operations in Bunyola, Spain, and backed by Union Square Ventures. XFuel publishes no public API or developer program as of 2026-07-21.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xfuel/refs/heads/main/screenshots/xfuel-2026-09-02T171126.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13343,7 +13371,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13381,6 +13409,7 @@
      "name": "Travelier",
      "slug": "travelier",
      "description": "Travelier (founded 2016, formerly Bookaway Group, headquartered in Tel Aviv, Israel) is a travel technology group digitizing ground and sea transportation — the segment of travel that is still largely sold offline. The group operates seven consumer and operator brands: Bookaway, 12Go, Plataforma10, DeOnibus, Traveling.com, Sisorg and SeatOS, together reaching more than 120 countries and roughly 14 million monthly visitors. Its commercial developer surface is Travelier Connect, a single partner API that the company markets as the largest ground and sea transportation GDS — 12,000+ operators across 122 countries and around 500,000 routes for buses, ferries, trains and shuttles — alongside the SeatOS transportation management system, which exposes the same inventory to OTAs, GDSs, resellers and agent networks through one API connection. Both are partner integrations: as of this profile no public developer portal, API reference or machine-readable contract is published, and access runs through a sales contact form.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelier/refs/heads/main/screenshots/travelier-2026-09-02T164142.png",
      "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13394,7 +13423,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -13439,7 +13468,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13484,7 +13513,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13529,7 +13558,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13574,7 +13603,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13619,7 +13648,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13664,7 +13693,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13709,7 +13738,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13761,7 +13790,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13806,7 +13835,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13851,7 +13880,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13896,7 +13925,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13940,7 +13969,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13985,7 +14014,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14030,7 +14059,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14075,7 +14104,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14120,7 +14149,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14151,6 +14180,7 @@
      "name": "TruKKer",
      "slug": "trukker",
      "description": "TruKKer is a tech-enabled logistics and transportation company serving businesses across the EMEA region. Its platform uses AI-driven freight matching and smart route visibility to connect shippers with carriers for land freight, cross-border transport, rent-by-trip, and home and office moving, alongside services such as ProcureCo and TruKKer Safe. TruKKer was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. During enrichment no public developer API, API documentation, SDK, CLI, MCP server, or /.well-known discovery surface was found on trukker.com; this profile captures the company's public web identity and a domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trukker/refs/heads/main/screenshots/trukker-2026-09-02T164415.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14164,7 +14194,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14209,7 +14239,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14254,7 +14284,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14299,7 +14329,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14351,7 +14381,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14396,7 +14426,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14447,7 +14477,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14492,7 +14522,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14537,7 +14567,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14582,7 +14612,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14613,6 +14643,7 @@
      "name": "Spotangels",
      "slug": "spotangels",
      "description": "SpotAngels is a consumer parking application that helps drivers find free and cheap parking, understand and avoid confusing street-parking rules, get reminders before street cleaning and permit-zone changes, and book discounted garage and lot parking in major cities. The company also runs business programs for cities, universities, and parking operators/owners to surface availability and deals. SpotAngels is a Y Combinator-backed company. As of this enrichment pass it exposes no public developer API, developer portal, SDK, or machine-readable API surface; its integrations are business partnerships rather than developer-facing APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotangels/refs/heads/main/screenshots/spotangels-2026-09-02T160548.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14626,7 +14657,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14671,7 +14702,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -14723,7 +14754,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14768,7 +14799,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14812,7 +14843,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14857,7 +14888,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14901,7 +14932,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14946,7 +14977,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14991,7 +15022,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15036,7 +15067,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15081,7 +15112,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15126,7 +15157,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15170,7 +15201,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15215,7 +15246,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15260,7 +15291,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15305,7 +15336,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15350,7 +15381,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15381,6 +15412,7 @@
      "name": "Swiftmile",
      "slug": "swiftmile",
      "description": "Swiftmile is a California-based hardware and IoT company building universal charging and parking infrastructure for micromobility — docking stations that power, secure and organize shared and privately owned e-bikes and e-scooters, including solar-powered units and integrated digital advertising panels. Founded around 2014 and headquartered on the San Francisco Peninsula, it supplied secure charging docks to the New York City DOT public e-bike charging pilot alongside PopWheels and Swobbee. Company interviews describe a fleet- and battery-management backend with integrations offered to micromobility operators, but Swiftmile has never published a public developer program, API reference, SDK, or machine-readable contract of any kind, and as of 2026-08-29 swiftmile.com no longer serves the company website at all — the domain answers with a Nexcess hosting placeholder and a TLS certificate that does not match the hostname.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftmile/refs/heads/main/screenshots/swiftmile-2026-09-02T161356.png",
      "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -15394,7 +15426,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -15438,7 +15470,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15483,7 +15515,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15527,7 +15559,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15571,7 +15603,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15616,7 +15648,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15661,7 +15693,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15706,7 +15738,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15750,7 +15782,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15795,7 +15827,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15839,7 +15871,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15884,7 +15916,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15929,7 +15961,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15973,7 +16005,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16018,7 +16050,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16063,7 +16095,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16107,7 +16139,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16152,7 +16184,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16197,7 +16229,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16242,7 +16274,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16287,7 +16319,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16331,7 +16363,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16376,7 +16408,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16420,7 +16452,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16464,7 +16496,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16509,7 +16541,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16554,7 +16586,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16599,7 +16631,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16644,7 +16676,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16688,7 +16720,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16732,7 +16764,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16776,7 +16808,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16820,7 +16852,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16851,6 +16883,7 @@
      "name": "The Boring Company",
      "slug": "the-boring-company",
      "description": "The Boring Company is an American infrastructure and tunnel-construction company founded by Elon Musk in 2016 that designs and builds underground transportation, utility, and freight tunnels to reduce urban traffic congestion. Its Prufrock tunnel-boring machines dig low-cost tunnels roughly a mile a week, and its all-electric, zero-emissions Loop system carries passengers in Tesla vehicles through those tunnels — the Las Vegas Convention Center Loop is its first commercial deployment. The company publishes no public developer API, documentation, or SDKs; its web presence is marketing, careers, Vegas Loop ticketing, and a merchandise store.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-boring-company/refs/heads/main/screenshots/the-boring-company-2026-09-02T163325.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16864,7 +16897,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16908,7 +16941,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16952,7 +16985,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16983,6 +17016,7 @@
      "name": "Yetcargo",
      "slug": "yetcargo",
      "description": "Yetcargo is a Mexican freight and cargo transportation company that connects businesses needing to move goods with a network of reliable carriers, handling both local and long-distance (foráneo) shipments. Operating a Spanish-language web platform, it positions itself as a trusted cargo-transport provider (\"Tu proveedor confiable de transporte de carga\") for shippers who need to resolve local and out-of-town delivery problems. Yetcargo was surfaced through the 500 Global portfolio and added to the API Evangelist network; as of this enrichment pass it publishes no public API, developer portal, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yetcargo/refs/heads/main/screenshots/yetcargo-2026-09-02T171248.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16996,7 +17030,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17027,6 +17061,7 @@
      "name": "Zagster",
      "slug": "zagster",
      "description": "Zagster was a venture-funded bike-share startup based in Boston, Massachusetts (a Techstars portfolio company) that designed, built, and operated bike-sharing programs for cities, universities, corporate campuses, hotels, and residential communities across the United States, peaking at more than 200 programs in 2019. The company ceased bike-share operations in June 2020 amid the COVID-19 pandemic and is now defunct. Its former developer API host (zapi.zagster.com/api/v1/bikeshares) no longer resolves, and zagster.com is now a parked domain, so there is no live API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zagster/refs/heads/main/screenshots/zagster-2026-09-02T171432.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17040,7 +17075,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17084,7 +17119,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17128,7 +17163,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17173,7 +17208,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17225,7 +17260,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17269,7 +17304,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17314,7 +17349,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17358,7 +17393,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17403,7 +17438,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17448,7 +17483,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17493,7 +17528,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17545,7 +17580,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17597,7 +17632,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17649,7 +17684,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17701,7 +17736,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17753,7 +17788,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17805,12 +17840,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17855,7 +17890,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -17907,12 +17942,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17956,7 +17991,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18008,7 +18043,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18060,7 +18095,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18112,7 +18147,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18163,7 +18198,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18215,7 +18250,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18248,6 +18283,22 @@
       "agentic_commerce": false
      },
      "rank": 394
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "FlightFinder",
+     "slug": "flightfinder",
+     "description": "Read-only JSON API over a merged aviation-safety corpus: 164,068 accident narratives aggregated from 130 official investigation authorities (NTSB, ATSB, AAIB, BEA, MAK and national agencies), deduplicated into one occurrence-level dataset, plus the FAA wildlife-strike, laser-incident and drone-sighting datasets and OurAirports reference data. Every record carries its source, attribution, licence and a deep link, and GET /sources returns the per-source licence and narrative policy. Keyless tier answers without an Authorization header at 100 requests/day/IP, and the same corpus is served to agents by an anonymous remote MCP server at https://himaxym.com/mcp with nine tools.",
+     "rank": 395
     }
    ]
   }

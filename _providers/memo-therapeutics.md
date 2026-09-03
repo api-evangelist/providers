@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: News archive — press releases, Q&A interviews, event listings and scientific presentations (36 published on 2026-08-25).
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, Q&A interviews, event listings and scientific presentations (36 published on 2026-08-25).
   name: Memo Therapeutics Posts API
   slug: memo-therapeutics-posts-api
-- description: Corporate pages — About us, BKV, Contact us, Latest News, Further Information, Expanded Access Policy, and the privacy, cookie and terms documents (10 published on 2026-08-25).
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — About us, BKV, Contact us, Latest News, Further Information, Expanded Access Policy, and the privacy, cookie and terms documents (10 published on 2026-08-25).
   name: Memo Therapeutics Pages API
   slug: memo-therapeutics-pages-api
-- description: Media library — corporate imagery, partner and investor logos and leadership portraits (163 attachments on 2026-08-25).
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Media library — corporate imagery, partner and investor logos and leadership portraits (163 attachments on 2026-08-25).
   name: Memo Therapeutics Media API
   slug: memo-therapeutics-media-api
-- description: Categories and tags. Eight categories are registered and populated; the post_tag taxonomy is registered but empty.
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Eight categories are registered and populated; the post_tag taxonomy is registered but empty.
   name: Memo Therapeutics Taxonomy API
   slug: memo-therapeutics-taxonomy-api
-- description: Comment collection. Registered and anonymously reachable, but empty — no post on this deployment carries comments.
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty — no post on this deployment carries comments.
   name: Memo Therapeutics Comments API
   slug: memo-therapeutics-comments-api
-- description: Cross-content search across published objects (154 searchable objects on 2026-08-25).
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects (154 searchable objects on 2026-08-25).
   name: Memo Therapeutics Search API
   slug: memo-therapeutics-search-api
-- description: Route, namespace, type, taxonomy and status discovery documents — the machine-readable index this profile was derived from.
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Route, namespace, type, taxonomy and status discovery documents — the machine-readable index this profile was derived from.
   name: Memo Therapeutics Discovery API
   slug: memo-therapeutics-discovery-api
-- description: oEmbed 1.0 provider endpoint for memo-therapeutics.com URLs.
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for memo-therapeutics.com URLs.
   name: Memo Therapeutics oEmbed API
   slug: memo-therapeutics-oembed-api
-- description: Block-theme navigation menus exposed as a post type (1 published on 2026-08-25).
+- baseURL: https://memo-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Block-theme navigation menus exposed as a post type (1 published on 2026-08-25).
   name: Memo Therapeutics Navigation API
   slug: memo-therapeutics-navigation-api
 artifact_total: 13
@@ -220,7 +250,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

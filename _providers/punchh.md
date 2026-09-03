@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,142 +45,234 @@ agentic_access:
   summary_line: 17 operations · 12 acting
 api_count: 15
 apis:
-- description: Punchh provides robust APIs for integrating POS (Point-of-Sale) terminals with its back end. The integration helps businesses to offer their customers loyalty programs directly from their POS systems.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: Punchh provides robust APIs for integrating POS (Point-of-Sale) terminals with its back end. The integration helps businesses to offer their customers loyalty programs directly from their POS systems.
   name: Punchh POS API
   slug: punchh-pos-api
-- description: The Api2 API from Punchh — 26 operation(s) for api2.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Api2 API from Punchh — 26 operation(s) for api2.
   name: Punchh Api2 API
   slug: punchh-api2-api
-- description: The Auth API from Punchh — 14 operation(s) for auth.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Auth API from Punchh — 14 operation(s) for auth.
   name: Punchh Auth API
   slug: punchh-auth-api
-- description: The Badges API from Punchh — 1 operation(s) for badges.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Badges API from Punchh — 1 operation(s) for badges.
   name: Punchh Badges API
   slug: punchh-badges-api
-- description: The Beacons API from Punchh — 2 operation(s) for beacons.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Beacons API from Punchh — 2 operation(s) for beacons.
   name: Punchh Beacons API
   slug: punchh-beacons-api
-- description: The Business Admin Users API from Punchh — 3 operation(s) for business admin users.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Business Admin Users API from Punchh — 3 operation(s) for business admin users.
   name: Punchh Business Admin Users API
   slug: punchh-business-admin-users-api
-- description: The Business Migration Users API from Punchh — 3 operation(s) for business migration users.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Business Migration Users API from Punchh — 3 operation(s) for business migration users.
   name: Punchh Business Migration Users API
   slug: punchh-business-migration-users-api
-- description: The Challenges API from Punchh — 5 operation(s) for challenges.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Challenges API from Punchh — 5 operation(s) for challenges.
   name: Punchh Challenges API
   slug: punchh-challenges-api
-- description: The Check-in API from Punchh — 3 operation(s) for check-in.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Check-in API from Punchh — 3 operation(s) for check-in.
   name: Punchh Check In API
   slug: punchh-check-in-api
-- description: The Check-ins API from Punchh — 6 operation(s) for check-ins.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Check-ins API from Punchh — 6 operation(s) for check-ins.
   name: Punchh Check Ins API
   slug: punchh-check-ins-api
-- description: The Check User Balance API from Punchh — 4 operation(s) for check user balance.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Check User Balance API from Punchh — 4 operation(s) for check user balance.
   name: Punchh Check User Balance API
   slug: punchh-check-user-balance-api
-- description: The Collectibles API from Punchh — 3 operation(s) for collectibles.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Collectibles API from Punchh — 3 operation(s) for collectibles.
   name: Punchh Collectibles API
   slug: punchh-collectibles-api
-- description: The Coupons API from Punchh — 1 operation(s) for coupons.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Coupons API from Punchh — 1 operation(s) for coupons.
   name: Punchh Coupons API
   slug: punchh-coupons-api
-- description: The Custom Segments API from Punchh — 5 operation(s) for custom segments.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Custom Segments API from Punchh — 5 operation(s) for custom segments.
   name: Punchh Custom Segments API
   slug: punchh-custom-segments-api
-- description: The Deals API from Punchh — 2 operation(s) for deals.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Deals API from Punchh — 2 operation(s) for deals.
   name: Punchh Deals API
   slug: punchh-deals-api
-- description: The Drive-Thru API from Punchh — 1 operation(s) for drive-thru.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Drive-Thru API from Punchh — 1 operation(s) for drive-thru.
   name: Punchh Drive Thru API
   slug: punchh-drive-thru-api
-- description: The eClub API from Punchh — 1 operation(s) for eclub.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The eClub API from Punchh — 1 operation(s) for eclub.
   name: Punchh E Club API
   slug: punchh-eclub-api
-- description: The Feedback API from Punchh — 4 operation(s) for feedback.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Feedback API from Punchh — 4 operation(s) for feedback.
   name: Punchh Feedback API
   slug: punchh-feedback-api
-- description: The File Upload API from Punchh — 1 operation(s) for file upload.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The File Upload API from Punchh — 1 operation(s) for file upload.
   name: Punchh File Upload API
   slug: punchh-file-upload-api
-- description: The Franchisee API from Punchh — 1 operation(s) for franchisee.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Franchisee API from Punchh — 1 operation(s) for franchisee.
   name: Punchh Franchisee API
   slug: punchh-franchisee-api
-- description: The Game API from Punchh — 1 operation(s) for game.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Game API from Punchh — 1 operation(s) for game.
   name: Punchh Game API
   slug: punchh-game-api
-- description: The Gift Cards API from Punchh — 14 operation(s) for gift cards.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Gift Cards API from Punchh — 14 operation(s) for gift cards.
   name: Punchh Gift Cards API
   slug: punchh-gift-cards-api
-- description: The Invitations API from Punchh — 4 operation(s) for invitations.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Invitations API from Punchh — 4 operation(s) for invitations.
   name: Punchh Invitations API
   slug: punchh-invitations-api
-- description: The Locations API from Punchh — 9 operation(s) for locations.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Locations API from Punchh — 9 operation(s) for locations.
   name: Punchh Locations API
   slug: punchh-locations-api
-- description: The Loyalty Transfers API from Punchh — 3 operation(s) for loyalty transfers.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Loyalty Transfers API from Punchh — 3 operation(s) for loyalty transfers.
   name: Punchh Loyalty Transfers API
   slug: punchh-loyalty-transfers-api
-- description: The Meta API from Punchh — 1 operation(s) for meta.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Meta API from Punchh — 1 operation(s) for meta.
   name: Punchh Meta API
   slug: punchh-meta-api
-- description: The Meta & Version API from Punchh — 3 operation(s) for meta & version.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Meta & Version API from Punchh — 3 operation(s) for meta & version.
   name: Punchh Meta & Version API
   slug: punchh-meta-version-api
-- description: The Migration API from Punchh — 2 operation(s) for migration.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Migration API from Punchh — 2 operation(s) for migration.
   name: Punchh Migration API
   slug: punchh-migration-api
-- description: The Notifications API from Punchh — 5 operation(s) for notifications.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Notifications API from Punchh — 5 operation(s) for notifications.
   name: Punchh Notifications API
   slug: punchh-notifications-api
-- description: The Offers API from Punchh — 2 operation(s) for offers.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Offers API from Punchh — 2 operation(s) for offers.
   name: Punchh Offers API
   slug: punchh-offers-api
-- description: The Passcodes API from Punchh — 2 operation(s) for passcodes.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Passcodes API from Punchh — 2 operation(s) for passcodes.
   name: Punchh Passcodes API
   slug: punchh-passcodes-api
-- description: The Payment Cards API from Punchh — 2 operation(s) for payment cards.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Payment Cards API from Punchh — 2 operation(s) for payment cards.
   name: Punchh Payment Cards API
   slug: punchh-payment-cards-api
-- description: The Payments API from Punchh — 7 operation(s) for payments.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Payments API from Punchh — 7 operation(s) for payments.
   name: Punchh Payments API
   slug: punchh-payments-api
-- description: The Point Of Sale API from Punchh — 8 operation(s) for point of sale.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Point Of Sale API from Punchh — 8 operation(s) for point of sale.
   name: Punchh Point Of Sale API
   slug: punchh-point-of-sale-api
-- description: The Redemptions API from Punchh — 2 operation(s) for redemptions.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Redemptions API from Punchh — 2 operation(s) for redemptions.
   name: Punchh Redemptions API
   slug: punchh-redemptions-api
-- description: The Referrals API from Punchh — 1 operation(s) for referrals.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Referrals API from Punchh — 1 operation(s) for referrals.
   name: Punchh Referrals API
   slug: punchh-referrals-api
-- description: The Rewards API from Punchh — 5 operation(s) for rewards.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Rewards API from Punchh — 5 operation(s) for rewards.
   name: Punchh Rewards API
   slug: punchh-rewards-api
-- description: The Single Scan Code API from Punchh — 1 operation(s) for single scan code.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Single Scan Code API from Punchh — 1 operation(s) for single scan code.
   name: Punchh Single Scan Code API
   slug: punchh-single-scan-code-api
-- description: The Social Cause Campaign API from Punchh — 2 operation(s) for social cause campaign.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Social Cause Campaign API from Punchh — 2 operation(s) for social cause campaign.
   name: Punchh Social Cause Campaign API
   slug: punchh-social-cause-campaign-api
-- description: The Social Cause Campaigns API from Punchh — 3 operation(s) for social cause campaigns.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Social Cause Campaigns API from Punchh — 3 operation(s) for social cause campaigns.
   name: Punchh Social Cause Campaigns API
   slug: punchh-social-cause-campaigns-api
-- description: The Surveys API from Punchh — 1 operation(s) for surveys.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Surveys API from Punchh — 1 operation(s) for surveys.
   name: Punchh Surveys API
   slug: punchh-surveys-api
-- description: The Swag API from Punchh — 4 operation(s) for swag.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Swag API from Punchh — 4 operation(s) for swag.
   name: Punchh Swag API
   slug: punchh-swag-api
-- description: The User Management API from Punchh — 5 operation(s) for user management.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The User Management API from Punchh — 5 operation(s) for user management.
   name: Punchh User Management API
   slug: punchh-user-management-api
-- description: The User Sign-up and SSO API from Punchh — 8 operation(s) for user sign-up and sso.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The User Sign-up and SSO API from Punchh — 8 operation(s) for user sign-up and sso.
   name: Punchh User Sign-up and SSO API
   slug: punchh-user-sign-up-and-sso-api
-- description: The Users API from Punchh — 35 operation(s) for users.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The Users API from Punchh — 35 operation(s) for users.
   name: Punchh Users API
   slug: punchh-users-api
-- description: The WiFi Acquisition API from Punchh — 2 operation(s) for wifi acquisition.
+- baseURL: https://{server_name}.punchh.com
+  baseurl_source: declared
+  description: The WiFi Acquisition API from Punchh — 2 operation(s) for wifi acquisition.
   name: Punchh WiFi Acquisition API
   slug: punchh-wifi-acquisition-api
 artifact_total: 133
@@ -704,7 +796,7 @@ score:
     catalog_gap: 24.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -714,7 +806,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 92.1
-  previous_composite: 66.1
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -732,7 +824,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:

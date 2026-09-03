@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations for creating and managing builds
+- baseURL: https://cloudbuild.googleapis.com
+  baseurl_source: declared
+  description: Operations for creating and managing builds
   name: Google Cloud Build Builds API
   slug: google-cloud-build-builds-api
-- description: Operations for managing build triggers
+- baseURL: https://cloudbuild.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing build triggers
   name: Google Cloud Build Triggers API
   slug: google-cloud-build-triggers-api
-- description: Operations for managing worker pools
+- baseURL: https://cloudbuild.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing worker pools
   name: Google Cloud Build WorkerPools API
   slug: google-cloud-build-workerpools-api
 artifact_total: 22
@@ -236,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-build/refs/heads/main/screenshots/google-cloud-build-2026-06-20T182048.png
 security:

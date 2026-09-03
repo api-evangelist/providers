@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage aggregated statistics and counters for forms
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Manage aggregated statistics and counters for forms
   name: FormAssembly Aggregates API
   slug: formassembly-aggregates-api
-- description: Manage integrations (Salesforce, etc.) attached to forms
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Manage integrations (Salesforce, etc.) attached to forms
   name: FormAssembly Connectors API
   slug: formassembly-connectors-api
-- description: Manage custom reusable form element types
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Manage custom reusable form element types
   name: FormAssembly Form Elements API
   slug: formassembly-form-elements-api
-- description: Create, read, update, and delete form definitions
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Create, read, update, and delete form definitions
   name: FormAssembly Forms API
   slug: formassembly-forms-api
-- description: OAuth2 authorization code flow for obtaining access tokens
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: OAuth2 authorization code flow for obtaining access tokens
   name: FormAssembly OAuth2 API
   slug: formassembly-oauth2-api
-- description: Export and manage form submission responses
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Export and manage form submission responses
   name: FormAssembly Responses API
   slug: formassembly-responses-api
-- description: Manage CSS themes applied to forms
+- baseURL: https://app.formassembly.com/api_v1
+  baseurl_source: declared
+  description: Manage CSS themes applied to forms
   name: FormAssembly Themes API
   slug: formassembly-themes-api
 artifact_total: 41
@@ -300,7 +314,7 @@ score:
     regime_id: government
     score: 59.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/screenshots/formassembly-2026-06-20T181430.png
 security:

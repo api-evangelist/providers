@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 71 operations · 1 acting
 api_count: 1
 apis:
-- description: The Accounts API from Basescan — 12 operation(s) for accounts.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Accounts API from Basescan — 12 operation(s) for accounts.
   name: Basescan Accounts API
   slug: basescan-accounts-api
-- description: The API PRO Endpoints API from Basescan — 20 operation(s) for api pro endpoints.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The API PRO Endpoints API from Basescan — 20 operation(s) for api pro endpoints.
   name: Basescan API PRO Endpoints API
   slug: basescan-api-pro-endpoints-api
-- description: The Blocks API from Basescan — 8 operation(s) for blocks.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Blocks API from Basescan — 8 operation(s) for blocks.
   name: Basescan Blocks API
   slug: basescan-blocks-api
-- description: The Contracts API from Basescan — 5 operation(s) for contracts.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Contracts API from Basescan — 5 operation(s) for contracts.
   name: Basescan Contracts API
   slug: basescan-contracts-api
-- description: The Gas Tracker API from Basescan — 5 operation(s) for gas tracker.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Gas Tracker API from Basescan — 5 operation(s) for gas tracker.
   name: Basescan Gas Tracker API
   slug: basescan-gas-tracker-api
-- description: The Geth/Parity Proxy API from Basescan — 14 operation(s) for geth/parity proxy.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Geth/Parity Proxy API from Basescan — 14 operation(s) for geth/parity proxy.
   name: Basescan Geth/Parity Proxy API
   slug: basescan-geth-parity-proxy-api
-- description: The Logs API from Basescan — 3 operation(s) for logs.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Logs API from Basescan — 3 operation(s) for logs.
   name: Basescan Logs API
   slug: basescan-logs-api
-- description: The Stats API from Basescan — 13 operation(s) for stats.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Stats API from Basescan — 13 operation(s) for stats.
   name: Basescan Stats API
   slug: basescan-stats-api
-- description: The Tokens API from Basescan — 9 operation(s) for tokens.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Tokens API from Basescan — 9 operation(s) for tokens.
   name: Basescan Tokens API
   slug: basescan-tokens-api
-- description: The Transactions API from Basescan — 2 operation(s) for transactions.
+- baseURL: https://api.basescan.org/api
+  baseurl_source: declared
+  description: The Transactions API from Basescan — 2 operation(s) for transactions.
   name: Basescan Transactions API
   slug: basescan-transactions-api
 artifact_total: 28
@@ -206,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/screenshots/basescan-2026-08-17T122729.png
 security:

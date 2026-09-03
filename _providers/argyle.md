@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 82 operations · 34 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounts API from Argyle — 3 operation(s) for accounts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Accounts API from Argyle — 3 operation(s) for accounts.
   name: Argyle Accounts API
   slug: argyle-accounts-api
-- description: The Deposit Destinations API from Argyle — 2 operation(s) for deposit destinations.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Deposit Destinations API from Argyle — 2 operation(s) for deposit destinations.
   name: Argyle Deposit Destinations API
   slug: argyle-deposit-destinations-api
-- description: The Employer Search API from Argyle — 1 operation(s) for employer search.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Employer Search API from Argyle — 1 operation(s) for employer search.
   name: Argyle Employer Search API
   slug: argyle-employer-search-api
-- description: The Employments API from Argyle — 1 operation(s) for employments.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Employments API from Argyle — 1 operation(s) for employments.
   name: Argyle Employments API
   slug: argyle-employments-api
-- description: The Gigs API from Argyle — 2 operation(s) for gigs.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Gigs API from Argyle — 2 operation(s) for gigs.
   name: Argyle Gigs API
   slug: argyle-gigs-api
-- description: The Identities API from Argyle — 2 operation(s) for identities.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Identities API from Argyle — 2 operation(s) for identities.
   name: Argyle Identities API
   slug: argyle-identities-api
-- description: The Invites API from Argyle — 3 operation(s) for invites.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Invites API from Argyle — 3 operation(s) for invites.
   name: Argyle Invites API
   slug: argyle-invites-api
-- description: The Item Filters API from Argyle — 2 operation(s) for item filters.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Item Filters API from Argyle — 2 operation(s) for item filters.
   name: Argyle Item Filters API
   slug: argyle-item-filters-api
-- description: The Item Migrations API from Argyle — 1 operation(s) for item migrations.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Item Migrations API from Argyle — 1 operation(s) for item migrations.
   name: Argyle Item Migrations API
   slug: argyle-item-migrations-api
-- description: The Items API from Argyle — 2 operation(s) for items.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Items API from Argyle — 2 operation(s) for items.
   name: Argyle Items API
   slug: argyle-items-api
-- description: The Open Banking API from Argyle — 6 operation(s) for open banking.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Open Banking API from Argyle — 6 operation(s) for open banking.
   name: Argyle Open Banking API
   slug: argyle-open-banking-api
-- description: The Partners API from Argyle — 15 operation(s) for partners.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Partners API from Argyle — 15 operation(s) for partners.
   name: Argyle Partners API
   slug: argyle-partners-api
-- description: The Payroll Documents API from Argyle — 2 operation(s) for payroll documents.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Payroll Documents API from Argyle — 2 operation(s) for payroll documents.
   name: Argyle Payroll Documents API
   slug: argyle-payroll-documents-api
-- description: The Paystubs API from Argyle — 2 operation(s) for paystubs.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Paystubs API from Argyle — 2 operation(s) for paystubs.
   name: Argyle Paystubs API
   slug: argyle-paystubs-api
-- description: The Ratings API from Argyle — 2 operation(s) for ratings.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Ratings API from Argyle — 2 operation(s) for ratings.
   name: Argyle Ratings API
   slug: argyle-ratings-api
-- description: The Receipts API from Argyle — 1 operation(s) for receipts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Receipts API from Argyle — 1 operation(s) for receipts.
   name: Argyle Receipts API
   slug: argyle-receipts-api
-- description: The Reports API from Argyle — 3 operation(s) for reports.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Reports API from Argyle — 3 operation(s) for reports.
   name: Argyle Reports API
   slug: argyle-reports-api
-- description: The Sessions API from Argyle — 1 operation(s) for sessions.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Sessions API from Argyle — 1 operation(s) for sessions.
   name: Argyle Sessions API
   slug: argyle-sessions-api
-- description: The Shifts API from Argyle — 2 operation(s) for shifts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Shifts API from Argyle — 2 operation(s) for shifts.
   name: Argyle Shifts API
   slug: argyle-shifts-api
-- description: The User Forms API from Argyle — 2 operation(s) for user forms.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Forms API from Argyle — 2 operation(s) for user forms.
   name: Argyle User Forms API
   slug: argyle-user-forms-api
-- description: The User Tokens API from Argyle — 1 operation(s) for user tokens.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Tokens API from Argyle — 1 operation(s) for user tokens.
   name: Argyle User Tokens API
   slug: argyle-user-tokens-api
-- description: The User Uploads API from Argyle — 2 operation(s) for user uploads.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Uploads API from Argyle — 2 operation(s) for user uploads.
   name: Argyle User Uploads API
   slug: argyle-user-uploads-api
-- description: The Users API from Argyle — 2 operation(s) for users.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Users API from Argyle — 2 operation(s) for users.
   name: Argyle Users API
   slug: argyle-users-api
-- description: The Vehicles API from Argyle — 2 operation(s) for vehicles.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Vehicles API from Argyle — 2 operation(s) for vehicles.
   name: Argyle Vehicles API
   slug: argyle-vehicles-api
-- description: The Verifications API from Argyle — 4 operation(s) for verifications.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Verifications API from Argyle — 4 operation(s) for verifications.
   name: Argyle Verifications API
   slug: argyle-verifications-api
-- description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
   name: Argyle Webhooks API
   slug: argyle-webhooks-api
 artifact_total: 252
@@ -895,7 +947,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -905,7 +957,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -914,7 +966,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle/refs/heads/main/screenshots/argyle-2026-06-20T172423.png
 security:

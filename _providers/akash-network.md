@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -68,13 +68,19 @@ apis:
 - description: Hosted web console for browsing the marketplace, deploying SDL manifests, and managing leases - with optional managed wallet and credit-card billing.
   name: Akash Console (Web)
   slug: console
-- description: Retrieve bids placed by Akash providers.
+- baseURL: https://console.akash.network/
+  baseurl_source: declared
+  description: Retrieve bids placed by Akash providers.
   name: Akash Network Bids API
   slug: akash-network-bids-api
-- description: Create and manage SDL-based deployments.
+- baseURL: https://console.akash.network/
+  baseurl_source: declared
+  description: Create and manage SDL-based deployments.
   name: Akash Network Deployments API
   slug: akash-network-deployments-api
-- description: Accept bids and manage leases with providers.
+- baseURL: https://console.akash.network/
+  baseurl_source: declared
+  description: Accept bids and manage leases with providers.
   name: Akash Network Leases API
   slug: akash-network-leases-api
 artifact_total: 22
@@ -206,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash-network/refs/heads/main/screenshots/akash-network-2026-06-20T171449.png
 security:

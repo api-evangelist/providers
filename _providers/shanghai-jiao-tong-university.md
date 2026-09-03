@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The university's own REST API platform (开放API), operated by the SJTU Network and Information Center at api.sjtu.edu.cn under OAuth 2.0 issued by its own jAccount authorization server. 59 documented op
+- baseURL: https://api.sjtu.edu.cn
+  baseurl_source: declared
+  description: The university's own REST API platform (开放API), operated by the SJTU Network and Information Center at api.sjtu.edu.cn under OAuth 2.0 issued by its own jAccount authorization server. 59 documented op
   name: SJTU Open API
   slug: open-api
-- description: 数据资源 — the university's institutional data-exchange API, exposing account, faculty and staff, undergraduate-teaching, academic-paper and asset records produced by SJTU's own administrative systems. Th
+- baseURL: https://graphql.sjtu.edu.cn/v1
+  baseurl_source: declared
+  description: 数据资源 — the university's institutional data-exchange API, exposing account, faculty and staff, undergraduate-teaching, academic-paper and asset records produced by SJTU's own administrative systems. Th
   name: SJTU Data Resources API
   slug: data-resources
 - description: SJTU's own identity and single sign-on system, run by the Network and Information Center on the university's own domain. It is a real OAuth 2.0 authorization server — an unparameterised GET of the aut
@@ -233,7 +237,7 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -243,7 +247,7 @@ score:
     discoverability: 79.6
     governance: 19.7
     operational_transparency: 23.7
-  previous_composite: 55.6
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +262,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shanghai-jiao-tong-university/refs/heads/main/screenshots/shanghai-jiao-tong-university-2026-06-20T193853.png
 security:
 - kind: authentication

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: OpenAI-compatible chat completions.
+- baseURL: https://api.zotgpt.uci.edu/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions.
   name: ZotGPT (UC Irvine) Chat API
   slug: zotgpt-chat-api
-- description: Vector embeddings across the campus model catalog.
+- baseURL: https://api.zotgpt.uci.edu/v1
+  baseurl_source: declared
+  description: Vector embeddings across the campus model catalog.
   name: ZotGPT (UC Irvine) Embeddings API
   slug: zotgpt-embeddings-api
 artifact_total: 9
@@ -221,7 +225,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -231,7 +235,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 49.1
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     contracts:
@@ -247,7 +251,7 @@ score:
     regime_id: education
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/screenshots/zotgpt-2026-08-17T083120.png
 security:

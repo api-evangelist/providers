@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 17 operations · 11 acting
 api_count: 1
 apis:
-- description: The Audits API from Brellium — 2 operation(s) for audits.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Audits API from Brellium — 2 operation(s) for audits.
   name: Brellium Audits API
   slug: brellium-audits-api
-- description: The Auth API from Brellium — 1 operation(s) for auth.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Auth API from Brellium — 1 operation(s) for auth.
   name: Brellium Auth API
   slug: brellium-auth-api
-- description: The Coding API from Brellium — 2 operation(s) for coding.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Coding API from Brellium — 2 operation(s) for coding.
   name: Brellium Coding API
   slug: brellium-coding-api
-- description: The Documents API from Brellium — 3 operation(s) for documents.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Documents API from Brellium — 3 operation(s) for documents.
   name: Brellium Documents API
   slug: brellium-documents-api
-- description: The Documents Multiple API from Brellium — 1 operation(s) for documents multiple.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Documents Multiple API from Brellium — 1 operation(s) for documents multiple.
   name: Brellium Documents Multiple API
   slug: brellium-documents-multiple-api
-- description: The Link Providers API from Brellium — 1 operation(s) for link providers.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Link Providers API from Brellium — 1 operation(s) for link providers.
   name: Brellium Link Providers API
   slug: brellium-link-providers-api
-- description: The Question Sets API from Brellium — 1 operation(s) for question sets.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Question Sets API from Brellium — 1 operation(s) for question sets.
   name: Brellium Question Sets API
   slug: brellium-question-sets-api
-- description: The Update Audits Flags API from Brellium — 1 operation(s) for update audits flags.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Update Audits Flags API from Brellium — 1 operation(s) for update audits flags.
   name: Brellium Update Audits Flags API
   slug: brellium-update-audits-flags-api
-- description: The Users API from Brellium — 2 operation(s) for users.
+- baseURL: https://api.brellium.com/v1
+  baseurl_source: declared
+  description: The Users API from Brellium — 2 operation(s) for users.
   name: Brellium Users API
   slug: brellium-users-api
 artifact_total: 25
@@ -235,7 +253,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -245,7 +263,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 44.2
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,7 +285,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:

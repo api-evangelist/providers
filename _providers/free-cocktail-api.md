@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Filter cocktails by ingredient, alcohol, category, or glass.
+- baseURL: https://www.thecocktaildb.com/api/json/v1
+  baseurl_source: declared
+  description: Filter cocktails by ingredient, alcohol, category, or glass.
   name: Free Cocktail API Filter API
   slug: free-cocktail-api-filter-api
-- description: List available categories, glasses, ingredients, and alcohol filters.
+- baseURL: https://www.thecocktaildb.com/api/json/v1
+  baseurl_source: declared
+  description: List available categories, glasses, ingredients, and alcohol filters.
   name: Free Cocktail API List API
   slug: free-cocktail-api-list-api
-- description: Look up full details by ID.
+- baseURL: https://www.thecocktaildb.com/api/json/v1
+  baseurl_source: declared
+  description: Look up full details by ID.
   name: Free Cocktail API Lookup API
   slug: free-cocktail-api-lookup-api
-- description: Fetch random cocktails.
+- baseURL: https://www.thecocktaildb.com/api/json/v1
+  baseurl_source: declared
+  description: Fetch random cocktails.
   name: Free Cocktail API Random API
   slug: free-cocktail-api-random-api
-- description: Search cocktails and ingredients.
+- baseURL: https://www.thecocktaildb.com/api/json/v1
+  baseurl_source: declared
+  description: Search cocktails and ingredients.
   name: Free Cocktail API Search API
   slug: free-cocktail-api-search-api
 artifact_total: 17
@@ -150,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/screenshots/free-cocktail-api-2026-06-20T181517.png
 security:

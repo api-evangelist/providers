@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -48,28 +48,44 @@ apis:
 - description: The Drupal GraphQL module is a contributed module that enables developers to craft and expose a GraphQL schema for Drupal 10 and 11, allowing client applications to query Drupal content and entities u
   name: Drupal GraphQL API
   slug: graphql
-- description: Comment resources for reading and managing comments attached to content entities in Drupal.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: Comment resources for reading and managing comments attached to content entities in Drupal.
   name: drupal Comments API
   slug: drupal-comments-api
-- description: JSON:API endpoints for file entities and file upload operations.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: JSON:API endpoints for file entities and file upload operations.
   name: drupal Files API
   slug: drupal-files-api
-- description: JSON:API endpoints for article content nodes. The bundle slug varies by Drupal installation; article is shown as an example bundle name.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: JSON:API endpoints for article content nodes. The bundle slug varies by Drupal installation; article is shown as an example bundle name.
   name: drupal Node Articles API
   slug: drupal-node-articles-api
-- description: JSON:API endpoints for basic page content nodes. The bundle slug varies by Drupal installation.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: JSON:API endpoints for basic page content nodes. The bundle slug varies by Drupal installation.
   name: drupal Node Pages API
   slug: drupal-node-pages-api
-- description: Content node resources representing structured content items of any type (article, page, etc.) stored in Drupal's content management system.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: Content node resources representing structured content items of any type (article, page, etc.) stored in Drupal's content management system.
   name: drupal Nodes API
   slug: drupal-nodes-api
-- description: JSON:API endpoints for taxonomy term entities across all configured vocabularies.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: JSON:API endpoints for taxonomy term entities across all configured vocabularies.
   name: drupal Taxonomy Terms API
   slug: drupal-taxonomy-terms-api
-- description: Taxonomy vocabulary resources representing the container configurations that organize sets of taxonomy terms.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: Taxonomy vocabulary resources representing the container configurations that organize sets of taxonomy terms.
   name: drupal Taxonomy Vocabularies API
   slug: drupal-taxonomy-vocabularies-api
-- description: JSON:API endpoints for Drupal user entities. Config entities are read-only via JSON:API and require authentication.
+- baseURL: https://example.com
+  baseurl_source: declared
+  description: JSON:API endpoints for Drupal user entities. Config entities are read-only via JSON:API and require authentication.
   name: drupal Users API
   slug: drupal-users-api
 artifact_total: 33
@@ -172,16 +188,16 @@ jsonld:
   slug: drupal-context
 layout: provider
 modified: '2026-05-19'
-name: drupal
+name: Drupal
 nav: Providers
 network: true
-overview: 'drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more.
+overview: 'Drupal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Files API, Node Articles API, and 5 more.
 
 
-  The drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Drupal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  drupal''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Drupal''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Drupal Plans Pricing
   plan_count: 3
@@ -194,7 +210,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: drupal API Rules
+  name: Drupal API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -235,10 +251,10 @@ score:
       total: 8
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png
 security:

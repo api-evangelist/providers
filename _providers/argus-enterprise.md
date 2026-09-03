@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 43 operations · 21 acting
 api_count: 2
 apis:
-- description: OAuth 2.0 token operations for API access
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token operations for API access
   name: ARGUS Enterprise Authentication API
   slug: argus-enterprise-authentication-api
-- description: Cash flow projections and analysis
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Cash flow projections and analysis
   name: ARGUS Enterprise Cash Flows API
   slug: argus-enterprise-cash-flows-api
-- description: View webhook event history and delivery logs
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: View webhook event history and delivery logs
   name: ARGUS Enterprise Events API
   slug: argus-enterprise-events-api
-- description: Webhook service health and status
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Webhook service health and status
   name: ARGUS Enterprise Health API
   slug: argus-enterprise-health-api
-- description: Lease agreements and terms
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Lease agreements and terms
   name: ARGUS Enterprise Leases API
   slug: argus-enterprise-leases-api
-- description: Organize and manage property portfolios
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Organize and manage property portfolios
   name: ARGUS Enterprise Portfolios API
   slug: argus-enterprise-portfolios-api
-- description: Manage commercial real estate properties and assets
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Manage commercial real estate properties and assets
   name: ARGUS Enterprise Properties API
   slug: argus-enterprise-properties-api
-- description: Generate and retrieve analytical reports
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Generate and retrieve analytical reports
   name: ARGUS Enterprise Reports API
   slug: argus-enterprise-reports-api
-- description: Manage webhook subscriptions
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Manage webhook subscriptions
   name: ARGUS Enterprise Subscriptions API
   slug: argus-enterprise-subscriptions-api
-- description: Tenant records and contact information
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Tenant records and contact information
   name: ARGUS Enterprise Tenants API
   slug: argus-enterprise-tenants-api
-- description: User management and access control
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: User management and access control
   name: ARGUS Enterprise Users API
   slug: argus-enterprise-users-api
-- description: Property valuations and appraisal data
+- baseURL: https://api.argusenterprise.com/v1
+  baseurl_source: declared
+  description: Property valuations and appraisal data
   name: ARGUS Enterprise Valuations API
   slug: argus-enterprise-valuations-api
 artifact_total: 178
@@ -679,7 +703,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-08-17T082506.png
 security:

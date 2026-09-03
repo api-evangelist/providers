@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Outbound HTTP webhooks that notify a subscriber URL when invites, attendees, speakers, sponsors, ticket purchases, or ticket types are created, updated, or deleted. Server-to-endpoint HTTP POST callba
   name: Brella Webhooks
   slug: brella-webhooks
-- description: The Attendees API from Brella — 1 operation(s) for attendees.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Attendees API from Brella — 1 operation(s) for attendees.
   name: Brella Attendees API
   slug: brella-attendees-api
-- description: The Events API from Brella — 1 operation(s) for events.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Events API from Brella — 1 operation(s) for events.
   name: Brella Events API
   slug: brella-events-api
-- description: The Invites API from Brella — 1 operation(s) for invites.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Invites API from Brella — 1 operation(s) for invites.
   name: Brella Invites API
   slug: brella-invites-api
-- description: The Schedule API from Brella — 1 operation(s) for schedule.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Schedule API from Brella — 1 operation(s) for schedule.
   name: Brella Schedule API
   slug: brella-schedule-api
-- description: The Speakers API from Brella — 1 operation(s) for speakers.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Speakers API from Brella — 1 operation(s) for speakers.
   name: Brella Speakers API
   slug: brella-speakers-api
-- description: The Sponsors API from Brella — 1 operation(s) for sponsors.
+- baseURL: https://api.brella.io/api/integration
+  baseurl_source: declared
+  description: The Sponsors API from Brella — 1 operation(s) for sponsors.
   name: Brella Sponsors API
   slug: brella-sponsors-api
 artifact_total: 21
@@ -188,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/screenshots/brella-2026-07-25T203750.png
 security:

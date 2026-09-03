@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -138,13 +150,19 @@ apis:
 - description: Manage users, groups, and service principals across the Databricks account using SCIM 2.0 protocol.
   name: Account SCIM API
   slug: account-scim-api
-- description: Manage Databricks clusters for running Apache Spark workloads. Create, start, restart, resize, terminate, and permanently delete clusters.
+- baseURL: https://<databricks-instance>.azuredatabricks.net/api
+  baseurl_source: declared
+  description: Manage Databricks clusters for running Apache Spark workloads. Create, start, restart, resize, terminate, and permanently delete clusters.
   name: Azure Databricks Clusters API
   slug: microsoft-azure-databricks-clusters-api
-- description: Create and manage jobs to run notebooks, JARs, Spark submit, Python scripts, and pipeline tasks on Databricks clusters. Schedule recurring jobs, trigger runs, and monitor execution.
+- baseURL: https://<databricks-instance>.azuredatabricks.net/api
+  baseurl_source: declared
+  description: Create and manage jobs to run notebooks, JARs, Spark submit, Python scripts, and pipeline tasks on Databricks clusters. Schedule recurring jobs, trigger runs, and monitor execution.
   name: Azure Databricks Jobs API
   slug: microsoft-azure-databricks-jobs-api
-- description: Manage workspace objects such as notebooks, folders, files, and repos. Import, export, list, and delete workspace objects.
+- baseURL: https://<databricks-instance>.azuredatabricks.net/api
+  baseurl_source: declared
+  description: Manage workspace objects such as notebooks, folders, files, and repos. Import, export, list, and delete workspace objects.
   name: Azure Databricks Workspace API
   slug: microsoft-azure-databricks-workspace-api
 arazzos:
@@ -953,7 +971,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
 security:

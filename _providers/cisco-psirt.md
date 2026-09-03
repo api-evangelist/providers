@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,13 +46,19 @@ agentic_access:
   summary_line: 30 operations
 api_count: 1
 apis:
-- description: Current supported API endpoints.
+- baseURL: https://apix.cisco.com/security/advisories/v2
+  baseurl_source: declared
+  description: Current supported API endpoints.
   name: Cisco PSIRT openVuln API Current Endpoints API
   slug: cisco-psirt-current-endpoints-api
-- description: These API endpoints are no longer available. Migrate to current version calls.
+- baseURL: https://apix.cisco.com/security/advisories
+  baseurl_source: declared
+  description: These API endpoints are no longer available. Migrate to current version calls.
   name: Cisco PSIRT openVuln API Obsolete Endpoints API
   slug: cisco-psirt-obsolete-endpoints-api
-- description: The "security/advisories" basepath will be deprecated in the future. These API endpoints have changed with the introduction of v2 basepath. Migrate the below endpoints to current endpoint calls. The b
+- baseURL: https://apix.cisco.com/security/advisories
+  baseurl_source: declared
+  description: The "security/advisories" basepath will be deprecated in the future. These API endpoints have changed with the introduction of v2 basepath. Migrate the below endpoints to current endpoint calls. The b
   name: Cisco PSIRT openVuln API Sunset Endpoints API
   slug: cisco-psirt-sunset-endpoints-api
 artifact_total: 11
@@ -238,7 +257,7 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -264,8 +283,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/screenshots/cisco-psirt-2026-09-02T145044.png
 security:
 - kind: authentication
   name: Cisco Psirt Authentication

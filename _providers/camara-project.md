@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 49 operations · 39 acting · 1 human-in-the-loop
 api_count: 24
 apis:
-- description: Operations to verify the age of a user.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to verify the age of a user.
   name: CAMARA Project Age Verification API
   slug: camara-project-age-verification-api
-- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
   name: CAMARA Project Call Forwarding information retrieval API
   slug: camara-project-call-forwarding-information-retrieval-api
-- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: CAMARA Project Check Device Swap API
   slug: camara-project-check-device-swap-api
-- description: The Check SIM swap API from CAMARA Project — 1 operation(s) for check sim swap.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: The Check SIM swap API from CAMARA Project — 1 operation(s) for check sim swap.
   name: CAMARA Project Check SIM swap API
   slug: camara-project-check-sim-swap-api
-- description: Operations to get the network type device is connected to
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to get the network type device is connected to
   name: CAMARA Project Connected Network Type API
   slug: camara-project-connected-network-type-api
-- description: Operations to get the current reachability status of a device
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to get the current reachability status of a device
   name: CAMARA Project Device reachability status API
   slug: camara-project-device-reachability-status-api
-- description: Find the closest Edge Cloud Zone to the user device.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Find the closest Edge Cloud Zone to the user device.
   name: CAMARA Project Discovery API
   slug: camara-project-discovery-api
-- description: Operations to provide information related to a customer identity stored the account data bound to the customer's phone number.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to provide information related to a customer identity stored the account data bound to the customer's phone number.
   name: CAMARA Project Fill-in API
   slug: camara-project-fill-in-api
-- description: Operations to manage event subscriptions on geofencing events for leaving and entering an area.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to manage event subscriptions on geofencing events for leaving and entering an area.
   name: CAMARA Project Geofencing subscriptions API
   slug: camara-project-geofencing-subscriptions-api
-- description: QoD control operations for home devices
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: QoD control operations for home devices
   name: CAMARA Project Home Devices QoD API
   slug: camara-project-home-devices-qod-api
-- description: Retrieve the location of a device
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Retrieve the location of a device
   name: CAMARA Project Location retrieval API
   slug: camara-project-location-retrieval-api
-- description: Verification of the location of a device
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Verification of the location of a device
   name: CAMARA Project Location verification API
   slug: camara-project-location-verification-api
-- description: Operations to match a customer identity against the account data bound to their phone number.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to match a customer identity against the account data bound to their phone number.
   name: CAMARA Project Match API
   slug: camara-project-match-api
-- description: Read the network's level of confidence that it can meet the quality thresholds for a given application profile and end user device.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Read the network's level of confidence that it can meet the quality thresholds for a given application profile and end user device.
   name: CAMARA Project Network Quality API
   slug: camara-project-network-quality-api
-- description: Operations to manage One Step Payment procedure
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to manage One Step Payment procedure
   name: CAMARA Project One Step Payment API
   slug: camara-project-one-step-payment-api
-- description: API operations to manage OTP codes
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: API operations to manage OTP codes
   name: CAMARA Project OTP Management API
   slug: camara-project-otp-management-api
-- description: Operations to obtain information about payments
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to obtain information about payments
   name: CAMARA Project Payment API
   slug: camara-project-payment-api
-- description: API operation to return the phone number associated to the access token.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: API operation to return the phone number associated to the access token.
   name: CAMARA Project Phone number share API
   slug: camara-project-phone-number-share-api
-- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: CAMARA Project Phone number verify API
   slug: camara-project-phone-number-verify-api
-- description: Operations to retrieve population density information.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to retrieve population density information.
   name: CAMARA Project Population Density Data API
   slug: camara-project-population-density-data-api
-- description: Manage the permanent assignment of a QoS profile to a device
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Manage the permanent assignment of a QoS profile to a device
   name: CAMARA Project QoS Assignment API
   slug: camara-project-qos-assignment-api
-- description: Manage QoS Profiles
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Manage QoS Profiles
   name: CAMARA Project QoS Profiles API
   slug: camara-project-qos-profiles-api
-- description: Manage QoS sessions
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Manage QoS sessions
   name: CAMARA Project QoS Sessions API
   slug: camara-project-qos-sessions-api
-- description: Receive the last date in which the device of the end-user was swapped
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Receive the last date in which the device of the end-user was swapped
   name: CAMARA Project Retrieve Device Swap Date API
   slug: camara-project-retrieve-device-swap-date-api
-- description: The Retrieve SIM swap date API from CAMARA Project — 1 operation(s) for retrieve sim swap date.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: The Retrieve SIM swap date API from CAMARA Project — 1 operation(s) for retrieve sim swap date.
   name: CAMARA Project Retrieve SIM swap date API
   slug: camara-project-retrieve-sim-swap-date-api
-- description: Operation to get device roaming status and country information (if roaming) synchronously
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operation to get device roaming status and country information (if roaming) synchronously
   name: CAMARA Project Roaming status retrieval API
   slug: camara-project-roaming-status-retrieval-api
-- description: The Send SMS API from CAMARA Project — 1 operation(s) for send sms.
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: The Send SMS API from CAMARA Project — 1 operation(s) for send sms.
   name: CAMARA Project Send SMS API
   slug: camara-project-send-sms-api
-- description: Operation to manage event subscription on sim swap event (swapped)
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operation to manage event subscription on sim swap event (swapped)
   name: CAMARA Project Sim Swap Subscription API
   slug: camara-project-sim-swap-subscription-api
-- description: Operations to manage Two Step Payment procedure
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Operations to manage Two Step Payment procedure
   name: CAMARA Project Two Step Payment API
   slug: camara-project-two-step-payment-api
-- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+- baseURL_template: '{apiRoot}/call-forwarding-signal/vwip'
+  baseurl_source: spec_template
+  description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: CAMARA Project Unconditional Call Forwarding information retrieval API
   slug: camara-project-unconditional-call-forwarding-information-retrieval-api
 artifact_total: 98
@@ -538,7 +598,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/screenshots/camara-project-2026-06-20T173902.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Free
+  onboarding: unknown
+  pricing: free
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,13 +59,19 @@ apis:
 - description: Model Context Protocol server exposing 21 tools for AI agents to interact with the Art Blocks ecosystem across Ethereum, Arbitrum, and Base. Tools cover discovering projects, exploring artist portfoli
   name: Art Blocks MCP Server
   slug: mcp-server
-- description: Live generative artwork view endpoints.
+- baseURL: https://token.artblocks.io
+  baseurl_source: declared
+  description: Live generative artwork view endpoints.
   name: Art Blocks Generator API
   slug: art-blocks-generator-api
-- description: Static image media proxy endpoints.
+- baseURL: https://token.artblocks.io
+  baseurl_source: declared
+  description: Static image media proxy endpoints.
   name: Art Blocks Media API
   slug: art-blocks-media-api
-- description: ERC-721 token metadata endpoints.
+- baseURL: https://token.artblocks.io
+  baseurl_source: declared
+  description: ERC-721 token metadata endpoints.
   name: Art Blocks Token Metadata API
   slug: art-blocks-token-metadata-api
 artifact_total: 19
@@ -180,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/screenshots/art-blocks-2026-06-20T172442.png
 security:

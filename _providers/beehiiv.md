@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -45,94 +45,154 @@ agentic_access:
   summary_line: 77 operations · 32 acting
 api_count: 5
 apis:
-- description: The Authorizations API from beehiiv — 1 operation(s) for authorizations.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Authorizations API from beehiiv — 1 operation(s) for authorizations.
   name: beehiiv Authorizations API
   slug: beehiiv-authorizations-api
-- description: The Tokens API from beehiiv — 4 operation(s) for tokens.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Tokens API from beehiiv — 4 operation(s) for tokens.
   name: beehiiv Tokens API
   slug: beehiiv-tokens-api
-- description: The Webhooks API from beehiiv — 0 operation(s) for webhooks.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from beehiiv — 0 operation(s) for webhooks.
   name: beehiiv Webhooks API
   slug: beehiiv-webhooks-api
-- description: The Ad Network Offers API from beehiiv — 2 operation(s) for ad network offers.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Ad Network Offers API from beehiiv — 2 operation(s) for ad network offers.
   name: beehiiv Ad Network Offers API
   slug: beehiiv-ad-network-offers-api
-- description: The Ad Network Reports API from beehiiv — 3 operation(s) for ad network reports.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Ad Network Reports API from beehiiv — 3 operation(s) for ad network reports.
   name: beehiiv Ad Network Reports API
   slug: beehiiv-ad-network-reports-api
-- description: The Advertisement Opportunities API from beehiiv — 1 operation(s) for advertisement opportunities.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Advertisement Opportunities API from beehiiv — 1 operation(s) for advertisement opportunities.
   name: beehiiv Advertisement Opportunities API
   slug: beehiiv-advertisement-opportunities-api
-- description: The Authors API from beehiiv — 2 operation(s) for authors.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Authors API from beehiiv — 2 operation(s) for authors.
   name: beehiiv Authors API
   slug: beehiiv-authors-api
-- description: The Automation Journeys API from beehiiv — 2 operation(s) for automation journeys.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Automation Journeys API from beehiiv — 2 operation(s) for automation journeys.
   name: beehiiv Automation Journeys API
   slug: beehiiv-automation-journeys-api
-- description: The Automations API from beehiiv — 3 operation(s) for automations.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Automations API from beehiiv — 3 operation(s) for automations.
   name: beehiiv Automations API
   slug: beehiiv-automations-api
-- description: The Bulk Subscription Updates API from beehiiv — 4 operation(s) for bulk subscription updates.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Bulk Subscription Updates API from beehiiv — 4 operation(s) for bulk subscription updates.
   name: beehiiv Bulk Subscription Updates API
   slug: beehiiv-bulk-subscription-updates-api
-- description: The Bulk Subscriptions API from beehiiv — 1 operation(s) for bulk subscriptions.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Bulk Subscriptions API from beehiiv — 1 operation(s) for bulk subscriptions.
   name: beehiiv Bulk Subscriptions API
   slug: beehiiv-bulk-subscriptions-api
-- description: The Complimentary Access API from beehiiv — 2 operation(s) for complimentary access.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Complimentary Access API from beehiiv — 2 operation(s) for complimentary access.
   name: beehiiv Complimentary Access API
   slug: beehiiv-complimentary-access-api
-- description: The Condition Sets API from beehiiv — 2 operation(s) for condition sets.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Condition Sets API from beehiiv — 2 operation(s) for condition sets.
   name: beehiiv Condition Sets API
   slug: beehiiv-condition-sets-api
-- description: The Custom Fields API from beehiiv — 2 operation(s) for custom fields.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Custom Fields API from beehiiv — 2 operation(s) for custom fields.
   name: beehiiv Custom Fields API
   slug: beehiiv-custom-fields-api
-- description: The Data Deletion API from beehiiv — 2 operation(s) for data deletion.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Data Deletion API from beehiiv — 2 operation(s) for data deletion.
   name: beehiiv Data Deletion API
   slug: beehiiv-data-deletion-api
-- description: The engagements API from beehiiv — 1 operation(s) for engagements.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The engagements API from beehiiv — 1 operation(s) for engagements.
   name: beehiiv Engagements API
   slug: beehiiv-engagements-api
-- description: The Newsletter List Subscriptions API from beehiiv — 3 operation(s) for newsletter list subscriptions.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Newsletter List Subscriptions API from beehiiv — 3 operation(s) for newsletter list subscriptions.
   name: beehiiv Newsletter List Subscriptions API
   slug: beehiiv-newsletter-list-subscriptions-api
-- description: The Newsletter Lists API from beehiiv — 2 operation(s) for newsletter lists.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Newsletter Lists API from beehiiv — 2 operation(s) for newsletter lists.
   name: beehiiv Newsletter Lists API
   slug: beehiiv-newsletter-lists-api
-- description: The oauth_users API from beehiiv — 1 operation(s) for oauth_users.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The oauth_users API from beehiiv — 1 operation(s) for oauth_users.
   name: beehiiv OAUTH Users API
   slug: beehiiv-oauth-users-api
-- description: The podcasts API from beehiiv — 4 operation(s) for podcasts.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The podcasts API from beehiiv — 4 operation(s) for podcasts.
   name: beehiiv Podcasts API
   slug: beehiiv-podcasts-api
-- description: The Polls API from beehiiv — 3 operation(s) for polls.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Polls API from beehiiv — 3 operation(s) for polls.
   name: beehiiv Polls API
   slug: beehiiv-polls-api
-- description: The Post Templates API from beehiiv — 1 operation(s) for post templates.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Post Templates API from beehiiv — 1 operation(s) for post templates.
   name: beehiiv Post Templates API
   slug: beehiiv-post-templates-api
-- description: The Posts API from beehiiv — 5 operation(s) for posts.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Posts API from beehiiv — 5 operation(s) for posts.
   name: beehiiv Posts API
   slug: beehiiv-posts-api
-- description: The Publications API from beehiiv — 2 operation(s) for publications.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Publications API from beehiiv — 2 operation(s) for publications.
   name: beehiiv Publications API
   slug: beehiiv-publications-api
-- description: The Referral Program API from beehiiv — 1 operation(s) for referral program.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Referral Program API from beehiiv — 1 operation(s) for referral program.
   name: beehiiv Referral Program API
   slug: beehiiv-referral-program-api
-- description: The Segments API from beehiiv — 5 operation(s) for segments.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Segments API from beehiiv — 5 operation(s) for segments.
   name: beehiiv Segments API
   slug: beehiiv-segments-api
-- description: The Subscription Tags API from beehiiv — 1 operation(s) for subscription tags.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Subscription Tags API from beehiiv — 1 operation(s) for subscription tags.
   name: beehiiv Subscription Tags API
   slug: beehiiv-subscription-tags-api
-- description: The Subscriptions API from beehiiv — 3 operation(s) for subscriptions.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Subscriptions API from beehiiv — 3 operation(s) for subscriptions.
   name: beehiiv Subscriptions API
   slug: beehiiv-subscriptions-api
-- description: The Tiers API from beehiiv — 2 operation(s) for tiers.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The Tiers API from beehiiv — 2 operation(s) for tiers.
   name: beehiiv Tiers API
   slug: beehiiv-tiers-api
-- description: The workspaces API from beehiiv — 3 operation(s) for workspaces.
+- baseURL: https://api.beehiiv.com/v2
+  baseurl_source: declared
+  description: The workspaces API from beehiiv — 3 operation(s) for workspaces.
   name: beehiiv Workspaces API
   slug: beehiiv-workspaces-api
 artifact_total: 97
@@ -581,7 +641,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -591,7 +651,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 55.3
-  previous_composite: 71.0
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -603,7 +663,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:

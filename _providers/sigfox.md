@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: RESTful backend API for the Sigfox 0G network — manage devices, device types, contracts, groups, users and base stations; retrieve device messages; predict coverage; and configure callbacks that deliv
@@ -142,7 +142,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -166,8 +166,9 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sigfox/refs/heads/main/screenshots/sigfox-2026-09-02T155418.png
 security:
 - kind: authentication
   name: Sigfox Authentication

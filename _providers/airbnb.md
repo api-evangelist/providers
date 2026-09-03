@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 34 operations · 19 acting
 api_count: 2
 apis:
-- description: The Airbnb Webhooks API enables connectivity partners to receive real-time notifications when events occur on the Airbnb platform. It supports webhook subscriptions for reservation changes, message cr
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: The Airbnb Webhooks API enables connectivity partners to receive real-time notifications when events occur on the Airbnb platform. It supports webhook subscriptions for reservation changes, message cr
   name: Airbnb Webhooks API
   slug: webhooks-api
-- description: Operations for managing guest bookings for experiences, including confirmations, cancellations, and attendee details.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for managing guest bookings for experiences, including confirmations, cancellations, and attendee details.
   name: airbnb Bookings API
   slug: airbnb-bookings-api
-- description: Operations for managing listing availability, pricing, and calendar synchronization across platforms.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for managing listing availability, pricing, and calendar synchronization across platforms.
   name: airbnb Calendar API
   slug: airbnb-calendar-api
-- description: Operations for sending and retrieving messages between experience hosts and booked guests.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for sending and retrieving messages between experience hosts and booked guests.
   name: airbnb Experience Messages API
   slug: airbnb-experience-messages-api
-- description: Operations for creating, reading, updating, and managing experience and activity listings on Airbnb.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, and managing experience and activity listings on Airbnb.
   name: airbnb Experiences API
   slug: airbnb-experiences-api
-- description: Operations for creating, reading, updating, and managing property listings on Airbnb, including descriptions, amenities, and photos.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, and managing property listings on Airbnb, including descriptions, amenities, and photos.
   name: airbnb Listings API
   slug: airbnb-listings-api
-- description: Operations for sending and retrieving guest and host messages within reservation threads.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for sending and retrieving guest and host messages within reservation threads.
   name: airbnb Messages API
   slug: airbnb-messages-api
-- description: Operations for uploading, updating, and managing listing photos.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for uploading, updating, and managing listing photos.
   name: airbnb Photos API
   slug: airbnb-photos-api
-- description: Operations for managing reservations, including accepting, declining, and retrieving booking details.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for managing reservations, including accepting, declining, and retrieving booking details.
   name: airbnb Reservations API
   slug: airbnb-reservations-api
-- description: Operations for retrieving and responding to guest and host reviews.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for retrieving and responding to guest and host reviews.
   name: airbnb Reviews API
   slug: airbnb-reviews-api
-- description: Operations for managing experience schedules, time slots, and availability for hosted activities.
+- baseURL: https://api.airbnb.com
+  baseurl_source: declared
+  description: Operations for managing experience schedules, time slots, and availability for hosted activities.
   name: airbnb Schedules API
   slug: airbnb-schedules-api
 artifact_total: 115
@@ -758,16 +780,16 @@ jsonld:
   slug: airbnb-context
 layout: provider
 modified: '2026-05-19'
-name: airbnb
+name: Airbnb
 nav: Providers
 network: true
-overview: 'airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more.
+overview: 'Airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Bookings API, Calendar API, and 8 more.
 
 
-  The airbnb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Airbnb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  airbnb''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, code examples, and 91 more developer resources.'
+  Airbnb''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, code examples, and 91 more developer resources.'
 plans:
 - name: Airbnb Plans Pricing
   plan_count: 5
@@ -781,7 +803,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: airbnb API Rules
+  name: Airbnb API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -791,7 +813,7 @@ rules:
   slug: airbnb-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: airbnb API Rules
+  name: Airbnb API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -802,7 +824,7 @@ rules:
 - effective_rule_count: 67
   extends:
   - spectral:oas
-  name: airbnb API Rules
+  name: Airbnb API Rules
   rule_count: 26
   severity_counts:
     error: 6
@@ -823,7 +845,7 @@ score:
     catalog_gap: 60.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -833,7 +855,7 @@ score:
     discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -843,10 +865,10 @@ score:
       total: 10
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

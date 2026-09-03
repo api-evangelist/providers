@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The American API from Deluxe Corporation — 3 operation(s) for american.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The American API from Deluxe Corporation — 3 operation(s) for american.
   name: Deluxe Corporation American API
   slug: deluxe-american-api
-- description: The batches API from Deluxe Corporation — 1 operation(s) for batches.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The batches API from Deluxe Corporation — 1 operation(s) for batches.
   name: Deluxe Corporation Batches API
   slug: deluxe-batches-api
-- description: The customers API from Deluxe Corporation — 3 operation(s) for customers.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The customers API from Deluxe Corporation — 3 operation(s) for customers.
   name: Deluxe Corporation Customers API
   slug: deluxe-customers-api
-- description: The emv API from Deluxe Corporation — 5 operation(s) for emv.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The emv API from Deluxe Corporation — 5 operation(s) for emv.
   name: Deluxe Corporation Emv API
   slug: deluxe-emv-api
-- description: The events API from Deluxe Corporation — 5 operation(s) for events.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The events API from Deluxe Corporation — 5 operation(s) for events.
   name: Deluxe Corporation Events API
   slug: deluxe-events-api
-- description: The invoices API from Deluxe Corporation — 8 operation(s) for invoices.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The invoices API from Deluxe Corporation — 8 operation(s) for invoices.
   name: Deluxe Corporation Invoices API
   slug: deluxe-invoices-api
-- description: The paymentlinks API from Deluxe Corporation — 2 operation(s) for paymentlinks.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The paymentlinks API from Deluxe Corporation — 2 operation(s) for paymentlinks.
   name: Deluxe Corporation Paymentlinks API
   slug: deluxe-paymentlinks-api
-- description: The paymentmethods API from Deluxe Corporation — 7 operation(s) for paymentmethods.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The paymentmethods API from Deluxe Corporation — 7 operation(s) for paymentmethods.
   name: Deluxe Corporation Paymentmethods API
   slug: deluxe-paymentmethods-api
-- description: The payments API from Deluxe Corporation — 6 operation(s) for payments.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The payments API from Deluxe Corporation — 6 operation(s) for payments.
   name: Deluxe Corporation Payments API
   slug: deluxe-payments-api
-- description: The refunds API from Deluxe Corporation — 2 operation(s) for refunds.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The refunds API from Deluxe Corporation — 2 operation(s) for refunds.
   name: Deluxe Corporation Refunds API
   slug: deluxe-refunds-api
-- description: The reports API from Deluxe Corporation — 8 operation(s) for reports.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The reports API from Deluxe Corporation — 8 operation(s) for reports.
   name: Deluxe Corporation Reports API
   slug: deluxe-reports-api
-- description: The Secservices API from Deluxe Corporation — 1 operation(s) for secservices.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The Secservices API from Deluxe Corporation — 1 operation(s) for secservices.
   name: Deluxe Corporation Secservices API
   slug: deluxe-secservices-api
-- description: The subscriptions API from Deluxe Corporation — 2 operation(s) for subscriptions.
+- baseURL: https://api.deluxe.com/dpp/v1
+  baseurl_source: declared
+  description: The subscriptions API from Deluxe Corporation — 2 operation(s) for subscriptions.
   name: Deluxe Corporation Subscriptions API
   slug: deluxe-subscriptions-api
 artifact_total: 24
@@ -302,7 +328,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:

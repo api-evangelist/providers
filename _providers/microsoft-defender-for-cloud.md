@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Azure Resource Manager REST API for managing Defender for Cloud assessments, alerts, recommendations, secure score, regulatory compliance, pricing/plans, security contacts, and connectors for multi-cl
   name: Microsoft Defender for Cloud REST API
   slug: rest-api
-- description: Security alert operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Security alert operations
   name: Microsoft Defender for Cloud Alerts API
   slug: microsoft-defender-for-cloud-alerts-api
-- description: Security assessment operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Security assessment operations
   name: Microsoft Defender for Cloud Assessments API
   slug: microsoft-defender-for-cloud-assessments-api
-- description: Defender plan/pricing operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Defender plan/pricing operations
   name: Microsoft Defender for Cloud Pricings API
   slug: microsoft-defender-for-cloud-pricings-api
-- description: Secure score operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Secure score operations
   name: Microsoft Defender for Cloud SecureScores API
   slug: microsoft-defender-for-cloud-securescores-api
 artifact_total: 16
@@ -176,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/screenshots/microsoft-defender-for-cloud-2026-06-20T185451.png
 security:

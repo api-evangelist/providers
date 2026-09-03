@@ -33,163 +33,267 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Agent Documents API from Oper Credits — 2 operation(s) for agent documents.
   name: Oper Credits Agent Documents API
   slug: oper-credits-agent-documents-api
-- description: The Appointment Booking Websites API from Oper Credits — 2 operation(s) for appointment booking websites.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Appointment Booking Websites API from Oper Credits — 2 operation(s) for appointment booking websites.
   name: Oper Credits Appointment Booking Websites API
   slug: oper-credits-appointment-booking-websites-api
-- description: The Approvals API from Oper Credits — 6 operation(s) for approvals.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Approvals API from Oper Credits — 6 operation(s) for approvals.
   name: Oper Credits Approvals API
   slug: oper-credits-approvals-api
-- description: The Bank Release Policy API from Oper Credits — 1 operation(s) for bank release policy.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Bank Release Policy API from Oper Credits — 1 operation(s) for bank release policy.
   name: Oper Credits Bank Release Policy API
   slug: oper-credits-bank-release-policy-api
-- description: The Base Products API from Oper Credits — 12 operation(s) for base products.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Base Products API from Oper Credits — 12 operation(s) for base products.
   name: Oper Credits Base Products API
   slug: oper-credits-base-products-api
-- description: The Calculate API from Oper Credits — 7 operation(s) for calculate.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Calculate API from Oper Credits — 7 operation(s) for calculate.
   name: Oper Credits Calculate API
   slug: oper-credits-calculate-api
-- description: The Check Invite Token API from Oper Credits — 1 operation(s) for check invite token.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Check Invite Token API from Oper Credits — 1 operation(s) for check invite token.
   name: Oper Credits Check Invite Token API
   slug: oper-credits-check-invite-token-api
-- description: The Check Reset Password API from Oper Credits — 1 operation(s) for check reset password.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Check Reset Password API from Oper Credits — 1 operation(s) for check reset password.
   name: Oper Credits Check Reset Password API
   slug: oper-credits-check-reset-password-api
-- description: The Client Users API from Oper Credits — 2 operation(s) for client users.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Client Users API from Oper Credits — 2 operation(s) for client users.
   name: Oper Credits Client Users API
   slug: oper-credits-client-users-api
-- description: The Clients API from Oper Credits — 2 operation(s) for clients.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Clients API from Oper Credits — 2 operation(s) for clients.
   name: Oper Credits Clients API
   slug: oper-credits-clients-api
-- description: The Commissions API from Oper Credits — 8 operation(s) for commissions.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Commissions API from Oper Credits — 8 operation(s) for commissions.
   name: Oper Credits Commissions API
   slug: oper-credits-commissions-api
-- description: The Communication History API from Oper Credits — 2 operation(s) for communication history.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Communication History API from Oper Credits — 2 operation(s) for communication history.
   name: Oper Credits Communication History API
   slug: oper-credits-communication-history-api
-- description: The Connective API from Oper Credits — 2 operation(s) for connective.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Connective API from Oper Credits — 2 operation(s) for connective.
   name: Oper Credits Connective API
   slug: oper-credits-connective-api
-- description: The Contact Advisor API from Oper Credits — 1 operation(s) for contact advisor.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Contact Advisor API from Oper Credits — 1 operation(s) for contact advisor.
   name: Oper Credits Contact Advisor API
   slug: oper-credits-contact-advisor-api
-- description: The Contact API from Oper Credits — 1 operation(s) for contact.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Contact API from Oper Credits — 1 operation(s) for contact.
   name: Oper Credits Contact API
   slug: oper-credits-contact-api
-- description: The Contact Policy API from Oper Credits — 1 operation(s) for contact policy.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Contact Policy API from Oper Credits — 1 operation(s) for contact policy.
   name: Oper Credits Contact Policy API
   slug: oper-credits-contact-policy-api
-- description: The Credit Providers API from Oper Credits — 1 operation(s) for credit providers.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Credit Providers API from Oper Credits — 1 operation(s) for credit providers.
   name: Oper Credits Credit Providers API
   slug: oper-credits-credit-providers-api
-- description: The Documentation Library API from Oper Credits — 4 operation(s) for documentation library.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Documentation Library API from Oper Credits — 4 operation(s) for documentation library.
   name: Oper Credits Documentation Library API
   slug: oper-credits-documentation-library-api
-- description: The Documents API from Oper Credits — 2 operation(s) for documents.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Documents API from Oper Credits — 2 operation(s) for documents.
   name: Oper Credits Documents API
   slug: oper-credits-documents-api
-- description: The Easy Audit API from Oper Credits — 1 operation(s) for easy audit.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Easy Audit API from Oper Credits — 1 operation(s) for easy audit.
   name: Oper Credits Easy Audit API
   slug: oper-credits-easy-audit-api
-- description: The Forgot Password API from Oper Credits — 1 operation(s) for forgot password.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Forgot Password API from Oper Credits — 1 operation(s) for forgot password.
   name: Oper Credits Forgot Password API
   slug: oper-credits-forgot-password-api
-- description: The Gdpr Policy API from Oper Credits — 1 operation(s) for gdpr policy.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Gdpr Policy API from Oper Credits — 1 operation(s) for gdpr policy.
   name: Oper Credits Gdpr Policy API
   slug: oper-credits-gdpr-policy-api
-- description: The Health API from Oper Credits — 1 operation(s) for health.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Health API from Oper Credits — 1 operation(s) for health.
   name: Oper Credits Health API
   slug: oper-credits-health-api
-- description: The Integrations API from Oper Credits — 2 operation(s) for integrations.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Integrations API from Oper Credits — 2 operation(s) for integrations.
   name: Oper Credits Integrations API
   slug: oper-credits-integrations-api
-- description: The Internaldocuments API from Oper Credits — 3 operation(s) for internaldocuments.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Internaldocuments API from Oper Credits — 3 operation(s) for internaldocuments.
   name: Oper Credits Internaldocuments API
   slug: oper-credits-internaldocuments-api
-- description: The Jwt API from Oper Credits — 2 operation(s) for jwt.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Jwt API from Oper Credits — 2 operation(s) for jwt.
   name: Oper Credits Jwt API
   slug: oper-credits-jwt-api
-- description: The Legal Links API from Oper Credits — 2 operation(s) for legal links.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Legal Links API from Oper Credits — 2 operation(s) for legal links.
   name: Oper Credits Legal Links API
   slug: oper-credits-legal-links-api
-- description: The Library API from Oper Credits — 2 operation(s) for library.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Library API from Oper Credits — 2 operation(s) for library.
   name: Oper Credits Library API
   slug: oper-credits-library-api
-- description: The Loan Requests API from Oper Credits — 113 operation(s) for loan requests.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Loan Requests API from Oper Credits — 113 operation(s) for loan requests.
   name: Oper Credits Loan Requests API
   slug: oper-credits-loan-requests-api
-- description: The Loan Requests Client Info API from Oper Credits — 1 operation(s) for loan requests client info.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Loan Requests Client Info API from Oper Credits — 1 operation(s) for loan requests client info.
   name: Oper Credits Loan Requests Client Info API
   slug: oper-credits-loan-requests-client-info-api
-- description: The Main API from Oper Credits — 30 operation(s) for main.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Main API from Oper Credits — 30 operation(s) for main.
   name: Oper Credits Main API
   slug: oper-credits-main-api
-- description: The Me API from Oper Credits — 8 operation(s) for me.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Me API from Oper Credits — 8 operation(s) for me.
   name: Oper Credits Me API
   slug: oper-credits-me-api
-- description: The Metrics API from Oper Credits — 1 operation(s) for metrics.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Metrics API from Oper Credits — 1 operation(s) for metrics.
   name: Oper Credits Metrics API
   slug: oper-credits-metrics-api
-- description: The Model Fields API from Oper Credits — 1 operation(s) for model fields.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Model Fields API from Oper Credits — 1 operation(s) for model fields.
   name: Oper Credits Model Fields API
   slug: oper-credits-model-fields-api
-- description: The Pricing API from Oper Credits — 1 operation(s) for pricing.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Pricing API from Oper Credits — 1 operation(s) for pricing.
   name: Oper Credits Pricing API
   slug: oper-credits-pricing-api
-- description: The Privacy Policy API from Oper Credits — 1 operation(s) for privacy policy.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Privacy Policy API from Oper Credits — 1 operation(s) for privacy policy.
   name: Oper Credits Privacy Policy API
   slug: oper-credits-privacy-policy-api
-- description: The Products API from Oper Credits — 1 operation(s) for products.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Products API from Oper Credits — 1 operation(s) for products.
   name: Oper Credits Products API
   slug: oper-credits-products-api
-- description: The Reset Password API from Oper Credits — 1 operation(s) for reset password.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Reset Password API from Oper Credits — 1 operation(s) for reset password.
   name: Oper Credits Reset Password API
   slug: oper-credits-reset-password-api
-- description: The Resources API from Oper Credits — 332 operation(s) for resources.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Resources API from Oper Credits — 332 operation(s) for resources.
   name: Oper Credits Resources API
   slug: oper-credits-resources-api
-- description: The Send Generic Email API from Oper Credits — 1 operation(s) for send generic email.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Send Generic Email API from Oper Credits — 1 operation(s) for send generic email.
   name: Oper Credits Send Generic Email API
   slug: oper-credits-send-generic-email-api
-- description: The Sign In API from Oper Credits — 4 operation(s) for sign in.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Sign In API from Oper Credits — 4 operation(s) for sign in.
   name: Oper Credits Sign In API
   slug: oper-credits-sign-in-api
-- description: The Sign Up API from Oper Credits — 4 operation(s) for sign up.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Sign Up API from Oper Credits — 4 operation(s) for sign up.
   name: Oper Credits Sign Up API
   slug: oper-credits-sign-up-api
-- description: The Simulators API from Oper Credits — 15 operation(s) for simulators.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Simulators API from Oper Credits — 15 operation(s) for simulators.
   name: Oper Credits Simulators API
   slug: oper-credits-simulators-api
-- description: The Sso API from Oper Credits — 2 operation(s) for sso.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Sso API from Oper Credits — 2 operation(s) for sso.
   name: Oper Credits Sso API
   slug: oper-credits-sso-api
-- description: The Tasks API from Oper Credits — 2 operation(s) for tasks.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Tasks API from Oper Credits — 2 operation(s) for tasks.
   name: Oper Credits Tasks API
   slug: oper-credits-tasks-api
-- description: The Terms And Conditions API from Oper Credits — 1 operation(s) for terms and conditions.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Terms And Conditions API from Oper Credits — 1 operation(s) for terms and conditions.
   name: Oper Credits Terms And Conditions API
   slug: oper-credits-terms-and-conditions-api
-- description: The Third Parties API from Oper Credits — 20 operation(s) for third parties.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Third Parties API from Oper Credits — 20 operation(s) for third parties.
   name: Oper Credits Third Parties API
   slug: oper-credits-third-parties-api
-- description: The Third Party Api API from Oper Credits — 1 operation(s) for third party api.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Third Party Api API from Oper Credits — 1 operation(s) for third party api.
   name: Oper Credits Third Party Api API
   slug: oper-credits-third-party-api-api
-- description: The User Management API from Oper Credits — 4 operation(s) for user management.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The User Management API from Oper Credits — 4 operation(s) for user management.
   name: Oper Credits User Management API
   slug: oper-credits-user-management-api
-- description: The Users API from Oper Credits — 1 operation(s) for users.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Users API from Oper Credits — 1 operation(s) for users.
   name: Oper Credits Users API
   slug: oper-credits-users-api
-- description: The Validators API from Oper Credits — 1 operation(s) for validators.
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: The Validators API from Oper Credits — 1 operation(s) for validators.
   name: Oper Credits Validators API
   slug: oper-credits-validators-api
-- description: Your Webhooks tag description
+- baseURL: https://developers.opercredits.com/
+  baseurl_source: declared
+  description: Your Webhooks tag description
   name: Oper Credits Webhooks API
   slug: oper-credits-webhooks-api
 artifact_total: 111
@@ -490,7 +594,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -500,7 +604,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     contracts:
@@ -521,7 +625,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oper-credits/refs/heads/main/screenshots/oper-credits-2026-08-07T190702.png
 security:

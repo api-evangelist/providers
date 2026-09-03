@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -36,82 +49,134 @@ apis:
 - description: Single-page agent-native catalog of the 26 _done pay-per-call utility APIs. Publishes a real llms.txt, a robots.txt, a sitemap.xml and an x402 resource manifest at /.well-known/x402.json listing every
   name: _done Catalog
   slug: done-catalog
-- description: The asn lookup API from _done — 1 operation(s) for asn lookup.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The asn lookup API from _done — 1 operation(s) for asn lookup.
   name: _done asn lookup API
   slug: done-asn-lookup-api
-- description: The cors headers API from _done — 1 operation(s) for cors headers.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The cors headers API from _done — 1 operation(s) for cors headers.
   name: _done cors headers API
   slug: done-cors-headers-api
-- description: The data API from _done — 1 operation(s) for data.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The data API from _done — 1 operation(s) for data.
   name: _done Data API
   slug: done-data-api
-- description: The directory submission API from _done — 2 operation(s) for directory submission.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The directory submission API from _done — 2 operation(s) for directory submission.
   name: _done directory submission API
   slug: done-directory-submission-api
-- description: The dmarc API from _done — 1 operation(s) for dmarc.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The dmarc API from _done — 1 operation(s) for dmarc.
   name: _done Dmarc API
   slug: done-dmarc-api
-- description: The dns lookup API from _done — 1 operation(s) for dns lookup.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The dns lookup API from _done — 1 operation(s) for dns lookup.
   name: _done dns lookup API
   slug: done-dns-lookup-api
-- description: The domain age API from _done — 1 operation(s) for domain age.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The domain age API from _done — 1 operation(s) for domain age.
   name: _done domain age API
   slug: done-domain-age-api
-- description: The domain availability API from _done — 1 operation(s) for domain availability.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The domain availability API from _done — 1 operation(s) for domain availability.
   name: _done domain availability API
   slug: done-domain-availability-api
-- description: The ens API from _done — 1 operation(s) for ens.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The ens API from _done — 1 operation(s) for ens.
   name: _done Ens API
   slug: done-ens-api
-- description: The hacker news API from _done — 1 operation(s) for hacker news.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The hacker news API from _done — 1 operation(s) for hacker news.
   name: _done hacker news API
   slug: done-hacker-news-api
-- description: The http headers API from _done — 1 operation(s) for http headers.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The http headers API from _done — 1 operation(s) for http headers.
   name: _done http headers API
   slug: done-http-headers-api
-- description: The http request API from _done — 1 operation(s) for http request.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The http request API from _done — 1 operation(s) for http request.
   name: _done http request API
   slug: done-http-request-api
-- description: The http status code API from _done — 1 operation(s) for http status code.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The http status code API from _done — 1 operation(s) for http status code.
   name: _done http status code API
   slug: done-http-status-code-api
-- description: The json API from _done — 1 operation(s) for json.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The json API from _done — 1 operation(s) for json.
   name: _done JSON API
   slug: done-json-api
-- description: The leetspeak API from _done — 1 operation(s) for leetspeak.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The leetspeak API from _done — 1 operation(s) for leetspeak.
   name: _done Leetspeak API
   slug: done-leetspeak-api
-- description: The mortgage calculator API from _done — 1 operation(s) for mortgage calculator.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The mortgage calculator API from _done — 1 operation(s) for mortgage calculator.
   name: _done mortgage calculator API
   slug: done-mortgage-calculator-api
-- description: The ocr API from _done — 1 operation(s) for ocr.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The ocr API from _done — 1 operation(s) for ocr.
   name: _done Ocr API
   slug: done-ocr-api
-- description: The port scanner API from _done — 1 operation(s) for port scanner.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The port scanner API from _done — 1 operation(s) for port scanner.
   name: _done port scanner API
   slug: done-port-scanner-api
-- description: The qr code API from _done — 1 operation(s) for qr code.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The qr code API from _done — 1 operation(s) for qr code.
   name: _done qr code API
   slug: done-qr-code-api
-- description: The seo API from _done — 1 operation(s) for seo.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The seo API from _done — 1 operation(s) for seo.
   name: _done Seo API
   slug: done-seo-api
-- description: The sha256 hash API from _done — 1 operation(s) for sha256 hash.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The sha256 hash API from _done — 1 operation(s) for sha256 hash.
   name: _done sha256 hash API
   slug: done-sha256-hash-api
-- description: The shopify rank API from _done — 1 operation(s) for shopify rank.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The shopify rank API from _done — 1 operation(s) for shopify rank.
   name: _done shopify rank API
   slug: done-shopify-rank-api
-- description: The sitemap API from _done — 1 operation(s) for sitemap.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The sitemap API from _done — 1 operation(s) for sitemap.
   name: _done Sitemap API
   slug: done-sitemap-api
-- description: The Validation API from _done — 1 operation(s) for validation.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The Validation API from _done — 1 operation(s) for validation.
   name: _done Validation API
   slug: done-validation-api
-- description: The website screenshot API from _done — 1 operation(s) for website screenshot.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The website screenshot API from _done — 1 operation(s) for website screenshot.
   name: _done website screenshot API
   slug: done-website-screenshot-api
-- description: The website uptime API from _done — 1 operation(s) for website uptime.
+- baseURL: https://underscoredone.com
+  baseurl_source: declared
+  description: The website uptime API from _done — 1 operation(s) for website uptime.
   name: _done website uptime API
   slug: done-website-uptime-api
 artifact_total: 59
@@ -418,20 +483,20 @@ rate_limits:
   slug: done-rate-limits
 score:
   band: thin
-  composite: 38.4
+  composite: 36.5
   coverage:
-    artifact_dirs: 20
-    catalog_gap: 70.0
+    artifact_dirs: 21
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 4.5
     contract_quality: 60.7
     developer_ergonomics: 44.6
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 2.6
   previous_composite: 38.4
@@ -452,8 +517,9 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/done/refs/heads/main/screenshots/done-2026-09-02T145256.png
 security:
 - kind: authentication
   name: Done Authentication

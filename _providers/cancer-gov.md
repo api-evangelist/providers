@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,16 +62,24 @@ apis:
 - description: A suite of syndicated content channels — RSS feeds, the NCI Dictionary Widget, and syndicated publication content — that partner sites and health platforms can embed to deliver authoritative cancer co
   name: NCI Content Syndication Services
   slug: syndication-services
-- description: The Diseases API from Cancer.gov — 1 operation(s) for diseases.
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Diseases API from Cancer.gov — 1 operation(s) for diseases.
   name: Cancer.gov Diseases API
   slug: cancer-gov-diseases-api
-- description: The Interventions API from Cancer.gov — 1 operation(s) for interventions.
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Interventions API from Cancer.gov — 1 operation(s) for interventions.
   name: Cancer.gov Interventions API
   slug: cancer-gov-interventions-api
-- description: The Terms API from Cancer.gov — 1 operation(s) for terms.
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Terms API from Cancer.gov — 1 operation(s) for terms.
   name: Cancer.gov Terms API
   slug: cancer-gov-terms-api
-- description: The Trials API from Cancer.gov — 2 operation(s) for trials.
+- baseURL: https://clinicaltrialsapi.cancer.gov/api/v2
+  baseurl_source: declared
+  description: The Trials API from Cancer.gov — 2 operation(s) for trials.
   name: Cancer.gov Trials API
   slug: cancer-gov-trials-api
 artifact_total: 22
@@ -205,7 +213,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cancer-gov/refs/heads/main/screenshots/cancer-gov-2026-06-20T173920.png
 security:

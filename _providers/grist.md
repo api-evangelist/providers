@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 120 operations · 75 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Documents may include attached files. Data records can refer to these using a column of type `Attachments`.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Documents may include attached files. Data records can refer to these using a column of type `Attachments`.
   name: Grist attachments API
   slug: grist-attachments-api
-- description: Tables are structured as a collection of columns.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Tables are structured as a collection of columns.
   name: Grist columns API
   slug: grist-columns-api
-- description: Work with table data, using a (now deprecated) columnar format. We now recommend the `records` endpoints.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Work with table data, using a (now deprecated) columnar format. We now recommend the `records` endpoints.
   name: Grist data API
   slug: grist-data-api
-- description: Workspaces contain collections of Grist documents.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Workspaces contain collections of Grist documents.
   name: Grist docs API
   slug: grist-docs-api
-- description: The forms API from Grist — 1 operation(s) for forms.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: The forms API from Grist — 1 operation(s) for forms.
   name: Grist forms API
   slug: grist-forms-api
-- description: Team sites and personal spaces are called 'orgs' in the API.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Team sites and personal spaces are called 'orgs' in the API.
   name: Grist orgs API
   slug: grist-orgs-api
-- description: The profile API from Grist — 4 operation(s) for profile.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: The profile API from Grist — 4 operation(s) for profile.
   name: Grist profile API
   slug: grist-profile-api
-- description: Tables contain collections of records (also called rows).
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Tables contain collections of records (also called rows).
   name: Grist records API
   slug: grist-records-api
-- description: Impersonations to manage grist resources through REST APIs with specific rights.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Impersonations to manage grist resources through REST APIs with specific rights.
   name: Grist service accounts API
   slug: grist-service-accounts-api
-- description: The session API from Grist — 2 operation(s) for session.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: The session API from Grist — 2 operation(s) for session.
   name: Grist session API
   slug: grist-session-api
-- description: Sql endpoint to query data from documents.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Sql endpoint to query data from documents.
   name: Grist sql API
   slug: grist-sql-api
-- description: Documents are structured as a collection of tables.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Documents are structured as a collection of tables.
   name: Grist tables API
   slug: grist-tables-api
-- description: The templates API from Grist — 2 operation(s) for templates.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: The templates API from Grist — 2 operation(s) for templates.
   name: Grist templates API
   slug: grist-templates-api
-- description: Grist users.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Grist users.
   name: Grist users API
   slug: grist-users-api
-- description: Document changes can trigger requests to URLs called webhooks.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Document changes can trigger requests to URLs called webhooks.
   name: Grist webhooks API
   slug: grist-webhooks-api
-- description: The widgets API from Grist — 1 operation(s) for widgets.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: The widgets API from Grist — 1 operation(s) for widgets.
   name: Grist widgets API
   slug: grist-widgets-api
-- description: Sites can be organized into groups of documents called workspaces.
+- baseURL: https://docs.getgrist.com/api
+  baseurl_source: declared
+  description: Sites can be organized into groups of documents called workspaces.
   name: Grist workspaces API
   slug: grist-workspaces-api
 artifact_total: 50
@@ -303,7 +337,7 @@ score:
     catalog_gap: 34.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -313,7 +347,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 45.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -322,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grist/refs/heads/main/screenshots/grist-2026-06-20T182409.png
 security:

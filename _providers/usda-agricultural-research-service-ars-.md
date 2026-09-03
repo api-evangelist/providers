@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 3 acting
 api_count: 2
 apis:
-- description: Dataset metadata search and retrieval
+- baseURL: https://data.nal.usda.gov
+  baseurl_source: spec
+  description: Dataset metadata search and retrieval
   name: USDA Agricultural Research Service (ARS) Datasets API
   slug: usda-agricultural-research-service-ars--datasets-api
-- description: Search foods by keywords or other criteria
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: spec
+  description: Search foods by keywords or other criteria
   name: USDA Agricultural Research Service (ARS) Food Search API
   slug: usda-agricultural-research-service-ars--food-search-api
-- description: Retrieve food records by FDC ID
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: spec
+  description: Retrieve food records by FDC ID
   name: USDA Agricultural Research Service (ARS) Foods API
   slug: usda-agricultural-research-service-ars--foods-api
 artifact_total: 22
@@ -197,7 +203,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/screenshots/usda-agricultural-research-service-ars--2026-06-20T200650.png
 security:

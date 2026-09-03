@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: The Bill API from Seel — 3 operation(s) for bill.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Bill API from Seel — 3 operation(s) for bill.
   name: Seel Bill API
   slug: seel-bill-api
-- description: The Claim API from Seel — 2 operation(s) for claim.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Claim API from Seel — 2 operation(s) for claim.
   name: Seel Claim API
   slug: seel-claim-api
-- description: The Contract API from Seel — 2 operation(s) for contract.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Contract API from Seel — 2 operation(s) for contract.
   name: Seel Contract API
   slug: seel-contract-api
-- description: The Event API from Seel — 1 operation(s) for event.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Event API from Seel — 1 operation(s) for event.
   name: Seel Event API
   slug: seel-event-api
-- description: The Fulfillment API from Seel — 3 operation(s) for fulfillment.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Fulfillment API from Seel — 3 operation(s) for fulfillment.
   name: Seel Fulfillment API
   slug: seel-fulfillment-api
-- description: The Merchant API from Seel — 2 operation(s) for merchant.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Merchant API from Seel — 2 operation(s) for merchant.
   name: Seel Merchant API
   slug: seel-merchant-api
-- description: The Order API from Seel — 4 operation(s) for order.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Order API from Seel — 4 operation(s) for order.
   name: Seel Order API
   slug: seel-order-api
-- description: The Product API from Seel — 4 operation(s) for product.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Product API from Seel — 4 operation(s) for product.
   name: Seel Product API
   slug: seel-product-api
-- description: The Quote API from Seel — 2 operation(s) for quote.
+- baseURL: https://api-test.seel.com/v1
+  baseurl_source: declared
+  description: The Quote API from Seel — 2 operation(s) for quote.
   name: Seel Quote API
   slug: seel-quote-api
 artifact_total: 23
@@ -184,11 +202,11 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 30.6
+  previous_composite: 30.5
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +233,9 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/seel/refs/heads/main/screenshots/seel-2026-09-02T154753.png
 security:
 - kind: authentication
   name: Seel Authentication

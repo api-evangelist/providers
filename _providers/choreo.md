@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 34 operations · 12 acting
 api_count: 3
 apis:
-- description: Monitoring alerts for APIs and components.
+- baseURL: https://console.choreo.dev/insights/api/v1
+  baseurl_source: spec
+  description: Monitoring alerts for APIs and components.
   name: Choreo Alerts API
   slug: choreo-alerts-api
-- description: The Apis API from Choreo — 4 operation(s) for apis.
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: The Apis API from Choreo — 4 operation(s) for apis.
   name: Choreo Apis API
   slug: choreo-apis-api
-- description: Generate OAuth 2.0 and API key credentials.
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Generate OAuth 2.0 and API key credentials.
   name: Choreo Application Keys API
   slug: choreo-application-keys-api
-- description: Manage applications for API consumption.
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage applications for API consumption.
   name: Choreo Applications API
   slug: choreo-applications-api
-- description: Manage builds for components.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage builds for components.
   name: Choreo Builds API
   slug: choreo-builds-api
-- description: View available business plans for API subscriptions.
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: View available business plans for API subscriptions.
   name: Choreo Business Plans API
   slug: choreo-business-plans-api
-- description: Manage components (services, APIs, web apps, jobs) within projects.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage components (services, APIs, web apps, jobs) within projects.
   name: Choreo Components API
   slug: choreo-components-api
-- description: Manage deployments to environments.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage deployments to environments.
   name: Choreo Deployments API
   slug: choreo-deployments-api
-- description: Manage deployment environments.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage deployment environments.
   name: Choreo Environments API
   slug: choreo-environments-api
-- description: API error analytics and diagnostics.
+- baseURL: https://console.choreo.dev/insights/api/v1
+  baseurl_source: spec
+  description: API error analytics and diagnostics.
   name: Choreo Errors API
   slug: choreo-errors-api
-- description: API latency and performance metrics.
+- baseURL: https://console.choreo.dev/insights/api/v1
+  baseurl_source: spec
+  description: API latency and performance metrics.
   name: Choreo Latency API
   slug: choreo-latency-api
-- description: Component log querying and monitoring.
+- baseURL: https://console.choreo.dev/insights/api/v1
+  baseurl_source: spec
+  description: Component log querying and monitoring.
   name: Choreo Logs API
   slug: choreo-logs-api
-- description: Manage organizations.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage organizations.
   name: Choreo Organizations API
   slug: choreo-organizations-api
-- description: Manage projects within organizations.
+- baseURL: https://console.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage projects within organizations.
   name: Choreo Projects API
   slug: choreo-projects-api
-- description: Manage API subscriptions.
+- baseURL: https://devportal.choreo.dev/api/v1
+  baseurl_source: spec
+  description: Manage API subscriptions.
   name: Choreo Subscriptions API
   slug: choreo-subscriptions-api
-- description: API usage statistics and request metrics.
+- baseURL: https://console.choreo.dev/insights/api/v1
+  baseurl_source: spec
+  description: API usage statistics and request metrics.
   name: Choreo Usage API
   slug: choreo-usage-api
 artifact_total: 94
@@ -432,7 +464,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:

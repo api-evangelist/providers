@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The Secret Versions API from Google Cloud Secret Manager — 4 operation(s) for secret versions.
+- baseURL: https://secretmanager.googleapis.com
+  baseurl_source: declared
+  description: The Secret Versions API from Google Cloud Secret Manager — 4 operation(s) for secret versions.
   name: Google Cloud Secret Manager Secret Versions API
   slug: google-cloud-secret-manager-secret-versions-api
-- description: The Secrets API from Google Cloud Secret Manager — 2 operation(s) for secrets.
+- baseURL: https://secretmanager.googleapis.com
+  baseurl_source: declared
+  description: The Secrets API from Google Cloud Secret Manager — 2 operation(s) for secrets.
   name: Google Cloud Secret Manager Secrets API
   slug: google-cloud-secret-manager-secrets-api
 artifact_total: 19
@@ -227,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/screenshots/google-cloud-secret-manager-2026-08-17T082610.png
 security:

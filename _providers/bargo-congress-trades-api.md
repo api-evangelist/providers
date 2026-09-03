@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,13 +48,19 @@ apis:
 - description: A focused Streamable HTTP MCP server exposing three read-only tools over the Congress Trades dataset — get_congress_trades, get_congress_member and get_congress_stats. The handshake and tools/list are
   name: Congress Trades MCP Server
   slug: congress-trades-mcp-server
-- description: Members of Congress and their disclosure histories.
+- baseURL: https://www.bargo.ai/free-apis/congress/v1
+  baseurl_source: declared
+  description: Members of Congress and their disclosure histories.
   name: Bargo Congress Trades API Members API
   slug: bargo-congress-trades-api-members-api
-- description: Aggregate dataset statistics and freshness.
+- baseURL: https://www.bargo.ai/free-apis/congress/v1
+  baseurl_source: declared
+  description: Aggregate dataset statistics and freshness.
   name: Bargo Congress Trades API Statistics API
   slug: bargo-congress-trades-api-statistics-api
-- description: Normalized House and Senate securities transactions.
+- baseURL: https://www.bargo.ai/free-apis/congress/v1
+  baseurl_source: declared
+  description: Normalized House and Senate securities transactions.
   name: Bargo Congress Trades API Trades API
   slug: bargo-congress-trades-api-trades-api
 artifact_total: 17
@@ -247,7 +265,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bargo-congress-trades-api/refs/heads/main/screenshots/bargo-congress-trades-api-2026-08-17T080629.png
 security:

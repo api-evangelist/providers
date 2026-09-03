@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Authentication operations for user authentication, authorization, and session management. Authentication endpoints handle user identity verification, token generation, and access control throughout th
   name: Super.ai auth API
   slug: superai-auth-api
-- description: File download operations for retrieving files from gs:// storage URIs. When Super.AI Flows processes documents, task outputs often include file references as `gs://` URIs pointing to Google Cloud Stor
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: File download operations for retrieving files from gs:// storage URIs. When Super.AI Flows processes documents, task outputs often include file references as `gs://` URIs pointing to Google Cloud Stor
   name: Super.ai files API
   slug: superai-files-api
-- description: Flow execution operations for running and monitoring workflows. Flow executions represent runtime instances of flows. When you execute a flow, a new flow execution is created with its own unique ID, s
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Flow execution operations for running and monitoring workflows. Flow executions represent runtime instances of flows. When you execute a flow, a new flow execution is created with its own unique ID, s
   name: Super.ai flow-executions API
   slug: superai-flow-executions-api
-- description: Flow management operations for defining and organizing workflows. Flows represent workflow definitions with tasks, dependencies, and execution logic. They serve as reusable templates that can be execu
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Flow management operations for defining and organizing workflows. Flows represent workflow definitions with tasks, dependencies, and execution logic. They serve as reusable templates that can be execu
   name: Super.ai flows API
   slug: superai-flows-api
-- description: Human review task operations for creating and managing human-in-the-loop review workflows.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Human review task operations for creating and managing human-in-the-loop review workflows.
   name: Super.ai human-review-tasks API
   slug: superai-human-review-tasks-api
-- description: 'Integration operations for connecting flows to external services and platforms. Integrations enable your workflows to interact with third-party services, databases, storage systems, and communication '
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: 'Integration operations for connecting flows to external services and platforms. Integrations enable your workflows to interact with third-party services, databases, storage systems, and communication '
   name: Super.ai integrations API
   slug: superai-integrations-api
-- description: 'Model operations for querying available AI models and their configurations. Model endpoints provide information about the AI models available through the platform. These endpoints enable discovery of '
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: 'Model operations for querying available AI models and their configurations. Model endpoints provide information about the AI models available through the platform. These endpoints enable discovery of '
   name: Super.ai models API
   slug: superai-models-api
-- description: Organization operations for viewing credit balance and organization-scoped information.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Organization operations for viewing credit balance and organization-scoped information.
   name: Super.ai organizations API
   slug: superai-organizations-api
-- description: Plugin operations for managing integration plugin instances, OAuth flows, and webhooks.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Plugin operations for managing integration plugin instances, OAuth flows, and webhooks.
   name: Super.ai plugins API
   slug: superai-plugins-api
-- description: User profile operations for viewing and updating account information. Profile endpoints allow authenticated users to view and update their own account information and preferences. These endpoints oper
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: User profile operations for viewing and updating account information. Profile endpoints allow authenticated users to view and update their own account information and preferences. These endpoints oper
   name: Super.ai profile API
   slug: superai-profile-api
-- description: Service account operations for managing programmatic API access credentials.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Service account operations for managing programmatic API access credentials.
   name: Super.ai service-accounts API
   slug: superai-service-accounts-api
-- description: Single Sign-On operations for configuring SAML-based SSO authentication.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Single Sign-On operations for configuring SAML-based SSO authentication.
   name: Super.ai sso API
   slug: superai-sso-api
-- description: Task data operations for flow validation, schema discovery, and dynamic configuration. The task-data endpoint analyzes flow definitions to extract task output schemas, dynamic configuration options, a
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Task data operations for flow validation, schema discovery, and dynamic configuration. The task-data endpoint analyzes flow definitions to extract task output schemas, dynamic configuration options, a
   name: Super.ai task-data API
   slug: superai-task-data-api
-- description: Task execution operations for tracking individual task runs within flow executions. Task executions represent individual task runs within a flow execution. Each task in a flow execution has its own ta
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Task execution operations for tracking individual task runs within flow executions. Task executions represent individual task runs within a flow execution. Each task in a flow execution has its own ta
   name: Super.ai task-executions API
   slug: superai-task-executions-api
-- description: Task executor operations for discovering available task types and their capabilities. Task executors define the available task types that can be used in flow definitions. Each executor specifies its i
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Task executor operations for discovering available task types and their capabilities. Task executors define the available task types that can be used in flow definitions. Each executor specifies its i
   name: Super.ai task-executors API
   slug: superai-task-executors-api
-- description: 'Task output operations for storing and retrieving task execution results. Task outputs store the results produced by task executions in a structured, queryable format. While task executions track the '
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: 'Task output operations for storing and retrieving task execution results. Task outputs store the results produced by task executions in a structured, queryable format. While task executions track the '
   name: Super.ai task-outputs API
   slug: superai-task-outputs-api
-- description: Task tag operations for categorizing and organizing tasks with metadata. Task tags provide metadata and categorization for tasks within flow executions. Tags enable flexible organization, filtering, a
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Task tag operations for categorizing and organizing tasks with metadata. Task tags provide metadata and categorization for tasks within flow executions. Tags enable flexible organization, filtering, a
   name: Super.ai task-tags API
   slug: superai-task-tags-api
-- description: Push data from external systems to a flow execution's waiting 'Wait for Webhook' task. A 2xx acknowledgment means the data is durably stored; identical redeliveries are idempotent.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: Push data from external systems to a flow execution's waiting 'Wait for Webhook' task. A 2xx acknowledgment means the data is durably stored; identical redeliveries are idempotent.
   name: Super.ai webhook-data API
   slug: superai-webhook-data-api
-- description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
+- baseURL: https://flows.super.ai/api
+  baseurl_source: declared
+  description: The worker-groups API from Super.ai — 3 operation(s) for worker-groups.
   name: Super.ai worker-groups API
   slug: superai-worker-groups-api
 artifact_total: 44
@@ -309,7 +347,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -319,7 +357,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.8
+  previous_composite: 51.5
   provenance:
     conformance: derived
     contracts:
@@ -330,7 +368,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superai/refs/heads/main/screenshots/superai-2026-08-17T082158.png
 security:

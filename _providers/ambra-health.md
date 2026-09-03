@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 62 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Account (tenant) administration
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Account (tenant) administration
   name: Ambra Health Accounts API
   slug: ambra-health-accounts-api
-- description: User groups
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: User groups
   name: Ambra Health Groups API
   slug: ambra-health-groups-api
-- description: Namespace permissions, settings, and audit
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Namespace permissions, settings, and audit
   name: Ambra Health Namespaces API
   slug: ambra-health-namespaces-api
-- description: Patient records and merges
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Patient records and merges
   name: Ambra Health Patients API
   slug: ambra-health-patients-api
-- description: Authentication, session, OAuth, and permissions
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Authentication, session, OAuth, and permissions
   name: Ambra Health Session API
   slug: ambra-health-session-api
-- description: Study and filter sharing / image exchange
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Study and filter sharing / image exchange
   name: Ambra Health Sharing API
   slug: ambra-health-sharing-api
-- description: DICOM data, storage, and annotations
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: DICOM data, storage, and annotations
   name: Ambra Health Storage & Images API
   slug: ambra-health-storage-images-api
-- description: DICOM study lifecycle, routing, download, and audit
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: DICOM study lifecycle, routing, download, and audit
   name: Ambra Health Studies API
   slug: ambra-health-studies-api
-- description: User administration and tokens
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: User administration and tokens
   name: Ambra Health Users API
   slug: ambra-health-users-api
-- description: Event webhooks
+- baseURL: https://access.dicomgrid.com/api/v3
+  baseurl_source: declared
+  description: Event webhooks
   name: Ambra Health Webhooks API
   slug: ambra-health-webhooks-api
 artifact_total: 28
@@ -215,7 +235,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/screenshots/ambra-health-2026-07-25T200031.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 13.5
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -114,8 +114,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whova/refs/heads/main/screenshots/whova-2026-09-02T170731.png
 security:
 - kind: domain-security
   name: Whova Domain Security

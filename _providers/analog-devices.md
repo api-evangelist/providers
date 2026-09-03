@@ -10,18 +10,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
-api_count: 3
+  score: 11.5
+  scored_at: '2026-09-02'
+api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
   name: Analog Devices libiio API
@@ -45,8 +45,15 @@ apis:
 - description: CodeFusion Studio is ADI's embedded software development environment built on Visual Studio Code for ADI microcontrollers and DSPs. It provides graphical system configuration, code generation, debuggi
   name: Analog Devices CodeFusion Studio
   slug: codefusion-studio
-artifact_total: 28
+- description: 'The ADI 3D Time-of-Flight SDK (libaditof, and the ADCAM application layer built on it) drives ADI depth cameras from a host. Its network connection is defined by a published proto3 contract, in which '
+  name: Analog Devices 3D Time-of-Flight SDK
+  slug: aditof-sdk
+artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.analog.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -74,7 +81,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.analog.com/en/resources/media-center/analog-dialogue.html
+  url: https://www.analog.com/en/resources/analog-dialogue.html
 - group: operate
   title: ''
   type: Support
@@ -99,6 +106,87 @@ common:
   title: ''
   type: SpectralRules
   url: rules/analog-devices-spectral-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/analog-devices-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/analog-devices-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/analog-devices-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/analog-devices-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/analog-devices-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/analog-devices-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/analog-devices-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/analog-devices-cli.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/analog-devices-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/analog-devices-data-model.yml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/analog-devices-aditof-network.proto
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/analog-devices-llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://analogdevicesinc.github.io/ltspice-reference/llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/analog-devices-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/analog-devices-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/analog-devices-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.analog.com/docs/codefusion-studio/latest/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.analog.com/documentation
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.analog.com/en/who-we-are/legal-and-risk-oversight/data-privacy/privacy-policy.html
+created: '2026-05-03'
 description: Analog Devices (ADI) is a global semiconductor company designing high-performance analog, mixed-signal, and digital signal processing integrated circuits for industrial, communications, automotive, and consumer markets. ADI provides developer tools through its CodeFusion Studio embedded development environment and the ADI Developer Portal. ADI's APIs are primarily embedded software APIs for microcontrollers and DSPs via the libiio library for Linux Industrial I/O devices, pyadi-iio Python interfaces, and security APIs within the ADI Assure Trusted Edge Security Architecture. The company also maintains the no-OS driver library for bare-metal embedded systems.
 features:
 - description: libiio library for accessing Linux Industrial I/O devices over USB, network, and local interfaces.
@@ -142,17 +230,17 @@ jsonld:
   property_count: 6
   slug: analog-devices-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Analog Devices
 nav: Providers
 network: true
-overview: 'Analog Devices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductors, and Signal Processing.
+overview: 'Analog Devices publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Embedded Systems, Hardware, IoT, Semiconductors, and Signal Processing.
 
 
   The Analog Devices catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Analog Devices'' developer surface includes developer portal, documentation, engineering blog, support, and 9 more developer resources.'
+  Analog Devices'' developer surface includes developer portal, documentation, engineering blog, support, authentication, changelog, CLI, and 27 more developer resources.'
 plans:
 - name: Analog Devices Plans Pricing
   plan_count: 1
@@ -200,29 +288,37 @@ rules:
     warn: 0
   slug: analog-devices-spectral-rules
 score:
-  band: emerging
-  composite: 22.2
+  band: thin
+  composite: 38.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 26
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 16.6
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 25.0
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 43.2
     contract_quality: 10.7
-    developer_ergonomics: 27.4
-    discoverability: 74.1
-    governance: 25.0
-    operational_transparency: 7.9
+    developer_ergonomics: 75.0
+    discoverability: 81.5
+    governance: 43.2
+    operational_transparency: 23.7
   previous_composite: 22.2
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/screenshots/analog-devices-2026-08-07T161354.png
 security:
+- kind: authentication
+  name: Analog Devices Authentication
+  slug: analog-devices-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Analog Devices Domain Security
   slug: analog-devices-domain-security
@@ -246,5 +342,5 @@ use_cases:
   name: Secure IoT Devices
 - description: Developing motor drive applications using ADI ADSP processors and evaluation kits.
   name: Motor Control
-website: https://developer.analog.com
+website: https://www.analog.com/
 ---

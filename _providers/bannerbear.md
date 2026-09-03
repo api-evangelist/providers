@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 29 operations · 11 acting
 api_count: 1
 apis:
-- description: Build animated GIFs from template frames.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Build animated GIFs from template frames.
   name: Bannerbear Animated GIFs API
   slug: bannerbear-animated-gifs-api
-- description: API key verification and account status.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: API key verification and account status.
   name: Bannerbear Auth API
   slug: bannerbear-auth-api
-- description: Generate multiple images from a template set.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Generate multiple images from a template set.
   name: Bannerbear Collections API
   slug: bannerbear-collections-api
-- description: Reference fonts and effects.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Reference fonts and effects.
   name: Bannerbear Fonts API
   slug: bannerbear-fonts-api
-- description: Auto-generate images from templates.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Auto-generate images from templates.
   name: Bannerbear Images API
   slug: bannerbear-images-api
-- description: Capture web page screenshots by URL.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Capture web page screenshots by URL.
   name: Bannerbear Screenshots API
   slug: bannerbear-screenshots-api
-- description: Manage templates and template sets.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Manage templates and template sets.
   name: Bannerbear Templates API
   slug: bannerbear-templates-api
-- description: Render videos from video templates.
+- baseURL: https://api.bannerbear.com/v2
+  baseurl_source: declared
+  description: Render videos from video templates.
   name: Bannerbear Videos API
   slug: bannerbear-videos-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bannerbear/refs/heads/main/screenshots/bannerbear-2026-06-20T172954.png
 security:

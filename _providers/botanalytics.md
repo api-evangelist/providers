@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Messages API from Botanalytics — 1 operation(s) for messages.
+- baseURL: https://api.beta.botanalytics.co/v2
+  baseurl_source: declared
+  description: The Messages API from Botanalytics — 1 operation(s) for messages.
   name: Botanalytics Messages API
   slug: botanalytics-messages-api
 artifact_total: 6
@@ -190,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/screenshots/botanalytics-2026-07-25T203639.png
 security:

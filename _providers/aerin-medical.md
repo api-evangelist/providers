@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Route index / discovery documents.
+- baseURL: https://aerinmedical.com/wp-json
+  baseurl_source: declared
+  description: Route index / discovery documents.
   name: Aerin Medical Discovery API
   slug: aerin-medical-discovery-api
-- description: oEmbed representations of aerinmedical.com URLs.
+- baseURL: https://aerinmedical.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representations of aerinmedical.com URLs.
   name: Aerin Medical Embed API
   slug: aerin-medical-embed-api
-- description: Site form-submission endpoints (lead capture, NOSE score assessments). Side-effecting; not invoked during derivation.
+- baseURL: https://aerinmedical.com/wp-json
+  baseurl_source: declared
+  description: Site form-submission endpoints (lead capture, NOSE score assessments). Side-effecting; not invoked during derivation.
   name: Aerin Medical Forms API
   slug: aerin-medical-forms-api
-- description: The Aerin doctor finder — treating ENT locations, filterable by product, designation, text and geography.
+- baseURL: https://aerinmedical.com/wp-json
+  baseurl_source: declared
+  description: The Aerin doctor finder — treating ENT locations, filterable by product, designation, text and geography.
   name: Aerin Medical Locator API
   slug: aerin-medical-locator-api
-- description: Cross-content-type site search.
+- baseURL: https://aerinmedical.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type site search.
   name: Aerin Medical Search API
   slug: aerin-medical-search-api
 artifact_total: 9
@@ -207,7 +228,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/screenshots/aerin-medical-2026-08-07T160959.png
 security:

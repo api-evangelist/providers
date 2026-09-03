@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Real-time, historical and predicted speed, travel time and reference speed for INRIX XD and TMC road segments, queried by bounding box, radius, point, segment set or corridor.
@@ -71,43 +83,69 @@ apis:
 - description: Anonymized visit counts and dwell analytics for points of interest and custom polygons, derived from INRIX device and vehicle movement data.
   name: INRIX Visits Analytics API
   slug: inrix-visits-analytics-api
-- description: The accounts API from INRIX — 1 operation(s) for accounts.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The accounts API from INRIX — 1 operation(s) for accounts.
   name: INRIX Accounts API
   slug: inrix-accounts-api
-- description: The api API from INRIX — 3 operation(s) for api.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The api API from INRIX — 3 operation(s) for api.
   name: INRIX API
   slug: inrix-api-api
-- description: The Application API from INRIX — 9 operation(s) for application.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Application API from INRIX — 9 operation(s) for application.
   name: INRIX Application API
   slug: inrix-application-api
-- description: The ApplicationManagement API from INRIX — 9 operation(s) for applicationmanagement.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The ApplicationManagement API from INRIX — 9 operation(s) for applicationmanagement.
   name: INRIX Application Management API
   slug: inrix-applicationmanagement-api
-- description: The Auth API from INRIX — 6 operation(s) for auth.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Auth API from INRIX — 6 operation(s) for auth.
   name: INRIX Auth API
   slug: inrix-auth-api
-- description: The Developer API from INRIX — 2 operation(s) for developer.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Developer API from INRIX — 2 operation(s) for developer.
   name: INRIX Developer API
   slug: inrix-developer-api
-- description: The Device API from INRIX — 3 operation(s) for device.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Device API from INRIX — 3 operation(s) for device.
   name: INRIX Device API
   slug: inrix-device-api
-- description: The EmailTemplate API from INRIX — 2 operation(s) for emailtemplate.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The EmailTemplate API from INRIX — 2 operation(s) for emailtemplate.
   name: INRIX Email Template API
   slug: inrix-emailtemplate-api
-- description: The Metadata API from INRIX — 1 operation(s) for metadata.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Metadata API from INRIX — 1 operation(s) for metadata.
   name: INRIX Metadata API
   slug: inrix-metadata-api
-- description: The Metrics API from INRIX — 2 operation(s) for metrics.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The Metrics API from INRIX — 2 operation(s) for metrics.
   name: INRIX Metrics API
   slug: inrix-metrics-api
-- description: APIs for managing intersection namespace subscriptions
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: APIs for managing intersection namespace subscriptions
   name: INRIX Namespace Management API
   slug: inrix-namespace-management-api
-- description: The User API from INRIX — 18 operation(s) for user.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The User API from INRIX — 18 operation(s) for user.
   name: INRIX User API
   slug: inrix-user-api
-- description: The UserGroup API from INRIX — 8 operation(s) for usergroup.
+- baseURL: https://uas-api.inrix.com
+  baseurl_source: declared
+  description: The UserGroup API from INRIX — 8 operation(s) for usergroup.
   name: INRIX User Group API
   slug: inrix-usergroup-api
 artifact_total: 34
@@ -320,7 +358,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -330,7 +368,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 48.8
+  previous_composite: 48.9
   provenance:
     conformance: first-party
     contracts:
@@ -341,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/screenshots/inrix-2026-08-07T170714.png
 security:

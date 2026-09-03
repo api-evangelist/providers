@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: REST API for Oracle Fusion Cloud ERP providing access to financial management, procurement, and project management capabilities.
@@ -42,31 +42,49 @@ apis:
 - description: RESTful services for Oracle Application Express enabling low-code application development.
   name: Oracle APEX REST APIs
   slug: oracle-apex-rest-apis
-- description: The analytics API from Oracle Platforms — 19 operation(s) for analytics.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The analytics API from Oracle Platforms — 19 operation(s) for analytics.
   name: Oracle Platforms Analytics API
   slug: oracle-platforms-analytics-api
-- description: The blockstorage API from Oracle Platforms — 33 operation(s) for blockstorage.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The blockstorage API from Oracle Platforms — 33 operation(s) for blockstorage.
   name: Oracle Platforms Blockstorage API
   slug: oracle-platforms-blockstorage-api
-- description: The compute API from Oracle Platforms — 82 operation(s) for compute.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The compute API from Oracle Platforms — 82 operation(s) for compute.
   name: Oracle Platforms Compute API
   slug: oracle-platforms-compute-api
-- description: The computeManagement API from Oracle Platforms — 23 operation(s) for computemanagement.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The computeManagement API from Oracle Platforms — 23 operation(s) for computemanagement.
   name: Oracle Platforms Compute Management API
   slug: oracle-platforms-computemanagement-api
-- description: The database API from Oracle Platforms — 319 operation(s) for database.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The database API from Oracle Platforms — 319 operation(s) for database.
   name: Oracle Platforms Database API
   slug: oracle-platforms-database-api
-- description: The dataScience API from Oracle Platforms — 99 operation(s) for datascience.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The dataScience API from Oracle Platforms — 99 operation(s) for datascience.
   name: Oracle Platforms Data Science API
   slug: oracle-platforms-datascience-api
-- description: The integrationInstance API from Oracle Platforms — 19 operation(s) for integrationinstance.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The integrationInstance API from Oracle Platforms — 19 operation(s) for integrationinstance.
   name: Oracle Platforms Integration Instance API
   slug: oracle-platforms-integrationinstance-api
-- description: The oceInstance API from Oracle Platforms — 7 operation(s) for oceinstance.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The oceInstance API from Oracle Platforms — 7 operation(s) for oceinstance.
   name: Oracle Platforms Oce Instance API
   slug: oracle-platforms-oceinstance-api
-- description: The virtualNetwork API from Oracle Platforms — 176 operation(s) for virtualnetwork.
+- baseURL: https://iaas.{region}.oraclecloud.com
+  baseurl_source: declared
+  description: The virtualNetwork API from Oracle Platforms — 176 operation(s) for virtualnetwork.
   name: Oracle Platforms Virtual Network API
   slug: oracle-platforms-virtualnetwork-api
 artifact_total: 20
@@ -281,23 +299,23 @@ rate_limits:
   slug: oracle-platforms-rate-limits
 score:
   band: exemplar
-  composite: 68.7
+  composite: 69.5
   coverage:
     artifact_dirs: 23
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: 0.8
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
     contract_governance: 4.5
-    contract_quality: 55.5
+    contract_quality: 58.8
     developer_ergonomics: 87.5
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 63.8
+  previous_composite: 68.7
   provenance:
     conformance: derived
     contracts:
@@ -308,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 104 operations · 44 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: List, retrieve, and regenerate API keys for applications under your Raygun organization. Applications are the root resource — each owns its own error groups, deployments, source maps, sessions, pages,
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List, retrieve, and regenerate API keys for applications under your Raygun organization. Applications are the root resource — each owns its own error groups, deployments, source maps, sessions, pages,
   name: Raygun Applications API
   slug: raygun-applications-api
-- description: Triage error groups and instances — list, get, resolve, activate, ignore, permanently ignore, and comment on grouped errors. Drill into individual error instances with full stack-trace, environment, r
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Triage error groups and instances — list, get, resolve, activate, ignore, permanently ignore, and comment on grouped errors. Drill into individual error instances with full stack-trace, environment, r
   name: Raygun Errors API
   slug: raygun-errors-api
-- description: Record release markers and correlate them with error groups. Supports SCM integration (GitHub, GitLab, Bitbucket, Azure DevOps), commit reprocessing, latest-deploy lookup, and the api-key shortcut var
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Record release markers and correlate them with error groups. Supports SCM integration (GitHub, GitLab, Bitbucket, Azure DevOps), commit reprocessing, latest-deploy lookup, and the api-key shortcut var
   name: Raygun Deployments API
   slug: raygun-deployments-api
-- description: Upload, list, retrieve, update, and delete JavaScript source maps for symbolicating minified front-end stack traces in Crash Reporting and RUM error data.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Upload, list, retrieve, update, and delete JavaScript source maps for symbolicating minified front-end stack traces in Crash Reporting and RUM error data.
   name: Raygun Source Maps API
   slug: raygun-source-maps-api
-- description: List and retrieve Real User Monitoring sessions captured for an application. Each session contains page views, custom timings, and the errors a user experienced during that browsing period.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List and retrieve Real User Monitoring sessions captured for an application. Each session contains page views, custom timings, and the errors a user experienced during that browsing period.
   name: Raygun Sessions API
   slug: raygun-sessions-api
-- description: List and retrieve monitored pages for an application — the per-URL aggregation surface for RUM timing, Core Web Vitals, and page-level error rates.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List and retrieve monitored pages for an application — the per-URL aggregation surface for RUM timing, Core Web Vitals, and page-level error rates.
   name: Raygun Pages API
   slug: raygun-pages-api
-- description: List and retrieve customer (end-user) records associated with sessions and error instances. Supports both identified and anonymous user records.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List and retrieve customer (end-user) records associated with sessions and error instances. Supports both identified and anonymous user records.
   name: Raygun Customers API
   slug: raygun-customers-api
-- description: Query time-series and histogram metrics for page performance and error rates with flexible bucket, range, and filter parameters. Powers custom dashboards and external observability exports.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Query time-series and histogram metrics for page performance and error rates with flexible bucket, range, and filter parameters. Powers custom dashboards and external observability exports.
   name: Raygun Metrics API
   slug: raygun-metrics-api
-- description: Upload and manage Flutter debug-symbol artifacts so Raygun can symbolicate native crashes from Flutter mobile applications across iOS and Android builds.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Upload and manage Flutter debug-symbol artifacts so Raygun can symbolicate native crashes from Flutter mobile applications across iOS and Android builds.
   name: Raygun Flutter Symbols API
   slug: raygun-flutter-symbols-api
-- description: List and retrieve teams in your Raygun organization. Teams group members and grant shared access to a curated set of applications.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List and retrieve teams in your Raygun organization. Teams group members and grant shared access to a curated set of applications.
   name: Raygun Teams API
   slug: raygun-teams-api
-- description: Send, list, retrieve, and revoke organization-member invitations. Used to programmatically onboard and offboard users from your Raygun account.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: Send, list, retrieve, and revoke organization-member invitations. Used to programmatically onboard and offboard users from your Raygun account.
   name: Raygun Invitations API
   slug: raygun-invitations-api
-- description: List the available Raygun subscription plans so dashboards and automations can inspect entitlement levels and current allotments per product.
+- baseURL: https://api.raygun.com/v3
+  baseurl_source: spec
+  description: List the available Raygun subscription plans so dashboards and automations can inspect entitlement levels and current allotments per product.
   name: Raygun Plans API
   slug: raygun-plans-api
 - description: POST /entries ingestion endpoint at api.raygun.com used by all language SDKs and providers to submit crash payloads. X-ApiKey authenticated; 128 KB payload ceiling; 202 on accept, 400/403/413/429 on e
@@ -499,7 +523,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -509,7 +533,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 63.2
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -518,7 +542,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:

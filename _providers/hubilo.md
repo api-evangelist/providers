@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 30 operations · 15 acting
 api_count: 1
 apis:
-- description: The Event API from hubilo — 3 operation(s) for event.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Event API from hubilo — 3 operation(s) for event.
   name: hubilo Event API
   slug: hubilo-event-api
-- description: The Exhibitor API from hubilo — 7 operation(s) for exhibitor.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Exhibitor API from hubilo — 7 operation(s) for exhibitor.
   name: hubilo Exhibitor API
   slug: hubilo-exhibitor-api
-- description: The Organiser API from hubilo — 1 operation(s) for organiser.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Organiser API from hubilo — 1 operation(s) for organiser.
   name: hubilo Organiser API
   slug: hubilo-organiser-api
-- description: The Session API from hubilo — 6 operation(s) for session.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Session API from hubilo — 6 operation(s) for session.
   name: hubilo Session API
   slug: hubilo-session-api
-- description: The Speaker API from hubilo — 2 operation(s) for speaker.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Speaker API from hubilo — 2 operation(s) for speaker.
   name: hubilo Speaker API
   slug: hubilo-speaker-api
-- description: The Upload Media API from hubilo — 2 operation(s) for upload media.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The Upload Media API from hubilo — 2 operation(s) for upload media.
   name: hubilo Upload Media API
   slug: hubilo-upload-media-api
-- description: The User API from hubilo — 9 operation(s) for user.
+- baseURL: https://api.hubilo.com
+  baseurl_source: declared
+  description: The User API from hubilo — 9 operation(s) for user.
   name: hubilo User API
   slug: hubilo-user-api
 artifact_total: 21
@@ -231,7 +245,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -241,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 38.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubilo/refs/heads/main/screenshots/hubilo-2026-07-25T221615.png
 security:

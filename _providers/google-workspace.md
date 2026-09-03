@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -122,13 +122,19 @@ apis:
 - description: Manage customer and user license status for Google Workspace Marketplace applications.
   name: Google Workspace Marketplace API
   slug: marketplace
-- description: Manage groups in a Google Workspace domain
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: Manage groups in a Google Workspace domain
   name: Google Workspace Groups API
   slug: google-workspace-groups-api
-- description: Manage organizational units in a Google Workspace domain
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: Manage organizational units in a Google Workspace domain
   name: Google Workspace OrgUnits API
   slug: google-workspace-orgunits-api
-- description: Manage user accounts in a Google Workspace domain
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: Manage user accounts in a Google Workspace domain
   name: Google Workspace Users API
   slug: google-workspace-users-api
 arazzos:
@@ -568,7 +574,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/screenshots/google-workspace-2026-06-20T182248.png
 security:

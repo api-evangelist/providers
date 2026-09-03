@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Searches a firm's extracted clauses and definitions across its connected contract database, with intelligent ranking by frequency, document type, and metadata, surfaced inside Microsoft Word and Outlo
+- baseURL: https://www.henchman.io
+  baseurl_source: spec
+  description: Searches a firm's extracted clauses and definitions across its connected contract database, with intelligent ranking by frequency, document type, and metadata, surfaced inside Microsoft Word and Outlo
   name: Henchman Clause and Definition Search
   slug: clause-and-definition-search
-- description: Builds and maintains a searchable knowledge layer over a firm's precedent contracts by extracting clauses and definitions into a structured store (the base package plus an optional Dynamic Knowledge a
+- baseURL: https://www.henchman.io
+  baseurl_source: spec
+  description: Builds and maintains a searchable knowledge layer over a firm's precedent contracts by extracting clauses and definitions into a structured store (the base package plus an optional Dynamic Knowledge a
   name: Henchman Knowledge Base
   slug: knowledge-base
-- description: Connects Henchman to document management and storage systems - iManage Cloud and On-Prem, NetDocuments, SharePoint, Microsoft OneDrive, Google Drive, and OpenText eDocs - to extract precedent contract
+- baseURL: https://www.henchman.io
+  baseurl_source: spec
+  description: Connects Henchman to document management and storage systems - iManage Cloud and On-Prem, NetDocuments, SharePoint, Microsoft OneDrive, Google Drive, and OpenText eDocs - to extract precedent contract
   name: Henchman Integrations
   slug: integrations
 artifact_total: 9
@@ -131,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/henchman/refs/heads/main/screenshots/henchman-2026-07-25T220957.png
 security:

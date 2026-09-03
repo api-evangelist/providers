@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -36,106 +48,174 @@ apis:
 - description: OBIE Dynamic Client Registration (DCR) API documented on the Bank of Ireland Developer Hub for onboarding third-party provider applications using OBIE/eIDAS certificates, ahead of consuming the Read/W
   name: Bank of Ireland (UK) Dynamic Client Registration API
   slug: bank-of-ireland-uk-dynamic-client-registration-api
-- description: The Account Access Consents API from Bank of Ireland (UK) — 2 operation(s) for account access consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Account Access Consents API from Bank of Ireland (UK) — 2 operation(s) for account access consents.
   name: Bank of Ireland (UK) Account Access Consents API
   slug: bank-of-ireland-uk-account-access-consents-api
-- description: The Accounts API from Bank of Ireland (UK) — 2 operation(s) for accounts.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Accounts API from Bank of Ireland (UK) — 2 operation(s) for accounts.
   name: Bank of Ireland (UK) Accounts API
   slug: bank-of-ireland-uk-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Bank of Ireland (UK) ATM API
   slug: bank-of-ireland-uk-atm-api
-- description: The Balances API from Bank of Ireland (UK) — 2 operation(s) for balances.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Balances API from Bank of Ireland (UK) — 2 operation(s) for balances.
   name: Bank of Ireland (UK) Balances API
   slug: bank-of-ireland-uk-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Bank of Ireland (UK) BCA API
   slug: bank-of-ireland-uk-bca-api
-- description: The Beneficiaries API from Bank of Ireland (UK) — 2 operation(s) for beneficiaries.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Beneficiaries API from Bank of Ireland (UK) — 2 operation(s) for beneficiaries.
   name: Bank of Ireland (UK) Beneficiaries API
   slug: bank-of-ireland-uk-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Bank of Ireland (UK) Branch API
   slug: bank-of-ireland-uk-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Bank of Ireland (UK) CCC API
   slug: bank-of-ireland-uk-ccc-api
-- description: The Direct Debits API from Bank of Ireland (UK) — 2 operation(s) for direct debits.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Direct Debits API from Bank of Ireland (UK) — 2 operation(s) for direct debits.
   name: Bank of Ireland (UK) Direct Debits API
   slug: bank-of-ireland-uk-direct-debits-api
-- description: The Domestic Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for domestic payment consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for domestic payment consents.
   name: Bank of Ireland (UK) Domestic Payment Consents API
   slug: bank-of-ireland-uk-domestic-payment-consents-api
-- description: The Domestic Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic payments.
   name: Bank of Ireland (UK) Domestic Payments API
   slug: bank-of-ireland-uk-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic scheduled payment consents.
   name: Bank of Ireland (UK) Domestic Scheduled Payment Consents API
   slug: bank-of-ireland-uk-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic scheduled payments.
   name: Bank of Ireland (UK) Domestic Scheduled Payments API
   slug: bank-of-ireland-uk-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic standing order consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic standing order consents.
   name: Bank of Ireland (UK) Domestic Standing Order Consents API
   slug: bank-of-ireland-uk-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for domestic standing orders.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for domestic standing orders.
   name: Bank of Ireland (UK) Domestic Standing Orders API
   slug: bank-of-ireland-uk-domestic-standing-orders-api
-- description: The File Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for file payment consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The File Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for file payment consents.
   name: Bank of Ireland (UK) File Payment Consents API
   slug: bank-of-ireland-uk-file-payment-consents-api
-- description: The File Payments API from Bank of Ireland (UK) — 4 operation(s) for file payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The File Payments API from Bank of Ireland (UK) — 4 operation(s) for file payments.
   name: Bank of Ireland (UK) File Payments API
   slug: bank-of-ireland-uk-file-payments-api
-- description: The Funds Confirmation Consents API from Bank of Ireland (UK) — 2 operation(s) for funds confirmation consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Bank of Ireland (UK) — 2 operation(s) for funds confirmation consents.
   name: Bank of Ireland (UK) Funds Confirmation Consents API
   slug: bank-of-ireland-uk-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Bank of Ireland (UK) — 1 operation(s) for funds confirmations.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Funds Confirmations API from Bank of Ireland (UK) — 1 operation(s) for funds confirmations.
   name: Bank of Ireland (UK) Funds Confirmations API
   slug: bank-of-ireland-uk-funds-confirmations-api
-- description: The International Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for international payment consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for international payment consents.
   name: Bank of Ireland (UK) International Payment Consents API
   slug: bank-of-ireland-uk-international-payment-consents-api
-- description: The International Payments API from Bank of Ireland (UK) — 3 operation(s) for international payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Payments API from Bank of Ireland (UK) — 3 operation(s) for international payments.
   name: Bank of Ireland (UK) International Payments API
   slug: bank-of-ireland-uk-international-payments-api
-- description: The International Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments.
   name: Bank of Ireland (UK) International Scheduled Payments API
   slug: bank-of-ireland-uk-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments consents.
   name: Bank of Ireland (UK) International Scheduled Payments Consents API
   slug: bank-of-ireland-uk-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for international standing orders.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for international standing orders.
   name: Bank of Ireland (UK) International Standing Orders API
   slug: bank-of-ireland-uk-international-standing-orders-api
-- description: The International Standing Orders Consents API from Bank of Ireland (UK) — 2 operation(s) for international standing orders consents.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Bank of Ireland (UK) — 2 operation(s) for international standing orders consents.
   name: Bank of Ireland (UK) International Standing Orders Consents API
   slug: bank-of-ireland-uk-international-standing-orders-consents-api
-- description: The Offers API from Bank of Ireland (UK) — 2 operation(s) for offers.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Offers API from Bank of Ireland (UK) — 2 operation(s) for offers.
   name: Bank of Ireland (UK) Offers API
   slug: bank-of-ireland-uk-offers-api
-- description: The Parties API from Bank of Ireland (UK) — 3 operation(s) for parties.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Parties API from Bank of Ireland (UK) — 3 operation(s) for parties.
   name: Bank of Ireland (UK) Parties API
   slug: bank-of-ireland-uk-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Bank of Ireland (UK) PCA API
   slug: bank-of-ireland-uk-pca-api
-- description: The Products API from Bank of Ireland (UK) — 2 operation(s) for products.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Products API from Bank of Ireland (UK) — 2 operation(s) for products.
   name: Bank of Ireland (UK) Products API
   slug: bank-of-ireland-uk-products-api
-- description: The Scheduled Payments API from Bank of Ireland (UK) — 2 operation(s) for scheduled payments.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Scheduled Payments API from Bank of Ireland (UK) — 2 operation(s) for scheduled payments.
   name: Bank of Ireland (UK) Scheduled Payments API
   slug: bank-of-ireland-uk-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Bank of Ireland (UK) SME API
   slug: bank-of-ireland-uk-sme-api
-- description: The Standing Orders API from Bank of Ireland (UK) — 2 operation(s) for standing orders.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Standing Orders API from Bank of Ireland (UK) — 2 operation(s) for standing orders.
   name: Bank of Ireland (UK) Standing Orders API
   slug: bank-of-ireland-uk-standing-orders-api
-- description: The Statements API from Bank of Ireland (UK) — 5 operation(s) for statements.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Statements API from Bank of Ireland (UK) — 5 operation(s) for statements.
   name: Bank of Ireland (UK) Statements API
   slug: bank-of-ireland-uk-statements-api
-- description: The Transactions API from Bank of Ireland (UK) — 2 operation(s) for transactions.
+- baseURL: https://openapi.bankofireland.com/open-banking/v2.2
+  baseurl_source: declared
+  description: The Transactions API from Bank of Ireland (UK) — 2 operation(s) for transactions.
   name: Bank of Ireland (UK) Transactions API
   slug: bank-of-ireland-uk-transactions-api
 artifact_total: 41
@@ -331,7 +411,7 @@ score:
     regime_id: banking_open_finance
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

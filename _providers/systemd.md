@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -69,79 +69,129 @@ apis:
 - description: Generic D-Bus interface that systemd daemons (and other services) implement to expose runtime log level and log target configuration. Allows tools like systemd-analyze to change verbosity without rest
   name: LogControl1 (org.freedesktop.LogControl1)
   slug: org-freedesktop-logcontrol1
-- description: The Boot API from systemd — 1 operation(s) for boot.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Boot API from systemd — 1 operation(s) for boot.
   name: systemd Boot API
   slug: systemd-boot-api
-- description: The Cache API from systemd — 2 operation(s) for cache.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Cache API from systemd — 2 operation(s) for cache.
   name: systemd Cache API
   slug: systemd-cache-api
-- description: Transient unit creation and cgroup-backed resource control.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: Transient unit creation and cgroup-backed resource control.
   name: systemd Cgroups API
   slug: systemd-cgroups-api
-- description: The Configuration API from systemd — 11 operation(s) for configuration.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Configuration API from systemd — 11 operation(s) for configuration.
   name: systemd Configuration API
   slug: systemd-configuration-api
-- description: The Credentials API from systemd — 2 operation(s) for credentials.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Credentials API from systemd — 2 operation(s) for credentials.
   name: systemd Credentials API
   slug: systemd-credentials-api
-- description: The Hostname API from systemd — 3 operation(s) for hostname.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Hostname API from systemd — 3 operation(s) for hostname.
   name: systemd Hostname API
   slug: systemd-hostname-api
-- description: The Image API from systemd — 1 operation(s) for image.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Image API from systemd — 1 operation(s) for image.
   name: systemd Image API
   slug: systemd-image-api
-- description: The Images API from systemd — 4 operation(s) for images.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Images API from systemd — 4 operation(s) for images.
   name: systemd Images API
   slug: systemd-images-api
-- description: The Inhibitors API from systemd — 1 operation(s) for inhibitors.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Inhibitors API from systemd — 1 operation(s) for inhibitors.
   name: systemd Inhibitors API
   slug: systemd-inhibitors-api
-- description: Pending and active jobs scheduled by the Manager.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: Pending and active jobs scheduled by the Manager.
   name: systemd Jobs API
   slug: systemd-jobs-api
-- description: The Links API from systemd — 7 operation(s) for links.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Links API from systemd — 7 operation(s) for links.
   name: systemd Links API
   slug: systemd-links-api
-- description: The Machine Info API from systemd — 4 operation(s) for machine info.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Machine Info API from systemd — 4 operation(s) for machine info.
   name: systemd Machine Info API
   slug: systemd-machine-info-api
-- description: The Machines API from systemd — 7 operation(s) for machines.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Machines API from systemd — 7 operation(s) for machines.
   name: systemd Machines API
   slug: systemd-machines-api
-- description: The Manager API from systemd — 12 operation(s) for manager.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Manager API from systemd — 12 operation(s) for manager.
   name: systemd Manager API
   slug: systemd-manager-api
-- description: The PCR API from systemd — 1 operation(s) for pcr.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The PCR API from systemd — 1 operation(s) for pcr.
   name: systemd PCR API
   slug: systemd-pcr-api
-- description: The Power API from systemd — 5 operation(s) for power.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Power API from systemd — 5 operation(s) for power.
   name: systemd Power API
   slug: systemd-power-api
-- description: The Resolution API from systemd — 4 operation(s) for resolution.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Resolution API from systemd — 4 operation(s) for resolution.
   name: systemd Resolution API
   slug: systemd-resolution-api
-- description: The Resolve API from systemd — 1 operation(s) for resolve.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Resolve API from systemd — 1 operation(s) for resolve.
   name: systemd Resolve API
   slug: systemd-resolve-api
-- description: The Seats API from systemd — 1 operation(s) for seats.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Seats API from systemd — 1 operation(s) for seats.
   name: systemd Seats API
   slug: systemd-seats-api
-- description: The Sessions API from systemd — 5 operation(s) for sessions.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Sessions API from systemd — 5 operation(s) for sessions.
   name: systemd Sessions API
   slug: systemd-sessions-api
-- description: System state introspection.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: System state introspection.
   name: systemd Snapshots API
   slug: systemd-snapshots-api
-- description: The Unit API from systemd — 2 operation(s) for unit.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Unit API from systemd — 2 operation(s) for unit.
   name: systemd Unit API
   slug: systemd-unit-api
-- description: Unit lifecycle and enumeration.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: Unit lifecycle and enumeration.
   name: systemd Units API
   slug: systemd-units-api
-- description: The UserDatabase API from systemd — 3 operation(s) for userdatabase.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The UserDatabase API from systemd — 3 operation(s) for userdatabase.
   name: systemd UserDatabase API
   slug: systemd-userdatabase-api
-- description: The Users API from systemd — 3 operation(s) for users.
+- baseURL: dbus:org.freedesktop.systemd1
+  baseurl_source: declared
+  description: The Users API from systemd — 3 operation(s) for users.
   name: systemd Users API
   slug: systemd-users-api
 artifact_total: 89
@@ -537,7 +587,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:

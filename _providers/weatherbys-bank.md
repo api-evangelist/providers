@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds API (CBPII). FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA) — requires OBIE/eIDAS certificates and dynamic client registration. Represented as the documented OB
   name: Weatherbys Bank Confirmation of Funds API (CBPII)
   slug: weatherbys-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://openbanking.weatherbysbank.com/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Weatherbys Bank ATM API
   slug: weatherbys-bank-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://openbanking.weatherbysbank.com/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Weatherbys Bank BCA API
   slug: weatherbys-bank-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://openbanking.weatherbysbank.com/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Weatherbys Bank Branch API
   slug: weatherbys-bank-branch-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://openbanking.weatherbysbank.com/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Weatherbys Bank PCA API
   slug: weatherbys-bank-pca-api
 artifact_total: 16
@@ -210,7 +218,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 60.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -245,8 +253,9 @@ score:
     regime_id: banking_open_finance
     score: 67.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbys-bank/refs/heads/main/screenshots/weatherbys-bank-2026-09-02T170521.png
 security:
 - kind: authentication
   name: Weatherbys Bank Authentication

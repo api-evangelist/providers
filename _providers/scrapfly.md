@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,10 +60,14 @@ apis:
 - description: Official SDKs for Python, TypeScript, Go, Rust, and Scrapy with full feature coverage across every language including scrape, screenshot, extract, and crawl capabilities.
   name: Scrapfly SDKs
   slug: sdks
-- description: The Scraping API from Scrapfly — 1 operation(s) for scraping.
+- baseURL: https://api.scrapfly.io
+  baseurl_source: spec
+  description: The Scraping API from Scrapfly — 1 operation(s) for scraping.
   name: Scrapfly Scraping API
   slug: scrapfly-scraping-api
-- description: The Screenshots API from Scrapfly — 1 operation(s) for screenshots.
+- baseURL: https://api.scrapfly.io
+  baseurl_source: spec
+  description: The Screenshots API from Scrapfly — 1 operation(s) for screenshots.
   name: Scrapfly Screenshots API
   slug: scrapfly-screenshots-api
 artifact_total: 27
@@ -204,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapfly/refs/heads/main/screenshots/scrapfly-2026-06-20T193556.png
 security:

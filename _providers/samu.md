@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,13 +48,19 @@ apis:
 - description: Hosted, remote MCP server that connects Samu to Claude, ChatGPT and other AI agents, published as a Pro-plan feature. The endpoint answers MCP JSON-RPC over HTTP POST at https://api.samu.ai/mcp and is
   name: Samu MCP Server
   slug: samu-mcp-server
-- description: The Meetings API from Samu — 4 operation(s) for meetings.
+- baseURL: https://api.samu.ai
+  baseurl_source: declared
+  description: The Meetings API from Samu — 4 operation(s) for meetings.
   name: Samu Meetings API
   slug: samu-meetings-api
-- description: Conversaciones (threads/messages/interactions) de WhatsApp y otros providers
+- baseURL: https://api.samu.ai
+  baseurl_source: declared
+  description: Conversaciones (threads/messages/interactions) de WhatsApp y otros providers
   name: Samu Threads API
   slug: samu-threads-api
-- description: The Usuarios API from Samu — 1 operation(s) for usuarios.
+- baseURL: https://api.samu.ai
+  baseurl_source: declared
+  description: The Usuarios API from Samu — 1 operation(s) for usuarios.
   name: Samu Usuarios API
   slug: samu-usuarios-api
 artifact_total: 14
@@ -239,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/screenshots/samu-2026-08-17T081719.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,19 +65,29 @@ apis:
 - description: The Appian Suite API provides Java-based access to platform capabilities for managing processes, documents, users, and groups. It supports building smart service plug-ins, function plug-ins, data type
   name: Appian Suite API
   slug: appian-suite-api
-- description: Operations for exporting applications and packages from an Appian environment.
+- baseURL_template: https://{domain}/suite/deployment-management/v2
+  baseurl_source: spec_template
+  description: Operations for exporting applications and packages from an Appian environment.
   name: Appian Export API
   slug: appian-export-api
-- description: Operations for importing and deploying applications and packages into an Appian environment.
+- baseURL_template: https://{domain}/suite/deployment-management/v2
+  baseurl_source: spec_template
+  description: Operations for importing and deploying applications and packages into an Appian environment.
   name: Appian Import API
   slug: appian-import-api
-- description: Operations for inspecting packages before deployment to identify potential issues, errors, and warnings.
+- baseURL_template: https://{domain}/suite/deployment-management/v2
+  baseurl_source: spec_template
+  description: Operations for inspecting packages before deployment to identify potential issues, errors, and warnings.
   name: Appian Inspection API
   slug: appian-inspection-api
-- description: Operations for retrieving package details associated with an Appian application.
+- baseURL_template: https://{domain}/suite/deployment-management/v2
+  baseurl_source: spec_template
+  description: Operations for retrieving package details associated with an Appian application.
   name: Appian Packages API
   slug: appian-packages-api
-- description: Operations for retrieving the status, results, and logs of deployments and inspections.
+- baseURL_template: https://{domain}/suite/deployment-management/v2
+  baseurl_source: spec_template
+  description: Operations for retrieving the status, results, and logs of deployments and inspections.
   name: Appian Results API
   slug: appian-results-api
 arazzos:
@@ -842,7 +852,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appian/refs/heads/main/screenshots/appian-2026-06-20T172316.png
 security:

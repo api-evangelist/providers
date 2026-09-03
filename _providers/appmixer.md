@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 33 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Connected third-party account management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Connected third-party account management
   name: Appmixer Accounts API
   slug: appmixer-accounts-api
-- description: Applications and connectors management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Applications and connectors management
   name: Appmixer Apps API
   slug: appmixer-apps-api
-- description: User authentication and token management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: User authentication and token management
   name: Appmixer Authentication API
   slug: appmixer-authentication-api
-- description: Data store management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Data store management
   name: Appmixer Data Stores API
   slug: appmixer-data-stores-api
-- description: File management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: File management
   name: Appmixer Files API
   slug: appmixer-files-api
-- description: Workflow flow management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Workflow flow management
   name: Appmixer Flows API
   slug: appmixer-flows-api
-- description: Analytics and insights
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Analytics and insights
   name: Appmixer Insights API
   slug: appmixer-insights-api
-- description: Flow execution logs
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Flow execution logs
   name: Appmixer Logs API
   slug: appmixer-logs-api
-- description: Unprocessed message management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Unprocessed message management
   name: Appmixer Messages API
   slug: appmixer-messages-api
-- description: Human-in-the-loop task management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: Human-in-the-loop task management
   name: Appmixer People Tasks API
   slug: appmixer-people-tasks-api
-- description: System health and information
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: System health and information
   name: Appmixer System API
   slug: appmixer-system-api
-- description: User account management
+- baseURL_template: https://api.{tenant}.appmixer.cloud
+  baseurl_source: spec_template
+  description: User account management
   name: Appmixer Users API
   slug: appmixer-users-api
 arazzos:
@@ -863,7 +887,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/screenshots/appmixer-2026-06-20T172329.png
 security:

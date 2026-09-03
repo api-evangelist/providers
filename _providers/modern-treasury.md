@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -44,136 +44,224 @@ agentic_access:
   summary_line: 177 operations · 88 acting
 api_count: 1
 apis:
-- description: The AccountCapability API from Modern Treasury — 1 operation(s) for accountcapability.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The AccountCapability API from Modern Treasury — 1 operation(s) for accountcapability.
   name: Modern Treasury AccountCapability API
   slug: modern-treasury-accountcapability-api
-- description: The AccountCollectionFlow API from Modern Treasury — 2 operation(s) for accountcollectionflow.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The AccountCollectionFlow API from Modern Treasury — 2 operation(s) for accountcollectionflow.
   name: Modern Treasury AccountCollectionFlow API
   slug: modern-treasury-accountcollectionflow-api
-- description: The AccountDetail API from Modern Treasury — 2 operation(s) for accountdetail.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The AccountDetail API from Modern Treasury — 2 operation(s) for accountdetail.
   name: Modern Treasury AccountDetail API
   slug: modern-treasury-accountdetail-api
-- description: The BalanceReport API from Modern Treasury — 2 operation(s) for balancereport.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The BalanceReport API from Modern Treasury — 2 operation(s) for balancereport.
   name: Modern Treasury BalanceReport API
   slug: modern-treasury-balancereport-api
-- description: The BulkRequest API from Modern Treasury — 2 operation(s) for bulkrequest.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The BulkRequest API from Modern Treasury — 2 operation(s) for bulkrequest.
   name: Modern Treasury BulkRequest API
   slug: modern-treasury-bulkrequest-api
-- description: The BulkResult API from Modern Treasury — 2 operation(s) for bulkresult.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The BulkResult API from Modern Treasury — 2 operation(s) for bulkresult.
   name: Modern Treasury BulkResult API
   slug: modern-treasury-bulkresult-api
-- description: The Connection API from Modern Treasury — 1 operation(s) for connection.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Connection API from Modern Treasury — 1 operation(s) for connection.
   name: Modern Treasury Connection API
   slug: modern-treasury-connection-api
-- description: The ConnectionLegalEntity API from Modern Treasury — 2 operation(s) for connectionlegalentity.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The ConnectionLegalEntity API from Modern Treasury — 2 operation(s) for connectionlegalentity.
   name: Modern Treasury ConnectionLegalEntity API
   slug: modern-treasury-connectionlegalentity-api
-- description: The Counterparty API from Modern Treasury — 3 operation(s) for counterparty.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Counterparty API from Modern Treasury — 3 operation(s) for counterparty.
   name: Modern Treasury Counterparty API
   slug: modern-treasury-counterparty-api
-- description: The Document API from Modern Treasury — 6 operation(s) for document.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Document API from Modern Treasury — 6 operation(s) for document.
   name: Modern Treasury Document API
   slug: modern-treasury-document-api
-- description: The Event API from Modern Treasury — 2 operation(s) for event.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Event API from Modern Treasury — 2 operation(s) for event.
   name: Modern Treasury Event API
   slug: modern-treasury-event-api
-- description: The ExpectedPayment API from Modern Treasury — 2 operation(s) for expectedpayment.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The ExpectedPayment API from Modern Treasury — 2 operation(s) for expectedpayment.
   name: Modern Treasury ExpectedPayment API
   slug: modern-treasury-expectedpayment-api
-- description: The ExternalAccount API from Modern Treasury — 4 operation(s) for externalaccount.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The ExternalAccount API from Modern Treasury — 4 operation(s) for externalaccount.
   name: Modern Treasury ExternalAccount API
   slug: modern-treasury-externalaccount-api
-- description: The ForeignExchangeQuote API from Modern Treasury — 2 operation(s) for foreignexchangequote.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The ForeignExchangeQuote API from Modern Treasury — 2 operation(s) for foreignexchangequote.
   name: Modern Treasury ForeignExchangeQuote API
   slug: modern-treasury-foreignexchangequote-api
-- description: The Hold API from Modern Treasury — 2 operation(s) for hold.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Hold API from Modern Treasury — 2 operation(s) for hold.
   name: Modern Treasury Hold API
   slug: modern-treasury-hold-api
-- description: The IncomingPaymentDetail API from Modern Treasury — 3 operation(s) for incomingpaymentdetail.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The IncomingPaymentDetail API from Modern Treasury — 3 operation(s) for incomingpaymentdetail.
   name: Modern Treasury IncomingPaymentDetail API
   slug: modern-treasury-incomingpaymentdetail-api
-- description: The InternalAccount API from Modern Treasury — 3 operation(s) for internalaccount.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The InternalAccount API from Modern Treasury — 3 operation(s) for internalaccount.
   name: Modern Treasury InternalAccount API
   slug: modern-treasury-internalaccount-api
-- description: The Invoice API from Modern Treasury — 2 operation(s) for invoice.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Invoice API from Modern Treasury — 2 operation(s) for invoice.
   name: Modern Treasury Invoice API
   slug: modern-treasury-invoice-api
-- description: The InvoiceLineItem API from Modern Treasury — 2 operation(s) for invoicelineitem.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The InvoiceLineItem API from Modern Treasury — 2 operation(s) for invoicelineitem.
   name: Modern Treasury InvoiceLineItem API
   slug: modern-treasury-invoicelineitem-api
-- description: The JournalEntry API from Modern Treasury — 2 operation(s) for journalentry.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The JournalEntry API from Modern Treasury — 2 operation(s) for journalentry.
   name: Modern Treasury JournalEntry API
   slug: modern-treasury-journalentry-api
-- description: The JournalReport API from Modern Treasury — 2 operation(s) for journalreport.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The JournalReport API from Modern Treasury — 2 operation(s) for journalreport.
   name: Modern Treasury JournalReport API
   slug: modern-treasury-journalreport-api
-- description: The JournalSource API from Modern Treasury — 2 operation(s) for journalsource.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The JournalSource API from Modern Treasury — 2 operation(s) for journalsource.
   name: Modern Treasury JournalSource API
   slug: modern-treasury-journalsource-api
-- description: The Ledger API from Modern Treasury — 2 operation(s) for ledger.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Ledger API from Modern Treasury — 2 operation(s) for ledger.
   name: Modern Treasury Ledger API
   slug: modern-treasury-ledger-api
-- description: The LedgerAccount API from Modern Treasury — 2 operation(s) for ledgeraccount.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerAccount API from Modern Treasury — 2 operation(s) for ledgeraccount.
   name: Modern Treasury LedgerAccount API
   slug: modern-treasury-ledgeraccount-api
-- description: The LedgerAccountBalanceMonitor API from Modern Treasury — 2 operation(s) for ledgeraccountbalancemonitor.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerAccountBalanceMonitor API from Modern Treasury — 2 operation(s) for ledgeraccountbalancemonitor.
   name: Modern Treasury LedgerAccountBalanceMonitor API
   slug: modern-treasury-ledgeraccountbalancemonitor-api
-- description: The LedgerAccountCategory API from Modern Treasury — 4 operation(s) for ledgeraccountcategory.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerAccountCategory API from Modern Treasury — 4 operation(s) for ledgeraccountcategory.
   name: Modern Treasury LedgerAccountCategory API
   slug: modern-treasury-ledgeraccountcategory-api
-- description: The LedgerAccountSettlement API from Modern Treasury — 3 operation(s) for ledgeraccountsettlement.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerAccountSettlement API from Modern Treasury — 3 operation(s) for ledgeraccountsettlement.
   name: Modern Treasury LedgerAccountSettlement API
   slug: modern-treasury-ledgeraccountsettlement-api
-- description: The LedgerAccountStatement API from Modern Treasury — 2 operation(s) for ledgeraccountstatement.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerAccountStatement API from Modern Treasury — 2 operation(s) for ledgeraccountstatement.
   name: Modern Treasury LedgerAccountStatement API
   slug: modern-treasury-ledgeraccountstatement-api
-- description: The LedgerEntry API from Modern Treasury — 2 operation(s) for ledgerentry.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerEntry API from Modern Treasury — 2 operation(s) for ledgerentry.
   name: Modern Treasury LedgerEntry API
   slug: modern-treasury-ledgerentry-api
-- description: The LedgerTransaction API from Modern Treasury — 6 operation(s) for ledgertransaction.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LedgerTransaction API from Modern Treasury — 6 operation(s) for ledgertransaction.
   name: Modern Treasury LedgerTransaction API
   slug: modern-treasury-ledgertransaction-api
-- description: The LegalEntity API from Modern Treasury — 3 operation(s) for legalentity.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LegalEntity API from Modern Treasury — 3 operation(s) for legalentity.
   name: Modern Treasury LegalEntity API
   slug: modern-treasury-legalentity-api
-- description: The LineItem API from Modern Treasury — 2 operation(s) for lineitem.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The LineItem API from Modern Treasury — 2 operation(s) for lineitem.
   name: Modern Treasury LineItem API
   slug: modern-treasury-lineitem-api
-- description: The PaymentAction API from Modern Treasury — 2 operation(s) for paymentaction.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The PaymentAction API from Modern Treasury — 2 operation(s) for paymentaction.
   name: Modern Treasury PaymentAction API
   slug: modern-treasury-paymentaction-api
-- description: The PaymentFlow API from Modern Treasury — 2 operation(s) for paymentflow.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The PaymentFlow API from Modern Treasury — 2 operation(s) for paymentflow.
   name: Modern Treasury PaymentFlow API
   slug: modern-treasury-paymentflow-api
-- description: The PaymentOrder API from Modern Treasury — 4 operation(s) for paymentorder.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The PaymentOrder API from Modern Treasury — 4 operation(s) for paymentorder.
   name: Modern Treasury PaymentOrder API
   slug: modern-treasury-paymentorder-api
-- description: The PaymentReference API from Modern Treasury — 2 operation(s) for paymentreference.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The PaymentReference API from Modern Treasury — 2 operation(s) for paymentreference.
   name: Modern Treasury PaymentReference API
   slug: modern-treasury-paymentreference-api
-- description: The Ping API from Modern Treasury — 1 operation(s) for ping.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Ping API from Modern Treasury — 1 operation(s) for ping.
   name: Modern Treasury Ping API
   slug: modern-treasury-ping-api
-- description: The Return API from Modern Treasury — 2 operation(s) for return.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Return API from Modern Treasury — 2 operation(s) for return.
   name: Modern Treasury Return API
   slug: modern-treasury-return-api
-- description: The Reversal API from Modern Treasury — 2 operation(s) for reversal.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Reversal API from Modern Treasury — 2 operation(s) for reversal.
   name: Modern Treasury Reversal API
   slug: modern-treasury-reversal-api
-- description: The RoutingDetail API from Modern Treasury — 2 operation(s) for routingdetail.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The RoutingDetail API from Modern Treasury — 2 operation(s) for routingdetail.
   name: Modern Treasury RoutingDetail API
   slug: modern-treasury-routingdetail-api
-- description: The Transaction API from Modern Treasury — 2 operation(s) for transaction.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Transaction API from Modern Treasury — 2 operation(s) for transaction.
   name: Modern Treasury Transaction API
   slug: modern-treasury-transaction-api
-- description: The TransactionLineItem API from Modern Treasury — 3 operation(s) for transactionlineitem.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The TransactionLineItem API from Modern Treasury — 3 operation(s) for transactionlineitem.
   name: Modern Treasury TransactionLineItem API
   slug: modern-treasury-transactionlineitem-api
-- description: The Validation API from Modern Treasury — 1 operation(s) for validation.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The Validation API from Modern Treasury — 1 operation(s) for validation.
   name: Modern Treasury Validation API
   slug: modern-treasury-validation-api
-- description: The VirtualAccount API from Modern Treasury — 2 operation(s) for virtualaccount.
+- baseURL: https://app.moderntreasury.com/api
+  baseurl_source: declared
+  description: The VirtualAccount API from Modern Treasury — 2 operation(s) for virtualaccount.
   name: Modern Treasury VirtualAccount API
   slug: modern-treasury-virtualaccount-api
 artifact_total: 254
@@ -932,7 +1020,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:

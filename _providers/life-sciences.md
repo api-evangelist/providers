@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,13 +99,19 @@ apis:
 - description: The Global Alliance for Genomics and Health publishes a suite of open REST specifications enabling federated access to genomic data and compute. Includes htsget (sequencing reads), DRS (Data Repositor
   name: GA4GH APIs (htsget, DRS, WES, TES, Beacon)
   slug: ga4gh-apis-htsget-drs-wes-tes-beacon
-- description: The Stats API from Life Sciences — 1 operation(s) for stats.
+- baseURL: https://clinicaltrials.gov/api/v2/
+  baseurl_source: declared
+  description: The Stats API from Life Sciences — 1 operation(s) for stats.
   name: Life Sciences Stats API
   slug: life-sciences-stats-api
-- description: The Studies API from Life Sciences — 3 operation(s) for studies.
+- baseURL: https://clinicaltrials.gov/api/v2/
+  baseurl_source: declared
+  description: The Studies API from Life Sciences — 3 operation(s) for studies.
   name: Life Sciences Studies API
   slug: life-sciences-studies-api
-- description: The Version API from Life Sciences — 1 operation(s) for version.
+- baseURL: https://clinicaltrials.gov/api/v2/
+  baseurl_source: declared
+  description: The Version API from Life Sciences — 1 operation(s) for version.
   name: Life Sciences Version API
   slug: life-sciences-version-api
 artifact_total: 37
@@ -239,7 +245,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/screenshots/life-sciences-2026-06-20T184511.png
 security:

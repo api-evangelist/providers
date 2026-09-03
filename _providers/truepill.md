@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 158 operations · 69 acting
 api_count: 1
 apis:
-- description: Insurance objects, copay requests, and claim adjudication.
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Insurance objects, copay requests, and claim adjudication.
   name: Truepill Insurance API
   slug: truepill-insurance-api
-- description: Patient records and demographics.
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Patient records and demographics.
   name: Truepill Patients API
   slug: truepill-patients-api
-- description: Prescription details and routing.
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Prescription details and routing.
   name: Truepill Prescriptions API
   slug: truepill-prescriptions-api
-- description: Pharmacy-to-pharmacy prescription transfers.
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Pharmacy-to-pharmacy prescription transfers.
   name: Truepill Transfers API
   slug: truepill-transfers-api
-- description: Asynchronous event retrieval.
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Asynchronous event retrieval.
   name: Truepill Webhooks API
   slug: truepill-webhooks-api
-- description: Fill requests, orders, NDC availability, prescribers, same-day delivery and specialty-pharmacy routing — the dispensing core of the FuzeRx platform. 42 operations. Submissions are accepted asynchronou
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: Fill requests, orders, NDC availability, prescribers, same-day delivery and specialty-pharmacy routing — the dispensing core of the FuzeRx platform. 42 operations. Submissions are accepted asynchronou
   name: Truepill Fulfillment API
   slug: truepill-fulfillment-api
-- description: Telehealth consult creation, retrieval, media attachment and status simulation. Published at v0 under /consults/v0 — pre-1.0 by the provider's own numbering, with no stability statement.
+- baseURL: https://rxapi.fuzehealth.com/consults/v0
+  baseurl_source: declared
+  description: Telehealth consult creation, retrieval, media attachment and status simulation. Published at v0 under /consults/v0 — pre-1.0 by the provider's own numbering, with no stability statement.
   name: Truepill Consults API
   slug: truepill-consults-api
-- description: At-home diagnostics — test catalogue, kit serial validation, order creation and registration, rejection detail and results retrieval. Published at v0, with a v2 results endpoint alongside it.
+- baseURL: https://rxapi.fuzehealth.com/diagnostics/v0
+  baseurl_source: declared
+  description: At-home diagnostics — test catalogue, kit serial validation, order creation and registration, rejection detail and results retrieval. Published at v0, with a v2 results endpoint alongside it.
   name: Truepill Diagnostics API
   slug: truepill-diagnostics-api
-- description: File records for patient identification photos and selfies, backed by Google Cloud Storage signed URLs — the API mints a read or write signed URL and the client transfers the bytes directly, so no ima
+- baseURL: https://rxapi.fuzehealth.com/v1
+  baseurl_source: declared
+  description: File records for patient identification photos and selfies, backed by Google Cloud Storage signed URLs — the API mints a read or write signed URL and the client transfers the bytes directly, so no ima
   name: Truepill Media API
   slug: truepill-media-api
 artifact_total: 23
@@ -259,7 +277,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -269,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 60.3
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,7 +305,7 @@ score:
     regime_id: health
     score: 41.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/screenshots/truepill-2026-08-17T082448.png
 security:

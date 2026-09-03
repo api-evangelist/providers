@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: One-time and recurring donations, including offline and ACH donations.
+- baseURL: https://api.fundraiseup.com/v1
+  baseurl_source: declared
+  description: One-time and recurring donations, including offline and ACH donations.
   name: Fundraise Up Donations API
   slug: fundraiseup-donations-api
-- description: Secure access-link generation for the self-service Donor Portal.
+- baseURL: https://api.fundraiseup.com/v1
+  baseurl_source: declared
+  description: Secure access-link generation for the self-service Donor Portal.
   name: Fundraise Up Donor Portal API
   slug: fundraiseup-donor-portal-api
-- description: Audit-log events across donations, recurring plans, tributes, and supporters.
+- baseURL: https://api.fundraiseup.com/v1
+  baseurl_source: declared
+  description: Audit-log events across donations, recurring plans, tributes, and supporters.
   name: Fundraise Up Events API
   slug: fundraiseup-events-api
-- description: Recurring donation plans modeling a supporter's ongoing giving.
+- baseURL: https://api.fundraiseup.com/v1
+  baseurl_source: declared
+  description: Recurring donation plans modeling a supporter's ongoing giving.
   name: Fundraise Up Recurring Plans API
   slug: fundraiseup-recurring-plans-api
-- description: Donor records (Fundraise Up calls donors "supporters").
+- baseURL: https://api.fundraiseup.com/v1
+  baseurl_source: declared
+  description: Donor records (Fundraise Up calls donors "supporters").
   name: Fundraise Up Supporters API
   slug: fundraiseup-supporters-api
 artifact_total: 18
@@ -185,7 +195,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/screenshots/fundraiseup-2026-07-25T215319.png
 security:

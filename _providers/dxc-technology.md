@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Integration and connectivity services
+- baseURL: https://developer.dxc.com
+  baseurl_source: declared
+  description: Integration and connectivity services
   name: DXC Technology Integration API
   slug: dxc-technology-integration-api
-- description: Platform service operations
+- baseURL: https://developer.dxc.com
+  baseurl_source: declared
+  description: Platform service operations
   name: DXC Technology Platform API
   slug: dxc-technology-platform-api
 artifact_total: 12
@@ -145,7 +149,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxc-technology/refs/heads/main/screenshots/dxc-technology-2026-06-20T180335.png
 security:

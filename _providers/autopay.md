@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -71,34 +71,54 @@ apis:
 - description: The Autopay Tap and Park API enables third-party applications to validate parking sessions in Autopay-managed zones, supporting contactless parking validation via NFC, mobile apps, or access control s
   name: Autopay Tap and Park API
   slug: tap-park-api
-- description: Invoice export for accounting and ERP reconciliation
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Invoice export for accounting and ERP reconciliation
   name: Autopay Accounting API
   slug: autopay-accounting-api
-- description: Permit booking creation, modification, status, and availability
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Permit booking creation, modification, status, and availability
   name: Autopay Booking API
   slug: autopay-booking-api
-- description: Customer club membership management
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Customer club membership management
   name: Autopay Customer Club API
   slug: autopay-customer-club-api
-- description: Fleet vehicle management and parking/toll service retrieval
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Fleet vehicle management and parking/toll service retrieval
   name: Autopay Fleet API
   slug: autopay-fleet-api
-- description: Parking session product changes
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Parking session product changes
   name: Autopay Parking API
   slug: autopay-parking-api
-- description: External payment registration and parking connection
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: External payment registration and parking connection
   name: Autopay Payment API
   slug: autopay-payment-api
-- description: Tenant permit allocations and end-user permit lifecycle
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Tenant permit allocations and end-user permit lifecycle
   name: Autopay Permit API
   slug: autopay-permit-api
-- description: Parking statistics export
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Parking statistics export
   name: Autopay Statistics API
   slug: autopay-statistics-api
-- description: Zone availability and detailed parking session status
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Zone availability and detailed parking session status
   name: Autopay Status API
   slug: autopay-status-api
-- description: Vehicle permit and session lookups
+- baseURL: https://api.autopay.io
+  baseurl_source: spec
+  description: Vehicle permit and session lookups
   name: Autopay Vehicle API
   slug: autopay-vehicle-api
 artifact_total: 51
@@ -273,7 +293,7 @@ score:
     regime_id: payments
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
 security:

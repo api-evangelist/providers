@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 29 operations · 18 acting
 api_count: 1
 apis:
-- description: List agents within a project.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: List agents within a project.
   name: Freeplay Agents API
   slug: freeplay-agents-api
-- description: Record completions and aggregate completion statistics.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Record completions and aggregate completion statistics.
   name: Freeplay Completions API
   slug: freeplay-completions-api
-- description: Curate datasets and their test cases.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Curate datasets and their test cases.
   name: Freeplay Datasets API
   slug: freeplay-datasets-api
-- description: Record completion-level and trace-level feedback.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Record completion-level and trace-level feedback.
   name: Freeplay Feedback API
   slug: freeplay-feedback-api
-- description: List workspace projects.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: List workspace projects.
   name: Freeplay Projects API
   slug: freeplay-projects-api
-- description: Create, version, retrieve, and deploy prompt templates.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Create, version, retrieve, and deploy prompt templates.
   name: Freeplay Prompt Templates API
   slug: freeplay-prompt-templates-api
-- description: API-only search over sessions, traces, and completions.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: API-only search over sessions, traces, and completions.
   name: Freeplay Search API
   slug: freeplay-search-api
-- description: List, search, and delete sessions.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: List, search, and delete sessions.
   name: Freeplay Sessions API
   slug: freeplay-sessions-api
-- description: Create, list, and retrieve batch test runs.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Create, list, and retrieve batch test runs.
   name: Freeplay Test Runs API
   slug: freeplay-test-runs-api
-- description: Record traces that group related completions.
+- baseURL: https://app.freeplay.ai/api/v2
+  baseurl_source: declared
+  description: Record traces that group related completions.
   name: Freeplay Traces API
   slug: freeplay-traces-api
 artifact_total: 29
@@ -209,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeplay/refs/heads/main/screenshots/freeplay-2026-06-20T181534.png
 security:

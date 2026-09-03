@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -33,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 3
 apis:
-- description: 'Taalas-native REST interface for running inference against the HC1 hardcore-model silicon. Three operations: a public /health probe reporting server status, queue depth and the currently loaded LoRA a'
+- baseURL: https://api.taalas.com
+  baseurl_source: declared
+  description: 'Taalas-native REST interface for running inference against the HC1 hardcore-model silicon. Three operations: a public /health probe reporting server status, queue depth and the currently loaded LoRA a'
   name: Taalas API
   slug: taalas-api
-- description: The Models API from Taalas — 1 operation(s) for models.
+- baseURL: https://api.taalas.com
+  baseurl_source: declared
+  description: The Models API from Taalas — 1 operation(s) for models.
   name: Taalas Models API
   slug: taalas-models-api
-- description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
+- baseURL: https://api.taalas.com
+  baseurl_source: declared
+  description: The Monitoring API from Taalas — 1 operation(s) for monitoring.
   name: Taalas Monitoring API
   slug: taalas-monitoring-api
 artifact_total: 12
@@ -185,11 +202,11 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -199,7 +216,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 34.6
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +228,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/screenshots/taalas-2026-09-02T161654.png
 security:
 - kind: authentication
   name: Taalas Authentication

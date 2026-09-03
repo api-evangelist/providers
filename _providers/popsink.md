@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 90 operations · 49 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The admin API from Popsink — 2 operation(s) for admin.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The admin API from Popsink — 2 operation(s) for admin.
   name: Popsink admin API
   slug: popsink-admin-api
-- description: The auth API from Popsink — 8 operation(s) for auth.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The auth API from Popsink — 8 operation(s) for auth.
   name: Popsink auth API
   slug: popsink-auth-api
-- description: The brokers API from Popsink — 1 operation(s) for brokers.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The brokers API from Popsink — 1 operation(s) for brokers.
   name: Popsink brokers API
   slug: popsink-brokers-api
-- description: The connector types API from Popsink — 3 operation(s) for connector types.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The connector types API from Popsink — 3 operation(s) for connector types.
   name: Popsink connector types API
   slug: popsink-connector-types-api
-- description: The connectors API from Popsink — 2 operation(s) for connectors.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The connectors API from Popsink — 2 operation(s) for connectors.
   name: Popsink connectors API
   slug: popsink-connectors-api
-- description: The env_member API from Popsink — 2 operation(s) for env_member.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The env_member API from Popsink — 2 operation(s) for env_member.
   name: Popsink env_member API
   slug: popsink-env-member-api
-- description: The env_request API from Popsink — 3 operation(s) for env_request.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The env_request API from Popsink — 3 operation(s) for env_request.
   name: Popsink env_request API
   slug: popsink-env-request-api
-- description: The envs API from Popsink — 2 operation(s) for envs.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The envs API from Popsink — 2 operation(s) for envs.
   name: Popsink envs API
   slug: popsink-envs-api
-- description: The healthchecks API from Popsink — 4 operation(s) for healthchecks.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The healthchecks API from Popsink — 4 operation(s) for healthchecks.
   name: Popsink healthchecks API
   slug: popsink-healthchecks-api
-- description: The jobs-smt API from Popsink — 13 operation(s) for jobs-smt.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The jobs-smt API from Popsink — 13 operation(s) for jobs-smt.
   name: Popsink jobs-smt API
   slug: popsink-jobs-smt-api
-- description: The organizations API from Popsink — 2 operation(s) for organizations.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The organizations API from Popsink — 2 operation(s) for organizations.
   name: Popsink organizations API
   slug: popsink-organizations-api
-- description: The pipelines API from Popsink — 9 operation(s) for pipelines.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The pipelines API from Popsink — 9 operation(s) for pipelines.
   name: Popsink pipelines API
   slug: popsink-pipelines-api
-- description: The Popsink Public API API from Popsink — 1 operation(s) for popsink public api.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The Popsink Public API API from Popsink — 1 operation(s) for popsink public api.
   name: Popsink Popsink Public API API
   slug: popsink-popsink-public-api-api
-- description: The probes API from Popsink — 2 operation(s) for probes.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The probes API from Popsink — 2 operation(s) for probes.
   name: Popsink probes API
   slug: popsink-probes-api
-- description: The saml API from Popsink — 4 operation(s) for saml.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The saml API from Popsink — 4 operation(s) for saml.
   name: Popsink saml API
   slug: popsink-saml-api
-- description: The schemas API from Popsink — 1 operation(s) for schemas.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The schemas API from Popsink — 1 operation(s) for schemas.
   name: Popsink schemas API
   slug: popsink-schemas-api
-- description: The team_member API from Popsink — 3 operation(s) for team_member.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The team_member API from Popsink — 3 operation(s) for team_member.
   name: Popsink team_member API
   slug: popsink-team-member-api
-- description: The team_request API from Popsink — 3 operation(s) for team_request.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The team_request API from Popsink — 3 operation(s) for team_request.
   name: Popsink team_request API
   slug: popsink-team-request-api
-- description: The teams API from Popsink — 2 operation(s) for teams.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The teams API from Popsink — 2 operation(s) for teams.
   name: Popsink teams API
   slug: popsink-teams-api
-- description: The user-logs API from Popsink — 1 operation(s) for user-logs.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The user-logs API from Popsink — 1 operation(s) for user-logs.
   name: Popsink user-logs API
   slug: popsink-user-logs-api
-- description: The users API from Popsink — 7 operation(s) for users.
+- baseURL: https://app.popsink.com
+  baseurl_source: declared
+  description: The users API from Popsink — 7 operation(s) for users.
   name: Popsink users API
   slug: popsink-users-api
 artifact_total: 47
@@ -330,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/screenshots/popsink-2026-08-17T081318.png
 security:

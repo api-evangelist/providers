@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 2
 apis:
-- description: API endpoints to authorize a client app for the Admin API
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to authorize a client app for the Admin API
   name: HumanAPI admin API
   slug: humanapi-admin-api
-- description: The connect API from HumanAPI — 1 operation(s) for connect.
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: The connect API from HumanAPI — 1 operation(s) for connect.
   name: HumanAPI connect API
   slug: humanapi-connect-api
-- description: API endpoints to get orders
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: API endpoints to get orders
   name: HumanAPI orders API
   slug: humanapi-orders-api
-- description: The reports API from HumanAPI — 2 operation(s) for reports.
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: The reports API from HumanAPI — 2 operation(s) for reports.
   name: HumanAPI reports API
   slug: humanapi-reports-api
-- description: The resources API from HumanAPI — 1 operation(s) for resources.
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: The resources API from HumanAPI — 1 operation(s) for resources.
   name: HumanAPI resources API
   slug: humanapi-resources-api
-- description: The subscriptions API from HumanAPI — 2 operation(s) for subscriptions.
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: The subscriptions API from HumanAPI — 2 operation(s) for subscriptions.
   name: HumanAPI subscriptions API
   slug: humanapi-subscriptions-api
-- description: The users API from HumanAPI — 4 operation(s) for users.
+- baseURL: https://admin.humanapi.co
+  baseurl_source: declared
+  description: The users API from HumanAPI — 4 operation(s) for users.
   name: HumanAPI users API
   slug: humanapi-users-api
 artifact_total: 20
@@ -227,7 +241,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -237,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.0
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,7 +269,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

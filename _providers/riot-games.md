@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,28 +59,44 @@ apis:
 - description: Static data and asset delivery service for Riot Games. Provides localized game data for champions, items, summoner spells, runes, profile icons, and maps in JSON format. Available in 28+ languages. Up
   name: Riot Data Dragon
   slug: data-dragon
-- description: Free champion rotation
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Free champion rotation
   name: Riot Games Champion API
   slug: riot-games-champion-api
-- description: Champion mastery data
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Champion mastery data
   name: Riot Games Champion Mastery API
   slug: riot-games-champion-mastery-api
-- description: Clash tournament operations
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Clash tournament operations
   name: Riot Games Clash API
   slug: riot-games-clash-api
-- description: Ranked league standings
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Ranked league standings
   name: Riot Games League API
   slug: riot-games-league-api
-- description: Match history and details
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Match history and details
   name: Riot Games Match API
   slug: riot-games-match-api
-- description: Live game spectator data
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Live game spectator data
   name: Riot Games Spectator API
   slug: riot-games-spectator-api
-- description: Platform status
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Platform status
   name: Riot Games Status API
   slug: riot-games-status-api
-- description: Summoner profile operations
+- baseURL: https://na1.api.riotgames.com
+  baseurl_source: declared
+  description: Summoner profile operations
   name: Riot Games Summoner API
   slug: riot-games-summoner-api
 artifact_total: 54
@@ -340,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png
 security:

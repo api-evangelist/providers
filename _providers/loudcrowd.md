@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +36,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Attribution Events API API from LoudCrowd — 1 operation(s) for attribution events api.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The Attribution Events API API from LoudCrowd — 1 operation(s) for attribution events api.
   name: LoudCrowd Attribution Events API
   slug: loudcrowd-attribution-events-api-api
-- description: The Brand API API from LoudCrowd — 1 operation(s) for brand api.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The Brand API API from LoudCrowd — 1 operation(s) for brand api.
   name: LoudCrowd Brand API
   slug: loudcrowd-brand-api-api
-- description: The Product Data API from LoudCrowd — 1 operation(s) for product data.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The Product Data API from LoudCrowd — 1 operation(s) for product data.
   name: LoudCrowd Product Data API
   slug: loudcrowd-product-data-api
-- description: The StorefrontAmbassador API from LoudCrowd — 1 operation(s) for storefrontambassador.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The StorefrontAmbassador API from LoudCrowd — 1 operation(s) for storefrontambassador.
   name: LoudCrowd Storefront Ambassador API
   slug: loudcrowd-storefrontambassador-api
-- description: The StorefrontCollections API from LoudCrowd — 1 operation(s) for storefrontcollections.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The StorefrontCollections API from LoudCrowd — 1 operation(s) for storefrontcollections.
   name: LoudCrowd Storefront Collections API
   slug: loudcrowd-storefrontcollections-api
-- description: The StorefrontFeedItems API from LoudCrowd — 1 operation(s) for storefrontfeeditems.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The StorefrontFeedItems API from LoudCrowd — 1 operation(s) for storefrontfeeditems.
   name: LoudCrowd Storefront Feed Items API
   slug: loudcrowd-storefrontfeeditems-api
-- description: The StorefrontMediaDetails API from LoudCrowd — 1 operation(s) for storefrontmediadetails.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The StorefrontMediaDetails API from LoudCrowd — 1 operation(s) for storefrontmediadetails.
   name: LoudCrowd Storefront Media Details API
   slug: loudcrowd-storefrontmediadetails-api
-- description: The StorefrontProductDetails API from LoudCrowd — 1 operation(s) for storefrontproductdetails.
+- baseURL: https://api.loudcrowd.com
+  baseurl_source: declared
+  description: The StorefrontProductDetails API from LoudCrowd — 1 operation(s) for storefrontproductdetails.
   name: LoudCrowd Storefront Product Details API
   slug: loudcrowd-storefrontproductdetails-api
 artifact_total: 13
@@ -228,11 +257,11 @@ score:
   band: developing
   composite: 52.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -242,7 +271,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 51.8
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     contracts:
@@ -253,8 +282,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/loudcrowd/refs/heads/main/screenshots/loudcrowd-2026-09-02T150320.png
 security:
 - kind: authentication
   name: Loudcrowd Authentication

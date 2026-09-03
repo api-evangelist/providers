@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -46,58 +46,94 @@ agentic_access:
   summary_line: 59 operations · 18 acting
 api_count: 6
 apis:
-- description: The Authentication API from Hometrack — 2 operation(s) for authentication.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Authentication API from Hometrack — 2 operation(s) for authentication.
   name: Hometrack Authentication API
   slug: hometrack-authentication-api
-- description: The Brands API from Hometrack — 1 operation(s) for brands.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Brands API from Hometrack — 1 operation(s) for brands.
   name: Hometrack Brands API
   slug: hometrack-brands-api
-- description: The Broker API from Hometrack — 10 operation(s) for broker.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Broker API from Hometrack — 10 operation(s) for broker.
   name: Hometrack Broker API
   slug: hometrack-broker-api
-- description: The Epc Hometrack API from Hometrack — 1 operation(s) for epc hometrack.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Epc Hometrack API from Hometrack — 1 operation(s) for epc hometrack.
   name: Hometrack Epc Hometrack API
   slug: hometrack-epc-hometrack-api
-- description: The Flood Twinn API from Hometrack — 1 operation(s) for flood twinn.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Flood Twinn API from Hometrack — 1 operation(s) for flood twinn.
   name: Hometrack Flood Twinn API
   slug: hometrack-flood-twinn-api
-- description: The Ground Coastalerosion Twinn API from Hometrack — 1 operation(s) for ground coastalerosion twinn.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Ground Coastalerosion Twinn API from Hometrack — 1 operation(s) for ground coastalerosion twinn.
   name: Hometrack Ground Coastalerosion Twinn API
   slug: hometrack-ground-coastalerosion-twinn-api
-- description: The Ground Subsidence Twinn API from Hometrack — 1 operation(s) for ground subsidence twinn.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Ground Subsidence Twinn API from Hometrack — 1 operation(s) for ground subsidence twinn.
   name: Hometrack Ground Subsidence Twinn API
   slug: hometrack-ground-subsidence-twinn-api
-- description: The Ground Terrafirma API from Hometrack — 1 operation(s) for ground terrafirma.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Ground Terrafirma API from Hometrack — 1 operation(s) for ground terrafirma.
   name: Hometrack Ground Terrafirma API
   slug: hometrack-ground-terrafirma-api
-- description: The Internal API from Hometrack — 2 operation(s) for internal.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Internal API from Hometrack — 2 operation(s) for internal.
   name: Hometrack Internal API
   slug: hometrack-internal-api
-- description: The Licences API from Hometrack — 1 operation(s) for licences.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Licences API from Hometrack — 1 operation(s) for licences.
   name: Hometrack Licences API
   slug: hometrack-licences-api
-- description: The Organisation API from Hometrack — 16 operation(s) for organisation.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Organisation API from Hometrack — 16 operation(s) for organisation.
   name: Hometrack Organisation API
   slug: hometrack-organisation-api
-- description: The Partners API from Hometrack — 2 operation(s) for partners.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Partners API from Hometrack — 2 operation(s) for partners.
   name: Hometrack Partners API
   slug: hometrack-partners-api
-- description: The Pvrplugin API from Hometrack — 4 operation(s) for pvrplugin.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Pvrplugin API from Hometrack — 4 operation(s) for pvrplugin.
   name: Hometrack Pvrplugin API
   slug: hometrack-pvrplugin-api
-- description: The Reporting API from Hometrack — 7 operation(s) for reporting.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Reporting API from Hometrack — 7 operation(s) for reporting.
   name: Hometrack Reporting API
   slug: hometrack-reporting-api
-- description: The Status API from Hometrack — 1 operation(s) for status.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Status API from Hometrack — 1 operation(s) for status.
   name: Hometrack Status API
   slug: hometrack-status-api
-- description: The Trial API from Hometrack — 2 operation(s) for trial.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Trial API from Hometrack — 2 operation(s) for trial.
   name: Hometrack Trial API
   slug: hometrack-trial-api
-- description: The Valuation API from Hometrack — 1 operation(s) for valuation.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Valuation API from Hometrack — 1 operation(s) for valuation.
   name: Hometrack Valuation API
   slug: hometrack-valuation-api
-- description: The Zoopla API from Hometrack — 1 operation(s) for zoopla.
+- baseURL: https://api.hometrack.com/valuation/v2
+  baseurl_source: declared
+  description: The Zoopla API from Hometrack — 1 operation(s) for zoopla.
   name: Hometrack Zoopla API
   slug: hometrack-zoopla-api
 artifact_total: 29
@@ -346,7 +382,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:

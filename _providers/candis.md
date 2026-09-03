@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: 'Import/update master data: general ledger accounts, cost dimensions, additional delivery costs.'
   name: Candis Core Data API
   slug: candis-core-data-api
-- description: Export approved invoices and postings to accounting/ERP systems.
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: Export approved invoices and postings to accounting/ERP systems.
   name: Candis Exports API
   slug: candis-exports-api
-- description: Read and update invoice metadata.
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: Read and update invoice metadata.
   name: Candis Invoices API
   slug: candis-invoices-api
-- description: The Organizations API from Candis — 1 operation(s) for organizations.
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: The Organizations API from Candis — 1 operation(s) for organizations.
   name: Candis Organizations API
   slug: candis-organizations-api
-- description: Read purchase request data.
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: Read purchase request data.
   name: Candis Purchase Requests API
   slug: candis-purchase-requests-api
-- description: The Reimbursements API from Candis — 1 operation(s) for reimbursements.
+- baseURL: https://api.candis.io
+  baseurl_source: declared
+  description: The Reimbursements API from Candis — 1 operation(s) for reimbursements.
   name: Candis Reimbursements API
   slug: candis-reimbursements-api
 artifact_total: 18
@@ -253,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candis/refs/heads/main/screenshots/candis-2026-07-25T204341.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: The Account API from Faros AI — 2 operation(s) for account.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Account API from Faros AI — 2 operation(s) for account.
   name: Faros AI Account API
   slug: faros-account-api
-- description: The Events API from Faros AI — 1 operation(s) for events.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Events API from Faros AI — 1 operation(s) for events.
   name: Faros AI Events API
   slug: faros-events-api
-- description: The GraphQL API from Faros AI — 1 operation(s) for graphql.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The GraphQL API from Faros AI — 1 operation(s) for graphql.
   name: Faros AI GraphQL API
   slug: faros-graphql-api
-- description: The Graphs API from Faros AI — 2 operation(s) for graphs.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Graphs API from Faros AI — 2 operation(s) for graphs.
   name: Faros AI Graphs API
   slug: faros-graphs-api
-- description: The Ingestion API from Faros AI — 2 operation(s) for ingestion.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Ingestion API from Faros AI — 2 operation(s) for ingestion.
   name: Faros AI Ingestion API
   slug: faros-ingestion-api
-- description: The Webhooks API from Faros AI — 1 operation(s) for webhooks.
+- baseURL: https://prod.api.faros.ai
+  baseurl_source: declared
+  description: The Webhooks API from Faros AI — 1 operation(s) for webhooks.
   name: Faros AI Webhooks API
   slug: faros-webhooks-api
 artifact_total: 22
@@ -193,7 +205,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faros/refs/heads/main/screenshots/faros-2026-07-25T214235.png
 security:

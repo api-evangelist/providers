@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Fundraising campaigns.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Fundraising campaigns.
   name: Donorbox Campaigns API
   slug: donorbox-campaigns-api
-- description: One-time and recurring donation transactions.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: One-time and recurring donation transactions.
   name: Donorbox Donations API
   slug: donorbox-donations-api
-- description: Donor/supporter profiles.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Donor/supporter profiles.
   name: Donorbox Donors API
   slug: donorbox-donors-api
-- description: Ticketed fundraising events.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Ticketed fundraising events.
   name: Donorbox Events API
   slug: donorbox-events-api
-- description: Recurring donation subscriptions.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Recurring donation subscriptions.
   name: Donorbox Plans API
   slug: donorbox-plans-api
-- description: Event ticket purchase transactions.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Event ticket purchase transactions.
   name: Donorbox Purchases API
   slug: donorbox-purchases-api
-- description: Individual event tickets.
+- baseURL: https://donorbox.org/api/v1
+  baseurl_source: declared
+  description: Individual event tickets.
   name: Donorbox Tickets API
   slug: donorbox-tickets-api
 artifact_total: 24
@@ -205,7 +219,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/screenshots/donorbox-2026-07-25T212301.png
 security:

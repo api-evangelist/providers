@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,19 +73,29 @@ apis:
 - description: The W3C Digital Credentials API provides browser support for mediating presentation and issuance of digital credentials such as digital identity documents. It enables web applications to request and r
   name: Digital Credentials API
   slug: digital-credentials
-- description: The Affiliations API from W3C — 2 operation(s) for affiliations.
+- baseURL: https://api.w3.org
+  baseurl_source: spec
+  description: The Affiliations API from W3C — 2 operation(s) for affiliations.
   name: W3C Affiliations API
   slug: w3c-affiliations-api
-- description: The Ecosystems API from W3C — 1 operation(s) for ecosystems.
+- baseURL: https://api.w3.org
+  baseurl_source: spec
+  description: The Ecosystems API from W3C — 1 operation(s) for ecosystems.
   name: W3C Ecosystems API
   slug: w3c-ecosystems-api
-- description: The Groups API from W3C — 2 operation(s) for groups.
+- baseURL: https://api.w3.org
+  baseurl_source: spec
+  description: The Groups API from W3C — 2 operation(s) for groups.
   name: W3C Groups API
   slug: w3c-groups-api
-- description: The Specifications API from W3C — 3 operation(s) for specifications.
+- baseURL: https://api.w3.org
+  baseurl_source: spec
+  description: The Specifications API from W3C — 3 operation(s) for specifications.
   name: W3C Specifications API
   slug: w3c-specifications-api
-- description: The Translations API from W3C — 1 operation(s) for translations.
+- baseURL: https://api.w3.org
+  baseurl_source: spec
+  description: The Translations API from W3C — 1 operation(s) for translations.
   name: W3C Translations API
   slug: w3c-translations-api
 artifact_total: 32
@@ -270,7 +280,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/w3c/refs/heads/main/screenshots/w3c-2026-06-20T201152.png
 security:

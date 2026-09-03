@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Backblaze S3-Compatible API allows existing applications built for Amazon S3 to work with Backblaze B2 Cloud Storage with minimal code changes. Supports S3 authentication (AWS Signature V4) and S3
   name: Backblaze S3-Compatible API
   slug: backblaze-s3-compatible-api
-- description: Create and manage application keys for access control
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: Create and manage application keys for access control
   name: Backblaze Application Keys API
   slug: backblaze-application-keys-api
-- description: Account authorization and token management
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: Account authorization and token management
   name: Backblaze Authorization API
   slug: backblaze-authorization-api
-- description: Bucket creation, management, and configuration
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: Bucket creation, management, and configuration
   name: Backblaze Buckets API
   slug: backblaze-buckets-api
-- description: File upload, download, listing, deletion, and metadata
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: File upload, download, listing, deletion, and metadata
   name: Backblaze Files API
   slug: backblaze-files-api
-- description: Multi-part upload for large files
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: Multi-part upload for large files
   name: Backblaze Large Files API
   slug: backblaze-large-files-api
-- description: Bucket event notification configuration
+- baseURL: https://api.backblazeb2.com
+  baseurl_source: spec
+  description: Bucket event notification configuration
   name: Backblaze Notifications API
   slug: backblaze-notifications-api
 arazzos:
@@ -835,7 +847,7 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/screenshots/backblaze-2026-07-25T202216.png
 security:

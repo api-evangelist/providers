@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: The BC Data Catalogue exposes a CKAN v3 REST API at https://catalogue.data.gov.bc.ca/api/3/action/ providing programmatic access to BC government open datasets. Key endpoints include package_list (lis
   name: BC Data Catalogue CKAN API
   slug: ckan-api
-- description: The Datasets API from British Columbia Data Catalogue — 4 operation(s) for datasets.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Datasets API from British Columbia Data Catalogue — 4 operation(s) for datasets.
   name: British Columbia Data Catalogue Datasets API
   slug: british-columbia-data-catalogue-datasets-api
-- description: The Groups API from British Columbia Data Catalogue — 2 operation(s) for groups.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Groups API from British Columbia Data Catalogue — 2 operation(s) for groups.
   name: British Columbia Data Catalogue Groups API
   slug: british-columbia-data-catalogue-groups-api
-- description: The Organizations API from British Columbia Data Catalogue — 2 operation(s) for organizations.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Organizations API from British Columbia Data Catalogue — 2 operation(s) for organizations.
   name: British Columbia Data Catalogue Organizations API
   slug: british-columbia-data-catalogue-organizations-api
-- description: The Resources API from British Columbia Data Catalogue — 2 operation(s) for resources.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Resources API from British Columbia Data Catalogue — 2 operation(s) for resources.
   name: British Columbia Data Catalogue Resources API
   slug: british-columbia-data-catalogue-resources-api
-- description: The Site API from British Columbia Data Catalogue — 1 operation(s) for site.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Site API from British Columbia Data Catalogue — 1 operation(s) for site.
   name: British Columbia Data Catalogue Site API
   slug: british-columbia-data-catalogue-site-api
-- description: The Tags API from British Columbia Data Catalogue — 2 operation(s) for tags.
+- baseURL: https://catalogue.data.gov.bc.ca/api/3
+  baseurl_source: spec
+  description: The Tags API from British Columbia Data Catalogue — 2 operation(s) for tags.
   name: British Columbia Data Catalogue Tags API
   slug: british-columbia-data-catalogue-tags-api
 artifact_total: 20
@@ -178,7 +190,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/screenshots/british-columbia-data-catalogue-2026-06-20T173712.png
 security:

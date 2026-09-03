@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,22 +65,34 @@ apis:
 - description: Kotlin Multiplatform SDK that ships the Luciq mobile observability surface (bug reporting, crash reporting, APM with Ktor network logging, session replay, surveys, in-app replies, feature requests, cu
   name: Luciq Kotlin Multiplatform SDK
   slug: kmp-sdk
-- description: Inspect grouped UI freeze (hang) events for a Luciq application, filterable by date, status, app version, device, OS, and current view.
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: Inspect grouped UI freeze (hang) events for a Luciq application, filterable by date, status, app version, device, OS, and current view.
   name: Instabug (Luciq) App Hangs API
   slug: instabug-app-hangs-api
-- description: Enumerate the mobile applications accessible to the authenticated account. Applications are the root scoping primitive for every other MCP tool in this surface.
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: Enumerate the mobile applications accessible to the authenticated account. Applications are the root scoping primitive for every other MCP tool in this surface.
   name: Instabug (Luciq) Applications API
   slug: instabug-applications-api
-- description: Read user-reported bugs submitted via the Luciq SDK report flow, filterable by status, priority, and app version, with full detail including logs, user data, and device metadata for reproduction.
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: Read user-reported bugs submitted via the Luciq SDK report flow, filterable by status, priority, and app version, with full detail including logs, user data, and device metadata for reproduction.
   name: Instabug (Luciq) Bugs API
   slug: instabug-bugs-api
-- description: Inspect grouped crashes for a Luciq application, including occurrence frequency, affected users, root cause hints, and aggregation patterns by device, OS, app version, view, app status, and experiment
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: Inspect grouped crashes for a Luciq application, including occurrence frequency, affected users, root cause hints, and aggregation patterns by device, OS, app version, view, app status, and experiment
   name: Instabug (Luciq) Crashes API
   slug: instabug-crashes-api
-- description: 'Drill down from a crash group into individual occurrence ULIDs and the full per-occurrence context: device, OS, memory, storage, app status, user identity, and log URLs.'
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: 'Drill down from a crash group into individual occurrence ULIDs and the full per-occurrence context: device, OS, memory, storage, app status, user identity, and log URLs.'
   name: Instabug (Luciq) Occurrences API
   slug: instabug-occurrences-api
-- description: Read app store, native-prompt, and custom-prompt reviews captured through the Luciq SDK, with filters for rating, version, country, device, prompt type, and OS.
+- baseURL: https://api.luciq.ai/api/mcp
+  baseurl_source: declared
+  description: Read app store, native-prompt, and custom-prompt reviews captured through the Luciq SDK, with filters for rating, version, country, device, prompt type, and OS.
   name: Instabug (Luciq) Reviews API
   slug: instabug-reviews-api
 artifact_total: 72
@@ -443,7 +455,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -456,7 +468,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 49.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -465,7 +477,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:

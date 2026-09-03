@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -37,64 +50,104 @@ apis:
 - description: Moneyhub's Open Banking Payments API initiates account-to-account payments (Payment Initiation Service) over the UK Faster Payments rails as a cheaper, near-instant alternative to cards, direct debits
   name: Moneyhub Open Banking Payments API
   slug: moneyhub-open-banking-payments-api
-- description: The accounts API from Moneyhub — 6 operation(s) for accounts.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The accounts API from Moneyhub — 6 operation(s) for accounts.
   name: Moneyhub Accounts API
   slug: moneyhub-accounts-api
-- description: The affordability API from Moneyhub — 5 operation(s) for affordability.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The affordability API from Moneyhub — 5 operation(s) for affordability.
   name: Moneyhub Affordability API
   slug: moneyhub-affordability-api
-- description: The beneficiaries API from Moneyhub — 2 operation(s) for beneficiaries.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The beneficiaries API from Moneyhub — 2 operation(s) for beneficiaries.
   name: Moneyhub Beneficiaries API
   slug: moneyhub-beneficiaries-api
-- description: The categories API from Moneyhub — 3 operation(s) for categories.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The categories API from Moneyhub — 3 operation(s) for categories.
   name: Moneyhub Categories API
   slug: moneyhub-categories-api
-- description: The categorise transactions API from Moneyhub — 1 operation(s) for categorise transactions.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The categorise transactions API from Moneyhub — 1 operation(s) for categorise transactions.
   name: Moneyhub categorise transactions API
   slug: moneyhub-categorise-transactions-api
-- description: The counterparties API from Moneyhub — 2 operation(s) for counterparties.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The counterparties API from Moneyhub — 2 operation(s) for counterparties.
   name: Moneyhub Counterparties API
   slug: moneyhub-counterparties-api
-- description: The holdings API from Moneyhub — 3 operation(s) for holdings.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The holdings API from Moneyhub — 3 operation(s) for holdings.
   name: Moneyhub Holdings API
   slug: moneyhub-holdings-api
-- description: The notification thresholds API from Moneyhub — 2 operation(s) for notification thresholds.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The notification thresholds API from Moneyhub — 2 operation(s) for notification thresholds.
   name: Moneyhub notification thresholds API
   slug: moneyhub-notification-thresholds-api
-- description: The projects API from Moneyhub — 2 operation(s) for projects.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The projects API from Moneyhub — 2 operation(s) for projects.
   name: Moneyhub Projects API
   slug: moneyhub-projects-api
-- description: The regular transactions API from Moneyhub — 2 operation(s) for regular transactions.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The regular transactions API from Moneyhub — 2 operation(s) for regular transactions.
   name: Moneyhub regular transactions API
   slug: moneyhub-regular-transactions-api
-- description: The rental records API from Moneyhub — 2 operation(s) for rental records.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The rental records API from Moneyhub — 2 operation(s) for rental records.
   name: Moneyhub rental records API
   slug: moneyhub-rental-records-api
-- description: The savings goals API from Moneyhub — 2 operation(s) for savings goals.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The savings goals API from Moneyhub — 2 operation(s) for savings goals.
   name: Moneyhub savings goals API
   slug: moneyhub-savings-goals-api
-- description: The spending analysis API from Moneyhub — 1 operation(s) for spending analysis.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The spending analysis API from Moneyhub — 1 operation(s) for spending analysis.
   name: Moneyhub spending analysis API
   slug: moneyhub-spending-analysis-api
-- description: The spending goals API from Moneyhub — 2 operation(s) for spending goals.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The spending goals API from Moneyhub — 2 operation(s) for spending goals.
   name: Moneyhub spending goals API
   slug: moneyhub-spending-goals-api
-- description: The standard-financial-statements API from Moneyhub — 2 operation(s) for standard-financial-statements.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The standard-financial-statements API from Moneyhub — 2 operation(s) for standard-financial-statements.
   name: Moneyhub Standard Financial Statements API
   slug: moneyhub-standard-financial-statements-api
-- description: The standing orders API from Moneyhub — 1 operation(s) for standing orders.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The standing orders API from Moneyhub — 1 operation(s) for standing orders.
   name: Moneyhub standing orders API
   slug: moneyhub-standing-orders-api
-- description: The statements API from Moneyhub — 1 operation(s) for statements.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The statements API from Moneyhub — 1 operation(s) for statements.
   name: Moneyhub Statements API
   slug: moneyhub-statements-api
-- description: The sync API from Moneyhub — 1 operation(s) for sync.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The sync API from Moneyhub — 1 operation(s) for sync.
   name: Moneyhub Sync API
   slug: moneyhub-sync-api
-- description: The tax API from Moneyhub — 1 operation(s) for tax.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The tax API from Moneyhub — 1 operation(s) for tax.
   name: Moneyhub Tax API
   slug: moneyhub-tax-api
-- description: The transactions API from Moneyhub — 9 operation(s) for transactions.
+- baseURL: https://api.moneyhub.co.uk/v2.0
+  baseurl_source: declared
+  description: The transactions API from Moneyhub — 9 operation(s) for transactions.
   name: Moneyhub Transactions API
   slug: moneyhub-transactions-api
 artifact_total: 31
@@ -300,7 +353,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -310,7 +363,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 60.7
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,7 +386,7 @@ score:
     regime_id: banking_open_finance
     score: 84.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

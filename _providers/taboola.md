@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 60 operations · 22 acting
 api_count: 7
 apis:
-- description: The Accounts API from Taboola — 3 operation(s) for accounts.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Accounts API from Taboola — 3 operation(s) for accounts.
   name: Taboola Accounts API
   slug: taboola-accounts-api
-- description: The Audience Targeting API from Taboola — 1 operation(s) for audience targeting.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Audience Targeting API from Taboola — 1 operation(s) for audience targeting.
   name: Taboola Audience Targeting API
   slug: taboola-audience-targeting-api
-- description: Bulk create, update, and delete items across campaigns.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Bulk create, update, and delete items across campaigns.
   name: Taboola Bulk Items API
   slug: taboola-bulk-items-api
-- description: Bulk update or create campaigns across accounts on the network.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Bulk update or create campaigns across accounts on the network.
   name: Taboola Bulk Operations API
   slug: taboola-bulk-operations-api
-- description: Standard ad items (creatives) belonging to a campaign.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Standard ad items (creatives) belonging to a campaign.
   name: Taboola Campaign Items API
   slug: taboola-campaign-items-api
-- description: Create, retrieve, update, duplicate, and delete advertising campaigns.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Create, retrieve, update, duplicate, and delete advertising campaigns.
   name: Taboola Campaigns API
   slug: taboola-campaigns-api
-- description: The Combined Audiences API from Taboola — 2 operation(s) for combined audiences.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Combined Audiences API from Taboola — 2 operation(s) for combined audiences.
   name: Taboola Combined Audiences API
   slug: taboola-combined-audiences-api
-- description: The Conversion Rules API from Taboola — 4 operation(s) for conversion rules.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Conversion Rules API from Taboola — 4 operation(s) for conversion rules.
   name: Taboola Conversion Rules API
   slug: taboola-conversion-rules-api
-- description: The Custom Audiences API from Taboola — 1 operation(s) for custom audiences.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Custom Audiences API from Taboola — 1 operation(s) for custom audiences.
   name: Taboola Custom Audiences API
   slug: taboola-custom-audiences-api
-- description: The Dictionary API from Taboola — 16 operation(s) for dictionary.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Dictionary API from Taboola — 16 operation(s) for dictionary.
   name: Taboola Dictionary API
   slug: taboola-dictionary-api
-- description: The First Party Audiences API from Taboola — 3 operation(s) for first party audiences.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The First Party Audiences API from Taboola — 3 operation(s) for first party audiences.
   name: Taboola First Party Audiences API
   slug: taboola-first-party-audiences-api
-- description: The Lookalike Audiences API from Taboola — 1 operation(s) for lookalike audiences.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Lookalike Audiences API from Taboola — 1 operation(s) for lookalike audiences.
   name: Taboola Lookalike Audiences API
   slug: taboola-lookalike-audiences-api
-- description: The Marketplace Audiences API from Taboola — 1 operation(s) for marketplace audiences.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Marketplace Audiences API from Taboola — 1 operation(s) for marketplace audiences.
   name: Taboola Marketplace Audiences API
   slug: taboola-marketplace-audiences-api
-- description: Estimate reach for campaign targeting before launching.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Estimate reach for campaign targeting before launching.
   name: Taboola Reach Estimator API
   slug: taboola-reach-estimator-api
-- description: The Reports API from Taboola — 3 operation(s) for reports.
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: The Reports API from Taboola — 3 operation(s) for reports.
   name: Taboola Reports API
   slug: taboola-reports-api
-- description: Performance video items (motion ads).
+- baseURL: https://backstage.taboola.com/backstage/api/1.0
+  baseurl_source: declared
+  description: Performance video items (motion ads).
   name: Taboola Video Items API
   slug: taboola-video-items-api
 artifact_total: 93
@@ -645,7 +677,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taboola/refs/heads/main/screenshots/taboola-2026-06-20T194849.png
 security:

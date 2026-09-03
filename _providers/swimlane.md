@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Swimlane provides a SCIM v2 API for user lifecycle management and provisioning on Business plans. The SCIM endpoint uses a separately generated bearer token for authentication and enables automated us
   name: Swimlane SCIM API
   slug: swimlane-scim-api
-- description: Application (workspace) management endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Application (workspace) management endpoints
   name: Swimlane Applications API
   slug: swimlane-applications-api
-- description: Endpoints for obtaining and managing authentication tokens
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Endpoints for obtaining and managing authentication tokens
   name: Swimlane Authentication API
   slug: swimlane-authentication-api
-- description: Group management endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Group management endpoints
   name: Swimlane Groups API
   slug: swimlane-groups-api
-- description: Job logging and status endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Job logging and status endpoints
   name: Swimlane Logging API
   slug: swimlane-logging-api
-- description: Record CRUD and search endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Record CRUD and search endpoints
   name: Swimlane Records API
   slug: swimlane-records-api
-- description: Report management and execution endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Report management and execution endpoints
   name: Swimlane Reports API
   slug: swimlane-reports-api
-- description: Server settings and configuration
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Server settings and configuration
   name: Swimlane Settings API
   slug: swimlane-settings-api
-- description: Task management and execution endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: Task management and execution endpoints
   name: Swimlane Tasks API
   slug: swimlane-tasks-api
-- description: User management endpoints
+- baseURL: https://{your-instance}.swimlane.app/api
+  baseurl_source: declared
+  description: User management endpoints
   name: Swimlane Users API
   slug: swimlane-users-api
 artifact_total: 36
@@ -257,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swimlane/refs/heads/main/screenshots/swimlane-2026-06-20T194822.png
 security:

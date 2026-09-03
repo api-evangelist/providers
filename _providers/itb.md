@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: ITB's campus-wide single sign-on, built on the Apereo CAS (Central Authentication Service) protocol and running on ITB's own host login.itb.ac.id. The CAS 2.0 and CAS 3.0 ticket-validation endpoints a
@@ -140,7 +140,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -150,7 +150,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 22.9
+  previous_composite: 30.7
   provenance:
     conformance: first-party
   regulatory:
@@ -160,8 +160,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itb/refs/heads/main/screenshots/itb-2026-06-20T183631.png
 security:
 - kind: domain-security

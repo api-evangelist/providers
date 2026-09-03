@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 26 operations
 api_count: 4
 apis:
-- description: Access legislation and bill data from federal, state, and international jurisdictions.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access legislation and bill data from federal, state, and international jurisdictions.
   name: FiscalNote Bills API
   slug: fiscalnote-bills-api
-- description: Access legislative committee records including membership and jurisdiction information.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access legislative committee records including membership and jurisdiction information.
   name: FiscalNote Committees API
   slug: fiscalnote-committees-api
-- description: Manage and retrieve organizational issues for tracking policy topics and legislative priorities.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Manage and retrieve organizational issues for tracking policy topics and legislative priorities.
   name: FiscalNote Issues API
   slug: fiscalnote-issues-api
-- description: Manage and retrieve labels used to categorize and organize legislation and policy items.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Manage and retrieve labels used to categorize and organize legislation and policy items.
   name: FiscalNote Labels API
   slug: fiscalnote-labels-api
-- description: Access legislative data spanning Congress, all 50 U.S. states, and international jurisdictions.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access legislative data spanning Congress, all 50 U.S. states, and international jurisdictions.
   name: FiscalNote Legislation API
   slug: fiscalnote-legislation-api
-- description: Access legislator-specific data including voting records, sponsored legislation, and committee memberships.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access legislator-specific data including voting records, sponsored legislation, and committee memberships.
   name: FiscalNote Legislators API
   slug: fiscalnote-legislators-api
-- description: Access government official profiles including legislators, executives, and appointees.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access government official profiles including legislators, executives, and appointees.
   name: FiscalNote Officials API
   slug: fiscalnote-officials-api
-- description: Access government organization records including agencies, departments, and independent bodies.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access government organization records including agencies, departments, and independent bodies.
   name: FiscalNote Organizations API
   slug: fiscalnote-organizations-api
-- description: Access AI-powered policy analysis, impact summaries, and monitoring signals for policy changes.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access AI-powered policy analysis, impact summaries, and monitoring signals for policy changes.
   name: FiscalNote Policy Intelligence API
   slug: fiscalnote-policy-intelligence-api
-- description: Access the real-time presidential transcript feed delivering primary-source transcripts of presidential communications.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access the real-time presidential transcript feed delivering primary-source transcripts of presidential communications.
   name: FiscalNote Presidential Transcripts API
   slug: fiscalnote-presidential-transcripts-api
-- description: Access regulatory data including proposed and final rules across federal and state agencies.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access regulatory data including proposed and final rules across federal and state agencies.
   name: FiscalNote Regulations API
   slug: fiscalnote-regulations-api
-- description: Access regulatory documents including proposed rules, final rules, and notices from government agencies.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access regulatory documents including proposed rules, final rules, and notices from government agencies.
   name: FiscalNote Regulatory Documents API
   slug: fiscalnote-regulatory-documents-api
-- description: Access stakeholder intelligence including government officials and organizational relationships.
+- baseURL: https://api.fiscalnote.com
+  baseurl_source: declared
+  description: Access stakeholder intelligence including government officials and organizational relationships.
   name: FiscalNote Stakeholders API
   slug: fiscalnote-stakeholders-api
 artifact_total: 42
@@ -291,7 +317,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscalnote/refs/heads/main/screenshots/fiscalnote-2026-06-20T181249.png
 security:

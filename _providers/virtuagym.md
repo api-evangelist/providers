@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 27 operations · 13 acting
 api_count: 1
 apis:
-- description: Member credits and club invoices.
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Member credits and club invoices.
   name: Virtuagym Billing API
   slug: virtuagym-billing-api
-- description: Staff / employees of a club.
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Staff / employees of a club.
   name: Virtuagym Club Employees API
   slug: virtuagym-club-employees-api
-- description: Members of a club - list, retrieve, create, update, and activate.
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Members of a club - list, retrieve, create, update, and activate.
   name: Virtuagym Club Members API
   slug: virtuagym-club-members-api
-- description: Assign coaching workout plans to members.
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Assign coaching workout plans to members.
   name: Virtuagym Coaching API
   slug: virtuagym-coaching-api
-- description: Club events (classes) and event participants (bookings).
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Club events (classes) and event participants (bookings).
   name: Virtuagym Events API
   slug: virtuagym-events-api
-- description: Membership definitions (plans) and membership instances (enrollments).
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Membership definitions (plans) and membership instances (enrollments).
   name: Virtuagym Memberships API
   slug: virtuagym-memberships-api
-- description: Club visits - member check-in / attendance records.
+- baseURL: https://api.virtuagym.com/api
+  baseurl_source: declared
+  description: Club visits - member check-in / attendance records.
   name: Virtuagym Visits API
   slug: virtuagym-visits-api
 artifact_total: 22
@@ -172,7 +186,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -201,8 +215,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/screenshots/virtuagym-2026-09-02T170012.png
 security:
 - kind: authentication
   name: Virtuagym Authentication

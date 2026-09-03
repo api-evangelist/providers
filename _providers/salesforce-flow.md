@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: API for executing and managing Flow interviews (instances). Provides endpoints to start, resume, pause, and monitor flow execution state.
   name: Salesforce Flow Interviews API
   slug: salesforce-flow-interviews-api
-- description: Operations for managing Flow metadata and definitions
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations for managing Flow metadata and definitions
   name: Salesforce Flow Flow Definitions API
   slug: salesforce-flow-flow-definitions-api
-- description: Operations for executing and managing Flow interviews
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations for executing and managing Flow interviews
   name: Salesforce Flow Flow Interviews API
   slug: salesforce-flow-flow-interviews-api
-- description: Operations for triggering invocable flows as actions
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Operations for triggering invocable flows as actions
   name: Salesforce Flow Invocable Actions API
   slug: salesforce-flow-invocable-actions-api
 artifact_total: 28
@@ -254,7 +260,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -264,7 +270,7 @@ score:
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 42.0
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -273,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/screenshots/salesforce-flow-2026-06-20T193348.png
 security:

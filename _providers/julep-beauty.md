@@ -33,22 +33,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Julep's agent-commerce surface. The storefront advertises a Universal Commerce Protocol merchant profile and a live JSON-RPC Model Context Protocol endpoint covering catalog search and lookup, cart, d
   name: Julep UCP Commerce MCP Endpoint
   slug: ucp-commerce
-- description: Read-only view of the current session cart.
+- baseURL: https://www.julep.com
+  baseurl_source: declared
+  description: Read-only view of the current session cart.
   name: Julep Beauty Cart API
   slug: julep-beauty-cart-api
-- description: Products and collections.
+- baseURL: https://www.julep.com
+  baseurl_source: declared
+  description: Products and collections.
   name: Julep Beauty Catalog API
   slug: julep-beauty-catalog-api
-- description: Store metadata and agent-discovery documents.
+- baseURL: https://www.julep.com
+  baseurl_source: declared
+  description: Store metadata and agent-discovery documents.
   name: Julep Beauty Discovery API
   slug: julep-beauty-discovery-api
-- description: Storefront product search.
+- baseURL: https://www.julep.com
+  baseurl_source: declared
+  description: Storefront product search.
   name: Julep Beauty Search API
   slug: julep-beauty-search-api
 artifact_total: 15
@@ -203,7 +211,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -213,7 +221,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 37.7
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     contracts:
@@ -224,8 +232,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/screenshots/julep-beauty-2026-08-07T171031.png
 security:
 - kind: authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -51,7 +64,9 @@ apis:
 - description: Low-latency streaming socket channel providing notifications on new bitcoin blocks, unconfirmed transactions and watched addresses via the unconfirmed_sub, blocks_sub and addr_sub subscription operati
   name: Blockchain.com Explorer WebSocket API
   slug: blockchaincom-explorer-websocket-api
-- description: Public backend service for NFT market data, returning NFT assets owned by an address and individual asset lookups by network, contract address and token id. Publishes a Swagger 2.0 definition at its d
+- baseURL: https://api.blockchain.com/nft-market-api
+  baseurl_source: declared
+  description: Public backend service for NFT market data, returning NFT assets owned by an address and individual asset lookups by network, contract address and token id. Publishes a Swagger 2.0 definition at its d
   name: Blockchain.com NFT Market API
   slug: blockchaincom-nft-market-api
 - description: OAuth 2.0 resource gateway that lets a third-party app read a consenting user's Blockchain.com custodial wallet data. Two endpoints are documented — transaction history (scope read_transactions, up to
@@ -60,31 +75,49 @@ apis:
 - description: Open-source Wallet API service (service-my-wallet-v3) that runs locally and exposes HTTP endpoints for creating wallets, sending payments, and checking balances against Blockchain.com wallets, plus th
   name: Blockchain.com Wallet API
   slug: blockchaincom-wallet-api
-- description: Available currencies, regions, and payment methods for the partner account.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Available currencies, regions, and payment methods for the partner account.
   name: Blockchain.com Eligibility API
   slug: blockchain.com-eligibility-api
-- description: The nft API from Blockchain.com — 1 operation(s) for nft.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: The nft API from Blockchain.com — 1 operation(s) for nft.
   name: Blockchain.com Nft API
   slug: blockchain.com-nft-api
-- description: The nft_v2 API from Blockchain.com — 2 operation(s) for nft_v2.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: The nft_v2 API from Blockchain.com — 2 operation(s) for nft_v2.
   name: Blockchain.com Nft V2 API
   slug: blockchain.com-nft-v2-api
-- description: Order listing and lookup.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Order listing and lookup.
   name: Blockchain.com Orders API
   slug: blockchain.com-orders-api
-- description: Get account status and initiate deposits and withdrawals
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Get account status and initiate deposits and withdrawals
   name: Blockchain.com Payments API
   slug: blockchain.com-payments-api
-- description: The Public API from Blockchain.com — 3 operation(s) for public.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: The Public API from Blockchain.com — 3 operation(s) for public.
   name: Blockchain.com Public API
   slug: blockchain.com-public-api
-- description: Real-time buy quotes.
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Real-time buy quotes.
   name: Blockchain.com Quote API
   slug: blockchain.com-quote-api
-- description: Post orders and get information about historical trades
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Post orders and get information about historical trades
   name: Blockchain.com Trading API
   slug: blockchain.com-trading-api
-- description: Retrieve current prices and markets
+- baseURL: https://api.blockchain.com/v3/exchange
+  baseurl_source: declared
+  description: Retrieve current prices and markets
   name: Blockchain.com Unauthenticated API
   slug: blockchain.com-unauthenticated-api
 artifact_total: 37
@@ -309,7 +342,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -319,7 +352,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 57.2
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,7 +370,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:

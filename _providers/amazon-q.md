@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: API for Amazon Q Developer in chat applications, which enables integration of Amazon Q Developer capabilities into messaging platforms. It provides descriptions, request parameters, and response forma
   name: Amazon Q Developer in Chat Applications API
   slug: amazon-q-developer-in-chat-applications-api
-- description: The Applications API from Amazon Q — 2 operation(s) for applications.
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Applications API from Amazon Q — 2 operation(s) for applications.
   name: Amazon Q Applications API
   slug: amazon-q-applications-api
-- description: The Conversations API from Amazon Q — 1 operation(s) for conversations.
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Conversations API from Amazon Q — 1 operation(s) for conversations.
   name: Amazon Q Conversations API
   slug: amazon-q-conversations-api
-- description: The Data Sources API from Amazon Q — 1 operation(s) for data sources.
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Data Sources API from Amazon Q — 1 operation(s) for data sources.
   name: Amazon Q Data Sources API
   slug: amazon-q-data-sources-api
-- description: The Indices API from Amazon Q — 1 operation(s) for indices.
+- baseURL: https://qbusiness.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Indices API from Amazon Q — 1 operation(s) for indices.
   name: Amazon Q Indices API
   slug: amazon-q-indices-api
 artifact_total: 53
@@ -461,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-q/refs/heads/main/screenshots/amazon-q-2026-06-20T171808.png
 security:

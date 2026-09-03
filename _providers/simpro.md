@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 52 operations · 27 acting
 api_count: 1
 apis:
-- description: Company information on the build (multi-company aware).
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Company information on the build (multi-company aware).
   name: Simpro Companies API
   slug: simpro-companies-api
-- description: Accounting cost center setup.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Accounting cost center setup.
   name: Simpro Cost Centers API
   slug: simpro-cost-centers-api
-- description: Company and individual customers that receive invoices.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Company and individual customers that receive invoices.
   name: Simpro Customers API
   slug: simpro-customers-api
-- description: Customer invoicing.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Customer invoicing.
   name: Simpro Invoices API
   slug: simpro-invoices-api
-- description: Job lifecycle - scheduling, stock, assets, forms, and billing.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Job lifecycle - scheduling, stock, assets, forms, and billing.
   name: Simpro Jobs API
   slug: simpro-jobs-api
-- description: Quote creation and management.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Quote creation and management.
   name: Simpro Quotes API
   slug: simpro-quotes-api
-- description: Resource and staff scheduling records.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Resource and staff scheduling records.
   name: Simpro Schedules API
   slug: simpro-schedules-api
-- description: Customer sites and service locations.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Customer sites and service locations.
   name: Simpro Sites API
   slug: simpro-sites-api
-- description: Inventory held on storage devices.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Inventory held on storage devices.
   name: Simpro Stock API
   slug: simpro-stock-api
-- description: Purchase orders raised to vendors/suppliers.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Purchase orders raised to vendors/suppliers.
   name: Simpro Vendor Orders API
   slug: simpro-vendor-orders-api
-- description: Webhook subscriptions for build event notifications.
+- baseURL: https://{build}.simprosuite.com/api/v1.0
+  baseurl_source: declared
+  description: Webhook subscriptions for build event notifications.
   name: Simpro Webhooks API
   slug: simpro-webhooks-api
 artifact_total: 30
@@ -184,7 +206,7 @@ score:
   band: thin
   composite: 26.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -207,8 +229,9 @@ score:
       marker_coverage: 72.7
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/screenshots/simpro-2026-09-02T155602.png
 security:
 - kind: authentication
   name: Simpro Authentication

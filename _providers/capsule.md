@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 32 operations · 14 acting
 api_count: 1
 apis:
-- description: The Opportunities API from Capsule — 7 operation(s) for opportunities.
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: spec
+  description: The Opportunities API from Capsule — 7 operation(s) for opportunities.
   name: Capsule Opportunities API
   slug: capsule-opportunities-api
-- description: The Parties API from Capsule — 5 operation(s) for parties.
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: spec
+  description: The Parties API from Capsule — 5 operation(s) for parties.
   name: Capsule Parties API
   slug: capsule-parties-api
-- description: The Projects API from Capsule — 5 operation(s) for projects.
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: spec
+  description: The Projects API from Capsule — 5 operation(s) for projects.
   name: Capsule Projects API
   slug: capsule-projects-api
-- description: The Tasks API from Capsule — 2 operation(s) for tasks.
+- baseURL: https://api.capsulecrm.com/api/v2
+  baseurl_source: spec
+  description: The Tasks API from Capsule — 2 operation(s) for tasks.
   name: Capsule Tasks API
   slug: capsule-tasks-api
 artifact_total: 16
@@ -154,7 +162,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -164,7 +172,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.7
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/screenshots/capsule-2026-06-20T173941.png
 security:

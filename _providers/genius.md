@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 30 operations · 5 acting
 api_count: 9
 apis:
-- description: Authenticated user account.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Authenticated user account.
   name: Genius Account API
   slug: genius-account-api
-- description: Album metadata, tracks, cover art, and leaderboards.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Album metadata, tracks, cover art, and leaderboards.
   name: Genius Albums API
   slug: genius-albums-api
-- description: Community annotations attached to lyric fragments.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Community annotations attached to lyric fragments.
   name: Genius Annotations API
   slug: genius-annotations-api
-- description: Artist profiles, discography, followers, and leaderboards.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Artist profiles, discography, followers, and leaderboards.
   name: Genius Artists API
   slug: genius-artists-api
-- description: Lyric fragments (referents) and their attached annotations.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Lyric fragments (referents) and their attached annotations.
   name: Genius Referents API
   slug: genius-referents-api
-- description: Full-text search across the Genius corpus.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Full-text search across the Genius corpus.
   name: Genius Search API
   slug: genius-search-api
-- description: Song metadata, contributors, and activity.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Song metadata, contributors, and activity.
   name: Genius Songs API
   slug: genius-songs-api
-- description: Genius user profiles and contributions.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Genius user profiles and contributions.
   name: Genius Users API
   slug: genius-users-api
-- description: Web page lookup for the annotation network.
+- baseURL: https://api.genius.com
+  baseurl_source: declared
+  description: Web page lookup for the annotation network.
   name: Genius Web Pages API
   slug: genius-web-pages-api
 artifact_total: 45
@@ -309,7 +327,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

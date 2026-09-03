@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -61,31 +61,49 @@ apis:
 - description: Client-side API exposed by the Warpcast / Farcaster app for client-specific surfaces (channels, mentions, direct casts, mini-app contexts) layered above the Snapchain protocol APIs.
   name: Warpcast / Farcaster Client API
   slug: warpcast-api
-- description: The Casts API from Farcaster — 4 operation(s) for casts.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Casts API from Farcaster — 4 operation(s) for casts.
   name: Farcaster Casts API
   slug: farcaster-casts-api
-- description: The Events API from Farcaster — 2 operation(s) for events.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Events API from Farcaster — 2 operation(s) for events.
   name: Farcaster Events API
   slug: farcaster-events-api
-- description: The Info API from Farcaster — 2 operation(s) for info.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Info API from Farcaster — 2 operation(s) for info.
   name: Farcaster Info API
   slug: farcaster-info-api
-- description: The Links API from Farcaster — 3 operation(s) for links.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Links API from Farcaster — 3 operation(s) for links.
   name: Farcaster Links API
   slug: farcaster-links-api
-- description: The OnChain API from Farcaster — 4 operation(s) for onchain.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The OnChain API from Farcaster — 4 operation(s) for onchain.
   name: Farcaster OnChain API
   slug: farcaster-onchain-api
-- description: The Reactions API from Farcaster — 4 operation(s) for reactions.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Reactions API from Farcaster — 4 operation(s) for reactions.
   name: Farcaster Reactions API
   slug: farcaster-reactions-api
-- description: The Submit API from Farcaster — 3 operation(s) for submit.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Submit API from Farcaster — 3 operation(s) for submit.
   name: Farcaster Submit API
   slug: farcaster-submit-api
-- description: The UserData API from Farcaster — 4 operation(s) for userdata.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The UserData API from Farcaster — 4 operation(s) for userdata.
   name: Farcaster UserData API
   slug: farcaster-userdata-api
-- description: The Verifications API from Farcaster — 1 operation(s) for verifications.
+- baseURL: https://snapchain.farcaster.xyz
+  baseurl_source: declared
+  description: The Verifications API from Farcaster — 1 operation(s) for verifications.
   name: Farcaster Verifications API
   slug: farcaster-verifications-api
 artifact_total: 32
@@ -212,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/screenshots/farcaster-2026-06-20T181039.png
 security:

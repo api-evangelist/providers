@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The imgix Rendering API can optimize your images, improve your page speed, and make it easy to create responsive designs. Images are processed and delivered in real-time via URL parameters.
   name: Imgix Rendering API
   slug: imgix-rendering-api
-- description: The Sources API from Imgix — 4 operation(s) for sources.
+- baseURL: https://api.imgix.com
+  baseurl_source: spec
+  description: The Sources API from Imgix — 4 operation(s) for sources.
   name: Imgix Sources API
   slug: imgix-sources-api
 artifact_total: 28
@@ -175,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgix/refs/heads/main/screenshots/imgix-2026-06-20T183253.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: The Plivo Account API exposes account-level details (auth ID, auth token, billing balance, address, account type, max-call configuration) and supports updating account properties.
+- baseURL: https://api.plivo.com/v1
+  baseurl_source: spec
+  description: The Plivo Account API exposes account-level details (auth ID, auth token, billing balance, address, account type, max-call configuration) and supports updating account properties.
   name: Plivo Account API
   slug: plivo-account-api
 - description: The Plivo Subaccount API supports creating, updating, listing, activating, and deleting subaccounts under a parent Plivo account, enabling multi-tenant isolation of usage and billing.
@@ -77,7 +79,9 @@ apis:
 - description: The Plivo Verified Caller ID API allows trial accounts to verify outbound caller IDs for use as the From number in outbound calls.
   name: Plivo Verified Caller ID API
   slug: plivo-verified-caller-id-api
-- description: The Plivo Message API sends and receives SMS, MMS, and WhatsApp messages, retrieves delivery status reports, and lists historical messages.
+- baseURL: https://api.plivo.com/v1
+  baseurl_source: spec
+  description: The Plivo Message API sends and receives SMS, MMS, and WhatsApp messages, retrieves delivery status reports, and lists historical messages.
   name: Plivo Message API
   slug: plivo-message-api
 - description: The Plivo Media API uploads, lists, retrieves, and deletes media files used as MMS or WhatsApp attachments.
@@ -110,10 +114,14 @@ apis:
 - description: The Plivo CNAM and Branded Calling API manages caller-name lookup and branded outbound caller-display configurations on outbound voice calls.
   name: Plivo CNAM Lookup and Branded Calling API
   slug: plivo-cnam-api
-- description: Account-level configuration and details.
+- baseURL: https://api.plivo.com/v1
+  baseurl_source: spec
+  description: Account-level configuration and details.
   name: Plivo Account API
   slug: plivo-account-api
-- description: Send and retrieve SMS, MMS, and WhatsApp messages.
+- baseURL: https://api.plivo.com/v1
+  baseurl_source: spec
+  description: Send and retrieve SMS, MMS, and WhatsApp messages.
   name: Plivo Message API
   slug: plivo-message-api
 artifact_total: 40
@@ -333,7 +341,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -343,7 +351,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 43.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,7 +366,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:

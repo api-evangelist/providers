@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: The Commentaries API from GoalServe — 1 operation(s) for commentaries.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Commentaries API from GoalServe — 1 operation(s) for commentaries.
   name: GoalServe Commentaries API
   slug: goalserve-commentaries-api
-- description: The Fixtures API from GoalServe — 1 operation(s) for fixtures.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Fixtures API from GoalServe — 1 operation(s) for fixtures.
   name: GoalServe Fixtures API
   slug: goalserve-fixtures-api
-- description: The Live Scores API from GoalServe — 2 operation(s) for live scores.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Live Scores API from GoalServe — 2 operation(s) for live scores.
   name: GoalServe Live Scores API
   slug: goalserve-live-scores-api
-- description: The Player Data API from GoalServe — 1 operation(s) for player data.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Player Data API from GoalServe — 1 operation(s) for player data.
   name: GoalServe Player Data API
   slug: goalserve-player-data-api
-- description: The Standings API from GoalServe — 1 operation(s) for standings.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Standings API from GoalServe — 1 operation(s) for standings.
   name: GoalServe Standings API
   slug: goalserve-standings-api
-- description: The Team Data API from GoalServe — 1 operation(s) for team data.
+- baseURL: https://www.goalserve.com/getfeed
+  baseurl_source: declared
+  description: The Team Data API from GoalServe — 1 operation(s) for team data.
   name: GoalServe Team Data API
   slug: goalserve-team-data-api
 artifact_total: 20
@@ -177,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goalserve/refs/heads/main/screenshots/goalserve-2026-07-25T215959.png
 security:

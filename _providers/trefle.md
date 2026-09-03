@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 18 operations
 api_count: 1
 apis:
-- description: Access geographic distribution zones and retrieve plants native or established in specific regions.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Access geographic distribution zones and retrieve plants native or established in specific regions.
   name: Trefle Distributions API
   slug: trefle-distributions-api
-- description: Retrieve botanical division class classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve botanical division class classification data.
   name: Trefle Division Classes API
   slug: trefle-division-classes-api
-- description: Retrieve botanical division order classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve botanical division order classification data.
   name: Trefle Division Orders API
   slug: trefle-division-orders-api
-- description: Retrieve botanical division classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve botanical division classification data.
   name: Trefle Divisions API
   slug: trefle-divisions-api
-- description: Retrieve plant family classification and taxonomy data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve plant family classification and taxonomy data.
   name: Trefle Families API
   slug: trefle-families-api
-- description: Retrieve plant genus classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve plant genus classification data.
   name: Trefle Genus API
   slug: trefle-genus-api
-- description: Retrieve botanical kingdom classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve botanical kingdom classification data.
   name: Trefle Kingdoms API
   slug: trefle-kingdoms-api
-- description: Search, list, and retrieve plant species by various attributes including common name, scientific name, slug, and taxonomic identifiers.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Search, list, and retrieve plant species by various attributes including common name, scientific name, slug, and taxonomic identifiers.
   name: Trefle Plants API
   slug: trefle-plants-api
-- description: Access detailed species information including taxonomy, morphology, growth characteristics, soil requirements, and geographic distributions.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Access detailed species information including taxonomy, morphology, growth characteristics, soil requirements, and geographic distributions.
   name: Trefle Species API
   slug: trefle-species-api
-- description: Retrieve botanical subkingdom classification data.
+- baseURL: https://trefle.io/api/v1
+  baseurl_source: declared
+  description: Retrieve botanical subkingdom classification data.
   name: Trefle Subkingdoms API
   slug: trefle-subkingdoms-api
 artifact_total: 36
@@ -255,7 +275,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trefle/refs/heads/main/screenshots/trefle-2026-06-20T195651.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Alyx is Arize's AI engineering agent that helps developers debug traces, create evaluators, build dashboards, and compare experiments inside the Arize AX platform.
   name: Alyx
   slug: alyx
-- description: OTLP trace ingestion
+- baseURL: https://otlp.arize.com
+  baseurl_source: spec
+  description: OTLP trace ingestion
   name: Arize AI Traces API
   slug: arize-ai-traces-api
 artifact_total: 38
@@ -246,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arize-ai/refs/heads/main/screenshots/arize-ai-2026-06-20T172430.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 66.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 245 operations · 136 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Evaluate and preview billable metrics.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Evaluate and preview billable metrics.
   name: Drippay BillableMetrics API
   slug: drippay-billablemetrics-api
-- description: Business-level settings and configuration.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Business-level settings and configuration.
   name: Drippay Business API
   slug: drippay-business-api
-- description: View charge history and settlement status.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: View charge history and settlement status.
   name: Drippay Charges API
   slug: drippay-charges-api
-- description: Per-customer commercial agreements with custom pricing, prepaid commits, and spend caps. All contract endpoints require a secret key (`sk_*`) with the `ADMIN` role.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Per-customer commercial agreements with custom pricing, prepaid commits, and spend caps. All contract endpoints require a secret key (`sk_*`) with the `ADMIN` role.
   name: Drippay Contracts API
   slug: drippay-contracts-api
-- description: Coupons and promotion codes for discounts.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Coupons and promotion codes for discounts.
   name: Drippay Coupons API
   slug: drippay-coupons-api
-- description: Create, issue, and void credit notes.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Create, issue, and void credit notes.
   name: Drippay Credit Notes API
   slug: drippay-credit-notes-api
-- description: Self-service customer portal for profile, subscriptions, and address management.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Self-service customer portal for profile, subscriptions, and address management.
   name: Drippay Customer Portal API
   slug: drippay-customer-portal-api
-- description: Create and manage billable customers.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Create and manage billable customers.
   name: Drippay Customers API
   slug: drippay-customers-api
-- description: The Drift API from Drippay — 6 operation(s) for drift.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: The Drift API from Drippay — 6 operation(s) for drift.
   name: Drippay Drift API
   slug: drippay-drift-api
-- description: Automatic retry + dunning email flow for failed payments. Configure a per-business retry schedule, list failed charges in collections, and manually re-trigger retries.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Automatic retry + dunning email flow for failed payments. Configure a per-business retry schedule, list failed charges in collections, and manually re-trigger retries.
   name: Drippay Dunning API
   slug: drippay-dunning-api
-- description: Quota management and pre-request access checks.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Quota management and pre-request access checks.
   name: Drippay Entitlements API
   slug: drippay-entitlements-api
-- description: Record execution events for observability.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Record execution events for observability.
   name: Drippay Events API
   slug: drippay-events-api
-- description: Manage billing, CRM, and marketplace integrations (Stripe, Xero, Salesforce).
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Manage billing, CRM, and marketplace integrations (Stripe, Xero, Salesforce).
   name: Drippay Integrations API
   slug: drippay-integrations-api
-- description: The Internal API from Drippay — 1 operation(s) for internal.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: The Internal API from Drippay — 1 operation(s) for internal.
   name: Drippay Internal API
   slug: drippay-internal-api
-- description: Generate, issue, and manage invoices. Supports usage-based and subscription-based billing periods.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Generate, issue, and manage invoices. Supports usage-based and subscription-based billing periods.
   name: Drippay Invoices API
   slug: drippay-invoices-api
-- description: Define per-unit pricing for usage types. Creating, updating, and deleting plans requires a secret key (`sk_*`) with the `ADMIN` role.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Define per-unit pricing for usage types. Creating, updating, and deleting plans requires a secret key (`sk_*`) with the `ADMIN` role.
   name: Drippay Pricing Plans API
   slug: drippay-pricing-plans-api
-- description: Controlled taxonomy for strict-products governance. Groups pricing plans into service-line categories for ARR rollups and revenue reporting.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Controlled taxonomy for strict-products governance. Groups pricing plans into service-line categories for ARR rollups and revenue reporting.
   name: Drippay Product Categories API
   slug: drippay-product-categories-api
-- description: Start, update, and inspect agent runs.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Start, update, and inspect agent runs.
   name: Drippay Runs API
   slug: drippay-runs-api
-- description: Recurring billing and subscription lifecycle management.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Recurring billing and subscription lifecycle management.
   name: Drippay Subscriptions API
   slug: drippay-subscriptions-api
-- description: 'Sales tax configuration: customer tax addresses, exemptions, business registrations, and jurisdiction rates. Requires a secret key with ADMIN role and full mode (`SIMPLE_MODE=false`).'
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: 'Sales tax configuration: customer tax addresses, exemptions, business registrations, and jurisdiction rates. Requires a secret key with ADMIN role and full mode (`SIMPLE_MODE=false`).'
   name: Drippay Tax API
   slug: drippay-tax-api
-- description: Record metered usage. Creates charges when a pricing plan matches.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Record metered usage. Creates charges when a pricing plan matches.
   name: Drippay Usage API
   slug: drippay-usage-api
-- description: Manage webhook endpoints for real-time event notifications.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Manage webhook endpoints for real-time event notifications.
   name: Drippay Webhooks API
   slug: drippay-webhooks-api
-- description: Define workflow templates for agent execution.
+- baseURL: https://api.drippay.dev
+  baseurl_source: declared
+  description: Define workflow templates for agent execution.
   name: Drippay Workflows API
   slug: drippay-workflows-api
 artifact_total: 57
@@ -409,7 +455,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -419,7 +465,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 73.7
+  previous_composite: 73.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -441,7 +487,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:

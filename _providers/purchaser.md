@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) covering the sourcing lifecycle — RFQs, vendors, conversations, quotes, files, and webhooks. API-key authentication with team and environment scoping; the full reference and int
@@ -145,11 +145,11 @@ score:
   band: thin
   composite: 27.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,13 +159,14 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 28.2
+  previous_composite: 27.9
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/purchaser/refs/heads/main/screenshots/purchaser-2026-09-02T152339.png
 security:
 - kind: authentication
   name: Purchaser Authentication

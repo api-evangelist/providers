@@ -33,67 +33,107 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Allowances API from Angle — 1 operation(s) for allowances.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Allowances API from Angle — 1 operation(s) for allowances.
   name: Angle Allowances API
   slug: angle-allowances-api
-- description: The Angle Protocol Data API from Angle — 3 operation(s) for angle protocol data.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Angle Protocol Data API from Angle — 3 operation(s) for angle protocol data.
   name: Angle Angle Protocol Data API
   slug: angle-angle-protocol-data-api
-- description: The App API from Angle — 1 operation(s) for app.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The App API from Angle — 1 operation(s) for app.
   name: Angle App API
   slug: angle-app-api
-- description: The Apr API from Angle — 1 operation(s) for apr.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Apr API from Angle — 1 operation(s) for apr.
   name: Angle Apr API
   slug: angle-apr-api
-- description: The Balances API from Angle — 1 operation(s) for balances.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Balances API from Angle — 1 operation(s) for balances.
   name: Angle Balances API
   slug: angle-balances-api
-- description: The Borrow API from Angle — 4 operation(s) for borrow.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Borrow API from Angle — 4 operation(s) for borrow.
   name: Angle Borrow API
   slug: angle-borrow-api
-- description: The Bridge API from Angle — 1 operation(s) for bridge.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Bridge API from Angle — 1 operation(s) for bridge.
   name: Angle Bridge API
   slug: angle-bridge-api
-- description: The Dao API from Angle — 1 operation(s) for dao.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Dao API from Angle — 1 operation(s) for dao.
   name: Angle Dao API
   slug: angle-dao-api
-- description: The Helpers API from Angle — 5 operation(s) for helpers.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Helpers API from Angle — 5 operation(s) for helpers.
   name: Angle Helpers API
   slug: angle-helpers-api
-- description: The Incentives API from Angle — 1 operation(s) for incentives.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Incentives API from Angle — 1 operation(s) for incentives.
   name: Angle Incentives API
   slug: angle-incentives-api
-- description: The Integrators API from Angle — 6 operation(s) for integrators.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Integrators API from Angle — 6 operation(s) for integrators.
   name: Angle Integrators API
   slug: angle-integrators-api
-- description: The Perpetuals API from Angle — 1 operation(s) for perpetuals.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Perpetuals API from Angle — 1 operation(s) for perpetuals.
   name: Angle Perpetuals API
   slug: angle-perpetuals-api
-- description: The Pools API from Angle — 1 operation(s) for pools.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Pools API from Angle — 1 operation(s) for pools.
   name: Angle Pools API
   slug: angle-pools-api
-- description: The Prices API from Angle — 1 operation(s) for prices.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Prices API from Angle — 1 operation(s) for prices.
   name: Angle Prices API
   slug: angle-prices-api
-- description: The Savings API from Angle — 3 operation(s) for savings.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Savings API from Angle — 3 operation(s) for savings.
   name: Angle Savings API
   slug: angle-savings-api
-- description: The Tvl API from Angle — 1 operation(s) for tvl.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Tvl API from Angle — 1 operation(s) for tvl.
   name: Angle Tvl API
   slug: angle-tvl-api
-- description: The User related information API from Angle — 3 operation(s) for user related information.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The User related information API from Angle — 3 operation(s) for user related information.
   name: Angle User related information API
   slug: angle-user-related-information-api
-- description: The VaultManagers API from Angle — 1 operation(s) for vaultmanagers.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The VaultManagers API from Angle — 1 operation(s) for vaultmanagers.
   name: Angle VaultManagers API
   slug: angle-vaultmanagers-api
-- description: The Vaults API from Angle — 1 operation(s) for vaults.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Vaults API from Angle — 1 operation(s) for vaults.
   name: Angle Vaults API
   slug: angle-vaults-api
-- description: The Volume API from Angle — 1 operation(s) for volume.
+- baseURL: https://api.angle.money
+  baseurl_source: declared
+  description: The Volume API from Angle — 1 operation(s) for volume.
   name: Angle Volume API
   slug: angle-volume-api
 artifact_total: 44
@@ -315,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angle/refs/heads/main/screenshots/angle-2026-07-25T200241.png
 security:

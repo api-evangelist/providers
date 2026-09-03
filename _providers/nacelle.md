@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The `allProducts` query on Nacelle's Storefront GraphQL API returns normalized product entries (variants, pricing, media, metafields) drawn from ingested Shopify or other commerce sources, with Relay-
+- baseURL: https://storefront.api.nacelle.com/graphql/v1/spaces
+  baseurl_source: declared
+  description: The `allProducts` query on Nacelle's Storefront GraphQL API returns normalized product entries (variants, pricing, media, metafields) drawn from ingested Shopify or other commerce sources, with Relay-
   name: Nacelle Storefront Products API
   slug: nacelle-storefront-products-api
-- description: The `allProductCollections` query returns merchandised collections of products (the normalized equivalent of Shopify collections) with their member product references, for building category and listin
+- baseURL: https://storefront.api.nacelle.com/graphql/v1/spaces
+  baseurl_source: declared
+  description: The `allProductCollections` query returns merchandised collections of products (the normalized equivalent of Shopify collections) with their member product references, for building category and listin
   name: Nacelle Storefront Product Collections API
   slug: nacelle-storefront-product-collections-api
-- description: The `allContent` query returns CMS content entries (pages, articles, marketing blocks, media) ingested from sources such as Contentful, with a configurable entryDepth for resolving nested content refe
+- baseURL: https://storefront.api.nacelle.com/graphql/v1/spaces
+  baseurl_source: declared
+  description: The `allContent` query returns CMS content entries (pages, articles, marketing blocks, media) ingested from sources such as Contentful, with a configurable entryDepth for resolving nested content refe
   name: Nacelle Storefront Content API
   slug: nacelle-storefront-content-api
-- description: 'The `navigation` and `spaceProperties` queries return a space''s navigation groups (menus) and space-level configuration (locales, currency, metadata) used to render a headless storefront''s chrome and '
+- baseURL: https://storefront.api.nacelle.com/graphql/v1/spaces
+  baseurl_source: declared
+  description: 'The `navigation` and `spaceProperties` queries return a space''s navigation groups (menus) and space-level configuration (locales, currency, metadata) used to render a headless storefront''s chrome and '
   name: Nacelle Storefront Navigation and Spaces API
   slug: nacelle-storefront-navigation-spaces-api
-- description: The Admin GraphQL API triggers and monitors the indexing / ingestion pipeline that pulls data from connected sources (Shopify, CMS) into a space - starting or resetting index jobs for a data source, e
+- baseURL: https://admin.api.nacelle.com/graphql
+  baseurl_source: declared
+  description: The Admin GraphQL API triggers and monitors the indexing / ingestion pipeline that pulls data from connected sources (Shopify, CMS) into a space - starting or resetting index jobs for a data source, e
   name: Nacelle Admin Indexing and Ingestion API
   slug: nacelle-admin-indexing-api
 artifact_total: 13
@@ -150,7 +160,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 32.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacelle/refs/heads/main/screenshots/nacelle-2026-08-07T184601.png
 security:

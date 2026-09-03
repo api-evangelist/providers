@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,40 +56,64 @@ apis:
 - description: Onboarding Webhooks deliver event notifications for Greenhouse Onboarding activities such as new hires and employee updates.
   name: Greenhouse Onboarding Webhooks
   slug: onboarding-webhooks
-- description: The Applications API from Greenhouse — 5 operation(s) for applications.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Applications API from Greenhouse — 5 operation(s) for applications.
   name: Greenhouse Applications API
   slug: greenhouse-applications-api
-- description: The Candidates API from Greenhouse — 2 operation(s) for candidates.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Candidates API from Greenhouse — 2 operation(s) for candidates.
   name: Greenhouse Candidates API
   slug: greenhouse-candidates-api
-- description: The Departments API from Greenhouse — 2 operation(s) for departments.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Departments API from Greenhouse — 2 operation(s) for departments.
   name: Greenhouse Departments API
   slug: greenhouse-departments-api
-- description: The Education API from Greenhouse — 3 operation(s) for education.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Education API from Greenhouse — 3 operation(s) for education.
   name: Greenhouse Education API
   slug: greenhouse-education-api
-- description: The Graphql API from Greenhouse — 1 operation(s) for graphql.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Graphql API from Greenhouse — 1 operation(s) for graphql.
   name: Greenhouse Graphql API
   slug: greenhouse-graphql-api
-- description: The Greenhouse Job Board API API from Greenhouse — 1 operation(s) for greenhouse job board api.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Greenhouse Job Board API API from Greenhouse — 1 operation(s) for greenhouse job board api.
   name: Greenhouse Greenhouse Job Board API API
   slug: greenhouse-greenhouse-job-board-api-api
-- description: The Jobs API from Greenhouse — 3 operation(s) for jobs.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Jobs API from Greenhouse — 3 operation(s) for jobs.
   name: Greenhouse Jobs API
   slug: greenhouse-jobs-api
-- description: The Offices API from Greenhouse — 3 operation(s) for offices.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Offices API from Greenhouse — 3 operation(s) for offices.
   name: Greenhouse Offices API
   slug: greenhouse-offices-api
-- description: The Prospects API from Greenhouse — 1 operation(s) for prospects.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Prospects API from Greenhouse — 1 operation(s) for prospects.
   name: Greenhouse Prospects API
   slug: greenhouse-prospects-api
-- description: The Sections API from Greenhouse — 2 operation(s) for sections.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Sections API from Greenhouse — 2 operation(s) for sections.
   name: Greenhouse Sections API
   slug: greenhouse-sections-api
-- description: The Tracking API from Greenhouse — 1 operation(s) for tracking.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Tracking API from Greenhouse — 1 operation(s) for tracking.
   name: Greenhouse Tracking API
   slug: greenhouse-tracking-api
-- description: The Users API from Greenhouse — 3 operation(s) for users.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The Users API from Greenhouse — 3 operation(s) for users.
   name: Greenhouse Users API
   slug: greenhouse-users-api
 artifact_total: 44
@@ -258,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/screenshots/greenhouse-2026-06-20T182356.png
 security:

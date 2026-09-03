@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Returns news topics that are currently trending on social networks. Supports filtering by Unix epoch timestamp (since parameter) to retrieve topics discovered after a specific point in time. Results i
   name: Bing Trending News Topics API
   slug: trending-topics
-- description: Get top news articles by category
+- baseURL: https://api.bing.microsoft.com/v7.0/news/search
+  baseurl_source: declared
+  description: Get top news articles by category
   name: Bing News Search News Category API
   slug: bing-news-news-category-api
-- description: Search for news articles by keyword query
+- baseURL: https://api.bing.microsoft.com/v7.0/news/search
+  baseurl_source: declared
+  description: Search for news articles by keyword query
   name: Bing News Search News Search API
   slug: bing-news-news-search-api
-- description: Get currently trending news topics from social networks
+- baseURL: https://api.bing.microsoft.com/v7.0/news/search
+  baseurl_source: declared
+  description: Get currently trending news topics from social networks
   name: Bing News Search Trending Topics API
   slug: bing-news-trending-topics-api
 artifact_total: 24
@@ -230,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/screenshots/bing-news-2026-06-20T173246.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 3
 apis:
-- description: Medi-Span drug search and interaction checks.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Medi-Span drug search and interaction checks.
   name: DoseSpot Medications API
   slug: dosespot-medications-api
-- description: Clinician notification counts and actionable items.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Clinician notification counts and actionable items.
   name: DoseSpot Notifications API
   slug: dosespot-notifications-api
-- description: Patient demographics, allergies, and self-reported medications.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Patient demographics, allergies, and self-reported medications.
   name: DoseSpot Patients API
   slug: dosespot-patients-api
-- description: Surescripts pharmacy search and patient pharmacy management.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Surescripts pharmacy search and patient pharmacy management.
   name: DoseSpot Pharmacies API
   slug: dosespot-pharmacies-api
-- description: Clinician (prescriber) and clinic staff management.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Clinician (prescriber) and clinic staff management.
   name: DoseSpot Prescribers API
   slug: dosespot-prescribers-api
-- description: Prescription creation, transmission, status, and medication history.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: Prescription creation, transmission, status, and medication history.
   name: DoseSpot Prescriptions API
   slug: dosespot-prescriptions-api
-- description: The Allergens API from DoseSpot — 3 operation(s) for allergens.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Allergens API from DoseSpot — 3 operation(s) for allergens.
   name: DoseSpot Allergens API
   slug: dosespot-allergens-api
-- description: The Allergies API from DoseSpot — 5 operation(s) for allergies.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Allergies API from DoseSpot — 5 operation(s) for allergies.
   name: DoseSpot Allergies API
   slug: dosespot-allergies-api
-- description: The ClinicFavorites API from DoseSpot — 7 operation(s) for clinicfavorites.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The ClinicFavorites API from DoseSpot — 7 operation(s) for clinicfavorites.
   name: DoseSpot Clinic Favorites API
   slug: dosespot-clinicfavorites-api
-- description: The ClinicGroups API from DoseSpot — 1 operation(s) for clinicgroups.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The ClinicGroups API from DoseSpot — 1 operation(s) for clinicgroups.
   name: DoseSpot Clinic Groups API
   slug: dosespot-clinicgroups-api
-- description: The ClinicianFavorites API from DoseSpot — 8 operation(s) for clinicianfavorites.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The ClinicianFavorites API from DoseSpot — 8 operation(s) for clinicianfavorites.
   name: DoseSpot Clinician Favorites API
   slug: dosespot-clinicianfavorites-api
-- description: The ClinicianOrderSets API from DoseSpot — 3 operation(s) for clinicianordersets.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The ClinicianOrderSets API from DoseSpot — 3 operation(s) for clinicianordersets.
   name: DoseSpot Clinician Order Sets API
   slug: dosespot-clinicianordersets-api
-- description: The Clinicians API from DoseSpot — 26 operation(s) for clinicians.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Clinicians API from DoseSpot — 26 operation(s) for clinicians.
   name: DoseSpot Clinicians API
   slug: dosespot-clinicians-api
-- description: The ClinicOrderSets API from DoseSpot — 1 operation(s) for clinicordersets.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The ClinicOrderSets API from DoseSpot — 1 operation(s) for clinicordersets.
   name: DoseSpot Clinic Order Sets API
   slug: dosespot-clinicordersets-api
-- description: The Clinics API from DoseSpot — 7 operation(s) for clinics.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Clinics API from DoseSpot — 7 operation(s) for clinics.
   name: DoseSpot Clinics API
   slug: dosespot-clinics-api
-- description: The Diagnoses API from DoseSpot — 1 operation(s) for diagnoses.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Diagnoses API from DoseSpot — 1 operation(s) for diagnoses.
   name: DoseSpot Diagnoses API
   slug: dosespot-diagnoses-api
-- description: The Eligibilities API from DoseSpot — 4 operation(s) for eligibilities.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Eligibilities API from DoseSpot — 4 operation(s) for eligibilities.
   name: DoseSpot Eligibilities API
   slug: dosespot-eligibilities-api
-- description: The HealthCheck API from DoseSpot — 1 operation(s) for healthcheck.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The HealthCheck API from DoseSpot — 1 operation(s) for healthcheck.
   name: DoseSpot Health Check API
   slug: dosespot-healthcheck-api
-- description: The Interactions API from DoseSpot — 3 operation(s) for interactions.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Interactions API from DoseSpot — 3 operation(s) for interactions.
   name: DoseSpot Interactions API
   slug: dosespot-interactions-api
-- description: The MedicationHistory API from DoseSpot — 2 operation(s) for medicationhistory.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The MedicationHistory API from DoseSpot — 2 operation(s) for medicationhistory.
   name: DoseSpot Medication History API
   slug: dosespot-medicationhistory-api
-- description: The Narx API from DoseSpot — 3 operation(s) for narx.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Narx API from DoseSpot — 3 operation(s) for narx.
   name: DoseSpot Narx API
   slug: dosespot-narx-api
-- description: The PriorAuthorizations API from DoseSpot — 16 operation(s) for priorauthorizations.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The PriorAuthorizations API from DoseSpot — 16 operation(s) for priorauthorizations.
   name: DoseSpot Prior Authorizations API
   slug: dosespot-priorauthorizations-api
-- description: The Refills API from DoseSpot — 6 operation(s) for refills.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Refills API from DoseSpot — 6 operation(s) for refills.
   name: DoseSpot Refills API
   slug: dosespot-refills-api
-- description: The RxChanges API from DoseSpot — 6 operation(s) for rxchanges.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The RxChanges API from DoseSpot — 6 operation(s) for rxchanges.
   name: DoseSpot Rx Changes API
   slug: dosespot-rxchanges-api
-- description: The SelfReportedMedications API from DoseSpot — 9 operation(s) for selfreportedmedications.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The SelfReportedMedications API from DoseSpot — 9 operation(s) for selfreportedmedications.
   name: DoseSpot Self Reported Medications API
   slug: dosespot-selfreportedmedications-api
-- description: The Supplies API from DoseSpot — 2 operation(s) for supplies.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Supplies API from DoseSpot — 2 operation(s) for supplies.
   name: DoseSpot Supplies API
   slug: dosespot-supplies-api
-- description: The Transparency API from DoseSpot — 1 operation(s) for transparency.
+- baseURL: https://my.dosespot.com/webapi/v2
+  baseurl_source: declared
+  description: The Transparency API from DoseSpot — 1 operation(s) for transparency.
   name: DoseSpot Transparency API
   slug: dosespot-transparency-api
 artifact_total: 45
@@ -339,23 +393,23 @@ rate_limits:
   slug: dosespot-rate-limits
 score:
   band: strong
-  composite: 63.0
+  composite: 63.1
   coverage:
     artifact_dirs: 24
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 33.3
-    contract_quality: 55.3
+    contract_quality: 55.7
     developer_ergonomics: 70.8
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 63.2
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,7 +431,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:

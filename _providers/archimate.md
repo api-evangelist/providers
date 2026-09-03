@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 3
 apis:
-- description: Architecture element management
+- baseURL: https://api.archimate-tools.com/v1
+  baseurl_source: spec
+  description: Architecture element management
   name: ArchiMate Elements API
   slug: archimate-elements-api
-- description: ArchiMate model management
+- baseURL: https://api.archimate-tools.com/v1
+  baseurl_source: spec
+  description: ArchiMate model management
   name: ArchiMate Models API
   slug: archimate-models-api
-- description: Architecture relationship management
+- baseURL: https://api.archimate-tools.com/v1
+  baseurl_source: spec
+  description: Architecture relationship management
   name: ArchiMate Relationships API
   slug: archimate-relationships-api
 artifact_total: 60
@@ -312,7 +318,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/screenshots/archimate-2026-06-20T172408.png
 security:

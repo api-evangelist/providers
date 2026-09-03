@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 7
 apis:
-- description: Banner ads and creative assets for affiliates
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Banner ads and creative assets for affiliates
   name: Urban Outfitters Creatives API
   slug: urban-outfitters-creatives-api
-- description: Inventory level management
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Inventory level management
   name: Urban Outfitters Inventory API
   slug: urban-outfitters-inventory-api
-- description: Affiliate tracking link generation and management
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Affiliate tracking link generation and management
   name: Urban Outfitters Links API
   slug: urban-outfitters-links-api
-- description: Order retrieval and management
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Order retrieval and management
   name: Urban Outfitters Orders API
   slug: urban-outfitters-orders-api
-- description: Product catalog data for affiliate promotion
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Product catalog data for affiliate promotion
   name: Urban Outfitters Products API
   slug: urban-outfitters-products-api
-- description: Commission and performance reporting for affiliates
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Commission and performance reporting for affiliates
   name: Urban Outfitters Reports API
   slug: urban-outfitters-reports-api
-- description: Shipment and fulfillment tracking
+- baseURL: https://api.rakutenadvertising.com
+  baseurl_source: declared
+  description: Shipment and fulfillment tracking
   name: Urban Outfitters Shipments API
   slug: urban-outfitters-shipments-api
 artifact_total: 97
@@ -414,7 +428,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -424,7 +438,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 28.7
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     contracts:
@@ -433,7 +447,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png
 security:

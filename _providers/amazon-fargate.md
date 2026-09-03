@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 21 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Operations for managing account-level settings
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing account-level settings
   name: Amazon Fargate Account Settings API
   slug: amazon-fargate-account-settings-api
-- description: Operations for creating and managing ECS clusters
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing ECS clusters
   name: Amazon Fargate Clusters API
   slug: amazon-fargate-clusters-api
-- description: Operations for deploying and managing long-running services
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for deploying and managing long-running services
   name: Amazon Fargate Services API
   slug: amazon-fargate-services-api
-- description: Operations for tagging ECS resources
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for tagging ECS resources
   name: Amazon Fargate Tagging API
   slug: amazon-fargate-tagging-api
-- description: Operations for registering and managing task definitions
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for registering and managing task definitions
   name: Amazon Fargate Task Definitions API
   slug: amazon-fargate-task-definitions-api
-- description: Operations for running and managing Fargate tasks
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for running and managing Fargate tasks
   name: Amazon Fargate Tasks API
   slug: amazon-fargate-tasks-api
 arazzos:
@@ -487,7 +499,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/screenshots/amazon-fargate-2026-06-20T171646.png
 security:

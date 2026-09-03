@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The account API from Origin Protocol — 2 operation(s) for account.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The account API from Origin Protocol — 2 operation(s) for account.
   name: Origin Protocol account API
   slug: origin-protocol-account-api
-- description: The arm API from Origin Protocol — 11 operation(s) for arm.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The arm API from Origin Protocol — 11 operation(s) for arm.
   name: Origin Protocol arm API
   slug: origin-protocol-arm-api
-- description: The beacon-chain API from Origin Protocol — 1 operation(s) for beacon-chain.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The beacon-chain API from Origin Protocol — 1 operation(s) for beacon-chain.
   name: Origin Protocol beacon-chain API
   slug: origin-protocol-beacon-chain-api
-- description: The cache API from Origin Protocol — 1 operation(s) for cache.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The cache API from Origin Protocol — 1 operation(s) for cache.
   name: Origin Protocol cache API
   slug: origin-protocol-cache-api
-- description: The coingecko API from Origin Protocol — 7 operation(s) for coingecko.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The coingecko API from Origin Protocol — 7 operation(s) for coingecko.
   name: Origin Protocol coingecko API
   slug: origin-protocol-coingecko-api
-- description: The defillama API from Origin Protocol — 2 operation(s) for defillama.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The defillama API from Origin Protocol — 2 operation(s) for defillama.
   name: Origin Protocol defillama API
   slug: origin-protocol-defillama-api
-- description: The dune API from Origin Protocol — 1 operation(s) for dune.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The dune API from Origin Protocol — 1 operation(s) for dune.
   name: Origin Protocol dune API
   slug: origin-protocol-dune-api
-- description: The hyperliquid API from Origin Protocol — 3 operation(s) for hyperliquid.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The hyperliquid API from Origin Protocol — 3 operation(s) for hyperliquid.
   name: Origin Protocol hyperliquid API
   slug: origin-protocol-hyperliquid-api
-- description: The merkl API from Origin Protocol — 4 operation(s) for merkl.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The merkl API from Origin Protocol — 4 operation(s) for merkl.
   name: Origin Protocol merkl API
   slug: origin-protocol-merkl-api
-- description: The oeth API from Origin Protocol — 1 operation(s) for oeth.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The oeth API from Origin Protocol — 1 operation(s) for oeth.
   name: Origin Protocol oeth API
   slug: origin-protocol-oeth-api
-- description: The ofac API from Origin Protocol — 1 operation(s) for ofac.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The ofac API from Origin Protocol — 1 operation(s) for ofac.
   name: Origin Protocol ofac API
   slug: origin-protocol-ofac-api
-- description: The ogn API from Origin Protocol — 7 operation(s) for ogn.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The ogn API from Origin Protocol — 7 operation(s) for ogn.
   name: Origin Protocol ogn API
   slug: origin-protocol-ogn-api
-- description: The protocol API from Origin Protocol — 8 operation(s) for protocol.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The protocol API from Origin Protocol — 8 operation(s) for protocol.
   name: Origin Protocol protocol API
   slug: origin-protocol-protocol-api
-- description: The reports API from Origin Protocol — 3 operation(s) for reports.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The reports API from Origin Protocol — 3 operation(s) for reports.
   name: Origin Protocol reports API
   slug: origin-protocol-reports-api
-- description: The strapi API from Origin Protocol — 1 operation(s) for strapi.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The strapi API from Origin Protocol — 1 operation(s) for strapi.
   name: Origin Protocol strapi API
   slug: origin-protocol-strapi-api
-- description: The supply API from Origin Protocol — 9 operation(s) for supply.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The supply API from Origin Protocol — 9 operation(s) for supply.
   name: Origin Protocol supply API
   slug: origin-protocol-supply-api
-- description: The token API from Origin Protocol — 12 operation(s) for token.
+- baseURL: https://api.originprotocol.com
+  baseurl_source: declared
+  description: The token API from Origin Protocol — 12 operation(s) for token.
   name: Origin Protocol token API
   slug: origin-protocol-token-api
 artifact_total: 39
@@ -246,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-protocol/refs/heads/main/screenshots/origin-protocol-2026-08-07T190935.png
 security:

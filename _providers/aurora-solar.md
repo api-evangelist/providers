@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 37 operations · 15 acting
 api_count: 1
 apis:
-- description: Customer agreements and signed downloads.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Customer agreements and signed downloads.
   name: Aurora Solar Agreements API
   slug: aurora-solar-agreements-api
-- description: Energy consumption profiles and utility bills.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Energy consumption profiles and utility bills.
   name: Aurora Solar Consumption Profiles API
   slug: aurora-solar-consumption-profiles-api
-- description: Design requests and PV designs with simulation output.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Design requests and PV designs with simulation output.
   name: Aurora Solar Designs API
   slug: aurora-solar-designs-api
-- description: Financings and financier integrations.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Financings and financier integrations.
   name: Aurora Solar Financings API
   slug: aurora-solar-financings-api
-- description: Customer/site records that anchor designs and proposals.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Customer/site records that anchor designs and proposals.
   name: Aurora Solar Projects API
   slug: aurora-solar-projects-api
-- description: Customer-facing proposals, templates, and PDFs.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Customer-facing proposals, templates, and PDFs.
   name: Aurora Solar Proposals API
   slug: aurora-solar-proposals-api
-- description: Tenant, users, roles, teams, and SSO.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Tenant, users, roles, teams, and SSO.
   name: Aurora Solar Users & Tenants API
   slug: aurora-solar-users-tenants-api
-- description: Event notification subscriptions.
+- baseURL: https://api.aurorasolar.com
+  baseurl_source: declared
+  description: Event notification subscriptions.
   name: Aurora Solar Webhooks API
   slug: aurora-solar-webhooks-api
 artifact_total: 24
@@ -203,7 +219,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/screenshots/aurora-solar-2026-07-25T201754.png
 security:

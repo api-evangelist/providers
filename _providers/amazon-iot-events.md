@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
-- description: The Alarm Models API from Amazon IoT Events — 3 operation(s) for alarm models.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Alarm Models API from Amazon IoT Events — 3 operation(s) for alarm models.
   name: Amazon IoT Events Alarm Models API
   slug: amazon-iot-events-alarm-models-api
-- description: The Analysis API from Amazon IoT Events — 3 operation(s) for analysis.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Analysis API from Amazon IoT Events — 3 operation(s) for analysis.
   name: Amazon IoT Events Analysis API
   slug: amazon-iot-events-analysis-api
-- description: The Detector Models API from Amazon IoT Events — 3 operation(s) for detector models.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Detector Models API from Amazon IoT Events — 3 operation(s) for detector models.
   name: Amazon IoT Events Detector Models API
   slug: amazon-iot-events-detector-models-api
-- description: The Input Routings API from Amazon IoT Events — 1 operation(s) for input routings.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Input Routings API from Amazon IoT Events — 1 operation(s) for input routings.
   name: Amazon IoT Events Input Routings API
   slug: amazon-iot-events-input-routings-api
-- description: The Inputs API from Amazon IoT Events — 2 operation(s) for inputs.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Inputs API from Amazon IoT Events — 2 operation(s) for inputs.
   name: Amazon IoT Events Inputs API
   slug: amazon-iot-events-inputs-api
-- description: The Logging API from Amazon IoT Events — 1 operation(s) for logging.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Logging API from Amazon IoT Events — 1 operation(s) for logging.
   name: Amazon IoT Events Logging API
   slug: amazon-iot-events-logging-api
-- description: The Tags#resourceArn API from Amazon IoT Events — 1 operation(s) for tags#resourcearn.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon IoT Events — 1 operation(s) for tags#resourcearn.
   name: Amazon IoT Events Tags#resourceArn API
   slug: amazon-iot-events-tags-resourcearn-api
-- description: The Tags#resourceArn&tagKeys API from Amazon IoT Events — 1 operation(s) for tags#resourcearn&tagkeys.
+- baseURL: https://iotevents.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn&tagKeys API from Amazon IoT Events — 1 operation(s) for tags#resourcearn&tagkeys.
   name: Amazon IoT Events Tags#resourceArn&tagKeys API
   slug: amazon-iot-events-tags-resourcearn-tagkeys-api
 artifact_total: 463
@@ -1564,7 +1580,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
+- baseURL: https://developers.raycast.com
+  baseurl_source: spec
+  description: The primary developer interface - the @raycast/api npm package. A strongly typed TypeScript/Node SDK (installed via `npm i @raycast/api`) providing React UI components (List, Detail, Form, Grid, Actio
   name: Raycast Extension API (SDK)
   slug: raycast-extension-api-sdk
-- description: AI access surfaced through the SDK via `AI.ask(prompt)` - no API keys or HTTP endpoint required. Routes prompts across 80+ models from OpenAI, Anthropic, Google, Mistral, Groq, Perplexity, and xAI beh
+- baseURL: https://developers.raycast.com
+  baseurl_source: spec
+  description: AI access surfaced through the SDK via `AI.ask(prompt)` - no API keys or HTTP endpoint required. Routes prompts across 80+ models from OpenAI, Anthropic, Google, Mistral, Groq, Perplexity, and xAI beh
   name: Raycast AI API
   slug: raycast-ai-api
 - description: The Raycast Store distributes community and partner extensions. Publishing is done via the `ray` CLI and a pull request to the github.com/raycast/extensions monorepo; there is no documented public RES
@@ -135,7 +139,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raycast/refs/heads/main/screenshots/raycast-2026-06-20T192715.png
 security:

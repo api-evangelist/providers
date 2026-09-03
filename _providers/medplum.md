@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: 'FHIR Subscription resources that match a search criteria and dispatch real-time notifications via REST hooks (webhooks) or Websockets when matching resources are created or updated. Subscriptions are '
   name: Medplum Subscriptions
   slug: medplum-subscriptions
-- description: The Fhir API from Medplum — 4 operation(s) for fhir.
+- baseURL: https://api.medplum.com/fhir/R4
+  baseurl_source: declared
+  description: The Fhir API from Medplum — 4 operation(s) for fhir.
   name: Medplum Fhir API
   slug: medplum-fhir-api
 arazzos:
@@ -530,7 +532,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -543,7 +545,7 @@ score:
   open_source:
     applies: true
     score: 60.0
-  previous_composite: 87.3
+  previous_composite: 87.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -561,7 +563,7 @@ score:
     regime_id: health
     score: 92.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:

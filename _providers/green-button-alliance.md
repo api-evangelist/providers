@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -37,28 +50,44 @@ apis:
 - description: The Third Party side of the OpenESPI reference implementation — ApplicationInformation, Authorization and RetailCustomer operations documented as legacy Swagger 1.2 resource listings served from GBA's
   name: Green Button Third Party (OpenESPI) API
   slug: green-button-third-party-api
-- description: The ApplicationInformation API from Green Button Alliance — 2 operation(s) for applicationinformation.
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: The ApplicationInformation API from Green Button Alliance — 2 operation(s) for applicationinformation.
   name: Green Button Alliance Application Information API
   slug: green-button-alliance-applicationinformation-api
-- description: Authorization endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Authorization endpoints
   name: Green Button Alliance Authorization API
   slug: green-button-alliance-authorization-api
-- description: Batch data transfer endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Batch data transfer endpoints
   name: Green Button Alliance Batch API
   slug: green-button-alliance-batch-api
-- description: Integration with OpenESPI DataCustodian
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Integration with OpenESPI DataCustodian
   name: Green Button Alliance DataCustodian Integration API
   slug: green-button-alliance-datacustodian-integration-api
-- description: Manage OAuth2 client registrations
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Manage OAuth2 client registrations
   name: Green Button Alliance OAuth2 Client Management API
   slug: green-button-alliance-oauth2-client-management-api
-- description: Standard OAuth2 endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Standard OAuth2 endpoints
   name: Green Button Alliance OAuth2 Standard API
   slug: green-button-alliance-oauth2-standard-api
-- description: OpenID Connect endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: OpenID Connect endpoints
   name: Green Button Alliance OIDC API
   slug: green-button-alliance-oidc-api
-- description: Usage Point endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: declared
+  description: Usage Point endpoints
   name: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
 artifact_total: 24
@@ -344,7 +373,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -354,7 +383,7 @@ score:
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 21.1
-  previous_composite: 58.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,7 +401,7 @@ score:
     regime_id: energy_utilities
     score: 82.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
 security:

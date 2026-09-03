@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: The Cgi API from Open Food Facts — 1 operation(s) for cgi.
+- baseURL: https://world.openfoodfacts.org
+  baseurl_source: spec
+  description: The Cgi API from Open Food Facts — 1 operation(s) for cgi.
   name: Open Food Facts Cgi API
   slug: open-food-facts-cgi-api
-- description: The Product API from Open Food Facts — 3 operation(s) for product.
+- baseURL: https://world.openfoodfacts.org
+  baseurl_source: spec
+  description: The Product API from Open Food Facts — 3 operation(s) for product.
   name: Open Food Facts Product API
   slug: open-food-facts-product-api
-- description: The Search API from Open Food Facts — 1 operation(s) for search.
+- baseURL: https://world.openfoodfacts.org
+  baseurl_source: spec
+  description: The Search API from Open Food Facts — 1 operation(s) for search.
   name: Open Food Facts Search API
   slug: open-food-facts-search-api
-- description: The Taxonomy API from Open Food Facts — 1 operation(s) for taxonomy.
+- baseURL: https://world.openfoodfacts.org
+  baseurl_source: spec
+  description: The Taxonomy API from Open Food Facts — 1 operation(s) for taxonomy.
   name: Open Food Facts Taxonomy API
   slug: open-food-facts-taxonomy-api
-- description: The Taxonomy Suggestions API from Open Food Facts — 1 operation(s) for taxonomy suggestions.
+- baseURL: https://world.openfoodfacts.org
+  baseurl_source: spec
+  description: The Taxonomy Suggestions API from Open Food Facts — 1 operation(s) for taxonomy suggestions.
   name: Open Food Facts Taxonomy Suggestions API
   slug: open-food-facts-taxonomy-suggestions-api
 artifact_total: 18
@@ -165,10 +175,10 @@ score:
       total: 5
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/screenshots/open-food-facts-2026-06-20T190753.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The protocol's read/write boundary — a caching and relay layer between protocol participants and the Vana L1 covering the onchain primitives (identity, permissions, fees, PGE, schemas, files, DLP cont
@@ -185,7 +185,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +205,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vana/refs/heads/main/screenshots/vana-2026-09-02T165348.png
 security:
 - kind: authentication
   name: Vana Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: HTTP REST API gateway supporting both webhdfs and httpfs operations for HDFS access.
   name: HttpFS REST API
   slug: httpfs-rest-api
-- description: HDFS filesystem REST operations under /webhdfs/v1.
+- baseURL: http://host:port/webhdfs/v1/
+  baseurl_source: declared
+  description: HDFS filesystem REST operations under /webhdfs/v1.
   name: Apache Hadoop WebHDFS API
   slug: hadoop-webhdfs-api
-- description: Application listing, submission, and lifecycle.
+- baseURL: http://host:port/webhdfs/v1/
+  baseurl_source: declared
+  description: Application listing, submission, and lifecycle.
   name: Apache Hadoop YARN Applications API
   slug: hadoop-yarn-applications-api
-- description: Cluster information and metrics.
+- baseURL: http://host:port/webhdfs/v1/
+  baseurl_source: declared
+  description: Cluster information and metrics.
   name: Apache Hadoop YARN Cluster API
   slug: hadoop-yarn-cluster-api
-- description: Cluster node listing and resource updates.
+- baseURL: http://host:port/webhdfs/v1/
+  baseurl_source: declared
+  description: Cluster node listing and resource updates.
   name: Apache Hadoop YARN Nodes API
   slug: hadoop-yarn-nodes-api
 artifact_total: 18
@@ -178,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hadoop/refs/heads/main/screenshots/hadoop-2026-06-20T182452.png
 security:

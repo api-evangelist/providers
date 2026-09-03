@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 5
 apis:
-- description: The Cluster API from Apache Pinot — 2 operation(s) for cluster.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Cluster API from Apache Pinot — 2 operation(s) for cluster.
   name: Apache Pinot Cluster API
   slug: apache-pinot-cluster-api
-- description: The Queries API from Apache Pinot — 1 operation(s) for queries.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Queries API from Apache Pinot — 1 operation(s) for queries.
   name: Apache Pinot Queries API
   slug: apache-pinot-queries-api
-- description: The Schemas API from Apache Pinot — 2 operation(s) for schemas.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Schemas API from Apache Pinot — 2 operation(s) for schemas.
   name: Apache Pinot Schemas API
   slug: apache-pinot-schemas-api
-- description: The Segments API from Apache Pinot — 1 operation(s) for segments.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Segments API from Apache Pinot — 1 operation(s) for segments.
   name: Apache Pinot Segments API
   slug: apache-pinot-segments-api
-- description: The Tables API from Apache Pinot — 2 operation(s) for tables.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Tables API from Apache Pinot — 2 operation(s) for tables.
   name: Apache Pinot Tables API
   slug: apache-pinot-tables-api
 artifact_total: 72
@@ -334,7 +344,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/screenshots/apache-pinot-2026-06-20T172200.png
 security:

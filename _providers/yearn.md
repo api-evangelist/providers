@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: An integrated indexing service and GraphQL API providing comprehensive data on Yearn V2 and V3 vault ecosystems, including contract snapshots, event histories, vault-strategy relationships, fees, rewa
   name: Kong GraphQL API
   slug: kong-graphql-api
-- description: Supported blockchain network information
+- baseURL: https://ydaemon.yearn.fi
+  baseurl_source: declared
+  description: Supported blockchain network information
   name: Yearn Finance Chains API
   slug: yearn-chains-api
-- description: Protocol information and metadata
+- baseURL: https://ydaemon.yearn.fi
+  baseurl_source: declared
+  description: Protocol information and metadata
   name: Yearn Finance Info API
   slug: yearn-info-api
-- description: Total Value Locked metrics
+- baseURL: https://ydaemon.yearn.fi
+  baseurl_source: declared
+  description: Total Value Locked metrics
   name: Yearn Finance TVL API
   slug: yearn-tvl-api
-- description: Endpoints for querying Yearn vault data
+- baseURL: https://ydaemon.yearn.fi
+  baseurl_source: declared
+  description: Endpoints for querying Yearn vault data
   name: Yearn Finance Vaults API
   slug: yearn-vaults-api
 artifact_total: 19
@@ -170,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/screenshots/yearn-2026-06-20T201735.png
 security:

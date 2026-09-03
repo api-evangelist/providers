@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -44,112 +44,182 @@ agentic_access:
   summary_line: 194 operations · 98 acting
 api_count: 1
 apis:
-- description: Structured data extraction API that pulls typed JSON output from unstructured documents using developer-defined schemas. Supports cost-effective and agentic tiers; composable with Parse to reduce per-
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Structured data extraction API that pulls typed JSON output from unstructured documents using developer-defined schemas. Supports cost-effective and agentic tiers; composable with Parse to reduce per-
   name: LlamaParse Extract API
   slug: llamaparse-extract-api
-- description: Document classification API that categorizes uploaded files by type or content. Available in fast (1 credit/page) and multimodal (2 credits/page) modes; useful for pre-filtering before invoking higher
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: Document classification API that categorizes uploaded files by type or content. Available in fast (1 credit/page) and multimodal (2 credits/page) modes; useful for pre-filtering before invoking higher
   name: LlamaParse Classify API
   slug: llamaparse-classify-api
 - description: Managed vector index API for ingesting parsed documents into searchable LlamaCloud indexes. Supports standard (1 credit/page), spreadsheet (2 credits/page), and multi-modal (2 credits/page) indexing m
   name: LlamaCloud Index API
   slug: llamaparse-index-api
-- description: The Agent Data API from LlamaParse — 5 operation(s) for agent data.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Agent Data API from LlamaParse — 5 operation(s) for agent data.
   name: LlamaParse Agent Data API
   slug: llamaparse-agent-data-api
-- description: The Batch Processing API from LlamaParse — 5 operation(s) for batch processing.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Batch Processing API from LlamaParse — 5 operation(s) for batch processing.
   name: LlamaParse Batch Processing API
   slug: llamaparse-batch-processing-api
-- description: The Batches API from LlamaParse — 2 operation(s) for batches.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Batches API from LlamaParse — 2 operation(s) for batches.
   name: LlamaParse Batches API
   slug: llamaparse-batches-api
-- description: The Beta API from LlamaParse — 32 operation(s) for beta.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Beta API from LlamaParse — 32 operation(s) for beta.
   name: LlamaParse Beta API
   slug: llamaparse-beta-api
-- description: The Chat API from LlamaParse — 4 operation(s) for chat.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Chat API from LlamaParse — 4 operation(s) for chat.
   name: LlamaParse Chat API
   slug: llamaparse-chat-api
-- description: The Classifier API from LlamaParse — 3 operation(s) for classifier.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Classifier API from LlamaParse — 3 operation(s) for classifier.
   name: LlamaParse Classifier API
   slug: llamaparse-classifier-api
-- description: The Classify API from LlamaParse — 3 operation(s) for classify.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Classify API from LlamaParse — 3 operation(s) for classify.
   name: LlamaParse Classify API
   slug: llamaparse-classify-api
-- description: The Configurations API from LlamaParse — 2 operation(s) for configurations.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Configurations API from LlamaParse — 2 operation(s) for configurations.
   name: LlamaParse Configurations API
   slug: llamaparse-configurations-api
-- description: The Data Sinks API from LlamaParse — 2 operation(s) for data sinks.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Data Sinks API from LlamaParse — 2 operation(s) for data sinks.
   name: LlamaParse Data Sinks API
   slug: llamaparse-data-sinks-api
-- description: The Data Sources API from LlamaParse — 2 operation(s) for data sources.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Data Sources API from LlamaParse — 2 operation(s) for data sources.
   name: LlamaParse Data Sources API
   slug: llamaparse-data-sources-api
-- description: The Directories API from LlamaParse — 2 operation(s) for directories.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Directories API from LlamaParse — 2 operation(s) for directories.
   name: LlamaParse Directories API
   slug: llamaparse-directories-api
-- description: The Directory Files API from LlamaParse — 4 operation(s) for directory files.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Directory Files API from LlamaParse — 4 operation(s) for directory files.
   name: LlamaParse Directory Files API
   slug: llamaparse-directory-files-api
-- description: The Embedding Model Configs API from LlamaParse — 2 operation(s) for embedding model configs.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Embedding Model Configs API from LlamaParse — 2 operation(s) for embedding model configs.
   name: LlamaParse Embedding Model Configs API
   slug: llamaparse-embedding-model-configs-api
-- description: The Extract API from LlamaParse — 5 operation(s) for extract.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Extract API from LlamaParse — 5 operation(s) for extract.
   name: LlamaParse Extract API
   slug: llamaparse-extract-api
-- description: The Files API from LlamaParse — 4 operation(s) for files.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Files API from LlamaParse — 4 operation(s) for files.
   name: LlamaParse Files API
   slug: llamaparse-files-api
-- description: The Indexes API from LlamaParse — 3 operation(s) for indexes.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Indexes API from LlamaParse — 3 operation(s) for indexes.
   name: LlamaParse Indexes API
   slug: llamaparse-indexes-api
-- description: The Job Dashboard API from LlamaParse — 1 operation(s) for job dashboard.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Job Dashboard API from LlamaParse — 1 operation(s) for job dashboard.
   name: LlamaParse Job Dashboard API
   slug: llamaparse-job-dashboard-api
-- description: The LlamaExtract API from LlamaParse — 16 operation(s) for llamaextract.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The LlamaExtract API from LlamaParse — 16 operation(s) for llamaextract.
   name: LlamaParse LlamaExtract API
   slug: llamaparse-llamaextract-api
-- description: The Organizations API from LlamaParse — 4 operation(s) for organizations.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Organizations API from LlamaParse — 4 operation(s) for organizations.
   name: LlamaParse Organizations API
   slug: llamaparse-organizations-api
-- description: The Page Figures API from LlamaParse — 4 operation(s) for page figures.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Page Figures API from LlamaParse — 4 operation(s) for page figures.
   name: LlamaParse Page Figures API
   slug: llamaparse-page-figures-api
-- description: The Page Screenshots API from LlamaParse — 3 operation(s) for page screenshots.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Page Screenshots API from LlamaParse — 3 operation(s) for page screenshots.
   name: LlamaParse Page Screenshots API
   slug: llamaparse-page-screenshots-api
-- description: The Parse API from LlamaParse — 5 operation(s) for parse.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Parse API from LlamaParse — 5 operation(s) for parse.
   name: LlamaParse Parse API
   slug: llamaparse-parse-api
-- description: The Parsing API from LlamaParse — 14 operation(s) for parsing.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Parsing API from LlamaParse — 14 operation(s) for parsing.
   name: LlamaParse Parsing API
   slug: llamaparse-parsing-api
-- description: The Pipeline Data Sources API from LlamaParse — 4 operation(s) for pipeline data sources.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Pipeline Data Sources API from LlamaParse — 4 operation(s) for pipeline data sources.
   name: LlamaParse Pipeline Data Sources API
   slug: llamaparse-pipeline-data-sources-api
-- description: The Pipeline Files API from LlamaParse — 7 operation(s) for pipeline files.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Pipeline Files API from LlamaParse — 7 operation(s) for pipeline files.
   name: LlamaParse Pipeline Files API
   slug: llamaparse-pipeline-files-api
-- description: The Pipelines API from LlamaParse — 16 operation(s) for pipelines.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Pipelines API from LlamaParse — 16 operation(s) for pipelines.
   name: LlamaParse Pipelines API
   slug: llamaparse-pipelines-api
-- description: The Projects API from LlamaParse — 4 operation(s) for projects.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Projects API from LlamaParse — 4 operation(s) for projects.
   name: LlamaParse Projects API
   slug: llamaparse-projects-api
-- description: The Retrieval API from LlamaParse — 4 operation(s) for retrieval.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Retrieval API from LlamaParse — 4 operation(s) for retrieval.
   name: LlamaParse Retrieval API
   slug: llamaparse-retrieval-api
-- description: The Retrievers API from LlamaParse — 4 operation(s) for retrievers.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Retrievers API from LlamaParse — 4 operation(s) for retrievers.
   name: LlamaParse Retrievers API
   slug: llamaparse-retrievers-api
-- description: The Sheets API from LlamaParse — 3 operation(s) for sheets.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Sheets API from LlamaParse — 3 operation(s) for sheets.
   name: LlamaParse Sheets API
   slug: llamaparse-sheets-api
-- description: The Split API from LlamaParse — 2 operation(s) for split.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Split API from LlamaParse — 2 operation(s) for split.
   name: LlamaParse Split API
   slug: llamaparse-split-api
-- description: The Usage Metrics API from LlamaParse — 1 operation(s) for usage metrics.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The Usage Metrics API from LlamaParse — 1 operation(s) for usage metrics.
   name: LlamaParse Usage Metrics API
   slug: llamaparse-usage-metrics-api
-- description: The V2 API from LlamaParse — 19 operation(s) for v2.
+- baseURL: https://api.cloud.llamaindex.ai
+  baseurl_source: declared
+  description: The V2 API from LlamaParse — 19 operation(s) for v2.
   name: LlamaParse V2 API
   slug: llamaparse-v2-api
 artifact_total: 126
@@ -593,7 +663,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llamaparse/refs/heads/main/screenshots/llamaparse-2026-06-20T184622.png
 security:

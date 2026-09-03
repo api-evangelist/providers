@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The built-in Google Apps Script Spreadsheet Service allows creation, access, and modification of Google Sheets files directly from Apps Script with performance bundling and numerous classes for format
   name: Google Apps Script Spreadsheet Service
   slug: google-apps-script-spreadsheet-service
-- description: Operations on developer metadata
+- baseURL: https://sheets.googleapis.com/v4
+  baseurl_source: declared
+  description: Operations on developer metadata
   name: Google Sheets developerMetadata API
   slug: google-sheets-developermetadata-api
-- description: Operations on individual sheets within a spreadsheet
+- baseURL: https://sheets.googleapis.com/v4
+  baseurl_source: declared
+  description: Operations on individual sheets within a spreadsheet
   name: Google Sheets Sheets API
   slug: google-sheets-sheets-api
-- description: Operations on spreadsheet resources
+- baseURL: https://sheets.googleapis.com/v4
+  baseurl_source: declared
+  description: Operations on spreadsheet resources
   name: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
-- description: Operations on spreadsheet cell values
+- baseURL: https://sheets.googleapis.com/v4
+  baseurl_source: declared
+  description: Operations on spreadsheet cell values
   name: Google Sheets Values API
   slug: google-sheets-values-api
 arazzos:
@@ -1214,7 +1222,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:

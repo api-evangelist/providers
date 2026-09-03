@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 20 operations · 3 acting
 api_count: 1
 apis:
-- description: Security metrics and analytics endpoints
+- baseURL: https://api.ocean.security
+  baseurl_source: declared
+  description: Security metrics and analytics endpoints
   name: Ocean Security Metrics API
   slug: ocean-security-metrics-api
-- description: Manage tenant allow/deny list entries
+- baseURL: https://api.ocean.security
+  baseurl_source: declared
+  description: Manage tenant allow/deny list entries
   name: Ocean Security Settings API
   slug: ocean-security-settings-api
-- description: Phishing report (SONAR) management and response analytics
+- baseURL: https://api.ocean.security
+  baseurl_source: declared
+  description: Phishing report (SONAR) management and response analytics
   name: Ocean Security Sonar API
   slug: ocean-security-sonar-api
-- description: Operations for retrieving threat information
+- baseURL: https://api.ocean.security
+  baseurl_source: declared
+  description: Operations for retrieving threat information
   name: Ocean Security Threats API
   slug: ocean-security-threats-api
 artifact_total: 13
@@ -200,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-security/refs/heads/main/screenshots/ocean-security-2026-08-07T185923.png
 security:

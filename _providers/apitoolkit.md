@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Rust-based timeseries database for events, logs, traces, and metrics using a PostgreSQL dialect over S3 / Delta Lake storage. Underpins Monoscope's affordable long-term retention and self-hosted offer
   name: TimeFusion (Timeseries Engine)
   slug: timefusion
-- description: Query timeseries and aggregate metric data.
+- baseURL: https://api.monoscope.tech/api/v1
+  baseurl_source: declared
+  description: Query timeseries and aggregate metric data.
   name: APIToolkit (Monoscope) Metrics API
   slug: apitoolkit-metrics-api
-- description: List monitors and their evaluation status.
+- baseURL: https://api.monoscope.tech/api/v1
+  baseurl_source: declared
+  description: List monitors and their evaluation status.
   name: APIToolkit (Monoscope) Monitors API
   slug: apitoolkit-monitors-api
-- description: Retrieve telemetry field schema for a project.
+- baseURL: https://api.monoscope.tech/api/v1
+  baseurl_source: declared
+  description: Retrieve telemetry field schema for a project.
   name: APIToolkit (Monoscope) Schema API
   slug: apitoolkit-schema-api
 artifact_total: 92
@@ -437,7 +443,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
 security:

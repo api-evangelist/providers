@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -43,112 +43,184 @@ agentic_access:
   summary_line: 201 operations · 109 acting
 api_count: 5
 apis:
-- description: Used to manage addresses
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage addresses
   name: Ripple Labs Addresses API
   slug: ripple-labs-addresses-api
-- description: Used to manage credentials
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage credentials
   name: Ripple Labs API Credentials API
   slug: ripple-labs-api-credentials-api
-- description: 'Use these operations to audit your accounts. | Operation | Method | Description | | -- | -- | -- | | [Get audits](/products/payments-odl/api-docs/ripplenet/reference/openapi/auditing/getaudits) | GET '
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: 'Use these operations to audit your accounts. | Operation | Method | Description | | -- | -- | -- | | [Get audits](/products/payments-odl/api-docs/ripplenet/reference/openapi/auditing/getaudits) | GET '
   name: Ripple Labs Auditing API
   slug: ripple-labs-auditing-api
-- description: Use this API operation to manage your authentication tokens. | Operation | Method | Description | | --------- | ------ | ----------- | | [Obtain an access token](#operation/getAccessToken) | POST | Re
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use this API operation to manage your authentication tokens. | Operation | Method | Description | | --------- | ------ | ----------- | | [Obtain an access token](#operation/getAccessToken) | POST | Re
   name: Ripple Labs Authentication API
   slug: ripple-labs-authentication-api
-- description: Use these operations to view balances and statements for a ledger. | Operation | Method | Description | | -- | -- | -- | | [Get balances](/products/payments-odl/api-docs/ripplenet/reference/openapi/ba
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to view balances and statements for a ledger. | Operation | Method | Description | | -- | -- | -- | | [Get balances](/products/payments-odl/api-docs/ripplenet/reference/openapi/ba
   name: Ripple Labs Balances and statements API
   slug: ripple-labs-balances-and-statements-api
-- description: Used to view balances
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to view balances
   name: Ripple Labs Balances API
   slug: ripple-labs-balances-api
-- description: Use these operations to perform beneficiary confirmations. | Operation | Method | Description | | -- | -- | -- | | [Get account lookup by status](/products/payments-odl/api-docs/ripplenet/reference/op
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to perform beneficiary confirmations. | Operation | Method | Description | | -- | -- | -- | | [Get account lookup by status](/products/payments-odl/api-docs/ripplenet/reference/op
   name: Ripple Labs Beneficiary confirmation API
   slug: ripple-labs-beneficiary-confirmation-api
-- description: Used to manage counterparties
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage counterparties
   name: Ripple Labs Counterparties API
   slug: ripple-labs-counterparties-api
-- description: Use these operations to view RippleNet Server health. | Operation | Method | Description | | -- | -- | -- | | [Check health](/products/payments-odl/api-docs/ripplenet/reference/openapi/diagnostics/che
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to view RippleNet Server health. | Operation | Method | Description | | -- | -- | -- | | [Check health](/products/payments-odl/api-docs/ripplenet/reference/openapi/diagnostics/che
   name: Ripple Labs Diagnostics API
   slug: ripple-labs-diagnostics-api
-- description: Use these operations to manage exchange transfers. | Operation | Method | Description | | -- | -- | -- | | [Get exchange transfers](/products/payments-odl/api-docs/ripplenet/reference/openapi/exchange
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to manage exchange transfers. | Operation | Method | Description | | -- | -- | -- | | [Get exchange transfers](/products/payments-odl/api-docs/ripplenet/reference/openapi/exchange
   name: Ripple Labs Exchange transfers API
   slug: ripple-labs-exchange-transfers-api
-- description: Use these operations to configure fees. | Operation | Method | Description | | -- | -- | -- | | [Get fees](/products/payments-odl/api-docs/ripplenet/reference/openapi/fees/getfees) | GET | List all fe
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to configure fees. | Operation | Method | Description | | -- | -- | -- | | [Get fees](/products/payments-odl/api-docs/ripplenet/reference/openapi/fees/getfees) | GET | List all fe
   name: Ripple Labs Fees API
   slug: ripple-labs-fees-api
-- description: Use these operations to retrieve liquidations from the Smart Liquidation service. | Operation | Method | Description | | -- | -- | -- | | [Get liquidations](#operation/getLiquidations) | GET | List al
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to retrieve liquidations from the Smart Liquidation service. | Operation | Method | Description | | -- | -- | -- | | [Get liquidations](#operation/getLiquidations) | GET | List al
   name: Ripple Labs Liquidations API
   slug: ripple-labs-liquidations-api
-- description: Use these API operations to obtain details about market-capitalization supply for a stablecoin currency. | Operation | Method | Description | | --------- | ------ | ----------- | | [Get total supply](
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these API operations to obtain details about market-capitalization supply for a stablecoin currency. | Operation | Method | Description | | --------- | ------ | ----------- | | [Get total supply](
   name: Ripple Labs Market Cap API
   slug: ripple-labs-market-cap-api
-- description: ''
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: ''
   name: Ripple Labs Non-orchestration payments API
   slug: ripple-labs-non-orchestration-payments-api
-- description: ''
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: ''
   name: Ripple Labs Orchestration payments API
   slug: ripple-labs-orchestration-payments-api
-- description: Use these operations to manage payment expirations. | Operation | Method | Description | | -- | -- | -- | | [Get payment expiry by ID](/products/payments-odl/api-docs/ripplenet/reference/openapi/payme
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to manage payment expirations. | Operation | Method | Description | | -- | -- | -- | | [Get payment expiry by ID](/products/payments-odl/api-docs/ripplenet/reference/openapi/payme
   name: Ripple Labs Payment expiration API
   slug: ripple-labs-payment-expiration-api
-- description: Payout Method operations let receivers create and manage payout methods. Senders can generate quotes based on these receiver payout methods. | Operation | Method | Description | | -- | -- | -- | | [Cr
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Payout Method operations let receivers create and manage payout methods. Senders can generate quotes based on these receiver payout methods. | Operation | Method | Description | | -- | -- | -- | | [Cr
   name: Ripple Labs Payout method API
   slug: ripple-labs-payout-method-api
-- description: Use these operations to configure your RippleNet platform accounts. | Operation | Method | Description | | -- | -- | -- | | [Create platform](/products/payments-odl/api-docs/ripplenet/reference/openap
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to configure your RippleNet platform accounts. | Operation | Method | Description | | -- | -- | -- | | [Create platform](/products/payments-odl/api-docs/ripplenet/reference/openap
   name: Ripple Labs Platform accounts API
   slug: ripple-labs-platform-accounts-api
-- description: Used to manage connections policies
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage connections policies
   name: Ripple Labs Policies API
   slug: ripple-labs-policies-api
-- description: Use these operations to configure your RippleNet pool accounts. | Operation | Method | Description | | -- | -- | -- | | [Get all pool accounts](/products/payments-odl/api-docs/ripplenet/reference/open
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to configure your RippleNet pool accounts. | Operation | Method | Description | | -- | -- | -- | | [Get all pool accounts](/products/payments-odl/api-docs/ripplenet/reference/open
   name: Ripple Labs Pool accounts API
   slug: ripple-labs-pool-accounts-api
-- description: Use these operations to manage quote expirations. | Operation | Method | Description | | -- | -- | -- | | [List quote expiries](/products/payments-odl/api-docs/ripplenet/reference/openapi/quote-expira
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to manage quote expirations. | Operation | Method | Description | | -- | -- | -- | | [List quote expiries](/products/payments-odl/api-docs/ripplenet/reference/openapi/quote-expira
   name: Ripple Labs Quote expiration API
   slug: ripple-labs-quote-expiration-api
-- description: Use these operations to manage your quotes. | Operation | Method | Description | | -- | -- | -- | | [Accept quote](/products/payments-odl/api-docs/ripplenet/reference/openapi/quotes/acceptquote) | POS
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to manage your quotes. | Operation | Method | Description | | -- | -- | -- | | [Accept quote](/products/payments-odl/api-docs/ripplenet/reference/openapi/quotes/acceptquote) | POS
   name: Ripple Labs Quotes API
   slug: ripple-labs-quotes-api
-- description: 'Use these operations to manage your rates. | Operation | Method | Description | | -- | -- | -- | | [Get rates](/products/payments-odl/api-docs/ripplenet/reference/openapi/rates/getrates) | GET | Gets '
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: 'Use these operations to manage your rates. | Operation | Method | Description | | -- | -- | -- | | [Get rates](/products/payments-odl/api-docs/ripplenet/reference/openapi/rates/getrates) | GET | Gets '
   name: Ripple Labs Rates API
   slug: ripple-labs-rates-api
-- description: The Report Service API provides `PAYMENT_OPS`, `RECON`, and `FAILURE_CONVERSION_SSA` reports in either CSV or JSON format.
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: The Report Service API provides `PAYMENT_OPS`, `RECON`, and `FAILURE_CONVERSION_SSA` reports in either CSV or JSON format.
   name: Ripple Labs Reports API
   slug: ripple-labs-reports-api
-- description: Use these operations to interact with your payment requests. | Operation | Method | Description | | -- | -- | -- | | [Get requests for payment](/products/payments-odl/api-docs/ripplenet/reference/open
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to interact with your payment requests. | Operation | Method | Description | | -- | -- | -- | | [Get requests for payment](/products/payments-odl/api-docs/ripplenet/reference/open
   name: Ripple Labs Request for payment API
   slug: ripple-labs-request-for-payment-api
-- description: Used to manage sweep configurations
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage sweep configurations
   name: Ripple Labs Sweep Configurations API
   slug: ripple-labs-sweep-configurations-api
-- description: Used to manage organization tags
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage organization tags
   name: Ripple Labs Tags API
   slug: ripple-labs-tags-api
-- description: Used to manage transactions
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage transactions
   name: Ripple Labs Transactions API
   slug: ripple-labs-transactions-api
-- description: The Transactions - Sweep API from Ripple Labs — 2 operation(s) for transactions - sweep.
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: The Transactions - Sweep API from Ripple Labs — 2 operation(s) for transactions - sweep.
   name: Ripple Labs Transactions - Sweep API
   slug: ripple-labs-transactions-sweep-api
-- description: Used to manage XRP specific transactions
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage XRP specific transactions
   name: Ripple Labs Transactions - XRP API
   slug: ripple-labs-transactions-xrp-api
-- description: Use these operations to manage your transfers. | Operation | Method | Description | | -- | -- | -- | | [Get transfers](/products/payments-odl/api-docs/ripplenet/reference/openapi/transfers/gettransfer
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Use these operations to manage your transfers. | Operation | Method | Description | | -- | -- | -- | | [Get transfers](/products/payments-odl/api-docs/ripplenet/reference/openapi/transfers/gettransfer
   name: Ripple Labs Transfers API
   slug: ripple-labs-transfers-api
-- description: Used to manage vault tags
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage vault tags
   name: Ripple Labs Vault Tags API
   slug: ripple-labs-vault-tags-api
-- description: Used to manage vaults
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage vaults
   name: Ripple Labs Vaults API
   slug: ripple-labs-vaults-api
-- description: Used to manage wallet tags
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage wallet tags
   name: Ripple Labs Wallet Tags API
   slug: ripple-labs-wallet-tags-api
-- description: Used to manage wallets
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage wallets
   name: Ripple Labs Wallets API
   slug: ripple-labs-wallets-api
-- description: Used to manage webhooks
+- baseURL: https://api.ripple.com
+  baseurl_source: declared
+  description: Used to manage webhooks
   name: Ripple Labs Webhooks API
   slug: ripple-labs-webhooks-api
 artifact_total: 80
@@ -454,7 +526,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -464,7 +536,7 @@ score:
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.0
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -482,7 +554,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:

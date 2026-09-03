@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 111 operations · 55 acting
 api_count: 1
 apis:
-- description: Timeline of events on a project — automatic activity records and manually logged calls and meetings.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Timeline of events on a project — automatic activity records and manually logged calls and meetings.
   name: Reonic Activities API
   slug: reonic-activities-api
-- description: Appointments on Reonic-hosted calendars only. External calendars (Google, Microsoft) cannot be read or written through the API.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Appointments on Reonic-hosted calendars only. External calendars (Google, Microsoft) cannot be read or written through the API.
   name: Reonic Appointments API
   slug: reonic-appointments-api
-- description: Groupings used to organize [**Calendars**](#tag/calendars).
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Groupings used to organize [**Calendars**](#tag/calendars).
   name: Reonic Calendar Categories API
   slug: reonic-calendar-categories-api
-- description: Reonic-hosted calendars only. External calendar integrations (Google, Microsoft) are visible inside the Reonic Portal but are not exposed through the public API.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Reonic-hosted calendars only. External calendar integrations (Google, Microsoft) are visible inside the Reonic Portal but are not exposed through the public API.
   name: Reonic Calendars API
   slug: reonic-calendars-api
-- description: Reusable checklists. Apply one to a residential project to populate its [**Checklists**](#tag/checklists). > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. P
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Reusable checklists. Apply one to a residential project to populate its [**Checklists**](#tag/checklists). > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. P
   name: Reonic Checklist Templates API
   slug: reonic-checklist-templates-api
-- description: The active checklist for a residential project. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our team.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: The active checklist for a residential project. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our team.
   name: Reonic Checklists API
   slug: reonic-checklists-api
-- description: Commercial customer projects across the request, offer, and installation lifecycle stages. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report iss
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Commercial customer projects across the request, offer, and installation lifecycle stages. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report iss
   name: Reonic Commercial Projects API
   slug: reonic-commercial-projects-api
-- description: Catalog of solar, storage, EV charger, and heat-pump products available to your workspace.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Catalog of solar, storage, EV charger, and heat-pump products available to your workspace.
   name: Reonic Components API
   slug: reonic-components-api
-- description: External people you interact with, such as customers or leads. Not to be confused with [**Users**](#tag/users), which represent members of your workspace.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: External people you interact with, such as customers or leads. Not to be confused with [**Users**](#tag/users), which represent members of your workspace.
   name: Reonic Contacts API
   slug: reonic-contacts-api
-- description: Folders that organize [**Files**](#tag/files) within a project or contact. > [!note] > Personal and template folders are not exposed via the API.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Folders that organize [**Files**](#tag/files) within a project or contact. > [!note] > Personal and template folders are not exposed via the API.
   name: Reonic File Folders API
   slug: reonic-file-folders-api
-- description: Files attached to a project or contact. File responses include a download URL valid for 24 hours; refetch the file to obtain a fresh URL after it expires.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Files attached to a project or contact. File responses include a download URL valid for 24 hours; refetch the file to obtain a fresh URL after it expires.
   name: Reonic Files API
   slug: reonic-files-api
-- description: Kanban boards used to group project columns within a lifecycle stage such as request, offer, or installation.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Kanban boards used to group project columns within a lifecycle stage such as request, offer, or installation.
   name: Reonic Kanban Boards API
   slug: reonic-kanban-boards-api
-- description: Kanban columns projects move through on a [**Kanban Boards**](#tag/kanban-boards).
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Kanban columns projects move through on a [**Kanban Boards**](#tag/kanban-boards).
   name: Reonic Kanban Columns API
   slug: reonic-kanban-columns-api
-- description: Channels that brought a customer/contact to your workspace, such as referrals, ad campaigns, or partner integrations. Used to attribute projects to their origin.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Channels that brought a customer/contact to your workspace, such as referrals, ad campaigns, or partner integrations. Used to attribute projects to their origin.
   name: Reonic Lead Sources API
   slug: reonic-lead-sources-api
-- description: Resolve a resource into a URL where it can be viewed in the Reonic web app.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Resolve a resource into a URL where it can be viewed in the Reonic web app.
   name: Reonic Links API
   slug: reonic-links-api
-- description: Free-text notes attached to a project or contact.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Free-text notes attached to a project or contact.
   name: Reonic Notes API
   slug: reonic-notes-api
-- description: 'Pre-configured combinations of planning packages used to quickly populate package categories when creating an offer. > [!warning] > **Beta:** These endpoints are in beta and may change as the service '
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: 'Pre-configured combinations of planning packages used to quickly populate package categories when creating an offer. > [!warning] > **Beta:** These endpoints are in beta and may change as the service '
   name: Reonic Offer Templates API
   slug: reonic-offer-templates-api
-- description: '3D reconstruction jobs built from uploaded site imagery. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our '
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: '3D reconstruction jobs built from uploaded site imagery. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our '
   name: Reonic Photogrammetry API
   slug: reonic-photogrammetry-api
-- description: Standard offer packages for PV, storage, heat pumps, and EV chargers, built from common [**Components**](#tag/components) and service combinations.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Standard offer packages for PV, storage, heat pumps, and EV chargers, built from common [**Components**](#tag/components) and service combinations.
   name: Reonic Planning Packages API
   slug: reonic-planning-packages-api
-- description: Small groups of [**Components**](#tag/components) that can be added to targeted planning sections when a project type or requirement calls for extra components.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Small groups of [**Components**](#tag/components) that can be added to targeted planning sections when a project type or requirement calls for extra components.
   name: Reonic Planning Templates API
   slug: reonic-planning-templates-api
-- description: Residential customer projects across the request, offer, and installation lifecycle stages.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Residential customer projects across the request, offer, and installation lifecycle stages.
   name: Reonic Residential Projects API
   slug: reonic-residential-projects-api
-- description: Requests sent to a customer to sign a residential project's offer. Each carries the offer PDF for every variant the customer can choose between, available even before signing, plus the signed document
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Requests sent to a customer to sign a residential project's offer. Each carries the offer PDF for every variant the customer can choose between, available even before signing, plus the signed document
   name: Reonic Signature Requests API
   slug: reonic-signature-requests-api
-- description: Reusable labels for categorizing and filtering projects, contacts, and other entities.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Reusable labels for categorizing and filtering projects, contacts, and other entities.
   name: Reonic Tags API
   slug: reonic-tags-api
-- description: To-do items attached to a project or contact, with due dates, assignees, and completion state. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: To-do items attached to a project or contact, with due dates, assignees, and completion state. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report
   name: Reonic Tasks API
   slug: reonic-tasks-api
-- description: Groups of users. Teams can be assigned to projects and nested under one another.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Groups of users. Teams can be assigned to projects and nested under one another.
   name: Reonic Teams API
   slug: reonic-teams-api
-- description: Time entries logged against projects. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our team.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Time entries logged against projects. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our team.
   name: Reonic Time Tracking API
   slug: reonic-time-tracking-api
-- description: Two-step uploads for endpoints that accept user-provided file content. Call `POST /uploads/create` to obtain an `uploadUrl` and an `uploadId`. `PUT` the raw file body to `uploadUrl` within 1 hour, wit
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Two-step uploads for endpoints that accept user-provided file content. Call `POST /uploads/create` to obtain an `uploadUrl` and an `uploadId`. `PUT` the raw file body to `uploadUrl` within 1 hour, wit
   name: Reonic Upload API
   slug: reonic-upload-api
-- description: Members of your workspace, such as employees. Not to be confused with [**Contacts**](#tag/contacts), which represent external people like customers or leads.
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Members of your workspace, such as employees. Not to be confused with [**Contacts**](#tag/contacts), which represent external people like customers or leads.
   name: Reonic Users API
   slug: reonic-users-api
-- description: Your company's shared knowledge base — pages and folders. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Your company's shared knowledge base — pages and folders. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our
   name: Reonic Wiki API
   slug: reonic-wiki-api
-- description: Webhooks notify your systems the moment something happens in Reonic. For example when a project is created or an offer is signed. Instead of repeatedly polling the API for changes, you give Reonic a U
+- baseURL: https://api.reonic.de/rest/v3/
+  baseurl_source: declared
+  description: Webhooks notify your systems the moment something happens in Reonic. For example when a project is created or an offer is signed. Instead of repeatedly polling the API for changes, you give Reonic a U
   name: Reonic Webhooks API
   slug: reonic-webhooks-api
 artifact_total: 66
@@ -369,7 +429,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -379,7 +439,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 41.9
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,7 +457,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/screenshots/reonic-2026-08-17T081520.png
 security:

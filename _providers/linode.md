@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -56,61 +56,99 @@ apis:
 - description: The Linode Terraform Provider enables infrastructure-as-code management of Akamai Connected Cloud resources using HashiCorp Terraform. It supports provisioning and managing compute instances, Kubernet
   name: Linode Terraform Provider
   slug: terraform-provider
-- description: Manage your account settings, users, billing information, OAuth clients, service transfers, and payment methods.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage your account settings, users, billing information, OAuth clients, service transfers, and payment methods.
   name: linode Account API
   slug: linode-account-api
-- description: Manage Managed Database instances including MySQL and PostgreSQL clusters, backups, credentials, and maintenance windows.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage Managed Database instances including MySQL and PostgreSQL clusters, backups, credentials, and maintenance windows.
   name: linode Databases API
   slug: linode-databases-api
-- description: Manage DNS domains and their associated resource records including A, AAAA, CNAME, MX, TXT, SRV, CAA, and NS records.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage DNS domains and their associated resource records including A, AAAA, CNAME, MX, TXT, SRV, CAA, and NS records.
   name: linode Domains API
   slug: linode-domains-api
-- description: Manage custom images for deploying Linode instances, including creating images from disks, uploading images, and managing image metadata.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage custom images for deploying Linode instances, including creating images from disks, uploading images, and managing image metadata.
   name: linode Images API
   slug: linode-images-api
-- description: Create and manage Linode compute instances, including configuration profiles, disks, backups, networking, migration, resize, and rebuild operations.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage Linode compute instances, including configuration profiles, disks, backups, networking, migration, resize, and rebuild operations.
   name: linode Linode Instances API
   slug: linode-linode-instances-api
-- description: Deploy and manage Kubernetes clusters, node pools, and cluster configurations through the Linode Kubernetes Engine.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Deploy and manage Kubernetes clusters, node pools, and cluster configurations through the Linode Kubernetes Engine.
   name: linode Linode Kubernetes Engine (LKE) API
   slug: linode-linode-kubernetes-engine-lke-api
-- description: Manage Longview clients and subscriptions for system-level monitoring and metrics collection on Linode instances.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage Longview clients and subscriptions for system-level monitoring and metrics collection on Linode instances.
   name: linode Longview API
   slug: linode-longview-api
-- description: Manage Linode Managed services including monitored contacts, credentials, issues, service monitors, and SSH access settings.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage Linode Managed services including monitored contacts, credentials, issues, service monitors, and SSH access settings.
   name: linode Managed API
   slug: linode-managed-api
-- description: Manage networking resources including IP addresses, IPv6 ranges and pools, firewalls, VLANs, and IP address sharing and assignment.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage networking resources including IP addresses, IPv6 ranges and pools, firewalls, VLANs, and IP address sharing and assignment.
   name: linode Networking API
   slug: linode-networking-api
-- description: Create and manage NodeBalancer load balancers, their configurations, and backend nodes for distributing traffic across Linode instances.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage NodeBalancer load balancers, their configurations, and backend nodes for distributing traffic across Linode instances.
   name: linode NodeBalancers API
   slug: linode-nodebalancers-api
-- description: Manage Object Storage buckets, access keys, clusters, and endpoints for S3-compatible object storage.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage Object Storage buckets, access keys, clusters, and endpoints for S3-compatible object storage.
   name: linode Object Storage API
   slug: linode-object-storage-api
-- description: Create and manage placement groups for controlling the physical placement of Linode instances within a data center.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage placement groups for controlling the physical placement of Linode instances within a data center.
   name: linode Placement Groups API
   slug: linode-placement-groups-api
-- description: Manage your user profile settings, SSH keys, authorized applications, personal access tokens, and two-factor authentication.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Manage your user profile settings, SSH keys, authorized applications, personal access tokens, and two-factor authentication.
   name: linode Profile API
   slug: linode-profile-api
-- description: List available data center regions and their capabilities for deploying Linode services.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: List available data center regions and their capabilities for deploying Linode services.
   name: linode Regions API
   slug: linode-regions-api
-- description: Create and manage StackScripts for automating the deployment and configuration of Linode instances.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage StackScripts for automating the deployment and configuration of Linode instances.
   name: linode StackScripts API
   slug: linode-stackscripts-api
-- description: Create and manage support tickets and view replies for getting help from the Linode support team.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage support tickets and view replies for getting help from the Linode support team.
   name: linode Support API
   slug: linode-support-api
-- description: The Tags API from linode — 2 operation(s) for tags.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: The Tags API from linode — 2 operation(s) for tags.
   name: linode Tags API
   slug: linode-tags-api
-- description: Create and manage Block Storage volumes that can be attached to Linode instances for persistent data storage.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage Block Storage volumes that can be attached to Linode instances for persistent data storage.
   name: linode Volumes API
   slug: linode-volumes-api
-- description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
+- baseURL: https://api.linode.com/v4
+  baseurl_source: declared
+  description: Create and manage Virtual Private Clouds for isolated network environments and subnets for Linode instances.
   name: linode VPCs API
   slug: linode-vpcs-api
 artifact_total: 179
@@ -569,16 +607,16 @@ jsonld:
   slug: linode-context
 layout: provider
 modified: '2026-05-19'
-name: linode
+name: Linode
 nav: Providers
 network: true
-overview: 'linode publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 16 more.
+overview: 'Linode publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Databases API, Domains API, and 16 more.
 
 
-  The linode catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Linode catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  linode''s developer surface includes authentication and 6 more developer resources.'
+  Linode''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Linode Plans Pricing
   plan_count: 6
@@ -591,7 +629,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: linode API Rules
+  name: Linode API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -632,10 +670,10 @@ score:
       total: 19
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/screenshots/linode-2026-06-20T184550.png
 security:

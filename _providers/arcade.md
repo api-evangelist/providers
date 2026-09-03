@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: The Arcade integration catalog — 145 MCP servers across Arcade Optimized, Arcade Unoptimized, Verified, Community, and Auth Provider designations, with 37 additional "Coming Soon" integrations includi
   name: Arcade Integration Catalog
   slug: arcade-integration-catalog
-- description: The Admin API from Arcade — 14 operation(s) for admin.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Admin API from Arcade — 14 operation(s) for admin.
   name: Arcade Admin API
   slug: arcade-admin-api
-- description: The Authorization API from Arcade — 4 operation(s) for authorization.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Authorization API from Arcade — 4 operation(s) for authorization.
   name: Arcade Authorization API
   slug: arcade-authorization-api
-- description: The Gateways API from Arcade — 3 operation(s) for gateways.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Gateways API from Arcade — 3 operation(s) for gateways.
   name: Arcade Gateways API
   slug: arcade-gateways-api
-- description: The Hooks API from Arcade — 3 operation(s) for hooks.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Hooks API from Arcade — 3 operation(s) for hooks.
   name: Arcade Hooks API
   slug: arcade-hooks-api
-- description: The LLM API from Arcade — 1 operation(s) for llm.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The LLM API from Arcade — 1 operation(s) for llm.
   name: Arcade LLM API
   slug: arcade-llm-api
-- description: The Operations API from Arcade — 3 operation(s) for operations.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Operations API from Arcade — 3 operation(s) for operations.
   name: Arcade Operations API
   slug: arcade-operations-api
-- description: The Plugins API from Arcade — 2 operation(s) for plugins.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Plugins API from Arcade — 2 operation(s) for plugins.
   name: Arcade Plugins API
   slug: arcade-plugins-api
-- description: The Tools API from Arcade — 9 operation(s) for tools.
+- baseURL: https://api.arcade.dev
+  baseurl_source: declared
+  description: The Tools API from Arcade — 9 operation(s) for tools.
   name: Arcade Tools API
   slug: arcade-tools-api
 artifact_total: 145
@@ -584,7 +600,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade/refs/heads/main/screenshots/arcade-2026-06-20T172354.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -53,130 +53,214 @@ apis:
 - description: The Transfer Orders API lets applications create and manage transfers of inventory stock between a seller's locations, supporting multi-location retail and restaurant operations.
   name: Square Transfer Orders API
   slug: transfer-orders-api
-- description: The ApplePay API from Square — 1 operation(s) for applepay.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The ApplePay API from Square — 1 operation(s) for applepay.
   name: Square ApplePay API
   slug: square-applepay-api
-- description: The BankAccounts API from Square — 3 operation(s) for bankaccounts.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The BankAccounts API from Square — 3 operation(s) for bankaccounts.
   name: Square BankAccounts API
   slug: square-bankaccounts-api
-- description: The BookingCustomAttributes API from Square — 6 operation(s) for bookingcustomattributes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The BookingCustomAttributes API from Square — 6 operation(s) for bookingcustomattributes.
   name: Square BookingCustomAttributes API
   slug: square-bookingcustomattributes-api
-- description: The Bookings API from Square — 11 operation(s) for bookings.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Bookings API from Square — 11 operation(s) for bookings.
   name: Square Bookings API
   slug: square-bookings-api
-- description: The Cards API from Square — 3 operation(s) for cards.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Cards API from Square — 3 operation(s) for cards.
   name: Square Cards API
   slug: square-cards-api
-- description: The CashDrawers API from Square — 3 operation(s) for cashdrawers.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The CashDrawers API from Square — 3 operation(s) for cashdrawers.
   name: Square CashDrawers API
   slug: square-cashdrawers-api
-- description: The Catalog API from Square — 13 operation(s) for catalog.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Catalog API from Square — 13 operation(s) for catalog.
   name: Square Catalog API
   slug: square-catalog-api
-- description: The Checkout API from Square — 5 operation(s) for checkout.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Checkout API from Square — 5 operation(s) for checkout.
   name: Square Checkout API
   slug: square-checkout-api
-- description: The CustomerCustomAttributes API from Square — 5 operation(s) for customercustomattributes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The CustomerCustomAttributes API from Square — 5 operation(s) for customercustomattributes.
   name: Square CustomerCustomAttributes API
   slug: square-customercustomattributes-api
-- description: The CustomerGroups API from Square — 2 operation(s) for customergroups.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The CustomerGroups API from Square — 2 operation(s) for customergroups.
   name: Square CustomerGroups API
   slug: square-customergroups-api
-- description: The Customers API from Square — 10 operation(s) for customers.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Customers API from Square — 10 operation(s) for customers.
   name: Square Customers API
   slug: square-customers-api
-- description: The CustomerSegments API from Square — 2 operation(s) for customersegments.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The CustomerSegments API from Square — 2 operation(s) for customersegments.
   name: Square CustomerSegments API
   slug: square-customersegments-api
-- description: The Devices API from Square — 4 operation(s) for devices.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Devices API from Square — 4 operation(s) for devices.
   name: Square Devices API
   slug: square-devices-api
-- description: The Disputes API from Square — 8 operation(s) for disputes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Disputes API from Square — 8 operation(s) for disputes.
   name: Square Disputes API
   slug: square-disputes-api
-- description: The Employees API from Square — 2 operation(s) for employees.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Employees API from Square — 2 operation(s) for employees.
   name: Square Employees API
   slug: square-employees-api
-- description: The Events API from Square — 4 operation(s) for events.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Events API from Square — 4 operation(s) for events.
   name: Square Events API
   slug: square-events-api
-- description: The GiftCardActivities API from Square — 1 operation(s) for giftcardactivities.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The GiftCardActivities API from Square — 1 operation(s) for giftcardactivities.
   name: Square GiftCardActivities API
   slug: square-giftcardactivities-api
-- description: The GiftCards API from Square — 6 operation(s) for giftcards.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The GiftCards API from Square — 6 operation(s) for giftcards.
   name: Square GiftCards API
   slug: square-giftcards-api
-- description: The Inventory API from Square — 13 operation(s) for inventory.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Inventory API from Square — 13 operation(s) for inventory.
   name: Square Inventory API
   slug: square-inventory-api
-- description: The Invoices API from Square — 7 operation(s) for invoices.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Invoices API from Square — 7 operation(s) for invoices.
   name: Square Invoices API
   slug: square-invoices-api
-- description: The Labor API from Square — 11 operation(s) for labor.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Labor API from Square — 11 operation(s) for labor.
   name: Square Labor API
   slug: square-labor-api
-- description: The LocationCustomAttributes API from Square — 6 operation(s) for locationcustomattributes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The LocationCustomAttributes API from Square — 6 operation(s) for locationcustomattributes.
   name: Square LocationCustomAttributes API
   slug: square-locationcustomattributes-api
-- description: The Locations API from Square — 2 operation(s) for locations.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Locations API from Square — 2 operation(s) for locations.
   name: Square Locations API
   slug: square-locations-api
-- description: The Loyalty API from Square — 16 operation(s) for loyalty.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Loyalty API from Square — 16 operation(s) for loyalty.
   name: Square Loyalty API
   slug: square-loyalty-api
-- description: The MerchantCustomAttributes API from Square — 6 operation(s) for merchantcustomattributes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The MerchantCustomAttributes API from Square — 6 operation(s) for merchantcustomattributes.
   name: Square MerchantCustomAttributes API
   slug: square-merchantcustomattributes-api
-- description: The Merchants API from Square — 2 operation(s) for merchants.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Merchants API from Square — 2 operation(s) for merchants.
   name: Square Merchants API
   slug: square-merchants-api
-- description: The MobileAuthorization API from Square — 1 operation(s) for mobileauthorization.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The MobileAuthorization API from Square — 1 operation(s) for mobileauthorization.
   name: Square MobileAuthorization API
   slug: square-mobileauthorization-api
-- description: The OAuth API from Square — 3 operation(s) for oauth.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The OAuth API from Square — 3 operation(s) for oauth.
   name: Square OAuth API
   slug: square-oauth-api
-- description: The OrderCustomAttributes API from Square — 6 operation(s) for ordercustomattributes.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The OrderCustomAttributes API from Square — 6 operation(s) for ordercustomattributes.
   name: Square OrderCustomAttributes API
   slug: square-ordercustomattributes-api
-- description: The Orders API from Square — 7 operation(s) for orders.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Orders API from Square — 7 operation(s) for orders.
   name: Square Orders API
   slug: square-orders-api
-- description: The Payments API from Square — 5 operation(s) for payments.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Payments API from Square — 5 operation(s) for payments.
   name: Square Payments API
   slug: square-payments-api
-- description: The Payouts API from Square — 3 operation(s) for payouts.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Payouts API from Square — 3 operation(s) for payouts.
   name: Square Payouts API
   slug: square-payouts-api
-- description: The Refunds API from Square — 2 operation(s) for refunds.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Refunds API from Square — 2 operation(s) for refunds.
   name: Square Refunds API
   slug: square-refunds-api
-- description: The Sites API from Square — 1 operation(s) for sites.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Sites API from Square — 1 operation(s) for sites.
   name: Square Sites API
   slug: square-sites-api
-- description: The Snippets API from Square — 1 operation(s) for snippets.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Snippets API from Square — 1 operation(s) for snippets.
   name: Square Snippets API
   slug: square-snippets-api
-- description: The Subscriptions API from Square — 11 operation(s) for subscriptions.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Subscriptions API from Square — 11 operation(s) for subscriptions.
   name: Square Subscriptions API
   slug: square-subscriptions-api
-- description: The Team API from Square — 8 operation(s) for team.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Team API from Square — 8 operation(s) for team.
   name: Square Team API
   slug: square-team-api
-- description: The Terminal API from Square — 15 operation(s) for terminal.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Terminal API from Square — 15 operation(s) for terminal.
   name: Square Terminal API
   slug: square-terminal-api
-- description: The Transactions API from Square — 4 operation(s) for transactions.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Transactions API from Square — 4 operation(s) for transactions.
   name: Square Transactions API
   slug: square-transactions-api
-- description: The V1Transactions API from Square — 2 operation(s) for v1transactions.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The V1Transactions API from Square — 2 operation(s) for v1transactions.
   name: Square V1Transactions API
   slug: square-v1transactions-api
-- description: The Vendors API from Square — 6 operation(s) for vendors.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The Vendors API from Square — 6 operation(s) for vendors.
   name: Square Vendors API
   slug: square-vendors-api
-- description: The WebhookSubscriptions API from Square — 5 operation(s) for webhooksubscriptions.
+- baseURL: https://connect.squareup.com
+  baseurl_source: spec
+  description: The WebhookSubscriptions API from Square — 5 operation(s) for webhooksubscriptions.
   name: Square WebhookSubscriptions API
   slug: square-webhooksubscriptions-api
 artifact_total: 202
@@ -1007,7 +1091,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1017,7 +1101,7 @@ score:
     discoverability: 51.9
     governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 71.3
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1032,7 +1116,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:

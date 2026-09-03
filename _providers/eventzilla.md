@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 7 acting
 api_count: 1
 apis:
-- description: Attendee management and check-in operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Attendee management and check-in operations
   name: Eventzilla Attendees API
   slug: eventzilla-attendees-api
-- description: Event category operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Event category operations
   name: Eventzilla Categories API
   slug: eventzilla-categories-api
-- description: Checkout workflow operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Checkout workflow operations
   name: Eventzilla Checkout API
   slug: eventzilla-checkout-api
-- description: Event listing and detail operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Event listing and detail operations
   name: Eventzilla Events API
   slug: eventzilla-events-api
-- description: Ticket type operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Ticket type operations
   name: Eventzilla Tickets API
   slug: eventzilla-tickets-api
-- description: Transaction and order operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Transaction and order operations
   name: Eventzilla Transactions API
   slug: eventzilla-transactions-api
-- description: Organizer and sub-organizer operations
+- baseURL: https://www.eventzillaapi.net/api/v2/
+  baseurl_source: declared
+  description: Organizer and sub-organizer operations
   name: Eventzilla Users API
   slug: eventzilla-users-api
 artifact_total: 36
@@ -254,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/screenshots/eventzilla-2026-06-20T180909.png
 security:

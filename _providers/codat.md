@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -60,109 +60,179 @@ apis:
 - description: The Codat Sync for Payroll API enables HR, payroll, and vertical SaaS platforms to integrate their customers' payroll data into accounting software and support its reconciliation, providing a standard
   name: Codat Sync for Payroll API
   slug: sync-for-payroll-api
-- description: Extra functionality for building an account management UI.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Extra functionality for building an account management UI.
   name: Codat Account mapping API
   slug: codat-account-mapping-api
-- description: Access bank transactions from an accounting software.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Access bank transactions from an accounting software.
   name: Codat Accounting bank data API
   slug: codat-accounting-bank-data-api
-- description: Data from a linked accounting software representing money the business owes money to its suppliers.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Data from a linked accounting software representing money the business owes money to its suppliers.
   name: Codat Accounts payable API
   slug: codat-accounts-payable-api
-- description: Data from a linked accounting software representing money owed to the business for sold goods or services.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Data from a linked accounting software representing money owed to the business for sold goods or services.
   name: Codat Accounts receivable API
   slug: codat-accounts-receivable-api
-- description: Access bank accounts in an SMBs accounting software.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Access bank accounts in an SMBs accounting software.
   name: Codat Bank accounts API
   slug: codat-bank-accounts-api
-- description: Retrieve banking data from linked bank accounts.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Retrieve banking data from linked bank accounts.
   name: Codat Bank statements API
   slug: codat-bank-statements-api
-- description: Create and manage your SMB users' companies.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Create and manage your SMB users' companies.
   name: Codat Companies API
   slug: codat-companies-api
-- description: View company information fetched from the source platform.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: View company information fetched from the source platform.
   name: Codat Company info API
   slug: codat-company-info-api
-- description: Get detailed information about a company from the underlying accounting software.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Get detailed information about a company from the underlying accounting software.
   name: Codat Company information API
   slug: codat-company-information-api
-- description: Configure UI and retrieve access tokens for authentication used by **Connections SDK**.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Configure UI and retrieve access tokens for authentication used by **Connections SDK**.
   name: Codat Connection management API
   slug: codat-connection-management-api
-- description: Create new and manage existing data connections for a company.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Create new and manage existing data connections for a company.
   name: Codat Connections API
   slug: codat-connections-api
-- description: Configure and pull additional data types that are not included in Codat's standardized data model.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Configure and pull additional data types that are not included in Codat's standardized data model.
   name: Codat Custom data type API
   slug: codat-custom-data-type-api
-- description: Match mutable accounting data with immutable banking data to increase confidence in financial data.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Match mutable accounting data with immutable banking data to increase confidence in financial data.
   name: Codat Data integrity API
   slug: codat-data-integrity-api
-- description: Download reports in Excel format.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Download reports in Excel format.
   name: Codat Excel reports API
   slug: codat-excel-reports-api
-- description: Endpoints to manage uploaded files.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Endpoints to manage uploaded files.
   name: Codat File upload API
   slug: codat-file-upload-api
-- description: Financial data and reports from a linked accounting software.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Financial data and reports from a linked accounting software.
   name: Codat Financial statements API
   slug: codat-financial-statements-api
-- description: View financial summary information for a company, including credit model reports and accounting score.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: View financial summary information for a company, including credit model reports and accounting score.
   name: Codat Financial summary API
   slug: codat-financial-summary-api
-- description: Get a list of integrations supported by Codat and their logos.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Get a list of integrations supported by Codat and their logos.
   name: Codat Integrations API
   slug: codat-integrations-api
-- description: Debt and other liabilities.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Debt and other liabilities.
   name: Codat Liabilities API
   slug: codat-liabilities-api
-- description: 'Implement the [loan writeback](https://docs.codat.io/lending/guides/loan-writeback/introduction) procedure in your lending process to maintain an accurate position of a loan during the entire lending '
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: 'Implement the [loan writeback](https://docs.codat.io/lending/guides/loan-writeback/introduction) procedure in your lending process to maintain an accurate position of a loan during the entire lending '
   name: Codat Loan writeback API
   slug: codat-loan-writeback-api
-- description: Control how data is retrieved from an integration.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Control how data is retrieved from an integration.
   name: Codat Manage data API
   slug: codat-manage-data-api
-- description: Generate and review generated reports for a company.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Generate and review generated reports for a company.
   name: Codat Manage reports API
   slug: codat-manage-reports-api
-- description: Manage bank feed syncs for source accounts.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Manage bank feed syncs for source accounts.
   name: Codat Managed bank feeds API
   slug: codat-managed-bank-feeds-api
-- description: Initiate and monitor Create, Update, and Delete operations.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Initiate and monitor Create, Update, and Delete operations.
   name: Codat Push data API
   slug: codat-push-data-api
-- description: View validation outcomes for completed read data operations.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: View validation outcomes for completed read data operations.
   name: Codat Read data API
   slug: codat-read-data-api
-- description: Initiate data refreshes, view pull status and history.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Initiate data refreshes, view pull status and history.
   name: Codat Refresh data API
   slug: codat-refresh-data-api
-- description: Retrieve standardized sales data from a linked commerce software.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Retrieve standardized sales data from a linked commerce software.
   name: Codat Sales API
   slug: codat-sales-api
-- description: Manage company profile configuration, sync settings, and API keys.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Manage company profile configuration, sync settings, and API keys.
   name: Codat Settings API
   slug: codat-settings-api
-- description: Provide and manage lists of source bank accounts.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Provide and manage lists of source bank accounts.
   name: Codat Source accounts API
   slug: codat-source-accounts-api
-- description: Configure and pull additional data you can include in Codat's standard data types.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Configure and pull additional data you can include in Codat's standard data types.
   name: Codat Supplemental data API
   slug: codat-supplemental-data-api
-- description: Create new bank account transactions for a company's connections, and see previous operations.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Create new bank account transactions for a company's connections, and see previous operations.
   name: Codat Transactions API
   slug: codat-transactions-api
-- description: Create and manage webhooks that listen to Codat's events.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: Create and manage webhooks that listen to Codat's events.
   name: Codat Webhooks API
   slug: codat-webhooks-api
-- description: The Bank Feeds API from Codat — 0 operation(s) for bank feeds.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: The Bank Feeds API from Codat — 0 operation(s) for bank feeds.
   name: Codat Bank Feeds API
   slug: codat-bank-feeds-api
-- description: The Lending API from Codat — 0 operation(s) for lending.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: The Lending API from Codat — 0 operation(s) for lending.
   name: Codat Lending API
   slug: codat-lending-api
-- description: The Platform API API from Codat — 0 operation(s) for platform api.
+- baseURL: https://api.codat.io
+  baseurl_source: spec
+  description: The Platform API API from Codat — 0 operation(s) for platform api.
   name: Codat Platform API
   slug: codat-platform-api-api
 artifact_total: 387
@@ -1350,7 +1420,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:

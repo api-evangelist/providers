@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 14 operations · 10 acting
 api_count: 9
 apis:
-- description: List campaigns, fetch reports, and trigger sends to individuals or lists
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: List campaigns, fetch reports, and trigger sends to individuals or lists
   name: Mailmodo Campaigns API
   slug: mailmodo-campaigns-api
-- description: Manage the named contact lists used for segmentation and campaigns
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: Manage the named contact lists used for segmentation and campaigns
   name: Mailmodo Contact Lists API
   slug: mailmodo-contact-lists-api
-- description: Add, remove, archive, unsubscribe, resubscribe, and look up contacts
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: Add, remove, archive, unsubscribe, resubscribe, and look up contacts
   name: Mailmodo Contacts API
   slug: mailmodo-contacts-api
-- description: Send custom user events into Mailmodo journeys and segments
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: Send custom user events into Mailmodo journeys and segments
   name: Mailmodo Events API
   slug: mailmodo-events-api
-- description: List interactive AMP email templates available on the workspace
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: List interactive AMP email templates available on the workspace
   name: Mailmodo Templates API
   slug: mailmodo-templates-api
-- description: The AddEvent API from Mailmodo — 1 operation(s) for addevent.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The AddEvent API from Mailmodo — 1 operation(s) for addevent.
   name: Mailmodo Add Event API
   slug: mailmodo-addevent-api
-- description: The AddToList API from Mailmodo — 2 operation(s) for addtolist.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The AddToList API from Mailmodo — 2 operation(s) for addtolist.
   name: Mailmodo Add To List API
   slug: mailmodo-addtolist-api
-- description: The BulktriggerCampaign API from Mailmodo — 1 operation(s) for bulktriggercampaign.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The BulktriggerCampaign API from Mailmodo — 1 operation(s) for bulktriggercampaign.
   name: Mailmodo Bulktrigger Campaign API
   slug: mailmodo-bulktriggercampaign-api
-- description: The CampaignReports API from Mailmodo — 1 operation(s) for campaignreports.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The CampaignReports API from Mailmodo — 1 operation(s) for campaignreports.
   name: Mailmodo Campaign Reports API
   slug: mailmodo-campaignreports-api
-- description: The GetAllContactLists API from Mailmodo — 1 operation(s) for getallcontactlists.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The GetAllContactLists API from Mailmodo — 1 operation(s) for getallcontactlists.
   name: Mailmodo Get All Contact Lists API
   slug: mailmodo-getallcontactlists-api
-- description: The GetAllTemplates API from Mailmodo — 1 operation(s) for getalltemplates.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The GetAllTemplates API from Mailmodo — 1 operation(s) for getalltemplates.
   name: Mailmodo Get All Templates API
   slug: mailmodo-getalltemplates-api
-- description: The GetContactDetails API from Mailmodo — 1 operation(s) for getcontactdetails.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The GetContactDetails API from Mailmodo — 1 operation(s) for getcontactdetails.
   name: Mailmodo Get Contact Details API
   slug: mailmodo-getcontactdetails-api
-- description: The Hooks API from Mailmodo — 2 operation(s) for hooks.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The Hooks API from Mailmodo — 2 operation(s) for hooks.
   name: Mailmodo Hooks API
   slug: mailmodo-hooks-api
-- description: The RemoveFromList API from Mailmodo — 1 operation(s) for removefromlist.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The RemoveFromList API from Mailmodo — 1 operation(s) for removefromlist.
   name: Mailmodo Remove From List API
   slug: mailmodo-removefromlist-api
-- description: The TriggerCampaign API from Mailmodo — 1 operation(s) for triggercampaign.
+- baseURL: https://api.mailmodo.com
+  baseurl_source: declared
+  description: The TriggerCampaign API from Mailmodo — 1 operation(s) for triggercampaign.
   name: Mailmodo Trigger Campaign API
   slug: mailmodo-triggercampaign-api
 artifact_total: 82
@@ -480,7 +510,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -493,7 +523,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 62.5
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -505,7 +535,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:

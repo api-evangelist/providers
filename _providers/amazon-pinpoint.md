@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 122 operations · 70 acting
 api_count: 2
 apis:
-- description: Operations for managing Pinpoint applications (projects)
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Pinpoint applications (projects)
   name: Amazon Pinpoint Applications API
   slug: amazon-pinpoint-applications-api
-- description: The Apps API from Amazon Pinpoint — 48 operation(s) for apps.
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Apps API from Amazon Pinpoint — 48 operation(s) for apps.
   name: Amazon Pinpoint Apps API
   slug: amazon-pinpoint-apps-api
-- description: The Phone API from Amazon Pinpoint — 1 operation(s) for phone.
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Phone API from Amazon Pinpoint — 1 operation(s) for phone.
   name: Amazon Pinpoint Phone API
   slug: amazon-pinpoint-phone-api
-- description: The Recommenders API from Amazon Pinpoint — 2 operation(s) for recommenders.
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Recommenders API from Amazon Pinpoint — 2 operation(s) for recommenders.
   name: Amazon Pinpoint Recommenders API
   slug: amazon-pinpoint-recommenders-api
-- description: The Tags API from Amazon Pinpoint — 2 operation(s) for tags.
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Pinpoint — 2 operation(s) for tags.
   name: Amazon Pinpoint Tags API
   slug: amazon-pinpoint-tags-api
-- description: The Templates API from Amazon Pinpoint — 8 operation(s) for templates.
+- baseURL: https://pinpoint.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Templates API from Amazon Pinpoint — 8 operation(s) for templates.
   name: Amazon Pinpoint Templates API
   slug: amazon-pinpoint-templates-api
 arazzos:
@@ -7586,7 +7598,7 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -7596,7 +7608,7 @@ score:
     discoverability: 70.4
     governance: 47.0
     operational_transparency: 81.6
-  previous_composite: 81.1
+  previous_composite: 80.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -7614,7 +7626,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/screenshots/amazon-pinpoint-2026-06-20T171757.png
 security:

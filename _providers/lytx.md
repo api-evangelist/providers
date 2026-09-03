@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -44,115 +44,189 @@ agentic_access:
   summary_line: 123 operations · 26 acting · 1 human-in-the-loop
 api_count: 42
 apis:
-- description: The Consent API from Lytx — 2 operation(s) for consent.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Consent API from Lytx — 2 operation(s) for consent.
   name: Lytx Consent API
   slug: lytx-consent-api
-- description: The Devices (DriveCam) API from Lytx — 3 operation(s) for devices (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Devices (DriveCam) API from Lytx — 3 operation(s) for devices (drivecam).
   name: Lytx Devices (DriveCam) API
   slug: lytx-devices-drivecam-api
-- description: The Devices (GO9) API from Lytx — 1 operation(s) for devices (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Devices (GO9) API from Lytx — 1 operation(s) for devices (go9).
   name: Lytx Devices (GO9) API
   slug: lytx-devices-go9-api
-- description: The DeviceStatusInfo (GO9) API from Lytx — 1 operation(s) for devicestatusinfo (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The DeviceStatusInfo (GO9) API from Lytx — 1 operation(s) for devicestatusinfo (go9).
   name: Lytx DeviceStatusInfo (GO9) API
   slug: lytx-devicestatusinfo-go9-api
-- description: The Diagnostics (GO9) API from Lytx — 1 operation(s) for diagnostics (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Diagnostics (GO9) API from Lytx — 1 operation(s) for diagnostics (go9).
   name: Lytx Diagnostics (GO9) API
   slug: lytx-diagnostics-go9-api
-- description: The Distances (DriveCam) API from Lytx — 1 operation(s) for distances (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Distances (DriveCam) API from Lytx — 1 operation(s) for distances (drivecam).
   name: Lytx Distances (DriveCam) API
   slug: lytx-distances-drivecam-api
-- description: The Driver Assignments (DriveCam) API from Lytx — 4 operation(s) for driver assignments (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Driver Assignments (DriveCam) API from Lytx — 4 operation(s) for driver assignments (drivecam).
   name: Lytx Driver Assignments (DriveCam) API
   slug: lytx-driver-assignments-drivecam-api
-- description: Legacy API to retrieve vehicle trips, including drivers and vehicles assigned to each trip. Uses obsolete X-APIKey authentication.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: Legacy API to retrieve vehicle trips, including drivers and vehicles assigned to each trip. Uses obsolete X-APIKey authentication.
   name: Lytx Driver ID (DriveCam) API
   slug: lytx-driver-id-drivecam-api
-- description: The Drivers (GO9) API from Lytx — 1 operation(s) for drivers (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Drivers (GO9) API from Lytx — 1 operation(s) for drivers (go9).
   name: Lytx Drivers (GO9) API
   slug: lytx-drivers-go9-api
-- description: The DVIR (DriveCam) API from Lytx — 4 operation(s) for dvir (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The DVIR (DriveCam) API from Lytx — 4 operation(s) for dvir (drivecam).
   name: Lytx DVIR (DriveCam) API
   slug: lytx-dvir-drivecam-api
-- description: The DVIR (GO9) API from Lytx — 1 operation(s) for dvir (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The DVIR (GO9) API from Lytx — 1 operation(s) for dvir (go9).
   name: Lytx DVIR (GO9) API
   slug: lytx-dvir-go9-api
-- description: The ECM API from Lytx — 1 operation(s) for ecm.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The ECM API from Lytx — 1 operation(s) for ecm.
   name: Lytx ECM API
   slug: lytx-ecm-api
-- description: The ECM (DriveCam) API from Lytx — 5 operation(s) for ecm (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The ECM (DriveCam) API from Lytx — 5 operation(s) for ecm (drivecam).
   name: Lytx ECM (DriveCam) API
   slug: lytx-ecm-drivecam-api
-- description: The ExceptionEvent (GO9) API from Lytx — 1 operation(s) for exceptionevent (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The ExceptionEvent (GO9) API from Lytx — 1 operation(s) for exceptionevent (go9).
   name: Lytx ExceptionEvent (GO9) API
   slug: lytx-exceptionevent-go9-api
-- description: The FaultData (GO9) API from Lytx — 1 operation(s) for faultdata (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The FaultData (GO9) API from Lytx — 1 operation(s) for faultdata (go9).
   name: Lytx FaultData (GO9) API
   slug: lytx-faultdata-go9-api
-- description: The FleetUtilization (GO9) API from Lytx — 1 operation(s) for fleetutilization (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The FleetUtilization (GO9) API from Lytx — 1 operation(s) for fleetutilization (go9).
   name: Lytx FleetUtilization (GO9) API
   slug: lytx-fleetutilization-go9-api
-- description: The Geofences (DriveCam) API from Lytx — 4 operation(s) for geofences (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Geofences (DriveCam) API from Lytx — 4 operation(s) for geofences (drivecam).
   name: Lytx Geofences (DriveCam) API
   slug: lytx-geofences-drivecam-api
-- description: The GPS (DriveCam) API from Lytx — 1 operation(s) for gps (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The GPS (DriveCam) API from Lytx — 1 operation(s) for gps (drivecam).
   name: Lytx GPS (DriveCam) API
   slug: lytx-gps-drivecam-api
-- description: The GPS (GO9) API from Lytx — 1 operation(s) for gps (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The GPS (GO9) API from Lytx — 1 operation(s) for gps (go9).
   name: Lytx GPS (GO9) API
   slug: lytx-gps-go9-api
-- description: The Groups API from Lytx — 2 operation(s) for groups.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Groups API from Lytx — 2 operation(s) for groups.
   name: Lytx Groups API
   slug: lytx-groups-api
-- description: The Groups (DriveCam) API from Lytx — 7 operation(s) for groups (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Groups (DriveCam) API from Lytx — 7 operation(s) for groups (drivecam).
   name: Lytx Groups (DriveCam) API
   slug: lytx-groups-drivecam-api
-- description: The Groups (GO9) API from Lytx — 1 operation(s) for groups (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Groups (GO9) API from Lytx — 1 operation(s) for groups (go9).
   name: Lytx Groups (GO9) API
   slug: lytx-groups-go9-api
-- description: The HOS (DriveCam) API from Lytx — 4 operation(s) for hos (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The HOS (DriveCam) API from Lytx — 4 operation(s) for hos (drivecam).
   name: Lytx HOS (DriveCam) API
   slug: lytx-hos-drivecam-api
-- description: The HOS (GO9) API from Lytx — 1 operation(s) for hos (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The HOS (GO9) API from Lytx — 1 operation(s) for hos (go9).
   name: Lytx HOS (GO9) API
   slug: lytx-hos-go9-api
-- description: The IFTAReport (GO9) API from Lytx — 1 operation(s) for iftareport (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The IFTAReport (GO9) API from Lytx — 1 operation(s) for iftareport (go9).
   name: Lytx IFTAReport (GO9) API
   slug: lytx-iftareport-go9-api
-- description: The MaintenanceRecords (GO9) API from Lytx — 1 operation(s) for maintenancerecords (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The MaintenanceRecords (GO9) API from Lytx — 1 operation(s) for maintenancerecords (go9).
   name: Lytx MaintenanceRecords (GO9) API
   slug: lytx-maintenancerecords-go9-api
-- description: The Rule (GO9) API from Lytx — 1 operation(s) for rule (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Rule (GO9) API from Lytx — 1 operation(s) for rule (go9).
   name: Lytx Rule (GO9) API
   slug: lytx-rule-go9-api
-- description: Legacy API to retrieve vehicles events data. Uses obsolete X-APIKey authentication.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: Legacy API to retrieve vehicles events data. Uses obsolete X-APIKey authentication.
   name: Lytx Safety (DriveCam) API
   slug: lytx-safety-drivecam-api
-- description: Retrieves vehicles events data
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: Retrieves vehicles events data
   name: Lytx Safety Events (DriveCam) API
   slug: lytx-safety-events-drivecam-api
-- description: The StatusData (GO9) API from Lytx — 1 operation(s) for statusdata (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The StatusData (GO9) API from Lytx — 1 operation(s) for statusdata (go9).
   name: Lytx StatusData (GO9) API
   slug: lytx-statusdata-go9-api
-- description: The Trips (DriveCam) API from Lytx — 1 operation(s) for trips (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Trips (DriveCam) API from Lytx — 1 operation(s) for trips (drivecam).
   name: Lytx Trips (DriveCam) API
   slug: lytx-trips-drivecam-api
-- description: The Trips (GO9) API from Lytx — 1 operation(s) for trips (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Trips (GO9) API from Lytx — 1 operation(s) for trips (go9).
   name: Lytx Trips (GO9) API
   slug: lytx-trips-go9-api
-- description: The Users (DriveCam) API from Lytx — 5 operation(s) for users (drivecam).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Users (DriveCam) API from Lytx — 5 operation(s) for users (drivecam).
   name: Lytx Users (DriveCam) API
   slug: lytx-users-drivecam-api
-- description: The Users (GO9) API from Lytx — 1 operation(s) for users (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Users (GO9) API from Lytx — 1 operation(s) for users (go9).
   name: Lytx Users (GO9) API
   slug: lytx-users-go9-api
-- description: Legacy External Vehicles API. Uses obsolete X-APIKey authentication.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: Legacy External Vehicles API. Uses obsolete X-APIKey authentication.
   name: Lytx Vehicles (DriveCam) API
   slug: lytx-vehicles-drivecam-api
-- description: Legacy API to retrieve LVS vehicle data, LVS events or image data from a device. Uses obsolete X-APIKey authentication.
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: Legacy API to retrieve LVS vehicle data, LVS events or image data from a device. Uses obsolete X-APIKey authentication.
   name: Lytx Video (DriveCam) API
   slug: lytx-video-drivecam-api
-- description: The Zones (GO9) API from Lytx — 1 operation(s) for zones (go9).
+- baseURL: https://api.lytx.com/consent-management
+  baseurl_source: declared
+  description: The Zones (GO9) API from Lytx — 1 operation(s) for zones (go9).
   name: Lytx Zones (GO9) API
   slug: lytx-zones-go9-api
 artifact_total: 80
@@ -404,7 +478,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -414,7 +488,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -426,7 +500,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

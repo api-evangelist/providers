@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The Upbit WebSocket API delivers real-time streaming data for market and account events. Public streams include live tickers, full orderbook updates, OHLCV candles, and trade feeds for any trading pai
   name: Upbit WebSocket API
   slug: websocket-api
-- description: Account balance and portfolio endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Account balance and portfolio endpoints — JWT required
   name: Upbit Exchange - Account API
   slug: upbit-exchange-account-api
-- description: Deposit management endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Deposit management endpoints — JWT required
   name: Upbit Exchange - Deposits API
   slug: upbit-exchange-deposits-api
-- description: Order management endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Order management endpoints — JWT required
   name: Upbit Exchange - Orders API
   slug: upbit-exchange-orders-api
-- description: Service status and API key endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Service status and API key endpoints — JWT required
   name: Upbit Exchange - Service API
   slug: upbit-exchange-service-api
-- description: Travel Rule compliance endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Travel Rule compliance endpoints — JWT required
   name: Upbit Exchange - Travel Rule API
   slug: upbit-exchange-travel-rule-api
-- description: Withdrawal management endpoints — JWT required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Withdrawal management endpoints — JWT required
   name: Upbit Exchange - Withdrawals API
   slug: upbit-exchange-withdrawals-api
-- description: Public market data endpoints — no authentication required
+- baseURL: https://api.upbit.com
+  baseurl_source: declared
+  description: Public market data endpoints — no authentication required
   name: Upbit Quotation API
   slug: upbit-quotation-api
 artifact_total: 24
@@ -229,7 +243,7 @@ score:
     regime_id: securities_market_data
     score: 48.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbit/refs/heads/main/screenshots/upbit-2026-06-20T200501.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: Time-series API for thousands of on-chain and market metrics across major crypto assets. Endpoints follow /v1/metrics/{category}/{name} pattern. Data is updated daily, hourly, or 10-minute depending o
   name: Glassnode Metrics API
   slug: metrics-api
-- description: The Addresses API from Glassnode — 1 operation(s) for addresses.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Addresses API from Glassnode — 1 operation(s) for addresses.
   name: Glassnode Addresses API
   slug: glassnode-addresses-api
-- description: The Derivatives API from Glassnode — 1 operation(s) for derivatives.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Derivatives API from Glassnode — 1 operation(s) for derivatives.
   name: Glassnode Derivatives API
   slug: glassnode-derivatives-api
-- description: The Distribution API from Glassnode — 1 operation(s) for distribution.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Distribution API from Glassnode — 1 operation(s) for distribution.
   name: Glassnode Distribution API
   slug: glassnode-distribution-api
-- description: The Indicators API from Glassnode — 1 operation(s) for indicators.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Indicators API from Glassnode — 1 operation(s) for indicators.
   name: Glassnode Indicators API
   slug: glassnode-indicators-api
-- description: The Macro API from Glassnode — 1 operation(s) for macro.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Macro API from Glassnode — 1 operation(s) for macro.
   name: Glassnode Macro API
   slug: glassnode-macro-api
-- description: The Market API from Glassnode — 1 operation(s) for market.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Market API from Glassnode — 1 operation(s) for market.
   name: Glassnode Market API
   slug: glassnode-market-api
-- description: The Metadata API from Glassnode — 3 operation(s) for metadata.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Metadata API from Glassnode — 3 operation(s) for metadata.
   name: Glassnode Metadata API
   slug: glassnode-metadata-api
-- description: The Options API from Glassnode — 1 operation(s) for options.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Options API from Glassnode — 1 operation(s) for options.
   name: Glassnode Options API
   slug: glassnode-options-api
-- description: The Supply API from Glassnode — 1 operation(s) for supply.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Supply API from Glassnode — 1 operation(s) for supply.
   name: Glassnode Supply API
   slug: glassnode-supply-api
-- description: The Transactions API from Glassnode — 1 operation(s) for transactions.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Transactions API from Glassnode — 1 operation(s) for transactions.
   name: Glassnode Transactions API
   slug: glassnode-transactions-api
-- description: The Treasuries API from Glassnode — 1 operation(s) for treasuries.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The Treasuries API from Glassnode — 1 operation(s) for treasuries.
   name: Glassnode Treasuries API
   slug: glassnode-treasuries-api
-- description: The User API from Glassnode — 1 operation(s) for user.
+- baseURL: https://api.glassnode.com/v1
+  baseurl_source: declared
+  description: The User API from Glassnode — 1 operation(s) for user.
   name: Glassnode User API
   slug: glassnode-user-api
 artifact_total: 33
@@ -232,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/screenshots/glassnode-2026-06-20T181914.png
 security:

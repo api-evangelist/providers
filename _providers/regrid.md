@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: API providing current owner information and deeded property details with daily refresh cycles for up-to-date ownership tracking.
   name: Regrid Daily Ownership Updates API
   slug: regrid-daily-ownership-updates-api
-- description: Coverage, usage, and data quality endpoints
+- baseURL: https://app.regrid.com
+  baseurl_source: declared
+  description: Coverage, usage, and data quality endpoints
   name: Regrid Metadata API
   slug: regrid-metadata-api
-- description: Filter parcel dataset by indexed schema attributes
+- baseURL: https://app.regrid.com
+  baseurl_source: declared
+  description: Filter parcel dataset by indexed schema attributes
   name: Regrid Parcel Query API
   slug: regrid-parcel-query-api
-- description: Search parcel records by various criteria
+- baseURL: https://app.regrid.com
+  baseurl_source: declared
+  description: Search parcel records by various criteria
   name: Regrid Parcel Search API
   slug: regrid-parcel-search-api
-- description: Field schema definitions for parcel data products
+- baseURL: https://app.regrid.com
+  baseurl_source: declared
+  description: Field schema definitions for parcel data products
   name: Regrid Schemas API
   slug: regrid-schemas-api
-- description: Address autocomplete suggestions
+- baseURL: https://app.regrid.com
+  baseurl_source: declared
+  description: Address autocomplete suggestions
   name: Regrid Typeahead API
   slug: regrid-typeahead-api
 artifact_total: 26
@@ -246,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
 security:

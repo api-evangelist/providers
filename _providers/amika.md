@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The API keys API from Amika — 2 operation(s) for api keys.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The API keys API from Amika — 2 operation(s) for api keys.
   name: Amika API keys API
   slug: amika-api-keys-api
-- description: The Docker registries API from Amika — 2 operation(s) for docker registries.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Docker registries API from Amika — 2 operation(s) for docker registries.
   name: Amika Docker registries API
   slug: amika-docker-registries-api
-- description: The Downloads API from Amika — 1 operation(s) for downloads.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Downloads API from Amika — 1 operation(s) for downloads.
   name: Amika Downloads API
   slug: amika-downloads-api
-- description: The Git user settings API from Amika — 1 operation(s) for git user settings.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Git user settings API from Amika — 1 operation(s) for git user settings.
   name: Amika Git user settings API
   slug: amika-git-user-settings-api
-- description: The Integrations API from Amika — 2 operation(s) for integrations.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Integrations API from Amika — 2 operation(s) for integrations.
   name: Amika Integrations API
   slug: amika-integrations-api
-- description: The Repositories API from Amika — 5 operation(s) for repositories.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Repositories API from Amika — 5 operation(s) for repositories.
   name: Amika Repositories API
   slug: amika-repositories-api
-- description: The Sandboxes API from Amika — 16 operation(s) for sandboxes.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Sandboxes API from Amika — 16 operation(s) for sandboxes.
   name: Amika Sandboxes API
   slug: amika-sandboxes-api
-- description: The SandboxSnapshots API from Amika — 3 operation(s) for sandboxsnapshots.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The SandboxSnapshots API from Amika — 3 operation(s) for sandboxsnapshots.
   name: Amika SandboxSnapshots API
   slug: amika-sandboxsnapshots-api
-- description: The Secrets API from Amika — 11 operation(s) for secrets.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Secrets API from Amika — 11 operation(s) for secrets.
   name: Amika Secrets API
   slug: amika-secrets-api
-- description: The Services API from Amika — 2 operation(s) for services.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Services API from Amika — 2 operation(s) for services.
   name: Amika Services API
   slug: amika-services-api
-- description: The Slack API from Amika — 2 operation(s) for slack.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Slack API from Amika — 2 operation(s) for slack.
   name: Amika Slack API
   slug: amika-slack-api
-- description: The Uploads API from Amika — 2 operation(s) for uploads.
+- baseURL: https://app.amika.dev/api/v0beta1
+  baseurl_source: declared
+  description: The Uploads API from Amika — 2 operation(s) for uploads.
   name: Amika Uploads API
   slug: amika-uploads-api
 artifact_total: 28
@@ -291,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:

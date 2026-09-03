@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 98 operations · 51 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- description: Manage API keys for programmatic access, including creation, retrieval, listing, updating, and deletion.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage API keys for programmatic access, including creation, retrieval, listing, updating, and deletion.
   name: Cockroach Labs APIKeys API
   slug: cockroach-labs-apikeys-api
-- description: Retrieve audit log events for the organization to support compliance and security investigations.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve audit log events for the organization to support compliance and security investigations.
   name: Cockroach Labs AuditLogs API
   slug: cockroach-labs-auditlogs-api
-- description: Authenticate to the Cluster API by creating and terminating API sessions. Session tokens are passed via the X-Cockroach-API-Session header on subsequent requests.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Authenticate to the Cluster API by creating and terminating API sessions. Session tokens are passed via the X-Cockroach-API-Session header on subsequent requests.
   name: Cockroach Labs Auth API
   slug: cockroach-labs-auth-api
-- description: Manage cluster backups, backup configurations, and restore operations for CockroachDB clusters.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage cluster backups, backup configurations, and restore operations for CockroachDB clusters.
   name: Cockroach Labs BackupRestore API
   slug: cockroach-labs-backuprestore-api
-- description: Retrieve invoices and billing information for the CockroachDB Cloud organization.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve invoices and billing information for the CockroachDB Cloud organization.
   name: Cockroach Labs Billing API
   slug: cockroach-labs-billing-api
-- description: Create, list, retrieve, update, and delete CockroachDB Serverless and Dedicated clusters within an organization.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete CockroachDB Serverless and Dedicated clusters within an organization.
   name: Cockroach Labs Clusters API
   slug: cockroach-labs-clusters-api
-- description: Manage customer-managed encryption keys (CMEK) for encrypting cluster data at rest using customer-controlled keys.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage customer-managed encryption keys (CMEK) for encrypting cluster data at rest using customer-controlled keys.
   name: Cockroach Labs CMEK API
   slug: cockroach-labs-cmek-api
-- description: Manage databases within a CockroachDB cluster, including creation, listing, updating, and deletion.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage databases within a CockroachDB cluster, including creation, listing, updating, and deletion.
   name: Cockroach Labs Databases API
   slug: cockroach-labs-databases-api
-- description: Configure egress traffic rules and egress private endpoints for outbound cluster network traffic.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure egress traffic rules and egress private endpoints for outbound cluster network traffic.
   name: Cockroach Labs EgressRules API
   slug: cockroach-labs-egressrules-api
-- description: Organize clusters and other resources into hierarchical folder structures within the organization.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Organize clusters and other resources into hierarchical folder structures within the organization.
   name: Cockroach Labs Folders API
   slug: cockroach-labs-folders-api
-- description: Check the health and readiness of individual CockroachDB nodes. The health endpoint can report whether the node is live and fully operational for accepting SQL connections.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Check the health and readiness of individual CockroachDB nodes. The health endpoint can report whether the node is live and fully operational for accepting SQL connections.
   name: Cockroach Labs Health API
   slug: cockroach-labs-health-api
-- description: Configure IP allowlist entries to control network access to a cluster.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure IP allowlist entries to control network access to a cluster.
   name: Cockroach Labs IPAllowlists API
   slug: cockroach-labs-ipallowlists-api
-- description: Manage JWT issuer configurations for external identity provider integrations.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage JWT issuer configurations for external identity provider integrations.
   name: Cockroach Labs JWTIssuers API
   slug: cockroach-labs-jwtissuers-api
-- description: Configure log export to external destinations such as AWS CloudWatch or GCP Cloud Logging.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure log export to external destinations such as AWS CloudWatch or GCP Cloud Logging.
   name: Cockroach Labs LogExport API
   slug: cockroach-labs-logexport-api
-- description: Configure maintenance windows and blackout periods for cluster upgrade scheduling.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure maintenance windows and blackout periods for cluster upgrade scheduling.
   name: Cockroach Labs MaintenanceWindows API
   slug: cockroach-labs-maintenancewindows-api
-- description: Configure metric export integrations including AWS CloudWatch, Datadog, and Prometheus.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Configure metric export integrations including AWS CloudWatch, Datadog, and Prometheus.
   name: Cockroach Labs MetricExport API
   slug: cockroach-labs-metricexport-api
-- description: Retrieve information about all nodes in the cluster, including their status, address, locality, and operational metrics.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve information about all nodes in the cluster, including their status, address, locality, and operational metrics.
   name: Cockroach Labs Nodes API
   slug: cockroach-labs-nodes-api
-- description: Retrieve information about the caller's CockroachDB Cloud organization.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve information about the caller's CockroachDB Cloud organization.
   name: Cockroach Labs Organizations API
   slug: cockroach-labs-organizations-api
-- description: Manage private endpoint services and connections for secure VPC-level access to clusters.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage private endpoint services and connections for secure VPC-level access to clusters.
   name: Cockroach Labs PrivateEndpoints API
   slug: cockroach-labs-privateendpoints-api
-- description: List and inspect range information for the cluster, including hot ranges by node and detailed information for specific range IDs.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: List and inspect range information for the cluster, including hot ranges by node and detailed information for specific range IDs.
   name: Cockroach Labs Ranges API
   slug: cockroach-labs-ranges-api
-- description: Manage role-based access control, including assigning and removing roles for users across organization, folder, and cluster scopes.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage role-based access control, including assigning and removing roles for users across organization, folder, and cluster scopes.
   name: Cockroach Labs RoleManagement API
   slug: cockroach-labs-rolemanagement-api
-- description: Retrieve alerting rules templates for use with Prometheus-compatible alerting systems.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Retrieve alerting rules templates for use with Prometheus-compatible alerting systems.
   name: Cockroach Labs Rules API
   slug: cockroach-labs-rules-api
-- description: Manage service accounts used for machine-to-machine authentication within the organization.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage service accounts used for machine-to-machine authentication within the organization.
   name: Cockroach Labs ServiceAccounts API
   slug: cockroach-labs-serviceaccounts-api
-- description: List active SQL sessions across all nodes of the cluster, with optional filtering by username.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: List active SQL sessions across all nodes of the cluster, with optional filtering by username.
   name: Cockroach Labs Sessions API
   slug: cockroach-labs-sessions-api
-- description: Manage SQL users for a cluster, including creating users, listing users, and updating SQL user passwords.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage SQL users for a cluster, including creating users, listing users, and updating SQL user passwords.
   name: Cockroach Labs SQLUsers API
   slug: cockroach-labs-sqlusers-api
-- description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
+- baseURL: https://cockroachlabs.cloud
+  baseurl_source: declared
+  description: Manage cluster version deferral policies to delay automatic CockroachDB version upgrades.
   name: Cockroach Labs VersionDeferral API
   slug: cockroach-labs-versiondeferral-api
 artifact_total: 117
@@ -457,7 +509,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -467,7 +519,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -476,7 +528,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroach-labs/refs/heads/main/screenshots/cockroach-labs-2026-06-20T174648.png
 security:

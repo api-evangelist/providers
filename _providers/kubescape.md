@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -47,22 +47,34 @@ apis:
 - description: The open-source Kubescape Operator's in-cluster components (storage, kubevuln, gateway, operator, node-agent) each expose an OpenAPI/Swagger-documented HTTP API reachable inside the cluster at /openap
   name: Kubescape In-Cluster Component API (Open Source)
   slug: kubescape-in-cluster-component-api
-- description: Agent access keys and exception policies.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Agent access keys and exception policies.
   name: Kubescape Access Keys API
   slug: kubescape-access-keys-api
-- description: Generated NetworkPolicies and seccomp profiles.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Generated NetworkPolicies and seccomp profiles.
   name: Kubescape Network Policies API
   slug: kubescape-network-policies-api
-- description: Framework, control, and resource posture results.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Framework, control, and resource posture results.
   name: Kubescape Posture & Compliance API
   slug: kubescape-posture-compliance-api
-- description: Registry scans and Git repository posture.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Registry scans and Git repository posture.
   name: Kubescape Registry & Repository API
   slug: kubescape-registry-repository-api
-- description: Runtime incidents, attack chains, and security risks.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Runtime incidents, attack chains, and security risks.
   name: Kubescape Runtime Security API
   slug: kubescape-runtime-security-api
-- description: Image and workload vulnerability scanning and results.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Image and workload vulnerability scanning and results.
   name: Kubescape Vulnerabilities API
   slug: kubescape-vulnerabilities-api
 artifact_total: 21
@@ -188,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/screenshots/kubescape-2026-07-25T224314.png
 security:

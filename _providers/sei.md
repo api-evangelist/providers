@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,31 +45,49 @@ apis:
 - description: Ethereum-compatible JSON-RPC API for interacting with Sei's EVM layer. Supports standard Ethereum methods for sending transactions, querying account balances and code, retrieving block and transaction
   name: Sei EVM JSON-RPC API
   slug: sei-evm-json-rpc-api
-- description: ABCI APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: ABCI APIs
   name: Sei ABCI API
   slug: sei-abci-api
-- description: Event subscription APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Event subscription APIs
   name: Sei Events API
   slug: sei-events-api
-- description: Evidence APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Evidence APIs
   name: Sei Evidence API
   slug: sei-evidence-api
-- description: Informations about the node APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Informations about the node APIs
   name: Sei Info API
   slug: sei-info-api
-- description: The Query API from Sei — 129 operation(s) for query.
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: The Query API from Sei — 129 operation(s) for query.
   name: Sei Query API
   slug: sei-query-api
-- description: The Service API from Sei — 10 operation(s) for service.
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: The Service API from Sei — 10 operation(s) for service.
   name: Sei Service API
   slug: sei-service-api
-- description: Transactions broadcast APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Transactions broadcast APIs
   name: Sei Tx API
   slug: sei-tx-api
-- description: Unsafe APIs
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Unsafe APIs
   name: Sei Unsafe API
   slug: sei-unsafe-api
-- description: Subscribe/unsubscribe are reserved for websocket events.
+- baseURL: https://evm-rpc.sei-apis.com
+  baseurl_source: declared
+  description: Subscribe/unsubscribe are reserved for websocket events.
   name: Sei Websocket API
   slug: sei-websocket-api
 artifact_total: 25
@@ -193,7 +211,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -203,7 +221,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 44.7
-  previous_composite: 30.1
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -218,7 +236,7 @@ score:
     regime_id: securities_market_data
     score: 18.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sei/refs/heads/main/screenshots/sei-2026-06-20T193635.png
 security:

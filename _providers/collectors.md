@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
+- baseURL: https://api.psacard.com/publicapi
+  baseurl_source: declared
+  description: The PSA Public API Methods API from Collectors — 6 operation(s) for psa public api methods.
   name: Collectors PSA Public API Methods API
   slug: collectors-psa-public-api-methods-api
 artifact_total: 7
@@ -188,7 +190,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/collectors/refs/heads/main/screenshots/collectors-2026-07-25T210048.png
 security:

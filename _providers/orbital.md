@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 2
 apis:
-- description: The Caches API from Orbital — 1 operation(s) for caches.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Caches API from Orbital — 1 operation(s) for caches.
   name: Orbital Caches API
   slug: orbital-caches-api
-- description: The Connections API from Orbital — 2 operation(s) for connections.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Connections API from Orbital — 2 operation(s) for connections.
   name: Orbital Connections API
   slug: orbital-connections-api
-- description: The Schemas API from Orbital — 2 operation(s) for schemas.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Schemas API from Orbital — 2 operation(s) for schemas.
   name: Orbital Schemas API
   slug: orbital-schemas-api
-- description: The Services API from Orbital — 2 operation(s) for services.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Services API from Orbital — 2 operation(s) for services.
   name: Orbital Services API
   slug: orbital-services-api
-- description: The Taxiql API from Orbital — 1 operation(s) for taxiql.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Taxiql API from Orbital — 1 operation(s) for taxiql.
   name: Orbital Taxiql API
   slug: orbital-taxiql-api
-- description: The Types API from Orbital — 2 operation(s) for types.
+- baseURL: https://localhost:9022
+  baseurl_source: spec
+  description: The Types API from Orbital — 2 operation(s) for types.
   name: Orbital Types API
   slug: orbital-types-api
 artifact_total: 28
@@ -217,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/screenshots/orbital-2026-06-20T191159.png
 security:

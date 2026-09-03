@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 37 operations · 22 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage AI platform (embedding / model) connectors.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Manage AI platform (embedding / model) connectors.
   name: Vectorize AI Platform Connectors API
   slug: vectorize-io-ai-platform-connectors-api
-- description: Manage destination (vector database) connectors.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Manage destination (vector database) connectors.
   name: Vectorize Destination Connectors API
   slug: vectorize-io-destination-connectors-api
-- description: Vectorize Iris document extraction.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Vectorize Iris document extraction.
   name: Vectorize Extraction API
   slug: vectorize-io-extraction-api
-- description: Upload generic files to the platform.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Upload generic files to the platform.
   name: Vectorize Files API
   slug: vectorize-io-files-api
-- description: Create and operate RAG pipelines, retrieval, and deep research.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Create and operate RAG pipelines, retrieval, and deep research.
   name: Vectorize Pipelines API
   slug: vectorize-io-pipelines-api
-- description: Manage data source connectors.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Manage data source connectors.
   name: Vectorize Source Connectors API
   slug: vectorize-io-source-connectors-api
-- description: Push and manage files against File Upload connectors.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: Push and manage files against File Upload connectors.
   name: Vectorize Uploads API
   slug: vectorize-io-uploads-api
-- description: List and retrieve workspaces.
+- baseURL: https://api.vectorize.io/v1
+  baseurl_source: declared
+  description: List and retrieve workspaces.
   name: Vectorize Workspaces API
   slug: vectorize-io-workspaces-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/screenshots/vectorize-io-2026-06-20T200845.png
 security:

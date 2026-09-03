@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -72,7 +72,9 @@ apis:
 - description: Columbia's research data platform runs on Redivis as an institution-specific tenancy, and the university has registered two distinct DataCite repository clients against it — CUL.CUIT "Columbia Univers
   name: Columbia University Data Platform (Redivis)
   slug: redivis
-- description: Library locations and their posted opening hours.
+- baseURL: https://hours.library.columbia.edu/api/v1
+  baseurl_source: declared
+  description: Library locations and their posted opening hours.
   name: Columbia University Locations API
   slug: columbia-locations-api
 artifact_total: 27
@@ -273,7 +275,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -283,7 +285,7 @@ score:
     discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 44.8
+  previous_composite: 44.7
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -299,7 +301,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png
 security:

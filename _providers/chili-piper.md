@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -37,49 +50,79 @@ apis:
 - description: Official hosted remote MCP server for Chili Piper, served over streamable HTTP at https://fire.chilipiper.com/api/fire-edge/v1/org/mcp. Supports OAuth (Admin, browser-based) and API-key bearer authent
   name: Chili Piper MCP Server
   slug: mcp
-- description: The availability API from Chili Piper — 1 operation(s) for availability.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The availability API from Chili Piper — 1 operation(s) for availability.
   name: Chili Piper Availability API
   slug: chili-piper-availability-api
-- description: The chat API from Chili Piper — 1 operation(s) for chat.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The chat API from Chili Piper — 1 operation(s) for chat.
   name: Chili Piper Chat API
   slug: chili-piper-chat-api
-- description: The concierge API from Chili Piper — 4 operation(s) for concierge.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The concierge API from Chili Piper — 4 operation(s) for concierge.
   name: Chili Piper Concierge API
   slug: chili-piper-concierge-api
-- description: The distribution API from Chili Piper — 3 operation(s) for distribution.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The distribution API from Chili Piper — 3 operation(s) for distribution.
   name: Chili Piper Distribution API
   slug: chili-piper-distribution-api
-- description: The distro API from Chili Piper — 7 operation(s) for distro.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The distro API from Chili Piper — 7 operation(s) for distro.
   name: Chili Piper Distro API
   slug: chili-piper-distro-api
-- description: The handoff API from Chili Piper — 3 operation(s) for handoff.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The handoff API from Chili Piper — 3 operation(s) for handoff.
   name: Chili Piper Handoff API
   slug: chili-piper-handoff-api
-- description: The meeting-type API from Chili Piper — 4 operation(s) for meeting-type.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The meeting-type API from Chili Piper — 4 operation(s) for meeting-type.
   name: Chili Piper Meeting Type API
   slug: chili-piper-meeting-type-api
-- description: The meeting-type-reminder API from Chili Piper — 3 operation(s) for meeting-type-reminder.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The meeting-type-reminder API from Chili Piper — 3 operation(s) for meeting-type-reminder.
   name: Chili Piper Meeting Type Reminder API
   slug: chili-piper-meeting-type-reminder-api
-- description: The meetings API from Chili Piper — 4 operation(s) for meetings.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The meetings API from Chili Piper — 4 operation(s) for meetings.
   name: Chili Piper Meetings API
   slug: chili-piper-meetings-api
-- description: The rule API from Chili Piper — 2 operation(s) for rule.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The rule API from Chili Piper — 2 operation(s) for rule.
   name: Chili Piper Rule API
   slug: chili-piper-rule-api
-- description: The schedulingLinks API from Chili Piper — 13 operation(s) for schedulinglinks.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The schedulingLinks API from Chili Piper — 13 operation(s) for schedulinglinks.
   name: Chili Piper Scheduling Links API
   slug: chili-piper-schedulinglinks-api
-- description: The team API from Chili Piper — 5 operation(s) for team.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The team API from Chili Piper — 5 operation(s) for team.
   name: Chili Piper Team API
   slug: chili-piper-team-api
-- description: The tenant API from Chili Piper — 1 operation(s) for tenant.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The tenant API from Chili Piper — 1 operation(s) for tenant.
   name: Chili Piper Tenant API
   slug: chili-piper-tenant-api
-- description: The user API from Chili Piper — 4 operation(s) for user.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The user API from Chili Piper — 4 operation(s) for user.
   name: Chili Piper User API
   slug: chili-piper-user-api
-- description: The workspace API from Chili Piper — 4 operation(s) for workspace.
+- baseURL: https://fire.chilipiper.com/api/fire-edge
+  baseurl_source: declared
+  description: The workspace API from Chili Piper — 4 operation(s) for workspace.
   name: Chili Piper Workspace API
   slug: chili-piper-workspace-api
 artifact_total: 42
@@ -330,7 +373,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -340,7 +383,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 62.9
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,7 +395,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chili-piper/refs/heads/main/screenshots/chili-piper-2026-08-17T080410.png
 security:

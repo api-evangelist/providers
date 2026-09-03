@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: Sabre Rail API provides rail ticket search, booking, and management capabilities connecting to over 30 rail operators worldwide for travel agencies and multi-modal booking platforms.
   name: Sabre Rail API
   slug: rail
-- description: Low-fare search and offer retrieval
+- baseURL: https://api.sabre.com
+  baseurl_source: spec
+  description: Low-fare search and offer retrieval
   name: Sabre Air Shopping API
   slug: sabre-air-shopping-api
-- description: Token-based authentication
+- baseURL: https://api.sabre.com
+  baseurl_source: spec
+  description: Token-based authentication
   name: Sabre Authentication API
   slug: sabre-authentication-api
-- description: Reservation management
+- baseURL: https://api.sabre.com
+  baseurl_source: spec
+  description: Reservation management
   name: Sabre Hotel Booking API
   slug: sabre-hotel-booking-api
-- description: Search and availability operations
+- baseURL: https://api.sabre.com
+  baseurl_source: spec
+  description: Search and availability operations
   name: Sabre Hotel Search API
   slug: sabre-hotel-search-api
 artifact_total: 62
@@ -392,7 +400,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Customer-gated Dragos Platform SiteStore v2 API for tenants to read OT assets and alerts from their monitoring platform. Per-tenant host of the form https://<company>.platform.dragos.cloud. Authentica
   name: Dragos Platform SiteStore API
   slug: dragos-platform-sitestore-api
-- description: The Indicators API from Dragos — 3 operation(s) for indicators.
+- baseURL: https://portal.dragos.com
+  baseurl_source: declared
+  description: The Indicators API from Dragos — 3 operation(s) for indicators.
   name: Dragos Indicators API
   slug: dragos-indicators-api
-- description: The Products API from Dragos — 4 operation(s) for products.
+- baseURL: https://portal.dragos.com
+  baseurl_source: declared
+  description: The Products API from Dragos — 4 operation(s) for products.
   name: Dragos Products API
   slug: dragos-products-api
-- description: The Tags API from Dragos — 2 operation(s) for tags.
+- baseURL: https://portal.dragos.com
+  baseurl_source: declared
+  description: The Tags API from Dragos — 2 operation(s) for tags.
   name: Dragos Tags API
   slug: dragos-tags-api
 artifact_total: 13
@@ -241,7 +247,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 1
 apis:
-- description: Crypto trading account details and buying power.
+- baseURL: https://trading.robinhood.com
+  baseurl_source: declared
+  description: Crypto trading account details and buying power.
   name: Robinhood Account API
   slug: robinhood-account-api
-- description: Current cryptocurrency positions.
+- baseURL: https://trading.robinhood.com
+  baseurl_source: declared
+  description: Current cryptocurrency positions.
   name: Robinhood Holdings API
   slug: robinhood-holdings-api
-- description: Best bid/ask quotes and estimated execution prices.
+- baseURL: https://trading.robinhood.com
+  baseurl_source: declared
+  description: Best bid/ask quotes and estimated execution prices.
   name: Robinhood Market Data API
   slug: robinhood-market-data-api
-- description: Place, list, retrieve, and cancel crypto orders.
+- baseURL: https://trading.robinhood.com
+  baseurl_source: declared
+  description: Place, list, retrieve, and cancel crypto orders.
   name: Robinhood Orders API
   slug: robinhood-orders-api
-- description: Supported crypto trading pairs and their constraints.
+- baseURL: https://trading.robinhood.com
+  baseurl_source: declared
+  description: Supported crypto trading pairs and their constraints.
   name: Robinhood Trading Pairs API
   slug: robinhood-trading-pairs-api
 artifact_total: 16
@@ -248,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/screenshots/robinhood-2026-08-17T081615.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 52 operations · 39 acting
 api_count: 1
 apis:
-- description: Equipment and plant assets located at sites.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Equipment and plant assets located at sites.
   name: Joblogic Assets API
   slug: joblogic-assets-api
-- description: Contacts attached to customers, sites, suppliers, and subcontractors.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Contacts attached to customers, sites, suppliers, and subcontractors.
   name: Joblogic Contacts API
   slug: joblogic-contacts-api
-- description: Customer account records.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Customer account records.
   name: Joblogic Customers API
   slug: joblogic-customers-api
-- description: Field engineers / mobile workforce.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Field engineers / mobile workforce.
   name: Joblogic Engineers API
   slug: joblogic-engineers-api
-- description: Standard, customer-grouped, and PPM invoices.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Standard, customer-grouped, and PPM invoices.
   name: Joblogic Invoices API
   slug: joblogic-invoices-api
-- description: Work orders and their costs.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Work orders and their costs.
   name: Joblogic Jobs API
   slug: joblogic-jobs-api
-- description: Quotes and estimates.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Quotes and estimates.
   name: Joblogic Quotes API
   slug: joblogic-quotes-api
-- description: Physical service locations belonging to a customer.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Physical service locations belonging to a customer.
   name: Joblogic Sites API
   slug: joblogic-sites-api
-- description: Engineer visits scheduled against jobs.
+- baseURL: https://api.joblogic.com/api/v1
+  baseurl_source: declared
+  description: Engineer visits scheduled against jobs.
   name: Joblogic Visits API
   slug: joblogic-visits-api
 artifact_total: 26
@@ -195,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joblogic/refs/heads/main/screenshots/joblogic-2026-07-25T223221.png
 security:

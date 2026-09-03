@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Remote Model Context Protocol server (OAuth-authenticated) that gives AI assistants like Claude, ChatGPT, and Perplexity source-grounded legal research tools - search, findInOpinion, analyzeOpinion, a
   name: Midpage MCP Server
   slug: mcp
-- description: The Opinions API from Midpage — 1 operation(s) for opinions.
+- baseURL: https://app.midpage.ai/api/v1
+  baseurl_source: declared
+  description: The Opinions API from Midpage — 1 operation(s) for opinions.
   name: Midpage Opinions API
   slug: midpage-opinions-api
-- description: The Search API from Midpage — 1 operation(s) for search.
+- baseURL: https://app.midpage.ai/api/v1
+  baseurl_source: declared
+  description: The Search API from Midpage — 1 operation(s) for search.
   name: Midpage Search API
   slug: midpage-search-api
-- description: The User API from Midpage — 1 operation(s) for user.
+- baseURL: https://app.midpage.ai/api/v1
+  baseurl_source: declared
+  description: The User API from Midpage — 1 operation(s) for user.
   name: Midpage User API
   slug: midpage-user-api
 artifact_total: 15
@@ -162,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/screenshots/midpage-2026-08-07T172856.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: 'Access to Current Employment Statistics (CES), Current Population Survey (CPS), Occupational Employment Statistics Survey (OES), Quarterly Census Employment and Wage (CEW), and Consumer Price Indexes '
@@ -181,7 +181,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dol/refs/heads/main/screenshots/dol-2026-06-20T180132.png
 security:

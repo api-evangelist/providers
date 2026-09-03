@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: The Ads API from Liquid M — 1 operation(s) for ads.
+- baseURL: https://platform.liquidm.com
+  baseurl_source: declared
+  description: The Ads API from Liquid M — 1 operation(s) for ads.
   name: Liquid M Ads API
   slug: liquid-m-ads-api
-- description: Auth token issuance for the Reporting API.
+- baseURL: https://platform.liquidm.com
+  baseurl_source: declared
+  description: Auth token issuance for the Reporting API.
   name: Liquid M Authentication API
   slug: liquid-m-authentication-api
-- description: The Budgets API from Liquid M — 1 operation(s) for budgets.
+- baseURL: https://platform.liquidm.com
+  baseurl_source: declared
+  description: The Budgets API from Liquid M — 1 operation(s) for budgets.
   name: Liquid M Budgets API
   slug: liquid-m-budgets-api
-- description: The Campaigns API from Liquid M — 1 operation(s) for campaigns.
+- baseURL: https://platform.liquidm.com
+  baseurl_source: declared
+  description: The Campaigns API from Liquid M — 1 operation(s) for campaigns.
   name: Liquid M Campaigns API
   slug: liquid-m-campaigns-api
-- description: Visual report queries across dimensions and metrics.
+- baseURL: https://platform.liquidm.com
+  baseurl_source: declared
+  description: Visual report queries across dimensions and metrics.
   name: Liquid M Reporting API
   slug: liquid-m-reporting-api
 artifact_total: 19
@@ -247,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

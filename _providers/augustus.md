@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -46,46 +46,74 @@ apis:
 - description: The 2023-01-01 Ivy API for Open Banking pay-ins and Manual Bank Transfer. Checkout sessions, orders, customers, refunds, banks, capabilities, and beneficiary payouts. Existing Ivy customers keep using
   name: Ivy API (Open Banking)
   slug: ivy-api
-- description: The Account Programs API from Augustus — 3 operation(s) for account programs.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Account Programs API from Augustus — 3 operation(s) for account programs.
   name: Augustus Account Programs API
   slug: augustus-account-programs-api
-- description: The Accounts API from Augustus — 6 operation(s) for accounts.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Accounts API from Augustus — 6 operation(s) for accounts.
   name: Augustus Accounts API
   slug: augustus-accounts-api
-- description: The API Key API from Augustus — 1 operation(s) for api key.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The API Key API from Augustus — 1 operation(s) for api key.
   name: Augustus API Key API
   slug: augustus-api-key-api
-- description: The API Versions API from Augustus — 1 operation(s) for api versions.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The API Versions API from Augustus — 1 operation(s) for api versions.
   name: Augustus API Versions API
   slug: augustus-api-versions-api
-- description: The Conversions API from Augustus — 2 operation(s) for conversions.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Conversions API from Augustus — 2 operation(s) for conversions.
   name: Augustus Conversions API
   slug: augustus-conversions-api
-- description: The Deposits API from Augustus — 2 operation(s) for deposits.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Deposits API from Augustus — 2 operation(s) for deposits.
   name: Augustus Deposits API
   slug: augustus-deposits-api
-- description: The Events API from Augustus — 2 operation(s) for events.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Events API from Augustus — 2 operation(s) for events.
   name: Augustus Events API
   slug: augustus-events-api
-- description: The Payouts API from Augustus — 2 operation(s) for payouts.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Payouts API from Augustus — 2 operation(s) for payouts.
   name: Augustus Payouts API
   slug: augustus-payouts-api
-- description: The Quotes API from Augustus — 2 operation(s) for quotes.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Quotes API from Augustus — 2 operation(s) for quotes.
   name: Augustus Quotes API
   slug: augustus-quotes-api
-- description: The Returns API from Augustus — 2 operation(s) for returns.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Returns API from Augustus — 2 operation(s) for returns.
   name: Augustus Returns API
   slug: augustus-returns-api
-- description: The Scopes API from Augustus — 1 operation(s) for scopes.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Scopes API from Augustus — 1 operation(s) for scopes.
   name: Augustus Scopes API
   slug: augustus-scopes-api
-- description: The Webhook Deliveries API from Augustus — 3 operation(s) for webhook deliveries.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Webhook Deliveries API from Augustus — 3 operation(s) for webhook deliveries.
   name: Augustus Webhook Deliveries API
   slug: augustus-webhook-deliveries-api
-- description: The Webhook Subscriptions API from Augustus — 3 operation(s) for webhook subscriptions.
+- baseURL: https://api.augustus.com
+  baseurl_source: declared
+  description: The Webhook Subscriptions API from Augustus — 3 operation(s) for webhook subscriptions.
   name: Augustus Webhook Subscriptions API
   slug: augustus-webhook-subscriptions-api
-- description: The Webhook Events API from Augustus — 0 operation(s) for webhook events.
+- baseURL: https://api.getivy.de
+  baseurl_source: declared
+  description: The Webhook Events API from Augustus — 0 operation(s) for webhook events.
   name: Augustus Webhook Events API
   slug: augustus-webhook-events-api
 artifact_total: 35
@@ -306,7 +334,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -316,7 +344,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 48.5
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,7 +362,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:

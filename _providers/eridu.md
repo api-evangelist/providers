@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 20 operations
 api_count: 1
 apis:
-- description: Anonymous, unauthenticated read access to the Eridu news and press archive published at eridu.ai, served by the WordPress core REST API. Verified live at 1 published post on 2026-08-12.
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Anonymous, unauthenticated read access to the Eridu news and press archive published at eridu.ai, served by the WordPress core REST API. Verified live at 1 published post on 2026-08-12.
   name: Eridu Content API
   slug: eridu-content-api
-- description: Anonymous, unauthenticated read access to the static marketing and policy pages of eridu.ai — Company, Leadership, Careers, Contact, Resources, Newsletter, Terms of Use, Sales Terms and Privacy Policy
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Anonymous, unauthenticated read access to the static marketing and policy pages of eridu.ai — Company, Leadership, Careers, Contact, Resources, Newsletter, Terms of Use, Sales Terms and Privacy Policy
   name: Eridu Pages API
   slug: eridu-pages-api
-- description: Anonymous, unauthenticated read access to the eridu.ai media library — leadership portraits, careers and team photography, investor logos and press imagery, each with its generated size variants. X-WP
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Anonymous, unauthenticated read access to the eridu.ai media library — leadership portraits, careers and team photography, investor logos and press imagery, each with its generated size variants. X-WP
   name: Eridu Media API
   slug: eridu-media-api
-- description: 'Anonymous, unauthenticated read access to the classification vocabularies behind eridu.ai — post categories and post tags as registered in the WordPress core REST API. Verified live at 1 category and '
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: 'Anonymous, unauthenticated read access to the classification vocabularies behind eridu.ai — post categories and post tags as registered in the WordPress core REST API. Verified live at 1 category and '
   name: Eridu Taxonomy API
   slug: eridu-taxonomy-api
-- description: Anonymous, unauthenticated cross-content search over eridu.ai — posts and pages — returning lightweight id / title / url / type / subtype records. Verified live at 14 searchable objects on 2026-08-12.
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Anonymous, unauthenticated cross-content search over eridu.ai — posts and pages — returning lightweight id / title / url / type / subtype records. Verified live at 14 searchable objects on 2026-08-12.
   name: Eridu Search API
   slug: eridu-search-api
-- description: Anonymous, unauthenticated discovery metadata for eridu.ai — the self-describing route index (167 routes across 7 namespaces at capture), the registered content types and taxonomies, the publication s
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Anonymous, unauthenticated discovery metadata for eridu.ai — the self-describing route index (167 routes across 7 namespaces at capture), the registered content types and taxonomies, the publication s
   name: Eridu Discovery API
   slug: eridu-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for eridu.ai URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any published post or page.
+- baseURL: https://eridu.ai/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for eridu.ai URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any published post or page.
   name: Eridu oEmbed API
   slug: eridu-oembed-api
 artifact_total: 19
@@ -232,7 +258,7 @@ score:
   band: emerging
   composite: 19.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -258,8 +284,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/eridu/refs/heads/main/screenshots/eridu-2026-09-02T145417.png
 security:
 - kind: authentication
   name: Eridu Authentication

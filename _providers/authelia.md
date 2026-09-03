@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,10 +48,14 @@ apis:
 - description: Authelia acts as an OpenID Certified OpenID Connect 1.0 Provider supporting Authorization Code, Implicit, and Hybrid flows with PKCE, PAR, and various token endpoint authentication methods.
   name: Authelia OpenID Connect 1.0 Provider
   slug: authelia-oidc-provider
-- description: Well-known discovery endpoints.
+- baseURL: https://your-authelia-instance.example.com/api
+  baseurl_source: declared
+  description: Well-known discovery endpoints.
   name: Authelia Discovery API
   slug: authelia-discovery-api
-- description: OpenID Connect 1.0 / OAuth 2.0 provider endpoints.
+- baseURL: https://your-authelia-instance.example.com/api
+  baseurl_source: declared
+  description: OpenID Connect 1.0 / OAuth 2.0 provider endpoints.
   name: Authelia OIDC API
   slug: authelia-oidc-api
 artifact_total: 32
@@ -219,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/screenshots/authelia-2026-06-20T172602.png
 security:

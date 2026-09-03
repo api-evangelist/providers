@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 49 operations · 49 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for creating and managing change sets to preview stack changes.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing change sets to preview stack changes.
   name: AWS CloudFormation Change Sets API
   slug: cloudformation-change-sets-api
-- description: Operations for listing stack exports and imports.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing stack exports and imports.
   name: AWS CloudFormation Exports API
   slug: cloudformation-exports-api
-- description: Operations for managing extension types in the CloudFormation Registry.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing extension types in the CloudFormation Registry.
   name: AWS CloudFormation Registry API
   slug: cloudformation-registry-api
-- description: Operations for tracking the status of asynchronous resource operations and cancelling in-progress requests.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for tracking the status of asynchronous resource operations and cancelling in-progress requests.
   name: AWS CloudFormation Request Status API
   slug: cloudformation-request-status-api
-- description: CRUDL operations for creating, reading, updating, deleting, and listing cloud resources through a uniform interface.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: CRUDL operations for creating, reading, updating, deleting, and listing cloud resources through a uniform interface.
   name: AWS CloudFormation Resources API
   slug: cloudformation-resources-api
-- description: Operations for detecting and describing configuration drift.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for detecting and describing configuration drift.
   name: AWS CloudFormation Stack Drift API
   slug: cloudformation-stack-drift-api
-- description: Operations for retrieving stack-related events.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for retrieving stack-related events.
   name: AWS CloudFormation Stack Events API
   slug: cloudformation-stack-events-api
-- description: Operations for managing stack instances within a stack set.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing stack instances within a stack set.
   name: AWS CloudFormation Stack Instances API
   slug: cloudformation-stack-instances-api
-- description: Operations for getting and setting stack policies.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for getting and setting stack policies.
   name: AWS CloudFormation Stack Policies API
   slug: cloudformation-stack-policies-api
-- description: Operations for describing resources within a stack.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for describing resources within a stack.
   name: AWS CloudFormation Stack Resources API
   slug: cloudformation-stack-resources-api
-- description: Operations for managing stack sets across multiple accounts and regions.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing stack sets across multiple accounts and regions.
   name: AWS CloudFormation Stack Sets API
   slug: cloudformation-stack-sets-api
-- description: Operations for creating, updating, deleting, and describing CloudFormation stacks.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and describing CloudFormation stacks.
   name: AWS CloudFormation Stacks API
   slug: cloudformation-stacks-api
-- description: Operations for retrieving, validating, and summarizing templates.
+- baseURL: https://cloudformation.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for retrieving, validating, and summarizing templates.
   name: AWS CloudFormation Templates API
   slug: cloudformation-templates-api
 arazzos:
@@ -831,7 +857,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:

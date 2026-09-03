@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,25 +58,39 @@ apis:
 - description: Access Brazilian macroeconomic indicators including IPCA (consumer price index), IGPM (market general price index), INPC, and SELIC interest rate data published by Banco Central do Brasil.
   name: brapi Economic Indicators API
   slug: indicators-api
-- description: The Criptomoedas API from brapi — 2 operation(s) for criptomoedas.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Criptomoedas API from brapi — 2 operation(s) for criptomoedas.
   name: brapi Criptomoedas API
   slug: brapi-criptomoedas-api
-- description: The Fiis API from brapi — 6 operation(s) for fiis.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Fiis API from brapi — 6 operation(s) for fiis.
   name: brapi Fiis API
   slug: brapi-fiis-api
-- description: The Inflacao API from brapi — 2 operation(s) for inflacao.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Inflacao API from brapi — 2 operation(s) for inflacao.
   name: brapi Inflacao API
   slug: brapi-inflacao-api
-- description: The Moedas API from brapi — 2 operation(s) for moedas.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Moedas API from brapi — 2 operation(s) for moedas.
   name: brapi Moedas API
   slug: brapi-moedas-api
-- description: The Opcoes API from brapi — 4 operation(s) for opcoes.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Opcoes API from brapi — 4 operation(s) for opcoes.
   name: brapi Opcoes API
   slug: brapi-opcoes-api
-- description: The Quote API from brapi — 2 operation(s) for quote.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Quote API from brapi — 2 operation(s) for quote.
   name: brapi Quote API
   slug: brapi-quote-api
-- description: The Taxa Basica De Juros API from brapi — 2 operation(s) for taxa basica de juros.
+- baseURL: https://brapi.dev
+  baseurl_source: spec
+  description: The Taxa Basica De Juros API from brapi — 2 operation(s) for taxa basica de juros.
   name: brapi Taxa Basica De Juros API
   slug: brapi-taxa-basica-de-juros-api
 artifact_total: 27
@@ -205,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brapi/refs/heads/main/screenshots/brapi-2026-06-20T173642.png
 security:

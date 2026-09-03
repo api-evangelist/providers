@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 3
 apis:
-- description: The Available Trucks API from Parade — 1 operation(s) for available trucks.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Available Trucks API from Parade — 1 operation(s) for available trucks.
   name: Parade Available Trucks API
   slug: parade-available-trucks-api
-- description: The Bookings API from Parade — 3 operation(s) for bookings.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Bookings API from Parade — 3 operation(s) for bookings.
   name: Parade Bookings API
   slug: parade-bookings-api
-- description: The Carrier Onboarding Status API from Parade — 2 operation(s) for carrier onboarding status.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Carrier Onboarding Status API from Parade — 2 operation(s) for carrier onboarding status.
   name: Parade Carrier Onboarding Status API
   slug: parade-carrier-onboarding-status-api
-- description: The Carrier Synchronization API from Parade — 1 operation(s) for carrier synchronization.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Carrier Synchronization API from Parade — 1 operation(s) for carrier synchronization.
   name: Parade Carrier Synchronization API
   slug: parade-carrier-synchronization-api
-- description: The Digital Conversion API from Parade — 1 operation(s) for digital conversion.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Digital Conversion API from Parade — 1 operation(s) for digital conversion.
   name: Parade Digital Conversion API
   slug: parade-digital-conversion-api
-- description: The Load Synchronization API from Parade — 1 operation(s) for load synchronization.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Load Synchronization API from Parade — 1 operation(s) for load synchronization.
   name: Parade Load Synchronization API
   slug: parade-load-synchronization-api
-- description: The Quotes API from Parade — 3 operation(s) for quotes.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Quotes API from Parade — 3 operation(s) for quotes.
   name: Parade Quotes API
   slug: parade-quotes-api
-- description: The Search API from Parade — 1 operation(s) for search.
+- baseURL: https://api.capacity.parade.ai
+  baseurl_source: declared
+  description: The Search API from Parade — 1 operation(s) for search.
   name: Parade Search API
   slug: parade-search-api
 artifact_total: 21
@@ -214,7 +230,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -224,7 +240,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 36.9
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
 security:

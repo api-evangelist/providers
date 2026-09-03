@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Facilities API from Garner — 1 operation(s) for facilities.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Facilities API from Garner — 1 operation(s) for facilities.
   name: Garner Facilities API
   slug: garner-facilities-api
-- description: The Professionals API from Garner — 1 operation(s) for professionals.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Professionals API from Garner — 1 operation(s) for professionals.
   name: Garner Professionals API
   slug: garner-professionals-api
-- description: The Provider Annotations API from Garner — 1 operation(s) for provider annotations.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Provider Annotations API from Garner — 1 operation(s) for provider annotations.
   name: Garner Provider Annotations API
   slug: garner-provider-annotations-api
-- description: The Providers API from Garner — 1 operation(s) for providers.
+- baseURL: https://api.getgarner.com
+  baseurl_source: declared
+  description: The Providers API from Garner — 1 operation(s) for providers.
   name: Garner Providers API
   slug: garner-providers-api
 artifact_total: 12
@@ -192,7 +200,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 35 operations · 25 acting
 api_count: 1
 apis:
-- description: Files are used to store data not related to specific items.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Files are used to store data not related to specific items.
   name: Materials Zone files API
   slug: materials-zone-files-api
-- description: Folders are used to organize other Folders and Tables.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Folders are used to organize other Folders and Tables.
   name: Materials Zone folders API
   slug: materials-zone-folders-api
-- description: Items are the rows in tables.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Items are the rows in tables.
   name: Materials Zone items API
   slug: materials-zone-items-api
-- description: Jobs are used to perform long running tasks.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Jobs are used to perform long running tasks.
   name: Materials Zone jobs API
   slug: materials-zone-jobs-api
-- description: Measurements are the files that are uploaded to the system and can be parsed.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Measurements are the files that are uploaded to the system and can be parsed.
   name: Materials Zone measurements API
   slug: materials-zone-measurements-api
-- description: Parameters are used to define the structure of columns in tables.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Parameters are used to define the structure of columns in tables.
   name: Materials Zone parameters API
   slug: materials-zone-parameters-api
-- description: Parsers are used to convert instrument specific output files to a MaterialsZone common format.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Parsers are used to convert instrument specific output files to a MaterialsZone common format.
   name: Materials Zone parsers API
   slug: materials-zone-parsers-api
-- description: Protocols are used to group parameters in tables.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Protocols are used to group parameters in tables.
   name: Materials Zone protocols API
   slug: materials-zone-protocols-api
-- description: Tables are organized in folders, and contain Items.
+- baseURL: https://api.materials.zone/v2beta1
+  baseurl_source: declared
+  description: Tables are organized in folders, and contain Items.
   name: Materials Zone tables API
   slug: materials-zone-tables-api
 artifact_total: 23
@@ -248,7 +266,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materials-zone/refs/heads/main/screenshots/materials-zone-2026-07-25T230407.png
 security:

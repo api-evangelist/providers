@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 48 operations · 34 acting · 10 human-in-the-loop
 api_count: 3
 apis:
-- description: The HomebaseMaster API from Locus — 2 operation(s) for homebasemaster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The HomebaseMaster API from Locus — 2 operation(s) for homebasemaster.
   name: Locus HomebaseMaster API
   slug: locus-sh-homebasemaster-api
-- description: The LocationMaster API from Locus — 2 operation(s) for locationmaster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The LocationMaster API from Locus — 2 operation(s) for locationmaster.
   name: Locus LocationMaster API
   slug: locus-sh-locationmaster-api
-- description: The Order API from Locus — 8 operation(s) for order.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The Order API from Locus — 8 operation(s) for order.
   name: Locus Order API
   slug: locus-sh-order-api
-- description: The OrderServiceability API from Locus — 1 operation(s) for orderserviceability.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The OrderServiceability API from Locus — 1 operation(s) for orderserviceability.
   name: Locus OrderServiceability API
   slug: locus-sh-orderserviceability-api
-- description: The PersonnelMaster API from Locus — 2 operation(s) for personnelmaster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The PersonnelMaster API from Locus — 2 operation(s) for personnelmaster.
   name: Locus PersonnelMaster API
   slug: locus-sh-personnelmaster-api
-- description: The Rider API from Locus — 2 operation(s) for rider.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The Rider API from Locus — 2 operation(s) for rider.
   name: Locus Rider API
   slug: locus-sh-rider-api
-- description: The RiderPersona API from Locus — 2 operation(s) for riderpersona.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The RiderPersona API from Locus — 2 operation(s) for riderpersona.
   name: Locus RiderPersona API
   slug: locus-sh-riderpersona-api
-- description: The Roster API from Locus — 3 operation(s) for roster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The Roster API from Locus — 3 operation(s) for roster.
   name: Locus Roster API
   slug: locus-sh-roster-api
-- description: The ServiceType API from Locus — 1 operation(s) for servicetype.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The ServiceType API from Locus — 1 operation(s) for servicetype.
   name: Locus ServiceType API
   slug: locus-sh-servicetype-api
-- description: The ServiceTypeConfiguration API from Locus — 1 operation(s) for servicetypeconfiguration.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The ServiceTypeConfiguration API from Locus — 1 operation(s) for servicetypeconfiguration.
   name: Locus ServiceTypeConfiguration API
   slug: locus-sh-servicetypeconfiguration-api
-- description: The ShiftTag API from Locus — 2 operation(s) for shifttag.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The ShiftTag API from Locus — 2 operation(s) for shifttag.
   name: Locus ShiftTag API
   slug: locus-sh-shifttag-api
-- description: The SKUMaster API from Locus — 2 operation(s) for skumaster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The SKUMaster API from Locus — 2 operation(s) for skumaster.
   name: Locus SKUMaster API
   slug: locus-sh-skumaster-api
-- description: The TeamMaster API from Locus — 2 operation(s) for teammaster.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The TeamMaster API from Locus — 2 operation(s) for teammaster.
   name: Locus TeamMaster API
   slug: locus-sh-teammaster-api
-- description: The Transporter API from Locus — 2 operation(s) for transporter.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The Transporter API from Locus — 2 operation(s) for transporter.
   name: Locus Transporter API
   slug: locus-sh-transporter-api
-- description: The Vehicle API from Locus — 2 operation(s) for vehicle.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The Vehicle API from Locus — 2 operation(s) for vehicle.
   name: Locus Vehicle API
   slug: locus-sh-vehicle-api
-- description: The VehicleModel API from Locus — 2 operation(s) for vehiclemodel.
+- baseURL: https://oms.locus-api.com/v1
+  baseurl_source: declared
+  description: The VehicleModel API from Locus — 2 operation(s) for vehiclemodel.
   name: Locus VehicleModel API
   slug: locus-sh-vehiclemodel-api
 artifact_total: 41
@@ -319,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png
 security:

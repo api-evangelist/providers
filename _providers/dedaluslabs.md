@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 52 operations · 28 acting
 api_count: 2
 apis:
-- description: The Dedalus API API from Dedalus Labs — 1 operation(s) for dedalus api.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The Dedalus API API from Dedalus Labs — 1 operation(s) for dedalus api.
   name: Dedalus Labs Dedalus API API
   slug: dedaluslabs-dedalus-api-api
-- description: The Health API from Dedalus Labs — 1 operation(s) for health.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The Health API from Dedalus Labs — 1 operation(s) for health.
   name: Dedalus Labs Health API
   slug: dedaluslabs-health-api
-- description: The Machine Lifecycle API from Dedalus Labs — 18 operation(s) for machine lifecycle.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The Machine Lifecycle API from Dedalus Labs — 18 operation(s) for machine lifecycle.
   name: Dedalus Labs Machine Lifecycle API
   slug: dedaluslabs-machine-lifecycle-api
-- description: The Marketplace API from Dedalus Labs — 6 operation(s) for marketplace.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The Marketplace API from Dedalus Labs — 6 operation(s) for marketplace.
   name: Dedalus Labs Marketplace API
   slug: dedaluslabs-marketplace-api
-- description: The private API from Dedalus Labs — 1 operation(s) for private.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The private API from Dedalus Labs — 1 operation(s) for private.
   name: Dedalus Labs private API
   slug: dedaluslabs-private-api
-- description: The V1 API from Dedalus Labs — 12 operation(s) for v1.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The V1 API from Dedalus Labs — 12 operation(s) for v1.
   name: Dedalus Labs V1 API
   slug: dedaluslabs-v1-api
-- description: The Webhooks API from Dedalus Labs — 1 operation(s) for webhooks.
+- baseURL: https://api.dedaluslabs.ai
+  baseurl_source: declared
+  description: The Webhooks API from Dedalus Labs — 1 operation(s) for webhooks.
   name: Dedalus Labs Webhooks API
   slug: dedaluslabs-webhooks-api
 arazzos:
@@ -299,7 +313,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -309,7 +323,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,7 +335,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

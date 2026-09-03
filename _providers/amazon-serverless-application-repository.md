@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 4
 apis:
-- description: Serverless application management
+- baseURL: https://serverlessrepo.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Serverless application management
   name: Amazon Serverless Application Repository Applications API
   slug: amazon-serverless-application-repository-applications-api
-- description: CloudFormation changeset management
+- baseURL: https://serverlessrepo.{region}.amazonaws.com
+  baseurl_source: declared
+  description: CloudFormation changeset management
   name: Amazon Serverless Application Repository Changesets API
   slug: amazon-serverless-application-repository-changesets-api
-- description: Application policy management
+- baseURL: https://serverlessrepo.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Application policy management
   name: Amazon Serverless Application Repository Policies API
   slug: amazon-serverless-application-repository-policies-api
-- description: Application version management
+- baseURL: https://serverlessrepo.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Application version management
   name: Amazon Serverless Application Repository Versions API
   slug: amazon-serverless-application-repository-versions-api
 arazzos:
@@ -419,7 +427,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/screenshots/amazon-serverless-application-repository-2026-06-20T171819.png
 security:

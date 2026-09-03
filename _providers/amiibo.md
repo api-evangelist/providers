@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Endpoints for retrieving Amiibo figure data
+- baseURL: https://amiiboapi.org/api/
+  baseurl_source: declared
+  description: Endpoints for retrieving Amiibo figure data
   name: Amiibo API Amiibo API
   slug: amiibo-amiibo-api
-- description: API metadata endpoints
+- baseURL: https://amiiboapi.org/api/
+  baseurl_source: declared
+  description: API metadata endpoints
   name: Amiibo API Metadata API
   slug: amiibo-metadata-api
-- description: Reference data endpoints for types, series, characters, and game series
+- baseURL: https://amiiboapi.org/api/
+  baseurl_source: declared
+  description: Reference data endpoints for types, series, characters, and game series
   name: Amiibo API Reference API
   slug: amiibo-reference-api
 artifact_total: 17
@@ -179,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amiibo/refs/heads/main/screenshots/amiibo-2026-06-20T171931.png
 security:

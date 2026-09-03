@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 55 operations · 29 acting
 api_count: 1
 apis:
-- description: Audio media attached to records
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Audio media attached to records
   name: Fulcrum Audio API
   slug: fulcrum-audio-api
-- description: Grouped record changes for sync and audit
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Grouped record changes for sync and audit
   name: Fulcrum Changesets API
   slug: fulcrum-changesets-api
-- description: Reusable choice lists referenced by form fields
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Reusable choice lists referenced by form fields
   name: Fulcrum Choice Lists API
   slug: fulcrum-choice-lists-api
-- description: Hierarchical classifications referenced by form fields
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Hierarchical classifications referenced by form fields
   name: Fulcrum Classification Sets API
   slug: fulcrum-classification-sets-api
-- description: App and form definitions
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: App and form definitions
   name: Fulcrum Forms API
   slug: fulcrum-forms-api
-- description: Layers and tile sources used by forms
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Layers and tile sources used by forms
   name: Fulcrum Layers API
   slug: fulcrum-layers-api
-- description: Account memberships and assignments
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Account memberships and assignments
   name: Fulcrum Memberships API
   slug: fulcrum-memberships-api
-- description: Photo media attached to records
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Photo media attached to records
   name: Fulcrum Photos API
   slug: fulcrum-photos-api
-- description: Project containers used to scope records
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Project containers used to scope records
   name: Fulcrum Projects API
   slug: fulcrum-projects-api
-- description: Ad hoc query and SQL execution against Fulcrum data
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Ad hoc query and SQL execution against Fulcrum data
   name: Fulcrum Query API
   slug: fulcrum-query-api
-- description: Records collected against a form
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Records collected against a form
   name: Fulcrum Records API
   slug: fulcrum-records-api
-- description: Permission roles for memberships
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Permission roles for memberships
   name: Fulcrum Roles API
   slug: fulcrum-roles-api
-- description: Signature media attached to records
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Signature media attached to records
   name: Fulcrum Signatures API
   slug: fulcrum-signatures-api
-- description: Video media attached to records
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Video media attached to records
   name: Fulcrum Videos API
   slug: fulcrum-videos-api
-- description: Outbound webhooks for record and form events
+- baseURL: https://api.fulcrumapp.com/api/v2
+  baseurl_source: declared
+  description: Outbound webhooks for record and form events
   name: Fulcrum Webhooks API
   slug: fulcrum-webhooks-api
 artifact_total: 39
@@ -259,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/screenshots/fulcrum-2026-06-20T181606.png
 security:

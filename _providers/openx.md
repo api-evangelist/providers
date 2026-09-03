@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -355,7 +355,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
 security:

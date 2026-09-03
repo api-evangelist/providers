@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The open-source core. SQL statements embedded in Markdown files run against configured data sources and render charts and components into a static BI website (Svelte/Vite). The interface is a Node CLI
+- baseURL: https://evidence.dev
+  baseurl_source: spec
+  description: The open-source core. SQL statements embedded in Markdown files run against configured data sources and render charts and components into a static BI website (Svelte/Vite). The interface is a Node CLI
   name: Evidence Framework (SQL + Markdown)
   slug: evidence-framework
-- description: 'Universal SQL, the query engine built into Evidence core and powered by DuckDB''s WebAssembly distribution. It extracts data sources to Parquet and lets you query across multiple sources with a single '
+- baseURL: https://evidence.dev
+  baseurl_source: spec
+  description: 'Universal SQL, the query engine built into Evidence core and powered by DuckDB''s WebAssembly distribution. It extracts data sources to Parquet and lets you query across multiple sources with a single '
   name: Evidence USQL / Query Layer
   slug: usql-query-layer
-- description: The managed hosting and deployment platform for Evidence projects. Adds a managed query engine, multi-level caching, row-level security, scheduled data syncs, a browser-based IDE, and AI authoring ass
+- baseURL: https://evidence.dev
+  baseurl_source: spec
+  description: The managed hosting and deployment platform for Evidence projects. Adds a managed query engine, multi-level caching, row-level security, scheduled data syncs, a browser-based IDE, and AI authoring ass
   name: Evidence Cloud
   slug: evidence-cloud
 artifact_total: 10
@@ -139,7 +145,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidence-dev/refs/heads/main/screenshots/evidence-dev-2026-06-20T180912.png
 security:

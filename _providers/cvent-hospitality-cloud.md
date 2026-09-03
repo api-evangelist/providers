@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The unified Cvent Platform REST API also covers hospitality use cases including event-driven integrations, contact and attendee data exchange, and webhook-based notifications that can be wired into ho
   name: Cvent Platform REST API (Hospitality)
   slug: rest-api
-- description: The Authentication API from Cvent Hospitality Cloud — 1 operation(s) for authentication.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Authentication API from Cvent Hospitality Cloud — 1 operation(s) for authentication.
   name: Cvent Hospitality Cloud Authentication API
   slug: cvent-hospitality-cloud-authentication-api
-- description: The Connections API from Cvent Hospitality Cloud — 1 operation(s) for connections.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Connections API from Cvent Hospitality Cloud — 1 operation(s) for connections.
   name: Cvent Hospitality Cloud Connections API
   slug: cvent-hospitality-cloud-connections-api
-- description: The Events API from Cvent Hospitality Cloud — 2 operation(s) for events.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Events API from Cvent Hospitality Cloud — 2 operation(s) for events.
   name: Cvent Hospitality Cloud Events API
   slug: cvent-hospitality-cloud-events-api
-- description: The Hotels API from Cvent Hospitality Cloud — 1 operation(s) for hotels.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Hotels API from Cvent Hospitality Cloud — 1 operation(s) for hotels.
   name: Cvent Hospitality Cloud Hotels API
   slug: cvent-hospitality-cloud-hotels-api
-- description: The ReservationRequests API from Cvent Hospitality Cloud — 2 operation(s) for reservationrequests.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The ReservationRequests API from Cvent Hospitality Cloud — 2 operation(s) for reservationrequests.
   name: Cvent Hospitality Cloud ReservationRequests API
   slug: cvent-hospitality-cloud-reservationrequests-api
-- description: The RoomTypes API from Cvent Hospitality Cloud — 1 operation(s) for roomtypes.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The RoomTypes API from Cvent Hospitality Cloud — 1 operation(s) for roomtypes.
   name: Cvent Hospitality Cloud RoomTypes API
   slug: cvent-hospitality-cloud-roomtypes-api
 artifact_total: 24
@@ -220,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-hospitality-cloud/refs/heads/main/screenshots/cvent-hospitality-cloud-2026-06-20T175403.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -33,16 +45,24 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 1
 apis:
-- description: Signup and login (account takeover) decisions.
+- baseURL: https://api.forter.secure.com
+  baseurl_source: declared
+  description: Signup and login (account takeover) decisions.
   name: Forter Accounts API
   slug: forter-accounts-api
-- description: Data-subject profile access for privacy and compliance.
+- baseURL: https://api.forter.secure.com
+  baseurl_source: declared
+  description: Data-subject profile access for privacy and compliance.
   name: Forter Data Privacy API
   slug: forter-data-privacy-api
-- description: Chargeback disputes and customer compensation requests.
+- baseURL: https://api.forter.secure.com
+  baseurl_source: declared
+  description: Chargeback disputes and customer compensation requests.
   name: Forter Disputes API
   slug: forter-disputes-api
-- description: Order and checkout fraud/abuse decisions and order status.
+- baseURL: https://api.forter.secure.com
+  baseurl_source: declared
+  description: Order and checkout fraud/abuse decisions and order status.
   name: Forter Orders API
   slug: forter-orders-api
 artifact_total: 16
@@ -168,7 +188,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/screenshots/forter-2026-07-25T215001.png
 security:

@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Current and historical market data across Hyperliquid core, Spot, HIP-3, HIP-4, and Lighter. Direct market-data requests use X-API-Key.
@@ -295,10 +310,11 @@ score:
   band: exemplar
   composite: 73.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -308,6 +324,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 78.9
+  previous_composite: 73.6
   provenance:
     conformance: first-party
     contracts:
@@ -324,7 +341,9 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/0xarchive/refs/heads/main/screenshots/0xarchive-2026-09-02T144104.png
 security:
 - kind: authentication
   name: 0Xarchive Authentication

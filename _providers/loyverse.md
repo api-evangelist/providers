@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 32 operations · 10 acting
 api_count: 1
 apis:
-- description: Merchandising categories for items.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Merchandising categories for items.
   name: Loyverse Categories API
   slug: loyverse-categories-api
-- description: Customer directory and loyalty program.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Customer directory and loyalty program.
   name: Loyverse Customers API
   slug: loyverse-customers-api
-- description: Discount definitions applied at the POS.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Discount definitions applied at the POS.
   name: Loyverse Discounts API
   slug: loyverse-discounts-api
-- description: Employees who operate the POS.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Employees who operate the POS.
   name: Loyverse Employees API
   slug: loyverse-employees-api
-- description: Stock levels per variant and store.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Stock levels per variant and store.
   name: Loyverse Inventory API
   slug: loyverse-inventory-api
-- description: Product catalog items, variants, SKUs, and pricing.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Product catalog items, variants, SKUs, and pricing.
   name: Loyverse Items API
   slug: loyverse-items-api
-- description: Merchant account information.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Merchant account information.
   name: Loyverse Merchants API
   slug: loyverse-merchants-api
-- description: Item modifiers and options.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Item modifiers and options.
   name: Loyverse Modifiers API
   slug: loyverse-modifiers-api
-- description: Configured payment types.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Configured payment types.
   name: Loyverse Payment Types API
   slug: loyverse-payment-types-api
-- description: Registered POS devices per store.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Registered POS devices per store.
   name: Loyverse POS Devices API
   slug: loyverse-pos-devices-api
-- description: Sales receipts with line items, payments, taxes, and refunds.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Sales receipts with line items, payments, taxes, and refunds.
   name: Loyverse Receipts API
   slug: loyverse-receipts-api
-- description: Cash register shifts.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Cash register shifts.
   name: Loyverse Shifts API
   slug: loyverse-shifts-api
-- description: Merchant stores (locations).
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Merchant stores (locations).
   name: Loyverse Stores API
   slug: loyverse-stores-api
-- description: Suppliers for inventory and purchasing.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Suppliers for inventory and purchasing.
   name: Loyverse Suppliers API
   slug: loyverse-suppliers-api
-- description: Tax definitions applied to items.
+- baseURL: https://api.loyverse.com/v1.0
+  baseurl_source: declared
+  description: Tax definitions applied to items.
   name: Loyverse Taxes API
   slug: loyverse-taxes-api
 artifact_total: 37
@@ -249,7 +279,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/screenshots/loyverse-2026-07-25T225626.png
 security:

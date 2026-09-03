@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -47,28 +47,42 @@ apis:
 - description: REST API for creating cryptocurrency payouts, processing mass withdrawals, and transferring funds between personal and business wallets with support for auto-conversion.
   name: Cryptomus Payout API
   slug: cryptomus-payout-api
-- description: REST API for creating and managing recurring cryptocurrency payment subscriptions with configurable billing periods (weekly, monthly, quarterly) and discount periods.
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: REST API for creating and managing recurring cryptocurrency payment subscriptions with configurable billing periods (weekly, monthly, quarterly) and discount periods.
   name: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
 - description: REST and WebSocket API for accessing real-time cryptocurrency exchange rates, order books, tickers, trade history, market cap data, and executing spot exchange orders with conversion calculations.
   name: Cryptomus Exchange and Market Data API
   slug: cryptomus-exchange-and-market-data-api
-- description: Access exchange rates, trading pairs, and market data
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Access exchange rates, trading pairs, and market data
   name: Cryptomus Exchange API
   slug: cryptomus-exchange-api
-- description: Create and manage payment invoices for merchant integrations
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Create and manage payment invoices for merchant integrations
   name: Cryptomus Payments API
   slug: cryptomus-payments-api
-- description: Create and manage cryptocurrency payouts
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Create and manage cryptocurrency payouts
   name: Cryptomus Payouts API
   slug: cryptomus-payouts-api
-- description: Create and manage recurring payment subscriptions
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Create and manage recurring payment subscriptions
   name: Cryptomus Recurring Payments API
   slug: cryptomus-recurring-payments-api
-- description: Create and manage static cryptocurrency wallets
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Create and manage static cryptocurrency wallets
   name: Cryptomus Wallets API
   slug: cryptomus-wallets-api
-- description: Test and manage webhook notifications
+- baseURL: https://api.cryptomus.com/v1
+  baseurl_source: declared
+  description: Test and manage webhook notifications
   name: Cryptomus Webhooks API
   slug: cryptomus-webhooks-api
 artifact_total: 30
@@ -227,7 +241,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -237,7 +251,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 41.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -252,7 +266,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/screenshots/cryptomus-2026-06-20T175312.png
 security:

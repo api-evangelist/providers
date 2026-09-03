@@ -23,151 +23,247 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 17
 apis:
-- description: The administration-layer API from Kuehne+Nagel — 1 operation(s) for administration-layer.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The administration-layer API from Kuehne+Nagel — 1 operation(s) for administration-layer.
   name: Kuehne+Nagel Administration Layer API
   slug: kuehne-nagel-administration-layer-api
-- description: Management of API keys for workspace authentication.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Management of API keys for workspace authentication.
   name: Kuehne+Nagel API Keys API
   slug: kuehne-nagel-api-keys-api
-- description: The Assigned Consignments API from Kuehne+Nagel — 1 operation(s) for assigned consignments.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Assigned Consignments API from Kuehne+Nagel — 1 operation(s) for assigned consignments.
   name: Kuehne+Nagel Assigned Consignments API
   slug: kuehne-nagel-assigned-consignments-api
-- description: Monitor and manage background scheduled tasks.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Monitor and manage background scheduled tasks.
   name: Kuehne+Nagel Background Tasks API
   slug: kuehne-nagel-background-tasks-api
-- description: The booking API from Kuehne+Nagel — 2 operation(s) for booking.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The booking API from Kuehne+Nagel — 2 operation(s) for booking.
   name: Kuehne+Nagel Booking API
   slug: kuehne-nagel-booking-api
-- description: The Booking Requests API from Kuehne+Nagel — 1 operation(s) for booking requests.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Booking Requests API from Kuehne+Nagel — 1 operation(s) for booking requests.
   name: Kuehne+Nagel Booking Requests API
   slug: kuehne-nagel-booking-requests-api
-- description: Assets (possible types are PACKAGE, CONTAINER and UNKNOWN) belonging to a shipment.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Assets (possible types are PACKAGE, CONTAINER and UNKNOWN) belonging to a shipment.
   name: Kuehne+Nagel Cargo Items API
   slug: kuehne-nagel-cargoitems-api
-- description: API configuration and metadata endpoints.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: API configuration and metadata endpoints.
   name: Kuehne+Nagel Config API
   slug: kuehne-nagel-config-api
-- description: The container API from Kuehne+Nagel — 2 operation(s) for container.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The container API from Kuehne+Nagel — 2 operation(s) for container.
   name: Kuehne+Nagel Container API
   slug: kuehne-nagel-container-api
-- description: Operations to delete shipment documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Operations to delete shipment documents.
   name: Kuehne+Nagel Delete API
   slug: kuehne-nagel-delete-api
-- description: The Document API from Kuehne+Nagel — 1 operation(s) for document.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Document API from Kuehne+Nagel — 1 operation(s) for document.
   name: Kuehne+Nagel Document API
   slug: kuehne-nagel-document-api
-- description: The Document Request API from Kuehne+Nagel — 1 operation(s) for document request.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Document Request API from Kuehne+Nagel — 1 operation(s) for document request.
   name: Kuehne+Nagel Document Request API
   slug: kuehne-nagel-document-request-api
-- description: The documents API from Kuehne+Nagel — 4 operation(s) for documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The documents API from Kuehne+Nagel — 4 operation(s) for documents.
   name: Kuehne+Nagel Documents API
   slug: kuehne-nagel-documents-api
-- description: Operations to download shipment documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Operations to download shipment documents.
   name: Kuehne+Nagel Download API
   slug: kuehne-nagel-download-api
-- description: The esp-order-track API from Kuehne+Nagel — 1 operation(s) for esp-order-track.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The esp-order-track API from Kuehne+Nagel — 1 operation(s) for esp-order-track.
   name: Kuehne+Nagel Esp Order Track API
   slug: kuehne-nagel-esp-order-track-api
-- description: Event operations
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Event operations
   name: Kuehne+Nagel Events API
   slug: kuehne-nagel-events-api
-- description: The export API from Kuehne+Nagel — 1 operation(s) for export.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The export API from Kuehne+Nagel — 1 operation(s) for export.
   name: Kuehne+Nagel Export API
   slug: kuehne-nagel-export-api
-- description: The ExternalShipment API from Kuehne+Nagel — 1 operation(s) for externalshipment.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The ExternalShipment API from Kuehne+Nagel — 1 operation(s) for externalshipment.
   name: Kuehne+Nagel External Shipment API
   slug: kuehne-nagel-externalshipment-api
-- description: The GPS Tracking API from Kuehne+Nagel — 1 operation(s) for gps tracking.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The GPS Tracking API from Kuehne+Nagel — 1 operation(s) for gps tracking.
   name: Kuehne+Nagel GPS Tracking API
   slug: kuehne-nagel-gps-tracking-api
-- description: The Health API from Kuehne+Nagel — 1 operation(s) for health.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Health API from Kuehne+Nagel — 1 operation(s) for health.
   name: Kuehne+Nagel Health API
   slug: kuehne-nagel-health-api
-- description: The Healthz API from Kuehne+Nagel — 1 operation(s) for healthz.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Healthz API from Kuehne+Nagel — 1 operation(s) for healthz.
   name: Kuehne+Nagel Healthz API
   slug: kuehne-nagel-healthz-api
-- description: The Job Documents API from Kuehne+Nagel — 1 operation(s) for job documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Job Documents API from Kuehne+Nagel — 1 operation(s) for job documents.
   name: Kuehne+Nagel Job Documents API
   slug: kuehne-nagel-job-documents-api
-- description: The Job Status API from Kuehne+Nagel — 1 operation(s) for job status.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Job Status API from Kuehne+Nagel — 1 operation(s) for job status.
   name: Kuehne+Nagel Job Status API
   slug: kuehne-nagel-job-status-api
-- description: Operations for monitoring and managing asynchronous extraction jobs.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Operations for monitoring and managing asynchronous extraction jobs.
   name: Kuehne+Nagel Jobs API
   slug: kuehne-nagel-jobs-api
-- description: Operations to list shipment documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Operations to list shipment documents.
   name: Kuehne+Nagel List API
   slug: kuehne-nagel-list-api
-- description: The Master Data API from Kuehne+Nagel — 3 operation(s) for master data.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Master Data API from Kuehne+Nagel — 3 operation(s) for master data.
   name: Kuehne+Nagel Master Data API
   slug: kuehne-nagel-master-data-api
-- description: The Metrics API from Kuehne+Nagel — 1 operation(s) for metrics.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Metrics API from Kuehne+Nagel — 1 operation(s) for metrics.
   name: Kuehne+Nagel Metrics API
   slug: kuehne-nagel-metrics-api
-- description: The Order API from Kuehne+Nagel — 1 operation(s) for order.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Order API from Kuehne+Nagel — 1 operation(s) for order.
   name: Kuehne+Nagel Order API
   slug: kuehne-nagel-order-api
-- description: Post event description
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Post event description
   name: Kuehne+Nagel Post event API
   slug: kuehne-nagel-post-event-api
-- description: Process individual files using LLM extraction with prompt templates.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Process individual files using LLM extraction with prompt templates.
   name: Kuehne+Nagel Process File API
   slug: kuehne-nagel-process-file-api
-- description: The process-state API from Kuehne+Nagel — 1 operation(s) for process-state.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The process-state API from Kuehne+Nagel — 1 operation(s) for process-state.
   name: Kuehne+Nagel Process State API
   slug: kuehne-nagel-process-state-api
-- description: Process ZIP archives containing multiple files using LLM extraction.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Process ZIP archives containing multiple files using LLM extraction.
   name: Kuehne+Nagel Process Zip API
   slug: kuehne-nagel-process-zip-api
-- description: Assign and manage tags for specific prompt versions.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Assign and manage tags for specific prompt versions.
   name: Kuehne+Nagel Prompt Tags API
   slug: kuehne-nagel-prompt-tags-api
-- description: Manage prompts for workspaces.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage prompts for workspaces.
   name: Kuehne+Nagel Prompts API
   slug: kuehne-nagel-prompts-api
-- description: The Proof of Delivery API from Kuehne+Nagel — 1 operation(s) for proof of delivery.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The Proof of Delivery API from Kuehne+Nagel — 1 operation(s) for proof of delivery.
   name: Kuehne+Nagel Proof of Delivery API
   slug: kuehne-nagel-proof-of-delivery-api
-- description: The purchase-order-layer API from Kuehne+Nagel — 3 operation(s) for purchase-order-layer.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The purchase-order-layer API from Kuehne+Nagel — 3 operation(s) for purchase-order-layer.
   name: Kuehne+Nagel Purchase Order Layer API
   slug: kuehne-nagel-purchase-order-layer-api
-- description: Manage workspace processing quotas and limits.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage workspace processing quotas and limits.
   name: Kuehne+Nagel Quotas API
   slug: kuehne-nagel-quotas-api
-- description: Manage schemas for workspaces.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage schemas for workspaces.
   name: Kuehne+Nagel Schemas API
   slug: kuehne-nagel-schemas-api
-- description: The shipment API from Kuehne+Nagel — 4 operation(s) for shipment.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The shipment API from Kuehne+Nagel — 4 operation(s) for shipment.
   name: Kuehne+Nagel Shipment API
   slug: kuehne-nagel-shipment-api
-- description: Manage tags for workspaces and prompts.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage tags for workspaces and prompts.
   name: Kuehne+Nagel Tags API
   slug: kuehne-nagel-tags-api
-- description: Telemetry assigned to a cargo item (PACKAGE/CONTAINER/UNKNOWN).
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Telemetry assigned to a cargo item (PACKAGE/CONTAINER/UNKNOWN).
   name: Kuehne+Nagel Telemetry API
   slug: kuehne-nagel-telemetry-api
-- description: Manage test cases for prompt evaluation.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage test cases for prompt evaluation.
   name: Kuehne+Nagel Test Cases API
   slug: kuehne-nagel-test-cases-api
-- description: The test-sets API from Kuehne+Nagel — 8 operation(s) for test-sets.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The test-sets API from Kuehne+Nagel — 8 operation(s) for test-sets.
   name: Kuehne+Nagel Test Sets API
   slug: kuehne-nagel-test-sets-api
-- description: Manage and discover available LLM tools for function calling. Includes both local tools and tools from registered MCP servers.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage and discover available LLM tools for function calling. Includes both local tools and tools from registered MCP servers.
   name: Kuehne+Nagel Tools API
   slug: kuehne-nagel-tools-api
-- description: Operations to upload shipment documents.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Operations to upload shipment documents.
   name: Kuehne+Nagel Upload API
   slug: kuehne-nagel-upload-api
-- description: The usage-statistics API from Kuehne+Nagel — 1 operation(s) for usage-statistics.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The usage-statistics API from Kuehne+Nagel — 1 operation(s) for usage-statistics.
   name: Kuehne+Nagel Usage Statistics API
   slug: kuehne-nagel-usage-statistics-api
-- description: The users API from Kuehne+Nagel — 4 operation(s) for users.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: The users API from Kuehne+Nagel — 4 operation(s) for users.
   name: Kuehne+Nagel Users API
   slug: kuehne-nagel-users-api
-- description: Manage workspaces.
+- baseURL: https://gateway.api.kuehne-nagel.com/track-trace/shipment/v2
+  baseurl_source: declared
+  description: Manage workspaces.
   name: Kuehne+Nagel Workspaces API
   slug: kuehne-nagel-workspaces-api
 artifact_total: 65
@@ -282,7 +378,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -292,7 +388,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.3
+  previous_composite: 24.6
   provenance:
     contracts:
       callable: 70.8
@@ -300,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 67 operations · 48 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from Amazon GuardDuty — 3 operation(s) for admin.
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Admin API from Amazon GuardDuty — 3 operation(s) for admin.
   name: Amazon GuardDuty Admin API
   slug: amazon-guardduty-admin-api
-- description: The Detector API from Amazon GuardDuty — 37 operation(s) for detector.
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Detector API from Amazon GuardDuty — 37 operation(s) for detector.
   name: Amazon GuardDuty Detector API
   slug: amazon-guardduty-detector-api
-- description: The Invitation API from Amazon GuardDuty — 4 operation(s) for invitation.
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Invitation API from Amazon GuardDuty — 4 operation(s) for invitation.
   name: Amazon GuardDuty Invitation API
   slug: amazon-guardduty-invitation-api
-- description: The Tags API from Amazon GuardDuty — 2 operation(s) for tags.
+- baseURL: https://guardduty.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon GuardDuty — 2 operation(s) for tags.
   name: Amazon GuardDuty Tags API
   slug: amazon-guardduty-tags-api
 artifact_total: 1222
@@ -3817,7 +3825,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/screenshots/amazon-guardduty-2026-06-20T171659.png
 security:

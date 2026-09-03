@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage training datasets
+- baseURL: https://us-central1-aiplatform.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage training datasets
   name: Google Vertex AI Datasets API
   slug: google-vertex-ai-datasets-api
-- description: Manage prediction endpoints
+- baseURL: https://us-central1-aiplatform.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage prediction endpoints
   name: Google Vertex AI Endpoints API
   slug: google-vertex-ai-endpoints-api
-- description: Manage ML models
+- baseURL: https://us-central1-aiplatform.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage ML models
   name: Google Vertex AI Models API
   slug: google-vertex-ai-models-api
-- description: Run predictions using deployed models
+- baseURL: https://us-central1-aiplatform.googleapis.com/v1
+  baseurl_source: declared
+  description: Run predictions using deployed models
   name: Google Vertex AI Predictions API
   slug: google-vertex-ai-predictions-api
-- description: Manage training pipelines
+- baseURL: https://us-central1-aiplatform.googleapis.com/v1
+  baseurl_source: declared
+  description: Manage training pipelines
   name: Google Vertex AI TrainingPipelines API
   slug: google-vertex-ai-trainingpipelines-api
 artifact_total: 27
@@ -245,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/screenshots/google-vertex-ai-2026-06-20T182247.png
 security:

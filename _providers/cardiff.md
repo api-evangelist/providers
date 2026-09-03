@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 26 operations
 api_count: 5
 apis:
-- description: Course records, descriptions and structure for taught programmes. 4 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
+- baseURL: https://api.data.cardiff.ac.uk/courses/v1
+  baseurl_source: declared
+  description: Course records, descriptions and structure for taught programmes. 4 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
   name: Cardiff University Courses API
   slug: cardiff-courses-api
-- description: Clearing and adjustment availability against the course catalogue. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
+- baseURL: https://api.data.cardiff.ac.uk/courses/v1
+  baseurl_source: declared
+  description: Clearing and adjustment availability against the course catalogue. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
   name: Cardiff University Clearing Adjustments API
   slug: cardiff-clearing-adjustments-api
-- description: Course grouping records exposed by the Courses contract. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
+- baseURL: https://api.data.cardiff.ac.uk/courses/v1
+  baseurl_source: declared
+  description: Course grouping records exposed by the Courses contract. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
   name: Cardiff University Groups API
   slug: cardiff-groups-api
-- description: Module records and module catalogues for taught modules. 5 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
+- baseURL: https://api.data.cardiff.ac.uk/modules/v1
+  baseurl_source: declared
+  description: Module records and module catalogues for taught modules. 5 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Modules API
   slug: cardiff-modules-api
-- description: Assessments attached to a module, filterable by academic year. 1 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
+- baseURL: https://api.data.cardiff.ac.uk/modules/v1
+  baseurl_source: declared
+  description: Assessments attached to a module, filterable by academic year. 1 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Assessments API
   slug: cardiff-assessments-api
-- description: Module occurrences, including the VLE (learn) occurrence records. 4 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
+- baseURL: https://api.data.cardiff.ac.uk/modules/v1
+  baseurl_source: declared
+  description: Module occurrences, including the VLE (learn) occurrence records. 4 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Occurrences API
   slug: cardiff-occurrences-api
-- description: Year-on-year module rollover mapping. 2 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
+- baseURL: https://api.data.cardiff.ac.uk/modules/v1
+  baseurl_source: declared
+  description: Year-on-year module rollover mapping. 2 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Rollover API
   slug: cardiff-rollover-api
-- description: Reference list of academic schools used across the University. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of academic schools used across the University. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Schools API
   slug: cardiff-schools-api
-- description: Reference list of subject codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of subject codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Subjects API
   slug: cardiff-subjects-api
-- description: Reference list of study levels. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of study levels. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Levels API
   slug: cardiff-levels-api
-- description: Reference list of semester codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of semester codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Semesters API
   slug: cardiff-semesters-api
-- description: Reference list of qualification codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of qualification codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Qualifications API
   slug: cardiff-qualifications-api
-- description: Reference list of academic years. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+- baseURL: https://api.data.cardiff.ac.uk/lookups/v1
+  baseurl_source: declared
+  description: Reference list of academic years. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Years API
   slug: cardiff-years-api
-- description: Research publication records, keyed on the ORCA EPrints identifier. 2 operation(s), from Cardiff's own PublicationsApi contract on the api.data.cardiff.ac.uk gateway (base path /publications/v1).
+- baseURL: https://api.data.cardiff.ac.uk/publications/v1
+  baseurl_source: declared
+  description: Research publication records, keyed on the ORCA EPrints identifier. 2 operation(s), from Cardiff's own PublicationsApi contract on the api.data.cardiff.ac.uk gateway (base path /publications/v1).
   name: Cardiff University Publications API
   slug: cardiff-publications-api
-- description: Gateway connectivity-test catch-all path. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
+- baseURL: https://api.data.cardiff.ac.uk/echo/v1
+  baseurl_source: declared
+  description: Gateway connectivity-test catch-all path. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
   name: Cardiff University Echo Default API
   slug: cardiff-default-api
-- description: Gateway connectivity-test endpoint. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
+- baseURL: https://api.data.cardiff.ac.uk/echo/v1
+  baseurl_source: declared
+  description: Gateway connectivity-test endpoint. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
   name: Cardiff University Echo Test API
   slug: cardiff-test-api
 - description: Online Research @ Cardiff (ORCA) is Cardiff University's own EPrints institutional repository, listed as an IT service the University runs. Its OAI-PMH interface has been registered under Cardiff Univ
@@ -369,7 +401,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -379,7 +411,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 41.3
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -395,7 +427,7 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Get API from Gender API — 1 operation(s) for get.
+- baseURL: https://gender-api.com
+  baseurl_source: declared
+  description: The Get API from Gender API — 1 operation(s) for get.
   name: Gender API Get API
   slug: gender-api-get-api
-- description: The Get Country Of Origin API from Gender API — 1 operation(s) for get country of origin.
+- baseURL: https://gender-api.com
+  baseurl_source: declared
+  description: The Get Country Of Origin API from Gender API — 1 operation(s) for get country of origin.
   name: Gender API Get Country Of Origin API
   slug: gender-api-get-country-of-origin-api
-- description: The Get Stats API from Gender API — 1 operation(s) for get stats.
+- baseURL: https://gender-api.com
+  baseurl_source: declared
+  description: The Get Stats API from Gender API — 1 operation(s) for get stats.
   name: Gender API Get Stats API
   slug: gender-api-get-stats-api
 artifact_total: 14
@@ -183,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/screenshots/gender-api-2026-06-20T181719.png
 security:

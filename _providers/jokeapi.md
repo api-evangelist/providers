@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 10 operations · 1 acting
 api_count: 3
 apis:
-- description: Operations for retrieving and submitting jokes.
+- baseURL: https://v2.jokeapi.dev
+  baseurl_source: declared
+  description: Operations for retrieving and submitting jokes.
   name: JokeAPI Jokes API
   slug: jokeapi-jokes-api
-- description: Operations describing the API surface — categories, flags, formats, languages.
+- baseURL: https://v2.jokeapi.dev
+  baseurl_source: declared
+  description: Operations describing the API surface — categories, flags, formats, languages.
   name: JokeAPI Metadata API
   slug: jokeapi-metadata-api
-- description: Health and discovery endpoints.
+- baseURL: https://v2.jokeapi.dev
+  baseurl_source: declared
+  description: Health and discovery endpoints.
   name: JokeAPI System API
   slug: jokeapi-system-api
 artifact_total: 58
@@ -361,7 +367,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:

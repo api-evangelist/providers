@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create, list, run, evaluate, download, and publish adaptive datasets.
+- baseURL: https://api.prod.adaptionlabs.ai
+  baseurl_source: declared
+  description: Create, list, run, evaluate, download, and publish adaptive datasets.
   name: Adaption Datasets API
   slug: adaption-datasets-api
-- description: Pre-signed direct-to-S3 upload lifecycle for file-sourced datasets.
+- baseURL: https://api.prod.adaptionlabs.ai
+  baseurl_source: declared
+  description: Pre-signed direct-to-S3 upload lifecycle for file-sourced datasets.
   name: Adaption Upload API
   slug: adaption-upload-api
 artifact_total: 6
@@ -136,7 +140,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption/refs/heads/main/screenshots/adaption-2026-07-25T181551.png
 security:

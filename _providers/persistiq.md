@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 13 operations · 5 acting
 api_count: 2
 apis:
-- description: Outreach campaigns
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Outreach campaigns
   name: PersistIQ Campaigns API
   slug: persistiq-campaigns-api
-- description: Suppressed domains
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Suppressed domains
   name: PersistIQ Do Not Contact Domains API
   slug: persistiq-do-not-contact-domains-api
-- description: Activity events
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Activity events
   name: PersistIQ Events API
   slug: persistiq-events-api
-- description: Lead field definitions
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Lead field definitions
   name: PersistIQ Lead Fields API
   slug: persistiq-lead-fields-api
-- description: Lead status definitions
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Lead status definitions
   name: PersistIQ Lead Statuses API
   slug: persistiq-lead-statuses-api
-- description: Leads (prospects)
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Leads (prospects)
   name: PersistIQ Leads API
   slug: persistiq-leads-api
-- description: Company users
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: Company users
   name: PersistIQ Users API
   slug: persistiq-users-api
-- description: The Campaign Leads API from PersistIQ — 2 operation(s) for campaign leads.
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: The Campaign Leads API from PersistIQ — 2 operation(s) for campaign leads.
   name: PersistIQ Campaign Leads API
   slug: persistiq-campaign-leads-api
-- description: The DNC Domains API from PersistIQ — 1 operation(s) for dnc domains.
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: The DNC Domains API from PersistIQ — 1 operation(s) for dnc domains.
   name: PersistIQ DNC Domains API
   slug: persistiq-dnc-domains-api
-- description: The Replies API from PersistIQ — 1 operation(s) for replies.
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: The Replies API from PersistIQ — 1 operation(s) for replies.
   name: PersistIQ Replies API
   slug: persistiq-replies-api
-- description: The Tags API from PersistIQ — 1 operation(s) for tags.
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: The Tags API from PersistIQ — 1 operation(s) for tags.
   name: PersistIQ Tags API
   slug: persistiq-tags-api
-- description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
+- baseURL: https://api.persistiq.com
+  baseurl_source: declared
+  description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
   name: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
 artifact_total: 27
@@ -278,7 +302,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -288,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/screenshots/persistiq-2026-08-17T081210.png
 security:

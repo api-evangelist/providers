@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
-- description: The AI Recipe Boards API from Padlet — 2 operation(s) for ai recipe boards.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The AI Recipe Boards API from Padlet — 2 operation(s) for ai recipe boards.
   name: Padlet AI Recipe Boards API
   slug: padlet-ai-recipe-boards-api
-- description: The Boards API from Padlet — 1 operation(s) for boards.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Boards API from Padlet — 1 operation(s) for boards.
   name: Padlet Boards API
   slug: padlet-boards-api
-- description: The Comments API from Padlet — 1 operation(s) for comments.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Comments API from Padlet — 1 operation(s) for comments.
   name: Padlet Comments API
   slug: padlet-comments-api
-- description: The Organizations API from Padlet — 2 operation(s) for organizations.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Organizations API from Padlet — 2 operation(s) for organizations.
   name: Padlet Organizations API
   slug: padlet-organizations-api
-- description: The Posts API from Padlet — 2 operation(s) for posts.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Posts API from Padlet — 2 operation(s) for posts.
   name: Padlet Posts API
   slug: padlet-posts-api
-- description: The Reactions API from Padlet — 1 operation(s) for reactions.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Reactions API from Padlet — 1 operation(s) for reactions.
   name: Padlet Reactions API
   slug: padlet-reactions-api
-- description: The Users API from Padlet — 1 operation(s) for users.
+- baseURL: https://api.padlet.dev/v1
+  baseurl_source: declared
+  description: The Users API from Padlet — 1 operation(s) for users.
   name: Padlet Users API
   slug: padlet-users-api
 artifact_total: 21
@@ -261,7 +275,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/padlet/refs/heads/main/screenshots/padlet-2026-08-07T191252.png
 security:

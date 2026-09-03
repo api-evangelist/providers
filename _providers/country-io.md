@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Capital cities by ISO2 code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: Capital cities by ISO2 code.
   name: Country.io Capitals API
   slug: country-io-capitals-api
-- description: Continent codes by ISO2 country code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: Continent codes by ISO2 country code.
   name: Country.io Continents API
   slug: country-io-continents-api
-- description: Currency codes by ISO2 country code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: Currency codes by ISO2 country code.
   name: Country.io Currency API
   slug: country-io-currency-api
-- description: ISO 3166-1 alpha-3 codes by ISO2 country code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: ISO 3166-1 alpha-3 codes by ISO2 country code.
   name: Country.io ISO3 API
   slug: country-io-iso3-api
-- description: Country names by ISO2 code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: Country names by ISO2 code.
   name: Country.io Names API
   slug: country-io-names-api
-- description: International dialing codes by ISO2 country code.
+- baseURL: https://country.io
+  baseurl_source: declared
+  description: International dialing codes by ISO2 country code.
   name: Country.io Phone API
   slug: country-io-phone-api
 artifact_total: 20
@@ -190,7 +202,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-io/refs/heads/main/screenshots/country-io-2026-06-20T175104.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
@@ -49,10 +49,14 @@ apis:
 - description: SDK and API for embedding Snap's augmented-reality Lenses (Lens Studio content) into third-party mobile and web apps, including a push-to-device API for managing Lens groups and experiences.
   name: Camera Kit
   slug: camera-kit
-- description: The Conversion API from Snap — 4 operation(s) for conversion.
+- baseURL: https://adsapi.snapchat.com/v1
+  baseurl_source: declared
+  description: The Conversion API from Snap — 4 operation(s) for conversion.
   name: Snap Conversion API
   slug: snap-conversion-api
-- description: The Events API from Snap — 4 operation(s) for events.
+- baseURL: https://adsapi.snapchat.com/v1
+  baseurl_source: declared
+  description: The Events API from Snap — 4 operation(s) for events.
   name: Snap Events API
   slug: snap-events-api
 artifact_total: 15
@@ -263,7 +267,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -273,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     contracts:
@@ -284,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
 security:

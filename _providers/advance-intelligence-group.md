@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Obtain an access token for calling the Open API.
+- baseURL: https://api.advance.ai
+  baseurl_source: declared
+  description: Obtain an access token for calling the Open API.
   name: Advance Intelligence Group Authentication API
   slug: advance-intelligence-group-authentication-api
-- description: Global document verification (SDK auth-license + result query).
+- baseURL: https://api.advance.ai
+  baseurl_source: declared
+  description: Global document verification (SDK auth-license + result query).
   name: Advance Intelligence Group Document Verification API
   slug: advance-intelligence-group-document-verification-api
-- description: Face comparison and biometric matching.
+- baseURL: https://api.advance.ai
+  baseurl_source: declared
+  description: Face comparison and biometric matching.
   name: Advance Intelligence Group Face Recognition API
   slug: advance-intelligence-group-face-recognition-api
-- description: Optical character recognition for identity documents.
+- baseURL: https://api.advance.ai
+  baseurl_source: declared
+  description: Optical character recognition for identity documents.
   name: Advance Intelligence Group OCR API
   slug: advance-intelligence-group-ocr-api
 artifact_total: 12
@@ -200,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/screenshots/advance-intelligence-group-2026-07-25T181711.png
 security:

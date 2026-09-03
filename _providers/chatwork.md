@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 32 operations · 17 acting
 api_count: 1
 apis:
-- description: The Contacts API from Chatwork — 1 operation(s) for contacts.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Contacts API from Chatwork — 1 operation(s) for contacts.
   name: Chatwork Contacts API
   slug: chatwork-contacts-api
-- description: The Files API from Chatwork — 2 operation(s) for files.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Files API from Chatwork — 2 operation(s) for files.
   name: Chatwork Files API
   slug: chatwork-files-api
-- description: The Incoming Requests API from Chatwork — 2 operation(s) for incoming requests.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Incoming Requests API from Chatwork — 2 operation(s) for incoming requests.
   name: Chatwork Incoming Requests API
   slug: chatwork-incoming-requests-api
-- description: The Link API from Chatwork — 1 operation(s) for link.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Link API from Chatwork — 1 operation(s) for link.
   name: Chatwork Link API
   slug: chatwork-link-api
-- description: The Me API from Chatwork — 3 operation(s) for me.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Me API from Chatwork — 3 operation(s) for me.
   name: Chatwork Me API
   slug: chatwork-me-api
-- description: The Members API from Chatwork — 1 operation(s) for members.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Members API from Chatwork — 1 operation(s) for members.
   name: Chatwork Members API
   slug: chatwork-members-api
-- description: The Messages API from Chatwork — 4 operation(s) for messages.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Messages API from Chatwork — 4 operation(s) for messages.
   name: Chatwork Messages API
   slug: chatwork-messages-api
-- description: The Rooms API from Chatwork — 2 operation(s) for rooms.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Rooms API from Chatwork — 2 operation(s) for rooms.
   name: Chatwork Rooms API
   slug: chatwork-rooms-api
-- description: The Tasks API from Chatwork — 3 operation(s) for tasks.
+- baseURL: https://api.chatwork.com/v2
+  baseurl_source: declared
+  description: The Tasks API from Chatwork — 3 operation(s) for tasks.
   name: Chatwork Tasks API
   slug: chatwork-tasks-api
 artifact_total: 25
@@ -222,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/screenshots/chatwork-2026-06-20T174238.png
 security:

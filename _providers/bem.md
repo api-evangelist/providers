@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 86 operations · 50 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Buckets are named partitions of the knowledge graph within an account+environment. Entities, mentions, and relations are scoped to a bucket so a single account+environment can host multiple isolated g
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Buckets are named partitions of the knowledge graph within an account+environment. Entities, mentions, and relations are scoped to a bucket so a single account+environment can host multiple isolated g
   name: Bem Buckets API
   slug: bem-buckets-api
-- description: 'The Calls API provides a unified interface for invoking both **Workflows** and **Functions**. Use this API when you want to: - Execute a complete workflow that chains multiple functions together - Cal'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'The Calls API provides a unified interface for invoking both **Workflows** and **Functions**. Use this API when you want to: - Execute a complete workflow that chains multiple functions together - Cal'
   name: Bem Calls API
   slug: bem-calls-api
-- description: Collections are named groups of embedded items used by Enrich functions for semantic search. Each collection is referenced by a `collectionName`, which supports dot notation for hierarchical paths (e.
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Collections are named groups of embedded items used by Enrich functions for semantic search. Each collection is referenced by a `collectionName`, which supports dot notation for hierarchical paths (e.
   name: Bem Collections API
   slug: bem-collections-api
-- description: Connectors are integrations that trigger a Bem workflow from an external system. A connector binds an inbound source — currently Box or a Paragon-managed integration such as Google Drive — to a specif
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Connectors are integrations that trigger a Bem workflow from an external system. A connector binds an inbound source — currently Box or a Paragon-managed integration such as Google Drive — to a specif
   name: Bem Connectors API
   slug: bem-connectors-api
-- description: Seed the knowledge graph with a batch of customer-authored canonical entities in one request — their types, descriptions, synonyms, and per-entity attributes. - **`POST /v3/entities/bulk`** creates or
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Seed the knowledge graph with a batch of customer-authored canonical entities in one request — their types, descriptions, synonyms, and per-entity attributes. - **`POST /v3/entities/bulk`** creates or
   name: Bem Entity Bulk Seed API
   slug: bem-entity-bulk-seed-api
-- description: 'Curate the knowledge graph by transitioning entities through their review lifecycle and editing their metadata. - **`PATCH /v3/entities/{id}`** updates a single entity. Every field is optional but at '
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'Curate the knowledge graph by transitioning entities through their review lifecycle and editing their metadata. - **`PATCH /v3/entities/{id}`** updates a single entity. Every field is optional but at '
   name: Bem Entity Curation API
   slug: bem-entity-curation-api
-- description: Manage the human-readable surface forms (synonyms) attached to a canonical entity. Synonyms feed the matcher's exact-match path, so adding the right synonyms improves cross-document entity resolution.
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Manage the human-readable surface forms (synonyms) attached to a canonical entity. Synonyms feed the matcher's exact-match path, so adding the right synonyms improves cross-document entity resolution.
   name: Bem Entity Synonyms API
   slug: bem-entity-synonyms-api
-- description: 'Reviewer assignments link users to the entity types they are responsible for reviewing, scoped to an account+environment. These are dashboard-only endpoints: an assignment needs a user identity, which'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'Reviewer assignments link users to the entity types they are responsible for reviewing, scoped to an account+environment. These are dashboard-only endpoints: an assignment needs a user identity, which'
   name: Bem Entity Type Reviewers API
   slug: bem-entity-type-reviewers-api
-- description: Entity Types are the customer-defined taxonomy for the knowledge graph, scoped to an account+environment. Each type has a unique, immutable name and can be organised into hierarchies via `parentTypeID
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Entity Types are the customer-defined taxonomy for the knowledge graph, scoped to an account+environment. Each type has a unique, immutable name and can be organised into hierarchies via `parentTypeID
   name: Bem Entity Types API
   slug: bem-entity-types-api
-- description: Retrieve terminal error events from workflow calls. Errors are events produced by function steps that failed during processing. A single workflow call may produce multiple error events if several step
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Retrieve terminal error events from workflow calls. Errors are events produced by function steps that failed during processing. A single workflow call may produce multiple error events if several step
   name: Bem Errors API
   slug: bem-errors-api
-- description: Submit training corrections for `extract`, `classify`, and `join` events. Feedback is event-centric — each correction is attached to an event by its `eventID`, and the server resolves the correct unde
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Submit training corrections for `extract`, `classify`, and `join` events. Feedback is event-centric — each correction is attached to an event by its `eventID`, and the server resolves the correct unde
   name: Bem Feedback API
   slug: bem-feedback-api
-- description: Unix-shell-style nav over parsed documents and the cross-doc memory store. `POST /v3/fs` is a single op-driven endpoint designed for LLM agents and programmatic consumers that want to walk a corpus th
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Unix-shell-style nav over parsed documents and the cross-doc memory store. `POST /v3/fs` is a single op-driven endpoint designed for LLM agents and programmatic consumers that want to walk a corpus th
   name: Bem File System API
   slug: bem-file-system-api
-- description: 'Monitor, evaluate, and iterate on the quality of every function in your environment. Function Accuracy bundles two complementary loops: ## Evaluations (`/v3/eval`) Trigger and retrieve per-transformat'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'Monitor, evaluate, and iterate on the quality of every function in your environment. Function Accuracy bundles two complementary loops: ## Evaluations (`/v3/eval`) Trigger and retrieve per-transformat'
   name: Bem Function Accuracy API
   slug: bem-function-accuracy-api
-- description: 'Functions are the core building blocks of data transformation in Bem. Each function type serves a specific purpose: - **Extract**: Extract structured JSON data from unstructured documents (PDFs, email'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'Functions are the core building blocks of data transformation in Bem. Each function type serves a specific purpose: - **Extract**: Extract structured JSON data from unstructured documents (PDFs, email'
   name: Bem Functions API
   slug: bem-functions-api
-- description: Read the cross-document knowledge graph — the canonical entities and the directed relations between them that the Parse pipeline populates when `linkAcrossDocuments` is enabled. - **`GET /v3/entities/
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Read the cross-document knowledge graph — the canonical entities and the directed relations between them that the Parse pipeline populates when `linkAcrossDocuments` is enabled. - **`GET /v3/entities/
   name: Bem Knowledge Graph API
   slug: bem-knowledge-graph-api
-- description: Retrieve terminal non-error output events from workflow calls. Outputs are events produced by successful terminal function steps — steps that completed without errors and did not spawn further downstr
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Retrieve terminal non-error output events from workflow calls. Outputs are events produced by successful terminal function steps — steps that completed without errors and did not spawn further downstr
   name: Bem Outputs API
   slug: bem-outputs-api
-- description: The reviewer-facing read surface for entity curation, available on the dashboard (JWT) only. - **`GET /v3/review-queue`** returns a cursor-paginated set of entities awaiting curation, scoped to your a
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: The reviewer-facing read surface for entity curation, available on the dashboard (JWT) only. - **`GET /v3/review-queue`** returns a cursor-paginated set of entities awaiting curation, scoped to your a
   name: Bem Review Queue API
   slug: bem-review-queue-api
-- description: Infer JSON Schemas from uploaded documents using AI. Upload a file (PDF, image, spreadsheet, email, etc.) and receive a general-purpose JSON Schema that captures the document's structure. The inferred
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Infer JSON Schemas from uploaded documents using AI. Upload a file (PDF, image, spreadsheet, email, etc.) and receive a general-purpose JSON Schema that captures the document's structure. The inferred
   name: Bem Schema Inference API
   slug: bem-schema-inference-api
-- description: Subscriptions wire up notifications for the events your functions and collections produce. Most subscriptions target a single function (by `functionName` or `functionID`) or a single collection (by `c
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Subscriptions wire up notifications for the events your functions and collections produce. Most subscriptions target a single function (by `functionName` or `functionID`) or a single collection (by `c
   name: Bem Subscriptions API
   slug: bem-subscriptions-api
-- description: 'Views are tabular projections over the `transformations` your functions produce — a saved query that turns raw extracted JSON into a filterable, paginatable, aggregatable table. ## Anatomy A view decl'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'Views are tabular projections over the `transformations` your functions produce — a saved query that turns raw extracted JSON into a filterable, paginatable, aggregatable table. ## Anatomy A view decl'
   name: Bem Views API
   slug: bem-views-api
-- description: 'bem POSTs a JSON event to your configured webhook URL each time a subscribed function call, workflow output, or collection-processing job fires. This section is the reference for those deliveries: the'
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: 'bem POSTs a JSON event to your configured webhook URL each time a subscribed function call, workflow output, or collection-processing job fires. This section is the reference for those deliveries: the'
   name: Bem Webhooks API
   slug: bem-webhooks-api
-- description: Workflows orchestrate one or more functions into a directed acyclic graph (DAG) for document processing. Use these endpoints to create, update, list, and manage workflows, and to invoke them with file
+- baseURL: https://api.bem.ai
+  baseurl_source: declared
+  description: Workflows orchestrate one or more functions into a directed acyclic graph (DAG) for document processing. Use these endpoints to create, update, list, and manage workflows, and to invoke them with file
   name: Bem Workflows API
   slug: bem-workflows-api
 artifact_total: 49
@@ -335,7 +379,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -345,7 +389,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 51.4
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,7 +401,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:

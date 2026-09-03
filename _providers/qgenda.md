@@ -33,88 +33,142 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Company API from QGenda — 1 operation(s) for company.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Company API from QGenda — 1 operation(s) for company.
   name: QGenda Company API
   slug: qgenda-company-api
-- description: The Contacts API from QGenda — 3 operation(s) for contacts.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Contacts API from QGenda — 3 operation(s) for contacts.
   name: QGenda Contacts API
   slug: qgenda-contacts-api
-- description: The Corporate Entities API from QGenda — 2 operation(s) for corporate entities.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Corporate Entities API from QGenda — 2 operation(s) for corporate entities.
   name: QGenda Corporate Entities API
   slug: qgenda-corporate-entities-api
-- description: The Credit Allocation API from QGenda — 2 operation(s) for credit allocation.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Credit Allocation API from QGenda — 2 operation(s) for credit allocation.
   name: QGenda Credit Allocation API
   slug: qgenda-credit-allocation-api
-- description: The Daily API from QGenda — 6 operation(s) for daily.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Daily API from QGenda — 6 operation(s) for daily.
   name: QGenda Daily API
   slug: qgenda-daily-api
-- description: The Daily Case API from QGenda — 2 operation(s) for daily case.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Daily Case API from QGenda — 2 operation(s) for daily case.
   name: QGenda Daily Case API
   slug: qgenda-daily-case-api
-- description: The Integration API from QGenda — 1 operation(s) for integration.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Integration API from QGenda — 1 operation(s) for integration.
   name: QGenda Integration API
   slug: qgenda-integration-api
-- description: The Location API from QGenda — 18 operation(s) for location.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Location API from QGenda — 18 operation(s) for location.
   name: QGenda Location API
   slug: qgenda-location-api
-- description: The Locations API from QGenda — 2 operation(s) for locations.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Locations API from QGenda — 2 operation(s) for locations.
   name: QGenda Locations API
   slug: qgenda-locations-api
-- description: The Login API from QGenda — 1 operation(s) for login.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Login API from QGenda — 1 operation(s) for login.
   name: QGenda Login API
   slug: qgenda-login-api
-- description: The Notification List API from QGenda — 4 operation(s) for notification list.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Notification List API from QGenda — 4 operation(s) for notification list.
   name: QGenda Notification List API
   slug: qgenda-notification-list-api
-- description: The Organization API from QGenda — 1 operation(s) for organization.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Organization API from QGenda — 1 operation(s) for organization.
   name: QGenda Organization API
   slug: qgenda-organization-api
-- description: The Pay Code API from QGenda — 1 operation(s) for pay code.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Pay Code API from QGenda — 1 operation(s) for pay code.
   name: QGenda Pay Code API
   slug: qgenda-pay-code-api
-- description: The Pay Pool Template API from QGenda — 1 operation(s) for pay pool template.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Pay Pool Template API from QGenda — 1 operation(s) for pay pool template.
   name: QGenda Pay Pool Template API
   slug: qgenda-pay-pool-template-api
-- description: The Pay Rate API from QGenda — 2 operation(s) for pay rate.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Pay Rate API from QGenda — 2 operation(s) for pay rate.
   name: QGenda Pay Rate API
   slug: qgenda-pay-rate-api
-- description: The Profile API from QGenda — 1 operation(s) for profile.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Profile API from QGenda — 1 operation(s) for profile.
   name: QGenda Profile API
   slug: qgenda-profile-api
-- description: The Request API from QGenda — 2 operation(s) for request.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Request API from QGenda — 2 operation(s) for request.
   name: QGenda Request API
   slug: qgenda-request-api
-- description: The Request Limit API from QGenda — 6 operation(s) for request limit.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Request Limit API from QGenda — 6 operation(s) for request limit.
   name: QGenda Request Limit API
   slug: qgenda-request-limit-api
-- description: The Schedule API from QGenda — 4 operation(s) for schedule.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Schedule API from QGenda — 4 operation(s) for schedule.
   name: QGenda Schedule API
   slug: qgenda-schedule-api
-- description: The Staff Member API from QGenda — 27 operation(s) for staff member.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Staff Member API from QGenda — 27 operation(s) for staff member.
   name: QGenda Staff Member API
   slug: qgenda-staff-member-api
-- description: The Staff Target API from QGenda — 8 operation(s) for staff target.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Staff Target API from QGenda — 8 operation(s) for staff target.
   name: QGenda Staff Target API
   slug: qgenda-staff-target-api
-- description: The Support API from QGenda — 1 operation(s) for support.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Support API from QGenda — 1 operation(s) for support.
   name: QGenda Support API
   slug: qgenda-support-api
-- description: The Tags API from QGenda — 1 operation(s) for tags.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Tags API from QGenda — 1 operation(s) for tags.
   name: QGenda Tags API
   slug: qgenda-tags-api
-- description: The Task API from QGenda — 5 operation(s) for task.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Task API from QGenda — 5 operation(s) for task.
   name: QGenda Task API
   slug: qgenda-task-api
-- description: The Time Event API from QGenda — 2 operation(s) for time event.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Time Event API from QGenda — 2 operation(s) for time event.
   name: QGenda Time Event API
   slug: qgenda-time-event-api
-- description: The User API from QGenda — 4 operation(s) for user.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The User API from QGenda — 4 operation(s) for user.
   name: QGenda User API
   slug: qgenda-user-api
-- description: The Workflows API from QGenda — 5 operation(s) for workflows.
+- baseURL: https://api.qgenda.com/v2
+  baseurl_source: declared
+  description: The Workflows API from QGenda — 5 operation(s) for workflows.
   name: QGenda Workflows API
   slug: qgenda-workflows-api
 artifact_total: 59
@@ -372,7 +426,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qgenda/refs/heads/main/screenshots/qgenda-2026-08-17T081419.png
 security:

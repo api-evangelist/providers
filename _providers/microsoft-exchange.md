@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -53,55 +53,89 @@ apis:
 - description: Service that enables client applications to automatically configure themselves for Exchange connectivity using minimal user input. Supports SOAP and POX protocols for discovering EWS endpoint URLs and
   name: Exchange Autodiscover API
   slug: exchange-autodiscover-api
-- description: View accepted domains and their configurations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: View accepted domains and their configurations
   name: Microsoft Exchange Accepted Domains API
   slug: microsoft-exchange-accepted-domains-api
-- description: Operations for managing message attachments
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing message attachments
   name: Microsoft Exchange Attachments API
   slug: microsoft-exchange-attachments-api
-- description: Operations for managing calendars
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing calendars
   name: Microsoft Exchange Calendars API
   slug: microsoft-exchange-calendars-api
-- description: Operations for managing contact folders
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing contact folders
   name: Microsoft Exchange Contact Folders API
   slug: microsoft-exchange-contact-folders-api
-- description: Operations for managing personal contacts
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing personal contacts
   name: Microsoft Exchange Contacts API
   slug: microsoft-exchange-contacts-api
-- description: Retrieve distribution group and dynamic distribution group membership
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Retrieve distribution group and dynamic distribution group membership
   name: Microsoft Exchange Distribution Groups API
   slug: microsoft-exchange-distribution-groups-api
-- description: Operations for managing calendar events
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing calendar events
   name: Microsoft Exchange Events API
   slug: microsoft-exchange-events-api
-- description: Operations for managing mail folders
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing mail folders
   name: Microsoft Exchange Mail Folders API
   slug: microsoft-exchange-mail-folders-api
-- description: Operations for discovering mailbox structure and content
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for discovering mailbox structure and content
   name: Microsoft Exchange Mailbox Discovery API
   slug: microsoft-exchange-mailbox-discovery-api
-- description: Operations for exporting content from mailboxes
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for exporting content from mailboxes
   name: Microsoft Exchange Mailbox Export API
   slug: microsoft-exchange-mailbox-export-api
-- description: View and manage mailbox folder permissions
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: View and manage mailbox folder permissions
   name: Microsoft Exchange Mailbox Folder Permissions API
   slug: microsoft-exchange-mailbox-folder-permissions-api
-- description: Operations for importing content into mailboxes
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for importing content into mailboxes
   name: Microsoft Exchange Mailbox Import API
   slug: microsoft-exchange-mailbox-import-api
-- description: View and update mailbox properties and delegation
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: View and update mailbox properties and delegation
   name: Microsoft Exchange Mailboxes API
   slug: microsoft-exchange-mailboxes-api
-- description: Operations for managing email messages
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing email messages
   name: Microsoft Exchange Messages API
   slug: microsoft-exchange-messages-api
-- description: Retrieve organization-level Exchange configuration
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Retrieve organization-level Exchange configuration
   name: Microsoft Exchange Organization Configuration API
   slug: microsoft-exchange-organization-configuration-api
-- description: Operations for retrieving relevant people
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for retrieving relevant people
   name: Microsoft Exchange People API
   slug: microsoft-exchange-people-api
-- description: Operations for scheduling and free/busy information
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for scheduling and free/busy information
   name: Microsoft Exchange Scheduling API
   slug: microsoft-exchange-scheduling-api
 arazzos:
@@ -740,7 +774,7 @@ score:
       total: 17
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

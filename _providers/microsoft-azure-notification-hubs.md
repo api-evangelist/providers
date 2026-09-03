@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 4 acting
 api_count: 3
 apis:
-- description: The Installations API from Azure Notification Hubs — 1 operation(s) for installations.
+- baseURL: https://{namespace}.servicebus.windows.net/
+  baseurl_source: declared
+  description: The Installations API from Azure Notification Hubs — 1 operation(s) for installations.
   name: Azure Notification Hubs Installations API
   slug: microsoft-azure-notification-hubs-installations-api
-- description: The Notifications API from Azure Notification Hubs — 1 operation(s) for notifications.
+- baseURL: https://{namespace}.servicebus.windows.net/
+  baseurl_source: declared
+  description: The Notifications API from Azure Notification Hubs — 1 operation(s) for notifications.
   name: Azure Notification Hubs Notifications API
   slug: microsoft-azure-notification-hubs-notifications-api
-- description: The Registrations API from Azure Notification Hubs — 1 operation(s) for registrations.
+- baseURL: https://{namespace}.servicebus.windows.net/
+  baseurl_source: declared
+  description: The Registrations API from Azure Notification Hubs — 1 operation(s) for registrations.
   name: Azure Notification Hubs Registrations API
   slug: microsoft-azure-notification-hubs-registrations-api
 artifact_total: 14
@@ -175,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-notification-hubs/refs/heads/main/screenshots/microsoft-azure-notification-hubs-2026-06-20T185428.png
 security:

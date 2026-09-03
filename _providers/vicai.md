@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 173 operations · 112 acting
 api_count: 1
 apis:
-- description: GL (General Ledger) accounts are part of your *ERP* **Masterdata**. In order to be associated with an invoice line item, key data about the account must be stored in Vic.ai. These operations allow que
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: GL (General Ledger) accounts are part of your *ERP* **Masterdata**. In order to be associated with an invoice line item, key data about the account must be stored in Vic.ai. These operations allow que
   name: Vic.ai Accounts API
   slug: vicai-accounts-api
-- description: Restricts which sender addresses an email endpoint will accept. Each entry is either an `exact` match (full email address) or a `domain` match (everything from that domain). When the restriction is ac
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Restricts which sender addresses an email endpoint will accept. Each entry is either an `exact` match (full email address) or a `domain` match (everything from that domain). When the restriction is ac
   name: Vic.ai Allowed Senders API
   slug: vicai-allowed-senders-api
-- description: 'Attachments are original invoice documents that can be processed by Vic.ai. ## Supported content types - `application/msword` - `application/pdf` - `application/vnd.ms-word.document.macroEnabled.12` -'
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: 'Attachments are original invoice documents that can be processed by Vic.ai. ## Supported content types - `application/msword` - `application/pdf` - `application/vnd.ms-word.document.macroEnabled.12` -'
   name: Vic.ai Attachments API
   slug: vicai-attachments-api
-- description: 'To initiate the authentication process, send a POST request to `/v0/token` with the payload as shown in the example below: ```json { "client_id": "VIC_CLIENT_ID", "client_secret": "VIC_CLIENT_SECRET" '
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: 'To initiate the authentication process, send a POST request to `/v0/token` with the payload as shown in the example below: ```json { "client_id": "VIC_CLIENT_ID", "client_secret": "VIC_CLIENT_SECRET" '
   name: Vic.ai Authentication API
   slug: vicai-authentication-api
-- description: These are features that are not quite ready for general consumption and are liable to change. We will try not to break what is provided, but we can not guarantee that breakages won't happen.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: These are features that are not quite ready for general consumption and are liable to change. We will try not to break what is provided, but we can not guarantee that breakages won't happen.
   name: Vic.ai Beta Features API
   slug: vicai-beta-features-api
-- description: Bills are imported invoices that can be created and updated through the API. These operations allow you to create new bills and update existing ones that were previously imported via the API.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Bills are imported invoices that can be created and updated through the API. These operations allow you to create new bills and update existing ones that were previously imported via the API.
   name: Vic.ai Bills API
   slug: vicai-bills-api
-- description: The companies in the Vic system.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: The companies in the Vic system.
   name: Vic.ai Companies API
   slug: vicai-companies-api
-- description: Per-company configuration options that an integration partner can read and tune programmatically rather than by asking Vic.ai support. Requires partner authentication (obtain a token via `POST /v0/tok
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Per-company configuration options that an integration partner can read and tune programmatically rather than by asking Vic.ai support. Requires partner authentication (obtain a token via `POST /v0/tok
   name: Vic.ai Company Settings API
   slug: vicai-company-settings-api
-- description: Confirm or mark credits as failed after processing in your ERP.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Confirm or mark credits as failed after processing in your ERP.
   name: Vic.ai Credit Confirmations API
   slug: vicai-credit-confirmations-api
-- description: Generate and retrieve reports
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Generate and retrieve reports
   name: Vic.ai CSV Reports API
   slug: vicai-csv-reports-api
-- description: Dimensions are part of your *ERP* **Masterdata**, and represent business categories that are associated with invoice line items, that Vic.ai can automatically assign to invoice line items. These opera
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Dimensions are part of your *ERP* **Masterdata**, and represent business categories that are associated with invoice line items, that Vic.ai can automatically assign to invoice line items. These opera
   name: Vic.ai Dimensions API
   slug: vicai-dimensions-api
-- description: Email endpoints are dedicated email addresses that Vic.ai monitors so your team can forward or send invoices, contracts, or receipts in by email. Each company can have multiple endpoints, each configu
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Email endpoints are dedicated email addresses that Vic.ai monitors so your team can forward or send invoices, contracts, or receipts in by email. Each company can have multiple endpoints, each configu
   name: Vic.ai Email Endpoints API
   slug: vicai-email-endpoints-api
-- description: 'Invoice approval flows define the criteria and steps for processing invoices through an approval workflow. These operations allow you to create, update, and manage approval flows with selection rules '
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: 'Invoice approval flows define the criteria and steps for processing invoices through an approval workflow. These operations allow you to create, update, and manage approval flows with selection rules '
   name: Vic.ai Invoice Approval Flows API
   slug: vicai-invoice-approval-flows-api
-- description: 'These routes give you read-only access to two types of invoices: - Invoices which have not yet been posted to the ERP system (restricted access). - Invoices which have been posted to the ERP system.'
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: 'These routes give you read-only access to two types of invoices: - Invoices which have not yet been posted to the ERP system (restricted access). - Invoices which have been posted to the ERP system.'
   name: Vic.ai Invoices API
   slug: vicai-invoices-api
-- description: Organizations within the Vic system. The old name for this resource is Account Firm. We are transitioning to the name of Organization.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Organizations within the Vic system. The old name for this resource is Account Firm. We are transitioning to the name of Organization.
   name: Vic.ai Organizations API
   slug: vicai-organizations-api
-- description: Partner API for integration providers to provision new organizations and companies. Requires partner-level credentials obtained from Vic.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Partner API for integration providers to provision new organizations and companies. Requires partner-level credentials obtained from Vic.
   name: Vic.ai Partners API
   slug: vicai-partners-api
-- description: List and inspect payment batches.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: List and inspect payment batches.
   name: Vic.ai Payment Batches API
   slug: vicai-payment-batches-api
-- description: Confirm or mark payments as failed after processing in your ERP.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Confirm or mark payments as failed after processing in your ERP.
   name: Vic.ai Payment Confirmations API
   slug: vicai-payment-confirmations-api
-- description: Payment terms are part of your *ERP* **Masterdata**, and represent payment terms that Vic.ai can automatically assign to invoices. Some vendors may have a default payment term, and some invoices may h
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Payment terms are part of your *ERP* **Masterdata**, and represent payment terms that Vic.ai can automatically assign to invoices. Some vendors may have a default payment term, and some invoices may h
   name: Vic.ai Payment Terms API
   slug: vicai-payment-terms-api
-- description: Manage individual line items within a purchase order.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Manage individual line items within a purchase order.
   name: Vic.ai Purchase Order Line Items API
   slug: vicai-purchase-order-line-items-api
-- description: The purchase orders.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: The purchase orders.
   name: Vic.ai Purchase Orders API
   slug: vicai-purchase-orders-api
-- description: Status requests on the state of the Vic.ai system.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Status requests on the state of the Vic.ai system.
   name: Vic.ai Status API
   slug: vicai-status-api
-- description: 'Synchronization is explicit and it is up to the integration to call each resource in the order deemed appropriate. When calling any synchronization functions. Care must be taken by the integration to '
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: 'Synchronization is explicit and it is up to the integration to call each resource in the order deemed appropriate. When calling any synchronization functions. Care must be taken by the integration to '
   name: Vic.ai Synchronizing API
   slug: vicai-synchronizing-api
-- description: Tags are part of your *ERP* **Masterdata**, and represent business categories that are associated with certain entities, like Vendor.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Tags are part of your *ERP* **Masterdata**, and represent business categories that are associated with certain entities, like Vendor.
   name: Vic.ai Tags API
   slug: vicai-tags-api
-- description: The tax codes.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: The tax codes.
   name: Vic.ai Tax Codes API
   slug: vicai-tax-codes-api
-- description: Training invoices are historical invoices used to train your company's AI model. By providing past invoices with their correct GL coding, vendor assignments, Vic.ai learns your accounting patterns and
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Training invoices are historical invoices used to train your company's AI model. By providing past invoices with their correct GL coding, vendor assignments, Vic.ai learns your accounting patterns and
   name: Vic.ai Training Invoices API
   slug: vicai-training-invoices-api
-- description: Managing users in the Vic system. You are allowed to add and remove users from companies and organizations along with managing some of their attributes. However, you are not allowed edit a user's `ema
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Managing users in the Vic system. You are allowed to add and remove users from companies and organizations along with managing some of their attributes. However, you are not allowed edit a user's `ema
   name: Vic.ai Users API
   slug: vicai-users-api
-- description: In some regions, VAT codes are part of your *ERP* **Masterdata**, that represent timeboxed VAT codes and VAT values that Vic.ai can automatically assign to invoice line items.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: In some regions, VAT codes are part of your *ERP* **Masterdata**, that represent timeboxed VAT codes and VAT values that Vic.ai can automatically assign to invoice line items.
   name: Vic.ai VAT Codes API
   slug: vicai-vat-codes-api
-- description: Vendors can be grouped together in Vic.ai. This is especially useful for purchase order matching where you want to match a purchase order to a group of vendors.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Vendors can be grouped together in Vic.ai. This is especially useful for purchase order matching where you want to match a purchase order to a group of vendors.
   name: Vic.ai Vendor Groups API
   slug: vicai-vendor-groups-api
-- description: Vendor tags are used to categorize vendors using tags.
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Vendor tags are used to categorize vendors using tags.
   name: Vic.ai Vendor Tags API
   slug: vicai-vendor-tags-api
-- description: Vendors are part of your *ERP* **Masterdata**, and represent companies that produce invoices. In order to be associated with an invoice, key data about the vendor must be stored in Vic.ai. These opera
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Vendors are part of your *ERP* **Masterdata**, and represent companies that produce invoices. In order to be associated with an invoice, key data about the vendor must be stored in Vic.ai. These opera
   name: Vic.ai Vendors API
   slug: vicai-vendors-api
-- description: These are the `V1` events you can subscribe to. These will be sent as a `POST` to `https://yourCallbackUrl/events`. * `all` - This is a special form, that specifies that you want all events sent to yo
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: These are the `V1` events you can subscribe to. These will be sent as a `POST` to `https://yourCallbackUrl/events`. * `all` - This is a special form, that specifies that you want all events sent to yo
   name: Vic.ai Webhook Events API
   slug: vicai-webhook-events-api
-- description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
+- baseURL: https://api.us.vic.ai
+  baseurl_source: declared
+  description: Webhook subscriptions control which events your system receives and where they are delivered. Each company may have one V0 subscription or multiple V2 subscriptions. You can subscribe to all events or
   name: Vic.ai Webhook Subscriptions API
   slug: vicai-webhook-subscriptions-api
 artifact_total: 74
@@ -403,7 +469,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -413,7 +479,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 54.7
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,7 +497,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
 security:

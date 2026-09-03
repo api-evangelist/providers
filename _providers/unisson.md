@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -43,139 +43,229 @@ agentic_access:
   summary_line: 478 operations · 272 acting · 28 human-in-the-loop
 api_count: 1
 apis:
-- description: The agent-evals API from Unisson — 5 operation(s) for agent-evals.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The agent-evals API from Unisson — 5 operation(s) for agent-evals.
   name: Unisson agent-evals API
   slug: unisson-agent-evals-api
-- description: The agent-integrations API from Unisson — 6 operation(s) for agent-integrations.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The agent-integrations API from Unisson — 6 operation(s) for agent-integrations.
   name: Unisson agent-integrations API
   slug: unisson-agent-integrations-api
-- description: The agent-triggers API from Unisson — 4 operation(s) for agent-triggers.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The agent-triggers API from Unisson — 4 operation(s) for agent-triggers.
   name: Unisson agent-triggers API
   slug: unisson-agent-triggers-api
-- description: The agents API from Unisson — 11 operation(s) for agents.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The agents API from Unisson — 11 operation(s) for agents.
   name: Unisson agents API
   slug: unisson-agents-api
-- description: The analytics API from Unisson — 1 operation(s) for analytics.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The analytics API from Unisson — 1 operation(s) for analytics.
   name: Unisson analytics API
   slug: unisson-analytics-api
-- description: The apis API from Unisson — 12 operation(s) for apis.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The apis API from Unisson — 12 operation(s) for apis.
   name: Unisson apis API
   slug: unisson-apis-api
-- description: The appdb API from Unisson — 7 operation(s) for appdb.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The appdb API from Unisson — 7 operation(s) for appdb.
   name: Unisson appdb API
   slug: unisson-appdb-api
-- description: The apps API from Unisson — 7 operation(s) for apps.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The apps API from Unisson — 7 operation(s) for apps.
   name: Unisson apps API
   slug: unisson-apps-api
-- description: The auth API from Unisson — 1 operation(s) for auth.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The auth API from Unisson — 1 operation(s) for auth.
   name: Unisson auth API
   slug: unisson-auth-api
-- description: The browser-contexts API from Unisson — 2 operation(s) for browser-contexts.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The browser-contexts API from Unisson — 2 operation(s) for browser-contexts.
   name: Unisson browser-contexts API
   slug: unisson-browser-contexts-api
-- description: The chat API from Unisson — 18 operation(s) for chat.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The chat API from Unisson — 18 operation(s) for chat.
   name: Unisson chat API
   slug: unisson-chat-api
-- description: The code-map API from Unisson — 4 operation(s) for code-map.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The code-map API from Unisson — 4 operation(s) for code-map.
   name: Unisson code-map API
   slug: unisson-code-map-api
-- description: The customer-files API from Unisson — 3 operation(s) for customer-files.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The customer-files API from Unisson — 3 operation(s) for customer-files.
   name: Unisson customer-files API
   slug: unisson-customer-files-api
-- description: The customers API from Unisson — 47 operation(s) for customers.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The customers API from Unisson — 47 operation(s) for customers.
   name: Unisson customers API
   slug: unisson-customers-api
-- description: The debrief API from Unisson — 4 operation(s) for debrief.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The debrief API from Unisson — 4 operation(s) for debrief.
   name: Unisson debrief API
   slug: unisson-debrief-api
-- description: The discovery API from Unisson — 6 operation(s) for discovery.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The discovery API from Unisson — 6 operation(s) for discovery.
   name: Unisson discovery API
   slug: unisson-discovery-api
-- description: The documents API from Unisson — 5 operation(s) for documents.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The documents API from Unisson — 5 operation(s) for documents.
   name: Unisson documents API
   slug: unisson-documents-api
-- description: The email-drafts API from Unisson — 2 operation(s) for email-drafts.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The email-drafts API from Unisson — 2 operation(s) for email-drafts.
   name: Unisson email-drafts API
   slug: unisson-email-drafts-api
-- description: The emails API from Unisson — 7 operation(s) for emails.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The emails API from Unisson — 7 operation(s) for emails.
   name: Unisson emails API
   slug: unisson-emails-api
-- description: The external-api API from Unisson — 5 operation(s) for external-api.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The external-api API from Unisson — 5 operation(s) for external-api.
   name: Unisson external-api API
   slug: unisson-external-api-api
-- description: The google-push API from Unisson — 2 operation(s) for google-push.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The google-push API from Unisson — 2 operation(s) for google-push.
   name: Unisson google-push API
   slug: unisson-google-push-api
-- description: The Health API from Unisson — 1 operation(s) for health.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The Health API from Unisson — 1 operation(s) for health.
   name: Unisson Health API
   slug: unisson-health-api
-- description: The imported-databases API from Unisson — 6 operation(s) for imported-databases.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The imported-databases API from Unisson — 6 operation(s) for imported-databases.
   name: Unisson imported-databases API
   slug: unisson-imported-databases-api
-- description: The integrations API from Unisson — 101 operation(s) for integrations.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The integrations API from Unisson — 101 operation(s) for integrations.
   name: Unisson integrations API
   slug: unisson-integrations-api
-- description: The internal-auth-sessions API from Unisson — 3 operation(s) for internal-auth-sessions.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The internal-auth-sessions API from Unisson — 3 operation(s) for internal-auth-sessions.
   name: Unisson internal-auth-sessions API
   slug: unisson-internal-auth-sessions-api
-- description: The knowledge-base API from Unisson — 15 operation(s) for knowledge-base.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The knowledge-base API from Unisson — 15 operation(s) for knowledge-base.
   name: Unisson knowledge-base API
   slug: unisson-knowledge-base-api
-- description: The live-map API from Unisson — 3 operation(s) for live-map.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The live-map API from Unisson — 3 operation(s) for live-map.
   name: Unisson live-map API
   slug: unisson-live-map-api
-- description: The managed-auth API from Unisson — 3 operation(s) for managed-auth.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The managed-auth API from Unisson — 3 operation(s) for managed-auth.
   name: Unisson managed-auth API
   slug: unisson-managed-auth-api
-- description: The meetings API from Unisson — 8 operation(s) for meetings.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The meetings API from Unisson — 8 operation(s) for meetings.
   name: Unisson meetings API
   slug: unisson-meetings-api
-- description: The memory API from Unisson — 7 operation(s) for memory.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The memory API from Unisson — 7 operation(s) for memory.
   name: Unisson memory API
   slug: unisson-memory-api
-- description: The notifications API from Unisson — 4 operation(s) for notifications.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The notifications API from Unisson — 4 operation(s) for notifications.
   name: Unisson notifications API
   slug: unisson-notifications-api
-- description: The onboarding API from Unisson — 2 operation(s) for onboarding.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The onboarding API from Unisson — 2 operation(s) for onboarding.
   name: Unisson onboarding API
   slug: unisson-onboarding-api
-- description: The organizations API from Unisson — 25 operation(s) for organizations.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The organizations API from Unisson — 25 operation(s) for organizations.
   name: Unisson organizations API
   slug: unisson-organizations-api
-- description: The products API from Unisson — 2 operation(s) for products.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The products API from Unisson — 2 operation(s) for products.
   name: Unisson products API
   slug: unisson-products-api
-- description: The Readyz API from Unisson — 1 operation(s) for readyz.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The Readyz API from Unisson — 1 operation(s) for readyz.
   name: Unisson Readyz API
   slug: unisson-readyz-api
-- description: The runs API from Unisson — 14 operation(s) for runs.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The runs API from Unisson — 14 operation(s) for runs.
   name: Unisson runs API
   slug: unisson-runs-api
-- description: The scheduled-runs API from Unisson — 4 operation(s) for scheduled-runs.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The scheduled-runs API from Unisson — 4 operation(s) for scheduled-runs.
   name: Unisson scheduled-runs API
   slug: unisson-scheduled-runs-api
-- description: The skills API from Unisson — 7 operation(s) for skills.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The skills API from Unisson — 7 operation(s) for skills.
   name: Unisson skills API
   slug: unisson-skills-api
-- description: The superadmin API from Unisson — 3 operation(s) for superadmin.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The superadmin API from Unisson — 3 operation(s) for superadmin.
   name: Unisson superadmin API
   slug: unisson-superadmin-api
-- description: The task-types API from Unisson — 1 operation(s) for task-types.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The task-types API from Unisson — 1 operation(s) for task-types.
   name: Unisson task-types API
   slug: unisson-task-types-api
-- description: The tasks API from Unisson — 4 operation(s) for tasks.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The tasks API from Unisson — 4 operation(s) for tasks.
   name: Unisson tasks API
   slug: unisson-tasks-api
-- description: The Unisson API from Unisson — 1 operation(s) for unisson.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The Unisson API from Unisson — 1 operation(s) for unisson.
   name: Unisson Unisson API
   slug: unisson-unisson-api
-- description: The usage API from Unisson — 1 operation(s) for usage.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The usage API from Unisson — 1 operation(s) for usage.
   name: Unisson usage API
   slug: unisson-usage-api
-- description: The webhooks API from Unisson — 3 operation(s) for webhooks.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The webhooks API from Unisson — 3 operation(s) for webhooks.
   name: Unisson webhooks API
   slug: unisson-webhooks-api
-- description: The widget API from Unisson — 10 operation(s) for widget.
+- baseURL: https://api.unisson.ai
+  baseurl_source: declared
+  description: The widget API from Unisson — 10 operation(s) for widget.
   name: Unisson widget API
   slug: unisson-widget-api
 artifact_total: 97
@@ -434,11 +524,11 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -448,7 +538,7 @@ score:
     discoverability: 64.8
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 33.6
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,8 +550,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unisson/refs/heads/main/screenshots/unisson-2026-09-02T164911.png
 security:
 - kind: authentication
   name: Unisson Authentication

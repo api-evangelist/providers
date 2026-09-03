@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC endpoint for the 0G Chain mainnet ("Aristotle", chain ID 16661), an AI-focused Layer 1 with sub-second finality. Standard EVM methods (eth_chainId, eth_call, eth_sendRawTr
@@ -35,22 +48,34 @@ apis:
 - description: 'Indexer service for the 0G Storage network. It locates the storage nodes holding a file''s segments, brokers uploads and downloads addressed by Merkle root hash, and handles the on-chain Flow contract '
   name: 0G Storage Indexer
   slug: 0g-storage-indexer
-- description: The Account API from 0G Labs — 5 operation(s) for account.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The Account API from 0G Labs — 5 operation(s) for account.
   name: 0G Labs Account API
   slug: 0g-labs-account-api
-- description: The API Key API from 0G Labs — 2 operation(s) for api key.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The API Key API from 0G Labs — 2 operation(s) for api key.
   name: 0G Labs API Key API
   slug: 0g-labs-api-key-api
-- description: The Inference API from 0G Labs — 11 operation(s) for inference.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The Inference API from 0G Labs — 11 operation(s) for inference.
   name: 0G Labs Inference API
   slug: 0g-labs-inference-api
-- description: The Models API from 0G Labs — 1 operation(s) for models.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The Models API from 0G Labs — 1 operation(s) for models.
   name: 0G Labs Models API
   slug: 0g-labs-models-api
-- description: The Provider API from 0G Labs — 1 operation(s) for provider.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The Provider API from 0G Labs — 1 operation(s) for provider.
   name: 0G Labs Provider API
   slug: 0g-labs-provider-api
-- description: The Service Types API from 0G Labs — 1 operation(s) for service types.
+- baseURL: https://router-api.0g.ai/v1
+  baseurl_source: declared
+  description: The Service Types API from 0G Labs — 1 operation(s) for service types.
   name: 0G Labs Service Types API
   slug: 0g-labs-service-types-api
 artifact_total: 20
@@ -279,7 +304,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -292,7 +317,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 49.2
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -303,7 +328,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/0g-labs/refs/heads/main/screenshots/0g-labs-2026-08-07T160641.png
 security:

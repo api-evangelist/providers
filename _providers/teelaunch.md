@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 36 operations · 12 acting
 api_count: 1
 apis:
-- description: Account
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Account
   name: Teelaunch Account API
   slug: teelaunch-account-api
-- description: Account Payment
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Account Payment
   name: Teelaunch Account Payment API
   slug: teelaunch-account-payment-api
-- description: Account Settings
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Account Settings
   name: Teelaunch Account Settings API
   slug: teelaunch-account-settings-api
-- description: Blank
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Blank
   name: Teelaunch Blank API
   slug: teelaunch-blank-api
-- description: Blank Category
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Blank Category
   name: Teelaunch Blank Category API
   slug: teelaunch-blank-category-api
-- description: Orders
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Orders
   name: Teelaunch Orders API
   slug: teelaunch-orders-api
-- description: Platform Store Product Variants
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Platform Store Product Variants
   name: Teelaunch Platform Store Product Variants API
   slug: teelaunch-platform-store-product-variants-api
-- description: Platform Store Products
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Platform Store Products
   name: Teelaunch Platform Store Products API
   slug: teelaunch-platform-store-products-api
-- description: Platform Stores
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Platform Stores
   name: Teelaunch Platform Stores API
   slug: teelaunch-platform-stores-api
-- description: Platforms
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Platforms
   name: Teelaunch Platforms API
   slug: teelaunch-platforms-api
-- description: Products
+- baseURL: https://api.teelaunch.com/api/v1
+  baseurl_source: declared
+  description: Products
   name: Teelaunch Products API
   slug: teelaunch-products-api
 artifact_total: 29
@@ -193,7 +215,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +238,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/screenshots/teelaunch-2026-09-02T162717.png
 security:
 - kind: authentication
   name: Teelaunch Authentication

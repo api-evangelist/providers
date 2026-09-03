@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: Weave's developer platform API for building apps and integrations against Weave communication, scheduling, and payments data. Authorized via OpenID Connect / OAuth 2.0 (authorization_code + client_cre
   name: Weave Platform API
   slug: weave-platform-api
-- description: Patient/customer contacts and contact info.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Patient/customer contacts and contact info.
   name: Weave Contacts API
   slug: weave-hq-contacts-api
-- description: Platform events and subscription management.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Platform events and subscription management.
   name: Weave Events API
   slug: weave-hq-events-api
-- description: Weave Digital Forms - templates, links, and submissions.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Weave Digital Forms - templates, links, and submissions.
   name: Weave Forms API
   slug: weave-hq-forms-api
-- description: Two-way SMS/text messaging with patients.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Two-way SMS/text messaging with patients.
   name: Weave Messaging API
   slug: weave-hq-messaging-api
-- description: Weave Payments methods (text-to-pay, card-on-file).
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Weave Payments methods (text-to-pay, card-on-file).
   name: Weave Payments API
   slug: weave-hq-payments-api
-- description: VoIP call records, recordings, voicemails, and call queues.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: VoIP call records, recordings, voicemails, and call queues.
   name: Weave Phone & Calls API
   slug: weave-hq-phone-calls-api
-- description: Review generation, reputation, and business listings.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Review generation, reputation, and business listings.
   name: Weave Reviews API
   slug: weave-hq-reviews-api
-- description: Appointments, appointment types, schedules, and calendar events.
+- baseURL: https://api.weaveconnect.com
+  baseurl_source: declared
+  description: Appointments, appointment types, schedules, and calendar events.
   name: Weave Scheduling API
   slug: weave-hq-scheduling-api
 artifact_total: 26
@@ -353,7 +369,7 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:

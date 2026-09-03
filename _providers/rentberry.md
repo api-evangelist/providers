@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,145 +34,235 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
   name: Rentberry Geocoder (gRPC)
   slug: rentberry-geocoder-grpc
-- description: Applications
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Applications
   name: Rentberry Applications API
   slug: rentberry-applications-api
-- description: Auth
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Auth
   name: Rentberry Auth API
   slug: rentberry-auth-api
-- description: Breadcrumbs
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Breadcrumbs
   name: Rentberry Breadcrumbs API
   slug: rentberry-breadcrumbs-api
-- description: Complaints
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Complaints
   name: Rentberry Complaints API
   slug: rentberry-complaints-api
-- description: Contract Templates
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Contract Templates
   name: Rentberry Contract Templates API
   slug: rentberry-contract-templates-api
-- description: Contracts
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Contracts
   name: Rentberry Contracts API
   slug: rentberry-contracts-api
-- description: Devices
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Devices
   name: Rentberry Devices API
   slug: rentberry-devices-api
-- description: Events
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Events
   name: Rentberry Events API
   slug: rentberry-events-api
-- description: Features
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Features
   name: Rentberry Features API
   slug: rentberry-features-api
-- description: Integration Requests
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Integration Requests
   name: Rentberry Integration Requests API
   slug: rentberry-integration-requests-api
-- description: Landing Pages
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Landing Pages
   name: Rentberry Landing Pages API
   slug: rentberry-landing-pages-api
-- description: Landing Statistics
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Landing Statistics
   name: Rentberry Landing Statistics API
   slug: rentberry-landing-statistics-api
-- description: Leads
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Leads
   name: Rentberry Leads API
   slug: rentberry-leads-api
-- description: Listing Pictures
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Listing Pictures
   name: Rentberry Listing Pictures API
   slug: rentberry-listing-pictures-api
-- description: Listings
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Listings
   name: Rentberry Listings API
   slug: rentberry-listings-api
-- description: Location
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Location
   name: Rentberry Location API
   slug: rentberry-location-api
-- description: Messages
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Messages
   name: Rentberry Messages API
   slug: rentberry-messages-api
-- description: Mobile Search
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Mobile Search
   name: Rentberry Mobile Search API
   slug: rentberry-mobile-search-api
-- description: Newsletter
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Newsletter
   name: Rentberry Newsletter API
   slug: rentberry-newsletter-api
-- description: Notifications
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Notifications
   name: Rentberry Notifications API
   slug: rentberry-notifications-api
-- description: OAuth
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: OAuth
   name: Rentberry O Auth API
   slug: rentberry-oauth-api
-- description: Payments
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Payments
   name: Rentberry Payments API
   slug: rentberry-payments-api
-- description: Providers
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Providers
   name: Rentberry Providers API
   slug: rentberry-providers-api
-- description: Registration
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Registration
   name: Rentberry Registration API
   slug: rentberry-registration-api
-- description: Rental
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Rental
   name: Rentberry Rental API
   slug: rentberry-rental-api
-- description: Rental Payments
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Rental Payments
   name: Rentberry Rental Payments API
   slug: rentberry-rental-payments-api
-- description: Rental Subscription
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Rental Subscription
   name: Rentberry Rental Subscription API
   slug: rentberry-rental-subscription-api
-- description: Rentals
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Rentals
   name: Rentberry Rentals API
   slug: rentberry-rentals-api
-- description: Resources
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Resources
   name: Rentberry Resources API
   slug: rentberry-resources-api
-- description: Saved Search
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Saved Search
   name: Rentberry Saved Search API
   slug: rentberry-saved-search-api
-- description: Screening
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Screening
   name: Rentberry Screening API
   slug: rentberry-screening-api
-- description: Screening Reports
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Screening Reports
   name: Rentberry Screening Reports API
   slug: rentberry-screening-reports-api
-- description: Search
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Search
   name: Rentberry Search API
   slug: rentberry-search-api
-- description: SEO Redirects
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: SEO Redirects
   name: Rentberry SEO Redirects API
   slug: rentberry-seo-redirects-api
-- description: SEO URLs
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: SEO URLs
   name: Rentberry SEO URLs API
   slug: rentberry-seo-urls-api
-- description: SMS
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: SMS
   name: Rentberry SMS API
   slug: rentberry-sms-api
-- description: Subscriptions
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Subscriptions
   name: Rentberry Subscriptions API
   slug: rentberry-subscriptions-api
-- description: Translation
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Translation
   name: Rentberry Translation API
   slug: rentberry-translation-api
-- description: User
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: User
   name: Rentberry User API
   slug: rentberry-user-api
-- description: User Phone Verification
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: User Phone Verification
   name: Rentberry User Phone Verification API
   slug: rentberry-user-phone-verification-api
-- description: User Settings
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: User Settings
   name: Rentberry User Settings API
   slug: rentberry-user-settings-api
-- description: User Status
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: User Status
   name: Rentberry User Status API
   slug: rentberry-user-status-api
-- description: User Verification
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: User Verification
   name: Rentberry User Verification API
   slug: rentberry-user-verification-api
-- description: The V{version} API from Rentberry — 21 operation(s) for v{version}.
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: The V{version} API from Rentberry — 21 operation(s) for v{version}.
   name: Rentberry V{version} API
   slug: rentberry-v-version-api
-- description: Virtual Tours
+- baseURL: https://api.rentberry.com/
+  baseurl_source: declared
+  description: Virtual Tours
   name: Rentberry Virtual Tours API
   slug: rentberry-virtual-tours-api
 artifact_total: 95
@@ -466,7 +567,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -500,8 +601,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rentberry/refs/heads/main/screenshots/rentberry-2026-09-02T153459.png
 security:
 - kind: authentication
   name: Rentberry Authentication

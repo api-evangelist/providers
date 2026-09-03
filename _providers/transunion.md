@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: TransUnion's API products for credit reporting, identity verification, fraud prevention and consumer risk decisioning. Access requires a business agreement with TransUnion and credentials issued by an
@@ -42,19 +42,29 @@ apis:
 - description: Device recognition and fraud signals, formerly iovation FraudForce. Mobile SDKs collect a device "blackbox" that is submitted to a risk check from your servers. The API host api.iovation.com is behind
   name: TransUnion TruValidate Device Risk
   slug: truvalidate-device-risk
-- description: 'This API endpoint uses the following data elements (''required'' elements identified) in the REQUEST to create a SIP Identity header. Based on the HTTP header of ''Content-Type'' (e.g. json, text/plain), '
+- baseURL: https://{hostname}:{port}/{optionalRoutingPath}
+  baseurl_source: declared
+  description: 'This API endpoint uses the following data elements (''required'' elements identified) in the REQUEST to create a SIP Identity header. Based on the HTTP header of ''Content-Type'' (e.g. json, text/plain), '
   name: TransUnion Authentication Service API
   slug: transunion-authentication-service-api
-- description: Used to construct a PASSporT "shaken" JSON Web Token, a PASSporT "div" JSON Web Token or a PASSporT "rph" JSON Web Token. Also, referred to as the Secure Telephone Identity Authentication Service (STI
+- baseURL: https://{hostname}:{port}/{optionalRoutingPath}
+  baseurl_source: declared
+  description: Used to construct a PASSporT "shaken" JSON Web Token, a PASSporT "div" JSON Web Token or a PASSporT "rph" JSON Web Token. Also, referred to as the Secure Telephone Identity Authentication Service (STI
   name: TransUnion Signing API
   slug: transunion-signing-api
-- description: Used to verify one or more PASSporT JSON Web Tokens (or Identity headers). Also, referred to as the STI Verification Service (STI-VS).
+- baseURL: https://{hostname}:{port}/{optionalRoutingPath}
+  baseurl_source: declared
+  description: Used to verify one or more PASSporT JSON Web Tokens (or Identity headers). Also, referred to as the STI Verification Service (STI-VS).
   name: TransUnion Verification API
   slug: transunion-verification-api
-- description: Currently, a RESTful API client is required to provide an 'apiKey' query parameter with a pre-provisioned value to access API calls that are restricted. If the 'apiKey' parameter is not specified, the
+- baseURL: https://{hostname}:{port}/{optionalRoutingPath}
+  baseurl_source: declared
+  description: Currently, a RESTful API client is required to provide an 'apiKey' query parameter with a pre-provisioned value to access API calls that are restricted. If the 'apiKey' parameter is not specified, the
   name: TransUnion Verification Service API
   slug: transunion-verification-service-api
-- description: The Verification Service with Call Validation Treatment (CVT) API from TransUnion — 1 operation(s) for verification service with call validation treatment (cvt).
+- baseURL: https://{hostname}:{port}/{optionalRoutingPath}
+  baseurl_source: declared
+  description: The Verification Service with Call Validation Treatment (CVT) API from TransUnion — 1 operation(s) for verification service with call validation treatment (cvt).
   name: TransUnion Verification Service with Call Validation Treatment (CVT) API
   slug: transunion-verification-service-with-call-validation-treatment-cvt-api
 artifact_total: 14
@@ -226,7 +236,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/screenshots/transunion-2026-06-20T195631.png
 security:

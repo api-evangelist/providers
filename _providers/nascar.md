@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 41 operations · 1 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: The Companies API from NASCAR — 3 operation(s) for companies.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Companies API from NASCAR — 3 operation(s) for companies.
   name: NASCAR Companies API
   slug: nascar-companies-api
-- description: The Drivers API from NASCAR — 2 operation(s) for drivers.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Drivers API from NASCAR — 2 operation(s) for drivers.
   name: NASCAR Drivers API
   slug: nascar-drivers-api
-- description: The EntryList API from NASCAR — 1 operation(s) for entrylist.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The EntryList API from NASCAR — 1 operation(s) for entrylist.
   name: NASCAR EntryList API
   slug: nascar-entrylist-api
-- description: The Inspection API from NASCAR — 5 operation(s) for inspection.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Inspection API from NASCAR — 5 operation(s) for inspection.
   name: NASCAR Inspection API
   slug: nascar-inspection-api
-- description: The Live API from NASCAR — 7 operation(s) for live.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Live API from NASCAR — 7 operation(s) for live.
   name: NASCAR Live API
   slug: nascar-live-api
-- description: The Points API from NASCAR — 3 operation(s) for points.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Points API from NASCAR — 3 operation(s) for points.
   name: NASCAR Points API
   slug: nascar-points-api
-- description: The Races API from NASCAR — 5 operation(s) for races.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Races API from NASCAR — 5 operation(s) for races.
   name: NASCAR Races API
   slug: nascar-races-api
-- description: The Series API from NASCAR — 2 operation(s) for series.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Series API from NASCAR — 2 operation(s) for series.
   name: NASCAR Series API
   slug: nascar-series-api
-- description: The Stats API from NASCAR — 4 operation(s) for stats.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Stats API from NASCAR — 4 operation(s) for stats.
   name: NASCAR Stats API
   slug: nascar-stats-api
-- description: The Tracks API from NASCAR — 3 operation(s) for tracks.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Tracks API from NASCAR — 3 operation(s) for tracks.
   name: NASCAR Tracks API
   slug: nascar-tracks-api
-- description: The TrackTemp API from NASCAR — 3 operation(s) for tracktemp.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The TrackTemp API from NASCAR — 3 operation(s) for tracktemp.
   name: NASCAR TrackTemp API
   slug: nascar-tracktemp-api
-- description: The Weekend API from NASCAR — 3 operation(s) for weekend.
+- baseURL: https://feed.nascar.com
+  baseurl_source: spec
+  description: The Weekend API from NASCAR — 3 operation(s) for weekend.
   name: NASCAR Weekend API
   slug: nascar-weekend-api
 artifact_total: 31
@@ -204,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nascar/refs/heads/main/screenshots/nascar-2026-06-20T185957.png
 security:

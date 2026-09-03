@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -50,109 +50,179 @@ apis:
 - description: Build and customize Lightning Web Runtime sites for Experience Cloud. Provides documentation for creating LWR-based digital experiences with custom components, page layouts, and theme configurations.
   name: LWR Sites API
   slug: lwr-sites-api
-- description: Available actions for records and objects
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Available actions for records and objects
   name: Salesforce Experience Cloud Actions API
   slug: salesforce-experience-cloud-actions-api
-- description: Branding set management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Branding set management
   name: Salesforce Experience Cloud Branding Sets API
   slug: salesforce-experience-cloud-branding-sets-api
-- description: CMS channel management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CMS channel management
   name: Salesforce Experience Cloud Channels API
   slug: salesforce-experience-cloud-channels-api
-- description: Content collection delivery operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Content collection delivery operations
   name: Salesforce Experience Cloud Collections API
   slug: salesforce-experience-cloud-collections-api
-- description: CMS content management operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CMS content management operations
   name: Salesforce Experience Cloud Content API
   slug: salesforce-experience-cloud-content-api
-- description: Content delivery operations for headless consumption
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Content delivery operations for headless consumption
   name: Salesforce Experience Cloud Content Delivery API
   slug: salesforce-experience-cloud-content-delivery-api
-- description: CMS content type operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CMS content type operations
   name: Salesforce Experience Cloud Content Types API
   slug: salesforce-experience-cloud-content-types-api
-- description: Managed content delivery channel operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Managed content delivery channel operations
   name: Salesforce Experience Cloud Delivery Channels API
   slug: salesforce-experience-cloud-delivery-channels-api
-- description: Object and field metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Object and field metadata
   name: Salesforce Experience Cloud Describe API
   slug: salesforce-experience-cloud-describe-api
-- description: User favorites management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: User favorites management
   name: Salesforce Experience Cloud Favorites API
   slug: salesforce-experience-cloud-favorites-api
-- description: Feed and feed item operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Feed and feed item operations
   name: Salesforce Experience Cloud Feeds API
   slug: salesforce-experience-cloud-feeds-api
-- description: CMS folder management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CMS folder management
   name: Salesforce Experience Cloud Folders API
   slug: salesforce-experience-cloud-folders-api
-- description: GraphQL query and mutation operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: GraphQL query and mutation operations
   name: Salesforce Experience Cloud GraphQL API
   slug: salesforce-experience-cloud-graphql-api
-- description: Knowledge article operations within communities
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Knowledge article operations within communities
   name: Salesforce Experience Cloud Knowledge API
   slug: salesforce-experience-cloud-knowledge-api
-- description: Page layout metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Page layout metadata
   name: Salesforce Experience Cloud Layouts API
   slug: salesforce-experience-cloud-layouts-api
-- description: API usage limits and quotas
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: API usage limits and quotas
   name: Salesforce Experience Cloud Limits API
   slug: salesforce-experience-cloud-limits-api
-- description: List view data and metadata
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: List view data and metadata
   name: Salesforce Experience Cloud List Views API
   slug: salesforce-experience-cloud-list-views-api
-- description: Managed content retrieval and search
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Managed content retrieval and search
   name: Salesforce Experience Cloud Managed Content API
   slug: salesforce-experience-cloud-managed-content-api
-- description: CMS media file operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: CMS media file operations
   name: Salesforce Experience Cloud Media API
   slug: salesforce-experience-cloud-media-api
-- description: Media content delivery operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Media content delivery operations
   name: Salesforce Experience Cloud Media Delivery API
   slug: salesforce-experience-cloud-media-delivery-api
-- description: Community member operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Community member operations
   name: Salesforce Experience Cloud Members API
   slug: salesforce-experience-cloud-members-api
-- description: Content moderation operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Content moderation operations
   name: Salesforce Experience Cloud Moderation API
   slug: salesforce-experience-cloud-moderation-api
-- description: Site navigation menu operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Site navigation menu operations
   name: Salesforce Experience Cloud Navigation API
   slug: salesforce-experience-cloud-navigation-api
-- description: Object metadata for UI rendering
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Object metadata for UI rendering
   name: Salesforce Experience Cloud Object Info API
   slug: salesforce-experience-cloud-object-info-api
-- description: Site publishing operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Site publishing operations
   name: Salesforce Experience Cloud Publish API
   slug: salesforce-experience-cloud-publish-api
-- description: SOQL query execution
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: SOQL query execution
   name: Salesforce Experience Cloud Query API
   slug: salesforce-experience-cloud-query-api
-- description: Record data and UI operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Record data and UI operations
   name: Salesforce Experience Cloud Records API
   slug: salesforce-experience-cloud-records-api
-- description: Available REST resources
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Available REST resources
   name: Salesforce Experience Cloud Resources API
   slug: salesforce-experience-cloud-resources-api
-- description: SOSL search execution
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: SOSL search execution
   name: Salesforce Experience Cloud Search API
   slug: salesforce-experience-cloud-search-api
-- description: Experience Cloud site management operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Experience Cloud site management operations
   name: Salesforce Experience Cloud Sites API
   slug: salesforce-experience-cloud-sites-api
-- description: Salesforce object operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Salesforce object operations
   name: Salesforce Experience Cloud sObjects API
   slug: salesforce-experience-cloud-sobjects-api
-- description: Site template management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Site template management
   name: Salesforce Experience Cloud Templates API
   slug: salesforce-experience-cloud-templates-api
-- description: Site theme and branding operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Site theme and branding operations
   name: Salesforce Experience Cloud Themes API
   slug: salesforce-experience-cloud-themes-api
-- description: Topic management and assignments
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: Topic management and assignments
   name: Salesforce Experience Cloud Topics API
   slug: salesforce-experience-cloud-topics-api
-- description: API version discovery
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0
+  baseurl_source: declared
+  description: API version discovery
   name: Salesforce Experience Cloud Versions API
   slug: salesforce-experience-cloud-versions-api
 arazzos:
@@ -1033,7 +1103,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,52 +47,84 @@ apis:
 - description: Comprehensive SOAP-based web services for deep integration with Workday including Human Capital Management, Financial Management, and custom integrations.
   name: Workday SOAP Web Services
   slug: workday-soap-web-services
-- description: Access benefit plans and worker benefit enrollments
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access benefit plans and worker benefit enrollments
   name: Workday Integrations Benefits API
   slug: workday-integrations-benefits-api
-- description: Interact with Workday business process workflows
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Interact with Workday business process workflows
   name: Workday Integrations Business Processes API
   slug: workday-integrations-business-processes-api
-- description: Access compensation plans and worker compensation data
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access compensation plans and worker compensation data
   name: Workday Integrations Compensation API
   slug: workday-integrations-compensation-api
-- description: Discover available Workday and external data sources
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Discover available Workday and external data sources
   name: Workday Integrations Data Sources API
   slug: workday-integrations-data-sources-api
-- description: Upload external data files into datasets
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Upload external data files into datasets
   name: Workday Integrations Data Upload API
   slug: workday-integrations-data-upload-api
-- description: Manage Prism Analytics dataset definitions
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Manage Prism Analytics dataset definitions
   name: Workday Integrations Datasets API
   slug: workday-integrations-datasets-api
-- description: Access job profile definitions and configurations
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access job profile definitions and configurations
   name: Workday Integrations Job Profiles API
   slug: workday-integrations-job-profiles-api
-- description: Retrieve and manage organizational structures and hierarchies
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Retrieve and manage organizational structures and hierarchies
   name: Workday Integrations Organizations API
   slug: workday-integrations-organizations-api
-- description: Access payroll data and pay group configurations
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access payroll data and pay group configurations
   name: Workday Integrations Payroll API
   slug: workday-integrations-payroll-api
-- description: Manage position records and staffing
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Manage position records and staffing
   name: Workday Integrations Positions API
   slug: workday-integrations-positions-api
-- description: Manage job requisitions and candidate applications
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Manage job requisitions and candidate applications
   name: Workday Integrations Recruiting API
   slug: workday-integrations-recruiting-api
-- description: Retrieve report field definitions and filter parameters
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Retrieve report field definitions and filter parameters
   name: Workday Integrations Report Metadata API
   slug: workday-integrations-report-metadata-api
-- description: Access custom and standard Workday reports
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access custom and standard Workday reports
   name: Workday Integrations Reports API
   slug: workday-integrations-reports-api
-- description: Manage data tables derived from datasets
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Manage data tables derived from datasets
   name: Workday Integrations Tables API
   slug: workday-integrations-tables-api
-- description: Manage time off requests and balances
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Manage time off requests and balances
   name: Workday Integrations Time Off API
   slug: workday-integrations-time-off-api
-- description: Access and manage worker records including employees and contingent workers
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/v1/{tenant}
+  baseurl_source: declared
+  description: Access and manage worker records including employees and contingent workers
   name: Workday Integrations Workers API
   slug: workday-integrations-workers-api
 artifact_total: 55
@@ -355,7 +387,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/screenshots/workday-integrations-2026-06-20T201603.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: RESTful API (v2.0.0) for Arctic Wolf partner applications managing multiple customer tenants — create a partner application, generate an OAuth client-credentials bearer token, run health checks, and i
@@ -180,7 +180,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf-networks/refs/heads/main/screenshots/arctic-wolf-networks-2026-07-25T201104.png
 security:

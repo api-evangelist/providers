@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 22 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Multi-zone screen layouts that split a display into regions.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Multi-zone screen layouts that split a display into regions.
   name: Yodeck Layouts API
   slug: yodeck-signage-layouts-api
-- description: Images, videos, documents, web pages, and app content assets.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Images, videos, documents, web pages, and app content assets.
   name: Yodeck Media API
   slug: yodeck-signage-media-api
-- description: Ordered sequences of media with per-item duration and transitions.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Ordered sequences of media with per-item duration and transitions.
   name: Yodeck Playlists API
   slug: yodeck-signage-playlists-api
-- description: Time-based rules controlling what plays where and when.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Time-based rules controlling what plays where and when.
   name: Yodeck Schedules API
   slug: yodeck-signage-schedules-api
-- description: Screens (monitors/players), their status, and remote control.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Screens (monitors/players), their status, and remote control.
   name: Yodeck Screens API
   slug: yodeck-signage-screens-api
-- description: Reusable groupings of media, playlists, and layouts.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Reusable groupings of media, playlists, and layouts.
   name: Yodeck Shows API
   slug: yodeck-signage-shows-api
-- description: Separate environments with their own users, permissions, and content.
+- baseURL: https://app.yodeck.com/api/v1
+  baseurl_source: declared
+  description: Separate environments with their own users, permissions, and content.
   name: Yodeck Workspaces API
   slug: yodeck-signage-workspaces-api
 artifact_total: 22
@@ -172,7 +186,7 @@ score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yodeck-signage/refs/heads/main/screenshots/yodeck-signage-2026-09-02T171309.png
 security:
 - kind: authentication
   name: Yodeck Signage Authentication

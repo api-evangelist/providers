@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Retrieve the permission whitelist / blacklist for an Access Control System.
+- baseURL: https://api.keyper.io/access
+  baseurl_source: declared
+  description: Retrieve the permission whitelist / blacklist for an Access Control System.
   name: Keyper Permissions API
   slug: keyper-permissions-api
-- description: Send access / entry transactions to keyper.
+- baseURL: https://api.keyper.io/access
+  baseurl_source: declared
+  description: Send access / entry transactions to keyper.
   name: Keyper Transactions API
   slug: keyper-transactions-api
 artifact_total: 8
@@ -188,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyper/refs/heads/main/screenshots/keyper-2026-07-25T223658.png
 security:

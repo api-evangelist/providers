@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 52 operations · 17 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The account API from Rigetti Computing — 22 operation(s) for account.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The account API from Rigetti Computing — 22 operation(s) for account.
   name: Rigetti Computing account API
   slug: rigetti-computing-account-api
-- description: The authentication API from Rigetti Computing — 4 operation(s) for authentication.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The authentication API from Rigetti Computing — 4 operation(s) for authentication.
   name: Rigetti Computing authentication API
   slug: rigetti-computing-authentication-api
-- description: Check for the latest SDK versions.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: Check for the latest SDK versions.
   name: Rigetti Computing clientApplications API
   slug: rigetti-computing-clientapplications-api
-- description: The Endpoint is the means of access to a Quantum Processor.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Endpoint is the means of access to a Quantum Processor.
   name: Rigetti Computing endpoints API
   slug: rigetti-computing-endpoints-api
-- description: The Engagement is the authorization mechanism for access to the Quantum Processor.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Engagement is the authorization mechanism for access to the Quantum Processor.
   name: Rigetti Computing engagements API
   slug: rigetti-computing-engagements-api
-- description: The Healthcheck API from Rigetti Computing — 1 operation(s) for healthcheck.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Healthcheck API from Rigetti Computing — 1 operation(s) for healthcheck.
   name: Rigetti Computing Healthcheck API
   slug: rigetti-computing-healthcheck-api
-- description: The Quantum Processor is the heart of the Rigetti services.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Quantum Processor is the heart of the Rigetti services.
   name: Rigetti Computing quantumProcessors API
   slug: rigetti-computing-quantumprocessors-api
-- description: Find existing time on a Rigetti QPU and reserve it.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: Find existing time on a Rigetti QPU and reserve it.
   name: Rigetti Computing reservations API
   slug: rigetti-computing-reservations-api
-- description: The Rigetti QCS API API from Rigetti Computing — 2 operation(s) for rigetti qcs api.
+- baseURL: https://api.qcs.rigetti.com
+  baseurl_source: declared
+  description: The Rigetti QCS API API from Rigetti Computing — 2 operation(s) for rigetti qcs api.
   name: Rigetti Computing Rigetti QCS API API
   slug: rigetti-computing-rigetti-qcs-api-api
 artifact_total: 23
@@ -254,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti-computing/refs/heads/main/screenshots/rigetti-computing-2026-08-17T081601.png
 security:

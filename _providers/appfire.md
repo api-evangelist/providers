@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -36,16 +47,24 @@ apis:
 - description: Public REST API for BigPicture, BigGantt and BigTemplate on Atlassian Cloud (Appfire's portfolio and project-management suite). Exposes boxes, box types, tasks, teams, team memberships, resources, ski
   name: BigPicture Cloud Public API
   slug: bigpicture-cloud-public-api
-- description: 'Retrieve objectives, key results, updates, and comments. Use **expand** to include related entities (teams, periods, labels, etc.) instead of IDs only. Authenticate with the **API-Token** header. For '
+- baseURL: https://timehubjra.7pace.com
+  baseurl_source: declared
+  description: 'Retrieve objectives, key results, updates, and comments. Use **expand** to include related entities (teams, periods, labels, etc.) instead of IDs only. Authenticate with the **API-Token** header. For '
   name: Appfire API query methods API
   slug: appfire-api-query-methods-api
-- description: '**POST** with a JSON body. Send **Content-Type: application/json** and the **API-Token** header. Creates update records that set current status (and key-result progress where applicable).'
+- baseURL: https://timehubjra.7pace.com
+  baseurl_source: declared
+  description: '**POST** with a JSON body. Send **Content-Type: application/json** and the **API-Token** header. Creates update records that set current status (and key-result progress where applicable).'
   name: Appfire API update methods API
   slug: appfire-api-update-methods-api
-- description: The Settings API from Appfire — 16 operation(s) for settings.
+- baseURL: https://timehubjra.7pace.com
+  baseurl_source: declared
+  description: The Settings API from Appfire — 16 operation(s) for settings.
   name: Appfire Settings API
   slug: appfire-settings-api
-- description: The Worklogs API from Appfire — 10 operation(s) for worklogs.
+- baseURL: https://timehubjra.7pace.com
+  baseurl_source: declared
+  description: The Worklogs API from Appfire — 10 operation(s) for worklogs.
   name: Appfire Worklogs API
   slug: appfire-worklogs-api
 artifact_total: 15
@@ -229,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:

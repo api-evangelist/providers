@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,61 +42,99 @@ agentic_access:
   summary_line: 203 operations · 3 acting
 api_count: 1
 apis:
-- description: Endpoints for creating async jobs for blockchain entities.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for creating async jobs for blockchain entities.
   name: Coin Metrics Blockchain Explorer Job API
   slug: coin-metrics-blockchain-explorer-job-api
-- description: Blockchain metadata endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Blockchain metadata endpoints
   name: Coin Metrics Blockchain Metadata API
   slug: coin-metrics-blockchain-metadata-api
-- description: 'Catalog of available for your `api_key` data.<br/> Use the [Full catalog](#tag/Full-catalog) endpoints for the full list of supported by Coin Metrics data. <br/>DEPRECATED: See https://coinmetrics.io/'
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: 'Catalog of available for your `api_key` data.<br/> Use the [Full catalog](#tag/Full-catalog) endpoints for the full list of supported by Coin Metrics data. <br/>DEPRECATED: See https://coinmetrics.io/'
   name: Coin Metrics Catalog API
   slug: coin-metrics-catalog-api
-- description: Catalog of available for your `api_key` data.<br/> Use the [Full catalog V2](#tag/Full-catalog-v2) endpoints for the full list of supported by Coin Metrics data.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Catalog of available for your `api_key` data.<br/> Use the [Full catalog V2](#tag/Full-catalog-v2) endpoints for the full list of supported by Coin Metrics data.
   name: Coin Metrics Catalog v2 API
   slug: coin-metrics-catalog-v2-api
-- description: Endpoints for working with chain monitor data.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for working with chain monitor data.
   name: Coin Metrics Chain Monitor tools API
   slug: coin-metrics-chain-monitor-tools-api
-- description: Endpoints for getting the snapshots of various constituents
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for getting the snapshots of various constituents
   name: Coin Metrics Constituent Snapshots API
   slug: coin-metrics-constituent-snapshots-api
-- description: Endpoints for getting the timeframes of various constituents
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for getting the timeframes of various constituents
   name: Coin Metrics Constituent Timeframes API
   slug: coin-metrics-constituent-timeframes-api
-- description: Endpoints for fetching full blockchain entities.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for fetching full blockchain entities.
   name: Coin Metrics Full blockchain entities v2 API
   slug: coin-metrics-full-blockchain-entities-v2-api
-- description: The Full catalog returns the full range of data that is supported by Coin Metrics across all our products.<br/> If you are a client looking to understand the data that is available for your API key an
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: The Full catalog returns the full range of data that is supported by Coin Metrics across all our products.<br/> If you are a client looking to understand the data that is available for your API key an
   name: Coin Metrics Full catalog API
   slug: coin-metrics-full-catalog-api
-- description: The Full catalog returns the full range of data that is supported by Coin Metrics across all our products.<br/> If you are a client looking to understand the data that is available for your API key an
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: The Full catalog returns the full range of data that is supported by Coin Metrics across all our products.<br/> If you are a client looking to understand the data that is available for your API key an
   name: Coin Metrics Full catalog v2 API
   slug: coin-metrics-full-catalog-v2-api
-- description: Jobs API endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Jobs API endpoints
   name: Coin Metrics Jobs API
   slug: coin-metrics-jobs-api
-- description: Endpoints for fetching lists of blockchain entities.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for fetching lists of blockchain entities.
   name: Coin Metrics List of blockchain entities v2 API
   slug: coin-metrics-list-of-blockchain-entities-v2-api
-- description: Profile endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Profile endpoints
   name: Coin Metrics Profile API
   slug: coin-metrics-profile-api
-- description: Metadata information of entities supported by Coin Metrics.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Metadata information of entities supported by Coin Metrics.
   name: Coin Metrics Reference Data API
   slug: coin-metrics-reference-data-api
-- description: Security Master endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Security Master endpoints
   name: Coin Metrics Security Master API
   slug: coin-metrics-security-master-api
-- description: Taxonomy endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Taxonomy endpoints
   name: Coin Metrics Taxonomy API
   slug: coin-metrics-taxonomy-api
-- description: Taxonomy Metadata endpoints
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Taxonomy Metadata endpoints
   name: Coin Metrics Taxonomy Metadata API
   slug: coin-metrics-taxonomy-metadata-api
-- description: Endpoints for fetching metrics, market data, indexes and other time series data.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: Endpoints for fetching metrics, market data, indexes and other time series data.
   name: Coin Metrics Timeseries API
   slug: coin-metrics-timeseries-api
-- description: WebSocket endpoints for getting a real-time stream of metrics, market data, indexes and other time series data.
+- baseURL: https://api.coinmetrics.io/v4
+  baseurl_source: declared
+  description: WebSocket endpoints for getting a real-time stream of metrics, market data, indexes and other time series data.
   name: Coin Metrics Timeseries stream API
   slug: coin-metrics-timeseries-stream-api
 artifact_total: 45
@@ -326,7 +364,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -336,7 +374,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 43.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,7 +392,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:

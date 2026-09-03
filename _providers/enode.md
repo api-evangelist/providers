@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 9 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Read and control connected home batteries.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read and control connected home batteries.
   name: Enode Batteries API
   slug: enode-batteries-api
-- description: Read and control connected EV chargers.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read and control connected EV chargers.
   name: Enode Chargers API
   slug: enode-chargers-api
-- description: Read and control connected HVAC units.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read and control connected HVAC units.
   name: Enode HVAC API
   slug: enode-hvac-api
-- description: Read connected solar inverters.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read connected solar inverters.
   name: Enode Inverters API
   slug: enode-inverters-api
-- description: Read connected smart meters.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read connected smart meters.
   name: Enode Meters API
   slug: enode-meters-api
-- description: Configure smart-charging policies and overrides for vehicles.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Configure smart-charging policies and overrides for vehicles.
   name: Enode Smart Charging API
   slug: enode-smart-charging-api
-- description: Manage end users and Link sessions.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Manage end users and Link sessions.
   name: Enode Users API
   slug: enode-users-api
-- description: Read and control connected electric vehicles.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Read and control connected electric vehicles.
   name: Enode Vehicles API
   slug: enode-vehicles-api
-- description: Manage event webhooks.
+- baseURL: https://enode-api.production.enode.io
+  baseurl_source: declared
+  description: Manage event webhooks.
   name: Enode Webhooks API
   slug: enode-webhooks-api
 artifact_total: 27
@@ -217,7 +235,7 @@ score:
     regime_id: energy_utilities
     score: 24.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/screenshots/enode-2026-07-25T213409.png
 security:

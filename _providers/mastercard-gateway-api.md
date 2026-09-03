@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Mastercard Payment Gateway API provides a comprehensive interface for integrating payments into applications, supporting multiple payment methods, currencies, and transaction types for merchants w
   name: Mastercard Gateway API
   slug: mastercard-gateway-api
-- description: The Merchant API from Mastercard Gateway API — 10 operation(s) for merchant.
+- baseURL: https://ap-gateway.mastercard.com/api
+  baseurl_source: declared
+  description: The Merchant API from Mastercard Gateway API — 10 operation(s) for merchant.
   name: Mastercard Gateway API Merchant API
   slug: mastercard-gateway-api-merchant-api
 artifact_total: 11
@@ -164,7 +166,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/screenshots/mastercard-gateway-api-2026-06-20T185023.png
 security:

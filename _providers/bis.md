@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 18 operations
 api_count: 1
 apis:
-- description: The Data availability queries API from BIS — 1 operation(s) for data availability queries.
+- baseURL: https://stats.bis.org/api/v1
+  baseurl_source: declared
+  description: The Data availability queries API from BIS — 1 operation(s) for data availability queries.
   name: BIS Data availability queries API
   slug: bis-data-availability-queries-api
-- description: The Data queries API from BIS — 1 operation(s) for data queries.
+- baseURL: https://stats.bis.org/api/v1
+  baseurl_source: declared
+  description: The Data queries API from BIS — 1 operation(s) for data queries.
   name: BIS Data queries API
   slug: bis-data-queries-api
-- description: The Item queries API from BIS — 4 operation(s) for item queries.
+- baseURL: https://stats.bis.org/api/v1
+  baseurl_source: declared
+  description: The Item queries API from BIS — 4 operation(s) for item queries.
   name: BIS Item queries API
   slug: bis-item-queries-api
-- description: The Structure queries API from BIS — 12 operation(s) for structure queries.
+- baseURL: https://stats.bis.org/api/v1
+  baseurl_source: declared
+  description: The Structure queries API from BIS — 12 operation(s) for structure queries.
   name: BIS Structure queries API
   slug: bis-structure-queries-api
 artifact_total: 20
@@ -216,7 +224,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/screenshots/bis-2026-06-20T173300.png
 security:

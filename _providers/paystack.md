@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -47,64 +47,104 @@ apis:
 - description: Outbound webhook surface that notifies a single merchant-configured POST endpoint of transaction, dispute, refund, transfer, subscription, invoice, payment request, customer identification, and dedica
   name: Paystack Webhooks
   slug: paystack-webhooks
-- description: The Balance API from Paystack — 2 operation(s) for balance.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Balance API from Paystack — 2 operation(s) for balance.
   name: Paystack Balance API
   slug: paystack-balance-api
-- description: The Bulk Charge API from Paystack — 5 operation(s) for bulk charge.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Bulk Charge API from Paystack — 5 operation(s) for bulk charge.
   name: Paystack Bulk Charge API
   slug: paystack-bulk-charge-api
-- description: The Charge API from Paystack — 7 operation(s) for charge.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Charge API from Paystack — 7 operation(s) for charge.
   name: Paystack Charge API
   slug: paystack-charge-api
-- description: The Customer API from Paystack — 5 operation(s) for customer.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Customer API from Paystack — 5 operation(s) for customer.
   name: Paystack Customer API
   slug: paystack-customer-api
-- description: The Dedicated Virtual Account API from Paystack — 4 operation(s) for dedicated virtual account.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Dedicated Virtual Account API from Paystack — 4 operation(s) for dedicated virtual account.
   name: Paystack Dedicated Virtual Account API
   slug: paystack-dedicated-virtual-account-api
-- description: The Dispute API from Paystack — 7 operation(s) for dispute.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Dispute API from Paystack — 7 operation(s) for dispute.
   name: Paystack Dispute API
   slug: paystack-dispute-api
-- description: The Integration API from Paystack — 1 operation(s) for integration.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Integration API from Paystack — 1 operation(s) for integration.
   name: Paystack Integration API
   slug: paystack-integration-api
-- description: The Page API from Paystack — 4 operation(s) for page.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Page API from Paystack — 4 operation(s) for page.
   name: Paystack Page API
   slug: paystack-page-api
-- description: The Payment Request API from Paystack — 7 operation(s) for payment request.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Payment Request API from Paystack — 7 operation(s) for payment request.
   name: Paystack Payment Request API
   slug: paystack-payment-request-api
-- description: The Plan API from Paystack — 2 operation(s) for plan.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Plan API from Paystack — 2 operation(s) for plan.
   name: Paystack Plan API
   slug: paystack-plan-api
-- description: The Product API from Paystack — 2 operation(s) for product.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Product API from Paystack — 2 operation(s) for product.
   name: Paystack Product API
   slug: paystack-product-api
-- description: The Refund API from Paystack — 2 operation(s) for refund.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Refund API from Paystack — 2 operation(s) for refund.
   name: Paystack Refund API
   slug: paystack-refund-api
-- description: The Settlement API from Paystack — 2 operation(s) for settlement.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Settlement API from Paystack — 2 operation(s) for settlement.
   name: Paystack Settlement API
   slug: paystack-settlement-api
-- description: The Split API from Paystack — 4 operation(s) for split.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Split API from Paystack — 4 operation(s) for split.
   name: Paystack Split API
   slug: paystack-split-api
-- description: The Subaccount API from Paystack — 2 operation(s) for subaccount.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Subaccount API from Paystack — 2 operation(s) for subaccount.
   name: Paystack Subaccount API
   slug: paystack-subaccount-api
-- description: The Subscription API from Paystack — 6 operation(s) for subscription.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Subscription API from Paystack — 6 operation(s) for subscription.
   name: Paystack Subscription API
   slug: paystack-subscription-api
-- description: The Transaction API from Paystack — 12 operation(s) for transaction.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Transaction API from Paystack — 12 operation(s) for transaction.
   name: Paystack Transaction API
   slug: paystack-transaction-api
-- description: The Transfer API from Paystack — 10 operation(s) for transfer.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Transfer API from Paystack — 10 operation(s) for transfer.
   name: Paystack Transfer API
   slug: paystack-transfer-api
-- description: The Transfer Recipient API from Paystack — 3 operation(s) for transfer recipient.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Transfer Recipient API from Paystack — 3 operation(s) for transfer recipient.
   name: Paystack Transfer Recipient API
   slug: paystack-transfer-recipient-api
-- description: The Verification API from Paystack — 7 operation(s) for verification.
+- baseURL: https://api.paystack.co
+  baseurl_source: spec
+  description: The Verification API from Paystack — 7 operation(s) for verification.
   name: Paystack Verification API
   slug: paystack-verification-api
 arazzos:
@@ -844,7 +884,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -854,7 +894,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 69.6
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     contracts:
@@ -869,7 +909,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

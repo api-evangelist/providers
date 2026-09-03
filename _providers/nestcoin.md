@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 96 operations · 38 acting
 api_count: 1
 apis:
-- description: The auth-oauth API from Nestcoin — 2 operation(s) for auth-oauth.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The auth-oauth API from Nestcoin — 2 operation(s) for auth-oauth.
   name: Nestcoin auth-oauth API
   slug: nestcoin-auth-oauth-api
-- description: The auth-userauth API from Nestcoin — 3 operation(s) for auth-userauth.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The auth-userauth API from Nestcoin — 3 operation(s) for auth-userauth.
   name: Nestcoin auth-userauth API
   slug: nestcoin-auth-userauth-api
-- description: The exchange-external-api API from Nestcoin — 13 operation(s) for exchange-external-api.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The exchange-external-api API from Nestcoin — 13 operation(s) for exchange-external-api.
   name: Nestcoin exchange-external-api API
   slug: nestcoin-exchange-external-api-api
-- description: The exchange-orders API from Nestcoin — 1 operation(s) for exchange-orders.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The exchange-orders API from Nestcoin — 1 operation(s) for exchange-orders.
   name: Nestcoin exchange-orders API
   slug: nestcoin-exchange-orders-api
-- description: The ledger-account activity API from Nestcoin — 5 operation(s) for ledger-account activity.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-account activity API from Nestcoin — 5 operation(s) for ledger-account activity.
   name: Nestcoin ledger-account activity API
   slug: nestcoin-ledger-account-activity-api
-- description: The ledger-accounts API from Nestcoin — 5 operation(s) for ledger-accounts.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-accounts API from Nestcoin — 5 operation(s) for ledger-accounts.
   name: Nestcoin ledger-accounts API
   slug: nestcoin-ledger-accounts-api
-- description: The ledger-beneficiaries API from Nestcoin — 4 operation(s) for ledger-beneficiaries.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-beneficiaries API from Nestcoin — 4 operation(s) for ledger-beneficiaries.
   name: Nestcoin ledger-beneficiaries API
   slug: nestcoin-ledger-beneficiaries-api
-- description: The ledger-cash deposits API from Nestcoin — 5 operation(s) for ledger-cash deposits.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-cash deposits API from Nestcoin — 5 operation(s) for ledger-cash deposits.
   name: Nestcoin ledger-cash deposits API
   slug: nestcoin-ledger-cash-deposits-api
-- description: The ledger-offramp accounts API from Nestcoin — 4 operation(s) for ledger-offramp accounts.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-offramp accounts API from Nestcoin — 4 operation(s) for ledger-offramp accounts.
   name: Nestcoin ledger-offramp accounts API
   slug: nestcoin-ledger-offramp-accounts-api
-- description: The ledger-payments API from Nestcoin — 5 operation(s) for ledger-payments.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-payments API from Nestcoin — 5 operation(s) for ledger-payments.
   name: Nestcoin ledger-payments API
   slug: nestcoin-ledger-payments-api
-- description: The ledger-sub-accounts API from Nestcoin — 4 operation(s) for ledger-sub-accounts.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-sub-accounts API from Nestcoin — 4 operation(s) for ledger-sub-accounts.
   name: Nestcoin ledger-sub-accounts API
   slug: nestcoin-ledger-sub-accounts-api
-- description: The ledger-transfer API from Nestcoin — 4 operation(s) for ledger-transfer.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The ledger-transfer API from Nestcoin — 4 operation(s) for ledger-transfer.
   name: Nestcoin ledger-transfer API
   slug: nestcoin-ledger-transfer-api
-- description: The offers-offers API from Nestcoin — 3 operation(s) for offers-offers.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The offers-offers API from Nestcoin — 3 operation(s) for offers-offers.
   name: Nestcoin offers-offers API
   slug: nestcoin-offers-offers-api
-- description: The offers-onboardapi API from Nestcoin — 2 operation(s) for offers-onboardapi.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The offers-onboardapi API from Nestcoin — 2 operation(s) for offers-onboardapi.
   name: Nestcoin offers-onboardapi API
   slug: nestcoin-offers-onboardapi-api
-- description: The orders-orders API from Nestcoin — 5 operation(s) for orders-orders.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The orders-orders API from Nestcoin — 5 operation(s) for orders-orders.
   name: Nestcoin orders-orders API
   slug: nestcoin-orders-orders-api
-- description: The orders-quotes API from Nestcoin — 3 operation(s) for orders-quotes.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The orders-quotes API from Nestcoin — 3 operation(s) for orders-quotes.
   name: Nestcoin orders-quotes API
   slug: nestcoin-orders-quotes-api
-- description: The payment-methods-users API from Nestcoin — 1 operation(s) for payment-methods-users.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The payment-methods-users API from Nestcoin — 1 operation(s) for payment-methods-users.
   name: Nestcoin payment-methods-users API
   slug: nestcoin-payment-methods-users-api
-- description: The transactions-offramp API from Nestcoin — 4 operation(s) for transactions-offramp.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The transactions-offramp API from Nestcoin — 4 operation(s) for transactions-offramp.
   name: Nestcoin transactions-offramp API
   slug: nestcoin-transactions-offramp-api
-- description: The transactions-onboardapi API from Nestcoin — 4 operation(s) for transactions-onboardapi.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The transactions-onboardapi API from Nestcoin — 4 operation(s) for transactions-onboardapi.
   name: Nestcoin transactions-onboardapi API
   slug: nestcoin-transactions-onboardapi-api
-- description: The transactions-onramp API from Nestcoin — 3 operation(s) for transactions-onramp.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The transactions-onramp API from Nestcoin — 3 operation(s) for transactions-onramp.
   name: Nestcoin transactions-onramp API
   slug: nestcoin-transactions-onramp-api
-- description: The transactions-transactions API from Nestcoin — 4 operation(s) for transactions-transactions.
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: The transactions-transactions API from Nestcoin — 4 operation(s) for transactions-transactions.
   name: Nestcoin transactions-transactions API
   slug: nestcoin-transactions-transactions-api
-- description: Endpoints available to for merchants liquidity automation
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: Endpoints available to for merchants liquidity automation
   name: Nestcoin users-onboardapi API
   slug: nestcoin-users-onboardapi-api
-- description: User related endpoints
+- baseURL: https://external.dev.onboardpay.co
+  baseurl_source: declared
+  description: User related endpoints
   name: Nestcoin users-users API
   slug: nestcoin-users-users-api
 artifact_total: 52
@@ -315,7 +361,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -325,7 +371,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,7 +389,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nestcoin/refs/heads/main/screenshots/nestcoin-2026-08-07T184916.png
 security:

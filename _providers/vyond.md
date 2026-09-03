@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -33,28 +45,44 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: APIs for content generation
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: APIs for content generation
   name: Vyond Content Generation API
   slug: vyond-content-generation-api
-- description: APIs for getting parameters information
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: APIs for getting parameters information
   name: Vyond Parameter API
   slug: vyond-parameter-api
-- description: SCIM 2.0 APIs
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: SCIM 2.0 APIs
   name: Vyond SCIM API
   slug: vyond-scim-api
-- description: 'APIs for creating and tracking Turbo video generation tasks. Turbo lets you generate a video from a text prompt, optionally grounded on reference files (e.g. `.txt`, `.pdf`, `.docx`, `.pptx`). Submit '
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: 'APIs for creating and tracking Turbo video generation tasks. Turbo lets you generate a video from a text prompt, optionally grounded on reference files (e.g. `.txt`, `.pdf`, `.docx`, `.pptx`). Submit '
   name: Vyond Turbo API
   slug: vyond-turbo-api
-- description: APIs related to user
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: APIs related to user
   name: Vyond User API
   slug: vyond-user-api
-- description: The Video API from Vyond — 1 operation(s) for video.
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: The Video API from Vyond — 1 operation(s) for video.
   name: Vyond Video API
   slug: vyond-video-api
-- description: APIs for video export
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: APIs for video export
   name: Vyond Video Export API
   slug: vyond-video-export-api
-- description: 'APIs for managing webhook ## Verifying Vyond Signatures Vyond webhook events are sent with a signature, which the destination server can use to verify that the events are authentic from Vyond. It is r'
+- baseURL: https://api.vyond.com
+  baseurl_source: declared
+  description: 'APIs for managing webhook ## Verifying Vyond Signatures Vyond webhook events are sent with a signature, which the destination server can use to verify that the events are authentic from Vyond. It is r'
   name: Vyond Webhook API
   slug: vyond-webhook-api
 arazzos:
@@ -281,7 +309,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -291,7 +319,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vyond/refs/heads/main/screenshots/vyond-2026-08-17T082830.png
 security:

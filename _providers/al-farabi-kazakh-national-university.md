@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 4
@@ -44,145 +44,239 @@ agentic_access:
   summary_line: 400 operations · 184 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The agreements API from Al-Farabi Kazakh National University — 2 operation(s) for agreements.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The agreements API from Al-Farabi Kazakh National University — 2 operation(s) for agreements.
   name: Al-Farabi Kazakh National University agreements API
   slug: al-farabi-kazakh-national-university-agreements-api
-- description: The bookmarks API from Al-Farabi Kazakh National University — 2 operation(s) for bookmarks.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The bookmarks API from Al-Farabi Kazakh National University — 2 operation(s) for bookmarks.
   name: Al-Farabi Kazakh National University bookmarks API
   slug: al-farabi-kazakh-national-university-bookmarks-api
-- description: The certificates API from Al-Farabi Kazakh National University — 2 operation(s) for certificates.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The certificates API from Al-Farabi Kazakh National University — 2 operation(s) for certificates.
   name: Al-Farabi Kazakh National University certificates API
   slug: al-farabi-kazakh-national-university-certificates-api
-- description: The change_email_settings API from Al-Farabi Kazakh National University — 1 operation(s) for change_email_settings.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The change_email_settings API from Al-Farabi Kazakh National University — 1 operation(s) for change_email_settings.
   name: Al-Farabi Kazakh National University change_email_settings API
   slug: al-farabi-kazakh-national-university-change-email-settings-api
-- description: The cohorts API from Al-Farabi Kazakh National University — 4 operation(s) for cohorts.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The cohorts API from Al-Farabi Kazakh National University — 4 operation(s) for cohorts.
   name: Al-Farabi Kazakh National University cohorts API
   slug: al-farabi-kazakh-national-university-cohorts-api
-- description: The commerce API from Al-Farabi Kazakh National University — 5 operation(s) for commerce.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The commerce API from Al-Farabi Kazakh National University — 5 operation(s) for commerce.
   name: Al-Farabi Kazakh National University commerce API
   slug: al-farabi-kazakh-national-university-commerce-api
-- description: The completion API from Al-Farabi Kazakh National University — 2 operation(s) for completion.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The completion API from Al-Farabi Kazakh National University — 2 operation(s) for completion.
   name: Al-Farabi Kazakh National University completion API
   slug: al-farabi-kazakh-national-university-completion-api
-- description: The course_experience API from Al-Farabi Kazakh National University — 2 operation(s) for course_experience.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The course_experience API from Al-Farabi Kazakh National University — 2 operation(s) for course_experience.
   name: Al-Farabi Kazakh National University course_experience API
   slug: al-farabi-kazakh-national-university-course-experience-api
-- description: The course_home API from Al-Farabi Kazakh National University — 18 operation(s) for course_home.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The course_home API from Al-Farabi Kazakh National University — 18 operation(s) for course_home.
   name: Al-Farabi Kazakh National University course_home API
   slug: al-farabi-kazakh-national-university-course-home-api
-- description: The course_live API from Al-Farabi Kazakh National University — 3 operation(s) for course_live.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The course_live API from Al-Farabi Kazakh National University — 3 operation(s) for course_live.
   name: Al-Farabi Kazakh National University course_live API
   slug: al-farabi-kazakh-national-university-course-live-api
-- description: The course_modes API from Al-Farabi Kazakh National University — 2 operation(s) for course_modes.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The course_modes API from Al-Farabi Kazakh National University — 2 operation(s) for course_modes.
   name: Al-Farabi Kazakh National University course_modes API
   slug: al-farabi-kazakh-national-university-course-modes-api
-- description: The courses API from Al-Farabi Kazakh National University — 9 operation(s) for courses.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The courses API from Al-Farabi Kazakh National University — 9 operation(s) for courses.
   name: Al-Farabi Kazakh National University courses API
   slug: al-farabi-kazakh-national-university-courses-api
-- description: The courseware API from Al-Farabi Kazakh National University — 4 operation(s) for courseware.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The courseware API from Al-Farabi Kazakh National University — 4 operation(s) for courseware.
   name: Al-Farabi Kazakh National University courseware API
   slug: al-farabi-kazakh-national-university-courseware-api
-- description: The credit API from Al-Farabi Kazakh National University — 7 operation(s) for credit.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The credit API from Al-Farabi Kazakh National University — 7 operation(s) for credit.
   name: Al-Farabi Kazakh National University credit API
   slug: al-farabi-kazakh-national-university-credit-api
-- description: The dashboard API from Al-Farabi Kazakh National University — 2 operation(s) for dashboard.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The dashboard API from Al-Farabi Kazakh National University — 2 operation(s) for dashboard.
   name: Al-Farabi Kazakh National University dashboard API
   slug: al-farabi-kazakh-national-university-dashboard-api
-- description: The discounts API from Al-Farabi Kazakh National University — 2 operation(s) for discounts.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The discounts API from Al-Farabi Kazakh National University — 2 operation(s) for discounts.
   name: Al-Farabi Kazakh National University discounts API
   slug: al-farabi-kazakh-national-university-discounts-api
-- description: The discussion API from Al-Farabi Kazakh National University — 16 operation(s) for discussion.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The discussion API from Al-Farabi Kazakh National University — 16 operation(s) for discussion.
   name: Al-Farabi Kazakh National University discussion API
   slug: al-farabi-kazakh-national-university-discussion-api
-- description: The edx_name_affirmation API from Al-Farabi Kazakh National University — 4 operation(s) for edx_name_affirmation.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The edx_name_affirmation API from Al-Farabi Kazakh National University — 4 operation(s) for edx_name_affirmation.
   name: Al-Farabi Kazakh National University edx_name_affirmation API
   slug: al-farabi-kazakh-national-university-edx-name-affirmation-api
-- description: The edx_proctoring API from Al-Farabi Kazakh National University — 30 operation(s) for edx_proctoring.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The edx_proctoring API from Al-Farabi Kazakh National University — 30 operation(s) for edx_proctoring.
   name: Al-Farabi Kazakh National University edx_proctoring API
   slug: al-farabi-kazakh-national-university-edx-proctoring-api
-- description: The edxnotes API from Al-Farabi Kazakh National University — 1 operation(s) for edxnotes.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The edxnotes API from Al-Farabi Kazakh National University — 1 operation(s) for edxnotes.
   name: Al-Farabi Kazakh National University edxnotes API
   slug: al-farabi-kazakh-national-university-edxnotes-api
-- description: The enrollment API from Al-Farabi Kazakh National University — 8 operation(s) for enrollment.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The enrollment API from Al-Farabi Kazakh National University — 8 operation(s) for enrollment.
   name: Al-Farabi Kazakh National University enrollment API
   slug: al-farabi-kazakh-national-university-enrollment-api
-- description: The entitlements API from Al-Farabi Kazakh National University — 3 operation(s) for entitlements.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The entitlements API from Al-Farabi Kazakh National University — 3 operation(s) for entitlements.
   name: Al-Farabi Kazakh National University entitlements API
   slug: al-farabi-kazakh-national-university-entitlements-api
-- description: The experiments API from Al-Farabi Kazakh National University — 6 operation(s) for experiments.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The experiments API from Al-Farabi Kazakh National University — 6 operation(s) for experiments.
   name: Al-Farabi Kazakh National University experiments API
   slug: al-farabi-kazakh-national-university-experiments-api
-- description: The grades API from Al-Farabi Kazakh National University — 9 operation(s) for grades.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The grades API from Al-Farabi Kazakh National University — 9 operation(s) for grades.
   name: Al-Farabi Kazakh National University grades API
   slug: al-farabi-kazakh-national-university-grades-api
-- description: The instructor API from Al-Farabi Kazakh National University — 3 operation(s) for instructor.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The instructor API from Al-Farabi Kazakh National University — 3 operation(s) for instructor.
   name: Al-Farabi Kazakh National University instructor API
   slug: al-farabi-kazakh-national-university-instructor-api
-- description: The instructor_task API from Al-Farabi Kazakh National University — 2 operation(s) for instructor_task.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The instructor_task API from Al-Farabi Kazakh National University — 2 operation(s) for instructor_task.
   name: Al-Farabi Kazakh National University instructor_task API
   slug: al-farabi-kazakh-national-university-instructor-task-api
-- description: The learner_home API from Al-Farabi Kazakh National University — 4 operation(s) for learner_home.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The learner_home API from Al-Farabi Kazakh National University — 4 operation(s) for learner_home.
   name: Al-Farabi Kazakh National University learner_home API
   slug: al-farabi-kazakh-national-university-learner-home-api
-- description: The learning_sequences API from Al-Farabi Kazakh National University — 1 operation(s) for learning_sequences.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The learning_sequences API from Al-Farabi Kazakh National University — 1 operation(s) for learning_sequences.
   name: Al-Farabi Kazakh National University learning_sequences API
   slug: al-farabi-kazakh-national-university-learning-sequences-api
-- description: The lti_consumer API from Al-Farabi Kazakh National University — 6 operation(s) for lti_consumer.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The lti_consumer API from Al-Farabi Kazakh National University — 6 operation(s) for lti_consumer.
   name: Al-Farabi Kazakh National University lti_consumer API
   slug: al-farabi-kazakh-national-university-lti-consumer-api
-- description: The mfe_config API from Al-Farabi Kazakh National University — 1 operation(s) for mfe_config.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The mfe_config API from Al-Farabi Kazakh National University — 1 operation(s) for mfe_config.
   name: Al-Farabi Kazakh National University mfe_config API
   slug: al-farabi-kazakh-national-university-mfe-config-api
-- description: The mfe_context API from Al-Farabi Kazakh National University — 1 operation(s) for mfe_context.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The mfe_context API from Al-Farabi Kazakh National University — 1 operation(s) for mfe_context.
   name: Al-Farabi Kazakh National University mfe_context API
   slug: al-farabi-kazakh-national-university-mfe-context-api
-- description: The mobile API from Al-Farabi Kazakh National University — 11 operation(s) for mobile.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The mobile API from Al-Farabi Kazakh National University — 11 operation(s) for mobile.
   name: Al-Farabi Kazakh National University mobile API
   slug: al-farabi-kazakh-national-university-mobile-api
-- description: The notifications API from Al-Farabi Kazakh National University — 9 operation(s) for notifications.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The notifications API from Al-Farabi Kazakh National University — 9 operation(s) for notifications.
   name: Al-Farabi Kazakh National University notifications API
   slug: al-farabi-kazakh-national-university-notifications-api
-- description: The ora_staff_grader API from Al-Farabi Kazakh National University — 15 operation(s) for ora_staff_grader.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The ora_staff_grader API from Al-Farabi Kazakh National University — 15 operation(s) for ora_staff_grader.
   name: Al-Farabi Kazakh National University ora_staff_grader API
   slug: al-farabi-kazakh-national-university-ora-staff-grader-api
-- description: The organizations API from Al-Farabi Kazakh National University — 2 operation(s) for organizations.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The organizations API from Al-Farabi Kazakh National University — 2 operation(s) for organizations.
   name: Al-Farabi Kazakh National University organizations API
   slug: al-farabi-kazakh-national-university-organizations-api
-- description: The profile_images API from Al-Farabi Kazakh National University — 2 operation(s) for profile_images.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The profile_images API from Al-Farabi Kazakh National University — 2 operation(s) for profile_images.
   name: Al-Farabi Kazakh National University profile_images API
   slug: al-farabi-kazakh-national-university-profile-images-api
-- description: The program_enrollments API from Al-Farabi Kazakh National University — 8 operation(s) for program_enrollments.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The program_enrollments API from Al-Farabi Kazakh National University — 8 operation(s) for program_enrollments.
   name: Al-Farabi Kazakh National University program_enrollments API
   slug: al-farabi-kazakh-national-university-program-enrollments-api
-- description: The send_account_activation_email API from Al-Farabi Kazakh National University — 1 operation(s) for send_account_activation_email.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The send_account_activation_email API from Al-Farabi Kazakh National University — 1 operation(s) for send_account_activation_email.
   name: Al-Farabi Kazakh National University send_account_activation_email API
   slug: al-farabi-kazakh-national-university-send-account-activation-email-api
-- description: The team API from Al-Farabi Kazakh National University — 8 operation(s) for team.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The team API from Al-Farabi Kazakh National University — 8 operation(s) for team.
   name: Al-Farabi Kazakh National University team API
   slug: al-farabi-kazakh-national-university-team-api
-- description: The third_party_auth API from Al-Farabi Kazakh National University — 4 operation(s) for third_party_auth.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The third_party_auth API from Al-Farabi Kazakh National University — 4 operation(s) for third_party_auth.
   name: Al-Farabi Kazakh National University third_party_auth API
   slug: al-farabi-kazakh-national-university-third-party-auth-api
-- description: The third_party_auth_context API from Al-Farabi Kazakh National University — 1 operation(s) for third_party_auth_context.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The third_party_auth_context API from Al-Farabi Kazakh National University — 1 operation(s) for third_party_auth_context.
   name: Al-Farabi Kazakh National University third_party_auth_context API
   slug: al-farabi-kazakh-national-university-third-party-auth-context-api
-- description: The toggles API from Al-Farabi Kazakh National University — 1 operation(s) for toggles.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The toggles API from Al-Farabi Kazakh National University — 1 operation(s) for toggles.
   name: Al-Farabi Kazakh National University toggles API
   slug: al-farabi-kazakh-national-university-toggles-api
-- description: The univertest API from Al-Farabi Kazakh National University — 1 operation(s) for univertest.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The univertest API from Al-Farabi Kazakh National University — 1 operation(s) for univertest.
   name: Al-Farabi Kazakh National University univertest API
   slug: al-farabi-kazakh-national-university-univertest-api
-- description: The user API from Al-Farabi Kazakh National University — 38 operation(s) for user.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The user API from Al-Farabi Kazakh National University — 38 operation(s) for user.
   name: Al-Farabi Kazakh National University user API
   slug: al-farabi-kazakh-national-university-user-api
-- description: The user_tours API from Al-Farabi Kazakh National University — 2 operation(s) for user_tours.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The user_tours API from Al-Farabi Kazakh National University — 2 operation(s) for user_tours.
   name: Al-Farabi Kazakh National University user_tours API
   slug: al-farabi-kazakh-national-university-user-tours-api
-- description: The val API from Al-Farabi Kazakh National University — 9 operation(s) for val.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The val API from Al-Farabi Kazakh National University — 9 operation(s) for val.
   name: Al-Farabi Kazakh National University val API
   slug: al-farabi-kazakh-national-university-val-api
-- description: The xblock API from Al-Farabi Kazakh National University — 10 operation(s) for xblock.
+- baseURL: https://open.kaznu.kz/api
+  baseurl_source: declared
+  description: The xblock API from Al-Farabi Kazakh National University — 10 operation(s) for xblock.
   name: Al-Farabi Kazakh National University xblock API
   slug: al-farabi-kazakh-national-university-xblock-api
 - description: Seven OAI-PMH 2.0 metadata harvesting endpoints operated by Al-Farabi Kazakh National University on its own kaznu.kz hosts, one per Bulletin (Vestnik) journal series — Economic, Law, Historical, Physi
@@ -527,7 +621,7 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -537,7 +631,7 @@ score:
     discoverability: 44.4
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 33.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -553,8 +647,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:
 - kind: authentication

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: cloud9.gg runs on WordPress (WP Cloud / Automattic Atomic hosting) and serves the standard WordPress REST API anonymously at https://cloud9.gg/wp-json/. The discovery index enumerates 277 routes acros
@@ -179,7 +191,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +211,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloud9/refs/heads/main/screenshots/cloud9-2026-09-02T145113.png
 security:
 - kind: authentication
   name: Cloud9 Authentication

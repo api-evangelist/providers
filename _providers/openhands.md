@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -56,34 +56,54 @@ apis:
 - description: Hosted OpenHands platform at app.all-hands.dev with a free tier (Minimax model), GitHub/GitLab/Bitbucket integrations, and Slack/Jira/Linear connectors.
   name: OpenHands Cloud
   slug: cloud
-- description: The Add Git Providers API from OpenHands — 1 operation(s) for add git providers.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Add Git Providers API from OpenHands — 1 operation(s) for add git providers.
   name: OpenHands Add Git Providers API
   slug: openhands-add-git-providers-api
-- description: The Alive API from OpenHands — 1 operation(s) for alive.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Alive API from OpenHands — 1 operation(s) for alive.
   name: OpenHands Alive API
   slug: openhands-alive-api
-- description: The Conversations API from OpenHands — 16 operation(s) for conversations.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Conversations API from OpenHands — 16 operation(s) for conversations.
   name: OpenHands Conversations API
   slug: openhands-conversations-api
-- description: The Health API from OpenHands — 1 operation(s) for health.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Health API from OpenHands — 1 operation(s) for health.
   name: OpenHands Health API
   slug: openhands-health-api
-- description: The Options API from OpenHands — 4 operation(s) for options.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Options API from OpenHands — 4 operation(s) for options.
   name: OpenHands Options API
   slug: openhands-options-api
-- description: The Reset Settings API from OpenHands — 1 operation(s) for reset settings.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Reset Settings API from OpenHands — 1 operation(s) for reset settings.
   name: OpenHands Reset Settings API
   slug: openhands-reset-settings-api
-- description: The Secrets API from OpenHands — 2 operation(s) for secrets.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Secrets API from OpenHands — 2 operation(s) for secrets.
   name: OpenHands Secrets API
   slug: openhands-secrets-api
-- description: The Settings API from OpenHands — 1 operation(s) for settings.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Settings API from OpenHands — 1 operation(s) for settings.
   name: OpenHands Settings API
   slug: openhands-settings-api
-- description: The Unset Provider Tokens API from OpenHands — 1 operation(s) for unset provider tokens.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The Unset Provider Tokens API from OpenHands — 1 operation(s) for unset provider tokens.
   name: OpenHands Unset Provider Tokens API
   slug: openhands-unset-provider-tokens-api
-- description: The User API from OpenHands — 8 operation(s) for user.
+- baseURL: https://app.all-hands.dev
+  baseurl_source: spec
+  description: The User API from OpenHands — 8 operation(s) for user.
   name: OpenHands User API
   slug: openhands-user-api
 artifact_total: 48
@@ -293,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

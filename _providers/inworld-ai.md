@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 6
 apis:
-- description: Discover available models.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Discover available models.
   name: Inworld AI Models API
   slug: inworld-ai-models-api
-- description: Realtime speech-to-speech sessions.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Realtime speech-to-speech sessions.
   name: Inworld AI Realtime API
   slug: inworld-ai-realtime-api
-- description: Transcribe audio to text.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Transcribe audio to text.
   name: Inworld AI Speech To Text API
   slug: inworld-ai-speech-to-text-api
-- description: Synthesize speech from text using Inworld voice models.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Synthesize speech from text using Inworld voice models.
   name: Inworld AI Text To Speech API
   slug: inworld-ai-text-to-speech-api
-- description: Voice cloning, design, and lifecycle.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Voice cloning, design, and lifecycle.
   name: Inworld AI Voices API
   slug: inworld-ai-voices-api
-- description: OpenAI-compatible chat completions through the LLM Router.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: OpenAI-compatible chat completions through the LLM Router.
   name: Inworld AI Chat Completions API
   slug: inworld-ai-chat-completions-api
-- description: Named reusable routers with provider, conditional, and split rules.
+- baseURL: https://api.inworld.ai
+  baseurl_source: spec
+  description: Named reusable routers with provider, conditional, and split rules.
   name: Inworld AI Routers API
   slug: inworld-ai-routers-api
 artifact_total: 66
@@ -470,7 +484,7 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -480,7 +494,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 78.9
-  previous_composite: 66.7
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -489,7 +503,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:

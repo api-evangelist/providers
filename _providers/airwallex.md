@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -62,28 +62,44 @@ apis:
 - description: The Airwallex Platform API enables businesses to embed financial services into their products. Supports merchant onboarding, sub-account management, platform payments, and split payouts for marketplac
   name: Airwallex Platform API
   slug: platform
-- description: The Authentication API from Airwallex — 1 operation(s) for authentication.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Airwallex — 1 operation(s) for authentication.
   name: Airwallex Authentication API
   slug: airwallex-authentication-api
-- description: The Balances API from Airwallex — 1 operation(s) for balances.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Balances API from Airwallex — 1 operation(s) for balances.
   name: Airwallex Balances API
   slug: airwallex-balances-api
-- description: The Beneficiaries API from Airwallex — 3 operation(s) for beneficiaries.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Beneficiaries API from Airwallex — 3 operation(s) for beneficiaries.
   name: Airwallex Beneficiaries API
   slug: airwallex-beneficiaries-api
-- description: The Customers API from Airwallex — 2 operation(s) for customers.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Customers API from Airwallex — 2 operation(s) for customers.
   name: Airwallex Customers API
   slug: airwallex-customers-api
-- description: The Payment Intents API from Airwallex — 5 operation(s) for payment intents.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Payment Intents API from Airwallex — 5 operation(s) for payment intents.
   name: Airwallex Payment Intents API
   slug: airwallex-payment-intents-api
-- description: The Payouts API from Airwallex — 2 operation(s) for payouts.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Payouts API from Airwallex — 2 operation(s) for payouts.
   name: Airwallex Payouts API
   slug: airwallex-payouts-api
-- description: The Refunds API from Airwallex — 2 operation(s) for refunds.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Refunds API from Airwallex — 2 operation(s) for refunds.
   name: Airwallex Refunds API
   slug: airwallex-refunds-api
-- description: The Transfers API from Airwallex — 2 operation(s) for transfers.
+- baseURL: https://api.airwallex.com/api/v1
+  baseurl_source: declared
+  description: The Transfers API from Airwallex — 2 operation(s) for transfers.
   name: Airwallex Transfers API
   slug: airwallex-transfers-api
 artifact_total: 74
@@ -497,7 +513,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -507,7 +523,7 @@ score:
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 83.6
+  previous_composite: 91.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -531,8 +547,8 @@ score:
     regime_id: payments
     score: 100.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
 - kind: authentication

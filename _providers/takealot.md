@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,40 +42,64 @@ agentic_access:
   summary_line: 16 operations · 5 acting
 api_count: 1
 apis:
-- description: The Create a batch API from Takealot — 1 operation(s) for create a batch.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Create a batch API from Takealot — 1 operation(s) for create a batch.
   name: Takealot Create a batch API
   slug: takealot-create-a-batch-api
-- description: The Create an offer API from Takealot — 2 operation(s) for create an offer.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Create an offer API from Takealot — 2 operation(s) for create an offer.
   name: Takealot Create an offer API
   slug: takealot-create-an-offer-api
-- description: The Get a batch API from Takealot — 1 operation(s) for get a batch.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get a batch API from Takealot — 1 operation(s) for get a batch.
   name: Takealot Get a batch API
   slug: takealot-get-a-batch-api
-- description: The Get an offer API from Takealot — 2 operation(s) for get an offer.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get an offer API from Takealot — 2 operation(s) for get an offer.
   name: Takealot Get an offer API
   slug: takealot-get-an-offer-api
-- description: The Get offers API from Takealot — 1 operation(s) for get offers.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get offers API from Takealot — 1 operation(s) for get offers.
   name: Takealot Get offers API
   slug: takealot-get-offers-api
-- description: The Get offers count API from Takealot — 1 operation(s) for get offers count.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get offers count API from Takealot — 1 operation(s) for get offers count.
   name: Takealot Get offers count API
   slug: takealot-get-offers-count-api
-- description: The Get stock counts API from Takealot — 1 operation(s) for get stock counts.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get stock counts API from Takealot — 1 operation(s) for get stock counts.
   name: Takealot Get stock counts API
   slug: takealot-get-stock-counts-api
-- description: The Get stock health API from Takealot — 1 operation(s) for get stock health.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Get stock health API from Takealot — 1 operation(s) for get stock health.
   name: Takealot Get stock health API
   slug: takealot-get-stock-health-api
-- description: The sales summary API from Takealot — 1 operation(s) for sales summary.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The sales summary API from Takealot — 1 operation(s) for sales summary.
   name: Takealot sales summary API
   slug: takealot-sales-summary-api
-- description: The Update an offer API from Takealot — 2 operation(s) for update an offer.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The Update an offer API from Takealot — 2 operation(s) for update an offer.
   name: Takealot Update an offer API
   slug: takealot-update-an-offer-api
-- description: The view sales API from Takealot — 1 operation(s) for view sales.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The view sales API from Takealot — 1 operation(s) for view sales.
   name: Takealot view sales API
   slug: takealot-view-sales-api
-- description: The view sales orders API from Takealot — 2 operation(s) for view sales orders.
+- baseURL: https://seller-api.takealot.com
+  baseurl_source: declared
+  description: The view sales orders API from Takealot — 2 operation(s) for view sales orders.
   name: Takealot view sales orders API
   slug: takealot-view-sales-orders-api
 artifact_total: 29
@@ -269,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 5
 apis:
-- description: Create and manage bookings
+- baseURL: https://bus-api.blablacar.com/v1
+  baseurl_source: spec
+  description: Create and manage bookings
   name: BlaBlaCar Bus API Bookings API
   slug: blablacar-bus-api-bookings-api
-- description: Search and browse available coach routes
+- baseURL: https://bus-api.blablacar.com/v1
+  baseurl_source: spec
+  description: Search and browse available coach routes
   name: BlaBlaCar Bus API Routes API
   slug: blablacar-bus-api-routes-api
-- description: Access station information
+- baseURL: https://bus-api.blablacar.com/v1
+  baseurl_source: spec
+  description: Access station information
   name: BlaBlaCar Bus API Stations API
   slug: blablacar-bus-api-stations-api
-- description: Retrieve and manage passenger tickets
+- baseURL: https://bus-api.blablacar.com/v1
+  baseurl_source: spec
+  description: Retrieve and manage passenger tickets
   name: BlaBlaCar Bus API Tickets API
   slug: blablacar-bus-api-tickets-api
-- description: Search trip availability and pricing
+- baseURL: https://bus-api.blablacar.com/v1
+  baseurl_source: spec
+  description: Search trip availability and pricing
   name: BlaBlaCar Bus API Trips API
   slug: blablacar-bus-api-trips-api
 artifact_total: 49
@@ -276,7 +286,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/screenshots/blablacar-bus-api-2026-06-20T173332.png
 security:

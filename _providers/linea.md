@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: Blockchain data APIs for Linea Mainnet backed by two explorer surfaces. The Lineascan (lineascan.build) explorer uses the Etherscan API V2 interface (chain ID 59144) with modules covering accounts (na
   name: Linea Explorer API (Lineascan / Blockscout)
   slug: explorer-api
-- description: Token price history
+- baseURL: https://rpc.linea.build
+  baseurl_source: declared
+  description: Token price history
   name: Linea Prices API
   slug: linea-prices-api
-- description: ERC-20 token metadata and information
+- baseURL: https://rpc.linea.build
+  baseurl_source: declared
+  description: ERC-20 token metadata and information
   name: Linea Tokens API
   slug: linea-tokens-api
 artifact_total: 40
@@ -260,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea/refs/heads/main/screenshots/linea-2026-06-20T184539.png
 security:

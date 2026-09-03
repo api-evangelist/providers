@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage vendor contracts and contract lifecycle
+- baseURL: https://api.tropicapp.io/v1
+  baseurl_source: declared
+  description: Manage vendor contracts and contract lifecycle
   name: Tropic Contracts API
   slug: tropic-contracts-api
-- description: Manage procurement requests and approvals
+- baseURL: https://api.tropicapp.io/v1
+  baseurl_source: declared
+  description: Manage procurement requests and approvals
   name: Tropic Requests API
   slug: tropic-requests-api
-- description: Manage supplier profiles and relationships
+- baseURL: https://api.tropicapp.io/v1
+  baseurl_source: declared
+  description: Manage supplier profiles and relationships
   name: Tropic Suppliers API
   slug: tropic-suppliers-api
-- description: Manage users and access
+- baseURL: https://api.tropicapp.io/v1
+  baseurl_source: declared
+  description: Manage users and access
   name: Tropic Users API
   slug: tropic-users-api
-- description: Configure and manage webhook subscriptions
+- baseURL: https://api.tropicapp.io/v1
+  baseurl_source: declared
+  description: Configure and manage webhook subscriptions
   name: Tropic Webhooks API
   slug: tropic-webhooks-api
 artifact_total: 33
@@ -253,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
 security:

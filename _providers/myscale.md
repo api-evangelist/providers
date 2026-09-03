@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: 'MyScale Cloud provisions and manages clusters (create, modify name / size / replicas / idle period, reset password, view status) through the web console at the MyScale Cloud site. As of this catalog, '
   name: MyScale Cloud / Cluster Management
   slug: myscale-cloud-management
-- description: The Query API from MyScale — 1 operation(s) for query.
+- baseURL: https://{cluster-host}:8443
+  baseurl_source: declared
+  description: The Query API from MyScale — 1 operation(s) for query.
   name: MyScale Query API
   slug: myscale-query-api
 artifact_total: 11
@@ -158,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myscale/refs/heads/main/screenshots/myscale-2026-06-20T185918.png
 security:

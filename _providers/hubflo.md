@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 192 operations · 98 acting
 api_count: 1
 apis:
-- description: The chat_room API from Hubflo — 4 operation(s) for chat_room.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The chat_room API from Hubflo — 4 operation(s) for chat_room.
   name: Hubflo chat_room API
   slug: hubflo-chat-room-api
-- description: The comment API from Hubflo — 2 operation(s) for comment.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The comment API from Hubflo — 2 operation(s) for comment.
   name: Hubflo comment API
   slug: hubflo-comment-api
-- description: The company API from Hubflo — 2 operation(s) for company.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The company API from Hubflo — 2 operation(s) for company.
   name: Hubflo company API
   slug: hubflo-company-api
-- description: The contact API from Hubflo — 4 operation(s) for contact.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The contact API from Hubflo — 4 operation(s) for contact.
   name: Hubflo contact API
   slug: hubflo-contact-api
-- description: The custom_field API from Hubflo — 2 operation(s) for custom_field.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The custom_field API from Hubflo — 2 operation(s) for custom_field.
   name: Hubflo custom_field API
   slug: hubflo-custom-field-api
-- description: The custom_field_value API from Hubflo — 1 operation(s) for custom_field_value.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The custom_field_value API from Hubflo — 1 operation(s) for custom_field_value.
   name: Hubflo custom_field_value API
   slug: hubflo-custom-field-value-api
-- description: The folder API from Hubflo — 1 operation(s) for folder.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The folder API from Hubflo — 1 operation(s) for folder.
   name: Hubflo folder API
   slug: hubflo-folder-api
-- description: The form API from Hubflo — 17 operation(s) for form.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The form API from Hubflo — 17 operation(s) for form.
   name: Hubflo form API
   slug: hubflo-form-api
-- description: The invoice API from Hubflo — 8 operation(s) for invoice.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The invoice API from Hubflo — 8 operation(s) for invoice.
   name: Hubflo invoice API
   slug: hubflo-invoice-api
-- description: The invoicing_profile API from Hubflo — 2 operation(s) for invoicing_profile.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The invoicing_profile API from Hubflo — 2 operation(s) for invoicing_profile.
   name: Hubflo invoicing_profile API
   slug: hubflo-invoicing-profile-api
-- description: The item API from Hubflo — 1 operation(s) for item.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The item API from Hubflo — 1 operation(s) for item.
   name: Hubflo item API
   slug: hubflo-item-api
-- description: The member API from Hubflo — 1 operation(s) for member.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The member API from Hubflo — 1 operation(s) for member.
   name: Hubflo member API
   slug: hubflo-member-api
-- description: The message API from Hubflo — 1 operation(s) for message.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The message API from Hubflo — 1 operation(s) for message.
   name: Hubflo message API
   slug: hubflo-message-api
-- description: The note API from Hubflo — 2 operation(s) for note.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The note API from Hubflo — 2 operation(s) for note.
   name: Hubflo note API
   slug: hubflo-note-api
-- description: The organizations API from Hubflo — 3 operation(s) for organizations.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The organizations API from Hubflo — 3 operation(s) for organizations.
   name: Hubflo organizations API
   slug: hubflo-organizations-api
-- description: The ping API from Hubflo — 1 operation(s) for ping.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The ping API from Hubflo — 1 operation(s) for ping.
   name: Hubflo ping API
   slug: hubflo-ping-api
-- description: The portals API from Hubflo — 1 operation(s) for portals.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The portals API from Hubflo — 1 operation(s) for portals.
   name: Hubflo portals API
   slug: hubflo-portals-api
-- description: The project API from Hubflo — 5 operation(s) for project.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The project API from Hubflo — 5 operation(s) for project.
   name: Hubflo project API
   slug: hubflo-project-api
-- description: The project_section API from Hubflo — 3 operation(s) for project_section.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The project_section API from Hubflo — 3 operation(s) for project_section.
   name: Hubflo project_section API
   slug: hubflo-project-section-api
-- description: The project_type API from Hubflo — 2 operation(s) for project_type.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The project_type API from Hubflo — 2 operation(s) for project_type.
   name: Hubflo project_type API
   slug: hubflo-project-type-api
-- description: The proposal API from Hubflo — 6 operation(s) for proposal.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The proposal API from Hubflo — 6 operation(s) for proposal.
   name: Hubflo proposal API
   slug: hubflo-proposal-api
-- description: The smartdoc API from Hubflo — 5 operation(s) for smartdoc.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The smartdoc API from Hubflo — 5 operation(s) for smartdoc.
   name: Hubflo smartdoc API
   slug: hubflo-smartdoc-api
-- description: The tag API from Hubflo — 2 operation(s) for tag.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The tag API from Hubflo — 2 operation(s) for tag.
   name: Hubflo tag API
   slug: hubflo-tag-api
-- description: The task API from Hubflo — 6 operation(s) for task.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The task API from Hubflo — 6 operation(s) for task.
   name: Hubflo task API
   slug: hubflo-task-api
-- description: The task_template API from Hubflo — 5 operation(s) for task_template.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The task_template API from Hubflo — 5 operation(s) for task_template.
   name: Hubflo task_template API
   slug: hubflo-task-template-api
-- description: The time_tracking API from Hubflo — 2 operation(s) for time_tracking.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The time_tracking API from Hubflo — 2 operation(s) for time_tracking.
   name: Hubflo time_tracking API
   slug: hubflo-time-tracking-api
-- description: The webhook API from Hubflo — 4 operation(s) for webhook.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The webhook API from Hubflo — 4 operation(s) for webhook.
   name: Hubflo webhook API
   slug: hubflo-webhook-api
-- description: The workspace API from Hubflo — 24 operation(s) for workspace.
+- baseURL: https://app.hubflo.com/api/v2
+  baseurl_source: declared
+  description: The workspace API from Hubflo — 24 operation(s) for workspace.
   name: Hubflo workspace API
   slug: hubflo-workspace-api
 artifact_total: 63
@@ -370,7 +426,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -380,7 +436,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -392,7 +448,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png
 security:

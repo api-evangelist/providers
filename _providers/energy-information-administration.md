@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: CO2 emissions aggregates by state and sector.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: CO2 emissions aggregates by state and sector.
   name: Energy Information Administration CO2 Emissions API
   slug: energy-information-administration-co2-emissions-api
-- description: Coal production, shipments, consumption, and trade data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Coal production, shipments, consumption, and trade data.
   name: Energy Information Administration Coal API
   slug: energy-information-administration-coal-api
-- description: Browse the API tree to discover available routes, facets, and metadata.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Browse the API tree to discover available routes, facets, and metadata.
   name: Energy Information Administration Discovery API
   slug: energy-information-administration-discovery-api
-- description: Electricity generation, retail sales, and balancing authority data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Electricity generation, retail sales, and balancing authority data.
   name: Energy Information Administration Electricity API
   slug: energy-information-administration-electricity-api
-- description: International energy statistics and projections.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: International energy statistics and projections.
   name: Energy Information Administration International API
   slug: energy-information-administration-international-api
-- description: Natural gas production, prices, storage, and trade data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Natural gas production, prices, storage, and trade data.
   name: Energy Information Administration Natural Gas API
   slug: energy-information-administration-natural-gas-api
-- description: Nuclear plant generator outage data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Nuclear plant generator outage data.
   name: Energy Information Administration Nuclear API
   slug: energy-information-administration-nuclear-api
-- description: Crude oil reserves, refining, consumption, and stocks data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Crude oil reserves, refining, consumption, and stocks data.
   name: Energy Information Administration Petroleum API
   slug: energy-information-administration-petroleum-api
-- description: State Energy Data System.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: State Energy Data System.
   name: Energy Information Administration SEDS API
   slug: energy-information-administration-seds-api
-- description: Comprehensive energy summaries across all sources.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Comprehensive energy summaries across all sources.
   name: Energy Information Administration Total Energy API
   slug: energy-information-administration-total-energy-api
 artifact_total: 28
@@ -219,7 +239,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-information-administration/refs/heads/main/screenshots/energy-information-administration-2026-06-20T180702.png
 security:

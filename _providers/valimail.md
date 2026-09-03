@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -46,55 +46,89 @@ apis:
 - description: Retrieve email authentication metrics, sender reports, and unidentified sender reports for compliance dashboards and security insights. Documented for customers in the Valimail help center; credential
   name: Valimail Reporting Data API
   slug: valimail-reporting-data-api
-- description: The Accounts API from Valimail — 4 operation(s) for accounts.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Accounts API from Valimail — 4 operation(s) for accounts.
   name: Valimail Accounts API
   slug: valimail-accounts-api
-- description: The Authentication API from Valimail — 1 operation(s) for authentication.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Authentication API from Valimail — 1 operation(s) for authentication.
   name: Valimail Authentication API
   slug: valimail-authentication-api
-- description: The DKIMs by Domain API from Valimail — 2 operation(s) for dkims by domain.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The DKIMs by Domain API from Valimail — 2 operation(s) for dkims by domain.
   name: Valimail DKIMs by Domain API
   slug: valimail-dkims-by-domain-api
-- description: The DKIMs by Sender API from Valimail — 2 operation(s) for dkims by sender.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The DKIMs by Sender API from Valimail — 2 operation(s) for dkims by sender.
   name: Valimail DKIMs by Sender API
   slug: valimail-dkims-by-sender-api
-- description: The Domains API from Valimail — 2 operation(s) for domains.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Domains API from Valimail — 2 operation(s) for domains.
   name: Valimail Domains API
   slug: valimail-domains-api
-- description: The MTA-STS Policy API from Valimail — 2 operation(s) for mta-sts policy.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The MTA-STS Policy API from Valimail — 2 operation(s) for mta-sts policy.
   name: Valimail MTA-STS Policy API
   slug: valimail-mta-sts-policy-api
-- description: The MTA-STS Policy Reports API from Valimail — 3 operation(s) for mta-sts policy reports.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The MTA-STS Policy Reports API from Valimail — 3 operation(s) for mta-sts policy reports.
   name: Valimail MTA-STS Policy Reports API
   slug: valimail-mta-sts-policy-reports-api
-- description: The Netblocks API from Valimail — 2 operation(s) for netblocks.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Netblocks API from Valimail — 2 operation(s) for netblocks.
   name: Valimail Netblocks API
   slug: valimail-netblocks-api
-- description: The Portfolios API from Valimail — 1 operation(s) for portfolios.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Portfolios API from Valimail — 1 operation(s) for portfolios.
   name: Valimail Portfolios API
   slug: valimail-portfolios-api
-- description: The SCIM API from Valimail — 2 operation(s) for scim.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The SCIM API from Valimail — 2 operation(s) for scim.
   name: Valimail SCIM API
   slug: valimail-scim-api
-- description: The Senders API from Valimail — 3 operation(s) for senders.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Senders API from Valimail — 3 operation(s) for senders.
   name: Valimail Senders API
   slug: valimail-senders-api
-- description: The SSO API from Valimail — 1 operation(s) for sso.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The SSO API from Valimail — 1 operation(s) for sso.
   name: Valimail SSO API
   slug: valimail-sso-api
-- description: The TLS Configuration API from Valimail — 2 operation(s) for tls configuration.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The TLS Configuration API from Valimail — 2 operation(s) for tls configuration.
   name: Valimail TLS Configuration API
   slug: valimail-tls-configuration-api
-- description: The Users API from Valimail — 4 operation(s) for users.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Users API from Valimail — 4 operation(s) for users.
   name: Valimail Users API
   slug: valimail-users-api
-- description: The Webhooks API from Valimail — 1 operation(s) for webhooks.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Webhooks API from Valimail — 1 operation(s) for webhooks.
   name: Valimail Webhooks API
   slug: valimail-webhooks-api
-- description: The Senders Reports API from Valimail — 1 operation(s) for senders reports.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Senders Reports API from Valimail — 1 operation(s) for senders reports.
   name: Valimail Senders Reports API
   slug: valimail-senders-reports-api
-- description: The Teams API from Valimail — 2 operation(s) for teams.
+- baseURL: https://api.valimail.com
+  baseurl_source: declared
+  description: The Teams API from Valimail — 2 operation(s) for teams.
   name: Valimail Teams API
   slug: valimail-teams-api
 artifact_total: 43
@@ -342,23 +376,23 @@ rate_limits:
   slug: valimail-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 62.7
   coverage:
     artifact_dirs: 23
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.8
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 59.0
+    contract_quality: 62.3
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 62.1
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,7 +404,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/screenshots/valimail-2026-08-17T082710.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 7 operations
 api_count: 2
 apis:
-- description: Convert a value between two currencies at the latest rates.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Convert a value between two currencies at the latest rates.
   name: Open Exchange Rates Convert API
   slug: openexchangerates-convert-api
-- description: List of supported currency symbols and names.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: List of supported currency symbols and names.
   name: Open Exchange Rates Currencies API
   slug: openexchangerates-currencies-api
-- description: End-of-day rates for any date back to 1999-01-01.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: End-of-day rates for any date back to 1999-01-01.
   name: Open Exchange Rates Historical Rates API
   slug: openexchangerates-historical-rates-api
-- description: Current exchange rates relative to a base currency.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Current exchange rates relative to a base currency.
   name: Open Exchange Rates Latest Rates API
   slug: openexchangerates-latest-rates-api
-- description: Open, high, low, close, and average rates for a period.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Open, high, low, close, and average rates for a period.
   name: Open Exchange Rates OHLC API
   slug: openexchangerates-ohlc-api
-- description: Bulk daily historical rates for a date range.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Bulk daily historical rates for a date range.
   name: Open Exchange Rates Time Series API
   slug: openexchangerates-time-series-api
-- description: Account plan and usage statistics.
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Account plan and usage statistics.
   name: Open Exchange Rates Usage API
   slug: openexchangerates-usage-api
-- description: Live and historical exchange rate data
+- baseURL: https://openexchangerates.org/api
+  baseurl_source: declared
+  description: Live and historical exchange rate data
   name: Open Exchange Rates Rates API
   slug: openexchangerates-rates-api
 artifact_total: 40
@@ -288,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/screenshots/openexchangerates-2026-08-07T190554.png
 security:

@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations related to calls
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to calls
   name: Quo Calls API
   slug: quo-calls-api
-- description: The Contact Custom Fields API from Quo — 1 operation(s) for contact custom fields.
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: The Contact Custom Fields API from Quo — 1 operation(s) for contact custom fields.
   name: Quo Contact Custom Fields API
   slug: quo-contact-custom-fields-api
-- description: Operations related to contacts
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to contacts
   name: Quo Contacts API
   slug: quo-contacts-api
-- description: Operations related to conversations
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to conversations
   name: Quo Conversations API
   slug: quo-conversations-api
-- description: Operations related to text messages
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to text messages
   name: Quo Messages API
   slug: quo-messages-api
-- description: Operations related to phone numbers
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to phone numbers
   name: Quo Phone Numbers API
   slug: quo-phone-numbers-api
-- description: The Tasks API from Quo — 10 operation(s) for tasks.
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: The Tasks API from Quo — 10 operation(s) for tasks.
   name: Quo Tasks API
   slug: quo-tasks-api
-- description: Operations related to users
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to users
   name: Quo Users API
   slug: quo-users-api
-- description: Operations related to webhooks
+- baseURL: https://api.quo.com
+  baseurl_source: declared
+  description: Operations related to webhooks
   name: Quo Webhooks API
   slug: quo-webhooks-api
 artifact_total: 24
@@ -212,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -222,7 +240,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     conformance: derived
     contracts:
@@ -245,7 +263,7 @@ score:
     regime_id: telecommunications
     score: 36.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quo/refs/heads/main/screenshots/quo-2026-08-17T081432.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: On-demand currency amount conversion.
+- baseURL: https://api.apilayer.com/fixer
+  baseurl_source: declared
+  description: On-demand currency amount conversion.
   name: Fixer Conversion API
   slug: fixer-conversion-api
-- description: Currency fluctuation analysis between two dates.
+- baseURL: https://api.apilayer.com/fixer
+  baseurl_source: declared
+  description: Currency fluctuation analysis between two dates.
   name: Fixer Fluctuation API
   slug: fixer-fluctuation-api
-- description: Real-time and historical foreign exchange rate operations.
+- baseURL: https://api.apilayer.com/fixer
+  baseurl_source: declared
+  description: Real-time and historical foreign exchange rate operations.
   name: Fixer Rates API
   slug: fixer-rates-api
-- description: Discovery of supported currency symbols.
+- baseURL: https://api.apilayer.com/fixer
+  baseurl_source: declared
+  description: Discovery of supported currency symbols.
   name: Fixer Symbols API
   slug: fixer-symbols-api
-- description: Daily historical rates between two dates.
+- baseURL: https://api.apilayer.com/fixer
+  baseurl_source: declared
+  description: Daily historical rates between two dates.
   name: Fixer Time Series API
   slug: fixer-time-series-api
 artifact_total: 69
@@ -358,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixer/refs/heads/main/screenshots/fixer-2026-06-20T181258.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 32 operations · 17 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Cashflow models composed from a fitted development model and tail model.
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Cashflow models composed from a fitted development model and tail model.
   name: Ledger Investing Cashflow Models API
   slug: ledger-investing-cashflow-models-api
-- description: Bayesian loss development models (ChainLadder, TraditionalChainLadder, ManualATA, MeyersCRC, GMCL).
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Bayesian loss development models (ChainLadder, TraditionalChainLadder, ManualATA, MeyersCRC, GMCL).
   name: Ledger Investing Development Models API
   slug: ledger-investing-development-models-api
-- description: Forecasting models (AR1, SSM, TraditionalGCC).
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Forecasting models (AR1, SSM, TraditionalGCC).
   name: Ledger Investing Forecast Models API
   slug: ledger-investing-forecast-models-api
-- description: Tail development models (GeneralizedBondy, Sherman, ClassicalPowerTransformTail).
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Tail development models (GeneralizedBondy, Sherman, ClassicalPowerTransformTail).
   name: Ledger Investing Tail Models API
   slug: ledger-investing-tail-models-api
-- description: Poll the status of asynchronous fit and predict tasks.
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Poll the status of asynchronous fit and predict tasks.
   name: Ledger Investing Tasks API
   slug: ledger-investing-tasks-api
-- description: Upload, list, retrieve and delete insurance loss triangles.
+- baseURL: https://api.korra.com/analytics/
+  baseurl_source: declared
+  description: Upload, list, retrieve and delete insurance loss triangles.
   name: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
 artifact_total: 19
@@ -294,7 +306,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:

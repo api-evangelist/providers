@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -52,10 +52,14 @@ apis:
 - description: Meta-linter and static analysis manager exposed through the trunk CLI and a local daemon (no public REST API). Commands include trunk init, trunk check, and trunk check --all; it hermetically installs
   name: Trunk Code Quality CLI
   slug: code-quality-cli
-- description: Query Flaky Tests state and link tickets.
+- baseURL: https://api.trunk.io/v1
+  baseurl_source: declared
+  description: Query Flaky Tests state and link tickets.
   name: Trunk Flaky Tests API
   slug: trunk-flaky-tests-api
-- description: Control the Trunk Merge Queue.
+- baseURL: https://api.trunk.io/v1
+  baseurl_source: declared
+  description: Control the Trunk Merge Queue.
   name: Trunk Merge Queue API
   slug: trunk-merge-queue-api
 artifact_total: 18
@@ -213,7 +217,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -223,7 +227,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 48.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,7 +239,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:

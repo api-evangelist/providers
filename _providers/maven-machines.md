@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,91 +36,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 21
 apis:
-- description: The bulk-shipments API from Maven Machines — 1 operation(s) for bulk-shipments.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The bulk-shipments API from Maven Machines — 1 operation(s) for bulk-shipments.
   name: Maven Machines Bulk Shipments API
   slug: maven-machines-bulk-shipments-api
-- description: The company-locations API from Maven Machines — 1 operation(s) for company-locations.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The company-locations API from Maven Machines — 1 operation(s) for company-locations.
   name: Maven Machines Company Locations API
   slug: maven-machines-company-locations-api
-- description: The Customers API from Maven Machines — 1 operation(s) for customers.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Customers API from Maven Machines — 1 operation(s) for customers.
   name: Maven Machines Customers API
   slug: maven-machines-customers-api
-- description: The Eld API from Maven Machines — 3 operation(s) for eld.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Eld API from Maven Machines — 3 operation(s) for eld.
   name: Maven Machines Eld API
   slug: maven-machines-eld-api
-- description: The Events API from Maven Machines — 1 operation(s) for events.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Events API from Maven Machines — 1 operation(s) for events.
   name: Maven Machines Events API
   slug: maven-machines-events-api
-- description: The forms API from Maven Machines — 2 operation(s) for forms.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The forms API from Maven Machines — 2 operation(s) for forms.
   name: Maven Machines Forms API
   slug: maven-machines-forms-api
-- description: The health API from Maven Machines — 1 operation(s) for health.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The health API from Maven Machines — 1 operation(s) for health.
   name: Maven Machines Health API
   slug: maven-machines-health-api
-- description: The Linehaul API from Maven Machines — 2 operation(s) for linehaul.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Linehaul API from Maven Machines — 2 operation(s) for linehaul.
   name: Maven Machines Linehaul API
   slug: maven-machines-linehaul-api
-- description: The Locations API from Maven Machines — 2 operation(s) for locations.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Locations API from Maven Machines — 2 operation(s) for locations.
   name: Maven Machines Locations API
   slug: maven-machines-locations-api
-- description: The ManifestNumber API from Maven Machines — 1 operation(s) for manifestnumber.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The ManifestNumber API from Maven Machines — 1 operation(s) for manifestnumber.
   name: Maven Machines Manifest Number API
   slug: maven-machines-manifestnumber-api
-- description: The manifests API from Maven Machines — 5 operation(s) for manifests.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The manifests API from Maven Machines — 5 operation(s) for manifests.
   name: Maven Machines Manifests API
   slug: maven-machines-manifests-api
-- description: The marketapps API from Maven Machines — 1 operation(s) for marketapps.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The marketapps API from Maven Machines — 1 operation(s) for marketapps.
   name: Maven Machines Marketapps API
   slug: maven-machines-marketapps-api
-- description: The messages API from Maven Machines — 1 operation(s) for messages.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The messages API from Maven Machines — 1 operation(s) for messages.
   name: Maven Machines Messages API
   slug: maven-machines-messages-api
-- description: The orders API from Maven Machines — 3 operation(s) for orders.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The orders API from Maven Machines — 3 operation(s) for orders.
   name: Maven Machines Orders API
   slug: maven-machines-orders-api
-- description: The PickupRequests API from Maven Machines — 1 operation(s) for pickuprequests.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The PickupRequests API from Maven Machines — 1 operation(s) for pickuprequests.
   name: Maven Machines Pickup Requests API
   slug: maven-machines-pickuprequests-api
-- description: The product-eligibility API from Maven Machines — 1 operation(s) for product-eligibility.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The product-eligibility API from Maven Machines — 1 operation(s) for product-eligibility.
   name: Maven Machines Product Eligibility API
   slug: maven-machines-product-eligibility-api
-- description: The reddy-ice API from Maven Machines — 1 operation(s) for reddy-ice.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The reddy-ice API from Maven Machines — 1 operation(s) for reddy-ice.
   name: Maven Machines Reddy Ice API
   slug: maven-machines-reddy-ice-api
-- description: The reports API from Maven Machines — 1 operation(s) for reports.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The reports API from Maven Machines — 1 operation(s) for reports.
   name: Maven Machines Reports API
   slug: maven-machines-reports-api
-- description: The Return Events API from Maven Machines — 1 operation(s) for return events.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Return Events API from Maven Machines — 1 operation(s) for return events.
   name: Maven Machines Return Events API
   slug: maven-machines-return-events-api
-- description: The routeplans API from Maven Machines — 1 operation(s) for routeplans.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The routeplans API from Maven Machines — 1 operation(s) for routeplans.
   name: Maven Machines Routeplans API
   slug: maven-machines-routeplans-api
-- description: The servicetechs API from Maven Machines — 3 operation(s) for servicetechs.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The servicetechs API from Maven Machines — 3 operation(s) for servicetechs.
   name: Maven Machines Servicetechs API
   slug: maven-machines-servicetechs-api
-- description: The shipment API from Maven Machines — 3 operation(s) for shipment.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The shipment API from Maven Machines — 3 operation(s) for shipment.
   name: Maven Machines Shipment API
   slug: maven-machines-shipment-api
-- description: The shipment-locations API from Maven Machines — 1 operation(s) for shipment-locations.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The shipment-locations API from Maven Machines — 1 operation(s) for shipment-locations.
   name: Maven Machines Shipment Locations API
   slug: maven-machines-shipment-locations-api
-- description: The smart API from Maven Machines — 2 operation(s) for smart.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The smart API from Maven Machines — 2 operation(s) for smart.
   name: Maven Machines Smart API
   slug: maven-machines-smart-api
-- description: The Trailers API from Maven Machines — 3 operation(s) for trailers.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Trailers API from Maven Machines — 3 operation(s) for trailers.
   name: Maven Machines Trailers API
   slug: maven-machines-trailers-api
-- description: The truckload API from Maven Machines — 3 operation(s) for truckload.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The truckload API from Maven Machines — 3 operation(s) for truckload.
   name: Maven Machines Truckload API
   slug: maven-machines-truckload-api
-- description: The users API from Maven Machines — 1 operation(s) for users.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The users API from Maven Machines — 1 operation(s) for users.
   name: Maven Machines Users API
   slug: maven-machines-users-api
-- description: The Vehicles API from Maven Machines — 3 operation(s) for vehicles.
+- baseURL: https://integrations.mavenmachines.com
+  baseurl_source: declared
+  description: The Vehicles API from Maven Machines — 3 operation(s) for vehicles.
   name: Maven Machines Vehicles API
   slug: maven-machines-vehicles-api
 artifact_total: 34
@@ -275,23 +344,23 @@ rate_limits:
   slug: maven-machines-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 41.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 64.3
+    contract_quality: 65.0
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 41.4
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +371,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/screenshots/maven-machines-2026-09-02T150440.png
 security:
 - kind: authentication
   name: Maven Machines Authentication

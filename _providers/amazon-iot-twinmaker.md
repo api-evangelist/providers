@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 34 operations · 28 acting
 api_count: 1
 apis:
-- description: The Pricingplan API from Amazon IoT TwinMaker — 1 operation(s) for pricingplan.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Pricingplan API from Amazon IoT TwinMaker — 1 operation(s) for pricingplan.
   name: Amazon IoT TwinMaker Pricingplan API
   slug: amazon-iot-twinmaker-pricingplan-api
-- description: The Queries API from Amazon IoT TwinMaker — 1 operation(s) for queries.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Queries API from Amazon IoT TwinMaker — 1 operation(s) for queries.
   name: Amazon IoT TwinMaker Queries API
   slug: amazon-iot-twinmaker-queries-api
-- description: The Sync Jobs API from Amazon IoT TwinMaker — 1 operation(s) for sync jobs.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Sync Jobs API from Amazon IoT TwinMaker — 1 operation(s) for sync jobs.
   name: Amazon IoT TwinMaker Sync Jobs API
   slug: amazon-iot-twinmaker-sync-jobs-api
-- description: The Tags API from Amazon IoT TwinMaker — 1 operation(s) for tags.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IoT TwinMaker — 1 operation(s) for tags.
   name: Amazon IoT TwinMaker Tags API
   slug: amazon-iot-twinmaker-tags-api
-- description: The Tags List API from Amazon IoT TwinMaker — 1 operation(s) for tags list.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Tags List API from Amazon IoT TwinMaker — 1 operation(s) for tags list.
   name: Amazon IoT TwinMaker Tags List API
   slug: amazon-iot-twinmaker-tags-list-api
-- description: The Tags#resourceARN&tagKeys API from Amazon IoT TwinMaker — 1 operation(s) for tags#resourcearn&tagkeys.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceARN&tagKeys API from Amazon IoT TwinMaker — 1 operation(s) for tags#resourcearn&tagkeys.
   name: Amazon IoT TwinMaker Tags#resourceARN&tagKeys API
   slug: amazon-iot-twinmaker-tags-resourcearn-tagkeys-api
-- description: The Workspaces API from Amazon IoT TwinMaker — 15 operation(s) for workspaces.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Workspaces API from Amazon IoT TwinMaker — 15 operation(s) for workspaces.
   name: Amazon IoT TwinMaker Workspaces API
   slug: amazon-iot-twinmaker-workspaces-api
-- description: The Workspaces List API from Amazon IoT TwinMaker — 1 operation(s) for workspaces list.
+- baseURL: https://iottwinmaker.amazonaws.com
+  baseurl_source: declared
+  description: The Workspaces List API from Amazon IoT TwinMaker — 1 operation(s) for workspaces list.
   name: Amazon IoT TwinMaker Workspaces List API
   slug: amazon-iot-twinmaker-workspaces-list-api
 artifact_total: 590
@@ -1945,7 +1961,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/screenshots/amazon-iot-twinmaker-2026-06-20T171712.png
 security:

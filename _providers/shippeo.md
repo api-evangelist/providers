@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
-- description: Retrieve predictive ETAs, statuses, and milestone events (Events-out, pull).
+- baseURL: https://api.shippeo.com
+  baseurl_source: declared
+  description: Retrieve predictive ETAs, statuses, and milestone events (Events-out, pull).
   name: Shippeo ETA and Status API
   slug: shippeo-eta-and-status-api
-- description: Manage webhook subscriptions for real-time Events-out notifications.
+- baseURL: https://api.shippeo.com
+  baseurl_source: declared
+  description: Manage webhook subscriptions for real-time Events-out notifications.
   name: Shippeo Event Subscriptions API
   slug: shippeo-event-subscriptions-api
-- description: Feed and retrieve geolocation positions for tracked transports.
+- baseURL: https://api.shippeo.com
+  baseurl_source: declared
+  description: Feed and retrieve geolocation positions for tracked transports.
   name: Shippeo Positions API
   slug: shippeo-positions-api
-- description: Submit and manage transport orders (tours) for real-time tracking.
+- baseURL: https://api.shippeo.com
+  baseurl_source: declared
+  description: Submit and manage transport orders (tours) for real-time tracking.
   name: Shippeo Transport Orders API
   slug: shippeo-transport-orders-api
 artifact_total: 16
@@ -154,7 +162,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +185,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shippeo/refs/heads/main/screenshots/shippeo-2026-09-02T155227.png
 security:
 - kind: authentication
   name: Shippeo Authentication

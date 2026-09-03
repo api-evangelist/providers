@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 26 operations · 14 acting
 api_count: 1
 apis:
-- description: Query historical imagery and retrieve matching search results.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Query historical imagery and retrieve matching search results.
   name: SkyWatch Archive Search API
   slug: skywatch-archive-search-api
-- description: Estimate the cost of locations, intervals, and pipelines.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Estimate the cost of locations, intervals, and pipelines.
   name: SkyWatch Cost Estimation API
   slug: skywatch-cost-estimation-api
-- description: Results and delivery URLs produced by pipeline intervals.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Results and delivery URLs produced by pipeline intervals.
   name: SkyWatch Interval Results API
   slug: skywatch-interval-results-api
-- description: Reusable server-side areas of interest from KML or GeoJSON.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Reusable server-side areas of interest from KML or GeoJSON.
   name: SkyWatch Locations API
   slug: skywatch-locations-api
-- description: Reusable output configurations - format, bands, and mosaicking.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Reusable output configurations - format, bands, and mosaicking.
   name: SkyWatch Outputs API
   slug: skywatch-outputs-api
-- description: Standing orders that monitor an AOI and deliver imagery on a schedule.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Standing orders that monitor an AOI and deliver imagery on a schedule.
   name: SkyWatch Pipelines API
   slug: skywatch-pipelines-api
-- description: Callback-based subscriptions to EarthCache platform events.
+- baseURL: https://api.skywatch.co/earthcache
+  baseurl_source: declared
+  description: Callback-based subscriptions to EarthCache platform events.
   name: SkyWatch Subscriptions API
   slug: skywatch-subscriptions-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skywatch/refs/heads/main/screenshots/skywatch-2026-09-02T155822.png
 security:
 - kind: authentication
   name: Skywatch Authentication

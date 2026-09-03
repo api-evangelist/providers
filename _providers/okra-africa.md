@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 30 operations · 30 acting
 api_count: 1
 apis:
-- description: Bank accounts a customer has linked.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Bank accounts a customer has linked.
   name: Okra Accounts API
   slug: okra-africa-accounts-api
-- description: Authentication data for linked bank accounts.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Authentication data for linked bank accounts.
   name: Okra Auth API
   slug: okra-africa-auth-api
-- description: Real-time and cached account balances.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Real-time and cached account balances.
   name: Okra Balance API
   slug: okra-africa-balance-api
-- description: Reference list of connectable banks.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Reference list of connectable banks.
   name: Okra Banks API
   slug: okra-africa-banks-api
-- description: End-user (customer) management.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: End-user (customer) management.
   name: Okra Customers API
   slug: okra-africa-customers-api
-- description: Verified identity profiles.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Verified identity profiles.
   name: Okra Identity API
   slug: okra-africa-identity-api
-- description: Income and affordability signals.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Income and affordability signals.
   name: Okra Income API
   slug: okra-africa-income-api
-- description: Bank-to-bank payments and direct-debit authorizations.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Bank-to-bank payments and direct-debit authorizations.
   name: Okra Payments API
   slug: okra-africa-payments-api
-- description: Scheduled financial reports.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Scheduled financial reports.
   name: Okra Reports API
   slug: okra-africa-reports-api
-- description: Categorized transaction history.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Categorized transaction history.
   name: Okra Transactions API
   slug: okra-africa-transactions-api
-- description: Nigerian KYC checks (BVN, NUBAN, TIN, RC).
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Nigerian KYC checks (BVN, NUBAN, TIN, RC).
   name: Okra Verification API
   slug: okra-africa-verification-api
-- description: Billing wallet used to fund API usage.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Billing wallet used to fund API usage.
   name: Okra Wallet API
   slug: okra-africa-wallet-api
 artifact_total: 32
@@ -223,7 +247,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/screenshots/okra-africa-2026-08-07T190057.png
 security:

@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Key/secret exchange for bearer tokens and drone access discovery
+- baseURL: https://developer-mission.saildrone.com
+  baseurl_source: spec
+  description: Key/secret exchange for bearer tokens and drone access discovery
   name: Saildrone Authentication API
   slug: saildrone-authentication-api
-- description: Service health check
+- baseURL: https://developer-mission.saildrone.com
+  baseurl_source: spec
+  description: Service health check
   name: Saildrone Health API
   slug: saildrone-health-api
-- description: Mission time-series data across vehicle, atmospheric, oceanographic, and biogeochemical datasets
+- baseURL: https://developer-mission.saildrone.com
+  baseurl_source: spec
+  description: Mission time-series data across vehicle, atmospheric, oceanographic, and biogeochemical datasets
   name: Saildrone Time Series API
   slug: saildrone-time-series-api
 artifact_total: 19
@@ -271,7 +277,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -44,97 +44,159 @@ agentic_access:
   summary_line: 31 operations · 31 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addappli'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addappli'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationcloudwatchloggingoption-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinput.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinput.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.add'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.add'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationinputprocessingconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationoutput.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationoutput.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationoutput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicati'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicati'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationreferencedatasource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationv'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationv'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-addapplicationvpcconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.CreateApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicatio'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicatio'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationpresignedurl-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationsna'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationsna'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-createapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.delet'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.delet'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationcloudwatchloggingoption-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationinputprocessingconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationoutpu'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationoutpu'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationoutput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapp'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapp'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationreferencedatasource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationsna'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationsna'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplic'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplic'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-deleteapplicationvpcconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicatio'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicatio'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-describeapplicationversion-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.discoverinputschema.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.discoverinputschema.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-discoverinputschema-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplications API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplications.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplications API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplications.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.ListApplications API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplications-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationsnapsh'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationsnapsh'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationsnapshots-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationversion'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationversion'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listapplicationversions-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listtagsforresource.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listtagsforresource.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-listtagsforresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.rollbackapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.rollbackapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-rollbackapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.StartApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.startapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.StartApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.startapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.StartApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-startapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.StopApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.stopapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.StopApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.stopapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.StopApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-stopapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.TagResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.tagresource.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.TagResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.tagresource.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.TagResource API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-tagresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UntagResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.untagresource.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UntagResource API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.untagresource.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.UntagResource API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-untagresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplication.'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplication.'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.upda'
+- baseURL: https://kinesisanalytics.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from Amazon Managed Service for Apache Flink — 1 operation(s) for #x amz target=kinesisanalytics 20180523.upda'
   name: 'Amazon Managed Service for Apache Flink #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: amazon-managed-apache-flink-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 artifact_total: 1009
@@ -3187,7 +3249,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/screenshots/amazon-managed-apache-flink-2026-06-20T171732.png
 security:

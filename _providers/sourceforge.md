@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 12 acting
 api_count: 1
 apis:
-- description: Administrative operations including exports, tool installation, and webhooks
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Administrative operations including exports, tool installation, and webhooks
   name: SourceForge Admin API
   slug: sourceforge-admin-api
-- description: Project blog post management
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Project blog post management
   name: SourceForge Blog API
   slug: sourceforge-blog-api
-- description: Forum and discussion thread management
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Forum and discussion thread management
   name: SourceForge Discussion API
   slug: sourceforge-discussion-api
-- description: Project creation, retrieval, and permission management
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Project creation, retrieval, and permission management
   name: SourceForge Projects API
   slug: sourceforge-projects-api
-- description: Issue and ticket tracking
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Issue and ticket tracking
   name: SourceForge Tracker API
   slug: sourceforge-tracker-api
-- description: User profile and authentication
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: User profile and authentication
   name: SourceForge Users API
   slug: sourceforge-users-api
-- description: Project wiki page management
+- baseURL: https://sourceforge.net
+  baseurl_source: declared
+  description: Project wiki page management
   name: SourceForge Wikis API
   slug: sourceforge-wikis-api
 artifact_total: 37
@@ -285,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/screenshots/sourceforge-2026-06-20T194221.png
 security:

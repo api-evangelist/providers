@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 50 operations · 24 acting
 api_count: 1
 apis:
-- description: The Clouds API from Aikido Security — 7 operation(s) for clouds.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Clouds API from Aikido Security — 7 operation(s) for clouds.
   name: Aikido Security Clouds API
   slug: aikido-security-clouds-api
-- description: The Code Repositories API from Aikido Security — 4 operation(s) for code repositories.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Code Repositories API from Aikido Security — 4 operation(s) for code repositories.
   name: Aikido Security Code Repositories API
   slug: aikido-security-code-repositories-api
-- description: The Compliance API from Aikido Security — 5 operation(s) for compliance.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Compliance API from Aikido Security — 5 operation(s) for compliance.
   name: Aikido Security Compliance API
   slug: aikido-security-compliance-api
-- description: The Containers API from Aikido Security — 3 operation(s) for containers.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Containers API from Aikido Security — 3 operation(s) for containers.
   name: Aikido Security Containers API
   slug: aikido-security-containers-api
-- description: The Custom Rules API from Aikido Security — 2 operation(s) for custom rules.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Custom Rules API from Aikido Security — 2 operation(s) for custom rules.
   name: Aikido Security Custom Rules API
   slug: aikido-security-custom-rules-api
-- description: The Domains API from Aikido Security — 3 operation(s) for domains.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Domains API from Aikido Security — 3 operation(s) for domains.
   name: Aikido Security Domains API
   slug: aikido-security-domains-api
-- description: The Issues API from Aikido Security — 6 operation(s) for issues.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Issues API from Aikido Security — 6 operation(s) for issues.
   name: Aikido Security Issues API
   slug: aikido-security-issues-api
-- description: The Teams API from Aikido Security — 2 operation(s) for teams.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Teams API from Aikido Security — 2 operation(s) for teams.
   name: Aikido Security Teams API
   slug: aikido-security-teams-api
-- description: The Users API from Aikido Security — 2 operation(s) for users.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Users API from Aikido Security — 2 operation(s) for users.
   name: Aikido Security Users API
   slug: aikido-security-users-api
-- description: The Webhooks API from Aikido Security — 2 operation(s) for webhooks.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Webhooks API from Aikido Security — 2 operation(s) for webhooks.
   name: Aikido Security Webhooks API
   slug: aikido-security-webhooks-api
-- description: The Workspace API from Aikido Security — 2 operation(s) for workspace.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Workspace API from Aikido Security — 2 operation(s) for workspace.
   name: Aikido Security Workspace API
   slug: aikido-security-workspace-api
-- description: The Zen API from Aikido Security — 2 operation(s) for zen.
+- baseURL: https://app.aikido.dev/api/public/v1
+  baseurl_source: spec
+  description: The Zen API from Aikido Security — 2 operation(s) for zen.
   name: Aikido Security Zen API
   slug: aikido-security-zen-api
 artifact_total: 34
@@ -253,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/screenshots/aikido-security-2026-06-20T170912.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 50 operations · 36 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Bridges API from Amazon MediaConnect — 7 operation(s) for bridges.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Bridges API from Amazon MediaConnect — 7 operation(s) for bridges.
   name: Amazon MediaConnect Bridges API
   slug: amazon-mediaconnect-bridges-api
-- description: The Entitlements API from Amazon MediaConnect — 1 operation(s) for entitlements.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Entitlements API from Amazon MediaConnect — 1 operation(s) for entitlements.
   name: Amazon MediaConnect Entitlements API
   slug: amazon-mediaconnect-entitlements-api
-- description: The Flows API from Amazon MediaConnect — 14 operation(s) for flows.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Flows API from Amazon MediaConnect — 14 operation(s) for flows.
   name: Amazon MediaConnect Flows API
   slug: amazon-mediaconnect-flows-api
-- description: The Gateway Instances API from Amazon MediaConnect — 2 operation(s) for gateway instances.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Gateway Instances API from Amazon MediaConnect — 2 operation(s) for gateway instances.
   name: Amazon MediaConnect Gateway Instances API
   slug: amazon-mediaconnect-gateway-instances-api
-- description: The Gateways API from Amazon MediaConnect — 2 operation(s) for gateways.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Gateways API from Amazon MediaConnect — 2 operation(s) for gateways.
   name: Amazon MediaConnect Gateways API
   slug: amazon-mediaconnect-gateways-api
-- description: The Offerings API from Amazon MediaConnect — 2 operation(s) for offerings.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Offerings API from Amazon MediaConnect — 2 operation(s) for offerings.
   name: Amazon MediaConnect Offerings API
   slug: amazon-mediaconnect-offerings-api
-- description: The Reservations API from Amazon MediaConnect — 2 operation(s) for reservations.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Reservations API from Amazon MediaConnect — 2 operation(s) for reservations.
   name: Amazon MediaConnect Reservations API
   slug: amazon-mediaconnect-reservations-api
-- description: The Tags API from Amazon MediaConnect — 2 operation(s) for tags.
+- baseURL: https://mediaconnect.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MediaConnect — 2 operation(s) for tags.
   name: Amazon MediaConnect Tags API
   slug: amazon-mediaconnect-tags-api
 artifact_total: 743
@@ -2390,7 +2406,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/screenshots/amazon-mediaconnect-2026-06-20T171739.png
 security:

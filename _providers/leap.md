@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: The create meters API from Leap — 4 operation(s) for create meters.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The create meters API from Leap — 4 operation(s) for create meters.
   name: Leap create meters API
   slug: leap-create-meters-api
-- description: Endpoints for group dispatches
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: Endpoints for group dispatches
   name: Leap group-dispatches API
   slug: leap-group-dispatches-api
-- description: The Meter Details API from Leap — 2 operation(s) for meter details.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The Meter Details API from Leap — 2 operation(s) for meter details.
   name: Leap Meter Details API
   slug: leap-meter-details-api
-- description: Endpoints for meter dispatches
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: Endpoints for meter dispatches
   name: Leap meter-dispatches API
   slug: leap-meter-dispatches-api
-- description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
   name: Leap meter enrollment API
   slug: leap-meter-enrollment-api
-- description: The nominations API from Leap — 5 operation(s) for nominations.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The nominations API from Leap — 5 operation(s) for nominations.
   name: Leap nominations API
   slug: leap-nominations-api
-- description: The performance API from Leap — 1 operation(s) for performance.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The performance API from Leap — 1 operation(s) for performance.
   name: Leap performance API
   slug: leap-performance-api
-- description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
   name: Leap provisional assets API
   slug: leap-provisional-assets-api
-- description: The revenue API from Leap — 8 operation(s) for revenue.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The revenue API from Leap — 8 operation(s) for revenue.
   name: Leap revenue API
   slug: leap-revenue-api
-- description: The webhooks API from Leap — 3 operation(s) for webhooks.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The webhooks API from Leap — 3 operation(s) for webhooks.
   name: Leap webhooks API
   slug: leap-webhooks-api
 artifact_total: 25
@@ -282,7 +302,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -292,7 +312,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.4
+  previous_composite: 45.2
   provenance:
     conformance: derived
     contracts:
@@ -309,7 +329,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:

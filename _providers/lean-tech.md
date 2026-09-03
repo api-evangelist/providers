@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 51 operations · 14 acting
 api_count: 11
 apis:
-- description: The Account on File API from Lean Technologies — 1 operation(s) for account on file.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Account on File API from Lean Technologies — 1 operation(s) for account on file.
   name: Lean Technologies Account on File API
   slug: lean-tech-account-on-file-api
-- description: The Account Verification API from Lean Technologies — 1 operation(s) for account verification.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Account Verification API from Lean Technologies — 1 operation(s) for account verification.
   name: Lean Technologies Account Verification API
   slug: lean-tech-account-verification-api
-- description: The Accounts API from Lean Technologies — 5 operation(s) for accounts.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Accounts API from Lean Technologies — 5 operation(s) for accounts.
   name: Lean Technologies Accounts API
   slug: lean-tech-accounts-api
-- description: OAuth 2.0 client-credentials token issuance
+- baseURL: https://auth.leantech.me
+  baseurl_source: spec
+  description: OAuth 2.0 client-credentials token issuance
   name: Lean Technologies Authentication API
   slug: lean-tech-authentication-api
-- description: The Balances API from Lean Technologies — 1 operation(s) for balances.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Balances API from Lean Technologies — 1 operation(s) for balances.
   name: Lean Technologies Balances API
   slug: lean-tech-balances-api
-- description: The Banks API from Lean Technologies — 1 operation(s) for banks.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Banks API from Lean Technologies — 1 operation(s) for banks.
   name: Lean Technologies Banks API
   slug: lean-tech-banks-api
-- description: The Consents API from Lean Technologies — 5 operation(s) for consents.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Consents API from Lean Technologies — 5 operation(s) for consents.
   name: Lean Technologies Consents API
   slug: lean-tech-consents-api
-- description: The Customers API from Lean Technologies — 3 operation(s) for customers.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Customers API from Lean Technologies — 3 operation(s) for customers.
   name: Lean Technologies Customers API
   slug: lean-tech-customers-api
-- description: The Entities API from Lean Technologies — 3 operation(s) for entities.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Entities API from Lean Technologies — 3 operation(s) for entities.
   name: Lean Technologies Entities API
   slug: lean-tech-entities-api
-- description: The Identity API from Lean Technologies — 2 operation(s) for identity.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Identity API from Lean Technologies — 2 operation(s) for identity.
   name: Lean Technologies Identity API
   slug: lean-tech-identity-api
-- description: The Insights API from Lean Technologies — 3 operation(s) for insights.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Insights API from Lean Technologies — 3 operation(s) for insights.
   name: Lean Technologies Insights API
   slug: lean-tech-insights-api
-- description: The Name Verification API from Lean Technologies — 1 operation(s) for name verification.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Name Verification API from Lean Technologies — 1 operation(s) for name verification.
   name: Lean Technologies Name Verification API
   slug: lean-tech-name-verification-api
-- description: The Payment Intents API from Lean Technologies — 3 operation(s) for payment intents.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Payment Intents API from Lean Technologies — 3 operation(s) for payment intents.
   name: Lean Technologies Payment Intents API
   slug: lean-tech-payment-intents-api
-- description: The Payment Sources API from Lean Technologies — 2 operation(s) for payment sources.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Payment Sources API from Lean Technologies — 2 operation(s) for payment sources.
   name: Lean Technologies Payment Sources API
   slug: lean-tech-payment-sources-api
-- description: The Payout Destinations API from Lean Technologies — 2 operation(s) for payout destinations.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Payout Destinations API from Lean Technologies — 2 operation(s) for payout destinations.
   name: Lean Technologies Payout Destinations API
   slug: lean-tech-payout-destinations-api
-- description: The Payouts API from Lean Technologies — 5 operation(s) for payouts.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Payouts API from Lean Technologies — 5 operation(s) for payouts.
   name: Lean Technologies Payouts API
   slug: lean-tech-payouts-api
-- description: The Refreshes API from Lean Technologies — 2 operation(s) for refreshes.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Refreshes API from Lean Technologies — 2 operation(s) for refreshes.
   name: Lean Technologies Refreshes API
   slug: lean-tech-refreshes-api
-- description: The Refunds API from Lean Technologies — 2 operation(s) for refunds.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Refunds API from Lean Technologies — 2 operation(s) for refunds.
   name: Lean Technologies Refunds API
   slug: lean-tech-refunds-api
-- description: The Transactions API from Lean Technologies — 1 operation(s) for transactions.
+- baseURL: https://api2.leantech.me
+  baseurl_source: spec
+  description: The Transactions API from Lean Technologies — 1 operation(s) for transactions.
   name: Lean Technologies Transactions API
   slug: lean-tech-transactions-api
 artifact_total: 87
@@ -473,7 +511,7 @@ score:
     regime_id: banking_open_finance
     score: 35.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 80 operations · 54 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Create, update, and search the companies your team tracks in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 8 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Create, update, and search the companies your team tracks in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 8 operation(s).
   name: Apollo API Accounts
   slug: apollo-api-documentation-accounts-api
-- description: Query saved analytics reports. Harvested from the Apollo-published OpenAPI 3.1 specification — 1 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Query saved analytics reports. Harvested from the Apollo-published OpenAPI 3.1 specification — 1 operation(s).
   name: Apollo API Analytics
   slug: apollo-api-documentation-analytics-api
-- description: Log and update call records made inside or outside Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 3 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Log and update call records made inside or outside Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 3 operation(s).
   name: Apollo API Calls
   slug: apollo-api-documentation-calls-api
-- description: Create, update, and search the people your team saves in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 10 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Create, update, and search the people your team saves in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 10 operation(s).
   name: Apollo API Contacts
   slug: apollo-api-documentation-contacts-api
-- description: Search, export, and retrieve recorded conversations. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Search, export, and retrieve recorded conversations. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
   name: Apollo API Conversations
   slug: apollo-api-documentation-conversations-api
-- description: Create, update, and track deals in your pipeline. Harvested from the Apollo-published OpenAPI 3.1 specification — 5 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Create, update, and track deals in your pipeline. Harvested from the Apollo-published OpenAPI 3.1 specification — 5 operation(s).
   name: Apollo API Deals
   slug: apollo-api-documentation-deals-api
-- description: The Emailer Messages surface of the Apollo API. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: The Emailer Messages surface of the Apollo API. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
   name: Apollo API Emailer Messages
   slug: apollo-api-documentation-emailer-messages-api
-- description: Enrich people and company records, individually or in bulk. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Enrich people and company records, individually or in bulk. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
   name: Apollo API Enrichment
   slug: apollo-api-documentation-enrichment-api
-- description: List, create, and update the fields and custom fields in your Apollo account. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: List, create, and update the fields and custom fields in your Apollo account. Harvested from the Apollo-published OpenAPI 3.1 specification — 4 operation(s).
   name: Apollo API Fields
   slug: apollo-api-documentation-fields-api
-- description: Users, email accounts, lists, notes, usage stats, and webhook results. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Users, email accounts, lists, notes, usage stats, and webhook results. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
   name: Apollo API Miscellaneous
   slug: apollo-api-documentation-miscellaneous-api
-- description: Search Apollo's database of people, companies, news articles, and job postings. Harvested from the Apollo-published OpenAPI 3.1 specification — 6 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Search Apollo's database of people, companies, news articles, and job postings. Harvested from the Apollo-published OpenAPI 3.1 specification — 6 operation(s).
   name: Apollo API Search
   slug: apollo-api-documentation-search-api
-- description: Manage outreach sequences and the contacts enrolled in them. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Manage outreach sequences and the contacts enrolled in them. Harvested from the Apollo-published OpenAPI 3.1 specification — 12 operation(s).
   name: Apollo API Sequences
   slug: apollo-api-documentation-sequences-api
-- description: Create and search tasks for your go-to-market workflows. Harvested from the Apollo-published OpenAPI 3.1 specification — 7 operation(s).
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Create and search tasks for your go-to-market workflows. Harvested from the Apollo-published OpenAPI 3.1 specification — 7 operation(s).
   name: Apollo API Tasks
   slug: apollo-api-documentation-tasks-api
 - description: Apollo's hosted remote Model Context Protocol server. Streamable HTTP transport at https://mcp.apollo.io/mcp, OAuth 2.0 authorization with dynamic client registration, exposing Apollo search, enrichme
@@ -384,7 +410,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -394,7 +420,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 59.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +432,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:

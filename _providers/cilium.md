@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -52,28 +52,44 @@ apis:
 - description: 'The Hubble Relay API is a gRPC service that aggregates and relays network flow data from multiple Hubble agents running across Kubernetes cluster nodes. It provides a single cluster-wide endpoint for '
   name: Hubble Relay API
   slug: hubble-relay-api
-- description: BGP control plane peers, routes, and route policies
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: BGP control plane peers, routes, and route policies
   name: Cilium BGP API
   slug: cilium-bgp-api
-- description: Cilium daemon configuration, health, and cluster management
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: Cilium daemon configuration, health, and cluster management
   name: Cilium Daemon API
   slug: cilium-daemon-api
-- description: Endpoint lifecycle management, configuration, and status
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: Endpoint lifecycle management, configuration, and status
   name: Cilium Endpoint API
   slug: cilium-endpoint-api
-- description: IP address management and allocation
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: IP address management and allocation
   name: Cilium IPAM API
   slug: cilium-ipam-api
-- description: The Lrp API from Cilium — 1 operation(s) for lrp.
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: The Lrp API from Cilium — 1 operation(s) for lrp.
   name: Cilium Lrp API
   slug: cilium-lrp-api
-- description: Network policy, security identities, and FQDN/DNS policy
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: Network policy, security identities, and FQDN/DNS policy
   name: Cilium Policy API
   slug: cilium-policy-api
-- description: XDP prefilter CIDR management
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: XDP prefilter CIDR management
   name: Cilium Prefilter API
   slug: cilium-prefilter-api
-- description: The Service API from Cilium — 2 operation(s) for service.
+- baseURL: https://localhost/v1
+  baseurl_source: declared
+  description: The Service API from Cilium — 2 operation(s) for service.
   name: Cilium Service API
   slug: cilium-service-api
 artifact_total: 31
@@ -292,7 +308,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -305,7 +321,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 43.3
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -314,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/screenshots/cilium-2026-06-20T174342.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -33,34 +45,54 @@ agentic_access:
   summary_line: 21 operations · 13 acting
 api_count: 1
 apis:
-- description: The Health API from Agora Data — 1 operation(s) for health.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Health API from Agora Data — 1 operation(s) for health.
   name: Agora Data Health API
   slug: agora-data-health-api
-- description: The Hooks API from Agora Data — 2 operation(s) for hooks.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Hooks API from Agora Data — 2 operation(s) for hooks.
   name: Agora Data Hooks API
   slug: agora-data-hooks-api
-- description: The Import API from Agora Data — 7 operation(s) for import.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Import API from Agora Data — 7 operation(s) for import.
   name: Agora Data Import API
   slug: agora-data-import-api
-- description: The Inventory API from Agora Data — 1 operation(s) for inventory.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Inventory API from Agora Data — 1 operation(s) for inventory.
   name: Agora Data Inventory API
   slug: agora-data-inventory-api
-- description: The Loans API from Agora Data — 3 operation(s) for loans.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Loans API from Agora Data — 3 operation(s) for loans.
   name: Agora Data Loans API
   slug: agora-data-loans-api
-- description: The Login API from Agora Data — 1 operation(s) for login.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Login API from Agora Data — 1 operation(s) for login.
   name: Agora Data Login API
   slug: agora-data-login-api
-- description: The Oauth API from Agora Data — 2 operation(s) for oauth.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Oauth API from Agora Data — 2 operation(s) for oauth.
   name: Agora Data OAUTH API
   slug: agora-data-oauth-api
-- description: The Providers API from Agora Data — 2 operation(s) for providers.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Providers API from Agora Data — 2 operation(s) for providers.
   name: Agora Data Providers API
   slug: agora-data-providers-api
-- description: The Status API from Agora Data — 1 operation(s) for status.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Status API from Agora Data — 1 operation(s) for status.
   name: Agora Data Status API
   slug: agora-data-status-api
-- description: The Uploads API from Agora Data — 1 operation(s) for uploads.
+- baseURL: https://api.agoradata.com
+  baseurl_source: declared
+  description: The Uploads API from Agora Data — 1 operation(s) for uploads.
   name: Agora Data Uploads API
   slug: agora-data-uploads-api
 artifact_total: 28
@@ -259,7 +291,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -269,7 +301,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/screenshots/agora-data-2026-08-07T161038.png
 security:

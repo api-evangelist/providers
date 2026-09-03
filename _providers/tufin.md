@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,37 +53,59 @@ apis:
 - description: REST API for Tufin SecureCloud, the cloud-native security policy management platform. Provides endpoints for managing cloud accounts, applications, assets, Kubernetes clusters, and security policies a
   name: Tufin SecureCloud API
   slug: tufin-securecloud-api
-- description: Policy compliance and risk analysis
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Policy compliance and risk analysis
   name: Tufin Compliance API
   slug: tufin-compliance-api
-- description: Manage network devices and firewalls
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Manage network devices and firewalls
   name: Tufin Devices API
   slug: tufin-devices-api
-- description: Network objects, services, and address groups
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Network objects, services, and address groups
   name: Tufin Objects API
   slug: tufin-objects-api
-- description: Device policy revisions and change history
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Device policy revisions and change history
   name: Tufin Revisions API
   slug: tufin-revisions-api
-- description: Query and manage firewall rules and policies
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Query and manage firewall rules and policies
   name: Tufin Rules API
   slug: tufin-rules-api
-- description: Workflow tasks and approvals
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Workflow tasks and approvals
   name: Tufin Tasks API
   slug: tufin-tasks-api
-- description: Create and manage security change tickets
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Create and manage security change tickets
   name: Tufin Tickets API
   slug: tufin-tickets-api
-- description: Network topology analysis and path queries
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Network topology analysis and path queries
   name: Tufin Topology API
   slug: tufin-topology-api
-- description: User and group management
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: User and group management
   name: Tufin Users API
   slug: tufin-users-api
-- description: Workflow template definitions
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Workflow template definitions
   name: Tufin Workflow Definitions API
   slug: tufin-workflow-definitions-api
-- description: Security zones and zone-to-zone matrix
+- baseURL: https://{tos_host}/securetrack/api
+  baseurl_source: declared
+  description: Security zones and zone-to-zone matrix
   name: Tufin Zones API
   slug: tufin-zones-api
 artifact_total: 72
@@ -448,7 +470,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/screenshots/tufin-2026-06-20T195822.png
 security:

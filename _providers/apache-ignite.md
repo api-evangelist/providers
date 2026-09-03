@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 7
@@ -50,43 +50,69 @@ apis:
 - description: The Ignite .NET client API provides native C# and .NET access to Ignite clusters for table operations, SQL queries, and distributed computing.
   name: Apache Ignite .NET Client API
   slug: dotnet-api
-- description: The clusterConfiguration API from Apache Ignite — 2 operation(s) for clusterconfiguration.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The clusterConfiguration API from Apache Ignite — 2 operation(s) for clusterconfiguration.
   name: Apache Ignite clusterConfiguration API
   slug: apache-ignite-clusterconfiguration-api
-- description: The clusterManagement API from Apache Ignite — 2 operation(s) for clustermanagement.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The clusterManagement API from Apache Ignite — 2 operation(s) for clustermanagement.
   name: Apache Ignite clusterManagement API
   slug: apache-ignite-clustermanagement-api
-- description: The clusterMetric API from Apache Ignite — 3 operation(s) for clustermetric.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The clusterMetric API from Apache Ignite — 3 operation(s) for clustermetric.
   name: Apache Ignite clusterMetric API
   slug: apache-ignite-clustermetric-api
-- description: The compute API from Apache Ignite — 3 operation(s) for compute.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The compute API from Apache Ignite — 3 operation(s) for compute.
   name: Apache Ignite compute API
   slug: apache-ignite-compute-api
-- description: The deployment API from Apache Ignite — 6 operation(s) for deployment.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The deployment API from Apache Ignite — 6 operation(s) for deployment.
   name: Apache Ignite deployment API
   slug: apache-ignite-deployment-api
-- description: The nodeConfiguration API from Apache Ignite — 2 operation(s) for nodeconfiguration.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The nodeConfiguration API from Apache Ignite — 2 operation(s) for nodeconfiguration.
   name: Apache Ignite nodeConfiguration API
   slug: apache-ignite-nodeconfiguration-api
-- description: The nodeManagement API from Apache Ignite — 3 operation(s) for nodemanagement.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The nodeManagement API from Apache Ignite — 3 operation(s) for nodemanagement.
   name: Apache Ignite nodeManagement API
   slug: apache-ignite-nodemanagement-api
-- description: The nodeMetric API from Apache Ignite — 4 operation(s) for nodemetric.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The nodeMetric API from Apache Ignite — 4 operation(s) for nodemetric.
   name: Apache Ignite nodeMetric API
   slug: apache-ignite-nodemetric-api
-- description: The recovery API from Apache Ignite — 12 operation(s) for recovery.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The recovery API from Apache Ignite — 12 operation(s) for recovery.
   name: Apache Ignite recovery API
   slug: apache-ignite-recovery-api
-- description: The sql API from Apache Ignite — 3 operation(s) for sql.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The sql API from Apache Ignite — 3 operation(s) for sql.
   name: Apache Ignite sql API
   slug: apache-ignite-sql-api
-- description: The system API from Apache Ignite — 2 operation(s) for system.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The system API from Apache Ignite — 2 operation(s) for system.
   name: Apache Ignite system API
   slug: apache-ignite-system-api
-- description: The topology API from Apache Ignite — 2 operation(s) for topology.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The topology API from Apache Ignite — 2 operation(s) for topology.
   name: Apache Ignite topology API
   slug: apache-ignite-topology-api
-- description: The transactions API from Apache Ignite — 2 operation(s) for transactions.
+- baseURL: http://localhost:10300
+  baseurl_source: spec
+  description: The transactions API from Apache Ignite — 2 operation(s) for transactions.
   name: Apache Ignite transactions API
   slug: apache-ignite-transactions-api
 artifact_total: 174
@@ -671,7 +697,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/screenshots/apache-ignite-2026-06-20T172109.png
 security:

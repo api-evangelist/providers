@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -54,55 +54,89 @@ apis:
 - description: Native mobile SDK extensions for iOS and Android that integrate Adobe Campaign push notifications, in-app messaging, and local notifications into mobile applications. Includes the Campaign Classic ext
   name: Adobe Experience Platform Mobile SDK - Campaign Extensions
   slug: experience-platform-mobile-sdk---campaign-extensions
-- description: Access custom resources defined in Campaign Standard, both profile-linked and standalone.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Access custom resources defined in Campaign Standard, both profile-linked and standalone.
   name: Adobe Campaign Custom Resources API
   slug: adobe-campaign-custom-resources-api
-- description: Write, update, and delete data records using the xtk:session#Write method. Supports insert, insertOrUpdate, update, and delete operations via the _operation attribute.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Write, update, and delete data records using the xtk:session#Write method. Supports insert, insertOrUpdate, update, and delete operations via the _operation attribute.
   name: Adobe Campaign Data Management API
   slug: adobe-campaign-data-management-api
-- description: Prepare and submit message deliveries including email, SMS, and push notifications.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Prepare and submit message deliveries including email, SMS, and push notifications.
   name: Adobe Campaign Delivery API
   slug: adobe-campaign-delivery-api
-- description: Retrieve marketing event history for profiles including delivery logs and mirror page links.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Retrieve marketing event history for profiles including delivery logs and mirror page links.
   name: Adobe Campaign Marketing History API
   slug: adobe-campaign-marketing-history-api
-- description: Discover resource schemas, fields, filters, and data policies for Campaign Standard resources.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Discover resource schemas, fields, filters, and data policies for Campaign Standard resources.
   name: Adobe Campaign Metadata API
   slug: adobe-campaign-metadata-api
-- description: Retrieve organizational unit structures used for access control and data partitioning.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Retrieve organizational unit structures used for access control and data partitioning.
   name: Adobe Campaign Organizational Units API
   slug: adobe-campaign-organizational-units-api
-- description: Create GDPR and CCPA privacy access and deletion requests for data subject compliance.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Create GDPR and CCPA privacy access and deletion requests for data subject compliance.
   name: Adobe Campaign Privacy API
   slug: adobe-campaign-privacy-api
-- description: The ProfileAndServices API from Adobe Campaign — 2 operation(s) for profileandservices.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: The ProfileAndServices API from Adobe Campaign — 2 operation(s) for profileandservices.
   name: Adobe Campaign ProfileAndServices API
   slug: adobe-campaign-profileandservices-api
-- description: Manage recipient profiles including creation, retrieval, update, and deletion of contact records.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Manage recipient profiles including creation, retrieval, update, and deletion of contact records.
   name: Adobe Campaign Profiles API
   slug: adobe-campaign-profiles-api
-- description: Execute queries against Campaign schemas using the xtk:queryDef interface. Supports get, getIfExists, select, and count operations with XPath field expressions, WHERE conditions, and pagination.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Execute queries against Campaign schemas using the xtk:queryDef interface. Supports get, getIfExists, select, and count operations with XPath field expressions, WHERE conditions, and pagination.
   name: Adobe Campaign Query Definition API
   slug: adobe-campaign-query-definition-api
-- description: Push real-time transactional events for immediate or batched processing by the Message Center execution instances.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Push real-time transactional events for immediate or batched processing by the Message Center execution instances.
   name: Adobe Campaign Real-Time Events API
   slug: adobe-campaign-real-time-events-api
-- description: Authenticate and manage server sessions. Logon returns session and security tokens required for all subsequent API calls.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Authenticate and manage server sessions. Logon returns session and security tokens required for all subsequent API calls.
   name: Adobe Campaign Session Management API
   slug: adobe-campaign-session-management-api
-- description: Subscribe and unsubscribe recipients to and from information services.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Subscribe and unsubscribe recipients to and from information services.
   name: Adobe Campaign Subscription API
   slug: adobe-campaign-subscription-api
-- description: Subscribe and unsubscribe profiles to and from services.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Subscribe and unsubscribe profiles to and from services.
   name: Adobe Campaign Subscriptions API
   slug: adobe-campaign-subscriptions-api
-- description: Trigger and monitor transactional messages across email, SMS, and push notification channels.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Trigger and monitor transactional messages across email, SMS, and push notification channels.
   name: Adobe Campaign Transactional Messages API
   slug: adobe-campaign-transactional-messages-api
-- description: Start, stop, and signal workflows. PostEvent sends asynchronous signals to trigger workflow transitions.
+- baseURL: https://{instance}.campaign.adobe.com
+  baseurl_source: declared
+  description: Start, stop, and signal workflows. PostEvent sends asynchronous signals to trigger workflow transitions.
   name: Adobe Campaign Workflow API
   slug: adobe-campaign-workflow-api
-- description: Control workflow execution including starting, pausing, resuming, and stopping marketing workflows.
+- baseURL: https://mc.adobe.io/{ORGANIZATION}/campaign
+  baseurl_source: declared
+  description: Control workflow execution including starting, pausing, resuming, and stopping marketing workflows.
   name: Adobe Campaign Workflows API
   slug: adobe-campaign-workflows-api
 artifact_total: 166
@@ -739,7 +773,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -752,7 +786,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 72.6
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -770,7 +804,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:

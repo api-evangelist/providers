@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 91 operations · 69 acting
 api_count: 4
 apis:
-- description: The Ads API from PicsArt (Socialin) — 1 operation(s) for ads.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Ads API from PicsArt (Socialin) — 1 operation(s) for ads.
   name: PicsArt (Socialin) Ads API
   slug: picsart-socialin-ads-api
-- description: The Audio API from PicsArt (Socialin) — 2 operation(s) for audio.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Audio API from PicsArt (Socialin) — 2 operation(s) for audio.
   name: PicsArt (Socialin) Audio API
   slug: picsart-socialin-audio-api
-- description: The Classification API from PicsArt (Socialin) — 5 operation(s) for classification.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Classification API from PicsArt (Socialin) — 5 operation(s) for classification.
   name: PicsArt (Socialin) Classification API
   slug: picsart-socialin-classification-api
-- description: The Content Generation API from PicsArt (Socialin) — 2 operation(s) for content generation.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Content Generation API from PicsArt (Socialin) — 2 operation(s) for content generation.
   name: PicsArt (Socialin) Content Generation API
   slug: picsart-socialin-content-generation-api
-- description: The Conversion API from PicsArt (Socialin) — 3 operation(s) for conversion.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Conversion API from PicsArt (Socialin) — 3 operation(s) for conversion.
   name: PicsArt (Socialin) Conversion API
   slug: picsart-socialin-conversion-api
-- description: The Edit API from PicsArt (Socialin) — 6 operation(s) for edit.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Edit API from PicsArt (Socialin) — 6 operation(s) for edit.
   name: PicsArt (Socialin) Edit API
   slug: picsart-socialin-edit-api
-- description: The Editing API from PicsArt (Socialin) — 4 operation(s) for editing.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Editing API from PicsArt (Socialin) — 4 operation(s) for editing.
   name: PicsArt (Socialin) Editing API
   slug: picsart-socialin-editing-api
-- description: The Effects API from PicsArt (Socialin) — 10 operation(s) for effects.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Effects API from PicsArt (Socialin) — 10 operation(s) for effects.
   name: PicsArt (Socialin) Effects API
   slug: picsart-socialin-effects-api
-- description: The Image2Image / Inpainting API from PicsArt (Socialin) — 8 operation(s) for image2image / inpainting.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Image2Image / Inpainting API from PicsArt (Socialin) — 8 operation(s) for image2image / inpainting.
   name: PicsArt (Socialin) Image2Image / Inpainting API
   slug: picsart-socialin-image2image-inpainting-api
-- description: The Metadata API from PicsArt (Socialin) — 4 operation(s) for metadata.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Metadata API from PicsArt (Socialin) — 4 operation(s) for metadata.
   name: PicsArt (Socialin) Metadata API
   slug: picsart-socialin-metadata-api
-- description: The Photo enhancement API from PicsArt (Socialin) — 5 operation(s) for photo enhancement.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Photo enhancement API from PicsArt (Socialin) — 5 operation(s) for photo enhancement.
   name: PicsArt (Socialin) Photo enhancement API
   slug: picsart-socialin-photo-enhancement-api
-- description: The Remove Background API from PicsArt (Socialin) — 2 operation(s) for remove background.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Remove Background API from PicsArt (Socialin) — 2 operation(s) for remove background.
   name: PicsArt (Socialin) Remove Background API
   slug: picsart-socialin-remove-background-api
-- description: The Replay API from PicsArt (Socialin) — 2 operation(s) for replay.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Replay API from PicsArt (Socialin) — 2 operation(s) for replay.
   name: PicsArt (Socialin) Replay API
   slug: picsart-socialin-replay-api
-- description: The Surfacemap API from PicsArt (Socialin) — 1 operation(s) for surfacemap.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Surfacemap API from PicsArt (Socialin) — 1 operation(s) for surfacemap.
   name: PicsArt (Socialin) Surfacemap API
   slug: picsart-socialin-surfacemap-api
-- description: The Text2Audio API from PicsArt (Socialin) — 3 operation(s) for text2audio.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Audio API from PicsArt (Socialin) — 3 operation(s) for text2audio.
   name: PicsArt (Socialin) Text2Audio API
   slug: picsart-socialin-text2audio-api
-- description: The Text2Image API from PicsArt (Socialin) — 7 operation(s) for text2image.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Image API from PicsArt (Socialin) — 7 operation(s) for text2image.
   name: PicsArt (Socialin) Text2Image API
   slug: picsart-socialin-text2image-api
-- description: The Text2Text API from PicsArt (Socialin) — 1 operation(s) for text2text.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Text API from PicsArt (Socialin) — 1 operation(s) for text2text.
   name: PicsArt (Socialin) Text2Text API
   slug: picsart-socialin-text2text-api
-- description: The Text2Video & Image2Video API from PicsArt (Socialin) — 3 operation(s) for text2video & image2video.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Text2Video & Image2Video API from PicsArt (Socialin) — 3 operation(s) for text2video & image2video.
   name: PicsArt (Socialin) Text2Video & Image2Video API
   slug: picsart-socialin-text2video-image2video-api
-- description: The Transcriptions API from PicsArt (Socialin) — 2 operation(s) for transcriptions.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Transcriptions API from PicsArt (Socialin) — 2 operation(s) for transcriptions.
   name: PicsArt (Socialin) Transcriptions API
   slug: picsart-socialin-transcriptions-api
-- description: The Utilities API from PicsArt (Socialin) — 5 operation(s) for utilities.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Utilities API from PicsArt (Socialin) — 5 operation(s) for utilities.
   name: PicsArt (Socialin) Utilities API
   slug: picsart-socialin-utilities-api
-- description: The Variable Data Content API from PicsArt (Socialin) — 3 operation(s) for variable data content.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Variable Data Content API from PicsArt (Socialin) — 3 operation(s) for variable data content.
   name: PicsArt (Socialin) Variable Data Content API
   slug: picsart-socialin-variable-data-content-api
-- description: The Video enhancement API from PicsArt (Socialin) — 2 operation(s) for video enhancement.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Video enhancement API from PicsArt (Socialin) — 2 operation(s) for video enhancement.
   name: PicsArt (Socialin) Video enhancement API
   slug: picsart-socialin-video-enhancement-api
-- description: The Watermark API from PicsArt (Socialin) — 1 operation(s) for watermark.
+- baseURL: https://api.picsart.io/tools/1.0
+  baseurl_source: declared
+  description: The Watermark API from PicsArt (Socialin) — 1 operation(s) for watermark.
   name: PicsArt (Socialin) Watermark API
   slug: picsart-socialin-watermark-api
 artifact_total: 52
@@ -382,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picsart-socialin/refs/heads/main/screenshots/picsart-socialin-2026-08-17T081221.png
 security:

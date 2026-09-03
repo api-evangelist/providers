@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 30 operations · 16 acting
 api_count: 1
 apis:
-- description: The Dashboards API from GoodData — 1 operation(s) for dashboards.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Dashboards API from GoodData — 1 operation(s) for dashboards.
   name: GoodData Dashboards API
   slug: gooddata-dashboards-api
-- description: The Data Sources API from GoodData — 3 operation(s) for data sources.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Data Sources API from GoodData — 3 operation(s) for data sources.
   name: GoodData Data Sources API
   slug: gooddata-data-sources-api
-- description: The Execution API from GoodData — 2 operation(s) for execution.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Execution API from GoodData — 2 operation(s) for execution.
   name: GoodData Execution API
   slug: gooddata-execution-api
-- description: The Logical Data Model API from GoodData — 1 operation(s) for logical data model.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Logical Data Model API from GoodData — 1 operation(s) for logical data model.
   name: GoodData Logical Data Model API
   slug: gooddata-logical-data-model-api
-- description: The Metrics API from GoodData — 2 operation(s) for metrics.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Metrics API from GoodData — 2 operation(s) for metrics.
   name: GoodData Metrics API
   slug: gooddata-metrics-api
-- description: The Permissions API from GoodData — 1 operation(s) for permissions.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Permissions API from GoodData — 1 operation(s) for permissions.
   name: GoodData Permissions API
   slug: gooddata-permissions-api
-- description: The Users API from GoodData — 3 operation(s) for users.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Users API from GoodData — 3 operation(s) for users.
   name: GoodData Users API
   slug: gooddata-users-api
-- description: The Visualizations API from GoodData — 1 operation(s) for visualizations.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Visualizations API from GoodData — 1 operation(s) for visualizations.
   name: GoodData Visualizations API
   slug: gooddata-visualizations-api
-- description: The Workspaces API from GoodData — 2 operation(s) for workspaces.
+- baseURL: https://{domain}.gooddata.com/api/v1
+  baseurl_source: declared
+  description: The Workspaces API from GoodData — 2 operation(s) for workspaces.
   name: GoodData Workspaces API
   slug: gooddata-workspaces-api
 artifact_total: 28
@@ -210,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gooddata/refs/heads/main/screenshots/gooddata-2026-07-25T220051.png
 security:

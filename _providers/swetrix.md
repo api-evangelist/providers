@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: The Swetrix Events API provides endpoints for recording pageview events, custom events, heartbeat events, error events, and revenue transactions. Used for sending analytics data from client or server-
   name: Swetrix Events API
   slug: swetrix-events-api
-- description: Manage chart annotations
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Manage chart annotations
   name: Swetrix Annotations API
   slug: swetrix-annotations-api
-- description: Custom event analytics
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Custom event analytics
   name: Swetrix Custom Events API
   slug: swetrix-custom-events-api
-- description: Record JavaScript error events
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Record JavaScript error events
   name: Swetrix Errors API
   slug: swetrix-errors-api
-- description: Feature flag evaluation statistics
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Feature flag evaluation statistics
   name: Swetrix Feature Flags API
   slug: swetrix-feature-flags-api
-- description: Manage conversion funnels
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Manage conversion funnels
   name: Swetrix Funnels API
   slug: swetrix-funnels-api
-- description: Manage organisations and member access
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Manage organisations and member access
   name: Swetrix Organisations API
   slug: swetrix-organisations-api
-- description: Frontend and backend performance metrics
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Frontend and backend performance metrics
   name: Swetrix Performance API
   slug: swetrix-performance-api
-- description: Manage analytics projects
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Manage analytics projects
   name: Swetrix Projects API
   slug: swetrix-projects-api
-- description: Record revenue transactions (server-side only, requires API key)
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Record revenue transactions (server-side only, requires API key)
   name: Swetrix Revenue API
   slug: swetrix-revenue-api
-- description: Individual visitor session data
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Individual visitor session data
   name: Swetrix Sessions API
   slug: swetrix-sessions-api
-- description: Aggregated traffic and pageview analytics
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Aggregated traffic and pageview analytics
   name: Swetrix Traffic API
   slug: swetrix-traffic-api
-- description: Manage saved dashboard views (segments)
+- baseURL: https://api.swetrix.com
+  baseurl_source: declared
+  description: Manage saved dashboard views (segments)
   name: Swetrix Views API
   slug: swetrix-views-api
 artifact_total: 58
@@ -494,7 +518,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -504,7 +528,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 73.7
-  previous_composite: 76.6
+  previous_composite: 76.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -516,7 +540,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:

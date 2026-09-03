@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -71,7 +71,9 @@ apis:
 - description: Peer-to-peer payment API for accepting payments from individuals via payment forms and invoices.
   name: Qiwi P2P Payments
   slug: qiwi-p2p-payments
-- description: The Partner API from Qiwi — 16 operation(s) for partner.
+- baseURL: https://api.qiwi.com
+  baseurl_source: spec
+  description: The Partner API from Qiwi — 16 operation(s) for partner.
   name: Qiwi Partner API
   slug: qiwi-partner-api
 artifact_total: 19
@@ -184,7 +186,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qiwi/refs/heads/main/screenshots/qiwi-2026-06-20T192337.png
 security:

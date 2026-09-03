@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Cluster add-on management
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Cluster add-on management
   name: Oracle Container Engine for Kubernetes Add-ons API
   slug: oracle-container-engine-add-ons-api
-- description: Kubernetes cluster lifecycle management
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Kubernetes cluster lifecycle management
   name: Oracle Container Engine for Kubernetes Clusters API
   slug: oracle-container-engine-clusters-api
-- description: Kubeconfig and cluster credentials
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Kubeconfig and cluster credentials
   name: Oracle Container Engine for Kubernetes Credentials API
   slug: oracle-container-engine-credentials-api
-- description: Worker node pool management
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Worker node pool management
   name: Oracle Container Engine for Kubernetes Node Pools API
   slug: oracle-container-engine-node-pools-api
-- description: Serverless virtual node pool management
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Serverless virtual node pool management
   name: Oracle Container Engine for Kubernetes Virtual Node Pools API
   slug: oracle-container-engine-virtual-node-pools-api
-- description: Asynchronous operation tracking
+- baseURL: https://containerengine.us-ashburn-1.oci.oraclecloud.com/20180222
+  baseurl_source: declared
+  description: Asynchronous operation tracking
   name: Oracle Container Engine for Kubernetes Work Requests API
   slug: oracle-container-engine-work-requests-api
 artifact_total: 20
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/screenshots/oracle-container-engine-2026-06-20T191124.png
 security:

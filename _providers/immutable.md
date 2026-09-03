@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,58 +38,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Passport is Immutable's authentication and embedded-wallet product. Its OpenID Connect provider publishes anonymous discovery documents at auth.immutable.com, exposing the authorization, token, device
   name: Immutable Passport Authentication
   slug: immutable-passport-auth
-- description: Activities Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Activities Endpoints
   name: Immutable Activities API
   slug: immutable-activities-api
-- description: Chains Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Chains Endpoints
   name: Immutable Chains API
   slug: immutable-chains-api
-- description: Collections Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Collections Endpoints
   name: Immutable Collections API
   slug: immutable-collections-api
-- description: The crafting API from Immutable — 1 operation(s) for crafting.
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: The crafting API from Immutable — 1 operation(s) for crafting.
   name: Immutable Crafting API
   slug: immutable-crafting-api
-- description: Data erasure endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Data erasure endpoints
   name: Immutable Data API
   slug: immutable-data-api
-- description: Audience event ingestion endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Audience event ingestion endpoints
   name: Immutable Ingest API
   slug: immutable-ingest-api
-- description: NFT Metadata Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: NFT Metadata Endpoints
   name: Immutable Metadata API
   slug: immutable-metadata-api
-- description: The metadata-search API from Immutable — 3 operation(s) for metadata-search.
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: The metadata-search API from Immutable — 3 operation(s) for metadata-search.
   name: Immutable Metadata Search API
   slug: immutable-metadata-search-api
-- description: NFT Owner Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: NFT Owner Endpoints
   name: Immutable nft owners API
   slug: immutable-nft-owners-api
-- description: NFTs Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: NFTs Endpoints
   name: Immutable Nfts API
   slug: immutable-nfts-api
-- description: The orders API from Immutable — 14 operation(s) for orders.
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: The orders API from Immutable — 14 operation(s) for orders.
   name: Immutable Orders API
   slug: immutable-orders-api
-- description: Passport operations
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Passport operations
   name: Immutable Passport API
   slug: immutable-passport-api
-- description: Passport Profile endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Passport Profile endpoints
   name: Immutable passport profile API
   slug: immutable-passport-profile-api
-- description: Pricing Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Pricing Endpoints
   name: Immutable Pricing API
   slug: immutable-pricing-api
-- description: ERC20 Token Endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: ERC20 Token Endpoints
   name: Immutable Tokens API
   slug: immutable-tokens-api
-- description: Tracking consent management endpoints
+- baseURL: https://api.immutable.com
+  baseurl_source: declared
+  description: Tracking consent management endpoints
   name: Immutable Tracking Consent API
   slug: immutable-tracking-consent-api
 artifact_total: 26
@@ -288,11 +335,11 @@ score:
   band: exemplar
   composite: 69.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -302,7 +349,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 70.1
+  previous_composite: 69.8
   provenance:
     conformance: first-party
     contracts:
@@ -319,8 +366,9 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/immutable/refs/heads/main/screenshots/immutable-2026-09-02T145838.png
 security:
 - kind: authentication
   name: Immutable Authentication

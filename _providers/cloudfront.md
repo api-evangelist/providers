@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -46,22 +46,34 @@ apis:
 - description: The AWS CloudFront REST API exposes operations for managing distributions (CreateDistribution, GetDistribution, UpdateDistribution, DeleteDistribution, ListDistributions), origins, cache policies, inv
   name: AWS CloudFront API (canonical)
   slug: canonical
-- description: The CachePolicies API from CloudFront — 2 operation(s) for cachepolicies.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The CachePolicies API from CloudFront — 2 operation(s) for cachepolicies.
   name: CloudFront CachePolicies API
   slug: cloudfront-cachepolicies-api
-- description: The Distributions API from CloudFront — 3 operation(s) for distributions.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The Distributions API from CloudFront — 3 operation(s) for distributions.
   name: CloudFront Distributions API
   slug: cloudfront-distributions-api
-- description: The Functions API from CloudFront — 2 operation(s) for functions.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The Functions API from CloudFront — 2 operation(s) for functions.
   name: CloudFront Functions API
   slug: cloudfront-functions-api
-- description: The Invalidations API from CloudFront — 2 operation(s) for invalidations.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The Invalidations API from CloudFront — 2 operation(s) for invalidations.
   name: CloudFront Invalidations API
   slug: cloudfront-invalidations-api
-- description: The OriginAccessControl API from CloudFront — 2 operation(s) for originaccesscontrol.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The OriginAccessControl API from CloudFront — 2 operation(s) for originaccesscontrol.
   name: CloudFront OriginAccessControl API
   slug: cloudfront-originaccesscontrol-api
-- description: The PublicKeys API from CloudFront — 1 operation(s) for publickeys.
+- baseURL: https://cloudfront.amazonaws.com
+  baseurl_source: declared
+  description: The PublicKeys API from CloudFront — 1 operation(s) for publickeys.
   name: CloudFront PublicKeys API
   slug: cloudfront-publickeys-api
 artifact_total: 20
@@ -175,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/screenshots/cloudfront-2026-06-20T174603.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 39 operations · 14 acting
 api_count: 1
 apis:
-- description: The Backbox API from Back Market — 2 operation(s) for backbox.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Backbox API from Back Market — 2 operation(s) for backbox.
   name: Back Market Backbox API
   slug: back-market-backbox-api
-- description: The Backship API from Back Market — 4 operation(s) for backship.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Backship API from Back Market — 4 operation(s) for backship.
   name: Back Market Backship API
   slug: back-market-backship-api
-- description: The BuyBack API from Back Market — 12 operation(s) for buyback.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The BuyBack API from Back Market — 12 operation(s) for buyback.
   name: Back Market Buy Back API
   slug: back-market-buyback-api
-- description: The Care API from Back Market — 6 operation(s) for care.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Care API from Back Market — 6 operation(s) for care.
   name: Back Market Care API
   slug: back-market-care-api
-- description: The Categories API from Back Market — 2 operation(s) for categories.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Categories API from Back Market — 2 operation(s) for categories.
   name: Back Market Categories API
   slug: back-market-categories-api
-- description: The Listings API from Back Market — 3 operation(s) for listings.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Listings API from Back Market — 3 operation(s) for listings.
   name: Back Market Listings API
   slug: back-market-listings-api
-- description: The Orderline API from Back Market — 1 operation(s) for orderline.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Orderline API from Back Market — 1 operation(s) for orderline.
   name: Back Market Orderline API
   slug: back-market-orderline-api
-- description: The Orders API from Back Market — 3 operation(s) for orders.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The Orders API from Back Market — 3 operation(s) for orders.
   name: Back Market Orders API
   slug: back-market-orders-api
-- description: The TaskManager API from Back Market — 1 operation(s) for taskmanager.
+- baseURL: https://www.backmarket.com
+  baseurl_source: declared
+  description: The TaskManager API from Back Market — 1 operation(s) for taskmanager.
   name: Back Market Task Manager API
   slug: back-market-taskmanager-api
 artifact_total: 26
@@ -300,7 +331,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/back-market/refs/heads/main/screenshots/back-market-2026-08-07T162100.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: OpenSearch 1.1 query interface over the Central Library's Institutional Digital Repository, running DSpace 6.0 self-hosted on the institute's own www.idr.iitkgp.ac.in. Verified live 2026-09-01 — /xmlu
+- baseURL: http://www.idr.iitkgp.ac.in/xmlui/open-search/discover
+  baseurl_source: declared
+  description: OpenSearch 1.1 query interface over the Central Library's Institutional Digital Repository, running DSpace 6.0 self-hosted on the institute's own www.idr.iitkgp.ac.in. Verified live 2026-09-01 — /xmlu
   name: IIT Kharagpur Institutional Digital Repository OpenSearch Interface
   slug: idr-opensearch
-- description: 'The only unauthenticated endpoint on the IIT Kharagpur estate that the institute wrote itself. The ERP at erp.iitkgp.ac.in is a JAX-RS application on Apache Tomcat 8.0.51 behind a bespoke session SSO '
+- baseURL: https://erp.iitkgp.ac.in/InfoCellDetails/resources/external/cepdata
+  baseurl_source: declared
+  description: 'The only unauthenticated endpoint on the IIT Kharagpur estate that the institute wrote itself. The ERP at erp.iitkgp.ac.in is a JAX-RS application on Apache Tomcat 8.0.51 behind a bespoke session SSO '
   name: IIT Kharagpur ERP Continuing Education Programme Brochure Endpoint
   slug: erp-cep-brochures
 - description: Indian Research Information Network System (IRINS) research-profile portal for IIT Kharagpur, operated by INFLIBNET — an autonomous inter-university centre of the UGC — at the institution-specific sub
@@ -202,7 +206,7 @@ score:
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 25.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -212,7 +216,7 @@ score:
     discoverability: 59.3
     governance: 3.8
     operational_transparency: 26.3
-  previous_composite: 16.8
+  previous_composite: 41.9
   provenance:
     conformance: first-party
     contracts:
@@ -227,8 +231,8 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indian-institute-of-technology-kharagpur/refs/heads/main/screenshots/indian-institute-of-technology-kharagpur-2026-06-20T183332.png
 security:
 - kind: authentication

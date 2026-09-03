@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 6
 apis:
-- description: The Autocomplete API from Microsoft NuGet — 1 operation(s) for autocomplete.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Autocomplete API from Microsoft NuGet — 1 operation(s) for autocomplete.
   name: Microsoft NuGet Autocomplete API
   slug: microsoft-nuget-autocomplete-api
-- description: The Flatcontainer API from Microsoft NuGet — 3 operation(s) for flatcontainer.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Flatcontainer API from Microsoft NuGet — 3 operation(s) for flatcontainer.
   name: Microsoft NuGet Flatcontainer API
   slug: microsoft-nuget-flatcontainer-api
-- description: The Index.json API from Microsoft NuGet — 1 operation(s) for index.json.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Index.json API from Microsoft NuGet — 1 operation(s) for index.json.
   name: Microsoft NuGet Index.json API
   slug: microsoft-nuget-index-json-api
-- description: The Package API from Microsoft NuGet — 2 operation(s) for package.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Package API from Microsoft NuGet — 2 operation(s) for package.
   name: Microsoft NuGet Package API
   slug: microsoft-nuget-package-api
-- description: The Query API from Microsoft NuGet — 1 operation(s) for query.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Query API from Microsoft NuGet — 1 operation(s) for query.
   name: Microsoft NuGet Query API
   slug: microsoft-nuget-query-api
-- description: The Registration5 Gz Semver2 API from Microsoft NuGet — 2 operation(s) for registration5 gz semver2.
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Registration5 Gz Semver2 API from Microsoft NuGet — 2 operation(s) for registration5 gz semver2.
   name: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
 artifact_total: 20
@@ -193,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-nuget/refs/heads/main/screenshots/microsoft-nuget-2026-06-20T185508.png
 security:

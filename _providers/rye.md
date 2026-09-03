@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 39 operations · 19 acting
 api_count: 1
 apis:
-- description: The Betas API from Rye — 1 operation(s) for betas.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Betas API from Rye — 1 operation(s) for betas.
   name: Rye Betas API
   slug: rye-betas-api
-- description: The Billing API from Rye — 6 operation(s) for billing.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Billing API from Rye — 6 operation(s) for billing.
   name: Rye Billing API
   slug: rye-billing-api
-- description: The Brands API from Rye — 1 operation(s) for brands.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Brands API from Rye — 1 operation(s) for brands.
   name: Rye Brands API
   slug: rye-brands-api
-- description: The Checkout Intents API from Rye — 6 operation(s) for checkout intents.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Checkout Intents API from Rye — 6 operation(s) for checkout intents.
   name: Rye Checkout Intents API
   slug: rye-checkout-intents-api
-- description: The Commissions API from Rye — 2 operation(s) for commissions.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Commissions API from Rye — 2 operation(s) for commissions.
   name: Rye Commissions API
   slug: rye-commissions-api
-- description: The Events API from Rye — 3 operation(s) for events.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Events API from Rye — 3 operation(s) for events.
   name: Rye Events API
   slug: rye-events-api
-- description: The Merchant Connectors API from Rye — 1 operation(s) for merchant connectors.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Merchant Connectors API from Rye — 1 operation(s) for merchant connectors.
   name: Rye Merchant Connectors API
   slug: rye-merchant-connectors-api
-- description: The Orders API from Rye — 3 operation(s) for orders.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Orders API from Rye — 3 operation(s) for orders.
   name: Rye Orders API
   slug: rye-orders-api
-- description: The Payment Gateways API from Rye — 1 operation(s) for payment gateways.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Payment Gateways API from Rye — 1 operation(s) for payment gateways.
   name: Rye Payment Gateways API
   slug: rye-payment-gateways-api
-- description: The Products API from Rye — 4 operation(s) for products.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Products API from Rye — 4 operation(s) for products.
   name: Rye Products API
   slug: rye-products-api
-- description: The Returns API from Rye — 2 operation(s) for returns.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Returns API from Rye — 2 operation(s) for returns.
   name: Rye Returns API
   slug: rye-returns-api
-- description: The Shipments API from Rye — 2 operation(s) for shipments.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Shipments API from Rye — 2 operation(s) for shipments.
   name: Rye Shipments API
   slug: rye-shipments-api
-- description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
+- baseURL: https://api.rye.com/api/v1/
+  baseurl_source: declared
+  description: The Test Helpers API from Rye — 6 operation(s) for test helpers.
   name: Rye Test Helpers API
   slug: rye-test-helpers-api
 artifact_total: 48
@@ -366,7 +392,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -376,7 +402,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 64.3
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -394,7 +420,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/screenshots/rye-2026-08-17T081702.png
 security:

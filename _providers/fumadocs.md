@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Fumadocs is an open-source documentation framework built on Next.js and React for creating fast, modern developer documentation sites. It provides a full stack of composable packages including fumadoc
   name: Fumadocs
   slug: fumadocs
-- description: HTTP proxy endpoints that forward requests to external API servers on behalf of the browser-based OpenAPI playground to avoid CORS issues.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: HTTP proxy endpoints that forward requests to external API servers on behalf of the browser-based OpenAPI playground to avoid CORS issues.
   name: Fumadocs Proxy API
   slug: fumadocs-proxy-api
-- description: Search endpoints for querying documentation content. Results include pages, headings, and text segments ranked by relevance.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: Search endpoints for querying documentation content. Results include pages, headings, and text segments ranked by relevance.
   name: Fumadocs Search API
   slug: fumadocs-search-api
 artifact_total: 19
@@ -222,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/screenshots/fumadocs-2026-06-20T181650.png
 security:

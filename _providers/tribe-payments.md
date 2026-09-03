@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -54,10 +66,14 @@ apis:
 - description: Payment Services API (v1) for Tribe's Bank Connect / Banking-as-a-Service product, enabling fintechs to embed banking and payment services. Documented in the Tribe developer portal; no downloadable Op
   name: Bank Connect - Payment Services API
   slug: bank-connect-payment-services-api
-- description: The 3DS authentication required API from Tribe Payments — 1 operation(s) for 3ds authentication required.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The 3DS authentication required API from Tribe Payments — 1 operation(s) for 3ds authentication required.
   name: Tribe Payments 3DS authentication required API
   slug: tribe-payments-3ds-authentication-required-api
-- description: Endpoints for confirming funds in the account.
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Endpoints for confirming funds in the account.
   name: Tribe Payments Account API
   slug: tribe-payments-account-api
 - description: The Accounts API from Tribe Payments — 4 operation(s) for accounts.
@@ -66,106 +82,166 @@ apis:
 - description: The App API from Tribe Payments — 4 operation(s) for app.
   name: Tribe Payments App API
   slug: tribe-payments-app-api
-- description: The Authorization API from Tribe Payments — 3 operation(s) for authorization.
+- baseURL: '%bank_api_url%/bank/v2'
+  baseurl_source: spec
+  description: The Authorization API from Tribe Payments — 3 operation(s) for authorization.
   name: Tribe Payments Authorization API
   slug: tribe-payments-authorization-api
-- description: The Authorize API from Tribe Payments — 2 operation(s) for authorize.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Authorize API from Tribe Payments — 2 operation(s) for authorize.
   name: Tribe Payments Authorize API
   slug: tribe-payments-authorize-api
-- description: Endpoints for executing bulk payments.
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Endpoints for executing bulk payments.
   name: Tribe Payments Bulk payments API
   slug: tribe-payments-bulk-payments-api
-- description: The Cancel API from Tribe Payments — 2 operation(s) for cancel.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Cancel API from Tribe Payments — 2 operation(s) for cancel.
   name: Tribe Payments Cancel API
   slug: tribe-payments-cancel-api
-- description: The Cancel recurring API from Tribe Payments — 2 operation(s) for cancel recurring.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Cancel recurring API from Tribe Payments — 2 operation(s) for cancel recurring.
   name: Tribe Payments Cancel recurring API
   slug: tribe-payments-cancel-recurring-api
-- description: The Capture API from Tribe Payments — 2 operation(s) for capture.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Capture API from Tribe Payments — 2 operation(s) for capture.
   name: Tribe Payments Capture API
   slug: tribe-payments-capture-api
-- description: The Credit API from Tribe Payments — 2 operation(s) for credit.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Credit API from Tribe Payments — 2 operation(s) for credit.
   name: Tribe Payments Credit API
   slug: tribe-payments-credit-api
-- description: Some supported ASPSPs provide a more direct approach to some actions. Instead of retrieving prior user consent, actions can be executed directly, followed by an SCA confirmation in the next step. [Dir
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Some supported ASPSPs provide a more direct approach to some actions. Instead of retrieving prior user consent, actions can be executed directly, followed by an SCA confirmation in the next step. [Dir
   name: Tribe Payments Direct payments API
   slug: tribe-payments-direct-payments-api
-- description: Endpoints for executing direct payments (without acquiring previous consent).
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Endpoints for executing direct payments (without acquiring previous consent).
   name: Tribe Payments Direct payments without Bank API
   slug: tribe-payments-direct-payments-without-bank-api
-- description: The Disputes API from Tribe Payments — 2 operation(s) for disputes.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Disputes API from Tribe Payments — 2 operation(s) for disputes.
   name: Tribe Payments Disputes API
   slug: tribe-payments-disputes-api
-- description: The Event Data API from Tribe Payments — 6 operation(s) for event data.
+- baseURL: /
+  baseurl_source: spec
+  description: The Event Data API from Tribe Payments — 6 operation(s) for event data.
   name: Tribe Payments Event Data API
   slug: tribe-payments-event-data-api
 - description: The Funds API from Tribe Payments — 1 operation(s) for funds.
   name: Tribe Payments Funds API
   slug: tribe-payments-funds-api
-- description: Endpoints for confirming funds in the account.
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Endpoints for confirming funds in the account.
   name: Tribe Payments Funds confirmation API
   slug: tribe-payments-funds-confirmation-api
-- description: Endpoints for interacting with the general data.
+- baseURL: '%tpp_api_url%/tpp/v2'
+  baseurl_source: spec
+  description: Endpoints for interacting with the general data.
   name: Tribe Payments General API
   slug: tribe-payments-general-api
-- description: The Health Check API from Tribe Payments — 1 operation(s) for health check.
+- baseURL: /
+  baseurl_source: spec
+  description: The Health Check API from Tribe Payments — 1 operation(s) for health check.
   name: Tribe Payments Health Check API
   slug: tribe-payments-health-check-api
 - description: The Host API from Tribe Payments — 5 operation(s) for host.
   name: Tribe Payments Host API
   slug: tribe-payments-host-api
-- description: The Incremental authorize API from Tribe Payments — 2 operation(s) for incremental authorize.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Incremental authorize API from Tribe Payments — 2 operation(s) for incremental authorize.
   name: Tribe Payments Incremental authorize API
   slug: tribe-payments-incremental-authorize-api
-- description: The Order status API from Tribe Payments — 2 operation(s) for order status.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Order status API from Tribe Payments — 2 operation(s) for order status.
   name: Tribe Payments Order status API
   slug: tribe-payments-order-status-api
-- description: The P2P API from Tribe Payments — 2 operation(s) for p2p.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The P2P API from Tribe Payments — 2 operation(s) for p2p.
   name: Tribe Payments P2 P API
   slug: tribe-payments-p2p-api
-- description: The Payment API from Tribe Payments — 4 operation(s) for payment.
+- baseURL: '%bank_api_url%/bank/v2'
+  baseurl_source: spec
+  description: The Payment API from Tribe Payments — 4 operation(s) for payment.
   name: Tribe Payments Payment API
   slug: tribe-payments-payment-api
 - description: The Payments API from Tribe Payments — 7 operation(s) for payments.
   name: Tribe Payments Payments API
   slug: tribe-payments-payments-api
-- description: The Performance API from Tribe Payments — 1 operation(s) for performance.
+- baseURL: '%bank_api_url%/bank/v2'
+  baseurl_source: spec
+  description: The Performance API from Tribe Payments — 1 operation(s) for performance.
   name: Tribe Payments Performance API
   slug: tribe-payments-performance-api
-- description: The Pre authorize API from Tribe Payments — 2 operation(s) for pre authorize.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Pre authorize API from Tribe Payments — 2 operation(s) for pre authorize.
   name: Tribe Payments Pre authorize API
   slug: tribe-payments-pre-authorize-api
-- description: The Prepare API from Tribe Payments — 1 operation(s) for prepare.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Prepare API from Tribe Payments — 1 operation(s) for prepare.
   name: Tribe Payments Prepare API
   slug: tribe-payments-prepare-api
-- description: The Prepare error API from Tribe Payments — 1 operation(s) for prepare error.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Prepare error API from Tribe Payments — 1 operation(s) for prepare error.
   name: Tribe Payments Prepare error API
   slug: tribe-payments-prepare-error-api
-- description: The Prepare success API from Tribe Payments — 1 operation(s) for prepare success.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Prepare success API from Tribe Payments — 1 operation(s) for prepare success.
   name: Tribe Payments Prepare success API
   slug: tribe-payments-prepare-success-api
-- description: The Process API from Tribe Payments — 2 operation(s) for process.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Process API from Tribe Payments — 2 operation(s) for process.
   name: Tribe Payments Process API
   slug: tribe-payments-process-api
-- description: The Processing accounts API from Tribe Payments — 2 operation(s) for processing accounts.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Processing accounts API from Tribe Payments — 2 operation(s) for processing accounts.
   name: Tribe Payments Processing accounts API
   slug: tribe-payments-processing-accounts-api
 - description: The Processor API from Tribe Payments — 5 operation(s) for processor.
   name: Tribe Payments Processor API
   slug: tribe-payments-processor-api
-- description: The Refund API from Tribe Payments — 2 operation(s) for refund.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Refund API from Tribe Payments — 2 operation(s) for refund.
   name: Tribe Payments Refund API
   slug: tribe-payments-refund-api
-- description: The Sale API from Tribe Payments — 2 operation(s) for sale.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Sale API from Tribe Payments — 2 operation(s) for sale.
   name: Tribe Payments Sale API
   slug: tribe-payments-sale-api
-- description: The Status API from Tribe Payments — 1 operation(s) for status.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Status API from Tribe Payments — 1 operation(s) for status.
   name: Tribe Payments Status API
   slug: tribe-payments-status-api
-- description: The Transactions API from Tribe Payments — 2 operation(s) for transactions.
+- baseURL: http://127.0.0.1:10010/v3
+  baseurl_source: spec
+  description: The Transactions API from Tribe Payments — 2 operation(s) for transactions.
   name: Tribe Payments Transactions API
   slug: tribe-payments-transactions-api
-- description: The User Actions Trigger API from Tribe Payments — 1 operation(s) for user actions trigger.
+- baseURL: /
+  baseurl_source: spec
+  description: The User Actions Trigger API from Tribe Payments — 1 operation(s) for user actions trigger.
   name: Tribe Payments User Actions Trigger API
   slug: tribe-payments-user-actions-trigger-api
 artifact_total: 65
@@ -366,23 +442,23 @@ overview: 'Tribe Payments publishes 38 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 11
 score:
   band: developing
-  composite: 44.4
+  composite: 43.5
   coverage:
     artifact_dirs: 21
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: -0.9
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 52.2
     developer_ergonomics: 28.0
-    discoverability: 66.7
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 44.2
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -408,7 +484,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribe-payments/refs/heads/main/screenshots/tribe-payments-2026-08-17T082436.png
 security:

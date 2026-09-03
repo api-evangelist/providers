@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 4 acting
 api_count: 1
 apis:
-- description: Create and retrieve order acknowledgements (EDI 855) to accept, cancel, or backorder order items. Sent after order receipt and before shipment or invoice creation.
+- baseURL: https://commerceapi.io
+  baseurl_source: declared
+  description: Create and retrieve order acknowledgements (EDI 855) to accept, cancel, or backorder order items. Sent after order receipt and before shipment or invoice creation.
   name: Toys R Us Acknowledgements API
   slug: toys-r-us-acknowledgements-api
-- description: Create and retrieve invoices (EDI 810) providing billing details and item pricing for fulfilled goods.
+- baseURL: https://commerceapi.io
+  baseurl_source: declared
+  description: Create and retrieve invoices (EDI 810) providing billing details and item pricing for fulfilled goods.
   name: Toys R Us Invoices API
   slug: toys-r-us-invoices-api
-- description: Retrieve and manage purchase orders in the EDI 850 format. Orders initiate the order lifecycle and update until all items are fulfilled and invoiced.
+- baseURL: https://commerceapi.io
+  baseurl_source: declared
+  description: Retrieve and manage purchase orders in the EDI 850 format. Orders initiate the order lifecycle and update until all items are fulfilled and invoiced.
   name: Toys R Us Orders API
   slug: toys-r-us-orders-api
-- description: Manage product catalog items including item creation, updates, and availability synchronization.
+- baseURL: https://commerceapi.io
+  baseurl_source: declared
+  description: Manage product catalog items including item creation, updates, and availability synchronization.
   name: Toys R Us Products API
   slug: toys-r-us-products-api
-- description: Create and retrieve shipment notifications (EDI 856) containing containerized data, tracking numbers, and fulfillment details for shipped order items.
+- baseURL: https://commerceapi.io
+  baseurl_source: declared
+  description: Create and retrieve shipment notifications (EDI 856) containing containerized data, tracking numbers, and fulfillment details for shipped order items.
   name: Toys R Us Shipments API
   slug: toys-r-us-shipments-api
 artifact_total: 25
@@ -236,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/screenshots/toys-r-us-2026-06-20T195516.png
 security:

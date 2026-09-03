@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 44 operations · 26 acting
 api_count: 1
 apis:
-- description: The Auth API from Anam — 1 operation(s) for auth.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Auth API from Anam — 1 operation(s) for auth.
   name: Anam Auth API
   slug: anam-auth-api
-- description: The Avatars API from Anam — 2 operation(s) for avatars.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Avatars API from Anam — 2 operation(s) for avatars.
   name: Anam Avatars API
   slug: anam-avatars-api
-- description: The Knowledge API from Anam — 5 operation(s) for knowledge.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Knowledge API from Anam — 5 operation(s) for knowledge.
   name: Anam Knowledge API
   slug: anam-knowledge-api
-- description: The Llms API from Anam — 2 operation(s) for llms.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Llms API from Anam — 2 operation(s) for llms.
   name: Anam Llms API
   slug: anam-llms-api
-- description: The Personas API from Anam — 2 operation(s) for personas.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Personas API from Anam — 2 operation(s) for personas.
   name: Anam Personas API
   slug: anam-personas-api
-- description: The Sessions API from Anam — 2 operation(s) for sessions.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Sessions API from Anam — 2 operation(s) for sessions.
   name: Anam Sessions API
   slug: anam-sessions-api
-- description: The Share Links API from Anam — 2 operation(s) for share links.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Share Links API from Anam — 2 operation(s) for share links.
   name: Anam Share Links API
   slug: anam-share-links-api
-- description: The Tools API from Anam — 2 operation(s) for tools.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Tools API from Anam — 2 operation(s) for tools.
   name: Anam Tools API
   slug: anam-tools-api
-- description: The Voices API from Anam — 2 operation(s) for voices.
+- baseURL: https://api.anam.ai/v1
+  baseurl_source: declared
+  description: The Voices API from Anam — 2 operation(s) for voices.
   name: Anam Voices API
   slug: anam-voices-api
 artifact_total: 25
@@ -290,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anam/refs/heads/main/screenshots/anam-2026-07-25T200152.png
 security:

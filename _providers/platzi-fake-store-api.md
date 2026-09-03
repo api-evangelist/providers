@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 25 operations · 12 acting
 api_count: 1
 apis:
-- description: The Auth API from Platzi Fake Store API — 3 operation(s) for auth.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Auth API from Platzi Fake Store API — 3 operation(s) for auth.
   name: Platzi Fake Store API Auth API
   slug: platzi-fake-store-api-auth-api
-- description: The Categories API from Platzi Fake Store API — 4 operation(s) for categories.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Categories API from Platzi Fake Store API — 4 operation(s) for categories.
   name: Platzi Fake Store API Categories API
   slug: platzi-fake-store-api-categories-api
-- description: The Files API from Platzi Fake Store API — 2 operation(s) for files.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Files API from Platzi Fake Store API — 2 operation(s) for files.
   name: Platzi Fake Store API Files API
   slug: platzi-fake-store-api-files-api
-- description: The Products API from Platzi Fake Store API — 5 operation(s) for products.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Products API from Platzi Fake Store API — 5 operation(s) for products.
   name: Platzi Fake Store API Products API
   slug: platzi-fake-store-api-products-api
-- description: The Users API from Platzi Fake Store API — 3 operation(s) for users.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Users API from Platzi Fake Store API — 3 operation(s) for users.
   name: Platzi Fake Store API Users API
   slug: platzi-fake-store-api-users-api
 artifact_total: 18
@@ -163,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/screenshots/platzi-fake-store-api-2026-06-20T191758.png
 security:

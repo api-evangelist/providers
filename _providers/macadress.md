@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +46,9 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: 'REST/JSON API for single and batch MAC/OUI lookups, vendor directory search, and health checks. Requires a free API key via Authorization Bearer or api_key query/body. Live API at api.macadress.com: G'
+- baseURL: https://api.macadress.com
+  baseurl_source: declared
+  description: 'REST/JSON API for single and batch MAC/OUI lookups, vendor directory search, and health checks. Requires a free API key via Authorization Bearer or api_key query/body. Live API at api.macadress.com: G'
   name: macadress.com API
   slug: macadresscom-api
 artifact_total: 13
@@ -187,11 +202,11 @@ score:
   band: developing
   composite: 52.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.5
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -201,7 +216,7 @@ score:
     discoverability: 75.9
     governance: 3.8
     operational_transparency: 50.0
-  previous_composite: 53.7
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,8 +228,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/macadress/refs/heads/main/screenshots/macadress-2026-09-02T150341.png
 security:
 - kind: authentication
   name: Macadress Authentication

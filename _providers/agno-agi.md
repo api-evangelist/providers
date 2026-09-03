@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 26 operations · 11 acting
 api_count: 1
 apis:
-- description: Run and manage individual agents.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Run and manage individual agents.
   name: Agno Agents API
   slug: agno-agi-agents-api
-- description: Evaluation runs for quality and reliability.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Evaluation runs for quality and reliability.
   name: Agno Evals API
   slug: agno-agi-evals-api
-- description: Knowledge base content used for retrieval.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Knowledge base content used for retrieval.
   name: Agno Knowledge API
   slug: agno-agi-knowledge-api
-- description: Persistent per-user memories.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Persistent per-user memories.
   name: Agno Memory API
   slug: agno-agi-memory-api
-- description: Conversation history and state for agents, teams, and workflows.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Conversation history and state for agents, teams, and workflows.
   name: Agno Sessions API
   slug: agno-agi-sessions-api
-- description: Run and manage teams of agents.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Run and manage teams of agents.
   name: Agno Teams API
   slug: agno-agi-teams-api
-- description: Run and manage multi-step workflows.
+- baseURL: http://localhost:7777
+  baseurl_source: declared
+  description: Run and manage multi-step workflows.
   name: Agno Workflows API
   slug: agno-agi-workflows-api
 artifact_total: 24
@@ -192,7 +206,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -202,7 +216,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 31.7
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -211,7 +225,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno-agi/refs/heads/main/screenshots/agno-agi-2026-07-25T195318.png
 security:

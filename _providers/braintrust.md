@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -47,88 +47,144 @@ apis:
 - description: The Braintrust REST API provides programmatic access to projects, experiments, datasets, prompts, functions, logs, and organization resources. It supports both US (api.braintrust.dev) and EU (api-eu.b
   name: Braintrust API
   slug: braintrust-api
-- description: The Acls API from Braintrust — 4 operation(s) for acls.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Acls API from Braintrust — 4 operation(s) for acls.
   name: Braintrust Acls API
   slug: braintrust-acls-api
-- description: The AiSecrets API from Braintrust — 2 operation(s) for aisecrets.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The AiSecrets API from Braintrust — 2 operation(s) for aisecrets.
   name: Braintrust AiSecrets API
   slug: braintrust-aisecrets-api
-- description: The ApiKeys API from Braintrust — 2 operation(s) for apikeys.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The ApiKeys API from Braintrust — 2 operation(s) for apikeys.
   name: Braintrust ApiKeys API
   slug: braintrust-apikeys-api
-- description: The CORS API from Braintrust — 65 operation(s) for cors.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The CORS API from Braintrust — 65 operation(s) for cors.
   name: Braintrust CORS API
   slug: braintrust-cors-api
-- description: The CrossObject API from Braintrust — 1 operation(s) for crossobject.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The CrossObject API from Braintrust — 1 operation(s) for crossobject.
   name: Braintrust CrossObject API
   slug: braintrust-crossobject-api
-- description: The Datasets API from Braintrust — 6 operation(s) for datasets.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Datasets API from Braintrust — 6 operation(s) for datasets.
   name: Braintrust Datasets API
   slug: braintrust-datasets-api
-- description: The DatasetSnapshots API from Braintrust — 2 operation(s) for datasetsnapshots.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The DatasetSnapshots API from Braintrust — 2 operation(s) for datasetsnapshots.
   name: Braintrust DatasetSnapshots API
   slug: braintrust-datasetsnapshots-api
-- description: The Environments API from Braintrust — 2 operation(s) for environments.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Environments API from Braintrust — 2 operation(s) for environments.
   name: Braintrust Environments API
   slug: braintrust-environments-api
-- description: The EnvVars API from Braintrust — 2 operation(s) for envvars.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The EnvVars API from Braintrust — 2 operation(s) for envvars.
   name: Braintrust EnvVars API
   slug: braintrust-envvars-api
-- description: The Evals API from Braintrust — 1 operation(s) for evals.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Evals API from Braintrust — 1 operation(s) for evals.
   name: Braintrust Evals API
   slug: braintrust-evals-api
-- description: The Experiments API from Braintrust — 6 operation(s) for experiments.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Experiments API from Braintrust — 6 operation(s) for experiments.
   name: Braintrust Experiments API
   slug: braintrust-experiments-api
-- description: The Functions API from Braintrust — 3 operation(s) for functions.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Functions API from Braintrust — 3 operation(s) for functions.
   name: Braintrust Functions API
   slug: braintrust-functions-api
-- description: The Groups API from Braintrust — 2 operation(s) for groups.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Groups API from Braintrust — 2 operation(s) for groups.
   name: Braintrust Groups API
   slug: braintrust-groups-api
-- description: The Logs API from Braintrust — 3 operation(s) for logs.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Logs API from Braintrust — 3 operation(s) for logs.
   name: Braintrust Logs API
   slug: braintrust-logs-api
-- description: The McpServers API from Braintrust — 2 operation(s) for mcpservers.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The McpServers API from Braintrust — 2 operation(s) for mcpservers.
   name: Braintrust McpServers API
   slug: braintrust-mcpservers-api
-- description: The Organizations API from Braintrust — 3 operation(s) for organizations.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Organizations API from Braintrust — 3 operation(s) for organizations.
   name: Braintrust Organizations API
   slug: braintrust-organizations-api
-- description: The Other API from Braintrust — 1 operation(s) for other.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Other API from Braintrust — 1 operation(s) for other.
   name: Braintrust Other API
   slug: braintrust-other-api
-- description: The ProjectAutomations API from Braintrust — 2 operation(s) for projectautomations.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The ProjectAutomations API from Braintrust — 2 operation(s) for projectautomations.
   name: Braintrust ProjectAutomations API
   slug: braintrust-projectautomations-api
-- description: The Projects API from Braintrust — 2 operation(s) for projects.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Projects API from Braintrust — 2 operation(s) for projects.
   name: Braintrust Projects API
   slug: braintrust-projects-api
-- description: The ProjectScores API from Braintrust — 2 operation(s) for projectscores.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The ProjectScores API from Braintrust — 2 operation(s) for projectscores.
   name: Braintrust ProjectScores API
   slug: braintrust-projectscores-api
-- description: The ProjectTags API from Braintrust — 2 operation(s) for projecttags.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The ProjectTags API from Braintrust — 2 operation(s) for projecttags.
   name: Braintrust ProjectTags API
   slug: braintrust-projecttags-api
-- description: The Prompts API from Braintrust — 2 operation(s) for prompts.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Prompts API from Braintrust — 2 operation(s) for prompts.
   name: Braintrust Prompts API
   slug: braintrust-prompts-api
-- description: The Proxy API from Braintrust — 6 operation(s) for proxy.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Proxy API from Braintrust — 6 operation(s) for proxy.
   name: Braintrust Proxy API
   slug: braintrust-proxy-api
-- description: The Roles API from Braintrust — 2 operation(s) for roles.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Roles API from Braintrust — 2 operation(s) for roles.
   name: Braintrust Roles API
   slug: braintrust-roles-api
-- description: The ServiceTokens API from Braintrust — 2 operation(s) for servicetokens.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The ServiceTokens API from Braintrust — 2 operation(s) for servicetokens.
   name: Braintrust ServiceTokens API
   slug: braintrust-servicetokens-api
-- description: The SpanIframes API from Braintrust — 2 operation(s) for spaniframes.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The SpanIframes API from Braintrust — 2 operation(s) for spaniframes.
   name: Braintrust SpanIframes API
   slug: braintrust-spaniframes-api
-- description: The Users API from Braintrust — 2 operation(s) for users.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Users API from Braintrust — 2 operation(s) for users.
   name: Braintrust Users API
   slug: braintrust-users-api
-- description: The Views API from Braintrust — 2 operation(s) for views.
+- baseURL: https://api.braintrust.dev
+  baseurl_source: declared
+  description: The Views API from Braintrust — 2 operation(s) for views.
   name: Braintrust Views API
   slug: braintrust-views-api
 artifact_total: 65
@@ -343,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/screenshots/braintrust-2026-06-20T173630.png
 security:

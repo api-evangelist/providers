@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 38 operations · 16 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: Agent state management
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Agent state management
   name: Windstream Holdings agents API
   slug: windstream-holdings-agents-api
-- description: Auto-attendant configuration
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Auto-attendant configuration
   name: Windstream Holdings auto-attendants API
   slug: windstream-holdings-auto-attendants-api
-- description: Call management and control
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Call management and control
   name: Windstream Holdings calls API
   slug: windstream-holdings-calls-api
-- description: Extension management
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Extension management
   name: Windstream Holdings extensions API
   slug: windstream-holdings-extensions-api
-- description: Product catalog operations
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Product catalog operations
   name: Windstream Holdings products API
   slug: windstream-holdings-products-api
-- description: Role and permission management
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Role and permission management
   name: Windstream Holdings roles API
   slug: windstream-holdings-roles-api
-- description: System-level operations
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: System-level operations
   name: Windstream Holdings system API
   slug: windstream-holdings-system-api
-- description: Tenant management and configuration
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: Tenant management and configuration
   name: Windstream Holdings tenants API
   slug: windstream-holdings-tenants-api
-- description: User account management
+- baseURL: https://webadmin.windstreamenterprise.com/api
+  baseurl_source: declared
+  description: User account management
   name: Windstream Holdings users API
   slug: windstream-holdings-users-api
 artifact_total: 34
@@ -280,7 +298,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

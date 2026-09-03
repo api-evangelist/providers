@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,199 +43,329 @@ agentic_access:
   summary_line: 132 operations
 api_count: 3
 apis:
-- description: The Actions API from THORChain — 1 operation(s) for actions.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Actions API from THORChain — 1 operation(s) for actions.
   name: THORChain Actions API
   slug: thorchain-actions-api
-- description: The AGENTS.md API from THORChain — 1 operation(s) for agents.md.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The AGENTS.md API from THORChain — 1 operation(s) for agents.md.
   name: THORChain AGENTS.md API
   slug: thorchain-agents-md-api
-- description: The Auth API from THORChain — 1 operation(s) for auth.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Auth API from THORChain — 1 operation(s) for auth.
   name: THORChain Auth API
   slug: thorchain-auth-api
-- description: The Balance API from THORChain — 1 operation(s) for balance.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Balance API from THORChain — 1 operation(s) for balance.
   name: THORChain Balance API
   slug: thorchain-balance-api
-- description: The Bank API from THORChain — 1 operation(s) for bank.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Bank API from THORChain — 1 operation(s) for bank.
   name: THORChain Bank API
   slug: thorchain-bank-api
-- description: The Block API from THORChain — 1 operation(s) for block.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Block API from THORChain — 1 operation(s) for block.
   name: THORChain Block API
   slug: thorchain-block-api
-- description: The Bonds API from THORChain — 1 operation(s) for bonds.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Bonds API from THORChain — 1 operation(s) for bonds.
   name: THORChain Bonds API
   slug: thorchain-bonds-api
-- description: The Borrower API from THORChain — 1 operation(s) for borrower.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Borrower API from THORChain — 1 operation(s) for borrower.
   name: THORChain Borrower API
   slug: thorchain-borrower-api
-- description: The Borrowers API from THORChain — 1 operation(s) for borrowers.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Borrowers API from THORChain — 1 operation(s) for borrowers.
   name: THORChain Borrowers API
   slug: thorchain-borrowers-api
-- description: The Churns API from THORChain — 1 operation(s) for churns.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Churns API from THORChain — 1 operation(s) for churns.
   name: THORChain Churns API
   slug: thorchain-churns-api
-- description: The Clout API from THORChain — 1 operation(s) for clout.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Clout API from THORChain — 1 operation(s) for clout.
   name: THORChain Clout API
   slug: thorchain-clout-api
-- description: The Codes API from THORChain — 1 operation(s) for codes.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Codes API from THORChain — 1 operation(s) for codes.
   name: THORChain Codes API
   slug: thorchain-codes-api
-- description: The Dynamic L1 Fees API from THORChain — 3 operation(s) for dynamic l1 fees.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Dynamic L1 Fees API from THORChain — 3 operation(s) for dynamic l1 fees.
   name: THORChain Dynamic L1 Fees API
   slug: thorchain-dynamic-l1-fees-api
-- description: The Export API from THORChain — 1 operation(s) for export.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Export API from THORChain — 1 operation(s) for export.
   name: THORChain Export API
   slug: thorchain-export-api
-- description: The Health API from THORChain — 2 operation(s) for health.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Health API from THORChain — 2 operation(s) for health.
   name: THORChain Health API
   slug: thorchain-health-api
-- description: The History API from THORChain — 12 operation(s) for history.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The History API from THORChain — 12 operation(s) for history.
   name: THORChain History API
   slug: thorchain-history-api
-- description: The Holders API from THORChain — 1 operation(s) for holders.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Holders API from THORChain — 1 operation(s) for holders.
   name: THORChain Holders API
   slug: thorchain-holders-api
-- description: The Invariants API from THORChain — 2 operation(s) for invariants.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Invariants API from THORChain — 2 operation(s) for invariants.
   name: THORChain Invariants API
   slug: thorchain-invariants-api
-- description: The Knownpools API from THORChain — 1 operation(s) for knownpools.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Knownpools API from THORChain — 1 operation(s) for knownpools.
   name: THORChain Knownpools API
   slug: thorchain-knownpools-api
-- description: The Limit Order API from THORChain — 1 operation(s) for limit order.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Limit Order API from THORChain — 1 operation(s) for limit order.
   name: THORChain Limit Order API
   slug: thorchain-limit-order-api
-- description: The Liquidity Providers API from THORChain — 2 operation(s) for liquidity providers.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Liquidity Providers API from THORChain — 2 operation(s) for liquidity providers.
   name: THORChain Liquidity Providers API
   slug: thorchain-liquidity-providers-api
-- description: The Llms Full.txt API from THORChain — 1 operation(s) for llms full.txt.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Llms Full.txt API from THORChain — 1 operation(s) for llms full.txt.
   name: THORChain Llms Full.txt API
   slug: thorchain-llms-full-txt-api
-- description: The Llms.txt API from THORChain — 1 operation(s) for llms.txt.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Llms.txt API from THORChain — 1 operation(s) for llms.txt.
   name: THORChain Llms.txt API
   slug: thorchain-llms-txt-api
-- description: The Mcp API from THORChain — 1 operation(s) for mcp.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Mcp API from THORChain — 1 operation(s) for mcp.
   name: THORChain Mcp API
   slug: thorchain-mcp-api
-- description: The Member API from THORChain — 1 operation(s) for member.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Member API from THORChain — 1 operation(s) for member.
   name: THORChain Member API
   slug: thorchain-member-api
-- description: The Members API from THORChain — 1 operation(s) for members.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Members API from THORChain — 1 operation(s) for members.
   name: THORChain Members API
   slug: thorchain-members-api
-- description: The Mimir API from THORChain — 5 operation(s) for mimir.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Mimir API from THORChain — 5 operation(s) for mimir.
   name: THORChain Mimir API
   slug: thorchain-mimir-api
-- description: The Network API from THORChain — 14 operation(s) for network.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Network API from THORChain — 14 operation(s) for network.
   name: THORChain Network API
   slug: thorchain-network-api
-- description: The Nodes API from THORChain — 3 operation(s) for nodes.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Nodes API from THORChain — 3 operation(s) for nodes.
   name: THORChain Nodes API
   slug: thorchain-nodes-api
-- description: The Oracle API from THORChain — 2 operation(s) for oracle.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Oracle API from THORChain — 2 operation(s) for oracle.
   name: THORChain Oracle API
   slug: thorchain-oracle-api
-- description: The Pool API from THORChain — 2 operation(s) for pool.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Pool API from THORChain — 2 operation(s) for pool.
   name: THORChain Pool API
   slug: thorchain-pool-api
-- description: The Pools API from THORChain — 5 operation(s) for pools.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Pools API from THORChain — 5 operation(s) for pools.
   name: THORChain Pools API
   slug: thorchain-pools-api
-- description: The PoolSlip API from THORChain — 2 operation(s) for poolslip.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The PoolSlip API from THORChain — 2 operation(s) for poolslip.
   name: THORChain PoolSlip API
   slug: thorchain-poolslip-api
-- description: The Queue API from THORChain — 7 operation(s) for queue.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Queue API from THORChain — 7 operation(s) for queue.
   name: THORChain Queue API
   slug: thorchain-queue-api
-- description: The Quote API from THORChain — 1 operation(s) for quote.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Quote API from THORChain — 1 operation(s) for quote.
   name: THORChain Quote API
   slug: thorchain-quote-api
-- description: The Reference Memos API from THORChain — 3 operation(s) for reference memos.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Reference Memos API from THORChain — 3 operation(s) for reference memos.
   name: THORChain Reference Memos API
   slug: thorchain-reference-memos-api
-- description: The Robots.txt API from THORChain — 1 operation(s) for robots.txt.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Robots.txt API from THORChain — 1 operation(s) for robots.txt.
   name: THORChain Robots.txt API
   slug: thorchain-robots-txt-api
-- description: The RUNE Pool API from THORChain — 3 operation(s) for rune pool.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The RUNE Pool API from THORChain — 3 operation(s) for rune pool.
   name: THORChain RUNE Pool API
   slug: thorchain-rune-pool-api
-- description: The Runepool API from THORChain — 1 operation(s) for runepool.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Runepool API from THORChain — 1 operation(s) for runepool.
   name: THORChain Runepool API
   slug: thorchain-runepool-api
-- description: The Saver API from THORChain — 1 operation(s) for saver.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Saver API from THORChain — 1 operation(s) for saver.
   name: THORChain Saver API
   slug: thorchain-saver-api
-- description: The Savers API from THORChain — 2 operation(s) for savers.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Savers API from THORChain — 2 operation(s) for savers.
   name: THORChain Savers API
   slug: thorchain-savers-api
-- description: The SecuredAsset API from THORChain — 1 operation(s) for securedasset.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The SecuredAsset API from THORChain — 1 operation(s) for securedasset.
   name: THORChain SecuredAsset API
   slug: thorchain-securedasset-api
-- description: The SecuredAssets API from THORChain — 1 operation(s) for securedassets.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The SecuredAssets API from THORChain — 1 operation(s) for securedassets.
   name: THORChain SecuredAssets API
   slug: thorchain-securedassets-api
-- description: The Sitemap.xml API from THORChain — 1 operation(s) for sitemap.xml.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Sitemap.xml API from THORChain — 1 operation(s) for sitemap.xml.
   name: THORChain Sitemap.xml API
   slug: thorchain-sitemap-xml-api
-- description: The Smart Contracts API from THORChain — 2 operation(s) for smart contracts.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Smart Contracts API from THORChain — 2 operation(s) for smart contracts.
   name: THORChain Smart Contracts API
   slug: thorchain-smart-contracts-api
-- description: The Specification API from THORChain — 2 operation(s) for specification.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Specification API from THORChain — 2 operation(s) for specification.
   name: THORChain Specification API
   slug: thorchain-specification-api
-- description: The Stats API from THORChain — 1 operation(s) for stats.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Stats API from THORChain — 1 operation(s) for stats.
   name: THORChain Stats API
   slug: thorchain-stats-api
-- description: The StreamingSwap API from THORChain — 2 operation(s) for streamingswap.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The StreamingSwap API from THORChain — 2 operation(s) for streamingswap.
   name: THORChain StreamingSwap API
   slug: thorchain-streamingswap-api
-- description: The Supply API from THORChain — 2 operation(s) for supply.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Supply API from THORChain — 2 operation(s) for supply.
   name: THORChain Supply API
   slug: thorchain-supply-api
-- description: The Swap API from THORChain — 1 operation(s) for swap.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Swap API from THORChain — 1 operation(s) for swap.
   name: THORChain Swap API
   slug: thorchain-swap-api
-- description: The Tcy API from THORChain — 1 operation(s) for tcy.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Tcy API from THORChain — 1 operation(s) for tcy.
   name: THORChain Tcy API
   slug: thorchain-tcy-api
-- description: The TCY Claimers API from THORChain — 3 operation(s) for tcy claimers.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TCY Claimers API from THORChain — 3 operation(s) for tcy claimers.
   name: THORChain TCY Claimers API
   slug: thorchain-tcy-claimers-api
-- description: The TCY Stakers API from THORChain — 2 operation(s) for tcy stakers.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TCY Stakers API from THORChain — 2 operation(s) for tcy stakers.
   name: THORChain TCY Stakers API
   slug: thorchain-tcy-stakers-api
-- description: The THORChain Website Discovery API from THORChain — 1 operation(s) for thorchain website discovery.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The THORChain Website Discovery API from THORChain — 1 operation(s) for thorchain website discovery.
   name: THORChain THORChain Website Discovery API
   slug: thorchain-thorchain-website-discovery-api
-- description: The Thorname API from THORChain — 3 operation(s) for thorname.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Thorname API from THORChain — 3 operation(s) for thorname.
   name: THORChain Thorname API
   slug: thorchain-thorname-api
-- description: The Thornames API from THORChain — 1 operation(s) for thornames.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Thornames API from THORChain — 1 operation(s) for thornames.
   name: THORChain Thornames API
   slug: thorchain-thornames-api
-- description: The TradeAccount API from THORChain — 1 operation(s) for tradeaccount.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TradeAccount API from THORChain — 1 operation(s) for tradeaccount.
   name: THORChain TradeAccount API
   slug: thorchain-tradeaccount-api
-- description: The TradeAccounts API from THORChain — 1 operation(s) for tradeaccounts.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TradeAccounts API from THORChain — 1 operation(s) for tradeaccounts.
   name: THORChain TradeAccounts API
   slug: thorchain-tradeaccounts-api
-- description: The TradeUnit API from THORChain — 1 operation(s) for tradeunit.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TradeUnit API from THORChain — 1 operation(s) for tradeunit.
   name: THORChain TradeUnit API
   slug: thorchain-tradeunit-api
-- description: The TradeUnits API from THORChain — 1 operation(s) for tradeunits.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TradeUnits API from THORChain — 1 operation(s) for tradeunits.
   name: THORChain TradeUnits API
   slug: thorchain-tradeunits-api
-- description: The Transactions API from THORChain — 5 operation(s) for transactions.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Transactions API from THORChain — 5 operation(s) for transactions.
   name: THORChain Transactions API
   slug: thorchain-transactions-api
-- description: The TSS API from THORChain — 5 operation(s) for tss.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The TSS API from THORChain — 5 operation(s) for tss.
   name: THORChain TSS API
   slug: thorchain-tss-api
-- description: The Vaults API from THORChain — 6 operation(s) for vaults.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Vaults API from THORChain — 6 operation(s) for vaults.
   name: THORChain Vaults API
   slug: thorchain-vaults-api
-- description: The Votes API from THORChain — 1 operation(s) for votes.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The Votes API from THORChain — 1 operation(s) for votes.
   name: THORChain Votes API
   slug: thorchain-votes-api
-- description: The .well Known API from THORChain — 3 operation(s) for .well known.
+- baseURL: https://gateway.liquify.com/chain/thorchain_api
+  baseurl_source: declared
+  description: The .well Known API from THORChain — 3 operation(s) for .well known.
   name: THORChain .well Known API
   slug: thorchain-well-known-api
 artifact_total: 136
@@ -564,7 +694,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -596,8 +726,9 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thorchain/refs/heads/main/screenshots/thorchain-2026-09-02T163550.png
 security:
 - kind: authentication
   name: Thorchain Authentication

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,10 +48,14 @@ apis:
 - description: Steadfast Group's Okta-hosted OpenID Connect provider, issuer https://idp.steadfast.com.au. It fronts the credentialed broker portal used by the Steadfast Network's 414 brokerages and, by inference fr
   name: Steadfast Identity (OpenID Connect)
   slug: identity
-- description: Australian address resolution against G-NAF identifiers.
+- baseURL: https://floodrisktracker.steadfast.com.au
+  baseurl_source: declared
+  description: Australian address resolution against G-NAF identifiers.
   name: Steadfast Group Address API
   slug: steadfast-group-address-api
-- description: Natural-catastrophe flood risk layers for a resolved address.
+- baseURL: https://floodrisktracker.steadfast.com.au
+  baseurl_source: declared
+  description: Natural-catastrophe flood risk layers for a resolved address.
   name: Steadfast Group Risk API
   slug: steadfast-group-risk-api
 artifact_total: 9
@@ -224,7 +240,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -256,8 +272,9 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/screenshots/steadfast-group-2026-09-02T160824.png
 security:
 - kind: authentication
   name: Steadfast Group Authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -33,55 +46,89 @@ agentic_access:
   summary_line: 96 operations · 58 acting
 api_count: 4
 apis:
-- description: Attraction services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Attraction services
   name: Viator Attraction services API
   slug: viator-attraction-services-api
-- description: The Attractions API from Viator — 2 operation(s) for attractions.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Attractions API from Viator — 2 operation(s) for attractions.
   name: Viator Attractions API
   slug: viator-attractions-api
-- description: The Auxiliary API from Viator — 6 operation(s) for auxiliary.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Auxiliary API from Viator — 6 operation(s) for auxiliary.
   name: Viator Auxiliary API
   slug: viator-auxiliary-api
-- description: The Availability API from Viator — 4 operation(s) for availability.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Availability API from Viator — 4 operation(s) for availability.
   name: Viator Availability API
   slug: viator-availability-api
-- description: Booking services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Booking services
   name: Viator Booking services API
   slug: viator-booking-services-api
-- description: The Bookings API from Viator — 13 operation(s) for bookings.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Bookings API from Viator — 13 operation(s) for bookings.
   name: Viator Bookings API
   slug: viator-bookings-api
-- description: This section lists endpoints that are no longer recommended for new or updated integrations. These endpoints remain available for existing connections only, will stop receiving new features or behavio
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: This section lists endpoints that are no longer recommended for new or updated integrations. These endpoints remain available for existing connections only, will stop receiving new features or behavio
   name: Viator Deprecated API
   slug: viator-deprecated-api
-- description: Deprecated services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Deprecated services
   name: Viator Deprecated services API
   slug: viator-deprecated-services-api
-- description: General services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: General services
   name: Viator General services API
   slug: viator-general-services-api
-- description: The Payments API from Viator — 1 operation(s) for payments.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Payments API from Viator — 1 operation(s) for payments.
   name: Viator Payments API
   slug: viator-payments-api
-- description: Product services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Product services
   name: Viator Product services API
   slug: viator-product-services-api
-- description: The Products API from Viator — 7 operation(s) for products.
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: The Products API from Viator — 7 operation(s) for products.
   name: Viator Products API
   slug: viator-products-api
-- description: 'This section describes all the possible services, some of which are mandatory, that reservation systems can develop to integrate with Viator. All API requests made by Viator to the reservation system '
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: 'This section describes all the possible services, some of which are mandatory, that reservation systems can develop to integrate with Viator. All API requests made by Viator to the reservation system '
   name: Viator Reservation system APIs API
   slug: viator-reservation-system-apis-api
-- description: Support services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Support services
   name: Viator Support services API
   slug: viator-support-services-api
-- description: Taxonomy services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Taxonomy services
   name: Viator Taxonomy services API
   slug: viator-taxonomy-services-api
-- description: Utility services
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: Utility services
   name: Viator Utility services API
   slug: viator-utility-services-api
-- description: 'This section describes the Viator built API(s) available for reservation system consumption. **Note**: For these APIs, the request is sent **to** Viator and the response is received **from** Viator.'
+- baseURL: https://api.viator.com/partner
+  baseurl_source: declared
+  description: 'This section describes the Viator built API(s) available for reservation system consumption. **Note**: For these APIs, the request is sent **to** Viator and the response is received **from** Viator.'
   name: Viator Viator APIs API
   slug: viator-viator-apis-api
 artifact_total: 27
@@ -302,23 +349,23 @@ rate_limits:
   slug: viator-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 48.3
   coverage:
     artifact_dirs: 24
-    catalog_gap: 78.0
+    catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 62.3
     developer_ergonomics: 66.1
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.4
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,7 +377,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png
 security:

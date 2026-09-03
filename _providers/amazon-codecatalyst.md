@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 33 operations · 25 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AccessTokens API from Amazon CodeCatalyst — 2 operation(s) for accesstokens.
+- baseURL: https://codecatalyst.global.api.aws
+  baseurl_source: declared
+  description: The AccessTokens API from Amazon CodeCatalyst — 2 operation(s) for accesstokens.
   name: Amazon CodeCatalyst AccessTokens API
   slug: amazon-codecatalyst-accesstokens-api
-- description: The Session API from Amazon CodeCatalyst — 1 operation(s) for session.
+- baseURL: https://codecatalyst.global.api.aws
+  baseurl_source: declared
+  description: The Session API from Amazon CodeCatalyst — 1 operation(s) for session.
   name: Amazon CodeCatalyst Session API
   slug: amazon-codecatalyst-session-api
-- description: The Spaces API from Amazon CodeCatalyst — 18 operation(s) for spaces.
+- baseURL: https://codecatalyst.global.api.aws
+  baseurl_source: declared
+  description: The Spaces API from Amazon CodeCatalyst — 18 operation(s) for spaces.
   name: Amazon CodeCatalyst Spaces API
   slug: amazon-codecatalyst-spaces-api
-- description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
+- baseURL: https://codecatalyst.global.api.aws
+  baseurl_source: declared
+  description: The UserDetails API from Amazon CodeCatalyst — 1 operation(s) for userdetails.
   name: Amazon CodeCatalyst UserDetails API
   slug: amazon-codecatalyst-userdetails-api
 artifact_total: 466
@@ -1592,7 +1600,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

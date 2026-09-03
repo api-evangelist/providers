@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -65,112 +65,184 @@ apis:
 - description: Next-generation statistics API at api.waterdata.usgs.gov providing computed statistical summaries for USGS water time series. Part of the platform replacing the legacy WaterServices statistics endpoin
   name: USGS Water Data Statistics API
   slug: statistics-next-gen
-- description: Code identifying the agency or organization used for site information, data sources, and permitting agencies. Agency codes are fixed values assigned by the National Water Information System (NWIS).
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Code identifying the agency or organization used for site information, data sources, and permitting agencies. Agency codes are fixed values assigned by the National Water Information System (NWIS).
   name: USGS Water Services agency-codes API
   slug: usgs-water-agency-codes-api
-- description: The recommended vertical datum is NAVD88 (North American Vertical Datum of 1988) where applicable as stated in Office of Information Technical Memo 2002.01. NGVD29 (National Geodetic Vertical Datum of
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: The recommended vertical datum is NAVD88 (North American Vertical Datum of 1988) where applicable as stated in Office of Information Technical Memo 2002.01. NGVD29 (National Geodetic Vertical Datum of
   name: USGS Water Services altitude-datums API
   slug: usgs-water-altitude-datums-api
-- description: Local aquifers in USGS data are identified by an aquifer name and geohydrologic unit code (a three-digit number related to the age of the formation, followed by a 4 or 5 character abbreviation for the
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Local aquifers in USGS data are identified by an aquifer name and geohydrologic unit code (a three-digit number related to the age of the formation, followed by a 4 or 5 character abbreviation for the
   name: USGS Water Services aquifer-codes API
   slug: usgs-water-aquifer-codes-api
-- description: Groundwater occurs in aquifers under two different conditions. Where water only partly fills an aquifer, the upper surface is free to rise and decline. These aquifers are referred to as unconfined (or
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Groundwater occurs in aquifers under two different conditions. Where water only partly fills an aquifer, the upper surface is free to rise and decline. These aquifers are referred to as unconfined (or
   name: USGS Water Services aquifer-types API
   slug: usgs-water-aquifer-types-api
-- description: Channel measurements taken as part of streamflow field measurements.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Channel measurements taken as part of streamflow field measurements.
   name: USGS Water Services channel-measurements API
   slug: usgs-water-channel-measurements-api
-- description: Citations associated with water measurement methods.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Citations associated with water measurement methods.
   name: USGS Water Services citations API
   slug: usgs-water-citations-api
-- description: This endpoint combines metadata from timeseries and field measurements collections by site.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: This endpoint combines metadata from timeseries and field measurements collections by site.
   name: USGS Water Services combined-metadata API
   slug: usgs-water-combined-metadata-api
-- description: Continuous data are collected via automated sensors installed at a monitoring location. They are collected at a high frequency and often at a fixed 15-minute interval. Depending on the specific monito
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Continuous data are collected via automated sensors installed at a monitoring location. They are collected at a high frequency and often at a fixed 15-minute interval. Depending on the specific monito
   name: USGS Water Services continuous API
   slug: usgs-water-continuous-api
-- description: Appropriate code on the schedule to indicate the accuracy of the latitude-longitude values.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Appropriate code on the schedule to indicate the accuracy of the latitude-longitude values.
   name: USGS Water Services coordinate-accuracy-codes API
   slug: usgs-water-coordinate-accuracy-codes-api
-- description: Horizontal datum code for the latitude/longitude coordinates. There are currently more than 300 horizontal datums available for entry.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Horizontal datum code for the latitude/longitude coordinates. There are currently more than 300 horizontal datums available for entry.
   name: USGS Water Services coordinate-datum-codes API
   slug: usgs-water-coordinate-datum-codes-api
-- description: Methods used to determine latitude-longitude values.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Methods used to determine latitude-longitude values.
   name: USGS Water Services coordinate-method-codes API
   slug: usgs-water-coordinate-method-codes-api
-- description: The name of the county or county equivalent (parish, borough, planning reagion, etc.) in which the site is located. List includes Census Bureau FIPS county codes, names and associated Country and Stat
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: The name of the county or county equivalent (parish, borough, planning reagion, etc.) in which the site is located. List includes Census Bureau FIPS county codes, names and associated Country and Stat
   name: USGS Water Services counties API
   slug: usgs-water-counties-api
-- description: FIPS country codes and names.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: FIPS country codes and names.
   name: USGS Water Services countries API
   slug: usgs-water-countries-api
-- description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
   name: USGS Water Services daily API
   slug: usgs-water-daily-api
-- description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
   name: USGS Water Services field-measurements API
   slug: usgs-water-field-measurements-api
-- description: This endpoint provides metadata about field measurement collections, including when the earliest and most recent observations for a parameter occurred at a monitoring location and its units.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: This endpoint provides metadata about field measurement collections, including when the earliest and most recent observations for a parameter occurred at a monitoring location and its units.
   name: USGS Water Services field-measurements-metadata API
   slug: usgs-water-field-measurements-metadata-api
-- description: 'Hydrologic units are geographic areas representing part or all of a surface drainage basin or distinct hydrologic feature identified by a unique number (HUC), and a name. The United States is divided '
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: 'Hydrologic units are geographic areas representing part or all of a surface drainage basin or distinct hydrologic feature identified by a unique number (HUC), and a name. The United States is divided '
   name: USGS Water Services hydrologic-unit-codes API
   slug: usgs-water-hydrologic-unit-codes-api
-- description: This endpoint provides the most recent observation for each time series of continuous data. Continuous data are collected via automated sensors installed at a monitoring location. They are collected a
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: This endpoint provides the most recent observation for each time series of continuous data. Continuous data are collected via automated sensors installed at a monitoring location. They are collected a
   name: USGS Water Services latest-continuous API
   slug: usgs-water-latest-continuous-api
-- description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
   name: USGS Water Services latest-daily API
   slug: usgs-water-latest-daily-api
-- description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
   name: USGS Water Services latest-field-measurements API
   slug: usgs-water-latest-field-measurements-api
-- description: Medium refers to the specific environmental medium from which the sample was collected. Medium type differs from site type because one site type, such as surface water, could have data for several med
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Medium refers to the specific environmental medium from which the sample was collected. Medium type differs from site type because one site type, such as surface water, could have data for several med
   name: USGS Water Services medium-codes API
   slug: usgs-water-medium-codes-api
-- description: Categorical standards for methods describing the associated data's appropriateness for an intended use.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Categorical standards for methods describing the associated data's appropriateness for an intended use.
   name: USGS Water Services method-categories API
   slug: usgs-water-method-categories-api
-- description: Citation identifiers for water measurement methods.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Citation identifiers for water measurement methods.
   name: USGS Water Services method-citations API
   slug: usgs-water-method-citations-api
-- description: Water measurement or water-quality analytical methods. Codes and descriptions defining a method for calculating or measuring the value of a water quality or quantity parameter. Method codes are associ
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Water measurement or water-quality analytical methods. Codes and descriptions defining a method for calculating or measuring the value of a water quality or quantity parameter. Method codes are associ
   name: USGS Water Services methods API
   slug: usgs-water-methods-api
-- description: Location information is basic information about the monitoring location including the name, identifier, agency responsible for data collection, and the date the location was established. It also inclu
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Location information is basic information about the monitoring location including the name, identifier, agency responsible for data collection, and the date the location was established. It also inclu
   name: USGS Water Services monitoring-locations API
   slug: usgs-water-monitoring-locations-api
-- description: National aquifers are the principal aquifers or aquifer systems in the United States, defined as regionally extensive aquifers or aquifer systems that have the potential to be used as a source of pota
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: National aquifers are the principal aquifers or aquifer systems in the United States, defined as regionally extensive aquifers or aquifer systems that have the potential to be used as a source of pota
   name: USGS Water Services national-aquifer-codes API
   slug: usgs-water-national-aquifer-codes-api
-- description: Parameter codes are 5-digit codes and associated descriptions used to identify the constituent measured and the units of measure. Some parameter code definitions include information about the sampling
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Parameter codes are 5-digit codes and associated descriptions used to identify the constituent measured and the units of measure. Some parameter code definitions include information about the sampling
   name: USGS Water Services parameter-codes API
   slug: usgs-water-parameter-codes-api
-- description: Annual peak flow values are the maximum instantaneous streamflow values recorded at a particular site for the entire water year from October 1 to September 30. Note that the annual peak flow value may
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Annual peak flow values are the maximum instantaneous streamflow values recorded at a particular site for the entire water year from October 1 to September 30. Note that the annual peak flow value may
   name: USGS Water Services peaks API
   slug: usgs-water-peaks-api
-- description: Code indicating the reliability of the data available for the site.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Code indicating the reliability of the data available for the site.
   name: USGS Water Services reliability-codes API
   slug: usgs-water-reliability-codes-api
-- description: These APIs provide OGC-compliant interfaces to USGS water data, letting you download continuous sensor measurements, discrete field measurements, metadata about monitoring locations, and more.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: These APIs provide OGC-compliant interfaces to USGS water data, letting you download continuous sensor measurements, discrete field measurements, metadata about monitoring locations, and more.
   name: USGS Water Services server API
   slug: usgs-water-server-api
-- description: The hydrologic cycle setting or a man-made feature thought to affect the hydrologic conditions measured at a site. Primary and secondary site types associated with data collection sites. All sites hav
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: The hydrologic cycle setting or a man-made feature thought to affect the hydrologic conditions measured at a site. Primary and secondary site types associated with data collection sites. All sites hav
   name: USGS Water Services site-types API
   slug: usgs-water-site-types-api
-- description: State name or territory. Includes U.S. states and foreign entities classified under FIPS as 'Principal Administrative Divisions'.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: State name or territory. Includes U.S. states and foreign entities classified under FIPS as 'Principal Administrative Divisions'.
   name: USGS Water Services states API
   slug: usgs-water-states-api
-- description: Statistic codes.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: Statistic codes.
   name: USGS Water Services statistic-codes API
   slug: usgs-water-statistic-codes-api
-- description: 'Daily data and continuous measurements are grouped into time series, which represent a collection of observations of a single parameter, potentially aggregated using a standard statistic, at a single '
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: 'Daily data and continuous measurements are grouped into time series, which represent a collection of observations of a single parameter, potentially aggregated using a standard statistic, at a single '
   name: USGS Water Services time-series-metadata API
   slug: usgs-water-time-series-metadata-api
-- description: The ISO 8601 standard defines time zone offsets as a numerical value added to a local time to convert it to Coordinated Universal Time (UTC), either as +hh:mm or -hh:mm, or represented by the letter Z
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: The ISO 8601 standard defines time zone offsets as a numerical value added to a local time to convert it to Coordinated Universal Time (UTC), either as +hh:mm or -hh:mm, or represented by the letter Z
   name: USGS Water Services time-zone-codes API
   slug: usgs-water-time-zone-codes-api
-- description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
+- baseURL: https://waterservices.usgs.gov/nwis/iv/
+  baseurl_source: declared
+  description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
   name: USGS Water Services topographic-codes API
   slug: usgs-water-topographic-codes-api
 artifact_total: 125
@@ -538,7 +610,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usgs-water/refs/heads/main/screenshots/usgs-water-2026-06-20T200736.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: The Vineyard Kubernetes Operator manages vineyard cluster lifecycle and orchestrates shared objects on Kubernetes. It defines CRDs including Vineyardd, Sidecar, GlobalObject, LocalObject, Backup, Reco
   name: Vineyard Kubernetes Operator
   slug: vineyard-kubernetes-operator
-- description: Low-level blob storage operations
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Low-level blob storage operations
   name: Vineyard Blobs API
   slug: vineyard-blobs-api
-- description: Connect to and disconnect from a vineyard server
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Connect to and disconnect from a vineyard server
   name: Vineyard Connection API
   slug: vineyard-connection-api
-- description: Inspect and manage object metadata
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Inspect and manage object metadata
   name: Vineyard Metadata API
   slug: vineyard-metadata-api
-- description: Associate human-readable names with object IDs
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Associate human-readable names with object IDs
   name: Vineyard Names API
   slug: vineyard-names-api
-- description: Store and retrieve in-memory objects
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Store and retrieve in-memory objects
   name: Vineyard Objects API
   slug: vineyard-objects-api
-- description: Persist objects for cross-instance visibility
+- baseURL_template: ipc://{socket}
+  baseurl_source: spec_template
+  description: Persist objects for cross-instance visibility
   name: Vineyard Persistence API
   slug: vineyard-persistence-api
 artifact_total: 32
@@ -270,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vineyard/refs/heads/main/screenshots/vineyard-2026-06-20T201035.png
 security:

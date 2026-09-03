@@ -34,82 +34,132 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analytics API from Arkham — 2 operation(s) for analytics.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Analytics API from Arkham — 2 operation(s) for analytics.
   name: Arkham Analytics API
   slug: arkham-analytics-api
-- description: The Arkm API from Arkham — 1 operation(s) for arkm.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Arkm API from Arkham — 1 operation(s) for arkm.
   name: Arkham Arkm API
   slug: arkham-arkm-api
-- description: The Balances API from Arkham — 4 operation(s) for balances.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Balances API from Arkham — 4 operation(s) for balances.
   name: Arkham Balances API
   slug: arkham-balances-api
-- description: The Chains API from Arkham — 1 operation(s) for chains.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Chains API from Arkham — 1 operation(s) for chains.
   name: Arkham Chains API
   slug: arkham-chains-api
-- description: The Cluster API from Arkham — 1 operation(s) for cluster.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Cluster API from Arkham — 1 operation(s) for cluster.
   name: Arkham Cluster API
   slug: arkham-cluster-api
-- description: The Counterparties API from Arkham — 2 operation(s) for counterparties.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Counterparties API from Arkham — 2 operation(s) for counterparties.
   name: Arkham Counterparties API
   slug: arkham-counterparties-api
-- description: The Flow API from Arkham — 2 operation(s) for flow.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Flow API from Arkham — 2 operation(s) for flow.
   name: Arkham Flow API
   slug: arkham-flow-api
-- description: The History API from Arkham — 2 operation(s) for history.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The History API from Arkham — 2 operation(s) for history.
   name: Arkham History API
   slug: arkham-history-api
-- description: The Hypercore API from Arkham — 15 operation(s) for hypercore.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Hypercore API from Arkham — 15 operation(s) for hypercore.
   name: Arkham Hypercore API
   slug: arkham-hypercore-api
-- description: The Intelligence API from Arkham — 21 operation(s) for intelligence.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Intelligence API from Arkham — 21 operation(s) for intelligence.
   name: Arkham Intelligence API
   slug: arkham-intelligence-api
-- description: The Loans API from Arkham — 2 operation(s) for loans.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Loans API from Arkham — 2 operation(s) for loans.
   name: Arkham Loans API
   slug: arkham-loans-api
-- description: The Marketdata API from Arkham — 1 operation(s) for marketdata.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Marketdata API from Arkham — 1 operation(s) for marketdata.
   name: Arkham Marketdata API
   slug: arkham-marketdata-api
-- description: The Networks API from Arkham — 2 operation(s) for networks.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Networks API from Arkham — 2 operation(s) for networks.
   name: Arkham Networks API
   slug: arkham-networks-api
-- description: The Polymarket API from Arkham — 20 operation(s) for polymarket.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Polymarket API from Arkham — 20 operation(s) for polymarket.
   name: Arkham Polymarket API
   slug: arkham-polymarket-api
-- description: The Portfolio API from Arkham — 4 operation(s) for portfolio.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Portfolio API from Arkham — 4 operation(s) for portfolio.
   name: Arkham Portfolio API
   slug: arkham-portfolio-api
-- description: The Risk API from Arkham — 5 operation(s) for risk.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Risk API from Arkham — 5 operation(s) for risk.
   name: Arkham Risk API
   slug: arkham-risk-api
-- description: The Subscription API from Arkham — 1 operation(s) for subscription.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Subscription API from Arkham — 1 operation(s) for subscription.
   name: Arkham Subscription API
   slug: arkham-subscription-api
-- description: The Swaps API from Arkham — 1 operation(s) for swaps.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Swaps API from Arkham — 1 operation(s) for swaps.
   name: Arkham Swaps API
   slug: arkham-swaps-api
-- description: The Tag API from Arkham — 2 operation(s) for tag.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Tag API from Arkham — 2 operation(s) for tag.
   name: Arkham Tag API
   slug: arkham-tag-api
-- description: The Token API from Arkham — 17 operation(s) for token.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Token API from Arkham — 17 operation(s) for token.
   name: Arkham Token API
   slug: arkham-token-api
-- description: The Transfers API from Arkham — 5 operation(s) for transfers.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Transfers API from Arkham — 5 operation(s) for transfers.
   name: Arkham Transfers API
   slug: arkham-transfers-api
-- description: The Tx API from Arkham — 1 operation(s) for tx.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Tx API from Arkham — 1 operation(s) for tx.
   name: Arkham Tx API
   slug: arkham-tx-api
-- description: The User API from Arkham — 6 operation(s) for user.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The User API from Arkham — 6 operation(s) for user.
   name: Arkham User API
   slug: arkham-user-api
-- description: The Volume API from Arkham — 2 operation(s) for volume.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Volume API from Arkham — 2 operation(s) for volume.
   name: Arkham Volume API
   slug: arkham-volume-api
-- description: The Ws API from Arkham — 8 operation(s) for ws.
+- baseURL: https://api.arkm.com
+  baseurl_source: declared
+  description: The Ws API from Arkham — 8 operation(s) for ws.
   name: Arkham Ws API
   slug: arkham-ws-api
 artifact_total: 58
@@ -337,7 +387,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -347,7 +397,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 53.1
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -364,7 +414,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/screenshots/arkham-2026-07-25T201211.png
 security:

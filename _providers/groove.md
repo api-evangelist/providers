@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -52,31 +52,49 @@ apis:
 - description: Groove's webhook surface delivered through the legacy REST API webhook subscription endpoint. Customers register destination URLs and event types via POST /v1/webhooks; Groove then POSTs JSON payloads
   name: Groove Webhooks
   slug: webhooks
-- description: The Agents API from Groove — 2 operation(s) for agents.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Agents API from Groove — 2 operation(s) for agents.
   name: Groove Agents API
   slug: groove-agents-api
-- description: The Attachments API from Groove — 1 operation(s) for attachments.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Attachments API from Groove — 1 operation(s) for attachments.
   name: Groove Attachments API
   slug: groove-attachments-api
-- description: The Customers API from Groove — 2 operation(s) for customers.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Customers API from Groove — 2 operation(s) for customers.
   name: Groove Customers API
   slug: groove-customers-api
-- description: The Folders API from Groove — 1 operation(s) for folders.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Folders API from Groove — 1 operation(s) for folders.
   name: Groove Folders API
   slug: groove-folders-api
-- description: The Groups API from Groove — 2 operation(s) for groups.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Groups API from Groove — 2 operation(s) for groups.
   name: Groove Groups API
   slug: groove-groups-api
-- description: The Mailboxes API from Groove — 1 operation(s) for mailboxes.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Mailboxes API from Groove — 1 operation(s) for mailboxes.
   name: Groove Mailboxes API
   slug: groove-mailboxes-api
-- description: The Messages API from Groove — 2 operation(s) for messages.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Messages API from Groove — 2 operation(s) for messages.
   name: Groove Messages API
   slug: groove-messages-api
-- description: The Tickets API from Groove — 4 operation(s) for tickets.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Tickets API from Groove — 4 operation(s) for tickets.
   name: Groove Tickets API
   slug: groove-tickets-api
-- description: The Webhooks API from Groove — 2 operation(s) for webhooks.
+- baseURL: https://api.groovehq.com/graphql
+  baseurl_source: declared
+  description: The Webhooks API from Groove — 2 operation(s) for webhooks.
   name: Groove Webhooks API
   slug: groove-webhooks-api
 artifact_total: 29
@@ -203,7 +221,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -213,7 +231,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 5.3
-  previous_composite: 34.6
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/screenshots/groove-2026-06-20T182412.png
 security:

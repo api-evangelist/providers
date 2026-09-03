@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Beneficiary management for third-party payouts
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Beneficiary management for third-party payouts
   name: Grapes Finance Contacts API
   slug: grapes-finance-contacts-api
-- description: Identity verification for individuals and businesses
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Identity verification for individuals and businesses
   name: Grapes Finance KYC API
   slug: grapes-finance-kyc-api
-- description: Fiat-to-stablecoin, stablecoin-to-fiat, and payout orders
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Fiat-to-stablecoin, stablecoin-to-fiat, and payout orders
   name: Grapes Finance Orders API
   slug: grapes-finance-orders-api
-- description: Vineyard Manager API for embedded client management
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Vineyard Manager API for embedded client management
   name: Grapes Finance Organizations API
   slug: grapes-finance-organizations-api
-- description: Account management for users controlling Grapes wallets
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Account management for users controlling Grapes wallets
   name: Grapes Finance Users API
   slug: grapes-finance-users-api
-- description: Custodial and non-custodial cryptocurrency wallet operations
+- baseURL: https://api.demo.grapesfinance.com
+  baseurl_source: declared
+  description: Custodial and non-custodial cryptocurrency wallet operations
   name: Grapes Finance Wallets API
   slug: grapes-finance-wallets-api
 artifact_total: 23
@@ -202,7 +214,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/screenshots/grapes-finance-2026-06-20T182322.png
 security:

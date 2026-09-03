@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 57 operations · 29 acting
 api_count: 1
 apis:
-- description: The Access API from Edge Delta — 2 operation(s) for access.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Access API from Edge Delta — 2 operation(s) for access.
   name: Edge Delta Access API
   slug: edge-delta-access-api
-- description: The Add Source API from Edge Delta — 1 operation(s) for add source.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Add Source API from Edge Delta — 1 operation(s) for add source.
   name: Edge Delta Add Source API
   slug: edge-delta-add-source-api
-- description: The Agent Configs API from Edge Delta — 3 operation(s) for agent configs.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Agent Configs API from Edge Delta — 3 operation(s) for agent configs.
   name: Edge Delta Agent Configs API
   slug: edge-delta-agent-configs-api
-- description: The AI API from Edge Delta — 10 operation(s) for ai.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The AI API from Edge Delta — 10 operation(s) for ai.
   name: Edge Delta AI API
   slug: edge-delta-ai-api
-- description: The Event Search API from Edge Delta — 1 operation(s) for event search.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Event Search API from Edge Delta — 1 operation(s) for event search.
   name: Edge Delta Event Search API
   slug: edge-delta-event-search-api
-- description: The Get Dashboard API from Edge Delta — 1 operation(s) for get dashboard.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Get Dashboard API from Edge Delta — 1 operation(s) for get dashboard.
   name: Edge Delta Get Dashboard API
   slug: edge-delta-get-dashboard-api
-- description: The Get Dashboards API from Edge Delta — 1 operation(s) for get dashboards.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Get Dashboards API from Edge Delta — 1 operation(s) for get dashboards.
   name: Edge Delta Get Dashboards API
   slug: edge-delta-get-dashboards-api
-- description: The Get Metrics API from Edge Delta — 1 operation(s) for get metrics.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Get Metrics API from Edge Delta — 1 operation(s) for get metrics.
   name: Edge Delta Get Metrics API
   slug: edge-delta-get-metrics-api
-- description: The Group Members API from Edge Delta — 2 operation(s) for group members.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Group Members API from Edge Delta — 2 operation(s) for group members.
   name: Edge Delta Group Members API
   slug: edge-delta-group-members-api
-- description: The Groups API from Edge Delta — 3 operation(s) for groups.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Groups API from Edge Delta — 3 operation(s) for groups.
   name: Edge Delta Groups API
   slug: edge-delta-groups-api
-- description: The Integrations API from Edge Delta — 5 operation(s) for integrations.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Integrations API from Edge Delta — 5 operation(s) for integrations.
   name: Edge Delta Integrations API
   slug: edge-delta-integrations-api
-- description: The Log Search API from Edge Delta — 5 operation(s) for log search.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Log Search API from Edge Delta — 5 operation(s) for log search.
   name: Edge Delta Log Search API
   slug: edge-delta-log-search-api
-- description: The Lookup Tables API from Edge Delta — 4 operation(s) for lookup tables.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Lookup Tables API from Edge Delta — 4 operation(s) for lookup tables.
   name: Edge Delta Lookup Tables API
   slug: edge-delta-lookup-tables-api
-- description: The Pattern Stats API from Edge Delta — 1 operation(s) for pattern stats.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Pattern Stats API from Edge Delta — 1 operation(s) for pattern stats.
   name: Edge Delta Pattern Stats API
   slug: edge-delta-pattern-stats-api
-- description: The Pipeline API from Edge Delta — 4 operation(s) for pipeline.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Pipeline API from Edge Delta — 4 operation(s) for pipeline.
   name: Edge Delta Pipeline API
   slug: edge-delta-pipeline-api
-- description: The Public API from Edge Delta — 2 operation(s) for public.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Public API from Edge Delta — 2 operation(s) for public.
   name: Edge Delta Public API
   slug: edge-delta-public-api
-- description: The Rehydrations API from Edge Delta — 5 operation(s) for rehydrations.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Rehydrations API from Edge Delta — 5 operation(s) for rehydrations.
   name: Edge Delta Rehydrations API
   slug: edge-delta-rehydrations-api
-- description: The ServedByMCP API from Edge Delta — 8 operation(s) for servedbymcp.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The ServedByMCP API from Edge Delta — 8 operation(s) for servedbymcp.
   name: Edge Delta ServedByMCP API
   slug: edge-delta-servedbymcp-api
-- description: The Users API from Edge Delta — 2 operation(s) for users.
+- baseURL: https://api.edgedelta.com
+  baseurl_source: declared
+  description: The Users API from Edge Delta — 2 operation(s) for users.
   name: Edge Delta Users API
   slug: edge-delta-users-api
 artifact_total: 44
@@ -330,7 +368,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:

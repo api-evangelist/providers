@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -56,34 +56,54 @@ apis:
 - description: The UserDB API provides first-party audience and user data management, enabling customers to read and write user keys, custom properties, interests, and audience segment membership for targeting in th
   name: Kevel UserDB API
   slug: userdb-api
-- description: Manage ads.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage ads.
   name: Kevel Ads API
   slug: kevel-ads-api
-- description: Manage advertiser accounts.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage advertiser accounts.
   name: Kevel Advertisers API
   slug: kevel-advertisers-api
-- description: Manage campaigns.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage campaigns.
   name: Kevel Campaigns API
   slug: kevel-campaigns-api
-- description: Manage channels.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage channels.
   name: Kevel Channels API
   slug: kevel-channels-api
-- description: Manage creatives.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage creatives.
   name: Kevel Creatives API
   slug: kevel-creatives-api
-- description: Request ad decisions and creatives.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Request ad decisions and creatives.
   name: Kevel Decision API
   slug: kevel-decision-api
-- description: Manage flights (line items).
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage flights (line items).
   name: Kevel Flights API
   slug: kevel-flights-api
-- description: Queue and retrieve performance reports.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Queue and retrieve performance reports.
   name: Kevel Reporting API
   slug: kevel-reporting-api
-- description: Manage sites.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage sites.
   name: Kevel Sites API
   slug: kevel-sites-api
-- description: Manage zones.
+- baseURL: https://api.kevel.co/v1
+  baseurl_source: spec
+  description: Manage zones.
   name: Kevel Zones API
   slug: kevel-zones-api
 artifact_total: 33
@@ -233,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kevel/refs/heads/main/screenshots/kevel-2026-06-20T184002.png
 security:

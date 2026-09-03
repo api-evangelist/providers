@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 40 operations · 22 acting
 api_count: 3
 apis:
-- description: The Blink API from Dialect — 2 operation(s) for blink.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Blink API from Dialect — 2 operation(s) for blink.
   name: Dialect Blink API
   slug: dialect-blink-api
-- description: The Blink Data Table API from Dialect — 1 operation(s) for blink data table.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Blink Data Table API from Dialect — 1 operation(s) for blink data table.
   name: Dialect Blink Data Table API
   slug: dialect-blink-data-table-api
-- description: The Blink Lists API from Dialect — 1 operation(s) for blink lists.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Blink Lists API from Dialect — 1 operation(s) for blink lists.
   name: Dialect Blink Lists API
   slug: dialect-blink-lists-api
-- description: The Blink Preview API from Dialect — 1 operation(s) for blink preview.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Blink Preview API from Dialect — 1 operation(s) for blink preview.
   name: Dialect Blink Preview API
   slug: dialect-blink-preview-api
-- description: The Channels API from Dialect — 7 operation(s) for channels.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Channels API from Dialect — 7 operation(s) for channels.
   name: Dialect Channels API
   slug: dialect-channels-api
-- description: The Inbox API from Dialect — 17 operation(s) for inbox.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Inbox API from Dialect — 17 operation(s) for inbox.
   name: Dialect Inbox API
   slug: dialect-inbox-api
-- description: The Markets API from Dialect — 3 operation(s) for markets.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Markets API from Dialect — 3 operation(s) for markets.
   name: Dialect Markets API
   slug: dialect-markets-api
-- description: The Positions API from Dialect — 3 operation(s) for positions.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Positions API from Dialect — 3 operation(s) for positions.
   name: Dialect Positions API
   slug: dialect-positions-api
-- description: The Send API from Dialect — 4 operation(s) for send.
+- baseURL: https://alerts-api.dial.to
+  baseurl_source: declared
+  description: The Send API from Dialect — 4 operation(s) for send.
   name: Dialect Send API
   slug: dialect-send-api
 artifact_total: 23
@@ -260,7 +278,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -270,7 +288,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,7 +306,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/screenshots/dialect-2026-07-25T211909.png
 security:

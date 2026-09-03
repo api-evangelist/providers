@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Autocomplete API from Tenor — 1 operation(s) for autocomplete.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Autocomplete API from Tenor — 1 operation(s) for autocomplete.
   name: Tenor Autocomplete API
   slug: tenor-autocomplete-api
-- description: The Categories API from Tenor — 1 operation(s) for categories.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Categories API from Tenor — 1 operation(s) for categories.
   name: Tenor Categories API
   slug: tenor-categories-api
-- description: The Featured API from Tenor — 1 operation(s) for featured.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Featured API from Tenor — 1 operation(s) for featured.
   name: Tenor Featured API
   slug: tenor-featured-api
-- description: The Posts API from Tenor — 1 operation(s) for posts.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Posts API from Tenor — 1 operation(s) for posts.
   name: Tenor Posts API
   slug: tenor-posts-api
-- description: The Registershare API from Tenor — 1 operation(s) for registershare.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Registershare API from Tenor — 1 operation(s) for registershare.
   name: Tenor Registershare API
   slug: tenor-registershare-api
-- description: The Search API from Tenor — 1 operation(s) for search.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Search API from Tenor — 1 operation(s) for search.
   name: Tenor Search API
   slug: tenor-search-api
-- description: The Search Suggestions API from Tenor — 1 operation(s) for search suggestions.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Search Suggestions API from Tenor — 1 operation(s) for search suggestions.
   name: Tenor Search Suggestions API
   slug: tenor-search-suggestions-api
-- description: The Trending Terms API from Tenor — 1 operation(s) for trending terms.
+- baseURL: https://tenor.googleapis.com/v2
+  baseurl_source: declared
+  description: The Trending Terms API from Tenor — 1 operation(s) for trending terms.
   name: Tenor Trending Terms API
   slug: tenor-trending-terms-api
 artifact_total: 34
@@ -237,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/screenshots/tenor-2026-06-20T195116.png
 security:

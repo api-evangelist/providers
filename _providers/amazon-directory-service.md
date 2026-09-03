@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 7
@@ -44,205 +44,339 @@ agentic_access:
   summary_line: 67 operations · 67 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.acceptshareddirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.acceptshareddirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.AcceptSharedDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-acceptshareddirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.AddIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addiproutes.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.AddIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addiproutes.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.AddIpRoutes API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-addiproutes-api
-- description: 'The #X Amz Target=DirectoryService 20150416.AddRegion API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addregion.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.AddRegion API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addregion.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.AddRegion API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-addregion-api
-- description: 'The #X Amz Target=DirectoryService 20150416.AddTagsToResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addtagstoresource.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.AddTagsToResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.addtagstoresource.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.AddTagsToResource API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-addtagstoresource-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CancelSchemaExtension API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.cancelschemaextension.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CancelSchemaExtension API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.cancelschemaextension.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CancelSchemaExtension API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-cancelschemaextension-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ConnectDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.connectdirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ConnectDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.connectdirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ConnectDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-connectdirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateAlias API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createalias.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateAlias API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createalias.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateAlias API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createalias-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateComputer API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createcomputer.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateComputer API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createcomputer.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateComputer API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createcomputer-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createconditionalforwarder.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createconditionalforwarder.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateConditionalForwarder API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createconditionalforwarder-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createdirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createdirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createdirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateLogSubscription API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createlogsubscription.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateLogSubscription API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createlogsubscription.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateLogSubscription API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createlogsubscription-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateMicrosoftAD API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createmicrosoftad.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateMicrosoftAD API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createmicrosoftad.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateMicrosoftAD API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createmicrosoftad-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createsnapshot.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createsnapshot.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateSnapshot API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createsnapshot-api
-- description: 'The #X Amz Target=DirectoryService 20150416.CreateTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createtrust.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.CreateTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.createtrust.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.CreateTrust API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-createtrust-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeleteConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deleteconditionalforwarder.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeleteConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deleteconditionalforwarder.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeleteConditionalForwarder API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deleteconditionalforwarder-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeleteDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletedirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeleteDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletedirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeleteDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deletedirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeleteLogSubscription API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletelogsubscription.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeleteLogSubscription API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletelogsubscription.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeleteLogSubscription API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deletelogsubscription-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeleteSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletesnapshot.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeleteSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletesnapshot.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeleteSnapshot API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deletesnapshot-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeleteTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletetrust.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeleteTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deletetrust.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeleteTrust API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deletetrust-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeregisterCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deregistercertificate.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeregisterCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deregistercertificate.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeregisterCertificate API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deregistercertificate-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DeregisterEventTopic API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deregistereventtopic.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DeregisterEventTopic API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.deregistereventtopic.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DeregisterEventTopic API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-deregistereventtopic-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describecertificate.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describecertificate.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeCertificate API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describecertificate-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeClientAuthenticationSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeclientauthentica'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeClientAuthenticationSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeclientauthentica'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeClientAuthenticationSettings API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeclientauthenticationsettings-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeConditionalForwarders API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeconditionalforwarders.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeConditionalForwarders API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeconditionalforwarders.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeConditionalForwarders API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeconditionalforwarders-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeDirectories API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describedirectories.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeDirectories API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describedirectories.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeDirectories API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describedirectories-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeDomainControllers API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describedomaincontrollers.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeDomainControllers API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describedomaincontrollers.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeDomainControllers API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describedomaincontrollers-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeEventTopics API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeeventtopics.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeEventTopics API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeeventtopics.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeEventTopics API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeeventtopics-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeLDAPSSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeldapssettings.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeLDAPSSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeldapssettings.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeLDAPSSettings API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeldapssettings-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeRegions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeregions.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeRegions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeregions.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeRegions API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeregions-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describesettings.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describesettings.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeSettings API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describesettings-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeSharedDirectories API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeshareddirectories.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeSharedDirectories API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeshareddirectories.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeSharedDirectories API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeshareddirectories-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeSnapshots API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describesnapshots.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeSnapshots API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describesnapshots.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeSnapshots API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describesnapshots-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeTrusts API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describetrusts.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeTrusts API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describetrusts.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeTrusts API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describetrusts-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DescribeUpdateDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeupdatedirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DescribeUpdateDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.describeupdatedirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DescribeUpdateDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-describeupdatedirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DisableClientAuthentication API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableclientauthentication.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DisableClientAuthentication API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableclientauthentication.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DisableClientAuthentication API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-disableclientauthentication-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DisableLDAPS API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableldaps.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DisableLDAPS API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableldaps.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DisableLDAPS API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-disableldaps-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DisableRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableradius.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DisableRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disableradius.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DisableRadius API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-disableradius-api
-- description: 'The #X Amz Target=DirectoryService 20150416.DisableSso API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disablesso.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.DisableSso API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.disablesso.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.DisableSso API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-disablesso-api
-- description: 'The #X Amz Target=DirectoryService 20150416.EnableClientAuthentication API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableclientauthentication.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.EnableClientAuthentication API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableclientauthentication.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.EnableClientAuthentication API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-enableclientauthentication-api
-- description: 'The #X Amz Target=DirectoryService 20150416.EnableLDAPS API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableldaps.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.EnableLDAPS API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableldaps.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.EnableLDAPS API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-enableldaps-api
-- description: 'The #X Amz Target=DirectoryService 20150416.EnableRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableradius.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.EnableRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enableradius.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.EnableRadius API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-enableradius-api
-- description: 'The #X Amz Target=DirectoryService 20150416.EnableSso API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enablesso.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.EnableSso API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.enablesso.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.EnableSso API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-enablesso-api
-- description: 'The #X Amz Target=DirectoryService 20150416.GetDirectoryLimits API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.getdirectorylimits.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.GetDirectoryLimits API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.getdirectorylimits.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.GetDirectoryLimits API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-getdirectorylimits-api
-- description: 'The #X Amz Target=DirectoryService 20150416.GetSnapshotLimits API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.getsnapshotlimits.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.GetSnapshotLimits API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.getsnapshotlimits.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.GetSnapshotLimits API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-getsnapshotlimits-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ListCertificates API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listcertificates.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ListCertificates API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listcertificates.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ListCertificates API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-listcertificates-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ListIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listiproutes.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ListIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listiproutes.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ListIpRoutes API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-listiproutes-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ListLogSubscriptions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listlogsubscriptions.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ListLogSubscriptions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listlogsubscriptions.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ListLogSubscriptions API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-listlogsubscriptions-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ListSchemaExtensions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listschemaextensions.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ListSchemaExtensions API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listschemaextensions.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ListSchemaExtensions API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-listschemaextensions-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ListTagsForResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listtagsforresource.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ListTagsForResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.listtagsforresource.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ListTagsForResource API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-listtagsforresource-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RegisterCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.registercertificate.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RegisterCertificate API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.registercertificate.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RegisterCertificate API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-registercertificate-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RegisterEventTopic API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.registereventtopic.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RegisterEventTopic API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.registereventtopic.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RegisterEventTopic API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-registereventtopic-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RejectSharedDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.rejectshareddirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RejectSharedDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.rejectshareddirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RejectSharedDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-rejectshareddirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RemoveIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removeiproutes.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RemoveIpRoutes API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removeiproutes.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RemoveIpRoutes API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-removeiproutes-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RemoveRegion API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removeregion.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RemoveRegion API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removeregion.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RemoveRegion API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-removeregion-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RemoveTagsFromResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removetagsfromresource.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RemoveTagsFromResource API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.removetagsfromresource.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RemoveTagsFromResource API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-removetagsfromresource-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ResetUserPassword API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.resetuserpassword.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ResetUserPassword API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.resetuserpassword.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ResetUserPassword API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-resetuserpassword-api
-- description: 'The #X Amz Target=DirectoryService 20150416.RestoreFromSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.restorefromsnapshot.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.RestoreFromSnapshot API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.restorefromsnapshot.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.RestoreFromSnapshot API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-restorefromsnapshot-api
-- description: 'The #X Amz Target=DirectoryService 20150416.ShareDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.sharedirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.ShareDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.sharedirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.ShareDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-sharedirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.StartSchemaExtension API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.startschemaextension.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.StartSchemaExtension API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.startschemaextension.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.StartSchemaExtension API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-startschemaextension-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UnshareDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.unsharedirectory.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UnshareDirectory API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.unsharedirectory.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UnshareDirectory API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-unsharedirectory-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updateconditionalforwarder.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateConditionalForwarder API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updateconditionalforwarder.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateConditionalForwarder API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updateconditionalforwarder-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateDirectorySetup API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatedirectorysetup.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateDirectorySetup API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatedirectorysetup.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateDirectorySetup API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updatedirectorysetup-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateNumberOfDomainControllers API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatenumberofdomaincontrolle'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateNumberOfDomainControllers API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatenumberofdomaincontrolle'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateNumberOfDomainControllers API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updatenumberofdomaincontrollers-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updateradius.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateRadius API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updateradius.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateRadius API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updateradius-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatesettings.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateSettings API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatesettings.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateSettings API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updatesettings-api
-- description: 'The #X Amz Target=DirectoryService 20150416.UpdateTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatetrust.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.UpdateTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.updatetrust.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.UpdateTrust API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-updatetrust-api
-- description: 'The #X Amz Target=DirectoryService 20150416.VerifyTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.verifytrust.'
+- baseURL: https://ds.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=DirectoryService 20150416.VerifyTrust API from Amazon Directory Service — 1 operation(s) for #x amz target=directoryservice 20150416.verifytrust.'
   name: 'Amazon Directory Service #X Amz Target=DirectoryService 20150416.VerifyTrust API'
   slug: amazon-directory-service-x-amz-target-directoryservice-20150416-verifytrust-api
 artifact_total: 301
@@ -1070,7 +1204,7 @@ score:
       marker_coverage: 0.0
       total: 67
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/screenshots/amazon-directory-service-2026-06-20T171625.png
 security:

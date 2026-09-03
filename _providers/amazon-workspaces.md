@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -44,199 +44,329 @@ agentic_access:
   summary_line: 65 operations · 65 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=WorkspacesService.AssociateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.associateconnectionalias.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.AssociateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.associateconnectionalias.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-associateconnectionalias-api
-- description: 'The #X Amz Target=WorkspacesService.AssociateIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.associateipgroups.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.AssociateIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.associateipgroups.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateIpGroups API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-associateipgroups-api
-- description: 'The #X Amz Target=WorkspacesService.AuthorizeIpRules API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.authorizeiprules.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.AuthorizeIpRules API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.authorizeiprules.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AuthorizeIpRules API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-authorizeiprules-api
-- description: 'The #X Amz Target=WorkspacesService.CopyWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.copyworkspaceimage.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CopyWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.copyworkspaceimage.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CopyWorkspaceImage API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-copyworkspaceimage-api
-- description: 'The #X Amz Target=WorkspacesService.CreateConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createconnectclientaddin.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createconnectclientaddin.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateConnectClientAddIn API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createconnectclientaddin-api
-- description: 'The #X Amz Target=WorkspacesService.CreateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createconnectionalias.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createconnectionalias.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateConnectionAlias API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createconnectionalias-api
-- description: 'The #X Amz Target=WorkspacesService.CreateIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createipgroup.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createipgroup.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateIpGroup API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createipgroup-api
-- description: 'The #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createstandbyworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createstandbyworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateStandbyWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createstandbyworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.CreateTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createtags.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createtags.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateTags API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createtags-api
-- description: 'The #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createupdatedworkspaceimage.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createupdatedworkspaceimage.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateUpdatedWorkspaceImage API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createupdatedworkspaceimage-api
-- description: 'The #X Amz Target=WorkspacesService.CreateWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspacebundle.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspacebundle.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaceBundle API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspacebundle-api
-- description: 'The #X Amz Target=WorkspacesService.CreateWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspaceimage.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspaceimage.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaceImage API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspaceimage-api
-- description: 'The #X Amz Target=WorkspacesService.CreateWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.CreateWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.createworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.CreateWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-createworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteclientbranding.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteclientbranding.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteClientBranding API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteclientbranding-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteconnectclientaddin.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteconnectclientaddin.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteConnectClientAddIn API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectclientaddin-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteconnectionalias.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteconnectionalias.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteConnectionAlias API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteconnectionalias-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteipgroup.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteipgroup.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteIpGroup API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteipgroup-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deletetags.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deletetags.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteTags API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deletetags-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteworkspacebundle.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteworkspacebundle.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteWorkspaceBundle API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspacebundle-api
-- description: 'The #X Amz Target=WorkspacesService.DeleteWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteworkspaceimage.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeleteWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deleteworkspaceimage.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeleteWorkspaceImage API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deleteworkspaceimage-api
-- description: 'The #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deregisterworkspacedirectory.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.deregisterworkspacedirectory.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DeregisterWorkspaceDirectory API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-deregisterworkspacedirectory-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeAccount API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeaccount.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeAccount API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeaccount.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeAccount API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeaccount-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeAccountModifications API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeaccountmodifications.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeAccountModifications API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeaccountmodifications.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeAccountModifications API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeaccountmodifications-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeclientbranding.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeclientbranding.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeClientBranding API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeclientbranding-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeClientProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeclientproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeClientProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeclientproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeClientProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeclientproperties-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectclientaddins.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectclientaddins.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectClientAddIns API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectclientaddins-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeConnectionAliases API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectionaliases.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeConnectionAliases API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectionaliases.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectionAliases API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliases-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectionaliaspermissions.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeconnectionaliaspermissions.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeConnectionAliasPermissions API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeconnectionaliaspermissions-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeipgroups.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeipgroups.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeIpGroups API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeipgroups-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describetags.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeTags API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describetags.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeTags API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describetags-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacebundles.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacebundles.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceBundles API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacebundles-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacedirectories.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacedirectories.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceDirectories API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacedirectories-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaceimagepermissions.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaceimagepermissions.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceImagePermissions API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimagepermissions-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceImages API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaceimages.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceImages API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaceimages.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceImages API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaceimages-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacesconnectionstatus.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacesconnectionstatus.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspacesConnectionStatus API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesconnectionstatus-api
-- description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacesnapshots.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.describeworkspacesnapshots.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DescribeWorkspaceSnapshots API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-describeworkspacesnapshots-api
-- description: 'The #X Amz Target=WorkspacesService.DisassociateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.disassociateconnectionalias.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DisassociateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.disassociateconnectionalias.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DisassociateConnectionAlias API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-disassociateconnectionalias-api
-- description: 'The #X Amz Target=WorkspacesService.DisassociateIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.disassociateipgroups.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.DisassociateIpGroups API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.disassociateipgroups.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.DisassociateIpGroups API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-disassociateipgroups-api
-- description: 'The #X Amz Target=WorkspacesService.ImportClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.importclientbranding.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ImportClientBranding API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.importclientbranding.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ImportClientBranding API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-importclientbranding-api
-- description: 'The #X Amz Target=WorkspacesService.ImportWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.importworkspaceimage.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ImportWorkspaceImage API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.importworkspaceimage.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ImportWorkspaceImage API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-importworkspaceimage-api
-- description: 'The #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.listavailablemanagementcidrranges.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.listavailablemanagementcidrranges.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ListAvailableManagementCidrRanges API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-listavailablemanagementcidrranges-api
-- description: 'The #X Amz Target=WorkspacesService.MigrateWorkspace API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.migrateworkspace.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.MigrateWorkspace API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.migrateworkspace.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.MigrateWorkspace API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-migrateworkspace-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyAccount API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyaccount.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyAccount API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyaccount.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyAccount API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyaccount-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifycertificatebasedauthproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifycertificatebasedauthproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyCertificateBasedAuthProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifycertificatebasedauthproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyClientProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyclientproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyClientProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyclientproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyClientProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyclientproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifySamlProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifysamlproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifySamlProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifysamlproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifySamlProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifysamlproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifySelfservicePermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyselfservicepermissions.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifySelfservicePermissions API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyselfservicepermissions.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifySelfservicePermissions API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyselfservicepermissions-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspaceaccessproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspaceaccessproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceAccessProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceaccessproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspacecreationproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspacecreationproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceCreationProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacecreationproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspaceproperties.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspaceproperties.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceProperties API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspaceproperties-api
-- description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceState API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspacestate.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.ModifyWorkspaceState API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.modifyworkspacestate.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.ModifyWorkspaceState API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-modifyworkspacestate-api
-- description: 'The #X Amz Target=WorkspacesService.RebootWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.rebootworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.RebootWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.rebootworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RebootWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-rebootworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.RebuildWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.rebuildworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.RebuildWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.rebuildworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RebuildWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-rebuildworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.registerworkspacedirectory.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.registerworkspacedirectory.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RegisterWorkspaceDirectory API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-registerworkspacedirectory-api
-- description: 'The #X Amz Target=WorkspacesService.RestoreWorkspace API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.restoreworkspace.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.RestoreWorkspace API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.restoreworkspace.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RestoreWorkspace API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-restoreworkspace-api
-- description: 'The #X Amz Target=WorkspacesService.RevokeIpRules API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.revokeiprules.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.RevokeIpRules API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.revokeiprules.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.RevokeIpRules API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-revokeiprules-api
-- description: 'The #X Amz Target=WorkspacesService.StartWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.startworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.StartWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.startworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.StartWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-startworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.StopWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.stopworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.StopWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.stopworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.StopWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-stopworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.TerminateWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.terminateworkspaces.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.TerminateWorkspaces API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.terminateworkspaces.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.TerminateWorkspaces API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-terminateworkspaces-api
-- description: 'The #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateconnectclientaddin.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateconnectclientaddin.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateConnectClientAddIn API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateconnectclientaddin-api
-- description: 'The #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateconnectionaliaspermission.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateconnectionaliaspermission.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateConnectionAliasPermission API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateconnectionaliaspermission-api
-- description: 'The #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updaterulesofipgroup.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updaterulesofipgroup.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateRulesOfIpGroup API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updaterulesofipgroup-api
-- description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspacebundle.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspacebundle.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceBundle API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspacebundle-api
-- description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspaceimagepermission.'
+- baseURL: https://workspaces.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.updateworkspaceimagepermission.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
   slug: amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
 artifact_total: 1037
@@ -3276,7 +3406,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:

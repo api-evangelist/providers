@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Dedicated endpoint to Accounts.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Accounts.
   name: Vectra AI Accounts API
   slug: vectranetworks-accounts-api
-- description: Dedicated endpoint to Assignment Outcomes.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Assignment Outcomes.
   name: Vectra AI Assignment Outcomes API
   slug: vectranetworks-assignment-outcomes-api
-- description: Dedicated endpoint to Assignments.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Assignments.
   name: Vectra AI Assignments API
   slug: vectranetworks-assignments-api
-- description: Dedicated endpoint to Detections.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Detections.
   name: Vectra AI Detections API
   slug: vectranetworks-detections-api
-- description: The Entities API from Vectra AI — 4 operation(s) for entities.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Entities API from Vectra AI — 4 operation(s) for entities.
   name: Vectra AI Entities API
   slug: vectranetworks-entities-api
-- description: The Events API from Vectra AI — 3 operation(s) for events.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Events API from Vectra AI — 3 operation(s) for events.
   name: Vectra AI Events API
   slug: vectranetworks-events-api
-- description: The Groups API from Vectra AI — 1 operation(s) for groups.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Groups API from Vectra AI — 1 operation(s) for groups.
   name: Vectra AI Groups API
   slug: vectranetworks-groups-api
-- description: The Health API from Vectra AI — 1 operation(s) for health.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Health API from Vectra AI — 1 operation(s) for health.
   name: Vectra AI Health API
   slug: vectranetworks-health-api
-- description: Dedicated endpoint to Hosts.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Hosts.
   name: Vectra AI Hosts API
   slug: vectranetworks-hosts-api
-- description: The Lockdown API from Vectra AI — 1 operation(s) for lockdown.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Lockdown API from Vectra AI — 1 operation(s) for lockdown.
   name: Vectra AI Lockdown API
   slug: vectranetworks-lockdown-api
-- description: The Match API from Vectra AI — 7 operation(s) for match.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The Match API from Vectra AI — 7 operation(s) for match.
   name: Vectra AI Match API
   slug: vectranetworks-match-api
-- description: Manage entities notes
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Manage entities notes
   name: Vectra AI Notes API
   slug: vectranetworks-notes-api
-- description: Dedicated endpoint to Proxies
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Proxies
   name: Vectra AI Proxies API
   slug: vectranetworks-proxies-api
-- description: Dedicated endpoint to run searches among entities
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to run searches among entities
   name: Vectra AI Search API
   slug: vectranetworks-search-api
-- description: Dedicated endpoint to manage entities's tags
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to manage entities's tags
   name: Vectra AI Tagging API
   slug: vectranetworks-tagging-api
-- description: The threatFeeds endpoint can be used to automate the upload of STIX files for threat intelligence matching. This endpoint can also be used to retrieve the current list of threatFeed objects already co
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: The threatFeeds endpoint can be used to automate the upload of STIX files for threat intelligence matching. This endpoint can also be used to retrieve the current list of threatFeed objects already co
   name: Vectra AI Threat Feeds API
   slug: vectranetworks-threat-feeds-api
-- description: Dedicated endpoint to Users.
+- baseURL: https://platform.vectra.ai/api/v3.3
+  baseurl_source: declared
+  description: Dedicated endpoint to Users.
   name: Vectra AI Users API
   slug: vectranetworks-users-api
 artifact_total: 40
@@ -274,7 +308,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -299,8 +333,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vectranetworks/refs/heads/main/screenshots/vectranetworks-2026-09-02T165546.png
 security:
 - kind: authentication
   name: Vectranetworks Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Categories.php API from TheMealDB — 1 operation(s) for categories.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The Categories.php API from TheMealDB — 1 operation(s) for categories.php.
   name: TheMealDB Categories.php API
   slug: mealdb-categories-php-api
-- description: The Filter.php API from TheMealDB — 1 operation(s) for filter.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The Filter.php API from TheMealDB — 1 operation(s) for filter.php.
   name: TheMealDB Filter.php API
   slug: mealdb-filter-php-api
-- description: The List.php API from TheMealDB — 1 operation(s) for list.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The List.php API from TheMealDB — 1 operation(s) for list.php.
   name: TheMealDB List.php API
   slug: mealdb-list-php-api
-- description: The Lookup.php API from TheMealDB — 1 operation(s) for lookup.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The Lookup.php API from TheMealDB — 1 operation(s) for lookup.php.
   name: TheMealDB Lookup.php API
   slug: mealdb-lookup-php-api
-- description: Premium-only endpoints requiring a paid lifetime supporter API key
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Premium-only endpoints requiring a paid lifetime supporter API key
   name: TheMealDB Premium API
   slug: mealdb-premium-api
-- description: The Random.php API from TheMealDB — 1 operation(s) for random.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The Random.php API from TheMealDB — 1 operation(s) for random.php.
   name: TheMealDB Random.php API
   slug: mealdb-random-php-api
-- description: The Search.php API from TheMealDB — 1 operation(s) for search.php.
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: The Search.php API from TheMealDB — 1 operation(s) for search.php.
   name: TheMealDB Search.php API
   slug: mealdb-search-php-api
 artifact_total: 28
@@ -240,7 +254,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/screenshots/mealdb-2026-06-20T185110.png
 security:

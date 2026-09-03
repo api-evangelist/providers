@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,79 +35,127 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: These operations are direct interactions with the GalaChain blockchain, with the GalaConnect API doing little more than proxying your request.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: These operations are direct interactions with the GalaChain blockchain, with the GalaConnect API doing little more than proxying your request.
   name: 'Gala Games API: GalaChain Operations API'
   slug: gala-games-api-galachain-operations-api
-- description: 'The API: GalaConnect Operations API from Gala Games — 11 operation(s) for api: galaconnect operations.'
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: 'The API: GalaConnect Operations API from Gala Games — 11 operation(s) for api: galaconnect operations.'
   name: 'Gala Games API: GalaConnect Operations API'
   slug: gala-games-api-galaconnect-operations-api
-- description: The coin-gecko API from Gala Games — 6 operation(s) for coin-gecko.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The coin-gecko API from Gala Games — 6 operation(s) for coin-gecko.
   name: Gala Games Coin Gecko API
   slug: gala-games-coin-gecko-api
-- description: The competition API from Gala Games — 8 operation(s) for competition.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The competition API from Gala Games — 8 operation(s) for competition.
   name: Gala Games Competition API
   slug: gala-games-competition-api
-- description: The explore API from Gala Games — 6 operation(s) for explore.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The explore API from Gala Games — 6 operation(s) for explore.
   name: Gala Games Explore API
   slug: gala-games-explore-api
-- description: The Explorer API from Gala Games — 16 operation(s) for explorer.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The Explorer API from Gala Games — 16 operation(s) for explorer.
   name: Gala Games Explorer API
   slug: gala-games-explorer-api
-- description: The ExtensionVersion API from Gala Games — 1 operation(s) for extensionversion.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The ExtensionVersion API from Gala Games — 1 operation(s) for extensionversion.
   name: Gala Games Extension Version API
   slug: gala-games-extensionversion-api
-- description: These are operations that you should generally do via the GalaConnect website client. Nonetheless, they are documented here for completeness. These APIs are **not** likely to remain stable and you sho
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: These are operations that you should generally do via the GalaConnect website client. Nonetheless, they are documented here for completeness. These APIs are **not** likely to remain stable and you sho
   name: Gala Games GalaConnect Client Operations API
   slug: gala-games-galaconnect-client-operations-api
-- description: The Health API from Gala Games — 1 operation(s) for health.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The Health API from Gala Games — 1 operation(s) for health.
   name: Gala Games Health API
   slug: gala-games-health-api
-- description: The incentive API from Gala Games — 8 operation(s) for incentive.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The incentive API from Gala Games — 8 operation(s) for incentive.
   name: Gala Games Incentive API
   slug: gala-games-incentive-api
-- description: The leaderboard API from Gala Games — 4 operation(s) for leaderboard.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The leaderboard API from Gala Games — 4 operation(s) for leaderboard.
   name: Gala Games Leaderboard API
   slug: gala-games-leaderboard-api
-- description: The market API from Gala Games — 6 operation(s) for market.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The market API from Gala Games — 6 operation(s) for market.
   name: Gala Games Market API
   slug: gala-games-market-api
-- description: The marketplace API from Gala Games — 2 operation(s) for marketplace.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The marketplace API from Gala Games — 2 operation(s) for marketplace.
   name: Gala Games Marketplace API
   slug: gala-games-marketplace-api
-- description: The Methods API from Gala Games — 71 operation(s) for methods.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The Methods API from Gala Games — 71 operation(s) for methods.
   name: Gala Games Methods API
   slug: gala-games-methods-api
-- description: The onboarding API from Gala Games — 1 operation(s) for onboarding.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The onboarding API from Gala Games — 1 operation(s) for onboarding.
   name: Gala Games Onboarding API
   slug: gala-games-onboarding-api
-- description: The pairs API from Gala Games — 2 operation(s) for pairs.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The pairs API from Gala Games — 2 operation(s) for pairs.
   name: Gala Games Pairs API
   slug: gala-games-pairs-api
-- description: The price-oracle API from Gala Games — 1 operation(s) for price-oracle.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The price-oracle API from Gala Games — 1 operation(s) for price-oracle.
   name: Gala Games Price Oracle API
   slug: gala-games-price-oracle-api
-- description: The protocol-fee-sweep API from Gala Games — 2 operation(s) for protocol-fee-sweep.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The protocol-fee-sweep API from Gala Games — 2 operation(s) for protocol-fee-sweep.
   name: Gala Games Protocol Fee Sweep API
   slug: gala-games-protocol-fee-sweep-api
-- description: The token-class API from Gala Games — 1 operation(s) for token-class.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The token-class API from Gala Games — 1 operation(s) for token-class.
   name: Gala Games Token Class API
   slug: gala-games-token-class-api
-- description: The token-registry API from Gala Games — 3 operation(s) for token-registry.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The token-registry API from Gala Games — 3 operation(s) for token-registry.
   name: Gala Games Token Registry API
   slug: gala-games-token-registry-api
-- description: The trade API from Gala Games — 20 operation(s) for trade.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The trade API from Gala Games — 20 operation(s) for trade.
   name: Gala Games Trade API
   slug: gala-games-trade-api
-- description: The user API from Gala Games — 3 operation(s) for user.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The user API from Gala Games — 3 operation(s) for user.
   name: Gala Games User API
   slug: gala-games-user-api
-- description: The WalletExtensionCompat API from Gala Games — 52 operation(s) for walletextensioncompat.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The WalletExtensionCompat API from Gala Games — 52 operation(s) for walletextensioncompat.
   name: Gala Games Wallet Extension Compat API
   slug: gala-games-walletextensioncompat-api
-- description: The WhatsNew API from Gala Games — 1 operation(s) for whatsnew.
+- baseURL: https://gateway-mainnet.galachain.com/api/asset/token-contract
+  baseurl_source: declared
+  description: The WhatsNew API from Gala Games — 1 operation(s) for whatsnew.
   name: Gala Games Whats New API
   slug: gala-games-whatsnew-api
 artifact_total: 30
@@ -284,7 +344,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -294,7 +354,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 41.2
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -311,7 +371,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:

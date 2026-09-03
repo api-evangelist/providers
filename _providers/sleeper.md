@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Drafts API from Sleeper — 6 operation(s) for drafts.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Drafts API from Sleeper — 6 operation(s) for drafts.
   name: Sleeper Drafts API
   slug: sleeper-drafts-api
-- description: The Leagues API from Sleeper — 4 operation(s) for leagues.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Leagues API from Sleeper — 4 operation(s) for leagues.
   name: Sleeper Leagues API
   slug: sleeper-leagues-api
-- description: The Matchups API from Sleeper — 1 operation(s) for matchups.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Matchups API from Sleeper — 1 operation(s) for matchups.
   name: Sleeper Matchups API
   slug: sleeper-matchups-api
-- description: The Players API from Sleeper — 2 operation(s) for players.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Players API from Sleeper — 2 operation(s) for players.
   name: Sleeper Players API
   slug: sleeper-players-api
-- description: The Playoffs API from Sleeper — 2 operation(s) for playoffs.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Playoffs API from Sleeper — 2 operation(s) for playoffs.
   name: Sleeper Playoffs API
   slug: sleeper-playoffs-api
-- description: The State API from Sleeper — 1 operation(s) for state.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The State API from Sleeper — 1 operation(s) for state.
   name: Sleeper State API
   slug: sleeper-state-api
-- description: The Transactions API from Sleeper — 1 operation(s) for transactions.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Transactions API from Sleeper — 1 operation(s) for transactions.
   name: Sleeper Transactions API
   slug: sleeper-transactions-api
-- description: The Users API from Sleeper — 1 operation(s) for users.
+- baseURL: https://api.sleeper.app/v1
+  baseurl_source: declared
+  description: The Users API from Sleeper — 1 operation(s) for users.
   name: Sleeper Users API
   slug: sleeper-users-api
 artifact_total: 20
@@ -195,7 +211,7 @@ score:
   band: thin
   composite: 27.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +236,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/screenshots/sleeper-2026-09-02T155833.png
 security:
 - kind: authentication
   name: Sleeper Authentication

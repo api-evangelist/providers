@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 6 acting
 api_count: 1
 apis:
-- description: Create and retrieve customers.
+- baseURL: https://api.juspay.in
+  baseurl_source: declared
+  description: Create and retrieve customers.
   name: Juspay Customers API
   slug: juspay-customers-api
-- description: Create orders and read order status.
+- baseURL: https://api.juspay.in
+  baseurl_source: declared
+  description: Create orders and read order status.
   name: Juspay Orders API
   slug: juspay-orders-api
-- description: Refund a charged order.
+- baseURL: https://api.juspay.in
+  baseurl_source: declared
+  description: Refund a charged order.
   name: Juspay Refunds API
   slug: juspay-refunds-api
-- description: Create a payment session for the Hyper Checkout / HyperSDK.
+- baseURL: https://api.juspay.in
+  baseurl_source: declared
+  description: Create a payment session for the Hyper Checkout / HyperSDK.
   name: Juspay Session API
   slug: juspay-session-api
-- description: Server-to-server transaction processing against an order.
+- baseURL: https://api.juspay.in
+  baseurl_source: declared
+  description: Server-to-server transaction processing against an order.
   name: Juspay Transactions API
   slug: juspay-transactions-api
 artifact_total: 18
@@ -185,7 +195,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png
 security:

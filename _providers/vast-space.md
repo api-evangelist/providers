@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Informational product surface for Haven-1, billed as the world''s first commercial space station - a standalone crewed station designed to host four crew with 45 cubic meters of habitable volume. This '
+- baseURL: https://www.vastspace.com
+  baseurl_source: spec
+  description: 'Informational product surface for Haven-1, billed as the world''s first commercial space station - a standalone crewed station designed to host four crew with 45 cubic meters of habitable volume. This '
   name: Vast Haven-1 Station
   slug: haven-1-station
-- description: Informational product surface for Haven-2, a larger multi-module station positioned as a successor to the International Space Station for continuous human presence in low-Earth orbit. Hardware/spacefl
+- baseURL: https://www.vastspace.com
+  baseurl_source: spec
+  description: Informational product surface for Haven-2, a larger multi-module station positioned as a successor to the International Space Station for continuous human presence in low-Earth orbit. Hardware/spacefl
   name: Vast Haven-2 Station
   slug: haven-2-station
-- description: Informational surface for the Haven-1 Lab, an in-space microgravity research and manufacturing facility supporting up to ten payloads, each up to 30 kilograms and 100 watts of continuous power. Payloa
+- baseURL: https://www.vastspace.com
+  baseurl_source: spec
+  description: Informational surface for the Haven-1 Lab, an in-space microgravity research and manufacturing facility supporting up to ten payloads, each up to 30 kilograms and 100 watts of continuous power. Payloa
   name: Vast Haven-1 Lab
   slug: haven-1-lab
-- description: Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical sciences, technology demonstrations, biotechnology,
+- baseURL: https://www.vastspace.com
+  baseurl_source: spec
+  description: Informational surface covering Vast's Request for Proposals (RFP) and payload-partner program for research on Haven-1 across life sciences, physical sciences, technology demonstrations, biotechnology,
   name: Vast Payload & Research Opportunities
   slug: payload-research-opportunities
 artifact_total: 10
@@ -130,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-space/refs/heads/main/screenshots/vast-space-2026-06-20T200831.png
 security:

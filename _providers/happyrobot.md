@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -43,103 +56,169 @@ apis:
 - description: A hosted documentation-search MCP server on the docs host, discovered via RFC 9728 protected-resource metadata at https://docs.happyrobot.ai/.well-known/oauth-protected-resource. It advertises a singl
   name: Happyrobot Docs MCP Server
   slug: happyrobot-docs-mcp-server
-- description: The Adversarial Suites API from Happyrobot — 8 operation(s) for adversarial suites.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Adversarial Suites API from Happyrobot — 8 operation(s) for adversarial suites.
   name: Happyrobot Adversarial Suites API
   slug: happyrobot-adversarial-suites-api
-- description: The Adversarial Tests API from Happyrobot — 8 operation(s) for adversarial tests.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Adversarial Tests API from Happyrobot — 8 operation(s) for adversarial tests.
   name: Happyrobot Adversarial Tests API
   slug: happyrobot-adversarial-tests-api
-- description: The API Keys API from Happyrobot — 1 operation(s) for api keys.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The API Keys API from Happyrobot — 1 operation(s) for api keys.
   name: Happyrobot API Keys API
   slug: happyrobot-api-keys-api
-- description: The Apps API from Happyrobot — 1 operation(s) for apps.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Apps API from Happyrobot — 1 operation(s) for apps.
   name: Happyrobot Apps API
   slug: happyrobot-apps-api
-- description: The Artifacts API from Happyrobot — 1 operation(s) for artifacts.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Artifacts API from Happyrobot — 1 operation(s) for artifacts.
   name: Happyrobot Artifacts API
   slug: happyrobot-artifacts-api
-- description: The Audits API from Happyrobot — 8 operation(s) for audits.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Audits API from Happyrobot — 8 operation(s) for audits.
   name: Happyrobot Audits API
   slug: happyrobot-audits-api
-- description: The Billing API from Happyrobot — 4 operation(s) for billing.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Billing API from Happyrobot — 4 operation(s) for billing.
   name: Happyrobot Billing API
   slug: happyrobot-billing-api
-- description: The Chat API from Happyrobot — 7 operation(s) for chat.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Chat API from Happyrobot — 7 operation(s) for chat.
   name: Happyrobot Chat API
   slug: happyrobot-chat-api
-- description: The Contacts API from Happyrobot — 5 operation(s) for contacts.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Contacts API from Happyrobot — 5 operation(s) for contacts.
   name: Happyrobot Contacts API
   slug: happyrobot-contacts-api
-- description: The Custom Evals API from Happyrobot — 8 operation(s) for custom evals.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Custom Evals API from Happyrobot — 8 operation(s) for custom evals.
   name: Happyrobot Custom Evals API
   slug: happyrobot-custom-evals-api
-- description: The Events API from Happyrobot — 1 operation(s) for events.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Events API from Happyrobot — 1 operation(s) for events.
   name: Happyrobot Events API
   slug: happyrobot-events-api
-- description: The Integration Resources API from Happyrobot — 15 operation(s) for integration resources.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Integration Resources API from Happyrobot — 15 operation(s) for integration resources.
   name: Happyrobot Integration Resources API
   slug: happyrobot-integration-resources-api
-- description: The Integrations API from Happyrobot — 4 operation(s) for integrations.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Integrations API from Happyrobot — 4 operation(s) for integrations.
   name: Happyrobot Integrations API
   slug: happyrobot-integrations-api
-- description: The Issues API from Happyrobot — 3 operation(s) for issues.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Issues API from Happyrobot — 3 operation(s) for issues.
   name: Happyrobot Issues API
   slug: happyrobot-issues-api
-- description: The Knowledge Bases API from Happyrobot — 6 operation(s) for knowledge bases.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Knowledge Bases API from Happyrobot — 6 operation(s) for knowledge bases.
   name: Happyrobot Knowledge Bases API
   slug: happyrobot-knowledge-bases-api
-- description: The MCP Servers API from Happyrobot — 3 operation(s) for mcp servers.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The MCP Servers API from Happyrobot — 3 operation(s) for mcp servers.
   name: Happyrobot MCP Servers API
   slug: happyrobot-mcp-servers-api
-- description: The Messages API from Happyrobot — 1 operation(s) for messages.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Messages API from Happyrobot — 1 operation(s) for messages.
   name: Happyrobot Messages API
   slug: happyrobot-messages-api
-- description: The Northstars API from Happyrobot — 9 operation(s) for northstars.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Northstars API from Happyrobot — 9 operation(s) for northstars.
   name: Happyrobot Northstars API
   slug: happyrobot-northstars-api
-- description: The Organization API from Happyrobot — 2 operation(s) for organization.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Organization API from Happyrobot — 2 operation(s) for organization.
   name: Happyrobot Organization API
   slug: happyrobot-organization-api
-- description: The Phone Numbers API from Happyrobot — 10 operation(s) for phone numbers.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Phone Numbers API from Happyrobot — 10 operation(s) for phone numbers.
   name: Happyrobot Phone Numbers API
   slug: happyrobot-phone-numbers-api
-- description: The Realtime API from Happyrobot — 1 operation(s) for realtime.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Realtime API from Happyrobot — 1 operation(s) for realtime.
   name: Happyrobot Realtime API
   slug: happyrobot-realtime-api
-- description: The Runs API from Happyrobot — 12 operation(s) for runs.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Runs API from Happyrobot — 12 operation(s) for runs.
   name: Happyrobot Runs API
   slug: happyrobot-runs-api
-- description: The Sessions API from Happyrobot — 4 operation(s) for sessions.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Sessions API from Happyrobot — 4 operation(s) for sessions.
   name: Happyrobot Sessions API
   slug: happyrobot-sessions-api
-- description: The Signals API from Happyrobot — 4 operation(s) for signals.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Signals API from Happyrobot — 4 operation(s) for signals.
   name: Happyrobot Signals API
   slug: happyrobot-signals-api
-- description: The SIP Trunks API from Happyrobot — 4 operation(s) for sip trunks.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The SIP Trunks API from Happyrobot — 4 operation(s) for sip trunks.
   name: Happyrobot SIP Trunks API
   slug: happyrobot-sip-trunks-api
-- description: The Twin API from Happyrobot — 6 operation(s) for twin.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Twin API from Happyrobot — 6 operation(s) for twin.
   name: Happyrobot Twin API
   slug: happyrobot-twin-api
-- description: The Use Cases API from Happyrobot — 1 operation(s) for use cases.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Use Cases API from Happyrobot — 1 operation(s) for use cases.
   name: Happyrobot Use Cases API
   slug: happyrobot-use-cases-api
-- description: The UseCases API from Happyrobot — 2 operation(s) for usecases.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The UseCases API from Happyrobot — 2 operation(s) for usecases.
   name: Happyrobot Use Cases API
   slug: happyrobot-usecases-api
-- description: The Versions API from Happyrobot — 16 operation(s) for versions.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Versions API from Happyrobot — 16 operation(s) for versions.
   name: Happyrobot Versions API
   slug: happyrobot-versions-api
-- description: The Voice API from Happyrobot — 1 operation(s) for voice.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Voice API from Happyrobot — 1 operation(s) for voice.
   name: Happyrobot Voice API
   slug: happyrobot-voice-api
-- description: The Workflow Folders API from Happyrobot — 2 operation(s) for workflow folders.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Workflow Folders API from Happyrobot — 2 operation(s) for workflow folders.
   name: Happyrobot Workflow Folders API
   slug: happyrobot-workflow-folders-api
-- description: The Workflow Variables API from Happyrobot — 2 operation(s) for workflow variables.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Workflow Variables API from Happyrobot — 2 operation(s) for workflow variables.
   name: Happyrobot Workflow Variables API
   slug: happyrobot-workflow-variables-api
-- description: The Workflows API from Happyrobot — 10 operation(s) for workflows.
+- baseURL: https://platform.happyrobot.ai/api/v2
+  baseurl_source: declared
+  description: The Workflows API from Happyrobot — 10 operation(s) for workflows.
   name: Happyrobot Workflows API
   slug: happyrobot-workflows-api
 artifact_total: 48
@@ -361,23 +440,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 40.1
+  composite: 41.9
   coverage:
     artifact_dirs: 23
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 1.8
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 57.9
     developer_ergonomics: 35.1
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 39.4
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -389,7 +468,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:

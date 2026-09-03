@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -50,70 +50,114 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Chalmers Open Digital Repository (ODR), which holds student theses and selected special digital collections. Confirmed via an Identify response; the b
   name: Chalmers Open Digital Repository (ODR) OAI-PMH
   slug: odr-oai-pmh
-- description: The ContractImport API from Chalmers University of Technology — 1 operation(s) for contractimport.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ContractImport API from Chalmers University of Technology — 1 operation(s) for contractimport.
   name: Chalmers University of Technology ContractImport API
   slug: chalmers-university-of-technology-contractimport-api
-- description: The DeltaImportCplPublication API from Chalmers University of Technology — 1 operation(s) for deltaimportcplpublication.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The DeltaImportCplPublication API from Chalmers University of Technology — 1 operation(s) for deltaimportcplpublication.
   name: Chalmers University of Technology DeltaImportCplPublication API
   slug: chalmers-university-of-technology-deltaimportcplpublication-api
-- description: The DeltaImportProjectOrganization API from Chalmers University of Technology — 1 operation(s) for deltaimportprojectorganization.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The DeltaImportProjectOrganization API from Chalmers University of Technology — 1 operation(s) for deltaimportprojectorganization.
   name: Chalmers University of Technology DeltaImportProjectOrganization API
   slug: chalmers-university-of-technology-deltaimportprojectorganization-api
-- description: The DeltaImportProjectPerson API from Chalmers University of Technology — 1 operation(s) for deltaimportprojectperson.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The DeltaImportProjectPerson API from Chalmers University of Technology — 1 operation(s) for deltaimportprojectperson.
   name: Chalmers University of Technology DeltaImportProjectPerson API
   slug: chalmers-university-of-technology-deltaimportprojectperson-api
-- description: The ElectronicPublicationAgreementSignature API from Chalmers University of Technology — 2 operation(s) for electronicpublicationagreementsignature.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ElectronicPublicationAgreementSignature API from Chalmers University of Technology — 2 operation(s) for electronicpublicationagreementsignature.
   name: Chalmers University of Technology ElectronicPublicationAgreementSignature API
   slug: chalmers-university-of-technology-electronicpublicationagreementsignature-api
-- description: The IndexAllProjects API from Chalmers University of Technology — 1 operation(s) for indexallprojects.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The IndexAllProjects API from Chalmers University of Technology — 1 operation(s) for indexallprojects.
   name: Chalmers University of Technology IndexAllProjects API
   slug: chalmers-university-of-technology-indexallprojects-api
-- description: The IndexOneProject API from Chalmers University of Technology — 1 operation(s) for indexoneproject.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The IndexOneProject API from Chalmers University of Technology — 1 operation(s) for indexoneproject.
   name: Chalmers University of Technology IndexOneProject API
   slug: chalmers-university-of-technology-indexoneproject-api
-- description: The LocalOrganizations API from Chalmers University of Technology — 1 operation(s) for localorganizations.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The LocalOrganizations API from Chalmers University of Technology — 1 operation(s) for localorganizations.
   name: Chalmers University of Technology LocalOrganizations API
   slug: chalmers-university-of-technology-localorganizations-api
-- description: The Organizations API from Chalmers University of Technology — 2 operation(s) for organizations.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The Organizations API from Chalmers University of Technology — 2 operation(s) for organizations.
   name: Chalmers University of Technology Organizations API
   slug: chalmers-university-of-technology-organizations-api
-- description: The ProjectEmbargos API from Chalmers University of Technology — 1 operation(s) for projectembargos.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectEmbargos API from Chalmers University of Technology — 1 operation(s) for projectembargos.
   name: Chalmers University of Technology ProjectEmbargos API
   slug: chalmers-university-of-technology-projectembargos-api
-- description: The ProjectOrganizationUpdated API from Chalmers University of Technology — 1 operation(s) for projectorganizationupdated.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectOrganizationUpdated API from Chalmers University of Technology — 1 operation(s) for projectorganizationupdated.
   name: Chalmers University of Technology ProjectOrganizationUpdated API
   slug: chalmers-university-of-technology-projectorganizationupdated-api
-- description: The ProjectParticipantsVerification API from Chalmers University of Technology — 1 operation(s) for projectparticipantsverification.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectParticipantsVerification API from Chalmers University of Technology — 1 operation(s) for projectparticipantsverification.
   name: Chalmers University of Technology ProjectParticipantsVerification API
   slug: chalmers-university-of-technology-projectparticipantsverification-api
-- description: The ProjectParticipantsVerificationMail API from Chalmers University of Technology — 1 operation(s) for projectparticipantsverificationmail.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectParticipantsVerificationMail API from Chalmers University of Technology — 1 operation(s) for projectparticipantsverificationmail.
   name: Chalmers University of Technology ProjectParticipantsVerificationMail API
   slug: chalmers-university-of-technology-projectparticipantsverificationmail-api
-- description: The ProjectPersonUpdated API from Chalmers University of Technology — 1 operation(s) for projectpersonupdated.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectPersonUpdated API from Chalmers University of Technology — 1 operation(s) for projectpersonupdated.
   name: Chalmers University of Technology ProjectPersonUpdated API
   slug: chalmers-university-of-technology-projectpersonupdated-api
-- description: The ProjectPublishStatus API from Chalmers University of Technology — 1 operation(s) for projectpublishstatus.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectPublishStatus API from Chalmers University of Technology — 1 operation(s) for projectpublishstatus.
   name: Chalmers University of Technology ProjectPublishStatus API
   slug: chalmers-university-of-technology-projectpublishstatus-api
-- description: The ProjectQueries API from Chalmers University of Technology — 1 operation(s) for projectqueries.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectQueries API from Chalmers University of Technology — 1 operation(s) for projectqueries.
   name: Chalmers University of Technology ProjectQueries API
   slug: chalmers-university-of-technology-projectqueries-api
-- description: The Projects API from Chalmers University of Technology — 2 operation(s) for projects.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The Projects API from Chalmers University of Technology — 2 operation(s) for projects.
   name: Chalmers University of Technology Projects API
   slug: chalmers-university-of-technology-projects-api
-- description: The ProjectsConnectedToOrganization API from Chalmers University of Technology — 1 operation(s) for projectsconnectedtoorganization.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectsConnectedToOrganization API from Chalmers University of Technology — 1 operation(s) for projectsconnectedtoorganization.
   name: Chalmers University of Technology ProjectsConnectedToOrganization API
   slug: chalmers-university-of-technology-projectsconnectedtoorganization-api
-- description: The ProjectsConnectedToPerson API from Chalmers University of Technology — 1 operation(s) for projectsconnectedtoperson.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectsConnectedToPerson API from Chalmers University of Technology — 1 operation(s) for projectsconnectedtoperson.
   name: Chalmers University of Technology ProjectsConnectedToPerson API
   slug: chalmers-university-of-technology-projectsconnectedtoperson-api
-- description: The ProjectSearch API from Chalmers University of Technology — 1 operation(s) for projectsearch.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The ProjectSearch API from Chalmers University of Technology — 1 operation(s) for projectsearch.
   name: Chalmers University of Technology ProjectSearch API
   slug: chalmers-university-of-technology-projectsearch-api
-- description: The SimpleProjectMetadata API from Chalmers University of Technology — 1 operation(s) for simpleprojectmetadata.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The SimpleProjectMetadata API from Chalmers University of Technology — 1 operation(s) for simpleprojectmetadata.
   name: Chalmers University of Technology SimpleProjectMetadata API
   slug: chalmers-university-of-technology-simpleprojectmetadata-api
-- description: The SolrImport API from Chalmers University of Technology — 1 operation(s) for solrimport.
+- baseURL: https://api.research.chalmers.se/
+  baseurl_source: declared
+  description: The SolrImport API from Chalmers University of Technology — 1 operation(s) for solrimport.
   name: Chalmers University of Technology SolrImport API
   slug: chalmers-university-of-technology-solrimport-api
 - description: HAL+JSON REST API of the Chalmers Open Digital Repository, a DSpace 8.3 instance Chalmers runs on its own host (odr.chalmers.se). The API root and the communities collection answer publicly; item list
@@ -388,7 +432,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -398,7 +442,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 37.5
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -414,7 +458,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
 security:

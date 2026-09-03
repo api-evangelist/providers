@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -44,130 +44,214 @@ agentic_access:
   summary_line: 138 operations · 62 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Manage alert definitions
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage alert definitions
   name: Fortify Alert Definitions API
   slug: fortify-alert-definitions-api
-- description: Manage API keys for programmatic access
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage API keys for programmatic access
   name: Fortify API Keys API
   slug: fortify-api-keys-api
-- description: Manage applications and their configurations
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage applications and their configurations
   name: Fortify Applications API
   slug: fortify-applications-api
-- description: Manage scan artifacts and uploads
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage scan artifacts and uploads
   name: Fortify Artifacts API
   slug: fortify-artifacts-api
-- description: Manage application attributes
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage application attributes
   name: Fortify Attributes API
   slug: fortify-attributes-api
-- description: Manage audit templates for vulnerability triage
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage audit templates for vulnerability triage
   name: Fortify Audit Templates API
   slug: fortify-audit-templates-api
-- description: Manage authentication entities (users and LDAP groups)
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage authentication entities (users and LDAP groups)
   name: Fortify Auth Entities API
   slug: fortify-auth-entities-api
-- description: Manage authentication tokens
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage authentication tokens
   name: Fortify Authentication API
   slug: fortify-authentication-api
-- description: CI/CD pipeline integration endpoints
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: CI/CD pipeline integration endpoints
   name: Fortify CI/CD API
   slug: fortify-ci-cd-api
-- description: Manage cloud scan worker pools
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage cloud scan worker pools
   name: Fortify Cloud Pools API
   slug: fortify-cloud-pools-api
-- description: Manage custom tags for issue triage
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage custom tags for issue triage
   name: Fortify Custom Tags API
   slug: fortify-custom-tags-api
-- description: Configure and start DAST automated scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Configure and start DAST automated scans
   name: Fortify DAST Automated Scans API
   slug: fortify-dast-automated-scans-api
-- description: Configure and start dynamic application security testing scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Configure and start dynamic application security testing scans
   name: Fortify Dynamic Scans API
   slug: fortify-dynamic-scans-api
-- description: Access tenant event logs
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Access tenant event logs
   name: Fortify Event Logs API
   slug: fortify-event-logs-api
-- description: System feature and connectivity information
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: System feature and connectivity information
   name: Fortify Features API
   slug: fortify-features-api
-- description: Manage file transfer tokens
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage file transfer tokens
   name: Fortify File Tokens API
   slug: fortify-file-tokens-api
-- description: Retrieve issue filter metadata
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Retrieve issue filter metadata
   name: Fortify Issue Selectors API
   slug: fortify-issue-selectors-api
-- description: Access and manage vulnerability issues
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Access and manage vulnerability issues
   name: Fortify Issues API
   slug: fortify-issues-api
-- description: Monitor processing jobs
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Monitor processing jobs
   name: Fortify Jobs API
   slug: fortify-jobs-api
-- description: Retrieve lookup and reference data
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Retrieve lookup and reference data
   name: Fortify Lookup Items API
   slug: fortify-lookup-items-api
-- description: Manage microservices within applications
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage microservices within applications
   name: Fortify Microservices API
   slug: fortify-microservices-api
-- description: Configure and start mobile application security testing scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Configure and start mobile application security testing scans
   name: Fortify Mobile Scans API
   slug: fortify-mobile-scans-api
-- description: Manage user notifications
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage user notifications
   name: Fortify Notifications API
   slug: fortify-notifications-api
-- description: View open source component data
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: View open source component data
   name: Fortify Open Source Components API
   slug: fortify-open-source-components-api
-- description: Manage open source / software composition analysis scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage open source / software composition analysis scans
   name: Fortify Open Source Scans API
   slug: fortify-open-source-scans-api
-- description: Access performance indicator data
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Access performance indicator data
   name: Fortify Performance Indicators API
   slug: fortify-performance-indicators-api
-- description: Manage personal access tokens
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage personal access tokens
   name: Fortify Personal Access Tokens API
   slug: fortify-personal-access-tokens-api
-- description: Manage application versions within projects
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage application versions within projects
   name: Fortify Project Versions API
   slug: fortify-project-versions-api
-- description: Manage top-level projects
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage top-level projects
   name: Fortify Projects API
   slug: fortify-projects-api
-- description: Manage releases within applications
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage releases within applications
   name: Fortify Releases API
   slug: fortify-releases-api
-- description: Generate and download reports
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Generate and download reports
   name: Fortify Reports API
   slug: fortify-reports-api
-- description: Manage saved report configurations
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage saved report configurations
   name: Fortify Saved Reports API
   slug: fortify-saved-reports-api
-- description: Manage scan policies
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage scan policies
   name: Fortify Scan Policies API
   slug: fortify-scan-policies-api
-- description: Manage scheduled scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage scheduled scans
   name: Fortify Scan Schedules API
   slug: fortify-scan-schedules-api
-- description: Manage scan configuration settings
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage scan configuration settings
   name: Fortify Scan Settings API
   slug: fortify-scan-settings-api
-- description: View and manage security scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: View and manage security scans
   name: Fortify Scans API
   slug: fortify-scans-api
-- description: Manage sensor pools for scan distribution
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage sensor pools for scan distribution
   name: Fortify Sensor Pools API
   slug: fortify-sensor-pools-api
-- description: Manage WebInspect sensors
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage WebInspect sensors
   name: Fortify Sensors API
   slug: fortify-sensors-api
-- description: Configure and start static application security testing scans
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Configure and start static application security testing scans
   name: Fortify Static Scans API
   slug: fortify-static-scans-api
-- description: System health and configuration
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: System health and configuration
   name: Fortify System API
   slug: fortify-system-api
-- description: Manage local user accounts
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Manage local user accounts
   name: Fortify Users API
   slug: fortify-users-api
-- description: Access and manage vulnerability findings
+- baseURL: https://api.ams.fortify.com
+  baseurl_source: declared
+  description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
 artifact_total: 150
@@ -617,7 +701,7 @@ score:
     catalog_gap: 58.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -627,7 +711,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 53.3
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -636,7 +720,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-08-17T123433.png
 security:

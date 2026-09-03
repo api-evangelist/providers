@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,22 +37,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Authentication Keys API from Satispay — 1 operation(s) for authentication keys.
+- baseURL: https://authservices.satispay.com/g_business/v1
+  baseurl_source: declared
+  description: The Authentication Keys API from Satispay — 1 operation(s) for authentication keys.
   name: Satispay Authentication Keys API
   slug: satispay-authentication-keys-api
-- description: The G Business API from Satispay — 13 operation(s) for g business.
+- baseURL: https://authservices.satispay.com/g_business/v1
+  baseurl_source: declared
+  description: The G Business API from Satispay — 13 operation(s) for g business.
   name: Satispay G Business API
   slug: satispay-g-business-api
-- description: The Payments API from Satispay — 6 operation(s) for payments.
+- baseURL: https://authservices.satispay.com/g_business/v1
+  baseurl_source: declared
+  description: The Payments API from Satispay — 6 operation(s) for payments.
   name: Satispay Payments API
   slug: satispay-payments-api
-- description: The Reports API from Satispay — 1 operation(s) for reports.
+- baseURL: https://authservices.satispay.com/g_business/v1
+  baseurl_source: declared
+  description: The Reports API from Satispay — 1 operation(s) for reports.
   name: Satispay Reports API
   slug: satispay-reports-api
-- description: The Wally Services API from Satispay — 1 operation(s) for wally services.
+- baseURL: https://authservices.satispay.com/g_business/v1
+  baseurl_source: declared
+  description: The Wally Services API from Satispay — 1 operation(s) for wally services.
   name: Satispay Wally Services API
   slug: satispay-wally-services-api
 artifact_total: 12
@@ -240,11 +264,11 @@ score:
   band: developing
   composite: 52.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -254,7 +278,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 52.3
+  previous_composite: 52.1
   provenance:
     conformance: derived
     contracts:
@@ -271,8 +295,9 @@ score:
     regime_id: payments
     score: 57.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/screenshots/satispay-2026-09-02T154428.png
 security:
 - kind: authentication
   name: Satispay Authentication

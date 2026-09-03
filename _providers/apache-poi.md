@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 1
 apis:
-- description: The Conversion API from Apache POI — 1 operation(s) for conversion.
+- baseURL: https://poi.example.com/api/v1
+  baseurl_source: spec
+  description: The Conversion API from Apache POI — 1 operation(s) for conversion.
   name: Apache POI Conversion API
   slug: apache-poi-conversion-api
-- description: The Excel API from Apache POI — 4 operation(s) for excel.
+- baseURL: https://poi.example.com/api/v1
+  baseurl_source: spec
+  description: The Excel API from Apache POI — 4 operation(s) for excel.
   name: Apache POI Excel API
   slug: apache-poi-excel-api
-- description: The PowerPoint API from Apache POI — 2 operation(s) for powerpoint.
+- baseURL: https://poi.example.com/api/v1
+  baseurl_source: spec
+  description: The PowerPoint API from Apache POI — 2 operation(s) for powerpoint.
   name: Apache POI PowerPoint API
   slug: apache-poi-powerpoint-api
-- description: The Word API from Apache POI — 2 operation(s) for word.
+- baseURL: https://poi.example.com/api/v1
+  baseurl_source: spec
+  description: The Word API from Apache POI — 2 operation(s) for word.
   name: Apache POI Word API
   slug: apache-poi-word-api
 artifact_total: 81
@@ -358,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-poi/refs/heads/main/screenshots/apache-poi-2026-06-20T172135.png
 security:

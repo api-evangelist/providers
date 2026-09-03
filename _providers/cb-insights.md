@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -32,37 +45,59 @@ apis:
 - description: 'Hosted, remote Model Context Protocol server at mcp.cbinsights.com, offered as the supported replacement for the deprecated self-hosted cbi-mcp-server reference implementation. Protected by OAuth 2.1 '
   name: CB Insights MCP Server
   slug: cb-insights-mcp-server
-- description: The Authorization API from CB Insights — 1 operation(s) for authorization.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: The Authorization API from CB Insights — 1 operation(s) for authorization.
   name: CB Insights Authorization API
   slug: cb-insights-authorization-api
-- description: This dataset contains information about partnerships, clients/vendors, licensing activity, and CBI-generated insights to predict future M&As and shifts in strategy.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset contains information about partnerships, clients/vendors, licensing activity, and CBI-generated insights to predict future M&As and shifts in strategy.
   name: CB Insights Business Relationships API
   slug: cb-insights-businessrelationships-api
-- description: The ChatCBI API from CB Insights — 3 operation(s) for chatcbi.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: The ChatCBI API from CB Insights — 3 operation(s) for chatcbi.
   name: CB Insights Chat CBI API
   slug: cb-insights-chatcbi-api
-- description: This dataset contains information about funding deals, cap table history, M&As, IPOs, and CBI-generated insights that extract key themes.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset contains information about funding deals, cap table history, M&As, IPOs, and CBI-generated insights that extract key themes.
   name: CB Insights Financial Transactions API
   slug: cb-insights-financialtransactions-api
-- description: This dataset contains profiles on private companies, public companies, and investors. Includes general information like location, headcount, and industry, as well as proprietary data like business mod
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset contains profiles on private companies, public companies, and investors. Includes general information like location, headcount, and industry, as well as proprietary data like business mod
   name: CB Insights Firmographics API
   slug: cb-insights-firmographics-api
-- description: This dataset includes leadership teams, board members, and the Management factor of the Mosaic Score — our proprietary algorithm which evaluates leadership teams based on past achievements.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset includes leadership teams, board members, and the Management factor of the Mosaic Score — our proprietary algorithm which evaluates leadership teams based on past achievements.
   name: CB Insights Management And Board API
   slug: cb-insights-managementandboard-api
-- description: The Organizations API from CB Insights — 1 operation(s) for organizations.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: The Organizations API from CB Insights — 1 operation(s) for organizations.
   name: CB Insights Organizations API
   slug: cb-insights-organizations-api
-- description: This dataset contains proprietary data science analysis including Mosaic Score, Commercial Maturity, and Exit Probability. Proven to predict winners better than top VCs. More about these proprietary d
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: This dataset contains proprietary data science analysis including Mosaic Score, Commercial Maturity, and Exit Probability. Proven to predict winners better than top VCs. More about these proprietary d
   name: CB Insights Outlook API
   slug: cb-insights-outlook-api
-- description: The Revenue API from CB Insights — 2 operation(s) for revenue.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: The Revenue API from CB Insights — 2 operation(s) for revenue.
   name: CB Insights Revenue API
   slug: cb-insights-revenue-api
-- description: A CB Insights scouting report for a private company provides a comprehensive analysis of a business, including its market position, competitive landscape, and growth potential to offer a clear underst
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: A CB Insights scouting report for a private company provides a comprehensive analysis of a business, including its market position, competitive landscape, and growth potential to offer a clear underst
   name: CB Insights Scouting Reports API
   slug: cb-insights-scoutingreports-api
-- description: The StrategyMap API from CB Insights — 1 operation(s) for strategymap.
+- baseURL: https://api.cbinsights.com
+  baseurl_source: declared
+  description: The StrategyMap API from CB Insights — 1 operation(s) for strategymap.
   name: CB Insights Strategy Map API
   slug: cb-insights-strategymap-api
 artifact_total: 33
@@ -319,7 +354,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cb-insights/refs/heads/main/screenshots/cb-insights-2026-08-17T080811.png
 security:

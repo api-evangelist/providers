@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: CSG Singleview is a comprehensive convergent billing and revenue management platform designed for communication service providers. APIs enable subscriber billing, usage rating, invoice generation, and
   name: CSG Singleview Billing API
   slug: csg-singleview-api
-- description: Customer record management
+- baseURL: https://api.forte.net/v3
+  baseurl_source: declared
+  description: Customer record management
   name: CSG Systems Customers API
   slug: csg-customers-api
-- description: Payment method tokenization and management
+- baseURL: https://api.forte.net/v3
+  baseurl_source: declared
+  description: Payment method tokenization and management
   name: CSG Systems Payment Methods API
   slug: csg-payment-methods-api
-- description: Settlement query and reconciliation
+- baseURL: https://api.forte.net/v3
+  baseurl_source: declared
+  description: Settlement query and reconciliation
   name: CSG Systems Settlements API
   slug: csg-settlements-api
-- description: Payment transaction processing (credit card, echeck, scheduled)
+- baseURL: https://api.forte.net/v3
+  baseurl_source: declared
+  description: Payment transaction processing (credit card, echeck, scheduled)
   name: CSG Systems Transactions API
   slug: csg-transactions-api
 artifact_total: 24
@@ -261,7 +269,7 @@ score:
     regime_id: telecommunications
     score: 31.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:

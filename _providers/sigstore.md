@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Cosign is the Sigstore tool for signing and verifying container images and other OCI artifacts. It enables keyless signing using OIDC identity, hardware token signing, and policy enforcement for conta
   name: Cosign
   slug: cosign
-- description: The CA API from Sigstore — 3 operation(s) for ca.
+- baseURL: https://rekor.sigstore.dev
+  baseurl_source: declared
+  description: The CA API from Sigstore — 3 operation(s) for ca.
   name: Sigstore CA API
   slug: sigstore-ca-api
-- description: The entries API from Sigstore — 3 operation(s) for entries.
+- baseURL: https://rekor.sigstore.dev
+  baseurl_source: declared
+  description: The entries API from Sigstore — 3 operation(s) for entries.
   name: Sigstore entries API
   slug: sigstore-entries-api
-- description: The index API from Sigstore — 1 operation(s) for index.
+- baseURL: https://rekor.sigstore.dev
+  baseurl_source: declared
+  description: The index API from Sigstore — 1 operation(s) for index.
   name: Sigstore index API
   slug: sigstore-index-api
-- description: The pubkey API from Sigstore — 1 operation(s) for pubkey.
+- baseURL: https://rekor.sigstore.dev
+  baseurl_source: declared
+  description: The pubkey API from Sigstore — 1 operation(s) for pubkey.
   name: Sigstore pubkey API
   slug: sigstore-pubkey-api
-- description: The tlog API from Sigstore — 2 operation(s) for tlog.
+- baseURL: https://rekor.sigstore.dev
+  baseurl_source: declared
+  description: The tlog API from Sigstore — 2 operation(s) for tlog.
   name: Sigstore tlog API
   slug: sigstore-tlog-api
 artifact_total: 27
@@ -259,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/screenshots/sigstore-2026-06-20T193917.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -45,61 +45,99 @@ agentic_access:
   summary_line: 66 operations · 36 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: The Agent API from Exa — 4 operation(s) for agent.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Agent API from Exa — 4 operation(s) for agent.
   name: Exa Agent API
   slug: exa-ai-agent-api
-- description: The Answer API from Exa — 1 operation(s) for answer.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Answer API from Exa — 1 operation(s) for answer.
   name: Exa Answer API
   slug: exa-ai-answer-api
-- description: The Contents API from Exa — 1 operation(s) for contents.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Contents API from Exa — 1 operation(s) for contents.
   name: Exa Contents API
   slug: exa-ai-contents-api
-- description: The Enrichments API from Exa — 3 operation(s) for enrichments.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Enrichments API from Exa — 3 operation(s) for enrichments.
   name: Exa Enrichments API
   slug: exa-ai-enrichments-api
-- description: The Events API from Exa — 2 operation(s) for events.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Events API from Exa — 2 operation(s) for events.
   name: Exa Events API
   slug: exa-ai-events-api
-- description: The Imports API from Exa — 2 operation(s) for imports.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Imports API from Exa — 2 operation(s) for imports.
   name: Exa Imports API
   slug: exa-ai-imports-api
-- description: The Items API from Exa — 2 operation(s) for items.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Items API from Exa — 2 operation(s) for items.
   name: Exa Items API
   slug: exa-ai-items-api
-- description: The Monitors API from Exa — 6 operation(s) for monitors.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Monitors API from Exa — 6 operation(s) for monitors.
   name: Exa Monitors API
   slug: exa-ai-monitors-api
-- description: The Monitors Runs API from Exa — 2 operation(s) for monitors runs.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Monitors Runs API from Exa — 2 operation(s) for monitors runs.
   name: Exa Monitors Runs API
   slug: exa-ai-monitors-runs-api
-- description: The Research API from Exa — 2 operation(s) for research.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Research API from Exa — 2 operation(s) for research.
   name: Exa Research API
   slug: exa-ai-research-api
-- description: The Runs API from Exa — 2 operation(s) for runs.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Runs API from Exa — 2 operation(s) for runs.
   name: Exa Runs API
   slug: exa-ai-runs-api
-- description: The Search API from Exa — 1 operation(s) for search.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Search API from Exa — 1 operation(s) for search.
   name: Exa Search API
   slug: exa-ai-search-api
-- description: The Searches API from Exa — 3 operation(s) for searches.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Searches API from Exa — 3 operation(s) for searches.
   name: Exa Searches API
   slug: exa-ai-searches-api
-- description: The Team Management API from Exa — 3 operation(s) for team management.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Team Management API from Exa — 3 operation(s) for team management.
   name: Exa Team Management API
   slug: exa-ai-team-management-api
-- description: The Teams API from Exa — 1 operation(s) for teams.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Teams API from Exa — 1 operation(s) for teams.
   name: Exa Teams API
   slug: exa-ai-teams-api
-- description: The Webhooks API from Exa — 2 operation(s) for webhooks.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Webhooks API from Exa — 2 operation(s) for webhooks.
   name: Exa Webhooks API
   slug: exa-ai-webhooks-api
-- description: The Webhooks Attempts API from Exa — 1 operation(s) for webhooks attempts.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Webhooks Attempts API from Exa — 1 operation(s) for webhooks attempts.
   name: Exa Webhooks Attempts API
   slug: exa-ai-webhooks-attempts-api
-- description: The Websets API from Exa — 3 operation(s) for websets.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Websets API from Exa — 3 operation(s) for websets.
   name: Exa Websets API
   slug: exa-ai-websets-api
-- description: The Websets Preview API from Exa — 1 operation(s) for websets preview.
+- baseURL: https://api.exa.ai
+  baseurl_source: declared
+  description: The Websets Preview API from Exa — 1 operation(s) for websets preview.
   name: Exa Websets Preview API
   slug: exa-ai-websets-preview-api
 arazzos:
@@ -622,7 +660,7 @@ score:
       total: 19
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/screenshots/exa-ai-2026-06-20T180928.png
 security:

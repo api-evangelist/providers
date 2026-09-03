@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -54,19 +54,29 @@ apis:
 - description: 'Stateless Streamable HTTP MCP service shipped with Goalkeeper, exposing 11 tools for creating and reading goals, appending status/health/evaluation reports, and managing labels. Supports MCP protocol '
   name: Goalkeeper MCP Server
   slug: goalkeeper-mcp-server
-- description: Scoped credentials owned by an organization and user.
+- baseURL: https://api.poggio.io/v2
+  baseurl_source: declared
+  description: Scoped credentials owned by an organization and user.
   name: Poggio Labs API Tokens API
   slug: poggio-labs-api-tokens-api
-- description: User session lifecycle.
+- baseURL: https://api.poggio.io/v2
+  baseurl_source: declared
+  description: User session lifecycle.
   name: Poggio Labs Authentication API
   slug: poggio-labs-authentication-api
-- description: Organization goals and their label taxonomy.
+- baseURL: https://api.poggio.io/v2
+  baseurl_source: declared
+  description: Organization goals and their label taxonomy.
   name: Poggio Labs Goals API
   slug: poggio-labs-goals-api
-- description: Organization membership and active organization selection.
+- baseURL: https://api.poggio.io/v2
+  baseurl_source: declared
+  description: Organization membership and active organization selection.
   name: Poggio Labs Organizations API
   slug: poggio-labs-organizations-api
-- description: Service status endpoints.
+- baseURL: https://api.poggio.io/v2
+  baseurl_source: declared
+  description: Service status endpoints.
   name: Poggio Labs System API
   slug: poggio-labs-system-api
 artifact_total: 17
@@ -290,7 +300,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/screenshots/poggio-labs-2026-08-17T081318.png
 security:

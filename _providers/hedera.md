@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 48 operations · 2 acting
 api_count: 1
 apis:
-- description: The accounts object represents the information associated with an account entity and returns a list of account information.The accounts list endpoint is cached and not updated as frequently as the acc
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The accounts object represents the information associated with an account entity and returns a list of account information.The accounts list endpoint is cached and not updated as frequently as the acc
   name: Hedera accounts API
   slug: hedera-accounts-api
-- description: The airdrops API from Hedera — 2 operation(s) for airdrops.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The airdrops API from Hedera — 2 operation(s) for airdrops.
   name: Hedera airdrops API
   slug: hedera-airdrops-api
-- description: The balance object represents the balance of accounts on the Hedera network.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The balance object represents the balance of accounts on the Hedera network.
   name: Hedera balances API
   slug: hedera-balances-api
-- description: The blocks API from Hedera — 2 operation(s) for blocks.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The blocks API from Hedera — 2 operation(s) for blocks.
   name: Hedera blocks API
   slug: hedera-blocks-api
-- description: The contracts objects represents the information associated with contract entities.The contracts list endpoint is cached and not updated as frequently as the contract lookup by a specific ID endpoint.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The contracts objects represents the information associated with contract entities.The contracts list endpoint is cached and not updated as frequently as the contract lookup by a specific ID endpoint.
   name: Hedera contracts API
   slug: hedera-contracts-api
-- description: The network API from Hedera — 6 operation(s) for network.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The network API from Hedera — 6 operation(s) for network.
   name: Hedera network API
   slug: hedera-network-api
-- description: The schedules object represents the information associated with a schedule entity.The schedules list endpoints is cached and not updated as frequently as the schedule lookup by a specific ID endpoint.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The schedules object represents the information associated with a schedule entity.The schedules list endpoints is cached and not updated as frequently as the schedule lookup by a specific ID endpoint.
   name: Hedera schedules API
   slug: hedera-schedules-api
-- description: The tokens object represents the information associated with a token entity and returns a list of token information.The tokens list endpoint is cached and not updated as frequently as the token lookup
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The tokens object represents the information associated with a token entity and returns a list of token information.The tokens list endpoint is cached and not updated as frequently as the token lookup
   name: Hedera tokens API
   slug: hedera-tokens-api
-- description: The topics object represents the information associated with a topic entity and returns topic messages information.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The topics object represents the information associated with a topic entity and returns topic messages information.
   name: Hedera topics API
   slug: hedera-topics-api
-- description: The transaction object represents the transactions processed on the Hedera network.
+- baseURL: https://mainnet.mirrornode.hedera.com
+  baseurl_source: declared
+  description: The transaction object represents the transactions processed on the Hedera network.
   name: Hedera transactions API
   slug: hedera-transactions-api
 artifact_total: 220
@@ -837,7 +857,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/screenshots/hedera-2026-06-20T182613.png
 security:

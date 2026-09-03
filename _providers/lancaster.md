@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 1 operation
 api_count: 2
 apis:
-- description: The one unambiguous, institution-operated public API Lancaster runs. A single HTTP endpoint that dispatches on the OAI-PMH `verb` parameter and returns OAI-PMH 2.0 XML envelopes for the Lancaster EPri
+- baseURL: https://eprints.lancs.ac.uk/cgi/oai2
+  baseurl_source: declared
+  description: The one unambiguous, institution-operated public API Lancaster runs. A single HTTP endpoint that dispatches on the OAI-PMH `verb` parameter and returns OAI-PMH 2.0 XML envelopes for the Lancaster EPri
   name: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
-- description: Lancaster operates its own Shibboleth Identity Provider and self-publishes its SAML 2.0 EntityDescriptor at the canonical /idp/shibboleth location. The entity has been registered with the UK Access Fe
+- baseURL: https://idp.lancs.ac.uk
+  baseurl_source: declared
+  description: Lancaster operates its own Shibboleth Identity Provider and self-publishes its SAML 2.0 EntityDescriptor at the canonical /idp/shibboleth location. The entity has been registered with the UK Access Fe
   name: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: identity-federation
 - description: Lancaster's research information system and public research directory. The data — outputs, people, projects, impact — is Lancaster's; the platform and the contract are Elsevier's. research.lancaster-u
@@ -296,7 +300,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png
 security:

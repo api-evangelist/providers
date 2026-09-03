@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 4
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 37 operations · 18 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The CANBus API from Polymath Robotics — 1 operation(s) for canbus.
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: The CANBus API from Polymath Robotics — 1 operation(s) for canbus.
   name: Polymath Robotics CANBus API
   slug: polymath-canbus-api
-- description: The filesystem API from Polymath Robotics — 3 operation(s) for filesystem.
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: The filesystem API from Polymath Robotics — 3 operation(s) for filesystem.
   name: Polymath Robotics filesystem API
   slug: polymath-filesystem-api
-- description: Contains UUID endpoint that can be used to health check the robot
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: Contains UUID endpoint that can be used to health check the robot
   name: Polymath Robotics Health Check API
   slug: polymath-health-check-api
-- description: The Livekit API from Polymath Robotics — 4 operation(s) for livekit.
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: The Livekit API from Polymath Robotics — 4 operation(s) for livekit.
   name: Polymath Robotics Livekit API
   slug: polymath-livekit-api
-- description: All endpoints related to interacting with Robot's media resources
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: All endpoints related to interacting with Robot's media resources
   name: Polymath Robotics Media API
   slug: polymath-media-api
-- description: The ros API from Polymath Robotics — 1 operation(s) for ros.
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: The ros API from Polymath Robotics — 1 operation(s) for ros.
   name: Polymath Robotics ros API
   slug: polymath-ros-api
-- description: The systemd API from Polymath Robotics — 1 operation(s) for systemd.
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: The systemd API from Polymath Robotics — 1 operation(s) for systemd.
   name: Polymath Robotics systemd API
   slug: polymath-systemd-api
-- description: Endpoints for managing control leases
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: Endpoints for managing control leases
   name: Polymath Robotics Teleop Control API
   slug: polymath-teleop-control-api
-- description: All endpoints related to interacting with Robot's autonomy operations here
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: All endpoints related to interacting with Robot's autonomy operations here
   name: Polymath Robotics Vehicle Autonomy API
   slug: polymath-vehicle-autonomy-api
-- description: All endpoints related to interacting with Robot's vehicle operations here
+- baseURL: https://polyglot.polymathrobotics.dev/api
+  baseurl_source: declared
+  description: All endpoints related to interacting with Robot's vehicle operations here
   name: Polymath Robotics Vehicle Operations API
   slug: polymath-vehicle-operations-api
 artifact_total: 25
@@ -222,7 +242,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -248,8 +268,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/polymath/refs/heads/main/screenshots/polymath-2026-09-02T151709.png
 security:
 - kind: authentication
   name: Polymath Authentication

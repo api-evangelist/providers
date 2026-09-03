@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 15 operations
 api_count: 6
 apis:
-- description: Public, unauthenticated read access to the site pages of burgersinghonline.com - Menu, Burgers, Fries and Sides, Desserts, Beverages, Franchise, Property Partners, Bulk Order, Store Locator, Hot Locat
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the site pages of burgersinghonline.com - Menu, Burgers, Fries and Sides, Desserts, Beverages, Franchise, Property Partners, Bulk Order, Store Locator, Hot Locat
   name: Burger Singh Pages API
   slug: burger-singh-pages-api
-- description: Public, unauthenticated read access to the media library behind burgersinghonline.com - burger and menu photography, outlet imagery, franchise collateral and press assets with their generated size var
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind burgersinghonline.com - burger and menu photography, outlet imagery, franchise collateral and press assets with their generated size var
   name: Burger Singh Media API
   slug: burger-singh-media-api
-- description: Public, unauthenticated read access to the site taxonomy - the franchise investment brackets (Less than 26 Lacs, 26 to 60 Lacs, 60 Lacs to 1 Crore), the store formats (Dine-in Only, Dine-in + Take Awa
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the site taxonomy - the franchise investment brackets (Less than 26 Lacs, 26 to 60 Lacs, 60 Lacs to 1 Crore), the store formats (Dine-in Only, Dine-in + Take Awa
   name: Burger Singh Taxonomy API
   slug: burger-singh-taxonomy-api
-- description: Public, unauthenticated cross-content search over burgersinghonline.com, returning lightweight id / title / url / type / subtype records with an embeddable link to the full object.
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over burgersinghonline.com, returning lightweight id / title / url / type / subtype records with an embeddable link to the full object.
   name: Burger Singh Search API
   slug: burger-singh-search-api
-- description: 'Public, unauthenticated site, content-type, taxonomy, status and author metadata - the self-describing route index (200 routes across 12 namespaces) that makes the whole burgersinghonline.com surface '
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated site, content-type, taxonomy, status and author metadata - the self-describing route index (200 routes across 12 namespaces) that makes the whole burgersinghonline.com surface '
   name: Burger Singh Discovery API
   slug: burger-singh-discovery-api
-- description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any burgersinghonline.com URL.
+- baseURL: https://www.burgersinghonline.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any burgersinghonline.com URL.
   name: Burger Singh SEO Metadata API
   slug: burger-singh-seo-api
 artifact_total: 17
@@ -195,7 +207,7 @@ score:
   band: thin
   composite: 31.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 60.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +233,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/burger-singh/refs/heads/main/screenshots/burger-singh-2026-09-02T144958.png
 security:
 - kind: authentication
   name: Burger Singh Authentication

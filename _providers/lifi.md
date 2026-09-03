@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -47,55 +47,89 @@ apis:
 - description: Intent-based execution API for the LI.FI solver marketplace. Integrators request quotes and submit orders; solvers publish standing quote inventory and fill intents. Built on the Open Intents Framewor
   name: LI.FI Intents Order Server API
   slug: lifi-intents-order-server-api
-- description: The advanced API from LI.FI — 3 operation(s) for advanced.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The advanced API from LI.FI — 3 operation(s) for advanced.
   name: LI.FI advanced API
   slug: lifi-advanced-api
-- description: The Analytics API from LI.FI — 4 operation(s) for analytics.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Analytics API from LI.FI — 4 operation(s) for analytics.
   name: LI.FI Analytics API
   slug: lifi-analytics-api
-- description: The Calldata API from LI.FI — 1 operation(s) for calldata.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Calldata API from LI.FI — 1 operation(s) for calldata.
   name: LI.FI Calldata API
   slug: lifi-calldata-api
-- description: The Chains API from LI.FI — 1 operation(s) for chains.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Chains API from LI.FI — 1 operation(s) for chains.
   name: LI.FI Chains API
   slug: lifi-chains-api
-- description: The Connections API from LI.FI — 1 operation(s) for connections.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Connections API from LI.FI — 1 operation(s) for connections.
   name: LI.FI Connections API
   slug: lifi-connections-api
-- description: The Earn Chains API from LI.FI — 1 operation(s) for earn chains.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Earn Chains API from LI.FI — 1 operation(s) for earn chains.
   name: LI.FI Earn Chains API
   slug: lifi-earn-chains-api
-- description: The Earn Portfolio API from LI.FI — 1 operation(s) for earn portfolio.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Earn Portfolio API from LI.FI — 1 operation(s) for earn portfolio.
   name: LI.FI Earn Portfolio API
   slug: lifi-earn-portfolio-api
-- description: The Earn Protocols API from LI.FI — 1 operation(s) for earn protocols.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Earn Protocols API from LI.FI — 1 operation(s) for earn protocols.
   name: LI.FI Earn Protocols API
   slug: lifi-earn-protocols-api
-- description: The Earn Vaults API from LI.FI — 2 operation(s) for earn vaults.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Earn Vaults API from LI.FI — 2 operation(s) for earn vaults.
   name: LI.FI Earn Vaults API
   slug: lifi-earn-vaults-api
-- description: The Gas API from LI.FI — 5 operation(s) for gas.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Gas API from LI.FI — 5 operation(s) for gas.
   name: LI.FI Gas API
   slug: lifi-gas-api
-- description: The Integrators API from LI.FI — 2 operation(s) for integrators.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Integrators API from LI.FI — 2 operation(s) for integrators.
   name: LI.FI Integrators API
   slug: lifi-integrators-api
-- description: The Quote API from LI.FI — 4 operation(s) for quote.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Quote API from LI.FI — 4 operation(s) for quote.
   name: LI.FI Quote API
   slug: lifi-quote-api
-- description: The Relayer API from LI.FI — 3 operation(s) for relayer.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Relayer API from LI.FI — 3 operation(s) for relayer.
   name: LI.FI Relayer API
   slug: lifi-relayer-api
-- description: The Status API from LI.FI — 1 operation(s) for status.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Status API from LI.FI — 1 operation(s) for status.
   name: LI.FI Status API
   slug: lifi-status-api
-- description: The Token API from LI.FI — 1 operation(s) for token.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Token API from LI.FI — 1 operation(s) for token.
   name: LI.FI Token API
   slug: lifi-token-api
-- description: The Tokens API from LI.FI — 1 operation(s) for tokens.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Tokens API from LI.FI — 1 operation(s) for tokens.
   name: LI.FI Tokens API
   slug: lifi-tokens-api
-- description: The Tools API from LI.FI — 1 operation(s) for tools.
+- baseURL: https://li.quest
+  baseurl_source: declared
+  description: The Tools API from LI.FI — 1 operation(s) for tools.
   name: LI.FI Tools API
   slug: lifi-tools-api
 artifact_total: 42
@@ -352,7 +386,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

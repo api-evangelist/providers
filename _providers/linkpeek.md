@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: GET-based HTTP image API that returns a screenshot for any given web page URI. Embeddable directly in HTML via img/anchor tags. Supports request options such as size=original and viewport for mobile/t
@@ -85,7 +85,7 @@ score:
   band: emerging
   composite: 12.7
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -113,8 +113,9 @@ score:
     regime_id: energy_utilities
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linkpeek/refs/heads/main/screenshots/linkpeek-2026-09-02T150301.png
 slug: linkpeek
 tags:
 - Screenshots

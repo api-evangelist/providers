@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,28 +50,42 @@ apis:
 - description: The Solr Indexing API provides HTTP endpoints for adding, updating, and deleting documents from the search index. It supports JSON, XML, CSV, and binary Solr formats via the /update handler, atomic up
   name: Apache Solr Indexing API
   slug: apache-solr-indexing-api
-- description: The Solr Schema API provides REST endpoints for managing the schema of a Solr collection, including field types, fields, dynamic fields, and copy fields. The Managed Schema approach allows runtime sch
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Solr Schema API provides REST endpoints for managing the schema of a Solr collection, including field types, fields, dynamic fields, and copy fields. The Managed Schema approach allows runtime sch
   name: Apache Solr Schema API
   slug: apache-solr-schema-api
-- description: The Solr Collections API provides REST endpoints for managing SolrCloud collections, shards, replicas, and aliases. It supports collection creation, deletion, modification, shard splitting, replica ma
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: The Solr Collections API provides REST endpoints for managing SolrCloud collections, shards, replicas, and aliases. It supports collection creation, deletion, modification, shard splitting, replica ma
   name: Apache Solr Collections API
   slug: apache-solr-collections-api
 - description: The Solr Config API and Request Parameters API provide REST endpoints for managing Solr's solrconfig.xml settings at runtime without server restart, including request handler configuration, search com
   name: Apache Solr Config API
   slug: apache-solr-config-api
-- description: Cluster status and properties
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Cluster status and properties
   name: Apache Solr Cluster API
   slug: apache-solr-cluster-api
-- description: Manage SolrCloud collections, replicas, and nodes
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Manage SolrCloud collections, replicas, and nodes
   name: Apache Solr Collections API
   slug: apache-solr-collections-api
-- description: Search a collection
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Search a collection
   name: Apache Solr Query API
   slug: apache-solr-query-api
-- description: Read and modify the schema of a collection
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Read and modify the schema of a collection
   name: Apache Solr Schema API
   slug: apache-solr-schema-api
-- description: Index, update, and delete documents
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Index, update, and delete documents
   name: Apache Solr Update API
   slug: apache-solr-update-api
 artifact_total: 45
@@ -259,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-solr/refs/heads/main/screenshots/apache-solr-2026-06-20T172145.png
 security:

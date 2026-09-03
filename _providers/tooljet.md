@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 23 operations · 15 acting
 api_count: 1
 apis:
-- description: Application export, import, and Git sync endpoints
+- baseURL: https://your-tooljet-instance.com/api/ext
+  baseurl_source: declared
+  description: Application export, import, and Git sync endpoints
   name: ToolJet Applications API
   slug: tooljet-applications-api
-- description: Group and permission management endpoints
+- baseURL: https://your-tooljet-instance.com/api/ext
+  baseurl_source: declared
+  description: Group and permission management endpoints
   name: ToolJet Groups API
   slug: tooljet-groups-api
-- description: User management endpoints
+- baseURL: https://your-tooljet-instance.com/api/ext
+  baseurl_source: declared
+  description: User management endpoints
   name: ToolJet Users API
   slug: tooljet-users-api
-- description: Workspace management endpoints
+- baseURL: https://your-tooljet-instance.com/api/ext
+  baseurl_source: declared
+  description: Workspace management endpoints
   name: ToolJet Workspaces API
   slug: tooljet-workspaces-api
 artifact_total: 24
@@ -230,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/screenshots/tooljet-2026-06-20T195448.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: RapiDoc web component configuration attributes for general settings, colors and fonts, navigation bar, layout, sections, schema, and API server options.
+- baseURL: https://rapidocweb.com
+  baseurl_source: spec
+  description: RapiDoc web component configuration attributes for general settings, colors and fonts, navigation bar, layout, sections, schema, and API server options.
   name: RapiDoc Configuration API
   slug: rapidoc-configuration-api
 artifact_total: 21
@@ -225,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/screenshots/rapidoc-2026-06-20T192601.png
 security:

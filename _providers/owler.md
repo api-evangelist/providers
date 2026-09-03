@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 6 operations
 api_count: 2
 apis:
-- description: Provides company premium information
+- baseURL: https://apiv2.owler.com
+  baseurl_source: declared
+  description: Provides company premium information
   name: Owler Company Premium API
   slug: owler-company-premium-api-api
-- description: Provides Competitor Premium information
+- baseURL: https://apiv2.owler.com
+  baseurl_source: declared
+  description: Provides Competitor Premium information
   name: Owler Competitor Premium API
   slug: owler-competitor-premium-api-api
-- description: Provides Feed information
+- baseURL: https://apiv2.owler.com
+  baseurl_source: declared
+  description: Provides Feed information
   name: Owler Feed API
   slug: owler-feed-api-api
 artifact_total: 9
@@ -221,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage email accounts, vacation replies, forwarding, and account settings
+- baseURL: https://mail.zoho.com/api
+  baseurl_source: declared
+  description: Manage email accounts, vacation replies, forwarding, and account settings
   name: Zoho Mail Accounts API
   slug: zoho-mail-accounts-api
-- description: Create and manage email folders
+- baseURL: https://mail.zoho.com/api
+  baseurl_source: declared
+  description: Create and manage email folders
   name: Zoho Mail Folders API
   slug: zoho-mail-folders-api
-- description: Send, receive, search, and manage email messages and attachments
+- baseURL: https://mail.zoho.com/api
+  baseurl_source: declared
+  description: Send, receive, search, and manage email messages and attachments
   name: Zoho Mail Messages API
   slug: zoho-mail-messages-api
-- description: Admin-level organization, domain, group, user, and policy management
+- baseURL: https://mail.zoho.com/api
+  baseurl_source: declared
+  description: Admin-level organization, domain, group, user, and policy management
   name: Zoho Mail Organization API
   slug: zoho-mail-organization-api
 artifact_total: 18
@@ -207,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-mail/refs/heads/main/screenshots/zoho-mail-2026-06-20T201942.png
 security:

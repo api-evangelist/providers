@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: PipelineIQ raw data export streams every gameplay event as JSON objects (a metadata wrapper plus an event data object) in real time, with historical backfill, into a customer's own cloud environment -
   name: GameAnalytics Data Export (PipelineIQ)
   slug: gameanalytics-data-export-api
-- description: HMAC-signed event ingestion (Collector API).
+- baseURL: https://api.gameanalytics.com/v2
+  baseurl_source: declared
+  description: HMAC-signed event ingestion (Collector API).
   name: GameAnalytics Collection API
   slug: gameanalytics-collection-api
-- description: Aggregated gameplay metrics and reporting.
+- baseURL: https://api.gameanalytics.com/v2
+  baseurl_source: declared
+  description: Aggregated gameplay metrics and reporting.
   name: GameAnalytics Metrics API
   slug: gameanalytics-metrics-api
-- description: Programmatic administration of games, studios, users, and permissions.
+- baseURL: https://api.gameanalytics.com/v2
+  baseurl_source: declared
+  description: Programmatic administration of games, studios, users, and permissions.
   name: GameAnalytics Organization API
   slug: gameanalytics-organization-api
 artifact_total: 17
@@ -182,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameanalytics/refs/heads/main/screenshots/gameanalytics-2026-07-25T215409.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 6
 apis:
-- description: Zudoku is an open-source, developer-first API documentation framework built by Zuplo. It uses a file-based configuration model (zudoku.config.ts) to generate interactive API documentation from OpenAPI
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: Zudoku is an open-source, developer-first API documentation framework built by Zuplo. It uses a file-based configuration model (zudoku.config.ts) to generate interactive API documentation from OpenAPI
   name: Zudoku Configuration API
   slug: configuration-api
-- description: OpenAPI document references for generating API documentation.
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: OpenAPI document references for generating API documentation.
   name: Zudoku API References API
   slug: zudoku-api-references-api
-- description: Authentication provider configuration.
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: Authentication provider configuration.
   name: Zudoku Authentication API
   slug: zudoku-authentication-api
-- description: Site navigation and sidebar configuration.
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: Site navigation and sidebar configuration.
   name: Zudoku Navigation API
   slug: zudoku-navigation-api
-- description: Plugin registration and configuration.
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: Plugin registration and configuration.
   name: Zudoku Plugins API
   slug: zudoku-plugins-api
-- description: Theme, branding, and visual customization.
+- baseURL: https://zudoku.dev
+  baseurl_source: spec
+  description: Theme, branding, and visual customization.
   name: Zudoku Theming API
   slug: zudoku-theming-api
 artifact_total: 25
@@ -208,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/screenshots/zudoku-2026-06-20T201959.png
 security:

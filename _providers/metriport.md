@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 30 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Medical API consolidated FHIR data.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Medical API consolidated FHIR data.
   name: Metriport Consolidated API
   slug: metriport-consolidated-api
-- description: Devices API normalized health data.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Devices API normalized health data.
   name: Metriport Devices Data API
   slug: metriport-devices-data-api
-- description: Medical API clinical document query and retrieval.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Medical API clinical document query and retrieval.
   name: Metriport Document API
   slug: metriport-document-api
-- description: Medical API facility management.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Medical API facility management.
   name: Metriport Facility API
   slug: metriport-facility-api
-- description: Medical API patient management.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Medical API patient management.
   name: Metriport Patient API
   slug: metriport-patient-api
-- description: Account settings and webhooks.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Account settings and webhooks.
   name: Metriport Settings API
   slug: metriport-settings-api
-- description: Devices API user and connect management.
+- baseURL: https://api.metriport.com/medical/v1
+  baseurl_source: declared
+  description: Devices API user and connect management.
   name: Metriport User API
   slug: metriport-user-api
 arazzos:
@@ -328,7 +342,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -338,7 +352,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 66.1
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -360,7 +374,7 @@ score:
     regime_id: health
     score: 51.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metriport/refs/heads/main/screenshots/metriport-2026-08-07T172739.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 51 operations · 22 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Alert management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Alert management
   name: Broadcom Alerts API
   slug: broadcom-alerts-api
-- description: API token management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: API token management
   name: Broadcom API Tokens API
   slug: broadcom-api-tokens-api
-- description: Token-based authentication
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: Token-based authentication
   name: Broadcom Authentication API
   slug: broadcom-authentication-api
-- description: Cluster management
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: Cluster management
   name: Broadcom Clusters API
   slug: broadcom-clusters-api
-- description: Content library management
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Content library management
   name: Broadcom Content Library API
   slug: broadcom-content-library-api
-- description: Dashboard management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Dashboard management
   name: Broadcom Dashboards API
   slug: broadcom-dashboards-api
-- description: Operations for managing datastores
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Operations for managing datastores
   name: Broadcom Datastores API
   slug: broadcom-datastores-api
-- description: Event management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Event management
   name: Broadcom Events API
   slug: broadcom-events-api
-- description: ESXi host management
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: ESXi host management
   name: Broadcom Hosts API
   slug: broadcom-hosts-api
-- description: Network pool management
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: Network pool management
   name: Broadcom Network Pools API
   slug: broadcom-network-pools-api
-- description: Operations for managing networks
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Operations for managing networks
   name: Broadcom Networks API
   slug: broadcom-networks-api
-- description: Proxy management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Proxy management
   name: Broadcom Proxies API
   slug: broadcom-proxies-api
-- description: Query metrics data
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Query metrics data
   name: Broadcom Query API
   slug: broadcom-query-api
-- description: Session management operations
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Session management operations
   name: Broadcom Session API
   slug: broadcom-session-api
-- description: Source management
+- baseURL_template: https://{instance}.wavefront.com/api/v2
+  baseurl_source: spec_template
+  description: Source management
   name: Broadcom Sources API
   slug: broadcom-sources-api
-- description: Tag management and association operations
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Tag management and association operations
   name: Broadcom Tagging API
   slug: broadcom-tagging-api
-- description: Asynchronous task monitoring
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: Asynchronous task monitoring
   name: Broadcom Tasks API
   slug: broadcom-tasks-api
-- description: System upgrade management
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: System upgrade management
   name: Broadcom Upgrades API
   slug: broadcom-upgrades-api
-- description: Operations for managing virtual machines
+- baseURL_template: https://{vcenter}/api
+  baseurl_source: spec_template
+  description: Operations for managing virtual machines
   name: Broadcom Virtual Machines API
   slug: broadcom-virtual-machines-api
-- description: Workload domain lifecycle management
+- baseURL_template: https://{sddc-manager}/v1
+  baseurl_source: spec_template
+  description: Workload domain lifecycle management
   name: Broadcom Workload Domains API
   slug: broadcom-workload-domains-api
 artifact_total: 59
@@ -317,7 +357,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -327,7 +367,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 33.3
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -336,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +35,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
   name: Akuity API Key Service API
   slug: akuity-apikeyservice-api
-- description: The ArgoCDService API from Akuity — 111 operation(s) for argocdservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The ArgoCDService API from Akuity — 111 operation(s) for argocdservice.
   name: Akuity Argo CD Service API
   slug: akuity-argocdservice-api
-- description: The AuthService API from Akuity — 4 operation(s) for authservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The AuthService API from Akuity — 4 operation(s) for authservice.
   name: Akuity Auth Service API
   slug: akuity-authservice-api
-- description: The CustomRoleService API from Akuity — 2 operation(s) for customroleservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The CustomRoleService API from Akuity — 2 operation(s) for customroleservice.
   name: Akuity Custom Role Service API
   slug: akuity-customroleservice-api
-- description: The ExtensionService API from Akuity — 6 operation(s) for extensionservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The ExtensionService API from Akuity — 6 operation(s) for extensionservice.
   name: Akuity Extension Service API
   slug: akuity-extensionservice-api
-- description: The KargoService API from Akuity — 39 operation(s) for kargoservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The KargoService API from Akuity — 39 operation(s) for kargoservice.
   name: Akuity Kargo Service API
   slug: akuity-kargoservice-api
-- description: The OrganizationService API from Akuity — 153 operation(s) for organizationservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The OrganizationService API from Akuity — 153 operation(s) for organizationservice.
   name: Akuity Organization Service API
   slug: akuity-organizationservice-api
-- description: The SystemService API from Akuity — 14 operation(s) for systemservice.
+- baseURL: https://akuity.cloud/api/v1
+  baseurl_source: declared
+  description: The SystemService API from Akuity — 14 operation(s) for systemservice.
   name: Akuity System Service API
   slug: akuity-systemservice-api
 artifact_total: 24
@@ -268,7 +296,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -278,7 +306,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 66.4
+  previous_composite: 66.1
   provenance:
     conformance: first-party
     contracts:
@@ -289,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for Accelo with CRUD access to companies, contacts, activities, tasks, projects (jobs), milestones, invoices, contracts, quotes, prospects, time entries, staff, and webhooks. Uses OAuth 2.0 (
   name: Accelo REST API
   slug: accelo-api
-- description: The Activities API from Accelo — 4 operation(s) for activities.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Activities API from Accelo — 4 operation(s) for activities.
   name: Accelo Activities API
   slug: accelo-activities-api
-- description: The Companies API from Accelo — 2 operation(s) for companies.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Companies API from Accelo — 2 operation(s) for companies.
   name: Accelo Companies API
   slug: accelo-companies-api
-- description: The Contacts API from Accelo — 2 operation(s) for contacts.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Contacts API from Accelo — 2 operation(s) for contacts.
   name: Accelo Contacts API
   slug: accelo-contacts-api
-- description: The Issues API from Accelo — 2 operation(s) for issues.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Issues API from Accelo — 2 operation(s) for issues.
   name: Accelo Issues API
   slug: accelo-issues-api
-- description: The Jobs API from Accelo — 2 operation(s) for jobs.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Jobs API from Accelo — 2 operation(s) for jobs.
   name: Accelo Jobs API
   slug: accelo-jobs-api
-- description: The OAuth API from Accelo — 1 operation(s) for oauth.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The OAuth API from Accelo — 1 operation(s) for oauth.
   name: Accelo OAuth API
   slug: accelo-oauth-api
-- description: The Tasks API from Accelo — 2 operation(s) for tasks.
+- baseURL: https://{deployment}.api.accelo.com/api/v0
+  baseurl_source: declared
+  description: The Tasks API from Accelo — 2 operation(s) for tasks.
   name: Accelo Tasks API
   slug: accelo-tasks-api
 artifact_total: 21
@@ -194,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/screenshots/accelo-2026-06-20T163557.png
 security:

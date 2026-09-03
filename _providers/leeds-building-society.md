@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The OBIE Read/Write Account and Transaction Information (AIS) standard for retrieving account, balance, transaction, and beneficiary data with customer consent, secured with FAPI-grade OAuth2/OIDC, mu
@@ -45,22 +45,34 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account, secured with FAPI OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authenti
   name: OBIE Confirmation of Funds API (CBPII, shared standard)
   slug: obie-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting ATM data
   name: Leeds Building Society ATM API
   slug: leeds-building-society-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Business Current Account data
   name: Leeds Building Society BCA API
   slug: leeds-building-society-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Branch data
   name: Leeds Building Society Branch API
   slug: leeds-building-society-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Commercial Credit Card data
   name: Leeds Building Society CCC API
   slug: leeds-building-society-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Personal Current Account data
   name: Leeds Building Society PCA API
   slug: leeds-building-society-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Unsecured SME Loan data
   name: Leeds Building Society SME API
   slug: leeds-building-society-sme-api
 artifact_total: 11
@@ -155,7 +167,7 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:

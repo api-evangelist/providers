@@ -34,22 +34,30 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The Fusio Backend API provides a REST interface to configure and manage all aspects of a Fusio API management instance. It covers operations, routes, schemas, actions, connections, apps, users, and ma
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The Fusio Backend API provides a REST interface to configure and manage all aspects of a Fusio API management instance. It covers operations, routes, schemas, actions, connections, apps, users, and ma
   name: Fusio Backend API
   slug: fusio-backend-api
-- description: The Fusio Consumer API is used by the developer portal application and enables third-party developers to request access tokens, manage their apps, and interact with protected API endpoints. It provide
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The Fusio Consumer API is used by the developer portal application and enables third-party developers to request access tokens, manage their apps, and interact with protected API endpoints. It provide
   name: Fusio Consumer API
   slug: fusio-consumer-api
 - description: The Fusio Worker API enables executing API action logic in multiple programming languages by forwarding requests to external worker processes. Workers are implemented in the target language (JavaScrip
   name: Fusio Worker API
   slug: fusio-worker-api
-- description: The Fusio System API is the meta surface every Fusio instance exposes without configuration. It carries the discovery document at the root, the health check, the route table, and the specification gen
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The Fusio System API is the meta surface every Fusio instance exposes without configuration. It carries the discovery document at the root, the health check, the route table, and the specification gen
   name: Fusio System API
   slug: fusio-system-api
-- description: The Fusio Authorization API is the OAuth2 authorization server Fusio ships in the product. It issues and refreshes access tokens across the authorization_code, client_credentials, password and refresh
+- baseURL: https://demo.fusio-project.org
+  baseurl_source: declared
+  description: The Fusio Authorization API is the OAuth2 authorization server Fusio ships in the product. It issues and refreshes access tokens across the authorization_code, client_credentials, password and refresh
   name: Fusio Authorization API
   slug: fusio-authorization-api
 artifact_total: 31
@@ -309,18 +317,18 @@ scopes:
   summary_line: 58 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.4
+  composite: 52.1
   coverage:
     artifact_dirs: 26
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.5
+  delta: 0.7
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
-    contract_quality: 57.2
+    contract_quality: 60.6
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 18.2
@@ -328,7 +336,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 49.9
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -339,7 +347,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fusio/refs/heads/main/screenshots/fusio-2026-06-20T181622.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -45,94 +45,154 @@ agentic_access:
   summary_line: 84 operations · 51 acting · 1 human-in-the-loop
 api_count: 74
 apis:
-- description: The Asset Categories API from FirstPromoter — 2 operation(s) for asset categories.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Asset Categories API from FirstPromoter — 2 operation(s) for asset categories.
   name: FirstPromoter Asset Categories API
   slug: firstpromoter-asset-categories-api
-- description: The Assets API from FirstPromoter — 4 operation(s) for assets.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Assets API from FirstPromoter — 4 operation(s) for assets.
   name: FirstPromoter Assets API
   slug: firstpromoter-assets-api
-- description: The Batch Processes API from FirstPromoter — 3 operation(s) for batch processes.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Batch Processes API from FirstPromoter — 3 operation(s) for batch processes.
   name: FirstPromoter Batch Processes API
   slug: firstpromoter-batch-processes-api
-- description: The Campaigns API from FirstPromoter — 2 operation(s) for campaigns.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Campaigns API from FirstPromoter — 2 operation(s) for campaigns.
   name: FirstPromoter Campaigns API
   slug: firstpromoter-campaigns-api
-- description: The Cancellation API from FirstPromoter — 1 operation(s) for cancellation.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Cancellation API from FirstPromoter — 1 operation(s) for cancellation.
   name: FirstPromoter Cancellation API
   slug: firstpromoter-cancellation-api
-- description: The Commissions API from FirstPromoter — 9 operation(s) for commissions.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Commissions API from FirstPromoter — 9 operation(s) for commissions.
   name: FirstPromoter Commissions API
   slug: firstpromoter-commissions-api
-- description: The Contract Documents API from FirstPromoter — 4 operation(s) for contract documents.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Contract Documents API from FirstPromoter — 4 operation(s) for contract documents.
   name: FirstPromoter Contract Documents API
   slug: firstpromoter-contract-documents-api
-- description: The Contracts API from FirstPromoter — 2 operation(s) for contracts.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Contracts API from FirstPromoter — 2 operation(s) for contracts.
   name: FirstPromoter Contracts API
   slug: firstpromoter-contracts-api
-- description: The Custom Referral Statuses API from FirstPromoter — 3 operation(s) for custom referral statuses.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Custom Referral Statuses API from FirstPromoter — 3 operation(s) for custom referral statuses.
   name: FirstPromoter Custom Referral Statuses API
   slug: firstpromoter-custom-referral-statuses-api
-- description: The Dashboards API from FirstPromoter — 4 operation(s) for dashboards.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Dashboards API from FirstPromoter — 4 operation(s) for dashboards.
   name: FirstPromoter Dashboards API
   slug: firstpromoter-dashboards-api
-- description: The Email Settings API from FirstPromoter — 2 operation(s) for email settings.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Email Settings API from FirstPromoter — 2 operation(s) for email settings.
   name: FirstPromoter Email Settings API
   slug: firstpromoter-email-settings-api
-- description: The Emails API from FirstPromoter — 8 operation(s) for emails.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Emails API from FirstPromoter — 8 operation(s) for emails.
   name: FirstPromoter Emails API
   slug: firstpromoter-emails-api
-- description: The Invoice Templates API from FirstPromoter — 3 operation(s) for invoice templates.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Invoice Templates API from FirstPromoter — 3 operation(s) for invoice templates.
   name: FirstPromoter Invoice Templates API
   slug: firstpromoter-invoice-templates-api
-- description: The Invoices API from FirstPromoter — 8 operation(s) for invoices.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Invoices API from FirstPromoter — 8 operation(s) for invoices.
   name: FirstPromoter Invoices API
   slug: firstpromoter-invoices-api
-- description: The Payments Batches API from FirstPromoter — 2 operation(s) for payments batches.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Payments Batches API from FirstPromoter — 2 operation(s) for payments batches.
   name: FirstPromoter Payments Batches API
   slug: firstpromoter-payments-batches-api
-- description: The Payout Methods API from FirstPromoter — 2 operation(s) for payout methods.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Payout Methods API from FirstPromoter — 2 operation(s) for payout methods.
   name: FirstPromoter Payout Methods API
   slug: firstpromoter-payout-methods-api
-- description: The Payouts API from FirstPromoter — 10 operation(s) for payouts.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Payouts API from FirstPromoter — 10 operation(s) for payouts.
   name: FirstPromoter Payouts API
   slug: firstpromoter-payouts-api
-- description: The Products API from FirstPromoter — 2 operation(s) for products.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Products API from FirstPromoter — 2 operation(s) for products.
   name: FirstPromoter Products API
   slug: firstpromoter-products-api
-- description: The Promo Codes API from FirstPromoter — 2 operation(s) for promo codes.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Promo Codes API from FirstPromoter — 2 operation(s) for promo codes.
   name: FirstPromoter Promo Codes API
   slug: firstpromoter-promo-codes-api
-- description: The Promoter Campaigns API from FirstPromoter — 5 operation(s) for promoter campaigns.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Promoter Campaigns API from FirstPromoter — 5 operation(s) for promoter campaigns.
   name: FirstPromoter Promoter Campaigns API
   slug: firstpromoter-promoter-campaigns-api
-- description: The Promoters API from FirstPromoter — 16 operation(s) for promoters.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Promoters API from FirstPromoter — 16 operation(s) for promoters.
   name: FirstPromoter Promoters API
   slug: firstpromoter-promoters-api
-- description: The Referral Links API from FirstPromoter — 2 operation(s) for referral links.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Referral Links API from FirstPromoter — 2 operation(s) for referral links.
   name: FirstPromoter Referral Links API
   slug: firstpromoter-referral-links-api
-- description: The Referrals API from FirstPromoter — 8 operation(s) for referrals.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Referrals API from FirstPromoter — 8 operation(s) for referrals.
   name: FirstPromoter Referrals API
   slug: firstpromoter-referrals-api
-- description: The Refund API from FirstPromoter — 1 operation(s) for refund.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Refund API from FirstPromoter — 1 operation(s) for refund.
   name: FirstPromoter Refund API
   slug: firstpromoter-refund-api
-- description: The Reports API from FirstPromoter — 7 operation(s) for reports.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Reports API from FirstPromoter — 7 operation(s) for reports.
   name: FirstPromoter Reports API
   slug: firstpromoter-reports-api
-- description: The Rewards API from FirstPromoter — 3 operation(s) for rewards.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Rewards API from FirstPromoter — 3 operation(s) for rewards.
   name: FirstPromoter Rewards API
   slug: firstpromoter-rewards-api
-- description: The Sale API from FirstPromoter — 1 operation(s) for sale.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Sale API from FirstPromoter — 1 operation(s) for sale.
   name: FirstPromoter Sale API
   slug: firstpromoter-sale-api
-- description: The Signup API from FirstPromoter — 1 operation(s) for signup.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Signup API from FirstPromoter — 1 operation(s) for signup.
   name: FirstPromoter Signup API
   slug: firstpromoter-signup-api
-- description: The Webhook Deliveries API from FirstPromoter — 3 operation(s) for webhook deliveries.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Webhook Deliveries API from FirstPromoter — 3 operation(s) for webhook deliveries.
   name: FirstPromoter Webhook Deliveries API
   slug: firstpromoter-webhook-deliveries-api
-- description: The Webhooks API from FirstPromoter — 4 operation(s) for webhooks.
+- baseURL: https://api.firstpromoter.com/api/v2/company
+  baseurl_source: declared
+  description: The Webhooks API from FirstPromoter — 4 operation(s) for webhooks.
   name: FirstPromoter Webhooks API
   slug: firstpromoter-webhooks-api
 artifact_total: 85
@@ -693,7 +753,7 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -703,7 +763,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 62.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -715,7 +775,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:

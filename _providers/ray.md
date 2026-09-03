@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -51,10 +51,14 @@ apis:
 - description: HTTP interface for invoking models and applications deployed via Ray Serve. Each deployed application is exposed as an HTTP endpoint on the Serve HTTP proxy (default port 8000); authentication and rou
   name: Ray Serve HTTP API
   slug: serve-api
-- description: The Jobs API from Ray — 4 operation(s) for jobs.
+- baseURL: http://127.0.0.1:8265/api
+  baseurl_source: declared
+  description: The Jobs API from Ray — 4 operation(s) for jobs.
   name: Ray Jobs API
   slug: ray-jobs-api
-- description: The Version API from Ray — 1 operation(s) for version.
+- baseURL: http://127.0.0.1:8265/api
+  baseurl_source: declared
+  description: The Version API from Ray — 1 operation(s) for version.
   name: Ray Version API
   slug: ray-version-api
 artifact_total: 11
@@ -175,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
 security:

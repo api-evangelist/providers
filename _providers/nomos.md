@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 33 operations · 11 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Nomos — 3 operation(s) for authentication.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Authentication API from Nomos — 3 operation(s) for authentication.
   name: Nomos Authentication API
   slug: nomos-authentication-api
-- description: The Customers API from Nomos — 2 operation(s) for customers.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Customers API from Nomos — 2 operation(s) for customers.
   name: Nomos Customers API
   slug: nomos-customers-api
-- description: The Events API from Nomos — 1 operation(s) for events.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Events API from Nomos — 1 operation(s) for events.
   name: Nomos Events API
   slug: nomos-events-api
-- description: The Grid Fee Reductions API from Nomos — 2 operation(s) for grid fee reductions.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Grid Fee Reductions API from Nomos — 2 operation(s) for grid fee reductions.
   name: Nomos Grid Fee Reductions API
   slug: nomos-grid-fee-reductions-api
-- description: The Invoices API from Nomos — 3 operation(s) for invoices.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Invoices API from Nomos — 3 operation(s) for invoices.
   name: Nomos Invoices API
   slug: nomos-invoices-api
-- description: The Leads API from Nomos — 2 operation(s) for leads.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Leads API from Nomos — 2 operation(s) for leads.
   name: Nomos Leads API
   slug: nomos-leads-api
-- description: The Market Partners API from Nomos — 1 operation(s) for market partners.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Market Partners API from Nomos — 1 operation(s) for market partners.
   name: Nomos Market Partners API
   slug: nomos-market-partners-api
-- description: The Plans API from Nomos — 3 operation(s) for plans.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Plans API from Nomos — 3 operation(s) for plans.
   name: Nomos Plans API
   slug: nomos-plans-api
-- description: The Prices API from Nomos — 1 operation(s) for prices.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Prices API from Nomos — 1 operation(s) for prices.
   name: Nomos Prices API
   slug: nomos-prices-api
-- description: The Smart Meter Orders API from Nomos — 2 operation(s) for smart meter orders.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Smart Meter Orders API from Nomos — 2 operation(s) for smart meter orders.
   name: Nomos Smart Meter Orders API
   slug: nomos-smart-meter-orders-api
-- description: The Subscriptions API from Nomos — 3 operation(s) for subscriptions.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Subscriptions API from Nomos — 3 operation(s) for subscriptions.
   name: Nomos Subscriptions API
   slug: nomos-subscriptions-api
-- description: The Usage API from Nomos — 3 operation(s) for usage.
+- baseURL: https://api.nomos.energy
+  baseurl_source: declared
+  description: The Usage API from Nomos — 3 operation(s) for usage.
   name: Nomos Usage API
   slug: nomos-usage-api
 artifact_total: 31
@@ -262,7 +286,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -272,7 +296,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 47.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +314,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/screenshots/nomos-2026-08-07T185448.png
 security:

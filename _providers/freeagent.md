@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: RESTful API for the FreeAgent cloud accounting platform. Provides full access to invoices, estimates, contacts, bills, expenses, projects, timeslips, bank accounts, transactions, and accountancy-pract
   name: FreeAgent REST API
   slug: rest-api
-- description: The BankAccounts API from FreeAgent — 2 operation(s) for bankaccounts.
+- baseURL: https://api.freeagent.com/v2
+  baseurl_source: declared
+  description: The BankAccounts API from FreeAgent — 2 operation(s) for bankaccounts.
   name: FreeAgent BankAccounts API
   slug: freeagent-bankaccounts-api
-- description: The Contacts API from FreeAgent — 2 operation(s) for contacts.
+- baseURL: https://api.freeagent.com/v2
+  baseurl_source: declared
+  description: The Contacts API from FreeAgent — 2 operation(s) for contacts.
   name: FreeAgent Contacts API
   slug: freeagent-contacts-api
-- description: The Invoices API from FreeAgent — 10 operation(s) for invoices.
+- baseURL: https://api.freeagent.com/v2
+  baseurl_source: declared
+  description: The Invoices API from FreeAgent — 10 operation(s) for invoices.
   name: FreeAgent Invoices API
   slug: freeagent-invoices-api
 artifact_total: 14
@@ -174,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/screenshots/freeagent-2026-06-20T181523.png
 security:

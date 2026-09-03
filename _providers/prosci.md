@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 11 acting
 api_count: 1
 apis:
-- description: Assess individual and group change readiness using Prosci's ADKAR Model
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Assess individual and group change readiness using Prosci's ADKAR Model
   name: Prosci ADKAR Assessments API
   slug: prosci-adkar-assessments-api
-- description: Create and manage change plans including communications, sponsorship, coaching, training, and resistance management
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Create and manage change plans including communications, sponsorship, coaching, training, and resistance management
   name: Prosci Change Plans API
   slug: prosci-change-plans-api
-- description: Organization-level change management maturity
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Organization-level change management maturity
   name: Prosci Organizations API
   slug: prosci-organizations-api
-- description: Evaluate change initiative health using the Prosci Change Triangle
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Evaluate change initiative health using the Prosci Change Triangle
   name: Prosci PCT Assessments API
   slug: prosci-pct-assessments-api
-- description: Manage change management projects
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Manage change management projects
   name: Prosci Projects API
   slug: prosci-projects-api
-- description: Assess and manage change risk
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Assess and manage change risk
   name: Prosci Risk Assessment API
   slug: prosci-risk-assessment-api
-- description: Manage stakeholders and impacted groups
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Manage stakeholders and impacted groups
   name: Prosci Stakeholders API
   slug: prosci-stakeholders-api
-- description: Training programs and enrollment management
+- baseURL: https://api.prosci.com/v1
+  baseurl_source: declared
+  description: Training programs and enrollment management
   name: Prosci Training API
   slug: prosci-training-api
 artifact_total: 28
@@ -215,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/screenshots/prosci-2026-08-17T124907.png
 security:

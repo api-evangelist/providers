@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -68,16 +68,24 @@ apis:
 - description: The Microsoft Entra PowerShell module provides cmdlets for managing Microsoft Entra resources programmatically, built on the Microsoft Graph PowerShell SDK.
   name: Microsoft Entra PowerShell
   slug: microsoft-entra-powershell
-- description: Manage application registrations in Azure Active Directory. An application object is the global representation of an application across all tenants, defining the app identity, access configuration, an
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage application registrations in Azure Active Directory. An application object is the global representation of an application across all tenants, defining the app identity, access configuration, an
   name: Microsoft Azure Active Directory Applications API
   slug: microsoft-azure-active-directory-applications-api
-- description: Manage groups in Azure Active Directory. Groups can be security groups, Microsoft 365 groups, or mail-enabled security groups. They provide shared access to resources for a collection of users and oth
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage groups in Azure Active Directory. Groups can be security groups, Microsoft 365 groups, or mail-enabled security groups. They provide shared access to resources for a collection of users and oth
   name: Microsoft Azure Active Directory Groups API
   slug: microsoft-azure-active-directory-groups-api
-- description: Manage service principals in Azure Active Directory. A service principal is the local representation of an application in a specific tenant. It defines what the application can do in the tenant, who c
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage service principals in Azure Active Directory. A service principal is the local representation of an application in a specific tenant. It defines what the application can do in the tenant, who c
   name: Microsoft Azure Active Directory Service Principals API
   slug: microsoft-azure-active-directory-service-principals-api
-- description: Manage user accounts in Azure Active Directory. Users are the core identity objects representing people in an organization. Each user has a profile with attributes such as display name, email, job tit
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage user accounts in Azure Active Directory. Users are the core identity objects representing people in an organization. Each user has a profile with attributes such as display name, email, job tit
   name: Microsoft Azure Active Directory Users API
   slug: microsoft-azure-active-directory-users-api
 artifact_total: 180
@@ -741,7 +749,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/screenshots/microsoft-azure-active-directory-2026-06-20T185351.png
 security:

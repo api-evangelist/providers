@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 39 operations · 23 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Configure connections to external data sources.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Configure connections to external data sources.
   name: APIGen Connectors API
   slug: apigen-connectors-api
-- description: Deploy APIs to target environments.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Deploy APIs to target environments.
   name: APIGen Deployments API
   slug: apigen-deployments-api
-- description: Define and manage API endpoints.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Define and manage API endpoints.
   name: APIGen Endpoints API
   slug: apigen-endpoints-api
-- description: Manage API generation projects.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Manage API generation projects.
   name: APIGen Projects API
   slug: apigen-projects-api
-- description: Define data schemas for APIs.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Define data schemas for APIs.
   name: APIGen Schemas API
   slug: apigen-schemas-api
-- description: Create and run automated API tests.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Create and run automated API tests.
   name: APIGen Tests API
   slug: apigen-tests-api
-- description: Manage API authentication tokens.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Manage API authentication tokens.
   name: APIGen Tokens API
   slug: apigen-tokens-api
-- description: Manage user profiles.
+- baseURL: https://api.apigen.com/v1
+  baseurl_source: declared
+  description: Manage user profiles.
   name: APIGen Users API
   slug: apigen-users-api
 artifact_total: 51
@@ -281,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/screenshots/apigen-2026-06-20T172236.png
 security:

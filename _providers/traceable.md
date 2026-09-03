@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: Traceable Active Security Testing (AST) provides automated API security testing with GraphQL-based configuration for scan creation, suite management, and CI/CD pipeline integration. Supports GitHub Ac
   name: Traceable Active Security Testing
   slug: traceable-ast
-- description: Execute GraphQL queries against the Traceable platform for advanced analytics, entity queries, and bulk data retrieval.
+- baseURL: https://api.traceable.ai
+  baseurl_source: declared
+  description: Execute GraphQL queries against the Traceable platform for advanced analytics, entity queries, and bulk data retrieval.
   name: Traceable GraphQL API
   slug: traceable-graphql-api
-- description: Download OpenAPI, WSDL, and other API specification files generated from discovered traffic.
+- baseURL: https://api.traceable.ai
+  baseurl_source: declared
+  description: Download OpenAPI, WSDL, and other API specification files generated from discovered traffic.
   name: Traceable Specifications API
   slug: traceable-specifications-api
 artifact_total: 24
@@ -240,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/screenshots/traceable-2026-06-20T195515.png
 security:

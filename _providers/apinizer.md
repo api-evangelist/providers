@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: The Endpoints API from Apinizer — 1 operation(s) for endpoints.
+- baseURL: https://api.apinizer.com/v1
+  baseurl_source: declared
+  description: The Endpoints API from Apinizer — 1 operation(s) for endpoints.
   name: Apinizer Endpoints API
   slug: apinizer-endpoints-api
-- description: The Gateways API from Apinizer — 1 operation(s) for gateways.
+- baseURL: https://api.apinizer.com/v1
+  baseurl_source: declared
+  description: The Gateways API from Apinizer — 1 operation(s) for gateways.
   name: Apinizer Gateways API
   slug: apinizer-gateways-api
-- description: The Monitoring API from Apinizer — 1 operation(s) for monitoring.
+- baseURL: https://api.apinizer.com/v1
+  baseurl_source: declared
+  description: The Monitoring API from Apinizer — 1 operation(s) for monitoring.
   name: Apinizer Monitoring API
   slug: apinizer-monitoring-api
-- description: The Policies API from Apinizer — 1 operation(s) for policies.
+- baseURL: https://api.apinizer.com/v1
+  baseurl_source: declared
+  description: The Policies API from Apinizer — 1 operation(s) for policies.
   name: Apinizer Policies API
   slug: apinizer-policies-api
 artifact_total: 35
@@ -243,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/screenshots/apinizer-2026-06-20T172251.png
 security:

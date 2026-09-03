@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 18 operations · 2 acting
 api_count: 2
 apis:
-- description: Linked brokerage accounts, balances, and positions
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Linked brokerage accounts, balances, and positions
   name: Charles Schwab Accounts API
   slug: charles-schwab-accounts-api
-- description: Instrument metadata search
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Instrument metadata search
   name: Charles Schwab Instruments API
   slug: charles-schwab-instruments-api
-- description: Market hours by product
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Market hours by product
   name: Charles Schwab Market Hours API
   slug: charles-schwab-market-hours-api
-- description: Top movers within indexes
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Top movers within indexes
   name: Charles Schwab Movers API
   slug: charles-schwab-movers-api
-- description: Option chain and expiration data
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Option chain and expiration data
   name: Charles Schwab Options API
   slug: charles-schwab-options-api
-- description: Place, retrieve, and cancel orders
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Place, retrieve, and cancel orders
   name: Charles Schwab Orders API
   slug: charles-schwab-orders-api
-- description: Historical price candles
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Historical price candles
   name: Charles Schwab Price History API
   slug: charles-schwab-price-history-api
-- description: Real-time and delayed quote data
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Real-time and delayed quote data
   name: Charles Schwab Quotes API
   slug: charles-schwab-quotes-api
-- description: Account transaction history
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: Account transaction history
   name: Charles Schwab Transactions API
   slug: charles-schwab-transactions-api
-- description: User account preferences and metadata
+- baseURL: https://api.schwabapi.com/trader/v1
+  baseurl_source: declared
+  description: User account preferences and metadata
   name: Charles Schwab User Preferences API
   slug: charles-schwab-user-preferences-api
 artifact_total: 37
@@ -312,7 +332,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png
 security:

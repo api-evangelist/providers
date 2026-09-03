@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -124,175 +136,289 @@ apis:
 - description: Claude Managed Agents on Cloudflare is a partnership offering announced May 19, 2026 that exposes Anthropic-managed Claude agents running on Cloudflare's Agents SDK / Durable Objects substrate. It int
   name: Claude Managed Agents on Cloudflare API
   slug: cloudflare-agents-managed-api
-- description: The Accounts API from Cloudflare — 441 operation(s) for accounts.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Accounts API from Cloudflare — 441 operation(s) for accounts.
   name: Cloudflare Accounts API
   slug: cloudflare-accounts-api
-- description: Execute AI models for text generation, embeddings, image classification, and other machine learning tasks.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Execute AI models for text generation, embeddings, image classification, and other machine learning tasks.
   name: Cloudflare AI Inference API
   slug: cloudflare-ai-inference-api
-- description: Create, list, and delete R2 storage buckets.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, and delete R2 storage buckets.
   name: Cloudflare Buckets API
   slug: cloudflare-buckets-api
-- description: Write, read, and delete multiple key-value pairs in a single request.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Write, read, and delete multiple key-value pairs in a single request.
   name: Cloudflare Bulk Operations API
   slug: cloudflare-bulk-operations-api
-- description: The Certificates API from Cloudflare — 2 operation(s) for certificates.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Certificates API from Cloudflare — 2 operation(s) for certificates.
   name: Cloudflare Certificates API
   slug: cloudflare-certificates-api
-- description: Configure bucket settings including CORS, lifecycle rules, and public access.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Configure bucket settings including CORS, lifecycle rules, and public access.
   name: Cloudflare Configuration API
   slug: cloudflare-configuration-api
-- description: Create, list, update, and delete Hyperdrive configurations that connect Workers to databases.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete Hyperdrive configurations that connect Workers to databases.
   name: Cloudflare Configurations API
   slug: cloudflare-configurations-api
-- description: Manage consumers that process messages from queues.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage consumers that process messages from queues.
   name: Cloudflare Consumers API
   slug: cloudflare-consumers-api
-- description: Create, list, update, and delete D1 serverless SQL databases.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete D1 serverless SQL databases.
   name: Cloudflare Databases API
   slug: cloudflare-databases-api
-- description: List available datasets and their fields for log exports.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: List available datasets and their fields for log exports.
   name: Cloudflare Datasets API
   slug: cloudflare-datasets-api
-- description: Create, list, and manage deployments for Pages projects.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, and manage deployments for Pages projects.
   name: Cloudflare Deployments API
   slug: cloudflare-deployments-api
-- description: Create one-time upload URLs for client-side image uploads.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create one-time upload URLs for client-side image uploads.
   name: Cloudflare Direct Uploads API
   slug: cloudflare-direct-uploads-api
-- description: Access DNS query analytics for a zone with aggregated and time-grouped metrics.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Access DNS query analytics for a zone with aggregated and time-grouped metrics.
   name: Cloudflare DNS Analytics API
   slug: cloudflare-dns-analytics-api
-- description: Execute multiple DNS record operations in a single API call.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Execute multiple DNS record operations in a single API call.
   name: Cloudflare DNS Batch Operations API
   slug: cloudflare-dns-batch-operations-api
-- description: Import and export DNS records using BIND zone file format.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Import and export DNS records using BIND zone file format.
   name: Cloudflare DNS Record Import/Export API
   slug: cloudflare-dns-record-import-export-api
-- description: Scan for common DNS records on a domain and review discovered records.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Scan for common DNS records on a domain and review discovered records.
   name: Cloudflare DNS Record Scanning API
   slug: cloudflare-dns-record-scanning-api
-- description: Manage DNS records for a zone including A, AAAA, CNAME, MX, TXT, SRV, and other record types.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage DNS records for a zone including A, AAAA, CNAME, MX, TXT, SRV, and other record types.
   name: Cloudflare DNS Records API
   slug: cloudflare-dns-records-api
-- description: Manage DNSSEC settings for a zone to protect against DNS spoofing.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage DNSSEC settings for a zone to protect against DNS spoofing.
   name: Cloudflare DNSSEC API
   slug: cloudflare-dnssec-api
-- description: Attach and detach custom domains to Worker scripts.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Attach and detach custom domains to Worker scripts.
   name: Cloudflare Domains API
   slug: cloudflare-domains-api
-- description: Create, list, update, and delete AI Gateway instances.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete AI Gateway instances.
   name: Cloudflare Gateways API
   slug: cloudflare-gateways-api
-- description: Upload, list, update, and delete image assets.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Upload, list, update, and delete image assets.
   name: Cloudflare Images API
   slug: cloudflare-images-api
-- description: Import SQL into and export SQL from D1 databases.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Import SQL into and export SQL from D1 databases.
   name: Cloudflare Import/Export API
   slug: cloudflare-import-export-api
-- description: Create, list, update, and delete vector indexes.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete vector indexes.
   name: Cloudflare Indexes API
   slug: cloudflare-indexes-api
-- description: The Ips API from Cloudflare — 1 operation(s) for ips.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Ips API from Cloudflare — 1 operation(s) for ips.
   name: Cloudflare Ips API
   slug: cloudflare-ips-api
-- description: Read, write, and delete individual key-value pairs.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Read, write, and delete individual key-value pairs.
   name: Cloudflare Key-Value Pairs API
   slug: cloudflare-key-value-pairs-api
-- description: List and manage keys within a namespace.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: List and manage keys within a namespace.
   name: Cloudflare Keys API
   slug: cloudflare-keys-api
-- description: Manage live streaming inputs for RTMPS and SRT ingestion.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage live streaming inputs for RTMPS and SRT ingestion.
   name: Cloudflare Live Inputs API
   slug: cloudflare-live-inputs-api
-- description: Create, list, update, and delete Logpush jobs that push logs to external destinations.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete Logpush jobs that push logs to external destinations.
   name: Cloudflare Logpush Jobs API
   slug: cloudflare-logpush-jobs-api
-- description: Access request logs and analytics for AI Gateway traffic.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Access request logs and analytics for AI Gateway traffic.
   name: Cloudflare Logs API
   slug: cloudflare-logs-api
-- description: The Memberships API from Cloudflare — 2 operation(s) for memberships.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Memberships API from Cloudflare — 2 operation(s) for memberships.
   name: Cloudflare Memberships API
   slug: cloudflare-memberships-api
-- description: Send, pull, and acknowledge messages.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Send, pull, and acknowledge messages.
   name: Cloudflare Messages API
   slug: cloudflare-messages-api
-- description: Read metadata associated with keys.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Read metadata associated with keys.
   name: Cloudflare Metadata API
   slug: cloudflare-metadata-api
-- description: Manage Durable Object namespaces that group related object instances.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage Durable Object namespaces that group related object instances.
   name: Cloudflare Namespaces API
   slug: cloudflare-namespaces-api
-- description: List and manage individual Durable Object instances within a namespace.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: List and manage individual Durable Object instances within a namespace.
   name: Cloudflare Objects API
   slug: cloudflare-objects-api
-- description: OpenAI-compatible endpoints for chat completions, text completions, embeddings, and responses.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: OpenAI-compatible endpoints for chat completions, text completions, embeddings, and responses.
   name: Cloudflare OpenAI Compatible API
   slug: cloudflare-openai-compatible-api
-- description: The Organizations API from Cloudflare — 1 operation(s) for organizations.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Organizations API from Cloudflare — 1 operation(s) for organizations.
   name: Cloudflare Organizations API
   slug: cloudflare-organizations-api
-- description: Validate ownership of a log destination.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Validate ownership of a log destination.
   name: Cloudflare Ownership API
   slug: cloudflare-ownership-api
-- description: Manage Pages projects including creation, configuration, and deletion.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage Pages projects including creation, configuration, and deletion.
   name: Cloudflare Projects API
   slug: cloudflare-projects-api
-- description: Purge all messages from a queue.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Purge all messages from a queue.
   name: Cloudflare Purge API
   slug: cloudflare-purge-api
-- description: Execute SQL queries against D1 databases.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Execute SQL queries against D1 databases.
   name: Cloudflare Queries API
   slug: cloudflare-queries-api
-- description: Create, list, update, and delete message queues.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete message queues.
   name: Cloudflare Queues API
   slug: cloudflare-queues-api
-- description: The Radar API from Cloudflare — 169 operation(s) for radar.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Radar API from Cloudflare — 169 operation(s) for radar.
   name: Cloudflare Radar API
   slug: cloudflare-radar-api
-- description: Map URL patterns to Worker scripts within a zone.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Map URL patterns to Worker scripts within a zone.
   name: Cloudflare Routes API
   slug: cloudflare-routes-api
-- description: Upload, download, and manage Worker scripts by name.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Upload, download, and manage Worker scripts by name.
   name: Cloudflare Scripts API
   slug: cloudflare-scripts-api
-- description: Manage encrypted environment variables for Worker scripts.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage encrypted environment variables for Worker scripts.
   name: Cloudflare Secrets API
   slug: cloudflare-secrets-api
-- description: Manage signing keys for signed video URLs.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage signing keys for signed video URLs.
   name: Cloudflare Signing Keys API
   slug: cloudflare-signing-keys-api
-- description: Browse and restore D1 databases to previous points in time.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Browse and restore D1 databases to previous points in time.
   name: Cloudflare Time Travel API
   slug: cloudflare-time-travel-api
-- description: The User API from Cloudflare — 28 operation(s) for user.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The User API from Cloudflare — 28 operation(s) for user.
   name: Cloudflare User API
   slug: cloudflare-user-api
-- description: Manage image variants that define transformation presets.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage image variants that define transformation presets.
   name: Cloudflare Variants API
   slug: cloudflare-variants-api
-- description: Insert, upsert, query, get, and delete vectors within an index.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Insert, upsert, query, get, and delete vectors within an index.
   name: Cloudflare Vectors API
   slug: cloudflare-vectors-api
-- description: Verify Turnstile challenge tokens on the server side.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Verify Turnstile challenge tokens on the server side.
   name: Cloudflare Verification API
   slug: cloudflare-verification-api
-- description: Manage immutable snapshots of Worker code and configuration.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage immutable snapshots of Worker code and configuration.
   name: Cloudflare Versions API
   slug: cloudflare-versions-api
-- description: Upload, list, update, and delete video assets.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Upload, list, update, and delete video assets.
   name: Cloudflare Videos API
   slug: cloudflare-videos-api
-- description: Configure webhooks for video processing notifications.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Configure webhooks for video processing notifications.
   name: Cloudflare Webhooks API
   slug: cloudflare-webhooks-api
-- description: Create, list, update, and delete Turnstile widget configurations.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Create, list, update, and delete Turnstile widget configurations.
   name: Cloudflare Widgets API
   slug: cloudflare-widgets-api
-- description: Manage Worker resources including creating, updating, and deleting Workers.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: Manage Worker resources including creating, updating, and deleting Workers.
   name: Cloudflare Workers API
   slug: cloudflare-workers-api
-- description: The Zones API from Cloudflare — 265 operation(s) for zones.
+- baseURL: https://api.cloudflare.com
+  baseurl_source: declared
+  description: The Zones API from Cloudflare — 265 operation(s) for zones.
   name: Cloudflare Zones API
   slug: cloudflare-zones-api
 arazzos:
@@ -1919,7 +2045,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1929,7 +2055,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 63.4
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1938,7 +2064,7 @@ score:
       marker_coverage: 0.0
       total: 57
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

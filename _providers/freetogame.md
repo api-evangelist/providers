@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Browse and retrieve free-to-play game listings and details.
+- baseURL: https://www.freetogame.com/api
+  baseurl_source: declared
+  description: Browse and retrieve free-to-play game listings and details.
   name: FreeToGame Games API
   slug: freetogame-games-api
 artifact_total: 9
@@ -134,7 +136,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freetogame/refs/heads/main/screenshots/freetogame-2026-06-20T181535.png
 security:

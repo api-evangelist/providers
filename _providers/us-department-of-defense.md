@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,28 +52,44 @@ apis:
 - description: The Department of Defense Open Data Platform (data.mil) provides access to unclassified DoD datasets and data services supporting defense research, policy analysis, and public accountability.
   name: DoD Open Data Platform
   slug: dod-open-data
-- description: Data catalog and discovery
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: Data catalog and discovery
   name: US Department of Defense Catalog API
   slug: us-department-of-defense-catalog-api
-- description: Location levels and pool data
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: Location levels and pool data
   name: US Department of Defense Levels API
   slug: us-department-of-defense-levels-api
-- description: CWMS monitoring locations and metadata
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: CWMS monitoring locations and metadata
   name: US Department of Defense Locations API
   slug: us-department-of-defense-locations-api
-- description: Field measurements and observations
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: Field measurements and observations
   name: US Department of Defense Measurements API
   slug: us-department-of-defense-measurements-api
-- description: USACE district offices
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: USACE district offices
   name: US Department of Defense Offices API
   slug: us-department-of-defense-offices-api
-- description: USACE projects and reservoirs
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: USACE projects and reservoirs
   name: US Department of Defense Projects API
   slug: us-department-of-defense-projects-api
-- description: Rating curves and tables
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: Rating curves and tables
   name: US Department of Defense Ratings API
   slug: us-department-of-defense-ratings-api
-- description: Time series data retrieval and management
+- baseURL: https://cwms-data.usace.army.mil/cwms-data/api/latest
+  baseurl_source: spec
+  description: Time series data retrieval and management
   name: US Department of Defense Time Series API
   slug: us-department-of-defense-time-series-api
 artifact_total: 32
@@ -218,7 +234,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/screenshots/us-department-of-defense-2026-06-20T200627.png
 security:

@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The auth API from Platzi — 3 operation(s) for auth.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The auth API from Platzi — 3 operation(s) for auth.
   name: Platzi auth API
   slug: platzi-auth-api
-- description: The categories API from Platzi — 4 operation(s) for categories.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The categories API from Platzi — 4 operation(s) for categories.
   name: Platzi categories API
   slug: platzi-categories-api
-- description: The files API from Platzi — 2 operation(s) for files.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The files API from Platzi — 2 operation(s) for files.
   name: Platzi files API
   slug: platzi-files-api
-- description: The Locations API from Platzi — 1 operation(s) for locations.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The Locations API from Platzi — 1 operation(s) for locations.
   name: Platzi Locations API
   slug: platzi-locations-api
-- description: The products API from Platzi — 5 operation(s) for products.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The products API from Platzi — 5 operation(s) for products.
   name: Platzi products API
   slug: platzi-products-api
-- description: The users API from Platzi — 3 operation(s) for users.
+- baseURL: https://api.escuelajs.co/api/v1
+  baseurl_source: declared
+  description: The users API from Platzi — 3 operation(s) for users.
   name: Platzi users API
   slug: platzi-users-api
 artifact_total: 16
@@ -191,7 +203,7 @@ score:
   band: developing
   composite: 40.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -222,8 +234,9 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/platzi/refs/heads/main/screenshots/platzi-2026-09-02T151437.png
 security:
 - kind: authentication
   name: Platzi Authentication

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -33,13 +45,19 @@ agentic_access:
   summary_line: 19 operations · 8 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The allowed-values API from Songtradr — 1 operation(s) for allowed-values.
+- baseURL: https://api.songtradr.com
+  baseurl_source: declared
+  description: The allowed-values API from Songtradr — 1 operation(s) for allowed-values.
   name: Songtradr Allowed Values API
   slug: songtradr-allowed-values-api
-- description: The similarity-vector-controller API from Songtradr — 1 operation(s) for similarity-vector-controller.
+- baseURL: https://api.songtradr.com
+  baseurl_source: declared
+  description: The similarity-vector-controller API from Songtradr — 1 operation(s) for similarity-vector-controller.
   name: Songtradr Similarity Vector Controller API
   slug: songtradr-similarity-vector-controller-api
-- description: The user API from Songtradr — 15 operation(s) for user.
+- baseURL: https://api.songtradr.com
+  baseurl_source: declared
+  description: The user API from Songtradr — 15 operation(s) for user.
   name: Songtradr User API
   slug: songtradr-user-api
 artifact_total: 12
@@ -220,7 +238,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/songtradr/refs/heads/main/screenshots/songtradr-2026-08-17T082014.png
 security:

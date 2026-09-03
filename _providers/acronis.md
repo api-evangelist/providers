@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 30 operations · 13 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: Acronis Resource and Policy Management API enables organizations to efficiently manage resources and policies within their IT infrastructure.
+- baseURL: https://{datacenter}.acronis.com/api
+  baseurl_source: declared
+  description: Acronis Resource and Policy Management API enables organizations to efficiently manage resources and policies within their IT infrastructure.
   name: Acronis Resource and Policy Management API
   slug: resource-and-policy-management-api
-- description: The Acronis Advanced Automation API allows users to automate and streamline their backup and recovery processes with custom scripts and workflows.
+- baseURL: https://{datacenter}.acronis.com/api/advanced-automation/v1
+  baseurl_source: declared
+  description: The Acronis Advanced Automation API allows users to automate and streamline their backup and recovery processes with custom scripts and workflows.
   name: Acronis Advanced Automation API
   slug: advanced-automation-api
-- description: The Acronis Event Manager API allows users to monitor and manage events across their entire Acronis ecosystem with real-time access to event data.
+- baseURL: https://{datacenter}.acronis.com/api/event_manager/v1
+  baseurl_source: declared
+  description: The Acronis Event Manager API allows users to monitor and manage events across their entire Acronis ecosystem with real-time access to event data.
   name: Acronis Event Manager API
   slug: event-manager-api
-- description: The Acronis Disaster Recovery Service API allows organizations to automate and streamline their disaster recovery processes.
+- baseURL: https://{datacenter}.acronis.com/api/dr/v2
+  baseurl_source: declared
+  description: The Acronis Disaster Recovery Service API allows organizations to automate and streamline their disaster recovery processes.
   name: Acronis Disaster Recovery Service API
   slug: disaster-recovery-service-api
-- description: The Acronis Endpoint Detection and Response API is a comprehensive security solution that helps organizations detect and respond to cybersecurity threats in real-time.
+- baseURL: https://{datacenter}.acronis.com/api/mdr/v1
+  baseurl_source: declared
+  description: The Acronis Endpoint Detection and Response API is a comprehensive security solution that helps organizations detect and respond to cybersecurity threats in real-time.
   name: Acronis Endpoint Detection and Response API
   slug: endpoint-detection-and-response-api
-- description: The Acronis Vault Manager REST API allows users to manage and interact with their Acronis Vault storage solutions programmatically.
+- baseURL: https://{datacenter}.acronis.com/api/vault_manager/v1
+  baseurl_source: declared
+  description: The Acronis Vault Manager REST API allows users to manage and interact with their Acronis Vault storage solutions programmatically.
   name: Acronis Vault Manager REST API
   slug: vault-manager-rest-api
-- description: Task activity and sub-operation tracking
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Task activity and sub-operation tracking
   name: Acronis Activities API
   slug: acronis-activities-api
-- description: Agent update configuration and execution
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Agent update configuration and execution
   name: Acronis Agent Updates API
   slug: acronis-agent-updates-api
-- description: Acronis protection agent management
+- baseURL: https://{datacenter}.acronis.com/api/agent_manager/v2
+  baseurl_source: declared
+  description: Acronis protection agent management
   name: Acronis Agents API
   slug: acronis-agents-api
-- description: Token issuance, revocation, and introspection
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Token issuance, revocation, and introspection
   name: Acronis Authentication API
   slug: acronis-authentication-api
-- description: OAuth2 client credential management
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: OAuth2 client credential management
   name: Acronis Clients API
   slug: acronis-clients-api
-- description: Hardware node management
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Hardware node management
   name: Acronis Hardware Nodes API
   slug: acronis-hardware-nodes-api
-- description: Offering items, quotas, and edition management
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Offering items, quotas, and edition management
   name: Acronis Licensing API
   slug: acronis-licensing-api
-- description: Backup and protection task monitoring
+- baseURL: https://{datacenter}.acronis.com/api/task_manager/v2
+  baseurl_source: declared
+  description: Backup and protection task monitoring
   name: Acronis Tasks API
   slug: acronis-tasks-api
-- description: Tenant hierarchy management and configuration
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Tenant hierarchy management and configuration
   name: Acronis Tenants API
   slug: acronis-tenants-api
-- description: Usage metrics and reporting
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: Usage metrics and reporting
   name: Acronis Usage API
   slug: acronis-usage-api
-- description: User account management within tenants
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: User account management within tenants
   name: Acronis Users API
   slug: acronis-users-api
-- description: The platform spine — tenants, users, OAuth clients, applications, licensing (offering items), usage reporting, infrastructure and branding for Acronis Cyber Protect Cloud. 95 operations in the contrac
+- baseURL: https://{datacenter}.acronis.com/api/2
+  baseurl_source: declared
+  description: The platform spine — tenants, users, OAuth clients, applications, licensing (offering items), usage reporting, infrastructure and branding for Acronis Cyber Protect Cloud. 95 operations in the contrac
   name: Acronis Account Management API
   slug: account-management-api
-- description: Operational alerting across the Acronis platform — fetch, categorise, register and unregister alert types, and dismiss alerts, so an integration can drive its own monitoring surface from Acronis event
+- baseURL: https://{datacenter}.acronis.com/api/alert_manager/v1
+  baseurl_source: declared
+  description: Operational alerting across the Acronis platform — fetch, categorise, register and unregister alert types, and dismiss alerts, so an integration can drive its own monitoring surface from Acronis event
   name: Acronis Alert Manager API
   slug: alert-manager-api
-- description: Reads the effective price lists a service-provider tenant is on, so an MSP billing system can reconcile Acronis charges against its own rate cards without scraping the partner portal.
+- baseURL: https://{datacenter}.acronis.com/api/price_sync/v1
+  baseurl_source: declared
+  description: Reads the effective price lists a service-provider tenant is on, so an MSP billing system can reconcile Acronis charges against its own rate cards without scraping the partner portal.
   name: Acronis Price List API
   slug: price-list-api
-- description: Manages the Acronis Files Cloud surface — devices, sync-and-share nodes, file revisions and restores, audit log — for building file collaboration and retention workflows on the Acronis platform.
+- baseURL: https://{datacenter}.acronis.com/fc/api/v1
+  baseurl_source: declared
+  description: Manages the Acronis Files Cloud surface — devices, sync-and-share nodes, file revisions and restores, audit log — for building file collaboration and retention workflows on the Acronis platform.
   name: Acronis File Sync & Share API
   slug: file-sync-and-share-api
 artifact_total: 161
@@ -763,7 +805,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -773,7 +815,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 68.4
-  previous_composite: 59.8
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -785,8 +827,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:
 - kind: authentication

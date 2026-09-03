@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: Subscription usage and account limits
+- baseURL: https://parcelsapp.com/api/v3
+  baseurl_source: declared
+  description: Subscription usage and account limits
   name: Parcels App Account API
   slug: parcelsapp-account-api
-- description: Create tracking requests and read results
+- baseURL: https://parcelsapp.com/api/v3
+  baseurl_source: declared
+  description: Create tracking requests and read results
   name: Parcels App Tracking API
   slug: parcelsapp-tracking-api
-- description: Callbacks sent to your `webhookUrl` when tracking progresses or completes. Pass `webhookUrl` in `POST /shipments/tracking`; Parcels sends JSON `POST` requests to that URL.
+- baseURL: https://parcelsapp.com/api/v3
+  baseurl_source: declared
+  description: Callbacks sent to your `webhookUrl` when tracking progresses or completes. Pass `webhookUrl` in `POST /shipments/tracking`; Parcels sends JSON `POST` requests to that URL.
   name: Parcels App Webhooks API
   slug: parcelsapp-webhooks-api
 artifact_total: 13
@@ -176,7 +182,7 @@ score:
     regime_id: telecommunications
     score: 13.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcelsapp/refs/heads/main/screenshots/parcelsapp-2026-08-07T191439.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 47 operations · 15 acting
 api_count: 21
 apis:
-- description: The Ad Accounts API from Facebook — 1 operation(s) for ad accounts.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Ad Accounts API from Facebook — 1 operation(s) for ad accounts.
   name: Facebook Ad Accounts API
   slug: facebook-ad-accounts-api
-- description: The Ad Sets API from Facebook — 1 operation(s) for ad sets.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Ad Sets API from Facebook — 1 operation(s) for ad sets.
   name: Facebook Ad Sets API
   slug: facebook-ad-sets-api
-- description: The Ads API from Facebook — 1 operation(s) for ads.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Ads API from Facebook — 1 operation(s) for ads.
   name: Facebook Ads API
   slug: facebook-ads-api
-- description: The Audiences API from Facebook — 1 operation(s) for audiences.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Audiences API from Facebook — 1 operation(s) for audiences.
   name: Facebook Audiences API
   slug: facebook-audiences-api
-- description: The Authentication API from Facebook — 1 operation(s) for authentication.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Authentication API from Facebook — 1 operation(s) for authentication.
   name: Facebook Authentication API
   slug: facebook-authentication-api
-- description: The Campaigns API from Facebook — 2 operation(s) for campaigns.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Campaigns API from Facebook — 2 operation(s) for campaigns.
   name: Facebook Campaigns API
   slug: facebook-campaigns-api
-- description: The Comments API from Facebook — 2 operation(s) for comments.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Comments API from Facebook — 2 operation(s) for comments.
   name: Facebook Comments API
   slug: facebook-comments-api
-- description: The Conversations API from Facebook — 2 operation(s) for conversations.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Conversations API from Facebook — 2 operation(s) for conversations.
   name: Facebook Conversations API
   slug: facebook-conversations-api
-- description: The Insights API from Facebook — 3 operation(s) for insights.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Insights API from Facebook — 3 operation(s) for insights.
   name: Facebook Insights API
   slug: facebook-insights-api
-- description: The Media API from Facebook — 4 operation(s) for media.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Media API from Facebook — 4 operation(s) for media.
   name: Facebook Media API
   slug: facebook-media-api
-- description: The Messages API from Facebook — 2 operation(s) for messages.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Messages API from Facebook — 2 operation(s) for messages.
   name: Facebook Messages API
   slug: facebook-messages-api
-- description: The Pages API from Facebook — 2 operation(s) for pages.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Pages API from Facebook — 2 operation(s) for pages.
   name: Facebook Pages API
   slug: facebook-pages-api
-- description: The Phone Numbers API from Facebook — 2 operation(s) for phone numbers.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Phone Numbers API from Facebook — 2 operation(s) for phone numbers.
   name: Facebook Phone Numbers API
   slug: facebook-phone-numbers-api
-- description: The Photos API from Facebook — 2 operation(s) for photos.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Photos API from Facebook — 2 operation(s) for photos.
   name: Facebook Photos API
   slug: facebook-photos-api
-- description: The Posts API from Facebook — 2 operation(s) for posts.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Posts API from Facebook — 2 operation(s) for posts.
   name: Facebook Posts API
   slug: facebook-posts-api
-- description: The Profile API from Facebook — 1 operation(s) for profile.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Profile API from Facebook — 1 operation(s) for profile.
   name: Facebook Profile API
   slug: facebook-profile-api
-- description: The Publishing API from Facebook — 2 operation(s) for publishing.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Publishing API from Facebook — 2 operation(s) for publishing.
   name: Facebook Publishing API
   slug: facebook-publishing-api
-- description: The Replies API from Facebook — 1 operation(s) for replies.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Replies API from Facebook — 1 operation(s) for replies.
   name: Facebook Replies API
   slug: facebook-replies-api
-- description: The Tags API from Facebook — 1 operation(s) for tags.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Tags API from Facebook — 1 operation(s) for tags.
   name: Facebook Tags API
   slug: facebook-tags-api
-- description: The Templates API from Facebook — 1 operation(s) for templates.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Templates API from Facebook — 1 operation(s) for templates.
   name: Facebook Templates API
   slug: facebook-templates-api
-- description: The Users API from Facebook — 4 operation(s) for users.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Users API from Facebook — 4 operation(s) for users.
   name: Facebook Users API
   slug: facebook-users-api
 artifact_total: 179
@@ -713,7 +755,7 @@ score:
       marker_coverage: 100.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/screenshots/facebook-2026-07-25T214133.png
 security:

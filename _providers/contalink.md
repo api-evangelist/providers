@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Obtiene la balanza de comprobación según los parámetros enviados
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Obtiene la balanza de comprobación según los parámetros enviados
   name: Contalink Balanza de comprobación API
   slug: contalink-balanza-de-comprobaci-n-api
-- description: Carga un documento fiscal al sistema
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Carga un documento fiscal al sistema
   name: Contalink Cargar un documento fiscal API
   slug: contalink-cargar-un-documento-fiscal-api
-- description: Realiza la conciliación por medio del UUID de la factura proporcionada.
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Realiza la conciliación por medio del UUID de la factura proporcionada.
   name: Contalink Conciliación API
   slug: contalink-conciliaci-n-api
-- description: Obtiene un listado de los documentos fiscales que correspondan a los filtros enviados
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Obtiene un listado de los documentos fiscales que correspondan a los filtros enviados
   name: Contalink Listado de documentos fiscales API
   slug: contalink-listado-de-documentos-fiscales-api
-- description: Gestiona altas y bajas de los movimientos que se dan en los bancos, tarjetas, cajas, etc.
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Gestiona altas y bajas de los movimientos que se dan en los bancos, tarjetas, cajas, etc.
   name: Contalink Movimientos bancarios API
   slug: contalink-movimientos-bancarios-api
-- description: Gestiona altas, bajas y cambios de las pólizas manuales.
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Gestiona altas, bajas y cambios de las pólizas manuales.
   name: Contalink Pólizas manuales API
   slug: contalink-p-lizas-manuales-api
-- description: Obtiene el saldo de una cuenta contable
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Obtiene el saldo de una cuenta contable
   name: Contalink Saldo de una cuenta API
   slug: contalink-saldo-de-una-cuenta-api
-- description: Valida los status de vigencia y pago de un documento fiscal
+- baseURL: https://794lol2h95.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: Valida los status de vigencia y pago de un documento fiscal
   name: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
 artifact_total: 21
@@ -228,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png
 security:

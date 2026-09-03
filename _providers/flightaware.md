@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -50,25 +50,39 @@ apis:
 - description: Firehose is FlightAware's real-time streaming feed of global flight data, delivering ADS-B, radar, and ATC-derived position, status, and event messages over a persistent TLS connection for enterprise-
   name: FlightAware Firehose
   slug: firehose
-- description: The airports API from FlightAware — 17 operation(s) for airports.
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: The airports API from FlightAware — 17 operation(s) for airports.
   name: FlightAware airports API
   slug: flightaware-airports-api
-- description: AeroAPI alerting can be used to configure and receive real-time alerts on key flight events. With customizable alerting offered by our alert endpoints, AeroAPI empowers users to selectively pick vario
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: AeroAPI alerting can be used to configure and receive real-time alerts on key flight events. With customizable alerting offered by our alert endpoints, AeroAPI empowers users to selectively pick vario
   name: FlightAware alerts API
   slug: flightaware-alerts-api
-- description: The flights API from FlightAware — 11 operation(s) for flights.
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: The flights API from FlightAware — 11 operation(s) for flights.
   name: FlightAware flights API
   slug: flightaware-flights-api
-- description: 'Foresight endpoints provide access to FlightAware''s Foresight predictive models and predictions for key events. Our advanced machine learning (ML) models identify key influencing factors for a flight '
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: 'Foresight endpoints provide access to FlightAware''s Foresight predictive models and predictions for key events. Our advanced machine learning (ML) models identify key influencing factors for a flight '
   name: FlightAware foresight API
   slug: flightaware-foresight-api
-- description: The history API from FlightAware — 5 operation(s) for history.
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: The history API from FlightAware — 5 operation(s) for history.
   name: FlightAware history API
   slug: flightaware-history-api
-- description: The miscellaneous API from FlightAware — 6 operation(s) for miscellaneous.
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: The miscellaneous API from FlightAware — 6 operation(s) for miscellaneous.
   name: FlightAware miscellaneous API
   slug: flightaware-miscellaneous-api
-- description: The operators API from FlightAware — 8 operation(s) for operators.
+- baseURL: https://aeroapi.flightaware.com/aeroapi
+  baseurl_source: declared
+  description: The operators API from FlightAware — 8 operation(s) for operators.
   name: FlightAware operators API
   slug: flightaware-operators-api
 artifact_total: 24
@@ -209,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

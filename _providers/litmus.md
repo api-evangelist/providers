@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 5 acting
 api_count: 3
 apis:
-- description: Campaign engagement metrics and breakdowns
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Campaign engagement metrics and breakdowns
   name: Litmus Analytics API
   slug: litmus-analytics-api
-- description: Email campaign tracking and management
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Email campaign tracking and management
   name: Litmus Campaigns API
   slug: litmus-campaigns-api
-- description: Available email client configurations
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Available email client configurations
   name: Litmus Clients API
   slug: litmus-clients-api
-- description: Email preview generation and management
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Email preview generation and management
   name: Litmus Previews API
   slug: litmus-previews-api
-- description: Test result retrieval
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Test result retrieval
   name: Litmus Results API
   slug: litmus-results-api
-- description: Email test creation and management
+- baseURL: https://instant-api.litmus.com/v1
+  baseurl_source: declared
+  description: Email test creation and management
   name: Litmus Tests API
   slug: litmus-tests-api
 artifact_total: 24
@@ -224,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/screenshots/litmus-2026-06-20T184609.png
 security:

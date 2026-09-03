@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Answer operations
+- baseURL: https://api.seltz.ai
+  baseurl_source: declared
+  description: Answer operations
   name: Seltz answer API
   slug: seltz-answer-api
-- description: Search operations
+- baseURL: https://api.seltz.ai
+  baseurl_source: declared
+  description: Search operations
   name: Seltz search API
   slug: seltz-search-api
 artifact_total: 9
@@ -200,7 +204,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seltz/refs/heads/main/screenshots/seltz-2026-08-17T081806.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 3
 apis:
-- description: Monitor and manage data quality and pipeline alerts
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Monitor and manage data quality and pipeline alerts
   name: Acceldata Alerts API
   slug: acceldata-alerts-api
-- description: Manage data quality rules and monitoring policies
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Manage data quality rules and monitoring policies
   name: Acceldata Data Quality Rules API
   slug: acceldata-data-quality-rules-api
-- description: Manage and query dataset metadata and quality metrics
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Manage and query dataset metadata and quality metrics
   name: Acceldata Datasets API
   slug: acceldata-datasets-api
-- description: Query data lineage and impact analysis
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Query data lineage and impact analysis
   name: Acceldata Lineage API
   slug: acceldata-lineage-api
-- description: Monitor data pipeline job execution and health
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Monitor data pipeline job execution and health
   name: Acceldata Pipeline Jobs API
   slug: acceldata-pipeline-jobs-api
-- description: Manage roles and permissions
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Manage roles and permissions
   name: Acceldata Roles API
   slug: acceldata-roles-api
-- description: Manage users and user invitations
+- baseURL: https://api.acceldata.app/v1
+  baseurl_source: declared
+  description: Manage users and user invitations
   name: Acceldata Users API
   slug: acceldata-users-api
-- description: 'The ADOC data catalog surface: discover and search assets, read asset metadata, schema, samples, relationships and lineage, apply tags and labels, and create, schedule, execute and read the results of'
+- baseURL: https://{adoc-host}
+  baseurl_source: declared
+  description: 'The ADOC data catalog surface: discover and search assets, read asset metadata, schema, samples, relationships and lineage, apply tags and labels, and create, schedule, execute and read the results of'
   name: Acceldata Catalog API
   slug: acceldata-catalog-api
-- description: 'Tenant administration for ADOC: user and service-user lifecycle (create, update, disable), user group management, client role assignment, and API key issuance and revocation. SCIM-managed users and gr'
+- baseURL: https://{adoc-host}
+  baseurl_source: declared
+  description: 'Tenant administration for ADOC: user and service-user lifecycle (create, update, disable), user group management, client role assignment, and API key issuance and revocation. SCIM-managed users and gr'
   name: Acceldata Administration API
   slug: acceldata-administration-api
-- description: Create and manage tag keys and values, search across tagged key/value pairs, and associate or retrieve unified tags on catalog entities — assets, policies, rules, rulesets, UDFs and labelers. A gRPC-t
+- baseURL: https://{adoc-host}
+  baseurl_source: declared
+  description: Create and manage tag keys and values, search across tagged key/value pairs, and associate or retrieve unified tags on catalog entities — assets, policies, rules, rulesets, UDFs and labelers. A gRPC-t
   name: Acceldata Tag Services API
   slug: acceldata-tags-api
 arazzos:
@@ -578,7 +598,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -588,7 +608,7 @@ score:
     discoverability: 57.4
     governance: 47.0
     operational_transparency: 36.8
-  previous_composite: 47.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -600,7 +620,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-08-17T082111.png
 security:

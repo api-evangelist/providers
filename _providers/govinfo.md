@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 1
 apis:
-- description: Discover new and updated documents based on GovInfo lastModified date/time
+- baseURL: https://api.govinfo.gov
+  baseurl_source: declared
+  description: Discover new and updated documents based on GovInfo lastModified date/time
   name: GovInfo Collections API
   slug: govinfo-collections-api
-- description: Return content and metadata for individual packages
+- baseURL: https://api.govinfo.gov
+  baseurl_source: declared
+  description: Return content and metadata for individual packages
   name: GovInfo Packages API
   slug: govinfo-packages-api
-- description: Discover documents on GovInfo based on official publication date
+- baseURL: https://api.govinfo.gov
+  baseurl_source: declared
+  description: Discover documents on GovInfo based on official publication date
   name: GovInfo Published API
   slug: govinfo-published-api
-- description: Discover relationships between documents available on GovInfo
+- baseURL: https://api.govinfo.gov
+  baseurl_source: declared
+  description: Discover relationships between documents available on GovInfo
   name: GovInfo Related API
   slug: govinfo-related-api
-- description: Discover documents on GovInfo using search queries and field operators available in the GovInfo UI
+- baseURL: https://api.govinfo.gov
+  baseurl_source: declared
+  description: Discover documents on GovInfo using search queries and field operators available in the GovInfo UI
   name: GovInfo Search API
   slug: govinfo-search-api
 artifact_total: 18
@@ -189,7 +199,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govinfo/refs/heads/main/screenshots/govinfo-2026-06-20T182303.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 21 operations
 api_count: 1
 apis:
-- description: The Active Storms API from AccuWeather — 1 operation(s) for active storms.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Active Storms API from AccuWeather — 1 operation(s) for active storms.
   name: AccuWeather Active Storms API
   slug: accuweather-active-storms-api
-- description: The Ads API from AccuWeather — 1 operation(s) for ads.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Ads API from AccuWeather — 1 operation(s) for ads.
   name: AccuWeather Ads API
   slug: accuweather-ads-api
-- description: The AirQuality API from AccuWeather — 1 operation(s) for airquality.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The AirQuality API from AccuWeather — 1 operation(s) for airquality.
   name: AccuWeather AirQuality API
   slug: accuweather-airquality-api
-- description: The Autocomplete API from AccuWeather — 1 operation(s) for autocomplete.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Autocomplete API from AccuWeather — 1 operation(s) for autocomplete.
   name: AccuWeather Autocomplete API
   slug: accuweather-autocomplete-api
-- description: The Current API from AccuWeather — 1 operation(s) for current.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Current API from AccuWeather — 1 operation(s) for current.
   name: AccuWeather Current API
   slug: accuweather-current-api
-- description: The Current Conditions API from AccuWeather — 1 operation(s) for current conditions.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Current Conditions API from AccuWeather — 1 operation(s) for current conditions.
   name: AccuWeather Current Conditions API
   slug: accuweather-current-conditions-api
-- description: The Daily API from AccuWeather — 1 operation(s) for daily.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Daily API from AccuWeather — 1 operation(s) for daily.
   name: AccuWeather Daily API
   slug: accuweather-daily-api
-- description: The Daily Indices API from AccuWeather — 1 operation(s) for daily indices.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Daily Indices API from AccuWeather — 1 operation(s) for daily indices.
   name: AccuWeather Daily Indices API
   slug: accuweather-daily-indices-api
-- description: The Favorite API from AccuWeather — 1 operation(s) for favorite.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Favorite API from AccuWeather — 1 operation(s) for favorite.
   name: AccuWeather Favorite API
   slug: accuweather-favorite-api
-- description: The Hourly API from AccuWeather — 1 operation(s) for hourly.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Hourly API from AccuWeather — 1 operation(s) for hourly.
   name: AccuWeather Hourly API
   slug: accuweather-hourly-api
-- description: The Hourlyaq API from AccuWeather — 1 operation(s) for hourlyaq.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Hourlyaq API from AccuWeather — 1 operation(s) for hourlyaq.
   name: AccuWeather Hourlyaq API
   slug: accuweather-hourlyaq-api
-- description: The Minutecast API from AccuWeather — 1 operation(s) for minutecast.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Minutecast API from AccuWeather — 1 operation(s) for minutecast.
   name: AccuWeather Minutecast API
   slug: accuweather-minutecast-api
-- description: The Partner API from AccuWeather — 1 operation(s) for partner.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Partner API from AccuWeather — 1 operation(s) for partner.
   name: AccuWeather Partner API
   slug: accuweather-partner-api
-- description: The Raine API from AccuWeather — 1 operation(s) for raine.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Raine API from AccuWeather — 1 operation(s) for raine.
   name: AccuWeather Raine API
   slug: accuweather-raine-api
-- description: The Resolve Location API from AccuWeather — 1 operation(s) for resolve location.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Resolve Location API from AccuWeather — 1 operation(s) for resolve location.
   name: AccuWeather Resolve Location API
   slug: accuweather-resolve-location-api
-- description: The Resolve Location Redirect API from AccuWeather — 1 operation(s) for resolve location redirect.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Resolve Location Redirect API from AccuWeather — 1 operation(s) for resolve location redirect.
   name: AccuWeather Resolve Location Redirect API
   slug: accuweather-resolve-location-redirect-api
-- description: The StaticMap API from AccuWeather — 1 operation(s) for staticmap.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The StaticMap API from AccuWeather — 1 operation(s) for staticmap.
   name: AccuWeather StaticMap API
   slug: accuweather-staticmap-api
-- description: The Storm API from AccuWeather — 1 operation(s) for storm.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Storm API from AccuWeather — 1 operation(s) for storm.
   name: AccuWeather Storm API
   slug: accuweather-storm-api
-- description: The Test API from AccuWeather — 1 operation(s) for test.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Test API from AccuWeather — 1 operation(s) for test.
   name: AccuWeather Test API
   slug: accuweather-test-api
-- description: The Tropical API from AccuWeather — 1 operation(s) for tropical.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Tropical API from AccuWeather — 1 operation(s) for tropical.
   name: AccuWeather Tropical API
   slug: accuweather-tropical-api
-- description: The Wintercast API from AccuWeather — 1 operation(s) for wintercast.
+- baseURL: https://dataservice.accuweather.com
+  baseurl_source: declared
+  description: The Wintercast API from AccuWeather — 1 operation(s) for wintercast.
   name: AccuWeather Wintercast API
   slug: accuweather-wintercast-api
 artifact_total: 238
@@ -855,7 +897,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/screenshots/accuweather-2026-06-20T163703.png
 security:

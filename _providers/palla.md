@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 7
 apis:
-- description: An Account belongs to a User authorized to use Palla.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: An Account belongs to a User authorized to use Palla.
   name: Palla Accounts API
   slug: palla-accounts-api
-- description: Authentication endpoints return tokens for user access.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: Authentication endpoints return tokens for user access.
   name: Palla Auth API
   slug: palla-auth-api
-- description: Service health.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: Service health.
   name: Palla Health API
   slug: palla-health-api
-- description: A Link is a unique URL belonging to an Account, used to create Relationships.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: A Link is a unique URL belonging to an Account, used to create Relationships.
   name: Palla Links API
   slug: palla-links-api
-- description: Payment Methods are used to send and/or receive Transfers.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: Payment Methods are used to send and/or receive Transfers.
   name: Palla Payment Methods API
   slug: palla-payment-methods-api
-- description: A Relationship is the connection between two Accounts.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: A Relationship is the connection between two Accounts.
   name: Palla Relationships API
   slug: palla-relationships-api
-- description: A Transfer is a record of funds sent to a Relationship.
+- baseURL: https://api.platform.palla.app
+  baseurl_source: declared
+  description: A Transfer is a record of funds sent to a Relationship.
   name: Palla Transfers API
   slug: palla-transfers-api
 artifact_total: 21
@@ -239,7 +253,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -249,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.9
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +285,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palla/refs/heads/main/screenshots/palla-2026-08-07T191320.png
 security:

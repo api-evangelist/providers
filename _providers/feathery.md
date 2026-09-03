@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 46 operations · 25 acting
 api_count: 1
 apis:
-- description: Team and account management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: Team and account management
   name: Feathery Account API
   slug: feathery-account-api
-- description: Data hub entry actions
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: Data hub entry actions
   name: Feathery Data Hubs API
   slug: feathery-data-hubs-api
-- description: AI-driven document extraction
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: AI-driven document extraction
   name: Feathery Document Intelligence API
   slug: feathery-document-intelligence-api
-- description: PDF and document template management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: PDF and document template management
   name: Feathery Document Templates API
   slug: feathery-document-templates-api
-- description: End user management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: End user management
   name: Feathery End Users API
   slug: feathery-end-users-api
-- description: Form creation and management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: Form creation and management
   name: Feathery Forms API
   slug: feathery-forms-api
-- description: Hidden field management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: Hidden field management
   name: Feathery Hidden Fields API
   slug: feathery-hidden-fields-api
-- description: API connector and email logs
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: API connector and email logs
   name: Feathery Logs API
   slug: feathery-logs-api
-- description: Workspace management
+- baseURL: https://api.feathery.io
+  baseurl_source: declared
+  description: Workspace management
   name: Feathery Workspaces API
   slug: feathery-workspaces-api
 artifact_total: 33
@@ -261,7 +279,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feathery/refs/heads/main/screenshots/feathery-2026-06-20T181109.png
 security:

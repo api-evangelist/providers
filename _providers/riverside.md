@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 3 acting
 api_count: 1
 apis:
-- description: Export file management and downloads
+- baseURL: https://platform.riverside.fm
+  baseurl_source: declared
+  description: Export file management and downloads
   name: Riverside Exports API
   slug: riverside-exports-api
-- description: Production workspace organization
+- baseURL: https://platform.riverside.fm
+  baseurl_source: declared
+  description: Production workspace organization
   name: Riverside Productions API
   slug: riverside-productions-api
-- description: Recording management and retrieval
+- baseURL: https://platform.riverside.fm
+  baseurl_source: declared
+  description: Recording management and retrieval
   name: Riverside Recordings API
   slug: riverside-recordings-api
-- description: Webinar registration management
+- baseURL: https://platform.riverside.fm
+  baseurl_source: declared
+  description: Webinar registration management
   name: Riverside Webinars API
   slug: riverside-webinars-api
 artifact_total: 26
@@ -255,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riverside/refs/heads/main/screenshots/riverside-2026-06-20T193133.png
 security:

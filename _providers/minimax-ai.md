@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 14 acting
 api_count: 1
 apis:
-- description: The Files API from MiniMax — 5 operation(s) for files.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Files API from MiniMax — 5 operation(s) for files.
   name: MiniMax Files API
   slug: minimax-ai-files-api
-- description: The Image API from MiniMax — 1 operation(s) for image.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Image API from MiniMax — 1 operation(s) for image.
   name: MiniMax Image API
   slug: minimax-ai-image-api
-- description: The Music API from MiniMax — 1 operation(s) for music.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Music API from MiniMax — 1 operation(s) for music.
   name: MiniMax Music API
   slug: minimax-ai-music-api
-- description: The Text Generation API from MiniMax — 1 operation(s) for text generation.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Text Generation API from MiniMax — 1 operation(s) for text generation.
   name: MiniMax Text Generation API
   slug: minimax-ai-text-generation-api
-- description: The Text to Audio API from MiniMax — 3 operation(s) for text to audio.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Text to Audio API from MiniMax — 3 operation(s) for text to audio.
   name: MiniMax Text to Audio API
   slug: minimax-ai-text-to-audio-api
-- description: The Video API from MiniMax — 3 operation(s) for video.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Video API from MiniMax — 3 operation(s) for video.
   name: MiniMax Video API
   slug: minimax-ai-video-api
-- description: The Voice API from MiniMax — 4 operation(s) for voice.
+- baseURL: https://api.minimax.io
+  baseurl_source: declared
+  description: The Voice API from MiniMax — 4 operation(s) for voice.
   name: MiniMax Voice API
   slug: minimax-ai-voice-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/screenshots/minimax-ai-2026-06-20T185605.png
 security:

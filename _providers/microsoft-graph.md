@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -43,1696 +43,2824 @@ agentic_access:
   summary_line: 37105 operations · 17655 acting · 93 human-in-the-loop
 api_count: 71
 apis:
-- description: The Admin.admin API from Microsoft Graph — 1 operation(s) for admin.admin.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Admin.admin API from Microsoft Graph — 1 operation(s) for admin.admin.
   name: Microsoft Graph Admin.admin API
   slug: microsoft-graph-admin-admin-api
-- description: The admin.adminMicrosoft365Apps API from Microsoft Graph — 2 operation(s) for admin.adminmicrosoft365apps.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The admin.adminMicrosoft365Apps API from Microsoft Graph — 2 operation(s) for admin.adminmicrosoft365apps.
   name: Microsoft Graph admin.adminMicrosoft365Apps API
   slug: microsoft-graph-admin-adminmicrosoft365apps-api
-- description: The admin.adminReportSettings API from Microsoft Graph — 1 operation(s) for admin.adminreportsettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The admin.adminReportSettings API from Microsoft Graph — 1 operation(s) for admin.adminreportsettings.
   name: Microsoft Graph admin.adminReportSettings API
   slug: microsoft-graph-admin-adminreportsettings-api
-- description: Operations for managing admin consent request policies
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing admin consent request policies
   name: Microsoft Graph Admin Consent Policy API
   slug: microsoft-graph-admin-consent-policy-api
-- description: The Admin.edge API from Microsoft Graph — 12 operation(s) for admin.edge.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Admin.edge API from Microsoft Graph — 12 operation(s) for admin.edge.
   name: Microsoft Graph Admin.edge API
   slug: microsoft-graph-admin-edge-api
-- description: The admin.peopleAdminSettings API from Microsoft Graph — 6 operation(s) for admin.peopleadminsettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The admin.peopleAdminSettings API from Microsoft Graph — 6 operation(s) for admin.peopleadminsettings.
   name: Microsoft Graph admin.peopleAdminSettings API
   slug: microsoft-graph-admin-peopleadminsettings-api
-- description: The admin.serviceAnnouncement API from Microsoft Graph — 26 operation(s) for admin.serviceannouncement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The admin.serviceAnnouncement API from Microsoft Graph — 26 operation(s) for admin.serviceannouncement.
   name: Microsoft Graph admin.serviceAnnouncement API
   slug: microsoft-graph-admin-serviceannouncement-api
-- description: The Admin.sharepoint API from Microsoft Graph — 2 operation(s) for admin.sharepoint.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Admin.sharepoint API from Microsoft Graph — 2 operation(s) for admin.sharepoint.
   name: Microsoft Graph Admin.sharepoint API
   slug: microsoft-graph-admin-sharepoint-api
-- description: Core administrative operations for managing the admin singleton
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Core administrative operations for managing the admin singleton
   name: Microsoft Graph Administration API
   slug: microsoft-graph-administration-api
-- description: Operations for managing directory administrative units
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing directory administrative units
   name: Microsoft Graph Administrative Units API
   slug: microsoft-graph-administrative-units-api
-- description: Operations for managing the collection of agreement acceptance entities
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing the collection of agreement acceptance entities
   name: Microsoft Graph Agreement Acceptances API
   slug: microsoft-graph-agreement-acceptances-api
-- description: Operations for managing localized versions of agreement files
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing localized versions of agreement files
   name: Microsoft Graph Agreement File Localizations API
   slug: microsoft-graph-agreement-file-localizations-api
-- description: Operations for managing versions of agreement file localizations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing versions of agreement file localizations
   name: Microsoft Graph Agreement File Versions API
   slug: microsoft-graph-agreement-file-versions-api
-- description: Operations for managing agreement file content and properties
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing agreement file content and properties
   name: Microsoft Graph Agreement Files API
   slug: microsoft-graph-agreement-files-api
-- description: The agreementAcceptances.agreementAcceptance API from Microsoft Graph — 2 operation(s) for agreementacceptances.agreementacceptance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The agreementAcceptances.agreementAcceptance API from Microsoft Graph — 2 operation(s) for agreementacceptances.agreementacceptance.
   name: Microsoft Graph agreementAcceptances.agreementAcceptance API
   slug: microsoft-graph-agreementacceptances-agreementacceptance-api
-- description: The Agreements.agreement API from Microsoft Graph — 2 operation(s) for agreements.agreement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Agreements.agreement API from Microsoft Graph — 2 operation(s) for agreements.agreement.
   name: Microsoft Graph Agreements.agreement API
   slug: microsoft-graph-agreements-agreement-api
-- description: The agreements.agreementAcceptance API from Microsoft Graph — 3 operation(s) for agreements.agreementacceptance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The agreements.agreementAcceptance API from Microsoft Graph — 3 operation(s) for agreements.agreementacceptance.
   name: Microsoft Graph agreements.agreementAcceptance API
   slug: microsoft-graph-agreements-agreementacceptance-api
-- description: The agreements.agreementFile API from Microsoft Graph — 7 operation(s) for agreements.agreementfile.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The agreements.agreementFile API from Microsoft Graph — 7 operation(s) for agreements.agreementfile.
   name: Microsoft Graph agreements.agreementFile API
   slug: microsoft-graph-agreements-agreementfile-api
-- description: The agreements.agreementFileLocalization API from Microsoft Graph — 6 operation(s) for agreements.agreementfilelocalization.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The agreements.agreementFileLocalization API from Microsoft Graph — 6 operation(s) for agreements.agreementfilelocalization.
   name: Microsoft Graph agreements.agreementFileLocalization API
   slug: microsoft-graph-agreements-agreementfilelocalization-api
-- description: Operations for managing agreement entities including creating, reading, updating, and deleting agreements
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing agreement entities including creating, reading, updating, and deleting agreements
   name: Microsoft Graph Agreements API
   slug: microsoft-graph-agreements-api
-- description: Operations for managing the Microsoft Teams app catalog
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing the Microsoft Teams app catalog
   name: Microsoft Graph App Catalogs API
   slug: microsoft-graph-app-catalogs-api
-- description: Operations for managing the Microsoft Teams app catalog
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing the Microsoft Teams app catalog
   name: Microsoft Graph App Catalogs Teams Apps API
   slug: microsoft-graph-app-catalogs-teams-apps-api
-- description: The appCatalogs.appCatalogs API from Microsoft Graph — 1 operation(s) for appcatalogs.appcatalogs.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The appCatalogs.appCatalogs API from Microsoft Graph — 1 operation(s) for appcatalogs.appcatalogs.
   name: Microsoft Graph appCatalogs.appCatalogs API
   slug: microsoft-graph-appcatalogs-appcatalogs-api
-- description: The appCatalogs.teamsApp API from Microsoft Graph — 7 operation(s) for appcatalogs.teamsapp.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The appCatalogs.teamsApp API from Microsoft Graph — 7 operation(s) for appcatalogs.teamsapp.
   name: Microsoft Graph appCatalogs.teamsApp API
   slug: microsoft-graph-appcatalogs-teamsapp-api
-- description: Operations for browsing and instantiating application templates
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for browsing and instantiating application templates
   name: Microsoft Graph Application Templates API
   slug: microsoft-graph-application-templates-api
-- description: Operations for browsing and instantiating application templates
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for browsing and instantiating application templates
   name: Microsoft Graph Application Templates Instantiate API
   slug: microsoft-graph-application-templates-instantiate-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Add Key API
   slug: microsoft-graph-applications-add-key-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Add Password API
   slug: microsoft-graph-applications-add-password-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications API
   slug: microsoft-graph-applications-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications(app Id='{app Id}') API
   slug: microsoft-graph-applications-app-id-app-id-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications App Management Policies API
   slug: microsoft-graph-applications-app-management-policies-api
-- description: The applications.application.Actions API from Microsoft Graph — 14 operation(s) for applications.application.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.application.Actions API from Microsoft Graph — 14 operation(s) for applications.application.actions.
   name: Microsoft Graph applications.application.Actions API
   slug: microsoft-graph-applications-application-actions-api
-- description: The Applications.application API from Microsoft Graph — 6 operation(s) for applications.application.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Applications.application API from Microsoft Graph — 6 operation(s) for applications.application.
   name: Microsoft Graph Applications.application API
   slug: microsoft-graph-applications-application-api
-- description: The applications.application.Functions API from Microsoft Graph — 1 operation(s) for applications.application.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.application.Functions API from Microsoft Graph — 1 operation(s) for applications.application.functions.
   name: Microsoft Graph applications.application.Functions API
   slug: microsoft-graph-applications-application-functions-api
-- description: The applications.appManagementPolicy API from Microsoft Graph — 4 operation(s) for applications.appmanagementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.appManagementPolicy API from Microsoft Graph — 4 operation(s) for applications.appmanagementpolicy.
   name: Microsoft Graph applications.appManagementPolicy API
   slug: microsoft-graph-applications-appmanagementpolicy-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Check Member Groups API
   slug: microsoft-graph-applications-check-member-groups-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Check Member Objects API
   slug: microsoft-graph-applications-check-member-objects-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Created on Behalf Of API
   slug: microsoft-graph-applications-created-on-behalf-of-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Delta() API
   slug: microsoft-graph-applications-delta-api
-- description: The applications.directoryObject API from Microsoft Graph — 17 operation(s) for applications.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.directoryObject API from Microsoft Graph — 17 operation(s) for applications.directoryobject.
   name: Microsoft Graph applications.directoryObject API
   slug: microsoft-graph-applications-directoryobject-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Extension Properties API
   slug: microsoft-graph-applications-extension-properties-api
-- description: The applications.extensionProperty API from Microsoft Graph — 3 operation(s) for applications.extensionproperty.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.extensionProperty API from Microsoft Graph — 3 operation(s) for applications.extensionproperty.
   name: Microsoft Graph applications.extensionProperty API
   slug: microsoft-graph-applications-extensionproperty-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Federated Identity Credentials API
   slug: microsoft-graph-applications-federated-identity-credentials-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Federated Identity Credentials(name='{name}') API
   slug: microsoft-graph-applications-federated-identity-credentials-name-name-api
-- description: The applications.federatedIdentityCredential API from Microsoft Graph — 4 operation(s) for applications.federatedidentitycredential.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.federatedIdentityCredential API from Microsoft Graph — 4 operation(s) for applications.federatedidentitycredential.
   name: Microsoft Graph applications.federatedIdentityCredential API
   slug: microsoft-graph-applications-federatedidentitycredential-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Get Available Extension Properties API
   slug: microsoft-graph-applications-get-available-extension-properties-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Get by Ids API
   slug: microsoft-graph-applications-get-by-ids-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Get Member Groups API
   slug: microsoft-graph-applications-get-member-groups-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Get Member Objects API
   slug: microsoft-graph-applications-get-member-objects-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Home Realm Discovery Policies API
   slug: microsoft-graph-applications-home-realm-discovery-policies-api
-- description: The applications.homeRealmDiscoveryPolicy API from Microsoft Graph — 3 operation(s) for applications.homerealmdiscoverypolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.homeRealmDiscoveryPolicy API from Microsoft Graph — 3 operation(s) for applications.homerealmdiscoverypolicy.
   name: Microsoft Graph applications.homeRealmDiscoveryPolicy API
   slug: microsoft-graph-applications-homerealmdiscoverypolicy-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Logo API
   slug: microsoft-graph-applications-logo-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Owners API
   slug: microsoft-graph-applications-owners-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Remove Key API
   slug: microsoft-graph-applications-remove-key-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Remove Password API
   slug: microsoft-graph-applications-remove-password-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Restore API
   slug: microsoft-graph-applications-restore-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Set Verified Publisher API
   slug: microsoft-graph-applications-set-verified-publisher-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Synchronization API
   slug: microsoft-graph-applications-synchronization-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Token Issuance Policies API
   slug: microsoft-graph-applications-token-issuance-policies-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Token Lifetime Policies API
   slug: microsoft-graph-applications-token-lifetime-policies-api
-- description: The applications.tokenIssuancePolicy API from Microsoft Graph — 4 operation(s) for applications.tokenissuancepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.tokenIssuancePolicy API from Microsoft Graph — 4 operation(s) for applications.tokenissuancepolicy.
   name: Microsoft Graph applications.tokenIssuancePolicy API
   slug: microsoft-graph-applications-tokenissuancepolicy-api
-- description: The applications.tokenLifetimePolicy API from Microsoft Graph — 4 operation(s) for applications.tokenlifetimepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applications.tokenLifetimePolicy API from Microsoft Graph — 4 operation(s) for applications.tokenlifetimepolicy.
   name: Microsoft Graph applications.tokenLifetimePolicy API
   slug: microsoft-graph-applications-tokenlifetimepolicy-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications(unique Name='{unique Name}') API
   slug: microsoft-graph-applications-unique-name-unique-name-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Unset Verified Publisher API
   slug: microsoft-graph-applications-unset-verified-publisher-api
-- description: Operations for managing application registrations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing application registrations
   name: Microsoft Graph Applications Validate Properties API
   slug: microsoft-graph-applications-validate-properties-api
-- description: The applicationTemplates.applicationTemplate.Actions API from Microsoft Graph — 1 operation(s) for applicationtemplates.applicationtemplate.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applicationTemplates.applicationTemplate.Actions API from Microsoft Graph — 1 operation(s) for applicationtemplates.applicationtemplate.actions.
   name: Microsoft Graph applicationTemplates.applicationTemplate.Actions API
   slug: microsoft-graph-applicationtemplates-applicationtemplate-actions-api
-- description: The applicationTemplates.applicationTemplate API from Microsoft Graph — 3 operation(s) for applicationtemplates.applicationtemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The applicationTemplates.applicationTemplate API from Microsoft Graph — 3 operation(s) for applicationtemplates.applicationtemplate.
   name: Microsoft Graph applicationTemplates.applicationTemplate API
   slug: microsoft-graph-applicationtemplates-applicationtemplate-api
-- description: Operations for accessing audit log data
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for accessing audit log data
   name: Microsoft Graph Audit Logs API
   slug: microsoft-graph-audit-logs-api
-- description: Operations for accessing audit log data
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for accessing audit log data
   name: Microsoft Graph Audit Logs Directory Audits API
   slug: microsoft-graph-audit-logs-directory-audits-api
-- description: Operations for accessing audit log data
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for accessing audit log data
   name: Microsoft Graph Audit Logs Provisioning API
   slug: microsoft-graph-audit-logs-provisioning-api
-- description: Operations for accessing audit log data
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for accessing audit log data
   name: Microsoft Graph Audit Logs Sign Ins API
   slug: microsoft-graph-audit-logs-sign-ins-api
-- description: The auditLogs.auditLogRoot API from Microsoft Graph — 1 operation(s) for auditlogs.auditlogroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The auditLogs.auditLogRoot API from Microsoft Graph — 1 operation(s) for auditlogs.auditlogroot.
   name: Microsoft Graph auditLogs.auditLogRoot API
   slug: microsoft-graph-auditlogs-auditlogroot-api
-- description: The auditLogs.directoryAudit API from Microsoft Graph — 3 operation(s) for auditlogs.directoryaudit.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The auditLogs.directoryAudit API from Microsoft Graph — 3 operation(s) for auditlogs.directoryaudit.
   name: Microsoft Graph auditLogs.directoryAudit API
   slug: microsoft-graph-auditlogs-directoryaudit-api
-- description: The auditLogs.provisioningObjectSummary API from Microsoft Graph — 3 operation(s) for auditlogs.provisioningobjectsummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The auditLogs.provisioningObjectSummary API from Microsoft Graph — 3 operation(s) for auditlogs.provisioningobjectsummary.
   name: Microsoft Graph auditLogs.provisioningObjectSummary API
   slug: microsoft-graph-auditlogs-provisioningobjectsummary-api
-- description: The auditLogs.signIn API from Microsoft Graph — 6 operation(s) for auditlogs.signin.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The auditLogs.signIn API from Microsoft Graph — 6 operation(s) for auditlogs.signin.
   name: Microsoft Graph auditLogs.signIn API
   slug: microsoft-graph-auditlogs-signin-api
-- description: The authenticationMethodConfigurations.authenticationMethodConfiguration API from Microsoft Graph — 3 operation(s) for authenticationmethodconfigurations.authenticationmethodconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The authenticationMethodConfigurations.authenticationMethodConfiguration API from Microsoft Graph — 3 operation(s) for authenticationmethodconfigurations.authenticationmethodconfiguration.
   name: Microsoft Graph authenticationMethodConfigurations.authenticationMethodConfiguration API
   slug: microsoft-graph-authenticationmethodconfigurations-authenticationmethodconfiguration-api
-- description: The authenticationMethodsPolicy.authenticationMethodConfiguration API from Microsoft Graph — 3 operation(s) for authenticationmethodspolicy.authenticationmethodconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The authenticationMethodsPolicy.authenticationMethodConfiguration API from Microsoft Graph — 3 operation(s) for authenticationmethodspolicy.authenticationmethodconfiguration.
   name: Microsoft Graph authenticationMethodsPolicy.authenticationMethodConfiguration API
   slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodconfiguration-api
-- description: The authenticationMethodsPolicy.authenticationMethodsPolicy API from Microsoft Graph — 1 operation(s) for authenticationmethodspolicy.authenticationmethodspolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The authenticationMethodsPolicy.authenticationMethodsPolicy API from Microsoft Graph — 1 operation(s) for authenticationmethodspolicy.authenticationmethodspolicy.
   name: Microsoft Graph authenticationMethodsPolicy.authenticationMethodsPolicy API
   slug: microsoft-graph-authenticationmethodspolicy-authenticationmethodspolicy-api
-- description: Operations for managing browser site lists
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing browser site lists
   name: Microsoft Graph Browser Site Lists API
   slug: microsoft-graph-browser-site-lists-api
-- description: The certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API from Microsoft Graph — 3 operation(s) for certificatebasedauthconfiguration.certificatebasedauthconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API from Microsoft Graph — 3 operation(s) for certificatebasedauthconfiguration.certificatebasedauthconfiguration.
   name: Microsoft Graph certificateBasedAuthConfiguration.certificateBasedAuthConfiguration API
   slug: microsoft-graph-certificatebasedauthconfiguration-certificatebasedauthconfiguration-api
-- description: The chats.chat.Actions API from Microsoft Graph — 6 operation(s) for chats.chat.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.chat.Actions API from Microsoft Graph — 6 operation(s) for chats.chat.actions.
   name: Microsoft Graph chats.chat.Actions API
   slug: microsoft-graph-chats-chat-actions-api
-- description: The Chats.chat API from Microsoft Graph — 3 operation(s) for chats.chat.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Chats.chat API from Microsoft Graph — 3 operation(s) for chats.chat.
   name: Microsoft Graph Chats.chat API
   slug: microsoft-graph-chats-chat-api
-- description: The chats.chat.Functions API from Microsoft Graph — 2 operation(s) for chats.chat.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.chat.Functions API from Microsoft Graph — 2 operation(s) for chats.chat.functions.
   name: Microsoft Graph chats.chat.Functions API
   slug: microsoft-graph-chats-chat-functions-api
-- description: The chats.chatMessage API from Microsoft Graph — 24 operation(s) for chats.chatmessage.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.chatMessage API from Microsoft Graph — 24 operation(s) for chats.chatmessage.
   name: Microsoft Graph chats.chatMessage API
   slug: microsoft-graph-chats-chatmessage-api
-- description: The chats.chatMessageInfo API from Microsoft Graph — 1 operation(s) for chats.chatmessageinfo.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.chatMessageInfo API from Microsoft Graph — 1 operation(s) for chats.chatmessageinfo.
   name: Microsoft Graph chats.chatMessageInfo API
   slug: microsoft-graph-chats-chatmessageinfo-api
-- description: The chats.conversationMember API from Microsoft Graph — 5 operation(s) for chats.conversationmember.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.conversationMember API from Microsoft Graph — 5 operation(s) for chats.conversationmember.
   name: Microsoft Graph chats.conversationMember API
   slug: microsoft-graph-chats-conversationmember-api
-- description: The chats.pinnedChatMessageInfo API from Microsoft Graph — 4 operation(s) for chats.pinnedchatmessageinfo.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.pinnedChatMessageInfo API from Microsoft Graph — 4 operation(s) for chats.pinnedchatmessageinfo.
   name: Microsoft Graph chats.pinnedChatMessageInfo API
   slug: microsoft-graph-chats-pinnedchatmessageinfo-api
-- description: The chats.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for chats.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for chats.resourcespecificpermissiongrant.
   name: Microsoft Graph chats.resourceSpecificPermissionGrant API
   slug: microsoft-graph-chats-resourcespecificpermissiongrant-api
-- description: The chats.teamsAppInstallation API from Microsoft Graph — 6 operation(s) for chats.teamsappinstallation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.teamsAppInstallation API from Microsoft Graph — 6 operation(s) for chats.teamsappinstallation.
   name: Microsoft Graph chats.teamsAppInstallation API
   slug: microsoft-graph-chats-teamsappinstallation-api
-- description: The chats.teamsTab API from Microsoft Graph — 4 operation(s) for chats.teamstab.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The chats.teamsTab API from Microsoft Graph — 4 operation(s) for chats.teamstab.
   name: Microsoft Graph chats.teamsTab API
   slug: microsoft-graph-chats-teamstab-api
-- description: The Communications.call API from Microsoft Graph — 35 operation(s) for communications.call.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Communications.call API from Microsoft Graph — 35 operation(s) for communications.call.
   name: Microsoft Graph Communications.call API
   slug: microsoft-graph-communications-call-api
-- description: The communications.callRecord API from Microsoft Graph — 15 operation(s) for communications.callrecord.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.callRecord API from Microsoft Graph — 15 operation(s) for communications.callrecord.
   name: Microsoft Graph communications.callRecord API
   slug: microsoft-graph-communications-callrecord-api
-- description: The communications.cloudCommunications.Actions API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.cloudCommunications.Actions API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.actions.
   name: Microsoft Graph communications.cloudCommunications.Actions API
   slug: microsoft-graph-communications-cloudcommunications-actions-api
-- description: The communications.cloudCommunications API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.cloudCommunications API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.
   name: Microsoft Graph communications.cloudCommunications API
   slug: microsoft-graph-communications-cloudcommunications-api
-- description: The communications.cloudCommunications.Functions API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.cloudCommunications.Functions API from Microsoft Graph — 1 operation(s) for communications.cloudcommunications.functions.
   name: Microsoft Graph communications.cloudCommunications.Functions API
   slug: microsoft-graph-communications-cloudcommunications-functions-api
-- description: The communications.onlineMeeting API from Microsoft Graph — 27 operation(s) for communications.onlinemeeting.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.onlineMeeting API from Microsoft Graph — 27 operation(s) for communications.onlinemeeting.
   name: Microsoft Graph communications.onlineMeeting API
   slug: microsoft-graph-communications-onlinemeeting-api
-- description: The communications.onlineMeetingEngagementConversation API from Microsoft Graph — 35 operation(s) for communications.onlinemeetingengagementconversation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The communications.onlineMeetingEngagementConversation API from Microsoft Graph — 35 operation(s) for communications.onlinemeetingengagementconversation.
   name: Microsoft Graph communications.onlineMeetingEngagementConversation API
   slug: microsoft-graph-communications-onlinemeetingengagementconversation-api
-- description: The Communications.presence API from Microsoft Graph — 8 operation(s) for communications.presence.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Communications.presence API from Microsoft Graph — 8 operation(s) for communications.presence.
   name: Microsoft Graph Communications.presence API
   slug: microsoft-graph-communications-presence-api
-- description: The Compliance.compliance API from Microsoft Graph — 1 operation(s) for compliance.compliance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Compliance.compliance API from Microsoft Graph — 1 operation(s) for compliance.compliance.
   name: Microsoft Graph Compliance.compliance API
   slug: microsoft-graph-compliance-compliance-api
-- description: The connections.connectionOperation API from Microsoft Graph — 3 operation(s) for connections.connectionoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The connections.connectionOperation API from Microsoft Graph — 3 operation(s) for connections.connectionoperation.
   name: Microsoft Graph connections.connectionOperation API
   slug: microsoft-graph-connections-connectionoperation-api
-- description: The connections.externalConnection API from Microsoft Graph — 3 operation(s) for connections.externalconnection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The connections.externalConnection API from Microsoft Graph — 3 operation(s) for connections.externalconnection.
   name: Microsoft Graph connections.externalConnection API
   slug: microsoft-graph-connections-externalconnection-api
-- description: The connections.externalGroup API from Microsoft Graph — 6 operation(s) for connections.externalgroup.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The connections.externalGroup API from Microsoft Graph — 6 operation(s) for connections.externalgroup.
   name: Microsoft Graph connections.externalGroup API
   slug: microsoft-graph-connections-externalgroup-api
-- description: The connections.externalItem API from Microsoft Graph — 8 operation(s) for connections.externalitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The connections.externalItem API from Microsoft Graph — 8 operation(s) for connections.externalitem.
   name: Microsoft Graph connections.externalItem API
   slug: microsoft-graph-connections-externalitem-api
-- description: The Connections.schema API from Microsoft Graph — 1 operation(s) for connections.schema.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Connections.schema API from Microsoft Graph — 1 operation(s) for connections.schema.
   name: Microsoft Graph Connections.schema API
   slug: microsoft-graph-connections-schema-api
-- description: The contacts.directoryObject API from Microsoft Graph — 28 operation(s) for contacts.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.directoryObject API from Microsoft Graph — 28 operation(s) for contacts.directoryobject.
   name: Microsoft Graph contacts.directoryObject API
   slug: microsoft-graph-contacts-directoryobject-api
-- description: The contacts.onPremisesSyncBehavior API from Microsoft Graph — 1 operation(s) for contacts.onpremisessyncbehavior.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.onPremisesSyncBehavior API from Microsoft Graph — 1 operation(s) for contacts.onpremisessyncbehavior.
   name: Microsoft Graph contacts.onPremisesSyncBehavior API
   slug: microsoft-graph-contacts-onpremisessyncbehavior-api
-- description: The contacts.orgContact.Actions API from Microsoft Graph — 9 operation(s) for contacts.orgcontact.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.orgContact.Actions API from Microsoft Graph — 9 operation(s) for contacts.orgcontact.actions.
   name: Microsoft Graph contacts.orgContact.Actions API
   slug: microsoft-graph-contacts-orgcontact-actions-api
-- description: The contacts.orgContact API from Microsoft Graph — 3 operation(s) for contacts.orgcontact.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.orgContact API from Microsoft Graph — 3 operation(s) for contacts.orgcontact.
   name: Microsoft Graph contacts.orgContact API
   slug: microsoft-graph-contacts-orgcontact-api
-- description: The contacts.orgContact.Functions API from Microsoft Graph — 1 operation(s) for contacts.orgcontact.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.orgContact.Functions API from Microsoft Graph — 1 operation(s) for contacts.orgcontact.functions.
   name: Microsoft Graph contacts.orgContact.Functions API
   slug: microsoft-graph-contacts-orgcontact-functions-api
-- description: The contacts.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for contacts.serviceprovisioningerror.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contacts.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for contacts.serviceprovisioningerror.
   name: Microsoft Graph contacts.serviceProvisioningError API
   slug: microsoft-graph-contacts-serviceprovisioningerror-api
-- description: The contracts.contract.Actions API from Microsoft Graph — 8 operation(s) for contracts.contract.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contracts.contract.Actions API from Microsoft Graph — 8 operation(s) for contracts.contract.actions.
   name: Microsoft Graph contracts.contract.Actions API
   slug: microsoft-graph-contracts-contract-actions-api
-- description: The Contracts.contract API from Microsoft Graph — 3 operation(s) for contracts.contract.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Contracts.contract API from Microsoft Graph — 3 operation(s) for contracts.contract.
   name: Microsoft Graph Contracts.contract API
   slug: microsoft-graph-contracts-contract-api
-- description: The contracts.contract.Functions API from Microsoft Graph — 1 operation(s) for contracts.contract.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The contracts.contract.Functions API from Microsoft Graph — 1 operation(s) for contracts.contract.functions.
   name: Microsoft Graph contracts.contract.Functions API
   slug: microsoft-graph-contracts-contract-functions-api
-- description: Operations for managing Microsoft Copilot settings
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing Microsoft Copilot settings
   name: Microsoft Graph Copilot Administration API
   slug: microsoft-graph-copilot-administration-api
-- description: The copilot.aiInteractionHistory API from Microsoft Graph — 2 operation(s) for copilot.aiinteractionhistory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.aiInteractionHistory API from Microsoft Graph — 2 operation(s) for copilot.aiinteractionhistory.
   name: Microsoft Graph copilot.aiInteractionHistory API
   slug: microsoft-graph-copilot-aiinteractionhistory-api
-- description: The copilot.aiUser API from Microsoft Graph — 5 operation(s) for copilot.aiuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.aiUser API from Microsoft Graph — 5 operation(s) for copilot.aiuser.
   name: Microsoft Graph copilot.aiUser API
   slug: microsoft-graph-copilot-aiuser-api
-- description: The copilot.copilotAdmin API from Microsoft Graph — 3 operation(s) for copilot.copilotadmin.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.copilotAdmin API from Microsoft Graph — 3 operation(s) for copilot.copilotadmin.
   name: Microsoft Graph copilot.copilotAdmin API
   slug: microsoft-graph-copilot-copilotadmin-api
-- description: The copilot.copilotReportRoot API from Microsoft Graph — 1 operation(s) for copilot.copilotreportroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.copilotReportRoot API from Microsoft Graph — 1 operation(s) for copilot.copilotreportroot.
   name: Microsoft Graph copilot.copilotReportRoot API
   slug: microsoft-graph-copilot-copilotreportroot-api
-- description: The copilot.copilotRoot.Actions API from Microsoft Graph — 1 operation(s) for copilot.copilotroot.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.copilotRoot.Actions API from Microsoft Graph — 1 operation(s) for copilot.copilotroot.actions.
   name: Microsoft Graph copilot.copilotRoot.Actions API
   slug: microsoft-graph-copilot-copilotroot-actions-api
-- description: The copilot.copilotRoot API from Microsoft Graph — 1 operation(s) for copilot.copilotroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The copilot.copilotRoot API from Microsoft Graph — 1 operation(s) for copilot.copilotroot.
   name: Microsoft Graph copilot.copilotRoot API
   slug: microsoft-graph-copilot-copilotroot-api
-- description: Operations for managing the current user's agreement acceptances
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing the current user's agreement acceptances
   name: Microsoft Graph Current User Acceptances API
   slug: microsoft-graph-current-user-acceptances-api
-- description: The dataPolicyOperations.dataPolicyOperation API from Microsoft Graph — 3 operation(s) for datapolicyoperations.datapolicyoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The dataPolicyOperations.dataPolicyOperation API from Microsoft Graph — 3 operation(s) for datapolicyoperations.datapolicyoperation.
   name: Microsoft Graph dataPolicyOperations.dataPolicyOperation API
   slug: microsoft-graph-datapolicyoperations-datapolicyoperation-api
-- description: The deviceAppManagement.androidManagedAppProtection API from Microsoft Graph — 10 operation(s) for deviceappmanagement.androidmanagedappprotection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.androidManagedAppProtection API from Microsoft Graph — 10 operation(s) for deviceappmanagement.androidmanagedappprotection.
   name: Microsoft Graph deviceAppManagement.androidManagedAppProtection API
   slug: microsoft-graph-deviceappmanagement-androidmanagedappprotection-api
-- description: The deviceAppManagement.defaultManagedAppProtection API from Microsoft Graph — 7 operation(s) for deviceappmanagement.defaultmanagedappprotection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.defaultManagedAppProtection API from Microsoft Graph — 7 operation(s) for deviceappmanagement.defaultmanagedappprotection.
   name: Microsoft Graph deviceAppManagement.defaultManagedAppProtection API
   slug: microsoft-graph-deviceappmanagement-defaultmanagedappprotection-api
-- description: The deviceAppManagement.deviceAppManagement.Actions API from Microsoft Graph — 1 operation(s) for deviceappmanagement.deviceappmanagement.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.deviceAppManagement.Actions API from Microsoft Graph — 1 operation(s) for deviceappmanagement.deviceappmanagement.actions.
   name: Microsoft Graph deviceAppManagement.deviceAppManagement.Actions API
   slug: microsoft-graph-deviceappmanagement-deviceappmanagement-actions-api
-- description: The deviceAppManagement.deviceAppManagement API from Microsoft Graph — 1 operation(s) for deviceappmanagement.deviceappmanagement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.deviceAppManagement API from Microsoft Graph — 1 operation(s) for deviceappmanagement.deviceappmanagement.
   name: Microsoft Graph deviceAppManagement.deviceAppManagement API
   slug: microsoft-graph-deviceappmanagement-deviceappmanagement-api
-- description: The deviceAppManagement.iosManagedAppProtection API from Microsoft Graph — 10 operation(s) for deviceappmanagement.iosmanagedappprotection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.iosManagedAppProtection API from Microsoft Graph — 10 operation(s) for deviceappmanagement.iosmanagedappprotection.
   name: Microsoft Graph deviceAppManagement.iosManagedAppProtection API
   slug: microsoft-graph-deviceappmanagement-iosmanagedappprotection-api
-- description: The deviceAppManagement.managedAppPolicy API from Microsoft Graph — 4 operation(s) for deviceappmanagement.managedapppolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.managedAppPolicy API from Microsoft Graph — 4 operation(s) for deviceappmanagement.managedapppolicy.
   name: Microsoft Graph deviceAppManagement.managedAppPolicy API
   slug: microsoft-graph-deviceappmanagement-managedapppolicy-api
-- description: The deviceAppManagement.managedAppRegistration API from Microsoft Graph — 15 operation(s) for deviceappmanagement.managedappregistration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.managedAppRegistration API from Microsoft Graph — 15 operation(s) for deviceappmanagement.managedappregistration.
   name: Microsoft Graph deviceAppManagement.managedAppRegistration API
   slug: microsoft-graph-deviceappmanagement-managedappregistration-api
-- description: The deviceAppManagement.managedAppStatus API from Microsoft Graph — 3 operation(s) for deviceappmanagement.managedappstatus.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.managedAppStatus API from Microsoft Graph — 3 operation(s) for deviceappmanagement.managedappstatus.
   name: Microsoft Graph deviceAppManagement.managedAppStatus API
   slug: microsoft-graph-deviceappmanagement-managedappstatus-api
-- description: The deviceAppManagement.managedDeviceMobileAppConfiguration API from Microsoft Graph — 15 operation(s) for deviceappmanagement.manageddevicemobileappconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.managedDeviceMobileAppConfiguration API from Microsoft Graph — 15 operation(s) for deviceappmanagement.manageddevicemobileappconfiguration.
   name: Microsoft Graph deviceAppManagement.managedDeviceMobileAppConfiguration API
   slug: microsoft-graph-deviceappmanagement-manageddevicemobileappconfiguration-api
-- description: The deviceAppManagement.managedEBook API from Microsoft Graph — 17 operation(s) for deviceappmanagement.managedebook.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.managedEBook API from Microsoft Graph — 17 operation(s) for deviceappmanagement.managedebook.
   name: Microsoft Graph deviceAppManagement.managedEBook API
   slug: microsoft-graph-deviceappmanagement-managedebook-api
-- description: The deviceAppManagement.mdmWindowsInformationProtectionPolicy API from Microsoft Graph — 12 operation(s) for deviceappmanagement.mdmwindowsinformationprotectionpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.mdmWindowsInformationProtectionPolicy API from Microsoft Graph — 12 operation(s) for deviceappmanagement.mdmwindowsinformationprotectionpolicy.
   name: Microsoft Graph deviceAppManagement.mdmWindowsInformationProtectionPolicy API
   slug: microsoft-graph-deviceappmanagement-mdmwindowsinformationprotectionpolicy-api
-- description: The deviceAppManagement.mobileApp API from Microsoft Graph — 278 operation(s) for deviceappmanagement.mobileapp.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.mobileApp API from Microsoft Graph — 278 operation(s) for deviceappmanagement.mobileapp.
   name: Microsoft Graph deviceAppManagement.mobileApp API
   slug: microsoft-graph-deviceappmanagement-mobileapp-api
-- description: The deviceAppManagement.mobileAppCategory API from Microsoft Graph — 3 operation(s) for deviceappmanagement.mobileappcategory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.mobileAppCategory API from Microsoft Graph — 3 operation(s) for deviceappmanagement.mobileappcategory.
   name: Microsoft Graph deviceAppManagement.mobileAppCategory API
   slug: microsoft-graph-deviceappmanagement-mobileappcategory-api
-- description: The deviceAppManagement.mobileAppRelationship API from Microsoft Graph — 3 operation(s) for deviceappmanagement.mobileapprelationship.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.mobileAppRelationship API from Microsoft Graph — 3 operation(s) for deviceappmanagement.mobileapprelationship.
   name: Microsoft Graph deviceAppManagement.mobileAppRelationship API
   slug: microsoft-graph-deviceappmanagement-mobileapprelationship-api
-- description: The deviceAppManagement.targetedManagedAppConfiguration API from Microsoft Graph — 12 operation(s) for deviceappmanagement.targetedmanagedappconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.targetedManagedAppConfiguration API from Microsoft Graph — 12 operation(s) for deviceappmanagement.targetedmanagedappconfiguration.
   name: Microsoft Graph deviceAppManagement.targetedManagedAppConfiguration API
   slug: microsoft-graph-deviceappmanagement-targetedmanagedappconfiguration-api
-- description: The deviceAppManagement.vppToken API from Microsoft Graph — 4 operation(s) for deviceappmanagement.vpptoken.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.vppToken API from Microsoft Graph — 4 operation(s) for deviceappmanagement.vpptoken.
   name: Microsoft Graph deviceAppManagement.vppToken API
   slug: microsoft-graph-deviceappmanagement-vpptoken-api
-- description: The deviceAppManagement.windowsInformationProtectionPolicy API from Microsoft Graph — 12 operation(s) for deviceappmanagement.windowsinformationprotectionpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceAppManagement.windowsInformationProtectionPolicy API from Microsoft Graph — 12 operation(s) for deviceappmanagement.windowsinformationprotectionpolicy.
   name: Microsoft Graph deviceAppManagement.windowsInformationProtectionPolicy API
   slug: microsoft-graph-deviceappmanagement-windowsinformationprotectionpolicy-api
-- description: The deviceManagement.applePushNotificationCertificate API from Microsoft Graph — 2 operation(s) for devicemanagement.applepushnotificationcertificate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.applePushNotificationCertificate API from Microsoft Graph — 2 operation(s) for devicemanagement.applepushnotificationcertificate.
   name: Microsoft Graph deviceManagement.applePushNotificationCertificate API
   slug: microsoft-graph-devicemanagement-applepushnotificationcertificate-api
-- description: The deviceManagement.auditEvent API from Microsoft Graph — 5 operation(s) for devicemanagement.auditevent.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.auditEvent API from Microsoft Graph — 5 operation(s) for devicemanagement.auditevent.
   name: Microsoft Graph deviceManagement.auditEvent API
   slug: microsoft-graph-devicemanagement-auditevent-api
-- description: The deviceManagement.complianceManagementPartner API from Microsoft Graph — 3 operation(s) for devicemanagement.compliancemanagementpartner.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.complianceManagementPartner API from Microsoft Graph — 3 operation(s) for devicemanagement.compliancemanagementpartner.
   name: Microsoft Graph deviceManagement.complianceManagementPartner API
   slug: microsoft-graph-devicemanagement-compliancemanagementpartner-api
-- description: The deviceManagement.detectedApp API from Microsoft Graph — 6 operation(s) for devicemanagement.detectedapp.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.detectedApp API from Microsoft Graph — 6 operation(s) for devicemanagement.detectedapp.
   name: Microsoft Graph deviceManagement.detectedApp API
   slug: microsoft-graph-devicemanagement-detectedapp-api
-- description: The deviceManagement.deviceAndAppManagementRoleAssignment API from Microsoft Graph — 4 operation(s) for devicemanagement.deviceandappmanagementroleassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceAndAppManagementRoleAssignment API from Microsoft Graph — 4 operation(s) for devicemanagement.deviceandappmanagementroleassignment.
   name: Microsoft Graph deviceManagement.deviceAndAppManagementRoleAssignment API
   slug: microsoft-graph-devicemanagement-deviceandappmanagementroleassignment-api
-- description: The deviceManagement.deviceCategory API from Microsoft Graph — 3 operation(s) for devicemanagement.devicecategory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceCategory API from Microsoft Graph — 3 operation(s) for devicemanagement.devicecategory.
   name: Microsoft Graph deviceManagement.deviceCategory API
   slug: microsoft-graph-devicemanagement-devicecategory-api
-- description: The deviceManagement.deviceCompliancePolicy API from Microsoft Graph — 25 operation(s) for devicemanagement.devicecompliancepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceCompliancePolicy API from Microsoft Graph — 25 operation(s) for devicemanagement.devicecompliancepolicy.
   name: Microsoft Graph deviceManagement.deviceCompliancePolicy API
   slug: microsoft-graph-devicemanagement-devicecompliancepolicy-api
-- description: The deviceManagement.deviceCompliancePolicyDeviceStateSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.devicecompliancepolicydevicestatesummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceCompliancePolicyDeviceStateSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.devicecompliancepolicydevicestatesummary.
   name: Microsoft Graph deviceManagement.deviceCompliancePolicyDeviceStateSummary API
   slug: microsoft-graph-devicemanagement-devicecompliancepolicydevicestatesummary-api
-- description: The deviceManagement.deviceCompliancePolicySettingStateSummary API from Microsoft Graph — 6 operation(s) for devicemanagement.devicecompliancepolicysettingstatesummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceCompliancePolicySettingStateSummary API from Microsoft Graph — 6 operation(s) for devicemanagement.devicecompliancepolicysettingstatesummary.
   name: Microsoft Graph deviceManagement.deviceCompliancePolicySettingStateSummary API
   slug: microsoft-graph-devicemanagement-devicecompliancepolicysettingstatesummary-api
-- description: The deviceManagement.deviceConfiguration API from Microsoft Graph — 19 operation(s) for devicemanagement.deviceconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceConfiguration API from Microsoft Graph — 19 operation(s) for devicemanagement.deviceconfiguration.
   name: Microsoft Graph deviceManagement.deviceConfiguration API
   slug: microsoft-graph-devicemanagement-deviceconfiguration-api
-- description: The deviceManagement.deviceConfigurationDeviceStateSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.deviceconfigurationdevicestatesummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceConfigurationDeviceStateSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.deviceconfigurationdevicestatesummary.
   name: Microsoft Graph deviceManagement.deviceConfigurationDeviceStateSummary API
   slug: microsoft-graph-devicemanagement-deviceconfigurationdevicestatesummary-api
-- description: The deviceManagement.deviceEnrollmentConfiguration API from Microsoft Graph — 8 operation(s) for devicemanagement.deviceenrollmentconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceEnrollmentConfiguration API from Microsoft Graph — 8 operation(s) for devicemanagement.deviceenrollmentconfiguration.
   name: Microsoft Graph deviceManagement.deviceEnrollmentConfiguration API
   slug: microsoft-graph-devicemanagement-deviceenrollmentconfiguration-api
-- description: The deviceManagement.deviceManagement API from Microsoft Graph — 1 operation(s) for devicemanagement.devicemanagement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagement API from Microsoft Graph — 1 operation(s) for devicemanagement.devicemanagement.
   name: Microsoft Graph deviceManagement.deviceManagement API
   slug: microsoft-graph-devicemanagement-devicemanagement-api
-- description: The deviceManagement.deviceManagement.Functions API from Microsoft Graph — 3 operation(s) for devicemanagement.devicemanagement.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagement.Functions API from Microsoft Graph — 3 operation(s) for devicemanagement.devicemanagement.functions.
   name: Microsoft Graph deviceManagement.deviceManagement.Functions API
   slug: microsoft-graph-devicemanagement-devicemanagement-functions-api
-- description: The deviceManagement.deviceManagementExchangeConnector API from Microsoft Graph — 4 operation(s) for devicemanagement.devicemanagementexchangeconnector.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagementExchangeConnector API from Microsoft Graph — 4 operation(s) for devicemanagement.devicemanagementexchangeconnector.
   name: Microsoft Graph deviceManagement.deviceManagementExchangeConnector API
   slug: microsoft-graph-devicemanagement-devicemanagementexchangeconnector-api
-- description: The deviceManagement.deviceManagementPartner API from Microsoft Graph — 4 operation(s) for devicemanagement.devicemanagementpartner.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagementPartner API from Microsoft Graph — 4 operation(s) for devicemanagement.devicemanagementpartner.
   name: Microsoft Graph deviceManagement.deviceManagementPartner API
   slug: microsoft-graph-devicemanagement-devicemanagementpartner-api
-- description: The deviceManagement.deviceManagementReports API from Microsoft Graph — 23 operation(s) for devicemanagement.devicemanagementreports.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagementReports API from Microsoft Graph — 23 operation(s) for devicemanagement.devicemanagementreports.
   name: Microsoft Graph deviceManagement.deviceManagementReports API
   slug: microsoft-graph-devicemanagement-devicemanagementreports-api
-- description: The deviceManagement.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for devicemanagement.devicemanagementtroubleshootingevent.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for devicemanagement.devicemanagementtroubleshootingevent.
   name: Microsoft Graph deviceManagement.deviceManagementTroubleshootingEvent API
   slug: microsoft-graph-devicemanagement-devicemanagementtroubleshootingevent-api
-- description: The deviceManagement.importedWindowsAutopilotDeviceIdentity API from Microsoft Graph — 4 operation(s) for devicemanagement.importedwindowsautopilotdeviceidentity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.importedWindowsAutopilotDeviceIdentity API from Microsoft Graph — 4 operation(s) for devicemanagement.importedwindowsautopilotdeviceidentity.
   name: Microsoft Graph deviceManagement.importedWindowsAutopilotDeviceIdentity API
   slug: microsoft-graph-devicemanagement-importedwindowsautopilotdeviceidentity-api
-- description: The deviceManagement.iosUpdateDeviceStatus API from Microsoft Graph — 3 operation(s) for devicemanagement.iosupdatedevicestatus.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.iosUpdateDeviceStatus API from Microsoft Graph — 3 operation(s) for devicemanagement.iosupdatedevicestatus.
   name: Microsoft Graph deviceManagement.iosUpdateDeviceStatus API
   slug: microsoft-graph-devicemanagement-iosupdatedevicestatus-api
-- description: The deviceManagement.managedDevice API from Microsoft Graph — 38 operation(s) for devicemanagement.manageddevice.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.managedDevice API from Microsoft Graph — 38 operation(s) for devicemanagement.manageddevice.
   name: Microsoft Graph deviceManagement.managedDevice API
   slug: microsoft-graph-devicemanagement-manageddevice-api
-- description: The deviceManagement.managedDeviceOverview API from Microsoft Graph — 1 operation(s) for devicemanagement.manageddeviceoverview.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.managedDeviceOverview API from Microsoft Graph — 1 operation(s) for devicemanagement.manageddeviceoverview.
   name: Microsoft Graph deviceManagement.managedDeviceOverview API
   slug: microsoft-graph-devicemanagement-manageddeviceoverview-api
-- description: The deviceManagement.mobileAppTroubleshootingEvent API from Microsoft Graph — 7 operation(s) for devicemanagement.mobileapptroubleshootingevent.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.mobileAppTroubleshootingEvent API from Microsoft Graph — 7 operation(s) for devicemanagement.mobileapptroubleshootingevent.
   name: Microsoft Graph deviceManagement.mobileAppTroubleshootingEvent API
   slug: microsoft-graph-devicemanagement-mobileapptroubleshootingevent-api
-- description: The deviceManagement.mobileThreatDefenseConnector API from Microsoft Graph — 3 operation(s) for devicemanagement.mobilethreatdefenseconnector.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.mobileThreatDefenseConnector API from Microsoft Graph — 3 operation(s) for devicemanagement.mobilethreatdefenseconnector.
   name: Microsoft Graph deviceManagement.mobileThreatDefenseConnector API
   slug: microsoft-graph-devicemanagement-mobilethreatdefenseconnector-api
-- description: The deviceManagement.notificationMessageTemplate API from Microsoft Graph — 7 operation(s) for devicemanagement.notificationmessagetemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.notificationMessageTemplate API from Microsoft Graph — 7 operation(s) for devicemanagement.notificationmessagetemplate.
   name: Microsoft Graph deviceManagement.notificationMessageTemplate API
   slug: microsoft-graph-devicemanagement-notificationmessagetemplate-api
-- description: The deviceManagement.onPremisesConditionalAccessSettings API from Microsoft Graph — 1 operation(s) for devicemanagement.onpremisesconditionalaccesssettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.onPremisesConditionalAccessSettings API from Microsoft Graph — 1 operation(s) for devicemanagement.onpremisesconditionalaccesssettings.
   name: Microsoft Graph deviceManagement.onPremisesConditionalAccessSettings API
   slug: microsoft-graph-devicemanagement-onpremisesconditionalaccesssettings-api
-- description: The deviceManagement.remoteAssistancePartner API from Microsoft Graph — 5 operation(s) for devicemanagement.remoteassistancepartner.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.remoteAssistancePartner API from Microsoft Graph — 5 operation(s) for devicemanagement.remoteassistancepartner.
   name: Microsoft Graph deviceManagement.remoteAssistancePartner API
   slug: microsoft-graph-devicemanagement-remoteassistancepartner-api
-- description: The deviceManagement.resourceOperation API from Microsoft Graph — 3 operation(s) for devicemanagement.resourceoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.resourceOperation API from Microsoft Graph — 3 operation(s) for devicemanagement.resourceoperation.
   name: Microsoft Graph deviceManagement.resourceOperation API
   slug: microsoft-graph-devicemanagement-resourceoperation-api
-- description: The deviceManagement.roleDefinition API from Microsoft Graph — 7 operation(s) for devicemanagement.roledefinition.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.roleDefinition API from Microsoft Graph — 7 operation(s) for devicemanagement.roledefinition.
   name: Microsoft Graph deviceManagement.roleDefinition API
   slug: microsoft-graph-devicemanagement-roledefinition-api
-- description: The deviceManagement.softwareUpdateStatusSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.softwareupdatestatussummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.softwareUpdateStatusSummary API from Microsoft Graph — 1 operation(s) for devicemanagement.softwareupdatestatussummary.
   name: Microsoft Graph deviceManagement.softwareUpdateStatusSummary API
   slug: microsoft-graph-devicemanagement-softwareupdatestatussummary-api
-- description: The deviceManagement.termsAndConditions API from Microsoft Graph — 10 operation(s) for devicemanagement.termsandconditions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.termsAndConditions API from Microsoft Graph — 10 operation(s) for devicemanagement.termsandconditions.
   name: Microsoft Graph deviceManagement.termsAndConditions API
   slug: microsoft-graph-devicemanagement-termsandconditions-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthapplicationperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthapplicationperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthApplicationPerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthapplicationperformance-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebyap
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebyap
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDetails API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondetails-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebya
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebya
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByAppVersionDeviceId API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyappversiondeviceid-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebyosversion.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthappperformancebyosversion.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthAppPerformanceByOSVersion API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthappperformancebyosversion-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdevicemodelperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdevicemodelperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDeviceModelPerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdevicemodelperformance-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdeviceperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdeviceperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDevicePerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformance-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdeviceperformancedetails.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthdeviceperformancedetails.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthDevicePerformanceDetails API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthdeviceperformancedetails-api
-- description: The deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthosversionperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsapphealthosversionperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsAppHealthOSVersionPerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsapphealthosversionperformance-api
-- description: The deviceManagement.userExperienceAnalyticsBaseline API from Microsoft Graph — 10 operation(s) for devicemanagement.userexperienceanalyticsbaseline.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsBaseline API from Microsoft Graph — 10 operation(s) for devicemanagement.userexperienceanalyticsbaseline.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsBaseline API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsbaseline-api
-- description: The deviceManagement.userExperienceAnalyticsCategory API from Microsoft Graph — 10 operation(s) for devicemanagement.userexperienceanalyticscategory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsCategory API from Microsoft Graph — 10 operation(s) for devicemanagement.userexperienceanalyticscategory.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsCategory API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticscategory-api
-- description: The deviceManagement.userExperienceAnalyticsDevicePerformance API from Microsoft Graph — 4 operation(s) for devicemanagement.userexperienceanalyticsdeviceperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsDevicePerformance API from Microsoft Graph — 4 operation(s) for devicemanagement.userexperienceanalyticsdeviceperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsDevicePerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsdeviceperformance-api
-- description: The deviceManagement.userExperienceAnalyticsDeviceScores API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicescores.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsDeviceScores API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicescores.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceScores API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicescores-api
-- description: The deviceManagement.userExperienceAnalyticsDeviceStartupHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartuphistory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsDeviceStartupHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartuphistory.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupHistory API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartuphistory-api
-- description: The deviceManagement.userExperienceAnalyticsDeviceStartupProcess API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartupprocess.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsDeviceStartupProcess API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartupprocess.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupProcess API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocess-api
-- description: The deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartupprocessperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsdevicestartupprocessperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsDeviceStartupProcessPerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsdevicestartupprocessperformance-api
-- description: The deviceManagement.userExperienceAnalyticsMetricHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsmetrichistory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsMetricHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsmetrichistory.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsMetricHistory API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsmetrichistory-api
-- description: The deviceManagement.userExperienceAnalyticsModelScores API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsmodelscores.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsModelScores API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsmodelscores.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsModelScores API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsmodelscores-api
-- description: The deviceManagement.userExperienceAnalyticsOverview API from Microsoft Graph — 1 operation(s) for devicemanagement.userexperienceanalyticsoverview.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsOverview API from Microsoft Graph — 1 operation(s) for devicemanagement.userexperienceanalyticsoverview.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsOverview API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsoverview-api
-- description: The deviceManagement.userExperienceAnalyticsScoreHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsscorehistory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsScoreHistory API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsscorehistory.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsScoreHistory API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsscorehistory-api
-- description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API from Microsoft Graph — 1 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywherehardwarereadin
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API from Microsoft Graph — 1 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywherehardwarereadin
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereHardwareReadinessMetric API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywherehardwarereadinessmetric-api
-- description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API from Microsoft Graph — 6 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywheremetric.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API from Microsoft Graph — 6 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywheremetric.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereMetric API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremetric-api
-- description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywheremodelperformance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API from Microsoft Graph — 3 operation(s) for devicemanagement.userexperienceanalyticsworkfromanywheremodelperformance.
   name: Microsoft Graph deviceManagement.userExperienceAnalyticsWorkFromAnywhereModelPerformance API
   slug: microsoft-graph-devicemanagement-userexperienceanalyticsworkfromanywheremodelperformance-api
-- description: The deviceManagement.virtualEndpoint API from Microsoft Graph — 46 operation(s) for devicemanagement.virtualendpoint.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.virtualEndpoint API from Microsoft Graph — 46 operation(s) for devicemanagement.virtualendpoint.
   name: Microsoft Graph deviceManagement.virtualEndpoint API
   slug: microsoft-graph-devicemanagement-virtualendpoint-api
-- description: The deviceManagement.windowsAutopilotDeviceIdentity API from Microsoft Graph — 6 operation(s) for devicemanagement.windowsautopilotdeviceidentity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.windowsAutopilotDeviceIdentity API from Microsoft Graph — 6 operation(s) for devicemanagement.windowsautopilotdeviceidentity.
   name: Microsoft Graph deviceManagement.windowsAutopilotDeviceIdentity API
   slug: microsoft-graph-devicemanagement-windowsautopilotdeviceidentity-api
-- description: The deviceManagement.windowsInformationProtectionAppLearningSummary API from Microsoft Graph — 3 operation(s) for devicemanagement.windowsinformationprotectionapplearningsummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.windowsInformationProtectionAppLearningSummary API from Microsoft Graph — 3 operation(s) for devicemanagement.windowsinformationprotectionapplearningsummary.
   name: Microsoft Graph deviceManagement.windowsInformationProtectionAppLearningSummary API
   slug: microsoft-graph-devicemanagement-windowsinformationprotectionapplearningsummary-api
-- description: The deviceManagement.windowsInformationProtectionNetworkLearningSummary API from Microsoft Graph — 3 operation(s) for devicemanagement.windowsinformationprotectionnetworklearningsummary.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.windowsInformationProtectionNetworkLearningSummary API from Microsoft Graph — 3 operation(s) for devicemanagement.windowsinformationprotectionnetworklearningsummary.
   name: Microsoft Graph deviceManagement.windowsInformationProtectionNetworkLearningSummary API
   slug: microsoft-graph-devicemanagement-windowsinformationprotectionnetworklearningsummary-api
-- description: The deviceManagement.windowsMalwareInformation API from Microsoft Graph — 6 operation(s) for devicemanagement.windowsmalwareinformation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The deviceManagement.windowsMalwareInformation API from Microsoft Graph — 6 operation(s) for devicemanagement.windowsmalwareinformation.
   name: Microsoft Graph deviceManagement.windowsMalwareInformation API
   slug: microsoft-graph-devicemanagement-windowsmalwareinformation-api
-- description: The devices.device.Actions API from Microsoft Graph — 8 operation(s) for devices.device.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The devices.device.Actions API from Microsoft Graph — 8 operation(s) for devices.device.actions.
   name: Microsoft Graph devices.device.Actions API
   slug: microsoft-graph-devices-device-actions-api
-- description: The Devices.device API from Microsoft Graph — 4 operation(s) for devices.device.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Devices.device API from Microsoft Graph — 4 operation(s) for devices.device.
   name: Microsoft Graph Devices.device API
   slug: microsoft-graph-devices-device-api
-- description: The devices.device.Functions API from Microsoft Graph — 1 operation(s) for devices.device.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The devices.device.Functions API from Microsoft Graph — 1 operation(s) for devices.device.functions.
   name: Microsoft Graph devices.device.Functions API
   slug: microsoft-graph-devices-device-functions-api
-- description: The devices.directoryObject API from Microsoft Graph — 50 operation(s) for devices.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The devices.directoryObject API from Microsoft Graph — 50 operation(s) for devices.directoryobject.
   name: Microsoft Graph devices.directoryObject API
   slug: microsoft-graph-devices-directoryobject-api
-- description: The Devices.extension API from Microsoft Graph — 3 operation(s) for devices.extension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Devices.extension API from Microsoft Graph — 3 operation(s) for devices.extension.
   name: Microsoft Graph Devices.extension API
   slug: microsoft-graph-devices-extension-api
-- description: The directory.administrativeUnit API from Microsoft Graph — 32 operation(s) for directory.administrativeunit.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.administrativeUnit API from Microsoft Graph — 32 operation(s) for directory.administrativeunit.
   name: Microsoft Graph directory.administrativeUnit API
   slug: microsoft-graph-directory-administrativeunit-api
-- description: The directory.attributeSet API from Microsoft Graph — 3 operation(s) for directory.attributeset.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.attributeSet API from Microsoft Graph — 3 operation(s) for directory.attributeset.
   name: Microsoft Graph directory.attributeSet API
   slug: microsoft-graph-directory-attributeset-api
-- description: The directory.companySubscription API from Microsoft Graph — 4 operation(s) for directory.companysubscription.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.companySubscription API from Microsoft Graph — 4 operation(s) for directory.companysubscription.
   name: Microsoft Graph directory.companySubscription API
   slug: microsoft-graph-directory-companysubscription-api
-- description: The directory.customSecurityAttributeDefinition API from Microsoft Graph — 6 operation(s) for directory.customsecurityattributedefinition.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.customSecurityAttributeDefinition API from Microsoft Graph — 6 operation(s) for directory.customsecurityattributedefinition.
   name: Microsoft Graph directory.customSecurityAttributeDefinition API
   slug: microsoft-graph-directory-customsecurityattributedefinition-api
-- description: The directory.deviceLocalCredentialInfo API from Microsoft Graph — 3 operation(s) for directory.devicelocalcredentialinfo.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.deviceLocalCredentialInfo API from Microsoft Graph — 3 operation(s) for directory.devicelocalcredentialinfo.
   name: Microsoft Graph directory.deviceLocalCredentialInfo API
   slug: microsoft-graph-directory-devicelocalcredentialinfo-api
-- description: The Directory.directory API from Microsoft Graph — 1 operation(s) for directory.directory.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Directory.directory API from Microsoft Graph — 1 operation(s) for directory.directory.
   name: Microsoft Graph Directory.directory API
   slug: microsoft-graph-directory-directory-api
-- description: The directory.directoryObject API from Microsoft Graph — 29 operation(s) for directory.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.directoryObject API from Microsoft Graph — 29 operation(s) for directory.directoryobject.
   name: Microsoft Graph directory.directoryObject API
   slug: microsoft-graph-directory-directoryobject-api
-- description: The directory.identityProviderBase API from Microsoft Graph — 4 operation(s) for directory.identityproviderbase.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.identityProviderBase API from Microsoft Graph — 4 operation(s) for directory.identityproviderbase.
   name: Microsoft Graph directory.identityProviderBase API
   slug: microsoft-graph-directory-identityproviderbase-api
-- description: The directory.onPremisesDirectorySynchronization API from Microsoft Graph — 3 operation(s) for directory.onpremisesdirectorysynchronization.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.onPremisesDirectorySynchronization API from Microsoft Graph — 3 operation(s) for directory.onpremisesdirectorysynchronization.
   name: Microsoft Graph directory.onPremisesDirectorySynchronization API
   slug: microsoft-graph-directory-onpremisesdirectorysynchronization-api
-- description: The directory.publicKeyInfrastructureRoot API from Microsoft Graph — 8 operation(s) for directory.publickeyinfrastructureroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directory.publicKeyInfrastructureRoot API from Microsoft Graph — 8 operation(s) for directory.publickeyinfrastructureroot.
   name: Microsoft Graph directory.publicKeyInfrastructureRoot API
   slug: microsoft-graph-directory-publickeyinfrastructureroot-api
-- description: The directoryObjects.directoryObject.Actions API from Microsoft Graph — 8 operation(s) for directoryobjects.directoryobject.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryObjects.directoryObject.Actions API from Microsoft Graph — 8 operation(s) for directoryobjects.directoryobject.actions.
   name: Microsoft Graph directoryObjects.directoryObject.Actions API
   slug: microsoft-graph-directoryobjects-directoryobject-actions-api
-- description: The directoryObjects.directoryObject API from Microsoft Graph — 3 operation(s) for directoryobjects.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryObjects.directoryObject API from Microsoft Graph — 3 operation(s) for directoryobjects.directoryobject.
   name: Microsoft Graph directoryObjects.directoryObject API
   slug: microsoft-graph-directoryobjects-directoryobject-api
-- description: The directoryObjects.directoryObject.Functions API from Microsoft Graph — 1 operation(s) for directoryobjects.directoryobject.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryObjects.directoryObject.Functions API from Microsoft Graph — 1 operation(s) for directoryobjects.directoryobject.functions.
   name: Microsoft Graph directoryObjects.directoryObject.Functions API
   slug: microsoft-graph-directoryobjects-directoryobject-functions-api
-- description: The directoryRoles.directoryObject API from Microsoft Graph — 22 operation(s) for directoryroles.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoles.directoryObject API from Microsoft Graph — 22 operation(s) for directoryroles.directoryobject.
   name: Microsoft Graph directoryRoles.directoryObject API
   slug: microsoft-graph-directoryroles-directoryobject-api
-- description: The directoryRoles.directoryRole.Actions API from Microsoft Graph — 8 operation(s) for directoryroles.directoryrole.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoles.directoryRole.Actions API from Microsoft Graph — 8 operation(s) for directoryroles.directoryrole.actions.
   name: Microsoft Graph directoryRoles.directoryRole.Actions API
   slug: microsoft-graph-directoryroles-directoryrole-actions-api
-- description: The directoryRoles.directoryRole API from Microsoft Graph — 4 operation(s) for directoryroles.directoryrole.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoles.directoryRole API from Microsoft Graph — 4 operation(s) for directoryroles.directoryrole.
   name: Microsoft Graph directoryRoles.directoryRole API
   slug: microsoft-graph-directoryroles-directoryrole-api
-- description: The directoryRoles.directoryRole.Functions API from Microsoft Graph — 1 operation(s) for directoryroles.directoryrole.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoles.directoryRole.Functions API from Microsoft Graph — 1 operation(s) for directoryroles.directoryrole.functions.
   name: Microsoft Graph directoryRoles.directoryRole.Functions API
   slug: microsoft-graph-directoryroles-directoryrole-functions-api
-- description: The directoryRoles.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for directoryroles.scopedrolemembership.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoles.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for directoryroles.scopedrolemembership.
   name: Microsoft Graph directoryRoles.scopedRoleMembership API
   slug: microsoft-graph-directoryroles-scopedrolemembership-api
-- description: The directoryRoleTemplates.directoryRoleTemplate.Actions API from Microsoft Graph — 8 operation(s) for directoryroletemplates.directoryroletemplate.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoleTemplates.directoryRoleTemplate.Actions API from Microsoft Graph — 8 operation(s) for directoryroletemplates.directoryroletemplate.actions.
   name: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate.Actions API
   slug: microsoft-graph-directoryroletemplates-directoryroletemplate-actions-api
-- description: The directoryRoleTemplates.directoryRoleTemplate API from Microsoft Graph — 3 operation(s) for directoryroletemplates.directoryroletemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoleTemplates.directoryRoleTemplate API from Microsoft Graph — 3 operation(s) for directoryroletemplates.directoryroletemplate.
   name: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate API
   slug: microsoft-graph-directoryroletemplates-directoryroletemplate-api
-- description: The directoryRoleTemplates.directoryRoleTemplate.Functions API from Microsoft Graph — 1 operation(s) for directoryroletemplates.directoryroletemplate.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The directoryRoleTemplates.directoryRoleTemplate.Functions API from Microsoft Graph — 1 operation(s) for directoryroletemplates.directoryroletemplate.functions.
   name: Microsoft Graph directoryRoleTemplates.directoryRoleTemplate.Functions API
   slug: microsoft-graph-directoryroletemplates-directoryroletemplate-functions-api
-- description: The domainDnsRecords.domainDnsRecord API from Microsoft Graph — 3 operation(s) for domaindnsrecords.domaindnsrecord.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The domainDnsRecords.domainDnsRecord API from Microsoft Graph — 3 operation(s) for domaindnsrecords.domaindnsrecord.
   name: Microsoft Graph domainDnsRecords.domainDnsRecord API
   slug: microsoft-graph-domaindnsrecords-domaindnsrecord-api
-- description: The domains.directoryObject API from Microsoft Graph — 3 operation(s) for domains.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The domains.directoryObject API from Microsoft Graph — 3 operation(s) for domains.directoryobject.
   name: Microsoft Graph domains.directoryObject API
   slug: microsoft-graph-domains-directoryobject-api
-- description: The domains.domain.Actions API from Microsoft Graph — 3 operation(s) for domains.domain.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The domains.domain.Actions API from Microsoft Graph — 3 operation(s) for domains.domain.actions.
   name: Microsoft Graph domains.domain.Actions API
   slug: microsoft-graph-domains-domain-actions-api
-- description: The Domains.domain API from Microsoft Graph — 4 operation(s) for domains.domain.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Domains.domain API from Microsoft Graph — 4 operation(s) for domains.domain.
   name: Microsoft Graph Domains.domain API
   slug: microsoft-graph-domains-domain-api
-- description: The domains.domainDnsRecord API from Microsoft Graph — 6 operation(s) for domains.domaindnsrecord.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The domains.domainDnsRecord API from Microsoft Graph — 6 operation(s) for domains.domaindnsrecord.
   name: Microsoft Graph domains.domainDnsRecord API
   slug: microsoft-graph-domains-domaindnsrecord-api
-- description: The domains.internalDomainFederation API from Microsoft Graph — 3 operation(s) for domains.internaldomainfederation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The domains.internalDomainFederation API from Microsoft Graph — 3 operation(s) for domains.internaldomainfederation.
   name: Microsoft Graph domains.internalDomainFederation API
   slug: microsoft-graph-domains-internaldomainfederation-api
-- description: The drives.drive.Actions API from Microsoft Graph — 135 operation(s) for drives.drive.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.drive.Actions API from Microsoft Graph — 135 operation(s) for drives.drive.actions.
   name: Microsoft Graph drives.drive.Actions API
   slug: microsoft-graph-drives-drive-actions-api
-- description: The Drives.drive API from Microsoft Graph — 2 operation(s) for drives.drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drives.drive API from Microsoft Graph — 2 operation(s) for drives.drive.
   name: Microsoft Graph Drives.drive API
   slug: microsoft-graph-drives-drive-api
-- description: The drives.drive.Functions API from Microsoft Graph — 599 operation(s) for drives.drive.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.drive.Functions API from Microsoft Graph — 599 operation(s) for drives.drive.functions.
   name: Microsoft Graph drives.drive.Functions API
   slug: microsoft-graph-drives-drive-functions-api
-- description: The drives.driveItem API from Microsoft Graph — 790 operation(s) for drives.driveitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The drives.driveItem API from Microsoft Graph — 790 operation(s) for drives.driveitem.
   name: Microsoft Graph drives.driveItem API
   slug: microsoft-graph-drives-driveitem-api
-- description: The Drives.list API from Microsoft Graph — 76 operation(s) for drives.list.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drives.list API from Microsoft Graph — 76 operation(s) for drives.list.
   name: Microsoft Graph Drives.list API
   slug: microsoft-graph-drives-list-api
-- description: The Drives.user API from Microsoft Graph — 8 operation(s) for drives.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drives.user API from Microsoft Graph — 8 operation(s) for drives.user.
   name: Microsoft Graph Drives.user API
   slug: microsoft-graph-drives-user-api
-- description: Operations for managing Microsoft Edge browser settings
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing Microsoft Edge browser settings
   name: Microsoft Graph Edge Browser API
   slug: microsoft-graph-edge-browser-api
-- description: The education.educationClass API from Microsoft Graph — 90 operation(s) for education.educationclass.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The education.educationClass API from Microsoft Graph — 90 operation(s) for education.educationclass.
   name: Microsoft Graph education.educationClass API
   slug: microsoft-graph-education-educationclass-api
-- description: The education.educationRoot API from Microsoft Graph — 1 operation(s) for education.educationroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The education.educationRoot API from Microsoft Graph — 1 operation(s) for education.educationroot.
   name: Microsoft Graph education.educationRoot API
   slug: microsoft-graph-education-educationroot-api
-- description: The education.educationSchool API from Microsoft Graph — 13 operation(s) for education.educationschool.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The education.educationSchool API from Microsoft Graph — 13 operation(s) for education.educationschool.
   name: Microsoft Graph education.educationSchool API
   slug: microsoft-graph-education-educationschool-api
-- description: The education.educationUser API from Microsoft Graph — 133 operation(s) for education.educationuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The education.educationUser API from Microsoft Graph — 133 operation(s) for education.educationuser.
   name: Microsoft Graph education.educationUser API
   slug: microsoft-graph-education-educationuser-api
-- description: The education.reportsRoot API from Microsoft Graph — 13 operation(s) for education.reportsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The education.reportsRoot API from Microsoft Graph — 13 operation(s) for education.reportsroot.
   name: Microsoft Graph education.reportsRoot API
   slug: microsoft-graph-education-reportsroot-api
-- description: The employeeExperience.community API from Microsoft Graph — 13 operation(s) for employeeexperience.community.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.community API from Microsoft Graph — 13 operation(s) for employeeexperience.community.
   name: Microsoft Graph employeeExperience.community API
   slug: microsoft-graph-employeeexperience-community-api
-- description: The employeeExperience.employeeExperience API from Microsoft Graph — 1 operation(s) for employeeexperience.employeeexperience.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.employeeExperience API from Microsoft Graph — 1 operation(s) for employeeexperience.employeeexperience.
   name: Microsoft Graph employeeExperience.employeeExperience API
   slug: microsoft-graph-employeeexperience-employeeexperience-api
-- description: The employeeExperience.engagementAsyncOperation API from Microsoft Graph — 3 operation(s) for employeeexperience.engagementasyncoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.engagementAsyncOperation API from Microsoft Graph — 3 operation(s) for employeeexperience.engagementasyncoperation.
   name: Microsoft Graph employeeExperience.engagementAsyncOperation API
   slug: microsoft-graph-employeeexperience-engagementasyncoperation-api
-- description: The employeeExperience.engagementRole API from Microsoft Graph — 10 operation(s) for employeeexperience.engagementrole.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.engagementRole API from Microsoft Graph — 10 operation(s) for employeeexperience.engagementrole.
   name: Microsoft Graph employeeExperience.engagementRole API
   slug: microsoft-graph-employeeexperience-engagementrole-api
-- description: The employeeExperience.learningCourseActivity API from Microsoft Graph — 4 operation(s) for employeeexperience.learningcourseactivity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.learningCourseActivity API from Microsoft Graph — 4 operation(s) for employeeexperience.learningcourseactivity.
   name: Microsoft Graph employeeExperience.learningCourseActivity API
   slug: microsoft-graph-employeeexperience-learningcourseactivity-api
-- description: The employeeExperience.learningProvider API from Microsoft Graph — 11 operation(s) for employeeexperience.learningprovider.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The employeeExperience.learningProvider API from Microsoft Graph — 11 operation(s) for employeeexperience.learningprovider.
   name: Microsoft Graph employeeExperience.learningProvider API
   slug: microsoft-graph-employeeexperience-learningprovider-api
-- description: The External.external API from Microsoft Graph — 1 operation(s) for external.external.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The External.external API from Microsoft Graph — 1 operation(s) for external.external.
   name: Microsoft Graph External.external API
   slug: microsoft-graph-external-external-api
-- description: The external.externalConnection API from Microsoft Graph — 21 operation(s) for external.externalconnection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The external.externalConnection API from Microsoft Graph — 21 operation(s) for external.externalconnection.
   name: Microsoft Graph external.externalConnection API
   slug: microsoft-graph-external-externalconnection-api
-- description: The filterOperators.filterOperatorSchema API from Microsoft Graph — 3 operation(s) for filteroperators.filteroperatorschema.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The filterOperators.filterOperatorSchema API from Microsoft Graph — 3 operation(s) for filteroperators.filteroperatorschema.
   name: Microsoft Graph filterOperators.filterOperatorSchema API
   slug: microsoft-graph-filteroperators-filteroperatorschema-api
-- description: The functions.attributeMappingFunctionSchema API from Microsoft Graph — 3 operation(s) for functions.attributemappingfunctionschema.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The functions.attributeMappingFunctionSchema API from Microsoft Graph — 3 operation(s) for functions.attributemappingfunctionschema.
   name: Microsoft Graph functions.attributeMappingFunctionSchema API
   slug: microsoft-graph-functions-attributemappingfunctionschema-api
-- description: The groupLifecyclePolicies.groupLifecyclePolicy.Actions API from Microsoft Graph — 2 operation(s) for grouplifecyclepolicies.grouplifecyclepolicy.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupLifecyclePolicies.groupLifecyclePolicy.Actions API from Microsoft Graph — 2 operation(s) for grouplifecyclepolicies.grouplifecyclepolicy.actions.
   name: Microsoft Graph groupLifecyclePolicies.groupLifecyclePolicy.Actions API
   slug: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-actions-api
-- description: The groupLifecyclePolicies.groupLifecyclePolicy API from Microsoft Graph — 3 operation(s) for grouplifecyclepolicies.grouplifecyclepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupLifecyclePolicies.groupLifecyclePolicy API from Microsoft Graph — 3 operation(s) for grouplifecyclepolicies.grouplifecyclepolicy.
   name: Microsoft Graph groupLifecyclePolicies.groupLifecyclePolicy API
   slug: microsoft-graph-grouplifecyclepolicies-grouplifecyclepolicy-api
-- description: The groups.appRoleAssignment API from Microsoft Graph — 3 operation(s) for groups.approleassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.appRoleAssignment API from Microsoft Graph — 3 operation(s) for groups.approleassignment.
   name: Microsoft Graph groups.appRoleAssignment API
   slug: microsoft-graph-groups-approleassignment-api
-- description: The Groups.calendar API from Microsoft Graph — 31 operation(s) for groups.calendar.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.calendar API from Microsoft Graph — 31 operation(s) for groups.calendar.
   name: Microsoft Graph Groups.calendar API
   slug: microsoft-graph-groups-calendar-api
-- description: The Groups.conversation API from Microsoft Graph — 29 operation(s) for groups.conversation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.conversation API from Microsoft Graph — 29 operation(s) for groups.conversation.
   name: Microsoft Graph Groups.conversation API
   slug: microsoft-graph-groups-conversation-api
-- description: The groups.conversationThread API from Microsoft Graph — 26 operation(s) for groups.conversationthread.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.conversationThread API from Microsoft Graph — 26 operation(s) for groups.conversationthread.
   name: Microsoft Graph groups.conversationThread API
   slug: microsoft-graph-groups-conversationthread-api
-- description: The groups.directoryObject API from Microsoft Graph — 113 operation(s) for groups.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.directoryObject API from Microsoft Graph — 113 operation(s) for groups.directoryobject.
   name: Microsoft Graph groups.directoryObject API
   slug: microsoft-graph-groups-directoryobject-api
-- description: The Groups.drive API from Microsoft Graph — 4 operation(s) for groups.drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.drive API from Microsoft Graph — 4 operation(s) for groups.drive.
   name: Microsoft Graph Groups.drive API
   slug: microsoft-graph-groups-drive-api
-- description: The Groups.event API from Microsoft Graph — 24 operation(s) for groups.event.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.event API from Microsoft Graph — 24 operation(s) for groups.event.
   name: Microsoft Graph Groups.event API
   slug: microsoft-graph-groups-event-api
-- description: The Groups.extension API from Microsoft Graph — 3 operation(s) for groups.extension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.extension API from Microsoft Graph — 3 operation(s) for groups.extension.
   name: Microsoft Graph Groups.extension API
   slug: microsoft-graph-groups-extension-api
-- description: The groups.group.Actions API from Microsoft Graph — 18 operation(s) for groups.group.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.group.Actions API from Microsoft Graph — 18 operation(s) for groups.group.actions.
   name: Microsoft Graph groups.group.Actions API
   slug: microsoft-graph-groups-group-actions-api
-- description: The Groups.group API from Microsoft Graph — 4 operation(s) for groups.group.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.group API from Microsoft Graph — 4 operation(s) for groups.group.
   name: Microsoft Graph Groups.group API
   slug: microsoft-graph-groups-group-api
-- description: The groups.group.Functions API from Microsoft Graph — 4 operation(s) for groups.group.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.group.Functions API from Microsoft Graph — 4 operation(s) for groups.group.functions.
   name: Microsoft Graph groups.group.Functions API
   slug: microsoft-graph-groups-group-functions-api
-- description: The groups.groupLifecyclePolicy API from Microsoft Graph — 5 operation(s) for groups.grouplifecyclepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.groupLifecyclePolicy API from Microsoft Graph — 5 operation(s) for groups.grouplifecyclepolicy.
   name: Microsoft Graph groups.groupLifecyclePolicy API
   slug: microsoft-graph-groups-grouplifecyclepolicy-api
-- description: The groups.groupSetting API from Microsoft Graph — 3 operation(s) for groups.groupsetting.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.groupSetting API from Microsoft Graph — 3 operation(s) for groups.groupsetting.
   name: Microsoft Graph groups.groupSetting API
   slug: microsoft-graph-groups-groupsetting-api
-- description: The Groups.onenote API from Microsoft Graph — 103 operation(s) for groups.onenote.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.onenote API from Microsoft Graph — 103 operation(s) for groups.onenote.
   name: Microsoft Graph Groups.onenote API
   slug: microsoft-graph-groups-onenote-api
-- description: The groups.onPremisesSyncBehavior API from Microsoft Graph — 1 operation(s) for groups.onpremisessyncbehavior.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.onPremisesSyncBehavior API from Microsoft Graph — 1 operation(s) for groups.onpremisessyncbehavior.
   name: Microsoft Graph groups.onPremisesSyncBehavior API
   slug: microsoft-graph-groups-onpremisessyncbehavior-api
-- description: The groups.plannerGroup API from Microsoft Graph — 22 operation(s) for groups.plannergroup.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.plannerGroup API from Microsoft Graph — 22 operation(s) for groups.plannergroup.
   name: Microsoft Graph groups.plannerGroup API
   slug: microsoft-graph-groups-plannergroup-api
-- description: The groups.profilePhoto API from Microsoft Graph — 5 operation(s) for groups.profilephoto.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.profilePhoto API from Microsoft Graph — 5 operation(s) for groups.profilephoto.
   name: Microsoft Graph groups.profilePhoto API
   slug: microsoft-graph-groups-profilephoto-api
-- description: The groups.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for groups.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for groups.resourcespecificpermissiongrant.
   name: Microsoft Graph groups.resourceSpecificPermissionGrant API
   slug: microsoft-graph-groups-resourcespecificpermissiongrant-api
-- description: The groups.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for groups.serviceprovisioningerror.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groups.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for groups.serviceprovisioningerror.
   name: Microsoft Graph groups.serviceProvisioningError API
   slug: microsoft-graph-groups-serviceprovisioningerror-api
-- description: The Groups.site API from Microsoft Graph — 626 operation(s) for groups.site.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.site API from Microsoft Graph — 626 operation(s) for groups.site.
   name: Microsoft Graph Groups.site API
   slug: microsoft-graph-groups-site-api
-- description: The Groups.team API from Microsoft Graph — 193 operation(s) for groups.team.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups.team API from Microsoft Graph — 193 operation(s) for groups.team.
   name: Microsoft Graph Groups.team API
   slug: microsoft-graph-groups-team-api
-- description: The groupSettings.groupSetting API from Microsoft Graph — 3 operation(s) for groupsettings.groupsetting.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupSettings.groupSetting API from Microsoft Graph — 3 operation(s) for groupsettings.groupsetting.
   name: Microsoft Graph groupSettings.groupSetting API
   slug: microsoft-graph-groupsettings-groupsetting-api
-- description: The groupSettingTemplates.groupSettingTemplate.Actions API from Microsoft Graph — 8 operation(s) for groupsettingtemplates.groupsettingtemplate.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupSettingTemplates.groupSettingTemplate.Actions API from Microsoft Graph — 8 operation(s) for groupsettingtemplates.groupsettingtemplate.actions.
   name: Microsoft Graph groupSettingTemplates.groupSettingTemplate.Actions API
   slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-actions-api
-- description: The groupSettingTemplates.groupSettingTemplate API from Microsoft Graph — 3 operation(s) for groupsettingtemplates.groupsettingtemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupSettingTemplates.groupSettingTemplate API from Microsoft Graph — 3 operation(s) for groupsettingtemplates.groupsettingtemplate.
   name: Microsoft Graph groupSettingTemplates.groupSettingTemplate API
   slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-api
-- description: The groupSettingTemplates.groupSettingTemplate.Functions API from Microsoft Graph — 1 operation(s) for groupsettingtemplates.groupsettingtemplate.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The groupSettingTemplates.groupSettingTemplate.Functions API from Microsoft Graph — 1 operation(s) for groupsettingtemplates.groupsettingtemplate.functions.
   name: Microsoft Graph groupSettingTemplates.groupSettingTemplate.Functions API
   slug: microsoft-graph-groupsettingtemplates-groupsettingtemplate-functions-api
-- description: Operations related to Identity Authentication Events Flows
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations related to Identity Authentication Events Flows
   name: Microsoft Graph Identity Authentication Events Flows API
   slug: microsoft-graph-identity-authentication-events-flows-api
-- description: The identity.authenticationEventListener API from Microsoft Graph — 3 operation(s) for identity.authenticationeventlistener.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.authenticationEventListener API from Microsoft Graph — 3 operation(s) for identity.authenticationeventlistener.
   name: Microsoft Graph identity.authenticationEventListener API
   slug: microsoft-graph-identity-authenticationeventlistener-api
-- description: The identity.authenticationEventsFlow API from Microsoft Graph — 26 operation(s) for identity.authenticationeventsflow.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.authenticationEventsFlow API from Microsoft Graph — 26 operation(s) for identity.authenticationeventsflow.
   name: Microsoft Graph identity.authenticationEventsFlow API
   slug: microsoft-graph-identity-authenticationeventsflow-api
-- description: The identity.b2xIdentityUserFlow API from Microsoft Graph — 34 operation(s) for identity.b2xidentityuserflow.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.b2xIdentityUserFlow API from Microsoft Graph — 34 operation(s) for identity.b2xidentityuserflow.
   name: Microsoft Graph identity.b2xIdentityUserFlow API
   slug: microsoft-graph-identity-b2xidentityuserflow-api
-- description: The identity.conditionalAccessRoot API from Microsoft Graph — 25 operation(s) for identity.conditionalaccessroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.conditionalAccessRoot API from Microsoft Graph — 25 operation(s) for identity.conditionalaccessroot.
   name: Microsoft Graph identity.conditionalAccessRoot API
   slug: microsoft-graph-identity-conditionalaccessroot-api
-- description: The identity.customAuthenticationExtension API from Microsoft Graph — 5 operation(s) for identity.customauthenticationextension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.customAuthenticationExtension API from Microsoft Graph — 5 operation(s) for identity.customauthenticationextension.
   name: Microsoft Graph identity.customAuthenticationExtension API
   slug: microsoft-graph-identity-customauthenticationextension-api
-- description: Operations for managing agreement acceptances through identity governance
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing agreement acceptances through identity governance
   name: Microsoft Graph Identity Governance Acceptances API
   slug: microsoft-graph-identity-governance-acceptances-api
-- description: The identity.identityApiConnector API from Microsoft Graph — 4 operation(s) for identity.identityapiconnector.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.identityApiConnector API from Microsoft Graph — 4 operation(s) for identity.identityapiconnector.
   name: Microsoft Graph identity.identityApiConnector API
   slug: microsoft-graph-identity-identityapiconnector-api
-- description: The identity.identityContainer API from Microsoft Graph — 1 operation(s) for identity.identitycontainer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.identityContainer API from Microsoft Graph — 1 operation(s) for identity.identitycontainer.
   name: Microsoft Graph identity.identityContainer API
   slug: microsoft-graph-identity-identitycontainer-api
-- description: The identity.identityProviderBase API from Microsoft Graph — 4 operation(s) for identity.identityproviderbase.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.identityProviderBase API from Microsoft Graph — 4 operation(s) for identity.identityproviderbase.
   name: Microsoft Graph identity.identityProviderBase API
   slug: microsoft-graph-identity-identityproviderbase-api
-- description: The identity.identityUserFlowAttribute API from Microsoft Graph — 3 operation(s) for identity.identityuserflowattribute.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.identityUserFlowAttribute API from Microsoft Graph — 3 operation(s) for identity.identityuserflowattribute.
   name: Microsoft Graph identity.identityUserFlowAttribute API
   slug: microsoft-graph-identity-identityuserflowattribute-api
-- description: The identity.riskPreventionContainer API from Microsoft Graph — 12 operation(s) for identity.riskpreventioncontainer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identity.riskPreventionContainer API from Microsoft Graph — 12 operation(s) for identity.riskpreventioncontainer.
   name: Microsoft Graph identity.riskPreventionContainer API
   slug: microsoft-graph-identity-riskpreventioncontainer-api
-- description: The identityGovernance.accessReviewSet API from Microsoft Graph — 45 operation(s) for identitygovernance.accessreviewset.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.accessReviewSet API from Microsoft Graph — 45 operation(s) for identitygovernance.accessreviewset.
   name: Microsoft Graph identityGovernance.accessReviewSet API
   slug: microsoft-graph-identitygovernance-accessreviewset-api
-- description: The identityGovernance.appConsentApprovalRoute API from Microsoft Graph — 13 operation(s) for identitygovernance.appconsentapprovalroute.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.appConsentApprovalRoute API from Microsoft Graph — 13 operation(s) for identitygovernance.appconsentapprovalroute.
   name: Microsoft Graph identityGovernance.appConsentApprovalRoute API
   slug: microsoft-graph-identitygovernance-appconsentapprovalroute-api
-- description: The identityGovernance.entitlementManagement API from Microsoft Graph — 390 operation(s) for identitygovernance.entitlementmanagement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.entitlementManagement API from Microsoft Graph — 390 operation(s) for identitygovernance.entitlementmanagement.
   name: Microsoft Graph identityGovernance.entitlementManagement API
   slug: microsoft-graph-identitygovernance-entitlementmanagement-api
-- description: The identityGovernance.identityGovernance API from Microsoft Graph — 1 operation(s) for identitygovernance.identitygovernance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.identityGovernance API from Microsoft Graph — 1 operation(s) for identitygovernance.identitygovernance.
   name: Microsoft Graph identityGovernance.identityGovernance API
   slug: microsoft-graph-identitygovernance-identitygovernance-api
-- description: The identityGovernance.lifecycleWorkflowsContainer API from Microsoft Graph — 285 operation(s) for identitygovernance.lifecycleworkflowscontainer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.lifecycleWorkflowsContainer API from Microsoft Graph — 285 operation(s) for identitygovernance.lifecycleworkflowscontainer.
   name: Microsoft Graph identityGovernance.lifecycleWorkflowsContainer API
   slug: microsoft-graph-identitygovernance-lifecycleworkflowscontainer-api
-- description: The identityGovernance.privilegedAccessRoot API from Microsoft Graph — 64 operation(s) for identitygovernance.privilegedaccessroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.privilegedAccessRoot API from Microsoft Graph — 64 operation(s) for identitygovernance.privilegedaccessroot.
   name: Microsoft Graph identityGovernance.privilegedAccessRoot API
   slug: microsoft-graph-identitygovernance-privilegedaccessroot-api
-- description: The identityGovernance.termsOfUseContainer API from Microsoft Graph — 23 operation(s) for identitygovernance.termsofusecontainer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityGovernance.termsOfUseContainer API from Microsoft Graph — 23 operation(s) for identitygovernance.termsofusecontainer.
   name: Microsoft Graph identityGovernance.termsOfUseContainer API
   slug: microsoft-graph-identitygovernance-termsofusecontainer-api
-- description: The identityProtection.identityProtectionRoot API from Microsoft Graph — 1 operation(s) for identityprotection.identityprotectionroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProtection.identityProtectionRoot API from Microsoft Graph — 1 operation(s) for identityprotection.identityprotectionroot.
   name: Microsoft Graph identityProtection.identityProtectionRoot API
   slug: microsoft-graph-identityprotection-identityprotectionroot-api
-- description: The identityProtection.riskDetection API from Microsoft Graph — 3 operation(s) for identityprotection.riskdetection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProtection.riskDetection API from Microsoft Graph — 3 operation(s) for identityprotection.riskdetection.
   name: Microsoft Graph identityProtection.riskDetection API
   slug: microsoft-graph-identityprotection-riskdetection-api
-- description: The identityProtection.riskyServicePrincipal API from Microsoft Graph — 8 operation(s) for identityprotection.riskyserviceprincipal.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProtection.riskyServicePrincipal API from Microsoft Graph — 8 operation(s) for identityprotection.riskyserviceprincipal.
   name: Microsoft Graph identityProtection.riskyServicePrincipal API
   slug: microsoft-graph-identityprotection-riskyserviceprincipal-api
-- description: The identityProtection.riskyUser API from Microsoft Graph — 9 operation(s) for identityprotection.riskyuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProtection.riskyUser API from Microsoft Graph — 9 operation(s) for identityprotection.riskyuser.
   name: Microsoft Graph identityProtection.riskyUser API
   slug: microsoft-graph-identityprotection-riskyuser-api
-- description: The identityProtection.servicePrincipalRiskDetection API from Microsoft Graph — 3 operation(s) for identityprotection.serviceprincipalriskdetection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProtection.servicePrincipalRiskDetection API from Microsoft Graph — 3 operation(s) for identityprotection.serviceprincipalriskdetection.
   name: Microsoft Graph identityProtection.servicePrincipalRiskDetection API
   slug: microsoft-graph-identityprotection-serviceprincipalriskdetection-api
-- description: The identityProviders.identityProvider API from Microsoft Graph — 3 operation(s) for identityproviders.identityprovider.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProviders.identityProvider API from Microsoft Graph — 3 operation(s) for identityproviders.identityprovider.
   name: Microsoft Graph identityProviders.identityProvider API
   slug: microsoft-graph-identityproviders-identityprovider-api
-- description: The identityProviders.identityProvider.Functions API from Microsoft Graph — 1 operation(s) for identityproviders.identityprovider.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The identityProviders.identityProvider.Functions API from Microsoft Graph — 1 operation(s) for identityproviders.identityprovider.functions.
   name: Microsoft Graph identityProviders.identityProvider.Functions API
   slug: microsoft-graph-identityproviders-identityprovider-functions-api
-- description: The informationProtection.bitlocker API from Microsoft Graph — 4 operation(s) for informationprotection.bitlocker.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The informationProtection.bitlocker API from Microsoft Graph — 4 operation(s) for informationprotection.bitlocker.
   name: Microsoft Graph informationProtection.bitlocker API
   slug: microsoft-graph-informationprotection-bitlocker-api
-- description: The informationProtection.informationProtection API from Microsoft Graph — 1 operation(s) for informationprotection.informationprotection.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The informationProtection.informationProtection API from Microsoft Graph — 1 operation(s) for informationprotection.informationprotection.
   name: Microsoft Graph informationProtection.informationProtection API
   slug: microsoft-graph-informationprotection-informationprotection-api
-- description: The informationProtection.threatAssessmentRequest API from Microsoft Graph — 6 operation(s) for informationprotection.threatassessmentrequest.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The informationProtection.threatAssessmentRequest API from Microsoft Graph — 6 operation(s) for informationprotection.threatassessmentrequest.
   name: Microsoft Graph informationProtection.threatAssessmentRequest API
   slug: microsoft-graph-informationprotection-threatassessmentrequest-api
-- description: Operations for managing Internet Explorer mode configurations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing Internet Explorer mode configurations
   name: Microsoft Graph Internet Explorer Mode API
   slug: microsoft-graph-internet-explorer-mode-api
-- description: The invitations.directoryObject API from Microsoft Graph — 3 operation(s) for invitations.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The invitations.directoryObject API from Microsoft Graph — 3 operation(s) for invitations.directoryobject.
   name: Microsoft Graph invitations.directoryObject API
   slug: microsoft-graph-invitations-directoryobject-api
-- description: The Invitations.invitation API from Microsoft Graph — 2 operation(s) for invitations.invitation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Invitations.invitation API from Microsoft Graph — 2 operation(s) for invitations.invitation.
   name: Microsoft Graph Invitations.invitation API
   slug: microsoft-graph-invitations-invitation-api
-- description: The Invitations.user API from Microsoft Graph — 4 operation(s) for invitations.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Invitations.user API from Microsoft Graph — 4 operation(s) for invitations.user.
   name: Microsoft Graph Invitations.user API
   slug: microsoft-graph-invitations-user-api
-- description: The me.agreementAcceptance API from Microsoft Graph — 3 operation(s) for me.agreementacceptance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.agreementAcceptance API from Microsoft Graph — 3 operation(s) for me.agreementacceptance.
   name: Microsoft Graph me.agreementAcceptance API
   slug: microsoft-graph-me-agreementacceptance-api
-- description: The me.appRoleAssignment API from Microsoft Graph — 3 operation(s) for me.approleassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.appRoleAssignment API from Microsoft Graph — 3 operation(s) for me.approleassignment.
   name: Microsoft Graph me.appRoleAssignment API
   slug: microsoft-graph-me-approleassignment-api
-- description: The Me.authentication API from Microsoft Graph — 40 operation(s) for me.authentication.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.authentication API from Microsoft Graph — 40 operation(s) for me.authentication.
   name: Microsoft Graph Me.authentication API
   slug: microsoft-graph-me-authentication-api
-- description: The Me.calendar API from Microsoft Graph — 64 operation(s) for me.calendar.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.calendar API from Microsoft Graph — 64 operation(s) for me.calendar.
   name: Microsoft Graph Me.calendar API
   slug: microsoft-graph-me-calendar-api
-- description: The me.calendarGroup API from Microsoft Graph — 36 operation(s) for me.calendargroup.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.calendarGroup API from Microsoft Graph — 36 operation(s) for me.calendargroup.
   name: Microsoft Graph me.calendarGroup API
   slug: microsoft-graph-me-calendargroup-api
-- description: The Me.chat API from Microsoft Graph — 58 operation(s) for me.chat.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.chat API from Microsoft Graph — 58 operation(s) for me.chat.
   name: Microsoft Graph Me.chat API
   slug: microsoft-graph-me-chat-api
-- description: The me.cloudClipboardRoot API from Microsoft Graph — 4 operation(s) for me.cloudclipboardroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.cloudClipboardRoot API from Microsoft Graph — 4 operation(s) for me.cloudclipboardroot.
   name: Microsoft Graph me.cloudClipboardRoot API
   slug: microsoft-graph-me-cloudclipboardroot-api
-- description: The me.cloudPC API from Microsoft Graph — 9 operation(s) for me.cloudpc.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.cloudPC API from Microsoft Graph — 9 operation(s) for me.cloudpc.
   name: Microsoft Graph me.cloudPC API
   slug: microsoft-graph-me-cloudpc-api
-- description: The Me.contact API from Microsoft Graph — 10 operation(s) for me.contact.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.contact API from Microsoft Graph — 10 operation(s) for me.contact.
   name: Microsoft Graph Me.contact API
   slug: microsoft-graph-me-contact-api
-- description: The me.contactFolder API from Microsoft Graph — 30 operation(s) for me.contactfolder.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.contactFolder API from Microsoft Graph — 30 operation(s) for me.contactfolder.
   name: Microsoft Graph me.contactFolder API
   slug: microsoft-graph-me-contactfolder-api
-- description: The me.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for me.devicemanagementtroubleshootingevent.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for me.devicemanagementtroubleshootingevent.
   name: Microsoft Graph me.deviceManagementTroubleshootingEvent API
   slug: microsoft-graph-me-devicemanagementtroubleshootingevent-api
-- description: The me.directoryObject API from Microsoft Graph — 80 operation(s) for me.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.directoryObject API from Microsoft Graph — 80 operation(s) for me.directoryobject.
   name: Microsoft Graph me.directoryObject API
   slug: microsoft-graph-me-directoryobject-api
-- description: The Me.drive API from Microsoft Graph — 4 operation(s) for me.drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.drive API from Microsoft Graph — 4 operation(s) for me.drive.
   name: Microsoft Graph Me.drive API
   slug: microsoft-graph-me-drive-api
-- description: The me.employeeExperienceUser API from Microsoft Graph — 15 operation(s) for me.employeeexperienceuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.employeeExperienceUser API from Microsoft Graph — 15 operation(s) for me.employeeexperienceuser.
   name: Microsoft Graph me.employeeExperienceUser API
   slug: microsoft-graph-me-employeeexperienceuser-api
-- description: The Me.event API from Microsoft Graph — 24 operation(s) for me.event.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.event API from Microsoft Graph — 24 operation(s) for me.event.
   name: Microsoft Graph Me.event API
   slug: microsoft-graph-me-event-api
-- description: The Me.extension API from Microsoft Graph — 3 operation(s) for me.extension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.extension API from Microsoft Graph — 3 operation(s) for me.extension.
   name: Microsoft Graph Me.extension API
   slug: microsoft-graph-me-extension-api
-- description: The me.inferenceClassification API from Microsoft Graph — 4 operation(s) for me.inferenceclassification.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.inferenceClassification API from Microsoft Graph — 4 operation(s) for me.inferenceclassification.
   name: Microsoft Graph me.inferenceClassification API
   slug: microsoft-graph-me-inferenceclassification-api
-- description: The me.itemInsights API from Microsoft Graph — 14 operation(s) for me.iteminsights.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.itemInsights API from Microsoft Graph — 14 operation(s) for me.iteminsights.
   name: Microsoft Graph me.itemInsights API
   slug: microsoft-graph-me-iteminsights-api
-- description: The me.licenseDetails API from Microsoft Graph — 4 operation(s) for me.licensedetails.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.licenseDetails API from Microsoft Graph — 4 operation(s) for me.licensedetails.
   name: Microsoft Graph me.licenseDetails API
   slug: microsoft-graph-me-licensedetails-api
-- description: The me.mailboxSettings API from Microsoft Graph — 1 operation(s) for me.mailboxsettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.mailboxSettings API from Microsoft Graph — 1 operation(s) for me.mailboxsettings.
   name: Microsoft Graph me.mailboxSettings API
   slug: microsoft-graph-me-mailboxsettings-api
-- description: The me.mailFolder API from Microsoft Graph — 64 operation(s) for me.mailfolder.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.mailFolder API from Microsoft Graph — 64 operation(s) for me.mailfolder.
   name: Microsoft Graph me.mailFolder API
   slug: microsoft-graph-me-mailfolder-api
-- description: The me.managedAppRegistration API from Microsoft Graph — 3 operation(s) for me.managedappregistration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.managedAppRegistration API from Microsoft Graph — 3 operation(s) for me.managedappregistration.
   name: Microsoft Graph me.managedAppRegistration API
   slug: microsoft-graph-me-managedappregistration-api
-- description: The me.managedDevice API from Microsoft Graph — 38 operation(s) for me.manageddevice.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.managedDevice API from Microsoft Graph — 38 operation(s) for me.manageddevice.
   name: Microsoft Graph me.managedDevice API
   slug: microsoft-graph-me-manageddevice-api
-- description: The Me.message API from Microsoft Graph — 22 operation(s) for me.message.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.message API from Microsoft Graph — 22 operation(s) for me.message.
   name: Microsoft Graph Me.message API
   slug: microsoft-graph-me-message-api
-- description: The me.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for me.oauth2permissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for me.oauth2permissiongrant.
   name: Microsoft Graph me.oAuth2PermissionGrant API
   slug: microsoft-graph-me-oauth2permissiongrant-api
-- description: The Me.onenote API from Microsoft Graph — 103 operation(s) for me.onenote.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.onenote API from Microsoft Graph — 103 operation(s) for me.onenote.
   name: Microsoft Graph Me.onenote API
   slug: microsoft-graph-me-onenote-api
-- description: The me.onlineMeeting API from Microsoft Graph — 27 operation(s) for me.onlinemeeting.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.onlineMeeting API from Microsoft Graph — 27 operation(s) for me.onlinemeeting.
   name: Microsoft Graph me.onlineMeeting API
   slug: microsoft-graph-me-onlinemeeting-api
-- description: The me.outlookUser API from Microsoft Graph — 7 operation(s) for me.outlookuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.outlookUser API from Microsoft Graph — 7 operation(s) for me.outlookuser.
   name: Microsoft Graph me.outlookUser API
   slug: microsoft-graph-me-outlookuser-api
-- description: The Me.person API from Microsoft Graph — 3 operation(s) for me.person.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.person API from Microsoft Graph — 3 operation(s) for me.person.
   name: Microsoft Graph Me.person API
   slug: microsoft-graph-me-person-api
-- description: The me.plannerUser API from Microsoft Graph — 29 operation(s) for me.planneruser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.plannerUser API from Microsoft Graph — 29 operation(s) for me.planneruser.
   name: Microsoft Graph me.plannerUser API
   slug: microsoft-graph-me-planneruser-api
-- description: The Me.presence API from Microsoft Graph — 6 operation(s) for me.presence.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.presence API from Microsoft Graph — 6 operation(s) for me.presence.
   name: Microsoft Graph Me.presence API
   slug: microsoft-graph-me-presence-api
-- description: The me.profilePhoto API from Microsoft Graph — 5 operation(s) for me.profilephoto.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.profilePhoto API from Microsoft Graph — 5 operation(s) for me.profilephoto.
   name: Microsoft Graph me.profilePhoto API
   slug: microsoft-graph-me-profilephoto-api
-- description: The me.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for me.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for me.resourcespecificpermissiongrant.
   name: Microsoft Graph me.resourceSpecificPermissionGrant API
   slug: microsoft-graph-me-resourcespecificpermissiongrant-api
-- description: The me.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for me.scopedrolemembership.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for me.scopedrolemembership.
   name: Microsoft Graph me.scopedRoleMembership API
   slug: microsoft-graph-me-scopedrolemembership-api
-- description: The me.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for me.serviceprovisioningerror.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for me.serviceprovisioningerror.
   name: Microsoft Graph me.serviceProvisioningError API
   slug: microsoft-graph-me-serviceprovisioningerror-api
-- description: The Me.site API from Microsoft Graph — 5 operation(s) for me.site.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.site API from Microsoft Graph — 5 operation(s) for me.site.
   name: Microsoft Graph Me.site API
   slug: microsoft-graph-me-site-api
-- description: The Me.team API from Microsoft Graph — 196 operation(s) for me.team.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.team API from Microsoft Graph — 196 operation(s) for me.team.
   name: Microsoft Graph Me.team API
   slug: microsoft-graph-me-team-api
-- description: The Me.todo API from Microsoft Graph — 30 operation(s) for me.todo.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.todo API from Microsoft Graph — 30 operation(s) for me.todo.
   name: Microsoft Graph Me.todo API
   slug: microsoft-graph-me-todo-api
-- description: The me.user.Actions API from Microsoft Graph — 17 operation(s) for me.user.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.user.Actions API from Microsoft Graph — 17 operation(s) for me.user.actions.
   name: Microsoft Graph me.user.Actions API
   slug: microsoft-graph-me-user-actions-api
-- description: The Me.user API from Microsoft Graph — 1 operation(s) for me.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me.user API from Microsoft Graph — 1 operation(s) for me.user.
   name: Microsoft Graph Me.user API
   slug: microsoft-graph-me-user-api
-- description: The me.user.Functions API from Microsoft Graph — 6 operation(s) for me.user.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.user.Functions API from Microsoft Graph — 6 operation(s) for me.user.functions.
   name: Microsoft Graph me.user.Functions API
   slug: microsoft-graph-me-user-functions-api
-- description: The me.userActivity API from Microsoft Graph — 8 operation(s) for me.useractivity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.userActivity API from Microsoft Graph — 8 operation(s) for me.useractivity.
   name: Microsoft Graph me.userActivity API
   slug: microsoft-graph-me-useractivity-api
-- description: The me.userDataSecurityAndGovernance API from Microsoft Graph — 20 operation(s) for me.userdatasecurityandgovernance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.userDataSecurityAndGovernance API from Microsoft Graph — 20 operation(s) for me.userdatasecurityandgovernance.
   name: Microsoft Graph me.userDataSecurityAndGovernance API
   slug: microsoft-graph-me-userdatasecurityandgovernance-api
-- description: The me.userSettings API from Microsoft Graph — 14 operation(s) for me.usersettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.userSettings API from Microsoft Graph — 14 operation(s) for me.usersettings.
   name: Microsoft Graph me.userSettings API
   slug: microsoft-graph-me-usersettings-api
-- description: The me.userSolutionRoot API from Microsoft Graph — 4 operation(s) for me.usersolutionroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.userSolutionRoot API from Microsoft Graph — 4 operation(s) for me.usersolutionroot.
   name: Microsoft Graph me.userSolutionRoot API
   slug: microsoft-graph-me-usersolutionroot-api
-- description: The me.userTeamwork API from Microsoft Graph — 12 operation(s) for me.userteamwork.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The me.userTeamwork API from Microsoft Graph — 12 operation(s) for me.userteamwork.
   name: Microsoft Graph me.userTeamwork API
   slug: microsoft-graph-me-userteamwork-api
-- description: Operations for managing Microsoft 365 Apps installation options
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing Microsoft 365 Apps installation options
   name: Microsoft Graph Microsoft 365 Apps API
   slug: microsoft-graph-microsoft-365-apps-api
-- description: The oauth2PermissionGrants.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for oauth2permissiongrants.oauth2permissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The oauth2PermissionGrants.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for oauth2permissiongrants.oauth2permissiongrant.
   name: Microsoft Graph oauth2PermissionGrants.oAuth2PermissionGrant API
   slug: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-api
-- description: The oauth2PermissionGrants.oAuth2PermissionGrant.Functions API from Microsoft Graph — 1 operation(s) for oauth2permissiongrants.oauth2permissiongrant.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The oauth2PermissionGrants.oAuth2PermissionGrant.Functions API from Microsoft Graph — 1 operation(s) for oauth2permissiongrants.oauth2permissiongrant.functions.
   name: Microsoft Graph oauth2PermissionGrants.oAuth2PermissionGrant.Functions API
   slug: microsoft-graph-oauth2permissiongrants-oauth2permissiongrant-functions-api
-- description: The organization.certificateBasedAuthConfiguration API from Microsoft Graph — 3 operation(s) for organization.certificatebasedauthconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The organization.certificateBasedAuthConfiguration API from Microsoft Graph — 3 operation(s) for organization.certificatebasedauthconfiguration.
   name: Microsoft Graph organization.certificateBasedAuthConfiguration API
   slug: microsoft-graph-organization-certificatebasedauthconfiguration-api
-- description: The Organization.extension API from Microsoft Graph — 3 operation(s) for organization.extension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Organization.extension API from Microsoft Graph — 3 operation(s) for organization.extension.
   name: Microsoft Graph Organization.extension API
   slug: microsoft-graph-organization-extension-api
-- description: The organization.organization.Actions API from Microsoft Graph — 9 operation(s) for organization.organization.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The organization.organization.Actions API from Microsoft Graph — 9 operation(s) for organization.organization.actions.
   name: Microsoft Graph organization.organization.Actions API
   slug: microsoft-graph-organization-organization-actions-api
-- description: The Organization.organization API from Microsoft Graph — 3 operation(s) for organization.organization.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Organization.organization API from Microsoft Graph — 3 operation(s) for organization.organization.
   name: Microsoft Graph Organization.organization API
   slug: microsoft-graph-organization-organization-api
-- description: The organization.organization.Functions API from Microsoft Graph — 1 operation(s) for organization.organization.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The organization.organization.Functions API from Microsoft Graph — 1 operation(s) for organization.organization.functions.
   name: Microsoft Graph organization.organization.Functions API
   slug: microsoft-graph-organization-organization-functions-api
-- description: The organization.organizationalBranding API from Microsoft Graph — 18 operation(s) for organization.organizationalbranding.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The organization.organizationalBranding API from Microsoft Graph — 18 operation(s) for organization.organizationalbranding.
   name: Microsoft Graph organization.organizationalBranding API
   slug: microsoft-graph-organization-organizationalbranding-api
-- description: The permissionGrants.resourceSpecificPermissionGrant.Actions API from Microsoft Graph — 8 operation(s) for permissiongrants.resourcespecificpermissiongrant.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The permissionGrants.resourceSpecificPermissionGrant.Actions API from Microsoft Graph — 8 operation(s) for permissiongrants.resourcespecificpermissiongrant.actions.
   name: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant.Actions API
   slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-actions-api
-- description: The permissionGrants.resourceSpecificPermissionGrant API from Microsoft Graph — 2 operation(s) for permissiongrants.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The permissionGrants.resourceSpecificPermissionGrant API from Microsoft Graph — 2 operation(s) for permissiongrants.resourcespecificpermissiongrant.
   name: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant API
   slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-api
-- description: The permissionGrants.resourceSpecificPermissionGrant.Functions API from Microsoft Graph — 1 operation(s) for permissiongrants.resourcespecificpermissiongrant.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The permissionGrants.resourceSpecificPermissionGrant.Functions API from Microsoft Graph — 1 operation(s) for permissiongrants.resourcespecificpermissiongrant.functions.
   name: Microsoft Graph permissionGrants.resourceSpecificPermissionGrant.Functions API
   slug: microsoft-graph-permissiongrants-resourcespecificpermissiongrant-functions-api
-- description: The places.buildingMap API from Microsoft Graph — 16 operation(s) for places.buildingmap.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The places.buildingMap API from Microsoft Graph — 16 operation(s) for places.buildingmap.
   name: Microsoft Graph places.buildingMap API
   slug: microsoft-graph-places-buildingmap-api
-- description: The places.checkInClaim API from Microsoft Graph — 24 operation(s) for places.checkinclaim.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The places.checkInClaim API from Microsoft Graph — 24 operation(s) for places.checkinclaim.
   name: Microsoft Graph places.checkInClaim API
   slug: microsoft-graph-places-checkinclaim-api
-- description: The Places.place API from Microsoft Graph — 24 operation(s) for places.place.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Places.place API from Microsoft Graph — 24 operation(s) for places.place.
   name: Microsoft Graph Places.place API
   slug: microsoft-graph-places-place-api
-- description: The places.place.Functions API from Microsoft Graph — 1 operation(s) for places.place.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The places.place.Functions API from Microsoft Graph — 1 operation(s) for places.place.functions.
   name: Microsoft Graph places.place.Functions API
   slug: microsoft-graph-places-place-functions-api
-- description: The Places.room API from Microsoft Graph — 6 operation(s) for places.room.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Places.room API from Microsoft Graph — 6 operation(s) for places.room.
   name: Microsoft Graph Places.room API
   slug: microsoft-graph-places-room-api
-- description: The Places.workspace API from Microsoft Graph — 6 operation(s) for places.workspace.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Places.workspace API from Microsoft Graph — 6 operation(s) for places.workspace.
   name: Microsoft Graph Places.workspace API
   slug: microsoft-graph-places-workspace-api
-- description: The Planner.planner API from Microsoft Graph — 1 operation(s) for planner.planner.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Planner.planner API from Microsoft Graph — 1 operation(s) for planner.planner.
   name: Microsoft Graph Planner.planner API
   slug: microsoft-graph-planner-planner-api
-- description: The planner.plannerBucket API from Microsoft Graph — 10 operation(s) for planner.plannerbucket.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The planner.plannerBucket API from Microsoft Graph — 10 operation(s) for planner.plannerbucket.
   name: Microsoft Graph planner.plannerBucket API
   slug: microsoft-graph-planner-plannerbucket-api
-- description: The planner.plannerPlan API from Microsoft Graph — 21 operation(s) for planner.plannerplan.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The planner.plannerPlan API from Microsoft Graph — 21 operation(s) for planner.plannerplan.
   name: Microsoft Graph planner.plannerPlan API
   slug: microsoft-graph-planner-plannerplan-api
-- description: The planner.plannerTask API from Microsoft Graph — 7 operation(s) for planner.plannertask.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The planner.plannerTask API from Microsoft Graph — 7 operation(s) for planner.plannertask.
   name: Microsoft Graph planner.plannerTask API
   slug: microsoft-graph-planner-plannertask-api
-- description: The policies.activityBasedTimeoutPolicy API from Microsoft Graph — 6 operation(s) for policies.activitybasedtimeoutpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.activityBasedTimeoutPolicy API from Microsoft Graph — 6 operation(s) for policies.activitybasedtimeoutpolicy.
   name: Microsoft Graph policies.activityBasedTimeoutPolicy API
   slug: microsoft-graph-policies-activitybasedtimeoutpolicy-api
-- description: The policies.adminConsentRequestPolicy API from Microsoft Graph — 1 operation(s) for policies.adminconsentrequestpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.adminConsentRequestPolicy API from Microsoft Graph — 1 operation(s) for policies.adminconsentrequestpolicy.
   name: Microsoft Graph policies.adminConsentRequestPolicy API
   slug: microsoft-graph-policies-adminconsentrequestpolicy-api
-- description: The policies.appManagementPolicy API from Microsoft Graph — 6 operation(s) for policies.appmanagementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.appManagementPolicy API from Microsoft Graph — 6 operation(s) for policies.appmanagementpolicy.
   name: Microsoft Graph policies.appManagementPolicy API
   slug: microsoft-graph-policies-appmanagementpolicy-api
-- description: The policies.authenticationFlowsPolicy API from Microsoft Graph — 1 operation(s) for policies.authenticationflowspolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.authenticationFlowsPolicy API from Microsoft Graph — 1 operation(s) for policies.authenticationflowspolicy.
   name: Microsoft Graph policies.authenticationFlowsPolicy API
   slug: microsoft-graph-policies-authenticationflowspolicy-api
-- description: The policies.authenticationMethodsPolicy API from Microsoft Graph — 4 operation(s) for policies.authenticationmethodspolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.authenticationMethodsPolicy API from Microsoft Graph — 4 operation(s) for policies.authenticationmethodspolicy.
   name: Microsoft Graph policies.authenticationMethodsPolicy API
   slug: microsoft-graph-policies-authenticationmethodspolicy-api
-- description: The policies.authenticationStrengthPolicy API from Microsoft Graph — 8 operation(s) for policies.authenticationstrengthpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.authenticationStrengthPolicy API from Microsoft Graph — 8 operation(s) for policies.authenticationstrengthpolicy.
   name: Microsoft Graph policies.authenticationStrengthPolicy API
   slug: microsoft-graph-policies-authenticationstrengthpolicy-api
-- description: The policies.authorizationPolicy API from Microsoft Graph — 1 operation(s) for policies.authorizationpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.authorizationPolicy API from Microsoft Graph — 1 operation(s) for policies.authorizationpolicy.
   name: Microsoft Graph policies.authorizationPolicy API
   slug: microsoft-graph-policies-authorizationpolicy-api
-- description: The policies.claimsMappingPolicy API from Microsoft Graph — 6 operation(s) for policies.claimsmappingpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.claimsMappingPolicy API from Microsoft Graph — 6 operation(s) for policies.claimsmappingpolicy.
   name: Microsoft Graph policies.claimsMappingPolicy API
   slug: microsoft-graph-policies-claimsmappingpolicy-api
-- description: The policies.conditionalAccessPolicy API from Microsoft Graph — 3 operation(s) for policies.conditionalaccesspolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.conditionalAccessPolicy API from Microsoft Graph — 3 operation(s) for policies.conditionalaccesspolicy.
   name: Microsoft Graph policies.conditionalAccessPolicy API
   slug: microsoft-graph-policies-conditionalaccesspolicy-api
-- description: The policies.crossTenantAccessPolicy API from Microsoft Graph — 10 operation(s) for policies.crosstenantaccesspolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.crossTenantAccessPolicy API from Microsoft Graph — 10 operation(s) for policies.crosstenantaccesspolicy.
   name: Microsoft Graph policies.crossTenantAccessPolicy API
   slug: microsoft-graph-policies-crosstenantaccesspolicy-api
-- description: The policies.deviceRegistrationPolicy API from Microsoft Graph — 1 operation(s) for policies.deviceregistrationpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.deviceRegistrationPolicy API from Microsoft Graph — 1 operation(s) for policies.deviceregistrationpolicy.
   name: Microsoft Graph policies.deviceRegistrationPolicy API
   slug: microsoft-graph-policies-deviceregistrationpolicy-api
-- description: The policies.featureRolloutPolicy API from Microsoft Graph — 7 operation(s) for policies.featurerolloutpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.featureRolloutPolicy API from Microsoft Graph — 7 operation(s) for policies.featurerolloutpolicy.
   name: Microsoft Graph policies.featureRolloutPolicy API
   slug: microsoft-graph-policies-featurerolloutpolicy-api
-- description: The policies.homeRealmDiscoveryPolicy API from Microsoft Graph — 6 operation(s) for policies.homerealmdiscoverypolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.homeRealmDiscoveryPolicy API from Microsoft Graph — 6 operation(s) for policies.homerealmdiscoverypolicy.
   name: Microsoft Graph policies.homeRealmDiscoveryPolicy API
   slug: microsoft-graph-policies-homerealmdiscoverypolicy-api
-- description: The policies.identitySecurityDefaultsEnforcementPolicy API from Microsoft Graph — 1 operation(s) for policies.identitysecuritydefaultsenforcementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.identitySecurityDefaultsEnforcementPolicy API from Microsoft Graph — 1 operation(s) for policies.identitysecuritydefaultsenforcementpolicy.
   name: Microsoft Graph policies.identitySecurityDefaultsEnforcementPolicy API
   slug: microsoft-graph-policies-identitysecuritydefaultsenforcementpolicy-api
-- description: The policies.permissionGrantPolicy API from Microsoft Graph — 9 operation(s) for policies.permissiongrantpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.permissionGrantPolicy API from Microsoft Graph — 9 operation(s) for policies.permissiongrantpolicy.
   name: Microsoft Graph policies.permissionGrantPolicy API
   slug: microsoft-graph-policies-permissiongrantpolicy-api
-- description: The policies.policyRoot API from Microsoft Graph — 1 operation(s) for policies.policyroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.policyRoot API from Microsoft Graph — 1 operation(s) for policies.policyroot.
   name: Microsoft Graph policies.policyRoot API
   slug: microsoft-graph-policies-policyroot-api
-- description: The policies.tenantAppManagementPolicy API from Microsoft Graph — 1 operation(s) for policies.tenantappmanagementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.tenantAppManagementPolicy API from Microsoft Graph — 1 operation(s) for policies.tenantappmanagementpolicy.
   name: Microsoft Graph policies.tenantAppManagementPolicy API
   slug: microsoft-graph-policies-tenantappmanagementpolicy-api
-- description: The policies.tokenIssuancePolicy API from Microsoft Graph — 6 operation(s) for policies.tokenissuancepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.tokenIssuancePolicy API from Microsoft Graph — 6 operation(s) for policies.tokenissuancepolicy.
   name: Microsoft Graph policies.tokenIssuancePolicy API
   slug: microsoft-graph-policies-tokenissuancepolicy-api
-- description: The policies.tokenLifetimePolicy API from Microsoft Graph — 6 operation(s) for policies.tokenlifetimepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.tokenLifetimePolicy API from Microsoft Graph — 6 operation(s) for policies.tokenlifetimepolicy.
   name: Microsoft Graph policies.tokenLifetimePolicy API
   slug: microsoft-graph-policies-tokenlifetimepolicy-api
-- description: The policies.unifiedRoleManagementPolicy API from Microsoft Graph — 9 operation(s) for policies.unifiedrolemanagementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.unifiedRoleManagementPolicy API from Microsoft Graph — 9 operation(s) for policies.unifiedrolemanagementpolicy.
   name: Microsoft Graph policies.unifiedRoleManagementPolicy API
   slug: microsoft-graph-policies-unifiedrolemanagementpolicy-api
-- description: The policies.unifiedRoleManagementPolicyAssignment API from Microsoft Graph — 4 operation(s) for policies.unifiedrolemanagementpolicyassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The policies.unifiedRoleManagementPolicyAssignment API from Microsoft Graph — 4 operation(s) for policies.unifiedrolemanagementpolicyassignment.
   name: Microsoft Graph policies.unifiedRoleManagementPolicyAssignment API
   slug: microsoft-graph-policies-unifiedrolemanagementpolicyassignment-api
-- description: The Print.print API from Microsoft Graph — 1 operation(s) for print.print.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Print.print API from Microsoft Graph — 1 operation(s) for print.print.
   name: Microsoft Graph Print.print API
   slug: microsoft-graph-print-print-api
-- description: The print.printConnector API from Microsoft Graph — 3 operation(s) for print.printconnector.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The print.printConnector API from Microsoft Graph — 3 operation(s) for print.printconnector.
   name: Microsoft Graph print.printConnector API
   slug: microsoft-graph-print-printconnector-api
-- description: The Print.printer API from Microsoft Graph — 32 operation(s) for print.printer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Print.printer API from Microsoft Graph — 32 operation(s) for print.printer.
   name: Microsoft Graph Print.printer API
   slug: microsoft-graph-print-printer-api
-- description: The print.printerShare API from Microsoft Graph — 34 operation(s) for print.printershare.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The print.printerShare API from Microsoft Graph — 34 operation(s) for print.printershare.
   name: Microsoft Graph print.printerShare API
   slug: microsoft-graph-print-printershare-api
-- description: The print.printOperation API from Microsoft Graph — 3 operation(s) for print.printoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The print.printOperation API from Microsoft Graph — 3 operation(s) for print.printoperation.
   name: Microsoft Graph print.printOperation API
   slug: microsoft-graph-print-printoperation-api
-- description: The print.printService API from Microsoft Graph — 6 operation(s) for print.printservice.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The print.printService API from Microsoft Graph — 6 operation(s) for print.printservice.
   name: Microsoft Graph print.printService API
   slug: microsoft-graph-print-printservice-api
-- description: The print.printTaskDefinition API from Microsoft Graph — 8 operation(s) for print.printtaskdefinition.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The print.printTaskDefinition API from Microsoft Graph — 8 operation(s) for print.printtaskdefinition.
   name: Microsoft Graph print.printTaskDefinition API
   slug: microsoft-graph-print-printtaskdefinition-api
-- description: The Privacy.privacy API from Microsoft Graph — 1 operation(s) for privacy.privacy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Privacy.privacy API from Microsoft Graph — 1 operation(s) for privacy.privacy.
   name: Microsoft Graph Privacy.privacy API
   slug: microsoft-graph-privacy-privacy-api
-- description: The privacy.subjectRightsRequest API from Microsoft Graph — 23 operation(s) for privacy.subjectrightsrequest.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The privacy.subjectRightsRequest API from Microsoft Graph — 23 operation(s) for privacy.subjectrightsrequest.
   name: Microsoft Graph privacy.subjectRightsRequest API
   slug: microsoft-graph-privacy-subjectrightsrequest-api
-- description: Operations for managing administrative report settings
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing administrative report settings
   name: Microsoft Graph Report Settings API
   slug: microsoft-graph-report-settings-api
-- description: The reports.authenticationMethodsRoot API from Microsoft Graph — 8 operation(s) for reports.authenticationmethodsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.authenticationMethodsRoot API from Microsoft Graph — 8 operation(s) for reports.authenticationmethodsroot.
   name: Microsoft Graph reports.authenticationMethodsRoot API
   slug: microsoft-graph-reports-authenticationmethodsroot-api
-- description: The Reports.partners API from Microsoft Graph — 18 operation(s) for reports.partners.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Reports.partners API from Microsoft Graph — 18 operation(s) for reports.partners.
   name: Microsoft Graph Reports.partners API
   slug: microsoft-graph-reports-partners-api
-- description: The reports.printUsageByPrinter API from Microsoft Graph — 6 operation(s) for reports.printusagebyprinter.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.printUsageByPrinter API from Microsoft Graph — 6 operation(s) for reports.printusagebyprinter.
   name: Microsoft Graph reports.printUsageByPrinter API
   slug: microsoft-graph-reports-printusagebyprinter-api
-- description: The reports.printUsageByUser API from Microsoft Graph — 6 operation(s) for reports.printusagebyuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.printUsageByUser API from Microsoft Graph — 6 operation(s) for reports.printusagebyuser.
   name: Microsoft Graph reports.printUsageByUser API
   slug: microsoft-graph-reports-printusagebyuser-api
-- description: The reports.reportRoot API from Microsoft Graph — 1 operation(s) for reports.reportroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.reportRoot API from Microsoft Graph — 1 operation(s) for reports.reportroot.
   name: Microsoft Graph reports.reportRoot API
   slug: microsoft-graph-reports-reportroot-api
-- description: The reports.reportRoot.Functions API from Microsoft Graph — 102 operation(s) for reports.reportroot.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.reportRoot.Functions API from Microsoft Graph — 102 operation(s) for reports.reportroot.functions.
   name: Microsoft Graph reports.reportRoot.Functions API
   slug: microsoft-graph-reports-reportroot-functions-api
-- description: The reports.securityReportsRoot API from Microsoft Graph — 4 operation(s) for reports.securityreportsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The reports.securityReportsRoot API from Microsoft Graph — 4 operation(s) for reports.securityreportsroot.
   name: Microsoft Graph reports.securityReportsRoot API
   slug: microsoft-graph-reports-securityreportsroot-api
-- description: The roleManagement.rbacApplication API from Microsoft Graph — 150 operation(s) for rolemanagement.rbacapplication.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The roleManagement.rbacApplication API from Microsoft Graph — 150 operation(s) for rolemanagement.rbacapplication.
   name: Microsoft Graph roleManagement.rbacApplication API
   slug: microsoft-graph-rolemanagement-rbacapplication-api
-- description: The roleManagement.roleManagement API from Microsoft Graph — 1 operation(s) for rolemanagement.rolemanagement.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The roleManagement.roleManagement API from Microsoft Graph — 1 operation(s) for rolemanagement.rolemanagement.
   name: Microsoft Graph roleManagement.roleManagement API
   slug: microsoft-graph-rolemanagement-rolemanagement-api
-- description: The schemaExtensions.schemaExtension API from Microsoft Graph — 3 operation(s) for schemaextensions.schemaextension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The schemaExtensions.schemaExtension API from Microsoft Graph — 3 operation(s) for schemaextensions.schemaextension.
   name: Microsoft Graph schemaExtensions.schemaExtension API
   slug: microsoft-graph-schemaextensions-schemaextension-api
-- description: The scopedRoleMemberships.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for scopedrolememberships.scopedrolemembership.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The scopedRoleMemberships.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for scopedrolememberships.scopedrolemembership.
   name: Microsoft Graph scopedRoleMemberships.scopedRoleMembership API
   slug: microsoft-graph-scopedrolememberships-scopedrolemembership-api
-- description: The Search.acronym API from Microsoft Graph — 3 operation(s) for search.acronym.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Search.acronym API from Microsoft Graph — 3 operation(s) for search.acronym.
   name: Microsoft Graph Search.acronym API
   slug: microsoft-graph-search-acronym-api
-- description: The Search.bookmark API from Microsoft Graph — 3 operation(s) for search.bookmark.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Search.bookmark API from Microsoft Graph — 3 operation(s) for search.bookmark.
   name: Microsoft Graph Search.bookmark API
   slug: microsoft-graph-search-bookmark-api
-- description: The Search.qna API from Microsoft Graph — 3 operation(s) for search.qna.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Search.qna API from Microsoft Graph — 3 operation(s) for search.qna.
   name: Microsoft Graph Search.qna API
   slug: microsoft-graph-search-qna-api
-- description: The search.searchEntity.Actions API from Microsoft Graph — 1 operation(s) for search.searchentity.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The search.searchEntity.Actions API from Microsoft Graph — 1 operation(s) for search.searchentity.actions.
   name: Microsoft Graph search.searchEntity.Actions API
   slug: microsoft-graph-search-searchentity-actions-api
-- description: The search.searchEntity API from Microsoft Graph — 1 operation(s) for search.searchentity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The search.searchEntity API from Microsoft Graph — 1 operation(s) for search.searchentity.
   name: Microsoft Graph search.searchEntity API
   slug: microsoft-graph-search-searchentity-api
-- description: The Security.alert API from Microsoft Graph — 8 operation(s) for security.alert.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Security.alert API from Microsoft Graph — 8 operation(s) for security.alert.
   name: Microsoft Graph Security.alert API
   slug: microsoft-graph-security-alert-api
-- description: The security.attackSimulationRoot API from Microsoft Graph — 40 operation(s) for security.attacksimulationroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.attackSimulationRoot API from Microsoft Graph — 40 operation(s) for security.attacksimulationroot.
   name: Microsoft Graph security.attackSimulationRoot API
   slug: microsoft-graph-security-attacksimulationroot-api
-- description: The security.casesRoot API from Microsoft Graph — 82 operation(s) for security.casesroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.casesRoot API from Microsoft Graph — 82 operation(s) for security.casesroot.
   name: Microsoft Graph security.casesRoot API
   slug: microsoft-graph-security-casesroot-api
-- description: The security.identityContainer API from Microsoft Graph — 22 operation(s) for security.identitycontainer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.identityContainer API from Microsoft Graph — 22 operation(s) for security.identitycontainer.
   name: Microsoft Graph security.identityContainer API
   slug: microsoft-graph-security-identitycontainer-api
-- description: The Security.incident API from Microsoft Graph — 8 operation(s) for security.incident.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Security.incident API from Microsoft Graph — 8 operation(s) for security.incident.
   name: Microsoft Graph Security.incident API
   slug: microsoft-graph-security-incident-api
-- description: The security.labelsRoot API from Microsoft Graph — 32 operation(s) for security.labelsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.labelsRoot API from Microsoft Graph — 32 operation(s) for security.labelsroot.
   name: Microsoft Graph security.labelsRoot API
   slug: microsoft-graph-security-labelsroot-api
-- description: The security.secureScore API from Microsoft Graph — 3 operation(s) for security.securescore.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.secureScore API from Microsoft Graph — 3 operation(s) for security.securescore.
   name: Microsoft Graph security.secureScore API
   slug: microsoft-graph-security-securescore-api
-- description: The security.secureScoreControlProfile API from Microsoft Graph — 3 operation(s) for security.securescorecontrolprofile.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.secureScoreControlProfile API from Microsoft Graph — 3 operation(s) for security.securescorecontrolprofile.
   name: Microsoft Graph security.secureScoreControlProfile API
   slug: microsoft-graph-security-securescorecontrolprofile-api
-- description: The security.security.Actions API from Microsoft Graph — 1 operation(s) for security.security.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.security.Actions API from Microsoft Graph — 1 operation(s) for security.security.actions.
   name: Microsoft Graph security.security.Actions API
   slug: microsoft-graph-security-security-actions-api
-- description: The Security.security API from Microsoft Graph — 1 operation(s) for security.security.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Security.security API from Microsoft Graph — 1 operation(s) for security.security.
   name: Microsoft Graph Security.security API
   slug: microsoft-graph-security-security-api
-- description: The security.subjectRightsRequest API from Microsoft Graph — 23 operation(s) for security.subjectrightsrequest.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.subjectRightsRequest API from Microsoft Graph — 23 operation(s) for security.subjectrightsrequest.
   name: Microsoft Graph security.subjectRightsRequest API
   slug: microsoft-graph-security-subjectrightsrequest-api
-- description: The security.tenantDataSecurityAndGovernance API from Microsoft Graph — 16 operation(s) for security.tenantdatasecurityandgovernance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.tenantDataSecurityAndGovernance API from Microsoft Graph — 16 operation(s) for security.tenantdatasecurityandgovernance.
   name: Microsoft Graph security.tenantDataSecurityAndGovernance API
   slug: microsoft-graph-security-tenantdatasecurityandgovernance-api
-- description: The security.threatIntelligence API from Microsoft Graph — 121 operation(s) for security.threatintelligence.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.threatIntelligence API from Microsoft Graph — 121 operation(s) for security.threatintelligence.
   name: Microsoft Graph security.threatIntelligence API
   slug: microsoft-graph-security-threatintelligence-api
-- description: The security.triggersRoot API from Microsoft Graph — 5 operation(s) for security.triggersroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.triggersRoot API from Microsoft Graph — 5 operation(s) for security.triggersroot.
   name: Microsoft Graph security.triggersRoot API
   slug: microsoft-graph-security-triggersroot-api
-- description: The security.triggerTypesRoot API from Microsoft Graph — 4 operation(s) for security.triggertypesroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The security.triggerTypesRoot API from Microsoft Graph — 4 operation(s) for security.triggertypesroot.
   name: Microsoft Graph security.triggerTypesRoot API
   slug: microsoft-graph-security-triggertypesroot-api
-- description: Operations for managing service health and messages
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing service health and messages
   name: Microsoft Graph Service Announcements API
   slug: microsoft-graph-service-announcements-api
-- description: The servicePrincipals.appManagementPolicy API from Microsoft Graph — 3 operation(s) for serviceprincipals.appmanagementpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.appManagementPolicy API from Microsoft Graph — 3 operation(s) for serviceprincipals.appmanagementpolicy.
   name: Microsoft Graph servicePrincipals.appManagementPolicy API
   slug: microsoft-graph-serviceprincipals-appmanagementpolicy-api
-- description: The servicePrincipals.appRoleAssignment API from Microsoft Graph — 6 operation(s) for serviceprincipals.approleassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.appRoleAssignment API from Microsoft Graph — 6 operation(s) for serviceprincipals.approleassignment.
   name: Microsoft Graph servicePrincipals.appRoleAssignment API
   slug: microsoft-graph-serviceprincipals-approleassignment-api
-- description: The servicePrincipals.claimsMappingPolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.claimsmappingpolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.claimsMappingPolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.claimsmappingpolicy.
   name: Microsoft Graph servicePrincipals.claimsMappingPolicy API
   slug: microsoft-graph-serviceprincipals-claimsmappingpolicy-api
-- description: The servicePrincipals.delegatedPermissionClassification API from Microsoft Graph — 3 operation(s) for serviceprincipals.delegatedpermissionclassification.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.delegatedPermissionClassification API from Microsoft Graph — 3 operation(s) for serviceprincipals.delegatedpermissionclassification.
   name: Microsoft Graph servicePrincipals.delegatedPermissionClassification API
   slug: microsoft-graph-serviceprincipals-delegatedpermissionclassification-api
-- description: The servicePrincipals.directoryObject API from Microsoft Graph — 64 operation(s) for serviceprincipals.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.directoryObject API from Microsoft Graph — 64 operation(s) for serviceprincipals.directoryobject.
   name: Microsoft Graph servicePrincipals.directoryObject API
   slug: microsoft-graph-serviceprincipals-directoryobject-api
-- description: The servicePrincipals.endpoint API from Microsoft Graph — 3 operation(s) for serviceprincipals.endpoint.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.endpoint API from Microsoft Graph — 3 operation(s) for serviceprincipals.endpoint.
   name: Microsoft Graph servicePrincipals.endpoint API
   slug: microsoft-graph-serviceprincipals-endpoint-api
-- description: The servicePrincipals.federatedIdentityCredential API from Microsoft Graph — 4 operation(s) for serviceprincipals.federatedidentitycredential.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.federatedIdentityCredential API from Microsoft Graph — 4 operation(s) for serviceprincipals.federatedidentitycredential.
   name: Microsoft Graph servicePrincipals.federatedIdentityCredential API
   slug: microsoft-graph-serviceprincipals-federatedidentitycredential-api
-- description: The servicePrincipals.homeRealmDiscoveryPolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.homerealmdiscoverypolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.homeRealmDiscoveryPolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.homerealmdiscoverypolicy.
   name: Microsoft Graph servicePrincipals.homeRealmDiscoveryPolicy API
   slug: microsoft-graph-serviceprincipals-homerealmdiscoverypolicy-api
-- description: The servicePrincipals.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for serviceprincipals.oauth2permissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for serviceprincipals.oauth2permissiongrant.
   name: Microsoft Graph servicePrincipals.oAuth2PermissionGrant API
   slug: microsoft-graph-serviceprincipals-oauth2permissiongrant-api
-- description: The servicePrincipals.remoteDesktopSecurityConfiguration API from Microsoft Graph — 4 operation(s) for serviceprincipals.remotedesktopsecurityconfiguration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.remoteDesktopSecurityConfiguration API from Microsoft Graph — 4 operation(s) for serviceprincipals.remotedesktopsecurityconfiguration.
   name: Microsoft Graph servicePrincipals.remoteDesktopSecurityConfiguration API
   slug: microsoft-graph-serviceprincipals-remotedesktopsecurityconfiguration-api
-- description: The servicePrincipals.servicePrincipal.Actions API from Microsoft Graph — 13 operation(s) for serviceprincipals.serviceprincipal.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.servicePrincipal.Actions API from Microsoft Graph — 13 operation(s) for serviceprincipals.serviceprincipal.actions.
   name: Microsoft Graph servicePrincipals.servicePrincipal.Actions API
   slug: microsoft-graph-serviceprincipals-serviceprincipal-actions-api
-- description: The servicePrincipals.servicePrincipal API from Microsoft Graph — 4 operation(s) for serviceprincipals.serviceprincipal.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.servicePrincipal API from Microsoft Graph — 4 operation(s) for serviceprincipals.serviceprincipal.
   name: Microsoft Graph servicePrincipals.servicePrincipal API
   slug: microsoft-graph-serviceprincipals-serviceprincipal-api
-- description: The servicePrincipals.servicePrincipal.Functions API from Microsoft Graph — 1 operation(s) for serviceprincipals.serviceprincipal.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.servicePrincipal.Functions API from Microsoft Graph — 1 operation(s) for serviceprincipals.serviceprincipal.functions.
   name: Microsoft Graph servicePrincipals.servicePrincipal.Functions API
   slug: microsoft-graph-serviceprincipals-serviceprincipal-functions-api
-- description: The servicePrincipals.synchronization API from Microsoft Graph — 34 operation(s) for serviceprincipals.synchronization.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.synchronization API from Microsoft Graph — 34 operation(s) for serviceprincipals.synchronization.
   name: Microsoft Graph servicePrincipals.synchronization API
   slug: microsoft-graph-serviceprincipals-synchronization-api
-- description: The servicePrincipals.tokenIssuancePolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.tokenissuancepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.tokenIssuancePolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.tokenissuancepolicy.
   name: Microsoft Graph servicePrincipals.tokenIssuancePolicy API
   slug: microsoft-graph-serviceprincipals-tokenissuancepolicy-api
-- description: The servicePrincipals.tokenLifetimePolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.tokenlifetimepolicy.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The servicePrincipals.tokenLifetimePolicy API from Microsoft Graph — 4 operation(s) for serviceprincipals.tokenlifetimepolicy.
   name: Microsoft Graph servicePrincipals.tokenLifetimePolicy API
   slug: microsoft-graph-serviceprincipals-tokenlifetimepolicy-api
-- description: Operations for managing SharePoint settings
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing SharePoint settings
   name: Microsoft Graph SharePoint API
   slug: microsoft-graph-sharepoint-api
-- description: The shares.driveItem API from Microsoft Graph — 8 operation(s) for shares.driveitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The shares.driveItem API from Microsoft Graph — 8 operation(s) for shares.driveitem.
   name: Microsoft Graph shares.driveItem API
   slug: microsoft-graph-shares-driveitem-api
-- description: The Shares.list API from Microsoft Graph — 75 operation(s) for shares.list.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Shares.list API from Microsoft Graph — 75 operation(s) for shares.list.
   name: Microsoft Graph Shares.list API
   slug: microsoft-graph-shares-list-api
-- description: The shares.listItem API from Microsoft Graph — 1 operation(s) for shares.listitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The shares.listItem API from Microsoft Graph — 1 operation(s) for shares.listitem.
   name: Microsoft Graph shares.listItem API
   slug: microsoft-graph-shares-listitem-api
-- description: The Shares.permission API from Microsoft Graph — 2 operation(s) for shares.permission.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Shares.permission API from Microsoft Graph — 2 operation(s) for shares.permission.
   name: Microsoft Graph Shares.permission API
   slug: microsoft-graph-shares-permission-api
-- description: The shares.sharedDriveItem API from Microsoft Graph — 3 operation(s) for shares.shareddriveitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The shares.sharedDriveItem API from Microsoft Graph — 3 operation(s) for shares.shareddriveitem.
   name: Microsoft Graph shares.sharedDriveItem API
   slug: microsoft-graph-shares-shareddriveitem-api
-- description: The Shares.site API from Microsoft Graph — 1 operation(s) for shares.site.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Shares.site API from Microsoft Graph — 1 operation(s) for shares.site.
   name: Microsoft Graph Shares.site API
   slug: microsoft-graph-shares-site-api
-- description: The Shares.user API from Microsoft Graph — 8 operation(s) for shares.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Shares.user API from Microsoft Graph — 8 operation(s) for shares.user.
   name: Microsoft Graph Shares.user API
   slug: microsoft-graph-shares-user-api
-- description: The sites.baseItem API from Microsoft Graph — 4 operation(s) for sites.baseitem.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.baseItem API from Microsoft Graph — 4 operation(s) for sites.baseitem.
   name: Microsoft Graph sites.baseItem API
   slug: microsoft-graph-sites-baseitem-api
-- description: The sites.baseSitePage API from Microsoft Graph — 43 operation(s) for sites.basesitepage.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.baseSitePage API from Microsoft Graph — 43 operation(s) for sites.basesitepage.
   name: Microsoft Graph sites.baseSitePage API
   slug: microsoft-graph-sites-basesitepage-api
-- description: The sites.columnDefinition API from Microsoft Graph — 9 operation(s) for sites.columndefinition.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.columnDefinition API from Microsoft Graph — 9 operation(s) for sites.columndefinition.
   name: Microsoft Graph sites.columnDefinition API
   slug: microsoft-graph-sites-columndefinition-api
-- description: The sites.contentType API from Microsoft Graph — 26 operation(s) for sites.contenttype.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.contentType API from Microsoft Graph — 26 operation(s) for sites.contenttype.
   name: Microsoft Graph sites.contentType API
   slug: microsoft-graph-sites-contenttype-api
-- description: The Sites.drive API from Microsoft Graph — 6 operation(s) for sites.drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.drive API from Microsoft Graph — 6 operation(s) for sites.drive.
   name: Microsoft Graph Sites.drive API
   slug: microsoft-graph-sites-drive-api
-- description: The sites.itemAnalytics API from Microsoft Graph — 12 operation(s) for sites.itemanalytics.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.itemAnalytics API from Microsoft Graph — 12 operation(s) for sites.itemanalytics.
   name: Microsoft Graph sites.itemAnalytics API
   slug: microsoft-graph-sites-itemanalytics-api
-- description: The Sites.list API from Microsoft Graph — 78 operation(s) for sites.list.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.list API from Microsoft Graph — 78 operation(s) for sites.list.
   name: Microsoft Graph Sites.list API
   slug: microsoft-graph-sites-list-api
-- description: The Sites.onenote API from Microsoft Graph — 104 operation(s) for sites.onenote.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.onenote API from Microsoft Graph — 104 operation(s) for sites.onenote.
   name: Microsoft Graph Sites.onenote API
   slug: microsoft-graph-sites-onenote-api
-- description: The Sites.permission API from Microsoft Graph — 5 operation(s) for sites.permission.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.permission API from Microsoft Graph — 5 operation(s) for sites.permission.
   name: Microsoft Graph Sites.permission API
   slug: microsoft-graph-sites-permission-api
-- description: The sites.richLongRunningOperation API from Microsoft Graph — 4 operation(s) for sites.richlongrunningoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.richLongRunningOperation API from Microsoft Graph — 4 operation(s) for sites.richlongrunningoperation.
   name: Microsoft Graph sites.richLongRunningOperation API
   slug: microsoft-graph-sites-richlongrunningoperation-api
-- description: The sites.site.Actions API from Microsoft Graph — 2 operation(s) for sites.site.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.site.Actions API from Microsoft Graph — 2 operation(s) for sites.site.actions.
   name: Microsoft Graph sites.site.Actions API
   slug: microsoft-graph-sites-site-actions-api
-- description: The Sites.site API from Microsoft Graph — 7 operation(s) for sites.site.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.site API from Microsoft Graph — 7 operation(s) for sites.site.
   name: Microsoft Graph Sites.site API
   slug: microsoft-graph-sites-site-api
-- description: The sites.site.Functions API from Microsoft Graph — 9 operation(s) for sites.site.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The sites.site.Functions API from Microsoft Graph — 9 operation(s) for sites.site.functions.
   name: Microsoft Graph sites.site.Functions API
   slug: microsoft-graph-sites-site-functions-api
-- description: The Sites.store API from Microsoft Graph — 310 operation(s) for sites.store.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.store API from Microsoft Graph — 310 operation(s) for sites.store.
   name: Microsoft Graph Sites.store API
   slug: microsoft-graph-sites-store-api
-- description: The Sites.user API from Microsoft Graph — 10 operation(s) for sites.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Sites.user API from Microsoft Graph — 10 operation(s) for sites.user.
   name: Microsoft Graph Sites.user API
   slug: microsoft-graph-sites-user-api
-- description: The solutions.backupRestoreRoot API from Microsoft Graph — 132 operation(s) for solutions.backuprestoreroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The solutions.backupRestoreRoot API from Microsoft Graph — 132 operation(s) for solutions.backuprestoreroot.
   name: Microsoft Graph solutions.backupRestoreRoot API
   slug: microsoft-graph-solutions-backuprestoreroot-api
-- description: The solutions.bookingBusiness API from Microsoft Graph — 26 operation(s) for solutions.bookingbusiness.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The solutions.bookingBusiness API from Microsoft Graph — 26 operation(s) for solutions.bookingbusiness.
   name: Microsoft Graph solutions.bookingBusiness API
   slug: microsoft-graph-solutions-bookingbusiness-api
-- description: The solutions.bookingCurrency API from Microsoft Graph — 3 operation(s) for solutions.bookingcurrency.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The solutions.bookingCurrency API from Microsoft Graph — 3 operation(s) for solutions.bookingcurrency.
   name: Microsoft Graph solutions.bookingCurrency API
   slug: microsoft-graph-solutions-bookingcurrency-api
-- description: The solutions.solutionsRoot API from Microsoft Graph — 1 operation(s) for solutions.solutionsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The solutions.solutionsRoot API from Microsoft Graph — 1 operation(s) for solutions.solutionsroot.
   name: Microsoft Graph solutions.solutionsRoot API
   slug: microsoft-graph-solutions-solutionsroot-api
-- description: The solutions.virtualEventsRoot API from Microsoft Graph — 68 operation(s) for solutions.virtualeventsroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The solutions.virtualEventsRoot API from Microsoft Graph — 68 operation(s) for solutions.virtualeventsroot.
   name: Microsoft Graph solutions.virtualEventsRoot API
   slug: microsoft-graph-solutions-virtualeventsroot-api
-- description: The storage.fileStorage API from Microsoft Graph — 89 operation(s) for storage.filestorage.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The storage.fileStorage API from Microsoft Graph — 89 operation(s) for storage.filestorage.
   name: Microsoft Graph storage.fileStorage API
   slug: microsoft-graph-storage-filestorage-api
-- description: The Storage.storage API from Microsoft Graph — 1 operation(s) for storage.storage.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Storage.storage API from Microsoft Graph — 1 operation(s) for storage.storage.
   name: Microsoft Graph Storage.storage API
   slug: microsoft-graph-storage-storage-api
-- description: The storage.storageSettings API from Microsoft Graph — 5 operation(s) for storage.storagesettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The storage.storageSettings API from Microsoft Graph — 5 operation(s) for storage.storagesettings.
   name: Microsoft Graph storage.storageSettings API
   slug: microsoft-graph-storage-storagesettings-api
-- description: The subscribedSkus.subscribedSku API from Microsoft Graph — 2 operation(s) for subscribedskus.subscribedsku.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The subscribedSkus.subscribedSku API from Microsoft Graph — 2 operation(s) for subscribedskus.subscribedsku.
   name: Microsoft Graph subscribedSkus.subscribedSku API
   slug: microsoft-graph-subscribedskus-subscribedsku-api
-- description: The subscriptions.subscription.Actions API from Microsoft Graph — 1 operation(s) for subscriptions.subscription.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The subscriptions.subscription.Actions API from Microsoft Graph — 1 operation(s) for subscriptions.subscription.actions.
   name: Microsoft Graph subscriptions.subscription.Actions API
   slug: microsoft-graph-subscriptions-subscription-actions-api
-- description: The Subscriptions.subscription API from Microsoft Graph — 2 operation(s) for subscriptions.subscription.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Subscriptions.subscription API from Microsoft Graph — 2 operation(s) for subscriptions.subscription.
   name: Microsoft Graph Subscriptions.subscription API
   slug: microsoft-graph-subscriptions-subscription-api
-- description: The Teams.channel API from Microsoft Graph — 118 operation(s) for teams.channel.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams.channel API from Microsoft Graph — 118 operation(s) for teams.channel.
   name: Microsoft Graph Teams.channel API
   slug: microsoft-graph-teams-channel-api
-- description: The teams.conversationMember API from Microsoft Graph — 5 operation(s) for teams.conversationmember.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.conversationMember API from Microsoft Graph — 5 operation(s) for teams.conversationmember.
   name: Microsoft Graph teams.conversationMember API
   slug: microsoft-graph-teams-conversationmember-api
-- description: The Teams.group API from Microsoft Graph — 3 operation(s) for teams.group.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams.group API from Microsoft Graph — 3 operation(s) for teams.group.
   name: Microsoft Graph Teams.group API
   slug: microsoft-graph-teams-group-api
-- description: The teams.profilePhoto API from Microsoft Graph — 2 operation(s) for teams.profilephoto.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.profilePhoto API from Microsoft Graph — 2 operation(s) for teams.profilephoto.
   name: Microsoft Graph teams.profilePhoto API
   slug: microsoft-graph-teams-profilephoto-api
-- description: The teams.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for teams.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for teams.resourcespecificpermissiongrant.
   name: Microsoft Graph teams.resourceSpecificPermissionGrant API
   slug: microsoft-graph-teams-resourcespecificpermissiongrant-api
-- description: The Teams.schedule API from Microsoft Graph — 40 operation(s) for teams.schedule.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams.schedule API from Microsoft Graph — 40 operation(s) for teams.schedule.
   name: Microsoft Graph Teams.schedule API
   slug: microsoft-graph-teams-schedule-api
-- description: The teams.team.Actions API from Microsoft Graph — 5 operation(s) for teams.team.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.team.Actions API from Microsoft Graph — 5 operation(s) for teams.team.actions.
   name: Microsoft Graph teams.team.Actions API
   slug: microsoft-graph-teams-team-actions-api
-- description: The Teams.team API from Microsoft Graph — 3 operation(s) for teams.team.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams.team API from Microsoft Graph — 3 operation(s) for teams.team.
   name: Microsoft Graph Teams.team API
   slug: microsoft-graph-teams-team-api
-- description: The teams.team.Functions API from Microsoft Graph — 1 operation(s) for teams.team.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.team.Functions API from Microsoft Graph — 1 operation(s) for teams.team.functions.
   name: Microsoft Graph teams.team.Functions API
   slug: microsoft-graph-teams-team-functions-api
-- description: The teams.teamsAppInstallation API from Microsoft Graph — 6 operation(s) for teams.teamsappinstallation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.teamsAppInstallation API from Microsoft Graph — 6 operation(s) for teams.teamsappinstallation.
   name: Microsoft Graph teams.teamsAppInstallation API
   slug: microsoft-graph-teams-teamsappinstallation-api
-- description: The teams.teamsAsyncOperation API from Microsoft Graph — 3 operation(s) for teams.teamsasyncoperation.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.teamsAsyncOperation API from Microsoft Graph — 3 operation(s) for teams.teamsasyncoperation.
   name: Microsoft Graph teams.teamsAsyncOperation API
   slug: microsoft-graph-teams-teamsasyncoperation-api
-- description: The teams.teamsTemplate API from Microsoft Graph — 1 operation(s) for teams.teamstemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.teamsTemplate API from Microsoft Graph — 1 operation(s) for teams.teamstemplate.
   name: Microsoft Graph teams.teamsTemplate API
   slug: microsoft-graph-teams-teamstemplate-api
-- description: The teams.teamworkTag API from Microsoft Graph — 6 operation(s) for teams.teamworktag.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teams.teamworkTag API from Microsoft Graph — 6 operation(s) for teams.teamworktag.
   name: Microsoft Graph teams.teamworkTag API
   slug: microsoft-graph-teams-teamworktag-api
-- description: The teamsTemplates.teamsTemplate API from Microsoft Graph — 3 operation(s) for teamstemplates.teamstemplate.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamsTemplates.teamsTemplate API from Microsoft Graph — 3 operation(s) for teamstemplates.teamstemplate.
   name: Microsoft Graph teamsTemplates.teamsTemplate API
   slug: microsoft-graph-teamstemplates-teamstemplate-api
-- description: The teamwork.deletedChat API from Microsoft Graph — 4 operation(s) for teamwork.deletedchat.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamwork.deletedChat API from Microsoft Graph — 4 operation(s) for teamwork.deletedchat.
   name: Microsoft Graph teamwork.deletedChat API
   slug: microsoft-graph-teamwork-deletedchat-api
-- description: The teamwork.deletedTeam API from Microsoft Graph — 62 operation(s) for teamwork.deletedteam.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamwork.deletedTeam API from Microsoft Graph — 62 operation(s) for teamwork.deletedteam.
   name: Microsoft Graph teamwork.deletedTeam API
   slug: microsoft-graph-teamwork-deletedteam-api
-- description: The teamwork.teamsAppSettings API from Microsoft Graph — 1 operation(s) for teamwork.teamsappsettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamwork.teamsAppSettings API from Microsoft Graph — 1 operation(s) for teamwork.teamsappsettings.
   name: Microsoft Graph teamwork.teamsAppSettings API
   slug: microsoft-graph-teamwork-teamsappsettings-api
-- description: The teamwork.teamwork.Actions API from Microsoft Graph — 1 operation(s) for teamwork.teamwork.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamwork.teamwork.Actions API from Microsoft Graph — 1 operation(s) for teamwork.teamwork.actions.
   name: Microsoft Graph teamwork.teamwork.Actions API
   slug: microsoft-graph-teamwork-teamwork-actions-api
-- description: The Teamwork.teamwork API from Microsoft Graph — 1 operation(s) for teamwork.teamwork.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teamwork.teamwork API from Microsoft Graph — 1 operation(s) for teamwork.teamwork.
   name: Microsoft Graph Teamwork.teamwork API
   slug: microsoft-graph-teamwork-teamwork-api
-- description: The teamwork.workforceIntegration API from Microsoft Graph — 3 operation(s) for teamwork.workforceintegration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The teamwork.workforceIntegration API from Microsoft Graph — 3 operation(s) for teamwork.workforceintegration.
   name: Microsoft Graph teamwork.workforceIntegration API
   slug: microsoft-graph-teamwork-workforceintegration-api
-- description: The tenantRelationships.delegatedAdminCustomer API from Microsoft Graph — 6 operation(s) for tenantrelationships.delegatedadmincustomer.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The tenantRelationships.delegatedAdminCustomer API from Microsoft Graph — 6 operation(s) for tenantrelationships.delegatedadmincustomer.
   name: Microsoft Graph tenantRelationships.delegatedAdminCustomer API
   slug: microsoft-graph-tenantrelationships-delegatedadmincustomer-api
-- description: The tenantRelationships.delegatedAdminRelationship API from Microsoft Graph — 12 operation(s) for tenantrelationships.delegatedadminrelationship.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The tenantRelationships.delegatedAdminRelationship API from Microsoft Graph — 12 operation(s) for tenantrelationships.delegatedadminrelationship.
   name: Microsoft Graph tenantRelationships.delegatedAdminRelationship API
   slug: microsoft-graph-tenantrelationships-delegatedadminrelationship-api
-- description: The tenantRelationships.multiTenantOrganization API from Microsoft Graph — 5 operation(s) for tenantrelationships.multitenantorganization.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The tenantRelationships.multiTenantOrganization API from Microsoft Graph — 5 operation(s) for tenantrelationships.multitenantorganization.
   name: Microsoft Graph tenantRelationships.multiTenantOrganization API
   slug: microsoft-graph-tenantrelationships-multitenantorganization-api
-- description: The tenantRelationships.tenantRelationship API from Microsoft Graph — 1 operation(s) for tenantrelationships.tenantrelationship.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The tenantRelationships.tenantRelationship API from Microsoft Graph — 1 operation(s) for tenantrelationships.tenantrelationship.
   name: Microsoft Graph tenantRelationships.tenantRelationship API
   slug: microsoft-graph-tenantrelationships-tenantrelationship-api
-- description: The tenantRelationships.tenantRelationship.Functions API from Microsoft Graph — 2 operation(s) for tenantrelationships.tenantrelationship.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The tenantRelationships.tenantRelationship.Functions API from Microsoft Graph — 2 operation(s) for tenantrelationships.tenantrelationship.functions.
   name: Microsoft Graph tenantRelationships.tenantRelationship.Functions API
   slug: microsoft-graph-tenantrelationships-tenantrelationship-functions-api
-- description: Operations for managing agreement acceptances for specific users
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing agreement acceptances for specific users
   name: Microsoft Graph User Acceptances API
   slug: microsoft-graph-user-acceptances-api
-- description: The users.agreementAcceptance API from Microsoft Graph — 3 operation(s) for users.agreementacceptance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.agreementAcceptance API from Microsoft Graph — 3 operation(s) for users.agreementacceptance.
   name: Microsoft Graph users.agreementAcceptance API
   slug: microsoft-graph-users-agreementacceptance-api
-- description: The users.appRoleAssignment API from Microsoft Graph — 3 operation(s) for users.approleassignment.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.appRoleAssignment API from Microsoft Graph — 3 operation(s) for users.approleassignment.
   name: Microsoft Graph users.appRoleAssignment API
   slug: microsoft-graph-users-approleassignment-api
-- description: The Users.authentication API from Microsoft Graph — 40 operation(s) for users.authentication.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.authentication API from Microsoft Graph — 40 operation(s) for users.authentication.
   name: Microsoft Graph Users.authentication API
   slug: microsoft-graph-users-authentication-api
-- description: The Users.calendar API from Microsoft Graph — 64 operation(s) for users.calendar.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.calendar API from Microsoft Graph — 64 operation(s) for users.calendar.
   name: Microsoft Graph Users.calendar API
   slug: microsoft-graph-users-calendar-api
-- description: The users.calendarGroup API from Microsoft Graph — 36 operation(s) for users.calendargroup.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.calendarGroup API from Microsoft Graph — 36 operation(s) for users.calendargroup.
   name: Microsoft Graph users.calendarGroup API
   slug: microsoft-graph-users-calendargroup-api
-- description: The Users.chat API from Microsoft Graph — 58 operation(s) for users.chat.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.chat API from Microsoft Graph — 58 operation(s) for users.chat.
   name: Microsoft Graph Users.chat API
   slug: microsoft-graph-users-chat-api
-- description: The users.cloudClipboardRoot API from Microsoft Graph — 4 operation(s) for users.cloudclipboardroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.cloudClipboardRoot API from Microsoft Graph — 4 operation(s) for users.cloudclipboardroot.
   name: Microsoft Graph users.cloudClipboardRoot API
   slug: microsoft-graph-users-cloudclipboardroot-api
-- description: The users.cloudPC API from Microsoft Graph — 9 operation(s) for users.cloudpc.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.cloudPC API from Microsoft Graph — 9 operation(s) for users.cloudpc.
   name: Microsoft Graph users.cloudPC API
   slug: microsoft-graph-users-cloudpc-api
-- description: The Users.contact API from Microsoft Graph — 10 operation(s) for users.contact.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.contact API from Microsoft Graph — 10 operation(s) for users.contact.
   name: Microsoft Graph Users.contact API
   slug: microsoft-graph-users-contact-api
-- description: The users.contactFolder API from Microsoft Graph — 30 operation(s) for users.contactfolder.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.contactFolder API from Microsoft Graph — 30 operation(s) for users.contactfolder.
   name: Microsoft Graph users.contactFolder API
   slug: microsoft-graph-users-contactfolder-api
-- description: The users.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for users.devicemanagementtroubleshootingevent.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.deviceManagementTroubleshootingEvent API from Microsoft Graph — 3 operation(s) for users.devicemanagementtroubleshootingevent.
   name: Microsoft Graph users.deviceManagementTroubleshootingEvent API
   slug: microsoft-graph-users-devicemanagementtroubleshootingevent-api
-- description: The users.directoryObject API from Microsoft Graph — 80 operation(s) for users.directoryobject.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.directoryObject API from Microsoft Graph — 80 operation(s) for users.directoryobject.
   name: Microsoft Graph users.directoryObject API
   slug: microsoft-graph-users-directoryobject-api
-- description: The Users.drive API from Microsoft Graph — 4 operation(s) for users.drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.drive API from Microsoft Graph — 4 operation(s) for users.drive.
   name: Microsoft Graph Users.drive API
   slug: microsoft-graph-users-drive-api
-- description: The users.employeeExperienceUser API from Microsoft Graph — 15 operation(s) for users.employeeexperienceuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.employeeExperienceUser API from Microsoft Graph — 15 operation(s) for users.employeeexperienceuser.
   name: Microsoft Graph users.employeeExperienceUser API
   slug: microsoft-graph-users-employeeexperienceuser-api
-- description: The Users.event API from Microsoft Graph — 24 operation(s) for users.event.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.event API from Microsoft Graph — 24 operation(s) for users.event.
   name: Microsoft Graph Users.event API
   slug: microsoft-graph-users-event-api
-- description: The Users.extension API from Microsoft Graph — 3 operation(s) for users.extension.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.extension API from Microsoft Graph — 3 operation(s) for users.extension.
   name: Microsoft Graph Users.extension API
   slug: microsoft-graph-users-extension-api
-- description: The users.inferenceClassification API from Microsoft Graph — 4 operation(s) for users.inferenceclassification.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.inferenceClassification API from Microsoft Graph — 4 operation(s) for users.inferenceclassification.
   name: Microsoft Graph users.inferenceClassification API
   slug: microsoft-graph-users-inferenceclassification-api
-- description: The users.itemInsights API from Microsoft Graph — 14 operation(s) for users.iteminsights.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.itemInsights API from Microsoft Graph — 14 operation(s) for users.iteminsights.
   name: Microsoft Graph users.itemInsights API
   slug: microsoft-graph-users-iteminsights-api
-- description: The users.licenseDetails API from Microsoft Graph — 4 operation(s) for users.licensedetails.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.licenseDetails API from Microsoft Graph — 4 operation(s) for users.licensedetails.
   name: Microsoft Graph users.licenseDetails API
   slug: microsoft-graph-users-licensedetails-api
-- description: The users.mailboxSettings API from Microsoft Graph — 1 operation(s) for users.mailboxsettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.mailboxSettings API from Microsoft Graph — 1 operation(s) for users.mailboxsettings.
   name: Microsoft Graph users.mailboxSettings API
   slug: microsoft-graph-users-mailboxsettings-api
-- description: The users.mailFolder API from Microsoft Graph — 64 operation(s) for users.mailfolder.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.mailFolder API from Microsoft Graph — 64 operation(s) for users.mailfolder.
   name: Microsoft Graph users.mailFolder API
   slug: microsoft-graph-users-mailfolder-api
-- description: The users.managedAppRegistration API from Microsoft Graph — 3 operation(s) for users.managedappregistration.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.managedAppRegistration API from Microsoft Graph — 3 operation(s) for users.managedappregistration.
   name: Microsoft Graph users.managedAppRegistration API
   slug: microsoft-graph-users-managedappregistration-api
-- description: The users.managedDevice API from Microsoft Graph — 38 operation(s) for users.manageddevice.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.managedDevice API from Microsoft Graph — 38 operation(s) for users.manageddevice.
   name: Microsoft Graph users.managedDevice API
   slug: microsoft-graph-users-manageddevice-api
-- description: The Users.message API from Microsoft Graph — 22 operation(s) for users.message.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.message API from Microsoft Graph — 22 operation(s) for users.message.
   name: Microsoft Graph Users.message API
   slug: microsoft-graph-users-message-api
-- description: The users.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for users.oauth2permissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.oAuth2PermissionGrant API from Microsoft Graph — 3 operation(s) for users.oauth2permissiongrant.
   name: Microsoft Graph users.oAuth2PermissionGrant API
   slug: microsoft-graph-users-oauth2permissiongrant-api
-- description: The Users.onenote API from Microsoft Graph — 103 operation(s) for users.onenote.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.onenote API from Microsoft Graph — 103 operation(s) for users.onenote.
   name: Microsoft Graph Users.onenote API
   slug: microsoft-graph-users-onenote-api
-- description: The users.onlineMeeting API from Microsoft Graph — 27 operation(s) for users.onlinemeeting.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.onlineMeeting API from Microsoft Graph — 27 operation(s) for users.onlinemeeting.
   name: Microsoft Graph users.onlineMeeting API
   slug: microsoft-graph-users-onlinemeeting-api
-- description: The users.outlookUser API from Microsoft Graph — 7 operation(s) for users.outlookuser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.outlookUser API from Microsoft Graph — 7 operation(s) for users.outlookuser.
   name: Microsoft Graph users.outlookUser API
   slug: microsoft-graph-users-outlookuser-api
-- description: The Users.person API from Microsoft Graph — 3 operation(s) for users.person.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.person API from Microsoft Graph — 3 operation(s) for users.person.
   name: Microsoft Graph Users.person API
   slug: microsoft-graph-users-person-api
-- description: The users.plannerUser API from Microsoft Graph — 29 operation(s) for users.planneruser.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.plannerUser API from Microsoft Graph — 29 operation(s) for users.planneruser.
   name: Microsoft Graph users.plannerUser API
   slug: microsoft-graph-users-planneruser-api
-- description: The Users.presence API from Microsoft Graph — 6 operation(s) for users.presence.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.presence API from Microsoft Graph — 6 operation(s) for users.presence.
   name: Microsoft Graph Users.presence API
   slug: microsoft-graph-users-presence-api
-- description: The users.profilePhoto API from Microsoft Graph — 5 operation(s) for users.profilephoto.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.profilePhoto API from Microsoft Graph — 5 operation(s) for users.profilephoto.
   name: Microsoft Graph users.profilePhoto API
   slug: microsoft-graph-users-profilephoto-api
-- description: The users.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for users.resourcespecificpermissiongrant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.resourceSpecificPermissionGrant API from Microsoft Graph — 3 operation(s) for users.resourcespecificpermissiongrant.
   name: Microsoft Graph users.resourceSpecificPermissionGrant API
   slug: microsoft-graph-users-resourcespecificpermissiongrant-api
-- description: The users.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for users.scopedrolemembership.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.scopedRoleMembership API from Microsoft Graph — 3 operation(s) for users.scopedrolemembership.
   name: Microsoft Graph users.scopedRoleMembership API
   slug: microsoft-graph-users-scopedrolemembership-api
-- description: The users.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for users.serviceprovisioningerror.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.serviceProvisioningError API from Microsoft Graph — 2 operation(s) for users.serviceprovisioningerror.
   name: Microsoft Graph users.serviceProvisioningError API
   slug: microsoft-graph-users-serviceprovisioningerror-api
-- description: The Users.site API from Microsoft Graph — 5 operation(s) for users.site.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.site API from Microsoft Graph — 5 operation(s) for users.site.
   name: Microsoft Graph Users.site API
   slug: microsoft-graph-users-site-api
-- description: The Users.team API from Microsoft Graph — 196 operation(s) for users.team.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.team API from Microsoft Graph — 196 operation(s) for users.team.
   name: Microsoft Graph Users.team API
   slug: microsoft-graph-users-team-api
-- description: The Users.todo API from Microsoft Graph — 30 operation(s) for users.todo.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.todo API from Microsoft Graph — 30 operation(s) for users.todo.
   name: Microsoft Graph Users.todo API
   slug: microsoft-graph-users-todo-api
-- description: The users.user.Actions API from Microsoft Graph — 20 operation(s) for users.user.actions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.user.Actions API from Microsoft Graph — 20 operation(s) for users.user.actions.
   name: Microsoft Graph users.user.Actions API
   slug: microsoft-graph-users-user-actions-api
-- description: The Users.user API from Microsoft Graph — 4 operation(s) for users.user.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users.user API from Microsoft Graph — 4 operation(s) for users.user.
   name: Microsoft Graph Users.user API
   slug: microsoft-graph-users-user-api
-- description: The users.user.Functions API from Microsoft Graph — 7 operation(s) for users.user.functions.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.user.Functions API from Microsoft Graph — 7 operation(s) for users.user.functions.
   name: Microsoft Graph users.user.Functions API
   slug: microsoft-graph-users-user-functions-api
-- description: The users.userActivity API from Microsoft Graph — 8 operation(s) for users.useractivity.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.userActivity API from Microsoft Graph — 8 operation(s) for users.useractivity.
   name: Microsoft Graph users.userActivity API
   slug: microsoft-graph-users-useractivity-api
-- description: The users.userDataSecurityAndGovernance API from Microsoft Graph — 20 operation(s) for users.userdatasecurityandgovernance.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.userDataSecurityAndGovernance API from Microsoft Graph — 20 operation(s) for users.userdatasecurityandgovernance.
   name: Microsoft Graph users.userDataSecurityAndGovernance API
   slug: microsoft-graph-users-userdatasecurityandgovernance-api
-- description: The users.userSettings API from Microsoft Graph — 14 operation(s) for users.usersettings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.userSettings API from Microsoft Graph — 14 operation(s) for users.usersettings.
   name: Microsoft Graph users.userSettings API
   slug: microsoft-graph-users-usersettings-api
-- description: The users.userSolutionRoot API from Microsoft Graph — 4 operation(s) for users.usersolutionroot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.userSolutionRoot API from Microsoft Graph — 4 operation(s) for users.usersolutionroot.
   name: Microsoft Graph users.userSolutionRoot API
   slug: microsoft-graph-users-usersolutionroot-api
-- description: The users.userTeamwork API from Microsoft Graph — 12 operation(s) for users.userteamwork.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The users.userTeamwork API from Microsoft Graph — 12 operation(s) for users.userteamwork.
   name: Microsoft Graph users.userTeamwork API
   slug: microsoft-graph-users-userteamwork-api
 artifact_total: 5664
@@ -17240,7 +18368,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -17250,7 +18378,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 58.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -17259,7 +18387,7 @@ score:
       marker_coverage: 0.0
       total: 564
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

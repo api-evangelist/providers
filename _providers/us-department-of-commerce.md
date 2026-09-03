@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,13 +61,19 @@ apis:
 - description: The Commerce Data Hub Open Data Portal API (version 2.3) provides REST access to the Department of Commerce's open data catalog with rich search capabilities for discovering and accessing Commerce dat
   name: Commerce Data Hub Open Data Portal API
   slug: commerce-data-hub-api
-- description: Blog posts published on Commerce.gov
+- baseURL: https://www.commerce.gov
+  baseurl_source: spec
+  description: Blog posts published on Commerce.gov
   name: US Department of Commerce Blogs API
   slug: us-department-of-commerce-blogs-api
-- description: Images published on Commerce.gov
+- baseURL: https://www.commerce.gov
+  baseurl_source: spec
+  description: Images published on Commerce.gov
   name: US Department of Commerce Images API
   slug: us-department-of-commerce-images-api
-- description: News articles published on Commerce.gov
+- baseURL: https://www.commerce.gov
+  baseurl_source: spec
+  description: News articles published on Commerce.gov
   name: US Department of Commerce News API
   slug: us-department-of-commerce-news-api
 artifact_total: 25
@@ -201,7 +207,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:

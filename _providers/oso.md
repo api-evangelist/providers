@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 20 operations · 18 acting
 api_count: 1
 apis:
-- description: The Centralized Authorization Data API from Oso Cloud — 6 operation(s) for centralized authorization data.
+- baseURL: https://api.osohq.com/api
+  baseurl_source: declared
+  description: The Centralized Authorization Data API from Oso Cloud — 6 operation(s) for centralized authorization data.
   name: Oso Cloud Centralized Authorization Data API
   slug: oso-centralized-authorization-data-api
-- description: The Check API API from Oso Cloud — 6 operation(s) for check api.
+- baseURL: https://api.osohq.com/api
+  baseurl_source: declared
+  description: The Check API API from Oso Cloud — 6 operation(s) for check api.
   name: Oso Cloud Check API API
   slug: oso-check-api-api
-- description: The Local Check API API from Oso Cloud — 4 operation(s) for local check api.
+- baseURL: https://api.osohq.com/api
+  baseurl_source: declared
+  description: The Local Check API API from Oso Cloud — 4 operation(s) for local check api.
   name: Oso Cloud Local Check API API
   slug: oso-local-check-api-api
-- description: The Policy API from Oso Cloud — 2 operation(s) for policy.
+- baseURL: https://api.osohq.com/api
+  baseurl_source: declared
+  description: The Policy API from Oso Cloud — 2 operation(s) for policy.
   name: Oso Cloud Policy API
   slug: oso-policy-api
 artifact_total: 71
@@ -376,7 +384,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/screenshots/oso-2026-06-20T191220.png
 security:

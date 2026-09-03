@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -45,418 +45,694 @@ agentic_access:
   summary_line: 424 operations · 294 acting · 2 human-in-the-loop
 api_count: 25
 apis:
-- description: The acceptDispute API from Adyen — 1 operation(s) for acceptdispute.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The acceptDispute API from Adyen — 1 operation(s) for acceptdispute.
   name: Adyen acceptDispute API
   slug: adyen-acceptdispute-api
-- description: The Account API from Adyen — 7 operation(s) for account.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Account API from Adyen — 7 operation(s) for account.
   name: Adyen Account API
   slug: adyen-account-api
-- description: The accountHolderBalance API from Adyen — 1 operation(s) for accountholderbalance.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The accountHolderBalance API from Adyen — 1 operation(s) for accountholderbalance.
   name: Adyen accountHolderBalance API
   slug: adyen-accountholderbalance-api
-- description: The accountHolderTransactionList API from Adyen — 1 operation(s) for accountholdertransactionlist.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The accountHolderTransactionList API from Adyen — 1 operation(s) for accountholdertransactionlist.
   name: Adyen accountHolderTransactionList API
   slug: adyen-accountholdertransactionlist-api
-- description: The Accounts API from Adyen — 17 operation(s) for accounts.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Accounts API from Adyen — 17 operation(s) for accounts.
   name: Adyen Accounts API
   slug: adyen-accounts-api
-- description: The adjustAuthorisation API from Adyen — 1 operation(s) for adjustauthorisation.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The adjustAuthorisation API from Adyen — 1 operation(s) for adjustauthorisation.
   name: Adyen adjustAuthorisation API
   slug: adyen-adjustauthorisation-api
-- description: The Admin API from Adyen — 1 operation(s) for admin.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Admin API from Adyen — 1 operation(s) for admin.
   name: Adyen Admin API
   slug: adyen-admin-api
-- description: The Amount API from Adyen — 1 operation(s) for amount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Amount API from Adyen — 1 operation(s) for amount.
   name: Adyen Amount API
   slug: adyen-amount-api
-- description: The Apple API from Adyen — 1 operation(s) for apple.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Apple API from Adyen — 1 operation(s) for apple.
   name: Adyen Apple API
   slug: adyen-apple-api
-- description: The assignTerminals API from Adyen — 1 operation(s) for assignterminals.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The assignTerminals API from Adyen — 1 operation(s) for assignterminals.
   name: Adyen assignTerminals API
   slug: adyen-assignterminals-api
-- description: The Authorise API from Adyen — 1 operation(s) for authorise.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Authorise API from Adyen — 1 operation(s) for authorise.
   name: Adyen Authorise API
   slug: adyen-authorise-api
-- description: The Authorise3d API from Adyen — 1 operation(s) for authorise3d.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Authorise3d API from Adyen — 1 operation(s) for authorise3d.
   name: Adyen Authorise3d API
   slug: adyen-authorise3d-api
-- description: The Authorise3ds2 API from Adyen — 1 operation(s) for authorise3ds2.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Authorise3ds2 API from Adyen — 1 operation(s) for authorise3ds2.
   name: Adyen Authorise3ds2 API
   slug: adyen-authorise3ds2-api
-- description: The Availability API from Adyen — 1 operation(s) for availability.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Availability API from Adyen — 1 operation(s) for availability.
   name: Adyen Availability API
   slug: adyen-availability-api
-- description: The Balance API from Adyen — 10 operation(s) for balance.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Balance API from Adyen — 10 operation(s) for balance.
   name: Adyen Balance API
   slug: adyen-balance-api
-- description: The Balanceinquiry API from Adyen — 1 operation(s) for balanceinquiry.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Balanceinquiry API from Adyen — 1 operation(s) for balanceinquiry.
   name: Adyen Balanceinquiry API
   slug: adyen-balanceinquiry-api
-- description: The businessLines API from Adyen — 2 operation(s) for businesslines.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The businessLines API from Adyen — 2 operation(s) for businesslines.
   name: Adyen businessLines API
   slug: adyen-businesslines-api
-- description: The Calculate API from Adyen — 1 operation(s) for calculate.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Calculate API from Adyen — 1 operation(s) for calculate.
   name: Adyen Calculate API
   slug: adyen-calculate-api
-- description: The Cancel API from Adyen — 1 operation(s) for cancel.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Cancel API from Adyen — 1 operation(s) for cancel.
   name: Adyen Cancel API
   slug: adyen-cancel-api
-- description: The cancelOrRefund API from Adyen — 1 operation(s) for cancelorrefund.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The cancelOrRefund API from Adyen — 1 operation(s) for cancelorrefund.
   name: Adyen cancelOrRefund API
   slug: adyen-cancelorrefund-api
-- description: The Cancels API from Adyen — 3 operation(s) for cancels.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Cancels API from Adyen — 3 operation(s) for cancels.
   name: Adyen Cancels API
   slug: adyen-cancels-api
-- description: The Capture API from Adyen — 1 operation(s) for capture.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Capture API from Adyen — 1 operation(s) for capture.
   name: Adyen Capture API
   slug: adyen-capture-api
-- description: The Captures API from Adyen — 1 operation(s) for captures.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Captures API from Adyen — 1 operation(s) for captures.
   name: Adyen Captures API
   slug: adyen-captures-api
-- description: The Card API from Adyen — 1 operation(s) for card.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Card API from Adyen — 1 operation(s) for card.
   name: Adyen Card API
   slug: adyen-card-api
-- description: The Card Orders API from Adyen — 2 operation(s) for card orders.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Card Orders API from Adyen — 2 operation(s) for card orders.
   name: Adyen Card Orders API
   slug: adyen-card-orders-api
-- description: The Cardacquisition API from Adyen — 1 operation(s) for cardacquisition.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Cardacquisition API from Adyen — 1 operation(s) for cardacquisition.
   name: Adyen Cardacquisition API
   slug: adyen-cardacquisition-api
-- description: The Cardreaderapdu API from Adyen — 1 operation(s) for cardreaderapdu.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Cardreaderapdu API from Adyen — 1 operation(s) for cardreaderapdu.
   name: Adyen Cardreaderapdu API
   slug: adyen-cardreaderapdu-api
-- description: The Changes API from Adyen — 1 operation(s) for changes.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Changes API from Adyen — 1 operation(s) for changes.
   name: Adyen Changes API
   slug: adyen-changes-api
-- description: The changeStatus API from Adyen — 1 operation(s) for changestatus.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The changeStatus API from Adyen — 1 operation(s) for changestatus.
   name: Adyen changeStatus API
   slug: adyen-changestatus-api
-- description: The checkAccountHolder API from Adyen — 1 operation(s) for checkaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The checkAccountHolder API from Adyen — 1 operation(s) for checkaccountholder.
   name: Adyen checkAccountHolder API
   slug: adyen-checkaccountholder-api
-- description: The checkBalance API from Adyen — 1 operation(s) for checkbalance.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The checkBalance API from Adyen — 1 operation(s) for checkbalance.
   name: Adyen checkBalance API
   slug: adyen-checkbalance-api
-- description: The closeAccount API from Adyen — 1 operation(s) for closeaccount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The closeAccount API from Adyen — 1 operation(s) for closeaccount.
   name: Adyen closeAccount API
   slug: adyen-closeaccount-api
-- description: The closeAccountHolder API from Adyen — 1 operation(s) for closeaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The closeAccountHolder API from Adyen — 1 operation(s) for closeaccountholder.
   name: Adyen closeAccountHolder API
   slug: adyen-closeaccountholder-api
-- description: The closeStores API from Adyen — 1 operation(s) for closestores.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The closeStores API from Adyen — 1 operation(s) for closestores.
   name: Adyen closeStores API
   slug: adyen-closestores-api
-- description: The Companies API from Adyen — 29 operation(s) for companies.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Companies API from Adyen — 29 operation(s) for companies.
   name: Adyen Companies API
   slug: adyen-companies-api
-- description: The confirmThirdParty API from Adyen — 1 operation(s) for confirmthirdparty.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The confirmThirdParty API from Adyen — 1 operation(s) for confirmthirdparty.
   name: Adyen confirmThirdParty API
   slug: adyen-confirmthirdparty-api
-- description: The Cost API from Adyen — 1 operation(s) for cost.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Cost API from Adyen — 1 operation(s) for cost.
   name: Adyen Cost API
   slug: adyen-cost-api
-- description: The createAccount API from Adyen — 1 operation(s) for createaccount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The createAccount API from Adyen — 1 operation(s) for createaccount.
   name: Adyen createAccount API
   slug: adyen-createaccount-api
-- description: The createAccountHolder API from Adyen — 1 operation(s) for createaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The createAccountHolder API from Adyen — 1 operation(s) for createaccountholder.
   name: Adyen createAccountHolder API
   slug: adyen-createaccountholder-api
-- description: The createNotificationConfiguration API from Adyen — 1 operation(s) for createnotificationconfiguration.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The createNotificationConfiguration API from Adyen — 1 operation(s) for createnotificationconfiguration.
   name: Adyen createNotificationConfiguration API
   slug: adyen-createnotificationconfiguration-api
-- description: The createPermit API from Adyen — 1 operation(s) for createpermit.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The createPermit API from Adyen — 1 operation(s) for createpermit.
   name: Adyen createPermit API
   slug: adyen-createpermit-api
-- description: The createTestCardRanges API from Adyen — 1 operation(s) for createtestcardranges.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The createTestCardRanges API from Adyen — 1 operation(s) for createtestcardranges.
   name: Adyen createTestCardRanges API
   slug: adyen-createtestcardranges-api
-- description: The debitAccountHolder API from Adyen — 1 operation(s) for debitaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The debitAccountHolder API from Adyen — 1 operation(s) for debitaccountholder.
   name: Adyen debitAccountHolder API
   slug: adyen-debitaccountholder-api
-- description: The declineThirdParty API from Adyen — 1 operation(s) for declinethirdparty.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The declineThirdParty API from Adyen — 1 operation(s) for declinethirdparty.
   name: Adyen declineThirdParty API
   slug: adyen-declinethirdparty-api
-- description: The defendDispute API from Adyen — 1 operation(s) for defenddispute.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The defendDispute API from Adyen — 1 operation(s) for defenddispute.
   name: Adyen defendDispute API
   slug: adyen-defenddispute-api
-- description: The deleteBankAccounts API from Adyen — 1 operation(s) for deletebankaccounts.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteBankAccounts API from Adyen — 1 operation(s) for deletebankaccounts.
   name: Adyen deleteBankAccounts API
   slug: adyen-deletebankaccounts-api
-- description: The deleteDisputeDefenseDocument API from Adyen — 1 operation(s) for deletedisputedefensedocument.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteDisputeDefenseDocument API from Adyen — 1 operation(s) for deletedisputedefensedocument.
   name: Adyen deleteDisputeDefenseDocument API
   slug: adyen-deletedisputedefensedocument-api
-- description: The deleteLegalArrangements API from Adyen — 1 operation(s) for deletelegalarrangements.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteLegalArrangements API from Adyen — 1 operation(s) for deletelegalarrangements.
   name: Adyen deleteLegalArrangements API
   slug: adyen-deletelegalarrangements-api
-- description: The deleteNotificationConfigurations API from Adyen — 1 operation(s) for deletenotificationconfigurations.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteNotificationConfigurations API from Adyen — 1 operation(s) for deletenotificationconfigurations.
   name: Adyen deleteNotificationConfigurations API
   slug: adyen-deletenotificationconfigurations-api
-- description: The deletePayoutMethods API from Adyen — 1 operation(s) for deletepayoutmethods.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deletePayoutMethods API from Adyen — 1 operation(s) for deletepayoutmethods.
   name: Adyen deletePayoutMethods API
   slug: adyen-deletepayoutmethods-api
-- description: The deleteShareholders API from Adyen — 1 operation(s) for deleteshareholders.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteShareholders API from Adyen — 1 operation(s) for deleteshareholders.
   name: Adyen deleteShareholders API
   slug: adyen-deleteshareholders-api
-- description: The deleteSignatories API from Adyen — 1 operation(s) for deletesignatories.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The deleteSignatories API from Adyen — 1 operation(s) for deletesignatories.
   name: Adyen deleteSignatories API
   slug: adyen-deletesignatories-api
-- description: The Diagnosis API from Adyen — 1 operation(s) for diagnosis.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Diagnosis API from Adyen — 1 operation(s) for diagnosis.
   name: Adyen Diagnosis API
   slug: adyen-diagnosis-api
-- description: The Disable API from Adyen — 1 operation(s) for disable.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Disable API from Adyen — 1 operation(s) for disable.
   name: Adyen Disable API
   slug: adyen-disable-api
-- description: The disablePermit API from Adyen — 1 operation(s) for disablepermit.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The disablePermit API from Adyen — 1 operation(s) for disablepermit.
   name: Adyen disablePermit API
   slug: adyen-disablepermit-api
-- description: The Display API from Adyen — 1 operation(s) for display.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Display API from Adyen — 1 operation(s) for display.
   name: Adyen Display API
   slug: adyen-display-api
-- description: The Documents API from Adyen — 4 operation(s) for documents.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Documents API from Adyen — 4 operation(s) for documents.
   name: Adyen Documents API
   slug: adyen-documents-api
-- description: The Donate API from Adyen — 1 operation(s) for donate.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Donate API from Adyen — 1 operation(s) for donate.
   name: Adyen Donate API
   slug: adyen-donate-api
-- description: The Donations API from Adyen — 1 operation(s) for donations.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Donations API from Adyen — 1 operation(s) for donations.
   name: Adyen Donations API
   slug: adyen-donations-api
-- description: The Enableservice API from Adyen — 1 operation(s) for enableservice.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Enableservice API from Adyen — 1 operation(s) for enableservice.
   name: Adyen Enableservice API
   slug: adyen-enableservice-api
-- description: The Erasure API from Adyen — 1 operation(s) for erasure.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Erasure API from Adyen — 1 operation(s) for erasure.
   name: Adyen Erasure API
   slug: adyen-erasure-api
-- description: The findTerminal API from Adyen — 1 operation(s) for findterminal.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The findTerminal API from Adyen — 1 operation(s) for findterminal.
   name: Adyen findTerminal API
   slug: adyen-findterminal-api
-- description: The getAccountHolder API from Adyen — 1 operation(s) for getaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getAccountHolder API from Adyen — 1 operation(s) for getaccountholder.
   name: Adyen getAccountHolder API
   slug: adyen-getaccountholder-api
-- description: The getAuthenticationResult API from Adyen — 1 operation(s) for getauthenticationresult.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getAuthenticationResult API from Adyen — 1 operation(s) for getauthenticationresult.
   name: Adyen getAuthenticationResult API
   slug: adyen-getauthenticationresult-api
-- description: The getNotificationConfiguration API from Adyen — 1 operation(s) for getnotificationconfiguration.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getNotificationConfiguration API from Adyen — 1 operation(s) for getnotificationconfiguration.
   name: Adyen getNotificationConfiguration API
   slug: adyen-getnotificationconfiguration-api
-- description: The getNotificationConfigurationList API from Adyen — 1 operation(s) for getnotificationconfigurationlist.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getNotificationConfigurationList API from Adyen — 1 operation(s) for getnotificationconfigurationlist.
   name: Adyen getNotificationConfigurationList API
   slug: adyen-getnotificationconfigurationlist-api
-- description: The getOnboardingUrl API from Adyen — 1 operation(s) for getonboardingurl.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getOnboardingUrl API from Adyen — 1 operation(s) for getonboardingurl.
   name: Adyen getOnboardingUrl API
   slug: adyen-getonboardingurl-api
-- description: The getPciQuestionnaireUrl API from Adyen — 1 operation(s) for getpciquestionnaireurl.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getPciQuestionnaireUrl API from Adyen — 1 operation(s) for getpciquestionnaireurl.
   name: Adyen getPciQuestionnaireUrl API
   slug: adyen-getpciquestionnaireurl-api
-- description: The getStoresUnderAccount API from Adyen — 1 operation(s) for getstoresunderaccount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getStoresUnderAccount API from Adyen — 1 operation(s) for getstoresunderaccount.
   name: Adyen getStoresUnderAccount API
   slug: adyen-getstoresunderaccount-api
-- description: The getTaxForm API from Adyen — 1 operation(s) for gettaxform.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getTaxForm API from Adyen — 1 operation(s) for gettaxform.
   name: Adyen getTaxForm API
   slug: adyen-gettaxform-api
-- description: The getTerminalDetails API from Adyen — 1 operation(s) for getterminaldetails.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getTerminalDetails API from Adyen — 1 operation(s) for getterminaldetails.
   name: Adyen getTerminalDetails API
   slug: adyen-getterminaldetails-api
-- description: The getTerminalsUnderAccount API from Adyen — 1 operation(s) for getterminalsunderaccount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getTerminalsUnderAccount API from Adyen — 1 operation(s) for getterminalsunderaccount.
   name: Adyen getTerminalsUnderAccount API
   slug: adyen-getterminalsunderaccount-api
-- description: The Gettotals API from Adyen — 1 operation(s) for gettotals.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Gettotals API from Adyen — 1 operation(s) for gettotals.
   name: Adyen Gettotals API
   slug: adyen-gettotals-api
-- description: The getUploadedDocuments API from Adyen — 1 operation(s) for getuploadeddocuments.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The getUploadedDocuments API from Adyen — 1 operation(s) for getuploadeddocuments.
   name: Adyen getUploadedDocuments API
   slug: adyen-getuploadeddocuments-api
-- description: The Grants API from Adyen — 2 operation(s) for grants.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Grants API from Adyen — 2 operation(s) for grants.
   name: Adyen Grants API
   slug: adyen-grants-api
-- description: The Input API from Adyen — 1 operation(s) for input.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Input API from Adyen — 1 operation(s) for input.
   name: Adyen Input API
   slug: adyen-input-api
-- description: The Instruments API from Adyen — 9 operation(s) for instruments.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Instruments API from Adyen — 9 operation(s) for instruments.
   name: Adyen Instruments API
   slug: adyen-instruments-api
-- description: The Issue API from Adyen — 1 operation(s) for issue.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Issue API from Adyen — 1 operation(s) for issue.
   name: Adyen Issue API
   slug: adyen-issue-api
-- description: The Keys API from Adyen — 2 operation(s) for keys.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Keys API from Adyen — 2 operation(s) for keys.
   name: Adyen Keys API
   slug: adyen-keys-api
-- description: The legalEntities API from Adyen — 14 operation(s) for legalentities.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The legalEntities API from Adyen — 14 operation(s) for legalentities.
   name: Adyen legalEntities API
   slug: adyen-legalentities-api
-- description: The Links API from Adyen — 2 operation(s) for links.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Links API from Adyen — 2 operation(s) for links.
   name: Adyen Links API
   slug: adyen-links-api
-- description: The listRecurringDetails API from Adyen — 1 operation(s) for listrecurringdetails.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The listRecurringDetails API from Adyen — 1 operation(s) for listrecurringdetails.
   name: Adyen listRecurringDetails API
   slug: adyen-listrecurringdetails-api
-- description: The Load API from Adyen — 1 operation(s) for load.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Load API from Adyen — 1 operation(s) for load.
   name: Adyen Load API
   slug: adyen-load-api
-- description: The Login API from Adyen — 1 operation(s) for login.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Login API from Adyen — 1 operation(s) for login.
   name: Adyen Login API
   slug: adyen-login-api
-- description: The Logout API from Adyen — 1 operation(s) for logout.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Logout API from Adyen — 1 operation(s) for logout.
   name: Adyen Logout API
   slug: adyen-logout-api
-- description: The Loyalty API from Adyen — 1 operation(s) for loyalty.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Loyalty API from Adyen — 1 operation(s) for loyalty.
   name: Adyen Loyalty API
   slug: adyen-loyalty-api
-- description: The Me API from Adyen — 4 operation(s) for me.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Me API from Adyen — 4 operation(s) for me.
   name: Adyen Me API
   slug: adyen-me-api
-- description: The Merchants API from Adyen — 38 operation(s) for merchants.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Merchants API from Adyen — 38 operation(s) for merchants.
   name: Adyen Merchants API
   slug: adyen-merchants-api
-- description: The mergeBalance API from Adyen — 1 operation(s) for mergebalance.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The mergeBalance API from Adyen — 1 operation(s) for mergebalance.
   name: Adyen mergeBalance API
   slug: adyen-mergebalance-api
-- description: The Method API from Adyen — 1 operation(s) for method.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Method API from Adyen — 1 operation(s) for method.
   name: Adyen Method API
   slug: adyen-method-api
-- description: The Methods API from Adyen — 5 operation(s) for methods.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Methods API from Adyen — 5 operation(s) for methods.
   name: Adyen Methods API
   slug: adyen-methods-api
-- description: The Networks API from Adyen — 1 operation(s) for networks.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Networks API from Adyen — 1 operation(s) for networks.
   name: Adyen Networks API
   slug: adyen-networks-api
-- description: The notifyShopper API from Adyen — 1 operation(s) for notifyshopper.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The notifyShopper API from Adyen — 1 operation(s) for notifyshopper.
   name: Adyen notifyShopper API
   slug: adyen-notifyshopper-api
-- description: The Offer API from Adyen — 1 operation(s) for offer.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Offer API from Adyen — 1 operation(s) for offer.
   name: Adyen Offer API
   slug: adyen-offer-api
-- description: The Offers API from Adyen — 2 operation(s) for offers.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Offers API from Adyen — 2 operation(s) for offers.
   name: Adyen Offers API
   slug: adyen-offers-api
-- description: The Orders API from Adyen — 2 operation(s) for orders.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Orders API from Adyen — 2 operation(s) for orders.
   name: Adyen Orders API
   slug: adyen-orders-api
-- description: The Payment API from Adyen — 2 operation(s) for payment.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Payment API from Adyen — 2 operation(s) for payment.
   name: Adyen Payment API
   slug: adyen-payment-api
-- description: The Payments API from Adyen — 23 operation(s) for payments.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Payments API from Adyen — 23 operation(s) for payments.
   name: Adyen Payments API
   slug: adyen-payments-api
-- description: The Payout API from Adyen — 1 operation(s) for payout.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Payout API from Adyen — 1 operation(s) for payout.
   name: Adyen Payout API
   slug: adyen-payout-api
-- description: The payoutAccountHolder API from Adyen — 1 operation(s) for payoutaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The payoutAccountHolder API from Adyen — 1 operation(s) for payoutaccountholder.
   name: Adyen payoutAccountHolder API
   slug: adyen-payoutaccountholder-api
-- description: The Pins API from Adyen — 3 operation(s) for pins.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Pins API from Adyen — 3 operation(s) for pins.
   name: Adyen Pins API
   slug: adyen-pins-api
-- description: The Print API from Adyen — 1 operation(s) for print.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Print API from Adyen — 1 operation(s) for print.
   name: Adyen Print API
   slug: adyen-print-api
-- description: The Reconciliation API from Adyen — 1 operation(s) for reconciliation.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Reconciliation API from Adyen — 1 operation(s) for reconciliation.
   name: Adyen Reconciliation API
   slug: adyen-reconciliation-api
-- description: The Refund API from Adyen — 1 operation(s) for refund.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Refund API from Adyen — 1 operation(s) for refund.
   name: Adyen Refund API
   slug: adyen-refund-api
-- description: The refundFundsTransfer API from Adyen — 1 operation(s) for refundfundstransfer.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The refundFundsTransfer API from Adyen — 1 operation(s) for refundfundstransfer.
   name: Adyen refundFundsTransfer API
   slug: adyen-refundfundstransfer-api
-- description: The refundNotPaidOutTransfers API from Adyen — 1 operation(s) for refundnotpaidouttransfers.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The refundNotPaidOutTransfers API from Adyen — 1 operation(s) for refundnotpaidouttransfers.
   name: Adyen refundNotPaidOutTransfers API
   slug: adyen-refundnotpaidouttransfers-api
-- description: The retrieve3ds2Result API from Adyen — 1 operation(s) for retrieve3ds2result.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The retrieve3ds2Result API from Adyen — 1 operation(s) for retrieve3ds2result.
   name: Adyen retrieve3ds2Result API
   slug: adyen-retrieve3ds2result-api
-- description: The retrieveApplicableDefenseReasons API from Adyen — 1 operation(s) for retrieveapplicabledefensereasons.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The retrieveApplicableDefenseReasons API from Adyen — 1 operation(s) for retrieveapplicabledefensereasons.
   name: Adyen retrieveApplicableDefenseReasons API
   slug: adyen-retrieveapplicabledefensereasons-api
-- description: The Reversal API from Adyen — 1 operation(s) for reversal.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Reversal API from Adyen — 1 operation(s) for reversal.
   name: Adyen Reversal API
   slug: adyen-reversal-api
-- description: The Rules API from Adyen — 4 operation(s) for rules.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Rules API from Adyen — 4 operation(s) for rules.
   name: Adyen Rules API
   slug: adyen-rules-api
-- description: The scheduleAccountUpdater API from Adyen — 1 operation(s) for scheduleaccountupdater.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The scheduleAccountUpdater API from Adyen — 1 operation(s) for scheduleaccountupdater.
   name: Adyen scheduleAccountUpdater API
   slug: adyen-scheduleaccountupdater-api
-- description: The Session API from Adyen — 2 operation(s) for session.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Session API from Adyen — 2 operation(s) for session.
   name: Adyen Session API
   slug: adyen-session-api
-- description: The Sessions API from Adyen — 3 operation(s) for sessions.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Sessions API from Adyen — 3 operation(s) for sessions.
   name: Adyen Sessions API
   slug: adyen-sessions-api
-- description: The setupBeneficiary API from Adyen — 1 operation(s) for setupbeneficiary.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The setupBeneficiary API from Adyen — 1 operation(s) for setupbeneficiary.
   name: Adyen setupBeneficiary API
   slug: adyen-setupbeneficiary-api
-- description: The storeDetail API from Adyen — 1 operation(s) for storedetail.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The storeDetail API from Adyen — 1 operation(s) for storedetail.
   name: Adyen storeDetail API
   slug: adyen-storedetail-api
-- description: The storeDetailAndSubmitThirdParty API from Adyen — 1 operation(s) for storedetailandsubmitthirdparty.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The storeDetailAndSubmitThirdParty API from Adyen — 1 operation(s) for storedetailandsubmitthirdparty.
   name: Adyen storeDetailAndSubmitThirdParty API
   slug: adyen-storedetailandsubmitthirdparty-api
-- description: The Storedvalue API from Adyen — 1 operation(s) for storedvalue.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Storedvalue API from Adyen — 1 operation(s) for storedvalue.
   name: Adyen Storedvalue API
   slug: adyen-storedvalue-api
-- description: The Stores API from Adyen — 5 operation(s) for stores.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Stores API from Adyen — 5 operation(s) for stores.
   name: Adyen Stores API
   slug: adyen-stores-api
-- description: The submitThirdParty API from Adyen — 1 operation(s) for submitthirdparty.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The submitThirdParty API from Adyen — 1 operation(s) for submitthirdparty.
   name: Adyen submitThirdParty API
   slug: adyen-submitthirdparty-api
-- description: The supplyDefenseDocument API from Adyen — 1 operation(s) for supplydefensedocument.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The supplyDefenseDocument API from Adyen — 1 operation(s) for supplydefensedocument.
   name: Adyen supplyDefenseDocument API
   slug: adyen-supplydefensedocument-api
-- description: The suspendAccountHolder API from Adyen — 1 operation(s) for suspendaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The suspendAccountHolder API from Adyen — 1 operation(s) for suspendaccountholder.
   name: Adyen suspendAccountHolder API
   slug: adyen-suspendaccountholder-api
-- description: The technicalCancel API from Adyen — 1 operation(s) for technicalcancel.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The technicalCancel API from Adyen — 1 operation(s) for technicalcancel.
   name: Adyen technicalCancel API
   slug: adyen-technicalcancel-api
-- description: The Terminals API from Adyen — 5 operation(s) for terminals.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Terminals API from Adyen — 5 operation(s) for terminals.
   name: Adyen Terminals API
   slug: adyen-terminals-api
-- description: The testNotificationConfiguration API from Adyen — 1 operation(s) for testnotificationconfiguration.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The testNotificationConfiguration API from Adyen — 1 operation(s) for testnotificationconfiguration.
   name: Adyen testNotificationConfiguration API
   slug: adyen-testnotificationconfiguration-api
-- description: The Themes API from Adyen — 2 operation(s) for themes.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Themes API from Adyen — 2 operation(s) for themes.
   name: Adyen Themes API
   slug: adyen-themes-api
-- description: The Transactions API from Adyen — 2 operation(s) for transactions.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Transactions API from Adyen — 2 operation(s) for transactions.
   name: Adyen Transactions API
   slug: adyen-transactions-api
-- description: The Transactionstatus API from Adyen — 1 operation(s) for transactionstatus.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Transactionstatus API from Adyen — 1 operation(s) for transactionstatus.
   name: Adyen Transactionstatus API
   slug: adyen-transactionstatus-api
-- description: The transferFunds API from Adyen — 1 operation(s) for transferfunds.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The transferFunds API from Adyen — 1 operation(s) for transferfunds.
   name: Adyen transferFunds API
   slug: adyen-transferfunds-api
-- description: The transferInstruments API from Adyen — 2 operation(s) for transferinstruments.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The transferInstruments API from Adyen — 2 operation(s) for transferinstruments.
   name: Adyen transferInstruments API
   slug: adyen-transferinstruments-api
-- description: The Transfers API from Adyen — 4 operation(s) for transfers.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The Transfers API from Adyen — 4 operation(s) for transfers.
   name: Adyen Transfers API
   slug: adyen-transfers-api
-- description: The unSuspendAccountHolder API from Adyen — 1 operation(s) for unsuspendaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The unSuspendAccountHolder API from Adyen — 1 operation(s) for unsuspendaccountholder.
   name: Adyen unSuspendAccountHolder API
   slug: adyen-unsuspendaccountholder-api
-- description: The updateAccount API from Adyen — 1 operation(s) for updateaccount.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The updateAccount API from Adyen — 1 operation(s) for updateaccount.
   name: Adyen updateAccount API
   slug: adyen-updateaccount-api
-- description: The updateAccountHolder API from Adyen — 1 operation(s) for updateaccountholder.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The updateAccountHolder API from Adyen — 1 operation(s) for updateaccountholder.
   name: Adyen updateAccountHolder API
   slug: adyen-updateaccountholder-api
-- description: The updateAccountHolderState API from Adyen — 1 operation(s) for updateaccountholderstate.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The updateAccountHolderState API from Adyen — 1 operation(s) for updateaccountholderstate.
   name: Adyen updateAccountHolderState API
   slug: adyen-updateaccountholderstate-api
-- description: The updateNotificationConfiguration API from Adyen — 1 operation(s) for updatenotificationconfiguration.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The updateNotificationConfiguration API from Adyen — 1 operation(s) for updatenotificationconfiguration.
   name: Adyen updateNotificationConfiguration API
   slug: adyen-updatenotificationconfiguration-api
-- description: The uploadDocument API from Adyen — 1 operation(s) for uploaddocument.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The uploadDocument API from Adyen — 1 operation(s) for uploaddocument.
   name: Adyen uploadDocument API
   slug: adyen-uploaddocument-api
-- description: The voidPendingRefund API from Adyen — 1 operation(s) for voidpendingrefund.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The voidPendingRefund API from Adyen — 1 operation(s) for voidpendingrefund.
   name: Adyen voidPendingRefund API
   slug: adyen-voidpendingrefund-api
-- description: The voidTransaction API from Adyen — 1 operation(s) for voidtransaction.
+- baseURL: https://cal-test.adyen.com
+  baseurl_source: declared
+  description: The voidTransaction API from Adyen — 1 operation(s) for voidtransaction.
   name: Adyen voidTransaction API
   slug: adyen-voidtransaction-api
 arazzos:
@@ -22173,7 +22449,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -22183,7 +22459,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 66.9
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     contracts:
@@ -22198,7 +22474,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:

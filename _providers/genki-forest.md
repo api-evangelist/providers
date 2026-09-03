@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Partner-facing API gateway at open.yuanqisenlin.com serving a Swagger 2.0 document titled "经销商&账款管理" (Distributor & Receivables Management, service name "arthur-merchant"). The document is publicly re
+- baseURL: https://open.yuanqisenlin.com/
+  baseurl_source: declared
+  description: Partner-facing API gateway at open.yuanqisenlin.com serving a Swagger 2.0 document titled "经销商&账款管理" (Distributor & Receivables Management, service name "arthur-merchant"). The document is publicly re
   name: Genki Forest Open Platform — Distributor & Receivables Management
   slug: genki-forest-open-platform-distributor-receivables-management
 artifact_total: 5
@@ -120,7 +134,7 @@ score:
   band: emerging
   composite: 21.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -144,8 +158,9 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/genki-forest/refs/heads/main/screenshots/genki-forest-2026-09-02T145622.png
 security:
 - kind: authentication
   name: Genki Forest Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 51 operations · 12 acting · 1 human-in-the-loop
 api_count: 5
 apis:
-- description: Account, profile, and API plan information.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Account, profile, and API plan information.
   name: Shodan Account API
   slug: shodan-account-api
-- description: Enterprise bulk data exports.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Enterprise bulk data exports.
   name: Shodan Bulk Data API
   slug: shodan-bulk-data-api
-- description: The CPE API from Shodan — 1 operation(s) for cpe.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: The CPE API from Shodan — 1 operation(s) for cpe.
   name: Shodan CPE API
   slug: shodan-cpe-api
-- description: The CVE API from Shodan — 2 operation(s) for cve.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: The CVE API from Shodan — 2 operation(s) for cve.
   name: Shodan CVE API
   slug: shodan-cve-api
-- description: Browse and search saved Shodan queries.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Browse and search saved Shodan queries.
   name: Shodan Directory API
   slug: shodan-directory-api
-- description: Forward, reverse, and domain DNS lookups.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Forward, reverse, and domain DNS lookups.
   name: Shodan DNS API
   slug: shodan-dns-api
-- description: The InternetDB API from Shodan — 1 operation(s) for internetdb.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: The InternetDB API from Shodan — 1 operation(s) for internetdb.
   name: Shodan InternetDB API
   slug: shodan-internetdb-api
-- description: Create and manage alerts on monitored IP ranges.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Create and manage alerts on monitored IP ranges.
   name: Shodan Network Alerts API
   slug: shodan-network-alerts-api
-- description: Manage notification providers used by alerts.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Manage notification providers used by alerts.
   name: Shodan Notifiers API
   slug: shodan-notifiers-api
-- description: Request crawls of specific IPs, netblocks, or the entire Internet.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Request crawls of specific IPs, netblocks, or the entire Internet.
   name: Shodan On-Demand Scanning API
   slug: shodan-on-demand-scanning-api
-- description: Enterprise organization management.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Enterprise organization management.
   name: Shodan Organization API
   slug: shodan-organization-api
-- description: Search and lookup endpoints for indexed devices.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Search and lookup endpoints for indexed devices.
   name: Shodan Search Methods API
   slug: shodan-search-methods-api
-- description: The Streaming API from Shodan — 5 operation(s) for streaming.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: The Streaming API from Shodan — 5 operation(s) for streaming.
   name: Shodan Streaming API
   slug: shodan-streaming-api
-- description: The Trends API from Shodan — 1 operation(s) for trends.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: The Trends API from Shodan — 1 operation(s) for trends.
   name: Shodan Trends API
   slug: shodan-trends-api
-- description: Helper endpoints for HTTP headers and IP detection.
+- baseURL: https://api.shodan.io
+  baseurl_source: declared
+  description: Helper endpoints for HTTP headers and IP detection.
   name: Shodan Utility API
   slug: shodan-utility-api
 arazzos:
@@ -747,7 +777,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -760,7 +790,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 64.5
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     contracts:
@@ -769,7 +799,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

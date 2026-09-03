@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 35 operations · 13 acting
 api_count: 1
 apis:
-- description: Customers and vendors.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Customers and vendors.
   name: lexoffice Contacts API
   slug: lexoffice-contacts-api
-- description: Credit note documents.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Credit note documents.
   name: lexoffice Credit Notes API
   slug: lexoffice-credit-notes-api
-- description: Delivery note documents.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Delivery note documents.
   name: lexoffice Delivery Notes API
   slug: lexoffice-delivery-notes-api
-- description: Down payment invoice documents.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Down payment invoice documents.
   name: lexoffice Down Payment Invoices API
   slug: lexoffice-down-payment-invoices-api
-- description: Payment reminder documents.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Payment reminder documents.
   name: lexoffice Dunnings API
   slug: lexoffice-dunnings-api
-- description: Webhook subscriptions for change events.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Webhook subscriptions for change events.
   name: lexoffice Event Subscriptions API
   slug: lexoffice-event-subscriptions-api
-- description: File upload and download for voucher receipts.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: File upload and download for voucher receipts.
   name: lexoffice Files API
   slug: lexoffice-files-api
-- description: Outgoing invoices.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Outgoing invoices.
   name: lexoffice Invoices API
   slug: lexoffice-invoices-api
-- description: Order confirmation documents.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Order confirmation documents.
   name: lexoffice Order Confirmations API
   slug: lexoffice-order-confirmations-api
-- description: Payment status for a voucher and payment conditions.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Payment status for a voucher and payment conditions.
   name: lexoffice Payments API
   slug: lexoffice-payments-api
-- description: Account profile and reference metadata.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Account profile and reference metadata.
   name: lexoffice Profile API
   slug: lexoffice-profile-api
-- description: Sales quotations / offers.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Sales quotations / offers.
   name: lexoffice Quotations API
   slug: lexoffice-quotations-api
-- description: Templates that generate recurring invoices.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Templates that generate recurring invoices.
   name: lexoffice Recurring Templates API
   slug: lexoffice-recurring-templates-api
-- description: Bookkeeping vouchers and the voucherlist search.
+- baseURL: https://api.lexware.io/v1
+  baseurl_source: declared
+  description: Bookkeeping vouchers and the voucherlist search.
   name: lexoffice Vouchers API
   slug: lexoffice-vouchers-api
 artifact_total: 36
@@ -225,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png
 security:

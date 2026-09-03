@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 1
 apis:
-- description: Benefits summary and enrollment status
+- baseURL: https://api.wtwco.com/hrportal/v1
+  baseurl_source: spec
+  description: Benefits summary and enrollment status
   name: Towers Watson Benefits API
   slug: towers-watson-benefits-api
-- description: HR service case management
+- baseURL: https://api.wtwco.com/hrportal/v1
+  baseurl_source: spec
+  description: HR service case management
   name: Towers Watson Cases API
   slug: towers-watson-cases-api
-- description: HR content and communications management
+- baseURL: https://api.wtwco.com/hrportal/v1
+  baseurl_source: spec
+  description: HR content and communications management
   name: Towers Watson Content API
   slug: towers-watson-content-api
-- description: Employee profile and engagement management
+- baseURL: https://api.wtwco.com/hrportal/v1
+  baseurl_source: spec
+  description: Employee profile and engagement management
   name: Towers Watson Employees API
   slug: towers-watson-employees-api
-- description: Total compensation and rewards statements
+- baseURL: https://api.wtwco.com/hrportal/v1
+  baseurl_source: spec
+  description: Total compensation and rewards statements
   name: Towers Watson Total Rewards API
   slug: towers-watson-total-rewards-api
 artifact_total: 25
@@ -249,7 +259,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

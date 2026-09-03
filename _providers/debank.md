@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -36,34 +49,54 @@ apis:
 - description: OAuth 2.0 authorization-code sign-in for dApps. After a user authorizes, the dApp exchanges the code at api.connect.debank.com/oauth/token using HTTP Basic client credentials and reads the user's base
   name: DeBank Connect
   slug: debank-connect
-- description: The Account API from DeBank — 1 operation(s) for account.
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: The Account API from DeBank — 1 operation(s) for account.
   name: DeBank Account API
   slug: debank-account-api
-- description: Get app info
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get app info
   name: DeBank App Protocol API
   slug: debank-app-protocol-api
-- description: Get chain info
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get chain info
   name: DeBank Chain API
   slug: debank-chain-api
-- description: The cloud API from DeBank — 5 operation(s) for cloud.
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: The cloud API from DeBank — 5 operation(s) for cloud.
   name: DeBank Cloud API
   slug: debank-cloud-api
-- description: The official API from DeBank — 2 operation(s) for official.
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: The official API from DeBank — 2 operation(s) for official.
   name: DeBank Official API
   slug: debank-official-api
-- description: Get pool info
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get pool info
   name: DeBank Pool API
   slug: debank-pool-api
-- description: Get protocol info
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get protocol info
   name: DeBank Protocol API
   slug: debank-protocol-api
-- description: Get token info
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get token info
   name: DeBank Token API
   slug: debank-token-api
-- description: Get user info such as total balance, token list, and portfolio in each protocol
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: Get user info such as total balance, token list, and portfolio in each protocol
   name: DeBank User API
   slug: debank-user-api
-- description: It is not stable at present. If you want to use it, please contact the official first.
+- baseURL: https://pro-openapi.debank.com
+  baseurl_source: declared
+  description: It is not stable at present. If you want to use it, please contact the official first.
   name: DeBank Wallet API
   slug: debank-wallet-api
 artifact_total: 18
@@ -234,7 +267,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/screenshots/debank-2026-08-17T080851.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 37 operations
 api_count: 1
 apis:
-- description: Wikipedia, external sites, reviews, FAQ and other ancillary data.
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: Wikipedia, external sites, reviews, FAQ and other ancillary data.
   name: IMDb-API External API
   slug: imdb-api-external-api
-- description: Curated and aggregated lists (Top 250, Most Popular, In Theaters, Coming Soon, Box Office).
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: Curated and aggregated lists (Top 250, Most Popular, In Theaters, Coming Soon, Box Office).
   name: IMDb-API Lists API
   slug: imdb-api-lists-api
-- description: People (actors, directors, writers) information and awards.
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: People (actors, directors, writers) information and awards.
   name: IMDb-API Name API
   slug: imdb-api-name-api
-- description: Free-text and faceted search across titles, names, companies and keywords.
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: Free-text and faceted search across titles, names, companies and keywords.
   name: IMDb-API Search API
   slug: imdb-api-search-api
-- description: Movie and series metadata, posters, images, trailers, cast, ratings.
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: Movie and series metadata, posters, images, trailers, cast, ratings.
   name: IMDb-API Title API
   slug: imdb-api-title-api
-- description: Image utilities and account usage.
+- baseURL: https://tv-api.com/
+  baseurl_source: declared
+  description: Image utilities and account usage.
   name: IMDb-API Tools API
   slug: imdb-api-tools-api
 artifact_total: 65
@@ -338,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/screenshots/imdb-api-2026-06-20T183246.png
 security:

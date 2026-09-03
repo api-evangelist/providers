@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 28 operations · 15 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Checkout Sessions API from PayMongo — 3 operation(s) for checkout sessions.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Checkout Sessions API from PayMongo — 3 operation(s) for checkout sessions.
   name: PayMongo Checkout Sessions API
   slug: paymongo-checkout-sessions-api
-- description: The Customers API from PayMongo — 2 operation(s) for customers.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Customers API from PayMongo — 2 operation(s) for customers.
   name: PayMongo Customers API
   slug: paymongo-customers-api
-- description: The Payment Intents API from PayMongo — 3 operation(s) for payment intents.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Payment Intents API from PayMongo — 3 operation(s) for payment intents.
   name: PayMongo Payment Intents API
   slug: paymongo-payment-intents-api
-- description: The Payment Links API from PayMongo — 2 operation(s) for payment links.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Payment Links API from PayMongo — 2 operation(s) for payment links.
   name: PayMongo Payment Links API
   slug: paymongo-payment-links-api
-- description: The Payment Methods API from PayMongo — 2 operation(s) for payment methods.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Payment Methods API from PayMongo — 2 operation(s) for payment methods.
   name: PayMongo Payment Methods API
   slug: paymongo-payment-methods-api
-- description: The Payments API from PayMongo — 2 operation(s) for payments.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Payments API from PayMongo — 2 operation(s) for payments.
   name: PayMongo Payments API
   slug: paymongo-payments-api
-- description: The QR Ph API from PayMongo — 1 operation(s) for qr ph.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The QR Ph API from PayMongo — 1 operation(s) for qr ph.
   name: PayMongo QR Ph API
   slug: paymongo-qr-ph-api
-- description: The Refunds API from PayMongo — 2 operation(s) for refunds.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Refunds API from PayMongo — 2 operation(s) for refunds.
   name: PayMongo Refunds API
   slug: paymongo-refunds-api
-- description: The Sources API from PayMongo — 2 operation(s) for sources.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Sources API from PayMongo — 2 operation(s) for sources.
   name: PayMongo Sources API
   slug: paymongo-sources-api
-- description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
+- baseURL: https://api.paymongo.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from PayMongo — 4 operation(s) for webhooks.
   name: PayMongo Webhooks API
   slug: paymongo-webhooks-api
 artifact_total: 41
@@ -352,7 +372,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -362,7 +382,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 56.6
-  previous_composite: 71.3
+  previous_composite: 71.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -380,7 +400,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:

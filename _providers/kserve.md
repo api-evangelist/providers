@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: KServe's standardized model inference protocol for serving predictions across multiple ML frameworks on Kubernetes.
   name: KServe Inference API
   slug: inference-api
-- description: The Health API from KServe — 2 operation(s) for health.
+- baseURL_template: http://{host}
+  baseurl_source: spec_template
+  description: The Health API from KServe — 2 operation(s) for health.
   name: KServe Health API
   slug: kserve-health-api
-- description: The KServe Inference Protocol API from KServe — 1 operation(s) for kserve inference protocol.
+- baseURL_template: http://{host}
+  baseurl_source: spec_template
+  description: The KServe Inference Protocol API from KServe — 1 operation(s) for kserve inference protocol.
   name: KServe KServe Inference Protocol API
   slug: kserve-kserve-inference-protocol-api
-- description: The Models API from KServe — 7 operation(s) for models.
+- baseURL_template: http://{host}
+  baseurl_source: spec_template
+  description: The Models API from KServe — 7 operation(s) for models.
   name: KServe Models API
   slug: kserve-models-api
 artifact_total: 14
@@ -158,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/screenshots/kserve-2026-06-20T184201.png
 security:

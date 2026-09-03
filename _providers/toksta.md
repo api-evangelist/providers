@@ -36,37 +36,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Hosted remote Model Context Protocol server exposing 18 Toksta tools — campaigns, creator discovery, lists, enrichment, content-fit and audience-fit analysis, and job control — to Claude and ChatGPT c
   name: Toksta MCP Server
   slug: toksta-mcp-server
-- description: The Account API from toksta — 1 operation(s) for account.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Account API from toksta — 1 operation(s) for account.
   name: toksta Account API
   slug: toksta-account-api
-- description: The Analysis API from toksta — 6 operation(s) for analysis.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Analysis API from toksta — 6 operation(s) for analysis.
   name: toksta Analysis API
   slug: toksta-analysis-api
-- description: The Campaigns API from toksta — 2 operation(s) for campaigns.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Campaigns API from toksta — 2 operation(s) for campaigns.
   name: toksta Campaigns API
   slug: toksta-campaigns-api
-- description: The Creator Lists API from toksta — 2 operation(s) for creator lists.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Creator Lists API from toksta — 2 operation(s) for creator lists.
   name: toksta Creator Lists API
   slug: toksta-creator-lists-api
-- description: The Creators API from toksta — 4 operation(s) for creators.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Creators API from toksta — 4 operation(s) for creators.
   name: toksta Creators API
   slug: toksta-creators-api
-- description: The Enrichment API from toksta — 2 operation(s) for enrichment.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Enrichment API from toksta — 2 operation(s) for enrichment.
   name: toksta Enrichment API
   slug: toksta-enrichment-api
-- description: The Evidence API from toksta — 1 operation(s) for evidence.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Evidence API from toksta — 1 operation(s) for evidence.
   name: toksta Evidence API
   slug: toksta-evidence-api
-- description: The Jobs API from toksta — 4 operation(s) for jobs.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The Jobs API from toksta — 4 operation(s) for jobs.
   name: toksta Jobs API
   slug: toksta-jobs-api
-- description: The System API from toksta — 4 operation(s) for system.
+- baseURL: https://api.toksta.com
+  baseurl_source: declared
+  description: The System API from toksta — 4 operation(s) for system.
   name: toksta System API
   slug: toksta-system-api
 artifact_total: 18
@@ -241,7 +259,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/screenshots/toksta-2026-08-17T082400.png
 security:

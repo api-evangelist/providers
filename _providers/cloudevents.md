@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -76,7 +76,9 @@ apis:
 - description: The official Python SDK for CloudEvents provides libraries for producing and consuming CloudEvents in Python applications. It supports HTTP transport bindings and both structured and binary content mo
   name: CloudEvents Python SDK
   slug: cloudevents-sdk-python
-- description: Operations for creating and managing event delivery subscriptions. Each subscription specifies a source of events, optional filter criteria, and a sink where matched events are delivered.
+- baseURL_template: https://{broker-host}/subscriptions
+  baseurl_source: spec_template
+  description: Operations for creating and managing event delivery subscriptions. Each subscription specifies a source of events, optional filter criteria, and a sink where matched events are delivered.
   name: CloudEvents Subscriptions API
   slug: cloudevents-subscriptions-api
 artifact_total: 32
@@ -260,7 +262,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -273,7 +275,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 40.5
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -282,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: The Overpass API is a read-only database engine for complex geospatial queries against the OSM dataset. Accepts Overpass QL or XML queries and returns results in XML, JSON, GeoJSON, or CSV. Safe usage
   name: OpenStreetMap Overpass API
   slug: overpass-api
-- description: API version and limits
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: API version and limits
   name: OpenStreetMap Capabilities API
   slug: openstreetmap-capabilities-api
-- description: Changeset management for grouped edits
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: Changeset management for grouped edits
   name: OpenStreetMap Changesets API
   slug: openstreetmap-changesets-api
-- description: Bulk map data retrieval by bounding box
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: Bulk map data retrieval by bounding box
   name: OpenStreetMap Map Data API
   slug: openstreetmap-map-data-api
-- description: OSM node (point) operations
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: OSM node (point) operations
   name: OpenStreetMap Nodes API
   slug: openstreetmap-nodes-api
-- description: Community map notes
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: Community map notes
   name: OpenStreetMap Notes API
   slug: openstreetmap-notes-api
-- description: OSM relation operations
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: OSM relation operations
   name: OpenStreetMap Relations API
   slug: openstreetmap-relations-api
-- description: User account information
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: User account information
   name: OpenStreetMap Users API
   slug: openstreetmap-users-api
-- description: OSM way (line/polygon) operations
+- baseURL: https://api.openstreetmap.org/api/0.6
+  baseurl_source: declared
+  description: OSM way (line/polygon) operations
   name: OpenStreetMap Ways API
   slug: openstreetmap-ways-api
-- description: Forward geocoding, reverse geocoding, and OSM object lookup
+- baseURL: https://overpass-api.de/api
+  baseurl_source: declared
+  description: Forward geocoding, reverse geocoding, and OSM object lookup
   name: OpenStreetMap Geocoding API
   slug: openstreetmap-geocoding-api
-- description: Server status and version information
+- baseURL: https://overpass-api.de/api
+  baseurl_source: declared
+  description: Server status and version information
   name: OpenStreetMap Status API
   slug: openstreetmap-status-api
 artifact_total: 67
@@ -375,7 +395,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 24 operations · 12 acting
 api_count: 1
 apis:
-- description: The Accounts API from BCB Group — 4 operation(s) for accounts.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Accounts API from BCB Group — 4 operation(s) for accounts.
   name: BCB Group Accounts API
   slug: bcb-group-accounts-api
-- description: The Authentication API from BCB Group — 1 operation(s) for authentication.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Authentication API from BCB Group — 1 operation(s) for authentication.
   name: BCB Group Authentication API
   slug: bcb-group-authentication-api
-- description: The Beneficiaries API from BCB Group — 2 operation(s) for beneficiaries.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Beneficiaries API from BCB Group — 2 operation(s) for beneficiaries.
   name: BCB Group Beneficiaries API
   slug: bcb-group-beneficiaries-api
-- description: The BLINC API from BCB Group — 2 operation(s) for blinc.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The BLINC API from BCB Group — 2 operation(s) for blinc.
   name: BCB Group BLINC API
   slug: bcb-group-blinc-api
-- description: The Notifications API from BCB Group — 1 operation(s) for notifications.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Notifications API from BCB Group — 1 operation(s) for notifications.
   name: BCB Group Notifications API
   slug: bcb-group-notifications-api
-- description: The Payments API from BCB Group — 7 operation(s) for payments.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Payments API from BCB Group — 7 operation(s) for payments.
   name: BCB Group Payments API
   slug: bcb-group-payments-api
-- description: The Tools API from BCB Group — 1 operation(s) for tools.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Tools API from BCB Group — 1 operation(s) for tools.
   name: BCB Group Tools API
   slug: bcb-group-tools-api
-- description: The Virtual Accounts API from BCB Group — 6 operation(s) for virtual accounts.
+- baseURL: https://api.bcb.group
+  baseurl_source: declared
+  description: The Virtual Accounts API from BCB Group — 6 operation(s) for virtual accounts.
   name: BCB Group Virtual Accounts API
   slug: bcb-group-virtual-accounts-api
 artifact_total: 23
@@ -265,7 +281,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -275,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,7 +309,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcb-group/refs/heads/main/screenshots/bcb-group-2026-07-25T202502.png
 security:

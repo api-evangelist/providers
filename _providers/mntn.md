@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,58 +35,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 19
 apis:
-- description: Public partner reporting surface at api3.mountain.com. GET /apilist returns the tables and columns available to the authenticated advertiser; GET and POST /apidata execute multidimensional queries ove
+- baseURL: https://api3.mountain.com
+  baseurl_source: declared
+  description: Public partner reporting surface at api3.mountain.com. GET /apilist returns the tables and columns available to the authenticated advertiser; GET and POST /apidata execute multidimensional queries ove
   name: MNTN Reporting API 3.0
   slug: mntn-reporting-api-30
-- description: Advertiser directory.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Advertiser directory.
   name: MNTN Advertisers API
   slug: mntn-advertisers-api
-- description: Public reporting data (`/apidata`)
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Public reporting data (`/apidata`)
   name: MNTN API
   slug: mntn-api-api
-- description: Advertiser attribution windows, estimates, sales cycle, and verified-visit blacklist settings.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Advertiser attribution windows, estimates, sales cycle, and verified-visit blacklist settings.
   name: MNTN Attribution API
   slug: mntn-attribution-api
-- description: Audience and geo-list management.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Audience and geo-list management.
   name: MNTN Audiences API
   slug: mntn-audiences-api
-- description: Async CSV exports under **`/batch`…** (submit, poll status, signed download URLs)
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Async CSV exports under **`/batch`…** (submit, poll status, signed download URLs)
   name: MNTN Batch API
   slug: mntn-batch-api
-- description: Campaign list, lookup, and lifecycle.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Campaign list, lookup, and lifecycle.
   name: MNTN Campaigns API
   slug: mntn-campaigns-api
-- description: Creative library lookup, with normalized video processing status.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Creative library lookup, with normalized video processing status.
   name: MNTN Creatives API
   slug: mntn-creatives-api
-- description: Flight (budget window) reads and updates within a campaign.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Flight (budget window) reads and updates within a campaign.
   name: MNTN Flights API
   slug: mntn-flights-api
-- description: Organization name and mode updates (proxied to advertiser-service).
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Organization name and mode updates (proxied to advertiser-service).
   name: MNTN Organizations API
   slug: mntn-organizations-api
-- description: Pixel configuration, health, verification, and GA4 management.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Pixel configuration, health, verification, and GA4 management.
   name: MNTN Pixel API
   slug: mntn-pixel-api
-- description: Deal-group assignment to campaigns.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Deal-group assignment to campaigns.
   name: MNTN Pmp Campaign Deals API
   slug: mntn-pmp-campaign-deals-api
-- description: Private marketplace channel reference set.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Private marketplace channel reference set.
   name: MNTN Pmp Channels API
   slug: mntn-pmp-channels-api
-- description: Private marketplace deal-group management and deal membership.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Private marketplace deal-group management and deal membership.
   name: MNTN Pmp Deal Groups API
   slug: mntn-pmp-deal-groups-api
-- description: Private marketplace deal reads and lifecycle.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Private marketplace deal reads and lifecycle.
   name: MNTN Pmp Deals API
   slug: mntn-pmp-deals-api
-- description: Private marketplace partner directory.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Private marketplace partner directory.
   name: MNTN Pmp Partners API
   slug: mntn-pmp-partners-api
-- description: Enumerations and lookup data shared across endpoints.
+- baseURL: https://api.mountain.com/ptv
+  baseurl_source: declared
+  description: Enumerations and lookup data shared across endpoints.
   name: MNTN Reference API
   slug: mntn-reference-api
 artifact_total: 40
@@ -310,7 +356,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/screenshots/mntn-2026-08-17T081059.png
 security:

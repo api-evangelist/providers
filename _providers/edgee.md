@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +36,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Management API for an Edgee organization: export AI Gateway usage and cost data as CSV or JSON, create/list/update/delete AI Gateway API keys, and configure custom BYOK provider keys. Bearer-token aut'
   name: Edgee Console API
   slug: edgee-console
-- description: Chat completion endpoints (OpenAI format)
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Chat completion endpoints (OpenAI format)
   name: Edgee Chat API
   slug: edgee-chat-api
-- description: Standalone token compression endpoint
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Standalone token compression endpoint
   name: Edgee Compress API
   slug: edgee-compress-api
-- description: Messages endpoints (Anthropic format)
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Messages endpoints (Anthropic format)
   name: Edgee Messages API
   slug: edgee-messages-api
-- description: Model management endpoints
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Model management endpoints
   name: Edgee Models API
   slug: edgee-models-api
-- description: Responses endpoints (OpenAI Responses API format)
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Responses endpoints (OpenAI Responses API format)
   name: Edgee Responses API
   slug: edgee-responses-api
-- description: Token estimation endpoints
+- baseURL: https://edgee.io
+  baseurl_source: declared
+  description: Token estimation endpoints
   name: Edgee Tokens API
   slug: edgee-tokens-api
 artifact_total: 13
@@ -218,7 +243,7 @@ score:
   band: strong
   composite: 57.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -243,8 +268,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edgee/refs/heads/main/screenshots/edgee-2026-09-02T145329.png
 security:
 - kind: authentication
   name: Edgee Authentication

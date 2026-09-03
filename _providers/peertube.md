@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 8
@@ -44,166 +44,274 @@ agentic_access:
   summary_line: 580 operations · 350 acting · 8 human-in-the-loop
 api_count: 2
 apis:
-- description: Abuses deal with reports of local or remote videos/comments/accounts alike.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Abuses deal with reports of local or remote videos/comments/accounts alike.
   name: PeerTube Abuses API
   slug: peertube-abuses-api
-- description: The Account Blocklist API from PeerTube — 5 operation(s) for account blocklist.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Account Blocklist API from PeerTube — 5 operation(s) for account blocklist.
   name: PeerTube Account Blocklist API
   slug: peertube-account-blocklist-api
-- description: 'Accounts encompass remote accounts discovered across the federation, and correspond to the main Actor, along with video channels a user can create, which are also Actors. When a comment is posted, it '
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: 'Accounts encompass remote accounts discovered across the federation, and correspond to the main Actor, along with video channels a user can create, which are also Actors. When a comment is posted, it '
   name: PeerTube Accounts API
   slug: peertube-accounts-api
-- description: Automatic tags set on objects (like comments or videos) by specific rules (external link, watched words, etc.)
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Automatic tags set on objects (like comments or videos) by specific rules (external link, watched words, etc.)
   name: PeerTube Automatic Tags API
   slug: peertube-automatic-tags-api
-- description: Operations dealing with synchronizing PeerTube user's channel with channels of other platforms
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with synchronizing PeerTube user's channel with channels of other platforms
   name: PeerTube Channels Sync API
   slug: peertube-channels-sync-api
-- description: Configuration of the web client.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Configuration of the web client.
   name: PeerTube Client Config API
   slug: peertube-client-config-api
-- description: Each server exposes public information regarding supported videos and options.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Each server exposes public information regarding supported videos and options.
   name: PeerTube Config API
   slug: peertube-config-api
-- description: Send a message to the instance administrators.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Send a message to the instance administrators.
   name: PeerTube Contact API
   slug: peertube-contact-api
-- description: Administrative debug endpoints.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Administrative debug endpoints.
   name: PeerTube Debug API
   slug: peertube-debug-api
-- description: Get and update the custom homepage
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Get and update the custom homepage
   name: PeerTube Homepage API
   slug: peertube-homepage-api
-- description: Managing servers which the instance interacts with is crucial to the concept of federation in PeerTube and external video indexation. The PeerTube server then deals with inter-server ActivityPub opera
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Managing servers which the instance interacts with is crucial to the concept of federation in PeerTube and external video indexation. The PeerTube server then deals with inter-server ActivityPub opera
   name: PeerTube Instance Follows API
   slug: peertube-instance-follows-api
-- description: Redundancy is part of the inter-server solidarity that PeerTube fosters. Manage the list of instances you wish to help by seeding their videos according to the policy of video selection of your choice
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Redundancy is part of the inter-server solidarity that PeerTube fosters. Manage the list of instances you wish to help by seeding their videos according to the policy of video selection of your choice
   name: PeerTube Instance Redundancy API
   slug: peertube-instance-redundancy-api
-- description: Jobs are long-running tasks enqueued and processed by the instance itself. No additional worker registration is currently available.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Jobs are long-running tasks enqueued and processed by the instance itself. No additional worker registration is currently available.
   name: PeerTube Job API
   slug: peertube-job-api
-- description: The Live Videos API from PeerTube — 4 operation(s) for live videos.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Live Videos API from PeerTube — 4 operation(s) for live videos.
   name: PeerTube Live Videos API
   slug: peertube-live-videos-api
-- description: Operations dealing with client, server and audit logs.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with client, server and audit logs.
   name: PeerTube Logs API
   slug: peertube-logs-api
-- description: Operations related to your watch history.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations related to your watch history.
   name: PeerTube My History API
   slug: peertube-my-history-api
-- description: Notifications following new videos, follows or reports. They allow you to keep track of the interactions and overall important information that concerns you. You MAY set per-notification type delivery
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Notifications following new videos, follows or reports. They allow you to keep track of the interactions and overall important information that concerns you. You MAY set per-notification type delivery
   name: PeerTube My Notifications API
   slug: peertube-my-notifications-api
-- description: Operations related to your subscriptions to video channels, their new videos, and how to keep up to date with their latest publications!
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations related to your subscriptions to video channels, their new videos, and how to keep up to date with their latest publications!
   name: PeerTube My Subscriptions API
   slug: peertube-my-subscriptions-api
-- description: Operations related to your own User, when logged-in.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations related to your own User, when logged-in.
   name: PeerTube My User API
   slug: peertube-my-user-api
-- description: The Ownership Change API from PeerTube — 12 operation(s) for ownership change.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Ownership Change API from PeerTube — 12 operation(s) for ownership change.
   name: PeerTube Ownership Change API
   slug: peertube-ownership-change-api
-- description: Operations dealing with video player settings for videos and channels.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with video player settings for videos and channels.
   name: PeerTube Player Settings API
   slug: peertube-player-settings-api
-- description: Managing plugins installed from a local path or from NPM, or search for new ones.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Managing plugins installed from a local path or from NPM, or search for new ones.
   name: PeerTube Plugins API
   slug: peertube-plugins-api
-- description: As a visitor, you can use this API to open an account (if registrations are open on that PeerTube instance). As an admin, you should use the dedicated [User creation API](#operation/addUser) instead.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: As a visitor, you can use this API to open an account (if registrations are open on that PeerTube instance). As an admin, you should use the dedicated [User creation API](#operation/addUser) instead.
   name: PeerTube Register API
   slug: peertube-register-api
-- description: Manage runner jobs and runner-side job execution.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Manage runner jobs and runner-side job execution.
   name: PeerTube Runner Jobs API
   slug: peertube-runner-jobs-api
-- description: Manage runner registration tokens.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Manage runner registration tokens.
   name: PeerTube Runner Registration Token API
   slug: peertube-runner-registration-token-api
-- description: Register, list and remove remote runners.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Register, list and remove remote runners.
   name: PeerTube Runners API
   slug: peertube-runners-api
-- description: The search helps to find _videos_ or _channels_ from within the instance and beyond. Videos from other instances federated by the instance (that is, instances followed by the instance) can be found vi
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The search helps to find _videos_ or _channels_ from within the instance and beyond. Videos from other instances federated by the instance (that is, instances followed by the instance) can be found vi
   name: PeerTube Search API
   slug: peertube-search-api
-- description: The Server Blocklist API from PeerTube — 5 operation(s) for server blocklist.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Server Blocklist API from PeerTube — 5 operation(s) for server blocklist.
   name: PeerTube Server Blocklist API
   slug: peertube-server-blocklist-api
-- description: Sessions deal with access tokens over time. Only __one session token can currently be used at a time__.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Sessions deal with access tokens over time. Only __one session token can currently be used at a time__.
   name: PeerTube Session API
   slug: peertube-session-api
-- description: The Static Video Files API from PeerTube — 4 operation(s) for static video files.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Static Video Files API from PeerTube — 4 operation(s) for static video files.
   name: PeerTube Static Video Files API
   slug: peertube-static-video-files-api
-- description: Statistics
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Statistics
   name: PeerTube Stats API
   slug: peertube-stats-api
-- description: To create an archive of user data.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: To create an archive of user data.
   name: PeerTube User Exports API
   slug: peertube-user-exports-api
-- description: To import an archive of user data.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: To import an archive of user data.
   name: PeerTube User Imports API
   slug: peertube-user-imports-api
-- description: Using some features of PeerTube require authentication, for which User provide different levels of permission as well as associated user information. Each user has a corresponding local Account for fe
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Using some features of PeerTube require authentication, for which User provide different levels of permission as well as associated user information. Each user has a corresponding local Account for fe
   name: PeerTube Users API
   slug: peertube-users-api
-- description: Operations dealing with listing, uploading, fetching or modifying videos.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with listing, uploading, fetching or modifying videos.
   name: PeerTube Video API
   slug: peertube-video-api
-- description: Operations dealing with blocking videos (removing them from view and preventing interactions).
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with blocking videos (removing them from view and preventing interactions).
   name: PeerTube Video Blocks API
   slug: peertube-video-blocks-api
-- description: Operations dealing with listing, adding and removing closed captions of a video.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with listing, adding and removing closed captions of a video.
   name: PeerTube Video Captions API
   slug: peertube-video-captions-api
-- description: Operations dealing with the creation, modification and listing of videos within a channel.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with the creation, modification and listing of videos within a channel.
   name: PeerTube Video Channels API
   slug: peertube-video-channels-api
-- description: Operations dealing with managing chapters of a video.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with managing chapters of a video.
   name: PeerTube Video Chapters API
   slug: peertube-video-chapters-api
-- description: 'Operations dealing with comments to a video. Comments are organized in threads: adding a comment in response to the video starts a thread, adding a reply to a comment adds it to its root comment threa'
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: 'Operations dealing with comments to a video. Comments are organized in threads: adding a comment in response to the video starts a thread, adding a reply to a comment adds it to its root comment threa'
   name: PeerTube Video Comments API
   slug: peertube-video-comments-api
-- description: Download video files
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Download video files
   name: PeerTube Video Download API
   slug: peertube-video-download-api
-- description: The Video Embed Privacy API from PeerTube — 2 operation(s) for video embed privacy.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Video Embed Privacy API from PeerTube — 2 operation(s) for video embed privacy.
   name: PeerTube Video Embed Privacy API
   slug: peertube-video-embed-privacy-api
-- description: Server syndication feeds of videos
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Server syndication feeds of videos
   name: PeerTube Video Feeds API
   slug: peertube-video-feeds-api
-- description: Operations on video files
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations on video files
   name: PeerTube Video Files API
   slug: peertube-video-files-api
-- description: Operations dealing with listing, adding and removing video imports.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with listing, adding and removing video imports.
   name: PeerTube Video Imports API
   slug: peertube-video-imports-api
-- description: PeerTube instances can mirror videos from one another, and help distribute some videos. For importing videos as your own, refer to [video imports](#operation/importVideo).
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: PeerTube instances can mirror videos from one another, and help distribute some videos. For importing videos as your own, refer to [video imports](#operation/importVideo).
   name: PeerTube Video Mirroring API
   slug: peertube-video-mirroring-api
-- description: Operations on video passwords.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations on video passwords.
   name: PeerTube Video Passwords API
   slug: peertube-video-passwords-api
-- description: Operations dealing with playlists of videos. Playlists are bound to users and/or channels.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Operations dealing with playlists of videos. Playlists are bound to users and/or channels.
   name: PeerTube Video Playlists API
   slug: peertube-video-playlists-api
-- description: Like/dislike a video.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Like/dislike a video.
   name: PeerTube Video Rates API
   slug: peertube-video-rates-api
-- description: Video statistics
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Video statistics
   name: PeerTube Video Stats API
   slug: peertube-video-stats-api
-- description: Video transcoding related operations
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Video transcoding related operations
   name: PeerTube Video Transcoding API
   slug: peertube-video-transcoding-api
-- description: 'Operations dealing with adding video or audio. PeerTube supports two upload modes, and three import modes. ### Upload - [_legacy_](#operation/uploadLegacy), where the video file is sent in a single re'
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: 'Operations dealing with adding video or audio. PeerTube supports two upload modes, and three import modes. ### Upload - [_legacy_](#operation/uploadLegacy), where the video file is sent in a single re'
   name: PeerTube Video Upload API
   slug: peertube-video-upload-api
-- description: The Videos API from PeerTube — 4 operation(s) for videos.
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: The Videos API from PeerTube — 4 operation(s) for videos.
   name: PeerTube Videos API
   slug: peertube-videos-api
-- description: Manage list of watched words to detect patterns on objects (like comments of videos)
+- baseURL: https://{instance}/api/v1
+  baseurl_source: declared
+  description: Manage list of watched words to detect patterns on objects (like comments of videos)
   name: PeerTube Watched Words API
   slug: peertube-watched-words-api
 artifact_total: 579
@@ -1890,7 +1998,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png
 security:

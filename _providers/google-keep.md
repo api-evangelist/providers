@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The Google Keep API API from Google Keep — 1 operation(s) for google keep api.
+- baseURL: https://keep.googleapis.com
+  baseurl_source: declared
+  description: The Google Keep API API from Google Keep — 1 operation(s) for google keep api.
   name: Google Keep Google Keep API API
   slug: google-keep-google-keep-api-api
-- description: The Notes API from Google Keep — 1 operation(s) for notes.
+- baseURL: https://keep.googleapis.com
+  baseurl_source: declared
+  description: The Notes API from Google Keep — 1 operation(s) for notes.
   name: Google Keep Notes API
   slug: google-keep-notes-api
-- description: The Permissions:batchCreate API from Google Keep — 1 operation(s) for permissions:batchcreate.
+- baseURL: https://keep.googleapis.com
+  baseurl_source: declared
+  description: The Permissions:batchCreate API from Google Keep — 1 operation(s) for permissions:batchcreate.
   name: Google Keep Permissions:batchCreate API
   slug: google-keep-permissions-batchcreate-api
-- description: The Permissions:batchDelete API from Google Keep — 1 operation(s) for permissions:batchdelete.
+- baseURL: https://keep.googleapis.com
+  baseurl_source: declared
+  description: The Permissions:batchDelete API from Google Keep — 1 operation(s) for permissions:batchdelete.
   name: Google Keep Permissions:batchDelete API
   slug: google-keep-permissions-batchdelete-api
 artifact_total: 18
@@ -183,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-keep/refs/heads/main/screenshots/google-keep-2026-06-20T182208.png
 security:

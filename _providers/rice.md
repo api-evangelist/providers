@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The only publicly callable API Rice University itself operates. Serves the Kinder Institute for Urban Research''s Urban Data Platform: a 431-dataset catalog of Houston and Harris County urban data acro'
+- baseURL: https://lg4tooqkr1.execute-api.us-east-1.amazonaws.com/prod
+  baseurl_source: declared
+  description: 'The only publicly callable API Rice University itself operates. Serves the Kinder Institute for Urban Research''s Urban Data Platform: a 431-dataset catalog of Houston and Harris County urban data acro'
   name: Rice Kinder Institute Urban Data Platform API
   slug: kinder-udp
 - description: Rice University's own Shibboleth/SAML 2.0 identity provider, publishing a live EntityDescriptor with an IDPSSODescriptor, a shibmd:Scope of rice.edu and support for SAML 1.1, SAML 2.0 and the Shibbole
@@ -213,7 +215,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 24.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -223,7 +225,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 23.2
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     contracts:
@@ -238,8 +240,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rice/refs/heads/main/screenshots/rice-2026-06-20T193109.png
 security:
 - kind: authentication

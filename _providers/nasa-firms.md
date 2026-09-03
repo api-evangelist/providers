@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Active fire hotspot detections within a bounding box area
+- baseURL: https://firms.modaps.eosdis.nasa.gov
+  baseurl_source: declared
+  description: Active fire hotspot detections within a bounding box area
   name: NASA FIRMS Area Fire Detections API
   slug: nasa-firms-area-fire-detections-api
-- description: Check which dates have Standard Processing or Near Real-Time data
+- baseURL: https://firms.modaps.eosdis.nasa.gov
+  baseurl_source: declared
+  description: Check which dates have Standard Processing or Near Real-Time data
   name: NASA FIRMS Data Availability API
   slug: nasa-firms-data-availability-api
-- description: KMZ files containing color-coded fire footprint polygons by region
+- baseURL: https://firms.modaps.eosdis.nasa.gov
+  baseurl_source: declared
+  description: KMZ files containing color-coded fire footprint polygons by region
   name: NASA FIRMS KML Fire Footprints API
   slug: nasa-firms-kml-fire-footprints-api
-- description: Identify dates with absent satellite fire detection data
+- baseURL: https://firms.modaps.eosdis.nasa.gov
+  baseurl_source: declared
+  description: Identify dates with absent satellite fire detection data
   name: NASA FIRMS Missing Data API
   slug: nasa-firms-missing-data-api
 artifact_total: 21
@@ -231,7 +239,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/screenshots/nasa-firms-2026-06-20T185947.png
 security:

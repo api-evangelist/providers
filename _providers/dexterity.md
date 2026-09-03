@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Start, place boxes in, stop and query the status of packing games.
+- baseURL: https://dexterity.ai/challenge/api
+  baseurl_source: declared
+  description: Start, place boxes in, stop and query the status of packing games.
   name: Dexterity Games API
   slug: dexterity-games-api
-- description: Retrieve the public Foresight Packing Challenge leaderboard.
+- baseURL: https://dexterity.ai/challenge/api
+  baseurl_source: declared
+  description: Retrieve the public Foresight Packing Challenge leaderboard.
   name: Dexterity Leaderboard API
   slug: dexterity-leaderboard-api
-- description: List a player's games and update their public display name.
+- baseURL: https://dexterity.ai/challenge/api
+  baseurl_source: declared
+  description: List a player's games and update their public display name.
   name: Dexterity Players API
   slug: dexterity-players-api
-- description: Service health and operational endpoints.
+- baseURL: https://dexterity.ai/challenge/api
+  baseurl_source: declared
+  description: Service health and operational endpoints.
   name: Dexterity System API
   slug: dexterity-system-api
 artifact_total: 59
@@ -314,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexterity/refs/heads/main/screenshots/dexterity-2026-06-20T180009.png
 security:

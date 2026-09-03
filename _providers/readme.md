@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -50,40 +50,64 @@ apis:
 - description: ReadMe's Personalized Docs Webhook is the outbound, customer-hosted webhook the developer hub calls at user sign-in to look up a reader's account data. ReadMe POSTs a JSON body containing the user's e
   name: ReadMe Personalized Docs Webhook
   slug: personalized-docs-webhook
-- description: Page view, quality, and search analytics
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Page view, quality, and search analytics
   name: ReadMe Analytics API
   slug: readme-analytics-api
-- description: Manage ReadMe API keys
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage ReadMe API keys
   name: ReadMe API Keys API
   slug: readme-api-keys-api
-- description: Manage API definitions and reference pages
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage API definitions and reference pages
   name: ReadMe APIs API
   slug: readme-apis-api
-- description: Manage versions and branches
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage versions and branches
   name: ReadMe Branches API
   slug: readme-branches-api
-- description: Manage sidebar groupings
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage sidebar groupings
   name: ReadMe Categories API
   slug: readme-categories-api
-- description: Manage changelog posts
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage changelog posts
   name: ReadMe Changelog API
   slug: readme-changelog-api
-- description: Manage custom documentation pages
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage custom documentation pages
   name: ReadMe Custom Pages API
   slug: readme-custom-pages-api
-- description: Manage knowledge base guide pages
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage knowledge base guide pages
   name: ReadMe Guides API
   slug: readme-guides-api
-- description: Upload and manage images
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Upload and manage images
   name: ReadMe Images API
   slug: readme-images-api
-- description: Send API request metrics from server-side SDKs
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Send API request metrics from server-side SDKs
   name: ReadMe Metrics API
   slug: readme-metrics-api
-- description: Manage interactive recipe content
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Manage interactive recipe content
   name: ReadMe Recipes API
   slug: readme-recipes-api
-- description: Search knowledge base content
+- baseURL: https://api.readme.com/v2
+  baseurl_source: declared
+  description: Search knowledge base content
   name: ReadMe Search API
   slug: readme-search-api
 arazzos:
@@ -469,7 +493,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -479,7 +503,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -488,7 +512,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png
 security:

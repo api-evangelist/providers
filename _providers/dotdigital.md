@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -47,190 +47,314 @@ apis:
 - description: A remote MCP server that exposes the Dotdigital OpenAPI corpus and the developer-hub documentation to AI coding tools. Seven read-only tools (list-specs, list-endpoints, get-endpoint, search-endpoints
   name: Dotdigital Marketing Developer Hub MCP Server
   slug: dotdigital-marketing-developer-hub-mcp-server
-- description: The Accounts and Utilities API from Dotdigital — 3 operation(s) for accounts and utilities.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Accounts and Utilities API from Dotdigital — 3 operation(s) for accounts and utilities.
   name: Dotdigital Accounts and Utilities API
   slug: dotdigital-accounts-and-utilities-api
-- description: The ApiAccount API from Dotdigital — 8 operation(s) for apiaccount.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiAccount API from Dotdigital — 8 operation(s) for apiaccount.
   name: Dotdigital API Account API
   slug: dotdigital-apiaccount-api
-- description: The ApiAddressBook API from Dotdigital — 6 operation(s) for apiaddressbook.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiAddressBook API from Dotdigital — 6 operation(s) for apiaddressbook.
   name: Dotdigital API Address Book API
   slug: dotdigital-apiaddressbook-api
-- description: The ApiCampaign API from Dotdigital — 11 operation(s) for apicampaign.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiCampaign API from Dotdigital — 11 operation(s) for apicampaign.
   name: Dotdigital API Campaign API
   slug: dotdigital-apicampaign-api
-- description: The ApiCampaignFromAddress API from Dotdigital — 1 operation(s) for apicampaignfromaddress.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiCampaignFromAddress API from Dotdigital — 1 operation(s) for apicampaignfromaddress.
   name: Dotdigital API Campaign From Address API
   slug: dotdigital-apicampaignfromaddress-api
-- description: The ApiCampaignReporting API from Dotdigital — 24 operation(s) for apicampaignreporting.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiCampaignReporting API from Dotdigital — 24 operation(s) for apicampaignreporting.
   name: Dotdigital API Campaign Reporting API
   slug: dotdigital-apicampaignreporting-api
-- description: The ApiCampaignSend API from Dotdigital — 3 operation(s) for apicampaignsend.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiCampaignSend API from Dotdigital — 3 operation(s) for apicampaignsend.
   name: Dotdigital API Campaign Send API
   slug: dotdigital-apicampaignsend-api
-- description: The ApiContact API from Dotdigital — 43 operation(s) for apicontact.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiContact API from Dotdigital — 43 operation(s) for apicontact.
   name: Dotdigital API Contact API
   slug: dotdigital-apicontact-api
-- description: The ApiContactImport API from Dotdigital — 8 operation(s) for apicontactimport.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiContactImport API from Dotdigital — 8 operation(s) for apicontactimport.
   name: Dotdigital API Contact Import API
   slug: dotdigital-apicontactimport-api
-- description: The ApiDataField API from Dotdigital — 2 operation(s) for apidatafield.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiDataField API from Dotdigital — 2 operation(s) for apidatafield.
   name: Dotdigital API Data Field API
   slug: dotdigital-apidatafield-api
-- description: The ApiDocument API from Dotdigital — 5 operation(s) for apidocument.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiDocument API from Dotdigital — 5 operation(s) for apidocument.
   name: Dotdigital API Document API
   slug: dotdigital-apidocument-api
-- description: The ApiEcommerce API from Dotdigital — 4 operation(s) for apiecommerce.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiEcommerce API from Dotdigital — 4 operation(s) for apiecommerce.
   name: Dotdigital API Ecommerce API
   slug: dotdigital-apiecommerce-api
-- description: The ApiImage API from Dotdigital — 3 operation(s) for apiimage.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiImage API from Dotdigital — 3 operation(s) for apiimage.
   name: Dotdigital API Image API
   slug: dotdigital-apiimage-api
-- description: The ApiPreference API from Dotdigital — 14 operation(s) for apipreference.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiPreference API from Dotdigital — 14 operation(s) for apipreference.
   name: Dotdigital API Preference API
   slug: dotdigital-apipreference-api
-- description: The ApiProductRecommendations API from Dotdigital — 1 operation(s) for apiproductrecommendations.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiProductRecommendations API from Dotdigital — 1 operation(s) for apiproductrecommendations.
   name: Dotdigital API Product Recommendations API
   slug: dotdigital-apiproductrecommendations-api
-- description: The ApiProgram API from Dotdigital — 6 operation(s) for apiprogram.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiProgram API from Dotdigital — 6 operation(s) for apiprogram.
   name: Dotdigital API Program API
   slug: dotdigital-apiprogram-api
-- description: The ApiSegment API from Dotdigital — 2 operation(s) for apisegment.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiSegment API from Dotdigital — 2 operation(s) for apisegment.
   name: Dotdigital API Segment API
   slug: dotdigital-apisegment-api
-- description: The ApiSms API from Dotdigital — 4 operation(s) for apisms.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiSms API from Dotdigital — 4 operation(s) for apisms.
   name: Dotdigital API Sms API
   slug: dotdigital-apisms-api
-- description: The Apispaces API from Dotdigital — 2 operation(s) for apispaces.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Apispaces API from Dotdigital — 2 operation(s) for apispaces.
   name: Dotdigital Apispaces API
   slug: dotdigital-apispaces-api
-- description: The ApiSurvey API from Dotdigital — 6 operation(s) for apisurvey.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiSurvey API from Dotdigital — 6 operation(s) for apisurvey.
   name: Dotdigital API Survey API
   slug: dotdigital-apisurvey-api
-- description: The ApiTemplate API from Dotdigital — 2 operation(s) for apitemplate.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiTemplate API from Dotdigital — 2 operation(s) for apitemplate.
   name: Dotdigital API Template API
   slug: dotdigital-apitemplate-api
-- description: The ApiTransactionalEmail API from Dotdigital — 6 operation(s) for apitransactionalemail.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The ApiTransactionalEmail API from Dotdigital — 6 operation(s) for apitransactionalemail.
   name: Dotdigital API Transactional Email API
   slug: dotdigital-apitransactionalemail-api
-- description: The App Messaging API from Dotdigital — 2 operation(s) for app messaging.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The App Messaging API from Dotdigital — 2 operation(s) for app messaging.
   name: Dotdigital App Messaging API
   slug: dotdigital-app-messaging-api
-- description: The Bulk validation API from Dotdigital — 3 operation(s) for bulk validation.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Bulk validation API from Dotdigital — 3 operation(s) for bulk validation.
   name: Dotdigital Bulk validation API
   slug: dotdigital-bulk-validation-api
-- description: The Campaign Templates API from Dotdigital — 2 operation(s) for campaign templates.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Campaign Templates API from Dotdigital — 2 operation(s) for campaign templates.
   name: Dotdigital Campaign Templates API
   slug: dotdigital-campaign-templates-api
-- description: The Channels API from Dotdigital — 1 operation(s) for channels.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Channels API from Dotdigital — 1 operation(s) for channels.
   name: Dotdigital Channels API
   slug: dotdigital-channels-api
-- description: The Chat API from Dotdigital — 2 operation(s) for chat.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Chat API from Dotdigital — 2 operation(s) for chat.
   name: Dotdigital Chat API
   slug: dotdigital-chat-api
-- description: The Contact data fields API from Dotdigital — 2 operation(s) for contact data fields.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Contact data fields API from Dotdigital — 2 operation(s) for contact data fields.
   name: Dotdigital Contact data fields API
   slug: dotdigital-contact-data-fields-api
-- description: The Contacts API from Dotdigital — 6 operation(s) for contacts.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Contacts API from Dotdigital — 6 operation(s) for contacts.
   name: Dotdigital Contacts API
   slug: dotdigital-contacts-api
-- description: The Cpaas API from Dotdigital — 41 operation(s) for cpaas.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Cpaas API from Dotdigital — 41 operation(s) for cpaas.
   name: Dotdigital Cpaas API
   slug: dotdigital-cpaas-api
-- description: The Custom identifiers API from Dotdigital — 2 operation(s) for custom identifiers.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Custom identifiers API from Dotdigital — 2 operation(s) for custom identifiers.
   name: Dotdigital Custom identifiers API
   slug: dotdigital-custom-identifiers-api
-- description: The Data Firehose API from Dotdigital — 3 operation(s) for data firehose.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Data Firehose API from Dotdigital — 3 operation(s) for data firehose.
   name: Dotdigital Data Firehose API
   slug: dotdigital-data-firehose-api
-- description: The Documents API from Dotdigital — 3 operation(s) for documents.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Documents API from Dotdigital — 3 operation(s) for documents.
   name: Dotdigital Documents API
   slug: dotdigital-documents-api
-- description: The Ecommerce API from Dotdigital — 1 operation(s) for ecommerce.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Ecommerce API from Dotdigital — 1 operation(s) for ecommerce.
   name: Dotdigital Ecommerce API
   slug: dotdigital-ecommerce-api
-- description: The Email Campaigns API from Dotdigital — 39 operation(s) for email campaigns.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Email Campaigns API from Dotdigital — 39 operation(s) for email campaigns.
   name: Dotdigital Email Campaigns API
   slug: dotdigital-email-campaigns-api
-- description: The Email contacts API from Dotdigital — 18 operation(s) for email contacts.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Email contacts API from Dotdigital — 18 operation(s) for email contacts.
   name: Dotdigital Email contacts API
   slug: dotdigital-email-contacts-api
-- description: The Export events API from Dotdigital — 1 operation(s) for export events.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Export events API from Dotdigital — 1 operation(s) for export events.
   name: Dotdigital Export events API
   slug: dotdigital-export-events-api
-- description: The Images API from Dotdigital — 3 operation(s) for images.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Images API from Dotdigital — 3 operation(s) for images.
   name: Dotdigital Images API
   slug: dotdigital-images-api
-- description: The Import events API from Dotdigital — 1 operation(s) for import events.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Import events API from Dotdigital — 1 operation(s) for import events.
   name: Dotdigital Import events API
   slug: dotdigital-import-events-api
-- description: The Insight and transactional data API from Dotdigital — 9 operation(s) for insight and transactional data.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Insight and transactional data API from Dotdigital — 9 operation(s) for insight and transactional data.
   name: Dotdigital Insight and transactional data API
   slug: dotdigital-insight-and-transactional-data-api
-- description: The InsightData API from Dotdigital — 17 operation(s) for insightdata.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The InsightData API from Dotdigital — 17 operation(s) for insightdata.
   name: Dotdigital Insight Data API
   slug: dotdigital-insightdata-api
-- description: The Large objects API from Dotdigital — 1 operation(s) for large objects.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Large objects API from Dotdigital — 1 operation(s) for large objects.
   name: Dotdigital Large objects API
   slug: dotdigital-large-objects-api
-- description: The Lists / Address books API from Dotdigital — 14 operation(s) for lists / address books.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Lists / Address books API from Dotdigital — 14 operation(s) for lists / address books.
   name: Dotdigital Lists / Address books API
   slug: dotdigital-lists-address-books-api
-- description: The Lists / Address books - Deprecated API from Dotdigital — 3 operation(s) for lists / address books - deprecated.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Lists / Address books - Deprecated API from Dotdigital — 3 operation(s) for lists / address books - deprecated.
   name: Dotdigital Lists / Address books - Deprecated API
   slug: dotdigital-lists-address-books-deprecated-api
-- description: The Marketing Emails API from Dotdigital — 2 operation(s) for marketing emails.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Marketing Emails API from Dotdigital — 2 operation(s) for marketing emails.
   name: Dotdigital Marketing Emails API
   slug: dotdigital-marketing-emails-api
-- description: The Messaging API from Dotdigital — 2 operation(s) for messaging.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Messaging API from Dotdigital — 2 operation(s) for messaging.
   name: Dotdigital Messaging API
   slug: dotdigital-messaging-api
-- description: The Omnichannel API API from Dotdigital — 6 operation(s) for omnichannel api.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Omnichannel API API from Dotdigital — 6 operation(s) for omnichannel api.
   name: Dotdigital Omnichannel API
   slug: dotdigital-omnichannel-api-api
-- description: The Pages and forms API from Dotdigital — 6 operation(s) for pages and forms.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Pages and forms API from Dotdigital — 6 operation(s) for pages and forms.
   name: Dotdigital Pages and forms API
   slug: dotdigital-pages-and-forms-api
-- description: The Preferences and subscriptions API from Dotdigital — 13 operation(s) for preferences and subscriptions.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Preferences and subscriptions API from Dotdigital — 13 operation(s) for preferences and subscriptions.
   name: Dotdigital Preferences and subscriptions API
   slug: dotdigital-preferences-and-subscriptions-api
-- description: The Programs API from Dotdigital — 7 operation(s) for programs.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Programs API from Dotdigital — 7 operation(s) for programs.
   name: Dotdigital Programs API
   slug: dotdigital-programs-api
-- description: The Scoring API from Dotdigital — 4 operation(s) for scoring.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Scoring API from Dotdigital — 4 operation(s) for scoring.
   name: Dotdigital Scoring API
   slug: dotdigital-scoring-api
-- description: The Segments API from Dotdigital — 2 operation(s) for segments.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Segments API from Dotdigital — 2 operation(s) for segments.
   name: Dotdigital Segments API
   slug: dotdigital-segments-api
-- description: The Single number API from Dotdigital — 1 operation(s) for single number.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Single number API from Dotdigital — 1 operation(s) for single number.
   name: Dotdigital Single number API
   slug: dotdigital-single-number-api
-- description: The SMS API from Dotdigital — 7 operation(s) for sms.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The SMS API from Dotdigital — 7 operation(s) for sms.
   name: Dotdigital SMS API
   slug: dotdigital-sms-api
-- description: The SMS campaigns API from Dotdigital — 4 operation(s) for sms campaigns.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The SMS campaigns API from Dotdigital — 4 operation(s) for sms campaigns.
   name: Dotdigital SMS campaigns API
   slug: dotdigital-sms-campaigns-api
-- description: The Subscriptions API from Dotdigital — 2 operation(s) for subscriptions.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Dotdigital — 2 operation(s) for subscriptions.
   name: Dotdigital Subscriptions API
   slug: dotdigital-subscriptions-api
-- description: The Transactional email API from Dotdigital — 5 operation(s) for transactional email.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Transactional email API from Dotdigital — 5 operation(s) for transactional email.
   name: Dotdigital Transactional email API
   slug: dotdigital-transactional-email-api
-- description: The Webhooks API API from Dotdigital — 4 operation(s) for webhooks api.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The Webhooks API API from Dotdigital — 4 operation(s) for webhooks api.
   name: Dotdigital Webhooks API
   slug: dotdigital-webhooks-api-api
-- description: The WhatsApp API from Dotdigital — 2 operation(s) for whatsapp.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The WhatsApp API from Dotdigital — 2 operation(s) for whatsapp.
   name: Dotdigital Whats App API
   slug: dotdigital-whatsapp-api
-- description: The WhatsApp configurations API from Dotdigital — 1 operation(s) for whatsapp configurations.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The WhatsApp configurations API from Dotdigital — 1 operation(s) for whatsapp configurations.
   name: Dotdigital WhatsApp configurations API
   slug: dotdigital-whatsapp-configurations-api
-- description: The WhatsApp numbers API from Dotdigital — 2 operation(s) for whatsapp numbers.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The WhatsApp numbers API from Dotdigital — 2 operation(s) for whatsapp numbers.
   name: Dotdigital WhatsApp numbers API
   slug: dotdigital-whatsapp-numbers-api
-- description: The WhatsApp templates API from Dotdigital — 2 operation(s) for whatsapp templates.
+- baseURL: https://r1-api.dotdigital.com/v2
+  baseurl_source: declared
+  description: The WhatsApp templates API from Dotdigital — 2 operation(s) for whatsapp templates.
   name: Dotdigital WhatsApp templates API
   slug: dotdigital-whatsapp-templates-api
 artifact_total: 117
@@ -611,7 +735,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -621,7 +745,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 60.4
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -643,7 +767,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotdigital/refs/heads/main/screenshots/dotdigital-2026-06-20T180203.png
 security:

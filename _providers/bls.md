@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Retrieve the list of available BLS surveys
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Retrieve the list of available BLS surveys
   name: Bureau of Labor Statistics Surveys API
   slug: bls-surveys-api
-- description: Retrieve single or multiple time series data
+- baseURL: https://api.bls.gov/publicAPI/v2
+  baseurl_source: declared
+  description: Retrieve single or multiple time series data
   name: Bureau of Labor Statistics Time Series API
   slug: bls-time-series-api
 artifact_total: 19
@@ -227,7 +231,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls/refs/heads/main/screenshots/bls-2026-06-20T173523.png
 security:

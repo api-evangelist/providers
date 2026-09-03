@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 9 acting
 api_count: 1
 apis:
-- description: Selfie capture, passive liveness, and face match.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Selfie capture, passive liveness, and face match.
   name: Incode Face and Liveness API
   slug: incode-face-and-liveness-api
-- description: Validation against government databases.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Validation against government databases.
   name: Incode Government Validation API
   slug: incode-government-validation-api
-- description: Government ID capture and validation.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Government ID capture and validation.
   name: Incode ID Verification API
   slug: incode-id-verification-api
-- description: Create and complete onboarding sessions.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Create and complete onboarding sessions.
   name: Incode Onboarding API
   slug: incode-onboarding-api
-- description: Fetch scores, OCR data, and images.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Fetch scores, OCR data, and images.
   name: Incode Results API
   slug: incode-results-api
-- description: Sanctions, PEP, and warning-list screening.
+- baseURL: https://demo-api.incodesmile.com
+  baseurl_source: declared
+  description: Sanctions, PEP, and warning-list screening.
   name: Incode Watchlist and AML API
   slug: incode-watchlist-and-aml-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incode/refs/heads/main/screenshots/incode-2026-07-25T222333.png
 security:

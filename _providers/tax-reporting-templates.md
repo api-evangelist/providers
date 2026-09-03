@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,10 +56,14 @@ apis:
 - description: Templates and schemas for generating IRS W-2 (wages and tax statements) and 1099 (miscellaneous income) forms required for annual payroll and contractor reporting.
   name: W-2 and 1099 Reporting Templates
   slug: w2-1099-reporting
-- description: The Categories API from Tax Reporting Templates — 1 operation(s) for categories.
+- baseURL: https://la1.www4.irs.gov/mef
+  baseurl_source: declared
+  description: The Categories API from Tax Reporting Templates — 1 operation(s) for categories.
   name: Tax Reporting Templates Categories API
   slug: tax-reporting-templates-categories-api
-- description: The Taxes API from Tax Reporting Templates — 1 operation(s) for taxes.
+- baseURL: https://la1.www4.irs.gov/mef
+  baseurl_source: declared
+  description: The Taxes API from Tax Reporting Templates — 1 operation(s) for taxes.
   name: Tax Reporting Templates Taxes API
   slug: tax-reporting-templates-taxes-api
 artifact_total: 21
@@ -192,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/screenshots/tax-reporting-templates-2026-06-20T194932.png
 security:

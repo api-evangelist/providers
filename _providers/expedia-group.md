@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 49 operations · 22 acting
 api_count: 5
 apis:
-- description: The primary itinerary method of the Booking API creates a reservation for the selected hotel, room, rate and occupancy.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: The primary itinerary method of the Booking API creates a reservation for the selected hotel, room, rate and occupancy.
   name: Expedia Group Bookings API
   slug: expedia-group-bookings-api
-- description: This section outlines the API calls available to you to access property content.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: This section outlines the API calls available to you to access property content.
   name: Expedia Group Content API
   slug: expedia-group-content-api
-- description: The Deposit resource
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: The Deposit resource
   name: Expedia Group Deposit API
   slug: expedia-group-deposit-api
-- description: The EPS Geography API provides geography content for regions around the world.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: The EPS Geography API provides geography content for regions around the world.
   name: Expedia Group Geography API
   slug: expedia-group-geography-api
-- description: Template Loyalty Earn API
+- baseURL: https://test.analytics.ean.com/template/v1
+  baseurl_source: spec
+  description: Template Loyalty Earn API
   name: Expedia Group Loyalty API
   slug: expedia-group-loyalty-api
-- description: Retrieve existing itineraries or cancel existing rooms.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: Retrieve existing itineraries or cancel existing rooms.
   name: Expedia Group Manage Booking API
   slug: expedia-group-manage-booking-api
-- description: Requests test notifications and undelivered notifications.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: Requests test notifications and undelivered notifications.
   name: Expedia Group Notifications API
   slug: expedia-group-notifications-api
-- description: The OrderPurchaseScreen API from Expedia Group — 1 operation(s) for orderpurchasescreen.
+- baseURL: https://api.sandbox.expediagroup.com/fraud-prevention/v2
+  baseurl_source: spec
+  description: The OrderPurchaseScreen API from Expedia Group — 1 operation(s) for orderpurchasescreen.
   name: Expedia Group OrderPurchaseScreen API
   slug: expedia-group-orderpurchasescreen-api
-- description: The OrderPurchaseUpdate API from Expedia Group — 1 operation(s) for orderpurchaseupdate.
+- baseURL: https://api.sandbox.expediagroup.com/fraud-prevention/v2
+  baseurl_source: spec
+  description: The OrderPurchaseUpdate API from Expedia Group — 1 operation(s) for orderpurchaseupdate.
   name: Expedia Group OrderPurchaseUpdate API
   slug: expedia-group-orderpurchaseupdate-api
-- description: The property resource
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: The property resource
   name: Expedia Group Property API
   slug: expedia-group-property-api
-- description: The rate plan resource
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: The rate plan resource
   name: Expedia Group Rate Plan API
   slug: expedia-group-rate-plan-api
-- description: Manage room types Rate Verification Thresholds
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: Manage room types Rate Verification Thresholds
   name: Expedia Group Rate Verification Thresholds API
   slug: expedia-group-rate-verification-thresholds-api
-- description: Manage room type amenities
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: Manage room type amenities
   name: Expedia Group Room Type Amenities API
   slug: expedia-group-room-type-amenities-api
-- description: Manage room types
+- baseURL: https://services.expediapartnercentral.com/
+  baseurl_source: spec
+  description: Manage room types
   name: Expedia Group Room Type API
   slug: expedia-group-room-type-api
-- description: The EPS shopping APIs provide you with access to live rates & availability.
+- baseURL: https://test.ean.com/v3
+  baseurl_source: spec
+  description: The EPS shopping APIs provide you with access to live rates & availability.
   name: Expedia Group Shopping API
   slug: expedia-group-shopping-api
 artifact_total: 41
@@ -253,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png
 security:

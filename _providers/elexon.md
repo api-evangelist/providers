@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,100 +43,164 @@ agentic_access:
   summary_line: 312 operations
 api_count: 1
 apis:
-- description: Dynamic data.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Dynamic data.
   name: Elexon Balancing Mechanism Dynamic API
   slug: elexon-balancing-mechanism-dynamic-api
-- description: Physical data consists of PN, QPN, MILS, &amp; MELS.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Physical data consists of PN, QPN, MILS, &amp; MELS.
   name: Elexon Balancing Mechanism Physical API
   slug: elexon-balancing-mechanism-physical-api
-- description: Adjustment actions (DISBSAD) for a given settlement period, or summarised by settlement period over a time range.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Adjustment actions (DISBSAD) for a given settlement period, or summarised by settlement period over a time range.
   name: Elexon Balancing Services Adjustment - Disaggregated API
   slug: elexon-balancing-services-adjustment-disaggregated-api
-- description: Net balancing services adjustment data (NETBSAD), provided as a time series or filtered to events.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Net balancing services adjustment data (NETBSAD), provided as a time series or filtered to events.
   name: Elexon Balancing Services Adjustment - Net API
   slug: elexon-balancing-services-adjustment-net-api
-- description: Bid-offer acceptance data (BOALF).
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Bid-offer acceptance data (BOALF).
   name: Elexon Bid-Offer Acceptances API
   slug: elexon-bid-offer-acceptances-api
-- description: Bid-offer data.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Bid-offer data.
   name: Elexon Bid-Offer API
   slug: elexon-bid-offer-api
-- description: Raw datasets as received from the National Grid, with associated metadata. The output in JSON format matches IRIS, and can be used interchangeably with IRIS output.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Raw datasets as received from the National Grid, with associated metadata. The output in JSON format matches IRIS, and can be used interchangeably with IRIS output.
   name: Elexon BMRS Datasets API
   slug: elexon-bmrs-datasets-api
-- description: Credit Default Notice data.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Credit Default Notice data.
   name: Elexon Credit Default Notice API
   slug: elexon-credit-default-notice-api
-- description: The number of datapoints ingested for a dataset in a given period of time, grouped by settlement period.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: The number of datapoints ingested for a dataset in a given period of time, grouped by settlement period.
   name: Elexon Data Status API
   slug: elexon-data-status-api
-- description: GB electricity demand, including historic.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: GB electricity demand, including historic.
   name: Elexon Demand API
   slug: elexon-demand-api
-- description: Current or historic demand forecasts.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Current or historic demand forecasts.
   name: Elexon Demand Forecast API
   slug: elexon-demand-forecast-api
-- description: GB electricity generation output, including historic.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: GB electricity generation output, including historic.
   name: Elexon Generation API
   slug: elexon-generation-api
-- description: Current or historic generation forecasts.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Current or historic generation forecasts.
   name: Elexon Generation Forecast API
   slug: elexon-generation-forecast-api
-- description: Provides an endpoint to check the health of the Insights API service.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Provides an endpoint to check the health of the Insights API service.
   name: Elexon Health Check API
   slug: elexon-health-check-api
-- description: Day-and-day-ahead indicated forecast, categorized as Indicated Generation (INDGEN), Indicated Demand (INDDEM), Imbalance (IMBALNGC) and Margin (MELNGC).
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Day-and-day-ahead indicated forecast, categorized as Indicated Generation (INDGEN), Indicated Demand (INDDEM), Imbalance (IMBALNGC) and Margin (MELNGC).
   name: Elexon Indicated Forecast API
   slug: elexon-indicated-forecast-api
-- description: Data related to the settlement process.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Data related to the settlement process.
   name: Elexon Indicative Imbalance Settlement API
   slug: elexon-indicative-imbalance-settlement-api
-- description: The Legacy API from Elexon — 2 operation(s) for legacy.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: The Legacy API from Elexon — 2 operation(s) for legacy.
   name: Elexon Legacy API
   slug: elexon-legacy-api
-- description: Load shape period data and load shape totals data as calculated by the Load Shaping Service
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Load shape period data and load shape totals data as calculated by the Load Shaping Service
   name: Elexon Load Shape API
   slug: elexon-load-shape-api
-- description: Loss of load probability and de-rated margin forecast data.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Loss of load probability and de-rated margin forecast data.
   name: Elexon Loss of Load Probability and De-rated Margin API
   slug: elexon-loss-of-load-probability-and-de-rated-margin-api
-- description: Generating Plant Operating Margin forecast data, including historical views of data by publish time or forecast date.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Generating Plant Operating Margin forecast data, including historical views of data by publish time or forecast date.
   name: Elexon Margin Forecast API
   slug: elexon-margin-forecast-api
-- description: Market Index prices filtered by time.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Market Index prices filtered by time.
   name: Elexon Market Index API
   slug: elexon-market-index-api
-- description: Short Term Operating Reserves (STOR) data, provided as a time series or filtered to events.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Short Term Operating Reserves (STOR) data, provided as a time series or filtered to events.
   name: Elexon Non-BM STOR API
   slug: elexon-non-bm-stor-api
-- description: Balancing services volume data, filtered by BM Unit and time range.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Balancing services volume data, filtered by BM Unit and time range.
   name: Elexon Non-BM Volumes API
   slug: elexon-non-bm-volumes-api
-- description: Reference data which can be used to filter other API requests.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Reference data which can be used to filter other API requests.
   name: Elexon Reference API
   slug: elexon-reference-api
-- description: REMIT messages, including previous revisions.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: REMIT messages, including previous revisions.
   name: Elexon REMIT API
   slug: elexon-remit-api
-- description: The Rolling System Demand API from Elexon — 1 operation(s) for rolling system demand.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: The Rolling System Demand API from Elexon — 1 operation(s) for rolling system demand.
   name: Elexon Rolling System Demand API
   slug: elexon-rolling-system-demand-api
-- description: Datasets received from the Settlement Administration Agent (SAA)
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Datasets received from the Settlement Administration Agent (SAA)
   name: Elexon SAA Datasets API
   slug: elexon-saa-datasets-api
-- description: SO-SO Prices (SOSO) data, filtered by start time.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: SO-SO Prices (SOSO) data, filtered by start time.
   name: Elexon SO-SO Prices API
   slug: elexon-so-so-prices-api
-- description: Generating Plant Operating Surplus forecast data, including historical views of data by publish time or forecast date.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Generating Plant Operating Surplus forecast data, including historical views of data by publish time or forecast date.
   name: Elexon Surplus Forecast API
   slug: elexon-surplus-forecast-api
-- description: Transmission System data.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Transmission System data.
   name: Elexon System API
   slug: elexon-system-api
-- description: Transmission System forecasts
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Transmission System forecasts
   name: Elexon System forecast API
   slug: elexon-system-forecast-api
-- description: Daily average & reference temperatures.
+- baseURL: https://data.elexon.co.uk/bmrs/api/v1
+  baseurl_source: declared
+  description: Daily average & reference temperatures.
   name: Elexon Temperature API
   slug: elexon-temperature-api
 artifact_total: 388
@@ -1334,7 +1398,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elexon/refs/heads/main/screenshots/elexon-2026-06-20T180600.png
 security:

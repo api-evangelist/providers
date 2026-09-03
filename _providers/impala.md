@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Making and managing bookings.
+- baseURL: https://api.impala.travel/v1
+  baseurl_source: declared
+  description: Making and managing bookings.
   name: Impala Bookings API
   slug: impala-bookings-api
-- description: Accessing hotel content, available rooms and rates.
+- baseURL: https://api.impala.travel/v1
+  baseurl_source: declared
+  description: Accessing hotel content, available rooms and rates.
   name: Impala Hotels API
   slug: impala-hotels-api
-- description: Getting rates for future dates.
+- baseURL: https://api.impala.travel/v1
+  baseurl_source: declared
+  description: Getting rates for future dates.
   name: Impala Rate Calendar API
   slug: impala-rate-calendar-api
 artifact_total: 9
@@ -176,7 +182,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impala/refs/heads/main/screenshots/impala-2026-07-25T222147.png
 security:

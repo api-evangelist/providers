@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 22 operations · 11 acting
 api_count: 1
 apis:
-- description: Gate authentication with allowlists.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Gate authentication with allowlists.
   name: Dynamic Allowlists API
   slug: dynamic-labs-allowlists-api
-- description: Retrieve aggregate environment analytics.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Retrieve aggregate environment analytics.
   name: Dynamic Analytics API
   slug: dynamic-labs-analytics-api
-- description: Create and revoke environment-scoped API tokens.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Create and revoke environment-scoped API tokens.
   name: Dynamic API Tokens API
   slug: dynamic-labs-api-tokens-api
-- description: Provision MPC-TSS embedded wallets for users.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Provision MPC-TSS embedded wallets for users.
   name: Dynamic Embedded Wallets API
   slug: dynamic-labs-embedded-wallets-api
-- description: Retrieve and update environment (project) configuration.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Retrieve and update environment (project) configuration.
   name: Dynamic Environments API
   slug: dynamic-labs-environments-api
-- description: Download data exports.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Download data exports.
   name: Dynamic Exports API
   slug: dynamic-labs-exports-api
-- description: Fetch the JSON Web Key Set used to verify Dynamic JWTs.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Fetch the JSON Web Key Set used to verify Dynamic JWTs.
   name: Dynamic JWKS API
   slug: dynamic-labs-jwks-api
-- description: List and manage end users authenticated into an environment.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: List and manage end users authenticated into an environment.
   name: Dynamic Users API
   slug: dynamic-labs-users-api
-- description: View and manage wallets linked to users.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: View and manage wallets linked to users.
   name: Dynamic Wallets API
   slug: dynamic-labs-wallets-api
-- description: Manage webhook endpoints for event notifications.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: Manage webhook endpoints for event notifications.
   name: Dynamic Webhooks API
   slug: dynamic-labs-webhooks-api
 artifact_total: 30
@@ -219,7 +239,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-labs/refs/heads/main/screenshots/dynamic-labs-2026-07-25T212555.png
 security:

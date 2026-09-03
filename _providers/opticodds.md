@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -47,64 +47,104 @@ apis:
 - description: First-party Model Context Protocol server exposing 16 read-only OpticOdds tools — odds, fixtures, player props, injuries, results, line history, best-price and outlier detection, line comparison and b
   name: OpticOdds MCP Server
   slug: opticodds-mcp
-- description: Fixtures and odds.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: Fixtures and odds.
   name: OpticOdds Fixtures API
   slug: opticodds-fixtures-api
-- description: Futures markets and odds.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: Futures markets and odds.
   name: OpticOdds Futures API
   slug: opticodds-futures-api
-- description: Injuries and injury predictions.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: Injuries and injury predictions.
   name: OpticOdds Injuries API
   slug: opticodds-injuries-api
-- description: Sports, leagues, sportsbooks, market types.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: Sports, leagues, sportsbooks, market types.
   name: OpticOdds Reference API
   slug: opticodds-reference-api
-- description: Game and player results.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: Game and player results.
   name: OpticOdds Results API
   slug: opticodds-results-api
-- description: The conferences API from OpticOdds — 1 operation(s) for conferences.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The conferences API from OpticOdds — 1 operation(s) for conferences.
   name: OpticOdds Conferences API
   slug: opticodds-conferences-api
-- description: The copilot API from OpticOdds — 5 operation(s) for copilot.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The copilot API from OpticOdds — 5 operation(s) for copilot.
   name: OpticOdds Copilot API
   slug: opticodds-copilot-api
-- description: The divisions API from OpticOdds — 1 operation(s) for divisions.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The divisions API from OpticOdds — 1 operation(s) for divisions.
   name: OpticOdds Divisions API
   slug: opticodds-divisions-api
-- description: The grader API from OpticOdds — 2 operation(s) for grader.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The grader API from OpticOdds — 2 operation(s) for grader.
   name: OpticOdds Grader API
   slug: opticodds-grader-api
-- description: The leagues API from OpticOdds — 2 operation(s) for leagues.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The leagues API from OpticOdds — 2 operation(s) for leagues.
   name: OpticOdds Leagues API
   slug: opticodds-leagues-api
-- description: The market-types API from OpticOdds — 1 operation(s) for market-types.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The market-types API from OpticOdds — 1 operation(s) for market-types.
   name: OpticOdds Market Types API
   slug: opticodds-market-types-api
-- description: The markets API from OpticOdds — 2 operation(s) for markets.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The markets API from OpticOdds — 2 operation(s) for markets.
   name: OpticOdds Markets API
   slug: opticodds-markets-api
-- description: The odds API from OpticOdds — 3 operation(s) for odds.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The odds API from OpticOdds — 3 operation(s) for odds.
   name: OpticOdds Odds API
   slug: opticodds-odds-api
-- description: The parlay API from OpticOdds — 3 operation(s) for parlay.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The parlay API from OpticOdds — 3 operation(s) for parlay.
   name: OpticOdds Parlay API
   slug: opticodds-parlay-api
-- description: The players API from OpticOdds — 1 operation(s) for players.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The players API from OpticOdds — 1 operation(s) for players.
   name: OpticOdds Players API
   slug: opticodds-players-api
-- description: The queue API from OpticOdds — 10 operation(s) for queue.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The queue API from OpticOdds — 10 operation(s) for queue.
   name: OpticOdds Queue API
   slug: opticodds-queue-api
-- description: The sports API from OpticOdds — 2 operation(s) for sports.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The sports API from OpticOdds — 2 operation(s) for sports.
   name: OpticOdds Sports API
   slug: opticodds-sports-api
-- description: The sportsbooks API from OpticOdds — 3 operation(s) for sportsbooks.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The sportsbooks API from OpticOdds — 3 operation(s) for sportsbooks.
   name: OpticOdds Sportsbooks API
   slug: opticodds-sportsbooks-api
-- description: The teams API from OpticOdds — 1 operation(s) for teams.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The teams API from OpticOdds — 1 operation(s) for teams.
   name: OpticOdds Teams API
   slug: opticodds-teams-api
-- description: The tournaments API from OpticOdds — 2 operation(s) for tournaments.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: declared
+  description: The tournaments API from OpticOdds — 2 operation(s) for tournaments.
   name: OpticOdds Tournaments API
   slug: opticodds-tournaments-api
 artifact_total: 35
@@ -300,7 +340,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -310,7 +350,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 41.3
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,7 +362,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/screenshots/opticodds-2026-06-20T191108.png
 security:

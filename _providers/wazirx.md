@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 27 operations · 6 acting
 api_count: 1
 apis:
-- description: The WazirX WebSocket API provides real-time streaming for market data including trades, 24hr tickers, candlestick (kline) data, and order book depth updates. Private streams for account balance change
+- baseURL: wss://stream.wazirx.com/stream
+  baseurl_source: declared
+  description: The WazirX WebSocket API provides real-time streaming for market data including trades, 24hr tickers, candlestick (kline) data, and order book depth updates. Private streams for account balance change
   name: WazirX WebSocket API
   slug: wazirx-websocket-api
-- description: Authenticated endpoints for account information and balances
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Authenticated endpoints for account information and balances
   name: WazirX Account API
   slug: wazirx-account-api
-- description: General API endpoints for connectivity and system information
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: General API endpoints for connectivity and system information
   name: WazirX General API
   slug: wazirx-general-api
-- description: Public market data endpoints for price, volume, and order book information
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Public market data endpoints for price, volume, and order book information
   name: WazirX Market Data API
   slug: wazirx-market-data-api
-- description: Authenticated endpoints for sub-account management and fund transfers
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Authenticated endpoints for sub-account management and fund transfers
   name: WazirX Sub-Account API
   slug: wazirx-sub-account-api
-- description: Authenticated endpoints for order management and trade history
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Authenticated endpoints for order management and trade history
   name: WazirX Trading API
   slug: wazirx-trading-api
-- description: Authenticated endpoints for coin and withdrawal/deposit management
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Authenticated endpoints for coin and withdrawal/deposit management
   name: WazirX Wallet API
   slug: wazirx-wallet-api
-- description: Endpoints for WebSocket authentication token generation
+- baseURL: https://api.wazirx.com
+  baseurl_source: declared
+  description: Endpoints for WebSocket authentication token generation
   name: WazirX WebSocket API
   slug: wazirx-websocket-api
 artifact_total: 33
@@ -265,7 +281,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png
 security:

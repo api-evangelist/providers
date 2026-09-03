@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: OAuth 2.0 authorization for customer data access.
+- baseURL: https://api.pge.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization for customer data access.
   name: pg-and-e Authorization API
   slug: pg-and-e-authorization-api
-- description: Manage data subscriptions for customer accounts.
+- baseURL: https://api.pge.com
+  baseurl_source: declared
+  description: Manage data subscriptions for customer accounts.
   name: pg-and-e Subscriptions API
   slug: pg-and-e-subscriptions-api
-- description: Retrieve energy usage interval data.
+- baseURL: https://api.pge.com
+  baseurl_source: declared
+  description: Retrieve energy usage interval data.
   name: pg-and-e Usage API
   slug: pg-and-e-usage-api
 artifact_total: 15
@@ -111,13 +117,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pg-and-e.png
 layout: provider
 modified: '2026-05-19'
-name: pg-and-e
+name: Pg And E
 nav: Providers
 network: true
-overview: 'pg-and-e publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Subscriptions API, and Usage API.
+overview: 'Pg And E publishes 3 APIs on the [APIs.io](https://apis.io/) network: pg-and-e Authorization API, pg-and-e Subscriptions API, and pg-and-e Usage API.
 
 
-  pg-and-e''s developer surface includes authentication and 7 more developer resources.'
+  Pg And E''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Pg And E Plans Pricing
   plan_count: 1
@@ -160,10 +166,10 @@ score:
       total: 3
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Consumer and business account balances and details
+- baseURL: https://api.regions.com/v1
+  baseurl_source: declared
+  description: Consumer and business account balances and details
   name: regions-financial Account Information API
   slug: regions-financial-account-information-api
-- description: Customer consent management for data sharing
+- baseURL: https://api.regions.com/v1
+  baseurl_source: declared
+  description: Customer consent management for data sharing
   name: regions-financial Consent API
   slug: regions-financial-consent-api
-- description: Customer profile and identity
+- baseURL: https://api.regions.com/v1
+  baseurl_source: declared
+  description: Customer profile and identity
   name: regions-financial Customer API
   slug: regions-financial-customer-api
-- description: Payment initiation and status
+- baseURL: https://api.regions.com/v1
+  baseurl_source: declared
+  description: Payment initiation and status
   name: regions-financial Payments API
   slug: regions-financial-payments-api
-- description: Account transaction history
+- baseURL: https://api.regions.com/v1
+  baseurl_source: declared
+  description: Account transaction history
   name: regions-financial Transactions API
   slug: regions-financial-transactions-api
 artifact_total: 28
@@ -256,7 +266,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

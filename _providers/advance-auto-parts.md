@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 2 acting
 api_count: 2
 apis:
-- description: Shopping cart management
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Shopping cart management
   name: Advance Auto Parts Cart API
   slug: advance-auto-parts-cart-api
-- description: Store and warehouse inventory
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Store and warehouse inventory
   name: Advance Auto Parts Inventory API
   slug: advance-auto-parts-inventory-api
-- description: Speed Perks loyalty program
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Speed Perks loyalty program
   name: Advance Auto Parts Loyalty API
   slug: advance-auto-parts-loyalty-api
-- description: Order placement and management
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Order placement and management
   name: Advance Auto Parts Orders API
   slug: advance-auto-parts-orders-api
-- description: Parts and product catalog
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Parts and product catalog
   name: Advance Auto Parts Products API
   slug: advance-auto-parts-products-api
-- description: Store locations and availability
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Store locations and availability
   name: Advance Auto Parts Stores API
   slug: advance-auto-parts-stores-api
-- description: Vehicle year/make/model lookup and fitment
+- baseURL: https://api.advanceautoparts.com/v1
+  baseurl_source: declared
+  description: Vehicle year/make/model lookup and fitment
   name: Advance Auto Parts Vehicles API
   slug: advance-auto-parts-vehicles-api
 artifact_total: 112
@@ -527,7 +541,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:

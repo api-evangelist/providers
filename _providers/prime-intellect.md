@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 86 operations · 42 acting
 api_count: 3
 apis:
-- description: 'Secure remote code-execution sandboxes for AI agents. Create and manage Python-3.11-slim-based sandboxes, expose ports for HTTP services running inside the sandbox, open SSH sessions, pull rich error '
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: 'Secure remote code-execution sandboxes for AI agents. Create and manage Python-3.11-slim-based sandboxes, expose ports for HTTP services running inside the sandbox, open SSH sessions, pull rich error '
   name: Prime Intellect Sandbox API
   slug: prime-intellect-sandbox-api
-- description: Hosted reinforcement-learning post-training service ("Lab"). Launch dedicated training runs against a catalog of base models — Qwen3.5 (0.8B through 397B-A17B), Llama 1B/3B Instruct, NVIDIA Nemotron 3
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: Hosted reinforcement-learning post-training service ("Lab"). Launch dedicated training runs against a catalog of base models — Qwen3.5 (0.8B through 397B-A17B), Llama 1B/3B Instruct, NVIDIA Nemotron 3
   name: Prime Intellect Training API
   slug: prime-intellect-training-api
-- description: OpenAI-compatible inference API for hosted frontier and open models served at api.pinference.ai. Supports streaming chat completions, the full set of OpenAI parameters (temperature, top_p, max_tokens,
+- baseURL: https://api.pinference.ai/api/v1
+  baseurl_source: declared
+  description: OpenAI-compatible inference API for hosted frontier and open models served at api.pinference.ai. Supports streaming chat completions, the full set of OpenAI parameters (temperature, top_p, max_tokens,
   name: Prime Intellect Inference API
   slug: prime-intellect-inference-api
-- description: The admin-clusters API from Prime Intellect — 4 operation(s) for admin-clusters.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The admin-clusters API from Prime Intellect — 4 operation(s) for admin-clusters.
   name: Prime Intellect admin-clusters API
   slug: prime-intellect-admin-clusters-api
-- description: The admin-users API from Prime Intellect — 1 operation(s) for admin-users.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The admin-users API from Prime Intellect — 1 operation(s) for admin-users.
   name: Prime Intellect admin-users API
   slug: prime-intellect-admin-users-api
-- description: The Availability API from Prime Intellect — 7 operation(s) for availability.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Availability API from Prime Intellect — 7 operation(s) for availability.
   name: Prime Intellect Availability API
   slug: prime-intellect-availability-api
-- description: The Billing API from Prime Intellect — 2 operation(s) for billing.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Billing API from Prime Intellect — 2 operation(s) for billing.
   name: Prime Intellect Billing API
   slug: prime-intellect-billing-api
-- description: The Disks API from Prime Intellect — 2 operation(s) for disks.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Disks API from Prime Intellect — 2 operation(s) for disks.
   name: Prime Intellect Disks API
   slug: prime-intellect-disks-api
-- description: The evals API from Prime Intellect — 5 operation(s) for evals.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The evals API from Prime Intellect — 5 operation(s) for evals.
   name: Prime Intellect evals API
   slug: prime-intellect-evals-api
-- description: The Feedback API from Prime Intellect — 1 operation(s) for feedback.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Feedback API from Prime Intellect — 1 operation(s) for feedback.
   name: Prime Intellect Feedback API
   slug: prime-intellect-feedback-api
-- description: The FRP Plugin API from Prime Intellect — 1 operation(s) for frp plugin.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The FRP Plugin API from Prime Intellect — 1 operation(s) for frp plugin.
   name: Prime Intellect FRP Plugin API
   slug: prime-intellect-frp-plugin-api
-- description: The hosted-evaluations API from Prime Intellect — 4 operation(s) for hosted-evaluations.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The hosted-evaluations API from Prime Intellect — 4 operation(s) for hosted-evaluations.
   name: Prime Intellect hosted-evaluations API
   slug: prime-intellect-hosted-evaluations-api
-- description: The Images API from Prime Intellect — 7 operation(s) for images.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Images API from Prime Intellect — 7 operation(s) for images.
   name: Prime Intellect Images API
   slug: prime-intellect-images-api
-- description: The Pods API from Prime Intellect — 5 operation(s) for pods.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Pods API from Prime Intellect — 5 operation(s) for pods.
   name: Prime Intellect Pods API
   slug: prime-intellect-pods-api
-- description: The Secrets API from Prime Intellect — 2 operation(s) for secrets.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Secrets API from Prime Intellect — 2 operation(s) for secrets.
   name: Prime Intellect Secrets API
   slug: prime-intellect-secrets-api
-- description: The SSH Keys API from Prime Intellect — 2 operation(s) for ssh keys.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The SSH Keys API from Prime Intellect — 2 operation(s) for ssh keys.
   name: Prime Intellect SSH Keys API
   slug: prime-intellect-ssh-keys-api
-- description: The teams API from Prime Intellect — 1 operation(s) for teams.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The teams API from Prime Intellect — 1 operation(s) for teams.
   name: Prime Intellect teams API
   slug: prime-intellect-teams-api
-- description: The Template API from Prime Intellect — 2 operation(s) for template.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Template API from Prime Intellect — 2 operation(s) for template.
   name: Prime Intellect Template API
   slug: prime-intellect-template-api
-- description: The Tunnel API from Prime Intellect — 2 operation(s) for tunnel.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The Tunnel API from Prime Intellect — 2 operation(s) for tunnel.
   name: Prime Intellect Tunnel API
   slug: prime-intellect-tunnel-api
-- description: The user API from Prime Intellect — 3 operation(s) for user.
+- baseURL: https://api.primeintellect.ai
+  baseurl_source: declared
+  description: The user API from Prime Intellect — 3 operation(s) for user.
   name: Prime Intellect user API
   slug: prime-intellect-user-api
 artifact_total: 77
@@ -460,7 +500,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 10 acting
 api_count: 1
 apis:
-- description: APIs to insert a large set of data into a form
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: APIs to insert a large set of data into a form
   name: Zoho Creator Bulk Insert APIs API
   slug: zoho-creator-bulk-insert-apis-api
-- description: APIs to fetch a large set of data in a report
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: APIs to fetch a large set of data in a report
   name: Zoho Creator Bulk Read APIs API
   slug: zoho-creator-bulk-read-apis-api
-- description: APIs to add, update, delete or get records in a form/report
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: APIs to add, update, delete or get records in a form/report
   name: Zoho Creator Data APIs API
   slug: zoho-creator-data-apis-api
-- description: APIs to upload or download files in a report
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: APIs to upload or download files in a report
   name: Zoho Creator File APIs API
   slug: zoho-creator-file-apis-api
-- description: Get list of applications, forms, reports and fields
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: Get list of applications, forms, reports and fields
   name: Zoho Creator Meta APIs API
   slug: zoho-creator-meta-apis-api
-- description: APIs to add or get records in a published form/report
+- baseURL: https://creator.zoho.com/api/v2.1/
+  baseurl_source: declared
+  description: APIs to add or get records in a published form/report
   name: Zoho Creator Publish APIs API
   slug: zoho-creator-publish-apis-api
 artifact_total: 32
@@ -255,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-creator/refs/heads/main/screenshots/zoho-creator-2026-06-20T201937.png
 security:

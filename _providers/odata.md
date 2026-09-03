@@ -33,19 +33,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Standard OData service endpoints including service document, metadata document, entity set CRUD operations, and batch processing as defined by the OData v4.01 specification.
   name: OData Service API
   slug: odata-service
-- description: The $Batch API from OData — 1 operation(s) for $batch.
+- baseURL: https://services.odata.org/V4/TripPinService
+  baseurl_source: spec
+  description: The $Batch API from OData — 1 operation(s) for $batch.
   name: OData $Batch API
   slug: odata-batch-api
-- description: The $Metadata API from OData — 1 operation(s) for $metadata.
+- baseURL: https://services.odata.org/V4/TripPinService
+  baseurl_source: spec
+  description: The $Metadata API from OData — 1 operation(s) for $metadata.
   name: OData $Metadata API
   slug: odata-metadata-api
-- description: The OData Service API API from OData — 3 operation(s) for odata service api.
+- baseURL: https://services.odata.org/V4/TripPinService
+  baseurl_source: spec
+  description: The OData Service API API from OData — 3 operation(s) for odata service api.
   name: OData OData Service API API
   slug: odata-odata-service-api-api
 artifact_total: 13
@@ -146,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odata/refs/heads/main/screenshots/odata-2026-06-20T190618.png
 security:

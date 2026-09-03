@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 8 acting
 api_count: 2
 apis:
-- description: Screen LLM inputs and outputs for threats.
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Screen LLM inputs and outputs for threats.
   name: Lakera Guard API
   slug: lakera-ai-guard-api
-- description: Create and manage Lakera Guard policies.
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Create and manage Lakera Guard policies.
   name: Lakera Policies API
   slug: lakera-ai-policies-api
-- description: Create and manage projects bound to policies.
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Create and manage projects bound to policies.
   name: Lakera Projects API
   slug: lakera-ai-projects-api
-- description: Retrieve detector confidence levels without runtime enforcement.
+- baseURL: https://api.lakera.ai/v2
+  baseurl_source: spec
+  description: Retrieve detector confidence levels without runtime enforcement.
   name: Lakera Results API
   slug: lakera-ai-results-api
 artifact_total: 52
@@ -365,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/screenshots/lakera-ai-2026-06-20T184246.png
 security:

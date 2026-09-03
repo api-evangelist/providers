@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token management
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Silverpop Authentication API
   slug: silverpop-authentication-api
-- description: Email campaign management
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: Email campaign management
   name: Silverpop Campaigns API
   slug: silverpop-campaigns-api
-- description: Contact (recipient) list management
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: Contact (recipient) list management
   name: Silverpop Contacts API
   slug: silverpop-contacts-api
-- description: Marketing automation program management
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: Marketing automation program management
   name: Silverpop Programs API
   slug: silverpop-programs-api
-- description: Campaign reporting and analytics
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: Campaign reporting and analytics
   name: Silverpop Reports API
   slug: silverpop-reports-api
-- description: Transactional email and SMS messaging
+- baseURL: https://api-campaign-us-1.goacoustic.com
+  baseurl_source: declared
+  description: Transactional email and SMS messaging
   name: Silverpop Transactional API
   slug: silverpop-transactional-api
 artifact_total: 27
@@ -336,7 +348,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:

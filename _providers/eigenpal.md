@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 60 operations · 27 acting
 api_count: 1
 apis:
-- description: Inspect runnable workflow and agent automations, their versions, triggers, and source sync state.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Inspect runnable workflow and agent automations, their versions, triggers, and source sync state.
   name: Eigenpal Automations API
   slug: eigenpal-automations-api
-- description: Manage datasets, examples, evaluators, experiment batches, evaluator scores, and run promotion workflows.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Manage datasets, examples, evaluators, experiment batches, evaluator scores, and run promotion workflows.
   name: Eigenpal Evaluation API
   slug: eigenpal-evaluation-api
-- description: Upload reusable files for later run or dataset use.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Upload reusable files for later run or dataset use.
   name: Eigenpal Files API
   slug: eigenpal-files-api
-- description: Authenticate and inspect the current API context.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Authenticate and inspect the current API context.
   name: Eigenpal Metadata API
   slug: eigenpal-metadata-api
-- description: Record human review verdicts, manage corrected outputs, and monitor review health.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Record human review verdicts, manage corrected outputs, and monitor review health.
   name: Eigenpal Reviews API
   slug: eigenpal-reviews-api
-- description: Start, monitor, retry, review, and debug automation runs, including artifacts.
+- baseURL: https://studio.eigenpal.com
+  baseurl_source: declared
+  description: Start, monitor, retry, review, and debug automation runs, including artifacts.
   name: Eigenpal Runs API
   slug: eigenpal-runs-api
 artifact_total: 17
@@ -222,7 +234,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -232,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenpal/refs/heads/main/screenshots/eigenpal-2026-07-25T213002.png
 security:

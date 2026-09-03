@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -62,19 +62,29 @@ apis:
 - description: The Confluent Cloud for Apache Flink REST API manages Flink compute pools, statements, and workspaces for stateful stream processing on Confluent Cloud. It is part of the Confluent Cloud REST surface.
   name: Confluent Cloud for Apache Flink REST API
   slug: flink-rest-api
-- description: The API Keys API from Confluent | the Data Streaming Platform — 2 operation(s) for api keys.
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The API Keys API from Confluent | the Data Streaming Platform — 2 operation(s) for api keys.
   name: Confluent | the Data Streaming Platform API Keys API
   slug: confluent-the-data-streaming-platform-api-keys-api
-- description: The Clusters API from Confluent | the Data Streaming Platform — 2 operation(s) for clusters.
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The Clusters API from Confluent | the Data Streaming Platform — 2 operation(s) for clusters.
   name: Confluent | the Data Streaming Platform Clusters API
   slug: confluent-the-data-streaming-platform-clusters-api
-- description: The Environments API from Confluent | the Data Streaming Platform — 2 operation(s) for environments.
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The Environments API from Confluent | the Data Streaming Platform — 2 operation(s) for environments.
   name: Confluent | the Data Streaming Platform Environments API
   slug: confluent-the-data-streaming-platform-environments-api
-- description: The Organizations API from Confluent | the Data Streaming Platform — 2 operation(s) for organizations.
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The Organizations API from Confluent | the Data Streaming Platform — 2 operation(s) for organizations.
   name: Confluent | the Data Streaming Platform Organizations API
   slug: confluent-the-data-streaming-platform-organizations-api
-- description: The Service Accounts API from Confluent | the Data Streaming Platform — 2 operation(s) for service accounts.
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The Service Accounts API from Confluent | the Data Streaming Platform — 2 operation(s) for service accounts.
   name: Confluent | the Data Streaming Platform Service Accounts API
   slug: confluent-the-data-streaming-platform-service-accounts-api
 artifact_total: 37
@@ -233,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/screenshots/confluent-the-data-streaming-platform-2026-06-20T174902.png
 security:

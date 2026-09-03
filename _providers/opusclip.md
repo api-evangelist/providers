@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 22 operations · 13 acting · 13 human-in-the-loop
 api_count: 1
 apis:
-- description: The brand-templates API from OpusClip — 1 operation(s) for brand-templates.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The brand-templates API from OpusClip — 1 operation(s) for brand-templates.
   name: OpusClip brand-templates API
   slug: opusclip-brand-templates-api
-- description: The censor-jobs API from OpusClip — 2 operation(s) for censor-jobs.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The censor-jobs API from OpusClip — 2 operation(s) for censor-jobs.
   name: OpusClip censor-jobs API
   slug: opusclip-censor-jobs-api
-- description: The clip-project API from OpusClip — 3 operation(s) for clip-project.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The clip-project API from OpusClip — 3 operation(s) for clip-project.
   name: OpusClip clip-project API
   slug: opusclip-clip-project-api
-- description: The collection API from OpusClip — 3 operation(s) for collection.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The collection API from OpusClip — 3 operation(s) for collection.
   name: OpusClip collection API
   slug: opusclip-collection-api
-- description: The collection-content API from OpusClip — 2 operation(s) for collection-content.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The collection-content API from OpusClip — 2 operation(s) for collection-content.
   name: OpusClip collection-content API
   slug: opusclip-collection-content-api
-- description: The ExportableClip API from OpusClip — 1 operation(s) for exportableclip.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The ExportableClip API from OpusClip — 1 operation(s) for exportableclip.
   name: OpusClip ExportableClip API
   slug: opusclip-exportableclip-api
-- description: The generative-jobs API from OpusClip — 2 operation(s) for generative-jobs.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The generative-jobs API from OpusClip — 2 operation(s) for generative-jobs.
   name: OpusClip generative-jobs API
   slug: opusclip-generative-jobs-api
-- description: The social-posting API from OpusClip — 6 operation(s) for social-posting.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The social-posting API from OpusClip — 6 operation(s) for social-posting.
   name: OpusClip social-posting API
   slug: opusclip-social-posting-api
-- description: The transcripts API from OpusClip — 1 operation(s) for transcripts.
+- baseURL: https://api.opus.pro
+  baseurl_source: declared
+  description: The transcripts API from OpusClip — 1 operation(s) for transcripts.
   name: OpusClip transcripts API
   slug: opusclip-transcripts-api
 artifact_total: 28
@@ -289,7 +307,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -299,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 52.5
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +329,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/screenshots/opusclip-2026-08-07T190820.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -56,55 +56,89 @@ apis:
 - description: Management API for the CloudGuard WAF cloud-native web application and API protection product.
   name: Check Point CloudGuard WAF API
   slug: cloudguard-waf-api
-- description: The Access Rules API from Check Point — 2 operation(s) for access rules.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Access Rules API from Check Point — 2 operation(s) for access rules.
   name: Check Point Access Rules API
   slug: checkpoint-access-rules-api
-- description: The Cloud Accounts API from Check Point — 1 operation(s) for cloud accounts.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Cloud Accounts API from Check Point — 1 operation(s) for cloud accounts.
   name: Check Point Cloud Accounts API
   slug: checkpoint-cloud-accounts-api
-- description: The Compliance API from Check Point — 1 operation(s) for compliance.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Compliance API from Check Point — 1 operation(s) for compliance.
   name: Check Point Compliance API
   slug: checkpoint-compliance-api
-- description: The Events API from Check Point — 1 operation(s) for events.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Events API from Check Point — 1 operation(s) for events.
   name: Check Point Events API
   slug: checkpoint-events-api
-- description: The Findings API from Check Point — 1 operation(s) for findings.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Findings API from Check Point — 1 operation(s) for findings.
   name: Check Point Findings API
   slug: checkpoint-findings-api
-- description: The Hosts API from Check Point — 2 operation(s) for hosts.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Hosts API from Check Point — 2 operation(s) for hosts.
   name: Check Point Hosts API
   slug: checkpoint-hosts-api
-- description: The Identity API from Check Point — 2 operation(s) for identity.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Identity API from Check Point — 2 operation(s) for identity.
   name: Check Point Identity API
   slug: checkpoint-identity-api
-- description: The Interfaces API from Check Point — 1 operation(s) for interfaces.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Interfaces API from Check Point — 1 operation(s) for interfaces.
   name: Check Point Interfaces API
   slug: checkpoint-interfaces-api
-- description: The Login API from Check Point — 2 operation(s) for login.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Login API from Check Point — 2 operation(s) for login.
   name: Check Point Login API
   slug: checkpoint-login-api
-- description: The NAT Rules API from Check Point — 1 operation(s) for nat rules.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The NAT Rules API from Check Point — 1 operation(s) for nat rules.
   name: Check Point NAT Rules API
   slug: checkpoint-nat-rules-api
-- description: The Networks API from Check Point — 1 operation(s) for networks.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Networks API from Check Point — 1 operation(s) for networks.
   name: Check Point Networks API
   slug: checkpoint-networks-api
-- description: The Quarantine API from Check Point — 1 operation(s) for quarantine.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Quarantine API from Check Point — 1 operation(s) for quarantine.
   name: Check Point Quarantine API
   slug: checkpoint-quarantine-api
-- description: The Routes API from Check Point — 1 operation(s) for routes.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Routes API from Check Point — 1 operation(s) for routes.
   name: Check Point Routes API
   slug: checkpoint-routes-api
-- description: The Rulesets API from Check Point — 1 operation(s) for rulesets.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Rulesets API from Check Point — 1 operation(s) for rulesets.
   name: Check Point Rulesets API
   slug: checkpoint-rulesets-api
-- description: The Services API from Check Point — 1 operation(s) for services.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Services API from Check Point — 1 operation(s) for services.
   name: Check Point Services API
   slug: checkpoint-services-api
-- description: The Sessions API from Check Point — 2 operation(s) for sessions.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The Sessions API from Check Point — 2 operation(s) for sessions.
   name: Check Point Sessions API
   slug: checkpoint-sessions-api
-- description: The System API from Check Point — 1 operation(s) for system.
+- baseURL: https://management.example.com/web_api
+  baseurl_source: declared
+  description: The System API from Check Point — 1 operation(s) for system.
   name: Check Point System API
   slug: checkpoint-system-api
 artifact_total: 55
@@ -310,7 +344,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -320,7 +354,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 37.1
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -329,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkpoint/refs/heads/main/screenshots/checkpoint-2026-07-25T205134.png
 security:

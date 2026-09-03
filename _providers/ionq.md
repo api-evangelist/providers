@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The previous-generation IonQ Quantum Cloud REST API (v0.3) for submitting and managing jobs, characterizations, backends, and reports. Superseded by v0.4 which adds Sessions, separated cost/results en
   name: IonQ Quantum Cloud API (v0.3 Legacy)
   slug: ionq-quantum-cloud-api-v0-3
-- description: The backends API from IonQ — 2 operation(s) for backends.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The backends API from IonQ — 2 operation(s) for backends.
   name: IonQ backends API
   slug: ionq-backends-api
-- description: The characterizations API from IonQ — 2 operation(s) for characterizations.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The characterizations API from IonQ — 2 operation(s) for characterizations.
   name: IonQ characterizations API
   slug: ionq-characterizations-api
-- description: The Jobs API from IonQ — 11 operation(s) for jobs.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The Jobs API from IonQ — 11 operation(s) for jobs.
   name: IonQ Jobs API
   slug: ionq-jobs-api
-- description: The Sessions API from IonQ — 4 operation(s) for sessions.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The Sessions API from IonQ — 4 operation(s) for sessions.
   name: IonQ Sessions API
   slug: ionq-sessions-api
-- description: The usage API from IonQ — 1 operation(s) for usage.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The usage API from IonQ — 1 operation(s) for usage.
   name: IonQ usage API
   slug: ionq-usage-api
-- description: The whoami API from IonQ — 1 operation(s) for whoami.
+- baseURL: https://api.ionq.co/v0.4
+  baseurl_source: declared
+  description: The whoami API from IonQ — 1 operation(s) for whoami.
   name: IonQ whoami API
   slug: ionq-whoami-api
 artifact_total: 55
@@ -509,7 +521,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/screenshots/ionq-2026-06-20T183533.png
 security:

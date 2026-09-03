@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,9 +22,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-09-01'
+  score: 31.6
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -41,27 +41,51 @@ agentic_access:
   operation_count: 72
   slug: ant-media-agentic-access
   summary_line: 72 operations · 40 acting · 6 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
 - description: The Ant Media Server REST API provides programmatic access to all streaming server management functions including stream management, broadcast configuration, recording control, token authentication, c
   name: Ant Media Server REST API
   slug: ant-media-server-rest-api
-- description: The Broadcasts API from Ant Media — 45 operation(s) for broadcasts.
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Broadcasts API from Ant Media — 45 operation(s) for broadcasts.
   name: Ant Media Broadcasts API
   slug: ant-media-broadcasts-api
-- description: The Filters API from Ant Media — 7 operation(s) for filters.
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Filters API from Ant Media — 7 operation(s) for filters.
   name: Ant Media Filters API
   slug: ant-media-filters-api
-- description: The Push Notification API from Ant Media — 3 operation(s) for push notification.
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Push Notification API from Ant Media — 3 operation(s) for push notification.
   name: Ant Media Push Notification API
   slug: ant-media-push-notification-api
-- description: The Version API from Ant Media — 1 operation(s) for version.
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Version API from Ant Media — 1 operation(s) for version.
   name: Ant Media Version API
   slug: ant-media-version-api
-- description: The Vods API from Ant Media — 8 operation(s) for vods.
+- baseURL: https://{ant-media-server}:5443/{application}/rest/v2/
+  baseurl_source: declared
+  description: The Vods API from Ant Media — 8 operation(s) for vods.
   name: Ant Media Vods API
   slug: ant-media-vods-api
-artifact_total: 34
+- baseURL: https://{ant-media-server}:5443/rest/v2/
+  baseurl_source: declared
+  description: 'The Ant Media Server Management Panel REST API — 50 operations for non-application-specific administration: creating and deleting applications, managing operator accounts, reading and writing server a'
+  name: Ant Media Management API
+  slug: ant-media-management-api
+- baseURL: https://{ant-media-server}:5443/rest/v2/
+  baseurl_source: declared
+  description: The cluster surface of the Ant Media Server management panel REST API — 9 operations for listing cluster nodes with offset/size paging, counting them, annotating a node with a note, and removing a nod
+  name: Ant Media Cluster API
+  slug: ant-media-cluster-api
+artifact_total: 39
+asyncapis:
+- description: ''
+  name: Ant Media Webhooks
+  slug: ant-media-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -85,6 +109,10 @@ collections:
   name: Ant Media Server REST API Reference
   slug: open-ant-media
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://antmedia.io/
 - group: other
   title: ''
   type: CapabilityMap
@@ -116,11 +144,11 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://antmedia.io/docs/
+  url: https://docs.antmedia.io/
 - group: start
   title: ''
   type: GettingStarted
-  url: https://antmedia.io/docs/guides/getting-started/quick-start/
+  url: https://docs.antmedia.io/quick-start/
 - group: commercial
   title: ''
   type: Pricing
@@ -161,6 +189,94 @@ common:
   title: ''
   type: LlmsText
   url: https://antmedia.io/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ant-media-packages.yml
+- group: build
+  title: First-party Ant Media SDK packages
+  type: SDKs
+  url: packages/ant-media-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ant-media-llms.txt
+- group: agent
+  title: Derived candidate tool surface — Ant Media publishes no MCP server
+  type: MCPServer
+  url: mcp/ant-media-mcp.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ant-media-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ant-media-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ant-media-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ant-media-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ant-media-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.antmedia.io/status/home
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ant-media-changelog.yml
+- group: operate
+  title: Product release notes
+  type: ChangeLog
+  url: https://github.com/ant-media/Ant-Media-Server/releases
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ant-media-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/ant-media-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ant-media-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ant-media-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ant-media-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ant-media-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://antmedia.io/rest/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://antmedia.io/ant-media-free-trial/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://antmedia.io/frequently-asked-questions/
 created: '2025-03-01'
 description: Ant Media Server is a scalable, open-source media server for ultra-low latency live streaming and WebRTC-based video applications. It supports WebRTC, RTMP, RTSP, SRT, HLS, and CMAF protocols, enabling developers to build real-time video applications with sub-second latency. Available in Community (open-source) and Enterprise editions with adaptive bitrate streaming, cloud auto-scaling, video recording, and REST API management.
 examples:
@@ -199,24 +315,28 @@ jsonld:
   property_count: 14
   slug: ant-media-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: A candidate MCP tool surface derived from Ant Media Server's published REST operations. NOTHING HERE IS SHIPPED BY ANT MEDIA. It is a design sketch of what a server would expose if one existed, so the
+  name: Derived candidate tool surface — Ant Media publishes no MCP server
+  slug: derived-candidate-tool-surface-ant-media-publishes-no-mcp-server
+modified: '2026-09-02'
 name: Ant Media
 nav: Providers
 network: true
-overview: 'Ant Media publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Broadcasts API, Filters API, Push Notification API, and 2 more. Tagged areas include Broadcasting, Live Streaming, Media, Streaming, and Video.
+overview: 'Ant Media publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Broadcasts API, Filters API, Push Notification API, and 4 more. Tagged areas include Broadcasting, Live Streaming, Media, Streaming, and Video.
 
 
-  The Ant Media catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Ant Media catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 13 more developer resources.'
+  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, authentication, and 35 more developer resources.'
 plans:
 - name: Ant Media Plans Pricing
-  plan_count: 3
+  plan_count: 8
   slug: ant-media-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ant Media Rate Limits
   slug: ant-media-rate-limits
 rules:
@@ -231,39 +351,46 @@ rules:
     warn: 3
   slug: ant-media-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.7
+  band: strong
+  composite: 57.0
   coverage:
-    artifact_dirs: 17
-    catalog_gap: 52.8
+    artifact_dirs: 32
+    catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 13.3
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 25.0
-    contract_quality: 43.4
-    developer_ergonomics: 57.1
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 29.5
+    contract_quality: 49.7
+    developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 25.0
-    operational_transparency: 26.3
+    governance: 29.5
+    operational_transparency: 42.1
   open_source:
     applies: true
     score: 25.0
   previous_composite: 43.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 7
+    mcp: derived
+    skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:
+- kind: authentication
+  name: Ant Media Authentication
+  slug: ant-media-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Ant Media Domain Security
   slug: ant-media-domain-security
@@ -287,5 +414,5 @@ use_cases:
   name: Gaming and Esports Broadcasting
 - description: Ingest RTSP streams from IP cameras and provide browser-based WebRTC viewing with recording and motion detection.
   name: Video Surveillance
-website: https://antmedia.io
+website: https://antmedia.io/
 ---

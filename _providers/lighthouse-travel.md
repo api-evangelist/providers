@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: Market demand predictions per arrival date.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Market demand predictions per arrival date.
   name: Lighthouse Demand API
   slug: lighthouse-travel-demand-api
-- description: List hotels, competitors, compsets, and subscribed features.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: List hotels, competitors, compsets, and subscribed features.
   name: Lighthouse Hotels API
   slug: lighthouse-travel-hotels-api
-- description: Forward-looking demand and search-volume insights.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Forward-looking demand and search-volume insights.
   name: Lighthouse Market Insight API
   slug: lighthouse-travel-market-insight-api
-- description: List markets and linked subscriptions.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: List markets and linked subscriptions.
   name: Lighthouse Markets API
   slug: lighthouse-travel-markets-api
-- description: Rate parity comparisons across OTAs.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Rate parity comparisons across OTAs.
   name: Lighthouse Parity API
   slug: lighthouse-travel-parity-api
-- description: Hotel ranking positions across OTAs and ranking summaries.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Hotel ranking positions across OTAs and ranking summaries.
   name: Lighthouse Ranking API
   slug: lighthouse-travel-ranking-api
-- description: Current and historic lowest rates, rates per room type, and raw rates across OTAs.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Current and historic lowest rates, rates per room type, and raw rates across OTAs.
   name: Lighthouse Rates API
   slug: lighthouse-travel-rates-api
-- description: Aggregated review scores across OTAs.
+- baseURL: https://api.mylighthouse.com/v3
+  baseurl_source: declared
+  description: Aggregated review scores across OTAs.
   name: Lighthouse Reviews API
   slug: lighthouse-travel-reviews-api
 artifact_total: 21
@@ -278,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/screenshots/lighthouse-travel-2026-06-20T184520.png
 security:

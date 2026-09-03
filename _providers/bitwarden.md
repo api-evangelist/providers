@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: Secrets Manager API for storing and retrieving application secrets and managing projects, service accounts, secrets, and access tokens used by infrastructure and developer tooling.
   name: Bitwarden Secrets Manager API
   slug: secrets-manager
-- description: The Collections API from Bitwarden — 2 operation(s) for collections.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Collections API from Bitwarden — 2 operation(s) for collections.
   name: Bitwarden Collections API
   slug: bitwarden-collections-api
-- description: The Events API from Bitwarden — 1 operation(s) for events.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Events API from Bitwarden — 1 operation(s) for events.
   name: Bitwarden Events API
   slug: bitwarden-events-api
-- description: The Groups API from Bitwarden — 3 operation(s) for groups.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Groups API from Bitwarden — 3 operation(s) for groups.
   name: Bitwarden Groups API
   slug: bitwarden-groups-api
-- description: The Members API from Bitwarden — 4 operation(s) for members.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Members API from Bitwarden — 4 operation(s) for members.
   name: Bitwarden Members API
   slug: bitwarden-members-api
-- description: The Organization API from Bitwarden — 1 operation(s) for organization.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Organization API from Bitwarden — 1 operation(s) for organization.
   name: Bitwarden Organization API
   slug: bitwarden-organization-api
-- description: The Policies API from Bitwarden — 3 operation(s) for policies.
+- baseURL: https://api.bitwarden.com/public
+  baseurl_source: declared
+  description: The Policies API from Bitwarden — 3 operation(s) for policies.
   name: Bitwarden Policies API
   slug: bitwarden-policies-api
 artifact_total: 26
@@ -214,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/screenshots/bitwarden-2026-06-20T173325.png
 security:

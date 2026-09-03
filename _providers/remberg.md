@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 115 operations · 65 acting · 10 human-in-the-loop
 api_count: 12
 apis:
-- description: The ai-chat API from Remberg — 2 operation(s) for ai-chat.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The ai-chat API from Remberg — 2 operation(s) for ai-chat.
   name: Remberg ai-chat API
   slug: remberg-ai-chat-api
-- description: The asset-status-signals API from Remberg — 5 operation(s) for asset-status-signals.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The asset-status-signals API from Remberg — 5 operation(s) for asset-status-signals.
   name: Remberg asset-status-signals API
   slug: remberg-asset-status-signals-api
-- description: The asset-types API from Remberg — 3 operation(s) for asset-types.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The asset-types API from Remberg — 3 operation(s) for asset-types.
   name: Remberg asset-types API
   slug: remberg-asset-types-api
-- description: The assets API from Remberg — 5 operation(s) for assets.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The assets API from Remberg — 5 operation(s) for assets.
   name: Remberg assets API
   slug: remberg-assets-api
-- description: The contacts API from Remberg — 2 operation(s) for contacts.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The contacts API from Remberg — 2 operation(s) for contacts.
   name: Remberg contacts API
   slug: remberg-contacts-api
-- description: The failure-types API from Remberg — 2 operation(s) for failure-types.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The failure-types API from Remberg — 2 operation(s) for failure-types.
   name: Remberg failure-types API
   slug: remberg-failure-types-api
-- description: The files API from Remberg — 6 operation(s) for files.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The files API from Remberg — 6 operation(s) for files.
   name: Remberg files API
   slug: remberg-files-api
-- description: The forms API from Remberg — 2 operation(s) for forms.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The forms API from Remberg — 2 operation(s) for forms.
   name: Remberg forms API
   slug: remberg-forms-api
-- description: The inventories API from Remberg — 4 operation(s) for inventories.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The inventories API from Remberg — 4 operation(s) for inventories.
   name: Remberg inventories API
   slug: remberg-inventories-api
-- description: The organizations API from Remberg — 4 operation(s) for organizations.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The organizations API from Remberg — 4 operation(s) for organizations.
   name: Remberg organizations API
   slug: remberg-organizations-api
-- description: The part-stock-changes API from Remberg — 2 operation(s) for part-stock-changes.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The part-stock-changes API from Remberg — 2 operation(s) for part-stock-changes.
   name: Remberg part-stock-changes API
   slug: remberg-part-stock-changes-api
-- description: The parts API from Remberg — 3 operation(s) for parts.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The parts API from Remberg — 3 operation(s) for parts.
   name: Remberg parts API
   slug: remberg-parts-api
-- description: The procedure-templates API from Remberg — 1 operation(s) for procedure-templates.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The procedure-templates API from Remberg — 1 operation(s) for procedure-templates.
   name: Remberg procedure-templates API
   slug: remberg-procedure-templates-api
-- description: The tickets API from Remberg — 4 operation(s) for tickets.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The tickets API from Remberg — 4 operation(s) for tickets.
   name: Remberg tickets API
   slug: remberg-tickets-api
-- description: The user-groups API from Remberg — 1 operation(s) for user-groups.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The user-groups API from Remberg — 1 operation(s) for user-groups.
   name: Remberg user-groups API
   slug: remberg-user-groups-api
-- description: The user-roles API from Remberg — 1 operation(s) for user-roles.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The user-roles API from Remberg — 1 operation(s) for user-roles.
   name: Remberg user-roles API
   slug: remberg-user-roles-api
-- description: The users API from Remberg — 3 operation(s) for users.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The users API from Remberg — 3 operation(s) for users.
   name: Remberg users API
   slug: remberg-users-api
-- description: The work-orders API from Remberg — 12 operation(s) for work-orders.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The work-orders API from Remberg — 12 operation(s) for work-orders.
   name: Remberg work-orders API
   slug: remberg-work-orders-api
-- description: The work-requests API from Remberg — 7 operation(s) for work-requests.
+- baseURL: https://api.remberg.de
+  baseurl_source: declared
+  description: The work-requests API from Remberg — 7 operation(s) for work-requests.
   name: Remberg work-requests API
   slug: remberg-work-requests-api
 artifact_total: 46
@@ -319,7 +357,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -329,7 +367,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 42.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,7 +379,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
 security:

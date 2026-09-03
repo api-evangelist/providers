@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 21 operations · 1 acting
 api_count: 1
 apis:
-- description: The Appointments API from Digitail — 3 operation(s) for appointments.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Appointments API from Digitail — 3 operation(s) for appointments.
   name: Digitail Appointments API
   slug: digitail-appointments-api
-- description: The Breeds API from Digitail — 1 operation(s) for breeds.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Breeds API from Digitail — 1 operation(s) for breeds.
   name: Digitail Breeds API
   slug: digitail-breeds-api
-- description: The Charges API from Digitail — 1 operation(s) for charges.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Charges API from Digitail — 1 operation(s) for charges.
   name: Digitail Charges API
   slug: digitail-charges-api
-- description: The Clients API from Digitail — 1 operation(s) for clients.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Clients API from Digitail — 1 operation(s) for clients.
   name: Digitail Clients API
   slug: digitail-clients-api
-- description: The Clinics API from Digitail — 1 operation(s) for clinics.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Clinics API from Digitail — 1 operation(s) for clinics.
   name: Digitail Clinics API
   slug: digitail-clinics-api
-- description: The Files API from Digitail — 1 operation(s) for files.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Files API from Digitail — 1 operation(s) for files.
   name: Digitail Files API
   slug: digitail-files-api
-- description: The Invoices API from Digitail — 1 operation(s) for invoices.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Invoices API from Digitail — 1 operation(s) for invoices.
   name: Digitail Invoices API
   slug: digitail-invoices-api
-- description: The Labs API from Digitail — 1 operation(s) for labs.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Labs API from Digitail — 1 operation(s) for labs.
   name: Digitail Labs API
   slug: digitail-labs-api
-- description: The Medication API from Digitail — 1 operation(s) for medication.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Medication API from Digitail — 1 operation(s) for medication.
   name: Digitail Medication API
   slug: digitail-medication-api
-- description: The Pet Parents API from Digitail — 1 operation(s) for pet parents.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Pet Parents API from Digitail — 1 operation(s) for pet parents.
   name: Digitail Pet Parents API
   slug: digitail-pet-parents-api
-- description: The Pets API from Digitail — 2 operation(s) for pets.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Pets API from Digitail — 2 operation(s) for pets.
   name: Digitail Pets API
   slug: digitail-pets-api
-- description: The Prescriptions API from Digitail — 1 operation(s) for prescriptions.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Prescriptions API from Digitail — 1 operation(s) for prescriptions.
   name: Digitail Prescriptions API
   slug: digitail-prescriptions-api
-- description: The Records API from Digitail — 1 operation(s) for records.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Records API from Digitail — 1 operation(s) for records.
   name: Digitail Records API
   slug: digitail-records-api
-- description: The Reports API from Digitail — 1 operation(s) for reports.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Reports API from Digitail — 1 operation(s) for reports.
   name: Digitail Reports API
   slug: digitail-reports-api
-- description: The Sales API from Digitail — 1 operation(s) for sales.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Sales API from Digitail — 1 operation(s) for sales.
   name: Digitail Sales API
   slug: digitail-sales-api
-- description: The Species API from Digitail — 1 operation(s) for species.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Species API from Digitail — 1 operation(s) for species.
   name: Digitail Species API
   slug: digitail-species-api
-- description: The Vets API from Digitail — 1 operation(s) for vets.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Vets API from Digitail — 1 operation(s) for vets.
   name: Digitail Vets API
   slug: digitail-vets-api
-- description: The Visit Types API from Digitail — 1 operation(s) for visit types.
+- baseURL: https://developer.digitail.io/api/v1
+  baseurl_source: declared
+  description: The Visit Types API from Digitail — 1 operation(s) for visit types.
   name: Digitail Visit Types API
   slug: digitail-visit-types-api
 artifact_total: 44
@@ -269,7 +305,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/screenshots/digitail-2026-07-25T212019.png
 security:

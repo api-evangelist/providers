@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +47,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 2
 apis:
-- description: The Coverage API from Ofcom — 1 operation(s) for coverage.
+- baseURL: https://api-proxy.ofcom.org.uk/broadband
+  baseurl_source: declared
+  description: The Coverage API from Ofcom — 1 operation(s) for coverage.
   name: Ofcom Coverage API
   slug: ofcom-coverage-api
 arazzos:
@@ -247,7 +263,7 @@ score:
     regime_id: telecommunications
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -47,25 +47,39 @@ apis:
 - description: The Toolhouse Workers API (historically the "Agents API") enables HTTP execution of any deployed Toolhouse worker. Workers defined via the Agent Editor or as code are reachable at https://agents.toolh
   name: Toolhouse Workers API
   slug: workers-api
-- description: The Agent Runs API from Toolhouse — 4 operation(s) for agent runs.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The Agent Runs API from Toolhouse — 4 operation(s) for agent runs.
   name: Toolhouse Agent Runs API
   slug: toolhouse-agent-runs-api
-- description: The API Keys API from Toolhouse — 3 operation(s) for api keys.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The API Keys API from Toolhouse — 3 operation(s) for api keys.
   name: Toolhouse API Keys API
   slug: toolhouse-api-keys-api
-- description: The Backoffice API from Toolhouse — 15 operation(s) for backoffice.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The Backoffice API from Toolhouse — 15 operation(s) for backoffice.
   name: Toolhouse Backoffice API
   slug: toolhouse-backoffice-api
-- description: The Logs API from Toolhouse — 2 operation(s) for logs.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The Logs API from Toolhouse — 2 operation(s) for logs.
   name: Toolhouse Logs API
   slug: toolhouse-logs-api
-- description: The Metrics API from Toolhouse — 4 operation(s) for metrics.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The Metrics API from Toolhouse — 4 operation(s) for metrics.
   name: Toolhouse Metrics API
   slug: toolhouse-metrics-api
-- description: The SDK API API from Toolhouse — 20 operation(s) for sdk api.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The SDK API API from Toolhouse — 20 operation(s) for sdk api.
   name: Toolhouse SDK API API
   slug: toolhouse-sdk-api-api
-- description: The User API API from Toolhouse — 58 operation(s) for user api.
+- baseURL: https://agents.toolhouse.ai
+  baseurl_source: declared
+  description: The User API API from Toolhouse — 58 operation(s) for user api.
   name: Toolhouse User API API
   slug: toolhouse-user-api-api
 artifact_total: 99
@@ -452,7 +466,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs/heads/main/screenshots/toolhouse-2026-08-17T082402.png
 security:

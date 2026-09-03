@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin API from Revyze — 2 operation(s) for admin.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Admin API from Revyze — 2 operation(s) for admin.
   name: Revyze Admin API
   slug: revyze-admin-api
-- description: The Coach API from Revyze — 1 operation(s) for coach.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Coach API from Revyze — 1 operation(s) for coach.
   name: Revyze Coach API
   slug: revyze-coach-api
-- description: The FastAPI API from Revyze — 1 operation(s) for fastapi.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The FastAPI API from Revyze — 1 operation(s) for fastapi.
   name: Revyze FastAPI API
   slug: revyze-fastapi-api
-- description: The Force Upgrade App API from Revyze — 1 operation(s) for force upgrade app.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Force Upgrade App API from Revyze — 1 operation(s) for force upgrade app.
   name: Revyze Force Upgrade App API
   slug: revyze-force-upgrade-app-api
-- description: The Graphql3 API from Revyze — 1 operation(s) for graphql3.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Graphql3 API from Revyze — 1 operation(s) for graphql3.
   name: Revyze Graphql3 API
   slug: revyze-graphql3-api
-- description: The Health API from Revyze — 1 operation(s) for health.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Health API from Revyze — 1 operation(s) for health.
   name: Revyze Health API
   slug: revyze-health-api
-- description: The Multiplayer API from Revyze — 1 operation(s) for multiplayer.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Multiplayer API from Revyze — 1 operation(s) for multiplayer.
   name: Revyze Multiplayer API
   slug: revyze-multiplayer-api
-- description: The Privacy Policy API from Revyze — 1 operation(s) for privacy policy.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Privacy Policy API from Revyze — 1 operation(s) for privacy policy.
   name: Revyze Privacy Policy API
   slug: revyze-privacy-policy-api
-- description: The Privacy Policy En API from Revyze — 1 operation(s) for privacy policy en.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Privacy Policy En API from Revyze — 1 operation(s) for privacy policy en.
   name: Revyze Privacy Policy En API
   slug: revyze-privacy-policy-en-api
-- description: The Webhook API from Revyze — 2 operation(s) for webhook.
+- baseURL: https://api.revyze.fr
+  baseurl_source: declared
+  description: The Webhook API from Revyze — 2 operation(s) for webhook.
   name: Revyze Webhook API
   slug: revyze-webhook-api
 artifact_total: 24
@@ -174,11 +194,11 @@ score:
   band: thin
   composite: 29.6
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -188,7 +208,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.8
+  previous_composite: 29.6
   provenance:
     contracts:
       callable: 100.0
@@ -202,8 +222,9 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revyze/refs/heads/main/screenshots/revyze-2026-09-02T153738.png
 security:
 - kind: authentication
   name: Revyze Authentication

@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Create a new Group
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Create a new Group
   name: Termius group API
   slug: termius-group-api
-- description: Create or Delete a host inside the vault or the group
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Create or Delete a host inside the vault or the group
   name: Termius host API
   slug: termius-host-api
 artifact_total: 10
@@ -233,7 +237,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termius/refs/heads/main/screenshots/termius-2026-08-17T082319.png
 security:

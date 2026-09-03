@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 31 operations · 11 acting
 api_count: 12
 apis:
-- description: The Gpt API from MixerBox — 9 operation(s) for gpt.
+- baseURL: https://www.mbplayer.com
+  baseurl_source: declared
+  description: The Gpt API from MixerBox — 9 operation(s) for gpt.
   name: MixerBox Gpt API
   slug: mixerbox-gpt-api
-- description: The Gpt Plugins API from MixerBox — 19 operation(s) for gpt plugins.
+- baseURL: https://www.mbplayer.com
+  baseurl_source: declared
+  description: The Gpt Plugins API from MixerBox — 19 operation(s) for gpt plugins.
   name: MixerBox Gpt Plugins API
   slug: mixerbox-gpt-plugins-api
-- description: The Services?funcs=GetWeatherInfo&mobile=0 API from MixerBox — 1 operation(s) for services?funcs=getweatherinfo&mobile=0.
+- baseURL: https://www.mbplayer.com
+  baseurl_source: declared
+  description: The Services?funcs=GetWeatherInfo&mobile=0 API from MixerBox — 1 operation(s) for services?funcs=getweatherinfo&mobile=0.
   name: MixerBox Services?funcs=GetWeatherInfo&mobile=0 API
   slug: mixerbox-services-funcs-getweatherinfo-mobile-0-api
 artifact_total: 11
@@ -182,7 +188,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixerbox/refs/heads/main/screenshots/mixerbox-2026-08-07T183823.png
 security:

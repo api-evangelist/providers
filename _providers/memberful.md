@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Query members and their profiles, emails, subscriptions, downloads, and custom JSON metadata (up to 50 keys), and create, update, or delete members through GraphQL mutations. Cursor-based pagination (
+- baseURL: https://ACCOUNT.memberful.com/api/graphql
+  baseurl_source: declared
+  description: Query members and their profiles, emails, subscriptions, downloads, and custom JSON metadata (up to 50 keys), and create, update, or delete members through GraphQL mutations. Cursor-based pagination (
   name: Memberful Members API
   slug: memberful-members-api
-- description: Read and manage member subscriptions - the link between a member and the pass/plan they pay for - including status, current period, trial state, activation and expiration, and the associated plan pric
+- baseURL: https://ACCOUNT.memberful.com/api/graphql
+  baseurl_source: declared
+  description: Read and manage member subscriptions - the link between a member and the pass/plan they pay for - including status, current period, trial state, activation and expiration, and the associated plan pric
   name: Memberful Subscriptions API
   slug: memberful-subscriptions-api
-- description: Query the passes members subscribe to (called "Plans" in the dashboard) and the plans (pricing options such as monthly or annual) within each pass, including price, interval, and label. Coupons that d
+- baseURL: https://ACCOUNT.memberful.com/api/graphql
+  baseurl_source: declared
+  description: Query the passes members subscribe to (called "Plans" in the dashboard) and the plans (pricing options such as monthly or annual) within each pass, including price, interval, and label. Coupons that d
   name: Memberful Plans and Passes API
   slug: memberful-plans-api
-- description: Query orders (transaction records) for a member or account, including totals, status, coupons applied, and the member and plan involved. Orders back the order.purchased, order.completed, order.refunde
+- baseURL: https://ACCOUNT.memberful.com/api/graphql
+  baseurl_source: declared
+  description: Query orders (transaction records) for a member or account, including totals, status, coupons applied, and the member and plan involved. Orders back the order.purchased, order.completed, order.refunde
   name: Memberful Orders API
   slug: memberful-orders-api
 - description: OAuth 2.0 Authorization Code flow (with PKCE) for signing members into external apps. Authorize at /oauth, exchange the code at /oauth/token, then query the signed-in member at /api/graphql/member. Ac
@@ -148,7 +156,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/screenshots/memberful-2026-08-07T172455.png
 security:

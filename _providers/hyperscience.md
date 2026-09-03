@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: REST API for the Hypercell platform — submit documents, retrieve extraction results, manage flows and human-review queues. Each tenant receives its own base URL.
   name: Hyperscience REST API
   slug: rest
-- description: The Audit Logs API from Hyperscience — 3 operation(s) for audit logs.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Audit Logs API from Hyperscience — 3 operation(s) for audit logs.
   name: Hyperscience Audit Logs API
   slug: hyperscience-audit-logs-api
-- description: The Cases API from Hyperscience — 2 operation(s) for cases.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Cases API from Hyperscience — 2 operation(s) for cases.
   name: Hyperscience Cases API
   slug: hyperscience-cases-api
-- description: The Documents API from Hyperscience — 2 operation(s) for documents.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Documents API from Hyperscience — 2 operation(s) for documents.
   name: Hyperscience Documents API
   slug: hyperscience-documents-api
-- description: The Flow Runs API from Hyperscience — 2 operation(s) for flow runs.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Flow Runs API from Hyperscience — 2 operation(s) for flow runs.
   name: Hyperscience Flow Runs API
   slug: hyperscience-flow-runs-api
-- description: The Flows API from Hyperscience — 2 operation(s) for flows.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Flows API from Hyperscience — 2 operation(s) for flows.
   name: Hyperscience Flows API
   slug: hyperscience-flows-api
-- description: The Layouts API from Hyperscience — 2 operation(s) for layouts.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Layouts API from Hyperscience — 2 operation(s) for layouts.
   name: Hyperscience Layouts API
   slug: hyperscience-layouts-api
-- description: The Pages API from Hyperscience — 2 operation(s) for pages.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Pages API from Hyperscience — 2 operation(s) for pages.
   name: Hyperscience Pages API
   slug: hyperscience-pages-api
-- description: The Submissions API from Hyperscience — 2 operation(s) for submissions.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Submissions API from Hyperscience — 2 operation(s) for submissions.
   name: Hyperscience Submissions API
   slug: hyperscience-submissions-api
-- description: The Version API from Hyperscience — 1 operation(s) for version.
+- baseURL: https://<tenant>.hyperscience.net
+  baseurl_source: declared
+  description: The Version API from Hyperscience — 1 operation(s) for version.
   name: Hyperscience Version API
   slug: hyperscience-version-api
 artifact_total: 30
@@ -231,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
 security:

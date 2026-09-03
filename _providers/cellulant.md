@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 8 operations · 7 acting
 api_count: 3
 apis:
-- description: Acknowledge successful or partial payments back to the platform.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: Acknowledge successful or partial payments back to the platform.
   name: Cellulant Acknowledgement API
   slug: cellulant-acknowledgement-api
-- description: OAuth 2.0 access token issuance for Tingg API calls.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: OAuth 2.0 access token issuance for Tingg API calls.
   name: Cellulant Authentication API
   slug: cellulant-authentication-api
-- description: Host-to-host checkout flow for merchant-controlled UX.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: Host-to-host checkout flow for merchant-controlled UX.
   name: Cellulant Custom Checkout API
   slug: cellulant-custom-checkout-api
-- description: Outbound SMS notifications and OTPs.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: Outbound SMS notifications and OTPs.
   name: Cellulant Engagement API
   slug: cellulant-engagement-api
-- description: Create hosted checkout sessions returning short and long URLs.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: Create hosted checkout sessions returning short and long URLs.
   name: Cellulant Express Checkout API
   slug: cellulant-express-checkout-api
-- description: Post payouts, queries, validations, balances, and refunds.
+- baseURL: https://api.tingg.africa
+  baseurl_source: spec
+  description: Post payouts, queries, validations, balances, and refunds.
   name: Cellulant Payments API
   slug: cellulant-payments-api
 arazzos:
@@ -439,7 +451,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -449,7 +461,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 38.2
-  previous_composite: 55.9
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -464,7 +476,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cellulant/refs/heads/main/screenshots/cellulant-2026-08-17T083356.png
 security:

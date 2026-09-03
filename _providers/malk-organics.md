@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: MALK Organics's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP and served from MALK's own host. Agents can search and look up the MALK product catalo
@@ -149,7 +162,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +182,9 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/screenshots/malk-organics-2026-09-02T150422.png
 security:
 - kind: authentication
   name: Malk Organics Authentication

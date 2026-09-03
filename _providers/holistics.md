@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
-- description: Execute data imports and transforms.
+- baseURL: https://secure.holistics.io/api/v2
+  baseurl_source: declared
+  description: Execute data imports and transforms.
   name: Holistics Data Pipeline API
   slug: holistics-data-pipeline-api
-- description: Query the Holistics dataset semantic layer.
+- baseURL: https://secure.holistics.io/api/v2
+  baseurl_source: declared
+  description: Query the Holistics dataset semantic layer.
   name: Holistics Datasets API
   slug: holistics-datasets-api
-- description: Asynchronous report data export jobs.
+- baseURL: https://secure.holistics.io/api/v2
+  baseurl_source: declared
+  description: Asynchronous report data export jobs.
   name: Holistics Export API
   slug: holistics-export-api
-- description: Poll ETL and export job status.
+- baseURL: https://secure.holistics.io/api/v2
+  baseurl_source: declared
+  description: Poll ETL and export job status.
   name: Holistics Jobs API
   slug: holistics-jobs-api
-- description: Submit report queries and retrieve results.
+- baseURL: https://secure.holistics.io/api/v2
+  baseurl_source: declared
+  description: Submit report queries and retrieve results.
   name: Holistics Reports API
   slug: holistics-reports-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holistics/refs/heads/main/screenshots/holistics-2026-06-20T182813.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The GraphQL API behind DNA Script's SYNTAX Console Software — the fleet-management layer customers use to design plate templates, upload oligo sequence files, schedule and start synthesis runs, monito
@@ -157,7 +168,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dna-script/refs/heads/main/screenshots/dna-script-2026-08-07T164437.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 35 operations · 20 acting
 api_count: 1
 apis:
-- description: The Metrics API from Scorecard — 1 operation(s) for metrics.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Metrics API from Scorecard — 1 operation(s) for metrics.
   name: Scorecard Metrics API
   slug: scorecard-metrics-api
-- description: The Projects API from Scorecard — 5 operation(s) for projects.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Projects API from Scorecard — 5 operation(s) for projects.
   name: Scorecard Projects API
   slug: scorecard-projects-api
-- description: The Records API from Scorecard — 5 operation(s) for records.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Records API from Scorecard — 5 operation(s) for records.
   name: Scorecard Records API
   slug: scorecard-records-api
-- description: The Runs API from Scorecard — 2 operation(s) for runs.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Runs API from Scorecard — 2 operation(s) for runs.
   name: Scorecard Runs API
   slug: scorecard-runs-api
-- description: The Systems API from Scorecard — 3 operation(s) for systems.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Systems API from Scorecard — 3 operation(s) for systems.
   name: Scorecard Systems API
   slug: scorecard-systems-api
-- description: The Testcases API from Scorecard — 2 operation(s) for testcases.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Testcases API from Scorecard — 2 operation(s) for testcases.
   name: Scorecard Testcases API
   slug: scorecard-testcases-api
-- description: The Testsets API from Scorecard — 2 operation(s) for testsets.
+- baseURL: https://api2.scorecard.io/api/v2
+  baseurl_source: declared
+  description: The Testsets API from Scorecard — 2 operation(s) for testsets.
   name: Scorecard Testsets API
   slug: scorecard-testsets-api
 artifact_total: 20
@@ -254,7 +268,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/screenshots/scorecard-2026-08-17T081735.png
 security:

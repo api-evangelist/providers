@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: 'Keyless OAI-PMH 2.0 metadata harvesting endpoint operated by Maastricht University on its own domain. Verified live 2026-08-30: all six verbs return 200, six metadata profiles are offered (oai_dc, qdc'
+- baseURL: https://cris.maastrichtuniversity.nl/ws/oai
+  baseurl_source: declared
+  description: 'Keyless OAI-PMH 2.0 metadata harvesting endpoint operated by Maastricht University on its own domain. Verified live 2026-08-30: all six verbs return 200, six metadata profiles are offered (oai_dc, qdc'
   name: Maastricht University Research Portal OAI-PMH
   slug: oai-pmh
 - description: 'Maastricht University runs its own identity provider on login.maastrichtuniversity.nl and publishes two machine-readable discovery documents without authentication: an OpenID Connect configuration (is'
@@ -225,23 +227,23 @@ scopes:
   summary_line: 10 scopes
 score:
   band: thin
-  composite: 38.3
+  composite: 37.9
   coverage:
     artifact_dirs: 15
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.8
+  delta: -0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
-    contract_quality: 15.6
+    contract_quality: 14.3
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 47.1
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     contracts:
@@ -256,8 +258,8 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png
 security:
 - kind: authentication

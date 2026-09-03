@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: REST API providing JSON-over-HTTP access to tickets, conversations, problems, changes, releases, assets, software, agents, requesters, groups, the service catalog, and approvals. Uses HTTP Basic authe
   name: Freshservice API v2
   slug: itsm-api
-- description: The Agents API from Freshservice — 2 operation(s) for agents.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Agents API from Freshservice — 2 operation(s) for agents.
   name: Freshservice Agents API
   slug: freshservice-agents-api
-- description: The Assets API from Freshservice — 2 operation(s) for assets.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Assets API from Freshservice — 2 operation(s) for assets.
   name: Freshservice Assets API
   slug: freshservice-assets-api
-- description: The Changes API from Freshservice — 2 operation(s) for changes.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Changes API from Freshservice — 2 operation(s) for changes.
   name: Freshservice Changes API
   slug: freshservice-changes-api
-- description: The Groups API from Freshservice — 2 operation(s) for groups.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Groups API from Freshservice — 2 operation(s) for groups.
   name: Freshservice Groups API
   slug: freshservice-groups-api
-- description: The Problems API from Freshservice — 2 operation(s) for problems.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Problems API from Freshservice — 2 operation(s) for problems.
   name: Freshservice Problems API
   slug: freshservice-problems-api
-- description: The Releases API from Freshservice — 2 operation(s) for releases.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Releases API from Freshservice — 2 operation(s) for releases.
   name: Freshservice Releases API
   slug: freshservice-releases-api
-- description: The Requesters API from Freshservice — 2 operation(s) for requesters.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Requesters API from Freshservice — 2 operation(s) for requesters.
   name: Freshservice Requesters API
   slug: freshservice-requesters-api
-- description: The Tickets API from Freshservice — 2 operation(s) for tickets.
+- baseURL: https://<domain>.freshservice.com/api/v2
+  baseurl_source: declared
+  description: The Tickets API from Freshservice — 2 operation(s) for tickets.
   name: Freshservice Tickets API
   slug: freshservice-tickets-api
 artifact_total: 24
@@ -195,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/screenshots/freshservice-2026-06-20T181545.png
 security:

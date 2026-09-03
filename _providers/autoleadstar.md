@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +36,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
   name: Fullpath MCP Tools
   slug: fullpath-mcp-tools
-- description: Operations related to activities
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to activities
   name: AutoLeadStar Activities API
   slug: autoleadstar-activities-api
-- description: Operations related to appointments
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to appointments
   name: AutoLeadStar Appointments API
   slug: autoleadstar-appointments-api
-- description: Operations related to audiences
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to audiences
   name: AutoLeadStar Audiences API
   slug: autoleadstar-audiences-api
-- description: Vendor Consent Management API for listing integrated dealers and reading/writing communication consent. Defaults to `https://fullpath.com/api/v2/external/consent-management`.
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Vendor Consent Management API for listing integrated dealers and reading/writing communication consent. Defaults to `https://fullpath.com/api/v2/external/consent-management`.
   name: AutoLeadStar Consents API
   slug: autoleadstar-consents-api
-- description: Operations related to leads
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to leads
   name: AutoLeadStar Leads API
   slug: autoleadstar-leads-api
-- description: Operations related to shoppers
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to shoppers
   name: AutoLeadStar Shoppers API
   slug: autoleadstar-shoppers-api
-- description: Operations related to tasks
+- baseURL: https://api.fullpath.com/v1
+  baseurl_source: declared
+  description: Operations related to tasks
   name: AutoLeadStar Tasks API
   slug: autoleadstar-tasks-api
 artifact_total: 23
@@ -240,7 +267,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
 security:

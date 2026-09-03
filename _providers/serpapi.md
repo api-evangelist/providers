@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: SerpApi is a real-time API to access Google search results. We handle proxies, solve captchas, and parse all rich structured data for you.
   name: SerpApi Google Trends API
   slug: serpapi-google-trends-api
-- description: The Account API from SerpApi — 1 operation(s) for account.
+- baseURL: https://serpapi.com
+  baseurl_source: spec
+  description: The Account API from SerpApi — 1 operation(s) for account.
   name: SerpApi Account API
   slug: serpapi-account-api
-- description: The Search API from SerpApi — 2 operation(s) for search.
+- baseURL: https://serpapi.com
+  baseurl_source: spec
+  description: The Search API from SerpApi — 2 operation(s) for search.
   name: SerpApi Search API
   slug: serpapi-search-api
 artifact_total: 22
@@ -184,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/screenshots/serpapi-2026-06-20T193722.png
 security:

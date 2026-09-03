@@ -33,205 +33,337 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Admin API from Parcha — 14 operation(s) for admin.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Admin API from Parcha — 14 operation(s) for admin.
   name: Parcha Admin API
   slug: parcha-admin-api
-- description: The admin-billing API from Parcha — 8 operation(s) for admin-billing.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The admin-billing API from Parcha — 8 operation(s) for admin-billing.
   name: Parcha admin-billing API
   slug: parcha-admin-billing-api
-- description: The Admin CSV Batch Management API from Parcha — 8 operation(s) for admin csv batch management.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Admin CSV Batch Management API from Parcha — 8 operation(s) for admin csv batch management.
   name: Parcha Admin CSV Batch Management API
   slug: parcha-admin-csv-batch-management-api
-- description: The Admin - Profiler Testing API from Parcha — 1 operation(s) for admin - profiler testing.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Admin - Profiler Testing API from Parcha — 1 operation(s) for admin - profiler testing.
   name: Parcha Admin - Profiler Testing API
   slug: parcha-admin-profiler-testing-api
-- description: The Admin - Scraper Testing API from Parcha — 3 operation(s) for admin - scraper testing.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Admin - Scraper Testing API from Parcha — 3 operation(s) for admin - scraper testing.
   name: Parcha Admin - Scraper Testing API
   slug: parcha-admin-scraper-testing-api
-- description: The Agent API from Parcha — 2 operation(s) for agent.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Agent API from Parcha — 2 operation(s) for agent.
   name: Parcha Agent API
   slug: parcha-agent-api
-- description: The Agent Schemas API from Parcha — 1 operation(s) for agent schemas.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Agent Schemas API from Parcha — 1 operation(s) for agent schemas.
   name: Parcha Agent Schemas API
   slug: parcha-agent-schemas-api
-- description: The Billing API from Parcha — 1 operation(s) for billing.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Billing API from Parcha — 1 operation(s) for billing.
   name: Parcha Billing API
   slug: parcha-billing-api
-- description: The Checks API from Parcha — 2 operation(s) for checks.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Checks API from Parcha — 2 operation(s) for checks.
   name: Parcha Checks API
   slug: parcha-checks-api
-- description: The Cost Analytics API from Parcha — 5 operation(s) for cost analytics.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Cost Analytics API from Parcha — 5 operation(s) for cost analytics.
   name: Parcha Cost Analytics API
   slug: parcha-cost-analytics-api
-- description: The Dashboard API from Parcha — 8 operation(s) for dashboard.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Dashboard API from Parcha — 8 operation(s) for dashboard.
   name: Parcha Dashboard API
   slug: parcha-dashboard-api
-- description: The Document Management API from Parcha — 2 operation(s) for document management.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Document Management API from Parcha — 2 operation(s) for document management.
   name: Parcha Document Management API
   slug: parcha-document-management-api
-- description: The document-requests API from Parcha — 6 operation(s) for document-requests.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The document-requests API from Parcha — 6 operation(s) for document-requests.
   name: Parcha document-requests API
   slug: parcha-document-requests-api
-- description: The Dojo API from Parcha — 3 operation(s) for dojo.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Dojo API from Parcha — 3 operation(s) for dojo.
   name: Parcha Dojo API
   slug: parcha-dojo-api
-- description: The DownloadReport API from Parcha — 2 operation(s) for downloadreport.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The DownloadReport API from Parcha — 2 operation(s) for downloadreport.
   name: Parcha DownloadReport API
   slug: parcha-downloadreport-api
-- description: The EnqueueFromCSV API from Parcha — 2 operation(s) for enqueuefromcsv.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The EnqueueFromCSV API from Parcha — 2 operation(s) for enqueuefromcsv.
   name: Parcha EnqueueFromCSV API
   slug: parcha-enqueuefromcsv-api
-- description: The EnqueueFromSource API from Parcha — 2 operation(s) for enqueuefromsource.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The EnqueueFromSource API from Parcha — 2 operation(s) for enqueuefromsource.
   name: Parcha EnqueueFromSource API
   slug: parcha-enqueuefromsource-api
-- description: The EnqueueKybSchemas API from Parcha — 2 operation(s) for enqueuekybschemas.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The EnqueueKybSchemas API from Parcha — 2 operation(s) for enqueuekybschemas.
   name: Parcha EnqueueKybSchemas API
   slug: parcha-enqueuekybschemas-api
-- description: The EnrichCompany API from Parcha — 2 operation(s) for enrichcompany.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The EnrichCompany API from Parcha — 2 operation(s) for enrichcompany.
   name: Parcha EnrichCompany API
   slug: parcha-enrichcompany-api
-- description: The EnrichPerson API from Parcha — 2 operation(s) for enrichperson.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The EnrichPerson API from Parcha — 2 operation(s) for enrichperson.
   name: Parcha EnrichPerson API
   slug: parcha-enrichperson-api
-- description: The ExportCSVBatch API from Parcha — 2 operation(s) for exportcsvbatch.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The ExportCSVBatch API from Parcha — 2 operation(s) for exportcsvbatch.
   name: Parcha ExportCSVBatch API
   slug: parcha-exportcsvbatch-api
-- description: The Form API from Parcha — 2 operation(s) for form.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Form API from Parcha — 2 operation(s) for form.
   name: Parcha Form API
   slug: parcha-form-api
-- description: The GenerateBulkCaseReports API from Parcha — 2 operation(s) for generatebulkcasereports.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GenerateBulkCaseReports API from Parcha — 2 operation(s) for generatebulkcasereports.
   name: Parcha GenerateBulkCaseReports API
   slug: parcha-generatebulkcasereports-api
-- description: The GenerateReportToGDrive API from Parcha — 2 operation(s) for generatereporttogdrive.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GenerateReportToGDrive API from Parcha — 2 operation(s) for generatereporttogdrive.
   name: Parcha GenerateReportToGDrive API
   slug: parcha-generatereporttogdrive-api
-- description: The GetAgentConfigCostEstimate API from Parcha — 2 operation(s) for getagentconfigcostestimate.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAgentConfigCostEstimate API from Parcha — 2 operation(s) for getagentconfigcostestimate.
   name: Parcha GetAgentConfigCostEstimate API
   slug: parcha-getagentconfigcostestimate-api
-- description: The GetAgentConfigSchemas API from Parcha — 1 operation(s) for getagentconfigschemas.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAgentConfigSchemas API from Parcha — 1 operation(s) for getagentconfigschemas.
   name: Parcha GetAgentConfigSchemas API
   slug: parcha-getagentconfigschemas-api
-- description: The GetAgentCostEstimate API from Parcha — 2 operation(s) for getagentcostestimate.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAgentCostEstimate API from Parcha — 2 operation(s) for getagentcostestimate.
   name: Parcha GetAgentCostEstimate API
   slug: parcha-getagentcostestimate-api
-- description: The GetAgentJobByCaseId API from Parcha — 1 operation(s) for getagentjobbycaseid.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAgentJobByCaseId API from Parcha — 1 operation(s) for getagentjobbycaseid.
   name: Parcha GetAgentJobByCaseId API
   slug: parcha-getagentjobbycaseid-api
-- description: The GetAllSources API from Parcha — 2 operation(s) for getallsources.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAllSources API from Parcha — 2 operation(s) for getallsources.
   name: Parcha GetAllSources API
   slug: parcha-getallsources-api
-- description: The GetAvailableChecks API from Parcha — 2 operation(s) for getavailablechecks.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetAvailableChecks API from Parcha — 2 operation(s) for getavailablechecks.
   name: Parcha GetAvailableChecks API
   slug: parcha-getavailablechecks-api
-- description: The GetBatchJobs API from Parcha — 2 operation(s) for getbatchjobs.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetBatchJobs API from Parcha — 2 operation(s) for getbatchjobs.
   name: Parcha GetBatchJobs API
   slug: parcha-getbatchjobs-api
-- description: The GetCaseDataForJob API from Parcha — 1 operation(s) for getcasedataforjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetCaseDataForJob API from Parcha — 1 operation(s) for getcasedataforjob.
   name: Parcha GetCaseDataForJob API
   slug: parcha-getcasedataforjob-api
-- description: The GetCheckInfo API from Parcha — 2 operation(s) for getcheckinfo.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetCheckInfo API from Parcha — 2 operation(s) for getcheckinfo.
   name: Parcha GetCheckInfo API
   slug: parcha-getcheckinfo-api
-- description: The GetCheckResultFromJob API from Parcha — 2 operation(s) for getcheckresultfromjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetCheckResultFromJob API from Parcha — 2 operation(s) for getcheckresultfromjob.
   name: Parcha GetCheckResultFromJob API
   slug: parcha-getcheckresultfromjob-api
-- description: The GetCheckResults API from Parcha — 2 operation(s) for getcheckresults.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetCheckResults API from Parcha — 2 operation(s) for getcheckresults.
   name: Parcha GetCheckResults API
   slug: parcha-getcheckresults-api
-- description: The GetChecksOverviewData API from Parcha — 2 operation(s) for getchecksoverviewdata.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetChecksOverviewData API from Parcha — 2 operation(s) for getchecksoverviewdata.
   name: Parcha GetChecksOverviewData API
   slug: parcha-getchecksoverviewdata-api
-- description: The GetDocument API from Parcha — 1 operation(s) for getdocument.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetDocument API from Parcha — 1 operation(s) for getdocument.
   name: Parcha GetDocument API
   slug: parcha-getdocument-api
-- description: The GetFeedbackInputsByKey API from Parcha — 2 operation(s) for getfeedbackinputsbykey.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetFeedbackInputsByKey API from Parcha — 2 operation(s) for getfeedbackinputsbykey.
   name: Parcha GetFeedbackInputsByKey API
   slug: parcha-getfeedbackinputsbykey-api
-- description: The GetJobBatches API from Parcha — 2 operation(s) for getjobbatches.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobBatches API from Parcha — 2 operation(s) for getjobbatches.
   name: Parcha GetJobBatches API
   slug: parcha-getjobbatches-api
-- description: The GetJobById API from Parcha — 2 operation(s) for getjobbyid.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobById API from Parcha — 2 operation(s) for getjobbyid.
   name: Parcha GetJobById API
   slug: parcha-getjobbyid-api
-- description: The GetJobMetadata API from Parcha — 2 operation(s) for getjobmetadata.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobMetadata API from Parcha — 2 operation(s) for getjobmetadata.
   name: Parcha GetJobMetadata API
   slug: parcha-getjobmetadata-api
-- description: The GetJobMetadataByCaseId API from Parcha — 2 operation(s) for getjobmetadatabycaseid.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobMetadataByCaseId API from Parcha — 2 operation(s) for getjobmetadatabycaseid.
   name: Parcha GetJobMetadataByCaseId API
   slug: parcha-getjobmetadatabycaseid-api
-- description: The GetJobMetadataByJobId API from Parcha — 2 operation(s) for getjobmetadatabyjobid.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobMetadataByJobId API from Parcha — 2 operation(s) for getjobmetadatabyjobid.
   name: Parcha GetJobMetadataByJobId API
   slug: parcha-getjobmetadatabyjobid-api
-- description: The GetJobsByCaseId API from Parcha — 2 operation(s) for getjobsbycaseid.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobsByCaseId API from Parcha — 2 operation(s) for getjobsbycaseid.
   name: Parcha GetJobsByCaseId API
   slug: parcha-getjobsbycaseid-api
-- description: The GetJobStatusSummary API from Parcha — 2 operation(s) for getjobstatussummary.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetJobStatusSummary API from Parcha — 2 operation(s) for getjobstatussummary.
   name: Parcha GetJobStatusSummary API
   slug: parcha-getjobstatussummary-api
-- description: The GetKybSchemasFromSource API from Parcha — 2 operation(s) for getkybschemasfromsource.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetKybSchemasFromSource API from Parcha — 2 operation(s) for getkybschemasfromsource.
   name: Parcha GetKybSchemasFromSource API
   slug: parcha-getkybschemasfromsource-api
-- description: The GetLatestApplicationState API from Parcha — 2 operation(s) for getlatestapplicationstate.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetLatestApplicationState API from Parcha — 2 operation(s) for getlatestapplicationstate.
   name: Parcha GetLatestApplicationState API
   slug: parcha-getlatestapplicationstate-api
-- description: The GetSourceContents API from Parcha — 2 operation(s) for getsourcecontents.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetSourceContents API from Parcha — 2 operation(s) for getsourcecontents.
   name: Parcha GetSourceContents API
   slug: parcha-getsourcecontents-api
-- description: The GetThinking API from Parcha — 2 operation(s) for getthinking.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The GetThinking API from Parcha — 2 operation(s) for getthinking.
   name: Parcha GetThinking API
   slug: parcha-getthinking-api
-- description: The Image Proxy API from Parcha — 1 operation(s) for image proxy.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The Image Proxy API from Parcha — 1 operation(s) for image proxy.
   name: Parcha Image Proxy API
   slug: parcha-image-proxy-api
-- description: The MapCsvColumns API from Parcha — 2 operation(s) for mapcsvcolumns.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The MapCsvColumns API from Parcha — 2 operation(s) for mapcsvcolumns.
   name: Parcha MapCsvColumns API
   slug: parcha-mapcsvcolumns-api
-- description: The RunCheck API from Parcha — 2 operation(s) for runcheck.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The RunCheck API from Parcha — 2 operation(s) for runcheck.
   name: Parcha RunCheck API
   slug: parcha-runcheck-api
-- description: The RunFlashCheck API from Parcha — 2 operation(s) for runflashcheck.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The RunFlashCheck API from Parcha — 2 operation(s) for runflashcheck.
   name: Parcha RunFlashCheck API
   slug: parcha-runflashcheck-api
-- description: The schemas API from Parcha — 1 operation(s) for schemas.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The schemas API from Parcha — 1 operation(s) for schemas.
   name: Parcha schemas API
   slug: parcha-schemas-api
-- description: The SendFeedback API from Parcha — 2 operation(s) for sendfeedback.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The SendFeedback API from Parcha — 2 operation(s) for sendfeedback.
   name: Parcha SendFeedback API
   slug: parcha-sendfeedback-api
-- description: The SpecializedScraper API from Parcha — 2 operation(s) for specializedscraper.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The SpecializedScraper API from Parcha — 2 operation(s) for specializedscraper.
   name: Parcha SpecializedScraper API
   slug: parcha-specializedscraper-api
-- description: The StartKYBAgentJob API from Parcha — 2 operation(s) for startkybagentjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The StartKYBAgentJob API from Parcha — 2 operation(s) for startkybagentjob.
   name: Parcha StartKYBAgentJob API
   slug: parcha-startkybagentjob-api
-- description: The StartKYCAgentJob API from Parcha — 2 operation(s) for startkycagentjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The StartKYCAgentJob API from Parcha — 2 operation(s) for startkycagentjob.
   name: Parcha StartKYCAgentJob API
   slug: parcha-startkycagentjob-api
-- description: The StartPersonaKYBJob API from Parcha — 2 operation(s) for startpersonakybjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The StartPersonaKYBJob API from Parcha — 2 operation(s) for startpersonakybjob.
   name: Parcha StartPersonaKYBJob API
   slug: parcha-startpersonakybjob-api
-- description: The StartPersonaKYCJob API from Parcha — 2 operation(s) for startpersonakycjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The StartPersonaKYCJob API from Parcha — 2 operation(s) for startpersonakycjob.
   name: Parcha StartPersonaKYCJob API
   slug: parcha-startpersonakycjob-api
-- description: The StartPublicJob API from Parcha — 1 operation(s) for startpublicjob.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The StartPublicJob API from Parcha — 1 operation(s) for startpublicjob.
   name: Parcha StartPublicJob API
   slug: parcha-startpublicjob-api
-- description: The TestWebhook API from Parcha — 2 operation(s) for testwebhook.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The TestWebhook API from Parcha — 2 operation(s) for testwebhook.
   name: Parcha TestWebhook API
   slug: parcha-testwebhook-api
-- description: The TestWebhookReceiver API from Parcha — 2 operation(s) for testwebhookreceiver.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The TestWebhookReceiver API from Parcha — 2 operation(s) for testwebhookreceiver.
   name: Parcha TestWebhookReceiver API
   slug: parcha-testwebhookreceiver-api
-- description: The TriggerWebhook API from Parcha — 1 operation(s) for triggerwebhook.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The TriggerWebhook API from Parcha — 1 operation(s) for triggerwebhook.
   name: Parcha TriggerWebhook API
   slug: parcha-triggerwebhook-api
-- description: The UpdateApplicationStatus API from Parcha — 2 operation(s) for updateapplicationstatus.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The UpdateApplicationStatus API from Parcha — 2 operation(s) for updateapplicationstatus.
   name: Parcha UpdateApplicationStatus API
   slug: parcha-updateapplicationstatus-api
-- description: The UploadB64Document API from Parcha — 1 operation(s) for uploadb64document.
+- baseURL: https://api.parcha.ai/api/v1
+  baseurl_source: declared
+  description: The UploadB64Document API from Parcha — 1 operation(s) for uploadb64document.
   name: Parcha UploadB64Document API
   slug: parcha-uploadb64document-api
 artifact_total: 138
@@ -594,7 +726,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -604,7 +736,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -615,7 +747,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcha/refs/heads/main/screenshots/parcha-2026-08-07T191435.png
 security:

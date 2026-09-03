@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -44,193 +44,319 @@ agentic_access:
   summary_line: 63 operations · 63 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associatefirewallrulegroup.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associatefirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-associatefirewallrulegroup-api
-- description: 'The #X Amz Target=Route53Resolver.AssociateResolverEndpointIpAddress API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverendpointipaddress.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.AssociateResolverEndpointIpAddress API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverendpointipaddress.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateResolverEndpointIpAddress API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-associateresolverendpointipaddress-api
-- description: 'The #X Amz Target=Route53Resolver.AssociateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverquerylogconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.AssociateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverquerylogconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateResolverQueryLogConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-associateresolverquerylogconfig-api
-- description: 'The #X Amz Target=Route53Resolver.AssociateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.AssociateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associateresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-associateresolverrule-api
-- description: 'The #X Amz Target=Route53Resolver.CreateFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewalldomainlist.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewalldomainlist.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateFirewallDomainList API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createfirewalldomainlist-api
-- description: 'The #X Amz Target=Route53Resolver.CreateFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewallrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewallrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateFirewallRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createfirewallrule-api
-- description: 'The #X Amz Target=Route53Resolver.CreateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewallrulegroup.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createfirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateFirewallRuleGroup API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createfirewallrulegroup-api
-- description: 'The #X Amz Target=Route53Resolver.CreateResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverendpoint.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverendpoint.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateResolverEndpoint API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createresolverendpoint-api
-- description: 'The #X Amz Target=Route53Resolver.CreateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverquerylogconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverquerylogconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateResolverQueryLogConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createresolverquerylogconfig-api
-- description: 'The #X Amz Target=Route53Resolver.CreateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.CreateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.createresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.CreateResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-createresolverrule-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewalldomainlist.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewalldomainlist.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteFirewallDomainList API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deletefirewalldomainlist-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewallrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewallrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteFirewallRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deletefirewallrule-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewallrulegroup.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deletefirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteFirewallRuleGroup API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deletefirewallrulegroup-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverendpoint.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverendpoint.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteResolverEndpoint API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverendpoint-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverquerylogconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverquerylogconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteResolverQueryLogConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverquerylogconfig-api
-- description: 'The #X Amz Target=Route53Resolver.DeleteResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DeleteResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.deleteresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DeleteResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-deleteresolverrule-api
-- description: 'The #X Amz Target=Route53Resolver.DisassociateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociatefirewallrulegroup.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DisassociateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociatefirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DisassociateFirewallRuleGroup API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-disassociatefirewallrulegroup-api
-- description: 'The #X Amz Target=Route53Resolver.DisassociateResolverEndpointIpAddress API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverendpointipaddress.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DisassociateResolverEndpointIpAddress API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverendpointipaddress.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DisassociateResolverEndpointIpAddress API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverendpointipaddress-api
-- description: 'The #X Amz Target=Route53Resolver.DisassociateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverquerylogconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DisassociateResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverquerylogconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DisassociateResolverQueryLogConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverquerylogconfig-api
-- description: 'The #X Amz Target=Route53Resolver.DisassociateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.DisassociateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.disassociateresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.DisassociateResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-disassociateresolverrule-api
-- description: 'The #X Amz Target=Route53Resolver.GetFirewallConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetFirewallConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetFirewallConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getfirewallconfig-api
-- description: 'The #X Amz Target=Route53Resolver.GetFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewalldomainlist.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetFirewallDomainList API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewalldomainlist.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetFirewallDomainList API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getfirewalldomainlist-api
-- description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegroup.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetFirewallRuleGroup API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegroup-api
-- description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroupAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegroupassociation.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroupAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegroupassociation.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetFirewallRuleGroupAssociation API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegroupassociation-api
-- description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroupPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegrouppolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetFirewallRuleGroupPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getfirewallrulegrouppolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetFirewallRuleGroupPolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getfirewallrulegrouppolicy-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverconfig-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverDnssecConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverdnssecconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverDnssecConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverdnssecconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverDnssecConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverdnssecconfig-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverendpoint.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverendpoint.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverEndpoint API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverendpoint-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverQueryLogConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfig-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfigAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfigassociation.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfigAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfigassociation.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverQueryLogConfigAssociation API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfigassociation-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfigPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfigpolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverQueryLogConfigPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverquerylogconfigpolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverQueryLogConfigPolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverquerylogconfigpolicy-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverrule-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverRuleAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverruleassociation.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverRuleAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverruleassociation.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverRuleAssociation API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverruleassociation-api
-- description: 'The #X Amz Target=Route53Resolver.GetResolverRulePolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverrulepolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.GetResolverRulePolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.getresolverrulepolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.GetResolverRulePolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-getresolverrulepolicy-api
-- description: 'The #X Amz Target=Route53Resolver.ImportFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.importfirewalldomains.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ImportFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.importfirewalldomains.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ImportFirewallDomains API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-importfirewalldomains-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallconfigs.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallconfigs.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallConfigs API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewallconfigs-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallDomainLists API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewalldomainlists.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallDomainLists API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewalldomainlists.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallDomainLists API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewalldomainlists-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewalldomains.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewalldomains.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallDomains API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewalldomains-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallRuleGroupAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrulegroupassociations.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallRuleGroupAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrulegroupassociations.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallRuleGroupAssociations API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrulegroupassociations-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallRuleGroups API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrulegroups.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallRuleGroups API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrulegroups.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallRuleGroups API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrulegroups-api
-- description: 'The #X Amz Target=Route53Resolver.ListFirewallRules API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrules.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListFirewallRules API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listfirewallrules.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListFirewallRules API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listfirewallrules-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverconfigs.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverconfigs.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverConfigs API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverconfigs-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverDnssecConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverdnssecconfigs.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverDnssecConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverdnssecconfigs.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverDnssecConfigs API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverdnssecconfigs-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverEndpointIpAddresses API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverendpointipaddresses.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverEndpointIpAddresses API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverendpointipaddresses.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverEndpointIpAddresses API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverendpointipaddresses-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverEndpoints API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverendpoints.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverEndpoints API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverendpoints.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverEndpoints API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverendpoints-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverQueryLogConfigAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverquerylogconfigassociations.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverQueryLogConfigAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverquerylogconfigassociations.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverQueryLogConfigAssociations API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverquerylogconfigassociations-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverQueryLogConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverquerylogconfigs.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverQueryLogConfigs API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverquerylogconfigs.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverQueryLogConfigs API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverquerylogconfigs-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverRuleAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverruleassociations.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverRuleAssociations API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverruleassociations.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverRuleAssociations API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverruleassociations-api
-- description: 'The #X Amz Target=Route53Resolver.ListResolverRules API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverrules.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListResolverRules API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listresolverrules.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListResolverRules API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listresolverrules-api
-- description: 'The #X Amz Target=Route53Resolver.ListTagsForResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listtagsforresource.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.ListTagsForResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.listtagsforresource.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.ListTagsForResource API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-listtagsforresource-api
-- description: 'The #X Amz Target=Route53Resolver.PutFirewallRuleGroupPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putfirewallrulegrouppolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.PutFirewallRuleGroupPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putfirewallrulegrouppolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.PutFirewallRuleGroupPolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-putfirewallrulegrouppolicy-api
-- description: 'The #X Amz Target=Route53Resolver.PutResolverQueryLogConfigPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putresolverquerylogconfigpolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.PutResolverQueryLogConfigPolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putresolverquerylogconfigpolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.PutResolverQueryLogConfigPolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-putresolverquerylogconfigpolicy-api
-- description: 'The #X Amz Target=Route53Resolver.PutResolverRulePolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putresolverrulepolicy.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.PutResolverRulePolicy API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.putresolverrulepolicy.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.PutResolverRulePolicy API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-putresolverrulepolicy-api
-- description: 'The #X Amz Target=Route53Resolver.TagResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.tagresource.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.TagResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.tagresource.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.TagResource API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-tagresource-api
-- description: 'The #X Amz Target=Route53Resolver.UntagResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.untagresource.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UntagResource API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.untagresource.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UntagResource API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-untagresource-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateFirewallConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateFirewallConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateFirewallConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallconfig-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewalldomains.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateFirewallDomains API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewalldomains.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateFirewallDomains API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updatefirewalldomains-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateFirewallRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateFirewallRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallrule-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateFirewallRuleGroupAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallrulegroupassociation.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateFirewallRuleGroupAssociation API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updatefirewallrulegroupassociation.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateFirewallRuleGroupAssociation API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updatefirewallrulegroupassociation-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateResolverConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateResolverConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateResolverConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverconfig-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateResolverDnssecConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverdnssecconfig.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateResolverDnssecConfig API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverdnssecconfig.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateResolverDnssecConfig API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverdnssecconfig-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverendpoint.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateResolverEndpoint API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverendpoint.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateResolverEndpoint API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverendpoint-api
-- description: 'The #X Amz Target=Route53Resolver.UpdateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverrule.'
+- baseURL: https://route53resolver.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Route53Resolver.UpdateResolverRule API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.updateresolverrule.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.UpdateResolverRule API'
   slug: amazon-route53-resolver-x-amz-target-route53resolver-updateresolverrule-api
 artifact_total: 848
@@ -5315,7 +5441,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png
 security:

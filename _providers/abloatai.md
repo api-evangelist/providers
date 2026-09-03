@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -36,25 +50,39 @@ apis:
 - description: A public, anonymous, stateless Streamable-HTTP MCP server Ablo runs on its own domain so an AI coding assistant writing an Ablo integration can search the real docs, inspect the actual SDK export surf
   name: Ablo Integration-Helper MCP Server
   slug: ablo-integration-helper-mcp-server
-- description: The branches API from Ablo — 4 operation(s) for branches.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The branches API from Ablo — 4 operation(s) for branches.
   name: Ablo Branches API
   slug: ablo-branches-api
-- description: The claims API from Ablo — 7 operation(s) for claims.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The claims API from Ablo — 7 operation(s) for claims.
   name: Ablo Claims API
   slug: ablo-claims-api
-- description: The commits API from Ablo — 2 operation(s) for commits.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The commits API from Ablo — 2 operation(s) for commits.
   name: Ablo Commits API
   slug: ablo-commits-api
-- description: The credentials API from Ablo — 5 operation(s) for credentials.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The credentials API from Ablo — 5 operation(s) for credentials.
   name: Ablo Credentials API
   slug: ablo-credentials-api
-- description: The logs API from Ablo — 2 operation(s) for logs.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The logs API from Ablo — 2 operation(s) for logs.
   name: Ablo Logs API
   slug: ablo-logs-api
-- description: The models API from Ablo — 2 operation(s) for models.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The models API from Ablo — 2 operation(s) for models.
   name: Ablo Models API
   slug: ablo-models-api
-- description: The schema API from Ablo — 1 operation(s) for schema.
+- baseURL: https://api.abloatai.com/api
+  baseurl_source: declared
+  description: The schema API from Ablo — 1 operation(s) for schema.
   name: Ablo Schema API
   slug: ablo-schema-api
 artifact_total: 16
@@ -250,11 +278,11 @@ score:
   band: strong
   composite: 56.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -264,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +304,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/screenshots/abloatai-2026-09-02T144107.png
 security:
 - kind: authentication
   name: Abloatai Authentication

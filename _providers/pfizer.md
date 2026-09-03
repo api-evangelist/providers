@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Pfizer is a Fortune 500 American multinational pharmaceutical and b
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pfizer.png
 layout: provider
 modified: '2026-04-28'
-name: pfizer
+name: Pfizer
 nav: Providers
 network: true
-overview: pfizer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100.
+overview: Pfizer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 100.
 press:
 - date: '2026-05-25'
   title: XtalPi and Pfizer Expand Strategic Collaboration to ...
@@ -97,7 +97,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

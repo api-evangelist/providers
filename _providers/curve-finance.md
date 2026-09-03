@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,28 +49,44 @@ apis:
 - description: Curve's primary surface for swaps and liquidity is a set of audited Vyper smart contracts deployed across multiple chains (StableSwap and CryptoSwap pools, factories, gauges, voting escrow, crvUSD, le
   name: Curve Smart Contracts
   slug: smart-contracts
-- description: The crvUSD API from Curve Finance — 6 operation(s) for crvusd.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The crvUSD API from Curve Finance — 6 operation(s) for crvusd.
   name: Curve Finance crvUSD API
   slug: curve-finance-crvusd-api
-- description: The Deprecated API from Curve Finance — 10 operation(s) for deprecated.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Deprecated API from Curve Finance — 10 operation(s) for deprecated.
   name: Curve Finance Deprecated API
   slug: curve-finance-deprecated-api
-- description: The Gauges API from Curve Finance — 1 operation(s) for gauges.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Gauges API from Curve Finance — 1 operation(s) for gauges.
   name: Curve Finance Gauges API
   slug: curve-finance-gauges-api
-- description: The Lending API from Curve Finance — 3 operation(s) for lending.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Lending API from Curve Finance — 3 operation(s) for lending.
   name: Curve Finance Lending API
   slug: curve-finance-lending-api
-- description: The Misc API from Curve Finance — 5 operation(s) for misc.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Misc API from Curve Finance — 5 operation(s) for misc.
   name: Curve Finance Misc API
   slug: curve-finance-misc-api
-- description: The Pools API from Curve Finance — 11 operation(s) for pools.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Pools API from Curve Finance — 11 operation(s) for pools.
   name: Curve Finance Pools API
   slug: curve-finance-pools-api
-- description: The Tokens API from Curve Finance — 1 operation(s) for tokens.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Tokens API from Curve Finance — 1 operation(s) for tokens.
   name: Curve Finance Tokens API
   slug: curve-finance-tokens-api
-- description: The Volumes and APYs API from Curve Finance — 8 operation(s) for volumes and apys.
+- baseURL: https://api.curve.finance/api
+  baseurl_source: declared
+  description: The Volumes and APYs API from Curve Finance — 8 operation(s) for volumes and apys.
   name: Curve Finance Volumes and APYs API
   slug: curve-finance-volumes-and-apys-api
 artifact_total: 27
@@ -210,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/screenshots/curve-finance-2026-06-20T175354.png
 security:

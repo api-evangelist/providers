@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
@@ -42,10 +42,14 @@ apis:
 - description: ZJU's unified identity authentication platform — a Central Authentication Service (CAS) single sign-on login fronting campus systems. It supports username/password, QR-code scanning and third-party ha
   name: Unified Identity Authentication (CAS / SSO)
   slug: sso
-- description: The machine-readable mirror service catalog.
+- baseURL: https://mirrors.zju.edu.cn
+  baseurl_source: declared
+  description: The machine-readable mirror service catalog.
   name: Zhejiang University Catalog API
   slug: zhejiang-catalog-api
-- description: The mirrored package/distribution trees themselves.
+- baseURL: https://mirrors.zju.edu.cn
+  baseurl_source: declared
+  description: The mirrored package/distribution trees themselves.
   name: Zhejiang University Repositories API
   slug: zhejiang-repositories-api
 artifact_total: 15
@@ -220,7 +224,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -230,7 +234,7 @@ score:
     discoverability: 68.5
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 34.4
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     contracts:
@@ -245,7 +249,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:

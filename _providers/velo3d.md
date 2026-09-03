@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Sapphire family (Sapphire, Sapphire XC, Sapphire 1MZ) of laser powder bed fusion metal 3D printers, using multiple 1-kilowatt lasers to produce large-format support-free parts. Product feature - n
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velo3d/refs/heads/main/screenshots/velo3d-2026-06-20T200904.png
 security:

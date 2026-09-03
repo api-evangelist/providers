@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: WebAuthn (passkey) device management for a user.
+- baseURL: https://api.passage.id/v1
+  baseurl_source: declared
+  description: WebAuthn (passkey) device management for a user.
   name: Passage by 1Password Devices API
   slug: passage-1password-devices-api
-- description: Magic link creation for passwordless login and identifier verification.
+- baseURL: https://api.passage.id/v1
+  baseurl_source: declared
+  description: Magic link creation for passwordless login and identifier verification.
   name: Passage by 1Password Magic Links API
   slug: passage-1password-magic-links-api
-- description: Refresh-token management for a user.
+- baseURL: https://api.passage.id/v1
+  baseurl_source: declared
+  description: Refresh-token management for a user.
   name: Passage by 1Password Tokens API
   slug: passage-1password-tokens-api
-- description: User administration for a Passage app.
+- baseURL: https://api.passage.id/v1
+  baseurl_source: declared
+  description: User administration for a Passage app.
   name: Passage by 1Password Users API
   slug: passage-1password-users-api
 artifact_total: 18
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/screenshots/passage-1password-2026-06-20T191432.png
 security:

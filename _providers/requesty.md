@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: Programmatic management of Requesty API keys.
+- baseURL: https://router.requesty.ai/v1
+  baseurl_source: declared
+  description: Programmatic management of Requesty API keys.
   name: Requesty API Keys API
   slug: requesty-api-keys-api
-- description: OpenAI-compatible chat completions routed across providers.
+- baseURL: https://router.requesty.ai/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions routed across providers.
   name: Requesty Chat API
   slug: requesty-chat-api
-- description: Vector embedding generation.
+- baseURL: https://router.requesty.ai/v1
+  baseurl_source: declared
+  description: Vector embedding generation.
   name: Requesty Embeddings API
   slug: requesty-embeddings-api
-- description: Catalog of routable models.
+- baseURL: https://router.requesty.ai/v1
+  baseurl_source: declared
+  description: Catalog of routable models.
   name: Requesty Models API
   slug: requesty-models-api
-- description: Usage statistics and spend reporting.
+- baseURL: https://router.requesty.ai/v1
+  baseurl_source: declared
+  description: Usage statistics and spend reporting.
   name: Requesty Usage API
   slug: requesty-usage-api
 artifact_total: 22
@@ -180,7 +202,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -190,7 +212,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 44.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -199,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/requesty/refs/heads/main/screenshots/requesty-2026-06-20T192926.png
 security:

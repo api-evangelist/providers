@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 31 operations · 21 acting
 api_count: 1
 apis:
-- description: The 2FA API from SMSAPI — 2 operation(s) for 2fa.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The 2FA API from SMSAPI — 2 operation(s) for 2fa.
   name: SMSAPI 2FA API
   slug: smsapi-2fa-api
-- description: The Blacklist API from SMSAPI — 2 operation(s) for blacklist.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Blacklist API from SMSAPI — 2 operation(s) for blacklist.
   name: SMSAPI Blacklist API
   slug: smsapi-blacklist-api
-- description: The Contacts API from SMSAPI — 4 operation(s) for contacts.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Contacts API from SMSAPI — 4 operation(s) for contacts.
   name: SMSAPI Contacts API
   slug: smsapi-contacts-api
-- description: The HLR API from SMSAPI — 1 operation(s) for hlr.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The HLR API from SMSAPI — 1 operation(s) for hlr.
   name: SMSAPI HLR API
   slug: smsapi-hlr-api
-- description: The MMS API from SMSAPI — 1 operation(s) for mms.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The MMS API from SMSAPI — 1 operation(s) for mms.
   name: SMSAPI MMS API
   slug: smsapi-mms-api
-- description: The Profile API from SMSAPI — 1 operation(s) for profile.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Profile API from SMSAPI — 1 operation(s) for profile.
   name: SMSAPI Profile API
   slug: smsapi-profile-api
-- description: The Sender Names API from SMSAPI — 3 operation(s) for sender names.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Sender Names API from SMSAPI — 3 operation(s) for sender names.
   name: SMSAPI Sender Names API
   slug: smsapi-sender-names-api
-- description: The Short URLs API from SMSAPI — 1 operation(s) for short urls.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Short URLs API from SMSAPI — 1 operation(s) for short urls.
   name: SMSAPI Short URLs API
   slug: smsapi-short-urls-api
-- description: The SMS API from SMSAPI — 1 operation(s) for sms.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The SMS API from SMSAPI — 1 operation(s) for sms.
   name: SMSAPI SMS API
   slug: smsapi-sms-api
-- description: The Subusers API from SMSAPI — 2 operation(s) for subusers.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The Subusers API from SMSAPI — 2 operation(s) for subusers.
   name: SMSAPI Subusers API
   slug: smsapi-subusers-api
-- description: The VMS API from SMSAPI — 1 operation(s) for vms.
+- baseURL: https://api.smsapi.com/sms.do
+  baseurl_source: declared
+  description: The VMS API from SMSAPI — 1 operation(s) for vms.
   name: SMSAPI VMS API
   slug: smsapi-vms-api
 artifact_total: 31
@@ -196,7 +218,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -225,8 +247,9 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/screenshots/smsapi-2026-09-02T155955.png
 security:
 - kind: authentication
   name: Smsapi Authentication

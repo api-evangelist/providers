@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: REST API for interacting with Contrast TeamServer to manage applications, libraries, vulnerabilities, traces, servers, agents, and organization settings. Requires an API key, Authorization header form
   name: Contrast TeamServer REST API
   slug: rest-api
-- description: An application represents an executable unit of code that can be instrumented at runtime by an agent in Contrast. This can be a web app, microservice, or other runnable code and any dependencies inclu
+- baseURL: https://app.contrastsecurity.com/Contrast/api/ng
+  baseurl_source: declared
+  description: An application represents an executable unit of code that can be instrumented at runtime by an agent in Contrast. This can be a web app, microservice, or other runnable code and any dependencies inclu
   name: Contrast Security Applications API
   slug: contrast-security-applications-api
-- description: An organization represents a grouping of user accounts in Contrast.
+- baseURL: https://app.contrastsecurity.com/Contrast/api/ng
+  baseurl_source: declared
+  description: An organization represents a grouping of user accounts in Contrast.
   name: Contrast Security Organizations API
   slug: contrast-security-organizations-api
-- description: A rule defines a data flow pattern used to categorize vulnerability and attack types. Some common rules are sql-injection, ssrf, and reflected-xss.
+- baseURL: https://app.contrastsecurity.com/Contrast/api/ng
+  baseurl_source: declared
+  description: A rule defines a data flow pattern used to categorize vulnerability and attack types. Some common rules are sql-injection, ssrf, and reflected-xss.
   name: Contrast Security Rules API
   slug: contrast-security-rules-api
-- description: Vulnerabilities detected in runtime by Contrast Assess are weaknesses in the application code that allow an attacker to cause harm.
+- baseURL: https://app.contrastsecurity.com/Contrast/api/ng
+  baseurl_source: declared
+  description: Vulnerabilities detected in runtime by Contrast Assess are weaknesses in the application code that allow an attacker to cause harm.
   name: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
 artifact_total: 17
@@ -182,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
 security:

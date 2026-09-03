@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 44 operations · 25 acting
 api_count: 2
 apis:
-- description: Manage account settings and members
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage account settings and members
   name: AhaSend Accounts API
   slug: ahasend-accounts-api
-- description: Manage API keys for authentication and access control
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage API keys for authentication and access control
   name: AhaSend API Keys API
   slug: ahasend-api-keys-api
-- description: Manage sending domains
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage sending domains
   name: AhaSend Domains API
   slug: ahasend-domains-api
-- description: APIs for sending emails
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: APIs for sending emails
   name: AhaSend Email API
   slug: ahasend-email-api
-- description: Send and manage transactional messages
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Send and manage transactional messages
   name: AhaSend Messages API
   slug: ahasend-messages-api
-- description: Manage inbound email routing
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage inbound email routing
   name: AhaSend Routes API
   slug: ahasend-routes-api
-- description: Manage SMTP authentication credentials
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage SMTP authentication credentials
   name: AhaSend SMTP Credentials API
   slug: ahasend-smtp-credentials-api
-- description: Access transactional email statistics
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Access transactional email statistics
   name: AhaSend Statistics API
   slug: ahasend-statistics-api
-- description: Manage email suppressions
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage email suppressions
   name: AhaSend Suppressions API
   slug: ahasend-suppressions-api
-- description: Utility endpoints for health checks and diagnostics
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Utility endpoints for health checks and diagnostics
   name: AhaSend Utility API
   slug: ahasend-utility-api
-- description: Manage webhook notifications
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Manage webhook notifications
   name: AhaSend Webhooks API
   slug: ahasend-webhooks-api
-- description: Provision and manage isolated sub accounts under a parent account, their API keys, and their usage.
+- baseURL: https://api.ahasend.com
+  baseurl_source: declared
+  description: Provision and manage isolated sub accounts under a parent account, their API keys, and their usage.
   name: AhaSend Sub Accounts API
   slug: ahasend-sub-accounts-api
 artifact_total: 254
@@ -1010,6 +1034,7 @@ score:
     catalog_gap: 30.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1019,6 +1044,7 @@ score:
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 92.1
+  previous_composite: 82.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1030,7 +1056,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:
 - kind: authentication

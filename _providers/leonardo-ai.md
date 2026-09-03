@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 53 operations · 32 acting
 api_count: 14
 apis:
-- description: The 3D Model Assets API from Leonardo.AI — 3 operation(s) for 3d model assets.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The 3D Model Assets API from Leonardo.AI — 3 operation(s) for 3d model assets.
   name: Leonardo.AI 3D Model Assets API
   slug: leonardo-ai-3d-model-assets-api
-- description: The Blueprints API from Leonardo.AI — 6 operation(s) for blueprints.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Blueprints API from Leonardo.AI — 6 operation(s) for blueprints.
   name: Leonardo.AI Blueprints API
   slug: leonardo-ai-blueprints-api
-- description: The Dataset API from Leonardo.AI — 4 operation(s) for dataset.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Dataset API from Leonardo.AI — 4 operation(s) for dataset.
   name: Leonardo.AI Dataset API
   slug: leonardo-ai-dataset-api
-- description: The Elements API from Leonardo.AI — 3 operation(s) for elements.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Elements API from Leonardo.AI — 3 operation(s) for elements.
   name: Leonardo.AI Elements API
   slug: leonardo-ai-elements-api
-- description: The Image API from Leonardo.AI — 3 operation(s) for image.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Image API from Leonardo.AI — 3 operation(s) for image.
   name: Leonardo.AI Image API
   slug: leonardo-ai-image-api
-- description: The Init Images API from Leonardo.AI — 3 operation(s) for init images.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Init Images API from Leonardo.AI — 3 operation(s) for init images.
   name: Leonardo.AI Init Images API
   slug: leonardo-ai-init-images-api
-- description: The Media API from Leonardo.AI — 2 operation(s) for media.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Media API from Leonardo.AI — 2 operation(s) for media.
   name: Leonardo.AI Media API
   slug: leonardo-ai-media-api
-- description: The Models API from Leonardo.AI — 4 operation(s) for models.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Models API from Leonardo.AI — 4 operation(s) for models.
   name: Leonardo.AI Models API
   slug: leonardo-ai-models-api
-- description: The Motion API from Leonardo.AI — 3 operation(s) for motion.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Motion API from Leonardo.AI — 3 operation(s) for motion.
   name: Leonardo.AI Motion API
   slug: leonardo-ai-motion-api
-- description: The Pricing Calculator API from Leonardo.AI — 1 operation(s) for pricing calculator.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Pricing Calculator API from Leonardo.AI — 1 operation(s) for pricing calculator.
   name: Leonardo.AI Pricing Calculator API
   slug: leonardo-ai-pricing-calculator-api
-- description: The Prompt API from Leonardo.AI — 2 operation(s) for prompt.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Prompt API from Leonardo.AI — 2 operation(s) for prompt.
   name: Leonardo.AI Prompt API
   slug: leonardo-ai-prompt-api
-- description: The Realtime Canvas API from Leonardo.AI — 4 operation(s) for realtime canvas.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Realtime Canvas API from Leonardo.AI — 4 operation(s) for realtime canvas.
   name: Leonardo.AI Realtime Canvas API
   slug: leonardo-ai-realtime-canvas-api
-- description: The User API from Leonardo.AI — 1 operation(s) for user.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The User API from Leonardo.AI — 1 operation(s) for user.
   name: Leonardo.AI User API
   slug: leonardo-ai-user-api
-- description: The Variation API from Leonardo.AI — 6 operation(s) for variation.
+- baseURL: https://cloud.leonardo.ai/api/rest/v1
+  baseurl_source: spec
+  description: The Variation API from Leonardo.AI — 6 operation(s) for variation.
   name: Leonardo.AI Variation API
   slug: leonardo-ai-variation-api
 artifact_total: 95
@@ -527,7 +555,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -537,7 +565,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 59.4
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -546,7 +574,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:

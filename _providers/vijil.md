@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 149 operations · 68 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Agent, persona, policy, and harness management
+- baseURL: https://console-api.vijil.ai
+  baseurl_source: declared
+  description: Agent, persona, policy, and harness management
   name: Vijil Agent Environment API
   slug: vijil-agent-environment-api
-- description: Evaluation management and report retrieval
+- baseURL: https://console-api.vijil.ai
+  baseurl_source: declared
+  description: Evaluation management and report retrieval
   name: Vijil Diamond API
   slug: vijil-diamond-api
-- description: Protection, guardrails, and telemetry
+- baseURL: https://console-api.vijil.ai
+  baseurl_source: declared
+  description: Protection, guardrails, and telemetry
   name: Vijil Dome API
   slug: vijil-dome-api
-- description: Red team campaigns
+- baseURL: https://console-api.vijil.ai
+  baseurl_source: declared
+  description: Red team campaigns
   name: Vijil Red Team API
   slug: vijil-red-team-api
-- description: Authentication, users, and team management
+- baseURL: https://console-api.vijil.ai
+  baseurl_source: declared
+  description: Authentication, users, and team management
   name: Vijil Teams API
   slug: vijil-teams-api
 artifact_total: 39
@@ -301,7 +311,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -311,7 +321,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 46.6
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,7 +333,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/screenshots/vijil-2026-08-17T082750.png
 security:

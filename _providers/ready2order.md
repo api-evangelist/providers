@@ -33,115 +33,187 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Account Token
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: Account Token
   name: Ready2order Account Token API
   slug: ready2order-account-token-api
-- description: The Accounting Financial Year API from Ready2order — 2 operation(s) for accounting financial year.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Accounting Financial Year API from Ready2order — 2 operation(s) for accounting financial year.
   name: Ready2order Accounting Financial Year API
   slug: ready2order-accounting-financial-year-api
-- description: The Bill API from Ready2order — 6 operation(s) for bill.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Bill API from Ready2order — 6 operation(s) for bill.
   name: Ready2order Bill API
   slug: ready2order-bill-api
-- description: The Bill Type API from Ready2order — 2 operation(s) for bill type.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Bill Type API from Ready2order — 2 operation(s) for bill type.
   name: Ready2order Bill Type API
   slug: ready2order-bill-type-api
-- description: The Country API from Ready2order — 2 operation(s) for country.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Country API from Ready2order — 2 operation(s) for country.
   name: Ready2order Country API
   slug: ready2order-country-api
-- description: <!-- markdownlint-disable MD041 MD033 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Coupons a
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD033 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Coupons a
   name: Ready2order Coupon API
   slug: ready2order-coupon-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Coupon categori
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Coupon categori
   name: Ready2order Coupon Category API
   slug: ready2order-coupon-category-api
-- description: The Currency API from Ready2order — 2 operation(s) for currency.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Currency API from Ready2order — 2 operation(s) for currency.
   name: Ready2order Currency API
   slug: ready2order-currency-api
-- description: The Customer API from Ready2order — 3 operation(s) for customer.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Customer API from Ready2order — 3 operation(s) for customer.
   name: Ready2order Customer API
   slug: ready2order-customer-api
-- description: The Customer Group API from Ready2order — 2 operation(s) for customer group.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Customer Group API from Ready2order — 2 operation(s) for customer group.
   name: Ready2order Customer Group API
   slug: ready2order-customer-group-api
-- description: <!-- markdownlint-disable MD041 -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> A daily report represents a business day at the point of s
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> A daily report represents a business day at the point of s
   name: Ready2order Daily Report API
   slug: ready2order-daily-report-api
-- description: Device
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: Device
   name: Ready2order Device API
   slug: ready2order-device-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Discounts are p
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Discounts are p
   name: Ready2order Discount API
   slug: ready2order-discount-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Discount groups
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Discount groups
   name: Ready2order Discount Group API
   slug: ready2order-discount-group-api
-- description: The Export API from Ready2order — 4 operation(s) for export.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Export API from Ready2order — 4 operation(s) for export.
   name: Ready2order Export API
   slug: ready2order-export-api
-- description: The Grant Access Token API from Ready2order — 2 operation(s) for grant access token.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Grant Access Token API from Ready2order — 2 operation(s) for grant access token.
   name: Ready2order Grant Access Token API
   slug: ready2order-grant-access-token-api
-- description: The Job Status API from Ready2order — 1 operation(s) for job status.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Job Status API from Ready2order — 1 operation(s) for job status.
   name: Ready2order Job Status API
   slug: ready2order-job-status-api
-- description: The Language API from Ready2order — 2 operation(s) for language.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Language API from Ready2order — 2 operation(s) for language.
   name: Ready2order Language API
   slug: ready2order-language-api
-- description: The Legal Form API from Ready2order — 2 operation(s) for legal form.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Legal Form API from Ready2order — 2 operation(s) for legal form.
   name: Ready2order Legal Form API
   slug: ready2order-legal-form-api
-- description: The Order API from Ready2order — 2 operation(s) for order.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Order API from Ready2order — 2 operation(s) for order.
   name: Ready2order Order API
   slug: ready2order-order-api
-- description: The Payment Method API from Ready2order — 2 operation(s) for payment method.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Payment Method API from Ready2order — 2 operation(s) for payment method.
   name: Ready2order Payment Method API
   slug: ready2order-payment-method-api
-- description: The Payment Method Type API from Ready2order — 2 operation(s) for payment method type.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Payment Method Type API from Ready2order — 2 operation(s) for payment method type.
   name: Ready2order Payment Method Type API
   slug: ready2order-payment-method-type-api
-- description: The Print Job API from Ready2order — 2 operation(s) for print job.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Print Job API from Ready2order — 2 operation(s) for print job.
   name: Ready2order Print Job API
   slug: ready2order-print-job-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Printers repres
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Printers repres
   name: Ready2order Printer API
   slug: ready2order-printer-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> A printer profi
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> A printer profi
   name: Ready2order Printer Profile API
   slug: ready2order-printer-profile-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Products are th
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Products are th
   name: Ready2order Product API
   slug: ready2order-product-api
-- description: The Product Group API from Ready2order — 3 operation(s) for product group.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Product Group API from Ready2order — 3 operation(s) for product group.
   name: Ready2order Product Group API
   slug: ready2order-product-group-api
-- description: The Storno API from Ready2order — 2 operation(s) for storno.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Storno API from Ready2order — 2 operation(s) for storno.
   name: Ready2order Storno API
   slug: ready2order-storno-api
-- description: The Table API from Ready2order — 2 operation(s) for table.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Table API from Ready2order — 2 operation(s) for table.
   name: Ready2order Table API
   slug: ready2order-table-api
-- description: The Table Area API from Ready2order — 2 operation(s) for table area.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Table Area API from Ready2order — 2 operation(s) for table area.
   name: Ready2order Table Area API
   slug: ready2order-table-area-api
-- description: The Terminal Transaction API from Ready2order — 3 operation(s) for terminal transaction.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The Terminal Transaction API from Ready2order — 3 operation(s) for terminal transaction.
   name: Ready2order Terminal Transaction API
   slug: ready2order-terminal-transaction-api
-- description: Units
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: Units
   name: Ready2order Units API
   slug: ready2order-units-api
-- description: The User API from Ready2order — 3 operation(s) for user.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The User API from Ready2order — 3 operation(s) for user.
   name: Ready2order User API
   slug: ready2order-user-api
-- description: The User Roles API from Ready2order — 1 operation(s) for user roles.
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: The User Roles API from Ready2order — 1 operation(s) for user roles.
   name: Ready2order User Roles API
   slug: ready2order-user-roles-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> VAT rates defin
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> VAT rates defin
   name: Ready2order Vat Rate API
   slug: ready2order-vat-rate-api
-- description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
+- baseURL: https://api.ready2order.com/v1
+  baseurl_source: declared
+  description: <!-- markdownlint-disable MD041 MD051 github-internal-links relative-links -- tag description snippet, not a standalone document; the tag name serves as the heading in the API docs --> Webhooks push e
   name: Ready2order Webhook API
   slug: ready2order-webhook-api
 artifact_total: 77
@@ -398,7 +470,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -408,7 +480,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 44.2
+  previous_composite: 43.9
   provenance:
     conformance: derived
     contracts:
@@ -425,7 +497,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
 security:

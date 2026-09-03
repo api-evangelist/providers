@@ -35,40 +35,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The Affinity API endpoints allow API users to leverage the power of the Signal AI Knowledge Graph, derived from billions of documents and updated regularly. The Signal AI Knowledge Graph consists of: '
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: 'The Affinity API endpoints allow API users to leverage the power of the Signal AI Knowledge Graph, derived from billions of documents and updated regularly. The Signal AI Knowledge Graph consists of: '
   name: Signal AI Affinity API
   slug: signal-ai-affinity-api
-- description: The Categories API from Signal AI — 2 operation(s) for categories.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Categories API from Signal AI — 2 operation(s) for categories.
   name: Signal AI Categories API
   slug: signal-ai-categories-api
-- description: The Content Metrics API from Signal AI — 1 operation(s) for content metrics.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Content Metrics API from Signal AI — 1 operation(s) for content metrics.
   name: Signal AI Content Metrics API
   slug: signal-ai-content-metrics-api
-- description: The Content Search API from Signal AI — 2 operation(s) for content search.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Content Search API from Signal AI — 2 operation(s) for content search.
   name: Signal AI Content Search API
   slug: signal-ai-content-search-api
-- description: The Entities API from Signal AI — 2 operation(s) for entities.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Entities API from Signal AI — 2 operation(s) for entities.
   name: Signal AI Entities API
   slug: signal-ai-entities-api
-- description: 'The Events API endpoint identifies significant clusters of news coverage about entities and topics of interest, allowing users to easily identify news events that could impact them or their business, '
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: 'The Events API endpoint identifies significant clusters of news coverage about entities and topics of interest, allowing users to easily identify news events that could impact them or their business, '
   name: Signal AI Events API
   slug: signal-ai-events-api
-- description: The Openapi.json API from Signal AI — 1 operation(s) for openapi.json.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Openapi.json API from Signal AI — 1 operation(s) for openapi.json.
   name: Signal AI Openapi.json API
   slug: signal-ai-openapi-json-api
-- description: The Publication sources API from Signal AI — 3 operation(s) for publication sources.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Publication sources API from Signal AI — 3 operation(s) for publication sources.
   name: Signal AI Publication sources API
   slug: signal-ai-publication-sources-api
-- description: The Risk Events API from Signal AI — 3 operation(s) for risk events.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Risk Events API from Signal AI — 3 operation(s) for risk events.
   name: Signal AI Risk Events API
   slug: signal-ai-risk-events-api
-- description: The Topics API from Signal AI — 2 operation(s) for topics.
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: The Topics API from Signal AI — 2 operation(s) for topics.
   name: Signal AI Topics API
   slug: signal-ai-topics-api
-- description: 'Organisation administration for the Signal AI API. `GET /users` returns all users in the organisation of the authenticated API credential, and requires a credential carrying the `manage-organisation` '
+- baseURL: https://api.signal-ai.com
+  baseurl_source: declared
+  description: 'Organisation administration for the Signal AI API. `GET /users` returns all users in the organisation of the authenticated API credential, and requires a credential carrying the `manage-organisation` '
   name: Signal AI Organisation API
   slug: signal-ai-organisation-api
 artifact_total: 29
@@ -293,7 +315,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal-ai/refs/heads/main/screenshots/signal-ai-2026-08-17T081853.png
 security:

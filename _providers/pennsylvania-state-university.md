@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 3
 apis:
-- description: Penn State University Libraries' faculty and research metadata service, built and run in-house with OSVPR and West Arete. Publishes cleaned researcher metadata — publications, grants, presentations, p
+- baseURL: https://metadata.libraries.psu.edu
+  baseurl_source: declared
+  description: Penn State University Libraries' faculty and research metadata service, built and run in-house with OSVPR and West Arete. Publishes cleaned researcher metadata — publications, grants, presentations, p
   name: Researcher Metadata Database (RMD) API
   slug: rmd
-- description: Penn State's next-generation institutional repository, written by Penn State University Libraries and released under MIT — not a Figshare, Dataverse or DSpace tenancy. The API is described by the Libr
+- baseURL: https://scholarsphere.psu.edu/api/v1
+  baseurl_source: declared
+  description: Penn State's next-generation institutional repository, written by Penn State University Libraries and released under MIT — not a Figshare, Dataverse or DSpace tenancy. The API is described by the Libr
   name: ScholarSphere API
   slug: scholarsphere
 - description: An open OAI-PMH 2.0 harvesting endpoint over Penn State's Electronic Theses and Dissertations Archive, served by the Libraries' own etda_explore application on a psu.edu host. Identify reports reposit
@@ -56,19 +60,29 @@ apis:
 - description: Penn State operates its own Shibboleth identity provider and registers it in the InCommon federation under entityID urn:mace:incommon:psu.edu. Penn State SERVES ITS OWN SAML metadata at https://as1.fi
   name: Penn State Identity Federation (InCommon / Shibboleth)
   slug: identity-federation
-- description: University buildings and their facility attributes. One tag of the Office of Physical Plant's single LionSpaceFIS service; the buildings, campuses, rooms, events and health entries in this file are fi
+- baseURL: https://apps.opp.psu.edu/fis-api/v1
+  baseurl_source: declared
+  description: University buildings and their facility attributes. One tag of the Office of Physical Plant's single LionSpaceFIS service; the buildings, campuses, rooms, events and health entries in this file are fi
   name: Pennsylvania State University Buildings API
   slug: pennsylvania-state-university-buildings-api
-- description: Penn State campus reference data, from the Office of Physical Plant LionSpaceFIS service.
+- baseURL: https://apps.opp.psu.edu/fis-api/v1
+  baseurl_source: declared
+  description: Penn State campus reference data, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Campuses API
   slug: pennsylvania-state-university-campuses-api
-- description: Change events for buildings and rooms, from the Office of Physical Plant LionSpaceFIS service.
+- baseURL: https://apps.opp.psu.edu/fis-api/v1
+  baseurl_source: declared
+  description: Change events for buildings and rooms, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Events API
   slug: pennsylvania-state-university-events-api
-- description: Service health and status for the LionSpaceFIS facilities service; returns appVersion and appStatus with a database connectivity check. Unauthenticated and live (appVersion 1.14.0, probed 2026-08-30).
+- baseURL: https://apps.opp.psu.edu/fis-api/v1
+  baseurl_source: declared
+  description: Service health and status for the LionSpaceFIS facilities service; returns appVersion and appStatus with a database connectivity check. Unauthenticated and live (appVersion 1.14.0, probed 2026-08-30).
   name: Pennsylvania State University Health API
   slug: pennsylvania-state-university-health-api
-- description: Rooms within buildings, from the Office of Physical Plant LionSpaceFIS service.
+- baseURL: https://apps.opp.psu.edu/fis-api/v1
+  baseurl_source: declared
+  description: Rooms within buildings, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Rooms API
   slug: pennsylvania-state-university-rooms-api
 artifact_total: 36
@@ -293,7 +307,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -303,7 +317,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 49.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,7 +333,7 @@ score:
     regime_id: education
     score: 81.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png
 security:

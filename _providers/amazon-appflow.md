@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 25 operations · 24 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: Operations for managing connector profiles and connector registrations
+- baseURL: https://appflow.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing connector profiles and connector registrations
   name: Amazon AppFlow Connectors API
   slug: amazon-appflow-connectors-api
-- description: Operations for creating and managing data flows
+- baseURL: https://appflow.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing data flows
   name: Amazon AppFlow Flows API
   slug: amazon-appflow-flows-api
-- description: Operations for managing resource tags
+- baseURL: https://appflow.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing resource tags
   name: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
 artifact_total: 217
@@ -850,7 +856,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/screenshots/amazon-appflow-2026-07-25T195916.png
 security:

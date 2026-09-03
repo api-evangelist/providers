@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 114
   human_in_the_loop: 0
@@ -46,79 +46,129 @@ apis:
 - description: REST API for managing CloudQuery Platform multi-tenant accounts, syncs, sources, destinations, and API keys. Authentication uses API keys generated from the CloudQuery Platform UI.
   name: CloudQuery Platform API
   slug: platform-api
-- description: The admin API from CloudQuery — 7 operation(s) for admin.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The admin API from CloudQuery — 7 operation(s) for admin.
   name: CloudQuery admin API
   slug: cloudquery-admin-api
-- description: The alerts API from CloudQuery — 10 operation(s) for alerts.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The alerts API from CloudQuery — 10 operation(s) for alerts.
   name: CloudQuery alerts API
   slug: cloudquery-alerts-api
-- description: The api-keys API from CloudQuery — 2 operation(s) for api-keys.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The api-keys API from CloudQuery — 2 operation(s) for api-keys.
   name: CloudQuery api-keys API
   slug: cloudquery-api-keys-api
-- description: The apps API from CloudQuery — 1 operation(s) for apps.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The apps API from CloudQuery — 1 operation(s) for apps.
   name: CloudQuery apps API
   slug: cloudquery-apps-api
-- description: The audit-logs API from CloudQuery — 2 operation(s) for audit-logs.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The audit-logs API from CloudQuery — 2 operation(s) for audit-logs.
   name: CloudQuery audit-logs API
   slug: cloudquery-audit-logs-api
-- description: The chat API from CloudQuery — 7 operation(s) for chat.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The chat API from CloudQuery — 7 operation(s) for chat.
   name: CloudQuery chat API
   slug: cloudquery-chat-api
-- description: The custom-columns API from CloudQuery — 2 operation(s) for custom-columns.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The custom-columns API from CloudQuery — 2 operation(s) for custom-columns.
   name: CloudQuery custom-columns API
   slug: cloudquery-custom-columns-api
-- description: The filters API from CloudQuery — 7 operation(s) for filters.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The filters API from CloudQuery — 7 operation(s) for filters.
   name: CloudQuery filters API
   slug: cloudquery-filters-api
-- description: The healthcheck API from CloudQuery — 2 operation(s) for healthcheck.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The healthcheck API from CloudQuery — 2 operation(s) for healthcheck.
   name: CloudQuery healthcheck API
   slug: cloudquery-healthcheck-api
-- description: The insights API from CloudQuery — 8 operation(s) for insights.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The insights API from CloudQuery — 8 operation(s) for insights.
   name: CloudQuery insights API
   slug: cloudquery-insights-api
-- description: The notifications API from CloudQuery — 1 operation(s) for notifications.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The notifications API from CloudQuery — 1 operation(s) for notifications.
   name: CloudQuery notifications API
   slug: cloudquery-notifications-api
-- description: The onboardings API from CloudQuery — 21 operation(s) for onboardings.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The onboardings API from CloudQuery — 21 operation(s) for onboardings.
   name: CloudQuery onboardings API
   slug: cloudquery-onboardings-api
-- description: The Openapi.json API from CloudQuery — 1 operation(s) for openapi.json.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The Openapi.json API from CloudQuery — 1 operation(s) for openapi.json.
   name: CloudQuery Openapi.json API
   slug: cloudquery-openapi-json-api
-- description: The platform API from CloudQuery — 2 operation(s) for platform.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The platform API from CloudQuery — 2 operation(s) for platform.
   name: CloudQuery platform API
   slug: cloudquery-platform-api
-- description: The plugins API from CloudQuery — 8 operation(s) for plugins.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The plugins API from CloudQuery — 8 operation(s) for plugins.
   name: CloudQuery plugins API
   slug: cloudquery-plugins-api
-- description: The policies API from CloudQuery — 10 operation(s) for policies.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The policies API from CloudQuery — 10 operation(s) for policies.
   name: CloudQuery policies API
   slug: cloudquery-policies-api
-- description: The queries API from CloudQuery — 11 operation(s) for queries.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The queries API from CloudQuery — 11 operation(s) for queries.
   name: CloudQuery queries API
   slug: cloudquery-queries-api
-- description: The rbac API from CloudQuery — 4 operation(s) for rbac.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The rbac API from CloudQuery — 4 operation(s) for rbac.
   name: CloudQuery rbac API
   slug: cloudquery-rbac-api
-- description: The reports API from CloudQuery — 4 operation(s) for reports.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The reports API from CloudQuery — 4 operation(s) for reports.
   name: CloudQuery reports API
   slug: cloudquery-reports-api
-- description: The sync-integrations API from CloudQuery — 1 operation(s) for sync-integrations.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The sync-integrations API from CloudQuery — 1 operation(s) for sync-integrations.
   name: CloudQuery sync-integrations API
   slug: cloudquery-sync-integrations-api
-- description: The syncs API from CloudQuery — 37 operation(s) for syncs.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The syncs API from CloudQuery — 37 operation(s) for syncs.
   name: CloudQuery syncs API
   slug: cloudquery-syncs-api
-- description: The tables API from CloudQuery — 12 operation(s) for tables.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The tables API from CloudQuery — 12 operation(s) for tables.
   name: CloudQuery tables API
   slug: cloudquery-tables-api
-- description: The teams API from CloudQuery — 1 operation(s) for teams.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The teams API from CloudQuery — 1 operation(s) for teams.
   name: CloudQuery teams API
   slug: cloudquery-teams-api
-- description: The usage API from CloudQuery — 2 operation(s) for usage.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The usage API from CloudQuery — 2 operation(s) for usage.
   name: CloudQuery usage API
   slug: cloudquery-usage-api
-- description: The users API from CloudQuery — 11 operation(s) for users.
+- baseURL: https://api.cloudquery.io
+  baseurl_source: declared
+  description: The users API from CloudQuery — 11 operation(s) for users.
   name: CloudQuery users API
   slug: cloudquery-users-api
 artifact_total: 58
@@ -293,7 +343,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudquery/refs/heads/main/screenshots/cloudquery-2026-06-20T174617.png
 security:

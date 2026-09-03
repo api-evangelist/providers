@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Catalog API from Curie — 1 operation(s) for catalog.
+- baseURL: https://chat.curie.app
+  baseurl_source: declared
+  description: The Catalog API from Curie — 1 operation(s) for catalog.
   name: Curie Catalog API
   slug: curie-catalog-api
-- description: The Products API from Curie — 6 operation(s) for products.
+- baseURL: https://chat.curie.app
+  baseurl_source: declared
+  description: The Products API from Curie — 6 operation(s) for products.
   name: Curie Products API
   slug: curie-products-api
 artifact_total: 9
@@ -185,7 +189,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/screenshots/curie-2026-07-25T210955.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -52,73 +52,119 @@ apis:
 - description: The realestate.com.au Partner Portal is REA Group's integration surface for agencies and their software / CRM providers - covering partner onboarding, API credential management (Client ID + API secret
   name: realestate.com.au Partner Portal
   slug: realestate-partner-portal
-- description: Property Attributes
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Attributes
   name: REA Group Attributes API
   slug: rea-group-attributes-api
-- description: The Auction Results API from REA Group — 1 operation(s) for auction results.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Auction Results API from REA Group — 1 operation(s) for auction results.
   name: REA Group Auction Results API
   slug: rea-group-auction-results-api
-- description: AVM
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: AVM
   name: REA Group AVM API
   slug: rea-group-avm-api
-- description: The AVM Report API from REA Group — 1 operation(s) for avm report.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The AVM Report API from REA Group — 1 operation(s) for avm report.
   name: REA Group AVM Report API
   slug: rea-group-avm-report-api
-- description: The Demographics API from REA Group — 1 operation(s) for demographics.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Demographics API from REA Group — 1 operation(s) for demographics.
   name: REA Group Demographics API
   slug: rea-group-demographics-api
-- description: The Disclaimers API from REA Group — 1 operation(s) for disclaimers.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Disclaimers API from REA Group — 1 operation(s) for disclaimers.
   name: REA Group Disclaimers API
   slug: rea-group-disclaimers-api
-- description: The Listing by listingId API from REA Group — 1 operation(s) for listing by listingid.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Listing by listingId API from REA Group — 1 operation(s) for listing by listingid.
   name: REA Group Listing by listingId API
   slug: rea-group-listing-by-listingid-api
-- description: Property Listings
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Listings
   name: REA Group Listings API
   slug: rea-group-listings-api
-- description: The Match API from REA Group — 1 operation(s) for match.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Match API from REA Group — 1 operation(s) for match.
   name: REA Group Match API
   slug: rea-group-match-api
-- description: The Oauth2 API from REA Group — 1 operation(s) for oauth2.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Oauth2 API from REA Group — 1 operation(s) for oauth2.
   name: REA Group Oauth2 API
   slug: rea-group-oauth2-api
-- description: Property Planning Overlays
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Planning Overlays
   name: REA Group Planning API
   slug: rea-group-planning-api
-- description: The Point & Radius Search API from REA Group — 2 operation(s) for point & radius search.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Point & Radius Search API from REA Group — 2 operation(s) for point & radius search.
   name: REA Group Point & Radius Search API
   slug: rea-group-point-radius-search-api
-- description: The Property Report API from REA Group — 1 operation(s) for property report.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Property Report API from REA Group — 1 operation(s) for property report.
   name: REA Group Property Report API
   slug: rea-group-property-report-api
-- description: The Rent History API from REA Group — 1 operation(s) for rent history.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Rent History API from REA Group — 1 operation(s) for rent history.
   name: REA Group Rent History API
   slug: rea-group-rent-history-api
-- description: The Sale History API from REA Group — 1 operation(s) for sale history.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Sale History API from REA Group — 1 operation(s) for sale history.
   name: REA Group Sale History API
   slug: rea-group-sale-history-api
-- description: The Schools API from REA Group — 1 operation(s) for schools.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Schools API from REA Group — 1 operation(s) for schools.
   name: REA Group Schools API
   slug: rea-group-schools-api
-- description: Property Search
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Search
   name: REA Group Search API
   slug: rea-group-search-api
-- description: The Suburb & Postcode Search API from REA Group — 2 operation(s) for suburb & postcode search.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Suburb & Postcode Search API from REA Group — 2 operation(s) for suburb & postcode search.
   name: REA Group Suburb & Postcode Search API
   slug: rea-group-suburb-postcode-search-api
-- description: The Suggest API from REA Group — 1 operation(s) for suggest.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Suggest API from REA Group — 1 operation(s) for suggest.
   name: REA Group Suggest API
   slug: rea-group-suggest-api
-- description: Property Summary
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Summary
   name: REA Group Summary API
   slug: rea-group-summary-api
-- description: The Supply & Demand API from REA Group — 1 operation(s) for supply & demand.
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: The Supply & Demand API from REA Group — 1 operation(s) for supply & demand.
   name: REA Group Supply & Demand API
   slug: rea-group-supply-demand-api
-- description: Property Tenure Type History
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Tenure Type History
   name: REA Group Tenure Type API
   slug: rea-group-tenure-type-api
-- description: Property Transactions
+- baseURL: https://data.proptrack.com
+  baseurl_source: declared
+  description: Property Transactions
   name: REA Group Transactions API
   slug: rea-group-transactions-api
 artifact_total: 40
@@ -359,7 +405,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:

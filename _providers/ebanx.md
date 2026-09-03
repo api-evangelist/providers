@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,22 +44,32 @@ agentic_access:
   summary_line: 29 operations · 29 acting
 api_count: 3
 apis:
-- description: Tokenize cards on EBANX so PAN never touches merchant servers, and refresh CVVs on stored tokens before high-risk reuse. Reusable tokens power one-click checkout, subscriptions, and stored-card flows.
+- baseURL: https://api.ebanxpay.com
+  baseurl_source: declared
+  description: Tokenize cards on EBANX so PAN never touches merchant servers, and refresh CVVs on stored tokens before high-risk reuse. Reusable tokens power one-click checkout, subscriptions, and stored-card flows.
   name: EBANX Tokenization API
   slug: ebanx-tokenization-api
-- description: Quote current FX rates between a merchant pricing currency (typically USD or EUR) and EBANX market currencies, and mint a short-lived FX token to lock a rate so a quoted price is honored when the unde
+- baseURL: https://api.ebanxpay.com
+  baseurl_source: declared
+  description: Quote current FX rates between a merchant pricing currency (typically USD or EUR) and EBANX market currencies, and mint a short-lived FX token to lock a rate so a quoted price is honored when the unde
   name: EBANX FX API
   slug: ebanx-fx-api
 - description: 'Signed HTTP POST callbacks delivered to a merchant-configured Notification URL whenever a payment, refund, chargeback, or Pix MED return request changes state. Each callback carries the EBANX hash so '
   name: EBANX Payment Notifications
   slug: ebanx-notifications
-- description: The PaymentPage API from EBANX — 1 operation(s) for paymentpage.
+- baseURL: https://api.ebanxpay.com
+  baseurl_source: declared
+  description: The PaymentPage API from EBANX — 1 operation(s) for paymentpage.
   name: EBANX PaymentPage API
   slug: ebanx-paymentpage-api
-- description: The Payments API from EBANX — 12 operation(s) for payments.
+- baseURL: https://api.ebanxpay.com
+  baseurl_source: declared
+  description: The Payments API from EBANX — 12 operation(s) for payments.
   name: EBANX Payments API
   slug: ebanx-payments-api
-- description: The Payouts API from EBANX — 12 operation(s) for payouts.
+- baseURL: https://api.ebanxpay.com
+  baseurl_source: declared
+  description: The Payouts API from EBANX — 12 operation(s) for payouts.
   name: EBANX Payouts API
   slug: ebanx-payouts-api
 artifact_total: 37
@@ -219,7 +229,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -229,7 +239,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 45.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -244,7 +254,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:

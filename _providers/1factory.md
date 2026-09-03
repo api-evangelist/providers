@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 38 operations · 8 acting
 api_count: 1
 apis:
-- description: Data shared with your organization by your customers.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Data shared with your organization by your customers.
   name: 1Factory Customers API
   slug: 1factory-customers-api
-- description: Data related to parts manufactured by your organization.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Data related to parts manufactured by your organization.
   name: 1Factory Manufacturing API
   slug: 1factory-manufacturing-api
-- description: Part Master defines the part numbers, revisions and other information for parts referenced in Plans, Inspections, FAIs etc.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Part Master defines the part numbers, revisions and other information for parts referenced in Plans, Inspections, FAIs etc.
   name: 1Factory Part Master API
   slug: 1factory-part-master-api
-- description: Data related to Quality
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Data related to Quality
   name: 1Factory QMS API
   slug: 1factory-qms-api
-- description: Data related to parts received by your organization.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Data related to parts received by your organization.
   name: 1Factory Receiving API
   slug: 1factory-receiving-api
-- description: Data shared with your organization by your suppliers, or details about your suppliers.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Data shared with your organization by your suppliers, or details about your suppliers.
   name: 1Factory Suppliers API
   slug: 1factory-suppliers-api
-- description: Work Orders define a list of current work order primary & secondary identifiers that may be used as identifiers on Inspections & FAIs.
+- baseURL: https://www.1factory.com/api/v1
+  baseurl_source: declared
+  description: Work Orders define a list of current work order primary & secondary identifiers that may be used as identifiers on Inspections & FAIs.
   name: 1Factory Work Orders API
   slug: 1factory-work-orders-api
 artifact_total: 226
@@ -811,7 +825,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/screenshots/1factory-2026-06-20T162434.png
 security:

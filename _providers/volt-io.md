@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -48,25 +60,39 @@ apis:
 - description: The Authentication API issues OAuth2 access tokens for the Volt gateway. A POST to /oauth exchanges client_id, client_secret and username/password (resource-owner password grant) for a Bearer access_t
   name: Volt Authentication API
   slug: volt-authentication-api
-- description: Verification services for ensuring beneficiary account ownership.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Verification services for ensuring beneficiary account ownership.
   name: Volt Account Holder Verification API
   slug: volt-io-account-holder-verification-api
-- description: Management of accounts.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Management of accounts.
   name: Volt Accounts API
   slug: volt-io-accounts-api
-- description: Issuance and management of account aliases for global reconciliation.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Issuance and management of account aliases for global reconciliation.
   name: Volt Aliases API
   slug: volt-io-aliases-api
-- description: Named account order operations.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Named account order operations.
   name: Volt Named Accounts API
   slug: volt-io-named-accounts-api
-- description: Operations related to sandbox operations.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Operations related to sandbox operations.
   name: Volt Sandbox API
   slug: volt-io-sandbox-api
-- description: Operations related to movement of funds, including payouts, settlements, and internal transactions.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Operations related to movement of funds, including payouts, settlements, and internal transactions.
   name: Volt Transactions API
   slug: volt-io-transactions-api
-- description: Operations related to trusted accounts.
+- baseURL: https://gateway.volt.io
+  baseurl_source: declared
+  description: Operations related to trusted accounts.
   name: Volt Trusted accounts API
   slug: volt-io-trusted-accounts-api
 artifact_total: 18
@@ -264,7 +290,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -274,7 +300,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 42.4
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,7 +318,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +36,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Api API from PyannoteAI — 6 operation(s) for api.
+- baseURL: https://api.pyannote.ai
+  baseurl_source: declared
+  description: The Api API from PyannoteAI — 6 operation(s) for api.
   name: PyannoteAI API
   slug: pyannoteai-api-api
-- description: The Media API from PyannoteAI — 2 operation(s) for media.
+- baseURL: https://api.pyannote.ai
+  baseurl_source: declared
+  description: The Media API from PyannoteAI — 2 operation(s) for media.
   name: PyannoteAI Media API
   slug: pyannoteai-media-api
-- description: The Streaming API from PyannoteAI — 2 operation(s) for streaming.
+- baseURL: https://api.pyannote.ai
+  baseurl_source: declared
+  description: The Streaming API from PyannoteAI — 2 operation(s) for streaming.
   name: PyannoteAI Streaming API
   slug: pyannoteai-streaming-api
 artifact_total: 11
@@ -216,11 +235,11 @@ score:
   band: strong
   composite: 61.5
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 25
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -230,7 +249,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 61.7
+  previous_composite: 61.5
   provenance:
     contracts:
       callable: 100.0
@@ -239,8 +258,9 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/screenshots/pyannoteai-2026-09-02T152355.png
 security:
 - kind: authentication
   name: Pyannoteai Authentication

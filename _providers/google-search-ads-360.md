@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: The Customers API from Google Search Ads 360 Reporting — 3 operation(s) for customers.
+- baseURL: https://searchads360.googleapis.com
+  baseurl_source: declared
+  description: The Customers API from Google Search Ads 360 Reporting — 3 operation(s) for customers.
   name: Google Search Ads 360 Reporting Customers API
   slug: google-search-ads-360-customers-api
-- description: The Google Search Ads 360 Reporting API API from Google Search Ads 360 Reporting — 1 operation(s) for google search ads 360 reporting api.
+- baseURL: https://searchads360.googleapis.com
+  baseurl_source: declared
+  description: The Google Search Ads 360 Reporting API API from Google Search Ads 360 Reporting — 1 operation(s) for google search ads 360 reporting api.
   name: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API API
   slug: google-search-ads-360-google-search-ads-360-reporting-api-api
 artifact_total: 17
@@ -210,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-ads-360/refs/heads/main/screenshots/google-search-ads-360-2026-06-20T182242.png
 security:

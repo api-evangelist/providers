@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: S3-compatible bucket management operations.
+- baseURL: https://t3.storage.dev
+  baseurl_source: declared
+  description: S3-compatible bucket management operations.
   name: Tigris Buckets API
   slug: tigris-data-buckets-api
-- description: S3-compatible multipart upload operations for large objects.
+- baseURL: https://t3.storage.dev
+  baseurl_source: declared
+  description: S3-compatible multipart upload operations for large objects.
   name: Tigris Multipart API
   slug: tigris-data-multipart-api
-- description: S3-compatible object CRUD, tagging, and tiering operations.
+- baseURL: https://t3.storage.dev
+  baseurl_source: declared
+  description: S3-compatible object CRUD, tagging, and tiering operations.
   name: Tigris Objects API
   slug: tigris-data-objects-api
 artifact_total: 15
@@ -171,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tigris-data/refs/heads/main/screenshots/tigris-data-2026-06-20T195343.png
 security:

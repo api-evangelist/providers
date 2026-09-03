@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 16 acting
 api_count: 1
 apis:
-- description: Maintain the store's inventory catalog.
+- baseURL: https://app.orderdesk.me/api/v2
+  baseurl_source: declared
+  description: Maintain the store's inventory catalog.
   name: Order Desk Inventory Items API
   slug: orderdesk-inventory-items-api
-- description: Manage line items within an order.
+- baseURL: https://app.orderdesk.me/api/v2
+  baseurl_source: declared
+  description: Manage line items within an order.
   name: Order Desk Order Items API
   slug: orderdesk-order-items-api
-- description: Create, retrieve, search, update, and delete orders.
+- baseURL: https://app.orderdesk.me/api/v2
+  baseurl_source: declared
+  description: Create, retrieve, search, update, and delete orders.
   name: Order Desk Orders API
   slug: orderdesk-orders-api
-- description: Record and manage shipments and tracking against an order.
+- baseURL: https://app.orderdesk.me/api/v2
+  baseurl_source: declared
+  description: Record and manage shipments and tracking against an order.
   name: Order Desk Shipments API
   slug: orderdesk-shipments-api
-- description: Store settings, folder structure, and connectivity test.
+- baseURL: https://app.orderdesk.me/api/v2
+  baseurl_source: declared
+  description: Store settings, folder structure, and connectivity test.
   name: Order Desk Store API
   slug: orderdesk-store-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/screenshots/orderdesk-2026-08-07T190910.png
 security:

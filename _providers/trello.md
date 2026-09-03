@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,52 +44,82 @@ agentic_access:
   summary_line: 101 operations · 53 acting
 api_count: 1
 apis:
-- description: The Trello Webhooks API allows developers to receive real-time notifications when changes occur on Trello models such as boards, lists, and cards. Rather than polling the REST API for updates, webhook
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: The Trello Webhooks API allows developers to receive real-time notifications when changes occur on Trello models such as boards, lists, and cards. Rather than polling the REST API for updates, webhook
   name: Trello Webhooks API
   slug: webhooks-api
 - description: Trello Power-Ups are a framework for extending and integrating with the Trello platform. Power-Ups allow developers to add custom functionality to Trello boards, including custom fields, board buttons
   name: Trello Power-Ups
   slug: power-ups
-- description: Operations for retrieving and managing actions, which represent activity events that occur on Trello objects such as boards, lists, and cards.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for retrieving and managing actions, which represent activity events that occur on Trello objects such as boards, lists, and cards.
   name: trello Actions API
   slug: trello-actions-api
-- description: Operations for creating, retrieving, updating, and deleting boards, as well as managing board memberships, lists, cards, labels, and other board-level resources.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting boards, as well as managing board memberships, lists, cards, labels, and other board-level resources.
   name: trello Boards API
   slug: trello-boards-api
-- description: Operations for creating, retrieving, updating, and deleting cards, including managing card attachments, checklists, comments, labels, members, and stickers.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting cards, including managing card attachments, checklists, comments, labels, members, and stickers.
   name: trello Cards API
   slug: trello-cards-api
-- description: Operations for creating, retrieving, updating, and deleting checklists and their check items on cards.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting checklists and their check items on cards.
   name: trello Checklists API
   slug: trello-checklists-api
-- description: Operations for creating, retrieving, updating, and deleting custom field definitions and their values on boards and cards.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting custom field definitions and their values on boards and cards.
   name: trello CustomFields API
   slug: trello-customfields-api
-- description: Operations for creating, retrieving, updating, and deleting labels on boards and cards.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting labels on boards and cards.
   name: trello Labels API
   slug: trello-labels-api
-- description: Operations for creating, retrieving, updating, and archiving lists on boards.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and archiving lists on boards.
   name: trello Lists API
   slug: trello-lists-api
-- description: Operations for retrieving and updating member profiles, boards, organizations, and notification settings.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for retrieving and updating member profiles, boards, organizations, and notification settings.
   name: trello Members API
   slug: trello-members-api
-- description: Operations for retrieving and managing member notifications about activity on boards, cards, and other Trello objects.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for retrieving and managing member notifications about activity on boards, cards, and other Trello objects.
   name: trello Notifications API
   slug: trello-notifications-api
-- description: Operations for creating, retrieving, updating, and deleting Trello workspaces (organizations), including managing workspace members and settings.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting Trello workspaces (organizations), including managing workspace members and settings.
   name: trello Organizations API
   slug: trello-organizations-api
-- description: Operations for managing Power-Up plugins, including listing, updating, and creating plugin marketplace listings.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for managing Power-Up plugins, including listing, updating, and creating plugin marketplace listings.
   name: trello Plugins API
   slug: trello-plugins-api
-- description: Operations for searching across Trello boards, cards, members, and organizations using query strings.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for searching across Trello boards, cards, members, and organizations using query strings.
   name: trello Search API
   slug: trello-search-api
-- description: Operations for retrieving and deleting API tokens and their associated webhooks.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for retrieving and deleting API tokens and their associated webhooks.
   name: trello Tokens API
   slug: trello-tokens-api
-- description: Operations for creating, retrieving, updating, and deleting webhooks that deliver real-time notifications when Trello models change.
+- baseURL: https://api.trello.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting webhooks that deliver real-time notifications when Trello models change.
   name: trello Webhooks API
   slug: trello-webhooks-api
 artifact_total: 67
@@ -258,16 +288,16 @@ jsonld:
   slug: trello-context
 layout: provider
 modified: '2026-05-19'
-name: trello
+name: Trello
 nav: Providers
 network: true
-overview: 'trello publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Actions API, Boards API, and 12 more.
+overview: 'Trello publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Actions API, Boards API, and 12 more.
 
 
-  The trello catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Trello catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  trello''s developer surface includes authentication and 14 more developer resources.'
+  Trello''s developer surface includes authentication and 14 more developer resources.'
 plans:
 - name: Trello Plans Pricing
   plan_count: 4
@@ -281,7 +311,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: trello API Rules
+  name: Trello API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -291,7 +321,7 @@ rules:
   slug: trello-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: trello API Rules
+  name: Trello API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -302,7 +332,7 @@ rules:
 - effective_rule_count: 61
   extends:
   - spectral:oas
-  name: trello API Rules
+  name: Trello API Rules
   rule_count: 20
   severity_counts:
     error: 4
@@ -318,7 +348,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -328,7 +358,7 @@ score:
     discoverability: 44.4
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 37.0
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -338,10 +368,10 @@ score:
       total: 14
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:

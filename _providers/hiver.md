@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,13 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Conversations API from Hiver — 4 operation(s) for conversations.
+- baseURL: https://api2.hiverhq.com/v1
+  baseurl_source: declared
+  description: The Conversations API from Hiver — 4 operation(s) for conversations.
   name: Hiver Conversations API
   slug: hiver-conversations-api
-- description: The Inbox API from Hiver — 6 operation(s) for inbox.
+- baseURL: https://api2.hiverhq.com/v1
+  baseurl_source: declared
+  description: The Inbox API from Hiver — 6 operation(s) for inbox.
   name: Hiver Inbox API
   slug: hiver-inbox-api
 artifact_total: 9
@@ -191,11 +207,11 @@ score:
   band: developing
   composite: 53.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -205,7 +221,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 54.0
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     contracts:
@@ -216,8 +232,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hiver/refs/heads/main/screenshots/hiver-2026-09-02T145747.png
 security:
 - kind: authentication
   name: Hiver Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 79 operations · 23 acting
 api_count: 1
 apis:
-- description: Ticket and loyalty QR codes and Code 128 barcodes.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Ticket and loyalty QR codes and Code 128 barcodes.
   name: AMC Entertainment Holdings Barcodes API
   slug: amc-entertainment-holdings-barcodes-api
-- description: Concessions ordering, categories, delivery and pickup logistics.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Concessions ordering, categories, delivery and pickup logistics.
   name: AMC Entertainment Holdings Concessions API
   slug: amc-entertainment-holdings-concessions-api
-- description: Geographic helpers for finding theatres by state, city, name, or coordinates.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Geographic helpers for finding theatres by state, city, name, or coordinates.
   name: AMC Entertainment Holdings Locations API
   slug: amc-entertainment-holdings-locations-api
-- description: AMC Stubs loyalty accounts, cards, redemptions, and registrations.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: AMC Stubs loyalty accounts, cards, redemptions, and registrations.
   name: AMC Entertainment Holdings Loyalty API
   slug: amc-entertainment-holdings-loyalty-api
-- description: AMC market areas grouping theatres by region.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: AMC market areas grouping theatres by region.
   name: AMC Entertainment Holdings Markets API
   slug: amc-entertainment-holdings-markets-api
-- description: Images and videos for movies, theatres, and attributes.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Images and videos for movies, theatres, and attributes.
   name: AMC Entertainment Holdings Media API
   slug: amc-entertainment-holdings-media-api
-- description: Movie ticket confirmation lookups.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Movie ticket confirmation lookups.
   name: AMC Entertainment Holdings MovieConfirmations API
   slug: amc-entertainment-holdings-movieconfirmations-api
-- description: AMC movies, including now-playing, advance, coming-soon, and on-demand.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: AMC movies, including now-playing, advance, coming-soon, and on-demand.
   name: AMC Entertainment Holdings Movies API
   slug: amc-entertainment-holdings-movies-api
-- description: Order creation, payment, fulfillment, and management.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Order creation, payment, fulfillment, and management.
   name: AMC Entertainment Holdings Orders API
   slug: amc-entertainment-holdings-orders-api
-- description: Order refunds, refund reasons, and fee waivers.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Order refunds, refund reasons, and fee waivers.
   name: AMC Entertainment Holdings Refunds API
   slug: amc-entertainment-holdings-refunds-api
-- description: Seating layouts and seat selection.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Seating layouts and seat selection.
   name: AMC Entertainment Holdings Seating API
   slug: amc-entertainment-holdings-seating-api
-- description: Theatre showtimes for movies, including embargoed and proximity-based searches.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Theatre showtimes for movies, including embargoed and proximity-based searches.
   name: AMC Entertainment Holdings Showtimes API
   slug: amc-entertainment-holdings-showtimes-api
-- description: U.S. states served by AMC.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: U.S. states served by AMC.
   name: AMC Entertainment Holdings States API
   slug: amc-entertainment-holdings-states-api
-- description: AMC theatre locations, attributes, and metadata.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: AMC theatre locations, attributes, and metadata.
   name: AMC Entertainment Holdings Theatres API
   slug: amc-entertainment-holdings-theatres-api
-- description: AMC account wallets for external billers.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: AMC account wallets for external billers.
   name: AMC Entertainment Holdings Wallet API
   slug: amc-entertainment-holdings-wallet-api
-- description: Vendor webhook subscription and management.
+- baseURL: https://api.amctheatres.com
+  baseurl_source: declared
+  description: Vendor webhook subscription and management.
   name: AMC Entertainment Holdings Webhooks API
   slug: amc-entertainment-holdings-webhooks-api
 artifact_total: 60
@@ -326,7 +358,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
 security:

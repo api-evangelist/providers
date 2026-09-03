@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 51 operations · 35 acting
 api_count: 14
 apis:
-- description: 'Session management for the Qoala for Enterprise platform — create an authentication session from an email and security code, and refresh it with a refresh token. Returns a JWT access token, a refresh '
+- baseURL: https://api.qoala.app
+  baseurl_source: declared
+  description: 'Session management for the Qoala for Enterprise platform — create an authentication session from an email and security code, and refresh it with a refresh token. Returns a JWT access token, a refresh '
   name: Qoala Authentication API
   slug: qoala-authentication-api
-- description: Policy API documentation consist of create policy, get policy detail or status, policy cancellation and policy activation.
+- baseURL: https://api.qoala.app
+  baseurl_source: declared
+  description: Policy API documentation consist of create policy, get policy detail or status, policy cancellation and policy activation.
   name: Qoala API Specification API
   slug: qoala-api-specification-api
 artifact_total: 11
@@ -218,7 +234,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -228,7 +244,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.8
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -246,7 +262,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/screenshots/qoala-2026-08-17T081418.png
 security:

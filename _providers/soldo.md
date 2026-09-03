@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -43,145 +43,239 @@ agentic_access:
   summary_line: 235 operations · 152 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounting Classification API from Soldo — 1 operation(s) for accounting classification.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Accounting Classification API from Soldo — 1 operation(s) for accounting classification.
   name: Soldo Accounting Classification API
   slug: soldo-accounting-classification-api
-- description: The Addresses API from Soldo — 2 operation(s) for addresses.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Addresses API from Soldo — 2 operation(s) for addresses.
   name: Soldo Addresses API
   slug: soldo-addresses-api
-- description: The Authentication API from Soldo — 2 operation(s) for authentication.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Authentication API from Soldo — 2 operation(s) for authentication.
   name: Soldo Authentication API
   slug: soldo-authentication-api
-- description: The Auto-Transfer Presets API from Soldo — 5 operation(s) for auto-transfer presets.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Auto-Transfer Presets API from Soldo — 5 operation(s) for auto-transfer presets.
   name: Soldo Auto-Transfer Presets API
   slug: soldo-auto-transfer-presets-api
-- description: The Autotags API from Soldo — 2 operation(s) for autotags.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Autotags API from Soldo — 2 operation(s) for autotags.
   name: Soldo Autotags API
   slug: soldo-autotags-api
-- description: The Business Trips API from Soldo — 7 operation(s) for business trips.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Business Trips API from Soldo — 7 operation(s) for business trips.
   name: Soldo Business Trips API
   slug: soldo-business-trips-api
-- description: The Card Rules API from Soldo — 7 operation(s) for card rules.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Card Rules API from Soldo — 7 operation(s) for card rules.
   name: Soldo Card Rules API
   slug: soldo-card-rules-api
-- description: The Card Rules Presets API from Soldo — 3 operation(s) for card rules presets.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Card Rules Presets API from Soldo — 3 operation(s) for card rules presets.
   name: Soldo Card Rules Presets API
   slug: soldo-card-rules-presets-api
-- description: The Cards API from Soldo — 3 operation(s) for cards.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Cards API from Soldo — 3 operation(s) for cards.
   name: Soldo Cards API
   slug: soldo-cards-api
-- description: The Company API from Soldo — 1 operation(s) for company.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Company API from Soldo — 1 operation(s) for company.
   name: Soldo Company API
   slug: soldo-company-api
-- description: The Contacts API from Soldo — 2 operation(s) for contacts.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Contacts API from Soldo — 2 operation(s) for contacts.
   name: Soldo Contacts API
   slug: soldo-contacts-api
-- description: The Documents API from Soldo — 4 operation(s) for documents.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Documents API from Soldo — 4 operation(s) for documents.
   name: Soldo Documents API
   slug: soldo-documents-api
-- description: The Expense Categories API from Soldo — 2 operation(s) for expense categories.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Categories API from Soldo — 2 operation(s) for expense categories.
   name: Soldo Expense Categories API
   slug: soldo-expense-categories-api
-- description: The Expense Policies API from Soldo — 4 operation(s) for expense policies.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Policies API from Soldo — 4 operation(s) for expense policies.
   name: Soldo Expense Policies API
   slug: soldo-expense-policies-api
-- description: The Expense Reports API from Soldo — 3 operation(s) for expense reports.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Reports API from Soldo — 3 operation(s) for expense reports.
   name: Soldo Expense Reports API
   slug: soldo-expense-reports-api
-- description: The Expense Review Configuration API from Soldo — 1 operation(s) for expense review configuration.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Review Configuration API from Soldo — 1 operation(s) for expense review configuration.
   name: Soldo Expense Review Configuration API
   slug: soldo-expense-review-configuration-api
-- description: The Expense Review Processes API from Soldo — 5 operation(s) for expense review processes.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Review Processes API from Soldo — 5 operation(s) for expense review processes.
   name: Soldo Expense Review Processes API
   slug: soldo-expense-review-processes-api
-- description: The Expense Reviews API from Soldo — 7 operation(s) for expense reviews.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Expense Reviews API from Soldo — 7 operation(s) for expense reviews.
   name: Soldo Expense Reviews API
   slug: soldo-expense-reviews-api
-- description: The Groups API from Soldo — 3 operation(s) for groups.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Groups API from Soldo — 3 operation(s) for groups.
   name: Soldo Groups API
   slug: soldo-groups-api
-- description: The Lists API from Soldo — 2 operation(s) for lists.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Lists API from Soldo — 2 operation(s) for lists.
   name: Soldo Lists API
   slug: soldo-lists-api
-- description: The Online Ads API from Soldo — 4 operation(s) for online ads.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Online Ads API from Soldo — 4 operation(s) for online ads.
   name: Soldo Online Ads API
   slug: soldo-online-ads-api
-- description: The Orders API from Soldo — 2 operation(s) for orders.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Orders API from Soldo — 2 operation(s) for orders.
   name: Soldo Orders API
   slug: soldo-orders-api
-- description: The Out of Office API from Soldo — 2 operation(s) for out of office.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Out of Office API from Soldo — 2 operation(s) for out of office.
   name: Soldo Out of Office API
   slug: soldo-out-of-office-api
-- description: The Permissions API from Soldo — 1 operation(s) for permissions.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Permissions API from Soldo — 1 operation(s) for permissions.
   name: Soldo Permissions API
   slug: soldo-permissions-api
-- description: The Pre-approved Spend API from Soldo — 3 operation(s) for pre-approved spend.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Pre-approved Spend API from Soldo — 3 operation(s) for pre-approved spend.
   name: Soldo Pre-approved Spend API
   slug: soldo-pre-approved-spend-api
-- description: The Refueling Transactions API from Soldo — 2 operation(s) for refueling transactions.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Refueling Transactions API from Soldo — 2 operation(s) for refueling transactions.
   name: Soldo Refueling Transactions API
   slug: soldo-refueling-transactions-api
-- description: The Requests API from Soldo — 4 operation(s) for requests.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Requests API from Soldo — 4 operation(s) for requests.
   name: Soldo Requests API
   slug: soldo-requests-api
-- description: The Resource Sets API from Soldo — 2 operation(s) for resource sets.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Resource Sets API from Soldo — 2 operation(s) for resource sets.
   name: Soldo Resource Sets API
   slug: soldo-resource-sets-api
-- description: The Statements API from Soldo — 2 operation(s) for statements.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Statements API from Soldo — 2 operation(s) for statements.
   name: Soldo Statements API
   slug: soldo-statements-api
-- description: The Subscriptions API from Soldo — 4 operation(s) for subscriptions.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Soldo — 4 operation(s) for subscriptions.
   name: Soldo Subscriptions API
   slug: soldo-subscriptions-api
-- description: The Tags API from Soldo — 3 operation(s) for tags.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Tags API from Soldo — 3 operation(s) for tags.
   name: Soldo Tags API
   slug: soldo-tags-api
-- description: The Transaction Attachments API from Soldo — 2 operation(s) for transaction attachments.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Attachments API from Soldo — 2 operation(s) for transaction attachments.
   name: Soldo Transaction Attachments API
   slug: soldo-transaction-attachments-api
-- description: The Transaction Custom Export API from Soldo — 4 operation(s) for transaction custom export.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Custom Export API from Soldo — 4 operation(s) for transaction custom export.
   name: Soldo Transaction Custom Export API
   slug: soldo-transaction-custom-export-api
-- description: The Transaction Expense Category API from Soldo — 2 operation(s) for transaction expense category.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Expense Category API from Soldo — 2 operation(s) for transaction expense category.
   name: Soldo Transaction Expense Category API
   slug: soldo-transaction-expense-category-api
-- description: The Transaction Metadata API from Soldo — 2 operation(s) for transaction metadata.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Metadata API from Soldo — 2 operation(s) for transaction metadata.
   name: Soldo Transaction Metadata API
   slug: soldo-transaction-metadata-api
-- description: The Transaction Split API from Soldo — 1 operation(s) for transaction split.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Split API from Soldo — 1 operation(s) for transaction split.
   name: Soldo Transaction Split API
   slug: soldo-transaction-split-api
-- description: The Transaction Tags API from Soldo — 1 operation(s) for transaction tags.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction Tags API from Soldo — 1 operation(s) for transaction tags.
   name: Soldo Transaction Tags API
   slug: soldo-transaction-tags-api
-- description: The Transaction VAT Rate API from Soldo — 1 operation(s) for transaction vat rate.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transaction VAT Rate API from Soldo — 1 operation(s) for transaction vat rate.
   name: Soldo Transaction VAT Rate API
   slug: soldo-transaction-vat-rate-api
-- description: The Transactions API from Soldo — 7 operation(s) for transactions.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Transactions API from Soldo — 7 operation(s) for transactions.
   name: Soldo Transactions API
   slug: soldo-transactions-api
-- description: The User Roles API from Soldo — 3 operation(s) for user roles.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The User Roles API from Soldo — 3 operation(s) for user roles.
   name: Soldo User Roles API
   slug: soldo-user-roles-api
-- description: The Users API from Soldo — 5 operation(s) for users.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Users API from Soldo — 5 operation(s) for users.
   name: Soldo Users API
   slug: soldo-users-api
-- description: The VAT Rates API from Soldo — 2 operation(s) for vat rates.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The VAT Rates API from Soldo — 2 operation(s) for vat rates.
   name: Soldo VAT Rates API
   slug: soldo-vat-rates-api
-- description: The Vehicles API from Soldo — 2 operation(s) for vehicles.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Vehicles API from Soldo — 2 operation(s) for vehicles.
   name: Soldo Vehicles API
   slug: soldo-vehicles-api
-- description: The Wallets API from Soldo — 4 operation(s) for wallets.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Wallets API from Soldo — 4 operation(s) for wallets.
   name: Soldo Wallets API
   slug: soldo-wallets-api
-- description: The Webhook Subscriptions API from Soldo — 3 operation(s) for webhook subscriptions.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Webhook Subscriptions API from Soldo — 3 operation(s) for webhook subscriptions.
   name: Soldo Webhook Subscriptions API
   slug: soldo-webhook-subscriptions-api
-- description: The Workflows API from Soldo — 3 operation(s) for workflows.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Workflows API from Soldo — 3 operation(s) for workflows.
   name: Soldo Workflows API
   slug: soldo-workflows-api
-- description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
+- baseURL: https://api.soldo.com/business/v2
+  baseurl_source: declared
+  description: The Webhooks API from Soldo — 0 operation(s) for webhooks.
   name: Soldo Webhooks API
   slug: soldo-webhooks-api
 artifact_total: 97
@@ -472,7 +566,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -482,7 +576,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,7 +598,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo/refs/heads/main/screenshots/soldo-2026-08-17T081954.png
 security:

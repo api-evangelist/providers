@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: The NASA Technology Transfer API provides programmatic access to the NASA patent portfolio, software catalog, and spinoff technologies developed through the Artemis program and other NASA missions, en
   name: NASA Technology Transfer API
   slug: nasa-tech-transfer-api
-- description: Astronomy Picture of the Day
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: Astronomy Picture of the Day
   name: Artemis APOD API
   slug: artemis-apod-api
-- description: Space Weather Database Of Notifications, Knowledge, Information
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: Space Weather Database Of Notifications, Knowledge, Information
   name: Artemis DONKI API
   slug: artemis-donki-api
-- description: Earth Polychromatic Imaging Camera
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: Earth Polychromatic Imaging Camera
   name: Artemis EPIC API
   slug: artemis-epic-api
-- description: NASA Image and Video Library
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: NASA Image and Video Library
   name: Artemis Images API
   slug: artemis-images-api
-- description: Near Earth Object Web Service
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: Near Earth Object Web Service
   name: Artemis NeoWs API
   slug: artemis-neows-api
 artifact_total: 29
@@ -198,7 +208,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/screenshots/artemis-2026-06-20T172440.png
 security:

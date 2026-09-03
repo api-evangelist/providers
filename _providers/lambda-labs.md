@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -53,34 +53,54 @@ apis:
 - description: Lambda Cloud Filesystems provide persistent, sharable storage attached to on-demand instances for datasets and checkpoints. Filesystems are managed through the Cloud API and console.
   name: Lambda Cloud Filesystems
   slug: filesystems
-- description: Lambda Inference API is an OpenAI-compatible REST gateway at https://api.lambda.ai/v1 that serves hosted open-source language models (Llama, DeepSeek, Hermes, Qwen, and others) behind the standard Ope
+- baseURL: https://api.lambda.ai/v1
+  baseurl_source: declared
+  description: Lambda Inference API is an OpenAI-compatible REST gateway at https://api.lambda.ai/v1 that serves hosted open-source language models (Llama, DeepSeek, Hermes, Qwen, and others) behind the standard Ope
   name: Lambda Inference API
   slug: inference-api
-- description: The Audit Events API from Lambda — 1 operation(s) for audit events.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Audit Events API from Lambda — 1 operation(s) for audit events.
   name: Lambda Audit Events API
   slug: lambda-labs-audit-events-api
-- description: The Fabric API from Lambda — 2 operation(s) for fabric.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Fabric API from Lambda — 2 operation(s) for fabric.
   name: Lambda Fabric API
   slug: lambda-labs-fabric-api
-- description: The Filesystems API from Lambda — 3 operation(s) for filesystems.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Filesystems API from Lambda — 3 operation(s) for filesystems.
   name: Lambda Filesystems API
   slug: lambda-labs-filesystems-api
-- description: The Firewalls API from Lambda — 4 operation(s) for firewalls.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Firewalls API from Lambda — 4 operation(s) for firewalls.
   name: Lambda Firewalls API
   slug: lambda-labs-firewalls-api
-- description: The Images API from Lambda — 1 operation(s) for images.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Images API from Lambda — 1 operation(s) for images.
   name: Lambda Images API
   slug: lambda-labs-images-api
-- description: The Instances API from Lambda — 6 operation(s) for instances.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Instances API from Lambda — 6 operation(s) for instances.
   name: Lambda Instances API
   slug: lambda-labs-instances-api
-- description: The Regions API from Lambda — 1 operation(s) for regions.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Regions API from Lambda — 1 operation(s) for regions.
   name: Lambda Regions API
   slug: lambda-labs-regions-api
-- description: The SSH keys API from Lambda — 2 operation(s) for ssh keys.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The SSH keys API from Lambda — 2 operation(s) for ssh keys.
   name: Lambda SSH keys API
   slug: lambda-labs-ssh-keys-api
-- description: The Lambda Support Ticketing API is currently in beta. Contact support to enable access.
+- baseURL: https://cloud.lambda.ai/api/v1
+  baseurl_source: declared
+  description: The Lambda Support Ticketing API is currently in beta. Contact support to enable access.
   name: Lambda Support Tickets API
   slug: lambda-labs-support-tickets-api
 artifact_total: 42
@@ -273,7 +293,7 @@ score:
     catalog_gap: 60.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -283,7 +303,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 50.4
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/screenshots/lambda-labs-2026-06-20T184251.png
 security:

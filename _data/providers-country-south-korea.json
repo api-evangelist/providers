@@ -29,7 +29,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -71,9 +71,54 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
+    {
+     "name": "TheCarApi",
+     "slug": "thecarapi",
+     "description": "A multi-source vehicle auction inventory REST/JSON API aggregating live and archived auction listings and European retail classifieds. Provides search, facets, catalog, auction detail & price history, VIN history, market intelligence, and import cost calculators. Fully specified via OpenAPI 3.1 with Postman collection and agent-native documentation (llms.txt).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/screenshots/thecarapi-2026-09-02T163425.png",
+     "score": 52.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 40.0,
+      "governance": 8.3,
+      "contract_governance": 8.3,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 23.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
     {
      "name": "Seoul National University",
      "slug": "snu",
@@ -92,7 +137,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -124,7 +169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "SK Telecom",
@@ -144,7 +189,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -176,7 +221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Payple",
@@ -196,7 +241,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -228,7 +273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -238,8 +283,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 12,
-   "shown": 12,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "Korbit",
@@ -259,7 +304,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -291,7 +336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Barogo",
@@ -311,7 +356,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -336,12 +381,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Toss Payments",
      "slug": "toss-payments",
      "description": "Toss Payments is a South Korean payment gateway (PG) operated by Viva Republica, the company behind the Toss super-app. Its REST API lets merchants accept and manage online payments across cards, Korean easy-pay wallets (Toss Pay, KakaoPay, Naver Pay), virtual accounts, bank transfer, and mobile-phone billing. The Core API (base https://api.tosspayments.com) covers payment confirmation and cancellation, recurring billing keys, virtual account issuance, cash receipts, transaction and settlement queries, and seller payouts, with asynchronous results delivered by webhooks. Authentication is HTTP Basic using a secret API key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toss-payments/refs/heads/main/screenshots/toss-payments-2026-09-02T163941.png",
      "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
@@ -355,7 +401,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -387,7 +433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Sungkyunkwan University",
@@ -407,7 +453,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -439,7 +485,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Mindlogic",
@@ -459,7 +505,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -484,7 +530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Bithumb",
@@ -504,7 +550,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -536,7 +582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Pohang University of Science and Technology",
@@ -556,7 +602,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -588,7 +634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Kurly",
@@ -608,7 +654,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -633,7 +679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Kakao",
@@ -653,7 +699,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -685,7 +731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Dunamu",
@@ -705,7 +751,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -737,7 +783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Hanyang University",
@@ -757,7 +803,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -777,50 +823,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "TheCarApi",
-     "slug": "thecarapi",
-     "description": "A multi-source vehicle auction inventory REST/JSON API aggregating live and archived auction listings and European retail classifieds. Provides search, facets, catalog, auction detail & price history, VIN history, market intelligence, and import cost calculators. Fully specified via OpenAPI 3.1 with Postman collection and agent-native documentation (llms.txt).",
-     "score": 31.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 33.3,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 18.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -863,7 +865,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
@@ -908,7 +910,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -960,7 +962,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1005,7 +1007,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1057,7 +1059,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1088,6 +1090,7 @@
      "name": "Tridge",
      "slug": "tridge",
      "description": "Tridge is a South Korea-headquartered global agri-food trade intelligence and sourcing platform. It combines a data layer of structured cross-border trade, price, production, seasonality and weather data (the company cites 682M+ trade data points and 65M+ price records across 200+ markets), a network layer of verified buyers and suppliers in 190+ countries, and an AI layer that runs trade workflows from discovery through deal closure. Products include Market Curations, Sourcing Hub, Data & Analytics, Tridge Eye (market intelligence) and Tridge Ark (AI-driven export sales outreach). Tridge advertises an API for integrating its global price and trade data into customer systems, but publishes no public developer portal, reference documentation or machine-readable contract — access is arranged through a sales conversation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tridge/refs/heads/main/screenshots/tridge-2026-09-02T164227.png",
      "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1101,7 +1104,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1153,7 +1156,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1205,7 +1208,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1257,7 +1260,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1309,7 +1312,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.9,
      "agent_band": "agent-aware",
@@ -1354,7 +1357,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1399,7 +1402,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1430,6 +1433,7 @@
      "name": "WE11DONE",
      "slug": "we11done",
      "description": "WE11DONE (pronounced \"well done\") is a Seoul-based fashion label founded in 2015 by Dami Kwon and Jessica Jung, the duo behind the Seoul concept boutique Rare Market. The brand fuses late-1990s and early-2000s streetwear and athleisure aesthetics into a globally distributed designer ready-to-wear line, sold through its own e-commerce storefront at we11-done.com and stockists worldwide. Surfaced as a consumer-sector portfolio company of hongshan and added to the API Evangelist network as a lead. An enrichment pass on 2026-07-21 confirmed the company operates a direct-to-consumer retail website but publishes no developer API surface: no developer portal, API reference, well-known metadata, or llms.txt were found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/we11done/refs/heads/main/screenshots/we11done-2026-09-02T170522.png",
      "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1443,7 +1447,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1488,7 +1492,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1519,6 +1523,7 @@
      "name": "VCNC",
      "slug": "vcnc",
      "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vcnc/refs/heads/main/screenshots/vcnc-2026-09-02T165530.png",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1532,7 +1537,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1577,7 +1582,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1629,7 +1634,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1684,7 +1689,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1729,7 +1734,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1774,7 +1779,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1819,7 +1824,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1871,7 +1876,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1902,6 +1907,7 @@
      "name": "Veluga",
      "slug": "veluga",
      "description": "Veluga (Veluga Brewery Inc.) is a South Korean B2B alcohol wholesale distribution platform that connects hospitality business owners with liquor suppliers. Operating from Mapo, Seoul, the company runs a wholesale marketplace offering real-time wholesale pricing quotes for spirits and craft beverages, product recommendations for business owners, wholesale order facilitation, and partnership programs for distributors and catering services. Veluga positions itself as a transaction and information intermediary rather than a direct seller. The company began as a craft-beer and snack subscription service and is backed by 500 Global, Kakao Ventures, SparkLabs, HL Holdings, and Sema Investment. No public developer API, SDK, or developer portal is currently published; this profile captures the company identity for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veluga/refs/heads/main/screenshots/veluga-2026-09-02T165634.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1915,7 +1921,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1960,7 +1966,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2004,7 +2010,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -2049,7 +2055,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2094,7 +2100,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2146,7 +2152,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2191,7 +2197,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2236,7 +2242,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2281,7 +2287,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2326,7 +2332,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2371,7 +2377,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2416,7 +2422,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2461,7 +2467,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2505,7 +2511,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2550,7 +2556,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2595,7 +2601,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2640,7 +2646,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2685,7 +2691,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2730,7 +2736,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2774,7 +2780,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2818,7 +2824,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2849,6 +2855,7 @@
      "name": "Ticketmonster",
      "slug": "ticketmonster",
      "description": "Ticketmonster (TMON) is a South Korean e-commerce and social-commerce platform founded in 2010 as \"Ticket Monster.\" Operating primarily at tmon.co.kr (the legacy ticketmonster.co.kr brand), TMON sells deals, daily bargains, fashion, travel, and a broad retail catalog to Korean consumers via web and mobile apps. It grew into one of Korea's leading online marketplaces and was later brought under the Qoo10 group. TMON is a consumer-facing retail/marketplace business; it does not publish a public developer program, API portal, OpenAPI specification, SDKs, or documented API surface. This profile was surfaced as a portfolio-linked company and enriched by the API Evangelist pipeline, which confirmed the absence of any public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketmonster/refs/heads/main/screenshots/ticketmonster-2026-09-02T163703.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2862,7 +2869,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2893,6 +2900,7 @@
      "name": "TimeBlocks",
      "slug": "timeblocks",
      "description": "TimeBlocks is a consumer calendar and personal scheduling mobile app developed by Day2Life Inc., a South Korean company backed by 500 Global. Marketed as Korea's #1 decoration calendar, it brings calendar, to-do, memo, and habit tracking together in a single view, with patented drag-and-drop time-block scheduling (US Patent 10,409,474 B2), roughly 1,000 customization items (themes, stickers, fonts), shared and group calendars with real-time notifications, seven home-screen widgets, and cloud sync across devices. It is a native iOS and Android app; as of this enrichment pass it publishes no public developer API, SDK, or API documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timeblocks/refs/heads/main/screenshots/timeblocks-2026-09-02T163753.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2906,7 +2914,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2937,6 +2945,7 @@
      "name": "Tumblbug",
      "slug": "tumblbug",
      "description": "Tumblbug (텀블벅) is a South Korean reward-based crowdfunding platform for creators, where makers launch projects and backers pledge funds to bring creative works — comics, games, publishing, design, music, film and more — to life. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network for enrichment. As of this pass Tumblbug publishes a consumer-facing web platform (help center, creator guides, pricing/advertising, terms and privacy pages) but exposes no public developer API, documentation, or open API surface; this profile therefore carries identity and domain-security signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tumblbug/refs/heads/main/screenshots/tumblbug-2026-09-02T164525.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2950,7 +2959,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2995,7 +3004,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3047,7 +3056,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3098,7 +3107,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3136,6 +3145,7 @@
      "name": "Socra AI",
      "slug": "socra-ai",
      "description": "Socra AI operates Socra Tutor (소크라 튜터), a Korean-market, AI-powered education service that describes itself as an intelligent AI answer-comparison service — students submit problems and Socra compares and evaluates candidate answers using AI to help them learn. It is a consumer-facing edtech mobile/web application rather than a developer platform; as of this profile no public API, developer portal, or technical documentation could be found. Socra AI was surfaced as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network for enrichment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socra-ai/refs/heads/main/screenshots/socra-ai-2026-09-02T160039.png",
      "score": 2.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3149,7 +3159,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3200,7 +3210,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

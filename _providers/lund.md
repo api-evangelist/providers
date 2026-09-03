@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 2
 apis:
-- description: Keyless REST/JSON(P) search over the Lund University Publications (LUP) research-output database, operated by Lund University Libraries on Lund's own host. Supports CQL-style queries, paging and sorti
+- baseURL: https://lup.lub.lu.se/search
+  baseurl_source: declared
+  description: Keyless REST/JSON(P) search over the Lund University Publications (LUP) research-output database, operated by Lund University Libraries on Lund's own host. Supports CQL-style queries, paging and sorti
   name: Lund University Publications Search API
   slug: lund-publication-api
 - description: OAI-PMH 2.0 metadata-harvesting endpoint for the LUP research-output repository. Identify confirms repositoryName "Lund University Publications", repositoryIdentifier lup.lub.lu.se and adminEmail publ
@@ -55,7 +57,9 @@ apis:
 - description: 'unAPI 1 discovery service returning the alternate metadata formats available for LUP records, which is how reference managers such as Zotero autodiscover Lund records. No authentication required. The '
   name: Lund University Publications unAPI
   slug: lup-unapi
-- description: Keyless REST/JSON(P) search over LUP Student Papers, a second Lund University Libraries repository holding student theses and degree projects, with its own record model — courseCode, courseTerm, stude
+- baseURL: https://lup.lub.lu.se/student-papers/search
+  baseurl_source: declared
+  description: Keyless REST/JSON(P) search over LUP Student Papers, a second Lund University Libraries repository holding student theses and degree projects, with its own record model — courseCode, courseTerm, stude
   name: LUP Student Papers Search API
   slug: lup-student-papers
 - description: OAI-PMH 2.0 harvesting endpoint for the LUP Student Papers repository. Identify confirms repositoryName "Lund University Publications - Student Papers" and repositoryIdentifier lup-student-papers.lub.
@@ -265,7 +269,7 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -275,7 +279,7 @@ score:
     discoverability: 59.3
     governance: 28.0
     operational_transparency: 26.3
-  previous_composite: 51.5
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -291,8 +295,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png
 security:
 - kind: authentication

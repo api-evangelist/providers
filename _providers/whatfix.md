@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: The Analytics API from Whatfix — 4 operation(s) for analytics.
+- baseURL: https://whatfix.com/api/v1
+  baseurl_source: declared
+  description: The Analytics API from Whatfix — 4 operation(s) for analytics.
   name: Whatfix Analytics API
   slug: whatfix-analytics-api
-- description: The Content API from Whatfix — 1 operation(s) for content.
+- baseURL: https://whatfix.com/api/v1
+  baseurl_source: declared
+  description: The Content API from Whatfix — 1 operation(s) for content.
   name: Whatfix Content API
   slug: whatfix-content-api
-- description: The End Users API from Whatfix — 2 operation(s) for end users.
+- baseURL: https://whatfix.com/api/v1
+  baseurl_source: declared
+  description: The End Users API from Whatfix — 2 operation(s) for end users.
   name: Whatfix End Users API
   slug: whatfix-end-users-api
-- description: The Reports API from Whatfix — 1 operation(s) for reports.
+- baseURL: https://whatfix.com/api/v1
+  baseurl_source: declared
+  description: The Reports API from Whatfix — 1 operation(s) for reports.
   name: Whatfix Reports API
   slug: whatfix-reports-api
-- description: The Segments API from Whatfix — 1 operation(s) for segments.
+- baseURL: https://whatfix.com/api/v1
+  baseurl_source: declared
+  description: The Segments API from Whatfix — 1 operation(s) for segments.
   name: Whatfix Segments API
   slug: whatfix-segments-api
 artifact_total: 30
@@ -244,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/screenshots/whatfix-2026-06-20T201422.png
 security:

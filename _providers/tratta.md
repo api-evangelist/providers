@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 27 operations · 13 acting
 api_count: 1
 apis:
-- description: Bulk import and export operations
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Bulk import and export operations
   name: Tratta Bulk Operations API
   slug: tratta-bulk-operations-api
-- description: Charge processing and management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Charge processing and management
   name: Tratta Charges API
   slug: tratta-charges-api
-- description: Secure customer session management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Secure customer session management
   name: Tratta Customer Sessions API
   slug: tratta-customer-sessions-api
-- description: Customer account management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Customer account management
   name: Tratta Customers API
   slug: tratta-customers-api
-- description: Debt account operations and management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Debt account operations and management
   name: Tratta Debt Accounts API
   slug: tratta-debt-accounts-api
-- description: Payment method storage and management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Payment method storage and management
   name: Tratta Payment Methods API
   slug: tratta-payment-methods-api
-- description: Payment plan creation and management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Payment plan creation and management
   name: Tratta Payment Plans API
   slug: tratta-payment-plans-api
-- description: Support ticket management
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Support ticket management
   name: Tratta Tickets API
   slug: tratta-tickets-api
-- description: Transaction history and reporting
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Transaction history and reporting
   name: Tratta Transactions API
   slug: tratta-transactions-api
-- description: Webhook configuration for event notifications
+- baseURL: https://api.tratta.io
+  baseurl_source: declared
+  description: Webhook configuration for event notifications
   name: Tratta Webhooks API
   slug: tratta-webhooks-api
 artifact_total: 36
@@ -255,7 +275,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tratta/refs/heads/main/screenshots/tratta-2026-06-20T195633.png
 security:

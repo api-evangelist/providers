@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
-- description: The Sms API from ClickSend SMS — 6 operation(s) for sms.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: The Sms API from ClickSend SMS — 6 operation(s) for sms.
   name: ClickSend SMS Sms API
   slug: clicksend-sms-sms-api
 artifact_total: 8
@@ -148,7 +150,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicksend-sms/refs/heads/main/screenshots/clicksend-sms-2026-06-20T174517.png
 security:

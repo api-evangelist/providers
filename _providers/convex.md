@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 24 operations · 15 acting
 api_count: 3
 apis:
-- description: The Convex Sync Protocol is the bidirectional WebSocket protocol spoken between Convex client SDKs and the sync worker of a Convex deployment. Clients open a single WebSocket connection to wss://{depl
+- baseURL: wss://{deployment-name}.convex.cloud/api/{clientVersion}/sync
+  baseurl_source: declared
+  description: The Convex Sync Protocol is the bidirectional WebSocket protocol spoken between Convex client SDKs and the sync worker of a Convex deployment. Clients open a single WebSocket connection to wss://{depl
   name: Convex Sync Protocol
   slug: sync-protocol
 - description: The Convex JavaScript SDK is a collection of TypeScript/JavaScript packages for building applications on the Convex backend platform. It includes convex/server for defining backend functions and datab
@@ -53,37 +55,59 @@ apis:
 - description: The Convex Server SDK (convex/server) is the TypeScript library for defining backend logic deployed on Convex. It provides primitives for writing query functions for read-only database access, mutatio
   name: Convex Server SDK
   slug: server-sdk
-- description: Create and manage Team Access Tokens used for authenticating Management API requests on behalf of a team.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Create and manage Team Access Tokens used for authenticating Management API requests on behalf of a team.
   name: Convex AccessTokens API
   slug: convex-accesstokens-api
-- description: Execute action functions for general-purpose server-side operations, including calling external services, performing non-transactional work, and orchestrating other functions.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Execute action functions for general-purpose server-side operations, including calling external services, performing non-transactional work, and orchestrating other functions.
   name: Convex Actions API
   slug: convex-actions-api
-- description: Configure custom domain names for Convex deployments. Supports both convexCloud (function API) and convexSite (HTTP actions) request destinations.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Configure custom domain names for Convex deployments. Supports both convexCloud (function API) and convexSite (HTTP actions) request destinations.
   name: Convex CustomDomains API
   slug: convex-customdomains-api
-- description: Create and manage deploy keys for CLI operations and CI/CD pipelines. Deploy keys authenticate the Convex CLI when pushing function code to a deployment.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Create and manage deploy keys for CLI operations and CI/CD pipelines. Deploy keys authenticate the Convex CLI when pushing function code to a deployment.
   name: Convex DeployKeys API
   slug: convex-deploykeys-api
-- description: Create, list, retrieve, update, and delete Convex cloud and local deployments. Deployments are the runtime environments where Convex backend functions execute.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete Convex cloud and local deployments. Deployments are the runtime environments where Convex backend functions execute.
   name: Convex Deployments API
   slug: convex-deployments-api
-- description: Manage environment variables for a Convex deployment. Environment variables are key-value pairs accessible to backend functions at runtime via process.env. Changes to environment variables take effect
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Manage environment variables for a Convex deployment. Environment variables are key-value pairs accessible to backend functions at runtime via process.env. Changes to environment variables take effect
   name: Convex EnvironmentVariables API
   slug: convex-environmentvariables-api
-- description: Execute any deployed function by its identifier using the unified run endpoint, which accepts the function type implicitly based on the deployed function definition.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Execute any deployed function by its identifier using the unified run endpoint, which accepts the function type implicitly based on the deployed function definition.
   name: Convex Functions API
   slug: convex-functions-api
-- description: Execute mutation functions that perform transactional writes to the Convex database. Mutations are strongly consistent and run with ACID guarantees.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Execute mutation functions that perform transactional writes to the Convex database. Mutations are strongly consistent and run with ACID guarantees.
   name: Convex Mutations API
   slug: convex-mutations-api
-- description: Create, list, retrieve, and delete Convex projects within a team. Projects group deployments and serve as the top-level organizational unit for Convex applications.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Create, list, retrieve, and delete Convex projects within a team. Projects group deployments and serve as the top-level organizational unit for Convex applications.
   name: Convex Projects API
   slug: convex-projects-api
-- description: Execute read-only query functions deployed on the Convex backend. Queries run in a transactional, reactive context and return data from the Convex database.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Execute read-only query functions deployed on the Convex backend. Queries run in a transactional, reactive context and return data from the Convex database.
   name: Convex Queries API
   slug: convex-queries-api
-- description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
+- baseURL: https://{deployment-name}.convex.cloud
+  baseurl_source: declared
+  description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
   name: Convex Teams API
   slug: convex-teams-api
 artifact_total: 74
@@ -415,7 +439,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -425,7 +449,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 46.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -434,7 +458,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

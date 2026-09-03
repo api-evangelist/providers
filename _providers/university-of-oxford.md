@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: A SAML 2.0 identity provider serving live machine-readable metadata, with Redirect/SSO, POST/SSO, POST-SimpleSign/SSO, POST/SLO and SOAP/Redirect/SLO bindings and a signing certificate rotated 2026-05
@@ -55,16 +55,24 @@ apis:
 - description: Vacancies were once part of Oxford's own open-data programme; they are now a CoreHR application reached through an Oxford vanity hostname. The redirect target leaves the ox.ac.uk domain entirely, whic
   name: Oxford recruitment (CoreHR tenancy)
   slug: recruit-corehr-tenancy
-- description: IIIF Image, Presentation and Change Discovery endpoints.
+- baseURL: https://ora.ox.ac.uk/oai2
+  baseurl_source: declared
+  description: IIIF Image, Presentation and Change Discovery endpoints.
   name: University of Oxford IIIF API
   slug: university-of-oxford-iiif-api
-- description: Open Archives Initiative Protocol for Metadata Harvesting verbs.
+- baseURL: https://ora.ox.ac.uk/oai2
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting verbs.
   name: University of Oxford OAI PMH API
   slug: university-of-oxford-oai-pmh-api
-- description: Search and retrieval of ORA repository records.
+- baseURL: https://ora.ox.ac.uk/oai2
+  baseurl_source: declared
+  description: Search and retrieval of ORA repository records.
   name: University of Oxford Repository API
   slug: university-of-oxford-repository-api
-- description: OAI-PMH harvesting of Oxford Text Archive records.
+- baseURL: https://ora.ox.ac.uk/oai2
+  baseurl_source: declared
+  description: OAI-PMH harvesting of Oxford Text Archive records.
   name: University of Oxford Text Archive API
   slug: university-of-oxford-textarchive-api
 artifact_total: 28
@@ -327,7 +335,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -337,7 +345,7 @@ score:
     discoverability: 74.1
     governance: 22.7
     operational_transparency: 34.2
-  previous_composite: 41.1
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     contracts:
@@ -352,7 +360,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png
 security:

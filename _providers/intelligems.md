@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ agentic_access:
   summary_line: 16 operations · 13 acting
 api_count: 1
 apis:
-- description: Experience-level and sitewide analytics.
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Experience-level and sitewide analytics.
   name: Intelligems Analytics API
   slug: intelligems-analytics-api
-- description: Create, read, update, and control A/B tests and personalizations.
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Create, read, update, and control A/B tests and personalizations.
   name: Intelligems Experiences API
   slug: intelligems-experiences-api
-- description: Event/holiday benchmark analytics.
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Event/holiday benchmark analytics.
   name: Intelligems Holiday Benchmark API
   slug: intelligems-holiday-benchmark-api
-- description: Define the client-side behaviors Intelligems tracks on a storefront — click events, scroll depth, page views, product and collection page views, element-viewed and custom JavaScript events — so they c
+- baseURL: https://api.intelligems.io
+  baseurl_source: declared
+  description: Define the client-side behaviors Intelligems tracks on a storefront — click events, scroll depth, page views, product and collection page views, element-viewed and custom JavaScript events — so they c
   name: Intelligems Custom Events API
   slug: intelligems-custom-events-api
 - description: Official hosted Model Context Protocol server exposing 46 tools over HTTP and SSE — experiment discovery and lifecycle, price-test prepare/commit, experiment and sitewide analytics, seasonal benchmark
@@ -268,7 +276,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -278,7 +286,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 59.6
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +298,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:

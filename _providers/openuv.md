@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: API status and per-key usage statistics
+- baseURL: https://api.openuv.io/api/v1
+  baseurl_source: declared
+  description: API status and per-key usage statistics
   name: OpenUV Account API
   slug: openuv-account-api
-- description: Sun protection window recommendations
+- baseURL: https://api.openuv.io/api/v1
+  baseurl_source: declared
+  description: Sun protection window recommendations
   name: OpenUV Protection API
   slug: openuv-protection-api
-- description: Current and forecasted UV index data
+- baseURL: https://api.openuv.io/api/v1
+  baseurl_source: declared
+  description: Current and forecasted UV index data
   name: OpenUV UV Index API
   slug: openuv-uv-index-api
 artifact_total: 58
@@ -332,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openuv/refs/heads/main/screenshots/openuv-2026-06-20T191048.png
 security:

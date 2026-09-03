@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -44,157 +44,259 @@ agentic_access:
   summary_line: 733 operations · 421 acting · 21 human-in-the-loop
 api_count: 31
 apis:
-- description: The AnnotationService API from Relativity — 2 operation(s) for annotationservice.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The AnnotationService API from Relativity — 2 operation(s) for annotationservice.
   name: Relativity AnnotationService API
   slug: relativity-annotationservice-api
-- description: The ArchiveJobs API from Relativity — 2 operation(s) for archivejobs.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The ArchiveJobs API from Relativity — 2 operation(s) for archivejobs.
   name: Relativity ArchiveJobs API
   slug: relativity-archivejobs-api
-- description: The ARM Module v1 API from Relativity — 20 operation(s) for arm module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The ARM Module v1 API from Relativity — 20 operation(s) for arm module v1.
   name: Relativity ARM Module v1 API
   slug: relativity-arm-module-v1-api
-- description: The ARM Module v3 API from Relativity — 7 operation(s) for arm module v3.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The ARM Module v3 API from Relativity — 7 operation(s) for arm module v3.
   name: Relativity ARM Module v3 API
   slug: relativity-arm-module-v3-api
-- description: The BillableSummaryReports API from Relativity — 4 operation(s) for billablesummaryreports.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The BillableSummaryReports API from Relativity — 4 operation(s) for billablesummaryreports.
   name: Relativity BillableSummaryReports API
   slug: relativity-billablesummaryreports-api
-- description: The BillingConfiguration API from Relativity — 10 operation(s) for billingconfiguration.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The BillingConfiguration API from Relativity — 10 operation(s) for billingconfiguration.
   name: Relativity BillingConfiguration API
   slug: relativity-billingconfiguration-api
-- description: The BillingInsights API from Relativity — 6 operation(s) for billinginsights.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The BillingInsights API from Relativity — 6 operation(s) for billinginsights.
   name: Relativity BillingInsights API
   slug: relativity-billinginsights-api
-- description: The Client Side Libraries Module API from Relativity — 1 operation(s) for client side libraries module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Client Side Libraries Module API from Relativity — 1 operation(s) for client side libraries module.
   name: Relativity Client Side Libraries Module API
   slug: relativity-client-side-libraries-module-api
-- description: The ColdStorage API from Relativity — 1 operation(s) for coldstorage.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The ColdStorage API from Relativity — 1 operation(s) for coldstorage.
   name: Relativity ColdStorage API
   slug: relativity-coldstorage-api
-- description: The CollectAPI API from Relativity — 6 operation(s) for collectapi.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The CollectAPI API from Relativity — 6 operation(s) for collectapi.
   name: Relativity CollectAPI API
   slug: relativity-collectapi-api
-- description: The Conceptual Analytics v1 API from Relativity — 4 operation(s) for conceptual analytics v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Conceptual Analytics v1 API from Relativity — 4 operation(s) for conceptual analytics v1.
   name: Relativity Conceptual Analytics v1 API
   slug: relativity-conceptual-analytics-v1-api
-- description: The Directory API from Relativity — 2 operation(s) for directory.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Directory API from Relativity — 2 operation(s) for directory.
   name: Relativity Directory API
   slug: relativity-directory-api
-- description: The Document Configuration Module API from Relativity — 2 operation(s) for document configuration module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Document Configuration Module API from Relativity — 2 operation(s) for document configuration module.
   name: Relativity Document Configuration Module API
   slug: relativity-document-configuration-module-api
-- description: The DocumentViewerService API from Relativity — 1 operation(s) for documentviewerservice.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The DocumentViewerService API from Relativity — 1 operation(s) for documentviewerservice.
   name: Relativity DocumentViewerService API
   slug: relativity-documentviewerservice-api
-- description: The DtSearchIndex Module v1 API from Relativity — 39 operation(s) for dtsearchindex module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The DtSearchIndex Module v1 API from Relativity — 39 operation(s) for dtsearchindex module v1.
   name: Relativity DtSearchIndex Module v1 API
   slug: relativity-dtsearchindex-module-v1-api
-- description: The Glacier Jobs API from Relativity — 1 operation(s) for glacier jobs.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Glacier Jobs API from Relativity — 1 operation(s) for glacier jobs.
   name: Relativity Glacier Jobs API
   slug: relativity-glacier-jobs-api
-- description: The Glacier Restore API from Relativity — 1 operation(s) for glacier restore.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Glacier Restore API from Relativity — 1 operation(s) for glacier restore.
   name: Relativity Glacier Restore API
   slug: relativity-glacier-restore-api
-- description: The Glacier Storage API from Relativity — 2 operation(s) for glacier storage.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Glacier Storage API from Relativity — 2 operation(s) for glacier storage.
   name: Relativity Glacier Storage API
   slug: relativity-glacier-storage-api
-- description: The Glacier Store API from Relativity — 1 operation(s) for glacier store.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Glacier Store API from Relativity — 1 operation(s) for glacier store.
   name: Relativity Glacier Store API
   slug: relativity-glacier-store-api
-- description: The Health Check Module API from Relativity — 1 operation(s) for health check module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Health Check Module API from Relativity — 1 operation(s) for health check module.
   name: Relativity Health Check Module API
   slug: relativity-health-check-module-api
-- description: The Identity Module v1 API from Relativity — 62 operation(s) for identity module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Identity Module v1 API from Relativity — 62 operation(s) for identity module v1.
   name: Relativity Identity Module v1 API
   slug: relativity-identity-module-v1-api
-- description: The Import Job Module API from Relativity — 11 operation(s) for import job module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Import Job Module API from Relativity — 11 operation(s) for import job module.
   name: Relativity Import Job Module API
   slug: relativity-import-job-module-api
-- description: The Import Source Module API from Relativity — 8 operation(s) for import source module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Import Source Module API from Relativity — 8 operation(s) for import source module.
   name: Relativity Import Source Module API
   slug: relativity-import-source-module-api
-- description: The JobActions API from Relativity — 2 operation(s) for jobactions.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The JobActions API from Relativity — 2 operation(s) for jobactions.
   name: Relativity JobActions API
   slug: relativity-jobactions-api
-- description: The JobInformation API from Relativity — 1 operation(s) for jobinformation.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The JobInformation API from Relativity — 1 operation(s) for jobinformation.
   name: Relativity JobInformation API
   slug: relativity-jobinformation-api
-- description: The Legal Hold Module API from Relativity — 14 operation(s) for legal hold module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Legal Hold Module API from Relativity — 14 operation(s) for legal hold module.
   name: Relativity Legal Hold Module API
   slug: relativity-legal-hold-module-api
-- description: The Metadata API from Relativity — 1 operation(s) for metadata.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Metadata API from Relativity — 1 operation(s) for metadata.
   name: Relativity Metadata API
   slug: relativity-metadata-api
-- description: The Metrics Module API from Relativity — 8 operation(s) for metrics module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Metrics Module API from Relativity — 8 operation(s) for metrics module.
   name: Relativity Metrics Module API
   slug: relativity-metrics-module-api
-- description: The Object Manager v1 API from Relativity — 12 operation(s) for object manager v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Object Manager v1 API from Relativity — 12 operation(s) for object manager v1.
   name: Relativity Object Manager v1 API
   slug: relativity-object-manager-v1-api
-- description: Use the Relativity Object Manager to discover prerequisite artifact IDs before creating Collect collections. These calls are read-only and use the same Bearer token authentication as the Collect API.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: Use the Relativity Object Manager to discover prerequisite artifact IDs before creating Collect collections. These calls are read-only and use the same Bearer token authentication as the Collect API.
   name: Relativity ObjectManagerAPI API
   slug: relativity-objectmanagerapi-api
-- description: External public API for managing role assignments. Role keys must use the r1_ prefix (e.g. r1_staging_viewer). End user token is required
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: External public API for managing role assignments. Role keys must use the r1_ prefix (e.g. r1_staging_viewer). End user token is required
   name: Relativity Permissions Access Control API
   slug: relativity-permissions-access-control-api
-- description: The PersistentHighlightService API from Relativity — 4 operation(s) for persistenthighlightservice.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The PersistentHighlightService API from Relativity — 4 operation(s) for persistenthighlightservice.
   name: Relativity PersistentHighlightService API
   slug: relativity-persistenthighlightservice-api
-- description: The Processing Module v1 API from Relativity — 51 operation(s) for processing module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Processing Module v1 API from Relativity — 51 operation(s) for processing module v1.
   name: Relativity Processing Module v1 API
   slug: relativity-processing-module-v1-api
-- description: The Processing Module v2 API from Relativity — 19 operation(s) for processing module v2.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Processing Module v2 API from Relativity — 19 operation(s) for processing module v2.
   name: Relativity Processing Module v2 API
   slug: relativity-processing-module-v2-api
-- description: The RDO Configuration Module API from Relativity — 2 operation(s) for rdo configuration module.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The RDO Configuration Module API from Relativity — 2 operation(s) for rdo configuration module.
   name: Relativity RDO Configuration Module API
   slug: relativity-rdo-configuration-module-api
-- description: The Relativity Automated Workflows API from Relativity — 4 operation(s) for relativity automated workflows.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Automated Workflows API from Relativity — 4 operation(s) for relativity automated workflows.
   name: Relativity Relativity Automated Workflows API
   slug: relativity-relativity-automated-workflows-api
-- description: The Relativity Environment Module v1 API from Relativity — 93 operation(s) for relativity environment module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Environment Module v1 API from Relativity — 93 operation(s) for relativity environment module v1.
   name: Relativity Relativity Environment Module v1 API
   slug: relativity-relativity-environment-module-v1-api
-- description: The Relativity Infrastructure Module v1 API from Relativity — 70 operation(s) for relativity infrastructure module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Infrastructure Module v1 API from Relativity — 70 operation(s) for relativity infrastructure module v1.
   name: Relativity Relativity Infrastructure Module v1 API
   slug: relativity-relativity-infrastructure-module-v1-api
-- description: The Relativity Mass Operation Module v2 API from Relativity — 26 operation(s) for relativity mass operation module v2.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Mass Operation Module v2 API from Relativity — 26 operation(s) for relativity mass operation module v2.
   name: Relativity Relativity Mass Operation Module v2 API
   slug: relativity-relativity-mass-operation-module-v2-api
-- description: The Relativity Notifications Module v1 API from Relativity — 1 operation(s) for relativity notifications module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Notifications Module v1 API from Relativity — 1 operation(s) for relativity notifications module v1.
   name: Relativity Relativity Notifications Module v1 API
   slug: relativity-relativity-notifications-module-v1-api
-- description: The Relativity Pivot Module v1 API from Relativity — 7 operation(s) for relativity pivot module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Pivot Module v1 API from Relativity — 7 operation(s) for relativity pivot module v1.
   name: Relativity Relativity Pivot Module v1 API
   slug: relativity-relativity-pivot-module-v1-api
-- description: The Relativity Structured Analytics v1 API from Relativity — 10 operation(s) for relativity structured analytics v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Relativity Structured Analytics v1 API from Relativity — 10 operation(s) for relativity structured analytics v1.
   name: Relativity Relativity Structured Analytics v1 API
   slug: relativity-relativity-structured-analytics-v1-api
-- description: The Reports API from Relativity — 7 operation(s) for reports.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Reports API from Relativity — 7 operation(s) for reports.
   name: Relativity Reports API
   slug: relativity-reports-api
-- description: The RestoreJobs API from Relativity — 2 operation(s) for restorejobs.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The RestoreJobs API from Relativity — 2 operation(s) for restorejobs.
   name: Relativity RestoreJobs API
   slug: relativity-restorejobs-api
-- description: The ShortMessageViewerService API from Relativity — 5 operation(s) for shortmessageviewerservice.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The ShortMessageViewerService API from Relativity — 5 operation(s) for shortmessageviewerservice.
   name: Relativity ShortMessageViewerService API
   slug: relativity-shortmessageviewerservice-api
-- description: The TransferControllerV2 API from Relativity — 3 operation(s) for transfercontrollerv2.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The TransferControllerV2 API from Relativity — 3 operation(s) for transfercontrollerv2.
   name: Relativity TransferControllerV2 API
   slug: relativity-transfercontrollerv2-api
-- description: The Versioned Imaging Module v1 API from Relativity — 20 operation(s) for versioned imaging module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Versioned Imaging Module v1 API from Relativity — 20 operation(s) for versioned imaging module v1.
   name: Relativity Versioned Imaging Module v1 API
   slug: relativity-versioned-imaging-module-v1-api
-- description: The Versioned Production Module v1 API from Relativity — 41 operation(s) for versioned production module v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Versioned Production Module v1 API from Relativity — 41 operation(s) for versioned production module v1.
   name: Relativity Versioned Production Module v1 API
   slug: relativity-versioned-production-module-v1-api
-- description: The Web Import Export v1 API from Relativity — 2 operation(s) for web import export v1.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Web Import Export v1 API from Relativity — 2 operation(s) for web import export v1.
   name: Relativity Web Import Export v1 API
   slug: relativity-web-import-export-v1-api
-- description: The Workspace API from Relativity — 2 operation(s) for workspace.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The Workspace API from Relativity — 2 operation(s) for workspace.
   name: Relativity Workspace API
   slug: relativity-workspace-api
-- description: The WorkspaceJob API from Relativity — 2 operation(s) for workspacejob.
+- baseURL: https://{host}/Relativity.REST/api/relativity-object-model/v1
+  baseurl_source: declared
+  description: The WorkspaceJob API from Relativity — 2 operation(s) for workspacejob.
   name: Relativity WorkspaceJob API
   slug: relativity-workspacejob-api
 artifact_total: 115
@@ -520,7 +622,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/screenshots/relativity-2026-06-20T192818.png
 security:

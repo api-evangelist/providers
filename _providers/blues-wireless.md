@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -47,43 +47,69 @@ apis:
 - description: The Notecard API is the firmware-level JSON API for interacting with Blues Notecard hardware modules directly over serial or I2C. It supports card, dfu, env, file, hub, note, ntn, var, and web request
   name: Notecard API
   slug: blues-wireless-notecard-api
-- description: The alert API from Blues — 1 operation(s) for alert.
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: The alert API from Blues — 1 operation(s) for alert.
   name: Blues alert API
   slug: blues-wireless-alert-api
-- description: Authorization operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Authorization operations
   name: Blues authorization API
   slug: blues-wireless-authorization-api
-- description: Billing Account operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Billing Account operations
   name: Blues billing_account API
   slug: blues-wireless-billing-account-api
-- description: Device operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Device operations
   name: Blues device API
   slug: blues-wireless-device-api
-- description: Event retrieval operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Event retrieval operations
   name: Blues event API
   slug: blues-wireless-event-api
-- description: APIs for events and sessions for external devices
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: APIs for events and sessions for external devices
   name: Blues external devices API
   slug: blues-wireless-external-devices-api
-- description: Batch job operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Batch job operations
   name: Blues jobs API
   slug: blues-wireless-jobs-api
-- description: The monitor API from Blues — 2 operation(s) for monitor.
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: The monitor API from Blues — 2 operation(s) for monitor.
   name: Blues monitor API
   slug: blues-wireless-monitor-api
-- description: Organization operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Organization operations
   name: Blues organization API
   slug: blues-wireless-organization-api
-- description: Project operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Project operations
   name: Blues project API
   slug: blues-wireless-project-api
-- description: Route operations
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Route operations
   name: Blues route API
   slug: blues-wireless-route-api
-- description: Project Usage information related to events, route logs, sessions, and data usage
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Project Usage information related to events, route logs, sessions, and data usage
   name: Blues usage API
   slug: blues-wireless-usage-api
-- description: Webhook APIs for non-notecard event ingestion
+- baseURL: https://api.notefile.net
+  baseurl_source: declared
+  description: Webhook APIs for non-notecard event ingestion
   name: Blues webhook API
   slug: blues-wireless-webhook-api
 artifact_total: 61
@@ -359,7 +385,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/screenshots/blues-wireless-2026-06-20T173533.png
 security:

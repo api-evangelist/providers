@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -569,7 +569,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -582,7 +582,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 43.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -591,7 +591,7 @@ score:
       marker_coverage: 0.0
       total: 61
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Trellis property contracts generated from Hono/Zod schemas.
+- baseURL: https://app.trellistech.com/api/v1
+  baseurl_source: declared
+  description: Trellis property contracts generated from Hono/Zod schemas.
   name: Trellis properties API
   slug: trellistech-properties-api
-- description: Trellis task contracts generated from Hono/Zod schemas.
+- baseURL: https://app.trellistech.com/api/v1
+  baseurl_source: declared
+  description: Trellis task contracts generated from Hono/Zod schemas.
   name: Trellis tasks API
   slug: trellistech-tasks-api
 artifact_total: 8
@@ -192,7 +196,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/screenshots/trellistech-2026-08-17T082435.png
 security:

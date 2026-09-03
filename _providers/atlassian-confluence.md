@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Confluence Cloud GraphQL API provides flexible querying and mutation capabilities for Confluence content, spaces, pages, and user data using OAuth 2.0 authentication.
   name: Confluence Cloud GraphQL API
   slug: confluence-cloud-graphql-api
-- description: Legacy /rest/api/content operations
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Legacy /rest/api/content operations
   name: Atlassian Confluence Content (v1) API
   slug: atlassian-confluence-content-v1-api
-- description: Labels and label-targeted listings
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Labels and label-targeted listings
   name: Atlassian Confluence Labels (v2) API
   slug: atlassian-confluence-labels-v2-api
-- description: Modern cursor-paginated pages
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Modern cursor-paginated pages
   name: Atlassian Confluence Pages (v2) API
   slug: atlassian-confluence-pages-v2-api
-- description: CQL-based search
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: CQL-based search
   name: Atlassian Confluence Search (v1) API
   slug: atlassian-confluence-search-v1-api
-- description: Spaces and space settings
+- baseURL: https://your-domain.atlassian.net/wiki/rest/api
+  baseurl_source: declared
+  description: Spaces and space settings
   name: Atlassian Confluence Spaces (v2) API
   slug: atlassian-confluence-spaces-v2-api
 artifact_total: 42
@@ -263,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/screenshots/atlassian-confluence-2026-06-20T172532.png
 security:

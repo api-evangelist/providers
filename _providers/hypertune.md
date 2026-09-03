@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Programmatic and Git-based management of flags, experiments, and configuration. Hypertune versions all flags, experiments, analytics events, and app configuration together in a single Git-based histor
   name: Hypertune Management API
   slug: hypertune-management-api
-- description: The GraphQL API from Hypertune — 1 operation(s) for graphql.
+- baseURL: https://edge.hypertune.com/graphql
+  baseurl_source: declared
+  description: The GraphQL API from Hypertune — 1 operation(s) for graphql.
   name: Hypertune GraphQL API
   slug: hypertune-graphql-api
 artifact_total: 12
@@ -162,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/screenshots/hypertune-2026-06-20T183051.png
 security:

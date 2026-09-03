@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Search API for Launchmetrics publications. GET/POST /documents runs a Lucene-syntax query across the indexed publication corpus with filters for period, channel type, topic path, language, country and
@@ -172,7 +185,7 @@ score:
   band: emerging
   composite: 20.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +204,9 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/launchmetrics/refs/heads/main/screenshots/launchmetrics-2026-09-02T150220.png
 security:
 - kind: authentication
   name: Launchmetrics Authentication

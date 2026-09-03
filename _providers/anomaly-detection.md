@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: PyOD is a comprehensive and scalable Python library for detecting outliers/anomalies in multivariate data. It includes more than 40 detection algorithms including deep learning approaches (AutoEncoder
   name: PyOD (Python Outlier Detection)
   slug: pyod-python-outlier-detection
-- description: Trend change-point detection.
+- baseURL: https://api.cognitive.microsoft.com
+  baseurl_source: declared
+  description: Trend change-point detection.
   name: Anomaly Detection ChangePoint API
   slug: anomaly-detection-changepoint-api
-- description: Multivariate anomaly detection across correlated signals.
+- baseURL: https://api.cognitive.microsoft.com
+  baseurl_source: declared
+  description: Multivariate anomaly detection across correlated signals.
   name: Anomaly Detection Multivariate API
   slug: anomaly-detection-multivariate-api
-- description: Anomaly detection on a single time series.
+- baseURL: https://api.cognitive.microsoft.com
+  baseurl_source: declared
+  description: Anomaly detection on a single time series.
   name: Anomaly Detection Univariate API
   slug: anomaly-detection-univariate-api
 artifact_total: 47
@@ -278,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/screenshots/anomaly-detection-2026-06-20T172012.png
 security:

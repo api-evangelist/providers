@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -43,124 +43,204 @@ agentic_access:
   summary_line: 187 operations · 126 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AccountActivities API from Bridgit — 1 operation(s) for accountactivities.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The AccountActivities API from Bridgit — 1 operation(s) for accountactivities.
   name: Bridgit AccountActivities API
   slug: bridgit-accountactivities-api
-- description: The AccountCertifications API from Bridgit — 2 operation(s) for accountcertifications.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The AccountCertifications API from Bridgit — 2 operation(s) for accountcertifications.
   name: Bridgit AccountCertifications API
   slug: bridgit-accountcertifications-api
-- description: The AccountGroupings API from Bridgit — 2 operation(s) for accountgroupings.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The AccountGroupings API from Bridgit — 2 operation(s) for accountgroupings.
   name: Bridgit AccountGroupings API
   slug: bridgit-accountgroupings-api
-- description: The AccountInvitations API from Bridgit — 2 operation(s) for accountinvitations.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The AccountInvitations API from Bridgit — 2 operation(s) for accountinvitations.
   name: Bridgit AccountInvitations API
   slug: bridgit-accountinvitations-api
-- description: The Accounts API from Bridgit — 12 operation(s) for accounts.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Bridgit — 12 operation(s) for accounts.
   name: Bridgit Accounts API
   slug: bridgit-accounts-api
-- description: The AccountUsers API from Bridgit — 4 operation(s) for accountusers.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The AccountUsers API from Bridgit — 4 operation(s) for accountusers.
   name: Bridgit AccountUsers API
   slug: bridgit-accountusers-api
-- description: The Allocations API from Bridgit — 1 operation(s) for allocations.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Allocations API from Bridgit — 1 operation(s) for allocations.
   name: Bridgit Allocations API
   slug: bridgit-allocations-api
-- description: The ExperienceFields API from Bridgit — 3 operation(s) for experiencefields.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ExperienceFields API from Bridgit — 3 operation(s) for experiencefields.
   name: Bridgit ExperienceFields API
   slug: bridgit-experiencefields-api
-- description: The ExperienceFieldValues API from Bridgit — 2 operation(s) for experiencefieldvalues.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ExperienceFieldValues API from Bridgit — 2 operation(s) for experiencefieldvalues.
   name: Bridgit ExperienceFieldValues API
   slug: bridgit-experiencefieldvalues-api
-- description: The External API from Bridgit — 3 operation(s) for external.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The External API from Bridgit — 3 operation(s) for external.
   name: Bridgit External API
   slug: bridgit-external-api
-- description: The HourlyAllocations API from Bridgit — 1 operation(s) for hourlyallocations.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The HourlyAllocations API from Bridgit — 1 operation(s) for hourlyallocations.
   name: Bridgit HourlyAllocations API
   slug: bridgit-hourlyallocations-api
-- description: The HourlyRoleNames API from Bridgit — 1 operation(s) for hourlyrolenames.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The HourlyRoleNames API from Bridgit — 1 operation(s) for hourlyrolenames.
   name: Bridgit HourlyRoleNames API
   slug: bridgit-hourlyrolenames-api
-- description: The PersonAttachments API from Bridgit — 2 operation(s) for personattachments.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonAttachments API from Bridgit — 2 operation(s) for personattachments.
   name: Bridgit PersonAttachments API
   slug: bridgit-personattachments-api
-- description: The PersonCertAttachments API from Bridgit — 2 operation(s) for personcertattachments.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonCertAttachments API from Bridgit — 2 operation(s) for personcertattachments.
   name: Bridgit PersonCertAttachments API
   slug: bridgit-personcertattachments-api
-- description: The PersonCertifications API from Bridgit — 2 operation(s) for personcertifications.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonCertifications API from Bridgit — 2 operation(s) for personcertifications.
   name: Bridgit PersonCertifications API
   slug: bridgit-personcertifications-api
-- description: The PersonFields API from Bridgit — 2 operation(s) for personfields.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonFields API from Bridgit — 2 operation(s) for personfields.
   name: Bridgit PersonFields API
   slug: bridgit-personfields-api
-- description: The PersonFieldValue API from Bridgit — 2 operation(s) for personfieldvalue.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonFieldValue API from Bridgit — 2 operation(s) for personfieldvalue.
   name: Bridgit PersonFieldValue API
   slug: bridgit-personfieldvalue-api
-- description: The PersonGroupings API from Bridgit — 2 operation(s) for persongroupings.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonGroupings API from Bridgit — 2 operation(s) for persongroupings.
   name: Bridgit PersonGroupings API
   slug: bridgit-persongroupings-api
-- description: The PersonHistoricalExperienceFields API from Bridgit — 2 operation(s) for personhistoricalexperiencefields.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonHistoricalExperienceFields API from Bridgit — 2 operation(s) for personhistoricalexperiencefields.
   name: Bridgit PersonHistoricalExperienceFields API
   slug: bridgit-personhistoricalexperiencefields-api
-- description: The PersonHistoricalExperiences API from Bridgit — 2 operation(s) for personhistoricalexperiences.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonHistoricalExperiences API from Bridgit — 2 operation(s) for personhistoricalexperiences.
   name: Bridgit PersonHistoricalExperiences API
   slug: bridgit-personhistoricalexperiences-api
-- description: The PersonProfile API from Bridgit — 1 operation(s) for personprofile.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonProfile API from Bridgit — 1 operation(s) for personprofile.
   name: Bridgit PersonProfile API
   slug: bridgit-personprofile-api
-- description: The Persons API from Bridgit — 11 operation(s) for persons.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Persons API from Bridgit — 11 operation(s) for persons.
   name: Bridgit Persons API
   slug: bridgit-persons-api
-- description: The PersonUnavailabilities API from Bridgit — 2 operation(s) for personunavailabilities.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The PersonUnavailabilities API from Bridgit — 2 operation(s) for personunavailabilities.
   name: Bridgit PersonUnavailabilities API
   slug: bridgit-personunavailabilities-api
-- description: The Phases API from Bridgit — 2 operation(s) for phases.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Phases API from Bridgit — 2 operation(s) for phases.
   name: Bridgit Phases API
   slug: bridgit-phases-api
-- description: The ProjectFields API from Bridgit — 2 operation(s) for projectfields.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectFields API from Bridgit — 2 operation(s) for projectfields.
   name: Bridgit ProjectFields API
   slug: bridgit-projectfields-api
-- description: The ProjectFieldValue API from Bridgit — 2 operation(s) for projectfieldvalue.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectFieldValue API from Bridgit — 2 operation(s) for projectfieldvalue.
   name: Bridgit ProjectFieldValue API
   slug: bridgit-projectfieldvalue-api
-- description: The ProjectGroupings API from Bridgit — 2 operation(s) for projectgroupings.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectGroupings API from Bridgit — 2 operation(s) for projectgroupings.
   name: Bridgit ProjectGroupings API
   slug: bridgit-projectgroupings-api
-- description: The ProjectNotes API from Bridgit — 2 operation(s) for projectnotes.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectNotes API from Bridgit — 2 operation(s) for projectnotes.
   name: Bridgit ProjectNotes API
   slug: bridgit-projectnotes-api
-- description: The ProjectRoleCategories API from Bridgit — 1 operation(s) for projectrolecategories.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectRoleCategories API from Bridgit — 1 operation(s) for projectrolecategories.
   name: Bridgit ProjectRoleCategories API
   slug: bridgit-projectrolecategories-api
-- description: The ProjectRoles API from Bridgit — 4 operation(s) for projectroles.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectRoles API from Bridgit — 4 operation(s) for projectroles.
   name: Bridgit ProjectRoles API
   slug: bridgit-projectroles-api
-- description: The Projects API from Bridgit — 4 operation(s) for projects.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Projects API from Bridgit — 4 operation(s) for projects.
   name: Bridgit Projects API
   slug: bridgit-projects-api
-- description: The ProjectsPhases API from Bridgit — 3 operation(s) for projectsphases.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectsPhases API from Bridgit — 3 operation(s) for projectsphases.
   name: Bridgit ProjectsPhases API
   slug: bridgit-projectsphases-api
-- description: The ProjectTasks API from Bridgit — 8 operation(s) for projecttasks.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectTasks API from Bridgit — 8 operation(s) for projecttasks.
   name: Bridgit ProjectTasks API
   slug: bridgit-projecttasks-api
-- description: The ProjectWorkforceSpendReports API from Bridgit — 2 operation(s) for projectworkforcespendreports.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ProjectWorkforceSpendReports API from Bridgit — 2 operation(s) for projectworkforcespendreports.
   name: Bridgit ProjectWorkforceSpendReports API
   slug: bridgit-projectworkforcespendreports-api
-- description: The RoleAllocations API from Bridgit — 1 operation(s) for roleallocations.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The RoleAllocations API from Bridgit — 1 operation(s) for roleallocations.
   name: Bridgit RoleAllocations API
   slug: bridgit-roleallocations-api
-- description: The RoleNames API from Bridgit — 1 operation(s) for rolenames.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The RoleNames API from Bridgit — 1 operation(s) for rolenames.
   name: Bridgit RoleNames API
   slug: bridgit-rolenames-api
-- description: The ServiceAccounts API from Bridgit — 3 operation(s) for serviceaccounts.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The ServiceAccounts API from Bridgit — 3 operation(s) for serviceaccounts.
   name: Bridgit ServiceAccounts API
   slug: bridgit-serviceaccounts-api
-- description: The SharedFilters API from Bridgit — 1 operation(s) for sharedfilters.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The SharedFilters API from Bridgit — 1 operation(s) for sharedfilters.
   name: Bridgit SharedFilters API
   slug: bridgit-sharedfilters-api
-- description: The UserFilters API from Bridgit — 2 operation(s) for userfilters.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The UserFilters API from Bridgit — 2 operation(s) for userfilters.
   name: Bridgit UserFilters API
   slug: bridgit-userfilters-api
-- description: The Users API from Bridgit — 1 operation(s) for users.
+- baseURL: https://bench.gobridgit.com/rp/api/v1
+  baseurl_source: declared
+  description: The Users API from Bridgit — 1 operation(s) for users.
   name: Bridgit Users API
   slug: bridgit-users-api
 artifact_total: 86
@@ -421,7 +501,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 12 acting
 api_count: 1
 apis:
-- description: The realtime sync transport - a persistent WebSocket at wss://api.instantdb.com/runtime/session over which the client Reactor sends init, add-query, transact, and presence ops and the server streams q
+- baseURL: wss://api.instantdb.com/runtime/session
+  baseurl_source: declared
+  description: The realtime sync transport - a persistent WebSocket at wss://api.instantdb.com/runtime/session over which the client Reactor sends init, add-query, transact, and presence ops and the server streams q
   name: InstantDB Realtime Sync API
   slug: instantdb-realtime-sync-api
-- description: Server-side authentication, tokens, and users.
+- baseURL: https://api.instantdb.com
+  baseurl_source: declared
+  description: Server-side authentication, tokens, and users.
   name: InstantDB Auth API
   slug: instantdb-auth-api
-- description: Room presence lookups.
+- baseURL: https://api.instantdb.com
+  baseurl_source: declared
+  description: Room presence lookups.
   name: InstantDB Presence API
   slug: instantdb-presence-api
-- description: InstaQL read queries.
+- baseURL: https://api.instantdb.com
+  baseurl_source: declared
+  description: InstaQL read queries.
   name: InstantDB Query API
   slug: instantdb-query-api
-- description: File upload, listing, and deletion.
+- baseURL: https://api.instantdb.com
+  baseurl_source: declared
+  description: File upload, listing, and deletion.
   name: InstantDB Storage API
   slug: instantdb-storage-api
-- description: InstaML transaction writes.
+- baseURL: https://api.instantdb.com
+  baseurl_source: declared
+  description: InstaML transaction writes.
   name: InstantDB Transactions API
   slug: instantdb-transactions-api
 artifact_total: 21
@@ -182,7 +194,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -192,7 +204,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 43.9
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/screenshots/instantdb-2026-06-20T183415.png
 security:

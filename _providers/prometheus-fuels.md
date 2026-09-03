@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The news-articles API from Prometheus Fuels — 10 operation(s) over the site's `news-articles` custom post type, the company's published press and news coverage. Read operations respond anonymously; wr
   name: Prometheus Fuels news-articles API
   slug: prometheus-fuels-news-articles-api
-- description: The pages API from Prometheus Fuels — 13 operation(s) for pages, including revisions and autosaves.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The pages API from Prometheus Fuels — 13 operation(s) for pages, including revisions and autosaves.
   name: Prometheus Fuels pages API
   slug: prometheus-fuels-pages-api
-- description: The posts API from Prometheus Fuels — 13 operation(s) for posts, including revisions and autosaves.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The posts API from Prometheus Fuels — 13 operation(s) for posts, including revisions and autosaves.
   name: Prometheus Fuels posts API
   slug: prometheus-fuels-posts-api
-- description: The media API from Prometheus Fuels — 9 operation(s) for the site's media library.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The media API from Prometheus Fuels — 9 operation(s) for the site's media library.
   name: Prometheus Fuels media API
   slug: prometheus-fuels-media-api
-- description: The categories API from Prometheus Fuels — 7 operation(s) for categories.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The categories API from Prometheus Fuels — 7 operation(s) for categories.
   name: Prometheus Fuels categories API
   slug: prometheus-fuels-categories-api
-- description: The tags API from Prometheus Fuels — 7 operation(s) for tags.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The tags API from Prometheus Fuels — 7 operation(s) for tags.
   name: Prometheus Fuels tags API
   slug: prometheus-fuels-tags-api
-- description: The comments API from Prometheus Fuels — 7 operation(s) for comments.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The comments API from Prometheus Fuels — 7 operation(s) for comments.
   name: Prometheus Fuels comments API
   slug: prometheus-fuels-comments-api
-- description: The users API from Prometheus Fuels — 21 operation(s) for users and application-password management. The collection read is anonymous; everything else requires authentication.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The users API from Prometheus Fuels — 21 operation(s) for users and application-password management. The collection read is anonymous; everything else requires authentication.
   name: Prometheus Fuels users API
   slug: prometheus-fuels-users-api
-- description: The search API from Prometheus Fuels — 1 operation for cross-type site search.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The search API from Prometheus Fuels — 1 operation for cross-type site search.
   name: Prometheus Fuels search API
   slug: prometheus-fuels-search-api
-- description: The taxonomies API from Prometheus Fuels — 2 operation(s) describing the site's taxonomies.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Prometheus Fuels — 2 operation(s) describing the site's taxonomies.
   name: Prometheus Fuels taxonomies API
   slug: prometheus-fuels-taxonomies-api
-- description: The types API from Prometheus Fuels — 2 operation(s) describing the site's content types.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The types API from Prometheus Fuels — 2 operation(s) describing the site's content types.
   name: Prometheus Fuels types API
   slug: prometheus-fuels-types-api
-- description: The statuses API from Prometheus Fuels — 2 operation(s) describing publication statuses.
+- baseURL: https://prometheusfuels.ai/wp-json
+  baseurl_source: declared
+  description: The statuses API from Prometheus Fuels — 2 operation(s) describing publication statuses.
   name: Prometheus Fuels statuses API
   slug: prometheus-fuels-statuses-api
 artifact_total: 28
@@ -202,7 +237,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -233,8 +268,9 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus-fuels/refs/heads/main/screenshots/prometheus-fuels-2026-09-02T152142.png
 security:
 - kind: authentication
   name: Prometheus Fuels Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 24 operations · 3 acting
 api_count: 11
 apis:
-- description: Wiktionary-specific structured multilingual definition endpoint
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Wiktionary-specific structured multilingual definition endpoint
   name: Wiktionary Definition API
   slug: wiktionary-definition-api
-- description: action=expandtemplates — Expand wikitext templates server-side
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: action=expandtemplates — Expand wikitext templates server-side
   name: Wiktionary ExpandTemplates API
   slug: wiktionary-expandtemplates-api
-- description: File and media metadata
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: File and media metadata
   name: Wiktionary File API
   slug: wiktionary-file-api
-- description: Page history and revision details
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Page history and revision details
   name: Wiktionary History API
   slug: wiktionary-history-api
-- description: action=opensearch — OpenSearch suggestions protocol
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: action=opensearch — OpenSearch suggestions protocol
   name: Wiktionary OpenSearch API
   slug: wiktionary-opensearch-api
-- description: Page content, source, and HTML
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Page content, source, and HTML
   name: Wiktionary Page API
   slug: wiktionary-page-api
-- description: Page HTML, summary, title metadata, and mobile-optimised HTML
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Page HTML, summary, title metadata, and mobile-optimised HTML
   name: Wiktionary Page Content API
   slug: wiktionary-page-content-api
-- description: action=parse — Render wikitext to HTML and parse section trees
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: action=parse — Render wikitext to HTML and parse section trees
   name: Wiktionary Parse API
   slug: wiktionary-parse-api
-- description: action=query — Fetch wikitext, extracts, revisions, and search results
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: action=query — Fetch wikitext, extracts, revisions, and search results
   name: Wiktionary Query API
   slug: wiktionary-query-api
-- description: Title-prefix and full-text search
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Title-prefix and full-text search
   name: Wiktionary Search API
   slug: wiktionary-search-api
-- description: Parsoid wikitext ↔ HTML transforms and lint
+- baseURL: https://en.wiktionary.org/w/api.php
+  baseurl_source: declared
+  description: Parsoid wikitext ↔ HTML transforms and lint
   name: Wiktionary Transform API
   slug: wiktionary-transform-api
 artifact_total: 166
@@ -730,7 +752,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:

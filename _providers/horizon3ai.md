@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The NodeZero API is a publicly accessible GraphQL API that exposes a subset of the Horizon3.ai Portal: schedule and control autonomous pentest operations, and read pentests, ops, weaknesses, attack pa'
@@ -219,7 +219,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -229,13 +229,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.3
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon3ai/refs/heads/main/screenshots/horizon3ai-2026-07-25T221429.png
 security:

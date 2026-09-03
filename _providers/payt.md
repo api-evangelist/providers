@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 54 operations · 23 acting
 api_count: 1
 apis:
-- description: Operations about administrations
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about administrations
   name: Payt administrations API
   slug: payt-administrations-api
-- description: Operations about companies
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about companies
   name: Payt companies API
   slug: payt-companies-api
-- description: Operations about contacts
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about contacts
   name: Payt contacts API
   slug: payt-contacts-api
-- description: Operations about credit_cases
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about credit_cases
   name: Payt credit_cases API
   slug: payt-credit-cases-api
-- description: Operations about debtors
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about debtors
   name: Payt debtors API
   slug: payt-debtors-api
-- description: Operations about files
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about files
   name: Payt files API
   slug: payt-files-api
-- description: Operations about invoices
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about invoices
   name: Payt invoices API
   slug: payt-invoices-api
-- description: Operations about messages
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about messages
   name: Payt messages API
   slug: payt-messages-api
-- description: Operations about notes
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about notes
   name: Payt notes API
   slug: payt-notes-api
-- description: Operations about notifications
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about notifications
   name: Payt notifications API
   slug: payt-notifications-api
-- description: Operations about order_lines
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about order_lines
   name: Payt order_lines API
   slug: payt-order-lines-api
-- description: Operations about orders
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about orders
   name: Payt orders API
   slug: payt-orders-api
-- description: Operations about payment_conditions
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about payment_conditions
   name: Payt payment_conditions API
   slug: payt-payment-conditions-api
-- description: Operations about payment_plans
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about payment_plans
   name: Payt payment_plans API
   slug: payt-payment-plans-api
-- description: Operations about payments
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about payments
   name: Payt payments API
   slug: payt-payments-api
-- description: Operations about psp_mandates
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about psp_mandates
   name: Payt psp_mandates API
   slug: payt-psp-mandates-api
-- description: Operations about psp_transactions
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about psp_transactions
   name: Payt psp_transactions API
   slug: payt-psp-transactions-api
-- description: Operations about sign_ups
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about sign_ups
   name: Payt sign_up API
   slug: payt-sign-up-api
-- description: Operations about tasks
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about tasks
   name: Payt tasks API
   slug: payt-tasks-api
-- description: Operations about vat_rates
+- baseURL: https://api.paytsoftware.com
+  baseurl_source: declared
+  description: Operations about vat_rates
   name: Payt vat_rates API
   slug: payt-vat-rates-api
 artifact_total: 46
@@ -319,7 +359,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -329,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 48.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,7 +387,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: Python library that provides a convenient wrapper for the Tableau Server REST API for automation and integration workflows.
   name: Tableau Server Client (Python)
   slug: server-client-python
-- description: Sign in and sign out operations.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Sign in and sign out operations.
   name: Tableau Desktop Authentication API
   slug: tableau-desktop-authentication-api
-- description: Manage and refresh published data sources.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Manage and refresh published data sources.
   name: Tableau Desktop Data Sources API
   slug: tableau-desktop-data-sources-api
-- description: Manage projects on a site.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Manage projects on a site.
   name: Tableau Desktop Projects API
   slug: tableau-desktop-projects-api
-- description: Server information.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Server information.
   name: Tableau Desktop Server API
   slug: tableau-desktop-server-api
-- description: Manage Tableau sites.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Manage Tableau sites.
   name: Tableau Desktop Sites API
   slug: tableau-desktop-sites-api
-- description: Manage users on a site.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Manage users on a site.
   name: Tableau Desktop Users API
   slug: tableau-desktop-users-api
-- description: Manage and download workbooks.
+- baseURL: https://tableau-server/api/3.22
+  baseurl_source: declared
+  description: Manage and download workbooks.
   name: Tableau Desktop Workbooks API
   slug: tableau-desktop-workbooks-api
 artifact_total: 45
@@ -259,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/screenshots/tableau-desktop-2026-06-20T194845.png
 security:

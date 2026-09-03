@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: REST API for managing Foundry projects, hubs, model deployments, agents, threads, runs, and evaluations. Authentication uses Microsoft Entra ID OAuth 2.0 bearer tokens (or API keys for inference endpo
   name: Azure AI Foundry REST API
   slug: foundry-api
-- description: Chat-formatted text generation
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Chat-formatted text generation
   name: Microsoft Azure AI Foundry Chat Completions API
   slug: azure-ai-foundry-chat-completions-api
-- description: Plain text completions
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Plain text completions
   name: Microsoft Azure AI Foundry Completions API
   slug: azure-ai-foundry-completions-api
-- description: Vector embeddings for text
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Vector embeddings for text
   name: Microsoft Azure AI Foundry Embeddings API
   slug: azure-ai-foundry-embeddings-api
-- description: Image generation
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Image generation
   name: Microsoft Azure AI Foundry Images API
   slug: azure-ai-foundry-images-api
-- description: Model and deployment metadata
+- baseURL: https://{your-resource-name}.services.ai.azure.com
+  baseurl_source: declared
+  description: Model and deployment metadata
   name: Microsoft Azure AI Foundry Models API
   slug: azure-ai-foundry-models-api
 artifact_total: 18
@@ -178,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/screenshots/azure-ai-foundry-2026-06-20T172847.png
 security:

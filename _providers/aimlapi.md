@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -45,37 +45,59 @@ agentic_access:
   summary_line: 21 operations · 14 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: '## **Creating an API Key** To create a new API key Sign-ip to [app.aimlapi.com](https://app.aimlapi.com), navigate to Key Management page and create an API Key Note that your Keys only work with an Ac'
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: '## **Creating an API Key** To create a new API key Sign-ip to [app.aimlapi.com](https://app.aimlapi.com), navigate to Key Management page and create an API Key Note that your Keys only work with an Ac'
   name: AIMLAPI API Key Management API
   slug: aimlapi-api-key-management-api
-- description: The Assistants API from AIMLAPI — 2 operation(s) for assistants.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Assistants API from AIMLAPI — 2 operation(s) for assistants.
   name: AIMLAPI Assistants API
   slug: aimlapi-assistants-api
-- description: The Chat API from AIMLAPI — 1 operation(s) for chat.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Chat API from AIMLAPI — 1 operation(s) for chat.
   name: AIMLAPI Chat API
   slug: aimlapi-chat-api
-- description: Given a prompt and/or an input image, the model will generate a new image.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: Given a prompt and/or an input image, the model will generate a new image.
   name: AIMLAPI Images API
   slug: aimlapi-images-api
-- description: List and describe the various models available in the API. You can refer to the [Models](https://aimlapi.com/models) documentation to understand what models are available and the differences between t
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: List and describe the various models available in the API. You can refer to the [Models](https://aimlapi.com/models) documentation to understand what models are available and the differences between t
   name: AIMLAPI Models API
   slug: aimlapi-models-api
-- description: The Threads API from AIMLAPI — 1 operation(s) for threads.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Threads API from AIMLAPI — 1 operation(s) for threads.
   name: AIMLAPI Threads API
   slug: aimlapi-threads-api
-- description: The Threads > Messages API from AIMLAPI — 2 operation(s) for threads > messages.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Threads > Messages API from AIMLAPI — 2 operation(s) for threads > messages.
   name: AIMLAPI Threads > Messages API
   slug: aimlapi-threads-messages-api
-- description: The Threads > Runs API from AIMLAPI — 2 operation(s) for threads > runs.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Threads > Runs API from AIMLAPI — 2 operation(s) for threads > runs.
   name: AIMLAPI Threads > Runs API
   slug: aimlapi-threads-runs-api
-- description: The Voice API from AIMLAPI — 2 operation(s) for voice.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The Voice API from AIMLAPI — 2 operation(s) for voice.
   name: AIMLAPI Voice API
   slug: aimlapi-voice-api
-- description: The [WIP] Completions API from AIMLAPI — 1 operation(s) for [wip] completions.
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: The [WIP] Completions API from AIMLAPI — 1 operation(s) for [wip] completions.
   name: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
-- description: 'AI/ML API''s own published OpenAPI, served from the API host at https://api.aimlapi.com/docs-yaml and rendered at https://api.aimlapi.com/docs. 19 operations across 16 paths covering chat completions, '
+- baseURL: https://api.aimlapi.com
+  baseurl_source: declared
+  description: 'AI/ML API''s own published OpenAPI, served from the API host at https://api.aimlapi.com/docs-yaml and rendered at https://api.aimlapi.com/docs. 19 operations across 16 paths covering chat completions, '
   name: AIMLAPI Inference API
   slug: aimlapi-inference-api
 - description: AI/ML API's first-party remote Model Context Protocol server at https://mcp.aimlapi.com/mcp — Streamable HTTP with OAuth 2.1, PKCE and dynamic client registration, so no API key is pasted into the cli
@@ -468,7 +490,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.5
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -478,7 +500,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 65.8
-  previous_composite: 59.7
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -490,8 +512,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:
 - kind: authentication

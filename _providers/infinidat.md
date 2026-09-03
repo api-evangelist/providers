@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The components API from Infinidat — 7 operation(s) for components.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The components API from Infinidat — 7 operation(s) for components.
   name: Infinidat Components API
   slug: infinidat-components-api
-- description: The config API from Infinidat — 11 operation(s) for config.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The config API from Infinidat — 11 operation(s) for config.
   name: Infinidat Config API
   slug: infinidat-config-api
-- description: The filesystems API from Infinidat — 2 operation(s) for filesystems.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The filesystems API from Infinidat — 2 operation(s) for filesystems.
   name: Infinidat Filesystems API
   slug: infinidat-filesystems-api
-- description: The hosts API from Infinidat — 1 operation(s) for hosts.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The hosts API from Infinidat — 1 operation(s) for hosts.
   name: Infinidat Hosts API
   slug: infinidat-hosts-api
-- description: The metadata API from Infinidat — 2 operation(s) for metadata.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The metadata API from Infinidat — 2 operation(s) for metadata.
   name: Infinidat Metadata API
   slug: infinidat-metadata-api
-- description: The pools API from Infinidat — 1 operation(s) for pools.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The pools API from Infinidat — 1 operation(s) for pools.
   name: Infinidat Pools API
   slug: infinidat-pools-api
-- description: The system API from Infinidat — 12 operation(s) for system.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The system API from Infinidat — 12 operation(s) for system.
   name: Infinidat System API
   slug: infinidat-system-api
-- description: The users API from Infinidat — 2 operation(s) for users.
+- baseURL: https://{infinibox_host}/api/rest
+  baseurl_source: declared
+  description: The users API from Infinidat — 2 operation(s) for users.
   name: Infinidat Users API
   slug: infinidat-users-api
 artifact_total: 12
@@ -192,7 +219,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -202,7 +229,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 43.0
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +240,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinidat/refs/heads/main/screenshots/infinidat-2026-08-07T170658.png
 security:
 - kind: authentication

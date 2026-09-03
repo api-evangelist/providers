@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Installment, interest and service-fee breakdown.
+- baseURL: https://sandbox.kredivo.com
+  baseurl_source: declared
+  description: Installment, interest and service-fee breakdown.
   name: Kredivo Calculator API
   slug: kredivo-calculator-api
-- description: Initiating a Kredivo installment checkout (2-click, 0-click, QR, EDC).
+- baseURL: https://sandbox.kredivo.com
+  baseurl_source: declared
+  description: Initiating a Kredivo installment checkout (2-click, 0-click, QR, EDC).
   name: Kredivo Checkout API
   slug: kredivo-checkout-api
-- description: Confirming a transaction after a push notification.
+- baseURL: https://sandbox.kredivo.com
+  baseurl_source: declared
+  description: Confirming a transaction after a push notification.
   name: Kredivo Confirmation API
   slug: kredivo-confirmation-api
-- description: Managing tokenized (0-click) shoppers and their credit limits.
+- baseURL: https://sandbox.kredivo.com
+  baseurl_source: declared
+  description: Managing tokenized (0-click) shoppers and their credit limits.
   name: Kredivo Tokenization API
   slug: kredivo-tokenization-api
-- description: Status, cancellation and reversal of transactions.
+- baseURL: https://sandbox.kredivo.com
+  baseurl_source: declared
+  description: Status, cancellation and reversal of transactions.
   name: Kredivo Transactions API
   slug: kredivo-transactions-api
 artifact_total: 16
@@ -244,7 +254,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -254,7 +264,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 53.2
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -271,8 +281,8 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:
 - kind: authentication

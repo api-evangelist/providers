@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Manage custom augmentation data on a bookmark.
+- baseURL: https://api.portcast.io/api/v2/eta
+  baseurl_source: declared
+  description: Manage custom augmentation data on a bookmark.
   name: Portcast Augmentation API
   slug: portcast-augmentation-api
-- description: Container route, risks, and terminal data sub-APIs.
+- baseURL: https://api.portcast.io/api/v2/eta
+  baseurl_source: declared
+  description: Container route, risks, and terminal data sub-APIs.
   name: Portcast Container Detail API
   slug: portcast-container-detail-api
-- description: Supported carrier SCAC reference data.
+- baseURL: https://api.portcast.io/api/v2/eta
+  baseurl_source: declared
+  description: Supported carrier SCAC reference data.
   name: Portcast Reference API
   slug: portcast-reference-api
-- description: Retrieve tracking results, predicted ETA/ETD, and milestones.
+- baseURL: https://api.portcast.io/api/v2/eta
+  baseurl_source: declared
+  description: Retrieve tracking results, predicted ETA/ETD, and milestones.
   name: Portcast Tracking Data API
   slug: portcast-tracking-data-api
-- description: Start tracking an ocean shipment.
+- baseURL: https://api.portcast.io/api/v2/eta
+  baseurl_source: declared
+  description: Start tracking an ocean shipment.
   name: Portcast Tracking Upload API
   slug: portcast-tracking-upload-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/portcast/refs/heads/main/screenshots/portcast-2026-09-02T151804.png
 security:
 - kind: authentication
   name: Portcast Authentication

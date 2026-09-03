@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,61 +47,99 @@ apis:
 - description: The Uber Guest Rides API enables businesses to allow their users to request rides from Uber without requiring an Uber account. Uses OAuth 2.0 with the guest.rides scope for authentication.
   name: Uber Guest Rides API
   slug: uber-guest-rides
-- description: Voucher code generation and distribution
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Voucher code generation and distribution
   name: Uber Codes API
   slug: uber-codes-api
-- description: Delivery creation and management
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Delivery creation and management
   name: Uber Deliveries API
   slug: uber-deliveries-api
-- description: Price and time estimates for rides
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Price and time estimates for rides
   name: Uber Estimates API
   slug: uber-estimates-api
-- description: Business location management
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Business location management
   name: Uber Locations API
   slug: uber-locations-api
-- description: Menu items, modifiers, and pricing
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Menu items, modifiers, and pricing
   name: Uber Menus API
   slug: uber-menus-api
-- description: Eats order receipts
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Eats order receipts
   name: Uber Orders API
   slug: uber-orders-api
-- description: Organization and account management
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Organization and account management
   name: Uber Organizations API
   slug: uber-organizations-api
-- description: Driver partner profile and activity data
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Driver partner profile and activity data
   name: Uber Partners API
   slug: uber-partners-api
-- description: Saved rider locations
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Saved rider locations
   name: Uber Places API
   slug: uber-places-api
-- description: Uber product types available at a location
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Uber product types available at a location
   name: Uber Products API
   slug: uber-products-api
-- description: Voucher program management
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Voucher program management
   name: Uber Programs API
   slug: uber-programs-api
-- description: Voucher code redemption
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Voucher code redemption
   name: Uber Redemption API
   slug: uber-redemption-api
-- description: Delivery refund processing
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Delivery refund processing
   name: Uber Refunds API
   slug: uber-refunds-api
-- description: Analytics and performance metrics
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Analytics and performance metrics
   name: Uber Reporting API
   slug: uber-reporting-api
-- description: Ride request management
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Ride request management
   name: Uber Requests API
   slug: uber-requests-api
-- description: Rider profile and history
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Rider profile and history
   name: Uber Riders API
   slug: uber-riders-api
-- description: Store management and operational status
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Store management and operational status
   name: Uber Stores API
   slug: uber-stores-api
-- description: Voucher program templates
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Voucher program templates
   name: Uber Templates API
   slug: uber-templates-api
-- description: Business trip receipts and invoices
+- baseURL: https://api.uber.com/v1.2
+  baseurl_source: declared
+  description: Business trip receipts and invoices
   name: Uber Trips API
   slug: uber-trips-api
 artifact_total: 132
@@ -587,7 +625,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:

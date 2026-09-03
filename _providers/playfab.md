@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: The PlayFab Admin API is the privileged REST surface for studio and ops tooling. It covers title configuration, virtual currency catalogs, catalog items, store configuration, content (CDN) uploads, se
   name: PlayFab Admin API
   slug: playfab-admin-api
-- description: The PlayFab Authentication API issues and validates entity tokens used by the Entity Programming Model that underlies CloudScript using Azure Functions, Groups, Data, Profiles, Events, and Multiplayer
+- baseURL: https://titleId.playfabapi.com/Authentication
+  baseurl_source: declared
+  description: The PlayFab Authentication API issues and validates entity tokens used by the Entity Programming Model that underlies CloudScript using Azure Functions, Groups, Data, Profiles, Events, and Multiplayer
   name: PlayFab Authentication API
   slug: playfab-authentication-api
 - description: PlayFab CloudScript runs server-authoritative game logic in PlayFab. Modern CloudScript using Azure Functions registers Azure Function endpoints that can be invoked from clients or servers via Execute
@@ -86,10 +88,14 @@ apis:
 - description: The PlayFab Localization API returns the set of languages supported by the title and is used by clients to negotiate locale.
   name: PlayFab Localization API
   slug: playfab-localization-api
-- description: PlayFab account metadata.
+- baseURL: https://titleId.playfabapi.com/Client
+  baseurl_source: declared
+  description: PlayFab account metadata.
   name: PlayFab Account API
   slug: playfab-account-api
-- description: Login, registration, and identity provider sign-in.
+- baseURL: https://titleId.playfabapi.com/Client
+  baseurl_source: declared
+  description: Login, registration, and identity provider sign-in.
   name: PlayFab Authentication API
   slug: playfab-authentication-api
 artifact_total: 27
@@ -243,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/screenshots/playfab-2026-06-20T191806.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 35 operations · 12 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: User account management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: User account management
   name: Super Micro Computer Accounts API
   slug: super-micro-computer-accounts-api
-- description: Chassis management including power and thermal
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Chassis management including power and thermal
   name: Super Micro Computer Chassis API
   slug: super-micro-computer-chassis-api
-- description: Event subscription and notification management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Event subscription and notification management
   name: Super Micro Computer Event Service API
   slug: super-micro-computer-event-service-api
-- description: BMC manager configuration and management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: BMC manager configuration and management
   name: Super Micro Computer Managers API
   slug: super-micro-computer-managers-api
-- description: Network interface management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Network interface management
   name: Super Micro Computer Network API
   slug: super-micro-computer-network-api
-- description: Root service discovery and metadata
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Root service discovery and metadata
   name: Super Micro Computer Service Root API
   slug: super-micro-computer-service-root-api
-- description: Session authentication and management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Session authentication and management
   name: Super Micro Computer Sessions API
   slug: super-micro-computer-sessions-api
-- description: Storage controller and drive management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Storage controller and drive management
   name: Super Micro Computer Storage API
   slug: super-micro-computer-storage-api
-- description: Computer system management and health monitoring
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Computer system management and health monitoring
   name: Super Micro Computer Systems API
   slug: super-micro-computer-systems-api
-- description: Firmware and BIOS update management
+- baseURL: https://{bmc-ip}/redfish/v1
+  baseurl_source: declared
+  description: Firmware and BIOS update management
   name: Super Micro Computer Update Service API
   slug: super-micro-computer-update-service-api
 artifact_total: 36
@@ -271,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:

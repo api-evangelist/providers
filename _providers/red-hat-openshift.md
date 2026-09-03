@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -59,37 +59,59 @@ apis:
 - description: Red Hat OpenShift Service on AWS (ROSA) is a fully managed OpenShift service co-managed by Red Hat and AWS. The ROSA API, exposed through the OCM service, provides operations for creating and managing
   name: Red Hat OpenShift Service on AWS (ROSA) API
   slug: rosa-api
-- description: Manage cluster add-on installations
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Manage cluster add-on installations
   name: Red Hat OpenShift Add-ons API
   slug: red-hat-openshift-add-ons-api
-- description: Build and BuildConfig resources for source-to-image and Dockerfile builds
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Build and BuildConfig resources for source-to-image and Dockerfile builds
   name: Red Hat OpenShift Builds API
   slug: red-hat-openshift-builds-api
-- description: Manage OpenShift clusters across cloud providers
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Manage OpenShift clusters across cloud providers
   name: Red Hat OpenShift Clusters API
   slug: red-hat-openshift-clusters-api
-- description: DeploymentConfig resources for OpenShift-native deployment management
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: DeploymentConfig resources for OpenShift-native deployment management
   name: Red Hat OpenShift Deployment Configs API
   slug: red-hat-openshift-deployment-configs-api
-- description: Configure authentication providers for clusters
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Configure authentication providers for clusters
   name: Red Hat OpenShift Identity Providers API
   slug: red-hat-openshift-identity-providers-api
-- description: ImageStream and ImageStreamTag resources for container image management
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: ImageStream and ImageStreamTag resources for container image management
   name: Red Hat OpenShift Image Streams API
   slug: red-hat-openshift-image-streams-api
-- description: Manage compute node pools for clusters
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Manage compute node pools for clusters
   name: Red Hat OpenShift Machine Pools API
   slug: red-hat-openshift-machine-pools-api
-- description: OpenShift Project resources for multi-tenant workspace management
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: OpenShift Project resources for multi-tenant workspace management
   name: Red Hat OpenShift Projects API
   slug: red-hat-openshift-projects-api
-- description: Route resources for exposing services via HTTP/HTTPS hostnames
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Route resources for exposing services via HTTP/HTTPS hostnames
   name: Red Hat OpenShift Routes API
   slug: red-hat-openshift-routes-api
-- description: SCC resources for controlling pod security permissions
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: SCC resources for controlling pod security permissions
   name: Red Hat OpenShift Security Context Constraints API
   slug: red-hat-openshift-security-context-constraints-api
-- description: Query available OpenShift versions
+- baseURL: https://api.cluster.example.com:6443
+  baseurl_source: declared
+  description: Query available OpenShift versions
   name: Red Hat OpenShift Versions API
   slug: red-hat-openshift-versions-api
 artifact_total: 82
@@ -421,7 +443,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -431,7 +453,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -440,7 +462,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
 security:

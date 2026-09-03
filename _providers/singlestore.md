@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 29 operations · 16 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Upload, download, list, and delete files in the personal, shared, or models space within SingleStore Helios Spaces (stage storage).
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Upload, download, list, and delete files in the personal, shared, or models space within SingleStore Helios Spaces (stage storage).
   name: SingleStore Files API
   slug: singlestore-files-api
-- description: Health check operations for verifying connectivity to the Data API endpoint without requiring authentication credentials.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Health check operations for verifying connectivity to the Data API endpoint without requiring authentication credentials.
   name: SingleStore Health API
   slug: singlestore-health-api
-- description: Create, retrieve, list, and delete scheduled notebook jobs within SingleStore Helios. Jobs enable automated execution of notebooks on configurable schedules.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Create, retrieve, list, and delete scheduled notebook jobs within SingleStore Helios. Jobs enable automated execution of notebooks on configurable schedules.
   name: SingleStore Jobs API
   slug: singlestore-jobs-api
-- description: Retrieve information about the current user's organization within SingleStore Helios.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Retrieve information about the current user's organization within SingleStore Helios.
   name: SingleStore Organizations API
   slug: singlestore-organizations-api
-- description: Execute SQL statements against a SingleStore Helios workspace over HTTP. Supports DDL, DML, and SELECT statements returning results as JSON.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Execute SQL statements against a SingleStore Helios workspace over HTTP. Supports DDL, DML, and SELECT statements returning results as JSON.
   name: SingleStore Queries API
   slug: singlestore-queries-api
-- description: List available cloud provider regions that support workspace group creation, including shared tier regions.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: List available cloud provider regions that support workspace group creation, including shared tier regions.
   name: SingleStore Regions API
   slug: singlestore-regions-api
-- description: Manage organization-level secrets that can be referenced securely in notebooks and jobs without exposing plaintext credentials.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Manage organization-level secrets that can be referenced securely in notebooks and jobs without exposing plaintext credentials.
   name: SingleStore Secrets API
   slug: singlestore-secrets-api
-- description: Create, list, retrieve, update, and delete workspace groups within a SingleStore Helios organization. Workspace groups are logical containers that group workspaces by region and network configuration.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete workspace groups within a SingleStore Helios organization. Workspace groups are logical containers that group workspaces by region and network configuration.
   name: SingleStore WorkspaceGroups API
   slug: singlestore-workspacegroups-api
-- description: Create, list, retrieve, update, suspend, resume, and delete workspaces within a workspace group. Workspaces are the compute resources that connect to a SingleStore database.
+- baseURL: https://{workspaceHost}
+  baseurl_source: declared
+  description: Create, list, retrieve, update, suspend, resume, and delete workspaces within a workspace group. Workspaces are the compute resources that connect to a SingleStore database.
   name: SingleStore Workspaces API
   slug: singlestore-workspaces-api
 artifact_total: 45
@@ -285,7 +303,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -295,7 +313,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 44.3
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -304,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/screenshots/singlestore-2026-06-20T193949.png
 security:

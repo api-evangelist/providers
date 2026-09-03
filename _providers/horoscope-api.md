@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Horoscope predictions by zodiac sign
+- baseURL: https://freehoroscopeapi.com/api/v1
+  baseurl_source: declared
+  description: Horoscope predictions by zodiac sign
   name: Horoscope API Horoscope API
   slug: horoscope-api-horoscope-api
 artifact_total: 10
@@ -133,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/horoscope-api/refs/heads/main/screenshots/horoscope-api-2026-06-20T182833.png
 security:

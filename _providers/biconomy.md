@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: AbstractJS (@biconomy/abstractjs) is Biconomy's TypeScript-first SDK with a Viem-inspired API. Wraps the Supertransaction API and Nexus smart account operations, exposing createMeeClient, getQuote, ex
   name: Biconomy AbstractJS SDK
   slug: biconomy-abstractjs-sdk
-- description: The instructions API from Biconomy — 2 operation(s) for instructions.
+- baseURL: https://api.biconomy.io
+  baseurl_source: declared
+  description: The instructions API from Biconomy — 2 operation(s) for instructions.
   name: Biconomy instructions API
   slug: biconomy-instructions-api
-- description: The mee API from Biconomy — 1 operation(s) for mee.
+- baseURL: https://api.biconomy.io
+  baseurl_source: declared
+  description: The mee API from Biconomy — 1 operation(s) for mee.
   name: Biconomy mee API
   slug: biconomy-mee-api
-- description: The root API from Biconomy — 2 operation(s) for root.
+- baseURL: https://api.biconomy.io
+  baseurl_source: declared
+  description: The root API from Biconomy — 2 operation(s) for root.
   name: Biconomy root API
   slug: biconomy-root-api
 - description: GET /api/public/projects/me/supertransactions returns a project's full supertransaction history for reporting, reconciliation and gas-spend accounting. Each item carries the supertransaction hash, exe
@@ -514,7 +520,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
 security:

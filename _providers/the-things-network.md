@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -44,178 +44,294 @@ agentic_access:
   summary_line: 329 operations · 174 acting · 3 human-in-the-loop
 api_count: 9
 apis:
-- description: The AppAs API from The Things Network / The Things Stack — 8 operation(s) for appas.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The AppAs API from The Things Network / The Things Stack — 8 operation(s) for appas.
   name: The Things Network / The Things Stack AppAs API
   slug: the-things-network-appas-api
-- description: The ApplicationAccess API from The Things Network / The Things Stack — 9 operation(s) for applicationaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationAccess API from The Things Network / The Things Stack — 9 operation(s) for applicationaccess.
   name: The Things Network / The Things Stack ApplicationAccess API
   slug: the-things-network-applicationaccess-api
-- description: The ApplicationActivationSettingRegistry API from The Things Network / The Things Stack — 1 operation(s) for applicationactivationsettingregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationActivationSettingRegistry API from The Things Network / The Things Stack — 1 operation(s) for applicationactivationsettingregistry.
   name: The Things Network / The Things Stack ApplicationActivationSettingRegistry API
   slug: the-things-network-applicationactivationsettingregistry-api
-- description: The ApplicationPackageRegistry API from The Things Network / The Things Stack — 9 operation(s) for applicationpackageregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationPackageRegistry API from The Things Network / The Things Stack — 9 operation(s) for applicationpackageregistry.
   name: The Things Network / The Things Stack ApplicationPackageRegistry API
   slug: the-things-network-applicationpackageregistry-api
-- description: The ApplicationPubSubRegistry API from The Things Network / The Things Stack — 6 operation(s) for applicationpubsubregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationPubSubRegistry API from The Things Network / The Things Stack — 6 operation(s) for applicationpubsubregistry.
   name: The Things Network / The Things Stack ApplicationPubSubRegistry API
   slug: the-things-network-applicationpubsubregistry-api
-- description: The ApplicationRegistry API from The Things Network / The Things Stack — 9 operation(s) for applicationregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationRegistry API from The Things Network / The Things Stack — 9 operation(s) for applicationregistry.
   name: The Things Network / The Things Stack ApplicationRegistry API
   slug: the-things-network-applicationregistry-api
-- description: The ApplicationUpStorage API from The Things Network / The Things Stack — 4 operation(s) for applicationupstorage.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationUpStorage API from The Things Network / The Things Stack — 4 operation(s) for applicationupstorage.
   name: The Things Network / The Things Stack ApplicationUpStorage API
   slug: the-things-network-applicationupstorage-api
-- description: The ApplicationWebhookRegistry API from The Things Network / The Things Stack — 8 operation(s) for applicationwebhookregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ApplicationWebhookRegistry API from The Things Network / The Things Stack — 8 operation(s) for applicationwebhookregistry.
   name: The Things Network / The Things Stack ApplicationWebhookRegistry API
   slug: the-things-network-applicationwebhookregistry-api
-- description: The As API from The Things Network / The Things Stack — 4 operation(s) for as.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The As API from The Things Network / The Things Stack — 4 operation(s) for as.
   name: The Things Network / The Things Stack As API
   slug: the-things-network-as-api
-- description: The AsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for asenddevicebatchregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The AsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for asenddevicebatchregistry.
   name: The Things Network / The Things Stack AsEndDeviceBatchRegistry API
   slug: the-things-network-asenddevicebatchregistry-api
-- description: The AsEndDeviceRegistry API from The Things Network / The Things Stack — 4 operation(s) for asenddeviceregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The AsEndDeviceRegistry API from The Things Network / The Things Stack — 4 operation(s) for asenddeviceregistry.
   name: The Things Network / The Things Stack AsEndDeviceRegistry API
   slug: the-things-network-asenddeviceregistry-api
-- description: The ClientAccess API from The Things Network / The Things Stack — 6 operation(s) for clientaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ClientAccess API from The Things Network / The Things Stack — 6 operation(s) for clientaccess.
   name: The Things Network / The Things Stack ClientAccess API
   slug: the-things-network-clientaccess-api
-- description: The ClientRegistry API from The Things Network / The Things Stack — 8 operation(s) for clientregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ClientRegistry API from The Things Network / The Things Stack — 8 operation(s) for clientregistry.
   name: The Things Network / The Things Stack ClientRegistry API
   slug: the-things-network-clientregistry-api
-- description: The Configuration API from The Things Network / The Things Stack — 5 operation(s) for configuration.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Configuration API from The Things Network / The Things Stack — 5 operation(s) for configuration.
   name: The Things Network / The Things Stack Configuration API
   slug: the-things-network-configuration-api
-- description: The ContactInfoRegistry API from The Things Network / The Things Stack — 1 operation(s) for contactinforegistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ContactInfoRegistry API from The Things Network / The Things Stack — 1 operation(s) for contactinforegistry.
   name: The Things Network / The Things Stack ContactInfoRegistry API
   slug: the-things-network-contactinforegistry-api
-- description: The DeviceRepository API from The Things Network / The Things Stack — 20 operation(s) for devicerepository.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The DeviceRepository API from The Things Network / The Things Stack — 20 operation(s) for devicerepository.
   name: The Things Network / The Things Stack DeviceRepository API
   slug: the-things-network-devicerepository-api
-- description: The EmailValidationRegistry API from The Things Network / The Things Stack — 1 operation(s) for emailvalidationregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EmailValidationRegistry API from The Things Network / The Things Stack — 1 operation(s) for emailvalidationregistry.
   name: The Things Network / The Things Stack EmailValidationRegistry API
   slug: the-things-network-emailvalidationregistry-api
-- description: The EndDeviceBatchClaimingServer API from The Things Network / The Things Stack — 2 operation(s) for enddevicebatchclaimingserver.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceBatchClaimingServer API from The Things Network / The Things Stack — 2 operation(s) for enddevicebatchclaimingserver.
   name: The Things Network / The Things Stack EndDeviceBatchClaimingServer API
   slug: the-things-network-enddevicebatchclaimingserver-api
-- description: The EndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for enddevicebatchregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for enddevicebatchregistry.
   name: The Things Network / The Things Stack EndDeviceBatchRegistry API
   slug: the-things-network-enddevicebatchregistry-api
-- description: The EndDeviceClaimingServer API from The Things Network / The Things Stack — 5 operation(s) for enddeviceclaimingserver.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceClaimingServer API from The Things Network / The Things Stack — 5 operation(s) for enddeviceclaimingserver.
   name: The Things Network / The Things Stack EndDeviceClaimingServer API
   slug: the-things-network-enddeviceclaimingserver-api
-- description: The EndDeviceQRCodeGenerator API from The Things Network / The Things Stack — 5 operation(s) for enddeviceqrcodegenerator.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceQRCodeGenerator API from The Things Network / The Things Stack — 5 operation(s) for enddeviceqrcodegenerator.
   name: The Things Network / The Things Stack EndDeviceQRCodeGenerator API
   slug: the-things-network-enddeviceqrcodegenerator-api
-- description: The EndDeviceRegistry API from The Things Network / The Things Stack — 7 operation(s) for enddeviceregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceRegistry API from The Things Network / The Things Stack — 7 operation(s) for enddeviceregistry.
   name: The Things Network / The Things Stack EndDeviceRegistry API
   slug: the-things-network-enddeviceregistry-api
-- description: The EndDeviceRegistrySearch API from The Things Network / The Things Stack — 1 operation(s) for enddeviceregistrysearch.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceRegistrySearch API from The Things Network / The Things Stack — 1 operation(s) for enddeviceregistrysearch.
   name: The Things Network / The Things Stack EndDeviceRegistrySearch API
   slug: the-things-network-enddeviceregistrysearch-api
-- description: The EndDeviceTemplateConverter API from The Things Network / The Things Stack — 2 operation(s) for enddevicetemplateconverter.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EndDeviceTemplateConverter API from The Things Network / The Things Stack — 2 operation(s) for enddevicetemplateconverter.
   name: The Things Network / The Things Stack EndDeviceTemplateConverter API
   slug: the-things-network-enddevicetemplateconverter-api
-- description: The EntityAccess API from The Things Network / The Things Stack — 1 operation(s) for entityaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EntityAccess API from The Things Network / The Things Stack — 1 operation(s) for entityaccess.
   name: The Things Network / The Things Stack EntityAccess API
   slug: the-things-network-entityaccess-api
-- description: The EntityRegistrySearch API from The Things Network / The Things Stack — 10 operation(s) for entityregistrysearch.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The EntityRegistrySearch API from The Things Network / The Things Stack — 10 operation(s) for entityregistrysearch.
   name: The Things Network / The Things Stack EntityRegistrySearch API
   slug: the-things-network-entityregistrysearch-api
-- description: The Events API from The Things Network / The Things Stack — 2 operation(s) for events.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Events API from The Things Network / The Things Stack — 2 operation(s) for events.
   name: The Things Network / The Things Stack Events API
   slug: the-things-network-events-api
-- description: The GatewayAccess API from The Things Network / The Things Stack — 9 operation(s) for gatewayaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayAccess API from The Things Network / The Things Stack — 9 operation(s) for gatewayaccess.
   name: The Things Network / The Things Stack GatewayAccess API
   slug: the-things-network-gatewayaccess-api
-- description: The GatewayBatchAccess API from The Things Network / The Things Stack — 1 operation(s) for gatewaybatchaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayBatchAccess API from The Things Network / The Things Stack — 1 operation(s) for gatewaybatchaccess.
   name: The Things Network / The Things Stack GatewayBatchAccess API
   slug: the-things-network-gatewaybatchaccess-api
-- description: The GatewayBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for gatewaybatchregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for gatewaybatchregistry.
   name: The Things Network / The Things Stack GatewayBatchRegistry API
   slug: the-things-network-gatewaybatchregistry-api
-- description: The GatewayClaimingServer API from The Things Network / The Things Stack — 5 operation(s) for gatewayclaimingserver.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayClaimingServer API from The Things Network / The Things Stack — 5 operation(s) for gatewayclaimingserver.
   name: The Things Network / The Things Stack GatewayClaimingServer API
   slug: the-things-network-gatewayclaimingserver-api
-- description: The GatewayConfigurationService API from The Things Network / The Things Stack — 2 operation(s) for gatewayconfigurationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayConfigurationService API from The Things Network / The Things Stack — 2 operation(s) for gatewayconfigurationservice.
   name: The Things Network / The Things Stack GatewayConfigurationService API
   slug: the-things-network-gatewayconfigurationservice-api
-- description: The GatewayQRCodeGenerator API from The Things Network / The Things Stack — 2 operation(s) for gatewayqrcodegenerator.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayQRCodeGenerator API from The Things Network / The Things Stack — 2 operation(s) for gatewayqrcodegenerator.
   name: The Things Network / The Things Stack GatewayQRCodeGenerator API
   slug: the-things-network-gatewayqrcodegenerator-api
-- description: The GatewayRegistry API from The Things Network / The Things Stack — 9 operation(s) for gatewayregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GatewayRegistry API from The Things Network / The Things Stack — 9 operation(s) for gatewayregistry.
   name: The Things Network / The Things Stack GatewayRegistry API
   slug: the-things-network-gatewayregistry-api
-- description: The Gs API from The Things Network / The Things Stack — 2 operation(s) for gs.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Gs API from The Things Network / The Things Stack — 2 operation(s) for gs.
   name: The Things Network / The Things Stack Gs API
   slug: the-things-network-gs-api
-- description: The GtwGs API from The Things Network / The Things Stack — 2 operation(s) for gtwgs.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The GtwGs API from The Things Network / The Things Stack — 2 operation(s) for gtwgs.
   name: The Things Network / The Things Stack GtwGs API
   slug: the-things-network-gtwgs-api
-- description: The Is API from The Things Network / The Things Stack — 1 operation(s) for is.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Is API from The Things Network / The Things Stack — 1 operation(s) for is.
   name: The Things Network / The Things Stack Is API
   slug: the-things-network-is-api
-- description: The Js API from The Things Network / The Things Stack — 2 operation(s) for js.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Js API from The Things Network / The Things Stack — 2 operation(s) for js.
   name: The Things Network / The Things Stack Js API
   slug: the-things-network-js-api
-- description: The JsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for jsenddevicebatchregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The JsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 1 operation(s) for jsenddevicebatchregistry.
   name: The Things Network / The Things Stack JsEndDeviceBatchRegistry API
   slug: the-things-network-jsenddevicebatchregistry-api
-- description: The JsEndDeviceRegistry API from The Things Network / The Things Stack — 5 operation(s) for jsenddeviceregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The JsEndDeviceRegistry API from The Things Network / The Things Stack — 5 operation(s) for jsenddeviceregistry.
   name: The Things Network / The Things Stack JsEndDeviceRegistry API
   slug: the-things-network-jsenddeviceregistry-api
-- description: The ManagedGatewayConfigurationService API from The Things Network / The Things Stack — 4 operation(s) for managedgatewayconfigurationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ManagedGatewayConfigurationService API from The Things Network / The Things Stack — 4 operation(s) for managedgatewayconfigurationservice.
   name: The Things Network / The Things Stack ManagedGatewayConfigurationService API
   slug: the-things-network-managedgatewayconfigurationservice-api
-- description: The ManagedGatewayEthernetProfileConfigurationService API from The Things Network / The Things Stack — 6 operation(s) for managedgatewayethernetprofileconfigurationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ManagedGatewayEthernetProfileConfigurationService API from The Things Network / The Things Stack — 6 operation(s) for managedgatewayethernetprofileconfigurationservice.
   name: The Things Network / The Things Stack ManagedGatewayEthernetProfileConfigurationService API
   slug: the-things-network-managedgatewayethernetprofileconfigurationservice-api
-- description: The ManagedGatewayWiFiProfileConfigurationService API from The Things Network / The Things Stack — 6 operation(s) for managedgatewaywifiprofileconfigurationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The ManagedGatewayWiFiProfileConfigurationService API from The Things Network / The Things Stack — 6 operation(s) for managedgatewaywifiprofileconfigurationservice.
   name: The Things Network / The Things Stack ManagedGatewayWiFiProfileConfigurationService API
   slug: the-things-network-managedgatewaywifiprofileconfigurationservice-api
-- description: The NotificationService API from The Things Network / The Things Stack — 1 operation(s) for notificationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The NotificationService API from The Things Network / The Things Stack — 1 operation(s) for notificationservice.
   name: The Things Network / The Things Stack NotificationService API
   slug: the-things-network-notificationservice-api
-- description: The Ns API from The Things Network / The Things Stack — 4 operation(s) for ns.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Ns API from The Things Network / The Things Stack — 4 operation(s) for ns.
   name: The Things Network / The Things Stack Ns API
   slug: the-things-network-ns-api
-- description: The NsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 2 operation(s) for nsenddevicebatchregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The NsEndDeviceBatchRegistry API from The Things Network / The Things Stack — 2 operation(s) for nsenddevicebatchregistry.
   name: The Things Network / The Things Stack NsEndDeviceBatchRegistry API
   slug: the-things-network-nsenddevicebatchregistry-api
-- description: The NsEndDeviceRegistry API from The Things Network / The Things Stack — 4 operation(s) for nsenddeviceregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The NsEndDeviceRegistry API from The Things Network / The Things Stack — 4 operation(s) for nsenddeviceregistry.
   name: The Things Network / The Things Stack NsEndDeviceRegistry API
   slug: the-things-network-nsenddeviceregistry-api
-- description: The NsMACSettingsProfileRegistry API from The Things Network / The Things Stack — 3 operation(s) for nsmacsettingsprofileregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The NsMACSettingsProfileRegistry API from The Things Network / The Things Stack — 3 operation(s) for nsmacsettingsprofileregistry.
   name: The Things Network / The Things Stack NsMACSettingsProfileRegistry API
   slug: the-things-network-nsmacsettingsprofileregistry-api
-- description: The NsRelayConfigurationService API from The Things Network / The Things Stack — 4 operation(s) for nsrelayconfigurationservice.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The NsRelayConfigurationService API from The Things Network / The Things Stack — 4 operation(s) for nsrelayconfigurationservice.
   name: The Things Network / The Things Stack NsRelayConfigurationService API
   slug: the-things-network-nsrelayconfigurationservice-api
-- description: The OAuthAuthorizationRegistry API from The Things Network / The Things Stack — 4 operation(s) for oauthauthorizationregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The OAuthAuthorizationRegistry API from The Things Network / The Things Stack — 4 operation(s) for oauthauthorizationregistry.
   name: The Things Network / The Things Stack OAuthAuthorizationRegistry API
   slug: the-things-network-oauthauthorizationregistry-api
-- description: The OrganizationAccess API from The Things Network / The Things Stack — 7 operation(s) for organizationaccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The OrganizationAccess API from The Things Network / The Things Stack — 7 operation(s) for organizationaccess.
   name: The Things Network / The Things Stack OrganizationAccess API
   slug: the-things-network-organizationaccess-api
-- description: The OrganizationRegistry API from The Things Network / The Things Stack — 7 operation(s) for organizationregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The OrganizationRegistry API from The Things Network / The Things Stack — 7 operation(s) for organizationregistry.
   name: The Things Network / The Things Stack OrganizationRegistry API
   slug: the-things-network-organizationregistry-api
-- description: The Pba API from The Things Network / The Things Stack — 12 operation(s) for pba.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The Pba API from The Things Network / The Things Stack — 12 operation(s) for pba.
   name: The Things Network / The Things Stack Pba API
   slug: the-things-network-pba-api
-- description: The UserAccess API from The Things Network / The Things Stack — 5 operation(s) for useraccess.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The UserAccess API from The Things Network / The Things Stack — 5 operation(s) for useraccess.
   name: The Things Network / The Things Stack UserAccess API
   slug: the-things-network-useraccess-api
-- description: The UserBookmarkRegistry API from The Things Network / The Things Stack — 8 operation(s) for userbookmarkregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The UserBookmarkRegistry API from The Things Network / The Things Stack — 8 operation(s) for userbookmarkregistry.
   name: The Things Network / The Things Stack UserBookmarkRegistry API
   slug: the-things-network-userbookmarkregistry-api
-- description: The UserInvitationRegistry API from The Things Network / The Things Stack — 1 operation(s) for userinvitationregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The UserInvitationRegistry API from The Things Network / The Things Stack — 1 operation(s) for userinvitationregistry.
   name: The Things Network / The Things Stack UserInvitationRegistry API
   slug: the-things-network-userinvitationregistry-api
-- description: The UserRegistry API from The Things Network / The Things Stack — 8 operation(s) for userregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The UserRegistry API from The Things Network / The Things Stack — 8 operation(s) for userregistry.
   name: The Things Network / The Things Stack UserRegistry API
   slug: the-things-network-userregistry-api
-- description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
+- baseURL: https://eu1.cloud.thethings.network/api/v3
+  baseurl_source: declared
+  description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
   name: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
 artifact_total: 213
@@ -1125,7 +1241,7 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -1135,7 +1251,7 @@ score:
     discoverability: 72.2
     governance: 47.0
     operational_transparency: 92.1
-  previous_composite: 78.1
+  previous_composite: 76.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1147,7 +1263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:

@@ -35,52 +35,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The calendar API from Ritten — 2 operation(s) for calendar.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: The calendar API from Ritten — 2 operation(s) for calendar.
   name: Ritten Calendar API
   slug: ritten-calendar-api
-- description: Endpoints for accessing CRM cases (admissions pipeline).
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for accessing CRM cases (admissions pipeline).
   name: Ritten Cases API
   slug: ritten-cases-api
-- description: The contacts API from Ritten — 3 operation(s) for contacts.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: The contacts API from Ritten — 3 operation(s) for contacts.
   name: Ritten Contacts API
   slug: ritten-contacts-api
-- description: Endpoints for creating clinical encounters (visits) and discovering the encounter types they are created from.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for creating clinical encounters (visits) and discovering the encounter types they are created from.
   name: Ritten Encounters API
   slug: ritten-encounters-api
-- description: Endpoints for accessing clinic facilities (service locations).
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for accessing clinic facilities (service locations).
   name: Ritten Facilities API
   slug: ritten-facilities-api
-- description: Endpoints for accessing form definitions and form-related data.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for accessing form definitions and form-related data.
   name: Ritten Forms API
   slug: ritten-forms-api
-- description: Ritten provides insights and reporting endpoints for analytics and data export. These endpoints return various reports about admissions, discharges, census, billing, and CRM data. Most endpoints suppo
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Ritten provides insights and reporting endpoints for analytics and data export. These endpoints return various reports about admissions, discharges, census, billing, and CRM data. Most endpoints suppo
   name: Ritten Insights API
   slug: ritten-insights-api
-- description: The insurance API from Ritten — 2 operation(s) for insurance.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: The insurance API from Ritten — 2 operation(s) for insurance.
   name: Ritten Insurance API
   slug: ritten-insurance-api
-- description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
   name: Ritten OAUTH API
   slug: ritten-oauth-api
-- description: Endpoints for accessing CRM organizations and organization members. Requires CRM to be available for the target clinic (`X-Ritten-Tenant`). Integrations must be explicitly provisioned by Ritten for or
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for accessing CRM organizations and organization members. Requires CRM to be available for the target clinic (`X-Ritten-Tenant`). Integrations must be explicitly provisioned by Ritten for or
   name: Ritten Organizations API
   slug: ritten-organizations-api
-- description: The patients API from Ritten — 8 operation(s) for patients.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: The patients API from Ritten — 8 operation(s) for patients.
   name: Ritten Patients API
   slug: ritten-patients-api
-- description: Endpoints for creating, accessing, and managing clinic programs.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for creating, accessing, and managing clinic programs.
   name: Ritten Programs API
   slug: ritten-programs-api
-- description: Endpoints for accessing clinic tasks. Tasks linked to a client are only returned when the integration is authorized to read that client.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: Endpoints for accessing clinic tasks. Tasks linked to a client are only returned when the integration is authorized to read that client.
   name: Ritten Tasks API
   slug: ritten-tasks-api
-- description: The users API from Ritten — 6 operation(s) for users.
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: The users API from Ritten — 6 operation(s) for users.
   name: Ritten Users API
   slug: ritten-users-api
-- description: 'Ritten provides webhooks for various events that occur in the system. Integrating partners can subscribe to these events to receive real-time updates. Webhooks sent from Ritten are POST requests with '
+- baseURL: https://api.ritten.io/v1
+  baseurl_source: declared
+  description: 'Ritten provides webhooks for various events that occur in the system. Integrating partners can subscribe to these events to receive real-time updates. Webhooks sent from Ritten are POST requests with '
   name: Ritten Webhooks API
   slug: ritten-webhooks-api
 artifact_total: 20
@@ -226,7 +256,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -236,7 +266,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     contracts:
@@ -257,7 +287,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/screenshots/ritten-2026-08-17T081615.png
 security:

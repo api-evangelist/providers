@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -61,73 +74,119 @@ apis:
 - description: Quantum random number generation security chip and solution from SK Telecom, listed in the Authentication/Security category of the SK open API portal. Listed as a product rather than a documented REST
   name: SK Telecom QRNG
   slug: sk-telecom-qrng-api
-- description: The Apartment API from SK Telecom — 1 operation(s) for apartment.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Apartment API from SK Telecom — 1 operation(s) for apartment.
   name: SK Telecom Apartment API
   slug: sk-telecom-apartment-api
-- description: The Area Info API from SK Telecom — 1 operation(s) for area info.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Area Info API from SK Telecom — 1 operation(s) for area info.
   name: SK Telecom Area Info API
   slug: sk-telecom-area-info-api
-- description: The Company API from SK Telecom — 4 operation(s) for company.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Company API from SK Telecom — 4 operation(s) for company.
   name: SK Telecom Company API
   slug: sk-telecom-company-api
-- description: The Congestion API from SK Telecom — 6 operation(s) for congestion.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Congestion API from SK Telecom — 6 operation(s) for congestion.
   name: SK Telecom Congestion API
   slug: sk-telecom-congestion-api
-- description: The Detect API from SK Telecom — 1 operation(s) for detect.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Detect API from SK Telecom — 1 operation(s) for detect.
   name: SK Telecom Detect API
   slug: sk-telecom-detect-api
-- description: The Device API from SK Telecom — 2 operation(s) for device.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Device API from SK Telecom — 2 operation(s) for device.
   name: SK Telecom Device API
   slug: sk-telecom-device-api
-- description: The Face API from SK Telecom — 2 operation(s) for face.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Face API from SK Telecom — 2 operation(s) for face.
   name: SK Telecom Face API
   slug: sk-telecom-face-api
-- description: The Golf Swing Analyzer API from SK Telecom — 3 operation(s) for golf swing analyzer.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Golf Swing Analyzer API from SK Telecom — 3 operation(s) for golf swing analyzer.
   name: SK Telecom Golf Swing Analyzer API
   slug: sk-telecom-golf-swing-analyzer-api
-- description: The Group API from SK Telecom — 2 operation(s) for group.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Group API from SK Telecom — 2 operation(s) for group.
   name: SK Telecom Group API
   slug: sk-telecom-group-api
-- description: The Landmark API from SK Telecom — 1 operation(s) for landmark.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Landmark API from SK Telecom — 1 operation(s) for landmark.
   name: SK Telecom Landmark API
   slug: sk-telecom-landmark-api
-- description: The License Plate Recognizer API from SK Telecom — 1 operation(s) for license plate recognizer.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The License Plate Recognizer API from SK Telecom — 1 operation(s) for license plate recognizer.
   name: SK Telecom License Plate Recognizer API
   slug: sk-telecom-license-plate-recognizer-api
-- description: The Life style API from SK Telecom — 1 operation(s) for life style.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Life style API from SK Telecom — 1 operation(s) for life style.
   name: SK Telecom Life style API
   slug: sk-telecom-life-style-api
-- description: The Message API from SK Telecom — 1 operation(s) for message.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Message API from SK Telecom — 1 operation(s) for message.
   name: SK Telecom Message API
   slug: sk-telecom-message-api
-- description: The Place API from SK Telecom — 2 operation(s) for place.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Place API from SK Telecom — 2 operation(s) for place.
   name: SK Telecom Place API
   slug: sk-telecom-place-api
-- description: The Pose Estimation API from SK Telecom — 3 operation(s) for pose estimation.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Pose Estimation API from SK Telecom — 3 operation(s) for pose estimation.
   name: SK Telecom Pose Estimation API
   slug: sk-telecom-pose-estimation-api
-- description: The Recognize API from SK Telecom — 1 operation(s) for recognize.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Recognize API from SK Telecom — 1 operation(s) for recognize.
   name: SK Telecom Recognize API
   slug: sk-telecom-recognize-api
-- description: The Resident API from SK Telecom — 3 operation(s) for resident.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Resident API from SK Telecom — 3 operation(s) for resident.
   name: SK Telecom Resident API
   slug: sk-telecom-resident-api
-- description: The Segmentation API from SK Telecom — 1 operation(s) for segmentation.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Segmentation API from SK Telecom — 1 operation(s) for segmentation.
   name: SK Telecom Segmentation API
   slug: sk-telecom-segmentation-api
-- description: The Statistics API from SK Telecom — 3 operation(s) for statistics.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Statistics API from SK Telecom — 3 operation(s) for statistics.
   name: SK Telecom Statistics API
   slug: sk-telecom-statistics-api
-- description: The Subject API from SK Telecom — 2 operation(s) for subject.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Subject API from SK Telecom — 2 operation(s) for subject.
   name: SK Telecom Subject API
   slug: sk-telecom-subject-api
-- description: The Tts API from SK Telecom — 1 operation(s) for tts.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Tts API from SK Telecom — 1 operation(s) for tts.
   name: SK Telecom Tts API
   slug: sk-telecom-tts-api
-- description: The Visit API from SK Telecom — 7 operation(s) for visit.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Visit API from SK Telecom — 7 operation(s) for visit.
   name: SK Telecom Visit API
   slug: sk-telecom-visit-api
-- description: The Voice API from SK Telecom — 1 operation(s) for voice.
+- baseURL: https://apis.openapi.sk.com/axtts
+  baseurl_source: declared
+  description: The Voice API from SK Telecom — 1 operation(s) for voice.
   name: SK Telecom Voice API
   slug: sk-telecom-voice-api
 artifact_total: 43
@@ -382,7 +441,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -392,7 +451,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.7
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,7 +469,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/screenshots/sk-telecom-2026-08-17T081910.png
 security:

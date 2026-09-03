@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,22 +52,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for Mettle, letting card-based payment instrument issuers confirm whether funds are available on a customer's Mettle account. FAPI-secured with OAuth2
   name: Mettle Confirmation of Funds API
   slug: mettle-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Mettle ATM API
   slug: mettle-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Mettle BCA API
   slug: mettle-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Mettle Branch API
   slug: mettle-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Mettle CCC API
   slug: mettle-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Mettle PCA API
   slug: mettle-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.openbanking.prd-mettle.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Mettle SME API
   slug: mettle-sme-api
 artifact_total: 15
@@ -253,7 +265,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

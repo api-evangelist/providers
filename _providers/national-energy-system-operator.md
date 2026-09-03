@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Query tabular data with filters or PostgreSQL-style SQL.
+- baseURL: https://api.neso.energy/api/3/action/
+  baseurl_source: declared
+  description: Query tabular data with filters or PostgreSQL-style SQL.
   name: National Energy System Operator Datastore API
   slug: national-energy-system-operator-datastore-api
-- description: Discovery endpoints for organizations, datasets, and tags.
+- baseURL: https://api.neso.energy/api/3/action/
+  baseurl_source: declared
+  description: Discovery endpoints for organizations, datasets, and tags.
   name: National Energy System Operator Discovery API
   slug: national-energy-system-operator-discovery-api
-- description: Retrieve metadata for datasets and resources.
+- baseURL: https://api.neso.energy/api/3/action/
+  baseurl_source: declared
+  description: Retrieve metadata for datasets and resources.
   name: National Energy System Operator Metadata API
   slug: national-energy-system-operator-metadata-api
-- description: Search endpoints for datasets and resources.
+- baseURL: https://api.neso.energy/api/3/action/
+  baseurl_source: declared
+  description: Search endpoints for datasets and resources.
   name: National Energy System Operator Search API
   slug: national-energy-system-operator-search-api
 artifact_total: 16
@@ -162,7 +170,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-energy-system-operator/refs/heads/main/screenshots/national-energy-system-operator-2026-06-20T190011.png
 security:

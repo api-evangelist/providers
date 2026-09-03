@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -43,229 +43,379 @@ agentic_access:
   summary_line: 341 operations · 207 acting
 api_count: 2
 apis:
-- description: The Antibodies API from Cenevo — 2 operation(s) for antibodies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Antibodies API from Cenevo — 2 operation(s) for antibodies.
   name: Cenevo Antibodies API
   slug: cenevo-antibodies-api
-- description: The Attachments API from Cenevo — 2 operation(s) for attachments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Attachments API from Cenevo — 2 operation(s) for attachments.
   name: Cenevo Attachments API
   slug: cenevo-attachments-api
-- description: The Authentication API from Cenevo — 1 operation(s) for authentication.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Cenevo — 1 operation(s) for authentication.
   name: Cenevo Authentication API
   slug: cenevo-authentication-api
-- description: The Bacteria API from Cenevo — 2 operation(s) for bacteria.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Bacteria API from Cenevo — 2 operation(s) for bacteria.
   name: Cenevo Bacteria API
   slug: cenevo-bacteria-api
-- description: The Boxes API from Cenevo — 2 operation(s) for boxes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Boxes API from Cenevo — 2 operation(s) for boxes.
   name: Cenevo Boxes API
   slug: cenevo-boxes-api
-- description: The Cell lines API from Cenevo — 2 operation(s) for cell lines.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Cell lines API from Cenevo — 2 operation(s) for cell lines.
   name: Cenevo Cell lines API
   slug: cenevo-cell-lines-api
-- description: The Comments API from Cenevo — 2 operation(s) for comments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Comments API from Cenevo — 2 operation(s) for comments.
   name: Cenevo Comments API
   slug: cenevo-comments-api
-- description: The Companies API from Cenevo — 2 operation(s) for companies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Companies API from Cenevo — 2 operation(s) for companies.
   name: Cenevo Companies API
   slug: cenevo-companies-api
-- description: The Compound Parent Structures API from Cenevo — 3 operation(s) for compound parent structures.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Compound Parent Structures API from Cenevo — 3 operation(s) for compound parent structures.
   name: Cenevo Compound Parent Structures API
   slug: cenevo-compound-parent-structures-api
-- description: The Compounds API from Cenevo — 2 operation(s) for compounds.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Compounds API from Cenevo — 2 operation(s) for compounds.
   name: Cenevo Compounds API
   slug: cenevo-compounds-api
-- description: The Consumables API from Cenevo — 2 operation(s) for consumables.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Consumables API from Cenevo — 2 operation(s) for consumables.
   name: Cenevo Consumables API
   slug: cenevo-consumables-api
-- description: The Datasets API from Cenevo — 2 operation(s) for datasets.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Datasets API from Cenevo — 2 operation(s) for datasets.
   name: Cenevo Datasets API
   slug: cenevo-datasets-api
-- description: The Documents API from Cenevo — 2 operation(s) for documents.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Documents API from Cenevo — 2 operation(s) for documents.
   name: Cenevo Documents API
   slug: cenevo-documents-api
-- description: The Elements API from Cenevo — 3 operation(s) for elements.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Elements API from Cenevo — 3 operation(s) for elements.
   name: Cenevo Elements API
   slug: cenevo-elements-api
-- description: The Equipment API from Cenevo — 3 operation(s) for equipment.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Equipment API from Cenevo — 3 operation(s) for equipment.
   name: Cenevo Equipment API
   slug: cenevo-equipment-api
-- description: The Events API from Cenevo — 2 operation(s) for events.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Events API from Cenevo — 2 operation(s) for events.
   name: Cenevo Events API
   slug: cenevo-events-api
-- description: The Experiments API from Cenevo — 6 operation(s) for experiments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Experiments API from Cenevo — 6 operation(s) for experiments.
   name: Cenevo Experiments API
   slug: cenevo-experiments-api
-- description: The Filters API from Cenevo — 3 operation(s) for filters.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Filters API from Cenevo — 3 operation(s) for filters.
   name: Cenevo Filters API
   slug: cenevo-filters-api
-- description: The Flags API from Cenevo — 2 operation(s) for flags.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Flags API from Cenevo — 2 operation(s) for flags.
   name: Cenevo Flags API
   slug: cenevo-flags-api
-- description: The Flies API from Cenevo — 2 operation(s) for flies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Flies API from Cenevo — 2 operation(s) for flies.
   name: Cenevo Flies API
   slug: cenevo-flies-api
-- description: The Folders API from Cenevo — 2 operation(s) for folders.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Folders API from Cenevo — 2 operation(s) for folders.
   name: Cenevo Folders API
   slug: cenevo-folders-api
-- description: The Forms API from Cenevo — 1 operation(s) for forms.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Forms API from Cenevo — 1 operation(s) for forms.
   name: Cenevo Forms API
   slug: cenevo-forms-api
-- description: The Fungi API from Cenevo — 2 operation(s) for fungi.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Fungi API from Cenevo — 2 operation(s) for fungi.
   name: Cenevo Fungi API
   slug: cenevo-fungi-api
-- description: The Generic Items API from Cenevo — 2 operation(s) for generic items.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Generic Items API from Cenevo — 2 operation(s) for generic items.
   name: Cenevo Generic Items API
   slug: cenevo-generic-items-api
-- description: The Genes API from Cenevo — 2 operation(s) for genes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Genes API from Cenevo — 2 operation(s) for genes.
   name: Cenevo Genes API
   slug: cenevo-genes-api
-- description: The Instrument usages API from Cenevo — 1 operation(s) for instrument usages.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Instrument usages API from Cenevo — 1 operation(s) for instrument usages.
   name: Cenevo Instrument usages API
   slug: cenevo-instrument-usages-api
-- description: The Links API from Cenevo — 2 operation(s) for links.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Links API from Cenevo — 2 operation(s) for links.
   name: Cenevo Links API
   slug: cenevo-links-api
-- description: The Lipids API from Cenevo — 2 operation(s) for lipids.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Lipids API from Cenevo — 2 operation(s) for lipids.
   name: Cenevo Lipids API
   slug: cenevo-lipids-api
-- description: The Maintenance event API from Cenevo — 2 operation(s) for maintenance event.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance event API from Cenevo — 2 operation(s) for maintenance event.
   name: Cenevo Maintenance event API
   slug: cenevo-maintenance-event-api
-- description: The Maintenance template API from Cenevo — 2 operation(s) for maintenance template.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance template API from Cenevo — 2 operation(s) for maintenance template.
   name: Cenevo Maintenance template API
   slug: cenevo-maintenance-template-api
-- description: The Maintenance types API from Cenevo — 2 operation(s) for maintenance types.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance types API from Cenevo — 2 operation(s) for maintenance types.
   name: Cenevo Maintenance types API
   slug: cenevo-maintenance-types-api
-- description: The Maintenances API from Cenevo — 2 operation(s) for maintenances.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenances API from Cenevo — 2 operation(s) for maintenances.
   name: Cenevo Maintenances API
   slug: cenevo-maintenances-api
-- description: The Manifest API from Cenevo — 2 operation(s) for manifest.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Manifest API from Cenevo — 2 operation(s) for manifest.
   name: Cenevo Manifest API
   slug: cenevo-manifest-api
-- description: The Measurements API from Cenevo — 2 operation(s) for measurements.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Measurements API from Cenevo — 2 operation(s) for measurements.
   name: Cenevo Measurements API
   slug: cenevo-measurements-api
-- description: The Members API from Cenevo — 1 operation(s) for members.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Members API from Cenevo — 1 operation(s) for members.
   name: Cenevo Members API
   slug: cenevo-members-api
-- description: The Notes API from Cenevo — 2 operation(s) for notes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Notes API from Cenevo — 2 operation(s) for notes.
   name: Cenevo Notes API
   slug: cenevo-notes-api
-- description: The Papers API from Cenevo — 2 operation(s) for papers.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Papers API from Cenevo — 2 operation(s) for papers.
   name: Cenevo Papers API
   slug: cenevo-papers-api
-- description: The Plants API from Cenevo — 2 operation(s) for plants.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plants API from Cenevo — 2 operation(s) for plants.
   name: Cenevo Plants API
   slug: cenevo-plants-api
-- description: The Plasmids API from Cenevo — 2 operation(s) for plasmids.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plasmids API from Cenevo — 2 operation(s) for plasmids.
   name: Cenevo Plasmids API
   slug: cenevo-plasmids-api
-- description: The Plates API from Cenevo — 4 operation(s) for plates.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plates API from Cenevo — 4 operation(s) for plates.
   name: Cenevo Plates API
   slug: cenevo-plates-api
-- description: The Primers API from Cenevo — 2 operation(s) for primers.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Primers API from Cenevo — 2 operation(s) for primers.
   name: Cenevo Primers API
   slug: cenevo-primers-api
-- description: The Projects API from Cenevo — 3 operation(s) for projects.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Projects API from Cenevo — 3 operation(s) for projects.
   name: Cenevo Projects API
   slug: cenevo-projects-api
-- description: The Proteins API from Cenevo — 2 operation(s) for proteins.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Proteins API from Cenevo — 2 operation(s) for proteins.
   name: Cenevo Proteins API
   slug: cenevo-proteins-api
-- description: The Protocols API from Cenevo — 2 operation(s) for protocols.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Protocols API from Cenevo — 2 operation(s) for protocols.
   name: Cenevo Protocols API
   slug: cenevo-protocols-api
-- description: The Recipes API from Cenevo — 1 operation(s) for recipes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Recipes API from Cenevo — 1 operation(s) for recipes.
   name: Cenevo Recipes API
   slug: cenevo-recipes-api
-- description: The Reports API from Cenevo — 5 operation(s) for reports.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Reports API from Cenevo — 5 operation(s) for reports.
   name: Cenevo Reports API
   slug: cenevo-reports-api
-- description: The Request templates API from Cenevo — 2 operation(s) for request templates.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Request templates API from Cenevo — 2 operation(s) for request templates.
   name: Cenevo Request templates API
   slug: cenevo-request-templates-api
-- description: The Requests API from Cenevo — 9 operation(s) for requests.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Requests API from Cenevo — 9 operation(s) for requests.
   name: Cenevo Requests API
   slug: cenevo-requests-api
-- description: The Rodent cages API from Cenevo — 3 operation(s) for rodent cages.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent cages API from Cenevo — 3 operation(s) for rodent cages.
   name: Cenevo Rodent cages API
   slug: cenevo-rodent-cages-api
-- description: The Rodent Specimens API from Cenevo — 2 operation(s) for rodent specimens.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent Specimens API from Cenevo — 2 operation(s) for rodent specimens.
   name: Cenevo Rodent Specimens API
   slug: cenevo-rodent-specimens-api
-- description: The Rodent Strains API from Cenevo — 2 operation(s) for rodent strains.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent Strains API from Cenevo — 2 operation(s) for rodent strains.
   name: Cenevo Rodent Strains API
   slug: cenevo-rodent-strains-api
-- description: The Sample Pooling API from Cenevo — 1 operation(s) for sample pooling.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sample Pooling API from Cenevo — 1 operation(s) for sample pooling.
   name: Cenevo Sample Pooling API
   slug: cenevo-sample-pooling-api
-- description: The Samples API from Cenevo — 1 operation(s) for samples.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Samples API from Cenevo — 1 operation(s) for samples.
   name: Cenevo Samples API
   slug: cenevo-samples-api
-- description: The Search API from Cenevo — 1 operation(s) for search.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Search API from Cenevo — 1 operation(s) for search.
   name: Cenevo Search API
   slug: cenevo-search-api
-- description: The Sections API from Cenevo — 3 operation(s) for sections.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sections API from Cenevo — 3 operation(s) for sections.
   name: Cenevo Sections API
   slug: cenevo-sections-api
-- description: The Seeds API from Cenevo — 2 operation(s) for seeds.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Seeds API from Cenevo — 2 operation(s) for seeds.
   name: Cenevo Seeds API
   slug: cenevo-seeds-api
-- description: The Sequences API from Cenevo — 2 operation(s) for sequences.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sequences API from Cenevo — 2 operation(s) for sequences.
   name: Cenevo Sequences API
   slug: cenevo-sequences-api
-- description: The Shopping list API from Cenevo — 6 operation(s) for shopping list.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Shopping list API from Cenevo — 6 operation(s) for shopping list.
   name: Cenevo Shopping list API
   slug: cenevo-shopping-list-api
-- description: The Signature flows API from Cenevo — 1 operation(s) for signature flows.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Signature flows API from Cenevo — 1 operation(s) for signature flows.
   name: Cenevo Signature flows API
   slug: cenevo-signature-flows-api
-- description: The SOPs API from Cenevo — 2 operation(s) for sops.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The SOPs API from Cenevo — 2 operation(s) for sops.
   name: Cenevo SOPs API
   slug: cenevo-sops-api
-- description: The Stocks API from Cenevo — 7 operation(s) for stocks.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Stocks API from Cenevo — 7 operation(s) for stocks.
   name: Cenevo Stocks API
   slug: cenevo-stocks-api
-- description: The Storages API from Cenevo — 2 operation(s) for storages.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Storages API from Cenevo — 2 operation(s) for storages.
   name: Cenevo Storages API
   slug: cenevo-storages-api
-- description: The Submodules API from Cenevo — 7 operation(s) for submodules.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Submodules API from Cenevo — 7 operation(s) for submodules.
   name: Cenevo Submodules API
   slug: cenevo-submodules-api
-- description: The Tags API from Cenevo — 2 operation(s) for tags.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Tags API from Cenevo — 2 operation(s) for tags.
   name: Cenevo Tags API
   slug: cenevo-tags-api
-- description: The Teams API from Cenevo — 2 operation(s) for teams.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Teams API from Cenevo — 2 operation(s) for teams.
   name: Cenevo Teams API
   slug: cenevo-teams-api
-- description: The Tissue API from Cenevo — 2 operation(s) for tissue.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Tissue API from Cenevo — 2 operation(s) for tissue.
   name: Cenevo Tissue API
   slug: cenevo-tissue-api
-- description: The Units API from Cenevo — 2 operation(s) for units.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Units API from Cenevo — 2 operation(s) for units.
   name: Cenevo Units API
   slug: cenevo-units-api
-- description: The Vectors API from Cenevo — 2 operation(s) for vectors.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Vectors API from Cenevo — 2 operation(s) for vectors.
   name: Cenevo Vectors API
   slug: cenevo-vectors-api
-- description: The Viruses API from Cenevo — 2 operation(s) for viruses.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Viruses API from Cenevo — 2 operation(s) for viruses.
   name: Cenevo Viruses API
   slug: cenevo-viruses-api
-- description: The Visualizations API from Cenevo — 2 operation(s) for visualizations.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Visualizations API from Cenevo — 2 operation(s) for visualizations.
   name: Cenevo Visualizations API
   slug: cenevo-visualizations-api
-- description: The Webhooks API from Cenevo — 3 operation(s) for webhooks.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Cenevo — 3 operation(s) for webhooks.
   name: Cenevo Webhooks API
   slug: cenevo-webhooks-api
-- description: The Workflows API from Cenevo — 2 operation(s) for workflows.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Cenevo — 2 operation(s) for workflows.
   name: Cenevo Workflows API
   slug: cenevo-workflows-api
-- description: The Worms API from Cenevo — 2 operation(s) for worms.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Worms API from Cenevo — 2 operation(s) for worms.
   name: Cenevo Worms API
   slug: cenevo-worms-api
-- description: The Yeasts API from Cenevo — 2 operation(s) for yeasts.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Yeasts API from Cenevo — 2 operation(s) for yeasts.
   name: Cenevo Yeasts API
   slug: cenevo-yeasts-api
-- description: The Zebrafishes API from Cenevo — 1 operation(s) for zebrafishes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Zebrafishes API from Cenevo — 1 operation(s) for zebrafishes.
   name: Cenevo Zebrafishes API
   slug: cenevo-zebrafishes-api
 artifact_total: 156
@@ -635,7 +785,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -645,7 +795,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -663,7 +813,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:

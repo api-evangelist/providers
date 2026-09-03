@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Segmind AI Gateway — one REST surface in front of 200+ generative AI models for image, video, audio, 3D and text, authenticated with a single API key and metered against a prepaid credit balance.
   name: Segmind
   slug: segmind
-- description: Synchronous (v1) and asynchronous (v2) model inference. v2 is the current contract — submit a job, poll a lightweight status endpoint, fetch the result — and reports cost, remaining credits and timing
+- baseURL: https://api.segmind.com
+  baseurl_source: declared
+  description: Synchronous (v1) and asynchronous (v2) model inference. v2 is the current contract — submit a job, poll a lightweight status endpoint, fetch the result — and reports cost, remaining credits and timing
   name: Segmind Inference API
   slug: segmind-inference-api
-- description: Read the account's spendable and free credit balance. Runs no model and costs nothing, and is the documented way to verify that an API key works.
+- baseURL: https://api.segmind.com
+  baseurl_source: declared
+  description: Read the account's spendable and free credit balance. Runs no model and costs nothing, and is the documented way to verify that an API key works.
   name: Segmind Account API
   slug: segmind-account-api
-- description: Upload a file to Segmind Storage and get a reusable URL to pass as an image input to any model, instead of re-uploading the same file. Served from the workflows host.
+- baseURL: https://workflows-api.segmind.com
+  baseurl_source: declared
+  description: Upload a file to Segmind Storage and get a reusable URL to pass as an image input to any model, instead of re-uploading the same file. Served from the workflows host.
   name: Segmind Storage API
   slug: segmind-storage-api
 - description: Call a published PixelFlow workflow over REST. Submit to POST /workflows/v2/{slug} with the key names given to the workflow's input nodes, poll the status URL, and fetch the result — the same async co
@@ -62,7 +68,9 @@ apis:
 - description: Manage dedicated GPU endpoints programmatically — list, add, update capacity and delete. Served from a separate control-plane host and authenticated with the same API key. Add, update and delete share
   name: Segmind Dedicated Endpoints API
   slug: segmind-endpoints-api
-- description: DEPRECATED. Fine-tuning request management and data handling. Segmind's fine-tuning service no longer accepts new training jobs; existing fine-tuned models remain available for inference until further
+- baseURL: https://api.segmind.com
+  baseurl_source: declared
+  description: DEPRECATED. Fine-tuning request management and data handling. Segmind's fine-tuning service no longer accepts new training jobs; existing fine-tuned models remain available for inference until further
   name: Segmind Fine-tuning API
   slug: segmind-fine-tuning-api
 artifact_total: 21
@@ -279,7 +287,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -289,7 +297,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 59.3
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -301,8 +309,8 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segmind/refs/heads/main/screenshots/segmind-2026-06-20T193634.png
 security:
 - kind: authentication

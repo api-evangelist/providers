@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: Solidity smart contracts that implement the EigenLayer restaking protocol - StrategyManager, DelegationManager, EigenPodManager, AVSDirectory, and the slasher. Operators register, stakers delegate, an
@@ -48,7 +48,9 @@ apis:
 - description: Operator-facing command-line tool for keys, operator registration, delegation, AVS opt-in, and node-runner administration on EigenLayer.
   name: EigenLayer CLI
   slug: eigenlayer-cli
-- description: EigenDA is the data-availability service secured by EigenLayer restakers. Provides client libraries and a disperser API for posting and retrieving blobs of data, used by rollups and other consumers ne
+- baseURL: https://github.com/Layr-Labs/eigenda
+  baseurl_source: declared
+  description: EigenDA is the data-availability service secured by EigenLayer restakers. Provides client libraries and a disperser API for posting and retrieving blobs of data, used by rollups and other consumers ne
   name: EigenDA
   slug: eigenda
 - description: EigenCompute lets developers run arbitrary code in any language, with the execution secured by restakers and the result attested on-chain. Ships an SDK and CLI for packaging workloads, submitting jobs
@@ -151,7 +153,7 @@ score:
     catalog_gap: 52.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -164,9 +166,9 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 35.2
+  previous_composite: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eigenlayer/refs/heads/main/screenshots/eigenlayer-2026-06-20T180610.png
 security:

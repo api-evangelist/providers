@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 52 operations · 39 acting
 api_count: 1
 apis:
-- description: The Auth API from Simplifi/Simplifipay — 2 operation(s) for auth.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Auth API from Simplifi/Simplifipay — 2 operation(s) for auth.
   name: Simplifi/Simplifipay Auth API
   slug: simplifi-simplifipay-auth-api
-- description: The Card API from Simplifi/Simplifipay — 12 operation(s) for card.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Card API from Simplifi/Simplifipay — 12 operation(s) for card.
   name: Simplifi/Simplifipay Card API
   slug: simplifi-simplifipay-card-api
-- description: The Card Program API from Simplifi/Simplifipay — 9 operation(s) for card program.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Card Program API from Simplifi/Simplifipay — 9 operation(s) for card program.
   name: Simplifi/Simplifipay Card Program API
   slug: simplifi-simplifipay-card-program-api
-- description: The Document API from Simplifi/Simplifipay — 2 operation(s) for document.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Document API from Simplifi/Simplifipay — 2 operation(s) for document.
   name: Simplifi/Simplifipay Document API
   slug: simplifi-simplifipay-document-api
-- description: The Fee API from Simplifi/Simplifipay — 5 operation(s) for fee.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Fee API from Simplifi/Simplifipay — 5 operation(s) for fee.
   name: Simplifi/Simplifipay Fee API
   slug: simplifi-simplifipay-fee-api
-- description: The Funding Source API from Simplifi/Simplifipay — 6 operation(s) for funding source.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Funding Source API from Simplifi/Simplifipay — 6 operation(s) for funding source.
   name: Simplifi/Simplifipay Funding Source API
   slug: simplifi-simplifipay-funding-source-api
-- description: The Transaction API from Simplifi/Simplifipay — 3 operation(s) for transaction.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Transaction API from Simplifi/Simplifipay — 3 operation(s) for transaction.
   name: Simplifi/Simplifipay Transaction API
   slug: simplifi-simplifipay-transaction-api
-- description: The User API from Simplifi/Simplifipay — 4 operation(s) for user.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The User API from Simplifi/Simplifipay — 4 operation(s) for user.
   name: Simplifi/Simplifipay User API
   slug: simplifi-simplifipay-user-api
-- description: The Webhook API from Simplifi/Simplifipay — 4 operation(s) for webhook.
+- baseURL: https://uat-lb.simplifipay.com
+  baseurl_source: declared
+  description: The Webhook API from Simplifi/Simplifipay — 4 operation(s) for webhook.
   name: Simplifi/Simplifipay Webhook API
   slug: simplifi-simplifipay-webhook-api
 artifact_total: 24
@@ -247,7 +265,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -257,7 +275,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 54.1
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,7 +293,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplifi-simplifipay/refs/heads/main/screenshots/simplifi-simplifipay-2026-08-17T081912.png
 security:

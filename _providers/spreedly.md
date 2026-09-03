@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -33,82 +45,134 @@ agentic_access:
   summary_line: 84 operations · 48 acting
 api_count: 1
 apis:
-- description: The access_secrets API from Spreedly — 2 operation(s) for access_secrets.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The access_secrets API from Spreedly — 2 operation(s) for access_secrets.
   name: Spreedly Access Secrets API
   slug: spreedly-access-secrets-api
-- description: The authorize API from Spreedly — 1 operation(s) for authorize.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The authorize API from Spreedly — 1 operation(s) for authorize.
   name: Spreedly Authorize API
   slug: spreedly-authorize-api
-- description: The capture API from Spreedly — 1 operation(s) for capture.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The capture API from Spreedly — 1 operation(s) for capture.
   name: Spreedly Capture API
   slug: spreedly-capture-api
-- description: The card_refresher API from Spreedly — 3 operation(s) for card_refresher.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The card_refresher API from Spreedly — 3 operation(s) for card_refresher.
   name: Spreedly Card Refresher API
   slug: spreedly-card-refresher-api
-- description: The certificates API from Spreedly — 3 operation(s) for certificates.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The certificates API from Spreedly — 3 operation(s) for certificates.
   name: Spreedly Certificates API
   slug: spreedly-certificates-api
-- description: The claim API from Spreedly — 1 operation(s) for claim.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The claim API from Spreedly — 1 operation(s) for claim.
   name: Spreedly Claim API
   slug: spreedly-claim-api
-- description: The composer API from Spreedly — 3 operation(s) for composer.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The composer API from Spreedly — 3 operation(s) for composer.
   name: Spreedly Composer API
   slug: spreedly-composer-api
-- description: The credit API from Spreedly — 1 operation(s) for credit.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The credit API from Spreedly — 1 operation(s) for credit.
   name: Spreedly Credit API
   slug: spreedly-credit-api
-- description: The environments API from Spreedly — 3 operation(s) for environments.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The environments API from Spreedly — 3 operation(s) for environments.
   name: Spreedly Environments API
   slug: spreedly-environments-api
-- description: The events API from Spreedly — 2 operation(s) for events.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The events API from Spreedly — 2 operation(s) for events.
   name: Spreedly Events API
   slug: spreedly-events-api
-- description: The gateways API from Spreedly — 6 operation(s) for gateways.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The gateways API from Spreedly — 6 operation(s) for gateways.
   name: Spreedly Gateways API
   slug: spreedly-gateways-api
-- description: The general_credit API from Spreedly — 1 operation(s) for general_credit.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The general_credit API from Spreedly — 1 operation(s) for general_credit.
   name: Spreedly General Credit API
   slug: spreedly-general-credit-api
-- description: The merchant_profiles API from Spreedly — 2 operation(s) for merchant_profiles.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The merchant_profiles API from Spreedly — 2 operation(s) for merchant_profiles.
   name: Spreedly Merchant Profiles API
   slug: spreedly-merchant-profiles-api
-- description: The network_tokenization API from Spreedly — 2 operation(s) for network_tokenization.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The network_tokenization API from Spreedly — 2 operation(s) for network_tokenization.
   name: Spreedly Network Tokenization API
   slug: spreedly-network-tokenization-api
-- description: The payment_methods API from Spreedly — 12 operation(s) for payment_methods.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The payment_methods API from Spreedly — 12 operation(s) for payment_methods.
   name: Spreedly Payment Methods API
   slug: spreedly-payment-methods-api
-- description: The payments API from Spreedly — 1 operation(s) for payments.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The payments API from Spreedly — 1 operation(s) for payments.
   name: Spreedly Payments API
   slug: spreedly-payments-api
-- description: The protection_events API from Spreedly — 2 operation(s) for protection_events.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The protection_events API from Spreedly — 2 operation(s) for protection_events.
   name: Spreedly Protection Events API
   slug: spreedly-protection-events-api
-- description: The protection_provider API from Spreedly — 2 operation(s) for protection_provider.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The protection_provider API from Spreedly — 2 operation(s) for protection_provider.
   name: Spreedly Protection Provider API
   slug: spreedly-protection-provider-api
-- description: The purchase API from Spreedly — 2 operation(s) for purchase.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The purchase API from Spreedly — 2 operation(s) for purchase.
   name: Spreedly Purchase API
   slug: spreedly-purchase-api
-- description: The receivers API from Spreedly — 6 operation(s) for receivers.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The receivers API from Spreedly — 6 operation(s) for receivers.
   name: Spreedly Receivers API
   slug: spreedly-receivers-api
-- description: The sca_authentication API from Spreedly — 1 operation(s) for sca_authentication.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The sca_authentication API from Spreedly — 1 operation(s) for sca_authentication.
   name: Spreedly Sca Authentication API
   slug: spreedly-sca-authentication-api
-- description: The sca_provider API from Spreedly — 2 operation(s) for sca_provider.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The sca_provider API from Spreedly — 2 operation(s) for sca_provider.
   name: Spreedly Sca Provider API
   slug: spreedly-sca-provider-api
-- description: The sub_merchants API from Spreedly — 2 operation(s) for sub_merchants.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The sub_merchants API from Spreedly — 2 operation(s) for sub_merchants.
   name: Spreedly Sub Merchants API
   slug: spreedly-sub-merchants-api
-- description: The transactions API from Spreedly — 5 operation(s) for transactions.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The transactions API from Spreedly — 5 operation(s) for transactions.
   name: Spreedly Transactions API
   slug: spreedly-transactions-api
-- description: The verify API from Spreedly — 1 operation(s) for verify.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The verify API from Spreedly — 1 operation(s) for verify.
   name: Spreedly Verify API
   slug: spreedly-verify-api
-- description: The void API from Spreedly — 1 operation(s) for void.
+- baseURL: https://core.spreedly.com/v1
+  baseurl_source: declared
+  description: The void API from Spreedly — 1 operation(s) for void.
   name: Spreedly Void API
   slug: spreedly-void-api
 artifact_total: 34
@@ -319,23 +383,23 @@ overview: 'Spreedly publishes 26 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 11
 score:
   band: strong
-  composite: 55.0
+  composite: 56.8
   coverage:
     artifact_dirs: 24
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 1.8
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 64.5
     developer_ergonomics: 58.9
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 54.3
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,7 +417,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png
 security:

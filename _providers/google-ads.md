@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -48,328 +48,544 @@ apis:
 - description: JavaScript-based scripting interface for programmatically managing and querying Google Ads data directly in a browser-based IDE. Scripts enable automated changes to campaigns, ad groups, and reporting
   name: Google Ads Scripts
   slug: google-ads-scripts
-- description: Manage ad groups within campaigns
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Manage ad groups within campaigns
   name: Google Ads Ad Groups API
   slug: google-ads-ad-groups-api
-- description: Create and manage individual ads within ad groups
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Create and manage individual ads within ad groups
   name: Google Ads Ads API
   slug: google-ads-ads-api
-- description: Manage bidding strategies for campaigns
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Manage bidding strategies for campaigns
   name: Google Ads Bidding Strategies API
   slug: google-ads-bidding-strategies-api
-- description: Create, read, update, and remove advertising campaigns
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Create, read, update, and remove advertising campaigns
   name: Google Ads Campaigns API
   slug: google-ads-campaigns-api
-- description: Access and manage Google Ads customer account information
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Access and manage Google Ads customer account information
   name: Google Ads Customers API
   slug: google-ads-customers-api
-- description: Manage keyword targeting criteria for ad groups
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Manage keyword targeting criteria for ad groups
   name: Google Ads Keywords API
   slug: google-ads-keywords-api
-- description: Query performance data using Google Ads Query Language (GAQL)
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: Query performance data using Google Ads Query Language (GAQL)
   name: Google Ads Reporting API
   slug: google-ads-reporting-api
-- description: The audienceInsights API from Google Ads — 1 operation(s) for audienceinsights.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The audienceInsights API from Google Ads — 1 operation(s) for audienceinsights.
   name: Google Ads Audience Insights API
   slug: google-ads-audienceinsights-api
-- description: The customers.accountBudgetProposals API from Google Ads — 1 operation(s) for customers.accountbudgetproposals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.accountBudgetProposals API from Google Ads — 1 operation(s) for customers.accountbudgetproposals.
   name: Google Ads Customers.account Budget Proposals API
   slug: google-ads-customers-accountbudgetproposals-api
-- description: The customers.accountLinks API from Google Ads — 2 operation(s) for customers.accountlinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.accountLinks API from Google Ads — 2 operation(s) for customers.accountlinks.
   name: Google Ads Customers.account Links API
   slug: google-ads-customers-accountlinks-api
-- description: The customers.adGroupAdLabels API from Google Ads — 1 operation(s) for customers.adgroupadlabels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupAdLabels API from Google Ads — 1 operation(s) for customers.adgroupadlabels.
   name: Google Ads Customers.ad Group Ad Labels API
   slug: google-ads-customers-adgroupadlabels-api
-- description: The customers.adGroupAds API from Google Ads — 2 operation(s) for customers.adgroupads.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupAds API from Google Ads — 2 operation(s) for customers.adgroupads.
   name: Google Ads Customers.ad Group Ads API
   slug: google-ads-customers-adgroupads-api
-- description: The customers.adGroupAssets API from Google Ads — 1 operation(s) for customers.adgroupassets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupAssets API from Google Ads — 1 operation(s) for customers.adgroupassets.
   name: Google Ads Customers.ad Group Assets API
   slug: google-ads-customers-adgroupassets-api
-- description: The customers.adGroupAssetSets API from Google Ads — 1 operation(s) for customers.adgroupassetsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupAssetSets API from Google Ads — 1 operation(s) for customers.adgroupassetsets.
   name: Google Ads Customers.ad Group Asset Sets API
   slug: google-ads-customers-adgroupassetsets-api
-- description: The customers.adGroupBidModifiers API from Google Ads — 1 operation(s) for customers.adgroupbidmodifiers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupBidModifiers API from Google Ads — 1 operation(s) for customers.adgroupbidmodifiers.
   name: Google Ads Customers.ad Group Bid Modifiers API
   slug: google-ads-customers-adgroupbidmodifiers-api
-- description: The customers.adGroupCriteria API from Google Ads — 1 operation(s) for customers.adgroupcriteria.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupCriteria API from Google Ads — 1 operation(s) for customers.adgroupcriteria.
   name: Google Ads Customers.ad Group Criteria API
   slug: google-ads-customers-adgroupcriteria-api
-- description: The customers.AdGroupCriterionCustomizers API from Google Ads — 1 operation(s) for customers.adgroupcriterioncustomizers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.AdGroupCriterionCustomizers API from Google Ads — 1 operation(s) for customers.adgroupcriterioncustomizers.
   name: Google Ads Customers.Ad Group Criterion Customizers API
   slug: google-ads-customers-adgroupcriterioncustomizers-api
-- description: The customers.adGroupCriterionLabels API from Google Ads — 1 operation(s) for customers.adgroupcriterionlabels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupCriterionLabels API from Google Ads — 1 operation(s) for customers.adgroupcriterionlabels.
   name: Google Ads Customers.ad Group Criterion Labels API
   slug: google-ads-customers-adgroupcriterionlabels-api
-- description: The customers.adGroupCustomizers API from Google Ads — 1 operation(s) for customers.adgroupcustomizers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupCustomizers API from Google Ads — 1 operation(s) for customers.adgroupcustomizers.
   name: Google Ads Customers.ad Group Customizers API
   slug: google-ads-customers-adgroupcustomizers-api
-- description: The customers.adGroupLabels API from Google Ads — 1 operation(s) for customers.adgrouplabels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroupLabels API from Google Ads — 1 operation(s) for customers.adgrouplabels.
   name: Google Ads Customers.ad Group Labels API
   slug: google-ads-customers-adgrouplabels-api
-- description: The customers.adGroups API from Google Ads — 1 operation(s) for customers.adgroups.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adGroups API from Google Ads — 1 operation(s) for customers.adgroups.
   name: Google Ads Customers.ad Groups API
   slug: google-ads-customers-adgroups-api
-- description: The customers.adParameters API from Google Ads — 1 operation(s) for customers.adparameters.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.adParameters API from Google Ads — 1 operation(s) for customers.adparameters.
   name: Google Ads Customers.ad Parameters API
   slug: google-ads-customers-adparameters-api
-- description: The customers.ads API from Google Ads — 1 operation(s) for customers.ads.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.ads API from Google Ads — 1 operation(s) for customers.ads.
   name: Google Ads Customers.ads API
   slug: google-ads-customers-ads-api
-- description: The customers.assetGenerations API from Google Ads — 2 operation(s) for customers.assetgenerations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetGenerations API from Google Ads — 2 operation(s) for customers.assetgenerations.
   name: Google Ads Customers.asset Generations API
   slug: google-ads-customers-assetgenerations-api
-- description: The customers.assetGroupAssets API from Google Ads — 1 operation(s) for customers.assetgroupassets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetGroupAssets API from Google Ads — 1 operation(s) for customers.assetgroupassets.
   name: Google Ads Customers.asset Group Assets API
   slug: google-ads-customers-assetgroupassets-api
-- description: The customers.assetGroupListingGroupFilters API from Google Ads — 1 operation(s) for customers.assetgrouplistinggroupfilters.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetGroupListingGroupFilters API from Google Ads — 1 operation(s) for customers.assetgrouplistinggroupfilters.
   name: Google Ads Customers.asset Group Listing Group Filters API
   slug: google-ads-customers-assetgrouplistinggroupfilters-api
-- description: The customers.assetGroups API from Google Ads — 1 operation(s) for customers.assetgroups.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetGroups API from Google Ads — 1 operation(s) for customers.assetgroups.
   name: Google Ads Customers.asset Groups API
   slug: google-ads-customers-assetgroups-api
-- description: The customers.assetGroupSignals API from Google Ads — 1 operation(s) for customers.assetgroupsignals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetGroupSignals API from Google Ads — 1 operation(s) for customers.assetgroupsignals.
   name: Google Ads Customers.asset Group Signals API
   slug: google-ads-customers-assetgroupsignals-api
-- description: The customers.assets API from Google Ads — 1 operation(s) for customers.assets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assets API from Google Ads — 1 operation(s) for customers.assets.
   name: Google Ads Customers.assets API
   slug: google-ads-customers-assets-api
-- description: The customers.assetSetAssets API from Google Ads — 1 operation(s) for customers.assetsetassets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetSetAssets API from Google Ads — 1 operation(s) for customers.assetsetassets.
   name: Google Ads Customers.asset Set Assets API
   slug: google-ads-customers-assetsetassets-api
-- description: The customers.assetSets API from Google Ads — 1 operation(s) for customers.assetsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.assetSets API from Google Ads — 1 operation(s) for customers.assetsets.
   name: Google Ads Customers.asset Sets API
   slug: google-ads-customers-assetsets-api
-- description: The customers.audiences API from Google Ads — 1 operation(s) for customers.audiences.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.audiences API from Google Ads — 1 operation(s) for customers.audiences.
   name: Google Ads Customers.audiences API
   slug: google-ads-customers-audiences-api
-- description: The customers.batchJobs API from Google Ads — 4 operation(s) for customers.batchjobs.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.batchJobs API from Google Ads — 4 operation(s) for customers.batchjobs.
   name: Google Ads Customers.batch Jobs API
   slug: google-ads-customers-batchjobs-api
-- description: The customers.biddingDataExclusions API from Google Ads — 1 operation(s) for customers.biddingdataexclusions.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.biddingDataExclusions API from Google Ads — 1 operation(s) for customers.biddingdataexclusions.
   name: Google Ads Customers.bidding Data Exclusions API
   slug: google-ads-customers-biddingdataexclusions-api
-- description: The customers.biddingSeasonalityAdjustments API from Google Ads — 1 operation(s) for customers.biddingseasonalityadjustments.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.biddingSeasonalityAdjustments API from Google Ads — 1 operation(s) for customers.biddingseasonalityadjustments.
   name: Google Ads Customers.bidding Seasonality Adjustments API
   slug: google-ads-customers-biddingseasonalityadjustments-api
-- description: The customers.biddingStrategies API from Google Ads — 1 operation(s) for customers.biddingstrategies.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.biddingStrategies API from Google Ads — 1 operation(s) for customers.biddingstrategies.
   name: Google Ads Customers.bidding Strategies API
   slug: google-ads-customers-biddingstrategies-api
-- description: The customers.billingSetups API from Google Ads — 1 operation(s) for customers.billingsetups.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.billingSetups API from Google Ads — 1 operation(s) for customers.billingsetups.
   name: Google Ads Customers.billing Setups API
   slug: google-ads-customers-billingsetups-api
-- description: The customers.campaignAssets API from Google Ads — 1 operation(s) for customers.campaignassets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignAssets API from Google Ads — 1 operation(s) for customers.campaignassets.
   name: Google Ads Customers.campaign Assets API
   slug: google-ads-customers-campaignassets-api
-- description: The customers.campaignAssetSets API from Google Ads — 1 operation(s) for customers.campaignassetsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignAssetSets API from Google Ads — 1 operation(s) for customers.campaignassetsets.
   name: Google Ads Customers.campaign Asset Sets API
   slug: google-ads-customers-campaignassetsets-api
-- description: The customers.campaignBidModifiers API from Google Ads — 1 operation(s) for customers.campaignbidmodifiers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignBidModifiers API from Google Ads — 1 operation(s) for customers.campaignbidmodifiers.
   name: Google Ads Customers.campaign Bid Modifiers API
   slug: google-ads-customers-campaignbidmodifiers-api
-- description: The customers.campaignBudgets API from Google Ads — 1 operation(s) for customers.campaignbudgets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignBudgets API from Google Ads — 1 operation(s) for customers.campaignbudgets.
   name: Google Ads Customers.campaign Budgets API
   slug: google-ads-customers-campaignbudgets-api
-- description: The customers.campaignConversionGoals API from Google Ads — 1 operation(s) for customers.campaignconversiongoals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignConversionGoals API from Google Ads — 1 operation(s) for customers.campaignconversiongoals.
   name: Google Ads Customers.campaign Conversion Goals API
   slug: google-ads-customers-campaignconversiongoals-api
-- description: The customers.campaignCriteria API from Google Ads — 1 operation(s) for customers.campaigncriteria.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignCriteria API from Google Ads — 1 operation(s) for customers.campaigncriteria.
   name: Google Ads Customers.campaign Criteria API
   slug: google-ads-customers-campaigncriteria-api
-- description: The customers.campaignCustomizers API from Google Ads — 1 operation(s) for customers.campaigncustomizers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignCustomizers API from Google Ads — 1 operation(s) for customers.campaigncustomizers.
   name: Google Ads Customers.campaign Customizers API
   slug: google-ads-customers-campaigncustomizers-api
-- description: The customers.campaignDrafts API from Google Ads — 3 operation(s) for customers.campaigndrafts.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignDrafts API from Google Ads — 3 operation(s) for customers.campaigndrafts.
   name: Google Ads Customers.campaign Drafts API
   slug: google-ads-customers-campaigndrafts-api
-- description: The customers.CampaignGoalConfigs API from Google Ads — 1 operation(s) for customers.campaigngoalconfigs.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.CampaignGoalConfigs API from Google Ads — 1 operation(s) for customers.campaigngoalconfigs.
   name: Google Ads Customers.Campaign Goal Configs API
   slug: google-ads-customers-campaigngoalconfigs-api
-- description: The customers.campaignGroups API from Google Ads — 1 operation(s) for customers.campaigngroups.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignGroups API from Google Ads — 1 operation(s) for customers.campaigngroups.
   name: Google Ads Customers.campaign Groups API
   slug: google-ads-customers-campaigngroups-api
-- description: The customers.campaignLabels API from Google Ads — 1 operation(s) for customers.campaignlabels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignLabels API from Google Ads — 1 operation(s) for customers.campaignlabels.
   name: Google Ads Customers.campaign Labels API
   slug: google-ads-customers-campaignlabels-api
-- description: The customers.campaigns API from Google Ads — 2 operation(s) for customers.campaigns.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaigns API from Google Ads — 2 operation(s) for customers.campaigns.
   name: Google Ads Customers.campaigns API
   slug: google-ads-customers-campaigns-api
-- description: The customers.campaignSharedSets API from Google Ads — 1 operation(s) for customers.campaignsharedsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.campaignSharedSets API from Google Ads — 1 operation(s) for customers.campaignsharedsets.
   name: Google Ads Customers.campaign Shared Sets API
   slug: google-ads-customers-campaignsharedsets-api
-- description: The customers.conversionActions API from Google Ads — 1 operation(s) for customers.conversionactions.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.conversionActions API from Google Ads — 1 operation(s) for customers.conversionactions.
   name: Google Ads Customers.conversion Actions API
   slug: google-ads-customers-conversionactions-api
-- description: The customers.conversionCustomVariables API from Google Ads — 1 operation(s) for customers.conversioncustomvariables.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.conversionCustomVariables API from Google Ads — 1 operation(s) for customers.conversioncustomvariables.
   name: Google Ads Customers.conversion Custom Variables API
   slug: google-ads-customers-conversioncustomvariables-api
-- description: The customers.conversionGoalCampaignConfigs API from Google Ads — 1 operation(s) for customers.conversiongoalcampaignconfigs.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.conversionGoalCampaignConfigs API from Google Ads — 1 operation(s) for customers.conversiongoalcampaignconfigs.
   name: Google Ads Customers.conversion Goal Campaign Configs API
   slug: google-ads-customers-conversiongoalcampaignconfigs-api
-- description: The customers.conversionValueRules API from Google Ads — 1 operation(s) for customers.conversionvaluerules.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.conversionValueRules API from Google Ads — 1 operation(s) for customers.conversionvaluerules.
   name: Google Ads Customers.conversion Value Rules API
   slug: google-ads-customers-conversionvaluerules-api
-- description: The customers.conversionValueRuleSets API from Google Ads — 1 operation(s) for customers.conversionvaluerulesets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.conversionValueRuleSets API from Google Ads — 1 operation(s) for customers.conversionvaluerulesets.
   name: Google Ads Customers.conversion Value Rule Sets API
   slug: google-ads-customers-conversionvaluerulesets-api
-- description: The customers.customAudiences API from Google Ads — 1 operation(s) for customers.customaudiences.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customAudiences API from Google Ads — 1 operation(s) for customers.customaudiences.
   name: Google Ads Customers.custom Audiences API
   slug: google-ads-customers-customaudiences-api
-- description: The customers.customConversionGoals API from Google Ads — 1 operation(s) for customers.customconversiongoals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customConversionGoals API from Google Ads — 1 operation(s) for customers.customconversiongoals.
   name: Google Ads Customers.custom Conversion Goals API
   slug: google-ads-customers-customconversiongoals-api
-- description: The customers.customerAssets API from Google Ads — 1 operation(s) for customers.customerassets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerAssets API from Google Ads — 1 operation(s) for customers.customerassets.
   name: Google Ads Customers.customer Assets API
   slug: google-ads-customers-customerassets-api
-- description: The customers.customerAssetSets API from Google Ads — 1 operation(s) for customers.customerassetsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerAssetSets API from Google Ads — 1 operation(s) for customers.customerassetsets.
   name: Google Ads Customers.customer Asset Sets API
   slug: google-ads-customers-customerassetsets-api
-- description: The customers.customerClientLinks API from Google Ads — 1 operation(s) for customers.customerclientlinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerClientLinks API from Google Ads — 1 operation(s) for customers.customerclientlinks.
   name: Google Ads Customers.customer Client Links API
   slug: google-ads-customers-customerclientlinks-api
-- description: The customers.customerConversionGoals API from Google Ads — 1 operation(s) for customers.customerconversiongoals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerConversionGoals API from Google Ads — 1 operation(s) for customers.customerconversiongoals.
   name: Google Ads Customers.customer Conversion Goals API
   slug: google-ads-customers-customerconversiongoals-api
-- description: The customers.CustomerCustomizers API from Google Ads — 1 operation(s) for customers.customercustomizers.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.CustomerCustomizers API from Google Ads — 1 operation(s) for customers.customercustomizers.
   name: Google Ads Customers.Customer Customizers API
   slug: google-ads-customers-customercustomizers-api
-- description: The customers.customerLabels API from Google Ads — 1 operation(s) for customers.customerlabels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerLabels API from Google Ads — 1 operation(s) for customers.customerlabels.
   name: Google Ads Customers.customer Labels API
   slug: google-ads-customers-customerlabels-api
-- description: The customers.customerManagerLinks API from Google Ads — 2 operation(s) for customers.customermanagerlinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerManagerLinks API from Google Ads — 2 operation(s) for customers.customermanagerlinks.
   name: Google Ads Customers.customer Manager Links API
   slug: google-ads-customers-customermanagerlinks-api
-- description: The customers.customerNegativeCriteria API from Google Ads — 1 operation(s) for customers.customernegativecriteria.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerNegativeCriteria API from Google Ads — 1 operation(s) for customers.customernegativecriteria.
   name: Google Ads Customers.customer Negative Criteria API
   slug: google-ads-customers-customernegativecriteria-api
-- description: The customers.customerSkAdNetworkConversionValueSchemas API from Google Ads — 1 operation(s) for customers.customerskadnetworkconversionvalueschemas.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerSkAdNetworkConversionValueSchemas API from Google Ads — 1 operation(s) for customers.customerskadnetworkconversionvalueschemas.
   name: Google Ads Customers.customer Sk Ad Network Conversion Value Schemas API
   slug: google-ads-customers-customerskadnetworkconversionvalueschemas-api
-- description: The customers.customerUserAccesses API from Google Ads — 1 operation(s) for customers.customeruseraccesses.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerUserAccesses API from Google Ads — 1 operation(s) for customers.customeruseraccesses.
   name: Google Ads Customers.customer User Accesses API
   slug: google-ads-customers-customeruseraccesses-api
-- description: The customers.customerUserAccessInvitations API from Google Ads — 1 operation(s) for customers.customeruseraccessinvitations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customerUserAccessInvitations API from Google Ads — 1 operation(s) for customers.customeruseraccessinvitations.
   name: Google Ads Customers.customer User Access Invitations API
   slug: google-ads-customers-customeruseraccessinvitations-api
-- description: The customers.customInterests API from Google Ads — 1 operation(s) for customers.custominterests.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customInterests API from Google Ads — 1 operation(s) for customers.custominterests.
   name: Google Ads Customers.custom Interests API
   slug: google-ads-customers-custominterests-api
-- description: The customers.customizerAttributes API from Google Ads — 1 operation(s) for customers.customizerattributes.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.customizerAttributes API from Google Ads — 1 operation(s) for customers.customizerattributes.
   name: Google Ads Customers.customizer Attributes API
   slug: google-ads-customers-customizerattributes-api
-- description: The customers.dataLinks API from Google Ads — 3 operation(s) for customers.datalinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.dataLinks API from Google Ads — 3 operation(s) for customers.datalinks.
   name: Google Ads Customers.data Links API
   slug: google-ads-customers-datalinks-api
-- description: The customers.experimentArms API from Google Ads — 1 operation(s) for customers.experimentarms.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.experimentArms API from Google Ads — 1 operation(s) for customers.experimentarms.
   name: Google Ads Customers.experiment Arms API
   slug: google-ads-customers-experimentarms-api
-- description: The customers.experiments API from Google Ads — 6 operation(s) for customers.experiments.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.experiments API from Google Ads — 6 operation(s) for customers.experiments.
   name: Google Ads Customers.experiments API
   slug: google-ads-customers-experiments-api
-- description: The customers.Goals API from Google Ads — 1 operation(s) for customers.goals.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.Goals API from Google Ads — 1 operation(s) for customers.goals.
   name: Google Ads Customers.Goals API
   slug: google-ads-customers-goals-api
-- description: The customers.googleAds API from Google Ads — 3 operation(s) for customers.googleads.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.googleAds API from Google Ads — 3 operation(s) for customers.googleads.
   name: Google Ads Customers.google Ads API
   slug: google-ads-customers-googleads-api
-- description: The customers.incentives API from Google Ads — 1 operation(s) for customers.incentives.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.incentives API from Google Ads — 1 operation(s) for customers.incentives.
   name: Google Ads Customers.incentives API
   slug: google-ads-customers-incentives-api
-- description: The customers.invoices API from Google Ads — 1 operation(s) for customers.invoices.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.invoices API from Google Ads — 1 operation(s) for customers.invoices.
   name: Google Ads Customers.invoices API
   slug: google-ads-customers-invoices-api
-- description: The customers.keywordPlanAdGroupKeywords API from Google Ads — 1 operation(s) for customers.keywordplanadgroupkeywords.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.keywordPlanAdGroupKeywords API from Google Ads — 1 operation(s) for customers.keywordplanadgroupkeywords.
   name: Google Ads Customers.keyword Plan Ad Group Keywords API
   slug: google-ads-customers-keywordplanadgroupkeywords-api
-- description: The customers.keywordPlanAdGroups API from Google Ads — 1 operation(s) for customers.keywordplanadgroups.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.keywordPlanAdGroups API from Google Ads — 1 operation(s) for customers.keywordplanadgroups.
   name: Google Ads Customers.keyword Plan Ad Groups API
   slug: google-ads-customers-keywordplanadgroups-api
-- description: The customers.keywordPlanCampaignKeywords API from Google Ads — 1 operation(s) for customers.keywordplancampaignkeywords.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.keywordPlanCampaignKeywords API from Google Ads — 1 operation(s) for customers.keywordplancampaignkeywords.
   name: Google Ads Customers.keyword Plan Campaign Keywords API
   slug: google-ads-customers-keywordplancampaignkeywords-api
-- description: The customers.keywordPlanCampaigns API from Google Ads — 1 operation(s) for customers.keywordplancampaigns.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.keywordPlanCampaigns API from Google Ads — 1 operation(s) for customers.keywordplancampaigns.
   name: Google Ads Customers.keyword Plan Campaigns API
   slug: google-ads-customers-keywordplancampaigns-api
-- description: The customers.keywordPlans API from Google Ads — 1 operation(s) for customers.keywordplans.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.keywordPlans API from Google Ads — 1 operation(s) for customers.keywordplans.
   name: Google Ads Customers.keyword Plans API
   slug: google-ads-customers-keywordplans-api
-- description: The customers.labels API from Google Ads — 1 operation(s) for customers.labels.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.labels API from Google Ads — 1 operation(s) for customers.labels.
   name: Google Ads Customers.labels API
   slug: google-ads-customers-labels-api
-- description: The customers.localServices API from Google Ads — 1 operation(s) for customers.localservices.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.localServices API from Google Ads — 1 operation(s) for customers.localservices.
   name: Google Ads Customers.local Services API
   slug: google-ads-customers-localservices-api
-- description: The customers.localServicesLeads API from Google Ads — 1 operation(s) for customers.localservicesleads.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.localServicesLeads API from Google Ads — 1 operation(s) for customers.localservicesleads.
   name: Google Ads Customers.local Services Leads API
   slug: google-ads-customers-localservicesleads-api
-- description: The customers.multiPartyAuthReview API from Google Ads — 1 operation(s) for customers.multipartyauthreview.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.multiPartyAuthReview API from Google Ads — 1 operation(s) for customers.multipartyauthreview.
   name: Google Ads Customers.multi Party Auth Review API
   slug: google-ads-customers-multipartyauthreview-api
-- description: The customers.offlineUserDataJobs API from Google Ads — 3 operation(s) for customers.offlineuserdatajobs.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.offlineUserDataJobs API from Google Ads — 3 operation(s) for customers.offlineuserdatajobs.
   name: Google Ads Customers.offline User Data Jobs API
   slug: google-ads-customers-offlineuserdatajobs-api
-- description: The customers.operations API from Google Ads — 4 operation(s) for customers.operations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.operations API from Google Ads — 4 operation(s) for customers.operations.
   name: Google Ads Customers.operations API
   slug: google-ads-customers-operations-api
-- description: The customers.paymentsAccounts API from Google Ads — 1 operation(s) for customers.paymentsaccounts.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.paymentsAccounts API from Google Ads — 1 operation(s) for customers.paymentsaccounts.
   name: Google Ads Customers.payments Accounts API
   slug: google-ads-customers-paymentsaccounts-api
-- description: The customers.productLinkInvitations API from Google Ads — 3 operation(s) for customers.productlinkinvitations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.productLinkInvitations API from Google Ads — 3 operation(s) for customers.productlinkinvitations.
   name: Google Ads Customers.product Link Invitations API
   slug: google-ads-customers-productlinkinvitations-api
-- description: The customers.productLinks API from Google Ads — 2 operation(s) for customers.productlinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.productLinks API from Google Ads — 2 operation(s) for customers.productlinks.
   name: Google Ads Customers.product Links API
   slug: google-ads-customers-productlinks-api
-- description: The customers.recommendations API from Google Ads — 3 operation(s) for customers.recommendations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.recommendations API from Google Ads — 3 operation(s) for customers.recommendations.
   name: Google Ads Customers.recommendations API
   slug: google-ads-customers-recommendations-api
-- description: The customers.recommendationSubscriptions API from Google Ads — 1 operation(s) for customers.recommendationsubscriptions.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.recommendationSubscriptions API from Google Ads — 1 operation(s) for customers.recommendationsubscriptions.
   name: Google Ads Customers.recommendation Subscriptions API
   slug: google-ads-customers-recommendationsubscriptions-api
-- description: The customers.remarketingActions API from Google Ads — 1 operation(s) for customers.remarketingactions.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.remarketingActions API from Google Ads — 1 operation(s) for customers.remarketingactions.
   name: Google Ads Customers.remarketing Actions API
   slug: google-ads-customers-remarketingactions-api
-- description: The customers.reservations API from Google Ads — 2 operation(s) for customers.reservations.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.reservations API from Google Ads — 2 operation(s) for customers.reservations.
   name: Google Ads Customers.reservations API
   slug: google-ads-customers-reservations-api
-- description: The customers.sharedCriteria API from Google Ads — 1 operation(s) for customers.sharedcriteria.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.sharedCriteria API from Google Ads — 1 operation(s) for customers.sharedcriteria.
   name: Google Ads Customers.shared Criteria API
   slug: google-ads-customers-sharedcriteria-api
-- description: The customers.sharedSets API from Google Ads — 1 operation(s) for customers.sharedsets.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.sharedSets API from Google Ads — 1 operation(s) for customers.sharedsets.
   name: Google Ads Customers.shared Sets API
   slug: google-ads-customers-sharedsets-api
-- description: The customers.smartCampaignSettings API from Google Ads — 2 operation(s) for customers.smartcampaignsettings.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.smartCampaignSettings API from Google Ads — 2 operation(s) for customers.smartcampaignsettings.
   name: Google Ads Customers.smart Campaign Settings API
   slug: google-ads-customers-smartcampaignsettings-api
-- description: The customers.thirdPartyAppAnalyticsLinks API from Google Ads — 1 operation(s) for customers.thirdpartyappanalyticslinks.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.thirdPartyAppAnalyticsLinks API from Google Ads — 1 operation(s) for customers.thirdpartyappanalyticslinks.
   name: Google Ads Customers.third Party App Analytics Links API
   slug: google-ads-customers-thirdpartyappanalyticslinks-api
-- description: The customers.userListCustomerTypes API from Google Ads — 1 operation(s) for customers.userlistcustomertypes.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.userListCustomerTypes API from Google Ads — 1 operation(s) for customers.userlistcustomertypes.
   name: Google Ads Customers.user List Customer Types API
   slug: google-ads-customers-userlistcustomertypes-api
-- description: The customers.userLists API from Google Ads — 1 operation(s) for customers.userlists.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.userLists API from Google Ads — 1 operation(s) for customers.userlists.
   name: Google Ads Customers.user Lists API
   slug: google-ads-customers-userlists-api
-- description: The customers.youTubeVideoUploads API from Google Ads — 2 operation(s) for customers.youtubevideouploads.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The customers.youTubeVideoUploads API from Google Ads — 2 operation(s) for customers.youtubevideouploads.
   name: Google Ads Customers.you Tube Video Uploads API
   slug: google-ads-customers-youtubevideouploads-api
-- description: The geoTargetConstants API from Google Ads — 1 operation(s) for geotargetconstants.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The geoTargetConstants API from Google Ads — 1 operation(s) for geotargetconstants.
   name: Google Ads Geo Target Constants API
   slug: google-ads-geotargetconstants-api
-- description: The googleAdsFields API from Google Ads — 2 operation(s) for googleadsfields.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The googleAdsFields API from Google Ads — 2 operation(s) for googleadsfields.
   name: Google Ads Google Ads Fields API
   slug: google-ads-googleadsfields-api
-- description: The incentives API from Google Ads — 1 operation(s) for incentives.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The incentives API from Google Ads — 1 operation(s) for incentives.
   name: Google Ads Incentives API
   slug: google-ads-incentives-api
-- description: The keywordThemeConstants API from Google Ads — 1 operation(s) for keywordthemeconstants.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The keywordThemeConstants API from Google Ads — 1 operation(s) for keywordthemeconstants.
   name: Google Ads Keyword Theme Constants API
   slug: google-ads-keywordthemeconstants-api
-- description: The media API from Google Ads — 1 operation(s) for media.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The media API from Google Ads — 1 operation(s) for media.
   name: Google Ads Media API
   slug: google-ads-media-api
-- description: The v25 API from Google Ads — 9 operation(s) for v25.
+- baseURL: https://googleads.googleapis.com
+  baseurl_source: declared
+  description: The v25 API from Google Ads — 9 operation(s) for v25.
   name: Google Ads V25 API
   slug: google-ads-v25-api
 artifact_total: 140
@@ -736,7 +952,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: 'REST API for Apple Music: catalog (songs, albums, artists, music videos, playlists, stations), search, charts, recommendations, and the authenticated user''s library, playlists, and ratings.'
   name: Apple Music API
   slug: catalog-library
-- description: Apple Music catalog resources
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: Apple Music catalog resources
   name: Apple Music Catalog API
   slug: apple-music-catalog-api
-- description: The Charts API from Apple Music — 1 operation(s) for charts.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: The Charts API from Apple Music — 1 operation(s) for charts.
   name: Apple Music Charts API
   slug: apple-music-charts-api
-- description: Authenticated user library resources
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: Authenticated user library resources
   name: Apple Music Library API
   slug: apple-music-library-api
-- description: The Search API from Apple Music — 2 operation(s) for search.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: The Search API from Apple Music — 2 operation(s) for search.
   name: Apple Music Search API
   slug: apple-music-search-api
-- description: The Storefronts API from Apple Music — 3 operation(s) for storefronts.
+- baseURL: https://api.music.apple.com/v1
+  baseurl_source: declared
+  description: The Storefronts API from Apple Music — 3 operation(s) for storefronts.
   name: Apple Music Storefronts API
   slug: apple-music-storefronts-api
 artifact_total: 21
@@ -192,7 +202,7 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/screenshots/apple-music-2026-06-20T172322.png
 security:

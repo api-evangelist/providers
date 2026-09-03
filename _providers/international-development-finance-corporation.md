@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: DFC publishes transaction-level data on its development finance activities including loans, political risk insurance, and equity investments. Data is released as downloadable CSV/Excel datasets rather
@@ -109,7 +109,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-development-finance-corporation/refs/heads/main/screenshots/international-development-finance-corporation-2026-06-20T183455.png
 security:

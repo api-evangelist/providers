@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -59,136 +59,224 @@ apis:
 - description: OneAtlas Radar API is a powerful tool that allows developers to access and integrate radar satellite data into their applications and processes. By utilizing this API, users can access real-time and h
   name: OneAtlas Radar API
   slug: oneatlas-radar-api
-- description: The Access API from Airbus OneAtlas — 13 operation(s) for access.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Access API from Airbus OneAtlas — 13 operation(s) for access.
   name: Airbus OneAtlas Access API
   slug: airbus-oneatlas-access-api
-- description: Allows users to query their current balance.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Allows users to query their current balance.
   name: Airbus OneAtlas accounting/balance API
   slug: airbus-oneatlas-accounting-balance-api
-- description: Allows users to query their transactions.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Allows users to query their transactions.
   name: Airbus OneAtlas accounting/transactions API
   slug: airbus-oneatlas-accounting-transactions-api
-- description: The APIkey management API from Airbus OneAtlas — 2 operation(s) for apikey management.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The APIkey management API from Airbus OneAtlas — 2 operation(s) for apikey management.
   name: Airbus OneAtlas APIkey management API
   slug: airbus-oneatlas-apikey-management-api
-- description: The Attempts API from Airbus OneAtlas — 1 operation(s) for attempts.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Attempts API from Airbus OneAtlas — 1 operation(s) for attempts.
   name: Airbus OneAtlas Attempts API
   slug: airbus-oneatlas-attempts-api
-- description: The Catalog search API from Airbus OneAtlas — 4 operation(s) for catalog search.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Catalog search API from Airbus OneAtlas — 4 operation(s) for catalog search.
   name: Airbus OneAtlas Catalog search API
   slug: airbus-oneatlas-catalog-search-api
-- description: The Contract related Information API from Airbus OneAtlas — 6 operation(s) for contract related information.
+- baseURL: https://order.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Contract related Information API from Airbus OneAtlas — 6 operation(s) for contract related information.
   name: Airbus OneAtlas Contract related Information API
   slug: airbus-oneatlas-contract-related-information-api
-- description: The Contracts API from Airbus OneAtlas — 2 operation(s) for contracts.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Contracts API from Airbus OneAtlas — 2 operation(s) for contracts.
   name: Airbus OneAtlas Contracts API
   slug: airbus-oneatlas-contracts-api
-- description: The Control API from Airbus OneAtlas — 1 operation(s) for control.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Control API from Airbus OneAtlas — 1 operation(s) for control.
   name: Airbus OneAtlas Control API
   slug: airbus-oneatlas-control-api
-- description: The Convert API from Airbus OneAtlas — 1 operation(s) for convert.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Convert API from Airbus OneAtlas — 1 operation(s) for convert.
   name: Airbus OneAtlas Convert API
   slug: airbus-oneatlas-convert-api
-- description: The Deliver API from Airbus OneAtlas — 4 operation(s) for deliver.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Deliver API from Airbus OneAtlas — 4 operation(s) for deliver.
   name: Airbus OneAtlas Deliver API
   slug: airbus-oneatlas-deliver-api
-- description: 'All operations needed to order DEM data: * place orders * show placed orders * download purchased data'
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: 'All operations needed to order DEM data: * place orders * show placed orders * download purchased data'
   name: Airbus OneAtlas elevation/orders API
   slug: airbus-oneatlas-elevation-orders-api
-- description: Endpoint to query to price of an elevation order.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Endpoint to query to price of an elevation order.
   name: Airbus OneAtlas elevation/price API
   slug: airbus-oneatlas-elevation-price-api
-- description: The Feasibility API from Airbus OneAtlas — 1 operation(s) for feasibility.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Feasibility API from Airbus OneAtlas — 1 operation(s) for feasibility.
   name: Airbus OneAtlas Feasibility API
   slug: airbus-oneatlas-feasibility-api
-- description: The Format API from Airbus OneAtlas — 1 operation(s) for format.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Format API from Airbus OneAtlas — 1 operation(s) for format.
   name: Airbus OneAtlas Format API
   slug: airbus-oneatlas-format-api
-- description: The freemium API from Airbus OneAtlas — 1 operation(s) for freemium.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The freemium API from Airbus OneAtlas — 1 operation(s) for freemium.
   name: Airbus OneAtlas freemium API
   slug: airbus-oneatlas-freemium-api
-- description: The Get Capabilities API from Airbus OneAtlas — 1 operation(s) for get capabilities.
+- baseURL: https://view-bm.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Get Capabilities API from Airbus OneAtlas — 1 operation(s) for get capabilities.
   name: Airbus OneAtlas Get Capabilities API
   slug: airbus-oneatlas-get-capabilities-api
-- description: The Health API from Airbus OneAtlas — 1 operation(s) for health.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Health API from Airbus OneAtlas — 1 operation(s) for health.
   name: Airbus OneAtlas Health API
   slug: airbus-oneatlas-health-api
-- description: The Maps API from Airbus OneAtlas — 1 operation(s) for maps.
+- baseURL: https://view-bm.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Maps API from Airbus OneAtlas — 1 operation(s) for maps.
   name: Airbus OneAtlas Maps API
   slug: airbus-oneatlas-maps-api
-- description: The Monitor API from Airbus OneAtlas — 5 operation(s) for monitor.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Monitor API from Airbus OneAtlas — 5 operation(s) for monitor.
   name: Airbus OneAtlas Monitor API
   slug: airbus-oneatlas-monitor-api
-- description: The Notifications API from Airbus OneAtlas — 1 operation(s) for notifications.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Notifications API from Airbus OneAtlas — 1 operation(s) for notifications.
   name: Airbus OneAtlas Notifications API
   slug: airbus-oneatlas-notifications-api
-- description: The Notify API from Airbus OneAtlas — 2 operation(s) for notify.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Notify API from Airbus OneAtlas — 2 operation(s) for notify.
   name: Airbus OneAtlas Notify API
   slug: airbus-oneatlas-notify-api
-- description: The Opensearch API from Airbus OneAtlas — 1 operation(s) for opensearch.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Opensearch API from Airbus OneAtlas — 1 operation(s) for opensearch.
   name: Airbus OneAtlas Opensearch API
   slug: airbus-oneatlas-opensearch-api
-- description: The Ordering API from Airbus OneAtlas — 5 operation(s) for ordering.
+- baseURL: https://order.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Ordering API from Airbus OneAtlas — 5 operation(s) for ordering.
   name: Airbus OneAtlas Ordering API
   slug: airbus-oneatlas-ordering-api
-- description: The Orders API from Airbus OneAtlas — 4 operation(s) for orders.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Orders API from Airbus OneAtlas — 4 operation(s) for orders.
   name: Airbus OneAtlas Orders API
   slug: airbus-oneatlas-orders-api
-- description: The payments API from Airbus OneAtlas — 1 operation(s) for payments.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The payments API from Airbus OneAtlas — 1 operation(s) for payments.
   name: Airbus OneAtlas payments API
   slug: airbus-oneatlas-payments-api
-- description: The Pilot API from Airbus OneAtlas — 1 operation(s) for pilot.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Pilot API from Airbus OneAtlas — 1 operation(s) for pilot.
   name: Airbus OneAtlas Pilot API
   slug: airbus-oneatlas-pilot-api
-- description: The PleiadesNeo specific API from Airbus OneAtlas — 9 operation(s) for pleiadesneo specific.
+- baseURL: https://order.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The PleiadesNeo specific API from Airbus OneAtlas — 9 operation(s) for pleiadesneo specific.
   name: Airbus OneAtlas PleiadesNeo specific API
   slug: airbus-oneatlas-pleiadesneo-specific-api
-- description: The Process API from Airbus OneAtlas — 3 operation(s) for process.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Process API from Airbus OneAtlas — 3 operation(s) for process.
   name: Airbus OneAtlas Process API
   slug: airbus-oneatlas-process-api
-- description: Handle your baskets to order SAR acquisitions.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Handle your baskets to order SAR acquisitions.
   name: Airbus OneAtlas Sar/Baskets API
   slug: airbus-oneatlas-sar-baskets-api
-- description: Endpoint for SAR specific user configuration.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Endpoint for SAR specific user configuration.
   name: Airbus OneAtlas Sar/Config API
   slug: airbus-oneatlas-sar-config-api
-- description: Endpoint to modify an SAR acquisition.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Endpoint to modify an SAR acquisition.
   name: Airbus OneAtlas Sar/Editing API
   slug: airbus-oneatlas-sar-editing-api
-- description: Monitor your ordered SAR acquisitions.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Monitor your ordered SAR acquisitions.
   name: Airbus OneAtlas Sar/Monitoring API
   slug: airbus-oneatlas-sar-monitoring-api
-- description: Query the price of an SAR acquisition.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Query the price of an SAR acquisition.
   name: Airbus OneAtlas Sar/Prices API
   slug: airbus-oneatlas-sar-prices-api
-- description: The Sar/Replication API from Airbus OneAtlas — 3 operation(s) for sar/replication.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: The Sar/Replication API from Airbus OneAtlas — 3 operation(s) for sar/replication.
   name: Airbus OneAtlas Sar/Replication API
   slug: airbus-oneatlas-sar-replication-api
-- description: Endpoint to search for possible SAR acquisitions.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Endpoint to search for possible SAR acquisitions.
   name: Airbus OneAtlas Sar/Search API
   slug: airbus-oneatlas-sar-search-api
-- description: <b>Deprecated!</b> Please use baskets instead.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: <b>Deprecated!</b> Please use baskets instead.
   name: Airbus OneAtlas Sar/Shopcart API
   slug: airbus-oneatlas-sar-shopcart-api
-- description: The SPOT and Pleiades ordering API from Airbus OneAtlas — 1 operation(s) for spot and pleiades ordering.
+- baseURL: https://order.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The SPOT and Pleiades ordering API from Airbus OneAtlas — 1 operation(s) for spot and pleiades ordering.
   name: Airbus OneAtlas SPOT and Pleiades ordering API
   slug: airbus-oneatlas-spot-and-pleiades-ordering-api
-- description: The SPOT and Pleiades specific API from Airbus OneAtlas — 6 operation(s) for spot and pleiades specific.
+- baseURL: https://order.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The SPOT and Pleiades specific API from Airbus OneAtlas — 6 operation(s) for spot and pleiades specific.
   name: Airbus OneAtlas SPOT and Pleiades specific API
   slug: airbus-oneatlas-spot-and-pleiades-specific-api
-- description: The Subscriptions API from Airbus OneAtlas — 12 operation(s) for subscriptions.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Subscriptions API from Airbus OneAtlas — 12 operation(s) for subscriptions.
   name: Airbus OneAtlas Subscriptions API
   slug: airbus-oneatlas-subscriptions-api
-- description: The Tasking API from Airbus OneAtlas — 3 operation(s) for tasking.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Tasking API from Airbus OneAtlas — 3 operation(s) for tasking.
   name: Airbus OneAtlas Tasking API
   slug: airbus-oneatlas-tasking-api
-- description: The Token retrieval API from Airbus OneAtlas — 1 operation(s) for token retrieval.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Token retrieval API from Airbus OneAtlas — 1 operation(s) for token retrieval.
   name: Airbus OneAtlas Token retrieval API
   slug: airbus-oneatlas-token-retrieval-api
-- description: Endpoint for generic user information.
+- baseURL: https://sar.api.oneatlas.airbus.com/v1
+  baseurl_source: spec
+  description: Endpoint for generic user information.
   name: Airbus OneAtlas user API
   slug: airbus-oneatlas-user-api
-- description: The Workspaces API from Airbus OneAtlas — 10 operation(s) for workspaces.
+- baseURL: https://data.api.oneatlas.airbus.com
+  baseurl_source: spec
+  description: The Workspaces API from Airbus OneAtlas — 10 operation(s) for workspaces.
   name: Airbus OneAtlas Workspaces API
   slug: airbus-oneatlas-workspaces-api
 artifact_total: 355
@@ -2202,7 +2290,7 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:

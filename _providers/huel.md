@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Huel US customer forum at discourse.huel.com runs Discourse 2026.8.0 and therefore serves the standard Discourse REST API on a Huel-controlled host. Anonymous GET requests to /site.json, /categori
@@ -147,7 +158,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huel/refs/heads/main/screenshots/huel-2026-08-07T170354.png
 security:

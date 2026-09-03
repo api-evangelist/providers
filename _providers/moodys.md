@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 5
 apis:
-- description: Moody's Analytics Data Buffet application program interface enables you to retrieve economic, demographic and financial time series directly from the Data Buffet repository, including international an
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: Moody's Analytics Data Buffet application program interface enables you to retrieve economic, demographic and financial time series directly from the Data Buffet repository, including international an
   name: Moody's Data Buffet API
   slug: data-buffet-api
 - description: Retrieves expected consumer credit loss forecasts under baseline and stress scenarios. The ECCL API combines customer data, economic data from Moody's Analytics, and consumer credit data for credit ri
@@ -77,49 +79,79 @@ apis:
 - description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
   name: Moody's NewsEdge API
   slug: newsedge-api
-- description: The Audit API from Moody's — 2 operation(s) for audit.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Audit API from Moody's — 2 operation(s) for audit.
   name: Moody's Audit API
   slug: moodys-audit-api
-- description: The DataSeries API from Moody's — 3 operation(s) for dataseries.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The DataSeries API from Moody's — 3 operation(s) for dataseries.
   name: Moody's Data Series API
   slug: moodys-dataseries-api
-- description: The Forecast API from Moody's — 2 operation(s) for forecast.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Forecast API from Moody's — 2 operation(s) for forecast.
   name: Moody's Forecast API
   slug: moodys-forecast-api
-- description: The HealthCheck API from Moody's — 1 operation(s) for healthcheck.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The HealthCheck API from Moody's — 1 operation(s) for healthcheck.
   name: Moody's Health Check API
   slug: moodys-healthcheck-api
-- description: The Interpolation API from Moody's — 1 operation(s) for interpolation.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Interpolation API from Moody's — 1 operation(s) for interpolation.
   name: Moody's Interpolation API
   slug: moodys-interpolation-api
-- description: The Order API from Moody's — 2 operation(s) for order.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Order API from Moody's — 2 operation(s) for order.
   name: Moody's Order API
   slug: moodys-order-api
-- description: The Project API from Moody's — 17 operation(s) for project.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Project API from Moody's — 17 operation(s) for project.
   name: Moody's Project API
   slug: moodys-project-api
-- description: The Scenario API from Moody's — 7 operation(s) for scenario.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Scenario API from Moody's — 7 operation(s) for scenario.
   name: Moody's Scenario API
   slug: moodys-scenario-api
-- description: The SeriesSearch API from Moody's — 2 operation(s) for seriessearch.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The SeriesSearch API from Moody's — 2 operation(s) for seriessearch.
   name: Moody's Series Search API
   slug: moodys-seriessearch-api
-- description: The Universe API from Moody's — 8 operation(s) for universe.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Universe API from Moody's — 8 operation(s) for universe.
   name: Moody's Universe API
   slug: moodys-universe-api
-- description: The Vin API from Moody's — 1 operation(s) for vin.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Vin API from Moody's — 1 operation(s) for vin.
   name: Moody's Vin API
   slug: moodys-vin-api
-- description: The FileTypes API from Moody's — 1 operation(s) for filetypes.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The FileTypes API from Moody's — 1 operation(s) for filetypes.
   name: Moody's File Types API
   slug: moodys-filetypes-api
-- description: The Frequency API from Moody's — 1 operation(s) for frequency.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Frequency API from Moody's — 1 operation(s) for frequency.
   name: Moody's Frequency API
   slug: moodys-frequency-api
-- description: The MultiSeries API from Moody's — 1 operation(s) for multiseries.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The MultiSeries API from Moody's — 1 operation(s) for multiseries.
   name: Moody's Multi Series API
   slug: moodys-multiseries-api
-- description: The Vintage API from Moody's — 1 operation(s) for vintage.
+- baseURL: https://api.economy.com
+  baseurl_source: declared
+  description: The Vintage API from Moody's — 1 operation(s) for vintage.
   name: Moody's Vintage API
   slug: moodys-vintage-api
 artifact_total: 114
@@ -583,7 +615,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -593,7 +625,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 56.9
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -611,7 +643,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

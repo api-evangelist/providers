@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Endpoints for downloading the community blacklist.
+- baseURL: https://api.abuseipdb.com/api/v2/
+  baseurl_source: declared
+  description: Endpoints for downloading the community blacklist.
   name: AbuseIPDB Blacklist API
   slug: abuseipdb-blacklist-api
-- description: Endpoints for managing your own reports.
+- baseURL: https://api.abuseipdb.com/api/v2/
+  baseurl_source: declared
+  description: Endpoints for managing your own reports.
   name: AbuseIPDB Management API
   slug: abuseipdb-management-api
-- description: Endpoints for submitting and retrieving abuse reports.
+- baseURL: https://api.abuseipdb.com/api/v2/
+  baseurl_source: declared
+  description: Endpoints for submitting and retrieving abuse reports.
   name: AbuseIPDB Reports API
   slug: abuseipdb-reports-api
-- description: Endpoints for looking up the abuse data of an IP or CIDR network.
+- baseURL: https://api.abuseipdb.com/api/v2/
+  baseurl_source: declared
+  description: Endpoints for looking up the abuse data of an IP or CIDR network.
   name: AbuseIPDB Reputation API
   slug: abuseipdb-reputation-api
 arazzos:
@@ -407,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
 security:

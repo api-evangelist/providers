@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 12 acting
 api_count: 1
 apis:
-- description: Fraud detector configurations
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Fraud detector configurations
   name: Amazon Fraud Detector Detectors API
   slug: amazon-fraud-detector-detectors-api
-- description: Event schema definitions
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Event schema definitions
   name: Amazon Fraud Detector Event Types API
   slug: amazon-fraud-detector-event-types-api
-- description: Fraud and legitimate transaction labels
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Fraud and legitimate transaction labels
   name: Amazon Fraud Detector Labels API
   slug: amazon-fraud-detector-labels-api
-- description: ML model training and versioning
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: ML model training and versioning
   name: Amazon Fraud Detector Models API
   slug: amazon-fraud-detector-models-api
-- description: Real-time fraud prediction
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Real-time fraud prediction
   name: Amazon Fraud Detector Predictions API
   slug: amazon-fraud-detector-predictions-api
-- description: Business logic rules for fraud decisions
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Business logic rules for fraud decisions
   name: Amazon Fraud Detector Rules API
   slug: amazon-fraud-detector-rules-api
-- description: Resource metadata labels
+- baseURL: https://frauddetector.amazonaws.com
+  baseurl_source: declared
+  description: Resource metadata labels
   name: Amazon Fraud Detector Tags API
   slug: amazon-fraud-detector-tags-api
 arazzos:
@@ -392,7 +406,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/screenshots/amazon-fraud-detector-2026-06-20T171653.png
 security:

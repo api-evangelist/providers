@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 23 operations · 11 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Audio API from Mirage — 1 operation(s) for audio.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Audio API from Mirage — 1 operation(s) for audio.
   name: Mirage Audio API
   slug: mirage-audio-api
-- description: The health API from Mirage — 1 operation(s) for health.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The health API from Mirage — 1 operation(s) for health.
   name: Mirage health API
   slug: mirage-health-api
-- description: The internal API from Mirage — 8 operation(s) for internal.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The internal API from Mirage — 8 operation(s) for internal.
   name: Mirage internal API
   slug: mirage-internal-api
-- description: The Meta Text Overlays API from Mirage — 2 operation(s) for meta text overlays.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Meta Text Overlays API from Mirage — 2 operation(s) for meta text overlays.
   name: Mirage Meta Text Overlays API
   slug: mirage-meta-text-overlays-api
-- description: The root API from Mirage — 1 operation(s) for root.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The root API from Mirage — 1 operation(s) for root.
   name: Mirage root API
   slug: mirage-root-api
-- description: The Video Captions API from Mirage — 3 operation(s) for video captions.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Video Captions API from Mirage — 3 operation(s) for video captions.
   name: Mirage Video Captions API
   slug: mirage-video-captions-api
-- description: The Videos API from Mirage — 3 operation(s) for videos.
+- baseURL: https://api.mirage.app
+  baseurl_source: declared
+  description: The Videos API from Mirage — 3 operation(s) for videos.
   name: Mirage Videos API
   slug: mirage-videos-api
 artifact_total: 20
@@ -227,7 +241,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -237,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirage/refs/heads/main/screenshots/mirage-2026-08-07T183717.png
 security:

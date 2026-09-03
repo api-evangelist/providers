@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Operations for creating and managing Aurora database clusters
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing Aurora database clusters
   name: Amazon RDS DB Clusters API
   slug: amazon-rds-db-clusters-api
-- description: Operations for describing available database engine versions
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: Operations for describing available database engine versions
   name: Amazon RDS DB Engine Versions API
   slug: amazon-rds-db-engine-versions-api
-- description: Operations for creating, managing, and deleting RDS database instances
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, managing, and deleting RDS database instances
   name: Amazon RDS DB Instances API
   slug: amazon-rds-db-instances-api
-- description: Operations for creating and managing database snapshots
+- baseURL: https://rds.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing database snapshots
   name: Amazon RDS DB Snapshots API
   slug: amazon-rds-db-snapshots-api
 arazzos:
@@ -638,7 +646,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:

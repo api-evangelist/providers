@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 151 operations · 74 acting
 api_count: 1
 apis:
-- description: The Authentication API from Kayhan Space — 8 operation(s) for authentication.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Authentication API from Kayhan Space — 8 operation(s) for authentication.
   name: Kayhan Space Authentication API
   slug: kayhan-space-authentication-api
-- description: The Catalog API from Kayhan Space — 3 operation(s) for catalog.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Catalog API from Kayhan Space — 3 operation(s) for catalog.
   name: Kayhan Space Catalog API
   slug: kayhan-space-catalog-api
-- description: The Conjunction API from Kayhan Space — 8 operation(s) for conjunction.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Conjunction API from Kayhan Space — 8 operation(s) for conjunction.
   name: Kayhan Space Conjunction API
   slug: kayhan-space-conjunction-api
-- description: The Ephemeris API from Kayhan Space — 11 operation(s) for ephemeris.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Ephemeris API from Kayhan Space — 11 operation(s) for ephemeris.
   name: Kayhan Space Ephemeris API
   slug: kayhan-space-ephemeris-api
-- description: The Events API from Kayhan Space — 2 operation(s) for events.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Events API from Kayhan Space — 2 operation(s) for events.
   name: Kayhan Space Events API
   slug: kayhan-space-events-api
-- description: The Health API from Kayhan Space — 1 operation(s) for health.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Health API from Kayhan Space — 1 operation(s) for health.
   name: Kayhan Space Health API
   slug: kayhan-space-health-api
-- description: The Launch Screening API from Kayhan Space — 5 operation(s) for launch screening.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Launch Screening API from Kayhan Space — 5 operation(s) for launch screening.
   name: Kayhan Space Launch Screening API
   slug: kayhan-space-launch-screening-api
-- description: The LEOP API from Kayhan Space — 5 operation(s) for leop.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The LEOP API from Kayhan Space — 5 operation(s) for leop.
   name: Kayhan Space LEOP API
   slug: kayhan-space-leop-api
-- description: The Maneuver Designer API from Kayhan Space — 6 operation(s) for maneuver designer.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Maneuver Designer API from Kayhan Space — 6 operation(s) for maneuver designer.
   name: Kayhan Space Maneuver Designer API
   slug: kayhan-space-maneuver-designer-api
-- description: The Metrics API from Kayhan Space — 1 operation(s) for metrics.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Metrics API from Kayhan Space — 1 operation(s) for metrics.
   name: Kayhan Space Metrics API
   slug: kayhan-space-metrics-api
-- description: The Mission Planning API from Kayhan Space — 3 operation(s) for mission planning.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Mission Planning API from Kayhan Space — 3 operation(s) for mission planning.
   name: Kayhan Space Mission Planning API
   slug: kayhan-space-mission-planning-api
-- description: The Mitigation API from Kayhan Space — 4 operation(s) for mitigation.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Mitigation API from Kayhan Space — 4 operation(s) for mitigation.
   name: Kayhan Space Mitigation API
   slug: kayhan-space-mitigation-api
-- description: The NLP API from Kayhan Space — 3 operation(s) for nlp.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The NLP API from Kayhan Space — 3 operation(s) for nlp.
   name: Kayhan Space NLP API
   slug: kayhan-space-nlp-api
-- description: The Orbital Determination API from Kayhan Space — 7 operation(s) for orbital determination.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Orbital Determination API from Kayhan Space — 7 operation(s) for orbital determination.
   name: Kayhan Space Orbital Determination API
   slug: kayhan-space-orbital-determination-api
-- description: The Plot API from Kayhan Space — 7 operation(s) for plot.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Plot API from Kayhan Space — 7 operation(s) for plot.
   name: Kayhan Space Plot API
   slug: kayhan-space-plot-api
-- description: The Propagation API from Kayhan Space — 11 operation(s) for propagation.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Propagation API from Kayhan Space — 11 operation(s) for propagation.
   name: Kayhan Space Propagation API
   slug: kayhan-space-propagation-api
-- description: The Satcat Service API API from Kayhan Space — 1 operation(s) for satcat service api.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Satcat Service API API from Kayhan Space — 1 operation(s) for satcat service api.
   name: Kayhan Space Satcat Service API API
   slug: kayhan-space-satcat-service-api-api
-- description: The Screening API from Kayhan Space — 23 operation(s) for screening.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Screening API from Kayhan Space — 23 operation(s) for screening.
   name: Kayhan Space Screening API
   slug: kayhan-space-screening-api
-- description: The State Vector API from Kayhan Space — 4 operation(s) for state vector.
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The State Vector API from Kayhan Space — 4 operation(s) for state vector.
   name: Kayhan Space State Vector API
   slug: kayhan-space-state-vector-api
-- description: The Two Line Elements (TLEs) API from Kayhan Space — 2 operation(s) for two line elements (tles).
+- baseURL: https://api.satcat.com/api/satcat
+  baseurl_source: declared
+  description: The Two Line Elements (TLEs) API from Kayhan Space — 2 operation(s) for two line elements (tles).
   name: Kayhan Space Two Line Elements (TLEs) API
   slug: kayhan-space-two-line-elements-tles-api
 arazzos:
@@ -344,7 +384,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

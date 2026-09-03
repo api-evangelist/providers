@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: MyCase Webhooks deliver event notifications when records change in the MyCase platform (for example case, event, task, and document lifecycle events). Webhook subscriptions are documented alongside th
   name: MyCase Webhooks
   slug: webhooks
-- description: Configured case stages for the firm.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: Configured case stages for the firm.
   name: MyCase Case Stages API
   slug: mycase-case-stages-api
-- description: Cases (matters) for the firm, and case-scoped sub-resources.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: Cases (matters) for the firm, and case-scoped sub-resources.
   name: MyCase Cases API
   slug: mycase-cases-api
-- description: Companies visible to the authorized user.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: Companies visible to the authorized user.
   name: MyCase Companies API
   slug: mycase-companies-api
-- description: People and client relationships associated with cases.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: People and client relationships associated with cases.
   name: MyCase Contacts API
   slug: mycase-contacts-api
-- description: Documents and document folders associated with a case.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: Documents and document folders associated with a case.
   name: MyCase Documents API
   slug: mycase-documents-api
-- description: Calendar events on the firm calendar.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: Calendar events on the firm calendar.
   name: MyCase Events API
   slug: mycase-events-api
-- description: The authorized firm of the current API user.
+- baseURL: https://api.mycase.com
+  baseurl_source: spec
+  description: The authorized firm of the current API user.
   name: MyCase Firm API
   slug: mycase-firm-api
 artifact_total: 23
@@ -299,7 +313,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-08-17T083502.png
 security:

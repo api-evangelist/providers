@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -58,40 +58,64 @@ apis:
 - description: GraphQL subgraph API powered by The Graph for querying indexed on-chain data from Exactly Protocol on Ethereum mainnet and Optimism. Supports advanced queries including aggregation, filtering, relatio
   name: Exactly Protocol Subgraph API (The Graph)
   slug: exactly-protocol-subgraph-api-the-graph
-- description: ERC-4626 vault standard methods
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: ERC-4626 vault standard methods
   name: Exactly Protocol ERC-4626 API
   slug: exactly-erc-4626-api
-- description: Fixed rate maturity pool operations
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Fixed rate maturity pool operations
   name: Exactly Protocol Fixed Rate API
   slug: exactly-fixed-rate-api
-- description: Liquidation eligibility and seizure calculations
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Liquidation eligibility and seizure calculations
   name: Exactly Protocol Liquidations API
   slug: exactly-liquidations-api
-- description: Account liquidity and collateral checks
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Account liquidity and collateral checks
   name: Exactly Protocol Liquidity API
   slug: exactly-liquidity-api
-- description: Write methods for market configuration (admin only)
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Write methods for market configuration (admin only)
   name: Exactly Protocol Market Management API
   slug: exactly-market-management-api
-- description: View methods for querying market state
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: View methods for querying market state
   name: Exactly Protocol Market State API
   slug: exactly-market-state-api
-- description: Market listing and configuration queries
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Market listing and configuration queries
   name: Exactly Protocol Markets API
   slug: exactly-markets-api
-- description: Read-only preview methods for Exactly Protocol markets
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Read-only preview methods for Exactly Protocol markets
   name: Exactly Protocol Previewer API
   slug: exactly-previewer-api
-- description: Reward program configuration and indexes
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Reward program configuration and indexes
   name: Exactly Protocol Reward Configuration API
   slug: exactly-reward-configuration-api
-- description: Write methods for claiming earned rewards
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Write methods for claiming earned rewards
   name: Exactly Protocol Rewards Claims API
   slug: exactly-rewards-claims-api
-- description: View methods for querying reward state and amounts
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: View methods for querying reward state and amounts
   name: Exactly Protocol Rewards Query API
   slug: exactly-rewards-query-api
-- description: Floating/variable rate deposit and borrow operations
+- baseURL: https://app.exact.ly
+  baseurl_source: declared
+  description: Floating/variable rate deposit and borrow operations
   name: Exactly Protocol Variable Rate API
   slug: exactly-variable-rate-api
 artifact_total: 43
@@ -304,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exactly/refs/heads/main/screenshots/exactly-2026-06-20T180920.png
 security:

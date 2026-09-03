@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: The Blogs API from Google Blogger — 8 operation(s) for blogs.
+- baseURL: https://www.googleapis.com/blogger/v3
+  baseurl_source: declared
+  description: The Blogs API from Google Blogger — 8 operation(s) for blogs.
   name: Google Blogger Blogs API
   slug: google-blogger-blogs-api
-- description: The Users API from Google Blogger — 2 operation(s) for users.
+- baseURL: https://www.googleapis.com/blogger/v3
+  baseurl_source: declared
+  description: The Users API from Google Blogger — 2 operation(s) for users.
   name: Google Blogger Users API
   slug: google-blogger-users-api
 artifact_total: 17
@@ -181,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-blogger/refs/heads/main/screenshots/google-blogger-2026-06-20T182025.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 1
 apis:
-- description: Administer the ActivTrak account (clients, consumers). Beta.
+- baseURL: https://api.activtrak.com
+  baseurl_source: declared
+  description: Administer the ActivTrak account (clients, consumers). Beta.
   name: ActivTrak Administration API
   slug: activtrak-administration-api
-- description: SCIM 2.0 user and group management. Beta.
+- baseURL: https://api.activtrak.com
+  baseurl_source: declared
+  description: SCIM 2.0 user and group management. Beta.
   name: ActivTrak Administration - SCIM API
   slug: activtrak-administration-scim-api
-- description: HR Data Connector - submit CSV bulk user data.
+- baseURL: https://api.activtrak.com
+  baseurl_source: declared
+  description: HR Data Connector - submit CSV bulk user data.
   name: ActivTrak Bulk Import API
   slug: activtrak-bulk-import-api
-- description: Live Data API - query activity reports (Working Hours, Activity Log).
+- baseURL: https://api.activtrak.com
+  baseurl_source: declared
+  description: Live Data API - query activity reports (Working Hours, Activity Log).
   name: ActivTrak Reports API
   slug: activtrak-reports-api
 artifact_total: 15
@@ -204,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activtrak/refs/heads/main/screenshots/activtrak-2026-07-25T181531.png
 security:

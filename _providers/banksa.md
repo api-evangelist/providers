@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: BankSA Banking Account Balances API
   slug: banksa-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: BankSA Banking Account Direct Debits API
   slug: banksa-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: BankSA Banking Account Scheduled Payments API
   slug: banksa-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: BankSA Banking Account Transactions API
   slug: banksa-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: BankSA Banking Accounts API
   slug: banksa-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: BankSA Banking Payees API
   slug: banksa-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://digital-api.banksa.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: BankSA Banking Products API
   slug: banksa-banking-products-api
 artifact_total: 21
@@ -257,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 73.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/banksa/refs/heads/main/screenshots/banksa-2026-07-21T114709.png
 security:

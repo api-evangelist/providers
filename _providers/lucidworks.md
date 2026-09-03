@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Fusion REST APIs administer collections, indexing pipelines, query pipelines, connectors, and search apps inside the Lucidworks Fusion platform. The legacy Custom Rules API for Fusion 5.7 is part of t
   name: Lucidworks Fusion REST API
   slug: fusion
-- description: Split content into chunks
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Split content into chunks
   name: Lucidworks Chunking API
   slug: lucidworks-chunking-api
-- description: Predict ranked labels
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Predict ranked labels
   name: Lucidworks Classification API
   slug: lucidworks-classification-api
-- description: Manage model deployments
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Manage model deployments
   name: Lucidworks Deployments API
   slug: lucidworks-deployments-api
-- description: Generate vector encodings
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Generate vector encodings
   name: Lucidworks Embeddings API
   slug: lucidworks-embeddings-api
-- description: Manage models
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Manage models
   name: Lucidworks Models API
   slug: lucidworks-models-api
-- description: Submit prediction requests by use case
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Submit prediction requests by use case
   name: Lucidworks Predictions API
   slug: lucidworks-predictions-api
-- description: Manage query rewrite rules
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Manage query rewrite rules
   name: Lucidworks QueryRewrites API
   slug: lucidworks-queryrewrites-api
-- description: Fetch prediction results
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Fetch prediction results
   name: Lucidworks Results API
   slug: lucidworks-results-api
-- description: Manage custom business rules
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Manage custom business rules
   name: Lucidworks Rules API
   slug: lucidworks-rules-api
-- description: Capture and retrieve user behavior signals
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Capture and retrieve user behavior signals
   name: Lucidworks Signals API
   slug: lucidworks-signals-api
-- description: Tokenize text by model
+- baseURL: https://api.lucidworks.ai
+  baseurl_source: declared
+  description: Tokenize text by model
   name: Lucidworks Tokenization API
   slug: lucidworks-tokenization-api
 artifact_total: 57
@@ -314,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidworks/refs/heads/main/screenshots/lucidworks-2026-06-20T184745.png
 security:

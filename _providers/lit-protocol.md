@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: 'Threshold-cryptography network of Lit nodes accessed via the Lit JS SDK for signing, encryption, decryption, and Lit Action execution. Direct REST access is via the Chipotle API; raw node JSON-RPC is '
   name: Lit Network Node JSON-RPC (SDK-mediated)
   slug: network-rpc
-- description: The Account Management API from Lit Protocol — 28 operation(s) for account management.
+- baseURL: https://api.chipotle.litprotocol.com/core/v1
+  baseurl_source: declared
+  description: The Account Management API from Lit Protocol — 28 operation(s) for account management.
   name: Lit Protocol Account Management API
   slug: lit-protocol-account-management-api
-- description: The Actions API from Lit Protocol — 1 operation(s) for actions.
+- baseURL: https://api.chipotle.litprotocol.com/core/v1
+  baseurl_source: declared
+  description: The Actions API from Lit Protocol — 1 operation(s) for actions.
   name: Lit Protocol Actions API
   slug: lit-protocol-actions-api
-- description: The Billing API from Lit Protocol — 4 operation(s) for billing.
+- baseURL: https://api.chipotle.litprotocol.com/core/v1
+  baseurl_source: declared
+  description: The Billing API from Lit Protocol — 4 operation(s) for billing.
   name: Lit Protocol Billing API
   slug: lit-protocol-billing-api
-- description: The Configuration API from Lit Protocol — 4 operation(s) for configuration.
+- baseURL: https://api.chipotle.litprotocol.com/core/v1
+  baseurl_source: declared
+  description: The Configuration API from Lit Protocol — 4 operation(s) for configuration.
   name: Lit Protocol Configuration API
   slug: lit-protocol-configuration-api
 artifact_total: 58
@@ -310,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lit-protocol/refs/heads/main/screenshots/lit-protocol-2026-06-20T184559.png
 security:

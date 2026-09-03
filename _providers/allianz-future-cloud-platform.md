@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 5
 apis:
-- description: Deployment lifecycle management operations
+- baseURL: https://platform.allianz.com/api/v1
+  baseurl_source: declared
+  description: Deployment lifecycle management operations
   name: Allianz Future Cloud Platform Deployments API
   slug: allianz-future-cloud-platform-deployments-api
-- description: Infrastructure provisioning and management operations
+- baseURL: https://platform.allianz.com/api/v1
+  baseurl_source: declared
+  description: Infrastructure provisioning and management operations
   name: Allianz Future Cloud Platform Infrastructure API
   slug: allianz-future-cloud-platform-infrastructure-api
-- description: Kubernetes namespace management operations
+- baseURL: https://platform.allianz.com/api/v1
+  baseurl_source: declared
+  description: Kubernetes namespace management operations
   name: Allianz Future Cloud Platform Namespaces API
   slug: allianz-future-cloud-platform-namespaces-api
-- description: Monitoring, metrics, and alerting configuration operations
+- baseURL: https://platform.allianz.com/api/v1
+  baseurl_source: declared
+  description: Monitoring, metrics, and alerting configuration operations
   name: Allianz Future Cloud Platform Observability API
   slug: allianz-future-cloud-platform-observability-api
-- description: Service registration and management operations
+- baseURL: https://platform.allianz.com/api/v1
+  baseurl_source: declared
+  description: Service registration and management operations
   name: Allianz Future Cloud Platform Services API
   slug: allianz-future-cloud-platform-services-api
 artifact_total: 72
@@ -371,7 +381,7 @@ score:
     regime_id: insurance
     score: 60.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,37 +44,55 @@ agentic_access:
   summary_line: 17 operations · 4 acting
 api_count: 1
 apis:
-- description: Endpoint suite for discovering tradable financial instruments on the DEGIRO platform. Supports full-text search across stocks, ETFs, bonds, options, futures, warrants, leveraged products, and investme
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: Endpoint suite for discovering tradable financial instruments on the DEGIRO platform. Supports full-text search across stocks, ETFs, bonds, options, futures, warrants, leveraged products, and investme
   name: DEGIRO Product Search API
   slug: degiro-product-search-api
 - description: Real-time market data streaming service providing live ticker subscriptions for price, volume, bid/ask, and OHLC metrics across tradable instruments. Supports chart data retrieval with multiple time r
   name: DEGIRO Quotecast API
   slug: degiro-quotecast-api
-- description: Account reporting endpoint providing downloadable financial statements and transaction records in multiple formats including CSV, HTML, PDF, and XLS. Supports account reports, transaction history expo
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: Account reporting endpoint providing downloadable financial statements and transaction records in multiple formats including CSV, HTML, PDF, and XLS. Supports account reports, transaction history expo
   name: DEGIRO Reporting API
   slug: degiro-reporting-api
 - description: Company intelligence endpoints providing news feeds, company profiles, financial ratios, income statements, balance sheets, analyst estimates, and corporate event agendas (earnings, dividends, IPOs, s
   name: DEGIRO News and Company Intelligence API
   slug: degiro-news-and-company-intelligence-api
-- description: The config API from DEGIRO — 1 operation(s) for config.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The config API from DEGIRO — 1 operation(s) for config.
   name: DEGIRO config API
   slug: degiro-config-api
-- description: The login API from DEGIRO — 1 operation(s) for login.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The login API from DEGIRO — 1 operation(s) for login.
   name: DEGIRO login API
   slug: degiro-login-api
-- description: The pa API from DEGIRO — 3 operation(s) for pa.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The pa API from DEGIRO — 3 operation(s) for pa.
   name: DEGIRO pa API
   slug: degiro-pa-api
-- description: The product-search API from DEGIRO — 1 operation(s) for product-search.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The product-search API from DEGIRO — 1 operation(s) for product-search.
   name: DEGIRO product-search API
   slug: degiro-product-search-api
-- description: The reporting API from DEGIRO — 2 operation(s) for reporting.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The reporting API from DEGIRO — 2 operation(s) for reporting.
   name: DEGIRO reporting API
   slug: degiro-reporting-api
-- description: The settings API from DEGIRO — 4 operation(s) for settings.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The settings API from DEGIRO — 4 operation(s) for settings.
   name: DEGIRO settings API
   slug: degiro-settings-api
-- description: The trading API from DEGIRO — 4 operation(s) for trading.
+- baseURL: https://trader.degiro.nl
+  baseurl_source: declared
+  description: The trading API from DEGIRO — 4 operation(s) for trading.
   name: DEGIRO trading API
   slug: degiro-trading-api
 artifact_total: 36
@@ -258,7 +276,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/degiro/refs/heads/main/screenshots/degiro-2026-08-17T080852.png
 security:

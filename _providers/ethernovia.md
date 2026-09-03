@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,52 +34,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Audit-user-trail API from Ethernovia — 2 operation(s) for audit-user-trail.
   name: Ethernovia Audit User Trail API
   slug: ethernovia-audit-user-trail-api
-- description: The Ec-document API from Ethernovia — 2 operation(s) for ec-document.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-document API from Ethernovia — 2 operation(s) for ec-document.
   name: Ethernovia Ec Document API
   slug: ethernovia-ec-document-api
-- description: The Ec-document-type API from Ethernovia — 2 operation(s) for ec-document-type.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-document-type API from Ethernovia — 2 operation(s) for ec-document-type.
   name: Ethernovia Ec Document Type API
   slug: ethernovia-ec-document-type-api
-- description: The Ec-excluded-domain API from Ethernovia — 2 operation(s) for ec-excluded-domain.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-excluded-domain API from Ethernovia — 2 operation(s) for ec-excluded-domain.
   name: Ethernovia Ec Excluded Domain API
   slug: ethernovia-ec-excluded-domain-api
-- description: The Ec-group API from Ethernovia — 2 operation(s) for ec-group.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-group API from Ethernovia — 2 operation(s) for ec-group.
   name: Ethernovia Ec Group API
   slug: ethernovia-ec-group-api
-- description: The Ec-product API from Ethernovia — 2 operation(s) for ec-product.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-product API from Ethernovia — 2 operation(s) for ec-product.
   name: Ethernovia Ec Product API
   slug: ethernovia-ec-product-api
-- description: The Ec-product-category API from Ethernovia — 2 operation(s) for ec-product-category.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-product-category API from Ethernovia — 2 operation(s) for ec-product-category.
   name: Ethernovia Ec Product Category API
   slug: ethernovia-ec-product-category-api
-- description: The Ec-product-family API from Ethernovia — 2 operation(s) for ec-product-family.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-product-family API from Ethernovia — 2 operation(s) for ec-product-family.
   name: Ethernovia Ec Product Family API
   slug: ethernovia-ec-product-family-api
-- description: The Ec-send-alert-email API from Ethernovia — 2 operation(s) for ec-send-alert-email.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-send-alert-email API from Ethernovia — 2 operation(s) for ec-send-alert-email.
   name: Ethernovia Ec Send Alert Email API
   slug: ethernovia-ec-send-alert-email-api
-- description: The Ec-software-package API from Ethernovia — 2 operation(s) for ec-software-package.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-software-package API from Ethernovia — 2 operation(s) for ec-software-package.
   name: Ethernovia Ec Software Package API
   slug: ethernovia-ec-software-package-api
-- description: The Ec-status API from Ethernovia — 2 operation(s) for ec-status.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Ec-status API from Ethernovia — 2 operation(s) for ec-status.
   name: Ethernovia Ec Status API
   slug: ethernovia-ec-status-api
-- description: The My-download API from Ethernovia — 2 operation(s) for my-download.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The My-download API from Ethernovia — 2 operation(s) for my-download.
   name: Ethernovia My Download API
   slug: ethernovia-my-download-api
-- description: The Upload - File API from Ethernovia — 4 operation(s) for upload - file.
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: The Upload - File API from Ethernovia — 4 operation(s) for upload - file.
   name: Ethernovia Upload - File API
   slug: ethernovia-upload-file-api
-- description: Authentication endpoints
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Ethernovia Users-Permissions - Auth API
   slug: ethernovia-users-permissions-auth-api
-- description: Users, roles, and permissions endpoints
+- baseURL: https://portal-admin.ethernovia.com/api
+  baseurl_source: declared
+  description: Users, roles, and permissions endpoints
   name: Ethernovia Users-Permissions - Users & Roles API
   slug: ethernovia-users-permissions-users-roles-api
 artifact_total: 33
@@ -271,7 +312,7 @@ score:
       total: 15
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethernovia/refs/heads/main/screenshots/ethernovia-2026-08-07T165022.png
 security:

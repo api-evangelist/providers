@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -50,121 +50,199 @@ apis:
 - description: The Basware SmartPDF API provides PDF document processing and conversion capabilities within the Basware platform. It enables automated extraction and processing of invoice data from PDF documents, su
   name: Basware SmartPDF API
   slug: basware-smartpdf-api
-- description: The AccountingDocuments API from Basware — 9 operation(s) for accountingdocuments.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The AccountingDocuments API from Basware — 9 operation(s) for accountingdocuments.
   name: Basware AccountingDocuments API
   slug: basware-accountingdocuments-api
-- description: The Accounts API from Basware — 2 operation(s) for accounts.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Accounts API from Basware — 2 operation(s) for accounts.
   name: Basware Accounts API
   slug: basware-accounts-api
-- description: The AdvancedPermissions API from Basware — 2 operation(s) for advancedpermissions.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The AdvancedPermissions API from Basware — 2 operation(s) for advancedpermissions.
   name: Basware AdvancedPermissions API
   slug: basware-advancedpermissions-api
-- description: The AdvancedValidations API from Basware — 2 operation(s) for advancedvalidations.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The AdvancedValidations API from Basware — 2 operation(s) for advancedvalidations.
   name: Basware AdvancedValidations API
   slug: basware-advancedvalidations-api
-- description: The ApplicationGroups API from Basware — 2 operation(s) for applicationgroups.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ApplicationGroups API from Basware — 2 operation(s) for applicationgroups.
   name: Basware ApplicationGroups API
   slug: basware-applicationgroups-api
-- description: The Companies (deprecated) API from Basware — 2 operation(s) for companies (deprecated).
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Companies (deprecated) API from Basware — 2 operation(s) for companies (deprecated).
   name: Basware Companies (deprecated) API
   slug: basware-companies-deprecated-api
-- description: The Contracts API from Basware — 2 operation(s) for contracts.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Contracts API from Basware — 2 operation(s) for contracts.
   name: Basware Contracts API
   slug: basware-contracts-api
-- description: The CostCenters API from Basware — 2 operation(s) for costcenters.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The CostCenters API from Basware — 2 operation(s) for costcenters.
   name: Basware CostCenters API
   slug: basware-costcenters-api
-- description: The Data extract API from Basware — 5 operation(s) for data extract.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Data extract API from Basware — 5 operation(s) for data extract.
   name: Basware Data extract API
   slug: basware-data-extract-api
-- description: The Directory France lookup API from Basware — 1 operation(s) for directory france lookup.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Directory France lookup API from Basware — 1 operation(s) for directory france lookup.
   name: Basware Directory France lookup API
   slug: basware-directory-france-lookup-api
-- description: The Document Import API API from Basware — 1 operation(s) for document import api.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Document Import API API from Basware — 1 operation(s) for document import api.
   name: Basware Document Import API API
   slug: basware-document-import-api-api
-- description: The ErrorFeedbacks API from Basware — 3 operation(s) for errorfeedbacks.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ErrorFeedbacks API from Basware — 3 operation(s) for errorfeedbacks.
   name: Basware ErrorFeedbacks API
   slug: basware-errorfeedbacks-api
-- description: The ExchangeRates API from Basware — 2 operation(s) for exchangerates.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ExchangeRates API from Basware — 2 operation(s) for exchangerates.
   name: Basware ExchangeRates API
   slug: basware-exchangerates-api
-- description: The ExportedContracts API from Basware — 3 operation(s) for exportedcontracts.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ExportedContracts API from Basware — 3 operation(s) for exportedcontracts.
   name: Basware ExportedContracts API
   slug: basware-exportedcontracts-api
-- description: The ExportedContractSpends API from Basware — 3 operation(s) for exportedcontractspends.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ExportedContractSpends API from Basware — 3 operation(s) for exportedcontractspends.
   name: Basware ExportedContractSpends API
   slug: basware-exportedcontractspends-api
-- description: The ExportedPurchaseOrders API from Basware — 3 operation(s) for exportedpurchaseorders.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ExportedPurchaseOrders API from Basware — 3 operation(s) for exportedpurchaseorders.
   name: Basware ExportedPurchaseOrders API
   slug: basware-exportedpurchaseorders-api
-- description: The ExportedPurchaseRequisitions API from Basware — 3 operation(s) for exportedpurchaserequisitions.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The ExportedPurchaseRequisitions API from Basware — 3 operation(s) for exportedpurchaserequisitions.
   name: Basware ExportedPurchaseRequisitions API
   slug: basware-exportedpurchaserequisitions-api
-- description: The GenericLists API from Basware — 2 operation(s) for genericlists.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The GenericLists API from Basware — 2 operation(s) for genericlists.
   name: Basware GenericLists API
   slug: basware-genericlists-api
-- description: The MatchingOrderLines API from Basware — 2 operation(s) for matchingorderlines.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The MatchingOrderLines API from Basware — 2 operation(s) for matchingorderlines.
   name: Basware MatchingOrderLines API
   slug: basware-matchingorderlines-api
-- description: The MatchingOrders API from Basware — 2 operation(s) for matchingorders.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The MatchingOrders API from Basware — 2 operation(s) for matchingorders.
   name: Basware MatchingOrders API
   slug: basware-matchingorders-api
-- description: The Notification history API from Basware — 2 operation(s) for notification history.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Notification history API from Basware — 2 operation(s) for notification history.
   name: Basware Notification history API
   slug: basware-notification-history-api
-- description: The Organizations API from Basware — 2 operation(s) for organizations.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Organizations API from Basware — 2 operation(s) for organizations.
   name: Basware Organizations API
   slug: basware-organizations-api
-- description: The PaymentTerms API from Basware — 2 operation(s) for paymentterms.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The PaymentTerms API from Basware — 2 operation(s) for paymentterms.
   name: Basware PaymentTerms API
   slug: basware-paymentterms-api
-- description: The Projects v1 (deprecated) API from Basware — 2 operation(s) for projects v1 (deprecated).
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Projects v1 (deprecated) API from Basware — 2 operation(s) for projects v1 (deprecated).
   name: Basware Projects v1 (deprecated) API
   slug: basware-projects-v1-deprecated-api
-- description: The Projects v2 API from Basware — 2 operation(s) for projects v2.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Projects v2 API from Basware — 2 operation(s) for projects v2.
   name: Basware Projects v2 API
   slug: basware-projects-v2-api
-- description: The PurchaseGoodsReceipts API from Basware — 2 operation(s) for purchasegoodsreceipts.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The PurchaseGoodsReceipts API from Basware — 2 operation(s) for purchasegoodsreceipts.
   name: Basware PurchaseGoodsReceipts API
   slug: basware-purchasegoodsreceipts-api
-- description: The PurchaseOrders API from Basware — 2 operation(s) for purchaseorders.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The PurchaseOrders API from Basware — 2 operation(s) for purchaseorders.
   name: Basware PurchaseOrders API
   slug: basware-purchaseorders-api
-- description: The PurchaseRequisitions API from Basware — 2 operation(s) for purchaserequisitions.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The PurchaseRequisitions API from Basware — 2 operation(s) for purchaserequisitions.
   name: Basware PurchaseRequisitions API
   slug: basware-purchaserequisitions-api
-- description: The RequestStatus API from Basware — 3 operation(s) for requeststatus.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The RequestStatus API from Basware — 3 operation(s) for requeststatus.
   name: Basware RequestStatus API
   slug: basware-requeststatus-api
-- description: The Subscribe to notifications API from Basware — 1 operation(s) for subscribe to notifications.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Subscribe to notifications API from Basware — 1 operation(s) for subscribe to notifications.
   name: Basware Subscribe to notifications API
   slug: basware-subscribe-to-notifications-api
-- description: The TaxCodes API from Basware — 2 operation(s) for taxcodes.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The TaxCodes API from Basware — 2 operation(s) for taxcodes.
   name: Basware TaxCodes API
   slug: basware-taxcodes-api
-- description: The Tokens API from Basware — 1 operation(s) for tokens.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Tokens API from Basware — 1 operation(s) for tokens.
   name: Basware Tokens API
   slug: basware-tokens-api
-- description: The UserGroupAssociatedUsers API from Basware — 1 operation(s) for usergroupassociatedusers.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The UserGroupAssociatedUsers API from Basware — 1 operation(s) for usergroupassociatedusers.
   name: Basware UserGroupAssociatedUsers API
   slug: basware-usergroupassociatedusers-api
-- description: The UserGroups API from Basware — 2 operation(s) for usergroups.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The UserGroups API from Basware — 2 operation(s) for usergroups.
   name: Basware UserGroups API
   slug: basware-usergroups-api
-- description: The Users API from Basware — 2 operation(s) for users.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Users API from Basware — 2 operation(s) for users.
   name: Basware Users API
   slug: basware-users-api
-- description: The Vault Archiving API from Basware — 4 operation(s) for vault archiving.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Vault Archiving API from Basware — 4 operation(s) for vault archiving.
   name: Basware Vault Archiving API
   slug: basware-vault-archiving-api
-- description: The Vault Indexing API from Basware — 1 operation(s) for vault indexing.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Vault Indexing API from Basware — 1 operation(s) for vault indexing.
   name: Basware Vault Indexing API
   slug: basware-vault-indexing-api
-- description: The Vendors API from Basware — 2 operation(s) for vendors.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The Vendors API from Basware — 2 operation(s) for vendors.
   name: Basware Vendors API
   slug: basware-vendors-api
-- description: The .well-known API from Basware — 2 operation(s) for .well-known.
+- baseURL: https://api.basware.com
+  baseurl_source: declared
+  description: The .well-known API from Basware — 2 operation(s) for .well-known.
   name: Basware .well-known API
   slug: basware-well-known-api
 artifact_total: 99
@@ -465,7 +543,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:

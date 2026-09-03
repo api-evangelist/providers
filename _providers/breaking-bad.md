@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 11 operations
 api_count: 4
 apis:
-- description: Characters from the Breaking Bad and Better Call Saul universe.
+- baseURL: https://www.breakingbadapi.com/api
+  baseurl_source: declared
+  description: Characters from the Breaking Bad and Better Call Saul universe.
   name: Breaking Bad Characters API
   slug: breaking-bad-characters-api
-- description: On-screen deaths catalogued across the series.
+- baseURL: https://www.breakingbadapi.com/api
+  baseurl_source: declared
+  description: On-screen deaths catalogued across the series.
   name: Breaking Bad Deaths API
   slug: breaking-bad-deaths-api
-- description: Episodes from the Breaking Bad and Better Call Saul series.
+- baseURL: https://www.breakingbadapi.com/api
+  baseurl_source: declared
+  description: Episodes from the Breaking Bad and Better Call Saul series.
   name: Breaking Bad Episodes API
   slug: breaking-bad-episodes-api
-- description: Memorable quotes attributed to characters.
+- baseURL: https://www.breakingbadapi.com/api
+  baseurl_source: declared
+  description: Memorable quotes attributed to characters.
   name: Breaking Bad Quotes API
   slug: breaking-bad-quotes-api
 artifact_total: 23
@@ -216,7 +224,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/screenshots/breaking-bad-2026-06-20T173647.png
 slug: breaking-bad

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -53,112 +53,184 @@ apis:
 - description: Low-code connector framework for invoking external HTTP APIs from within Front rules and workflows.
   name: Front Connectors
   slug: front-connectors-api
-- description: The Accounts API from Front — 3 operation(s) for accounts.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Accounts API from Front — 3 operation(s) for accounts.
   name: Front Accounts API
   slug: front-accounts-api
-- description: The Analytics API from Front — 4 operation(s) for analytics.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Analytics API from Front — 4 operation(s) for analytics.
   name: Front Analytics API
   slug: front-analytics-api
-- description: The Application Message Templates API from Front — 2 operation(s) for application message templates.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Application Message Templates API from Front — 2 operation(s) for application message templates.
   name: Front Application Message Templates API
   slug: front-application-message-templates-api
-- description: The Applications API from Front — 1 operation(s) for applications.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Applications API from Front — 1 operation(s) for applications.
   name: Front Applications API
   slug: front-applications-api
-- description: The Attachments API from Front — 4 operation(s) for attachments.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Attachments API from Front — 4 operation(s) for attachments.
   name: Front Attachments API
   slug: front-attachments-api
-- description: The Calls API from Front — 5 operation(s) for calls.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Calls API from Front — 5 operation(s) for calls.
   name: Front Calls API
   slug: front-calls-api
-- description: The Channels API from Front — 6 operation(s) for channels.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Channels API from Front — 6 operation(s) for channels.
   name: Front Channels API
   slug: front-channels-api
-- description: The Comments API from Front — 5 operation(s) for comments.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Comments API from Front — 5 operation(s) for comments.
   name: Front Comments API
   slug: front-comments-api
-- description: The Contact Groups API from Front — 5 operation(s) for contact groups.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Contact Groups API from Front — 5 operation(s) for contact groups.
   name: Front Contact Groups API
   slug: front-contact-groups-api
-- description: The Contact Handles API from Front — 1 operation(s) for contact handles.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Contact Handles API from Front — 1 operation(s) for contact handles.
   name: Front Contact Handles API
   slug: front-contact-handles-api
-- description: The Contact Lists API from Front — 5 operation(s) for contact lists.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Contact Lists API from Front — 5 operation(s) for contact lists.
   name: Front Contact Lists API
   slug: front-contact-lists-api
-- description: The Contact Notes API from Front — 1 operation(s) for contact notes.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Contact Notes API from Front — 1 operation(s) for contact notes.
   name: Front Contact Notes API
   slug: front-contact-notes-api
-- description: The Contacts API from Front — 6 operation(s) for contacts.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Contacts API from Front — 6 operation(s) for contacts.
   name: Front Contacts API
   slug: front-contacts-api
-- description: The Conversations API from Front — 11 operation(s) for conversations.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Conversations API from Front — 11 operation(s) for conversations.
   name: Front Conversations API
   slug: front-conversations-api
-- description: The Custom Fields API from Front — 7 operation(s) for custom fields.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Custom Fields API from Front — 7 operation(s) for custom fields.
   name: Front Custom Fields API
   slug: front-custom-fields-api
-- description: The Drafts API from Front — 4 operation(s) for drafts.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Drafts API from Front — 4 operation(s) for drafts.
   name: Front Drafts API
   slug: front-drafts-api
-- description: The Events API from Front — 2 operation(s) for events.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Events API from Front — 2 operation(s) for events.
   name: Front Events API
   slug: front-events-api
-- description: The Inboxes API from Front — 7 operation(s) for inboxes.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Inboxes API from Front — 7 operation(s) for inboxes.
   name: Front Inboxes API
   slug: front-inboxes-api
-- description: The Knowledge Base Articles API from Front — 6 operation(s) for knowledge base articles.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Knowledge Base Articles API from Front — 6 operation(s) for knowledge base articles.
   name: Front Knowledge Base Articles API
   slug: front-knowledge-base-articles-api
-- description: The Knowledge Base Categories API from Front — 4 operation(s) for knowledge base categories.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Knowledge Base Categories API from Front — 4 operation(s) for knowledge base categories.
   name: Front Knowledge Base Categories API
   slug: front-knowledge-base-categories-api
-- description: The Knowledge Bases API from Front — 8 operation(s) for knowledge bases.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Knowledge Bases API from Front — 8 operation(s) for knowledge bases.
   name: Front Knowledge Bases API
   slug: front-knowledge-bases-api
-- description: The Links API from Front — 3 operation(s) for links.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Links API from Front — 3 operation(s) for links.
   name: Front Links API
   slug: front-links-api
-- description: The Message Template Folders API from Front — 5 operation(s) for message template folders.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Message Template Folders API from Front — 5 operation(s) for message template folders.
   name: Front Message Template Folders API
   slug: front-message-template-folders-api
-- description: The Message Templates API from Front — 5 operation(s) for message templates.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Message Templates API from Front — 5 operation(s) for message templates.
   name: Front Message Templates API
   slug: front-message-templates-api
-- description: The Messages API from Front — 9 operation(s) for messages.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Messages API from Front — 9 operation(s) for messages.
   name: Front Messages API
   slug: front-messages-api
-- description: The Rules API from Front — 5 operation(s) for rules.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Rules API from Front — 5 operation(s) for rules.
   name: Front Rules API
   slug: front-rules-api
-- description: The Shifts API from Front — 5 operation(s) for shifts.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Shifts API from Front — 5 operation(s) for shifts.
   name: Front Shifts API
   slug: front-shifts-api
-- description: The Signatures API from Front — 3 operation(s) for signatures.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Signatures API from Front — 3 operation(s) for signatures.
   name: Front Signatures API
   slug: front-signatures-api
-- description: The Statuses API from Front — 2 operation(s) for statuses.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Statuses API from Front — 2 operation(s) for statuses.
   name: Front Statuses API
   slug: front-statuses-api
-- description: The Tags API from Front — 7 operation(s) for tags.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Tags API from Front — 7 operation(s) for tags.
   name: Front Tags API
   slug: front-tags-api
-- description: The Teammate groups API from Front — 5 operation(s) for teammate groups.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Teammate groups API from Front — 5 operation(s) for teammate groups.
   name: Front Teammate groups API
   slug: front-teammate-groups-api
-- description: The Teammates API from Front — 4 operation(s) for teammates.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Teammates API from Front — 4 operation(s) for teammates.
   name: Front Teammates API
   slug: front-teammates-api
-- description: The Teams API from Front — 3 operation(s) for teams.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Teams API from Front — 3 operation(s) for teams.
   name: Front Teams API
   slug: front-teams-api
-- description: The Time Off API from Front — 3 operation(s) for time off.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Time Off API from Front — 3 operation(s) for time off.
   name: Front Time Off API
   slug: front-time-off-api
-- description: The Token Identity API from Front — 1 operation(s) for token identity.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Token Identity API from Front — 1 operation(s) for token identity.
   name: Front Token Identity API
   slug: front-token-identity-api
-- description: The Views API from Front — 4 operation(s) for views.
+- baseURL: https://api2.frontapp.com
+  baseurl_source: spec
+  description: The Views API from Front — 4 operation(s) for views.
   name: Front Views API
   slug: front-views-api
 artifact_total: 97
@@ -426,7 +498,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -436,7 +508,7 @@ score:
     discoverability: 51.9
     governance: 0.0
     operational_transparency: 30.3
-  previous_composite: 39.1
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -445,7 +517,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
 security:

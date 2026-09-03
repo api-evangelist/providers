@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The self-hosted administrative REST API for the new LucidLink platform, delivered as the lucidlink/lucidlink-api Docker image and run on customer infrastructure so that LucidLink's zero-knowledge mode
@@ -32,13 +47,19 @@ apis:
 - description: The LucidLink-hosted workspace web service used by the LucidLink apps and by the admin tool surface of the official LucidLink MCP server. Exposes service accounts, workspaces, members, groups, filespa
   name: LucidLink Web Service API v2
   slug: lucidlink-web-service-api-v2
-- description: Billing operations.
+- baseURL: https://api.lucidlink.com/api/v1
+  baseurl_source: declared
+  description: Billing operations.
   name: LucidLink Billing API
   slug: lucidlink-billing-api
-- description: Domain operations.
+- baseURL: https://api.lucidlink.com/api/v1
+  baseurl_source: declared
+  description: Domain operations.
   name: LucidLink Domain API
   slug: lucidlink-domain-api
-- description: Filespace operations.
+- baseURL: https://api.lucidlink.com/api/v1
+  baseurl_source: declared
+  description: Filespace operations.
   name: LucidLink Filespace API
   slug: lucidlink-filespace-api
 artifact_total: 12
@@ -220,18 +241,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.1
+  composite: 57.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 18.2
-    contract_quality: 41.3
+    contract_quality: 44.7
     developer_ergonomics: 80.4
     discoverability: 75.9
     governance: 18.2
@@ -247,8 +268,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/screenshots/lucidlink-2026-09-02T150334.png
 security:
 - kind: authentication
   name: Lucidlink Authentication

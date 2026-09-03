@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: GraphQL API hosted on The Graph protocol providing indexed on-chain data for Ribbon Finance vaults including vault performance metrics, historical pricing per share, fee collection data, premium earni
   name: Ribbon Finance Subgraph API
   slug: ribbon-finance-subgraph-api
-- description: Account management endpoints
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Account management endpoints
   name: Ribbon Finance Account API
   slug: ribbon-finance-account-api
-- description: API key management
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: API key management
   name: Ribbon Finance API Keys API
   slug: ribbon-finance-api-keys-api
-- description: Instrument and market information
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Instrument and market information
   name: Ribbon Finance Instruments API
   slug: ribbon-finance-instruments-api
-- description: Public market data endpoints
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Public market data endpoints
   name: Ribbon Finance Market Data API
   slug: ribbon-finance-market-data-api
-- description: Order management endpoints
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Order management endpoints
   name: Ribbon Finance Orders API
   slug: ribbon-finance-orders-api
-- description: Position and portfolio endpoints
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Position and portfolio endpoints
   name: Ribbon Finance Positions API
   slug: ribbon-finance-positions-api
-- description: Exchange statistics and analytics
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Exchange statistics and analytics
   name: Ribbon Finance Statistics API
   slug: ribbon-finance-statistics-api
-- description: Trade and transaction history endpoints
+- baseURL: https://api.aevo.xyz
+  baseurl_source: declared
+  description: Trade and transaction history endpoints
   name: Ribbon Finance Trade History API
   slug: ribbon-finance-trade-history-api
 artifact_total: 27
@@ -219,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/screenshots/ribbon-finance-2026-06-20T193110.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 18 operations
 api_count: 3
 apis:
-- description: The Bills API from Library of Congress — 3 operation(s) for bills.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Bills API from Library of Congress — 3 operation(s) for bills.
   name: Library of Congress Bills API
   slug: library-of-congress-bills-api
-- description: The Collections API from Library of Congress — 2 operation(s) for collections.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Collections API from Library of Congress — 2 operation(s) for collections.
   name: Library of Congress Collections API
   slug: library-of-congress-collections-api
-- description: The Committees API from Library of Congress — 1 operation(s) for committees.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Committees API from Library of Congress — 1 operation(s) for committees.
   name: Library of Congress Committees API
   slug: library-of-congress-committees-api
-- description: The Congressional Record API from Library of Congress — 1 operation(s) for congressional record.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Congressional Record API from Library of Congress — 1 operation(s) for congressional record.
   name: Library of Congress Congressional Record API
   slug: library-of-congress-congressional-record-api
-- description: The Issues API from Library of Congress — 1 operation(s) for issues.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Issues API from Library of Congress — 1 operation(s) for issues.
   name: Library of Congress Issues API
   slug: library-of-congress-issues-api
-- description: The Items API from Library of Congress — 1 operation(s) for items.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Items API from Library of Congress — 1 operation(s) for items.
   name: Library of Congress Items API
   slug: library-of-congress-items-api
-- description: The Laws API from Library of Congress — 1 operation(s) for laws.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Laws API from Library of Congress — 1 operation(s) for laws.
   name: Library of Congress Laws API
   slug: library-of-congress-laws-api
-- description: The Members API from Library of Congress — 2 operation(s) for members.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Members API from Library of Congress — 2 operation(s) for members.
   name: Library of Congress Members API
   slug: library-of-congress-members-api
-- description: The Pages API from Library of Congress — 1 operation(s) for pages.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Pages API from Library of Congress — 1 operation(s) for pages.
   name: Library of Congress Pages API
   slug: library-of-congress-pages-api
-- description: The Resources API from Library of Congress — 1 operation(s) for resources.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Resources API from Library of Congress — 1 operation(s) for resources.
   name: Library of Congress Resources API
   slug: library-of-congress-resources-api
-- description: The Search API from Library of Congress — 1 operation(s) for search.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Search API from Library of Congress — 1 operation(s) for search.
   name: Library of Congress Search API
   slug: library-of-congress-search-api
-- description: The Titles API from Library of Congress — 3 operation(s) for titles.
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Titles API from Library of Congress — 3 operation(s) for titles.
   name: Library of Congress Titles API
   slug: library-of-congress-titles-api
 artifact_total: 35
@@ -233,7 +257,7 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/screenshots/library-of-congress-2026-06-20T184501.png
 security:

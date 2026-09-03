@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -47,46 +47,74 @@ apis:
 - description: The Key Management Daemon (KMD) REST API provides local key storage and transaction signing for Algorand nodes. It exposes wallet management, key generation, and signing endpoints through a locally-ru
   name: Algorand KMD REST API
   slug: algorand-kmd-api
-- description: The common API from Algorand — 6 operation(s) for common.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The common API from Algorand — 6 operation(s) for common.
   name: Algorand common API
   slug: algorand-common-api
-- description: The Key API from Algorand — 4 operation(s) for key.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Key API from Algorand — 4 operation(s) for key.
   name: Algorand Key API
   slug: algorand-key-api
-- description: The lookup API from Algorand — 14 operation(s) for lookup.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The lookup API from Algorand — 14 operation(s) for lookup.
   name: Algorand lookup API
   slug: algorand-lookup-api
-- description: The Master Key API from Algorand — 1 operation(s) for master key.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Master Key API from Algorand — 1 operation(s) for master key.
   name: Algorand Master Key API
   slug: algorand-master-key-api
-- description: The Multisig API from Algorand — 6 operation(s) for multisig.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Multisig API from Algorand — 6 operation(s) for multisig.
   name: Algorand Multisig API
   slug: algorand-multisig-api
-- description: The private API from Algorand — 7 operation(s) for private.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The private API from Algorand — 7 operation(s) for private.
   name: Algorand private API
   slug: algorand-private-api
-- description: The Program API from Algorand — 1 operation(s) for program.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Program API from Algorand — 1 operation(s) for program.
   name: Algorand Program API
   slug: algorand-program-api
-- description: The public API from Algorand — 43 operation(s) for public.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The public API from Algorand — 43 operation(s) for public.
   name: Algorand public API
   slug: algorand-public-api
-- description: The search API from Algorand — 6 operation(s) for search.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The search API from Algorand — 6 operation(s) for search.
   name: Algorand search API
   slug: algorand-search-api
-- description: The Swagger.json API from Algorand — 1 operation(s) for swagger.json.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Swagger.json API from Algorand — 1 operation(s) for swagger.json.
   name: Algorand Swagger.json API
   slug: algorand-swagger-json-api
-- description: The Transaction API from Algorand — 1 operation(s) for transaction.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Transaction API from Algorand — 1 operation(s) for transaction.
   name: Algorand Transaction API
   slug: algorand-transaction-api
-- description: The Versions API from Algorand — 1 operation(s) for versions.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Versions API from Algorand — 1 operation(s) for versions.
   name: Algorand Versions API
   slug: algorand-versions-api
-- description: The Wallet API from Algorand — 6 operation(s) for wallet.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Wallet API from Algorand — 6 operation(s) for wallet.
   name: Algorand Wallet API
   slug: algorand-wallet-api
-- description: The Wallets API from Algorand — 1 operation(s) for wallets.
+- baseURL: https://mainnet-api.4160.nodely.dev
+  baseurl_source: declared
+  description: The Wallets API from Algorand — 1 operation(s) for wallets.
   name: Algorand Wallets API
   slug: algorand-wallets-api
 artifact_total: 86
@@ -419,7 +447,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:

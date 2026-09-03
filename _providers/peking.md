@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: OpenSearch 1.1 query interface returning an Atom feed of repository records, served from the institution's own host. Verified live 2026-08-19 (HTTP 200, 32KB Atom response for query=test).
@@ -54,19 +54,29 @@ apis:
 - description: OAI-PMH 2.0 metadata-harvesting endpoint for the Open Research Data Platform, verified responding to the Identify verb on 2026-06-03 with Dublin Core and DataCite support via the XOAI toolkit. Unreach
   name: PKU Open Research Data Platform (OAI-PMH)
   slug: opendata-oaipmh
-- description: Collections of items inside a community.
+- baseURL: https://ir.pku.edu.cn/rest
+  baseurl_source: declared
+  description: Collections of items inside a community.
   name: Peking University Collections API
   slug: peking-collections-api
-- description: Top-level organisational units of the repository (schools, departments, patent and thesis collections).
+- baseURL: https://ir.pku.edu.cn/rest
+  baseurl_source: declared
+  description: Top-level organisational units of the repository (schools, departments, patent and thesis collections).
   name: Peking University Communities API
   slug: peking-communities-api
-- description: OAI-PMH 2.0 verbs for harvesting repository metadata.
+- baseURL: https://ir.pku.edu.cn/rest
+  baseurl_source: declared
+  description: OAI-PMH 2.0 verbs for harvesting repository metadata.
   name: Peking University Harvesting API
   slug: peking-harvesting-api
-- description: Individual repository records — articles, theses, patents — and their metadata and bitstreams.
+- baseURL: https://ir.pku.edu.cn/rest
+  baseurl_source: declared
+  description: Individual repository records — articles, theses, patents — and their metadata and bitstreams.
   name: Peking University Items API
   slug: peking-items-api
-- description: Service liveness and authentication state.
+- baseURL: https://ir.pku.edu.cn/rest
+  baseurl_source: declared
+  description: Service liveness and authentication state.
   name: Peking University Status API
   slug: peking-status-api
 artifact_total: 21
@@ -252,7 +262,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -265,7 +275,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 43.6
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     contracts:
@@ -280,7 +290,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png
 security:

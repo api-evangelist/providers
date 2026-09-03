@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +37,12 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: POST-based REST/JSON API fronting a catalog of web-data engines. Auth via x-api-key header; uniform {ok,data,meta,error} response envelope with stable error codes. Declared OpenAPI contract and RFC 97
+- baseURL: https://api.reefapi.com
+  baseurl_source: declared
+  description: POST-based REST/JSON API fronting a catalog of web-data engines. Auth via x-api-key header; uniform {ok,data,meta,error} response envelope with stable error codes. Declared OpenAPI contract and RFC 97
   name: ReefAPI REST API
   slug: reefapi-rest-api
 - description: 'Hosted MCP server over streamable-HTTP with 5 discovery-first tools (search_engines, get_catalog, get_engine_schema, get_action_schema, call_engine). Auth via Authorization: Bearer ak_live_ key. Compa'
@@ -159,11 +175,11 @@ score:
   band: strong
   composite: 54.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -173,14 +189,15 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.5
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reefapi/refs/heads/main/screenshots/reefapi-2026-09-02T153219.png
 security:
 - kind: authentication
   name: Reefapi Authentication

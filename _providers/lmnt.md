@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: WebSocket-based real-time speech generation API for streaming LLM text output to synthesized audio with reset-latency support for conversational AI applications requiring interrupt handling.
   name: LMNT Speech Sessions API
   slug: lmnt-speech-sessions-api
-- description: The Ai API from LMNT — 8 operation(s) for ai.
+- baseURL: https://api.lmnt.com
+  baseurl_source: declared
+  description: The Ai API from LMNT — 8 operation(s) for ai.
   name: LMNT Ai API
   slug: lmnt-ai-api
-- description: The Health Check API from LMNT — 1 operation(s) for health check.
+- baseURL: https://api.lmnt.com
+  baseurl_source: declared
+  description: The Health Check API from LMNT — 1 operation(s) for health check.
   name: LMNT Health Check API
   slug: lmnt-health-check-api
-- description: The Speech API from LMNT — 2 operation(s) for speech.
+- baseURL: https://api.lmnt.com
+  baseurl_source: declared
+  description: The Speech API from LMNT — 2 operation(s) for speech.
   name: LMNT Speech API
   slug: lmnt-speech-api
 artifact_total: 21
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lmnt/refs/heads/main/screenshots/lmnt-2026-06-20T184626.png
 security:

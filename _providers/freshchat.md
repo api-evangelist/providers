@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 31 operations · 14 acting
 api_count: 1
 apis:
-- description: The Accounts API from Freshchat — 1 operation(s) for accounts.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Accounts API from Freshchat — 1 operation(s) for accounts.
   name: Freshchat Accounts API
   slug: freshchat-accounts-api
-- description: The Agents API from Freshchat — 3 operation(s) for agents.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Agents API from Freshchat — 3 operation(s) for agents.
   name: Freshchat Agents API
   slug: freshchat-agents-api
-- description: The BusinessHours API from Freshchat — 1 operation(s) for businesshours.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The BusinessHours API from Freshchat — 1 operation(s) for businesshours.
   name: Freshchat BusinessHours API
   slug: freshchat-businesshours-api
-- description: The Channels API from Freshchat — 1 operation(s) for channels.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Channels API from Freshchat — 1 operation(s) for channels.
   name: Freshchat Channels API
   slug: freshchat-channels-api
-- description: The Conversations API from Freshchat — 3 operation(s) for conversations.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Conversations API from Freshchat — 3 operation(s) for conversations.
   name: Freshchat Conversations API
   slug: freshchat-conversations-api
-- description: The CSAT API from Freshchat — 1 operation(s) for csat.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The CSAT API from Freshchat — 1 operation(s) for csat.
   name: Freshchat CSAT API
   slug: freshchat-csat-api
-- description: The Files API from Freshchat — 2 operation(s) for files.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Files API from Freshchat — 2 operation(s) for files.
   name: Freshchat Files API
   slug: freshchat-files-api
-- description: The Groups API from Freshchat — 1 operation(s) for groups.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Groups API from Freshchat — 1 operation(s) for groups.
   name: Freshchat Groups API
   slug: freshchat-groups-api
-- description: The Messages API from Freshchat — 1 operation(s) for messages.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Messages API from Freshchat — 1 operation(s) for messages.
   name: Freshchat Messages API
   slug: freshchat-messages-api
-- description: The Metrics API from Freshchat — 2 operation(s) for metrics.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Metrics API from Freshchat — 2 operation(s) for metrics.
   name: Freshchat Metrics API
   slug: freshchat-metrics-api
-- description: The OutboundMessages API from Freshchat — 2 operation(s) for outboundmessages.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The OutboundMessages API from Freshchat — 2 operation(s) for outboundmessages.
   name: Freshchat OutboundMessages API
   slug: freshchat-outboundmessages-api
-- description: The Roles API from Freshchat — 1 operation(s) for roles.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Roles API from Freshchat — 1 operation(s) for roles.
   name: Freshchat Roles API
   slug: freshchat-roles-api
-- description: The Users API from Freshchat — 4 operation(s) for users.
+- baseURL: https://api.freshchat.com/v2
+  baseurl_source: declared
+  description: The Users API from Freshchat — 4 operation(s) for users.
   name: Freshchat Users API
   slug: freshchat-users-api
 artifact_total: 34
@@ -210,7 +236,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -220,7 +246,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.7
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -229,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/screenshots/freshchat-2026-06-20T181539.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: Crisp realtime surface combining HTTP Web Hooks (signed plugin hooks and unsigned website hooks) and the Socket.IO RTM API. Both deliver the same conversational, people, campaign, browsing, call, iden
+- baseURL: https://api.crisp.chat/v1/plugin/connect/endpoints
+  baseurl_source: declared
+  description: Crisp realtime surface combining HTTP Web Hooks (signed plugin hooks and unsigned website hooks) and the Socket.IO RTM API. Both deliver the same conversational, people, campaign, browsing, call, iden
   name: Crisp Realtime (Webhooks + RTM) v1
   slug: crisp-realtime-api
-- description: The Conversations API from Crisp — 9 operation(s) for conversations.
+- baseURL: https://api.crisp.chat/v1
+  baseurl_source: declared
+  description: The Conversations API from Crisp — 9 operation(s) for conversations.
   name: Crisp Conversations API
   slug: crisp-conversations-api
-- description: The Website API from Crisp — 3 operation(s) for website.
+- baseURL: https://api.crisp.chat/v1
+  baseurl_source: declared
+  description: The Website API from Crisp — 3 operation(s) for website.
   name: Crisp Website API
   slug: crisp-website-api
 artifact_total: 15
@@ -168,7 +174,7 @@ score:
     catalog_gap: 72.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -178,7 +184,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 15.8
-  previous_composite: 31.5
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -187,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
 security:

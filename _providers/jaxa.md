@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,13 +58,19 @@ apis:
 - description: Provides near-real-time and archive access to Himawari geostationary meteorological satellite imagery and derived products. Data accessible via FTP from the P-Tree (Public ftp/http-based data TREe) se
   name: JAXA Himawari P-Tree Data Service
   slug: jaxa-himawari-p-tree-data-service
-- description: Catalog Services for the Web - search satellite observation collections and granules
+- baseURL: https://data.earth.jaxa.jp/
+  baseurl_source: declared
+  description: Catalog Services for the Web - search satellite observation collections and granules
   name: JAXA CSW API
   slug: jaxa-csw-api
-- description: Web Coverage Service - retrieve raw coverage/raster data from satellite datasets
+- baseURL: https://data.earth.jaxa.jp/
+  baseurl_source: declared
+  description: Web Coverage Service - retrieve raw coverage/raster data from satellite datasets
   name: JAXA WCS API
   slug: jaxa-wcs-api
-- description: Web Map Service - retrieve map imagery from satellite datasets
+- baseURL: https://data.earth.jaxa.jp/
+  baseurl_source: declared
+  description: Web Map Service - retrieve map imagery from satellite datasets
   name: JAXA WMS API
   slug: jaxa-wms-api
 artifact_total: 17
@@ -176,7 +182,7 @@ score:
     regime_id: energy_utilities
     score: 13.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/screenshots/jaxa-2026-06-20T183708.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 32 operations
 api_count: 1
 apis:
-- description: Provides access to MapTiler Cloud map styles including embeddable viewers, style configuration, raster tiles, and OGC-compatible endpoints for rendering and serving customizable map styles.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Provides access to MapTiler Cloud map styles including embeddable viewers, style configuration, raster tiles, and OGC-compatible endpoints for rendering and serving customizable map styles.
   name: MapTiler Maps API
   slug: maptiler-maps-api
-- description: Delivers map tile datasets including satellite imagery, terrain, and other raster or vector tile collections via XYZ, OGC API - Tiles, and WMTS-compatible endpoints.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Delivers map tile datasets including satellite imagery, terrain, and other raster or vector tile collections via XYZ, OGC API - Tiles, and WMTS-compatible endpoints.
   name: MapTiler Tiles API
   slug: maptiler-tiles-api
-- description: Enables forward and reverse geocoding to search for places and addresses anywhere on Earth and convert coordinates to location data. Supports batch geocoding of up to 50 queries per request with filte
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Enables forward and reverse geocoding to search for places and addresses anywhere on Earth and convert coordinates to location data. Supports batch geocoding of up to 50 queries per request with filte
   name: MapTiler Geocoding API
   slug: maptiler-geocoding-api
-- description: 'Generates static non-interactive map images in PNG, JPG, or WebP formats. Supports center-based, bounding-box-based, and auto-fitted viewports with optional markers and path overlays. Requires a paid '
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: 'Generates static non-interactive map images in PNG, JPG, or WebP formats. Supports center-based, bounding-box-based, and auto-fitted viewports with optional markers and path overlays. Requires a paid '
   name: MapTiler Static Maps API
   slug: maptiler-static-maps-api
-- description: Provides accurate altitude above mean sea level for any location on Earth. Accepts up to 50 coordinate pairs per request and returns elevation in meters or feet.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Provides accurate altitude above mean sea level for any location on Earth. Accepts up to 50 coordinate pairs per request and returns elevation in meters or feet.
   name: MapTiler Elevation API
   slug: maptiler-elevation-api
-- description: Returns approximate geographic location based on the incoming request's IP address, including country, city, coordinates, timezone, and optional elevation data. Useful for localizing maps and applicat
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Returns approximate geographic location based on the incoming request's IP address, including country, city, coordinates, timezone, and optional elevation data. Useful for localizing maps and applicat
   name: MapTiler Geolocation API
   slug: maptiler-geolocation-api
-- description: Enables searching the EPSG coordinate system database and transforming coordinates between different projections and coordinate reference systems. Supports up to 50 coordinate pairs per transformation
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: Enables searching the EPSG coordinate system database and transforming coordinates between different projections and coordinate reference systems. Supports up to 50 coordinate pairs per transformation
   name: MapTiler Coordinates API
   slug: maptiler-coordinates-api
-- description: The Coordinates API from MapTiler — 2 operation(s) for coordinates.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Coordinates API from MapTiler — 2 operation(s) for coordinates.
   name: MapTiler Coordinates API
   slug: maptiler-coordinates-api
-- description: The Data API from MapTiler — 1 operation(s) for data.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Data API from MapTiler — 1 operation(s) for data.
   name: MapTiler Data API
   slug: maptiler-data-api
-- description: The Elevation API from MapTiler — 1 operation(s) for elevation.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Elevation API from MapTiler — 1 operation(s) for elevation.
   name: MapTiler Elevation API
   slug: maptiler-elevation-api
-- description: The Geocoding API from MapTiler — 4 operation(s) for geocoding.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Geocoding API from MapTiler — 4 operation(s) for geocoding.
   name: MapTiler Geocoding API
   slug: maptiler-geocoding-api
-- description: The Geolocation API from MapTiler — 1 operation(s) for geolocation.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Geolocation API from MapTiler — 1 operation(s) for geolocation.
   name: MapTiler Geolocation API
   slug: maptiler-geolocation-api
-- description: The Images API from MapTiler — 2 operation(s) for images.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Images API from MapTiler — 2 operation(s) for images.
   name: MapTiler Images API
   slug: maptiler-images-api
-- description: The Maps API from MapTiler — 8 operation(s) for maps.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Maps API from MapTiler — 8 operation(s) for maps.
   name: MapTiler Maps API
   slug: maptiler-maps-api
-- description: The Other API from MapTiler — 3 operation(s) for other.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Other API from MapTiler — 3 operation(s) for other.
   name: MapTiler Other API
   slug: maptiler-other-api
-- description: The Static maps API from MapTiler — 3 operation(s) for static maps.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Static maps API from MapTiler — 3 operation(s) for static maps.
   name: MapTiler Static maps API
   slug: maptiler-static-maps-api
-- description: The Tiles API from MapTiler — 6 operation(s) for tiles.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Tiles API from MapTiler — 6 operation(s) for tiles.
   name: MapTiler Tiles API
   slug: maptiler-tiles-api
-- description: The Weather API from MapTiler — 1 operation(s) for weather.
+- baseURL: https://api.maptiler.com/
+  baseurl_source: spec
+  description: The Weather API from MapTiler — 1 operation(s) for weather.
   name: MapTiler Weather API
   slug: maptiler-weather-api
 artifact_total: 46
@@ -328,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maptiler/refs/heads/main/screenshots/maptiler-2026-06-20T184936.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Search identification events with filters.
+- baseURL: https://api.fpjs.io
+  baseurl_source: declared
+  description: Search identification events with filters.
   name: Fingerprint Event Search API
   slug: fingerprint-event-search-api
-- description: Get and update individual identification events.
+- baseURL: https://api.fpjs.io
+  baseurl_source: declared
+  description: Get and update individual identification events.
   name: Fingerprint Events API
   slug: fingerprint-events-api
-- description: Find visitorIds likely belonging to the same person.
+- baseURL: https://api.fpjs.io
+  baseurl_source: declared
+  description: Find visitorIds likely belonging to the same person.
   name: Fingerprint Related Visitors API
   slug: fingerprint-related-visitors-api
-- description: Get visit history and delete visitor data.
+- baseURL: https://api.fpjs.io
+  baseurl_source: declared
+  description: Get visit history and delete visitor data.
   name: Fingerprint Visitors API
   slug: fingerprint-visitors-api
 artifact_total: 17
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingerprint/refs/heads/main/screenshots/fingerprint-2026-07-25T214519.png
 security:

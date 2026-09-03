@@ -33,232 +33,382 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
   name: AppDirect AI Embed API
   slug: appdirect-ai-embed-api
-- description: Create, retrieve, and manage AI assistants
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Create, retrieve, and manage AI assistants
   name: AppDirect AI Management API
   slug: appdirect-ai-management-api
-- description: The AI Models API from AppDirect — 1 operation(s) for ai models.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AI Models API from AppDirect — 1 operation(s) for ai models.
   name: AppDirect AI Models API
   slug: appdirect-ai-models-api
-- description: The AI User Inputs API from AppDirect — 3 operation(s) for ai user inputs.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AI User Inputs API from AppDirect — 3 operation(s) for ai user inputs.
   name: AppDirect AI User Inputs API
   slug: appdirect-ai-user-inputs-api
-- description: The Answer API from AppDirect — 2 operation(s) for answer.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Answer API from AppDirect — 2 operation(s) for answer.
   name: AppDirect Answer API
   slug: appdirect-answer-api
-- description: Create and manage API keys
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Create and manage API keys
   name: AppDirect API Keys API
   slug: appdirect-api-keys-api
-- description: The AppResellerAccount API from AppDirect — 4 operation(s) for appreselleraccount.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerAccount API from AppDirect — 4 operation(s) for appreselleraccount.
   name: AppDirect AppResellerAccount API
   slug: appdirect-appreselleraccount-api
-- description: The AppResellerAssignment API from AppDirect — 2 operation(s) for appresellerassignment.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerAssignment API from AppDirect — 2 operation(s) for appresellerassignment.
   name: AppDirect AppResellerAssignment API
   slug: appdirect-appresellerassignment-api
-- description: The AppResellerCatalog API from AppDirect — 2 operation(s) for appresellercatalog.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerCatalog API from AppDirect — 2 operation(s) for appresellercatalog.
   name: AppDirect AppResellerCatalog API
   slug: appdirect-appresellercatalog-api
-- description: The AppResellerCompanyAssociation API from AppDirect — 2 operation(s) for appresellercompanyassociation.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerCompanyAssociation API from AppDirect — 2 operation(s) for appresellercompanyassociation.
   name: AppDirect AppResellerCompanyAssociation API
   slug: appdirect-appresellercompanyassociation-api
-- description: The AppResellerLeads API from AppDirect — 8 operation(s) for appresellerleads.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerLeads API from AppDirect — 8 operation(s) for appresellerleads.
   name: AppDirect AppResellerLeads API
   slug: appdirect-appresellerleads-api
-- description: The AppResellerOpportunities API from AppDirect — 17 operation(s) for appreselleropportunities.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerOpportunities API from AppDirect — 17 operation(s) for appreselleropportunities.
   name: AppDirect AppResellerOpportunities API
   slug: appdirect-appreselleropportunities-api
-- description: The AppResellerOrder API from AppDirect — 1 operation(s) for appresellerorder.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerOrder API from AppDirect — 1 operation(s) for appresellerorder.
   name: AppDirect AppResellerOrder API
   slug: appdirect-appresellerorder-api
-- description: The AppResellerPaymentMethod API from AppDirect — 2 operation(s) for appresellerpaymentmethod.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerPaymentMethod API from AppDirect — 2 operation(s) for appresellerpaymentmethod.
   name: AppDirect AppResellerPaymentMethod API
   slug: appdirect-appresellerpaymentmethod-api
-- description: The AppResellerQuoteVersion API from AppDirect — 3 operation(s) for appresellerquoteversion.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerQuoteVersion API from AppDirect — 3 operation(s) for appresellerquoteversion.
   name: AppDirect AppResellerQuoteVersion API
   slug: appdirect-appresellerquoteversion-api
-- description: The AppResellerReconciliation API from AppDirect — 3 operation(s) for appresellerreconciliation.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerReconciliation API from AppDirect — 3 operation(s) for appresellerreconciliation.
   name: AppDirect AppResellerReconciliation API
   slug: appdirect-appresellerreconciliation-api
-- description: The AppResellerSubscription API from AppDirect — 2 operation(s) for appresellersubscription.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The AppResellerSubscription API from AppDirect — 2 operation(s) for appresellersubscription.
   name: AppDirect AppResellerSubscription API
   slug: appdirect-appresellersubscription-api
-- description: The Bundle API from AppDirect — 3 operation(s) for bundle.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Bundle API from AppDirect — 3 operation(s) for bundle.
   name: AppDirect Bundle API
   slug: appdirect-bundle-api
-- description: The Categories API from AppDirect — 1 operation(s) for categories.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Categories API from AppDirect — 1 operation(s) for categories.
   name: AppDirect Categories API
   slug: appdirect-categories-api
-- description: OpenAI-compatible chat completion API
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion API
   name: AppDirect Chat Completions API
   slug: appdirect-chat-completions-api
-- description: Manage chat sessions and send messages to AI assistants
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Manage chat sessions and send messages to AI assistants
   name: AppDirect Chat Sessions API
   slug: appdirect-chat-sessions-api
-- description: Retrieves product details such as branding, pricing, and so on.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Retrieves product details such as branding, pricing, and so on.
   name: AppDirect checkoutItemDetails API
   slug: appdirect-checkoutitemdetails-api
-- description: The Comment API from AppDirect — 2 operation(s) for comment.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Comment API from AppDirect — 2 operation(s) for comment.
   name: AppDirect Comment API
   slug: appdirect-comment-api
-- description: The Companies API from AppDirect — 4 operation(s) for companies.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Companies API from AppDirect — 4 operation(s) for companies.
   name: AppDirect Companies API
   slug: appdirect-companies-api
-- description: The CompanyMemberships API from AppDirect — 11 operation(s) for companymemberships.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The CompanyMemberships API from AppDirect — 11 operation(s) for companymemberships.
   name: AppDirect CompanyMemberships API
   slug: appdirect-companymemberships-api
-- description: The CurrencyExchangeRate API from AppDirect — 2 operation(s) for currencyexchangerate.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The CurrencyExchangeRate API from AppDirect — 2 operation(s) for currencyexchangerate.
   name: AppDirect CurrencyExchangeRate API
   slug: appdirect-currencyexchangerate-api
-- description: API endpoint to manage notification templates (email and sms) that are used to communicate with users on the marketplace when a event occurs on the marketplace that requires a notification to users.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: API endpoint to manage notification templates (email and sms) that are used to communicate with users on the marketplace when a event occurs on the marketplace that requires a notification to users.
   name: AppDirect CustomerNotification API
   slug: appdirect-customernotification-api
-- description: Manage knowledge bases and data sources for AI assistants
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Manage knowledge bases and data sources for AI assistants
   name: AppDirect Data Sources API
   slug: appdirect-data-sources-api
-- description: The DataUploader API from AppDirect — 3 operation(s) for datauploader.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The DataUploader API from AppDirect — 3 operation(s) for datauploader.
   name: AppDirect DataUploader API
   slug: appdirect-datauploader-api
-- description: 'API endpoint to manage default notification templates (email and sms) When a partner have not customized a notification template, the default template will be used to send notification to users if it '
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: 'API endpoint to manage default notification templates (email and sms) When a partner have not customized a notification template, the default template will be used to send notification to users if it '
   name: AppDirect DefaultNotificationTemplateApi API
   slug: appdirect-defaultnotificationtemplateapi-api
-- description: The Discount API from AppDirect — 2 operation(s) for discount.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Discount API from AppDirect — 2 operation(s) for discount.
   name: AppDirect Discount API
   slug: appdirect-discount-api
-- description: The Domains API from AppDirect — 3 operation(s) for domains.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Domains API from AppDirect — 3 operation(s) for domains.
   name: AppDirect Domains API
   slug: appdirect-domains-api
-- description: The Edition API from AppDirect — 1 operation(s) for edition.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Edition API from AppDirect — 1 operation(s) for edition.
   name: AppDirect Edition API
   slug: appdirect-edition-api
-- description: The Event API from AppDirect — 2 operation(s) for event.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Event API from AppDirect — 2 operation(s) for event.
   name: AppDirect Event API
   slug: appdirect-event-api
-- description: Upload and manage files for chat sessions
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Upload and manage files for chat sessions
   name: AppDirect Files API
   slug: appdirect-files-api
-- description: The Group API from AppDirect — 4 operation(s) for group.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Group API from AppDirect — 4 operation(s) for group.
   name: AppDirect Group API
   slug: appdirect-group-api
-- description: Manage user groups for AI access control
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Manage user groups for AI access control
   name: AppDirect Groups API
   slug: appdirect-groups-api
-- description: The InboundEvents API from AppDirect — 1 operation(s) for inboundevents.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The InboundEvents API from AppDirect — 1 operation(s) for inboundevents.
   name: AppDirect InboundEvents API
   slug: appdirect-inboundevents-api
-- description: The Integration API from AppDirect — 4 operation(s) for integration.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Integration API from AppDirect — 4 operation(s) for integration.
   name: AppDirect Integration API
   slug: appdirect-integration-api
-- description: The Integrations API from AppDirect — 14 operation(s) for integrations.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Integrations API from AppDirect — 14 operation(s) for integrations.
   name: AppDirect Integrations API
   slug: appdirect-integrations-api
-- description: The Invitation API from AppDirect — 4 operation(s) for invitation.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Invitation API from AppDirect — 4 operation(s) for invitation.
   name: AppDirect Invitation API
   slug: appdirect-invitation-api
-- description: The Invoice API from AppDirect — 5 operation(s) for invoice.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Invoice API from AppDirect — 5 operation(s) for invoice.
   name: AppDirect Invoice API
   slug: appdirect-invoice-api
-- description: The Marketplace Product Settings API from AppDirect — 4 operation(s) for marketplace product settings.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Marketplace Product Settings API from AppDirect — 4 operation(s) for marketplace product settings.
   name: AppDirect Marketplace Product Settings API
   slug: appdirect-marketplace-product-settings-api
-- description: The MyApps API from AppDirect — 3 operation(s) for myapps.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The MyApps API from AppDirect — 3 operation(s) for myapps.
   name: AppDirect MyApps API
   slug: appdirect-myapps-api
-- description: The Navigation API from AppDirect — 1 operation(s) for navigation.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Navigation API from AppDirect — 1 operation(s) for navigation.
   name: AppDirect Navigation API
   slug: appdirect-navigation-api
-- description: The Payment API from AppDirect — 5 operation(s) for payment.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Payment API from AppDirect — 5 operation(s) for payment.
   name: AppDirect Payment API
   slug: appdirect-payment-api
-- description: The Payment Methods API from AppDirect — 5 operation(s) for payment methods.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Payment Methods API from AppDirect — 5 operation(s) for payment methods.
   name: AppDirect Payment Methods API
   slug: appdirect-payment-methods-api
-- description: The PaymentInstrument API from AppDirect — 4 operation(s) for paymentinstrument.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The PaymentInstrument API from AppDirect — 4 operation(s) for paymentinstrument.
   name: AppDirect PaymentInstrument API
   slug: appdirect-paymentinstrument-api
-- description: The PaymentPlan API from AppDirect — 3 operation(s) for paymentplan.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The PaymentPlan API from AppDirect — 3 operation(s) for paymentplan.
   name: AppDirect PaymentPlan API
   slug: appdirect-paymentplan-api
-- description: The Payments v2 API from AppDirect — 4 operation(s) for payments v2.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Payments v2 API from AppDirect — 4 operation(s) for payments v2.
   name: AppDirect Payments v2 API
   slug: appdirect-payments-v2-api
-- description: The Product API from AppDirect — 8 operation(s) for product.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Product API from AppDirect — 8 operation(s) for product.
   name: AppDirect Product API
   slug: appdirect-product-api
-- description: The Product Management API API from AppDirect — 4 operation(s) for product management api.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Product Management API API from AppDirect — 4 operation(s) for product management api.
   name: AppDirect Product Management API API
   slug: appdirect-product-management-api-api
-- description: The ProductContext API from AppDirect — 2 operation(s) for productcontext.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The ProductContext API from AppDirect — 2 operation(s) for productcontext.
   name: AppDirect ProductContext API
   slug: appdirect-productcontext-api
-- description: The PurchaseOrder API from AppDirect — 7 operation(s) for purchaseorder.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The PurchaseOrder API from AppDirect — 7 operation(s) for purchaseorder.
   name: AppDirect PurchaseOrder API
   slug: appdirect-purchaseorder-api
-- description: The Question API from AppDirect — 2 operation(s) for question.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Question API from AppDirect — 2 operation(s) for question.
   name: AppDirect Question API
   slug: appdirect-question-api
-- description: The Reconciliation API from AppDirect — 1 operation(s) for reconciliation.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Reconciliation API from AppDirect — 1 operation(s) for reconciliation.
   name: AppDirect Reconciliation API
   slug: appdirect-reconciliation-api
-- description: The Reporting API from AppDirect — 2 operation(s) for reporting.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Reporting API from AppDirect — 2 operation(s) for reporting.
   name: AppDirect Reporting API
   slug: appdirect-reporting-api
-- description: The Reporting V2 API from AppDirect — 2 operation(s) for reporting v2.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Reporting V2 API from AppDirect — 2 operation(s) for reporting v2.
   name: AppDirect Reporting V2 API
   slug: appdirect-reporting-v2-api
-- description: OpenAI Responses-compatible API (v2). Supports streaming (SSE) and non-streaming runs, threaded and stateless execution, and lifecycle control (cancel / pause / resume). The shape mirrors the [officia
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: OpenAI Responses-compatible API (v2). Supports streaming (SSE) and non-streaming runs, threaded and stateless execution, and lifecycle control (cancel / pause / resume). The shape mirrors the [officia
   name: AppDirect Responses API v2 API
   slug: appdirect-responses-api-v2-api
-- description: The Review API from AppDirect — 2 operation(s) for review.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Review API from AppDirect — 2 operation(s) for review.
   name: AppDirect Review API
   slug: appdirect-review-api
-- description: The Search API from AppDirect — 1 operation(s) for search.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Search API from AppDirect — 1 operation(s) for search.
   name: AppDirect Search API
   slug: appdirect-search-api
-- description: The Secrets API from AppDirect — 2 operation(s) for secrets.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Secrets API from AppDirect — 2 operation(s) for secrets.
   name: AppDirect Secrets API
   slug: appdirect-secrets-api
-- description: The SegmentFolders API from AppDirect — 11 operation(s) for segmentfolders.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The SegmentFolders API from AppDirect — 11 operation(s) for segmentfolders.
   name: AppDirect SegmentFolders API
   slug: appdirect-segmentfolders-api
-- description: The Settings API from AppDirect — 1 operation(s) for settings.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Settings API from AppDirect — 1 operation(s) for settings.
   name: AppDirect Settings API
   slug: appdirect-settings-api
-- description: Operations related to shopping carts
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Operations related to shopping carts
   name: AppDirect ShoppingCart API
   slug: appdirect-shoppingcart-api
-- description: The SubscriptionAssignments API from AppDirect — 2 operation(s) for subscriptionassignments.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The SubscriptionAssignments API from AppDirect — 2 operation(s) for subscriptionassignments.
   name: AppDirect SubscriptionAssignments API
   slug: appdirect-subscriptionassignments-api
-- description: The Subscriptions API from AppDirect — 19 operation(s) for subscriptions.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Subscriptions API from AppDirect — 19 operation(s) for subscriptions.
   name: AppDirect Subscriptions API
   slug: appdirect-subscriptions-api
-- description: The Sync API from AppDirect — 5 operation(s) for sync.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Sync API from AppDirect — 5 operation(s) for sync.
   name: AppDirect Sync API
   slug: appdirect-sync-api
-- description: Tenant-owner M2M APIs for marketplace partners (org create, subscription lifecycle, balance top-up, member seats). Requires a tenant-scoped API key from the tenant-owner org.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Tenant-owner M2M APIs for marketplace partners (org create, subscription lifecycle, balance top-up, member seats). Requires a tenant-scoped API key from the tenant-owner org.
   name: AppDirect Tenant Marketplace Provisioning API
   slug: appdirect-tenant-marketplace-provisioning-api
-- description: Tenant owner APIs to configure default rate limits and per-organization overrides
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Tenant owner APIs to configure default rate limits and per-organization overrides
   name: AppDirect Tenant Rate Limits API
   slug: appdirect-tenant-rate-limits-api
-- description: The Tool Templates API from AppDirect — 2 operation(s) for tool templates.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Tool Templates API from AppDirect — 2 operation(s) for tool templates.
   name: AppDirect Tool Templates API
   slug: appdirect-tool-templates-api
-- description: The Tools API from AppDirect — 24 operation(s) for tools.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The Tools API from AppDirect — 24 operation(s) for tools.
   name: AppDirect Tools API
   slug: appdirect-tools-api
-- description: Monitor organization and AI usage metrics
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: Monitor organization and AI usage metrics
   name: AppDirect Usage & Analytics API
   slug: appdirect-usage-analytics-api
-- description: The User API from AppDirect — 9 operation(s) for user.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The User API from AppDirect — 9 operation(s) for user.
   name: AppDirect User API
   slug: appdirect-user-api
-- description: The UserAccounts API from AppDirect — 1 operation(s) for useraccounts.
+- baseURL: https://marketplace.appdirect.com/api
+  baseurl_source: declared
+  description: The UserAccounts API from AppDirect — 1 operation(s) for useraccounts.
   name: AppDirect UserAccounts API
   slug: appdirect-useraccounts-api
 artifact_total: 156
@@ -678,7 +828,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -688,7 +838,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -699,7 +849,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

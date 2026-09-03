@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Reactivation (win-back) campaigns that re-engage churned or paused customers with targeted offers. Reactivations are a documented Churnkey product, but a dedicated public REST endpoint set is not publ
   name: Churnkey Reactivation API
   slug: churnkey-reactivation-api
-- description: Billing-contact management for Failed Payment Recovery.
+- baseURL: https://api.churnkey.co/v1/data
+  baseurl_source: declared
+  description: Billing-contact management for Failed Payment Recovery.
   name: Churnkey Billing Contacts API
   slug: churnkey-billing-contacts-api
-- description: Customer and B2B user attribute updates.
+- baseURL: https://api.churnkey.co/v1/data
+  baseurl_source: declared
+  description: Customer and B2B user attribute updates.
   name: Churnkey Customers API
   slug: churnkey-customers-api
-- description: GDPR access and deletion requests (Data API).
+- baseURL: https://api.churnkey.co/v1/data
+  baseurl_source: declared
+  description: GDPR access and deletion requests (Data API).
   name: Churnkey Data Subject Requests API
   slug: churnkey-data-subject-requests-api
-- description: Customer event tracking and passive data enrichment.
+- baseURL: https://api.churnkey.co/v1/data
+  baseurl_source: declared
+  description: Customer event tracking and passive data enrichment.
   name: Churnkey Events API
   slug: churnkey-events-api
-- description: Cancel Flow session data and aggregations (Data API).
+- baseURL: https://api.churnkey.co/v1/data
+  baseurl_source: declared
+  description: Cancel Flow session data and aggregations (Data API).
   name: Churnkey Sessions API
   slug: churnkey-sessions-api
 artifact_total: 21
@@ -195,7 +205,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/screenshots/churnkey-2026-07-25T205328.png
 security:

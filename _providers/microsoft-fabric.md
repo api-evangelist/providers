@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'Microsoft Fabric provides SQL connectivity to lakehouses and data warehouses through TDS endpoints. Developers can query Fabric data using standard SQL tools, JDBC/ODBC drivers, and client libraries, '
   name: Microsoft Fabric SQL Connection
   slug: sql-connection-api
-- description: The Capacities API from Microsoft Fabric — 1 operation(s) for capacities.
+- baseURL: https://api.fabric.microsoft.com/v1/
+  baseurl_source: declared
+  description: The Capacities API from Microsoft Fabric — 1 operation(s) for capacities.
   name: Microsoft Fabric Capacities API
   slug: microsoft-fabric-capacities-api
-- description: The Connections API from Microsoft Fabric — 1 operation(s) for connections.
+- baseURL: https://api.fabric.microsoft.com/v1/
+  baseurl_source: declared
+  description: The Connections API from Microsoft Fabric — 1 operation(s) for connections.
   name: Microsoft Fabric Connections API
   slug: microsoft-fabric-connections-api
-- description: The Items API from Microsoft Fabric — 6 operation(s) for items.
+- baseURL: https://api.fabric.microsoft.com/v1/
+  baseurl_source: declared
+  description: The Items API from Microsoft Fabric — 6 operation(s) for items.
   name: Microsoft Fabric Items API
   slug: microsoft-fabric-items-api
-- description: The Workspaces API from Microsoft Fabric — 2 operation(s) for workspaces.
+- baseURL: https://api.fabric.microsoft.com/v1/
+  baseurl_source: declared
+  description: The Workspaces API from Microsoft Fabric — 2 operation(s) for workspaces.
   name: Microsoft Fabric Workspaces API
   slug: microsoft-fabric-workspaces-api
 artifact_total: 18
@@ -204,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-fabric/refs/heads/main/screenshots/microsoft-fabric-2026-06-20T185503.png
 security:

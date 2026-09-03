@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,40 +77,64 @@ apis:
 - description: Autocomplete airport, city, and country search queries in any language and spelling variant. Returns matched airports, cities, and countries with IATA codes, coordinates, timezone, and popularity metr
   name: Airlabs Name Suggestion API
   slug: airlabs-name-suggestion-api
-- description: Airline reference data
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Airline reference data
   name: Airlabs Airlines API
   slug: airlabs-airlines-api
-- description: Airport reference data
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Airport reference data
   name: Airlabs Airports API
   slug: airlabs-airports-api
-- description: Flight monitoring
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Flight monitoring
   name: Airlabs Alert API
   slug: airlabs-alert-api
-- description: City reference data
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: City reference data
   name: Airlabs Cities API
   slug: airlabs-cities-api
-- description: Currently delayed flights
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Currently delayed flights
   name: Airlabs Delays API
   slug: airlabs-delays-api
-- description: Aircraft fleet records
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Aircraft fleet records
   name: Airlabs Fleets API
   slug: airlabs-fleets-api
-- description: Single flight information
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Single flight information
   name: Airlabs Flight API
   slug: airlabs-flight-api
-- description: Real-time flight positions
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Real-time flight positions
   name: Airlabs Flights API
   slug: airlabs-flights-api
-- description: Geographic airport lookup
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Geographic airport lookup
   name: Airlabs Nearby API
   slug: airlabs-nearby-api
-- description: Route reference data
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Route reference data
   name: Airlabs Routes API
   slug: airlabs-routes-api
-- description: Airport departures and arrivals
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Airport departures and arrivals
   name: Airlabs Schedules API
   slug: airlabs-schedules-api
-- description: Autocomplete and search
+- baseURL: https://airlabs.co/api/v9
+  baseurl_source: declared
+  description: Autocomplete and search
   name: Airlabs Suggest API
   slug: airlabs-suggest-api
 artifact_total: 55
@@ -297,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airlabs/refs/heads/main/screenshots/airlabs-2026-06-20T171424.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: The Sessions API from AgeChecker.Net — 2 operation(s) for sessions.
+- baseURL: https://api.agechecker.net/v1
+  baseurl_source: declared
+  description: The Sessions API from AgeChecker.Net — 2 operation(s) for sessions.
   name: AgeChecker.Net Sessions API
   slug: agechecker-net-sessions-api
-- description: The Verification API from AgeChecker.Net — 1 operation(s) for verification.
+- baseURL: https://api.agechecker.net/v1
+  baseurl_source: declared
+  description: The Verification API from AgeChecker.Net — 1 operation(s) for verification.
   name: AgeChecker.Net Verification API
   slug: agechecker-net-verification-api
-- description: The Webhooks API from AgeChecker.Net — 1 operation(s) for webhooks.
+- baseURL: https://api.agechecker.net/v1
+  baseurl_source: declared
+  description: The Webhooks API from AgeChecker.Net — 1 operation(s) for webhooks.
   name: AgeChecker.Net Webhooks API
   slug: agechecker-net-webhooks-api
 artifact_total: 35
@@ -286,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
 security:

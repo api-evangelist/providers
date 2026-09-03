@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 60 operations
 api_count: 2
 apis:
-- description: The creator-roles API from RAWG — 1 operation(s) for creator-roles.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The creator-roles API from RAWG — 1 operation(s) for creator-roles.
   name: RAWG creator-roles API
   slug: rawg-creator-roles-api
-- description: The creators API from RAWG — 2 operation(s) for creators.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The creators API from RAWG — 2 operation(s) for creators.
   name: RAWG creators API
   slug: rawg-creators-api
-- description: The developers API from RAWG — 2 operation(s) for developers.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The developers API from RAWG — 2 operation(s) for developers.
   name: RAWG developers API
   slug: rawg-developers-api
-- description: The games API from RAWG — 14 operation(s) for games.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The games API from RAWG — 14 operation(s) for games.
   name: RAWG games API
   slug: rawg-games-api
-- description: The genres API from RAWG — 2 operation(s) for genres.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The genres API from RAWG — 2 operation(s) for genres.
   name: RAWG genres API
   slug: rawg-genres-api
-- description: The platforms API from RAWG — 3 operation(s) for platforms.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The platforms API from RAWG — 3 operation(s) for platforms.
   name: RAWG platforms API
   slug: rawg-platforms-api
-- description: The publishers API from RAWG — 2 operation(s) for publishers.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The publishers API from RAWG — 2 operation(s) for publishers.
   name: RAWG publishers API
   slug: rawg-publishers-api
-- description: The stores API from RAWG — 2 operation(s) for stores.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The stores API from RAWG — 2 operation(s) for stores.
   name: RAWG stores API
   slug: rawg-stores-api
-- description: The tags API from RAWG — 2 operation(s) for tags.
+- baseURL: https://api.rawg.io/api
+  baseurl_source: declared
+  description: The tags API from RAWG — 2 operation(s) for tags.
   name: RAWG tags API
   slug: rawg-tags-api
 artifact_total: 35
@@ -250,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/screenshots/rawg-2026-06-20T192612.png
 security:

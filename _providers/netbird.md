@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 1
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 203 operations · 118 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: View information about the accounts.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: View information about the accounts.
   name: NetBird Accounts API
   slug: netbird-accounts-api
-- description: Manage AWS Marketplace subscriptions.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage AWS Marketplace subscriptions.
   name: NetBird AWS Marketplace API
   slug: netbird-aws-marketplace-api
-- description: Manage checkout sessions for plan subscriptions.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage checkout sessions for plan subscriptions.
   name: NetBird Checkout API
   slug: netbird-checkout-api
-- description: Interact with and view information about DNS configuration.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about DNS configuration.
   name: NetBird DNS API
   slug: netbird-dns-api
-- description: Interact with and view information about custom DNS zones.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about custom DNS zones.
   name: NetBird DNS Zones API
   slug: netbird-dns-zones-api
-- description: Manage CrowdStrike Falcon EDR integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage CrowdStrike Falcon EDR integrations.
   name: NetBird EDR Falcon Integrations API
   slug: netbird-edr-falcon-integrations-api
-- description: Manage FleetDM EDR integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage FleetDM EDR integrations.
   name: NetBird EDR FleetDM Integrations API
   slug: netbird-edr-fleetdm-integrations-api
-- description: Manage Huntress EDR integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage Huntress EDR integrations.
   name: NetBird EDR Huntress Integrations API
   slug: netbird-edr-huntress-integrations-api
-- description: Manage Microsoft Intune EDR integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage Microsoft Intune EDR integrations.
   name: NetBird EDR Intune Integrations API
   slug: netbird-edr-intune-integrations-api
-- description: Manage EDR compliance bypass for peers.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage EDR compliance bypass for peers.
   name: NetBird EDR Peers API
   slug: netbird-edr-peers-api
-- description: Manage SentinelOne EDR integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage SentinelOne EDR integrations.
   name: NetBird EDR SentinelOne Integrations API
   slug: netbird-edr-sentinelone-integrations-api
-- description: Manage event streaming integrations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage event streaming integrations.
   name: NetBird Event Streaming Integrations API
   slug: netbird-event-streaming-integrations-api
-- description: View information about the account and network events.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: View information about the account and network events.
   name: NetBird Events API
   slug: netbird-events-api
-- description: The Geo Locations API from NetBird — 2 operation(s) for geo locations.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: The Geo Locations API from NetBird — 2 operation(s) for geo locations.
   name: NetBird Geo Locations API
   slug: netbird-geo-locations-api
-- description: Interact with and view information about groups.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about groups.
   name: NetBird Groups API
   slug: netbird-groups-api
-- description: Interact with and view information about identity providers.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about identity providers.
   name: NetBird Identity Providers API
   slug: netbird-identity-providers-api
-- description: Manage Azure AD identity provider integrations for user and group sync.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage Azure AD identity provider integrations for user and group sync.
   name: NetBird IDP Azure Integrations API
   slug: netbird-idp-azure-integrations-api
-- description: Manage Google Workspace identity provider integrations for user and group sync.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage Google Workspace identity provider integrations for user and group sync.
   name: NetBird IDP Google Integrations API
   slug: netbird-idp-google-integrations-api
-- description: Manage Okta SCIM identity provider integrations for user and group sync.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage Okta SCIM identity provider integrations for user and group sync.
   name: NetBird IDP Okta SCIM Integrations API
   slug: netbird-idp-okta-scim-integrations-api
-- description: Manage generic SCIM identity provider integrations for user and group sync.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage generic SCIM identity provider integrations for user and group sync.
   name: NetBird IDP SCIM Integrations API
   slug: netbird-idp-scim-integrations-api
-- description: Interact with and view information about the ingress peers and ports.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about the ingress peers and ports.
   name: NetBird Ingress Ports API
   slug: netbird-ingress-ports-api
-- description: Instance setup and status endpoints for initial configuration.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Instance setup and status endpoints for initial configuration.
   name: NetBird Instance API
   slug: netbird-instance-api
-- description: Manage and retrieve account invoices.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage and retrieve account invoices.
   name: NetBird Invoice API
   slug: netbird-invoice-api
-- description: Interact with and view information about remote jobs.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about remote jobs.
   name: NetBird Jobs API
   slug: netbird-jobs-api
-- description: MSP portal for Tenant management.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: MSP portal for Tenant management.
   name: NetBird MSP API
   slug: netbird-msp-api
-- description: The Networks API from NetBird — 7 operation(s) for networks.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: The Networks API from NetBird — 7 operation(s) for networks.
   name: NetBird Networks API
   slug: netbird-networks-api
-- description: Manage notification channels for account event alerts.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage notification channels for account event alerts.
   name: NetBird Notifications API
   slug: netbird-notifications-api
-- description: Interact with and view information about peers.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about peers.
   name: NetBird Peers API
   slug: netbird-peers-api
-- description: Retrieve available plans and products.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Retrieve available plans and products.
   name: NetBird Plans API
   slug: netbird-plans-api
-- description: Interact with and view information about policies.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about policies.
   name: NetBird Policies API
   slug: netbird-policies-api
-- description: Access customer portal for subscription management.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Access customer portal for subscription management.
   name: NetBird Portal API
   slug: netbird-portal-api
-- description: Interact with and view information about posture checks.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about posture checks.
   name: NetBird Posture Checks API
   slug: netbird-posture-checks-api
-- description: Interact with and view information about routes.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about routes.
   name: NetBird Routes API
   slug: netbird-routes-api
-- description: Interact with and view information about reverse proxy services.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about reverse proxy services.
   name: NetBird Services API
   slug: netbird-services-api
-- description: Interact with and view information about setup keys.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about setup keys.
   name: NetBird Setup Keys API
   slug: netbird-setup-keys-api
-- description: Manage and view information about account subscriptions.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Manage and view information about account subscriptions.
   name: NetBird Subscription API
   slug: netbird-subscription-api
-- description: Interact with and view information about tokens.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about tokens.
   name: NetBird Tokens API
   slug: netbird-tokens-api
-- description: Retrieve current usage statistics for the account.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Retrieve current usage statistics for the account.
   name: NetBird Usage API
   slug: netbird-usage-api
-- description: Interact with and view information about users.
+- baseURL: https://api.netbird.io
+  baseurl_source: declared
+  description: Interact with and view information about users.
   name: NetBird Users API
   slug: netbird-users-api
 artifact_total: 86
@@ -383,7 +461,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbird/refs/heads/main/screenshots/netbird-2026-06-20T190148.png
 security:

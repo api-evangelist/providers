@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Code-first GraphQL API built with Strawberry, using Python type hints and dataclasses to define schemas. Supports queries, mutations, subscriptions, federation, dataloaders, and schema/field extension
@@ -113,7 +113,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strawberry-graphql/refs/heads/main/screenshots/strawberry-graphql-2026-06-20T194613.png
 security:

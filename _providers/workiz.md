@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Work orders - the core scheduling and dispatch entity in Workiz.
+- baseURL: https://api.workiz.com/api/v1
+  baseurl_source: declared
+  description: Work orders - the core scheduling and dispatch entity in Workiz.
   name: Workiz Jobs API
   slug: workiz-jobs-api
-- description: Prospective work that can be converted into jobs.
+- baseURL: https://api.workiz.com/api/v1
+  baseurl_source: declared
+  description: Prospective work that can be converted into jobs.
   name: Workiz Leads API
   slug: workiz-leads-api
-- description: Payments recorded against a job.
+- baseURL: https://api.workiz.com/api/v1
+  baseurl_source: declared
+  description: Payments recorded against a job.
   name: Workiz Payments API
   slug: workiz-payments-api
-- description: Users - technicians, dispatchers, and office staff.
+- baseURL: https://api.workiz.com/api/v1
+  baseurl_source: declared
+  description: Users - technicians, dispatchers, and office staff.
   name: Workiz Team API
   slug: workiz-team-api
-- description: Technician time-off records that affect availability.
+- baseURL: https://api.workiz.com/api/v1
+  baseurl_source: declared
+  description: Technician time-off records that affect availability.
   name: Workiz Time Off API
   slug: workiz-time-off-api
 artifact_total: 17
@@ -147,7 +157,7 @@ score:
   band: thin
   composite: 36.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +180,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/workiz/refs/heads/main/screenshots/workiz-2026-09-02T170947.png
 security:
 - kind: domain-security
   name: Workiz Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: The Extraction API from LLMWhisperer — 1 operation(s) for extraction.
+- baseURL: https://llmwhisperer-api.us-central.unstract.com/api/v2
+  baseurl_source: declared
+  description: The Extraction API from LLMWhisperer — 1 operation(s) for extraction.
   name: LLMWhisperer Extraction API
   slug: llmwhisperer-extraction-api
-- description: The Highlights API from LLMWhisperer — 1 operation(s) for highlights.
+- baseURL: https://llmwhisperer-api.us-central.unstract.com/api/v2
+  baseurl_source: declared
+  description: The Highlights API from LLMWhisperer — 1 operation(s) for highlights.
   name: LLMWhisperer Highlights API
   slug: llmwhisperer-highlights-api
-- description: The Retrieve API from LLMWhisperer — 1 operation(s) for retrieve.
+- baseURL: https://llmwhisperer-api.us-central.unstract.com/api/v2
+  baseurl_source: declared
+  description: The Retrieve API from LLMWhisperer — 1 operation(s) for retrieve.
   name: LLMWhisperer Retrieve API
   slug: llmwhisperer-retrieve-api
-- description: The Status API from LLMWhisperer — 1 operation(s) for status.
+- baseURL: https://llmwhisperer-api.us-central.unstract.com/api/v2
+  baseurl_source: declared
+  description: The Status API from LLMWhisperer — 1 operation(s) for status.
   name: LLMWhisperer Status API
   slug: llmwhisperer-status-api
-- description: The Webhooks API from LLMWhisperer — 1 operation(s) for webhooks.
+- baseURL: https://llmwhisperer-api.us-central.unstract.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from LLMWhisperer — 1 operation(s) for webhooks.
   name: LLMWhisperer Webhooks API
   slug: llmwhisperer-webhooks-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/screenshots/llmwhisperer-2026-06-20T184627.png
 security:

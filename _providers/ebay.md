@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -44,196 +44,324 @@ agentic_access:
   summary_line: 200 operations · 85 acting · 2 human-in-the-loop
 api_count: 25
 apis:
-- description: The Advertising_eligibility API from eBay — 1 operation(s) for advertising_eligibility.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Advertising_eligibility API from eBay — 1 operation(s) for advertising_eligibility.
   name: eBay Advertising_eligibility API
   slug: ebay-advertising-eligibility-api
-- description: The Bidding API from eBay — 2 operation(s) for bidding.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Bidding API from eBay — 2 operation(s) for bidding.
   name: eBay Bidding API
   slug: ebay-bidding-api
-- description: The Category_tree API from eBay — 8 operation(s) for category_tree.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Category_tree API from eBay — 8 operation(s) for category_tree.
   name: eBay Category_tree API
   slug: ebay-category-tree-api
-- description: The Charity_org API from eBay — 2 operation(s) for charity_org.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Charity_org API from eBay — 2 operation(s) for charity_org.
   name: eBay Charity_org API
   slug: ebay-charity-org-api
-- description: The Config API from eBay — 1 operation(s) for config.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Config API from eBay — 1 operation(s) for config.
   name: eBay Config API
   slug: ebay-config-api
-- description: The Country API from eBay — 1 operation(s) for country.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Country API from eBay — 1 operation(s) for country.
   name: eBay Country API
   slug: ebay-country-api
-- description: The Custom_policy API from eBay — 2 operation(s) for custom_policy.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Custom_policy API from eBay — 2 operation(s) for custom_policy.
   name: eBay Custom_policy API
   slug: ebay-custom-policy-api
-- description: The Customer_service_metric API from eBay — 1 operation(s) for customer_service_metric.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Customer_service_metric API from eBay — 1 operation(s) for customer_service_metric.
   name: eBay Customer_service_metric API
   slug: ebay-customer-service-metric-api
-- description: The Customer_service_metric_task API from eBay — 2 operation(s) for customer_service_metric_task.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Customer_service_metric_task API from eBay — 2 operation(s) for customer_service_metric_task.
   name: eBay Customer_service_metric_task API
   slug: ebay-customer-service-metric-task-api
-- description: The Deal_item API from eBay — 1 operation(s) for deal_item.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Deal_item API from eBay — 1 operation(s) for deal_item.
   name: eBay Deal_item API
   slug: ebay-deal-item-api
-- description: The Destination API from eBay — 2 operation(s) for destination.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Destination API from eBay — 2 operation(s) for destination.
   name: eBay Destination API
   slug: ebay-destination-api
-- description: The Event API from eBay — 2 operation(s) for event.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Event API from eBay — 2 operation(s) for event.
   name: eBay Event API
   slug: ebay-event-api
-- description: The Event_item API from eBay — 1 operation(s) for event_item.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Event_item API from eBay — 1 operation(s) for event_item.
   name: eBay Event_item API
   slug: ebay-event-item-api
-- description: The Fulfillment_policy API from eBay — 4 operation(s) for fulfillment_policy.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Fulfillment_policy API from eBay — 4 operation(s) for fulfillment_policy.
   name: eBay Fulfillment_policy API
   slug: ebay-fulfillment-policy-api
-- description: The Guest_checkout_session API from eBay — 7 operation(s) for guest_checkout_session.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Guest_checkout_session API from eBay — 7 operation(s) for guest_checkout_session.
   name: eBay Guest_checkout_session API
   slug: ebay-guest-checkout-session-api
-- description: The Guest_purchase_order API from eBay — 1 operation(s) for guest_purchase_order.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Guest_purchase_order API from eBay — 1 operation(s) for guest_purchase_order.
   name: eBay Guest_purchase_order API
   slug: ebay-guest-purchase-order-api
-- description: The Inventory_item API from eBay — 5 operation(s) for inventory_item.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Inventory_item API from eBay — 5 operation(s) for inventory_item.
   name: eBay Inventory_item API
   slug: ebay-inventory-item-api
-- description: The Inventory_item_group API from eBay — 1 operation(s) for inventory_item_group.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Inventory_item_group API from eBay — 1 operation(s) for inventory_item_group.
   name: eBay Inventory_item_group API
   slug: ebay-inventory-item-group-api
-- description: The Inventory_task API from eBay — 2 operation(s) for inventory_task.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Inventory_task API from eBay — 2 operation(s) for inventory_task.
   name: eBay Inventory_task API
   slug: ebay-inventory-task-api
-- description: The Item API from eBay — 5 operation(s) for item.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Item API from eBay — 5 operation(s) for item.
   name: eBay Item API
   slug: ebay-item-api
-- description: The Item_sales API from eBay — 1 operation(s) for item_sales.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Item_sales API from eBay — 1 operation(s) for item_sales.
   name: eBay Item_sales API
   slug: ebay-item-sales-api
-- description: The Item_summary API from eBay — 2 operation(s) for item_summary.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Item_summary API from eBay — 2 operation(s) for item_summary.
   name: eBay Item_summary API
   slug: ebay-item-summary-api
-- description: The Kyc API from eBay — 1 operation(s) for kyc.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Kyc API from eBay — 1 operation(s) for kyc.
   name: eBay Kyc API
   slug: ebay-kyc-api
-- description: The Language API from eBay — 1 operation(s) for language.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Language API from eBay — 1 operation(s) for language.
   name: eBay Language API
   slug: ebay-language-api
-- description: The Listing API from eBay — 1 operation(s) for listing.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Listing API from eBay — 1 operation(s) for listing.
   name: eBay Listing API
   slug: ebay-listing-api
-- description: The Listing_recommendation API from eBay — 1 operation(s) for listing_recommendation.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Listing_recommendation API from eBay — 1 operation(s) for listing_recommendation.
   name: eBay Listing_recommendation API
   slug: ebay-listing-recommendation-api
-- description: The Listing_violation API from eBay — 1 operation(s) for listing_violation.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Listing_violation API from eBay — 1 operation(s) for listing_violation.
   name: eBay Listing_violation API
   slug: ebay-listing-violation-api
-- description: The Listing_violation_summary API from eBay — 1 operation(s) for listing_violation_summary.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Listing_violation_summary API from eBay — 1 operation(s) for listing_violation_summary.
   name: eBay Listing_violation_summary API
   slug: ebay-listing-violation-summary-api
-- description: The Location API from eBay — 5 operation(s) for location.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Location API from eBay — 5 operation(s) for location.
   name: eBay Location API
   slug: ebay-location-api
-- description: The Marketplace API from eBay — 7 operation(s) for marketplace.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Marketplace API from eBay — 7 operation(s) for marketplace.
   name: eBay Marketplace API
   slug: ebay-marketplace-api
-- description: The Merchandised_product API from eBay — 1 operation(s) for merchandised_product.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Merchandised_product API from eBay — 1 operation(s) for merchandised_product.
   name: eBay Merchandised_product API
   slug: ebay-merchandised-product-api
-- description: The Offer API from eBay — 9 operation(s) for offer.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Offer API from eBay — 9 operation(s) for offer.
   name: eBay Offer API
   slug: ebay-offer-api
-- description: The Onboarding API from eBay — 1 operation(s) for onboarding.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Onboarding API from eBay — 1 operation(s) for onboarding.
   name: eBay Onboarding API
   slug: ebay-onboarding-api
-- description: The Order API from eBay — 3 operation(s) for order.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Order API from eBay — 3 operation(s) for order.
   name: eBay Order API
   slug: ebay-order-api
-- description: The Order_task API from eBay — 2 operation(s) for order_task.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Order_task API from eBay — 2 operation(s) for order_task.
   name: eBay Order_task API
   slug: ebay-order-task-api
-- description: The Payment_dispute API from eBay — 9 operation(s) for payment_dispute.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Payment_dispute API from eBay — 9 operation(s) for payment_dispute.
   name: eBay Payment_dispute API
   slug: ebay-payment-dispute-api
-- description: The Payment_policy API from eBay — 3 operation(s) for payment_policy.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Payment_policy API from eBay — 3 operation(s) for payment_policy.
   name: eBay Payment_policy API
   slug: ebay-payment-policy-api
-- description: The Payments_program API from eBay — 1 operation(s) for payments_program.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Payments_program API from eBay — 1 operation(s) for payments_program.
   name: eBay Payments_program API
   slug: ebay-payments-program-api
-- description: The Payout API from eBay — 3 operation(s) for payout.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Payout API from eBay — 3 operation(s) for payout.
   name: eBay Payout API
   slug: ebay-payout-api
-- description: The Privilege API from eBay — 1 operation(s) for privilege.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Privilege API from eBay — 1 operation(s) for privilege.
   name: eBay Privilege API
   slug: ebay-privilege-api
-- description: The Product API from eBay — 1 operation(s) for product.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Product API from eBay — 1 operation(s) for product.
   name: eBay Product API
   slug: ebay-product-api
-- description: The Product_compatibility API from eBay — 1 operation(s) for product_compatibility.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Product_compatibility API from eBay — 1 operation(s) for product_compatibility.
   name: eBay Product_compatibility API
   slug: ebay-product-compatibility-api
-- description: The Product_summary API from eBay — 1 operation(s) for product_summary.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Product_summary API from eBay — 1 operation(s) for product_summary.
   name: eBay Product_summary API
   slug: ebay-product-summary-api
-- description: The Program API from eBay — 3 operation(s) for program.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Program API from eBay — 3 operation(s) for program.
   name: eBay Program API
   slug: ebay-program-api
-- description: The Public_key API from eBay — 1 operation(s) for public_key.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Public_key API from eBay — 1 operation(s) for public_key.
   name: eBay Public_key API
   slug: ebay-public-key-api
-- description: The Rate_table API from eBay — 1 operation(s) for rate_table.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Rate_table API from eBay — 1 operation(s) for rate_table.
   name: eBay Rate_table API
   slug: ebay-rate-table-api
-- description: The Register API from eBay — 1 operation(s) for register.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Register API from eBay — 1 operation(s) for register.
   name: eBay Register API
   slug: ebay-register-api
-- description: The Return_policy API from eBay — 3 operation(s) for return_policy.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Return_policy API from eBay — 3 operation(s) for return_policy.
   name: eBay Return_policy API
   slug: ebay-return-policy-api
-- description: The Sales_tax API from eBay — 2 operation(s) for sales_tax.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Sales_tax API from eBay — 2 operation(s) for sales_tax.
   name: eBay Sales_tax API
   slug: ebay-sales-tax-api
-- description: The Schedule API from eBay — 5 operation(s) for schedule.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Schedule API from eBay — 5 operation(s) for schedule.
   name: eBay Schedule API
   slug: ebay-schedule-api
-- description: The Seller_funds_summary API from eBay — 1 operation(s) for seller_funds_summary.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Seller_funds_summary API from eBay — 1 operation(s) for seller_funds_summary.
   name: eBay Seller_funds_summary API
   slug: ebay-seller-funds-summary-api
-- description: The Seller_standards_profile API from eBay — 2 operation(s) for seller_standards_profile.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Seller_standards_profile API from eBay — 2 operation(s) for seller_standards_profile.
   name: eBay Seller_standards_profile API
   slug: ebay-seller-standards-profile-api
-- description: The Shipment API from eBay — 4 operation(s) for shipment.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Shipment API from eBay — 4 operation(s) for shipment.
   name: eBay Shipment API
   slug: ebay-shipment-api
-- description: The Shipping_fulfillment API from eBay — 2 operation(s) for shipping_fulfillment.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Shipping_fulfillment API from eBay — 2 operation(s) for shipping_fulfillment.
   name: eBay Shipping_fulfillment API
   slug: ebay-shipping-fulfillment-api
-- description: The Shipping_quote API from eBay — 2 operation(s) for shipping_quote.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Shipping_quote API from eBay — 2 operation(s) for shipping_quote.
   name: eBay Shipping_quote API
   slug: ebay-shipping-quote-api
-- description: The Signing_key API from eBay — 2 operation(s) for signing_key.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Signing_key API from eBay — 2 operation(s) for signing_key.
   name: eBay Signing_key API
   slug: ebay-signing-key-api
-- description: The Subscription API from eBay — 7 operation(s) for subscription.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Subscription API from eBay — 7 operation(s) for subscription.
   name: eBay Subscription API
   slug: ebay-subscription-api
-- description: The Task API from eBay — 5 operation(s) for task.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Task API from eBay — 5 operation(s) for task.
   name: eBay Task API
   slug: ebay-task-api
-- description: The Topic API from eBay — 2 operation(s) for topic.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Topic API from eBay — 2 operation(s) for topic.
   name: eBay Topic API
   slug: ebay-topic-api
-- description: The Traffic_report API from eBay — 1 operation(s) for traffic_report.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Traffic_report API from eBay — 1 operation(s) for traffic_report.
   name: eBay Traffic_report API
   slug: ebay-traffic-report-api
-- description: The Transaction API from eBay — 2 operation(s) for transaction.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Transaction API from eBay — 2 operation(s) for transaction.
   name: eBay Transaction API
   slug: ebay-transaction-api
-- description: The Transfer API from eBay — 1 operation(s) for transfer.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Transfer API from eBay — 1 operation(s) for transfer.
   name: eBay Transfer API
   slug: ebay-transfer-api
-- description: The User API from eBay — 1 operation(s) for user.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The User API from eBay — 1 operation(s) for user.
   name: eBay User API
   slug: ebay-user-api
-- description: The Video API from eBay — 3 operation(s) for video.
+- baseURL: https://api.ebay.com
+  baseurl_source: declared
+  description: The Video API from eBay — 3 operation(s) for video.
   name: eBay Video API
   slug: ebay-video-api
 artifact_total: 609
@@ -2027,7 +2155,7 @@ score:
       marker_coverage: 0.0
       total: 71
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:

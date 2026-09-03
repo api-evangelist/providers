@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: provides endpoints to access to commands sent to the submission API
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides endpoints to access to commands sent to the submission API
   name: Interhyp commands API
   slug: interhyp-commands-api
-- description: access to submission documents
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: access to submission documents
   name: Interhyp documents API
   slug: interhyp-documents-api
-- description: provides endpoints for financing application resources not associate to a specific financing partner
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides endpoints for financing application resources not associate to a specific financing partner
   name: Interhyp financing-application API
   slug: interhyp-financing-application-api
-- description: provides basic info about service status and version of the submission API specs used
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides basic info about service status and version of the submission API specs used
   name: Interhyp info API
   slug: interhyp-info-api
-- description: provides endpoints to access submission logbook
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides endpoints to access submission logbook
   name: Interhyp logbook API
   slug: interhyp-logbook-api
-- description: provides endpoints for pre-submission resources associated with a specific financing partner
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides endpoints for pre-submission resources associated with a specific financing partner
   name: Interhyp pre-submission-checks API
   slug: interhyp-pre-submission-checks-api
-- description: access to submission protocol
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: access to submission protocol
   name: Interhyp protocol API
   slug: interhyp-protocol-api
-- description: provides endpoints for submission resources associated with a specific financing partner
+- baseURL: https://api.interhyp.de/submission/v2
+  baseurl_source: declared
+  description: provides endpoints for submission resources associated with a specific financing partner
   name: Interhyp submissions API
   slug: interhyp-submissions-api
 artifact_total: 20
@@ -242,7 +258,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interhyp/refs/heads/main/screenshots/interhyp-2026-07-25T222702.png
 security:

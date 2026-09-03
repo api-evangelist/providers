@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -67,13 +67,19 @@ apis:
 - description: Canonical Landscape is the systems-management platform for Ubuntu at scale. Its API lets operators manage and automate inventories, upgrades, patch compliance, reboots, scripts, monitoring, and alerts
   name: Landscape API
   slug: landscape-api
-- description: The Assertions API from Canonical — 1 operation(s) for assertions.
+- baseURL: https://api.snapcraft.io
+  baseurl_source: declared
+  description: The Assertions API from Canonical — 1 operation(s) for assertions.
   name: Canonical Assertions API
   slug: canonical-assertions-api
-- description: The Search API from Canonical — 1 operation(s) for search.
+- baseURL: https://api.snapcraft.io
+  baseurl_source: declared
+  description: The Search API from Canonical — 1 operation(s) for search.
   name: Canonical Search API
   slug: canonical-search-api
-- description: The Snaps API from Canonical — 10 operation(s) for snaps.
+- baseURL: https://api.snapcraft.io
+  baseurl_source: declared
+  description: The Snaps API from Canonical — 10 operation(s) for snaps.
   name: Canonical Snaps API
   slug: canonical-snaps-api
 artifact_total: 21
@@ -202,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canonical/refs/heads/main/screenshots/canonical-2026-06-20T173927.png
 security:

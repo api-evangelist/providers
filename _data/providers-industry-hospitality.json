@@ -16,12 +16,12 @@
      "slug": "toast",
      "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
-     "score": 65.8,
+     "score": 65.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 74.7,
+      "contract_quality": 73.9,
       "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 92.1,
@@ -29,7 +29,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -61,11 +61,11 @@
      "slug": "oracle-hospitality",
      "description": "Oracle Hospitality is Oracle Corporation's hotel and food-and-beverage technology line, built on the 2014 acquisition of MICROS Systems and anchored by OPERA Cloud, the property management system that runs the front desk, reservations, housekeeping, cashiering and event sales for a large share of the world's branded hotel rooms, alongside OPERA Cloud Distribution, Simphony point of sale and Nor1 upsell. Home market is the United States. It sits in the middle of the hotel distribution chain rather than at either end: it is the system of record a property runs on, and the switch through which that property's availability, rates and inventory reach GDS, OTA and web channels and through which reservations come back. Its API posture is unusually open at the specification layer and firmly gated at the credential layer - Oracle publishes 59 Swagger 2.0 specifications covering roughly 3,500 operations to a public GitHub repository under the Universal Permissive License, and publishes the full Oracle Hospitality Integration Platform (OHIP) developer guide openly, but there is no self-serve signup: partners must purchase Oracle Hospitality Integration Cloud Service through the Oracle Store or a CPQ form, production access requires an Oracle Partner Network reference number, and distribution channel partners additionally need an Oracle-issued global Channel Code and an Oracle Cloud Marketplace listing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png",
-     "score": 64.8,
+     "score": 64.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 57.4,
       "contract_quality": 60.8,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -74,7 +74,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -119,7 +119,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 59.4,
      "agent_band": "agent-ready",
@@ -164,7 +164,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -216,7 +216,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.7,
      "agent_band": "agent-ready",
@@ -261,7 +261,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -313,7 +313,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -355,8 +355,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 29,
-   "shown": 29,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "Amadeus",
@@ -376,7 +376,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -421,7 +421,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -449,51 +449,6 @@
      "rank": 9
     },
     {
-     "name": "Viator",
-     "slug": "viator",
-     "description": "Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an aggregator and reseller of third-party operator inventory, and on the supply side as the channel counterparty that tour operators' reservation systems connect into. Its API posture is unusually open for travel: the full Viator Partner API v2 OpenAPI, the legacy v1 affiliate and merchant specifications, the Viator Reservation System (supplier) API and four Postman collections are all published without a login at docs.viator.com, and Basic Access affiliate keys are issued self-serve at no cost on account creation. Everything beyond that is gated - Full Access, Full Access plus Booking, Merchant and supplier connectivity all require qualification by Viator and, for transactional integrations, passing a two-part front-end and back-end certification. No open travel standard is referenced anywhere in the specifications: the contract is entirely Viator-proprietary, product identifiers are Viator-internal, and partners are contractually required to prevent search engines indexing Viator reviews and unique content.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png",
-     "score": 49.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 62.3,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 45.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "Cvent",
      "slug": "cvent",
      "description": "Cvent is a leading meetings, events, and hospitality technology provider with over 4,800 employees and 22,000+ customers worldwide. The Cvent platform spans Event Cloud (event management, registration, mobile event apps, virtual and hybrid events, Attendee Hub, surveys, Diagramming, and analytics) and Hospitality Cloud (Cvent Supplier Network, Passkey, Venue Sourcing, and Sales & Catering). Programmatic access is delivered through the unified Cvent Platform REST API (api-platform.cvent.com) using OAuth 2.0 client credentials, with legacy SOAP, BadgeKit, Jifflenow, and CSN APIs documented for historical integrations. The developer portal at developers.cvent.com hosts API references, guides, OpenAPI downloads, webhooks, SSO, custom widgets, white-label, and integration documentation.",
@@ -511,7 +466,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -536,7 +491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Traveloka",
@@ -556,7 +511,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 39.0,
      "agent_band": "agent-native",
@@ -570,6 +525,51 @@
       "error_semantics": "verified",
       "openapi_examples": "verified",
       "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Viator",
+     "slug": "viator",
+     "description": "Viator is a Tripadvisor company and the largest online marketplace for tours, activities and travel experiences, headquartered in the United States and listing more than 300,000 bookable products across roughly 2,500 destinations. It sits on the demand side of the travel distribution chain as an aggregator and reseller of third-party operator inventory, and on the supply side as the channel counterparty that tour operators' reservation systems connect into. Its API posture is unusually open for travel: the full Viator Partner API v2 OpenAPI, the legacy v1 affiliate and merchant specifications, the Viator Reservation System (supplier) API and four Postman collections are all published without a login at docs.viator.com, and Basic Access affiliate keys are issued self-serve at no cost on account creation. Everything beyond that is gated - Full Access, Full Access plus Booking, Merchant and supplier connectivity all require qualification by Viator and, for transactional integrations, passing a two-part front-end and back-end certification. No open travel standard is referenced anywhere in the specifications: the contract is entirely Viator-proprietary, product identifiers are Viator-internal, and partners are contractually required to prevent search engines indexing Viator reviews and unique content.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png",
+     "score": 48.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 62.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 45.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -601,7 +601,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.3,
      "agent_band": "agent-ready",
@@ -646,7 +646,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.3,
      "agent_band": "agent-native",
@@ -691,7 +691,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
@@ -736,7 +736,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 40.5,
      "agent_band": "agent-ready",
@@ -764,6 +764,51 @@
      "rank": 16
     },
     {
+     "name": "Harri",
+     "slug": "harri",
+     "description": "Harri is a hospitality-first human capital management (HCM) and workforce management platform used by enterprise restaurants, hotels, retailers, grocers and care operators to run the full employee lifecycle — talent acquisition and onboarding, scheduling and demand forecasting, time and attendance, labor compliance, payroll data export and workforce analytics. Harri exposes a public Open API Hub through its developer portal at developer.harri.com, secured with OAuth 2.0 client credentials and fronted by an API gateway at gateway.harri.com. The published surface covers employee records, locations, positions, job titles, pay types, hourly and annual rates, tronc and tip distribution, employment periods, absences, max weekly hours and working patterns, external-system ID mappings, platform events and webhook subscriptions, plus an employer/brand-management surface for above-store admin users. A parallel franchisee-scoped path set mirrors the corporate endpoints for multi-brand and franchise operators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 57.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 37.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
      "name": "Bear Robotics",
      "slug": "bear-robotics",
      "description": "Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the Bear Universe cloud fleet platform. Founded in 2017 by former Google engineer John Ha, headquartered in Redwood City, California, and now majority-owned by LG Electronics. Bear publishes a genuinely open, gRPC-first third-party developer surface: the Bear Cloud API (39 RPCs, 27 unary and 12 server-streaming) for creating missions, streaming robot state and managing fleets, plus an on-robot Bear Base API for direct local control. The Protobuf definitions are published under MPL-2.0 in a public GitHub organization, an OpenAPI 3.0.3 document covers the transcoded REST projection, and v1.3 added outbound webhooks. API keys are issued through an account manager rather than self-serve signup.",
@@ -781,7 +826,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -795,51 +840,6 @@
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "Harri",
-     "slug": "harri",
-     "description": "Harri is a hospitality-first human capital management (HCM) and workforce management platform used by enterprise restaurants, hotels, retailers, grocers and care operators to run the full employee lifecycle — talent acquisition and onboarding, scheduling and demand forecasting, time and attendance, labor compliance, payroll data export and workforce analytics. Harri exposes a public Open API Hub through its developer portal at developer.harri.com, secured with OAuth 2.0 client credentials and fronted by an API gateway at gateway.harri.com. The published surface covers employee records, locations, positions, job titles, pay types, hourly and annual rates, tronc and tip distribution, employment periods, absences, max weekly hours and working patterns, external-system ID mappings, platform events and webhook subscriptions, plus an employer/brand-management surface for above-store admin users. A parallel franchisee-scoped path set mirrors the corporate endpoints for multi-brand and franchise operators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png",
-     "score": 44.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 57.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 37.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -871,7 +871,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -916,7 +916,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -961,7 +961,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1006,7 +1006,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.8,
      "agent_band": "agent-ready",
@@ -1051,7 +1051,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.2,
      "agent_band": "agent-ready",
@@ -1096,7 +1096,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -1141,7 +1141,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
@@ -1186,7 +1186,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -1231,7 +1231,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -1276,7 +1276,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1321,7 +1321,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -1366,7 +1366,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1394,6 +1394,51 @@
      "rank": 30
     },
     {
+     "name": "GuestReady",
+     "slug": "guestready",
+     "description": "GuestReady is a full-service short-term and mid-term rental hospitality management company operating across Europe and the Middle East (United Kingdom, France, Portugal, Spain, Switzerland and the UAE), managing Airbnb, Booking.com, Vrbo and direct-booking properties on behalf of owners and investors — listing optimisation, dynamic pricing, guest communication, cleaning, maintenance and on-the-ground operations. GuestReady Group is also the author of RentalReady, the property management system (PMS) it originally built for its own operations and now sells to external property managers. RentalReady is the group's developer-facing surface: a 252-operation OpenAPI 3.0.3 REST API at pms.rentalready.io/api/v3/ covering rentals, reservations, calendar, pricing, missions, issues, conversations, reviews, owners, invoicing and payments, secured with OAuth 2.0 authorization-code flow and 50+ granular scopes, plus a Model Context Protocol (MCP) server that connects AI agents to live PMS data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/screenshots/guestready-2026-09-02T145653.png",
+     "score": 40.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 48.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 32.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 31
+    },
+    {
      "name": "Fudo",
      "slug": "fudo",
      "description": "Fudo is a cloud-based point-of-sale and restaurant management platform used by more than 25,000 restaurants, bars, and cafes across Latin America. The product covers on-premise and online sales, QR menus, kitchen display, inventory and purchasing, expenses, table and room management, staff roles, and delivery-app integrations (Uber Eats, Rappi, PedidosYa). Fudo publishes a general-purpose public REST API (OpenAPI 3.1, JSON:API style) that lets Pro-plan accounts read and write sales, payments, products, customers, expenses, ingredients, and system configuration for reporting, BI, ERP, and custom integrations. This profile was surfaced as an a16z portfolio company and enriched by the API Evangelist pipeline from Fudo's own developer surface.",
@@ -1411,7 +1456,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1443,7 +1488,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Brandtrack",
@@ -1463,7 +1508,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -1488,7 +1533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Beds24",
@@ -1508,52 +1553,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "Hospitable",
-     "slug": "hospitable",
-     "description": "Hospitable (formerly Smartbnb) is a short-term and vacation rental automation platform for Airbnb, Vrbo, Booking.com, and direct-booking hosts and property managers. It centralizes multi-channel calendar syncing, AI-powered guest messaging in a unified inbox, cleaning and operations tasks, reviews, and a direct booking website. The Hospitable Public API v2 is a REST API at https://public.api.hospitable.com/v2 that lets hosts and vendors programmatically manage properties, channel listings, reservations, guest messaging, calendar availability and pricing, and reviews, authenticated with OAuth 2.0 (for vendors) or Personal Access Tokens (for personal use). v2 webhooks push reservation, property, message, and review events to a host's server.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/screenshots/hospitable-2026-07-25T221454.png",
-     "score": 39.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1581,23 +1581,24 @@
      "rank": 34
     },
     {
-     "name": "Smoobu",
-     "slug": "smoobu",
-     "description": "Smoobu is an all-in-one vacation rental channel manager and property management system for short-term rental hosts and property managers. It synchronizes availability, rates, and reservations across Airbnb, Booking.com, Vrbo, and other channels, and provides a booking website, unified guest inbox, automated messaging, guest online check-in, invoicing, and dynamic pricing. The Smoobu REST API (base https://login.smoobu.com/api) lets Professional subscribers and integration partners read and write apartments, reservations, rates and availability, guests, and guest messages, and receive webhook notifications when bookings change. Authentication is via an API key header (with HMAC-signed requests recommended and OAuth 2 available for partners).",
-     "score": 39.4,
+     "name": "Hospitable",
+     "slug": "hospitable",
+     "description": "Hospitable (formerly Smartbnb) is a short-term and vacation rental automation platform for Airbnb, Vrbo, Booking.com, and direct-booking hosts and property managers. It centralizes multi-channel calendar syncing, AI-powered guest messaging in a unified inbox, cleaning and operations tasks, reviews, and a direct booking website. The Hospitable Public API v2 is a REST API at https://public.api.hospitable.com/v2 that lets hosts and vendors programmatically manage properties, channel listings, reservations, guest messaging, calendar availability and pricing, and reviews, authenticated with OAuth 2.0 (for vendors) or Personal Access Tokens (for personal use). v2 webhooks push reservation, property, message, and review events to a host's server.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hospitable/refs/heads/main/screenshots/hospitable-2026-07-25T221454.png",
+     "score": 39.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 59.2,
+      "contract_quality": 55.8,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 35.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 33.3,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1625,24 +1626,24 @@
      "rank": 35
     },
     {
-     "name": "HotelRunner",
-     "slug": "hotelrunner",
-     "description": "HotelRunner is a Turkey-founded global hospitality technology platform - a channel manager, central reservation system, booking engine, and website/content manager for hotels, apartments, and travel agencies. Its Custom Apps program exposes a token-authenticated REST API (and a legacy OTA-style XML/SOAP API) so a property's PMS or revenue management system can pull room and rate configuration, push availability/rate/restriction updates to connected OTAs and channels, retrieve and acknowledge reservations, and receive real-time reservation pushes via an HTTP webhook callback.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/screenshots/hotelrunner-2026-07-25T221503.png",
-     "score": 39.3,
+     "name": "Smoobu",
+     "slug": "smoobu",
+     "description": "Smoobu is an all-in-one vacation rental channel manager and property management system for short-term rental hosts and property managers. It synchronizes availability, rates, and reservations across Airbnb, Booking.com, Vrbo, and other channels, and provides a booking website, unified guest inbox, automated messaging, guest online check-in, invoicing, and dynamic pricing. The Smoobu REST API (base https://login.smoobu.com/api) lets Professional subscribers and integration partners read and write apartments, reservations, rates and availability, guests, and guest messages, and receive webhook notifications when bookings change. Authentication is via an API key header (with HMAC-signed requests recommended and OAuth 2 available for partners).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/screenshots/smoobu-2026-09-02T155950.png",
+     "score": 39.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 53.1,
+      "contract_quality": 59.2,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 35.7,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1668,6 +1669,51 @@
       "agentic_commerce": false
      },
      "rank": 36
+    },
+    {
+     "name": "HotelRunner",
+     "slug": "hotelrunner",
+     "description": "HotelRunner is a Turkey-founded global hospitality technology platform - a channel manager, central reservation system, booking engine, and website/content manager for hotels, apartments, and travel agencies. Its Custom Apps program exposes a token-authenticated REST API (and a legacy OTA-style XML/SOAP API) so a property's PMS or revenue management system can pull room and rate configuration, push availability/rate/restriction updates to connected OTAs and channels, retrieve and acknowledge reservations, and receive real-time reservation pushes via an HTTP webhook callback.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/screenshots/hotelrunner-2026-07-25T221503.png",
+     "score": 39.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.1,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 37
     }
    ],
    "open": true
@@ -1677,8 +1723,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 46,
-   "shown": 46,
+   "count": 45,
+   "shown": 45,
    "providers": [
     {
      "name": "OwnerRez",
@@ -1698,7 +1744,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1723,7 +1769,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Holidu",
@@ -1743,7 +1789,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 40.8,
      "agent_band": "agent-native",
@@ -1768,7 +1814,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Cvent Platform",
@@ -1788,7 +1834,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1813,51 +1859,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
-    },
-    {
-     "name": "GuestReady",
-     "slug": "guestready",
-     "description": "GuestReady is a full-service short-term and mid-term rental hospitality management company operating across Europe and the Middle East (United Kingdom, France, Portugal, Spain, Switzerland and the UAE), managing Airbnb, Booking.com, Vrbo and direct-booking properties on behalf of owners and investors — listing optimisation, dynamic pricing, guest communication, cleaning, maintenance and on-the-ground operations. GuestReady Group is also the author of RentalReady, the property management system (PMS) it originally built for its own operations and now sells to external property managers. RentalReady is the group's developer-facing surface: a 252-operation OpenAPI 3.0.3 REST API at pms.rentalready.io/api/v3/ covering rentals, reservations, calendar, pricing, missions, issues, conversations, reviews, owners, invoicing and payments, secured with OAuth 2.0 authorization-code flow and 50+ granular scopes, plus a Model Context Protocol (MCP) server that connects AI agents to live PMS data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/guestready/refs/heads/main/screenshots/guestready-2026-09-02T145653.png",
-     "score": 37.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 44.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 32.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 40
     },
     {
@@ -1878,7 +1879,7 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -1923,7 +1924,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1954,6 +1955,7 @@
      "name": "TableCheck",
      "slug": "tablecheck",
      "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/screenshots/tablecheck-2026-09-02T161720.png",
      "score": 36.6,
      "band": "thin",
      "band_label": "Thin",
@@ -1967,7 +1969,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -2012,7 +2014,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2057,7 +2059,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2102,7 +2104,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -2147,7 +2149,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2199,7 +2201,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2244,7 +2246,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2275,6 +2277,7 @@
      "name": "Uplisting",
      "slug": "uplisting",
      "description": "Uplisting is short-term and vacation rental management software and a channel manager for professional hosts and property managers. It syncs listings, bookings, availability, rates, and guest messaging across Airbnb, Vrbo, and Booking.com, and powers a direct booking website and unified inbox. Uplisting exposes an invite-only Public and Partner REST API at https://connect.uplisting.io for reading properties, bookings, availability, and calendar (prices and restrictions), plus webhooks that push booking changes to partner endpoints. Authentication is HTTP Basic with a Base64-encoded API key generated on the Connect page. Uplisting is part of the AirDNA family.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/screenshots/uplisting-2026-09-02T165042.png",
      "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
@@ -2288,7 +2291,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2333,7 +2336,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -2378,7 +2381,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2423,7 +2426,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -2468,7 +2471,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
@@ -2513,7 +2516,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -2557,7 +2560,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2609,7 +2612,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2661,7 +2664,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2706,7 +2709,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -2751,7 +2754,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2796,7 +2799,7 @@
       "commercial_clarity": 82.9,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2841,7 +2844,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -2886,7 +2889,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2917,6 +2920,7 @@
      "name": "Soothe",
      "slug": "soothe",
      "description": "Soothe is a Los Angeles-based on-demand wellness marketplace, founded in 2013, that connects consumers and businesses with independent, licensed wellness professionals who deliver services at the customer's own location. The marketplace covers massage (Swedish, deep tissue, sports, prenatal, chair, percussive, reflexology, lymphatic, acupressure, Thai and myofascial), facials and skincare, and hair and beauty services, booked through the Soothe consumer app and web booking flow and fulfilled through the separate Soothe for Providers app. Alongside the B2C business, Soothe runs a B2B practice covering corporate and employee wellness programs, hospitality and spa staffing, residential communities and event chair massage, plus a SoothePass subscription membership. It operates in 40+ US cities across roughly 32 states and Washington D.C., and internationally in Australia, Canada and the United Kingdom. Soothe publishes no public developer program: its API host, api.soothe.com, is a credentialed sign-in wall, and the partner booking platform it markets to hospitality and corporate customers is reached through a contact-sales form rather than public documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/screenshots/soothe-2026-09-02T160236.png",
      "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
@@ -2930,7 +2934,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2982,7 +2986,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -3027,7 +3031,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3079,7 +3083,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3128,6 +3132,7 @@
      "name": "Vita Mojo International",
      "slug": "vita-mojo-international",
      "description": "Vita Mojo International is a London-based hospitality technology company behind VMOS, an end-to-end order management system for quick-service restaurants that unifies point of sale, self-service kiosks, digital ordering, click-and-collect, kitchen management, menu management, loyalty, and data analytics (including the Scout AI analyst). Launched in 2015 and backed by Battery Ventures, Vita Mojo powers 3,100+ locations for brands such as Subway, GAIL's, LEON, Honest Burgers, and YO!, primarily in the UK and Netherlands. Its integration surface is partner-oriented, with a partner-gated Reporting API, an EPOS Connector that delivers VMOS orders via webhooks in supported formats, and a catalog of technology partner integrations; first-party JavaScript libraries are published publicly on npm under the @vita-mojo scope.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vita-mojo-international/refs/heads/main/screenshots/vita-mojo-international-2026-09-02T170105.png",
      "score": 30.0,
      "band": "thin",
      "band_label": "Thin",
@@ -3141,7 +3146,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -3186,7 +3191,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -3217,6 +3222,7 @@
      "name": "Sojern",
      "slug": "sojern",
      "description": "Sojern is an AI-powered digital marketing platform built for the hospitality and travel industry. Powered by the Sojern Traveler Ecosystem, it unifies real-time traveler intent data, AI-driven audience predictions, and multichannel media activation across display, social, video, connected TV, SEM, metasearch, email, and native channels to help hotels, destinations, attractions, airlines, and agencies drive direct bookings, improve ROI, and grow guest loyalty. The platform spans audiences, creative services, activation, optimization, measurement, and attribution, plus guest-experience tools. Sojern publishes no public developer program: there is no developer portal, no API reference and no machine-readable contract. Its integration surface is the partner-side Sojern Universal Pixel and server-to-server postback described in its Technology Specifications for Partners, while the customer portal is backed by an authenticated GraphQL endpoint whose introspection is disabled for anonymous callers. This is a company profile in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sojern/refs/heads/main/screenshots/sojern-2026-09-02T160103.png",
      "score": 29.5,
      "band": "thin",
      "band_label": "Thin",
@@ -3230,7 +3236,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3275,7 +3281,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -3320,7 +3326,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -3351,6 +3357,7 @@
      "name": "Uncle Nearest",
      "slug": "uncle-nearest",
      "description": "Uncle Nearest, Inc. is an American whiskey company headquartered in Shelbyville, Tennessee, founded in 2017 by Fawn Weaver and Keith Weaver and named for Nathan \"Nearest\" Green, the formerly enslaved master distiller who taught Jack Daniel the craft. The company produces the Uncle Nearest 1856 Premium Aged, 1884 Small Batch, Master Blend, Single Barrel, Straight Rye and Uncut/Unfiltered Rye expressions, and operates the Nearest Green Distillery visitor destination in Shelbyville with tours, tastings, private events and a retail shop. Uncle Nearest is a privately held, consumer-facing brand with no developer program and no product API; its only public machine-readable surfaces are the WordPress REST API and the two OpenAPI-documented Events Calendar REST APIs served from its own web host at unclenearest.com, which expose the brand's published events, venues and organizers as read-only JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncle-nearest/refs/heads/main/screenshots/uncle-nearest-2026-09-02T164843.png",
      "score": 28.9,
      "band": "thin",
      "band_label": "Thin",
@@ -3364,7 +3371,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3409,7 +3416,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.9,
      "agent_band": "agent-aware",
@@ -3454,7 +3461,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3512,7 +3519,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -3557,7 +3564,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3602,7 +3609,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -3647,7 +3654,7 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -3692,7 +3699,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3730,6 +3737,7 @@
      "name": "Tenzo",
      "slug": "tenzo",
      "description": "Tenzo is a restaurant analytics and business-intelligence platform that unifies data from point-of-sale, labor scheduling, inventory, reviews, and reservation systems into a single reporting layer. It aggregates across 90+ integrated platforms and layers AI, demand forecasting, and automated reporting on top so multi-site restaurant operators can manage staffing, food and labor cost, and revenue. Tenzo exposes a public REST API (api.gotenzo.com/public/v1), an OAuth 2.0 Authorization Code (PKCE) partner integration for per-customer access, and a hosted Model Context Protocol (MCP) server for connecting AI assistants directly to restaurant data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenzo/refs/heads/main/screenshots/tenzo-2026-09-02T163116.png",
      "score": 27.1,
      "band": "thin",
      "band_label": "Thin",
@@ -3743,7 +3751,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -3774,6 +3782,7 @@
      "name": "Trivago",
      "slug": "trivago",
      "description": "trivago (trivago N.V.) is a global hotel and accommodation metasearch engine, founded in Düsseldorf, Germany in 2005, that aggregates prices, ratings, and reviews from 250+ booking sites across more than 7 million properties in 190 countries and 31 languages. trivago does not hold inventory — its role is to surface the full competitive market and connect travelers to the best available deal, including member, loyalty, and direct-hotel rates that individual booking platforms do not show by default. For programmatic access, trivago is AI-native: it publishes a public, no-auth Model Context Protocol (MCP) connector exposing a search_hotels tool, an invite-only direct hotel-search API, and a partner Connectivity Suite (FastConnect for real-time rates and availability, plus a Conversion Tracking API). It also operates trivago Hotel Manager (Business Studio) for hoteliers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trivago/refs/heads/main/screenshots/trivago-2026-09-02T164304.png",
      "score": 26.4,
      "band": "thin",
      "band_label": "Thin",
@@ -3787,7 +3796,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3842,7 +3851,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -3887,7 +3896,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3915,194 +3924,16 @@
      "rank": 84
     },
     {
-     "name": "eZee Technosys",
-     "slug": "ezee",
-     "description": "eZee Technosys is a hospitality technology company offering eZee Absolute (cloud hotel PMS), eZee Centrix (channel manager), eZee Reservation (booking engine), and eZee Optimus (restaurant POS). Its YCS Connectivity Portal exposes a partner-gated HTTP API for PMS connectivity, channel manager, booking engine, and POS integrations so third-party systems can sync reservations, room inventory, rates, restrictions, and guest data. eZee is now part of Yanolja Cloud (Yanolja Cloud Solution).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png",
-     "score": 24.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 13.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Turneo",
-     "slug": "turneo",
-     "description": "Turneo is an operating system for hotel experiences and services, backed by Bessemer Venture Partners. It digitizes the activities, spa & wellness, dining, rentals, transfers, and tickets a hotel offers, makes them bookable across guest touchpoints, and deploys AI agents to automate the operations behind them. Hotels and partners integrate through the Turneo v2 REST API (https://api.turneo.co, API-key authenticated) to search experiences, retrieve options and availability, and assemble and confirm booking orders, and through embeddable Turneo Elements widgets that add browse-and-book surfaces (with Apple Pay) directly to a partner website. It also plugs into existing tools such as Bokun, OPERA Cloud, apaleo, MEWS, and REGIONDO.",
-     "score": 24.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 57.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 86
-    },
-    {
-     "name": "BrewDog",
-     "slug": "brewdog",
-     "description": "BrewDog PLC (company no. SC311560) is a Scottish craft brewer, bar and hotel operator headquartered at Balmacassie Commercial Park, Ellon, Aberdeenshire, known for Punk IPA, Hazy Jane and Lost Lager, its Equity for Punks crowdfunding rounds, and its openly published DIY Dog recipe archive. BrewDog does not run a conventional developer program, but its direct-to-consumer store at brewdog.com is a Shopify storefront that ships a real agent-facing API surface: a published /llms.txt and /agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a UCP-over-MCP endpoint at /api/ucp/mcp, Shopify Customer Account OpenID Connect discovery at /.well-known/openid-configuration, and unauthenticated read-only storefront product JSON endpoints that BrewDog documents for agents itself.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png",
-     "score": 24.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 6.7,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 17.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 87
-    },
-    {
-     "name": "Zerocater",
-     "slug": "zerocater",
-     "description": "Zerocater is a San Francisco-founded corporate catering and workplace food company that builds and manages office food programs for businesses. It acts as an intermediary between employers and a curated network of local restaurants, caterers and chefs, covering daily corporate catering (buffet and individually boxed), chef-led on-site corporate cafeterias with snack and barista programs, and full-service event catering with on-site staffing. Its CaterAi product uses AI to recommend and assemble menus from a team's stated preferences, dietary restrictions and order history, and to book on-site staff and event decor. Zerocater states it serves 500+ companies across 12+ major U.S. metros including the SF Bay Area, New York, Austin, Boston, Los Angeles, Chicago, Washington DC, Seattle, Denver, Dallas, Atlanta, Philadelphia and Phoenix. It runs a customer-facing ordering web application at app.zerocater.com backed by an undocumented Django REST Framework token-authenticated JSON API (v3), whose hypermedia root index is served anonymously, and it publishes a first-party Python client library on PyPI.",
-     "score": 24.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 5.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
      "name": "NeueHouse",
      "slug": "neuehouse",
      "description": "NeueHouse is a private work and cultural home for creatives — a members-only workspace, screening room, podcast studio and events club founded in New York in 2011. It is a hospitality brand rather than a software company and it runs no developer program, publishes no API documentation and issues no API credentials. It does, however, serve a live, anonymous, machine-readable content API from its own host: the site runs on WordPress and its WordPress REST API is exposed at https://www.neuehouse.com/wp-json/, where the route index declares 313 routes across 16 namespaces. Alongside the WordPress defaults the deployment registers four NeueHouse-specific content types that read anonymously — event (467 records of cultural programming), press (66), location (3 houses) and neuejournal (empty) — making the events and press archives genuinely useful to an outside consumer. NeueHouse ceased operations in September 2025 and filed Chapter 7; Convene Hospitality Group acquired the brand, intellectual property and the Madison Square flagship out of bankruptcy and relaunched the brand in January 2026. The Los Angeles houses were not acquired and are not reopening, although their records are still served by the content API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png",
-     "score": 24.2,
+     "score": 25.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 63.0,
-      "contract_quality": 14.1,
+      "contract_quality": 17.5,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
@@ -4110,7 +3941,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.0,
      "agent_band": "agent-aware",
@@ -4135,12 +3966,193 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 85
+    },
+    {
+     "name": "eZee Technosys",
+     "slug": "ezee",
+     "description": "eZee Technosys is a hospitality technology company offering eZee Absolute (cloud hotel PMS), eZee Centrix (channel manager), eZee Reservation (booking engine), and eZee Optimus (restaurant POS). Its YCS Connectivity Portal exposes a partner-gated HTTP API for PMS connectivity, channel manager, booking engine, and POS integrations so third-party systems can sync reservations, room inventory, rates, restrictions, and guest data. eZee is now part of Yanolja Cloud (Yanolja Cloud Solution).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png",
+     "score": 24.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 13.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "Turneo",
+     "slug": "turneo",
+     "description": "Turneo is an operating system for hotel experiences and services, backed by Bessemer Venture Partners. It digitizes the activities, spa & wellness, dining, rentals, transfers, and tickets a hotel offers, makes them bookable across guest touchpoints, and deploys AI agents to automate the operations behind them. Hotels and partners integrate through the Turneo v2 REST API (https://api.turneo.co, API-key authenticated) to search experiences, retrieve options and availability, and assemble and confirm booking orders, and through embeddable Turneo Elements widgets that add browse-and-book surfaces (with Apple Pay) directly to a partner website. It also plugs into existing tools such as Bokun, OPERA Cloud, apaleo, MEWS, and REGIONDO.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turneo/refs/heads/main/screenshots/turneo-2026-09-02T164536.png",
+     "score": 24.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 87
+    },
+    {
+     "name": "BrewDog",
+     "slug": "brewdog",
+     "description": "BrewDog PLC (company no. SC311560) is a Scottish craft brewer, bar and hotel operator headquartered at Balmacassie Commercial Park, Ellon, Aberdeenshire, known for Punk IPA, Hazy Jane and Lost Lager, its Equity for Punks crowdfunding rounds, and its openly published DIY Dog recipe archive. BrewDog does not run a conventional developer program, but its direct-to-consumer store at brewdog.com is a Shopify storefront that ships a real agent-facing API surface: a published /llms.txt and /agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, a UCP-over-MCP endpoint at /api/ucp/mcp, Shopify Customer Account OpenID Connect discovery at /.well-known/openid-configuration, and unauthenticated read-only storefront product JSON endpoints that BrewDog documents for agents itself.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brewdog/refs/heads/main/screenshots/brewdog-2026-08-07T162802.png",
+     "score": 24.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 6.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 17.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 88
+    },
+    {
+     "name": "Zerocater",
+     "slug": "zerocater",
+     "description": "Zerocater is a San Francisco-founded corporate catering and workplace food company that builds and manages office food programs for businesses. It acts as an intermediary between employers and a curated network of local restaurants, caterers and chefs, covering daily corporate catering (buffet and individually boxed), chef-led on-site corporate cafeterias with snack and barista programs, and full-service event catering with on-site staffing. Its CaterAi product uses AI to recommend and assemble menus from a team's stated preferences, dietary restrictions and order history, and to book on-site staff and event decor. Zerocater states it serves 500+ companies across 12+ major U.S. metros including the SF Bay Area, New York, Austin, Boston, Los Angeles, Chicago, Washington DC, Seattle, Denver, Dallas, Atlanta, Philadelphia and Phoenix. It runs a customer-facing ordering web application at app.zerocater.com backed by an undocumented Django REST Framework token-authenticated JSON API (v3), whose hypermedia root index is served anonymously, and it publishes a first-party Python client library on PyPI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zerocater/refs/heads/main/screenshots/zerocater-2026-09-02T171641.png",
+     "score": 24.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 26.2,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 89
     },
     {
      "name": "Ubeya",
      "slug": "ubeya",
      "description": "Ubeya is an AI-powered workforce management platform for businesses that rely on hourly and temporary workers, including staffing agencies, stadiums, events, hospitality, catering, healthcare, and retail operations. The platform covers scheduling, time and attendance, communication, payroll, compliance, reporting, CRM, vendor management, and a worker app, and integrates with ATS, CRM, payroll, and billing systems as well as Zapier and a customer-facing OpenAPI for programmatic data access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubeya/refs/heads/main/screenshots/ubeya-2026-09-02T164713.png",
      "score": 24.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4154,7 +4166,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4199,7 +4211,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4248,6 +4260,7 @@
      "name": "Wyndham Hotels & Resorts",
      "slug": "wyndham-hotels",
      "description": "Wyndham Hotels & Resorts, Inc. (NYSE: WH) is the world's largest hotel franchising company by number of properties, with over 8,300 affiliated hotels and approximately 869,000 rooms across roughly 25 brands in 95+ countries, licensed to more than 6,200 franchisees. Headquartered in Parsippany, New Jersey, its home market is the United States. Wyndham does not operate most of its hotels — it franchises brands (Days Inn, Super 8, Ramada, La Quinta, Microtel, Baymont, Howard Johnson, Travelodge, Wingate, Wyndham, Wyndham Grand, Trademark Collection, TRYP, Dolce, ECHO Suites and others) and sells the demand that flows through them. It sits in the distribution chain as a franchisor and demand aggregator rather than as a distribution platform: inventory reaches buyers through Wyndham's own brand.com sites and Wyndham Rewards, through GDS chain codes under master chain code WR, and through third-party online travel agents, with the central reservation layer supplied by Sabre Hospitality's SynXis CRS under a relationship Sabre publicly renewed in July 2024. There is no travel API: no developer portal, no API documentation, no OpenAPI, and no property, rate, availability, reservation, loyalty or folio surface is machine-readable anywhere. developer., developers., docs. and api. subdomains do not resolve; /developers, /api, /docs, /openapi.json, /swagger.json and /api-docs all return 404, and mcp.wyndhamhotels.com resolves with a valid certificate but serves an Akamai 503 on every path. The Terms of Use (effective 2026-03-12) affirmatively prohibit robots, spiders, meta-searching and automated access, and separately prohibit automated access to Wyndham's AI Search. What a second enrichment round did find on 2026-07-28 is undocumented CMS infrastructure that is nonetheless genuinely live: www.wyndhambusiness.com and development.wyndhamhotels.com both run WordPress on WP Engine and leave the WordPress REST API anonymously readable (309 and 403 registered routes, with JSON Schema available by HTTP OPTIONS), and three WordPress MCP adapter routes are registered across the two estates — one of them, on www.wyndhambusiness.com, bound to a real OAuth 2.1 authorization server with RFC 8414 and RFC 9728 discovery metadata, mandatory PKCE S256 and a single `mcp` scope, returning a standards-correct 401 bearer challenge to anonymous callers. None of it is documented, supported, or usable without a credential Wyndham issues to no third party, and none of it carries hotel data. The integration surface that matters is still reached only through a franchise agreement, a commercial distribution agreement, or Sabre.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wyndham-hotels/refs/heads/main/screenshots/wyndham-hotels-2026-09-02T171034.png",
      "score": 23.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4261,7 +4274,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -4306,7 +4319,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4358,7 +4371,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4389,6 +4402,7 @@
      "name": "TravelClick (Amadeus)",
      "slug": "travelclick-amadeus",
      "description": "TravelClick, now Amadeus Hospitality, is a hotel commerce and distribution technology provider whose flagship product is the iHotelier Booking Engine 4.0 (CRS/central reservation system). For developers it publishes the Amadeus iHotelier BE API — a family of OAuth 2.0 secured REST APIs that let web and B2C guest-facing applications search availability, hold and create reservations, manage group bookings, and drive the hotel booking flow. TravelClick also operates OTA Connect, a distribution API that connects channel-management partners and OTAs to hotel inventory. API documentation and interactive testing are available to accounts registered on the developer portal at developer.travelclick.com; non-production API keys are issued on request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelclick-amadeus/refs/heads/main/screenshots/travelclick-amadeus-2026-09-02T164140.png",
      "score": 23.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4402,7 +4416,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4447,7 +4461,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -4492,7 +4506,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -4537,7 +4551,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -4582,7 +4596,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4634,7 +4648,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4679,7 +4693,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4717,6 +4731,7 @@
      "name": "Tabit",
      "slug": "tabit",
      "description": "Tabit is a mobile-first, cloud-based restaurant point-of-sale and hospitality management platform from Tabit Technologies. Its product suite spans tableside mobile ordering and payments (PAD/Pay), online ordering (Order), kitchen display (Chef), self-service kiosks, delivery (Wheels), guest management, gift cards, and hotel F&B/PMS integration. Tabit does not publish a public, self-service developer API or API reference; integrations are delivered through a partner program and an integration-request process rather than an open developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/screenshots/tabit-2026-09-02T161703.png",
      "score": 20.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4730,7 +4745,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4782,7 +4797,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -4827,7 +4842,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4872,7 +4887,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4917,7 +4932,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.8,
      "agent_band": "agent-aware",
@@ -4962,7 +4977,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5014,7 +5029,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -5045,6 +5060,7 @@
      "name": "Table22",
      "slug": "table22",
      "description": "Table22 is a subscription commerce and growth platform built specifically for food & beverage businesses. It enables restaurants, wine shops, wineries, butchers, bakeries, specialty grocers, and retailers to launch and grow subscriptions, clubs, memberships, pre-orders, and product drops that generate predictable recurring revenue beyond their four walls. The full-service platform combines branded storefronts, an order management system, white-glove fulfillment coordination, automated lifecycle marketing and CRM, five-star consumer support, and AI tools for hospitality. Over 1,000 merchants across 40 U.S. states use Table22, representing $100M+ in revenue impact. Pricing is success-based (15% revenue share, no upfront or setup fees). Table22 is a sales-led SaaS with no public developer API; this profile captures its identity, website surface, and machine-readable llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/table22/refs/heads/main/screenshots/table22-2026-09-02T161702.png",
      "score": 17.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5058,7 +5074,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5089,6 +5105,7 @@
      "name": "SynergySuite",
      "slug": "synergysuite",
      "description": "SynergySuite is a back-of-house restaurant management platform for multi-unit and enterprise restaurant operators, founded in 2011 and operating across the United States, United Kingdom and Ireland. The suite covers inventory and purchasing, recipe and food costing, food safety and HACCP checklists, labor scheduling, cash management, human resources and business intelligence, delivered through a web interface and mobile applications. Its operational value depends on integration: SynergySuite ingests sales and order data from point-of-sale platforms including Toast, PAR Brink, NCR Aloha, Appetize by SpotOn and Oracle MICROS Simphony, and exchanges data with accounting, payroll, supplier and HR systems over POS integrations, EDI and data services. That integration surface is operated as a first-class product — it is monitored as named components on the company status page — but the API contract and reference are distributed through a partner portal that requires a login rather than a public developer site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/synergysuite/refs/heads/main/screenshots/synergysuite-2026-09-02T161500.png",
      "score": 17.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5102,7 +5119,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5147,7 +5164,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5192,7 +5209,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5230,6 +5247,7 @@
      "name": "Slang Ai",
      "slug": "slang-ai",
      "description": "Slang AI is a voice-AI phone-answering and reservation platform for restaurants. Its customizable virtual phone agent answers every inbound call 24/7 in a natural, human-like voice, instantly responds to guest inquiries, and automatically manages reservations, with official integrations to OpenTable, SevenRooms, Tripleseat, Yelp, and Fishbowl. Founded by former Spotify data scientists, Slang AI reports 96%+ guest satisfaction (CSAT), 50% more phone reservations, and up to 200 staff hours saved per month. It is offered as a hosted SaaS product across Core, Premium, and Enterprise plans; at the time of profiling it exposes no public developer API, OpenAPI specification, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/slang-ai/refs/heads/main/screenshots/slang-ai-2026-09-02T155826.png",
      "score": 16.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5243,7 +5261,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5288,7 +5306,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -5333,7 +5351,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5378,7 +5396,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -5409,6 +5427,7 @@
      "name": "Tebi",
      "slug": "tebi",
      "description": "Tebi is a hospitality management platform that unifies point-of-sale, payments, and back-office operations for restaurants, bars, cafes, bakeries, quick-service venues, and events. The system connects front-of-house service to back-office administration in a single product spanning Point of Sale, Kitchen Display System, Reservations, integrated card Payments (with invoicing and split-bill), QR ordering, inventory management, CRM, recipe management, and AI-driven insights. Tebi is priced on a revenue-based subscription (the first EUR 10k of monthly revenue is free, each additional EUR 10k costs EUR 20/month) with no long-term contracts, and it bundles its own payment processing with transparent per-transaction fees. The company is backed by Index Ventures. Tebi does not currently publish a public developer API, OpenAPI specification, SDKs, or a developer portal; this profile captures its production identity, help center, changelog, status page, and security posture as surfaced by the API Evangelist enrichment pipeline.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tebi/refs/heads/main/screenshots/tebi-2026-09-02T162707.png",
      "score": 15.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5422,7 +5441,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5460,6 +5479,7 @@
      "name": "Tock",
      "slug": "tock-reservations",
      "description": "Tock is a restaurant and hospitality reservations, events, and ordering platform used by restaurants, wineries, bars, and hotels to manage bookings, prepaid experiences, waitlists, and guest data. Tock is owned by American Express (acquired from Squarespace in 2024). Tock exposes a partner and enterprise-gated data API and webhook program rather than an open self-serve developer API - access is limited to Premium and Premium Unlimited plans and is provisioned by request to Tock. The documented surface consists of a twice-daily Data Exports API for historical reservation and guest data, a Guest Profile Ingest API for adding and updating basic guest information and tags, and real-time reservation and guest-profile webhooks. Reservation records cannot be created or manipulated through the API. Data-model reference documentation is published publicly at api.exploretock.com, but concrete endpoint paths, methods, and OpenAPI definitions are only shared with approved partners; the API entries below are modeled from the public data model and API FAQ.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tock-reservations/refs/heads/main/screenshots/tock-reservations-2026-09-02T163840.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5473,7 +5493,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5518,7 +5538,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5563,7 +5583,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5608,7 +5628,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5653,7 +5673,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5698,7 +5718,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5729,6 +5749,7 @@
      "name": "Tillpoint",
      "slug": "tillpoint",
      "description": "Tillpoint is a modular, cloud-based EPOS (electronic point of sale) and business management platform for retail, hospitality, and services. A single subscription bundles 25+ modules - Point of Sale, Inventory, Customers/CRM, Staff, Accounting, Purchase Orders, Reporting, and more - across one terminal or thousands of locations. As of this review Tillpoint does not publish a documented public or partner developer API - there is no developer portal, no API reference, and no OpenAPI. Connectivity is delivered through pre-built integrations (QuickBooks Online, Xero, WooCommerce, PayPal, Worldpay, Mailchimp). The API surfaces catalogued here (Point of Sale, Inventory, Customers, Accounting) are logical capability areas of the platform and are honestly marked as endpointsModeled - no endpoints are fabricated. Direct/programmatic access requires contacting Tillpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tillpoint/refs/heads/main/screenshots/tillpoint-2026-09-02T163747.png",
      "score": 14.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5742,7 +5763,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5787,7 +5808,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5839,7 +5860,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5884,7 +5905,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5929,7 +5950,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5974,7 +5995,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -6019,7 +6040,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6064,7 +6085,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6095,6 +6116,7 @@
      "name": "Tripitaca, Inc.",
      "slug": "tripitaca-inc",
      "description": "Tripitaca is a Kenya-based travel and hospitality booking marketplace where travelers get the best deals when they travel and where property owners list their properties. The platform lets travelers receive offers from hosts and hotels, while hosts create curated packages and special offers, see travelers interested in their area, and make them offers. Coverage spans destinations including Nairobi, Mombasa, Nakuru, Kisumu, and Maasai Mara safari experiences. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripitaca-inc/refs/heads/main/screenshots/tripitaca-inc-2026-09-02T164256.png",
      "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6108,7 +6130,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6153,7 +6175,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6198,7 +6220,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6243,7 +6265,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6288,7 +6310,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6333,7 +6355,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6378,7 +6400,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6423,7 +6445,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6468,7 +6490,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6499,6 +6521,7 @@
      "name": "Tab",
      "slug": "tab",
      "description": "Tab (tab.travel) is a London-based payment platform built specifically for independent tourism and hospitality businesses — hotels, hostels, tour operators, retreat centers and activity providers. It lets these merchants take card payments wherever their guests are, from in-advance deposits and online booking pages to in-person, on-the-move transactions via a mobile app, and to plug into an existing booking engine, PMS or OTA ecosystem. Tab natively handles 140+ currencies, pays out weekly in the merchant's local currency, and advertises transparent pricing from 2.9% per transaction with no hidden fees. Founded in 2015 by Mark Datta and backed by Y Combinator (W2015), Tab also operates a consumer-facing social-commerce guide for discovering and booking travel. This profile is maintained by the API Evangelist network; Tab does not currently publish a public developer API, SDKs or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tab/refs/heads/main/screenshots/tab-2026-09-02T161703.png",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6512,7 +6535,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6564,7 +6587,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6609,7 +6632,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6654,7 +6677,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6685,6 +6708,7 @@
      "name": "TableApp",
      "slug": "tableapp",
      "description": "TABLEAPP (Tableapp Sdn Bhd, part of FunNow Ltd) is a real-time restaurant discovery and reservation platform serving diners across Malaysia (Klang Valley) and Thailand. Consumers discover restaurants and book tables with instant confirmation through the TABLEAPP website and iOS/Android apps, and the TABLEAPP ELITE membership unlocks free signature dishes at partner restaurants, alongside dining vouchers and gift cards. Restaurateurs list on both TABLEAPP and FunNow and manage reservations and guest preferences with the TABLEAPP Manager tools. TableApp is a 500 Global portfolio company; it operates a private mobile-app backend (api.tableapp.com) but publishes no public developer API, OpenAPI specification, SDKs, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tableapp/refs/heads/main/screenshots/tableapp-2026-09-02T161707.png",
      "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6698,7 +6722,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6743,7 +6767,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6788,7 +6812,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6833,7 +6857,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6878,7 +6902,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6909,6 +6933,7 @@
      "name": "Tenex",
      "slug": "tenex",
      "description": "Tenex is a PropTech platform for real estate and hospitality operators across the Gulf Cooperation Council (GCC) region, offering an all-in-one suite that unifies property management, tenant and landlord experience, facility and asset management, real estate accounting, VR for off-plan developments, and a hospitality guest experience app. Trusted across 500+ buildings and communities, it advertises integrations with ZATCA, SAP, Oracle, and Microsoft Dynamics to automate compliance and unify operations. Tenex is backed by 500 Global and the Sanabil 500 MENA Seed Accelerator. As of this enrichment pass no public API, developer portal, or machine-readable API surface is published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenex/refs/heads/main/screenshots/tenex-2026-09-02T163054.png",
      "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6922,7 +6947,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6966,7 +6991,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7010,7 +7035,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7055,7 +7080,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7099,7 +7124,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7144,7 +7169,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7189,7 +7214,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7234,7 +7259,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7279,7 +7304,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7324,7 +7349,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7355,6 +7380,7 @@
      "name": "Wander",
      "slug": "wander",
      "description": "Wander is a vertically integrated luxury hospitality company offering smart vacation homes with hotel-grade amenities, dedicated remote-work spaces, and 24/7 concierge service across North America. Founded by John Andrew Entwistle and headquartered in Austin, Texas, Wander powers owners and operators through WanderOS, its proprietary agentic AI operating system that automates dynamic pricing, operations, and guest support. The company raised a $50M Series B in 2025 co-led by QED Investors and Fifth Wall, with Redpoint Ventures, Uncork Capital, Starwood, and Breyer Capital participating, bringing total funding past $100M. Wander ships no public developer API, but publishes a deliberately agent-ready web surface: an llms.txt, an AI sitemap of 8,500+ markdown property pages with live 90-day pricing and availability refreshed daily, and Content-Signal AI-use permissions in robots.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wander/refs/heads/main/screenshots/wander-2026-09-02T170434.png",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -7368,7 +7394,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -7413,7 +7439,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7458,7 +7484,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7503,7 +7529,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7548,7 +7574,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7593,7 +7619,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7638,7 +7664,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7682,7 +7708,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7734,7 +7760,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7779,7 +7805,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7834,7 +7860,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7879,7 +7905,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7931,7 +7957,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7962,6 +7988,7 @@
      "name": "Superb",
      "slug": "superb-hq",
      "description": "Superb is a Denmark-based all-in-one Guest Experience Management (GXM) platform for restaurants, cafes and bars, bringing reservations, point of sale, payments, gift cards, online takeaway, guest CRM and marketing together in a single system. Superb does not publish a self-serve, documented public developer API. Guest bookings are taken through a hosted reservation widget, and third-party systems connect through Superb's catalog of pre-built connectors (accounting, payments, staff and stock management, marketing) plus a partner portal at partner.superbexperience.com. Any programmatic reservation, guest, booking or CRM access is partner-gated and arranged directly with Superb. The APIs listed below are logical capability groupings modeled from Superb's public product and help-center material - they are marked endpointsModeled because Superb does not publish endpoint-level REST documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superb-hq/refs/heads/main/screenshots/superb-hq-2026-09-02T161214.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7975,7 +8002,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8027,7 +8054,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8072,7 +8099,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8116,7 +8143,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -8161,7 +8188,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -8206,7 +8233,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8251,7 +8278,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8296,7 +8323,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8341,7 +8368,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8386,7 +8413,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8431,7 +8458,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -8462,6 +8489,7 @@
      "name": "Travelio",
      "slug": "travelio",
      "description": "Travelio is one of Indonesia's largest online property rental and management platforms, operated by PT Horizon Internusa Persada. It lists furnished and unfurnished apartments, houses, villas, guest houses, and hotel residences for daily, monthly, and yearly rental across 15+ Indonesian cities including Jakarta, Bandung, Surabaya, Bali, and Yogyakarta, and offers hospitality-grade property management for owners. Backed by 500 Global, Travelio runs consumer web and mobile apps but publishes no public developer API, SDK, partner integration surface, or developer portal as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelio/refs/heads/main/screenshots/travelio-2026-09-02T164147.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8475,7 +8503,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8506,6 +8534,7 @@
      "name": "Truly Experiences",
      "slug": "truly-experiences",
      "description": "Truly Experiences is a UK-based experiential gifting company that curates and sells memorable experiences as gifts rather than physical products. Its catalog spans dining, spa treatments, drinks tastings, activities, masterclasses, travel getaways, and premium \"dreams come true\" experiences, organized by recipient, occasion, price point, and UK location (London, Edinburgh, Birmingham, Manchester and beyond). After checkout customers receive an e-certificate with a unique code, and a concierge team arranges the booking date and time. The company was surfaced as a portfolio company of 500 Global. As of this enrichment pass it operates a consumer e-commerce storefront with no public developer API, developer portal, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/truly-experiences/refs/heads/main/screenshots/truly-experiences-2026-09-02T164403.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8519,7 +8548,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8564,7 +8593,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8609,7 +8638,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -8653,7 +8682,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8705,7 +8734,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8750,7 +8779,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8795,7 +8824,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8840,7 +8869,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8871,6 +8900,7 @@
      "name": "SpotHopper",
      "slug": "spothopper",
      "description": "SpotHopper is a Milwaukee, Wisconsin based restaurant marketing and web technology company, founded in 2015, selling an all-in-one, AI-assisted platform to independent restaurants and multi-location restaurant groups. The platform bundles restaurant website design and hosting (customer sites are served from the spotapps.co domain), SEO and Google Business Profile syncing, menu / specials / event publishing, automated social posting to Facebook and Instagram, email and SMS campaigns, review generation and reputation management, and link-outs to reservation and ordering partners such as OpenTable, Yelp and UberEats. The company markets itself as powering more than 20,000 restaurants. As of the 2026-08-29 enrichment probe SpotHopper publishes no developer portal, no API reference, and no machine-readable API contract on any host it controls.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spothopper/refs/heads/main/screenshots/spothopper-2026-09-02T160552.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8884,7 +8914,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8936,7 +8966,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8981,7 +9011,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9026,7 +9056,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9071,7 +9101,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9116,7 +9146,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9161,7 +9191,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9206,7 +9236,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9258,7 +9288,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9303,7 +9333,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9348,7 +9378,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9400,7 +9430,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9452,7 +9482,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9497,7 +9527,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9548,7 +9578,7 @@
       "commercial_clarity": 11.8,
       "access_clarity": 11.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9579,6 +9609,7 @@
      "name": "Smartness",
      "slug": "smartness",
      "description": "Smartness (formerly Smartpricing) is an Italian hospitality-technology company that helps hotels, B&Bs, and vacation-rental operators automate online operations and grow direct revenue. Its product suite spans AI dynamic pricing (Smartpricing), a property management system (Smartpms), 24/7 guest messaging (Smartchat), email marketing and segmentation (Smartconnect), a website builder (Smartsite), reputation, ads, and payments (Smartpay), serving 4,000+ accommodation providers across Europe. Smartness connects to 80+ PMS and channel-manager platforms through partner integrations, but publishes no public developer API or portal; integrations are arranged via a partnership request. Backed by Partech.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartness/refs/heads/main/screenshots/smartness-2026-09-02T155930.png",
      "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9592,7 +9623,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9637,7 +9668,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9682,7 +9713,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -9727,7 +9758,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9772,7 +9803,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9803,6 +9834,7 @@
      "name": "Stanza Living",
      "slug": "stanza-living",
      "description": "Stanza Living is one of India's largest managed accommodation and co-living platforms, founded in 2017 by IIM-Ahmedabad alumni Anindya Dutta and Sandeep Dalmia and headquartered in Gurugram. It provides professionally managed, fully furnished, brokerage-free residences — student housing, co-living for working professionals, and managed apartments — across 24+ Indian cities, operating 450+ residences and more than 70,000 beds under the promise of \"your second home in a new city.\" The company is backed by investors including Accel, Falcon Edge, Sequoia Capital and Matrix Partners. Stanza Living operates as a consumer web and mobile brand for discovering, booking and living in managed accommodation, and does not publish a public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stanza-living/refs/heads/main/screenshots/stanza-living-2026-09-02T160757.png",
      "score": 7.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9816,7 +9848,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9868,7 +9900,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9913,7 +9945,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9958,7 +9990,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10003,7 +10035,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10048,7 +10080,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10093,7 +10125,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10145,7 +10177,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10190,7 +10222,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10221,6 +10253,7 @@
      "name": "Suiteness",
      "slug": "suiteness",
      "description": "Suiteness is a hotel booking platform specializing in connecting rooms and suites that hotels do not make public. Through partnerships with hotels, it surfaces adjoining rooms and suites - marked with a \"+\" symbol - so families and groups can book twice the space at roughly half the price of booking multiple standard rooms. It combines suite inventory, a concierge collaboration service, and a membership program. Suiteness is a consumer travel booking company backed by Bullpen Capital; it exposes no public developer API, SDK, or partner API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suiteness/refs/heads/main/screenshots/suiteness-2026-09-02T161112.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10234,7 +10267,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10278,7 +10311,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10323,7 +10356,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10368,7 +10401,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10413,7 +10446,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10458,7 +10491,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10503,7 +10536,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10534,6 +10567,7 @@
      "name": "Swiss Education Group",
      "slug": "swiss-education-group",
      "description": "Swiss Education Group (SEG) is a Montreux-based alliance of internationally celebrated hospitality, business, and culinary arts schools in Switzerland, comprising Cesar Ritz Colleges, Culinary Arts Academy Switzerland, Swiss Hotel Management School, and HIM Business School. Across five campuses it educates more than 6,000 students from over 110 nationalities in hospitality management, culinary arts, and business. It was surfaced as a portfolio company of idg-capital and added to the API Evangelist network for enrichment. As of this pass SEG publishes no public developer portal, API documentation, SDKs, or machine-readable API surface; this profile is maintained as a company/identity record rather than an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiss-education-group/refs/heads/main/screenshots/swiss-education-group-2026-09-02T161421.png",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10547,7 +10581,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10585,6 +10619,7 @@
      "name": "Snackpass",
      "slug": "snackpass",
      "description": "Snackpass is an all-in-one marketing, point-of-sale (POS), and payments platform built for quick-service and fast-casual restaurants. It unifies front-of-house and back-of-house operations in one system: cloud POS, integrated card and mobile payments, self-serve kiosks, online and QR/table ordering, a consumer mobile app, kitchen display systems, loyalty and rewards, SMS/marketing automation, and commission-free delivery. Snackpass serves thousands of restaurants from independent boba and coffee shops to national franchises and has facilitated tens of millions of guest transactions. The company is privately held and backed by a16z, Craft Ventures, and General Catalyst. Snackpass does not publish a public developer API, OpenAPI specification, SDKs, or a developer portal; third-party ordering and delivery integrations (Uber Eats, DoorDash, GrubHub) are brokered through partners such as Deliverect and GetOrder rather than a documented public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snackpass/refs/heads/main/screenshots/snackpass-2026-09-02T160027.png",
      "score": 5.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10598,7 +10633,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10650,7 +10685,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10695,7 +10730,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10739,7 +10774,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10784,7 +10819,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10829,7 +10864,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10874,7 +10909,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10918,7 +10953,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10962,7 +10997,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11006,7 +11041,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11050,7 +11085,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11095,7 +11130,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11140,7 +11175,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11185,7 +11220,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11237,7 +11272,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11282,7 +11317,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11327,7 +11362,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11372,7 +11407,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11416,7 +11451,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11461,7 +11496,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11505,7 +11540,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11550,7 +11585,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11594,7 +11629,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11639,7 +11674,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11684,7 +11719,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11729,7 +11764,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11774,7 +11809,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11819,7 +11854,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11863,7 +11898,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11908,7 +11943,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11953,7 +11988,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11998,7 +12033,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12043,7 +12078,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12088,7 +12123,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12133,7 +12168,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12178,7 +12213,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12223,7 +12258,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12268,7 +12303,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12313,7 +12348,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12344,6 +12379,7 @@
      "name": "SnapShyft",
      "slug": "snapshyft",
      "description": "SnapShyft is an on-demand staffing marketplace that connects hospitality, food-and-beverage, and events venues with vetted gig workers for short-notice shifts. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network as a stub for enrichment. As of this enrichment pass its primary domain (snapshyft.com) serves a coming-soon placeholder page and exposes no public API, developer portal, documentation, changelog, or /.well-known discovery surface. The only machine-verifiable signal harvested was domain/transport security (TLS 1.3, HSTS, DMARC quarantine); the profile remains a lead awaiting a live developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snapshyft/refs/heads/main/screenshots/snapshyft-2026-09-02T160016.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12357,7 +12393,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12388,6 +12424,7 @@
      "name": "Syft",
      "slug": "syft",
      "description": "Syft (originally Syft Online Ltd, later branded \"Syft by Indeed\") is a UK-founded flexible-staffing marketplace launched in London in 2015 by Jack Beaman and Novo Abakare. Its platform connects employers across hospitality, retail, industrial, care and facilities-management directly with vetted, rated temporary and part-time workers, removing the traditional recruitment agency and charging a flat fee on top of worker wages. Creandum led Syft's Series A in 2017; the company was acquired by Indeed in 2019 and now operates as part of Indeed Flex. Syft is a consumer/employer staffing marketplace and exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syft/refs/heads/main/screenshots/syft-2026-09-02T161435.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12401,7 +12438,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12432,6 +12469,7 @@
      "name": "TastyUrban",
      "slug": "tastyurban",
      "description": "TastyUrban is a Berlin-based virtual restaurant franchise and digital-first food-brand licensing company founded in 2022 by Felix Chrobog, Marc Hansell, and Gerry Pidgeon (alumni of Gorillas, Tier, and Deliveroo). It pursues an asset-light model in which existing restaurants and retail partners license and operate TastyUrban's digital food brands, using otherwise idle kitchen capacity to add revenue without major investment or operational complexity. The company is backed by Earlybird and raised a EUR 1.5M seed round in 2023 and a EUR 6.5M Series A in 2025 (led by IBB Ventures). TastyUrban operates a consumer/partner web presence at tastyurban.com but publishes no public API, developer portal, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastyurban/refs/heads/main/screenshots/tastyurban-2026-09-02T162607.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12445,7 +12483,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12489,7 +12527,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12520,6 +12558,7 @@
      "name": "Truffle",
      "slug": "truffle",
      "description": "Truffle is an AI-native restaurant operating system building \"the autonomous back of house for restaurants\" — one platform to manage an entire restaurant operation more profitably. The company, a Y Combinator (Summer 2026) portfolio company operating at usetruffle.ai, positions its product as an autonomous back-of-house layer that unifies the operational and administrative work that normally sprawls across separate tools. As of this profile Truffle is a very early-stage company presenting a single marketing landing page; it publishes no public API, developer documentation, SDKs, CLI, or other machine-readable developer surface, so this API Evangelist profile captures its identity and probed domain-security posture and will be re-enriched as a developer surface emerges.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/truffle/refs/heads/main/screenshots/truffle-2026-09-02T164357.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12533,7 +12572,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12577,7 +12616,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12608,6 +12647,7 @@
      "name": "VacayHero",
      "slug": "vacayhero",
      "description": "VacayHero (branded VaycayHero) was a vacation rental marketplace backed by a16z that offered professionally managed vacation rental homes with hotel-style guest service. The brand was absorbed by RedAwning: vacayhero.com now permanently redirects (301) to RedAwning's VaycayHero brand page, which folds the VaycayHero properties into RedAwning's collection of 100,000+ instantly bookable vacation rentals in over 10,000 destinations. VacayHero no longer operates an independent website, developer program, or public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vacayhero/refs/heads/main/screenshots/vacayhero-2026-09-02T165259.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12621,7 +12661,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12666,7 +12706,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12711,7 +12751,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12763,7 +12803,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12808,7 +12848,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12859,7 +12899,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12890,6 +12930,7 @@
      "name": "Splash 360",
      "slug": "splash360",
      "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/splash360/refs/heads/main/screenshots/splash360-2026-09-02T160501.png",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12903,7 +12944,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12947,7 +12988,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12992,7 +13033,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13036,7 +13077,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13081,7 +13122,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13126,7 +13167,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13178,12 +13219,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13228,12 +13269,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13278,12 +13319,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13327,12 +13368,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13377,7 +13418,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13429,7 +13470,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13481,7 +13522,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13519,6 +13560,7 @@
      "name": "Textaurant",
      "slug": "textaurant",
      "description": "Textaurant was an early SMS-based restaurant waitlist and table-management startup founded around 2010 by Josh Bob in Waltham, Massachusetts, and later surfaced as a 500 Global portfolio company. Its software let a restaurant manage its waiting list from a laptop and text guests when a table opened up, positioning itself as a lower-cost alternative to pager-based systems from JTECH and OpenTable. The original company is defunct: its primary domain, textaurant.com, now resolves to a parked GoDaddy \"for sale\" landing page with no product, documentation, or API surface. A separate, unaffiliated live app reusing the name exists at app.textaurant.app (a small Twilio-backed Next.js application served through a personal proxy), but it publishes no public API, OpenAPI definition, SDK, or developer documentation. There is no API to onboard against; this profile is retained as a network record of a defunct provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/textaurant/refs/heads/main/screenshots/textaurant-2026-09-02T163253.png",
      "score": 0.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13532,7 +13574,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13584,7 +13626,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13636,7 +13678,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

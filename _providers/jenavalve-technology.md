@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Public author profiles attached to published content.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: Public author profiles attached to published content.
   name: JenaValve Technology Authors API
   slug: jenavalve-technology-authors-api
-- description: The AR education library — posts, pages and site search.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: The AR education library — posts, pages and site search.
   name: JenaValve Technology Content API
   slug: jenavalve-technology-content-api
-- description: Route and capability discovery documents.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: Route and capability discovery documents.
   name: JenaValve Technology Discovery API
   slug: jenavalve-technology-discovery-api
-- description: Uploaded media library items.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: Uploaded media library items.
   name: JenaValve Technology Media API
   slug: jenavalve-technology-media-api
-- description: oEmbed provider endpoint for discover-ar.com URLs.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: oEmbed provider endpoint for discover-ar.com URLs.
   name: JenaValve Technology O Embed API
   slug: jenavalve-technology-oembed-api
-- description: Yoast SEO head-metadata endpoint.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head-metadata endpoint.
   name: JenaValve Technology SEO API
   slug: jenavalve-technology-seo-api
-- description: The articles / videos / audio / presentations category taxonomy.
+- baseURL: https://jenavalve.com/wp-json
+  baseurl_source: declared
+  description: The articles / videos / audio / presentations category taxonomy.
   name: JenaValve Technology Taxonomy API
   slug: jenavalve-technology-taxonomy-api
 artifact_total: 17
@@ -234,7 +259,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenavalve-technology/refs/heads/main/screenshots/jenavalve-technology-2026-08-07T170957.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Tokenization operations on the VGS Vault HTTP API.
+- baseURL: https://api.sandbox.verygoodvault.com
+  baseurl_source: declared
+  description: Tokenization operations on the VGS Vault HTTP API.
   name: Very Good Security aliases API
   slug: vgs-aliases-api
-- description: Organization resources on the VGS Accounts API.
+- baseURL: https://api.sandbox.verygoodvault.com
+  baseurl_source: declared
+  description: Organization resources on the VGS Accounts API.
   name: Very Good Security organizations API
   slug: vgs-organizations-api
-- description: Inbound / outbound proxy route resources on the VGS Accounts API.
+- baseURL: https://api.sandbox.verygoodvault.com
+  baseurl_source: declared
+  description: Inbound / outbound proxy route resources on the VGS Accounts API.
   name: Very Good Security routes API
   slug: vgs-routes-api
-- description: Vault resources on the VGS Accounts API.
+- baseURL: https://api.sandbox.verygoodvault.com
+  baseurl_source: declared
+  description: Vault resources on the VGS Accounts API.
   name: Very Good Security vaults API
   slug: vgs-vaults-api
 artifact_total: 17
@@ -179,7 +187,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vgs/refs/heads/main/screenshots/vgs-2026-06-20T201107.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The open-source @orama/orama library (Apache 2.0) - a complete in-memory search engine and RAG pipeline that runs in the browser, on the server, or at the edge in under 2kb. Exposes JavaScript functio
   name: Orama Open Source Engine
   slug: oss-engine
-- description: Generate retrieval-augmented (RAG) answers over an index.
+- baseURL: https://api.askorama.ai/api/v1
+  baseurl_source: declared
+  description: Generate retrieval-augmented (RAG) answers over an index.
   name: Orama Answer API
   slug: orama-answer-api
-- description: Insert, update, delete, and bulk-replace documents in an index.
+- baseURL: https://api.askorama.ai/api/v1
+  baseurl_source: declared
+  description: Insert, update, delete, and bulk-replace documents in an index.
   name: Orama Documents API
   slug: orama-documents-api
-- description: Manage Orama Cloud index schema and deployments.
+- baseURL: https://api.askorama.ai/api/v1
+  baseurl_source: declared
+  description: Manage Orama Cloud index schema and deployments.
   name: Orama Indexes API
   slug: orama-indexes-api
-- description: Run full-text, vector, and hybrid search queries.
+- baseURL: https://api.askorama.ai/api/v1
+  baseurl_source: declared
+  description: Run full-text, vector, and hybrid search queries.
   name: Orama Search API
   slug: orama-search-api
 artifact_total: 17
@@ -172,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orama/refs/heads/main/screenshots/orama-2026-08-07T190826.png
 security:

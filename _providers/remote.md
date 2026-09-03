@@ -34,49 +34,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Benefits API from Remote — 7 operation(s) for benefits.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Benefits API from Remote — 7 operation(s) for benefits.
   name: Remote Benefits API
   slug: remote-benefits-api
-- description: The Billing API from Remote — 4 operation(s) for billing.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Billing API from Remote — 4 operation(s) for billing.
   name: Remote Billing API
   slug: remote-billing-api
-- description: The Companies API from Remote — 14 operation(s) for companies.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Companies API from Remote — 14 operation(s) for companies.
   name: Remote Companies API
   slug: remote-companies-api
-- description: The Contractors API from Remote — 17 operation(s) for contractors.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Contractors API from Remote — 17 operation(s) for contractors.
   name: Remote Contractors API
   slug: remote-contractors-api
-- description: The Contracts API from Remote — 14 operation(s) for contracts.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Contracts API from Remote — 14 operation(s) for contracts.
   name: Remote Contracts API
   slug: remote-contracts-api
-- description: The Employee Actions API from Remote — 8 operation(s) for employee actions.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Employee Actions API from Remote — 8 operation(s) for employee actions.
   name: Remote Employee Actions API
   slug: remote-employee-actions-api
-- description: The Employments API from Remote — 53 operation(s) for employments.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Employments API from Remote — 53 operation(s) for employments.
   name: Remote Employments API
   slug: remote-employments-api
-- description: The Getting Started API from Remote — 8 operation(s) for getting started.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Getting Started API from Remote — 8 operation(s) for getting started.
   name: Remote Getting Started API
   slug: remote-getting-started-api
-- description: The Integrations API from Remote — 13 operation(s) for integrations.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Integrations API from Remote — 13 operation(s) for integrations.
   name: Remote Integrations API
   slug: remote-integrations-api
-- description: The Offboarding API from Remote — 12 operation(s) for offboarding.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Offboarding API from Remote — 12 operation(s) for offboarding.
   name: Remote Offboarding API
   slug: remote-offboarding-api
-- description: The Partner Configuration API from Remote — 7 operation(s) for partner configuration.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Partner Configuration API from Remote — 7 operation(s) for partner configuration.
   name: Remote Partner Configuration API
   slug: remote-partner-configuration-api
-- description: The Pay & Compensation API from Remote — 30 operation(s) for pay & compensation.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Pay & Compensation API from Remote — 30 operation(s) for pay & compensation.
   name: Remote Pay & Compensation API
   slug: remote-pay-compensation-api
-- description: The Testing & Sandbox API from Remote — 14 operation(s) for testing & sandbox.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Testing & Sandbox API from Remote — 14 operation(s) for testing & sandbox.
   name: Remote Testing & Sandbox API
   slug: remote-testing-sandbox-api
-- description: The Time & Attendance API from Remote — 21 operation(s) for time & attendance.
+- baseURL: https://gateway.remote.com/v1/
+  baseurl_source: declared
+  description: The Time & Attendance API from Remote — 21 operation(s) for time & attendance.
   name: Remote Time & Attendance API
   slug: remote-time-attendance-api
 artifact_total: 224
@@ -868,7 +896,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -878,7 +906,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 46.7
   provenance:
     conformance: first-party
     contracts:
@@ -889,7 +917,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote/refs/heads/main/screenshots/remote-2026-08-17T081516.png
 security:

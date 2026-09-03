@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 389 operations · 172 acting · 5 human-in-the-loop
 api_count: 4
 apis:
-- description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL an
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL an
   name: Salesforce REST API
   slug: salesforce-rest-api
-- description: The Salesforce SOAP API enables developers to use SOAP calls to create, retrieve, update, and delete records such as accounts, leads, and custom objects. It provides robust enterprise-grade integratio
+- baseURL: https://{instance}.salesforce.com/services/Soap
+  baseurl_source: declared
+  description: The Salesforce SOAP API enables developers to use SOAP calls to create, retrieve, update, and delete records such as accounts, leads, and custom objects. It provides robust enterprise-grade integratio
   name: Salesforce SOAP API
   slug: salesforce-soap-api
-- description: 'The Salesforce Bulk API is a specialized REST-based interface that enables asynchronous processing of large numbers of records. It is optimized for loading or deleting large sets of data and supports '
+- baseURL: https://{instance}.salesforce.com/services/async
+  baseurl_source: declared
+  description: 'The Salesforce Bulk API is a specialized REST-based interface that enables asynchronous processing of large numbers of records. It is optimized for loading or deleting large sets of data and supports '
   name: Salesforce Bulk API
   slug: salesforce-bulk-api
-- description: The Salesforce Streaming API uses a publish-subscribe model based on Bayeux/CometD to push near-real-time event notifications to subscribed clients. It supports PushTopic events for record changes and
+- baseURL: https://{instance}.salesforce.com/cometd
+  baseurl_source: declared
+  description: The Salesforce Streaming API uses a publish-subscribe model based on Bayeux/CometD to push near-real-time event notifications to subscribed clients. It supports PushTopic events for record changes and
   name: Salesforce Streaming API
   slug: salesforce-streaming-api
 - description: The Salesforce Metadata API is a SOAP-based API that enables developers to retrieve, deploy, create, update, and delete customizations for Salesforce organizations. It is the foundation for tools like
@@ -63,7 +71,9 @@ apis:
 - description: The Salesforce Tooling API provides SOAP and REST interfaces for building developer tools for Force.com applications. It exposes fine-grained access to Apex code, Visualforce pages, and other metadata
   name: Salesforce Tooling API
   slug: salesforce-tooling-api
-- description: 'The Salesforce Connect REST API (formerly Chatter API) provides access to Salesforce Chatter feeds, groups, users, topics, and file sharing features. It also exposes Experience Cloud (community) data '
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/chatter
+  baseurl_source: declared
+  description: 'The Salesforce Connect REST API (formerly Chatter API) provides access to Salesforce Chatter feeds, groups, users, topics, and file sharing features. It also exposes Experience Cloud (community) data '
   name: Salesforce Connect API (Chatter)
   slug: salesforce-connect-api
 - description: The Salesforce Analytics REST API (also known as CRM Analytics or Wave API) provides programmatic access to CRM Analytics datasets, lenses, dashboards, and queries. Developers can read and write analy
@@ -84,13 +94,19 @@ apis:
 - description: The Salesforce Pub/Sub API is a gRPC-based API for publishing and subscribing to platform events, change data capture events, and other event types in real time. It supersedes the CometD-based Streami
   name: Salesforce Pub/Sub API
   slug: salesforce-pub-sub-api
-- description: Salesforce Platform Events enables event-driven integration architectures built on the Salesforce platform. Developers define custom event types as Salesforce objects and publish or subscribe to event
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/sobjects
+  baseurl_source: declared
+  description: Salesforce Platform Events enables event-driven integration architectures built on the Salesforce platform. Developers define custom event types as Salesforce objects and publish or subscribe to event
   name: Salesforce Platform Events API
   slug: salesforce-platform-events-api
-- description: Salesforce Change Data Capture delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. It enables external systems to receive near-real-
+- baseURL: https://{instance}.salesforce.com/cometd
+  baseurl_source: declared
+  description: Salesforce Change Data Capture delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. It enables external systems to receive near-real-
   name: Salesforce Change Data Capture API
   slug: salesforce-change-data-capture-api
-- description: The Salesforce Composite API allows developers to combine multiple Salesforce REST API requests into a single HTTP call. It reduces the number of round trips to the server and supports dependent reque
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/composite
+  baseurl_source: declared
+  description: The Salesforce Composite API allows developers to combine multiple Salesforce REST API requests into a single HTTP call. It reduces the number of round trips to the server and supports dependent reque
   name: Salesforce Composite API
   slug: salesforce-composite-api
 - description: Salesforce Apex REST enables developers to expose custom Apex classes as RESTful web services. By annotating Apex classes and methods with @RestResource and HTTP method annotations, developers can cre
@@ -141,7 +157,9 @@ apis:
 - description: The Salesforce Agentforce Agent API is a REST API that enables developers to communicate with AI agents directly, starting sessions, sending messages, receiving responses, and ending sessions. It supp
   name: Salesforce Agentforce Agent API
   slug: salesforce-agentforce-agent-api
-- description: The Salesforce Models API provides Apex classes and REST endpoints that connect applications to large language models (LLMs) from Salesforce partners including Anthropic, Google, and OpenAI. It suppor
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/einstein
+  baseurl_source: declared
+  description: The Salesforce Models API provides Apex classes and REST endpoints that connect applications to large language models (LLMs) from Salesforce partners including Anthropic, Google, and OpenAI. It suppor
   name: Salesforce Models API
   slug: salesforce-models-api
 - description: The Salesforce Interaction Service API enables automation and customization of the Bring Your Own Channel (BYOC) experience for messaging. It sends inbound messaging interactions from external end-use
@@ -150,7 +168,9 @@ apis:
 - description: The Salesforce B2B Commerce API provides REST endpoints for handling commerce data in B2B and D2C storefronts. It offers support for address management, cart management, checkout processing, order man
   name: Salesforce B2B Commerce API
   slug: salesforce-b2b-commerce-api
-- description: The Salesforce Actions API provides a unified interface for invoking standard and custom actions across the Salesforce platform. It supports Apex actions, Flow actions, quick actions, and invocable ac
+- baseURL: https://{instance}.salesforce.com/services/data/v{version}/actions
+  baseurl_source: declared
+  description: The Salesforce Actions API provides a unified interface for invoking standard and custom actions across the Salesforce platform. It supports Apex actions, Flow actions, quick actions, and invocable ac
   name: Salesforce Actions API
   slug: salesforce-actions-api
 - description: The Salesforce IoT REST API provides programmatic access to Salesforce IoT data including contexts, orchestrations, and usage data. It enables developers to manage IoT events and orchestration rules f
@@ -162,430 +182,714 @@ apis:
 - description: The Salesforce Mobile SDK provides libraries and tools for building native and hybrid mobile applications on iOS and Android that integrate with the Salesforce platform. It supports Swift, Objective-C
   name: Salesforce Mobile SDK
   slug: salesforce-mobile-sdk
-- description: The Abort API from Salesforce — 2 operation(s) for abort.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Abort API from Salesforce — 2 operation(s) for abort.
   name: Salesforce Abort API
   slug: salesforce-abort-api
-- description: The Access API from Salesforce — 1 operation(s) for access.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Access API from Salesforce — 1 operation(s) for access.
   name: Salesforce Access API
   slug: salesforce-access-api
-- description: The Accounts API from Salesforce — 1 operation(s) for accounts.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Accounts API from Salesforce — 1 operation(s) for accounts.
   name: Salesforce Accounts API
   slug: salesforce-accounts-api
-- description: The Actions API from Salesforce — 16 operation(s) for actions.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Actions API from Salesforce — 16 operation(s) for actions.
   name: Salesforce Actions API
   slug: salesforce-actions-api
-- description: The Active API from Salesforce — 1 operation(s) for active.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Active API from Salesforce — 1 operation(s) for active.
   name: Salesforce Active API
   slug: salesforce-active-api
-- description: The Add API from Salesforce — 2 operation(s) for add.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Add API from Salesforce — 2 operation(s) for add.
   name: Salesforce Add API
   slug: salesforce-add-api
-- description: The Agent API from Salesforce — 2 operation(s) for agent.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Agent API from Salesforce — 2 operation(s) for agent.
   name: Salesforce Agent API
   slug: salesforce-agent-api
-- description: The All API from Salesforce — 4 operation(s) for all.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The All API from Salesforce — 4 operation(s) for all.
   name: Salesforce All API
   slug: salesforce-all-api
-- description: The Amend API from Salesforce — 1 operation(s) for amend.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Amend API from Salesforce — 1 operation(s) for amend.
   name: Salesforce Amend API
   slug: salesforce-amend-api
-- description: The Applications API from Salesforce — 6 operation(s) for applications.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Applications API from Salesforce — 6 operation(s) for applications.
   name: Salesforce Applications API
   slug: salesforce-applications-api
-- description: The Appointment API from Salesforce — 2 operation(s) for appointment.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Appointment API from Salesforce — 2 operation(s) for appointment.
   name: Salesforce Appointment API
   slug: salesforce-appointment-api
-- description: The Approvals API from Salesforce — 1 operation(s) for approvals.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Approvals API from Salesforce — 1 operation(s) for approvals.
   name: Salesforce Approvals API
   slug: salesforce-approvals-api
-- description: Operations for managing Marketing Cloud Content Builder assets including emails, images, and other content items.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for managing Marketing Cloud Content Builder assets including emails, images, and other content items.
   name: Salesforce Assets API
   slug: salesforce-assets-api
-- description: The Async API from Salesforce — 1 operation(s) for async.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Async API from Salesforce — 1 operation(s) for async.
   name: Salesforce Async API
   slug: salesforce-async-api
-- description: OAuth 2.0 token operations for obtaining access tokens using client credentials or authorization code flows.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: OAuth 2.0 token operations for obtaining access tokens using client credentials or authorization code flows.
   name: Salesforce Authentication API
   slug: salesforce-authentication-api
-- description: The Authorize API from Salesforce — 1 operation(s) for authorize.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Authorize API from Salesforce — 1 operation(s) for authorize.
   name: Salesforce Authorize API
   slug: salesforce-authorize-api
-- description: The Based API from Salesforce — 1 operation(s) for based.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Based API from Salesforce — 1 operation(s) for based.
   name: Salesforce Based API
   slug: salesforce-based-api
-- description: The Basic API from Salesforce — 1 operation(s) for basic.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Basic API from Salesforce — 1 operation(s) for basic.
   name: Salesforce Basic API
   slug: salesforce-basic-api
-- description: The Batch API from Salesforce — 7 operation(s) for batch.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Batch API from Salesforce — 7 operation(s) for batch.
   name: Salesforce Batch API
   slug: salesforce-batch-api
-- description: The Benefits API from Salesforce — 1 operation(s) for benefits.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Benefits API from Salesforce — 1 operation(s) for benefits.
   name: Salesforce Benefits API
   slug: salesforce-benefits-api
-- description: The Blobs API from Salesforce — 1 operation(s) for blobs.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Blobs API from Salesforce — 1 operation(s) for blobs.
   name: Salesforce Blobs API
   slug: salesforce-blobs-api
-- description: The Bulk API from Salesforce — 6 operation(s) for bulk.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Bulk API from Salesforce — 6 operation(s) for bulk.
   name: Salesforce Bulk API
   slug: salesforce-bulk-api
-- description: The Bundles API from Salesforce — 1 operation(s) for bundles.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Bundles API from Salesforce — 1 operation(s) for bundles.
   name: Salesforce Bundles API
   slug: salesforce-bundles-api
-- description: The Calculate API from Salesforce — 1 operation(s) for calculate.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Calculate API from Salesforce — 1 operation(s) for calculate.
   name: Salesforce Calculate API
   slug: salesforce-calculate-api
-- description: The Call API from Salesforce — 1 operation(s) for call.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Call API from Salesforce — 1 operation(s) for call.
   name: Salesforce Call API
   slug: salesforce-call-api
-- description: The Cancel API from Salesforce — 1 operation(s) for cancel.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Cancel API from Salesforce — 1 operation(s) for cancel.
   name: Salesforce Cancel API
   slug: salesforce-cancel-api
-- description: The Capability API from Salesforce — 1 operation(s) for capability.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Capability API from Salesforce — 1 operation(s) for capability.
   name: Salesforce Capability API
   slug: salesforce-capability-api
-- description: The Change API from Salesforce — 1 operation(s) for change.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Change API from Salesforce — 1 operation(s) for change.
   name: Salesforce Change API
   slug: salesforce-change-api
-- description: The Channel API from Salesforce — 5 operation(s) for channel.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Channel API from Salesforce — 5 operation(s) for channel.
   name: Salesforce Channel API
   slug: salesforce-channel-api
-- description: The Child API from Salesforce — 1 operation(s) for child.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Child API from Salesforce — 1 operation(s) for child.
   name: Salesforce Child API
   slug: salesforce-child-api
-- description: The Client API from Salesforce — 1 operation(s) for client.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Client API from Salesforce — 1 operation(s) for client.
   name: Salesforce Client API
   slug: salesforce-client-api
-- description: The Clone API from Salesforce — 1 operation(s) for clone.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Clone API from Salesforce — 1 operation(s) for clone.
   name: Salesforce Clone API
   slug: salesforce-clone-api
-- description: The Collections API from Salesforce — 4 operation(s) for collections.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Collections API from Salesforce — 4 operation(s) for collections.
   name: Salesforce Collections API
   slug: salesforce-collections-api
-- description: Get, edit, and delete comments.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Get, edit, and delete comments.
   name: Salesforce Comments API
   slug: salesforce-comments-api
-- description: The Commitment API from Salesforce — 1 operation(s) for commitment.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Commitment API from Salesforce — 1 operation(s) for commitment.
   name: Salesforce Commitment API
   slug: salesforce-commitment-api
-- description: The Compact API from Salesforce — 1 operation(s) for compact.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Compact API from Salesforce — 1 operation(s) for compact.
   name: Salesforce Compact API
   slug: salesforce-compact-api
-- description: The Completion API from Salesforce — 1 operation(s) for completion.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Completion API from Salesforce — 1 operation(s) for completion.
   name: Salesforce Completion API
   slug: salesforce-completion-api
-- description: The Composite API executes a series of REST API requests in a single POST request, or retrieves a list of other composite resources with a GET request. There are three types of Composite requests some
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Composite API executes a series of REST API requests in a single POST request, or retrieves a list of other composite resources with a GET request. There are three types of Composite requests some
   name: Salesforce Composite API
   slug: salesforce-composite-api
-- description: The Configuration API from Salesforce — 3 operation(s) for configuration.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Configuration API from Salesforce — 3 operation(s) for configuration.
   name: Salesforce Configuration API
   slug: salesforce-configuration-api
-- description: The Connect API from Salesforce — 3 operation(s) for connect.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Connect API from Salesforce — 3 operation(s) for connect.
   name: Salesforce Connect API
   slug: salesforce-connect-api
-- description: The Consent API from Salesforce — 1 operation(s) for consent.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Consent API from Salesforce — 1 operation(s) for consent.
   name: Salesforce Consent API
   slug: salesforce-consent-api
-- description: Operations for listing, retrieving, and deleting Marketing Cloud contact records.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for listing, retrieving, and deleting Marketing Cloud contact records.
   name: Salesforce Contacts API
   slug: salesforce-contacts-api
-- description: The Content API from Salesforce — 1 operation(s) for content.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Content API from Salesforce — 1 operation(s) for content.
   name: Salesforce Content API
   slug: salesforce-content-api
-- description: The Conversation API from Salesforce — 1 operation(s) for conversation.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Conversation API from Salesforce — 1 operation(s) for conversation.
   name: Salesforce Conversation API
   slug: salesforce-conversation-api
-- description: The Corporate API from Salesforce — 1 operation(s) for corporate.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Corporate API from Salesforce — 1 operation(s) for corporate.
   name: Salesforce Corporate API
   slug: salesforce-corporate-api
-- description: The Count API from Salesforce — 1 operation(s) for count.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Count API from Salesforce — 1 operation(s) for count.
   name: Salesforce Count API
   slug: salesforce-count-api
-- description: The Create API from Salesforce — 23 operation(s) for create.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Create API from Salesforce — 23 operation(s) for create.
   name: Salesforce Create API
   slug: salesforce-create-api
-- description: The Creation API from Salesforce — 2 operation(s) for creation.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Creation API from Salesforce — 2 operation(s) for creation.
   name: Salesforce Creation API
   slug: salesforce-creation-api
-- description: The Credential API from Salesforce — 6 operation(s) for credential.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Credential API from Salesforce — 6 operation(s) for credential.
   name: Salesforce Credential API
   slug: salesforce-credential-api
-- description: '> Use these Connect API endpoints to get credentials for OAuth consumers of an external client app. Collections returns credentials for all consumers associated with an external client app. Resources '
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: '> Use these Connect API endpoints to get credentials for OAuth consumers of an external client app. Collections returns credentials for all consumers associated with an external client app. Resources '
   name: Salesforce Credentials API
   slug: salesforce-credentials-api
-- description: The Data API from Salesforce — 16 operation(s) for data.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Data API from Salesforce — 16 operation(s) for data.
   name: Salesforce Data API
   slug: salesforce-data-api
-- description: Operations for reading and writing rows in Marketing Cloud Data Extensions, which are custom tables for storing subscriber data and campaign data.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for reading and writing rows in Marketing Cloud Data Extensions, which are custom tables for storing subscriber data and campaign data.
   name: Salesforce Data Extensions API
   slug: salesforce-data-extensions-api
-- description: The Decision API from Salesforce — 1 operation(s) for decision.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Decision API from Salesforce — 1 operation(s) for decision.
   name: Salesforce Decision API
   slug: salesforce-decision-api
-- description: The Definition API from Salesforce — 1 operation(s) for definition.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Definition API from Salesforce — 1 operation(s) for definition.
   name: Salesforce Definition API
   slug: salesforce-definition-api
-- description: The Definitions API from Salesforce — 1 operation(s) for definitions.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Definitions API from Salesforce — 1 operation(s) for definitions.
   name: Salesforce Definitions API
   slug: salesforce-definitions-api
-- description: The Deletes API from Salesforce — 20 operation(s) for deletes.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Deletes API from Salesforce — 20 operation(s) for deletes.
   name: Salesforce Deletes API
   slug: salesforce-deletes-api
-- description: The Dependencies API from Salesforce — 1 operation(s) for dependencies.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Dependencies API from Salesforce — 1 operation(s) for dependencies.
   name: Salesforce Dependencies API
   slug: salesforce-dependencies-api
-- description: The Describe API from Salesforce — 13 operation(s) for describe.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Describe API from Salesforce — 13 operation(s) for describe.
   name: Salesforce Describe API
   slug: salesforce-describe-api
-- description: The Directories API from Salesforce — 1 operation(s) for directories.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Directories API from Salesforce — 1 operation(s) for directories.
   name: Salesforce Directories API
   slug: salesforce-directories-api
-- description: The Download API from Salesforce — 1 operation(s) for download.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Download API from Salesforce — 1 operation(s) for download.
   name: Salesforce Download API
   slug: salesforce-download-api
-- description: The Elements API from Salesforce — 6 operation(s) for elements.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Elements API from Salesforce — 6 operation(s) for elements.
   name: Salesforce Elements API
   slug: salesforce-elements-api
-- description: The Eligible API from Salesforce — 1 operation(s) for eligible.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Eligible API from Salesforce — 1 operation(s) for eligible.
   name: Salesforce Eligible API
   slug: salesforce-eligible-api
-- description: The Events API from Salesforce — 16 operation(s) for events.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Events API from Salesforce — 16 operation(s) for events.
   name: Salesforce Events API
   slug: salesforce-events-api
-- description: The Exchange API from Salesforce — 1 operation(s) for exchange.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Exchange API from Salesforce — 1 operation(s) for exchange.
   name: Salesforce Exchange API
   slug: salesforce-exchange-api
-- description: The Execution API from Salesforce — 1 operation(s) for execution.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Execution API from Salesforce — 1 operation(s) for execution.
   name: Salesforce Execution API
   slug: salesforce-execution-api
-- description: The Exit API from Salesforce — 1 operation(s) for exit.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Exit API from Salesforce — 1 operation(s) for exit.
   name: Salesforce Exit API
   slug: salesforce-exit-api
-- description: The Expression API from Salesforce — 4 operation(s) for expression.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Expression API from Salesforce — 4 operation(s) for expression.
   name: Salesforce Expression API
   slug: salesforce-expression-api
-- description: The External API from Salesforce — 3 operation(s) for external.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The External API from Salesforce — 3 operation(s) for external.
   name: Salesforce External API
   slug: salesforce-external-api
-- description: The Failed API from Salesforce — 1 operation(s) for failed.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Failed API from Salesforce — 1 operation(s) for failed.
   name: Salesforce Failed API
   slug: salesforce-failed-api
-- description: The Favorite API from Salesforce — 3 operation(s) for favorite.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Favorite API from Salesforce — 3 operation(s) for favorite.
   name: Salesforce Favorite API
   slug: salesforce-favorite-api
-- description: The Field API from Salesforce — 4 operation(s) for field.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Field API from Salesforce — 4 operation(s) for field.
   name: Salesforce Field API
   slug: salesforce-field-api
-- description: The Files API from Salesforce — 7 operation(s) for files.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Files API from Salesforce — 7 operation(s) for files.
   name: Salesforce Files API
   slug: salesforce-files-api
-- description: The Flow API from Salesforce — 2 operation(s) for flow.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Flow API from Salesforce — 2 operation(s) for flow.
   name: Salesforce Flow API
   slug: salesforce-flow-api
-- description: The Following API from Salesforce — 1 operation(s) for following.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Following API from Salesforce — 1 operation(s) for following.
   name: Salesforce Following API
   slug: salesforce-following-api
-- description: The Game API from Salesforce — 1 operation(s) for game.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Game API from Salesforce — 1 operation(s) for game.
   name: Salesforce Game API
   slug: salesforce-game-api
-- description: The Games API from Salesforce — 1 operation(s) for games.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Games API from Salesforce — 1 operation(s) for games.
   name: Salesforce Games API
   slug: salesforce-games-api
-- description: The General API from Salesforce — 2 operation(s) for general.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The General API from Salesforce — 2 operation(s) for general.
   name: Salesforce General API
   slug: salesforce-general-api
-- description: The Get API from Salesforce — 71 operation(s) for get.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Get API from Salesforce — 71 operation(s) for get.
   name: Salesforce Get API
   slug: salesforce-get-api
-- description: The Gift API from Salesforce — 1 operation(s) for gift.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Gift API from Salesforce — 1 operation(s) for gift.
   name: Salesforce Gift API
   slug: salesforce-gift-api
-- description: Get groups and group members. Create groups, invites, and members.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Get groups and group members. Create groups, invites, and members.
   name: Salesforce Groups API
   slug: salesforce-groups-api
-- description: The History API from Salesforce — 1 operation(s) for history.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The History API from Salesforce — 1 operation(s) for history.
   name: Salesforce History API
   slug: salesforce-history-api
-- description: The Identifiers API from Salesforce — 6 operation(s) for identifiers.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Identifiers API from Salesforce — 6 operation(s) for identifiers.
   name: Salesforce Identifiers API
   slug: salesforce-identifiers-api
-- description: The Image API from Salesforce — 1 operation(s) for image.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Image API from Salesforce — 1 operation(s) for image.
   name: Salesforce Image API
   slug: salesforce-image-api
-- description: The Individual API from Salesforce — 1 operation(s) for individual.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Individual API from Salesforce — 1 operation(s) for individual.
   name: Salesforce Individual API
   slug: salesforce-individual-api
-- description: The Info API from Salesforce — 4 operation(s) for info.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Info API from Salesforce — 4 operation(s) for info.
   name: Salesforce Info API
   slug: salesforce-info-api
-- description: Operations for uploading CSV data to ingest jobs and retrieving job results (successful, failed, and unprocessed records).
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for uploading CSV data to ingest jobs and retrieving job results (successful, failed, and unprocessed records).
   name: Salesforce Ingest Job Data API
   slug: salesforce-ingest-job-data-api
-- description: Operations for creating and managing ingest jobs that insert, update, upsert, delete, or hard delete records in bulk using CSV data.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for creating and managing ingest jobs that insert, update, upsert, delete, or hard delete records in bulk using CSV data.
   name: Salesforce Ingest Jobs API
   slug: salesforce-ingest-jobs-api
-- description: The Initialize API from Salesforce — 3 operation(s) for initialize.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Initialize API from Salesforce — 3 operation(s) for initialize.
   name: Salesforce Initialize API
   slug: salesforce-initialize-api
-- description: The Initiate API from Salesforce — 3 operation(s) for initiate.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Initiate API from Salesforce — 3 operation(s) for initiate.
   name: Salesforce Initiate API
   slug: salesforce-initiate-api
-- description: The Instant API from Salesforce — 1 operation(s) for instant.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Instant API from Salesforce — 1 operation(s) for instant.
   name: Salesforce Instant API
   slug: salesforce-instant-api
-- description: The Integration API from Salesforce — 1 operation(s) for integration.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Integration API from Salesforce — 1 operation(s) for integration.
   name: Salesforce Integration API
   slug: salesforce-integration-api
-- description: The Invoke API from Salesforce — 1 operation(s) for invoke.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Invoke API from Salesforce — 1 operation(s) for invoke.
   name: Salesforce Invoke API
   slug: salesforce-invoke-api
-- description: The Items API from Salesforce — 6 operation(s) for items.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Items API from Salesforce — 6 operation(s) for items.
   name: Salesforce Items API
   slug: salesforce-items-api
-- description: Operations for listing and retrieving Marketing Cloud Journey Builder journeys (interactions) and firing journey entry events.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for listing and retrieving Marketing Cloud Journey Builder journeys (interactions) and firing journey entry events.
   name: Salesforce Journeys API
   slug: salesforce-journeys-api
-- description: The Keys API from Salesforce — 1 operation(s) for keys.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Keys API from Salesforce — 1 operation(s) for keys.
   name: Salesforce Keys API
   slug: salesforce-keys-api
-- description: The Knowledge API from Salesforce — 1 operation(s) for knowledge.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Knowledge API from Salesforce — 1 operation(s) for knowledge.
   name: Salesforce Knowledge API
   slug: salesforce-knowledge-api
-- description: The Layouts API from Salesforce — 6 operation(s) for layouts.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Layouts API from Salesforce — 6 operation(s) for layouts.
   name: Salesforce Layouts API
   slug: salesforce-layouts-api
-- description: The Lightning API from Salesforce — 6 operation(s) for lightning.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Lightning API from Salesforce — 6 operation(s) for lightning.
   name: Salesforce Lightning API
   slug: salesforce-lightning-api
-- description: Retrieve list view data and metadata for use in UI components
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Retrieve list view data and metadata for use in UI components
   name: Salesforce List Views API
   slug: salesforce-list-views-api
-- description: The Lists API from Salesforce — 20 operation(s) for lists.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Lists API from Salesforce — 20 operation(s) for lists.
   name: Salesforce Lists API
   slug: salesforce-lists-api
-- description: Lookup field search endpoints
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Lookup field search endpoints
   name: Salesforce Lookups API
   slug: salesforce-lookups-api
-- description: The Member API from Salesforce — 7 operation(s) for member.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Member API from Salesforce — 7 operation(s) for member.
   name: Salesforce Member API
   slug: salesforce-member-api
-- description: Operations for creating and tracking email and SMS message sends, including triggered sends and transactional messages.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for creating and tracking email and SMS message sends, including triggered sends and transactional messages.
   name: Salesforce Messaging API
   slug: salesforce-messaging-api
-- description: The Models API from Salesforce — 2 operation(s) for models.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Models API from Salesforce — 2 operation(s) for models.
   name: Salesforce Models API
   slug: salesforce-models-api
-- description: The Oauth API from Salesforce — 5 operation(s) for oauth.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Oauth API from Salesforce — 5 operation(s) for oauth.
   name: Salesforce Oauth API
   slug: salesforce-oauth-api
-- description: Retrieve object metadata including fields, layouts, and picklists
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Retrieve object metadata including fields, layouts, and picklists
   name: Salesforce Object Info API
   slug: salesforce-object-info-api
-- description: The Order API from Salesforce — 2 operation(s) for order.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Order API from Salesforce — 2 operation(s) for order.
   name: Salesforce Order API
   slug: salesforce-order-api
-- description: The Password API from Salesforce — 3 operation(s) for password.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Password API from Salesforce — 3 operation(s) for password.
   name: Salesforce Password API
   slug: salesforce-password-api
-- description: The Photo API from Salesforce — 2 operation(s) for photo.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Photo API from Salesforce — 2 operation(s) for photo.
   name: Salesforce Photo API
   slug: salesforce-photo-api
-- description: Dependent and independent picklist value endpoints
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Dependent and independent picklist value endpoints
   name: Salesforce Picklists API
   slug: salesforce-picklists-api
-- description: The Post API from Salesforce — 7 operation(s) for post.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Post API from Salesforce — 7 operation(s) for post.
   name: Salesforce Post API
   slug: salesforce-post-api
-- description: The Predict API from Salesforce — 1 operation(s) for predict.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Predict API from Salesforce — 1 operation(s) for predict.
   name: Salesforce Predict API
   slug: salesforce-predict-api
-- description: The Process API from Salesforce — 2 operation(s) for process.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Process API from Salesforce — 2 operation(s) for process.
   name: Salesforce Process API
   slug: salesforce-process-api
-- description: The Product API from Salesforce — 2 operation(s) for product.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Product API from Salesforce — 2 operation(s) for product.
   name: Salesforce Product API
   slug: salesforce-product-api
-- description: 'The [promotion APIs](https://developer.salesforce.com/docs/atlas.en-us.loyalty.meta/loyalty/loyalty_promotion_apis_reference.htm) allow you to set eligibility rules and limits for a promotion, choose '
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: 'The [promotion APIs](https://developer.salesforce.com/docs/atlas.en-us.loyalty.meta/loyalty/loyalty_promotion_apis_reference.htm) allow you to set eligibility rules and limits for a promotion, choose '
   name: Salesforce Promotion API
   slug: salesforce-promotion-api
-- description: The Queries API from Salesforce — 5 operation(s) for queries.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Queries API from Salesforce — 5 operation(s) for queries.
   name: Salesforce Queries API
   slug: salesforce-queries-api
-- description: Operations for retrieving the results of completed query jobs as CSV data.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for retrieving the results of completed query jobs as CSV data.
   name: Salesforce Query Job Results API
   slug: salesforce-query-job-results-api
-- description: Operations for creating and managing query jobs that extract large volumes of data from Salesforce using SOQL.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Operations for creating and managing query jobs that extract large volumes of data from Salesforce using SOQL.
   name: Salesforce Query Jobs API
   slug: salesforce-query-jobs-api
-- description: The Quote API from Salesforce — 3 operation(s) for quote.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Quote API from Salesforce — 3 operation(s) for quote.
   name: Salesforce Quote API
   slug: salesforce-quote-api
-- description: The Record API from Salesforce — 17 operation(s) for record.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Record API from Salesforce — 17 operation(s) for record.
   name: Salesforce Record API
   slug: salesforce-record-api
-- description: The Records API from Salesforce — 8 operation(s) for records.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Records API from Salesforce — 8 operation(s) for records.
   name: Salesforce Records API
   slug: salesforce-records-api
-- description: The Redeem API from Salesforce — 1 operation(s) for redeem.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Redeem API from Salesforce — 1 operation(s) for redeem.
   name: Salesforce Redeem API
   slug: salesforce-redeem-api
-- description: The Refresh API from Salesforce — 1 operation(s) for refresh.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Refresh API from Salesforce — 1 operation(s) for refresh.
   name: Salesforce Refresh API
   slug: salesforce-refresh-api
-- description: The Relationships API from Salesforce — 1 operation(s) for relationships.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Relationships API from Salesforce — 1 operation(s) for relationships.
   name: Salesforce Relationships API
   slug: salesforce-relationships-api
-- description: The Requests API from Salesforce — 2 operation(s) for requests.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Requests API from Salesforce — 2 operation(s) for requests.
   name: Salesforce Requests API
   slug: salesforce-requests-api
-- description: The Resources API from Salesforce — 2 operation(s) for resources.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Resources API from Salesforce — 2 operation(s) for resources.
   name: Salesforce Resources API
   slug: salesforce-resources-api
-- description: The Retrieves API from Salesforce — 10 operation(s) for retrieves.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Retrieves API from Salesforce — 10 operation(s) for retrieves.
   name: Salesforce Retrieves API
   slug: salesforce-retrieves-api
-- description: The Revoke API from Salesforce — 4 operation(s) for revoke.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Revoke API from Salesforce — 4 operation(s) for revoke.
   name: Salesforce Revoke API
   slug: salesforce-revoke-api
-- description: The Rows API from Salesforce — 2 operation(s) for rows.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Rows API from Salesforce — 2 operation(s) for rows.
   name: Salesforce Rows API
   slug: salesforce-rows-api
-- description: The Runs API from Salesforce — 3 operation(s) for runs.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Runs API from Salesforce — 3 operation(s) for runs.
   name: Salesforce Runs API
   slug: salesforce-runs-api
-- description: Manage sandboxes
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: Manage sandboxes
   name: Salesforce Sandbox API
   slug: salesforce-sandbox-api
-- description: The Scheduling API from Salesforce — 1 operation(s) for scheduling.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Scheduling API from Salesforce — 1 operation(s) for scheduling.
   name: Salesforce Scheduling API
   slug: salesforce-scheduling-api
-- description: The Search API from Salesforce — 9 operation(s) for search.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Search API from Salesforce — 9 operation(s) for search.
   name: Salesforce Search API
   slug: salesforce-search-api
-- description: The Soap API from Salesforce — 3 operation(s) for soap.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Soap API from Salesforce — 3 operation(s) for soap.
   name: Salesforce Soap API
   slug: salesforce-soap-api
-- description: The Suggested API from Salesforce — 3 operation(s) for suggested.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Suggested API from Salesforce — 3 operation(s) for suggested.
   name: Salesforce Suggested API
   slug: salesforce-suggested-api
-- description: The Summaries API from Salesforce — 1 operation(s) for summaries.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Summaries API from Salesforce — 1 operation(s) for summaries.
   name: Salesforce Summaries API
   slug: salesforce-summaries-api
-- description: The Table API from Salesforce — 4 operation(s) for table.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Table API from Salesforce — 4 operation(s) for table.
   name: Salesforce Table API
   slug: salesforce-table-api
-- description: The Tabs API from Salesforce — 1 operation(s) for tabs.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Tabs API from Salesforce — 1 operation(s) for tabs.
   name: Salesforce Tabs API
   slug: salesforce-tabs-api
-- description: The Themes API from Salesforce — 1 operation(s) for themes.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Themes API from Salesforce — 1 operation(s) for themes.
   name: Salesforce Themes API
   slug: salesforce-themes-api
-- description: The Trees API from Salesforce — 1 operation(s) for trees.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Trees API from Salesforce — 1 operation(s) for trees.
   name: Salesforce Trees API
   slug: salesforce-trees-api
-- description: The Update API from Salesforce — 20 operation(s) for update.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Update API from Salesforce — 20 operation(s) for update.
   name: Salesforce Update API
   slug: salesforce-update-api
-- description: The Versions API from Salesforce — 4 operation(s) for versions.
+- baseURL: https://{instance}.salesforce.com/services/data
+  baseurl_source: declared
+  description: The Versions API from Salesforce — 4 operation(s) for versions.
   name: Salesforce Versions API
   slug: salesforce-versions-api
 arazzos:
@@ -17780,7 +18084,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -17790,7 +18094,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 86.8
-  previous_composite: 82.5
+  previous_composite: 82.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -17802,7 +18106,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:

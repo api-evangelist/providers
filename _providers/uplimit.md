@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Course API from Uplimit — 3 operation(s) for course.
+- baseURL: https://uplimit.com/api/organization
+  baseurl_source: declared
+  description: The Course API from Uplimit — 3 operation(s) for course.
   name: Uplimit Course API
   slug: uplimit-course-api
-- description: The Export API from Uplimit — 2 operation(s) for export.
+- baseURL: https://uplimit.com/api/organization
+  baseurl_source: declared
+  description: The Export API from Uplimit — 2 operation(s) for export.
   name: Uplimit Export API
   slug: uplimit-export-api
-- description: The Platform API from Uplimit — 1 operation(s) for platform.
+- baseURL: https://uplimit.com/api/organization
+  baseurl_source: declared
+  description: The Platform API from Uplimit — 1 operation(s) for platform.
   name: Uplimit Platform API
   slug: uplimit-platform-api
-- description: The Session API from Uplimit — 4 operation(s) for session.
+- baseURL: https://uplimit.com/api/organization
+  baseurl_source: declared
+  description: The Session API from Uplimit — 4 operation(s) for session.
   name: Uplimit Session API
   slug: uplimit-session-api
-- description: The User API from Uplimit — 10 operation(s) for user.
+- baseURL: https://uplimit.com/api/organization
+  baseurl_source: declared
+  description: The User API from Uplimit — 10 operation(s) for user.
   name: Uplimit User API
   slug: uplimit-user-api
 artifact_total: 15
@@ -192,7 +202,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -223,8 +233,9 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uplimit/refs/heads/main/screenshots/uplimit-2026-09-02T165038.png
 security:
 - kind: authentication
   name: Uplimit Authentication

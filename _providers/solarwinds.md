@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -65,76 +65,124 @@ apis:
 - description: REST API for application performance monitoring providing CRUD access to metrics, dashboards, alerts, and traces. Supports custom metrics submission and distributed tracing for cloud-native applicatio
   name: SolarWinds AppOptics API
   slug: solarwinds-appoptics-api
-- description: Account information and management
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Account information and management
   name: SolarWinds Account API
   slug: solarwinds-account-api
-- description: Manage hardware and software assets
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage hardware and software assets
   name: SolarWinds Assets API
   slug: solarwinds-assets-api
-- description: Perform bulk create, update, and delete operations
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Perform bulk create, update, and delete operations
   name: SolarWinds BulkOperations API
   slug: solarwinds-bulkoperations-api
-- description: Manage categories for incidents and requests
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage categories for incidents and requests
   name: SolarWinds Categories API
   slug: solarwinds-categories-api
-- description: Manage change requests
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage change requests
   name: SolarWinds Changes API
   slug: solarwinds-changes-api
-- description: Manage uptime and transaction checks
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage uptime and transaction checks
   name: SolarWinds Checks API
   slug: solarwinds-checks-api
-- description: Manage alert contacts
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage alert contacts
   name: SolarWinds Contacts API
   slug: solarwinds-contacts-api
-- description: Create, read, update, and delete operations on SWIS entities
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Create, read, update, and delete operations on SWIS entities
   name: SolarWinds CRUD API
   slug: solarwinds-crud-api
-- description: Search and retrieve log events
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Search and retrieve log events
   name: SolarWinds Events API
   slug: solarwinds-events-api
-- description: Manage system groups
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage system groups
   name: SolarWinds Groups API
   slug: solarwinds-groups-api
-- description: Manage IT incidents
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage IT incidents
   name: SolarWinds Incidents API
   slug: solarwinds-incidents-api
-- description: Invoke verbs (methods) on SWIS entities
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Invoke verbs (methods) on SWIS entities
   name: SolarWinds Invoke API
   slug: solarwinds-invoke-api
-- description: Manage maintenance windows
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage maintenance windows
   name: SolarWinds Maintenance API
   slug: solarwinds-maintenance-api
-- description: List available probe servers
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: List available probe servers
   name: SolarWinds ProbeServers API
   slug: solarwinds-probeservers-api
-- description: Manage problem records
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage problem records
   name: SolarWinds Problems API
   slug: solarwinds-problems-api
-- description: Execute SWQL queries against the SolarWinds Information Service
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Execute SWQL queries against the SolarWinds Information Service
   name: SolarWinds Query API
   slug: solarwinds-query-api
-- description: Retrieve check results and performance data
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Retrieve check results and performance data
   name: SolarWinds Results API
   slug: solarwinds-results-api
-- description: Manage saved searches
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage saved searches
   name: SolarWinds SavedSearches API
   slug: solarwinds-savedsearches-api
-- description: Search and retrieve log events
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Search and retrieve log events
   name: SolarWinds Search API
   slug: solarwinds-search-api
-- description: Manage service requests
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage service requests
   name: SolarWinds ServiceRequests API
   slug: solarwinds-servicerequests-api
-- description: Retrieve performance and outage summaries
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Retrieve performance and outage summaries
   name: SolarWinds Summary API
   slug: solarwinds-summary-api
-- description: Manage log-sending systems
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage log-sending systems
   name: SolarWinds Systems API
   slug: solarwinds-systems-api
-- description: Manage alert teams
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage alert teams
   name: SolarWinds Teams API
   slug: solarwinds-teams-api
-- description: Manage user accounts
+- baseURL: https://{orion-server}:17778/SolarWinds/InformationService/v3
+  baseurl_source: declared
+  description: Manage user accounts
   name: SolarWinds Users API
   slug: solarwinds-users-api
 artifact_total: 332
@@ -1131,7 +1179,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -1141,7 +1189,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 53.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1150,7 +1198,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/screenshots/solarwinds-2026-06-20T194153.png
 security:

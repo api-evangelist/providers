@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 171 operations · 85 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Set of operations for Blast AI
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Set of operations for Blast AI
   name: BurstIQ BlastAI APIs API
   slug: burstiq-blastai-apis-api
-- description: Manages all customers and their Secure Data Zones
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Manages all customers and their Secure Data Zones
   name: BurstIQ Customer Directory APIs API
   slug: burstiq-customer-directory-apis-api
-- description: Data Pipelines are managed for use of manipulating data
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Data Pipelines are managed for use of manipulating data
   name: BurstIQ Data Pipeline APIs API
   slug: burstiq-data-pipeline-apis-api
-- description: Field Mapping Step is a step used in Data Pipelines and is used to map fields
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Field Mapping Step is a step used in Data Pipelines and is used to map fields
   name: BurstIQ Data Pipeline Field Mapping Step APIs API
   slug: burstiq-data-pipeline-field-mapping-step-apis-api
-- description: JS Transform Step is a step used in Data Pipelines and is used to transform fields
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: JS Transform Step is a step used in Data Pipelines and is used to transform fields
   name: BurstIQ Data Pipeline JS Transform Step APIs API
   slug: burstiq-data-pipeline-js-transform-step-apis-api
-- description: DataPipeline Rule are created individually then later added to rule sets
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: DataPipeline Rule are created individually then later added to rule sets
   name: BurstIQ Data Pipeline Rule APIs API
   slug: burstiq-data-pipeline-rule-apis-api
-- description: RuleSet Step is a step used in Data Pipelines and is used to execute a series of rules
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: RuleSet Step is a step used in Data Pipelines and is used to execute a series of rules
   name: BurstIQ Data Pipeline RuleSet Step APIs API
   slug: burstiq-data-pipeline-ruleset-step-apis-api
-- description: DbSchema is an alternative method to define the dictionaries of the SDZ; it is a 3rd party tool https://dbschema.com/
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: DbSchema is an alternative method to define the dictionaries of the SDZ; it is a 3rd party tool https://dbschema.com/
   name: BurstIQ DbSchema APIs API
   slug: burstiq-dbschema-apis-api
-- description: Dictionaries are schemas essentially, they describe the data allowed within a Node of a LifeGraph (can be thought of as a record too); a Node in the LG is akin to a Smart Data Object
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Dictionaries are schemas essentially, they describe the data allowed within a Node of a LifeGraph (can be thought of as a record too); a Node in the LG is akin to a Smart Data Object
   name: BurstIQ Dictionary Metadata APIs API
   slug: burstiq-dictionary-metadata-apis-api
-- description: Edge Definitions are required for the system to know what edges are allowed between live node data
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Edge Definitions are required for the system to know what edges are allowed between live node data
   name: BurstIQ Edge Definition Metadata APIs API
   slug: burstiq-edge-definition-metadata-apis-api
-- description: Glossary items hold no actual function in the secure data zone, merely a method for defining the business terms, usage, interactions, etc of the data within the SDZ
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Glossary items hold no actual function in the secure data zone, merely a method for defining the business terms, usage, interactions, etc of the data within the SDZ
   name: BurstIQ Glossary Metadata APIs API
   slug: burstiq-glossary-metadata-apis-api
-- description: In basic terms, these endpoints are the CRUD+T operations for transactional data on the platform
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: In basic terms, these endpoints are the CRUD+T operations for transactional data on the platform
   name: BurstIQ Graph Chain APIs API
   slug: burstiq-graph-chain-apis-api
-- description: Platform support asynchronous jobs, and these endpoints allow for the creation, status, and management of these jobs
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Platform support asynchronous jobs, and these endpoints allow for the creation, status, and management of these jobs
   name: BurstIQ Job Manager APIs API
   slug: burstiq-job-manager-apis-api
-- description: various metadata endpoints/functions
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: various metadata endpoints/functions
   name: BurstIQ Metadata Util APIs API
   slug: burstiq-metadata-util-apis-api
-- description: Set of operations metrics in a secure data zone
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Set of operations metrics in a secure data zone
   name: BurstIQ Metrics APIs API
   slug: burstiq-metrics-apis-api
-- description: 'Reference OData v4 documentation for usage: https://www.odata.org/getting-started/'
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: 'Reference OData v4 documentation for usage: https://www.odata.org/getting-started/'
   name: BurstIQ OData v4 APIs API
   slug: burstiq-odata-v4-apis-api
-- description: Terms are managed for the developer's use to find, present terms to users and records acceptance
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: Terms are managed for the developer's use to find, present terms to users and records acceptance
   name: BurstIQ SDZ Specific Term APIs API
   slug: burstiq-sdz-specific-term-apis-api
-- description: System wallets are used for non-humans to perform functions in the platform; ie custodian, etc
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: System wallets are used for non-humans to perform functions in the platform; ie custodian, etc
   name: BurstIQ System Wallet APIs API
   slug: burstiq-system-wallet-apis-api
-- description: User Groups are ways of identifying groups of users by name and referencing in various parts of the platform
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: User Groups are ways of identifying groups of users by name and referencing in various parts of the platform
   name: BurstIQ User Group APIs API
   slug: burstiq-user-group-apis-api
-- description: For managing and obtaining information about user wallets
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: For managing and obtaining information about user wallets
   name: BurstIQ User Wallet APIs API
   slug: burstiq-user-wallet-apis-api
-- description: For interacting with wallets when the type of wallet (user or system) is unknown
+- baseURL: https://api.burstiq.com
+  baseurl_source: declared
+  description: For interacting with wallets when the type of wallet (user or system) is unknown
   name: BurstIQ Wallet APIs API
   slug: burstiq-wallet-apis-api
 artifact_total: 47
@@ -308,7 +350,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
 security:

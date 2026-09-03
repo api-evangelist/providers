@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -50,52 +50,84 @@ apis:
 - description: Legacy XML-based API for configuration and status retrieval on Cisco Expressway systems. Uses HTTP Basic Authentication over HTTPS for secure access to system configuration and management functions.
   name: Cisco Expressway XML API
   slug: cisco-expressway-xml-api
-- description: Administrator account management
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Administrator account management
   name: Cisco Expressway Admin Account API
   slug: cisco-expressway-admin-account-api
-- description: Active system alarms and warnings
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Active system alarms and warnings
   name: Cisco Expressway Alarms API
   slug: cisco-expressway-alarms-api
-- description: Active and historical call information
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Active and historical call information
   name: Cisco Expressway Calls API
   slug: cisco-expressway-calls-api
-- description: DNS server configuration management
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: DNS server configuration management
   name: Cisco Expressway DNS API
   slug: cisco-expressway-dns-api
-- description: Smart licensing status and usage
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Smart licensing status and usage
   name: Cisco Expressway Licensing API
   slug: cisco-expressway-licensing-api
-- description: NTP server configuration for time synchronization
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: NTP server configuration for time synchronization
   name: Cisco Expressway NTP API
   slug: cisco-expressway-ntp-api
-- description: Device registration status and details
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Device registration status and details
   name: Cisco Expressway Registrations API
   slug: cisco-expressway-registrations-api
-- description: System resource utilization metrics
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: System resource utilization metrics
   name: Cisco Expressway Resource Usage API
   slug: cisco-expressway-resource-usage-api
-- description: Search rule configuration for call routing decisions
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Search rule configuration for call routing decisions
   name: Cisco Expressway Search Rules API
   slug: cisco-expressway-search-rules-api
-- description: SFTP configuration for system upgrades
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: SFTP configuration for system upgrades
   name: Cisco Expressway SFTP API
   slug: cisco-expressway-sftp-api
-- description: SIP protocol configuration
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: SIP protocol configuration
   name: Cisco Expressway SIP API
   slug: cisco-expressway-sip-api
-- description: System-level configuration and information
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: System-level configuration and information
   name: Cisco Expressway System API
   slug: cisco-expressway-system-api
-- description: System overview and health information
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: System overview and health information
   name: Cisco Expressway System Status API
   slug: cisco-expressway-system-status-api
-- description: Pre-search transform configuration for alias modification
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Pre-search transform configuration for alias modification
   name: Cisco Expressway Transforms API
   slug: cisco-expressway-transforms-api
-- description: System upgrade operations
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: System upgrade operations
   name: Cisco Expressway Upgrade API
   slug: cisco-expressway-upgrade-api
-- description: Zone configuration for call routing and firewall traversal
+- baseURL: https://expressway.example.com/api/provisioning
+  baseurl_source: declared
+  description: Zone configuration for call routing and firewall traversal
   name: Cisco Expressway Zones API
   slug: cisco-expressway-zones-api
 arazzos:
@@ -470,7 +502,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
 security:

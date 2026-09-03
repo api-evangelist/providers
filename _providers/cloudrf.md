@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 18 acting
 api_count: 1
 apis:
-- description: 3D coverage and model upload operations.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: 3D coverage and model upload operations.
   name: CloudRF 3D API
   slug: cloudrf-3d-api
-- description: Account-level resources such as metrics.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: Account-level resources such as metrics.
   name: CloudRF Account API
   slug: cloudrf-account-api
-- description: Analyse calculations including best-site, best-server, interference, merge, and signal location.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: Analyse calculations including best-site, best-server, interference, merge, and signal location.
   name: CloudRF Analyse API
   slug: cloudrf-analyse-api
-- description: Create coverage, path, multipoint, mesh, and HF calculations.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: Create coverage, path, multipoint, mesh, and HF calculations.
   name: CloudRF Create API
   slug: cloudrf-create-api
-- description: Archive, export, clutter, and noise data management.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: Archive, export, clutter, and noise data management.
   name: CloudRF Manage API
   slug: cloudrf-manage-api
-- description: Satellite coverage modeling.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: Satellite coverage modeling.
   name: CloudRF Satellite API
   slug: cloudrf-satellite-api
-- description: User and system templates.
+- baseURL: https://api.cloudrf.com
+  baseurl_source: spec
+  description: User and system templates.
   name: CloudRF Template API
   slug: cloudrf-template-api
 artifact_total: 24
@@ -233,7 +247,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/screenshots/cloudrf-2026-06-20T174617.png
 security:

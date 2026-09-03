@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 178 operations · 70 acting
 api_count: 3
 apis:
-- description: '**Annual Consumption** is the system-computed consumption per meter and calendar year, including emission factors and tenant allocations. The figures are derived from readings rather than written dire'
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: '**Annual Consumption** is the system-computed consumption per meter and calendar year, including emission factors and tenant allocations. The figures are derived from readings rather than written dire'
   name: Alasco Annual Consumption API
   slug: alasco-annual-consumption-api
-- description: 'An **Asset** is a property you manage capital expenditure for, mirrored from your Alasco asset register. Assets are read-only through this API: capital work on an asset is organised into **Measures**,'
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: 'An **Asset** is a property you manage capital expenditure for, mirrored from your Alasco asset register. Assets are read-only through this API: capital work on an asset is organised into **Measures**,'
   name: Alasco Asset API
   slug: alasco-asset-api
-- description: 'The **Audit Log** is a read-only account-level trail of changes. A raw audit feed reports table-level inserts, updates and deletes, and a user audit feed reports user- and API-triggered changes; both '
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: 'The **Audit Log** is a read-only account-level trail of changes. A raw audit feed reports table-level inserts, updates and deletes, and a user audit feed reports user- and API-triggered changes; both '
   name: Alasco Audit Log API
   slug: alasco-audit-log-api
-- description: A **Budget Shift** is a record of budget moved between **Contract Units** in a **Project** (or added from reserve), with a type, amount and reason. Budget shifts are read-only through this API.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Budget Shift** is a record of budget moved between **Contract Units** in a **Project** (or added from reserve), with a type, amount and reason. Budget shifts are read-only through this API.
   name: Alasco Budget Shift API
   slug: alasco-budget-shift-api
-- description: A **Building** is a property in your Alasco asset register and the anchor for ESG data - its **Utility Meters**, **Tenants** and **Documents** all attach to it. Buildings are read-only here, identifie
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Building** is a property in your Alasco asset register and the anchor for ESG data - its **Utility Meters**, **Tenants** and **Documents** all attach to it. Buildings are read-only here, identifie
   name: Alasco Buildings API
   slug: alasco-buildings-api
-- description: Read-only reporting view of actual cash outflows (paid invoices) allocated per **Cost Element**.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view of actual cash outflows (paid invoices) allocated per **Cost Element**.
   name: Alasco Cash Outflow Cost Element View API
   slug: alasco-cash-outflow-cost-element-view-api
-- description: A **Change Order** is a formal amendment to a **Contract** - a cost or scope change - carrying claimed, audited and approved amounts and an approval state. Change orders are read-only through this API
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Change Order** is a formal amendment to a **Contract** - a cost or scope change - carrying claimed, audited and approved amounts and an approval state. Change orders are read-only through this API
   name: Alasco Change Order API
   slug: alasco-change-order-api
-- description: A **Change Order Document** is a file attached to a **Change Order** (for example the amendment offer or supporting evidence). You can upload and download them; a document left unlinked is removed aut
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Change Order Document** is a file attached to a **Change Order** (for example the amendment offer or supporting evidence). You can upload and download them; a document left unlinked is removed aut
   name: Alasco Change Order Document API
   slug: alasco-change-order-document-api
-- description: A **Consumption Interval** is a consumption total for a period (start to end date) for a meter. Intervals are created individually or in bulk - all-or-nothing (`/bulk/`) or per-item (`/bulk-partial/`)
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Consumption Interval** is a consumption total for a period (start to end date) for a meter. Intervals are created individually or in bulk - all-or-nothing (`/bulk/`) or per-item (`/bulk-partial/`)
   name: Alasco Consumption Intervals API
   slug: alasco-consumption-intervals-api
-- description: A **Contact** is a person or organisation used in invoicing and correspondence, with name, address and contact details. Contacts can be created and updated through the API.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Contact** is a person or organisation used in invoicing and correspondence, with name, address and contact details. Contacts can be created and updated through the API.
   name: Alasco Contact API
   slug: alasco-contact-api
-- description: 'A **Contract** is an agreement with a **Contractor** to deliver work, tracking the committed amount and reserve. In CapEx a contract belongs to a **Measure**; it accumulates **Invoices** and **Change '
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: 'A **Contract** is an agreement with a **Contractor** to deliver work, tracking the committed amount and reserve. In CapEx a contract belongs to a **Measure**; it accumulates **Invoices** and **Change '
   name: Alasco Contract API
   slug: alasco-contract-api
-- description: A **Contract Document** is a file (such as the signed contract or its terms) attached to a **Contract**. You can upload and download them; a document left unlinked from a contract is removed automatic
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Contract Document** is a file (such as the signed contract or its terms) attached to a **Contract**. You can upload and download them; a document left unlinked from a contract is removed automatic
   name: Alasco Contract Document API
   slug: alasco-contract-document-api
-- description: Read-only reporting view with one row per **Contract**, summarising its amount, invoiced, approved, paid and outstanding figures.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view with one row per **Contract**, summarising its amount, invoiced, approved, paid and outstanding figures.
   name: Alasco Contract Financials API
   slug: alasco-contract-financials-api
-- description: A **Contract Unit** is a budget package within a **Project** (the FinCon counterpart of a CapEx Measure), carrying an initial budget and a lifecycle **state**. **Contracts** are assigned to a contract
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Contract Unit** is a budget package within a **Project** (the FinCon counterpart of a CapEx Measure), carrying an initial budget and a lifecycle **state**. **Contracts** are assigned to a contract
   name: Alasco Contract Unit API
   slug: alasco-contract-unit-api
-- description: Read-only reporting view with one row per **Contract Unit**, summarising its budget against the spend of the contracts assigned to it.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view with one row per **Contract Unit**, summarising its budget against the spend of the contracts assigned to it.
   name: Alasco Contract Unit Financials API
   slug: alasco-contract-unit-financials-api
-- description: A **Contracting Entity** is the legal entity on your side that commissions contracts, holding company and commercial-register details. Names are unique per account, and entities can be created and upd
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Contracting Entity** is the legal entity on your side that commissions contracts, holding company and commercial-register details. Names are unique per account, and entities can be created and upd
   name: Alasco Contracting Entity API
   slug: alasco-contracting-entity-api
-- description: A **Contractor** is a supplier engaged to carry out contracted work, holding master data such as its identifier, VAT ID and bank details. A contractor can hold many **Contracts**, its tax-waiver docum
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Contractor** is a supplier engaged to carry out contracted work, holding master data such as its identifier, VAT ID and bank details. A contractor can hold many **Contracts**, its tax-waiver docum
   name: Alasco Contractor API
   slug: alasco-contractor-api
-- description: A **Cost Element** is a node in a hierarchical cost structure (a cost group) belonging to a **Cost Element Tree Template**. Cost elements classify a project's budget and costs and can be created and u
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Cost Element** is a node in a hierarchical cost structure (a cost group) belonging to a **Cost Element Tree Template**. Cost elements classify a project's budget and costs and can be created and u
   name: Alasco Cost Element API
   slug: alasco-cost-element-api
-- description: Read-only reporting view breaking down each **Contract**'s costs across the **Cost Elements** they are allocated to.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view breaking down each **Contract**'s costs across the **Cost Elements** they are allocated to.
   name: Alasco Cost Element Contract Financials API
   slug: alasco-cost-element-contract-financials-api
-- description: Read-only reporting view breaking down **Contract Unit** budget and spend across **Cost Elements**.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view breaking down **Contract Unit** budget and spend across **Cost Elements**.
   name: Alasco Cost Element Contract Unit Financials API
   slug: alasco-cost-element-contract-unit-financials-api
-- description: Read-only reporting view of budget and cost aggregated per **Cost Element** within a project.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view of budget and cost aggregated per **Cost Element** within a project.
   name: Alasco Cost Element Financials API
   slug: alasco-cost-element-financials-api
-- description: A **Cost Element Tree Template** is a reusable hierarchy of **Cost Elements** that defines a project's cost structure. A template can back many **Projects**, can be created and updated through the API
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Cost Element Tree Template** is a reusable hierarchy of **Cost Elements** that defines a project's cost structure. A template can back many **Projects**, can be created and updated through the API
   name: Alasco Cost Element Tree Template API
   slug: alasco-cost-element-tree-template-api
-- description: A **Custom Field** holds your account's user-defined values on a **Contract** (the fields themselves are configured in Alasco). It is read-only here and retrieved per contract (`GET /contracts/{contra
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Custom Field** holds your account's user-defined values on a **Contract** (the fields themselves are configured in Alasco). It is read-only here and retrieved per contract (`GET /contracts/{contra
   name: Alasco Custom Field API
   slug: alasco-custom-field-api
-- description: A **Custom Field Definition** describes a custom field - its name, type and which object it applies to (contract or project). Definitions are configured in Alasco and are read-only through this API.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Custom Field Definition** describes a custom field - its name, type and which object it applies to (contract or project). Definitions are configured in Alasco and are read-only through this API.
   name: Alasco Custom Field Definition API
   slug: alasco-custom-field-definition-api
-- description: A **Document** is a file attached to one or more **Buildings** (certificates, leases and similar). Documents can be uploaded, downloaded, given an external id, have their metadata read and updated, an
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Document** is a file attached to one or more **Buildings** (certificates, leases and similar). Documents can be uploaded, downloaded, given an external id, have their metadata read and updated, an
   name: Alasco Documents API
   slug: alasco-documents-api
-- description: An **Invoice** is a contractor's request for payment that moves through states from `NEW` to `PAID`. Submitting an invoice against an **Asset** creates it in `NEW`, linked only to the asset's project;
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: An **Invoice** is a contractor's request for payment that moves through states from `NEW` to `PAID`. Submitting an invoice against an **Asset** creates it in `NEW`, linked only to the asset's project;
   name: Alasco Invoice API
   slug: alasco-invoice-api
-- description: An **Invoice Document** is a file attached to an **Invoice**, such as the invoice PDF or supporting evidence. At least one document is required before an invoice can be checked; documents can be uploa
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: An **Invoice Document** is a file attached to an **Invoice**, such as the invoice PDF or supporting evidence. At least one document is required before an invoice can be checked; documents can be uploa
   name: Alasco Invoice Document API
   slug: alasco-invoice-document-api
-- description: 'An **Invoice Tag** is a coloured label (with a name unique per account) you assign to **Invoices** for organisation and filtering. Tags can be created, updated and deleted, and assigned to or removed '
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: 'An **Invoice Tag** is a coloured label (with a name unique per account) you assign to **Invoices** for organisation and filtering. Tags can be created, updated and deleted, and assigned to or removed '
   name: Alasco Invoice Tag API
   slug: alasco-invoice-tag-api
-- description: A **Measure** is a planned package of capital work on an **Asset** (for example a renovation or a fit-out), carrying a status, category and priority. Measures are read-only here and group the **Contra
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Measure** is a planned package of capital work on an **Asset** (for example a renovation or a fit-out), carrying a status, category and priority. Measures are read-only here and group the **Contra
   name: Alasco Measure API
   slug: alasco-measure-api
-- description: Read-only reporting view for outright (whole-asset) sales, showing total planned revenues against recorded payments.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view for outright (whole-asset) sales, showing total planned revenues against recorded payments.
   name: Alasco Outright Sale API
   slug: alasco-outright-sale-api
-- description: A **Project** is the top-level container for a construction or development engagement. It optionally references a **Property** and a **Cost Element Tree Template**, and organises spend through **Contr
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Project** is the top-level container for a construction or development engagement. It optionally references a **Property** and a **Cost Element Tree Template**, and organises spend through **Contr
   name: Alasco Project API
   slug: alasco-project-api
-- description: 'Read-only reporting view with one row per **Project**, summarising budget against cost: current budget, contracted amount, change orders, approved and paid amounts, forecast and budget deviation.'
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: 'Read-only reporting view with one row per **Project**, summarising budget against cost: current budget, contracted amount, change orders, approved and paid amounts, forecast and budget deviation.'
   name: Alasco Project Financials API
   slug: alasco-project-financials-api
-- description: A **Property** is the real-estate asset a **Project** is carried out on, holding its address and location. A project references one property, and the same property can back several projects. Propertie
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Property** is the real-estate asset a **Project** is carried out on, holding its address and location. A project references one property, and the same property can back several projects. Propertie
   name: Alasco Property API
   slug: alasco-property-api
-- description: Read-only reporting view of rental units, showing each unit's rent status and projected totals.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view of rental units, showing each unit's rent status and projected totals.
   name: Alasco Rent Unit API
   slug: alasco-rent-unit-api
-- description: Read-only reporting view of sales units, showing listed and sold prices.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: Read-only reporting view of sales units, showing listed and sold prices.
   name: Alasco Sales Unit API
   slug: alasco-sales-unit-api
-- description: A **Tenant Consumption Link** attributes a year's **Annual Consumption** to a **Tenant**. Links are created and deleted through the API by tenant external id and annual-consumption id (both must belon
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Tenant Consumption Link** attributes a year's **Annual Consumption** to a **Tenant**. Links are created and deleted through the API by tenant external id and annual-consumption id (both must belon
   name: Alasco Tenant Consumption Links API
   slug: alasco-tenant-consumption-links-api
-- description: A **Tenant** is an occupant of a **Building**, identified by your `external_id` and linked to a building by `external_building_id`. Tenants are upserted through the API (created or updated by external
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Tenant** is an occupant of a **Building**, identified by your `external_id` and linked to a building by `external_building_id`. Tenants are upserted through the API (created or updated by external
   name: Alasco Tenants API
   slug: alasco-tenants-api
-- description: '**Utility Data Batch Info** records the source and label of a batch of imported utility data. Create one and reference it (via `batch_info_uuid`) when writing meters, readings or consumption intervals'
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: '**Utility Data Batch Info** records the source and label of a batch of imported utility data. Create one and reference it (via `batch_info_uuid`) when writing meters, readings or consumption intervals'
   name: Alasco Utility Data Batch Info API
   slug: alasco-utility-data-batch-info-api
-- description: A **Utility Meter Reading** is a timestamped meter value. Readings are written individually or in bulk (upsert), keyed by the meter's external id, and feed the derived consumption figures.
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Utility Meter Reading** is a timestamped meter value. Readings are written individually or in bulk (upsert), keyed by the meter's external id, and feed the derived consumption figures.
   name: Alasco Utility Meter Readings API
   slug: alasco-utility-meter-readings-api
-- description: A **Utility Meter** measures consumption (electricity, gas, water, heating or cooling) for a **Building**. Meters are created and updated through the API, identified by your `external_id`, and own the
+- baseURL: https://api.alasco.de/fincon/v1
+  baseurl_source: declared
+  description: A **Utility Meter** measures consumption (electricity, gas, water, heating or cooling) for a **Building**. Meters are created and updated through the API, identified by your `external_id`, and own the
   name: Alasco Utility Meters API
   slug: alasco-utility-meters-api
 artifact_total: 87
@@ -469,7 +549,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:

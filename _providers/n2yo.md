@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Satellites currently above an observer location.
+- baseURL: https://api.n2yo.com/rest/v1/satellite
+  baseurl_source: declared
+  description: Satellites currently above an observer location.
   name: N2YO Above API
   slug: n2yo-above-api
-- description: Future satellite positions over an observer location.
+- baseURL: https://api.n2yo.com/rest/v1/satellite
+  baseurl_source: declared
+  description: Future satellite positions over an observer location.
   name: N2YO Positions API
   slug: n2yo-positions-api
-- description: Radio-communication satellite pass predictions.
+- baseURL: https://api.n2yo.com/rest/v1/satellite
+  baseurl_source: declared
+  description: Radio-communication satellite pass predictions.
   name: N2YO Radio Passes API
   slug: n2yo-radio-passes-api
-- description: Two-Line Element data for satellites.
+- baseURL: https://api.n2yo.com/rest/v1/satellite
+  baseurl_source: declared
+  description: Two-Line Element data for satellites.
   name: N2YO TLE API
   slug: n2yo-tle-api
-- description: Optically visible satellite pass predictions.
+- baseURL: https://api.n2yo.com/rest/v1/satellite
+  baseurl_source: declared
+  description: Optically visible satellite pass predictions.
   name: N2YO Visual Passes API
   slug: n2yo-visual-passes-api
 artifact_total: 18
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/screenshots/n2yo-2026-06-20T185921.png
 security:

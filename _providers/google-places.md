@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Operations for retrieving place details and media.
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for retrieving place details and media.
   name: Google Places Places API
   slug: google-places-places-api
-- description: Operations for searching and autocompleting places.
+- baseURL: https://places.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations for searching and autocompleting places.
   name: Google Places Search API
   slug: google-places-search-api
 artifact_total: 67
@@ -378,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-places/refs/heads/main/screenshots/google-places-2026-06-20T182225.png
 security:

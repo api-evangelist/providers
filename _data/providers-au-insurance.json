@@ -29,7 +29,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -146,7 +146,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -358,7 +358,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -411,7 +411,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -450,6 +450,7 @@
      "name": "Steadfast Group",
      "slug": "steadfast-group",
      "description": "Steadfast Group Limited (ASX:SDF) is the largest general insurance broker network and the largest group of insurance underwriting agencies in Australasia, headquartered in Sydney, Australia. It is a broker-intermediary rather than a risk carrier: the Steadfast Network comprises 414 independent brokerages placing approximately $12.7 billion in gross written premium, alongside 31 underwriting agencies writing roughly 100 products across business pack, liability, professional indemnity, cyber, construction, marine, aviation, farm, strata, motor and home and contents lines, plus complementary businesses covering premium funding (IQumulate), life insurance, workplace risk, legal and compliance. Its trading technology is the Steadfast Client Trading Platform (SCTP), launched in 2009, which lets network brokers send one question set to a panel of insurers for instant comparative quotes and which transacted over $1.5 billion in GWP in CY25 across 9 insurer lines and 23 connected partners; SCTP and the INSIGHT policy management platform are being consolidated into a broader \"Steadfast Apps\" broking platform. API posture, recorded honestly - Steadfast Group publishes NO developer portal, NO API documentation and NO specification of any kind, and a full crawl of all 311 pages in the public sitemap returned zero references to a developer portal, REST API, OpenAPI or Swagger. Two genuinely machine-readable surfaces nonetheless exist and neither is announced anywhere. The consumer Flood Risk Tracker is backed by a public, anonymous, undocumented JSON API that resolves Australian addresses against the national G-NAF dataset and returns Swiss Re river-flood and storm-surge risk layers, returning RFC 9457 problem details and advertising api-supported-versions 1.0; the OpenAPI in this record was derived from the tool's own client JavaScript and from live probes. Separately, idp.steadfast.com.au is an Okta-hosted OpenID Connect provider publishing a complete anonymous discovery document with PKCE S256 and DPoP, though client registration is commercially gated. The commercial surfaces remain closed: broker.steadfast.com.au is a credentialed broker login wall, and api.steadfast.com.au and api-sf.steadfast.com.au are live but undocumented hosts returning HTTP 403 at the root. Insurer and partner connectivity into SCTP is arranged commercially, not through self-serve onboarding. The company's most notable standards signal is governance rather than implementation: founder, Managing Director and CEO Robert B. Kelly AM is Chair of the ACORD Board in New York, though no ACORD, AL3, ACORD XML or NGDS implementation detail is published anywhere on the public site. Australia has the legal machinery for open insurance but no live obligation - the Consumer Data Right was designated to extend to general insurance and then deferred, so no regulatory forcing function pushes a broker network of this scale toward a public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/steadfast-group/refs/heads/main/screenshots/steadfast-group-2026-09-02T160824.png",
      "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
@@ -463,7 +464,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -526,7 +527,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -579,7 +580,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -632,7 +633,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -685,7 +686,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -724,6 +725,7 @@
      "name": "Youi",
      "slug": "youi",
      "description": "Youi is an Australian general insurance carrier headquartered at Sippy Downs on the Queensland Sunshine Coast, authorised by APRA and operating under AFSL 316511 (ABN 79 123 074 733). It is a wholly owned subsidiary of Youi Holdings Pty Ltd, part of OUTsurance International Holdings, with the South African-listed OUTsurance Group as ultimate holding company. Youi writes personal and small-business property and casualty lines direct to consumers - car, NSW CTP Green Slip, SA CTP, motorcycle, caravan and trailer, watercraft, home building and contents, and small business cover including public liability - and is a member of the Insurance Council of Australia and a signatory to the General Insurance Code of Practice. Its positioning is direct-to-consumer telephone and online underwriting rather than broker distribution. On API posture the honest finding is that Youi publishes no public API surface at all. Probing on 2026-07-25 found no developer portal (the developer., developers., docs. and api. subdomains do not resolve, and /developers, /api, /developer, /partners and /integrations all return HTTP 404), no downloadable OpenAPI or Swagger, no public Postman collection, no GraphQL, and no webhook or event catalog. The only integration-adjacent hosts are the customer self-service policy portal at portal.youi.com.au (HTTP 200, robots noindex, an Angular single-page app behind a login) and its private first-party backend portalapi.youi.com.au (HTTP 404 at root, serving no swagger or openapi document). No ACORD, AL3, ACORD XML, NGDS or IVANS reference was found anywhere on the public site. Australia's Consumer Data Right, which opened banking and energy, was designated for general insurance and then deferred, so no regulatory forcing function exists, and Youi's direct-to-consumer model gives it no broker or agency-management integration seam either. Recorded as partner-gated and customer-login-gated only, with no public self-serve API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/youi/refs/heads/main/screenshots/youi-2026-09-02T171326.png",
      "score": 23.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -737,7 +739,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -776,6 +778,7 @@
      "name": "TAL",
      "slug": "tal-australia",
      "description": "TAL is Australia's largest life insurer by inforce risk-only premium (NMG Consulting, 2023), owned by Japan's Dai-ichi Life Group and underwriting through TAL Life Limited (ABN 70 050 109 450, AFSL 237848). Operating in the Australian market for roughly 150 years, TAL writes life cover, income protection, total and permanent disability and critical illness, and reports paying $4.7 billion in benefits to 57,000 customers and their families in its most recent year. It distributes through three channels — financial advisers via the login-gated TAL Adviser Centre, group insurance inside superannuation funds, and direct/embedded offers including backd by TAL, a payroll-embedded product built with Sydney insurtech Cover Genius. TAL is not API-less, it is API-private: certificate transparency and live probing surface a real partner API estate — an OpenID Connect partner identity tenant, a bearer-protected Group Life B2B integration estate (glsb2b), per-distributor API hosts including one named for the Iress adviser software, and a production Underwriting Rules Engine GraphQL endpoint — none of which is documented, registrable or self-serve. There is no developer portal, no public API reference, no downloadable OpenAPI, and no published ACORD or AL3 position. Australia's Consumer Data Right was designated to extend to insurance but was deferred, so no open-insurance mandate forces a public surface here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/screenshots/tal-australia-2026-09-02T162444.png",
      "score": 21.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -789,7 +792,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -842,7 +845,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -895,7 +898,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -958,7 +961,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -997,6 +1000,7 @@
      "name": "Suncorp Group",
      "slug": "suncorp-group",
      "description": "Suncorp Group Limited (ASX: SUN) is an Australian general insurance group headquartered in Brisbane, Queensland, serving customers across Australia and New Zealand. Following the sale of Suncorp Bank to ANZ on 31 July 2024 it operates as a pure-play insurer, underwriting personal lines (motor, home and contents, caravan, landlord) and commercial lines (SME packages, commercial motor and motor fleet, property/ISR, liability, professional and financial risks, workers' compensation, surety, and specialty lines including residential strata and equipment breakdown) through a portfolio of brands: in Australia AAMI, Apia, Bingle, CIL, GIO, Essentials by AAI, Shannons, Suncorp, Terri Scheer and Vero, and in New Zealand Vero and AA Insurance. Its API posture is partner-gated and there is no public API. As of a 2026-07-25 review, Suncorp Group publishes no first-party developer portal, no API reference, and no downloadable OpenAPI/Swagger definition on suncorpgroup.com.au or on any brand domain: the developer/developers/docs/api subdomains of suncorpgroup.com.au do not resolve, /developers and /api return HTTP 404 on the brand sites, and the corporate sitemap (803 URLs) plus the AAMI, GIO, Suncorp and Vero brand sitemaps (2,007 URLs) contain zero developer, API or integration paths. The only machine-to-machine integration surface is intermediated and behind a login: the VeroEdge / Vero Intermediary Portal for brokers (Access Single ID), a third-party Uniwriter underwriting portal for Engineers PI and Strata, and distribution through Australian broker trading networks — the Steadfast Client Trading Platform (SCTP), Sunrise Exchange, and direct Broker Management System connections. Australia has no live open-insurance obligation: the Consumer Data Right that opened banking and energy was never switched on for general insurance, so unlike Suncorp Bank there is no mandated public product-reference-data endpoint here. No ACORD, AL3 or NGDS reference was found anywhere on Suncorp Group or brand properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suncorp-group/refs/heads/main/screenshots/suncorp-group-2026-09-02T161129.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1010,7 +1014,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1063,7 +1067,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

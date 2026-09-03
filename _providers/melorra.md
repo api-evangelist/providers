@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +35,27 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The API root index the catalog backend serves
+- baseURL: https://services-catalog.melorra.com/api
+  baseurl_source: declared
+  description: The API root index the catalog backend serves
   name: Melorra Discovery API
   slug: melorra-discovery-api
-- description: Gold, diamond and gemstone product listing and detail
+- baseURL: https://services-catalog.melorra.com/api
+  baseurl_source: declared
+  description: Gold, diamond and gemstone product listing and detail
   name: Melorra Products API
   slug: melorra-products-api
-- description: Similar and recommended products
+- baseURL: https://services-catalog.melorra.com/api
+  baseurl_source: declared
+  description: Similar and recommended products
   name: Melorra Recommendations API
   slug: melorra-recommendations-api
-- description: The silver product line, served by parallel endpoints
+- baseURL: https://services-catalog.melorra.com/api
+  baseurl_source: declared
+  description: The silver product line, served by parallel endpoints
   name: Melorra Silver API
   slug: melorra-silver-api
 artifact_total: 8
@@ -125,7 +145,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -150,8 +170,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/melorra/refs/heads/main/screenshots/melorra-2026-09-02T150552.png
 security:
 - kind: authentication
   name: Melorra Authentication

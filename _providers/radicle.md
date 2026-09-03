@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Repository issues (collaborative objects)
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Repository issues (collaborative objects)
   name: Radicle Issues API
   slug: radicle-issues-api
-- description: Node identity, configuration and peers
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Node identity, configuration and peers
   name: Radicle Node API
   slug: radicle-node-api
-- description: Repository patches (change proposals)
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Repository patches (change proposals)
   name: Radicle Patches API
   slug: radicle-patches-api
-- description: Radicle repositories seeded by the node
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Radicle repositories seeded by the node
   name: Radicle Repositories API
   slug: radicle-repositories-api
-- description: API root and service metadata
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: API root and service metadata
   name: Radicle Service API
   slug: radicle-service-api
-- description: Commits, trees, blobs and READMEs
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Commits, trees, blobs and READMEs
   name: Radicle Source API
   slug: radicle-source-api
-- description: Aggregate node statistics
+- baseURL: https://seed.radicle.xyz/api/v1
+  baseurl_source: declared
+  description: Aggregate node statistics
   name: Radicle Stats API
   slug: radicle-stats-api
 artifact_total: 19
@@ -238,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radicle/refs/heads/main/screenshots/radicle-2026-08-17T081437.png
 security:

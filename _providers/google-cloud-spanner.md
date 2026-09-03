@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations on Spanner databases
+- baseURL: https://spanner.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Spanner databases
   name: Google Cloud Spanner Databases API
   slug: google-cloud-spanner-databases-api
-- description: Operations on Spanner instances
+- baseURL: https://spanner.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Spanner instances
   name: Google Cloud Spanner Instances API
   slug: google-cloud-spanner-instances-api
-- description: Operations on database sessions
+- baseURL: https://spanner.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on database sessions
   name: Google Cloud Spanner Sessions API
   slug: google-cloud-spanner-sessions-api
 artifact_total: 22
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-spanner/refs/heads/main/screenshots/google-cloud-spanner-2026-06-20T182136.png
 security:

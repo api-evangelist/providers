@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 4
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 62 operations · 35 acting · 4 human-in-the-loop
 api_count: 3
 apis:
-- description: The Admin API from Precog — 4 operation(s) for admin.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Admin API from Precog — 4 operation(s) for admin.
   name: Precog Admin API
   slug: precog-admin-api
-- description: The Data Model API from Precog — 1 operation(s) for data model.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Data Model API from Precog — 1 operation(s) for data model.
   name: Precog Data Model API
   slug: precog-data-model-api
-- description: The Datasets API from Precog — 1 operation(s) for datasets.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Datasets API from Precog — 1 operation(s) for datasets.
   name: Precog Datasets API
   slug: precog-datasets-api
-- description: The Destinations API from Precog — 2 operation(s) for destinations.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Destinations API from Precog — 2 operation(s) for destinations.
   name: Precog Destinations API
   slug: precog-destinations-api
-- description: The Issues API from Precog — 4 operation(s) for issues.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Issues API from Precog — 4 operation(s) for issues.
   name: Precog Issues API
   slug: precog-issues-api
-- description: The Kinds API from Precog — 3 operation(s) for kinds.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Kinds API from Precog — 3 operation(s) for kinds.
   name: Precog Kinds API
   slug: precog-kinds-api
-- description: The Loads API from Precog — 1 operation(s) for loads.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Loads API from Precog — 1 operation(s) for loads.
   name: Precog Loads API
   slug: precog-loads-api
-- description: The Log API from Precog — 1 operation(s) for log.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Log API from Precog — 1 operation(s) for log.
   name: Precog Log API
   slug: precog-log-api
-- description: The Pipelines API from Precog — 18 operation(s) for pipelines.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Pipelines API from Precog — 18 operation(s) for pipelines.
   name: Precog Pipelines API
   slug: precog-pipelines-api
-- description: The Semantic Model API from Precog — 3 operation(s) for semantic model.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Semantic Model API from Precog — 3 operation(s) for semantic model.
   name: Precog Semantic Model API
   slug: precog-semantic-model-api
-- description: The Sources API from Precog — 6 operation(s) for sources.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Sources API from Precog — 6 operation(s) for sources.
   name: Precog Sources API
   slug: precog-sources-api
-- description: The Stripe API from Precog — 2 operation(s) for stripe.
+- baseURL: https://api.precog.cloud
+  baseurl_source: declared
+  description: The Stripe API from Precog — 2 operation(s) for stripe.
   name: Precog Stripe API
   slug: precog-stripe-api
 artifact_total: 33
@@ -298,7 +322,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precog/refs/heads/main/screenshots/precog-2026-08-17T081331.png
 security:

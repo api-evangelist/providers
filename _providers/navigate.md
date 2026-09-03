@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Access codes API from Navigate — 1 operation(s) for access codes.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Access codes API from Navigate — 1 operation(s) for access codes.
   name: Navigate Access codes API
   slug: navigate-access-codes-api
-- description: The Assets API from Navigate — 2 operation(s) for assets.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Assets API from Navigate — 2 operation(s) for assets.
   name: Navigate Assets API
   slug: navigate-assets-api
-- description: The Lennar API from Navigate — 1 operation(s) for lennar.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Lennar API from Navigate — 1 operation(s) for lennar.
   name: Navigate Lennar API
   slug: navigate-lennar-api
-- description: The Line items API from Navigate — 2 operation(s) for line items.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Line items API from Navigate — 2 operation(s) for line items.
   name: Navigate Line items API
   slug: navigate-line-items-api
-- description: The Locations API from Navigate — 2 operation(s) for locations.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Locations API from Navigate — 2 operation(s) for locations.
   name: Navigate Locations API
   slug: navigate-locations-api
-- description: The Markets API from Navigate — 2 operation(s) for markets.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Markets API from Navigate — 2 operation(s) for markets.
   name: Navigate Markets API
   slug: navigate-markets-api
-- description: The Rejection reason options API from Navigate — 2 operation(s) for rejection reason options.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Rejection reason options API from Navigate — 2 operation(s) for rejection reason options.
   name: Navigate Rejection reason options API
   slug: navigate-rejection-reason-options-api
-- description: The Room types API from Navigate — 1 operation(s) for room types.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Room types API from Navigate — 1 operation(s) for room types.
   name: Navigate Room types API
   slug: navigate-room-types-api
-- description: The Rooms API from Navigate — 2 operation(s) for rooms.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Rooms API from Navigate — 2 operation(s) for rooms.
   name: Navigate Rooms API
   slug: navigate-rooms-api
-- description: The Scopes API from Navigate — 2 operation(s) for scopes.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Scopes API from Navigate — 2 operation(s) for scopes.
   name: Navigate Scopes API
   slug: navigate-scopes-api
-- description: The Scoping API from Navigate — 3 operation(s) for scoping.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Scoping API from Navigate — 3 operation(s) for scoping.
   name: Navigate Scoping API
   slug: navigate-scoping-api
-- description: The Vendors API from Navigate — 2 operation(s) for vendors.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Vendors API from Navigate — 2 operation(s) for vendors.
   name: Navigate Vendors API
   slug: navigate-vendors-api
-- description: The Video Upload Requests API from Navigate — 5 operation(s) for video upload requests.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Video Upload Requests API from Navigate — 5 operation(s) for video upload requests.
   name: Navigate Video Upload Requests API
   slug: navigate-video-upload-requests-api
-- description: The Visit types API from Navigate — 1 operation(s) for visit types.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Visit types API from Navigate — 1 operation(s) for visit types.
   name: Navigate Visit types API
   slug: navigate-visit-types-api
-- description: The Visits API from Navigate — 7 operation(s) for visits.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Visits API from Navigate — 7 operation(s) for visits.
   name: Navigate Visits API
   slug: navigate-visits-api
-- description: The Work orders API from Navigate — 9 operation(s) for work orders.
+- baseURL: https://api.navigateai.co
+  baseurl_source: declared
+  description: The Work orders API from Navigate — 9 operation(s) for work orders.
   name: Navigate Work orders API
   slug: navigate-work-orders-api
 artifact_total: 36
@@ -232,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navigate/refs/heads/main/screenshots/navigate-2026-08-07T184730.png
 security:

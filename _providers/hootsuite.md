@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -48,64 +48,104 @@ apis:
 - description: A remote Model Context Protocol endpoint served from Hootsuite's own ReadMe-hosted developer documentation site. Reachable and real, but gated — initialize and tools/list both return HTTP 401 "Authori
   name: Hootsuite Developer Documentation MCP
   slug: mcp
-- description: Hootsuite Analytics API
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: Hootsuite Analytics API
   name: Hootsuite Analytics API
   slug: hootsuite-analytics-api-api
-- description: Hootsuite uses OAuth2 to authenticate end users. Members authenticated with the Hootsuite API are subject to the same permissions configured as when using the Hootsuite Web Dashboard. Learn more about
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: Hootsuite uses OAuth2 to authenticate end users. Members authenticated with the Hootsuite API are subject to the same permissions configured as when using the Hootsuite Web Dashboard. Learn more about
   name: Hootsuite Authentication API
   slug: hootsuite-authentication-api
-- description: The Comments API from Hootsuite — 3 operation(s) for comments.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Comments API from Hootsuite — 3 operation(s) for comments.
   name: Hootsuite Comments API
   slug: hootsuite-comments-api
-- description: If you want to update contact attributes asynchronously, you'll need to call the Contact API. When calling the Contact API, the client needs to be authenticated. The [REST API authentication](#tag/res
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: If you want to update contact attributes asynchronously, you'll need to call the Contact API. When calling the Contact API, the client needs to be authenticated. The [REST API authentication](#tag/res
   name: Hootsuite CRM Rest API
   slug: hootsuite-crm-rest-api-api
-- description: '### Webhook authentication When receiving data from Inbox 2.0, we provide two authentication options. Both mechanisms are in place so that you can make sure the request originates from Inbox 2.0. ####'
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: '### Webhook authentication When receiving data from Inbox 2.0, we provide two authentication options. Both mechanisms are in place so that you can make sure the request originates from Inbox 2.0. ####'
   name: Hootsuite CRM Webhooks API
   slug: hootsuite-crm-webhooks-api
-- description: Operations that you can do related with your authenticated member
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: Operations that you can do related with your authenticated member
   name: Hootsuite Me API
   slug: hootsuite-me-api
-- description: The Media API from Hootsuite — 2 operation(s) for media.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Media API from Hootsuite — 2 operation(s) for media.
   name: Hootsuite Media API
   slug: hootsuite-media-api
-- description: The Members API from Hootsuite — 3 operation(s) for members.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Members API from Hootsuite — 3 operation(s) for members.
   name: Hootsuite Members API
   slug: hootsuite-members-api
-- description: The Messages API from Hootsuite — 5 operation(s) for messages.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Messages API from Hootsuite — 5 operation(s) for messages.
   name: Hootsuite Messages API
   slug: hootsuite-messages-api
-- description: The Organizations API from Hootsuite — 7 operation(s) for organizations.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Hootsuite — 7 operation(s) for organizations.
   name: Hootsuite Organizations API
   slug: hootsuite-organizations-api
-- description: When calling the Proactive Messaging API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your cl
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: When calling the Proactive Messaging API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your cl
   name: Hootsuite Proactive Messaging Rest API
   slug: hootsuite-proactive-messaging-rest-api-api
-- description: When calling the Queue API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your client.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: When calling the Queue API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your client.
   name: Hootsuite Queue Rest API
   slug: hootsuite-queue-rest-api-api
-- description: When calling the Real-time Metrics API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your clie
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: When calling the Real-time Metrics API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your clie
   name: Hootsuite Real Time Metrics Rest API
   slug: hootsuite-real-time-metrics-rest-api-api
-- description: 'Follow the steps below to make an authenticated API request. # 1. Request client credentials ### Step 1: Create your OAuth 2.0 app Follow [these steps](https://developer.hootsuite.com/docs/getting-sta'
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: 'Follow the steps below to make an authenticated API request. # 1. Request client credentials ### Step 1: Create your OAuth 2.0 app Follow [these steps](https://developer.hootsuite.com/docs/getting-sta'
   name: Hootsuite Rest API Authentication API
   slug: hootsuite-rest-api-authentication-api
-- description: The SCIM 2.0 API from Hootsuite — 5 operation(s) for scim 2.0.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The SCIM 2.0 API from Hootsuite — 5 operation(s) for scim 2.0.
   name: Hootsuite SCIM 2.0 API
   slug: hootsuite-scim-2-0-api
-- description: A social profile is a publishing channel on a social network account.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: A social profile is a publishing channel on a social network account.
   name: Hootsuite Social Profiles API
   slug: hootsuite-social-profiles-api
-- description: The Teams API from Hootsuite — 6 operation(s) for teams.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: The Teams API from Hootsuite — 6 operation(s) for teams.
   name: Hootsuite Teams API
   slug: hootsuite-teams-api
-- description: When calling the User Presence API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your client.
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: When calling the User Presence API, the client needs to be authenticated. The [REST API authentication](#tag/rest-api-authentication) section contains more details on how to authenticate your client.
   name: Hootsuite User Presence Rest API
   slug: hootsuite-user-presence-rest-api-api
-- description: If you want to send the replies asynchronously or manipulate the conversation in your fulfillment code, you'll need to call the Virtual Agent REST API. The [REST API authentication](#tag/rest-api-auth
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: If you want to send the replies asynchronously or manipulate the conversation in your fulfillment code, you'll need to call the Virtual Agent REST API. The [REST API authentication](#tag/rest-api-auth
   name: Hootsuite Vai Rest API
   slug: hootsuite-vai-rest-api-api
-- description: '### Webhook authentication When setting up a virtual agent, you received a secret key that you can use to verify whether an incoming webhook request really comes from Inbox 2.0 without alterations. In'
+- baseURL: https://platform.hootsuite.com/v1
+  baseurl_source: declared
+  description: '### Webhook authentication When setting up a virtual agent, you received a secret key that you can use to verify whether an incoming webhook request really comes from Inbox 2.0 without alterations. In'
   name: Hootsuite Vai Webhooks API
   slug: hootsuite-vai-webhooks-api
 artifact_total: 36
@@ -366,7 +406,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -376,7 +416,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 61.4
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,7 +428,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hootsuite/refs/heads/main/screenshots/hootsuite-2026-06-20T182835.png
 security:

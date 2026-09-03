@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 57 operations · 27 acting
 api_count: 1
 apis:
-- description: Disburse funds globally across bank account transfers, mobile money transfers, and wallet-to-wallet transfers spanning 30+ African countries plus US/UK/EU/Asia corridors. Manage transfer recipients, t
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Disburse funds globally across bank account transfers, mobile money transfers, and wallet-to-wallet transfers spanning 30+ African countries plus US/UK/EU/Asia corridors. Manage transfer recipients, t
   name: Flutterwave Transfers API
   slug: flutterwave-transfers-api
-- description: Reconcile transaction volume with merchant payouts. Manage settlements, refunds, chargebacks (dispute handling), and fee computation for cards, mobile money, and other rails. The finance-and-ops surfa
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Reconcile transaction volume with merchant payouts. Manage settlements, refunds, chargebacks (dispute handling), and fee computation for cards, mobile money, and other rails. The finance-and-ops surfa
   name: Flutterwave Settlements API
   slug: flutterwave-settlements-api
-- description: Inspect multi-currency wallet balances, retrieve wallet statements, and resolve mobile money wallet account details. Backs the FAAS (Finance as a Service) and capital flows for merchants holding balan
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Inspect multi-currency wallet balances, retrieve wallet statements, and resolve mobile money wallet account details. Backs the FAAS (Finance as a Service) and capital flows for merchants holding balan
   name: Flutterwave Wallets API
   slug: flutterwave-wallets-api
-- description: Reference data for banks, bank branches, and mobile networks supported by country, plus bank account name-enquiry endpoints. Used to populate checkout dropdowns and validate destination accounts befor
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Reference data for banks, bank branches, and mobile networks supported by country, plus bank account name-enquiry endpoints. Used to populate checkout dropdowns and validate destination accounts befor
   name: Flutterwave Banks API
   slug: flutterwave-banks-api
-- description: Outbound webhook callbacks delivered by Flutterwave for charges, transfers, refunds, chargebacks, and virtual account funding. Receivers validate the `verif-hash` header against the merchant's configu
+- baseURL: https://your-webhook-endpoint.example.com
+  baseurl_source: declared
+  description: Outbound webhook callbacks delivered by Flutterwave for charges, transfers, refunds, chargebacks, and virtual account funding. Receivers validate the `verif-hash` header against the merchant's configu
   name: Flutterwave Webhooks API
   slug: flutterwave-webhooks-api
-- description: Bank account name resolution before initiating payouts.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Bank account name resolution before initiating payouts.
   name: Flutterwave AccountResolution API
   slug: flutterwave-accountresolution-api
-- description: Manage and respond to chargebacks raised by customers.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Manage and respond to chargebacks raised by customers.
   name: Flutterwave Chargebacks API
   slug: flutterwave-chargebacks-api
-- description: Create and manage charges across supported payment methods.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Create and manage charges across supported payment methods.
   name: Flutterwave Charges API
   slug: flutterwave-charges-api
-- description: Create and manage customers that own charges, orders, and transfers.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Create and manage customers that own charges, orders, and transfers.
   name: Flutterwave Customers API
   slug: flutterwave-customers-api
-- description: Retrieve Flutterwave's fee calculation for a transaction.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Retrieve Flutterwave's fee calculation for a transaction.
   name: Flutterwave Fees API
   slug: flutterwave-fees-api
-- description: Mobile money networks supported by country.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Mobile money networks supported by country.
   name: Flutterwave MobileNetworks API
   slug: flutterwave-mobilenetworks-api
-- description: Orchestrator helpers that combine customer, payment method, and charge in one call.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Orchestrator helpers that combine customer, payment method, and charge in one call.
   name: Flutterwave Orchestration API
   slug: flutterwave-orchestration-api
-- description: Server-side cart and order objects backing checkout sessions.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Server-side cart and order objects backing checkout sessions.
   name: Flutterwave Orders API
   slug: flutterwave-orders-api
-- description: Tokenize, register, and look up payment methods (cards, mobile money, bank, USSD).
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Tokenize, register, and look up payment methods (cards, mobile money, bank, USSD).
   name: Flutterwave PaymentMethods API
   slug: flutterwave-paymentmethods-api
-- description: Real-time FX conversion rates for international transfers.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Real-time FX conversion rates for international transfers.
   name: Flutterwave Rates API
   slug: flutterwave-rates-api
-- description: Manage transfer recipients (the destination of a payout).
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Manage transfer recipients (the destination of a payout).
   name: Flutterwave Recipients API
   slug: flutterwave-recipients-api
-- description: Initiate and inspect refunds against successful charges.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Initiate and inspect refunds against successful charges.
   name: Flutterwave Refunds API
   slug: flutterwave-refunds-api
-- description: Manage transfer senders (the originator of a cross-border payout).
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Manage transfer senders (the originator of a cross-border payout).
   name: Flutterwave Senders API
   slug: flutterwave-senders-api
-- description: Issue virtual NUBANs for pay-with-bank-transfer collections.
+- baseURL: https://api.flutterwave.cloud/f4b/production
+  baseurl_source: declared
+  description: Issue virtual NUBANs for pay-with-bank-transfer collections.
   name: Flutterwave VirtualAccounts API
   slug: flutterwave-virtualaccounts-api
 arazzos:
@@ -681,7 +719,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flutterwave/refs/heads/main/screenshots/flutterwave-2026-06-20T181343.png
 security:

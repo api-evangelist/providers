@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 18 acting
 api_count: 1
 apis:
-- description: Manage end-user account records that group identity data and inquiries.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Manage end-user account records that group identity data and inquiries.
   name: Persona Accounts API
   slug: persona-accounts-api
-- description: Create, manage, and review identity verification inquiries.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Create, manage, and review identity verification inquiries.
   name: Persona Inquiries API
   slug: persona-inquiries-api
-- description: Manage allowlists, blocklists, and other reference lists.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Manage allowlists, blocklists, and other reference lists.
   name: Persona Lists API
   slug: persona-lists-api
-- description: Run database-driven reports such as watchlist or adverse media checks.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Run database-driven reports such as watchlist or adverse media checks.
   name: Persona Reports API
   slug: persona-reports-api
-- description: Track monitored transactions tied to an account.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Track monitored transactions tied to an account.
   name: Persona Transactions API
   slug: persona-transactions-api
-- description: Retrieve and manage individual verification checks within an inquiry.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Retrieve and manage individual verification checks within an inquiry.
   name: Persona Verifications API
   slug: persona-verifications-api
-- description: Manage webhook subscriptions for asynchronous event delivery.
+- baseURL: https://withpersona.com/api/v1
+  baseurl_source: declared
+  description: Manage webhook subscriptions for asynchronous event delivery.
   name: Persona Webhooks API
   slug: persona-webhooks-api
 artifact_total: 25
@@ -207,7 +221,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -217,7 +231,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:

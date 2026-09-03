@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -73,28 +73,44 @@ apis:
 - description: Earth System Grid Federation (ESGF) RESTful API providing access to ESA Climate Change Initiative (CCI) observational products aligned with CMIP climate model data through the Obs4MIPs framework. Enab
   name: ESA CCI ESGF RESTful API
   slug: cci-esgf
-- description: The Bulk Transaction Extension API from European Space Agency (ESA) — 1 operation(s) for bulk transaction extension.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Bulk Transaction Extension API from European Space Agency (ESA) — 1 operation(s) for bulk transaction extension.
   name: European Space Agency (ESA) Bulk Transaction Extension API
   slug: esa-bulk-transaction-extension-api
-- description: The Collections API from European Space Agency (ESA) — 4 operation(s) for collections.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Collections API from European Space Agency (ESA) — 4 operation(s) for collections.
   name: European Space Agency (ESA) Collections API
   slug: esa-collections-api
-- description: The Conformance API from European Space Agency (ESA) — 1 operation(s) for conformance.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Conformance API from European Space Agency (ESA) — 1 operation(s) for conformance.
   name: European Space Agency (ESA) Conformance API
   slug: esa-conformance-api
-- description: The Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API from European Space Agency (ESA) — 1 operation(s) for copernicus data space ecosystem (cdse) asset level stac catalogue.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API from European Space Agency (ESA) — 1 operation(s) for copernicus data space ecosystem (cdse) asset level stac catalogue.
   name: European Space Agency (ESA) Copernicus Data Space Ecosystem (CDSE) Asset Level STAC Catalogue API
   slug: esa-copernicus-data-space-ecosystem-cdse-asset-level-stac-catalogue-api
-- description: The Filter Extension API from European Space Agency (ESA) — 2 operation(s) for filter extension.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Filter Extension API from European Space Agency (ESA) — 2 operation(s) for filter extension.
   name: European Space Agency (ESA) Filter Extension API
   slug: esa-filter-extension-api
-- description: The Liveliness/Readiness API from European Space Agency (ESA) — 1 operation(s) for liveliness/readiness.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Liveliness/Readiness API from European Space Agency (ESA) — 1 operation(s) for liveliness/readiness.
   name: European Space Agency (ESA) Liveliness/Readiness API
   slug: esa-liveliness-readiness-api
-- description: The Search API from European Space Agency (ESA) — 1 operation(s) for search.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Search API from European Space Agency (ESA) — 1 operation(s) for search.
   name: European Space Agency (ESA) Search API
   slug: esa-search-api
-- description: The Transaction Extension API from European Space Agency (ESA) — 4 operation(s) for transaction extension.
+- baseURL: https://catalogue.dataspace.copernicus.eu/odata/v1
+  baseurl_source: declared
+  description: The Transaction Extension API from European Space Agency (ESA) — 4 operation(s) for transaction extension.
   name: European Space Agency (ESA) Transaction Extension API
   slug: esa-transaction-extension-api
 artifact_total: 34
@@ -239,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/screenshots/esa-2026-06-20T180819.png
 security:

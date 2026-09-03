@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 34 operations · 21 acting
 api_count: 1
 apis:
-- description: File attachments.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: File attachments.
   name: Teable Attachment API
   slug: teable-attachment-api
-- description: Postgres-backed databases within a space.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Postgres-backed databases within a space.
   name: Teable Base API
   slug: teable-base-api
-- description: Columns within a table.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Columns within a table.
   name: Teable Field API
   slug: teable-field-api
-- description: Rows within a table.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Rows within a table.
   name: Teable Record API
   slug: teable-record-api
-- description: Top-level workspaces.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Top-level workspaces.
   name: Teable Space API
   slug: teable-space-api
-- description: Spreadsheet-like tables within a base.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Spreadsheet-like tables within a base.
   name: Teable Table API
   slug: teable-table-api
-- description: Views over a table.
+- baseURL: https://app.teable.io/api
+  baseurl_source: declared
+  description: Views over a table.
   name: Teable View API
   slug: teable-view-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/screenshots/teable-2026-06-20T194954.png
 security:

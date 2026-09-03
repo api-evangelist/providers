@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: The AniList GraphQL API v2 is the primary public developer interface for AniList.co. It exposes anime, manga, character, staff, studio, user, activity, review, recommendation, thread, comment, notific
   name: AniList GraphQL API v2
   slug: anilist-graphql-api-v2
-- description: GraphQL query and mutation endpoint
+- baseURL: https://graphql.anilist.co
+  baseurl_source: declared
+  description: GraphQL query and mutation endpoint
   name: AniList GraphQL API
   slug: anilist-graphql-api
-- description: OAuth2 authorization code and implicit grant endpoints
+- baseURL: https://graphql.anilist.co
+  baseurl_source: declared
+  description: OAuth2 authorization code and implicit grant endpoints
   name: AniList OAuth2 API
   slug: anilist-oauth2-api
 artifact_total: 125
@@ -551,7 +555,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:

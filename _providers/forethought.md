@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 2
 apis:
-- description: Start and continue Solve conversations.
+- baseURL: https://app.forethought.ai
+  baseurl_source: spec
+  description: Start and continue Solve conversations.
   name: Forethought Conversations API
   slug: forethought-conversations-api
-- description: Inspect workspace-level Solve configuration.
+- baseURL: https://app.forethought.ai
+  baseurl_source: spec
+  description: Inspect workspace-level Solve configuration.
   name: Forethought Metadata API
   slug: forethought-metadata-api
-- description: Predict labels for customer-support tickets.
+- baseURL: https://api.forethought.ai
+  baseurl_source: spec
+  description: Predict labels for customer-support tickets.
   name: Forethought Predictions API
   slug: forethought-predictions-api
 artifact_total: 61
@@ -341,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/screenshots/forethought-2026-06-20T181426.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: API for scientific data about food products, published by Wageningen Food & Biobased Research (WFBR) through WUR's own Azure API Management instance. Provides software services and algorithms returnin
   name: WFBR Food API
   slug: wfbr-food-api
-- description: 'Open, keyless OAI-PMH 2.0 harvesting interface over the WUR Publications repository — all six verbs verified live, four metadata formats (oai_dc, mods, nl_didl, oai_openaire) and eight sets including '
+- baseURL: https://library.wur.nl
+  baseurl_source: declared
+  description: 'Open, keyless OAI-PMH 2.0 harvesting interface over the WUR Publications repository — all six verbs verified live, four metadata formats (oai_dc, mods, nl_didl, oai_openaire) and eight sets including '
   name: WUR Library OAI-PMH API
   slug: wageningen-university-research-library-oai-pmh
-- description: The Altitude API from AgroDataCube v2, operated by Wageningen Environmental Research — 1 operation for altitude zonal statistics.
+- baseURL: https://agrodatacube.wur.nl/api/v2/rest
+  baseurl_source: declared
+  description: The Altitude API from AgroDataCube v2, operated by Wageningen Environmental Research — 1 operation for altitude zonal statistics.
   name: Wageningen University & Research Altitude API
   slug: wageningen-university-research-altitude-api
-- description: The KPI API from AgroDataCube v2, operated by Wageningen Environmental Research — 2 operations for crop-rotation and greenness indicators.
+- baseURL: https://agrodatacube.wur.nl/api/v2/rest
+  baseurl_source: declared
+  description: The KPI API from AgroDataCube v2, operated by Wageningen Environmental Research — 2 operations for crop-rotation and greenness indicators.
   name: Wageningen University & Research KPI API
   slug: wageningen-university-research-kpi-api
-- description: The Raster API from AgroDataCube v2, operated by Wageningen Environmental Research — 4 operations returning GeoTIFF altitude and NDVI imagery.
+- baseURL: https://agrodatacube.wur.nl/api/v2/rest
+  baseurl_source: declared
+  description: The Raster API from AgroDataCube v2, operated by Wageningen Environmental Research — 4 operations returning GeoTIFF altitude and NDVI imagery.
   name: Wageningen University & Research Raster API
   slug: wageningen-university-research-raster-api
-- description: The Retrieve API from AgroDataCube v2, operated by Wageningen Environmental Research — 18 operations over fields, crops, soils, meteo data and code lists.
+- baseURL: https://agrodatacube.wur.nl/api/v2/rest
+  baseurl_source: declared
+  description: The Retrieve API from AgroDataCube v2, operated by Wageningen Environmental Research — 18 operations over fields, crops, soils, meteo data and code lists.
   name: Wageningen University & Research Retrieve API
   slug: wageningen-university-research-retrieve-api
-- description: The Return API from AgroDataCube v2, operated by Wageningen Environmental Research — 9 operations returning meteo stations, regions, soil types and source information.
+- baseURL: https://agrodatacube.wur.nl/api/v2/rest
+  baseurl_source: declared
+  description: The Return API from AgroDataCube v2, operated by Wageningen Environmental Research — 9 operations returning meteo stations, regions, soil types and source information.
   name: Wageningen University & Research Return API
   slug: wageningen-university-research-return-api
 - description: 'Institutional research portal and CRIS for WUR publications, projects, datasets and researcher profiles, running on Elsevier Pure. Listed as a tenant surface because it is a genuine WUR institutional '
@@ -247,7 +259,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -257,7 +269,7 @@ score:
     discoverability: 64.8
     governance: 28.0
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +285,8 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:
 - kind: authentication

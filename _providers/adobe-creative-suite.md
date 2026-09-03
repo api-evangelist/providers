@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -77,85 +77,139 @@ apis:
 - description: Adobe UXP (Unified Extensibility Platform) is the modern plugin and scripting platform used across Adobe creative applications including Photoshop, InDesign, Illustrator, and XD. It provides a JavaScr
   name: Adobe UXP
   slug: uxp
-- description: Auto-tag PDFs for accessibility compliance
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Auto-tag PDFs for accessibility compliance
   name: Adobe Creative Suite Accessibility API
   slug: adobe-creative-suite-accessibility-api
-- description: Artboard creation and management
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Artboard creation and management
   name: Adobe Creative Suite Artboard API
   slug: adobe-creative-suite-artboard-api
-- description: Upload and manage input/output assets for PDF operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Upload and manage input/output assets for PDF operations
   name: Adobe Creative Suite Assets API
   slug: adobe-creative-suite-assets-api
-- description: Combine multiple PDFs into one
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Combine multiple PDFs into one
   name: Adobe Creative Suite Combine PDF API
   slug: adobe-creative-suite-combine-pdf-api
-- description: Reduce PDF file size
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Reduce PDF file size
   name: Adobe Creative Suite Compress PDF API
   slug: adobe-creative-suite-compress-pdf-api
-- description: Create PDF documents from other formats
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Create PDF documents from other formats
   name: Adobe Creative Suite Create PDF API
   slug: adobe-creative-suite-create-pdf-api
-- description: Background removal and masking operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Background removal and masking operations
   name: Adobe Creative Suite Cutout API
   slug: adobe-creative-suite-cutout-api
-- description: Document-level operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Document-level operations
   name: Adobe Creative Suite Document API
   slug: adobe-creative-suite-document-api
-- description: Generate documents from templates and data
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Generate documents from templates and data
   name: Adobe Creative Suite Document Generation API
   slug: adobe-creative-suite-document-generation-api
-- description: Export PDF documents to other formats
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Export PDF documents to other formats
   name: Adobe Creative Suite Export PDF API
   slug: adobe-creative-suite-export-pdf-api
-- description: Expand images beyond their original boundaries
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Expand images beyond their original boundaries
   name: Adobe Creative Suite Generative Expand API
   slug: adobe-creative-suite-generative-expand-api
-- description: Fill selected regions of images with AI-generated content
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Fill selected regions of images with AI-generated content
   name: Adobe Creative Suite Generative Fill API
   slug: adobe-creative-suite-generative-fill-api
-- description: Text-to-image and image variation generation operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Text-to-image and image variation generation operations
   name: Adobe Creative Suite Image Generation API
   slug: adobe-creative-suite-image-generation-api
-- description: PSD layer management operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: PSD layer management operations
   name: Adobe Creative Suite Layers API
   slug: adobe-creative-suite-layers-api
-- description: License stock assets for use in projects
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: License stock assets for use in projects
   name: Adobe Creative Suite License API
   slug: adobe-creative-suite-license-api
-- description: Optimize PDFs for fast web viewing
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Optimize PDFs for fast web viewing
   name: Adobe Creative Suite Linearize PDF API
   slug: adobe-creative-suite-linearize-pdf-api
-- description: Alpha mask creation operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Alpha mask creation operations
   name: Adobe Creative Suite Mask API
   slug: adobe-creative-suite-mask-api
-- description: Member profile and licensing operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Member profile and licensing operations
   name: Adobe Creative Suite Member API
   slug: adobe-creative-suite-member-api
-- description: Composite AI-generated objects into existing images
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Composite AI-generated objects into existing images
   name: Adobe Creative Suite Object Composite API
   slug: adobe-creative-suite-object-composite-api
-- description: Apply optical character recognition to scanned PDFs
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Apply optical character recognition to scanned PDFs
   name: Adobe Creative Suite OCR API
   slug: adobe-creative-suite-ocr-api
-- description: Check operation job status
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Check operation job status
   name: Adobe Creative Suite Operations API
   slug: adobe-creative-suite-operations-api
-- description: Rendition and export operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Rendition and export operations
   name: Adobe Creative Suite Rendition API
   slug: adobe-creative-suite-rendition-api
-- description: Search and discover stock content
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Search and discover stock content
   name: Adobe Creative Suite Search API
   slug: adobe-creative-suite-search-api
-- description: Smart object editing operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Smart object editing operations
   name: Adobe Creative Suite Smart Object API
   slug: adobe-creative-suite-smart-object-api
-- description: Asynchronous job status polling
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Asynchronous job status polling
   name: Adobe Creative Suite Status API
   slug: adobe-creative-suite-status-api
-- description: Text layer editing operations
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Text layer editing operations
   name: Adobe Creative Suite Text API
   slug: adobe-creative-suite-text-api
-- description: Generate video from text prompts
+- baseURL: https://image.adobe.io
+  baseurl_source: declared
+  description: Generate video from text prompts
   name: Adobe Creative Suite Video Generation API
   slug: adobe-creative-suite-video-generation-api
 arazzos:
@@ -1321,7 +1375,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:

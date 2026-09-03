@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
   name: Attentive Access Token API
   slug: attentive-access-token-api
-- description: The Bulk Segment Operations API from Attentive — 1 operation(s) for bulk segment operations.
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: The Bulk Segment Operations API from Attentive — 1 operation(s) for bulk segment operations.
   name: Attentive Bulk Segment Operations API
   slug: attentive-bulk-segment-operations-api
-- description: Endpoints for managing bulk data ingestion jobs. Use these endpoints to monitor the processing status asynchronously.
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing bulk data ingestion jobs. Use these endpoints to monitor the processing status asynchronously.
   name: Attentive Bulk Status API
   slug: attentive-bulk-status-api
-- description: The Bulk User Operations API from Attentive — 1 operation(s) for bulk user operations.
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: The Bulk User Operations API from Attentive — 1 operation(s) for bulk user operations.
   name: Attentive Bulk User Operations API
   slug: attentive-bulk-user-operations-api
-- description: Use the Custom Attributes API to apply customizable data or characteristics to each of your subscribers. This API will either create a new custom attribute if it doesn't already exist or update an exi
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the Custom Attributes API to apply customizable data or characteristics to each of your subscribers. This API will either create a new custom attribute if it doesn't already exist or update an exi
   name: Attentive Custom Attributes API
   slug: attentive-custom-attributes-api
-- description: Use the Custom Events API to send user actions to use in the Attentive Segment Builder and Journey Builder for both email and text messages. This data cannot contain any sensitive or special categorie
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the Custom Events API to send user actions to use in the Attentive Segment Builder and Journey Builder for both email and text messages. This data cannot contain any sensitive or special categorie
   name: Attentive Custom Events API
   slug: attentive-custom-events-api
-- description: Use the eCommerce API to trigger an event when a user views a product, adds a product to their shopping cart, or makes a purchase.
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the eCommerce API to trigger an event when a user views a product, adds a product to their shopping cart, or makes a purchase.
   name: Attentive eCommerce API
   slug: attentive-ecommerce-api
-- description: Use the Identity API to manage user identifiers. With this API, you can programmatically add a client user identifier or custom identifier(s) to a user. You should only use clientUserId and customIden
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the Identity API to manage user identifiers. With this API, you can programmatically add a client user identifier or custom identifier(s) to a user. You should only use clientUserId and customIden
   name: Attentive Identity API
   slug: attentive-identity-api
-- description: 'You can use the Offers API to add discount codes to an existing offer. <br> <h2> Create an offer </h2> <ol> <li> Navigate to the [Offers](https://ui.attentivemobile.com/offers) page. </li> <li> Click '
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: 'You can use the Offers API to add discount codes to an existing offer. <br> <h2> Create an offer </h2> <ol> <li> Navigate to the [Offers](https://ui.attentivemobile.com/offers) page. </li> <li> Click '
   name: Attentive Offers API
   slug: attentive-offers-api
-- description: You can use the Privacy Request API in order to comply with [California Consumer Privacy Act](https://epic.org/california-consumer-privacy-act-ccpa/) deletion requests through Attentive. For more info
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: You can use the Privacy Request API in order to comply with [California Consumer Privacy Act](https://epic.org/california-consumer-privacy-act-ccpa/) deletion requests through Attentive. For more info
   name: Attentive Privacy Request API
   slug: attentive-privacy-request-api
-- description: Our product catalog API unlocks the ability to send high-performing journeys such as back in stock, low inventory, and price drop. It also lets you segment your customers and branch journeys using pro
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Our product catalog API unlocks the ability to send high-performing journeys such as back in stock, low inventory, and price drop. It also lets you segment your customers and branch journeys using pro
   name: Attentive Product Catalog API
   slug: attentive-product-catalog-api
-- description: 'Endpoints for submitting bulk segment member additions and removals. Use these endpoints to manage segment memberships in bulk and monitor the processing status asynchronously. ## Processing Times The'
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: 'Endpoints for submitting bulk segment member additions and removals. Use these endpoints to manage segment memberships in bulk and monitor the processing status asynchronously. ## Processing Times The'
   name: Attentive Segments API
   slug: attentive-segments-api
-- description: Use the Subscribers API to manage subscriptions. With this API, you can programmatically subscribe and unsubscribe users from subscriptions.
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the Subscribers API to manage subscriptions. With this API, you can programmatically subscribe and unsubscribe users from subscriptions.
   name: Attentive Subscribers API
   slug: attentive-subscribers-api
-- description: Use the Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The respon
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The respon
   name: Attentive Test Authentication API
   slug: attentive-test-authentication-api
-- description: Use the V2 Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The res
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Use the V2 Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The res
   name: Attentive Test Authentication V2 API
   slug: attentive-test-authentication-v2-api
-- description: 'Endpoints for submitting bulk user attribute updates. Use these endpoints to upload large datasets of user data in a single request and monitor the processing status asynchronously. Typical use cases '
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: 'Endpoints for submitting bulk user attribute updates. Use these endpoints to upload large datasets of user data in a single request and monitor the processing status asynchronously. Typical use cases '
   name: Attentive User Attributes API
   slug: attentive-user-attributes-api
-- description: 'This API will either create a new user if it doesn''t already exist or update an existing one with the attributes provided. You can then use these attributes as macros in messages or build segments to '
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: 'This API will either create a new user if it doesn''t already exist or update an existing one with the attributes provided. You can then use these attributes as macros in messages or build segments to '
   name: Attentive User Properties API
   slug: attentive-user-properties-api
-- description: Create and manage webhooks
+- baseURL: https://api.attentivemobile.com/v1
+  baseurl_source: declared
+  description: Create and manage webhooks
   name: Attentive Webhooks API
   slug: attentive-webhooks-api
 - description: 'Attentive''s GraphQL API (beta) at POST https://api.attentivemobile.com/v1/graphql, authenticated with the same application token as the REST API and gated by the same app scopes. The graph covers the '
@@ -416,7 +452,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -426,7 +462,7 @@ score:
     discoverability: 51.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 69.5
+  previous_composite: 69.3
   provenance:
     conformance: derived
     contracts:
@@ -449,7 +485,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
 security:

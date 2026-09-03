@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Attachment API from Arctic Wolf — 1 operation(s) for attachment.
+- baseURL: https://ticket-api.managedgw.us001-prod.arcticwolf.net
+  baseurl_source: declared
+  description: The Attachment API from Arctic Wolf — 1 operation(s) for attachment.
   name: Arctic Wolf Attachment API
   slug: arctic-wolf-attachment-api
-- description: The Comment API from Arctic Wolf — 1 operation(s) for comment.
+- baseURL: https://ticket-api.managedgw.us001-prod.arcticwolf.net
+  baseurl_source: declared
+  description: The Comment API from Arctic Wolf — 1 operation(s) for comment.
   name: Arctic Wolf Comment API
   slug: arctic-wolf-comment-api
-- description: The Ticket API from Arctic Wolf — 3 operation(s) for ticket.
+- baseURL: https://ticket-api.managedgw.us001-prod.arcticwolf.net
+  baseurl_source: declared
+  description: The Ticket API from Arctic Wolf — 3 operation(s) for ticket.
   name: Arctic Wolf Ticket API
   slug: arctic-wolf-ticket-api
 artifact_total: 13
@@ -238,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arctic-wolf/refs/heads/main/screenshots/arctic-wolf-2026-07-25T201101.png
 security:

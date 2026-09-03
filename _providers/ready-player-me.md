@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 3
 apis:
-- description: Create, retrieve, update, and delete Ready Player Me cross-platform avatars. Includes template-based creation, asset equipping, draft management, color palette discovery, and binary glTF (.glb) plus 2
+- baseURL: https://api.readyplayer.me/
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete Ready Player Me cross-platform avatars. Includes template-based creation, asset equipping, draft management, color palette discovery, and binary glTF (.glb) plus 2
   name: Ready Player Me Avatars API
   slug: ready-player-me-avatars-api
-- description: Discover and retrieve avatar wearable assets — hair, outfits, headwear, glasses, facewear, footwear, beards, costumes, and custom assets — scoped to an application and optionally filtered to those vie
+- baseURL: https://api.readyplayer.me/
+  baseurl_source: declared
+  description: Discover and retrieve avatar wearable assets — hair, outfits, headwear, glasses, facewear, footwear, beards, costumes, and custom assets — scoped to an application and optionally filtered to those vie
   name: Ready Player Me Assets API
   slug: ready-player-me-assets-api
-- description: Anonymous user creation, email-code login, token refresh, and avatar access tokens used by the Ready Player Me Avatar Creator and SDKs. Authentication runs through each application's per-studio subdom
+- baseURL: https://api.readyplayer.me/
+  baseurl_source: declared
+  description: Anonymous user creation, email-code login, token refresh, and avatar access tokens used by the Ready Player Me Avatar Creator and SDKs. Authentication runs through each application's per-studio subdom
   name: Ready Player Me Auth API
   slug: ready-player-me-auth-api
 artifact_total: 20
@@ -306,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

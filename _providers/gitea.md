@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 470
   human_in_the_loop: 12
@@ -56,31 +56,49 @@ apis:
 - description: Gitea Cloud management plane for provisioning and operating single-tenant managed Gitea instances. Each provisioned instance exposes the same REST API at /api/v1/. The management plane itself does not
   name: Gitea Cloud Management API
   slug: gitea-cloud-management-api
-- description: The admin API from Gitea — 22 operation(s) for admin.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The admin API from Gitea — 22 operation(s) for admin.
   name: Gitea admin API
   slug: gitea-admin-api
-- description: The issue API from Gitea — 34 operation(s) for issue.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The issue API from Gitea — 34 operation(s) for issue.
   name: Gitea issue API
   slug: gitea-issue-api
-- description: The miscellaneous API from Gitea — 12 operation(s) for miscellaneous.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The miscellaneous API from Gitea — 12 operation(s) for miscellaneous.
   name: Gitea miscellaneous API
   slug: gitea-miscellaneous-api
-- description: The notification API from Gitea — 4 operation(s) for notification.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The notification API from Gitea — 4 operation(s) for notification.
   name: Gitea notification API
   slug: gitea-notification-api
-- description: The organization API from Gitea — 37 operation(s) for organization.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The organization API from Gitea — 37 operation(s) for organization.
   name: Gitea organization API
   slug: gitea-organization-api
-- description: The package API from Gitea — 7 operation(s) for package.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The package API from Gitea — 7 operation(s) for package.
   name: Gitea package API
   slug: gitea-package-api
-- description: The repository API from Gitea — 133 operation(s) for repository.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The repository API from Gitea — 133 operation(s) for repository.
   name: Gitea repository API
   slug: gitea-repository-api
-- description: The settings API from Gitea — 4 operation(s) for settings.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The settings API from Gitea — 4 operation(s) for settings.
   name: Gitea settings API
   slug: gitea-settings-api
-- description: The user API from Gitea — 48 operation(s) for user.
+- baseURL: https://gitea.com/api/v1
+  baseurl_source: declared
+  description: The user API from Gitea — 48 operation(s) for user.
   name: Gitea user API
   slug: gitea-user-api
 arazzos:
@@ -817,7 +835,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/screenshots/gitea-2026-06-20T181832.png
 security:

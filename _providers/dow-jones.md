@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -50,142 +50,234 @@ apis:
 - description: Retrieval endpoint for grounding generative-AI applications (RAG) in licensed Factiva content. No public OpenAPI is published; access requires a Factiva Retrieval agreement.
   name: Factiva Retrieval API
   slug: factiva-retrieval-api
-- description: The Alert API allows clients to interact with alerts that have been raised through continuous monitoring.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Alert API allows clients to interact with alerts that have been raised through continuous monitoring.
   name: Dow Jones Alert API
   slug: dow-jones-alert-api
-- description: The Alert Export API allows clients to export details of alerts, alert evidence and alert activities.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Alert Export API allows clients to export details of alerts, alert evidence and alert activities.
   name: Dow Jones Alert Export API
   slug: dow-jones-alert-export-api
-- description: Fetch a news article by id, or stream news articles linked to an entity as JSON-L.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Fetch a news article by id, or stream news articles linked to an entity as JSON-L.
   name: Dow Jones Articles API
   slug: dow-jones-articles-api
-- description: The Assessment API allows clients to create and interact with assessments.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Assessment API allows clients to create and interact with assessments.
   name: Dow Jones Assessment API
   slug: dow-jones-assessment-api
-- description: The Assessment Export API allows clients to export details of assessments, assessment evidence and assessment activities.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Assessment Export API allows clients to export details of assessments, assessment evidence and assessment activities.
   name: Dow Jones Assessment Export API
   slug: dow-jones-assessment-export-api
-- description: The Attachment API allows clients to upload attachment files to alerts
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Attachment API allows clients to upload attachment files to alerts
   name: Dow Jones Attachment API
   slug: dow-jones-attachment-api
-- description: The BusinessUnit API from Dow Jones — 1 operation(s) for businessunit.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The BusinessUnit API from Dow Jones — 1 operation(s) for businessunit.
   name: Dow Jones Business Unit API
   slug: dow-jones-businessunit-api
-- description: The Calendar Events API from Dow Jones — 4 operation(s) for calendar events.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Calendar Events API from Dow Jones — 4 operation(s) for calendar events.
   name: Dow Jones Calendar Events API
   slug: dow-jones-calendar-events-api
-- description: The Calendar Taxonomy API from Dow Jones — 15 operation(s) for calendar taxonomy.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Calendar Taxonomy API from Dow Jones — 15 operation(s) for calendar taxonomy.
   name: Dow Jones Calendar Taxonomy API
   slug: dow-jones-calendar-taxonomy-api
-- description: The Client Delete endpoint allows clients to hard delete client records in the system.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Client Delete endpoint allows clients to hard delete client records in the system.
   name: Dow Jones Client Delete API
   slug: dow-jones-client-delete-api
-- description: The Client Import API allows clients to bulk load client records representing entities to be screened as part of continuous monitoring.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Client Import API allows clients to bulk load client records representing entities to be screened as part of continuous monitoring.
   name: Dow Jones Client Import API
   slug: dow-jones-client-import-api
-- description: Operations to retrieve the Connection Details of a R&C Profile
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Operations to retrieve the Connection Details of a R&C Profile
   name: Dow Jones Connection Details API
   slug: dow-jones-connection-details-api
-- description: The Content API from Dow Jones — 17 operation(s) for content.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Content API from Dow Jones — 17 operation(s) for content.
   name: Dow Jones Content API
   slug: dow-jones-content-api
-- description: The Content Search API from Dow Jones — 1 operation(s) for content search.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Content Search API from Dow Jones — 1 operation(s) for content search.
   name: Dow Jones Content Search API
   slug: dow-jones-content-search-api
-- description: The ContentCollections API from Dow Jones — 2 operation(s) for contentcollections.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ContentCollections API from Dow Jones — 2 operation(s) for contentcollections.
   name: Dow Jones Content Collections API
   slug: dow-jones-contentcollections-api
-- description: Operations related to the custom sources
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Operations related to the custom sources
   name: Dow Jones Custom Sources API
   slug: dow-jones-custom-sources-api
-- description: Default section
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Default section
   name: Dow Jones Default API
   slug: dow-jones-default-api
-- description: The Disposition API allows clients to create, retrieve, update and delete historical dispositions representing prior adjudication decisions.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Disposition API allows clients to create, retrieve, update and delete historical dispositions representing prior adjudication decisions.
   name: Dow Jones Disposition API
   slug: dow-jones-disposition-api
-- description: The Editions API from Dow Jones — 2 operation(s) for editions.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Editions API from Dow Jones — 2 operation(s) for editions.
   name: Dow Jones Editions API
   slug: dow-jones-editions-api
-- description: The Entity API allows clients to retrieve details of and reconcile entities (i.e. clients, risk profiles and internal list entities) stored in the system.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Entity API allows clients to retrieve details of and reconcile entities (i.e. clients, risk profiles and internal list entities) stored in the system.
   name: Dow Jones Entity API
   slug: dow-jones-entity-api
-- description: The Excel Export API allows clients to create Excel spreadsheets containing client screening results and evidence.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Excel Export API allows clients to create Excel spreadsheets containing client screening results and evidence.
   name: Dow Jones Excel Export API
   slug: dow-jones-excel-export-api
-- description: The Field API from Dow Jones — 2 operation(s) for field.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Field API from Dow Jones — 2 operation(s) for field.
   name: Dow Jones Field API
   slug: dow-jones-field-api
-- description: The File API from Dow Jones — 2 operation(s) for file.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The File API from Dow Jones — 2 operation(s) for file.
   name: Dow Jones File API
   slug: dow-jones-file-api
-- description: The Group API from Dow Jones — 1 operation(s) for group.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Group API from Dow Jones — 1 operation(s) for group.
   name: Dow Jones Group API
   slug: dow-jones-group-api
-- description: Operations to retrieve R&C Images
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Operations to retrieve R&C Images
   name: Dow Jones Images API
   slug: dow-jones-images-api
-- description: The IPO Calendar Events API from Dow Jones — 2 operation(s) for ipo calendar events.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The IPO Calendar Events API from Dow Jones — 2 operation(s) for ipo calendar events.
   name: Dow Jones IPO Calendar Events API
   slug: dow-jones-ipo-calendar-events-api
-- description: The IPO Calendar Taxonomy API from Dow Jones — 4 operation(s) for ipo calendar taxonomy.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The IPO Calendar Taxonomy API from Dow Jones — 4 operation(s) for ipo calendar taxonomy.
   name: Dow Jones IPO Calendar Taxonomy API
   slug: dow-jones-ipo-calendar-taxonomy-api
-- description: The List API from Dow Jones — 2 operation(s) for list.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The List API from Dow Jones — 2 operation(s) for list.
   name: Dow Jones List API
   slug: dow-jones-list-api
-- description: The List API allows clients to bulk load internal list entities into the Screening system.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The List API allows clients to bulk load internal list entities into the Screening system.
   name: Dow Jones List Import API
   slug: dow-jones-list-import-api
-- description: The Newsletters API from Dow Jones — 2 operation(s) for newsletters.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Newsletters API from Dow Jones — 2 operation(s) for newsletters.
   name: Dow Jones Newsletters API
   slug: dow-jones-newsletters-api
-- description: The PDF Export API allows clients to create PDF documents of Alerts, Assessments and Searches.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The PDF Export API allows clients to create PDF documents of Alerts, Assessments and Searches.
   name: Dow Jones PDF Export API
   slug: dow-jones-pdf-export-api
-- description: The Process API from Dow Jones — 1 operation(s) for process.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Process API from Dow Jones — 1 operation(s) for process.
   name: Dow Jones Process API
   slug: dow-jones-process-api
-- description: Operations to retrieve R&C Profiles
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Operations to retrieve R&C Profiles
   name: Dow Jones Profiles API
   slug: dow-jones-profiles-api
-- description: The Revisions API from Dow Jones — 1 operation(s) for revisions.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Revisions API from Dow Jones — 1 operation(s) for revisions.
   name: Dow Jones Revisions API
   slug: dow-jones-revisions-api
-- description: APIs for screening and monitoring third parties against Dow Jones Risk & Compliance data.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: APIs for screening and monitoring third parties against Dow Jones Risk & Compliance data.
   name: Dow Jones Risk and Compliance Screening and Monitoring API
   slug: dow-jones-risk-and-compliance-screening-and-monitoring-api
-- description: The Risk and Compliance search API from Dow Jones — 1 operation(s) for risk and compliance search.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Risk and Compliance search API from Dow Jones — 1 operation(s) for risk and compliance search.
   name: Dow Jones Risk and Compliance search API
   slug: dow-jones-risk-and-compliance-search-api
-- description: The Risk and Compliance - Taxonomy API from Dow Jones — 1 operation(s) for risk and compliance - taxonomy.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Risk and Compliance - Taxonomy API from Dow Jones — 1 operation(s) for risk and compliance - taxonomy.
   name: Dow Jones Risk and Compliance - Taxonomy API
   slug: dow-jones-risk-and-compliance-taxonomy-api
-- description: API
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: API
   name: Dow Jones Risk Reports API
   slug: dow-jones-risk-reports-api
-- description: The Search API allows clients to run ad-hoc, low-latency searches. Results from searches are not persisted in the system.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Search API allows clients to run ad-hoc, low-latency searches. Results from searches are not persisted in the system.
   name: Dow Jones Search API
   slug: dow-jones-search-api
-- description: The ThirdParty API from Dow Jones — 2 operation(s) for thirdparty.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdParty API from Dow Jones — 2 operation(s) for thirdparty.
   name: Dow Jones Third Party API
   slug: dow-jones-thirdparty-api
-- description: The ThirdPartyProperties API from Dow Jones — 3 operation(s) for thirdpartyproperties.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyProperties API from Dow Jones — 3 operation(s) for thirdpartyproperties.
   name: Dow Jones Third Party Properties API
   slug: dow-jones-thirdpartyproperties-api
-- description: The ThirdPartyScreening API from Dow Jones — 2 operation(s) for thirdpartyscreening.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyScreening API from Dow Jones — 2 operation(s) for thirdpartyscreening.
   name: Dow Jones Third Party Screening API
   slug: dow-jones-thirdpartyscreening-api
-- description: The ThirdPartyScreeningTypes API from Dow Jones — 2 operation(s) for thirdpartyscreeningtypes.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The ThirdPartyScreeningTypes API from Dow Jones — 2 operation(s) for thirdpartyscreeningtypes.
   name: Dow Jones Third Party Screening Types API
   slug: dow-jones-thirdpartyscreeningtypes-api
-- description: Operations related to the transactions
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: Operations related to the transactions
   name: Dow Jones Transaction API
   slug: dow-jones-transaction-api
-- description: The User API allows clients to import and manage user accounts in the system.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The User API allows clients to import and manage user accounts in the system.
   name: Dow Jones User API
   slug: dow-jones-user-api
-- description: The Versions API from Dow Jones — 1 operation(s) for versions.
+- baseURL: https://api.dowjones.com
+  baseurl_source: declared
+  description: The Versions API from Dow Jones — 1 operation(s) for versions.
   name: Dow Jones Versions API
   slug: dow-jones-versions-api
 artifact_total: 75
@@ -515,7 +607,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -525,7 +617,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 65.1
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,7 +635,7 @@ score:
     regime_id: securities_market_data
     score: 80.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:

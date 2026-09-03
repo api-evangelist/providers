@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 12 acting
 api_count: 1
 apis:
-- description: Search and retrieve individual news articles from 150,000+ global sources.
+- baseURL: https://eventregistry.org/api/v1
+  baseurl_source: declared
+  description: Search and retrieve individual news articles from 150,000+ global sources.
   name: Event Registry Articles API
   slug: event-registry-articles-api
-- description: Search and retrieve clustered news events (deduplicated story groups).
+- baseURL: https://eventregistry.org/api/v1
+  baseurl_source: declared
+  description: Search and retrieve clustered news events (deduplicated story groups).
   name: Event Registry Events API
   slug: event-registry-events-api
-- description: Resolve entity names to URIs for use in search filters.
+- baseURL: https://eventregistry.org/api/v1
+  baseurl_source: declared
+  description: Resolve entity names to URIs for use in search filters.
   name: Event Registry Suggest API
   slug: event-registry-suggest-api
-- description: Retrieve content matching user-defined topic page configurations.
+- baseURL: https://eventregistry.org/api/v1
+  baseurl_source: declared
+  description: Retrieve content matching user-defined topic page configurations.
   name: Event Registry Topic Pages API
   slug: event-registry-topic-pages-api
-- description: Monitor API token quota and usage.
+- baseURL: https://eventregistry.org/api/v1
+  baseurl_source: declared
+  description: Monitor API token quota and usage.
   name: Event Registry Usage API
   slug: event-registry-usage-api
 artifact_total: 25
@@ -299,7 +309,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
 security:

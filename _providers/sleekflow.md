@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: Manage company records.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Manage company records.
   name: SleekFlow Companies API
   slug: sleekflow-companies-api
-- description: Create, read, search, update, and delete contacts.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Create, read, search, update, and delete contacts.
   name: SleekFlow Contacts API
   slug: sleekflow-contacts-api
-- description: Read conversations and update conversation assignment.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Read conversations and update conversation assignment.
   name: SleekFlow Conversations API
   slug: sleekflow-conversations-api
-- description: Manage contact lists and list membership.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Manage contact lists and list membership.
   name: SleekFlow Lists API
   slug: sleekflow-lists-api
-- description: Send messages, files, and internal notes; check conversation windows.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Send messages, files, and internal notes; check conversation windows.
   name: SleekFlow Messaging API
   slug: sleekflow-messaging-api
-- description: Manage staff and teams.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Manage staff and teams.
   name: SleekFlow Staff and Teams API
   slug: sleekflow-staff-and-teams-api
-- description: Register webhook subscriptions for platform events.
+- baseURL: https://api.sleekflow.io
+  baseurl_source: declared
+  description: Register webhook subscriptions for platform events.
   name: SleekFlow Webhooks API
   slug: sleekflow-webhooks-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/screenshots/sleekflow-2026-06-20T194028.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 34 operations · 27 acting
 api_count: 1
 apis:
-- description: The data API from Aito Technologies — 7 operation(s) for data.
+- baseURL: https://shared.aito.ai
+  baseurl_source: declared
+  description: The data API from Aito Technologies — 7 operation(s) for data.
   name: Aito Technologies data API
   slug: aito-technologies-data-api
-- description: The query API from Aito Technologies — 15 operation(s) for query.
+- baseURL: https://shared.aito.ai
+  baseurl_source: declared
+  description: The query API from Aito Technologies — 15 operation(s) for query.
   name: Aito Technologies query API
   slug: aito-technologies-query-api
-- description: The schema API from Aito Technologies — 5 operation(s) for schema.
+- baseURL: https://shared.aito.ai
+  baseurl_source: declared
+  description: The schema API from Aito Technologies — 5 operation(s) for schema.
   name: Aito Technologies schema API
   slug: aito-technologies-schema-api
 artifact_total: 11
@@ -242,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aito-technologies/refs/heads/main/screenshots/aito-technologies-2026-07-25T195452.png
 security:

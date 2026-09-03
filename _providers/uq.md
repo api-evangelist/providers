@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Keyless read-only JSON, RSS and SVG feeds describing the operational state of 678 University of Queensland systems across 43 service categories, plus every published incident. All five endpoints retur
+- baseURL: https://status.its.uq.edu.au
+  baseurl_source: declared
+  description: Keyless read-only JSON, RSS and SVG feeds describing the operational state of 678 University of Queensland systems across 43 service categories, plus every published incident. All five endpoints retur
   name: UQ Status API
   slug: status-api
 - description: UQ operates a SAML 2.0 Shibboleth identity provider, entityID urn:mace:federation.org.au:testfed:uq.edu.au, with SSO endpoints for the HTTP-Redirect, HTTP-POST and HTTP-POST-SimpleSign bindings. The e
@@ -224,7 +226,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -234,7 +236,7 @@ score:
     discoverability: 59.3
     governance: 7.6
     operational_transparency: 23.7
-  previous_composite: 45.8
+  previous_composite: 34.8
   provenance:
     conformance: first-party
     contracts:
@@ -249,8 +251,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uq/refs/heads/main/screenshots/uq-2026-06-20T200520.png
 security:
 - kind: authentication

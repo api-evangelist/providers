@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: The Download API from National Cancer Institute — 3 operation(s) for download.
+- baseURL: https://api.gdc.cancer.gov/
+  baseurl_source: declared
+  description: The Download API from National Cancer Institute — 3 operation(s) for download.
   name: National Cancer Institute Download API
   slug: national-cancer-institute-download-api
-- description: The Search API from National Cancer Institute — 7 operation(s) for search.
+- baseURL: https://api.gdc.cancer.gov/
+  baseurl_source: declared
+  description: The Search API from National Cancer Institute — 7 operation(s) for search.
   name: National Cancer Institute Search API
   slug: national-cancer-institute-search-api
-- description: The Status API from National Cancer Institute — 1 operation(s) for status.
+- baseURL: https://api.gdc.cancer.gov/
+  baseurl_source: declared
+  description: The Status API from National Cancer Institute — 1 operation(s) for status.
   name: National Cancer Institute Status API
   slug: national-cancer-institute-status-api
-- description: The Submission API from National Cancer Institute — 1 operation(s) for submission.
+- baseURL: https://api.gdc.cancer.gov/
+  baseurl_source: declared
+  description: The Submission API from National Cancer Institute — 1 operation(s) for submission.
   name: National Cancer Institute Submission API
   slug: national-cancer-institute-submission-api
 artifact_total: 16
@@ -167,7 +175,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-cancer-institute/refs/heads/main/screenshots/national-cancer-institute-2026-06-20T190008.png
 security:

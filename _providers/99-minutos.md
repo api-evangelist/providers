@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 29 operations · 16 acting
 api_count: 1
 apis:
-- description: The coverage API from 99 Minutos — 1 operation(s) for coverage.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The coverage API from 99 Minutos — 1 operation(s) for coverage.
   name: 99 Minutos coverage API
   slug: 99-minutos-coverage-api
-- description: The documents API from 99 Minutos — 2 operation(s) for documents.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The documents API from 99 Minutos — 2 operation(s) for documents.
   name: 99 Minutos documents API
   slug: 99-minutos-documents-api
-- description: The locations API from 99 Minutos — 3 operation(s) for locations.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The locations API from 99 Minutos — 3 operation(s) for locations.
   name: 99 Minutos locations API
   slug: 99-minutos-locations-api
-- description: The oauth API from 99 Minutos — 1 operation(s) for oauth.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The oauth API from 99 Minutos — 1 operation(s) for oauth.
   name: 99 Minutos oauth API
   slug: 99-minutos-oauth-api
-- description: The Orders API from 99 Minutos — 5 operation(s) for orders.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The Orders API from 99 Minutos — 5 operation(s) for orders.
   name: 99 Minutos Orders API
   slug: 99-minutos-orders-api
-- description: The shipments API from 99 Minutos — 3 operation(s) for shipments.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The shipments API from 99 Minutos — 3 operation(s) for shipments.
   name: 99 Minutos shipments API
   slug: 99-minutos-shipments-api
-- description: The shipping-rates API from 99 Minutos — 5 operation(s) for shipping-rates.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The shipping-rates API from 99 Minutos — 5 operation(s) for shipping-rates.
   name: 99 Minutos shipping-rates API
   slug: 99-minutos-shipping-rates-api
-- description: The super-geocoding API from 99 Minutos — 1 operation(s) for super-geocoding.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The super-geocoding API from 99 Minutos — 1 operation(s) for super-geocoding.
   name: 99 Minutos super-geocoding API
   slug: 99-minutos-super-geocoding-api
-- description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
+- baseURL: https://delivery.99minutos.com
+  baseurl_source: declared
+  description: The webhooks API from 99 Minutos — 3 operation(s) for webhooks.
   name: 99 Minutos webhooks API
   slug: 99-minutos-webhooks-api
 artifact_total: 26
@@ -271,7 +289,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -281,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,7 +311,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Event delivery surface for the Jodo platform. Jodo POSTs 36 documented events across student master data, manual payments, Flex subscriptions/mandates/instalments, Pay collections and Cred education l
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Event delivery surface for the Jodo platform. Jodo POSTs 36 documented events across student master data, manual payments, Flex subscriptions/mandates/instalments, Pay collections and Cred education l
   name: Jodo Webhooks
   slug: jodo-webhooks
-- description: Institute reference data (branches, grades, fee components, discounts) and webhook subscriptions.
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Institute reference data (branches, grades, fee components, discounts) and webhook subscriptions.
   name: Jodo Configuration API
   slug: jodo-configuration-api
-- description: Flexible instalment plans backed by an auto-debit mandate.
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Flexible instalment plans backed by an auto-debit mandate.
   name: Jodo Flex API
   slug: jodo-flex-api
-- description: Checkout orders and shareable hosted payment links.
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Checkout orders and shareable hosted payment links.
   name: Jodo Pay API
   slug: jodo-pay-api
-- description: Student master data, fee structures and manual payment reconciliation.
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Student master data, fee structures and manual payment reconciliation.
   name: Jodo Students API
   slug: jodo-students-api
-- description: Register ERP/institute users and mint short-lived tokens for Jodo-hosted flows.
+- baseURL: https://ext.jodo.in
+  baseurl_source: declared
+  description: Register ERP/institute users and mint short-lived tokens for Jodo-hosted flows.
   name: Jodo Users API
   slug: jodo-users-api
 artifact_total: 11
@@ -195,11 +220,11 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -209,7 +234,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 40.6
+  previous_composite: 40.5
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +251,9 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/screenshots/jodo-2026-09-02T145951.png
 security:
 - kind: authentication
   name: Jodo Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 6
 apis:
-- description: Search and discover metadata entities using various search strategies.
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Search and discover metadata entities using various search strategies.
   name: Apache Atlas Discovery API
   slug: apache-atlas-discovery-api
-- description: Manage metadata entities (CRUD operations on Atlas entities).
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Manage metadata entities (CRUD operations on Atlas entities).
   name: Apache Atlas Entities API
   slug: apache-atlas-entities-api
-- description: Manage business glossary terms and categories.
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Manage business glossary terms and categories.
   name: Apache Atlas Glossary API
   slug: apache-atlas-glossary-api
-- description: Track data lineage and provenance between entities.
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Track data lineage and provenance between entities.
   name: Apache Atlas Lineage API
   slug: apache-atlas-lineage-api
-- description: Manage relationships between entities.
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Manage relationships between entities.
   name: Apache Atlas Relationships API
   slug: apache-atlas-relationships-api
-- description: Manage type definitions including entity types, classifications, and relationships.
+- baseURL: http://localhost:21000/api/atlas
+  baseurl_source: declared
+  description: Manage type definitions including entity types, classifications, and relationships.
   name: Apache Atlas Types API
   slug: apache-atlas-types-api
 artifact_total: 85
@@ -389,7 +401,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/screenshots/apache-atlas-2026-06-20T172046.png
 security:

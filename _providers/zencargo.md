@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: 'Query bookings by Zencargo reference and retrieve booking details: cargo, consignor/consignee, forwarder, incoterms, load type, mode of transport, bills of lading, required delivery date, and attached'
@@ -133,7 +133,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 57.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -149,8 +149,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 32.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zencargo/refs/heads/main/screenshots/zencargo-2026-09-02T171600.png
 security:
 - kind: authentication
   name: Zencargo Authentication

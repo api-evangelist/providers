@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,13 +65,19 @@ apis:
 - description: API for Microsoft Teams collaboration and communication.
   name: Teams API
   slug: teams-api
-- description: The Drive API from Microsoft Office Applications — 4 operation(s) for drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drive API from Microsoft Office Applications — 4 operation(s) for drive.
   name: Microsoft Office Applications Drive API
   slug: microsoft-office-applications-drive-api
-- description: The Mail API from Microsoft Office Applications — 4 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Mail API from Microsoft Office Applications — 4 operation(s) for mail.
   name: Microsoft Office Applications Mail API
   slug: microsoft-office-applications-mail-api
-- description: The Teams API from Microsoft Office Applications — 4 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams API from Microsoft Office Applications — 4 operation(s) for teams.
   name: Microsoft Office Applications Teams API
   slug: microsoft-office-applications-teams-api
 artifact_total: 23
@@ -177,7 +183,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -187,7 +193,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 41.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -196,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-applications/refs/heads/main/screenshots/microsoft-office-applications-2026-06-20T185511.png
 security:

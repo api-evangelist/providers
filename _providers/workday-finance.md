@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,31 +68,49 @@ apis:
 - description: SOAP API for Professional Services Automation integrations. Exposes Workday Financials data for managing client-facing projects, services billing, resource staffing, and expense reporting within profe
   name: Workday Professional Services Automation API
   slug: workday-professional-services-automation-api
-- description: General ledger accounts and account structures
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: General ledger accounts and account structures
   name: Workday Finance Accounts API
   slug: workday-finance-accounts-api
-- description: Cost center management and reporting
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Cost center management and reporting
   name: Workday Finance Cost Centers API
   slug: workday-finance-cost-centers-api
-- description: Fiscal period and year management
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Fiscal period and year management
   name: Workday Finance Financial Periods API
   slug: workday-finance-financial-periods-api
-- description: Journal entry creation and retrieval
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Journal entry creation and retrieval
   name: Workday Finance Journal Entries API
   slug: workday-finance-journal-entries-api
-- description: Purchase order creation and management
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Purchase order creation and management
   name: Workday Finance Purchase Orders API
   slug: workday-finance-purchase-orders-api
-- description: Purchase requisition management
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Purchase requisition management
   name: Workday Finance Requisitions API
   slug: workday-finance-requisitions-api
-- description: Supplier invoice processing
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Supplier invoice processing
   name: Workday Finance Supplier Invoices API
   slug: workday-finance-supplier-invoices-api
-- description: Supplier account management
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Supplier account management
   name: Workday Finance Suppliers API
   slug: workday-finance-suppliers-api
-- description: Worktag dimension management
+- baseURL: https://wd2-impl-services1.workday.com/ccx/service
+  baseurl_source: declared
+  description: Worktag dimension management
   name: Workday Finance Worktags API
   slug: workday-finance-worktags-api
 arazzos:
@@ -482,7 +500,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/screenshots/workday-finance-2026-06-20T201558.png
 security:

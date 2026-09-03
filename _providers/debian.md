@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 17 operations
 api_count: 2
 apis:
-- description: The Bugs API from Debian — 4 operation(s) for bugs.
+- baseURL: https://sources.debian.org/api
+  baseurl_source: declared
+  description: The Bugs API from Debian — 4 operation(s) for bugs.
   name: Debian Bugs API
   slug: debian-bugs-api
-- description: The Maintainers API from Debian — 1 operation(s) for maintainers.
+- baseURL: https://sources.debian.org/api
+  baseurl_source: declared
+  description: The Maintainers API from Debian — 1 operation(s) for maintainers.
   name: Debian Maintainers API
   slug: debian-maintainers-api
-- description: The Reproducibility API from Debian — 1 operation(s) for reproducibility.
+- baseURL: https://sources.debian.org/api
+  baseurl_source: declared
+  description: The Reproducibility API from Debian — 1 operation(s) for reproducibility.
   name: Debian Reproducibility API
   slug: debian-reproducibility-api
 artifact_total: 23
@@ -231,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/screenshots/debian-2026-06-20T175746.png
 security:

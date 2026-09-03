@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 29 acting
 api_count: 1
 apis:
-- description: Manage API functions that wrap third-party API calls and are invoked through the PolyAPI gateway.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage API functions that wrap third-party API calls and are invoked through the PolyAPI gateway.
   name: PolyAPI API Functions API
   slug: polyapi-api-functions-api
-- description: Manage AI assistants and conversations for AI-powered document assistance and discovery.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage AI assistants and conversations for AI-powered document assistance and discovery.
   name: PolyAPI Assistants API
   slug: polyapi-assistants-api
-- description: Manage shared client functions that run wherever they are executed.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage shared client functions that run wherever they are executed.
   name: PolyAPI Client Functions API
   slug: polyapi-client-functions-api
-- description: Manage environments for organizing and deploying resources across development, staging, and production.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage environments for organizing and deploying resources across development, staging, and production.
   name: PolyAPI Environments API
   slug: polyapi-environments-api
-- description: Manage jobs that execute functions at a set time, interval, or CRON schedule.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage jobs that execute functions at a set time, interval, or CRON schedule.
   name: PolyAPI Jobs API
   slug: polyapi-jobs-api
-- description: Manage shared JSON Schema definitions used to type events and application data.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage shared JSON Schema definitions used to type events and application data.
   name: PolyAPI Schemas API
   slug: polyapi-schemas-api
-- description: Manage Knative serverless functions that run in the PolyAPI cloud infrastructure.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage Knative serverless functions that run in the PolyAPI cloud infrastructure.
   name: PolyAPI Server Functions API
   slug: polyapi-server-functions-api
-- description: Manage triggers that connect cloud events to functions for event-driven execution.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage triggers that connect cloud events to functions for event-driven execution.
   name: PolyAPI Triggers API
   slug: polyapi-triggers-api
-- description: Manage variables and secrets that are stored securely and injected into functions at runtime.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage variables and secrets that are stored securely and injected into functions at runtime.
   name: PolyAPI Variables API
   slug: polyapi-variables-api
-- description: Manage webhook endpoints that receive events via HTTP calls, with support for authentication and custom listeners.
+- baseURL: https://na1.polyapi.io
+  baseurl_source: spec
+  description: Manage webhook endpoints that receive events via HTTP calls, with support for authentication and custom listeners.
   name: PolyAPI Webhooks API
   slug: polyapi-webhooks-api
 artifact_total: 144
@@ -407,7 +427,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -417,7 +437,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 50.8
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -426,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
 security:

@@ -36,31 +36,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
   name: Parallel Web Systems Chat API (Beta) API
   slug: parallel-web-systems-chat-api-beta-api
-- description: Extract returns excerpts or full content from one or more URLs. Inputs are a list of URLs and an optional search objective and keyword queries. The returned excerpts or full content is formatted as ma
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: Extract returns excerpts or full content from one or more URLs. Inputs are a list of URLs and an optional search objective and keyword queries. The returned excerpts or full content is formatted as ma
   name: Parallel Web Systems Extract API
   slug: parallel-web-systems-extract-api
-- description: The FindAll API discovers and evaluates entities that match complex criteria from natural language objectives. Submit a high-level goal and the service automatically generates structured match conditi
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: The FindAll API discovers and evaluates entities that match complex criteria from natural language objectives. Submit a high-level goal and the service automatically generates structured match conditi
   name: Parallel Web Systems FindAll API
   slug: parallel-web-systems-findall-api
-- description: The Monitor API watches the web for material changes on a fixed frequency. Each monitor runs once on creation and then on its configured schedule, emitting events when meaningful changes are detected.
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: The Monitor API watches the web for material changes on a fixed frequency. Each monitor runs once on creation and then on its configured schedule, emitting events when meaningful changes are detected.
   name: Parallel Web Systems Monitor API
   slug: parallel-web-systems-monitor-api
-- description: Search returns ranked URLs with extended excerpts suitable for LLM consumption. Inputs are a natural-language objective and optional keyword queries. Source policies allow including or excluding speci
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: Search returns ranked URLs with extended excerpts suitable for LLM consumption. Inputs are a natural-language objective and optional keyword queries. Source policies allow including or excluding speci
   name: Parallel Web Systems Search API
   slug: parallel-web-systems-search-api
-- description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Web Systems Tasks API
   slug: parallel-web-systems-tasks-api
-- description: 'The beta Memory API gives agents a persistent retrieval layer over previously gathered web context. It exposes three operations - retrieve memory for a query, evict a specific source from memory, and '
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: 'The beta Memory API gives agents a persistent retrieval layer over previously gathered web context. It exposes three operations - retrieve memory for a query, evict a specific source from memory, and '
   name: Parallel Web Systems Memory API (Beta)
   slug: parallel-web-systems-memory-api-beta
-- description: An OpenAI-Responses-compatible interface for answers grounded in live web research, with URL citations. Point any Responses-API client — the OpenAI Python SDK, OpenAI TypeScript SDK, the Agents SDK, o
+- baseURL: https://api.parallel.ai
+  baseurl_source: declared
+  description: An OpenAI-Responses-compatible interface for answers grounded in live web research, with URL citations. Point any Responses-API client — the OpenAI Python SDK, OpenAI TypeScript SDK, the Agents SDK, o
   name: Parallel Web Systems Responses API
   slug: parallel-web-systems-responses-api-api
 artifact_total: 23
@@ -273,7 +289,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -283,7 +299,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 62.8
+  previous_composite: 62.5
   provenance:
     conformance: derived
     contracts:
@@ -294,7 +310,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel-web-systems/refs/heads/main/screenshots/parallel-web-systems-2026-08-07T191528.png
 security:

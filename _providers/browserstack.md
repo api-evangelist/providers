@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -92,22 +92,34 @@ apis:
 - description: The BrowserStack Low Code Automation REST API enables triggering test suite executions and retrieving build statuses for CI/CD pipeline integration. It also supports exporting low-code tests as code i
   name: BrowserStack Low Code Automation API
   slug: low-code-automation-api
-- description: Operations on Automate access keys.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations on Automate access keys.
   name: BrowserStack AccessKey API
   slug: browserstack-accesskey-api
-- description: Operations describing supported browsers and devices.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations describing supported browsers and devices.
   name: BrowserStack Browsers API
   slug: browserstack-browsers-api
-- description: Operations on Automate builds.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations on Automate builds.
   name: BrowserStack Builds API
   slug: browserstack-builds-api
-- description: Operations describing the current Automate subscription plan and capacity.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations describing the current Automate subscription plan and capacity.
   name: BrowserStack Plan API
   slug: browserstack-plan-api
-- description: Operations on Automate projects.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations on Automate projects.
   name: BrowserStack Projects API
   slug: browserstack-projects-api
-- description: Operations on Automate sessions.
+- baseURL: https://api.browserstack.com
+  baseurl_source: spec
+  description: Operations on Automate sessions.
   name: BrowserStack Sessions API
   slug: browserstack-sessions-api
 artifact_total: 37
@@ -281,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
 security:

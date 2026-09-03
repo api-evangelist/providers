@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -43,37 +43,57 @@ agentic_access:
   summary_line: 23 operations · 23 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Server-to-server REST API for processing card and APM transactions through Nuvei. Includes openOrder for session setup, payment for end-to-end transactions, settleTransaction for capturing pre-authori
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Server-to-server REST API for processing card and APM transactions through Nuvei. Includes openOrder for session setup, payment for end-to-end transactions, settleTransaction for capturing pre-authori
   name: Nuvei Payments API
   slug: nuvei-payments-api
-- description: Pushes funds out to consumers and counterparties via card, bank account, and a wide set of local APMs. The payout endpoint supports referenced (relatedTransactionId) and unreferenced (account number /
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Pushes funds out to consumers and counterparties via card, bank account, and a wide set of local APMs. The payout endpoint supports referenced (relatedTransactionId) and unreferenced (account number /
   name: Nuvei Payouts API
   slug: nuvei-payouts-api
-- description: Manages stored payment instruments (User Payment Options / UPOs) including card and APM tokenization. Supports addUPOCreditCard, addUPOAPM, editUPOCreditCard, editUPOAPM, deleteUPO, getUserUPOs, and e
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Manages stored payment instruments (User Payment Options / UPOs) including card and APM tokenization. Supports addUPOCreditCard, addUPOAPM, editUPOCreditCard, editUPOAPM, deleteUPO, getUserUPOs, and e
   name: Nuvei User Payment Options API
   slug: nuvei-user-payment-options-api
-- description: 3D Secure 2 authentication endpoints. getCard3DDetails returns DS information and challenge requirements for a card; authenticate3d completes the authentication flow returning CAVV and ECI. Designed t
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: 3D Secure 2 authentication endpoints. getCard3DDetails returns DS information and challenge requirements for a card; authenticate3d completes the authentication flow returning CAVV and ECI. Designed t
   name: Nuvei 3DS API
   slug: nuvei-3ds-api
-- description: Dynamic Currency Conversion. getDccDetails computes the converted amount and markup rate for a card BIN and currency pair so merchants can present a localized currency offer at checkout.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Dynamic Currency Conversion. getDccDetails computes the converted amount and markup rate for a card BIN and currency pair so merchants can present a localized currency offer at checkout.
   name: Nuvei DCC API
   slug: nuvei-dcc-api
 - description: 'Asynchronous webhook notifications sent from Nuvei to a merchant endpoint to communicate the final status of payments, payouts, refunds, voids, settles, and Control Panel events. Payment DMNs include '
   name: Nuvei Direct Merchant Notifications (DMN)
   slug: nuvei-webhooks-dmn
-- description: Settle, void, and refund operations.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Settle, void, and refund operations.
   name: Nuvei Financial Operations API
   slug: nuvei-financial-operations-api
-- description: The Merchant API from Nuvei — 2 operation(s) for merchant.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: The Merchant API from Nuvei — 2 operation(s) for merchant.
   name: Nuvei Merchant API
   slug: nuvei-merchant-api
-- description: The Orders API from Nuvei — 2 operation(s) for orders.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: The Orders API from Nuvei — 2 operation(s) for orders.
   name: Nuvei Orders API
   slug: nuvei-orders-api
-- description: The Sessions API from Nuvei — 1 operation(s) for sessions.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: The Sessions API from Nuvei — 1 operation(s) for sessions.
   name: Nuvei Sessions API
   slug: nuvei-sessions-api
-- description: Read-only transaction state.
+- baseURL: https://secure.safecharge.com/ppp/api/v1/
+  baseurl_source: declared
+  description: Read-only transaction state.
   name: Nuvei Status API
   slug: nuvei-status-api
 artifact_total: 43
@@ -324,7 +344,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -334,7 +354,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 33.6
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -349,7 +369,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

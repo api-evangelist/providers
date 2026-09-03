@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: Operations operations
+- baseURL: https://{topic}.{region}.eventgrid.azure.net/
+  baseurl_source: declared
+  description: Operations operations
   name: Azure Event Grid Operations API
   slug: microsoft-azure-event-grid-operations-api
-- description: Topics operations
+- baseURL: https://{topic}.{region}.eventgrid.azure.net/
+  baseurl_source: declared
+  description: Topics operations
   name: Azure Event Grid Topics API
   slug: microsoft-azure-event-grid-topics-api
 artifact_total: 13
@@ -166,7 +170,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-grid/refs/heads/main/screenshots/microsoft-azure-event-grid-2026-06-20T185413.png
 security:

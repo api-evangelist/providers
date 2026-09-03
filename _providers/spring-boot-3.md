@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,25 +55,39 @@ apis:
 - description: Security framework for authentication and authorization in Spring Boot 3 applications. Supports OAuth2, OIDC, SAML2, JWT, and method-level security.
   name: Spring Security API
   slug: spring-security-api
-- description: Application environment properties and configuration
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Application environment properties and configuration
   name: Spring Boot 3 Environment API
   slug: spring-boot-3-environment-api
-- description: Application and component health indicators
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Application and component health indicators
   name: Spring Boot 3 Health API
   slug: spring-boot-3-health-api
-- description: Application information endpoints
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Application information endpoints
   name: Spring Boot 3 Info API
   slug: spring-boot-3-info-api
-- description: Logger configuration management
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Logger configuration management
   name: Spring Boot 3 Loggers API
   slug: spring-boot-3-loggers-api
-- description: Micrometer-based application metrics
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Micrometer-based application metrics
   name: Spring Boot 3 Metrics API
   slug: spring-boot-3-metrics-api
-- description: Scheduled task inspection
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Scheduled task inspection
   name: Spring Boot 3 Scheduling API
   slug: spring-boot-3-scheduling-api
-- description: Thread and heap diagnostics
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: Thread and heap diagnostics
   name: Spring Boot 3 Threads API
   slug: spring-boot-3-threads-api
 artifact_total: 35
@@ -241,7 +255,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -254,7 +268,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 37.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/screenshots/spring-boot-3-2026-06-20T194407.png
 security:

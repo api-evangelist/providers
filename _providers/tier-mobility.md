@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: GBFS discovery and versioning
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: spec
+  description: GBFS discovery and versioning
   name: TIER Discovery API
   slug: tier-mobility-discovery-api
-- description: Station information and availability
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: spec
+  description: Station information and availability
   name: TIER Stations API
   slug: tier-mobility-stations-api
-- description: System-level metadata and pricing
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: spec
+  description: System-level metadata and pricing
   name: TIER System API
   slug: tier-mobility-system-api
-- description: Vehicle inventory, types, and real-time status
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: spec
+  description: Vehicle inventory, types, and real-time status
   name: TIER Vehicles API
   slug: tier-mobility-vehicles-api
-- description: Geofencing rules and operational zones
+- baseURL: https://gbfs.api.ridedott.com/public/v2
+  baseurl_source: spec
+  description: Geofencing rules and operational zones
   name: TIER Zones API
   slug: tier-mobility-zones-api
 artifact_total: 37
@@ -275,7 +285,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

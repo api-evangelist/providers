@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Prometheus metrics endpoints for Akri Agent, Controller, and broker pods
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Prometheus metrics endpoints for Akri Agent, Controller, and broker pods
   name: Akri Metrics API
   slug: akri-metrics-api
 artifact_total: 53
@@ -315,7 +317,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/screenshots/akri-2026-06-20T171456.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface of the Walabot DIY storefront (walabot.com, a Shopify store operated by Vayyar): unauthenticated read-only product JSON endpoints (/products/{handle}.json, /collections/{'
@@ -131,7 +131,7 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -156,8 +156,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vayyar-imaging/refs/heads/main/screenshots/vayyar-imaging-2026-09-02T165524.png
 security:
 - kind: authentication
   name: Vayyar Imaging Authentication

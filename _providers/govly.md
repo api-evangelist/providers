@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 32 operations · 16 acting
 api_count: 1
 apis:
-- description: Search and inspect awarded government contracts.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Search and inspect awarded government contracts.
   name: Govly Awards API
   slug: govly-awards-api
-- description: Read document representations and request temporary original-file downloads.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Read document representations and request temporary original-file downloads.
   name: Govly Documents API
   slug: govly-documents-api
-- description: Follow opportunities and related workspace activity.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Follow opportunities and related workspace activity.
   name: Govly Follows API
   slug: govly-follows-api
-- description: Read and triage the authenticated user's matched inbox items.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Read and triage the authenticated user's matched inbox items.
   name: Govly Inbox API
   slug: govly-inbox-api
-- description: Search, fetch, and inspect Govly opportunity records.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Search, fetch, and inspect Govly opportunity records.
   name: Govly Opportunities API
   slug: govly-opportunities-api
-- description: Inspect quote submission requirements, submit quotes, and poll submission status.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Inspect quote submission requirements, submit quotes, and poll submission status.
   name: Govly Quote Submissions API
   slug: govly-quote-submissions-api
-- description: List saved opportunity searches and cached matches.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: List saved opportunity searches and cached matches.
   name: Govly Saved Searches API
   slug: govly-saved-searches-api
-- description: List and upload workspace attachments.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: List and upload workspace attachments.
   name: Govly Workspace Attachments API
   slug: govly-workspace-attachments-api
-- description: Post comments to workspaces.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Post comments to workspaces.
   name: Govly Workspace Comments API
   slug: govly-workspace-comments-api
-- description: Add users and teams to workspaces.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Add users and teams to workspaces.
   name: Govly Workspace Members API
   slug: govly-workspace-members-api
-- description: Create, update, and inspect opportunity workspaces.
+- baseURL: https://app.govly.com
+  baseurl_source: declared
+  description: Create, update, and inspect opportunity workspaces.
   name: Govly Workspaces API
   slug: govly-workspaces-api
 artifact_total: 29
@@ -259,7 +281,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -269,7 +291,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 52.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,7 +309,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/govly/refs/heads/main/screenshots/govly-2026-07-25T220138.png
 security:

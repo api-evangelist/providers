@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: Standard SPARQL 1.1 Protocol HTTP endpoints for executing queries and updates against RDF datasets, plus the Graph Store HTTP Protocol for direct management of named graphs and the default graph, as d
   name: SPARQL Protocol API
   slug: sparql-protocol-api
-- description: SPARQL query operation
+- baseURL: https://dbpedia.org/sparql
+  baseurl_source: declared
+  description: SPARQL query operation
   name: SPARQL Query API
   slug: sparql-query-api
-- description: The Sparql API from SPARQL — 1 operation(s) for sparql.
+- baseURL: https://dbpedia.org/sparql
+  baseurl_source: declared
+  description: The Sparql API from SPARQL — 1 operation(s) for sparql.
   name: SPARQL Sparql API
   slug: sparql-sparql-api
-- description: The Sparql Graph API from SPARQL — 1 operation(s) for sparql graph.
+- baseURL: https://dbpedia.org/sparql
+  baseurl_source: declared
+  description: The Sparql Graph API from SPARQL — 1 operation(s) for sparql graph.
   name: SPARQL Sparql Graph API
   slug: sparql-sparql-graph-api
-- description: The Sparql Update API from SPARQL — 1 operation(s) for sparql update.
+- baseURL: https://dbpedia.org/sparql
+  baseurl_source: declared
+  description: The Sparql Update API from SPARQL — 1 operation(s) for sparql update.
   name: SPARQL Sparql Update API
   slug: sparql-sparql-update-api
-- description: SPARQL update operation
+- baseURL: https://dbpedia.org/sparql
+  baseurl_source: declared
+  description: SPARQL update operation
   name: SPARQL Update API
   slug: sparql-update-api
 artifact_total: 18
@@ -123,7 +133,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -133,7 +143,7 @@ score:
     discoverability: 70.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.8
+  previous_composite: 25.3
   provenance:
     agentic_access: derived
     contracts:
@@ -142,7 +152,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/screenshots/sparql-2026-06-20T194246.png
 security:

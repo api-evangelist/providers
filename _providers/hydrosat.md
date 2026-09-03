@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
+- baseURL: https://stac.hydrosat.com
+  baseurl_source: declared
+  description: The Catalog API from Hydrosat — 2 operation(s) for catalog.
   name: Hydrosat Catalog API
   slug: hydrosat-catalog-api
-- description: The Collections API from Hydrosat — 2 operation(s) for collections.
+- baseURL: https://stac.hydrosat.com
+  baseurl_source: declared
+  description: The Collections API from Hydrosat — 2 operation(s) for collections.
   name: Hydrosat Collections API
   slug: hydrosat-collections-api
-- description: The Items API from Hydrosat — 2 operation(s) for items.
+- baseURL: https://stac.hydrosat.com
+  baseurl_source: declared
+  description: The Items API from Hydrosat — 2 operation(s) for items.
   name: Hydrosat Items API
   slug: hydrosat-items-api
-- description: The Queryables API from Hydrosat — 2 operation(s) for queryables.
+- baseURL: https://stac.hydrosat.com
+  baseurl_source: declared
+  description: The Queryables API from Hydrosat — 2 operation(s) for queryables.
   name: Hydrosat Queryables API
   slug: hydrosat-queryables-api
-- description: The Search API from Hydrosat — 1 operation(s) for search.
+- baseURL: https://stac.hydrosat.com
+  baseurl_source: declared
+  description: The Search API from Hydrosat — 1 operation(s) for search.
   name: Hydrosat Search API
   slug: hydrosat-search-api
 artifact_total: 14
@@ -194,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrosat/refs/heads/main/screenshots/hydrosat-2026-07-25T221835.png
 security:

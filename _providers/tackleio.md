@@ -34,91 +34,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: Operations for API Authentication
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for API Authentication
   name: Tackle.io Authentication API
   slug: tackleio-authentication-api
-- description: The Contracts API from Tackle.io — 2 operation(s) for contracts.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Contracts API from Tackle.io — 2 operation(s) for contracts.
   name: Tackle.io Contracts API
   slug: tackleio-contracts-api
-- description: Microsoft marketplace currency and conversion helpers.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Microsoft marketplace currency and conversion helpers.
   name: Tackle.io Currencies API
   slug: tackleio-currencies-api
-- description: 'Look up customer accounts in Microsoft Partner Center before creating a referral. Use these endpoints to determine `customerProfile.ids` and the `dealSensitivity` value (`USFed` vs `None`) you should '
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: 'Look up customer accounts in Microsoft Partner Center before creating a referral. Use these endpoints to determine `customerProfile.ids` and the `dealSensitivity` value (`USFed` vs `None`) you should '
   name: Tackle.io Customers API
   slug: tackleio-customers-api
-- description: The Disbursements API from Tackle.io — 1 operation(s) for disbursements.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Disbursements API from Tackle.io — 1 operation(s) for disbursements.
   name: Tackle.io Disbursements API
   slug: tackleio-disbursements-api
-- description: Legacy entitlements endpoint - returns flat role objects
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Legacy entitlements endpoint - returns flat role objects
   name: Tackle.io Entitlements API
   slug: tackleio-entitlements-api
-- description: SCIM 2.0 Groups endpoint - returns full Group resources (RFC 7643 §4.2)
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: SCIM 2.0 Groups endpoint - returns full Group resources (RFC 7643 §4.2)
   name: Tackle.io Groups API
   slug: tackleio-groups-api
-- description: Create (test-environment-only), read, update, and list co-sell invitations — AWS-led requests to partner with you on a specific opportunity. Use the update operation to accept or reject an invitation,
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Create (test-environment-only), read, update, and list co-sell invitations — AWS-led requests to partner with you on a specific opportunity. Use the update operation to accept or reject an invitation,
   name: Tackle.io Invitations API
   slug: tackleio-invitations-api
-- description: The Invoices API from Tackle.io — 1 operation(s) for invoices.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Invoices API from Tackle.io — 1 operation(s) for invoices.
   name: Tackle.io Invoices API
   slug: tackleio-invoices-api
-- description: AWS Marketplace context endpoints used to assemble offers and amendments.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: AWS Marketplace context endpoints used to assemble offers and amendments.
   name: Tackle.io Marketplace API
   slug: tackleio-marketplace-api
-- description: The Metering API from Tackle.io — 2 operation(s) for metering.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Metering API from Tackle.io — 2 operation(s) for metering.
   name: Tackle.io Metering API
   slug: tackleio-metering-api
-- description: Buyer instruction notification operations.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Buyer instruction notification operations.
   name: Tackle.io Notifications API
   slug: tackleio-notifications-api
-- description: 'Create, read, update, and list co-sell opportunities — the partner- originated (Outbound / Partner Referral) and AWS-originated (Inbound / AWS Referral) deals tracked in AWS Partner Central. Includes '
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: 'Create, read, update, and list co-sell opportunities — the partner- originated (Outbound / Partner Referral) and AWS-originated (Inbound / AWS Referral) deals tracked in AWS Partner Central. Includes '
   name: Tackle.io Opportunities API
   slug: tackleio-opportunities-api
-- description: Look up partner organizations in Microsoft Partner Center. Use the returned `organizationId` when adding a non-Microsoft partner via `inviteContexts`.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Look up partner organizations in Microsoft Partner Center. Use the returned `organizationId` when adding a non-Microsoft partner via `inviteContexts`.
   name: Tackle.io Partners API
   slug: tackleio-partners-api
-- description: Private offer lifecycle actions such as archive, cancel, and sync.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Private offer lifecycle actions such as archive, cancel, and sync.
   name: Tackle.io Private Offer Actions API
   slug: tackleio-private-offer-actions-api
-- description: AWS private-offer lifecycle (create, read, update, cancel, push to marketplace).
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: AWS private-offer lifecycle (create, read, update, cancel, push to marketplace).
   name: Tackle.io Private Offers API
   slug: tackleio-private-offers-api
-- description: Microsoft product and plan detail lookup.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Microsoft product and plan detail lookup.
   name: Tackle.io Products API
   slug: tackleio-products-api
-- description: The public API from Tackle.io — 7 operation(s) for public.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The public API from Tackle.io — 7 operation(s) for public.
   name: Tackle.io public API
   slug: tackleio-public-api
-- description: Create, read, update, and list events on Microsoft Partner Center co-sell referrals (both outbound and inbound).
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Create, read, update, and list events on Microsoft Partner Center co-sell referrals (both outbound and inbound).
   name: Tackle.io Referrals API
   slug: tackleio-referrals-api
-- description: Operations for Order Registrations
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Order Registrations
   name: Tackle.io Registrations API
   slug: tackleio-registrations-api
-- description: Score domains and search scored accounts.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Score domains and search scored accounts.
   name: Tackle.io Scores API
   slug: tackleio-scores-api
-- description: Service provider configuration and capabilities
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Service provider configuration and capabilities
   name: Tackle.io Service Provider API
   slug: tackleio-service-provider-api
-- description: Vendor-level reference data, including the picklist endpoint that supplies the acceptable values for opportunity fields.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Vendor-level reference data, including the picklist endpoint that supplies the acceptable values for opportunity fields.
   name: Tackle.io Settings API
   slug: tackleio-settings-api
-- description: List the co-sell solutions registered with AWS Partner Central for your account. Solution identifiers are referenced by `solutions` on opportunities.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: List the co-sell solutions registered with AWS Partner Central for your account. Solution identifiers are referenced by `solutions` on opportunities.
   name: Tackle.io Solutions API
   slug: tackleio-solutions-api
-- description: Operations for Subscriptions
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Subscriptions
   name: Tackle.io Subscriptions API
   slug: tackleio-subscriptions-api
-- description: User management operations
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: User management operations
   name: Tackle.io Users API
   slug: tackleio-users-api
-- description: Operations for API Versions
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for API Versions
   name: Tackle.io Version API
   slug: tackleio-version-api
-- description: Operations for Webhooks
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Webhooks
   name: Tackle.io Webhooks API
   slug: tackleio-webhooks-api
 artifact_total: 63
@@ -364,7 +420,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -374,7 +430,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -385,7 +441,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackleio/refs/heads/main/screenshots/tackleio-2026-08-17T082241.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 61 operations · 21 acting
 api_count: 1
 apis:
-- description: '**`Accounts` represent the financial accounts of an `Entity`.** `Orders`, dividends, and other transactions are associated with an `Account`.'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Accounts` represent the financial accounts of an `Entity`.** `Orders`, dividends, and other transactions are associated with an `Account`.'
   name: Dinari Accounts API
   slug: dinari-accounts-api
-- description: '**Corporate actions are events that affect the ownership of a `Stock`.** Corporate actions include dividends and stock splits.'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**Corporate actions are events that affect the ownership of a `Stock`.** Corporate actions include dividends and stock splits.'
   name: Dinari Corporate Actions API
   slug: dinari-corporate-actions-api
-- description: '**`Entities` represent a business or organization that uses the API, and their customers.** Dinari Partners are represented as an organization `Entity` in the API, with their own accounts. Individual '
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Entities` represent a business or organization that uses the API, and their customers.** Dinari Partners are represented as an organization `Entity` in the API, with their own accounts. Individual '
   name: Dinari Entities API
   slug: dinari-entities-api
-- description: '**KYC (Know Your Customer) is a process of verifying the identity of customer `Entities`.** KYC is required for all customer `Entities` that transact on Dinari''s platform. Dinari provides a managed KY'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**KYC (Know Your Customer) is a process of verifying the identity of customer `Entities`.** KYC is required for all customer `Entities` that transact on Dinari''s platform. Dinari provides a managed KY'
   name: Dinari KYC API
   slug: dinari-kyc-api
-- description: '**Managed `Orders` represent the buying and selling of assets using a Dinari-managed `Wallet`.** Similar to Proxied `Orders`, placing a managed `Order` creates an `OrderRequest` which is then submitte'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**Managed `Orders` represent the buying and selling of assets using a Dinari-managed `Wallet`.** Similar to Proxied `Orders`, placing a managed `Order` creates an `OrderRequest` which is then submitte'
   name: Dinari Managed Orders API
   slug: dinari-managed-orders-api
-- description: '**Dinari provides basic market data for `Stocks` and `Alloys` that are available to transact on.** This data is provided on a best-effort basis and we recommend using a dedicated provider for more int'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**Dinari provides basic market data for `Stocks` and `Alloys` that are available to transact on.** This data is provided on a best-effort basis and we recommend using a dedicated provider for more int'
   name: Dinari Market Data API
   slug: dinari-market-data-api
-- description: '**`Order Requests` represent requests for Dinari to create `Orders` on behalf of an `Account`.** `Order Requests` are created when placing **proxied orders** or **managed orders**. See their respectiv'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Order Requests` represent requests for Dinari to create `Orders` on behalf of an `Account`.** `Order Requests` are created when placing **proxied orders** or **managed orders**. See their respectiv'
   name: Dinari Order Requests API
   slug: dinari-order-requests-api
-- description: '**`Orders` represent the buying and selling of assets under an `Account`.** For `Accounts` using self-custodied `Wallets`, `Orders` are created and fulfilled by making calls to Dinari''s smart contract'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Orders` represent the buying and selling of assets under an `Account`.** For `Accounts` using self-custodied `Wallets`, `Orders` are created and fulfilled by making calls to Dinari''s smart contract'
   name: Dinari Orders API
   slug: dinari-orders-api
-- description: '**`Wallets` represent the blockchain wallet that holds the assets of an `Account`.** An `Account` may be connected to a single `Wallet`. Individual `Entities` can connect their self-custodied `Wallets'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Wallets` represent the blockchain wallet that holds the assets of an `Account`.** An `Account` may be connected to a single `Wallet`. Individual `Entities` can connect their self-custodied `Wallets'
   name: Dinari Wallets API
   slug: dinari-wallets-api
-- description: '**`Withdrawals` represent the transfer of stablecoins from an `Account` connected to a managed `Wallet` to another `Account` that is owned by the `Entity`.** Since the `Account` is backed by a managed'
+- baseURL: https://api-enterprise.sbt.dinari.com/api/v2
+  baseurl_source: declared
+  description: '**`Withdrawals` represent the transfer of stablecoins from an `Account` connected to a managed `Wallet` to another `Account` that is owned by the `Entity`.** Since the `Account` is backed by a managed'
   name: Dinari Withdrawals API
   slug: dinari-withdrawals-api
 arazzos:
@@ -326,7 +346,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -336,7 +356,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -354,7 +374,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dinari/refs/heads/main/screenshots/dinari-2026-07-25T212044.png
 security:

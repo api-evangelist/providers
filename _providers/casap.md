@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: The Auth API from Casap — 1 operation(s) for auth.
+- baseURL: https://api.casaphq.com
+  baseurl_source: declared
+  description: The Auth API from Casap — 1 operation(s) for auth.
   name: Casap Auth API
   slug: casap-auth-api
-- description: The Disputes API from Casap — 4 operation(s) for disputes.
+- baseURL: https://api.casaphq.com
+  baseurl_source: declared
+  description: The Disputes API from Casap — 4 operation(s) for disputes.
   name: Casap Disputes API
   slug: casap-disputes-api
 artifact_total: 9
@@ -218,7 +222,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casap/refs/heads/main/screenshots/casap-2026-07-25T204712.png
 security:

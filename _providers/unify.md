@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 68 operations · 38 acting
 api_count: 4
 apis:
-- description: Server-side event collection for the Unify Analytics API - identify, page and track events posted from a website or product with a public write key over HTTP Basic. 3 operation(s).
+- baseURL: https://api.unifyintent.com/analytics/v1
+  baseurl_source: declared
+  description: Server-side event collection for the Unify Analytics API - identify, page and track events posted from a website or product with a public write key over HTTP Basic. 3 operation(s).
   name: Unify Analytics Events API
   slug: unify-events-api
-- description: 'Asynchronous Bulk API export of collected analytics events: create a query job, poll its status, page the results, or cancel it. 5 operation(s).'
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: 'Asynchronous Bulk API export of collected analytics events: create a query job, poll its status, page the results, or cancel it. 5 operation(s).'
   name: Unify Event Query Jobs API
   slug: unify-event-query-jobs-api
-- description: Create, read, update and delete the objects (tables) of the Unify data platform, covering both the standard company/person/user objects and custom objects. 5 operation(s).
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: Create, read, update and delete the objects (tables) of the Unify data platform, covering both the standard company/person/user objects and custom objects. 5 operation(s).
   name: Unify Objects API
   slug: unify-objects-api
-- description: Manage the attributes (fields) defined on a Unify object, including type, uniqueness and lifecycle. 5 operation(s).
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: Manage the attributes (fields) defined on a Unify object, including type, uniqueness and lifecycle. 5 operation(s).
   name: Unify Object Attributes API
   slug: unify-object-attributes-api
-- description: Manage the allowed option values on select-style Unify object attributes. 5 operation(s).
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: Manage the allowed option values on select-style Unify object attributes. 5 operation(s).
   name: Unify Object Attribute Options API
   slug: unify-object-attribute-options-api
-- description: Create, read, update, delete, upsert and find-unique the records of any Unify object, with a validation_mode dry-run for writes. 6 operation(s).
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: Create, read, update, delete, upsert and find-unique the records of any Unify object, with a validation_mode dry-run for writes. 6 operation(s).
   name: Unify Object Records API
   slug: unify-object-records-api
-- description: 'Asynchronous Bulk API export of object records: create a query job with structured filters, poll it, page the results, or cancel it. 5 operation(s).'
+- baseURL: https://api.unifygtm.com/data/v1
+  baseurl_source: declared
+  description: 'Asynchronous Bulk API export of object records: create a query job with structured filters, poll it, page the results, or cancel it. 5 operation(s).'
   name: Unify Object Record Query Jobs API
   slug: unify-object-record-query-jobs-api
-- description: List, retrieve, pause, resume and delete Unify outbound sequences and read their ordered steps. 7 operation(s).
+- baseURL: https://api.unifygtm.com/sequences/v1
+  baseurl_source: declared
+  description: List, retrieve, pause, resume and delete Unify outbound sequences and read their ordered steps. 7 operation(s).
   name: Unify Sequences API
   slug: unify-sequences-api
-- description: Enroll people in sequences and pause, resume, cancel, list and bulk-export those enrollments. 11 operation(s).
+- baseURL: https://api.unifygtm.com/sequences/v1
+  baseurl_source: declared
+  description: Enroll people in sequences and pause, resume, cancel, list and bulk-export those enrollments. 11 operation(s).
   name: Unify Sequence Enrollments API
   slug: unify-sequence-enrollments-api
-- description: Asynchronous Bulk API export of executed sequence enrollment steps. 5 operation(s).
+- baseURL: https://api.unifygtm.com/sequences/v1
+  baseurl_source: declared
+  description: Asynchronous Bulk API export of executed sequence enrollment steps. 5 operation(s).
   name: Unify Sequence Enrollment Steps API
   slug: unify-sequence-enrollment-steps-api
-- description: Create, read, update, complete, delete, list and bulk-export the outreach tasks - emails, calls, LinkedIn touches and manual action items - assigned to Unify users against a person. 11 operation(s).
+- baseURL: https://api.unifygtm.com/tasks/v1
+  baseurl_source: declared
+  description: Create, read, update, complete, delete, list and bulk-export the outreach tasks - emails, calls, LinkedIn touches and manual action items - assigned to Unify users against a person. 11 operation(s).
   name: Unify Tasks API
   slug: unify-tasks-api
 artifact_total: 32
@@ -337,7 +359,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -347,7 +369,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 64.5
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,7 +381,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/screenshots/unify-2026-08-17T080432.png
 security:

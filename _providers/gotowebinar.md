@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 30 operations · 13 acting
 api_count: 2
 apis:
-- description: Read attendees for past webinar sessions.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Read attendees for past webinar sessions.
   name: GoToWebinar Attendees API
   slug: gotowebinar-attendees-api
-- description: Manage co-organizers on a webinar.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Manage co-organizers on a webinar.
   name: GoToWebinar Co-Organizers API
   slug: gotowebinar-co-organizers-api
-- description: Manage panelists on a webinar.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Manage panelists on a webinar.
   name: GoToWebinar Panelists API
   slug: gotowebinar-panelists-api
-- description: Retrieve poll results from past sessions.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Retrieve poll results from past sessions.
   name: GoToWebinar Polls API
   slug: gotowebinar-polls-api
-- description: Retrieve Q&A from past sessions.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Retrieve Q&A from past sessions.
   name: GoToWebinar Questions API
   slug: gotowebinar-questions-api
-- description: Retrieve webinar recording assets.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Retrieve webinar recording assets.
   name: GoToWebinar Recordings API
   slug: gotowebinar-recordings-api
-- description: Manage registrants for upcoming webinars.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Manage registrants for upcoming webinars.
   name: GoToWebinar Registrants API
   slug: gotowebinar-registrants-api
-- description: Inspect past and live webinar sessions.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Inspect past and live webinar sessions.
   name: GoToWebinar Sessions API
   slug: gotowebinar-sessions-api
-- description: Retrieve survey results from past sessions.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Retrieve survey results from past sessions.
   name: GoToWebinar Surveys API
   slug: gotowebinar-surveys-api
-- description: Manage per-user subscriptions to a webhook.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Manage per-user subscriptions to a webhook.
   name: GoToWebinar User Subscriptions API
   slug: gotowebinar-user-subscriptions-api
-- description: Manage webhook definitions and secret keys.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Manage webhook definitions and secret keys.
   name: GoToWebinar Webhooks API
   slug: gotowebinar-webhooks-api
-- description: Create, read, update, and delete webinars.
+- baseURL: https://api.getgo.com/G2W/rest/v2
+  baseurl_source: declared
+  description: Create, read, update, and delete webinars.
   name: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
 artifact_total: 83
@@ -374,7 +398,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -384,7 +408,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 52.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -393,7 +417,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:

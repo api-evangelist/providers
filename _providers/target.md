@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Target's partner API program enables technology vendors, affiliates, and supply chain partners to integrate with Target's retail operations including product catalog, inventory management, order fulfi
   name: Target Partner API
   slug: target-partner-api
-- description: Store and online inventory availability
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: Store and online inventory availability
   name: target Inventory API
   slug: target-inventory-api
-- description: Order management for partners
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: Order management for partners
   name: target Orders API
   slug: target-orders-api
-- description: Product catalog and detail operations
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: Product catalog and detail operations
   name: target Products API
   slug: target-products-api
-- description: Product search and discovery
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: Product search and discovery
   name: target Search API
   slug: target-search-api
-- description: API health and status
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: API health and status
   name: target Status API
   slug: target-status-api
-- description: Store locator and store information
+- baseURL: https://api.target.com
+  baseurl_source: declared
+  description: Store locator and store information
   name: target Stores API
   slug: target-stores-api
 artifact_total: 35
@@ -249,16 +261,16 @@ jsonld:
   slug: target-context
 layout: provider
 modified: '2026-08-27'
-name: target
+name: Target
 nav: Providers
 network: true
-overview: 'target publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 3 more. Tagged areas include Fortune 100, E-Commerce, Retail, Product, and Inventory.
+overview: 'Target publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Products API, and 3 more. Tagged areas include Fortune 100, E-Commerce, Retail, Product, and Inventory.
 
 
-  The target catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Target catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  target''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
+  Target''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
 plans:
 - name: Target Plans Pricing
   plan_count: 1
@@ -287,7 +299,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: target API Rules
+  name: Target API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -298,7 +310,7 @@ rules:
 - effective_rule_count: 62
   extends:
   - spectral:oas
-  name: target API Rules
+  name: Target API Rules
   rule_count: 21
   severity_counts:
     error: 4
@@ -319,7 +331,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -329,7 +341,7 @@ score:
     discoverability: 81.5
     governance: 47.0
     operational_transparency: 21.1
-  previous_composite: 42.0
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,8 +352,8 @@ score:
       total: 7
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png
 security:
 - kind: authentication

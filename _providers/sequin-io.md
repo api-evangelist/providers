@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 25 operations · 16 acting
 api_count: 1
 apis:
-- description: Replay existing Postgres rows into a sink.
+- baseURL: https://api.sequinstream.com/api
+  baseurl_source: declared
+  description: Replay existing Postgres rows into a sink.
   name: Sequin Backfills API
   slug: sequin-io-backfills-api
-- description: Reusable HTTP endpoint destinations used by webhook sinks.
+- baseURL: https://api.sequinstream.com/api
+  baseurl_source: declared
+  description: Reusable HTTP endpoint destinations used by webhook sinks.
   name: Sequin HTTP Endpoints API
   slug: sequin-io-http-endpoints-api
-- description: Source Postgres database connections Sequin replicates from.
+- baseURL: https://api.sequinstream.com/api
+  baseurl_source: declared
+  description: Source Postgres database connections Sequin replicates from.
   name: Sequin Postgres Databases API
   slug: sequin-io-postgres-databases-api
-- description: Destinations that stream Postgres changes to external systems.
+- baseURL: https://api.sequinstream.com/api
+  baseurl_source: declared
+  description: Destinations that stream Postgres changes to external systems.
   name: Sequin Sink Consumers API
   slug: sequin-io-sink-consumers-api
-- description: HTTP pull consumption for the Sequin Stream sink.
+- baseURL: https://api.sequinstream.com/api
+  baseurl_source: declared
+  description: HTTP pull consumption for the Sequin Stream sink.
   name: Sequin Stream Pull API
   slug: sequin-io-stream-pull-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/screenshots/sequin-io-2026-09-02T154939.png
 security:
 - kind: authentication
   name: Sequin Io Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 38 operations · 23 acting
 api_count: 1
 apis:
-- description: Analyze files to generate data source schemas
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Analyze files to generate data source schemas
   name: Tinybird Analyze API
   slug: tinybird-analyze-api
-- description: Manage data source lifecycle and data operations
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Manage data source lifecycle and data operations
   name: Tinybird Data Sources API
   slug: tinybird-data-sources-api
-- description: Create and manage workspace variables
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Create and manage workspace variables
   name: Tinybird Environment Variables API
   slug: tinybird-environment-variables-api
-- description: Ingest NDJSON events via HTTP POST
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Ingest NDJSON events via HTTP POST
   name: Tinybird Events API
   slug: tinybird-events-api
-- description: Retrieve job details and historical records
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Retrieve job details and historical records
   name: Tinybird Jobs API
   slug: tinybird-jobs-api
-- description: Handle organization management, members, workspaces, and clusters
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Handle organization management, members, workspaces, and clusters
   name: Tinybird Organizations API
   slug: tinybird-organizations-api
-- description: Manage pipes, API endpoints, and materialized views
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Manage pipes, API endpoints, and materialized views
   name: Tinybird Pipes API
   slug: tinybird-pipes-api
-- description: Execute SQL queries against pipes and data sources
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Execute SQL queries against pipes and data sources
   name: Tinybird Query API
   slug: tinybird-query-api
-- description: Manage sink pipes with scheduling and triggering
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Manage sink pipes with scheduling and triggering
   name: Tinybird Sink Pipes API
   slug: tinybird-sink-pipes-api
-- description: Manage authentication tokens
+- baseURL: https://api.tinybird.co
+  baseurl_source: declared
+  description: Manage authentication tokens
   name: Tinybird Tokens API
   slug: tinybird-tokens-api
 artifact_total: 54
@@ -325,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
 security:

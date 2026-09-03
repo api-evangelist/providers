@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -67,16 +67,24 @@ apis:
 - description: Administer accounts, users, and application connectivity, including the tiered Ping health-check actions (Ping, PingWithApplicationAuth, PingWithAccountAuth, PingWithAuth) and Account Management webho
   name: Updox Account Management API
   slug: updox-account-management-api
-- description: Practice-level contact/address-book actions.
+- baseURL: https://updoxqa.com/api/io
+  baseurl_source: declared
+  description: Practice-level contact/address-book actions.
   name: Updox Address Book API
   slug: updox-address-book-api
-- description: Inbound electronic fax retrieval.
+- baseURL: https://updoxqa.com/api/io
+  baseurl_source: declared
+  description: Inbound electronic fax retrieval.
   name: Updox Faxing API
   slug: updox-faxing-api
-- description: Connectivity and authentication health checks.
+- baseURL: https://updoxqa.com/api/io
+  baseurl_source: declared
+  description: Connectivity and authentication health checks.
   name: Updox Ping API
   slug: updox-ping-api
-- description: Telehealth video call actions.
+- baseURL: https://updoxqa.com/api/io
+  baseurl_source: declared
+  description: Telehealth video call actions.
   name: Updox Video Chat API
   slug: updox-video-chat-api
 artifact_total: 22
@@ -170,7 +178,7 @@ score:
   band: emerging
   composite: 24.6
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +207,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/updox/refs/heads/main/screenshots/updox-2026-09-02T165022.png
 security:
 - kind: domain-security
   name: Updox Domain Security

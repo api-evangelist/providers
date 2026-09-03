@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 40 operations · 23 acting
 api_count: 1
 apis:
-- description: The Async Operations API from Spaceship — 1 operation(s) for async operations.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Async Operations API from Spaceship — 1 operation(s) for async operations.
   name: Spaceship Async Operations API
   slug: spaceship-async-operations-api
-- description: The Contacts API from Spaceship — 2 operation(s) for contacts.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Contacts API from Spaceship — 2 operation(s) for contacts.
   name: Spaceship Contacts API
   slug: spaceship-contacts-api
-- description: The Contacts attributes API from Spaceship — 2 operation(s) for contacts attributes.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Contacts attributes API from Spaceship — 2 operation(s) for contacts attributes.
   name: Spaceship Contacts attributes API
   slug: spaceship-contacts-attributes-api
-- description: The DNS records API from Spaceship — 1 operation(s) for dns records.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The DNS records API from Spaceship — 1 operation(s) for dns records.
   name: Spaceship DNS records API
   slug: spaceship-dns-records-api
-- description: The Domain Availability API from Spaceship — 2 operation(s) for domain availability.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Domain Availability API from Spaceship — 2 operation(s) for domain availability.
   name: Spaceship Domain Availability API
   slug: spaceship-domain-availability-api
-- description: The Domain Management API from Spaceship — 4 operation(s) for domain management.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Domain Management API from Spaceship — 4 operation(s) for domain management.
   name: Spaceship Domain Management API
   slug: spaceship-domain-management-api
-- description: The Domain Settings API from Spaceship — 5 operation(s) for domain settings.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Domain Settings API from Spaceship — 5 operation(s) for domain settings.
   name: Spaceship Domain Settings API
   slug: spaceship-domain-settings-api
-- description: The Domain Transfer API from Spaceship — 3 operation(s) for domain transfer.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Domain Transfer API from Spaceship — 3 operation(s) for domain transfer.
   name: Spaceship Domain Transfer API
   slug: spaceship-domain-transfer-api
-- description: The Personal Nameservers API from Spaceship — 2 operation(s) for personal nameservers.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The Personal Nameservers API from Spaceship — 2 operation(s) for personal nameservers.
   name: Spaceship Personal Nameservers API
   slug: spaceship-personal-nameservers-api
-- description: The SellerHub API from Spaceship — 7 operation(s) for sellerhub.
+- baseURL: https://spaceship.dev/api
+  baseurl_source: declared
+  description: The SellerHub API from Spaceship — 7 operation(s) for sellerhub.
   name: Spaceship SellerHub API
   slug: spaceship-sellerhub-api
 artifact_total: 26
@@ -223,7 +243,7 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -255,8 +275,9 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/screenshots/spaceship-2026-09-02T160322.png
 security:
 - kind: authentication
   name: Spaceship Authentication

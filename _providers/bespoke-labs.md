@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Minicheck API from Bespoke Labs — 1 operation(s) for minicheck.
+- baseURL: https://api.bespokelabs.ai
+  baseurl_source: declared
+  description: The Minicheck API from Bespoke Labs — 1 operation(s) for minicheck.
   name: Bespoke Labs Minicheck API
   slug: bespoke-labs-minicheck-api
 artifact_total: 7
@@ -210,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bespoke-labs/refs/heads/main/screenshots/bespoke-labs-2026-07-25T202750.png
 security:

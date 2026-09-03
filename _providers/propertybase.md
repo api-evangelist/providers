@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: JSON REST API for the Propertybase GO / Lone Wolf Front Office real estate CRM. Read and write CRM records - leads, agents, employees, teams, offices, properties, tasks, events, messages, saved search
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 23.2
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -136,8 +136,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/propertybase/refs/heads/main/screenshots/propertybase-2026-09-02T152156.png
 security:
 - kind: authentication
   name: Propertybase Authentication

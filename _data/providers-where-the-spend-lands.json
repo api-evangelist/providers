@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -74,7 +74,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -107,12 +107,12 @@
      "slug": "adobe",
      "description": "Adobe provides APIs and developer resources for its creative, document, and experience cloud platforms. Developers can integrate with PDF services, Creative Cloud, generative AI (Firefly), analytics, e-commerce, e-signatures, and many other Adobe products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png",
-     "score": 78.0,
+     "score": 78.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 57.4,
-      "contract_quality": 73.2,
+      "contract_quality": 73.6,
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 71.1,
@@ -120,7 +120,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.9,
      "agent_band": "agent-ready",
@@ -165,7 +165,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -218,7 +218,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -282,7 +282,7 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -345,7 +345,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -380,106 +380,15 @@
      "rank": 7
     },
     {
-     "name": "Optimizely",
-     "slug": "optimizely",
-     "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
-     "score": 72.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 69.6,
-      "governance": 47.0,
-      "contract_governance": 47.0,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 41.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
-     "name": "Bloomreach",
-     "slug": "bloomreach",
-     "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png",
-     "score": 70.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 76.4,
-      "governance": 43.2,
-      "contract_governance": 43.2,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 58.3,
-      "commercial_clarity": 86.8,
-      "access_clarity": 86.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 58.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "Sold to the advertiser (buy side)",
-     "rank": 9
-    },
-    {
      "name": "Mapp Marketing Cloud",
      "slug": "mapp",
      "description": "Mapp is a German-headquartered marketing technology vendor whose Mapp Marketing Cloud combines cross-channel campaign execution (Mapp Engage), digital analytics and customer intelligence (Mapp Intelligence, formerly Webtrekk), product catalog management, and AI fashion/retail recommendations (Mapp Fashion, formerly Dressipi). The platform is API-addressable across four public surfaces: the Mapp Engage REST API (REST 2.0 / v19, HTTP Basic auth, ~196 documented operations covering contacts, memberships, groups, messages, mobile push, segmentation, whiteboards, attributes, e-commerce events and audit logs), the Mapp Intelligence Analytics API (OAuth2 client-credentials on api.mapp.com/api/analytics), the Product Catalog Public API, and the Mapp Fashion recommendation API. Mapp publishes machine-readable OpenAPI fragments for every endpoint on docs.mapp.com, an llms.txt documentation index, published list pricing, and an ISO 27001/27017/27018/27701/22301 trust center.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png",
-     "score": 70.4,
+     "score": 72.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 63.0,
+      "discoverability": 81.5,
       "contract_quality": 58.7,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -488,7 +397,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -540,6 +449,97 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
+     "rank": 8
+    },
+    {
+     "name": "Optimizely",
+     "slug": "optimizely",
+     "description": "Optimizely is a digital experience platform that provides A/B testing, feature flagging, content management, and commerce solutions for enterprises. Their developer platform offers a comprehensive suite of REST and GraphQL APIs spanning experimentation, content delivery, customer data, campaign management, and e-commerce capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/optimizely/refs/heads/main/screenshots/optimizely-2026-08-07T190808.png",
+     "score": 71.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.0,
+      "contract_quality": 66.9,
+      "governance": 47.0,
+      "contract_governance": 47.0,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 41.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Bloomreach",
+     "slug": "bloomreach",
+     "description": "Bloomreach is a commerce experience cloud combining an e-commerce search and merchandising engine (Discovery), a marketing automation platform and customer data platform (Engagement, formerly Exponea), and a headless content management system (Content, formerly Hippo/brXM). It publishes REST APIs for product and category search, autosuggest, recommendation widgets, catalog management and indexing, customer tracking and segmentation, email and SMS campaigns, and headless content delivery and management. Its Loomi AI layer adds agentic capabilities, and Loomi Connect exposes the estate to AI agents as an OAuth-protected remote MCP server carrying more than 160 tools across marketing, analytics, search and data hub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png",
+     "score": 70.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 76.4,
+      "governance": 43.2,
+      "contract_governance": 43.2,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 58.3,
+      "commercial_clarity": 86.8,
+      "access_clarity": 86.8
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 58.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Sold to the advertiser (buy side)",
      "rank": 10
     },
     {
@@ -560,7 +560,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -613,7 +613,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -669,7 +669,7 @@
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 63.3,
+      "contract_quality": 63.1,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 63.2,
@@ -677,7 +677,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 62.3,
      "agent_band": "agent-native",
@@ -722,7 +722,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -775,7 +775,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -821,7 +821,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
@@ -878,7 +878,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.7,
      "agent_band": "agent-ready",
@@ -916,7 +916,7 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 61.8,
+      "contract_quality": 61.5,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
@@ -924,7 +924,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 59.7,
      "agent_band": "agent-ready",
@@ -970,7 +970,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
@@ -1016,7 +1016,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1079,7 +1079,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -1125,7 +1125,7 @@
       "commercial_clarity": 96.1,
       "access_clarity": 96.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1184,7 +1184,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.0,
      "agent_band": "agent-native",
@@ -1230,7 +1230,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1282,7 +1282,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1335,7 +1335,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1381,7 +1381,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -1426,7 +1426,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -1472,7 +1472,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1536,7 +1536,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1596,7 +1596,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1648,7 +1648,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -1693,7 +1693,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1739,7 +1739,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -1785,7 +1785,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1830,7 +1830,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.6,
      "agent_band": "agent-ready",
@@ -1875,7 +1875,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -1921,7 +1921,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 54.0,
      "agent_band": "agent-native",
@@ -1966,7 +1966,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 42.2,
      "agent_band": "agent-native",
@@ -2011,7 +2011,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -2056,7 +2056,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2108,7 +2108,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.3,
      "agent_band": "agent-ready",
@@ -2154,7 +2154,7 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -2200,7 +2200,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2256,7 +2256,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2324,7 +2324,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -2369,7 +2369,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -2415,7 +2415,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2468,7 +2468,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2521,7 +2521,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2573,7 +2573,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2619,7 +2619,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
@@ -2665,7 +2665,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2711,7 +2711,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.8,
      "agent_band": "agent-ready",
@@ -2756,7 +2756,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -2802,7 +2802,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -2848,7 +2848,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2894,7 +2894,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2947,7 +2947,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -2993,7 +2993,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -3038,7 +3038,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -3084,7 +3084,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -3129,7 +3129,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -3174,7 +3174,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3220,7 +3220,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -3266,7 +3266,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3312,7 +3312,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -3358,7 +3358,7 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -3404,7 +3404,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -3450,7 +3450,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3496,7 +3496,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3549,7 +3549,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -3594,7 +3594,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -3639,7 +3639,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -3685,7 +3685,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3731,7 +3731,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3777,7 +3777,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3822,7 +3822,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -3868,7 +3868,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -3914,7 +3914,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -3960,7 +3960,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -4006,7 +4006,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -4052,7 +4052,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
@@ -4097,7 +4097,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -4142,7 +4142,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4194,7 +4194,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -4240,7 +4240,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4303,7 +4303,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4356,7 +4356,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -4388,6 +4388,7 @@
      "name": "Vizit",
      "slug": "vizit",
      "description": "Vizit (Vizit Labs, Inc.) is a Boston-based Visual AI company whose platform predicts, measures, optimizes and monitors the effectiveness of ecommerce visual content. Its patented Audience Lens technology decomposes every image into thousands of visual components and scores it against deep-learning models trained to simulate the visual preferences of specific consumer audiences, so brands can tell which hero and carousel images will convert on the digital shelf. The Vizit Public API is a machine-to-machine REST API at ext.vizit.com that lets partners and brands ingest Product Detail Pages by Amazon ASIN or by their own product identifiers, submit standalone images for scoring, retrieve listing and image scores (including GS1 hero sub-scores and the agent-ready / mobile-ready shopper-clarity flags), request Spark Ideas and Spark Images generative variations, and queue bulk CSV exports of an organization's PDP and image scores.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vizit/refs/heads/main/screenshots/vizit-2026-09-02T170149.png",
      "score": 33.9,
      "band": "thin",
      "band_label": "Thin",
@@ -4401,7 +4402,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -4447,7 +4448,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -4493,7 +4494,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -4539,7 +4540,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -4585,7 +4586,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4616,6 +4617,7 @@
      "name": "Vidjet",
      "slug": "vidjet",
      "description": "Vidjet is a shoppable video platform for e-commerce that lets merchants embed on-site video without impacting page speed. Merchants build video feeds, tag products inside videos, and display formats such as Stories, Carousel, Bubble, Embed, Popup, and a Sticky Play Button across thousands of product pages. It is a no-code product installed via a JavaScript embed, Google Tag Manager, or platform plugins for Shopify, WooCommerce/WordPress, Magento, Wix, Webflow, PrestaShop, and Salesforce Commerce Cloud, with analytics, multilingual support, and email collection integrations to Klaviyo and Google Sheets. The company behind it is VIDJET TECHNOLOGIES, S.L. of Barcelona, Spain, a Seedcamp portfolio company. Vidjet runs no developer program and publishes no API reference, OpenAPI, SDK, OAuth surface, or webhook catalog. It does operate a first-party HTTP API at app-api.vidjet.io, whose base URL and several endpoints are published by Vidjet itself in the GPL-licensed WordPress plugin source and in the public embed script — a real but undocumented API surface, not a product an integrator can build against from published documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vidjet/refs/heads/main/screenshots/vidjet-2026-09-02T165853.png",
      "score": 30.9,
      "band": "thin",
      "band_label": "Thin",
@@ -4629,7 +4631,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4674,7 +4676,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -4719,7 +4721,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4778,7 +4780,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -4823,7 +4825,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4868,7 +4870,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4912,7 +4914,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -4958,7 +4960,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5004,7 +5006,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
@@ -5036,6 +5038,7 @@
      "name": "Swiftly",
      "slug": "swiftly",
      "description": "Swiftly (Swiftly Systems, Inc.) is a Seattle-based retail technology company that sells an AI platform purpose-built for grocery, convenience and wholesale retail. It powers white-labeled shopper mobile apps and websites for regional and independent retailers, and runs a multi-retailer closed-loop retail media network that lets brands buy targeted advertising against first-party shopper data. Products include the Marketing and Operations AI Stacks, Swiftly Connect (POS / loyalty / inventory / supplier data unification), Audience Optimizer, SmartCircular digital circulars, Alcohol Cashback (from the BYBE acquisition) and Retail Media. The company reports live transactions, 9 million products and closed-loop campaign outcomes across roughly 33,000 storefronts. Swiftly has raised more than $200M and trades on the Forge Global secondary market. Swiftly publishes no public developer program: the shopper-facing GraphQL API behind its retailer apps is anonymously introspectable at prod.swiftlyapi.net/graphql, but there is no developer portal, no reference documentation and no published SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiftly/refs/heads/main/screenshots/swiftly-2026-09-02T161359.png",
      "score": 27.7,
      "band": "thin",
      "band_label": "Thin",
@@ -5049,7 +5052,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -5094,7 +5097,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5126,6 +5129,7 @@
      "name": "WebsitePros",
      "slug": "websitepros",
      "description": "WebsitePros, now operating as Web.com, is an American company that provides website building, web hosting, domain registration, e-commerce, and online marketing services primarily to small and medium-sized businesses. Website Pros, Inc. merged with Web.com in 2007 and adopted the Web.com name, and the business is now part of Newfold Digital, formed in 2021 from Endurance Web Presence and Web.com Group. It offers do-it-yourself and do-it-for-you website builders, managed WordPress hosting, professional email, SEO and digital marketing tools, and is headquartered in Jacksonville, Florida. Behind the retail brand it runs a real partner-facing B2B API — the Web.com International (\"NTS\") Platform API, fronted by Azure API Management at api.nts.web.com and documented publicly at api-docs.intl.web.com — through which approved resellers and sales partners create and manage sales orders, provision service orders, check domain availability and mint customer single-sign-on URLs. Access is not self-service: registration is reviewed and approved by the Web.com International team, separately for the production and development environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/websitepros/refs/heads/main/screenshots/websitepros-2026-09-02T170535.png",
      "score": 26.5,
      "band": "thin",
      "band_label": "Thin",
@@ -5139,7 +5143,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -5194,7 +5198,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5240,7 +5244,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -5286,7 +5290,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5332,7 +5336,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5377,7 +5381,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5423,7 +5427,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -5469,7 +5473,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5515,7 +5519,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5561,7 +5565,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5592,6 +5596,7 @@
      "name": "soona",
      "slug": "soona",
      "description": "soona is an all-in-one creative platform for ecommerce brands that produces and manages product photography, video, and user-generated content (UGC). Brands can book virtual and in-studio photo and video shoots with vetted models, stylists, and photographers; generate on-brand content at scale with soona AI Studio; organize assets in a digital asset manager (DAM); and analyze listing performance and competitors with Listing Insights across Shopify, Amazon, Etsy, Walmart, Meta, and TikTok. soona is headquartered in Denver, Colorado, and acquired the generative-AI product photography startup Mokker (Zerolens GmbH) in March 2024. This profile was surfaced as a portfolio company of bain-capital-ventures, techstars, and union-square-ventures. Enrichment found no public developer API, OpenAPI, SDK or developer portal on any soona-controlled host as of August 2026: soona's \"integrations\" with Shopify, Amazon, Google Drive, Dropbox and Contentful are user-configured product connections rather than developer APIs. The only API soona controls is the Mokker API, advertised at mokker.ai/api as \"coming soon\" behind an early-access form, whose advertised host api.mokker.ai no longer resolves.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soona/refs/heads/main/screenshots/soona-2026-09-02T160224.png",
      "score": 23.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5605,7 +5610,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5650,7 +5655,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5696,7 +5701,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -5742,7 +5747,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5787,7 +5792,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5839,7 +5844,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5871,6 +5876,7 @@
      "name": "WeStock",
      "slug": "westock",
      "description": "WeStock is a shopper-marketing platform that helps consumer packaged goods (CPG) brands drive product trial, build first-party retail audiences, and manage trade and shopper marketing strategy from a single dashboard. It combines digital rebates and promotional campaigns, paid social advertising (primarily Meta), in-store sampling and demos, retail media management across Amazon, Walmart, and Instacart, email/SMS automation, and influencer marketing, alongside a consumer discovery web app used by 600,000+ shoppers to browse new products. Campaign data — trials, conversions, and repeat behavior — is unified in one place. A Techstars-backed company; its entire public surface is a Webflow marketing site, a Help Scout knowledge base of product how-tos, and login-gated dashboard and consumer apps. WeStock runs a real first-party backend at api.westock.io — hardened Node/Express that answers HTTP 401 on every path including the root — but ships no developer program: no API reference, no OpenAPI or GraphQL schema, no SDK on any registry, no webhooks, and no API pricing. Its documented integrations run the other way: WeStock consumes Klaviyo and Attentive using keys the customer pastes into the WeStock dashboard.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/westock/refs/heads/main/screenshots/westock-2026-09-02T170634.png",
      "score": 19.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5884,7 +5890,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5916,6 +5922,7 @@
      "name": "Webloyalty",
      "slug": "webloyalty",
      "description": "Webloyalty is a customer-engagement and loyalty-marketing company that helps ecommerce and retail businesses build stronger, more profitable customer relationships. Its market-leading rewards platform delivers savings, cashback, and shopping benefits to consumers, typically presented after an online transaction, while generating incremental secondary revenue for the retail partner. Founded in 1999 and historically part of the Affinion Group, the company operates localized programs across the United States, United Kingdom, France, Ireland, Spain, the Netherlands, Switzerland, Turkey, and Mexico. This API Evangelist profile was surfaced as a portfolio company of Canaan Partners. Webloyalty markets a consumer rewards/membership product and a partner engagement platform, and is a brand of Tenerity (formerly Affinion Group). It publishes no developer portal, API reference or OpenAPI — its commercial integration is sold as \"bespoke API solutions\" through sales. Its only public programmable surfaces are an OAuth-protected Model Context Protocol endpoint served from the UK site's WordPress REST API, and a first-party React Native SDK for embedding Webloyalty campaign banners in partner apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webloyalty/refs/heads/main/screenshots/webloyalty-2026-09-02T170530.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5929,7 +5936,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -5975,7 +5982,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6021,7 +6028,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6074,7 +6081,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6106,6 +6113,7 @@
      "name": "Yieldify *",
      "slug": "yieldify",
      "description": "Yieldify is a website personalization and conversion rate optimization (CRO) platform for ecommerce brands, founded in 2013 in London by Jay Radia and backed by investors including GV (Google Ventures). Its SaaS platform delivers targeted on-site messaging, customer-journey personalization, and A/B testing to lift conversion and revenue. Yieldify was acquired by Publicis Groupe in January 2023 and folded into Epsilon, where it is now sold as Epsilon Accelerate; yieldify.com redirects to the Epsilon Accelerate product page and the legal entity behind the platform is Zeus Enterprise Ltd, trading as Yieldify. Delivery is entirely client-side: a customer-specific JavaScript tag placed before the closing head tag (directly, or via Google Tag Manager, Tealium, Shopify theme.liquid or Recharge checkout) renders a documented library of on-site experience components — overlays, notifications, banners, sticky and embedded experiences, toasters, carousels, countdown timers, lead-capture forms — configured from the Yieldify Conversion Platform at convert.yieldify.com, with a typed dynamic-expression language for personalized copy and client-side yieldify_impression/click/close/form_submit events pushed into the customer's own GA4 property. There is no public developer API: probing every Yieldify host on 2026-08-13 found no OpenAPI, GraphQL, MCP, A2A card, webhooks, SDK, CLI or developer portal, the status page at status.yieldify.com has been deactivated, and no pricing is published anywhere.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yieldify/refs/heads/main/screenshots/yieldify-2026-09-02T171258.png",
      "score": 14.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6119,7 +6127,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6165,7 +6173,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -6197,6 +6205,7 @@
      "name": "TNL Mediagene",
      "slug": "tnlmedia",
      "description": "TNL Mediagene is a next-generation digital and technology media group serving millennial and Gen Z audiences across Asia. Formed from the 2023 merger of Taiwan's The News Lens and Japan's Mediagene, the group operates more than twenty media brands spanning news, business, technology, lifestyle, and sports — including The News Lens, INSIDE, Cool3c, Gizmodo Japan, Business Insider Japan, Lifehacker Japan, Roomie, and licensed titles such as Digiday Japan and Glossy Japan. Beyond publishing, the company runs advertising and marketing technology (the Ad2iction DSP), an AI-driven customer data and audience analytics platform, e-commerce properties, and market-research services. It is a portfolio company of 500 Global and is listed on Nasdaq as TNMG. The group publishes no developer portal, no OpenAPI, and no SDK. Its one public, machine-readable integration surface is the Ad2iction header-bidding adapter shipped inside Prebid.js — a first-party-maintained open-source module that posts bid requests to https://ads.ad2iction.com/html/prebid/, documented on the Prebid.org bidder registry rather than on a TNL Mediagene developer site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tnlmedia/refs/heads/main/screenshots/tnlmedia-2026-09-02T163832.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6210,7 +6219,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -6255,7 +6264,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6300,7 +6309,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -6346,7 +6355,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6391,7 +6400,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6447,7 +6456,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6493,7 +6502,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6539,7 +6548,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6585,7 +6594,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6630,7 +6639,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6675,7 +6684,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6720,7 +6729,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6765,7 +6774,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6810,7 +6819,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6856,7 +6865,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6902,7 +6911,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6947,7 +6956,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6992,7 +7001,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

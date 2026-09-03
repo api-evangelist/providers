@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 108 operations · 64 acting · 7 human-in-the-loop
 api_count: 10
 apis:
-- description: The All API from Symphony — 1 operation(s) for all.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The All API from Symphony — 1 operation(s) for all.
   name: Symphony All API
   slug: symphony-all-api
-- description: The App API from Symphony — 1 operation(s) for app.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The App API from Symphony — 1 operation(s) for app.
   name: Symphony App API
   slug: symphony-app-api
-- description: The Audittrail API from Symphony — 1 operation(s) for audittrail.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Audittrail API from Symphony — 1 operation(s) for audittrail.
   name: Symphony Audittrail API
   slug: symphony-audittrail-api
-- description: The Authenticate API from Symphony — 6 operation(s) for authenticate.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Authenticate API from Symphony — 6 operation(s) for authenticate.
   name: Symphony Authenticate API
   slug: symphony-authenticate-api
-- description: The Channelco API from Symphony — 3 operation(s) for channelco.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Channelco API from Symphony — 3 operation(s) for channelco.
   name: Symphony Channelco API
   slug: symphony-channelco-api
-- description: The Datafeeds API from Symphony — 3 operation(s) for datafeeds.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Datafeeds API from Symphony — 3 operation(s) for datafeeds.
   name: Symphony Datafeeds API
   slug: symphony-datafeeds-api
-- description: The Dlp API from Symphony — 21 operation(s) for dlp.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Dlp API from Symphony — 21 operation(s) for dlp.
   name: Symphony Dlp API
   slug: symphony-dlp-api
-- description: The Events API from Symphony — 1 operation(s) for events.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Events API from Symphony — 1 operation(s) for events.
   name: Symphony Events API
   slug: symphony-events-api
-- description: The Groups API from Symphony — 6 operation(s) for groups.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Groups API from Symphony — 6 operation(s) for groups.
   name: Symphony Groups API
   slug: symphony-groups-api
-- description: The Health API from Symphony — 2 operation(s) for health.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Health API from Symphony — 2 operation(s) for health.
   name: Symphony Health API
   slug: symphony-health-api
-- description: The Idm API from Symphony — 2 operation(s) for idm.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Idm API from Symphony — 2 operation(s) for idm.
   name: Symphony Idm API
   slug: symphony-idm-api
-- description: The Info API from Symphony — 1 operation(s) for info.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Info API from Symphony — 1 operation(s) for info.
   name: Symphony Info API
   slug: symphony-info-api
-- description: The Logout API from Symphony — 1 operation(s) for logout.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Logout API from Symphony — 1 operation(s) for logout.
   name: Symphony Logout API
   slug: symphony-logout-api
-- description: The Message API from Symphony — 4 operation(s) for message.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Message API from Symphony — 4 operation(s) for message.
   name: Symphony Message API
   slug: symphony-message-api
-- description: The Onboarding API from Symphony — 1 operation(s) for onboarding.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Onboarding API from Symphony — 1 operation(s) for onboarding.
   name: Symphony Onboarding API
   slug: symphony-onboarding-api
-- description: The Pubkey API from Symphony — 5 operation(s) for pubkey.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Pubkey API from Symphony — 5 operation(s) for pubkey.
   name: Symphony Pubkey API
   slug: symphony-pubkey-api
-- description: The Signals API from Symphony — 8 operation(s) for signals.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Signals API from Symphony — 8 operation(s) for signals.
   name: Symphony Signals API
   slug: symphony-signals-api
-- description: The Stream API from Symphony — 5 operation(s) for stream.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Stream API from Symphony — 5 operation(s) for stream.
   name: Symphony Stream API
   slug: symphony-stream-api
-- description: The Types API from Symphony — 3 operation(s) for types.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Types API from Symphony — 3 operation(s) for types.
   name: Symphony Types API
   slug: symphony-types-api
-- description: The Util API from Symphony — 1 operation(s) for util.
+- baseURL: https://acme.symphony.com
+  baseurl_source: declared
+  description: The Util API from Symphony — 1 operation(s) for util.
   name: Symphony Util API
   slug: symphony-util-api
 artifact_total: 84
@@ -425,7 +465,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/screenshots/symphony-2026-06-20T194823.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 61 operations · 36 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Build creation, management, and log access.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Build creation, management, and log access.
   name: Drone Builds API
   slug: drone-builds-api
-- description: Cron job scheduling for automated builds.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Cron job scheduling for automated builds.
   name: Drone Cron API
   slug: drone-cron-api
-- description: Runner node management.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Runner node management.
   name: Drone Nodes API
   slug: drone-nodes-api
-- description: Build queue management.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Build queue management.
   name: Drone Queue API
   slug: drone-queue-api
-- description: Repository activation and management.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Repository activation and management.
   name: Drone Repos API
   slug: drone-repos-api
-- description: Secret variable management for repos and organizations.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Secret variable management for repos and organizations.
   name: Drone Secrets API
   slug: drone-secrets-api
-- description: System information.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: System information.
   name: Drone System API
   slug: drone-system-api
-- description: Reusable pipeline template management.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Reusable pipeline template management.
   name: Drone Templates API
   slug: drone-templates-api
-- description: Current authenticated user operations.
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: Current authenticated user operations.
   name: Drone User API
   slug: drone-user-api
-- description: User account management (admin).
+- baseURL: https://your-drone-server/api
+  baseurl_source: declared
+  description: User account management (admin).
   name: Drone Users API
   slug: drone-users-api
 artifact_total: 35
@@ -265,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/screenshots/drone-2026-06-20T180238.png
 security:

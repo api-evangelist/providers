@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: Puma ships with an optional control/status HTTP application that can be bound to a local port or Unix socket and queried for runtime statistics (busy threads, worker status, backlog) and lifecycle con
   name: Puma Control/Status Application
   slug: control-app
-- description: The Gc API from Puma — 1 operation(s) for gc.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Gc API from Puma — 1 operation(s) for gc.
   name: Puma Gc API
   slug: puma-gc-api
-- description: The Gc Stats API from Puma — 1 operation(s) for gc stats.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Gc Stats API from Puma — 1 operation(s) for gc stats.
   name: Puma Gc Stats API
   slug: puma-gc-stats-api
-- description: The Halt API from Puma — 1 operation(s) for halt.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Halt API from Puma — 1 operation(s) for halt.
   name: Puma Halt API
   slug: puma-halt-api
-- description: The Phased Restart API from Puma — 1 operation(s) for phased restart.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Phased Restart API from Puma — 1 operation(s) for phased restart.
   name: Puma Phased Restart API
   slug: puma-phased-restart-api
-- description: The Refork API from Puma — 1 operation(s) for refork.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Refork API from Puma — 1 operation(s) for refork.
   name: Puma Refork API
   slug: puma-refork-api
-- description: The Reload Worker Directory API from Puma — 1 operation(s) for reload worker directory.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Reload Worker Directory API from Puma — 1 operation(s) for reload worker directory.
   name: Puma Reload Worker Directory API
   slug: puma-reload-worker-directory-api
-- description: The Restart API from Puma — 1 operation(s) for restart.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Restart API from Puma — 1 operation(s) for restart.
   name: Puma Restart API
   slug: puma-restart-api
-- description: The Stats API from Puma — 1 operation(s) for stats.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Stats API from Puma — 1 operation(s) for stats.
   name: Puma Stats API
   slug: puma-stats-api
-- description: The Stop API from Puma — 1 operation(s) for stop.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Stop API from Puma — 1 operation(s) for stop.
   name: Puma Stop API
   slug: puma-stop-api
-- description: The Thread Backtraces API from Puma — 1 operation(s) for thread backtraces.
+- baseURL: http://127.0.0.1:9293
+  baseurl_source: declared
+  description: The Thread Backtraces API from Puma — 1 operation(s) for thread backtraces.
   name: Puma Thread Backtraces API
   slug: puma-thread-backtraces-api
 artifact_total: 26
@@ -222,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
 security:

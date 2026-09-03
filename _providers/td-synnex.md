@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 34 operations · 15 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: TD SYNNEX Authentication API
   slug: td-synnex-authentication-api
-- description: Shopping cart item management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Shopping cart item management
   name: TD SYNNEX Cart Items API
   slug: td-synnex-cart-items-api
-- description: Shopping cart management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Shopping cart management
   name: TD SYNNEX Carts API
   slug: td-synnex-carts-api
-- description: Customer cloud provider account linking
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Customer cloud provider account linking
   name: TD SYNNEX Cloud Providers API
   slug: td-synnex-cloud-providers-api
-- description: End customer account management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: End customer account management
   name: TD SYNNEX Customers API
   slug: td-synnex-customers-api
-- description: Order creation and management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Order creation and management
   name: TD SYNNEX Orders API
   slug: td-synnex-orders-api
-- description: Technology product catalog browsing
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Technology product catalog browsing
   name: TD SYNNEX Products API
   slug: td-synnex-products-api
-- description: Vendor provisioning template management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Vendor provisioning template management
   name: TD SYNNEX Provisioning API
   slug: td-synnex-provisioning-api
-- description: Business intelligence and reporting
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Business intelligence and reporting
   name: TD SYNNEX Reports API
   slug: td-synnex-reports-api
-- description: Cloud subscription management
+- baseURL: https://ion.tdsynnex.com
+  baseurl_source: declared
+  description: Cloud subscription management
   name: TD SYNNEX Subscriptions API
   slug: td-synnex-subscriptions-api
 artifact_total: 37
@@ -274,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png
 security:

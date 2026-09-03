@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 23 operations · 19 acting
 api_count: 1
 apis:
-- description: The Cluster API from Camunda — 1 operation(s) for cluster.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Cluster API from Camunda — 1 operation(s) for cluster.
   name: Camunda Cluster API
   slug: camunda-cluster-api
-- description: The Decisions API from Camunda — 2 operation(s) for decisions.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Decisions API from Camunda — 2 operation(s) for decisions.
   name: Camunda Decisions API
   slug: camunda-decisions-api
-- description: The Deployments API from Camunda — 2 operation(s) for deployments.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Deployments API from Camunda — 2 operation(s) for deployments.
   name: Camunda Deployments API
   slug: camunda-deployments-api
-- description: The Incidents API from Camunda — 2 operation(s) for incidents.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Incidents API from Camunda — 2 operation(s) for incidents.
   name: Camunda Incidents API
   slug: camunda-incidents-api
-- description: The Jobs API from Camunda — 4 operation(s) for jobs.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Jobs API from Camunda — 4 operation(s) for jobs.
   name: Camunda Jobs API
   slug: camunda-jobs-api
-- description: The Messages API from Camunda — 1 operation(s) for messages.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Messages API from Camunda — 1 operation(s) for messages.
   name: Camunda Messages API
   slug: camunda-messages-api
-- description: The Process Definitions API from Camunda — 3 operation(s) for process definitions.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Process Definitions API from Camunda — 3 operation(s) for process definitions.
   name: Camunda Process Definitions API
   slug: camunda-process-definitions-api
-- description: The Process Instances API from Camunda — 3 operation(s) for process instances.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Process Instances API from Camunda — 3 operation(s) for process instances.
   name: Camunda Process Instances API
   slug: camunda-process-instances-api
-- description: The Signals API from Camunda — 1 operation(s) for signals.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The Signals API from Camunda — 1 operation(s) for signals.
   name: Camunda Signals API
   slug: camunda-signals-api
-- description: The User Tasks API from Camunda — 3 operation(s) for user tasks.
+- baseURL_template: '{baseUrl}/v2'
+  baseurl_source: spec_template
+  description: The User Tasks API from Camunda — 3 operation(s) for user tasks.
   name: Camunda User Tasks API
   slug: camunda-user-tasks-api
 artifact_total: 30
@@ -229,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -51,52 +51,84 @@ apis:
 - description: 'Real-time visitor identification: resolves a visitor IP address to a Demandbase company ID, firmographics and corporate hierarchy for web personalization, forms enrichment and analytics integrations. '
   name: Demandbase IP-API v3
   slug: demandbase-ip-api-v3
-- description: The Activities Management API from Demandbase — 3 operation(s) for activities management.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Activities Management API from Demandbase — 3 operation(s) for activities management.
   name: Demandbase Activities Management API
   slug: demandbase-activities-management-api
-- description: Asynchronous bulk jobs for high-volume data retrieval and matching.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Asynchronous bulk jobs for high-volume data retrieval and matching.
   name: Demandbase Asynchronous (Batch) API
   slug: demandbase-asynchronous-batch-api-api
-- description: The Auth API from Demandbase — 1 operation(s) for auth.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Auth API from Demandbase — 1 operation(s) for auth.
   name: Demandbase Auth API
   slug: demandbase-auth-api
-- description: Retrieve company-level intent signals and research activity.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Retrieve company-level intent signals and research activity.
   name: Demandbase Company Intent API
   slug: demandbase-company-intent-api
-- description: The Create Export Job API from Demandbase — 3 operation(s) for create export job.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Create Export Job API from Demandbase — 3 operation(s) for create export job.
   name: Demandbase Create Export Job API
   slug: demandbase-create-export-job-api
-- description: The Credit Usage API from Demandbase — 1 operation(s) for credit usage.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Credit Usage API from Demandbase — 1 operation(s) for credit usage.
   name: Demandbase Credit Usage API
   slug: demandbase-credit-usage-api
-- description: Create and manage custom sources.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Create and manage custom sources.
   name: Demandbase Custom Sources API
   slug: demandbase-custom-sources-api
-- description: Configure field mappings for a source and object type.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Configure field mappings for a source and object type.
   name: Demandbase Field Mappings API
   slug: demandbase-field-mappings-api
-- description: The Get Fields API from Demandbase — 1 operation(s) for get fields.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Get Fields API from Demandbase — 1 operation(s) for get fields.
   name: Demandbase Get Fields API
   slug: demandbase-get-fields-api
-- description: The Get Job Details API from Demandbase — 2 operation(s) for get job details.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Get Job Details API from Demandbase — 2 operation(s) for get job details.
   name: Demandbase Get Job Details API
   slug: demandbase-get-job-details-api
-- description: The Get Reference Data API from Demandbase — 2 operation(s) for get reference data.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Get Reference Data API from Demandbase — 2 operation(s) for get reference data.
   name: Demandbase Get Reference Data API
   slug: demandbase-get-reference-data-api
-- description: The Import Job API from Demandbase — 5 operation(s) for import job.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The Import Job API from Demandbase — 5 operation(s) for import job.
   name: Demandbase Import Job API
   slug: demandbase-import-job-api
-- description: Reference schemas and allowed values used by the B2B API.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Reference schemas and allowed values used by the B2B API.
   name: Demandbase Reference Tables API
   slug: demandbase-reference-tables-api
-- description: Subscription creation, updates, status, alerts, and lifecycle operations.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Subscription creation, updates, status, alerts, and lifecycle operations.
   name: Demandbase Subscription API
   slug: demandbase-subscription-api-api
-- description: Synchronous company, contact, matching, news, and logo operations.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: Synchronous company, contact, matching, news, and logo operations.
   name: Demandbase Sync API
   slug: demandbase-sync-api-api
-- description: The User Management API from Demandbase — 3 operation(s) for user management.
+- baseURL: https://uapi.demandbase.com/data/b2b/v1
+  baseurl_source: declared
+  description: The User Management API from Demandbase — 3 operation(s) for user management.
   name: Demandbase User Management API
   slug: demandbase-user-management-api
 artifact_total: 36
@@ -399,7 +431,7 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -409,7 +441,7 @@ score:
     discoverability: 75.9
     governance: 22.0
     operational_transparency: 69.7
-  previous_composite: 59.1
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -421,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:

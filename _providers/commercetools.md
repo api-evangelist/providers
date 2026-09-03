@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -59,46 +59,74 @@ apis:
 - description: The commercetools Merchant Center Customizations API provides the programmatic interface for building custom applications and UI extensions within the Merchant Center. It exposes proxy endpoints to un
   name: Commercetools Merchant Center Customizations API
   slug: merchant-center-customizations-api
-- description: Manage shopping carts with line items, discounts, shipping, and tax calculations.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Manage shopping carts with line items, discounts, shipping, and tax calculations.
   name: commercetools Carts API
   slug: commercetools-carts-api
-- description: Organize products into hierarchical category structures.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Organize products into hierarchical category structures.
   name: commercetools Categories API
   slug: commercetools-categories-api
-- description: Query the audit log of resource changes across the project.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Query the audit log of resource changes across the project.
   name: commercetools ChangeHistory API
   slug: commercetools-changehistory-api
-- description: Manage customer accounts, addresses, authentication, and group assignments.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Manage customer accounts, addresses, authentication, and group assignments.
   name: commercetools Customers API
   slug: commercetools-customers-api
-- description: Manage import containers that hold import requests before processing.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Manage import containers that hold import requests before processing.
   name: commercetools ImportContainers API
   slug: commercetools-importcontainers-api
-- description: Monitor the status of individual import operations.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Monitor the status of individual import operations.
   name: commercetools ImportOperations API
   slug: commercetools-importoperations-api
-- description: Manage inventory entries tracking stock levels per channel and SKU.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Manage inventory entries tracking stock levels per channel and SKU.
   name: commercetools Inventory API
   slug: commercetools-inventory-api
-- description: Create and manage orders resulting from cart checkouts or quotes.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Create and manage orders resulting from cart checkouts or quotes.
   name: commercetools Orders API
   slug: commercetools-orders-api
-- description: Track payment transactions and PSP interactions associated with orders.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Track payment transactions and PSP interactions associated with orders.
   name: commercetools Payments API
   slug: commercetools-payments-api
-- description: Manage product catalog entries including variants, images, prices, and attributes.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Manage product catalog entries including variants, images, prices, and attributes.
   name: commercetools Products API
   slug: commercetools-products-api
-- description: Import product variant resources into the project.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Import product variant resources into the project.
   name: commercetools ProductVariants API
   slug: commercetools-productvariants-api
-- description: Read and configure project-level settings including currencies, languages, and messages.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Read and configure project-level settings including currencies, languages, and messages.
   name: commercetools Project API
   slug: commercetools-project-api
-- description: Import standalone price resources into the project.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: Import standalone price resources into the project.
   name: commercetools StandalonePrices API
   slug: commercetools-standaloneprices-api
-- description: The Subscriptions API from commercetools — 2 operation(s) for subscriptions.
+- baseURL: https://api.{region}.commercetools.com
+  baseurl_source: declared
+  description: The Subscriptions API from commercetools — 2 operation(s) for subscriptions.
   name: commercetools Subscriptions API
   slug: commercetools-subscriptions-api
 artifact_total: 144
@@ -557,7 +585,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -567,7 +595,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 42.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -576,7 +604,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercetools/refs/heads/main/screenshots/commercetools-2026-06-20T174814.png
 security:

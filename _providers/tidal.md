@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -44,199 +44,329 @@ agentic_access:
   summary_line: 325 operations · 93 acting
 api_count: 8
 apis:
-- description: Create, read, update, delete, and reorder TIDAL playlists. Manage playlist items, cover art, owners, and editorial vs. user-created classifications. Requires playlists.read and playlists.write scopes.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: Create, read, update, delete, and reorder TIDAL playlists. Manage playlist items, cover art, owners, and editorial vs. user-created classifications. Requires playlists.read and playlists.write scopes.
   name: TIDAL Playlists API
   slug: tidal-playlists-api
-- description: User account management surface. Read user profile and country, manage accepted terms, list registered installations and clients, submit user reports, and request data exports for GDPR/CCPA compliance
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: User account management surface. Read user profile and country, manage accepted terms, list registered installations and clients, submit user reports, and request data exports for GDPR/CCPA compliance
   name: TIDAL Users API
   slug: tidal-users-api
-- description: The acceptedTerms API from TIDAL — 3 operation(s) for acceptedterms.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The acceptedTerms API from TIDAL — 3 operation(s) for acceptedterms.
   name: TIDAL acceptedTerms API
   slug: tidal-acceptedterms-api
-- description: The albums API from TIDAL — 15 operation(s) for albums.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The albums API from TIDAL — 15 operation(s) for albums.
   name: TIDAL albums API
   slug: tidal-albums-api
-- description: The albumStatistics API from TIDAL — 3 operation(s) for albumstatistics.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The albumStatistics API from TIDAL — 3 operation(s) for albumstatistics.
   name: TIDAL albumStatistics API
   slug: tidal-albumstatistics-api
-- description: The appreciations API from TIDAL — 1 operation(s) for appreciations.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The appreciations API from TIDAL — 1 operation(s) for appreciations.
   name: TIDAL appreciations API
   slug: tidal-appreciations-api
-- description: The artistBiographies API from TIDAL — 3 operation(s) for artistbiographies.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The artistBiographies API from TIDAL — 3 operation(s) for artistbiographies.
   name: TIDAL artistBiographies API
   slug: tidal-artistbiographies-api
-- description: The artistClaims API from TIDAL — 5 operation(s) for artistclaims.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The artistClaims API from TIDAL — 5 operation(s) for artistclaims.
   name: TIDAL artistClaims API
   slug: tidal-artistclaims-api
-- description: The artistRoles API from TIDAL — 2 operation(s) for artistroles.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The artistRoles API from TIDAL — 2 operation(s) for artistroles.
   name: TIDAL artistRoles API
   slug: tidal-artistroles-api
-- description: The artists API from TIDAL — 14 operation(s) for artists.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The artists API from TIDAL — 14 operation(s) for artists.
   name: TIDAL artists API
   slug: tidal-artists-api
-- description: The artworks API from TIDAL — 3 operation(s) for artworks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The artworks API from TIDAL — 3 operation(s) for artworks.
   name: TIDAL artworks API
   slug: tidal-artworks-api
-- description: The clients API from TIDAL — 3 operation(s) for clients.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The clients API from TIDAL — 3 operation(s) for clients.
   name: TIDAL clients API
   slug: tidal-clients-api
-- description: The comments API from TIDAL — 5 operation(s) for comments.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The comments API from TIDAL — 5 operation(s) for comments.
   name: TIDAL comments API
   slug: tidal-comments-api
-- description: The contentClaims API from TIDAL — 5 operation(s) for contentclaims.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The contentClaims API from TIDAL — 5 operation(s) for contentclaims.
   name: TIDAL contentClaims API
   slug: tidal-contentclaims-api
-- description: The credits API from TIDAL — 4 operation(s) for credits.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The credits API from TIDAL — 4 operation(s) for credits.
   name: TIDAL credits API
   slug: tidal-credits-api
-- description: The downloads API from TIDAL — 3 operation(s) for downloads.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The downloads API from TIDAL — 3 operation(s) for downloads.
   name: TIDAL downloads API
   slug: tidal-downloads-api
-- description: The dspSharingLinks API from TIDAL — 2 operation(s) for dspsharinglinks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The dspSharingLinks API from TIDAL — 2 operation(s) for dspsharinglinks.
   name: TIDAL dspSharingLinks API
   slug: tidal-dspsharinglinks-api
-- description: The dynamicModules API from TIDAL — 2 operation(s) for dynamicmodules.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The dynamicModules API from TIDAL — 2 operation(s) for dynamicmodules.
   name: TIDAL dynamicModules API
   slug: tidal-dynamicmodules-api
-- description: The dynamicPages API from TIDAL — 3 operation(s) for dynamicpages.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The dynamicPages API from TIDAL — 3 operation(s) for dynamicpages.
   name: TIDAL dynamicPages API
   slug: tidal-dynamicpages-api
-- description: The genres API from TIDAL — 2 operation(s) for genres.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The genres API from TIDAL — 2 operation(s) for genres.
   name: TIDAL genres API
   slug: tidal-genres-api
-- description: The installations API from TIDAL — 4 operation(s) for installations.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The installations API from TIDAL — 4 operation(s) for installations.
   name: TIDAL installations API
   slug: tidal-installations-api
-- description: The lyrics API from TIDAL — 4 operation(s) for lyrics.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The lyrics API from TIDAL — 4 operation(s) for lyrics.
   name: TIDAL lyrics API
   slug: tidal-lyrics-api
-- description: The manualArtistClaims API from TIDAL — 1 operation(s) for manualartistclaims.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The manualArtistClaims API from TIDAL — 1 operation(s) for manualartistclaims.
   name: TIDAL manualArtistClaims API
   slug: tidal-manualartistclaims-api
-- description: The offlineTasks API from TIDAL — 5 operation(s) for offlinetasks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The offlineTasks API from TIDAL — 5 operation(s) for offlinetasks.
   name: TIDAL offlineTasks API
   slug: tidal-offlinetasks-api
-- description: The playQueues API from TIDAL — 6 operation(s) for playqueues.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The playQueues API from TIDAL — 6 operation(s) for playqueues.
   name: TIDAL playQueues API
   slug: tidal-playqueues-api
-- description: The priceConfigurations API from TIDAL — 2 operation(s) for priceconfigurations.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The priceConfigurations API from TIDAL — 2 operation(s) for priceconfigurations.
   name: TIDAL priceConfigurations API
   slug: tidal-priceconfigurations-api
-- description: The providerOwners API from TIDAL — 3 operation(s) for providerowners.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The providerOwners API from TIDAL — 3 operation(s) for providerowners.
   name: TIDAL providerOwners API
   slug: tidal-providerowners-api
-- description: The providerProductInfos API from TIDAL — 3 operation(s) for providerproductinfos.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The providerProductInfos API from TIDAL — 3 operation(s) for providerproductinfos.
   name: TIDAL providerProductInfos API
   slug: tidal-providerproductinfos-api
-- description: The providers API from TIDAL — 2 operation(s) for providers.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The providers API from TIDAL — 2 operation(s) for providers.
   name: TIDAL providers API
   slug: tidal-providers-api
-- description: The purchases API from TIDAL — 3 operation(s) for purchases.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The purchases API from TIDAL — 3 operation(s) for purchases.
   name: TIDAL purchases API
   slug: tidal-purchases-api
-- description: The reactions API from TIDAL — 4 operation(s) for reactions.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The reactions API from TIDAL — 4 operation(s) for reactions.
   name: TIDAL reactions API
   slug: tidal-reactions-api
-- description: The savedShares API from TIDAL — 1 operation(s) for savedshares.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The savedShares API from TIDAL — 1 operation(s) for savedshares.
   name: TIDAL savedShares API
   slug: tidal-savedshares-api
-- description: The searchHistoryEntries API from TIDAL — 2 operation(s) for searchhistoryentries.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The searchHistoryEntries API from TIDAL — 2 operation(s) for searchhistoryentries.
   name: TIDAL searchHistoryEntries API
   slug: tidal-searchhistoryentries-api
-- description: The searchResults API from TIDAL — 7 operation(s) for searchresults.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The searchResults API from TIDAL — 7 operation(s) for searchresults.
   name: TIDAL searchResults API
   slug: tidal-searchresults-api
-- description: The searchSuggestions API from TIDAL — 3 operation(s) for searchsuggestions.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The searchSuggestions API from TIDAL — 3 operation(s) for searchsuggestions.
   name: TIDAL searchSuggestions API
   slug: tidal-searchsuggestions-api
-- description: The shares API from TIDAL — 4 operation(s) for shares.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The shares API from TIDAL — 4 operation(s) for shares.
   name: TIDAL shares API
   slug: tidal-shares-api
-- description: The squareConnections API from TIDAL — 2 operation(s) for squareconnections.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The squareConnections API from TIDAL — 2 operation(s) for squareconnections.
   name: TIDAL squareConnections API
   slug: tidal-squareconnections-api
-- description: The stripeConnections API from TIDAL — 2 operation(s) for stripeconnections.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The stripeConnections API from TIDAL — 2 operation(s) for stripeconnections.
   name: TIDAL stripeConnections API
   slug: tidal-stripeconnections-api
-- description: The stripeDashboardLinks API from TIDAL — 2 operation(s) for stripedashboardlinks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The stripeDashboardLinks API from TIDAL — 2 operation(s) for stripedashboardlinks.
   name: TIDAL stripeDashboardLinks API
   slug: tidal-stripedashboardlinks-api
-- description: The temporaryUserTokens API from TIDAL — 3 operation(s) for temporaryusertokens.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The temporaryUserTokens API from TIDAL — 3 operation(s) for temporaryusertokens.
   name: TIDAL temporaryUserTokens API
   slug: tidal-temporaryusertokens-api
-- description: The terms API from TIDAL — 2 operation(s) for terms.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The terms API from TIDAL — 2 operation(s) for terms.
   name: TIDAL terms API
   slug: tidal-terms-api
-- description: The trackFiles API from TIDAL — 1 operation(s) for trackfiles.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The trackFiles API from TIDAL — 1 operation(s) for trackfiles.
   name: TIDAL trackFiles API
   slug: tidal-trackfiles-api
-- description: The trackManifests API from TIDAL — 1 operation(s) for trackmanifests.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The trackManifests API from TIDAL — 1 operation(s) for trackmanifests.
   name: TIDAL trackManifests API
   slug: tidal-trackmanifests-api
-- description: The tracks API from TIDAL — 20 operation(s) for tracks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The tracks API from TIDAL — 20 operation(s) for tracks.
   name: TIDAL tracks API
   slug: tidal-tracks-api
-- description: The tracksMetadataStatus API from TIDAL — 2 operation(s) for tracksmetadatastatus.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The tracksMetadataStatus API from TIDAL — 2 operation(s) for tracksmetadatastatus.
   name: TIDAL tracksMetadataStatus API
   slug: tidal-tracksmetadatastatus-api
-- description: The trackSourceFiles API from TIDAL — 3 operation(s) for tracksourcefiles.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The trackSourceFiles API from TIDAL — 3 operation(s) for tracksourcefiles.
   name: TIDAL trackSourceFiles API
   slug: tidal-tracksourcefiles-api
-- description: The trackStatistics API from TIDAL — 3 operation(s) for trackstatistics.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The trackStatistics API from TIDAL — 3 operation(s) for trackstatistics.
   name: TIDAL trackStatistics API
   slug: tidal-trackstatistics-api
-- description: The usageRules API from TIDAL — 2 operation(s) for usagerules.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The usageRules API from TIDAL — 2 operation(s) for usagerules.
   name: TIDAL usageRules API
   slug: tidal-usagerules-api
-- description: The userCollectionAlbums API from TIDAL — 3 operation(s) for usercollectionalbums.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionAlbums API from TIDAL — 3 operation(s) for usercollectionalbums.
   name: TIDAL userCollectionAlbums API
   slug: tidal-usercollectionalbums-api
-- description: The userCollectionArtists API from TIDAL — 3 operation(s) for usercollectionartists.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionArtists API from TIDAL — 3 operation(s) for usercollectionartists.
   name: TIDAL userCollectionArtists API
   slug: tidal-usercollectionartists-api
-- description: The userCollectionFolders API from TIDAL — 4 operation(s) for usercollectionfolders.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionFolders API from TIDAL — 4 operation(s) for usercollectionfolders.
   name: TIDAL userCollectionFolders API
   slug: tidal-usercollectionfolders-api
-- description: The userCollectionPlaylists API from TIDAL — 3 operation(s) for usercollectionplaylists.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionPlaylists API from TIDAL — 3 operation(s) for usercollectionplaylists.
   name: TIDAL userCollectionPlaylists API
   slug: tidal-usercollectionplaylists-api
-- description: The userCollections API from TIDAL — 7 operation(s) for usercollections.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollections API from TIDAL — 7 operation(s) for usercollections.
   name: TIDAL userCollections API
   slug: tidal-usercollections-api
-- description: The userCollectionSaveForLaters API from TIDAL — 3 operation(s) for usercollectionsaveforlaters.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionSaveForLaters API from TIDAL — 3 operation(s) for usercollectionsaveforlaters.
   name: TIDAL userCollectionSaveForLaters API
   slug: tidal-usercollectionsaveforlaters-api
-- description: The userCollectionTracks API from TIDAL — 4 operation(s) for usercollectiontracks.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionTracks API from TIDAL — 4 operation(s) for usercollectiontracks.
   name: TIDAL userCollectionTracks API
   slug: tidal-usercollectiontracks-api
-- description: The userCollectionVideos API from TIDAL — 3 operation(s) for usercollectionvideos.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userCollectionVideos API from TIDAL — 3 operation(s) for usercollectionvideos.
   name: TIDAL userCollectionVideos API
   slug: tidal-usercollectionvideos-api
-- description: The userDailyMixes API from TIDAL — 2 operation(s) for userdailymixes.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userDailyMixes API from TIDAL — 2 operation(s) for userdailymixes.
   name: TIDAL userDailyMixes API
   slug: tidal-userdailymixes-api
-- description: The userDataExportRequests API from TIDAL — 1 operation(s) for userdataexportrequests.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userDataExportRequests API from TIDAL — 1 operation(s) for userdataexportrequests.
   name: TIDAL userDataExportRequests API
   slug: tidal-userdataexportrequests-api
-- description: The userDiscoveryMixes API from TIDAL — 2 operation(s) for userdiscoverymixes.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userDiscoveryMixes API from TIDAL — 2 operation(s) for userdiscoverymixes.
   name: TIDAL userDiscoveryMixes API
   slug: tidal-userdiscoverymixes-api
-- description: The userNewReleaseMixes API from TIDAL — 2 operation(s) for usernewreleasemixes.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userNewReleaseMixes API from TIDAL — 2 operation(s) for usernewreleasemixes.
   name: TIDAL userNewReleaseMixes API
   slug: tidal-usernewreleasemixes-api
-- description: The userOfflineMixes API from TIDAL — 2 operation(s) for userofflinemixes.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userOfflineMixes API from TIDAL — 2 operation(s) for userofflinemixes.
   name: TIDAL userOfflineMixes API
   slug: tidal-userofflinemixes-api
-- description: The userRecommendations API from TIDAL — 5 operation(s) for userrecommendations.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userRecommendations API from TIDAL — 5 operation(s) for userrecommendations.
   name: TIDAL userRecommendations API
   slug: tidal-userrecommendations-api
-- description: The userReports API from TIDAL — 1 operation(s) for userreports.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The userReports API from TIDAL — 1 operation(s) for userreports.
   name: TIDAL userReports API
   slug: tidal-userreports-api
-- description: The videoManifests API from TIDAL — 1 operation(s) for videomanifests.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The videoManifests API from TIDAL — 1 operation(s) for videomanifests.
   name: TIDAL videoManifests API
   slug: tidal-videomanifests-api
-- description: The videos API from TIDAL — 11 operation(s) for videos.
+- baseURL: https://openapi.tidal.com/v2
+  baseurl_source: spec
+  description: The videos API from TIDAL — 11 operation(s) for videos.
   name: TIDAL videos API
   slug: tidal-videos-api
 arazzos:
@@ -852,7 +982,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:

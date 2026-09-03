@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,22 +35,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
+- baseURL: https://prod-merchant-service.hoolah.co/merchant
+  baseurl_source: declared
+  description: The Account Linking API from ShopBack — 4 operation(s) for account linking.
   name: ShopBack Account Linking API
   slug: shopback-account-linking-api
-- description: The Authentication API from ShopBack — 1 operation(s) for authentication.
+- baseURL: https://prod-merchant-service.hoolah.co/merchant
+  baseurl_source: declared
+  description: The Authentication API from ShopBack — 1 operation(s) for authentication.
   name: ShopBack Authentication API
   slug: shopback-authentication-api
-- description: The Notification API from ShopBack — 1 operation(s) for notification.
+- baseURL: https://prod-merchant-service.hoolah.co/merchant
+  baseurl_source: declared
+  description: The Notification API from ShopBack — 1 operation(s) for notification.
   name: ShopBack Notification API
   slug: shopback-notification-api
-- description: The Orders API from ShopBack — 8 operation(s) for orders.
+- baseURL: https://prod-merchant-service.hoolah.co/merchant
+  baseurl_source: declared
+  description: The Orders API from ShopBack — 8 operation(s) for orders.
   name: ShopBack Orders API
   slug: shopback-orders-api
-- description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
+- baseURL: https://prod-merchant-service.hoolah.co/merchant
+  baseurl_source: declared
+  description: The Pre-Auth API from ShopBack — 6 operation(s) for pre-auth.
   name: ShopBack Pre Auth API
   slug: shopback-pre-auth-api
 artifact_total: 15
@@ -227,7 +249,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -237,7 +259,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     conformance: derived
     contracts:
@@ -254,7 +276,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopback/refs/heads/main/screenshots/shopback-2026-08-17T081837.png
 security:

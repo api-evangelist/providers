@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -69,16 +69,24 @@ apis:
 - description: Query real-time counts and trends of events, profiles, and segments.
   name: CleverTap Real-Time Counts API
   slug: counts-api
-- description: The Campaigns API from CleverTap — 3 operation(s) for campaigns.
+- baseURL: https://api.clevertap.com
+  baseurl_source: declared
+  description: The Campaigns API from CleverTap — 3 operation(s) for campaigns.
   name: CleverTap Campaigns API
   slug: clevertap-campaigns-api
-- description: The Events API from CleverTap — 2 operation(s) for events.
+- baseURL: https://api.clevertap.com
+  baseurl_source: declared
+  description: The Events API from CleverTap — 2 operation(s) for events.
   name: CleverTap Events API
   slug: clevertap-events-api
-- description: The Profiles API from CleverTap — 4 operation(s) for profiles.
+- baseURL: https://api.clevertap.com
+  baseurl_source: declared
+  description: The Profiles API from CleverTap — 4 operation(s) for profiles.
   name: CleverTap Profiles API
   slug: clevertap-profiles-api
-- description: The Reports API from CleverTap — 2 operation(s) for reports.
+- baseURL: https://api.clevertap.com
+  baseurl_source: declared
+  description: The Reports API from CleverTap — 2 operation(s) for reports.
   name: CleverTap Reports API
   slug: clevertap-reports-api
 artifact_total: 30
@@ -364,7 +372,7 @@ score:
     catalog_gap: 31.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -374,7 +382,7 @@ score:
     discoverability: 75.9
     governance: 63.6
     operational_transparency: 65.8
-  previous_composite: 65.1
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -386,7 +394,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -168,7 +180,7 @@ score:
   band: emerging
   composite: 21.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -192,8 +204,9 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/screenshots/tal-australia-2026-09-02T162444.png
 security:
 - kind: authentication
   name: Tal Australia Authentication

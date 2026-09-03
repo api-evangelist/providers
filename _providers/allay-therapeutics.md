@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty — X-WP-Total is 0.
   name: Allay Therapeutics Comments API
   slug: allay-therapeutics-comments-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Allay Therapeutics Discovery API
   slug: allay-therapeutics-discovery-api
-- description: Media library. `X-WP-Total` reports 161 attachments, but only one attachment (id 1503) is returned to an anonymous caller; the remainder are attached to non-public parents.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: Media library. `X-WP-Total` reports 161 attachments, but only one attachment (id 1503) is returned to an anonymous caller; the remainder are attached to non-public parents.
   name: Allay Therapeutics Media API
   slug: allay-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for www.allaytx.com URLs.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for www.allaytx.com URLs.
   name: Allay Therapeutics Oembed API
   slug: allay-therapeutics-oembed-api
-- description: Corporate pages. 9 published at harvest time — Home, About Us, Our Science, Pipeline, News, Careers, Contact Us, Privacy Notices, Terms of Service.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages. 9 published at harvest time — Home, About Us, Our Science, Pipeline, News, Careers, Contact Us, Privacy Notices, Terms of Service.
   name: Allay Therapeutics Pages API
   slug: allay-therapeutics-pages-api
-- description: News archive — press releases, in-the-news coverage, and presentations/publications. 19 posts published at harvest time, spanning 2021-05-13 (company launch with first clinical data) through 2025-06-0
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, in-the-news coverage, and presentations/publications. 19 posts published at harvest time, spanning 2021-05-13 (company launch with first clinical data) through 2025-06-0
   name: Allay Therapeutics Posts API
   slug: allay-therapeutics-posts-api
-- description: Cross-content search across published posts and pages.
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published posts and pages.
   name: Allay Therapeutics Search API
   slug: allay-therapeutics-search-api
-- description: 'Categories and tags. Four categories are registered — Press Releases (14), In The News (4), Presentations and Publications (1), Uncategorized (0). The post_tag taxonomy holds three unused placeholder '
+- baseURL: https://www.allaytx.com/wp-json
+  baseurl_source: declared
+  description: 'Categories and tags. Four categories are registered — Press Releases (14), In The News (4), Presentations and Publications (1), Uncategorized (0). The post_tag taxonomy holds three unused placeholder '
   name: Allay Therapeutics Taxonomy API
   slug: allay-therapeutics-taxonomy-api
 artifact_total: 19
@@ -224,7 +251,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allay-therapeutics/refs/heads/main/screenshots/allay-therapeutics-2026-08-07T161209.png
 security:

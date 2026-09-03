@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Endpoints for running backtests on strategies against historical market data to validate performance before live deployment.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for running backtests on strategies against historical market data to validate performance before live deployment.
   name: level2 Backtesting API
   slug: level2-backtesting-api
-- description: Endpoints for discovering similar stocks and retrieving company fundamental summaries.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for discovering similar stocks and retrieving company fundamental summaries.
   name: level2 Discovery API
   slug: level2-discovery-api
-- description: Endpoints for retrieving historical OHLC price data for financial instruments across global exchanges.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for retrieving historical OHLC price data for financial instruments across global exchanges.
   name: level2 Market Data API
   slug: level2-market-data-api
-- description: Endpoints for managing user trading strategies, including creation, retrieval, updating, deployment, and deletion of automated trading strategies built with the Level2 visual strategy builder.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for managing user trading strategies, including creation, retrieval, updating, deployment, and deletion of automated trading strategies built with the Level2 visual strategy builder.
   name: level2 Strategies API
   slug: level2-strategies-api
-- description: Endpoints for detecting candlestick patterns and analyzing ticker trends using technical indicators.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for detecting candlestick patterns and analyzing ticker trends using technical indicators.
   name: level2 Technical Analysis API
   slug: level2-technical-analysis-api
-- description: Endpoints for managing broker user accounts and their association with the Level2 platform.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Endpoints for managing broker user accounts and their association with the Level2 platform.
   name: level2 Users API
   slug: level2-users-api
 artifact_total: 25
@@ -142,16 +154,16 @@ jsonld:
   slug: level2-context
 layout: provider
 modified: '2026-05-19'
-name: level2
+name: Level2
 nav: Providers
 network: true
-overview: 'level2 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Backtesting API, Discovery API, Market Data API, and 3 more.
+overview: 'Level2 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Backtesting API, Discovery API, Market Data API, and 3 more.
 
 
-  The level2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Level2 catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  level2''s developer surface includes authentication and 7 more developer resources.'
+  Level2''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Level2 Plans Pricing
   plan_count: 3
@@ -164,7 +176,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: level2 API Rules
+  name: Level2 API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -200,10 +212,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/level2/refs/heads/main/screenshots/level2-2026-06-20T184439.png
 security:

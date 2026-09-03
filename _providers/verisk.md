@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Verisk UnderWriting API provides personal and commercial lines insurance underwriting data including homeowner data, motor vehicle reports, A-PLUS auto and property reports, LightSpeed prefill, geocod
   name: Verisk UnderWriting API
   slug: underwriting-api
-- description: Catastrophe modeling and peril data
+- baseURL: https://api.verisk.com/insurance/v1
+  baseurl_source: spec
+  description: Catastrophe modeling and peril data
   name: Verisk Catastrophe API
   slug: verisk-catastrophe-api
-- description: Claims analytics and benchmarking
+- baseURL: https://api.verisk.com/insurance/v1
+  baseurl_source: spec
+  description: Claims analytics and benchmarking
   name: Verisk Claims API
   slug: verisk-claims-api
-- description: Property risk data and analytics
+- baseURL: https://api.verisk.com/insurance/v1
+  baseurl_source: spec
+  description: Property risk data and analytics
   name: Verisk Property API
   slug: verisk-property-api
-- description: Insurance risk scores and rating factors
+- baseURL: https://api.verisk.com/insurance/v1
+  baseurl_source: spec
+  description: Insurance risk scores and rating factors
   name: Verisk Risk Scoring API
   slug: verisk-risk-scoring-api
 artifact_total: 81
@@ -402,7 +410,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png
 security:

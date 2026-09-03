@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Paid REST API ($300/month) with higher rate limits and 38 exclusive endpoints covering token unlocks, cross-chain bridges, digital-asset treasury data, and other advanced datasets. Authenticated via A
   name: DefiLlama Pro API
   slug: pro-api
-- description: The Coins API from DefiLlama — 7 operation(s) for coins.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The Coins API from DefiLlama — 7 operation(s) for coins.
   name: DefiLlama Coins API
   slug: defillama-coins-api
-- description: The Fees API from DefiLlama — 3 operation(s) for fees.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The Fees API from DefiLlama — 3 operation(s) for fees.
   name: DefiLlama Fees API
   slug: defillama-fees-api
-- description: The Stablecoins API from DefiLlama — 6 operation(s) for stablecoins.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The Stablecoins API from DefiLlama — 6 operation(s) for stablecoins.
   name: DefiLlama Stablecoins API
   slug: defillama-stablecoins-api
-- description: The TVL API from DefiLlama — 6 operation(s) for tvl.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The TVL API from DefiLlama — 6 operation(s) for tvl.
   name: DefiLlama TVL API
   slug: defillama-tvl-api
-- description: The Volumes API from DefiLlama — 7 operation(s) for volumes.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The Volumes API from DefiLlama — 7 operation(s) for volumes.
   name: DefiLlama Volumes API
   slug: defillama-volumes-api
-- description: The Yields API from DefiLlama — 2 operation(s) for yields.
+- baseURL: https://api.llama.fi
+  baseurl_source: declared
+  description: The Yields API from DefiLlama — 2 operation(s) for yields.
   name: DefiLlama Yields API
   slug: defillama-yields-api
 artifact_total: 22
@@ -191,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/screenshots/defillama-2026-06-20T175849.png
 security:

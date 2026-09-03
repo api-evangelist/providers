@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The Crypto Keys API from Google Cloud KMS — 2 operation(s) for crypto keys.
+- baseURL: https://cloudkms.googleapis.com
+  baseurl_source: declared
+  description: The Crypto Keys API from Google Cloud KMS — 2 operation(s) for crypto keys.
   name: Google Cloud KMS Crypto Keys API
   slug: google-cloud-kms-crypto-keys-api
-- description: The Crypto Operations API from Google Cloud KMS — 2 operation(s) for crypto operations.
+- baseURL: https://cloudkms.googleapis.com
+  baseurl_source: declared
+  description: The Crypto Operations API from Google Cloud KMS — 2 operation(s) for crypto operations.
   name: Google Cloud KMS Crypto Operations API
   slug: google-cloud-kms-crypto-operations-api
-- description: The Key Rings API from Google Cloud KMS — 2 operation(s) for key rings.
+- baseURL: https://cloudkms.googleapis.com
+  baseurl_source: declared
+  description: The Key Rings API from Google Cloud KMS — 2 operation(s) for key rings.
   name: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/screenshots/google-cloud-kms-2026-06-20T182123.png
 security:

@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Brale — 4 operation(s) for accounts.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Accounts API from Brale — 4 operation(s) for accounts.
   name: Brale Accounts API
   slug: brale-accounts-api
-- description: The Addresses API from Brale — 5 operation(s) for addresses.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Addresses API from Brale — 5 operation(s) for addresses.
   name: Brale Addresses API
   slug: brale-addresses-api
-- description: The Automations API from Brale — 2 operation(s) for automations.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Automations API from Brale — 2 operation(s) for automations.
   name: Brale Automations API
   slug: brale-automations-api
-- description: The Financial Institutions API from Brale — 10 operation(s) for financial institutions.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Financial Institutions API from Brale — 10 operation(s) for financial institutions.
   name: Brale Financial Institutions API
   slug: brale-financial-institutions-api
-- description: The Orders API from Brale — 8 operation(s) for orders.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Orders API from Brale — 8 operation(s) for orders.
   name: Brale Orders API
   slug: brale-orders-api
-- description: The Webhooks API from Brale — 6 operation(s) for webhooks.
+- baseURL: https://api.brale.xyz
+  baseurl_source: declared
+  description: The Webhooks API from Brale — 6 operation(s) for webhooks.
   name: Brale Webhooks API
   slug: brale-webhooks-api
 artifact_total: 25
@@ -297,7 +309,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -307,7 +319,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 60.5
+  previous_composite: 60.3
   provenance:
     conformance: derived
     contracts:
@@ -324,7 +336,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

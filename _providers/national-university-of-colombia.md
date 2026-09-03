@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 2
 apis:
-- description: 'OAI-PMH 2.0 metadata harvesting interface of the Repositorio Institucional UNAL, served from the university''s own host. Twelve metadata prefixes (oai_dc, qdc, mods, mets, didl, dim, etdms, marc, ore, '
+- baseURL: https://bffrepositorio.unal.edu.co/server
+  baseurl_source: declared
+  description: 'OAI-PMH 2.0 metadata harvesting interface of the Repositorio Institucional UNAL, served from the university''s own host. Twelve metadata prefixes (oai_dc, qdc, mods, mets, didl, dim, etdms, marc, ore, '
   name: National University of Colombia OAI-PMH API
   slug: national-university-of-colombia-oai-pmh-api
-- description: Anonymous HAL+JSON read endpoints for the repository's community/collection structure on UNAL's own host. The contract documents only what a credential-free caller can actually reach on THIS deploymen
+- baseURL: https://bffrepositorio.unal.edu.co/server
+  baseurl_source: declared
+  description: Anonymous HAL+JSON read endpoints for the repository's community/collection structure on UNAL's own host. The contract documents only what a credential-free caller can actually reach on THIS deploymen
   name: National University of Colombia REST - Core API
   slug: national-university-of-colombia-rest-core-api
-- description: Faceted, anonymous search across archived objects in UNAL's institutional repository, on the university's own host. Verified live 2026-09-01.
+- baseURL: https://bffrepositorio.unal.edu.co/server
+  baseurl_source: declared
+  description: Faceted, anonymous search across archived objects in UNAL's institutional repository, on the university's own host. Verified live 2026-09-01.
   name: National University of Colombia REST - Discover API
   slug: national-university-of-colombia-rest-discover-api
-- description: 'A SECOND institution-operated OAI-PMH 2.0 endpoint, found in this run and not previously catalogued: the Portal de Revistas UN, UNAL''s own journal publishing platform on revistas.unal.edu.co, running '
+- baseURL: https://revistas.unal.edu.co/index.php/index
+  baseurl_source: declared
+  description: 'A SECOND institution-operated OAI-PMH 2.0 endpoint, found in this run and not previously catalogued: the Portal de Revistas UN, UNAL''s own journal publishing platform on revistas.unal.edu.co, running '
   name: National University of Colombia Portal de Revistas UN OAI-PMH API
   slug: national-university-of-colombia-journals-oai-pmh-api
 - description: UNAL's open data is not published on its own portal. datosabiertos.unal.edu.co is a static informational page with no catalogue and no API; the actual datasets sit on Colombia's national Socrata porta
@@ -233,7 +241,7 @@ score:
     catalog_gap: 37.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -243,7 +251,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 33.0
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +267,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

@@ -33,181 +33,297 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
   name: Vanilla Forums Addons API
   slug: vanilla-forums-addons-api
-- description: The AI Processing Preferences API from Vanilla Forums — 1 operation(s) for ai processing preferences.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The AI Processing Preferences API from Vanilla Forums — 1 operation(s) for ai processing preferences.
   name: Vanilla Forums AI Processing Preferences API
   slug: vanilla-forums-ai-processing-preferences-api
-- description: The AI Settings API from Vanilla Forums — 3 operation(s) for ai settings.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The AI Settings API from Vanilla Forums — 3 operation(s) for ai settings.
   name: Vanilla Forums AI Settings API
   slug: vanilla-forums-ai-settings-api
-- description: The Analytics API from Vanilla Forums — 10 operation(s) for analytics.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Analytics API from Vanilla Forums — 10 operation(s) for analytics.
   name: Vanilla Forums Analytics API
   slug: vanilla-forums-analytics-api
-- description: The Appeals API from Vanilla Forums — 2 operation(s) for appeals.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Appeals API from Vanilla Forums — 2 operation(s) for appeals.
   name: Vanilla Forums Appeals API
   slug: vanilla-forums-appeals-api
-- description: The Assets API from Vanilla Forums — 1 operation(s) for assets.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Assets API from Vanilla Forums — 1 operation(s) for assets.
   name: Vanilla Forums Assets API
   slug: vanilla-forums-assets-api
-- description: The Audit Logs API from Vanilla Forums — 2 operation(s) for audit logs.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Audit Logs API from Vanilla Forums — 2 operation(s) for audit logs.
   name: Vanilla Forums Audit Logs API
   slug: vanilla-forums-audit-logs-api
-- description: The Authenticators API from Vanilla Forums — 5 operation(s) for authenticators.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Authenticators API from Vanilla Forums — 5 operation(s) for authenticators.
   name: Vanilla Forums Authenticators API
   slug: vanilla-forums-authenticators-api
-- description: The Automation Rules API from Vanilla Forums — 3 operation(s) for automation rules.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Automation Rules API from Vanilla Forums — 3 operation(s) for automation rules.
   name: Vanilla Forums Automation Rules API
   slug: vanilla-forums-automation-rules-api
-- description: The Calls API from Vanilla Forums — 1 operation(s) for calls.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Calls API from Vanilla Forums — 1 operation(s) for calls.
   name: Vanilla Forums Calls API
   slug: vanilla-forums-calls-api
-- description: The Categories API from Vanilla Forums — 6 operation(s) for categories.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Categories API from Vanilla Forums — 6 operation(s) for categories.
   name: Vanilla Forums Categories API
   slug: vanilla-forums-categories-api
-- description: The Collections API from Vanilla Forums — 5 operation(s) for collections.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Collections API from Vanilla Forums — 5 operation(s) for collections.
   name: Vanilla Forums Collections API
   slug: vanilla-forums-collections-api
-- description: The Comments API from Vanilla Forums — 6 operation(s) for comments.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Comments API from Vanilla Forums — 6 operation(s) for comments.
   name: Vanilla Forums Comments API
   slug: vanilla-forums-comments-api
-- description: The Config API from Vanilla Forums — 1 operation(s) for config.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Config API from Vanilla Forums — 1 operation(s) for config.
   name: Vanilla Forums Config API
   slug: vanilla-forums-config-api
-- description: The Conversations API from Vanilla Forums — 6 operation(s) for conversations.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Conversations API from Vanilla Forums — 6 operation(s) for conversations.
   name: Vanilla Forums Conversations API
   slug: vanilla-forums-conversations-api
-- description: The Dashboard API from Vanilla Forums — 1 operation(s) for dashboard.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Dashboard API from Vanilla Forums — 1 operation(s) for dashboard.
   name: Vanilla Forums Dashboard API
   slug: vanilla-forums-dashboard-api
-- description: The DataSource API from Vanilla Forums — 3 operation(s) for datasource.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The DataSource API from Vanilla Forums — 3 operation(s) for datasource.
   name: Vanilla Forums DataSource API
   slug: vanilla-forums-datasource-api
-- description: The Discussion Statuses API from Vanilla Forums — 3 operation(s) for discussion statuses.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Discussion Statuses API from Vanilla Forums — 3 operation(s) for discussion statuses.
   name: Vanilla Forums Discussion Statuses API
   slug: vanilla-forums-discussion-statuses-api
-- description: The Discussions API from Vanilla Forums — 28 operation(s) for discussions.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Discussions API from Vanilla Forums — 28 operation(s) for discussions.
   name: Vanilla Forums Discussions API
   slug: vanilla-forums-discussions-api
-- description: The Drafts API from Vanilla Forums — 3 operation(s) for drafts.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Drafts API from Vanilla Forums — 3 operation(s) for drafts.
   name: Vanilla Forums Drafts API
   slug: vanilla-forums-drafts-api
-- description: The email-templates API from Vanilla Forums — 1 operation(s) for email-templates.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The email-templates API from Vanilla Forums — 1 operation(s) for email-templates.
   name: Vanilla Forums email-templates API
   slug: vanilla-forums-email-templates-api
-- description: The Emails API from Vanilla Forums — 3 operation(s) for emails.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Emails API from Vanilla Forums — 3 operation(s) for emails.
   name: Vanilla Forums Emails API
   slug: vanilla-forums-emails-api
-- description: The emailTemplates API from Vanilla Forums — 4 operation(s) for emailtemplates.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The emailTemplates API from Vanilla Forums — 4 operation(s) for emailtemplates.
   name: Vanilla Forums emailTemplates API
   slug: vanilla-forums-emailtemplates-api
-- description: The Exports API from Vanilla Forums — 3 operation(s) for exports.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Exports API from Vanilla Forums — 3 operation(s) for exports.
   name: Vanilla Forums Exports API
   slug: vanilla-forums-exports-api
-- description: The Features API from Vanilla Forums — 2 operation(s) for features.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Features API from Vanilla Forums — 2 operation(s) for features.
   name: Vanilla Forums Features API
   slug: vanilla-forums-features-api
-- description: The Icons API from Vanilla Forums — 6 operation(s) for icons.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Icons API from Vanilla Forums — 6 operation(s) for icons.
   name: Vanilla Forums Icons API
   slug: vanilla-forums-icons-api
-- description: The Job Queue API from Vanilla Forums — 2 operation(s) for job queue.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Job Queue API from Vanilla Forums — 2 operation(s) for job queue.
   name: Vanilla Forums Job Queue API
   slug: vanilla-forums-job-queue-api
-- description: The Locales API from Vanilla Forums — 2 operation(s) for locales.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Locales API from Vanilla Forums — 2 operation(s) for locales.
   name: Vanilla Forums Locales API
   slug: vanilla-forums-locales-api
-- description: The Media API from Vanilla Forums — 11 operation(s) for media.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Media API from Vanilla Forums — 11 operation(s) for media.
   name: Vanilla Forums Media API
   slug: vanilla-forums-media-api
-- description: The Moderation Messages API from Vanilla Forums — 3 operation(s) for moderation messages.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Moderation Messages API from Vanilla Forums — 3 operation(s) for moderation messages.
   name: Vanilla Forums Moderation Messages API
   slug: vanilla-forums-moderation-messages-api
-- description: The Notification Preferences API from Vanilla Forums — 2 operation(s) for notification preferences.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Notification Preferences API from Vanilla Forums — 2 operation(s) for notification preferences.
   name: Vanilla Forums Notification Preferences API
   slug: vanilla-forums-notification-preferences-api
-- description: The Notifications API from Vanilla Forums — 3 operation(s) for notifications.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Notifications API from Vanilla Forums — 3 operation(s) for notifications.
   name: Vanilla Forums Notifications API
   slug: vanilla-forums-notifications-api
-- description: The Polls API from Vanilla Forums — 4 operation(s) for polls.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Polls API from Vanilla Forums — 4 operation(s) for polls.
   name: Vanilla Forums Polls API
   slug: vanilla-forums-polls-api
-- description: The Posts API from Vanilla Forums — 1 operation(s) for posts.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Posts API from Vanilla Forums — 1 operation(s) for posts.
   name: Vanilla Forums Posts API
   slug: vanilla-forums-posts-api
-- description: The Product Messages API from Vanilla Forums — 4 operation(s) for product messages.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Product Messages API from Vanilla Forums — 4 operation(s) for product messages.
   name: Vanilla Forums Product Messages API
   slug: vanilla-forums-product-messages-api
-- description: The Profile Fields API from Vanilla Forums — 3 operation(s) for profile fields.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Profile Fields API from Vanilla Forums — 3 operation(s) for profile fields.
   name: Vanilla Forums Profile Fields API
   slug: vanilla-forums-profile-fields-api
-- description: The Ranks API from Vanilla Forums — 3 operation(s) for ranks.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Ranks API from Vanilla Forums — 3 operation(s) for ranks.
   name: Vanilla Forums Ranks API
   slug: vanilla-forums-ranks-api
-- description: The Reactions API from Vanilla Forums — 3 operation(s) for reactions.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Reactions API from Vanilla Forums — 3 operation(s) for reactions.
   name: Vanilla Forums Reactions API
   slug: vanilla-forums-reactions-api
-- description: The Reports & Escalations API from Vanilla Forums — 14 operation(s) for reports & escalations.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Reports & Escalations API from Vanilla Forums — 14 operation(s) for reports & escalations.
   name: Vanilla Forums Reports & Escalations API
   slug: vanilla-forums-reports-escalations-api
-- description: The Resources API from Vanilla Forums — 3 operation(s) for resources.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Resources API from Vanilla Forums — 3 operation(s) for resources.
   name: Vanilla Forums Resources API
   slug: vanilla-forums-resources-api
-- description: The Rich API from Vanilla Forums — 1 operation(s) for rich.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Rich API from Vanilla Forums — 1 operation(s) for rich.
   name: Vanilla Forums Rich API
   slug: vanilla-forums-rich-api
-- description: The Role Requests API from Vanilla Forums — 4 operation(s) for role requests.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Role Requests API from Vanilla Forums — 4 operation(s) for role requests.
   name: Vanilla Forums Role Requests API
   slug: vanilla-forums-role-requests-api
-- description: The Roles API from Vanilla Forums — 4 operation(s) for roles.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Roles API from Vanilla Forums — 4 operation(s) for roles.
   name: Vanilla Forums Roles API
   slug: vanilla-forums-roles-api
-- description: The Rules API from Vanilla Forums — 2 operation(s) for rules.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Rules API from Vanilla Forums — 2 operation(s) for rules.
   name: Vanilla Forums Rules API
   slug: vanilla-forums-rules-api
-- description: The Search API from Vanilla Forums — 1 operation(s) for search.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Search API from Vanilla Forums — 1 operation(s) for search.
   name: Vanilla Forums Search API
   slug: vanilla-forums-search-api
-- description: The Sessions API from Vanilla Forums — 1 operation(s) for sessions.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Sessions API from Vanilla Forums — 1 operation(s) for sessions.
   name: Vanilla Forums Sessions API
   slug: vanilla-forums-sessions-api
-- description: The Site Totals API from Vanilla Forums — 1 operation(s) for site totals.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Site Totals API from Vanilla Forums — 1 operation(s) for site totals.
   name: Vanilla Forums Site Totals API
   slug: vanilla-forums-site-totals-api
-- description: The Statistics API from Vanilla Forums — 1 operation(s) for statistics.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Statistics API from Vanilla Forums — 1 operation(s) for statistics.
   name: Vanilla Forums Statistics API
   slug: vanilla-forums-statistics-api
-- description: The Statuses (Deprecated) API from Vanilla Forums — 3 operation(s) for statuses (deprecated).
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Statuses (Deprecated) API from Vanilla Forums — 3 operation(s) for statuses (deprecated).
   name: Vanilla Forums Statuses (Deprecated) API
   slug: vanilla-forums-statuses-deprecated-api
-- description: The Tags API from Vanilla Forums — 4 operation(s) for tags.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Tags API from Vanilla Forums — 4 operation(s) for tags.
   name: Vanilla Forums Tags API
   slug: vanilla-forums-tags-api
-- description: The Theme Assets API from Vanilla Forums — 12 operation(s) for theme assets.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Theme Assets API from Vanilla Forums — 12 operation(s) for theme assets.
   name: Vanilla Forums Theme Assets API
   slug: vanilla-forums-theme-assets-api
-- description: The Themes API from Vanilla Forums — 5 operation(s) for themes.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Themes API from Vanilla Forums — 5 operation(s) for themes.
   name: Vanilla Forums Themes API
   slug: vanilla-forums-themes-api
-- description: The Tokens API from Vanilla Forums — 4 operation(s) for tokens.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Tokens API from Vanilla Forums — 4 operation(s) for tokens.
   name: Vanilla Forums Tokens API
   slug: vanilla-forums-tokens-api
-- description: The Translations API from Vanilla Forums — 4 operation(s) for translations.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Translations API from Vanilla Forums — 4 operation(s) for translations.
   name: Vanilla Forums Translations API
   slug: vanilla-forums-translations-api
-- description: The User Mentions API from Vanilla Forums — 2 operation(s) for user mentions.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The User Mentions API from Vanilla Forums — 2 operation(s) for user mentions.
   name: Vanilla Forums User Mentions API
   slug: vanilla-forums-user-mentions-api
-- description: The User Notes API from Vanilla Forums — 7 operation(s) for user notes.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The User Notes API from Vanilla Forums — 7 operation(s) for user notes.
   name: Vanilla Forums User Notes API
   slug: vanilla-forums-user-notes-api
-- description: The Users API from Vanilla Forums — 16 operation(s) for users.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Users API from Vanilla Forums — 16 operation(s) for users.
   name: Vanilla Forums Users API
   slug: vanilla-forums-users-api
-- description: The Widgets API from Vanilla Forums — 2 operation(s) for widgets.
+- baseURL: https://open.vanillaforums.com/api/v2
+  baseurl_source: declared
+  description: The Widgets API from Vanilla Forums — 2 operation(s) for widgets.
   name: Vanilla Forums Widgets API
   slug: vanilla-forums-widgets-api
 artifact_total: 122
@@ -550,7 +666,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -560,7 +676,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -571,7 +687,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/screenshots/vanilla-forums-2026-08-17T082714.png
 security:

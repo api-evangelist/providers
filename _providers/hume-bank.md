@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Hume Bank Banking Account Balances API
   slug: hume-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Hume Bank Banking Account Direct Debits API
   slug: hume-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Hume Bank Banking Account Scheduled Payments API
   slug: hume-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Hume Bank Banking Account Transactions API
   slug: hume-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Hume Bank Banking Accounts API
   slug: hume-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Hume Bank Banking Payees API
   slug: hume-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://ibankob.humebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Hume Bank Banking Products API
   slug: hume-bank-banking-products-api
 artifact_total: 19
@@ -236,7 +250,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png
 security:

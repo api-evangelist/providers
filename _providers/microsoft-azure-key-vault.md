@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: REST API for creating, importing, managing, and renewing certificates in Azure Key Vault.
   name: Azure Key Vault Certificates API
   slug: azure-key-vault-certificates-api
-- description: Operations for creating, importing, managing, and renewing certificates including lifecycle management and certificate authority integration.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for creating, importing, managing, and renewing certificates including lifecycle management and certificate authority integration.
   name: Azure Key Vault Certificates API
   slug: microsoft-azure-key-vault-certificates-api
-- description: Operations for creating, importing, managing, and performing cryptographic operations with keys.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for creating, importing, managing, and performing cryptographic operations with keys.
   name: Azure Key Vault Keys API
   slug: microsoft-azure-key-vault-keys-api
-- description: Operations for securely storing and managing secrets such as passwords, connection strings, and API keys.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for securely storing and managing secrets such as passwords, connection strings, and API keys.
   name: Azure Key Vault Secrets API
   slug: microsoft-azure-key-vault-secrets-api
 artifact_total: 226
@@ -832,7 +838,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:

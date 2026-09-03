@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -33,28 +46,44 @@ agentic_access:
   summary_line: 18 operations · 2 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Data API from FERC — 1 operation(s) for data.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: The Data API from FERC — 1 operation(s) for data.
   name: FERC Data API
   slug: ferc-data-api
-- description: The Data-Assets API from FERC — 1 operation(s) for data-assets.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: The Data-Assets API from FERC — 1 operation(s) for data-assets.
   name: FERC Data Assets API
   slug: ferc-data-assets-api
-- description: The Details API from FERC — 1 operation(s) for details.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: The Details API from FERC — 1 operation(s) for details.
   name: FERC Details API
   slug: ferc-details-api
-- description: The Dictionary API from FERC — 1 operation(s) for dictionary.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: The Dictionary API from FERC — 1 operation(s) for dictionary.
   name: FERC Dictionary API
   slug: ferc-dictionary-api
-- description: Credentialed machine-to-machine submission of XBRL filings.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: Credentialed machine-to-machine submission of XBRL filings.
   name: FERC Filing API
   slug: ferc-filing-api
-- description: Anonymous read access to the public FERC eForms submission record.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: Anonymous read access to the public FERC eForms submission record.
   name: FERC Public Filings API
   slug: ferc-public-filings-api
-- description: Form lists and submission constraints.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: Form lists and submission constraints.
   name: FERC Reference API
   slug: ferc-reference-api
-- description: XBRL taxonomy versions, packages and sample forms for the FERC eForms.
+- baseURL: https://api.data.ferc.gov/v1
+  baseurl_source: declared
+  description: XBRL taxonomy versions, packages and sample forms for the FERC eForms.
   name: FERC Taxonomy API
   slug: ferc-taxonomy-api
 arazzos:
@@ -292,7 +321,7 @@ score:
     regime_id: energy_utilities
     score: 59.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png
 security:

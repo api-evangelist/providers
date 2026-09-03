@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -118,7 +130,7 @@ score:
   band: emerging
   composite: 23.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -142,8 +154,9 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/screenshots/vitality-uk-2026-09-02T170104.png
 security:
 - kind: authentication
   name: Vitality Uk Authentication

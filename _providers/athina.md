@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 18 operations · 14 acting
 api_count: 1
 apis:
-- description: Create and manage datasets used for evals and experiments.
+- baseURL: https://api.athina.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage datasets used for evals and experiments.
   name: Athina AI Datasets API
   slug: athina-datasets-api
-- description: Run evaluations against datasets and logged inferences.
+- baseURL: https://api.athina.ai/api/v1
+  baseurl_source: declared
+  description: Run evaluations against datasets and logged inferences.
   name: Athina AI Evaluations API
   slug: athina-evaluations-api
-- description: Log LLM inferences and prompt runs.
+- baseURL: https://api.athina.ai/api/v1
+  baseurl_source: declared
+  description: Log LLM inferences and prompt runs.
   name: Athina AI Logging API
   slug: athina-logging-api
-- description: Create, version, fetch, and run prompt templates.
+- baseURL: https://api.athina.ai/api/v1
+  baseurl_source: declared
+  description: Create, version, fetch, and run prompt templates.
   name: Athina AI Prompts API
   slug: athina-prompts-api
-- description: Create and manage traces and spans.
+- baseURL: https://api.athina.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage traces and spans.
   name: Athina AI Tracing API
   slug: athina-tracing-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athina/refs/heads/main/screenshots/athina-2026-06-20T172520.png
 security:

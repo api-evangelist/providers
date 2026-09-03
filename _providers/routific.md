@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: Insert new visits into an existing optimized solution.
+- baseURL: https://api.routific.com
+  baseurl_source: declared
+  description: Insert new visits into an existing optimized solution.
   name: Routific Fix API
   slug: routific-fix-api
-- description: Asynchronous long-running optimization jobs.
+- baseURL: https://api.routific.com
+  baseurl_source: declared
+  description: Asynchronous long-running optimization jobs.
   name: Routific Jobs API
   slug: routific-jobs-api
-- description: Pickup and Delivery Problem — paired pickup/dropoff routing.
+- baseURL: https://api.routific.com
+  baseurl_source: declared
+  description: Pickup and Delivery Problem — paired pickup/dropoff routing.
   name: Routific PDP API
   slug: routific-pdp-api
-- description: Vehicle Routing Problem — assign and order visits across a fleet.
+- baseURL: https://api.routific.com
+  baseurl_source: declared
+  description: Vehicle Routing Problem — assign and order visits across a fleet.
   name: Routific VRP API
   slug: routific-vrp-api
 artifact_total: 31
@@ -294,7 +302,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routific/refs/heads/main/screenshots/routific-2026-06-20T193228.png
 security:

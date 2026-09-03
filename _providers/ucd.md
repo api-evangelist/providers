@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Keyless, anonymous OAI-PMH 2.0 metadata harvesting for UCD''s open-access institutional repository. Verified live 2026-08-30: all six verbs return HTTP 200 with a well-formed envelope, ListIdentifiers '
+- baseURL: https://researchrepository.ucd.ie/server/oai/request
+  baseurl_source: declared
+  description: 'Keyless, anonymous OAI-PMH 2.0 metadata harvesting for UCD''s open-access institutional repository. Verified live 2026-08-30: all six verbs return HTTP 200 with a well-formed envelope, ListIdentifiers '
   name: Research Repository UCD — OAI-PMH 2.0
   slug: oai-pmh
 - description: UCD's SAML 2.0 Shibboleth Identity Provider, and the institution's only authentication surface it runs itself. It is machine-readable by definition — a federated IdP publishes SAML metadata — and is t
@@ -278,7 +280,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/screenshots/ucd-2026-08-17T130228.png
 security:

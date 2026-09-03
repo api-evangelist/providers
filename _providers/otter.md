@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 80 operations · 59 acting
 api_count: 27
 apis:
-- description: Endpoints to manage store onboarding and status
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage store onboarding and status
   name: Otter Account Pairing Endpoints API
   slug: otter-account-pairing-endpoints-api
-- description: Endpoints to handle token management.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to handle token management.
   name: Otter Auth Endpoints API
   slug: otter-auth-endpoints-api
-- description: Endpoints for callback management.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints for callback management.
   name: Otter Callback Endpoints API
   slug: otter-callback-endpoints-api
-- description: Endpoints to manage delivery.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage delivery.
   name: Otter Delivery Endpoints API
   slug: otter-delivery-endpoints-api
-- description: Endpoints to get orders directly.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to get orders directly.
   name: Otter Direct Orders Endpoints API
   slug: otter-direct-orders-endpoints-api
-- description: Endpoints to handle financial data.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to handle financial data.
   name: Otter Finance Endpoints API
   slug: otter-finance-endpoints-api
-- description: Endpoints to interact with product inventory.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to interact with product inventory.
   name: Otter Inventory Endpoints API
   slug: otter-inventory-endpoints-api
-- description: Endpoints to manage loyalty.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage loyalty.
   name: Otter Manager Loyalty Endpoints API
   slug: otter-manager-loyalty-endpoints-api
-- description: Endpoints for applications managing menus related data and operations.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints for applications managing menus related data and operations.
   name: Otter Manager Menu Endpoints API
   slug: otter-manager-menu-endpoints-api
-- description: Endpoints for applications managing order related data and operations.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints for applications managing order related data and operations.
   name: Otter Manager Order Endpoints API
   slug: otter-manager-order-endpoints-api
-- description: Endpoints for applications managing storefront related data and operations.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints for applications managing storefront related data and operations.
   name: Otter Manager Storefront Endpoints API
   slug: otter-manager-storefront-endpoints-api
-- description: The Market Intel Endpoints API from Otter — 1 operation(s) for market intel endpoints.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Market Intel Endpoints API from Otter — 1 operation(s) for market intel endpoints.
   name: Otter Market Intel Endpoints API
   slug: otter-market-intel-endpoints-api
-- description: Endpoints to manage menus.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage menus.
   name: Otter Menus Endpoints API
   slug: otter-menus-endpoints-api
-- description: Endpoints to manage orders for a store.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage orders for a store.
   name: Otter Orders Endpoints API
   slug: otter-orders-endpoints-api
-- description: Endpoints to interact with with organizations/brands/stores and with integration connections.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to interact with with organizations/brands/stores and with integration connections.
   name: Otter Organization Endpoints API
   slug: otter-organization-endpoints-api
-- description: Endpoints to ping and test system authentication.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to ping and test system authentication.
   name: Otter Ping Endpoints API
   slug: otter-ping-endpoints-api
-- description: Endpoints to reports generation operations
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to reports generation operations
   name: Otter Reports Endpoints API
   slug: otter-reports-endpoints-api
-- description: Endpoints for review operations
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints for review operations
   name: Otter Reviews Endpoints API
   slug: otter-reviews-endpoints-api
-- description: Endpoints to manage storefront state
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: Endpoints to manage storefront state
   name: Otter Storefront Endpoints API
   slug: otter-storefront-endpoints-api
-- description: The Account Pairing Webhooks API from Otter — 0 operation(s) for account pairing webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Account Pairing Webhooks API from Otter — 0 operation(s) for account pairing webhooks.
   name: Otter Account Pairing Webhooks API
   slug: otter-account-pairing-webhooks-api
-- description: The Delivery Webhooks API from Otter — 0 operation(s) for delivery webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Delivery Webhooks API from Otter — 0 operation(s) for delivery webhooks.
   name: Otter Delivery Webhooks API
   slug: otter-delivery-webhooks-api
-- description: The Manager Orders Webhooks API from Otter — 0 operation(s) for manager orders webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Manager Orders Webhooks API from Otter — 0 operation(s) for manager orders webhooks.
   name: Otter Manager Orders Webhooks API
   slug: otter-manager-orders-webhooks-api
-- description: The Menus Webhooks API from Otter — 0 operation(s) for menus webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Menus Webhooks API from Otter — 0 operation(s) for menus webhooks.
   name: Otter Menus Webhooks API
   slug: otter-menus-webhooks-api
-- description: The Orders Webhooks API from Otter — 0 operation(s) for orders webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Orders Webhooks API from Otter — 0 operation(s) for orders webhooks.
   name: Otter Orders Webhooks API
   slug: otter-orders-webhooks-api
-- description: The Ping Webhooks API from Otter — 0 operation(s) for ping webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Ping Webhooks API from Otter — 0 operation(s) for ping webhooks.
   name: Otter Ping Webhooks API
   slug: otter-ping-webhooks-api
-- description: The Reports Webhooks API from Otter — 0 operation(s) for reports webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Reports Webhooks API from Otter — 0 operation(s) for reports webhooks.
   name: Otter Reports Webhooks API
   slug: otter-reports-webhooks-api
-- description: The Storefront Webhooks API from Otter — 0 operation(s) for storefront webhooks.
+- baseURL: https://{public-api-url}
+  baseurl_source: declared
+  description: The Storefront Webhooks API from Otter — 0 operation(s) for storefront webhooks.
   name: Otter Storefront Webhooks API
   slug: otter-storefront-webhooks-api
 artifact_total: 1005
@@ -3157,7 +3211,7 @@ score:
     catalog_gap: 21.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -3170,7 +3224,7 @@ score:
   open_source:
     applies: true
     score: 35.0
-  previous_composite: 36.1
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -3179,7 +3233,7 @@ score:
       marker_coverage: 100.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

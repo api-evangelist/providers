@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Python library providing access to financial data, news, and symbology from within the Refinitiv Eikon or LSEG Workspace desktop application. It enables Eikon end users to access data programmatically
   name: Eikon Data API
   slug: eikon-data-api
-- description: Low-latency streaming API for real-time market data using WebSocket connections. It supports the Open Message Model (OMM) and allows applications to connect directly to Refinitiv Real-Time distributio
+- baseURL: wss://api.refinitiv.com
+  baseurl_source: declared
+  description: Low-latency streaming API for real-time market data using WebSocket connections. It supports the Open Message Model (OMM) and allows applications to connect directly to Refinitiv Real-Time distributio
   name: Refinitiv Real-Time WebSocket API
   slug: refinitiv-real-time-websocket-api
 - description: Open source Java SDK for the Refinitiv Real-Time platform, containing the Enterprise Message API (EMA) for ease-of-use rapid development and the Enterprise Transport API (ETA) for low-level, high-perf
@@ -65,10 +67,14 @@ apis:
 - description: Open source C/C++ SDK for the Refinitiv Real-Time platform, providing the Enterprise Message API (EMA) and Enterprise Transport API (ETA) for building high-performance, low-latency applications that c
   name: Refinitiv Real-Time SDK - C/C++
   slug: refinitiv-real-time-sdk-cc
-- description: Access to comprehensive news content from Refinitiv including real-time and historical news articles, Machine Readable News (MRN), and news analytics delivered through the Refinitiv Data Platform.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Access to comprehensive news content from Refinitiv including real-time and historical news articles, Machine Readable News (MRN), and news analytics delivered through the Refinitiv Data Platform.
   name: Refinitiv News API
   slug: refinitiv-news-api
-- description: 'Access to environmental, social, and governance (ESG) data, scores, and analytics for sustainable investing. The API provides ESG scores, carbon emissions data, green revenue metrics, and controversy '
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: 'Access to environmental, social, and governance (ESG) data, scores, and analytics for sustainable investing. The API provides ESG scores, carbon emissions data, green revenue metrics, and controversy '
   name: Refinitiv ESG API
   slug: refinitiv-esg-api
 - description: SOAP-based web service API for DataScope Select, providing extraction functionality for global pricing, reference, and historical data. Clients are encouraged to migrate to the REST API for new develo
@@ -110,73 +116,119 @@ apis:
 - description: API providing reporting and analytics for FX trading participants on LSEG venues, enabling access to execution quality metrics and participant insight data.
   name: FX Participant Insight Reporting API
   slug: fx-participant-insight-reporting-api
-- description: OAuth 2.0 token management for obtaining and refreshing access tokens required by all other API endpoints.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management for obtaining and refreshing access tokens required by all other API endpoints.
   name: Refinitiv Authentication API
   slug: refinitiv-authentication-api
-- description: Case creation, screening, retrieval, update, and deletion operations for entity screening against the World-Check database.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Case creation, screening, retrieval, update, and deletion operations for entity screening against the World-Check database.
   name: Refinitiv Cases API
   slug: refinitiv-cases-api
-- description: Configuration retrieval for country codes, fields, consents, and test entities required for verification requests.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Configuration retrieval for country codes, fields, consents, and test entities required for verification requests.
   name: Refinitiv Configuration API
   slug: refinitiv-configuration-api
-- description: Connectivity and authentication testing endpoints.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Connectivity and authentication testing endpoints.
   name: Refinitiv Connection API
   slug: refinitiv-connection-api
-- description: Search for organizations, equity instruments, and equity quotes using various identifier types including name, ticker, RIC, LEI, and PermID.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Search for organizations, equity instruments, and equity quotes using various identifier types including name, ticker, RIC, LEI, and PermID.
   name: Refinitiv Entity Search API
   slug: refinitiv-entity-search-api
-- description: Environmental, Social, and Governance data including scores, measures, carbon emissions, and controversy tracking across thousands of companies.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Environmental, Social, and Governance data including scores, measures, carbon emissions, and controversy tracking across thousands of companies.
   name: Refinitiv ESG API
   slug: refinitiv-esg-api
-- description: On-demand and scheduled data extraction operations for retrieving pricing, reference, corporate actions, and historical data.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: On-demand and scheduled data extraction operations for retrieving pricing, reference, corporate actions, and historical data.
   name: Refinitiv Extractions API
   slug: refinitiv-extractions-api
-- description: Group management operations for organizing cases and configuring screening parameters per group.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Group management operations for organizing cases and configuring screening parameters per group.
   name: Refinitiv Groups API
   slug: refinitiv-groups-api
-- description: Access to historical interday and intraday pricing data for financial instruments including summaries, events, and time series.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Access to historical interday and intraday pricing data for financial instruments including summaries, events, and time series.
   name: Refinitiv Historical Pricing API
   slug: refinitiv-historical-pricing-api
-- description: Instrument search, validation, and instrument list management operations.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Instrument search, validation, and instrument list management operations.
   name: Refinitiv Instruments API
   slug: refinitiv-instruments-api
-- description: Access to real-time and historical news headlines and stories from Reuters and other sources.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Access to real-time and historical news headlines and stories from Reuters and other sources.
   name: Refinitiv News API
   slug: refinitiv-news-api
-- description: Ongoing screening monitoring for cases that have been flagged for continuous surveillance against the World-Check database.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Ongoing screening monitoring for cases that have been flagged for continuous surveillance against the World-Check database.
   name: Refinitiv Ongoing Screening API
   slug: refinitiv-ongoing-screening-api
-- description: Real-time and delayed snapshot pricing data for financial instruments and pricing chains.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Real-time and delayed snapshot pricing data for financial instruments and pricing chains.
   name: Refinitiv Pricing API
   slug: refinitiv-pricing-api
-- description: Instrument Pricing Analytics (IPA) service for pricing financial contracts, calculating risk measures, and running quantitative models.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Instrument Pricing Analytics (IPA) service for pricing financial contracts, calculating risk measures, and running quantitative models.
   name: Refinitiv Quantitative Analytics API
   slug: refinitiv-quantitative-analytics-api
-- description: Match unstructured entity records to PermID identifiers for concordance and entity resolution.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Match unstructured entity records to PermID identifiers for concordance and entity resolution.
   name: Refinitiv Record Matching API
   slug: refinitiv-record-matching-api
-- description: Reference data operations for retrieving profile details and resolution toolkit configurations.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Reference data operations for retrieving profile details and resolution toolkit configurations.
   name: Refinitiv Reference API
   slug: refinitiv-reference-api
-- description: Schedule management for recurring extraction jobs.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Schedule management for recurring extraction jobs.
   name: Refinitiv Schedules API
   slug: refinitiv-schedules-api
-- description: Operations for retrieving and managing screening results including matched profiles and resolution workflows.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Operations for retrieving and managing screening results including matched profiles and resolution workflows.
   name: Refinitiv Screening Results API
   slug: refinitiv-screening-results-api
-- description: Discovery and search across organizations, instruments, quotes, and economic indicators.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Discovery and search across organizations, instruments, quotes, and economic indicators.
   name: Refinitiv Search API
   slug: refinitiv-search-api
-- description: Service discovery for streaming connections to real-time pricing and data services.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Service discovery for streaming connections to real-time pricing and data services.
   name: Refinitiv Streaming API
   slug: refinitiv-streaming-api
-- description: Symbol lookup and conversion between different identifier types including RIC, ISIN, CUSIP, SEDOL, and PermID.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Symbol lookup and conversion between different identifier types including RIC, ISIN, CUSIP, SEDOL, and PermID.
   name: Refinitiv Symbology API
   slug: refinitiv-symbology-api
-- description: User account information and preferences management.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: User account information and preferences management.
   name: Refinitiv Users API
   slug: refinitiv-users-api
-- description: Identity and document verification submission and transaction record retrieval.
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Identity and document verification submission and transaction record retrieval.
   name: Refinitiv Verification API
   slug: refinitiv-verification-api
 artifact_total: 93
@@ -539,7 +591,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -552,7 +604,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 44.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -562,10 +614,10 @@ score:
       total: 23
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png
 security:

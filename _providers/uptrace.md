@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 11 acting
 api_count: 1
 apis:
-- description: Alert rule management and notifications
+- baseURL: https://api.uptrace.dev
+  baseurl_source: declared
+  description: Alert rule management and notifications
   name: Uptrace Alerts API
   slug: uptrace-alerts-api
-- description: Chart annotation management
+- baseURL: https://api.uptrace.dev
+  baseurl_source: declared
+  description: Chart annotation management
   name: Uptrace Annotations API
   slug: uptrace-annotations-api
-- description: Dashboard management
+- baseURL: https://api.uptrace.dev
+  baseurl_source: declared
+  description: Dashboard management
   name: Uptrace Dashboards API
   slug: uptrace-dashboards-api
-- description: Prometheus metrics ingestion and querying
+- baseURL: https://api.uptrace.dev
+  baseurl_source: declared
+  description: Prometheus metrics ingestion and querying
   name: Uptrace Metrics API
   slug: uptrace-metrics-api
-- description: Project and DSN management
+- baseURL: https://api.uptrace.dev
+  baseurl_source: declared
+  description: Project and DSN management
   name: Uptrace Projects API
   slug: uptrace-projects-api
 artifact_total: 27
@@ -246,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -48,13 +48,19 @@ agentic_access:
   summary_line: 103 operations · 53 acting · 10 human-in-the-loop
 api_count: 3
 apis:
-- description: The current Browser Use Cloud REST API for long-horizon agent runs — create and monitor runs, continue conversations in sessions with a message queue, persist files in workspaces, launch and stop stea
+- baseURL: https://api.browser-use.com/api/v4
+  baseurl_source: declared
+  description: The current Browser Use Cloud REST API for long-horizon agent runs — create and monitor runs, continue conversations in sessions with a message queue, persist files in workspaces, launch and stop stea
   name: Browser Use Public API v4
   slug: browser-use-api-v4
-- description: The session-based Browser Use Cloud REST API — agent sessions with streamed messages, standalone CDP browsers, persistent workspaces and files, browser profiles, billing account balance, and an x402 m
+- baseURL: https://api.browser-use.com/api/v3
+  baseurl_source: declared
+  description: The session-based Browser Use Cloud REST API — agent sessions with streamed messages, standalone CDP browsers, persistent workspaces and files, browser profiles, billing account balance, and an x402 m
   name: Browser Use Public API v3
   slug: browser-use-api-v3
-- description: The step-priced Browser Use Cloud REST API — tasks and task logs, sessions with public share links, presigned file upload/download URLs, browser profiles, standalone browsers, and the Skills surface t
+- baseURL: https://api.browser-use.com/api/v2
+  baseurl_source: declared
+  description: The step-priced Browser Use Cloud REST API — tasks and task logs, sessions with public share links, presigned file upload/download URLs, browser profiles, standalone browsers, and the Skills surface t
   name: Browser Use Public API v2
   slug: browser-use-api-v2
 - description: Browser Use's hosted remote Model Context Protocol server. An anonymous tools/list returns six real tools — browser_task, monitor_task, list_skills, execute_skill, get_cookies and list_browser_profile
@@ -275,7 +281,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.6
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -285,7 +291,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 61.2
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,8 +303,8 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/screenshots/browser-use-2026-06-20T173722.png
 security:
 - kind: authentication

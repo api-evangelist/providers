@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -34,121 +46,199 @@ agentic_access:
   summary_line: 90 operations · 73 acting · 3 human-in-the-loop
 api_count: 10
 apis:
-- description: The 3ds API from ConnexPay — 2 operation(s) for 3ds.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The 3ds API from ConnexPay — 2 operation(s) for 3ds.
   name: ConnexPay 3ds API
   slug: connexpay-3ds-api
-- description: The 3DSecure API from ConnexPay — 1 operation(s) for 3dsecure.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The 3DSecure API from ConnexPay — 1 operation(s) for 3dsecure.
   name: ConnexPay 3 D Secure API
   slug: connexpay-3dsecure-api
-- description: The Accounting API from ConnexPay — 2 operation(s) for accounting.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Accounting API from ConnexPay — 2 operation(s) for accounting.
   name: ConnexPay Accounting API
   slug: connexpay-accounting-api
-- description: The Addendum API from ConnexPay — 3 operation(s) for addendum.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Addendum API from ConnexPay — 3 operation(s) for addendum.
   name: ConnexPay Addendum API
   slug: connexpay-addendum-api
-- description: The Authenticate API from ConnexPay — 1 operation(s) for authenticate.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Authenticate API from ConnexPay — 1 operation(s) for authenticate.
   name: ConnexPay Authenticate API
   slug: connexpay-authenticate-api
-- description: The Authonlys API from ConnexPay — 1 operation(s) for authonlys.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Authonlys API from ConnexPay — 1 operation(s) for authonlys.
   name: ConnexPay Authonlys API
   slug: connexpay-authonlys-api
-- description: The Cancel API from ConnexPay — 1 operation(s) for cancel.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Cancel API from ConnexPay — 1 operation(s) for cancel.
   name: ConnexPay Cancel API
   slug: connexpay-cancel-api
-- description: The Captures API from ConnexPay — 1 operation(s) for captures.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Captures API from ConnexPay — 1 operation(s) for captures.
   name: ConnexPay Captures API
   slug: connexpay-captures-api
-- description: The CardBooking API from ConnexPay — 1 operation(s) for cardbooking.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The CardBooking API from ConnexPay — 1 operation(s) for cardbooking.
   name: ConnexPay Card Booking API
   slug: connexpay-cardbooking-api
-- description: The Cards API from ConnexPay — 2 operation(s) for cards.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Cards API from ConnexPay — 2 operation(s) for cards.
   name: ConnexPay Cards API
   slug: connexpay-cards-api
-- description: The Chargeback API from ConnexPay — 2 operation(s) for chargeback.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Chargeback API from ConnexPay — 2 operation(s) for chargeback.
   name: ConnexPay Chargeback API
   slug: connexpay-chargeback-api
-- description: Operations for creating and managing checkout sessions. Checkout sessions are secure server-side objects that contain all payment details for a transaction. They serve as a bridge between your backend
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: Operations for creating and managing checkout sessions. Checkout sessions are secure server-side objects that contain all payment details for a transaction. They serve as a bridge between your backend
   name: ConnexPay Checkout Sessions API
   slug: connexpay-checkout-sessions-api
-- description: The Credit API from ConnexPay — 1 operation(s) for credit.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Credit API from ConnexPay — 1 operation(s) for credit.
   name: ConnexPay Credit API
   slug: connexpay-credit-api
-- description: The ExtendedData API from ConnexPay — 1 operation(s) for extendeddata.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The ExtendedData API from ConnexPay — 1 operation(s) for extendeddata.
   name: ConnexPay Extended Data API
   slug: connexpay-extendeddata-api
-- description: The HostedPaymentPageRequests API from ConnexPay — 1 operation(s) for hostedpaymentpagerequests.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The HostedPaymentPageRequests API from ConnexPay — 1 operation(s) for hostedpaymentpagerequests.
   name: ConnexPay Hosted Payment Page Requests API
   slug: connexpay-hostedpaymentpagerequests-api
-- description: The IssueACH API from ConnexPay — 2 operation(s) for issueach.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The IssueACH API from ConnexPay — 2 operation(s) for issueach.
   name: ConnexPay Issue ACH API
   slug: connexpay-issueach-api
-- description: The IssueCard API from ConnexPay — 15 operation(s) for issuecard.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The IssueCard API from ConnexPay — 15 operation(s) for issuecard.
   name: ConnexPay Issue Card API
   slug: connexpay-issuecard-api
-- description: The IssueCard (COPY) API from ConnexPay — 1 operation(s) for issuecard (copy).
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The IssueCard (COPY) API from ConnexPay — 1 operation(s) for issuecard (copy).
   name: ConnexPay IssueCard (COPY) API
   slug: connexpay-issuecard-copy-api
-- description: The MerchantFlexFunding API from ConnexPay — 1 operation(s) for merchantflexfunding.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The MerchantFlexFunding API from ConnexPay — 1 operation(s) for merchantflexfunding.
   name: ConnexPay Merchant Flex Funding API
   slug: connexpay-merchantflexfunding-api
-- description: The MerchantPayor API from ConnexPay — 2 operation(s) for merchantpayor.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The MerchantPayor API from ConnexPay — 2 operation(s) for merchantpayor.
   name: ConnexPay Merchant Payor API
   slug: connexpay-merchantpayor-api
-- description: The Merchants API from ConnexPay — 2 operation(s) for merchants.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Merchants API from ConnexPay — 2 operation(s) for merchants.
   name: ConnexPay Merchants API
   slug: connexpay-merchants-api
-- description: The MerchantSelfServiceFunding API from ConnexPay — 1 operation(s) for merchantselfservicefunding.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The MerchantSelfServiceFunding API from ConnexPay — 1 operation(s) for merchantselfservicefunding.
   name: ConnexPay Merchant Self Service Funding API
   slug: connexpay-merchantselfservicefunding-api
-- description: The Merchantsupplier API from ConnexPay — 1 operation(s) for merchantsupplier.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Merchantsupplier API from ConnexPay — 1 operation(s) for merchantsupplier.
   name: ConnexPay Merchantsupplier API
   slug: connexpay-merchantsupplier-api
-- description: Controller for handling Payment Instructions.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: Controller for handling Payment Instructions.
   name: ConnexPay Payment Instruction API
   slug: connexpay-paymentinstruction-api
-- description: The PhysicalCard API from ConnexPay — 1 operation(s) for physicalcard.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The PhysicalCard API from ConnexPay — 1 operation(s) for physicalcard.
   name: ConnexPay Physical Card API
   slug: connexpay-physicalcard-api
-- description: The PurchaseEventHistory API from ConnexPay — 1 operation(s) for purchaseeventhistory.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The PurchaseEventHistory API from ConnexPay — 1 operation(s) for purchaseeventhistory.
   name: ConnexPay Purchase Event History API
   slug: connexpay-purchaseeventhistory-api
-- description: The PushToCard API from ConnexPay — 8 operation(s) for pushtocard.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The PushToCard API from ConnexPay — 8 operation(s) for pushtocard.
   name: ConnexPay Push To Card API
   slug: connexpay-pushtocard-api
-- description: The Returns API from ConnexPay — 2 operation(s) for returns.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Returns API from ConnexPay — 2 operation(s) for returns.
   name: ConnexPay Returns API
   slug: connexpay-returns-api
-- description: The SaleEventHistory API from ConnexPay — 1 operation(s) for saleeventhistory.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The SaleEventHistory API from ConnexPay — 1 operation(s) for saleeventhistory.
   name: ConnexPay Sale Event History API
   slug: connexpay-saleeventhistory-api
-- description: The Sales Api API from ConnexPay — 1 operation(s) for sales api.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Sales Api API from ConnexPay — 1 operation(s) for sales api.
   name: ConnexPay Sales Api API
   slug: connexpay-sales-api-api
-- description: The Sales API from ConnexPay — 6 operation(s) for sales.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Sales API from ConnexPay — 6 operation(s) for sales.
   name: ConnexPay Sales API
   slug: connexpay-sales-api
-- description: The Search API from ConnexPay — 7 operation(s) for search.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Search API from ConnexPay — 7 operation(s) for search.
   name: ConnexPay Search API
   slug: connexpay-search-api
-- description: The StopPaymentService API from ConnexPay — 1 operation(s) for stoppaymentservice.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The StopPaymentService API from ConnexPay — 1 operation(s) for stoppaymentservice.
   name: ConnexPay Stop Payment Service API
   slug: connexpay-stoppaymentservice-api
-- description: The TerminateCard API from ConnexPay — 1 operation(s) for terminatecard.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The TerminateCard API from ConnexPay — 1 operation(s) for terminatecard.
   name: ConnexPay Terminate Card API
   slug: connexpay-terminatecard-api
-- description: The Token API from ConnexPay — 1 operation(s) for token.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Token API from ConnexPay — 1 operation(s) for token.
   name: ConnexPay Token API
   slug: connexpay-token-api
-- description: The UATP API from ConnexPay — 1 operation(s) for uatp.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The UATP API from ConnexPay — 1 operation(s) for uatp.
   name: ConnexPay UATP API
   slug: connexpay-uatp-api
-- description: The Verify API from ConnexPay — 1 operation(s) for verify.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Verify API from ConnexPay — 1 operation(s) for verify.
   name: ConnexPay Verify API
   slug: connexpay-verify-api
-- description: The Verify1 API from ConnexPay — 1 operation(s) for verify1.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Verify1 API from ConnexPay — 1 operation(s) for verify1.
   name: ConnexPay Verify1 API
   slug: connexpay-verify1-api
-- description: The Void API from ConnexPay — 1 operation(s) for void.
+- baseURL: https://salesapi.connexpay.com
+  baseurl_source: declared
+  description: The Void API from ConnexPay — 1 operation(s) for void.
   name: ConnexPay Void API
   slug: connexpay-void-api
 artifact_total: 84
@@ -442,7 +532,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -452,7 +542,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 51.9
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -470,7 +560,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/screenshots/connexpay-2026-08-17T080827.png
 security:

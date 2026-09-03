@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 33 operations · 18 acting
 api_count: 1
 apis:
-- description: Vacation and absence calendars, day-off requests, holidays, and leave.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Vacation and absence calendars, day-off requests, holidays, and leave.
   name: Sesame HR Absences and Leave API
   slug: sesame-hr-absences-and-leave-api
-- description: Departments, offices, and the organization chart.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Departments, offices, and the organization chart.
   name: Sesame HR Departments and Org API
   slug: sesame-hr-departments-and-org-api
-- description: Employee records and their manager relationships.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Employee records and their manager relationships.
   name: Sesame HR Employees API
   slug: sesame-hr-employees-api
-- description: Token and account metadata.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Token and account metadata.
   name: Sesame HR Meta API
   slug: sesame-hr-meta-api
-- description: Planners, shifts, and schedule templates.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Planners, shifts, and schedule templates.
   name: Sesame HR Scheduling API
   slug: sesame-hr-scheduling-api
-- description: Clock in / out, work entries, and worked-hours analytics.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Clock in / out, work entries, and worked-hours analytics.
   name: Sesame HR Time Tracking API
   slug: sesame-hr-time-tracking-api
-- description: Webhook subscription management.
+- baseURL: https://api-eu1.sesametime.com/core/v3
+  baseurl_source: declared
+  description: Webhook subscription management.
   name: Sesame HR Webhooks API
   slug: sesame-hr-webhooks-api
 artifact_total: 21
@@ -156,7 +170,7 @@ score:
   band: thin
   composite: 38.9
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +193,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/screenshots/sesame-hr-2026-09-02T155017.png
 security:
 - kind: authentication
   name: Sesame Hr Authentication

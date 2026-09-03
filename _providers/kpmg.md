@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: KPMG Origins is the public-facing platform implementing the NSW Integrated Waste Tracking System (IWTS) and is the single discoverable public REST API surface inside the KPMG brand. It exposes two API
   name: KPMG Origins (IWTS)
   slug: kpmg-origins-iwts
-- description: The Movements API from KPMG — 4 operation(s) for movements.
+- baseURL: https://app.kpmgorigins.com/client-api/
+  baseurl_source: declared
+  description: The Movements API from KPMG — 4 operation(s) for movements.
   name: KPMG Movements API
   slug: kpmg-movements-api
-- description: The Registries API from KPMG — 2 operation(s) for registries.
+- baseURL: https://app.kpmgorigins.com/client-api/
+  baseurl_source: declared
+  description: The Registries API from KPMG — 2 operation(s) for registries.
   name: KPMG Registries API
   slug: kpmg-registries-api
 artifact_total: 15
@@ -233,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png
 security:

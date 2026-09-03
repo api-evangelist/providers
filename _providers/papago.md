@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: Manages custom terminology dictionaries for contextually appropriate translations. Allows registration and retrieval of glossaries with up to 20 terms per request, applied across all Papago translatio
   name: Papago Glossary API
   slug: papago-glossary
-- description: Naver Machine Learning Translation APIs
+- baseURL: https://papago.apigw.ntruss.com/nmt/v1
+  baseurl_source: declared
+  description: Naver Machine Learning Translation APIs
   name: Papago Papago API
   slug: papago-papago-api
 artifact_total: 22
@@ -218,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papago/refs/heads/main/screenshots/papago-2026-06-20T191349.png
 security:

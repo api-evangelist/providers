@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,13 +59,19 @@ apis:
 - description: The ArcGIS Places Service provides search and retrieval of global points of interest spanning over 1,000 feature categories for location-aware applications.
   name: ArcGIS Places Service
   slug: esri-arcgis-places-service
-- description: Address search, reverse geocoding, and batch geocoding
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Address search, reverse geocoding, and batch geocoding
   name: ESRI ArcGIS Geocoding API
   slug: esri-arcgis-geocoding-api
-- description: Points of interest search and retrieval
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Points of interest search and retrieval
   name: ESRI ArcGIS Places API
   slug: esri-arcgis-places-api
-- description: Portal items, users, groups, and organizational management
+- baseURL: https://www.arcgis.com/sharing/rest
+  baseurl_source: declared
+  description: Portal items, users, groups, and organizational management
   name: ESRI ArcGIS Portal API
   slug: esri-arcgis-portal-api
 artifact_total: 40
@@ -236,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/screenshots/esri-arcgis-2026-06-20T180823.png
 security:

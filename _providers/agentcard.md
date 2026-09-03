@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 68.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 21 operations · 15 acting
 api_count: 1
 apis:
-- description: Exchange your client credentials for a platform access token, and introspect what a token acts as.
+- baseURL: https://api.agentcard.sh
+  baseurl_source: declared
+  description: Exchange your client credentials for a platform access token, and introspect what a token acts as.
   name: Agentcard Authentication API
   slug: agentcard-authentication-api
-- description: 'Connect a user to your platform: send a one-time code, verify it, record consent, and keep the connection alive.'
+- baseURL: https://api.agentcard.sh
+  baseurl_source: declared
+  description: 'Connect a user to your platform: send a one-time code, verify it, record consent, and keep the connection alive.'
   name: Agentcard Connect API
   slug: agentcard-connect-api
-- description: 'Verify a connected user''s identity: upload their ID, submit any extra fields we ask for, then show a short face scan.'
+- baseURL: https://api.agentcard.sh
+  baseurl_source: declared
+  description: 'Verify a connected user''s identity: upload their ID, submit any extra fields we ask for, then show a short face scan.'
   name: Agentcard Identity verification API
   slug: agentcard-identity-verification-api
-- description: Fund a connected user's wallet from your own UI — request a payment link, relay the phone verification code, and poll until the funds land.
+- baseURL: https://api.agentcard.sh
+  baseurl_source: declared
+  description: Fund a connected user's wallet from your own UI — request a payment link, relay the phone verification code, and poll until the funds land.
   name: Agentcard Wallet funding API
   slug: agentcard-wallet-funding-api
-- description: Move money out of a connected user's wallet — to a saved bank account or a crypto address on Base. Transfers are processed manually by the Agentcard team, usually within 1-3 business days.
+- baseURL: https://api.agentcard.sh
+  baseurl_source: declared
+  description: Move money out of a connected user's wallet — to a saved bank account or a crypto address on Base. Transfers are processed manually by the Agentcard team, usually within 1-3 business days.
   name: Agentcard Withdrawals API
   slug: agentcard-withdrawals-api
 arazzos:
@@ -277,7 +287,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -287,7 +297,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 56.0
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +315,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentcard/refs/heads/main/screenshots/agentcard-2026-07-25T181800.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 16 operations · 3 acting
 api_count: 2
 apis:
-- description: Endpoints for pushing new packages, deleting or unlisting packages, and relisting previously unlisted packages on a NuGet feed.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: spec
+  description: Endpoints for pushing new packages, deleting or unlisting packages, and relisting previously unlisted packages on a NuGet feed.
   name: NuGet Package Publish API
   slug: nuget-package-publish-api
-- description: Package registration endpoints for fetching metadata about packages, organized into an index, pages, and leaves hierarchy.
+- baseURL: https://api.nuget.org/v3/registration5-gz-semver2
+  baseurl_source: spec
+  description: Package registration endpoints for fetching metadata about packages, organized into an index, pages, and leaves hierarchy.
   name: NuGet Registration API
   slug: nuget-registration-api
-- description: The service index is the entry point for the NuGet V3 API. It is a JSON document that lists all available resources and their capabilities.
+- baseURL: https://api.nuget.org/v3
+  baseurl_source: spec
+  description: The service index is the entry point for the NuGet V3 API. It is a JSON document that lists all available resources and their capabilities.
   name: NuGet Service Index API
   slug: nuget-service-index-api
 artifact_total: 53
@@ -316,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/screenshots/nuget-2026-06-20T190513.png
 security:

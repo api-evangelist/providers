@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 2
 apis:
-- description: Operations operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
   name: Azure Front Door Operations API
   slug: microsoft-azure-front-door-operations-api
-- description: Profiles operations
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Profiles operations
   name: Azure Front Door Profiles API
   slug: microsoft-azure-front-door-profiles-api
 artifact_total: 13
@@ -170,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/screenshots/microsoft-azure-front-door-2026-06-20T185415.png
 security:

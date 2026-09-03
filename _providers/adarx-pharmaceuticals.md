@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The STOP-HAE trial-site (clinic) registry.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: The STOP-HAE trial-site (clinic) registry.
   name: ADARx Pharmaceuticals Clinics API
   slug: adarx-pharmaceuticals-clinics-api
-- description: Press releases, publications and corporate pages.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: Press releases, publications and corporate pages.
   name: ADARx Pharmaceuticals Content API
   slug: adarx-pharmaceuticals-content-api
-- description: oEmbed provider and SEO head rendering.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed provider and SEO head rendering.
   name: ADARx Pharmaceuticals Embed API
   slug: adarx-pharmaceuticals-embed-api
-- description: Route discovery and site identity.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: Route discovery and site identity.
   name: ADARx Pharmaceuticals Index API
   slug: adarx-pharmaceuticals-index-api
-- description: The site media library.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: The site media library.
   name: ADARx Pharmaceuticals Media API
   slug: adarx-pharmaceuticals-media-api
-- description: Content authors registered on the site.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: Content authors registered on the site.
   name: ADARx Pharmaceuticals People API
   slug: adarx-pharmaceuticals-people-api
-- description: Cross-content search.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search.
   name: ADARx Pharmaceuticals Search API
   slug: adarx-pharmaceuticals-search-api
-- description: Categories, tags, taxonomies and post statuses.
+- baseURL: https://www.adarx.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags, taxonomies and post statuses.
   name: ADARx Pharmaceuticals Taxonomy API
   slug: adarx-pharmaceuticals-taxonomy-api
 artifact_total: 20
@@ -246,7 +273,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -3.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -256,7 +283,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.4
+  previous_composite: 28.5
   provenance:
     conformance: derived
     contracts:
@@ -272,7 +299,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:

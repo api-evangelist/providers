@@ -32,10 +32,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Simplified HTTP version of the MTProto API for bots
+- baseURL: https://core.telegram.org/bots/api
+  baseurl_source: declared
+  description: Simplified HTTP version of the MTProto API for bots
   name: Telegram Bot
   slug: telegram-bot
 artifact_total: 2
@@ -89,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram-bot/refs/heads/main/screenshots/telegram-bot-2026-06-20T195036.png
 security:

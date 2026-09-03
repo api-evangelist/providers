@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: Entity search and metadata
+- baseURL: https://api.stockdata.org/v1
+  baseurl_source: declared
+  description: Entity search and metadata
   name: StockData Entities API
   slug: stockdata-entities-api
-- description: Global financial news with sentiment analysis
+- baseURL: https://api.stockdata.org/v1
+  baseurl_source: declared
+  description: Global financial news with sentiment analysis
   name: StockData News API
   slug: stockdata-news-api
-- description: Real-time and historical stock market price data
+- baseURL: https://api.stockdata.org/v1
+  baseurl_source: declared
+  description: Real-time and historical stock market price data
   name: StockData Stock Data API
   slug: stockdata-stock-data-api
 artifact_total: 26
@@ -333,7 +339,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 18 operations · 9 acting
 api_count: 1
 apis:
-- description: 'Required headers, token refresh, and EIP-712 CreateProxy signature for login. For overview, getting started, and environment configuration, see **Overview**. ## Required headers - `Authorization: Bear'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'Required headers, token refresh, and EIP-712 CreateProxy signature for login. For overview, getting started, and environment configuration, see **Overview**. ## Required headers - `Authorization: Bear'
   name: Pred Authentication API
   slug: pred-authentication-api
-- description: 'Market information and discovery (public; no auth). Use this section to understand **parent_market_id** and **market_id** and to list all markets. ## What are parent_market_id and market_id? - **paren'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'Market information and discovery (public; no auth). Use this section to understand **parent_market_id** and **market_id** and to list all markets. ## What are parent_market_id and market_id? - **paren'
   name: Pred Market Discovery API
   slug: pred-market-discovery-api
-- description: 'Order placement, cancellation, and management endpoints. ## EIP-712 order signature All orders must be signed using EIP-712. Format: `0x<r><s><v>` (132 hex characters), low-s normalized. **Domain (HAS'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'Order placement, cancellation, and management endpoints. ## EIP-712 order signature All orders must be signed using EIP-712. Format: `0x<r><s><v>` (132 hex characters), low-s normalized. **Domain (HAS'
   name: Pred Orders API
   slug: pred-orders-api
-- description: '## About PRED PRED is a fully decentralized prediction market platform built on Base (Ethereum L2), enabling users to trade on real-world events with LONG and SHORT positions—similar to perpetual futu'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: '## About PRED PRED is a fully decentralized prediction market platform built on Base (Ethereum L2), enabling users to trade on real-world events with LONG and SHORT positions—similar to perpetual futu'
   name: Pred Overview API
   slug: pred-overview-api
-- description: 'Portfolio, balance, positions, and open orders. **Endpoints:** - Balance: `GET /api/v1/portfolio/balance` - Positions: `GET /api/v1/portfolio/positions` - Earnings: `GET /api/v1/portfolio/earnings` - '
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'Portfolio, balance, positions, and open orders. **Endpoints:** - Balance: `GET /api/v1/portfolio/balance` - Positions: `GET /api/v1/portfolio/positions` - Earnings: `GET /api/v1/portfolio/earnings` - '
   name: Pred Portfolio API
   slug: pred-portfolio-api
-- description: 'Safe approval endpoints for enabling trading on your proxy wallet. ## Safe approval signature — raw secp256k1 - Sign the `transactionHash` from prepare response **directly** (raw secp256k1) - **No EIP'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'Safe approval endpoints for enabling trading on your proxy wallet. ## Safe approval signature — raw secp256k1 - Sign the `transactionHash` from prepare response **directly** (raw secp256k1) - **No EIP'
   name: Pred User API
   slug: pred-user-api
-- description: 'PRED uses [Ably](https://ably.com/) for real-time WebSocket data. Use Ably''s token auth with `POST /api/v1/auth/ably` as your `authCallback`. ## Token auth Call `POST /api/v1/auth/ably` to get raw Abl'
+- baseURL: https://www.pred.app
+  baseurl_source: declared
+  description: 'PRED uses [Ably](https://ably.com/) for real-time WebSocket data. Use Ably''s token auth with `POST /api/v1/auth/ably` as your `authCallback`. ## Token auth Call `POST /api/v1/auth/ably` to get raw Abl'
   name: Pred WebSocket API
   slug: pred-websocket-api
 arazzos:
@@ -243,7 +257,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -253,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +285,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pred/refs/heads/main/screenshots/pred-2026-08-17T081353.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 5
@@ -50,10 +50,14 @@ apis:
 - description: The Satori API is Heroic Labs' LiveOps platform API enabling game developers to manage live operations including feature flags, A/B experiments, audiences, and scheduled events without redeploying gam
   name: Satori API
   slug: satori-api
-- description: The Console API from Heroic Labs — 73 operation(s) for console.
+- baseURL: https://127.0.0.1:7350
+  baseurl_source: declared
+  description: The Console API from Heroic Labs — 73 operation(s) for console.
   name: Heroic Labs Console API
   slug: heroiclabs-console-api
-- description: The Rpc API from Heroic Labs — 131 operation(s) for rpc.
+- baseURL: https://127.0.0.1:7350
+  baseurl_source: declared
+  description: The Rpc API from Heroic Labs — 131 operation(s) for rpc.
   name: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
 artifact_total: 34
@@ -366,7 +370,7 @@ score:
     catalog_gap: 31.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -379,7 +383,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 64.9
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,7 +395,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/screenshots/heroiclabs-2026-07-25T221028.png
 security:

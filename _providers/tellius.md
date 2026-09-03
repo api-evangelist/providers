@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Tellius backend REST and WebSocket API. Authenticate against /api/auth/login for a JWT (or a cookie session), then call the Insights APIs (list, delete, notifications), the Search APIs (a WebSocke
@@ -199,11 +213,11 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -213,14 +227,15 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 50.4
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tellius/refs/heads/main/screenshots/tellius-2026-09-02T162748.png
 security:
 - kind: authentication
   name: Tellius Authentication

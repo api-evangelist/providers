@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Digital design studio API supporting home personalization including structural options, exterior design selections, interior finishes, and upgrades. Powers the online home configuration and reservatio
   name: Taylor Morrison Design Studio API
   slug: taylor-morrison-design-studio-api
-- description: New home community search and details
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: New home community search and details
   name: taylor-morrison-home Communities API
   slug: taylor-morrison-home-communities-api
-- description: Design studio selections and options
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: Design studio selections and options
   name: taylor-morrison-home Design API
   slug: taylor-morrison-home-design-api
-- description: Floor plan catalog and options
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: Floor plan catalog and options
   name: taylor-morrison-home Floor Plans API
   slug: taylor-morrison-home-floor-plans-api
-- description: Available homes and inventory
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: Available homes and inventory
   name: taylor-morrison-home Homes API
   slug: taylor-morrison-home-homes-api
-- description: Lot availability and details
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: Lot availability and details
   name: taylor-morrison-home Lots API
   slug: taylor-morrison-home-lots-api
-- description: Online home reservation and configuration
+- baseURL: https://www.taylormorrison.com/api
+  baseurl_source: declared
+  description: Online home reservation and configuration
   name: taylor-morrison-home Reservations API
   slug: taylor-morrison-home-reservations-api
 artifact_total: 30
@@ -176,16 +188,16 @@ jsonld:
   slug: taylor-morrison-home-context
 layout: provider
 modified: '2026-05-19'
-name: taylor-morrison-home
+name: Taylor Morrison Home
 nav: Providers
 network: true
-overview: 'taylor-morrison-home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Communities API, Design API, Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real-Estate, Fortune 1000, New Homes, and Communities.
+overview: 'Taylor Morrison Home publishes 6 APIs on the [APIs.io](https://apis.io/) network, including taylor-morrison-home Communities API, taylor-morrison-home Design API, taylor-morrison-home Floor Plans API, and 3 more. Tagged areas include Homebuilding, Real-Estate, Fortune 1000, New Homes, and Communities.
 
 
-  The taylor-morrison-home catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
+  The Taylor Morrison Home catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  taylor-morrison-home''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
+  Taylor Morrison Home''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
 plans:
 - name: Taylor Morrison Home Plans Pricing
   plan_count: 1
@@ -214,7 +226,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: taylor-morrison-home API Rules
+  name: Taylor Morrison Home API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -225,7 +237,7 @@ rules:
 - effective_rule_count: 51
   extends:
   - spectral:oas
-  name: taylor-morrison-home API Rules
+  name: Taylor Morrison Home API Rules
   rule_count: 10
   severity_counts:
     error: 1
@@ -235,7 +247,7 @@ rules:
   slug: taylor-morrison-home-spectral-rules
 - effective_rule_count: 8
   extends: []
-  name: taylor-morrison-home API Rules
+  name: Taylor Morrison Home API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -270,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylor-morrison-home/refs/heads/main/screenshots/taylor-morrison-home-2026-06-20T194942.png
 security:

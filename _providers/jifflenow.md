@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Jifflenow REST API exposes the meeting-automation core of Cvent Jifflenow as JSON over HTTPS. Documented modules cover user management (list users, push users into an event, block a user's calenda
@@ -191,7 +191,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jifflenow/refs/heads/main/screenshots/jifflenow-2026-07-25T223147.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 44 operations · 26 acting
 api_count: 1
 apis:
-- description: Manage applicants moving through hiring funnels.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage applicants moving through hiring funnels.
   name: Fountain Applicants API
   slug: fountain-com-applicants-api
-- description: Manage secure applicant documents.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage secure applicant documents.
   name: Fountain Documents API
   slug: fountain-com-documents-api
-- description: Assign and manage labels on applicants and stages.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Assign and manage labels on applicants and stages.
   name: Fountain Labels API
   slug: fountain-com-labels-api
-- description: Manage openings (funnels) - the hiring workflows.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage openings (funnels) - the hiring workflows.
   name: Fountain Openings API
   slug: fountain-com-openings-api
-- description: Manage the job positions applicants are hired into.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage the job positions applicants are hired into.
   name: Fountain Positions API
   slug: fountain-com-positions-api
-- description: Manage interview / calendar slots and bookings.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage interview / calendar slots and bookings.
   name: Fountain Scheduling API
   slug: fountain-com-scheduling-api
-- description: Retrieve stages and their available scheduling slots.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Retrieve stages and their available scheduling slots.
   name: Fountain Stages API
   slug: fountain-com-stages-api
-- description: Manage webhook settings for hiring event notifications.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage webhook settings for hiring event notifications.
   name: Fountain Webhooks API
   slug: fountain-com-webhooks-api
-- description: Manage post-hire workers.
+- baseURL: https://api.fountain.com/v2
+  baseurl_source: declared
+  description: Manage post-hire workers.
   name: Fountain Workers API
   slug: fountain-com-workers-api
 artifact_total: 27
@@ -199,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/screenshots/fountain-com-2026-07-25T215044.png
 security:

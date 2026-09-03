@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,22 +34,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
   name: SCE Green Button Connect My Data
   slug: sce-green-button-connect-my-data
-- description: Undocumented JSON endpoints the DRPEP web app calls directly. Observed answering anonymously; SCE publishes no contract for them.
+- baseURL: https://drpep.sce.com/arcgis_server/rest/services
+  baseurl_source: declared
+  description: Undocumented JSON endpoints the DRPEP web app calls directly. Observed answering anonymously; SCE publishes no contract for them.
   name: Southern California Edison DRPEP Portal API
   slug: southern-california-edison-drpep-portal-api
-- description: The 15 hosted FeatureServers and their layer/table descriptors.
+- baseURL: https://drpep.sce.com/arcgis_server/rest/services
+  baseurl_source: declared
+  description: The 15 hosted FeatureServers and their layer/table descriptors.
   name: Southern California Edison Feature Services API
   slug: southern-california-edison-feature-services-api
-- description: Attribute and spatial queries against a feature layer or table.
+- baseURL: https://drpep.sce.com/arcgis_server/rest/services
+  baseurl_source: declared
+  description: Attribute and spatial queries against a feature layer or table.
   name: Southern California Edison Query API
   slug: southern-california-edison-query-api
-- description: ArcGIS Enterprise server metadata and the service catalog.
+- baseURL: https://drpep.sce.com/arcgis_server/rest/services
+  baseurl_source: declared
+  description: ArcGIS Enterprise server metadata and the service catalog.
   name: Southern California Edison Server API
   slug: southern-california-edison-server-api
 artifact_total: 9
@@ -165,7 +184,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +214,9 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/screenshots/southern-california-edison-2026-09-02T160255.png
 security:
 - kind: authentication
   name: Southern California Edison Authentication

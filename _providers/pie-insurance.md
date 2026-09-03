@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 11 operations · 7 acting
 api_count: 1
 apis:
-- description: The Appetite API from Pie Insurance — 1 operation(s) for appetite.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The Appetite API from Pie Insurance — 1 operation(s) for appetite.
   name: Pie Insurance Appetite API
   slug: pie-insurance-appetite-api
-- description: The ClassCodeSearch API from Pie Insurance — 1 operation(s) for classcodesearch.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The ClassCodeSearch API from Pie Insurance — 1 operation(s) for classcodesearch.
   name: Pie Insurance ClassCodeSearch API
   slug: pie-insurance-classcodesearch-api
-- description: The Eligibility API from Pie Insurance — 1 operation(s) for eligibility.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The Eligibility API from Pie Insurance — 1 operation(s) for eligibility.
   name: Pie Insurance Eligibility API
   slug: pie-insurance-eligibility-api
-- description: The PriceIndication API from Pie Insurance — 2 operation(s) for priceindication.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The PriceIndication API from Pie Insurance — 2 operation(s) for priceindication.
   name: Pie Insurance PriceIndication API
   slug: pie-insurance-priceindication-api
-- description: The QuoteDocument API from Pie Insurance — 1 operation(s) for quotedocument.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The QuoteDocument API from Pie Insurance — 1 operation(s) for quotedocument.
   name: Pie Insurance QuoteDocument API
   slug: pie-insurance-quotedocument-api
-- description: The QuotePdf API from Pie Insurance — 1 operation(s) for quotepdf.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The QuotePdf API from Pie Insurance — 1 operation(s) for quotepdf.
   name: Pie Insurance QuotePdf API
   slug: pie-insurance-quotepdf-api
-- description: The Quotes API from Pie Insurance — 2 operation(s) for quotes.
+- baseURL: https://api.post-prod.pieinsurance.com/api/v1
+  baseurl_source: declared
+  description: The Quotes API from Pie Insurance — 2 operation(s) for quotes.
   name: Pie Insurance Quotes API
   slug: pie-insurance-quotes-api
 artifact_total: 32
@@ -267,7 +281,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:

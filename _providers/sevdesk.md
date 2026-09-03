@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 30 operations · 13 acting
 api_count: 1
 apis:
-- description: Bank and clearing check accounts.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Bank and clearing check accounts.
   name: sevdesk CheckAccount API
   slug: sevdesk-checkaccount-api
-- description: Transactions booked against a check account.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Transactions booked against a check account.
   name: sevdesk CheckAccountTransaction API
   slug: sevdesk-checkaccounttransaction-api
-- description: Contacts - customers, suppliers, and other business partners.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Contacts - customers, suppliers, and other business partners.
   name: sevdesk Contact API
   slug: sevdesk-contact-api
-- description: Credit notes issued to contacts.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Credit notes issued to contacts.
   name: sevdesk CreditNote API
   slug: sevdesk-creditnote-api
-- description: Outgoing invoices and their lifecycle.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Outgoing invoices and their lifecycle.
   name: sevdesk Invoice API
   slug: sevdesk-invoice-api
-- description: Orders, quotations, and packing lists.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Orders, quotations, and packing lists.
   name: sevdesk Order API
   slug: sevdesk-order-api
-- description: Parts / articles with stock (inventory).
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Parts / articles with stock (inventory).
   name: sevdesk Part API
   slug: sevdesk-part-api
-- description: Tags and tag relations used to label resources.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Tags and tag relations used to label resources.
   name: sevdesk Tag API
   slug: sevdesk-tag-api
-- description: Vouchers (receipts) used for expense and revenue bookkeeping.
+- baseURL: https://my.sevdesk.de/api/v1
+  baseurl_source: declared
+  description: Vouchers (receipts) used for expense and revenue bookkeeping.
   name: sevdesk Voucher API
   slug: sevdesk-voucher-api
 artifact_total: 26
@@ -180,7 +198,7 @@ score:
   band: developing
   composite: 40.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +221,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sevdesk/refs/heads/main/screenshots/sevdesk-2026-09-02T155034.png
 security:
 - kind: authentication
   name: Sevdesk Authentication

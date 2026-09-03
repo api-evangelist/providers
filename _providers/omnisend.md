@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -45,52 +45,84 @@ agentic_access:
   summary_line: 60 operations · 38 acting
 api_count: 21
 apis:
-- description: The Brands API from Omnisend — 2 operation(s) for brands. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Brands API from Omnisend — 2 operation(s) for brands. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Brands API
   slug: omnisend-brands-api
-- description: The Campaigns API from Omnisend — 14 operation(s) for campaigns. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Campaigns API from Omnisend — 14 operation(s) for campaigns. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Campaigns API
   slug: omnisend-campaigns-api
-- description: The Contacts API from Omnisend — 7 operation(s) for contacts. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Contacts API from Omnisend — 7 operation(s) for contacts. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Contacts API
   slug: omnisend-contacts-api
-- description: The Events API from Omnisend — 1 operation(s) for events. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Events API from Omnisend — 1 operation(s) for events. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Events API
   slug: omnisend-events-api
-- description: The Images API from Omnisend — 5 operation(s) for images. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Images API from Omnisend — 5 operation(s) for images. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Images API
   slug: omnisend-images-api
-- description: The Products API from Omnisend — 5 operation(s) for products. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Products API from Omnisend — 5 operation(s) for products. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Products API
   slug: omnisend-products-api
-- description: The Segments API from Omnisend — 6 operation(s) for segments. Version 2026-03-15, harvested from Omnisend's published contract.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Segments API from Omnisend — 6 operation(s) for segments. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Segments API
   slug: omnisend-segments-api
-- description: The Automations API from Omnisend — 13 operation(s) for creating, enabling, copying and restructuring event-triggered automation workflows, including the sendWebhook action block that is Omnisend's on
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Automations API from Omnisend — 13 operation(s) for creating, enabling, copying and restructuring event-triggered automation workflows, including the sendWebhook action block that is Omnisend's on
   name: Omnisend Automations API
   slug: omnisend-automations-api
-- description: The Event Metadata API from Omnisend — 3 operation(s) for declaring, merging and querying brand-custom event schemas. The only Omnisend operations that carry an operationId.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Event Metadata API from Omnisend — 3 operation(s) for declaring, merging and querying brand-custom event schemas. The only Omnisend operations that carry an operationId.
   name: Omnisend Event Metadata API
   slug: omnisend-event-metadata-api
-- description: The Batch API from Omnisend — 3 operation(s) for batch.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Batch API from Omnisend — 3 operation(s) for batch.
   name: Omnisend Batch API
   slug: omnisend-batch-api
-- description: The Email Content API from Omnisend — 2 operation(s) for email content.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Email Content API from Omnisend — 2 operation(s) for email content.
   name: Omnisend Email Content API
   slug: omnisend-email-content-api
-- description: The Email Templates API from Omnisend — 4 operation(s) for email templates.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Email Templates API from Omnisend — 4 operation(s) for email templates.
   name: Omnisend Email Templates API
   slug: omnisend-email-templates-api
-- description: The Email Universal Layouts API from Omnisend — 2 operation(s) for email universal layouts.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Email Universal Layouts API from Omnisend — 2 operation(s) for email universal layouts.
   name: Omnisend Email Universal Layouts API
   slug: omnisend-email-universal-layouts-api
-- description: The Product Categories API from Omnisend — 2 operation(s) for product categories.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Product Categories API from Omnisend — 2 operation(s) for product categories.
   name: Omnisend Product Categories API
   slug: omnisend-product-categories-api
-- description: The Reports API from Omnisend — 1 operation(s) for reports.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Reports API from Omnisend — 1 operation(s) for reports.
   name: Omnisend Reports API
   slug: omnisend-reports-api
-- description: The Statistics API from Omnisend — 1 operation(s) for statistics.
+- baseURL: https://api.omnisend.com/api
+  baseurl_source: declared
+  description: The Statistics API from Omnisend — 1 operation(s) for statistics.
   name: Omnisend Statistics API
   slug: omnisend-statistics-api
 arazzos:
@@ -618,7 +650,7 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -628,7 +660,7 @@ score:
     discoverability: 81.5
     governance: 28.0
     operational_transparency: 97.4
-  previous_composite: 67.3
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -640,7 +672,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:

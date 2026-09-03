@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 70 operations · 41 acting · 3 human-in-the-loop
 api_count: 4
 apis:
-- description: Manage agents (people) in the Assembled workforce. List, retrieve, create, and update agents along with their roles, channels, skills, and team assignments. The People API is the entry point for synci
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Manage agents (people) in the Assembled workforce. List, retrieve, create, and update agents along with their roles, channels, skills, and team assignments. The People API is the entry point for synci
   name: Assembled People API
   slug: assembled-people-api
-- description: Read and write real-time agent state used to drive adherence reporting, live dashboards, and dynamic routing. Supports bulk state ingestion from upstream telephony and CRM platforms, a condensed non-o
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Read and write real-time agent state used to drive adherence reporting, live dashboards, and dynamic routing. Supports bulk state ingestion from upstream telephony and CRM platforms, a condensed non-o
   name: Assembled Agent State API
   slug: assembled-agent-state-api
-- description: 'Create, list, and delete activities — the scheduled shifts, breaks, time off, training, and meetings that make up an agent''s calendar. Includes bulk creation, soft-delete semantics, and management of '
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: 'Create, list, and delete activities — the scheduled shifts, breaks, time off, training, and meetings that make up an agent''s calendar. Includes bulk creation, soft-delete semantics, and management of '
   name: Assembled Activities API
   slug: assembled-activities-api
-- description: Retrieve Assembled's ML-generated forecasts, forecast totals, manual adjustments, and detected outliers. The forecasted-vs-actuals endpoint compares predicted to realised volume so support leaders can
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Retrieve Assembled's ML-generated forecasts, forecast totals, manual adjustments, and detected outliers. The forecasted-vs-actuals endpoint compares predicted to realised volume so support leaders can
   name: Assembled Forecasts API
   slug: assembled-forecasts-api
-- description: Programmatically create, list, and cancel time-off requests, and pull a stream of time-off updates for downstream HRIS or payroll synchronisation. The endpoint underpins the automated time-off and shi
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Programmatically create, list, and cancel time-off requests, and pull a stream of time-off updates for downstream HRIS or payroll synchronisation. The endpoint underpins the automated time-off and shi
   name: Assembled Time Off API
   slug: assembled-time-off-api
-- description: Create and list staffing requirements that express how many agents are needed by queue, site, team, or skill across time intervals. Requirement types describe the family of need (for example, headcoun
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Create and list staffing requirements that express how many agents are needed by queue, site, team, or skill across time intervals. Requirement types describe the family of need (for example, headcoun
   name: Assembled Requirements API
   slug: assembled-requirements-api
-- description: Bulk-ingest and bulk-update customer conversation records — phone, email, chat, SMS, social, and back-office — so they can be associated with agents, queues, and channels for reporting, QA, and analyt
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Bulk-ingest and bulk-update customer conversation records — phone, email, chat, SMS, social, and back-office — so they can be associated with agents, queues, and channels for reporting, QA, and analyt
   name: Assembled Conversations API
   slug: assembled-conversations-api
-- description: Asynchronously generate and retrieve structured reports including adherence, ticket statistics, and handle times. Reports are kicked off with a POST /v0/reports/:reportType call and polled via GET /v0
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Asynchronously generate and retrieve structured reports including adherence, ticket statistics, and handle times. Reports are kicked off with a POST /v0/reports/:reportType call and polled via GET /v0
   name: Assembled Reports API
   slug: assembled-reports-api
-- description: Types/categories of activity
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Types/categories of activity
   name: Assembled Activity Types API
   slug: assembled-activity-types-api
-- description: Map platform IDs to Assembled people
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Map platform IDs to Assembled people
   name: Assembled Agent Associations API
   slug: assembled-agent-associations-api
-- description: The Assist Articles API from Assembled — 2 operation(s) for assist articles.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Assist Articles API from Assembled — 2 operation(s) for assist articles.
   name: Assembled Assist Articles API
   slug: assembled-assist-articles-api
-- description: The Assist Conversations API from Assembled — 2 operation(s) for assist conversations.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Assist Conversations API from Assembled — 2 operation(s) for assist conversations.
   name: Assembled Assist Conversations API
   slug: assembled-assist-conversations-api
-- description: The Assist Replies API from Assembled — 1 operation(s) for assist replies.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Assist Replies API from Assembled — 1 operation(s) for assist replies.
   name: Assembled Assist Replies API
   slug: assembled-assist-replies-api
-- description: The Assist Responses API from Assembled — 2 operation(s) for assist responses.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Assist Responses API from Assembled — 2 operation(s) for assist responses.
   name: Assembled Assist Responses API
   slug: assembled-assist-responses-api
-- description: Audit trail of schedule modifications
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Audit trail of schedule modifications
   name: Assembled Event Changes API
   slug: assembled-event-changes-api
-- description: The Forecast Adjustments API from Assembled — 3 operation(s) for forecast adjustments.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Forecast Adjustments API from Assembled — 3 operation(s) for forecast adjustments.
   name: Assembled Forecast Adjustments API
   slug: assembled-forecast-adjustments-api
-- description: The Forecast Outliers API from Assembled — 3 operation(s) for forecast outliers.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Forecast Outliers API from Assembled — 3 operation(s) for forecast outliers.
   name: Assembled Forecast Outliers API
   slug: assembled-forecast-outliers-api
-- description: The Forecast Totals API from Assembled — 2 operation(s) for forecast totals.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Forecast Totals API from Assembled — 2 operation(s) for forecast totals.
   name: Assembled Forecast Totals API
   slug: assembled-forecast-totals-api
-- description: The Forecasts Vs Actuals API from Assembled — 1 operation(s) for forecasts vs actuals.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Forecasts Vs Actuals API from Assembled — 1 operation(s) for forecasts vs actuals.
   name: Assembled Forecasts Vs Actuals API
   slug: assembled-forecasts-vs-actuals-api
-- description: The Quality Assurance API from Assembled — 1 operation(s) for quality assurance.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Quality Assurance API from Assembled — 1 operation(s) for quality assurance.
   name: Assembled Quality Assurance API
   slug: assembled-quality-assurance-api
-- description: The Queues API from Assembled — 2 operation(s) for queues.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Queues API from Assembled — 2 operation(s) for queues.
   name: Assembled Queues API
   slug: assembled-queues-api
-- description: The Requirement Types API from Assembled — 1 operation(s) for requirement types.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Requirement Types API from Assembled — 1 operation(s) for requirement types.
   name: Assembled Requirement Types API
   slug: assembled-requirement-types-api
-- description: Available roles that can be assigned to people
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: Available roles that can be assigned to people
   name: Assembled Roles API
   slug: assembled-roles-api
-- description: The Sites API from Assembled — 2 operation(s) for sites.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Sites API from Assembled — 2 operation(s) for sites.
   name: Assembled Sites API
   slug: assembled-sites-api
-- description: The Skills API from Assembled — 2 operation(s) for skills.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Skills API from Assembled — 2 operation(s) for skills.
   name: Assembled Skills API
   slug: assembled-skills-api
-- description: The Teams API from Assembled — 2 operation(s) for teams.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Teams API from Assembled — 2 operation(s) for teams.
   name: Assembled Teams API
   slug: assembled-teams-api
-- description: The Working Hours API from Assembled — 2 operation(s) for working hours.
+- baseURL: https://api.assembledhq.com
+  baseurl_source: spec
+  description: The Working Hours API from Assembled — 2 operation(s) for working hours.
   name: Assembled Working Hours API
   slug: assembled-working-hours-api
 arazzos:
@@ -667,7 +721,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:

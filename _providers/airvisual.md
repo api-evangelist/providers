@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: List supported cities and retrieve city air quality data
+- baseURL: https://api.airvisual.com/v2
+  baseurl_source: declared
+  description: List supported cities and retrieve city air quality data
   name: IQAir AirVisual Cities API
   slug: airvisual-cities-api
-- description: List supported countries
+- baseURL: https://api.airvisual.com/v2
+  baseurl_source: declared
+  description: List supported countries
   name: IQAir AirVisual Countries API
   slug: airvisual-countries-api
-- description: City air quality rankings
+- baseURL: https://api.airvisual.com/v2
+  baseurl_source: declared
+  description: City air quality rankings
   name: IQAir AirVisual Rankings API
   slug: airvisual-rankings-api
-- description: List supported states within a country
+- baseURL: https://api.airvisual.com/v2
+  baseurl_source: declared
+  description: List supported states within a country
   name: IQAir AirVisual States API
   slug: airvisual-states-api
-- description: List monitoring stations and retrieve station data
+- baseURL: https://api.airvisual.com/v2
+  baseurl_source: declared
+  description: List monitoring stations and retrieve station data
   name: IQAir AirVisual Stations API
   slug: airvisual-stations-api
 artifact_total: 25
@@ -219,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airvisual/refs/heads/main/screenshots/airvisual-2026-06-20T171441.png
 security:

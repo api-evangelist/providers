@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -44,139 +44,229 @@ agentic_access:
   summary_line: 960 operations · 616 acting · 72 human-in-the-loop
 api_count: 10
 apis:
-- description: Manage Soracom Air for Cellular SIMs (and Subscribers) — list, get, create Arc virtual SIMs, activate/deactivate/suspend/terminate, set group binding, set IMEI lock, view session events, manage SIM pr
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Manage Soracom Air for Cellular SIMs (and Subscribers) — list, get, create Arc virtual SIMs, activate/deactivate/suspend/terminate, set group binding, set IMEI lock, view session events, manage SIM pr
   name: Soracom SIM Management API
   slug: soracom-sim-api
-- description: 'Manage Soracom groups and per-service configuration. Groups bind SIMs and devices to namespaced configuration for SoracomAir, SoracomBeam, SoracomFunnel, SoracomFunk, SoracomHarvest, SoracomJunction, '
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'Manage Soracom groups and per-service configuration. Groups bind SIMs and devices to namespaced configuration for SoracomAir, SoracomBeam, SoracomFunnel, SoracomFunk, SoracomHarvest, SoracomJunction, '
   name: Soracom Group Configuration API
   slug: soracom-group-api
-- description: Retrieve usage charges (monthly bills, daily bill items, per-SIM and per-bill-item summaries), export bills to CSV, manage payment methods, register coupons, manage orders, and configure shipping addr
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Retrieve usage charges (monthly bills, daily bill items, per-SIM and per-bill-item summaries), export bills to CSV, manage payment methods, register coupons, manage orders, and configure shipping addr
   name: Soracom Billing API
   slug: soracom-billing-api
-- description: Retrieve cellular data usage statistics (per SIM/subscriber/group/account), API and Napter audit logs, operator error logs, and diagnostic features.
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Retrieve cellular data usage statistics (per SIM/subscriber/group/account), API and Napter audit logs, operator error logs, and diagnostic features.
   name: Soracom Stats and Diagnostics API
   slug: soracom-stats-api
-- description: Authenticate operators (email/password or AuthKey), issue short-lived API Keys + Tokens, manage operator profile, SAM (Soracom Access Management) users and roles, MFA settings, registered email addres
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Authenticate operators (email/password or AuthKey), issue short-lived API Keys + Tokens, manage operator profile, SAM (Soracom Access Management) users and roles, MFA settings, registered email addres
   name: Soracom Auth and Access Management API
   slug: soracom-auth-api
-- description: Manage Soracom Lagoon (managed Grafana) subscription, plan tier, organization, dashboards, users, licenses, and data sources.
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Manage Soracom Lagoon (managed Grafana) subscription, plan tier, organization, dashboards, users, licenses, and data sources.
   name: Soracom Lagoon API
   slug: soracom-lagoon-api
-- description: Manage Soracom Cloud Camera Services (SoraCam) devices, livestream URLs, image exports, recording exports, motion events, atomic timestamps, and dedicated cellular pack provisioning.
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Manage Soracom Cloud Camera Services (SoraCam) devices, livestream URLs, image exports, recording exports, motion events, atomic timestamps, and dedicated cellular pack provisioning.
   name: Soracom Cloud Camera Services API
   slug: soracom-soracam-api
-- description: Batch processing — create batch groups, define jobs that invoke API operations across many SIMs or devices, and inspect tasks for status and results.
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Batch processing — create batch groups, define jobs that invoke API operations across many SIMs or devices, and inspect tasks for status and results.
   name: Soracom Batch API
   slug: soracom-batch-api
-- description: '[Soracom Query](/en/docs/query/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Query](/en/docs/query/)'
   name: Soracom Analysis API
   slug: soracom-analysis-api
-- description: 'The API Sandbox: Coupon API from Soracom — 1 operation(s) for api sandbox: coupon.'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'The API Sandbox: Coupon API from Soracom — 1 operation(s) for api sandbox: coupon.'
   name: 'Soracom API Sandbox: Coupon API'
   slug: soracom-api-sandbox-coupon-api
-- description: 'The API Sandbox: Operator API from Soracom — 3 operation(s) for api sandbox: operator.'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'The API Sandbox: Operator API from Soracom — 3 operation(s) for api sandbox: operator.'
   name: 'Soracom API Sandbox: Operator API'
   slug: soracom-api-sandbox-operator-api
-- description: 'The API Sandbox: Order API from Soracom — 1 operation(s) for api sandbox: order.'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'The API Sandbox: Order API from Soracom — 1 operation(s) for api sandbox: order.'
   name: 'Soracom API Sandbox: Order API'
   slug: soracom-api-sandbox-order-api
-- description: 'The API Sandbox: Stats API from Soracom — 2 operation(s) for api sandbox: stats.'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'The API Sandbox: Stats API from Soracom — 2 operation(s) for api sandbox: stats.'
   name: 'Soracom API Sandbox: Stats API'
   slug: soracom-api-sandbox-stats-api
-- description: 'The API Sandbox: Subscriber API from Soracom — 1 operation(s) for api sandbox: subscriber.'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'The API Sandbox: Subscriber API from Soracom — 1 operation(s) for api sandbox: subscriber.'
   name: 'Soracom API Sandbox: Subscriber API'
   slug: soracom-api-sandbox-subscriber-api
-- description: '[Audit logs](/en/docs/api-audit-logs/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Audit logs](/en/docs/api-audit-logs/)'
   name: Soracom AuditLog API
   slug: soracom-auditlog-api
-- description: '[Cell tower location information](/en/docs/air/get-location-info/#get-cell-tower-location-information)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Cell tower location information](/en/docs/air/get-location-info/#get-cell-tower-location-information)'
   name: Soracom CellLocation API
   slug: soracom-celllocation-api
-- description: '[Credentials store](/en/docs/credentials-store/) Create, update, and delete credentials'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Credentials store](/en/docs/credentials-store/) Create, update, and delete credentials'
   name: Soracom Credential API
   slug: soracom-credential-api
-- description: '[Soracom Harvest Data](/en/docs/harvest/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Harvest Data](/en/docs/harvest/)'
   name: Soracom DataEntry API
   slug: soracom-dataentry-api
-- description: '[Soracom Inventory devices](/en/docs/inventory/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Inventory devices](/en/docs/inventory/)'
   name: Soracom Device API
   slug: soracom-device-api
-- description: '[Soracom Inventory object model](/en/docs/inventory/define-custom-object/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Inventory object model](/en/docs/inventory/define-custom-object/)'
   name: Soracom DeviceObjectModel API
   slug: soracom-deviceobjectmodel-api
-- description: '[Diagnostic features](/en/guides/diagnostic/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Diagnostic features](/en/guides/diagnostic/)'
   name: Soracom Diagnostic API
   slug: soracom-diagnostic-api
-- description: '[Email addresses](/en/docs/email/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Email addresses](/en/docs/email/)'
   name: Soracom Email API
   slug: soracom-email-api
-- description: '[Event handlers](/en/docs/event-handler/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Event handlers](/en/docs/event-handler/)'
   name: Soracom EventHandler API
   slug: soracom-eventhandler-api
-- description: '[Soracom Harvest Files](/en/docs/harvest/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Harvest Files](/en/docs/harvest/)'
   name: Soracom FileEntry API
   slug: soracom-fileentry-api
-- description: 'Download files exported by the following APIs: - [Billing](#/Billing) - [Payment: exportPaymentStatement](#/Payment/exportPaymentStatement) - [Stats](#/Stats) - [Subscriber:exportSubscribers](#/Subscr'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: 'Download files exported by the following APIs: - [Billing](#/Billing) - [Payment: exportPaymentStatement](#/Payment/exportPaymentStatement) - [Stats](#/Stats) - [Subscriber:exportSubscribers](#/Subscr'
   name: Soracom Files API
   slug: soracom-files-api
-- description: Gadget API compatible devices<ul><li>[SoraCam dedicated cellular pack](/en/guides/soracom-cloud-camera-services/setting-cellular-pack/)</li></ul>
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Gadget API compatible devices<ul><li>[SoraCam dedicated cellular pack](/en/guides/soracom-cloud-camera-services/setting-cellular-pack/)</li></ul>
   name: Soracom Gadget API
   slug: soracom-gadget-api
-- description: Error logs
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Error logs
   name: Soracom Log API
   slug: soracom-log-api
-- description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) devices'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) devices'
   name: Soracom LoraDevice API
   slug: soracom-loradevice-api
-- description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) gateways'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) gateways'
   name: Soracom LoraGateway API
   slug: soracom-loragateway-api
-- description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) network sets'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Air for LoRaWAN](/en/docs/air-for-lorawan/) network sets'
   name: Soracom LoraNetworkSet API
   slug: soracom-loranetworkset-api
-- description: '- Operator management - Update registration information - Password changes - [Multi-factor authentication](/en/docs/mfa/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '- Operator management - Update registration information - Password changes - [Multi-factor authentication](/en/docs/mfa/)'
   name: Soracom Operator API
   slug: soracom-operator-api
-- description: '- [Coupon codes](/en/guides/accounting/payment/register-coupon/) - [Long term discounts](/en/docs/air/volume-discount/) - Order management - Product catalog'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '- [Coupon codes](/en/guides/accounting/payment/register-coupon/) - [Long term discounts](/en/docs/air/volume-discount/) - Order management - Product catalog'
   name: Soracom Order API
   slug: soracom-order-api
-- description: '- [Coupon codes](/en/guides/accounting/payment/register-coupon/) - [Usage charges (billing details)](/en/guides/accounting/check-usage/) - [Payment methods](/en/guides/accounting/payment/) - [Long ter'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '- [Coupon codes](/en/guides/accounting/payment/register-coupon/) - [Usage charges (billing details)](/en/guides/accounting/check-usage/) - [Payment methods](/en/guides/accounting/payment/) - [Long ter'
   name: Soracom Payment API
   slug: soracom-payment-api
-- description: '[Soracom Napter](/en/docs/napter/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Napter](/en/docs/napter/)'
   name: Soracom PortMapping API
   slug: soracom-portmapping-api
-- description: Search SIMs, Soracom Inventory devices, and Sigfox devices
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Search SIMs, Soracom Inventory devices, and Sigfox devices
   name: Soracom Query API
   slug: soracom-query-api
-- description: The ResourceSummary API from Soracom — 1 operation(s) for resourcesummary.
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: The ResourceSummary API from Soracom — 1 operation(s) for resourcesummary.
   name: Soracom ResourceSummary API
   slug: soracom-resourcesummary-api
-- description: '[Access management (Soracom Access Management)](/en/docs/sam/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Access management (Soracom Access Management)](/en/docs/sam/)'
   name: Soracom Role API
   slug: soracom-role-api
-- description: Shipping address operations for direct sales
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: Shipping address operations for direct sales
   name: Soracom ShippingAddress API
   slug: soracom-shippingaddress-api
-- description: '[Soracom Air for Sigfox](/en/docs/air-for-sigfox/) devices'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Air for Sigfox](/en/docs/air-for-sigfox/) devices'
   name: Soracom SigfoxDevice API
   slug: soracom-sigfoxdevice-api
-- description: '[eSIM profiles](/en/docs/air/provision-esim/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[eSIM profiles](/en/docs/air/provision-esim/)'
   name: Soracom SimProfileOrder API
   slug: soracom-simprofileorder-api
-- description: '[Soracom Orbit](/en/docs/orbit/) Soralet'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Orbit](/en/docs/orbit/) Soralet'
   name: Soracom Soralet API
   slug: soracom-soralet-api
-- description: '[Soracom Air for Cellular](/en/docs/air/) SIM information, operations, and cancellation'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Soracom Air for Cellular](/en/docs/air/) SIM information, operations, and cancellation'
   name: Soracom Subscriber API
   slug: soracom-subscriber-api
-- description: '[Email addresses](/en/docs/email/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '[Email addresses](/en/docs/email/)'
   name: Soracom SystemNotification API
   slug: soracom-systemnotification-api
-- description: '- [Access management (Soracom Access Management)](/en/docs/sam/) - Password changes - [Multi-factor authentication](/en/docs/mfa/) - [Switch user](/en/docs/switch-user/) trust policy configuration'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '- [Access management (Soracom Access Management)](/en/docs/sam/) - Password changes - [Multi-factor authentication](/en/docs/mfa/) - [Switch user](/en/docs/switch-user/) trust policy configuration'
   name: Soracom User API
   slug: soracom-user-api
-- description: '- [Virtual Private Gateway (VPG)](/en/docs/vpg/) (Canal / Direct / Door / Gate) - [Soracom Junction](/en/docs/junction/) - [Soracom Peek](/en/docs/peek/)'
+- baseURL: https://api.soracom.io/v1
+  baseurl_source: declared
+  description: '- [Virtual Private Gateway (VPG)](/en/docs/vpg/) (Canal / Direct / Door / Gate) - [Soracom Junction](/en/docs/junction/) - [Soracom Peek](/en/docs/peek/)'
   name: Soracom VirtualPrivateGateway API
   slug: soracom-virtualprivategateway-api
 arazzos:
@@ -917,7 +1007,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

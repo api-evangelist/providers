@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 77 operations · 40 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Aispm API from MINE — 1 operation(s) for aispm.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Aispm API from MINE — 1 operation(s) for aispm.
   name: MINE Aispm API
   slug: mine-aispm-api
-- description: The AispmDeviceFlags API from MINE — 1 operation(s) for aispmdeviceflags.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmDeviceFlags API from MINE — 1 operation(s) for aispmdeviceflags.
   name: MINE AispmDeviceFlags API
   slug: mine-aispmdeviceflags-api
-- description: The AispmEnroll API from MINE — 2 operation(s) for aispmenroll.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmEnroll API from MINE — 2 operation(s) for aispmenroll.
   name: MINE AispmEnroll API
   slug: mine-aispmenroll-api
-- description: The AispmEnrollmentTokens API from MINE — 3 operation(s) for aispmenrollmenttokens.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmEnrollmentTokens API from MINE — 3 operation(s) for aispmenrollmenttokens.
   name: MINE AispmEnrollmentTokens API
   slug: mine-aispmenrollmenttokens-api
-- description: The AispmIngest API from MINE — 1 operation(s) for aispmingest.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmIngest API from MINE — 1 operation(s) for aispmingest.
   name: MINE AispmIngest API
   slug: mine-aispmingest-api
-- description: The AispmInsights API from MINE — 1 operation(s) for aispminsights.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmInsights API from MINE — 1 operation(s) for aispminsights.
   name: MINE AispmInsights API
   slug: mine-aispminsights-api
-- description: The AispmPublicAgents API from MINE — 4 operation(s) for aispmpublicagents.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmPublicAgents API from MINE — 4 operation(s) for aispmpublicagents.
   name: MINE AispmPublicAgents API
   slug: mine-aispmpublicagents-api
-- description: The AispmPublicDevices API from MINE — 2 operation(s) for aispmpublicdevices.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AispmPublicDevices API from MINE — 2 operation(s) for aispmpublicdevices.
   name: MINE AispmPublicDevices API
   slug: mine-aispmpublicdevices-api
-- description: The Assessment API from MINE — 8 operation(s) for assessment.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Assessment API from MINE — 8 operation(s) for assessment.
   name: MINE Assessment API
   slug: mine-assessment-api
-- description: The AssessmentTemplate API from MINE — 1 operation(s) for assessmenttemplate.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The AssessmentTemplate API from MINE — 1 operation(s) for assessmenttemplate.
   name: MINE AssessmentTemplate API
   slug: mine-assessmenttemplate-api
-- description: The Employee API from MINE — 1 operation(s) for employee.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Employee API from MINE — 1 operation(s) for employee.
   name: MINE Employee API
   slug: mine-employee-api
-- description: The EvidenceSearch API from MINE — 1 operation(s) for evidencesearch.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The EvidenceSearch API from MINE — 1 operation(s) for evidencesearch.
   name: MINE EvidenceSearch API
   slug: mine-evidencesearch-api
-- description: The Partners API from MINE — 2 operation(s) for partners.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Partners API from MINE — 2 operation(s) for partners.
   name: MINE Partners API
   slug: mine-partners-api
-- description: The PrivacyRightsPublic API from MINE — 1 operation(s) for privacyrightspublic.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The PrivacyRightsPublic API from MINE — 1 operation(s) for privacyrightspublic.
   name: MINE PrivacyRightsPublic API
   slug: mine-privacyrightspublic-api
-- description: The System API from MINE — 6 operation(s) for system.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The System API from MINE — 6 operation(s) for system.
   name: MINE System API
   slug: mine-system-api
-- description: The Test API from MINE — 1 operation(s) for test.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Test API from MINE — 1 operation(s) for test.
   name: MINE Test API
   slug: mine-test-api
-- description: The Tickets API from MINE — 16 operation(s) for tickets.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Tickets API from MINE — 16 operation(s) for tickets.
   name: MINE Tickets API
   slug: mine-tickets-api
-- description: The Webhooks API from MINE — 6 operation(s) for webhooks.
+- baseURL: https://api.portal.saymine.com/
+  baseurl_source: declared
+  description: The Webhooks API from MINE — 6 operation(s) for webhooks.
   name: MINE Webhooks API
   slug: mine-webhooks-api
 artifact_total: 45
@@ -314,7 +350,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -324,7 +360,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,7 +372,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/screenshots/mine-2026-08-07T172945.png
 security:

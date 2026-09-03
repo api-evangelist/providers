@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: The legacy MagicBell REST API (v1) for notification delivery, user management, and channel configuration. Supports API key and user external ID based authentication. Rate limits are lower than v2 (100
   name: MagicBell REST API v1
   slug: rest-api-v1
-- description: The integrations API from MagicBell — 42 operation(s) for integrations.
+- baseURL: https://api.magicbell.com/v2
+  baseurl_source: declared
+  description: The integrations API from MagicBell — 42 operation(s) for integrations.
   name: MagicBell integrations API
   slug: magicbell-integrations-api
-- description: The project API from MagicBell — 52 operation(s) for project.
+- baseURL: https://api.magicbell.com/v2
+  baseurl_source: declared
+  description: The project API from MagicBell — 52 operation(s) for project.
   name: MagicBell project API
   slug: magicbell-project-api
-- description: The user API from MagicBell — 20 operation(s) for user.
+- baseURL: https://api.magicbell.com/v2
+  baseurl_source: declared
+  description: The user API from MagicBell — 20 operation(s) for user.
   name: MagicBell user API
   slug: magicbell-user-api
 artifact_total: 55
@@ -346,7 +352,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:

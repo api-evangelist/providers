@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Functional annotations and term lookup
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Functional annotations and term lookup
   name: STRING Annotation API
   slug: string-db-annotation-api
-- description: Functional enrichment analysis
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Functional enrichment analysis
   name: STRING Enrichment API
   slug: string-db-enrichment-api
-- description: Protein homology and similarity scores
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Protein homology and similarity scores
   name: STRING Homology API
   slug: string-db-homology-api
-- description: Map protein names and synonyms to STRING identifiers
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Map protein names and synonyms to STRING identifiers
   name: STRING Identifiers API
   slug: string-db-identifiers-api
-- description: Retrieve protein-protein interaction networks
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Retrieve protein-protein interaction networks
   name: STRING Network API
   slug: string-db-network-api
-- description: Utility endpoints (version, links, API key)
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Utility endpoints (version, links, API key)
   name: STRING Utility API
   slug: string-db-utility-api
-- description: Values/Ranks GSEA-like enrichment (requires API key)
+- baseURL: https://string-db.org
+  baseurl_source: declared
+  description: Values/Ranks GSEA-like enrichment (requires API key)
   name: STRING Valuesranks API
   slug: string-db-valuesranks-api
 artifact_total: 28
@@ -203,7 +217,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

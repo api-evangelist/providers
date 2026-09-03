@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: RESTful API providing full CRUD access to stories, epics, iterations, milestones, workflows, projects, teams, members, files, labels, categories, and webhooks. Requests authenticate with a Shortcut-To
   name: Shortcut REST API v3
   slug: rest-api-v3
-- description: The Categories API from Shortcut — 2 operation(s) for categories.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Categories API from Shortcut — 2 operation(s) for categories.
   name: Shortcut Categories API
   slug: shortcut-categories-api
-- description: The Custom Fields API from Shortcut — 2 operation(s) for custom fields.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Custom Fields API from Shortcut — 2 operation(s) for custom fields.
   name: Shortcut Custom Fields API
   slug: shortcut-custom-fields-api
-- description: The Documents API from Shortcut — 2 operation(s) for documents.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Documents API from Shortcut — 2 operation(s) for documents.
   name: Shortcut Documents API
   slug: shortcut-documents-api
-- description: The Entity Templates API from Shortcut — 2 operation(s) for entity templates.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Entity Templates API from Shortcut — 2 operation(s) for entity templates.
   name: Shortcut Entity Templates API
   slug: shortcut-entity-templates-api
-- description: The Epics API from Shortcut — 4 operation(s) for epics.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Epics API from Shortcut — 4 operation(s) for epics.
   name: Shortcut Epics API
   slug: shortcut-epics-api
-- description: The Workflows API from Shortcut — 1 operation(s) for workflows.
+- baseURL: https://api.app.shortcut.com/api/v3
+  baseurl_source: declared
+  description: The Workflows API from Shortcut — 1 operation(s) for workflows.
   name: Shortcut Workflows API
   slug: shortcut-workflows-api
 artifact_total: 20
@@ -187,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shortcut/refs/heads/main/screenshots/shortcut-2026-06-20T193838.png
 security:

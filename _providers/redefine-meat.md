@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Two live Model Context Protocol endpoints served from the same WordPress installation and advertised through RFC 9728 OAuth 2.0 Protected Resource Metadata. Both are OAuth-gated - an anonymous tools/l
   name: Redefine Meat MCP Server
   slug: mcp
-- description: The wc/store/v1 API from Redefine Meat — 30 operation(s) for wc/store/v1.
+- baseURL: https://www.redefinemeat.com/wp-json/wc/store/v1
+  baseurl_source: declared
+  description: The wc/store/v1 API from Redefine Meat — 30 operation(s) for wc/store/v1.
   name: Redefine Meat Wc/store/v1 API
   slug: redefine-meat-wc-store-v1-api
-- description: The wp/v2 API from Redefine Meat — 117 operation(s) for wp/v2.
+- baseURL: https://www.redefinemeat.com/wp-json/wc/store/v1
+  baseurl_source: declared
+  description: The wp/v2 API from Redefine Meat — 117 operation(s) for wp/v2.
   name: Redefine Meat Wp/v2 API
   slug: redefine-meat-wp-v2-api
 artifact_total: 12
@@ -188,11 +204,11 @@ score:
   band: emerging
   composite: 21.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -202,7 +218,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 31.0
+  previous_composite: 21.0
   provenance:
     conformance: first-party
     contracts:
@@ -213,8 +229,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/redefine-meat/refs/heads/main/screenshots/redefine-meat-2026-09-02T153205.png
 security:
 - kind: authentication
   name: Redefine Meat Authentication

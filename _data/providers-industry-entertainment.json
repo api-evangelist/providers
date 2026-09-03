@@ -29,7 +29,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -74,7 +74,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
@@ -119,7 +119,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -154,8 +154,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "providers": [
     {
      "name": "Plex",
@@ -175,7 +175,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 60.3,
      "agent_band": "agent-ready",
@@ -220,7 +220,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -265,7 +265,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -310,7 +310,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -355,7 +355,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -407,7 +407,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -435,6 +435,51 @@
      "rank": 9
     },
     {
+     "name": "SponsorUnited",
+     "slug": "sponsorunited",
+     "description": "SponsorUnited is a sports and entertainment sponsorship intelligence platform, founded in 2018 and headquartered in Stamford, Connecticut. Its B2B SaaS product gives brands, rights holders (teams, leagues, venues and events), agencies and media companies a searchable dataset of marketing partnerships — the company reports 403,000+ brands, 2.2M+ tracked deals and 21.1M+ data points across sports, entertainment, media and talent — used to discover, evaluate, price, negotiate and activate sponsorships. The platform (SponsorUnited 4.0) layers AI features on that dataset, including the Surface AI analyst, a Proposal Evaluator, and SPND (Sponsorship Price of Negotiated Deals), a pricing-transparency product built on verified deal data. SponsorUnited runs a production REST API at api.sponsorunited.com whose OpenAPI 3.0 description is publicly served, but it publishes no developer portal, API reference or partner program around it; access is sold as a paid subscription with custom pricing and no self-serve sign-up.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/screenshots/sponsorunited-2026-09-02T160541.png",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 28.0,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 29.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
      "name": "viagogo",
      "slug": "viagogo",
      "description": "viagogo is a global online ticket marketplace for live events — concerts, sport and theatre — operating in more than 90 countries and, since the 2020 acquisition of StubHub, part of StubHub Holdings. viagogo publishes a public developer program at developer.viagogo.net covering five OAuth2-secured HTTP APIs — Catalog (events, venues, categories and instant-liquidity listing offers), Account (users, addresses, payment methods), Inventory (seller listings, listing constraints, e-tickets and shipments), Sales (sales, payments, ticket holders, transfer proof) and Webhooks (topic subscriptions) — all served from api.viagogo.net over application/hal+json with a matching sandbox.api.viagogo.net environment, official GogoKit client libraries for .NET, Python, Ruby and PHP, and machine-readable OpenAPI 3.0 definitions synced nightly from the API host into the public docs repository.",
@@ -452,7 +497,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -477,7 +522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Bandsintown",
@@ -497,7 +542,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -517,50 +562,6 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "SponsorUnited",
-     "slug": "sponsorunited",
-     "description": "SponsorUnited is a sports and entertainment sponsorship intelligence platform, founded in 2018 and headquartered in Stamford, Connecticut. Its B2B SaaS product gives brands, rights holders (teams, leagues, venues and events), agencies and media companies a searchable dataset of marketing partnerships — the company reports 403,000+ brands, 2.2M+ tracked deals and 21.1M+ data points across sports, entertainment, media and talent — used to discover, evaluate, price, negotiate and activate sponsorships. The platform (SponsorUnited 4.0) layers AI features on that dataset, including the Surface AI analyst, a Proposal Evaluator, and SPND (Sponsorship Price of Negotiated Deals), a pricing-transparency product built on verified deal data. SponsorUnited runs a production REST API at api.sponsorunited.com whose OpenAPI 3.0 description is publicly served, but it publishes no developer portal, API reference or partner program around it; access is sold as a paid subscription with custom pricing and no self-serve sign-up.",
-     "score": 45.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 57.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 28.0,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 29.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -586,7 +587,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -614,6 +615,51 @@
      "rank": 13
     },
     {
+     "name": "AOL",
+     "slug": "aol",
+     "description": "AOL is a consumer internet media and communications brand — AOL.com news, AOL Mail, AOL Search and AOL Desktop — operated by AOL Media LLC. Founded as America Online, it was acquired by Verizon in 2015, folded into Oath and then Yahoo, and sold on to the Italian software company Bending Spoons in 2026; the security.txt AOL serves today points its PGP key at bendingspoons.com. AOL runs no developer program and publishes no product API. Its one publicly callable, machine-readable contract is the OpenID Connect provider at api.login.aol.com, which serves a full discovery document under its own issuer and lets a third-party application sign a user in with their AOL account. The legacy developer documentation for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era OAuth 2.0 / OIDC platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/screenshots/aol-2026-06-20T172055.png",
+     "score": 44.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
      "name": "chucknorris.io",
      "slug": "chucknorris-io",
      "description": "Free JSON REST API for hand-curated Chuck Norris jokes (facts) maintained by @matchilling. Supports random retrieval, category filtering, full-text search, and direct lookup by joke identifier. Hosted at api.chucknorris.io with an open-source Spring Boot service (chuck-api), official Node.js and Java client SDKs, a Chrome extension, a Storybook addon, and Messenger / Alexa companion apps published under the chucknorris-io GitHub organization.",
@@ -631,7 +677,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -656,7 +702,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Giant Bomb",
@@ -676,7 +722,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -701,7 +747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Rightsline",
@@ -721,51 +767,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Regal Entertainment Group",
-     "slug": "regal-entertainment-group",
-     "description": "Regal Entertainment Group operates one of the largest motion picture theatre circuits in the United States, with theatres located in densely populated metropolitan markets. Regal provides a developer API portal at developer.regmovies.com, built on Azure API Management, enabling partners and developers to integrate movie showtimes, theatre listings, ticketing, and loyalty reward capabilities into applications. Regal was acquired by Cineworld Group in 2018 and continues to operate under the Regal brand.",
-     "score": 42.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 61.2,
-      "governance": 69.7,
-      "contract_governance": 69.7,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -793,6 +795,50 @@
      "rank": 17
     },
     {
+     "name": "Regal Entertainment Group",
+     "slug": "regal-entertainment-group",
+     "description": "Regal Entertainment Group operates one of the largest motion picture theatre circuits in the United States, with theatres located in densely populated metropolitan markets. Regal provides a developer API portal at developer.regmovies.com, built on Azure API Management, enabling partners and developers to integrate movie showtimes, theatre listings, ticketing, and loyalty reward capabilities into applications. Regal was acquired by Cineworld Group in 2018 and continues to operate under the Regal brand.",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 61.2,
+      "governance": 69.7,
+      "contract_governance": 69.7,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "AniList",
      "slug": "anilist",
      "description": "AniList is an anime and manga database, tracking, and social platform serving over 500,000 anime and manga entries along with character, staff, studio, user, activity, review, recommendation, and forum thread data. The primary developer surface is a free public GraphQL API at https://graphql.anilist.co, with OAuth2 authentication (Authorization Code, Implicit, and Auth Pin flows) for read/write operations against user list and social data.",
@@ -810,7 +856,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
@@ -835,7 +881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Roku",
@@ -855,7 +901,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -880,7 +926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Gala Games",
@@ -900,7 +946,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -932,7 +978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "The Open Movie Database",
@@ -952,7 +998,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -977,7 +1023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Ticketmaster",
@@ -997,7 +1043,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1022,12 +1068,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Tickitto",
      "slug": "tickitto",
      "description": "Tickitto is a London-based B2B ticketing marketplace that lets brands and platforms sell event tickets to their own customers through a single, fully transactional REST API. Its curated inventory spans 90,000+ events globally, mixing one-off sporting and music events with ongoing experiences, attractions, and tours. Tickitto positions itself as a marketplace rather than a channel manager: distributors keep their customer relationship and data while Tickitto tracks commission through a real-time dashboard. The API is availability-aware, organised around events, availability instances, and baskets, and ships an embeddable, white-labelable Ticket Selection Widget that renders event-specific UI (interactive seating maps, calendar dates, and time slots) so integrators avoid orchestrating multiple calls or building bespoke selection front-ends. Tickitto is backed by Seedcamp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tickitto/refs/heads/main/screenshots/tickitto-2026-09-02T163709.png",
      "score": 40.0,
      "band": "developing",
      "band_label": "Developing",
@@ -1041,7 +1088,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1073,7 +1120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Superhero API",
@@ -1093,7 +1140,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1125,7 +1172,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     }
    ],
    "open": true
@@ -1135,8 +1182,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 33,
-   "shown": 33,
+   "count": 32,
+   "shown": 32,
    "providers": [
     {
      "name": "AMC Entertainment Holdings",
@@ -1156,7 +1203,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -1181,7 +1228,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Bored API",
@@ -1201,7 +1248,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -1226,7 +1273,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Marvel",
@@ -1245,7 +1292,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1270,51 +1317,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
-    },
-    {
-     "name": "AOL",
-     "slug": "aol",
-     "description": "AOL is a consumer internet media and communications brand — AOL.com news, AOL Mail, AOL Search and AOL Desktop — operated by AOL Media LLC. Founded as America Online, it was acquired by Verizon in 2015, folded into Oath and then Yahoo, and sold on to the Italian software company Bending Spoons in 2026; the security.txt AOL serves today points its PGP key at bendingspoons.com. AOL runs no developer program and publishes no product API. Its one publicly callable, machine-readable contract is the OpenID Connect provider at api.login.aol.com, which serves a full discovery document under its own issuer and lets a third-party application sign a user in with their AOL account. The legacy developer documentation for that identity stack is hosted by Yahoo Inc., which runs a sibling deployment of the same Oath-era OAuth 2.0 / OIDC platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/screenshots/aol-2026-06-20T172055.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.4,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 42.9,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 27.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 28
     },
     {
@@ -1335,7 +1337,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1380,7 +1382,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -1425,7 +1427,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1470,7 +1472,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -1515,7 +1517,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1560,7 +1562,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
@@ -1605,7 +1607,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1650,7 +1652,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1695,7 +1697,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1740,7 +1742,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -1785,7 +1787,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -1830,7 +1832,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 51.1,
      "agent_band": "agent-native",
@@ -1875,7 +1877,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -1920,7 +1922,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
@@ -1965,7 +1967,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1996,6 +1998,7 @@
      "name": "Walt Disney",
      "slug": "walt-disney",
      "description": "The Walt Disney Company is a leading diversified international family entertainment and media enterprise with operations across media networks, parks and resorts, studio entertainment, and direct-to-consumer streaming. Disney's developer APIs and open source projects enable partners and developers to integrate Disney content, characters, and experiences into their applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/walt-disney/refs/heads/main/screenshots/walt-disney-2026-09-02T170412.png",
      "score": 31.9,
      "band": "thin",
      "band_label": "Thin",
@@ -2009,7 +2012,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -2054,7 +2057,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -2099,7 +2102,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -2144,7 +2147,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -2189,7 +2192,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -2220,6 +2223,7 @@
      "name": "Splitgate",
      "slug": "splitgate",
      "description": "Splitgate is the free-to-play sci-fi arena first-person shooter franchise built by 1047 Games, the Stanford-founded studio behind the portal-plus-FPS formula that shipped as Splitgate (2019), Splitgate 2 (June 2025) and, after a full rebuild, SPLITGATE: Arena Reloaded (December 2025). Beyond the game itself, 1047 Games publishes a small public Third-Party API — an OpenAPI 3.0.1 contract served from the studio's own GitHub organization with a Swagger UI reference — exposing player search, career and per-mode statistics, competitive ranks, match history and full match details so community stat trackers, esports tooling and leaderboard sites can build against real game data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/screenshots/splitgate-2026-09-02T160519.png",
      "score": 30.5,
      "band": "thin",
      "band_label": "Thin",
@@ -2233,7 +2237,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -2278,7 +2282,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2309,6 +2313,7 @@
      "name": "VoyceMe",
      "slug": "voyceme",
      "description": "VoyceMe (voyce.me) is a North American manga, webtoon, and web-novel creator platform where independent creators publish serialized comics and novels and readers discover, follow, comment on, and support them, with a merch shop and an engaged creator community. The company also runs an AI-character product line — Play Engine and its \"storypack\"/\"storytech\" surfaces — for world-model-grounded playable characters. VoyceMe operates a public, unauthenticated Hasura GraphQL API (graphql.voyce.me) exposing its catalog of series, chapters, panels, users, engagement, editorial blog content, and AI chatbots. Backed by 500 Global and Redpoint Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voyceme/refs/heads/main/screenshots/voyceme-2026-09-02T170317.png",
      "score": 29.6,
      "band": "thin",
      "band_label": "Thin",
@@ -2322,7 +2327,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2367,7 +2372,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2412,7 +2417,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -2457,7 +2462,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2502,7 +2507,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2547,7 +2552,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -2578,6 +2583,7 @@
      "name": "The Ticket Fairy",
      "slug": "the-ticket-fairy",
      "description": "The Ticket Fairy is an event ticketing, marketing and operations platform for live events — festivals, club nights, concerts, conferences and tours — operating across the US, UK, Canada, Mexico, the EU, Australia, New Zealand, Singapore, Indonesia and India. Organizers get a ticketing storefront with transparent all-inclusive fees, embedded checkout on their own domain, an event website builder, referral and multi-network ad marketing, door scanning and RFID, face-value anti-scalping resale, payment plans, white-label ticketing, and embedded banking and working capital advanced against ticket sales. It is backed by Y Combinator and 500 Global and reports $300M+ in ticket sales processed. A real REST API exists and parts of it answer anonymously (https://www.ticketfairy.com/api), and the company ships first-party React and React Native checkout SDKs plus a WordPress plugin on npm and GitHub — but as of this pass it publishes no developer portal, no API reference, no machine-readable specification and no authentication documentation. It does publish an llms.txt and serves a Markdown twin of every website page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-ticket-fairy/refs/heads/main/screenshots/the-ticket-fairy-2026-09-02T163419.png",
      "score": 26.7,
      "band": "thin",
      "band_label": "Thin",
@@ -2591,7 +2597,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2653,7 +2659,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2698,7 +2704,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.4,
      "agent_band": "human-only",
@@ -2743,7 +2749,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2787,7 +2793,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2832,7 +2838,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -2877,7 +2883,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -2922,7 +2928,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2967,7 +2973,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
@@ -3012,7 +3018,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3057,7 +3063,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -3088,6 +3094,7 @@
      "name": "Wrapbook",
      "slug": "wrapbook",
      "description": "Wrapbook is an AI-powered production payroll and accounting platform for film, TV, and commercial production, combining crew onboarding, payroll, accounts payable, purchase orders, production accounting, and real-time cost reporting in one system. It integrates with accounting software including QuickBooks, Sage Intacct, Oracle NetSuite, and Acumatica, and imports budgets from Movie Magic, Hot Budget, and Showbiz. Wrapbook publishes no public developer API, but its production app exposes an RFC 8414 OAuth 2.0 authorization server with 21 read-only accounting, payroll, budget, and purchase-order scopes that power those integrations. Backed by a16z, Bessemer Venture Partners, and Uncork Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wrapbook/refs/heads/main/screenshots/wrapbook-2026-09-02T171122.png",
      "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3101,7 +3108,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -3146,7 +3153,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -3191,7 +3198,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3235,7 +3242,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
@@ -3266,6 +3273,7 @@
      "name": "Skydance Media",
      "slug": "skydance-media",
      "description": "Skydance Media is a Santa Monica, California diversified entertainment company founded in 2010 by David Ellison, producing event-scale film, television, animation, sports and interactive entertainment — Top Gun: Maverick, the Mission: Impossible films, Reacher, Grace and Frankie, Spellbound, and the VR titles The Walking Dead: Saints & Sinners and Behemoth through Skydance Interactive and Skydance New Media. Skydance completed its merger with Paramount Global on 7 August 2025 to form Paramount Skydance Corporation, and skydance.com continues to operate as the label site for the Animation, Film, Television, Sports, Interactive and New Media divisions. Skydance publishes no developer program, no API documentation, no SDK and no OpenAPI of its own. The only machine-readable, anonymously readable surface on its own host is the WordPress REST API at skydance.com/wp-json — the CMS content API behind the label site, which serves pages, the media library, categories and site search as JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skydance-media/refs/heads/main/screenshots/skydance-media-2026-09-02T155805.png",
      "score": 20.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3279,7 +3287,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3324,7 +3332,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3368,7 +3376,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3420,7 +3428,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3465,7 +3473,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -3496,6 +3504,7 @@
      "name": "Xiao-Y Technology (小y科技)",
      "slug": "xy51",
      "description": "Xiao-Y Technology (小y科技), operated by Beijing Shiyou Interactive Technology Co., Ltd. (北京视游互动科技有限公司), is a Chinese smart-TV and big-screen gaming platform behind the 小y游戏厅 TV game store and YFans app, publishing licensed TV editions of titles like 葫芦娃, 胡莱三国2, 我叫MT2, and 中超荣耀. Its 小y手游开放平台 developer platform onboards game studios through first-party YTS SDKs (Android Fusion and iOS) rather than a public REST API, covering registration, qualification review, game submission, and revenue sharing. A Qiming Venture Partners portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xy51/refs/heads/main/screenshots/xy51-2026-09-02T171215.png",
      "score": 19.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3509,7 +3518,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3554,7 +3563,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
@@ -3599,7 +3608,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3644,7 +3653,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3689,7 +3698,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3734,7 +3743,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.1,
      "agent_band": "agent-aware",
@@ -3779,7 +3788,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3817,6 +3826,7 @@
      "name": "UnitedMasters",
      "slug": "unitedmasters",
      "description": "UnitedMasters is an independent music distribution platform founded by Steve Stoute in 2017 and backed by Alphabet, Andreessen Horowitz (a16z), and Apple. Artists distribute music to 150+ streaming services while keeping full ownership of their master recordings, with real-time royalty payouts, Blueprint AI artist development tools, analytics, and brand and sync licensing partnerships with the NBA, ESPN, TikTok, and other major brands. UnitedMasters does not currently publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unitedmasters/refs/heads/main/screenshots/unitedmasters-2026-09-02T164922.png",
      "score": 17.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3830,7 +3840,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3875,7 +3885,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.9,
      "agent_band": "agent-aware",
@@ -3920,7 +3930,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3965,7 +3975,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.2,
      "agent_band": "human-only",
@@ -4009,7 +4019,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -4054,7 +4064,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4106,7 +4116,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -4137,6 +4147,7 @@
      "name": "Trass Games",
      "slug": "trass-games",
      "description": "Trass Games is an a16z-backed independent VR game studio best known for Yeeps - Hide and Seek, a free-to-play social hide-and-seek and building game on Meta Quest, and Gods of Gravity, an arcade space RTS. The studio ships a Yeeps companion app for iOS and Android, sells plush, maker-kit, and apparel merchandise through Shopify storefronts at yeeps.com and godsofgravityvr.com, and runs a community licensing program for creators. Trass Games publishes no first-party developer API, but its storefronts expose agent-ready commerce surfaces including llms.txt, agents.md, a Universal Commerce Protocol (UCP) merchant profile, and a live storefront MCP endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trass-games/refs/heads/main/screenshots/trass-games-2026-09-02T164145.png",
      "score": 15.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4150,7 +4161,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -4181,6 +4192,7 @@
      "name": "Wattpad",
      "slug": "wattpad",
      "description": "Wattpad is a Toronto-based social storytelling platform where a global community of more than 90 million writers and readers create, share, and read serialized original fiction across every genre. Founded in 2006 and acquired by Naver (WEBTOON) in 2021, Wattpad extends its stories into publishing, film, and TV through Wattpad WEBTOON Studios. Wattpad formerly operated a public developer API (developer.wattpad.com), but public access was discontinued around April 2018 and the API is now internal-only, so this profile captures the company's web properties and operational surface rather than an active API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wattpad/refs/heads/main/screenshots/wattpad-2026-09-02T170456.png",
      "score": 15.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4194,7 +4206,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4239,7 +4251,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4267,51 +4279,6 @@
      "rank": 93
     },
     {
-     "name": "AMC Global Media",
-     "slug": "amc-networks",
-     "description": "AMC Global Media Inc. (NASDAQ: AMCX), known as AMC Networks until its 2026 rebrand, is a global entertainment company that owns and operates AMC, BBC America, IFC, SundanceTV and We TV, the AMC+, Acorn TV, Shudder, Sundance Now, HIDIVE and ALLBLK streaming services, AMC Studios, IFC Films and AMC Networks International. It distributes 33 FAST channels across 22 platforms and sells advertising through its Audience+ audience data platform and AMCN Outcomes measurement product. The company publishes no public developer program and no machine-readable API contract: affiliate distribution runs through a login-gated partner portal, advertising is booked through sales, and broadcast delivery is contracted through its Broadcasting & Technology group. The legacy domain www.amcnetworks.com now redirects to www.amcglobalmedia.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 94
-    },
-    {
      "name": "Rockstar Games",
      "slug": "rockstar-games",
      "description": "Rockstar Games is an American video game publisher headquartered in New York City and a wholly-owned subsidiary of Take-Two Interactive Software (NASDAQ: TTWO). Best known for the Grand Theft Auto and Red Dead Redemption franchises, Rockstar operates online services for GTA Online and Red Dead Online, the Rockstar Games Launcher PC client, and the legacy Rockstar Games Social Club identity / authentication platform. Rockstar does not publish a public developer portal; its HTTP API surface is internal and consumed only by first-party clients (game executables, the Rockstar Games Launcher, and Rockstar's mobile companion apps). The most visible public-facing API is its OpenID Connect / OAuth 2.0 identity provider at signin.rockstargames.com, which exposes standard /connect/authorize, /connect/Token, /connect/introspect, and /.well-known/jwks endpoints. Grand Theft Auto VI is scheduled to launch on November 19, 2026 for PlayStation 5 and Xbox Series X/S and will include a \"significant online mode\" succeeding GTA Online.",
@@ -4329,7 +4296,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4354,7 +4321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Ingresse",
@@ -4374,7 +4341,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4406,12 +4373,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "TicketRev",
      "slug": "ticketrev",
      "description": "TicketRev (TICKR Holdings, Inc.) is a buyer-first ticketing platform for live sports and entertainment, founded in 2022. Its marketplace lets fans name their own price on tickets while giving teams and venues offer-based selling, flow purchasing, seat upgrades, and premium-inventory tools. Products span four solutions - Core (offer-based purchases), Breeze (flow purchasing), Upgrades (in-seat upgrades), and Premium (premium seating revenue) - and are used by MLB clubs including the Houston Astros, Miami Marlins, and Tampa Bay Rays. TicketRev is backed by Soma Capital, Groove Capital, 500 Global, and Techstars. The company publicly commits to SOC 2 Type II and PCI DSS security and compliance. No public developer API surface was found at the time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketrev/refs/heads/main/screenshots/ticketrev-2026-09-02T163704.png",
      "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4425,7 +4393,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4457,6 +4425,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 96
+    },
+    {
+     "name": "AMC Global Media",
+     "slug": "amc-networks",
+     "description": "AMC Global Media Inc. (NASDAQ: AMCX), known as AMC Networks until its 2026 rebrand, is a global entertainment company that owns and operates AMC, BBC America, IFC, SundanceTV and We TV, the AMC+, Acorn TV, Shudder, Sundance Now, HIDIVE and ALLBLK streaming services, AMC Studios, IFC Films and AMC Networks International. It distributes 33 FAST channels across 22 platforms and sells advertising through its Audience+ audience data platform and AMCN Outcomes measurement product. The company publishes no public developer program and no machine-readable API contract: affiliate distribution runs through a login-gated partner portal, advertising is booked through sales, and broadcast delivery is contracted through its Broadcasting & Technology group. The legacy domain www.amcnetworks.com now redirects to www.amcglobalmedia.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png",
+     "score": 14.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 97
     },
     {
@@ -4476,7 +4489,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4521,7 +4534,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4552,6 +4565,7 @@
      "name": "Universal Electronics",
      "slug": "universal-electronics",
      "description": "Universal Electronics Inc. (UEI) is a global leader in universal control and sensing technologies for the smart home, known for its QuickSet software platform, UEI TIDE smart thermostats and sensors, the Nevo white-label control platform, and the One For All retail remote-control brand. QuickSet Cloud provides device discovery, interoperability, and entertainment control via a device knowledge graph spanning roughly one million devices across 12,000 brands, with web APIs and native SDKs (Linux, Android, RDK, Android TV) offered to OEM and service-provider partners through a gated developer portal at developer.quicksetcloud.com. Surfaced as a Battery Ventures portfolio company; UEI publishes no public self-serve API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/universal-electronics/refs/heads/main/screenshots/universal-electronics-2026-09-02T164935.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4565,7 +4579,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4610,7 +4624,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4662,7 +4676,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4707,7 +4721,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4751,7 +4765,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4796,7 +4810,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -4841,7 +4855,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4893,7 +4907,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -4924,6 +4938,7 @@
      "name": "Songfinch",
      "slug": "songfinch",
      "description": "Songfinch is a Chicago-based direct-to-consumer music gifting platform that pairs customers with a curated community of independent professional singer-songwriters to produce one-of-a-kind personalized songs. A buyer picks an artist by genre, mood and tempo, submits the story and details behind the occasion through a guided song builder, and the artist writes, records and delivers an original recording to a shareable song page, with add-on products spanning lyric prints, vinyl, CDs, sheet music, QR plaques, streaming release and rights upgrades. Songfinch operates a two-sided marketplace — a consumer storefront plus an artist application and artist admin — and has paid out tens of millions of dollars to independent artists. It publishes no public developer program, API documentation, or machine-readable contract; api.songfinch.com is a private first-party application backend for its own storefront.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/songfinch/refs/heads/main/screenshots/songfinch-2026-09-02T160215.png",
      "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4937,7 +4952,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4982,7 +4997,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5027,7 +5042,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5058,6 +5073,7 @@
      "name": "TOCA Football",
      "slug": "toca-football",
      "description": "TOCA Football, Inc. is a technology-enabled soccer experience and entertainment company headquartered in Costa Mesa, California, founded on the training methodology of former US international and Premier League player Eddie Lewis. It operates two businesses: TOCA Soccer, a network of indoor soccer training centers across the United States, Canada and Mexico offering private training, classes, clinics, camps, youth and adult leagues, tournaments and pickup play; and TOCA Social, a soccer-themed dining and entertainment venue brand. Its training centers pair a proprietary ball-delivery machine and digitalized smart targets with the MyTOCA player app, which tracks session performance, player cards, leaderboards and progress. TOCA is the official soccer training partner of Major League Soccer. TOCA publishes no public API, SDK, webhook or developer program: its software ships only as end-user consumer apps and in-venue systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toca-football/refs/heads/main/screenshots/toca-football-2026-09-02T163837.png",
      "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5071,7 +5087,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5102,6 +5118,7 @@
      "name": "Whip Media Group",
      "slug": "whip-media-group",
      "description": "Whip Media is a SaaS company powering the global media and entertainment industry through its AI-native Helix platform, which connects content licensors and licensees across the rights-to-royalties value chain. Helix spans supply-chain modules for licensees (avails management, contract management, royalties processing) and distribution modules for licensors (asset order management, performance tracking, revenue recognition), plus AI-powered Title Management for metadata enrichment and standardization. Customers include NBCU, Warner Bros. Discovery, Paramount, Sony, and Lionsgate. The company publishes an SEO llms.txt and reports SOC 1 and SOC 2 Type II audits for a sixth consecutive year, but does not expose a public developer portal or documented API. Added to the API Evangelist network as a portfolio company of IVP.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/whip-media-group/refs/heads/main/screenshots/whip-media-group-2026-09-02T170700.png",
      "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5115,7 +5132,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5160,7 +5177,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5191,6 +5208,7 @@
      "name": "Z1",
      "slug": "z1",
      "description": "Z1 is the API Evangelist network profile for the consumer social gaming app operated by Bunch Live, Inc., known publicly as Bunch and now rebranded as Mini Party (mini.party). The product lets friends hang out, play party games, and video chat together in real time on mobile, and connects with external services such as Discord. Bunch raised early venture funding (including a $3.8M round) and is tracked here as a 500 Global portfolio company. Bunch formerly operated a Bunch Developer Platform (the \"Party Kit\" voice/video SDK for iOS, Android, and Unity plus a Party Reservation API), but that developer program has been discontinued and the company currently publishes no public developer API, OpenAPI, or developer portal — this profile captures its identity, legal surface, and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/z1/refs/heads/main/screenshots/z1-2026-09-02T171414.png",
      "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5204,7 +5222,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5249,7 +5267,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5294,7 +5312,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5325,6 +5343,7 @@
      "name": "Start Playing",
      "slug": "start-playing",
      "description": "StartPlaying (startplaying.games) is the largest online marketplace connecting tabletop roleplaying game (TTRPG) players with professional Game Masters for systems including Dungeons & Dragons, Pathfinder, Starfinder, Warhammer, and many more. Players discover, book, and join online sessions filtered by system, platform, genre, playstyle, and GM reviews, while Game Masters build careers by hosting paid games across virtual tabletops. The platform also offers gift cards, learn-to-play one-shots for beginners, kids' games, and corporate team-building events. Surfaced as an a16z portfolio company and added to the API Evangelist network; enrichment found a consumer web product with no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/start-playing/refs/heads/main/screenshots/start-playing-2026-09-02T160811.png",
      "score": 12.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5338,7 +5357,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5369,6 +5388,7 @@
      "name": "Zoog.A.I. Ltd.",
      "slug": "zoogai-ltd",
      "description": "Zoog.A.I. Ltd. (Zoog) is a consumer application that lets families create personalized video books and songs for children. Parents and kids can read classic children's books, sing popular nursery rhymes, and turn them into personalized videos featuring their own family, then share those magical creations. Zoog is delivered as an iOS app (with an Android waitlist) and a companion website, and is backed by 500 Global. It has no public developer API surface, SDKs, or API documentation at this time; this profile captures its identity and web presence within the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoogai-ltd/refs/heads/main/screenshots/zoogai-ltd-2026-09-02T171836.png",
      "score": 12.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5382,7 +5402,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5427,7 +5447,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5472,7 +5492,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5503,6 +5523,7 @@
      "name": "Zoog",
      "slug": "zoog",
      "description": "Zoog is a consumer mobile app platform that lets families create and share personalized video books and songs for children. Users read classic kids' stories or sing popular kids' songs while the app adds filters, effects, and music to produce custom animated videos that connect loved ones across distances. Founded in 2021 by Yoav Oren and Matan Guttman and backed by Techstars, Zoog is used by families worldwide. It is a consumer product with no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoog/refs/heads/main/screenshots/zoog-2026-09-02T171841.png",
      "score": 12.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5516,7 +5537,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5568,7 +5589,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5613,7 +5634,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5657,7 +5678,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5702,7 +5723,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5746,7 +5767,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5791,7 +5812,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5836,7 +5857,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5881,7 +5902,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5926,7 +5947,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5957,6 +5978,7 @@
      "name": "Underdog Fantasy",
      "slug": "underdog-fantasy",
      "description": "Underdog (Underdog Sports, formerly Underdog Fantasy) is a Brooklyn, New York based sports gaming company founded in 2020 by Jeremy Levine that operates daily fantasy sports, pick'em, and — since 2025 — federally regulated sports prediction markets on its own proprietary technology stack. Its consumer products include Classic Pick'em, Pick'em Champions, Best Ball and other Draft Games, Streaks, Team Picks, and the Underdog Predict prediction-markets exchange, delivered through iOS, Android, and web apps rather than a public developer API. Underdog reached roughly $500M in annual revenue within five years, was valued at $1.2B after a Spark Capital-led Series C in March 2025, acquired CFTC-registered derivatives infrastructure in March 2026, and in July 2026 was the subject of a proposed acquisition by IG Group. The company publishes no developer portal, API documentation, or machine-readable API contract; its public technical surface is limited to an RFC 9116 security.txt with a PGP key, a Honeybadger-hosted status page covering its API and Stats services, and the Underdog-Inc GitHub organization.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/underdog-fantasy/refs/heads/main/screenshots/underdog-fantasy-2026-09-02T164851.png",
      "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5970,7 +5992,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6001,6 +6023,7 @@
      "name": "Watch Club",
      "slug": "watch-club",
      "description": "Watch Club is a mobile streaming and social platform for young adults, built around original coming-of-age teen drama series that viewers watch and then discuss with other fans through polls, episode reactions, and community threads. Its first original series, RETURN OFFER, launches February 2026, with a slate of additional YA series in development. The app is available on iOS and is operated by Kino Technologies Inc. Watch Club is a GV (Google Ventures) portfolio company in the consumer sector; it publishes no public developer API surface as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/watch-club/refs/heads/main/screenshots/watch-club-2026-09-02T170448.png",
      "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6014,7 +6037,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6059,7 +6082,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6104,7 +6127,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6135,6 +6158,7 @@
      "name": "TREBEL Music",
      "slug": "trebel-music",
      "description": "TREBEL Music (operated by M&M Media, Inc.) is an advertising-sponsored, legally licensed music download and streaming service that lets people download and listen to music offline at no cost. Founded in 2014 by Gary Mekikian, Corey Jones and Luis Soto Durazo and headquartered in Stamford, Connecticut with offices in Mexico City, Jakarta, Bogota, Los Angeles and Miami, TREBEL licenses catalog from Universal Music Group, Sony Music Entertainment, Warner Music Group and independent labels, and monetizes through digital advertising, branded experiences, virtual goods and a TREBEL Max tier rather than a conventional paid subscription. TREBEL is a consumer mobile product distributed through the Apple App Store, Google Play and Huawei AppGallery; it publishes no public developer program, API reference, SDK or machine-readable contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trebel-music/refs/heads/main/screenshots/trebel-music-2026-09-02T164157.png",
      "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6148,7 +6172,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6193,7 +6217,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
@@ -6238,7 +6262,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6269,6 +6293,7 @@
      "name": "World Golf Tour",
      "slug": "world-golf-tour",
      "description": "World Golf Tour (WGT Golf), operated by World Golf Tour, LLC out of San Francisco, is a free-to-play online golf simulation launched in 2008 that recreates more than twenty real championship courses like Pebble Beach, St Andrews, and Bethpage Black using photorealistic imagery, played by over 15 million players on web, iOS, and Android, with virtual equipment from Callaway, Titleist, and TaylorMade and integrations with SkyTrak launch monitors. The company is a Battery Ventures portfolio company and publishes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/world-golf-tour/refs/heads/main/screenshots/world-golf-tour-2026-09-02T170952.png",
      "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6282,7 +6307,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6327,7 +6352,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6372,7 +6397,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6403,6 +6428,7 @@
      "name": "Wooga",
      "slug": "wooga",
      "description": "Wooga is a Berlin-based mobile game developer founded in 2009 and a subsidiary of Playtika, specializing in story-driven casual games such as June's Journey, Ghost Detective and Pearl's Peril. Wooga publishes no public API or developer portal, but maintains an active open-source GitHub organization with its atlas Gradle plugin suite for Unity and mobile build automation, published to the Gradle Plugin Portal and RubyGems. Surfaced in the API Evangelist network as a portfolio company of balderton-capital and hv-capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wooga/refs/heads/main/screenshots/wooga-2026-09-02T170923.png",
      "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6416,7 +6442,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6447,6 +6473,7 @@
      "name": "Tripledot",
      "slug": "tripledot",
      "description": "Tripledot Studios (Tripledot Group) is a London-headquartered mobile games developer and publisher focused on data-driven casual games, with chart-topping titles including Woodoku, Solitaire, Duplica, Wordhop, Solitaire Scapes, Sudoku, Spider Solitaire and Blackjack played by more than 25 million daily active users. Founded as an independent studio and named Best Developer at the Pocket Gamer Mobile Games Awards 2023, Tripledot closed an $800 million acquisition of AppLovin's mobile games studio portfolio (ten studios) on July 1, 2025, and is backed by investors including Lightspeed Venture Partners. Tripledot publishes no first-party developer API, portal or SDKs, but its website ships a real llms.txt and a live, publicly connectable MCP endpoint (the Wix Site Visitor Assistant) for agentic access to site content.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tripledot/refs/heads/main/screenshots/tripledot-2026-09-02T164243.png",
      "score": 11.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6460,7 +6487,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -6505,7 +6532,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6550,7 +6577,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6605,7 +6632,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6650,7 +6677,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6695,7 +6722,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -6740,7 +6767,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6771,6 +6798,7 @@
      "name": "Ubiquity6",
      "slug": "ubiquity6",
      "description": "Ubiquity6 was a San Francisco augmented-reality startup (\"Capture & Edit Reality\") backed by Benchmark, First Round, and Index Ventures. It built Display.land, a multiplayer 3D/AR/VR capture and creation platform, acquired Wavy AR, and was acquired by Discord in June 2021, after which its products were discontinued. Ubiquity6 never published a public API or developer program; its GitHub organization survives as a set of open-source computer vision and React Native forks, and a few internal packages remain on npm under the @ubiquity6 scope.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ubiquity6/refs/heads/main/screenshots/ubiquity6-2026-09-02T164721.png",
      "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6784,7 +6812,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6815,6 +6843,7 @@
      "name": "Xperi",
      "slug": "xperi",
      "description": "Xperi Inc. (NYSE: XPER) is an entertainment technology company whose licensed technologies power audio, video, and media discovery experiences across connected cars, consumer electronics, pay-TV, and streaming media platforms. Its brands include DTS immersive audio, HD Radio digital broadcast radio, IMAX Enhanced certification, and the TiVo video platform. Xperi ships its technologies to automakers, device makers, and video providers through commercial licensing and integration programs rather than a public developer API; no public developer portal or API documentation was found, though its TiVo engineering organization maintains an open-source presence on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xperi/refs/heads/main/screenshots/xperi-2026-09-02T171146.png",
      "score": 10.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6828,7 +6857,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6872,7 +6901,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6923,7 +6952,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6968,7 +6997,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7013,7 +7042,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7058,7 +7087,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7103,7 +7132,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7148,7 +7177,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7193,7 +7222,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7238,7 +7267,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7282,7 +7311,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7327,7 +7356,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7372,7 +7401,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7417,7 +7446,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7462,7 +7491,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7507,7 +7536,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7552,7 +7581,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7583,6 +7612,7 @@
      "name": "Super Evil",
      "slug": "super-evil",
      "description": "Super Evil (Super Evil Megacorp) is an award-winning independent video game studio building shared, cross-platform gaming experiences that push creative and technical boundaries. The studio is best known for the MOBA Vainglory and the shooter Catalyst Black, and has shipped licensed titles including TMNT: Splintered Fate and a Rebel Moon game (Blood Line). Surfaced as a portfolio company of General Catalyst and added to the API Evangelist network. As of this enrichment pass the studio publishes only a consumer marketing website (Gatsby/Netlify) and social channels; it exposes no public developer API, documentation, SDK, OpenAPI, developer portal, or status page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/super-evil/refs/heads/main/screenshots/super-evil-2026-09-02T161207.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7596,7 +7626,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7640,7 +7670,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7671,6 +7701,7 @@
      "name": "Voldex",
      "slug": "voldex",
      "description": "Voldex (Voldex Entertainment) is a game developer and publisher founded in 2015 that acquires, operates, and grows platform-leading games on Roblox, including Brookhaven, Driving Empire, and NFL Universe Football, collectively reaching over 140 million monthly players. Its stated mission is to \"bring people together through fun,\" pursuing a focused strategy of selectively acquiring and stewarding enduring Roblox experiences rather than broad portfolio expansion. Voldex publishes no public developer API, SDK, CLI, or API documentation surface — it is a consumer games studio whose products run inside the Roblox platform. This profile is maintained in the API Evangelist network as an a16z portfolio company; it was reviewed by the enrichment pipeline and confirmed to have no API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/voldex/refs/heads/main/screenshots/voldex-2026-09-02T170212.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7684,7 +7715,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7715,6 +7746,7 @@
      "name": "Volley",
      "slug": "volley",
      "description": "Volley is a San Francisco voice-AI entertainment company, backed by Lightspeed Venture Partners, that builds voice-controlled and connected-TV games. Its catalog includes hits such as Song Quiz, Yes Sire, and officially licensed titles like Jeopardy!, Wheel of Fortune, and Family Feud, playable on Amazon Alexa, Google Assistant, Roku, Fire TV, LG, and Samsung TVs. The company is rebranding its consumer surface as \"Weekend.\" Volley operates as a consumer entertainment product studio and does not publish a public developer API; this profile captures its identity and public web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/volley/refs/heads/main/screenshots/volley-2026-09-02T170214.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7728,7 +7760,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7773,7 +7805,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7818,7 +7850,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7863,7 +7895,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7908,7 +7940,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7953,7 +7985,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8005,7 +8037,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8050,7 +8082,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8081,6 +8113,7 @@
      "name": "Tyffon",
      "slug": "tyffon",
      "description": "Tyffon Inc. is a Japanese immersive entertainment company that combines creativity and technology to deliver memorable XR experiences. The studio builds VR, AR, and mixed-reality attractions - including Corridor, Kaiju Haven VR, Floria, and Island Mirrorge MR - operates the Tyffonium attraction brand, licenses its XR content to entertainment venues across Japan, and released the GARA AR platform app. A Techstars portfolio company, Tyffon publishes no public developer portal or API surface as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyffon/refs/heads/main/screenshots/tyffon-2026-09-02T164651.png",
      "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8094,7 +8127,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8139,7 +8172,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8184,7 +8217,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8229,7 +8262,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8274,7 +8307,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8319,7 +8352,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8364,7 +8397,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8409,7 +8442,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8454,7 +8487,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8499,7 +8532,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8544,7 +8577,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8589,7 +8622,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8634,7 +8667,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8679,7 +8712,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8724,7 +8757,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8769,7 +8802,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8800,6 +8833,7 @@
      "name": "Supersolid",
      "slug": "supersolid",
      "description": "Supersolid is a London, UK based mobile game developer and publisher, backed by Index Ventures, that designs and operates free-to-play mobile titles across merge, cooking, simulation, and multiplayer arena genres. Its portfolio includes Cook & Merge, Snake Rivals, Home Street, Food Street, Adventure Town, Super Penguins, and RoPets. Supersolid is a consumer-facing games studio and does not publish a public developer API, SDK, or developer portal; this API Evangelist profile captures its public web properties (support, careers, terms, privacy) and domain-security posture. It was surfaced as a portfolio company of Index Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/supersolid/refs/heads/main/screenshots/supersolid-2026-09-02T161255.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8813,7 +8847,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8844,6 +8878,7 @@
      "name": "TaleMonster Games",
      "slug": "talemonster-games",
      "description": "TaleMonster Games is a fully remote mobile game studio whose mission is to create games that surprise, challenge, and evolve with players. The team is united by a shared obsession for product craft and a deep love for games, and ships casual mobile titles to iOS and Android. Its debut title, Match Valley, is a casual match puzzle game published on the Apple App Store and Google Play. TaleMonster Games publishes no public developer API, SDK, developer portal, or technical documentation; this profile captures its public company and product identity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talemonster-games/refs/heads/main/screenshots/talemonster-games-2026-09-02T162442.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8857,7 +8892,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8888,6 +8923,7 @@
      "name": "Triumph Arcade",
      "slug": "triumph-arcade",
      "description": "Triumph Labs (originally Triumph Arcade) is a consumer entertainment and commerce company that builds mobile apps for competitive, skill-based gaming and collectibles. Its flagship products are Triumph: Play for Cash, a real-money skill-gaming platform, and Rips by Triumph, a live collectibles and trading-card ripping experience. Backed by Multicoin Capital, the company operates consumer iOS apps and publishes no public developer API surface; this profile tracks the company identity, legal, and domain-security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/triumph-arcade/refs/heads/main/screenshots/triumph-arcade-2026-09-02T164302.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8901,7 +8937,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8932,6 +8968,7 @@
      "name": "WebComics",
      "slug": "webcomicsapp",
      "description": "WebComics (webcomicsapp.com) is a digital comics reading platform for Asian serialized comics, offering a large free library of manhua, manhwa, and manga across genres such as fantasy, romance, action, drama, horror, and slice-of-life. Readers browse trending titles, daily picks, new arrivals, and recent updates on the web and through native iOS and Android apps, while creators publish work through a separate Contribution Studio. The company was surfaced as a portfolio company of the venture firm Qiming and added to the API Evangelist network for enrichment. As of this pass WebComics exposes no public developer API, OpenAPI specification, SDK, or webhook surface; it operates as a consumer content application, so this profile captures its public identity and domain-security posture rather than an API integration surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/webcomicsapp/refs/heads/main/screenshots/webcomicsapp-2026-09-02T170528.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8945,7 +8982,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8990,7 +9027,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9035,7 +9072,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9080,7 +9117,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9125,7 +9162,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9170,7 +9207,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9215,7 +9252,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9246,6 +9283,7 @@
      "name": "Wildlife Studios",
      "slug": "wildlife-studios",
      "description": "Wildlife Studios is one of the world's largest mobile game developers and publishers, founded in Brazil in 2011. It builds and operates free-to-play games played globally, with more than 4.7 billion downloads across a portfolio of over 60 titles including Zooba, Sniper 3D, Tennis Clash, War Machines, and Sky Warriors, and runs a publishing division for third-party studios. Wildlife is a consumer gaming company: its public surface is player-facing games and corporate/careers content, not a developer platform. As of this enrichment pass it publishes no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDKs, or MCP server. Surfaced as a portfolio company of bessemer-venture-partners and tracked in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wildlife-studios/refs/heads/main/screenshots/wildlife-studios-2026-09-02T170746.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9259,7 +9297,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9304,7 +9342,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9349,7 +9387,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9394,7 +9432,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9439,7 +9477,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9484,7 +9522,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9529,7 +9567,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9574,7 +9612,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9618,7 +9656,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9663,7 +9701,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9708,7 +9746,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9753,7 +9791,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9798,7 +9836,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9843,7 +9881,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9888,7 +9926,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9933,7 +9971,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9978,7 +10016,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10023,7 +10061,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10068,7 +10106,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10113,7 +10151,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10158,7 +10196,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10203,7 +10241,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10234,6 +10272,7 @@
      "name": "SuperQuickQuestion",
      "slug": "superquickquestion",
      "description": "SuperQuickQuestion (SQQ) is a fan-engagement platform that hosts brief, 60-second one-on-one live video interactions between fans and celebrities, athletes, and musicians. It is web-based with no app download required, uses industry-standard encryption, and removes traditional event logistics (travel, hotels, agent back-and-forth) so talent only needs WiFi and a camera device while fans receive brand- or team-sponsored free access. Early clients include professional sports organizations such as the Washington Wizards, Cleveland Browns, Washington Mystics, Wrexham AFC, and talent like Ric Flair. No public API, developer portal, or SDK surface is currently published; this remains a consumer product profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superquickquestion/refs/heads/main/screenshots/superquickquestion-2026-09-02T161252.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10247,7 +10286,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10278,6 +10317,7 @@
      "name": "turntable",
      "slug": "turntable",
      "description": "turntable (Turntable Labs) is a consumer social-music company originally surfaced as a portfolio company of slow-ventures and union-square-ventures. The original Turntable.fm social listening service shut down in 2013 and its domain no longer resolves. The lineage lives on at Turntable Labs, which operates two consumer music products - Hangout (a social music-streaming and group-chat app at hangout.fm / hang.fm) and Turntable (a create-share-and-vibe GenAI music experience). No public API, developer portal, SDKs, or API documentation are published for any of these products - this is a consumer application, not an API provider. Enrichment probes (DNS, HTTP, site fetch) confirmed no developer surface as of 2026-07-21.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntable/refs/heads/main/screenshots/turntable-2026-09-02T164551.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10291,7 +10331,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10336,7 +10376,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10381,7 +10421,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10426,7 +10466,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10471,7 +10511,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10523,7 +10563,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10568,7 +10608,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10599,6 +10639,7 @@
      "name": "ThatGameCompany",
      "slug": "thatgamecompany",
      "description": "ThatGameCompany is an American independent video game studio founded in 2006 by Jenova Chen and Kellee Santiago, known for emotionally driven, art-forward titles including Flow, Flower, Journey, and the free-to-play social adventure Sky: Children of the Light. The studio focuses on creating timeless interactive entertainment that inspires human connection across all ages. It publishes no public developer API; this API Evangelist profile tracks the company as a technology / gaming entity and records domain-security posture from live probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thatgamecompany/refs/heads/main/screenshots/thatgamecompany-2026-09-02T163314.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10612,7 +10653,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10656,7 +10697,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10701,7 +10742,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10745,7 +10786,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10776,6 +10817,7 @@
      "name": "Touchten",
      "slug": "touchten",
      "description": "Touchten (Touchten Pte. Ltd.) is an award-winning mobile game studio headquartered in Jakarta, Indonesia, and an early 500 Global (500 Startups) portfolio company. Its casual games - including Piper's Pet Cafe, Royal Garden Tales, Dessert Chain, Warung Chain Go Food Express, and the Teka-Teki Saku (TTS) crossword series - are published on the App Store and Google Play, are played by millions worldwide, and cater especially to the underserved women gamers market in the US and Europe. Touchten won the Google Play Indonesia Games Contest and received the Forbes Indonesia Rising Global Stars Award. The company publishes no developer portal or public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/touchten/refs/heads/main/screenshots/touchten-2026-09-02T163950.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10789,7 +10831,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10834,7 +10876,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10879,7 +10921,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10923,7 +10965,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10968,7 +11010,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11013,7 +11055,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11058,7 +11100,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11103,7 +11145,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11148,7 +11190,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11193,7 +11235,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11224,6 +11266,7 @@
      "name": "Those Beyond",
      "slug": "those-beyond",
      "description": "Those Beyond is a fandom entertainment company that merges gaming and community into immersive, location-based and online experiences for fans, gamers, and creators. Built by the Cauldron Co studio and backed by Seedcamp, it runs interactive worlds and events tied to major fandoms (including Invincible- and SCP-branded experiences) alongside a Discord community. Its public surface is a consumer marketing site on Squarespace; as of this enrichment pass it publishes no developer API, SDK, OpenAPI, or /.well-known/ discovery documents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/those-beyond/refs/heads/main/screenshots/those-beyond-2026-09-02T163559.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11237,7 +11280,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11281,7 +11324,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11326,7 +11369,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11371,7 +11414,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11416,7 +11459,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -11467,7 +11510,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11512,7 +11555,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11557,7 +11600,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11602,7 +11645,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11647,7 +11690,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11692,7 +11735,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11737,7 +11780,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11782,7 +11825,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11826,7 +11869,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11871,7 +11914,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11916,7 +11959,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11961,7 +12004,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12006,7 +12049,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12051,7 +12094,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12096,7 +12139,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12141,7 +12184,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12186,7 +12229,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12231,7 +12274,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12276,7 +12319,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12321,7 +12364,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12365,7 +12408,7 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12410,7 +12453,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -12448,6 +12491,7 @@
      "name": "Unikrn",
      "slug": "unikrn",
      "description": "Unikrn was an esports betting and entertainment company founded in November 2014 by Rahul Sood and Karl Flores, headquartered in Seattle and backed by investors including Mark Cuban, Ashton Kutcher, 500 Global, and Pantera Capital. The platform offered real-money and token-based wagering on competitive video game tournaments (CS:GO, League of Legends, Dota 2, and more) and ran a $30M ICO for its UnikoinGold (UKG) cryptocurrency in 2017, which it later disabled as part of a 2021 SEC settlement. Unikrn was acquired by Entain in August 2021, and the unikrn.com betting site was permanently closed on October 20, 2023. The domain now serves only a farewell notice; the company publishes no APIs, developer portal, or public technical artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unikrn/refs/heads/main/screenshots/unikrn-2026-09-02T164901.png",
      "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12461,7 +12505,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12506,7 +12550,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12551,7 +12595,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12582,6 +12626,7 @@
      "name": "Taiyaki Studios",
      "slug": "taiyaki-studios",
      "description": "Taiyaki Studios is a Tokyo-based startup working to redefine how anime is consumed, delivering stories that are immediate, engaging, and satisfying. Surfaced as a portfolio company of Polychain Capital in the DeFi/NFT (web3) sector, the studio pairs anime content production with web3 and AI technology and creator-community building. As of this enrichment pass Taiyaki Studios publishes only a marketing website (taiyakistudios.com) and a contact email; it exposes no public API, developer portal, SDK, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/taiyaki-studios/refs/heads/main/screenshots/taiyaki-studios-2026-09-02T162423.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12595,7 +12640,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12639,7 +12684,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12683,7 +12728,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12714,6 +12759,7 @@
      "name": "Viki",
      "slug": "viki",
      "description": "Viki (Rakuten Viki) is a global video streaming service specializing in Korean dramas, Chinese dramas, and other Asian television shows and movies, subtitled into more than 200 languages by a community of volunteer contributors (the name is a portmanteau of \"video\" and \"wiki\"). Founded as a startup backed by 500 Global, Andreessen Horowitz (a16z), and CRV, Viki was acquired by Rakuten in 2013 and now operates as part of Rakuten's media portfolio. The consumer product streams licensed content on web, mobile, and connected-TV apps, funded by advertising and a Viki Pass subscription. Viki does not publish a public developer API or developer portal; it exposes an internal application API (api.viki.io) that powers its own clients and requires app credentials, and a community contribution platform for volunteer subtitlers and segmenters. This profile was surfaced as a venture-portfolio lead and enriched with the honest finding that there is no public API surface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viki/refs/heads/main/screenshots/viki-2026-09-02T165914.png",
      "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12727,7 +12773,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12772,7 +12818,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12817,7 +12863,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12862,7 +12908,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12907,7 +12953,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12952,7 +12998,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12996,7 +13042,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13041,7 +13087,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13086,7 +13132,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13130,7 +13176,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13175,7 +13221,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13219,7 +13265,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13264,7 +13310,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13309,7 +13355,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13354,7 +13400,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13399,7 +13445,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13444,7 +13490,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13488,7 +13534,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13519,6 +13565,7 @@
      "name": "UTURN",
      "slug": "uturn",
      "description": "UTURN Entertainment is a Saudi Arabian digital media and entertainment company founded in 2010 that has grown into the largest Arabic Multi-Channel Network (MCN) in the MENA region. It produces original digital content — comedy sketches, gaming (Saudi Gamer), women's lifestyle (Unseen), sports (MLM), and MMA (MMAnia) shows — distributed across YouTube, TikTok, Snapchat, and other social platforms, and offers content creation, sponsored content, branded content, and digital production services to brands. A 500 Global portfolio company, UTURN publishes no public API or developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uturn/refs/heads/main/screenshots/uturn-2026-09-02T165316.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13532,7 +13579,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13577,7 +13624,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13622,7 +13669,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13666,7 +13713,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13711,7 +13758,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13742,6 +13789,7 @@
      "name": "Smule",
      "slug": "smule",
      "description": "Smule is an American consumer music technology company whose flagship social singing and karaoke app lets people perform solos, duets, and group songs and collaborate with other singers around the world in real time. Launched on iOS in 2012 and on Android in 2013 under the name \"Sing! Karaoke,\" the app grew to tens of millions of monthly active users. Smule Inc. is headquartered in San Francisco and is backed by Bessemer Venture Partners and Shasta Ventures. Smule publishes no official public developer API; this profile tracks the company for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smule/refs/heads/main/screenshots/smule-2026-09-02T155953.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -13755,7 +13803,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13800,7 +13848,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13845,7 +13893,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13890,7 +13938,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13935,7 +13983,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -13986,7 +14034,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14031,7 +14079,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14076,7 +14124,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14121,7 +14169,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14166,7 +14214,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14197,6 +14245,7 @@
      "name": "Sofar Sounds",
      "slug": "sofar-sounds",
      "description": "Sofar Sounds curates secret, intimate live-music gigs in living rooms, small venues, and unexpected spaces in hundreds of cities around the world. The company connects independent and emerging artists with attentive local audiences through a mobile-first ticketing and events platform, and works with hosts who lend their spaces for the shows. Sofar operates a consumer-facing website and apps rather than a public developer program; probing its surface confirmed no documented public API, developer portal, SDKs, or OpenAPI. It runs a real GitHub organization (github.com/sofarsounds) of internal engineering repositories, and its production backend is served from api.sofarsounds.com (Heroku), but neither exposes a published, documented API for third-party developers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sofar-sounds/refs/heads/main/screenshots/sofar-sounds-2026-09-02T160056.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14210,7 +14259,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14254,7 +14303,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14299,7 +14348,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14344,7 +14393,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14388,7 +14437,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14433,7 +14482,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14478,7 +14527,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14523,7 +14572,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14568,7 +14617,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14613,7 +14662,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14658,7 +14707,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14703,7 +14752,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14748,7 +14797,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14793,7 +14842,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14838,7 +14887,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14883,7 +14932,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14928,7 +14977,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14973,7 +15022,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15017,7 +15066,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15061,7 +15110,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15105,7 +15154,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15150,7 +15199,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15195,7 +15244,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15240,7 +15289,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15284,7 +15333,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15329,7 +15378,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15373,7 +15422,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15418,7 +15467,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15463,7 +15512,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15508,7 +15557,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15553,7 +15602,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15598,7 +15647,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15642,7 +15691,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15687,7 +15736,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15731,7 +15780,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15776,7 +15825,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15820,7 +15869,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15865,7 +15914,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15910,7 +15959,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15955,7 +16004,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16000,7 +16049,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16044,7 +16093,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16089,7 +16138,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16134,7 +16183,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16179,7 +16228,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16223,7 +16272,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16268,7 +16317,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16313,7 +16362,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16357,7 +16406,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16402,7 +16451,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16447,7 +16496,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16492,7 +16541,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16537,7 +16586,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16582,7 +16631,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16627,7 +16676,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16672,7 +16721,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16716,7 +16765,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16761,7 +16810,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16805,7 +16854,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16849,7 +16898,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16894,7 +16943,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16939,7 +16988,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16970,6 +17019,7 @@
      "name": "Skypunk",
      "slug": "skypunk",
      "description": "Skypunk is an independent game studio headquartered in San Diego, California, founded in 2021 to build new science-fiction multiplayer games. The studio is backed by Andreessen Horowitz (a16z) and has raised approximately $750K in early funding. It was surfaced as a portfolio company of a16z and added to the API Evangelist network for enrichment. Skypunk is a consumer game developer, not an API producer: its public presence is a studio marketing site and it publishes no developer portal, documentation, OpenAPI, SDKs, or any external API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skypunk/refs/heads/main/screenshots/skypunk-2026-09-02T155813.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -16983,7 +17033,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17014,6 +17064,7 @@
      "name": "Small Giant Games",
      "slug": "small-giant-games",
      "description": "Small Giant Games is a Helsinki, Finland based mobile game studio best known for the hit puzzle-RPG Empires & Puzzles. Founded in 2013, the studio was acquired by Zynga in 2018 (now part of Take-Two Interactive) and continues to operate its live free-to-play mobile titles. As a consumer mobile gaming company it publishes player-facing games and support resources rather than a public developer API. This profile was surfaced as a portfolio company of Creandum and EQT Ventures and processed by the API Evangelist enrichment pipeline, which found no public API, developer portal, OpenAPI, package/SDK, or /.well-known discovery surface — only a live consumer marketing website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/small-giant-games/refs/heads/main/screenshots/small-giant-games-2026-09-02T155859.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17027,7 +17078,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17072,7 +17123,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17103,6 +17154,7 @@
      "name": "Space Ape",
      "slug": "space-ape",
      "description": "Space Ape Games is a London-based mobile game studio founded in 2012 and now part of Supercell, known for live-service mobile titles including Beatstar, Fastlane: Road to Revenge, Transformers: Earth Wars, Samurai Siege, and Rival Kingdoms. The studio operates in the consumer gaming sector and does not publish a public developer API, developer portal, or SDK; its primary web presence redirects to Supercell. This profile was surfaced as an Accel portfolio lead and enriched by the API Evangelist pipeline, which found no public API surface and captured domain-security posture for the studio domain.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/space-ape/refs/heads/main/screenshots/space-ape-2026-09-02T160301.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17116,7 +17168,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17160,7 +17212,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17191,6 +17243,7 @@
      "name": "Super",
      "slug": "super",
      "description": "Super (super.gs) is an early-stage consumer entertainment application built by Outpace Studios and backed by Bullpen Capital, positioned around the tagline \"Entertainment you can cash out.\" As of mid-2026 the product is pre-launch: the public site is a single-page marketing and waitlist experience with no published developer platform, API, SDKs, or documentation. This API Evangelist profile tracks Super as a portfolio lead and currently carries only a live domain-security probe of super.gs; it will be enriched further if and when the company ships a public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/super/refs/heads/main/screenshots/super-2026-09-02T161157.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17204,7 +17257,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17235,6 +17288,7 @@
      "name": "Superplastic",
      "slug": "superplastic",
      "description": "Superplastic is a designer-toy and entertainment brand that creates animated synthetic celebrities and collectible vinyl art toys, including the characters Janky, Guggimon, and Staffie, sold through its Shopify-powered online store. Based in Burlington, Vermont, the company blends animation, streetwear-style limited-edition drops, and collectible figures. It is a direct-to-consumer commerce and social-media brand and does not publish a public developer API; this profile captures its web and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superplastic/refs/heads/main/screenshots/superplastic-2026-09-02T161251.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17248,7 +17302,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17279,6 +17333,7 @@
      "name": "Survios",
      "slug": "survios",
      "description": "Survios is a virtual reality game studio that develops and publishes immersive VR titles across major platforms including PlayStation VR, Steam, Meta Quest, Xbox, and Nintendo Switch. Known for award-winning games such as Raw Data, Creed: Rise to Glory, The Walking Dead: Onslaught, Sprint Vector, Electronauts, and Alien: Rogue Incursion, the studio describes itself as one of the world's leading VR games studios. Backed by Lux Capital, Survios operates as a consumer games company; as of this enrichment pass it publishes no public developer API, SDK, or developer portal surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/survios/refs/heads/main/screenshots/survios-2026-09-02T161326.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17292,7 +17347,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17323,6 +17378,7 @@
      "name": "Syntertainment",
      "slug": "syntertainment",
      "description": "Syntertainment was an entertainment technology startup founded in 2012 in Berkeley, California by game designer Will Wright (creator of SimCity and The Sims), Avi Bar-Zeev, and Anya Wright, emerging from the Stupid Fun Club collective. The company set out to explore the intersection of entertainment and reality, blending real-world data and player experiences with game-like interactive media. It raised roughly $5M from investors including Andreessen Horowitz (a16z), Mayfield, SV Angel, and former Electronic Arts CEO John Riccitiello. The venture never shipped a public consumer product and is no longer active; its website (syntertainment.com) is offline and it exposes no public developer program, documentation, or API surface. This profile was surfaced from an a16z portfolio list and enriched to reflect the company's real, historical status.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syntertainment/refs/heads/main/screenshots/syntertainment-2026-09-02T161627.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17336,7 +17392,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17367,6 +17423,7 @@
      "name": "Tapastic",
      "slug": "tapastic",
      "description": "Tapastic is the former brand of Tapas, a digital storytelling platform (Tapas Entertainment, a Kakao company) that hosts webcomics and web novels across romance, fantasy, action, drama, and other genres. Readers access serialized episodes through a free-with-premium model using an in-app \"Ink\" currency, and creators publish original and user-generated stories via the creators.tapas.io publishing portal. The original tapastic.com domain has been retired and now rebrands to tapas.io. As of this enrichment pass the platform exposes only a consumer web/mobile application and a content-creator publishing surface; it publishes no public developer API, OpenAPI specification, SDK, developer portal, or documented webhook/event surface. This profile was surfaced as a 500 Global portfolio company and remains a lead in the API Evangelist network with no API artifacts to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tapastic/refs/heads/main/screenshots/tapastic-2026-09-02T162526.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17380,7 +17437,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17424,7 +17481,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17455,6 +17512,7 @@
      "name": "Tennis Channel",
      "slug": "tennis-channel",
      "description": "Tennis Channel is a United States-based cable television network and direct-to-consumer streaming service dedicated to tennis and racquet sports, including live coverage and highlights from the ATP Tour, WTA Tour, Grand Slam events, and related pickleball and padel programming. Alongside its linear TV channel it operates a subscription streaming product (Tennis Channel / formerly Tennis Channel Plus) delivering live matches, on-demand video, news, rankings, and instructional content across web, mobile, and connected-TV apps. It was surfaced as a portfolio-linked company and added to the API Evangelist network for enrichment; as of this pass Tennis Channel publishes a consumer streaming platform but no public developer API, SDK, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tennis-channel/refs/heads/main/screenshots/tennis-channel-2026-09-02T163113.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17468,7 +17526,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17499,6 +17557,7 @@
      "name": "The Icon League",
      "slug": "the-icon-league",
      "description": "The Icon League is a five-a-side (small-sided) football entertainment league co-founded by former Real Madrid and Germany midfielder Toni Kroos and German streamer Elias Nerlich (Eliasn97), operated by The Icon League GmbH of Cologne, Germany (Amtsgericht Köln, HRB 117138). Played indoors in a US-style 14-team franchise format with two 12-minute halves and \"Rulebreaker\" mechanics designed to maximize attacking play, the league blends professional and amateur players and is distributed primarily through livestreams and social platforms to a young German-speaking audience. Season one generated more than 1.3 billion social-media impressions, and the league raised a €15M Series A (backed by HV Capital) to professionalize operations and expand across Europe. This is a consumer sports-and-media property; it publishes a public content website (teams, players, standings, matchdays, news, tickets, shop) but exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-icon-league/refs/heads/main/screenshots/the-icon-league-2026-09-02T163351.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17512,7 +17571,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17543,6 +17602,7 @@
      "name": "thetab",
      "slug": "thetab",
      "description": "The Tab (thetab.com) is a UK-based digital media and entertainment publication operated by Digitalbox Publishing Ltd (Co Reg No. 09909897). It covers celebrity and reality-TV news, viral trends, gaming, politics, and university and campus culture across a network of youth-focused verticals, monetized primarily through advertising (advertise.thetab.com). Surfaced as a portfolio company of balderton-capital and added to the API Evangelist network. As of the 2026-07-21 enrichment pass the company publishes no public API, developer portal, documentation, OpenAPI, /.well-known/ discovery surface, or llms.txt (all probed and returned HTTP 404); this remains an editorial/advertising media property with no developer-facing product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thetab/refs/heads/main/screenshots/thetab-2026-09-02T163518.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17556,7 +17616,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17587,6 +17647,7 @@
      "name": "Trendy Entertainment",
      "slug": "trendy-entertainment",
      "description": "Trendy Entertainment was a Gainesville, Florida video game studio best known for the Dungeon Defenders tower-defense action-RPG franchise. Insight Venture Partners acquired the studio in 2012 for ~$18.2M and exited in 2019 when founder Augi Lye led an employee buyback and rebranded the company as Chromatic Games (chromatic.games). The only developer-facing surface the studio ever shipped is the Dungeon Defenders Development Kit — an Unreal Engine 3 game-mod SDK distributed as free Steam DLC — not a public web/HTTP API. Enrichment pass found no OpenAPI, REST API, developer portal, or client SDK registries: this is a games company with no programmable API surface, so most scored artifact types are N/A rather than missing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trendy-entertainment/refs/heads/main/screenshots/trendy-entertainment-2026-09-02T164215.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17600,7 +17661,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17631,6 +17692,7 @@
      "name": "Trion Worlds",
      "slug": "trion-worlds",
      "description": "Trion Worlds was an American video game developer and MMO publisher founded in 2006 in Redwood City, California by Lars Buttler and Jon Van Caneghem, and backed early by Trinity Ventures among others. It developed and operated massively multiplayer titles including Rift, Defiance, Trove and Atlas Reactor, published ArcheAge in Western markets, and ran the Glyph game-distribution client. The company was acquired by German publisher Gamigo in October 2018 and disbanded shortly after; its games, the Glyph platform and the trionworlds.com domain are now operated by Gamigo. Trion Worlds never published a public developer API or developer program, so this network profile carries company identity and domain-security signals only. Surfaced as a portfolio company of Trinity Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trion-worlds/refs/heads/main/screenshots/trion-worlds-2026-09-02T164237.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17644,7 +17706,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17689,7 +17751,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17733,7 +17795,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17777,7 +17839,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17808,6 +17870,7 @@
      "name": "Wetpaint",
      "slug": "wetpaint",
      "description": "Wetpaint is a media brand operating wetpaint.com, an entertainment and lifestyle publication covering Hollywood gossip, celebrity news, TV series recaps and buzz, and pop-culture storytelling. Originally a Trinity Ventures-backed wiki/collaborative-media startup, the property today runs as an ad- and affiliate-supported editorial content site with no public developer program: as of this enrichment pass it exposes no documented API, developer portal, SDKs, or /.well-known discovery surface. This profile is retained in the API Evangelist network as a media-sector company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wetpaint/refs/heads/main/screenshots/wetpaint-2026-09-02T170636.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17821,7 +17884,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17865,7 +17928,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17896,6 +17959,7 @@
      "name": "yplanapp",
      "slug": "yplanapp",
      "description": "YPlan (operated by Leanworks Limited) was a mobile-first event discovery and last-minute booking app founded in London in 2012 by Rytis Vitkauskas and Viktoras Jucikas. It offered a curated feed of things to do and same-day ticket booking across cities including London, Bristol, Dublin and New York, working with thousands of event partners. The company was acquired by Time Out Group plc in October 2016 and the consumer app was discontinued in 2017. The yplanapp.com domain now 301-redirects to checkout.timeout.com. No public developer program, API, SDK, or documentation surface exists; enrichment probing found no API artifacts, so this remains an identity-only record for a defunct company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yplanapp/refs/heads/main/screenshots/yplanapp-2026-09-02T171341.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17909,7 +17973,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17940,6 +18004,7 @@
      "name": "Zingroll",
      "slug": "zingroll",
      "description": "Zingroll is a consumer AI entertainment platform that generates personalized episodic video shows starring the user. A person uploads a single selfie and Zingroll casts them as the lead in an AI-generated series spanning up to 200 episodes across genres including action, romance, horror, and comedy, which can then be watched and shared. Backed by Accel, Zingroll operates in the AI media and generative-video space. The company runs a public consumer web application at zingroll.com but publishes no public developer API, SDK, or documentation surface at this time; this profile tracks it in the API Evangelist network as an AI-sector lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zingroll/refs/heads/main/screenshots/zingroll-2026-09-02T171751.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -17953,7 +18018,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -17998,7 +18063,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18043,7 +18108,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18074,6 +18139,7 @@
      "name": "VeeFriends",
      "slug": "veefriends",
      "description": "VeeFriends is a character-driven collectibles and entertainment company founded by Gary Vaynerchuk, built around 250+ original characters that embody human values like empathy, patience, and kindness. Operated by Vee Friends, LLC out of New York, the brand spans NFT collections (Series 1, Series 2, Iconics, Book Games), Topps Chrome trading cards and a trading card game, comic books and cartoons, collectible stickers and pins, apparel and plush merchandise, and the Burn Island platform where holders burn NFTs to unlock rare collectibles, events, and prizes. VeeFriends is an a16z portfolio company and publishes no public developer API surface today.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veefriends/refs/heads/main/screenshots/veefriends-2026-09-02T165552.png",
      "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -18087,7 +18153,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18139,7 +18205,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18183,7 +18249,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18228,7 +18294,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18259,6 +18325,7 @@
      "name": "Talofa Games",
      "slug": "talofa-games",
      "description": "Talofa Games is a mobile game developer and publisher backed by Andreessen Horowitz (a16z). The studio builds social fitness games that turn real-world physical activity into cooperative multiplayer play. Its flagship title, Run Legends, is a free-to-play running RPG available on iOS and Android in which players' real-world runs and walks power team battles against monsters, and its newer title Monster Walk is in closed beta. Talofa Games is a consumer mobile-gaming company and does not publish a public developer API, SDK, or developer portal; this API Evangelist profile captures its company identity and public web presence rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talofa-games/refs/heads/main/screenshots/talofa-games-2026-09-02T162503.png",
      "score": 4.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -18272,7 +18339,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18324,7 +18391,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18376,12 +18443,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18426,12 +18493,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -18476,7 +18543,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18527,7 +18594,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -18579,7 +18646,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: Low-code, embeddable UI components that surface the BILL Accounts Payable workflow inside partner applications with minimal development effort.
   name: BILL Elements
   slug: elements
-- description: The Authentication API from BILL — 5 operation(s) for authentication.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Authentication API from BILL — 5 operation(s) for authentication.
   name: BILL Authentication API
   slug: bill-authentication-api
-- description: The Bills API from BILL — 4 operation(s) for bills.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Bills API from BILL — 4 operation(s) for bills.
   name: BILL Bills API
   slug: bill-bills-api
-- description: The Customers API from BILL — 3 operation(s) for customers.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Customers API from BILL — 3 operation(s) for customers.
   name: BILL Customers API
   slug: bill-customers-api
-- description: The Funding Accounts API from BILL — 2 operation(s) for funding accounts.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Funding Accounts API from BILL — 2 operation(s) for funding accounts.
   name: BILL Funding Accounts API
   slug: bill-funding-accounts-api
-- description: The Invoices API from BILL — 3 operation(s) for invoices.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Invoices API from BILL — 3 operation(s) for invoices.
   name: BILL Invoices API
   slug: bill-invoices-api
-- description: The Organizations API from BILL — 2 operation(s) for organizations.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Organizations API from BILL — 2 operation(s) for organizations.
   name: BILL Organizations API
   slug: bill-organizations-api
-- description: The Payments API from BILL — 5 operation(s) for payments.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Payments API from BILL — 5 operation(s) for payments.
   name: BILL Payments API
   slug: bill-payments-api
-- description: The Vendors API from BILL — 3 operation(s) for vendors.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Vendors API from BILL — 3 operation(s) for vendors.
   name: BILL Vendors API
   slug: bill-vendors-api
-- description: The Webhooks API from BILL — 2 operation(s) for webhooks.
+- baseURL: https://gateway.prod.bill.com/connect/v3
+  baseurl_source: declared
+  description: The Webhooks API from BILL — 2 operation(s) for webhooks.
   name: BILL Webhooks API
   slug: bill-webhooks-api
 artifact_total: 27
@@ -228,7 +246,7 @@ score:
     catalog_gap: 78.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -238,7 +256,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 11.8
-  previous_composite: 42.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +271,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png
 security:

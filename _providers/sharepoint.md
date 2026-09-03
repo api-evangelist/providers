@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: SharePoint webhooks provide a way to get notified about changes to SharePoint lists and document libraries.
   name: SharePoint Webhooks API
   slug: webhooks-api
-- description: File upload, download, and management
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: File upload, download, and management
   name: Microsoft SharePoint Files API
   slug: sharepoint-files-api
-- description: List item operations
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: List item operations
   name: Microsoft SharePoint Items API
   slug: sharepoint-items-api
-- description: List and library operations
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: List and library operations
   name: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
-- description: Search query operations
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: Search query operations
   name: Microsoft SharePoint Search API
   slug: sharepoint-search-api
-- description: Site and web operations
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: Site and web operations
   name: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
-- description: User profile operations
+- baseURL_template: https://{site_url}/_api
+  baseurl_source: spec_template
+  description: User profile operations
   name: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
 arazzos:
@@ -511,7 +523,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/screenshots/sharepoint-2026-06-20T193748.png
 security:

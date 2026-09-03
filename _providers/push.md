@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 67 operations · 41 acting
 api_count: 1
 apis:
-- description: The Account API from Push — 1 operation(s) for account.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Account API from Push — 1 operation(s) for account.
   name: Push Account API
   slug: push-account-api
-- description: The Audience List API from Push — 2 operation(s) for audience list.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Audience List API from Push — 2 operation(s) for audience list.
   name: Push Audience List API
   slug: push-audience-list-api
-- description: The Campaigns API from Push — 3 operation(s) for campaigns.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Campaigns API from Push — 3 operation(s) for campaigns.
   name: Push Campaigns API
   slug: push-campaigns-api
-- description: The Company API from Push — 2 operation(s) for company.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Company API from Push — 2 operation(s) for company.
   name: Push Company API
   slug: push-company-api
-- description: The Company custom fields API from Push — 2 operation(s) for company custom fields.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Company custom fields API from Push — 2 operation(s) for company custom fields.
   name: Push Company custom fields API
   slug: push-company-custom-fields-api
-- description: The Contact API from Push — 5 operation(s) for contact.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Contact API from Push — 5 operation(s) for contact.
   name: Push Contact API
   slug: push-contact-api
-- description: The Contact Custom fields API from Push — 2 operation(s) for contact custom fields.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Contact Custom fields API from Push — 2 operation(s) for contact custom fields.
   name: Push Contact Custom fields API
   slug: push-contact-custom-fields-api
-- description: The Coupon lists API from Push — 3 operation(s) for coupon lists.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Coupon lists API from Push — 3 operation(s) for coupon lists.
   name: Push Coupon lists API
   slug: push-coupon-lists-api
-- description: The Deliveries API from Push — 5 operation(s) for deliveries.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Deliveries API from Push — 5 operation(s) for deliveries.
   name: Push Deliveries API
   slug: push-deliveries-api
-- description: The Hotel Data API from Push — 4 operation(s) for hotel data.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Hotel Data API from Push — 4 operation(s) for hotel data.
   name: Push Hotel Data API
   slug: push-hotel-data-api
-- description: The Hotel Data custom fields API from Push — 2 operation(s) for hotel data custom fields.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Hotel Data custom fields API from Push — 2 operation(s) for hotel data custom fields.
   name: Push Hotel Data custom fields API
   slug: push-hotel-data-custom-fields-api
-- description: The Product API from Push — 2 operation(s) for product.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Product API from Push — 2 operation(s) for product.
   name: Push Product API
   slug: push-product-api
-- description: The Product custom fields API from Push — 2 operation(s) for product custom fields.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Product custom fields API from Push — 2 operation(s) for product custom fields.
   name: Push Product custom fields API
   slug: push-product-custom-fields-api
-- description: The Purchase API from Push — 4 operation(s) for purchase.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Purchase API from Push — 4 operation(s) for purchase.
   name: Push Purchase API
   slug: push-purchase-api
-- description: The Sync Data API from Push — 2 operation(s) for sync data.
+- baseURL: https://api.eu.cendyncrm.com
+  baseurl_source: declared
+  description: The Sync Data API from Push — 2 operation(s) for sync data.
   name: Push Sync Data API
   slug: push-sync-data-api
 arazzos:
@@ -262,7 +292,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -272,7 +302,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -290,7 +320,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/screenshots/push-2026-08-17T081405.png
 security:

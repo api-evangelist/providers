@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 77 operations · 23 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Kajabi — 2 operation(s) for authentication.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Authentication API from Kajabi — 2 operation(s) for authentication.
   name: Kajabi Authentication API
   slug: kajabi-authentication-api
-- description: The Blog posts API from Kajabi — 2 operation(s) for blog posts.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Blog posts API from Kajabi — 2 operation(s) for blog posts.
   name: Kajabi Blog posts API
   slug: kajabi-blog-posts-api
-- description: The Contact Notes API from Kajabi — 2 operation(s) for contact notes.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Contact Notes API from Kajabi — 2 operation(s) for contact notes.
   name: Kajabi Contact Notes API
   slug: kajabi-contact-notes-api
-- description: The Contact Tags API from Kajabi — 2 operation(s) for contact tags.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Contact Tags API from Kajabi — 2 operation(s) for contact tags.
   name: Kajabi Contact Tags API
   slug: kajabi-contact-tags-api
-- description: The Contacts API from Kajabi — 4 operation(s) for contacts.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Contacts API from Kajabi — 4 operation(s) for contacts.
   name: Kajabi Contacts API
   slug: kajabi-contacts-api
-- description: The Courses API from Kajabi — 2 operation(s) for courses.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Courses API from Kajabi — 2 operation(s) for courses.
   name: Kajabi Courses API
   slug: kajabi-courses-api
-- description: The Custom Fields API from Kajabi — 2 operation(s) for custom fields.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Custom Fields API from Kajabi — 2 operation(s) for custom fields.
   name: Kajabi Custom Fields API
   slug: kajabi-custom-fields-api
-- description: The Customers API from Kajabi — 3 operation(s) for customers.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Customers API from Kajabi — 3 operation(s) for customers.
   name: Kajabi Customers API
   slug: kajabi-customers-api
-- description: The Forms API from Kajabi — 5 operation(s) for forms.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Forms API from Kajabi — 5 operation(s) for forms.
   name: Kajabi Forms API
   slug: kajabi-forms-api
-- description: The Kajabi Payments Payouts API from Kajabi — 2 operation(s) for kajabi payments payouts.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Kajabi Payments Payouts API from Kajabi — 2 operation(s) for kajabi payments payouts.
   name: Kajabi Kajabi Payments Payouts API
   slug: kajabi-kajabi-payments-payouts-api
-- description: The Landing pages API from Kajabi — 2 operation(s) for landing pages.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Landing pages API from Kajabi — 2 operation(s) for landing pages.
   name: Kajabi Landing pages API
   slug: kajabi-landing-pages-api
-- description: The Me API from Kajabi — 1 operation(s) for me.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Me API from Kajabi — 1 operation(s) for me.
   name: Kajabi Me API
   slug: kajabi-me-api
-- description: The Offers API from Kajabi — 3 operation(s) for offers.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Offers API from Kajabi — 3 operation(s) for offers.
   name: Kajabi Offers API
   slug: kajabi-offers-api
-- description: The Orders API from Kajabi — 4 operation(s) for orders.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Orders API from Kajabi — 4 operation(s) for orders.
   name: Kajabi Orders API
   slug: kajabi-orders-api
-- description: The Podcasts API from Kajabi — 2 operation(s) for podcasts.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Podcasts API from Kajabi — 2 operation(s) for podcasts.
   name: Kajabi Podcasts API
   slug: kajabi-podcasts-api
-- description: The Products API from Kajabi — 2 operation(s) for products.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Products API from Kajabi — 2 operation(s) for products.
   name: Kajabi Products API
   slug: kajabi-products-api
-- description: The Purchases API from Kajabi — 5 operation(s) for purchases.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Purchases API from Kajabi — 5 operation(s) for purchases.
   name: Kajabi Purchases API
   slug: kajabi-purchases-api
-- description: The Sites API from Kajabi — 4 operation(s) for sites.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Sites API from Kajabi — 4 operation(s) for sites.
   name: Kajabi Sites API
   slug: kajabi-sites-api
-- description: The Transactions API from Kajabi — 2 operation(s) for transactions.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Transactions API from Kajabi — 2 operation(s) for transactions.
   name: Kajabi Transactions API
   slug: kajabi-transactions-api
-- description: The Version API from Kajabi — 1 operation(s) for version.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Version API from Kajabi — 1 operation(s) for version.
   name: Kajabi Version API
   slug: kajabi-version-api
-- description: The Webhooks API from Kajabi — 8 operation(s) for webhooks.
+- baseURL: https://api.kajabi.com
+  baseurl_source: declared
+  description: The Webhooks API from Kajabi — 8 operation(s) for webhooks.
   name: Kajabi Webhooks API
   slug: kajabi-webhooks-api
 artifact_total: 80
@@ -403,7 +445,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kajabi/refs/heads/main/screenshots/kajabi-2026-06-20T183859.png
 security:

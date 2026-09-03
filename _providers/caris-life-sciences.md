@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Public informational pages for ordering and integration partners.
+- baseURL: https://portal.caris.ai
+  baseurl_source: declared
+  description: Public informational pages for ordering and integration partners.
   name: Caris Life Sciences Information API
   slug: caris-life-sciences-information-api
-- description: Browser-based Caris+Portal landing surface.
+- baseURL: https://portal.caris.ai
+  baseurl_source: declared
+  description: Browser-based Caris+Portal landing surface.
   name: Caris Life Sciences Portal API
   slug: caris-life-sciences-portal-api
 artifact_total: 11
@@ -154,7 +158,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/screenshots/caris-life-sciences-2026-06-20T174006.png
 security:

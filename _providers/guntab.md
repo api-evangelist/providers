@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 8 acting
 api_count: 1
 apis:
-- description: Federal Firearms License verification
+- baseURL: https://api.guntab.com/v1
+  baseurl_source: declared
+  description: Federal Firearms License verification
   name: GunTab FFLs API
   slug: guntab-ffls-api
-- description: Payment request lifecycle management
+- baseURL: https://api.guntab.com/v1
+  baseurl_source: declared
+  description: Payment request lifecycle management
   name: GunTab Invoices API
   slug: guntab-invoices-api
-- description: Marketplace user lookup
+- baseURL: https://api.guntab.com/v1
+  baseurl_source: declared
+  description: Marketplace user lookup
   name: GunTab Users API
   slug: guntab-users-api
-- description: Webhook subscription management (deprecated)
+- baseURL: https://api.guntab.com/v1
+  baseurl_source: declared
+  description: Webhook subscription management (deprecated)
   name: GunTab Webhooks API
   slug: guntab-webhooks-api
 artifact_total: 16
@@ -159,7 +167,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guntab/refs/heads/main/screenshots/guntab-2026-06-20T182437.png
 security:

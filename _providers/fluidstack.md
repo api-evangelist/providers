@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: The Clusters API from Fluidstack — 1 operation(s) for clusters.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Clusters API from Fluidstack — 1 operation(s) for clusters.
   name: Fluidstack Clusters API
   slug: fluidstack-clusters-api
-- description: The Instances API from Fluidstack — 2 operation(s) for instances.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Instances API from Fluidstack — 2 operation(s) for instances.
   name: Fluidstack Instances API
   slug: fluidstack-instances-api
-- description: The Invitations API from Fluidstack — 2 operation(s) for invitations.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Invitations API from Fluidstack — 2 operation(s) for invitations.
   name: Fluidstack Invitations API
   slug: fluidstack-invitations-api
-- description: The Members API from Fluidstack — 2 operation(s) for members.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Members API from Fluidstack — 2 operation(s) for members.
   name: Fluidstack Members API
   slug: fluidstack-members-api
-- description: The Organizations API from Fluidstack — 1 operation(s) for organizations.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Organizations API from Fluidstack — 1 operation(s) for organizations.
   name: Fluidstack Organizations API
   slug: fluidstack-organizations-api
-- description: The Regions API from Fluidstack — 1 operation(s) for regions.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The Regions API from Fluidstack — 1 operation(s) for regions.
   name: Fluidstack Regions API
   slug: fluidstack-regions-api
-- description: The User API from Fluidstack — 2 operation(s) for user.
+- baseURL: https://api.atlas.fluidstack.io/api/v1alpha1
+  baseurl_source: declared
+  description: The User API from Fluidstack — 2 operation(s) for user.
   name: Fluidstack User API
   slug: fluidstack-user-api
 artifact_total: 33
@@ -229,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluidstack/refs/heads/main/screenshots/fluidstack-2026-06-20T181337.png
 security:

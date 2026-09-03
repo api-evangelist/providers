@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 2
 apis:
-- description: The AuthenticationService API from Einride — 1 operation(s) for authenticationservice.
+- baseURL: https://api.saga.einride.tech
+  baseurl_source: declared
+  description: The AuthenticationService API from Einride — 1 operation(s) for authenticationservice.
   name: Einride AuthenticationService API
   slug: einride-authenticationservice-api
-- description: The BookingService API from Einride — 7 operation(s) for bookingservice.
+- baseURL: https://api.saga.einride.tech
+  baseurl_source: declared
+  description: The BookingService API from Einride — 7 operation(s) for bookingservice.
   name: Einride BookingService API
   slug: einride-bookingservice-api
-- description: The ShipmentService API from Einride — 6 operation(s) for shipmentservice.
+- baseURL: https://api.saga.einride.tech
+  baseurl_source: declared
+  description: The ShipmentService API from Einride — 6 operation(s) for shipmentservice.
   name: Einride ShipmentService API
   slug: einride-shipmentservice-api
 artifact_total: 12
@@ -261,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:

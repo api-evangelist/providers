@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Agave File Manager is a front-end component that allows users to pick files and folders from linked construction software accounts to share with your application.
   name: Agave File Manager Component
   slug: agave-file-manager
-- description: Project budget and cost management resources.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Project budget and cost management resources.
   name: Agave Budgets API
   slug: agave-budgets-api
-- description: Prime contracts and commitment management.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Prime contracts and commitment management.
   name: Agave Contracts API
   slug: agave-contracts-api
-- description: Job cost codes and cost types.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Job cost codes and cost types.
   name: Agave Cost Codes API
   slug: agave-cost-codes-api
-- description: Employee records and workforce management.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Employee records and workforce management.
   name: Agave Employees API
   slug: agave-employees-api
-- description: Accounts payable invoices and billing.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Accounts payable invoices and billing.
   name: Agave Invoices API
   slug: agave-invoices-api
-- description: Agave Link session management for user authentication.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Agave Link session management for user authentication.
   name: Agave Link Sessions API
   slug: agave-link-sessions-api
-- description: Construction project management resources.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Construction project management resources.
   name: Agave Projects API
   slug: agave-projects-api
-- description: Employee timesheet and labor tracking.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Employee timesheet and labor tracking.
   name: Agave Timesheets API
   slug: agave-timesheets-api
-- description: Vendor and subcontractor management.
+- baseURL: https://api.agaveapi.com
+  baseurl_source: declared
+  description: Vendor and subcontractor management.
   name: Agave Vendors API
   slug: agave-vendors-api
 artifact_total: 106
@@ -819,7 +837,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -829,7 +847,7 @@ score:
     discoverability: 74.1
     governance: 33.3
     operational_transparency: 84.2
-  previous_composite: 60.9
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -841,7 +859,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 22 operations
 api_count: 10
 apis:
-- description: Public, unauthenticated read access to Cresilon's corporate news and press-release stream — FDA clearance announcements, TRAUMAGEL and VETIGEL launch news, clinical study results, conference presentat
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to Cresilon's corporate news and press-release stream — FDA clearance announcements, TRAUMAGEL and VETIGEL launch news, clinical study results, conference presentat
   name: Cresilon News & Press Releases API
   slug: cresilon-posts-api
-- description: Public, unauthenticated read access to the static marketing, product and legal pages of cresilon.com — Our Story, TRAUMAGEL, VETIGEL, Instructions For Use, Clinical Publications, Case Studies, Managem
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static marketing, product and legal pages of cresilon.com — Our Story, TRAUMAGEL, VETIGEL, Instructions For Use, Clinical Publications, Case Studies, Managem
   name: Cresilon Pages API
   slug: cresilon-pages-api
-- description: Public, unauthenticated read access to the media library behind cresilon.com — product photography, TRAUMAGEL and VETIGEL imagery, Instructions For Use and clinical publication documents, video poster
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind cresilon.com — product photography, TRAUMAGEL and VETIGEL imagery, Instructions For Use and clinical publication documents, video poster
   name: Cresilon Media API
   slug: cresilon-media-api
-- description: Public, unauthenticated read access to the content taxonomy classifying Cresilon's news stream — 2 categories (News, Press Releases) and 4 tags (biotech, cresilon, fda clearance, vetigel) — via the Wo
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the content taxonomy classifying Cresilon's news stream — 2 categories (News, Press Releases) and 4 tags (biotech, cresilon, fda clearance, vetigel) — via the Wo
   name: Cresilon Taxonomy API
   slug: cresilon-taxonomy-api
-- description: Public, unauthenticated cross-content search over Cresilon posts and pages, returning lightweight id / title / url / type / subtype records. The fastest way to resolve a Cresilon product or clinical t
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over Cresilon posts and pages, returning lightweight id / title / url / type / subtype records. The fastest way to resolve a Cresilon product or clinical t
   name: Cresilon Search API
   slug: cresilon-search-api
-- description: Public, unauthenticated site, content-type, taxonomy, status and author metadata — the self-describing route index (45 namespaces, 1,021 routes) that makes the whole Cresilon content surface machine-r
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated site, content-type, taxonomy, status and author metadata — the self-describing route index (45 namespaces, 1,021 routes) that makes the whole Cresilon content surface machine-r
   name: Cresilon Discovery API
   slug: cresilon-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for cresilon.com URLs, returning embeddable rich metadata for Cresilon news posts and site pages in JSON or XML.
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for cresilon.com URLs, returning embeddable rich metadata for Cresilon news posts and site pages in JSON or XML.
   name: Cresilon oEmbed API
   slug: cresilon-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any cresilon.com URL — the cheapest structured description of a Cresilon page for an agent.
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered SEO/head metadata and its schema.org JSON-LD graph for any cresilon.com URL — the cheapest structured description of a Cresilon page for an agent.
   name: Cresilon SEO Metadata API
   slug: cresilon-seo-api
-- description: Published authors — 1 at time of capture.
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Published authors — 1 at time of capture.
   name: Cresilon Authors API
   slug: cresilon-authors-api
-- description: Site comments — anonymously readable, empty at capture.
+- baseURL: https://cresilon.com/wp-json
+  baseurl_source: declared
+  description: Site comments — anonymously readable, empty at capture.
   name: Cresilon Comments API
   slug: cresilon-comments-api
 artifact_total: 25
@@ -307,7 +327,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cresilon/refs/heads/main/screenshots/cresilon-2026-08-07T163837.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 61.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -54,34 +54,54 @@ apis:
 - description: Zapier MCP (Model Context Protocol) connects AI tools like Claude, ChatGPT, and Cursor to over 8,000 apps using the open Model Context Protocol standard. It provides a server endpoint for connecting a
   name: Zapier MCP
   slug: mcp
-- description: Refers to resources interacting with 'Accounts' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Accounts' associated resources
   name: Zapier Accounts API
   slug: zapier-accounts-api
-- description: Refers to resources interacting with 'Actions' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Actions' associated resources
   name: Zapier Actions API
   slug: zapier-actions-api
-- description: Refers to resources interacting with 'Apps' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Apps' associated resources
   name: Zapier Apps API
   slug: zapier-apps-api
-- description: Refers to resources interacting with 'Authentications' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Authentications' associated resources
   name: Zapier Authentications API
   slug: zapier-authentications-api
-- description: Refers to resources interacting with 'Categories' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Categories' associated resources
   name: Zapier Categories API
   slug: zapier-categories-api
-- description: Refers to resources interacting with 'Experimental' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Experimental' associated resources
   name: Zapier Experimental API
   slug: zapier-experimental-api
-- description: Refers to resources interacting with 'Inputs' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Inputs' associated resources
   name: Zapier Inputs API
   slug: zapier-inputs-api
-- description: Refers to resources interacting with 'Outputs' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Outputs' associated resources
   name: Zapier Outputs API
   slug: zapier-outputs-api
-- description: Refers to resources interacting with 'Zap Templates' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Zap Templates' associated resources
   name: Zapier Zap Templates API
   slug: zapier-zap-templates-api
-- description: Refers to resources interacting with 'Zaps' associated resources
+- baseURL: https://api.zapier.com
+  baseurl_source: declared
+  description: Refers to resources interacting with 'Zaps' associated resources
   name: Zapier Zaps API
   slug: zapier-zaps-api
 arazzos:
@@ -1433,7 +1453,7 @@ score:
     catalog_gap: 53.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1443,7 +1463,7 @@ score:
     discoverability: 57.4
     governance: 29.5
     operational_transparency: 52.6
-  previous_composite: 62.0
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1454,7 +1474,7 @@ score:
       total: 10
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:

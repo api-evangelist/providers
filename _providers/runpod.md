@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -50,28 +50,44 @@ apis:
 - description: RunPod Serverless provides pay-as-you-go inference endpoints with autoscaling workers, queue-based and load-balanced endpoint types, FlashBoot cold-start optimization, and per-second billing. Each end
   name: RunPod Serverless
   slug: serverless
-- description: The Billing API from RunPod — 3 operation(s) for billing.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Billing API from RunPod — 3 operation(s) for billing.
   name: RunPod Billing API
   slug: runpod-billing-api
-- description: The Containerregistryauth API from RunPod — 2 operation(s) for containerregistryauth.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Containerregistryauth API from RunPod — 2 operation(s) for containerregistryauth.
   name: RunPod Containerregistryauth API
   slug: runpod-containerregistryauth-api
-- description: The Docs API from RunPod — 1 operation(s) for docs.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Docs API from RunPod — 1 operation(s) for docs.
   name: RunPod Docs API
   slug: runpod-docs-api
-- description: The Endpoints API from RunPod — 3 operation(s) for endpoints.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Endpoints API from RunPod — 3 operation(s) for endpoints.
   name: RunPod Endpoints API
   slug: runpod-endpoints-api
-- description: The Networkvolumes API from RunPod — 3 operation(s) for networkvolumes.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Networkvolumes API from RunPod — 3 operation(s) for networkvolumes.
   name: RunPod Networkvolumes API
   slug: runpod-networkvolumes-api
-- description: The Openapi.json API from RunPod — 1 operation(s) for openapi.json.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Openapi.json API from RunPod — 1 operation(s) for openapi.json.
   name: RunPod Openapi.json API
   slug: runpod-openapi-json-api
-- description: The Pods API from RunPod — 7 operation(s) for pods.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Pods API from RunPod — 7 operation(s) for pods.
   name: RunPod Pods API
   slug: runpod-pods-api
-- description: The Templates API from RunPod — 3 operation(s) for templates.
+- baseURL: https://rest.runpod.io/v1
+  baseurl_source: declared
+  description: The Templates API from RunPod — 3 operation(s) for templates.
   name: RunPod Templates API
   slug: runpod-templates-api
 artifact_total: 36
@@ -273,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runpod/refs/heads/main/screenshots/runpod-2026-06-20T193259.png
 security:

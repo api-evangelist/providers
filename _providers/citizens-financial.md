@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Citizens Pay API enables merchants and partners to integrate Citizens Pay point-of-sale financing into their applications and checkout experiences. Citizens Pay provides consumer financing solutio
   name: Citizens Pay API
   slug: citizens-pay-api
-- description: Retrieve account information
+- baseURL: https://api.citizensbank.com
+  baseurl_source: declared
+  description: Retrieve account information
   name: Citizens Financial Accounts API
   slug: citizens-financial-accounts-api
-- description: Search and retrieve ATM location data
+- baseURL: https://api.citizensbank.com
+  baseurl_source: declared
+  description: Search and retrieve ATM location data
   name: Citizens Financial ATM Locations API
   slug: citizens-financial-atm-locations-api
-- description: Retrieve transaction history
+- baseURL: https://api.citizensbank.com
+  baseurl_source: declared
+  description: Retrieve transaction history
   name: Citizens Financial Transactions API
   slug: citizens-financial-transactions-api
 artifact_total: 19
@@ -212,7 +218,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/screenshots/citizens-financial-2026-06-20T174412.png
 security:

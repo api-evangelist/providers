@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Classify API from Lasso Security — 2 operation(s) for classify.
+- baseURL: https://server.lasso.security/gateway/v3
+  baseurl_source: declared
+  description: The Classify API from Lasso Security — 2 operation(s) for classify.
   name: Lasso Security Classify API
   slug: lasso-security-classify-api
 artifact_total: 11
@@ -158,7 +160,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/screenshots/lasso-security-2026-06-20T184320.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -55,7 +55,9 @@ apis:
 - description: Read campaign and message performance statistics.
   name: Pushwoosh Statistics API
   slug: pushwoosh-statistics-api
-- description: The Messages API from Pushwoosh — 4 operation(s) for messages.
+- baseURL: https://api.pushwoosh.com
+  baseurl_source: declared
+  description: The Messages API from Pushwoosh — 4 operation(s) for messages.
   name: Pushwoosh Messages API
   slug: pushwoosh-messages-api
 artifact_total: 14
@@ -172,7 +174,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushwoosh/refs/heads/main/screenshots/pushwoosh-2026-06-20T192320.png
 security:

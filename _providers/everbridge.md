@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 11
@@ -47,274 +47,454 @@ apis:
 - description: The Everbridge iPaaS (Integration Platform as a Service) surface lets IT organizations build integrations with monitoring and service management tools — APM, NPM, ITOM, SIEM, DevOps and ITSM systems —
   name: Everbridge iPaaS API
   slug: everbridge-ipaas-api
-- description: Asset association definition operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset association definition operations
   name: Everbridge Asset Association Definition API
   slug: everbridge-asset-association-definition-api
-- description: Asset licensed limit stats
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset licensed limit stats
   name: Everbridge Asset License Limit Stats API
   slug: everbridge-asset-license-limit-stats-api
-- description: Asset type template management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset type template management operations
   name: Everbridge Asset Type Templates API
   slug: everbridge-asset-type-templates-api
-- description: Asset type management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset type management operations
   name: Everbridge Asset Types API
   slug: everbridge-asset-types-api
-- description: Asset upload batch management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset upload batch management operations
   name: Everbridge Asset Upload Batches API
   slug: everbridge-asset-upload-batches-api
-- description: Asset management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset management operations
   name: Everbridge Assets API
   slug: everbridge-assets-api
-- description: Batch asset management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Batch asset management operations
   name: Everbridge Assets Batch API
   slug: everbridge-assets-batch-api
-- description: Asset Query Operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Asset Query Operations
   name: Everbridge Assets Query API
   slug: everbridge-assets-query-api
-- description: EB Suites - Attachment Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Attachment Management
   name: Everbridge Attachments API
   slug: everbridge-attachments-api
-- description: EB Suites - Audio Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Audio Management
   name: Everbridge Audio API
   slug: everbridge-audio-api
-- description: EB Suites - Audit Log Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Audit Log Management
   name: Everbridge Audit Log API
   slug: everbridge-audit-log-api
-- description: Authorization operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Authorization operations
   name: Everbridge Authorization API
   slug: everbridge-authorization-api
-- description: EB Suites - Calendars Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Calendars Management
   name: Everbridge Calendars API
   slug: everbridge-calendars-api
-- description: CEM Alerts APIs
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: CEM Alerts APIs
   name: Everbridge CEMA Query Public API
   slug: everbridge-cema-query-public-api
-- description: CEM Alerts APIs
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: CEM Alerts APIs
   name: Everbridge CEMA Query Stream API
   slug: everbridge-cema-query-stream-api
-- description: API endpoints for PNR check rule management and validation
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: API endpoints for PNR check rule management and validation
   name: Everbridge Checks API
   slug: everbridge-checks-api
-- description: API endpoints for check template management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: API endpoints for check template management
   name: Everbridge Check Templates API
   slug: everbridge-checktemplates-api
-- description: Column mapping management operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Column mapping management operations
   name: Everbridge Column Mappings API
   slug: everbridge-column-mappings-api
-- description: The Comms APIs API from Everbridge — 36 operation(s) for comms apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Comms APIs API from Everbridge — 36 operation(s) for comms apis.
   name: Everbridge Comms APIs API
   slug: everbridge-comms-apis-api
-- description: The Comms Schedule APIs API from Everbridge — 5 operation(s) for comms schedule apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Comms Schedule APIs API from Everbridge — 5 operation(s) for comms schedule apis.
   name: Everbridge Comms Schedule APIs API
   slug: everbridge-comms-schedule-apis-api
-- description: EB Suites - Conference Bridges
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Conference Bridges
   name: Everbridge Conference Bridges API
   slug: everbridge-conference-bridges-api
-- description: EB Suites - Access System Constants
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Access System Constants
   name: Everbridge Constants API
   slug: everbridge-constants-api
-- description: The Contact Builder APIs API from Everbridge — 7 operation(s) for contact builder apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Contact Builder APIs API from Everbridge — 7 operation(s) for contact builder apis.
   name: Everbridge Contact Builder APIs API
   slug: everbridge-contact-builder-apis-api
-- description: EB Suites - Contact filter Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Contact filter Management
   name: Everbridge Contact Filters API
   slug: everbridge-contact-filters-api
-- description: Contacts operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Contacts operations
   name: Everbridge Contacts API
   slug: everbridge-contacts-api
-- description: Content related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Content related API's
   name: Everbridge Content API
   slug: everbridge-content-api
-- description: The Context APIs API from Everbridge — 3 operation(s) for context apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Context APIs API from Everbridge — 3 operation(s) for context apis.
   name: Everbridge Context APIs API
   slug: everbridge-context-apis-api
-- description: EB Suites - Crisis Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Crisis Management
   name: Everbridge Crisis Management API
   slug: everbridge-crisis-management-api
-- description: EB Suites - Custom Roles.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Custom Roles.
   name: Everbridge Custom Roles API
   slug: everbridge-custom-roles-api
-- description: Device Registration operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Device Registration operations
   name: Everbridge Device Registration API
   slug: everbridge-device-registration-api
-- description: EB Suites - Expected Location Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Expected Location Management
   name: Everbridge Expected Locations API
   slug: everbridge-expected-locations-api
-- description: Attachments, images, and audios operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Attachments, images, and audios operations
   name: Everbridge File Resources API
   slug: everbridge-file-resources-api
-- description: The Global Template APIs API from Everbridge — 6 operation(s) for global template apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Global Template APIs API from Everbridge — 6 operation(s) for global template apis.
   name: Everbridge Global Template APIs API
   slug: everbridge-global-template-apis-api
-- description: EB Suites - Group Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Group Management
   name: Everbridge Groups API
   slug: everbridge-groups-api
-- description: EB Suites - Incident Notifications Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Incident Notifications Management
   name: Everbridge Incident Notifications API
   slug: everbridge-incident-notifications-api
-- description: EB Suites - Incident Scenario Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Incident Scenario Management
   name: Everbridge Incident Scenarios API
   slug: everbridge-incident-scenarios-api
-- description: EB Suites - Incident Variable Items Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Incident Variable Items Management
   name: Everbridge Incident Variable Items API
   slug: everbridge-incident-variable-items-api
-- description: Incidents operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Incidents operations
   name: Everbridge Incidents API
   slug: everbridge-incidents-api
-- description: EB Suites - Incident Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Incident Management
   name: Everbridge Incidents Templates API
   slug: everbridge-incidents-templates-api
-- description: EB Suites - Internal CM Account Admin Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Internal CM Account Admin Management
   name: Everbridge Internal CM Account Admin API
   slug: everbridge-internal-cm-account-admin-api
-- description: EB Suites - Internal CM Organization Admin Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Internal CM Organization Admin Management
   name: Everbridge Internal CM Organization Admin API
   slug: everbridge-internal-cm-organization-admin-api
-- description: Internal Mobile Configuration Values
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Internal Mobile Configuration Values
   name: Everbridge Internal Mobile Configuration Values API
   slug: everbridge-internal-mobile-configuration-values-api
-- description: Organizations operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Organizations operations
   name: Everbridge Internal Mobile Organizations API
   slug: everbridge-internal-mobile-organizations-api
-- description: Secure Chats operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Secure Chats operations
   name: Everbridge Internal Mobile Secure Chats API
   slug: everbridge-internal-mobile-secure-chats-api
-- description: Service Providers operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Service Providers operations
   name: Everbridge Internal Mobile Service Providers API
   slug: everbridge-internal-mobile-service-providers-api
-- description: Travels operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Travels operations
   name: Everbridge Internal Mobile Travels API
   slug: everbridge-internal-mobile-travels-api
-- description: EB Suites - IT Alerting
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - IT Alerting
   name: Everbridge IT Alerting API
   slug: everbridge-it-alerting-api
-- description: EB Suites - Last Known Locations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Last Known Locations
   name: Everbridge Last Known Locations API
   slug: everbridge-last-known-locations-api
-- description: EB Suites - Notification Launch Policy Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Notification Launch Policy Management
   name: Everbridge Launch Policies API
   slug: everbridge-launch-policies-api
-- description: EB Suites - Location Source Data Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Location Source Data Management
   name: Everbridge Locations API
   slug: everbridge-locations-api
-- description: EB Suites - Lookup
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Lookup
   name: Everbridge Lookup API
   slug: everbridge-lookup-api
-- description: The Message Builder APIs API from Everbridge — 1 operation(s) for message builder apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Message Builder APIs API from Everbridge — 1 operation(s) for message builder apis.
   name: Everbridge Message Builder APIs API
   slug: everbridge-message-builder-apis-api
-- description: EB Suites - Nixle Event Group Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Nixle Event Group Management
   name: Everbridge Nixle Event Groups API
   slug: everbridge-nixle-event-groups-api
-- description: EB Suites - Get City/Town, County or ZIP Code within jurisdiction
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Get City/Town, County or ZIP Code within jurisdiction
   name: Everbridge Nixle Region Ids API
   slug: everbridge-nixle-region-ids-api
-- description: The Notes API API from Everbridge — 2 operation(s) for notes api.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Notes API API from Everbridge — 2 operation(s) for notes api.
   name: Everbridge Notes API
   slug: everbridge-notes-api-api
-- description: EB Suites - Notification Category Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Notification Category Management
   name: Everbridge Notification Categories API
   slug: everbridge-notification-categories-api
-- description: Notification Message Operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Notification Message Operations
   name: Everbridge Notification messages API
   slug: everbridge-notification-messages-api
-- description: EB Suites - BroadcastTemplate Template Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - BroadcastTemplate Template Management
   name: Everbridge Notification Templates API
   slug: everbridge-notification-templates-api
-- description: EB Suites - Notifications Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Notifications Management
   name: Everbridge Notifications API
   slug: everbridge-notifications-api
-- description: EB Suites - Organization Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Organization Management
   name: Everbridge Organizations API
   slug: everbridge-organizations-api
-- description: The Plan APIs API from Everbridge — 2 operation(s) for plan apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Plan APIs API from Everbridge — 2 operation(s) for plan apis.
   name: Everbridge Plan APIs API
   slug: everbridge-plan-apis-api
-- description: EB Suites - Privacy Policy Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Privacy Policy Management
   name: Everbridge Privacy Policy API
   slug: everbridge-privacy-policy-api
-- description: EB Suites - Profile Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Profile Management
   name: Everbridge Profiles API
   slug: everbridge-profiles-api
-- description: EB Suites - Contact Record Type Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Contact Record Type Management
   name: Everbridge Record Types API
   slug: everbridge-record-types-api
-- description: EB Suites - Registration Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Registration Management
   name: Everbridge Registration API
   slug: everbridge-registration-api
-- description: EB Suites - Reports Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Reports Management
   name: Everbridge Reports API
   slug: everbridge-reports-api
-- description: EB Suites - Residents Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Residents Management
   name: Everbridge Residents API
   slug: everbridge-residents-api
-- description: EB Suites - Response Subscription Profiles.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Response Subscription Profiles.
   name: Everbridge Response Subscription Profiles API
   slug: everbridge-response-subscription-profiles-api
-- description: Risk Event APIs
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Risk Event APIs
   name: Everbridge Risk Events API
   slug: everbridge-risk-events-api
-- description: EB Suites - Roles Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Roles Management
   name: Everbridge Roles API
   slug: everbridge-roles-api
-- description: The Safety Devices Event API from Everbridge — 1 operation(s) for safety devices event.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Safety Devices Event API from Everbridge — 1 operation(s) for safety devices event.
   name: Everbridge Safety Devices Event API
   slug: everbridge-safety-devices-event-api
-- description: Scheduling operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Scheduling operations
   name: Everbridge Scheduling API
   slug: everbridge-scheduling-api
-- description: EB Suites - Shape Library
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Shape Library
   name: Everbridge Shape Library API
   slug: everbridge-shape-library-api
-- description: Authentication related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Authentication related API's
   name: Everbridge SnapComms Authentication API
   slug: everbridge-snapcomms-authentication-api
-- description: SSO Authorize operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: SSO Authorize operations
   name: Everbridge SSO Authorize API
   slug: everbridge-sso-authorize-api
-- description: EB Suites - Scheduling Assignment Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Scheduling Assignment Management
   name: Everbridge Staff API
   slug: everbridge-staff-api
-- description: Targeting related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Targeting related API's
   name: Everbridge Targeting API
   slug: everbridge-targeting-api
-- description: Template related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Template related API's
   name: Everbridge Template API
   slug: everbridge-template-api
-- description: The Template APIs API from Everbridge — 6 operation(s) for template apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Template APIs API from Everbridge — 6 operation(s) for template apis.
   name: Everbridge Template APIs API
   slug: everbridge-template-apis-api
-- description: The Template Category APIs API from Everbridge — 2 operation(s) for template category apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Template Category APIs API from Everbridge — 2 operation(s) for template category apis.
   name: Everbridge Template Category APIs API
   slug: everbridge-template-category-apis-api
-- description: The Template Reservation APIs API from Everbridge — 2 operation(s) for template reservation apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Template Reservation APIs API from Everbridge — 2 operation(s) for template reservation apis.
   name: Everbridge Template Reservation APIs API
   slug: everbridge-template-reservation-apis-api
-- description: Work with oAuth token.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Work with oAuth token.
   name: Everbridge Tokens API
   slug: everbridge-tokens-api
-- description: EB Suites - Travel Itinerary Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Travel Itinerary Management
   name: Everbridge Travel Itinerary API
   slug: everbridge-travel-itinerary-api
-- description: Travel risk intelligence operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Travel risk intelligence operations
   name: Everbridge Travel Risk Intelligence API
   slug: everbridge-travel-risk-intelligence-api
-- description: Uploaded Assets Status operations
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Uploaded Assets Status operations
   name: Everbridge Uploaded Assets API
   slug: everbridge-uploaded-assets-api
-- description: EB Suites - Uploads
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Uploads
   name: Everbridge Uploads API
   slug: everbridge-uploads-api
-- description: User, Group and Machine related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: User, Group and Machine related API's
   name: Everbridge User Management API
   slug: everbridge-user-management-api
-- description: EB Suites - Users Management
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: EB Suites - Users Management
   name: Everbridge Users API
   slug: everbridge-users-api
-- description: Utility related API's
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: Utility related API's
   name: Everbridge Utility API
   slug: everbridge-utility-api
-- description: The Variables APIs API from Everbridge — 3 operation(s) for variables apis.
+- baseURL: https://api.everbridge.net/rest
+  baseurl_source: declared
+  description: The Variables APIs API from Everbridge — 3 operation(s) for variables apis.
   name: Everbridge Variables APIs API
   slug: everbridge-variables-apis-api
 artifact_total: 102
@@ -564,23 +744,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.6
+  composite: 49.3
   coverage:
     artifact_dirs: 25
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: -0.3
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 4.5
-    contract_quality: 57.6
+    contract_quality: 56.4
     developer_ergonomics: 41.1
     discoverability: 83.3
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 49.2
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -592,7 +772,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/everbridge/refs/heads/main/screenshots/everbridge-2026-06-20T180905.png
 security:

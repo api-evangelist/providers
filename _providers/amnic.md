@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Operations for retrieving cost data and filters from saved charts in the Cost Analyzer.
+- baseURL: https://api.amnic.com/orchestrator
+  baseurl_source: spec
+  description: Operations for retrieving cost data and filters from saved charts in the Cost Analyzer.
   name: Amnic Cost Analyzer API
   slug: amnic-cost-analyzer-api
 artifact_total: 44
@@ -259,7 +261,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/screenshots/amnic-2026-06-20T171936.png
 security:

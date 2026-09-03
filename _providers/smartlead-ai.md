@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -65,40 +65,62 @@ apis:
 - description: Endpoints for agency users to provision and manage white-labeled client accounts, mint and revoke per-client API keys, and meter usage across multiple end customers.
   name: Smartlead Client Management API
   slug: client-management-api
-- description: Retrieve campaign performance metrics.
+- baseURL: https://server.smartlead.ai/api/v1/campaigns
+  baseurl_source: declared
+  description: Retrieve campaign performance metrics.
   name: Smartlead Campaign Statistics API
   slug: smartlead-ai-campaign-statistics-api
-- description: Manage Smartlead email campaigns.
+- baseURL: https://server.smartlead.ai/api/v1/campaigns
+  baseurl_source: declared
+  description: Manage Smartlead email campaigns.
   name: Smartlead Campaigns API
   slug: smartlead-ai-campaigns-api
 - description: 'SmartLead''s remote Model Context Protocol server. tools/list answers anonymously with three documentation tools (search, a read-only docs filesystem, feedback). It exposes the SmartLead documentation '
   name: SmartLead Documentation MCP Server
   slug: mcp-server
-- description: Global analytics and reporting across all campaigns
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Global analytics and reporting across all campaigns
   name: Smartlead Analytics API
   slug: smartlead-ai-analytics-api
-- description: User authentication and account management
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: User authentication and account management
   name: Smartlead Authentication API
   slug: smartlead-ai-authentication-api
-- description: Configure and manage email sending accounts
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Configure and manage email sending accounts
   name: Smartlead Email Accounts API
   slug: smartlead-ai-email-accounts-api
-- description: Manage leads and prospects across campaigns
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Manage leads and prospects across campaigns
   name: Smartlead Leads API
   slug: smartlead-ai-leads-api
-- description: Unified inbox for all campaign communications
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Unified inbox for all campaign communications
   name: Smartlead Master Inbox API
   slug: smartlead-ai-master-inbox-api
-- description: Email deliverability testing and monitoring
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Email deliverability testing and monitoring
   name: Smartlead Smart Delivery API
   slug: smartlead-ai-smart-delivery-api
-- description: Automated email account provisioning marketplace
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Automated email account provisioning marketplace
   name: Smartlead Smart Senders API
   slug: smartlead-ai-smart-senders-api
-- description: Utility endpoints for various operations
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Utility endpoints for various operations
   name: Smartlead Utilities API
   slug: smartlead-ai-utilities-api
-- description: Configure webhooks for real-time event notifications
+- baseURL: https://server.smartlead.ai/api/v1
+  baseurl_source: declared
+  description: Configure webhooks for real-time event notifications
   name: Smartlead Webhooks API
   slug: smartlead-ai-webhooks-api
 artifact_total: 31
@@ -324,7 +346,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -334,7 +356,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 61.3
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,7 +368,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/screenshots/smartlead-ai-2026-06-20T194043.png
 security:

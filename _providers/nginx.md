@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -55,76 +55,124 @@ apis:
 - description: NGINX Agent provides an administrative entry point to remotely manage, configure, and collect metrics and events from NGINX instances. It enables centralized management of distributed NGINX deployment
   name: NGINX Agent
   slug: nginx-agent
-- description: The Connections API from NGINX — 1 operation(s) for connections.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Connections API from NGINX — 1 operation(s) for connections.
   name: NGINX Connections API
   slug: nginx-connections-api
-- description: The General Info API from NGINX — 2 operation(s) for general info.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The General Info API from NGINX — 2 operation(s) for general info.
   name: NGINX General Info API
   slug: nginx-general-info-api
-- description: The HTTP API from NGINX — 1 operation(s) for http.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP API from NGINX — 1 operation(s) for http.
   name: NGINX HTTP API
   slug: nginx-http-api
-- description: The HTTP Caches API from NGINX — 2 operation(s) for http caches.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Caches API from NGINX — 2 operation(s) for http caches.
   name: NGINX HTTP Caches API
   slug: nginx-http-caches-api
-- description: The HTTP Keyvals API from NGINX — 2 operation(s) for http keyvals.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Keyvals API from NGINX — 2 operation(s) for http keyvals.
   name: NGINX HTTP Keyvals API
   slug: nginx-http-keyvals-api
-- description: The HTTP Limit Conns API from NGINX — 2 operation(s) for http limit conns.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Limit Conns API from NGINX — 2 operation(s) for http limit conns.
   name: NGINX HTTP Limit Conns API
   slug: nginx-http-limit-conns-api
-- description: The HTTP Limit Reqs API from NGINX — 2 operation(s) for http limit reqs.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Limit Reqs API from NGINX — 2 operation(s) for http limit reqs.
   name: NGINX HTTP Limit Reqs API
   slug: nginx-http-limit-reqs-api
-- description: The HTTP Location Zones API from NGINX — 2 operation(s) for http location zones.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Location Zones API from NGINX — 2 operation(s) for http location zones.
   name: NGINX HTTP Location Zones API
   slug: nginx-http-location-zones-api
-- description: The HTTP Requests API from NGINX — 1 operation(s) for http requests.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Requests API from NGINX — 1 operation(s) for http requests.
   name: NGINX HTTP Requests API
   slug: nginx-http-requests-api
-- description: The HTTP Server Zones API from NGINX — 2 operation(s) for http server zones.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Server Zones API from NGINX — 2 operation(s) for http server zones.
   name: NGINX HTTP Server Zones API
   slug: nginx-http-server-zones-api
-- description: The HTTP Upstreams API from NGINX — 4 operation(s) for http upstreams.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The HTTP Upstreams API from NGINX — 4 operation(s) for http upstreams.
   name: NGINX HTTP Upstreams API
   slug: nginx-http-upstreams-api
-- description: The License API from NGINX — 1 operation(s) for license.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The License API from NGINX — 1 operation(s) for license.
   name: NGINX License API
   slug: nginx-license-api
-- description: The Processes API from NGINX — 1 operation(s) for processes.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Processes API from NGINX — 1 operation(s) for processes.
   name: NGINX Processes API
   slug: nginx-processes-api
-- description: The Resolvers API from NGINX — 2 operation(s) for resolvers.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Resolvers API from NGINX — 2 operation(s) for resolvers.
   name: NGINX Resolvers API
   slug: nginx-resolvers-api
-- description: The Slabs API from NGINX — 2 operation(s) for slabs.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Slabs API from NGINX — 2 operation(s) for slabs.
   name: NGINX Slabs API
   slug: nginx-slabs-api
-- description: The SSL API from NGINX — 1 operation(s) for ssl.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The SSL API from NGINX — 1 operation(s) for ssl.
   name: NGINX SSL API
   slug: nginx-ssl-api
-- description: The Status API from NGINX — 1 operation(s) for status.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Status API from NGINX — 1 operation(s) for status.
   name: NGINX Status API
   slug: nginx-status-api
-- description: The Stream API from NGINX — 1 operation(s) for stream.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream API from NGINX — 1 operation(s) for stream.
   name: NGINX Stream API
   slug: nginx-stream-api
-- description: The Stream Keyvals API from NGINX — 2 operation(s) for stream keyvals.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream Keyvals API from NGINX — 2 operation(s) for stream keyvals.
   name: NGINX Stream Keyvals API
   slug: nginx-stream-keyvals-api
-- description: The Stream Limit Conns API from NGINX — 2 operation(s) for stream limit conns.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream Limit Conns API from NGINX — 2 operation(s) for stream limit conns.
   name: NGINX Stream Limit Conns API
   slug: nginx-stream-limit-conns-api
-- description: The Stream Server Zones API from NGINX — 2 operation(s) for stream server zones.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream Server Zones API from NGINX — 2 operation(s) for stream server zones.
   name: NGINX Stream Server Zones API
   slug: nginx-stream-server-zones-api
-- description: The Stream Upstreams API from NGINX — 4 operation(s) for stream upstreams.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream Upstreams API from NGINX — 4 operation(s) for stream upstreams.
   name: NGINX Stream Upstreams API
   slug: nginx-stream-upstreams-api
-- description: The Stream Zone Sync API from NGINX — 1 operation(s) for stream zone sync.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Stream Zone Sync API from NGINX — 1 operation(s) for stream zone sync.
   name: NGINX Stream Zone Sync API
   slug: nginx-stream-zone-sync-api
-- description: The Workers API from NGINX — 2 operation(s) for workers.
+- baseURL: /api/9
+  baseurl_source: spec
+  description: The Workers API from NGINX — 2 operation(s) for workers.
   name: NGINX Workers API
   slug: nginx-workers-api
 artifact_total: 261
@@ -963,7 +1011,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.7
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -976,7 +1024,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 40.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -985,8 +1033,8 @@ score:
       marker_coverage: 11.5
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 37 operations · 19 acting
 api_count: 1
 apis:
-- description: The Auth API from Jebbit — 1 operation(s) for auth.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Auth API from Jebbit — 1 operation(s) for auth.
   name: Jebbit Auth API
   slug: jebbit-auth-api
-- description: The Businesses API from Jebbit — 1 operation(s) for businesses.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Businesses API from Jebbit — 1 operation(s) for businesses.
   name: Jebbit Businesses API
   slug: jebbit-businesses-api
-- description: The Campaigns API from Jebbit — 2 operation(s) for campaigns.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Campaigns API from Jebbit — 2 operation(s) for campaigns.
   name: Jebbit Campaigns API
   slug: jebbit-campaigns-api
-- description: The Feed Columns API from Jebbit — 2 operation(s) for feed columns.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Feed Columns API from Jebbit — 2 operation(s) for feed columns.
   name: Jebbit Feed Columns API
   slug: jebbit-feed-columns-api
-- description: The Feed Rows API from Jebbit — 2 operation(s) for feed rows.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Feed Rows API from Jebbit — 2 operation(s) for feed rows.
   name: Jebbit Feed Rows API
   slug: jebbit-feed-rows-api
-- description: The Feeds API from Jebbit — 4 operation(s) for feeds.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Feeds API from Jebbit — 4 operation(s) for feeds.
   name: Jebbit Feeds API
   slug: jebbit-feeds-api
-- description: The Integration Historic Backfills API from Jebbit — 2 operation(s) for integration historic backfills.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Integration Historic Backfills API from Jebbit — 2 operation(s) for integration historic backfills.
   name: Jebbit Integration Historic Backfills API
   slug: jebbit-integration-historic-backfills-api
-- description: The Integration Mappings API from Jebbit — 2 operation(s) for integration mappings.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Integration Mappings API from Jebbit — 2 operation(s) for integration mappings.
   name: Jebbit Integration Mappings API
   slug: jebbit-integration-mappings-api
-- description: The Integrations API from Jebbit — 3 operation(s) for integrations.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Integrations API from Jebbit — 3 operation(s) for integrations.
   name: Jebbit Integrations API
   slug: jebbit-integrations-api
-- description: The Launch Links API from Jebbit — 1 operation(s) for launch links.
+- baseURL: https://api2.jebbit.com
+  baseurl_source: declared
+  description: The Launch Links API from Jebbit — 1 operation(s) for launch links.
   name: Jebbit Launch Links API
   slug: jebbit-launch-links-api
 artifact_total: 31
@@ -302,7 +322,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -312,7 +332,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 51.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,7 +344,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jebbit/refs/heads/main/screenshots/jebbit-2026-07-25T223113.png
 security:

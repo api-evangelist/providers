@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -36,70 +49,114 @@ apis:
 - description: Clear Street's official remote Model Context Protocol server, exposing the Clear Street Trading API to AI assistants such as Claude and Gemini. OAuth-protected per RFC 9728 — an anonymous request retu
   name: Clear Street MCP Server
   slug: mcp
-- description: Clear Street's legacy post-trade API for booking and cancelling trades and for submitting bulk trade-file uploads. Published as a Swagger 2.0 document in the clear-street/docs GitHub repository alongs
+- baseURL: https://api.clearstreet.io/v1
+  baseurl_source: declared
+  description: Clear Street's legacy post-trade API for booking and cancelling trades and for submitting bulk trade-file uploads. Published as a Swagger 2.0 document in the clear-street/docs GitHub repository alongs
   name: Clear Street API (Trades and Uploads)
   slug: legacy-api
-- description: The Accounts API from Clear Street — 6 operation(s) for accounts.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Accounts API from Clear Street — 6 operation(s) for accounts.
   name: Clear Street Accounts API
   slug: clear-street-accounts-api
-- description: Endpoints for API service metadata.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Endpoints for API service metadata.
   name: Clear Street API version API
   slug: clear-street-api-version-api
-- description: Access clocks and financial calendars for market sessions and events.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Access clocks and financial calendars for market sessions and events.
   name: Clear Street Calendar API
   slug: clear-street-calendar-api
-- description: The Entities API from Clear Street — 2 operation(s) for entities.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Entities API from Clear Street — 2 operation(s) for entities.
   name: Clear Street Entities API
   slug: clear-street-entities-api
-- description: The Holdings API from Clear Street — 1 operation(s) for holdings.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Holdings API from Clear Street — 1 operation(s) for holdings.
   name: Clear Street Holdings API
   slug: clear-street-holdings-api
-- description: Retrieve instrument analytics, market data, news, and related reference data.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Retrieve instrument analytics, market data, news, and related reference data.
   name: Clear Street Instrument Data API
   slug: clear-street-instrument-data-api
-- description: The Instruments API from Clear Street — 6 operation(s) for instruments.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Instruments API from Clear Street — 6 operation(s) for instruments.
   name: Clear Street Instruments API
   slug: clear-street-instruments-api
-- description: The Inventories API from Clear Street — 1 operation(s) for inventories.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Inventories API from Clear Street — 1 operation(s) for inventories.
   name: Clear Street Inventories API
   slug: clear-street-inventories-api
-- description: The Locates API from Clear Street — 2 operation(s) for locates.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Locates API from Clear Street — 2 operation(s) for locates.
   name: Clear Street Locates API
   slug: clear-street-locates-api
-- description: The Margin API from Clear Street — 2 operation(s) for margin.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Margin API from Clear Street — 2 operation(s) for margin.
   name: Clear Street Margin API
   slug: clear-street-margin-api
-- description: The Margin Simulations API from Clear Street — 2 operation(s) for margin simulations.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Margin Simulations API from Clear Street — 2 operation(s) for margin simulations.
   name: Clear Street Margin Simulations API
   slug: clear-street-margin-simulations-api
-- description: Thread-centric AI assistant for conversational trading. Create threads to start conversations, poll response objects for in-progress output, and read finalized messages from thread history. Thread/mes
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Thread-centric AI assistant for conversational trading. Create threads to start conversations, poll response objects for in-progress output, and read finalized messages from thread history. Thread/mes
   name: Clear Street Omni AI API
   slug: clear-street-omni-ai-api
-- description: The Orders API from Clear Street — 6 operation(s) for orders.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Orders API from Clear Street — 6 operation(s) for orders.
   name: Clear Street Orders API
   slug: clear-street-orders-api
-- description: The Performance API from Clear Street — 1 operation(s) for performance.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Performance API from Clear Street — 1 operation(s) for performance.
   name: Clear Street Performance API
   slug: clear-street-performance-api
-- description: The PNL API from Clear Street — 3 operation(s) for pnl.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The PNL API from Clear Street — 3 operation(s) for pnl.
   name: Clear Street PNL API
   slug: clear-street-pnl-api
-- description: The Positions API from Clear Street — 6 operation(s) for positions.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Positions API from Clear Street — 6 operation(s) for positions.
   name: Clear Street Positions API
   slug: clear-street-positions-api
-- description: The Rates API from Clear Street — 1 operation(s) for rates.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: The Rates API from Clear Street — 1 operation(s) for rates.
   name: Clear Street Rates API
   slug: clear-street-rates-api
-- description: Search instruments and manage saved screeners.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Search instruments and manage saved screeners.
   name: Clear Street Screener API
   slug: clear-street-screener-api
-- description: Trade endpoints are used to insert or cancel trades into a our systems.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Trade endpoints are used to insert or cancel trades into a our systems.
   name: Clear Street Trades API
   slug: clear-street-trades-api
-- description: 'Upload endpoints allow you to upload a `CSV` file that contain trades, in the same format as our <b>[trade-file specification](https://github.com/clear-street/docs/blob/master/trade_file.md)</b>. You '
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: 'Upload endpoints allow you to upload a `CSV` file that contain trades, in the same format as our <b>[trade-file specification](https://github.com/clear-street/docs/blob/master/trade_file.md)</b>. You '
   name: Clear Street Uploads API
   slug: clear-street-uploads-api
-- description: Create and manage watchlists.
+- baseURL: https://api.clearstreet.com
+  baseurl_source: declared
+  description: Create and manage watchlists.
   name: Clear Street Watchlist API
   slug: clear-street-watchlist-api
 artifact_total: 53
@@ -364,7 +421,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -374,7 +431,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 64.9
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -392,7 +449,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:

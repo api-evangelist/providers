@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The AIS Client Portal is the secure area where financial advisors and individual investors reach AIS statements, performance reporting and account documents. Probed 2026-08-30: clients.aisgroup.com is'
@@ -132,7 +132,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ais/refs/heads/main/screenshots/ais-2026-06-20T171439.png
 security:

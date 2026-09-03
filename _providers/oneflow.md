@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 28 operations · 14 acting
 api_count: 1
 apis:
-- description: Inline collaboration comments on a contract.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Inline collaboration comments on a contract.
   name: Oneflow Comments API
   slug: oneflow-comments-api
-- description: Download the files (PDF / signed documents) attached to a contract.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Download the files (PDF / signed documents) attached to a contract.
   name: Oneflow Contract Files API
   slug: oneflow-contract-files-api
-- description: Create, retrieve, update, publish, copy, and delete contracts.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, publish, copy, and delete contracts.
   name: Oneflow Contracts API
   slug: oneflow-contracts-api
-- description: Custom / merge fields on contracts and template types.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Custom / merge fields on contracts and template types.
   name: Oneflow Data Fields API
   slug: oneflow-data-fields-api
-- description: Signatories and viewers belonging to a party.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Signatories and viewers belonging to a party.
   name: Oneflow Participants API
   slug: oneflow-participants-api
-- description: Counterparty companies or individuals on a contract.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Counterparty companies or individuals on a contract.
   name: Oneflow Parties API
   slug: oneflow-parties-api
-- description: Health check and token validation.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Health check and token validation.
   name: Oneflow Ping API
   slug: oneflow-ping-api
-- description: Templates and template types used to create contracts.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Templates and template types used to create contracts.
   name: Oneflow Templates API
   slug: oneflow-templates-api
-- description: Users in an account.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Users in an account.
   name: Oneflow Users API
   slug: oneflow-users-api
-- description: Subscriptions delivering contract lifecycle events to a callback URL.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Subscriptions delivering contract lifecycle events to a callback URL.
   name: Oneflow Webhooks API
   slug: oneflow-webhooks-api
-- description: Organizational containers that scope templates and contracts.
+- baseURL: https://api.oneflow.com/v1
+  baseurl_source: declared
+  description: Organizational containers that scope templates and contracts.
   name: Oneflow Workspaces API
   slug: oneflow-workspaces-api
 artifact_total: 31
@@ -211,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/screenshots/oneflow-2026-08-07T190311.png
 security:

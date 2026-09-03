@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 107 operations · 65 acting
 api_count: 1
 apis:
-- description: Roles, permissions, and sharing (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Roles, permissions, and sharing (Profile Token).
   name: TagoIO Access Management API
   slug: tago-io-access-management-api
-- description: Account-level operations (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Account-level operations (Profile Token).
   name: TagoIO Account API
   slug: tago-io-account-api
-- description: The Backup API from TagoIO — 3 operation(s) for backup.
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: The Backup API from TagoIO — 3 operation(s) for backup.
   name: TagoIO Backup API
   slug: tago-io-backup-api
-- description: The Configuration Param API from TagoIO — 2 operation(s) for configuration param.
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: The Configuration Param API from TagoIO — 2 operation(s) for configuration param.
   name: TagoIO Configuration Param API
   slug: tago-io-configuration-param-api
-- description: Manage dashboards (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage dashboards (Profile Token).
   name: TagoIO Dashboards API
   slug: tago-io-dashboards-api
-- description: Endpoints that act as a device using a Device Token (device-level permissions).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Endpoints that act as a device using a Device Token (device-level permissions).
   name: TagoIO Device Data API
   slug: tago-io-device-data-api
-- description: Manage device tokens (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage device tokens (Profile Token).
   name: TagoIO Device Tokens API
   slug: tago-io-device-tokens-api
-- description: Manage devices using a Profile Token (admin-level).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage devices using a Profile Token (admin-level).
   name: TagoIO Devices API
   slug: tago-io-devices-api
-- description: Manage Dictionary Slugs and Keys for TagoRUN (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage Dictionary Slugs and Keys for TagoRUN (Profile Token).
   name: TagoIO Dictionary API
   slug: tago-io-dictionary-api
-- description: Manage entities (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage entities (Profile Token).
   name: TagoIO Entity API
   slug: tago-io-entity-api
-- description: Operations specific to managing entitie stored data (Profile Token)
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Operations specific to managing entitie stored data (Profile Token)
   name: TagoIO Entity Data API
   slug: tago-io-entity-data-api
-- description: File storage operations (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: File storage operations (Profile Token).
   name: TagoIO Files API
   slug: tago-io-files-api
-- description: Operations specific to immutable device type (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Operations specific to immutable device type (Profile Token).
   name: TagoIO Immutable Device API
   slug: tago-io-immutable-device-api
-- description: Import/Export Operations for devices (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Import/Export Operations for devices (Profile Token).
   name: TagoIO Import/Export API
   slug: tago-io-import-export-api
-- description: Endpoints that act as a network using a Network Token (network-level permissions).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Endpoints that act as a network using a Network Token (network-level permissions).
   name: TagoIO Network Ingest API
   slug: tago-io-network-ingest-api
-- description: Manage notifications (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage notifications (Profile Token).
   name: TagoIO Notifications API
   slug: tago-io-notifications-api
-- description: Manage your own profile settings (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage your own profile settings (Profile Token).
   name: TagoIO Profile API
   slug: tago-io-profile-api
-- description: Usage statistics and billing (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Usage statistics and billing (Profile Token).
   name: TagoIO Statistics / Billing API
   slug: tago-io-statistics-billing-api
-- description: The Tago RUN API from TagoIO — 2 operation(s) for tago run.
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: The Tago RUN API from TagoIO — 2 operation(s) for tago run.
   name: TagoIO Tago RUN API
   slug: tago-io-tago-run-api
-- description: The Upload API from TagoIO — 1 operation(s) for upload.
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: The Upload API from TagoIO — 1 operation(s) for upload.
   name: TagoIO Upload API
   slug: tago-io-upload-api
-- description: Manage TagoRUN users (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage TagoRUN users (Profile Token).
   name: TagoIO Users API
   slug: tago-io-users-api
-- description: Manage widgets (Profile Token).
+- baseURL: https://api.us-e1.tago.io/
+  baseurl_source: declared
+  description: Manage widgets (Profile Token).
   name: TagoIO Widgets API
   slug: tago-io-widgets-api
 artifact_total: 80
@@ -425,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/screenshots/tago-io-2026-06-20T194853.png
 security:

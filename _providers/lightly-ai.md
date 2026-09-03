@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The open-source (Apache-2.0) lightly Python library for self-supervised representation learning on images (SimCLR, MoCo, DINO, BYOL, and more). It is a pip-installable PyTorch SDK and is distinct from
   name: Lightly Self-Supervised Learning SDK (OSS)
   slug: lightly-oss-sdk
-- description: Create and manage LightlyOne datasets.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Create and manage LightlyOne datasets.
   name: Lightly Datasets API
   slug: lightly-ai-datasets-api
-- description: Configure and inspect the cloud datasource backing a dataset.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Configure and inspect the cloud datasource backing a dataset.
   name: Lightly Datasources API
   slug: lightly-ai-datasources-api
-- description: Manage dataset embeddings and trigger 2D projection jobs.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Manage dataset embeddings and trigger 2D projection jobs.
   name: Lightly Embeddings API
   slug: lightly-ai-embeddings-api
-- description: Poll asynchronous platform jobs.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Poll asynchronous platform jobs.
   name: Lightly Jobs API
   slug: lightly-ai-jobs-api
-- description: Manage samples and their signed read / write URLs within a dataset.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Manage samples and their signed read / write URLs within a dataset.
   name: Lightly Samples API
   slug: lightly-ai-samples-api
-- description: Register LightlyOne Workers and schedule selection / active-learning runs.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Register LightlyOne Workers and schedule selection / active-learning runs.
   name: Lightly Selection API
   slug: lightly-ai-selection-api
-- description: Manage and export dataset tags.
+- baseURL: https://api.lightly.ai/v1
+  baseurl_source: declared
+  description: Manage and export dataset tags.
   name: Lightly Tags API
   slug: lightly-ai-tags-api
 artifact_total: 23
@@ -194,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightly-ai/refs/heads/main/screenshots/lightly-ai-2026-07-25T225121.png
 security:

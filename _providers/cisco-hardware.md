@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,25 +56,39 @@ apis:
 - description: The UCS Manager XML API is the legacy programmatic interface for managing Cisco Unified Computing System blade and rack servers. The API uses an XML over HTTPS request-response model targeting the UCS
   name: Cisco UCS Manager API
   slug: ucs-manager-api
-- description: The Authentication API from Cisco Hardware — 1 operation(s) for authentication.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Cisco Hardware — 1 operation(s) for authentication.
   name: Cisco Hardware Authentication API
   slug: cisco-hardware-authentication-api
-- description: The CommandRunner API from Cisco Hardware — 1 operation(s) for commandrunner.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The CommandRunner API from Cisco Hardware — 1 operation(s) for commandrunner.
   name: Cisco Hardware CommandRunner API
   slug: cisco-hardware-commandrunner-api
-- description: The Devices API from Cisco Hardware — 3 operation(s) for devices.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Devices API from Cisco Hardware — 3 operation(s) for devices.
   name: Cisco Hardware Devices API
   slug: cisco-hardware-devices-api
-- description: The Discovery API from Cisco Hardware — 1 operation(s) for discovery.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Discovery API from Cisco Hardware — 1 operation(s) for discovery.
   name: Cisco Hardware Discovery API
   slug: cisco-hardware-discovery-api
-- description: The Network API from Cisco Hardware — 1 operation(s) for network.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Network API from Cisco Hardware — 1 operation(s) for network.
   name: Cisco Hardware Network API
   slug: cisco-hardware-network-api
-- description: The Sites API from Cisco Hardware — 1 operation(s) for sites.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Sites API from Cisco Hardware — 1 operation(s) for sites.
   name: Cisco Hardware Sites API
   slug: cisco-hardware-sites-api
-- description: The Topology API from Cisco Hardware — 1 operation(s) for topology.
+- baseURL: https://api.meraki.com/api/v1
+  baseurl_source: declared
+  description: The Topology API from Cisco Hardware — 1 operation(s) for topology.
   name: Cisco Hardware Topology API
   slug: cisco-hardware-topology-api
 artifact_total: 29
@@ -248,7 +262,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/screenshots/cisco-hardware-2026-06-20T174357.png
 security:

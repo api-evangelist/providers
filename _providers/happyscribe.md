@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Render finished transcripts into downloadable files.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Render finished transcripts into downloadable files.
   name: Happy Scribe Exports API
   slug: happyscribe-exports-api
-- description: Reusable glossaries and style guides attachable to orders.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Reusable glossaries and style guides attachable to orders.
   name: Happy Scribe Glossaries and Style Guides API
   slug: happyscribe-glossaries-and-style-guides-api
-- description: Create and track transcription, subtitling, and translation orders.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Create and track transcription, subtitling, and translation orders.
   name: Happy Scribe Orders API
   slug: happyscribe-orders-api
-- description: Manage members and roles within an organization.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Manage members and roles within an organization.
   name: Happy Scribe Organization Memberships API
   slug: happyscribe-organization-memberships-api
-- description: Organizations (workspaces) the authenticated user belongs to.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Organizations (workspaces) the authenticated user belongs to.
   name: Happy Scribe Organizations API
   slug: happyscribe-organizations-api
-- description: List, retrieve, update, and delete transcriptions.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: List, retrieve, update, and delete transcriptions.
   name: Happy Scribe Transcriptions API
   slug: happyscribe-transcriptions-api
-- description: Signed upload URLs for local media files.
+- baseURL: https://www.happyscribe.com/api/v1
+  baseurl_source: declared
+  description: Signed upload URLs for local media files.
   name: Happy Scribe Uploads API
   slug: happyscribe-uploads-api
 artifact_total: 21
@@ -183,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/screenshots/happyscribe-2026-07-25T220659.png
 security:

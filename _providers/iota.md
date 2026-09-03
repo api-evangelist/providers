@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -47,52 +47,84 @@ apis:
 - description: 'GraphQL RPC interface for the IOTA blockchain, providing an alternative to the JSON-RPC API. Supports querying transaction blocks, objects, checkpoints, events, and on-chain state using GraphQL query '
   name: IOTA GraphQL API
   slug: iota-graphql-api
-- description: The auth API from IOTA — 2 operation(s) for auth.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The auth API from IOTA — 2 operation(s) for auth.
   name: IOTA auth API
   slug: iota-auth-api
-- description: The chains API from IOTA — 18 operation(s) for chains.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The chains API from IOTA — 18 operation(s) for chains.
   name: IOTA chains API
   slug: iota-chains-api
-- description: 'Coin and balance queries: balances, coins list, metadata, supply'
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: 'Coin and balance queries: balances, coins list, metadata, supply'
   name: IOTA Coin Query API
   slug: iota-coin-query-api
-- description: The corecontracts API from IOTA — 18 operation(s) for corecontracts.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The corecontracts API from IOTA — 18 operation(s) for corecontracts.
   name: IOTA corecontracts API
   slug: iota-corecontracts-api
-- description: Indexer-exclusive methods for advanced queries, events, dynamic fields, IOTA Names
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: Indexer-exclusive methods for advanced queries, events, dynamic fields, IOTA Names
   name: IOTA Extended API
   slug: iota-extended-api
-- description: Governance, staking, validator, epoch, and system state queries
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: Governance, staking, validator, epoch, and system state queries
   name: IOTA Governance API
   slug: iota-governance-api
-- description: The Health API from IOTA — 1 operation(s) for health.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The Health API from IOTA — 1 operation(s) for health.
   name: IOTA Health API
   slug: iota-health-api
-- description: The metrics API from IOTA — 3 operation(s) for metrics.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The metrics API from IOTA — 3 operation(s) for metrics.
   name: IOTA metrics API
   slug: iota-metrics-api
-- description: 'Move smart contract introspection: modules, functions, structs'
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: 'Move smart contract introspection: modules, functions, structs'
   name: IOTA Move Utils API
   slug: iota-move-utils-api
-- description: The node API from IOTA — 11 operation(s) for node.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The node API from IOTA — 11 operation(s) for node.
   name: IOTA node API
   slug: iota-node-api
-- description: 'Core read operations: objects, checkpoints, transactions, events, protocol config'
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: 'Core read operations: objects, checkpoints, transactions, events, protocol config'
   name: IOTA Read API
   slug: iota-read-api
-- description: The requests API from IOTA — 1 operation(s) for requests.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The requests API from IOTA — 1 operation(s) for requests.
   name: IOTA requests API
   slug: iota-requests-api
-- description: Build unsigned transactions for transfers, staking, Move calls (unsafe_ prefix)
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: Build unsigned transactions for transfers, staking, Move calls (unsafe_ prefix)
   name: IOTA Transaction Builder API
   slug: iota-transaction-builder-api
-- description: The users API from IOTA — 4 operation(s) for users.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The users API from IOTA — 4 operation(s) for users.
   name: IOTA users API
   slug: iota-users-api
-- description: Transaction execution, dry run, and dev inspection
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: Transaction execution, dry run, and dev inspection
   name: IOTA Write API
   slug: iota-write-api
-- description: The Ws API from IOTA — 1 operation(s) for ws.
+- baseURL: https://api.mainnet.iota.cafe:443
+  baseurl_source: declared
+  description: The Ws API from IOTA — 1 operation(s) for ws.
   name: IOTA Ws API
   slug: iota-ws-api
 artifact_total: 59
@@ -372,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iota/refs/heads/main/screenshots/iota-2026-06-20T183535.png
 security:

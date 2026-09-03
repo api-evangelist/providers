@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,25 +45,39 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: The AzureStorage API from RICS (Royal Institution of Chartered Surveyors) — 6 operation(s) for azurestorage.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The AzureStorage API from RICS (Royal Institution of Chartered Surveyors) — 6 operation(s) for azurestorage.
   name: RICS (Royal Institution of Chartered Surveyors) Azure Storage API
   slug: rics-azurestorage-api
-- description: The OlaMerchantPost API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for olamerchantpost.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The OlaMerchantPost API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for olamerchantpost.
   name: RICS (Royal Institution of Chartered Surveyors) Ola Merchant Post API
   slug: rics-olamerchantpost-api
-- description: The Payment API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for payment.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The Payment API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for payment.
   name: RICS (Royal Institution of Chartered Surveyors) Payment API
   slug: rics-payment-api
-- description: The Profile API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for profile.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The Profile API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for profile.
   name: RICS (Royal Institution of Chartered Surveyors) Profile API
   slug: rics-profile-api
-- description: The Regulation API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for regulation.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The Regulation API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for regulation.
   name: RICS (Royal Institution of Chartered Surveyors) Regulation API
   slug: rics-regulation-api
-- description: The SurveyWriter API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for surveywriter.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The SurveyWriter API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for surveywriter.
   name: RICS (Royal Institution of Chartered Surveyors) Survey Writer API
   slug: rics-surveywriter-api
-- description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
+- baseURL: https://api.rics.org
+  baseurl_source: declared
+  description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
   name: RICS (Royal Institution of Chartered Surveyors) Token API
   slug: rics-token-api
 artifact_total: 19
@@ -304,7 +330,7 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -333,8 +359,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rics/refs/heads/main/screenshots/rics-2026-09-02T153806.png
 security:
 - kind: authentication
   name: Rics Authentication

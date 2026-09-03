@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 154 operations · 65 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Keys API from Posit — 2 operation(s) for api keys.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The API Keys API from Posit — 2 operation(s) for api keys.
   name: Posit API Keys API
   slug: posit-api-keys-api
-- description: The Audit Logs API from Posit — 3 operation(s) for audit logs.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Audit Logs API from Posit — 3 operation(s) for audit logs.
   name: Posit Audit Logs API
   slug: posit-audit-logs-api
-- description: The Bookmarks API from Posit — 1 operation(s) for bookmarks.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Bookmarks API from Posit — 1 operation(s) for bookmarks.
   name: Posit Bookmarks API
   slug: posit-bookmarks-api
-- description: The Bootstrap API from Posit — 2 operation(s) for bootstrap.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Bootstrap API from Posit — 2 operation(s) for bootstrap.
   name: Posit Bootstrap API
   slug: posit-bootstrap-api
-- description: The Bundles API from Posit — 5 operation(s) for bundles.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Bundles API from Posit — 5 operation(s) for bundles.
   name: Posit Bundles API
   slug: posit-bundles-api
-- description: The Content API from Posit — 14 operation(s) for content.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Content API from Posit — 14 operation(s) for content.
   name: Posit Content API
   slug: posit-content-api
-- description: The Content Permissions API from Posit — 2 operation(s) for content permissions.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Content Permissions API from Posit — 2 operation(s) for content permissions.
   name: Posit Content Permissions API
   slug: posit-content-permissions-api
-- description: The Custom Documentation API from Posit — 1 operation(s) for custom documentation.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Custom Documentation API from Posit — 1 operation(s) for custom documentation.
   name: Posit Custom Documentation API
   slug: posit-custom-documentation-api
-- description: The Environment Permissions API from Posit — 2 operation(s) for environment permissions.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Environment Permissions API from Posit — 2 operation(s) for environment permissions.
   name: Posit Environment Permissions API
   slug: posit-environment-permissions-api
-- description: The Environments API from Posit — 2 operation(s) for environments.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Environments API from Posit — 2 operation(s) for environments.
   name: Posit Environments API
   slug: posit-environments-api
-- description: The Examples API from Posit — 3 operation(s) for examples.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Examples API from Posit — 3 operation(s) for examples.
   name: Posit Examples API
   slug: posit-examples-api
-- description: The Feature Usage API from Posit — 1 operation(s) for feature usage.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Feature Usage API from Posit — 1 operation(s) for feature usage.
   name: Posit Feature Usage API
   slug: posit-feature-usage-api
-- description: The Groups API from Posit — 6 operation(s) for groups.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Groups API from Posit — 6 operation(s) for groups.
   name: Posit Groups API
   slug: posit-groups-api
-- description: The Instrumentation API from Posit — 3 operation(s) for instrumentation.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Instrumentation API from Posit — 3 operation(s) for instrumentation.
   name: Posit Instrumentation API
   slug: posit-instrumentation-api
-- description: The Jobs API from Posit — 8 operation(s) for jobs.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Jobs API from Posit — 8 operation(s) for jobs.
   name: Posit Jobs API
   slug: posit-jobs-api
-- description: The Metrics API from Posit — 1 operation(s) for metrics.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Metrics API from Posit — 1 operation(s) for metrics.
   name: Posit Metrics API
   slug: posit-metrics-api
-- description: The OAuth Clients API from Posit — 2 operation(s) for oauth clients.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The OAuth Clients API from Posit — 2 operation(s) for oauth clients.
   name: Posit OAuth Clients API
   slug: posit-oauth-clients-api
-- description: The OAuth Integration Templates API from Posit — 2 operation(s) for oauth integration templates.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The OAuth Integration Templates API from Posit — 2 operation(s) for oauth integration templates.
   name: Posit OAuth Integration Templates API
   slug: posit-oauth-integration-templates-api
-- description: The OAuth Integrations API from Posit — 5 operation(s) for oauth integrations.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The OAuth Integrations API from Posit — 5 operation(s) for oauth integrations.
   name: Posit OAuth Integrations API
   slug: posit-oauth-integrations-api
-- description: The OAuth Sessions API from Posit — 2 operation(s) for oauth sessions.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The OAuth Sessions API from Posit — 2 operation(s) for oauth sessions.
   name: Posit OAuth Sessions API
   slug: posit-oauth-sessions-api
-- description: The Packages API from Posit — 1 operation(s) for packages.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Packages API from Posit — 1 operation(s) for packages.
   name: Posit Packages API
   slug: posit-packages-api
-- description: The Queue API from Posit — 2 operation(s) for queue.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Queue API from Posit — 2 operation(s) for queue.
   name: Posit Queue API
   slug: posit-queue-api
-- description: The Schedules API from Posit — 1 operation(s) for schedules.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Schedules API from Posit — 1 operation(s) for schedules.
   name: Posit Schedules API
   slug: posit-schedules-api
-- description: The Server Information API from Posit — 7 operation(s) for server information.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Server Information API from Posit — 7 operation(s) for server information.
   name: Posit Server Information API
   slug: posit-server-information-api
-- description: The Service Tokens API from Posit — 3 operation(s) for service tokens.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Service Tokens API from Posit — 3 operation(s) for service tokens.
   name: Posit Service Tokens API
   slug: posit-service-tokens-api
-- description: The Storage API from Posit — 2 operation(s) for storage.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Storage API from Posit — 2 operation(s) for storage.
   name: Posit Storage API
   slug: posit-storage-api
-- description: The System API from Posit — 1 operation(s) for system.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The System API from Posit — 1 operation(s) for system.
   name: Posit System API
   slug: posit-system-api
-- description: The System Checks API from Posit — 3 operation(s) for system checks.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The System Checks API from Posit — 3 operation(s) for system checks.
   name: Posit System Checks API
   slug: posit-system-checks-api
-- description: The System Information API from Posit — 3 operation(s) for system information.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The System Information API from Posit — 3 operation(s) for system information.
   name: Posit System Information API
   slug: posit-system-information-api
-- description: The Tags API from Posit — 5 operation(s) for tags.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Tags API from Posit — 5 operation(s) for tags.
   name: Posit Tags API
   slug: posit-tags-api
-- description: The Tasks API from Posit — 1 operation(s) for tasks.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Tasks API from Posit — 1 operation(s) for tasks.
   name: Posit Tasks API
   slug: posit-tasks-api
-- description: The Users API from Posit — 5 operation(s) for users.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Users API from Posit — 5 operation(s) for users.
   name: Posit Users API
   slug: posit-users-api
-- description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
+- baseURL: https://connect.example.com/__api__
+  baseurl_source: declared
+  description: The Vanity URLs API from Posit — 2 operation(s) for vanity urls.
   name: Posit Vanity URLs API
   slug: posit-vanity-urls-api
 artifact_total: 71
@@ -418,7 +484,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posit/refs/heads/main/screenshots/posit-2026-08-17T081325.png
 security:

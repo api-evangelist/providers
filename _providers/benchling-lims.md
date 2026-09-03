@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 89 operations · 47 acting
 api_count: 1
 apis:
-- description: Amino-acid (protein) sequences.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Amino-acid (protein) sequences.
   name: Benchling AA Sequences API
   slug: benchling-lims-aa-sequences-api
-- description: Benchling Apps, app config, canvases, and sessions.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Benchling Apps, app config, canvases, and sessions.
   name: Benchling Apps API
   slug: benchling-lims-apps-api
-- description: Structured assay results, including transactional bulk loads.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Structured assay results, including transactional bulk loads.
   name: Benchling Assay Results API
   slug: benchling-lims-assay-results-api
-- description: Assay runs and their automation input/output generators.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Assay runs and their automation input/output generators.
   name: Benchling Assay Runs API
   slug: benchling-lims-assay-runs-api
-- description: Binary attachments and file objects.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Binary attachments and file objects.
   name: Benchling Blobs & Files API
   slug: benchling-lims-blobs-files-api
-- description: Schema-driven custom entities registered in Benchling.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Schema-driven custom entities registered in Benchling.
   name: Benchling Custom Entities API
   slug: benchling-lims-custom-entities-api
-- description: DNA sequences and sequence-aware operations.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: DNA sequences and sequence-aware operations.
   name: Benchling DNA Sequences API
   slug: benchling-lims-dna-sequences-api
-- description: Electronic lab notebook (ELN) entries and templates.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Electronic lab notebook (ELN) entries and templates.
   name: Benchling Entries API
   slug: benchling-lims-entries-api
-- description: Tenant event stream (also delivered via EventBridge and webhooks).
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Tenant event stream (also delivered via EventBridge and webhooks).
   name: Benchling Events API
   slug: benchling-lims-events-api
-- description: Locations, boxes, containers, and plates for physical samples.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Locations, boxes, containers, and plates for physical samples.
   name: Benchling Inventory API
   slug: benchling-lims-inventory-api
-- description: Automation input generators and output processors for instrument files.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Automation input generators and output processors for instrument files.
   name: Benchling Lab Automation API
   slug: benchling-lims-lab-automation-api
-- description: Small molecules.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Small molecules.
   name: Benchling Molecules API
   slug: benchling-lims-molecules-api
-- description: DNA/RNA oligos.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: DNA/RNA oligos.
   name: Benchling Oligos API
   slug: benchling-lims-oligos-api
-- description: Organize entries and entities into projects and folders.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Organize entries and entities into projects and folders.
   name: Benchling Projects & Folders API
   slug: benchling-lims-projects-folders-api
-- description: Register/unregister entities and browse registry schemas and dropdowns.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Register/unregister entities and browse registry schemas and dropdowns.
   name: Benchling Registry API
   slug: benchling-lims-registry-api
-- description: Cross-team service requests, tasks, and fulfillments.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Cross-team service requests, tasks, and fulfillments.
   name: Benchling Requests API
   slug: benchling-lims-requests-api
-- description: RNA sequences and sequence-aware operations.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: RNA sequences and sequence-aware operations.
   name: Benchling RNA Sequences API
   slug: benchling-lims-rna-sequences-api
-- description: The Teams & Organizations API from Benchling — 4 operation(s) for teams & organizations.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Teams & Organizations API from Benchling — 4 operation(s) for teams & organizations.
   name: Benchling Teams & Organizations API
   slug: benchling-lims-teams-organizations-api
-- description: The Users API from Benchling — 4 operation(s) for users.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: The Users API from Benchling — 4 operation(s) for users.
   name: Benchling Users API
   slug: benchling-lims-users-api
-- description: Workflow task groups, tasks, and outputs.
+- baseURL: https://{tenant}.benchling.com/api/v2
+  baseurl_source: declared
+  description: Workflow task groups, tasks, and outputs.
   name: Benchling Workflows API
   slug: benchling-lims-workflows-api
 artifact_total: 50
@@ -267,7 +307,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -277,7 +317,7 @@ score:
     discoverability: 63.0
     governance: 0.0
     operational_transparency: 38.2
-  previous_composite: 41.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +332,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/screenshots/benchling-lims-2026-07-25T202730.png
 security:

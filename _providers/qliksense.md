@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 82
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -43,244 +43,404 @@ apis:
 - description: gRPC/protobuf contract for extending the Qlik Associative Engine with external compute. A plugin implements the qlik.sse.Connector service and the engine calls out to it for scalar, aggregation and te
   name: Qlik Server-Side Extension Protocol
   slug: server-side-extension
-- description: 'The Qlik Cloud tenant event surface: 29 AsyncAPI 3.0.0 documents covering 102 message definitions across apps, reloads, spaces, tenants, users, roles, licenses, quotas, OAuth clients, data-integration'
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/webhooks
+  baseurl_source: declared
+  description: 'The Qlik Cloud tenant event surface: 29 AsyncAPI 3.0.0 documents covering 102 message definitions across apps, reloads, spaces, tenants, users, roles, licenses, quotas, OAuth clients, data-integration'
   name: Qlik Cloud System Events
   slug: system-events
-- description: Qlik's first-party remote Model Context Protocol server, generally available since 2026-02-10 and included from the Starter plan up. It exposes Qlik Cloud analytics — datasets and data quality, data p
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/ai/mcp
+  baseurl_source: declared
+  description: Qlik's first-party remote Model Context Protocol server, generally available since 2026-02-10 and included from the Starter plan up. It exposes Qlik Cloud analytics — datasets and data quality, data p
   name: Qlik MCP Server
   slug: mcp-server
-- description: Qlik Cloud Apps API. 7 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/apps.json
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/apps/evaluations
+  baseurl_source: declared
+  description: Qlik Cloud Apps API. 7 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/apps.json
   name: Qlik Apps API
   slug: analytics-apps-api
-- description: Retrieve user-entered changes from write tables for export or further processing.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/change-stores
+  baseurl_source: declared
+  description: Retrieve user-entered changes from write tables for export or further processing.
   name: Qlik Change stores API
   slug: analytics-change-stores-api
-- description: Qlik Cloud Adaptive cards API. 1 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/discovery-agent/adaptive-cards.json
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/discovery-agent/adaptive-cards
+  baseurl_source: declared
+  description: Qlik Cloud Adaptive cards API. 1 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/analytics/discovery-agent/adaptive-cards.json
   name: Qlik Adaptive cards API
   slug: analytics-discovery-agent-adaptive-cards-api
-- description: Retrieve and filter on-demand generated analytics applications by type.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-apps
+  baseurl_source: declared
+  description: Retrieve and filter on-demand generated analytics applications by type.
   name: Qlik ODAG apps API
   slug: analytics-odag-apps-api
-- description: Create, manage, and retrieve on-demand analytics generation links between selection and template applications.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-links
+  baseurl_source: declared
+  description: Create, manage, and retrieve on-demand analytics generation links between selection and template applications.
   name: Qlik ODAG links API
   slug: analytics-odag-links-api
-- description: Submit, track, and manage on-demand analytics generation requests and their generated applications.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-requests
+  baseurl_source: declared
+  description: Submit, track, and manage on-demand analytics generation requests and their generated applications.
   name: Qlik ODAG requests API
   slug: analytics-odag-requests-api
-- description: Read and configure tenant-level on-demand analytics generation settings.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/analytics/odag-settings
+  baseurl_source: declared
+  description: Read and configure tenant-level on-demand analytics generation settings.
   name: Qlik ODAG settings API
   slug: analytics-odag-settings-api
-- description: API keys can be used by developers to gain programmatic access to the Qlik platform, acting as their own user.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/api-keys
+  baseurl_source: declared
+  description: API keys can be used by developers to gain programmatic access to the Qlik platform, acting as their own user.
   name: Qlik API keys API
   slug: api-keys-api
-- description: Manage Qlik Sense applications including creating, updating, publishing, and deleting apps in Qlik Cloud.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/apps
+  baseurl_source: declared
+  description: Manage Qlik Sense applications including creating, updating, publishing, and deleting apps in Qlik Cloud.
   name: Qlik Apps API
   slug: apps-api
-- description: Assistants provide a chat interface for asking questions and getting personalized, relevant answers for Qlik Answers.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/assistants
+  baseurl_source: declared
+  description: Assistants provide a chat interface for asking questions and getting personalized, relevant answers for Qlik Answers.
   name: Qlik Assistants API
   slug: assistants-api
-- description: Access events emitted upon each action taken in a tenant for detailed audit logging and compliance.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/audits
+  baseurl_source: declared
+  description: Access events emitted upon each action taken in a tenant for detailed audit logging and compliance.
   name: Qlik Audits API
   slug: audits-api
-- description: Automation Connections are used by Qlik Automate connectors during automation execution.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automation-connections
+  baseurl_source: declared
+  description: Automation Connections are used by Qlik Automate connectors during automation execution.
   name: Qlik Automation connections API
   slug: automation-connections-api
-- description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automation-connectors
+  baseurl_source: declared
+  description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
   name: Qlik Automation connectors API
   slug: automation-connectors-api
-- description: Create and manage no-code automation workflows in Qlik Automate that connect applications together.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automations
+  baseurl_source: declared
+  description: Create and manage no-code automation workflows in Qlik Automate that connect applications together.
   name: Qlik Automations API
   slug: automations-api
-- description: Use your ML deployment to generate real-time results returned as JSON in a synchronous manner to predict future outcomes on new data.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automl-deployments
+  baseurl_source: declared
+  description: Use your ML deployment to generate real-time results returned as JSON in a synchronous manner to predict future outcomes on new data.
   name: Qlik AutoML real-time predictions API
   slug: automl-deployments-api
-- description: Use your ML deployment to generate batch data in file format to predict future outcomes on new data.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/automl-predictions
+  baseurl_source: declared
+  description: Use your ML deployment to generate batch data in file format to predict future outcomes on new data.
   name: Qlik AutoML dataset predictions API
   slug: automl-predictions-api
-- description: Banners display short messages at the top of the client interface to share tenant-wide information, warnings, or issues. When embedding content, banners aren't shown inside qlik-embed UIs. The only em
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/banners
+  baseurl_source: declared
+  description: Banners display short messages at the top of the client interface to share tenant-wide information, warnings, or issues. When embedding content, banners aren't shown inside qlik-embed UIs. The only em
   name: Qlik Banners API
   slug: banners-api
-- description: Brands allow you to apply tenant level branding across most user interfaces.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/brands
+  baseurl_source: declared
+  description: Brands allow you to apply tenant level branding across most user interfaces.
   name: Qlik Brands API
   slug: brands-api
-- description: Collections provide the framework to catalog various content a user has access to using tags, public and private collections, and favorites.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/collections
+  baseurl_source: declared
+  description: Collections provide the framework to catalog various content a user has access to using tags, public and private collections, and favorites.
   name: Qlik Collections API
   slug: collections-api
-- description: Conditions are used by features such as data alerting and subscriptions to determine when action should be taken, based on data in a Qlik app.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/conditions
+  baseurl_source: declared
+  description: Conditions are used by features such as data alerting and subscriptions to determine when action should be taken, based on data in a Qlik app.
   name: Qlik Conditions API
   slug: conditions-api
-- description: Tracks usage of entitled features in a tenant, used for the consumption metrics in the admin console in a tenant.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/consumption/executions
+  baseurl_source: declared
+  description: Tracks usage of entitled features in a tenant, used for the consumption metrics in the admin console in a tenant.
   name: Qlik Entitlement consumption API
   slug: consumption-api
-- description: Configure and retrieve authentication settings for your Qlik Cloud tenant.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/core/auth-settings
+  baseurl_source: declared
+  description: Configure and retrieve authentication settings for your Qlik Cloud tenant.
   name: Qlik Auth settings API
   slug: core-auth-settings-api
-- description: 'IP policies let you control which IP addresses can access your Qlik Cloud tenant. Use this API to manage allowlisting rules by creating, listing, updating, and deleting IP policies. When allowlisting '
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/core/ip-policies
+  baseurl_source: declared
+  description: 'IP policies let you control which IP addresses can access your Qlik Cloud tenant. Use this API to manage allowlisting rules by creating, listing, updating, and deleting IP policies. When allowlisting '
   name: Qlik IP Policies API
   slug: core-ip-policies-api
-- description: CSP origins allow you to configure domains, or origins, that Qlik Sense client visualizations/extensions are allowed to communicate with.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/csp-origins
+  baseurl_source: declared
+  description: CSP origins allow you to configure domains, or origins, that Qlik Sense client visualizations/extensions are allowed to communicate with.
   name: Qlik CSP origins API
   slug: csp-origins-api
-- description: A CSRF token is a secure random token (e.g., synchronizer token or challenge token) that is used to prevent CSRF attacks. This API retrieves the token for the current user session.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/csrf-token
+  baseurl_source: declared
+  description: A CSRF token is a secure random token (e.g., synchronizer token or challenge token) that is used to prevent CSRF attacks. This API retrieves the token for the current user session.
   name: Qlik CSRF token API
   slug: csrf-token-api
-- description: Supports chart sharing, chart monitoring and alerting features. The legacy sharing APIs refer to chart sharing and chart monitoring, which is a feature that allows the user to send an e-mail with an e
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-alerts
+  baseurl_source: declared
+  description: Supports chart sharing, chart monitoring and alerting features. The legacy sharing APIs refer to chart sharing and chart monitoring, which is a feature that allows the user to send an e-mail with an e
   name: Qlik Data alerts API
   slug: data-alerts-api
-- description: Data assets are part of the catalog in Qlik Cloud. A data asset is a member of a data store, and may contain multiple data sets.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-assets
+  baseurl_source: declared
+  description: Data assets are part of the catalog in Qlik Cloud. A data asset is a member of a data store, and may contain multiple data sets.
   name: Qlik Data assets API
   slug: data-assets-api
-- description: Create and manage data connections to various data sources in Qlik Cloud.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-connections
+  baseurl_source: declared
+  description: Create and manage data connections to various data sources in Qlik Cloud.
   name: Qlik Data Connections API
   slug: data-connections-api
-- description: Data credentials are the stored credentials leveraged by the data-connections service to connect to external data sources.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-credentials/actions/filter-orphan
+  baseurl_source: declared
+  description: Data credentials are the stored credentials leveraged by the data-connections service to connect to external data sources.
   name: Qlik Data credentials API
   slug: data-credentials-api
-- description: Data files represent the flat file storage associated with spaces in your Qlik Cloud tenant. Each space will have a corresponding data files connection, which you can list with data-connections.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-files
+  baseurl_source: declared
+  description: Data files represent the flat file storage associated with spaces in your Qlik Cloud tenant. Each space will have a corresponding data files connection, which you can list with data-connections.
   name: Qlik Data files API
   slug: data-files-api
-- description: Data products are packages that group related datasets within a single, curated offering. Use the Data products API to create, manage, and activate data products for consumption by business users.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/data-products
+  baseurl_source: declared
+  description: Data products are packages that group related datasets within a single, curated offering. Use the Data products API to create, manage, and activate data products for consumption by business users.
   name: Qlik Data products API
   slug: data-governance-data-products-api
-- description: The Data qualities API enables you to assess the quality of your datasets through asynchronous computations.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/data-qualities/batch-computations
+  baseurl_source: declared
+  description: The Data qualities API enables you to assess the quality of your datasets through asynchronous computations.
   name: Qlik Data qualities API
   slug: data-governance-data-qualities-api
-- description: The Trust Scores API retrieves the Qlik Trust Score™ for datasets in bulk, including overall score and per-axis and per-metric breakdowns.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/data-governance/trust-scores/results/data-sets/actions/filter
+  baseurl_source: declared
+  description: The Trust Scores API retrieves the Qlik Trust Score™ for datasets in bulk, including overall score and per-axis and per-metric breakdowns.
   name: Qlik Trust scores API
   slug: data-governance-trust-scores-api
-- description: API for triggering data quality computations and retrieving global results to assess the quality of your datasets.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-qualities/computations
+  baseurl_source: declared
+  description: API for triggering data quality computations and retrieving global results to assess the quality of your datasets.
   name: Qlik Data qualities API
   slug: data-qualities-api
-- description: Data sets are part of the catalog in Qlik Cloud. A data set is a member of a data asset.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-sets
+  baseurl_source: declared
+  description: Data sets are part of the catalog in Qlik Cloud. A data set is a member of a data asset.
   name: Qlik Data sets API
   slug: data-sets-api
-- description: Lists data sources available on the tenant for the creation of data connections.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-sources
+  baseurl_source: declared
+  description: Lists data sources available on the tenant for the creation of data connections.
   name: Qlik Data sources API
   slug: data-sources-api
-- description: Data stores are part of the catalog in Qlik Cloud. A data store may contain one or more data stores, which in turn may contain multiple data sets.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/data-stores
+  baseurl_source: declared
+  description: Data stores are part of the catalog in Qlik Cloud. A data store may contain one or more data stores, which in turn may contain multiple data sets.
   name: Qlik Data stores API
   slug: data-stores-api
-- description: Data integration projects are used to group and organize data tasks that move, transform, or prepare data for consumption.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/di-projects
+  baseurl_source: declared
+  description: Data integration projects are used to group and organize data tasks that move, transform, or prepare data for consumption.
   name: Qlik Data integration projects API
   slug: di-projects-api
-- description: API for remotely managing configuration settings of Direct Access Gateway agents.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/direct-access-agents
+  baseurl_source: declared
+  description: API for remotely managing configuration settings of Direct Access Gateway agents.
   name: Qlik Direct Access Agents API
   slug: direct-access-agents-api
-- description: Tenants in Qlik Cloud can be encrypted with a key you provide via a supported KMS. This API allows you to configure and manage encryption keys.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/encryption/keyproviders
+  baseurl_source: declared
+  description: Tenants in Qlik Cloud can be encrypted with a key you provide via a supported KMS. This API allows you to configure and manage encryption keys.
   name: Qlik Encryption API
   slug: encryption-api
-- description: Visualization extensions is a capability in Qlik Sense which allows third-party visualizations and other presentation objects to be used in the Qlik Sense client.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/extensions
+  baseurl_source: declared
+  description: Visualization extensions is a capability in Qlik Sense which allows third-party visualizations and other presentation objects to be used in the Qlik Sense client.
   name: Qlik Extensions API
   slug: extensions-api
-- description: A glossary is a collection of common and agreed upon (business) terms, typically focused on defining the meaning of data and described in terms that everyone understands.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/glossaries
+  baseurl_source: declared
+  description: A glossary is a collection of common and agreed upon (business) terms, typically focused on defining the meaning of data and described in terms that everyone understands.
   name: Qlik Glossaries API
   slug: glossaries-api
-- description: Groups is the resource representing a group in the system, to which space and tenant roles can be assigned to simplify access control management.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/groups
+  baseurl_source: declared
+  description: Groups is the resource representing a group in the system, to which space and tenant roles can be assigned to simplify access control management.
   name: Qlik Groups API
   slug: groups-api
-- description: Identity providers define how your users authenticate to your tenant when attempting to access content.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/identity-providers
+  baseurl_source: declared
+  description: Identity providers define how your users authenticate to your tenant when attempting to access content.
   name: Qlik Identity providers API
   slug: identity-providers-api
-- description: Items provides a list of core resources in the Qlik platform, including resources such as apps, automations, and data sets that a user has access to.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/items
+  baseurl_source: declared
+  description: Items provides a list of core resources in the Qlik platform, including resources such as apps, automations, and data sets that a user has access to.
   name: Qlik Items API
   slug: items-api
-- description: Knowledgebases are collections of individual data sources, that are indexed for use in generating responses to user questions via Assistants for Qlik Answers.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/knowledgebases
+  baseurl_source: declared
+  description: Knowledgebases are collections of individual data sources, that are indexed for use in generating responses to user questions via Assistants for Qlik Answers.
   name: Qlik Knowledgebases API
   slug: knowledgebases-api
-- description: Licenses define tenant and user entitlements, and can be used in conjunction with the consumption API to get a picture of entitlement usage.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/licenses/assignments
+  baseurl_source: declared
+  description: Licenses define tenant and user entitlements, and can be used in conjunction with the consumption API to get a picture of entitlement usage.
   name: Qlik Licenses API
   slug: licenses-api
-- description: Lineage-graphs represents the lineage information for a specific Qlik item.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/lineage-graphs/impact
+  baseurl_source: declared
+  description: Lineage-graphs represents the lineage information for a specific Qlik item.
   name: Qlik Lineage graphs API
   slug: lineage-graphs-api
-- description: This API is used to initiate interactive logins, or to process JWT login requests.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/login
+  baseurl_source: declared
+  description: This API is used to initiate interactive logins, or to process JWT login requests.
   name: Qlik Login API
   slug: login-api
-- description: Generate profile insights, create and manage ML experiments, deploy models, and run predictions in Qlik Cloud.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/ml/deployments
+  baseurl_source: declared
+  description: Generate profile insights, create and manage ML experiments, deploy models, and run predictions in Qlik Cloud.
   name: Qlik Machine Learning API
   slug: ml-api
-- description: Notes provide a collaborative experience to support analytics consumption in your tenant. This API enables or disables notes.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/notes/settings
+  baseurl_source: declared
+  description: Notes provide a collaborative experience to support analytics consumption in your tenant. This API enables or disables notes.
   name: Qlik Notes API
   slug: notes-api
-- description: Notifications is the resource representing the various notifications that notification-prep can render
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/notifications
+  baseurl_source: declared
+  description: Notifications is the resource representing the various notifications that notification-prep can render
   name: Qlik Notifications API
   slug: notifications-api
-- description: Create and manage the configuration of OAuth clients in your tenant.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/oauth-clients
+  baseurl_source: declared
+  description: Create and manage the configuration of OAuth clients in your tenant.
   name: Qlik OAuth clients API
   slug: oauth-clients-api
-- description: List and revoke active OAuth tokens issued for your tenant.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/oauth-tokens
+  baseurl_source: declared
+  description: List and revoke active OAuth tokens issued for your tenant.
   name: Qlik OAuth tokens API
   slug: oauth-tokens-api
-- description: Parse natural language queries with support for language configuration, visualization generation, and conversation context.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/questions/actions/ask
+  baseurl_source: declared
+  description: Parse natural language queries with support for language configuration, visualization generation, and conversation context.
   name: Qlik Natural Language API
   slug: natural-language-api
-- description: Quotas returns entitled attributes based on your license.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/quotas
+  baseurl_source: declared
+  description: Quotas returns entitled attributes based on your license.
   name: Qlik Quotas API
   slug: quotas-api
-- description: Reloads tasks allow you to schedule reloads of analytics applications in your tenant.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reload-tasks
+  baseurl_source: declared
+  description: Reloads tasks allow you to schedule reloads of analytics applications in your tenant.
   name: Qlik Reload tasks API
   slug: reload-tasks-api
-- description: Trigger and manage data reload operations for Qlik Sense apps.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reloads
+  baseurl_source: declared
+  description: Trigger and manage data reload operations for Qlik Sense apps.
   name: Qlik Reload API
   slug: reloads-api
-- description: Create and manage report templates for consistent report generation and distribution.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/report-templates
+  baseurl_source: declared
+  description: Create and manage report templates for consistent report generation and distribution.
   name: Qlik Report templates API
   slug: report-templates-api
-- description: Generate downloadable report assets from data with configurable templates and output formats.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/reports
+  baseurl_source: declared
+  description: Generate downloadable report assets from data with configurable templates and output formats.
   name: Qlik Reports API
   slug: reports-api
-- description: Tenant roles are assigned to users or groups in the tenant, and define what permissions they have.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/roles
+  baseurl_source: declared
+  description: Tenant roles are assigned to users or groups in the tenant, and define what permissions they have.
   name: Qlik Roles API
   slug: roles-api
-- description: Qlik Cloud Tasks API. 16 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/scheduling/tasks.json
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/scheduling/tasks
+  baseurl_source: declared
+  description: Qlik Cloud Tasks API. 16 operations published as OpenAPI 3.0.0 at https://qlik.dev/specs/rest/scheduling/tasks.json
   name: Qlik Tasks API
   slug: scheduling-tasks-api
-- description: For scheduled capabilities such as reports, data alerts, subscriptions, and more, sharing tasks defines when these tasks execute, and tie together the resource definition with any conditions on execut
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/sharing-tasks
+  baseurl_source: declared
+  description: For scheduled capabilities such as reports, data alerts, subscriptions, and more, sharing tasks defines when these tasks execute, and tie together the resource definition with any conditions on execut
   name: Qlik Sharing tasks API
   slug: sharing-tasks-api
-- description: Manage shared and managed spaces for collaboration and content organization in Qlik Cloud.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/spaces
+  baseurl_source: declared
+  description: Manage shared and managed spaces for collaboration and content organization in Qlik Cloud.
   name: Qlik Spaces API
   slug: spaces-api
-- description: API for managing tasks and task chains in Qlik Cloud. The requesting user needs the "reload" permission on the target resource to use this set of endpoints. A tenant admin can use GET /v1/tasks and DE
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tasks
+  baseurl_source: declared
+  description: API for managing tasks and task chains in Qlik Cloud. The requesting user needs the "reload" permission on the target resource to use this set of endpoints. A tenant admin can use GET /v1/tasks and DE
   name: Qlik Tasks API
   slug: tasks-api
-- description: Services such as app and data-files which may import or export larger files can opt to leverage the temporary contents service to handle these requests. Acts as a temporary file store.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/temp-contents
+  baseurl_source: declared
+  description: Services such as app and data-files which may import or export larger files can opt to leverage the temporary contents service to handle these requests. Acts as a temporary file store.
   name: Qlik Temporary contents API
   slug: temp-contents-api
-- description: Configure tenant-wide settings for security, appearance, and operational preferences.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tenant-settings
+  baseurl_source: declared
+  description: Configure tenant-wide settings for security, appearance, and operational preferences.
   name: Qlik Tenant settings API
   slug: tenant-settings-api
-- description: Configure and manage Qlik Cloud tenants including settings, licenses, and administrative operations.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/tenants
+  baseurl_source: declared
+  description: Configure and manage Qlik Cloud tenants including settings, licenses, and administrative operations.
   name: Qlik Tenants API
   slug: tenants-api
-- description: Themes enable you to customize/style the Qlik Sense client experience.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/themes
+  baseurl_source: declared
+  description: Themes enable you to customize/style the Qlik Sense client experience.
   name: Qlik Themes API
   slug: themes-api
-- description: Transports supports configuration of the tenant-level SMTP service. For the SMTP service in Qlik Automate, review the automation-connections API.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/transports/email-config
+  baseurl_source: declared
+  description: Transports supports configuration of the tenant-level SMTP service. For the SMTP service in Qlik Automate, review the automation-connections API.
   name: Qlik Email configuration API
   slug: transports-api
-- description: Pinned links are administrator-defined URLs which appear for all users under the More button in the global navigation menu.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/ui-config/pinned-links
+  baseurl_source: declared
+  description: Pinned links are administrator-defined URLs which appear for all users under the More button in the global navigation menu.
   name: Qlik Pinned links API
   slug: ui-config-api
-- description: Manage users, groups, and authentication in Qlik Cloud tenants.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/users
+  baseurl_source: declared
+  description: Manage users, groups, and authentication in Qlik Cloud tenants.
   name: Qlik Users API
   slug: users-api
-- description: A web integration is a resource representing a list of whitelisted origins that can make requests to a specified tenant. It is the implementation of the CORS mechanism within Qlik Cloud.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/web-integrations
+  baseurl_source: declared
+  description: A web integration is a resource representing a list of whitelisted origins that can make requests to a specified tenant. It is the implementation of the CORS mechanism within Qlik Cloud.
   name: Qlik Web integrations API
   slug: web-integrations-api
-- description: Web notifications is the resource representing a user's notification
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/web-notifications
+  baseurl_source: declared
+  description: Web notifications is the resource representing a user's notification
   name: Qlik Web notifications API
   slug: web-notifications-api
-- description: Create and manage webhooks to provide other applications with real-time information from Qlik Cloud events.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/v1/webhooks
+  baseurl_source: declared
+  description: Create and manage webhooks to provide other applications with real-time information from Qlik Cloud events.
   name: Qlik Webhooks API
   slug: webhooks-api
-- description: Automation Connections are used by Qlik Automate connectors during automation execution.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automation-connections
+  baseurl_source: declared
+  description: Automation Connections are used by Qlik Automate connectors during automation execution.
   name: Qlik Automation connections API
   slug: workflows-automation-connections-api
-- description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automation-connectors
+  baseurl_source: declared
+  description: Automation connectors let you integrate third-party services and applications into your data analytics workflows. Use this API to discover available connectors and understand billing characteristics.
   name: Qlik Automation connectors API
   slug: workflows-automation-connectors-api
-- description: Automations in Qlik Automate are no-code workflows which connect applications together.
+- baseURL: https://{tenant}.{region}.qlikcloud.com/api/workflows/automations
+  baseurl_source: declared
+  description: Automations in Qlik Automate are no-code workflows which connect applications together.
   name: Qlik Automations API
   slug: workflows-automations-api
 artifact_total: 149
@@ -678,24 +838,24 @@ scopes:
   slug: qliksense-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 66.1
+  band: exemplar
+  composite: 66.8
   coverage:
     artifact_dirs: 27
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.8
+  delta: 0.7
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 52.2
+    contract_quality: 55.1
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 59.3
+  previous_composite: 66.1
   provenance:
     conformance: derived
     contracts:
@@ -706,8 +866,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:
 - kind: authentication

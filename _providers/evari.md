@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -33,7 +45,9 @@ agentic_access:
   summary_line: 56 operations · 17 acting
 api_count: 1
 apis:
-- description: The Evari Quotes microservice - the internal broker and underwriter quoting surface at /api/quotes/** plus a customer-facing mirror at /api/quotes/public/**. 49 paths, 56 operations and 70 definitions
+- baseURL: https://api.cloudstream.evari.tech/
+  baseurl_source: declared
+  description: The Evari Quotes microservice - the internal broker and underwriter quoting surface at /api/quotes/** plus a customer-facing mirror at /api/quotes/public/**. 49 paths, 56 operations and 70 definitions
   name: Evari Quotes API
   slug: evari-quotes-api
 artifact_total: 10
@@ -244,7 +258,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:

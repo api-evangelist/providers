@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 6
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 308 operations · 171 acting · 6 human-in-the-loop
 api_count: 2
 apis:
-- description: The ai API from Docupilot — 5 operation(s) for ai.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The ai API from Docupilot — 5 operation(s) for ai.
   name: Docupilot ai API
   slug: docupilot-ai-api
-- description: The append API from Docupilot — 1 operation(s) for append.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The append API from Docupilot — 1 operation(s) for append.
   name: Docupilot append API
   slug: docupilot-append-api
-- description: The application API from Docupilot — 1 operation(s) for application.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The application API from Docupilot — 1 operation(s) for application.
   name: Docupilot application API
   slug: docupilot-application-api
-- description: The auth_tokens API from Docupilot — 2 operation(s) for auth_tokens.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The auth_tokens API from Docupilot — 2 operation(s) for auth_tokens.
   name: Docupilot auth_tokens API
   slug: docupilot-auth-tokens-api
-- description: The community API from Docupilot — 1 operation(s) for community.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The community API from Docupilot — 1 operation(s) for community.
   name: Docupilot community API
   slug: docupilot-community-api
-- description: The content_blocks API from Docupilot — 14 operation(s) for content_blocks.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The content_blocks API from Docupilot — 14 operation(s) for content_blocks.
   name: Docupilot content_blocks API
   slug: docupilot-content-blocks-api
-- description: The convert API from Docupilot — 1 operation(s) for convert.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The convert API from Docupilot — 1 operation(s) for convert.
   name: Docupilot convert API
   slug: docupilot-convert-api
-- description: The demographic API from Docupilot — 3 operation(s) for demographic.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The demographic API from Docupilot — 3 operation(s) for demographic.
   name: Docupilot demographic API
   slug: docupilot-demographic-api
-- description: The domain API from Docupilot — 6 operation(s) for domain.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The domain API from Docupilot — 6 operation(s) for domain.
   name: Docupilot domain API
   slug: docupilot-domain-api
-- description: The esign API from Docupilot — 29 operation(s) for esign.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The esign API from Docupilot — 29 operation(s) for esign.
   name: Docupilot esign API
   slug: docupilot-esign-api
-- description: The esign-folders API from Docupilot — 2 operation(s) for esign-folders.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The esign-folders API from Docupilot — 2 operation(s) for esign-folders.
   name: Docupilot esign-folders API
   slug: docupilot-esign-folders-api
-- description: The esign-settings API from Docupilot — 10 operation(s) for esign-settings.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The esign-settings API from Docupilot — 10 operation(s) for esign-settings.
   name: Docupilot esign-settings API
   slug: docupilot-esign-settings-api
-- description: The extensions API from Docupilot — 10 operation(s) for extensions.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The extensions API from Docupilot — 10 operation(s) for extensions.
   name: Docupilot extensions API
   slug: docupilot-extensions-api
-- description: The folders API from Docupilot — 6 operation(s) for folders.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The folders API from Docupilot — 6 operation(s) for folders.
   name: Docupilot folders API
   slug: docupilot-folders-api
-- description: The Gallery templates API from Docupilot — 2 operation(s) for gallery templates.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The Gallery templates API from Docupilot — 2 operation(s) for gallery templates.
   name: Docupilot Gallery templates API
   slug: docupilot-gallery-templates-api
-- description: The general API from Docupilot — 5 operation(s) for general.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The general API from Docupilot — 5 operation(s) for general.
   name: Docupilot general API
   slug: docupilot-general-api
-- description: The generate API from Docupilot — 7 operation(s) for generate.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The generate API from Docupilot — 7 operation(s) for generate.
   name: Docupilot generate API
   slug: docupilot-generate-api
-- description: The generate_bulk API from Docupilot — 7 operation(s) for generate_bulk.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The generate_bulk API from Docupilot — 7 operation(s) for generate_bulk.
   name: Docupilot generate_bulk API
   slug: docupilot-generate-bulk-api
-- description: The history API from Docupilot — 5 operation(s) for history.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The history API from Docupilot — 5 operation(s) for history.
   name: Docupilot history API
   slug: docupilot-history-api
-- description: The invitation API from Docupilot — 6 operation(s) for invitation.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The invitation API from Docupilot — 6 operation(s) for invitation.
   name: Docupilot invitation API
   slug: docupilot-invitation-api
-- description: The invitations API from Docupilot — 3 operation(s) for invitations.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The invitations API from Docupilot — 3 operation(s) for invitations.
   name: Docupilot invitations API
   slug: docupilot-invitations-api
-- description: The linked_accounts API from Docupilot — 14 operation(s) for linked_accounts.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The linked_accounts API from Docupilot — 14 operation(s) for linked_accounts.
   name: Docupilot linked_accounts API
   slug: docupilot-linked-accounts-api
-- description: The merge_history API from Docupilot — 2 operation(s) for merge_history.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The merge_history API from Docupilot — 2 operation(s) for merge_history.
   name: Docupilot merge_history API
   slug: docupilot-merge-history-api
-- description: The mfa API from Docupilot — 8 operation(s) for mfa.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The mfa API from Docupilot — 8 operation(s) for mfa.
   name: Docupilot mfa API
   slug: docupilot-mfa-api
-- description: The organization API from Docupilot — 9 operation(s) for organization.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The organization API from Docupilot — 9 operation(s) for organization.
   name: Docupilot organization API
   slug: docupilot-organization-api
-- description: The organization_onboarding API from Docupilot — 1 operation(s) for organization_onboarding.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The organization_onboarding API from Docupilot — 1 operation(s) for organization_onboarding.
   name: Docupilot organization_onboarding API
   slug: docupilot-organization-onboarding-api
-- description: The pdf API from Docupilot — 1 operation(s) for pdf.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The pdf API from Docupilot — 1 operation(s) for pdf.
   name: Docupilot pdf API
   slug: docupilot-pdf-api
-- description: The permissions API from Docupilot — 4 operation(s) for permissions.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The permissions API from Docupilot — 4 operation(s) for permissions.
   name: Docupilot permissions API
   slug: docupilot-permissions-api
-- description: The personalization API from Docupilot — 1 operation(s) for personalization.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The personalization API from Docupilot — 1 operation(s) for personalization.
   name: Docupilot personalization API
   slug: docupilot-personalization-api
-- description: The saml API from Docupilot — 3 operation(s) for saml.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The saml API from Docupilot — 3 operation(s) for saml.
   name: Docupilot saml API
   slug: docupilot-saml-api
-- description: The scim API from Docupilot — 4 operation(s) for scim.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The scim API from Docupilot — 4 operation(s) for scim.
   name: Docupilot scim API
   slug: docupilot-scim-api
-- description: The subscription API from Docupilot — 10 operation(s) for subscription.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The subscription API from Docupilot — 10 operation(s) for subscription.
   name: Docupilot subscription API
   slug: docupilot-subscription-api
-- description: The team API from Docupilot — 7 operation(s) for team.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The team API from Docupilot — 7 operation(s) for team.
   name: Docupilot team API
   slug: docupilot-team-api
-- description: The template_delivery API from Docupilot — 5 operation(s) for template_delivery.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The template_delivery API from Docupilot — 5 operation(s) for template_delivery.
   name: Docupilot template_delivery API
   slug: docupilot-template-delivery-api
-- description: The Template versioning API from Docupilot — 9 operation(s) for template versioning.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The Template versioning API from Docupilot — 9 operation(s) for template versioning.
   name: Docupilot Template versioning API
   slug: docupilot-template-versioning-api
-- description: The templates API from Docupilot — 21 operation(s) for templates.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The templates API from Docupilot — 21 operation(s) for templates.
   name: Docupilot templates API
   slug: docupilot-templates-api
-- description: The user API from Docupilot — 8 operation(s) for user.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The user API from Docupilot — 8 operation(s) for user.
   name: Docupilot user API
   slug: docupilot-user-api
-- description: The user_satisfaction_survey API from Docupilot — 6 operation(s) for user_satisfaction_survey.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The user_satisfaction_survey API from Docupilot — 6 operation(s) for user_satisfaction_survey.
   name: Docupilot user_satisfaction_survey API
   slug: docupilot-user-satisfaction-survey-api
-- description: The users API from Docupilot — 5 operation(s) for users.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The users API from Docupilot — 5 operation(s) for users.
   name: Docupilot users API
   slug: docupilot-users-api
-- description: The workspaces API from Docupilot — 4 operation(s) for workspaces.
+- baseURL: https://api-us1.docupilot.app
+  baseurl_source: declared
+  description: The workspaces API from Docupilot — 4 operation(s) for workspaces.
   name: Docupilot workspaces API
   slug: docupilot-workspaces-api
 artifact_total: 359
@@ -1216,7 +1296,7 @@ score:
     catalog_gap: 38.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -1226,7 +1306,7 @@ score:
     discoverability: 63.0
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 46.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1235,7 +1315,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/screenshots/docupilot-2026-06-20T180118.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,9 @@ apis:
 - description: 'The SerpWow platform — a real-time SERP API covering Google, Bing, Yahoo, Baidu, Yandex, Naver, Amazon and eBay, plus a Batches API for scheduled bulk collection, a free Locations API, a Destinations '
   name: SerpWow
   slug: serpwow
-- description: The real-time Search API from SerpWow — GET /search, /places, /shopping, /news, /product and /place_reviews against https://api.serpwow.com/live, authenticated with an api_key query parameter and mete
+- baseURL: https://api.serpwow.com/live
+  baseurl_source: declared
+  description: The real-time Search API from SerpWow — GET /search, /places, /shopping, /news, /product and /place_reviews against https://api.serpwow.com/live, authenticated with an api_key query parameter and mete
   name: SerpWow Search API
   slug: serpwow-search-api
 artifact_total: 13
@@ -236,7 +238,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -246,7 +248,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 56.1
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +260,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/screenshots/serpwow-2026-06-20T193727.png
 security:

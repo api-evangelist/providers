@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: Single-endpoint GraphQL API for Crowdin Enterprise. Authentication via Bearer token using a Personal Access Token or OAuth 2 access token.
   name: Crowdin GraphQL API
   slug: graphql
-- description: The Files API from Crowdin — 2 operation(s) for files.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The Files API from Crowdin — 2 operation(s) for files.
   name: Crowdin Files API
   slug: crowdin-files-api
-- description: The Glossaries API from Crowdin — 2 operation(s) for glossaries.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The Glossaries API from Crowdin — 2 operation(s) for glossaries.
   name: Crowdin Glossaries API
   slug: crowdin-glossaries-api
-- description: The Projects API from Crowdin — 2 operation(s) for projects.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The Projects API from Crowdin — 2 operation(s) for projects.
   name: Crowdin Projects API
   slug: crowdin-projects-api
-- description: The Screenshots API from Crowdin — 1 operation(s) for screenshots.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The Screenshots API from Crowdin — 1 operation(s) for screenshots.
   name: Crowdin Screenshots API
   slug: crowdin-screenshots-api
-- description: The SourceStrings API from Crowdin — 2 operation(s) for sourcestrings.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The SourceStrings API from Crowdin — 2 operation(s) for sourcestrings.
   name: Crowdin SourceStrings API
   slug: crowdin-sourcestrings-api
-- description: The StringTranslations API from Crowdin — 1 operation(s) for stringtranslations.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The StringTranslations API from Crowdin — 1 operation(s) for stringtranslations.
   name: Crowdin StringTranslations API
   slug: crowdin-stringtranslations-api
-- description: The Webhooks API from Crowdin — 1 operation(s) for webhooks.
+- baseURL: https://api.crowdin.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from Crowdin — 1 operation(s) for webhooks.
   name: Crowdin Webhooks API
   slug: crowdin-webhooks-api
 artifact_total: 27
@@ -209,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowdin/refs/heads/main/screenshots/crowdin-2026-06-20T175254.png
 security:

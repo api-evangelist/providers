@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 64 operations · 38 acting
 api_count: 4
 apis:
-- description: The Audiences API from Typeface — 3 operation(s) for audiences.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Audiences API from Typeface — 3 operation(s) for audiences.
   name: Typeface Audiences API
   slug: typeface-audiences-api
-- description: The Authentication API from Typeface — 3 operation(s) for authentication.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Authentication API from Typeface — 3 operation(s) for authentication.
   name: Typeface Authentication API
   slug: typeface-authentication-api
-- description: The Basic Services API from Typeface — 1 operation(s) for basic services.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Basic Services API from Typeface — 1 operation(s) for basic services.
   name: Typeface Basic Services API
   slug: typeface-basic-services-api
-- description: The Brand Kits API from Typeface — 6 operation(s) for brand kits.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Brand Kits API from Typeface — 6 operation(s) for brand kits.
   name: Typeface Brand Kits API
   slug: typeface-brand-kits-api
-- description: The Content Generation API from Typeface — 3 operation(s) for content generation.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Content Generation API from Typeface — 3 operation(s) for content generation.
   name: Typeface Content Generation API
   slug: typeface-content-generation-api
-- description: The Content Service API from Typeface — 3 operation(s) for content service.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Content Service API from Typeface — 3 operation(s) for content service.
   name: Typeface Content Service API
   slug: typeface-content-service-api
-- description: The Digital Assets API from Typeface — 7 operation(s) for digital assets.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Digital Assets API from Typeface — 7 operation(s) for digital assets.
   name: Typeface Digital Assets API
   slug: typeface-digital-assets-api
-- description: The Discovery API from Typeface — 2 operation(s) for discovery.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Discovery API from Typeface — 2 operation(s) for discovery.
   name: Typeface Discovery API
   slug: typeface-discovery-api
-- description: The Feeds API from Typeface — 4 operation(s) for feeds.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Feeds API from Typeface — 4 operation(s) for feeds.
   name: Typeface Feeds API
   slug: typeface-feeds-api
-- description: The Profile Service API from Typeface — 2 operation(s) for profile service.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Profile Service API from Typeface — 2 operation(s) for profile service.
   name: Typeface Profile Service API
   slug: typeface-profile-service-api
-- description: The Projects API from Typeface — 4 operation(s) for projects.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Projects API from Typeface — 4 operation(s) for projects.
   name: Typeface Projects API
   slug: typeface-projects-api
-- description: The Provisioning API from Typeface — 2 operation(s) for provisioning.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Provisioning API from Typeface — 2 operation(s) for provisioning.
   name: Typeface Provisioning API
   slug: typeface-provisioning-api
-- description: The Provisioning Service API from Typeface — 1 operation(s) for provisioning service.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Provisioning Service API from Typeface — 1 operation(s) for provisioning service.
   name: Typeface Provisioning Service API
   slug: typeface-provisioning-service-api
-- description: The Search Service API from Typeface — 1 operation(s) for search service.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Search Service API from Typeface — 1 operation(s) for search service.
   name: Typeface Search Service API
   slug: typeface-search-service-api
-- description: The Tag Library API from Typeface — 3 operation(s) for tag library.
+- baseURL: https://api-us.typeface.ai
+  baseurl_source: declared
+  description: The Tag Library API from Typeface — 3 operation(s) for tag library.
   name: Typeface Tag Library API
   slug: typeface-tag-library-api
 artifact_total: 41
@@ -329,7 +359,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -339,7 +369,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 50.3
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -351,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typeface/refs/heads/main/screenshots/typeface-2026-08-17T082511.png
 security:

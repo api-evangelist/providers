@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 10 acting
 api_count: 1
 apis:
-- description: Individuals, households, and organizations tracked as donors and contacts.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Individuals, households, and organizations tracked as donors and contacts.
   name: Bloomerang Constituents API
   slug: bloomerang-constituents-api
-- description: Account-specific custom field definitions by object type.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Account-specific custom field definitions by object type.
   name: Bloomerang Custom Fields API
   slug: bloomerang-custom-fields-api
-- description: Family-unit grouping of individual constituents.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Family-unit grouping of individual constituents.
   name: Bloomerang Households API
   slug: bloomerang-households-api
-- description: Logged touches between the organization and a constituent.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Logged touches between the organization and a constituent.
   name: Bloomerang Interactions API
   slug: bloomerang-interactions-api
-- description: Freeform notes attached to a constituent record.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Freeform notes attached to a constituent record.
   name: Bloomerang Notes API
   slug: bloomerang-notes-api
-- description: Users, funds, campaigns, and appeals used as designations and attribution.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Users, funds, campaigns, and appeals used as designations and attribution.
   name: Bloomerang Reference Data API
   slug: bloomerang-reference-data-api
-- description: Relationships between two constituents.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Relationships between two constituents.
   name: Bloomerang Relationships API
   slug: bloomerang-relationships-api
-- description: Donations, pledges, pledge payments, and recurring donation designations.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Donations, pledges, pledge payments, and recurring donation designations.
   name: Bloomerang Transactions API
   slug: bloomerang-transactions-api
-- description: Webhook subscriptions for event notifications.
+- baseURL: https://api.bloomerang.co/v2
+  baseurl_source: declared
+  description: Webhook subscriptions for event notifications.
   name: Bloomerang Webhooks API
   slug: bloomerang-webhooks-api
 artifact_total: 28
@@ -216,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomerang/refs/heads/main/screenshots/bloomerang-2026-07-25T203411.png
 security:

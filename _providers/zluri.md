@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 1
 apis:
-- description: Upload snapshot and fact data within a sync session. Snapshot data represents current state, while fact data represents historical events. Data must be uploaded in paginated batches of up to 1000 reco
+- baseURL: https://api-ext.zluri.com/v2
+  baseurl_source: spec
+  description: Upload snapshot and fact data within a sync session. Snapshot data represents current state, while fact data represents historical events. Data must be uploaded in paginated batches of up to 1000 reco
   name: Zluri Data Upload API
   slug: zluri-data-upload-api
-- description: Manage integration instances for syncing data with Zluri.
+- baseURL: https://api-ext.zluri.com/v2
+  baseurl_source: spec
+  description: Manage integration instances for syncing data with Zluri.
   name: Zluri Instances API
   slug: zluri-instances-api
-- description: Create and manage sync sessions for uploading data to Zluri. A sync must be created before uploading data, and finished after all data is uploaded.
+- baseURL: https://api-ext.zluri.com/v2
+  baseurl_source: spec
+  description: Create and manage sync sessions for uploading data to Zluri. A sync must be created before uploading data, and finished after all data is uploaded.
   name: Zluri Syncs API
   slug: zluri-syncs-api
-- description: Manage webhooks for receiving real-time notifications from Zluri.
+- baseURL: https://api-ext.zluri.com/v2
+  baseurl_source: spec
+  description: Manage webhooks for receiving real-time notifications from Zluri.
   name: Zluri Webhooks API
   slug: zluri-webhooks-api
 artifact_total: 69
@@ -338,7 +346,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/screenshots/zluri-2026-08-17T130446.png
 security:

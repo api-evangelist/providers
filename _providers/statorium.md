@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 22 operations
 api_count: 3
 apis:
-- description: Access NFL game data including live scores, results, and schedules.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Access NFL game data including live scores, results, and schedules.
   name: Statorium Games API
   slug: statorium-games-api
-- description: Access basketball league listings and metadata.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Access basketball league listings and metadata.
   name: Statorium Leagues API
   slug: statorium-leagues-api
-- description: Access match data including live scores, results, schedules, lineups, and head-to-head information.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Access match data including live scores, results, schedules, lineups, and head-to-head information.
   name: Statorium Matches API
   slug: statorium-matches-api
-- description: Access daily news feeds for NFL players and teams.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Access daily news feeds for NFL players and teams.
   name: Statorium News API
   slug: statorium-news-api
-- description: Access NFL player profiles, news, and statistics.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Access NFL player profiles, news, and statistics.
   name: Statorium Players API
   slug: statorium-players-api
-- description: Retrieve season information, current and historical seasons for specific leagues.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Retrieve season information, current and historical seasons for specific leagues.
   name: Statorium Seasons API
   slug: statorium-seasons-api
-- description: Retrieve AFC and NFC standings.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Retrieve AFC and NFC standings.
   name: Statorium Standings API
   slug: statorium-standings-api
-- description: Retrieve NFL team information, rosters, and statistics.
+- baseURL: https://api.statorium.com/api/v1
+  baseurl_source: declared
+  description: Retrieve NFL team information, rosters, and statistics.
   name: Statorium Teams API
   slug: statorium-teams-api
 artifact_total: 37
@@ -276,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/screenshots/statorium-2026-06-20T194526.png
 security:

@@ -34,34 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Integrator Users API allows you to manage user accounts and access permissions for your integrator account.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: The Integrator Users API allows you to manage user accounts and access permissions for your integrator account.
   name: Bevz Integrator Users API
   slug: bevz-integrator-users-api
-- description: The Integrators API from Bevz — 2 operation(s) for integrators.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: The Integrators API from Bevz — 2 operation(s) for integrators.
   name: Bevz Integrators API
   slug: bevz-integrators-api
-- description: '## Lotto Scratcher Games Retrieve lottery scratch-off game data from supported state lotteries. This endpoint provides game catalogs that can be used to display lotto ticket information in POS systems'
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: '## Lotto Scratcher Games Retrieve lottery scratch-off game data from supported state lotteries. This endpoint provides game catalogs that can be used to display lotto ticket information in POS systems'
   name: Bevz Lotto Scratcher Games API
   slug: bevz-lotto-scratcher-games-api
-- description: The Order API from Bevz — 3 operation(s) for order.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: The Order API from Bevz — 3 operation(s) for order.
   name: Bevz Order API
   slug: bevz-order-api
-- description: This document outlines the integration flow for onboarding new DoorDash and Grubhub stores through the [Delivery Services Onboarding API](#tag/Pick-a-Delivery-Service-for-Onboarding-API/operation/onbo
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: This document outlines the integration flow for onboarding new DoorDash and Grubhub stores through the [Delivery Services Onboarding API](#tag/Pick-a-Delivery-Service-for-Onboarding-API/operation/onbo
   name: Bevz Pick a Delivery Service for Onboarding API
   slug: bevz-pick-a-delivery-service-for-onboarding-api-api
-- description: Store Products refer to inventory items that are available in a specific store. These products can be managed, updated, and retrieved through the Store Products API.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: Store Products refer to inventory items that are available in a specific store. These products can be managed, updated, and retrieved through the Store Products API.
   name: Bevz Store Products API
   slug: bevz-store-products-api
-- description: The Stores API from Bevz — 9 operation(s) for stores.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: The Stores API from Bevz — 9 operation(s) for stores.
   name: Bevz Stores API
   slug: bevz-stores-api
-- description: 'The Uber Eats API allows you to onboard your store to Uber Eats and manage related operations. Uber Eats onboarding is a three-step process: 1. **Generate OAuth URL:** Obtain an authorization link for'
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: 'The Uber Eats API allows you to onboard your store to Uber Eats and manage related operations. Uber Eats onboarding is a three-step process: 1. **Generate OAuth URL:** Obtain an authorization link for'
   name: Bevz Uber Eats Onboarding API Workflow API
   slug: bevz-uber-eats-onboarding-api-workflow-api
-- description: The Webhooks API from Bevz — 0 operation(s) for webhooks.
+- baseURL: https://api.bevz.com/integrator-service
+  baseurl_source: declared
+  description: The Webhooks API from Bevz — 0 operation(s) for webhooks.
   name: Bevz Webhooks API
   slug: bevz-webhooks-api
 artifact_total: 15
@@ -191,7 +209,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -201,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 53.4
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -212,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bevz/refs/heads/main/screenshots/bevz-2026-07-25T202827.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Check product availability and stock levels.
+- baseURL: https://apis.lowes.com
+  baseurl_source: declared
+  description: Check product availability and stock levels.
   name: Lowe's Inventory API
   slug: lowes-inventory-api
-- description: Search and retrieve product information.
+- baseURL: https://apis.lowes.com
+  baseurl_source: declared
+  description: Search and retrieve product information.
   name: Lowe's Products API
   slug: lowes-products-api
-- description: Access store location and information data.
+- baseURL: https://apis.lowes.com
+  baseurl_source: declared
+  description: Access store location and information data.
   name: Lowe's Stores API
   slug: lowes-stores-api
 artifact_total: 14
@@ -179,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png
 security:

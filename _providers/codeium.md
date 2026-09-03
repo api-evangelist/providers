@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: IDE plugins (VS Code, JetBrains, Vim, Emacs, Visual Studio, Sublime Text, etc.) surfacing autocomplete, chat, command, and Cascade-style agent edits backed by Codeium / Windsurf inference. There is no
@@ -129,7 +129,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 12.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeium/refs/heads/main/screenshots/codeium-2026-06-20T174702.png
 security:

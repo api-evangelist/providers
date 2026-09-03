@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 17 acting
 api_count: 1
 apis:
-- description: User and system attribute management
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: User and system attribute management
   name: Workleap Attributes API
   slug: workleap-attributes-api
-- description: Engagement scores and metrics for teams and organizations
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: Engagement scores and metrics for teams and organizations
   name: Workleap Engagement API
   slug: workleap-engagement-api
-- description: Feedback retrieval and management
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: Feedback retrieval and management
   name: Workleap Feedback API
   slug: workleap-feedback-api
-- description: GoodVibes recognition items and collections
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: GoodVibes recognition items and collections
   name: Workleap GoodVibes API
   slug: workleap-goodvibes-api
-- description: Group management within an organization
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: Group management within an organization
   name: Workleap Groups API
   slug: workleap-groups-api
-- description: CSV and JSON-based provisioning workflows
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: CSV and JSON-based provisioning workflows
   name: Workleap Provisioning API
   slug: workleap-provisioning-api
-- description: User management and provisioning
+- baseURL: https://api.workleap.com
+  baseurl_source: declared
+  description: User management and provisioning
   name: Workleap Users API
   slug: workleap-users-api
 artifact_total: 29
@@ -260,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/screenshots/workleap-2026-06-20T201612.png
 security:

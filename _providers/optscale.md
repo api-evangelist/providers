@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 16 operations · 6 acting
 api_count: 1
 apis:
-- description: User authentication and token management
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: User authentication and token management
   name: OptScale Authentication API
   slug: optscale-authentication-api
-- description: Cloud account connections (AWS, Azure, GCP, Alibaba, Kubernetes)
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Cloud account connections (AWS, Azure, GCP, Alibaba, Kubernetes)
   name: OptScale Cloud Accounts API
   slug: optscale-cloud-accounts-api
-- description: Organization employees and roles
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Organization employees and roles
   name: OptScale Employees API
   slug: optscale-employees-api
-- description: Cost reporting and expense breakdowns
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Cost reporting and expense breakdowns
   name: OptScale Expenses API
   slug: optscale-expenses-api
-- description: Optimization checklist runs and results
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Optimization checklist runs and results
   name: OptScale Optimizations API
   slug: optscale-optimizations-api
-- description: Organization management
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Organization management
   name: OptScale Organizations API
   slug: optscale-organizations-api
-- description: Budget pools and limits
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Budget pools and limits
   name: OptScale Pools API
   slug: optscale-pools-api
-- description: Cost optimization recommendations
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Cost optimization recommendations
   name: OptScale Recommendations API
   slug: optscale-recommendations-api
-- description: Cloud resources and assignment rules
+- baseURL: https://my.optscale.com/restapi/v2
+  baseurl_source: declared
+  description: Cloud resources and assignment rules
   name: OptScale Resources API
   slug: optscale-resources-api
 artifact_total: 26
@@ -222,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/screenshots/optscale-2026-06-20T191116.png
 security:

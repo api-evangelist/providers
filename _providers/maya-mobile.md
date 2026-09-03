@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: eSIM provisioning, activation codes/QR, suspend and reactivate.
+- baseURL: https://api.maya.net/connectivity/v1
+  baseurl_source: declared
+  description: eSIM provisioning, activation codes/QR, suspend and reactivate.
   name: Maya Mobile eSIMs API
   slug: maya-mobile-esims-api
-- description: Placing and assigning data-package orders, including top-ups.
+- baseURL: https://api.maya.net/connectivity/v1
+  baseurl_source: declared
+  description: Placing and assigning data-package orders, including top-ups.
   name: Maya Mobile Orders API
   slug: maya-mobile-orders-api
-- description: Pre-made data plans and the catalog of countries, regions, and networks.
+- baseURL: https://api.maya.net/connectivity/v1
+  baseurl_source: declared
+  description: Pre-made data plans and the catalog of countries, regions, and networks.
   name: Maya Mobile Plans API
   slug: maya-mobile-plans-api
-- description: Real-time eSIM status and data-usage reporting.
+- baseURL: https://api.maya.net/connectivity/v1
+  baseurl_source: declared
+  description: Real-time eSIM status and data-usage reporting.
   name: Maya Mobile Usage API
   slug: maya-mobile-usage-api
 artifact_total: 16
@@ -175,7 +183,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/screenshots/maya-mobile-2026-07-25T230448.png
 security:

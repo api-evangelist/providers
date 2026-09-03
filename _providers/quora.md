@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Quora Ads Conversion API (CAPI) allows advertisers to send events such as website events, app installs, and offline conversions directly to Quora Ads Manager. This server-to-server integration ena
   name: Quora Ads Conversion API
   slug: quora-ads-conversion-api
-- description: OpenAI-compatible chat completion endpoints.
+- baseURL: https://api.poe.com/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion endpoints.
   name: Quora Chat API
   slug: quora-chat-api
-- description: Discover available bots and models.
+- baseURL: https://api.poe.com/v1
+  baseurl_source: declared
+  description: Discover available bots and models.
   name: Quora Models API
   slug: quora-models-api
-- description: Advanced Responses API supporting reasoning, web search, and structured outputs.
+- baseURL: https://api.poe.com/v1
+  baseurl_source: declared
+  description: Advanced Responses API supporting reasoning, web search, and structured outputs.
   name: Quora Responses API
   slug: quora-responses-api
-- description: Track point balance and usage history.
+- baseURL: https://api.poe.com/v1
+  baseurl_source: declared
+  description: Track point balance and usage history.
   name: Quora Usage API
   slug: quora-usage-api
 artifact_total: 17
@@ -208,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/screenshots/quora-2026-06-20T192444.png
 security:

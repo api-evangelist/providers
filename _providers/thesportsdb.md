@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: Sports event scheduling and results.
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: Sports event scheduling and results.
   name: TheSportsDB Events API
   slug: thesportsdb-events-api
-- description: List leagues, teams, players, and events.
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: List leagues, teams, players, and events.
   name: TheSportsDB Lists API
   slug: thesportsdb-lists-api
-- description: Look up detailed data by ID.
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: Look up detailed data by ID.
   name: TheSportsDB Lookup API
   slug: thesportsdb-lookup-api
-- description: Search for teams, players, events, and venues.
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: Search for teams, players, events, and venues.
   name: TheSportsDB Search API
   slug: thesportsdb-search-api
-- description: Season standings and results.
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: Season standings and results.
   name: TheSportsDB Seasons API
   slug: thesportsdb-seasons-api
 artifact_total: 24
@@ -216,7 +226,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/screenshots/thesportsdb-2026-06-20T195300.png
 security:

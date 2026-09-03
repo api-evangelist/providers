@@ -34,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
   name: Channable order_attachments API
   slug: channable-order-attachments-api
-- description: The orders API from Channable — 10 operation(s) for orders.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The orders API from Channable — 10 operation(s) for orders.
   name: Channable orders API
   slug: channable-orders-api
-- description: The returns API from Channable — 5 operation(s) for returns.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The returns API from Channable — 5 operation(s) for returns.
   name: Channable returns API
   slug: channable-returns-api
-- description: The statistics API from Channable — 2 operation(s) for statistics.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The statistics API from Channable — 2 operation(s) for statistics.
   name: Channable statistics API
   slug: channable-statistics-api
-- description: The stock_updates API from Channable — 2 operation(s) for stock_updates.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The stock_updates API from Channable — 2 operation(s) for stock_updates.
   name: Channable stock_updates API
   slug: channable-stock-updates-api
-- description: The transporters API from Channable — 3 operation(s) for transporters.
+- baseURL: https://api.channable.com/v1
+  baseurl_source: declared
+  description: The transporters API from Channable — 3 operation(s) for transporters.
   name: Channable transporters API
   slug: channable-transporters-api
 artifact_total: 18
@@ -274,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-08-17T083552.png
 security:

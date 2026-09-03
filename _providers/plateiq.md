@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The accounts API from PlateIQ — 3 operation(s) for accounts.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The accounts API from PlateIQ — 3 operation(s) for accounts.
   name: PlateIQ accounts API
   slug: plateiq-accounts-api
-- description: The batch API from PlateIQ — 3 operation(s) for batch.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The batch API from PlateIQ — 3 operation(s) for batch.
   name: PlateIQ batch API
   slug: plateiq-batch-api
-- description: The catalog API from PlateIQ — 12 operation(s) for catalog.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The catalog API from PlateIQ — 12 operation(s) for catalog.
   name: PlateIQ catalog API
   slug: plateiq-catalog-api
-- description: The dimensions API from PlateIQ — 3 operation(s) for dimensions.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The dimensions API from PlateIQ — 3 operation(s) for dimensions.
   name: PlateIQ dimensions API
   slug: plateiq-dimensions-api
-- description: The invoices API from PlateIQ — 11 operation(s) for invoices.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The invoices API from PlateIQ — 11 operation(s) for invoices.
   name: PlateIQ invoices API
   slug: plateiq-invoices-api
-- description: The oauth API from PlateIQ — 1 operation(s) for oauth.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The oauth API from PlateIQ — 1 operation(s) for oauth.
   name: PlateIQ oauth API
   slug: plateiq-oauth-api
-- description: The purchaseOrders API from PlateIQ — 3 operation(s) for purchaseorders.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The purchaseOrders API from PlateIQ — 3 operation(s) for purchaseorders.
   name: PlateIQ purchaseOrders API
   slug: plateiq-purchaseorders-api
-- description: The receipts API from PlateIQ — 3 operation(s) for receipts.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The receipts API from PlateIQ — 3 operation(s) for receipts.
   name: PlateIQ receipts API
   slug: plateiq-receipts-api
-- description: The vendors API from PlateIQ — 3 operation(s) for vendors.
+- baseURL: https://api.ottimate.com/v1
+  baseurl_source: declared
+  description: The vendors API from PlateIQ — 3 operation(s) for vendors.
   name: PlateIQ vendors API
   slug: plateiq-vendors-api
 artifact_total: 25
@@ -277,7 +295,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plateiq/refs/heads/main/screenshots/plateiq-2026-08-17T081300.png
 security:

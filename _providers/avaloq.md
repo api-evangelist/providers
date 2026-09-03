@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Community APIs for fintech integration providing simplified REST endpoints for connecting third-party applications with the Avaloq banking platform. Pre-vetted by Avaloq for secure, standards-based in
   name: Avaloq Community API
   slug: avaloq-community-api
-- description: Bank account management
+- baseURL: https://api.avaloq.com
+  baseurl_source: declared
+  description: Bank account management
   name: Avaloq Accounts API
   slug: avaloq-accounts-api
-- description: Customer data management
+- baseURL: https://api.avaloq.com
+  baseurl_source: declared
+  description: Customer data management
   name: Avaloq Customers API
   slug: avaloq-customers-api
-- description: Payment tracking and status
+- baseURL: https://api.avaloq.com
+  baseurl_source: declared
+  description: Payment tracking and status
   name: Avaloq Payment Status API
   slug: avaloq-payment-status-api
-- description: Payment instructions and transfers
+- baseURL: https://api.avaloq.com
+  baseurl_source: declared
+  description: Payment instructions and transfers
   name: Avaloq Payments API
   slug: avaloq-payments-api
-- description: Transaction history and management
+- baseURL: https://api.avaloq.com
+  baseurl_source: declared
+  description: Transaction history and management
   name: Avaloq Transactions API
   slug: avaloq-transactions-api
 artifact_total: 91
@@ -408,7 +418,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:

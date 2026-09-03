@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: Obtain a time-limited token and signature.
+- baseURL: https://app2.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1
+  baseurl_source: declared
+  description: Obtain a time-limited token and signature.
   name: RXNT Authentication API
   slug: rxnt-authentication-api
-- description: Retrieve patient CCDS clinical data.
+- baseURL: https://app2.rxnt.com/MasterIndexExternalAPIServices/masterindexexternalapi/v1
+  baseurl_source: declared
+  description: Retrieve patient CCDS clinical data.
   name: RXNT Clinical Data API
   slug: rxnt-clinical-data-api
 artifact_total: 8
@@ -118,7 +122,7 @@ score:
   band: emerging
   composite: 20.9
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -147,8 +151,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/screenshots/rxnt-2026-09-02T154228.png
 security:
 - kind: domain-security
   name: Rxnt Domain Security

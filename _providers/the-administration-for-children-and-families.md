@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: ACF's primary data and research portal providing access to program data, statistical reports, and research findings across all ACF program offices. Includes TANF caseload data, CCDF data, Head Start p
   name: ACF Data and Research Portal
   slug: acf-data-research
-- description: The plg_auth_check API from The Administration for Children and Families — 1 operation(s) for plg_auth_check.
+- baseURL: https://tanfdata.acf.hhs.gov/
+  baseurl_source: declared
+  description: The plg_auth_check API from The Administration for Children and Families — 1 operation(s) for plg_auth_check.
   name: The Administration for Children and Families plg_auth_check API
   slug: the-administration-for-children-and-families-plg-auth-check-api
-- description: The v1 API from The Administration for Children and Families — 35 operation(s) for v1.
+- baseURL: https://tanfdata.acf.hhs.gov/
+  baseurl_source: declared
+  description: The v1 API from The Administration for Children and Families — 35 operation(s) for v1.
   name: The Administration for Children and Families v1 API
   slug: the-administration-for-children-and-families-v1-api
 artifact_total: 20
@@ -237,7 +241,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:

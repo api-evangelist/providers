@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The Givebutter API is organized around REST and provides a stateless interface for interacting with your Givebutter account. The Givebutter API supports JSON, and all requests return and require a val
   name: Givebutter
   slug: givebutter
-- description: The Campaigns API from Givebutter — 4 operation(s) for campaigns.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Campaigns API from Givebutter — 4 operation(s) for campaigns.
   name: Givebutter Campaigns API
   slug: givebutter-campaigns-api
-- description: The Contacts API from Givebutter — 2 operation(s) for contacts.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Contacts API from Givebutter — 2 operation(s) for contacts.
   name: Givebutter Contacts API
   slug: givebutter-contacts-api
-- description: The Discount Codes API from Givebutter — 1 operation(s) for discount codes.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Discount Codes API from Givebutter — 1 operation(s) for discount codes.
   name: Givebutter Discount Codes API
   slug: givebutter-discount-codes-api
-- description: The Funds API from Givebutter — 2 operation(s) for funds.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Funds API from Givebutter — 2 operation(s) for funds.
   name: Givebutter Funds API
   slug: givebutter-funds-api
-- description: The Payouts API from Givebutter — 1 operation(s) for payouts.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Payouts API from Givebutter — 1 operation(s) for payouts.
   name: Givebutter Payouts API
   slug: givebutter-payouts-api
-- description: The Plans API from Givebutter — 1 operation(s) for plans.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Plans API from Givebutter — 1 operation(s) for plans.
   name: Givebutter Plans API
   slug: givebutter-plans-api
-- description: The Tickets API from Givebutter — 2 operation(s) for tickets.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Tickets API from Givebutter — 2 operation(s) for tickets.
   name: Givebutter Tickets API
   slug: givebutter-tickets-api
-- description: The Transactions API from Givebutter — 2 operation(s) for transactions.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Transactions API from Givebutter — 2 operation(s) for transactions.
   name: Givebutter Transactions API
   slug: givebutter-transactions-api
-- description: The Webhooks API from Givebutter — 2 operation(s) for webhooks.
+- baseURL: https://api.givebutter.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Givebutter — 2 operation(s) for webhooks.
   name: Givebutter Webhooks API
   slug: givebutter-webhooks-api
 artifact_total: 27
@@ -175,7 +193,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -185,7 +203,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 26.5
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     contracts:
@@ -194,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/screenshots/givebutter-2026-06-20T181853.png
 security:

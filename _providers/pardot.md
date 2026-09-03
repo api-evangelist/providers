@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: Legacy v3/v4 REST API endpoints for Pardot resources. Still supported for many objects not yet migrated to v5; uses the same Salesforce OAuth 2.0 authentication scheme.
   name: Account Engagement API v3/v4 (Legacy)
   slug: account-engagement-api-v4
-- description: The Objects API from Salesforce Marketing Cloud Account Engagement (Pardot) — 24 operation(s) for objects.
+- baseURL: https://pi.pardot.com/api/v5
+  baseurl_source: declared
+  description: The Objects API from Salesforce Marketing Cloud Account Engagement (Pardot) — 24 operation(s) for objects.
   name: Salesforce Marketing Cloud Account Engagement (Pardot) Objects API
   slug: pardot-objects-api
 artifact_total: 15
@@ -289,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:

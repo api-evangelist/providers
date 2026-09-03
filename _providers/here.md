@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: The Autocomplete API from HERE — 1 operation(s) for autocomplete.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Autocomplete API from HERE — 1 operation(s) for autocomplete.
   name: HERE Autocomplete API
   slug: here-autocomplete-api
-- description: The Autosuggest API from HERE — 1 operation(s) for autosuggest.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Autosuggest API from HERE — 1 operation(s) for autosuggest.
   name: HERE Autosuggest API
   slug: here-autosuggest-api
-- description: The Browse API from HERE — 1 operation(s) for browse.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Browse API from HERE — 1 operation(s) for browse.
   name: HERE Browse API
   slug: here-browse-api
-- description: The Discover API from HERE — 1 operation(s) for discover.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Discover API from HERE — 1 operation(s) for discover.
   name: HERE Discover API
   slug: here-discover-api
-- description: The Geocode API from HERE — 1 operation(s) for geocode.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Geocode API from HERE — 1 operation(s) for geocode.
   name: HERE Geocode API
   slug: here-geocode-api
-- description: The Lookup API from HERE — 1 operation(s) for lookup.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Lookup API from HERE — 1 operation(s) for lookup.
   name: HERE Lookup API
   slug: here-lookup-api
-- description: The Reverse Geocode API from HERE — 2 operation(s) for reverse geocode.
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Reverse Geocode API from HERE — 2 operation(s) for reverse geocode.
   name: HERE Reverse Geocode API
   slug: here-reverse-geocode-api
 artifact_total: 22
@@ -220,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/screenshots/here-2026-06-20T182640.png
 security:

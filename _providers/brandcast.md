@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 26 operations · 12 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: The Account API from Brandcast — 1 operation(s) for account.
+- baseURL: https://api.brandcast-prod.io
+  baseurl_source: declared
+  description: The Account API from Brandcast — 1 operation(s) for account.
   name: Brandcast Account API
   slug: brandcast-account-api
-- description: The Salesforce API from Brandcast — 1 operation(s) for salesforce.
+- baseURL: https://api.brandcast-prod.io
+  baseurl_source: declared
+  description: The Salesforce API from Brandcast — 1 operation(s) for salesforce.
   name: Brandcast Salesforce API
   slug: brandcast-salesforce-api
-- description: The Templates API from Brandcast — 4 operation(s) for templates.
+- baseURL: https://api.brandcast-prod.io
+  baseurl_source: declared
+  description: The Templates API from Brandcast — 4 operation(s) for templates.
   name: Brandcast Templates API
   slug: brandcast-templates-api
-- description: The Websites API from Brandcast — 13 operation(s) for websites.
+- baseURL: https://api.brandcast-prod.io
+  baseurl_source: declared
+  description: The Websites API from Brandcast — 13 operation(s) for websites.
   name: Brandcast Websites API
   slug: brandcast-websites-api
 artifact_total: 15
@@ -235,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/screenshots/brandcast-2026-07-25T203717.png
 security:

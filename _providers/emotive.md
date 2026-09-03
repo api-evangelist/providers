@@ -34,115 +34,185 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 18
 apis:
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
   name: Emotive Knowledge Base MCP Server
   slug: emotive-knowledge-base-mcp-server
-- description: The Admin API from Emotive — 1 operation(s) for admin.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Admin API from Emotive — 1 operation(s) for admin.
   name: Emotive Admin API
   slug: emotive-admin-api
-- description: The Auth0 API from Emotive — 5 operation(s) for auth0.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Auth0 API from Emotive — 5 operation(s) for auth0.
   name: Emotive Auth0 API
   slug: emotive-auth0-api
-- description: The Authentication Source API API from Emotive — 2 operation(s) for authentication source api.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Authentication Source API API from Emotive — 2 operation(s) for authentication source api.
   name: Emotive Authentication Source API
   slug: emotive-authentication-source-api-api
-- description: The Brand API from Emotive — 1 operation(s) for brand.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Brand API from Emotive — 1 operation(s) for brand.
   name: Emotive Brand API
   slug: emotive-brand-api
-- description: The Brands API from Emotive — 9 operation(s) for brands.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Brands API from Emotive — 9 operation(s) for brands.
   name: Emotive Brands API
   slug: emotive-brands-api
-- description: The Bulk Subscriber API from Emotive — 1 operation(s) for bulk subscriber.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Bulk Subscriber API from Emotive — 1 operation(s) for bulk subscriber.
   name: Emotive Bulk Subscriber API
   slug: emotive-bulk-subscriber-api
-- description: The Connections API from Emotive — 4 operation(s) for connections.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Connections API from Emotive — 4 operation(s) for connections.
   name: Emotive Connections API
   slug: emotive-connections-api
-- description: Push arbitrary customer events that can trigger an Emotive Flow.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: Push arbitrary customer events that can trigger an Emotive Flow.
   name: Emotive Custom Events API
   slug: emotive-custom-events-api
-- description: The Experience API from Emotive — 2 operation(s) for experience.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Experience API from Emotive — 2 operation(s) for experience.
   name: Emotive Experience API
   slug: emotive-experience-api
-- description: The Google API from Emotive — 6 operation(s) for google.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Google API from Emotive — 6 operation(s) for google.
   name: Emotive Google API
   slug: emotive-google-api
-- description: The Impersonate API from Emotive — 2 operation(s) for impersonate.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Impersonate API from Emotive — 2 operation(s) for impersonate.
   name: Emotive Impersonate API
   slug: emotive-impersonate-api
-- description: The Jwt API from Emotive — 1 operation(s) for jwt.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Jwt API from Emotive — 1 operation(s) for jwt.
   name: Emotive JWT API
   slug: emotive-jwt-api
-- description: The Logout API from Emotive — 2 operation(s) for logout.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Logout API from Emotive — 2 operation(s) for logout.
   name: Emotive Logout API
   slug: emotive-logout-api
-- description: The Messaging API from Emotive — 1 operation(s) for messaging.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Messaging API from Emotive — 1 operation(s) for messaging.
   name: Emotive Messaging API
   slug: emotive-messaging-api
-- description: The Oauth API from Emotive — 2 operation(s) for oauth.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Oauth API from Emotive — 2 operation(s) for oauth.
   name: Emotive OAUTH API
   slug: emotive-oauth-api
-- description: Manual unsubscribe of a phone number.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: Manual unsubscribe of a phone number.
   name: Emotive Opt Outs API
   slug: emotive-opt-outs-api
-- description: Order tracking for custom eCommerce sites.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: Order tracking for custom eCommerce sites.
   name: Emotive Orders API
   slug: emotive-orders-api
-- description: The Password API from Emotive — 2 operation(s) for password.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Password API from Emotive — 2 operation(s) for password.
   name: Emotive Password API
   slug: emotive-password-api
-- description: The Product API API from Emotive — 2 operation(s) for product api.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Product API API from Emotive — 2 operation(s) for product api.
   name: Emotive Product API
   slug: emotive-product-api-api
-- description: The Profile Properties API from Emotive — 2 operation(s) for profile properties.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Profile Properties API from Emotive — 2 operation(s) for profile properties.
   name: Emotive Profile Properties API
   slug: emotive-profile-properties-api
-- description: The QA API from Emotive — 1 operation(s) for qa.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The QA API from Emotive — 1 operation(s) for qa.
   name: Emotive QA API
   slug: emotive-qa-api
-- description: The Search API from Emotive — 2 operation(s) for search.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Search API from Emotive — 2 operation(s) for search.
   name: Emotive Search API
   slug: emotive-search-api
-- description: The Segment Filter API from Emotive — 1 operation(s) for segment filter.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Segment Filter API from Emotive — 1 operation(s) for segment filter.
   name: Emotive Segment Filter API
   slug: emotive-segment-filter-api
-- description: The Sensus Webhooks API from Emotive — 1 operation(s) for sensus webhooks.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Sensus Webhooks API from Emotive — 1 operation(s) for sensus webhooks.
   name: Emotive Sensus Webhooks API
   slug: emotive-sensus-webhooks-api
-- description: The Shopify API from Emotive — 5 operation(s) for shopify.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Shopify API from Emotive — 5 operation(s) for shopify.
   name: Emotive Shopify API
   slug: emotive-shopify-api
-- description: The Single Segment API from Emotive — 2 operation(s) for single segment.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Single Segment API from Emotive — 2 operation(s) for single segment.
   name: Emotive Single Segment API
   slug: emotive-single-segment-api
-- description: The Subscriber API from Emotive — 1 operation(s) for subscriber.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Subscriber API from Emotive — 1 operation(s) for subscriber.
   name: Emotive Subscriber API
   slug: emotive-subscriber-api
-- description: The subscriber_engine Subscriber API from Emotive — 1 operation(s) for subscriber_engine subscriber.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The subscriber_engine Subscriber API from Emotive — 1 operation(s) for subscriber_engine subscriber.
   name: Emotive subscriber_engine Subscriber API
   slug: emotive-subscriber-engine-subscriber-api
-- description: The Sync API from Emotive — 1 operation(s) for sync.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Sync API from Emotive — 1 operation(s) for sync.
   name: Emotive Sync API
   slug: emotive-sync-api
-- description: The Ticket Systems API from Emotive — 2 operation(s) for ticket systems.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Ticket Systems API from Emotive — 2 operation(s) for ticket systems.
   name: Emotive Ticket Systems API
   slug: emotive-ticket-systems-api
-- description: The Tickets API from Emotive — 6 operation(s) for tickets.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Tickets API from Emotive — 6 operation(s) for tickets.
   name: Emotive Tickets API
   slug: emotive-tickets-api
-- description: The Token API from Emotive — 1 operation(s) for token.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Token API from Emotive — 1 operation(s) for token.
   name: Emotive Token API
   slug: emotive-token-api
-- description: The User API API from Emotive — 3 operation(s) for user api.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The User API API from Emotive — 3 operation(s) for user api.
   name: Emotive User API
   slug: emotive-user-api-api
-- description: The Webhooks API from Emotive — 2 operation(s) for webhooks.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Webhooks API from Emotive — 2 operation(s) for webhooks.
   name: Emotive Webhooks API
   slug: emotive-webhooks-api
-- description: The Zapier Me API API from Emotive — 1 operation(s) for zapier me api.
+- baseURL: https://api.emotiveapp.co
+  baseurl_source: declared
+  description: The Zapier Me API API from Emotive — 1 operation(s) for zapier me api.
   name: Emotive Zapier Me API
   slug: emotive-zapier-me-api-api
 artifact_total: 42
@@ -320,7 +390,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -330,7 +400,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 53.0
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     contracts:
@@ -347,7 +417,7 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
 security:

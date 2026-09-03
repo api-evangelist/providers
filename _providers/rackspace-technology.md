@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -65,61 +65,99 @@ apis:
 - description: The Rackspace Billing API (V2) returns invoices, transactions, and account billing data programmatically.
   name: Rackspace Billing API
   slug: billing-api
-- description: Customer contact operations.
+- baseURL: https://accounts.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Customer contact operations.
   name: Rackspace Technology Contacts API
   slug: rackspace-technology-contacts-api
-- description: Currency lookup.
+- baseURL: https://offerings.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Currency lookup.
   name: Rackspace Technology Currency API
   slug: rackspace-technology-currency-api
-- description: Customer-account lookup and history operations.
+- baseURL: https://accounts.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Customer-account lookup and history operations.
   name: Rackspace Technology CustomerAccounts API
   slug: rackspace-technology-customeraccounts-api
-- description: DNS domain (zone) operations.
+- baseURL: https://dns.api.rackspacecloud.com/v1.0
+  baseurl_source: spec
+  description: DNS domain (zone) operations.
   name: Rackspace Technology Domains API
   slug: rackspace-technology-domains-api
-- description: Per-account usage limits and rate caps.
+- baseURL: https://dns.api.rackspacecloud.com/v1.0
+  baseurl_source: spec
+  description: Per-account usage limits and rate caps.
   name: Rackspace Technology Limits API
   slug: rackspace-technology-limits-api
-- description: Resource-level customer metadata.
+- baseURL: https://accounts.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Resource-level customer metadata.
   name: Rackspace Technology Metadata API
   slug: rackspace-technology-metadata-api
-- description: Multi-factor authentication setup and operations.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Multi-factor authentication setup and operations.
   name: Rackspace Technology MultiFactor API
   slug: rackspace-technology-multifactor-api
-- description: Offering catalog operations.
+- baseURL: https://offerings.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Offering catalog operations.
   name: Rackspace Technology Offerings API
   slug: rackspace-technology-offerings-api
-- description: Phone PIN operations for verbal account verification.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Phone PIN operations for verbal account verification.
   name: Rackspace Technology PhonePin API
   slug: rackspace-technology-phonepin-api
-- description: Commit and volume pricing grid operations.
+- baseURL: https://offerings.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Commit and volume pricing grid operations.
   name: Rackspace Technology Pricing API
   slug: rackspace-technology-pricing-api
-- description: Product catalog operations.
+- baseURL: https://offerings.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Product catalog operations.
   name: Rackspace Technology Products API
   slug: rackspace-technology-products-api
-- description: DNS record operations within a domain.
+- baseURL: https://dns.api.rackspacecloud.com/v1.0
+  baseurl_source: spec
+  description: DNS record operations within a domain.
   name: Rackspace Technology Records API
   slug: rackspace-technology-records-api
-- description: Reverse DNS (PTR) record operations.
+- baseURL: https://dns.api.rackspacecloud.com/v1.0
+  baseurl_source: spec
+  description: Reverse DNS (PTR) record operations.
   name: Rackspace Technology ReverseDNS API
   slug: rackspace-technology-reversedns-api
-- description: Global and tenant role assignments.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Global and tenant role assignments.
   name: Rackspace Technology Roles API
   slug: rackspace-technology-roles-api
-- description: Secret question and answer operations.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Secret question and answer operations.
   name: Rackspace Technology SecretQA API
   slug: rackspace-technology-secretqa-api
-- description: Tenant (account) operations.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Tenant (account) operations.
   name: Rackspace Technology Tenants API
   slug: rackspace-technology-tenants-api
-- description: Authentication and token validation operations.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Authentication and token validation operations.
   name: Rackspace Technology Tokens API
   slug: rackspace-technology-tokens-api
-- description: User account operations.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: User account operations.
   name: Rackspace Technology Users API
   slug: rackspace-technology-users-api
-- description: Service version metadata.
+- baseURL: https://identity.api.rackspacecloud.com
+  baseurl_source: spec
+  description: Service version metadata.
   name: Rackspace Technology Versions API
   slug: rackspace-technology-versions-api
 artifact_total: 70
@@ -468,7 +506,7 @@ score:
       marker_coverage: 100.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

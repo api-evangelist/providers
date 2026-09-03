@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 4
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 7 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from TRONITY — 1 operation(s) for authentication.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Authentication API from TRONITY — 1 operation(s) for authentication.
   name: TRONITY Authentication API
   slug: tronity-authentication-api
-- description: The Charging & Battery API from TRONITY — 3 operation(s) for charging & battery.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Charging & Battery API from TRONITY — 3 operation(s) for charging & battery.
   name: TRONITY Charging & Battery API
   slug: tronity-charging-battery-api
-- description: The Commands API from TRONITY — 3 operation(s) for commands.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Commands API from TRONITY — 3 operation(s) for commands.
   name: TRONITY Commands API
   slug: tronity-commands-api
-- description: The Vehicle Data API from TRONITY — 7 operation(s) for vehicle data.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Vehicle Data API from TRONITY — 7 operation(s) for vehicle data.
   name: TRONITY Vehicle Data API
   slug: tronity-vehicle-data-api
-- description: The Vehicles API from TRONITY — 3 operation(s) for vehicles.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Vehicles API from TRONITY — 3 operation(s) for vehicles.
   name: TRONITY Vehicles API
   slug: tronity-vehicles-api
-- description: The Webhooks API from TRONITY — 2 operation(s) for webhooks.
+- baseURL: https://api.tronity.tech
+  baseurl_source: declared
+  description: The Webhooks API from TRONITY — 2 operation(s) for webhooks.
   name: TRONITY Webhooks API
   slug: tronity-webhooks-api
 artifact_total: 21
@@ -166,7 +178,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -189,8 +201,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tronity/refs/heads/main/screenshots/tronity-2026-09-02T164310.png
 security:
 - kind: authentication
   name: Tronity Authentication

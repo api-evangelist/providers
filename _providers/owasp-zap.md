@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,151 +44,249 @@ agentic_access:
   summary_line: 735 operations
 api_count: 1
 apis:
-- description: The accessControl API from OWASP ZAP — 4 operation(s) for accesscontrol.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The accessControl API from OWASP ZAP — 4 operation(s) for accesscontrol.
   name: OWASP ZAP accessControl API
   slug: owasp-zap-accesscontrol-api
-- description: The acsrf API from OWASP ZAP — 6 operation(s) for acsrf.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The acsrf API from OWASP ZAP — 6 operation(s) for acsrf.
   name: OWASP ZAP acsrf API
   slug: owasp-zap-acsrf-api
-- description: The ajaxSpider API from OWASP ZAP — 41 operation(s) for ajaxspider.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The ajaxSpider API from OWASP ZAP — 41 operation(s) for ajaxspider.
   name: OWASP ZAP ajaxSpider API
   slug: owasp-zap-ajaxspider-api
-- description: The alert API from OWASP ZAP — 13 operation(s) for alert.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The alert API from OWASP ZAP — 13 operation(s) for alert.
   name: OWASP ZAP alert API
   slug: owasp-zap-alert-api
-- description: The alertFilter API from OWASP ZAP — 12 operation(s) for alertfilter.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The alertFilter API from OWASP ZAP — 12 operation(s) for alertfilter.
   name: OWASP ZAP alertFilter API
   slug: owasp-zap-alertfilter-api
-- description: The ascan API from OWASP ZAP — 90 operation(s) for ascan.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The ascan API from OWASP ZAP — 90 operation(s) for ascan.
   name: OWASP ZAP ascan API
   slug: owasp-zap-ascan-api
-- description: The authentication API from OWASP ZAP — 8 operation(s) for authentication.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The authentication API from OWASP ZAP — 8 operation(s) for authentication.
   name: OWASP ZAP authentication API
   slug: owasp-zap-authentication-api
-- description: The authorization API from OWASP ZAP — 2 operation(s) for authorization.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The authorization API from OWASP ZAP — 2 operation(s) for authorization.
   name: OWASP ZAP authorization API
   slug: owasp-zap-authorization-api
-- description: The automation API from OWASP ZAP — 3 operation(s) for automation.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The automation API from OWASP ZAP — 3 operation(s) for automation.
   name: OWASP ZAP automation API
   slug: owasp-zap-automation-api
-- description: The autoupdate API from OWASP ZAP — 32 operation(s) for autoupdate.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The autoupdate API from OWASP ZAP — 32 operation(s) for autoupdate.
   name: OWASP ZAP autoupdate API
   slug: owasp-zap-autoupdate-api
-- description: The break API from OWASP ZAP — 11 operation(s) for break.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The break API from OWASP ZAP — 11 operation(s) for break.
   name: OWASP ZAP break API
   slug: owasp-zap-break-api
-- description: The client API from OWASP ZAP — 5 operation(s) for client.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The client API from OWASP ZAP — 5 operation(s) for client.
   name: OWASP ZAP client API
   slug: owasp-zap-client-api
-- description: The clientSpider API from OWASP ZAP — 3 operation(s) for clientspider.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The clientSpider API from OWASP ZAP — 3 operation(s) for clientspider.
   name: OWASP ZAP clientSpider API
   slug: owasp-zap-clientspider-api
-- description: The context API from OWASP ZAP — 21 operation(s) for context.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The context API from OWASP ZAP — 21 operation(s) for context.
   name: OWASP ZAP context API
   slug: owasp-zap-context-api
-- description: The core API from OWASP ZAP — 97 operation(s) for core.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The core API from OWASP ZAP — 97 operation(s) for core.
   name: OWASP ZAP core API
   slug: owasp-zap-core-api
-- description: The custompayloads API from OWASP ZAP — 8 operation(s) for custompayloads.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The custompayloads API from OWASP ZAP — 8 operation(s) for custompayloads.
   name: OWASP ZAP custompayloads API
   slug: owasp-zap-custompayloads-api
-- description: The dev API from OWASP ZAP — 1 operation(s) for dev.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The dev API from OWASP ZAP — 1 operation(s) for dev.
   name: OWASP ZAP dev API
   slug: owasp-zap-dev-api
-- description: The exim API from OWASP ZAP — 9 operation(s) for exim.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The exim API from OWASP ZAP — 9 operation(s) for exim.
   name: OWASP ZAP exim API
   slug: owasp-zap-exim-api
-- description: The forcedUser API from OWASP ZAP — 4 operation(s) for forceduser.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The forcedUser API from OWASP ZAP — 4 operation(s) for forceduser.
   name: OWASP ZAP forcedUser API
   slug: owasp-zap-forceduser-api
-- description: The graphql API from OWASP ZAP — 20 operation(s) for graphql.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The graphql API from OWASP ZAP — 20 operation(s) for graphql.
   name: OWASP ZAP graphql API
   slug: owasp-zap-graphql-api
-- description: The httpSessions API from OWASP ZAP — 16 operation(s) for httpsessions.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The httpSessions API from OWASP ZAP — 16 operation(s) for httpsessions.
   name: OWASP ZAP httpSessions API
   slug: owasp-zap-httpsessions-api
-- description: The hud API from OWASP ZAP — 37 operation(s) for hud.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The hud API from OWASP ZAP — 37 operation(s) for hud.
   name: OWASP ZAP hud API
   slug: owasp-zap-hud-api
-- description: The keyboard API from OWASP ZAP — 2 operation(s) for keyboard.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The keyboard API from OWASP ZAP — 2 operation(s) for keyboard.
   name: OWASP ZAP keyboard API
   slug: owasp-zap-keyboard-api
-- description: The localProxies API from OWASP ZAP — 3 operation(s) for localproxies.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The localProxies API from OWASP ZAP — 3 operation(s) for localproxies.
   name: OWASP ZAP localProxies API
   slug: owasp-zap-localproxies-api
-- description: The network API from OWASP ZAP — 48 operation(s) for network.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The network API from OWASP ZAP — 48 operation(s) for network.
   name: OWASP ZAP network API
   slug: owasp-zap-network-api
-- description: The oast API from OWASP ZAP — 11 operation(s) for oast.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The oast API from OWASP ZAP — 11 operation(s) for oast.
   name: OWASP ZAP oast API
   slug: owasp-zap-oast-api
-- description: The openapi API from OWASP ZAP — 2 operation(s) for openapi.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The openapi API from OWASP ZAP — 2 operation(s) for openapi.
   name: OWASP ZAP openapi API
   slug: owasp-zap-openapi-api
-- description: The paramDigger API from OWASP ZAP — 1 operation(s) for paramdigger.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The paramDigger API from OWASP ZAP — 1 operation(s) for paramdigger.
   name: OWASP ZAP paramDigger API
   slug: owasp-zap-paramdigger-api
-- description: The params API from OWASP ZAP — 1 operation(s) for params.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The params API from OWASP ZAP — 1 operation(s) for params.
   name: OWASP ZAP params API
   slug: owasp-zap-params-api
-- description: The pnh API from OWASP ZAP — 8 operation(s) for pnh.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The pnh API from OWASP ZAP — 8 operation(s) for pnh.
   name: OWASP ZAP pnh API
   slug: owasp-zap-pnh-api
-- description: The postman API from OWASP ZAP — 2 operation(s) for postman.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The postman API from OWASP ZAP — 2 operation(s) for postman.
   name: OWASP ZAP postman API
   slug: owasp-zap-postman-api
-- description: The pscan API from OWASP ZAP — 17 operation(s) for pscan.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The pscan API from OWASP ZAP — 17 operation(s) for pscan.
   name: OWASP ZAP pscan API
   slug: owasp-zap-pscan-api
-- description: The quickstartlaunch API from OWASP ZAP — 1 operation(s) for quickstartlaunch.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The quickstartlaunch API from OWASP ZAP — 1 operation(s) for quickstartlaunch.
   name: OWASP ZAP quickstartlaunch API
   slug: owasp-zap-quickstartlaunch-api
-- description: The replacer API from OWASP ZAP — 4 operation(s) for replacer.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The replacer API from OWASP ZAP — 4 operation(s) for replacer.
   name: OWASP ZAP replacer API
   slug: owasp-zap-replacer-api
-- description: The reports API from OWASP ZAP — 3 operation(s) for reports.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The reports API from OWASP ZAP — 3 operation(s) for reports.
   name: OWASP ZAP reports API
   slug: owasp-zap-reports-api
-- description: The retest API from OWASP ZAP — 1 operation(s) for retest.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The retest API from OWASP ZAP — 1 operation(s) for retest.
   name: OWASP ZAP retest API
   slug: owasp-zap-retest-api
-- description: The reveal API from OWASP ZAP — 2 operation(s) for reveal.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The reveal API from OWASP ZAP — 2 operation(s) for reveal.
   name: OWASP ZAP reveal API
   slug: owasp-zap-reveal-api
-- description: The revisit API from OWASP ZAP — 3 operation(s) for revisit.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The revisit API from OWASP ZAP — 3 operation(s) for revisit.
   name: OWASP ZAP revisit API
   slug: owasp-zap-revisit-api
-- description: The ruleConfig API from OWASP ZAP — 5 operation(s) for ruleconfig.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The ruleConfig API from OWASP ZAP — 5 operation(s) for ruleconfig.
   name: OWASP ZAP ruleConfig API
   slug: owasp-zap-ruleconfig-api
-- description: The script API from OWASP ZAP — 24 operation(s) for script.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The script API from OWASP ZAP — 24 operation(s) for script.
   name: OWASP ZAP script API
   slug: owasp-zap-script-api
-- description: The search API from OWASP ZAP — 18 operation(s) for search.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The search API from OWASP ZAP — 18 operation(s) for search.
   name: OWASP ZAP search API
   slug: owasp-zap-search-api
-- description: The selenium API from OWASP ZAP — 22 operation(s) for selenium.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The selenium API from OWASP ZAP — 22 operation(s) for selenium.
   name: OWASP ZAP selenium API
   slug: owasp-zap-selenium-api
-- description: The sessionManagement API from OWASP ZAP — 4 operation(s) for sessionmanagement.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The sessionManagement API from OWASP ZAP — 4 operation(s) for sessionmanagement.
   name: OWASP ZAP sessionManagement API
   slug: owasp-zap-sessionmanagement-api
-- description: The soap API from OWASP ZAP — 2 operation(s) for soap.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The soap API from OWASP ZAP — 2 operation(s) for soap.
   name: OWASP ZAP soap API
   slug: owasp-zap-soap-api
-- description: The spider API from OWASP ZAP — 71 operation(s) for spider.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The spider API from OWASP ZAP — 71 operation(s) for spider.
   name: OWASP ZAP spider API
   slug: owasp-zap-spider-api
-- description: The stats API from OWASP ZAP — 13 operation(s) for stats.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The stats API from OWASP ZAP — 13 operation(s) for stats.
   name: OWASP ZAP stats API
   slug: owasp-zap-stats-api
-- description: The users API from OWASP ZAP — 15 operation(s) for users.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The users API from OWASP ZAP — 15 operation(s) for users.
   name: OWASP ZAP users API
   slug: owasp-zap-users-api
-- description: The wappalyzer API from OWASP ZAP — 3 operation(s) for wappalyzer.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The wappalyzer API from OWASP ZAP — 3 operation(s) for wappalyzer.
   name: OWASP ZAP wappalyzer API
   slug: owasp-zap-wappalyzer-api
-- description: The websocket API from OWASP ZAP — 6 operation(s) for websocket.
+- baseURL: http://zap
+  baseurl_source: declared
+  description: The websocket API from OWASP ZAP — 6 operation(s) for websocket.
   name: OWASP ZAP websocket API
   slug: owasp-zap-websocket-api
 artifact_total: 107
@@ -474,7 +572,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/screenshots/owasp-zap-2026-06-20T191246.png
 security:

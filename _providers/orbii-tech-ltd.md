@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -43,97 +43,159 @@ agentic_access:
   summary_line: 191 operations · 36 acting
 api_count: 5
 apis:
-- description: The Business Category Assignment API from Orbii Tech Ltd — 1 operation(s) for business category assignment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Business Category Assignment API from Orbii Tech Ltd — 1 operation(s) for business category assignment.
   name: Orbii Tech Ltd Business Category Assignment API
   slug: orbii-tech-ltd-business-category-assignment-api
-- description: The Categories API from Orbii Tech Ltd — 1 operation(s) for categories.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Categories API from Orbii Tech Ltd — 1 operation(s) for categories.
   name: Orbii Tech Ltd Categories API
   slug: orbii-tech-ltd-categories-api
-- description: The Clients API from Orbii Tech Ltd — 2 operation(s) for clients.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Clients API from Orbii Tech Ltd — 2 operation(s) for clients.
   name: Orbii Tech Ltd Clients API
   slug: orbii-tech-ltd-clients-api
-- description: The Company Management API from Orbii Tech Ltd — 1 operation(s) for company management.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Company Management API from Orbii Tech Ltd — 1 operation(s) for company management.
   name: Orbii Tech Ltd Company Management API
   slug: orbii-tech-ltd-company-management-api
-- description: The Data Check API from Orbii Tech Ltd — 1 operation(s) for data check.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Data Check API from Orbii Tech Ltd — 1 operation(s) for data check.
   name: Orbii Tech Ltd Data Check API
   slug: orbii-tech-ltd-data-check-api
-- description: The General API from Orbii Tech Ltd — 1 operation(s) for general.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The General API from Orbii Tech Ltd — 1 operation(s) for general.
   name: Orbii Tech Ltd General API
   slug: orbii-tech-ltd-general-api
-- description: The IBANs API from Orbii Tech Ltd — 1 operation(s) for ibans.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The IBANs API from Orbii Tech Ltd — 1 operation(s) for ibans.
   name: Orbii Tech Ltd IBANs API
   slug: orbii-tech-ltd-ibans-api
-- description: The Invoices API from Orbii Tech Ltd — 11 operation(s) for invoices.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Invoices API from Orbii Tech Ltd — 11 operation(s) for invoices.
   name: Orbii Tech Ltd Invoices API
   slug: orbii-tech-ltd-invoices-api
-- description: The KPIs API from Orbii Tech Ltd — 6 operation(s) for kpis.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The KPIs API from Orbii Tech Ltd — 6 operation(s) for kpis.
   name: Orbii Tech Ltd KPIs API
   slug: orbii-tech-ltd-kpis-api
-- description: The Lending Actions API from Orbii Tech Ltd — 1 operation(s) for lending actions.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Lending Actions API from Orbii Tech Ltd — 1 operation(s) for lending actions.
   name: Orbii Tech Ltd Lending Actions API
   slug: orbii-tech-ltd-lending-actions-api
-- description: The Merchants API from Orbii Tech Ltd — 8 operation(s) for merchants.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Merchants API from Orbii Tech Ltd — 8 operation(s) for merchants.
   name: Orbii Tech Ltd Merchants API
   slug: orbii-tech-ltd-merchants-api
-- description: The Micro Loan API from Orbii Tech Ltd — 1 operation(s) for micro loan.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Micro Loan API from Orbii Tech Ltd — 1 operation(s) for micro loan.
   name: Orbii Tech Ltd Micro Loan API
   slug: orbii-tech-ltd-micro-loan-api
-- description: The Orbii API Rewaa API from Orbii Tech Ltd — 1 operation(s) for orbii api rewaa.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Orbii API Rewaa API from Orbii Tech Ltd — 1 operation(s) for orbii api rewaa.
   name: Orbii Tech Ltd Orbii API Rewaa API
   slug: orbii-tech-ltd-orbii-api-rewaa-api
-- description: The PDFs API from Orbii Tech Ltd — 4 operation(s) for pdfs.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The PDFs API from Orbii Tech Ltd — 4 operation(s) for pdfs.
   name: Orbii Tech Ltd PDFs API
   slug: orbii-tech-ltd-pdfs-api
-- description: The Raw Numbers API from Orbii Tech Ltd — 6 operation(s) for raw numbers.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Raw Numbers API from Orbii Tech Ltd — 6 operation(s) for raw numbers.
   name: Orbii Tech Ltd Raw Numbers API
   slug: orbii-tech-ltd-raw-numbers-api
-- description: The Rewaa Baseline Eligibility Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa baseline eligibility raw.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Baseline Eligibility Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa baseline eligibility raw.
   name: Orbii Tech Ltd Rewaa Baseline Eligibility Raw API
   slug: orbii-tech-ltd-rewaa-baseline-eligibility-raw-api
-- description: The Rewaa Business Stability And Risk Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa business stability and risk raw.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Business Stability And Risk Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa business stability and risk raw.
   name: Orbii Tech Ltd Rewaa Business Stability And Risk Raw API
   slug: orbii-tech-ltd-rewaa-business-stability-and-risk-raw-api
-- description: The Rewaa Final Band Classification API from Orbii Tech Ltd — 1 operation(s) for rewaa final band classification.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Final Band Classification API from Orbii Tech Ltd — 1 operation(s) for rewaa final band classification.
   name: Orbii Tech Ltd Rewaa Final Band Classification API
   slug: orbii-tech-ltd-rewaa-final-band-classification-api
-- description: The Rewaa Industry And Seasonal Trends Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa industry and seasonal trends raw.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Industry And Seasonal Trends Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa industry and seasonal trends raw.
   name: Orbii Tech Ltd Rewaa Industry And Seasonal Trends Raw API
   slug: orbii-tech-ltd-rewaa-industry-and-seasonal-trends-raw-api
-- description: The Rewaa KPI Rules API from Orbii Tech Ltd — 1 operation(s) for rewaa kpi rules.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa KPI Rules API from Orbii Tech Ltd — 1 operation(s) for rewaa kpi rules.
   name: Orbii Tech Ltd Rewaa KPI Rules API
   slug: orbii-tech-ltd-rewaa-kpi-rules-api
-- description: The Rewaa Loan Amounts API from Orbii Tech Ltd — 1 operation(s) for rewaa loan amounts.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Loan Amounts API from Orbii Tech Ltd — 1 operation(s) for rewaa loan amounts.
   name: Orbii Tech Ltd Rewaa Loan Amounts API
   slug: orbii-tech-ltd-rewaa-loan-amounts-api
-- description: The Rewaa Payment Processing And Liquidity Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa payment processing and liquidity raw.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Payment Processing And Liquidity Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa payment processing and liquidity raw.
   name: Orbii Tech Ltd Rewaa Payment Processing And Liquidity Raw API
   slug: orbii-tech-ltd-rewaa-payment-processing-and-liquidity-raw-api
-- description: The Rewaa Revenue And Sales Performance Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa revenue and sales performance raw.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Revenue And Sales Performance Raw API from Orbii Tech Ltd — 1 operation(s) for rewaa revenue and sales performance raw.
   name: Orbii Tech Ltd Rewaa Revenue And Sales Performance Raw API
   slug: orbii-tech-ltd-rewaa-revenue-and-sales-performance-raw-api
-- description: The Rewaa Risk Assessment API from Orbii Tech Ltd — 1 operation(s) for rewaa risk assessment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Rewaa Risk Assessment API from Orbii Tech Ltd — 1 operation(s) for rewaa risk assessment.
   name: Orbii Tech Ltd Rewaa Risk Assessment API
   slug: orbii-tech-ltd-rewaa-risk-assessment-api
-- description: The Risk Assessment API from Orbii Tech Ltd — 10 operation(s) for risk assessment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Risk Assessment API from Orbii Tech Ltd — 10 operation(s) for risk assessment.
   name: Orbii Tech Ltd Risk Assessment API
   slug: orbii-tech-ltd-risk-assessment-api
-- description: The Run Assessment API from Orbii Tech Ltd — 1 operation(s) for run assessment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Run Assessment API from Orbii Tech Ltd — 1 operation(s) for run assessment.
   name: Orbii Tech Ltd Run Assessment API
   slug: orbii-tech-ltd-run-assessment-api
-- description: The Scores and Final Band Classification API from Orbii Tech Ltd — 2 operation(s) for scores and final band classification.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Scores and Final Band Classification API from Orbii Tech Ltd — 2 operation(s) for scores and final band classification.
   name: Orbii Tech Ltd Scores and Final Band Classification API
   slug: orbii-tech-ltd-scores-and-final-band-classification-api
-- description: The Subcategories API from Orbii Tech Ltd — 1 operation(s) for subcategories.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Subcategories API from Orbii Tech Ltd — 1 operation(s) for subcategories.
   name: Orbii Tech Ltd Subcategories API
   slug: orbii-tech-ltd-subcategories-api
-- description: The Transactions API from Orbii Tech Ltd — 16 operation(s) for transactions.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Transactions API from Orbii Tech Ltd — 16 operation(s) for transactions.
   name: Orbii Tech Ltd Transactions API
   slug: orbii-tech-ltd-transactions-api
-- description: The UpdateKpiRules API from Orbii Tech Ltd — 1 operation(s) for updatekpirules.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The UpdateKpiRules API from Orbii Tech Ltd — 1 operation(s) for updatekpirules.
   name: Orbii Tech Ltd UpdateKpiRules API
   slug: orbii-tech-ltd-updatekpirules-api
-- description: The Zipped Csv Upload API from Orbii Tech Ltd — 1 operation(s) for zipped csv upload.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Zipped Csv Upload API from Orbii Tech Ltd — 1 operation(s) for zipped csv upload.
   name: Orbii Tech Ltd Zipped Csv Upload API
   slug: orbii-tech-ltd-zipped-csv-upload-api
 artifact_total: 67
@@ -368,7 +430,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

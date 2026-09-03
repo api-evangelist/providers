@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 0
 common:
@@ -87,7 +87,7 @@ score:
       reason: never_enriched
   previous_composite: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexion/refs/heads/main/screenshots/flexion-2026-07-25T214749.png
 slug: flexion

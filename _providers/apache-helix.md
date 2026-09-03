@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Java API for implementing Helix participant, spectator, and controller roles, with APIs for resource management, task execution, and state machine definitions.
   name: Apache Helix Java API
   slug: apache-helix-java-api
-- description: Cluster management operations
+- baseURL: http://localhost:9100
+  baseurl_source: declared
+  description: Cluster management operations
   name: Apache Helix Clusters API
   slug: apache-helix-clusters-api
-- description: Instance management operations
+- baseURL: http://localhost:9100
+  baseurl_source: declared
+  description: Instance management operations
   name: Apache Helix Instances API
   slug: apache-helix-instances-api
-- description: Resource management operations
+- baseURL: http://localhost:9100
+  baseurl_source: declared
+  description: Resource management operations
   name: Apache Helix Resources API
   slug: apache-helix-resources-api
-- description: Partition state operations
+- baseURL: http://localhost:9100
+  baseurl_source: declared
+  description: Partition state operations
   name: Apache Helix State API
   slug: apache-helix-state-api
 artifact_total: 55
@@ -303,7 +311,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/screenshots/apache-helix-2026-06-20T172103.png
 security:

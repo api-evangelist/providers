@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 7
 apis:
-- description: The Accounts API from DNSimple — 1 operation(s) for accounts.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Accounts API from DNSimple — 1 operation(s) for accounts.
   name: DNSimple Accounts API
   slug: dnsimple-accounts-api
-- description: The Certificates API from DNSimple — 1 operation(s) for certificates.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Certificates API from DNSimple — 1 operation(s) for certificates.
   name: DNSimple Certificates API
   slug: dnsimple-certificates-api
-- description: The Contacts API from DNSimple — 1 operation(s) for contacts.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Contacts API from DNSimple — 1 operation(s) for contacts.
   name: DNSimple Contacts API
   slug: dnsimple-contacts-api
-- description: The Domains API from DNSimple — 2 operation(s) for domains.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Domains API from DNSimple — 2 operation(s) for domains.
   name: DNSimple Domains API
   slug: dnsimple-domains-api
-- description: The Webhooks API from DNSimple — 1 operation(s) for webhooks.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Webhooks API from DNSimple — 1 operation(s) for webhooks.
   name: DNSimple Webhooks API
   slug: dnsimple-webhooks-api
-- description: The Whoami API from DNSimple — 1 operation(s) for whoami.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Whoami API from DNSimple — 1 operation(s) for whoami.
   name: DNSimple Whoami API
   slug: dnsimple-whoami-api
-- description: The Zones API from DNSimple — 4 operation(s) for zones.
+- baseURL: https://api.dnsimple.com/v2
+  baseurl_source: spec
+  description: The Zones API from DNSimple — 4 operation(s) for zones.
   name: DNSimple Zones API
   slug: dnsimple-zones-api
 artifact_total: 22
@@ -185,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/screenshots/dnsimple-2026-06-20T180100.png
 security:

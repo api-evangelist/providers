@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The NCUA publishes downloadable Call Report data, Financial Performance Reports, and a Research a Credit Union tool. There is no documented public REST API at this time; data is available as downloada
@@ -120,7 +120,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-credit-union-administration/refs/heads/main/screenshots/national-credit-union-administration-2026-06-20T190008.png
 security:

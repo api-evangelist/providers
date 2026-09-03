@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 2
 apis:
-- description: Real-time container track-and-trace.
+- baseURL: https://container.vesselfinder.com/api/1.0
+  baseurl_source: spec
+  description: Real-time container track-and-trace.
   name: VesselFinder Containers API
   slug: vesselfinder-containers-api
-- description: Sea-route distance and geometry between two points.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Sea-route distance and geometry between two points.
   name: VesselFinder Distance API
   slug: vesselfinder-distance-api
-- description: Vessels with announced ETAs at a selected port.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Vessels with announced ETAs at a selected port.
   name: VesselFinder Expected Arrivals API
   slug: vesselfinder-expected-arrivals-api
-- description: Manage the watchlist of vessels backing the VesselsList method.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Manage the watchlist of vessels backing the VesselsList method.
   name: VesselFinder List Manager API
   slug: vesselfinder-list-manager-api
-- description: All vessels within a predefined geographic area, subscription-based.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: All vessels within a predefined geographic area, subscription-based.
   name: VesselFinder Live Data API
   slug: vesselfinder-live-data-api
-- description: Static vessel particulars by IMO.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Static vessel particulars by IMO.
   name: VesselFinder Master Data API
   slug: vesselfinder-master-data-api
-- description: Arrival and departure events for vessels or ports.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Arrival and departure events for vessels or ports.
   name: VesselFinder Port Calls API
   slug: vesselfinder-port-calls-api
-- description: Account status and remaining credits.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Account status and remaining credits.
   name: VesselFinder Status API
   slug: vesselfinder-status-api
-- description: On-demand vessel position, voyage, and master data lookups.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: On-demand vessel position, voyage, and master data lookups.
   name: VesselFinder Vessels API
   slug: vesselfinder-vessels-api
-- description: Predefined-fleet data, subscription-based.
+- baseURL: https://api.vesselfinder.com
+  baseurl_source: spec
+  description: Predefined-fleet data, subscription-based.
   name: VesselFinder Vessels List API
   slug: vesselfinder-vessels-list-api
 artifact_total: 65
@@ -401,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 38 operations · 23 acting
 api_count: 1
 apis:
-- description: The Meshes API from AWS App Mesh — 14 operation(s) for meshes.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Meshes API from AWS App Mesh — 14 operation(s) for meshes.
   name: AWS App Mesh Meshes API
   slug: aws-app-mesh-meshes-api
-- description: The Tag#resourceArn API from AWS App Mesh — 1 operation(s) for tag#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Tag#resourceArn API from AWS App Mesh — 1 operation(s) for tag#resourcearn.
   name: AWS App Mesh Tag#resourceArn API
   slug: aws-app-mesh-tag-resourcearn-api
-- description: The Tags#resourceArn API from AWS App Mesh — 1 operation(s) for tags#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from AWS App Mesh — 1 operation(s) for tags#resourcearn.
   name: AWS App Mesh Tags#resourceArn API
   slug: aws-app-mesh-tags-resourcearn-api
-- description: The Untag#resourceArn API from AWS App Mesh — 1 operation(s) for untag#resourcearn.
+- baseURL: https://appmesh.amazonaws.com
+  baseurl_source: declared
+  description: The Untag#resourceArn API from AWS App Mesh — 1 operation(s) for untag#resourcearn.
   name: AWS App Mesh Untag#resourceArn API
   slug: aws-app-mesh-untag-resourcearn-api
 artifact_total: 1054
@@ -3341,7 +3349,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/screenshots/aws-app-mesh-2026-06-20T172740.png
 security:

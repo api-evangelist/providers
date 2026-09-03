@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Kohl's is an American department store retail chain selling apparel
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kohls.png
 layout: provider
 modified: '2026-04-28'
-name: kohls
+name: Kohls
 nav: Providers
 network: true
-overview: kohls is profiled on the [APIs.io](https://apis.io/) network.
+overview: Kohls is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: Kohl's Corp. uses AI to improve app, personalize offers for ...
@@ -98,10 +98,10 @@ score:
   previous_composite: 2.9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kohls/refs/heads/main/screenshots/kohls-2026-08-07T171314.png
 security:

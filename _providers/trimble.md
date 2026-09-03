@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,22 +71,34 @@ apis:
 - description: Trimble Identity provides OAuth 2.0 / OpenID Connect authentication and authorization for all Trimble developer applications. Enables single sign-on across the Trimble platform for web, mobile, and de
   name: Trimble Identity API
   slug: trimble-identity
-- description: Building Collaboration Format issue tracking
+- baseURL: https://app.connect.trimble.com/tc/api/2.0
+  baseurl_source: spec
+  description: Building Collaboration Format issue tracking
   name: Trimble BCF Topics API
   slug: trimble-bcf-topics-api
-- description: File and document management
+- baseURL: https://app.connect.trimble.com/tc/api/2.0
+  baseurl_source: spec
+  description: File and document management
   name: Trimble Files API
   slug: trimble-files-api
-- description: Address and coordinate conversion
+- baseURL: https://pcmiler.alk.com/apis/rest/v1.0
+  baseurl_source: spec
+  description: Address and coordinate conversion
   name: Trimble Geocoding API
   slug: trimble-geocoding-api
-- description: Project management
+- baseURL: https://app.connect.trimble.com/tc/api/2.0
+  baseurl_source: spec
+  description: Project management
   name: Trimble Projects API
   slug: trimble-projects-api
-- description: Route calculation and optimization
+- baseURL: https://pcmiler.alk.com/apis/rest/v1.0
+  baseurl_source: spec
+  description: Route calculation and optimization
   name: Trimble Routing API
   slug: trimble-routing-api
-- description: User and team management
+- baseURL: https://app.connect.trimble.com/tc/api/2.0
+  baseurl_source: spec
+  description: User and team management
   name: Trimble Users API
   slug: trimble-users-api
 artifact_total: 63
@@ -351,7 +363,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -56,19 +56,29 @@ apis:
 - description: The DigiCert Custom Reports API allows generation of customizable and comprehensive data sets by leveraging the powerful GraphQL query language. Build tailored reporting against CertCentral data sourc
   name: DigiCert Custom Reports API
   slug: digicert-custom-reports-api
-- description: The Account API from Digicert — 4 operation(s) for account.
+- baseURL: https://www.digicert.com/services/v2
+  baseurl_source: declared
+  description: The Account API from Digicert — 4 operation(s) for account.
   name: Digicert Account API
   slug: digicert-account-api
-- description: The Domain API from Digicert — 2 operation(s) for domain.
+- baseURL: https://www.digicert.com/services/v2
+  baseurl_source: declared
+  description: The Domain API from Digicert — 2 operation(s) for domain.
   name: Digicert Domain API
   slug: digicert-domain-api
-- description: The Order API from Digicert — 6 operation(s) for order.
+- baseURL: https://www.digicert.com/services/v2
+  baseurl_source: declared
+  description: The Order API from Digicert — 6 operation(s) for order.
   name: Digicert Order API
   slug: digicert-order-api
-- description: The Organization API from Digicert — 1 operation(s) for organization.
+- baseURL: https://www.digicert.com/services/v2
+  baseurl_source: declared
+  description: The Organization API from Digicert — 1 operation(s) for organization.
   name: Digicert Organization API
   slug: digicert-organization-api
-- description: The User API from Digicert — 1 operation(s) for user.
+- baseURL: https://www.digicert.com/services/v2
+  baseurl_source: declared
+  description: The User API from Digicert — 1 operation(s) for user.
   name: Digicert User API
   slug: digicert-user-api
 artifact_total: 23
@@ -219,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digicert/refs/heads/main/screenshots/digicert-2026-06-20T180019.png
 security:

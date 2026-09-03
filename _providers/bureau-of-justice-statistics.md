@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: A suite of interactive web-based data tools providing access to BJS statistical data on crime, corrections, courts, law enforcement, and victimization. Tools include LEARCAT (law enforcement agency cr
   name: BJS Data Analysis Tools
   slug: bjs-data-analysis-tools
-- description: The Property Crime API from Bureau of Justice Statistics — 2 operation(s) for property crime.
+- baseURL: https://api.ojp.gov/bjsdataset/v1/
+  baseurl_source: declared
+  description: The Property Crime API from Bureau of Justice Statistics — 2 operation(s) for property crime.
   name: Bureau of Justice Statistics Property Crime API
   slug: bureau-of-justice-statistics-property-crime-api
-- description: The Victimization API from Bureau of Justice Statistics — 2 operation(s) for victimization.
+- baseURL: https://api.ojp.gov/bjsdataset/v1/
+  baseurl_source: declared
+  description: The Victimization API from Bureau of Justice Statistics — 2 operation(s) for victimization.
   name: Bureau of Justice Statistics Victimization API
   slug: bureau-of-justice-statistics-victimization-api
-- description: The Violent Crime API from Bureau of Justice Statistics — 2 operation(s) for violent crime.
+- baseURL: https://api.ojp.gov/bjsdataset/v1/
+  baseurl_source: declared
+  description: The Violent Crime API from Bureau of Justice Statistics — 2 operation(s) for violent crime.
   name: Bureau of Justice Statistics Violent Crime API
   slug: bureau-of-justice-statistics-violent-crime-api
 artifact_total: 15
@@ -166,7 +172,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/screenshots/bureau-of-justice-statistics-2026-06-20T173810.png
 security:

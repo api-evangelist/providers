@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The External Events API from LittleHorse — 3 operation(s) for external events.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The External Events API from LittleHorse — 3 operation(s) for external events.
   name: LittleHorse External Events API
   slug: littlehorse-external-events-api
-- description: The Node Runs API from LittleHorse — 1 operation(s) for node runs.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Node Runs API from LittleHorse — 1 operation(s) for node runs.
   name: LittleHorse Node Runs API
   slug: littlehorse-node-runs-api
-- description: The Task Definitions API from LittleHorse — 2 operation(s) for task definitions.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Task Definitions API from LittleHorse — 2 operation(s) for task definitions.
   name: LittleHorse Task Definitions API
   slug: littlehorse-task-definitions-api
-- description: The User Tasks API from LittleHorse — 3 operation(s) for user tasks.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The User Tasks API from LittleHorse — 3 operation(s) for user tasks.
   name: LittleHorse User Tasks API
   slug: littlehorse-user-tasks-api
-- description: The Workflow Runs API from LittleHorse — 5 operation(s) for workflow runs.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Workflow Runs API from LittleHorse — 5 operation(s) for workflow runs.
   name: LittleHorse Workflow Runs API
   slug: littlehorse-workflow-runs-api
-- description: The Workflow Specs API from LittleHorse — 2 operation(s) for workflow specs.
+- baseURL_template: '{baseUrl}'
+  baseurl_source: spec_template
+  description: The Workflow Specs API from LittleHorse — 2 operation(s) for workflow specs.
   name: LittleHorse Workflow Specs API
   slug: littlehorse-workflow-specs-api
 artifact_total: 19
@@ -164,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/screenshots/littlehorse-2026-06-20T184611.png
 security:

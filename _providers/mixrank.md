@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 77 operations · 6 acting
 api_count: 1
 apis:
-- description: The Account API from MixRank — 2 operation(s) for account.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Account API from MixRank — 2 operation(s) for account.
   name: MixRank Account API
   slug: mixrank-account-api
-- description: The Audience Segments API from MixRank — 2 operation(s) for audience segments.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Audience Segments API from MixRank — 2 operation(s) for audience segments.
   name: MixRank Audience Segments API
   slug: mixrank-audience-segments-api
-- description: The Companies API from MixRank — 9 operation(s) for companies.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Companies API from MixRank — 9 operation(s) for companies.
   name: MixRank Companies API
   slug: mixrank-companies-api
-- description: The Email API from MixRank — 4 operation(s) for email.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Email API from MixRank — 4 operation(s) for email.
   name: MixRank Email API
   slug: mixrank-email-api
-- description: The iOS App Privacy API from MixRank — 4 operation(s) for ios app privacy.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The iOS App Privacy API from MixRank — 4 operation(s) for ios app privacy.
   name: MixRank iOS App Privacy API
   slug: mixrank-ios-app-privacy-api
-- description: The iOS Apps API from MixRank — 12 operation(s) for ios apps.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The iOS Apps API from MixRank — 12 operation(s) for ios apps.
   name: MixRank iOS Apps API
   slug: mixrank-ios-apps-api
-- description: The iOS Developers API from MixRank — 1 operation(s) for ios developers.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The iOS Developers API from MixRank — 1 operation(s) for ios developers.
   name: MixRank iOS Developers API
   slug: mixrank-ios-developers-api
-- description: The iOS Rankings API from MixRank — 2 operation(s) for ios rankings.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The iOS Rankings API from MixRank — 2 operation(s) for ios rankings.
   name: MixRank iOS Rankings API
   slug: mixrank-ios-rankings-api
-- description: The iOS SDKs API from MixRank — 7 operation(s) for ios sdks.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The iOS SDKs API from MixRank — 7 operation(s) for ios sdks.
   name: MixRank iOS SDKs API
   slug: mixrank-ios-sdks-api
-- description: The People API from MixRank — 2 operation(s) for people.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The People API from MixRank — 2 operation(s) for people.
   name: MixRank People API
   slug: mixrank-people-api
-- description: The Play Store Apps API from MixRank — 10 operation(s) for play store apps.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Play Store Apps API from MixRank — 10 operation(s) for play store apps.
   name: MixRank Play Store Apps API
   slug: mixrank-play-store-apps-api
-- description: The Play Store Developers API from MixRank — 1 operation(s) for play store developers.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Play Store Developers API from MixRank — 1 operation(s) for play store developers.
   name: MixRank Play Store Developers API
   slug: mixrank-play-store-developers-api
-- description: The Play Store Rankings API from MixRank — 2 operation(s) for play store rankings.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Play Store Rankings API from MixRank — 2 operation(s) for play store rankings.
   name: MixRank Play Store Rankings API
   slug: mixrank-play-store-rankings-api
-- description: The Play Store SDKs API from MixRank — 7 operation(s) for play store sdks.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Play Store SDKs API from MixRank — 7 operation(s) for play store sdks.
   name: MixRank Play Store SDKs API
   slug: mixrank-play-store-sdks-api
-- description: The Web Tags API from MixRank — 3 operation(s) for web tags.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Web Tags API from MixRank — 3 operation(s) for web tags.
   name: MixRank Web Tags API
   slug: mixrank-web-tags-api
-- description: The Websites API from MixRank — 3 operation(s) for websites.
+- baseURL: https://api.mixrank.com/v2/json/
+  baseurl_source: declared
+  description: The Websites API from MixRank — 3 operation(s) for websites.
   name: MixRank Websites API
   slug: mixrank-websites-api
 artifact_total: 40
@@ -302,7 +334,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -312,7 +344,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 58.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,7 +356,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixrank/refs/heads/main/screenshots/mixrank-2026-08-07T183827.png
 security:

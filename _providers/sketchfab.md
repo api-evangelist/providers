@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: Client-side JavaScript library for controlling an embedded Sketchfab 3D viewer. Exposes camera control, screenshot capture, annotation, material and texture manipulation, post-processing filters, anim
   name: Sketchfab Viewer API
   slug: sketchfab-viewer-api
-- description: Programmatic download of 3D models from Sketchfab's library in glTF, GLB, and USDZ formats. Requires end-user OAuth authentication. Source formats (FBX, OBJ, etc.) are not exposed through the public A
+- baseURL: https://api.sketchfab.com
+  baseurl_source: spec
+  description: Programmatic download of 3D models from Sketchfab's library in glTF, GLB, and USDZ formats. Requires end-user OAuth authentication. Source formats (FBX, OBJ, etc.) are not exposed through the public A
   name: Sketchfab Download API
   slug: sketchfab-download-api
-- description: oEmbed-protocol endpoint at https://sketchfab.com/oembed that returns JSON containing an HTML <iframe> snippet for any Sketchfab model or playlist URL. Supports maxwidth and maxheight parameters; alwa
+- baseURL: https://api.sketchfab.com
+  baseurl_source: spec
+  description: oEmbed-protocol endpoint at https://sketchfab.com/oembed that returns JSON containing an HTML <iframe> snippet for any Sketchfab model or playlist URL. Supports maxwidth and maxheight parameters; alwa
   name: Sketchfab oEmbed API
   slug: sketchfab-oembed-api
-- description: OAuth 2.0 authorization server for the Sketchfab platform. Supports Authorization Code, Implicit, and Resource Owner Password Credentials grant types plus refresh-token rotation. Authorize endpoint at
+- baseURL: https://api.sketchfab.com
+  baseurl_source: spec
+  description: OAuth 2.0 authorization server for the Sketchfab platform. Supports Authorization Code, Implicit, and Resource Owner Password Credentials grant types plus refresh-token rotation. Authorize endpoint at
   name: Sketchfab OAuth 2.0 API
   slug: sketchfab-oauth-api
-- description: Personal bookmarks.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Personal bookmarks.
   name: Sketchfab Bookmarks API
   slug: sketchfab-bookmarks-api
-- description: Public Sketchfab category taxonomy.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Public Sketchfab category taxonomy.
   name: Sketchfab Categories API
   slug: sketchfab-categories-api
-- description: Group models into themed collections.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Group models into themed collections.
   name: Sketchfab Collections API
   slug: sketchfab-collections-api
-- description: Comments on a model.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Comments on a model.
   name: Sketchfab Comments API
   slug: sketchfab-comments-api
-- description: Likes (favorites) on a model.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Likes (favorites) on a model.
   name: Sketchfab Likes API
   slug: sketchfab-likes-api
-- description: Manage 3D models — upload, list, retrieve, update, delete.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Manage 3D models — upload, list, retrieve, update, delete.
   name: Sketchfab Models API
   slug: sketchfab-models-api
-- description: Organization, project, and member management.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Organization, project, and member management.
   name: Sketchfab Orgs API
   slug: sketchfab-orgs-api
-- description: Search public Sketchfab content.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Search public Sketchfab content.
   name: Sketchfab Search API
   slug: sketchfab-search-api
-- description: Tag-based discovery.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Tag-based discovery.
   name: Sketchfab Tags API
   slug: sketchfab-tags-api
-- description: Retrieve user account information.
+- baseURL: https://api.sketchfab.com
+  baseurl_source: declared
+  description: Retrieve user account information.
   name: Sketchfab Users API
   slug: sketchfab-users-api
 artifact_total: 55
@@ -459,7 +485,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

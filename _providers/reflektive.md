@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: V1 endpoint for real-time peer feedback between a single sender and recipient.
+- baseURL: https://api.reflektive.com
+  baseurl_source: declared
+  description: V1 endpoint for real-time peer feedback between a single sender and recipient.
   name: Reflektive Real-time Feedback (v1) API
   slug: reflektive-real-time-feedback-v1-api
-- description: V2 endpoint for real-time feedback with support for Team Recognition (multiple recipients).
+- baseURL: https://api.reflektive.com
+  baseurl_source: declared
+  description: V2 endpoint for real-time feedback with support for Team Recognition (multiple recipients).
   name: Reflektive Real-time Feedback (v2) API
   slug: reflektive-real-time-feedback-v2-api
-- description: Report generation endpoints that kick off asynchronous jobs and return a task UUID for status polling.
+- baseURL: https://api.reflektive.com
+  baseurl_source: declared
+  description: Report generation endpoints that kick off asynchronous jobs and return a task UUID for status polling.
   name: Reflektive Reports API
   slug: reflektive-reports-api
-- description: Asynchronous task objects used to track the status of report generation jobs.
+- baseURL: https://api.reflektive.com
+  baseurl_source: declared
+  description: Asynchronous task objects used to track the status of report generation jobs.
   name: Reflektive Tasks API
   slug: reflektive-tasks-api
 artifact_total: 27
@@ -234,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reflektive/refs/heads/main/screenshots/reflektive-2026-06-20T192747.png
 security:

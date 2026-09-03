@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Uncountable External API is the authenticated REST surface of the Uncountable R&D platform. Its documented entry point is the list_entities endpoint, which returns rows from a Listing Configuratio
@@ -184,10 +197,11 @@ score:
   band: thin
   composite: 33.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -197,12 +211,15 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
+  previous_composite: 33.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png
 security:
 - kind: authentication
   name: Uncountable Authentication

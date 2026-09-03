@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -185,16 +185,24 @@ apis:
 - description: Track single or multiple packages and manifest shipments handled by DHL eCommerce Americas.
   name: Tracking DHL eCommerce Americas
   slug: tracking-dhl-ecommerce-americas
-- description: The Find By Address API from DHL — 1 operation(s) for find by address.
+- baseURL: https://api.dhl.com/location-finder/v1
+  baseurl_source: spec
+  description: The Find By Address API from DHL — 1 operation(s) for find by address.
   name: DHL Find By Address API
   slug: dhl-find-by-address-api
-- description: The Find By Geo API from DHL — 1 operation(s) for find by geo.
+- baseURL: https://api.dhl.com/location-finder/v1
+  baseurl_source: spec
+  description: The Find By Geo API from DHL — 1 operation(s) for find by geo.
   name: DHL Find By Geo API
   slug: dhl-find-by-geo-api
-- description: The Find By Keyword Id API from DHL — 1 operation(s) for find by keyword id.
+- baseURL: https://api.dhl.com/location-finder/v1
+  baseurl_source: spec
+  description: The Find By Keyword Id API from DHL — 1 operation(s) for find by keyword id.
   name: DHL Find By Keyword Id API
   slug: dhl-find-by-keyword-id-api
-- description: The Find By Location Id API from DHL — 1 operation(s) for find by location id.
+- baseURL: https://api.dhl.com/location-finder/v1
+  baseurl_source: spec
+  description: The Find By Location Id API from DHL — 1 operation(s) for find by location id.
   name: DHL Find By Location Id API
   slug: dhl-find-by-location-id-api
 artifact_total: 64
@@ -298,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png
 security:

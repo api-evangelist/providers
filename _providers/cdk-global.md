@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -53,34 +53,54 @@ apis:
 - description: Hello World AsyncAPI reference distributed by Fortellis to teach the asynchronous API pattern, channel topology, and message envelope conventions used across Fortellis event APIs.
   name: Fortellis AsyncAPI Hello World Reference
   slug: fortellis-async-hello-world
-- description: The adopt API from CDK Global — 2 operation(s) for adopt.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The adopt API from CDK Global — 2 operation(s) for adopt.
   name: CDK Global adopt API
   slug: cdk-global-adopt-api
-- description: The adopt delete API from CDK Global — 1 operation(s) for adopt delete.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The adopt delete API from CDK Global — 1 operation(s) for adopt delete.
   name: CDK Global adopt delete API
   slug: cdk-global-adopt-delete-api
-- description: The adopt update API from CDK Global — 1 operation(s) for adopt update.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The adopt update API from CDK Global — 1 operation(s) for adopt update.
   name: CDK Global adopt update API
   slug: cdk-global-adopt-update-api
-- description: The cancel API from CDK Global — 1 operation(s) for cancel.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The cancel API from CDK Global — 1 operation(s) for cancel.
   name: CDK Global cancel API
   slug: cdk-global-cancel-api
-- description: The create API from CDK Global — 1 operation(s) for create.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The create API from CDK Global — 1 operation(s) for create.
   name: CDK Global create API
   slug: cdk-global-create-api
-- description: The events API from CDK Global — 1 operation(s) for events.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The events API from CDK Global — 1 operation(s) for events.
   name: CDK Global events API
   slug: cdk-global-events-api
-- description: The manage API from CDK Global — 1 operation(s) for manage.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The manage API from CDK Global — 1 operation(s) for manage.
   name: CDK Global manage API
   slug: cdk-global-manage-api
-- description: The query API from CDK Global — 6 operation(s) for query.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The query API from CDK Global — 6 operation(s) for query.
   name: CDK Global query API
   slug: cdk-global-query-api
-- description: The Service Booking API from CDK Global — 6 operation(s) for service booking.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The Service Booking API from CDK Global — 6 operation(s) for service booking.
   name: CDK Global Service Booking API
   slug: cdk-global-service-booking-api
-- description: The update API from CDK Global — 1 operation(s) for update.
+- baseURL: https://api.fortellis.io
+  baseurl_source: declared
+  description: The update API from CDK Global — 1 operation(s) for update.
   name: CDK Global update API
   slug: cdk-global-update-api
 arazzos:
@@ -510,7 +530,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -520,7 +540,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 50.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -529,7 +549,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/screenshots/cdk-global-2026-06-20T174106.png
 security:

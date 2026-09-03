@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Create a Custom Data Quality Monitor API from Revefi — 1 operation(s) for create a custom data quality monitor.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Create a Custom Data Quality Monitor API from Revefi — 1 operation(s) for create a custom data quality monitor.
   name: Revefi Create a Custom Data Quality Monitor API
   slug: revefi-create-a-custom-data-quality-monitor-api
-- description: The Delete an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for delete an existing custom data quality monitor.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Delete an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for delete an existing custom data quality monitor.
   name: Revefi Delete an existing Custom Data Quality Monitor API
   slug: revefi-delete-an-existing-custom-data-quality-monitor-api
-- description: The Get Custom Data Quality Monitors API from Revefi — 1 operation(s) for get custom data quality monitors.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Get Custom Data Quality Monitors API from Revefi — 1 operation(s) for get custom data quality monitors.
   name: Revefi Get Custom Data Quality Monitors API
   slug: revefi-get-custom-data-quality-monitors-api
-- description: The Get Custom Data Quality Monitors by Artifact API from Revefi — 1 operation(s) for get custom data quality monitors by artifact.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Get Custom Data Quality Monitors by Artifact API from Revefi — 1 operation(s) for get custom data quality monitors by artifact.
   name: Revefi Get Custom Data Quality Monitors by Artifact API
   slug: revefi-get-custom-data-quality-monitors-by-artifact-api
-- description: The Run Monitors API from Revefi — 1 operation(s) for run monitors.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Run Monitors API from Revefi — 1 operation(s) for run monitors.
   name: Revefi Run Monitors API
   slug: revefi-run-monitors-api
-- description: The Update an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for update an existing custom data quality monitor.
+- baseURL: https://gateway.revefi.com/api/v1/
+  baseurl_source: declared
+  description: The Update an existing Custom Data Quality Monitor API from Revefi — 1 operation(s) for update an existing custom data quality monitor.
   name: Revefi Update an existing Custom Data Quality Monitor API
   slug: revefi-update-an-existing-custom-data-quality-monitor-api
 artifact_total: 16
@@ -224,7 +236,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revefi/refs/heads/main/screenshots/revefi-2026-08-17T081541.png
 security:

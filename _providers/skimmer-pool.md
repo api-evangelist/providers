@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 50 operations · 22 acting
 api_count: 1
 apis:
-- description: Pools and other bodies of water Skimmer services.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Pools and other bodies of water Skimmer services.
   name: Skimmer Bodies of Water API
   slug: skimmer-pool-bodies-of-water-api
-- description: Pool-service customers and their activity logs.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Pool-service customers and their activity logs.
   name: Skimmer Customers API
   slug: skimmer-pool-customers-api
-- description: Invoices and billable service activity.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Invoices and billable service activity.
   name: Skimmer Invoices API
   slug: skimmer-pool-invoices-api
-- description: Product catalog, categories, and prices.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Product catalog, categories, and prices.
   name: Skimmer Products API
   slug: skimmer-pool-products-api
-- description: Sales quotes / estimates.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Sales quotes / estimates.
   name: Skimmer Quotes API
   slug: skimmer-pool-quotes-api
-- description: Technician routes of service stops by date.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Technician routes of service stops by date.
   name: Skimmer Routes API
   slug: skimmer-pool-routes-api
-- description: Physical service sites; the unit Skimmer bills on.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Physical service sites; the unit Skimmer bills on.
   name: Skimmer Service Locations API
   slug: skimmer-pool-service-locations-api
-- description: Account users - owners, admins, and technicians.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Account users - owners, admins, and technicians.
   name: Skimmer Users API
   slug: skimmer-pool-users-api
-- description: Repair and service jobs, and work order types.
+- baseURL: https://publicapi.getskimmer.com
+  baseurl_source: declared
+  description: Repair and service jobs, and work order types.
   name: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
 artifact_total: 25
@@ -177,7 +195,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +218,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/screenshots/skimmer-pool-2026-09-02T155727.png
 security:
 - kind: authentication
   name: Skimmer Pool Authentication

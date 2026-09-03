@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 139 operations · 58 acting
 api_count: 1
 apis:
-- description: The ACL API from Nuxeo — 2 operation(s) for acl.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The ACL API from Nuxeo — 2 operation(s) for acl.
   name: Nuxeo ACL API
   slug: nuxeo-acl-api
-- description: Adaptation Endpoints
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Adaptation Endpoints
   name: Nuxeo Adapter API
   slug: nuxeo-adapter-api
-- description: The Annotation API from Nuxeo — 2 operation(s) for annotation.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Annotation API from Nuxeo — 2 operation(s) for annotation.
   name: Nuxeo Annotation API
   slug: nuxeo-annotation-api
-- description: The Audit API from Nuxeo — 2 operation(s) for audit.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Audit API from Nuxeo — 2 operation(s) for audit.
   name: Nuxeo Audit API
   slug: nuxeo-audit-api
-- description: Automation Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Automation Operations
   name: Nuxeo Automation API
   slug: nuxeo-automation-api
-- description: The Blob API from Nuxeo — 2 operation(s) for blob.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Blob API from Nuxeo — 2 operation(s) for blob.
   name: Nuxeo Blob API
   slug: nuxeo-blob-api
-- description: Business Object Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Business Object Operations
   name: Nuxeo Business Object API
   slug: nuxeo-business-object-api
-- description: The Children API from Nuxeo — 2 operation(s) for children.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Children API from Nuxeo — 2 operation(s) for children.
   name: Nuxeo Children API
   slug: nuxeo-children-api
-- description: Configuration Information
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Configuration Information
   name: Nuxeo Configuration API
   slug: nuxeo-configuration-api
-- description: The Conversion API from Nuxeo — 4 operation(s) for conversion.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Conversion API from Nuxeo — 4 operation(s) for conversion.
   name: Nuxeo Conversion API
   slug: nuxeo-conversion-api
-- description: Directory Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Directory Operations
   name: Nuxeo Directory API
   slug: nuxeo-directory-api
-- description: Document Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Document Operations
   name: Nuxeo Document API
   slug: nuxeo-document-api
-- description: The Empty Document API from Nuxeo — 3 operation(s) for empty document.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Empty Document API from Nuxeo — 3 operation(s) for empty document.
   name: Nuxeo Empty Document API
   slug: nuxeo-empty-document-api
-- description: Group Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Group Operations
   name: Nuxeo Group API
   slug: nuxeo-group-api
-- description: OAuth2 Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: OAuth2 Operations
   name: Nuxeo OAuth2 API
   slug: nuxeo-oauth2-api
-- description: The Rendition API from Nuxeo — 2 operation(s) for rendition.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Rendition API from Nuxeo — 2 operation(s) for rendition.
   name: Nuxeo Rendition API
   slug: nuxeo-rendition-api
-- description: Search Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Search Operations
   name: Nuxeo Search API
   slug: nuxeo-search-api
-- description: The Task API from Nuxeo — 5 operation(s) for task.
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: The Task API from Nuxeo — 5 operation(s) for task.
   name: Nuxeo Task API
   slug: nuxeo-task-api
-- description: Authentication Token Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Authentication Token Operations
   name: Nuxeo Token API
   slug: nuxeo-token-api
-- description: User Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: User Operations
   name: Nuxeo User API
   slug: nuxeo-user-api
-- description: Workflow Operations
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Workflow Operations
   name: Nuxeo Workflow API
   slug: nuxeo-workflow-api
-- description: Workflow Model Information
+- baseURL: https://{nuxeo-server}/nuxeo/api/v1
+  baseurl_source: declared
+  description: Workflow Model Information
   name: Nuxeo Workflow Model API
   slug: nuxeo-workflow-model-api
 artifact_total: 100
@@ -451,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuxeo/refs/heads/main/screenshots/nuxeo-2026-06-20T190538.png
 security:

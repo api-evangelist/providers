@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: Reactive-stack web framework for building non-blocking, event-driven web applications on top of Project Reactor. Supports annotated controllers and functional endpoints with reactive programming model
   name: Spring WebFlux Reactive API
   slug: spring-webflux
-- description: The Generation API from Spring Framework — 2 operation(s) for generation.
+- baseURL: https://start.spring.io
+  baseurl_source: declared
+  description: The Generation API from Spring Framework — 2 operation(s) for generation.
   name: Spring Framework Generation API
   slug: spring-framework-generation-api
-- description: The Management API from Spring Framework — 2 operation(s) for management.
+- baseURL: https://start.spring.io
+  baseurl_source: declared
+  description: The Management API from Spring Framework — 2 operation(s) for management.
   name: Spring Framework Management API
   slug: spring-framework-management-api
-- description: The Metadata API from Spring Framework — 2 operation(s) for metadata.
+- baseURL: https://start.spring.io
+  baseurl_source: declared
+  description: The Metadata API from Spring Framework — 2 operation(s) for metadata.
   name: Spring Framework Metadata API
   slug: spring-framework-metadata-api
 artifact_total: 23
@@ -233,7 +239,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -246,7 +252,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 39.9
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -255,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/screenshots/spring-framework-2026-06-20T194413.png
 security:

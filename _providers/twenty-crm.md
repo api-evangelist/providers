@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Auto-generated GraphQL API over the same workspace schema, exposing queries, mutations, batch upserts via plural object names, and relation traversal for the Core API (/graphql) and Metadata API (/met
   name: Twenty GraphQL API
   slug: twenty-crm-graphql-api
-- description: Core API CRUD over company records.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Core API CRUD over company records.
   name: Twenty Companies API
   slug: twenty-crm-companies-api
-- description: Metadata API management of field definitions.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Metadata API management of field definitions.
   name: Twenty Metadata - Fields API
   slug: twenty-crm-metadata-fields-api
-- description: Metadata API management of object definitions.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Metadata API management of object definitions.
   name: Twenty Metadata - Objects API
   slug: twenty-crm-metadata-objects-api
-- description: Core API CRUD over note records.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Core API CRUD over note records.
   name: Twenty Notes API
   slug: twenty-crm-notes-api
-- description: Core API CRUD over opportunity records.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Core API CRUD over opportunity records.
   name: Twenty Opportunities API
   slug: twenty-crm-opportunities-api
-- description: Core API CRUD over person records.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Core API CRUD over person records.
   name: Twenty People API
   slug: twenty-crm-people-api
-- description: Core API CRUD over task records.
+- baseURL: https://api.twenty.com/rest
+  baseurl_source: declared
+  description: Core API CRUD over task records.
   name: Twenty Tasks API
   slug: twenty-crm-tasks-api
 artifact_total: 25
@@ -198,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty-crm/refs/heads/main/screenshots/twenty-crm-2026-06-20T195950.png
 security:

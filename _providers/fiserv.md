@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,82 +47,134 @@ apis:
 - description: Fiserv provides webhook-based event notifications across the payments lifecycle. Merchants can subscribe to webhooks to receive real-time notifications for key events including transaction status chan
   name: Fiserv Payment Events
   slug: payment-events
-- description: Manage 3-D Secure authentication flows for cardholder verification.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Manage 3-D Secure authentication flows for cardholder verification.
   name: Fiserv 3-D Secure API
   slug: fiserv-3-d-secure-api
-- description: Create, retrieve, update, and manage deposit and loan accounts.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Create, retrieve, update, and manage deposit and loan accounts.
   name: Fiserv Accounts API
   slug: fiserv-accounts-api
-- description: Authorize payment transactions against a cardholder account.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Authorize payment transactions against a cardholder account.
   name: Fiserv Authorization API
   slug: fiserv-authorization-api
-- description: Create and manage transaction authorizations.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Create and manage transaction authorizations.
   name: Fiserv Authorizations API
   slug: fiserv-authorizations-api
-- description: Look up Bank Identification Number (BIN) data for cards.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Look up Bank Identification Number (BIN) data for cards.
   name: Fiserv BIN API
   slug: fiserv-bin-api
-- description: Cancel or void previously authorized transactions.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Cancel or void previously authorized transactions.
   name: Fiserv Cancels API
   slug: fiserv-cancels-api
-- description: Capture previously authorized transactions for settlement.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Capture previously authorized transactions for settlement.
   name: Fiserv Capture API
   slug: fiserv-capture-api
-- description: Capture previously authorized transactions for settlement.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Capture previously authorized transactions for settlement.
   name: Fiserv Captures API
   slug: fiserv-captures-api
-- description: Issue, activate, manage, and retrieve card details.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Issue, activate, manage, and retrieve card details.
   name: Fiserv Cards API
   slug: fiserv-cards-api
-- description: Process payment charges including authorizations, sales, and pre-authorizations.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Process payment charges including authorizations, sales, and pre-authorizations.
   name: Fiserv Charges API
   slug: fiserv-charges-api
-- description: Retrieve funding information for settled transactions.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Retrieve funding information for settled transactions.
   name: Fiserv Funding API
   slug: fiserv-funding-api
-- description: Inquire about the status of transactions and merchant information.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Inquire about the status of transactions and merchant information.
   name: Fiserv Inquire API
   slug: fiserv-inquire-api
-- description: Manage credit, temporary credit, and cash limits.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Manage credit, temporary credit, and cash limits.
   name: Fiserv Limits API
   slug: fiserv-limits-api
-- description: Manage customer and party information including personal details and contact information.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Manage customer and party information including personal details and contact information.
   name: Fiserv Parties API
   slug: fiserv-parties-api
-- description: Process payment transactions including credits, debits, and bill payments.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Process payment transactions including credits, debits, and bill payments.
   name: Fiserv Payments API
   slug: fiserv-payments-api
-- description: Manage stored customer payment profiles for recurring or future transactions.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Manage stored customer payment profiles for recurring or future transactions.
   name: Fiserv Profile API
   slug: fiserv-profile-api
-- description: Refund previously captured and settled transactions.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Refund previously captured and settled transactions.
   name: Fiserv Refund API
   slug: fiserv-refund-api
-- description: Process refunds against previously captured transactions.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Process refunds against previously captured transactions.
   name: Fiserv Refunds API
   slug: fiserv-refunds-api
-- description: Retrieve settlement status for processed transactions.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Retrieve settlement status for processed transactions.
   name: Fiserv Settlement API
   slug: fiserv-settlement-api
-- description: Submit signature capture data for completed transactions.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Submit signature capture data for completed transactions.
   name: Fiserv Signature Capture API
   slug: fiserv-signature-capture-api
-- description: Retrieve account statements and statement transactions.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Retrieve account statements and statement transactions.
   name: Fiserv Statements API
   slug: fiserv-statements-api
-- description: Create, manage, and use payment tokens for secure storage of payment credentials.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Create, manage, and use payment tokens for secure storage of payment credentials.
   name: Fiserv Tokens API
   slug: fiserv-tokens-api
-- description: Retrieve and manage account transaction history and details.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Retrieve and manage account transaction history and details.
   name: Fiserv Transactions API
   slug: fiserv-transactions-api
-- description: Initiate and manage fund transfers between accounts.
+- baseURL: https://cert.api.fiservapps.com
+  baseurl_source: spec
+  description: Initiate and manage fund transfers between accounts.
   name: Fiserv Transfers API
   slug: fiserv-transfers-api
-- description: Verify payment cards or tokens before processing a transaction.
+- baseURL: https://connect-cert.fiservapis.com/ch
+  baseurl_source: spec
+  description: Verify payment cards or tokens before processing a transaction.
   name: Fiserv Verifications API
   slug: fiserv-verifications-api
-- description: Void previously authorized transactions before settlement.
+- baseURL_template: https://{site}-uat.cardconnect.com/cardconnect/rest
+  baseurl_source: spec_template
+  description: Void previously authorized transactions before settlement.
   name: Fiserv Void API
   slug: fiserv-void-api
 artifact_total: 73
@@ -379,7 +431,7 @@ score:
     catalog_gap: 68.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -389,7 +441,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -404,7 +456,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-08-17T083418.png
 security:

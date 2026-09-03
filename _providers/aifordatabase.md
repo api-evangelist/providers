@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,43 +37,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Send natural-language messages and receive AI-generated SQL and insights
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Send natural-language messages and receive AI-generated SQL and insights
   name: AI for Database Chat API
   slug: aifordatabase-chat-api
-- description: Manage database connections, schemas, annotations, and execute SQL queries
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Manage database connections, schemas, annotations, and execute SQL queries
   name: AI for Database Connections API
   slug: aifordatabase-connections-api
-- description: Manage chat conversation history
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Manage chat conversation history
   name: AI for Database Conversations API
   slug: aifordatabase-conversations-api
-- description: Create and manage dashboards and their widgets
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Create and manage dashboards and their widgets
   name: AI for Database Dashboards API
   slug: aifordatabase-dashboards-api
-- description: Manage platform API keys
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Manage platform API keys
   name: AI for Database Keys API
   slug: aifordatabase-keys-api
-- description: Define and evaluate metric formulas against connections
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Define and evaluate metric formulas against connections
   name: AI for Database Metrics API
   slug: aifordatabase-metrics-api
-- description: Submit queries for human approval before execution
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Submit queries for human approval before execution
   name: AI for Database Query Approval API
   slug: aifordatabase-query-approval-api
-- description: Store, parameterize, and execute reusable SQL queries
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Store, parameterize, and execute reusable SQL queries
   name: AI for Database Saved Queries API
   slug: aifordatabase-saved-queries-api
-- description: View usage records and budget information
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: View usage records and budget information
   name: AI for Database Usage API
   slug: aifordatabase-usage-api
-- description: Manage webhook endpoints, deliveries, and test events
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Manage webhook endpoints, deliveries, and test events
   name: AI for Database Webhooks API
   slug: aifordatabase-webhooks-api
-- description: Manage encrypted, destination-bound credentials for workflow actions
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Manage encrypted, destination-bound credentials for workflow actions
   name: AI for Database Workflow Credentials API
   slug: aifordatabase-workflow-credentials-api
-- description: Build and run scheduled or manual multi-step workflows
+- baseURL: https://app.aifordatabase.com/api/v1
+  baseurl_source: declared
+  description: Build and run scheduled or manual multi-step workflows
   name: AI for Database Workflows API
   slug: aifordatabase-workflows-api
 artifact_total: 19
@@ -178,23 +216,23 @@ rate_limits:
   slug: aifordatabase-rate-limits
 score:
   band: strong
-  composite: 57.9
+  composite: 58.8
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 4.5
-    contract_quality: 63.6
+    contract_quality: 67.0
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 58.1
+  previous_composite: 57.9
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +243,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/screenshots/aifordatabase-2026-09-02T144117.png
 security:
 - kind: authentication
   name: Aifordatabase Authentication

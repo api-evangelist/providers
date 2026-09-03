@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations on accounts
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on accounts
   name: Datto /v2/account API
   slug: datto-v2-account-api
-- description: Fetching RMM Activity Logs
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Fetching RMM Activity Logs
   name: Datto /v2/activity-logs API
   slug: datto-v2-activity-logs-api
-- description: Operations on alerts
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on alerts
   name: Datto /v2/alert API
   slug: datto-v2-alert-api
-- description: Operations on audit data
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on audit data
   name: Datto /v2/audit API
   slug: datto-v2-audit-api
-- description: Operations on devices
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on devices
   name: Datto /v2/device API
   slug: datto-v2-device-api
-- description: Operations on filters
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on filters
   name: Datto /v2/filter API
   slug: datto-v2-filter-api
-- description: Operations on jobs
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on jobs
   name: Datto /v2/job API
   slug: datto-v2-job-api
-- description: Operations on sites
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on sites
   name: Datto /v2/site API
   slug: datto-v2-site-api
-- description: RMM API System operations
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: RMM API System operations
   name: Datto /v2/system API
   slug: datto-v2-system-api
-- description: Operations on users
+- baseURL: https://concord-api.centrastage.net/api
+  baseurl_source: declared
+  description: Operations on users
   name: Datto /v2/user API
   slug: datto-v2-user-api
 artifact_total: 25
@@ -252,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:

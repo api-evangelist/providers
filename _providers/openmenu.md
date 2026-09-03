@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The OpenMenu Enhanced API is an enterprise tier powered by DishDNA machine learning, offering analysis_search, analysis, trends, heatmap, menu and menu_items taxonomy searches, and gap_analysis for co
   name: OpenMenu Enhanced API
   slug: enhanced-api
-- description: DishDNA machine-learning trends, heatmaps, and gap analysis (Enhanced tier).
+- baseURL: https://www.openmenu.com/api/v2/
+  baseurl_source: declared
+  description: DishDNA machine-learning trends, heatmaps, and gap analysis (Enhanced tier).
   name: OpenMenu Analytics API
   slug: openmenu-analytics-api
-- description: Coupons, specials, and daily deals for a restaurant.
+- baseURL: https://www.openmenu.com/api/v2/
+  baseurl_source: declared
+  description: Coupons, specials, and daily deals for a restaurant.
   name: OpenMenu Deals API
   slug: openmenu-deals-api
-- description: Ingredient database with nutrition labels, claims, and food groups.
+- baseURL: https://www.openmenu.com/api/v2/
+  baseurl_source: declared
+  description: Ingredient database with nutrition labels, claims, and food groups.
   name: OpenMenu Ingredients API
   slug: openmenu-ingredients-api
-- description: Full restaurant profiles and geographic listings.
+- baseURL: https://www.openmenu.com/api/v2/
+  baseurl_source: declared
+  description: Full restaurant profiles and geographic listings.
   name: OpenMenu Restaurants API
   slug: openmenu-restaurants-api
-- description: Find restaurants, menu items, and sample menus by location and term.
+- baseURL: https://www.openmenu.com/api/v2/
+  baseurl_source: declared
+  description: Find restaurants, menu items, and sample menus by location and term.
   name: OpenMenu Search API
   slug: openmenu-search-api
 artifact_total: 28
@@ -229,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/screenshots/openmenu-2026-06-20T191015.png
 security:

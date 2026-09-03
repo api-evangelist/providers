@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 114 operations · 74 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounts API from HookLogic (Criteo) — 12 operation(s) for accounts.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Accounts API from HookLogic (Criteo) — 12 operation(s) for accounts.
   name: HookLogic (Criteo) Accounts API
   slug: hooklogic-criteo-accounts-api
-- description: The Analytics API from HookLogic (Criteo) — 12 operation(s) for analytics.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Analytics API from HookLogic (Criteo) — 12 operation(s) for analytics.
   name: HookLogic (Criteo) Analytics API
   slug: hooklogic-criteo-analytics-api
-- description: The Audience API from HookLogic (Criteo) — 8 operation(s) for audience.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Audience API from HookLogic (Criteo) — 8 operation(s) for audience.
   name: HookLogic (Criteo) Audience API
   slug: hooklogic-criteo-audience-api
-- description: The Balance API from HookLogic (Criteo) — 6 operation(s) for balance.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Balance API from HookLogic (Criteo) — 6 operation(s) for balance.
   name: HookLogic (Criteo) Balance API
   slug: hooklogic-criteo-balance-api
-- description: The Billing API from HookLogic (Criteo) — 3 operation(s) for billing.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Billing API from HookLogic (Criteo) — 3 operation(s) for billing.
   name: HookLogic (Criteo) Billing API
   slug: hooklogic-criteo-billing-api
-- description: The Campaign API from HookLogic (Criteo) — 54 operation(s) for campaign.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Campaign API from HookLogic (Criteo) — 54 operation(s) for campaign.
   name: HookLogic (Criteo) Campaign API
   slug: hooklogic-criteo-campaign-api
-- description: The Catalog API from HookLogic (Criteo) — 2 operation(s) for catalog.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Catalog API from HookLogic (Criteo) — 2 operation(s) for catalog.
   name: HookLogic (Criteo) Catalog API
   slug: hooklogic-criteo-catalog-api
-- description: The Gateway API from HookLogic (Criteo) — 1 operation(s) for gateway.
+- baseURL: https://api.criteo.com
+  baseurl_source: declared
+  description: The Gateway API from HookLogic (Criteo) — 1 operation(s) for gateway.
   name: HookLogic (Criteo) Gateway API
   slug: hooklogic-criteo-gateway-api
 artifact_total: 26
@@ -329,7 +345,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:

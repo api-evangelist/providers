@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 17
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 31 operations · 17 acting · 17 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from Credilinq.ai — 1 operation(s) for authentication.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Authentication API from Credilinq.ai — 1 operation(s) for authentication.
   name: Credilinq.ai Authentication API
   slug: credilinqai-authentication-api
-- description: The Customers API from Credilinq.ai — 4 operation(s) for customers.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Customers API from Credilinq.ai — 4 operation(s) for customers.
   name: Credilinq.ai Customers API
   slug: credilinqai-customers-api
-- description: The KYC API from Credilinq.ai — 8 operation(s) for kyc.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The KYC API from Credilinq.ai — 8 operation(s) for kyc.
   name: Credilinq.ai KYC API
   slug: credilinqai-kyc-api
-- description: The Loans API from Credilinq.ai — 4 operation(s) for loans.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Loans API from Credilinq.ai — 4 operation(s) for loans.
   name: Credilinq.ai Loans API
   slug: credilinqai-loans-api
-- description: The Miscellaneous API from Credilinq.ai — 4 operation(s) for miscellaneous.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Miscellaneous API from Credilinq.ai — 4 operation(s) for miscellaneous.
   name: Credilinq.ai Miscellaneous API
   slug: credilinqai-miscellaneous-api
-- description: The Onboarding API from Credilinq.ai — 3 operation(s) for onboarding.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Onboarding API from Credilinq.ai — 3 operation(s) for onboarding.
   name: Credilinq.ai Onboarding API
   slug: credilinqai-onboarding-api
-- description: The Payment API from Credilinq.ai — 4 operation(s) for payment.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Payment API from Credilinq.ai — 4 operation(s) for payment.
   name: Credilinq.ai Payment API
   slug: credilinqai-payment-api
-- description: The Report API from Credilinq.ai — 3 operation(s) for report.
+- baseURL: https://api.credilinq.ai
+  baseurl_source: declared
+  description: The Report API from Credilinq.ai — 3 operation(s) for report.
   name: Credilinq.ai Report API
   slug: credilinqai-report-api
 arazzos:
@@ -263,7 +279,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -273,7 +289,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 43.8
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +307,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credilinqai/refs/heads/main/screenshots/credilinqai-2026-07-25T210714.png
 security:

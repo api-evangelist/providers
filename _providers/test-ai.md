@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: REST API behind opentestdata.org, test.ai's free and open database of automated test fixture data. 13 paths / 16 operations covering user signup and login, e-mail confirmation, avatars, admin promotio
+- baseURL: http://api.opentestdata.org
+  baseurl_source: declared
+  description: REST API behind opentestdata.org, test.ai's free and open database of automated test fixture data. 13 paths / 16 operations covering user signup and login, e-mail confirmation, avatars, admin promotio
   name: OpenTestData API
   slug: opentestdata-api
 - description: gRPC service that classifies UI element screenshots into semantic labels. A single RPC, ClassifyElements, takes a map of element id to PNG bytes plus a label hint, a confidence threshold and a weaker-
@@ -111,11 +125,11 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -125,7 +139,7 @@ score:
     discoverability: 59.3
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 26.6
+  previous_composite: 24.9
   provenance:
     conformance: derived
     contracts:
@@ -135,8 +149,9 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/test-ai/refs/heads/main/screenshots/test-ai-2026-09-02T163223.png
 security:
 - kind: authentication
   name: Test Ai Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -45,28 +45,44 @@ agentic_access:
   summary_line: 43 operations · 22 acting
 api_count: 1
 apis:
-- description: Warehouse and database sources Hightouch reads from.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Warehouse and database sources Hightouch reads from.
   name: Hightouch Sources API
   slug: hightouch-sources-api
-- description: Model definitions (SQL, table, dbt, visual) over a source.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Model definitions (SQL, table, dbt, visual) over a source.
   name: Hightouch Models API
   slug: hightouch-models-api
-- description: Destination connectors receiving synced data.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Destination connectors receiving synced data.
   name: Hightouch Destinations API
   slug: hightouch-destinations-api
-- description: Syncs, sync runs, sync sequences and their triggers.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Syncs, sync runs, sync sequences and their triggers.
   name: Hightouch Syncs API
   slug: hightouch-syncs-api
-- description: Trigger a campaign send to handle- or profile-based recipients and read back per-send status.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Trigger a campaign send to handle- or profile-based recipients and read back per-send status.
   name: Hightouch Campaigns API
   slug: hightouch-campaigns-api
-- description: Decision-engine flows, their message variants, guardrails and runs.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Decision-engine flows, their message variants, guardrails and runs.
   name: Hightouch AI Decisioning API
   slug: hightouch-ai-decisioning-api
-- description: First-party event governance — event contracts and event domains.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: First-party event governance — event contracts and event domains.
   name: Hightouch Events API
   slug: hightouch-events-api
-- description: Identity graph runs, reprocessing queues and run statistics.
+- baseURL: https://api.hightouch.com/api/v1
+  baseurl_source: declared
+  description: Identity graph runs, reprocessing queues and run statistics.
   name: Hightouch Identity Resolution API
   slug: hightouch-identity-resolution-api
 artifact_total: 25
@@ -311,7 +327,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -321,7 +337,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 67.8
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,7 +349,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hightouch/refs/heads/main/screenshots/hightouch-2026-06-20T182738.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 4
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 112 operations · 60 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The subpackage_account API from Resemble AI — 4 operation(s) for subpackage_account.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_account API from Resemble AI — 4 operation(s) for subpackage_account.
   name: Resemble AI subpackage_account API
   slug: resemble-ai-subpackage-account-api
-- description: The subpackage_agentKnowledgeBase API from Resemble AI — 5 operation(s) for subpackage_agentknowledgebase.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_agentKnowledgeBase API from Resemble AI — 5 operation(s) for subpackage_agentknowledgebase.
   name: Resemble AI subpackage_agentKnowledgeBase API
   slug: resemble-ai-subpackage-agentknowledgebase-api
-- description: The subpackage_agentPhoneNumbers API from Resemble AI — 3 operation(s) for subpackage_agentphonenumbers.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_agentPhoneNumbers API from Resemble AI — 3 operation(s) for subpackage_agentphonenumbers.
   name: Resemble AI subpackage_agentPhoneNumbers API
   slug: resemble-ai-subpackage-agentphonenumbers-api
-- description: The subpackage_agents API from Resemble AI — 5 operation(s) for subpackage_agents.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_agents API from Resemble AI — 5 operation(s) for subpackage_agents.
   name: Resemble AI subpackage_agents API
   slug: resemble-ai-subpackage-agents-api
-- description: The subpackage_agentTools API from Resemble AI — 2 operation(s) for subpackage_agenttools.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_agentTools API from Resemble AI — 2 operation(s) for subpackage_agenttools.
   name: Resemble AI subpackage_agentTools API
   slug: resemble-ai-subpackage-agenttools-api
-- description: The subpackage_agentWebhooks API from Resemble AI — 2 operation(s) for subpackage_agentwebhooks.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_agentWebhooks API from Resemble AI — 2 operation(s) for subpackage_agentwebhooks.
   name: Resemble AI subpackage_agentWebhooks API
   slug: resemble-ai-subpackage-agentwebhooks-api
-- description: The subpackage_audioEdit API from Resemble AI — 2 operation(s) for subpackage_audioedit.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_audioEdit API from Resemble AI — 2 operation(s) for subpackage_audioedit.
   name: Resemble AI subpackage_audioEdit API
   slug: resemble-ai-subpackage-audioedit-api
-- description: The subpackage_audioEnhancement API from Resemble AI — 2 operation(s) for subpackage_audioenhancement.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_audioEnhancement API from Resemble AI — 2 operation(s) for subpackage_audioenhancement.
   name: Resemble AI subpackage_audioEnhancement API
   slug: resemble-ai-subpackage-audioenhancement-api
-- description: The subpackage_audioSourceTracing API from Resemble AI — 2 operation(s) for subpackage_audiosourcetracing.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_audioSourceTracing API from Resemble AI — 2 operation(s) for subpackage_audiosourcetracing.
   name: Resemble AI subpackage_audioSourceTracing API
   slug: resemble-ai-subpackage-audiosourcetracing-api
-- description: The subpackage_clips API from Resemble AI — 2 operation(s) for subpackage_clips.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_clips API from Resemble AI — 2 operation(s) for subpackage_clips.
   name: Resemble AI subpackage_clips API
   slug: resemble-ai-subpackage-clips-api
-- description: The subpackage_customPronunciations API from Resemble AI — 3 operation(s) for subpackage_custompronunciations.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_customPronunciations API from Resemble AI — 3 operation(s) for subpackage_custompronunciations.
   name: Resemble AI subpackage_customPronunciations API
   slug: resemble-ai-subpackage-custompronunciations-api
-- description: The subpackage_deepfakeDetection API from Resemble AI — 4 operation(s) for subpackage_deepfakedetection.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_deepfakeDetection API from Resemble AI — 4 operation(s) for subpackage_deepfakedetection.
   name: Resemble AI subpackage_deepfakeDetection API
   slug: resemble-ai-subpackage-deepfakedetection-api
-- description: The subpackage_detectIntelligence API from Resemble AI — 2 operation(s) for subpackage_detectintelligence.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_detectIntelligence API from Resemble AI — 2 operation(s) for subpackage_detectintelligence.
   name: Resemble AI subpackage_detectIntelligence API
   slug: resemble-ai-subpackage-detectintelligence-api
-- description: The subpackage_duets API from Resemble AI — 4 operation(s) for subpackage_duets.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_duets API from Resemble AI — 4 operation(s) for subpackage_duets.
   name: Resemble AI subpackage_duets API
   slug: resemble-ai-subpackage-duets-api
-- description: The subpackage_identity API from Resemble AI — 2 operation(s) for subpackage_identity.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_identity API from Resemble AI — 2 operation(s) for subpackage_identity.
   name: Resemble AI subpackage_identity API
   slug: resemble-ai-subpackage-identity-api
-- description: The subpackage_intelligence API from Resemble AI — 3 operation(s) for subpackage_intelligence.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_intelligence API from Resemble AI — 3 operation(s) for subpackage_intelligence.
   name: Resemble AI subpackage_intelligence API
   slug: resemble-ai-subpackage-intelligence-api
-- description: The subpackage_projects API from Resemble AI — 2 operation(s) for subpackage_projects.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_projects API from Resemble AI — 2 operation(s) for subpackage_projects.
   name: Resemble AI subpackage_projects API
   slug: resemble-ai-subpackage-projects-api
-- description: The subpackage_recordings API from Resemble AI — 2 operation(s) for subpackage_recordings.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_recordings API from Resemble AI — 2 operation(s) for subpackage_recordings.
   name: Resemble AI subpackage_recordings API
   slug: resemble-ai-subpackage-recordings-api
-- description: The subpackage_secureUploads API from Resemble AI — 1 operation(s) for subpackage_secureuploads.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_secureUploads API from Resemble AI — 1 operation(s) for subpackage_secureuploads.
   name: Resemble AI subpackage_secureUploads API
   slug: resemble-ai-subpackage-secureuploads-api
-- description: The subpackage_speechToText API from Resemble AI — 5 operation(s) for subpackage_speechtotext.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_speechToText API from Resemble AI — 5 operation(s) for subpackage_speechtotext.
   name: Resemble AI subpackage_speechToText API
   slug: resemble-ai-subpackage-speechtotext-api
-- description: The subpackage_termSubstitutions API from Resemble AI — 2 operation(s) for subpackage_termsubstitutions.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_termSubstitutions API from Resemble AI — 2 operation(s) for subpackage_termsubstitutions.
   name: Resemble AI subpackage_termSubstitutions API
   slug: resemble-ai-subpackage-termsubstitutions-api
-- description: The subpackage_textToSpeech API from Resemble AI — 2 operation(s) for subpackage_texttospeech.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_textToSpeech API from Resemble AI — 2 operation(s) for subpackage_texttospeech.
   name: Resemble AI subpackage_textToSpeech API
   slug: resemble-ai-subpackage-texttospeech-api
-- description: The subpackage_voiceDesign API from Resemble AI — 2 operation(s) for subpackage_voicedesign.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_voiceDesign API from Resemble AI — 2 operation(s) for subpackage_voicedesign.
   name: Resemble AI subpackage_voiceDesign API
   slug: resemble-ai-subpackage-voicedesign-api
-- description: The subpackage_voices API from Resemble AI — 3 operation(s) for subpackage_voices.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_voices API from Resemble AI — 3 operation(s) for subpackage_voices.
   name: Resemble AI subpackage_voices API
   slug: resemble-ai-subpackage-voices-api
-- description: The subpackage_voiceSettingsPresets API from Resemble AI — 2 operation(s) for subpackage_voicesettingspresets.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_voiceSettingsPresets API from Resemble AI — 2 operation(s) for subpackage_voicesettingspresets.
   name: Resemble AI subpackage_voiceSettingsPresets API
   slug: resemble-ai-subpackage-voicesettingspresets-api
-- description: The subpackage_watermark API from Resemble AI — 4 operation(s) for subpackage_watermark.
+- baseURL: https://api.resemble.ai
+  baseurl_source: declared
+  description: The subpackage_watermark API from Resemble AI — 4 operation(s) for subpackage_watermark.
   name: Resemble AI subpackage_watermark API
   slug: resemble-ai-subpackage-watermark-api
 artifact_total: 61
@@ -313,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resemble-ai/refs/heads/main/screenshots/resemble-ai-2026-06-20T192934.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The News API from NewTqnia | Technology News, AI and Innovation — 2 operation(s) for news.
+- baseURL: https://api.newtqnia.com
+  baseurl_source: declared
+  description: The News API from NewTqnia | Technology News, AI and Innovation — 2 operation(s) for news.
   name: NewTqnia | Technology News, AI and Innovation News API
   slug: newtqnia-news-api
 artifact_total: 10
@@ -175,11 +191,11 @@ score:
   band: developing
   composite: 53.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -189,7 +205,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 53.9
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     contracts:
@@ -200,8 +216,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/screenshots/newtqnia-2026-09-02T150744.png
 security:
 - kind: authentication
   name: Newtqnia Authentication

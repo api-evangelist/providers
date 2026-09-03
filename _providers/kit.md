@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The legacy ConvertKit V3 API is deprecated and slated for discontinuation; new integrations should target V4.
   name: Kit API V3 (Deprecated)
   slug: kit-api-v3
-- description: Account, creator profile, and account-level statistics
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: Account, creator profile, and account-level statistics
   name: Kit Account API
   slug: kit-account-api
-- description: One-off email broadcasts
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: One-off email broadcasts
   name: Kit Broadcasts API
   slug: kit-broadcasts-api
-- description: Subscriber records and lifecycle
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: Subscriber records and lifecycle
   name: Kit Subscribers API
   slug: kit-subscribers-api
 artifact_total: 20
@@ -195,7 +201,7 @@ score:
     catalog_gap: 71.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -205,7 +211,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +226,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/screenshots/kit-2026-06-20T184050.png
 security:

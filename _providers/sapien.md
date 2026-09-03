@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Datapoints API from Sapien — 1 operation(s) for datapoints.
+- baseURL: https://sapien-poq.up.railway.app/developer/v1
+  baseurl_source: declared
+  description: The Datapoints API from Sapien — 1 operation(s) for datapoints.
   name: Sapien Datapoints API
   slug: sapien-datapoints-api
-- description: The Projects API from Sapien — 2 operation(s) for projects.
+- baseURL: https://sapien-poq.up.railway.app/developer/v1
+  baseurl_source: declared
+  description: The Projects API from Sapien — 2 operation(s) for projects.
   name: Sapien Projects API
   slug: sapien-projects-api
-- description: The System API from Sapien — 1 operation(s) for system.
+- baseURL: https://sapien-poq.up.railway.app/developer/v1
+  baseurl_source: declared
+  description: The System API from Sapien — 1 operation(s) for system.
   name: Sapien System API
   slug: sapien-system-api
-- description: The Upload Sessions API from Sapien — 6 operation(s) for upload sessions.
+- baseURL: https://sapien-poq.up.railway.app/developer/v1
+  baseurl_source: declared
+  description: The Upload Sessions API from Sapien — 6 operation(s) for upload sessions.
   name: Sapien Upload Sessions API
   slug: sapien-upload-sessions-api
-- description: The Validators API from Sapien — 9 operation(s) for validators.
+- baseURL: https://sapien-poq.up.railway.app/developer/v1
+  baseurl_source: declared
+  description: The Validators API from Sapien — 9 operation(s) for validators.
   name: Sapien Validators API
   slug: sapien-validators-api
 artifact_total: 15
@@ -192,7 +202,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +228,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sapien/refs/heads/main/screenshots/sapien-2026-09-02T154409.png
 security:
 - kind: authentication
   name: Sapien Authentication

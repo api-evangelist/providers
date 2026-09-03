@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: News article retrieval and search
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: News article retrieval and search
   name: TheNewsAPI news API
   slug: thenewsapi-news-api
-- description: News source discovery
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: News source discovery
   name: TheNewsAPI sources API
   slug: thenewsapi-sources-api
 artifact_total: 18
@@ -180,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/screenshots/thenewsapi-2026-06-20T195250.png
 security:

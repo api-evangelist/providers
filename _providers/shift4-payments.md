@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -50,58 +50,94 @@ apis:
 - description: The Shift4 JavaScript library provides secure, customizable HTML/CSS components for building on-page payment forms and multi-step checkout pages.
   name: Shift4 JavaScript Library
   slug: shift4-js
-- description: Manage blacklist rules for fraud prevention.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Manage blacklist rules for fraud prevention.
   name: Shift4 Payments Blacklist API
   slug: shift4-payments-blacklist-api
-- description: Manage saved cards on customer records.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Manage saved cards on customer records.
   name: Shift4 Payments Cards API
   slug: shift4-payments-cards-api
-- description: Create, retrieve, update, capture, and list charges.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create, retrieve, update, capture, and list charges.
   name: Shift4 Payments Charges API
   slug: shift4-payments-charges-api
-- description: Create hosted checkout sessions for drop-in payment acceptance.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create hosted checkout sessions for drop-in payment acceptance.
   name: Shift4 Payments Checkout Sessions API
   slug: shift4-payments-checkout-sessions-api
-- description: Send funds (credits) to recipients.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Send funds (credits) to recipients.
   name: Shift4 Payments Credits API
   slug: shift4-payments-credits-api
-- description: Create, retrieve, update, delete, and list customers.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create, retrieve, update, delete, and list customers.
   name: Shift4 Payments Customers API
   slug: shift4-payments-customers-api
-- description: Retrieve and respond to chargeback disputes.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Retrieve and respond to chargeback disputes.
   name: Shift4 Payments Disputes API
   slug: shift4-payments-disputes-api
-- description: Retrieve event records that drive webhooks.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Retrieve event records that drive webhooks.
   name: Shift4 Payments Events API
   slug: shift4-payments-events-api
-- description: Upload files such as dispute evidence.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Upload files such as dispute evidence.
   name: Shift4 Payments File Uploads API
   slug: shift4-payments-file-uploads-api
-- description: Retrieve early-warning fraud notifications.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Retrieve early-warning fraud notifications.
   name: Shift4 Payments Fraud Warnings API
   slug: shift4-payments-fraud-warnings-api
-- description: Create and retrieve hosted payment links.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create and retrieve hosted payment links.
   name: Shift4 Payments Payment Links API
   slug: shift4-payments-payment-links-api
-- description: Create and retrieve alternative payment methods (Apple Pay, Google Pay, 3D Secure, etc.).
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create and retrieve alternative payment methods (Apple Pay, Google Pay, 3D Secure, etc.).
   name: Shift4 Payments Payment Methods API
   slug: shift4-payments-payment-methods-api
-- description: Retrieve scheduled and historical payouts to bank accounts.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Retrieve scheduled and historical payouts to bank accounts.
   name: Shift4 Payments Payouts API
   slug: shift4-payments-payouts-api
-- description: Define recurring billing plans used by subscriptions.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Define recurring billing plans used by subscriptions.
   name: Shift4 Payments Plans API
   slug: shift4-payments-plans-api
-- description: Refund charges and manage refund records.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Refund charges and manage refund records.
   name: Shift4 Payments Refunds API
   slug: shift4-payments-refunds-api
-- description: Create and manage recurring subscriptions for customers.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Create and manage recurring subscriptions for customers.
   name: Shift4 Payments Subscriptions API
   slug: shift4-payments-subscriptions-api
-- description: Tokenize card data for safe transmission.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Tokenize card data for safe transmission.
   name: Shift4 Payments Tokens API
   slug: shift4-payments-tokens-api
-- description: Register and manage webhook endpoints.
+- baseURL: https://api.shift4.com
+  baseurl_source: declared
+  description: Register and manage webhook endpoints.
   name: Shift4 Payments Webhook Endpoints API
   slug: shift4-payments-webhook-endpoints-api
 artifact_total: 68
@@ -367,7 +403,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png
 security:

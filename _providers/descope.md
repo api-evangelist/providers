@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 375
   human_in_the_loop: 8
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 459 operations · 375 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The Apps API from Descope — 4 operation(s) for apps.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Apps API from Descope — 4 operation(s) for apps.
   name: Descope Apps API
   slug: descope-apps-api
-- description: The Auth API from Descope — 52 operation(s) for auth.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Auth API from Descope — 52 operation(s) for auth.
   name: Descope Auth API
   slug: descope-auth-api
-- description: The Custom Attributes API from Descope — 3 operation(s) for custom attributes.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Custom Attributes API from Descope — 3 operation(s) for custom attributes.
   name: Descope Custom Attributes API
   slug: descope-custom-attributes-api
-- description: The Default API from Descope — 10 operation(s) for default.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Default API from Descope — 10 operation(s) for default.
   name: Descope Default API
   slug: descope-default-api
-- description: The Email API from Descope — 10 operation(s) for email.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Email API from Descope — 10 operation(s) for email.
   name: Descope Email API
   slug: descope-email-api
-- description: The Embedded Link API from Descope — 1 operation(s) for embedded link.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Embedded Link API from Descope — 1 operation(s) for embedded link.
   name: Descope Embedded Link API
   slug: descope-embedded-link-api
-- description: The Fedcm API from Descope — 2 operation(s) for fedcm.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Fedcm API from Descope — 2 operation(s) for fedcm.
   name: Descope Fedcm API
   slug: descope-fedcm-api
-- description: The Instant Message (IM) API from Descope — 5 operation(s) for instant message (im).
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Instant Message (IM) API from Descope — 5 operation(s) for instant message (im).
   name: Descope Instant Message (IM) API
   slug: descope-instant-message-im-api
-- description: The Keys API from Descope — 2 operation(s) for keys.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Keys API from Descope — 2 operation(s) for keys.
   name: Descope Keys API
   slug: descope-keys-api
-- description: The Mgmt API from Descope — 276 operation(s) for mgmt.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Mgmt API from Descope — 276 operation(s) for mgmt.
   name: Descope Mgmt API
   slug: descope-mgmt-api
-- description: The Oauth2 API from Descope — 30 operation(s) for oauth2.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Oauth2 API from Descope — 30 operation(s) for oauth2.
   name: Descope Oauth2 API
   slug: descope-oauth2-api
-- description: The Scim API from Descope — 6 operation(s) for scim.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Scim API from Descope — 6 operation(s) for scim.
   name: Descope Scim API
   slug: descope-scim-api
-- description: The Text Message (SMS) API from Descope — 9 operation(s) for text message (sms).
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Text Message (SMS) API from Descope — 9 operation(s) for text message (sms).
   name: Descope Text Message (SMS) API
   slug: descope-text-message-sms-api
-- description: The Verification API from Descope — 1 operation(s) for verification.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Verification API from Descope — 1 operation(s) for verification.
   name: Descope Verification API
   slug: descope-verification-api
-- description: The Voice Message (Phone) API from Descope — 5 operation(s) for voice message (phone).
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The Voice Message (Phone) API from Descope — 5 operation(s) for voice message (phone).
   name: Descope Voice Message (Phone) API
   slug: descope-voice-message-phone-api
-- description: The .well Known API from Descope — 6 operation(s) for .well known.
+- baseURL: https://api.descope.com
+  baseurl_source: declared
+  description: The .well Known API from Descope — 6 operation(s) for .well known.
   name: Descope .well Known API
   slug: descope-well-known-api
 artifact_total: 83
@@ -477,7 +509,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/screenshots/descope-2026-06-20T175937.png
 security:

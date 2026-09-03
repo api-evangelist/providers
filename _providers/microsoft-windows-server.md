@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -89,13 +89,19 @@ apis:
 - description: Network Policy Server providing centralized RADIUS authentication, authorization, and accounting for wireless, VPN, and dial-up connections.
   name: Network Policy Server (NPS) RADIUS API
   slug: network-policy-server-nps-radius-api
-- description: Application pools provide an isolation mechanism for processes on the web server. There are many different settings available to fine-tune the behavior of the worker processes used to serve requests t
+- baseURL: https://localhost
+  baseurl_source: declared
+  description: Application pools provide an isolation mechanism for processes on the web server. There are many different settings available to fine-tune the behavior of the worker processes used to serve requests t
   name: Microsoft Windows Server Application Pools API
   slug: microsoft-windows-server-application-pools-api
-- description: Applications provide a method to differentiate sections of a web site. An application belongs to a single web site and will handle requests for the web site at the application path.
+- baseURL: https://localhost
+  baseurl_source: declared
+  description: Applications provide a method to differentiate sections of a web site. An application belongs to a single web site and will handle requests for the web site at the application path.
   name: Microsoft Windows Server Applications API
   slug: microsoft-windows-server-applications-api
-- description: Web sites are a core entity of IIS that determine where and how requests will be handled. The web site API allows consumers to create, read, delete, or update their web sites.
+- baseURL: https://localhost
+  baseurl_source: declared
+  description: Web sites are a core entity of IIS that determine where and how requests will be handled. The web site API allows consumers to create, read, delete, or update their web sites.
   name: Microsoft Windows Server Web Sites API
   slug: microsoft-windows-server-web-sites-api
 artifact_total: 171
@@ -664,7 +670,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:

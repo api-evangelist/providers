@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: First-party Westpac payment API (beyond CDR). PayWay is Westpac's merchant payment platform; its public REST API v1 processes real-time credit-card and bank-account payments, refunds, pre-authorisatio
@@ -42,25 +42,39 @@ apis:
 - description: First-party Westpac payment API (beyond CDR). QuickStream is Westpac's online payment gateway; its public REST API v1 exposes Transactions, Customers, Accounts, Credit Cards, Recurring Payments, PayID
   name: Westpac QuickStream REST API
   slug: westpac-quickstream-rest-api
-- description: Banking Account Balance endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Westpac Banking Corporation Banking Account Balances API
   slug: westpac-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Westpac Banking Corporation Banking Account Direct Debits API
   slug: westpac-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Westpac Banking Corporation Banking Account Scheduled Payments API
   slug: westpac-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Westpac Banking Corporation Banking Account Transactions API
   slug: westpac-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Westpac Banking Corporation Banking Accounts API
   slug: westpac-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Westpac Banking Corporation Banking Payees API
   slug: westpac-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://digital-api.westpac.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
 artifact_total: 21
@@ -254,7 +268,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/screenshots/westpac-2026-07-21T114757.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: OpenAI-compatible chat completions with structured output.
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions with structured output.
   name: dottxt Chat API
   slug: dottxt-chat-api
-- description: Models available to your API key.
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: Models available to your API key.
   name: dottxt Models API
   slug: dottxt-models-api
 artifact_total: 9
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/screenshots/dottxt-2026-07-25T212322.png
 security:

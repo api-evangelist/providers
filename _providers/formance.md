@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 95 operations · 46 acting
 api_count: 1
 apis:
-- description: OAuth2 / OIDC authorization server, clients, and users.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: OAuth2 / OIDC authorization server, clients, and users.
   name: Formance Auth API
   slug: formance-auth-api
-- description: Programmable double-entry ledger (v2).
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Programmable double-entry ledger (v2).
   name: Formance Ledger API
   slug: formance-ledger-api
-- description: Flows workflows, instances, and triggers (v2).
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Flows workflows, instances, and triggers (v2).
   name: Formance Orchestration API
   slug: formance-orchestration-api
-- description: Unified payments connectivity, connectors, and transfers.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Unified payments connectivity, connectors, and transfers.
   name: Formance Payments API
   slug: formance-payments-api
-- description: Reconciliation policies and runs.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Reconciliation policies and runs.
   name: Formance Reconciliation API
   slug: formance-reconciliation-api
-- description: Cross-module search.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Cross-module search.
   name: Formance Search API
   slug: formance-search-api
-- description: White-label wallets, balances, and holds.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: White-label wallets, balances, and holds.
   name: Formance Wallets API
   slug: formance-wallets-api
-- description: Webhook subscription configuration.
+- baseURL: https://{organization}.{environment}.formance.cloud/api/ledger
+  baseurl_source: declared
+  description: Webhook subscription configuration.
   name: Formance Webhooks API
   slug: formance-webhooks-api
 artifact_total: 26
@@ -216,7 +232,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formance/refs/heads/main/screenshots/formance-2026-07-25T214946.png
 security:

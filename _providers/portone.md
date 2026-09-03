@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 34
@@ -47,61 +47,99 @@ apis:
 - description: Legacy V1 (Iamport) REST API on api.iamport.kr — token-authenticated (POST /users/getToken with imp_key/imp_secret) payment lookup, cancellation, non-authenticated and scheduled payments, virtual acco
   name: PortOne REST API (V1, legacy Iamport)
   slug: portone-rest-api-v1
-- description: The B2b API from PortOne — 26 operation(s) for b2b.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The B2b API from PortOne — 26 operation(s) for b2b.
   name: PortOne B2b API
   slug: portone-b2b-api
-- description: The Banks API from PortOne — 1 operation(s) for banks.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Banks API from PortOne — 1 operation(s) for banks.
   name: PortOne Banks API
   slug: portone-banks-api
-- description: The Billing Keys API from PortOne — 4 operation(s) for billing keys.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Billing Keys API from PortOne — 4 operation(s) for billing keys.
   name: PortOne Billing Keys API
   slug: portone-billing-keys-api
-- description: The Cash Receipts API from PortOne — 1 operation(s) for cash receipts.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Cash Receipts API from PortOne — 1 operation(s) for cash receipts.
   name: PortOne Cash Receipts API
   slug: portone-cash-receipts-api
-- description: The Checkout Profiles API from PortOne — 1 operation(s) for checkout profiles.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Checkout Profiles API from PortOne — 1 operation(s) for checkout profiles.
   name: PortOne Checkout Profiles API
   slug: portone-checkout-profiles-api
-- description: The Identity Verifications API from PortOne — 5 operation(s) for identity verifications.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Identity Verifications API from PortOne — 5 operation(s) for identity verifications.
   name: PortOne Identity Verifications API
   slug: portone-identity-verifications-api
-- description: The Kakaopay API from PortOne — 1 operation(s) for kakaopay.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Kakaopay API from PortOne — 1 operation(s) for kakaopay.
   name: PortOne Kakaopay API
   slug: portone-kakaopay-api
-- description: The Login API from PortOne — 1 operation(s) for login.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Login API from PortOne — 1 operation(s) for login.
   name: PortOne Login API
   slug: portone-login-api
-- description: The Payment Events By Cursor API from PortOne — 1 operation(s) for payment events by cursor.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payment Events By Cursor API from PortOne — 1 operation(s) for payment events by cursor.
   name: PortOne Payment Events By Cursor API
   slug: portone-payment-events-by-cursor-api
-- description: The Payment Gateways API from PortOne — 1 operation(s) for payment gateways.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payment Gateways API from PortOne — 1 operation(s) for payment gateways.
   name: PortOne Payment Gateways API
   slug: portone-payment-gateways-api
-- description: The Payment Reconciliations API from PortOne — 2 operation(s) for payment reconciliations.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payment Reconciliations API from PortOne — 2 operation(s) for payment reconciliations.
   name: PortOne Payment Reconciliations API
   slug: portone-payment-reconciliations-api
-- description: The Payment Schedules API from PortOne — 2 operation(s) for payment schedules.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payment Schedules API from PortOne — 2 operation(s) for payment schedules.
   name: PortOne Payment Schedules API
   slug: portone-payment-schedules-api
-- description: The Payment Sessions API from PortOne — 3 operation(s) for payment sessions.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payment Sessions API from PortOne — 3 operation(s) for payment sessions.
   name: PortOne Payment Sessions API
   slug: portone-payment-sessions-api
-- description: The Payments API from PortOne — 18 operation(s) for payments.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payments API from PortOne — 18 operation(s) for payments.
   name: PortOne Payments API
   slug: portone-payments-api
-- description: The Payments By Cursor API from PortOne — 1 operation(s) for payments by cursor.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Payments By Cursor API from PortOne — 1 operation(s) for payments by cursor.
   name: PortOne Payments By Cursor API
   slug: portone-payments-by-cursor-api
-- description: The Paymentwall API from PortOne — 1 operation(s) for paymentwall.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Paymentwall API from PortOne — 1 operation(s) for paymentwall.
   name: PortOne Paymentwall API
   slug: portone-paymentwall-api
-- description: The Platform API from PortOne — 44 operation(s) for platform.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Platform API from PortOne — 44 operation(s) for platform.
   name: PortOne Platform API
   slug: portone-platform-api
-- description: The Promotions API from PortOne — 1 operation(s) for promotions.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Promotions API from PortOne — 1 operation(s) for promotions.
   name: PortOne Promotions API
   slug: portone-promotions-api
-- description: The Token API from PortOne — 1 operation(s) for token.
+- baseURL: https://api.portone.io
+  baseurl_source: declared
+  description: The Token API from PortOne — 1 operation(s) for token.
   name: PortOne Token API
   slug: portone-token-api
 artifact_total: 69
@@ -420,7 +458,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -430,7 +468,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 60.8
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -448,7 +486,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portone/refs/heads/main/screenshots/portone-2026-08-17T081325.png
 security:

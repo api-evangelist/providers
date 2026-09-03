@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -45,46 +45,74 @@ agentic_access:
   summary_line: 58 operations · 25 acting
 api_count: 1
 apis:
-- description: Access Control List management
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Access Control List management
   name: HashiCorp Consul ACL API
   slug: consul-acl-api
-- description: Interact with the local Consul agent
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Interact with the local Consul agent
   name: HashiCorp Consul Agent API
   slug: consul-agent-api
-- description: Register and query services and nodes
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Register and query services and nodes
   name: HashiCorp Consul Catalog API
   slug: consul-catalog-api
-- description: Centralized configuration entries
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Centralized configuration entries
   name: HashiCorp Consul Config Entries API
   slug: consul-config-entries-api
-- description: Service mesh / Connect CA and intentions
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Service mesh / Connect CA and intentions
   name: HashiCorp Consul Connect API
   slug: consul-connect-api
-- description: Network coordinate information
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Network coordinate information
   name: HashiCorp Consul Coordinates API
   slug: consul-coordinates-api
-- description: Fire and list custom user events
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Fire and list custom user events
   name: HashiCorp Consul Events API
   slug: consul-events-api
-- description: Query health check information
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Query health check information
   name: HashiCorp Consul Health API
   slug: consul-health-api
-- description: Key/Value store operations
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Key/Value store operations
   name: HashiCorp Consul KV Store API
   slug: consul-kv-store-api
-- description: Cluster operator endpoints
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Cluster operator endpoints
   name: HashiCorp Consul Operator API
   slug: consul-operator-api
-- description: Session management for distributed locking
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Session management for distributed locking
   name: HashiCorp Consul Sessions API
   slug: consul-sessions-api
-- description: Snapshot and restore operations
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Snapshot and restore operations
   name: HashiCorp Consul Snapshot API
   slug: consul-snapshot-api
-- description: Cluster status information
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Cluster status information
   name: HashiCorp Consul Status API
   slug: consul-status-api
-- description: Atomic key/value transactions
+- baseURL: http://localhost:8500/v1
+  baseurl_source: declared
+  description: Atomic key/value transactions
   name: HashiCorp Consul Transaction API
   slug: consul-transaction-api
 artifact_total: 41
@@ -324,7 +352,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consul/refs/heads/main/screenshots/consul-2026-06-20T174916.png
 security:

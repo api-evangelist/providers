@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 59 operations · 12 acting
 api_count: 2
 apis:
-- description: Album metadata, tagging, and search.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Album metadata, tagging, and search.
   name: Last.fm Album API
   slug: lastfm-album-api
-- description: Artist metadata, similarity, tagging, top albums/tracks, and search.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Artist metadata, similarity, tagging, top albums/tracks, and search.
   name: Last.fm Artist API
   slug: lastfm-artist-api
-- description: Token, session, and mobile session acquisition for authenticated calls.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Token, session, and mobile session acquisition for authenticated calls.
   name: Last.fm Auth API
   slug: lastfm-auth-api
-- description: Global top artists, tags, and tracks.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Global top artists, tags, and tracks.
   name: Last.fm Chart API
   slug: lastfm-chart-api
-- description: Country-level top artists and tracks.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Country-level top artists and tracks.
   name: Last.fm Geo API
   slug: lastfm-geo-api
-- description: A user's scrobbled artist library.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: A user's scrobbled artist library.
   name: Last.fm Library API
   slug: lastfm-library-api
-- description: Tag metadata, similar tags, top albums/artists/tracks, and chart history.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Tag metadata, similar tags, top albums/artists/tracks, and chart history.
   name: Last.fm Tag API
   slug: lastfm-tag-api
-- description: Track metadata, scrobbling, love/unlove, tagging, search.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: Track metadata, scrobbling, love/unlove, tagging, search.
   name: Last.fm Track API
   slug: lastfm-track-api
-- description: User profile, friends, listening history, top entities, and weekly charts.
+- baseURL: https://ws.audioscrobbler.com/2.0
+  baseurl_source: declared
+  description: User profile, friends, listening history, top entities, and weekly charts.
   name: Last.fm User API
   slug: lastfm-user-api
 arazzos:
@@ -523,7 +541,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/screenshots/lastfm-2026-06-20T184325.png
 security:

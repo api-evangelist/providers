@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 43 operations · 26 acting
 api_count: 7
 apis:
-- description: Item, item-price, and item-attribute management plus item-details search.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Item, item-price, and item-attribute management plus item-details search.
   name: NCR Catalog API
   slug: ncr-catalog-api
-- description: Catalog category-node hierarchy and group management.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Catalog category-node hierarchy and group management.
   name: NCR Category API
   slug: ncr-category-api
-- description: Order creation, lookup, update, and search.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Order creation, lookup, update, and search.
   name: NCR Order API
   slug: ncr-order-api
-- description: Platform user creation and user profile management.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Platform user creation and user profile management.
   name: NCR Provisioning API
   slug: ncr-provisioning-api
-- description: Authentication, authorization, and user password management.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Authentication, authorization, and user password management.
   name: NCR Security API
   slug: ncr-security-api
-- description: Selling Service shopping carts and cart line items.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Selling Service shopping carts and cart line items.
   name: NCR Selling API
   slug: ncr-selling-api
-- description: Site (location) provisioning, lookup, and geospatial search.
+- baseURL: https://api.ncr.com
+  baseurl_source: declared
+  description: Site (location) provisioning, lookup, and geospatial search.
   name: NCR Site API
   slug: ncr-site-api
 artifact_total: 116
@@ -567,7 +581,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png
 security:

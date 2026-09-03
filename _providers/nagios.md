@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: Daemon that runs Nagios plugins on a remote Linux/Unix host on TCP port 5666, returning the plugin's exit code and output to the Nagios server. Binary protocol, not REST.
   name: NRPE (Nagios Remote Plugin Executor)
   slug: nrpe
-- description: Admin-only endpoints to add, modify, and delete hosts and services.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Admin-only endpoints to add, modify, and delete hosts and services.
   name: Nagios Config API
   slug: nagios-config-api
-- description: System-wide CPU utilization and core counts.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: System-wide CPU utilization and core counts.
   name: Nagios CPU API
   slug: nagios-cpu-api
-- description: Logical, physical, and mount-point disk metrics.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Logical, physical, and mount-point disk metrics.
   name: Nagios Disk API
   slug: nagios-disk-api
-- description: Network interface byte and packet counters.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Network interface byte and packet counters.
   name: Nagios Interface API
   slug: nagios-interface-api
-- description: Physical memory and swap.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Physical memory and swap.
   name: Nagios Memory API
   slug: nagios-memory-api
-- description: Read-only backend for hosts, services, host groups, contacts, downtime, history, and other monitored objects.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Read-only backend for hosts, services, host groups, contacts, downtime, history, and other monitored objects.
   name: Nagios Objects API
   slug: nagios-objects-api
-- description: User-defined Nagios-style plugins executed by the agent.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: User-defined Nagios-style plugins executed by the agent.
   name: Nagios Plugins API
   slug: nagios-plugins-api
-- description: Running process inventory and resource use.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Running process inventory and resource use.
   name: Nagios Processes API
   slug: nagios-processes-api
-- description: Host service / daemon status.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Host service / daemon status.
   name: Nagios Services API
   slug: nagios-services-api
-- description: Submit passive check results and external commands.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Submit passive check results and external commands.
   name: Nagios Submission API
   slug: nagios-submission-api
-- description: Admin-only endpoints to manage Nagios XI subsystems, apply configuration, schedule downtime, and execute commands.
+- baseURL: https://{nagios-xi-host}/nagiosxi/api/v1
+  baseurl_source: declared
+  description: Admin-only endpoints to manage Nagios XI subsystems, apply configuration, schedule downtime, and execute commands.
   name: Nagios System API
   slug: nagios-system-api
 artifact_total: 49
@@ -382,7 +404,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:

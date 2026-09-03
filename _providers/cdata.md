@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,13 +68,19 @@ apis:
 - description: CData Connect Cloud exposes an OData v4 compatible API that allows any OData client to browse metadata and query data from any configured source, including Excel, Power BI, and other BI tools.
   name: CData OData API
   slug: odata-api
-- description: Catalog/metadata exploration
+- baseURL: https://cloud.cdata.com/api
+  baseurl_source: spec
+  description: Catalog/metadata exploration
   name: CData Metadata API
   slug: cdata-metadata-api
-- description: Execute stored procedures
+- baseURL: https://cloud.cdata.com/api
+  baseurl_source: spec
+  description: Execute stored procedures
   name: CData Procedures API
   slug: cdata-procedures-api
-- description: Execute SQL queries and batch operations
+- baseURL: https://cloud.cdata.com/api
+  baseurl_source: spec
+  description: Execute SQL queries and batch operations
   name: CData Query API
   slug: cdata-query-api
 artifact_total: 314
@@ -543,7 +549,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/screenshots/cdata-2026-06-20T174101.png
 security:

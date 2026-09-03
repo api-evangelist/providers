@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -33,73 +44,119 @@ agentic_access:
   summary_line: 30 operations · 24 acting
 api_count: 11
 apis:
-- description: Query all information for a set of accounts provided in the payload
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Query all information for a set of accounts provided in the payload
   name: BMO Account Information API
   slug: bmo-account-information-api
-- description: Search for account transactions
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Search for account transactions
   name: BMO Account Transactions API
   slug: bmo-account-transactions-api
-- description: The AccountTransactionImages API from BMO — 3 operation(s) for accounttransactionimages.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The AccountTransactionImages API from BMO — 3 operation(s) for accounttransactionimages.
   name: BMO Account Transaction Images API
   slug: bmo-accounttransactionimages-api
-- description: The AccountValidation API from BMO — 1 operation(s) for accountvalidation.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The AccountValidation API from BMO — 1 operation(s) for accountvalidation.
   name: BMO Account Validation API
   slug: bmo-accountvalidation-api
-- description: Receive payment inquiry request in CAMT.005 ISO from BMO Canada Partners/Customers and send payment status as response in PAIN.002 ISO.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Receive payment inquiry request in CAMT.005 ISO from BMO Canada Partners/Customers and send payment status as response in PAIN.002 ISO.
   name: BMO Get Payment Status API
   slug: bmo-getpaymentstatus-api
-- description: The Oauth20 API from BMO — 2 operation(s) for oauth20.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The Oauth20 API from BMO — 2 operation(s) for oauth20.
   name: BMO Oauth20 API
   slug: bmo-oauth20-api
-- description: Payment List which receives CAMT.005 ISO request as input and return PAIN.002 ISO as response.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Payment List which receives CAMT.005 ISO request as input and return PAIN.002 ISO as response.
   name: BMO Obtain Payment Status API
   slug: bmo-obtain-payment-status-api
-- description: Service agreement search which receives CustomerEntityId (proprietary) as input and return CustomerAgreementInfoReport (proprietary) as response
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Service agreement search which receives CustomerEntityId (proprietary) as input and return CustomerAgreementInfoReport (proprietary) as response
   name: BMO Obtain Service Agreement List API
   slug: bmo-obtain-service-agreement-list-api
-- description: This is a tag for Payment Initiation - send Payments. receive PAIN001/PAIN008 (Debit/Credit) ISO request as input and return PAIN002 ISO as response after interacting with downstream Payment Rail Syst
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: This is a tag for Payment Initiation - send Payments. receive PAIN001/PAIN008 (Debit/Credit) ISO request as input and return PAIN002 ISO as response after interacting with downstream Payment Rail Syst
   name: BMO Payment Initiation API
   slug: bmo-paymentinitiation-api
-- description: This is a tag for PaymentStatus which enquiry sends CAMT005 ISO JSON Request standard messages and enquires and responds back with PAIN002 message structure after querying matching backend.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: This is a tag for PaymentStatus which enquiry sends CAMT005 ISO JSON Request standard messages and enquires and responds back with PAIN002 message structure after querying matching backend.
   name: BMO Payment Status API
   slug: bmo-paymentstatus-api
-- description: The PaymentStatusUpdate API from BMO — 1 operation(s) for paymentstatusupdate.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The PaymentStatusUpdate API from BMO — 1 operation(s) for paymentstatusupdate.
   name: BMO Payment Status Update API
   slug: bmo-paymentstatusupdate-api
-- description: The retrieveClientDataEncryptionKey API from BMO — 1 operation(s) for retrieveclientdataencryptionkey.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The retrieveClientDataEncryptionKey API from BMO — 1 operation(s) for retrieveclientdataencryptionkey.
   name: BMO Retrieve Client Data Encryption Key API
   slug: bmo-retrieveclientdataencryptionkey-api
-- description: Payment credit initiation which receives PAIN.001 ISO request as input and return PAIN.002 ISO as response
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Payment credit initiation which receives PAIN.001 ISO request as input and return PAIN.002 ISO as response
   name: BMO Send Payment Credit API
   slug: bmo-send-payment-credit-api
-- description: Payment credit initiation which receives PAIN.008 ISO request as input and return PAIN.002 ISO as response
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Payment credit initiation which receives PAIN.008 ISO request as input and return PAIN.002 ISO as response
   name: BMO Send Payment Debit API
   slug: bmo-send-payment-debit-api
-- description: Receive Fedwire Drawdown request in PAIN.013 ISO from BMO Bank NA Partners/Customers to initiate payment request and send acknowledgement as response in PAIN.014 ISO.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Receive Fedwire Drawdown request in PAIN.013 ISO from BMO Bank NA Partners/Customers to initiate payment request and send acknowledgement as response in PAIN.014 ISO.
   name: BMO Send Fedwire Drawdown Payment API
   slug: bmo-sendfedwiredrawdownpayment-api
-- description: Receive wire payment request in PAIN.001 ISO from BMO Canada partners/customers to initiate wire payment and send acknowledgement as response in PAIN.002 ISO.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Receive wire payment request in PAIN.001 ISO from BMO Canada partners/customers to initiate wire payment and send acknowledgement as response in PAIN.002 ISO.
   name: BMO Send Payment API
   slug: bmo-sendpayment-api
-- description: Request for Payment initiation
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Request for Payment initiation
   name: BMO TPP EMT Creditor Payment Activation Request API
   slug: bmo-tpp-emtcreditorpaymentactivationrequest-api
-- description: Cancel Payment
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Cancel Payment
   name: BMO TPP EMT Customer Cancel Transfer Initiation API
   slug: bmo-tpp-emtcustomercanceltransferinitiation-api
-- description: Send Payment
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Send Payment
   name: BMO TPP EMT Customer Credit Transfer Initiation API
   slug: bmo-tpp-emtcustomercredittransferinitiation-api
-- description: Request for Payment Status Enquiry
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Request for Payment Status Enquiry
   name: BMO TPP EMT Get Request For Payment Transaction API
   slug: bmo-tpp-emtgetrequestforpaymenttransaction-api
-- description: Payment Status Enquiry
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Payment Status Enquiry
   name: BMO TPP EMT Get Transaction API
   slug: bmo-tpp-emtgettransaction-api
-- description: Retrieve payment options
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: Retrieve payment options
   name: BMO TPP EMT Recipient Payment Options API
   slug: bmo-tpp-emtrecipientpaymentoptions-api
-- description: The TppACHArrangementCompany API from BMO — 1 operation(s) for tppacharrangementcompany.
+- baseURL: https://sandbox-open-api.bmo.com/open-banking/commercial-sb
+  baseurl_source: declared
+  description: The TppACHArrangementCompany API from BMO — 1 operation(s) for tppacharrangementcompany.
   name: BMO Tpp ACH Arrangement Company API
   slug: bmo-tppacharrangementcompany-api
 artifact_total: 39
@@ -261,23 +318,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
+  composite: 44.7
   coverage:
     artifact_dirs: 19
-    catalog_gap: 83.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 63.3
     developer_ergonomics: 54.2
-    discoverability: 66.7
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,7 +351,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

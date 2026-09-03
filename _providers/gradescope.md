@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
+- baseURL: https://www.gradescope.com
+  baseurl_source: declared
+  description: Gradescope's primary supported integration surface. Implements the 1EdTech LTI 1.3 / LTI Advantage standard, including Names and Role Provisioning Services (NRPS) for roster sync, Assignment and Grade
   name: Gradescope LTI Integration
   slug: gradescope-lti-api
-- description: 'Course and roster data. Gradescope does not expose a generally available public REST endpoint for listing or managing courses; course roster provisioning happens through LTI 1.3 NRPS during LMS sync. '
+- baseURL: https://www.gradescope.com
+  baseurl_source: declared
+  description: 'Course and roster data. Gradescope does not expose a generally available public REST endpoint for listing or managing courses; course roster provisioning happens through LTI 1.3 NRPS during LMS sync. '
   name: Gradescope Courses API
   slug: gradescope-courses-api
-- description: Assignment configuration and the autograder framework for code assignments. The documented programmatic contract is a Docker-based autograder that reads student submissions and emits a results.json fi
+- baseURL: https://www.gradescope.com
+  baseurl_source: declared
+  description: Assignment configuration and the autograder framework for code assignments. The documented programmatic contract is a Docker-based autograder that reads student submissions and emits a results.json fi
   name: Gradescope Assignments API
   slug: gradescope-assignments-api
-- description: Submission handling. Code submissions are processed inside the autograder container, where the submission is mounted and graded according to the autograder specification. Gradescope does not publish a
+- baseURL: https://www.gradescope.com
+  baseurl_source: declared
+  description: Submission handling. Code submissions are processed inside the autograder container, where the submission is mounted and graded according to the autograder specification. Gradescope does not publish a
   name: Gradescope Submissions API
   slug: gradescope-submissions-api
-- description: Grade data and gradebook sync. Grades are pushed to an LMS gradebook through LTI 1.3 Assignment and Grade Services (AGS) rather than a first-party public REST API. Programmatic export/import of grades
+- baseURL: https://www.gradescope.com
+  baseurl_source: declared
+  description: Grade data and gradebook sync. Grades are pushed to an LMS gradebook through LTI 1.3 Assignment and Grade Services (AGS) rather than a first-party public REST API. Programmatic export/import of grades
   name: Gradescope Grades API
   slug: gradescope-grades-api
 artifact_total: 11
@@ -143,7 +153,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradescope/refs/heads/main/screenshots/gradescope-2026-07-25T220156.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 1
 apis:
-- description: The Accounts API from BNY Mellon — 2 operation(s) for accounts.
+- baseURL: https://api.bnymellon.com/treasury/v4
+  baseurl_source: declared
+  description: The Accounts API from BNY Mellon — 2 operation(s) for accounts.
   name: BNY Mellon Accounts API
   slug: bank-of-new-york-mellon-accounts-api
-- description: The Balances API from BNY Mellon — 1 operation(s) for balances.
+- baseURL: https://api.bnymellon.com/treasury/v4
+  baseurl_source: declared
+  description: The Balances API from BNY Mellon — 1 operation(s) for balances.
   name: BNY Mellon Balances API
   slug: bank-of-new-york-mellon-balances-api
-- description: The Funds Transfers API from BNY Mellon — 2 operation(s) for funds transfers.
+- baseURL: https://api.bnymellon.com/treasury/v4
+  baseurl_source: declared
+  description: The Funds Transfers API from BNY Mellon — 2 operation(s) for funds transfers.
   name: BNY Mellon Funds Transfers API
   slug: bank-of-new-york-mellon-funds-transfers-api
-- description: The Payments API from BNY Mellon — 2 operation(s) for payments.
+- baseURL: https://api.bnymellon.com/treasury/v4
+  baseurl_source: declared
+  description: The Payments API from BNY Mellon — 2 operation(s) for payments.
   name: BNY Mellon Payments API
   slug: bank-of-new-york-mellon-payments-api
-- description: The Transactions API from BNY Mellon — 1 operation(s) for transactions.
+- baseURL: https://api.bnymellon.com/treasury/v4
+  baseurl_source: declared
+  description: The Transactions API from BNY Mellon — 1 operation(s) for transactions.
   name: BNY Mellon Transactions API
   slug: bank-of-new-york-mellon-transactions-api
 artifact_total: 80
@@ -398,7 +408,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:

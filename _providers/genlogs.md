@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 28 operations · 17 acting
 api_count: 1
 apis:
-- description: The Alerts API from GenLogs — 2 operation(s) for alerts.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Alerts API from GenLogs — 2 operation(s) for alerts.
   name: GenLogs Alerts API
   slug: genlogs-alerts-api
-- description: Access-token creation and refresh
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: Access-token creation and refresh
   name: GenLogs auth API
   slug: genlogs-auth-api
-- description: The Carrier API from GenLogs — 3 operation(s) for carrier.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Carrier API from GenLogs — 3 operation(s) for carrier.
   name: GenLogs Carrier API
   slug: genlogs-carrier-api
-- description: Carrier verification and vetting rules
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: Carrier verification and vetting rules
   name: GenLogs carrier-vetting API
   slug: genlogs-carrier-vetting-api
-- description: The Compliance Rules API from GenLogs — 3 operation(s) for compliance rules.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Compliance Rules API from GenLogs — 3 operation(s) for compliance rules.
   name: GenLogs Compliance Rules API
   slug: genlogs-compliance-rules-api
-- description: The Facilities API from GenLogs — 2 operation(s) for facilities.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Facilities API from GenLogs — 2 operation(s) for facilities.
   name: GenLogs Facilities API
   slug: genlogs-facilities-api
-- description: The Mismatch alerts API from GenLogs — 2 operation(s) for mismatch alerts.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Mismatch alerts API from GenLogs — 2 operation(s) for mismatch alerts.
   name: GenLogs Mismatch alerts API
   slug: genlogs-mismatch-alerts-api
-- description: The Onboarded Carriers API from GenLogs — 3 operation(s) for onboarded carriers.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Onboarded Carriers API from GenLogs — 3 operation(s) for onboarded carriers.
   name: GenLogs Onboarded Carriers API
   slug: genlogs-onboarded-carriers-api
-- description: The Shipper API from GenLogs — 1 operation(s) for shipper.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Shipper API from GenLogs — 1 operation(s) for shipper.
   name: GenLogs Shipper API
   slug: genlogs-shipper-api
-- description: The Webhook Alerts API from GenLogs — 3 operation(s) for webhook alerts.
+- baseURL: https://api.genlogs.io
+  baseurl_source: declared
+  description: The Webhook Alerts API from GenLogs — 3 operation(s) for webhook alerts.
   name: GenLogs Webhook Alerts API
   slug: genlogs-webhook-alerts-api
 artifact_total: 28
@@ -228,7 +248,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -238,7 +258,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +276,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genlogs/refs/heads/main/screenshots/genlogs-2026-07-25T215622.png
 security:

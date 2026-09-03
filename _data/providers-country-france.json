@@ -1,6 +1,6 @@
 {
- "total": 143,
- "shown": 143,
+ "total": 145,
+ "shown": 145,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "orange-business",
      "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as \"an operator, integrator, and platform player\" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-     "score": 67.7,
+     "score": 68.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
       "discoverability": 66.7,
-      "contract_quality": 64.2,
+      "contract_quality": 67.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 78.9,
@@ -29,7 +29,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -71,8 +71,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Memo Bank",
@@ -92,7 +92,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -146,6 +146,57 @@
      "rank": 2
     },
     {
+     "name": "La Poste Groupe",
+     "slug": "la-poste-groupe",
+     "description": "La Poste Groupe is the French state-owned postal, parcel, banking and digital services group. Its public API programme runs on Okapi, the group's own API management platform, published at developer.laposte.fr: nine APIs covering shipment tracking across mail, Colissimo and Chronopost (Suivi v2), address validation and normalisation (ControlAdresse v2), forward and reverse geocoding, the Digiposte certified digital-safe partner API, online registered mail (Lettre recommandee en ligne), driving-licence exam booking (Code de la route) and an Open Data gateway over data.laposte.fr. Colissimo, the group's parcel arm, additionally publishes SOAP contracts for label generation and pickup-point lookup at ws.colissimo.fr, and GeoPost/DPDgroup sits inside the same group. Access is metered by subscription plans with published quotas and prices, and calls are authenticated with an X-Okapi-Key header against the api.laposte.fr gateway.",
+     "score": 65.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 53.2,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 85.1,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 75.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Pennylane",
      "slug": "pennylane",
      "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
@@ -163,7 +214,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -202,27 +253,27 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "JuriSign",
      "slug": "jurisign",
-     "description": "eIDAS-compliant electronic signature API built, operated and hosted in France by PCFRANCE. The 46-operation REST contract covers PDF upload with multi-file merge, multi-signer signature requests with email or SMS OTP verification, pixel-placed signature zones, reusable templates, bulk campaigns, shareable public self-signing forms, pay-at-signature collection through Stripe Connect, HMAC-signed webhooks across twelve events, and download of both the signed PDF and its SHA-256 chained audit proof. Signature level is Simple Electronic Signature (SES) under eIDAS Regulation (EU) 910/2014; the provider states in its own GDPR Article 28 annex that it is not a qualified trust service provider and issues neither advanced nor qualified signatures. Bearer tokens carry one of five restrictable scopes, an Idempotency-Key makes the billable write safely repeatable, and a free sandbox needs no credit card. All data stays in the European Union.",
+     "description": "eIDAS electronic signature API developed in France by PCFrance and hosted in Europe. JuriSign issues Simple Electronic Signatures (SES) under eIDAS Regulation (EU) No 910/2014 only -- not advanced (AdES) and not qualified (QES). The 46-operation REST contract covers PDF upload with multi-file merge, multi-signer signature requests with email or SMS OTP verification, pixel-placed signature zones, reusable templates, bulk campaigns, shareable public self-signing forms, pay-at-signature collection through Stripe Connect, HMAC-signed webhooks across twelve events, and download of both the signed PDF and its SHA-256 chained audit proof. Signature level is Simple Electronic Signature (SES) under eIDAS Regulation (EU) 910/2014; the provider states in its own GDPR Article 28 annex that it is not a qualified trust service provider and issues neither advanced nor qualified signatures. Bearer tokens carry one of five restrictable scopes, an Idempotency-Key makes the billable write safely repeatable, and a free sandbox needs no credit card. All data stays in the European Union.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/screenshots/jurisign-2026-09-02T150005.png",
-     "score": 62.2,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 68.5,
+      "contract_quality": 71.8,
       "governance": 18.2,
-      "contract_governance": 18.2,
       "operational_transparency": 50.0,
       "developer_ergonomics": 63.7,
       "commercial_clarity": 84.2,
+      "contract_governance": 18.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
@@ -247,7 +298,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Lengow",
@@ -267,7 +318,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -292,7 +343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Malt",
@@ -312,7 +363,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -344,7 +395,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "ETSI",
@@ -364,7 +415,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -396,7 +447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Lifen",
@@ -416,7 +467,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -455,7 +506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     }
    ],
    "open": true
@@ -486,7 +537,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -518,7 +569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Qobuz",
@@ -538,7 +589,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
@@ -563,18 +614,19 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Splio",
      "slug": "splio",
      "description": "Splio is a Paris-headquartered customer marketing platform for retail, e-commerce, restaurant and travel brands, combining a Customer Data Platform, omnichannel marketing automation (email, SMS, WhatsApp, push), loyalty and rewards programs, mobile wallet cards and Tinyclues-derived predictive AI targeting into one \"Splio Customer Platform\". Brands integrate it through a JWT-authenticated REST API on api.splio.com covering contacts, custom fields, blacklists, orders, abandoned carts, products, stores, targeting groups and filters, loyalty members, points, tiers, programs and reward grant/burn, plus separate Messaging, Campaign, Content and Interactions APIs, a Datahub SFTP/CSV import path, and packaged connectors for Shopify, Magento, PrestaShop, Meta/Google/TikTok/Snapchat Ads, Criteo, Zendesk, OneSignal and Make.",
-     "score": 51.0,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png",
+     "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 52.7,
+      "contract_quality": 53.4,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
@@ -582,7 +634,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -621,7 +673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Quandela",
@@ -641,7 +693,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
@@ -666,7 +718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Allo-Media",
@@ -686,7 +738,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
@@ -711,7 +763,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Defacto",
@@ -731,7 +783,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -774,7 +826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Riot",
@@ -794,7 +846,7 @@
       "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -819,7 +871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Lokki",
@@ -839,7 +891,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -864,7 +916,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Kelvin",
@@ -884,7 +936,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -916,58 +968,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
-    },
-    {
-     "name": "Coorpacademy",
-     "slug": "coorpacademy",
-     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
-     "score": 44.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 57.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 55.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 18
     },
     {
@@ -988,7 +988,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -1033,7 +1033,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 47.2,
      "agent_band": "agent-ready",
@@ -1061,6 +1061,58 @@
      "rank": 20
     },
     {
+     "name": "Coorpacademy",
+     "slug": "coorpacademy",
+     "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
+     "score": 42.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 57.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 55.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
      "name": "Probabl",
      "slug": "probabl",
      "description": "Probabl (styled \":probabl.\") is the French, Inria-spun-out company behind scikit-learn — \"the Tabular AI company by the creators of scikit-learn\" — founded in 2023 to develop, maintain and commercially sustain the open-source Python data-science stack (scikit-learn, skrub, skore). Its commercial product is Skore: an open-source Python library (`skore`) that turns model training into structured, auditable artifacts — estimator reports, cross-validation reports, comparison reports, data and metric diagnostics — plus Skore Hub, a hosted collaboration platform where teams push, compare and track those artifacts across workspaces and projects. Skore Hub exposes a public REST API (Skore Hub, OpenAPI 3.1.0, 67 operations) covering identity/OAuth, workspaces, members and API keys, projects, estimator/cross-validation/comparison reports, artifacts, project goals, and OpenAI/Anthropic-compatible agent endpoints. Probabl also publishes a first-party Agent Skills package (probabl-skills, BSD-3-Clause) of 14 data-science skills for coding agents such as Claude Code and Cursor, a `skore` CLI, training via Skolar, and the Scikit-learn Central ecosystem explorer.",
@@ -1078,7 +1130,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -1103,7 +1155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     }
    ]
   },
@@ -1133,7 +1185,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1165,7 +1217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "SantéVet",
@@ -1185,7 +1237,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Santé Académie",
@@ -1237,7 +1289,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1269,7 +1321,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Electra",
@@ -1289,7 +1341,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1321,7 +1373,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "École des Ponts ParisTech",
@@ -1341,7 +1393,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1373,7 +1425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "DESKi",
@@ -1393,7 +1445,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1425,12 +1477,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Underdog",
      "slug": "underdog",
      "description": "Underdog (legal entity Older is Better, RCS Nantes 918 609 629) is a French direct-to-consumer retailer of professionally refurbished large home appliances and televisions — washing machines, fridges, dishwashers, tumble dryers, ovens, cookers, freezers, wine cabinets, TVs and Thermomix — reconditioned in France and sold at up to 50% below new with a two-year warranty, delivery, installation and old-appliance takeback. It is a circular-economy / climate-tech company backed by Serena. Underdog has no developer programme and publishes no OpenAPI, but its storefront runs on Shopify and it exposes a genuine, live agent-commerce surface on its own domain: an /llms.txt and /agents.md agent instruction document, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, two anonymously-listable remote MCP endpoints (a 13-tool UCP commerce server and a 1-tool storefront policy server), an introspectable Shopify Storefront GraphQL API, RFC 8414 / RFC 9728 OAuth metadata, and read-only product and collection JSON endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/underdog/refs/heads/main/screenshots/underdog-2026-09-02T164849.png",
      "score": 31.0,
      "band": "thin",
      "band_label": "Thin",
@@ -1444,7 +1497,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
@@ -1469,12 +1522,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Swan",
      "slug": "swan-io",
      "description": "Swan is a European embedded-banking / Banking-as-a-Service (BaaS) platform, headquartered in France, that lets companies embed accounts, IBANs, cards, and SEPA payments into their own products. Swan holds an Electronic Money Institution (EMI) license and exposes a single GraphQL API covering accounts, account holders, account memberships, IBAN management, card issuing, transactions, SEPA credit transfers and direct debits, digital onboarding, users, and consents. Integrations are backend-only, authenticated with OAuth2 (client credentials for server-to-server and authorization code for user access tokens) and scoped to a partner Project, with separate Sandbox and Live environments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/screenshots/swan-io-2026-09-02T161336.png",
      "score": 30.7,
      "band": "thin",
      "band_label": "Thin",
@@ -1488,7 +1542,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1520,7 +1574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Sorbonne University",
@@ -1540,7 +1594,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1572,7 +1626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Revyze",
@@ -1592,7 +1646,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1624,7 +1678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "École Normale Supérieure de Lyon",
@@ -1644,7 +1698,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1676,7 +1730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Goodvest",
@@ -1696,7 +1750,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1728,7 +1782,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Devialet",
@@ -1748,7 +1802,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -1773,7 +1827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     }
    ]
   },
@@ -1782,8 +1836,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 54,
-   "shown": 54,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "Implicity",
@@ -1803,7 +1857,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1846,7 +1900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Second (scnd)",
@@ -1866,7 +1920,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1905,7 +1959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Bitstack",
@@ -1925,7 +1979,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1964,7 +2018,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "La Ruche qui dit Oui!",
@@ -1983,7 +2037,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -2008,7 +2062,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Lucky Cart",
@@ -2028,7 +2082,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2053,7 +2107,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "École Normale Supérieure de Paris",
@@ -2073,7 +2127,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2105,7 +2159,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Accenta",
@@ -2125,7 +2179,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2164,7 +2218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Casavo",
@@ -2184,7 +2238,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2209,7 +2263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Joy (ex-Privateaser)",
@@ -2229,7 +2283,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -2254,7 +2308,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Lassie",
@@ -2274,7 +2328,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2306,7 +2360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "SideCare",
@@ -2326,7 +2380,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2358,7 +2412,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Habiteo",
@@ -2378,7 +2432,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -2403,7 +2457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Poppins",
@@ -2423,7 +2477,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2455,7 +2509,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Klarys",
@@ -2475,7 +2529,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -2500,7 +2554,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Kleio",
@@ -2520,7 +2574,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -2545,7 +2599,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Pasqal",
@@ -2565,7 +2619,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2590,7 +2644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Sequans",
@@ -2610,7 +2664,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2642,7 +2696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "helios",
@@ -2662,7 +2716,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2701,7 +2755,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "AramisAuto",
@@ -2721,7 +2775,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -2746,7 +2800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 54
     },
     {
      "name": "CoachClub",
@@ -2766,7 +2820,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2798,7 +2852,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Intego",
@@ -2818,7 +2872,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2843,7 +2897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 56
     },
     {
      "name": "Quantilia",
@@ -2863,7 +2917,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2888,7 +2942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 57
     },
     {
      "name": "Melty",
@@ -2908,7 +2962,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2933,7 +2987,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Pretto",
@@ -2953,7 +3007,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2985,7 +3039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 59
     },
     {
      "name": "Montpellier Open Data",
@@ -3005,7 +3059,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3037,12 +3091,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
     },
     {
      "name": "Yampa",
      "slug": "yampa",
      "description": "Yampa is a Paris-based B2B platform for deploying and operating fleets of autonomous AI agents that handle customer service end-to-end across voice, chat, email, ticketing, and messaging channels. Its Y.core orchestration platform provides a visual workflow builder, guardrails, a knowledge layer, multichannel orchestration, QA and auditing tools, and observability, with connectors to CRMs, helpdesks, and telephony systems (Salesforce, Zendesk, Intercom, Twilio, Genesys, and others). Founded in 2024 by Marin Huet, Baptiste Saintot, and Patrice Mazoyer, Yampa raised a ~EUR 3M seed led by Partech and emphasizes sovereign EU-hosted infrastructure with GDPR and SOC 2 aligned security. Developer documentation at docs.yampa.ai is gated behind an access code; the public status page lists an API component alongside chat, email, calls, and console services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yampa/refs/heads/main/screenshots/yampa-2026-09-02T171219.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3056,7 +3111,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3081,7 +3136,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 61
+    },
+    {
+     "name": "Veesion",
+     "slug": "veesion",
+     "description": "Veesion is a French computer-vision company that sells AI-powered shoplifting detection to retailers. Its gesture-recognition models run against a store's existing CCTV cameras — either on a compact on-site server or through a serverless integration — and analyse body movement and concealment behaviour rather than faces, so no biometric identification is performed. When a pattern associated with theft is recognised, the store team receives a short video alert in a mobile app for review. Founded in 2018 and headquartered in Bordeaux, France (Veesion SAS, RCS Nanterre 838 664 274), the company operates across supermarkets, hypermarkets, pharmacies and independent retail stores in more than 25 countries, and raised a EUR 38M Series B to expand its AI-powered loss-prevention platform. Veesion is sold as an end-user product through a direct and partner sales motion; it publishes no public developer program, API reference, SDK or machine-readable contract.",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 62
     },
     {
      "name": "Lalilo",
@@ -3101,7 +3200,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3133,7 +3232,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 63
     },
     {
      "name": "HostnFly",
@@ -3153,7 +3252,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3178,7 +3277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 64
     },
     {
      "name": "Acheel",
@@ -3198,7 +3297,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3237,7 +3336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 65
     },
     {
      "name": "Evaneos",
@@ -3257,7 +3356,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3282,7 +3381,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Metrobloks",
@@ -3302,7 +3401,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3327,7 +3426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 67
     },
     {
      "name": "Graneet",
@@ -3347,7 +3446,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3372,7 +3471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 68
     },
     {
      "name": "Faks",
@@ -3392,7 +3491,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3424,7 +3523,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 69
     },
     {
      "name": "May",
@@ -3444,7 +3543,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3483,12 +3582,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 70
     },
     {
      "name": "Wecasa",
      "slug": "wecasa",
      "description": "Wecasa is a French on-demand home-services marketplace that connects households with vetted independent professionals who deliver the service at the customer's home. Its catalogue spans household cleaning and ironing, childcare and babysitting, mobile hairdressing, at-home beauty and nail care, massage and wellness, and personal fitness coaching. Customers book, schedule and pay through the Wecasa web site or the iOS/Android app; the professionals who fulfil the work run their business through the separate Wecasa Pro app. Founded in France and backed by Serena, the company operates in France, the United Kingdom, Germany, Austria and Switzerland. Wecasa publishes no public developer program, API reference or machine-readable contract — the platform is a consumer application and a partner-onboarding funnel, not a developer product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecasa/refs/heads/main/screenshots/wecasa-2026-09-02T170541.png",
      "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3502,7 +3602,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3527,7 +3627,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 71
     },
     {
      "name": "MONI (Ex-Monisnap)",
@@ -3547,7 +3647,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3586,12 +3686,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 72
     },
     {
      "name": "Sumeria",
      "slug": "sumeria",
      "description": "Sumeria is a French fintech and mobile-first banking service created by Lydia Solutions in 2024 as a consumer spinoff of the Lydia payment app. It offers free online banking accounts with automatic expense categorization, thematic sub-accounts for budgeting and savings, virtual and physical debit cards with no foreign-exchange fees, an interest-bearing balance, and an AI assistant named Sia for account management and financial guidance. Sumeria is a business-to-consumer banking product; it publishes no public developer API, developer portal, or API documentation at this time, so this API Evangelist profile captures its company identity and domain-security posture rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumeria/refs/heads/main/screenshots/sumeria-2026-09-02T161117.png",
      "score": 13.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3605,7 +3706,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3637,7 +3738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 73
     },
     {
      "name": "DoorFeed",
@@ -3657,7 +3758,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3682,7 +3783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 74
     },
     {
      "name": "La Fraise Pro",
@@ -3701,7 +3802,7 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3733,7 +3834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 75
     },
     {
      "name": "Luko",
@@ -3753,7 +3854,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3785,7 +3886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Prixtel",
@@ -3805,7 +3906,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3837,7 +3938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 77
     },
     {
      "name": "Papernest",
@@ -3857,7 +3958,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3889,7 +3990,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 78
     },
     {
      "name": "Flease",
@@ -3909,7 +4010,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3934,7 +4035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 79
     },
     {
      "name": "Regular Finance",
@@ -3954,97 +4055,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Cheerz",
-     "slug": "cheerz",
-     "description": "Cheerz is a French direct-to-consumer photo-printing brand. Customers pick photos from their phone camera roll or a connected cloud gallery in the Cheerz iOS/Android app or on cheerz.com, and Cheerz prints and ships the result as photo prints, fridge magnets, photo books and albums, wall canvases, framed prints and posters, calendars including advent calendars, puzzles, greeting and invitation cards, and the branded Cheerz Box and Memory Box gift formats. Founded in Paris in 2012 under the legal entity Printklub, backed by Serena Capital and Iron Capital, and acquired by the German photo-finishing group CEWE Stiftung & Co. KGaA in February 2018 for roughly EUR 45 million; it continues to operate as CEWE's Paris site. Cheerz publishes no public API, developer portal, SDK or machine-readable contract of any kind — it is an end-user retail product, and partnership, bulk-order and affiliate enquiries are handled by a human contact channel rather than a developer programme.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheerz/refs/heads/main/screenshots/cheerz-2026-09-02T145034.png",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 79
-    },
-    {
-     "name": "Epsor",
-     "slug": "epsor",
-     "description": "Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/screenshots/epsor-2026-07-25T213527.png",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4072,44 +4083,44 @@
      "rank": 80
     },
     {
-     "name": "Dejbox (Refectory)",
-     "slug": "dejbox",
-     "description": "Dejbox is a French corporate-catering company founded in Lille in 2015 by Adrien Verhack and Vincent Dupied, acquired by the Carrefour Group in January 2020 and since rebranded as Refectory (refectory.fr). It delivers prepared, seasonal meals to employees of companies located in the peripheral zones of major French cities via a digital canteen (click-and-collect precommande before 10:30) and connected self-service fridges, controlling 100% of its value chain through its own Manufactures and a national network of 23 logistics hubs. Originally surfaced as a Partech portfolio company, it operates in Bordeaux, Grenoble, Lille, Lyon, Nantes, Paris and other French cities. Its consumer platform runs on a public OAuth2/OIDC identity server (customers.refectory.fr) and an API gateway (gateway.refectory.fr).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/screenshots/dejbox-2026-07-25T211637.png",
-     "score": 11.5,
+     "name": "Cheerz",
+     "slug": "cheerz",
+     "description": "Cheerz is a French direct-to-consumer photo-printing brand. Customers pick photos from their phone camera roll or a connected cloud gallery in the Cheerz iOS/Android app or on cheerz.com, and Cheerz prints and ships the result as photo prints, fridge magnets, photo books and albums, wall canvases, framed prints and posters, calendars including advent calendars, puzzles, greeting and invitation cards, and the branded Cheerz Box and Memory Box gift formats. Founded in Paris in 2012 under the legal entity Printklub, backed by Serena Capital and Iron Capital, and acquired by the German photo-finishing group CEWE Stiftung & Co. KGaA in February 2018 for roughly EUR 45 million; it continues to operate as CEWE's Paris site. Cheerz publishes no public API, developer portal, SDK or machine-readable contract of any kind — it is an end-user retail product, and partnership, bulk-order and affiliate enquiries are handled by a human contact channel rather than a developer programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheerz/refs/heads/main/screenshots/cheerz-2026-09-02T145034.png",
+     "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "served",
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -4117,11 +4128,11 @@
      "rank": 81
     },
     {
-     "name": "Kerys",
-     "slug": "kerys",
-     "description": "Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, YS::Desktop closes VM escape and cross-VM attack vectors while sustaining roughly 92% native performance. It replaces dedicated admin machines, air-gapped OT laptops, and traditional VDI for regulated organizations in aerospace and defense, energy, finance, construction, and the public sector, with a mandatory Security Domain model (no unmanaged VMs) administered through the YAC console. The company positions around NIS2, IEC 62443, and ANSSI multi-environment workstation guidance and sells 100% through resellers. Kerys does not publish a public developer API, developer portal, SDKs, or pricing; it was surfaced as a Seedcamp portfolio company and enriched here from its public site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kerys/refs/heads/main/screenshots/kerys-2026-07-25T223633.png",
-     "score": 11.4,
+     "name": "Epsor",
+     "slug": "epsor",
+     "description": "Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/screenshots/epsor-2026-07-25T213527.png",
+     "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4130,11 +4141,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4162,24 +4173,69 @@
      "rank": 82
     },
     {
-     "name": "Happypal",
-     "slug": "happypal",
-     "description": "Happypal (HappyPal) is a Paris-based HR-tech and fintech company, founded in 2019, that operates the most widely used digital platform for French works councils (Comite Social et Economique, or CSE). The SaaS and payment platform lets CSE administrators distribute employee benefits and perks, manage budgets and accounting, run ticketing and gift-voucher (cheques-cadeaux) programs, and engage more than 500,000 beneficiaries through a mobile app. Happypal replaces paper gift vouchers with a dematerialized SaaS-plus-fintech model targeting France's employee-benefits market. It is a portfolio company of Anthemis. Happypal does not currently publish a public developer portal, API reference, or SDKs; this profile captures its public web and identity surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happypal/refs/heads/main/screenshots/happypal-2026-07-25T220659.png",
-     "score": 11.3,
+     "name": "Dejbox (Refectory)",
+     "slug": "dejbox",
+     "description": "Dejbox is a French corporate-catering company founded in Lille in 2015 by Adrien Verhack and Vincent Dupied, acquired by the Carrefour Group in January 2020 and since rebranded as Refectory (refectory.fr). It delivers prepared, seasonal meals to employees of companies located in the peripheral zones of major French cities via a digital canteen (click-and-collect precommande before 10:30) and connected self-service fridges, controlling 100% of its value chain through its own Manufactures and a national network of 23 logistics hubs. Originally surfaced as a Partech portfolio company, it operates in Bordeaux, Grenoble, Lille, Lyon, Nantes, Paris and other French cities. Its consumer platform runs on a public OAuth2/OIDC identity server (customers.refectory.fr) and an API gateway (gateway.refectory.fr).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dejbox/refs/heads/main/screenshots/dejbox-2026-07-25T211637.png",
+     "score": 11.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 83
+    },
+    {
+     "name": "Kerys",
+     "slug": "kerys",
+     "description": "Kerys Software is a European (Palaiseau, France) cybersecurity company behind YS::Desktop, a Type 1 hypervisor that runs multiple fully isolated environments on a single workstation. By preallocating dedicated CPU cores to the hypervisor versus VM workloads and adding hypervisor-level encryption, YS::Desktop closes VM escape and cross-VM attack vectors while sustaining roughly 92% native performance. It replaces dedicated admin machines, air-gapped OT laptops, and traditional VDI for regulated organizations in aerospace and defense, energy, finance, construction, and the public sector, with a mandatory Security Domain model (no unmanaged VMs) administered through the YAC console. The company positions around NIS2, IEC 62443, and ANSSI multi-environment workstation guidance and sells 100% through resellers. Kerys does not publish a public developer API, developer portal, SDKs, or pricing; it was surfaced as a Seedcamp portfolio company and enriched here from its public site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kerys/refs/heads/main/screenshots/kerys-2026-07-25T223633.png",
+     "score": 11.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4204,7 +4260,52 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 84
+    },
+    {
+     "name": "Happypal",
+     "slug": "happypal",
+     "description": "Happypal (HappyPal) is a Paris-based HR-tech and fintech company, founded in 2019, that operates the most widely used digital platform for French works councils (Comite Social et Economique, or CSE). The SaaS and payment platform lets CSE administrators distribute employee benefits and perks, manage budgets and accounting, run ticketing and gift-voucher (cheques-cadeaux) programs, and engage more than 500,000 beneficiaries through a mobile app. Happypal replaces paper gift vouchers with a dematerialized SaaS-plus-fintech model targeting France's employee-benefits market. It is a portfolio company of Anthemis. Happypal does not currently publish a public developer portal, API reference, or SDKs; this profile captures its public web and identity surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/happypal/refs/heads/main/screenshots/happypal-2026-07-25T220659.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 85
     },
     {
      "name": "La Solive",
@@ -4224,7 +4325,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4256,7 +4357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 86
     },
     {
      "name": "Dalma",
@@ -4276,104 +4377,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 85
-    },
-    {
-     "name": "Matera",
-     "slug": "matera",
-     "description": "Matera is a French proptech company providing a digital platform for condominium management (syndic de copropriété), rental property management (gestion locative), and real estate transactions. Founded in Paris, Matera lets co-owners self-manage their buildings with software backed by 200+ in-house accountants, lawyers, and works experts, plus embedded services such as building insurance, legal protection, and a Treezor-powered payment account. It serves 150,000+ co-owners across France and is a certified B Corporation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/matera/refs/heads/main/screenshots/matera-2026-07-25T230355.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 86
-    },
-    {
-     "name": "Orus",
-     "slug": "orus",
-     "description": "Orus is a French online insurance broker (\"l'assurance professionnelle en ligne\") offering professional-liability and business insurance to independent professionals and small businesses across France. Products include RC Pro (professional liability), Multirisque Professionnelle, Assurance Décennale (ten-year construction liability), Assurance Bureau (office insurance), Mutuelle Santé TNS (self-employed health), and Prévoyance TNS (income protection), serving sectors from consultants and construction to hospitality, retail, and wellness. Backed by Partech and Speedinvest, Orus operates a self-service quote-and-buy app (app.orus.eu) but publishes no public developer API, SDK, or integration surface at this time. This profile was added to the API Evangelist network as a portfolio lead and enriched via public web and domain probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orus/refs/heads/main/screenshots/orus-2026-08-07T190958.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4408,10 +4412,55 @@
      "rank": 87
     },
     {
-     "name": "Plus Simple",
-     "slug": "plus-simple",
-     "description": "+Simple (Plus Simple) is a French digital insurance underwriting agency (agence de souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's largest wholesale insurance brokers, it runs a fully digital extranet platform that lets partner insurance brokers prospect, price, underwrite, issue, and manage professional insurance contracts across more than 1,200 covered activities and 30+ niche product lines, including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a 100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and insured portals are authenticated web applications, not open APIs).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plus-simple/refs/heads/main/screenshots/plus-simple-2026-09-02T151546.png",
+     "name": "Matera",
+     "slug": "matera",
+     "description": "Matera is a French proptech company providing a digital platform for condominium management (syndic de copropriété), rental property management (gestion locative), and real estate transactions. Founded in Paris, Matera lets co-owners self-manage their buildings with software backed by 200+ in-house accountants, lawyers, and works experts, plus embedded services such as building insurance, legal protection, and a Treezor-powered payment account. It serves 150,000+ co-owners across France and is a certified B Corporation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/matera/refs/heads/main/screenshots/matera-2026-07-25T230355.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
+    },
+    {
+     "name": "Orus",
+     "slug": "orus",
+     "description": "Orus is a French online insurance broker (\"l'assurance professionnelle en ligne\") offering professional-liability and business insurance to independent professionals and small businesses across France. Products include RC Pro (professional liability), Multirisque Professionnelle, Assurance Décennale (ten-year construction liability), Assurance Bureau (office insurance), Mutuelle Santé TNS (self-employed health), and Prévoyance TNS (income protection), serving sectors from consultants and construction to hospitality, retail, and wellness. Backed by Partech and Speedinvest, Orus operates a self-service quote-and-buy app (app.orus.eu) but publishes no public developer API, SDK, or integration surface at this time. This profile was added to the API Evangelist network as a portfolio lead and enriched via public web and domain probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/orus/refs/heads/main/screenshots/orus-2026-08-07T190958.png",
      "score": 11.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4425,7 +4474,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4457,7 +4506,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 89
+    },
+    {
+     "name": "Plus Simple",
+     "slug": "plus-simple",
+     "description": "+Simple (Plus Simple) is a French digital insurance underwriting agency (agence de souscription) founded in 2015 and headquartered in Marseille. Operating as one of France's largest wholesale insurance brokers, it runs a fully digital extranet platform that lets partner insurance brokers prospect, price, underwrite, issue, and manage professional insurance contracts across more than 1,200 covered activities and 30+ niche product lines, including RC Décennale (ten-year construction liability) coverage. +Simple distributes on a 100% brokerage model in partnership with carriers such as Hiscox, Allianz, Wakam, QBE and Beazley, serving a network of 8,000+ partner brokers. The company is backed by Anthemis and Speedinvest and was added to the API Evangelist network as a venture-portfolio lead; it publishes no public API or developer surface at this time (its broker and insured portals are authenticated web applications, not open APIs).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plus-simple/refs/heads/main/screenshots/plus-simple-2026-09-02T151546.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 90
     }
    ]
   },
@@ -4487,7 +4588,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4512,7 +4613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 91
     },
     {
      "name": "Educ-up",
@@ -4532,7 +4633,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4564,7 +4665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 92
     },
     {
      "name": "Djust",
@@ -4584,7 +4685,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4616,7 +4717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 93
     },
     {
      "name": "Asap Work",
@@ -4636,97 +4737,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 92
-    },
-    {
-     "name": "Gourmey",
-     "slug": "gourmey",
-     "description": "Gourmey is a Paris-based cultivated meat company producing sustainable, cell-cultured meat delights — starting with cultivated foie gras — for an uncompromising and conscious generation. Founded in France and backed by Partech and Point Nine, Gourmey grows real meat directly from animal cells without raising or slaughtering animals, aiming for a lower environmental footprint across the food and agritech sectors. It was added to the API Evangelist network as a venture-portfolio company profile; Gourmey operates a consumer and corporate website but does not publish a public developer API, documentation, or SDK surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 93
-    },
-    {
-     "name": "La Vie",
-     "slug": "la-vie",
-     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/screenshots/la-vie-2026-07-25T224407.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4754,11 +4765,11 @@
      "rank": 94
     },
     {
-     "name": "Demander Justice",
-     "slug": "demander-justice",
-     "description": "Demander Justice (demanderjustice.com) is a French legal-technology company that lets everyday people (justiciables) resolve disputes and take a matter to court without hiring a lawyer. Through simplified, guided online procedures it helps users send formal notices (mise en demeure), file injonctions de payer, and bring cases before the relevant French courts across consumer, housing, telecom, travel, banking, neighbor, and small-claims disputes. The service combines legal information fiches with a step-by-step document-generation and court-filing workflow. Backed by Partech; profiled in the API Evangelist network under the Consumer sector. No public developer/API surface was found at enrichment time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demander-justice/refs/heads/main/screenshots/demander-justice-2026-07-25T211706.png",
-     "score": 10.2,
+     "name": "Gourmey",
+     "slug": "gourmey",
+     "description": "Gourmey is a Paris-based cultivated meat company producing sustainable, cell-cultured meat delights — starting with cultivated foie gras — for an uncompromising and conscious generation. Founded in France and backed by Partech and Point Nine, Gourmey grows real meat directly from animal cells without raising or slaughtering animals, aiming for a lower environmental footprint across the food and agritech sectors. It was added to the API Evangelist network as a venture-portfolio company profile; Gourmey operates a consumer and corporate website but does not publish a public developer API, documentation, or SDK surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gourmey/refs/heads/main/screenshots/gourmey-2026-07-25T220125.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4767,11 +4778,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4799,11 +4810,11 @@
      "rank": 95
     },
     {
-     "name": "Karnott",
-     "slug": "karnott",
-     "description": "Karnott is a French agricultural technology company based in Lille that builds connected tracking devices and a digital management platform for farms, equipment cooperatives (CUMA), agricultural contractors (ETA), and wine growers. Its beacon automatically records equipment usage and field interventions without manual data entry, enabling real-time fleet and equipment monitoring, fuel-cost tracking, parcel mapping, and precise billing and regulatory documentation. Karnott is a portfolio company of Partech. This profile was added to the API Evangelist network for enrichment; no public developer API, OpenAPI, or developer portal was found on the provider's public surface as of this pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karnott/refs/heads/main/screenshots/karnott-2026-07-25T223511.png",
-     "score": 10.2,
+     "name": "La Vie",
+     "slug": "la-vie",
+     "description": "La Vie Foods is a Paris-based plant-based food company that makes vegan alternatives to pork products, including bacon, smoked lardons, ham, salami sticks, croquettes and meatballs, sold across French and UK retail and foodservice. Its stated mission is to move people from animal to vegetable fat without compromising on taste, citing 88% less CO2, 82% less water and 74% less land use than conventional pork. Its products are stocked by retailers including Tesco, Sainsbury's, Waitrose, Whole Foods Market and Planet Organic, and used by restaurant partners such as Burger King. The company was surfaced as a portfolio company of partech. La Vie Foods operates as a consumer packaged-goods brand rather than an API provider: it publishes no public developer portal, OpenAPI, SDKs, CLI, packages or programmatic API surface, and exposes no /.well-known/ discovery documents. This profile therefore captures the company's real public web, legal, press and domain-security surface rather than developer artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-vie/refs/heads/main/screenshots/la-vie-2026-07-25T224407.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4811,12 +4822,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4844,6 +4855,96 @@
      "rank": 96
     },
     {
+     "name": "Demander Justice",
+     "slug": "demander-justice",
+     "description": "Demander Justice (demanderjustice.com) is a French legal-technology company that lets everyday people (justiciables) resolve disputes and take a matter to court without hiring a lawyer. Through simplified, guided online procedures it helps users send formal notices (mise en demeure), file injonctions de payer, and bring cases before the relevant French courts across consumer, housing, telecom, travel, banking, neighbor, and small-claims disputes. The service combines legal information fiches with a step-by-step document-generation and court-filing workflow. Backed by Partech; profiled in the API Evangelist network under the Consumer sector. No public developer/API surface was found at enrichment time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/demander-justice/refs/heads/main/screenshots/demander-justice-2026-07-25T211706.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 97
+    },
+    {
+     "name": "Karnott",
+     "slug": "karnott",
+     "description": "Karnott is a French agricultural technology company based in Lille that builds connected tracking devices and a digital management platform for farms, equipment cooperatives (CUMA), agricultural contractors (ETA), and wine growers. Its beacon automatically records equipment usage and field interventions without manual data entry, enabling real-time fleet and equipment monitoring, fuel-cost tracking, parcel mapping, and precise billing and regulatory documentation. Karnott is a portfolio company of Partech. This profile was added to the API Evangelist network for enrichment; no public developer API, OpenAPI, or developer portal was found on the provider's public surface as of this pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/karnott/refs/heads/main/screenshots/karnott-2026-07-25T223511.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 98
+    },
+    {
      "name": "Shippingbo",
      "slug": "shippingbo",
      "description": "Shippingbo is a Toulouse, France-based e-commerce logistics SaaS founded in 2016 by Marc Hericher and Romain Parent. The platform unifies an Order Management System (OMS), Warehouse Management System (WMS), and Transport Management System (TMS) behind a single REST API so that merchants, DNVBs, 3PLs, wholesalers, manufacturers, and marketplaces can centralize multi-channel orders, pilot warehouse picking and packing, and execute multi-carrier shipments from one back office. Shippingbo claims 5,000+ active users, 80 million orders, and EUR 5 billion in merchandise handled in 2024, with 2,500+ warehouses equipped across France and Europe. The Shippingbo Developer Portal (powered by Stoplight) exposes a public REST/JSON API covering orders, products, stocks, shipments, customers, pickings, and source connectors, secured by OAuth 2.0 through the oauth.shippingbo.com authorization server. Shippingbo additionally offers a dedicated TMS API for multi-carrier label generation and a webhook channel for order state changes, stock changes, and shipment events. Reported developer-facing scale includes 500+ developers, 10+ million orders processed through the APIs, 500+ million webhook deliveries, and 40+ pre-integrated carriers. Shippingbo is a French Tech company backed by IRDI Capital Investissement and GSO Innovation.",
@@ -4861,7 +4962,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4893,7 +4994,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "Kartable",
@@ -4913,7 +5014,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4945,7 +5046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 100
     },
     {
      "name": "Doctolib",
@@ -4965,7 +5066,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4997,7 +5098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 101
     },
     {
      "name": "Joko",
@@ -5017,7 +5118,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5049,7 +5150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 102
     },
     {
      "name": "RockFi",
@@ -5069,7 +5170,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5101,7 +5202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 103
     },
     {
      "name": "Finres",
@@ -5121,7 +5222,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5146,12 +5247,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 104
     },
     {
      "name": "Vekia",
      "slug": "vekia",
      "description": "Vekia is a French supply-chain software vendor founded in 2008 in Lille by Manuel Davy (Vekia SAS, 143 rue d'Athènes, 59800 Lille, RCS Lille Métropole 503 225 716). Its platform, Vekia Engine, applies probabilistic artificial intelligence and machine learning to demand and stock forecasting, then generates optimised purchase-order proposals that are pushed back into the customer's existing ERP rather than replacing it, alongside shortage-risk alerting and a logistics control tower. Vekia Disrupt covers disruption and shortage management. The platform is hosted on Microsoft Azure in Europe and marketed to retail and specialised distribution, e-commerce, industry, energy and telecom, with published case studies at ENGIE, Mr Bricolage and Okaïdi. Vekia publishes no public API, no developer portal, no API reference and no machine-readable contract; ERP, WMS and TMS integration is delivered as a project by Vekia rather than through a self-serve developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vekia/refs/heads/main/screenshots/vekia-2026-09-02T165609.png",
      "score": 9.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5165,7 +5267,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.4,
      "agent_band": "agent-aware",
@@ -5190,7 +5292,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 105
     },
     {
      "name": "Silvr",
@@ -5210,7 +5312,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5242,7 +5344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 106
     },
     {
      "name": "Happytal",
@@ -5262,7 +5364,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5294,7 +5396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 107
     },
     {
      "name": "Flatlooker",
@@ -5314,97 +5416,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 106
-    },
-    {
-     "name": "Showroomprive.com",
-     "slug": "showroomprivecom",
-     "description": "Showroomprive.com is a French online private-sales (flash-sales) e-commerce platform operated by Showroomprive.com SAS, a subsidiary of SRP Groupe SA, based in La Plaine Saint-Denis. It sells discounted apparel, beauty, home, sports, and travel products from major brands, and also runs a third-party seller marketplace. The company exposes a private marketplace / seller API reached through partner onboarding and surfaced by third-party integration platforms such as ChannelEngine and Commercium, but it publishes no public developer portal, API documentation, or OpenAPI. Added to the API Evangelist network as an Accel portfolio lead.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/showroomprivecom/refs/heads/main/screenshots/showroomprivecom-2026-09-02T155343.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 107
-    },
-    {
-     "name": "Agryco",
-     "slug": "agriconomie",
-     "description": "Agryco — trading as Agriconomie until its September 2024 rebrand — is a French online marketplace and e-commerce platform that sells agricultural supplies direct to farmers: mineral, organic and foliar fertilizers, conventional and organic seeds, phytosanitary products, animal nutrition and livestock equipment, plus tractor, spraying, harvesting and soil-working spare parts. Founded in 2014 by Clement Le Fournis, Dinh Nguyen and Paolin Pascot, the company operates a one-stop procurement site for professional farmers across France, Belgium, Germany, Spain and Italy, wrapping the catalog in advisory services (agronomy experts on the phone six days a week), fertilizer blending, equipment valuation and 60-day payment terms. It raised a EUR 60 million Series B in 2022 co-led by Treis Group, Temasek and Aliment Capital with Eurazeo participating, and publishes the Agrycomag technical magazine at agryco.com/blog. Agryco is an end-user commerce product: as of this profile it publishes no public developer program, API reference, SDK or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agriconomie/refs/heads/main/screenshots/agriconomie-2026-08-07T161046.png",
-     "score": 9.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5432,9 +5444,100 @@
      "rank": 108
     },
     {
+     "name": "Showroomprive.com",
+     "slug": "showroomprivecom",
+     "description": "Showroomprive.com is a French online private-sales (flash-sales) e-commerce platform operated by Showroomprive.com SAS, a subsidiary of SRP Groupe SA, based in La Plaine Saint-Denis. It sells discounted apparel, beauty, home, sports, and travel products from major brands, and also runs a third-party seller marketplace. The company exposes a private marketplace / seller API reached through partner onboarding and surfaced by third-party integration platforms such as ChannelEngine and Commercium, but it publishes no public developer portal, API documentation, or OpenAPI. Added to the API Evangelist network as an Accel portfolio lead.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/showroomprivecom/refs/heads/main/screenshots/showroomprivecom-2026-09-02T155343.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 109
+    },
+    {
+     "name": "Agryco",
+     "slug": "agriconomie",
+     "description": "Agryco — trading as Agriconomie until its September 2024 rebrand — is a French online marketplace and e-commerce platform that sells agricultural supplies direct to farmers: mineral, organic and foliar fertilizers, conventional and organic seeds, phytosanitary products, animal nutrition and livestock equipment, plus tractor, spraying, harvesting and soil-working spare parts. Founded in 2014 by Clement Le Fournis, Dinh Nguyen and Paolin Pascot, the company operates a one-stop procurement site for professional farmers across France, Belgium, Germany, Spain and Italy, wrapping the catalog in advisory services (agronomy experts on the phone six days a week), fertilizer blending, equipment valuation and 60-day payment terms. It raised a EUR 60 million Series B in 2022 co-led by Treis Group, Temasek and Aliment Capital with Eurazeo participating, and publishes the Agrycomag technical magazine at agryco.com/blog. Agryco is an end-user commerce product: as of this profile it publishes no public developer program, API reference, SDK or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/agriconomie/refs/heads/main/screenshots/agriconomie-2026-08-07T161046.png",
+     "score": 9.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 3.6,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 110
+    },
+    {
      "name": "Tengo",
      "slug": "tengo",
      "description": "Tengo is an AI-powered public procurement platform that helps companies find, evaluate, and respond to public tenders in one place. Founded in 2023 in France by Hugues Renou and Yoann Gauthier, Tengo covers the full tender lifecycle — sourcing and targeting relevant opportunities, drafting and writing proposals with AI, and managing responses and performance analytics — serving SMEs, mid-sized companies, and large corporations. Tengo raised a €3M round led by Point Nine in 2024. It operates a business-user SaaS with a request-a-demo onboarding and no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tengo/refs/heads/main/screenshots/tengo-2026-09-02T163059.png",
      "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5448,7 +5551,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5480,7 +5583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 111
     },
     {
      "name": "Jam.gg",
@@ -5499,7 +5602,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5524,12 +5627,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 112
     },
     {
      "name": "Trezy",
      "slug": "trezy",
      "description": "Trezy is a Franco-Dutch fintech SaaS (Trezy SAS, founded 2021 in Paris by Quentin Lacointa) offering AI-driven cash flow management for small and medium businesses across Europe, the US, and Canada. It connects to 2,000+ banks via PSD2/Open Banking to deliver real-time cash position, automatic AI transaction categorization, 95%-accurate 12-month cash flow forecasting, real-time P&L, 27+ financial KPIs, supplier cost analysis, and OCR-based document management from a single platform starting at a free tier. Trezy also offers dedicated plans for external CFOs (DAF) and accounting firms, and integrates with QuickBooks Online and Pennylane. Backed by Seedcamp and Playfair Capital (with Kima Ventures and Discovery Ventures) in a €3M seed round. Trezy publishes an llms.txt corpus and an /.well-known/ai-plugin.json manifest but does not expose a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trezy/refs/heads/main/screenshots/trezy-2026-09-02T164219.png",
      "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5543,7 +5647,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5575,12 +5679,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 113
     },
     {
      "name": "Stem AI",
      "slug": "stem",
      "description": "StemAI (Stem AI SAS) is a Paris-based accelerator and early-stage investment program for founders building LLM-powered products. Its stated thesis is that large language models are already capable enough to build great products today, so the program backs product and user experience rather than research breakthroughs. Each accepted company receives a $250,000 SAFE investment, $350,000 in partner cloud credits, recurring checkpoints with AI advisors, help accessing follow-on funding, and a founder summit hosted in Paris. The program is led by Nicolas Granatino, with a board that includes Mehdi Ghissassi (AI71) and Severine Gregoire (Zebox Ventures), and advisors in residence drawn from Hugging Face, Datadog, InstaDeep, Dust, Photoroom, Helsing, Nabla, QuantHouse and Parrot. StemAI is a private company whose shares are quoted on the secondary markets (Forge, Hiive, EquityZen). It publishes no API, SDK, developer portal or machine-readable specification of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stem/refs/heads/main/screenshots/stem-2026-09-02T160839.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5594,7 +5699,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5619,7 +5724,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 114
     },
     {
      "name": "Jimmy",
@@ -5639,7 +5744,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5671,12 +5776,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 115
     },
     {
      "name": "Tulyp",
      "slug": "tulyp",
      "description": "Tulyp is a SaaS treasury platform from French company SmarTrade SAS that gives CFOs and treasurers of SMEs and mid-caps (10-200M euro revenue) real-time visibility into their foreign-exchange (FX) exposure. The platform aggregates financial data from connected ERPs, accounting software, and banks, calculates net currency exposure by type and timeframe, translates currency movements into impact on revenue, margins, and EBITDA, and alerts when exposure crosses risk-policy thresholds. Backed by Speedinvest. Tulyp publishes no public developer API; it does publish an llms.txt content index for AI systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tulyp/refs/heads/main/screenshots/tulyp-2026-09-02T164512.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5690,7 +5796,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5715,7 +5821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 116
     },
     {
      "name": "CorWave",
@@ -5735,7 +5841,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5767,7 +5873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
+     "rank": 117
     },
     {
      "name": "ManoMano",
@@ -5787,96 +5893,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 116
-    },
-    {
-     "name": "Le Collectionist",
-     "slug": "le-collectionist",
-     "description": "Le Collectionist is a French luxury travel and villa-rental marketplace that curates high-end vacation homes and provides concierge services for guests, alongside a revenue-management offering for property owners and a commission-based referral program for travel agencies. Surfaced as a portfolio company of Partech and added to the API Evangelist network, the company operates a consumer booking website, an owner portal, and a travel magazine, but publishes no public developer API, developer portal, or programmatic partner integration at this time. Sector: Marketplace / Travel & Hospitality.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/le-collectionist/refs/heads/main/screenshots/le-collectionist-2026-07-25T224709.png",
-     "score": 6.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 117
-    },
-    {
-     "name": "ValueCo",
-     "slug": "valueco",
-     "description": "ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an objective ESG market view from the proprietary ESG scores of asset managers and institutional investors. Its platform aggregates investor-side scoring into a consensus view so listed and non-listed companies can understand how the market actually perceives their ESG performance and improve their strategies. A Techstars portfolio company, ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors; it currently publishes no public API or developer program.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5904,6 +5921,96 @@
      "rank": 118
     },
     {
+     "name": "Le Collectionist",
+     "slug": "le-collectionist",
+     "description": "Le Collectionist is a French luxury travel and villa-rental marketplace that curates high-end vacation homes and provides concierge services for guests, alongside a revenue-management offering for property owners and a commission-based referral program for travel agencies. Surfaced as a portfolio company of Partech and added to the API Evangelist network, the company operates a consumer booking website, an owner portal, and a travel magazine, but publishes no public developer API, developer portal, or programmatic partner integration at this time. Sector: Marketplace / Travel & Hospitality.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/le-collectionist/refs/heads/main/screenshots/le-collectionist-2026-07-25T224709.png",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 119
+    },
+    {
+     "name": "ValueCo",
+     "slug": "valueco",
+     "description": "ValueCo (ValueCo Metrics SAS) is a Paris-based fintech building an objective ESG market view from the proprietary ESG scores of asset managers and institutional investors. Its platform aggregates investor-side scoring into a consensus view so listed and non-listed companies can understand how the market actually perceives their ESG performance and improve their strategies. A Techstars portfolio company, ValueCo serves asset managers, institutional investors, enterprises, and ESG contributors; it currently publishes no public API or developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valueco/refs/heads/main/screenshots/valueco-2026-09-02T165340.png",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 120
+    },
+    {
      "name": "Alan",
      "slug": "alan-com",
      "description": "Alan is a Paris-based digital health insurance and wellness company founded in 2016 by Jean-Charles Samuelian-Werve and Charles Gorintin. It was the first independent health insurance provider licensed in France in over fifty years and offers an integrated product combining complementary health insurance (\"mutuelle\"), prevention, and care delivery through a single mobile and web experience. Alan's product surface includes group and individual health plans (Alan Santé), retirement plans (Alan Dolce Vita), public-sector and self-employed offerings, an HR/benefits admin dashboard for employers, an in-house telehealth and chat-care service (Clinique Alan) staffed by salaried clinicians, a gamified prevention and step-tracking program (Alan Play / Alan Mind), and vision/optical benefits with zero out-of-pocket pricing. The company reports over one million members and roughly 33,000 client businesses, operates in France, Belgium, and Spain, and reached a reported €5B valuation in its 2026 Series F round. Engineering and product practice is documented publicly on the Alan Product and Technical Blog at medium.com/alan, and a small portfolio of internal-tools and design assets (most notably react-native-fast-shadow and the Alan Sans typeface) is open-sourced on github.com/alan-eu. Alan does not publish a public-facing developer API, OpenAPI specification, or SDK; all member and employer interactions happen through Alan's first-party apps and the HR/benefits dashboard.",
@@ -5921,7 +6028,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5953,7 +6060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 121
     },
     {
      "name": "Mipsology",
@@ -5973,96 +6080,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 120
-    },
-    {
-     "name": "8sec",
-     "slug": "8sec",
-     "description": "8SEC was a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 and later opening a second office in Paris. Over a ten-year run it published more than 90 free-to-play mobile games for iOS and Android — Jump Race!, Turbo Taxi, Trivia.io, Untie! and Human Puzzle among them — collectively driving roughly 50 million downloads, and positioned itself as a full-stack studio spanning game design, development and publishing. UK publisher Kwalee invested EUR 1.5 million in January 2024 and took over publishing duties across the entire 8SEC catalogue. THE STUDIO IS NOW CLOSED — the shutdown was reported in October 2025, with all seven staff, including cofounders Louis Croquet and Louis Giraud, seeking new roles. The company's own site at 8sec.games is no longer deployed — the domain resolves to OVHcloud shared hosting serving a \"Site not installed\" 404 behind a certificate that does not cover the hostname — and the Teamtailor careers page returns 404. 8SEC was surfaced into the API Evangelist network as a 500 Global portfolio lead; it never published a public developer API, SDK, machine-readable specification or documentation surface, and it no longer exists to publish one.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 121
-    },
-    {
-     "name": "Alassio",
-     "slug": "alassio",
-     "description": "Alassio is a French financial-technology company building a next-generation payroll software platform (logiciel de paie nouvelle generation) for businesses. Alassio positions itself as offering the functional depth expected of a specialist payroll and HR tool, with added transparency and control for finance and people teams. The company is backed by venture-capital firm Partech and operates from France, serving the French and European payroll, compensation, and human-resources market. As of this profile the company publishes only a marketing landing page and a legal notice; no public API, developer documentation, SDK, or integration surface has been located. This profile is maintained in the API Evangelist network as a portfolio-lead stub awaiting a public developer surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/screenshots/alassio-2026-07-25T195535.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6090,6 +6108,95 @@
      "rank": 122
     },
     {
+     "name": "8sec",
+     "slug": "8sec",
+     "description": "8SEC was a hybrid-casual and hyper-casual mobile game studio based in Lyon, France, founded in 2015 and later opening a second office in Paris. Over a ten-year run it published more than 90 free-to-play mobile games for iOS and Android — Jump Race!, Turbo Taxi, Trivia.io, Untie! and Human Puzzle among them — collectively driving roughly 50 million downloads, and positioned itself as a full-stack studio spanning game design, development and publishing. UK publisher Kwalee invested EUR 1.5 million in January 2024 and took over publishing duties across the entire 8SEC catalogue. THE STUDIO IS NOW CLOSED — the shutdown was reported in October 2025, with all seven staff, including cofounders Louis Croquet and Louis Giraud, seeking new roles. The company's own site at 8sec.games is no longer deployed — the domain resolves to OVHcloud shared hosting serving a \"Site not installed\" 404 behind a certificate that does not cover the hostname — and the Teamtailor careers page returns 404. 8SEC was surfaced into the API Evangelist network as a 500 Global portfolio lead; it never published a public developer API, SDK, machine-readable specification or documentation surface, and it no longer exists to publish one.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 123
+    },
+    {
+     "name": "Alassio",
+     "slug": "alassio",
+     "description": "Alassio is a French financial-technology company building a next-generation payroll software platform (logiciel de paie nouvelle generation) for businesses. Alassio positions itself as offering the functional depth expected of a specialist payroll and HR tool, with added transparency and control for finance and people teams. The company is backed by venture-capital firm Partech and operates from France, serving the French and European payroll, compensation, and human-resources market. As of this profile the company publishes only a marketing landing page and a legal notice; no public API, developer documentation, SDK, or integration surface has been located. This profile is maintained in the API Evangelist network as a portfolio-lead stub awaiting a public developer surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alassio/refs/heads/main/screenshots/alassio-2026-07-25T195535.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 124
+    },
+    {
      "name": "Amblea",
      "slug": "amblea",
      "description": "Amblea is a French mission-driven (\"entreprise à mission\") healthcare-logistics platform that centralizes and optimizes patient (medical / sanitary) transport across the French health system. Formed in 2023 from the merger of Ambler (founded 2018) and Sanilea (2013), it operates a marketplace connecting healthcare establishments (hospitals, clinics, EHPADs, day-care centers) with licensed transport providers (ambulance companies and medical taxi services). The platform handles centralized booking and digital prescription management, shared-transport optimization (grouping patients per trip), real-time tracking, budget and contract management, and automated billing between facilities and transporters. Amblea reports 800+ healthcare establishments, 6,300 transport partner companies, and roughly 8,000 daily trips, making it one of France's largest healthcare-transport coordination platforms. It exposes no public developer API, documentation, or SDKs; access is via its web application and direct business arrangements.",
@@ -6107,7 +6214,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6139,7 +6246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 125
     },
     {
      "name": "Gens de confiance",
@@ -6159,97 +6266,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 124
-    },
-    {
-     "name": "Inmemori",
-     "slug": "inmemori",
-     "description": "Inmemori is a French funeral services company (\"pompes funebres\") that organizes and manages personalized funeral arrangements with an emphasis on transparency, fair pricing, and full handling of legal and administrative procedures. Available 24/7 across agencies in Paris, Bordeaux, Nantes, and Lyon, Inmemori supports families through burial and cremation, secular and religious ceremonies (Christian, Jewish, Muslim, Buddhist), coffins, urns and floral arrangements, funeral pre-planning, and online memorial tribute pages. Backed by Partech, the company operates in the consumer end-of-life services sector. This profile was added to the API Evangelist network as a portfolio-company lead; Inmemori publishes a consumer website and blog but no public developer API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inmemori/refs/heads/main/screenshots/inmemori-2026-07-25T222450.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 125
-    },
-    {
-     "name": "Qapa",
-     "slug": "qapa",
-     "description": "Qapa (qapa.fr) is a Paris-based French online recruitment and temporary-work (interim) marketplace that matched companies with job seekers for permanent and temp placements. Backed by Index Ventures and Partech, it was majority-acquired by the Adecco Group. The qapa.fr web property is now gated behind an Azure Application Gateway (HTTP 403) and exposes no public developer, API, or documentation surface; this profile is retained as an API Evangelist network record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qapa/refs/heads/main/screenshots/qapa-2026-09-02T152410.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6277,9 +6294,10 @@
      "rank": 126
     },
     {
-     "name": "StarOfService",
-     "slug": "starofservice",
-     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
+     "name": "Inmemori",
+     "slug": "inmemori",
+     "description": "Inmemori is a French funeral services company (\"pompes funebres\") that organizes and manages personalized funeral arrangements with an emphasis on transparency, fair pricing, and full handling of legal and administrative procedures. Available 24/7 across agencies in Paris, Bordeaux, Nantes, and Lyon, Inmemori supports families through burial and cremation, secular and religious ceremonies (Christian, Jewish, Muslim, Buddhist), coffins, urns and floral arrangements, funeral pre-planning, and online memorial tribute pages. Backed by Partech, the company operates in the consumer end-of-life services sector. This profile was added to the API Evangelist network as a portfolio-company lead; Inmemori publishes a consumer website and blog but no public developer API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/inmemori/refs/heads/main/screenshots/inmemori-2026-07-25T222450.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6293,7 +6311,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6321,9 +6339,10 @@
      "rank": 127
     },
     {
-     "name": "Toasty",
-     "slug": "toasty",
-     "description": "Toasty (toasty.family, published by Wenose) is a French consumer mobile application for responsible, sustainable, and ethical shopping. The app curates committed brands and makes conscious consumption engaging through a gamified experience of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer mobile product with no public developer program, API, or documentation surface at this time; it was surfaced as a Techstars portfolio company and added to the API Evangelist network as a lead. This profile captures its public identity and a live domain-security probe.",
+     "name": "Qapa",
+     "slug": "qapa",
+     "description": "Qapa (qapa.fr) is a Paris-based French online recruitment and temporary-work (interim) marketplace that matched companies with job seekers for permanent and temp placements. Backed by Index Ventures and Partech, it was majority-acquired by the Adecco Group. The qapa.fr web property is now gated behind an Azure Application Gateway (HTTP 403) and exposes no public developer, API, or documentation surface; this profile is retained as an API Evangelist network record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qapa/refs/heads/main/screenshots/qapa-2026-09-02T152410.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6337,7 +6356,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6365,14 +6384,14 @@
      "rank": 128
     },
     {
-     "name": "Boxy (ex-Storelift)",
-     "slug": "getboxy",
-     "description": "Boxy, operated by the French company SAS Storelift (founded 2018 in Ivry-sur-Seine by David Gabai and Tom Hayat), built unstaffed 24/7 convenience stores inside 15-20 square metre shipping containers, using computer vision, weight-sensing shelves and an on-site compute node so a shopper could unlock the door with a QR code from the Boxy mobile app, take products off the shelf and walk out to be invoiced automatically. The company raised roughly 5M EUR in 2020 and a 25M EUR Series A in February 2022 led by Serena with CapHorn and LocalGlobe, targeting 1,000 stores. It shut its entire store estate by the end of April 2024, and SAS Storelift entered liquidation judiciaire on 6 November 2024 after sauvegarde and redressement procedures earlier that year; the store containers were auctioned in early 2025. The getboxy.co domain is now parked and returns HTTP 410 Gone on every path, and no developer program, API documentation or machine-readable contract was ever published. This profile records that absence.",
-     "score": 4.6,
+     "name": "StarOfService",
+     "slug": "starofservice",
+     "description": "StarOfService is an online local-services marketplace that connects consumers with vetted service professionals across home improvement, events, wellness, lessons, and business services. Headquartered in France and operating across multiple European markets, the platform matches customer project requests to nearby providers and facilitates quotes and messaging between them. Surfaced as a portfolio company of Point Nine and profiled in the API Evangelist network; the company exposes a consumer web marketplace and has no public developer API surface at this time.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -6381,7 +6400,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6409,15 +6428,15 @@
      "rank": 129
     },
     {
-     "name": "Kiute",
-     "slug": "kiute",
-     "description": "Kiute was a French salon management and online booking platform for hair salons, barbershops and beauty institutes, formed from the September 2020 merger of Flexy (FlexyBeauty) and LeCiseau, backed by Serena, Newfund, Matmut Innovation, 123IM, UL Invest and Bourrelier Group. Its Kiute Pro product combined a point-of-sale till, appointment calendar, client records, marketing and an online booking marketplace serving roughly 10,000 beauty and wellness businesses. Booksy acquired Kiute on 2021-11-09 and has since retired the brand: as of 2026-08-17 every Kiute host answers a blanket HTTP 301 to Booksy for every path — kiute.com, www.kiute.com, app.kiute.com and kiute.fr to https://booksy.com/fr-fr/, pro.kiute.com to https://biz.booksy.com/fr-fr — and no api, docs, developers or help subdomain resolves. Kiute publishes no API, no specification and no developer program of its own; the successor surface is the Booksy Public API, profiled separately in this network at all/booksy/ and documented at docs.booksy.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiute/refs/heads/main/screenshots/kiute-2026-09-02T150056.png",
-     "score": 4.6,
+     "name": "Toasty",
+     "slug": "toasty",
+     "description": "Toasty (toasty.family, published by Wenose) is a French consumer mobile application for responsible, sustainable, and ethical shopping. The app curates committed brands and makes conscious consumption engaging through a gamified experience of daily private sales, quizzes, challenges, gifts, and rewards. It reports a 4.9-star rating across the app stores and more than 400,000 downloads. Toasty is a business-to-consumer mobile product with no public developer program, API, or documentation surface at this time; it was surfaced as a Techstars portfolio company and added to the API Evangelist network as a lead. This profile captures its public identity and a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toasty/refs/heads/main/screenshots/toasty-2026-09-02T163836.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -6426,7 +6445,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6454,10 +6473,9 @@
      "rank": 130
     },
     {
-     "name": "Qualtera",
-     "slug": "qualtera",
-     "description": "Qualtera was a French software company, founded in 2010 and backed by Serena, that built high-volume big data analytics platforms for semiconductor test and manufacturing — giving IDMs, foundries and OSATs real-time observability, traceability and production control over test and assembly data across worldwide operations, processing the data of tens of millions of wafers and billions of parts a year. Its products included SiliconDash, an automated decision-support system for test, quality and yield analysis. Synopsys acquired Qualtera on June 10, 2020 and folded its analytics into Yield Explorer and TestMAX, which now ship as part of the Synopsys Silicon Lifecycle Management family. The Qualtera brand and any surface it once had are gone: qualtera.com now resolves to Synopsys nameservers and 301-redirects every path to the Synopsys Silicon Lifecycle Management marketing page, and the host refuses a TLS handshake on port 443 entirely. Qualtera never published a public developer portal, API reference, OpenAPI definition, SDK or package on any registry, and no machine-readable contract survives under its own name. This profile is retained as a historical record; the live analytics API surface, where one exists, belongs to Synopsys and is profiled there rather than credited here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualtera/refs/heads/main/screenshots/qualtera-2026-09-02T152604.png",
+     "name": "Boxy (ex-Storelift)",
+     "slug": "getboxy",
+     "description": "Boxy, operated by the French company SAS Storelift (founded 2018 in Ivry-sur-Seine by David Gabai and Tom Hayat), built unstaffed 24/7 convenience stores inside 15-20 square metre shipping containers, using computer vision, weight-sensing shelves and an on-site compute node so a shopper could unlock the door with a QR code from the Boxy mobile app, take products off the shelf and walk out to be invoiced automatically. The company raised roughly 5M EUR in 2020 and a 25M EUR Series A in February 2022 led by Serena with CapHorn and LocalGlobe, targeting 1,000 stores. It shut its entire store estate by the end of April 2024, and SAS Storelift entered liquidation judiciaire on 6 November 2024 after sauvegarde and redressement procedures earlier that year; the store containers were auctioned in early 2025. The getboxy.co domain is now parked and returns HTTP 410 Gone on every path, and no developer program, API documentation or machine-readable contract was ever published. This profile records that absence.",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6471,7 +6489,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6499,10 +6517,10 @@
      "rank": 131
     },
     {
-     "name": "Seiza",
-     "slug": "seiza",
-     "description": "Seiza was a French social-recruitment advertising and recruitment-automation SaaS platform dedicated to frontline hiring — hospitality and restaurants, transport and logistics, agri-food, industry, retail, temp staffing, healthcare and construction. Founded in Paris in 2010 as Work4 Labs by Stephane Le Viet, Gautier Machelon and Matt Brown, it built its early business on sourcing candidates through non-professional social networks rather than job boards or LinkedIn, later rebranding from Work4 to Seiza. It raised roughly $22.8M in venture capital (Serena, among others) and served about 400 clients across Europe and the US, including McDonald's, Sysco, Ecolab and Veolia. The product was a recruiter web application — social sourcing campaigns, profile enrichment, one-click calling, a compatibility index, automated interview scheduling, SMS/messaging and reporting — plus a fixed catalog of 23 named ATS connectors (Bullhorn, Workday, Greenhouse, SmartRecruiters, iCIMS, Cornerstone, Recruitee, Talensoft, DigitalRecruiters, Beetween, Fountain, Paychex, CareerBuilder, Avionte, Acquity, Idibu, PivotCX, Talemetry, Gestmax, Scoptalent, Eolia Software, MyCVtheque, Hubspot), with anything outside that list handled as a bespoke integration through sales. No public API, developer portal, API reference, OpenAPI/AsyncAPI specification, webhook catalog, SDK or CLI was ever published: a 557-URL census of the archived seiza.co site shows only marketing, blog, FAQ and legal pages, and every /.well-known/ path returned 404 while the site was live. Seiza was acquired by UK job-search engine Adzuna on 2024-11-18 and folded into Adzuna's social recruitment advertising line; Adzuna's own developer program is profiled separately in this network. The company domain seiza.co was still serving in May 2026 but no longer resolves at all as of 2026-08-17. This profile is retained as a historical company record; there is no API surface to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seiza/refs/heads/main/screenshots/seiza-2026-09-02T154811.png",
+     "name": "Kiute",
+     "slug": "kiute",
+     "description": "Kiute was a French salon management and online booking platform for hair salons, barbershops and beauty institutes, formed from the September 2020 merger of Flexy (FlexyBeauty) and LeCiseau, backed by Serena, Newfund, Matmut Innovation, 123IM, UL Invest and Bourrelier Group. Its Kiute Pro product combined a point-of-sale till, appointment calendar, client records, marketing and an online booking marketplace serving roughly 10,000 beauty and wellness businesses. Booksy acquired Kiute on 2021-11-09 and has since retired the brand: as of 2026-08-17 every Kiute host answers a blanket HTTP 301 to Booksy for every path — kiute.com, www.kiute.com, app.kiute.com and kiute.fr to https://booksy.com/fr-fr/, pro.kiute.com to https://biz.booksy.com/fr-fr — and no api, docs, developers or help subdomain resolves. Kiute publishes no API, no specification and no developer program of its own; the successor surface is the Booksy Public API, profiled separately in this network at all/booksy/ and documented at docs.booksy.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiute/refs/heads/main/screenshots/kiute-2026-09-02T150056.png",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6516,7 +6534,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6544,23 +6562,24 @@
      "rank": 132
     },
     {
-     "name": "Splash 360",
-     "slug": "splash360",
-     "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
+     "name": "Qualtera",
+     "slug": "qualtera",
+     "description": "Qualtera was a French software company, founded in 2010 and backed by Serena, that built high-volume big data analytics platforms for semiconductor test and manufacturing — giving IDMs, foundries and OSATs real-time observability, traceability and production control over test and assembly data across worldwide operations, processing the data of tens of millions of wafers and billions of parts a year. Its products included SiliconDash, an automated decision-support system for test, quality and yield analysis. Synopsys acquired Qualtera on June 10, 2020 and folded its analytics into Yield Explorer and TestMAX, which now ship as part of the Synopsys Silicon Lifecycle Management family. The Qualtera brand and any surface it once had are gone: qualtera.com now resolves to Synopsys nameservers and 301-redirects every path to the Synopsys Silicon Lifecycle Management marketing page, and the host refuses a TLS handshake on port 443 entirely. Qualtera never published a public developer portal, API reference, OpenAPI definition, SDK or package on any registry, and no machine-readable contract survives under its own name. This profile is retained as a historical record; the live analytics API surface, where one exists, belongs to Synopsys and is profiled there rather than credited here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qualtera/refs/heads/main/screenshots/qualtera-2026-09-02T152604.png",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6588,9 +6607,10 @@
      "rank": 133
     },
     {
-     "name": "Uptime",
-     "slug": "uptime",
-     "description": "Uptime (Uptime SAS, Paris, SIREN 822006839) was a French elevator predictive-maintenance company founded in 2016 by Augustin and Amaury Celier. It fitted 4G-connected sensors to existing elevators and used the resulting telemetry to predict failures, dispatch technicians and report availability to building managers, backed by Serena and angels including Jacques-Antoine Granjon, David Amsellem, Yvan Wibaux and Antoine Martin across roughly EUR 10M of funding. The Paris Commercial Court opened a redressement judiciaire on 2022-07-26 and pronounced liquidation judiciaire with a plan de cession to SAS Otis on 2022-10-20; the elevator-maintenance activity and a minority of staff transferred to Otis. The company never published a public developer program, API reference or machine-readable specification, and the uptime.ac domain has since lapsed — it now 301-redirects every path to unrelated third-party sites. This profile is retained as an honest record of a defunct company with no API surface.",
+     "name": "Seiza",
+     "slug": "seiza",
+     "description": "Seiza was a French social-recruitment advertising and recruitment-automation SaaS platform dedicated to frontline hiring — hospitality and restaurants, transport and logistics, agri-food, industry, retail, temp staffing, healthcare and construction. Founded in Paris in 2010 as Work4 Labs by Stephane Le Viet, Gautier Machelon and Matt Brown, it built its early business on sourcing candidates through non-professional social networks rather than job boards or LinkedIn, later rebranding from Work4 to Seiza. It raised roughly $22.8M in venture capital (Serena, among others) and served about 400 clients across Europe and the US, including McDonald's, Sysco, Ecolab and Veolia. The product was a recruiter web application — social sourcing campaigns, profile enrichment, one-click calling, a compatibility index, automated interview scheduling, SMS/messaging and reporting — plus a fixed catalog of 23 named ATS connectors (Bullhorn, Workday, Greenhouse, SmartRecruiters, iCIMS, Cornerstone, Recruitee, Talensoft, DigitalRecruiters, Beetween, Fountain, Paychex, CareerBuilder, Avionte, Acquity, Idibu, PivotCX, Talemetry, Gestmax, Scoptalent, Eolia Software, MyCVtheque, Hubspot), with anything outside that list handled as a bespoke integration through sales. No public API, developer portal, API reference, OpenAPI/AsyncAPI specification, webhook catalog, SDK or CLI was ever published: a 557-URL census of the archived seiza.co site shows only marketing, blog, FAQ and legal pages, and every /.well-known/ path returned 404 while the site was live. Seiza was acquired by UK job-search engine Adzuna on 2024-11-18 and folded into Adzuna's social recruitment advertising line; Adzuna's own developer program is profiled separately in this network. The company domain seiza.co was still serving in May 2026 but no longer resolves at all as of 2026-08-17. This profile is retained as a historical company record; there is no API surface to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/seiza/refs/heads/main/screenshots/seiza-2026-09-02T154811.png",
      "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6604,7 +6624,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6632,10 +6652,11 @@
      "rank": 134
     },
     {
-     "name": "Outils De Gestion Des Risques",
-     "slug": "outils-de-gestion-des-risques",
-     "description": "Outils de Gestion des Risques refers to risk management tools and services used in French-speaking business and regulatory environments, covering risk assessment, monitoring, mitigation, reporting, and compliance. No verifiable public APIs are currently documented for this category.",
-     "score": 4.1,
+     "name": "Splash 360",
+     "slug": "splash360",
+     "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/splash360/refs/heads/main/screenshots/splash360-2026-09-02T160501.png",
+     "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6644,11 +6665,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6676,6 +6697,94 @@
      "rank": 135
     },
     {
+     "name": "Uptime",
+     "slug": "uptime",
+     "description": "Uptime (Uptime SAS, Paris, SIREN 822006839) was a French elevator predictive-maintenance company founded in 2016 by Augustin and Amaury Celier. It fitted 4G-connected sensors to existing elevators and used the resulting telemetry to predict failures, dispatch technicians and report availability to building managers, backed by Serena and angels including Jacques-Antoine Granjon, David Amsellem, Yvan Wibaux and Antoine Martin across roughly EUR 10M of funding. The Paris Commercial Court opened a redressement judiciaire on 2022-07-26 and pronounced liquidation judiciaire with a plan de cession to SAS Otis on 2022-10-20; the elevator-maintenance activity and a minority of staff transferred to Otis. The company never published a public developer program, API reference or machine-readable specification, and the uptime.ac domain has since lapsed — it now 301-redirects every path to unrelated third-party sites. This profile is retained as an honest record of a defunct company with no API surface.",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 136
+    },
+    {
+     "name": "Outils De Gestion Des Risques",
+     "slug": "outils-de-gestion-des-risques",
+     "description": "Outils de Gestion des Risques refers to risk management tools and services used in French-speaking business and regulatory environments, covering risk assessment, monitoring, mitigation, reporting, and compliance. No verifiable public APIs are currently documented for this category.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 137
+    },
+    {
      "name": "Grace",
      "slug": "grace",
      "description": "Grace (Grâce) is a Paris-based insurtech that lets luxury maisons offer their clients complimentary, embedded protection against theft, loss, and damage for high-value goods such as watches, jewelry, and accessories. Founded in 2022 and backed by Speedinvest and FinTech Collective, Grace pairs a top-tier underwriter with a technology platform that handles instant coverage, fraud detection, claims processing, and logistics through the Grace app, and integrates into a brand's existing purchase journeys via a customizable API. The company raised a €5.9M seed round in 2025 and operates across Europe and beyond. Grace publishes no public developer portal or API specification; its API is a private, partner-facing integration offered to luxury brands.",
@@ -6693,7 +6802,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6725,7 +6834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 136
+     "rank": 138
     },
     {
      "name": "Lydia",
@@ -6745,7 +6854,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6777,7 +6886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 139
     },
     {
      "name": "Outils De Tarification",
@@ -6796,95 +6905,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 138
-    },
-    {
-     "name": "Outils De Transfert",
-     "slug": "outils-de-transfert",
-     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
-     "score": 3.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 31.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 139
-    },
-    {
-     "name": "Outils De Travail Digitaux",
-     "slug": "outils-de-travail-digitaux",
-     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
-     "score": 3.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 31.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6912,9 +6933,9 @@
      "rank": 140
     },
     {
-     "name": "Outils Digitaux",
-     "slug": "outils-digitaux",
-     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "name": "Outils De Transfert",
+     "slug": "outils-de-transfert",
+     "description": "Outils de Transfert refers to file transfer and data transfer tools used in French-speaking business environments.",
      "score": 3.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6928,7 +6949,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6956,6 +6977,94 @@
      "rank": 141
     },
     {
+     "name": "Outils De Travail Digitaux",
+     "slug": "outils-de-travail-digitaux",
+     "description": "Outils de Travail Digitaux refers to digital workplace tools and collaboration platforms used in French-speaking business environments.",
+     "score": 3.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 31.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 142
+    },
+    {
+     "name": "Outils Digitaux",
+     "slug": "outils-digitaux",
+     "description": "Outils Digitaux refers to digital tools and resources for developers, designers, and digital professionals in French-speaking environments.",
+     "score": 3.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 31.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 143
+    },
+    {
      "name": "Ornikar",
      "slug": "ornikar",
      "description": "Ornikar is a French online driving school and insurance company that guides consumers from earning their driving permit through to car, home, and pet insurance. Founded in France, it offers highway-code (code de la route) training, driving lessons, accelerated permit programs, point-recovery courses, and corporate road-safety training, alongside auto, home, and pet insurance products and CPF financing. Surfaced as a portfolio company of Partech and added to the API Evangelist network as a stub for enrichment. Sector: Consumer. No public developer API surface was found during the enrichment pass; only domain-security signals were probed.",
@@ -6973,7 +7082,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7005,7 +7114,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 144
     },
     {
      "name": "Outil Achats",
@@ -7024,7 +7133,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7056,7 +7165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 145
     }
    ]
   }

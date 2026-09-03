@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -33,34 +46,54 @@ agentic_access:
   summary_line: 29 operations · 24 acting
 api_count: 1
 apis:
-- description: The Access Code API from 1Kosmos — 2 operation(s) for access code.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Access Code API from 1Kosmos — 2 operation(s) for access code.
   name: 1Kosmos Access Code API
   slug: 1kosmos-access-code-api
-- description: The IAL API from 1Kosmos — 1 operation(s) for ial.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The IAL API from 1Kosmos — 1 operation(s) for ial.
   name: 1Kosmos IAL API
   slug: 1kosmos-ial-api
-- description: The IAL2 API from 1Kosmos — 2 operation(s) for ial2.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The IAL2 API from 1Kosmos — 2 operation(s) for ial2.
   name: 1Kosmos IAL2 API
   slug: 1kosmos-ial2-api
-- description: The ID Verification API from 1Kosmos — 2 operation(s) for id verification.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The ID Verification API from 1Kosmos — 2 operation(s) for id verification.
   name: 1Kosmos ID Verification API
   slug: 1kosmos-id-verification-api
-- description: The OTP API from 1Kosmos — 3 operation(s) for otp.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The OTP API from 1Kosmos — 3 operation(s) for otp.
   name: 1Kosmos OTP API
   slug: 1kosmos-otp-api
-- description: The Reports API from 1Kosmos — 7 operation(s) for reports.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Reports API from 1Kosmos — 7 operation(s) for reports.
   name: 1Kosmos Reports API
   slug: 1kosmos-reports-api
-- description: The Set up API from 1Kosmos — 2 operation(s) for set up.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Set up API from 1Kosmos — 2 operation(s) for set up.
   name: 1Kosmos Set up API
   slug: 1kosmos-set-up-api
-- description: The User Management API from 1Kosmos — 3 operation(s) for user management.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The User Management API from 1Kosmos — 3 operation(s) for user management.
   name: 1Kosmos User Management API
   slug: 1kosmos-user-management-api
-- description: The Verifiable Credentials API from 1Kosmos — 5 operation(s) for verifiable credentials.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Verifiable Credentials API from 1Kosmos — 5 operation(s) for verifiable credentials.
   name: 1Kosmos Verifiable Credentials API
   slug: 1kosmos-verifiable-credentials-api
-- description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
+- baseURL: https://blockid-trial.1kosmos.net
+  baseurl_source: declared
+  description: The Workflow API API from 1Kosmos — 2 operation(s) for workflow api.
   name: 1Kosmos Workflow API API
   slug: 1kosmos-workflow-api-api
 artifact_total: 27
@@ -268,7 +301,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -278,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 50.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1kosmos/refs/heads/main/screenshots/1kosmos-2026-08-07T160649.png
 security:

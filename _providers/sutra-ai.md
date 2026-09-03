@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: OpenAI-compatible chat completions across SUTRA models.
+- baseURL: https://api.two.ai/v2
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions across SUTRA models.
   name: SUTRA (Two AI) Chat API
   slug: sutra-ai-chat-api
-- description: List available SUTRA models.
+- baseURL: https://api.two.ai/v2
+  baseurl_source: declared
+  description: List available SUTRA models.
   name: SUTRA (Two AI) Models API
   slug: sutra-ai-models-api
 artifact_total: 14
@@ -157,7 +161,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -167,7 +171,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.9
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -176,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sutra-ai/refs/heads/main/screenshots/sutra-ai-2026-08-17T082207.png
 security:

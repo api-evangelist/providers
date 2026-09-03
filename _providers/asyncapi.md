@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: The AsyncAPI Specification is an open standard for describing asynchronous and event-driven APIs. It provides a machine-readable format for defining messaging interfaces across protocols like Kafka, M
   name: AsyncAPI Specification
   slug: asyncapi-spec
-- description: The Bundle API from AsyncAPI — 1 operation(s) for bundle.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Bundle API from AsyncAPI — 1 operation(s) for bundle.
   name: AsyncAPI Bundle API
   slug: asyncapi-bundle-api
-- description: The Convert API from AsyncAPI — 1 operation(s) for convert.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Convert API from AsyncAPI — 1 operation(s) for convert.
   name: AsyncAPI Convert API
   slug: asyncapi-convert-api
-- description: The Diff API from AsyncAPI — 1 operation(s) for diff.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Diff API from AsyncAPI — 1 operation(s) for diff.
   name: AsyncAPI Diff API
   slug: asyncapi-diff-api
-- description: The Generate API from AsyncAPI — 1 operation(s) for generate.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Generate API from AsyncAPI — 1 operation(s) for generate.
   name: AsyncAPI Generate API
   slug: asyncapi-generate-api
-- description: The Help API from AsyncAPI — 1 operation(s) for help.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Help API from AsyncAPI — 1 operation(s) for help.
   name: AsyncAPI Help API
   slug: asyncapi-help-api
-- description: The Parse API from AsyncAPI — 1 operation(s) for parse.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Parse API from AsyncAPI — 1 operation(s) for parse.
   name: AsyncAPI Parse API
   slug: asyncapi-parse-api
-- description: The Validate API from AsyncAPI — 1 operation(s) for validate.
+- baseURL: http://localhost
+  baseurl_source: spec
+  description: The Validate API from AsyncAPI — 1 operation(s) for validate.
   name: AsyncAPI Validate API
   slug: asyncapi-validate-api
 artifact_total: 34
@@ -198,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:

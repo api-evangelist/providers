@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 29 operations · 14 acting
 api_count: 2
 apis:
-- description: Query practice data using FHIR resources.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Query practice data using FHIR resources.
   name: Best Practice Software FHIR API
   slug: best-practice-fhir-api
-- description: The Registered Queries API from Best Practice Software — 6 operation(s) for registered queries.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: The Registered Queries API from Best Practice Software — 6 operation(s) for registered queries.
   name: Best Practice Software Registered Queries API
   slug: best-practice-registered-queries-api
-- description: Endpoints for practice onboarding and site metadata.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Endpoints for practice onboarding and site metadata.
   name: Best Practice Software Sites API
   slug: best-practice-sites-api
-- description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
   name: Best Practice Software SQL Passthrough API
   slug: best-practice-sql-passthrough-api
-- description: Obtain authorization tokens for desktop applications to authenticate API requests.
+- baseURL: https://api.haloconnect.io
+  baseurl_source: declared
+  description: Obtain authorization tokens for desktop applications to authenticate API requests.
   name: Best Practice Software Tokens API
   slug: best-practice-tokens-api
 artifact_total: 12
@@ -217,7 +227,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -227,7 +237,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 50.4
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,7 +255,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 24 operations · 6 acting
 api_count: 1
 apis:
-- description: The Availabilities API from Quandoo — 2 operation(s) for availabilities.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Availabilities API from Quandoo — 2 operation(s) for availabilities.
   name: Quandoo Availabilities API
   slug: quandoo-availabilities-api
-- description: The Customers API from Quandoo — 3 operation(s) for customers.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Customers API from Quandoo — 3 operation(s) for customers.
   name: Quandoo Customers API
   slug: quandoo-customers-api
-- description: The Merchants API from Quandoo — 5 operation(s) for merchants.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Merchants API from Quandoo — 5 operation(s) for merchants.
   name: Quandoo Merchants API
   slug: quandoo-merchants-api
-- description: The Reservation Enquiries API from Quandoo — 3 operation(s) for reservation enquiries.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Reservation Enquiries API from Quandoo — 3 operation(s) for reservation enquiries.
   name: Quandoo Reservation Enquiries API
   slug: quandoo-reservation-enquiries-api
-- description: The Reservation Settings API from Quandoo — 1 operation(s) for reservation settings.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Reservation Settings API from Quandoo — 1 operation(s) for reservation settings.
   name: Quandoo Reservation Settings API
   slug: quandoo-reservation-settings-api
-- description: The Reservations API from Quandoo — 2 operation(s) for reservations.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Reservations API from Quandoo — 2 operation(s) for reservations.
   name: Quandoo Reservations API
   slug: quandoo-reservations-api
-- description: The Reservations Tags API from Quandoo — 1 operation(s) for reservations tags.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Reservations Tags API from Quandoo — 1 operation(s) for reservations tags.
   name: Quandoo Reservations Tags API
   slug: quandoo-reservations-tags-api
-- description: The Reviews API from Quandoo — 1 operation(s) for reviews.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Reviews API from Quandoo — 1 operation(s) for reviews.
   name: Quandoo Reviews API
   slug: quandoo-reviews-api
-- description: The Status API from Quandoo — 1 operation(s) for status.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Status API from Quandoo — 1 operation(s) for status.
   name: Quandoo Status API
   slug: quandoo-status-api
-- description: The Validations API from Quandoo — 1 operation(s) for validations.
+- baseURL: https://public-api.prod.quandoo.com
+  baseurl_source: declared
+  description: The Validations API from Quandoo — 1 operation(s) for validations.
   name: Quandoo Validations API
   slug: quandoo-validations-api
 artifact_total: 234
@@ -869,7 +889,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/screenshots/quandoo-2026-06-20T192405.png
 security:

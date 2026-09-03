@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 212 operations · 102 acting · 4 human-in-the-loop
 api_count: 2
 apis:
-- description: At this time, the API exposes some limited information about your account. However, `/whoami` is a good endpoint to hit to verify that you're hitting the API correctly and that your token is working a
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: At this time, the API exposes some limited information about your account. However, `/whoami` is a good endpoint to hit to verify that you're hitting the API correctly and that your token is working a
   name: Coda Project Account API
   slug: coda-project-account-api
-- description: This API offers analytics data for your docs and Packs over time.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API offers analytics data for your docs and Packs over time.
   name: Coda Project Analytics API
   slug: coda-project-analytics-api
-- description: View and revoke individual user API tokens within an organization.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: View and revoke individual user API tokens within an organization.
   name: Coda Project API Tokens API
   slug: coda-project-api-tokens-api
-- description: This API allows you to trigger automations.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API allows you to trigger automations.
   name: Coda Project Automations API
   slug: coda-project-automations-api
-- description: 'While columns in Superhuman Docs have user-friendly names, they also have immutable IDs that are used when reading and writing rows. These endpoints let you query the columns in a table and get basic '
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: 'While columns in Superhuman Docs have user-friendly names, they also have immutable IDs that are used when reading and writing rows. These endpoints let you query the columns in a table and get basic '
   name: Coda Project Columns API
   slug: coda-project-columns-api
-- description: Controls provide a user-friendly way to input a value that can affect other parts of the doc. This API lets you list controls and get their current values.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Controls provide a user-friendly way to input a value that can affect other parts of the doc. This API lets you list controls and get their current values.
   name: Coda Project Controls API
   slug: coda-project-controls-api
-- description: The CustomDocDomains API from Coda Project — 3 operation(s) for customdocdomains.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The CustomDocDomains API from Coda Project — 3 operation(s) for customdocdomains.
   name: Coda Project CustomDocDomains API
   slug: coda-project-customdocdomains-api
-- description: Export docs for backup or ingestion into a DLP or eDiscovery system.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Export docs for backup or ingestion into a DLP or eDiscovery system.
   name: Coda Project Doc Export API
   slug: coda-project-doc-export-api
-- description: This API lets you manage sharing and permissions for your docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API lets you manage sharing and permissions for your docs.
   name: Coda Project Doc Permissions API
   slug: coda-project-doc-permissions-api
-- description: Documents are foundational, top-level collaborative projects that contain pages. The API lets you list and search your documents.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Documents are foundational, top-level collaborative projects that contain pages. The API lets you list and search your documents.
   name: Coda Project Docs API
   slug: coda-project-docs-api
-- description: Provides access to audit events within an organization.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Provides access to audit events within an organization.
   name: Coda Project Events API
   slug: coda-project-events-api
-- description: This API lets you manage sharing and permissions for your folders.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API lets you manage sharing and permissions for your folders.
   name: Coda Project Folder Permissions API
   slug: coda-project-folder-permissions-api
-- description: Folders contain docs and enable folder members to access those docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Folders contain docs and enable folder members to access those docs.
   name: Coda Project Folders API
   slug: coda-project-folders-api
-- description: Formulas can be great for performing one-off computations, or used with tables and other formulas to compute a single value. With this API, you can discover formulas in a doc and obtain computed resul
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Formulas can be great for performing one-off computations, or used with tables and other formulas to compute a single value. With this API, you can discover formulas in a doc and obtain computed resul
   name: Coda Project Formulas API
   slug: coda-project-formulas-api
-- description: The Go Links API from Coda Project — 1 operation(s) for go links.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The Go Links API from Coda Project — 1 operation(s) for go links.
   name: Coda Project Go Links API
   slug: coda-project-go-links-api
-- description: This API lets you enumerate groups and group membership.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API lets you enumerate groups and group membership.
   name: Coda Project Groups API
   slug: coda-project-groups-api
-- description: Legal holds are used to ensure a given set of docs cannot be deleted and enables simplified export management of doc content.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Legal holds are used to ensure a given set of docs cannot be deleted and enables simplified export management of doc content.
   name: Coda Project LegalHolds API
   slug: coda-project-legalholds-api
-- description: These endpoints wouldn't fit anywhere else, but you may find them useful when working with Superhuman Docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: These endpoints wouldn't fit anywhere else, but you may find them useful when working with Superhuman Docs.
   name: Coda Project Miscellaneous API
   slug: coda-project-miscellaneous-api
-- description: This API enables viewing and modifying user information at the Organization level.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API enables viewing and modifying user information at the Organization level.
   name: Coda Project Organization Users API
   slug: coda-project-organization-users-api
-- description: Organizations are where Enterprise-level policy is set for users and workspaces.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Organizations are where Enterprise-level policy is set for users and workspaces.
   name: Coda Project Organizations API
   slug: coda-project-organizations-api
-- description: Pack configurations control fine grained access, scopes, feature sets, shareability of docs with installed Packs, and more settings.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Pack configurations control fine grained access, scopes, feature sets, shareability of docs with installed Packs, and more settings.
   name: Coda Project Pack Configurations API
   slug: coda-project-pack-configurations-api
-- description: Pack controls govern access to Packs within an organization.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Pack controls govern access to Packs within an organization.
   name: Coda Project Pack Controls API
   slug: coda-project-pack-controls-api
-- description: Packs are integrations connecting Superhuman Docs to external data sources.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Packs are integrations connecting Superhuman Docs to external data sources.
   name: Coda Project Packs API
   slug: coda-project-packs-api
-- description: Pages in Superhuman Docs offer canvases containing rich text, tables, controls, and other objects.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Pages in Superhuman Docs offer canvases containing rich text, tables, controls, and other objects.
   name: Coda Project Pages API
   slug: coda-project-pages-api
-- description: This API lets you manage sharing and permissions for your docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API lets you manage sharing and permissions for your docs.
   name: Coda Project Permissions API
   slug: coda-project-permissions-api
-- description: Import preferences control how external entities are imported (exempt, owner, location), scoped to an organization and importer.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Import preferences control how external entities are imported (exempt, owner, location), scoped to an organization and importer.
   name: Coda Project Preferences API
   slug: coda-project-preferences-api
-- description: Documents can be published publicly and associated with categories to help the world discover them. This API lets you manage the publishing settings of your docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Documents can be published publicly and associated with categories to help the world discover them. This API lets you manage the publishing settings of your docs.
   name: Coda Project Publishing API
   slug: coda-project-publishing-api
-- description: You'll likely use this part of the API the most. These endpoints let you retrieve row data from tables in Superhuman Docs as well as create, upsert, update, and delete them. Most of these endpoints wo
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: You'll likely use this part of the API the most. These endpoints let you retrieve row data from tables in Superhuman Docs as well as create, upsert, update, and delete them. Most of these endpoints wo
   name: Coda Project Rows API
   slug: coda-project-rows-api
-- description: The Tables API from Coda Project — 2 operation(s) for tables.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The Tables API from Coda Project — 2 operation(s) for tables.
   name: Coda Project Tables API
   slug: coda-project-tables-api
-- description: The Webhooks API from Coda Project — 3 operation(s) for webhooks.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The Webhooks API from Coda Project — 3 operation(s) for webhooks.
   name: Coda Project Webhooks API
   slug: coda-project-webhooks-api
-- description: This API enables viewing and modifying user membership within a workspace. It is accessible both to organization admins and workspace admins for the respective workspaces.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API enables viewing and modifying user membership within a workspace. It is accessible both to organization admins and workspace admins for the respective workspaces.
   name: Coda Project Workspace Users API
   slug: coda-project-workspace-users-api
-- description: This API allows you to list and view your organization's workspaces.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API allows you to list and view your organization's workspaces.
   name: Coda Project Workspaces API
   slug: coda-project-workspaces-api
 arazzos:
@@ -557,7 +621,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -567,7 +631,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 61.0
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -579,7 +643,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:

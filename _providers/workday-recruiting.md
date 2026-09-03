@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: SOAP-based web service providing comprehensive access to Workday Recruiting business services data for integration with talent management and applicant tracking systems. Includes over 120 operations c
   name: Workday Recruiting SOAP Web Services API
   slug: workday-recruiting-soap-web-services-api
-- description: To view and maintain Agent Definitions with the Agent System of Record.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: To view and maintain Agent Definitions with the Agent System of Record.
   name: Workday Recruiting agentDefinition API
   slug: workday-recruiting-agentdefinition-api
-- description: Retrieve and manage pre-hire and applicant records, including high-volume applicant import operations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Retrieve and manage pre-hire and applicant records, including high-volume applicant import operations.
   name: Workday Recruiting Applicants API
   slug: workday-recruiting-applicants-api
-- description: Submit and retrieve background check results and manage background check packages for candidate screening.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Submit and retrieve background check results and manage background check packages for candidate screening.
   name: Workday Recruiting Background Checks API
   slug: workday-recruiting-background-checks-api
-- description: Create, retrieve, and update candidate profiles including personal information, attachments, photos, and assessment data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Create, retrieve, and update candidate profiles including personal information, attachments, photos, and assessment data.
   name: Workday Recruiting Candidates API
   slug: workday-recruiting-candidates-api
-- description: Manage recruiting configuration settings including questionnaires, assessment categories, veteran statuses, site brands, and regions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Manage recruiting configuration settings including questionnaires, assessment categories, veteran statuses, site brands, and regions.
   name: Workday Recruiting Configuration API
   slug: workday-recruiting-configuration-api
-- description: Manage evergreen requisitions used for ongoing hiring needs without a specific number of openings or close date.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Manage evergreen requisitions used for ongoing hiring needs without a specific number of openings or close date.
   name: Workday Recruiting Evergreen Requisitions API
   slug: workday-recruiting-evergreen-requisitions-api
-- description: Schedule interviews, submit interview feedback, manage interview settings, and configure self-schedule calendars.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Schedule interviews, submit interview feedback, manage interview settings, and configure self-schedule calendars.
   name: Workday Recruiting Interviews API
   slug: workday-recruiting-interviews-api
-- description: Manage the lifecycle of job applications from submission through disposition, including stage movement and offer initiation.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Manage the lifecycle of job applications from submission through disposition, including stage movement and offer initiation.
   name: Workday Recruiting Job Applications API
   slug: workday-recruiting-job-applications-api
-- description: Post, update, and unpost jobs to internal and external career sites, and manage job posting site configurations.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Post, update, and unpost jobs to internal and external career sites, and manage job posting site configurations.
   name: Workday Recruiting Job Postings API
   slug: workday-recruiting-job-postings-api
-- description: Create, retrieve, edit, close, freeze, and manage job requisitions for open positions within Workday recruiting workflows.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Create, retrieve, edit, close, freeze, and manage job requisitions for open positions within Workday recruiting workflows.
   name: Workday Recruiting Job Requisitions API
   slug: workday-recruiting-job-requisitions-api
-- description: Create and manage positions and position restrictions within the position management staffing model.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Create and manage positions and position restrictions within the position management staffing model.
   name: Workday Recruiting Positions API
   slug: workday-recruiting-positions-api
-- description: Manage recruiting agency relationships, agency users, and agency candidate submissions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/recruiting/
+  baseurl_source: declared
+  description: Manage recruiting agency relationships, agency users, and agency candidate submissions.
   name: Workday Recruiting Recruiting Agencies API
   slug: workday-recruiting-recruiting-agencies-api
 arazzos:
@@ -688,7 +712,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-recruiting/refs/heads/main/screenshots/workday-recruiting-2026-06-20T201608.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -50,76 +50,124 @@ apis:
 - description: Java Management Extensions API for programmatic management and monitoring of WebLogic Server.
   name: WebLogic JMX API
   slug: weblogic-jmx-api
-- description: Deploy, configure, and manage application deployments
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Deploy, configure, and manage application deployments
   name: Oracle WebLogic Server Application Deployment API
   slug: oracle-weblogic-application-deployment-api
-- description: Deploy, configure, and manage enterprise application deployments (EAR, WAR files)
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Deploy, configure, and manage enterprise application deployments (EAR, WAR files)
   name: Oracle WebLogic Server Application Deployments API
   slug: oracle-weblogic-application-deployments-api
-- description: Monitor application deployment status and health
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Monitor application deployment status and health
   name: Oracle WebLogic Server Application Runtime API
   slug: oracle-weblogic-application-runtime-api
-- description: Manage WebLogic Server clusters and dynamic servers
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage WebLogic Server clusters and dynamic servers
   name: Oracle WebLogic Server Clusters API
   slug: oracle-weblogic-clusters-api
-- description: Manage JDBC system resources and data sources
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage JDBC system resources and data sources
   name: Oracle WebLogic Server Data Sources API
   slug: oracle-weblogic-data-sources-api
-- description: Configure deployment targets and settings
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Configure deployment targets and settings
   name: Oracle WebLogic Server Deployment Configuration API
   slug: oracle-weblogic-deployment-configuration-api
-- description: Start, stop, and manage deployed application lifecycle
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Start, stop, and manage deployed application lifecycle
   name: Oracle WebLogic Server Deployment Lifecycle API
   slug: oracle-weblogic-deployment-lifecycle-api
-- description: View domain-level configuration
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: View domain-level configuration
   name: Oracle WebLogic Server Domain Configuration API
   slug: oracle-weblogic-domain-configuration-api
-- description: Domain-wide runtime monitoring available from the admin server
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Domain-wide runtime monitoring available from the admin server
   name: Oracle WebLogic Server Domain Runtime API
   slug: oracle-weblogic-domain-runtime-api
-- description: Manage edit sessions for deployment changes
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage edit sessions for deployment changes
   name: Oracle WebLogic Server Edit Session API
   slug: oracle-weblogic-edit-session-api
-- description: Monitor JDBC data source runtime statistics
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Monitor JDBC data source runtime statistics
   name: Oracle WebLogic Server JDBC Runtime API
   slug: oracle-weblogic-jdbc-runtime-api
-- description: Manage JMS servers, system resources, queues, and connection factories
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage JMS servers, system resources, queues, and connection factories
   name: Oracle WebLogic Server JMS API
   slug: oracle-weblogic-jms-api
-- description: Monitor JMS server and destination runtime statistics
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Monitor JMS server and destination runtime statistics
   name: Oracle WebLogic Server JMS Runtime API
   slug: oracle-weblogic-jms-runtime-api
-- description: Deploy and manage shared library deployments
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Deploy and manage shared library deployments
   name: Oracle WebLogic Server Library Deployments API
   slug: oracle-weblogic-library-deployments-api
-- description: Manage machines and Node Manager configuration
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage machines and Node Manager configuration
   name: Oracle WebLogic Server Machines API
   slug: oracle-weblogic-machines-api
-- description: Structured queries against runtime trees
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Structured queries against runtime trees
   name: Oracle WebLogic Server Runtime Search API
   slug: oracle-weblogic-runtime-search-api
-- description: Query and search across configuration trees
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Query and search across configuration trees
   name: Oracle WebLogic Server Search API
   slug: oracle-weblogic-search-api
-- description: Manage security realms, authentication providers, and users
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage security realms, authentication providers, and users
   name: Oracle WebLogic Server Security API
   slug: oracle-weblogic-security-api
-- description: Server lifecycle operations (start, stop, suspend, resume)
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Server lifecycle operations (start, stop, suspend, resume)
   name: Oracle WebLogic Server Server Lifecycle API
   slug: oracle-weblogic-server-lifecycle-api
-- description: Individual server runtime monitoring
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Individual server runtime monitoring
   name: Oracle WebLogic Server Server Runtime API
   slug: oracle-weblogic-server-runtime-api
-- description: Manage server templates for dynamic server creation
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage server templates for dynamic server creation
   name: Oracle WebLogic Server Server Templates API
   slug: oracle-weblogic-server-templates-api
-- description: Manage WebLogic Server instances
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Manage WebLogic Server instances
   name: Oracle WebLogic Server Servers API
   slug: oracle-weblogic-servers-api
-- description: Monitor asynchronous task status
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Monitor asynchronous task status
   name: Oracle WebLogic Server Tasks API
   slug: oracle-weblogic-tasks-api
-- description: Monitor thread pool utilization
+- baseURL: http://localhost:7001/management/weblogic/latest
+  baseurl_source: declared
+  description: Monitor thread pool utilization
   name: Oracle WebLogic Server Thread Pool Runtime API
   slug: oracle-weblogic-thread-pool-runtime-api
 artifact_total: 142
@@ -599,7 +647,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

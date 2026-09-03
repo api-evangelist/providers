@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -43,118 +43,194 @@ agentic_access:
   summary_line: 335 operations · 255 acting
 api_count: 12
 apis:
-- description: The agreement API from TM Forum — 2 operation(s) for agreement.
+- baseURL: https://serverRoot/tmf-api/agreementManagement/v4/
+  baseurl_source: spec
+  description: The agreement API from TM Forum — 2 operation(s) for agreement.
   name: TM Forum agreement API
   slug: tm-forum-agreement-api
-- description: The agreementSpecification API from TM Forum — 2 operation(s) for agreementspecification.
+- baseURL: https://serverRoot/tmf-api/agreementManagement/v4/
+  baseurl_source: spec
+  description: The agreementSpecification API from TM Forum — 2 operation(s) for agreementspecification.
   name: TM Forum agreementSpecification API
   slug: tm-forum-agreementspecification-api
-- description: The billFormat API from TM Forum — 2 operation(s) for billformat.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The billFormat API from TM Forum — 2 operation(s) for billformat.
   name: TM Forum billFormat API
   slug: tm-forum-billformat-api
-- description: The billingAccount API from TM Forum — 2 operation(s) for billingaccount.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The billingAccount API from TM Forum — 2 operation(s) for billingaccount.
   name: TM Forum billingAccount API
   slug: tm-forum-billingaccount-api
-- description: The billingCycleSpecification API from TM Forum — 2 operation(s) for billingcyclespecification.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The billingCycleSpecification API from TM Forum — 2 operation(s) for billingcyclespecification.
   name: TM Forum billingCycleSpecification API
   slug: tm-forum-billingcyclespecification-api
-- description: The billPresentationMedia API from TM Forum — 2 operation(s) for billpresentationmedia.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The billPresentationMedia API from TM Forum — 2 operation(s) for billpresentationmedia.
   name: TM Forum billPresentationMedia API
   slug: tm-forum-billpresentationmedia-api
-- description: Operations for CancelProductOrder Resource
+- baseURL: https://serverRoot
+  baseurl_source: spec
+  description: Operations for CancelProductOrder Resource
   name: TM Forum cancelProductOrder API
   slug: tm-forum-cancelproductorder-api
-- description: The cancelServiceOrder API from TM Forum — 2 operation(s) for cancelserviceorder.
+- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
+  baseurl_source: spec
+  description: The cancelServiceOrder API from TM Forum — 2 operation(s) for cancelserviceorder.
   name: TM Forum cancelServiceOrder API
   slug: tm-forum-cancelserviceorder-api
-- description: Operations for Category Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for Category Resource
   name: TM Forum category API
   slug: tm-forum-category-api
-- description: Operations for Customer Resource
+- baseURL_template: '{apiRoot}/tmf-api/customer/v5/'
+  baseurl_source: spec_template
+  description: Operations for Customer Resource
   name: TM Forum customer API
   slug: tm-forum-customer-api
-- description: Endpoints to register and terminate an Event Listener
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Endpoints to register and terminate an Event Listener
   name: TM Forum events subscription API
   slug: tm-forum-events-subscription-api
-- description: Operations for ExportJob Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ExportJob Resource
   name: TM Forum exportJob API
   slug: tm-forum-exportjob-api
-- description: The financialAccount API from TM Forum — 2 operation(s) for financialaccount.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The financialAccount API from TM Forum — 2 operation(s) for financialaccount.
   name: TM Forum financialAccount API
   slug: tm-forum-financialaccount-api
-- description: Operations for ImportJob Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ImportJob Resource
   name: TM Forum importJob API
   slug: tm-forum-importjob-api
-- description: Operations for Individual Resource
+- baseURL: https://serverRoot/partyManagement/v5/
+  baseurl_source: spec
+  description: Operations for Individual Resource
   name: TM Forum individual API
   slug: tm-forum-individual-api
-- description: Notifications for Resource Lifecycle and event notifications
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Notifications for Resource Lifecycle and event notifications
   name: TM Forum notification listener API
   slug: tm-forum-notification-listener-api
-- description: The notification listeners (client side) API from TM Forum — 62 operation(s) for notification listeners (client side).
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The notification listeners (client side) API from TM Forum — 62 operation(s) for notification listeners (client side).
   name: TM Forum notification listeners (client side) API
   slug: tm-forum-notification-listeners-client-side-api
-- description: Operations for Organization Resource
+- baseURL: https://serverRoot/partyManagement/v5/
+  baseurl_source: spec
+  description: Operations for Organization Resource
   name: TM Forum organization API
   slug: tm-forum-organization-api
-- description: The partyAccount API from TM Forum — 2 operation(s) for partyaccount.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The partyAccount API from TM Forum — 2 operation(s) for partyaccount.
   name: TM Forum partyAccount API
   slug: tm-forum-partyaccount-api
-- description: Operations for Product Resource
+- baseURL: https://serverRoot
+  baseurl_source: spec
+  description: Operations for Product Resource
   name: TM Forum product API
   slug: tm-forum-product-api
-- description: Operations for ProductCatalog Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductCatalog Resource
   name: TM Forum productCatalog API
   slug: tm-forum-productcatalog-api
-- description: Operations for ProductOffering Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductOffering Resource
   name: TM Forum productOffering API
   slug: tm-forum-productoffering-api
-- description: Operations for ProductOfferingPrice Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductOfferingPrice Resource
   name: TM Forum productOfferingPrice API
   slug: tm-forum-productofferingprice-api
-- description: Operations for ProductOrder Resource
+- baseURL: https://serverRoot
+  baseurl_source: spec
+  description: Operations for ProductOrder Resource
   name: TM Forum productOrder API
   slug: tm-forum-productorder-api
-- description: Operations for ProductSpecification Resource
+- baseURL: https://serverRoot/productCatalogManagement/v5/
+  baseurl_source: spec
+  description: Operations for ProductSpecification Resource
   name: TM Forum productSpecification API
   slug: tm-forum-productspecification-api
-- description: The quote API from TM Forum — 2 operation(s) for quote.
+- baseURL: https://serverRoot/tmf-api/quoteManagement/v4/
+  baseurl_source: spec
+  description: The quote API from TM Forum — 2 operation(s) for quote.
   name: TM Forum quote API
   slug: tm-forum-quote-api
-- description: The resourceCandidate API from TM Forum — 2 operation(s) for resourcecandidate.
+- baseURL: https://serverRoot/tmf-api/resourceCatalog/v4/
+  baseurl_source: spec
+  description: The resourceCandidate API from TM Forum — 2 operation(s) for resourcecandidate.
   name: TM Forum resourceCandidate API
   slug: tm-forum-resourcecandidate-api
-- description: The resourceCatalog API from TM Forum — 2 operation(s) for resourcecatalog.
+- baseURL: https://serverRoot/tmf-api/resourceCatalog/v4/
+  baseurl_source: spec
+  description: The resourceCatalog API from TM Forum — 2 operation(s) for resourcecatalog.
   name: TM Forum resourceCatalog API
   slug: tm-forum-resourcecatalog-api
-- description: The resourceCategory API from TM Forum — 2 operation(s) for resourcecategory.
+- baseURL: https://serverRoot/tmf-api/resourceCatalog/v4/
+  baseurl_source: spec
+  description: The resourceCategory API from TM Forum — 2 operation(s) for resourcecategory.
   name: TM Forum resourceCategory API
   slug: tm-forum-resourcecategory-api
-- description: The resourceSpecification API from TM Forum — 2 operation(s) for resourcespecification.
+- baseURL: https://serverRoot/tmf-api/resourceCatalog/v4/
+  baseurl_source: spec
+  description: The resourceSpecification API from TM Forum — 2 operation(s) for resourcespecification.
   name: TM Forum resourceSpecification API
   slug: tm-forum-resourcespecification-api
-- description: The serviceCandidate API from TM Forum — 2 operation(s) for servicecandidate.
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The serviceCandidate API from TM Forum — 2 operation(s) for servicecandidate.
   name: TM Forum serviceCandidate API
   slug: tm-forum-servicecandidate-api
-- description: The serviceCatalog API from TM Forum — 2 operation(s) for servicecatalog.
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The serviceCatalog API from TM Forum — 2 operation(s) for servicecatalog.
   name: TM Forum serviceCatalog API
   slug: tm-forum-servicecatalog-api
-- description: The serviceCategory API from TM Forum — 2 operation(s) for servicecategory.
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The serviceCategory API from TM Forum — 2 operation(s) for servicecategory.
   name: TM Forum serviceCategory API
   slug: tm-forum-servicecategory-api
-- description: The serviceOrder API from TM Forum — 2 operation(s) for serviceorder.
+- baseURL: https://serverRoot/tmf-api/serviceOrdering/v4
+  baseurl_source: spec
+  description: The serviceOrder API from TM Forum — 2 operation(s) for serviceorder.
   name: TM Forum serviceOrder API
   slug: tm-forum-serviceorder-api
-- description: The serviceSpecification API from TM Forum — 2 operation(s) for servicespecification.
+- baseURL: https://serverRoot/tmf-api/serviceCatalogManagement/v4/
+  baseurl_source: spec
+  description: The serviceSpecification API from TM Forum — 2 operation(s) for servicespecification.
   name: TM Forum serviceSpecification API
   slug: tm-forum-servicespecification-api
-- description: The settlementAccount API from TM Forum — 2 operation(s) for settlementaccount.
+- baseURL: https://serverRoot/tmf-api/accountManagement/v4/
+  baseurl_source: spec
+  description: The settlementAccount API from TM Forum — 2 operation(s) for settlementaccount.
   name: TM Forum settlementAccount API
   slug: tm-forum-settlementaccount-api
-- description: Operations for TroubleTicket Resource
+- baseURL_template: '{apiRoot}/tmf-api/troubleTicket/v5/'
+  baseurl_source: spec_template
+  description: Operations for TroubleTicket Resource
   name: TM Forum troubleTicket API
   slug: tm-forum-troubleticket-api
-- description: Operations for TroubleTicketSpecification Resource
+- baseURL_template: '{apiRoot}/tmf-api/troubleTicket/v5/'
+  baseurl_source: spec_template
+  description: Operations for TroubleTicketSpecification Resource
   name: TM Forum troubleTicketSpecification API
   slug: tm-forum-troubleticketspecification-api
 artifact_total: 1602
@@ -4944,7 +5020,7 @@ score:
     regime_id: telecommunications
     score: 15.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:

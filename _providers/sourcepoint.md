@@ -32,34 +32,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
-- description: The GDPR reporting API API from Sourcepoint — 2 operation(s) for gdpr reporting api.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The GDPR reporting API API from Sourcepoint — 2 operation(s) for gdpr reporting api.
   name: Sourcepoint GDPR reporting API
   slug: sourcepoint-gdpr-reporting-api-api
-- description: The GDPR Standard end-user consent status API from Sourcepoint — 2 operation(s) for gdpr standard end-user consent status.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The GDPR Standard end-user consent status API from Sourcepoint — 2 operation(s) for gdpr standard end-user consent status.
   name: Sourcepoint GDPR Standard end-user consent status API
   slug: sourcepoint-gdpr-standard-end-user-consent-status-api
-- description: The GDPR Standard vendor list API from Sourcepoint — 2 operation(s) for gdpr standard vendor list.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The GDPR Standard vendor list API from Sourcepoint — 2 operation(s) for gdpr standard vendor list.
   name: Sourcepoint GDPR Standard vendor list API
   slug: sourcepoint-gdpr-standard-vendor-list-api
-- description: The GDPR TCF end-user consent status API from Sourcepoint — 3 operation(s) for gdpr tcf end-user consent status.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The GDPR TCF end-user consent status API from Sourcepoint — 3 operation(s) for gdpr tcf end-user consent status.
   name: Sourcepoint GDPR TCF end-user consent status API
   slug: sourcepoint-gdpr-tcf-end-user-consent-status-api
-- description: The GDPR TCF vendor list API from Sourcepoint — 3 operation(s) for gdpr tcf vendor list.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The GDPR TCF vendor list API from Sourcepoint — 3 operation(s) for gdpr tcf vendor list.
   name: Sourcepoint GDPR TCF vendor list API
   slug: sourcepoint-gdpr-tcf-vendor-list-api
-- description: The Global Enterprise end-user consent status API from Sourcepoint — 2 operation(s) for global enterprise end-user consent status.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The Global Enterprise end-user consent status API from Sourcepoint — 2 operation(s) for global enterprise end-user consent status.
   name: Sourcepoint Global Enterprise end-user consent status API
   slug: sourcepoint-global-enterprise-end-user-consent-status-api
-- description: The Preferences end-user history API from Sourcepoint — 2 operation(s) for preferences end-user history.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The Preferences end-user history API from Sourcepoint — 2 operation(s) for preferences end-user history.
   name: Sourcepoint Preferences end-user history API
   slug: sourcepoint-preferences-end-user-history-api
-- description: The U.S. Multi-State Privacy end-user consent status API from Sourcepoint — 3 operation(s) for u.s. multi-state privacy end-user consent status.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The U.S. Multi-State Privacy end-user consent status API from Sourcepoint — 3 operation(s) for u.s. multi-state privacy end-user consent status.
   name: Sourcepoint U.S. Multi-State Privacy end-user consent status API
   slug: sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api
-- description: The U.S. Multi-State Privacy reporting API API from Sourcepoint — 2 operation(s) for u.s. multi-state privacy reporting api.
+- baseURL: https://cdn.privacy-mgmt.com/consent/tcfv2
+  baseurl_source: declared
+  description: The U.S. Multi-State Privacy reporting API API from Sourcepoint — 2 operation(s) for u.s. multi-state privacy reporting api.
   name: Sourcepoint U.S. Multi-State Privacy reporting API
   slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
 artifact_total: 38
@@ -465,7 +483,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Bitwise exchange-traded fund listings and details.
+- baseURL: https://api.bitwiseinvestments.com
+  baseurl_source: declared
+  description: Bitwise exchange-traded fund listings and details.
   name: Bitwise ETFs API
   slug: bitwise-etfs-api
-- description: Per-fund market data (NAV, AUM, holdings, performance).
+- baseURL: https://api.bitwiseinvestments.com
+  baseurl_source: declared
+  description: Per-fund market data (NAV, AUM, holdings, performance).
   name: Bitwise Funds API
   slug: bitwise-funds-api
-- description: Bitwise crypto index metadata, history, and constituents.
+- baseURL: https://api.bitwiseinvestments.com
+  baseurl_source: declared
+  description: Bitwise crypto index metadata, history, and constituents.
   name: Bitwise Indexes API
   slug: bitwise-indexes-api
 artifact_total: 11
@@ -192,7 +198,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/screenshots/bitwise-2026-07-25T203218.png
 security:

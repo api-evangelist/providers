@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 1
 apis:
-- description: The Analyses API from Google Cloud Contact Center AI — 1 operation(s) for analyses.
+- baseURL: https://contactcenterai.googleapis.com
+  baseurl_source: declared
+  description: The Analyses API from Google Cloud Contact Center AI — 1 operation(s) for analyses.
   name: Google Cloud Contact Center AI Analyses API
   slug: google-cloud-contact-center-ai-analyses-api
-- description: The Conversations API from Google Cloud Contact Center AI — 2 operation(s) for conversations.
+- baseURL: https://contactcenterai.googleapis.com
+  baseurl_source: declared
+  description: The Conversations API from Google Cloud Contact Center AI — 2 operation(s) for conversations.
   name: Google Cloud Contact Center AI Conversations API
   slug: google-cloud-contact-center-ai-conversations-api
-- description: The Insights API from Google Cloud Contact Center AI — 1 operation(s) for insights.
+- baseURL: https://contactcenterai.googleapis.com
+  baseurl_source: declared
+  description: The Insights API from Google Cloud Contact Center AI — 1 operation(s) for insights.
   name: Google Cloud Contact Center AI Insights API
   slug: google-cloud-contact-center-ai-insights-api
 artifact_total: 22
@@ -232,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/screenshots/google-cloud-contact-center-ai-2026-06-20T182101.png
 security:

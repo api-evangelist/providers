@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first launch from Launch Complex 16 at Cape Canaveral
+- baseURL: https://www.relativityspace.com
+  baseurl_source: spec
+  description: Terran R is a reusable medium-to-heavy lift launch vehicle offering up to 23,500 kg to LEO (downrange landing) and 5,500 kg to GTO, with a planned first launch from Launch Complex 16 at Cape Canaveral
   name: Relativity Space Terran R Launch
   slug: terran-r-launch
-- description: Stargate is Relativity Space's proprietary fourth-generation metal 3D printing platform used to manufacture Terran R structures at its Long Beach headquarters. This is an internal manufacturing techno
+- baseURL: https://www.relativityspace.com
+  baseurl_source: spec
+  description: Stargate is Relativity Space's proprietary fourth-generation metal 3D printing platform used to manufacture Terran R structures at its Long Beach headquarters. This is an internal manufacturing techno
   name: Relativity Space Stargate Manufacturing
   slug: stargate-manufacturing
-- description: Payload integration for dedicated constellation deployments, single large satellites, and multi-customer rideshare missions, supported through a standard Payload Attach Fitting (PAF) interface and doc
+- baseURL: https://www.relativityspace.com
+  baseurl_source: spec
+  description: Payload integration for dedicated constellation deployments, single large satellites, and multi-customer rideshare missions, supported through a standard Payload Attach Fitting (PAF) interface and doc
   name: Relativity Space Payload and Rideshare
   slug: payload-rideshare
 artifact_total: 9
@@ -127,7 +133,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/screenshots/relativity-space-2026-06-20T192820.png
 security:

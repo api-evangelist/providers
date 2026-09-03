@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: The documented SNYPR / Unified Defense SIEM web-service surface reached at /ws on the tenant host — token generation and validation, incident management and actions, activity, asset, geolocation, list
@@ -33,154 +45,254 @@ apis:
 - description: Asynchronous search microservice over the Securonix data lake — trigger a Spotter or SQL query, poll its execution status, page results, and cancel a running query. Bearer JWT via the snypr-service-ga
   name: Securonix Spotter API
   slug: securonix-spotter-api
-- description: The Adversaries API from Securonix — 3 operation(s) for adversaries.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Adversaries API from Securonix — 3 operation(s) for adversaries.
   name: Securonix Adversaries API
   slug: securonix-adversaries-api
-- description: The Assets API from Securonix — 3 operation(s) for assets.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Assets API from Securonix — 3 operation(s) for assets.
   name: Securonix Assets API
   slug: securonix-assets-api
-- description: The Attachments (Files) API from Securonix — 2 operation(s) for attachments (files).
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Attachments (Files) API from Securonix — 2 operation(s) for attachments (files).
   name: Securonix Attachments (Files) API
   slug: securonix-attachments-files-api
-- description: The Attack Pattern API from Securonix — 3 operation(s) for attack pattern.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Attack Pattern API from Securonix — 3 operation(s) for attack pattern.
   name: Securonix Attack Pattern API
   slug: securonix-attack-pattern-api
-- description: The Authentication API from Securonix — 2 operation(s) for authentication.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Authentication API from Securonix — 2 operation(s) for authentication.
   name: Securonix Authentication API
   slug: securonix-authentication-api
-- description: The Basic Search API from Securonix — 3 operation(s) for basic search.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Basic Search API from Securonix — 3 operation(s) for basic search.
   name: Securonix Basic Search API
   slug: securonix-basic-search-api
-- description: The Campaign API from Securonix — 3 operation(s) for campaign.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Campaign API from Securonix — 3 operation(s) for campaign.
   name: Securonix Campaign API
   slug: securonix-campaign-api
-- description: The Connectors API from Securonix — 2 operation(s) for connectors.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Connectors API from Securonix — 2 operation(s) for connectors.
   name: Securonix Connectors API
   slug: securonix-connectors-api
-- description: The Course of Action API from Securonix — 3 operation(s) for course of action.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Course of Action API from Securonix — 3 operation(s) for course of action.
   name: Securonix Course of Action API
   slug: securonix-course-of-action-api
-- description: Config Datasource Controller
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: Config Datasource Controller
   name: Securonix Datasource Management API
   slug: securonix-datasource-management-api
-- description: List of monitored devices and metadata.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: List of monitored devices and metadata.
   name: Securonix Device Monitoring API
   slug: securonix-device-monitoring-api
-- description: The Events API from Securonix — 3 operation(s) for events.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Events API from Securonix — 3 operation(s) for events.
   name: Securonix Events API
   slug: securonix-events-api
-- description: The Exploit Target API from Securonix — 3 operation(s) for exploit target.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Exploit Target API from Securonix — 3 operation(s) for exploit target.
   name: Securonix Exploit Target API
   slug: securonix-exploit-target-api
-- description: The Identity API from Securonix — 3 operation(s) for identity.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Identity API from Securonix — 3 operation(s) for identity.
   name: Securonix Identity API
   slug: securonix-identity-api
-- description: The Incident API from Securonix — 3 operation(s) for incident.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Incident API from Securonix — 3 operation(s) for incident.
   name: Securonix Incident API
   slug: securonix-incident-api
-- description: The Indicators API from Securonix — 3 operation(s) for indicators.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Indicators API from Securonix — 3 operation(s) for indicators.
   name: Securonix Indicators API
   slug: securonix-indicators-api
-- description: The Infrastructure API from Securonix — 3 operation(s) for infrastructure.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Infrastructure API from Securonix — 3 operation(s) for infrastructure.
   name: Securonix Infrastructure API
   slug: securonix-infrastructure-api
-- description: The Intrusion Set API from Securonix — 3 operation(s) for intrusion set.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Intrusion Set API from Securonix — 3 operation(s) for intrusion set.
   name: Securonix Intrusion Set API
   slug: securonix-intrusion-set-api
-- description: The Investigations API from Securonix — 2 operation(s) for investigations.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Investigations API from Securonix — 2 operation(s) for investigations.
   name: Securonix Investigations API
   slug: securonix-investigations-api
-- description: Manage Datasource Jobs Controller
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: Manage Datasource Jobs Controller
   name: Securonix Job Management API
   slug: securonix-job-management-api
-- description: The Malware API from Securonix — 3 operation(s) for malware.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Malware API from Securonix — 3 operation(s) for malware.
   name: Securonix Malware API
   slug: securonix-malware-api
-- description: The Notes API from Securonix — 3 operation(s) for notes.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Notes API from Securonix — 3 operation(s) for notes.
   name: Securonix Notes API
   slug: securonix-notes-api
-- description: The Object Attribute Sources API from Securonix — 1 operation(s) for object attribute sources.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Attribute Sources API from Securonix — 1 operation(s) for object attribute sources.
   name: Securonix Object Attribute Sources API
   slug: securonix-object-attribute-sources-api
-- description: The Object Attributes API from Securonix — 3 operation(s) for object attributes.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Attributes API from Securonix — 3 operation(s) for object attributes.
   name: Securonix Object Attributes API
   slug: securonix-object-attributes-api
-- description: The Object Comments API from Securonix — 3 operation(s) for object comments.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Comments API from Securonix — 3 operation(s) for object comments.
   name: Securonix Object Comments API
   slug: securonix-object-comments-api
-- description: The Object Relation Counts API from Securonix — 1 operation(s) for object relation counts.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Relation Counts API from Securonix — 1 operation(s) for object relation counts.
   name: Securonix Object Relation Counts API
   slug: securonix-object-relation-counts-api
-- description: The Object Relationship Attributes API from Securonix — 2 operation(s) for object relationship attributes.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Relationship Attributes API from Securonix — 2 operation(s) for object relationship attributes.
   name: Securonix Object Relationship Attributes API
   slug: securonix-object-relationship-attributes-api
-- description: The Object Relationship Comments API from Securonix — 2 operation(s) for object relationship comments.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Relationship Comments API from Securonix — 2 operation(s) for object relationship comments.
   name: Securonix Object Relationship Comments API
   slug: securonix-object-relationship-comments-api
-- description: The Object Relationships API from Securonix — 2 operation(s) for object relationships.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Relationships API from Securonix — 2 operation(s) for object relationships.
   name: Securonix Object Relationships API
   slug: securonix-object-relationships-api
-- description: The Object Sources API from Securonix — 2 operation(s) for object sources.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Sources API from Securonix — 2 operation(s) for object sources.
   name: Securonix Object Sources API
   slug: securonix-object-sources-api
-- description: The Object Summary API from Securonix — 1 operation(s) for object summary.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Summary API from Securonix — 1 operation(s) for object summary.
   name: Securonix Object Summary API
   slug: securonix-object-summary-api
-- description: The Object Tags API from Securonix — 2 operation(s) for object tags.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Tags API from Securonix — 2 operation(s) for object tags.
   name: Securonix Object Tags API
   slug: securonix-object-tags-api
-- description: The Object Watchlist API from Securonix — 3 operation(s) for object watchlist.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Object Watchlist API from Securonix — 3 operation(s) for object watchlist.
   name: Securonix Object Watchlist API
   slug: securonix-object-watchlist-api
-- description: Config Resource Parser Controller
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: Config Resource Parser Controller
   name: Securonix Parser Management API
   slug: securonix-parser-management-api
-- description: The Policy Management API allows users to configure policies in the Unified Defense SIEM platform (UDS).
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Policy Management API allows users to configure policies in the Unified Defense SIEM platform (UDS).
   name: Securonix Policy Management API
   slug: securonix-policy-management-api
-- description: The Report API from Securonix — 3 operation(s) for report.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Report API from Securonix — 3 operation(s) for report.
   name: Securonix Report API
   slug: securonix-report-api
-- description: The Search API from Securonix — 2 operation(s) for search.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Search API from Securonix — 2 operation(s) for search.
   name: Securonix Search API
   slug: securonix-search-api
-- description: The Signatures API from Securonix — 3 operation(s) for signatures.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Signatures API from Securonix — 3 operation(s) for signatures.
   name: Securonix Signatures API
   slug: securonix-signatures-api
-- description: The Sources API from Securonix — 2 operation(s) for sources.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Sources API from Securonix — 2 operation(s) for sources.
   name: Securonix Sources API
   slug: securonix-sources-api
-- description: The Spearphish Events API from Securonix — 3 operation(s) for spearphish events.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Spearphish Events API from Securonix — 3 operation(s) for spearphish events.
   name: Securonix Spearphish Events API
   slug: securonix-spearphish-events-api
-- description: Health Check Controller
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: Health Check Controller
   name: Securonix Supporting API
   slug: securonix-supporting-api-api
-- description: The System API from Securonix — 2 operation(s) for system.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The System API from Securonix — 2 operation(s) for system.
   name: Securonix System API
   slug: securonix-system-api
-- description: The Tags API from Securonix — 2 operation(s) for tags.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Tags API from Securonix — 2 operation(s) for tags.
   name: Securonix Tags API
   slug: securonix-tags-api
-- description: The Tasks API from Securonix — 2 operation(s) for tasks.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Tasks API from Securonix — 2 operation(s) for tasks.
   name: Securonix Tasks API
   slug: securonix-tasks-api
-- description: MITRE ATT&CK threat coverage analysis API for analyzing policy coverage across tactics and techniques.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: MITRE ATT&CK threat coverage analysis API for analyzing policy coverage across tactics and techniques.
   name: Securonix Threat Coverage API
   slug: securonix-threat-coverage-api
-- description: The TLP API from Securonix — 3 operation(s) for tlp.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The TLP API from Securonix — 3 operation(s) for tlp.
   name: Securonix TLP API
   slug: securonix-tlp-api
-- description: The Tool API from Securonix — 3 operation(s) for tool.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Tool API from Securonix — 3 operation(s) for tool.
   name: Securonix Tool API
   slug: securonix-tool-api
-- description: The TTP API from Securonix — 3 operation(s) for ttp.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The TTP API from Securonix — 3 operation(s) for ttp.
   name: Securonix TTP API
   slug: securonix-ttp-api
-- description: The Vulnerability API from Securonix — 3 operation(s) for vulnerability.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Vulnerability API from Securonix — 3 operation(s) for vulnerability.
   name: Securonix Vulnerability API
   slug: securonix-vulnerability-api
-- description: The Whitelist Rules API from Securonix — 5 operation(s) for whitelist rules.
+- baseURL: https://policymanagement.api.securonix.net
+  baseurl_source: declared
+  description: The Whitelist Rules API from Securonix — 5 operation(s) for whitelist rules.
   name: Securonix Whitelist Rules API
   slug: securonix-whitelist-rules-api
 artifact_total: 58
@@ -348,9 +460,9 @@ rate_limits:
   slug: securonix-rate-limits
 score:
   band: thin
-  composite: 33.9
+  composite: 34.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -359,12 +471,12 @@ score:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
-    contract_quality: 53.4
+    contract_quality: 56.8
     developer_ergonomics: 8.9
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.1
+  previous_composite: 33.9
   provenance:
     conformance: derived
     contracts:
@@ -375,8 +487,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/securonix/refs/heads/main/screenshots/securonix-2026-09-02T154728.png
 security:
 - kind: authentication
   name: Securonix Authentication

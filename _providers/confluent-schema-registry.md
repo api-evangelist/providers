@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 1
 apis:
-- description: The Compatibility API from Confluent Schema Registry — 3 operation(s) for compatibility.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Compatibility API from Confluent Schema Registry — 3 operation(s) for compatibility.
   name: Confluent Schema Registry Compatibility API
   slug: confluent-schema-registry-compatibility-api
-- description: The Mode API from Confluent Schema Registry — 1 operation(s) for mode.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Mode API from Confluent Schema Registry — 1 operation(s) for mode.
   name: Confluent Schema Registry Mode API
   slug: confluent-schema-registry-mode-api
-- description: The Schemas API from Confluent Schema Registry — 3 operation(s) for schemas.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Schemas API from Confluent Schema Registry — 3 operation(s) for schemas.
   name: Confluent Schema Registry Schemas API
   slug: confluent-schema-registry-schemas-api
-- description: The Server API from Confluent Schema Registry — 1 operation(s) for server.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Server API from Confluent Schema Registry — 1 operation(s) for server.
   name: Confluent Schema Registry Server API
   slug: confluent-schema-registry-server-api
-- description: The Subjects API from Confluent Schema Registry — 6 operation(s) for subjects.
+- baseURL: http://localhost:8081
+  baseurl_source: declared
+  description: The Subjects API from Confluent Schema Registry — 6 operation(s) for subjects.
   name: Confluent Schema Registry Subjects API
   slug: confluent-schema-registry-subjects-api
 artifact_total: 34
@@ -228,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-schema-registry/refs/heads/main/screenshots/confluent-schema-registry-2026-06-20T174859.png
 security:

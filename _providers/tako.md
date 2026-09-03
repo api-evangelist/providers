@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: The agent API from Tako — 4 operation(s) for agent.
+- baseURL: https://tako.com/api
+  baseurl_source: declared
+  description: The agent API from Tako — 4 operation(s) for agent.
   name: Tako agent API
   slug: tako-agent-api
-- description: The tako API from Tako — 7 operation(s) for tako.
+- baseURL: https://tako.com/api
+  baseurl_source: declared
+  description: The tako API from Tako — 7 operation(s) for tako.
   name: Tako tako API
   slug: tako-tako-api
 artifact_total: 11
@@ -238,7 +242,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 13
 common:
@@ -40,6 +40,26 @@ common:
   title: ''
   type: DomainSecurity
   url: security/american-national-insurance-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-national-insurance-llms.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.americannational.com/home/legal/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.americannational.com/home/legal/client-site---mobile-app-privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.americannational.com/home/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.americannational.com/home/newsroom
 - group: company
   title: ''
   type: LinkedIn
@@ -48,6 +68,24 @@ common:
   title: ''
   type: Website
   url: https://www.americannational.com
+coverage:
+  checked: '2026-09-02'
+  detail: American National ships customer-facing web and mobile apps but no developer program at all — /developers, /developer, /api-docs, /openapi.json, /swagger.json and /llms.txt are all hard 404s on www.americannational.com, its 280-URL sitemap contains no API or integration page, and the two IBM API Connect gateways found in the client-portal JavaScript bundle (api.americannational.com and apigw.americannational.com/american-national/prod) are private back ends that answer every path with an HTTP 500 SOAP fault rather than a published contract.
+  evidence:
+  - status: 404
+    url: https://www.americannational.com/developers
+  - status: 404
+    url: https://www.americannational.com/openapi.json
+  - status: 404
+    url: https://www.americannational.com/llms.txt
+  - status: 404
+    url: https://www.americannational.com/.well-known/api-catalog
+  - status: 500
+    url: https://apigw.americannational.com/american-national/prod/openapi.json
+  - status: 404
+    url: https://apigw.americannational.com/american-national/prod/public/
+  reason: no-developer-program
+  state: none
 created: '2024-11-15'
 description: American National Insurance Company is a multi-line insurance holding company founded in 1905 and headquartered in Galveston, Texas. The company offers life insurance, annuities, pension risk transfer, health insurance, and property and casualty insurance through multiple subsidiary companies operating in all 50 states. American National holds A-level ratings from A.M. Best, Fitch, and S&P.
 features:
@@ -70,11 +108,14 @@ integrations:
 - description: Integration with pension actuaries, consultants, and plan sponsors for group annuity and pension risk transfer transactions.
   name: Pension Consultant Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: American National Insurance
 nav: Providers
 network: true
-overview: American National Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, Health Insurance, and Property Casualty.
+overview: 'American National Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Annuities, Health Insurance, and Property Casualty.
+
+
+  American National Insurance''s developer surface includes support, engineering blog, and 6 more developer resources.'
 press:
 - date: '2026-05-25'
   title: American National Insurance Company (ANICO) Data ...
@@ -94,19 +135,19 @@ press:
 random_paper: 14
 score:
   band: minimal
-  composite: 2.3
+  composite: 9.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -116,10 +157,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
+    score: 21.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 security:
 - kind: domain-security
   name: American National Insurance Domain Security

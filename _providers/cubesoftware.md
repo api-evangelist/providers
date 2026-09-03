@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -43,130 +43,214 @@ agentic_access:
   summary_line: 296 operations · 169 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Cube — 7 operation(s) for agents.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Agents API from Cube — 7 operation(s) for agents.
   name: Cube Agents API
   slug: cubesoftware-agents-api
-- description: Attributes are additional metadata that can be applied to values in the cube. They show up as additional columns in drilldowns, for instance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Attributes are additional metadata that can be applied to values in the cube. They show up as additional columns in drilldowns, for instance.
   name: Cube Attributes API
   slug: cubesoftware-attributes-api
-- description: The audit trail tracks the changes of values within the cube and helps with governance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The audit trail tracks the changes of values within the cube and helps with governance.
   name: Cube Audit Trail API
   slug: cubesoftware-audit-trail-api
-- description: The Auth API from Cube — 3 operation(s) for auth.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Auth API from Cube — 3 operation(s) for auth.
   name: Cube Auth API
   slug: cubesoftware-auth-api
-- description: The Cube API supports user authentication via OAuth2 using the OAuth2 Authorization Code Flow. To authenticate via OAuth2, an application must first be registered.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Cube API supports user authentication via OAuth2 using the OAuth2 Authorization Code Flow. To authenticate via OAuth2, an application must first be registered.
   name: Cube Authentication API
   slug: cubesoftware-authentication-api
-- description: The Canvases API from Cube — 10 operation(s) for canvases.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Canvases API from Cube — 10 operation(s) for canvases.
   name: Cube Canvases API
   slug: cubesoftware-canvases-api
-- description: The ChatMessages API from Cube — 2 operation(s) for chatmessages.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatMessages API from Cube — 2 operation(s) for chatmessages.
   name: Cube ChatMessages API
   slug: cubesoftware-chatmessages-api
-- description: The ChatSessions API from Cube — 2 operation(s) for chatsessions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatSessions API from Cube — 2 operation(s) for chatsessions.
   name: Cube ChatSessions API
   slug: cubesoftware-chatsessions-api
-- description: The ChatSettings API from Cube — 1 operation(s) for chatsettings.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatSettings API from Cube — 1 operation(s) for chatsettings.
   name: Cube ChatSettings API
   slug: cubesoftware-chatsettings-api
-- description: The Comments API from Cube — 2 operation(s) for comments.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Comments API from Cube — 2 operation(s) for comments.
   name: Cube Comments API
   slug: cubesoftware-comments-api
-- description: A user in Cube belongs to one or more companies. Companies are how various teams of employees manage their data (dimensions, etc) and permissions (users, etc).
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: A user in Cube belongs to one or more companies. Companies are how various teams of employees manage their data (dimensions, etc) and permissions (users, etc).
   name: Cube Companies API
   slug: cubesoftware-companies-api
-- description: The Company Groups API from Cube — 4 operation(s) for company groups.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Company Groups API from Cube — 4 operation(s) for company groups.
   name: Cube Company Groups API
   slug: cubesoftware-company-groups-api
-- description: The compliance API from Cube — 1 operation(s) for compliance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The compliance API from Cube — 1 operation(s) for compliance.
   name: Cube compliance API
   slug: cubesoftware-compliance-api
-- description: Connections to external source systems allow Cube to automatically import source dimensions and transaction data.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Connections to external source systems allow Cube to automatically import source dimensions and transaction data.
   name: Cube Connections API
   slug: cubesoftware-connections-api
-- description: The ContentType API from Cube — 2 operation(s) for contenttype.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ContentType API from Cube — 2 operation(s) for contenttype.
   name: Cube ContentType API
   slug: cubesoftware-contenttype-api
-- description: The cube API from Cube — 2 operation(s) for cube.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The cube API from Cube — 2 operation(s) for cube.
   name: Cube cube API
   slug: cubesoftware-cube-api
-- description: The data stored in a cube for a company, organized by their dimensions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The data stored in a cube for a company, organized by their dimensions.
   name: Cube Cube Data API
   slug: cubesoftware-cube-data-api
-- description: The Cube Value Range API from Cube — 4 operation(s) for cube value range.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Cube Value Range API from Cube — 4 operation(s) for cube value range.
   name: Cube Cube Value Range API
   slug: cubesoftware-cube-value-range-api
-- description: The Currencies API from Cube — 13 operation(s) for currencies.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Currencies API from Cube — 13 operation(s) for currencies.
   name: Cube Currencies API
   slug: cubesoftware-currencies-api
-- description: Access the underlying Dashboards of Cube
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Access the underlying Dashboards of Cube
   name: Cube Dashboard API
   slug: cubesoftware-dashboard-api
-- description: Cube often uses uploads as a way to load in transaction data for a given data table or connection. You can use the API to create new uploads, send files, and track the status of an upload.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Cube often uses uploads as a way to load in transaction data for a given data table or connection. You can use the API to create new uploads, send files, and track the status of an upload.
   name: Cube Data Table Uploads API
   slug: cubesoftware-data-table-uploads-api
-- description: Data Tables are a generic way to organize the source dimensions, mappings, uploads, and imports from an outside source into Cube (e.g. ERP connections, imported flat files, spreadsheet updates, employ
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Data Tables are a generic way to organize the source dimensions, mappings, uploads, and imports from an outside source into Cube (e.g. ERP connections, imported flat files, spreadsheet updates, employ
   name: Cube Data Tables API
   slug: cubesoftware-data-tables-api
-- description: 'Dimensions store the organizational hierarchy for a company and outline how their data is structured. All companies have top level dimensions called Account, Scenario, Department, and Time. They also '
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: 'Dimensions store the organizational hierarchy for a company and outline how their data is structured. All companies have top level dimensions called Account, Scenario, Department, and Time. They also '
   name: Cube Dimensions API
   slug: cubesoftware-dimensions-api
-- description: The Drilldown API from Cube — 1 operation(s) for drilldown.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Drilldown API from Cube — 1 operation(s) for drilldown.
   name: Cube Drilldown API
   slug: cubesoftware-drilldown-api
-- description: The ERP API from Cube — 4 operation(s) for erp.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ERP API from Cube — 4 operation(s) for erp.
   name: Cube ERP API
   slug: cubesoftware-erp-api
-- description: This endpoint can be used to track generic events completed by users.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: This endpoint can be used to track generic events completed by users.
   name: Cube Events API
   slug: cubesoftware-events-api
-- description: 'Cube uses formulas to calculate values for a dimension, based on other dimensions. Examples: - Gross Margin = "Revenue" - "Cost of Goods Sold" - Net Income = "Gross Margin" - "Expense" You can use for'
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: 'Cube uses formulas to calculate values for a dimension, based on other dimensions. Examples: - Gross Margin = "Revenue" - "Cost of Goods Sold" - Net Income = "Gross Margin" - "Expense" You can use for'
   name: Cube Formulas API
   slug: cubesoftware-formulas-api
-- description: The Integrations API from Cube — 7 operation(s) for integrations.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Integrations API from Cube — 7 operation(s) for integrations.
   name: Cube Integrations API
   slug: cubesoftware-integrations-api
-- description: The Invitations API from Cube — 3 operation(s) for invitations.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Invitations API from Cube — 3 operation(s) for invitations.
   name: Cube Invitations API
   slug: cubesoftware-invitations-api
-- description: The Library API from Cube — 12 operation(s) for library.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Library API from Cube — 12 operation(s) for library.
   name: Cube Library API
   slug: cubesoftware-library-api
-- description: The Notifications API from Cube — 2 operation(s) for notifications.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Notifications API from Cube — 2 operation(s) for notifications.
   name: Cube Notifications API
   slug: cubesoftware-notifications-api
-- description: The Permissions API from Cube — 2 operation(s) for permissions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Permissions API from Cube — 2 operation(s) for permissions.
   name: Cube Permissions API
   slug: cubesoftware-permissions-api
-- description: The permissionsets API from Cube — 2 operation(s) for permissionsets.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The permissionsets API from Cube — 2 operation(s) for permissionsets.
   name: Cube permissionsets API
   slug: cubesoftware-permissionsets-api
-- description: The PlanModeSessions API from Cube — 1 operation(s) for planmodesessions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The PlanModeSessions API from Cube — 1 operation(s) for planmodesessions.
   name: Cube PlanModeSessions API
   slug: cubesoftware-planmodesessions-api
-- description: The Planning Table API from Cube — 4 operation(s) for planning table.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Planning Table API from Cube — 4 operation(s) for planning table.
   name: Cube Planning Table API
   slug: cubesoftware-planning-table-api
-- description: The Scenarios API from Cube — 1 operation(s) for scenarios.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Scenarios API from Cube — 1 operation(s) for scenarios.
   name: Cube Scenarios API
   slug: cubesoftware-scenarios-api
-- description: Alternative hierarchies & grouping of dimensions in Cube
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Alternative hierarchies & grouping of dimensions in Cube
   name: Cube Tags API
   slug: cubesoftware-tags-api
-- description: The Taskflow API from Cube — 11 operation(s) for taskflow.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Taskflow API from Cube — 11 operation(s) for taskflow.
   name: Cube Taskflow API
   slug: cubesoftware-taskflow-api
-- description: The Team API from Cube — 1 operation(s) for team.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Team API from Cube — 1 operation(s) for team.
   name: Cube Team API
   slug: cubesoftware-team-api
-- description: User endpoints allow for various functionality tied to users.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: User endpoints allow for various functionality tied to users.
   name: Cube User API
   slug: cubesoftware-user-api
-- description: The UserCompanies API from Cube — 3 operation(s) for usercompanies.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The UserCompanies API from Cube — 3 operation(s) for usercompanies.
   name: Cube UserCompanies API
   slug: cubesoftware-usercompanies-api
-- description: The Workflow API from Cube — 5 operation(s) for workflow.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Workflow API from Cube — 5 operation(s) for workflow.
   name: Cube Workflow API
   slug: cubesoftware-workflow-api
 artifact_total: 91
@@ -481,7 +565,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubesoftware/refs/heads/main/screenshots/cubesoftware-2026-07-25T210859.png
 security:

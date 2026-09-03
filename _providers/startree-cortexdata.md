@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
+- baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
+  baseurl_source: declared
+  description: The Query API API from StarTree (Cortexdata) — 1 operation(s) for query api.
   name: StarTree (Cortexdata) Query API API
   slug: startree-cortexdata-query-api-api
 artifact_total: 7
@@ -198,7 +200,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:

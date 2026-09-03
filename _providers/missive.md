@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: Create and retrieve analytics reports
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: Create and retrieve analytics reports
   name: Missive Analytics API
   slug: missive-analytics-api
-- description: List available contact books
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: List available contact books
   name: Missive Contact Books API
   slug: missive-contact-books-api
-- description: List contact groups and organizations
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: List contact groups and organizations
   name: Missive Contact Groups API
   slug: missive-contact-groups-api
-- description: Manage contacts and contact data
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: Manage contacts and contact data
   name: Missive Contacts API
   slug: missive-contacts-api
-- description: Manage conversations in the inbox
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: Manage conversations in the inbox
   name: Missive Conversations API
   slug: missive-conversations-api
-- description: Create and delete draft messages
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: Create and delete draft messages
   name: Missive Drafts API
   slug: missive-drafts-api
-- description: Create messages in custom channels
+- baseURL: https://public.missiveapp.com/v1/
+  baseurl_source: declared
+  description: Create messages in custom channels
   name: Missive Messages API
   slug: missive-messages-api
 artifact_total: 24
@@ -220,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The CDW Catalog API uses JSON to deliver customers real-time pricing and inventory status alongside any special pricing or catalog restrictions. It supports integration with eProcurement platforms for
@@ -133,7 +133,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdw/refs/heads/main/screenshots/cdw-2026-06-20T174108.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 32 operations · 18 acting
 api_count: 1
 apis:
-- description: The Accounts API from Brandtrack — 3 operation(s) for accounts.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Accounts API from Brandtrack — 3 operation(s) for accounts.
   name: Brandtrack Accounts API
   slug: brandtrack-accounts-api
-- description: The Groups API from Brandtrack — 2 operation(s) for groups.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Groups API from Brandtrack — 2 operation(s) for groups.
   name: Brandtrack Groups API
   slug: brandtrack-groups-api
-- description: The Locations API from Brandtrack — 2 operation(s) for locations.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Locations API from Brandtrack — 2 operation(s) for locations.
   name: Brandtrack Locations API
   slug: brandtrack-locations-api
-- description: The Other API from Brandtrack — 1 operation(s) for other.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Other API from Brandtrack — 1 operation(s) for other.
   name: Brandtrack Other API
   slug: brandtrack-other-api
-- description: The Partner API from Brandtrack — 2 operation(s) for partner.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Partner API from Brandtrack — 2 operation(s) for partner.
   name: Brandtrack Partner API
   slug: brandtrack-partner-api
-- description: The Roles API from Brandtrack — 1 operation(s) for roles.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Roles API from Brandtrack — 1 operation(s) for roles.
   name: Brandtrack Roles API
   slug: brandtrack-roles-api
-- description: The Subscriptions API from Brandtrack — 2 operation(s) for subscriptions.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Subscriptions API from Brandtrack — 2 operation(s) for subscriptions.
   name: Brandtrack Subscriptions API
   slug: brandtrack-subscriptions-api
-- description: The Users API from Brandtrack — 4 operation(s) for users.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Users API from Brandtrack — 4 operation(s) for users.
   name: Brandtrack Users API
   slug: brandtrack-users-api
-- description: The Zones API from Brandtrack — 3 operation(s) for zones.
+- baseURL: https://api.brandtrack.fm/v2/
+  baseurl_source: declared
+  description: The Zones API from Brandtrack — 3 operation(s) for zones.
   name: Brandtrack Zones API
   slug: brandtrack-zones-api
 artifact_total: 24
@@ -263,7 +281,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

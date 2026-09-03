@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The management REST API provides operations for creating and managing Azure AI Search service instances, scaling replicas and partitions, and managing keys and shared private link resources.
   name: Azure AI Search Management REST API
   slug: management-api
-- description: The Documents API from Azure AI Search — 2 operation(s) for documents.
+- baseURL: https://{search-service}.search.windows.net/
+  baseurl_source: declared
+  description: The Documents API from Azure AI Search — 2 operation(s) for documents.
   name: Azure AI Search Documents API
   slug: microsoft-azure-search-documents-api
-- description: The Indexes API from Azure AI Search — 2 operation(s) for indexes.
+- baseURL: https://{search-service}.search.windows.net/
+  baseurl_source: declared
+  description: The Indexes API from Azure AI Search — 2 operation(s) for indexes.
   name: Azure AI Search Indexes API
   slug: microsoft-azure-search-indexes-api
 artifact_total: 13
@@ -180,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-search/refs/heads/main/screenshots/microsoft-azure-search-2026-06-20T185434.png
 security:

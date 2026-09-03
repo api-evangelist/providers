@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -43,151 +43,249 @@ agentic_access:
   summary_line: 54 operations · 50 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for creating and managing CodeDeploy applications
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing CodeDeploy applications
   name: Amazon CodeDeploy Applications API
   slug: amazon-codedeploy-applications-api
-- description: Operations for creating and monitoring deployments
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and monitoring deployments
   name: Amazon CodeDeploy Deployments API
   slug: amazon-codedeploy-deployments-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.AddTagsToOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.addtagstoonpremisesinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.AddTagsToOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.addtagstoonpremisesinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.AddTagsToOnPremisesInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-addtagstoonpremisesinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetApplicationRevisions API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetapplicationrevisions.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetApplicationRevisions API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetapplicationrevisions.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetApplicationRevisions API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetapplicationrevisions-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetApplications API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetapplications.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetApplications API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetapplications.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetApplications API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetapplications-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentGroups API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymentgroups.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentGroups API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymentgroups.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentGroups API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymentgroups-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymentinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymentinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymentinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeployments API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeployments.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeployments API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeployments.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetDeployments API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeployments-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentTargets API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymenttargets.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentTargets API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetdeploymenttargets.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetDeploymentTargets API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetdeploymenttargets-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetonpremisesinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.BatchGetOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.batchgetonpremisesinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.BatchGetOnPremisesInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-batchgetonpremisesinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ContinueDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.continuedeployment.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ContinueDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.continuedeployment.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ContinueDeployment API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-continuedeployment-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.CreateApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createapplication.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.CreateApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createapplication.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.CreateApplication API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-createapplication-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeployment.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeployment.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.CreateDeployment API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeployment-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeploymentconfig.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeploymentconfig.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.CreateDeploymentConfig API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeploymentconfig-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeploymentgroup.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.CreateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.createdeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.CreateDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-createdeploymentgroup-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeleteApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deleteapplication.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeleteApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deleteapplication.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeleteApplication API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deleteapplication-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeleteDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletedeploymentconfig.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeleteDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletedeploymentconfig.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeleteDeploymentConfig API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deletedeploymentconfig-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeleteDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletedeploymentgroup.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeleteDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletedeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeleteDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deletedeploymentgroup-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeleteGitHubAccountToken API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletegithubaccounttoken.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeleteGitHubAccountToken API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deletegithubaccounttoken.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeleteGitHubAccountToken API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deletegithubaccounttoken-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeleteResourcesByExternalId API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deleteresourcesbyexternalid.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeleteResourcesByExternalId API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deleteresourcesbyexternalid.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeleteResourcesByExternalId API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deleteresourcesbyexternalid-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.DeregisterOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deregisteronpremisesinstance.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.DeregisterOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.deregisteronpremisesinstance.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.DeregisterOnPremisesInstance API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-deregisteronpremisesinstance-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getapplication.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getapplication.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetApplication API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getapplication-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetApplicationRevision API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getapplicationrevision.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetApplicationRevision API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getapplicationrevision.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetApplicationRevision API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getapplicationrevision-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeployment.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeployment.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetDeployment API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeployment-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentconfig.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentConfig API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentconfig.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetDeploymentConfig API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentconfig-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentgroup.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentgroup-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentinstance.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymentinstance.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetDeploymentInstance API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymentinstance-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentTarget API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymenttarget.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetDeploymentTarget API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getdeploymenttarget.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetDeploymentTarget API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getdeploymenttarget-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.GetOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getonpremisesinstance.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.GetOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.getonpremisesinstance.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.GetOnPremisesInstance API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-getonpremisesinstance-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListApplicationRevisions API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listapplicationrevisions.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListApplicationRevisions API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listapplicationrevisions.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListApplicationRevisions API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listapplicationrevisions-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListApplications API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listapplications.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListApplications API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listapplications.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListApplications API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listapplications-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentConfigs API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentconfigs.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentConfigs API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentconfigs.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListDeploymentConfigs API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentconfigs-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentGroups API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentgroups.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentGroups API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentgroups.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListDeploymentGroups API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentgroups-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymentinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListDeploymentInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymentinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListDeployments API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeployments.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListDeployments API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeployments.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListDeployments API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeployments-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentTargets API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymenttargets.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListDeploymentTargets API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listdeploymenttargets.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListDeploymentTargets API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listdeploymenttargets-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListGitHubAccountTokenNames API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listgithubaccounttokennames.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListGitHubAccountTokenNames API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listgithubaccounttokennames.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListGitHubAccountTokenNames API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listgithubaccounttokennames-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listonpremisesinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listonpremisesinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListOnPremisesInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listonpremisesinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.ListTagsForResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listtagsforresource.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.ListTagsForResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.listtagsforresource.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.ListTagsForResource API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-listtagsforresource-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.PutLifecycleEventHookExecutionStatus API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.putlifecycleeventhookexecutionstatus.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.PutLifecycleEventHookExecutionStatus API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.putlifecycleeventhookexecutionstatus.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.PutLifecycleEventHookExecutionStatus API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-putlifecycleeventhookexecutionstatus-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.RegisterApplicationRevision API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.registerapplicationrevision.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.RegisterApplicationRevision API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.registerapplicationrevision.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.RegisterApplicationRevision API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-registerapplicationrevision-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.RegisterOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.registeronpremisesinstance.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.RegisterOnPremisesInstance API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.registeronpremisesinstance.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.RegisterOnPremisesInstance API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-registeronpremisesinstance-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.RemoveTagsFromOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.removetagsfromonpremisesinstances.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.RemoveTagsFromOnPremisesInstances API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.removetagsfromonpremisesinstances.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.RemoveTagsFromOnPremisesInstances API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-removetagsfromonpremisesinstances-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.SkipWaitTimeForInstanceTermination API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.skipwaittimeforinstancetermination.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.SkipWaitTimeForInstanceTermination API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.skipwaittimeforinstancetermination.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.SkipWaitTimeForInstanceTermination API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-skipwaittimeforinstancetermination-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.StopDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.stopdeployment.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.StopDeployment API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.stopdeployment.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.StopDeployment API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-stopdeployment-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.TagResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.tagresource.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.TagResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.tagresource.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.TagResource API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-tagresource-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.UntagResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.untagresource.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.UntagResource API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.untagresource.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.UntagResource API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-untagresource-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.UpdateApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updateapplication.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.UpdateApplication API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updateapplication.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.UpdateApplication API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-updateapplication-api
-- description: 'The #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updatedeploymentgroup.'
+- baseURL: https://codedeploy.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API from Amazon CodeDeploy — 1 operation(s) for #x amz target=codedeploy 20141006.updatedeploymentgroup.'
   name: 'Amazon CodeDeploy #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
   slug: amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
 artifact_total: 1120
@@ -3560,7 +3658,7 @@ score:
       total: 49
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/screenshots/amazon-codedeploy-2026-07-25T195954.png
 security:

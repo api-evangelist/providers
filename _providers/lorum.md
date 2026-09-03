@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Lorum — 5 operation(s) for accounts.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Accounts API from Lorum — 5 operation(s) for accounts.
   name: Lorum Accounts API
   slug: lorum-accounts-api
-- description: The Customers API from Lorum — 10 operation(s) for customers.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Customers API from Lorum — 10 operation(s) for customers.
   name: Lorum Customers API
   slug: lorum-customers-api
-- description: The Customers V2 API from Lorum — 1 operation(s) for customers v2.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Customers V2 API from Lorum — 1 operation(s) for customers v2.
   name: Lorum Customers V2 API
   slug: lorum-customers-v2-api
-- description: The Documents API from Lorum — 2 operation(s) for documents.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Documents API from Lorum — 2 operation(s) for documents.
   name: Lorum Documents API
   slug: lorum-documents-api
-- description: The Exchange API from Lorum — 2 operation(s) for exchange.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Exchange API from Lorum — 2 operation(s) for exchange.
   name: Lorum Exchange API
   slug: lorum-exchange-api
-- description: The Internal Transfers API from Lorum — 1 operation(s) for internal transfers.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Internal Transfers API from Lorum — 1 operation(s) for internal transfers.
   name: Lorum Internal Transfers API
   slug: lorum-internal-transfers-api
-- description: The Oauth API from Lorum — 1 operation(s) for oauth.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Oauth API from Lorum — 1 operation(s) for oauth.
   name: Lorum Oauth API
   slug: lorum-oauth-api
-- description: The Payments API from Lorum — 2 operation(s) for payments.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Payments API from Lorum — 2 operation(s) for payments.
   name: Lorum Payments API
   slug: lorum-payments-api
-- description: The Simulation API from Lorum — 4 operation(s) for simulation.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Simulation API from Lorum — 4 operation(s) for simulation.
   name: Lorum Simulation API
   slug: lorum-simulation-api
-- description: The Transactions API from Lorum — 8 operation(s) for transactions.
+- baseURL: https://api.fuse.me
+  baseurl_source: declared
+  description: The Transactions API from Lorum — 8 operation(s) for transactions.
   name: Lorum Transactions API
   slug: lorum-transactions-api
 artifact_total: 25
@@ -242,7 +262,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -252,7 +272,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 39.9
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -269,7 +289,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorum/refs/heads/main/screenshots/lorum-2026-07-25T225554.png
 security:

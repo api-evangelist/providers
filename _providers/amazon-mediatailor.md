@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 44 operations · 28 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alerts#resourceArn API from Amazon MediaTailor — 1 operation(s) for alerts#resourcearn.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Alerts#resourceArn API from Amazon MediaTailor — 1 operation(s) for alerts#resourcearn.
   name: Amazon MediaTailor Alerts#resourceArn API
   slug: amazon-mediatailor-alerts-resourcearn-api
-- description: The Channel API from Amazon MediaTailor — 6 operation(s) for channel.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Channel API from Amazon MediaTailor — 6 operation(s) for channel.
   name: Amazon MediaTailor Channel API
   slug: amazon-mediatailor-channel-api
-- description: The Channels API from Amazon MediaTailor — 1 operation(s) for channels.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Channels API from Amazon MediaTailor — 1 operation(s) for channels.
   name: Amazon MediaTailor Channels API
   slug: amazon-mediatailor-channels-api
-- description: The ConfigureLogs API from Amazon MediaTailor — 2 operation(s) for configurelogs.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ConfigureLogs API from Amazon MediaTailor — 2 operation(s) for configurelogs.
   name: Amazon MediaTailor ConfigureLogs API
   slug: amazon-mediatailor-configurelogs-api
-- description: The PlaybackConfiguration API from Amazon MediaTailor — 2 operation(s) for playbackconfiguration.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The PlaybackConfiguration API from Amazon MediaTailor — 2 operation(s) for playbackconfiguration.
   name: Amazon MediaTailor PlaybackConfiguration API
   slug: amazon-mediatailor-playbackconfiguration-api
-- description: The PlaybackConfigurations API from Amazon MediaTailor — 1 operation(s) for playbackconfigurations.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The PlaybackConfigurations API from Amazon MediaTailor — 1 operation(s) for playbackconfigurations.
   name: Amazon MediaTailor PlaybackConfigurations API
   slug: amazon-mediatailor-playbackconfigurations-api
-- description: The PrefetchSchedule API from Amazon MediaTailor — 2 operation(s) for prefetchschedule.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The PrefetchSchedule API from Amazon MediaTailor — 2 operation(s) for prefetchschedule.
   name: Amazon MediaTailor PrefetchSchedule API
   slug: amazon-mediatailor-prefetchschedule-api
-- description: The SourceLocation API from Amazon MediaTailor — 5 operation(s) for sourcelocation.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The SourceLocation API from Amazon MediaTailor — 5 operation(s) for sourcelocation.
   name: Amazon MediaTailor SourceLocation API
   slug: amazon-mediatailor-sourcelocation-api
-- description: The SourceLocations API from Amazon MediaTailor — 1 operation(s) for sourcelocations.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The SourceLocations API from Amazon MediaTailor — 1 operation(s) for sourcelocations.
   name: Amazon MediaTailor SourceLocations API
   slug: amazon-mediatailor-sourcelocations-api
-- description: The Tags API from Amazon MediaTailor — 2 operation(s) for tags.
+- baseURL: http://api.mediatailor.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MediaTailor — 2 operation(s) for tags.
   name: Amazon MediaTailor Tags API
   slug: amazon-mediatailor-tags-api
 artifact_total: 511
@@ -1693,7 +1713,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/screenshots/amazon-mediatailor-2026-06-20T171741.png
 security:

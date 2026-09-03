@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -65,400 +65,664 @@ apis:
 - description: Kong Insomnia is an open-source API development platform for designing, debugging, and testing APIs. It supports REST, GraphQL, gRPC, and WebSocket protocols and provides collections, environments, mo
   name: Kong Insomnia
   slug: kong-insomnia
-- description: The ACLs API from Kong — 6 operation(s) for acls.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The ACLs API from Kong — 6 operation(s) for acls.
   name: Kong ACLs API
   slug: kong-acls-api
-- description: The Add-Ons API from Kong — 2 operation(s) for add-ons.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Add-Ons API from Kong — 2 operation(s) for add-ons.
   name: Kong Add-Ons API
   slug: kong-add-ons-api
-- description: The API API from Kong — 2 operation(s) for api.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API API from Kong — 2 operation(s) for api.
   name: Kong API API
   slug: kong-api-api
-- description: The API Attributes API from Kong — 1 operation(s) for api attributes.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Attributes API from Kong — 1 operation(s) for api attributes.
   name: Kong API Attributes API
   slug: kong-api-attributes-api
-- description: The API Documentation API from Kong — 3 operation(s) for api documentation.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Documentation API from Kong — 3 operation(s) for api documentation.
   name: Kong API Documentation API
   slug: kong-api-documentation-api
-- description: The API Image API from Kong — 2 operation(s) for api image.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Image API from Kong — 2 operation(s) for api image.
   name: Kong API Image API
   slug: kong-api-image-api
-- description: The API Implementation API from Kong — 3 operation(s) for api implementation.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Implementation API from Kong — 3 operation(s) for api implementation.
   name: Kong API Implementation API
   slug: kong-api-implementation-api
-- description: The API-keys API from Kong — 6 operation(s) for api-keys.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API-keys API from Kong — 6 operation(s) for api-keys.
   name: Kong API-keys API
   slug: kong-api-keys-api
-- description: The API Operations API from Kong — 2 operation(s) for api operations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Operations API from Kong — 2 operation(s) for api operations.
   name: Kong API Operations API
   slug: kong-api-operations-api
-- description: The API Package Documentation API from Kong — 3 operation(s) for api package documentation.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Package Documentation API from Kong — 3 operation(s) for api package documentation.
   name: Kong API Package Documentation API
   slug: kong-api-package-documentation-api
-- description: The API Package Image API from Kong — 2 operation(s) for api package image.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Package Image API from Kong — 2 operation(s) for api package image.
   name: Kong API Package Image API
   slug: kong-api-package-image-api
-- description: The API Package Operations API from Kong — 2 operation(s) for api package operations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Package Operations API from Kong — 2 operation(s) for api package operations.
   name: Kong API Package Operations API
   slug: kong-api-package-operations-api
-- description: The API Package Specification API from Kong — 2 operation(s) for api package specification.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Package Specification API from Kong — 2 operation(s) for api package specification.
   name: Kong API Package Specification API
   slug: kong-api-package-specification-api
-- description: The API Packages API from Kong — 2 operation(s) for api packages.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Packages API from Kong — 2 operation(s) for api packages.
   name: Kong API Packages API
   slug: kong-api-packages-api
-- description: The API Publication API from Kong — 4 operation(s) for api publication.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Publication API from Kong — 4 operation(s) for api publication.
   name: Kong API Publication API
   slug: kong-api-publication-api
-- description: The API Specification API from Kong — 3 operation(s) for api specification.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Specification API from Kong — 3 operation(s) for api specification.
   name: Kong API Specification API
   slug: kong-api-specification-api
-- description: The API Version API from Kong — 2 operation(s) for api version.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The API Version API from Kong — 2 operation(s) for api version.
   name: Kong API Version API
   slug: kong-api-version-api
-- description: Application Auth Strategies are sets of plugin configurations that represent how the gateway will perform authentication and authorization for a Product Version. Called “Auth Strategy” for short in th
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Application Auth Strategies are sets of plugin configurations that represent how the gateway will perform authentication and authorization for a Product Version. Called “Auth Strategy” for short in th
   name: Kong App Auth Strategies API
   slug: kong-app-auth-strategies-api
-- description: APIs related to Konnect Developer Portal Application Registrations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal Application Registrations.
   name: Kong Application Registrations API
   slug: kong-application-registrations-api
-- description: APIs related to Konnect Developer Portal Applications.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal Applications.
   name: Kong Applications API
   slug: kong-applications-api
-- description: APIs for managing static assets for Konnect Developer Portals.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs for managing static assets for Konnect Developer Portals.
   name: Kong Assets API
   slug: kong-assets-api
-- description: The Auth Settings API from Kong — 8 operation(s) for auth settings.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Auth Settings API from Kong — 8 operation(s) for auth settings.
   name: Kong Auth Settings API
   slug: kong-auth-settings-api
-- description: The Authentication API from Kong — 1 operation(s) for authentication.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Authentication API from Kong — 1 operation(s) for authentication.
   name: Kong Authentication API
   slug: kong-authentication-api
-- description: The Basic-auth credentials API from Kong — 6 operation(s) for basic-auth credentials.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Basic-auth credentials API from Kong — 6 operation(s) for basic-auth credentials.
   name: Kong Basic-auth credentials API
   slug: kong-basic-auth-credentials-api
-- description: A CA certificate object represents a trusted certificate authority. These objects are used by Kong Gateway to verify the validity of a client or server certificate.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A CA certificate object represents a trusted certificate authority. These objects are used by Kong Gateway to verify the validity of a client or server certificate.
   name: Kong CA Certificates API
   slug: kong-ca-certificates-api
-- description: Integrations are applications, either Konnect-internal or external, which extend the functionality of the Service Catalog. Install and authorize an integration to discover the resources across your or
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Integrations are applications, either Konnect-internal or external, which extend the functionality of the Service Catalog. Install and authorize an integration to discover the resources across your or
   name: Kong Catalog Integrations API
   slug: kong-catalog-integrations-api
-- description: Resource mappings represent the link between a resource and a service. Once a resource is mapped to a service, a rich view of the resource will be presented on the service page. A resource may be mapp
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Resource mappings represent the link between a resource and a service. Once a resource is mapped to a service, a rich view of the resource will be presented on the service page. A resource may be mapp
   name: Kong Catalog Resource Mappings API
   slug: kong-catalog-resource-mappings-api
-- description: Represents all the services mapped to a specific resource.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Represents all the services mapped to a specific resource.
   name: Kong Catalog Resource Services API
   slug: kong-catalog-resource-services-api
-- description: Resources are entities discovered from integration instances and are intended to be mapped to the relevant services in the catalog. Once a resource has been mapped to a service, a rich view of this re
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Resources are entities discovered from integration instances and are intended to be mapped to the relevant services in the catalog. Once a resource has been mapped to a service, a rich view of this re
   name: Kong Catalog Resources API
   slug: kong-catalog-resources-api
-- description: Service API mappings represent the link between Service and API entities. Once an API is mapped to a Service, a rich view of the linked APIs will be presented on the APIs tab of the Catalog Service. S
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Service API mappings represent the link between Service and API entities. Once an API is mapped to a Service, a rich view of the linked APIs will be presented on the APIs tab of the Catalog Service. S
   name: Kong Catalog Service API Mappings API
   slug: kong-catalog-service-api-mappings-api
-- description: Represents all the resources mapped to a specific service.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Represents all the resources mapped to a specific service.
   name: Kong Catalog Service Resources API
   slug: kong-catalog-service-resources-api
-- description: Create and maintain a centralized catalog of all services running in your organization. Add custom fields and map resources from across your organization to provide a 360-degree overview of your servi
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Create and maintain a centralized catalog of all services running in your organization. Add custom fields and map resources from across your organization to provide a 360-degree overview of your servi
   name: Kong Catalog Services API
   slug: kong-catalog-services-api
-- description: A certificate object represents a public certificate, and can be optionally paired with the corresponding private key. These objects are used by Kong Gateway to handle SSL/TLS termination for encrypte
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A certificate object represents a public certificate, and can be optionally paired with the corresponding private key. These objects are used by Kong Gateway to handle SSL/TLS termination for encrypte
   name: Kong Certificates API
   slug: kong-certificates-api
-- description: The Cloud Gateways Resource Quotas API from Kong — 3 operation(s) for cloud gateways resource quotas.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Cloud Gateways Resource Quotas API from Kong — 3 operation(s) for cloud gateways resource quotas.
   name: Kong Cloud Gateways Resource Quotas API
   slug: kong-cloud-gateways-resource-quotas-api
-- description: Config Store Secrets
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Config Store Secrets
   name: Kong Config Store Secrets API
   slug: kong-config-store-secrets-api
-- description: Config Stores
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Config Stores
   name: Kong Config Stores API
   slug: kong-config-stores-api
-- description: Consumer groups enable the organization and categorization of consumers (users or applications) within an API ecosystem. By grouping consumers together, you eliminate the need to manage them individua
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Consumer groups enable the organization and categorization of consumers (users or applications) within an API ecosystem. By grouping consumers together, you eliminate the need to manage them individua
   name: Kong Consumer Groups API
   slug: kong-consumer-groups-api
-- description: The consumer object represents a consumer - or a user - of a service. You can either rely on Kong Gateway as the primary datastore, or you can map the consumer list with your database to keep consiste
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The consumer object represents a consumer - or a user - of a service. You can either rely on Kong Gateway as the primary datastore, or you can map the consumer list with your database to keep consiste
   name: Kong Consumers API
   slug: kong-consumers-api
-- description: The Control Plane Groups API from Kong — 5 operation(s) for control plane groups.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Control Plane Groups API from Kong — 5 operation(s) for control plane groups.
   name: Kong Control Plane Groups API
   slug: kong-control-plane-groups-api
-- description: The Control Planes API from Kong — 2 operation(s) for control planes.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Control Planes API from Kong — 2 operation(s) for control planes.
   name: Kong Control Planes API
   slug: kong-control-planes-api
-- description: Several criteria templates are provided to help ensure your services adhere to industry best practices. A criteria template is a collection of criteria grouped together to target various categories. C
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Several criteria templates are provided to help ensure your services adhere to industry best practices. A criteria template is a collection of criteria grouped together to target various categories. C
   name: Kong Criteria Templates API
   slug: kong-criteria-templates-api
-- description: The Custom Domains API from Kong — 3 operation(s) for custom domains.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Custom Domains API from Kong — 3 operation(s) for custom domains.
   name: Kong Custom Domains API
   slug: kong-custom-domains-api
-- description: Custom Plugin Schemas
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Custom Plugin Schemas
   name: Kong Custom Plugin Schemas API
   slug: kong-custom-plugin-schemas-api
-- description: The CustomPlugins API from Kong — 2 operation(s) for customplugins.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The CustomPlugins API from Kong — 2 operation(s) for customplugins.
   name: Kong CustomPlugins API
   slug: kong-customplugins-api
-- description: The Dashboards API from Kong — 2 operation(s) for dashboards.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Dashboards API from Kong — 2 operation(s) for dashboards.
   name: Kong Dashboards API
   slug: kong-dashboards-api
-- description: The Data-Plane Group Configurations API from Kong — 2 operation(s) for data-plane group configurations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Data-Plane Group Configurations API from Kong — 2 operation(s) for data-plane group configurations.
   name: Kong Data-Plane Group Configurations API
   slug: kong-data-plane-group-configurations-api
-- description: Dynamic Client Registration Providers are configurations representing an external Identity Provider whose clients (i.e. Applications) Konnect will be authorized to manage. For instance, they will be a
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Dynamic Client Registration Providers are configurations representing an external Identity Provider whose clients (i.e. Applications) Konnect will be authorized to manage. For instance, they will be a
   name: Kong DCR Providers API
   slug: kong-dcr-providers-api
-- description: The Degraphql_routes API from Kong — 4 operation(s) for degraphql_routes.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Degraphql_routes API from Kong — 4 operation(s) for degraphql_routes.
   name: Kong Degraphql_routes API
   slug: kong-degraphql-routes-api
-- description: DP Certificates
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: DP Certificates
   name: Kong DP Certificates API
   slug: kong-dp-certificates-api
-- description: DP Nodes
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: DP Nodes
   name: Kong DP Nodes API
   slug: kong-dp-nodes-api
-- description: A backend cluster is an abstraction of a real Kafka cluster. It stores the connection and configuration details required for Kong Event Gateway to proxy traffic to Kafka. Multiple Kafka clusters can b
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A backend cluster is an abstraction of a real Kafka cluster. It stores the connection and configuration details required for Kong Event Gateway to proxy traffic to Kafka. Multiple Kafka clusters can b
   name: Kong Event Gateway Backend Clusters API
   slug: kong-event-gateway-backend-clusters-api
-- description: DataPlane certificates control how your running Event Gateway instances connect to the Control Plane
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: DataPlane certificates control how your running Event Gateway instances connect to the Control Plane
   name: Kong Event Gateway DataPlane Certificates API
   slug: kong-event-gateway-dataplane-certificates-api
-- description: Policies control how Kafka protocol traffic is modified between the client and the backend cluster. Listener policies are routing policies that pass traffic to the virtual cluster.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Policies control how Kafka protocol traffic is modified between the client and the backend cluster. Listener policies are routing policies that pass traffic to the virtual cluster.
   name: Kong Event Gateway Listener Policies API
   slug: kong-event-gateway-listener-policies-api
-- description: A listener represents hostname-port or IP-port combinations that connect to TCP sockets. Listeners need at least as many ports as backend brokers if you use port mapping in a Forward to Virtual Cluste
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A listener represents hostname-port or IP-port combinations that connect to TCP sockets. Listeners need at least as many ports as backend brokers if you use port mapping in a Forward to Virtual Cluste
   name: Kong Event Gateway Listeners API
   slug: kong-event-gateway-listeners-api
-- description: The Event Gateway Nodes API from Kong — 4 operation(s) for event gateway nodes.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Event Gateway Nodes API from Kong — 4 operation(s) for event gateway nodes.
   name: Kong Event Gateway Nodes API
   slug: kong-event-gateway-nodes-api
-- description: Configure a schema registry that can be used to validate payloads when producing/consuming messages
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Configure a schema registry that can be used to validate payloads when producing/consuming messages
   name: Kong Event Gateway Schema Registries API
   slug: kong-event-gateway-schema-registries-api
-- description: Static Keys are used by the Encrypt and Decrypt policies to encrypt data at rest
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Static Keys are used by the Encrypt and Decrypt policies to encrypt data at rest
   name: Kong Event Gateway Static Keys API
   slug: kong-event-gateway-static-keys-api
-- description: A TLS trust bundle defines a set of trusted certificate authorities (CAs) used for client certificate verification during mutual TLS (mTLS). Trust bundles are referenced by TLS listener policies to de
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A TLS trust bundle defines a set of trusted certificate authorities (CAs) used for client certificate verification during mutual TLS (mTLS). Trust bundles are referenced by TLS listener policies to de
   name: Kong Event Gateway TLS Trust Bundles API
   slug: kong-event-gateway-tls-trust-bundles-api
-- description: Consume policies operate on Kafka messages as they are read from a Kafka cluster. Transformations may be applied at consume time, but they are applied once per Consumer. Where possible, transofmration
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Consume policies operate on Kafka messages as they are read from a Kafka cluster. Transformations may be applied at consume time, but they are applied once per Consumer. Where possible, transofmration
   name: Kong Event Gateway Virtual Cluster Consume Policies API
   slug: kong-event-gateway-virtual-cluster-consume-policies-api
-- description: Policies control how Kafka protocol traffic is modified between the client and the backend cluster. Cluster policies are transformation and validation policies that can be applied to Kafka messages.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Policies control how Kafka protocol traffic is modified between the client and the backend cluster. Cluster policies are transformation and validation policies that can be applied to Kafka messages.
   name: Kong Event Gateway Virtual Cluster Policies API
   slug: kong-event-gateway-virtual-cluster-policies-api
-- description: Produce policies operate on Kafka messages before they are written to the Kafka cluster. Where possible, apply transformations to the data using produce policies rather than consume policies for maxim
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Produce policies operate on Kafka messages before they are written to the Kafka cluster. Where possible, apply transformations to the data using produce policies rather than consume policies for maxim
   name: Kong Event Gateway Virtual Cluster Produce Policies API
   slug: kong-event-gateway-virtual-cluster-produce-policies-api
-- description: Virtual clusters are the primary way clients interact with the Event Gateway proxy. They allow you to isolate clients from each other when connecting to the same backend cluster, and provide each clie
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Virtual clusters are the primary way clients interact with the Event Gateway proxy. They allow you to isolate clients from each other when connecting to the same backend cluster, and provide each clie
   name: Kong Event Gateway Virtual Clusters API
   slug: kong-event-gateway-virtual-clusters-api
-- description: Create an Event Gateway Control Plane, used to store Event Gateway configuration
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Create an Event Gateway Control Plane, used to store Event Gateway configuration
   name: Kong Event Gateways API
   slug: kong-event-gateways-api
-- description: The GraphQL Cost Decorations API from Kong — 4 operation(s) for graphql cost decorations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The GraphQL Cost Decorations API from Kong — 4 operation(s) for graphql cost decorations.
   name: Kong GraphQL Cost Decorations API
   slug: kong-graphql-cost-decorations-api
-- description: Group routes
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Group routes
   name: Kong Groups API
   slug: kong-groups-api
-- description: The HMAC-auth credentials API from Kong — 6 operation(s) for hmac-auth credentials.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The HMAC-auth credentials API from Kong — 6 operation(s) for hmac-auth credentials.
   name: Kong HMAC-auth credentials API
   slug: kong-hmac-auth-credentials-api
-- description: The Impersonation Settings API from Kong — 1 operation(s) for impersonation settings.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Impersonation Settings API from Kong — 1 operation(s) for impersonation settings.
   name: Kong Impersonation Settings API
   slug: kong-impersonation-settings-api
-- description: A integration instance may need to be provided with an auth config before authorizing the instance. Typically an auth config will be required when authorizing against a integration which is hosted wit
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A integration instance may need to be provided with an auth config before authorizing the instance. Typically an auth config will be required when authorizing against a integration which is hosted wit
   name: Kong Integration Instance Auth Config API
   slug: kong-integration-instance-auth-config-api
-- description: 'Represents the credentials use to authorize an integration instance. You will want to configure the integration instance settings and authorization configuration before authorizing the instance. This '
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: 'Represents the credentials use to authorize an integration instance. You will want to configure the integration instance settings and authorization configuration before authorizing the instance. This '
   name: Kong Integration Instance Auth Credentials API
   slug: kong-integration-instance-auth-credentials-api
-- description: An integration instance represents a specific account of the integration which contains the resources used to manage and support your services. Some integrations provide configuration options to custo
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: An integration instance represents a specific account of the integration which contains the resources used to manage and support your services. Some integrations provide configuration options to custo
   name: Kong Integration Instances API
   slug: kong-integration-instances-api
-- description: The Invites API from Kong — 1 operation(s) for invites.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Invites API from Kong — 1 operation(s) for invites.
   name: Kong Invites API
   slug: kong-invites-api
-- description: The JWTs API from Kong — 6 operation(s) for jwts.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The JWTs API from Kong — 6 operation(s) for jwts.
   name: Kong JWTs API
   slug: kong-jwts-api
-- description: A key object holds a representation of asymmetric keys in various formats. When Kong Gateway or a Kong plugin requires a specific public or private key to perform certain operations, it can use this e
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A key object holds a representation of asymmetric keys in various formats. When Kong Gateway or a Kong plugin requires a specific public or private key to perform certain operations, it can use this e
   name: Kong Keys API
   slug: kong-keys-api
-- description: A JSON Web key set. Key sets are the preferred way to expose keys to plugins because they tell the plugin where to look for keys or have a scoping mechanism to restrict plugins to specific keys.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A JSON Web key set. Key sets are the preferred way to expose keys to plugins because they tell the plugin where to look for keys or have a scoping mechanism to restrict plugins to specific keys.
   name: Kong KeySets API
   slug: kong-keysets-api
-- description: The MCP Servers API from Kong — 9 operation(s) for mcp servers.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The MCP Servers API from Kong — 9 operation(s) for mcp servers.
   name: Kong MCP Servers API
   slug: kong-mcp-servers-api
-- description: The Me API from Kong — 2 operation(s) for me.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Me API from Kong — 2 operation(s) for me.
   name: Kong Me API
   slug: kong-me-api
-- description: Metering events are used to track usage of your product or service. Events are processed asynchronously by the meters, so they may not be immediately available for querying.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Metering events are used to track usage of your product or service. Events are processed asynchronously by the meters, so they may not be immediately available for querying.
   name: Kong Metering Events API
   slug: kong-metering-events-api
-- description: Meters specify how to aggregate events for billing and analytics purposes. Meters can be configured with multiple aggregation methods and groupings. Multiple meters can be created for the same event t
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Meters specify how to aggregate events for billing and analytics purposes. Meters can be configured with multiple aggregation methods and groupings. Multiple meters can be created for the same event t
   name: Kong Meters API
   slug: kong-meters-api
-- description: The MTLS-auth credentials API from Kong — 6 operation(s) for mtls-auth credentials.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The MTLS-auth credentials API from Kong — 6 operation(s) for mtls-auth credentials.
   name: Kong MTLS-auth credentials API
   slug: kong-mtls-auth-credentials-api
-- description: The Networks API from Kong — 3 operation(s) for networks.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Networks API from Kong — 3 operation(s) for networks.
   name: Kong Networks API
   slug: kong-networks-api
-- description: Operations related to notifications
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Operations related to notifications
   name: Kong Notifications API
   slug: kong-notifications-api
-- description: Apps enable you to extend and customize billing and usage workflows by integrating with external systems and services. Apps can automate and enhance your billing ecosystem by supporting capabilities s
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Apps enable you to extend and customize billing and usage workflows by integrating with external systems and services. Apps can automate and enhance your billing ecosystem by supporting capabilities s
   name: Kong OpenMeter Apps API
   slug: kong-openmeter-apps-api
-- description: Billing manages the billing profiles, currencies, cost bases, and invoices for customers.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Billing manages the billing profiles, currencies, cost bases, and invoices for customers.
   name: Kong OpenMeter Billing API
   slug: kong-openmeter-billing-api
-- description: Customers are used to track usage of your product or service. Customers can be individuals or organizations that can subscribe to plans and have access to features.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Customers are used to track usage of your product or service. Customers can be individuals or organizations that can subscribe to plans and have access to features.
   name: Kong OpenMeter Customers API
   slug: kong-openmeter-customers-api
-- description: Entitlements are used to control access to features for customers.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Entitlements are used to control access to features for customers.
   name: Kong OpenMeter Entitlements API
   slug: kong-openmeter-entitlements-api
-- description: Subscriptions are used to track usage of your product or service. Subscriptions can be individuals or organizations that can subscribe to plans and have access to features.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Subscriptions are used to track usage of your product or service. Subscriptions can be individuals or organizations that can subscribe to plans and have access to features.
   name: Kong OpenMeter Subscriptions API
   slug: kong-openmeter-subscriptions-api
-- description: APIs related to Konnect Developer Portal Custom Pages.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal Custom Pages.
   name: Kong Pages API
   slug: kong-pages-api
-- description: The Partial Links API from Kong — 1 operation(s) for partial links.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Partial Links API from Kong — 1 operation(s) for partial links.
   name: Kong Partial Links API
   slug: kong-partial-links-api
-- description: 'Some entities in Kong Gateway share common configuration settings that often need to be repeated. For example, multiple plugins that connect to Redis may require the same connection settings. Without '
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: 'Some entities in Kong Gateway share common configuration settings that often need to be repeated. For example, multiple plugins that connect to Redis may require the same connection settings. Without '
   name: Kong Partials API
   slug: kong-partials-api
-- description: The Personal Access Tokens API from Kong — 3 operation(s) for personal access tokens.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Personal Access Tokens API from Kong — 3 operation(s) for personal access tokens.
   name: Kong Personal Access Tokens API
   slug: kong-personal-access-tokens-api
-- description: A plugin entity represents a plugin configuration that will be executed during the HTTP request/response lifecycle. Plugins let you add functionality to services that run behind a Kong Gateway instanc
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A plugin entity represents a plugin configuration that will be executed during the HTTP request/response lifecycle. Plugins let you add functionality to services that run behind a Kong Gateway instanc
   name: Kong Plugins API
   slug: kong-plugins-api
-- description: The Portal Audit Logs API from Kong — 3 operation(s) for portal audit logs.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Portal Audit Logs API from Kong — 3 operation(s) for portal audit logs.
   name: Kong Portal Audit Logs API
   slug: kong-portal-audit-logs-api
-- description: APIs related to configuration of Konnect Developer Portal auth settings.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to configuration of Konnect Developer Portal auth settings.
   name: Kong Portal Auth Settings API
   slug: kong-portal-auth-settings-api
-- description: APIs related to configuration of Konnect Developer Portals custom domains.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to configuration of Konnect Developer Portals custom domains.
   name: Kong Portal Custom Domains API
   slug: kong-portal-custom-domains-api
-- description: APIs related to customization of Konnect Developer Portals.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to customization of Konnect Developer Portals.
   name: Kong Portal Customization API
   slug: kong-portal-customization-api
-- description: APIs related to Konnect Developer Portal developers.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal developers.
   name: Kong Portal Developers API
   slug: kong-portal-developers-api
-- description: APIs related to Konnect Developer Portal Emails.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal Emails.
   name: Kong Portal Emails API
   slug: kong-portal-emails-api
-- description: APIs to configure Konnect Developer Portal integrations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs to configure Konnect Developer Portal integrations.
   name: Kong Portal Integrations API
   slug: kong-portal-integrations-api
-- description: APIs related to Konnect Developer Portal developer team membership.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal developer team membership.
   name: Kong Portal Team Membership API
   slug: kong-portal-team-membership-api
-- description: APIs related to Konnect Developer Portal developer team roles.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal developer team roles.
   name: Kong Portal Team Roles API
   slug: kong-portal-team-roles-api
-- description: APIs related to configuration of Konnect Developer Portal developer teams.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to configuration of Konnect Developer Portal developer teams.
   name: Kong Portal Teams API
   slug: kong-portal-teams-api
-- description: APIs related to configuration of Konnect Developer Portals.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to configuration of Konnect Developer Portals.
   name: Kong Portals API
   slug: kong-portals-api
-- description: APIs related to Konnect Portal IP Allow List.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Portal IP Allow List.
   name: Kong Portals IP Allow List API
   slug: kong-portals-ip-allow-list-api
-- description: The Private DNS API from Kong — 2 operation(s) for private dns.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Private DNS API from Kong — 2 operation(s) for private dns.
   name: Kong Private DNS API
   slug: kong-private-dns-api
-- description: The Provider Accounts API from Kong — 2 operation(s) for provider accounts.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Provider Accounts API from Kong — 2 operation(s) for provider accounts.
   name: Kong Provider Accounts API
   slug: kong-provider-accounts-api
-- description: The RBACRoleEndpoints API from Kong — 2 operation(s) for rbacroleendpoints.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACRoleEndpoints API from Kong — 2 operation(s) for rbacroleendpoints.
   name: Kong RBACRoleEndpoints API
   slug: kong-rbacroleendpoints-api
-- description: The RBACRoleEntities API from Kong — 2 operation(s) for rbacroleentities.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACRoleEntities API from Kong — 2 operation(s) for rbacroleentities.
   name: Kong RBACRoleEntities API
   slug: kong-rbacroleentities-api
-- description: The RBACRoles API from Kong — 2 operation(s) for rbacroles.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACRoles API from Kong — 2 operation(s) for rbacroles.
   name: Kong RBACRoles API
   slug: kong-rbacroles-api
-- description: The RBACUserGroups API from Kong — 2 operation(s) for rbacusergroups.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACUserGroups API from Kong — 2 operation(s) for rbacusergroups.
   name: Kong RBACUserGroups API
   slug: kong-rbacusergroups-api
-- description: The RBACUserRoles API from Kong — 1 operation(s) for rbacuserroles.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACUserRoles API from Kong — 1 operation(s) for rbacuserroles.
   name: Kong RBACUserRoles API
   slug: kong-rbacuserroles-api
-- description: The RBACUsers API from Kong — 2 operation(s) for rbacusers.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The RBACUsers API from Kong — 2 operation(s) for rbacusers.
   name: Kong RBACUsers API
   slug: kong-rbacusers-api
-- description: The Resource Availability API from Kong — 1 operation(s) for resource availability.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Resource Availability API from Kong — 1 operation(s) for resource availability.
   name: Kong Resource Availability API
   slug: kong-resource-availability-api
-- description: The Resource Configurations API from Kong — 3 operation(s) for resource configurations.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Resource Configurations API from Kong — 3 operation(s) for resource configurations.
   name: Kong Resource Configurations API
   slug: kong-resource-configurations-api
-- description: The Roles API from Kong — 5 operation(s) for roles.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Roles API from Kong — 5 operation(s) for roles.
   name: Kong Roles API
   slug: kong-roles-api
-- description: Route entities define rules to match client requests. Each route is associated with a service, and a service may have multiple routes associated to it. Every request matching a given route will be pro
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Route entities define rules to match client requests. Each route is associated with a service, and a service may have multiple routes associated to it. Every request matching a given route will be pro
   name: Kong Routes API
   slug: kong-routes-api
-- description: The Schemas API from Kong — 2 operation(s) for schemas.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Schemas API from Kong — 2 operation(s) for schemas.
   name: Kong Schemas API
   slug: kong-schemas-api
-- description: A scorecard helps you evaluate services based on its criteria. Scorecards help you detect issues, like whether there are services in the catalog that don't have an on-call engineer assigned, or if you
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A scorecard helps you evaluate services based on its criteria. Scorecards help you detect issues, like whether there are services in the catalog that don't have an on-call engineer assigned, or if you
   name: Kong Scorecards API
   slug: kong-scorecards-api
-- description: 'Service entities are abstractions of your microservice interfaces or formal APIs. For example, a service could be a data transformation microservice or a billing API. <br><br> The main attribute of a '
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: 'Service entities are abstractions of your microservice interfaces or formal APIs. For example, a service could be a data transformation microservice or a billing API. <br><br> The main attribute of a '
   name: Kong Services API
   slug: kong-services-api
-- description: APIs related to Konnect Developer Portal Custom Snippets.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: APIs related to Konnect Developer Portal Custom Snippets.
   name: Kong Snippets API
   slug: kong-snippets-api
-- description: An SNI object represents a many-to-one mapping of hostnames to a certificate. <br><br> A certificate object can have many hostnames associated with it. When Kong Gateway receives an SSL request, it us
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: An SNI object represents a many-to-one mapping of hostnames to a certificate. <br><br> A certificate object can have many hostnames associated with it. When Kong Gateway receives an SSL request, it us
   name: Kong SNIs API
   slug: kong-snis-api
-- description: The System Accounts - Access Tokens API from Kong — 2 operation(s) for system accounts - access tokens.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The System Accounts - Access Tokens API from Kong — 2 operation(s) for system accounts - access tokens.
   name: Kong System Accounts - Access Tokens API
   slug: kong-system-accounts-access-tokens-api
-- description: The System Accounts API from Kong — 2 operation(s) for system accounts.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The System Accounts API from Kong — 2 operation(s) for system accounts.
   name: Kong System Accounts API
   slug: kong-system-accounts-api
-- description: The System Accounts - Roles API from Kong — 2 operation(s) for system accounts - roles.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The System Accounts - Roles API from Kong — 2 operation(s) for system accounts - roles.
   name: Kong System Accounts - Roles API
   slug: kong-system-accounts-roles-api
-- description: The System Accounts - Team Membership API from Kong — 3 operation(s) for system accounts - team membership.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The System Accounts - Team Membership API from Kong — 3 operation(s) for system accounts - team membership.
   name: Kong System Accounts - Team Membership API
   slug: kong-system-accounts-team-membership-api
-- description: A target is an IP address or hostname with a port that identifies an instance of a backend service. Every upstream can have many targets, and the targets can be dynamically added, modified, or deleted
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: A target is an IP address or hostname with a port that identifies an instance of a backend service. Every upstream can have many targets, and the targets can be dynamically added, modified, or deleted
   name: Kong Targets API
   slug: kong-targets-api
-- description: The Team Membership API from Kong — 3 operation(s) for team membership.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Team Membership API from Kong — 3 operation(s) for team membership.
   name: Kong Team Membership API
   slug: kong-team-membership-api
-- description: The Teams API from Kong — 2 operation(s) for teams.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Teams API from Kong — 2 operation(s) for teams.
   name: Kong Teams API
   slug: kong-teams-api
-- description: The Transit Gateways API from Kong — 2 operation(s) for transit gateways.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Transit Gateways API from Kong — 2 operation(s) for transit gateways.
   name: Kong Transit Gateways API
   slug: kong-transit-gateways-api
-- description: The upstream object represents a virtual hostname and can be used to load balance incoming requests over multiple services (targets). <br><br> An upstream also includes a [health checker](https://deve
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The upstream object represents a virtual hostname and can be used to load balance incoming requests over multiple services (targets). <br><br> An upstream also includes a [health checker](https://deve
   name: Kong Upstreams API
   slug: kong-upstreams-api
-- description: The Users API from Kong — 2 operation(s) for users.
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: The Users API from Kong — 2 operation(s) for users.
   name: Kong Users API
   slug: kong-users-api
-- description: Vault objects are used to configure different vault connectors for [managing secrets](https://developer.konghq.com/gateway/secrets-management/). Configuring a vault lets you reference secrets from oth
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: Vault objects are used to configure different vault connectors for [managing secrets](https://developer.konghq.com/gateway/secrets-management/). Configuring a vault lets you reference secrets from oth
   name: Kong Vaults API
   slug: kong-vaults-api
-- description: 'The workspace object describes the workspace entity, which has an ID and a name. <br><br> Workspaces provide a way to segment Kong Gateway entities. Entities in a workspace are isolated from those in '
+- baseURL: https://konghq.com/
+  baseurl_source: declared
+  description: 'The workspace object describes the workspace entity, which has an ID and a name. <br><br> Workspaces provide a way to segment Kong Gateway entities. Entities in a workspace are isolated from those in '
   name: Kong Workspaces API
   slug: kong-workspaces-api
 artifact_total: 1784
@@ -5540,7 +5804,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -5553,7 +5817,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 56.4
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -5562,7 +5826,7 @@ score:
       marker_coverage: 0.0
       total: 132
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

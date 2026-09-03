@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The Power Pages Web API provides CRUD operations on Dataverse tables from Power Pages websites. It enables authenticated and anonymous users to interact with business data through portal pages using s
   name: Power Pages Web API
   slug: web-api
-- description: The Records API from Microsoft Power Pages — 2 operation(s) for records.
+- baseURL: https://{site}.powerappsportals.com/_api/
+  baseurl_source: declared
+  description: The Records API from Microsoft Power Pages — 2 operation(s) for records.
   name: Microsoft Power Pages Records API
   slug: microsoft-power-pages-records-api
-- description: The Tables API from Microsoft Power Pages — 2 operation(s) for tables.
+- baseURL: https://{site}.powerappsportals.com/_api/
+  baseurl_source: declared
+  description: The Tables API from Microsoft Power Pages — 2 operation(s) for tables.
   name: Microsoft Power Pages Tables API
   slug: microsoft-power-pages-tables-api
 artifact_total: 14
@@ -176,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-pages/refs/heads/main/screenshots/microsoft-power-pages-2026-06-20T185523.png
 security:

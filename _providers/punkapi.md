@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: BrewDog DIY Dog beer recipes — 325 entries
+- baseURL: https://api.punkapi.com/v2
+  baseurl_source: declared
+  description: BrewDog DIY Dog beer recipes — 325 entries
   name: Punk API Beers API
   slug: punkapi-beers-api
 artifact_total: 40
@@ -272,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

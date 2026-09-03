@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Currents API Endpoint
+- baseURL: https://api.currentsapi.services/v1
+  baseurl_source: declared
+  description: Currents API Endpoint
   name: Currents API endpoint API
   slug: currentsapi-endpoint-api
 artifact_total: 16
@@ -190,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currentsapi/refs/heads/main/screenshots/currentsapi-2026-06-20T175341.png
 security:

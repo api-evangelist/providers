@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 21 operations · 10 acting
 api_count: 1
 apis:
-- description: The Docs API from Google Workspace Suite — 3 operation(s) for docs.
+- baseURL: https://docs.googleapis.com
+  baseurl_source: declared
+  description: The Docs API from Google Workspace Suite — 3 operation(s) for docs.
   name: Google Workspace Suite Docs API
   slug: google-suite-docs-sheets-slides-gmail-docs-api
-- description: The Gmail API from Google Workspace Suite — 8 operation(s) for gmail.
+- baseURL: https://docs.googleapis.com
+  baseurl_source: declared
+  description: The Gmail API from Google Workspace Suite — 8 operation(s) for gmail.
   name: Google Workspace Suite Gmail API
   slug: google-suite-docs-sheets-slides-gmail-gmail-api
-- description: The Sheets API from Google Workspace Suite — 4 operation(s) for sheets.
+- baseURL: https://docs.googleapis.com
+  baseurl_source: declared
+  description: The Sheets API from Google Workspace Suite — 4 operation(s) for sheets.
   name: Google Workspace Suite Sheets API
   slug: google-suite-docs-sheets-slides-gmail-sheets-api
-- description: The Slides API from Google Workspace Suite — 3 operation(s) for slides.
+- baseURL: https://docs.googleapis.com
+  baseurl_source: declared
+  description: The Slides API from Google Workspace Suite — 3 operation(s) for slides.
   name: Google Workspace Suite Slides API
   slug: google-suite-docs-sheets-slides-gmail-slides-api
 artifact_total: 18
@@ -186,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suite-docs-sheets-slides-gmail/refs/heads/main/screenshots/google-suite-docs-sheets-slides-gmail-2026-06-20T182236.png
 security:

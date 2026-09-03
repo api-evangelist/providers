@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 11 acting
 api_count: 1
 apis:
-- description: Account information
+- baseURL: https://api.usefathom.com/v1
+  baseurl_source: declared
+  description: Account information
   name: Fathom Analytics Account API
   slug: fathom-account-api
-- description: Event management per site
+- baseURL: https://api.usefathom.com/v1
+  baseurl_source: declared
+  description: Event management per site
   name: Fathom Analytics Events API
   slug: fathom-events-api
-- description: Milestone management per site
+- baseURL: https://api.usefathom.com/v1
+  baseurl_source: declared
+  description: Milestone management per site
   name: Fathom Analytics Milestones API
   slug: fathom-milestones-api
-- description: Aggregation reports and current visitor counts
+- baseURL: https://api.usefathom.com/v1
+  baseurl_source: declared
+  description: Aggregation reports and current visitor counts
   name: Fathom Analytics Reports API
   slug: fathom-reports-api
-- description: Site management
+- baseURL: https://api.usefathom.com/v1
+  baseurl_source: declared
+  description: Site management
   name: Fathom Analytics Sites API
   slug: fathom-sites-api
 artifact_total: 34
@@ -287,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/screenshots/fathom-2026-06-20T181055.png
 security:

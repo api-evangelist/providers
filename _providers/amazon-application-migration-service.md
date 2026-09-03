@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 45 operations · 43 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Application groupings for migration
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Application groupings for migration
   name: Amazon Application Migration Service Applications API
   slug: amazon-application-migration-service-applications-api
-- description: Source server export tasks
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Source server export tasks
   name: Amazon Application Migration Service Exports API
   slug: amazon-application-migration-service-exports-api
-- description: Migration and conversion jobs
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Migration and conversion jobs
   name: Amazon Application Migration Service Jobs API
   slug: amazon-application-migration-service-jobs-api
-- description: Launch configuration and templates
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Launch configuration and templates
   name: Amazon Application Migration Service Launch API
   slug: amazon-application-migration-service-launch-api
-- description: Lifecycle action hooks for automated workflows
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Lifecycle action hooks for automated workflows
   name: Amazon Application Migration Service Lifecycle Hooks API
   slug: amazon-application-migration-service-lifecycle-hooks-api
-- description: Replication configuration and templates
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Replication configuration and templates
   name: Amazon Application Migration Service Replication API
   slug: amazon-application-migration-service-replication-api
-- description: Manage source servers being migrated
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage source servers being migrated
   name: Amazon Application Migration Service Source Servers API
   slug: amazon-application-migration-service-source-servers-api
-- description: Resource tagging operations
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Resource tagging operations
   name: Amazon Application Migration Service Tags API
   slug: amazon-application-migration-service-tags-api
-- description: VMware vCenter client management
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: VMware vCenter client management
   name: Amazon Application Migration Service Vcenter Clients API
   slug: amazon-application-migration-service-vcenter-clients-api
-- description: Wave-based migration orchestration
+- baseURL: https://mgn.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Wave-based migration orchestration
   name: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
 artifact_total: 355
@@ -1146,7 +1166,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

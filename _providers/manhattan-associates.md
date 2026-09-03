@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: Manhattan Associates provides warehouse management (WMS) and transportation management (TMS) APIs for supply chain execution. APIs enable order management, inventory tracking, shipment planning, labor
   name: Manhattan Associates TMS/WMS API
   slug: manhattan-associates-api
-- description: ASN and receipt management
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: ASN and receipt management
   name: manhattan-associates Inbound API
   slug: manhattan-associates-inbound-api
-- description: Real-time inventory positions and ATP
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: Real-time inventory positions and ATP
   name: manhattan-associates Inventory API
   slug: manhattan-associates-inventory-api
-- description: Order lifecycle and management
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: Order lifecycle and management
   name: manhattan-associates Orders API
   slug: manhattan-associates-orders-api
-- description: Outbound order fulfillment and shipment
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: Outbound order fulfillment and shipment
   name: manhattan-associates Outbound API
   slug: manhattan-associates-outbound-api
-- description: Order promising and delivery date estimation
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: Order promising and delivery date estimation
   name: manhattan-associates Promising API
   slug: manhattan-associates-promising-api
-- description: Return and exchange processing
+- baseURL: https://api.developer.manh.com
+  baseurl_source: declared
+  description: Return and exchange processing
   name: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
 artifact_total: 61
@@ -357,10 +369,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/screenshots/manhattan-associates-2026-06-20T184920.png
 security:

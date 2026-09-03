@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing CloudTrail Lake event data stores
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing CloudTrail Lake event data stores
   name: Amazon CloudTrail Event Data Stores API
   slug: amazon-cloudtrail-event-data-stores-api
-- description: Operations for looking up and querying events
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for looking up and querying events
   name: Amazon CloudTrail Events API
   slug: amazon-cloudtrail-events-api
-- description: Operations for creating and managing CloudTrail trails
+- baseURL: https://cloudtrail.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing CloudTrail trails
   name: Amazon CloudTrail Trails API
   slug: amazon-cloudtrail-trails-api
 artifact_total: 54
@@ -366,7 +372,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:

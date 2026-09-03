@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Capability area covering Fern's open-source (Apache-2.0) command-line interface and the proprietary Fern Definition API-description format. Core commands include `fern init`, `fern check`, `fern gener
   name: Fern Definition and CLI
   slug: fern-api-definition-cli
-- description: Query indexed documentation for AI-generated, grounded answers.
+- baseURL: https://fai.buildwithfern.com
+  baseurl_source: declared
+  description: Query indexed documentation for AI-generated, grounded answers.
   name: Fern Ask API
   slug: fern-api-ask-api
-- description: Index documentation websites and check indexing job status.
+- baseURL: https://fai.buildwithfern.com
+  baseurl_source: declared
+  description: Index documentation websites and check indexing job status.
   name: Fern Website Sources API
   slug: fern-api-website-sources-api
 artifact_total: 14
@@ -172,7 +176,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern-api/refs/heads/main/screenshots/fern-api-2026-07-25T214344.png
 security:

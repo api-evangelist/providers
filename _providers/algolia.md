@@ -34,46 +34,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 15
 apis:
-- description: Core indexing and search API for adding, updating and deleting records and querying them with typo-tolerant, faceted, geo-aware and rule-driven search served from globally distributed search nodes. Th
+- baseURL: https://{appid}-dsn.algolia.net
+  baseurl_source: declared
+  description: Core indexing and search API for adding, updating and deleting records and querying them with typo-tolerant, faceted, geo-aware and rule-driven search served from globally distributed search nodes. Th
   name: Algolia Search API
   slug: algolia-search-api
-- description: Inbound event-ingestion API for click, conversion, view and purchase signals that feed Personalization, Recommend, A/B Testing and Analytics. Accepts events; does not emit them, which is why Algolia p
+- baseURL: https://insights.algolia.io
+  baseurl_source: declared
+  description: Inbound event-ingestion API for click, conversion, view and purchase signals that feed Personalization, Recommend, A/B Testing and Analytics. Accepts events; does not emit them, which is why Algolia p
   name: Algolia Insights API
   slug: algolia-insights-api
-- description: Returns related-products, frequently-bought-together, trending and look-alike recommendations trained from Insights events and catalog data, plus the Recommend rules that override them.
+- baseURL: https://{appid}-dsn.algolia.net
+  baseurl_source: declared
+  description: Returns related-products, frequently-bought-together, trending and look-alike recommendations trained from Insights events and catalog data, plus the Recommend rules that override them.
   name: Algolia Recommend API
   slug: algolia-recommend-api
-- description: Reports top searches, no-result searches, click and conversion rates, revenue and other search analytics aggregated from query and Insights data. One of only six Algolia APIs that returns machine-read
+- baseURL: https://analytics.algolia.com
+  baseurl_source: declared
+  description: Reports top searches, no-result searches, click and conversion rates, revenue and other search analytics aggregated from query and Insights data. One of only six Algolia APIs that returns machine-read
   name: Algolia Analytics API
   slug: algolia-analytics-api
-- description: 'Creates and manages A/B tests across index configurations and relevance settings, scoring variants on click-through and conversion. Two live versions: v3 is current, and the entire v2 surface is marke'
+- baseURL: https://analytics.algolia.com
+  baseurl_source: declared
+  description: 'Creates and manages A/B tests across index configurations and relevance settings, scoring variants on click-through and conversion. Two live versions: v3 is current, and the entire v2 surface is marke'
   name: Algolia A/B Testing API
   slug: algolia-ab-testing-api
-- description: Configures and applies user-affinity profiles built from Insights events to re-rank search and browse results per user.
+- baseURL: https://personalization.{region}.algolia.com
+  baseurl_source: declared
+  description: Configures and applies user-affinity profiles built from Insights events to re-rank search and browse results per user.
   name: Algolia Personalization API
   slug: algolia-personalization-api
-- description: 'The successor to classic Personalization: real-time user profiles, personalization strategies and a dedicated error-code reference. Runs on its own AI personalization host and publishes the only per-p'
+- baseURL: https://ai-personalization.{region}.algolia.com
+  baseurl_source: declared
+  description: 'The successor to classic Personalization: real-time user profiles, personalization strategies and a dedicated error-code reference. Runs on its own AI personalization host and publishes the only per-p'
   name: Algolia Advanced Personalization API
   slug: algolia-advanced-personalization-api
-- description: Manages Algolia's hosted web crawler that extracts content from websites and pushes it into indices on a schedule. The only Algolia API that authenticates with HTTP Basic rather than the x-algolia-* h
+- baseURL: https://crawler.algolia.com/api
+  baseurl_source: declared
+  description: Manages Algolia's hosted web crawler that extracts content from websites and pushes it into indices on a schedule. The only Algolia API that authenticates with HTTP Basic rather than the x-algolia-* h
   name: Algolia Crawler API
   slug: algolia-crawler-api
-- description: Connector-based data ingestion that pulls records from databases, storage and ecommerce platforms into Algolia indices via managed sources, destinations, transformations and tasks. The largest connect
+- baseURL: https://data.{region}.algolia.com
+  baseurl_source: declared
+  description: Connector-based data ingestion that pulls records from databases, storage and ecommerce platforms into Algolia indices via managed sources, destinations, transformations and tasks. The largest connect
   name: Algolia Ingestion API
   slug: algolia-ingestion-api
-- description: Generates and maintains query-suggestion indices from popular searches to power as-you-type autocomplete.
+- baseURL: https://query-suggestions.{region}.algolia.com
+  baseurl_source: declared
+  description: Generates and maintains query-suggestion indices from popular searches to power as-you-type autocomplete.
   name: Algolia Query Suggestions API
   slug: algolia-query-suggestions-api
-- description: Composes multiple search sources into one curated result set - smart groups, curated queries and composition rules - so a single request returns a merchandised, multi-source response.
+- baseURL: https://{appId}.algolia.net
+  baseurl_source: declared
+  description: Composes multiple search sources into one curated result set - smart groups, curated queries and composition rules - so a single request returns a merchandised, multi-source response.
   name: Algolia Composition API
   slug: algolia-composition-api
-- description: 'Algolia''s agent-building runtime: agents, conversations, tools, memory, guardrails and per-turn context, exposed as 42 REST operations. Notably, Agent Studio can itself consume third-party MCP tools, '
+- baseURL: https://{APPLICATION_ID}.algolia.net/agent-studio
+  baseurl_source: declared
+  description: 'Algolia''s agent-building runtime: agents, conversations, tools, memory, guardrails and per-turn context, exposed as 42 REST operations. Notably, Agent Studio can itself consume third-party MCP tools, '
   name: Algolia Agent Studio API
   slug: algolia-agent-studio-api
-- description: 'Exposes server status, latency, indexing and reachability metrics for a specific application''s Algolia infrastructure. More than a status page: an agent can query the health of its own cluster rather '
+- baseURL: https://status.algolia.com
+  baseurl_source: declared
+  description: 'Exposes server status, latency, indexing and reachability metrics for a specific application''s Algolia infrastructure. More than a status page: an agent can query the health of its own cluster rather '
   name: Algolia Monitoring API
   slug: algolia-monitoring-api
 - description: Returns per-application usage metrics (operations, records, search volume) for cost and quota tracking. The one documented Algolia REST API for which no OpenAPI document is published in the api-client
@@ -280,23 +306,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.1
+  composite: 68.8
   coverage:
     artifact_dirs: 23
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.0
+  delta: 0.7
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 55.1
+    contract_quality: 58.0
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 61.1
+  previous_composite: 68.1
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +333,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algolia/refs/heads/main/screenshots/algolia-2026-06-20T171526.png
 security:
 - kind: authentication

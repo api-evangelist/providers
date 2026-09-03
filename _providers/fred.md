@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 35 operations
 api_count: 10
 apis:
-- description: Category hierarchy navigation — children, related, series, and tags within a category.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Category hierarchy navigation — children, related, series, and tags within a category.
   name: FRED Categories API
   slug: fred-categories-api
-- description: The underlying time-series data values, with frequency aggregation and unit transformations.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: The underlying time-series data values, with frequency aggregation and unit transformations.
   name: FRED Observations API
   slug: fred-observations-api
-- description: Regional data values for a series group across a geography.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Regional data values for a series group across a geography.
   name: FRED Regional Data API
   slug: fred-regional-data-api
-- description: Economic data releases — schedules, member series, sources, and tags per release.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Economic data releases — schedules, member series, sources, and tags per release.
   name: FRED Releases API
   slug: fred-releases-api
-- description: Economic data series metadata, search, categorization, release linkage, tags, updates, and vintages.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Economic data series metadata, search, categorization, release linkage, tags, updates, and vintages.
   name: FRED Series API
   slug: fred-series-api
-- description: Regional data values attached to a specific FRED series.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Regional data values attached to a specific FRED series.
   name: FRED Series Data API
   slug: fred-series-data-api
-- description: Series-group metadata — the regional identifier and supported region types for a series.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Series-group metadata — the regional identifier and supported region types for a series.
   name: FRED Series Group API
   slug: fred-series-group-api
-- description: GeoJSON shape files for state, county, MSA, country, and census-tract geographies.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: GeoJSON shape files for state, county, MSA, country, and census-tract geographies.
   name: FRED Shapes API
   slug: fred-shapes-api
-- description: Originating institutions for FRED series (BLS, BEA, OECD, etc.) and the releases they publish.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Originating institutions for FRED series (BLS, BEA, OECD, etc.) and the releases they publish.
   name: FRED Sources API
   slug: fred-sources-api
-- description: Faceted classification across FRED — tag listings, related tags, and tag-matched series.
+- baseURL: https://api.stlouisfed.org/fred
+  baseurl_source: declared
+  description: Faceted classification across FRED — tag listings, related tags, and tag-matched series.
   name: FRED Tags API
   slug: fred-tags-api
 artifact_total: 96
@@ -556,7 +576,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fred/refs/heads/main/screenshots/fred-2026-06-20T181515.png
 security:

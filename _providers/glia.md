@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The Glia platform REST API. Serves operators, sites, engagements, queues and reporting resources over api.glia.com (US) and api.glia.eu (EU). Authentication is a bearer token minted from an API key id
@@ -229,7 +240,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia/refs/heads/main/screenshots/glia-2026-08-07T165740.png
 security:

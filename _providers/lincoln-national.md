@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: The Enrollment API from Lincoln National — 1 operation(s) for enrollment.
+- baseURL: https://www.lincolnfinancial.com
+  baseurl_source: declared
+  description: The Enrollment API from Lincoln National — 1 operation(s) for enrollment.
   name: Lincoln National Enrollment API
   slug: lincoln-national-enrollment-api
-- description: The Eoi API from Lincoln National — 1 operation(s) for eoi.
+- baseURL: https://www.lincolnfinancial.com
+  baseurl_source: declared
+  description: The Eoi API from Lincoln National — 1 operation(s) for eoi.
   name: Lincoln National Eoi API
   slug: lincoln-national-eoi-api
-- description: The Plan Design API from Lincoln National — 1 operation(s) for plan design.
+- baseURL: https://www.lincolnfinancial.com
+  baseurl_source: declared
+  description: The Plan Design API from Lincoln National — 1 operation(s) for plan design.
   name: Lincoln National Plan Design API
   slug: lincoln-national-plan-design-api
 artifact_total: 13
@@ -176,7 +182,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

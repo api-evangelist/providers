@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 39 operations · 20 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Retrieve Toloker responses and accept or reject completed assignments.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Retrieve Toloker responses and accept or reject completed assignments.
   name: Toloka Assignments API
   slug: toloka-assignments-api
-- description: Retrieve files Tolokers attached to their assignments.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Retrieve files Tolokers attached to their assignments.
   name: Toloka Attachments API
   slug: toloka-attachments-api
-- description: Track the status of asynchronous operations.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Track the status of asynchronous operations.
   name: Toloka Operations API
   slug: toloka-operations-api
-- description: Create, configure, open, and close pools of tasks for Tolokers.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Create, configure, open, and close pools of tasks for Tolokers.
   name: Toloka Pools API
   slug: toloka-pools-api
-- description: Create and manage projects that define task interface and instructions.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage projects that define task interface and instructions.
   name: Toloka Projects API
   slug: toloka-projects-api
-- description: Create and manage skills assigned to Tolokers.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage skills assigned to Tolokers.
   name: Toloka Skills API
   slug: toloka-skills-api
-- description: Upload and retrieve task suites (groups of tasks shown together).
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Upload and retrieve task suites (groups of tasks shown together).
   name: Toloka Task Suites API
   slug: toloka-task-suites-api
-- description: Upload and retrieve individual tasks.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Upload and retrieve individual tasks.
   name: Toloka Tasks API
   slug: toloka-tasks-api
-- description: Create and manage training pools used to qualify Tolokers.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Create and manage training pools used to qualify Tolokers.
   name: Toloka Training API
   slug: toloka-training-api
-- description: Issue bonus payments to Tolokers.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Issue bonus payments to Tolokers.
   name: Toloka User Bonuses API
   slug: toloka-user-bonuses-api
-- description: Restrict Tolokers from a pool, project, or all projects.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Restrict Tolokers from a pool, project, or all projects.
   name: Toloka User Restrictions API
   slug: toloka-user-restrictions-api
-- description: Subscribe to platform events delivered to your endpoint.
+- baseURL: https://api.toloka.ai/api/v1
+  baseurl_source: declared
+  description: Subscribe to platform events delivered to your endpoint.
   name: Toloka Webhook Subscriptions API
   slug: toloka-webhook-subscriptions-api
 artifact_total: 33
@@ -202,7 +226,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -225,8 +249,9 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/toloka/refs/heads/main/screenshots/toloka-2026-09-02T163853.png
 security:
 - kind: authentication
   name: Toloka Authentication

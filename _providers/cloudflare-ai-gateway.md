@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Cloudflare-hosted remote MCP server that exposes AI Gateway control-plane operations to MCP-compatible AI agents.
   name: AI Gateway MCP Server
   slug: ai-gateway-mcp
-- description: The Gateways API from Cloudflare AI Gateway — 2 operation(s) for gateways.
+- baseURL: https://gateway.ai.cloudflare.com
+  baseurl_source: declared
+  description: The Gateways API from Cloudflare AI Gateway — 2 operation(s) for gateways.
   name: Cloudflare AI Gateway Gateways API
   slug: cloudflare-ai-gateway-gateways-api
-- description: The Logs API from Cloudflare AI Gateway — 1 operation(s) for logs.
+- baseURL: https://gateway.ai.cloudflare.com
+  baseurl_source: declared
+  description: The Logs API from Cloudflare AI Gateway — 1 operation(s) for logs.
   name: Cloudflare AI Gateway Logs API
   slug: cloudflare-ai-gateway-logs-api
-- description: The Proxy API from Cloudflare AI Gateway — 2 operation(s) for proxy.
+- baseURL: https://gateway.ai.cloudflare.com
+  baseurl_source: declared
+  description: The Proxy API from Cloudflare AI Gateway — 2 operation(s) for proxy.
   name: Cloudflare AI Gateway Proxy API
   slug: cloudflare-ai-gateway-proxy-api
 artifact_total: 41
@@ -265,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/screenshots/cloudflare-ai-gateway-2026-06-20T174550.png
 security:

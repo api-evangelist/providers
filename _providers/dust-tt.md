@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 64 operations · 32 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: Agent configurations
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Agent configurations
   name: Dust Agents API
   slug: dust-tt-agents-api
-- description: Dust apps
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Dust apps
   name: Dust Apps API
   slug: dust-tt-apps-api
-- description: Conversations
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Conversations
   name: Dust Conversations API
   slug: dust-tt-conversations-api
-- description: Data sources
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Data sources
   name: Dust Datasources API
   slug: dust-tt-datasources-api
-- description: Data source views
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Data source views
   name: Dust DatasourceViews API
   slug: dust-tt-datasourceviews-api
-- description: Message feedbacks
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Message feedbacks
   name: Dust Feedbacks API
   slug: dust-tt-feedbacks-api
-- description: MCP servers
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: MCP servers
   name: Dust MCP API
   slug: dust-tt-mcp-api
-- description: Mentions
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Mentions
   name: Dust Mentions API
   slug: dust-tt-mentions-api
-- description: Search
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Search
   name: Dust Search API
   slug: dust-tt-search-api
-- description: Skills
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Skills
   name: Dust Skills API
   slug: dust-tt-skills-api
-- description: Spaces
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Spaces
   name: Dust Spaces API
   slug: dust-tt-spaces-api
-- description: Tools
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Tools
   name: Dust Tools API
   slug: dust-tt-tools-api
-- description: Triggers
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Triggers
   name: Dust Triggers API
   slug: dust-tt-triggers-api
-- description: Workspace
+- baseURL: https://dust.tt/api/v1
+  baseurl_source: declared
+  description: Workspace
   name: Dust Workspace API
   slug: dust-tt-workspace-api
 arazzos:
@@ -568,7 +596,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:

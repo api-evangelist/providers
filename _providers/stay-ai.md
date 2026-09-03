@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: The Account API from Stay AI — 1 operation(s) for account.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Account API from Stay AI — 1 operation(s) for account.
   name: Stay AI Account API
   slug: stay-ai-account-api
-- description: The Catalog API from Stay AI — 2 operation(s) for catalog.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Catalog API from Stay AI — 2 operation(s) for catalog.
   name: Stay AI Catalog API
   slug: stay-ai-catalog-api
-- description: The Customer Portal API from Stay AI — 1 operation(s) for customer portal.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Customer Portal API from Stay AI — 1 operation(s) for customer portal.
   name: Stay AI Customer Portal API
   slug: stay-ai-customer-portal-api
-- description: The Data Export API from Stay AI — 1 operation(s) for data export.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Data Export API from Stay AI — 1 operation(s) for data export.
   name: Stay AI Data Export API
   slug: stay-ai-data-export-api
-- description: The Orders API from Stay AI — 2 operation(s) for orders.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Orders API from Stay AI — 2 operation(s) for orders.
   name: Stay AI Orders API
   slug: stay-ai-orders-api
-- description: The Selling Plans API from Stay AI — 2 operation(s) for selling plans.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Selling Plans API from Stay AI — 2 operation(s) for selling plans.
   name: Stay AI Selling Plans API
   slug: stay-ai-selling-plans-api
-- description: The Subscriptions API from Stay AI — 9 operation(s) for subscriptions.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Subscriptions API from Stay AI — 9 operation(s) for subscriptions.
   name: Stay AI Subscriptions API
   slug: stay-ai-subscriptions-api
-- description: The Webhooks API from Stay AI — 2 operation(s) for webhooks.
+- baseURL: https://api.retextion.com/api/v2/subscriptions
+  baseurl_source: declared
+  description: The Webhooks API from Stay AI — 2 operation(s) for webhooks.
   name: Stay AI Webhooks API
   slug: stay-ai-webhooks-api
 artifact_total: 24
@@ -175,7 +191,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -198,8 +214,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stay-ai/refs/heads/main/screenshots/stay-ai-2026-09-02T160823.png
 security:
 - kind: authentication
   name: Stay Ai Authentication

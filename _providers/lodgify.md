@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 11 acting
 api_count: 1
 apis:
-- description: Availability calendars for properties and room types.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Availability calendars for properties and room types.
   name: Lodgify Availability API
   slug: lodgify-availability-api
-- description: Booking and reservation lifecycle management.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Booking and reservation lifecycle management.
   name: Lodgify Bookings API
   slug: lodgify-bookings-api
-- description: Guest conversation threads and messages.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Guest conversation threads and messages.
   name: Lodgify Messaging API
   slug: lodgify-messaging-api
-- description: Vacation rental properties and their room types.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Vacation rental properties and their room types.
   name: Lodgify Properties API
   slug: lodgify-properties-api
-- description: Daily rates, rate settings, and priced stay quotes.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Daily rates, rate settings, and priced stay quotes.
   name: Lodgify Rates & Quotes API
   slug: lodgify-rates-quotes-api
-- description: Event subscriptions for real-time notifications.
+- baseURL: https://api.lodgify.com/v2
+  baseurl_source: declared
+  description: Event subscriptions for real-time notifications.
   name: Lodgify Webhooks API
   slug: lodgify-webhooks-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lodgify/refs/heads/main/screenshots/lodgify-2026-07-25T225448.png
 security:

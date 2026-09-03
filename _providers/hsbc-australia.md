@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: HSBC Group's global developer portal (develop.hsbc.com) documents commercial / corporate-banking APIs available to HSBC's business and corporate clients, alongside Open Banking APIs for non-Australian
   name: HSBC Developer Portal - Commercial APIs (HSBC Group, partner-gated)
   slug: hsbc-developer-portal-commercial-apis
-- description: Banking Account Balance endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: HSBC Bank Australia Banking Account Balances API
   slug: hsbc-australia-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: HSBC Bank Australia Banking Account Direct Debits API
   slug: hsbc-australia-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: HSBC Bank Australia Banking Account Scheduled Payments API
   slug: hsbc-australia-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: HSBC Bank Australia Banking Account Transactions API
   slug: hsbc-australia-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: HSBC Bank Australia Banking Accounts API
   slug: hsbc-australia-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: HSBC Bank Australia Banking Payees API
   slug: hsbc-australia-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://public.ob.hsbc.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: HSBC Bank Australia Banking Products API
   slug: hsbc-australia-banking-products-api
 arazzos:
@@ -261,7 +275,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

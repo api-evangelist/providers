@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: The ShipStation V2 API is the next-generation shipping and inventory API built on ShipEngine technology. It provides improved endpoints for creating orders, managing customers, querying order and ship
   name: ShipStation V2 API
   slug: shipstation-v2-api
-- description: Manage ShipStation account settings
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage ShipStation account settings
   name: ShipStation Accounts API
   slug: shipstation-accounts-api
-- description: Query carriers and services
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Query carriers and services
   name: ShipStation Carriers API
   slug: shipstation-carriers-api
-- description: Manage customer records
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage customer records
   name: ShipStation Customers API
   slug: shipstation-customers-api
-- description: Manage third-party fulfillments
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage third-party fulfillments
   name: ShipStation Fulfillments API
   slug: shipstation-fulfillments-api
-- description: Manage customer orders
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage customer orders
   name: ShipStation Orders API
   slug: shipstation-orders-api
-- description: Manage product records
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage product records
   name: ShipStation Products API
   slug: shipstation-products-api
-- description: Create and manage shipments
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Create and manage shipments
   name: ShipStation Shipments API
   slug: shipstation-shipments-api
-- description: Manage marketplace store connections
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage marketplace store connections
   name: ShipStation Stores API
   slug: shipstation-stores-api
-- description: Manage warehouse locations
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage warehouse locations
   name: ShipStation Warehouses API
   slug: shipstation-warehouses-api
-- description: Manage webhook subscriptions
+- baseURL: https://ssapi.shipstation.com
+  baseurl_source: spec
+  description: Manage webhook subscriptions
   name: ShipStation Webhooks API
   slug: shipstation-webhooks-api
 artifact_total: 93
@@ -416,7 +436,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -426,7 +446,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 49.2
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     contracts:
@@ -435,7 +455,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 43 operations · 21 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token issuance.
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance.
   name: Encompass Authentication API
   slug: encompass-authentication-api
-- description: Borrower/co-borrower application entities within a loan (modeled).
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Borrower/co-borrower application entities within a loan (modeled).
   name: Encompass Borrower Pairs API
   slug: encompass-borrower-pairs-api
-- description: Underwriting, preliminary, and post-closing conditions (modeled).
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Underwriting, preliminary, and post-closing conditions (modeled).
   name: Encompass Conditions API
   slug: encompass-conditions-api
-- description: Borrower (consumer) and business contacts (modeled).
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Borrower (consumer) and business contacts (modeled).
   name: Encompass Contacts API
   slug: encompass-contacts-api
-- description: Documents and attachments in a loan's eFolder.
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Documents and attachments in a loan's eFolder.
   name: Encompass eFolder API
   slug: encompass-efolder-api
-- description: Create, read, update, and delete Encompass loan files and loan data.
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Create, read, update, and delete Encompass loan files and loan data.
   name: Encompass Loan Management API
   slug: encompass-loan-management-api
-- description: Search loans and loan fields across the pipeline with cursor pagination.
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Search loans and loan fields across the pipeline with cursor pagination.
   name: Encompass Loan Pipeline API
   slug: encompass-loan-pipeline-api
-- description: Loan workflow milestones and associates (modeled).
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Loan workflow milestones and associates (modeled).
   name: Encompass Milestones API
   slug: encompass-milestones-api
-- description: Internal Encompass user administration (modeled).
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Internal Encompass user administration (modeled).
   name: Encompass Users API
   slug: encompass-users-api
-- description: Event subscriptions, resources, events, and custom auth functions.
+- baseURL: https://api.elliemae.com
+  baseurl_source: declared
+  description: Event subscriptions, resources, events, and custom auth functions.
   name: Encompass Webhooks API
   slug: encompass-webhooks-api
 artifact_total: 29
@@ -214,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encompass/refs/heads/main/screenshots/encompass-2026-07-25T213304.png
 security:

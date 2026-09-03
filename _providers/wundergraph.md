@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 38 operations · 24 acting
 api_count: 11
 apis:
-- description: Access graph analytics, metrics, and performance data.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Access graph analytics, metrics, and performance data.
   name: WunderGraph Analytics API
   slug: wundergraph-analytics-api
-- description: Manage API keys for platform authentication.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage API keys for platform authentication.
   name: WunderGraph API Keys API
   slug: wundergraph-api-keys-api
-- description: Manage feature flags for gradual rollout of graph changes.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage feature flags for gradual rollout of graph changes.
   name: WunderGraph Feature Flags API
   slug: wundergraph-feature-flags-api
-- description: Manage feature subgraphs for experimental feature development.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage feature subgraphs for experimental feature development.
   name: WunderGraph Feature Subgraphs API
   slug: wundergraph-feature-subgraphs-api
-- description: Manage federated graphs composed from multiple subgraphs using label matchers.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage federated graphs composed from multiple subgraphs using label matchers.
   name: WunderGraph Federated Graphs API
   slug: wundergraph-federated-graphs-api
-- description: Manage monographs - non-federated graphs limited to a single subgraph.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage monographs - non-federated graphs limited to a single subgraph.
   name: WunderGraph Monographs API
   slug: wundergraph-monographs-api
-- description: Manage namespaces for organizing graphs and subgraphs.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage namespaces for organizing graphs and subgraphs.
   name: WunderGraph Namespaces API
   slug: wundergraph-namespaces-api
-- description: Manage router configuration and authentication tokens.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage router configuration and authentication tokens.
   name: WunderGraph Router API
   slug: wundergraph-router-api
-- description: Manage schema contracts for providing filtered graph views to different consumers.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage schema contracts for providing filtered graph views to different consumers.
   name: WunderGraph Schema Contracts API
   slug: wundergraph-schema-contracts-api
-- description: Manage subgraphs - isolated GraphQL schemas that compose into federated graphs.
+- baseURL: https://cosmo-cp.wundergraph.com
+  baseurl_source: spec
+  description: Manage subgraphs - isolated GraphQL schemas that compose into federated graphs.
   name: WunderGraph Subgraphs API
   slug: wundergraph-subgraphs-api
 - description: The WunderGraph Cosmo GraphQL API provides full lifecycle management of federated GraphQL APIs, including schema registry operations, composition checks, analytics queries, subgraph management, and ro
@@ -421,7 +441,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -431,7 +451,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 53.2
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -441,7 +461,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

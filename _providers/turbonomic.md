@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 28 operations · 12 acting
 api_count: 1
 apis:
-- description: Retrieve, accept, and reject optimization actions
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Retrieve, accept, and reject optimization actions
   name: IBM Turbonomic Actions API
   slug: turbonomic-actions-api
-- description: Authenticate and manage sessions
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Authenticate and manage sessions
   name: IBM Turbonomic Authentication API
   slug: turbonomic-authentication-api
-- description: Query and manage entities (VMs, containers, applications, storage)
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Query and manage entities (VMs, containers, applications, storage)
   name: IBM Turbonomic Entities API
   slug: turbonomic-entities-api
-- description: Create and manage logical groups of entities
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Create and manage logical groups of entities
   name: IBM Turbonomic Groups API
   slug: turbonomic-groups-api
-- description: Access Turbonomic markets and projected states
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Access Turbonomic markets and projected states
   name: IBM Turbonomic Markets API
   slug: turbonomic-markets-api
-- description: Manage automation and placement policies
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Manage automation and placement policies
   name: IBM Turbonomic Policies API
   slug: turbonomic-policies-api
-- description: Retrieve historical and projected resource statistics
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Retrieve historical and projected resource statistics
   name: IBM Turbonomic Statistics API
   slug: turbonomic-statistics-api
-- description: Manage discovery targets and integrations
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Manage discovery targets and integrations
   name: IBM Turbonomic Targets API
   slug: turbonomic-targets-api
-- description: Manage resource and hardware templates
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Manage resource and hardware templates
   name: IBM Turbonomic Templates API
   slug: turbonomic-templates-api
-- description: Explore infrastructure topology and supply chains
+- baseURL: https://{turbonomic_host}/api/v3
+  baseurl_source: declared
+  description: Explore infrastructure topology and supply chains
   name: IBM Turbonomic Topology API
   slug: turbonomic-topology-api
 artifact_total: 51
@@ -358,7 +378,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/screenshots/turbonomic-2026-06-20T195852.png
 security:

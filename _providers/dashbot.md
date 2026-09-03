@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Read API for enriched conversational data. GET /export returns a zipFile handle for all dimension data across a set of bot IDs over a date range, optionally filtered to named prompts; GET /index is th
+- baseURL: https://api.dimensionlabs.io
+  baseurl_source: declared
+  description: Read API for enriched conversational data. GET /export returns a zipFile handle for all dimension data across a set of bot IDs over a date range, optionally filtered to named prompts; GET /index is th
   name: Dashbot Export API
   slug: dashbot-export-api
 - description: Write/ingest API for unstructured customer conversations. POST one message object per call to /track (realtime, timestamp within 24 hours) or /trackhistorical (older data), with platform, version, dir
@@ -228,7 +230,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token issuance for the High Mobility platform.
+- baseURL: https://api.high-mobility.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance for the High Mobility platform.
   name: High Mobility Authentication API
   slug: high-mobility-authentication-api
-- description: Manage fleet vehicle clearance status and onboarding.
+- baseURL: https://api.high-mobility.com
+  baseurl_source: declared
+  description: Manage fleet vehicle clearance status and onboarding.
   name: High Mobility Fleet Clearance API
   slug: high-mobility-fleet-clearance-api
-- description: Retrieve real-time vehicle telemetry organized by capability category.
+- baseURL: https://api.high-mobility.com
+  baseurl_source: declared
+  description: Retrieve real-time vehicle telemetry organized by capability category.
   name: High Mobility Vehicle Data API
   slug: high-mobility-vehicle-data-api
-- description: Check brand and capability eligibility for a vehicle.
+- baseURL: https://api.high-mobility.com
+  baseurl_source: declared
+  description: Check brand and capability eligibility for a vehicle.
   name: High Mobility Vehicle Eligibility API
   slug: high-mobility-vehicle-eligibility-api
 artifact_total: 17
@@ -190,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/screenshots/high-mobility-2026-06-20T182732.png
 security:

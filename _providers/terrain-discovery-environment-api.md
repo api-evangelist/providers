@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 27 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Job submission, monitoring, and management
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Job submission, monitoring, and management
   name: Terrain Discovery Environment API Analyses API
   slug: terrain-discovery-environment-api-analyses-api
-- description: Application metadata, discovery, and management
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Application metadata, discovery, and management
   name: Terrain Discovery Environment API Apps API
   slug: terrain-discovery-environment-api-apps-api
-- description: Token and authentication management
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Token and authentication management
   name: Terrain Discovery Environment API Authentication API
   slug: terrain-discovery-environment-api-authentication-api
-- description: iRODS filesystem operations - browse, create, move, delete files and directories
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: iRODS filesystem operations - browse, create, move, delete files and directories
   name: Terrain Discovery Environment API Filesystem API
   slug: terrain-discovery-environment-api-filesystem-api
-- description: Permanent identifier (DOI) requests
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Permanent identifier (DOI) requests
   name: Terrain Discovery Environment API Identifiers API
   slug: terrain-discovery-environment-api-identifiers-api
-- description: File and data metadata annotation
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: File and data metadata annotation
   name: Terrain Discovery Environment API Metadata API
   slug: terrain-discovery-environment-api-metadata-api
-- description: User notification management
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: User notification management
   name: Terrain Discovery Environment API Notifications API
   slug: terrain-discovery-environment-api-notifications-api
-- description: Full-text search across data and apps
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Full-text search across data and apps
   name: Terrain Discovery Environment API Search API
   slug: terrain-discovery-environment-api-search-api
-- description: Data sharing and permissions
+- baseURL: https://de.cyverse.org/terrain
+  baseurl_source: declared
+  description: Data sharing and permissions
   name: Terrain Discovery Environment API Sharing API
   slug: terrain-discovery-environment-api-sharing-api
 artifact_total: 32
@@ -254,7 +272,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/screenshots/terrain-discovery-environment-api-2026-06-20T195131.png
 security:

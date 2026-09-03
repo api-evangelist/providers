@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 22 operations · 15 acting
 api_count: 10
 apis:
-- description: The Classify API from reducto-ai — 2 operation(s) for classify.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Classify API from reducto-ai — 2 operation(s) for classify.
   name: reducto-ai Classify API
   slug: reducto-ai-classify-api
-- description: The Edit API from reducto-ai — 2 operation(s) for edit.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Edit API from reducto-ai — 2 operation(s) for edit.
   name: reducto-ai Edit API
   slug: reducto-ai-edit-api
-- description: The Extract API from reducto-ai — 2 operation(s) for extract.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Extract API from reducto-ai — 2 operation(s) for extract.
   name: reducto-ai Extract API
   slug: reducto-ai-extract-api
-- description: The Jobs API from reducto-ai — 3 operation(s) for jobs.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Jobs API from reducto-ai — 3 operation(s) for jobs.
   name: reducto-ai Jobs API
   slug: reducto-ai-jobs-api
-- description: The Parse API from reducto-ai — 2 operation(s) for parse.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Parse API from reducto-ai — 2 operation(s) for parse.
   name: reducto-ai Parse API
   slug: reducto-ai-parse-api
-- description: The Pipeline API from reducto-ai — 2 operation(s) for pipeline.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Pipeline API from reducto-ai — 2 operation(s) for pipeline.
   name: reducto-ai Pipeline API
   slug: reducto-ai-pipeline-api
-- description: The Platform API from reducto-ai — 5 operation(s) for platform.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Platform API from reducto-ai — 5 operation(s) for platform.
   name: reducto-ai Platform API
   slug: reducto-ai-platform-api
-- description: The Split API from reducto-ai — 2 operation(s) for split.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Split API from reducto-ai — 2 operation(s) for split.
   name: reducto-ai Split API
   slug: reducto-ai-split-api
-- description: The Upload API from reducto-ai — 1 operation(s) for upload.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Upload API from reducto-ai — 1 operation(s) for upload.
   name: reducto-ai Upload API
   slug: reducto-ai-upload-api
-- description: The Webhooks API from reducto-ai — 1 operation(s) for webhooks.
+- baseURL: https://platform.reducto.ai
+  baseurl_source: spec
+  description: The Webhooks API from reducto-ai — 1 operation(s) for webhooks.
   name: reducto-ai Webhooks API
   slug: reducto-ai-webhooks-api
 artifact_total: 100
@@ -530,10 +550,10 @@ score:
       total: 10
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

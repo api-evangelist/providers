@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 42 operations · 9 acting
 api_count: 12
 apis:
-- description: Accumulated temperature and precipitation totals for agriculture.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Accumulated temperature and precipitation totals for agriculture.
   name: OpenWeatherMap Accumulated Parameters API
   slug: openweathermap-accumulated-parameters-api
-- description: Current, forecast, and historical air pollution data with AQI.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Current, forecast, and historical air pollution data with AQI.
   name: OpenWeatherMap Air Pollution API
   slug: openweathermap-air-pollution-api
-- description: Current weather data for any geographic coordinates worldwide.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Current weather data for any geographic coordinates worldwide.
   name: OpenWeatherMap Current Weather API
   slug: openweathermap-current-weather-api
-- description: Weather forecasts at multiple granularities and time horizons.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Weather forecasts at multiple granularities and time horizons.
   name: OpenWeatherMap Forecast API
   slug: openweathermap-forecast-api
-- description: Direct and reverse geocoding between location names and coordinates.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Direct and reverse geocoding between location names and coordinates.
   name: OpenWeatherMap Geocoding API
   slug: openweathermap-geocoding-api
-- description: Historical weather records by coordinate with hourly granularity.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Historical weather records by coordinate with hourly granularity.
   name: OpenWeatherMap History API
   slug: openweathermap-history-api
-- description: Submit and retrieve aggregated weather station measurements.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Submit and retrieve aggregated weather station measurements.
   name: OpenWeatherMap Measurements API
   slug: openweathermap-measurements-api
-- description: Unified timeline API with current, forecast, and historical weather plus alerts.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Unified timeline API with current, forecast, and historical weather plus alerts.
   name: OpenWeatherMap One Call API
   slug: openweathermap-one-call-api
-- description: Route weather, road surface state, and alerts for a track of waypoints.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Route weather, road surface state, and alerts for a track of waypoints.
   name: OpenWeatherMap Road Risk API
   slug: openweathermap-road-risk-api
-- description: Solar irradiance values for clear and cloudy sky models.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Solar irradiance values for clear and cloudy sky models.
   name: OpenWeatherMap Solar Irradiance API
   slug: openweathermap-solar-irradiance-api
-- description: Manage modeled locations and solar panel configurations and retrieve power output.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Manage modeled locations and solar panel configurations and retrieve power output.
   name: OpenWeatherMap Solar Panels API
   slug: openweathermap-solar-panels-api
-- description: Register, retrieve, update, and delete personal weather stations.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Register, retrieve, update, and delete personal weather stations.
   name: OpenWeatherMap Stations API
   slug: openweathermap-stations-api
-- description: Long-term statistical weather aggregates for any global location.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Long-term statistical weather aggregates for any global location.
   name: OpenWeatherMap Statistical Weather API
   slug: openweathermap-statistical-weather-api
-- description: Weather layer tile service for map overlays.
+- baseURL: https://api.openweathermap.org/data/2.5
+  baseurl_source: declared
+  description: Weather layer tile service for map overlays.
   name: OpenWeatherMap Weather Maps API
   slug: openweathermap-weather-maps-api
 arazzos:
@@ -612,7 +640,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/screenshots/openweathermap-2026-06-20T191055.png
 security:

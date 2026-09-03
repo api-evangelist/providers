@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 34 operations · 23 acting
 api_count: 1
 apis:
-- description: Confirmed. Read and update organization and form settings.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read and update organization and form settings.
   name: Qgiv Account Settings API
   slug: qgiv-account-settings-api
-- description: Confirmed. Manage preset suggested-giving amounts.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Manage preset suggested-giving amounts.
   name: Qgiv Custom Amounts API
   slug: qgiv-custom-amounts-api
-- description: Confirmed. Manage custom fields on a donation form.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Manage custom fields on a donation form.
   name: Qgiv Custom Fields API
   slug: qgiv-custom-fields-api
-- description: Confirmed. Manage fundraising/ticketed events.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Manage fundraising/ticketed events.
   name: Qgiv Events API
   slug: qgiv-events-api
-- description: Confirmed. Manage export/report mappings to external systems.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Manage export/report mappings to external systems.
   name: Qgiv Mappings API
   slug: qgiv-mappings-api
-- description: Confirmed. Read-only reporting on recurring donation schedules.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read-only reporting on recurring donation schedules.
   name: Qgiv Recurring API
   slug: qgiv-recurring-api
-- description: Confirmed. Read-only reporting on refunds.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read-only reporting on refunds.
   name: Qgiv Refunds API
   slug: qgiv-refunds-api
-- description: Confirmed. Read-only reporting on peer-to-peer registrations.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read-only reporting on peer-to-peer registrations.
   name: Qgiv Registrations API
   slug: qgiv-registrations-api
-- description: Confirmed. Read-only reporting on monthly processing statements.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read-only reporting on monthly processing statements.
   name: Qgiv Statements API
   slug: qgiv-statements-api
-- description: Confirmed. Read-only reporting on donation transactions.
+- baseURL: https://secure.qgiv.com/admin/api
+  baseurl_source: declared
+  description: Confirmed. Read-only reporting on donation transactions.
   name: Qgiv Transactions API
   slug: qgiv-transactions-api
 artifact_total: 29
@@ -186,7 +206,7 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -215,8 +235,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/screenshots/qgiv-2026-09-02T152432.png
 security:
 - kind: authentication
   name: Qgiv Authentication

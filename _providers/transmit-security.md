@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: 'No-code identity orchestration API and policy engine enabling dynamic identity flow composition, adaptive access control, and integration with third-party services through pre-built journey templates '
   name: Mosaic Orchestration API
   slug: mosaic-orchestration-api
-- description: The Applications API from Transmit Security — 14 operation(s) for applications.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Applications API from Transmit Security — 14 operation(s) for applications.
   name: Transmit Security Applications API
   slug: transmit-security-applications-api
-- description: The Auth API from Transmit Security — 10 operation(s) for auth.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Auth API from Transmit Security — 10 operation(s) for auth.
   name: Transmit Security Auth API
   slug: transmit-security-auth-api
-- description: The Manage API from Transmit Security — 1 operation(s) for manage.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Manage API from Transmit Security — 1 operation(s) for manage.
   name: Transmit Security Manage API
   slug: transmit-security-manage-api
-- description: The Organizations API from Transmit Security — 6 operation(s) for organizations.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Organizations API from Transmit Security — 6 operation(s) for organizations.
   name: Transmit Security Organizations API
   slug: transmit-security-organizations-api
-- description: The Recommendation API from Transmit Security — 3 operation(s) for recommendation.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Recommendation API from Transmit Security — 3 operation(s) for recommendation.
   name: Transmit Security Recommendation API
   slug: transmit-security-recommendation-api
-- description: The Token API from Transmit Security — 1 operation(s) for token.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Token API from Transmit Security — 1 operation(s) for token.
   name: Transmit Security Token API
   slug: transmit-security-token-api
-- description: The Users API from Transmit Security — 18 operation(s) for users.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Users API from Transmit Security — 18 operation(s) for users.
   name: Transmit Security Users API
   slug: transmit-security-users-api
-- description: The Verification API from Transmit Security — 6 operation(s) for verification.
+- baseURL: https://api.transmitsecurity.io
+  baseurl_source: declared
+  description: The Verification API from Transmit Security — 6 operation(s) for verification.
   name: Transmit Security Verification API
   slug: transmit-security-verification-api
 artifact_total: 47
@@ -319,7 +335,7 @@ score:
       marker_coverage: 12.5
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/screenshots/transmit-security-2026-06-20T195547.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Real-time WebSocket API providing live market data streams including order book updates, live trades, ticker data, and private account event channels via authenticated token-based subscriptions.
   name: Bitstamp WebSocket API
   slug: bitstamp-websocket-api
-- description: Public market data endpoints (no authentication required)
+- baseURL: https://www.bitstamp.net
+  baseurl_source: declared
+  description: Public market data endpoints (no authentication required)
   name: Bitstamp Market Data API
   slug: bitstamp-market-data-api
 artifact_total: 26
@@ -239,7 +241,7 @@ score:
     regime_id: securities_market_data
     score: 40.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
 security:

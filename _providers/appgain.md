@@ -35,16 +35,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
   name: Appgain OmniChannel Messaging API
   slug: appgain-omnichannel-messaging-api
-- description: The messaging send service. A single POST /{projectId}/send endpoint whose channel is selected by the top-level body key (appPush, email, SMS, webPush, WHATSAPP, UOWHATSAPP), plus SMS target-list subs
+- baseURL: https://notify.appgain.io
+  baseurl_source: declared
+  description: The messaging send service. A single POST /{projectId}/send endpoint whose channel is selected by the top-level body key (appPush, email, SMS, webPush, WHATSAPP, UOWHATSAPP), plus SMS target-list subs
   name: Appgain Notify API
   slug: appgain-notify-api
-- description: 'The marketing-automation service. Fires and cancels dashboard-configured automation journeys at a named trigger point, for one user or a batch of users via the v2 form. Authenticated with the project '
+- baseURL: https://automator.appgain.io
+  baseurl_source: declared
+  description: 'The marketing-automation service. Fires and cancels dashboard-configured automation journeys at a named trigger point, for one user or a batch of users via the v2 form. Authenticated with the project '
   name: Appgain Automator API
   slug: appgain-automator-api
 artifact_total: 9
@@ -222,7 +226,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -232,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.5
+  previous_composite: 38.2
   provenance:
     conformance: derived
     mcp: derived
@@ -244,7 +248,7 @@ score:
     regime_id: telecommunications
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: DNV Vessel Register provides access to DNV's public registry of classified vessels including vessel identification, classification status, certificates, and survey history. The register supports fleet
   name: DNV Vessel Register
   slug: dnv-vessel-register-api
-- description: Classification certificates and survey documents
+- baseURL: https://maritime.dnv.com/api/cs-iacs-customer
+  baseurl_source: declared
+  description: Classification certificates and survey documents
   name: DNV Certificates API
   slug: dnv-certificates-api
-- description: Survey schedules and records
+- baseURL: https://maritime.dnv.com/api/cs-iacs-customer
+  baseurl_source: declared
+  description: Survey schedules and records
   name: DNV Surveys API
   slug: dnv-surveys-api
-- description: Vessel classification status and information
+- baseURL: https://maritime.dnv.com/api/cs-iacs-customer
+  baseurl_source: declared
+  description: Vessel classification status and information
   name: DNV Vessels API
   slug: dnv-vessels-api
 artifact_total: 21
@@ -246,7 +252,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/screenshots/dnv-2026-06-20T180105.png
 security:

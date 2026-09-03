@@ -35,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
+- baseURL: https://api.meetleo.com
+  baseurl_source: declared
+  description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
   name: LeO Public API
   slug: leo-public-api
 - description: First-party, hosted, remote MCP server exposing LeO's insurance intelligence -- 25M+ US businesses across 200+ filters, x-dates, Form 5500 financials, benefits red flags, DOT Intelligence, Trucking Tr
@@ -245,7 +247,7 @@ score:
     regime_id: insurance
     score: 78.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 48 operations · 32 acting
 api_count: 1
 apis:
-- description: The Account Management API API from ImageKit — 5 operation(s) for account management api.
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The Account Management API API from ImageKit — 5 operation(s) for account management api.
   name: ImageKit Account Management API API
   slug: imagekit-account-management-api-api
-- description: The Caching API from ImageKit — 2 operation(s) for caching.
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The Caching API from ImageKit — 2 operation(s) for caching.
   name: ImageKit Caching API
   slug: imagekit-caching-api
-- description: The Digital Asset Management (DAM) API from ImageKit — 22 operation(s) for digital asset management (dam).
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The Digital Asset Management (DAM) API from ImageKit — 22 operation(s) for digital asset management (dam).
   name: ImageKit Digital Asset Management (DAM) API
   slug: imagekit-digital-asset-management-dam-api
-- description: The Dummy Test API from ImageKit — 1 operation(s) for dummy test.
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The Dummy Test API from ImageKit — 1 operation(s) for dummy test.
   name: ImageKit Dummy Test API
   slug: imagekit-dummy-test-api
-- description: The File Metadata API from ImageKit — 2 operation(s) for file metadata.
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The File Metadata API from ImageKit — 2 operation(s) for file metadata.
   name: ImageKit File Metadata API
   slug: imagekit-file-metadata-api
-- description: The Upload File API from ImageKit — 2 operation(s) for upload file.
+- baseURL: https://api.imagekit.io
+  baseurl_source: declared
+  description: The Upload File API from ImageKit — 2 operation(s) for upload file.
   name: ImageKit Upload File API
   slug: imagekit-upload-file-api
 artifact_total: 44
@@ -301,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/screenshots/imagekit-2026-06-20T183243.png
 security:

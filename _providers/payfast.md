@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: REST API for managing recurring billing subscriptions, including fetching subscription details, pausing, unpausing, cancelling, updating subscription parameters, and processing adhoc charges against e
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: REST API for managing recurring billing subscriptions, including fetching subscription details, pausing, unpausing, cancelling, updating subscription parameters, and processing adhoc charges against e
   name: PayFast Subscriptions API
   slug: payfast-subscriptions-api
-- description: REST API for managing tokenized recurring card payment agreements, allowing merchants to charge customers at future dates and amounts without storing card details directly. Supports adhoc charges on s
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: REST API for managing tokenized recurring card payment agreements, allowing merchants to charge customers at future dates and amounts without storing card details directly. Supports adhoc charges on s
   name: PayFast Tokenization API
   slug: payfast-tokenization-api
-- description: REST API for querying merchant transaction history with support for date range queries, daily summaries, weekly aggregations, and monthly aggregations, enabling merchants to reconcile payments program
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: REST API for querying merchant transaction history with support for date range queries, daily summaries, weekly aggregations, and monthly aggregations, enabling merchants to reconcile payments program
   name: PayFast Transaction History API
   slug: payfast-transaction-history-api
-- description: REST API for querying individual credit card transaction details by transaction ID, giving merchants programmatic access to card payment records.
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: REST API for querying individual credit card transaction details by transaction ID, giving merchants programmatic access to card payment records.
   name: PayFast Credit Card Transactions API
   slug: payfast-credit-card-transactions-api
-- description: REST API for merchants to initiate and track refunds on completed transactions, specifying refund amount, reason, and account type for disbursement back to the customer.
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: REST API for merchants to initiate and track refunds on completed transactions, specifying refund amount, reason, and account type for disbursement back to the customer.
   name: PayFast Refunds API
   slug: payfast-refunds-api
-- description: Query individual credit card transaction details
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Query individual credit card transaction details
   name: PayFast Credit Card Transactions API
   slug: payfast-credit-card-transactions-api
-- description: Validate ITN (Instant Transaction Notification) webhooks
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Validate ITN (Instant Transaction Notification) webhooks
   name: PayFast Notifications API
   slug: payfast-notifications-api
-- description: Generate payment identifiers for embedded (onsite) checkout flows
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Generate payment identifiers for embedded (onsite) checkout flows
   name: PayFast Onsite Checkout API
   slug: payfast-onsite-checkout-api
-- description: Standard redirect-based payment form integration
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Standard redirect-based payment form integration
   name: PayFast Payment Form API
   slug: payfast-payment-form-api
-- description: Initiate and track refunds on completed transactions
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Initiate and track refunds on completed transactions
   name: PayFast Refunds API
   slug: payfast-refunds-api
-- description: Manage recurring billing subscription agreements
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Manage recurring billing subscription agreements
   name: PayFast Subscriptions API
   slug: payfast-subscriptions-api
-- description: Manage tokenized card payment agreements (adhoc charges)
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Manage tokenized card payment agreements (adhoc charges)
   name: PayFast Tokenization API
   slug: payfast-tokenization-api
-- description: Query merchant transaction history with date range and aggregations
+- baseURL: https://api.payfast.co.za
+  baseurl_source: declared
+  description: Query merchant transaction history with date range and aggregations
   name: PayFast Transaction History API
   slug: payfast-transaction-history-api
 artifact_total: 39
@@ -279,7 +305,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfast/refs/heads/main/screenshots/payfast-2026-06-20T191452.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 40 operations · 16 acting
 api_count: 6
 apis:
-- description: The Assets API from Elliptic — 1 operation(s) for assets.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Assets API from Elliptic — 1 operation(s) for assets.
   name: Elliptic Assets API
   slug: elliptic-assets-api
-- description: The Count Analyses API from Elliptic — 1 operation(s) for count analyses.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Count Analyses API from Elliptic — 1 operation(s) for count analyses.
   name: Elliptic Count Analyses API
   slug: elliptic-count-analyses-api
-- description: Retrieve all criteria related to triggering risk rules
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Retrieve all criteria related to triggering risk rules
   name: Elliptic Criteria API
   slug: elliptic-criteria-api
-- description: 'The customers endpoints are used to manage customers which you have associated analysis with, via the `customer_reference` analysis subject attribute. Currently, the customers endpoints only refer to '
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: 'The customers endpoints are used to manage customers which you have associated analysis with, via the `customer_reference` analysis subject attribute. Currently, the customers endpoints only refer to '
   name: Elliptic Customers API
   slug: elliptic-customers-api
-- description: Health check endpoints
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Health check endpoints
   name: Elliptic Health API
   slug: elliptic-health-api
-- description: Manage risk rules. Currently the same risk rules are used for Navigator and Lens
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Manage risk rules. Currently the same risk rules are used for Navigator and Lens
   name: Elliptic Risk Rules API
   slug: elliptic-risk-rules-api
-- description: The Sanctions API from Elliptic — 1 operation(s) for sanctions.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Sanctions API from Elliptic — 1 operation(s) for sanctions.
   name: Elliptic Sanctions API
   slug: elliptic-sanctions-api
-- description: Wallet and transaction screening endpoints
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Wallet and transaction screening endpoints
   name: Elliptic Screenings API
   slug: elliptic-screenings-api
-- description: Run blockchain analysis against one or more transactions. Get and update previously run analyses.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Run blockchain analysis against one or more transactions. Get and update previously run analyses.
   name: Elliptic Transaction Analyses API
   slug: elliptic-transaction-analyses-api
-- description: The Transaction Workflow API from Elliptic — 3 operation(s) for transaction workflow.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Transaction Workflow API from Elliptic — 3 operation(s) for transaction workflow.
   name: Elliptic Transaction Workflow API
   slug: elliptic-transaction-workflow-api
-- description: Tron blockchain data lookup operations
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Tron blockchain data lookup operations
   name: Elliptic Tron NodeIntelligence API
   slug: elliptic-tron-nodeintelligence-api
-- description: Manage users
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Manage users
   name: Elliptic Users API
   slug: elliptic-users-api
-- description: Run blockchain analysis against one or more wallets. Get and update previously run analyses.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: Run blockchain analysis against one or more wallets. Get and update previously run analyses.
   name: Elliptic Wallet Analyses API
   slug: elliptic-wallet-analyses-api
-- description: The Wallet Analyses Count API from Elliptic — 1 operation(s) for wallet analyses count.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Wallet Analyses Count API from Elliptic — 1 operation(s) for wallet analyses count.
   name: Elliptic Wallet Analyses Count API
   slug: elliptic-wallet-analyses-count-api
-- description: The Wallet API from Elliptic — 1 operation(s) for wallet.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Wallet API from Elliptic — 1 operation(s) for wallet.
   name: Elliptic Wallet API
   slug: elliptic-wallet-api
-- description: The Wallet Workflow API from Elliptic — 2 operation(s) for wallet workflow.
+- baseURL: https://aml-api.elliptic.co
+  baseurl_source: declared
+  description: The Wallet Workflow API from Elliptic — 2 operation(s) for wallet workflow.
   name: Elliptic Wallet Workflow API
   slug: elliptic-wallet-workflow-api
 artifact_total: 40
@@ -282,7 +314,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/screenshots/elliptic-2026-06-20T180613.png
 security:

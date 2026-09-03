@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
   name: Moxion Power Co Device Faults API
   slug: moxion-power-co-device-faults-api
-- description: The Device Location API from Moxion Power Co — 2 operation(s) for device location.
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Device Location API from Moxion Power Co — 2 operation(s) for device location.
   name: Moxion Power Co Device Location API
   slug: moxion-power-co-device-location-api
-- description: The Device Metrics API from Moxion Power Co — 1 operation(s) for device metrics.
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Device Metrics API from Moxion Power Co — 1 operation(s) for device metrics.
   name: Moxion Power Co Device Metrics API
   slug: moxion-power-co-device-metrics-api
-- description: The Devices API from Moxion Power Co — 2 operation(s) for devices.
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Devices API from Moxion Power Co — 2 operation(s) for devices.
   name: Moxion Power Co Devices API
   slug: moxion-power-co-devices-api
-- description: The Fleet Snapshot (AEMP) API from Moxion Power Co — 3 operation(s) for fleet snapshot (aemp).
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Fleet Snapshot (AEMP) API from Moxion Power Co — 3 operation(s) for fleet snapshot (aemp).
   name: Moxion Power Co Fleet Snapshot (AEMP) API
   slug: moxion-power-co-fleet-snapshot-aemp-api
-- description: The Organizations API from Moxion Power Co — 1 operation(s) for organizations.
+- baseURL: http://api.moxionpower.com/developer/v1
+  baseurl_source: declared
+  description: The Organizations API from Moxion Power Co — 1 operation(s) for organizations.
   name: Moxion Power Co Organizations API
   slug: moxion-power-co-organizations-api
 artifact_total: 16
@@ -211,7 +223,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -221,7 +233,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 5.3
-  previous_composite: 35.1
+  previous_composite: 25.1
   provenance:
     conformance: first-party
     contracts:
@@ -238,8 +250,8 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:
 - kind: authentication

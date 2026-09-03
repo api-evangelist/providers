@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -68,16 +68,24 @@ apis:
 - description: The Intune Reports Export API enables you to export Intune reporting data using Microsoft Graph API export jobs. You can create export jobs to generate reports that provide insight into device complia
   name: Intune Reports Export API
   slug: intune-reports-export-api
-- description: Operations for managing device compliance policies. Compliance policies define rules and settings that a device must comply with to be considered compliant.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing device compliance policies. Compliance policies define rules and settings that a device must comply with to be considered compliant.
   name: Microsoft Intune Device Compliance Policies API
   slug: microsoft-intune-device-compliance-policies-api
-- description: Operations for managing device configuration profiles. Configuration profiles define settings that are applied to enrolled devices.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing device configuration profiles. Configuration profiles define settings that are applied to enrolled devices.
   name: Microsoft Intune Device Configurations API
   slug: microsoft-intune-device-configurations-api
-- description: Operations for managing devices enrolled in Intune. Includes listing, retrieving, creating, updating, and deleting managed device records.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing devices enrolled in Intune. Includes listing, retrieving, creating, updating, and deleting managed device records.
   name: Microsoft Intune Managed Devices API
   slug: microsoft-intune-managed-devices-api
-- description: Remote actions that can be performed on managed devices, including retire, wipe, sync, remote lock, reset passcode, and reboot.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Remote actions that can be performed on managed devices, including retire, wipe, sync, remote lock, reset passcode, and reboot.
   name: Microsoft Intune Remote Actions API
   slug: microsoft-intune-remote-actions-api
 artifact_total: 42
@@ -317,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/screenshots/microsoft-intune-2026-06-20T185505.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -37,43 +49,69 @@ apis:
 - description: Remote Model Context Protocol server operated by Arkestro, authorized with OAuth 2.1 authorization code flow and mandatory PKCE S256 against the mcp:read, mcp:write and offline_access scopes. The endp
   name: Arkestro MCP Server
   slug: arkestro-mcp-server
-- description: The awards API from Arkestro — 1 operation(s) for awards.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: The awards API from Arkestro — 1 operation(s) for awards.
   name: Arkestro Awards API
   slug: arkestro-awards-api
-- description: The business unit API from Arkestro — 1 operation(s) for business unit.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: The business unit API from Arkestro — 1 operation(s) for business unit.
   name: Arkestro business unit API
   slug: arkestro-business-unit-api
-- description: Categories represent item or service groupings used in various reports and programs
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Categories represent item or service groupings used in various reports and programs
   name: Arkestro corporate categories API
   slug: arkestro-corporate-categories-api
-- description: Items represent goods or services under agreement in Arkestro.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Items represent goods or services under agreement in Arkestro.
   name: Arkestro corporate items API
   slug: arkestro-corporate-items-api
-- description: Purchase Orders for an organization
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Purchase Orders for an organization
   name: Arkestro corporate purchase orders API
   slug: arkestro-corporate-purchase-orders-api
-- description: Vendor document submissions for an event
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Vendor document submissions for an event
   name: Arkestro document submissions API
   slug: arkestro-document-submissions-api
-- description: The event analytics API from Arkestro — 6 operation(s) for event analytics.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: The event analytics API from Arkestro — 6 operation(s) for event analytics.
   name: Arkestro event analytics API
   slug: arkestro-event-analytics-api
-- description: Documents attached to an event for supplier review or submission
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Documents attached to an event for supplier review or submission
   name: Arkestro event documents API
   slug: arkestro-event-documents-api
-- description: The events API from Arkestro — 2 operation(s) for events.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: The events API from Arkestro — 2 operation(s) for events.
   name: Arkestro Events API
   slug: arkestro-events-api
-- description: Quote submissions from suppliers on events
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Quote submissions from suppliers on events
   name: Arkestro quote submissions API
   slug: arkestro-quote-submissions-api
-- description: The schedules API from Arkestro — 1 operation(s) for schedules.
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: The schedules API from Arkestro — 1 operation(s) for schedules.
   name: Arkestro Schedules API
   slug: arkestro-schedules-api
-- description: Contacts represent an individual at a supplier organization
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Contacts represent an individual at a supplier organization
   name: Arkestro supplier contacts API
   slug: arkestro-supplier-contacts-api
-- description: Supplier organizations represent external companies that supply goods or services
+- baseURL: https://api.arkestro.com
+  baseurl_source: declared
+  description: Supplier organizations represent external companies that supply goods or services
   name: Arkestro supplier organizations API
   slug: arkestro-supplier-organizations-api
 artifact_total: 35
@@ -282,7 +320,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -292,7 +330,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,7 +342,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-17T122406.png
 security:

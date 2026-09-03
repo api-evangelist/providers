@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 110 operations · 61 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Adapter API API from Adapter — 1 operation(s) for adapter api.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Adapter API API from Adapter — 1 operation(s) for adapter api.
   name: Adapter Adapter API API
   slug: adapter-adapter-api-api
-- description: The assets API from Adapter — 8 operation(s) for assets.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The assets API from Adapter — 8 operation(s) for assets.
   name: Adapter assets API
   slug: adapter-assets-api
-- description: The auth API from Adapter — 23 operation(s) for auth.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The auth API from Adapter — 23 operation(s) for auth.
   name: Adapter auth API
   slug: adapter-auth-api
-- description: The conversations API from Adapter — 11 operation(s) for conversations.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The conversations API from Adapter — 11 operation(s) for conversations.
   name: Adapter conversations API
   slug: adapter-conversations-api
-- description: The Docs API from Adapter — 1 operation(s) for docs.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Docs API from Adapter — 1 operation(s) for docs.
   name: Adapter Docs API
   slug: adapter-docs-api
-- description: The Imessage API from Adapter — 1 operation(s) for imessage.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Imessage API from Adapter — 1 operation(s) for imessage.
   name: Adapter Imessage API
   slug: adapter-imessage-api
-- description: The knowledge API from Adapter — 11 operation(s) for knowledge.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The knowledge API from Adapter — 11 operation(s) for knowledge.
   name: Adapter knowledge API
   slug: adapter-knowledge-api
-- description: The life API from Adapter — 1 operation(s) for life.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The life API from Adapter — 1 operation(s) for life.
   name: Adapter life API
   slug: adapter-life-api
-- description: The Line API from Adapter — 1 operation(s) for line.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Line API from Adapter — 1 operation(s) for line.
   name: Adapter Line API
   slug: adapter-line-api
-- description: The location API from Adapter — 1 operation(s) for location.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The location API from Adapter — 1 operation(s) for location.
   name: Adapter location API
   slug: adapter-location-api
-- description: The management API from Adapter — 1 operation(s) for management.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The management API from Adapter — 1 operation(s) for management.
   name: Adapter management API
   slug: adapter-management-api
-- description: The Oauth API from Adapter — 1 operation(s) for oauth.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Oauth API from Adapter — 1 operation(s) for oauth.
   name: Adapter Oauth API
   slug: adapter-oauth-api
-- description: The oauth-connect API from Adapter — 3 operation(s) for oauth-connect.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The oauth-connect API from Adapter — 3 operation(s) for oauth-connect.
   name: Adapter oauth-connect API
   slug: adapter-oauth-connect-api
-- description: The oauth2 API from Adapter — 2 operation(s) for oauth2.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The oauth2 API from Adapter — 2 operation(s) for oauth2.
   name: Adapter oauth2 API
   slug: adapter-oauth2-api
-- description: The Openapi.json API from Adapter — 1 operation(s) for openapi.json.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Openapi.json API from Adapter — 1 operation(s) for openapi.json.
   name: Adapter Openapi.json API
   slug: adapter-openapi-json-api
-- description: The proxy API from Adapter — 13 operation(s) for proxy.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The proxy API from Adapter — 13 operation(s) for proxy.
   name: Adapter proxy API
   slug: adapter-proxy-api
-- description: The radar API from Adapter — 2 operation(s) for radar.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The radar API from Adapter — 2 operation(s) for radar.
   name: Adapter radar API
   slug: adapter-radar-api
-- description: The Redoc API from Adapter — 1 operation(s) for redoc.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Redoc API from Adapter — 1 operation(s) for redoc.
   name: Adapter Redoc API
   slug: adapter-redoc-api
-- description: The reminders API from Adapter — 3 operation(s) for reminders.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The reminders API from Adapter — 3 operation(s) for reminders.
   name: Adapter reminders API
   slug: adapter-reminders-api
-- description: The reranking API from Adapter — 1 operation(s) for reranking.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The reranking API from Adapter — 1 operation(s) for reranking.
   name: Adapter reranking API
   slug: adapter-reranking-api
-- description: The Sendblue API from Adapter — 1 operation(s) for sendblue.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Sendblue API from Adapter — 1 operation(s) for sendblue.
   name: Adapter Sendblue API
   slug: adapter-sendblue-api
-- description: The Sms API from Adapter — 1 operation(s) for sms.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Sms API from Adapter — 1 operation(s) for sms.
   name: Adapter Sms API
   slug: adapter-sms-api
-- description: The support API from Adapter — 1 operation(s) for support.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The support API from Adapter — 1 operation(s) for support.
   name: Adapter support API
   slug: adapter-support-api
-- description: The Users API from Adapter — 1 operation(s) for users.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Users API from Adapter — 1 operation(s) for users.
   name: Adapter Users API
   slug: adapter-users-api
-- description: The Webhook API from Adapter — 3 operation(s) for webhook.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Webhook API from Adapter — 3 operation(s) for webhook.
   name: Adapter Webhook API
   slug: adapter-webhook-api
-- description: The Whatsapp API from Adapter — 2 operation(s) for whatsapp.
+- baseURL: https://api.adapter.com
+  baseurl_source: declared
+  description: The Whatsapp API from Adapter — 2 operation(s) for whatsapp.
   name: Adapter Whatsapp API
   slug: adapter-whatsapp-api
 artifact_total: 58
@@ -341,7 +393,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:

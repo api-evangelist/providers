@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: The Associations API from Amazon CodeGuru Reviewer — 2 operation(s) for associations.
+- baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Associations API from Amazon CodeGuru Reviewer — 2 operation(s) for associations.
   name: Amazon CodeGuru Reviewer Associations API
   slug: amazon-codeguru-reviewer-associations-api
-- description: The Codereviews API from Amazon CodeGuru Reviewer — 3 operation(s) for codereviews.
+- baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Codereviews API from Amazon CodeGuru Reviewer — 3 operation(s) for codereviews.
   name: Amazon CodeGuru Reviewer Codereviews API
   slug: amazon-codeguru-reviewer-codereviews-api
-- description: The Codereviews#Type API from Amazon CodeGuru Reviewer — 1 operation(s) for codereviews#type.
+- baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Codereviews#Type API from Amazon CodeGuru Reviewer — 1 operation(s) for codereviews#type.
   name: Amazon CodeGuru Reviewer Codereviews#Type API
   slug: amazon-codeguru-reviewer-codereviews-type-api
-- description: The Feedback API from Amazon CodeGuru Reviewer — 3 operation(s) for feedback.
+- baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Feedback API from Amazon CodeGuru Reviewer — 3 operation(s) for feedback.
   name: Amazon CodeGuru Reviewer Feedback API
   slug: amazon-codeguru-reviewer-feedback-api
-- description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
+- baseURL: https://codeguru-reviewer.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon CodeGuru Reviewer — 2 operation(s) for tags.
   name: Amazon CodeGuru Reviewer Tags API
   slug: amazon-codeguru-reviewer-tags-api
 artifact_total: 333
@@ -1187,7 +1197,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

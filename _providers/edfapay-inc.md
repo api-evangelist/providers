@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Branch Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: Branch Management APIs
   name: EdfaPay, Inc. Branch Management API
   slug: edfapay-inc-branch-management-api
-- description: Merchant Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: Merchant Management APIs
   name: EdfaPay, Inc. Merchant Management API
   slug: edfapay-inc-merchant-management-api
-- description: Partner Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: Partner Management APIs
   name: EdfaPay, Inc. Partner Management API
   slug: edfapay-inc-partner-management-api
-- description: The Payment API from EdfaPay, Inc. — 1 operation(s) for payment.
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: The Payment API from EdfaPay, Inc. — 1 operation(s) for payment.
   name: EdfaPay, Inc. Payment API
   slug: edfapay-inc-payment-api
-- description: Role Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: Role Management APIs
   name: EdfaPay, Inc. Role Management API
   slug: edfapay-inc-role-management-api
-- description: Transaction Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: Transaction Management APIs
   name: EdfaPay, Inc. Transaction Management API
   slug: edfapay-inc-transaction-management-api
-- description: User Management APIs
+- baseURL: https://revamp-api.edfapay.com
+  baseurl_source: declared
+  description: User Management APIs
   name: EdfaPay, Inc. User Management API
   slug: edfapay-inc-user-management-api
 artifact_total: 20
@@ -244,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -254,7 +268,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 53.5
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -271,7 +285,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:

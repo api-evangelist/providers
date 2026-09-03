@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 4
 apis:
-- description: The Notebooks API from Microsoft OneNote — 2 operation(s) for notebooks.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Notebooks API from Microsoft OneNote — 2 operation(s) for notebooks.
   name: Microsoft OneNote Notebooks API
   slug: microsoft-onenote-notebooks-api
-- description: The Pages API from Microsoft OneNote — 4 operation(s) for pages.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Pages API from Microsoft OneNote — 4 operation(s) for pages.
   name: Microsoft OneNote Pages API
   slug: microsoft-onenote-pages-api
-- description: The SectionGroups API from Microsoft OneNote — 2 operation(s) for sectiongroups.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The SectionGroups API from Microsoft OneNote — 2 operation(s) for sectiongroups.
   name: Microsoft OneNote SectionGroups API
   slug: microsoft-onenote-sectiongroups-api
-- description: The Sections API from Microsoft OneNote — 3 operation(s) for sections.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Sections API from Microsoft OneNote — 3 operation(s) for sections.
   name: Microsoft OneNote Sections API
   slug: microsoft-onenote-sections-api
 artifact_total: 16
@@ -185,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-onenote/refs/heads/main/screenshots/microsoft-onenote-2026-06-20T185517.png
 security:

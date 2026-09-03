@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: REST API for managing employees, demographics, status, pay rates, direct deposit, deductions, earnings, taxes, custom fields, company codes, and onboarding via the Paylocity Integrations platform. Aut
   name: Paylocity Integrations REST API
   slug: rest-api
-- description: The Background Check API from Paylocity — 2 operation(s) for background check.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Background Check API from Paylocity — 2 operation(s) for background check.
   name: Paylocity Background Check API
   slug: paylocity-background-check-api
-- description: The Company API from Paylocity — 2 operation(s) for company.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Company API from Paylocity — 2 operation(s) for company.
   name: Paylocity Company API
   slug: paylocity-company-api
-- description: The Deductions API from Paylocity — 1 operation(s) for deductions.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Deductions API from Paylocity — 1 operation(s) for deductions.
   name: Paylocity Deductions API
   slug: paylocity-deductions-api
-- description: The Earnings API from Paylocity — 2 operation(s) for earnings.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Earnings API from Paylocity — 2 operation(s) for earnings.
   name: Paylocity Earnings API
   slug: paylocity-earnings-api
-- description: The Employees API from Paylocity — 3 operation(s) for employees.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Employees API from Paylocity — 3 operation(s) for employees.
   name: Paylocity Employees API
   slug: paylocity-employees-api
-- description: The LMS API from Paylocity — 1 operation(s) for lms.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The LMS API from Paylocity — 1 operation(s) for lms.
   name: Paylocity LMS API
   slug: paylocity-lms-api
-- description: The Payroll API from Paylocity — 3 operation(s) for payroll.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Payroll API from Paylocity — 3 operation(s) for payroll.
   name: Paylocity Payroll API
   slug: paylocity-payroll-api
-- description: The Scheduling API from Paylocity — 3 operation(s) for scheduling.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Scheduling API from Paylocity — 3 operation(s) for scheduling.
   name: Paylocity Scheduling API
   slug: paylocity-scheduling-api
-- description: The Taxes API from Paylocity — 2 operation(s) for taxes.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Taxes API from Paylocity — 2 operation(s) for taxes.
   name: Paylocity Taxes API
   slug: paylocity-taxes-api
-- description: The Time API from Paylocity — 2 operation(s) for time.
+- baseURL: https://api.paylocity.com/api
+  baseurl_source: declared
+  description: The Time API from Paylocity — 2 operation(s) for time.
   name: Paylocity Time API
   slug: paylocity-time-api
 artifact_total: 29
@@ -232,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paylocity/refs/heads/main/screenshots/paylocity-2026-06-20T191505.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 24 operations · 13 acting
 api_count: 1
 apis:
-- description: Decentralized identifier (DID) operations.
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: Decentralized identifier (DID) operations.
   name: Terminal 3 DID V1 API
   slug: terminal-3-did-v1-api
-- description: OpenID Connect authorization, token, userinfo, and credential operations (v1).
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: OpenID Connect authorization, token, userinfo, and credential operations (v1).
   name: Terminal 3 OpenID Connect V1 API
   slug: terminal-3-openid-connect-v1-api
-- description: OpenID Connect token and userinfo operations (v2).
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: OpenID Connect token and userinfo operations (v2).
   name: Terminal 3 OpenID Connect V2 API
   slug: terminal-3-openid-connect-v2-api
-- description: Manage sub-clients under a Terminal 3 tenant.
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: Manage sub-clients under a Terminal 3 tenant.
   name: Terminal 3 Sub Client V1 API
   slug: terminal-3-sub-client-v1-api
-- description: Create, update, and send transactional email templates.
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: Create, update, and send transactional email templates.
   name: Terminal 3 Transactional Email Template V1 API
   slug: terminal-3-transactional-email-template-v1-api
-- description: User creation and user data (social data, wallet addresses).
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: User creation and user data (social data, wallet addresses).
   name: Terminal 3 User V1 API
   slug: terminal-3-user-v1-api
-- description: Verifiable Credential issuer operations.
+- baseURL: https://staging.terminal3.io
+  baseurl_source: declared
+  description: Verifiable Credential issuer operations.
   name: Terminal 3 VC V1 API
   slug: terminal-3-vc-v1-api
 artifact_total: 21
@@ -237,7 +251,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -263,8 +277,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/terminal-3/refs/heads/main/screenshots/terminal-3-2026-09-02T163133.png
 security:
 - kind: authentication
   name: Terminal 3 Authentication

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 2
@@ -33,7 +47,9 @@ agentic_access:
   summary_line: 133 operations · 79 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Stax REST API (published as "stax-api") exposes 133 operations across 101 paths at https://apiprod.fattlabs.com — the Merchant API for payments, payment methods, customers, invoices, payment links
+- baseURL: https://apiprod.fattlabs.com
+  baseurl_source: declared
+  description: The Stax REST API (published as "stax-api") exposes 133 operations across 101 paths at https://apiprod.fattlabs.com — the Merchant API for payments, payment methods, customers, invoices, payment links
   name: Stax API
   slug: stax-api
 artifact_total: 10
@@ -249,23 +265,23 @@ rate_limits:
   slug: stax-rate-limits
 score:
   band: exemplar
-  composite: 74.3
+  composite: 74.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 60.3
+    contract_quality: 62.6
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 74.8
+  previous_composite: 74.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +299,9 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/stax/refs/heads/main/screenshots/stax-2026-09-02T160822.png
 security:
 - kind: authentication
   name: Stax Authentication

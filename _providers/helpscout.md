@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 25
 apis:
-- description: Append customer replies, agent replies, internal notes, phone, chat, and forwards to an existing conversation as new threads.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: Append customer replies, agent replies, internal notes, phone, chat, and forwards to an existing conversation as new threads.
   name: Help Scout Threads API
   slug: helpscout-threads-api
-- description: Manage customer profiles including addresses, emails, phone numbers, chat handles, social profiles, websites, and properties.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: Manage customer profiles including addresses, emails, phone numbers, chat handles, social profiles, websites, and properties.
   name: Help Scout Customers API
   slug: helpscout-customers-api
-- description: Read mailbox / inbox configuration including routing settings, saved replies, custom fields, and folders.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: Read mailbox / inbox configuration including routing settings, saved replies, custom fields, and folders.
   name: Help Scout Mailboxes API
   slug: helpscout-mailboxes-api
-- description: Retrieve Help Scout user accounts (agents) including roles, permissions, and online/offline status.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: Retrieve Help Scout user accounts (agents) including roles, permissions, and online/offline status.
   name: Help Scout Users API
   slug: helpscout-users-api
-- description: Manage teams that group users for routing and assignment within shared inboxes.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: Manage teams that group users for routing and assignment within shared inboxes.
   name: Help Scout Teams API
   slug: helpscout-teams-api
-- description: List, create, and apply tags to conversations for categorization, automation, and reporting.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: List, create, and apply tags to conversations for categorization, automation, and reporting.
   name: Help Scout Tags API
   slug: helpscout-tags-api
-- description: List automation workflows and trigger them manually against a conversation.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: List automation workflows and trigger them manually against a conversation.
   name: Help Scout Workflows API
   slug: helpscout-workflows-api
 - description: Read custom field definitions on inboxes and read / update custom field values on conversations.
@@ -92,31 +106,49 @@ apis:
 - description: Build sidebar applications that render custom content within the Help Scout Inbox UI for partner integrations.
   name: Help Scout Apps API
   slug: helpscout-apps-api
-- description: The Conversations API from Help Scout — 2 operation(s) for conversations.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Conversations API from Help Scout — 2 operation(s) for conversations.
   name: Help Scout Conversations API
   slug: helpscout-conversations-api
-- description: The Customers API from Help Scout — 2 operation(s) for customers.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Customers API from Help Scout — 2 operation(s) for customers.
   name: Help Scout Customers API
   slug: helpscout-customers-api
-- description: The Mailboxes API from Help Scout — 1 operation(s) for mailboxes.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Mailboxes API from Help Scout — 1 operation(s) for mailboxes.
   name: Help Scout Mailboxes API
   slug: helpscout-mailboxes-api
-- description: The Tags API from Help Scout — 1 operation(s) for tags.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Tags API from Help Scout — 1 operation(s) for tags.
   name: Help Scout Tags API
   slug: helpscout-tags-api
-- description: The Teams API from Help Scout — 1 operation(s) for teams.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Teams API from Help Scout — 1 operation(s) for teams.
   name: Help Scout Teams API
   slug: helpscout-teams-api
-- description: The Threads API from Help Scout — 1 operation(s) for threads.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Threads API from Help Scout — 1 operation(s) for threads.
   name: Help Scout Threads API
   slug: helpscout-threads-api
-- description: The Users API from Help Scout — 1 operation(s) for users.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Users API from Help Scout — 1 operation(s) for users.
   name: Help Scout Users API
   slug: helpscout-users-api
-- description: The Webhooks API from Help Scout — 1 operation(s) for webhooks.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Webhooks API from Help Scout — 1 operation(s) for webhooks.
   name: Help Scout Webhooks API
   slug: helpscout-webhooks-api
-- description: The Workflows API from Help Scout — 1 operation(s) for workflows.
+- baseURL: https://api.helpscout.net/v2
+  baseurl_source: spec
+  description: The Workflows API from Help Scout — 1 operation(s) for workflows.
   name: Help Scout Workflows API
   slug: helpscout-workflows-api
 artifact_total: 66
@@ -354,7 +386,7 @@ score:
     catalog_gap: 71.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -364,7 +396,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -373,7 +405,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:

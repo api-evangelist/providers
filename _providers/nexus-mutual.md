@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The Capacity API from Nexus Mutual — 4 operation(s) for capacity.
+- baseURL: https://api.nexusmutual.io/v2
+  baseurl_source: declared
+  description: The Capacity API from Nexus Mutual — 4 operation(s) for capacity.
   name: Nexus Mutual Capacity API
   slug: nexus-mutual-capacity-api
-- description: The Pricing API from Nexus Mutual — 1 operation(s) for pricing.
+- baseURL: https://api.nexusmutual.io/v2
+  baseurl_source: declared
+  description: The Pricing API from Nexus Mutual — 1 operation(s) for pricing.
   name: Nexus Mutual Pricing API
   slug: nexus-mutual-pricing-api
-- description: The Quote API from Nexus Mutual — 1 operation(s) for quote.
+- baseURL: https://api.nexusmutual.io/v2
+  baseurl_source: declared
+  description: The Quote API from Nexus Mutual — 1 operation(s) for quote.
   name: Nexus Mutual Quote API
   slug: nexus-mutual-quote-api
 artifact_total: 23
@@ -257,7 +263,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:

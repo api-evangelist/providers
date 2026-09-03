@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 1
 apis:
-- description: The Artists API from Radio Cult — 3 operation(s) for artists.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Artists API from Radio Cult — 3 operation(s) for artists.
   name: Radio Cult Artists API
   slug: radio-cult-artists-api
-- description: The Media API from Radio Cult — 4 operation(s) for media.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Media API from Radio Cult — 4 operation(s) for media.
   name: Radio Cult Media API
   slug: radio-cult-media-api
-- description: The Playlists API from Radio Cult — 3 operation(s) for playlists.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Playlists API from Radio Cult — 3 operation(s) for playlists.
   name: Radio Cult Playlists API
   slug: radio-cult-playlists-api
-- description: The Recordings API from Radio Cult — 2 operation(s) for recordings.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Recordings API from Radio Cult — 2 operation(s) for recordings.
   name: Radio Cult Recordings API
   slug: radio-cult-recordings-api
-- description: The Schedule API from Radio Cult — 2 operation(s) for schedule.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Schedule API from Radio Cult — 2 operation(s) for schedule.
   name: Radio Cult Schedule API
   slug: radio-cult-schedule-api
-- description: The Streaming API from Radio Cult — 1 operation(s) for streaming.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Streaming API from Radio Cult — 1 operation(s) for streaming.
   name: Radio Cult Streaming API
   slug: radio-cult-streaming-api
-- description: The Tags API from Radio Cult — 1 operation(s) for tags.
+- baseURL: https://api.radiocult.fm
+  baseurl_source: declared
+  description: The Tags API from Radio Cult — 1 operation(s) for tags.
   name: Radio Cult Tags API
   slug: radio-cult-tags-api
 artifact_total: 22
@@ -171,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/screenshots/radio-cult-2026-06-20T192517.png
 security:

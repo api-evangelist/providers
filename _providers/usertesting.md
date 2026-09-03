@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Clip API from UserTesting — 1 operation(s) for clip.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: The Clip API from UserTesting — 1 operation(s) for clip.
   name: UserTesting Clip API
   slug: usertesting-clip-api
-- description: Retrieve session summaries and detailed session results from a test.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: Retrieve session summaries and detailed session results from a test.
   name: UserTesting General Session Data API
   slug: usertesting-general-session-data-api
-- description: The Highlightreel API from UserTesting — 1 operation(s) for highlightreel.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: The Highlightreel API from UserTesting — 1 operation(s) for highlightreel.
   name: UserTesting Highlightreel API
   slug: usertesting-highlightreel-api
-- description: Access Quality of Experience Scores (QXscores) calculated from a test's completed sessions.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: Access Quality of Experience Scores (QXscores) calculated from a test's completed sessions.
   name: UserTesting QXscore Data API
   slug: usertesting-qxscore-data-api
-- description: The Session API from UserTesting — 1 operation(s) for session.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: The Session API from UserTesting — 1 operation(s) for session.
   name: UserTesting Session API
   slug: usertesting-session-api
-- description: The Studies API from UserTesting — 2 operation(s) for studies.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: The Studies API from UserTesting — 2 operation(s) for studies.
   name: UserTesting Studies API
   slug: usertesting-studies-api
-- description: Access session video data, including transcripts, video download links, clips, and highlight reels.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: Access session video data, including transcripts, video download links, clips, and highlight reels.
   name: UserTesting Video Data API
   slug: usertesting-video-data-api
-- description: The Workspaces API from UserTesting — 2 operation(s) for workspaces.
+- baseURL: https://api.use2.usertesting.com
+  baseurl_source: declared
+  description: The Workspaces API from UserTesting — 2 operation(s) for workspaces.
   name: UserTesting Workspaces API
   slug: usertesting-workspaces-api
 artifact_total: 24
@@ -285,7 +301,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/screenshots/usertesting-2026-08-17T082654.png
 security:

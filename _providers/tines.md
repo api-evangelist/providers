@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 31 operations · 18 acting
 api_count: 1
 apis:
-- description: Manage individual actions within stories
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Manage individual actions within stories
   name: Tines Actions API
   slug: tines-actions-api
-- description: Retrieve audit log entries for tenant activity
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Retrieve audit log entries for tenant activity
   name: Tines Audit Logs API
   slug: tines-audit-logs-api
-- description: Manage stored credentials for integrations
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Manage stored credentials for integrations
   name: Tines Credentials API
   slug: tines-credentials-api
-- description: Organize stories, credentials, and resources into folders
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Organize stories, credentials, and resources into folders
   name: Tines Folders API
   slug: tines-folders-api
-- description: Manage stories (automated workflows)
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Manage stories (automated workflows)
   name: Tines Stories API
   slug: tines-stories-api
-- description: Manage tags for organizing resources
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Manage tags for organizing resources
   name: Tines Tags API
   slug: tines-tags-api
-- description: Manage teams and team membership
+- baseURL: https://{tenant-domain}/api/v1
+  baseurl_source: declared
+  description: Manage teams and team membership
   name: Tines Teams API
   slug: tines-teams-api
 artifact_total: 31
@@ -247,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tines/refs/heads/main/screenshots/tines-2026-06-20T195413.png
 security:

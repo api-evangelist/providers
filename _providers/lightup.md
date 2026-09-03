@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 54 operations · 30 acting
 api_count: 1
 apis:
-- description: The API Credentials API from Lightup — 1 operation(s) for api credentials.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The API Credentials API from Lightup — 1 operation(s) for api credentials.
   name: Lightup API Credentials API
   slug: lightup-api-credentials-api
-- description: The Catalogs API from Lightup — 2 operation(s) for catalogs.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Catalogs API from Lightup — 2 operation(s) for catalogs.
   name: Lightup Catalogs API
   slug: lightup-catalogs-api
-- description: The Dashboard chart API from Lightup — 1 operation(s) for dashboard chart.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Dashboard chart API from Lightup — 1 operation(s) for dashboard chart.
   name: Lightup Dashboard chart API
   slug: lightup-dashboard-chart-api
-- description: The Datapoints API from Lightup — 1 operation(s) for datapoints.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Datapoints API from Lightup — 1 operation(s) for datapoints.
   name: Lightup Datapoints API
   slug: lightup-datapoints-api
-- description: The Datasources API from Lightup — 3 operation(s) for datasources.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Datasources API from Lightup — 3 operation(s) for datasources.
   name: Lightup Datasources API
   slug: lightup-datasources-api
-- description: The Health check API from Lightup — 1 operation(s) for health check.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Health check API from Lightup — 1 operation(s) for health check.
   name: Lightup Health check API
   slug: lightup-health-check-api
-- description: The Incidents API from Lightup — 4 operation(s) for incidents.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Incidents API from Lightup — 4 operation(s) for incidents.
   name: Lightup Incidents API
   slug: lightup-incidents-api
-- description: The Integrations API from Lightup — 2 operation(s) for integrations.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Integrations API from Lightup — 2 operation(s) for integrations.
   name: Lightup Integrations API
   slug: lightup-integrations-api
-- description: The Metrics API from Lightup — 2 operation(s) for metrics.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Metrics API from Lightup — 2 operation(s) for metrics.
   name: Lightup Metrics API
   slug: lightup-metrics-api
-- description: The Monitors API from Lightup — 3 operation(s) for monitors.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Monitors API from Lightup — 3 operation(s) for monitors.
   name: Lightup Monitors API
   slug: lightup-monitors-api
-- description: The Users API from Lightup — 4 operation(s) for users.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Users API from Lightup — 4 operation(s) for users.
   name: Lightup Users API
   slug: lightup-users-api
-- description: The Workspaces API from Lightup — 2 operation(s) for workspaces.
+- baseURL: https://app.demo.lightup.ai
+  baseurl_source: declared
+  description: The Workspaces API from Lightup — 2 operation(s) for workspaces.
   name: Lightup Workspaces API
   slug: lightup-workspaces-api
 artifact_total: 31
@@ -297,7 +321,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/screenshots/lightup-2026-07-25T225143.png
 security:

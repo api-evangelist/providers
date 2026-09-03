@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Ambient soundscapes and narrated bedtime stories — audio for focus, relaxation, and sleep
   name: Thrive Global audio experiences API
   slug: thrive-global-audio-experiences-api
-- description: Partner authentication
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Partner authentication
   name: Thrive Global auth API
   slug: thrive-global-auth-api
-- description: Microsteps, challenges, courses, podcasts, and journey videos
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Microsteps, challenges, courses, podcasts, and journey videos
   name: Thrive Global content API
   slug: thrive-global-content-api
-- description: Guided meditations — video sessions for relaxation, sleep, and stress management
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Guided meditations — video sessions for relaxation, sleep, and stress management
   name: Thrive Global meditations API
   slug: thrive-global-meditations-api
-- description: Chronic condition programs (e.g. GLP-1 Companion)
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Chronic condition programs (e.g. GLP-1 Companion)
   name: Thrive Global programs API
   slug: thrive-global-programs-api
-- description: Thrive Reset video and audio content
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Thrive Reset video and audio content
   name: Thrive Global resets API
   slug: thrive-global-resets-api
-- description: Search the full Thrive content library (premium capability — contact your Thrive Global representative to enable)
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Search the full Thrive content library (premium capability — contact your Thrive Global representative to enable)
   name: Thrive Global search API
   slug: thrive-global-search-api
-- description: Articles, role model stories, and recipes
+- baseURL: https://partners-api.thriveglobal.com
+  baseurl_source: declared
+  description: Articles, role model stories, and recipes
   name: Thrive Global stories API
   slug: thrive-global-stories-api
 artifact_total: 21
@@ -246,7 +262,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrive-global/refs/heads/main/screenshots/thrive-global-2026-08-17T082348.png
 security:

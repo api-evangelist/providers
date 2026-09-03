@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 10 acting
 api_count: 1
 apis:
-- description: Operations for managing data assets in the catalog
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data assets in the catalog
   name: Amazon DataZone Assets API
   slug: amazon-datazone-assets-api
-- description: Operations for managing DataZone domains
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing DataZone domains
   name: Amazon DataZone Domains API
   slug: amazon-datazone-domains-api
-- description: Operations for managing data environments
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data environments
   name: Amazon DataZone Environments API
   slug: amazon-datazone-environments-api
-- description: Operations for managing asset listings in the catalog
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing asset listings in the catalog
   name: Amazon DataZone Listings API
   slug: amazon-datazone-listings-api
-- description: Operations for managing projects within a domain
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing projects within a domain
   name: Amazon DataZone Projects API
   slug: amazon-datazone-projects-api
-- description: Operations for managing data subscriptions
+- baseURL: https://datazone.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data subscriptions
   name: Amazon DataZone Subscriptions API
   slug: amazon-datazone-subscriptions-api
 arazzos:
@@ -469,7 +481,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/screenshots/amazon-datazone-2026-06-20T171616.png
 security:

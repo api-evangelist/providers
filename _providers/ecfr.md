@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- description: Access eCFR metadata through JSON
+- baseURL: https://www.ecfr.gov/api/versioner/v1
+  baseurl_source: declared
+  description: Access eCFR metadata through JSON
   name: eCFR Admin Service API
   slug: ecfr-admin-service-api
-- description: Historical search of the eCFR
+- baseURL: https://www.ecfr.gov/api/versioner/v1
+  baseurl_source: declared
+  description: Historical search of the eCFR
   name: eCFR Search Service API
   slug: ecfr-search-service-api
-- description: Access CFR content and structure files through JSON and XML
+- baseURL: https://www.ecfr.gov/api/versioner/v1
+  baseurl_source: declared
+  description: Access CFR content and structure files through JSON and XML
   name: eCFR Versioner Service API
   slug: ecfr-versioner-service-api
 artifact_total: 26
@@ -281,7 +287,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/screenshots/ecfr-2026-07-25T212731.png
 security:

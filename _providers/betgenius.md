@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 6
 apis:
-- description: The BookingV1 API from BetGenius — 3 operation(s) for bookingv1.
+- baseURL: https://dataservices.betgenius.com/BookingSystem
+  baseurl_source: declared
+  description: The BookingV1 API from BetGenius — 3 operation(s) for bookingv1.
   name: BetGenius Booking V1 API
   slug: betgenius-bookingv1-api
-- description: The BookingV2 API from BetGenius — 3 operation(s) for bookingv2.
+- baseURL: https://dataservices.betgenius.com/BookingSystem
+  baseurl_source: declared
+  description: The BookingV2 API from BetGenius — 3 operation(s) for bookingv2.
   name: BetGenius Booking V2 API
   slug: betgenius-bookingv2-api
-- description: The fixtures API
+- baseURL: https://dataservices.betgenius.com/BookingSystem
+  baseurl_source: declared
+  description: The fixtures API
   name: BetGenius Fixtures API
   slug: betgenius-fixtures-api
-- description: The regions API
+- baseURL: https://dataservices.betgenius.com/BookingSystem
+  baseurl_source: declared
+  description: The regions API
   name: BetGenius Regions API
   slug: betgenius-regions-api
 artifact_total: 11
@@ -294,7 +302,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -304,7 +312,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,7 +324,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/screenshots/betgenius-2026-06-20T173202.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- description: Patient allergies and intolerances
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Patient allergies and intolerances
   name: CharmHealth AllergyIntolerance API
   slug: charmhealth-allergyintolerance-api
-- description: Scheduled appointments
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Scheduled appointments
   name: CharmHealth Appointment API
   slug: charmhealth-appointment-api
-- description: Server capability statement
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Server capability statement
   name: CharmHealth Capability API
   slug: charmhealth-capability-api
-- description: Care plans
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Care plans
   name: CharmHealth CarePlan API
   slug: charmhealth-careplan-api
-- description: Care teams
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Care teams
   name: CharmHealth CareTeam API
   slug: charmhealth-careteam-api
-- description: Diagnoses and problems
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Diagnoses and problems
   name: CharmHealth Condition API
   slug: charmhealth-condition-api
-- description: Clinical documents
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Clinical documents
   name: CharmHealth DocumentReference API
   slug: charmhealth-documentreference-api
-- description: Patient encounters and visits
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Patient encounters and visits
   name: CharmHealth Encounter API
   slug: charmhealth-encounter-api
-- description: Immunization records
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Immunization records
   name: CharmHealth Immunization API
   slug: charmhealth-immunization-api
-- description: Medication orders
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Medication orders
   name: CharmHealth MedicationRequest API
   slug: charmhealth-medicationrequest-api
-- description: Vital signs, lab results, and clinical observations
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Vital signs, lab results, and clinical observations
   name: CharmHealth Observation API
   slug: charmhealth-observation-api
-- description: Provider organizations
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Provider organizations
   name: CharmHealth Organization API
   slug: charmhealth-organization-api
-- description: Patient demographic resource
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Patient demographic resource
   name: CharmHealth Patient API
   slug: charmhealth-patient-api
-- description: Care providers
+- baseURL: https://ehr2.charmtracker.com/api/ehr/v2/fhir
+  baseurl_source: declared
+  description: Care providers
   name: CharmHealth Practitioner API
   slug: charmhealth-practitioner-api
 artifact_total: 56
@@ -368,7 +396,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/screenshots/charmhealth-2026-06-20T174227.png
 security:

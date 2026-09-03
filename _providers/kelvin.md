@@ -35,19 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Endpoints pour consulter les documents générés pour une simulation
+- baseURL: https://app.go-kelvin.com
+  baseurl_source: declared
+  description: Endpoints pour consulter les documents générés pour une simulation
   name: Kelvin Documents API
   slug: kelvin-documents-api
-- description: Endpoints disponibles dans l'offre Qualification
+- baseURL: https://app.go-kelvin.com
+  baseurl_source: declared
+  description: Endpoints disponibles dans l'offre Qualification
   name: Kelvin Qualification API
   slug: kelvin-qualification-api
-- description: Endpoints disponibles dans l'offre Simulateur
+- baseURL: https://app.go-kelvin.com
+  baseurl_source: declared
+  description: Endpoints disponibles dans l'offre Simulateur
   name: Kelvin Simulateur API
   slug: kelvin-simulateur-api
-- description: The Simulations API from Kelvin — 2 operation(s) for simulations.
+- baseURL: https://app.go-kelvin.com
+  baseurl_source: declared
+  description: The Simulations API from Kelvin — 2 operation(s) for simulations.
   name: Kelvin Simulations API
   slug: kelvin-simulations-api
 artifact_total: 12
@@ -200,7 +208,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 10 acting
 api_count: 1
 apis:
-- description: The Ask API from Slite — 2 operation(s) for ask.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Ask API from Slite — 2 operation(s) for ask.
   name: Slite Ask API
   slug: slite-ask-api
-- description: The Groups API from Slite — 2 operation(s) for groups.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Groups API from Slite — 2 operation(s) for groups.
   name: Slite Groups API
   slug: slite-groups-api
-- description: The Knowledge Management API from Slite — 4 operation(s) for knowledge management.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Knowledge Management API from Slite — 4 operation(s) for knowledge management.
   name: Slite Knowledge Management API
   slug: slite-knowledge-management-api
-- description: The Me API from Slite — 1 operation(s) for me.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Me API from Slite — 1 operation(s) for me.
   name: Slite Me API
   slug: slite-me-api
-- description: The Notes API from Slite — 8 operation(s) for notes.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Notes API from Slite — 8 operation(s) for notes.
   name: Slite Notes API
   slug: slite-notes-api
-- description: The Search Notes API from Slite — 1 operation(s) for search notes.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Search Notes API from Slite — 1 operation(s) for search notes.
   name: Slite Search Notes API
   slug: slite-search-notes-api
-- description: The Users API from Slite — 2 operation(s) for users.
+- baseURL: https://api.slite.com/v1
+  baseurl_source: declared
+  description: The Users API from Slite — 2 operation(s) for users.
   name: Slite Users API
   slug: slite-users-api
 artifact_total: 82
@@ -407,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/screenshots/slite-2026-06-20T194030.png
 security:

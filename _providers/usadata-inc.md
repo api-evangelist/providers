@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +186,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png
 security:
 - kind: authentication
   name: Usadata Inc Authentication

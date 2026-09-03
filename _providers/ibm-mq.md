@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Native procedural API for IBM MQ (MQI).
   name: IBM MQ Native API
   slug: ibm-mq-native-api
-- description: Manage and query channel objects and status
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Manage and query channel objects and status
   name: IBM MQ Channels API
   slug: ibm-mq-channels-api
-- description: Query MQ installation information
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Query MQ installation information
   name: IBM MQ Installations API
   slug: ibm-mq-installations-api
-- description: Authentication token management
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Authentication token management
   name: IBM MQ Login API
   slug: ibm-mq-login-api
-- description: Manage and query queue manager objects and status
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Manage and query queue manager objects and status
   name: IBM MQ Queue Managers API
   slug: ibm-mq-queue-managers-api
-- description: Send and receive messages on queues
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Send and receive messages on queues
   name: IBM MQ Queue Messaging API
   slug: ibm-mq-queue-messaging-api
-- description: Manage and query queue objects and status
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Manage and query queue objects and status
   name: IBM MQ Queues API
   slug: ibm-mq-queues-api
-- description: Manage and query subscription objects
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Manage and query subscription objects
   name: IBM MQ Subscriptions API
   slug: ibm-mq-subscriptions-api
-- description: Publish messages to topics
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Publish messages to topics
   name: IBM MQ Topic Messaging API
   slug: ibm-mq-topic-messaging-api
-- description: Manage and query topic objects
+- baseURL: https://{host}:{port}/ibmmq/rest/v2
+  baseurl_source: declared
+  description: Manage and query topic objects
   name: IBM MQ Topics API
   slug: ibm-mq-topics-api
 artifact_total: 37
@@ -260,7 +278,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -270,7 +288,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 40.2
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -279,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/screenshots/ibm-mq-2026-06-20T183135.png
 security:

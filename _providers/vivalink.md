@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: VivaLNK wearable biosensors and their assignment to subjects.
+- baseURL: https://api.vivalink.com
+  baseurl_source: declared
+  description: VivaLNK wearable biosensors and their assignment to subjects.
   name: VivaLNK Devices API
   slug: vivalink-devices-api
-- description: HL7 FHIR R4 resources for EHR/CTMS interoperability.
+- baseURL: https://api.vivalink.com
+  baseurl_source: declared
+  description: HL7 FHIR R4 resources for EHR/CTMS interoperability.
   name: VivaLNK FHIR API
   slug: vivalink-fhir-api
-- description: Subjects (patients / study participants) enrolled for monitoring.
+- baseURL: https://api.vivalink.com
+  baseurl_source: declared
+  description: Subjects (patients / study participants) enrolled for monitoring.
   name: VivaLNK Subjects API
   slug: vivalink-subjects-api
-- description: Biometric measurements captured from wearables.
+- baseURL: https://api.vivalink.com
+  baseurl_source: declared
+  description: Biometric measurements captured from wearables.
   name: VivaLNK Vital Signs API
   slug: vivalink-vital-signs-api
-- description: Subscriptions for pushed biometric data and alert events.
+- baseURL: https://api.vivalink.com
+  baseurl_source: declared
+  description: Subscriptions for pushed biometric data and alert events.
   name: VivaLNK Webhooks API
   slug: vivalink-webhooks-api
 artifact_total: 18
@@ -165,7 +175,7 @@ score:
   band: developing
   composite: 40.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -194,8 +204,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vivalink/refs/heads/main/screenshots/vivalink-2026-09-02T170130.png
 security:
 - kind: authentication
   name: Vivalink Authentication

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,103 +37,167 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Activity API from Taskfolk — 1 operation(s) for activity.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Activity API from Taskfolk — 1 operation(s) for activity.
   name: Taskfolk Activity API
   slug: taskfolk-activity-api
-- description: The Agents API from Taskfolk — 5 operation(s) for agents.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Agents API from Taskfolk — 5 operation(s) for agents.
   name: Taskfolk Agents API
   slug: taskfolk-agents-api
-- description: The Attachments API from Taskfolk — 3 operation(s) for attachments.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Attachments API from Taskfolk — 3 operation(s) for attachments.
   name: Taskfolk Attachments API
   slug: taskfolk-attachments-api
-- description: The Automations API from Taskfolk — 3 operation(s) for automations.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Automations API from Taskfolk — 3 operation(s) for automations.
   name: Taskfolk Automations API
   slug: taskfolk-automations-api
-- description: The Chat API from Taskfolk — 9 operation(s) for chat.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Chat API from Taskfolk — 9 operation(s) for chat.
   name: Taskfolk Chat API
   slug: taskfolk-chat-api
-- description: The Comments API from Taskfolk — 3 operation(s) for comments.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Comments API from Taskfolk — 3 operation(s) for comments.
   name: Taskfolk Comments API
   slug: taskfolk-comments-api
-- description: The Custom fields API from Taskfolk — 4 operation(s) for custom fields.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Custom fields API from Taskfolk — 4 operation(s) for custom fields.
   name: Taskfolk Custom fields API
   slug: taskfolk-custom-fields-api
-- description: The Developer API from Taskfolk — 10 operation(s) for developer.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Developer API from Taskfolk — 10 operation(s) for developer.
   name: Taskfolk Developer API
   slug: taskfolk-developer-api
-- description: The Docs API from Taskfolk — 9 operation(s) for docs.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Docs API from Taskfolk — 9 operation(s) for docs.
   name: Taskfolk Docs API
   slug: taskfolk-docs-api
-- description: The Forms API from Taskfolk — 5 operation(s) for forms.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Forms API from Taskfolk — 5 operation(s) for forms.
   name: Taskfolk Forms API
   slug: taskfolk-forms-api
-- description: The Goals API from Taskfolk — 2 operation(s) for goals.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Goals API from Taskfolk — 2 operation(s) for goals.
   name: Taskfolk Goals API
   slug: taskfolk-goals-api
-- description: The Issues API from Taskfolk — 8 operation(s) for issues.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Issues API from Taskfolk — 8 operation(s) for issues.
   name: Taskfolk Issues API
   slug: taskfolk-issues-api
-- description: The Key results API from Taskfolk — 2 operation(s) for key results.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Key results API from Taskfolk — 2 operation(s) for key results.
   name: Taskfolk Key results API
   slug: taskfolk-key-results-api
-- description: The Labels API from Taskfolk — 2 operation(s) for labels.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Labels API from Taskfolk — 2 operation(s) for labels.
   name: Taskfolk Labels API
   slug: taskfolk-labels-api
-- description: The Members API from Taskfolk — 4 operation(s) for members.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Members API from Taskfolk — 4 operation(s) for members.
   name: Taskfolk Members API
   slug: taskfolk-members-api
-- description: The Meta API from Taskfolk — 1 operation(s) for meta.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Meta API from Taskfolk — 1 operation(s) for meta.
   name: Taskfolk Meta API
   slug: taskfolk-meta-api
-- description: The Milestones API from Taskfolk — 2 operation(s) for milestones.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Milestones API from Taskfolk — 2 operation(s) for milestones.
   name: Taskfolk Milestones API
   slug: taskfolk-milestones-api
-- description: The Mpp API from Taskfolk — 4 operation(s) for mpp.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Mpp API from Taskfolk — 4 operation(s) for mpp.
   name: Taskfolk Mpp API
   slug: taskfolk-mpp-api
-- description: The Notifications API from Taskfolk — 3 operation(s) for notifications.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Notifications API from Taskfolk — 3 operation(s) for notifications.
   name: Taskfolk Notifications API
   slug: taskfolk-notifications-api
-- description: The Portfolios API from Taskfolk — 4 operation(s) for portfolios.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Portfolios API from Taskfolk — 4 operation(s) for portfolios.
   name: Taskfolk Portfolios API
   slug: taskfolk-portfolios-api
-- description: The Projects API from Taskfolk — 5 operation(s) for projects.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Projects API from Taskfolk — 5 operation(s) for projects.
   name: Taskfolk Projects API
   slug: taskfolk-projects-api
-- description: The Releases API from Taskfolk — 2 operation(s) for releases.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Releases API from Taskfolk — 2 operation(s) for releases.
   name: Taskfolk Releases API
   slug: taskfolk-releases-api
-- description: The Reports API from Taskfolk — 1 operation(s) for reports.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Reports API from Taskfolk — 1 operation(s) for reports.
   name: Taskfolk Reports API
   slug: taskfolk-reports-api
-- description: The Saved views API from Taskfolk — 2 operation(s) for saved views.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Saved views API from Taskfolk — 2 operation(s) for saved views.
   name: Taskfolk Saved views API
   slug: taskfolk-saved-views-api
-- description: The Search API from Taskfolk — 1 operation(s) for search.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Search API from Taskfolk — 1 operation(s) for search.
   name: Taskfolk Search API
   slug: taskfolk-search-api
-- description: The Sprints API from Taskfolk — 2 operation(s) for sprints.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Sprints API from Taskfolk — 2 operation(s) for sprints.
   name: Taskfolk Sprints API
   slug: taskfolk-sprints-api
-- description: The Statuses API from Taskfolk — 2 operation(s) for statuses.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Statuses API from Taskfolk — 2 operation(s) for statuses.
   name: Taskfolk Statuses API
   slug: taskfolk-statuses-api
-- description: The Time API from Taskfolk — 1 operation(s) for time.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Time API from Taskfolk — 1 operation(s) for time.
   name: Taskfolk Time API
   slug: taskfolk-time-api
-- description: The Watchers API from Taskfolk — 2 operation(s) for watchers.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Watchers API from Taskfolk — 2 operation(s) for watchers.
   name: Taskfolk Watchers API
   slug: taskfolk-watchers-api
-- description: The Workflows API from Taskfolk — 8 operation(s) for workflows.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Workflows API from Taskfolk — 8 operation(s) for workflows.
   name: Taskfolk Workflows API
   slug: taskfolk-workflows-api
-- description: The Workspace views API from Taskfolk — 2 operation(s) for workspace views.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Workspace views API from Taskfolk — 2 operation(s) for workspace views.
   name: Taskfolk Workspace views API
   slug: taskfolk-workspace-views-api
-- description: The Workspaces API from Taskfolk — 3 operation(s) for workspaces.
+- baseURL: https://taskfolk.ai/api
+  baseurl_source: declared
+  description: The Workspaces API from Taskfolk — 3 operation(s) for workspaces.
   name: Taskfolk Workspaces API
   slug: taskfolk-workspaces-api
 artifact_total: 40
@@ -319,23 +397,23 @@ scopes:
   summary_line: 47 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.5
+  composite: 59.5
   coverage:
-    artifact_dirs: 21
-    catalog_gap: 58.0
+    artifact_dirs: 22
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -1.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 58.9
-    discoverability: 87.0
+    discoverability: 77.8
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 60.7
+  previous_composite: 60.5
   provenance:
     conformance: first-party
     contracts:
@@ -346,8 +424,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/screenshots/taskfolk-2026-09-02T162549.png
 security:
 - kind: authentication
   name: Taskfolk Authentication

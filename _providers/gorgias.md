@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -46,43 +46,69 @@ apis:
 - description: Outbound webhook surface delivered through Gorgias HTTP Integrations. When configured triggers fire on a Gorgias account, Gorgias sends an HTTP request to the URL set on the TicketHttpIntegration, wit
   name: Gorgias Webhooks
   slug: webhooks
-- description: The Account API from Gorgias — 2 operation(s) for account.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Account API from Gorgias — 2 operation(s) for account.
   name: Gorgias Account API
   slug: gorgias-account-api
-- description: The Customers API from Gorgias — 2 operation(s) for customers.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Customers API from Gorgias — 2 operation(s) for customers.
   name: Gorgias Customers API
   slug: gorgias-customers-api
-- description: The Integrations API from Gorgias — 2 operation(s) for integrations.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Integrations API from Gorgias — 2 operation(s) for integrations.
   name: Gorgias Integrations API
   slug: gorgias-integrations-api
-- description: The Macros API from Gorgias — 2 operation(s) for macros.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Macros API from Gorgias — 2 operation(s) for macros.
   name: Gorgias Macros API
   slug: gorgias-macros-api
-- description: The Messages API from Gorgias — 1 operation(s) for messages.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Messages API from Gorgias — 1 operation(s) for messages.
   name: Gorgias Messages API
   slug: gorgias-messages-api
-- description: The Rules API from Gorgias — 2 operation(s) for rules.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Rules API from Gorgias — 2 operation(s) for rules.
   name: Gorgias Rules API
   slug: gorgias-rules-api
-- description: The Surveys API from Gorgias — 1 operation(s) for surveys.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Surveys API from Gorgias — 1 operation(s) for surveys.
   name: Gorgias Surveys API
   slug: gorgias-surveys-api
-- description: The Tags API from Gorgias — 3 operation(s) for tags.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Tags API from Gorgias — 3 operation(s) for tags.
   name: Gorgias Tags API
   slug: gorgias-tags-api
-- description: The Teams API from Gorgias — 1 operation(s) for teams.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Teams API from Gorgias — 1 operation(s) for teams.
   name: Gorgias Teams API
   slug: gorgias-teams-api
-- description: The Tickets API from Gorgias — 2 operation(s) for tickets.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Tickets API from Gorgias — 2 operation(s) for tickets.
   name: Gorgias Tickets API
   slug: gorgias-tickets-api
-- description: The Users API from Gorgias — 2 operation(s) for users.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Users API from Gorgias — 2 operation(s) for users.
   name: Gorgias Users API
   slug: gorgias-users-api
-- description: The Views API from Gorgias — 2 operation(s) for views.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Views API from Gorgias — 2 operation(s) for views.
   name: Gorgias Views API
   slug: gorgias-views-api
-- description: The Widgets API from Gorgias — 2 operation(s) for widgets.
+- baseURL: https://{subdomain}.gorgias.com/api
+  baseurl_source: declared
+  description: The Widgets API from Gorgias — 2 operation(s) for widgets.
   name: Gorgias Widgets API
   slug: gorgias-widgets-api
 artifact_total: 36
@@ -242,7 +268,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -252,7 +278,7 @@ score:
     discoverability: 66.7
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 36.4
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -261,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Sarus Gateway is the server component of the Sarus privacy layer. It is deployed inside the customer's own environment (Docker or Kubernetes, on-premises or in AWS/Azure/GCP) and is reached by the
@@ -127,7 +127,7 @@ score:
   band: thin
   composite: 26.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -149,8 +149,9 @@ score:
       reason: never_enriched
   previous_composite: 26.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sarus/refs/heads/main/screenshots/sarus-2026-09-02T154419.png
 slug: sarus
 tags:
 - Company

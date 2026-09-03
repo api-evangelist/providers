@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -50,52 +50,82 @@ apis:
 - description: Load account audit logs for monitoring activities on Talend Cloud applications, ensuring data security and regulatory compliance.
   name: Talend Cloud Audit Logs API
   slug: talend-audit-logs-api
-- description: Administers connections used by datasets and crawlers to retrieve data at scale.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: Administers connections used by datasets and crawlers to retrieve data at scale.
   name: Talend Cloud Connections API
   slug: talend-connections-api
 - description: Retrieve logs about task runs for debugging and monitoring data integration pipeline executions.
   name: Talend Cloud Execution Logs API
   slug: talend-execution-logs-api
-- description: The Artifacts API from Talend — 1 operation(s) for artifacts.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Artifacts API from Talend — 1 operation(s) for artifacts.
   name: Talend Artifacts API
   slug: talend-artifacts-api
-- description: The Connections API from Talend — 1 operation(s) for connections.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Connections API from Talend — 1 operation(s) for connections.
   name: Talend Connections API
   slug: talend-connections-api
-- description: The Environments API from Talend — 1 operation(s) for environments.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Environments API from Talend — 1 operation(s) for environments.
   name: Talend Environments API
   slug: talend-environments-api
-- description: The Plan Executions API from Talend — 4 operation(s) for plan executions.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Plan Executions API from Talend — 4 operation(s) for plan executions.
   name: Talend Plan Executions API
   slug: talend-plan-executions-api
-- description: The Plans API from Talend — 2 operation(s) for plans.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Plans API from Talend — 2 operation(s) for plans.
   name: Talend Plans API
   slug: talend-plans-api
-- description: The Promotion Executions API from Talend — 1 operation(s) for promotion executions.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Promotion Executions API from Talend — 1 operation(s) for promotion executions.
   name: Talend Promotion Executions API
   slug: talend-promotion-executions-api
-- description: The Promotions API from Talend — 1 operation(s) for promotions.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Promotions API from Talend — 1 operation(s) for promotions.
   name: Talend Promotions API
   slug: talend-promotions-api
-- description: The Remote Engine Clusters API from Talend — 1 operation(s) for remote engine clusters.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Remote Engine Clusters API from Talend — 1 operation(s) for remote engine clusters.
   name: Talend Remote Engine Clusters API
   slug: talend-remote-engine-clusters-api
-- description: The Remote Engines API from Talend — 2 operation(s) for remote engines.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Remote Engines API from Talend — 2 operation(s) for remote engines.
   name: Talend Remote Engines API
   slug: talend-remote-engines-api
-- description: The Run Profiles API from Talend — 2 operation(s) for run profiles.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Run Profiles API from Talend — 2 operation(s) for run profiles.
   name: Talend Run Profiles API
   slug: talend-run-profiles-api
-- description: The Schedules API from Talend — 1 operation(s) for schedules.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Schedules API from Talend — 1 operation(s) for schedules.
   name: Talend Schedules API
   slug: talend-schedules-api
-- description: The Task Executions API from Talend — 3 operation(s) for task executions.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Task Executions API from Talend — 3 operation(s) for task executions.
   name: Talend Task Executions API
   slug: talend-task-executions-api
-- description: The Tasks API from Talend — 3 operation(s) for tasks.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Tasks API from Talend — 3 operation(s) for tasks.
   name: Talend Tasks API
   slug: talend-tasks-api
-- description: The Workspaces API from Talend — 2 operation(s) for workspaces.
+- baseURL: https://api.{region}.cloud.talend.com
+  baseurl_source: declared
+  description: The Workspaces API from Talend — 2 operation(s) for workspaces.
   name: Talend Workspaces API
   slug: talend-workspaces-api
 artifact_total: 68
@@ -365,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talend/refs/heads/main/screenshots/talend-2026-06-20T194901.png
 security:

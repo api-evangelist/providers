@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: Oracle Primavera P6 provides project scheduling and portfolio management APIs for construction, engineering, and capital projects. REST and XML APIs enable access to WBS structures, activity schedules
   name: Oracle Primavera P6 Scheduling API
   slug: oracle-primavera-p6-scheduling-api
-- description: Activity scheduling and management
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Activity scheduling and management
   name: Oracle Primavera Activities API
   slug: oracle-primavera-activities-api
-- description: Project baseline operations
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Project baseline operations
   name: Oracle Primavera Baselines API
   slug: oracle-primavera-baselines-api
-- description: Project management operations
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Project management operations
   name: Oracle Primavera Projects API
   slug: oracle-primavera-projects-api
-- description: Resource assignment operations
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Resource assignment operations
   name: Oracle Primavera ResourceAssignments API
   slug: oracle-primavera-resourceassignments-api
-- description: Resource and role management
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Resource and role management
   name: Oracle Primavera Resources API
   slug: oracle-primavera-resources-api
-- description: Work Breakdown Structure management
+- baseURL: https://{host}/p6ws/rest/v1
+  baseurl_source: declared
+  description: Work Breakdown Structure management
   name: Oracle Primavera WBS API
   slug: oracle-primavera-wbs-api
 artifact_total: 34
@@ -287,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-primavera/refs/heads/main/screenshots/oracle-primavera-2026-06-20T191153.png
 security:

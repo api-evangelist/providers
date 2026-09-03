@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 137 operations · 57 acting
 api_count: 1
 apis:
-- description: The Companies API from OKKI Go (go.okki.ai) — 4 operations for B2B company search, unlock, profile and decision-maker email retrieval.
+- baseURL: https://go.okki.ai
+  baseurl_source: declared
+  description: The Companies API from OKKI Go (go.okki.ai) — 4 operations for B2B company search, unlock, profile and decision-maker email retrieval.
   name: OKKI Go Companies API
   slug: xiaoman-companies-api
-- description: The Contacts API from OKKI Go (go.okki.ai) — 1 retired operation (POST /api/v1/contacts/search returns 410 Gone; use company unlock + profileEmails).
+- baseURL: https://go.okki.ai
+  baseurl_source: declared
+  description: The Contacts API from OKKI Go (go.okki.ai) — 1 retired operation (POST /api/v1/contacts/search returns 410 Gone; use company unlock + profileEmails).
   name: OKKI Go Contacts API
   slug: xiaoman-contacts-api
-- description: The Credits API from OKKI Go (go.okki.ai) — 1 operation returning remaining company-search points and EDM email quota.
+- baseURL: https://go.okki.ai
+  baseurl_source: declared
+  description: The Credits API from OKKI Go (go.okki.ai) — 1 operation returning remaining company-search points and EDM email quota.
   name: OKKI Go Credits API
   slug: xiaoman-credits-api
-- description: The 产品 (products and general CRM) module of the Xiaoman OKKI CRM Open API — 113 operations across products, customers, leads, opportunities, orders, quotations, payments, suppliers, inventory, users a
+- baseURL: https://api-sandbox.xiaoman.cn
+  baseurl_source: declared
+  description: The 产品 (products and general CRM) module of the Xiaoman OKKI CRM Open API — 113 operations across products, customers, leads, opportunities, orders, quotations, payments, suppliers, inventory, users a
   name: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
-- description: The devops相关 module of the Xiaoman OKKI CRM Open API — 6 internal integration operations (DingTalk and TAPD webhooks, Sobot token, app version release).
+- baseURL: https://api-sandbox.xiaoman.cn
+  baseurl_source: declared
+  description: The devops相关 module of the Xiaoman OKKI CRM Open API — 6 internal integration operations (DingTalk and TAPD webhooks, Sobot token, app version release).
   name: Xiaoman (OKKI CRM) devops相关 API
   slug: xiaoman-devops-api
-- description: The Emails API from OKKI Go (go.okki.ai) — 6 operations for batch and personalized cold-outreach email sending and per-mail delivery tracking.
+- baseURL: https://go.okki.ai
+  baseurl_source: declared
+  description: The Emails API from OKKI Go (go.okki.ai) — 6 operations for batch and personalized cold-outreach email sending and per-mail delivery tracking.
   name: OKKI Go Emails API
   slug: xiaoman-emails-api
-- description: The s7.1 release group of the Xiaoman OKKI CRM Open API — 35 operations covering customer detail/field dictionaries, follow-up trails, inventory, capital accounts and reporting.
+- baseURL: https://api-sandbox.xiaoman.cn
+  baseurl_source: declared
+  description: The s7.1 release group of the Xiaoman OKKI CRM Open API — 35 operations covering customer detail/field dictionaries, follow-up trails, inventory, capital accounts and reporting.
   name: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
 artifact_total: 31
@@ -302,7 +316,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -312,7 +326,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 59.8
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -324,8 +338,8 @@ score:
     mcp: derived
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:
 - kind: authentication

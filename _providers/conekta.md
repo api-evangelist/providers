@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 113 operations · 72 acting
 api_count: 1
 apis:
-- description: The Antifraud API from Conekta — 4 operation(s) for antifraud.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Antifraud API from Conekta — 4 operation(s) for antifraud.
   name: Conekta Antifraud API
   slug: conekta-antifraud-api
-- description: The Api Keys API from Conekta — 2 operation(s) for api keys.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Api Keys API from Conekta — 2 operation(s) for api keys.
   name: Conekta Api Keys API
   slug: conekta-api-keys-api
-- description: The Balances API from Conekta — 1 operation(s) for balances.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Balances API from Conekta — 1 operation(s) for balances.
   name: Conekta Balances API
   slug: conekta-balances-api
-- description: The Charges API from Conekta — 4 operation(s) for charges.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Charges API from Conekta — 4 operation(s) for charges.
   name: Conekta Charges API
   slug: conekta-charges-api
-- description: The Companies API from Conekta — 5 operation(s) for companies.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Companies API from Conekta — 5 operation(s) for companies.
   name: Conekta Companies API
   slug: conekta-companies-api
-- description: The Customers API from Conekta — 4 operation(s) for customers.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Customers API from Conekta — 4 operation(s) for customers.
   name: Conekta Customers API
   slug: conekta-customers-api
-- description: The Discounts API from Conekta — 2 operation(s) for discounts.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Discounts API from Conekta — 2 operation(s) for discounts.
   name: Conekta Discounts API
   slug: conekta-discounts-api
-- description: The Events API from Conekta — 3 operation(s) for events.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Events API from Conekta — 3 operation(s) for events.
   name: Conekta Events API
   slug: conekta-events-api
-- description: The Logs API from Conekta — 2 operation(s) for logs.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Logs API from Conekta — 2 operation(s) for logs.
   name: Conekta Logs API
   slug: conekta-logs-api
-- description: The Orders API from Conekta — 6 operation(s) for orders.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Orders API from Conekta — 6 operation(s) for orders.
   name: Conekta Orders API
   slug: conekta-orders-api
-- description: The Payment Link API from Conekta — 5 operation(s) for payment link.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Payment Link API from Conekta — 5 operation(s) for payment link.
   name: Conekta Payment Link API
   slug: conekta-payment-link-api
-- description: The Payment Methods API from Conekta — 2 operation(s) for payment methods.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Payment Methods API from Conekta — 2 operation(s) for payment methods.
   name: Conekta Payment Methods API
   slug: conekta-payment-methods-api
-- description: The Payout Orders API from Conekta — 3 operation(s) for payout orders.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Payout Orders API from Conekta — 3 operation(s) for payout orders.
   name: Conekta Payout Orders API
   slug: conekta-payout-orders-api
-- description: The Plans API from Conekta — 2 operation(s) for plans.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Plans API from Conekta — 2 operation(s) for plans.
   name: Conekta Plans API
   slug: conekta-plans-api
-- description: The Products API from Conekta — 2 operation(s) for products.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Products API from Conekta — 2 operation(s) for products.
   name: Conekta Products API
   slug: conekta-products-api
-- description: The Shipping Contacts API from Conekta — 2 operation(s) for shipping contacts.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Shipping Contacts API from Conekta — 2 operation(s) for shipping contacts.
   name: Conekta Shipping Contacts API
   slug: conekta-shipping-contacts-api
-- description: The Shippings API from Conekta — 2 operation(s) for shippings.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Shippings API from Conekta — 2 operation(s) for shippings.
   name: Conekta Shippings API
   slug: conekta-shippings-api
-- description: All subscription-related endpoints including creation, management, and events
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: All subscription-related endpoints including creation, management, and events
   name: Conekta Subscriptions API
   slug: conekta-subscriptions-api
-- description: Customer portal endpoints for subscriptions
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: Customer portal endpoints for subscriptions
   name: Conekta Subscriptions - Customer Portal API
   slug: conekta-subscriptions-customer-portal-api
-- description: The Taxes API from Conekta — 2 operation(s) for taxes.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Taxes API from Conekta — 2 operation(s) for taxes.
   name: Conekta Taxes API
   slug: conekta-taxes-api
-- description: The Tokens API from Conekta — 1 operation(s) for tokens.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Tokens API from Conekta — 1 operation(s) for tokens.
   name: Conekta Tokens API
   slug: conekta-tokens-api
-- description: The Transactions API from Conekta — 2 operation(s) for transactions.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Transactions API from Conekta — 2 operation(s) for transactions.
   name: Conekta Transactions API
   slug: conekta-transactions-api
-- description: The Transfers API from Conekta — 2 operation(s) for transfers.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Transfers API from Conekta — 2 operation(s) for transfers.
   name: Conekta Transfers API
   slug: conekta-transfers-api
-- description: The Webhook keys API from Conekta — 2 operation(s) for webhook keys.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Webhook keys API from Conekta — 2 operation(s) for webhook keys.
   name: Conekta Webhook keys API
   slug: conekta-webhook-keys-api
-- description: The Webhooks API from Conekta — 3 operation(s) for webhooks.
+- baseURL: https://api.conekta.io
+  baseurl_source: declared
+  description: The Webhooks API from Conekta — 3 operation(s) for webhooks.
   name: Conekta Webhooks API
   slug: conekta-webhooks-api
 artifact_total: 88
@@ -499,7 +549,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png
 security:

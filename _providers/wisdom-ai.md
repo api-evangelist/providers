@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Single GraphQL endpoint for programmatic access to WisdomAI domains, tables, users, dashboards, and analytics data. Supports queries, mutations, and real-time WebSocket subscriptions. Tenant-scoped: r'
@@ -178,7 +178,7 @@ score:
   band: thin
   composite: 33.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -198,8 +198,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/screenshots/wisdom-ai-2026-09-02T170818.png
 security:
 - kind: authentication
   name: Wisdom Ai Authentication

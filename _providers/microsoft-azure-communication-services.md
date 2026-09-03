@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 3
 apis:
-- description: The Email API from microsoft-azure-communication-services — 1 operation(s) for email.
+- baseURL: https://{resource}.communication.azure.com/
+  baseurl_source: declared
+  description: The Email API from microsoft-azure-communication-services — 1 operation(s) for email.
   name: microsoft-azure-communication-services Email API
   slug: microsoft-azure-communication-services-email-api
-- description: The Identity API from microsoft-azure-communication-services — 3 operation(s) for identity.
+- baseURL: https://{resource}.communication.azure.com/
+  baseurl_source: declared
+  description: The Identity API from microsoft-azure-communication-services — 3 operation(s) for identity.
   name: microsoft-azure-communication-services Identity API
   slug: microsoft-azure-communication-services-identity-api
-- description: The SMS API from microsoft-azure-communication-services — 1 operation(s) for sms.
+- baseURL: https://{resource}.communication.azure.com/
+  baseurl_source: declared
+  description: The SMS API from microsoft-azure-communication-services — 1 operation(s) for sms.
   name: microsoft-azure-communication-services SMS API
   slug: microsoft-azure-communication-services-sms-api
 artifact_total: 14
@@ -124,13 +130,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-communication-services.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-communication-services
+name: Microsoft Azure Communication Services
 nav: Providers
 network: true
-overview: 'microsoft-azure-communication-services publishes 3 APIs on the [APIs.io](https://apis.io/) network: Email API, Identity API, and SMS API.
+overview: 'Microsoft Azure Communication Services publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-communication-services Email API, microsoft-azure-communication-services Identity API, and microsoft-azure-communication-services SMS API.
 
 
-  microsoft-azure-communication-services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 6 more developer resources.'
+  Microsoft Azure Communication Services'' developer surface includes authentication, developer portal, pricing, support, engineering blog, and 6 more developer resources.'
 plans:
 - name: Microsoft Azure Communication Services Plans Pricing
   plan_count: 3
@@ -168,10 +174,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/screenshots/microsoft-azure-communication-services-2026-06-20T185404.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -50,13 +50,19 @@ apis:
 - description: HTTP POST webhook callbacks that notify your endpoint of payment and disbursement status changes in JSON, verified against your account signing secret.
   name: Fazz Callbacks (Webhooks)
   slug: fazz-callbacks
-- description: Send API — disburse funds to recipients (payouts).
+- baseURL: https://www.xfers.io/api/v4
+  baseurl_source: declared
+  description: Send API — disburse funds to recipients (payouts).
   name: Fazz Disbursements API
   slug: fazz-disbursements-api
-- description: Create reusable payment method objects (PayNow, virtual bank account).
+- baseURL: https://www.xfers.io/api/v4
+  baseurl_source: declared
+  description: Create reusable payment method objects (PayNow, virtual bank account).
   name: Fazz Payment Methods API
   slug: fazz-payment-methods-api
-- description: Accept API — create and query payments (collections).
+- baseURL: https://www.xfers.io/api/v4
+  baseurl_source: declared
+  description: Accept API — create and query payments (collections).
   name: Fazz Payments API
   slug: fazz-payments-api
 artifact_total: 22
@@ -267,7 +273,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -277,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 47.8
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,7 +301,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

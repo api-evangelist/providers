@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 2
 apis:
-- description: The Seamless.AI Public API v1 — nine operations covering contact and company search, asynchronous enrichment (research), result polling, org-data retrieval and the OAuth token exchange. Search and org
+- baseURL: https://api.seamless.ai/api/client/v1
+  baseurl_source: declared
+  description: The Seamless.AI Public API v1 — nine operations covering contact and company search, asynchronous enrichment (research), result polling, org-data retrieval and the OAuth token exchange. Search and org
   name: Seamless.AI Public API
   slug: seamless-ai-public-api
-- description: The Mcp API from Seamless.AI — 1 operation(s) for mcp.
+- baseURL: https://api.seamless.ai/api/client/v1
+  baseurl_source: declared
+  description: The Mcp API from Seamless.AI — 1 operation(s) for mcp.
   name: Seamless.AI MCP API
   slug: seamless-ai-mcp-api
 artifact_total: 28
@@ -401,7 +405,7 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -411,7 +415,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 34.2
-  previous_composite: 67.9
+  previous_composite: 67.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -423,7 +427,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
 security:

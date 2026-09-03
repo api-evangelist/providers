@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 89 operations · 50 acting
 api_count: 1
 apis:
-- description: Accessibility API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Accessibility API
   name: Panopto Accessibility API
   slug: panopto-accessibility-api
-- description: Authentication API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Authentication API
   name: Panopto Auth API
   slug: panopto-auth-api
-- description: Caption Providers API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Caption Providers API
   name: Panopto CaptionProviders API
   slug: panopto-captionproviders-api
-- description: Folder API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Folder API
   name: Panopto Folders API
   slug: panopto-folders-api
-- description: Group API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Group API
   name: Panopto Groups API
   slug: panopto-groups-api
-- description: Playlist API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Playlist API
   name: Panopto Playlists API
   slug: panopto-playlists-api
-- description: 'Remote Recorder Device API. Warning: this endpoint is for Panopto''s hardware partners only and cannot be used without a partner API key.'
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: 'Remote Recorder Device API. Warning: this endpoint is for Panopto''s hardware partners only and cannot be used without a partner API key.'
   name: Panopto RemoteRecorderAPI API
   slug: panopto-remoterecorderapi-api
-- description: Remote Recorder Management API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Remote Recorder Management API
   name: Panopto RemoteRecorders API
   slug: panopto-remoterecorders-api
-- description: Reports API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Reports API
   name: Panopto Reports API
   slug: panopto-reports-api
-- description: Scheduled Recording API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Scheduled Recording API
   name: Panopto ScheduledRecordings API
   slug: panopto-scheduledrecordings-api
-- description: Search Index Integration API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Search Index Integration API
   name: Panopto SearchIndexSyncUpdates API
   slug: panopto-searchindexsyncupdates-api
-- description: Session API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Session API
   name: Panopto Sessions API
   slug: panopto-sessions-api
-- description: Stream API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Stream API
   name: Panopto Streams API
   slug: panopto-streams-api
-- description: Tag API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Tag API
   name: Panopto Tags API
   slug: panopto-tags-api
-- description: User API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: User API
   name: Panopto Users API
   slug: panopto-users-api
-- description: Portals API
+- baseURL: https://{tenant}.hosted.panopto.com/Panopto/api/v1
+  baseurl_source: declared
+  description: Portals API
   name: Panopto XfpUserProfiles API
   slug: panopto-xfpuserprofiles-api
 artifact_total: 41
@@ -277,7 +309,7 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/panopto/refs/heads/main/screenshots/panopto-2026-06-20T191340.png
 security:

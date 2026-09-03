@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -56,118 +56,194 @@ apis:
 - description: GraphQL API for querying Salesforce data with a single endpoint, reducing round trips and improving application performance.
   name: Salesforce GraphQL API
   slug: salesforce-graphql-api
-- description: Action type discovery
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Action type discovery
   name: Salesforce Automation Actions API
   slug: salesforce-automation-actions-api
-- description: Approval process management and submissions
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Approval process management and submissions
   name: Salesforce Automation Approvals API
   slug: salesforce-automation-approvals-api
-- description: Independent subrequests in a single call
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Independent subrequests in a single call
   name: Salesforce Automation Batch API
   slug: salesforce-automation-batch-api
-- description: Change Data Capture event metadata and schema
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Change Data Capture event metadata and schema
   name: Salesforce Automation Change Events API
   slug: salesforce-automation-change-events-api
-- description: Comments on feed elements
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Comments on feed elements
   name: Salesforce Automation Comments API
   slug: salesforce-automation-comments-api
-- description: Sequential subrequests with reference ID support
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Sequential subrequests with reference ID support
   name: Salesforce Automation Composite API
   slug: salesforce-automation-composite-api
-- description: CDC configuration and enabled entities
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CDC configuration and enabled entities
   name: Salesforce Automation Configuration API
   slug: salesforce-automation-configuration-api
-- description: Custom Apex invocable actions (@InvocableMethod)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Custom Apex invocable actions (@InvocableMethod)
   name: Salesforce Automation Custom Actions API
   slug: salesforce-automation-custom-actions-api
-- description: Custom Apex REST web service endpoints defined with @RestResource annotation
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Custom Apex REST web service endpoints defined with @RestResource annotation
   name: Salesforce Automation Custom Endpoints API
   slug: salesforce-automation-custom-endpoints-api
-- description: CRM Analytics dashboards
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics dashboards
   name: Salesforce Automation Dashboards API
   slug: salesforce-automation-dashboards-api
-- description: CRM Analytics dataflows (recipes)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics dataflows (recipes)
   name: Salesforce Automation Dataflows API
   slug: salesforce-automation-dataflows-api
-- description: CRM Analytics datasets
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics datasets
   name: Salesforce Automation Datasets API
   slug: salesforce-automation-datasets-api
-- description: Code completion and development tools
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Code completion and development tools
   name: Salesforce Automation Development API
   slug: salesforce-automation-development-api
-- description: Platform Event publishing, describe, and schema operations
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Platform Event publishing, describe, and schema operations
   name: Salesforce Automation Events API
   slug: salesforce-automation-events-api
-- description: Chatter feed elements (posts)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter feed elements (posts)
   name: Salesforce Automation Feeds API
   slug: salesforce-automation-feeds-api
-- description: Flow and FlowDefinition management
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Flow and FlowDefinition management
   name: Salesforce Automation Flows API
   slug: salesforce-automation-flows-api
-- description: Analytics applications (folders)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Analytics applications (folders)
   name: Salesforce Automation Folders API
   slug: salesforce-automation-folders-api
-- description: Subrequests with dependency graphs
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Subrequests with dependency graphs
   name: Salesforce Automation Graph API
   slug: salesforce-automation-graph-api
-- description: Chatter groups
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter groups
   name: Salesforce Automation Groups API
   slug: salesforce-automation-groups-api
-- description: Bulk data loading operations (insert, update, upsert, delete, hardDelete)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Bulk data loading operations (insert, update, upsert, delete, hardDelete)
   name: Salesforce Automation Ingest Jobs API
   slug: salesforce-automation-ingest-jobs-api
-- description: CRM Analytics lenses (explorations)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRM Analytics lenses (explorations)
   name: Salesforce Automation Lenses API
   slug: salesforce-automation-lenses-api
-- description: Org API and resource limits
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Org API and resource limits
   name: Salesforce Automation Limits API
   slug: salesforce-automation-limits-api
-- description: SOQL-based streaming event topics (deprecated; use Platform Events or CDC)
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: SOQL-based streaming event topics (deprecated; use Platform Events or CDC)
   name: Salesforce Automation PushTopics API
   slug: salesforce-automation-pushtopics-api
-- description: SAQL query execution
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: SAQL query execution
   name: Salesforce Automation Query API
   slug: salesforce-automation-query-api
-- description: Bulk data extraction via SOQL queries
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Bulk data extraction via SOQL queries
   name: Salesforce Automation Query Jobs API
   slug: salesforce-automation-query-jobs-api
-- description: CRUD operations on individual SObject records
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: CRUD operations on individual SObject records
   name: Salesforce Automation Records API
   slug: salesforce-automation-records-api
-- description: Bulk CRUD operations on up to 200 records
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Bulk CRUD operations on up to 200 records
   name: Salesforce Automation SObject Collections API
   slug: salesforce-automation-sobject-collections-api
-- description: Create nested parent-child records
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Create nested parent-child records
   name: Salesforce Automation SObject Tree API
   slug: salesforce-automation-sobject-tree-api
-- description: SObject metadata and describe operations
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: SObject metadata and describe operations
   name: Salesforce Automation SObjects API
   slug: salesforce-automation-sobjects-api
-- description: Salesforce Object Query Language queries
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Salesforce Object Query Language queries
   name: Salesforce Automation SOQL API
   slug: salesforce-automation-soql-api
-- description: Salesforce Object Search Language searches
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Salesforce Object Search Language searches
   name: Salesforce Automation SOSL API
   slug: salesforce-automation-sosl-api
-- description: Salesforce-provided standard invocable actions
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Salesforce-provided standard invocable actions
   name: Salesforce Automation Standard Actions API
   slug: salesforce-automation-standard-actions-api
-- description: Generic streaming channels for custom event delivery
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Generic streaming channels for custom event delivery
   name: Salesforce Automation Streaming Channels API
   slug: salesforce-automation-streaming-channels-api
-- description: Apex test execution
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Apex test execution
   name: Salesforce Automation Testing API
   slug: salesforce-automation-testing-api
-- description: Chatter topics
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter topics
   name: Salesforce Automation Topics API
   slug: salesforce-automation-topics-api
-- description: Chatter user profiles
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Chatter user profiles
   name: Salesforce Automation Users API
   slug: salesforce-automation-users-api
-- description: API version information
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: API version information
   name: Salesforce Automation Versions API
   slug: salesforce-automation-versions-api
-- description: Workflow rules and process automation
+- baseURL: https://yourInstance.salesforce.com/services/data
+  baseurl_source: declared
+  description: Workflow rules and process automation
   name: Salesforce Automation Workflow API
   slug: salesforce-automation-workflow-api
 artifact_total: 231
@@ -926,7 +1002,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:

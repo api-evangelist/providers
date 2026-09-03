@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: Native iOS and Android SDKs for collecting and enforcing consent in mobile apps. The iOS SDK supports iOS 15 and above; the Android SDK targets API level 26 and above. Supports preemptive consent coll
   name: Ketch Mobile SDKs
   slug: ketch-mobile-sdks
-- description: Fetch per-property bootstrap and consent configuration.
+- baseURL: https://global.ketchapi.com
+  baseurl_source: declared
+  description: Fetch per-property bootstrap and consent configuration.
   name: Ketch Configuration API
   slug: ketch-io-configuration-api
-- description: Retrieve and update visitor consent state.
+- baseURL: https://global.ketchapi.com
+  baseurl_source: declared
+  description: Retrieve and update visitor consent state.
   name: Ketch Consent API
   slug: ketch-io-consent-api
-- description: Generate QR codes for the preference center.
+- baseURL: https://global.ketchapi.com
+  baseurl_source: declared
+  description: Generate QR codes for the preference center.
   name: Ketch Preferences API
   slug: ketch-io-preferences-api
-- description: Submit data subject right requests (access, deletion, etc).
+- baseURL: https://global.ketchapi.com
+  baseurl_source: declared
+  description: Submit data subject right requests (access, deletion, etc).
   name: Ketch Rights API
   slug: ketch-io-rights-api
 artifact_total: 18
@@ -196,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketch-io/refs/heads/main/screenshots/ketch-io-2026-06-20T183959.png
 security:

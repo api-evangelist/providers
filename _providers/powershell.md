@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: APIs and protocols for remote PowerShell execution over WS-Management (WinRM) and SSH. Enables one-to-one and one-to-many remote command and session management.
   name: PowerShell Remoting API
   slug: powershell-remoting-api
-- description: OData service metadata.
+- baseURL: https://www.powershellgallery.com/api/v2
+  baseurl_source: declared
+  description: OData service metadata.
   name: PowerShell Metadata API
   slug: powershell-metadata-api
-- description: Browse and retrieve package entries from the Gallery feed.
+- baseURL: https://www.powershellgallery.com/api/v2
+  baseurl_source: declared
+  description: Browse and retrieve package entries from the Gallery feed.
   name: PowerShell Packages API
   slug: powershell-packages-api
-- description: Search and discovery operations.
+- baseURL: https://www.powershellgallery.com/api/v2
+  baseurl_source: declared
+  description: Search and discovery operations.
   name: PowerShell Search API
   slug: powershell-search-api
-- description: Find updates for installed packages.
+- baseURL: https://www.powershellgallery.com/api/v2
+  baseurl_source: declared
+  description: Find updates for installed packages.
   name: PowerShell Updates API
   slug: powershell-updates-api
 artifact_total: 21
@@ -202,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/screenshots/powershell-2026-06-20T192030.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 26 operations
 api_count: 2
 apis:
-- description: The Developers API from TheGamesDB — 1 operation(s) for developers.
+- baseURL: https://api.thegamesdb.net
+  baseurl_source: declared
+  description: The Developers API from TheGamesDB — 1 operation(s) for developers.
   name: TheGamesDB Developers API
   slug: thegamesdb-developers-api
-- description: The Games API from TheGamesDB — 6 operation(s) for games.
+- baseURL: https://api.thegamesdb.net
+  baseurl_source: declared
+  description: The Games API from TheGamesDB — 6 operation(s) for games.
   name: TheGamesDB Games API
   slug: thegamesdb-games-api
-- description: The Genres API from TheGamesDB — 1 operation(s) for genres.
+- baseURL: https://api.thegamesdb.net
+  baseurl_source: declared
+  description: The Genres API from TheGamesDB — 1 operation(s) for genres.
   name: TheGamesDB Genres API
   slug: thegamesdb-genres-api
-- description: The Platforms API from TheGamesDB — 4 operation(s) for platforms.
+- baseURL: https://api.thegamesdb.net
+  baseurl_source: declared
+  description: The Platforms API from TheGamesDB — 4 operation(s) for platforms.
   name: TheGamesDB Platforms API
   slug: thegamesdb-platforms-api
-- description: The Publishers API from TheGamesDB — 1 operation(s) for publishers.
+- baseURL: https://api.thegamesdb.net
+  baseurl_source: declared
+  description: The Publishers API from TheGamesDB — 1 operation(s) for publishers.
   name: TheGamesDB Publishers API
   slug: thegamesdb-publishers-api
 artifact_total: 57
@@ -299,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/screenshots/thegamesdb-2026-06-20T195247.png
 security:

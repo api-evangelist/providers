@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -54,49 +54,79 @@ apis:
 - description: W3C Linked Data API over the UK House Price Index, the official house price statistic calculated by the Office for National Statistics from HM Land Registry, Registers of Scotland and Land and Propert
   name: UK House Price Index Linked Data API
   slug: uk-house-price-index-linked-data-api
-- description: The Application information API API from HM Land Registry — 2 operation(s) for application information api.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Application information API API from HM Land Registry — 2 operation(s) for application information api.
   name: HM Land Registry Application information API
   slug: hm-land-registry-application-information-api-api
-- description: The Attach a document API from HM Land Registry — 1 operation(s) for attach a document.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Attach a document API from HM Land Registry — 1 operation(s) for attach a document.
   name: HM Land Registry Attach a document API
   slug: hm-land-registry-attach-a-document-api
-- description: The Attach a message API from HM Land Registry — 1 operation(s) for attach a message.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Attach a message API from HM Land Registry — 1 operation(s) for attach a message.
   name: HM Land Registry Attach a message API
   slug: hm-land-registry-attach-a-message-api
-- description: Dataset discovery, metadata and download URL minting.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: Dataset discovery, metadata and download URL minting.
   name: HM Land Registry Datasets API
   slug: hm-land-registry-datasets-api
-- description: The Download a document API API from HM Land Registry — 2 operation(s) for download a document api.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Download a document API API from HM Land Registry — 2 operation(s) for download a document api.
   name: HM Land Registry Download a document API
   slug: hm-land-registry-download-a-document-api-api
-- description: The draft-titles API from HM Land Registry — 1 operation(s) for draft-titles.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The draft-titles API from HM Land Registry — 1 operation(s) for draft-titles.
   name: HM Land Registry Draft Titles API
   slug: hm-land-registry-draft-titles-api
-- description: The ECD API from HM Land Registry — 1 operation(s) for ecd.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The ECD API from HM Land Registry — 1 operation(s) for ecd.
   name: HM Land Registry ECD API
   slug: hm-land-registry-ecd-api
-- description: The Notifications API API from HM Land Registry — 4 operation(s) for notifications api.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Notifications API API from HM Land Registry — 4 operation(s) for notifications api.
   name: HM Land Registry Notifications API
   slug: hm-land-registry-notifications-api-api
-- description: Document information related to a title.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: Document information related to a title.
   name: HM Land Registry Official Copies API
   slug: hm-land-registry-official-copies-api
-- description: The Official Search of Whole with Data API from HM Land Registry — 1 operation(s) for official search of whole with data.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Official Search of Whole with Data API from HM Land Registry — 1 operation(s) for official search of whole with data.
   name: HM Land Registry Official Search of Whole with Data API
   slug: hm-land-registry-official-search-of-whole-with-data-api
-- description: Proprietor information related to a title.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: Proprietor information related to a title.
   name: HM Land Registry Registered Proprietor Names API
   slug: hm-land-registry-registered-proprietor-names-api
-- description: The Send a document API API from HM Land Registry — 3 operation(s) for send a document api.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Send a document API API from HM Land Registry — 3 operation(s) for send a document api.
   name: HM Land Registry Send a document API
   slug: hm-land-registry-send-a-document-api-api
-- description: The Submit an application API API from HM Land Registry — 2 operation(s) for submit an application api.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: The Submit an application API API from HM Land Registry — 2 operation(s) for submit an application api.
   name: HM Land Registry Submit an application API
   slug: hm-land-registry-submit-an-application-api-api
-- description: Operations relating to titles for land or property.
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: Operations relating to titles for land or property.
   name: HM Land Registry Title API
   slug: hm-land-registry-title-api
-- description: Operations regarding titles
+- baseURL: https://landregistry.data.gov.uk/landregistry/query
+  baseurl_source: declared
+  description: Operations regarding titles
   name: HM Land Registry Titles API
   slug: hm-land-registry-titles-api
 artifact_total: 51
@@ -494,7 +524,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:

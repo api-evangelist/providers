@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,37 +36,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Anonymous, read-only JSON access to the Shop ICON merchandise storefront at store.iconaircraft.com — products, variants, collections, predictive search, session cart and store metadata. The store's ow
+- baseURL: https://store.iconaircraft.com
+  baseurl_source: declared
+  description: Anonymous, read-only JSON access to the Shop ICON merchandise storefront at store.iconaircraft.com — products, variants, collections, predictive search, session cart and store metadata. The store's ow
   name: Shop ICON Storefront API
   slug: icon-aircraft-store-api
 - description: 'A live, anonymously callable Model Context Protocol endpoint implementing the Universal Commerce Protocol 2026-04-08 for the Shop ICON storefront. An unauthenticated tools/list returned HTTP 200 with '
   name: Shop ICON UCP/MCP Server
   slug: icon-aircraft-ucp-mcp
-- description: Products and product variants.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Products and product variants.
   name: ICON Aircraft Catalog API
   slug: icon-aircraft-catalog-api
-- description: Merchandising collections.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Merchandising collections.
   name: ICON Aircraft Collections API
   slug: icon-aircraft-collections-api
-- description: Self-describing metadata about the content types this site exposes.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Self-describing metadata about the content types this site exposes.
   name: ICON Aircraft Discovery API
   slug: icon-aircraft-discovery-api
-- description: The site media library — photography, video posters and documents.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: The site media library — photography, video posters and documents.
   name: ICON Aircraft Media API
   slug: icon-aircraft-media-api
-- description: Marketing, product, policy and landing pages.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Marketing, product, policy and landing pages.
   name: ICON Aircraft Pages API
   slug: icon-aircraft-pages-api
-- description: ICON Aircraft news and press releases.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: ICON Aircraft news and press releases.
   name: ICON Aircraft Posts API
   slug: icon-aircraft-posts-api
-- description: Cross-type site search.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Cross-type site search.
   name: ICON Aircraft Search API
   slug: icon-aircraft-search-api
-- description: Categories and tags applied to posts.
+- baseURL: https://www.iconaircraft.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags applied to posts.
   name: ICON Aircraft Taxonomy API
   slug: icon-aircraft-taxonomy-api
 artifact_total: 16
@@ -197,7 +228,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -222,8 +253,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/screenshots/icon-aircraft-2026-09-02T145820.png
 security:
 - kind: authentication
   name: Icon Aircraft Authentication

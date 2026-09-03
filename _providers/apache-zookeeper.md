@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: The ZooKeeper client API provides Java and C language bindings for distributed coordination operations. Operations include create (create znodes), delete, exists (check existence), getData, setData, g
   name: Apache ZooKeeper Client API
   slug: apache-zookeeper-client-api
-- description: Cluster and ensemble information
+- baseURL: http://localhost:8080/commands
+  baseurl_source: declared
+  description: Cluster and ensemble information
   name: Apache ZooKeeper Cluster API
   slug: apache-zookeeper-cluster-api
-- description: Server configuration information
+- baseURL: http://localhost:8080/commands
+  baseurl_source: declared
+  description: Server configuration information
   name: Apache ZooKeeper Configuration API
   slug: apache-zookeeper-configuration-api
-- description: Server health checks
+- baseURL: http://localhost:8080/commands
+  baseurl_source: declared
+  description: Server health checks
   name: Apache ZooKeeper Health API
   slug: apache-zookeeper-health-api
-- description: Server statistics and metrics
+- baseURL: http://localhost:8080/commands
+  baseurl_source: declared
+  description: Server statistics and metrics
   name: Apache ZooKeeper Monitoring API
   slug: apache-zookeeper-monitoring-api
-- description: ZooKeeper watch information
+- baseURL: http://localhost:8080/commands
+  baseurl_source: declared
+  description: ZooKeeper watch information
   name: Apache ZooKeeper Watches API
   slug: apache-zookeeper-watches-api
 artifact_total: 38
@@ -240,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:

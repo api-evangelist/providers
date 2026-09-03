@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Legacy SOAP v3 DebtorService for the accountant/debtor tier that owns companies (e.g. AccountantContact_GetList, Debtor_GetList). Deprecated - retiring 1 March 2027 in favor of the REST API.
   name: Nmbrs SOAP DebtorService (Legacy)
   slug: nmbrs-soap-debtor-service
-- description: Employee absence, leave, and sickness registrations.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Employee absence, leave, and sickness registrations.
   name: Nmbrs Absences API
   slug: nmbrs-absences-api
-- description: Company (employer) records within a Nmbrs environment.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Company (employer) records within a Nmbrs environment.
   name: Nmbrs Companies API
   slug: nmbrs-companies-api
-- description: Employee records and their personal / HR information.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Employee records and their personal / HR information.
   name: Nmbrs Employees API
   slug: nmbrs-employees-api
-- description: Employment contracts and employment history for an employee.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Employment contracts and employment history for an employee.
   name: Nmbrs Employments API
   slug: nmbrs-employments-api
-- description: Payroll runs (payruns) and their results for a company.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Payroll runs (payruns) and their results for a company.
   name: Nmbrs Payruns API
   slug: nmbrs-payruns-api
-- description: Salary and wage information for an employee.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Salary and wage information for an employee.
   name: Nmbrs Salaries API
   slug: nmbrs-salaries-api
-- description: Fixed and variable wage components used in payroll.
+- baseURL: https://api.nmbrsapp.com
+  baseurl_source: declared
+  description: Fixed and variable wage components used in payroll.
   name: Nmbrs Wage Components API
   slug: nmbrs-wage-components-api
 artifact_total: 25
@@ -204,7 +218,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png
 security:

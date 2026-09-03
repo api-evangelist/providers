@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: 'The Airnode HTTP gateway exposes a REST endpoint that allows authorized callers to query an Airnode operator''s API data off-chain without sending a blockchain transaction. API providers configure the '
   name: API3 Airnode HTTP Gateway
   slug: airnode-http-gateway
-- description: Airnode address discovery
+- baseURL: https://market.api3.org
+  baseurl_source: declared
+  description: Airnode address discovery
   name: API3 Airnodes API
   slug: api3-airnodes-api
-- description: Reading and writing cryptographically signed oracle data
+- baseURL: https://market.api3.org
+  baseurl_source: declared
+  description: Reading and writing cryptographically signed oracle data
   name: API3 Signed Data API
   slug: api3-signed-data-api
-- description: Health and deployment information
+- baseURL: https://market.api3.org
+  baseurl_source: declared
+  description: Health and deployment information
   name: API3 Status API
   slug: api3-status-api
 artifact_total: 17
@@ -209,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/screenshots/api3-2026-06-20T172222.png
 security:

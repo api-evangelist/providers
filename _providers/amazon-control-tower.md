@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 28 operations · 27 acting · 27 human-in-the-loop
 api_count: 4
 apis:
-- description: Operations for applying and managing baselines on organizational units
+- baseURL: https://controltower.amazonaws.com
+  baseurl_source: declared
+  description: Operations for applying and managing baselines on organizational units
   name: Amazon Control Tower Baselines API
   slug: amazon-control-tower-baselines-api
-- description: Operations for enabling, disabling, and managing guardrail controls on organizational units
+- baseURL: https://controltower.amazonaws.com
+  baseurl_source: declared
+  description: Operations for enabling, disabling, and managing guardrail controls on organizational units
   name: Amazon Control Tower Controls API
   slug: amazon-control-tower-controls-api
-- description: Operations for managing AWS Control Tower landing zones
+- baseURL: https://controltower.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing AWS Control Tower landing zones
   name: Amazon Control Tower Landing Zones API
   slug: amazon-control-tower-landing-zones-api
-- description: Operations for tagging AWS Control Tower resources
+- baseURL: https://controltower.amazonaws.com
+  baseurl_source: declared
+  description: Operations for tagging AWS Control Tower resources
   name: Amazon Control Tower Tags API
   slug: amazon-control-tower-tags-api
 arazzos:
@@ -705,7 +713,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/screenshots/amazon-control-tower-2026-06-20T171608.png
 security:

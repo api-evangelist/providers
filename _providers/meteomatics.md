@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Obtain OAuth2 bearer tokens
+- baseURL: https://api.meteomatics.com
+  baseurl_source: declared
+  description: Obtain OAuth2 bearer tokens
   name: Meteomatics Authentication API
   slug: meteomatics-authentication-api
-- description: Account usage statistics
+- baseURL: https://api.meteomatics.com
+  baseurl_source: declared
+  description: Account usage statistics
   name: Meteomatics User API
   slug: meteomatics-user-api
-- description: Query weather parameters for point, grid, multi-location, and route requests
+- baseURL: https://api.meteomatics.com
+  baseurl_source: declared
+  description: Query weather parameters for point, grid, multi-location, and route requests
   name: Meteomatics Weather Data API
   slug: meteomatics-weather-data-api
 artifact_total: 17
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/screenshots/meteomatics-2026-06-20T185254.png
 security:

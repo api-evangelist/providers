@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -39,34 +51,54 @@ apis:
 - description: APIs for the Automated Clearing Settlement System (ACSS), Canada's retail batch/ACH clearing rail. Access is member-gated via the developer portal.
   name: ACSS API
   slug: acss-api
-- description: The application level heartbeat API from Payments Canada — 1 operation(s) for application level heartbeat.
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: The application level heartbeat API from Payments Canada — 1 operation(s) for application level heartbeat.
   name: Payments Canada application level heartbeat API
   slug: payments-canada-application-level-heartbeat-api
-- description: Ccin Extract Resource
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: Ccin Extract Resource
   name: Payments Canada Ccin Extract Resource API
   slug: payments-canada-ccin-extract-resource-api
-- description: Fif Branches Resource
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: Fif Branches Resource
   name: Payments Canada Fif Branches Resource API
   slug: payments-canada-fif-branches-resource-api
-- description: Fif Extracts Resource
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: Fif Extracts Resource
   name: Payments Canada Fif Extracts Resource API
   slug: payments-canada-fif-extracts-resource-api
-- description: The Interest Report API from Payments Canada — 1 operation(s) for interest report.
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: The Interest Report API from Payments Canada — 1 operation(s) for interest report.
   name: Payments Canada Interest Report API
   slug: payments-canada-interest-report-api
-- description: Master Extract Resource
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: Master Extract Resource
   name: Payments Canada Master Extract Resource API
   slug: payments-canada-master-extract-resource-api
-- description: The report API from Payments Canada — 1 operation(s) for report.
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: The report API from Payments Canada — 1 operation(s) for report.
   name: Payments Canada Report API
   slug: payments-canada-report-api
-- description: The single credit transfer API from Payments Canada — 1 operation(s) for single credit transfer.
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: The single credit transfer API from Payments Canada — 1 operation(s) for single credit transfer.
   name: Payments Canada single credit transfer API
   slug: payments-canada-single-credit-transfer-api
-- description: The single credit transfer status enquiry API from Payments Canada — 1 operation(s) for single credit transfer status enquiry.
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: The single credit transfer status enquiry API from Payments Canada — 1 operation(s) for single credit transfer status enquiry.
   name: Payments Canada single credit transfer status enquiry API
   slug: payments-canada-single-credit-transfer-status-enquiry-api
-- description: Update Extract Resource
+- baseURL: https://api.payments.ca/rtr-sandbox
+  baseurl_source: declared
+  description: Update Extract Resource
   name: Payments Canada Update Extract Resource API
   slug: payments-canada-update-extract-resource-api
 artifact_total: 25
@@ -299,7 +331,7 @@ score:
     regime_id: payments
     score: 67.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:

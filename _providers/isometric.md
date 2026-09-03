@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -46,109 +46,179 @@ apis:
 - description: Isometric ships a hosted Model Context Protocol (MCP) server that makes the Isometric Standard, proprietary protocols (biochar, DAC, enhanced weathering, marine CDR, biosphere, superpollutants), proto
   name: Isometric MCP Server
   slug: isometric-mcp-server
-- description: The Beneficiaries API from Isometric — 1 operation(s) for beneficiaries.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Beneficiaries API from Isometric — 1 operation(s) for beneficiaries.
   name: Isometric Beneficiaries API
   slug: isometric-beneficiaries-api
-- description: The Beneficiary API from Isometric — 1 operation(s) for beneficiary.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Beneficiary API from Isometric — 1 operation(s) for beneficiary.
   name: Isometric Beneficiary API
   slug: isometric-beneficiary-api
-- description: The Biochar Applications API from Isometric — 2 operation(s) for biochar applications.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Biochar Applications API from Isometric — 2 operation(s) for biochar applications.
   name: Isometric Biochar Applications API
   slug: isometric-biochar-applications-api
-- description: The Component Blueprints API from Isometric — 2 operation(s) for component blueprints.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Component Blueprints API from Isometric — 2 operation(s) for component blueprints.
   name: Isometric Component Blueprints API
   slug: isometric-component-blueprints-api
-- description: The Components API from Isometric — 2 operation(s) for components.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Components API from Isometric — 2 operation(s) for components.
   name: Isometric Components API
   slug: isometric-components-api
-- description: The Credit Batches API from Isometric — 1 operation(s) for credit batches.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Credit Batches API from Isometric — 1 operation(s) for credit batches.
   name: Isometric Credit Batches API
   slug: isometric-credit-batches-api
-- description: The Data Upload Submissions API from Isometric — 2 operation(s) for data upload submissions.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Data Upload Submissions API from Isometric — 2 operation(s) for data upload submissions.
   name: Isometric Data Upload Submissions API
   slug: isometric-data-upload-submissions-api
-- description: The Datapoints API from Isometric — 4 operation(s) for datapoints.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Datapoints API from Isometric — 4 operation(s) for datapoints.
   name: Isometric Datapoints API
   slug: isometric-datapoints-api
-- description: The Deliveries API from Isometric — 3 operation(s) for deliveries.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Deliveries API from Isometric — 3 operation(s) for deliveries.
   name: Isometric Deliveries API
   slug: isometric-deliveries-api
-- description: The Feedstock Batches API from Isometric — 2 operation(s) for feedstock batches.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Feedstock Batches API from Isometric — 2 operation(s) for feedstock batches.
   name: Isometric Feedstock Batches API
   slug: isometric-feedstock-batches-api
-- description: The Feedstock Types API from Isometric — 3 operation(s) for feedstock types.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Feedstock Types API from Isometric — 3 operation(s) for feedstock types.
   name: Isometric Feedstock Types API
   slug: isometric-feedstock-types-api
-- description: The File Uploads API from Isometric — 1 operation(s) for file uploads.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The File Uploads API from Isometric — 1 operation(s) for file uploads.
   name: Isometric File Uploads API
   slug: isometric-file-uploads-api
-- description: The Ghg Statement Components API from Isometric — 1 operation(s) for ghg statement components.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Ghg Statement Components API from Isometric — 1 operation(s) for ghg statement components.
   name: Isometric Ghg Statement Components API
   slug: isometric-ghg-statement-components-api
-- description: The Ghg Statements API from Isometric — 3 operation(s) for ghg statements.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Ghg Statements API from Isometric — 3 operation(s) for ghg statements.
   name: Isometric Ghg Statements API
   slug: isometric-ghg-statements-api
-- description: The Issuances API from Isometric — 3 operation(s) for issuances.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Issuances API from Isometric — 3 operation(s) for issuances.
   name: Isometric Issuances API
   slug: isometric-issuances-api
-- description: The Measurement Locations API from Isometric — 2 operation(s) for measurement locations.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Measurement Locations API from Isometric — 2 operation(s) for measurement locations.
   name: Isometric Measurement Locations API
   slug: isometric-measurement-locations-api
-- description: The Measurement Samples API from Isometric — 1 operation(s) for measurement samples.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Measurement Samples API from Isometric — 1 operation(s) for measurement samples.
   name: Isometric Measurement Samples API
   slug: isometric-measurement-samples-api
-- description: The Orders API from Isometric — 2 operation(s) for orders.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Orders API from Isometric — 2 operation(s) for orders.
   name: Isometric Orders API
   slug: isometric-orders-api
-- description: The Organisation API from Isometric — 1 operation(s) for organisation.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Organisation API from Isometric — 1 operation(s) for organisation.
   name: Isometric Organisation API
   slug: isometric-organisation-api
-- description: The Organisations API from Isometric — 4 operation(s) for organisations.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Organisations API from Isometric — 4 operation(s) for organisations.
   name: Isometric Organisations API
   slug: isometric-organisations-api
-- description: The Processes API from Isometric — 1 operation(s) for processes.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Processes API from Isometric — 1 operation(s) for processes.
   name: Isometric Processes API
   slug: isometric-processes-api
-- description: The Production Batches API from Isometric — 2 operation(s) for production batches.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Production Batches API from Isometric — 2 operation(s) for production batches.
   name: Isometric Production Batches API
   slug: isometric-production-batches-api
-- description: The Project Components API from Isometric — 3 operation(s) for project components.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Project Components API from Isometric — 3 operation(s) for project components.
   name: Isometric Project Components API
   slug: isometric-project-components-api
-- description: The Projects API from Isometric — 12 operation(s) for projects.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Projects API from Isometric — 12 operation(s) for projects.
   name: Isometric Projects API
   slug: isometric-projects-api
-- description: The Refunds API from Isometric — 2 operation(s) for refunds.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Refunds API from Isometric — 2 operation(s) for refunds.
   name: Isometric Refunds API
   slug: isometric-refunds-api
-- description: The Removals API from Isometric — 3 operation(s) for removals.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Removals API from Isometric — 3 operation(s) for removals.
   name: Isometric Removals API
   slug: isometric-removals-api
-- description: The Retirements API from Isometric — 4 operation(s) for retirements.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Retirements API from Isometric — 4 operation(s) for retirements.
   name: Isometric Retirements API
   slug: isometric-retirements-api
-- description: The Sensors API from Isometric — 2 operation(s) for sensors.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Sensors API from Isometric — 2 operation(s) for sensors.
   name: Isometric Sensors API
   slug: isometric-sensors-api
-- description: The Sources API from Isometric — 4 operation(s) for sources.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Sources API from Isometric — 4 operation(s) for sources.
   name: Isometric Sources API
   slug: isometric-sources-api
-- description: The Storage Units API from Isometric — 2 operation(s) for storage units.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Storage Units API from Isometric — 2 operation(s) for storage units.
   name: Isometric Storage Units API
   slug: isometric-storage-units-api
-- description: The Stripe API from Isometric — 2 operation(s) for stripe.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Stripe API from Isometric — 2 operation(s) for stripe.
   name: Isometric Stripe API
   slug: isometric-stripe-api
-- description: The Supplier API from Isometric — 1 operation(s) for supplier.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Supplier API from Isometric — 1 operation(s) for supplier.
   name: Isometric Supplier API
   slug: isometric-supplier-api
-- description: The Suppliers API from Isometric — 6 operation(s) for suppliers.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Suppliers API from Isometric — 6 operation(s) for suppliers.
   name: Isometric Suppliers API
   slug: isometric-suppliers-api
-- description: The Transferees API from Isometric — 1 operation(s) for transferees.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Transferees API from Isometric — 1 operation(s) for transferees.
   name: Isometric Transferees API
   slug: isometric-transferees-api
-- description: The Transfers API from Isometric — 3 operation(s) for transfers.
+- baseURL: https://api.isometric.com/registry/v0
+  baseurl_source: declared
+  description: The Transfers API from Isometric — 3 operation(s) for transfers.
   name: Isometric Transfers API
   slug: isometric-transfers-api
 artifact_total: 92
@@ -443,7 +513,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/screenshots/isometric-2026-06-20T183619.png
 security:

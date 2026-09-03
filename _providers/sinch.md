@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 133 operations · 74 acting · 4 human-in-the-loop
 api_count: 10
 apis:
-- description: Manage IP address access control lists for securing SIP trunk access.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage IP address access control lists for securing SIP trunk access.
   name: Sinch Access Control Lists API
   slug: sinch-access-control-lists-api
-- description: Manage phone numbers that have been purchased and are active in your project, including updating configurations and releasing numbers.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage phone numbers that have been purchased and are active in your project, including updating configurations and releasing numbers.
   name: Sinch Active Numbers API
   slug: sinch-active-numbers-api
-- description: Manage Voice API applications including retrieving application configuration, updating settings, and managing assigned numbers.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage Voice API applications including retrieving application configuration, updating settings, and managing assigned numbers.
   name: Sinch Applications API
   slug: sinch-applications-api
-- description: Manage Conversation API applications including channel credentials and webhook configurations.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage Conversation API applications including channel credentials and webhook configurations.
   name: Sinch Apps API
   slug: sinch-apps-api
-- description: Search for available phone numbers by country, type, and capabilities.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Search for available phone numbers by country, type, and capabilities.
   name: Sinch Available Numbers API
   slug: sinch-available-numbers-api
-- description: List available regions and number types that can be provisioned.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: List available regions and number types that can be provisioned.
   name: Sinch Available Regions API
   slug: sinch-available-regions-api
-- description: Batches are sets of SMS messages. You can send a single message or many messages at once. Batches are queued and sent at the rate limit in first-in-first-out order.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Batches are sets of SMS messages. You can send a single message or many messages at once. Batches are queued and sent at the rate limit in first-in-first-out order.
   name: Sinch Batches API
   slug: sinch-batches-api
-- description: Retrieve metadata about brand configuration options and requirements.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Retrieve metadata about brand configuration options and requirements.
   name: Sinch Brand Metadata API
   slug: sinch-brand-metadata-api
-- description: Create, update, list, and delete customer brand profiles used for messaging campaigns and sender registrations.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Create, update, list, and delete customer brand profiles used for messaging campaigns and sender registrations.
   name: Sinch Brands API
   slug: sinch-brands-api
-- description: Callouts are calls made to a phone number or app using the API. Supported types include conference callouts, text-to-speech callouts, and custom callouts.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Callouts are calls made to a phone number or app using the API. Supported types include conference callouts, text-to-speech callouts, and custom callouts.
   name: Sinch Callouts API
   slug: sinch-callouts-api
-- description: Manage ongoing calls or retrieve information about a call. Supports updating call properties and hanging up calls.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage ongoing calls or retrieve information about a call. Supports updating call properties and hanging up calls.
   name: Sinch Calls API
   slug: sinch-calls-api
-- description: Query channel capabilities for specific contacts to determine which channels can be used to reach them.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Query channel capabilities for specific contacts to determine which channels can be used to reach them.
   name: Sinch Capability API
   slug: sinch-capability-api
-- description: Manage ongoing conferences including retrieving conference info, muting or unmuting participants, and removing participants.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage ongoing conferences including retrieving conference info, muting or unmuting participants, and removing participants.
   name: Sinch Conferences API
   slug: sinch-conferences-api
-- description: Manage contacts and their channel identities. Contacts group together underlying connected channel recipient identities.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage contacts and their channel identities. Contacts group together underlying connected channel recipient identities.
   name: Sinch Contacts API
   slug: sinch-contacts-api
-- description: Manage conversations which are collections of messages tied to a specific app and contact.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage conversations which are collections of messages tied to a specific app and contact.
   name: Sinch Conversations API
   slug: sinch-conversations-api
-- description: Delivery reports provide the status of sent messages. Reports can be retrieved via the API or delivered via webhook callbacks.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Delivery reports provide the status of sent messages. Reports can be retrieved via the API or delivered via webhook callbacks.
   name: Sinch Delivery Reports API
   slug: sinch-delivery-reports-api
-- description: Send and receive events such as composing indicators across supported channels.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Send and receive events such as composing indicators across supported channels.
   name: Sinch Events API
   slug: sinch-events-api
-- description: Configure fax-to-email forwarding for incoming faxes on a service.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Configure fax-to-email forwarding for incoming faxes on a service.
   name: Sinch Fax to Email API
   slug: sinch-fax-to-email-api
-- description: Send and manage faxes including sending to single or multiple recipients, listing sent and received faxes, and downloading fax content.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Send and manage faxes including sending to single or multiple recipients, listing sent and received faxes, and downloading fax content.
   name: Sinch Faxes API
   slug: sinch-faxes-api
-- description: Groups are sets of phone numbers (MSISDNs) that can be used as targets when sending SMS. A phone number can only occur once in a group.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Groups are sets of phone numbers (MSISDNs) that can be used as targets when sending SMS. A phone number can only occur once in a group.
   name: Sinch Groups API
   slug: sinch-groups-api
-- description: Inbound messages (Mobile Originated) are incoming messages sent to your short codes or long numbers from mobile phones.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Inbound messages (Mobile Originated) are incoming messages sent to your short codes or long numbers from mobile phones.
   name: Sinch Inbounds API
   slug: sinch-inbounds-api
-- description: Manage KakaoTalk sender identities for messaging through the Conversation API.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage KakaoTalk sender identities for messaging through the Conversation API.
   name: Sinch KakaoTalk Senders API
   slug: sinch-kakaotalk-senders-api
-- description: Manage LINE sender identities for messaging through the Conversation API.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage LINE sender identities for messaging through the Conversation API.
   name: Sinch LINE Senders API
   slug: sinch-line-senders-api
-- description: Retrieve market-specific requirements for sender ID registration in different countries.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Retrieve market-specific requirements for sender ID registration in different countries.
   name: Sinch Market Requirements API
   slug: sinch-market-requirements-api
-- description: Send and retrieve messages across all supported channels using a normalized message format.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Send and retrieve messages across all supported channels using a normalized message format.
   name: Sinch Messages API
   slug: sinch-messages-api
-- description: Assign and remove phone numbers from SIP trunks for inbound and outbound calling.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Assign and remove phone numbers from SIP trunks for inbound and outbound calling.
   name: Sinch Phone Numbers API
   slug: sinch-phone-numbers-api
-- description: The Projects API from Sinch — 3 operation(s) for projects.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: The Projects API from Sinch — 3 operation(s) for projects.
   name: Sinch Projects API
   slug: sinch-projects-api
-- description: Manage RCS sender identities for Rich Communication Services messaging through the Conversation API.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage RCS sender identities for Rich Communication Services messaging through the Conversation API.
   name: Sinch RCS Senders API
   slug: sinch-rcs-senders-api
-- description: Create, update, delete, and track sender ID registrations for compliance with local messaging regulations.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Create, update, delete, and track sender ID registrations for compliance with local messaging regulations.
   name: Sinch Registrations API
   slug: sinch-registrations-api
-- description: Manage SIP endpoints that represent your SIP infrastructure such as PBX systems and contact centers.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage SIP endpoints that represent your SIP infrastructure such as PBX systems and contact centers.
   name: Sinch SIP Endpoints API
   slug: sinch-sip-endpoints-api
-- description: Create, view, update, and remove SIP trunks that connect your telephony infrastructure to the Sinch network.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Create, view, update, and remove SIP trunks that connect your telephony infrastructure to the Sinch network.
   name: Sinch SIP Trunks API
   slug: sinch-sip-trunks-api
-- description: Manage Telegram bot sender identities for messaging through the Conversation API.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage Telegram bot sender identities for messaging through the Conversation API.
   name: Sinch Telegram Senders API
   slug: sinch-telegram-senders-api
-- description: Transcode generic message formats to channel-specific formats for preview purposes.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Transcode generic message formats to channel-specific formats for preview purposes.
   name: Sinch Transcoding API
   slug: sinch-transcoding-api
-- description: Start, report, and query the status of phone number verifications using SMS, flashcall, phone call, or data verification methods.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Start, report, and query the status of phone number verifications using SMS, flashcall, phone call, or data verification methods.
   name: Sinch Verifications API
   slug: sinch-verifications-api
-- description: Manage webhook endpoints for receiving callbacks on message delivery, inbound messages, and other events.
+- baseURL: https://us.sms.api.sinch.com
+  baseurl_source: declared
+  description: Manage webhook endpoints for receiving callbacks on message delivery, inbound messages, and other events.
   name: Sinch Webhooks API
   slug: sinch-webhooks-api
 artifact_total: 176
@@ -614,7 +684,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -624,7 +694,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 55.3
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -639,7 +709,7 @@ score:
     regime_id: telecommunications
     score: 59.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

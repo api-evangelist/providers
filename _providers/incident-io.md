@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 99 operations · 48 acting
 api_count: 25
 apis:
-- description: The Actions API from Incident.io — 2 operation(s) for actions.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Actions API from Incident.io — 2 operation(s) for actions.
   name: Incident.io Actions API
   slug: incident-io-actions-api
-- description: The Alert Attributes API from Incident.io — 2 operation(s) for alert attributes.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Alert Attributes API from Incident.io — 2 operation(s) for alert attributes.
   name: Incident.io Alert Attributes API
   slug: incident-io-alert-attributes-api
-- description: The Alert Routes API from Incident.io — 2 operation(s) for alert routes.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Alert Routes API from Incident.io — 2 operation(s) for alert routes.
   name: Incident.io Alert Routes API
   slug: incident-io-alert-routes-api
-- description: The Alert Sources API from Incident.io — 2 operation(s) for alert sources.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Alert Sources API from Incident.io — 2 operation(s) for alert sources.
   name: Incident.io Alert Sources API
   slug: incident-io-alert-sources-api
-- description: The Alerts API from Incident.io — 3 operation(s) for alerts.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Alerts API from Incident.io — 3 operation(s) for alerts.
   name: Incident.io Alerts API
   slug: incident-io-alerts-api
-- description: The API Keys API from Incident.io — 3 operation(s) for api keys.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The API Keys API from Incident.io — 3 operation(s) for api keys.
   name: Incident.io API Keys API
   slug: incident-io-api-keys-api
-- description: The Catalog Entries API from Incident.io — 2 operation(s) for catalog entries.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Catalog Entries API from Incident.io — 2 operation(s) for catalog entries.
   name: Incident.io Catalog Entries API
   slug: incident-io-catalog-entries-api
-- description: The Catalog Types API from Incident.io — 2 operation(s) for catalog types.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Catalog Types API from Incident.io — 2 operation(s) for catalog types.
   name: Incident.io Catalog Types API
   slug: incident-io-catalog-types-api
-- description: The Custom Fields API from Incident.io — 2 operation(s) for custom fields.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Custom Fields API from Incident.io — 2 operation(s) for custom fields.
   name: Incident.io Custom Fields API
   slug: incident-io-custom-fields-api
-- description: The Escalation Paths API from Incident.io — 2 operation(s) for escalation paths.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Escalation Paths API from Incident.io — 2 operation(s) for escalation paths.
   name: Incident.io Escalation Paths API
   slug: incident-io-escalation-paths-api
-- description: The Escalations API from Incident.io — 2 operation(s) for escalations.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Escalations API from Incident.io — 2 operation(s) for escalations.
   name: Incident.io Escalations API
   slug: incident-io-escalations-api
-- description: The Follow-ups API from Incident.io — 2 operation(s) for follow-ups.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Follow-ups API from Incident.io — 2 operation(s) for follow-ups.
   name: Incident.io Follow-ups API
   slug: incident-io-follow-ups-api
-- description: The Incident Roles API from Incident.io — 2 operation(s) for incident roles.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Incident Roles API from Incident.io — 2 operation(s) for incident roles.
   name: Incident.io Incident Roles API
   slug: incident-io-incident-roles-api
-- description: The Incident Statuses API from Incident.io — 2 operation(s) for incident statuses.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Incident Statuses API from Incident.io — 2 operation(s) for incident statuses.
   name: Incident.io Incident Statuses API
   slug: incident-io-incident-statuses-api
-- description: The Incident Types API from Incident.io — 2 operation(s) for incident types.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Incident Types API from Incident.io — 2 operation(s) for incident types.
   name: Incident.io Incident Types API
   slug: incident-io-incident-types-api
-- description: The Incidents API from Incident.io — 2 operation(s) for incidents.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Incidents API from Incident.io — 2 operation(s) for incidents.
   name: Incident.io Incidents API
   slug: incident-io-incidents-api
-- description: The Maintenance Windows API from Incident.io — 2 operation(s) for maintenance windows.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Maintenance Windows API from Incident.io — 2 operation(s) for maintenance windows.
   name: Incident.io Maintenance Windows API
   slug: incident-io-maintenance-windows-api
-- description: The Postmortem Documents API from Incident.io — 2 operation(s) for postmortem documents.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Postmortem Documents API from Incident.io — 2 operation(s) for postmortem documents.
   name: Incident.io Postmortem Documents API
   slug: incident-io-postmortem-documents-api
-- description: The Schedules API from Incident.io — 2 operation(s) for schedules.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Schedules API from Incident.io — 2 operation(s) for schedules.
   name: Incident.io Schedules API
   slug: incident-io-schedules-api
-- description: The Severities API from Incident.io — 2 operation(s) for severities.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Severities API from Incident.io — 2 operation(s) for severities.
   name: Incident.io Severities API
   slug: incident-io-severities-api
-- description: The Status Pages API from Incident.io — 2 operation(s) for status pages.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Status Pages API from Incident.io — 2 operation(s) for status pages.
   name: Incident.io Status Pages API
   slug: incident-io-status-pages-api
-- description: The Teams API from Incident.io — 2 operation(s) for teams.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Teams API from Incident.io — 2 operation(s) for teams.
   name: Incident.io Teams API
   slug: incident-io-teams-api
-- description: The Users API from Incident.io — 2 operation(s) for users.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Users API from Incident.io — 2 operation(s) for users.
   name: Incident.io Users API
   slug: incident-io-users-api
-- description: The Utilities API from Incident.io — 3 operation(s) for utilities.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Utilities API from Incident.io — 3 operation(s) for utilities.
   name: Incident.io Utilities API
   slug: incident-io-utilities-api
-- description: The Workflows API from Incident.io — 2 operation(s) for workflows.
+- baseURL: https://api.incident.io/v2
+  baseurl_source: spec
+  description: The Workflows API from Incident.io — 2 operation(s) for workflows.
   name: Incident.io Workflows API
   slug: incident-io-workflows-api
 artifact_total: 81
@@ -345,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incident-io/refs/heads/main/screenshots/incident-io-2026-06-20T183308.png
 security:

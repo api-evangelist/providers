@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -43,52 +43,82 @@ agentic_access:
   summary_line: 46 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The ad API from SmartNews — 3 operation(s) for ad.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The ad API from SmartNews — 3 operation(s) for ad.
   name: SmartNews ad API
   slug: smartnews-ad-api
-- description: The ad-group API from SmartNews — 4 operation(s) for ad-group.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The ad-group API from SmartNews — 4 operation(s) for ad-group.
   name: SmartNews ad-group API
   slug: smartnews-ad-group-api
-- description: The article category API from SmartNews — 1 operation(s) for article category.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The article category API from SmartNews — 1 operation(s) for article category.
   name: SmartNews article category API
   slug: smartnews-article-category-api
-- description: The campaign API from SmartNews — 2 operation(s) for campaign.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The campaign API from SmartNews — 2 operation(s) for campaign.
   name: SmartNews campaign API
   slug: smartnews-campaign-api
-- description: The catalog API from SmartNews — 4 operation(s) for catalog.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The catalog API from SmartNews — 4 operation(s) for catalog.
   name: SmartNews catalog API
   slug: smartnews-catalog-api
-- description: The channel alias label API from SmartNews — 1 operation(s) for channel alias label.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The channel alias label API from SmartNews — 1 operation(s) for channel alias label.
   name: SmartNews channel alias label API
   slug: smartnews-channel-alias-label-api
-- description: The custom-audience API from SmartNews — 4 operation(s) for custom-audience.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The custom-audience API from SmartNews — 4 operation(s) for custom-audience.
   name: SmartNews custom-audience API
   slug: smartnews-custom-audience-api
-- description: The developer-app API from SmartNews — 1 operation(s) for developer-app.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The developer-app API from SmartNews — 1 operation(s) for developer-app.
   name: SmartNews developer-app API
   slug: smartnews-developer-app-api
-- description: The insights API from SmartNews — 2 operation(s) for insights.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The insights API from SmartNews — 2 operation(s) for insights.
   name: SmartNews insights API
   slug: smartnews-insights-api
-- description: The interests API from SmartNews — 1 operation(s) for interests.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The interests API from SmartNews — 1 operation(s) for interests.
   name: SmartNews interests API
   slug: smartnews-interests-api
-- description: The locations API from SmartNews — 1 operation(s) for locations.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The locations API from SmartNews — 1 operation(s) for locations.
   name: SmartNews locations API
   slug: smartnews-locations-api
-- description: The media-file API from SmartNews — 1 operation(s) for media-file.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The media-file API from SmartNews — 1 operation(s) for media-file.
   name: SmartNews media-file API
   slug: smartnews-media-file-api
-- description: The oauth API from SmartNews — 2 operation(s) for oauth.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The oauth API from SmartNews — 2 operation(s) for oauth.
   name: SmartNews oauth API
   slug: smartnews-oauth-api
-- description: The pixel API from SmartNews — 2 operation(s) for pixel.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The pixel API from SmartNews — 2 operation(s) for pixel.
   name: SmartNews pixel API
   slug: smartnews-pixel-api
 - description: Server-to-server conversion event ingestion for SmartNews Ads. Advertisers POST self-attributed web and app conversions (35 event names including Purchase, AddToCart, Lead, Install and SignUp) to Smar
   name: SmartNews Ads Conversion API
   slug: smartnews-conversion-api
-- description: The smart view article keyword API from SmartNews — 1 operation(s) for smart view article keyword.
+- baseURL: https://ads.smartnews.com
+  baseurl_source: declared
+  description: The smart view article keyword API from SmartNews — 1 operation(s) for smart view article keyword.
   name: SmartNews smart view article keyword API
   slug: smartnews-smart-view-article-keyword-api
 artifact_total: 39
@@ -345,7 +375,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartnews/refs/heads/main/screenshots/smartnews-2026-08-17T081937.png
 security:

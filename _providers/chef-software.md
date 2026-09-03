@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 7
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 256 operations · 144 acting · 7 human-in-the-loop
 api_count: 24
 apis:
-- description: The ApplicationsService API from Chef Software — 2 operation(s) for applicationsservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ApplicationsService API from Chef Software — 2 operation(s) for applicationsservice.
   name: Chef Software ApplicationsService API
   slug: chef-software-applicationsservice-api
-- description: The Authorization API from Chef Software — 2 operation(s) for authorization.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The Authorization API from Chef Software — 2 operation(s) for authorization.
   name: Chef Software Authorization API
   slug: chef-software-authorization-api
-- description: The Cds API from Chef Software — 4 operation(s) for cds.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The Cds API from Chef Software — 4 operation(s) for cds.
   name: Chef Software Cds API
   slug: chef-software-cds-api
-- description: The ChefIngester API from Chef Software — 6 operation(s) for chefingester.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ChefIngester API from Chef Software — 6 operation(s) for chefingester.
   name: Chef Software ChefIngester API
   slug: chef-software-chefingester-api
-- description: The Comp_Assets API from Chef Software — 4 operation(s) for comp_assets.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The Comp_Assets API from Chef Software — 4 operation(s) for comp_assets.
   name: Chef Software Comp_Assets API
   slug: chef-software-comp-assets-api
-- description: The ConfigMgmt API from Chef Software — 23 operation(s) for configmgmt.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ConfigMgmt API from Chef Software — 23 operation(s) for configmgmt.
   name: Chef Software ConfigMgmt API
   slug: chef-software-configmgmt-api
-- description: The DatafeedService API from Chef Software — 6 operation(s) for datafeedservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The DatafeedService API from Chef Software — 6 operation(s) for datafeedservice.
   name: Chef Software DatafeedService API
   slug: chef-software-datafeedservice-api
-- description: The DataLifecycle API from Chef Software — 15 operation(s) for datalifecycle.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The DataLifecycle API from Chef Software — 15 operation(s) for datalifecycle.
   name: Chef Software DataLifecycle API
   slug: chef-software-datalifecycle-api
-- description: The EventFeedService API from Chef Software — 4 operation(s) for eventfeedservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The EventFeedService API from Chef Software — 4 operation(s) for eventfeedservice.
   name: Chef Software EventFeedService API
   slug: chef-software-eventfeedservice-api
-- description: The hidden API from Chef Software — 5 operation(s) for hidden.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The hidden API from Chef Software — 5 operation(s) for hidden.
   name: Chef Software hidden API
   slug: chef-software-hidden-api
-- description: The InfraProxy API from Chef Software — 36 operation(s) for infraproxy.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The InfraProxy API from Chef Software — 36 operation(s) for infraproxy.
   name: Chef Software InfraProxy API
   slug: chef-software-infraproxy-api
-- description: The JobScheduler API from Chef Software — 4 operation(s) for jobscheduler.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The JobScheduler API from Chef Software — 4 operation(s) for jobscheduler.
   name: Chef Software JobScheduler API
   slug: chef-software-jobscheduler-api
-- description: The JobsService API from Chef Software — 4 operation(s) for jobsservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The JobsService API from Chef Software — 4 operation(s) for jobsservice.
   name: Chef Software JobsService API
   slug: chef-software-jobsservice-api
-- description: The NodeManagerService API from Chef Software — 9 operation(s) for nodemanagerservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The NodeManagerService API from Chef Software — 9 operation(s) for nodemanagerservice.
   name: Chef Software NodeManagerService API
   slug: chef-software-nodemanagerservice-api
-- description: The NodesService API from Chef Software — 7 operation(s) for nodesservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The NodesService API from Chef Software — 7 operation(s) for nodesservice.
   name: Chef Software NodesService API
   slug: chef-software-nodesservice-api
-- description: The policies API from Chef Software — 6 operation(s) for policies.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The policies API from Chef Software — 6 operation(s) for policies.
   name: Chef Software policies API
   slug: chef-software-policies-api
-- description: The ProfilesService API from Chef Software — 5 operation(s) for profilesservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ProfilesService API from Chef Software — 5 operation(s) for profilesservice.
   name: Chef Software ProfilesService API
   slug: chef-software-profilesservice-api
-- description: The projects API from Chef Software — 2 operation(s) for projects.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The projects API from Chef Software — 2 operation(s) for projects.
   name: Chef Software projects API
   slug: chef-software-projects-api
-- description: The ReportingService API from Chef Software — 12 operation(s) for reportingservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ReportingService API from Chef Software — 12 operation(s) for reportingservice.
   name: Chef Software ReportingService API
   slug: chef-software-reportingservice-api
-- description: The ReportManagerService API from Chef Software — 1 operation(s) for reportmanagerservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The ReportManagerService API from Chef Software — 1 operation(s) for reportmanagerservice.
   name: Chef Software ReportManagerService API
   slug: chef-software-reportmanagerservice-api
-- description: The retention API from Chef Software — 4 operation(s) for retention.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The retention API from Chef Software — 4 operation(s) for retention.
   name: Chef Software retention API
   slug: chef-software-retention-api
-- description: The roles API from Chef Software — 2 operation(s) for roles.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The roles API from Chef Software — 2 operation(s) for roles.
   name: Chef Software roles API
   slug: chef-software-roles-api
-- description: The rules API from Chef Software — 4 operation(s) for rules.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The rules API from Chef Software — 4 operation(s) for rules.
   name: Chef Software rules API
   slug: chef-software-rules-api
-- description: The SecretsService API from Chef Software — 3 operation(s) for secretsservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The SecretsService API from Chef Software — 3 operation(s) for secretsservice.
   name: Chef Software SecretsService API
   slug: chef-software-secretsservice-api
-- description: The service_groups API from Chef Software — 9 operation(s) for service_groups.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The service_groups API from Chef Software — 9 operation(s) for service_groups.
   name: Chef Software service_groups API
   slug: chef-software-service-groups-api
-- description: The StatsService API from Chef Software — 6 operation(s) for statsservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The StatsService API from Chef Software — 6 operation(s) for statsservice.
   name: Chef Software StatsService API
   slug: chef-software-statsservice-api
-- description: The teams API from Chef Software — 6 operation(s) for teams.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The teams API from Chef Software — 6 operation(s) for teams.
   name: Chef Software teams API
   slug: chef-software-teams-api
-- description: The tokens API from Chef Software — 2 operation(s) for tokens.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The tokens API from Chef Software — 2 operation(s) for tokens.
   name: Chef Software tokens API
   slug: chef-software-tokens-api
-- description: The users API from Chef Software — 3 operation(s) for users.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The users API from Chef Software — 3 operation(s) for users.
   name: Chef Software users API
   slug: chef-software-users-api
-- description: The UserSettingsService API from Chef Software — 1 operation(s) for usersettingsservice.
+- baseURL: https://automate.chef.io/api/v0
+  baseurl_source: declared
+  description: The UserSettingsService API from Chef Software — 1 operation(s) for usersettingsservice.
   name: Chef Software UserSettingsService API
   slug: chef-software-usersettingsservice-api
 artifact_total: 98
@@ -495,7 +555,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -505,7 +565,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 57.5
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -517,7 +577,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef-software/refs/heads/main/screenshots/chef-software-2026-07-25T205137.png
 security:

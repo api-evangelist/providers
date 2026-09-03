@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 4
 apis:
-- description: Books in the A Song of Ice and Fire series.
+- baseURL: https://anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Books in the A Song of Ice and Fire series.
   name: An API of Ice And Fire Books API
   slug: an-api-of-ice-and-fire-books-api
-- description: Characters from the A Song of Ice and Fire universe.
+- baseURL: https://anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Characters from the A Song of Ice and Fire universe.
   name: An API of Ice And Fire Characters API
   slug: an-api-of-ice-and-fire-characters-api
-- description: Noble houses of Westeros and Essos.
+- baseURL: https://anapioficeandfire.com/api
+  baseurl_source: declared
+  description: Noble houses of Westeros and Essos.
   name: An API of Ice And Fire Houses API
   slug: an-api-of-ice-and-fire-houses-api
-- description: API entry-point listing the top-level resource URLs.
+- baseURL: https://anapioficeandfire.com/api
+  baseurl_source: declared
+  description: API entry-point listing the top-level resource URLs.
   name: An API of Ice And Fire Root API
   slug: an-api-of-ice-and-fire-root-api
 artifact_total: 14
@@ -192,7 +200,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/an-api-of-ice-and-fire/refs/heads/main/screenshots/an-api-of-ice-and-fire-2026-06-20T171942.png
 security:

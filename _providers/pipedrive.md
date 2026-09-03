@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -44,148 +44,244 @@ agentic_access:
   summary_line: 371 operations · 191 acting
 api_count: 2
 apis:
-- description: 'Activities are appointments/tasks/events on a calendar that can be associated with a deal, a lead, a person and an organization. Activities can be of different type (such as call, meeting, lunch or a '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Activities are appointments/tasks/events on a calendar that can be associated with a deal, a lead, a person and an organization. Activities can be of different type (such as call, meeting, lunch or a '
   name: Pipedrive Activities API
   slug: pipedrive-activities-api
-- description: Activity fields represent different fields that an activity has.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Activity fields represent different fields that an activity has.
   name: Pipedrive ActivityFields API
   slug: pipedrive-activityfields-api
-- description: Activity types represent different kinds of activities that can be stored. Each activity type is presented to the user with an icon and a name. Additionally, a color can be defined (not implemented in
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Activity types represent different kinds of activities that can be stored. Each activity type is presented to the user with an icon and a name. Additionally, a color can be defined (not implemented in
   name: Pipedrive ActivityTypes API
   slug: pipedrive-activitytypes-api
-- description: Beta endpoints are endpoints that may have changes without a regular 60-90 day notice period.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Beta endpoints are endpoints that may have changes without a regular 60-90 day notice period.
   name: Pipedrive Beta API
   slug: pipedrive-beta-api
-- description: Billing is responsible for handling your subscriptions, payments, plans and add-ons.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Billing is responsible for handling your subscriptions, payments, plans and add-ons.
   name: Pipedrive Billing API
   slug: pipedrive-billing-api
-- description: Call logs describe the outcome of a phone call managed by an integrated provider. Since these logs are also considered activities, they can be associated with a deal or a lead, a person and/or an orga
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Call logs describe the outcome of a phone call managed by an integrated provider. Since these logs are also considered activities, they can be associated with a deal or a lead, a person and/or an orga
   name: Pipedrive CallLogs API
   slug: pipedrive-calllogs-api
-- description: Channels API allows you to integrate your existing messaging channels into Pipedrive through [Messaging app extension](https://pipedrive.readme.io/docs/messaging-app-extension). It enables you to mana
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Channels API allows you to integrate your existing messaging channels into Pipedrive through [Messaging app extension](https://pipedrive.readme.io/docs/messaging-app-extension). It enables you to mana
   name: Pipedrive Channels API
   slug: pipedrive-channels-api
-- description: Supported currencies which can be used to represent the monetary value of a deal, or a value of any monetary type custom field. The `Currency.code` field must be used to point to a currency. `Currency
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Supported currencies which can be used to represent the monetary value of a deal, or a value of any monetary type custom field. The `Currency.code` field must be used to point to a currency. `Currency
   name: Pipedrive Currencies API
   slug: pipedrive-currencies-api
-- description: Deal fields represent the near-complete schema for a deal in the context of the company of the authorized user. Each company can have a different schema for their deals, with various custom fields. In
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Deal fields represent the near-complete schema for a deal in the context of the company of the authorized user. Each company can have a different schema for their deals, with various custom fields. In
   name: Pipedrive DealFields API
   slug: pipedrive-dealfields-api
-- description: Deal installments are scheduled payment entries attached to a deal, enabling split payment arrangements.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Deal installments are scheduled payment entries attached to a deal, enabling split payment arrangements.
   name: Pipedrive DealInstallments API
   slug: pipedrive-dealinstallments-api
-- description: Deal products are goods or services attached to a deal. Each deal product links a product to a deal with configurable quantity, pricing, and discounts, and contributes to the total value of the deal.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Deal products are goods or services attached to a deal. Each deal product links a product to a deal with configurable quantity, pricing, and discounts, and contributes to the total value of the deal.
   name: Pipedrive DealProducts API
   slug: pipedrive-dealproducts-api
-- description: Deals represent ongoing, lost or won sales to an organization or to a person. Each deal has a monetary value and must be placed in a stage. Deals can be owned by a user, and followed by one or many us
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Deals represent ongoing, lost or won sales to an organization or to a person. Each deal has a monetary value and must be placed in a stage. Deals can be owned by a user, and followed by one or many us
   name: Pipedrive Deals API
   slug: pipedrive-deals-api
-- description: Files are documents of any kind (images, spreadsheets, text files, etc.) that are uploaded to Pipedrive, and usually associated with a particular deal, person, organization, product, note or activity.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Files are documents of any kind (images, spreadsheets, text files, etc.) that are uploaded to Pipedrive, and usually associated with a particular deal, person, organization, product, note or activity.
   name: Pipedrive Files API
   slug: pipedrive-files-api
-- description: Each filter is essentially a set of data validation conditions. A filter of the same kind can be applied when fetching a list of deals, leads, persons, organizations or products in the context of a pi
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Each filter is essentially a set of data validation conditions. A filter of the same kind can be applied when fetching a list of deals, leads, persons, organizations or products in the context of a pi
   name: Pipedrive Filters API
   slug: pipedrive-filters-api
-- description: Goals help your team meet your sales targets. There are three types of goals - company, team and user.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Goals help your team meet your sales targets. There are three types of goals - company, team and user.
   name: Pipedrive Goals API
   slug: pipedrive-goals-api
-- description: Ordered reference objects, pointing to either deals, persons, organizations, leads, products, files or mail attachments.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Ordered reference objects, pointing to either deals, persons, organizations, leads, products, files or mail attachments.
   name: Pipedrive ItemSearch API
   slug: pipedrive-itemsearch-api
-- description: Lead fields represent the near-complete schema for a lead in the context of the company of the authorized user. Each company can have a different schema for their leads, with various custom fields. In
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Lead fields represent the near-complete schema for a lead in the context of the company of the authorized user. Each company can have a different schema for their leads, with various custom fields. In
   name: Pipedrive LeadFields API
   slug: pipedrive-leadfields-api
-- description: 'Lead labels allow you to visually categorize your leads. There are three default lead labels: hot, cold, and warm, but you can add as many new custom labels as you want.'
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Lead labels allow you to visually categorize your leads. There are three default lead labels: hot, cold, and warm, but you can add as many new custom labels as you want.'
   name: Pipedrive LeadLabels API
   slug: pipedrive-leadlabels-api
-- description: 'Leads are potential deals stored in Leads Inbox before they are archived or converted to a deal. Each lead needs to be named (using the `title` field) and be linked to a person or an organization. In '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Leads are potential deals stored in Leads Inbox before they are archived or converted to a deal. Each lead needs to be named (using the `title` field) and be linked to a person or an organization. In '
   name: Pipedrive Leads API
   slug: pipedrive-leads-api
-- description: 'A lead source indicates where your lead came from. Currently, these are the possible lead sources: `Manually created`, `Deal`, `Web forms`, `Prospector`, `Leadbooster`, `Live chat`, `Import`, `Website'
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'A lead source indicates where your lead came from. Currently, these are the possible lead sources: `Manually created`, `Deal`, `Web forms`, `Prospector`, `Leadbooster`, `Live chat`, `Import`, `Website'
   name: Pipedrive LeadSources API
   slug: pipedrive-leadsources-api
-- description: Legacy teams allow you to form groups of users withing the organization for more efficient management. Previously Legacy Teams were called Teams and occupied the `v1/teams*` path. They're being deprec
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Legacy teams allow you to form groups of users withing the organization for more efficient management. Previously Legacy Teams were called Teams and occupied the `v1/teams*` path. They're being deprec
   name: Pipedrive LegacyTeams API
   slug: pipedrive-legacyteams-api
-- description: Mailbox was designed to be the email control hub inside Pipedrive. Pipedrive supports all major providers (including Gmail, Outlook and also custom IMAP/SMTP). There are 2 options for syncing user ema
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Mailbox was designed to be the email control hub inside Pipedrive. Pipedrive supports all major providers (including Gmail, Outlook and also custom IMAP/SMTP). There are 2 options for syncing user ema
   name: Pipedrive Mailbox API
   slug: pipedrive-mailbox-api
-- description: Meetings API allows integrating video calling apps into Pipedrive through [Video Calling App extension](https://pipedrive.readme.io/docs/video-calling-app-extension). It enables you to manage and inte
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Meetings API allows integrating video calling apps into Pipedrive through [Video Calling App extension](https://pipedrive.readme.io/docs/video-calling-app-extension). It enables you to manage and inte
   name: Pipedrive Meetings API
   slug: pipedrive-meetings-api
-- description: Note fields represent different fields that a note has.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Note fields represent different fields that a note has.
   name: Pipedrive NoteFields API
   slug: pipedrive-notefields-api
-- description: 'Notes are pieces of textual (HTML-formatted) information that can be attached to deals, persons and organizations. Notes are usually displayed in the UI in chronological order – newest first – and in '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Notes are pieces of textual (HTML-formatted) information that can be attached to deals, persons and organizations. Notes are usually displayed in the UI in chronological order – newest first – and in '
   name: Pipedrive Notes API
   slug: pipedrive-notes-api
-- description: Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To re
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Using OAuth 2.0 is necessary for developing apps that are available in the Pipedrive Marketplace. Authorization via OAuth 2.0 is a well-known and stable way to get fine-grained access to an API. To re
   name: Pipedrive Oauth API
   slug: pipedrive-oauth-api
-- description: 'Organization fields represent the near-complete schema for an organization in the context of the company of the authorized user. Each company can have a different schema for their organizations, with '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Organization fields represent the near-complete schema for an organization in the context of the company of the authorized user. Each company can have a different schema for their organizations, with '
   name: Pipedrive OrganizationFields API
   slug: pipedrive-organizationfields-api
-- description: Organization relationships represent how different organizations are related to each other. The relationship can be hierarchical (parent-child companies) or lateral as defined by the `type` field - ei
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Organization relationships represent how different organizations are related to each other. The relationship can be hierarchical (parent-child companies) or lateral as defined by the `type` field - ei
   name: Pipedrive OrganizationRelationships API
   slug: pipedrive-organizationrelationships-api
-- description: Organizations are companies and other kinds of organizations you are making deals with. Persons can be associated with organizations so that each organization can contain one or more persons.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Organizations are companies and other kinds of organizations you are making deals with. Persons can be associated with organizations so that each organization can contain one or more persons.
   name: Pipedrive Organizations API
   slug: pipedrive-organizations-api
-- description: 'Permission sets define what users in the account can do: which actions they are allowed to perform and which features they can access. Permission sets are app-specific, where apps are large parts of f'
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Permission sets define what users in the account can do: which actions they are allowed to perform and which features they can access. Permission sets are app-specific, where apps are large parts of f'
   name: Pipedrive PermissionSets API
   slug: pipedrive-permissionsets-api
-- description: Person fields represent the near-complete schema for a person in the context of the company of the authorized user. Each company can have a different schema for their persons, with various custom fiel
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Person fields represent the near-complete schema for a person in the context of the company of the authorized user. Each company can have a different schema for their persons, with various custom fiel
   name: Pipedrive PersonFields API
   slug: pipedrive-personfields-api
-- description: Persons are your contacts, the customers you are doing deals with. Each person can belong to an organization. Persons should not be confused with users.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Persons are your contacts, the customers you are doing deals with. Each person can belong to an organization. Persons should not be confused with users.
   name: Pipedrive Persons API
   slug: pipedrive-persons-api
-- description: Pipelines are essentially ordered collections of stages.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Pipelines are essentially ordered collections of stages.
   name: Pipedrive Pipelines API
   slug: pipedrive-pipelines-api
-- description: Product fields represent the near-complete schema for a product in the context of the company of the authorized user. Each company can have a different schema for their products, with various custom f
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Product fields represent the near-complete schema for a product in the context of the company of the authorized user. Each company can have a different schema for their products, with various custom f
   name: Pipedrive ProductFields API
   slug: pipedrive-productfields-api
-- description: Products are the goods or services you are dealing with. Each product can have N different price points - firstly, each product can have a price in N different currencies, and secondly, each product c
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Products are the goods or services you are dealing with. Each product can have N different price points - firstly, each product can have a price in N different currencies, and secondly, each product c
   name: Pipedrive Products API
   slug: pipedrive-products-api
-- description: Project boards are used to organize projects into different phases. Each board contains phases that define the workflow for projects.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Project boards are used to organize projects into different phases. Each board contains phases that define the workflow for projects.
   name: Pipedrive ProjectBoards API
   slug: pipedrive-projectboards-api
-- description: Project fields represent the schema for a project in the context of the company of the authorized user. Each company can have a different schema for their projects, with various custom fields.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Project fields represent the schema for a project in the context of the company of the authorized user. Each company can have a different schema for their projects, with various custom fields.
   name: Pipedrive ProjectFields API
   slug: pipedrive-projectfields-api
-- description: Project phases represent the stages within a project board. Each phase belongs to a board and defines a step in the project workflow.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Project phases represent the stages within a project board. Each phase belongs to a board and defines a step in the project workflow.
   name: Pipedrive ProjectPhases API
   slug: pipedrive-projectphases-api
-- description: Projects represent ongoing, completed or canceled projects attached to an organization, person or to deals. Each project has an owner and must be placed in a phase. Each project consists of standard d
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Projects represent ongoing, completed or canceled projects attached to an organization, person or to deals. Each project has an owner and must be placed in a phase. Each project consists of standard d
   name: Pipedrive Projects API
   slug: pipedrive-projects-api
-- description: Project templates allow you to have reusable and dynamic structure to simplify creation of a project. Project template can contain information about activities, tasks and groups that will be used when
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Project templates allow you to have reusable and dynamic structure to simplify creation of a project. Project template can contain information about activities, tasks and groups that will be used when
   name: Pipedrive ProjectTemplates API
   slug: pipedrive-projecttemplates-api
-- description: Recent changes across all item types in Pipedrive (deals, persons, etc).
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Recent changes across all item types in Pipedrive (deals, persons, etc).
   name: Pipedrive Recents API
   slug: pipedrive-recents-api
-- description: Roles are a part of the Visibility groups’ feature that allow the admin user to categorize other users and dictate what items they will be allowed access to see.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Roles are a part of the Visibility groups’ feature that allow the admin user to categorize other users and dictate what items they will be allowed access to see.
   name: Pipedrive Roles API
   slug: pipedrive-roles-api
-- description: 'Stage is a logical component of a pipeline, and essentially a bucket that can hold a number of deals. In the context of the pipeline a stage belongs to, it has an order number which defines the order '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Stage is a logical component of a pipeline, and essentially a bucket that can hold a number of deals. In the context of the pipeline a stage belongs to, it has an order number which defines the order '
   name: Pipedrive Stages API
   slug: pipedrive-stages-api
-- description: Tasks represent actions that need to be completed and must be associated with a project. Tasks have an optional due date, can be assigned to a user and can have subtasks.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Tasks represent actions that need to be completed and must be associated with a project. Tasks have an optional due date, can be assigned to a user and can have subtasks.
   name: Pipedrive Tasks API
   slug: pipedrive-tasks-api
-- description: Manage user connections.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: Manage user connections.
   name: Pipedrive UserConnections API
   slug: pipedrive-userconnections-api
-- description: 'Users are people with access to your Pipedrive account. A user may belong to one or many Pipedrive accounts, so deleting a user from one Pipedrive account will not remove the user from the data store '
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: 'Users are people with access to your Pipedrive account. A user may belong to one or many Pipedrive accounts, so deleting a user from one Pipedrive account will not remove the user from the data store '
   name: Pipedrive Users API
   slug: pipedrive-users-api
-- description: View user settings.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: View user settings.
   name: Pipedrive UserSettings API
   slug: pipedrive-usersettings-api
-- description: See <a href="https://pipedrive.readme.io/docs/guide-for-webhooks-v2?ref=api_reference" target="_blank" rel="noopener noreferrer">the guide for Webhooks</a> for more information.
+- baseURL: https://api.pipedrive.com/v1
+  baseurl_source: spec
+  description: See <a href="https://pipedrive.readme.io/docs/guide-for-webhooks-v2?ref=api_reference" target="_blank" rel="noopener noreferrer">the guide for Webhooks</a> for more information.
   name: Pipedrive Webhooks API
   slug: pipedrive-webhooks-api
 artifact_total: 167
@@ -660,7 +756,7 @@ score:
     catalog_gap: 78.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -670,7 +766,7 @@ score:
     discoverability: 51.9
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -679,7 +775,7 @@ score:
       marker_coverage: 0.0
       total: 48
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:

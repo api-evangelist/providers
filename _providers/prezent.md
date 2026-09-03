@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 48 operations · 34 acting
 api_count: 1
 apis:
-- description: List and search the audience profiles configured for the caller's company.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: List and search the audience profiles configured for the caller's company.
   name: Prezent Audiences API
   slug: prezent-audiences-api
-- description: Long-running and synchronous endpoints that generate and manipulate AI-authored presentations from prompts, files, and assets.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Long-running and synchronous endpoints that generate and manipulate AI-authored presentations from prompts, files, and assets.
   name: Prezent AutoGenerator API
   slug: prezent-autogenerator-api
-- description: Mint short-lived access tokens for the caller's stored files.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Mint short-lived access tokens for the caller's stored files.
   name: Prezent File Access API
   slug: prezent-file-access-api
-- description: Liveness and component health-check endpoints.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Liveness and component health-check endpoints.
   name: Prezent Health API
   slug: prezent-health-api
-- description: Open a Server-Sent Events stream to receive real-time progress events as Prezent generates a presentation. See the [Streaming guide](/docs/streaming) for a full walk-through plus reconnect semantics.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Open a Server-Sent Events stream to receive real-time progress events as Prezent generates a presentation. See the [Streaming guide](/docs/streaming) for a full walk-through plus reconnect semantics.
   name: Prezent Streaming API
   slug: prezent-streaming-api
-- description: Apply a target brand template to an uploaded presentation, including review suggestions, work-area adjustment, layout change, and download.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Apply a target brand template to an uploaded presentation, including review suggestions, work-area adjustment, layout change, and download.
   name: Prezent Template Converter API
   slug: prezent-template-converter-api
-- description: List the presentation themes (brand templates) configured for the caller's company.
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: List the presentation themes (brand templates) configured for the caller's company.
   name: Prezent Themes API
   slug: prezent-themes-api
-- description: Validate, preprocess, and upload supporting files (PowerPoint, PDF, images, etc.).
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Validate, preprocess, and upload supporting files (PowerPoint, PDF, images, etc.).
   name: Prezent Upload API
   slug: prezent-upload-api
-- description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
+- baseURL: https://api.prezent.ai
+  baseurl_source: declared
+  description: Receive signed HTTPS callbacks when Prezent jobs complete or fail. Subscriptions are scoped per API key, retried over a 21h window, and auto-disabled after 50 consecutive failures. See the [Webhooks g
   name: Prezent Webhooks API
   slug: prezent-webhooks-api
 artifact_total: 35
@@ -306,7 +324,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -316,7 +334,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 61.0
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,7 +358,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/screenshots/prezent-2026-08-17T081335.png
 security:

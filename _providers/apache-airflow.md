@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -48,58 +48,94 @@ apis:
 - description: The experimental API that preceded the stable REST API. This is deprecated and should not be used for new implementations.
   name: Apache Airflow Experimental API (Deprecated)
   slug: apache-airflow-experimental-api
-- description: The Config API from Apache Airflow — 1 operation(s) for config.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Config API from Apache Airflow — 1 operation(s) for config.
   name: Apache Airflow Config API
   slug: apache-airflow-config-api
-- description: The Connection API from Apache Airflow — 3 operation(s) for connection.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Connection API from Apache Airflow — 3 operation(s) for connection.
   name: Apache Airflow Connection API
   slug: apache-airflow-connection-api
-- description: The DAG API from Apache Airflow — 8 operation(s) for dag.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The DAG API from Apache Airflow — 8 operation(s) for dag.
   name: Apache Airflow DAG API
   slug: apache-airflow-dag-api
-- description: The DAGRun API from Apache Airflow — 6 operation(s) for dagrun.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The DAGRun API from Apache Airflow — 6 operation(s) for dagrun.
   name: Apache Airflow DAGRun API
   slug: apache-airflow-dagrun-api
-- description: The DagWarning API from Apache Airflow — 1 operation(s) for dagwarning.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The DagWarning API from Apache Airflow — 1 operation(s) for dagwarning.
   name: Apache Airflow DagWarning API
   slug: apache-airflow-dagwarning-api
-- description: The Dataset API from Apache Airflow — 4 operation(s) for dataset.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Dataset API from Apache Airflow — 4 operation(s) for dataset.
   name: Apache Airflow Dataset API
   slug: apache-airflow-dataset-api
-- description: The EventLog API from Apache Airflow — 2 operation(s) for eventlog.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The EventLog API from Apache Airflow — 2 operation(s) for eventlog.
   name: Apache Airflow EventLog API
   slug: apache-airflow-eventlog-api
-- description: The ImportError API from Apache Airflow — 2 operation(s) for importerror.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The ImportError API from Apache Airflow — 2 operation(s) for importerror.
   name: Apache Airflow ImportError API
   slug: apache-airflow-importerror-api
-- description: The Monitoring API from Apache Airflow — 2 operation(s) for monitoring.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Monitoring API from Apache Airflow — 2 operation(s) for monitoring.
   name: Apache Airflow Monitoring API
   slug: apache-airflow-monitoring-api
-- description: The Permission API from Apache Airflow — 1 operation(s) for permission.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Permission API from Apache Airflow — 1 operation(s) for permission.
   name: Apache Airflow Permission API
   slug: apache-airflow-permission-api
-- description: The Plugin API from Apache Airflow — 1 operation(s) for plugin.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Plugin API from Apache Airflow — 1 operation(s) for plugin.
   name: Apache Airflow Plugin API
   slug: apache-airflow-plugin-api
-- description: The Pool API from Apache Airflow — 2 operation(s) for pool.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Pool API from Apache Airflow — 2 operation(s) for pool.
   name: Apache Airflow Pool API
   slug: apache-airflow-pool-api
-- description: The Provider API from Apache Airflow — 1 operation(s) for provider.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Provider API from Apache Airflow — 1 operation(s) for provider.
   name: Apache Airflow Provider API
   slug: apache-airflow-provider-api
-- description: The Role API from Apache Airflow — 2 operation(s) for role.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Role API from Apache Airflow — 2 operation(s) for role.
   name: Apache Airflow Role API
   slug: apache-airflow-role-api
-- description: The TaskInstance API from Apache Airflow — 9 operation(s) for taskinstance.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The TaskInstance API from Apache Airflow — 9 operation(s) for taskinstance.
   name: Apache Airflow TaskInstance API
   slug: apache-airflow-taskinstance-api
-- description: The User API from Apache Airflow — 2 operation(s) for user.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The User API from Apache Airflow — 2 operation(s) for user.
   name: Apache Airflow User API
   slug: apache-airflow-user-api
-- description: The Variable API from Apache Airflow — 2 operation(s) for variable.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The Variable API from Apache Airflow — 2 operation(s) for variable.
   name: Apache Airflow Variable API
   slug: apache-airflow-variable-api
-- description: The XCom API from Apache Airflow — 2 operation(s) for xcom.
+- baseURL: http://localhost:8080/api/v1
+  baseurl_source: declared
+  description: The XCom API from Apache Airflow — 2 operation(s) for xcom.
   name: Apache Airflow XCom API
   slug: apache-airflow-xcom-api
 arazzos:
@@ -1182,7 +1218,7 @@ score:
       total: 18
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/screenshots/apache-airflow-2026-06-20T172038.png
 security:

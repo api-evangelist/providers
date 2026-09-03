@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,139 +34,225 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public gRPC control and acquisition interface for the HYPERLABS TDR11100 Time Domain Reflectometer. The proto3 service radium.v1.Radium exposes 22 unary RPCs covering readiness and board state, reset,
   name: HYPERLABS Radium gRPC API (TDR11100)
   slug: hyperlabs-radium-grpc-api-tdr11100
-- description: The Account API from HYPERLABS — 10 operation(s) for account.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Account API from HYPERLABS — 10 operation(s) for account.
   name: HYPERLABS Account API
   slug: hyperlabs-account-api
-- description: The AdminAccount API from HYPERLABS — 5 operation(s) for adminaccount.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminAccount API from HYPERLABS — 5 operation(s) for adminaccount.
   name: HYPERLABS Admin Account API
   slug: hyperlabs-adminaccount-api
-- description: The AdminDatasheets API from HYPERLABS — 2 operation(s) for admindatasheets.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminDatasheets API from HYPERLABS — 2 operation(s) for admindatasheets.
   name: HYPERLABS Admin Datasheets API
   slug: hyperlabs-admindatasheets-api
-- description: The AdminSoftware API from HYPERLABS — 3 operation(s) for adminsoftware.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminSoftware API from HYPERLABS — 3 operation(s) for adminsoftware.
   name: HYPERLABS Admin Software API
   slug: hyperlabs-adminsoftware-api
-- description: The AdminWebsiteBanner API from HYPERLABS — 1 operation(s) for adminwebsitebanner.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteBanner API from HYPERLABS — 1 operation(s) for adminwebsitebanner.
   name: HYPERLABS Admin Website Banner API
   slug: hyperlabs-adminwebsitebanner-api
-- description: The AdminWebsiteContact API from HYPERLABS — 1 operation(s) for adminwebsitecontact.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteContact API from HYPERLABS — 1 operation(s) for adminwebsitecontact.
   name: HYPERLABS Admin Website Contact API
   slug: hyperlabs-adminwebsitecontact-api
-- description: The AdminWebsiteEvents API from HYPERLABS — 2 operation(s) for adminwebsiteevents.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteEvents API from HYPERLABS — 2 operation(s) for adminwebsiteevents.
   name: HYPERLABS Admin Website Events API
   slug: hyperlabs-adminwebsiteevents-api
-- description: The AdminWebsiteFaq API from HYPERLABS — 3 operation(s) for adminwebsitefaq.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteFaq API from HYPERLABS — 3 operation(s) for adminwebsitefaq.
   name: HYPERLABS Admin Website Faq API
   slug: hyperlabs-adminwebsitefaq-api
-- description: The AdminWebsiteFeaturedProducts API from HYPERLABS — 3 operation(s) for adminwebsitefeaturedproducts.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteFeaturedProducts API from HYPERLABS — 3 operation(s) for adminwebsitefeaturedproducts.
   name: HYPERLABS Admin Website Featured Products API
   slug: hyperlabs-adminwebsitefeaturedproducts-api
-- description: The AdminWebsiteRepresentatives API from HYPERLABS — 3 operation(s) for adminwebsiterepresentatives.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteRepresentatives API from HYPERLABS — 3 operation(s) for adminwebsiterepresentatives.
   name: HYPERLABS Admin Website Representatives API
   slug: hyperlabs-adminwebsiterepresentatives-api
-- description: The AdminWebsiteSalesAndWarranty API from HYPERLABS — 1 operation(s) for adminwebsitesalesandwarranty.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteSalesAndWarranty API from HYPERLABS — 1 operation(s) for adminwebsitesalesandwarranty.
   name: HYPERLABS Admin Website Sales And Warranty API
   slug: hyperlabs-adminwebsitesalesandwarranty-api
-- description: The AdminWebsiteTeam API from HYPERLABS — 3 operation(s) for adminwebsiteteam.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteTeam API from HYPERLABS — 3 operation(s) for adminwebsiteteam.
   name: HYPERLABS Admin Website Team API
   slug: hyperlabs-adminwebsiteteam-api
-- description: The AdminWebsiteTimelineItems API from HYPERLABS — 2 operation(s) for adminwebsitetimelineitems.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteTimelineItems API from HYPERLABS — 2 operation(s) for adminwebsitetimelineitems.
   name: HYPERLABS Admin Website Timeline Items API
   slug: hyperlabs-adminwebsitetimelineitems-api
-- description: The AdminWebsiteTopSlides API from HYPERLABS — 3 operation(s) for adminwebsitetopslides.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The AdminWebsiteTopSlides API from HYPERLABS — 3 operation(s) for adminwebsitetopslides.
   name: HYPERLABS Admin Website Top Slides API
   slug: hyperlabs-adminwebsitetopslides-api
-- description: The ApplicationNotes API from HYPERLABS — 6 operation(s) for applicationnotes.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The ApplicationNotes API from HYPERLABS — 6 operation(s) for applicationnotes.
   name: HYPERLABS Application Notes API
   slug: hyperlabs-applicationnotes-api
-- description: The Categories API from HYPERLABS — 5 operation(s) for categories.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Categories API from HYPERLABS — 5 operation(s) for categories.
   name: HYPERLABS Categories API
   slug: hyperlabs-categories-api
-- description: The ContactMessages API from HYPERLABS — 1 operation(s) for contactmessages.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The ContactMessages API from HYPERLABS — 1 operation(s) for contactmessages.
   name: HYPERLABS Contact Messages API
   slug: hyperlabs-contactmessages-api
-- description: The CustomerProfile API from HYPERLABS — 1 operation(s) for customerprofile.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The CustomerProfile API from HYPERLABS — 1 operation(s) for customerprofile.
   name: HYPERLABS Customer Profile API
   slug: hyperlabs-customerprofile-api
-- description: The CustomerWishlists API from HYPERLABS — 5 operation(s) for customerwishlists.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The CustomerWishlists API from HYPERLABS — 5 operation(s) for customerwishlists.
   name: HYPERLABS Customer Wishlists API
   slug: hyperlabs-customerwishlists-api
-- description: The MediaFiles API from HYPERLABS — 7 operation(s) for mediafiles.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The MediaFiles API from HYPERLABS — 7 operation(s) for mediafiles.
   name: HYPERLABS Media Files API
   slug: hyperlabs-mediafiles-api
-- description: The ProductClasses API from HYPERLABS — 5 operation(s) for productclasses.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The ProductClasses API from HYPERLABS — 5 operation(s) for productclasses.
   name: HYPERLABS Product Classes API
   slug: hyperlabs-productclasses-api
-- description: The Products API from HYPERLABS — 14 operation(s) for products.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Products API from HYPERLABS — 14 operation(s) for products.
   name: HYPERLABS Products API
   slug: hyperlabs-products-api
-- description: The ProductUnits API from HYPERLABS — 3 operation(s) for productunits.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The ProductUnits API from HYPERLABS — 3 operation(s) for productunits.
   name: HYPERLABS Product Units API
   slug: hyperlabs-productunits-api
-- description: The RequestQuotes API from HYPERLABS — 1 operation(s) for requestquotes.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The RequestQuotes API from HYPERLABS — 1 operation(s) for requestquotes.
   name: HYPERLABS Request Quotes API
   slug: hyperlabs-requestquotes-api
-- description: The Roles API from HYPERLABS — 1 operation(s) for roles.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Roles API from HYPERLABS — 1 operation(s) for roles.
   name: HYPERLABS Roles API
   slug: hyperlabs-roles-api
-- description: The Sitemap API from HYPERLABS — 1 operation(s) for sitemap.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Sitemap API from HYPERLABS — 1 operation(s) for sitemap.
   name: HYPERLABS Sitemap API
   slug: hyperlabs-sitemap-api
-- description: The Software API from HYPERLABS — 3 operation(s) for software.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Software API from HYPERLABS — 3 operation(s) for software.
   name: HYPERLABS Software API
   slug: hyperlabs-software-api
-- description: The SpecificationTypes API from HYPERLABS — 3 operation(s) for specificationtypes.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The SpecificationTypes API from HYPERLABS — 3 operation(s) for specificationtypes.
   name: HYPERLABS Specification Types API
   slug: hyperlabs-specificationtypes-api
-- description: The TagTypes API from HYPERLABS — 5 operation(s) for tagtypes.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The TagTypes API from HYPERLABS — 5 operation(s) for tagtypes.
   name: HYPERLABS Tag Types API
   slug: hyperlabs-tagtypes-api
-- description: The Tech API from HYPERLABS — 1 operation(s) for tech.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Tech API from HYPERLABS — 1 operation(s) for tech.
   name: HYPERLABS Tech API
   slug: hyperlabs-tech-api
-- description: The Users API from HYPERLABS — 5 operation(s) for users.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Users API from HYPERLABS — 5 operation(s) for users.
   name: HYPERLABS Users API
   slug: hyperlabs-users-api
-- description: The VariableTypes API from HYPERLABS — 2 operation(s) for variabletypes.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The VariableTypes API from HYPERLABS — 2 operation(s) for variabletypes.
   name: HYPERLABS Variable Types API
   slug: hyperlabs-variabletypes-api
-- description: The WebsiteBanner API from HYPERLABS — 1 operation(s) for websitebanner.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteBanner API from HYPERLABS — 1 operation(s) for websitebanner.
   name: HYPERLABS Website Banner API
   slug: hyperlabs-websitebanner-api
-- description: The WebsiteContact API from HYPERLABS — 1 operation(s) for websitecontact.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteContact API from HYPERLABS — 1 operation(s) for websitecontact.
   name: HYPERLABS Website Contact API
   slug: hyperlabs-websitecontact-api
-- description: The WebsiteEvents API from HYPERLABS — 1 operation(s) for websiteevents.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteEvents API from HYPERLABS — 1 operation(s) for websiteevents.
   name: HYPERLABS Website Events API
   slug: hyperlabs-websiteevents-api
-- description: The WebsiteFaq API from HYPERLABS — 1 operation(s) for websitefaq.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteFaq API from HYPERLABS — 1 operation(s) for websitefaq.
   name: HYPERLABS Website Faq API
   slug: hyperlabs-websitefaq-api
-- description: The WebsiteFeaturedProducts API from HYPERLABS — 1 operation(s) for websitefeaturedproducts.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteFeaturedProducts API from HYPERLABS — 1 operation(s) for websitefeaturedproducts.
   name: HYPERLABS Website Featured Products API
   slug: hyperlabs-websitefeaturedproducts-api
-- description: The WebsiteRepresentatives API from HYPERLABS — 2 operation(s) for websiterepresentatives.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteRepresentatives API from HYPERLABS — 2 operation(s) for websiterepresentatives.
   name: HYPERLABS Website Representatives API
   slug: hyperlabs-websiterepresentatives-api
-- description: The WebsiteSalesAndWarranty API from HYPERLABS — 1 operation(s) for websitesalesandwarranty.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteSalesAndWarranty API from HYPERLABS — 1 operation(s) for websitesalesandwarranty.
   name: HYPERLABS Website Sales And Warranty API
   slug: hyperlabs-websitesalesandwarranty-api
-- description: The WebsiteTeam API from HYPERLABS — 1 operation(s) for websiteteam.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteTeam API from HYPERLABS — 1 operation(s) for websiteteam.
   name: HYPERLABS Website Team API
   slug: hyperlabs-websiteteam-api
-- description: The WebsiteTimeline API from HYPERLABS — 1 operation(s) for websitetimeline.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteTimeline API from HYPERLABS — 1 operation(s) for websitetimeline.
   name: HYPERLABS Website Timeline API
   slug: hyperlabs-websitetimeline-api
-- description: The WebsiteTopSlides API from HYPERLABS — 1 operation(s) for websitetopslides.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The WebsiteTopSlides API from HYPERLABS — 1 operation(s) for websitetopslides.
   name: HYPERLABS Website Top Slides API
   slug: hyperlabs-websitetopslides-api
-- description: The Wishlists API from HYPERLABS — 2 operation(s) for wishlists.
+- baseURL: https://www.hyperlabs.com/api
+  baseurl_source: declared
+  description: The Wishlists API from HYPERLABS — 2 operation(s) for wishlists.
   name: HYPERLABS Wishlists API
   slug: hyperlabs-wishlists-api
 artifact_total: 49
@@ -333,7 +430,7 @@ score:
     catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -343,7 +440,7 @@ score:
     discoverability: 61.1
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 28.7
+  previous_composite: 28.5
   provenance:
     conformance: derived
     contracts:
@@ -354,7 +451,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperlabs/refs/heads/main/screenshots/hyperlabs-2026-08-07T170547.png
 security:

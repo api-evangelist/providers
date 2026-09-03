@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: API for querying and analyzing data stored in Axiom datasets using APL (Axiom Processing Language).
   name: Axiom Query API
   slug: axiom-query-api
-- description: The Datasets API from Axiom Controller — 1 operation(s) for datasets.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: The Datasets API from Axiom Controller — 1 operation(s) for datasets.
   name: Axiom Controller Datasets API
   slug: axiom-controller-datasets-api
-- description: The Edge API from Axiom Controller — 3 operation(s) for edge.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: The Edge API from Axiom Controller — 3 operation(s) for edge.
   name: Axiom Controller Edge API
   slug: axiom-controller-edge-api
-- description: The Ingest API from Axiom Controller — 1 operation(s) for ingest.
+- baseURL: https://api.axiom.co/v1
+  baseurl_source: declared
+  description: The Ingest API from Axiom Controller — 1 operation(s) for ingest.
   name: Axiom Controller Ingest API
   slug: axiom-controller-ingest-api
 artifact_total: 39
@@ -211,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Obtain and refresh access tokens for Gateway API requests.
+- baseURL: https://api-gateway.carry1st.com
+  baseurl_source: declared
+  description: Obtain and refresh access tokens for Gateway API requests.
   name: Carry1st Authentication API
   slug: carry1st-authentication-api
-- description: Discover the local payment methods available per country.
+- baseURL: https://api-gateway.carry1st.com
+  baseurl_source: declared
+  description: Discover the local payment methods available per country.
   name: Carry1st Payment Methods API
   slug: carry1st-payment-methods-api
-- description: Create payment requests and query their status.
+- baseURL: https://api-gateway.carry1st.com
+  baseurl_source: declared
+  description: Create payment requests and query their status.
   name: Carry1st Payments API
   slug: carry1st-payments-api
-- description: Request refunds against processed transactions.
+- baseURL: https://api-gateway.carry1st.com
+  baseurl_source: declared
+  description: Request refunds against processed transactions.
   name: Carry1st Refunds API
   slug: carry1st-refunds-api
 arazzos:
@@ -225,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -235,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 27.6
-  previous_composite: 32.1
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,7 +261,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

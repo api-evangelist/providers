@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: The Jaeger Remote Sampling API provides HTTP and gRPC endpoints that SDKs use to retrieve sampling strategies for distributed trace collection. It is implemented by the jaeger-collector and defined in
   name: Jaeger Remote Sampling API
   slug: jaeger-remote-sampling-api
-- description: Endpoints for retrieving service dependency graphs.
+- baseURL: http://localhost:16686
+  baseurl_source: spec
+  description: Endpoints for retrieving service dependency graphs.
   name: Jaeger Dependencies API
   slug: jaeger-dependencies-api
-- description: Endpoints for retrieving service performance metrics including latency, call rates, and error rates.
+- baseURL: http://localhost:16686
+  baseurl_source: spec
+  description: Endpoints for retrieving service performance metrics including latency, call rates, and error rates.
   name: Jaeger Metrics API
   slug: jaeger-metrics-api
-- description: Endpoints for listing services and their operations.
+- baseURL: http://localhost:16686
+  baseurl_source: spec
+  description: Endpoints for listing services and their operations.
   name: Jaeger Services API
   slug: jaeger-services-api
-- description: Endpoints for searching and retrieving distributed traces.
+- baseURL: http://localhost:16686
+  baseurl_source: spec
+  description: Endpoints for searching and retrieving distributed traces.
   name: Jaeger Traces API
   slug: jaeger-traces-api
 artifact_total: 19
@@ -230,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/screenshots/jaeger-2026-06-20T183651.png
 security:

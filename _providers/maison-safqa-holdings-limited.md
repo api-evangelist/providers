@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: Update inventory quantities for product variants. Changes are stored locally and periodically synced to Shopify.
+- baseURL: https://api.maisonsafqa.com/v1
+  baseurl_source: declared
+  description: Update inventory quantities for product variants. Changes are stored locally and periodically synced to Shopify.
   name: Maison Safqa Holdings Limited Inventory API
   slug: maison-safqa-holdings-limited-inventory-api
-- description: Create, retrieve, and update products. Products are created in draft status and synced to Shopify when activated.
+- baseURL: https://api.maisonsafqa.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and update products. Products are created in draft status and synced to Shopify when activated.
   name: Maison Safqa Holdings Limited Products API
   slug: maison-safqa-holdings-limited-products-api
 artifact_total: 10
@@ -196,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

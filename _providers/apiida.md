@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 2
 apis:
-- description: Alarm configuration and management
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: Alarm configuration and management
   name: APIIDA Alarms API
   slug: apiida-alarms-api
-- description: The Apis API from APIIDA — 1 operation(s) for apis.
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: The Apis API from APIIDA — 1 operation(s) for apis.
   name: APIIDA Apis API
   slug: apiida-apis-api
-- description: Gateway deployment operations
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: Gateway deployment operations
   name: APIIDA Deployments API
   slug: apiida-deployments-api
-- description: Gateway registration and management operations
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: Gateway registration and management operations
   name: APIIDA Gateways API
   slug: apiida-gateways-api
-- description: Metrics and monitoring operations
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: Metrics and monitoring operations
   name: APIIDA Monitoring API
   slug: apiida-monitoring-api
-- description: API version management
+- baseURL: https://api.apiida.com
+  baseurl_source: declared
+  description: API version management
   name: APIIDA Versions API
   slug: apiida-versions-api
 artifact_total: 45
@@ -251,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/screenshots/apiida-2026-06-20T172240.png
 security:

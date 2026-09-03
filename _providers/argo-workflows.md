@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 73 operations · 39 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The ArchivedWorkflowService API from Argo Workflows — 6 operation(s) for archivedworkflowservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The ArchivedWorkflowService API from Argo Workflows — 6 operation(s) for archivedworkflowservice.
   name: Argo Workflows ArchivedWorkflowService API
   slug: argo-workflows-archivedworkflowservice-api
-- description: The ArtifactService API from Argo Workflows — 5 operation(s) for artifactservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The ArtifactService API from Argo Workflows — 5 operation(s) for artifactservice.
   name: Argo Workflows ArtifactService API
   slug: argo-workflows-artifactservice-api
-- description: The ClusterWorkflowTemplateService API from Argo Workflows — 3 operation(s) for clusterworkflowtemplateservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The ClusterWorkflowTemplateService API from Argo Workflows — 3 operation(s) for clusterworkflowtemplateservice.
   name: Argo Workflows ClusterWorkflowTemplateService API
   slug: argo-workflows-clusterworkflowtemplateservice-api
-- description: The CronWorkflowService API from Argo Workflows — 5 operation(s) for cronworkflowservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The CronWorkflowService API from Argo Workflows — 5 operation(s) for cronworkflowservice.
   name: Argo Workflows CronWorkflowService API
   slug: argo-workflows-cronworkflowservice-api
-- description: The EventService API from Argo Workflows — 2 operation(s) for eventservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The EventService API from Argo Workflows — 2 operation(s) for eventservice.
   name: Argo Workflows EventService API
   slug: argo-workflows-eventservice-api
-- description: The EventSourceService API from Argo Workflows — 4 operation(s) for eventsourceservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The EventSourceService API from Argo Workflows — 4 operation(s) for eventsourceservice.
   name: Argo Workflows EventSourceService API
   slug: argo-workflows-eventsourceservice-api
-- description: The InfoService API from Argo Workflows — 4 operation(s) for infoservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The InfoService API from Argo Workflows — 4 operation(s) for infoservice.
   name: Argo Workflows InfoService API
   slug: argo-workflows-infoservice-api
-- description: The SensorService API from Argo Workflows — 4 operation(s) for sensorservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The SensorService API from Argo Workflows — 4 operation(s) for sensorservice.
   name: Argo Workflows SensorService API
   slug: argo-workflows-sensorservice-api
-- description: The SyncService API from Argo Workflows — 2 operation(s) for syncservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The SyncService API from Argo Workflows — 2 operation(s) for syncservice.
   name: Argo Workflows SyncService API
   slug: argo-workflows-syncservice-api
-- description: The WorkflowService API from Argo Workflows — 15 operation(s) for workflowservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The WorkflowService API from Argo Workflows — 15 operation(s) for workflowservice.
   name: Argo Workflows WorkflowService API
   slug: argo-workflows-workflowservice-api
-- description: The WorkflowTemplateService API from Argo Workflows — 3 operation(s) for workflowtemplateservice.
+- baseURL: http://localhost:2746
+  baseurl_source: spec
+  description: The WorkflowTemplateService API from Argo Workflows — 3 operation(s) for workflowtemplateservice.
   name: Argo Workflows WorkflowTemplateService API
   slug: argo-workflows-workflowtemplateservice-api
 artifact_total: 1306
@@ -4078,7 +4100,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/screenshots/argo-workflows-2026-06-20T172418.png
 security:

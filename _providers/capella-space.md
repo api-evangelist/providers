@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: The Capella Orders API submits and tracks orders for SAR products, manages order lifecycle, and returns signed download URLs for completed imagery via endpoints such as GET /orders/{orderId}/download.
   name: Capella Space Orders API
   slug: capella-orders-api
-- description: The Collects API from Capella Space — 1 operation(s) for collects.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The Collects API from Capella Space — 1 operation(s) for collects.
   name: Capella Space Collects API
   slug: capella-space-collects-api
-- description: The Keys API from Capella Space — 1 operation(s) for keys.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The Keys API from Capella Space — 1 operation(s) for keys.
   name: Capella Space Keys API
   slug: capella-space-keys-api
-- description: The Orders API from Capella Space — 3 operation(s) for orders.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The Orders API from Capella Space — 3 operation(s) for orders.
   name: Capella Space Orders API
   slug: capella-space-orders-api
-- description: The RepeatRequests API from Capella Space — 4 operation(s) for repeatrequests.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The RepeatRequests API from Capella Space — 4 operation(s) for repeatrequests.
   name: Capella Space RepeatRequests API
   slug: capella-space-repeatrequests-api
-- description: The Tasking API from Capella Space — 4 operation(s) for tasking.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The Tasking API from Capella Space — 4 operation(s) for tasking.
   name: Capella Space Tasking API
   slug: capella-space-tasking-api
-- description: The Tiles API from Capella Space — 1 operation(s) for tiles.
+- baseURL: https://api.capellaspace.com
+  baseurl_source: declared
+  description: The Tiles API from Capella Space — 1 operation(s) for tiles.
   name: Capella Space Tiles API
   slug: capella-space-tiles-api
 artifact_total: 38
@@ -272,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/screenshots/capella-space-2026-06-20T173938.png
 security:

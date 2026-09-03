@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 96 operations · 33 acting
 api_count: 1
 apis:
-- description: 'The Accounts: General API from lemon.markets — 6 operation(s) for accounts: general.'
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: 'The Accounts: General API from lemon.markets — 6 operation(s) for accounts: general.'
   name: 'lemon.markets Accounts: General API'
   slug: lemonmarkets-accounts-general-api
-- description: 'The Accounts: ID+V API from lemon.markets — 3 operation(s) for accounts: id+v.'
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: 'The Accounts: ID+V API from lemon.markets — 3 operation(s) for accounts: id+v.'
   name: 'lemon.markets Accounts: ID+V API'
   slug: lemonmarkets-accounts-id-v-api
-- description: The Batch Orders API from lemon.markets — 4 operation(s) for batch orders.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Batch Orders API from lemon.markets — 4 operation(s) for batch orders.
   name: lemon.markets Batch Orders API
   slug: lemonmarkets-batch-orders-api
-- description: The Businesses API from lemon.markets — 5 operation(s) for businesses.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Businesses API from lemon.markets — 5 operation(s) for businesses.
   name: lemon.markets Businesses API
   slug: lemonmarkets-businesses-api
-- description: The Cash Settlement API from lemon.markets — 5 operation(s) for cash settlement.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Cash Settlement API from lemon.markets — 5 operation(s) for cash settlement.
   name: lemon.markets Cash Settlement API
   slug: lemonmarkets-cash-settlement-api
-- description: The Corporate Actions API from lemon.markets — 6 operation(s) for corporate actions.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Corporate Actions API from lemon.markets — 6 operation(s) for corporate actions.
   name: lemon.markets Corporate Actions API
   slug: lemonmarkets-corporate-actions-api
-- description: The Documents API from lemon.markets — 4 operation(s) for documents.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Documents API from lemon.markets — 4 operation(s) for documents.
   name: lemon.markets Documents API
   slug: lemonmarkets-documents-api
-- description: The Events + Webhooks API from lemon.markets — 3 operation(s) for events + webhooks.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Events + Webhooks API from lemon.markets — 3 operation(s) for events + webhooks.
   name: lemon.markets Events + Webhooks API
   slug: lemonmarkets-events-webhooks-api
-- description: The Instruments API from lemon.markets — 4 operation(s) for instruments.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Instruments API from lemon.markets — 4 operation(s) for instruments.
   name: lemon.markets Instruments API
   slug: lemonmarkets-instruments-api
-- description: The Money + Positions API from lemon.markets — 9 operation(s) for money + positions.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Money + Positions API from lemon.markets — 9 operation(s) for money + positions.
   name: lemon.markets Money + Positions API
   slug: lemonmarkets-money-positions-api
-- description: The Orders API from lemon.markets — 4 operation(s) for orders.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Orders API from lemon.markets — 4 operation(s) for orders.
   name: lemon.markets Orders API
   slug: lemonmarkets-orders-api
-- description: The Persons API from lemon.markets — 4 operation(s) for persons.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Persons API from lemon.markets — 4 operation(s) for persons.
   name: lemon.markets Persons API
   slug: lemonmarkets-persons-api
-- description: The Securities Accounts API from lemon.markets — 2 operation(s) for securities accounts.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Securities Accounts API from lemon.markets — 2 operation(s) for securities accounts.
   name: lemon.markets Securities Accounts API
   slug: lemonmarkets-securities-accounts-api
-- description: The Taxes API from lemon.markets — 4 operation(s) for taxes.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Taxes API from lemon.markets — 4 operation(s) for taxes.
   name: lemon.markets Taxes API
   slug: lemonmarkets-taxes-api
-- description: The Trades API from lemon.markets — 2 operation(s) for trades.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Trades API from lemon.markets — 2 operation(s) for trades.
   name: lemon.markets Trades API
   slug: lemonmarkets-trades-api
-- description: The Treasury Mandates API from lemon.markets — 9 operation(s) for treasury mandates.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: The Treasury Mandates API from lemon.markets — 9 operation(s) for treasury mandates.
   name: lemon.markets Treasury Mandates API
   slug: lemonmarkets-treasury-mandates-api
-- description: Use workflows to perform repetitive tasks automatically.
+- baseURL: https://api.lemon.markets/v1
+  baseurl_source: declared
+  description: Use workflows to perform repetitive tasks automatically.
   name: lemon.markets Workflows API
   slug: lemonmarkets-workflows-api
 artifact_total: 40
@@ -319,7 +353,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -329,7 +363,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 22.4
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,7 +381,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonmarkets/refs/heads/main/screenshots/lemonmarkets-2026-07-25T224849.png
 security:

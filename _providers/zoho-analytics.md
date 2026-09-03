@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 161 operations · 103 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Asynchronous operations for exporting data in bulk.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Asynchronous operations for exporting data in bulk.
   name: Zoho Analytics Bulk Export - Asynchronous API
   slug: zoho-analytics-bulk-export-asynchronous-api
-- description: Synchronous operations for exporting data.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Synchronous operations for exporting data.
   name: Zoho Analytics Bulk Export - Synchronous API
   slug: zoho-analytics-bulk-export-synchronous-api
-- description: Asynchronous operations for importing data in bulk.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Asynchronous operations for importing data in bulk.
   name: Zoho Analytics Bulk Import - Asynchronous API
   slug: zoho-analytics-bulk-import-asynchronous-api
-- description: Operations for importing large data files in batches.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Operations for importing large data files in batches.
   name: Zoho Analytics Bulk Import - Batch API
   slug: zoho-analytics-bulk-import-batch-api
-- description: Synchronous operations for importing data.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Synchronous operations for importing data.
   name: Zoho Analytics Bulk Import - Synchronous API
   slug: zoho-analytics-bulk-import-synchronous-api
-- description: Data APIs are used to perform addition, update, deletion actions on Zoho Analytics tables.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Data APIs are used to perform addition, update, deletion actions on Zoho Analytics tables.
   name: Zoho Analytics Data APIs API
   slug: zoho-analytics-data-apis-api
-- description: Embed APIs let you dynamically integrate Zoho Analytics reports and dashboards into your websites and applications.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Embed APIs let you dynamically integrate Zoho Analytics reports and dashboards into your websites and applications.
   name: Zoho Analytics Embed APIs API
   slug: zoho-analytics-embed-apis-api
-- description: Metadata APIs are used to fetch information about the reporting Workspaces, tables, reports, and dashboards created in Zoho Analytics.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Metadata APIs are used to fetch information about the reporting Workspaces, tables, reports, and dashboards created in Zoho Analytics.
   name: Zoho Analytics Metadata APIs API
   slug: zoho-analytics-metadata-apis-api
-- description: Modeling APIs manage workspaces, views, columns, and folders, and support copying across or within Zoho Analytics accounts.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Modeling APIs manage workspaces, views, columns, and folders, and support copying across or within Zoho Analytics accounts.
   name: Zoho Analytics Modeling APIs API
   slug: zoho-analytics-modeling-apis-api
-- description: APIs for sharing views (reports and dashboards) with users, managing permissions, and removing sharing in Zoho Analytics.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: APIs for sharing views (reports and dashboards) with users, managing permissions, and removing sharing in Zoho Analytics.
   name: Zoho Analytics Sharing & Collaboration APIs API
   slug: zoho-analytics-sharing-collaboration-apis-api
-- description: Manage User APIs allow you to add, remove, activate, or deactivate users in your Zoho Analytics organization programmatically.
+- baseURL: https://analyticsapi.zoho.com/restapi/v2
+  baseurl_source: declared
+  description: Manage User APIs allow you to add, remove, activate, or deactivate users in your Zoho Analytics organization programmatically.
   name: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
 artifact_total: 36
@@ -267,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/screenshots/zoho-analytics-2026-06-20T201934.png
 security:

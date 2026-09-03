@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -104,10 +104,14 @@ apis:
 - description: 'Two authentication methods. OAuth2 (authorization code flow at /oauth/authorize and /oauth/token) is used to act on behalf of a user; Credentials/API Keys (x-api-key header) are used to act on behalf '
   name: Factorial Keys and OAuth API
   slug: factorial-keys-oauth-api
-- description: The Core::Employees::V2 API from Factorial — 2 operation(s) for core::employees::v2.
+- baseURL: https://api.factorialhr.com/api
+  baseurl_source: spec
+  description: The Core::Employees::V2 API from Factorial — 2 operation(s) for core::employees::v2.
   name: Factorial Core::Employees::V2 API
   slug: factorial-hr-core-employees-v2-api
-- description: The Core::Me API from Factorial — 1 operation(s) for core::me.
+- baseURL: https://api.factorialhr.com/api
+  baseurl_source: spec
+  description: The Core::Me API from Factorial — 1 operation(s) for core::me.
   name: Factorial Core::Me API
   slug: factorial-hr-core-me-api
 artifact_total: 57
@@ -419,7 +423,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -429,7 +433,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 30.3
-  previous_composite: 52.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -438,7 +442,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png
 security:

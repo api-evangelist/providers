@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 22 operations
 api_count: 9
 apis:
-- description: Public, unauthenticated read access to the Harbinger Motors newsroom — press releases, funding and partnership announcements, product launches and fleet-operations articles — via the WordPress core RE
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Harbinger Motors newsroom — press releases, funding and partnership announcements, product launches and fleet-operations articles — via the WordPress core RE
   name: Harbinger Motors Posts API
   slug: harbinger-posts-api
-- description: Public, unauthenticated read access to the static pages of harbingermotors.com — the electric and plug-in hybrid stripped chassis, HC Series cab chassis, Sevna cab, step van and Industria product page
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static pages of harbingermotors.com — the electric and plug-in hybrid stripped chassis, HC Series cab chassis, Sevna cab, step van and Industria product page
   name: Harbinger Motors Pages API
   slug: harbinger-pages-api
-- description: Public, unauthenticated read access to the Harbinger Motors event calendar — the site-specific `event` custom post type behind harbingermotors.com/events/, listing the trade shows and industry summits
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Harbinger Motors event calendar — the site-specific `event` custom post type behind harbingermotors.com/events/, listing the trade shows and industry summits
   name: Harbinger Motors Events API
   slug: harbinger-events-api
-- description: Public, unauthenticated read access to the Harbinger Motors media library — vehicle photography, chassis renderings, spec sheets and brochure PDFs, logos and newsroom imagery, each with its source URL
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Harbinger Motors media library — vehicle photography, chassis renderings, spec sheets and brochure PDFs, logos and newsroom imagery, each with its source URL
   name: Harbinger Motors Media API
   slug: harbinger-media-api
-- description: Public, unauthenticated read access to the classification layer behind the harbingermotors.com newsroom — the three live post categories (Press Release 25, News 7, Blogs 2), the post_tag vocabulary (r
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the classification layer behind the harbingermotors.com newsroom — the three live post categories (Press Release 25, News 7, Blogs 2), the post_tag vocabulary (r
   name: Harbinger Motors Taxonomy API
   slug: harbinger-taxonomy-api
-- description: Public, unauthenticated keyword search across every searchable content type on harbingermotors.com — posts, pages and events in one result set, each row reduced to id, title, url, type and subtype. Ve
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated keyword search across every searchable content type on harbingermotors.com — posts, pages and events in one result set, each row reduced to id, title, url, type and subtype. Ve
   name: Harbinger Motors Search API
   slug: harbinger-search-api
-- description: The self-describing layer of the harbingermotors.com WordPress REST API — the root index that enumerates all 362 routes across 14 namespaces with their argument schemas, plus the post-type and publica
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: The self-describing layer of the harbingermotors.com WordPress REST API — the root index that enumerates all 362 routes across 14 namespaces with their argument schemas, plus the post-type and publica
   name: Harbinger Motors Discovery API
   slug: harbinger-discovery-api
-- description: 'The oEmbed 1.0 provider endpoint for harbingermotors.com. Given the URL of any Harbinger Motors page, post or event it returns a rich-embed descriptor — provider name, author, title, thumbnail and an '
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: 'The oEmbed 1.0 provider endpoint for harbingermotors.com. Given the URL of any Harbinger Motors page, post or event it returns a rich-embed descriptor — provider name, author, title, thumbnail and an '
   name: Harbinger Motors oEmbed API
   slug: harbinger-oembed-api
-- description: The Yoast SEO `get_head` endpoint on harbingermotors.com. For any site URL it returns the fully rendered head block — canonical URL, robots directives, Open Graph and Twitter card metadata, and the sc
+- baseURL: https://harbingermotors.com/wp-json
+  baseurl_source: declared
+  description: The Yoast SEO `get_head` endpoint on harbingermotors.com. For any site URL it returns the fully rendered head block — canonical URL, robots directives, Open Graph and Twitter card metadata, and the sc
   name: Harbinger Motors SEO Metadata API
   slug: harbinger-seo-api
 artifact_total: 14
@@ -222,11 +240,11 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -236,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.8
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +272,9 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger/refs/heads/main/screenshots/harbinger-2026-09-02T145704.png
 security:
 - kind: authentication
   name: Harbinger Authentication

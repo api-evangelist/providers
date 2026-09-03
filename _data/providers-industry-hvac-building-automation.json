@@ -1,6 +1,6 @@
 {
- "total": 67,
- "shown": 67,
+ "total": 68,
+ "shown": 68,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -71,8 +71,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "ServiceTitan",
@@ -92,7 +92,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -120,6 +120,50 @@
      "rank": 2
     },
     {
+     "name": "VergeSense",
+     "slug": "vergesense",
+     "description": "VergeSense is the occupancy intelligence platform for corporate real estate and workplace teams. It combines first-party AI-powered area, entryway and infinity sensors with a cloud analytics platform (Meridian, including a Large Spatial Model) to measure how buildings, floors, neighborhoods and individual spaces are actually used. The public VergeSense API is a key-authenticated REST surface at api.vergesense.com covering buildings, floors, spaces, space types, detections, threshold crossings, hourly and aggregate occupancy metrics, hardware inventory (sensors and gateways), a Predict API built on the Large Spatial Model, and a fully managed webhook subscription surface that pushes space_report, space_availability and motion_detected events to customer endpoints. Collection responses follow the JSON:API specification, timestamps are ISO 8601, and the API is date-versioned (YYYY-MM-DD) via the vs-version request header. VergeSense also operates an OAuth-protected remote MCP server at mcp.vergesense.com for agent access.",
+     "score": 52.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 63.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 38.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Housecall Pro",
      "slug": "housecall-pro",
      "description": "Housecall Pro is an all-in-one home services business management platform headquartered in Denver, Colorado (with offices in San Diego), founded in 2013 by Ian Heidt, Roland Ligtenberg, Reza Olfat, Adam Perry-Pelletier, and Chris Zwickilton under the parent entity Codefied Inc. The platform serves 200K+ residential and commercial service pros across 50+ trades — HVAC, plumbing, electrical, cleaning, landscaping, pest control, garage doors, locksmiths, appliance repair, and more — providing scheduling, dispatching, online booking, estimates, invoicing, payments, marketing, GPS fleet tracking, customer communications, recurring service plans, and an AI-powered call answering agent. Developer integrations are exposed via the Housecall Pro Public API, available on the MAX plan, with Stoplight-hosted documentation, bearer-token API keys, multi- location key scoping, and webhook subscriptions for customer, estimate, invoice, job, lead, and payment events.",
@@ -137,7 +181,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -169,7 +213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Facilio",
@@ -189,7 +233,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 50.2,
      "agent_band": "agent-ready",
@@ -214,7 +258,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Nest",
@@ -234,7 +278,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -259,7 +303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Google Nest Smart Device Management",
@@ -279,7 +323,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -304,7 +348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Butlr",
@@ -324,7 +368,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -349,7 +393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Sensibo",
@@ -369,7 +413,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -394,7 +438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Verdigris Technologies",
@@ -414,7 +458,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -446,7 +490,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "PassiveLogic",
@@ -466,7 +510,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -498,7 +542,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     }
    ],
    "open": true
@@ -529,7 +573,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -554,7 +598,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Butlr Technologies",
@@ -574,7 +618,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -599,7 +643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "ecobee",
@@ -619,7 +663,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -651,7 +695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Clockworks Analytics",
@@ -671,7 +715,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -703,7 +747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Siemens",
@@ -722,7 +766,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -747,7 +791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Hello Therma",
@@ -767,7 +811,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -799,7 +843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Delos",
@@ -819,7 +863,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -844,7 +888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "BuildOps",
@@ -864,7 +908,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -889,12 +933,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Turntide Technologies",
      "slug": "turntide-technologies",
      "description": "Turntide Technologies is an electrification company that designs and manufactures axial flux electric motors, power electronics and inverters, modular battery energy storage, and thermal management systems for electric and hybrid platforms across agriculture, automotive, commercial vehicles, construction, gensets, industrial equipment, marine, rail and recreation. Founded in 2013 as Software Motor Corporation and rebranded to Turntide in 2020, the company grew through acquisitions including Riptide (building automation, 2021), Hyperdrive (batteries), AVID Technology (EV controls) and BorgWarner's Gateshead drivetrain division. Turntide publishes no public developer API for its hardware products; the only machine-readable surfaces observed on its own hosts are the WordPress REST API at turntide.com/wp-json, the WordPress Abilities API, and an OAuth-protected MCP server advertised via RFC 8414 / RFC 9728 well-known metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/turntide-technologies/refs/heads/main/screenshots/turntide-technologies-2026-09-02T164552.png",
      "score": 32.6,
      "band": "thin",
      "band_label": "Thin",
@@ -908,7 +953,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -940,7 +985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Trane Technologies",
@@ -960,7 +1005,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -985,7 +1030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "GridPoint",
@@ -1005,7 +1050,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1037,7 +1082,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "R-Zero",
@@ -1057,7 +1102,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1089,7 +1134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     }
    ]
   },
@@ -1119,7 +1164,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1144,7 +1189,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Schneider Electric Exchange",
@@ -1164,7 +1209,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1196,7 +1241,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Otis Worldwide",
@@ -1215,7 +1260,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1240,7 +1285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Accenta",
@@ -1260,7 +1305,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1299,7 +1344,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Aircon",
@@ -1319,7 +1364,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1351,7 +1396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Interplay Learning",
@@ -1371,7 +1416,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1403,7 +1448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Infinitum",
@@ -1423,7 +1468,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1455,7 +1500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Noda",
@@ -1475,7 +1520,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1507,7 +1552,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Carrier Global",
@@ -1527,52 +1572,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 31
-    },
-    {
-     "name": "Honeywell",
-     "slug": "honeywell",
-     "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 14.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1600,6 +1600,51 @@
      "rank": 32
     },
     {
+     "name": "Honeywell",
+     "slug": "honeywell",
+     "description": "Honeywell is a Fortune 100 technology company that delivers industry-specific solutions including aerospace products and services, control technologies, performance materials, and safety and productivity solutions. Honeywell Forge is the company's connected platform for building automation, industrial IoT, and aerospace data integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/honeywell/refs/heads/main/screenshots/honeywell-2026-06-20T182823.png",
+     "score": 17.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 14.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 33
+    },
+    {
      "name": "FieldEdge",
      "slug": "fieldedge",
      "description": "FieldEdge is field service management (FSM) software for HVAC, plumbing, electrical, and other home- and commercial-services contractors, owned by Xplor Technologies (branded \"FieldEdge by Xplor\"). It provides customer management, dispatching and scheduling, work orders, a technician mobile app, flat-rate pricebook, service agreements, invoicing and payments, and QuickBooks accounting sync. FieldEdge operates a partner-gated API delivered through an Azure API Management developer portal (docs.api.fieldedge.com); API products and keys are restricted to approved integration partners rather than being openly self-serve. The logical APIs listed here are honestly modeled from FieldEdge's documented product modules and its partner/integration surface - endpoint paths are modeled, not copied from a published public reference, because the reference and OpenAPI live behind the partner portal sign-in.",
@@ -1617,7 +1662,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1642,7 +1687,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "BRICK Schema",
@@ -1662,7 +1707,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1694,12 +1739,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "SkyFoundry",
      "slug": "skyfoundry",
      "description": "SkyFoundry, founded in 2009 and headquartered in Glen Allen, Virginia, develops SkySpark, an analytics and informatics platform that connects, stores, analyzes, and visualizes data from smart devices, automation and control systems, meters, and sensors to \"find what matters\" in large equipment and facility datasets. SkySpark automatically detects issues, patterns, deviations, faults, and cost-reduction opportunities across intelligent buildings, industrial, agriculture, energy, government, and healthcare facilities, and has been applied to over 15,000 buildings spanning more than a billion square feet. SkySpark is a native Project Haystack server: external applications integrate through the Haystack HTTP REST API (ops such as read, hisRead, hisWrite, pointWrite, watchSub/watchPoll, eval, commit, and nav) with Zinc, JSON, Trio, and CSV data formats, and authenticate using the Haystack SCRAM (SHA-256) handshake with bearer authTokens. The company sells through a network of 140+ OEM, systems-integrator, and value-added-distributor channel partners rather than a self-service public SaaS.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skyfoundry/refs/heads/main/screenshots/skyfoundry-2026-09-02T155802.png",
      "score": 14.9,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1713,7 +1759,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1745,7 +1791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Lennox International",
@@ -1765,7 +1811,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1790,7 +1836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Control4",
@@ -1810,60 +1856,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Runwise",
-     "slug": "runwise",
-     "description": "Runwise provides wireless smart-control systems that automate heating, cooling, water, and gas infrastructure in multifamily and commercial buildings. Its retrofit hardware and cloud platform replace legacy boiler, steam, and HVAC controls, cutting heating, cooling, and water bills by roughly 23% with same-day installation. Runwise reports more than 10,300 buildings under management and over $175 million in cumulative utility savings for customers. The company is backed by Fifth Wall, Initialized Capital, and Menlo Ventures. This API Evangelist profile tracks Runwise's public web presence; as of this pass no public API, developer portal, or programmatic integration surface has been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runwise/refs/heads/main/screenshots/runwise-2026-09-02T154214.png",
-     "score": 13.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1890,11 +1884,11 @@
      "rank": 38
     },
     {
-     "name": "Dandelion Energy",
-     "slug": "dandelion-energy",
-     "description": "Dandelion Energy is a residential geothermal heating and cooling company that designs, engineers, and installs ground-source heat pump systems for homeowners and new-home builders. Its systems tap the earth's stable subsurface temperature to heat and cool homes year-round, cutting utility bills and carbon emissions versus conventional fossil-fuel HVAC. Dandelion delivers end-to-end service from ground-loop drilling through turnkey installation, and offers a leasing program that removes the upfront cost for buyers. The company reports thousands of installations across the United States. Backed by GV (Google Ventures), it operates in the frontier-tech and climate sector; it currently exposes no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dandelion-energy/refs/heads/main/screenshots/dandelion-energy-2026-07-25T211154.png",
-     "score": 12.9,
+     "name": "Runwise",
+     "slug": "runwise",
+     "description": "Runwise provides wireless smart-control systems that automate heating, cooling, water, and gas infrastructure in multifamily and commercial buildings. Its retrofit hardware and cloud platform replace legacy boiler, steam, and HVAC controls, cutting heating, cooling, and water bills by roughly 23% with same-day installation. Runwise reports more than 10,300 buildings under management and over $175 million in cumulative utility savings for customers. The company is backed by Fifth Wall, Initialized Capital, and Menlo Ventures. This API Evangelist profile tracks Runwise's public web presence; as of this pass no public API, developer portal, or programmatic integration surface has been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/runwise/refs/heads/main/screenshots/runwise-2026-09-02T154214.png",
+     "score": 13.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1903,11 +1897,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1942,101 +1936,11 @@
      "rank": 39
     },
     {
-     "name": "Greenwork",
-     "slug": "greenwork",
-     "description": "Greenwork builds software for the HVAC (heating, ventilation, and air conditioning) industry and is backed by GV (Google Ventures). Its flagship product, Onsite Pro, is a digital pricebook and proposal platform for HVAC distributors and their dealers: it replaces Excel and PDF catalogs with searchable product data, automated AHRI equipment matchups, incentive and rebate application, and one-click proposal generation, while giving distributors visibility into dealer catalog performance, win rates, and share of wallet. Greenwork does not currently publish a public developer API, SDKs, or API documentation; this profile captures the company identity and its public web and security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenwork/refs/heads/main/screenshots/greenwork-2026-07-25T220320.png",
-     "score": 12.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Robby",
-     "slug": "robby",
-     "description": "Robby is an AI-powered growth and job-documentation platform for home-services businesses, focused on HVAC contractors. It automates job documentation and paperwork for technicians so they can focus on servicing equipment and talking to customers, combines customer and third-party data to surface new leads daily, equips technicians with talking points to increase sales, and gives management a dashboard to monitor the revenue opportunities captured from every visit. Robby is an early-stage Y Combinator (Winter 2026) startup that currently publishes a marketing site, blog, and legal pages but no public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robby/refs/heads/main/screenshots/robby-2026-09-02T154001.png",
-     "score": 12.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 41
-    },
-    {
-     "name": "Boldr",
-     "slug": "boldr",
-     "description": "Boldr is a Techstars-backed consumer hardware company building energy-saving smart home climate control devices. Its two products are Kelvin, a smart infrared heater, and Klima, a smart thermostat controller for mini-split air conditioners that also monitors appliance health so units last longer with fewer issues. Both devices are managed through the Boldr mobile app, which lets homeowners control climate settings remotely and track energy usage to lower utility bills. Boldr also runs Boldr Pro, a program for HVAC contractors. The company sells direct to consumers through a Shopify-hosted online store at shopboldr.com and does not currently publish a first-party developer API; its only public machine-readable surface is the Shopify Customer Account OIDC discovery served at the storefront host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boldr/refs/heads/main/screenshots/boldr-2026-08-07T162705.png",
-     "score": 11.8,
+     "name": "Dandelion Energy",
+     "slug": "dandelion-energy",
+     "description": "Dandelion Energy is a residential geothermal heating and cooling company that designs, engineers, and installs ground-source heat pump systems for homeowners and new-home builders. Its systems tap the earth's stable subsurface temperature to heat and cool homes year-round, cutting utility bills and carbon emissions versus conventional fossil-fuel HVAC. Dandelion delivers end-to-end service from ground-loop drilling through turnkey installation, and offers a leasing program that removes the upfront cost for buyers. The company reports thousands of installations across the United States. Backed by GV (Google Ventures), it operates in the frontier-tech and climate sector; it currently exposes no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dandelion-energy/refs/heads/main/screenshots/dandelion-energy-2026-07-25T211154.png",
+     "score": 12.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2045,63 +1949,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 19.0,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 27.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Roby",
-     "slug": "roby",
-     "description": "Roby (Imageous, Inc.) is a Seattle-based building-management software company whose HVAC automation product connects room and space calendars with a building's BMS (building management system) to automatically switch HVAC to an unoccupied/energy-saving mode when spaces are not in use, delivering measured energy savings and extended equipment lifetime for K-12, higher-education, and office facilities without added staff effort. Roby is deployed through building system integrators (ATS, Climatec, Syserco, ABM Systems, Oprizon, NSF-E) and also offers Receptionist and Helpdesk workplace applications. The product uses Auth0-managed authentication with token-based, SSL-only API access, but does not currently publish a public developer API, OpenAPI specification, SDKs, or developer portal. Surfaced as a Techstars portfolio company and added to the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roby/refs/heads/main/screenshots/roby-2026-09-02T154021.png",
-     "score": 11.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2133,7 +1985,201 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 40
+    },
+    {
+     "name": "Greenwork",
+     "slug": "greenwork",
+     "description": "Greenwork builds software for the HVAC (heating, ventilation, and air conditioning) industry and is backed by GV (Google Ventures). Its flagship product, Onsite Pro, is a digital pricebook and proposal platform for HVAC distributors and their dealers: it replaces Excel and PDF catalogs with searchable product data, automated AHRI equipment matchups, incentive and rebate application, and one-click proposal generation, while giving distributors visibility into dealer catalog performance, win rates, and share of wallet. Greenwork does not currently publish a public developer API, SDKs, or API documentation; this profile captures the company identity and its public web and security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenwork/refs/heads/main/screenshots/greenwork-2026-07-25T220320.png",
+     "score": 12.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
+    },
+    {
+     "name": "Robby",
+     "slug": "robby",
+     "description": "Robby is an AI-powered growth and job-documentation platform for home-services businesses, focused on HVAC contractors. It automates job documentation and paperwork for technicians so they can focus on servicing equipment and talking to customers, combines customer and third-party data to surface new leads daily, equips technicians with talking points to increase sales, and gives management a dashboard to monitor the revenue opportunities captured from every visit. Robby is an early-stage Y Combinator (Winter 2026) startup that currently publishes a marketing site, blog, and legal pages but no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/robby/refs/heads/main/screenshots/robby-2026-09-02T154001.png",
+     "score": 12.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
+    },
+    {
+     "name": "Boldr",
+     "slug": "boldr",
+     "description": "Boldr is a Techstars-backed consumer hardware company building energy-saving smart home climate control devices. Its two products are Kelvin, a smart infrared heater, and Klima, a smart thermostat controller for mini-split air conditioners that also monitors appliance health so units last longer with fewer issues. Both devices are managed through the Boldr mobile app, which lets homeowners control climate settings remotely and track energy usage to lower utility bills. Boldr also runs Boldr Pro, a program for HVAC contractors. The company sells direct to consumers through a Shopify-hosted online store at shopboldr.com and does not currently publish a first-party developer API; its only public machine-readable surface is the Shopify Customer Account OIDC discovery served at the storefront host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boldr/refs/heads/main/screenshots/boldr-2026-08-07T162705.png",
+     "score": 11.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 27.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 43
+    },
+    {
+     "name": "Roby",
+     "slug": "roby",
+     "description": "Roby (Imageous, Inc.) is a Seattle-based building-management software company whose HVAC automation product connects room and space calendars with a building's BMS (building management system) to automatically switch HVAC to an unoccupied/energy-saving mode when spaces are not in use, delivering measured energy savings and extended equipment lifetime for K-12, higher-education, and office facilities without added staff effort. Roby is deployed through building system integrators (ATS, Climatec, Syserco, ABM Systems, Oprizon, NSF-E) and also offers Receptionist and Helpdesk workplace applications. The product uses Auth0-managed authentication with token-based, SSL-only API access, but does not currently publish a public developer API, OpenAPI specification, SDKs, or developer portal. Surfaced as a Techstars portfolio company and added to the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roby/refs/heads/main/screenshots/roby-2026-09-02T154021.png",
+     "score": 11.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 44
     },
     {
      "name": "Comfort Systems USA",
@@ -2153,52 +2199,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Modine Manufacturing",
-     "slug": "modine-manufacturing",
-     "description": "Modine Manufacturing is a major US corporation and Fortune 1000 company. The Modine Manufacturing API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modine-manufacturing/refs/heads/main/screenshots/modine-manufacturing-2026-06-20T185655.png",
-     "score": 11.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2224,6 +2225,51 @@
       "agentic_commerce": false
      },
      "rank": 45
+    },
+    {
+     "name": "Modine Manufacturing",
+     "slug": "modine-manufacturing",
+     "description": "Modine Manufacturing is a major US corporation and Fortune 1000 company. The Modine Manufacturing API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modine-manufacturing/refs/heads/main/screenshots/modine-manufacturing-2026-06-20T185655.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
     }
    ]
   },
@@ -2253,7 +2299,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2278,7 +2324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Aeroseal",
@@ -2298,7 +2344,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2330,12 +2376,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "UpSmith",
      "slug": "upsmith",
      "description": "UpSmith is a Dallas, Texas-based company backed by a16z that builds AI agents for home services and skilled trades businesses (HVAC, plumbing, electrical). Its platform texts customers to confirm appointments, follows up on cold estimates, responds to inbound leads around the clock, and reactivates dormant customers, syncing customer records, job details, and booking data with ServiceTitan through ServiceTitan's official APIs. UpSmith consumes partner APIs (a native ServiceTitan marketplace integration) but does not publish a public developer API of its own.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/upsmith/refs/heads/main/screenshots/upsmith-2026-09-02T165110.png",
      "score": 9.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2349,7 +2396,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2381,7 +2428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Green Fusion",
@@ -2401,7 +2448,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2433,7 +2480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Sealed",
@@ -2453,7 +2500,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2485,7 +2532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Regal Beloit",
@@ -2505,7 +2552,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2537,7 +2584,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "GeoGrid",
@@ -2557,51 +2604,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "Tradeway",
-     "slug": "tradeway",
-     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
-     "score": 6.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2629,11 +2632,11 @@
      "rank": 53
     },
     {
-     "name": "Nortek",
-     "slug": "nortek",
-     "description": "Nortek is a global manufacturer of HVAC, data center cooling, and cleanroom systems, organized into three divisions: Nortek Air Solutions, Nortek Data Center Cooling, and Nortek Cleanroom Solutions. No public developer portal or OpenAPI specifications have been identified at this time; this repository tracks Nortek for future API discovery and integration intelligence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortek/refs/heads/main/screenshots/nortek-2026-06-20T190412.png",
-     "score": 5.3,
+     "name": "Tradeway",
+     "slug": "tradeway",
+     "description": "Tradeway is an AI-powered field assistant for residential trade contractors working in electrical, plumbing, and HVAC. Technicians use it to plan jobs step by step with the right materials and code requirements, to identify parts from a photo with nearby supplier pricing and sourcing, and to get hands-free answers to technical questions on the job site. For business owners it centralizes crew history and field activity into a single view, reducing callbacks and rework through built-in code checks and standardized, repeatable processes so new hires can bill like veterans. Tradeway is backed by Bloomberg Beta. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or API documentation; this profile captures its identity and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradeway/refs/heads/main/screenshots/tradeway-2026-09-02T164100.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2641,12 +2644,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2674,9 +2677,10 @@
      "rank": 54
     },
     {
-     "name": "View",
-     "slug": "view",
-     "description": "View, Inc. is a smart-glass and smart-building technology company founded in 2007 and headquartered in Milpitas, California, with manufacturing in Olive Branch, Mississippi. View makes View Dynamic Glass, electrochromic architectural windows whose tint adjusts automatically to sunlight, glare, and heat, alongside a connected Smart Building Platform in which each pane is individually IP-addressable and app-controllable and layered with sensors and services such as SmartProtect (an Azure IoT integration that alerts building managers when glass breaks). Backed by the SoftBank Vision Fund, View went public via SPAC in 2021 and filed for Chapter 11 bankruptcy in 2024, transitioning back to private ownership under its lenders. View exposes no public developer API surface; its GitHub organization (viewinc) mirrors third-party C/C++ and IoT firmware libraries used internally rather than first-party SDKs.",
+     "name": "Nortek",
+     "slug": "nortek",
+     "description": "Nortek is a global manufacturer of HVAC, data center cooling, and cleanroom systems, organized into three divisions: Nortek Air Solutions, Nortek Data Center Cooling, and Nortek Cleanroom Solutions. No public developer portal or OpenAPI specifications have been identified at this time; this repository tracks Nortek for future API discovery and integration intelligence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortek/refs/heads/main/screenshots/nortek-2026-06-20T190412.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2690,7 +2694,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2718,11 +2722,11 @@
      "rank": 55
     },
     {
-     "name": "Comfy *",
-     "slug": "comfy",
-     "description": "Comfy (comfyapp.com) was a workplace-experience platform built by Building Robotics Inc. that let employees control lighting, temperature, room booking and office navigation from a mobile app, surfaced here as a GV (Google Ventures) portfolio lead. During enrichment the domain comfyapp.com was found to permanently 301-redirect to Enlighted Inc. / Building Robotics Inc., a Siemens Company, where the product has been rebranded as Siemens Building X space and workplace management; the Enlighted/Comfy site further states operations are ramping down. No independent public API, OpenAPI, SDK, developer portal, well-known discovery surface, or security.txt was found for Comfy or its successor as of this pass. This profile is retained as an acquired/defunct stub with domain-security probe data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comfy/refs/heads/main/screenshots/comfy-2026-07-25T210117.png",
-     "score": 5.0,
+     "name": "View",
+     "slug": "view",
+     "description": "View, Inc. is a smart-glass and smart-building technology company founded in 2007 and headquartered in Milpitas, California, with manufacturing in Olive Branch, Mississippi. View makes View Dynamic Glass, electrochromic architectural windows whose tint adjusts automatically to sunlight, glare, and heat, alongside a connected Smart Building Platform in which each pane is individually IP-addressable and app-controllable and layered with sensors and services such as SmartProtect (an Azure IoT integration that alerts building managers when glass breaks). Backed by the SoftBank Vision Fund, View went public via SPAC in 2021 and filed for Chapter 11 bankruptcy in 2024, transitioning back to private ownership under its lenders. View exposes no public developer API surface; its GitHub organization (viewinc) mirrors third-party C/C++ and IoT firmware libraries used internally rather than first-party SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/view/refs/heads/main/screenshots/view-2026-09-02T165908.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2730,12 +2734,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2763,9 +2767,10 @@
      "rank": 56
     },
     {
-     "name": "Ferguson",
-     "slug": "ferguson",
-     "description": "Ferguson is a Fortune 500 distributor of plumbing supplies, HVAC products, pipe, valves and fittings, waterworks, and building supplies serving professional contractors, residential homeowners, and commercial customers across the United States.",
+     "name": "Comfy *",
+     "slug": "comfy",
+     "description": "Comfy (comfyapp.com) was a workplace-experience platform built by Building Robotics Inc. that let employees control lighting, temperature, room booking and office navigation from a mobile app, surfaced here as a GV (Google Ventures) portfolio lead. During enrichment the domain comfyapp.com was found to permanently 301-redirect to Enlighted Inc. / Building Robotics Inc., a Siemens Company, where the product has been rebranded as Siemens Building X space and workplace management; the Enlighted/Comfy site further states operations are ramping down. No independent public API, OpenAPI, SDK, developer portal, well-known discovery surface, or security.txt was found for Comfy or its successor as of this pass. This profile is retained as an acquired/defunct stub with domain-security probe data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comfy/refs/heads/main/screenshots/comfy-2026-07-25T210117.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2779,7 +2784,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2807,9 +2812,9 @@
      "rank": 57
     },
     {
-     "name": "FogHorn Systems (Johnson Controls)",
-     "slug": "foghorn-systems-johnson-controls",
-     "description": "FogHorn Systems was a Sunnyvale, California developer of edge AI and machine learning software for the industrial and commercial Internet of Things (IIoT). Its Lightning Edge AI platform and Lightning EdgeML brought real-time streaming analytics and ML inference to constrained on-premises edge hardware for predictive maintenance, machine optimization, and operational intelligence use cases. Johnson Controls acquired FogHorn in January 2022 and folded its team and technology into the OpenBlue suite of smart, autonomous building solutions, with the former Sunnyvale headquarters operating as a Johnson Controls \"AI Hub.\" FogHorn no longer operates as a standalone brand and publishes no independent public developer surface — no developer portal, API reference, SDKs, or GitHub organization resolve as of this enrichment pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a network company record with no public API artifacts to harvest.",
+     "name": "Ferguson",
+     "slug": "ferguson",
+     "description": "Ferguson is a Fortune 500 distributor of plumbing supplies, HVAC products, pipe, valves and fittings, waterworks, and building supplies serving professional contractors, residential homeowners, and commercial customers across the United States.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2823,7 +2828,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2851,10 +2856,9 @@
      "rank": 58
     },
     {
-     "name": "Keepe",
-     "slug": "keepe",
-     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
+     "name": "FogHorn Systems (Johnson Controls)",
+     "slug": "foghorn-systems-johnson-controls",
+     "description": "FogHorn Systems was a Sunnyvale, California developer of edge AI and machine learning software for the industrial and commercial Internet of Things (IIoT). Its Lightning Edge AI platform and Lightning EdgeML brought real-time streaming analytics and ML inference to constrained on-premises edge hardware for predictive maintenance, machine optimization, and operational intelligence use cases. Johnson Controls acquired FogHorn in January 2022 and folded its team and technology into the OpenBlue suite of smart, autonomous building solutions, with the former Sunnyvale headquarters operating as a Johnson Controls \"AI Hub.\" FogHorn no longer operates as a standalone brand and publishes no independent public developer surface — no developer portal, API reference, SDKs, or GitHub organization resolve as of this enrichment pass; the former foghorn.io/foghorn.ai domains are parked. This profile is retained as a network company record with no public API artifacts to harvest.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2868,7 +2872,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2896,11 +2900,11 @@
      "rank": 59
     },
     {
-     "name": "AltoTech Global",
-     "slug": "altotech-global",
-     "description": "AltoTech Global is a Bangkok-based energy-management technology company building an AI and IoT (AIoT) platform that optimizes energy consumption and reduces carbon emissions across smart buildings. Its Alto CERO air-side and water-side products autonomously tune HVAC, VRF, and chiller-plant systems based on real-time occupancy and conditions, while Alto Digital Twin, Alto Multi-Property, and AltoACE deliver spatial building intelligence, centralized multi-site energy tracking, and AI-assisted facility engineering. Backed by 500 Global, AltoTech serves offices, malls, hotels, banks, and government facilities across Southeast Asia to help accelerate the net-zero economy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altotech-global/refs/heads/main/screenshots/altotech-global-2026-07-25T195842.png",
-     "score": 4.7,
+     "name": "Keepe",
+     "slug": "keepe",
+     "description": "Keepe operates a US nationwide service-provider network of vetted technicians covering HVAC, plumbing, electrical, furnace and heating, air conditioning, home appliances, and EV charger installation and repair. The platform streamlines the full home-services workflow end to end - recruiting, sourcing, dispatching, authorizing, and paying qualified technicians - so property managers, warranty companies, and insurers can get high-quality repair work completed reliably across markets. Keepe runs a consumer/technician mobile app and a private application backend at api.keepe.com; it does not publish a public developer API, developer portal, or API documentation. This profile was surfaced as a Techstars portfolio company and enriched by the API Evangelist pipeline with the infrastructure signals that are publicly observable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keepe/refs/heads/main/screenshots/keepe-2026-07-25T223555.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2909,19 +2913,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2948,24 +2945,32 @@
      "rank": 60
     },
     {
-     "name": "Uptime",
-     "slug": "uptime",
-     "description": "Uptime (Uptime SAS, Paris, SIREN 822006839) was a French elevator predictive-maintenance company founded in 2016 by Augustin and Amaury Celier. It fitted 4G-connected sensors to existing elevators and used the resulting telemetry to predict failures, dispatch technicians and report availability to building managers, backed by Serena and angels including Jacques-Antoine Granjon, David Amsellem, Yvan Wibaux and Antoine Martin across roughly EUR 10M of funding. The Paris Commercial Court opened a redressement judiciaire on 2022-07-26 and pronounced liquidation judiciaire with a plan de cession to SAS Otis on 2022-10-20; the elevator-maintenance activity and a minority of staff transferred to Otis. The company never published a public developer program, API reference or machine-readable specification, and the uptime.ac domain has since lapsed — it now 301-redirects every path to unrelated third-party sites. This profile is retained as an honest record of a defunct company with no API surface.",
-     "score": 4.6,
+     "name": "AltoTech Global",
+     "slug": "altotech-global",
+     "description": "AltoTech Global is a Bangkok-based energy-management technology company building an AI and IoT (AIoT) platform that optimizes energy consumption and reduces carbon emissions across smart buildings. Its Alto CERO air-side and water-side products autonomously tune HVAC, VRF, and chiller-plant systems based on real-time occupancy and conditions, while Alto Digital Twin, Alto Multi-Property, and AltoACE deliver spatial building intelligence, centralized multi-site energy tracking, and AI-assisted facility engineering. Backed by 500 Global, AltoTech serves offices, malls, hotels, banks, and government facilities across Southeast Asia to help accelerate the net-zero economy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altotech-global/refs/heads/main/screenshots/altotech-global-2026-07-25T195842.png",
+     "score": 4.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2992,32 +2997,24 @@
      "rank": 61
     },
     {
-     "name": "Carnot Innovations",
-     "slug": "carnot-innovations",
-     "description": "Carnot Innovations is a Hong Kong-based building energy management company that applies AI, machine learning, and advanced data analytics to optimize HVAC systems and reduce energy consumption across commercial buildings, data centers, hospitals, railways, and sewage treatment facilities in the Asia-Pacific region. Its platform delivers AI-driven energy optimization, predictive maintenance and fault detection for chillers, pumps, cooling towers, and air handling units, analytics dashboards for facility managers, and continuous commissioning insights, reporting outcomes such as 15% energy cost reductions, 90% hidden-fault detection, and 15 million kWh per year of energy savings across its deployment portfolio. It is a portfolio company of 500 Global. Carnot Innovations does not currently publish a public developer program or API; this profile exists in the API Evangelist network for discovery and enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnot-innovations/refs/heads/main/screenshots/carnot-innovations-2026-07-25T204629.png",
-     "score": 4.5,
+     "name": "Uptime",
+     "slug": "uptime",
+     "description": "Uptime (Uptime SAS, Paris, SIREN 822006839) was a French elevator predictive-maintenance company founded in 2016 by Augustin and Amaury Celier. It fitted 4G-connected sensors to existing elevators and used the resulting telemetry to predict failures, dispatch technicians and report availability to building managers, backed by Serena and angels including Jacques-Antoine Granjon, David Amsellem, Yvan Wibaux and Antoine Martin across roughly EUR 10M of funding. The Paris Commercial Court opened a redressement judiciaire on 2022-07-26 and pronounced liquidation judiciaire with a plan de cession to SAS Otis on 2022-10-20; the elevator-maintenance activity and a minority of staff transferred to Otis. The company never published a public developer program, API reference or machine-readable specification, and the uptime.ac domain has since lapsed — it now 301-redirects every path to unrelated third-party sites. This profile is retained as an honest record of a defunct company with no API surface.",
+     "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3044,68 +3041,24 @@
      "rank": 62
     },
     {
-     "name": "Mueller Industries",
-     "slug": "mueller-industries",
-     "description": "Mueller Industries is a leading manufacturer of copper, brass, aluminum, and plastic products serving the plumbing, HVAC, refrigeration, industrial, automotive, and other markets.",
-     "score": 4.1,
+     "name": "Carnot Innovations",
+     "slug": "carnot-innovations",
+     "description": "Carnot Innovations is a Hong Kong-based building energy management company that applies AI, machine learning, and advanced data analytics to optimize HVAC systems and reduce energy consumption across commercial buildings, data centers, hospitals, railways, and sewage treatment facilities in the Asia-Pacific region. Its platform delivers AI-driven energy optimization, predictive maintenance and fault detection for chillers, pumps, cooling towers, and air handling units, analytics dashboards for facility managers, and continuous commissioning insights, reporting outcomes such as 15% energy cost reductions, 90% hidden-fault detection, and 15 million kWh per year of energy savings across its deployment portfolio. It is a portfolio company of 500 Global. Carnot Innovations does not currently publish a public developer program or API; this profile exists in the API Evangelist network for discovery and enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carnot-innovations/refs/heads/main/screenshots/carnot-innovations-2026-07-25T204629.png",
+     "score": 4.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Enel X",
-     "slug": "enel-x",
-     "description": "Enel X is the advanced-energy-services business line of the Enel Group, an Italian multinational utility headquartered in Rome. Enel X delivers smart energy products and services across electrification, e-mobility, demand response, virtual power plants, and distributed energy resource (DER) management for residential, commercial, industrial, public-sector, and utility customers. Its principal offerings include the Enel X Way app and network for electric-vehicle charging (the consolidated successor to JuicePass and JuiceNet), the JuiceBox and JuicePedestal hardware lines, the JuiceNet Utility Edition managed-charging platform, the DER.OS / DER optimization software (now run as Calibrant Energy in North America after Enel's 2023 divestiture of its North American demand-response business), Enel X Flex flexibility management software, and VPP Connect, a set of API endpoints that lets third-party DER operators — OEMs, automation providers, and equipment manufacturers — aggregate EV chargers, batteries, HVAC systems, heat pumps, and other controllable assets into Enel's virtual power plant and earn revenue from demand-response and grid-services programs via either the open Automated Demand Response (oADR) protocol or a custom Enel API. Enel X exposes additional non-public surfaces — including the emobility.enelx.com OAuth/charging endpoints used by the Enel X Way mobile apps — but does not publish OpenAPI specifications, SDKs, or a developer portal; VPP Connect documentation is delivered under partnership agreement after a guided onboarding process. The official Enelx GitHub organization has effectively no public engineering presence, and the legacy JuiceNet public API has been deprecated as part of the platform migration to Enel X Way.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enel-x/refs/heads/main/screenshots/enel-x-2026-06-20T180700.png",
-     "score": 4.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3137,13 +3090,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 63
+    },
+    {
+     "name": "Mueller Industries",
+     "slug": "mueller-industries",
+     "description": "Mueller Industries is a leading manufacturer of copper, brass, aluminum, and plastic products serving the plumbing, HVAC, refrigeration, industrial, automotive, and other markets.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 64
     },
     {
-     "name": "Inviscid AI",
-     "slug": "inviscid-ai",
-     "description": "Inviscid AI is a San Francisco-based startup (Y Combinator W2026) building physics-informed AI for real-time cooling and airflow simulation of buildings and industrial facilities. Its platform combines computational fluid dynamics (CFD) with physics-informed neural networks to run thermal digital twins up to 1000x faster than traditional CFD, ingesting live data from building management systems, meters, and IoT sensors to autonomously recommend HVAC setpoints and optimize airflow. Target facilities include data centers, offices, hospitals, and cold storage, where the company claims 30%+ energy savings and sub-90-day ROI. As of mid-2026 Inviscid AI is a pre-product-launch company with no public developer portal, API, SDKs, or OpenAPI surface; this profile tracks it as an API Evangelist network lead pending an external API.",
-     "score": 3.8,
+     "name": "Enel X",
+     "slug": "enel-x",
+     "description": "Enel X is the advanced-energy-services business line of the Enel Group, an Italian multinational utility headquartered in Rome. Enel X delivers smart energy products and services across electrification, e-mobility, demand response, virtual power plants, and distributed energy resource (DER) management for residential, commercial, industrial, public-sector, and utility customers. Its principal offerings include the Enel X Way app and network for electric-vehicle charging (the consolidated successor to JuicePass and JuiceNet), the JuiceBox and JuicePedestal hardware lines, the JuiceNet Utility Edition managed-charging platform, the DER.OS / DER optimization software (now run as Calibrant Energy in North America after Enel's 2023 divestiture of its North American demand-response business), Enel X Flex flexibility management software, and VPP Connect, a set of API endpoints that lets third-party DER operators — OEMs, automation providers, and equipment manufacturers — aggregate EV chargers, batteries, HVAC systems, heat pumps, and other controllable assets into Enel's virtual power plant and earn revenue from demand-response and grid-services programs via either the open Automated Demand Response (oADR) protocol or a custom Enel API. Enel X exposes additional non-public surfaces — including the emobility.enelx.com OAuth/charging endpoints used by the Enel X Way mobile apps — but does not publish OpenAPI specifications, SDKs, or a developer portal; VPP Connect documentation is delivered under partnership agreement after a guided onboarding process. The official Enelx GitHub organization has effectively no public engineering presence, and the legacy JuiceNet public API has been deprecated as part of the platform migration to Enel X Way.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enel-x/refs/heads/main/screenshots/enel-x-2026-06-20T180700.png",
+     "score": 4.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3151,12 +3149,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3191,11 +3189,10 @@
      "rank": 65
     },
     {
-     "name": "Johnson Controls",
-     "slug": "johnson-controls",
-     "description": "Johnson Controls is a global diversified technology and multi-industrial leader serving customers in over 150 countries, providing products, services, and solutions for buildings (HVAC, fire, security, building automation), energy storage, and connected building platforms (Metasys, OpenBlue). No public, self-service developer portal or OpenAPI is currently published; partner and customer integrations are typically delivered through the OpenBlue and Metasys product lines.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-controls/refs/heads/main/screenshots/johnson-controls-2026-06-20T183753.png",
-     "score": 3.6,
+     "name": "Inviscid AI",
+     "slug": "inviscid-ai",
+     "description": "Inviscid AI is a San Francisco-based startup (Y Combinator W2026) building physics-informed AI for real-time cooling and airflow simulation of buildings and industrial facilities. Its platform combines computational fluid dynamics (CFD) with physics-informed neural networks to run thermal digital twins up to 1000x faster than traditional CFD, ingesting live data from building management systems, meters, and IoT sensors to autonomously recommend HVAC setpoints and optimize airflow. Target facilities include data centers, offices, hospitals, and cold storage, where the company claims 30%+ energy savings and sub-90-day ROI. As of mid-2026 Inviscid AI is a pre-product-launch company with no public developer portal, API, SDKs, or OpenAPI surface; this profile tracks it as an API Evangelist network lead pending an external API.",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3203,12 +3200,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3243,11 +3240,11 @@
      "rank": 66
     },
     {
-     "name": "Edviro",
-     "slug": "edviro",
-     "description": "Edviro is an AI platform for building operations and energy optimization, aimed at facility managers and building operators of large commercial buildings. It pulls scattered building data - utility bills, smart meters, building management systems (BMS), submeters, sensors, and work-order platforms - into one place, then follows an Ingest, Detect, Act, and Verify workflow: it consolidates the data, catches energy waste and anomalies in real time, dispatches work orders and adjusts setpoints, and proves the resulting savings against meter data and utility bills. The platform also builds a digital twin of each building to simulate capital projects and forecast ROI before purchase, and produces audit-grade Measurement and Verification (M&V) reporting. Edviro is a Y Combinator (Summer 2026) company founded in 2025 and based in San Francisco.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edviro/refs/heads/main/screenshots/edviro-2026-07-25T212910.png",
-     "score": 3.3,
+     "name": "Johnson Controls",
+     "slug": "johnson-controls",
+     "description": "Johnson Controls is a global diversified technology and multi-industrial leader serving customers in over 150 countries, providing products, services, and solutions for buildings (HVAC, fire, security, building automation), energy storage, and connected building platforms (Metasys, OpenBlue). No public, self-service developer portal or OpenAPI is currently published; partner and customer integrations are typically delivered through the OpenBlue and Metasys product lines.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-controls/refs/heads/main/screenshots/johnson-controls-2026-06-20T183753.png",
+     "score": 3.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3255,12 +3252,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3293,6 +3290,58 @@
       "agentic_commerce": false
      },
      "rank": 67
+    },
+    {
+     "name": "Edviro",
+     "slug": "edviro",
+     "description": "Edviro is an AI platform for building operations and energy optimization, aimed at facility managers and building operators of large commercial buildings. It pulls scattered building data - utility bills, smart meters, building management systems (BMS), submeters, sensors, and work-order platforms - into one place, then follows an Ingest, Detect, Act, and Verify workflow: it consolidates the data, catches energy waste and anomalies in real time, dispatches work orders and adjusts setpoints, and proves the resulting savings against meter data and utility bills. The platform also builds a digital twin of each building to simulate capital projects and forecast ROI before purchase, and produces audit-grade Measurement and Verification (M&V) reporting. Edviro is a Y Combinator (Summer 2026) company founded in 2025 and based in San Francisco.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edviro/refs/heads/main/screenshots/edviro-2026-07-25T212910.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 68
     }
    ]
   }

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -48,13 +48,19 @@ apis:
 - description: JavaScript API for building Outlook add-ins that extend Outlook functionality with custom features, using the Office.js library and the Mailbox requirement set.
   name: Outlook Add-ins API
   slug: outlook-add-ins-api
-- description: Operations on message attachments
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on message attachments
   name: Microsoft Outlook Attachments API
   slug: microsoft-outlook-attachments-api
-- description: Operations on mail folders in a user mailbox
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on mail folders in a user mailbox
   name: Microsoft Outlook Mail Folders API
   slug: microsoft-outlook-mail-folders-api
-- description: Operations on email messages in a user mailbox
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on email messages in a user mailbox
   name: Microsoft Outlook Messages API
   slug: microsoft-outlook-messages-api
 arazzos:
@@ -561,7 +567,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -571,7 +577,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 64.0
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -582,7 +588,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

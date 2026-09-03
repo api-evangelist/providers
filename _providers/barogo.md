@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 21 operations · 14 acting
 api_count: 1
 apis:
-- description: 상점 배달 권역 / 불가 구역 / 할증 구역 조회
+- baseURL: https://api-interlocker.gorelas.com
+  baseurl_source: declared
+  description: 상점 배달 권역 / 불가 구역 / 할증 구역 조회
   name: Barogo Areas API
   slug: barogo-areas-api
-- description: 배달대행사 배달 수행 상태 조회
+- baseURL: https://api-interlocker.gorelas.com
+  baseurl_source: declared
+  description: 배달대행사 배달 수행 상태 조회
   name: Barogo Delivery API
   slug: barogo-delivery-api
-- description: 상점 예치금(Cash, Money) 잔액 조회
+- baseURL: https://api-interlocker.gorelas.com
+  baseurl_source: declared
+  description: 상점 예치금(Cash, Money) 잔액 조회
   name: Barogo Deposits API
   slug: barogo-deposits-api
-- description: 주문 접수 / 조회 / 수정 / 취소 및 배달 가능 여부·요금 조회
+- baseURL: https://api-interlocker.gorelas.com
+  baseurl_source: declared
+  description: 주문 접수 / 조회 / 수정 / 취소 및 배달 가능 여부·요금 조회
   name: Barogo Orders API
   slug: barogo-orders-api
-- description: 상점 조회 및 주문 제휴사 ↔ 고릴라 상점 매핑
+- baseURL: https://api-interlocker.gorelas.com
+  baseurl_source: declared
+  description: 상점 조회 및 주문 제휴사 ↔ 고릴라 상점 매핑
   name: Barogo Stores API
   slug: barogo-stores-api
 artifact_total: 17
@@ -236,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -246,7 +268,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,7 +280,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png
 security:

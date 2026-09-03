@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 48 operations · 29 acting
 api_count: 1
 apis:
-- description: The Cycle Work Items API from Plane — 3 operation(s) for cycle work items.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Cycle Work Items API from Plane — 3 operation(s) for cycle work items.
   name: Plane Cycle Work Items API
   slug: plane-so-cycle-work-items-api
-- description: The Cycles API from Plane — 2 operation(s) for cycles.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Cycles API from Plane — 2 operation(s) for cycles.
   name: Plane Cycles API
   slug: plane-so-cycles-api
-- description: The Labels API from Plane — 2 operation(s) for labels.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Labels API from Plane — 2 operation(s) for labels.
   name: Plane Labels API
   slug: plane-so-labels-api
-- description: The Members API from Plane — 1 operation(s) for members.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Members API from Plane — 1 operation(s) for members.
   name: Plane Members API
   slug: plane-so-members-api
-- description: The Module Work Items API from Plane — 2 operation(s) for module work items.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Module Work Items API from Plane — 2 operation(s) for module work items.
   name: Plane Module Work Items API
   slug: plane-so-module-work-items-api
-- description: The Modules API from Plane — 2 operation(s) for modules.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Modules API from Plane — 2 operation(s) for modules.
   name: Plane Modules API
   slug: plane-so-modules-api
-- description: The Projects API from Plane — 2 operation(s) for projects.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Projects API from Plane — 2 operation(s) for projects.
   name: Plane Projects API
   slug: plane-so-projects-api
-- description: The States API from Plane — 2 operation(s) for states.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The States API from Plane — 2 operation(s) for states.
   name: Plane States API
   slug: plane-so-states-api
-- description: The Work Item Comments API from Plane — 2 operation(s) for work item comments.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Work Item Comments API from Plane — 2 operation(s) for work item comments.
   name: Plane Work Item Comments API
   slug: plane-so-work-item-comments-api
-- description: The Work Item Links API from Plane — 2 operation(s) for work item links.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Work Item Links API from Plane — 2 operation(s) for work item links.
   name: Plane Work Item Links API
   slug: plane-so-work-item-links-api
-- description: The Work Items API from Plane — 2 operation(s) for work items.
+- baseURL: https://api.plane.so/api/v1
+  baseurl_source: declared
+  description: The Work Items API from Plane — 2 operation(s) for work items.
   name: Plane Work Items API
   slug: plane-so-work-items-api
 artifact_total: 31
@@ -196,7 +218,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -219,8 +241,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/screenshots/plane-so-2026-09-02T151412.png
 security:
 - kind: authentication
   name: Plane So Authentication

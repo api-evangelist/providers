@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 113 operations · 70 acting
 api_count: 1
 apis:
-- description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
+- baseURL: https://api.harmonic.ai/
+  baseurl_source: declared
+  description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
   name: Harmonic REST & GraphQL API
   slug: harmonic-rest-graphql-api
 - description: Hosted, agent-native MCP server exposing 40+ tools for enrichment, search, saved searches, lists, investors, network mapping, batch lookup, custom fields, and team. Listed in the Claude Connector stor
@@ -259,7 +261,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -269,7 +271,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 47.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,7 +283,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:

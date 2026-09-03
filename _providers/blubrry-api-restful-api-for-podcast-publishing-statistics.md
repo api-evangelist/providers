@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: The Blubrry Podcast Network API provides access to user subscriptions with show management, episode metadata storage including playback status and position, show navigation by category and search, and
   name: Blubrry Podcast Network API
   slug: blubrry-podcast-network-api
-- description: Read, create, and update episodes for shows hosted on Blubrry.
+- baseURL: https://api.blubrry.com/2
+  baseurl_source: spec
+  description: Read, create, and update episodes for shows hosted on Blubrry.
   name: Blubrry API Episode API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-episode-api
-- description: Upload and manage media files hosted on Blubrry.
+- baseURL: https://api.blubrry.com/2
+  baseurl_source: spec
+  description: Upload and manage media files hosted on Blubrry.
   name: Blubrry API Media API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-media-api
-- description: Podcast download statistics.
+- baseURL: https://api.blubrry.com/2
+  baseurl_source: spec
+  description: Podcast download statistics.
   name: Blubrry API Statistics API
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-statistics-api
 artifact_total: 19
@@ -188,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/screenshots/blubrry-api-restful-api-for-podcast-publishing-statistics-2026-06-20T173526.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -50,58 +50,94 @@ apis:
 - description: Model Context Protocol (MCP) server exposing 17 tools for AI assistants to query organizations, projects, issues, events, performance data, alert rules, and uptime monitors. Authenticated via OAuth 2.
   name: GlitchTip MCP Server
   slug: glitchtip-mcp-server
-- description: The Accept API from GlitchTip — 1 operation(s) for accept.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Accept API from GlitchTip — 1 operation(s) for accept.
   name: GlitchTip Accept API
   slug: glitchtip-accept-api
-- description: The Api Tokens API from GlitchTip — 2 operation(s) for api tokens.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Api Tokens API from GlitchTip — 2 operation(s) for api tokens.
   name: GlitchTip Api Tokens API
   slug: glitchtip-api-tokens-api
-- description: The Embed API from GlitchTip — 1 operation(s) for embed.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Embed API from GlitchTip — 1 operation(s) for embed.
   name: GlitchTip Embed API
   slug: glitchtip-embed-api
-- description: The Generate Recovery Codes API from GlitchTip — 1 operation(s) for generate recovery codes.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Generate Recovery Codes API from GlitchTip — 1 operation(s) for generate recovery codes.
   name: GlitchTip Generate Recovery Codes API
   slug: glitchtip-generate-recovery-codes-api
-- description: The GlitchTip API API from GlitchTip — 1 operation(s) for glitchtip api.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The GlitchTip API API from GlitchTip — 1 operation(s) for glitchtip api.
   name: GlitchTip GlitchTip API API
   slug: glitchtip-glitchtip-api-api
-- description: The Import API from GlitchTip — 1 operation(s) for import.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Import API from GlitchTip — 1 operation(s) for import.
   name: GlitchTip Import API
   slug: glitchtip-import-api
-- description: The Instance License API from GlitchTip — 2 operation(s) for instance license.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Instance License API from GlitchTip — 2 operation(s) for instance license.
   name: GlitchTip Instance License API
   slug: glitchtip-instance-license-api
-- description: The Issues API from GlitchTip — 17 operation(s) for issues.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Issues API from GlitchTip — 17 operation(s) for issues.
   name: GlitchTip Issues API
   slug: glitchtip-issues-api
-- description: The Organizations API from GlitchTip — 35 operation(s) for organizations.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Organizations API from GlitchTip — 35 operation(s) for organizations.
   name: GlitchTip Organizations API
   slug: glitchtip-organizations-api
-- description: The Projects API from GlitchTip — 18 operation(s) for projects.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Projects API from GlitchTip — 18 operation(s) for projects.
   name: GlitchTip Projects API
   slug: glitchtip-projects-api
-- description: The Security API from GlitchTip — 1 operation(s) for security.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Security API from GlitchTip — 1 operation(s) for security.
   name: GlitchTip Security API
   slug: glitchtip-security-api
-- description: The Settings API from GlitchTip — 1 operation(s) for settings.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Settings API from GlitchTip — 1 operation(s) for settings.
   name: GlitchTip Settings API
   slug: glitchtip-settings-api
-- description: The Store API from GlitchTip — 1 operation(s) for store.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Store API from GlitchTip — 1 operation(s) for store.
   name: GlitchTip Store API
   slug: glitchtip-store-api
-- description: The Stripe API from GlitchTip — 7 operation(s) for stripe.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Stripe API from GlitchTip — 7 operation(s) for stripe.
   name: GlitchTip Stripe API
   slug: glitchtip-stripe-api
-- description: The Teams API from GlitchTip — 3 operation(s) for teams.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Teams API from GlitchTip — 3 operation(s) for teams.
   name: GlitchTip Teams API
   slug: glitchtip-teams-api
-- description: The Users API from GlitchTip — 6 operation(s) for users.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Users API from GlitchTip — 6 operation(s) for users.
   name: GlitchTip Users API
   slug: glitchtip-users-api
-- description: The Wizard API from GlitchTip — 2 operation(s) for wizard.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Wizard API from GlitchTip — 2 operation(s) for wizard.
   name: GlitchTip Wizard API
   slug: glitchtip-wizard-api
-- description: The Wizard Set Token API from GlitchTip — 1 operation(s) for wizard set token.
+- baseURL: https://app.glitchtip.com/api/0/
+  baseurl_source: declared
+  description: The Wizard Set Token API from GlitchTip — 1 operation(s) for wizard set token.
   name: GlitchTip Wizard Set Token API
   slug: glitchtip-wizard-set-token-api
 artifact_total: 75
@@ -393,7 +429,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/screenshots/glitchtip-2026-06-20T181917.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -60,85 +60,139 @@ apis:
 - description: 'Enterprise-only endpoints covering OAuth2 provider management, licensing and entitlements, group and RBAC management, AI spending budgets, organization-level IdP sync, provisioner key management, and '
   name: Coder Enterprise API
   slug: enterprise-api
-- description: The Agents API from Coder — 28 operation(s) for agents.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Agents API from Coder — 28 operation(s) for agents.
   name: Coder Agents API
   slug: coder-agents-api
-- description: The AI Bridge API from Coder — 4 operation(s) for ai bridge.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The AI Bridge API from Coder — 4 operation(s) for ai bridge.
   name: Coder AI Bridge API
   slug: coder-ai-bridge-api
-- description: The AI Providers API from Coder — 2 operation(s) for ai providers.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The AI Providers API from Coder — 2 operation(s) for ai providers.
   name: Coder AI Providers API
   slug: coder-ai-providers-api
-- description: The Applications API from Coder — 2 operation(s) for applications.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Applications API from Coder — 2 operation(s) for applications.
   name: Coder Applications API
   slug: coder-applications-api
-- description: The Audit API from Coder — 2 operation(s) for audit.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Audit API from Coder — 2 operation(s) for audit.
   name: Coder Audit API
   slug: coder-audit-api
-- description: The Authorization API from Coder — 7 operation(s) for authorization.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Authorization API from Coder — 7 operation(s) for authorization.
   name: Coder Authorization API
   slug: coder-authorization-api
-- description: The Builds API from Coder — 9 operation(s) for builds.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Builds API from Coder — 9 operation(s) for builds.
   name: Coder Builds API
   slug: coder-builds-api
-- description: The Chats API from Coder — 20 operation(s) for chats.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Chats API from Coder — 20 operation(s) for chats.
   name: Coder Chats API
   slug: coder-chats-api
-- description: The Debug API from Coder — 14 operation(s) for debug.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Debug API from Coder — 14 operation(s) for debug.
   name: Coder Debug API
   slug: coder-debug-api
-- description: The Enterprise API from Coder — 67 operation(s) for enterprise.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Enterprise API from Coder — 67 operation(s) for enterprise.
   name: Coder Enterprise API
   slug: coder-enterprise-api
-- description: The Files API from Coder — 2 operation(s) for files.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Files API from Coder — 2 operation(s) for files.
   name: Coder Files API
   slug: coder-files-api
-- description: The General API from Coder — 10 operation(s) for general.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The General API from Coder — 10 operation(s) for general.
   name: Coder General API
   slug: coder-general-api
-- description: The Git API from Coder — 3 operation(s) for git.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Git API from Coder — 3 operation(s) for git.
   name: Coder Git API
   slug: coder-git-api
-- description: The InitScript API from Coder — 1 operation(s) for initscript.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The InitScript API from Coder — 1 operation(s) for initscript.
   name: Coder InitScript API
   slug: coder-initscript-api
-- description: The Insights API from Coder — 5 operation(s) for insights.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Insights API from Coder — 5 operation(s) for insights.
   name: Coder Insights API
   slug: coder-insights-api
-- description: The Members API from Coder — 7 operation(s) for members.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Members API from Coder — 7 operation(s) for members.
   name: Coder Members API
   slug: coder-members-api
-- description: The Notifications API from Coder — 13 operation(s) for notifications.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Notifications API from Coder — 13 operation(s) for notifications.
   name: Coder Notifications API
   slug: coder-notifications-api
-- description: The Organizations API from Coder — 4 operation(s) for organizations.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Organizations API from Coder — 4 operation(s) for organizations.
   name: Coder Organizations API
   slug: coder-organizations-api
-- description: The PortSharing API from Coder — 1 operation(s) for portsharing.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The PortSharing API from Coder — 1 operation(s) for portsharing.
   name: Coder PortSharing API
   slug: coder-portsharing-api
-- description: The Prebuilds API from Coder — 1 operation(s) for prebuilds.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Prebuilds API from Coder — 1 operation(s) for prebuilds.
   name: Coder Prebuilds API
   slug: coder-prebuilds-api
-- description: The Provisioning API from Coder — 1 operation(s) for provisioning.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Provisioning API from Coder — 1 operation(s) for provisioning.
   name: Coder Provisioning API
   slug: coder-provisioning-api
-- description: The Secrets API from Coder — 2 operation(s) for secrets.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Secrets API from Coder — 2 operation(s) for secrets.
   name: Coder Secrets API
   slug: coder-secrets-api
-- description: The Tasks API from Coder — 9 operation(s) for tasks.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Tasks API from Coder — 9 operation(s) for tasks.
   name: Coder Tasks API
   slug: coder-tasks-api
-- description: The Templates API from Coder — 33 operation(s) for templates.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Templates API from Coder — 33 operation(s) for templates.
   name: Coder Templates API
   slug: coder-templates-api
-- description: The Users API from Coder — 28 operation(s) for users.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Users API from Coder — 28 operation(s) for users.
   name: Coder Users API
   slug: coder-users-api
-- description: The WorkspaceProxies API from Coder — 1 operation(s) for workspaceproxies.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The WorkspaceProxies API from Coder — 1 operation(s) for workspaceproxies.
   name: Coder WorkspaceProxies API
   slug: coder-workspaceproxies-api
-- description: The Workspaces API from Coder — 20 operation(s) for workspaces.
+- baseURL: https://coder.example.com/api/v2
+  baseurl_source: declared
+  description: The Workspaces API from Coder — 20 operation(s) for workspaces.
   name: Coder Workspaces API
   slug: coder-workspaces-api
 artifact_total: 83
@@ -408,7 +462,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:

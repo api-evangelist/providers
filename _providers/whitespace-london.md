@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -33,76 +45,124 @@ agentic_access:
   summary_line: 121 operations · 73 acting
 api_count: 1
 apis:
-- description: The Activities API from Whitespace — 4 operation(s) for activities.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Activities API from Whitespace — 4 operation(s) for activities.
   name: Whitespace Activities API
   slug: whitespace-london-activities-api
-- description: The Attachments API from Whitespace — 7 operation(s) for attachments.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Attachments API from Whitespace — 7 operation(s) for attachments.
   name: Whitespace Attachments API
   slug: whitespace-london-attachments-api
-- description: The Bind Notify Parties API from Whitespace — 1 operation(s) for bind notify parties.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Bind Notify Parties API from Whitespace — 1 operation(s) for bind notify parties.
   name: Whitespace Bind Notify Parties API
   slug: whitespace-london-bind-notify-parties-api
-- description: The Comments API from Whitespace — 2 operation(s) for comments.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Comments API from Whitespace — 2 operation(s) for comments.
   name: Whitespace Comments API
   slug: whitespace-london-comments-api
-- description: The Customer API from Whitespace — 2 operation(s) for customer.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Customer API from Whitespace — 2 operation(s) for customer.
   name: Whitespace Customer API
   slug: whitespace-london-customer-api
-- description: The Data API from Whitespace — 6 operation(s) for data.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Data API from Whitespace — 6 operation(s) for data.
   name: Whitespace Data API
   slug: whitespace-london-data-api
-- description: The Documents API from Whitespace — 4 operation(s) for documents.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Documents API from Whitespace — 4 operation(s) for documents.
   name: Whitespace Documents API
   slug: whitespace-london-documents-api
-- description: The Endorsements API from Whitespace — 1 operation(s) for endorsements.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Endorsements API from Whitespace — 1 operation(s) for endorsements.
   name: Whitespace Endorsements API
   slug: whitespace-london-endorsements-api
-- description: The Export API from Whitespace — 1 operation(s) for export.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Export API from Whitespace — 1 operation(s) for export.
   name: Whitespace Export API
   slug: whitespace-london-export-api
-- description: The Internal Broker Note API from Whitespace — 1 operation(s) for internal broker note.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Internal Broker Note API from Whitespace — 1 operation(s) for internal broker note.
   name: Whitespace Internal Broker Note API
   slug: whitespace-london-internal-broker-note-api
-- description: The Labels API from Whitespace — 3 operation(s) for labels.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Labels API from Whitespace — 3 operation(s) for labels.
   name: Whitespace Labels API
   slug: whitespace-london-labels-api
-- description: The Lines API from Whitespace — 1 operation(s) for lines.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Lines API from Whitespace — 1 operation(s) for lines.
   name: Whitespace Lines API
   slug: whitespace-london-lines-api
-- description: The Lookup API from Whitespace — 6 operation(s) for lookup.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Lookup API from Whitespace — 6 operation(s) for lookup.
   name: Whitespace Lookup API
   slug: whitespace-london-lookup-api
-- description: The MIReport API from Whitespace — 2 operation(s) for mireport.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The MIReport API from Whitespace — 2 operation(s) for mireport.
   name: Whitespace MI Report API
   slug: whitespace-london-mireport-api
-- description: The Overview API from Whitespace — 1 operation(s) for overview.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Overview API from Whitespace — 1 operation(s) for overview.
   name: Whitespace Overview API
   slug: whitespace-london-overview-api
-- description: The Owner API from Whitespace — 1 operation(s) for owner.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Owner API from Whitespace — 1 operation(s) for owner.
   name: Whitespace Owner API
   slug: whitespace-london-owner-api
-- description: The Questionnaire API from Whitespace — 3 operation(s) for questionnaire.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Questionnaire API from Whitespace — 3 operation(s) for questionnaire.
   name: Whitespace Questionnaire API
   slug: whitespace-london-questionnaire-api
-- description: The Risks API from Whitespace — 55 operation(s) for risks.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Risks API from Whitespace — 55 operation(s) for risks.
   name: Whitespace Risks API
   slug: whitespace-london-risks-api
-- description: The Sections API from Whitespace — 1 operation(s) for sections.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Sections API from Whitespace — 1 operation(s) for sections.
   name: Whitespace Sections API
   slug: whitespace-london-sections-api
-- description: The Shared API from Whitespace — 3 operation(s) for shared.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Shared API from Whitespace — 3 operation(s) for shared.
   name: Whitespace Shared API
   slug: whitespace-london-shared-api
-- description: The Show Declaration to Facility API from Whitespace — 2 operation(s) for show declaration to facility.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Show Declaration to Facility API from Whitespace — 2 operation(s) for show declaration to facility.
   name: Whitespace Show Declaration to Facility API
   slug: whitespace-london-show-declaration-to-facility-api
-- description: The Summary API from Whitespace — 2 operation(s) for summary.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Summary API from Whitespace — 2 operation(s) for summary.
   name: Whitespace Summary API
   slug: whitespace-london-summary-api
-- description: The User API from Whitespace — 3 operation(s) for user.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The User API from Whitespace — 3 operation(s) for user.
   name: Whitespace User API
   slug: whitespace-london-user-api
-- description: The Version API from Whitespace — 1 operation(s) for version.
+- baseURL: https://sandbox.whitespace.co.uk/
+  baseurl_source: declared
+  description: The Version API from Whitespace — 1 operation(s) for version.
   name: Whitespace Version API
   slug: whitespace-london-version-api
 artifact_total: 30
@@ -282,23 +342,23 @@ overview: 'Whitespace publishes 24 APIs on the [APIs.io](https://apis.io/) netwo
 random_paper: 0
 score:
   band: developing
-  composite: 45.6
+  composite: 47.5
   coverage:
     artifact_dirs: 23
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.9
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 55.3
     developer_ergonomics: 73.2
-    discoverability: 44.4
+    discoverability: 63.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 45.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,7 +376,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/screenshots/whitespace-london-2026-08-17T082915.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -47,223 +47,369 @@ apis:
 - description: Scaleway Generative APIs provide access to AI language models and generative AI services hosted on Scaleway's European cloud infrastructure. Compatible with the OpenAI API format for easy integration.
   name: Scaleway Generative APIs
   slug: scaleway-generative-apis
-- description: Network Access Control Lists (ACLs) allow you to manage inbound network traffic by setting up ACL rules
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Network Access Control Lists (ACLs) allow you to manage inbound network traffic by setting up ACL rules
   name: Scaleway Access Control List API
   slug: scaleway-access-control-list-api
-- description: Network Access Control Lists allow you to control incoming network traffic by setting up ACL rules.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Network Access Control Lists allow you to control incoming network traffic by setting up ACL rules.
   name: Scaleway ACLs API
   slug: scaleway-acls-api
-- description: The Alert Subscribers object. It represents a subscription to alerts about Scaleway incidents impacting a given Load Balancer. Use this endpoint to create subscribers (email addresses or webhooks), su
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Alert Subscribers object. It represents a subscription to alerts about Scaleway incidents impacting a given Load Balancer. Use this endpoint to create subscribers (email addresses or webhooks), su
   name: Scaleway Alert Subscribers API
   slug: scaleway-alert-subscribers-api
-- description: An API key is a unique identifier, used to authenticate requests made to the Scaleway API. An API key consists of an access key and a secret key. The access key is like a unique ID or username, and no
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: An API key is a unique identifier, used to authenticate requests made to the Scaleway API. An API key consists of an access key and a secret key. The access key is like a unique ID or username, and no
   name: Scaleway API Keys API
   slug: scaleway-api-keys-api
-- description: 'An application (also known as an IAM application) is a non-human user in a Scaleway Organization. IAM applications may be used when you want to create an API key that is not linked to a user, to give '
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'An application (also known as an IAM application) is a non-human user in a Scaleway Organization. IAM applications may be used when you want to create an API key that is not linked to a user, to give '
   name: Scaleway Applications API
   slug: scaleway-applications-api
-- description: The Load Balancer backend object. It represents a set of backend servers that the frontend forwards requests to using the specified configuration (port, protocol, proxy protocol etc). You can create m
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer backend object. It represents a set of backend servers that the frontend forwards requests to using the specified configuration (port, protocol, proxy protocol etc). You can create m
   name: Scaleway Backends API
   slug: scaleway-backends-api
-- description: A database backup is a dated export of a Database Instance stored on an offsite backend located in a different region than your database, by default. Once a backup is created, it can be used to restor
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A database backup is a dated export of a Database Instance stored on an offsite backend located in a different region than your database, by default. Once a backup is created, it can be used to restor
   name: Scaleway Backups API
   slug: scaleway-backups-api
-- description: This section allows you to manage the blocklist of your emails.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: This section allows you to manage the blocklist of your emails.
   name: Scaleway Blocklist API
   slug: scaleway-blocklist-api
-- description: The Load Balancer certificate object. It represents an SSL/TLS certificate for your Load Balancer which can be used by a frontend to establish secure, encrypted connections for incoming traffic. Use t
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer certificate object. It represents an SSL/TLS certificate for your Load Balancer which can be used by a frontend to establish secure, encrypted connections for incoming traffic. Use t
   name: Scaleway Certificate API
   slug: scaleway-certificate-api
-- description: All cluster types available in a specified region A cluster type represents the different commercial types of clusters offered by Scaleway.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: All cluster types available in a specified region A cluster type represents the different commercial types of clusters offered by Scaleway.
   name: Scaleway Cluster types API
   slug: scaleway-cluster-types-api
-- description: A cluster is a fully managed Kubernetes cluster It is composed of different pools, each pool containing the same kind of nodes.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A cluster is a fully managed Kubernetes cluster It is composed of different pools, each pool containing the same kind of nodes.
   name: Scaleway Clusters API
   slug: scaleway-clusters-api
-- description: A container is a web application, packaged as an OCI image, that runs inside Scaleway infrastructure and scales automatically. A container can be composed of multiple instances, depending on the scali
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A container is a web application, packaged as an OCI image, that runs inside Scaleway infrastructure and scales automatically. A container can be composed of multiple instances, depending on the scali
   name: Scaleway Containers API
   slug: scaleway-containers-api
-- description: Crons allow you to schedule the execution of functions
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Crons allow you to schedule the execution of functions
   name: Scaleway Crons API
   slug: scaleway-crons-api
-- description: 'A Database Instance is made up of one or multiple dedicated compute nodes running a single database engine. Two node settings are available: **High-Availability (HA)**, with a main node and one replic'
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'A Database Instance is made up of one or multiple dedicated compute nodes running a single database engine. Two node settings are available: **High-Availability (HA)**, with a main node and one replic'
   name: Scaleway Database Instances API
   slug: scaleway-database-instances-api
-- description: Databases can be used to store and manage sets of structured information, or data. The interaction between the user and a database is done using a Database Engine, which provides a structured query la
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Databases can be used to store and manage sets of structured information, or data. The interaction between the user and a database is done using a Database Engine, which provides a structured query la
   name: Scaleway Databases API
   slug: scaleway-databases-api
-- description: A container is provided with an automatically generated domain through which it is accessible. Alternatively, custom domains can be assigned to containers in order to facilitate their use.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A container is provided with an automatically generated domain through which it is accessible. Alternatively, custom domains can be assigned to containers in order to facilitate their use.
   name: Scaleway Domains API
   slug: scaleway-domains-api
-- description: This section lists your emails and shows you how to manage them.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: This section lists your emails and shows you how to manage them.
   name: Scaleway Emails API
   slug: scaleway-emails-api
-- description: A point of connection to a Database Instance. The endpoint is associated with an IPv4 address and a port. It contains the information about whether the endpoint is read-write or not. The endpoints alw
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A point of connection to a Database Instance. The endpoint is associated with an IPv4 address and a port. It contains the information about whether the endpoint is read-write or not. The endpoints alw
   name: Scaleway Endpoints API
   slug: scaleway-endpoints-api
-- description: A database engine is the software component that stores and retrieves your data from a database. Currently PostgreSQL 11, 12, 13 and 14 are available. MySQL is available in version 8.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A database engine is the software component that stores and retrieves your data from a database. Currently PostgreSQL 11, 12, 13 and 14 are available. MySQL is available in version 8.
   name: Scaleway Engines API
   slug: scaleway-engines-api
-- description: The Load Balancer frontend object. It listens on a configured port and forward requests to one or several backends. You can create multiple frontends for any given Load Balancer, each listening on a d
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer frontend object. It listens on a configured port and forward requests to one or several backends. You can create multiple frontends for any given Load Balancer, each listening on a d
   name: Scaleway Frontends API
   slug: scaleway-frontends-api
-- description: A function defines a procedure on how to change one element into another. The function remains static, while the variables that pass through it can vary.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A function defines a procedure on how to change one element into another. The function remains static, while the variables that pass through it can vary.
   name: Scaleway Functions API
   slug: scaleway-functions-api
-- description: A group (also known as an IAM group) is a grouping of [users](https://www.scaleway.com/en/docs/iam/concepts/#user) and/or [applications](https://www.scaleway.com/en/docs/iam/concepts/#application). Cr
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A group (also known as an IAM group) is a grouping of [users](https://www.scaleway.com/en/docs/iam/concepts/#user) and/or [applications](https://www.scaleway.com/en/docs/iam/concepts/#application). Cr
   name: Scaleway Groups API
   slug: scaleway-groups-api
-- description: The Iam API from Scaleway — 8 operation(s) for iam.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Iam API from Scaleway — 8 operation(s) for iam.
   name: Scaleway Iam API
   slug: scaleway-iam-api
-- description: Images are backups of your Instances. One image will contain all the volumes of your Instance and can be used to restore your Instance and its data. You can also use it to create a series of Instances
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Images are backups of your Instances. One image will contain all the volumes of your Instance and can be used to restore your Instance and its data. You can also use it to create a series of Instances
   name: Scaleway Images API
   slug: scaleway-images-api
-- description: The Instance API from Scaleway — 2 operation(s) for instance.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Instance API from Scaleway — 2 operation(s) for instance.
   name: Scaleway Instance API
   slug: scaleway-instance-api
-- description: Advanced Database Instance settings allow you to tune the behavior of your database engines to better fit your needs. Available settings depend on the database engine and its version. Note that some s
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Advanced Database Instance settings allow you to tune the behavior of your database engines to better fit your needs. Available settings depend on the database engine and its version. Note that some s
   name: Scaleway Instance Settings API
   slug: scaleway-instance-settings-api
-- description: All Instance types available in a specified zone. Each type contains all the features of the Instance (CPU, RAM, Storage) as well as their associated pricing.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: All Instance types available in a specified zone. Each type contains all the features of the Instance (CPU, RAM, Storage) as well as their associated pricing.
   name: Scaleway Instance Types API
   slug: scaleway-instance-types-api
-- description: 'Instances are computing units providing resources to run your applications on. Scaleway offers various Instance types including **Virtual Instances** and **dedicated GPU Instances**. **Note: Instances'
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'Instances are computing units providing resources to run your applications on. Scaleway offers various Instance types including **Virtual Instances** and **dedicated GPU Instances**. **Note: Instances'
   name: Scaleway Instances API
   slug: scaleway-instances-api
-- description: The Load Balancer IP address object. It represents a flexible IP address which can be attached to a Load Balancer. Use this endpoint to create, list, get, update and delete your Load Balancer IP addre
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer IP address object. It represents a flexible IP address which can be attached to a Load Balancer. Use this endpoint to create, list, get, update and delete your Load Balancer IP addre
   name: Scaleway IP addresses API
   slug: scaleway-ip-addresses-api
-- description: A flexible IP address is an IP address which you hold independently of any Instance. You can attach it to any of your Instances and do live migration of the IP address between your Instances. Note tha
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A flexible IP address is an IP address which you hold independently of any Instance. You can attach it to any of your Instances and do live migration of the IP address between your Instances. Note tha
   name: Scaleway IPs API
   slug: scaleway-ips-api
-- description: The JWTs API from Scaleway — 2 operation(s) for jwts.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The JWTs API from Scaleway — 2 operation(s) for jwts.
   name: Scaleway JWTs API
   slug: scaleway-jwts-api
-- description: The main Load Balancer object. A Scaleway Load Balancer is a representation of a fully-managed, highly-available Instance configured to direct traffic across multiple servers. Use the Load Balancer en
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The main Load Balancer object. A Scaleway Load Balancer is a representation of a fully-managed, highly-available Instance configured to direct traffic across multiple servers. Use the Load Balancer en
   name: Scaleway Load Balancer API
   slug: scaleway-load-balancer-api
-- description: The Load Balancer offer type object. It represents the different commercial types of Load Balancer offered by Scaleway, each with different specifications and pricing. Use this endpoint to list all Lo
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer offer type object. It represents the different commercial types of Load Balancer offered by Scaleway, each with different specifications and pricing. Use this endpoint to list all Lo
   name: Scaleway Load Balancer Types API
   slug: scaleway-load-balancer-types-api
-- description: Logs provide a record of all events and errors that take place during the lifecycle of your IAM resources (IAM users, applications, groups, API keys, and policies). Logs represent a source of visibili
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Logs provide a record of all events and errors that take place during the lifecycle of your IAM resources (IAM users, applications, groups, API keys, and policies). Logs represent a source of visibili
   name: Scaleway Logs API
   slug: scaleway-logs-api
-- description: A namespace is a logical concept that allows you to group your containers. Containers in the same namespace can share environment variables, defined only once, at the namespace level.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A namespace is a logical concept that allows you to group your containers. Containers in the same namespace can share environment variables, defined only once, at the namespace level.
   name: Scaleway Namespaces API
   slug: scaleway-namespaces-api
-- description: 'A Network **A**ccess **C**ontrol **L**ist (ACL) is a set of stateless, IP-based rules used to filter packets between Private Networks in a VPC. Each VPC can have a maximum of two Network ACLs: one for'
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'A Network **A**ccess **C**ontrol **L**ist (ACL) is a set of stateless, IP-based rules used to filter packets between Private Networks in a VPC. Each VPC can have a maximum of two Network ACLs: one for'
   name: Scaleway Network ACLs API
   slug: scaleway-network-acls-api
-- description: A node (short for worker node) is an abstraction for a Scaleway Instance A node is always part of a pool. Each of them has the Kubernetes software automatically installed and configured by Scaleway.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A node (short for worker node) is an abstraction for a Scaleway Instance A node is always part of a pool. Each of them has the Kubernetes software automatically installed and configured by Scaleway.
   name: Scaleway Nodes API
   slug: scaleway-nodes-api
-- description: 'Two node type ranges are available: * **General Purpose:** production-grade nodes designed for scalable database infrastructures. * **Development:** sandbox environments and reliable performance for d'
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'Two node type ranges are available: * **General Purpose:** production-grade nodes designed for scalable database infrastructures. * **Development:** sandbox environments and reliable performance for d'
   name: Scaleway NodeTypes API
   slug: scaleway-nodetypes-api
-- description: This section allows you to manage and get get subscribed information about your project email offer.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: This section allows you to manage and get get subscribed information about your project email offer.
   name: Scaleway offers API
   slug: scaleway-offers-api
-- description: Permission sets are the main components of [IAM rules](https://www.scaleway.com/en/docs/iam/concepts/#rule). They consist of sets of one or multiple [permissions](https://www.scaleway.com/en/docs/iam/
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Permission sets are the main components of [IAM rules](https://www.scaleway.com/en/docs/iam/concepts/#rule). They consist of sets of one or multiple [permissions](https://www.scaleway.com/en/docs/iam/
   name: Scaleway Permission sets API
   slug: scaleway-permission-sets-api
-- description: Placement groups allow the user to express a preference regarding the physical position of a group of Instances. The feature lets the user choose to either group Instances on the same physical hardwar
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Placement groups allow the user to express a preference regarding the physical position of a group of Instances. The feature lets the user choose to either group Instances on the same physical hardwar
   name: Scaleway Placement Groups API
   slug: scaleway-placement-groups-api
-- description: Policies control user rights, by defining one or more rules to apply to the attached principals (users, groups or applications). A policy rule has two parts:\ permission set and scope. For each policy
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Policies control user rights, by defining one or more rules to apply to the attached principals (users, groups or applications). A policy rule has two parts:\ permission set and scope. For each policy
   name: Scaleway Policies API
   slug: scaleway-policies-api
-- description: A pool is a set of identical nodes A pool has a name, a size (its desired number of nodes), node number limits (min, max), and a Scaleway Instance type. Changing those limits increases/decreases the s
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A pool is a set of identical nodes A pool has a name, a size (its desired number of nodes), node number limits (min, max), and a Scaleway Instance type. Changing those limits increases/decreases the s
   name: Scaleway Pools API
   slug: scaleway-pools-api
-- description: 'The Private Network object. It represents Scaleway Private Networks which can be attached to/detached from a Load Balancer. Use this endpoint to list the Private Networks attached to a Load Balancer, '
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'The Private Network object. It represents Scaleway Private Networks which can be attached to/detached from a Load Balancer. Use this endpoint to list the Private Networks attached to a Load Balancer, '
   name: Scaleway Private Networks API
   slug: scaleway-private-networks-api
-- description: A Private NIC is the network interface that connects an Instance to a Private Network. An Instance can have multiple private NICs at the same time, but each NIC must belong to a different Private Netw
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A Private NIC is the network interface that connects an Instance to a Private Network. An Instance can have multiple private NICs at the same time, but each NIC must belong to a different Private Netw
   name: Scaleway Private NICs API
   slug: scaleway-private-nics-api
-- description: Privileges are permissions that can be granted to database users. You can manage user permissions either via the console, the Scaleway APIs or SQL. Managed Database for PostgreSQL and MySQL provides a
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Privileges are permissions that can be granted to database users. You can manage user permissions either via the console, the Scaleway APIs or SQL. Managed Database for PostgreSQL and MySQL provides a
   name: Scaleway Privileges API
   slug: scaleway-privileges-api
-- description: Project consumption allow you to see your project consumption.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Project consumption allow you to see your project consumption.
   name: Scaleway Project Consumption API
   slug: scaleway-project-consumption-api
-- description: Project settings allow you to manage the configuration of your projects.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Project settings allow you to manage the configuration of your projects.
   name: Scaleway Project Settings API
   slug: scaleway-project-settings-api
-- description: Every Scaleway Organization detains a certain number of resource quotas, which are limits on the number of Scaleway resources these Organizations can use.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Every Scaleway Organization detains a certain number of resource quotas, which are limits on the number of Scaleway resources these Organizations can use.
   name: Scaleway Quotas API
   slug: scaleway-quotas-api
-- description: A Read Replica is a live copy of a Database Instance that behaves like an Instance, but that only allows read-only connections. The replica mirrors the data of the primary Database node and any change
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A Read Replica is a live copy of a Database Instance that behaves like an Instance, but that only allows read-only connections. The replica mirrors the data of the primary Database node and any change
   name: Scaleway Read Replicas API
   slug: scaleway-read-replicas-api
-- description: The Load Balancer route object. It represents a configuration on a particular frontend to direct traffic to a particular backend if certain conditions are fulfilled. Conditions must be based on SNI fo
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: The Load Balancer route object. It represents a configuration on a particular frontend to direct traffic to a particular backend if certain conditions are fulfilled. Conditions must be based on SNI fo
   name: Scaleway Route API
   slug: scaleway-route-api
-- description: Custom routes that will be pushed to your private networks resources.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Custom routes that will be pushed to your private networks resources.
   name: Scaleway Routes API
   slug: scaleway-routes-api
-- description: A rule (also known as an IAM rule) is the part of a [policy](https://www.scaleway.com/en/docs/iam/concepts/#policy) that defines the permissions of the policy's [principal](https://www.scaleway.com/en
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A rule (also known as an IAM rule) is the part of a [policy](https://www.scaleway.com/en/docs/iam/concepts/#policy) that defines the permissions of the policy's [principal](https://www.scaleway.com/en
   name: Scaleway Rules API
   slug: scaleway-rules-api
-- description: Scaleway supports Identity Federation to provide your teams with secure access to their accounts via Single Sign-On (SSO). Depending on your organization's requirements, you can use either built-in OA
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Scaleway supports Identity Federation to provide your teams with secure access to their accounts via Single Sign-On (SSO). Depending on your organization's requirements, you can use either built-in OA
   name: Scaleway SAML API
   slug: scaleway-saml-api
-- description: Versions store the sensitive data contained in your secrets (API keys, passwords, or certificates)
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Versions store the sensitive data contained in your secrets (API keys, passwords, or certificates)
   name: Scaleway Secret Versions API
   slug: scaleway-secret-versions-api
-- description: Secrets are logical containers made up of zero or more immutable versions, that contain sensitive data
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Secrets are logical containers made up of zero or more immutable versions, that contain sensitive data
   name: Scaleway Secrets API
   slug: scaleway-secrets-api
-- description: 'A security group is a set of firewall rules on a set of Instances. Security groups enable you to create rules that either drop or allow incoming traffic from certain ports of your Instances. Security '
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: 'A security group is a set of firewall rules on a set of Instances. Security groups enable you to create rules that either drop or allow incoming traffic from certain ports of your Instances. Security '
   name: Scaleway Security Groups API
   slug: scaleway-security-groups-api
-- description: Security settings are organization-wide configurations that apply to all users in an organization. These settings enforce restrictions on how users authenticate with Scaleway's services.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Security settings are organization-wide configurations that apply to all users in an organization. These settings enforce restrictions on how users authenticate with Scaleway's services.
   name: Scaleway Security Settings API
   slug: scaleway-security-settings-api
-- description: A snapshot is a consistent, instantaneous copy of the Block Storage volume of your Database Instance at a certain point in time. They are designed to recover your data in case of failure or accidental
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A snapshot is a consistent, instantaneous copy of the Block Storage volume of your Database Instance at a certain point in time. They are designed to recover your data in case of failure or accidental
   name: Scaleway Snapshots API
   slug: scaleway-snapshots-api
-- description: An SSH Key (**S**ecure **Sh**ell Key) allows passwordless connection to an [Instance](https://www.scaleway.com/en/docs/instances/concepts/#instance). An SSH Key is [generated by creating an RSA key pa
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: An SSH Key (**S**ecure **Sh**ell Key) allows passwordless connection to an [Instance](https://www.scaleway.com/en/docs/instances/concepts/#instance). An SSH Key is [generated by creating an RSA key pa
   name: Scaleway SSH Keys API
   slug: scaleway-ssh-keys-api
-- description: This section gives you information about your emails' statuses.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: This section gives you information about your emails' statuses.
   name: Scaleway Statistics API
   slug: scaleway-statistics-api
-- description: Load balancer statistics (deprecated).
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Load balancer statistics (deprecated).
   name: Scaleway Stats API
   slug: scaleway-stats-api
-- description: CIDR subnet management for your Private Networks.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: CIDR subnet management for your Private Networks.
   name: Scaleway Subnets API
   slug: scaleway-subnets-api
-- description: Tokens allow you to manage access control to your function.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Tokens allow you to manage access control to your function.
   name: Scaleway Tokens API
   slug: scaleway-tokens-api
-- description: A trigger is a way to invoke a container based on specific events, such as a periodic schedule or a message arriving in a queue. When the event occurs, the trigger invokes the container, passing relev
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A trigger is a way to invoke a container based on specific events, such as a periodic schedule or a message arriving in a queue. When the event occurs, the trigger invokes the container, passing relev
   name: Scaleway Triggers API
   slug: scaleway-triggers-api
-- description: User data is a key/value store you can use to provide your instance with introspective data. As an example of use, Scaleway images contain the `scw-generate-ssh-keys` script, which generates the SSH s
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: User data is a key/value store you can use to provide your instance with introspective data. As an example of use, Scaleway images contain the `scw-generate-ssh-keys` script, which generates the SSH s
   name: Scaleway User Data API
   slug: scaleway-user-data-api
-- description: Users are profiles to which you can attribute database-level permissions. They allow you to define permissions specific to each type of database usage. For example, users with an `admin` role can crea
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Users are profiles to which you can attribute database-level permissions. They allow you to define permissions specific to each type of database usage. For example, users with an `admin` role can crea
   name: Scaleway Users API
   slug: scaleway-users-api
-- description: A version is a vanilla Kubernetes version like `x.y.z` It comprises a major version `x`, a minor version `y`, and a patch version `z`. At the minimum, Kapsule (Scaleway's managed Kubernetes), will sup
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A version is a vanilla Kubernetes version like `x.y.z` It comprises a major version `x`, a minor version `y`, and a patch version `z`. At the minimum, Kapsule (Scaleway's managed Kubernetes), will sup
   name: Scaleway Versions API
   slug: scaleway-versions-api
-- description: All volume types available in a specified zone. Each of these types will contains all the capabilities and constraints of the volume (min size, max size, snapshot).
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: All volume types available in a specified zone. Each of these types will contains all the capabilities and constraints of the volume (min size, max size, snapshot).
   name: Scaleway Volume Types API
   slug: scaleway-volume-types-api
-- description: A volume is where you store your data inside your Instance. It appears as a block device on Linux that you can use to create a filesystem and mount it. The Instance API only supports local (`l_ssd`) a
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A volume is where you store your data inside your Instance. It appears as a block device on Linux that you can use to create a filesystem and mount it. The Instance API only supports local (`l_ssd`) a
   name: Scaleway Volumes API
   slug: scaleway-volumes-api
-- description: A VPC peering connector constitutes one side of a VPC peering connection. It represents an intent to peer with another VPC. Two matching, compatible VPC connectors create a VPC peering connection.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A VPC peering connector constitutes one side of a VPC peering connection. It represents an intent to peer with another VPC. Two matching, compatible VPC connectors create a VPC peering connection.
   name: Scaleway VPC Connectors API
   slug: scaleway-vpc-connectors-api
-- description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: A Virtual Private Cloud (VPC) allows you to group your regional Private Networks together. Note that a Private Network can be a part of only one VPC.
   name: Scaleway VPCs API
   slug: scaleway-vpcs-api
-- description: Webhooks enable real-time communication and automation between systems by sending messages through all protocols supported by SNS, such as HTTP, HTTPS, and Serverless Functions, allowing for immediate
+- baseURL: https://api.scaleway.com
+  baseurl_source: spec
+  description: Webhooks enable real-time communication and automation between systems by sending messages through all protocols supported by SNS, such as HTTP, HTTPS, and Serverless Functions, allowing for immediate
   name: Scaleway Webhooks API
   slug: scaleway-webhooks-api
 artifact_total: 589
@@ -1973,7 +2119,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/screenshots/scaleway-2026-08-17T125218.png
 security:

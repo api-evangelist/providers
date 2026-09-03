@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: At Princess Beef Heavy Industries (or as we call it pb33f), we build beautifully designed heavy-duty and enterprise grade software for code hackers and ...
   name: Princess Beef Heavy Industries
   slug: princess-beef-heavy-industries
-- description: product operations
+- baseURL: https://api.pb33f.io/wiretap/giftshop
+  baseurl_source: spec
+  description: product operations
   name: Princess Beef Heavy Industries Product API
   slug: princess-beef-heavy-industries-product-api
 artifact_total: 15
@@ -156,7 +158,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/screenshots/princess-beef-heavy-industries-2026-06-20T192117.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 3
 apis:
-- description: Operations for managing partner billing accounts for customers, including creating, retrieving, updating, and deleting billing accounts.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for managing partner billing accounts for customers, including creating, retrieving, updating, and deleting billing accounts.
   name: 1Password Accounts API
   slug: 1password-accounts-api
-- description: Operations for listing API requests made to the Connect server.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for listing API requests made to the Connect server.
   name: 1Password Activity API
   slug: 1password-activity-api
-- description: Retrieve information about actions performed by team members within a 1Password account, including when an action was performed and by whom, along with details about the type and object of the action.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Retrieve information about actions performed by team members within a 1Password account, including when an action was performed and by whom, along with details about the type and object of the action.
   name: 1Password Audit Events API
   slug: 1password-audit-events-api
-- description: Operations for listing and retrieving files attached to items.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for listing and retrieving files attached to items.
   name: 1Password Files API
   slug: 1password-files-api
-- description: Operations for checking the health and status of the Connect server.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for checking the health and status of the Connect server.
   name: 1Password Health API
   slug: 1password-health-api
-- description: Retrieve information about the authentication token being used, including its features and permissions.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Retrieve information about the authentication token being used, including its features and permissions.
   name: 1Password Introspection API
   slug: 1password-introspection-api
-- description: Retrieve information about items in shared vaults that have been modified, accessed, or used, including the user who accessed the item, when it was accessed, and the vault where the item is stored.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Retrieve information about items in shared vaults that have been modified, accessed, or used, including the user who accessed the item, when it was accessed, and the vault where the item is stored.
   name: 1Password Item Usages API
   slug: 1password-item-usages-api
-- description: Operations for creating, reading, updating, and deleting items within vaults.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for creating, reading, updating, and deleting items within vaults.
   name: 1Password Items API
   slug: 1password-items-api
-- description: Operations for retrieving Prometheus-style metrics from the Connect server.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for retrieving Prometheus-style metrics from the Connect server.
   name: 1Password Metrics API
   slug: 1password-metrics-api
-- description: 'Retrieve information about sign-in attempts to 1Password accounts, including the name and IP address of the user who attempted to sign in, when the attempt was made, and for failed attempts the cause '
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: 'Retrieve information about sign-in attempts to 1Password accounts, including the name and IP address of the user who attempted to sign in, when the attempt was made, and for failed attempts the cause '
   name: 1Password Sign-In Attempts API
   slug: 1password-sign-in-attempts-api
-- description: Operations for listing and retrieving vaults available to the Connect server.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations for listing and retrieving vaults available to the Connect server.
   name: 1Password Vaults API
   slug: 1password-vaults-api
 arazzos:
@@ -733,7 +755,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -743,7 +765,7 @@ score:
     discoverability: 63.0
     governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 58.5
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -754,7 +776,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Dealers API from Auto.dev — 1 operation(s) for dealers.
+- baseURL: https://api.auto.dev
+  baseurl_source: declared
+  description: The Dealers API from Auto.dev — 1 operation(s) for dealers.
   name: Auto.dev Dealers API
   slug: auto-dev-dealers-api
-- description: The Listings API from Auto.dev — 2 operation(s) for listings.
+- baseURL: https://api.auto.dev
+  baseurl_source: declared
+  description: The Listings API from Auto.dev — 2 operation(s) for listings.
   name: Auto.dev Listings API
   slug: auto-dev-listings-api
-- description: The Market Value API from Auto.dev — 1 operation(s) for market value.
+- baseURL: https://api.auto.dev
+  baseurl_source: declared
+  description: The Market Value API from Auto.dev — 1 operation(s) for market value.
   name: Auto.dev Market Value API
   slug: auto-dev-market-value-api
-- description: The Recalls API from Auto.dev — 1 operation(s) for recalls.
+- baseURL: https://api.auto.dev
+  baseurl_source: declared
+  description: The Recalls API from Auto.dev — 1 operation(s) for recalls.
   name: Auto.dev Recalls API
   slug: auto-dev-recalls-api
-- description: The VIN Decoding API from Auto.dev — 2 operation(s) for vin decoding.
+- baseURL: https://api.auto.dev
+  baseurl_source: declared
+  description: The VIN Decoding API from Auto.dev — 2 operation(s) for vin decoding.
   name: Auto.dev VIN Decoding API
   slug: auto-dev-vin-decoding-api
 artifact_total: 18
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auto-dev/refs/heads/main/screenshots/auto-dev-2026-07-25T201815.png
 security:

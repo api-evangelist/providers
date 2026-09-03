@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -50,118 +50,194 @@ apis:
 - description: RESTful web services layer for Business Central that provides the preferred integration method. Includes built-in APIs, custom API pages and queries, and supports both on-premises and cloud deployment
   name: Business Central REST API Web Services
   slug: business-central-rest-api-web-services
-- description: Manage general ledger accounts
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage general ledger accounts
   name: Microsoft Dynamics NAV Accounts API
   slug: navision-accounts-api
-- description: Manage installed applications
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage installed applications
   name: Microsoft Dynamics NAV App Management API
   slug: navision-app-management-api
-- description: Query available application versions and countries
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Query available application versions and countries
   name: Microsoft Dynamics NAV Available Applications API
   slug: navision-available-applications-api
-- description: Manage automation companies
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage automation companies
   name: Microsoft Dynamics NAV Companies API
   slug: navision-companies-api
-- description: Manage RapidStart configuration packages
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage RapidStart configuration packages
   name: Microsoft Dynamics NAV Configuration Packages API
   slug: navision-configuration-packages-api
-- description: Manage country and region codes
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage country and region codes
   name: Microsoft Dynamics NAV Countries/Regions API
   slug: navision-countries-regions-api
-- description: Manage currencies and exchange rates
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage currencies and exchange rates
   name: Microsoft Dynamics NAV Currency API
   slug: navision-currency-api
-- description: Manage customer payment journals
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage customer payment journals
   name: Microsoft Dynamics NAV Customer Payments API
   slug: navision-customer-payments-api
-- description: Manage customer records
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage customer records
   name: Microsoft Dynamics NAV Customers API
   slug: navision-customers-api
-- description: Manage dimensions and dimension values
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage dimensions and dimension values
   name: Microsoft Dynamics NAV Dimensions API
   slug: navision-dimensions-api
-- description: Manage employee records
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage employee records
   name: Microsoft Dynamics NAV Employees API
   slug: navision-employees-api
-- description: View and track environment operations
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: View and track environment operations
   name: Microsoft Dynamics NAV Environment Operations API
   slug: navision-environment-operations-api
-- description: Manage environment settings and configuration
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage environment settings and configuration
   name: Microsoft Dynamics NAV Environment Settings API
   slug: navision-environment-settings-api
-- description: Manage Business Central environments
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage Business Central environments
   name: Microsoft Dynamics NAV Environments API
   slug: navision-environments-api
-- description: Monitor extension installation progress
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Monitor extension installation progress
   name: Microsoft Dynamics NAV Extension Deployment Status API
   slug: navision-extension-deployment-status-api
-- description: Upload and install per-tenant extensions
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Upload and install per-tenant extensions
   name: Microsoft Dynamics NAV Extension Upload API
   slug: navision-extension-upload-api
-- description: Manage installed extensions
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage installed extensions
   name: Microsoft Dynamics NAV Extensions API
   slug: navision-extensions-api
-- description: Manage feature flags
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage feature flags
   name: Microsoft Dynamics NAV Features API
   slug: navision-features-api
-- description: Manage item categories
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage item categories
   name: Microsoft Dynamics NAV Item Categories API
   slug: navision-item-categories-api
-- description: Manage inventory items
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage inventory items
   name: Microsoft Dynamics NAV Items API
   slug: navision-items-api
-- description: Manage general journals and journal lines
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage general journals and journal lines
   name: Microsoft Dynamics NAV Journals API
   slug: navision-journals-api
-- description: Manage administrative notifications
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage administrative notifications
   name: Microsoft Dynamics NAV Notifications API
   slug: navision-notifications-api
-- description: Manage payment methods
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage payment methods
   name: Microsoft Dynamics NAV Payment Methods API
   slug: navision-payment-methods-api
-- description: Manage payment terms
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage payment terms
   name: Microsoft Dynamics NAV Payment Terms API
   slug: navision-payment-terms-api
-- description: Manage permission sets and user permissions
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage permission sets and user permissions
   name: Microsoft Dynamics NAV Permission Sets API
   slug: navision-permission-sets-api
-- description: Manage user profiles
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage user profiles
   name: Microsoft Dynamics NAV Profiles API
   slug: navision-profiles-api
-- description: Manage purchase invoices and lines
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage purchase invoices and lines
   name: Microsoft Dynamics NAV Purchase Invoices API
   slug: navision-purchase-invoices-api
-- description: Manage purchase orders and lines
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage purchase orders and lines
   name: Microsoft Dynamics NAV Purchase Orders API
   slug: navision-purchase-orders-api
-- description: Manage sales invoices and lines
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage sales invoices and lines
   name: Microsoft Dynamics NAV Sales Invoices API
   slug: navision-sales-invoices-api
-- description: Manage sales orders and lines
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage sales orders and lines
   name: Microsoft Dynamics NAV Sales Orders API
   slug: navision-sales-orders-api
-- description: View scheduled background jobs
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: View scheduled background jobs
   name: Microsoft Dynamics NAV Scheduled Jobs API
   slug: navision-scheduled-jobs-api
-- description: Manage security groups
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage security groups
   name: Microsoft Dynamics NAV Security Groups API
   slug: navision-security-groups-api
-- description: View storage usage and quotas
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: View storage usage and quotas
   name: Microsoft Dynamics NAV Storage API
   slug: navision-storage-api
-- description: Manage support settings
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage support settings
   name: Microsoft Dynamics NAV Support Settings API
   slug: navision-support-settings-api
-- description: Manage environment updates
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage environment updates
   name: Microsoft Dynamics NAV Update Management API
   slug: navision-update-management-api
-- description: Manage Business Central users
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage Business Central users
   name: Microsoft Dynamics NAV Users API
   slug: navision-users-api
-- description: Manage vendor payment journals
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage vendor payment journals
   name: Microsoft Dynamics NAV Vendor Payments API
   slug: navision-vendor-payments-api
-- description: Manage vendor records
+- baseURL: https://{server}:{port}/{instance}/api/{version}
+  baseurl_source: declared
+  description: Manage vendor records
   name: Microsoft Dynamics NAV Vendors API
   slug: navision-vendors-api
 arazzos:
@@ -1826,7 +1902,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:

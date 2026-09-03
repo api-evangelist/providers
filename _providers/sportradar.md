@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,34 +56,54 @@ apis:
 - description: Provides pre-match and live odds comparison data from major sportsbooks worldwide, including opening lines, closing lines, and line movement history for sports betting applications and analytics platf
   name: Sportradar Odds API
   slug: odds-api
-- description: Team and player profiles, rosters, and biographical information.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: Team and player profiles, rosters, and biographical information.
   name: Sportradar Competitors API
   slug: sportradar-competitors-api
-- description: NBA Push Feeds deliver real-time play-by-play events, statistics, clock updates, and draft activity over HTTP chunked streaming.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: NBA Push Feeds deliver real-time play-by-play events, statistics, clock updates, and draft activity over HTTP chunked streaming.
   name: Sportradar NBA Push API
   slug: sportradar-nba-push-api
-- description: NFL Push Feeds deliver real-time game events, statistics, pulse messages, and draft activity over HTTP chunked streaming.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: NFL Push Feeds deliver real-time game events, statistics, pulse messages, and draft activity over HTTP chunked streaming.
   name: Sportradar NFL Push API
   slug: sportradar-nfl-push-api
-- description: NHL Push Feeds deliver real-time game events, statistics, and enriched clock data over HTTP chunked streaming.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: NHL Push Feeds deliver real-time game events, statistics, and enriched clock data over HTTP chunked streaming.
   name: Sportradar NHL Push API
   slug: sportradar-nhl-push-api
-- description: Retrieve daily, weekly, and seasonal schedules for sports competitions.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: Retrieve daily, weekly, and seasonal schedules for sports competitions.
   name: Sportradar Schedules API
   slug: sportradar-schedules-api
-- description: Access live and historical game scores and match results.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: Access live and historical game scores and match results.
   name: Sportradar Scores API
   slug: sportradar-scores-api
-- description: Soccer Push Feeds deliver real-time match events and statistics over HTTP chunked streaming for 500+ competitions worldwide.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: Soccer Push Feeds deliver real-time match events and statistics over HTTP chunked streaming for 500+ competitions worldwide.
   name: Sportradar Soccer Push API
   slug: sportradar-soccer-push-api
-- description: League and tournament standings, rankings, and tables.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: League and tournament standings, rankings, and tables.
   name: Sportradar Standings API
   slug: sportradar-standings-api
-- description: Team and player performance statistics across competitions and seasons.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: Team and player performance statistics across competitions and seasons.
   name: Sportradar Statistics API
   slug: sportradar-statistics-api
-- description: WNBA Push Feeds deliver real-time game events, statistics, and clock updates over HTTP chunked streaming.
+- baseURL: https://api.sportradar.com
+  baseurl_source: spec
+  description: WNBA Push Feeds deliver real-time game events, statistics, and clock updates over HTTP chunked streaming.
   name: Sportradar WNBA Push API
   slug: sportradar-wnba-push-api
 artifact_total: 58
@@ -360,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/screenshots/sportradar-2026-06-20T194345.png
 security:

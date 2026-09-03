@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: The Authentication API from 2ndKitchen — 5 operation(s) for authentication.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Authentication API from 2ndKitchen — 5 operation(s) for authentication.
   name: 2ndKitchen Authentication API
   slug: 2ndkitchen-authentication-api
-- description: The Brand API from 2ndKitchen — 1 operation(s) for brand.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Brand API from 2ndKitchen — 1 operation(s) for brand.
   name: 2ndKitchen Brand API
   slug: 2ndkitchen-brand-api
-- description: The Business API from 2ndKitchen — 1 operation(s) for business.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Business API from 2ndKitchen — 1 operation(s) for business.
   name: 2ndKitchen Business API
   slug: 2ndkitchen-business-api
-- description: The Coupons API from 2ndKitchen — 1 operation(s) for coupons.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Coupons API from 2ndKitchen — 1 operation(s) for coupons.
   name: 2ndKitchen Coupons API
   slug: 2ndkitchen-coupons-api
-- description: The Deliveries API from 2ndKitchen — 1 operation(s) for deliveries.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Deliveries API from 2ndKitchen — 1 operation(s) for deliveries.
   name: 2ndKitchen Deliveries API
   slug: 2ndkitchen-deliveries-api
-- description: The Orders API from 2ndKitchen — 3 operation(s) for orders.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Orders API from 2ndKitchen — 3 operation(s) for orders.
   name: 2ndKitchen Orders API
   slug: 2ndkitchen-orders-api
-- description: The Payment API from 2ndKitchen — 1 operation(s) for payment.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Payment API from 2ndKitchen — 1 operation(s) for payment.
   name: 2ndKitchen Payment API
   slug: 2ndkitchen-payment-api
-- description: The Product API from 2ndKitchen — 4 operation(s) for product.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Product API from 2ndKitchen — 4 operation(s) for product.
   name: 2ndKitchen Product API
   slug: 2ndkitchen-product-api
-- description: The Products API from 2ndKitchen — 1 operation(s) for products.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Products API from 2ndKitchen — 1 operation(s) for products.
   name: 2ndKitchen Products API
   slug: 2ndkitchen-products-api
-- description: The Restaurant API from 2ndKitchen — 1 operation(s) for restaurant.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Restaurant API from 2ndKitchen — 1 operation(s) for restaurant.
   name: 2ndKitchen Restaurant API
   slug: 2ndkitchen-restaurant-api
-- description: The Restaurants API from 2ndKitchen — 1 operation(s) for restaurants.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Restaurants API from 2ndKitchen — 1 operation(s) for restaurants.
   name: 2ndKitchen Restaurants API
   slug: 2ndkitchen-restaurants-api
-- description: The Users API from 2ndKitchen — 4 operation(s) for users.
+- baseURL: https://auth-staging.2ndkitchen.com
+  baseurl_source: declared
+  description: The Users API from 2ndKitchen — 4 operation(s) for users.
   name: 2ndKitchen Users API
   slug: 2ndkitchen-users-api
 artifact_total: 27
@@ -163,7 +187,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -173,7 +197,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 22.0
   provenance:
     contracts:
       callable: 91.7
@@ -187,7 +211,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png
 security:

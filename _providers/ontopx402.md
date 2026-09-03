@@ -1,4 +1,13 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source: []
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The bidding API from OnTopX402 — 1 operation(s) for bidding.
+- baseURL: https://ontopx402.com
+  baseurl_source: declared
+  description: The bidding API from OnTopX402 — 1 operation(s) for bidding.
   name: OnTopX402 Bidding API
   slug: ontopx402-bidding-api
-- description: The leaderboard API from OnTopX402 — 2 operation(s) for leaderboard.
+- baseURL: https://ontopx402.com
+  baseurl_source: declared
+  description: The leaderboard API from OnTopX402 — 2 operation(s) for leaderboard.
   name: OnTopX402 Leaderboard API
   slug: ontopx402-leaderboard-api
 artifact_total: 3
@@ -63,7 +76,7 @@ score:
   band: emerging
   composite: 20.4
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -91,8 +104,9 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ontopx402/refs/heads/main/screenshots/ontopx402-2026-09-02T150847.png
 slug: ontopx402
 tags:
 - x402

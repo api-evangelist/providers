@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: 'Legacy REST API for B2C Commerce Cloud, organized into Shop API, Data API, and Meta API. Authentication uses OAuth 2.0 via Salesforce Account Manager. OCAPI is deprecated for new projects in favor of '
   name: Open Commerce API (OCAPI)
   slug: ocapi
-- description: The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
+- baseURL: https://<short-code>.api.commercecloud.salesforce.com
+  baseurl_source: declared
+  description: The Shopper API from Salesforce Commerce Cloud — 9 operation(s) for shopper.
   name: Salesforce Commerce Cloud Shopper API
   slug: salesforce-commerce-cloud-shopper-api
 artifact_total: 35
@@ -180,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-commerce-cloud/refs/heads/main/screenshots/salesforce-commerce-cloud-2026-06-20T193346.png
 security:

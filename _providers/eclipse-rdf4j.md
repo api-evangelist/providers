@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: Inspect named graphs (contexts) in a repository.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Inspect named graphs (contexts) in a repository.
   name: Eclipse RDF4J Contexts API
   slug: eclipse-rdf4j-contexts-api
-- description: Manage namespace prefix declarations.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Manage namespace prefix declarations.
   name: Eclipse RDF4J Namespaces API
   slug: eclipse-rdf4j-namespaces-api
-- description: Protocol version of the server.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Protocol version of the server.
   name: Eclipse RDF4J Protocol API
   slug: eclipse-rdf4j-protocol-api
-- description: Manage and inspect RDF repositories.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Manage and inspect RDF repositories.
   name: Eclipse RDF4J Repositories API
   slug: eclipse-rdf4j-repositories-api
-- description: Get the number of statements in a repository.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Get the number of statements in a repository.
   name: Eclipse RDF4J Size API
   slug: eclipse-rdf4j-size-api
-- description: Read and modify the RDF statements in a repository.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Read and modify the RDF statements in a repository.
   name: Eclipse RDF4J Statements API
   slug: eclipse-rdf4j-statements-api
-- description: Group multiple operations in an atomic transaction.
+- baseURL: http://localhost:8080/rdf4j-server
+  baseurl_source: declared
+  description: Group multiple operations in an atomic transaction.
   name: Eclipse RDF4J Transactions API
   slug: eclipse-rdf4j-transactions-api
 artifact_total: 21
@@ -209,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:

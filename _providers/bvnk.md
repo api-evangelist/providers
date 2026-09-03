@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -36,52 +49,84 @@ apis:
 - description: The BVNK Cards API issues and manages virtual cards linked to BVNK wallets — card creation, renewal, cancellation, freeze/unfreeze, spend limits, eligibility checks, sensitive-card-detail tokens, card
   name: BVNK Cards API
   slug: bvnk-cards-api
-- description: Create and manage addresses
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Create and manage addresses
   name: BVNK Address API
   slug: bvnk-address-api
-- description: Create and manage asset pools
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Create and manage asset pools
   name: BVNK Asset Pool API
   slug: bvnk-asset-pool-api
-- description: The Channels API from BVNK — 4 operation(s) for channels.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Channels API from BVNK — 4 operation(s) for channels.
   name: BVNK Channels API
   slug: bvnk-channels-api
-- description: The Currencies API from BVNK — 3 operation(s) for currencies.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Currencies API from BVNK — 3 operation(s) for currencies.
   name: BVNK Currencies API
   slug: bvnk-currencies-api
-- description: Create and manage data exports
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Create and manage data exports
   name: BVNK Export API
   slug: bvnk-export-api
-- description: Network fee estimation
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Network fee estimation
   name: BVNK Fee API
   slug: bvnk-fee-api
-- description: Create and manage key-pairs
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Create and manage key-pairs
   name: BVNK Key Pair API
   slug: bvnk-key-pair-api
-- description: The Merchant IDs API from BVNK — 1 operation(s) for merchant ids.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Merchant IDs API from BVNK — 1 operation(s) for merchant ids.
   name: BVNK Merchant IDs API
   slug: bvnk-merchant-ids-api
-- description: The Network API from BVNK — 1 operation(s) for network.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Network API from BVNK — 1 operation(s) for network.
   name: BVNK Network API
   slug: bvnk-network-api
-- description: The Payments API from BVNK — 3 operation(s) for payments.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Payments API from BVNK — 3 operation(s) for payments.
   name: BVNK Payments API
   slug: bvnk-payments-api
-- description: The Return API from BVNK — 1 operation(s) for return.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Return API from BVNK — 1 operation(s) for return.
   name: BVNK Return API
   slug: bvnk-return-api
-- description: Manage screening requests
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Manage screening requests
   name: BVNK Screening API
   slug: bvnk-screening-api
-- description: The Trading and Conversions API from BVNK — 4 operation(s) for trading and conversions.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Trading and Conversions API from BVNK — 4 operation(s) for trading and conversions.
   name: BVNK Trading and Conversions API
   slug: bvnk-trading-and-conversions-api
-- description: Create and manage transactions
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: Create and manage transactions
   name: BVNK Transaction API
   slug: bvnk-transaction-api
-- description: The Transaction Request API from BVNK — 3 operation(s) for transaction request.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Transaction Request API from BVNK — 3 operation(s) for transaction request.
   name: BVNK Transaction Request API
   slug: bvnk-transaction-request-api
-- description: The Wallets API from BVNK — 4 operation(s) for wallets.
+- baseURL: https://api.bvnk.com
+  baseurl_source: declared
+  description: The Wallets API from BVNK — 4 operation(s) for wallets.
   name: BVNK Wallets API
   slug: bvnk-wallets-api
 artifact_total: 41
@@ -343,7 +388,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -353,7 +398,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 59.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,7 +422,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bvnk/refs/heads/main/screenshots/bvnk-2026-08-17T080753.png
 security:

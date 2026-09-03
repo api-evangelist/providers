@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -45,43 +45,69 @@ agentic_access:
   summary_line: 129 operations · 81 acting
 api_count: 6
 apis:
-- description: The accounts API from Google Analytics — 3 operation(s) for accounts.
+- baseURL: https://analyticsadmin.googleapis.com
+  baseurl_source: declared
+  description: The accounts API from Google Analytics — 3 operation(s) for accounts.
   name: Google Analytics accounts API
   slug: google-analytics-accounts-api
-- description: The accountSummaries API from Google Analytics — 1 operation(s) for accountsummaries.
+- baseURL: https://analyticsadmin.googleapis.com
+  baseurl_source: declared
+  description: The accountSummaries API from Google Analytics — 1 operation(s) for accountsummaries.
   name: Google Analytics accountSummaries API
   slug: google-analytics-accountsummaries-api
-- description: The data API from Google Analytics — 3 operation(s) for data.
+- baseURL: https://analytics.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The data API from Google Analytics — 3 operation(s) for data.
   name: Google Analytics data API
   slug: google-analytics-data-api
-- description: The Events API from Google Analytics — 1 operation(s) for events.
+- baseURL: https://www.google-analytics.com/mp
+  baseurl_source: declared
+  description: The Events API from Google Analytics — 1 operation(s) for events.
   name: Google Analytics Events API
   slug: google-analytics-events-api
-- description: The management API from Google Analytics — 36 operation(s) for management.
+- baseURL: https://analytics.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The management API from Google Analytics — 36 operation(s) for management.
   name: Google Analytics management API
   slug: google-analytics-management-api
-- description: The metadata API from Google Analytics — 1 operation(s) for metadata.
+- baseURL: https://analytics.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The metadata API from Google Analytics — 1 operation(s) for metadata.
   name: Google Analytics metadata API
   slug: google-analytics-metadata-api
-- description: The properties API from Google Analytics — 20 operation(s) for properties.
+- baseURL: https://analyticsadmin.googleapis.com
+  baseurl_source: declared
+  description: The properties API from Google Analytics — 20 operation(s) for properties.
   name: Google Analytics properties API
   slug: google-analytics-properties-api
-- description: The provisioning API from Google Analytics — 2 operation(s) for provisioning.
+- baseURL: https://analytics.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The provisioning API from Google Analytics — 2 operation(s) for provisioning.
   name: Google Analytics provisioning API
   slug: google-analytics-provisioning-api
-- description: The reports API from Google Analytics — 1 operation(s) for reports.
+- baseURL: https://analyticsreporting.googleapis.com
+  baseurl_source: declared
+  description: The reports API from Google Analytics — 1 operation(s) for reports.
   name: Google Analytics reports API
   slug: google-analytics-reports-api
-- description: The User Deletion API from Google Analytics — 1 operation(s) for user deletion.
+- baseURL: https://www.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The User Deletion API from Google Analytics — 1 operation(s) for user deletion.
   name: Google Analytics User Deletion API
   slug: google-analytics-user-deletion-api
-- description: The userActivity API from Google Analytics — 1 operation(s) for useractivity.
+- baseURL: https://analyticsreporting.googleapis.com
+  baseurl_source: declared
+  description: The userActivity API from Google Analytics — 1 operation(s) for useractivity.
   name: Google Analytics userActivity API
   slug: google-analytics-useractivity-api
-- description: The userDeletion API from Google Analytics — 1 operation(s) for userdeletion.
+- baseURL: https://www.googleapis.com/analytics/v3
+  baseurl_source: declared
+  description: The userDeletion API from Google Analytics — 1 operation(s) for userdeletion.
   name: Google Analytics userDeletion API
   slug: google-analytics-userdeletion-api
-- description: The Validation API from Google Analytics — 1 operation(s) for validation.
+- baseURL: https://www.google-analytics.com/debug/mp
+  baseurl_source: declared
+  description: The Validation API from Google Analytics — 1 operation(s) for validation.
   name: Google Analytics Validation API
   slug: google-analytics-validation-api
 arazzos:
@@ -1680,7 +1706,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:

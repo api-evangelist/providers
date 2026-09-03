@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: Discover database metadata, related records, and citations.
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Discover database metadata, related records, and citations.
   name: National Library of Medicine Discovery API
   slug: national-library-of-medicine-discovery-api
-- description: Manage server-side history sets via the Entrez History server.
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Manage server-side history sets via the Entrez History server.
   name: National Library of Medicine History API
   slug: national-library-of-medicine-history-api
-- description: Retrieve full or summary records from Entrez databases.
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Retrieve full or summary records from Entrez databases.
   name: National Library of Medicine Retrieve API
   slug: national-library-of-medicine-retrieve-api
-- description: Search Entrez databases for matching records.
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Search Entrez databases for matching records.
   name: National Library of Medicine Search API
   slug: national-library-of-medicine-search-api
 artifact_total: 15
@@ -158,7 +166,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/screenshots/national-library-of-medicine-2026-06-20T190032.png
 security:

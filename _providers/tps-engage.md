@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Play API from TPS Engage — 1 operation(s) for play.
+- baseURL: https://rtb.network.tpsengage.com/api/sv
+  baseurl_source: declared
+  description: The Play API from TPS Engage — 1 operation(s) for play.
   name: TPS Engage Play API
   slug: tps-engage-play-api
-- description: The Prefetch API from TPS Engage — 1 operation(s) for prefetch.
+- baseURL: https://rtb.network.tpsengage.com/api/sv
+  baseurl_source: declared
+  description: The Prefetch API from TPS Engage — 1 operation(s) for prefetch.
   name: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
 artifact_total: 12
@@ -215,7 +219,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/screenshots/tps-engage-2026-08-17T082415.png
 security:

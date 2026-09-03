@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: The V1alpha1 API from Google Play Console Developer Reporting — 4 operation(s) for v1alpha1.
+- baseURL: https://playdeveloperreporting.googleapis.com
+  baseurl_source: declared
+  description: The V1alpha1 API from Google Play Console Developer Reporting — 4 operation(s) for v1alpha1.
   name: Google Play Console Developer Reporting V1alpha1 API
   slug: google-play-console-v1alpha1-api
 artifact_total: 14
@@ -197,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/screenshots/google-play-console-2026-06-20T182226.png
 security:

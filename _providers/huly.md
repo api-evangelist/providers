@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The @hcengineering/api-client Node.js package provides typed programmatic access to the Huly Platform. It exposes a WebSocket client (connect) holding a persistent transactor connection and a REST cli
+- baseURL: https://github.com/hcengineering/huly.core
+  baseurl_source: declared
+  description: The @hcengineering/api-client Node.js package provides typed programmatic access to the Huly Platform. It exposes a WebSocket client (connect) holding a persistent transactor connection and a REST cli
   name: Huly Platform SDK
   slug: huly-platform-sdk
-- description: Managed, hosted Huly offered as Huly Cloud with usage-tiered workspaces (Common, Rare, Epic, Legendary, and custom Enterprise plans). Cloud workspaces run the same platform and are reachable programma
+- baseURL: https://huly.io/
+  baseurl_source: declared
+  description: Managed, hosted Huly offered as Huly Cloud with usage-tiered workspaces (Common, Rare, Epic, Legendary, and custom Enterprise plans). Cloud workspaces run the same platform and are reachable programma
   name: Huly Cloud
   slug: huly-cloud
-- description: Tracker is Huly's project and issue management module (subtasks, milestones, templates, custom workflows) with optional two-way GitHub Issues/Projects sync. Issues, projects, and related objects are a
+- baseURL: https://github.com/hcengineering/huly.core
+  baseurl_source: declared
+  description: Tracker is Huly's project and issue management module (subtasks, milestones, templates, custom workflows) with optional two-way GitHub Issues/Projects sync. Issues, projects, and related objects are a
   name: Huly Tracker
   slug: huly-tracker
-- description: Documents is Huly's collaborative knowledge-management module for rich-text documents with code blocks and real-time editing. Document content is modeled as platform markup and accessed through the Hu
+- baseURL: https://github.com/hcengineering/huly.core
+  baseurl_source: declared
+  description: Documents is Huly's collaborative knowledge-management module for rich-text documents with code blocks and real-time editing. Document content is modeled as platform markup and accessed through the Hu
   name: Huly Documents
   slug: huly-documents
 artifact_total: 10
@@ -134,7 +142,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 29.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/screenshots/huly-2026-07-25T221637.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 26 operations · 16 acting
 api_count: 1
 apis:
-- description: Authentication
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Authentication
   name: Nacos Auth API
   slug: nacos-auth-api
-- description: Configuration management operations
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Configuration management operations
   name: Nacos Configuration API
   slug: nacos-configuration-api
-- description: Namespace management
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Namespace management
   name: Nacos Namespace API
   slug: nacos-namespace-api
-- description: Server operations and metrics
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Server operations and metrics
   name: Nacos Operator API
   slug: nacos-operator-api
-- description: Service instance registration and discovery
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Service instance registration and discovery
   name: Nacos Service Discovery API
   slug: nacos-service-discovery-api
-- description: Service definition management
+- baseURL: http://localhost:8848/nacos
+  baseurl_source: declared
+  description: Service definition management
   name: Nacos Service Management API
   slug: nacos-service-management-api
 artifact_total: 20
@@ -190,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/screenshots/nacos-2026-06-20T185930.png
 security:

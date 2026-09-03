@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 27 operations · 15 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The A/B Tests API from Leanplum — 3 operation(s) for a/b tests.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The A/B Tests API from Leanplum — 3 operation(s) for a/b tests.
   name: Leanplum A/B Tests API
   slug: leanplum-a-b-tests-api
-- description: The Content & Variables API from Leanplum — 3 operation(s) for content & variables.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Content & Variables API from Leanplum — 3 operation(s) for content & variables.
   name: Leanplum Content & Variables API
   slug: leanplum-content-variables-api
-- description: The Data Export API from Leanplum — 5 operation(s) for data export.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Data Export API from Leanplum — 5 operation(s) for data export.
   name: Leanplum Data Export API
   slug: leanplum-data-export-api
-- description: The Events & Tracking API from Leanplum — 7 operation(s) for events & tracking.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Events & Tracking API from Leanplum — 7 operation(s) for events & tracking.
   name: Leanplum Events & Tracking API
   slug: leanplum-events-tracking-api
-- description: The Messaging API from Leanplum — 3 operation(s) for messaging.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Messaging API from Leanplum — 3 operation(s) for messaging.
   name: Leanplum Messaging API
   slug: leanplum-messaging-api
-- description: The Postbacks & Batch API from Leanplum — 2 operation(s) for postbacks & batch.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Postbacks & Batch API from Leanplum — 2 operation(s) for postbacks & batch.
   name: Leanplum Postbacks & Batch API
   slug: leanplum-postbacks-batch-api
-- description: The User & Device Attributes API from Leanplum — 4 operation(s) for user & device attributes.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The User & Device Attributes API from Leanplum — 4 operation(s) for user & device attributes.
   name: Leanplum User & Device Attributes API
   slug: leanplum-user-device-attributes-api
-- description: The Campaigns API from Leanplum — 1 operation(s) for campaigns.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Campaigns API from Leanplum — 1 operation(s) for campaigns.
   name: Leanplum Campaigns API
   slug: leanplum-campaigns-api
-- description: The Export Data API from Leanplum — 8 operation(s) for export data.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Export Data API from Leanplum — 8 operation(s) for export data.
   name: Leanplum Export Data API
   slug: leanplum-export-data-api
-- description: The Files and Variables API from Leanplum — 5 operation(s) for files and variables.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Files and Variables API from Leanplum — 5 operation(s) for files and variables.
   name: Leanplum Files and Variables API
   slug: leanplum-files-and-variables-api
-- description: The Import Data API from Leanplum — 2 operation(s) for import data.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Import Data API from Leanplum — 2 operation(s) for import data.
   name: Leanplum Import Data API
   slug: leanplum-import-data-api
-- description: The Messages API from Leanplum — 7 operation(s) for messages.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The Messages API from Leanplum — 7 operation(s) for messages.
   name: Leanplum Messages API
   slug: leanplum-messages-api
-- description: The User Behavior API from Leanplum — 9 operation(s) for user behavior.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The User Behavior API from Leanplum — 9 operation(s) for user behavior.
   name: Leanplum User Behavior API
   slug: leanplum-user-behavior-api
-- description: The User Information API from Leanplum — 7 operation(s) for user information.
+- baseURL: https://api.leanplum.com/api
+  baseurl_source: declared
+  description: The User Information API from Leanplum — 7 operation(s) for user information.
   name: Leanplum User Information API
   slug: leanplum-user-information-api
 artifact_total: 32
@@ -302,7 +330,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -312,7 +340,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 51.0
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,7 +352,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:

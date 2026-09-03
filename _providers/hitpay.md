@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -45,76 +45,124 @@ agentic_access:
   summary_line: 12 operations · 8 acting · 8 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account Status API from HitPay — 1 operation(s) for account status.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Account Status API from HitPay — 1 operation(s) for account status.
   name: HitPay Account Status API
   slug: hitpay-account-status-api
-- description: The Balances API from HitPay — 3 operation(s) for balances.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Balances API from HitPay — 3 operation(s) for balances.
   name: HitPay Balances API
   slug: hitpay-balances-api
-- description: The Beneficiaries API from HitPay — 3 operation(s) for beneficiaries.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Beneficiaries API from HitPay — 3 operation(s) for beneficiaries.
   name: HitPay Beneficiaries API
   slug: hitpay-beneficiaries-api
-- description: The Charge API from HitPay — 1 operation(s) for charge.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Charge API from HitPay — 1 operation(s) for charge.
   name: HitPay Charge API
   slug: hitpay-charge-api
-- description: The Charges API from HitPay — 4 operation(s) for charges.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Charges API from HitPay — 4 operation(s) for charges.
   name: HitPay Charges API
   slug: hitpay-charges-api
-- description: The Customers API from HitPay — 2 operation(s) for customers.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Customers API from HitPay — 2 operation(s) for customers.
   name: HitPay Customers API
   slug: hitpay-customers-api
-- description: The Invoices API from HitPay — 2 operation(s) for invoices.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Invoices API from HitPay — 2 operation(s) for invoices.
   name: HitPay Invoices API
   slug: hitpay-invoices-api
-- description: The Notifications API from HitPay — 1 operation(s) for notifications.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Notifications API from HitPay — 1 operation(s) for notifications.
   name: HitPay Notifications API
   slug: hitpay-notifications-api
-- description: The Orders API from HitPay — 2 operation(s) for orders.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Orders API from HitPay — 2 operation(s) for orders.
   name: HitPay Orders API
   slug: hitpay-orders-api
-- description: The Payment Requests API from HitPay — 4 operation(s) for payment requests.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Payment Requests API from HitPay — 4 operation(s) for payment requests.
   name: HitPay Payment Requests API
   slug: hitpay-payment-requests-api
-- description: The Product Category API from HitPay — 1 operation(s) for product category.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Product Category API from HitPay — 1 operation(s) for product category.
   name: HitPay Product Category API
   slug: hitpay-product-category-api
-- description: The Products API from HitPay — 2 operation(s) for products.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Products API from HitPay — 2 operation(s) for products.
   name: HitPay Products API
   slug: hitpay-products-api
-- description: The Readers API from HitPay — 2 operation(s) for readers.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Readers API from HitPay — 2 operation(s) for readers.
   name: HitPay Readers API
   slug: hitpay-readers-api
-- description: The Recurring Billing API from HitPay — 5 operation(s) for recurring billing.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Recurring Billing API from HitPay — 5 operation(s) for recurring billing.
   name: HitPay Recurring Billing API
   slug: hitpay-recurring-billing-api
-- description: The Refund API from HitPay — 2 operation(s) for refund.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Refund API from HitPay — 2 operation(s) for refund.
   name: HitPay Refund API
   slug: hitpay-refund-api
-- description: Refund completed PayNow or card charges.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: Refund completed PayNow or card charges.
   name: HitPay Refunds API
   slug: hitpay-refunds-api
-- description: The Remitters API from HitPay — 2 operation(s) for remitters.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Remitters API from HitPay — 2 operation(s) for remitters.
   name: HitPay Remitters API
   slug: hitpay-remitters-api
-- description: The Staffs API from HitPay — 2 operation(s) for staffs.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Staffs API from HitPay — 2 operation(s) for staffs.
   name: HitPay Staffs API
   slug: hitpay-staffs-api
-- description: The Static Qr API from HitPay — 2 operation(s) for static qr.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Static Qr API from HitPay — 2 operation(s) for static qr.
   name: HitPay Static Qr API
   slug: hitpay-static-qr-api
-- description: The Subscription Plan API from HitPay — 2 operation(s) for subscription plan.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Subscription Plan API from HitPay — 2 operation(s) for subscription plan.
   name: HitPay Subscription Plan API
   slug: hitpay-subscription-plan-api
-- description: Reusable recurring-billing plan templates.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: Reusable recurring-billing plan templates.
   name: HitPay Subscription Plans API
   slug: hitpay-subscription-plans-api
-- description: The Transfers API from HitPay — 3 operation(s) for transfers.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Transfers API from HitPay — 3 operation(s) for transfers.
   name: HitPay Transfers API
   slug: hitpay-transfers-api
-- description: The Virtual Accounts API from HitPay — 2 operation(s) for virtual accounts.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Virtual Accounts API from HitPay — 2 operation(s) for virtual accounts.
   name: HitPay Virtual Accounts API
   slug: hitpay-virtual-accounts-api
-- description: The Webhook Events API from HitPay — 2 operation(s) for webhook events.
+- baseURL: https://api.hit-pay.com/v1
+  baseurl_source: declared
+  description: The Webhook Events API from HitPay — 2 operation(s) for webhook events.
   name: HitPay Webhook Events API
   slug: hitpay-webhook-events-api
 artifact_total: 83
@@ -463,7 +511,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -473,7 +521,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 66.5
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -491,7 +539,7 @@ score:
     regime_id: payments
     score: 60.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:

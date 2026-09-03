@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: Juvenescence's news stream — 57 published posts across Press Releases, In the News, Juv on the Road, Publications and Videos — read from the WordPress REST content API behind juvlabs.com.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: Juvenescence's news stream — 57 published posts across Press Releases, In the News, Juv on the Road, Publications and Videos — read from the WordPress REST content API behind juvlabs.com.
   name: Juvenescence Posts API
   slug: juvenescence-posts-api
-- description: The 35 published corporate, science, pipeline, leadership-biography and policy pages of juvlabs.com, read from the WordPress REST content API.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The 35 published corporate, science, pipeline, leadership-biography and policy pages of juvlabs.com, read from the WordPress REST content API.
   name: Juvenescence Pages API
   slug: juvenescence-pages-api
-- description: The 466-item juvlabs.com media library — brand marks, leadership portraits, press and conference imagery — with per-item MIME type, source URL and generated size variants.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The 466-item juvlabs.com media library — brand marks, leadership portraits, press and conference imagery — with per-item MIME type, source URL and generated size variants.
   name: Juvenescence Media API
   slug: juvenescence-media-api
-- description: The 7 post categories that organise the Juvenescence news stream, five of which carry posts.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The 7 post categories that organise the Juvenescence news stream, five of which carry posts.
   name: Juvenescence Categories API
   slug: juvenescence-categories-api
-- description: The 25 post tags on juvlabs.com, a vocabulary dominated by Juvenescence portfolio companies and research collaborators alongside a legacy consumer-nutrition set.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The 25 post tags on juvlabs.com, a vocabulary dominated by Juvenescence portfolio companies and research collaborators alongside a legacy consumer-nutrition set.
   name: Juvenescence Tags API
   slug: juvenescence-tags-api
-- description: The comments collection on juvlabs.com. Registered and anonymously readable, but empty — the site does not use comments.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The comments collection on juvlabs.com. Registered and anonymously readable, but empty — the site does not use comments.
   name: Juvenescence Comments API
   slug: juvenescence-comments-api
-- description: Cross-content search over Juvenescence posts, pages, the portfolio type and taxonomy terms — the single best entry point for an agent that needs to find material without walking every collection.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search over Juvenescence posts, pages, the portfolio type and taxonomy terms — the single best entry point for an agent that needs to find material without walking every collection.
   name: Juvenescence Search API
   slug: juvenescence-search-api
-- description: The site's registered `portfolio` custom post type and its `portfolio_category` taxonomy. Registered, public and REST-exposed, but empty at derivation — Juvenescence's portfolio companies are currentl
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The site's registered `portfolio` custom post type and its `portfolio_category` taxonomy. Registered, public and REST-exposed, but empty at derivation — Juvenescence's portfolio companies are currentl
   name: Juvenescence Portfolio API
   slug: juvenescence-portfolio-api
-- description: The juvlabs.com REST discovery surface — site index, `wp/v2` namespace route index with per-argument schemas, registered content types, taxonomies and statuses, plus oEmbed URL resolution.
+- baseURL: https://juvlabs.com/wp-json
+  baseurl_source: declared
+  description: The juvlabs.com REST discovery surface — site index, `wp/v2` namespace route index with per-argument schemas, registered content types, taxonomies and statuses, plus oEmbed URL resolution.
   name: Juvenescence Discovery API
   slug: juvenescence-discovery-api
 artifact_total: 13
@@ -221,11 +251,11 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -235,7 +265,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 40.4
+  previous_composite: 30.1
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +282,9 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/juvenescence/refs/heads/main/screenshots/juvenescence-2026-09-02T150010.png
 security:
 - kind: authentication
   name: Juvenescence Authentication

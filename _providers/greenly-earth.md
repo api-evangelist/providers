@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
-- description: The alternatives API from Greenly — 2 operation(s) for alternatives.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The alternatives API from Greenly — 2 operation(s) for alternatives.
   name: Greenly alternatives API
   slug: greenly-earth-alternatives-api
-- description: The live API from Greenly — 1 operation(s) for live.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The live API from Greenly — 1 operation(s) for live.
   name: Greenly live API
   slug: greenly-earth-live-api
-- description: The offsetProjects API from Greenly — 3 operation(s) for offsetprojects.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The offsetProjects API from Greenly — 3 operation(s) for offsetprojects.
   name: Greenly offsetProjects API
   slug: greenly-earth-offsetprojects-api
-- description: The purchaseCategories API from Greenly — 2 operation(s) for purchasecategories.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The purchaseCategories API from Greenly — 2 operation(s) for purchasecategories.
   name: Greenly purchaseCategories API
   slug: greenly-earth-purchasecategories-api
-- description: The ready API from Greenly — 1 operation(s) for ready.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The ready API from Greenly — 1 operation(s) for ready.
   name: Greenly ready API
   slug: greenly-earth-ready-api
-- description: The transactions API from Greenly — 1 operation(s) for transactions.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The transactions API from Greenly — 1 operation(s) for transactions.
   name: Greenly transactions API
   slug: greenly-earth-transactions-api
-- description: The users API from Greenly — 2 operation(s) for users.
+- baseURL: https://api.greenly.earth/v1.5
+  baseurl_source: declared
+  description: The users API from Greenly — 2 operation(s) for users.
   name: Greenly users API
   slug: greenly-earth-users-api
 artifact_total: 40
@@ -371,7 +385,7 @@ score:
     regime_id: energy_utilities
     score: 21.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/screenshots/greenly-earth-2026-06-20T182359.png
 security:

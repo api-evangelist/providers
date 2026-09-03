@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 34 operations · 2 acting
 api_count: 8
 apis:
-- description: Delivers information about upcoming events on the VATSIM network, including dates, times, organizers, airports, routes, and banner images. Publicly accessible without authentication and provides listi
+- baseURL: https://api.vatsim.net/v2/events
+  baseurl_source: declared
+  description: Delivers information about upcoming events on the VATSIM network, including dates, times, organizers, airports, routes, and banner images. Publicly accessible without authentication and provides listi
   name: VATSIM Events API
   slug: vatsim-events-api
-- description: Grants access to real-time METAR weather information for airports around the world. Accepts single or comma-delimited ICAO airport codes, supports a special "all" value for bulk retrieval, and returns
+- baseURL: https://metar.vatsim.net
+  baseurl_source: declared
+  description: Grants access to real-time METAR weather information for airports around the world. Accepts single or comma-delimited ICAO airport codes, supports a special "all" value for bulk retrieval, and returns
   name: VATSIM METAR API
   slug: vatsim-metar-api
 - description: OAuth 2.0 single sign-on authentication service for VATSIM members. Enables third-party applications and VATSIM organizations to authenticate users and access authorized profile data including full na
@@ -56,46 +60,74 @@ apis:
 - description: Provides real-time connection information for individual VATSIM users, delivering live session data for a given VATSIM member. Publicly accessible without authentication.
   name: VATSIM Slurper API
   slug: vatsim-slurper-api
-- description: The Airport info API from VATSIM — 2 operation(s) for airport info.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Airport info API from VATSIM — 2 operation(s) for airport info.
   name: VATSIM Airport info API
   slug: vatsim-airport-info-api
-- description: The atc API from VATSIM — 2 operation(s) for atc.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The atc API from VATSIM — 2 operation(s) for atc.
   name: VATSIM atc API
   slug: vatsim-atc-api
-- description: The Audio API from VATSIM — 2 operation(s) for audio.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Audio API from VATSIM — 2 operation(s) for audio.
   name: VATSIM Audio API
   slug: vatsim-audio-api
-- description: The community API from VATSIM — 1 operation(s) for community.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The community API from VATSIM — 1 operation(s) for community.
   name: VATSIM community API
   slug: vatsim-community-api
-- description: The Data feed API from VATSIM — 1 operation(s) for data feed.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Data feed API from VATSIM — 1 operation(s) for data feed.
   name: VATSIM Data feed API
   slug: vatsim-data-feed-api
-- description: The Event info API from VATSIM — 6 operation(s) for event info.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Event info API from VATSIM — 6 operation(s) for event info.
   name: VATSIM Event info API
   slug: vatsim-event-info-api
-- description: The Events API from VATSIM — 2 operation(s) for events.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Events API from VATSIM — 2 operation(s) for events.
   name: VATSIM Events API
   slug: vatsim-events-api
-- description: The members API from VATSIM — 7 operation(s) for members.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The members API from VATSIM — 7 operation(s) for members.
   name: VATSIM members API
   slug: vatsim-members-api
-- description: The METAR API from VATSIM — 1 operation(s) for metar.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The METAR API from VATSIM — 1 operation(s) for metar.
   name: VATSIM METAR API
   slug: vatsim-metar-api
-- description: The OAuth2 API from VATSIM — 2 operation(s) for oauth2.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The OAuth2 API from VATSIM — 2 operation(s) for oauth2.
   name: VATSIM OAuth2 API
   slug: vatsim-oauth2-api
-- description: The orgs API from VATSIM — 2 operation(s) for orgs.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The orgs API from VATSIM — 2 operation(s) for orgs.
   name: VATSIM orgs API
   slug: vatsim-orgs-api
-- description: The Servers API from VATSIM — 3 operation(s) for servers.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Servers API from VATSIM — 3 operation(s) for servers.
   name: VATSIM Servers API
   slug: vatsim-servers-api
-- description: The User API from VATSIM — 1 operation(s) for user.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The User API from VATSIM — 1 operation(s) for user.
   name: VATSIM User API
   slug: vatsim-user-api
-- description: The Users API from VATSIM — 1 operation(s) for users.
+- baseURL: https://api.vatsim.net/v2
+  baseurl_source: declared
+  description: The Users API from VATSIM — 1 operation(s) for users.
   name: VATSIM Users API
   slug: vatsim-users-api
 artifact_total: 40
@@ -218,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png
 security:

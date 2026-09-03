@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 28 operations · 12 acting
 api_count: 1
 apis:
-- description: The Assets API from BigChange — 1 operation(s) for assets.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Assets API from BigChange — 1 operation(s) for assets.
   name: BigChange Assets API
   slug: bigchange-assets-api
-- description: The Contacts API from BigChange — 2 operation(s) for contacts.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Contacts API from BigChange — 2 operation(s) for contacts.
   name: BigChange Contacts API
   slug: bigchange-contacts-api
-- description: The Finance API from BigChange — 3 operation(s) for finance.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Finance API from BigChange — 3 operation(s) for finance.
   name: BigChange Finance API
   slug: bigchange-finance-api
-- description: The Jobs API from BigChange — 5 operation(s) for jobs.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Jobs API from BigChange — 5 operation(s) for jobs.
   name: BigChange Jobs API
   slug: bigchange-jobs-api
-- description: The Persons API from BigChange — 1 operation(s) for persons.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Persons API from BigChange — 1 operation(s) for persons.
   name: BigChange Persons API
   slug: bigchange-persons-api
-- description: The Reference Data API from BigChange — 1 operation(s) for reference data.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Reference Data API from BigChange — 1 operation(s) for reference data.
   name: BigChange Reference Data API
   slug: bigchange-reference-data-api
-- description: The Resources API from BigChange — 1 operation(s) for resources.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Resources API from BigChange — 1 operation(s) for resources.
   name: BigChange Resources API
   slug: bigchange-resources-api
-- description: The Stock API from BigChange — 1 operation(s) for stock.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Stock API from BigChange — 1 operation(s) for stock.
   name: BigChange Stock API
   slug: bigchange-stock-api
-- description: The Users API from BigChange — 1 operation(s) for users.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Users API from BigChange — 1 operation(s) for users.
   name: BigChange Users API
   slug: bigchange-users-api
-- description: The Vehicles API from BigChange — 1 operation(s) for vehicles.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Vehicles API from BigChange — 1 operation(s) for vehicles.
   name: BigChange Vehicles API
   slug: bigchange-vehicles-api
-- description: The Webhooks API from BigChange — 2 operation(s) for webhooks.
+- baseURL: https://api.bigchange.com
+  baseurl_source: declared
+  description: The Webhooks API from BigChange — 2 operation(s) for webhooks.
   name: BigChange Webhooks API
   slug: bigchange-webhooks-api
 artifact_total: 30
@@ -211,7 +233,7 @@ score:
       marker_coverage: 9.1
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigchange/refs/heads/main/screenshots/bigchange-2026-07-25T202925.png
 security:

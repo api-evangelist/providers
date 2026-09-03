@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 21 operations · 11 acting
 api_count: 1
 apis:
-- description: Account and credit management.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Account and credit management.
   name: UpLead Account API
   slug: uplead-account-api
-- description: Combined person and company lookup.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Combined person and company lookup.
   name: UpLead Combined API
   slug: uplead-combined-api
-- description: Company search and enrichment operations.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Company search and enrichment operations.
   name: UpLead Company API
   slug: uplead-company-api
-- description: Contact list management operations.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Contact list management operations.
   name: UpLead Lists API
   slug: uplead-lists-api
-- description: Person/contact search and enrichment operations.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Person/contact search and enrichment operations.
   name: UpLead Person API
   slug: uplead-person-api
-- description: Prospector search operations for discovering contacts.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Prospector search operations for discovering contacts.
   name: UpLead Prospector API
   slug: uplead-prospector-api
-- description: Reference data lookups.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: Reference data lookups.
   name: UpLead Reference API
   slug: uplead-reference-api
-- description: General search operations.
+- baseURL: https://api.uplead.com/v2/
+  baseurl_source: declared
+  description: General search operations.
   name: UpLead Search API
   slug: uplead-search-api
 artifact_total: 33
@@ -318,7 +334,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uplead/refs/heads/main/screenshots/uplead-2026-06-20T200445.png
 security:

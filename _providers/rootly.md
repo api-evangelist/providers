@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 30 operations · 17 acting
 api_count: 7
 apis:
-- description: The Alerts API from Rootly — 4 operation(s) for alerts.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Alerts API from Rootly — 4 operation(s) for alerts.
   name: Rootly Alerts API
   slug: rootly-alerts-api
-- description: The Escalation Policies API from Rootly — 1 operation(s) for escalation policies.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Escalation Policies API from Rootly — 1 operation(s) for escalation policies.
   name: Rootly Escalation Policies API
   slug: rootly-escalation-policies-api
-- description: The Incidents API from Rootly — 4 operation(s) for incidents.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Incidents API from Rootly — 4 operation(s) for incidents.
   name: Rootly Incidents API
   slug: rootly-incidents-api
-- description: The Services API from Rootly — 2 operation(s) for services.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Services API from Rootly — 2 operation(s) for services.
   name: Rootly Services API
   slug: rootly-services-api
-- description: The Teams API from Rootly — 2 operation(s) for teams.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Teams API from Rootly — 2 operation(s) for teams.
   name: Rootly Teams API
   slug: rootly-teams-api
-- description: The Users API from Rootly — 2 operation(s) for users.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Users API from Rootly — 2 operation(s) for users.
   name: Rootly Users API
   slug: rootly-users-api
-- description: The Workflows API from Rootly — 2 operation(s) for workflows.
+- baseURL: https://api.rootly.com/v1
+  baseurl_source: spec
+  description: The Workflows API from Rootly — 2 operation(s) for workflows.
   name: Rootly Workflows API
   slug: rootly-workflows-api
 artifact_total: 25
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/screenshots/rootly-2026-06-20T193221.png
 security:

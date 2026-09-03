@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 9 acting
 api_count: 1
 apis:
-- description: Query video and image analytics and insights.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Query video and image analytics and insights.
   name: Gumlet Analytics API
   slug: gumlet-analytics-api
-- description: Connect cloud storage to Gumlet image optimization.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Connect cloud storage to Gumlet image optimization.
   name: Gumlet Image Sources API
   slug: gumlet-image-sources-api
-- description: Create and manage live streaming assets.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Create and manage live streaming assets.
   name: Gumlet Live Streaming API
   slug: gumlet-live-streaming-api
-- description: Direct and multipart uploads of local media.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Direct and multipart uploads of local media.
   name: Gumlet Uploads API
   slug: gumlet-uploads-api
-- description: Ingest, encode, and manage video-on-demand assets.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Ingest, encode, and manage video-on-demand assets.
   name: Gumlet Video Assets API
   slug: gumlet-video-assets-api
-- description: Manage video collections (sources) and organization.
+- baseURL: https://api.gumlet.com/v1/video
+  baseurl_source: declared
+  description: Manage video collections (sources) and organization.
   name: Gumlet Video Collections API
   slug: gumlet-video-collections-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gumlet/refs/heads/main/screenshots/gumlet-2026-07-25T220430.png
 security:

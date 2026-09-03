@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -46,34 +46,54 @@ apis:
 - description: Hosted server-side Google Tag Manager service for first-party data collection, consent enforcement, and tag execution off the browser. Includes Meta Signals Gateway for the Meta Conversions API and co
   name: Usercentrics Server-Side Tagging (sGTM)
   slug: server-side-tagging
-- description: The CCPA API from Usercentrics — 1 operation(s) for ccpa.
+- baseURL: sdk://usercentrics.app
+  baseurl_source: spec
+  description: The CCPA API from Usercentrics — 1 operation(s) for ccpa.
   name: Usercentrics CCPA API
   slug: usercentrics-ccpa-api
-- description: The Consent API from Usercentrics — 11 operation(s) for consent.
+- baseURL: sdk://usercentrics.app
+  baseurl_source: spec
+  description: The Consent API from Usercentrics — 11 operation(s) for consent.
   name: Usercentrics Consent API
   slug: usercentrics-consent-api
-- description: The Consent Mode API from Usercentrics — 1 operation(s) for consent mode.
+- baseURL: https://app.usercentrics.eu
+  baseurl_source: spec
+  description: The Consent Mode API from Usercentrics — 1 operation(s) for consent mode.
   name: Usercentrics Consent Mode API
   slug: usercentrics-consent-mode-api
-- description: The Controller API from Usercentrics — 1 operation(s) for controller.
+- baseURL: sdk://usercentrics.app
+  baseurl_source: spec
+  description: The Controller API from Usercentrics — 1 operation(s) for controller.
   name: Usercentrics Controller API
   slug: usercentrics-controller-api
-- description: The Dialog API from Usercentrics — 3 operation(s) for dialog.
+- baseURL: https://consent.cookiebot.com
+  baseurl_source: spec
+  description: The Dialog API from Usercentrics — 3 operation(s) for dialog.
   name: Usercentrics Dialog API
   slug: usercentrics-dialog-api
-- description: The GPP API from Usercentrics — 2 operation(s) for gpp.
+- baseURL: https://app.usercentrics.eu
+  baseurl_source: spec
+  description: The GPP API from Usercentrics — 2 operation(s) for gpp.
   name: Usercentrics GPP API
   slug: usercentrics-gpp-api
-- description: The Lifecycle API from Usercentrics — 4 operation(s) for lifecycle.
+- baseURL: sdk://usercentrics.app
+  baseurl_source: spec
+  description: The Lifecycle API from Usercentrics — 4 operation(s) for lifecycle.
   name: Usercentrics Lifecycle API
   slug: usercentrics-lifecycle-api
-- description: The Scanner API from Usercentrics — 1 operation(s) for scanner.
+- baseURL: https://consent.cookiebot.com
+  baseurl_source: spec
+  description: The Scanner API from Usercentrics — 1 operation(s) for scanner.
   name: Usercentrics Scanner API
   slug: usercentrics-scanner-api
-- description: The TCF API from Usercentrics — 3 operation(s) for tcf.
+- baseURL: sdk://usercentrics.app
+  baseurl_source: spec
+  description: The TCF API from Usercentrics — 3 operation(s) for tcf.
   name: Usercentrics TCF API
   slug: usercentrics-tcf-api
-- description: The UI API from Usercentrics — 2 operation(s) for ui.
+- baseURL: https://app.usercentrics.eu
+  baseurl_source: spec
+  description: The UI API from Usercentrics — 2 operation(s) for ui.
   name: Usercentrics UI API
   slug: usercentrics-ui-api
 artifact_total: 88
@@ -283,7 +303,7 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -293,7 +313,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 47.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -302,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/screenshots/usercentrics-2026-06-20T200655.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,43 +44,67 @@ agentic_access:
   summary_line: 24 operations · 8 acting
 api_count: 2
 apis:
-- description: Receive event notifications from Digits at a configured webhook endpoint; Digits POSTs a JSON event body and expects a 2xx acknowledgment (WebhookService.receiveWebhookEvent).
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Receive event notifications from Digits at a configured webhook endpoint; Digits POSTs a JSON event body and expects a 2xx acknowledgment (WebhookService.receiveWebhookEvent).
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
 - description: Model Context Protocol server that lets AI clients like ChatGPT and Claude connect directly to Digits to query the ledger in natural language. Discovery is published as an MCP Server Card at /.well-kn
   name: Digits MCP Server
   slug: digits-com-mcp-server
-- description: Ledger categories and dimensional axes (departments, locations, projects).
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Ledger categories and dimensional axes (departments, locations, projects).
   name: Digits Chart of Accounts API
   slug: digits-com-chart-of-accounts-api
-- description: Connected data sources feeding the ledger.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Connected data sources feeding the ledger.
   name: Digits Connections API
   slug: digits-com-connections-api
-- description: Balance Sheet, P&L, Cash Flow, Trial Balance, aging reports, and summaries.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Balance Sheet, P&L, Cash Flow, Trial Balance, aging reports, and summaries.
   name: Digits Financial Statements API
   slug: digits-com-financial-statements-api
-- description: Accounting-firm organizations, clients, entities, and employees.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Accounting-firm organizations, clients, entities, and employees.
   name: Digits Organizations API
   slug: digits-com-organizations-api
-- description: Vendors, suppliers, customers, and other business relationships.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Vendors, suppliers, customers, and other business relationships.
   name: Digits Parties API
   slug: digits-com-parties-api
-- description: Push raw source data into the AGL for enrichment and categorization.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Push raw source data into the AGL for enrichment and categorization.
   name: Digits Sources API
   slug: digits-com-sources-api
-- description: Read AI-categorized ledger transactions and journal entries.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Read AI-categorized ledger transactions and journal entries.
   name: Digits Transactions API
   slug: digits-com-transactions-api
-- description: Event delivery to partner-configured endpoints.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: Event delivery to partner-configured endpoints.
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
-- description: The Llms.txt API from Digits — 1 operation(s) for llms.txt.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: The Llms.txt API from Digits — 1 operation(s) for llms.txt.
   name: Digits Llms.txt API
   slug: digits-com-llms-txt-api
-- description: The Sitemap.xml API from Digits — 1 operation(s) for sitemap.xml.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: The Sitemap.xml API from Digits — 1 operation(s) for sitemap.xml.
   name: Digits Sitemap.xml API
   slug: digits-com-sitemap-xml-api
-- description: The .well Known API from Digits — 2 operation(s) for .well known.
+- baseURL: https://connect.digits.com/v1
+  baseurl_source: declared
+  description: The .well Known API from Digits — 2 operation(s) for .well known.
   name: Digits .well Known API
   slug: digits-com-well-known-api
 artifact_total: 37
@@ -334,7 +358,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -344,7 +368,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,7 +380,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:

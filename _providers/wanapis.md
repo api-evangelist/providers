@@ -33,34 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OpenAI-compatible REST API gateway aggregating GPT, Claude, Gemini, DeepSeek, plus image, video, and audio model providers behind a single key and routing/failover layer. Model marketplace, usage logs
   name: WanAPIs Unified AI API
   slug: wanapis-unified-ai-api
-- description: Text-to-speech, transcription, and translation.
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Text-to-speech, transcription, and translation.
   name: WanAPIs Audio API
   slug: wanapis-audio-api
-- description: Chat completion endpoints (OpenAI Chat Completions compatible).
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Chat completion endpoints (OpenAI Chat Completions compatible).
   name: WanAPIs Chat API
   slug: wanapis-chat-api
-- description: Legacy text completions (OpenAI compatible).
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Legacy text completions (OpenAI compatible).
   name: WanAPIs Completions API
   slug: wanapis-completions-api
-- description: Vector embeddings (OpenAI compatible).
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Vector embeddings (OpenAI compatible).
   name: WanAPIs Embeddings API
   slug: wanapis-embeddings-api
-- description: Image generation and editing.
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Image generation and editing.
   name: WanAPIs Images API
   slug: wanapis-images-api
-- description: Discover the models available in the marketplace.
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Discover the models available in the marketplace.
   name: WanAPIs Models API
   slug: wanapis-models-api
-- description: WanAPIs Responses API for structured, multi-step model workflows.
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: WanAPIs Responses API for structured, multi-step model workflows.
   name: WanAPIs Responses API
   slug: wanapis-responses-api
-- description: Async task polling for long-running image/video/audio jobs.
+- baseURL: https://api.wanapis.com/v1
+  baseurl_source: declared
+  description: Async task polling for long-running image/video/audio jobs.
   name: WanAPIs Tasks API
   slug: wanapis-tasks-api
 artifact_total: 33
@@ -224,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wanapis/refs/heads/main/screenshots/wanapis-2026-06-20T201218.png
 security:

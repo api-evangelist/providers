@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: OCI artifact operations for Timoni packages
+- baseURL: https://ghcr.io
+  baseurl_source: declared
+  description: OCI artifact operations for Timoni packages
   name: Timoni Artifacts API
   slug: timoni-artifacts-api
-- description: Timoni module management and distribution
+- baseURL: https://ghcr.io
+  baseurl_source: declared
+  description: Timoni module management and distribution
   name: Timoni Modules API
   slug: timoni-modules-api
 artifact_total: 17
@@ -223,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timoni/refs/heads/main/screenshots/timoni-2026-06-20T195403.png
 security:

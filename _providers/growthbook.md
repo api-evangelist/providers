@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 222 operations · 144 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AnalyticsExplorations API from GrowthBook — 3 operation(s) for analyticsexplorations.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The AnalyticsExplorations API from GrowthBook — 3 operation(s) for analyticsexplorations.
   name: GrowthBook AnalyticsExplorations API
   slug: growthbook-analyticsexplorations-api
-- description: Archetypes allow you to simulate the result of targeting rules on pre-set user attributes
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Archetypes allow you to simulate the result of targeting rules on pre-set user attributes
   name: GrowthBook archetypes API
   slug: growthbook-archetypes-api
-- description: Used when targeting feature flags and experiments.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Used when targeting feature flags and experiments.
   name: GrowthBook attributes API
   slug: growthbook-attributes-api
-- description: Intended for use with our code reference CI utility, [`gb-find-code-refs`](https://github.com/growthbook/gb-find-code-refs).
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Intended for use with our code reference CI utility, [`gb-find-code-refs`](https://github.com/growthbook/gb-find-code-refs).
   name: GrowthBook code-references API
   slug: growthbook-code-references-api
-- description: The CustomFields API from GrowthBook — 2 operation(s) for customfields.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The CustomFields API from GrowthBook — 2 operation(s) for customfields.
   name: GrowthBook CustomFields API
   slug: growthbook-customfields-api
-- description: The Dashboards API from GrowthBook — 3 operation(s) for dashboards.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Dashboards API from GrowthBook — 3 operation(s) for dashboards.
   name: GrowthBook Dashboards API
   slug: growthbook-dashboards-api
-- description: How GrowthBook connects and queries your data, including cached database schema metadata (information schemas) for tables and columns.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: How GrowthBook connects and queries your data, including cached database schema metadata (information schemas) for tables and columns.
   name: GrowthBook data-sources API
   slug: growthbook-data-sources-api
-- description: Dimensions used during experiment analysis
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Dimensions used during experiment analysis
   name: GrowthBook dimensions API
   slug: growthbook-dimensions-api
-- description: GrowthBook comes with one environment by default (production), but you can add as many as you need. When used with feature flags, you can enable/disable feature flags on a per-environment basis.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: GrowthBook comes with one environment by default (production), but you can add as many as you need. When used with feature flags, you can enable/disable feature flags on a per-environment basis.
   name: GrowthBook environments API
   slug: growthbook-environments-api
-- description: Experiments (A/B Tests)
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Experiments (A/B Tests)
   name: GrowthBook experiments API
   slug: growthbook-experiments-api
-- description: The ExperimentTemplates API from GrowthBook — 3 operation(s) for experimenttemplates.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The ExperimentTemplates API from GrowthBook — 3 operation(s) for experimenttemplates.
   name: GrowthBook ExperimentTemplates API
   slug: growthbook-experimenttemplates-api
-- description: Fact Metrics are metrics built on top of Fact Table definitions
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Fact Metrics are metrics built on top of Fact Table definitions
   name: GrowthBook fact-metrics API
   slug: growthbook-fact-metrics-api
-- description: Fact Tables describe the shape of your data warehouse tables
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Fact Tables describe the shape of your data warehouse tables
   name: GrowthBook fact-tables API
   slug: growthbook-fact-tables-api
-- description: Draft revisions for feature flags, including rules, scheduling, and approval workflows. **These are v1 endpoints.** New integrations should use the v2 Feature Revisions endpoints.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Draft revisions for feature flags, including rules, scheduling, and approval workflows. **These are v1 endpoints.** New integrations should use the v2 Feature Revisions endpoints.
   name: GrowthBook feature-revisions API
   slug: growthbook-feature-revisions-api
-- description: Draft revisions for feature flags, including rules, scheduling, and approval workflows. Revision `rules` is a flat array with per-rule scope fields.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Draft revisions for feature flags, including rules, scheduling, and approval workflows. Revision `rules` is a flat array with per-rule scope fields.
   name: GrowthBook feature-revisions-v2 API
   slug: growthbook-feature-revisions-v2-api
-- description: Control your feature flags programatically. **These are v1 endpoints.** New integrations should use the v2 Feature Flags endpoints, which expose a unified per-rule environment scope instead of per-env
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Control your feature flags programatically. **These are v1 endpoints.** New integrations should use the v2 Feature Flags endpoints, which expose a unified per-rule environment scope instead of per-env
   name: GrowthBook features API
   slug: growthbook-features-api
-- description: Control your feature flags programatically. Rules are returned as a unified top-level array; each rule carries `allEnvironments` / `environments` scope fields instead of being bucketed by environment.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Control your feature flags programatically. Rules are returned as a unified top-level array; each rule carries `allEnvironments` / `environments` scope fields instead of being bucketed by environment.
   name: GrowthBook features-v2 API
   slug: growthbook-features-v2-api
-- description: Members are users who have been invited to an organization.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Members are users who have been invited to an organization.
   name: GrowthBook members API
   slug: growthbook-members-api
-- description: The MetricGroups API from GrowthBook — 2 operation(s) for metricgroups.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The MetricGroups API from GrowthBook — 2 operation(s) for metricgroups.
   name: GrowthBook MetricGroups API
   slug: growthbook-metricgroups-api
-- description: Metrics used as goals and guardrails for experiments
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Metrics used as goals and guardrails for experiments
   name: GrowthBook metrics API
   slug: growthbook-metrics-api
-- description: Namespaces partition your user population into buckets so that experiments using the same hash attribute do not overlap unintentionally. Each namespace defines a 0–1 range and individual experiments c
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Namespaces partition your user population into buckets so that experiments using the same hash attribute do not overlap unintentionally. Each namespace defines a 0–1 range and individual experiments c
   name: GrowthBook namespaces API
   slug: growthbook-namespaces-api
-- description: Organizations are used for multi-org deployments where different teams can run their own isolated feature flags and experiments. These endpoints are only via a super-admin's Personal Access Token.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Organizations are used for multi-org deployments where different teams can run their own isolated feature flags and experiments. These endpoints are only via a super-admin's Personal Access Token.
   name: GrowthBook organizations API
   slug: growthbook-organizations-api
-- description: Projects are used to organize your feature flags and experiments
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Projects are used to organize your feature flags and experiments
   name: GrowthBook projects API
   slug: growthbook-projects-api
-- description: Retrieve queries used in experiments to calculate results.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Retrieve queries used in experiments to calculate results.
   name: GrowthBook queries API
   slug: growthbook-queries-api
-- description: Multi-step rollout schedules that gradually ramp feature rule changes over time, with support for interval, approval, and scheduled triggers.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Multi-step rollout schedules that gradually ramp feature rule changes over time, with support for interval, approval, and scheduled triggers.
   name: GrowthBook ramp-schedules API
   slug: growthbook-ramp-schedules-api
-- description: Reusable step configurations for ramp schedules.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Reusable step configurations for ramp schedules.
   name: GrowthBook RampScheduleTemplates API
   slug: growthbook-rampscheduletemplates-api
-- description: Defined sets of attribute values which can be used with feature rules for targeting features at particular users.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Defined sets of attribute values which can be used with feature rules for targeting features at particular users.
   name: GrowthBook saved-groups API
   slug: growthbook-saved-groups-api
-- description: Client keys and settings for connecting SDKs to a GrowthBook instance
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Client keys and settings for connecting SDKs to a GrowthBook instance
   name: GrowthBook sdk-connections API
   slug: growthbook-sdk-connections-api
-- description: The Sdk Payload API from GrowthBook — 1 operation(s) for sdk payload.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Sdk Payload API from GrowthBook — 1 operation(s) for sdk payload.
   name: GrowthBook Sdk Payload API
   slug: growthbook-sdk-payload-api
-- description: Segments used during experiment analysis
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Segments used during experiment analysis
   name: GrowthBook segments API
   slug: growthbook-segments-api
-- description: Get the organization settings.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Get the organization settings.
   name: GrowthBook settings API
   slug: growthbook-settings-api
-- description: Experiment Snapshots (the individual updates of an experiment)
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Experiment Snapshots (the individual updates of an experiment)
   name: GrowthBook snapshots API
   slug: growthbook-snapshots-api
-- description: The Teams API from GrowthBook — 3 operation(s) for teams.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Teams API from GrowthBook — 3 operation(s) for teams.
   name: GrowthBook Teams API
   slug: growthbook-teams-api
-- description: The Transform Copy API from GrowthBook — 1 operation(s) for transform copy.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: The Transform Copy API from GrowthBook — 1 operation(s) for transform copy.
   name: GrowthBook Transform Copy API
   slug: growthbook-transform-copy-api
-- description: Usage information for metrics in experiments.
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Usage information for metrics in experiments.
   name: GrowthBook usage API
   slug: growthbook-usage-api
-- description: Groups of visual changes made by the visual editor to a single page
+- baseURL: https://api.growthbook.io/api
+  baseurl_source: declared
+  description: Groups of visual changes made by the visual editor to a single page
   name: GrowthBook visual-changesets API
   slug: growthbook-visual-changesets-api
 artifact_total: 80
@@ -374,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/screenshots/growthbook-2026-06-20T182422.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Vectra AI Platform REST API (api.vectra.io) provides programmatic access to detections, hosts, accounts, assignments, threat-intelligence indicators, and platform configuration for the Vectra AI P
@@ -170,7 +170,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectra-ai/refs/heads/main/screenshots/vectra-ai-2026-06-20T200847.png
 security:

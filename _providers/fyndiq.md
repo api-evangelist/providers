@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 16 operations · 10 acting
 api_count: 1
 apis:
-- description: Create, update, retrieve and delete product articles.
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: Create, update, retrieve and delete product articles.
   name: Fyndiq Articles API
   slug: fyndiq-articles-api
-- description: Retrieve, fulfil and cancel marketplace orders.
+- baseURL: https://merchants-api.fyndiq.se/api/v1
+  baseurl_source: declared
+  description: Retrieve, fulfil and cancel marketplace orders.
   name: Fyndiq Orders API
   slug: fyndiq-orders-api
 artifact_total: 10
@@ -211,7 +215,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png
 security:

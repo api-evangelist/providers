@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -56,37 +56,59 @@ apis:
 - description: 'The legacy Utility Cloud REST API — predecessor to the Plug API — still documented for existing integrations. New integrations should use the Plug API; the Utility Cloud version remains available for '
   name: Arcadia Utility Cloud API (Legacy)
   slug: arcadia-utility-cloud-api
-- description: Utility accounts discovered for a credential.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Utility accounts discovered for a credential.
   name: Arcadia Accounts API
   slug: arcadia-power-accounts-api
-- description: Utility-login credentials used to pull data on behalf of customers.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Utility-login credentials used to pull data on behalf of customers.
   name: Arcadia Credentials API
   slug: arcadia-power-credentials-api
-- description: Source documents (PDFs, etc.) for statements and other artifacts.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Source documents (PDFs, etc.) for statements and other artifacts.
   name: Arcadia Files API
   slug: arcadia-power-files-api
-- description: Time-series consumption data, typically 15-minute resolution.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Time-series consumption data, typically 15-minute resolution.
   name: Arcadia Intervals API
   slug: arcadia-power-intervals-api
-- description: Individual measurement devices associated with accounts and sites.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Individual measurement devices associated with accounts and sites.
   name: Arcadia Meters API
   slug: arcadia-power-meters-api
-- description: Access token issuance.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Access token issuance.
   name: Arcadia OAuth API
   slug: arcadia-power-oauth-api
-- description: Top-level organization resource.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Top-level organization resource.
   name: Arcadia Organizations API
   slug: arcadia-power-organizations-api
-- description: Utility providers supported by the platform.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Utility providers supported by the platform.
   name: Arcadia Providers API
   slug: arcadia-power-providers-api
-- description: Physical service locations grouping meters and accounts.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Physical service locations grouping meters and accounts.
   name: Arcadia Sites API
   slug: arcadia-power-sites-api
-- description: Utility bills / statements pulled from the provider.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Utility bills / statements pulled from the provider.
   name: Arcadia Statements API
   slug: arcadia-power-statements-api
-- description: Asynchronous events for statement, meter, and credential lifecycle.
+- baseURL: https://api.arcadia.com/plug
+  baseurl_source: declared
+  description: Asynchronous events for statement, meter, and credential lifecycle.
   name: Arcadia Webhooks API
   slug: arcadia-power-webhooks-api
 artifact_total: 69
@@ -377,7 +399,7 @@ score:
     regime_id: energy_utilities
     score: 37.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia-power/refs/heads/main/screenshots/arcadia-power-2026-06-20T172402.png
 security:

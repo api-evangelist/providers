@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 5
 apis:
-- description: Query search traffic data for your site. Retrieve impressions, clicks, click-through rate, and average position grouped by dimensions such as query, page, country, device, search type, and date.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: Query search traffic data for your site. Retrieve impressions, clicks, click-through rate, and average position grouped by dimensions such as query, page, country, device, search type, and date.
   name: Google Search Console Search Analytics API
   slug: google-search-console-search-analytics-api
-- description: Submit and manage sitemaps and sitemap indexes for your site. List submitted sitemaps, check their processing status, submit new sitemaps, and delete previously submitted sitemaps.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: Submit and manage sitemaps and sitemap indexes for your site. List submitted sitemaps, check their processing status, submit new sitemaps, and delete previously submitted sitemaps.
   name: Google Search Console Sitemaps API
   slug: google-search-console-sitemaps-api
-- description: Manage site-level access and verification. List verified sites, get details about a specific site, add new sites, and remove sites from your Search Console account.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: Manage site-level access and verification. List verified sites, get details about a specific site, add new sites, and remove sites from your Search Console account.
   name: Google Search Console Sites API
   slug: google-search-console-sites-api
-- description: Inspect individual URLs to retrieve detailed indexing, crawling, and serving information. Check whether a URL is indexed, view crawl details, mobile usability status, and rich results eligibility.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: Inspect individual URLs to retrieve detailed indexing, crawling, and serving information. Check whether a URL is indexed, view crawl details, mobile usability status, and rich results eligibility.
   name: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
-- description: The urlNotifications API from Google Search Console — 2 operation(s) for urlnotifications.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: The urlNotifications API from Google Search Console — 2 operation(s) for urlnotifications.
   name: Google Search Console URL Notifications API
   slug: google-search-console-urlnotifications-api
-- description: The urlTestingTools API from Google Search Console — 1 operation(s) for urltestingtools.
+- baseURL: https://searchconsole.googleapis.com
+  baseurl_source: declared
+  description: The urlTestingTools API from Google Search Console — 1 operation(s) for urltestingtools.
   name: Google Search Console URL Testing Tools API
   slug: google-search-console-urltestingtools-api
 artifact_total: 111
@@ -600,7 +612,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:

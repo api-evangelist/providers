@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 128 operations · 63 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The subpackage_bulkSync API from Polytomic — 8 operation(s) for subpackage_bulksync.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_bulkSync API from Polytomic — 8 operation(s) for subpackage_bulksync.
   name: Polytomic subpackage_bulkSync API
   slug: polytomic-subpackage-bulksync-api
-- description: The subpackage_bulkSync.subpackage_bulkSync/executions API from Polytomic — 8 operation(s) for subpackage_bulksync.subpackage_bulksync/executions.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_bulkSync.subpackage_bulkSync/executions API from Polytomic — 8 operation(s) for subpackage_bulksync.subpackage_bulksync/executions.
   name: Polytomic subpackage_bulkSync.subpackage_bulkSync/executions API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-executions-api
-- description: The subpackage_bulkSync.subpackage_bulkSync/schedules API from Polytomic — 2 operation(s) for subpackage_bulksync.subpackage_bulksync/schedules.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_bulkSync.subpackage_bulkSync/schedules API from Polytomic — 2 operation(s) for subpackage_bulksync.subpackage_bulksync/schedules.
   name: Polytomic subpackage_bulkSync.subpackage_bulkSync/schedules API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api
-- description: The subpackage_bulkSync.subpackage_bulkSync/schemas API from Polytomic — 3 operation(s) for subpackage_bulksync.subpackage_bulksync/schemas.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_bulkSync.subpackage_bulkSync/schemas API from Polytomic — 3 operation(s) for subpackage_bulksync.subpackage_bulksync/schemas.
   name: Polytomic subpackage_bulkSync.subpackage_bulkSync/schemas API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api
-- description: The subpackage_connections API from Polytomic — 12 operation(s) for subpackage_connections.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_connections API from Polytomic — 12 operation(s) for subpackage_connections.
   name: Polytomic subpackage_connections API
   slug: polytomic-subpackage-connections-api
-- description: The subpackage_entities API from Polytomic — 2 operation(s) for subpackage_entities.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_entities API from Polytomic — 2 operation(s) for subpackage_entities.
   name: Polytomic subpackage_entities API
   slug: polytomic-subpackage-entities-api
-- description: The subpackage_events API from Polytomic — 2 operation(s) for subpackage_events.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_events API from Polytomic — 2 operation(s) for subpackage_events.
   name: Polytomic subpackage_events API
   slug: polytomic-subpackage-events-api
-- description: The subpackage_identity API from Polytomic — 1 operation(s) for subpackage_identity.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_identity API from Polytomic — 1 operation(s) for subpackage_identity.
   name: Polytomic subpackage_identity API
   slug: polytomic-subpackage-identity-api
-- description: The subpackage_jobs API from Polytomic — 1 operation(s) for subpackage_jobs.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_jobs API from Polytomic — 1 operation(s) for subpackage_jobs.
   name: Polytomic subpackage_jobs API
   slug: polytomic-subpackage-jobs-api
-- description: The subpackage_models API from Polytomic — 6 operation(s) for subpackage_models.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_models API from Polytomic — 6 operation(s) for subpackage_models.
   name: Polytomic subpackage_models API
   slug: polytomic-subpackage-models-api
-- description: The subpackage_modelSync API from Polytomic — 9 operation(s) for subpackage_modelsync.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_modelSync API from Polytomic — 9 operation(s) for subpackage_modelsync.
   name: Polytomic subpackage_modelSync API
   slug: polytomic-subpackage-modelsync-api
-- description: The subpackage_modelSync.subpackage_modelSync/executions API from Polytomic — 6 operation(s) for subpackage_modelsync.subpackage_modelsync/executions.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_modelSync.subpackage_modelSync/executions API from Polytomic — 6 operation(s) for subpackage_modelsync.subpackage_modelsync/executions.
   name: Polytomic subpackage_modelSync.subpackage_modelSync/executions API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api
-- description: The subpackage_modelSync.subpackage_modelSync/targets API from Polytomic — 3 operation(s) for subpackage_modelsync.subpackage_modelsync/targets.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_modelSync.subpackage_modelSync/targets API from Polytomic — 3 operation(s) for subpackage_modelsync.subpackage_modelsync/targets.
   name: Polytomic subpackage_modelSync.subpackage_modelSync/targets API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api
-- description: The subpackage_notifications API from Polytomic — 1 operation(s) for subpackage_notifications.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_notifications API from Polytomic — 1 operation(s) for subpackage_notifications.
   name: Polytomic subpackage_notifications API
   slug: polytomic-subpackage-notifications-api
-- description: The subpackage_organization API from Polytomic — 3 operation(s) for subpackage_organization.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_organization API from Polytomic — 3 operation(s) for subpackage_organization.
   name: Polytomic subpackage_organization API
   slug: polytomic-subpackage-organization-api
-- description: The subpackage_permissions.subpackage_permissions/policies API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/policies.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_permissions.subpackage_permissions/policies API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/policies.
   name: Polytomic subpackage_permissions.subpackage_permissions/policies API
   slug: polytomic-subpackage-permissions-subpackage-permissions-policies-api
-- description: The subpackage_permissions.subpackage_permissions/roles API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/roles.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_permissions.subpackage_permissions/roles API from Polytomic — 2 operation(s) for subpackage_permissions.subpackage_permissions/roles.
   name: Polytomic subpackage_permissions.subpackage_permissions/roles API
   slug: polytomic-subpackage-permissions-subpackage-permissions-roles-api
-- description: The subpackage_queryRunner API from Polytomic — 2 operation(s) for subpackage_queryrunner.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_queryRunner API from Polytomic — 2 operation(s) for subpackage_queryrunner.
   name: Polytomic subpackage_queryRunner API
   slug: polytomic-subpackage-queryrunner-api
-- description: The subpackage_schemas API from Polytomic — 7 operation(s) for subpackage_schemas.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_schemas API from Polytomic — 7 operation(s) for subpackage_schemas.
   name: Polytomic subpackage_schemas API
   slug: polytomic-subpackage-schemas-api
-- description: The subpackage_users API from Polytomic — 5 operation(s) for subpackage_users.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_users API from Polytomic — 5 operation(s) for subpackage_users.
   name: Polytomic subpackage_users API
   slug: polytomic-subpackage-users-api
-- description: The subpackage_webhooks API from Polytomic — 4 operation(s) for subpackage_webhooks.
+- baseURL: https://app.polytomic.com
+  baseurl_source: declared
+  description: The subpackage_webhooks API from Polytomic — 4 operation(s) for subpackage_webhooks.
   name: Polytomic subpackage_webhooks API
   slug: polytomic-subpackage-webhooks-api
 artifact_total: 52
@@ -279,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/screenshots/polytomic-2026-06-20T191910.png
 security:

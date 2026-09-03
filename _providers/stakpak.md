@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 99 operations · 52 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Account API
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: Account API
   name: StakPak Account API
   slug: stakpak-account-api
-- description: The Account (V2) API from StakPak — 2 operation(s) for account (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Account (V2) API from StakPak — 2 operation(s) for account (v2).
   name: StakPak Account (V2) API
   slug: stakpak-account-v2-api
-- description: Agents API
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: Agents API
   name: StakPak Agents API
   slug: stakpak-agents-api
-- description: The Agents (V2) API from StakPak — 2 operation(s) for agents (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Agents (V2) API from StakPak — 2 operation(s) for agents (v2).
   name: StakPak Agents (V2) API
   slug: stakpak-agents-v2-api
-- description: The Billing (V2) API from StakPak — 6 operation(s) for billing (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Billing (V2) API from StakPak — 6 operation(s) for billing (v2).
   name: StakPak Billing (V2) API
   slug: stakpak-billing-v2-api
-- description: The Chat API from StakPak — 2 operation(s) for chat.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Chat API from StakPak — 2 operation(s) for chat.
   name: StakPak Chat API
   slug: stakpak-chat-api
-- description: The Commands API from StakPak — 1 operation(s) for commands.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Commands API from StakPak — 1 operation(s) for commands.
   name: StakPak Commands API
   slug: stakpak-commands-api
-- description: The Knowledge API from StakPak — 2 operation(s) for knowledge.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Knowledge API from StakPak — 2 operation(s) for knowledge.
   name: StakPak Knowledge API
   slug: stakpak-knowledge-api
-- description: The Knowledge Registry API from StakPak — 5 operation(s) for knowledge registry.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Knowledge Registry API from StakPak — 5 operation(s) for knowledge registry.
   name: StakPak Knowledge Registry API
   slug: stakpak-knowledge-registry-api
-- description: The MCP API from StakPak — 1 operation(s) for mcp.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The MCP API from StakPak — 1 operation(s) for mcp.
   name: StakPak MCP API
   slug: stakpak-mcp-api
-- description: The Memory API from StakPak — 2 operation(s) for memory.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Memory API from StakPak — 2 operation(s) for memory.
   name: StakPak Memory API
   slug: stakpak-memory-api
-- description: The Memory (V2) API from StakPak — 2 operation(s) for memory (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Memory (V2) API from StakPak — 2 operation(s) for memory (v2).
   name: StakPak Memory (V2) API
   slug: stakpak-memory-v2-api
-- description: The Organizations API from StakPak — 11 operation(s) for organizations.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Organizations API from StakPak — 11 operation(s) for organizations.
   name: StakPak Organizations API
   slug: stakpak-organizations-api
-- description: The Recovery API from StakPak — 3 operation(s) for recovery.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Recovery API from StakPak — 3 operation(s) for recovery.
   name: StakPak Recovery API
   slug: stakpak-recovery-api
-- description: Rules API
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: Rules API
   name: StakPak Rules API
   slug: stakpak-rules-api
-- description: The Rules (V2) API from StakPak — 5 operation(s) for rules (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Rules (V2) API from StakPak — 5 operation(s) for rules (v2).
   name: StakPak Rules (V2) API
   slug: stakpak-rules-v2-api
-- description: The Runners (V2) API from StakPak — 6 operation(s) for runners (v2).
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Runners (V2) API from StakPak — 6 operation(s) for runners (v2).
   name: StakPak Runners (V2) API
   slug: stakpak-runners-v2-api
-- description: The Sessions API from StakPak — 4 operation(s) for sessions.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Sessions API from StakPak — 4 operation(s) for sessions.
   name: StakPak Sessions API
   slug: stakpak-sessions-api
-- description: The Telemetry API from StakPak — 1 operation(s) for telemetry.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Telemetry API from StakPak — 1 operation(s) for telemetry.
   name: StakPak Telemetry API
   slug: stakpak-telemetry-api
-- description: The Upload API from StakPak — 1 operation(s) for upload.
+- baseURL: https://apiv2.stakpak.dev
+  baseurl_source: declared
+  description: The Upload API from StakPak — 1 operation(s) for upload.
   name: StakPak Upload API
   slug: stakpak-upload-api
 artifact_total: 45
@@ -327,7 +367,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stakpak/refs/heads/main/screenshots/stakpak-2026-08-17T082102.png
 security:

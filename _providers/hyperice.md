@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -39,13 +52,19 @@ apis:
 - description: A live MCP (JSON-RPC 2.0 over HTTP) server implementing the Universal Commerce Protocol shopping service, declared by Hyperice's own /.well-known/ucp merchant profile and advertised to agents in /llms
   name: Hyperice UCP Shopping MCP Server
   slug: hyperice-ucp-shopping-mcp-server
-- description: Collection (category) read operations.
+- baseURL: https://hyperice.com/api/2026-04/graphql.json
+  baseurl_source: declared
+  description: Collection (category) read operations.
   name: Hyperice Collections API
   slug: hyperice-collections-api
-- description: Agent- and crawler-facing discovery documents.
+- baseURL: https://hyperice.com/api/2026-04/graphql.json
+  baseurl_source: declared
+  description: Agent- and crawler-facing discovery documents.
   name: Hyperice Discovery API
   slug: hyperice-discovery-api
-- description: Product catalog read operations.
+- baseURL: https://hyperice.com/api/2026-04/graphql.json
+  baseurl_source: declared
+  description: Product catalog read operations.
   name: Hyperice Products API
   slug: hyperice-products-api
 artifact_total: 12
@@ -272,7 +291,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png
 security:

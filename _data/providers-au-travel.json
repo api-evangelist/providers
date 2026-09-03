@@ -16,11 +16,11 @@
      "slug": "webjet",
      "description": "Webjet Group Limited (ASX: WJL) is the Australian consumer travel company created when Webjet Limited demerged in September 2024 — the B2C half, while the B2B WebBeds bed bank went to Web Travel Group (ASX: WEB). It operates Webjet OTA (webjet.com.au / webjet.co.nz), which the company describes as the number one online travel agency position in Australia and New Zealand; the GoSee vehicle-rental brands Airport Rentals and Motorhome Republic; and Trip Ninja, a travel-technology business selling flight-construction software to other travel platforms. Webjet sits downstream of airline distribution — it resells airline content sourced through GDS and NDC connections rather than owning inventory, and holds ATIA/ATAS accreditation A17325 with an IATA accredited agent entity (Webjet Marketing). Its API posture is honestly lopsided: the consumer brands publish no developer documentation and no public API at all (developer/api/docs subdomains do not resolve; www.webjet.com.au returns 403 to non-browser clients), while the group's only public API surface is Trip Ninja's: the SmartFlights developer hub at devhub.tripninja.io, with eleven OpenAPI 3.0.0 documents rendered in-page, plus six further OpenAPI 3.0.0 documents published in Trip Ninja's own GitHub organisation (trip-ninja-inc/trip_ninja_api_docs) covering flights core, pricing/booking/ ticketing, hotels, MSDP dynamic packaging and the v2 legacy surface. Seventeen specifications in all, and two Apache-2.0 client libraries on PyPI and NuGet. Docs are freely readable but access is zero self-serve: production use requires a commercial agreement, Trip Ninja-issued admin panel credentials, IP allow-listing and a certification pass, every API host returns 403 to a non-allow-listed IP, and no data-export operation is published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png",
-     "score": 31.6,
+     "score": 32.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 46.3,
+      "discoverability": 55.6,
       "contract_quality": 49.7,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -29,7 +29,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -75,7 +75,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -174,7 +174,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -231,7 +231,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -284,7 +284,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -330,7 +330,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 14.2,
      "agent_band": "agent-aware",
@@ -362,6 +362,7 @@
      "name": "Sydney Airport",
      "slug": "sydney-airport",
      "description": "Sydney Airport Corporation Limited (ACN 082 578 809) operates Sydney Kingsford Smith Airport (IATA SYD, ICAO YSSY), Australia's principal international gateway, under private ownership by the Sydney Aviation Alliance consortium since its 2022 ASX delisting. In the travel distribution chain it is infrastructure rather than an intermediary - it sells no seats, holds no inventory, issues no PNRs, and sits outside the GDS and IATA NDC value chain entirely, monetising aeronautical charges, car parking, retail concessions and property instead. Its API posture is effectively nil - Sydney Airport publishes no developer portal, no API documentation, no OpenAPI, and no terms of use for machine access. Its public website is backed by undocumented JSON endpoints under /_a/ that return live flight and security wait-time data with no published contract, while its only credentialed partner surface, InfoSYD, is gated behind a ForgeRock OAuth 2.0 / OpenID Connect identity provider at id.syd.com.au and is restricted to airlines, ground handlers and on-airport tenants. The published terms of use expressly prohibit automated retrieval, scraping and indexing of the site, so there is public data but no public interface - and no documented exit path beyond an Australian Privacy Principle 12 personal-information access request.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sydney-airport/refs/heads/main/screenshots/sydney-airport-2026-09-02T161434.png",
      "score": 14.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -375,7 +376,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -421,7 +422,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -467,7 +468,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -499,6 +500,7 @@
      "name": "Virgin Australia",
      "slug": "virgin-australia",
      "description": "Virgin Australia (IATA code VA, ASX:VGN) is Australia's second-largest airline group, founded in 2000 and headquartered in Brisbane, operating a domestic and short-haul international network alongside charter and cargo services with more than 8,000 team members and the 13-million-member Velocity Frequent Flyer loyalty program. It sits on the airline side of a concentrated Australian duopoly with Qantas, and reaches travel agents and travel management companies almost entirely through GDS intermediation — Amadeus, Sabre and Travelport/Galileo — rather than through any direct machine interface of its own. Virgin Australia selected Sabre as its preferred NDC IT technology provider in October 2023 and renewed a multi-year Amadeus distribution agreement covering EDIFACT today and NDC in future, but as of July 2026 no Virgin Australia NDC endpoint, developer portal or API documentation is published anywhere on virginaustralia.com. Its API posture is honestly stated as none-published: developer.virginaustralia.com, developers., api., apis. and docs. subdomains do not resolve; /developers, /api, /api-docs, /openapi.json and /swagger.json all return 404; and the only partner surface is the Agency Hub, whose Travel Agent Main Agreement requires current IATA or ATIS accreditation, GDS access for BSP sales, and Virgin Australia's absolute discretion to approve an account. The one genuinely public programmatic-adjacent surface is the Virgin Australia app in ChatGPT, launched 10 June 2026 for flight and Velocity Reward Seat search only — it cannot book, amend, cancel or take payment, and its underlying interface is not documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virgin-australia/refs/heads/main/screenshots/virgin-australia-2026-09-02T170002.png",
      "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -512,7 +514,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

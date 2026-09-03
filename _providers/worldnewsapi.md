@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 8 operations
 api_count: 2
 apis:
-- description: Extract article content and links from arbitrary news URLs.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Extract article content and links from arbitrary news URLs.
   name: World News API Extract News API
   slug: worldnewsapi-extract-news-api
-- description: Retrieve newspaper front-page images by country and date.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Retrieve newspaper front-page images by country and date.
   name: World News API Front Pages API
   slug: worldnewsapi-front-pages-api
-- description: Resolve a place name to latitude/longitude for local news search.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Resolve a place name to latitude/longitude for local news search.
   name: World News API Geo Coordinates API
   slug: worldnewsapi-geo-coordinates-api
-- description: Discover and inspect available news sources.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Discover and inspect available news sources.
   name: World News API News Sources API
   slug: worldnewsapi-news-sources-api
-- description: Retrieve full article records by id.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Retrieve full article records by id.
   name: World News API Retrieve News API
   slug: worldnewsapi-retrieve-news-api
-- description: Full-text, semantic, and geo/local news search.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Full-text, semantic, and geo/local news search.
   name: World News API Search News API
   slug: worldnewsapi-search-news-api
-- description: Country-level top news clustered by coverage.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: Country-level top news clustered by coverage.
   name: World News API Top News API
   slug: worldnewsapi-top-news-api
-- description: The News API from World News API — 9 operation(s) for news.
+- baseURL: https://api.worldnewsapi.com
+  baseurl_source: declared
+  description: The News API from World News API — 9 operation(s) for news.
   name: World News API News API
   slug: worldnewsapi-news-api
 artifact_total: 24
@@ -338,7 +354,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/screenshots/worldnewsapi-2026-08-17T080439.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Authenticated patient-facing portals (MyGuardant and My Data) where patients access test status, results and personal health data. Web application behind login; no documented public patient API.
   name: MyGuardant Patient Portal
   slug: myguardant-patient-portal
-- description: Electronic ordering of Guardant assays from the EMR.
+- baseURL: https://example.invalid/guardant-health/emr
+  baseurl_source: spec
+  description: Electronic ordering of Guardant assays from the EMR.
   name: Guardant Health Orders API
   slug: guardant-health-orders-api
-- description: Molecular profiling results delivered back to the patient chart.
+- baseURL: https://example.invalid/guardant-health/emr
+  baseurl_source: spec
+  description: Molecular profiling results delivered back to the patient chart.
   name: Guardant Health Results API
   slug: guardant-health-results-api
 artifact_total: 19
@@ -195,7 +199,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardant-health/refs/heads/main/screenshots/guardant-health-2026-06-20T182424.png
 security:

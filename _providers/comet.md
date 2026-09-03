@@ -33,133 +33,217 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Agent configuration management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Agent configuration management
   name: Comet Agent Configs API
   slug: comet-agent-configs-api
-- description: Agent Insights report results
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Agent Insights report results
   name: Comet Agent Insights API
   slug: comet-agent-insights-api
-- description: Per-(workspace, project) Agent Insights report configuration
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Per-(workspace, project) Agent Insights report configuration
   name: Comet Agent Insights Jobs API
   slug: comet-agent-insights-jobs-api
-- description: Alert resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Alert resources
   name: Comet Alerts API
   slug: comet-alerts-api
-- description: Private annotation queue operations
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Private annotation queue operations
   name: Comet Annotation Queues API
   slug: comet-annotation-queues-api
-- description: Assertion result related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Assertion result related resources
   name: Comet Assertion Results API
   slug: comet-assertion-results-api
-- description: Attachments related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Attachments related resources
   name: Comet Attachments API
   slug: comet-attachments-api
-- description: Automation rule evaluators resource
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Automation rule evaluators resource
   name: Comet Automation rule evaluators API
   slug: comet-automation-rule-evaluators-api
-- description: Chat Completions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Chat Completions related resources
   name: Comet Chat Completions API
   slug: comet-chat-completions-api
-- description: Access check resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Access check resources
   name: Comet Check API
   slug: comet-check-api
-- description: Workspace Dashboard resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace Dashboard resources
   name: Comet Dashboards API
   slug: comet-dashboards-api
-- description: Dataset resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Dataset resources
   name: Comet Datasets API
   slug: comet-datasets-api
-- description: Environment related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Environment related resources
   name: Comet Environments API
   slug: comet-environments-api
-- description: Experiment resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Experiment resources
   name: Comet Experiments API
   slug: comet-experiments-api
-- description: Feedback definitions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Feedback definitions related resources
   name: Comet Feedback-definitions API
   slug: comet-feedback-definitions-api
-- description: Guardrails related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Guardrails related resources
   name: Comet Guardrails API
   slug: comet-guardrails-api
-- description: Insights View resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Insights View resources
   name: Comet Insights Views API
   slug: comet-insights-views-api
-- description: The Is Alive API from Comet — 2 operation(s) for is alive.
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: The Is Alive API from Comet — 2 operation(s) for is alive.
   name: Comet Is Alive API
   slug: comet-is-alive-api
-- description: LLM model registry resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: LLM model registry resources
   name: Comet LLM Models API
   slug: comet-llm-models-api
-- description: LLM Provider Key
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: LLM Provider Key
   name: Comet LlmProviderKey API
   slug: comet-llmproviderkey-api
-- description: Manual evaluation resources for traces, threads, and spans
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Manual evaluation resources for traces, threads, and spans
   name: Comet Manual Evaluation API
   slug: comet-manual-evaluation-api
-- description: MCP OAuth 2.1 Authorization Server resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: MCP OAuth 2.1 Authorization Server resources
   name: Comet MCP OAuth API
   slug: comet-mcp-oauth-api
-- description: Ollama provider configuration endpoints with OpenAI-compatible API support.
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollama provider configuration endpoints with OpenAI-compatible API support.
   name: Comet Ollama API
   slug: comet-ollama-api
-- description: Ollie pod state persistence
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollie pod state persistence
   name: Comet Ollie State API
   slug: comet-ollie-state-api
-- description: Resource to ingest Traces and Spans via OpenTelemetry
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Resource to ingest Traces and Spans via OpenTelemetry
   name: Comet OpenTelemetry Ingestion API
   slug: comet-opentelemetry-ingestion-api
-- description: Optimization resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Optimization resources
   name: Comet Optimizations API
   slug: comet-optimizations-api
-- description: Pairing sessions for the `opik connect` and `opik endpoint` CLI commands
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Pairing sessions for the `opik connect` and `opik endpoint` CLI commands
   name: Comet Pairing API
   slug: comet-pairing-api
-- description: Project related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Project related resources
   name: Comet Projects API
   slug: comet-projects-api
-- description: Prompt resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Prompt resources
   name: Comet Prompts API
   slug: comet-prompts-api
-- description: Redirects for SDK generated links
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Redirects for SDK generated links
   name: Comet Redirect API
   slug: comet-redirect-api
-- description: Generic failure log for reports/jobs
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Generic failure log for reports/jobs
   name: Comet Report Failures API
   slug: comet-report-failures-api
-- description: Ollie daily report management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Ollie daily report management
   name: Comet Reports API
   slug: comet-reports-api
-- description: Data retention rule management
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Data retention rule management
   name: Comet Retention Rules API
   slug: comet-retention-rules-api
-- description: Local runner management endpoints
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Local runner management endpoints
   name: Comet Runners API
   slug: comet-runners-api
-- description: Service Toggles resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Service Toggles resources
   name: Comet Service Toggles API
   slug: comet-service-toggles-api
-- description: Span related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Span related resources
   name: Comet Spans API
   slug: comet-spans-api
-- description: Internal endpoint to run Agent Insights free-form SQL
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Internal endpoint to run Agent Insights free-form SQL
   name: Comet System analytics queries API
   slug: comet-system-analytics-queries-api
-- description: System usage related resource
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: System usage related resource
   name: Comet System usage API
   slug: comet-system-usage-api
-- description: Trace related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Trace related resources
   name: Comet Traces API
   slug: comet-traces-api
-- description: Welcome wizard tracking resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Welcome wizard tracking resources
   name: Comet Welcome Wizard API
   slug: comet-welcome-wizard-api
-- description: Workspace permissions related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace permissions related resources
   name: Comet Workspace permissions API
   slug: comet-workspace-permissions-api
-- description: Workspace related resources
+- baseURL: https://www.comet.com/opik/api/v1
+  baseurl_source: declared
+  description: Workspace related resources
   name: Comet Workspaces API
   slug: comet-workspaces-api
 artifact_total: 89
@@ -436,7 +520,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:

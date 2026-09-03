@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 65 operations · 27 acting
 api_count: 1
 apis:
-- description: The Accounts API from BRL — 27 operation(s) for accounts.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Accounts API from BRL — 27 operation(s) for accounts.
   name: BRL Accounts API
   slug: brl-accounts-api
-- description: The Assets API from BRL — 4 operation(s) for assets.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Assets API from BRL — 4 operation(s) for assets.
   name: BRL Assets API
   slug: brl-assets-api
-- description: The Claims API from BRL — 2 operation(s) for claims.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Claims API from BRL — 2 operation(s) for claims.
   name: BRL Claims API
   slug: brl-claims-api
-- description: The Nft Transfers API from BRL — 1 operation(s) for nft transfers.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Nft Transfers API from BRL — 1 operation(s) for nft transfers.
   name: BRL Nft Transfers API
   slug: brl-nft-transfers-api
-- description: The Orders API from BRL — 2 operation(s) for orders.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Orders API from BRL — 2 operation(s) for orders.
   name: BRL Orders API
   slug: brl-orders-api
-- description: The Quotes API from BRL — 1 operation(s) for quotes.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Quotes API from BRL — 1 operation(s) for quotes.
   name: BRL Quotes API
   slug: brl-quotes-api
-- description: The Tax Exemption API from BRL — 1 operation(s) for tax exemption.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Tax Exemption API from BRL — 1 operation(s) for tax exemption.
   name: BRL Tax Exemption API
   slug: brl-tax-exemption-api
-- description: The Transfers API from BRL — 1 operation(s) for transfers.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Transfers API from BRL — 1 operation(s) for transfers.
   name: BRL Transfers API
   slug: brl-transfers-api
-- description: The Wallets API from BRL — 4 operation(s) for wallets.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Wallets API from BRL — 4 operation(s) for wallets.
   name: BRL Wallets API
   slug: brl-wallets-api
-- description: The Withdrawals API from BRL — 2 operation(s) for withdrawals.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Withdrawals API from BRL — 2 operation(s) for withdrawals.
   name: BRL Withdrawals API
   slug: brl-withdrawals-api
-- description: The Crown API & Webhooks API from BRL — 0 operation(s) for crown api & webhooks.
+- baseURL: https://app.crown-brlv.com
+  baseurl_source: declared
+  description: The Crown API & Webhooks API from BRL — 0 operation(s) for crown api & webhooks.
   name: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
 artifact_total: 27
@@ -233,7 +255,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -243,7 +265,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 38.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +282,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
 security:

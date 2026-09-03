@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,55 +35,87 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Live API from Sylvia API — 1 operation(s) for live.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Live API from Sylvia API — 1 operation(s) for live.
   name: Sylvia API Live API
   slug: sylvia-api-live-api
-- description: The Subreddits API from Sylvia API — 2 operation(s) for subreddits.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Subreddits API from Sylvia API — 2 operation(s) for subreddits.
   name: Sylvia API Subreddits API
   slug: sylvia-api-subreddits-api
-- description: The Users API from Sylvia API — 3 operation(s) for users.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Users API from Sylvia API — 3 operation(s) for users.
   name: Sylvia API Users API
   slug: sylvia-api-users-api
-- description: The Account API from Sylvia API — 5 operation(s) for account.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Account API from Sylvia API — 5 operation(s) for account.
   name: Sylvia API Account API
   slug: sylvia-api-account-api
-- description: The Billing API from Sylvia API — 2 operation(s) for billing.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Billing API from Sylvia API — 2 operation(s) for billing.
   name: Sylvia API Billing API
   slug: sylvia-api-billing-api
-- description: The Discovery API from Sylvia API — 3 operation(s) for discovery.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Discovery API from Sylvia API — 3 operation(s) for discovery.
   name: Sylvia API Discovery API
   slug: sylvia-api-discovery-api
-- description: The Domains API from Sylvia API — 2 operation(s) for domains.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Domains API from Sylvia API — 2 operation(s) for domains.
   name: Sylvia API Domains API
   slug: sylvia-api-domains-api
-- description: The Health API from Sylvia API — 1 operation(s) for health.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Health API from Sylvia API — 1 operation(s) for health.
   name: Sylvia API Health API
   slug: sylvia-api-health-api
-- description: The Keys API from Sylvia API — 2 operation(s) for keys.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Keys API from Sylvia API — 2 operation(s) for keys.
   name: Sylvia API Keys API
   slug: sylvia-api-keys-api
-- description: The Posts & Comments API from Sylvia API — 6 operation(s) for posts & comments.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Posts & Comments API from Sylvia API — 6 operation(s) for posts & comments.
   name: Sylvia API Posts & Comments API
   slug: sylvia-api-posts-comments-api
-- description: The Search API from Sylvia API — 1 operation(s) for search.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Search API from Sylvia API — 1 operation(s) for search.
   name: Sylvia API Search API
   slug: sylvia-api-search-api
-- description: The Templates API from Sylvia API — 2 operation(s) for templates.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Templates API from Sylvia API — 2 operation(s) for templates.
   name: Sylvia API Templates API
   slug: sylvia-api-templates-api
-- description: The Comments API from Sylvia API — 2 operation(s) for comments.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Comments API from Sylvia API — 2 operation(s) for comments.
   name: Sylvia API Comments API
   slug: sylvia-api-comments-api
-- description: The Datasets API from Sylvia API — 1 operation(s) for datasets.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Datasets API from Sylvia API — 1 operation(s) for datasets.
   name: Sylvia API Datasets API
   slug: sylvia-api-datasets-api
-- description: The Posts API from Sylvia API — 2 operation(s) for posts.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Posts API from Sylvia API — 2 operation(s) for posts.
   name: Sylvia API Posts API
   slug: sylvia-api-posts-api
-- description: The Usage API from Sylvia API — 1 operation(s) for usage.
+- baseURL: https://api.sylvia-api.com/v1
+  baseurl_source: declared
+  description: The Usage API from Sylvia API — 1 operation(s) for usage.
   name: Sylvia API Usage API
   slug: sylvia-api-usage-api
 artifact_total: 22
@@ -249,7 +293,7 @@ score:
   band: strong
   composite: 54.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -274,8 +318,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/screenshots/sylvia-api-2026-09-02T161619.png
 security:
 - kind: authentication
   name: Sylvia Api Authentication

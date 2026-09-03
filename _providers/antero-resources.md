@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Antero Resources Corporation (NYSE: AR) files annual reports (10-K), quarterly reports (10-Q), current reports (8-K), proxy statements, and other regulatory disclosures with the U.S. Securities and Ex'
@@ -49,22 +49,50 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/antero-resources
-- group: start
+- group: company
   title: ''
-  type: Portal
+  type: Website
   url: https://www.anteroresources.com
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.anteroresources.com/legal/terms-and-conditions
+  url: https://www.anteroresources.com/terms-and-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.anteroresources.com/legal/privacy-policy
+  url: https://www.anteroresources.com/privacy-notice
 - group: company
   title: ''
   type: Blog
   url: https://www.anteroresources.com/news-events/press-releases/rss
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.anteroresources.com/contact-us
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/antero-resources-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/antero-resources-conformance.yml
+coverage:
+  checked: '2026-09-02'
+  detail: Antero Resources is an Appalachian Basin natural-gas and NGL producer whose product is a hydrocarbon, not software; its entire web estate is 47 pages of investor-relations HTML and PDF forms (its own sitemap.xml lists no developer, API or integration page), and every contract-discovery path - /openapi.json, /swagger.json, /api-docs, /llms.txt and all seven named /.well-known/ paths - returns HTTP 404 on www.anteroresources.com.
+  evidence:
+  - status: 404
+    url: https://www.anteroresources.com/openapi.json
+  - status: 404
+    url: https://www.anteroresources.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.anteroresources.com/llms.txt
+  - status: 200
+    url: https://www.anteroresources.com/sitemap.xml
+  - status: 200
+    url: https://data.sec.gov/submissions/CIK0001433270.json
+  reason: not-a-software-company
+  state: none
 created: '2026-03-23'
 description: Antero Resources is an independent oil and natural gas company engaged in the exploration, development, and production of natural gas, NGLs, and oil properties in the Appalachian Basin (West Virginia and Ohio). It is one of the largest natural gas producers in the United States, with operations focused on the Marcellus and Utica Shale formations.
 finops:
@@ -73,14 +101,14 @@ finops:
   slug: antero-resources-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/antero-resources.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Antero Resources
 nav: Providers
 network: true
 overview: 'Antero Resources publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, NGL, Oil and Gas, and Upstream.
 
 
-  Antero Resources'' developer surface includes developer portal, engineering blog, and 4 more developer resources.'
+  Antero Resources'' developer surface includes engineering blog, support, and 7 more developer resources.'
 plans:
 - name: Antero Resources Plans Pricing
   plan_count: 1
@@ -117,31 +145,33 @@ rate_limits:
   slug: antero-resources-rate-limits
 score:
   band: emerging
-  composite: 14.2
+  composite: 18.5
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 71.0
+    artifact_dirs: 11
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
+    developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 21.1
   previous_composite: 14.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
+    score: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antero-resources/refs/heads/main/screenshots/antero-resources-2026-06-20T172022.png
 security:

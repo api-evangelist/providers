@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 8
 apis:
-- description: Airport information for Alaska Airlines served destinations
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Airport information for Alaska Airlines served destinations
   name: Alaska Airlines Airports API
   slug: alaska-air-airports-api
-- description: Real-time flight status and tracking for Alaska Airlines and Horizon Air flights
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Real-time flight status and tracking for Alaska Airlines and Horizon Air flights
   name: Alaska Airlines Flight Status API
   slug: alaska-air-flight-status-api
-- description: Mileage Plan member data and tier information
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Mileage Plan member data and tier information
   name: Alaska Airlines Members API
   slug: alaska-air-members-api
-- description: Partner mile reporting for hotel, car rental, and retail activities
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Partner mile reporting for hotel, car rental, and retail activities
   name: Alaska Airlines Partner Miles API
   slug: alaska-air-partner-miles-api
-- description: Cargo rate estimation
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Cargo rate estimation
   name: Alaska Airlines Rates API
   slug: alaska-air-rates-api
-- description: Flight schedule data for Alaska Airlines and Horizon Air routes
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Flight schedule data for Alaska Airlines and Horizon Air routes
   name: Alaska Airlines Schedules API
   slug: alaska-air-schedules-api
-- description: Cargo shipment booking and tracking operations
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Cargo shipment booking and tracking operations
   name: Alaska Airlines Shipments API
   slug: alaska-air-shipments-api
-- description: Mile earn and redemption transaction history
+- baseURL: https://api.alaskaair.com
+  baseurl_source: declared
+  description: Mile earn and redemption transaction history
   name: Alaska Airlines Transactions API
   slug: alaska-air-transactions-api
 artifact_total: 112
@@ -467,7 +483,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -477,7 +493,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 27.6
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -486,7 +502,7 @@ score:
       marker_coverage: 100.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/screenshots/alaska-air-2026-06-20T171459.png
 security:

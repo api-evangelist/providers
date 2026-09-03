@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -52,13 +52,19 @@ apis:
 - description: API for embedding a white-labeled reward storefront into existing applications via SSO/SAML. Enables end-users to browse and redeem rewards from a branded marketplace without leaving the host applicat
   name: Xoxoday Storefront Integration API
   slug: storefront-integration-api
-- description: Token generation, validation, and refresh
+- baseURL: https://accounts.xoxoday.com/chef
+  baseurl_source: declared
+  description: Token generation, validation, and refresh
   name: Xoxoday Authentication API
   slug: xoxoday-authentication-api
-- description: Browse and order gift card vouchers
+- baseURL: https://accounts.xoxoday.com/chef
+  baseurl_source: declared
+  description: Browse and order gift card vouchers
   name: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
-- description: Generate and send personalized reward links
+- baseURL: https://accounts.xoxoday.com/chef
+  baseurl_source: declared
+  description: Generate and send personalized reward links
   name: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
 artifact_total: 24
@@ -202,7 +208,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -212,7 +218,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -227,7 +233,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/screenshots/xoxoday-2026-06-20T201711.png
 security:

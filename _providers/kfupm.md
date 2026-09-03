@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: KFUPM's own identity provider at sts.kfupm.edu.sa (Microsoft AD FS). Publishes signed SAML 2.0 federation metadata (80 KB, entityID http://sts.kfupm.edu.sa/adfs/services/trust, IDPSSODescriptor with H
+- baseURL: https://sts.kfupm.edu.sa
+  baseurl_source: declared
+  description: KFUPM's own identity provider at sts.kfupm.edu.sa (Microsoft AD FS). Publishes signed SAML 2.0 federation metadata (80 KB, entityID http://sts.kfupm.edu.sa/adfs/services/trust, IDPSSODescriptor with H
   name: KFUPM Identity Federation (SAML 2.0 + OpenID Connect)
   slug: identity-federation
-- description: 'Live OAI-PMH 2.0 harvesting interface for the KFUPM ePrints institutional repository (EPrints 3.4.1), self-hosted on the university''s own domain. repositoryIdentifier eprints.kfupm.edu.sa, adminEmail '
+- baseURL: https://eprints.kfupm.edu.sa/cgi/oai2
+  baseurl_source: declared
+  description: 'Live OAI-PMH 2.0 harvesting interface for the KFUPM ePrints institutional repository (EPrints 3.4.1), self-hosted on the university''s own domain. repositoryIdentifier eprints.kfupm.edu.sa, adminEmail '
   name: KFUPM ePrints OAI-PMH Repository Interface
   slug: eprints-oai-pmh
-- description: Record-level and search-level JSON from the same self-hosted KFUPM ePrints repository, served without authentication. /cgi/export/eprint/{eprintid}/JSON/{filename} returns the full record as applicati
+- baseURL: https://eprints.kfupm.edu.sa/cgi
+  baseurl_source: declared
+  description: Record-level and search-level JSON from the same self-hosted KFUPM ePrints repository, served without authentication. /cgi/export/eprint/{eprintid}/JSON/{filename} returns the full record as applicati
   name: KFUPM ePrints Export & Search (JSON)
   slug: eprints-export
 - description: KFUPM runs an Elsevier Pure research information system at pure.kfupm.edu.sa and its Pure Web Services REST API is reachable at /ws/api, authenticated with a Pure api-key header. The deployment, the t
@@ -190,7 +196,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.6
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -200,7 +206,7 @@ score:
     discoverability: 74.1
     governance: 3.8
     operational_transparency: 7.9
-  previous_composite: 46.9
+  previous_composite: 40.3
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +221,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kfupm/refs/heads/main/screenshots/kfupm-2026-06-20T184024.png
 security:
 - kind: authentication

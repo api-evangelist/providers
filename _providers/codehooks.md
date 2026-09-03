@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'Asynchronous CRUD lifecycle hooks (onBeforeCreate, onAfterCreate, onBeforeRead, onAfterRead, onBeforeUpdate, onAfterUpdate, onBeforeDelete, onAfterDelete) and queue worker processing (onQueueJob) for '
   name: Codehooks Events (AsyncAPI)
   slug: codehooks-events
-- description: CRUD operations on NoSQL collection documents
+- baseURL: https://{projectId}.api.codehooks.io/{space}
+  baseurl_source: declared
+  description: CRUD operations on NoSQL collection documents
   name: Codehooks Documents API
   slug: codehooks-documents-api
-- description: Fast key-value storage with optional TTL for caching and lookups
+- baseURL: https://{projectId}.api.codehooks.io/{space}
+  baseurl_source: declared
+  description: Fast key-value storage with optional TTL for caching and lookups
   name: Codehooks Key-Value Store API
   slug: codehooks-key-value-store-api
-- description: Asynchronous job queue for worker processing
+- baseURL: https://{projectId}.api.codehooks.io/{space}
+  baseurl_source: declared
+  description: Asynchronous job queue for worker processing
   name: Codehooks Queue API
   slug: codehooks-queue-api
 artifact_total: 23
@@ -238,7 +244,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -248,7 +254,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 42.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -257,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
 security:

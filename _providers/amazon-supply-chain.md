@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 24 operations · 14 acting
 api_count: 6
 apis:
-- description: The Bill of Materials API from Amazon Supply Chain — 2 operation(s) for bill of materials.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Bill of Materials API from Amazon Supply Chain — 2 operation(s) for bill of materials.
   name: Amazon Supply Chain Bill of Materials API
   slug: amazon-supply-chain-bill-of-materials-api
-- description: The Data Integration Events API from Amazon Supply Chain — 1 operation(s) for data integration events.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Data Integration Events API from Amazon Supply Chain — 1 operation(s) for data integration events.
   name: Amazon Supply Chain Data Integration Events API
   slug: amazon-supply-chain-data-integration-events-api
-- description: The Data Integration Flows API from Amazon Supply Chain — 2 operation(s) for data integration flows.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Data Integration Flows API from Amazon Supply Chain — 2 operation(s) for data integration flows.
   name: Amazon Supply Chain Data Integration Flows API
   slug: amazon-supply-chain-data-integration-flows-api
-- description: The Data Lake API from Amazon Supply Chain — 3 operation(s) for data lake.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Data Lake API from Amazon Supply Chain — 3 operation(s) for data lake.
   name: Amazon Supply Chain Data Lake API
   slug: amazon-supply-chain-data-lake-api
-- description: The Instances API from Amazon Supply Chain — 2 operation(s) for instances.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Instances API from Amazon Supply Chain — 2 operation(s) for instances.
   name: Amazon Supply Chain Instances API
   slug: amazon-supply-chain-instances-api
-- description: The Tags API from Amazon Supply Chain — 1 operation(s) for tags.
+- baseURL: https://scn.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Supply Chain — 1 operation(s) for tags.
   name: Amazon Supply Chain Tags API
   slug: amazon-supply-chain-tags-api
 artifact_total: 58
@@ -336,7 +348,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/screenshots/amazon-supply-chain-2026-06-20T171834.png
 security:

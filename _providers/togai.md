@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 121 operations · 69 acting
 api_count: 1
 apis:
-- description: Account level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Account level calls
   name: Togai Accounts API
   slug: togai-accounts-api
-- description: The AddOns API from Togai — 2 operation(s) for addons.
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The AddOns API from Togai — 2 operation(s) for addons.
   name: Togai AddOns API
   slug: togai-addons-api
-- description: Alias level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Alias level calls
   name: Togai Aliases API
   slug: togai-aliases-api
-- description: Authentication API
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Authentication API
   name: Togai Authentication API
   slug: togai-authentication-api
-- description: Credits API
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Credits API
   name: Togai Credits API
   slug: togai-credits-api
-- description: Portal level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Portal level calls
   name: Togai Customer Portal API
   slug: togai-customer-portal-api
-- description: Customer level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Customer level calls
   name: Togai Customers API
   slug: togai-customers-api
-- description: APIs related to entitlements
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: APIs related to entitlements
   name: Togai Entitlements API
   slug: togai-entitlements-api
-- description: The Event Ingestion API from Togai — 2 operation(s) for event ingestion.
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The Event Ingestion API from Togai — 2 operation(s) for event ingestion.
   name: Togai Event Ingestion API
   slug: togai-event-ingestion-api
-- description: APIs for getting events ingested in Togai
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: APIs for getting events ingested in Togai
   name: Togai Event Management API
   slug: togai-event-management-api
-- description: Event Schema level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Event Schema level calls
   name: Togai Event Schemas API
   slug: togai-event-schemas-api
-- description: The Feature API from Togai — 2 operation(s) for feature.
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The Feature API from Togai — 2 operation(s) for feature.
   name: Togai Feature API
   slug: togai-feature-api
-- description: The File Storage API from Togai — 2 operation(s) for file storage.
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The File Storage API from Togai — 2 operation(s) for file storage.
   name: Togai File Storage API
   slug: togai-file-storage-api
-- description: Invoice Group level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Invoice Group level calls
   name: Togai InvoiceGroups API
   slug: togai-invoicegroups-api
-- description: Invoices API
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Invoices API
   name: Togai Invoices API
   slug: togai-invoices-api
-- description: The Jobs API from Togai — 5 operation(s) for jobs.
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: The Jobs API from Togai — 5 operation(s) for jobs.
   name: Togai Jobs API
   slug: togai-jobs-api
-- description: APIs for getting or updating license records in Togai
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: APIs for getting or updating license records in Togai
   name: Togai Licenses API
   slug: togai-licenses-api
-- description: APIs for getting Togai metrics
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: APIs for getting Togai metrics
   name: Togai Metrics API
   slug: togai-metrics-api
-- description: Payments API
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Payments API
   name: Togai Payments API
   slug: togai-payments-api
-- description: Price Experimentation apis
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Price Experimentation apis
   name: Togai Price Experimentation API
   slug: togai-price-experimentation-api
-- description: Price Plan level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Price Plan level calls
   name: Togai Price Plans API
   slug: togai-price-plans-api
-- description: Pricing Rules level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Pricing Rules level calls
   name: Togai Pricing Rules API
   slug: togai-pricing-rules-api
-- description: Settings
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Settings
   name: Togai Settings API
   slug: togai-settings-api
-- description: Usage Meter level calls
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Usage Meter level calls
   name: Togai Usage Meters API
   slug: togai-usage-meters-api
-- description: Wallet API
+- baseURL: https://api.togai.com
+  baseurl_source: declared
+  description: Wallet API
   name: Togai Wallet API
   slug: togai-wallet-api
 artifact_total: 91
@@ -446,7 +496,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/togai/refs/heads/main/screenshots/togai-2026-06-20T195431.png
 security:

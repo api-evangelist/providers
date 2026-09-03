@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,28 +44,42 @@ agentic_access:
   summary_line: 36 operations · 21 acting
 api_count: 3
 apis:
-- description: 'Collects and surfaces a complete audit trail of authorization decisions made by connected Authorizer instances. Supports compliance, debugging, and analytics use cases by recording who was authorized '
+- baseURL: https://console.aserto.com
+  baseurl_source: declared
+  description: 'Collects and surfaces a complete audit trail of authorization decisions made by connected Authorizer instances. Supports compliance, debugging, and analytics use cases by recording who was authorized '
   name: Aserto Decision Logs API
   slug: aserto-decision-logs-api
 - description: Management API for the Aserto SaaS control plane (wound down May 2025, succeeded by the open-source Topaz project). Provided lifecycle management of policies, Edge Authorizer instances, tenants, and c
   name: Aserto Control Plane API
   slug: aserto-control-plane-api
-- description: The Authorizer API from Aserto — 4 operation(s) for authorizer.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The Authorizer API from Aserto — 4 operation(s) for authorizer.
   name: Aserto Authorizer API
   slug: aserto-authorizer-api
-- description: The authzen API from Aserto — 5 operation(s) for authzen.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The authzen API from Aserto — 5 operation(s) for authzen.
   name: Aserto authzen API
   slug: aserto-authzen-api
-- description: The decision_logs API from Aserto — 6 operation(s) for decision_logs.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The decision_logs API from Aserto — 6 operation(s) for decision_logs.
   name: Aserto decision_logs API
   slug: aserto-decision-logs-api
-- description: The directory API from Aserto — 14 operation(s) for directory.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The directory API from Aserto — 14 operation(s) for directory.
   name: Aserto directory API
   slug: aserto-directory-api
-- description: The Info API from Aserto — 1 operation(s) for info.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The Info API from Aserto — 1 operation(s) for info.
   name: Aserto Info API
   slug: aserto-info-api
-- description: The Policy API from Aserto — 2 operation(s) for policy.
+- baseURL: https://authorizer.prod.aserto.com
+  baseurl_source: declared
+  description: The Policy API from Aserto — 2 operation(s) for policy.
   name: Aserto Policy API
   slug: aserto-policy-api
 artifact_total: 133
@@ -557,7 +571,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:

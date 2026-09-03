@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 20 operations · 16 acting
 api_count: 1
 apis:
-- description: Account usage and quota management
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Account usage and quota management
   name: TextGears Account API
   slug: textgears-account-api
-- description: Custom dictionary management
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Custom dictionary management
   name: TextGears Dictionaries API
   slug: textgears-dictionaries-api
-- description: Custom exception (whitelist) management
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Custom exception (whitelist) management
   name: TextGears Exceptions API
   slug: textgears-exceptions-api
-- description: Grammar and spelling error detection and correction
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Grammar and spelling error detection and correction
   name: TextGears Grammar API
   slug: textgears-grammar-api
-- description: Language detection
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Language detection
   name: TextGears Language API
   slug: textgears-language-api
-- description: Text readability scoring and analysis
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Text readability scoring and analysis
   name: TextGears Readability API
   slug: textgears-readability-api
-- description: Text summarization and keyword extraction
+- baseURL: https://api.textgears.com
+  baseurl_source: declared
+  description: Text summarization and keyword extraction
   name: TextGears Summarization API
   slug: textgears-summarization-api
 artifact_total: 31
@@ -237,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textgears/refs/heads/main/screenshots/textgears-2026-06-20T195206.png
 security:

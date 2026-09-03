@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,43 +59,69 @@ apis:
 - description: The DOE participates in Data.gov by publishing thousands of dataset records under the doe-gov organization. These datasets cover energy consumption, generation, environmental impact, R&D, and more, an
   name: Department of Energy Open Data Catalog
   slug: open-data-catalog
-- description: The Aeo API from Department of Energy — 1 operation(s) for aeo.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Aeo API from Department of Energy — 1 operation(s) for aeo.
   name: Department of Energy Aeo API
   slug: department-of-energy-aeo-api
-- description: The Co2 Emissions API from Department of Energy — 1 operation(s) for co2 emissions.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Co2 Emissions API from Department of Energy — 1 operation(s) for co2 emissions.
   name: Department of Energy Co2 Emissions API
   slug: department-of-energy-co2-emissions-api
-- description: The Coal API from Department of Energy — 1 operation(s) for coal.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Coal API from Department of Energy — 1 operation(s) for coal.
   name: Department of Energy Coal API
   slug: department-of-energy-coal-api
-- description: The EIA Open Data API V2 API from Department of Energy — 1 operation(s) for eia open data api v2.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The EIA Open Data API V2 API from Department of Energy — 1 operation(s) for eia open data api v2.
   name: Department of Energy EIA Open Data API V2 API
   slug: department-of-energy-eia-open-data-api-v2-api
-- description: The Electricity API from Department of Energy — 2 operation(s) for electricity.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Electricity API from Department of Energy — 2 operation(s) for electricity.
   name: Department of Energy Electricity API
   slug: department-of-energy-electricity-api
-- description: The International API from Department of Energy — 1 operation(s) for international.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The International API from Department of Energy — 1 operation(s) for international.
   name: Department of Energy International API
   slug: department-of-energy-international-api
-- description: The Natural Gas API from Department of Energy — 1 operation(s) for natural gas.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Natural Gas API from Department of Energy — 1 operation(s) for natural gas.
   name: Department of Energy Natural Gas API
   slug: department-of-energy-natural-gas-api
-- description: The Nuclear Outages API from Department of Energy — 1 operation(s) for nuclear outages.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Nuclear Outages API from Department of Energy — 1 operation(s) for nuclear outages.
   name: Department of Energy Nuclear Outages API
   slug: department-of-energy-nuclear-outages-api
-- description: The Petroleum API from Department of Energy — 1 operation(s) for petroleum.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Petroleum API from Department of Energy — 1 operation(s) for petroleum.
   name: Department of Energy Petroleum API
   slug: department-of-energy-petroleum-api
-- description: The Seds API from Department of Energy — 1 operation(s) for seds.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Seds API from Department of Energy — 1 operation(s) for seds.
   name: Department of Energy Seds API
   slug: department-of-energy-seds-api
-- description: The Seriesid API from Department of Energy — 1 operation(s) for seriesid.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Seriesid API from Department of Energy — 1 operation(s) for seriesid.
   name: Department of Energy Seriesid API
   slug: department-of-energy-seriesid-api
-- description: The Steo API from Department of Energy — 1 operation(s) for steo.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Steo API from Department of Energy — 1 operation(s) for steo.
   name: Department of Energy Steo API
   slug: department-of-energy-steo-api
-- description: The Total Energy API from Department of Energy — 1 operation(s) for total energy.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Total Energy API from Department of Energy — 1 operation(s) for total energy.
   name: Department of Energy Total Energy API
   slug: department-of-energy-total-energy-api
 artifact_total: 40
@@ -288,7 +314,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:

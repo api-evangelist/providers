@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: The Notifications API delivers FlightUpdate notifications and JWT-based authentication tokens for streaming flight events.
   name: Lufthansa Notifications API
   slug: notifications
-- description: The Cargo API from Lufthansa — 2 operation(s) for cargo.
+- baseURL: https://api.lufthansa.com/v1
+  baseurl_source: declared
+  description: The Cargo API from Lufthansa — 2 operation(s) for cargo.
   name: Lufthansa Cargo API
   slug: lufthansa-cargo-api
-- description: The Offers API from Lufthansa — 2 operation(s) for offers.
+- baseURL: https://api.lufthansa.com/v1
+  baseurl_source: declared
+  description: The Offers API from Lufthansa — 2 operation(s) for offers.
   name: Lufthansa Offers API
   slug: lufthansa-offers-api
-- description: The Operations API from Lufthansa — 5 operation(s) for operations.
+- baseURL: https://api.lufthansa.com/v1
+  baseurl_source: declared
+  description: The Operations API from Lufthansa — 5 operation(s) for operations.
   name: Lufthansa Operations API
   slug: lufthansa-operations-api
-- description: The Reference Data API from Lufthansa — 6 operation(s) for reference data.
+- baseURL: https://api.lufthansa.com/v1
+  baseurl_source: declared
+  description: The Reference Data API from Lufthansa — 6 operation(s) for reference data.
   name: Lufthansa Reference Data API
   slug: lufthansa-reference-data-api
 artifact_total: 29
@@ -235,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/screenshots/lufthansa-2026-06-20T184749.png
 security:

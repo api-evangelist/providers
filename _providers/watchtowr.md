@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 52 operations · 12 acting
 api_count: 1
 apis:
-- description: The Activity Log API from watchTowr — 1 operation(s) for activity log.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Activity Log API from watchTowr — 1 operation(s) for activity log.
   name: watchTowr Activity Log API
   slug: watchtowr-activity-log-api
-- description: The Assets API from watchTowr — 1 operation(s) for assets.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Assets API from watchTowr — 1 operation(s) for assets.
   name: watchTowr Assets API
   slug: watchtowr-assets-api
-- description: The Business Unit API from watchTowr — 2 operation(s) for business unit.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Business Unit API from watchTowr — 2 operation(s) for business unit.
   name: watchTowr Business Unit API
   slug: watchtowr-business-unit-api
-- description: The Certificates API from watchTowr — 2 operation(s) for certificates.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Certificates API from watchTowr — 2 operation(s) for certificates.
   name: watchTowr Certificates API
   slug: watchtowr-certificates-api
-- description: The Cloud Storage API from watchTowr — 3 operation(s) for cloud storage.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Cloud Storage API from watchTowr — 3 operation(s) for cloud storage.
   name: watchTowr Cloud Storage API
   slug: watchtowr-cloud-storage-api
-- description: The Containers API from watchTowr — 3 operation(s) for containers.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Containers API from watchTowr — 3 operation(s) for containers.
   name: watchTowr Containers API
   slug: watchtowr-containers-api
-- description: The Domains API from watchTowr — 3 operation(s) for domains.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Domains API from watchTowr — 3 operation(s) for domains.
   name: watchTowr Domains API
   slug: watchtowr-domains-api
-- description: The Findings API from watchTowr — 6 operation(s) for findings.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Findings API from watchTowr — 6 operation(s) for findings.
   name: watchTowr Findings API
   slug: watchtowr-findings-api
-- description: The Hunts API from watchTowr — 4 operation(s) for hunts.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Hunts API from watchTowr — 4 operation(s) for hunts.
   name: watchTowr Hunts API
   slug: watchtowr-hunts-api
-- description: The IP Addresses API from watchTowr — 5 operation(s) for ip addresses.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The IP Addresses API from watchTowr — 5 operation(s) for ip addresses.
   name: watchTowr IP Addresses API
   slug: watchtowr-ip-addresses-api
-- description: The IP Ranges API from watchTowr — 3 operation(s) for ip ranges.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The IP Ranges API from watchTowr — 3 operation(s) for ip ranges.
   name: watchTowr IP Ranges API
   slug: watchtowr-ip-ranges-api
-- description: The Mobile Applications API from watchTowr — 3 operation(s) for mobile applications.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Mobile Applications API from watchTowr — 3 operation(s) for mobile applications.
   name: watchTowr Mobile Applications API
   slug: watchtowr-mobile-applications-api
-- description: The Points of Interest API from watchTowr — 1 operation(s) for points of interest.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Points of Interest API from watchTowr — 1 operation(s) for points of interest.
   name: watchTowr Points of Interest API
   slug: watchtowr-points-of-interest-api
-- description: The Ports API from watchTowr — 2 operation(s) for ports.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Ports API from watchTowr — 2 operation(s) for ports.
   name: watchTowr Ports API
   slug: watchtowr-ports-api
-- description: The SaaS Platforms API from watchTowr — 3 operation(s) for saas platforms.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The SaaS Platforms API from watchTowr — 3 operation(s) for saas platforms.
   name: watchTowr SaaS Platforms API
   slug: watchtowr-saas-platforms-api
-- description: The Service Listing API from watchTowr — 1 operation(s) for service listing.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Service Listing API from watchTowr — 1 operation(s) for service listing.
   name: watchTowr Service Listing API
   slug: watchtowr-service-listing-api
-- description: The Source Code Repositories API from watchTowr — 3 operation(s) for source code repositories.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Source Code Repositories API from watchTowr — 3 operation(s) for source code repositories.
   name: watchTowr Source Code Repositories API
   slug: watchtowr-source-code-repositories-api
-- description: The Subdomains API from watchTowr — 3 operation(s) for subdomains.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Subdomains API from watchTowr — 3 operation(s) for subdomains.
   name: watchTowr Subdomains API
   slug: watchtowr-subdomains-api
-- description: The Suspicious Domains API from watchTowr — 2 operation(s) for suspicious domains.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Suspicious Domains API from watchTowr — 2 operation(s) for suspicious domains.
   name: watchTowr Suspicious Domains API
   slug: watchtowr-suspicious-domains-api
-- description: The Testing Infrastructure API from watchTowr — 1 operation(s) for testing infrastructure.
+- baseURL: https://{tenant}.{region}.watchtowr.io
+  baseurl_source: declared
+  description: The Testing Infrastructure API from watchTowr — 1 operation(s) for testing infrastructure.
   name: watchTowr Testing Infrastructure API
   slug: watchtowr-testing-infrastructure-api
 artifact_total: 46
@@ -328,7 +368,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watchtowr/refs/heads/main/screenshots/watchtowr-2026-08-17T082853.png
 security:

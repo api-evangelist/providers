@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 1
 apis:
-- description: Connected OTA / sales channel status.
+- baseURL: https://app.hotelrunner.com/api/v2/apps
+  baseurl_source: declared
+  description: Connected OTA / sales channel status.
   name: HotelRunner Channels API
   slug: hotelrunner-channels-api
-- description: Room types, master rates, availability, and restrictions.
+- baseURL: https://app.hotelrunner.com/api/v2/apps
+  baseurl_source: declared
+  description: Room types, master rates, availability, and restrictions.
   name: HotelRunner Inventory API
   slug: hotelrunner-inventory-api
-- description: Read-only lookup data used for property and integration setup.
+- baseURL: https://app.hotelrunner.com/api/v2/apps
+  baseurl_source: declared
+  description: Read-only lookup data used for property and integration setup.
   name: HotelRunner Reference Data API
   slug: hotelrunner-reference-data-api
-- description: Retrieve, confirm, cancel, and acknowledge reservations.
+- baseURL: https://app.hotelrunner.com/api/v2/apps
+  baseurl_source: declared
+  description: Retrieve, confirm, cancel, and acknowledge reservations.
   name: HotelRunner Reservations API
   slug: hotelrunner-reservations-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotelrunner/refs/heads/main/screenshots/hotelrunner-2026-07-25T221503.png
 security:

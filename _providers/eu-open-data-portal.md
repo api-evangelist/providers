@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The EU Open Data Portal SPARQL endpoint provides structured queries against linked open data from European Union institutions. Based on OpenLink Virtuoso, the endpoint enables querying of RDF datasets
   name: EU Open Data Portal SPARQL API
   slug: eu-open-data-portal-sparql-api
-- description: Federated data catalogs and publishers
+- baseURL: https://data.europa.eu/sparql
+  baseurl_source: declared
+  description: Federated data catalogs and publishers
   name: EU Open Data Portal Catalogs API
   slug: eu-open-data-portal-catalogs-api
-- description: Search and retrieve EU open datasets
+- baseURL: https://data.europa.eu/sparql
+  baseurl_source: declared
+  description: Search and retrieve EU open datasets
   name: EU Open Data Portal Datasets API
   slug: eu-open-data-portal-datasets-api
-- description: Access dataset distributions and download links
+- baseURL: https://data.europa.eu/sparql
+  baseurl_source: declared
+  description: Access dataset distributions and download links
   name: EU Open Data Portal Distributions API
   slug: eu-open-data-portal-distributions-api
-- description: Controlled vocabularies for DCAT-AP metadata
+- baseURL: https://data.europa.eu/sparql
+  baseurl_source: declared
+  description: Controlled vocabularies for DCAT-AP metadata
   name: EU Open Data Portal Vocabularies API
   slug: eu-open-data-portal-vocabularies-api
 artifact_total: 19
@@ -174,7 +182,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/screenshots/eu-open-data-portal-2026-06-20T180843.png
 security:

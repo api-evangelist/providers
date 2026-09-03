@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 95 operations · 28 acting
 api_count: 1
 apis:
-- description: The audio API from Shutterstock — 11 operation(s) for audio.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The audio API from Shutterstock — 11 operation(s) for audio.
   name: Shutterstock audio API
   slug: shutterstock-audio-api
-- description: The computer_vision API from Shutterstock — 5 operation(s) for computer_vision.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The computer_vision API from Shutterstock — 5 operation(s) for computer_vision.
   name: Shutterstock computer_vision API
   slug: shutterstock-computer-vision-api
-- description: The contributors API from Shutterstock — 5 operation(s) for contributors.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The contributors API from Shutterstock — 5 operation(s) for contributors.
   name: Shutterstock contributors API
   slug: shutterstock-contributors-api
-- description: The editorial_images API from Shutterstock — 15 operation(s) for editorial_images.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The editorial_images API from Shutterstock — 15 operation(s) for editorial_images.
   name: Shutterstock editorial_images API
   slug: shutterstock-editorial-images-api
-- description: The editorial_video API from Shutterstock — 4 operation(s) for editorial_video.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The editorial_video API from Shutterstock — 4 operation(s) for editorial_video.
   name: Shutterstock editorial_video API
   slug: shutterstock-editorial-video-api
-- description: The images API from Shutterstock — 16 operation(s) for images.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The images API from Shutterstock — 16 operation(s) for images.
   name: Shutterstock images API
   slug: shutterstock-images-api
-- description: The oauth API from Shutterstock — 2 operation(s) for oauth.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The oauth API from Shutterstock — 2 operation(s) for oauth.
   name: Shutterstock oauth API
   slug: shutterstock-oauth-api
-- description: The test API from Shutterstock — 2 operation(s) for test.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The test API from Shutterstock — 2 operation(s) for test.
   name: Shutterstock test API
   slug: shutterstock-test-api
-- description: The users API from Shutterstock — 3 operation(s) for users.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The users API from Shutterstock — 3 operation(s) for users.
   name: Shutterstock users API
   slug: shutterstock-users-api
-- description: The videos API from Shutterstock — 12 operation(s) for videos.
+- baseURL: https://api.shutterstock.com
+  baseurl_source: declared
+  description: The videos API from Shutterstock — 12 operation(s) for videos.
   name: Shutterstock videos API
   slug: shutterstock-videos-api
 artifact_total: 38
@@ -246,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/screenshots/shutterstock-2026-06-20T193851.png
 security:

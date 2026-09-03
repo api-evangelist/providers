@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,25 +42,39 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Self-describing metadata - dataset list and data dictionaries.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: Self-describing metadata - dataset list and data dictionaries.
   name: OpenFEMA Catalog API
   slug: fema-catalog-api
-- description: Federally declared disasters.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: Federally declared disasters.
   name: OpenFEMA Disaster Declarations API
   slug: fema-disaster-declarations-api
-- description: Hazard Mitigation Assistance (HMA) grant program data.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: Hazard Mitigation Assistance (HMA) grant program data.
   name: OpenFEMA Hazard Mitigation API
   slug: fema-hazard-mitigation-api
-- description: Integrated Public Alert and Warning System archived alerts.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: Integrated Public Alert and Warning System archived alerts.
   name: OpenFEMA IPAWS API
   slug: fema-ipaws-api
-- description: National Flood Insurance Program redacted policy and claims data.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: National Flood Insurance Program redacted policy and claims data.
   name: OpenFEMA NFIP API
   slug: fema-nfip-api
-- description: FEMA Public Assistance (PA) grant program data.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: FEMA Public Assistance (PA) grant program data.
   name: OpenFEMA Public Assistance API
   slug: fema-public-assistance-api
-- description: Per-disaster financial summary totals from NEMIS.
+- baseURL: https://www.fema.gov/api/open/v2
+  baseurl_source: declared
+  description: Per-disaster financial summary totals from NEMIS.
   name: OpenFEMA Web Disaster Summaries API
   slug: fema-web-disaster-summaries-api
 artifact_total: 19
@@ -167,7 +181,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

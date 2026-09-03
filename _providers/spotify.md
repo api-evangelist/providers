@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 96 operations · 36 acting
 api_count: 1
 apis:
-- description: The Albums API from Spotify — 7 operation(s) for albums.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Albums API from Spotify — 7 operation(s) for albums.
   name: Spotify Albums API
   slug: spotify-albums-api
-- description: The Artists API from Spotify — 7 operation(s) for artists.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Artists API from Spotify — 7 operation(s) for artists.
   name: Spotify Artists API
   slug: spotify-artists-api
-- description: The Audiobooks API from Spotify — 5 operation(s) for audiobooks.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Audiobooks API from Spotify — 5 operation(s) for audiobooks.
   name: Spotify Audiobooks API
   slug: spotify-audiobooks-api
-- description: The Categories API from Spotify — 3 operation(s) for categories.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Categories API from Spotify — 3 operation(s) for categories.
   name: Spotify Categories API
   slug: spotify-categories-api
-- description: The Chapters API from Spotify — 3 operation(s) for chapters.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Chapters API from Spotify — 3 operation(s) for chapters.
   name: Spotify Chapters API
   slug: spotify-chapters-api
-- description: The Episodes API from Spotify — 5 operation(s) for episodes.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Episodes API from Spotify — 5 operation(s) for episodes.
   name: Spotify Episodes API
   slug: spotify-episodes-api
-- description: The Genres API from Spotify — 1 operation(s) for genres.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Genres API from Spotify — 1 operation(s) for genres.
   name: Spotify Genres API
   slug: spotify-genres-api
-- description: The Library API from Spotify — 18 operation(s) for library.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Library API from Spotify — 18 operation(s) for library.
   name: Spotify Library API
   slug: spotify-library-api
-- description: The Markets API from Spotify — 1 operation(s) for markets.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Markets API from Spotify — 1 operation(s) for markets.
   name: Spotify Markets API
   slug: spotify-markets-api
-- description: The Player API from Spotify — 13 operation(s) for player.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Player API from Spotify — 13 operation(s) for player.
   name: Spotify Player API
   slug: spotify-player-api
-- description: The Playlists API from Spotify — 10 operation(s) for playlists.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Playlists API from Spotify — 10 operation(s) for playlists.
   name: Spotify Playlists API
   slug: spotify-playlists-api
-- description: The Search API from Spotify — 1 operation(s) for search.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Search API from Spotify — 1 operation(s) for search.
   name: Spotify Search API
   slug: spotify-search-api
-- description: The Shows API from Spotify — 5 operation(s) for shows.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Shows API from Spotify — 5 operation(s) for shows.
   name: Spotify Shows API
   slug: spotify-shows-api
-- description: The Tracks API from Spotify — 13 operation(s) for tracks.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Tracks API from Spotify — 13 operation(s) for tracks.
   name: Spotify Tracks API
   slug: spotify-tracks-api
-- description: The Users API from Spotify — 8 operation(s) for users.
+- baseURL: https://api.spotify.com/v1
+  baseurl_source: declared
+  description: The Users API from Spotify — 8 operation(s) for users.
   name: Spotify Users API
   slug: spotify-users-api
 artifact_total: 63
@@ -378,7 +408,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png
 security:

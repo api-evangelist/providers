@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: The Data Import API allows you to import mentions from external sources into YouScan topics. This feature enables you to bring historical data or mentions from sources not natively supported by YouSca
   name: YouScan Data Import API
   slug: youscan-data-import-api
-- description: Manage historical data collection for a topic. Starting a collection can return `400` if a collection is already running, if the date range is invalid, or if the requested depth exceeds your plan's hi
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: Manage historical data collection for a topic. Starting a collection can return `400` if a collection is already running, if the date range is invalid, or if the requested depth exceeds your plan's hi
   name: YouScan History API
   slug: youscan-history-api
-- description: 'Retrieve and update mentions collected in a topic. ### How to effectively retrieve large sets of mentions Common scenarios are: * Load all the mentions from a given topic for a given period * Periodic'
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: 'Retrieve and update mentions collected in a topic. ### How to effectively retrieve large sets of mentions Common scenarios are: * Load all the mentions from a given topic for a given period * Periodic'
   name: YouScan Mentions API
   slug: youscan-mentions-api
-- description: Spaces available to the authenticated user and categories configured in them.
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: Spaces available to the authenticated user and categories configured in them.
   name: YouScan Spaces API
   slug: youscan-spaces-api
-- description: 'Aggregated statistics for mentions of a topic. ### Dates `from` and `to` are dates (`yyyy-MM-dd`); `to` is inclusive. Day boundaries are computed in the API key owner''s time zone (see *Dates and time '
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: 'Aggregated statistics for mentions of a topic. ### Dates `from` and `to` are dates (`yyyy-MM-dd`); `to` is inclusive. Day boundaries are computed in the API key owner''s time zone (see *Dates and time '
   name: YouScan Statistics API
   slug: youscan-statistics-api
-- description: Manage tags created in your topic.
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: Manage tags created in your topic.
   name: YouScan Tags API
   slug: youscan-tags-api
-- description: 'Create and manage topics — the monitoring entities that collect mentions matching your queries. ### Topic query structure A topic query consists of a `textQuery` and/or `viQuery` (at least one is requ'
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: 'Create and manage topics — the monitoring entities that collect mentions matching your queries. ### Topic query structure A topic query consists of a `textQuery` and/or `viQuery` (at least one is requ'
   name: YouScan Topics API
   slug: youscan-topics-api
-- description: Webhooks push new mentions to your own server in real time, so you don't have to poll the API. Every time a new mention is found and saved to a topic, YouScan sends an HTTP `POST` with the mention pay
+- baseURL: https://api.youscan.io/api/external
+  baseurl_source: declared
+  description: Webhooks push new mentions to your own server in real time, so you don't have to poll the API. Every time a new mention is found and saved to a topic, YouScan sends an HTTP `POST` with the mention pay
   name: YouScan Webhook API
   slug: youscan-webhook-api
 artifact_total: 25
@@ -262,7 +278,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -272,7 +288,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -283,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youscan/refs/heads/main/screenshots/youscan-2026-08-17T080440.png
 security:

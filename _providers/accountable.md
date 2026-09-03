@@ -32,16 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Net asset value per share feeds.
+- baseURL_template: https://{node}
+  baseurl_source: spec_template
+  description: Net asset value per share feeds.
   name: Accountable NAV API
   slug: accountable-nav-api
-- description: Collateral and reserve breakdown feeds.
+- baseURL_template: https://{node}
+  baseurl_source: spec_template
+  description: Collateral and reserve breakdown feeds.
   name: Accountable Proof of Reserves API
   slug: accountable-proof-of-reserves-api
-- description: On-chain redemption rate feeds.
+- baseURL_template: https://{node}
+  baseurl_source: spec_template
+  description: On-chain redemption rate feeds.
   name: Accountable Redemption API
   slug: accountable-redemption-api
 artifact_total: 7
@@ -99,7 +105,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: accountable
 tags:

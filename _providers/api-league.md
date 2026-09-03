@@ -10,18 +10,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -29,18 +29,35 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
+  score: 23.6
+  scored_at: '2026-09-02'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Api League Agentic Access
+  operation_count: 55
+  slug: api-league-agentic-access
+  summary_line: 55 operations
 api_count: 1
 apis:
-- description: The API League Platform provides access to 60+ APIs spanning books, news, humor, food, knowledge, art, web, text processing, and media categories. Authentication uses API keys with free signup. SDKs a
+- baseURL: https://api.apileague.com
+  baseurl_source: declared
+  description: 'The API League Platform exposes 55 read-only GET operations across twelve categories: Books (2), News (3), Humor (6), Food (4), Knowledge (5), Games (3), Art (4), Web (6), Text (13), Media (6), Math ('
   name: API League Platform
   slug: api-league-platform
-artifact_total: 17
+artifact_total: 19
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/api-league-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/api-league-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -49,20 +66,129 @@ common:
   title: ''
   type: Website
   url: https://apileague.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apileague.com/apis/
 - group: docs
   title: ''
   type: Documentation
   url: https://apileague.com/apis/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apileague.com/apis/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://apileague.com/docs/quick-start/
 - group: operate
   title: ''
   type: Discord
-  url: https://discord.gg/apileague
+  url: https://discord.gg/QudH9DTNzx
+- group: operate
+  title: ''
+  type: Support
+  url: https://discord.gg/QudH9DTNzx
+- group: company
+  title: ''
+  type: Blog
+  url: https://apileague.com/articles/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://apileague.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://apileague.com/console/
+- group: start
+  title: ''
+  type: Login
+  url: https://apileague.com/console/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://apileague.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://apileague.com/terms/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ddsky
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/ddsky/api-league-clients
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/spoonacular-api/workspace/api-league/collection/7431899-68556c9b-453c-4759-bd5e-4f783b0117e8
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.apileague.com/
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://apileague.com/playground/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/api-league-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/api-league-packages.yml
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://apileague.com/llms.txt
+  type: LLMsTxt
+  url: llms/api-league-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/api-league-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/api-league-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/api-league-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/api-league-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/api-league-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/api-league-text-overlay.yaml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/api-league-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/api-league-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/api-league-finops.yml
 created: '2025-03-01'
-description: API League is a comprehensive API marketplace aggregating 60+ best-in-class APIs across categories including books, news, humor, food, knowledge, art, web, text processing, and media. It offers code examples in 21 languages, SDKs, Postman collections, and free API key access for developers to launch projects quickly.
+description: API League is a single-key hub of 55 read-only HTTP APIs spanning twelve categories — Books, News, Humor, Food, Knowledge, Games, Art, Web, Text, Media, Math and Storage — operated by skycraft GmbH of Dresden, Germany, which has been shipping developer APIs since 2015. Every operation is an HTTP GET against https://api.apileague.com, authenticated with one API key passed as an api-key query parameter or an x-api-key header, and described by a published OpenAPI 3.0 contract (v1.9.0) that carries an operationId, a summary, a tag and a worked response example on all 55 operations. Billing is metered in tokens per day rather than requests per month, and every response returns X-API-Quota-Request, X-API-Quota-Used and X-API-Quota-Left so a consumer can read its remaining budget at runtime. Client libraries are generated for 21 languages from that contract, though only the JavaScript client is published to a package registry. Pricing is fully self-serve across four tiers from a free
+  50-token-per-day plan to $199/mo, with a 99.9% uptime target and a public status page.
 features:
 - description: Access to over 60 best-in-class APIs across books, news, humor, food, knowledge, art, web, text, and media categories.
   name: 60+ APIs
@@ -82,47 +208,61 @@ finops:
   slug: api-league-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/api-league.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: API League
 nav: Providers
 network: true
-overview: 'API League publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Humor.
+overview: 'API League publishes 1 API on the [APIs.io](https://apis.io/) network: Platform. Tagged areas include API Marketplace, Books, Developer Tools, Food, and Games.
 
 
-  API League''s developer surface includes documentation and 4 more developer resources.'
+  API League''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Api League Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: api-league-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 12
   name: Api League Rate Limits
   slug: api-league-rate-limits
 score:
-  band: emerging
-  composite: 16.3
+  band: strong
+  composite: 55.7
   coverage:
-    artifact_dirs: 6
-    catalog_gap: 74.0
+    artifact_dirs: 21
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 39.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 4.5
+    contract_quality: 33.3
+    developer_ergonomics: 78.0
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 52.6
   previous_composite: 16.3
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 12
+    mcp: derived
+    skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-league/refs/heads/main/screenshots/api-league-2026-06-20T172214.png
 security:
+- kind: authentication
+  name: Api League Authentication
+  slug: api-league-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Api League Domain Security
   slug: api-league-domain-security
@@ -133,10 +273,14 @@ tags:
 - Books
 - Developer Tools
 - Food
+- Games
 - Humor
+- Media
 - News
+- OpenAPI
 - SDK
 - Text Processing
+- Web Scraping
 use_cases:
 - description: Build news aggregators, book discovery apps, and article readers using News and Books APIs.
   name: Content Applications

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: Private REST API for PayFit customers to access their own company data via long-lived private API keys, suitable for in-house scripts and direct integrations.
   name: PayFit Customer API
   slug: customer-api
-- description: The Absences API from PayFit — 1 operation(s) for absences.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Absences API from PayFit — 1 operation(s) for absences.
   name: PayFit Absences API
   slug: payfit-absences-api
-- description: The Collaborators API from PayFit — 2 operation(s) for collaborators.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Collaborators API from PayFit — 2 operation(s) for collaborators.
   name: PayFit Collaborators API
   slug: payfit-collaborators-api
-- description: The Company API from PayFit — 4 operation(s) for company.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Company API from PayFit — 4 operation(s) for company.
   name: PayFit Company API
   slug: payfit-company-api
-- description: The Contracts API from PayFit — 2 operation(s) for contracts.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Contracts API from PayFit — 2 operation(s) for contracts.
   name: PayFit Contracts API
   slug: payfit-contracts-api
-- description: The Documents API from PayFit — 1 operation(s) for documents.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Documents API from PayFit — 1 operation(s) for documents.
   name: PayFit Documents API
   slug: payfit-documents-api
-- description: The Insurance API from PayFit — 3 operation(s) for insurance.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Insurance API from PayFit — 3 operation(s) for insurance.
   name: PayFit Insurance API
   slug: payfit-insurance-api
-- description: The Payslips API from PayFit — 2 operation(s) for payslips.
+- baseURL: https://partner-api.payfit.com
+  baseurl_source: declared
+  description: The Payslips API from PayFit — 2 operation(s) for payslips.
   name: PayFit Payslips API
   slug: payfit-payslips-api
 artifact_total: 23
@@ -169,7 +183,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,7 +193,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 6.6
-  previous_composite: 27.4
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payfit/refs/heads/main/screenshots/payfit-2026-06-20T191458.png
 security:

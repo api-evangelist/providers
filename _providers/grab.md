@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -92,13 +92,19 @@ apis:
 - description: The Biller Gateway API lets Grab Kios agents accept bill payments for electricity, water, multifinance, and other Indonesian billers, with inquiry, payment, and reversal operations.
   name: Grab Kios Biller Gateway API
   slug: grab-kios-biller-gateway
-- description: The GrabExpress API from Grab — 3 operation(s) for grabexpress.
+- baseURL: https://api.grab.com
+  baseurl_source: declared
+  description: The GrabExpress API from Grab — 3 operation(s) for grabexpress.
   name: Grab GrabExpress API
   slug: grab-grabexpress-api
-- description: The GrabID API from Grab — 4 operation(s) for grabid.
+- baseURL: https://api.grab.com
+  baseurl_source: declared
+  description: The GrabID API from Grab — 4 operation(s) for grabid.
   name: Grab GrabID API
   slug: grab-grabid-api
-- description: The GrabPay API from Grab — 4 operation(s) for grabpay.
+- baseURL: https://api.grab.com
+  baseurl_source: declared
+  description: The GrabPay API from Grab — 4 operation(s) for grabpay.
   name: Grab GrabPay API
   slug: grab-grabpay-api
 artifact_total: 31
@@ -249,7 +255,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/screenshots/grab-2026-06-20T182311.png
 security:

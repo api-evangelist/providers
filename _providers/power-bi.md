@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: The Power BI Visuals API enables developers to create custom visuals that can be used in Power BI reports and dashboards, extending the built-in visualization capabilities.
   name: Power BI Visuals API
   slug: power-bi-visuals-api
-- description: Manage dashboards including listing, creating, and retrieving tiles. Dashboards are single-page canvases with pinned visualizations.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Manage dashboards including listing, creating, and retrieving tiles. Dashboards are single-page canvases with pinned visualizations.
   name: Power BI Dashboards API
   slug: power-bi-dashboards-api
-- description: Manage datasets including creating, updating, refreshing, and deleting datasets. Datasets represent the data model behind Power BI reports.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Manage datasets including creating, updating, refreshing, and deleting datasets. Datasets represent the data model behind Power BI reports.
   name: Power BI Datasets API
   slug: power-bi-datasets-api
-- description: Manage on-premises data gateways and their data sources for connecting to on-premises data.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Manage on-premises data gateways and their data sources for connecting to on-premises data.
   name: Power BI Gateways API
   slug: power-bi-gateways-api
-- description: Manage workspaces (groups) including listing, creating, deleting, and managing workspace users. Workspaces are containers for dashboards, reports, datasets, and dataflows.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Manage workspaces (groups) including listing, creating, deleting, and managing workspace users. Workspaces are containers for dashboards, reports, datasets, and dataflows.
   name: Power BI Groups API
   slug: power-bi-groups-api
-- description: Import Power BI content such as PBIX files, Excel workbooks, and RDL reports into workspaces.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Import Power BI content such as PBIX files, Excel workbooks, and RDL reports into workspaces.
   name: Power BI Imports API
   slug: power-bi-imports-api
-- description: Manage reports including listing, cloning, exporting, rebinding, and deleting reports. Reports are visual presentations of data from datasets.
+- baseURL: https://api.powerbi.com
+  baseurl_source: declared
+  description: Manage reports including listing, cloning, exporting, rebinding, and deleting reports. Reports are visual presentations of data from datasets.
   name: Power BI Reports API
   slug: power-bi-reports-api
 arazzos:
@@ -1115,7 +1127,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:

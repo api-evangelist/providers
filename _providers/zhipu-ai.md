@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 14 operations · 13 acting
 api_count: 1
 apis:
-- description: The Agents API from Zhipu AI — 3 operation(s) for agents.
+- baseURL: https://api.z.ai/api
+  baseurl_source: declared
+  description: The Agents API from Zhipu AI — 3 operation(s) for agents.
   name: Zhipu AI Agents API
   slug: zhipu-ai-agents-api
-- description: The Paas API from Zhipu AI — 10 operation(s) for paas.
+- baseURL: https://api.z.ai/api
+  baseurl_source: declared
+  description: The Paas API from Zhipu AI — 10 operation(s) for paas.
   name: Zhipu AI Paas API
   slug: zhipu-ai-paas-api
-- description: The Tools API API from Zhipu AI — 1 operation(s) for tools api.
+- baseURL: https://api.z.ai/api
+  baseurl_source: declared
+  description: The Tools API API from Zhipu AI — 1 operation(s) for tools api.
   name: Zhipu AI Tools API API
   slug: zhipu-ai-tools-api-api
 artifact_total: 15
@@ -175,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhipu-ai/refs/heads/main/screenshots/zhipu-ai-2026-06-20T201901.png
 security:

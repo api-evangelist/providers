@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Infor CloudSuite Financials APIs provide integration with general ledger, accounts payable, accounts receivable, cash management, and financial reporting for enterprise finance operations.
   name: Infor CloudSuite Financials API
   slug: infor-cloudsuite-financials-api
-- description: ION document routing and processing
+- baseURL: https://mingledev01-ionapi.mingle.infor.com
+  baseurl_source: declared
+  description: ION document routing and processing
   name: Infor ION Documents API
   slug: infor-ion-documents-api
-- description: Infor M3 business API programs
+- baseURL: https://mingledev01-ionapi.mingle.infor.com
+  baseurl_source: declared
+  description: Infor M3 business API programs
   name: Infor M3 API API
   slug: infor-m3-api-api
 artifact_total: 22
@@ -172,7 +176,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -182,7 +186,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 38.9
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -191,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/screenshots/infor-2026-06-20T183339.png
 security:

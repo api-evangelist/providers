@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Legacy partner authentication
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: Legacy partner authentication
   name: Chime Authentication API
   slug: chime-authentication-api
-- description: OAuth 2.0 authorization and token management
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token management
   name: Chime OAuth API
   slug: chime-oauth-api
-- description: Access account statements
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: Access account statements
   name: Chime Statements API
   slug: chime-statements-api
-- description: Access transaction history
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: Access transaction history
   name: Chime Transactions API
   slug: chime-transactions-api
-- description: Access user account information
+- baseURL: https://api.chimebank.com/chime/v1
+  baseurl_source: declared
+  description: Access user account information
   name: Chime Users API
   slug: chime-users-api
 artifact_total: 27
@@ -245,7 +255,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chime/refs/heads/main/screenshots/chime-2026-06-20T174317.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Account and Transaction Information Services (AIS) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication). Represented here as the
@@ -45,22 +45,34 @@ apis:
 - description: Confirmation of Funds Services (CBPII) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA). Represented here as the shared OBIE standard; Skipton ASPSP pu
   name: Skipton Confirmation of Funds API (OBIE Read/Write Standard)
   slug: skipton-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting ATM data
   name: Skipton Building Society ATM API
   slug: skipton-building-society-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Business Current Account data
   name: Skipton Building Society BCA API
   slug: skipton-building-society-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Branch data
   name: Skipton Building Society Branch API
   slug: skipton-building-society-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Commercial Credit Card data
   name: Skipton Building Society CCC API
   slug: skipton-building-society-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Personal Current Account data
   name: Skipton Building Society PCA API
   slug: skipton-building-society-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Unsecured SME Loan data
   name: Skipton Building Society SME API
   slug: skipton-building-society-sme-api
 artifact_total: 12
@@ -167,7 +179,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 68.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -196,8 +208,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/screenshots/skipton-building-society-2026-09-02T155735.png
 security:
 - kind: authentication
   name: Skipton Building Society Authentication

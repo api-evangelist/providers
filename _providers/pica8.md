@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +35,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
   name: PICOS RESTCONF / NETCONF / gNMI Device API
   slug: picos-restconf-netconf-gnmi-device-api
-- description: Configuration backup snapshots and rollback.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Configuration backup snapshots and rollback.
   name: Pica8 Backup API
   slug: pica8-backup-api
-- description: Global and per-switch (site) configuration generation and comparison.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Global and per-switch (site) configuration generation and comparison.
   name: Pica8 Configuration API
   slug: pica8-configuration-api
-- description: Configuration files used by the configuration-push function.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Configuration files used by the configuration-push function.
   name: Pica8 Configuration File API
   slug: pica8-configurationfile-api
-- description: Switch groups and their permitted action sets.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Switch groups and their permitted action sets.
   name: Pica8 Group API
   slug: pica8-group-api
-- description: Ansible playbook execution jobs.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Ansible playbook execution jobs.
   name: Pica8 Job API
   slug: pica8-job-api
-- description: Per-switch and per-group license audit and license application.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Per-switch and per-group license audit and license application.
   name: Pica8 License API
   slug: pica8-license-api
-- description: Ansible playbook management.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Ansible playbook management.
   name: Pica8 Playbook API
   slug: pica8-playbook-api
-- description: Controller system settings, switch model catalog and user administration.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Controller system settings, switch model catalog and user administration.
   name: Pica8 Settings API
   slug: pica8-settings-api
-- description: 'Switch inventory and lifecycle: stage, import, DECOM, RMA, logs.'
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: 'Switch inventory and lifecycle: stage, import, DECOM, RMA, logs.'
   name: Pica8 Switch API
   slug: pica8-switch-api
-- description: Jinja2 configuration templates and their declared variables.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: Jinja2 configuration templates and their declared variables.
   name: Pica8 Template API
   slug: pica8-template-api
-- description: JWT token minting.
+- baseURL: https://{ampcon-server-ip}/
+  baseurl_source: declared
+  description: JWT token minting.
   name: Pica8 Token API
   slug: pica8-token-api
 artifact_total: 17
@@ -218,7 +252,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -243,8 +277,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pica8/refs/heads/main/screenshots/pica8-2026-09-02T151220.png
 security:
 - kind: authentication
   name: Pica8 Authentication

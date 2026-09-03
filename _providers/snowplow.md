@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'Snowplow provides tracker SDKs for all major platforms including JavaScript (web), iOS, Android, Python, Java, Go, Ruby, .NET, PHP, and Rust. Trackers generate self-describing events and send them to '
   name: Snowplow Tracker SDKs
   slug: snowplow-trackers
-- description: Credentials API for obtaining JWT access tokens from API key credentials.
+- baseURL: https://console.snowplowanalytics.com/api/msc/v1
+  baseurl_source: spec
+  description: Credentials API for obtaining JWT access tokens from API key credentials.
   name: Snowplow Authentication API
   slug: snowplow-authentication-api
-- description: Manage data products (tracking plans) which organize event specifications and define the behavioral data strategy for a product or feature.
+- baseURL: https://console.snowplowanalytics.com/api/msc/v1
+  baseurl_source: spec
+  description: Manage data products (tracking plans) which organize event specifications and define the behavioral data strategy for a product or feature.
   name: Snowplow Data Products API
   slug: snowplow-data-products-api
-- description: Manage JSON Schema data structures (event schemas) in Snowplow. Data structures define the shape of events tracked in your pipeline. Supports versioning, validation, and deployment to dev/prod registr
+- baseURL: https://console.snowplowanalytics.com/api/msc/v1
+  baseurl_source: spec
+  description: Manage JSON Schema data structures (event schemas) in Snowplow. Data structures define the shape of events tracked in your pipeline. Supports versioning, validation, and deployment to dev/prod registr
   name: Snowplow Data Structures API
   slug: snowplow-data-structures-api
 artifact_total: 27
@@ -263,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/screenshots/snowplow-2026-06-20T194113.png
 security:

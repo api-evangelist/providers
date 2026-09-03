@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -47,67 +47,109 @@ apis:
 - description: The Automation Anywhere Package SDK is a Java-based development toolkit that enables developers to build custom action packages and triggers for the Automation 360 bot editor. Developers use the SDK i
   name: Automation Anywhere Package SDK
   slug: package-sdk
-- description: Generate execution URLs and authorization tokens for API Tasks
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Generate execution URLs and authorization tokens for API Tasks
   name: automation-anywhere AccessDetails API
   slug: automation-anywhere-accessdetails-api
-- description: List and manage API Task allocations within the Control Room
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: List and manage API Task allocations within the Control Room
   name: automation-anywhere Allocations API
   slug: automation-anywhere-allocations-api
-- description: Manage credential attribute values for individual credentials
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Manage credential attribute values for individual credentials
   name: automation-anywhere AttributeValues API
   slug: automation-anywhere-attributevalues-api
-- description: Retrieve Control Room audit trail data
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Retrieve Control Room audit trail data
   name: automation-anywhere AuditData API
   slug: automation-anywhere-auditdata-api
-- description: Generate, refresh, validate, and revoke JWT tokens for API access
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Generate, refresh, validate, and revoke JWT tokens for API access
   name: automation-anywhere Authentication API
   slug: automation-anywhere-authentication-api
-- description: Retrieve bot execution run data and performance metrics
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Retrieve bot execution run data and performance metrics
   name: automation-anywhere BotRunData API
   slug: automation-anywhere-botrundata-api
-- description: Create, retrieve, update, delete, and search credentials
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create, retrieve, update, delete, and search credentials
   name: automation-anywhere Credentials API
   slug: automation-anywhere-credentials-api
-- description: Deploy bots to Bot Runner devices and monitor deployment status
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Deploy bots to Bot Runner devices and monitor deployment status
   name: automation-anywhere Deployments API
   slug: automation-anywhere-deployments-api
-- description: Manage individual bot files and their dependencies in the repository
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Manage individual bot files and their dependencies in the repository
   name: automation-anywhere Files API
   slug: automation-anywhere-files-api
-- description: Create, update, list, and delete folders in the repository
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create, update, list, and delete folders in the repository
   name: automation-anywhere Folders API
   slug: automation-anywhere-folders-api
-- description: Manage roles with consumer access to locker credentials
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Manage roles with consumer access to locker credentials
   name: automation-anywhere LockerConsumers API
   slug: automation-anywhere-lockerconsumers-api
-- description: Manage user membership within lockers
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Manage user membership within lockers
   name: automation-anywhere LockerMembers API
   slug: automation-anywhere-lockermembers-api
-- description: Create, retrieve, update, and delete credential lockers
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete credential lockers
   name: automation-anywhere Lockers API
   slug: automation-anywhere-lockers-api
-- description: Manage role-based permissions on repository folders
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Manage role-based permissions on repository folders
   name: automation-anywhere Permissions API
   slug: automation-anywhere-permissions-api
-- description: Create and manage work item queues and their members
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create and manage work item queues and their members
   name: automation-anywhere Queues API
   slug: automation-anywhere-queues-api
-- description: Create, list, retrieve, update, and delete user roles
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete user roles
   name: automation-anywhere Roles API
   slug: automation-anywhere-roles-api
-- description: Retrieve task metadata, variable profiles, and task-level logs
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Retrieve task metadata, variable profiles, and task-level logs
   name: automation-anywhere TaskData API
   slug: automation-anywhere-taskdata-api
-- description: Create, list, retrieve, update, and delete Control Room users
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create, list, retrieve, update, and delete Control Room users
   name: automation-anywhere Users API
   slug: automation-anywhere-users-api
-- description: Create and retrieve work item data models defining queue schema
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Create and retrieve work item data models defining queue schema
   name: automation-anywhere WorkItemModels API
   slug: automation-anywhere-workitemmodels-api
-- description: Add, update, and manage individual work items within queues
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: Add, update, and manage individual work items within queues
   name: automation-anywhere WorkItems API
   slug: automation-anywhere-workitems-api
-- description: List and manage content across public and private workspaces
+- baseURL: https://automationanywhere-be-prod.automationanywhere.com
+  baseurl_source: declared
+  description: List and manage content across public and private workspaces
   name: automation-anywhere Workspaces API
   slug: automation-anywhere-workspaces-api
 artifact_total: 164
@@ -637,10 +679,10 @@ score:
       total: 21
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/screenshots/automation-anywhere-2026-06-20T172657.png
 security:

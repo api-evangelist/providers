@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Custom and automatic events logged during sessions
+- baseURL: https://api.uxcam.com/v2
+  baseurl_source: declared
+  description: Custom and automatic events logged during sessions
   name: UXCam Events API
   slug: uxcam-events-api
-- description: Recorded usage sessions (qualitative list + quantitative analytics)
+- baseURL: https://api.uxcam.com/v2
+  baseurl_source: declared
+  description: Recorded usage sessions (qualitative list + quantitative analytics)
   name: UXCam Sessions API
   slug: uxcam-sessions-api
-- description: App users tracked by the UXCam SDK
+- baseURL: https://api.uxcam.com/v2
+  baseurl_source: declared
+  description: App users tracked by the UXCam SDK
   name: UXCam Users API
   slug: uxcam-users-api
 artifact_total: 11
@@ -238,7 +244,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uxcam/refs/heads/main/screenshots/uxcam-2026-08-17T082703.png
 security:

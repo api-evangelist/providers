@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,58 +37,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: Data Holder Admin endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Data Holder Admin endpoints
   name: Consumer Data Right (Energy) Data Holder Admin API
   slug: cdr-energy-data-holder-admin-api
-- description: Data Holder Client Registration endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Data Holder Client Registration endpoints
   name: Consumer Data Right (Energy) Data Holder Client Registration API
   slug: cdr-energy-data-holder-client-registration-api
-- description: Data Holder Customer endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Consumer Data Right (Energy) Data Holder Customers API
   slug: cdr-energy-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Consumer Data Right (Energy) Data Holder Operations API
   slug: cdr-energy-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Consumer Data Right (Energy) Distributed Energy Resources API
   slug: cdr-energy-distributed-energy-resources-api
-- description: Distributed Energy Resource (SR) endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource (SR) endpoints
   name: Consumer Data Right (Energy) Distributed Energy Resources (SR) API
   slug: cdr-energy-distributed-energy-resources-sr-api
-- description: Electricity Service Point endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Consumer Data Right (Energy) Electricity Service Points API
   slug: cdr-energy-electricity-service-points-api
-- description: Electricity Service Point (SR) endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Electricity Service Point (SR) endpoints
   name: Consumer Data Right (Energy) Electricity Service Points (SR) API
   slug: cdr-energy-electricity-service-points-sr-api
-- description: Electricity Usage endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Consumer Data Right (Energy) Electricity Usage API
   slug: cdr-energy-electricity-usage-api
-- description: Electricity Usage (SR) endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Electricity Usage (SR) endpoints
   name: Consumer Data Right (Energy) Electricity Usage (SR) API
   slug: cdr-energy-electricity-usage-sr-api
-- description: Energy Account Balance endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Consumer Data Right (Energy) Energy Account Balances API
   slug: cdr-energy-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Consumer Data Right (Energy) Energy Account Billing API
   slug: cdr-energy-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Consumer Data Right (Energy) Energy Accounts API
   slug: cdr-energy-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Consumer Data Right (Energy) Energy Plans API
   slug: cdr-energy-energy-plans-api
-- description: Register Data Holder discovery endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Register Data Holder discovery endpoints
   name: Consumer Data Right (Energy) Register Data Holder discovery API
   slug: cdr-energy-register-data-holder-discovery-api
-- description: Register Data Recipient discovery endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Register Data Recipient discovery endpoints
   name: Consumer Data Right (Energy) Register Data Recipient discovery API
   slug: cdr-energy-register-data-recipient-discovery-api
-- description: Register Operations endpoints
+- baseURL: https://api.cdr.gov.au/cdr-register/v1
+  baseurl_source: declared
+  description: Register Operations endpoints
   name: Consumer Data Right (Energy) Register Operations API
   slug: cdr-energy-register-operations-api
 artifact_total: 34
@@ -356,7 +404,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -366,7 +414,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 97.4
-  previous_composite: 61.1
+  previous_composite: 60.9
   provenance:
     conformance: first-party
     contracts:
@@ -383,7 +431,7 @@ score:
     regime_id: energy_utilities
     score: 60.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

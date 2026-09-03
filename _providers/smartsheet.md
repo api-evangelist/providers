@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: 'REST API v2.0 for managing sheets, rows, columns, cells, reports, workspaces, folders, users, groups, attachments, discussions, automation rules, and webhooks. Authentication uses OAuth 2.0 or Bearer '
   name: Smartsheet REST API
   slug: rest-api
-- description: Manage columns within sheets.
+- baseURL: https://api.smartsheet.com/2.0
+  baseurl_source: declared
+  description: Manage columns within sheets.
   name: Smartsheet Columns API
   slug: smartsheet-columns-api
-- description: Retrieve report data.
+- baseURL: https://api.smartsheet.com/2.0
+  baseurl_source: declared
+  description: Retrieve report data.
   name: Smartsheet Reports API
   slug: smartsheet-reports-api
-- description: Manage rows within sheets.
+- baseURL: https://api.smartsheet.com/2.0
+  baseurl_source: declared
+  description: Manage rows within sheets.
   name: Smartsheet Rows API
   slug: smartsheet-rows-api
-- description: Manage Smartsheet sheets.
+- baseURL: https://api.smartsheet.com/2.0
+  baseurl_source: declared
+  description: Manage Smartsheet sheets.
   name: Smartsheet Sheets API
   slug: smartsheet-sheets-api
-- description: Manage webhook subscriptions.
+- baseURL: https://api.smartsheet.com/2.0
+  baseurl_source: declared
+  description: Manage webhook subscriptions.
   name: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
 artifact_total: 20
@@ -194,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/screenshots/smartsheet-2026-06-20T194052.png
 security:

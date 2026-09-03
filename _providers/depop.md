@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 43 operations · 27 acting
 api_count: 1
 apis:
-- description: Service health and status endpoints
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Service health and status endpoints
   name: depop API status API
   slug: depop-api-status-api
-- description: OAuth 2.0 authentication endpoints for partner integration
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: OAuth 2.0 authentication endpoints for partner integration
   name: depop Authentication API
   slug: depop-authentication-api
-- description: The Docs API from depop — 1 operation(s) for docs.
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: The Docs API from depop — 1 operation(s) for docs.
   name: depop Docs API
   slug: depop-docs-api
-- description: Shop and product insights
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Shop and product insights
   name: depop Insights API
   slug: depop-insights-api
-- description: Order management and fulfillment operations
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Order management and fulfillment operations
   name: depop Orders API
   slug: depop-orders-api
-- description: ML-powered price recommendations and pricing guidance
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: ML-powered price recommendations and pricing guidance
   name: depop Pricing Inspiration API
   slug: depop-pricing-inspiration-api
-- description: General product operations
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: General product operations
   name: depop Products API
   slug: depop-products-api
-- description: Product operations using internal product ID identifiers
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Product operations using internal product ID identifiers
   name: depop Products - By Product ID API
   slug: depop-products-by-product-id-api
-- description: Product operations using SKU (Stock Keeping Unit) identifiers
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Product operations using SKU (Stock Keeping Unit) identifiers
   name: depop Products - By SKU API
   slug: depop-products-by-sku-api
-- description: Product operations using URL-friendly slug identifiers
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Product operations using URL-friendly slug identifiers
   name: depop Products - By Slug API
   slug: depop-products-by-slug-api
-- description: Deprecated product endpoints - use By SKU or By Product ID alternatives instead
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Deprecated product endpoints - use By SKU or By Product ID alternatives instead
   name: depop Products - Legacy (Deprecated) API
   slug: depop-products-legacy-deprecated-api
-- description: Shop and seller information endpoints
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: Shop and seller information endpoints
   name: depop Shop Management API
   slug: depop-shop-management-api
-- description: The Seller API API from depop — 0 operation(s) for seller api.
+- baseURL: https://partnerapi.depop.com
+  baseurl_source: declared
+  description: The Seller API API from depop — 0 operation(s) for seller api.
   name: depop Seller API
   slug: depop-seller-api-api
 arazzos:
@@ -312,7 +338,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -322,7 +348,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,7 +360,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

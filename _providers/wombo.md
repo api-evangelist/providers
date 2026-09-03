@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Text and vision-language chat completions
+- baseURL: https://api.w.ai/v1
+  baseurl_source: declared
+  description: Text and vision-language chat completions
   name: Wombo Chat API
   slug: wombo-chat-api
-- description: Image generation and editing
+- baseURL: https://api.w.ai/v1
+  baseurl_source: declared
+  description: Image generation and editing
   name: Wombo Images API
   slug: wombo-images-api
-- description: Model discovery
+- baseURL: https://api.w.ai/v1
+  baseurl_source: declared
+  description: Model discovery
   name: Wombo Models API
   slug: wombo-models-api
-- description: Object detection and segmentation
+- baseURL: https://api.w.ai/v1
+  baseurl_source: declared
+  description: Object detection and segmentation
   name: Wombo Predictions API
   slug: wombo-predictions-api
 artifact_total: 12
@@ -183,7 +191,7 @@ score:
   band: thin
   composite: 29.5
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -208,8 +216,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/screenshots/wombo-2026-09-02T170908.png
 security:
 - kind: authentication
   name: Wombo Authentication

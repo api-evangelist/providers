@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -51,64 +51,104 @@ apis:
 - description: The Acquia Content Hub API is a powerful tool that allows users to easily distribute and share content across multiple websites and digital channels. By leveraging this API, content managers can autom
   name: Acquia Content Hub API
   slug: acquia-content-hub-api
-- description: The Account API from Acquia — 23 operation(s) for account.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Account API from Acquia — 23 operation(s) for account.
   name: Acquia Account API
   slug: acquia-account-api
-- description: The Agreements API from Acquia — 5 operation(s) for agreements.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Agreements API from Acquia — 5 operation(s) for agreements.
   name: Acquia Agreements API
   slug: acquia-agreements-api
-- description: The Application Performance Monitoring Services API from Acquia — 4 operation(s) for application performance monitoring services.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Application Performance Monitoring Services API from Acquia — 4 operation(s) for application performance monitoring services.
   name: Acquia Application Performance Monitoring Services API
   slug: acquia-application-performance-monitoring-services-api
-- description: The Applications API from Acquia — 36 operation(s) for applications.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Applications API from Acquia — 36 operation(s) for applications.
   name: Acquia Applications API
   slug: acquia-applications-api
-- description: The Cloud IDE API from Acquia — 1 operation(s) for cloud ide.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Cloud IDE API from Acquia — 1 operation(s) for cloud ide.
   name: Acquia Cloud IDE API
   slug: acquia-cloud-ide-api
-- description: The Codebases API from Acquia — 8 operation(s) for codebases.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Codebases API from Acquia — 8 operation(s) for codebases.
   name: Acquia Codebases API
   slug: acquia-codebases-api
-- description: The Current system health API from Acquia — 1 operation(s) for current system health.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Current system health API from Acquia — 1 operation(s) for current system health.
   name: Acquia Current system health API
   slug: acquia-current-system-health-api
-- description: The Distributions API from Acquia — 2 operation(s) for distributions.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Distributions API from Acquia — 2 operation(s) for distributions.
   name: Acquia Distributions API
   slug: acquia-distributions-api
-- description: The Email API from Acquia — 1 operation(s) for email.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Email API from Acquia — 1 operation(s) for email.
   name: Acquia Email API
   slug: acquia-email-api
-- description: The Environments API from Acquia — 73 operation(s) for environments.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Environments API from Acquia — 73 operation(s) for environments.
   name: Acquia Environments API
   slug: acquia-environments-api
-- description: The Identity Providers API from Acquia — 4 operation(s) for identity providers.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Identity Providers API from Acquia — 4 operation(s) for identity providers.
   name: Acquia Identity Providers API
   slug: acquia-identity-providers-api
-- description: The Invite API from Acquia — 4 operation(s) for invite.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Invite API from Acquia — 4 operation(s) for invite.
   name: Acquia Invite API
   slug: acquia-invite-api
-- description: The Messages API from Acquia — 2 operation(s) for messages.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Messages API from Acquia — 2 operation(s) for messages.
   name: Acquia Messages API
   slug: acquia-messages-api
-- description: The Notifications API from Acquia — 1 operation(s) for notifications.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Notifications API from Acquia — 1 operation(s) for notifications.
   name: Acquia Notifications API
   slug: acquia-notifications-api
-- description: The Options API from Acquia — 6 operation(s) for options.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Options API from Acquia — 6 operation(s) for options.
   name: Acquia Options API
   slug: acquia-options-api
-- description: The Organizations API from Acquia — 18 operation(s) for organizations.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Organizations API from Acquia — 18 operation(s) for organizations.
   name: Acquia Organizations API
   slug: acquia-organizations-api
-- description: Private Network Service API
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: Private Network Service API
   name: Acquia Private Networks API
   slug: acquia-private-networks-api
-- description: The Subscriptions API from Acquia — 22 operation(s) for subscriptions.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Subscriptions API from Acquia — 22 operation(s) for subscriptions.
   name: Acquia Subscriptions API
   slug: acquia-subscriptions-api
-- description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
+- baseURL: https://cloud.acquia.com/api
+  baseurl_source: declared
+  description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
   name: Acquia Teams and Permissions API
   slug: acquia-teams-and-permissions-api
-- description: 'The stable JSON:API 1.1 surface shared by every Acquia Source CMS site, plus the OAuth 2.0 endpoints that issue the tokens it accepts. Ten operations cover token issuance, the authorization redirect, '
+- baseURL: '{siteUrl}/api'
+  baseurl_source: declared
+  description: 'The stable JSON:API 1.1 surface shared by every Acquia Source CMS site, plus the OAuth 2.0 endpoints that issue the tokens it accepts. Ten operations cover token issuance, the authorization redirect, '
   name: Acquia Content API
   slug: acquia-content-api
 artifact_total: 126
@@ -633,23 +673,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 74.4
+  composite: 74.3
   coverage:
     artifact_dirs: 32
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.3
+  delta: -0.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 72.9
+    contract_quality: 72.4
     developer_ergonomics: 73.8
     discoverability: 72.2
     governance: 47.0
     operational_transparency: 65.8
-  previous_composite: 69.1
+  previous_composite: 74.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -661,8 +701,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:
 - kind: authentication

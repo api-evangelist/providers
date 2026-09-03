@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 9 operations · 2 acting
 api_count: 2
 apis:
-- description: SAML SSO request endpoint.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: SAML SSO request endpoint.
   name: Login.gov Authentication API
   slug: login-gov-authentication-api
-- description: OAuth 2.0 authorization endpoint where the user authenticates.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoint where the user authenticates.
   name: Login.gov Authorization API
   slug: login-gov-authorization-api
-- description: OIDC discovery and public key endpoints.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: OIDC discovery and public key endpoints.
   name: Login.gov Discovery API
   slug: login-gov-discovery-api
-- description: RP-initiated logout and session termination.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: RP-initiated logout and session termination.
   name: Login.gov Logout API
   slug: login-gov-logout-api
-- description: SAML 2.0 IdP metadata.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: SAML 2.0 IdP metadata.
   name: Login.gov Metadata API
   slug: login-gov-metadata-api
-- description: Token exchange using private_key_jwt or PKCE.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: Token exchange using private_key_jwt or PKCE.
   name: Login.gov Token API
   slug: login-gov-token-api
-- description: User attribute retrieval with a bearer access token.
+- baseURL: https://secure.login.gov
+  baseurl_source: declared
+  description: User attribute retrieval with a bearer access token.
   name: Login.gov UserInfo API
   slug: login-gov-userinfo-api
 artifact_total: 45
@@ -333,7 +347,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

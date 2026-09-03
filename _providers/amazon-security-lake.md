@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 3
 apis:
-- description: Data lake creation and management
+- baseURL: https://securitylake.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Data lake creation and management
   name: Amazon Security Lake Data Lakes API
   slug: amazon-security-lake-data-lakes-api
-- description: AWS and custom log source management
+- baseURL: https://securitylake.{region}.amazonaws.com
+  baseurl_source: declared
+  description: AWS and custom log source management
   name: Amazon Security Lake Log Sources API
   slug: amazon-security-lake-log-sources-api
-- description: Subscriber management for data access
+- baseURL: https://securitylake.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Subscriber management for data access
   name: Amazon Security Lake Subscribers API
   slug: amazon-security-lake-subscribers-api
 arazzos:
@@ -385,7 +391,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/screenshots/amazon-security-lake-2026-06-20T171817.png
 security:

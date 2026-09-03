@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -55,94 +55,154 @@ apis:
 - description: 'EVE Online is the underlying massively multiplayer online (MMO) space game from CCP Games. The game client is the consumer of the third-party developer ecosystem — it is where capsuleers actually fly '
   name: EVE Online Game Client
   slug: eve-online-game
-- description: The Alliance API from EVE Online — 8 operation(s) for alliance.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Alliance API from EVE Online — 8 operation(s) for alliance.
   name: EVE Online Alliance API
   slug: eve-online-alliance-api
-- description: The Assets API from EVE Online — 12 operation(s) for assets.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Assets API from EVE Online — 12 operation(s) for assets.
   name: EVE Online Assets API
   slug: eve-online-assets-api
-- description: The Calendar API from EVE Online — 6 operation(s) for calendar.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Calendar API from EVE Online — 6 operation(s) for calendar.
   name: EVE Online Calendar API
   slug: eve-online-calendar-api
-- description: The Character API from EVE Online — 28 operation(s) for character.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Character API from EVE Online — 28 operation(s) for character.
   name: EVE Online Character API
   slug: eve-online-character-api
-- description: The Clones API from EVE Online — 4 operation(s) for clones.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Clones API from EVE Online — 4 operation(s) for clones.
   name: EVE Online Clones API
   slug: eve-online-clones-api
-- description: The Contacts API from EVE Online — 13 operation(s) for contacts.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Contacts API from EVE Online — 13 operation(s) for contacts.
   name: EVE Online Contacts API
   slug: eve-online-contacts-api
-- description: The Contracts API from EVE Online — 18 operation(s) for contracts.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Contracts API from EVE Online — 18 operation(s) for contracts.
   name: EVE Online Contracts API
   slug: eve-online-contracts-api
-- description: The Corporation API from EVE Online — 44 operation(s) for corporation.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Corporation API from EVE Online — 44 operation(s) for corporation.
   name: EVE Online Corporation API
   slug: eve-online-corporation-api
-- description: The Dogma API from EVE Online — 10 operation(s) for dogma.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Dogma API from EVE Online — 10 operation(s) for dogma.
   name: EVE Online Dogma API
   slug: eve-online-dogma-api
-- description: The Faction Warfare API from EVE Online — 16 operation(s) for faction warfare.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Faction Warfare API from EVE Online — 16 operation(s) for faction warfare.
   name: EVE Online Faction Warfare API
   slug: eve-online-faction-warfare-api
-- description: The Fittings API from EVE Online — 5 operation(s) for fittings.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Fittings API from EVE Online — 5 operation(s) for fittings.
   name: EVE Online Fittings API
   slug: eve-online-fittings-api
-- description: The Fleets API from EVE Online — 16 operation(s) for fleets.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Fleets API from EVE Online — 16 operation(s) for fleets.
   name: EVE Online Fleets API
   slug: eve-online-fleets-api
-- description: The Incursions API from EVE Online — 2 operation(s) for incursions.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Incursions API from EVE Online — 2 operation(s) for incursions.
   name: EVE Online Incursions API
   slug: eve-online-incursions-api
-- description: The Industry API from EVE Online — 16 operation(s) for industry.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Industry API from EVE Online — 16 operation(s) for industry.
   name: EVE Online Industry API
   slug: eve-online-industry-api
-- description: The Insurance API from EVE Online — 2 operation(s) for insurance.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Insurance API from EVE Online — 2 operation(s) for insurance.
   name: EVE Online Insurance API
   slug: eve-online-insurance-api
-- description: The Killmails API from EVE Online — 6 operation(s) for killmails.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Killmails API from EVE Online — 6 operation(s) for killmails.
   name: EVE Online Killmails API
   slug: eve-online-killmails-api
-- description: The Location API from EVE Online — 6 operation(s) for location.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Location API from EVE Online — 6 operation(s) for location.
   name: EVE Online Location API
   slug: eve-online-location-api
-- description: The Loyalty API from EVE Online — 4 operation(s) for loyalty.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Loyalty API from EVE Online — 4 operation(s) for loyalty.
   name: EVE Online Loyalty API
   slug: eve-online-loyalty-api
-- description: The Mail API from EVE Online — 13 operation(s) for mail.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Mail API from EVE Online — 13 operation(s) for mail.
   name: EVE Online Mail API
   slug: eve-online-mail-api
-- description: The Market API from EVE Online — 22 operation(s) for market.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Market API from EVE Online — 22 operation(s) for market.
   name: EVE Online Market API
   slug: eve-online-market-api
-- description: The Planetary Interaction API from EVE Online — 8 operation(s) for planetary interaction.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Planetary Interaction API from EVE Online — 8 operation(s) for planetary interaction.
   name: EVE Online Planetary Interaction API
   slug: eve-online-planetary-interaction-api
-- description: The Routes API from EVE Online — 2 operation(s) for routes.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Routes API from EVE Online — 2 operation(s) for routes.
   name: EVE Online Routes API
   slug: eve-online-routes-api
-- description: The Search API from EVE Online — 2 operation(s) for search.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Search API from EVE Online — 2 operation(s) for search.
   name: EVE Online Search API
   slug: eve-online-search-api
-- description: The Skills API from EVE Online — 6 operation(s) for skills.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Skills API from EVE Online — 6 operation(s) for skills.
   name: EVE Online Skills API
   slug: eve-online-skills-api
-- description: The Sovereignty API from EVE Online — 6 operation(s) for sovereignty.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Sovereignty API from EVE Online — 6 operation(s) for sovereignty.
   name: EVE Online Sovereignty API
   slug: eve-online-sovereignty-api
-- description: The Status API from EVE Online — 2 operation(s) for status.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Status API from EVE Online — 2 operation(s) for status.
   name: EVE Online Status API
   slug: eve-online-status-api
-- description: The Universe API from EVE Online — 79 operation(s) for universe.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Universe API from EVE Online — 79 operation(s) for universe.
   name: EVE Online Universe API
   slug: eve-online-universe-api
-- description: The User Interface API from EVE Online — 10 operation(s) for user interface.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The User Interface API from EVE Online — 10 operation(s) for user interface.
   name: EVE Online User Interface API
   slug: eve-online-user-interface-api
-- description: The Wallet API from EVE Online — 12 operation(s) for wallet.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Wallet API from EVE Online — 12 operation(s) for wallet.
   name: EVE Online Wallet API
   slug: eve-online-wallet-api
-- description: The Wars API from EVE Online — 6 operation(s) for wars.
+- baseURL: https://esi.evetech.net/latest
+  baseurl_source: declared
+  description: The Wars API from EVE Online — 6 operation(s) for wars.
   name: EVE Online Wars API
   slug: eve-online-wars-api
 artifact_total: 142
@@ -677,23 +737,23 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 42.1
+  composite: 41.9
   coverage:
     artifact_dirs: 18
     catalog_gap: 67.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: -0.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 59.2
+    contract_quality: 58.3
     developer_ergonomics: 64.3
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 42.4
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -702,7 +762,7 @@ score:
       marker_coverage: 0.0
       total: 67
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

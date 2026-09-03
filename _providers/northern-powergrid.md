@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The original Opendatasoft Search API, still live on the portal and still carrying its own interactive console. Confirmed anonymously on 2026-07-27 — GET /api/datasets/1.0/search/?rows=1 returned nhits
   name: Northern Powergrid Open Data Search API v1
   slug: northern-powergrid-open-data-search-api-v1
-- description: API to enumerate datasets
+- baseURL: https://northernpowergrid.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to enumerate datasets
   name: Northern Powergrid Catalog API
   slug: northern-powergrid-catalog-api
-- description: API to work on records
+- baseURL: https://northernpowergrid.opendatasoft.com/api/explore/v2.1
+  baseurl_source: declared
+  description: API to work on records
   name: Northern Powergrid Dataset API
   slug: northern-powergrid-dataset-api
 artifact_total: 12
@@ -285,7 +289,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -295,7 +299,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 57.6
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,7 +317,7 @@ score:
     regime_id: energy_utilities
     score: 75.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:

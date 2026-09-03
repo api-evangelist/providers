@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 5 operations
 api_count: 6
 apis:
-- description: WebSocket stream that delivers real-time bid/ask updates for subscribed forex and cryptocurrency pairs. Streaming is gated to paid plans.
+- baseURL: wss://sockets.1forge.com/socket
+  baseurl_source: declared
+  description: WebSocket stream that delivers real-time bid/ask updates for subscribed forex and cryptocurrency pairs. Streaming is gated to paid plans.
   name: 1Forge Forex Stream
   slug: 1forge-forex-stream
-- description: Convert a quantity from one currency into another at the current rate.
+- baseURL: https://api.1forge.com
+  baseurl_source: declared
+  description: Convert a quantity from one currency into another at the current rate.
   name: 1Forge Convert API
   slug: 1forge-convert-api
-- description: Check whether the forex market is currently open.
+- baseURL: https://api.1forge.com
+  baseurl_source: declared
+  description: Check whether the forex market is currently open.
   name: 1Forge Market Status API
   slug: 1forge-market-status-api
-- description: Inspect API key consumption and remaining quota.
+- baseURL: https://api.1forge.com
+  baseurl_source: declared
+  description: Inspect API key consumption and remaining quota.
   name: 1Forge Quota API
   slug: 1forge-quota-api
-- description: Real-time bid/ask quote data for forex and cryptocurrency pairs.
+- baseURL: https://api.1forge.com
+  baseurl_source: declared
+  description: Real-time bid/ask quote data for forex and cryptocurrency pairs.
   name: 1Forge Quotes API
   slug: 1forge-quotes-api
-- description: Discover the currency pairs available to the calling API key.
+- baseURL: https://api.1forge.com
+  baseurl_source: declared
+  description: Discover the currency pairs available to the calling API key.
   name: 1Forge Symbols API
   slug: 1forge-symbols-api
 artifact_total: 36
@@ -267,7 +279,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -277,7 +289,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 39.0
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -292,7 +304,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/screenshots/1forge-2026-06-20T162445.png
 security:

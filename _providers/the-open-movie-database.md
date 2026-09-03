@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Retrieve movie, series, and episode details by ID or title.
+- baseURL: https://www.omdbapi.com
+  baseurl_source: declared
+  description: Retrieve movie, series, and episode details by ID or title.
   name: The Open Movie Database Movies API
   slug: the-open-movie-database-movies-api
-- description: Search for movies and series by title.
+- baseURL: https://www.omdbapi.com
+  baseurl_source: declared
+  description: Search for movies and series by title.
   name: The Open Movie Database Search API
   slug: the-open-movie-database-search-api
 artifact_total: 18
@@ -190,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-open-movie-database/refs/heads/main/screenshots/the-open-movie-database-2026-06-20T195233.png
 security:

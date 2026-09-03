@@ -33,115 +33,187 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create and manage approval requests for documents, plans, and tickets
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Create and manage approval requests for documents, plans, and tickets
   name: PlanRadar Approval Requests V2 API
   slug: planradar-approval-requests-v2-api
-- description: Create and manage reusable approval workflow templates
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Create and manage reusable approval workflow templates
   name: PlanRadar Approval Workflows V2 API
   slug: planradar-approval-workflows-v2-api
-- description: Create PlanRadar Components/Plans
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Create PlanRadar Components/Plans
   name: PlanRadar Components-Plans API
   slug: planradar-components-plans-api
-- description: Create PlanRadar Components/Plans
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Create PlanRadar Components/Plans
   name: PlanRadar Components V2 API
   slug: planradar-components-v2-api
-- description: 'Document Management System: browse, manage and copy DMS nodes, ticket attachments and form-field attachments'
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: 'Document Management System: browse, manage and copy DMS nodes, ticket attachments and form-field attachments'
   name: PlanRadar DMS API
   slug: planradar-dms-api
-- description: Manage your documents in PlanRadar, adding documents to a ticket is covered in the 'Tickets' section
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage your documents in PlanRadar, adding documents to a ticket is covered in the 'Tickets' section
   name: PlanRadar Documents API
   slug: planradar-documents-api
-- description: Export tickets as Excel or PDF files
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Export tickets as Excel or PDF files
   name: PlanRadar Export API
   slug: planradar-export-api
-- description: Read and manage ticket filters
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Read and manage ticket filters
   name: PlanRadar Filters V2 API
   slug: planradar-filters-v2-api
-- description: Get your PlanRadar forms
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get your PlanRadar forms
   name: PlanRadar Forms API
   slug: planradar-forms-api
-- description: Manage forms assigned to projects
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage forms assigned to projects
   name: PlanRadar Forms / Project API
   slug: planradar-forms-project-api
-- description: Get your PlanRadar forms
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get your PlanRadar forms
   name: PlanRadar Forms V2 API
   slug: planradar-forms-v2-api
-- description: The Gantt V2 API from PlanRadar — 7 operation(s) for gantt v2.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Gantt V2 API from PlanRadar — 7 operation(s) for gantt v2.
   name: PlanRadar Gantt V2 API
   slug: planradar-gantt-v2-api
-- description: The Groups V2 API from PlanRadar — 2 operation(s) for groups v2.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Groups V2 API from PlanRadar — 2 operation(s) for groups v2.
   name: PlanRadar Groups V2 API
   slug: planradar-groups-v2-api
-- description: Attach images to tickets
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Attach images to tickets
   name: PlanRadar Images API
   slug: planradar-images-api
-- description: The Invitation V1 API from PlanRadar — 2 operation(s) for invitation v1.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Invitation V1 API from PlanRadar — 2 operation(s) for invitation v1.
   name: PlanRadar Invitation V1 API
   slug: planradar-invitation-v1-api
-- description: The Invitations API from PlanRadar — 6 operation(s) for invitations.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Invitations API from PlanRadar — 6 operation(s) for invitations.
   name: PlanRadar Invitations API
   slug: planradar-invitations-api
-- description: Get the lists that you defined in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get the lists that you defined in your account
   name: PlanRadar List API
   slug: planradar-list-api
-- description: Get the lists that you defined in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get the lists that you defined in your account
   name: PlanRadar List V2 API
   slug: planradar-list-v2-api
-- description: The Login API from PlanRadar — 1 operation(s) for login.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Login API from PlanRadar — 1 operation(s) for login.
   name: PlanRadar Login API
   slug: planradar-login-api
-- description: Manage all your account related notifications
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage all your account related notifications
   name: PlanRadar Notifications API
   slug: planradar-notifications-api
-- description: Load/Manage plans
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Load/Manage plans
   name: PlanRadar Plans V2 API
   slug: planradar-plans-v2-api
-- description: Manage project reports in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage project reports in your account
   name: PlanRadar Project Reports API
   slug: planradar-project-reports-api
-- description: Manage project report templates
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage project report templates
   name: PlanRadar Project Reports Templates API
   slug: planradar-project-reports-templates-api
-- description: Read your projects, add or remove members to the project
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Read your projects, add or remove members to the project
   name: PlanRadar Projects API
   slug: planradar-projects-api
-- description: Read your projects
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Read your projects
   name: PlanRadar Projects V2 API
   slug: planradar-projects-v2-api
-- description: Get all the report templates of your account in order to be able to export tickets with them
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get all the report templates of your account in order to be able to export tickets with them
   name: PlanRadar Report Templates V2 API
   slug: planradar-report-templates-v2-api
-- description: Get the roles that you have defined in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Get the roles that you have defined in your account
   name: PlanRadar Roles API
   slug: planradar-roles-api
-- description: Manage roles defined in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage roles defined in your account
   name: PlanRadar Roles V2 API
   slug: planradar-roles-v2-api
-- description: Manage site view runs, points, and attachments
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage site view runs, points, and attachments
   name: PlanRadar Site View API
   slug: planradar-site-view-api
-- description: The Steps V2 API from PlanRadar — 2 operation(s) for steps v2.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Steps V2 API from PlanRadar — 2 operation(s) for steps v2.
   name: PlanRadar Steps V2 API
   slug: planradar-steps-v2-api
-- description: New APIs to manage all ticket related attachments (Audio, Video, Images, Documents)
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: New APIs to manage all ticket related attachments (Audio, Video, Images, Documents)
   name: PlanRadar Ticket Attachments API
   slug: planradar-ticket-attachments-api
-- description: The Ticket Imports API from PlanRadar — 1 operation(s) for ticket imports.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The Ticket Imports API from PlanRadar — 1 operation(s) for ticket imports.
   name: PlanRadar Ticket Imports API
   slug: planradar-ticket-imports-api
-- description: All operations on PlanRadar tickets
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: All operations on PlanRadar tickets
   name: PlanRadar Tickets API
   slug: planradar-tickets-api
-- description: All operations on PlanRadar tickets
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: All operations on PlanRadar tickets
   name: PlanRadar Tickets V2 API
   slug: planradar-tickets-v2-api
-- description: Manage all users in your account
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: Manage all users in your account
   name: PlanRadar Users V1 API
   slug: planradar-users-v1-api
-- description: The videos API from PlanRadar — 3 operation(s) for videos.
+- baseURL: https://www.planradar.com/api/v1
+  baseurl_source: declared
+  description: The videos API from PlanRadar — 3 operation(s) for videos.
   name: PlanRadar videos API
   slug: planradar-videos-api
 artifact_total: 78
@@ -406,7 +478,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -416,7 +488,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 45.3
+  previous_composite: 45.1
   provenance:
     conformance: derived
     contracts:
@@ -427,7 +499,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planradar/refs/heads/main/screenshots/planradar-2026-08-17T081300.png
 security:

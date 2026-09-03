@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin API from Boltz — 7 operation(s) for admin.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Admin API from Boltz — 7 operation(s) for admin.
   name: Boltz Admin API
   slug: boltz-admin-api
-- description: The Auth API from Boltz — 1 operation(s) for auth.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Auth API from Boltz — 1 operation(s) for auth.
   name: Boltz Auth API
   slug: boltz-auth-api
-- description: The CLI API from Boltz — 1 operation(s) for cli.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The CLI API from Boltz — 1 operation(s) for cli.
   name: Boltz CLI API
   slug: boltz-cli-api
-- description: The Predictions API from Boltz — 8 operation(s) for predictions.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Predictions API from Boltz — 8 operation(s) for predictions.
   name: Boltz Predictions API
   slug: boltz-predictions-api
-- description: The Protein API from Boltz — 15 operation(s) for protein.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Protein API from Boltz — 15 operation(s) for protein.
   name: Boltz Protein API
   slug: boltz-protein-api
-- description: The Share Links API from Boltz — 4 operation(s) for share links.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Share Links API from Boltz — 4 operation(s) for share links.
   name: Boltz Share Links API
   slug: boltz-share-links-api
-- description: The Small Molecule API from Boltz — 14 operation(s) for small molecule.
+- baseURL: https://api.boltz.bio
+  baseurl_source: declared
+  description: The Small Molecule API from Boltz — 14 operation(s) for small molecule.
   name: Boltz Small Molecule API
   slug: boltz-small-molecule-api
 artifact_total: 18
@@ -256,7 +270,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boltz/refs/heads/main/screenshots/boltz-2026-07-25T203543.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Link anonymous visitors to known users and honor deletion requests.
+- baseURL: https://api.millimetric.ai
+  baseurl_source: declared
+  description: Link anonymous visitors to known users and honor deletion requests.
   name: Millimetric Identity API
   slug: millimetric-identity-api
-- description: Write events into a project.
+- baseURL: https://api.millimetric.ai
+  baseurl_source: declared
+  description: Write events into a project.
   name: Millimetric Ingest API
   slug: millimetric-ingest-api
-- description: Query raw events and aggregated stats and attribution.
+- baseURL: https://api.millimetric.ai
+  baseurl_source: declared
+  description: Query raw events and aggregated stats and attribution.
   name: Millimetric Read API
   slug: millimetric-read-api
 arazzos:
@@ -269,7 +275,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/millimetric/refs/heads/main/screenshots/millimetric-2026-08-07T172916.png
 security:

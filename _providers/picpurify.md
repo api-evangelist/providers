@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Submit an image (file upload or URL) for one or more moderation/detection tasks.
+- baseURL: https://www.picpurify.com
+  baseurl_source: declared
+  description: Submit an image (file upload or URL) for one or more moderation/detection tasks.
   name: PicPurify Image Analysis API
   slug: picpurify-image-analysis-api
-- description: Submit a video (file upload or URL) for moderation/detection tasks frame by frame.
+- baseURL: https://www.picpurify.com
+  baseurl_source: declared
+  description: Submit a video (file upload or URL) for moderation/detection tasks frame by frame.
   name: PicPurify Video Analysis API
   slug: picpurify-video-analysis-api
 artifact_total: 10
@@ -141,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picpurify/refs/heads/main/screenshots/picpurify-2026-06-20T191702.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Navdata clock state files.
+- baseURL: https://earth-info.nga.mil/
+  baseurl_source: declared
+  description: Navdata clock state files.
   name: National Geospatial-Intelligence Agency Clock API
   slug: national-geospatial-intelligence-agency-clock-api
-- description: Earth Orientation Parameter Predictions in multiple formats.
+- baseURL: https://earth-info.nga.mil/
+  baseurl_source: declared
+  description: Earth Orientation Parameter Predictions in multiple formats.
   name: National Geospatial-Intelligence Agency EOPP API
   slug: national-geospatial-intelligence-agency-eopp-api
-- description: GPS ephemeris products, including Center of Mass and Antenna Phase Center variants.
+- baseURL: https://earth-info.nga.mil/
+  baseurl_source: declared
+  description: GPS ephemeris products, including Center of Mass and Antenna Phase Center variants.
   name: National Geospatial-Intelligence Agency Ephemeris API
   slug: national-geospatial-intelligence-agency-ephemeris-api
-- description: Short-term orbit prediction products.
+- baseURL: https://earth-info.nga.mil/
+  baseurl_source: declared
+  description: Short-term orbit prediction products.
   name: National Geospatial-Intelligence Agency Orbit API
   slug: national-geospatial-intelligence-agency-orbit-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-geospatial-intelligence-agency/refs/heads/main/screenshots/national-geospatial-intelligence-agency-2026-06-20T190021.png
 security:

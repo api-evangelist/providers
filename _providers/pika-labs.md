@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Pika's video generation models are exposed through the fal.ai inference platform. Use fal.ai's standard REST submission + polling API to access Pika models.
   name: Pika via fal.ai
   slug: fal
-- description: Cancel an in-flight request.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Cancel an in-flight request.
   name: Pika Labs Cancel API
   slug: pika-labs-cancel-api
-- description: Retrieve the result of a completed request.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Retrieve the result of a completed request.
   name: Pika Labs Result API
   slug: pika-labs-result-api
-- description: Inspect request status.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Inspect request status.
   name: Pika Labs Status API
   slug: pika-labs-status-api
-- description: Submit inference requests.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Submit inference requests.
   name: Pika Labs Submission API
   slug: pika-labs-submission-api
 artifact_total: 17
@@ -172,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika-labs/refs/heads/main/screenshots/pika-labs-2026-06-20T191707.png
 security:

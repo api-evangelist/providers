@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -46,49 +46,79 @@ apis:
 - description: 'REST API for retrieving and managing Canny boards, posts, comments, votes, status changes, users, companies, categories, tags, and changelog entries. Requests authenticate using a secret API key sent '
   name: Canny REST API
   slug: v1-api
-- description: The Autopilot API from Canny — 1 operation(s) for autopilot.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Autopilot API from Canny — 1 operation(s) for autopilot.
   name: Canny Autopilot API
   slug: canny-autopilot-api
-- description: The Boards API from Canny — 2 operation(s) for boards.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Boards API from Canny — 2 operation(s) for boards.
   name: Canny Boards API
   slug: canny-boards-api
-- description: The Categories API from Canny — 4 operation(s) for categories.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Categories API from Canny — 4 operation(s) for categories.
   name: Canny Categories API
   slug: canny-categories-api
-- description: The ChangelogEntries API from Canny — 2 operation(s) for changelogentries.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The ChangelogEntries API from Canny — 2 operation(s) for changelogentries.
   name: Canny ChangelogEntries API
   slug: canny-changelogentries-api
-- description: The Comments API from Canny — 4 operation(s) for comments.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Comments API from Canny — 4 operation(s) for comments.
   name: Canny Comments API
   slug: canny-comments-api
-- description: The Companies API from Canny — 3 operation(s) for companies.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Companies API from Canny — 3 operation(s) for companies.
   name: Canny Companies API
   slug: canny-companies-api
-- description: The Groups API from Canny — 2 operation(s) for groups.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Groups API from Canny — 2 operation(s) for groups.
   name: Canny Groups API
   slug: canny-groups-api
-- description: The Ideas API from Canny — 4 operation(s) for ideas.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Ideas API from Canny — 4 operation(s) for ideas.
   name: Canny Ideas API
   slug: canny-ideas-api
-- description: The Insights API from Canny — 2 operation(s) for insights.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Insights API from Canny — 2 operation(s) for insights.
   name: Canny Insights API
   slug: canny-insights-api
-- description: The Opportunities API from Canny — 1 operation(s) for opportunities.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Opportunities API from Canny — 1 operation(s) for opportunities.
   name: Canny Opportunities API
   slug: canny-opportunities-api
-- description: The Posts API from Canny — 13 operation(s) for posts.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Posts API from Canny — 13 operation(s) for posts.
   name: Canny Posts API
   slug: canny-posts-api
-- description: The StatusChanges API from Canny — 1 operation(s) for statuschanges.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The StatusChanges API from Canny — 1 operation(s) for statuschanges.
   name: Canny StatusChanges API
   slug: canny-statuschanges-api
-- description: The Tags API from Canny — 3 operation(s) for tags.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Tags API from Canny — 3 operation(s) for tags.
   name: Canny Tags API
   slug: canny-tags-api
-- description: The Users API from Canny — 5 operation(s) for users.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Users API from Canny — 5 operation(s) for users.
   name: Canny Users API
   slug: canny-users-api
-- description: The Votes API from Canny — 4 operation(s) for votes.
+- baseURL: https://canny.io/api/v1
+  baseurl_source: declared
+  description: The Votes API from Canny — 4 operation(s) for votes.
   name: Canny Votes API
   slug: canny-votes-api
 artifact_total: 36
@@ -237,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/screenshots/canny-2026-06-20T173923.png
 security:

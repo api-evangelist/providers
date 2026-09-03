@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -47,61 +47,99 @@ apis:
 - description: Programmatically manage all Junction regional and global resources for your organization. Authenticated with a separate x-vital-management-api-key, this API governs organizations, teams (create, updat
   name: Vital Management API
   slug: vital-management-api
-- description: The Aggregate API from Vital — 3 operation(s) for aggregate.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The Aggregate API from Vital — 3 operation(s) for aggregate.
   name: Vital Aggregate API
   slug: vital-io-aggregate-api
-- description: The compendium API from Vital — 2 operation(s) for compendium.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The compendium API from Vital — 2 operation(s) for compendium.
   name: Vital compendium API
   slug: vital-io-compendium-api
-- description: The insurance API from Vital — 3 operation(s) for insurance.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The insurance API from Vital — 3 operation(s) for insurance.
   name: Vital insurance API
   slug: vital-io-insurance-api
-- description: The introspect API from Vital — 2 operation(s) for introspect.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The introspect API from Vital — 2 operation(s) for introspect.
   name: Vital introspect API
   slug: vital-io-introspect-api
-- description: The lab_account API from Vital — 1 operation(s) for lab_account.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The lab_account API from Vital — 1 operation(s) for lab_account.
   name: Vital lab_account API
   slug: vital-io-lab-account-api
-- description: The lab_report API from Vital — 2 operation(s) for lab_report.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The lab_report API from Vital — 2 operation(s) for lab_report.
   name: Vital lab_report API
   slug: vital-io-lab-report-api
-- description: The lab_tests API from Vital — 9 operation(s) for lab_tests.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The lab_tests API from Vital — 9 operation(s) for lab_tests.
   name: Vital lab_tests API
   slug: vital-io-lab-tests-api
-- description: The link API from Vital — 13 operation(s) for link.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The link API from Vital — 13 operation(s) for link.
   name: Vital link API
   slug: vital-io-link-api
-- description: The order API from Vital — 32 operation(s) for order.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The order API from Vital — 32 operation(s) for order.
   name: Vital order API
   slug: vital-io-order-api
-- description: The order_transaction API from Vital — 3 operation(s) for order_transaction.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The order_transaction API from Vital — 3 operation(s) for order_transaction.
   name: Vital order_transaction API
   slug: vital-io-order-transaction-api
-- description: The orders API from Vital — 1 operation(s) for orders.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The orders API from Vital — 1 operation(s) for orders.
   name: Vital orders API
   slug: vital-io-orders-api
-- description: The payor API from Vital — 1 operation(s) for payor.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The payor API from Vital — 1 operation(s) for payor.
   name: Vital payor API
   slug: vital-io-payor-api
-- description: The providers API from Vital — 1 operation(s) for providers.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The providers API from Vital — 1 operation(s) for providers.
   name: Vital providers API
   slug: vital-io-providers-api
-- description: The summary API from Vital — 15 operation(s) for summary.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The summary API from Vital — 15 operation(s) for summary.
   name: Vital summary API
   slug: vital-io-summary-api
-- description: The team API from Vital — 5 operation(s) for team.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The team API from Vital — 5 operation(s) for team.
   name: Vital team API
   slug: vital-io-team-api
-- description: The timeseries API from Vital — 80 operation(s) for timeseries.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The timeseries API from Vital — 80 operation(s) for timeseries.
   name: Vital timeseries API
   slug: vital-io-timeseries-api
-- description: The user API from Vital — 16 operation(s) for user.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The user API from Vital — 16 operation(s) for user.
   name: Vital user API
   slug: vital-io-user-api
-- description: The aggregation API from Vital — 0 operation(s) for aggregation.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The aggregation API from Vital — 0 operation(s) for aggregation.
   name: Vital Aggregation API
   slug: vital-io-aggregation-api
-- description: The lab-testing API from Vital — 0 operation(s) for lab-testing.
+- baseURL: https://api.us.junction.com
+  baseurl_source: declared
+  description: The lab-testing API from Vital — 0 operation(s) for lab-testing.
   name: Vital Lab Testing API
   slug: vital-io-lab-testing-api
 arazzos:
@@ -709,7 +747,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -719,7 +757,7 @@ score:
     discoverability: 50.0
     governance: 47.0
     operational_transparency: 39.5
-  previous_composite: 71.0
+  previous_composite: 70.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -739,7 +777,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:

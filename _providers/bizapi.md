@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Real-time business data append API. Submit a partial business record — company name and address, phone, website or DUNS number — and BizAPI matches it against the Dun & Bradstreet business database, r
+- baseURL: https://www.naics.com/wp-json/naicsapi/v1
+  baseurl_source: declared
+  description: Real-time business data append API. Submit a partial business record — company name and address, phone, website or DUNS number — and BizAPI matches it against the Dun & Bradstreet business database, r
   name: BizAPI Company Search API
   slug: bizapi-company-search-api
 artifact_total: 31
@@ -286,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: SOAP API for managing knowledge articles with enterprise integration.
   name: Salesforce Knowledge SOAP API
   slug: salesforce-knowledge-soap-api
-- description: Knowledge article management operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/support
+  baseurl_source: declared
+  description: Knowledge article management operations
   name: Salesforce Knowledge Management Articles API
   slug: salesforce-knowledge-management-articles-api
-- description: Data category management for knowledge articles
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/support
+  baseurl_source: declared
+  description: Data category management for knowledge articles
   name: Salesforce Knowledge Management Categories API
   slug: salesforce-knowledge-management-categories-api
-- description: Knowledge article search operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/support
+  baseurl_source: declared
+  description: Knowledge article search operations
   name: Salesforce Knowledge Management Search API
   slug: salesforce-knowledge-management-search-api
-- description: Article suggestion operations for cases and communities
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/support
+  baseurl_source: declared
+  description: Article suggestion operations for cases and communities
   name: Salesforce Knowledge Management Suggestions API
   slug: salesforce-knowledge-management-suggestions-api
 artifact_total: 30
@@ -276,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/screenshots/salesforce-knowledge-management-2026-06-20T193346.png
 security:

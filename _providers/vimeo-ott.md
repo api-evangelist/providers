@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 30 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Performance reports for the OTT service.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Performance reports for the OTT service.
   name: Vimeo OTT Analytics API
   slug: vimeo-ott-analytics-api
-- description: Short-lived tokens granting a customer access to the embeddable player.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Short-lived tokens granting a customer access to the embeddable player.
   name: Vimeo OTT Authorizations API
   slug: vimeo-ott-authorizations-api
-- description: Categories, series, seasons, movies, and playlists, and their items.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Categories, series, seasons, movies, and playlists, and their items.
   name: Vimeo OTT Collections API
   slug: vimeo-ott-collections-api
-- description: Subscribers, their product access, watchlists, and in-progress viewing.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Subscribers, their product access, watchlists, and in-progress viewing.
   name: Vimeo OTT Customers API
   slug: vimeo-ott-customers-api
-- description: Access agreements (subscription, rental, purchase) and their prices.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Access agreements (subscription, rental, purchase) and their prices.
   name: Vimeo OTT Products API
   slug: vimeo-ott-products-api
-- description: Transcoded content items and their playable file URLs.
+- baseURL: https://api.vhx.tv
+  baseurl_source: declared
+  description: Transcoded content items and their playable file URLs.
   name: Vimeo OTT Videos API
   slug: vimeo-ott-videos-api
 artifact_total: 21
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vimeo-ott/refs/heads/main/screenshots/vimeo-ott-2026-09-02T165929.png
 security:
 - kind: authentication
   name: Vimeo Ott Authentication

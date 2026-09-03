@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 252 operations · 231 acting · 6 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account API from Dropbox — 4 operation(s) for account.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Account API from Dropbox — 4 operation(s) for account.
   name: Dropbox Account API
   slug: dropbox-account-api
-- description: _md__OpenApi::TAG::API_APP::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::API_APP::DESCRIPTION
   name: Dropbox Api App API
   slug: dropbox-api-app-api
-- description: The Auth API from Dropbox — 2 operation(s) for auth.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Auth API from Dropbox — 2 operation(s) for auth.
   name: Dropbox Auth API
   slug: dropbox-auth-api
-- description: _md__OpenApi::TAG::BULK_SEND_JOB::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::BULK_SEND_JOB::DESCRIPTION
   name: Dropbox Bulk Send Job API
   slug: dropbox-bulk-send-job-api
-- description: The Check API from Dropbox — 2 operation(s) for check.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Check API from Dropbox — 2 operation(s) for check.
   name: Dropbox Check API
   slug: dropbox-check-api
-- description: The Contacts API from Dropbox — 2 operation(s) for contacts.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Contacts API from Dropbox — 2 operation(s) for contacts.
   name: Dropbox Contacts API
   slug: dropbox-contacts-api
-- description: _md__OpenApi::TAG::EMBEDDED::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::EMBEDDED::DESCRIPTION
   name: Dropbox Embedded API
   slug: dropbox-embedded-api
-- description: 'This namespace contains helpers for property and template metadata endpoints. These endpoints enable you to tag arbitrary key/value data to Dropbox files. The most basic unit in this namespace is the '
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: 'This namespace contains helpers for property and template metadata endpoints. These endpoints enable you to tag arbitrary key/value data to Dropbox files. The most basic unit in this namespace is the '
   name: Dropbox File_properties API
   slug: dropbox-file-properties-api
-- description: This namespace contains endpoints and data types for file request operations.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: This namespace contains endpoints and data types for file request operations.
   name: Dropbox File_requests API
   slug: dropbox-file-requests-api
-- description: This namespace contains endpoints and data types for basic file operations.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: This namespace contains endpoints and data types for basic file operations.
   name: Dropbox Files API
   slug: dropbox-files-api
-- description: _md__OpenApi::TAG::OAUTH::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::OAUTH::DESCRIPTION
   name: Dropbox OAuth API
   slug: dropbox-oauth-api
-- description: _md__OpenApi::TAG::REPORT::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::REPORT::DESCRIPTION
   name: Dropbox Report API
   slug: dropbox-report-api
-- description: This namespace contains endpoints and data types for creating and managing shared links and shared folders.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: This namespace contains endpoints and data types for creating and managing shared links and shared folders.
   name: Dropbox Sharing API
   slug: dropbox-sharing-api
-- description: _md__OpenApi::TAG::SIGNATURE_REQUEST::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::SIGNATURE_REQUEST::DESCRIPTION
   name: Dropbox Signature Request API
   slug: dropbox-signature-request-api
-- description: The Team API from Dropbox — 12 operation(s) for team.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team API from Dropbox — 12 operation(s) for team.
   name: Dropbox Team API
   slug: dropbox-team-api
-- description: The Team > Devices API from Dropbox — 4 operation(s) for team > devices.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Devices API from Dropbox — 4 operation(s) for team > devices.
   name: Dropbox Team > Devices API
   slug: dropbox-team-devices-api
-- description: The Team > Groups API from Dropbox — 12 operation(s) for team > groups.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Groups API from Dropbox — 12 operation(s) for team > groups.
   name: Dropbox Team > Groups API
   slug: dropbox-team-groups-api
-- description: The Team > Legal_holds API from Dropbox — 7 operation(s) for team > legal_holds.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Legal_holds API from Dropbox — 7 operation(s) for team > legal_holds.
   name: Dropbox Team > Legal_holds API
   slug: dropbox-team-legal-holds-api
-- description: The Team > Linked_apps API from Dropbox — 4 operation(s) for team > linked_apps.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Linked_apps API from Dropbox — 4 operation(s) for team > linked_apps.
   name: Dropbox Team > Linked_apps API
   slug: dropbox-team-linked-apps-api
-- description: The Team_log API from Dropbox — 2 operation(s) for team_log.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team_log API from Dropbox — 2 operation(s) for team_log.
   name: Dropbox Team_log API
   slug: dropbox-team-log-api
-- description: The Team > Member_space_limits API from Dropbox — 7 operation(s) for team > member_space_limits.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Member_space_limits API from Dropbox — 7 operation(s) for team > member_space_limits.
   name: Dropbox Team > Member_space_limits API
   slug: dropbox-team-member-space-limits-api
-- description: The Team > Members API from Dropbox — 20 operation(s) for team > members.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Members API from Dropbox — 20 operation(s) for team > members.
   name: Dropbox Team > Members API
   slug: dropbox-team-members-api
-- description: The Team > Namespaces API from Dropbox — 2 operation(s) for team > namespaces.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Namespaces API from Dropbox — 2 operation(s) for team > namespaces.
   name: Dropbox Team > Namespaces API
   slug: dropbox-team-namespaces-api
-- description: The Team > Reports API from Dropbox — 4 operation(s) for team > reports.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Reports API from Dropbox — 4 operation(s) for team > reports.
   name: Dropbox Team > Reports API
   slug: dropbox-team-reports-api
-- description: The Team > Team_folder API from Dropbox — 10 operation(s) for team > team_folder.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Team > Team_folder API from Dropbox — 10 operation(s) for team > team_folder.
   name: Dropbox Team > Team_folder API
   slug: dropbox-team-team-folder-api
-- description: _md__OpenApi::TAG::TEMPLATE::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::TEMPLATE::DESCRIPTION
   name: Dropbox Template API
   slug: dropbox-template-api
-- description: _md__OpenApi::TAG::UNCLAIMED_DRAFT::DESCRIPTION
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: _md__OpenApi::TAG::UNCLAIMED_DRAFT::DESCRIPTION
   name: Dropbox Unclaimed Draft API
   slug: dropbox-unclaimed-draft-api
-- description: This namespace contains endpoints and data types for user management.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: This namespace contains endpoints and data types for user management.
   name: Dropbox Users API
   slug: dropbox-users-api
-- description: The Callbacks and Events API from Dropbox — 0 operation(s) for callbacks and events.
+- baseURL: https://api.dropboxapi.com
+  baseurl_source: declared
+  description: The Callbacks and Events API from Dropbox — 0 operation(s) for callbacks and events.
   name: Dropbox Callbacks and Events API
   slug: dropbox-callbacks-and-events-api
 artifact_total: 414
@@ -1360,7 +1418,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:

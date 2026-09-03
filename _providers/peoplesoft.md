@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -74,118 +74,194 @@ apis:
 - description: Comprehensive REST API for the Supplier Portal providing access to bid details, managed content such as announcements and events, overdue shipment tracking, purchase order acknowledgement, invoice and
   name: PeopleSoft Supplier Portal API
   slug: supplier-portal-api
-- description: Accounts payable operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Accounts payable operations
   name: PeopleSoft Accounts Payable API
   slug: peoplesoft-accounts-payable-api
-- description: Accounts receivable operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Accounts receivable operations
   name: PeopleSoft Accounts Receivable API
   slug: peoplesoft-accounts-receivable-api
-- description: Admissions operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Admissions operations
   name: PeopleSoft Admissions API
   slug: peoplesoft-admissions-api
-- description: Analytics and reporting operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Analytics and reporting operations
   name: PeopleSoft Analytics API
   slug: peoplesoft-analytics-api
-- description: Approval workflow operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Approval workflow operations
   name: PeopleSoft Approvals API
   slug: peoplesoft-approvals-api
-- description: Benefits administration operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Benefits administration operations
   name: PeopleSoft Benefits API
   slug: peoplesoft-benefits-api
-- description: Branding and theme operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Branding and theme operations
   name: PeopleSoft Branding API
   slug: peoplesoft-branding-api
-- description: Budget management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Budget management operations
   name: PeopleSoft Budgets API
   slug: peoplesoft-budgets-api
-- description: Candidate and application operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Candidate and application operations
   name: PeopleSoft Candidates API
   slug: peoplesoft-candidates-api
-- description: Case management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Case management operations
   name: PeopleSoft Cases API
   slug: peoplesoft-cases-api
-- description: Chatbot integration operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Chatbot integration operations
   name: PeopleSoft Chatbot API
   slug: peoplesoft-chatbot-api
-- description: Component interface operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Component interface operations
   name: PeopleSoft Component Interfaces API
   slug: peoplesoft-component-interfaces-api
-- description: Content management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Content management operations
   name: PeopleSoft Content API
   slug: peoplesoft-content-api
-- description: Customer data operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Customer data operations
   name: PeopleSoft Customers API
   slug: peoplesoft-customers-api
-- description: Employee data operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Employee data operations
   name: PeopleSoft Employees API
   slug: peoplesoft-employees-api
-- description: Enrollment operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Enrollment operations
   name: PeopleSoft Enrollment API
   slug: peoplesoft-enrollment-api
-- description: Environment provisioning and management
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Environment provisioning and management
   name: PeopleSoft Environments API
   slug: peoplesoft-environments-api
-- description: Expense management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Expense management operations
   name: PeopleSoft Expenses API
   slug: peoplesoft-expenses-api
-- description: Financial aid operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Financial aid operations
   name: PeopleSoft Financial Aid API
   slug: peoplesoft-financial-aid-api
-- description: Forecasting operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Forecasting operations
   name: PeopleSoft Forecasts API
   slug: peoplesoft-forecasts-api
-- description: General ledger operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: General ledger operations
   name: PeopleSoft General Ledger API
   slug: peoplesoft-general-ledger-api
-- description: Inventory management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Inventory management operations
   name: PeopleSoft Inventory API
   slug: peoplesoft-inventory-api
-- description: Job posting and search operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Job posting and search operations
   name: PeopleSoft Jobs API
   slug: peoplesoft-jobs-api
-- description: Notification management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Notification management operations
   name: PeopleSoft Notifications API
   slug: peoplesoft-notifications-api
-- description: Order fulfillment operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Order fulfillment operations
   name: PeopleSoft Orders API
   slug: peoplesoft-orders-api
-- description: Payroll operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Payroll operations
   name: PeopleSoft Payroll API
   slug: peoplesoft-payroll-api
-- description: Pivot grid and dashboard operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Pivot grid and dashboard operations
   name: PeopleSoft Pivot Grids API
   slug: peoplesoft-pivot-grids-api
-- description: Process scheduling and monitoring operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Process scheduling and monitoring operations
   name: PeopleSoft Processes API
   slug: peoplesoft-processes-api
-- description: Procurement and purchasing operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Procurement and purchasing operations
   name: PeopleSoft Procurement API
   slug: peoplesoft-procurement-api
-- description: Query execution and management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Query execution and management operations
   name: PeopleSoft Queries API
   slug: peoplesoft-queries-api
-- description: PeopleSoft REST resource operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: PeopleSoft REST resource operations
   name: PeopleSoft Resources API
   slug: peoplesoft-resources-api
-- description: Sales operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Sales operations
   name: PeopleSoft Sales API
   slug: peoplesoft-sales-api
-- description: Search and indexing operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Search and indexing operations
   name: PeopleSoft Search API
   slug: peoplesoft-search-api
-- description: Integration Broker service operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Integration Broker service operations
   name: PeopleSoft Service Operations API
   slug: peoplesoft-service-operations-api
-- description: ASF service operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: ASF service operations
   name: PeopleSoft Services API
   slug: peoplesoft-services-api
-- description: Student record operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Student record operations
   name: PeopleSoft Students API
   slug: peoplesoft-students-api
-- description: Provisioning template operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Provisioning template operations
   name: PeopleSoft Templates API
   slug: peoplesoft-templates-api
-- description: Update and patch management operations
+- baseURL: https://{hostname}:{port}/psft/api/v1
+  baseurl_source: declared
+  description: Update and patch management operations
   name: PeopleSoft Updates API
   slug: peoplesoft-updates-api
 arazzos:
@@ -865,7 +941,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: The Renders API from Templated — 3 operation(s) for renders.
+- baseURL: https://api.templated.io/v1
+  baseurl_source: declared
+  description: The Renders API from Templated — 3 operation(s) for renders.
   name: Templated Renders API
   slug: templated-renders-api
-- description: The Templates API from Templated — 2 operation(s) for templates.
+- baseURL: https://api.templated.io/v1
+  baseurl_source: declared
+  description: The Templates API from Templated — 2 operation(s) for templates.
   name: Templated Templates API
   slug: templated-templates-api
 artifact_total: 12
@@ -161,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

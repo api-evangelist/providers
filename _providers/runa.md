@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
-- description: Retrieve account balance by currency.
+- baseURL: https://api.runa.io/v2
+  baseurl_source: declared
+  description: Retrieve account balance by currency.
   name: Runa Balance API
   slug: runa-balance-api
-- description: Create, retrieve, list, and estimate digital reward orders.
+- baseURL: https://api.runa.io/v2
+  baseurl_source: declared
+  description: Create, retrieve, list, and estimate digital reward orders.
   name: Runa Orders API
   slug: runa-orders-api
-- description: Browse the Runa product catalog by name, category, or country.
+- baseURL: https://api.runa.io/v2
+  baseurl_source: declared
+  description: Browse the Runa product catalog by name, category, or country.
   name: Runa Products API
   slug: runa-products-api
-- description: Utility endpoints for connectivity testing.
+- baseURL: https://api.runa.io/v2
+  baseurl_source: declared
+  description: Utility endpoints for connectivity testing.
   name: Runa Utilities API
   slug: runa-utilities-api
 artifact_total: 28
@@ -248,7 +256,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:

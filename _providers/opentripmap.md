@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Geographic coordinates of populated place API from OpenTripMap — 1 operation(s) for geographic coordinates of populated place.
+- baseURL: https://api.opentripmap.com/0.1
+  baseurl_source: declared
+  description: The Geographic coordinates of populated place API from OpenTripMap — 1 operation(s) for geographic coordinates of populated place.
   name: OpenTripMap Geographic coordinates of populated place API
   slug: opentripmap-geographic-coordinates-of-populated-place-api
-- description: The Object properties API from OpenTripMap — 1 operation(s) for object properties.
+- baseURL: https://api.opentripmap.com/0.1
+  baseurl_source: declared
+  description: The Object properties API from OpenTripMap — 1 operation(s) for object properties.
   name: OpenTripMap Object properties API
   slug: opentripmap-object-properties-api
-- description: The Objects list API from OpenTripMap — 3 operation(s) for objects list.
+- baseURL: https://api.opentripmap.com/0.1
+  baseurl_source: declared
+  description: The Objects list API from OpenTripMap — 3 operation(s) for objects list.
   name: OpenTripMap Objects list API
   slug: opentripmap-objects-list-api
 artifact_total: 25
@@ -227,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentripmap/refs/heads/main/screenshots/opentripmap-2026-06-20T191049.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The PlayAI Voice Agents API lets developers create, configure, and run conversational AI agents that process voice input and respond with generated speech, with optional tool use and external integrat
   name: PlayAI Voice Agents API
   slug: agents-api
-- description: Voice agent management.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Voice agent management.
   name: PlayHT Agents API
   slug: playht-agents-api
-- description: Agent conversation retrieval.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Agent conversation retrieval.
   name: PlayHT Conversations API
   slug: playht-conversations-api
-- description: Tool definitions for voice agents.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Tool definitions for voice agents.
   name: PlayHT External Functions API
   slug: playht-external-functions-api
-- description: Document-to-audio PlayNote jobs.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Document-to-audio PlayNote jobs.
   name: PlayHT PlayNote API
   slug: playht-playnote-api
-- description: Text-to-speech generation, streaming, and async jobs.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Text-to-speech generation, streaming, and async jobs.
   name: PlayHT TTS API
   slug: playht-tts-api
-- description: Prebuilt voice catalog.
+- baseURL: https://api.play.ai
+  baseurl_source: declared
+  description: Prebuilt voice catalog.
   name: PlayHT Voices API
   slug: playht-voices-api
 artifact_total: 24
@@ -203,7 +215,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -213,7 +225,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -222,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

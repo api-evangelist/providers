@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 17 operations · 4 acting
 api_count: 4
 apis:
-- description: Insurance claim management operations
+- baseURL: https://api.allianz-trade.com/v1
+  baseurl_source: declared
+  description: Insurance claim management operations
   name: Allianz Trade Claims API
   slug: allianz-trade-online-claims-api
-- description: Company creditworthiness grading operations
+- baseURL: https://api.allianz-trade.com/v1
+  baseurl_source: declared
+  description: Company creditworthiness grading operations
   name: Allianz Trade Company Grade API
   slug: allianz-trade-online-company-grade-api
-- description: Payment overdue reporting and management operations
+- baseURL: https://api.allianz-trade.com/v1
+  baseurl_source: declared
+  description: Payment overdue reporting and management operations
   name: Allianz Trade Payment Overdues API
   slug: allianz-trade-online-payment-overdues-api
-- description: Trade credit insurance policy management operations
+- baseURL: https://api.allianz-trade.com/v1
+  baseurl_source: declared
+  description: Trade credit insurance policy management operations
   name: Allianz Trade Policy API
   slug: allianz-trade-online-policy-api
 artifact_total: 102
@@ -479,7 +487,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:

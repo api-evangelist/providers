@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 32 operations · 22 acting
 api_count: 6
 apis:
-- description: The Cart API from Loop Returns — 2 operation(s) for cart.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Cart API from Loop Returns — 2 operation(s) for cart.
   name: Loop Returns Cart API
   slug: loop-returns-cart-api
-- description: The Destinations API from Loop Returns — 2 operation(s) for destinations.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Destinations API from Loop Returns — 2 operation(s) for destinations.
   name: Loop Returns Destinations API
   slug: loop-returns-destinations-api
-- description: The Fraud Reports API from Loop Returns — 1 operation(s) for fraud reports.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Fraud Reports API from Loop Returns — 1 operation(s) for fraud reports.
   name: Loop Returns Fraud Reports API
   slug: loop-returns-fraud-reports-api
-- description: The Label Requests API from Loop Returns — 6 operation(s) for label requests.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Label Requests API from Loop Returns — 6 operation(s) for label requests.
   name: Loop Returns Label Requests API
   slug: loop-returns-label-requests-api
-- description: The Programmatic Webhooks API from Loop Returns — 2 operation(s) for programmatic webhooks.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Programmatic Webhooks API from Loop Returns — 2 operation(s) for programmatic webhooks.
   name: Loop Returns Programmatic Webhooks API
   slug: loop-returns-programmatic-webhooks-api
-- description: The Return Actions API from Loop Returns — 9 operation(s) for return actions.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Return Actions API from Loop Returns — 9 operation(s) for return actions.
   name: Loop Returns Return Actions API
   slug: loop-returns-return-actions-api
-- description: The Return Data API from Loop Returns — 3 operation(s) for return data.
+- baseURL: https://api.loopreturns.com
+  baseurl_source: declared
+  description: The Return Data API from Loop Returns — 3 operation(s) for return data.
   name: Loop Returns Return Data API
   slug: loop-returns-return-data-api
 artifact_total: 38
@@ -303,7 +317,7 @@ score:
     regime_id: securities_market_data
     score: 63.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Attribute Worksheets API from CaptivateIQ — 5 operation(s) for attribute worksheets.
   name: CaptivateIQ Attribute Worksheets API
   slug: captivateiq-attribute-worksheets-api
-- description: The Audit Logs API from CaptivateIQ — 1 operation(s) for audit logs.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Audit Logs API from CaptivateIQ — 1 operation(s) for audit logs.
   name: CaptivateIQ Audit Logs API
   slug: captivateiq-audit-logs-api
-- description: The Commission Plans API from CaptivateIQ — 5 operation(s) for commission plans.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Commission Plans API from CaptivateIQ — 5 operation(s) for commission plans.
   name: CaptivateIQ Commission Plans API
   slug: captivateiq-commission-plans-api
-- description: The Dashboards API from CaptivateIQ — 2 operation(s) for dashboards.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Dashboards API from CaptivateIQ — 2 operation(s) for dashboards.
   name: CaptivateIQ Dashboards API
   slug: captivateiq-dashboards-api
-- description: The Data Workbooks API from CaptivateIQ — 2 operation(s) for data workbooks.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Data Workbooks API from CaptivateIQ — 2 operation(s) for data workbooks.
   name: CaptivateIQ Data Workbooks API
   slug: captivateiq-data-workbooks-api
-- description: The Data Worksheets API from CaptivateIQ — 8 operation(s) for data worksheets.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Data Worksheets API from CaptivateIQ — 8 operation(s) for data worksheets.
   name: CaptivateIQ Data Worksheets API
   slug: captivateiq-data-worksheets-api
-- description: The Employee Assumptions API from CaptivateIQ — 3 operation(s) for employee assumptions.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Employee Assumptions API from CaptivateIQ — 3 operation(s) for employee assumptions.
   name: CaptivateIQ Employee Assumptions API
   slug: captivateiq-employee-assumptions-api
-- description: The Employees API from CaptivateIQ — 4 operation(s) for employees.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Employees API from CaptivateIQ — 4 operation(s) for employees.
   name: CaptivateIQ Employees API
   slug: captivateiq-employees-api
-- description: The Hierarchies API from CaptivateIQ — 6 operation(s) for hierarchies.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Hierarchies API from CaptivateIQ — 6 operation(s) for hierarchies.
   name: CaptivateIQ Hierarchies API
   slug: captivateiq-hierarchies-api
-- description: The Jobs API from CaptivateIQ — 4 operation(s) for jobs.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Jobs API from CaptivateIQ — 4 operation(s) for jobs.
   name: CaptivateIQ Jobs API
   slug: captivateiq-jobs-api
-- description: The Metadata API from CaptivateIQ — 1 operation(s) for metadata.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Metadata API from CaptivateIQ — 1 operation(s) for metadata.
   name: CaptivateIQ Metadata API
   slug: captivateiq-metadata-api
-- description: The Payouts API from CaptivateIQ — 8 operation(s) for payouts.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Payouts API from CaptivateIQ — 8 operation(s) for payouts.
   name: CaptivateIQ Payouts API
   slug: captivateiq-payouts-api
-- description: The Report Models API from CaptivateIQ — 5 operation(s) for report models.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Report Models API from CaptivateIQ — 5 operation(s) for report models.
   name: CaptivateIQ Report Models API
   slug: captivateiq-report-models-api
-- description: The Transformation Worksheets API from CaptivateIQ — 3 operation(s) for transformation worksheets.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Transformation Worksheets API from CaptivateIQ — 3 operation(s) for transformation worksheets.
   name: CaptivateIQ Transformation Worksheets API
   slug: captivateiq-transformation-worksheets-api
-- description: The Uploads API from CaptivateIQ — 3 operation(s) for uploads.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Uploads API from CaptivateIQ — 3 operation(s) for uploads.
   name: CaptivateIQ Uploads API
   slug: captivateiq-uploads-api
-- description: The Users API from CaptivateIQ — 2 operation(s) for users.
+- baseURL: https://api.captivateiq.com/ciq/v1/
+  baseurl_source: declared
+  description: The Users API from CaptivateIQ — 2 operation(s) for users.
   name: CaptivateIQ Users API
   slug: captivateiq-users-api
 artifact_total: 41
@@ -330,7 +362,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivateiq/refs/heads/main/screenshots/captivateiq-2026-07-25T204452.png
 security:

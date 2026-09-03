@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -36,58 +49,94 @@ apis:
 - description: DataStream is a separately-credentialled Trip Ninja product with its own documentation section (setup, authentication, integration lifecycle) and its own public Postman collection. It uses the same To
   name: Trip Ninja DataStream API
   slug: tripninja-datastream-api
-- description: The Adminpanel API from Webjet — 1 operation(s) for adminpanel.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Adminpanel API from Webjet — 1 operation(s) for adminpanel.
   name: Webjet Adminpanel API
   slug: webjet-adminpanel-api
-- description: The Book API from Webjet — 5 operation(s) for book.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Book API from Webjet — 5 operation(s) for book.
   name: Webjet Book API
   slug: webjet-book-api
-- description: The Booking API from Webjet — 1 operation(s) for booking.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Booking API from Webjet — 1 operation(s) for booking.
   name: Webjet Booking API
   slug: webjet-booking-api
-- description: The Cancel API from Webjet — 1 operation(s) for cancel.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Cancel API from Webjet — 1 operation(s) for cancel.
   name: Webjet Cancel API
   slug: webjet-cancel-api
-- description: The Details API from Webjet — 1 operation(s) for details.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Details API from Webjet — 1 operation(s) for details.
   name: Webjet Details API
   slug: webjet-details-api
-- description: The Generate Solutions API from Webjet — 3 operation(s) for generate solutions.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Generate Solutions API from Webjet — 3 operation(s) for generate solutions.
   name: Webjet Generate Solutions API
   slug: webjet-generate-solutions-api
-- description: The Get Searches API from Webjet — 3 operation(s) for get searches.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Get Searches API from Webjet — 3 operation(s) for get searches.
   name: Webjet Get Searches API
   slug: webjet-get-searches-api
-- description: The Msdp API from Webjet — 8 operation(s) for msdp.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Msdp API from Webjet — 8 operation(s) for msdp.
   name: Webjet Msdp API
   slug: webjet-msdp-api
-- description: The Pre Booking API from Webjet — 1 operation(s) for pre booking.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Pre Booking API from Webjet — 1 operation(s) for pre booking.
   name: Webjet Pre Booking API
   slug: webjet-pre-booking-api
-- description: The Price API from Webjet — 3 operation(s) for price.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Price API from Webjet — 3 operation(s) for price.
   name: Webjet Price API
   slug: webjet-price-api
-- description: The Queue API from Webjet — 1 operation(s) for queue.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Queue API from Webjet — 1 operation(s) for queue.
   name: Webjet Queue API
   slug: webjet-queue-api
-- description: The Report API from Webjet — 4 operation(s) for report.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Report API from Webjet — 4 operation(s) for report.
   name: Webjet Report API
   slug: webjet-report-api
-- description: The Results API from Webjet — 1 operation(s) for results.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Results API from Webjet — 1 operation(s) for results.
   name: Webjet Results API
   slug: webjet-results-api
-- description: The Rules API from Webjet — 1 operation(s) for rules.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Rules API from Webjet — 1 operation(s) for rules.
   name: Webjet Rules API
   slug: webjet-rules-api
-- description: The Search API from Webjet — 3 operation(s) for search.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Search API from Webjet — 3 operation(s) for search.
   name: Webjet Search API
   slug: webjet-search-api
-- description: The Super Trip API from Webjet — 2 operation(s) for super trip.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Super Trip API from Webjet — 2 operation(s) for super trip.
   name: Webjet Super Trip API
   slug: webjet-super-trip-api
-- description: The Ticket API from Webjet — 1 operation(s) for ticket.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Ticket API from Webjet — 1 operation(s) for ticket.
   name: Webjet Ticket API
   slug: webjet-ticket-api
-- description: The Ticketing API from Webjet — 1 operation(s) for ticketing.
+- baseURL: https://sandbox.tripninja.io
+  baseurl_source: declared
+  description: The Ticketing API from Webjet — 1 operation(s) for ticketing.
   name: Webjet Ticketing API
   slug: webjet-ticketing-api
 arazzos:
@@ -413,20 +462,20 @@ rate_limits:
   slug: webjet-rate-limits
 score:
   band: thin
-  composite: 31.6
+  composite: 32.4
   coverage:
     artifact_dirs: 22
-    catalog_gap: 82.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 32.7
-    discoverability: 46.3
+    discoverability: 55.6
     governance: 4.5
     operational_transparency: 23.7
   open_source:
@@ -444,7 +493,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png
 security:

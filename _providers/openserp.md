@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -36,19 +48,29 @@ apis:
 - description: The managed, hosted version of the OpenSERP search API. Bearer-token authenticated, credit-metered pay-as-you-go REST API exposing single-engine web and image search across Google, Bing, Yandex, Baidu
   name: OpenSERP Cloud API
   slug: openserp-cloud
-- description: OpenAPI and Swagger UI endpoints
+- baseURL: https://api.openserp.org
+  baseurl_source: declared
+  description: OpenAPI and Swagger UI endpoints
   name: OpenSERP Docs API
   slug: openserp-docs-api
-- description: Health and readiness endpoints
+- baseURL: https://api.openserp.org
+  baseurl_source: declared
+  description: Health and readiness endpoints
   name: OpenSERP Health API
   slug: openserp-health-api
-- description: Cross-engine aggregated search endpoints
+- baseURL: https://api.openserp.org
+  baseurl_source: declared
+  description: Cross-engine aggregated search endpoints
   name: OpenSERP Mega API
   slug: openserp-mega-api
-- description: Dedicated per-engine search endpoints
+- baseURL: https://api.openserp.org
+  baseurl_source: declared
+  description: Dedicated per-engine search endpoints
   name: OpenSERP Search API
   slug: openserp-search-api
-- description: Runtime statistics endpoints
+- baseURL: https://api.openserp.org
+  baseurl_source: declared
+  description: Runtime statistics endpoints
   name: OpenSERP Stats API
   slug: openserp-stats-api
 artifact_total: 13
@@ -280,7 +302,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -293,7 +315,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 50.2
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +327,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/screenshots/openserp-2026-08-17T081125.png
 security:

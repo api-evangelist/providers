@@ -33,97 +33,157 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Agents V1 API from Arthur AI — 12 operation(s) for agents v1.
   name: Arthur AI Agents V1 API
   slug: arthur-ai-agents-v1-api
-- description: The Alert Rules V1 API from Arthur AI — 5 operation(s) for alert rules v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Alert Rules V1 API from Arthur AI — 5 operation(s) for alert rules v1.
   name: Arthur AI Alert Rules V1 API
   slug: arthur-ai-alert-rules-v1-api
-- description: The Alerts V1 API from Arthur AI — 5 operation(s) for alerts v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Alerts V1 API from Arthur AI — 5 operation(s) for alerts v1.
   name: Arthur AI Alerts V1 API
   slug: arthur-ai-alerts-v1-api
-- description: The Authorization V1 API from Arthur AI — 9 operation(s) for authorization v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Authorization V1 API from Arthur AI — 9 operation(s) for authorization v1.
   name: Arthur AI Authorization V1 API
   slug: arthur-ai-authorization-v1-api
-- description: The Connector Schemas V1 API from Arthur AI — 2 operation(s) for connector schemas v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Connector Schemas V1 API from Arthur AI — 2 operation(s) for connector schemas v1.
   name: Arthur AI Connector Schemas V1 API
   slug: arthur-ai-connector-schemas-v1-api
-- description: The Connectors V1 API from Arthur AI — 4 operation(s) for connectors v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Connectors V1 API from Arthur AI — 4 operation(s) for connectors v1.
   name: Arthur AI Connectors V1 API
   slug: arthur-ai-connectors-v1-api
-- description: The Custom Aggregation Tests V1 API from Arthur AI — 3 operation(s) for custom aggregation tests v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Custom Aggregation Tests V1 API from Arthur AI — 3 operation(s) for custom aggregation tests v1.
   name: Arthur AI Custom Aggregation Tests V1 API
   slug: arthur-ai-custom-aggregation-tests-v1-api
-- description: The Custom Aggregations V1 API from Arthur AI — 3 operation(s) for custom aggregations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Custom Aggregations V1 API from Arthur AI — 3 operation(s) for custom aggregations v1.
   name: Arthur AI Custom Aggregations V1 API
   slug: arthur-ai-custom-aggregations-v1-api
-- description: The Data Plane Associations V1 API from Arthur AI — 4 operation(s) for data plane associations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Plane Associations V1 API from Arthur AI — 4 operation(s) for data plane associations v1.
   name: Arthur AI Data Plane Associations V1 API
   slug: arthur-ai-data-plane-associations-v1-api
-- description: The Data Planes V1 API from Arthur AI — 4 operation(s) for data planes v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Planes V1 API from Arthur AI — 4 operation(s) for data planes v1.
   name: Arthur AI Data Planes V1 API
   slug: arthur-ai-data-planes-v1-api
-- description: The Data Retrieval V1 API from Arthur AI — 4 operation(s) for data retrieval v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Data Retrieval V1 API from Arthur AI — 4 operation(s) for data retrieval v1.
   name: Arthur AI Data Retrieval V1 API
   slug: arthur-ai-data-retrieval-v1-api
-- description: The Datasets V1 API from Arthur AI — 9 operation(s) for datasets v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Datasets V1 API from Arthur AI — 9 operation(s) for datasets v1.
   name: Arthur AI Datasets V1 API
   slug: arthur-ai-datasets-v1-api
-- description: The Feature Flags V1 API from Arthur AI — 1 operation(s) for feature flags v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Feature Flags V1 API from Arthur AI — 1 operation(s) for feature flags v1.
   name: Arthur AI Feature Flags V1 API
   slug: arthur-ai-feature-flags-v1-api
-- description: The Groups V1 API from Arthur AI — 4 operation(s) for groups v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Groups V1 API from Arthur AI — 4 operation(s) for groups v1.
   name: Arthur AI Groups V1 API
   slug: arthur-ai-groups-v1-api
-- description: The Health API from Arthur AI — 1 operation(s) for health.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Health API from Arthur AI — 1 operation(s) for health.
   name: Arthur AI Health API
   slug: arthur-ai-health-api
-- description: The Jobs V1 API from Arthur AI — 7 operation(s) for jobs v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Jobs V1 API from Arthur AI — 7 operation(s) for jobs v1.
   name: Arthur AI Jobs V1 API
   slug: arthur-ai-jobs-v1-api
-- description: The Metric Functions V1 API from Arthur AI — 1 operation(s) for metric functions v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Metric Functions V1 API from Arthur AI — 1 operation(s) for metric functions v1.
   name: Arthur AI Metric Functions V1 API
   slug: arthur-ai-metric-functions-v1-api
-- description: The Metrics V1 API from Arthur AI — 3 operation(s) for metrics v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Metrics V1 API from Arthur AI — 3 operation(s) for metrics v1.
   name: Arthur AI Metrics V1 API
   slug: arthur-ai-metrics-v1-api
-- description: The Models V1 API from Arthur AI — 7 operation(s) for models v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Models V1 API from Arthur AI — 7 operation(s) for models v1.
   name: Arthur AI Models V1 API
   slug: arthur-ai-models-v1-api
-- description: The OAuth V1 API from Arthur AI — 1 operation(s) for oauth v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The OAuth V1 API from Arthur AI — 1 operation(s) for oauth v1.
   name: Arthur AI OAuth V1 API
   slug: arthur-ai-oauth-v1-api
-- description: The Organizations V1 API from Arthur AI — 1 operation(s) for organizations v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Organizations V1 API from Arthur AI — 1 operation(s) for organizations v1.
   name: Arthur AI Organizations V1 API
   slug: arthur-ai-organizations-v1-api
-- description: The Policies V1 API from Arthur AI — 22 operation(s) for policies v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Policies V1 API from Arthur AI — 22 operation(s) for policies v1.
   name: Arthur AI Policies V1 API
   slug: arthur-ai-policies-v1-api
-- description: The Projects V1 API from Arthur AI — 2 operation(s) for projects v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Projects V1 API from Arthur AI — 2 operation(s) for projects v1.
   name: Arthur AI Projects V1 API
   slug: arthur-ai-projects-v1-api
-- description: The Registration V1 API from Arthur AI — 1 operation(s) for registration v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Registration V1 API from Arthur AI — 1 operation(s) for registration v1.
   name: Arthur AI Registration V1 API
   slug: arthur-ai-registration-v1-api
-- description: The Roles V1 API from Arthur AI — 1 operation(s) for roles v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Roles V1 API from Arthur AI — 1 operation(s) for roles v1.
   name: Arthur AI Roles V1 API
   slug: arthur-ai-roles-v1-api
-- description: The Tasks V1 API from Arthur AI — 7 operation(s) for tasks v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Tasks V1 API from Arthur AI — 7 operation(s) for tasks v1.
   name: Arthur AI Tasks V1 API
   slug: arthur-ai-tasks-v1-api
-- description: The Upsolve V1 API from Arthur AI — 1 operation(s) for upsolve v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Upsolve V1 API from Arthur AI — 1 operation(s) for upsolve v1.
   name: Arthur AI Upsolve V1 API
   slug: arthur-ai-upsolve-v1-api
-- description: The Users V1 API from Arthur AI — 8 operation(s) for users v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Users V1 API from Arthur AI — 8 operation(s) for users v1.
   name: Arthur AI Users V1 API
   slug: arthur-ai-users-v1-api
-- description: The Webhooks V1 API from Arthur AI — 3 operation(s) for webhooks v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Webhooks V1 API from Arthur AI — 3 operation(s) for webhooks v1.
   name: Arthur AI Webhooks V1 API
   slug: arthur-ai-webhooks-v1-api
-- description: The Workspaces V1 API from Arthur AI — 3 operation(s) for workspaces v1.
+- baseURL: https://platform.arthur.ai/api
+  baseurl_source: declared
+  description: The Workspaces V1 API from Arthur AI — 3 operation(s) for workspaces v1.
   name: Arthur AI Workspaces V1 API
   slug: arthur-ai-workspaces-v1-api
 artifact_total: 66
@@ -375,7 +435,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -385,7 +445,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.9
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -396,7 +456,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-ai/refs/heads/main/screenshots/arthur-ai-2026-07-25T201324.png
 security:

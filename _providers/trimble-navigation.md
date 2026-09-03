@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Trimble Advanced Positioning (TAP) Store API is a REST-based eCommerce API for purchasing and managing Trimble positioning service subscriptions including RTX correction services. Enables automate
   name: Trimble Positioning Services API
   slug: trimble-positioning-services
-- description: The Catalyst API from Trimble Navigation — 2 operation(s) for catalyst.
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Catalyst API from Trimble Navigation — 2 operation(s) for catalyst.
   name: Trimble Navigation Catalyst API
   slug: trimble-navigation-catalyst-api
-- description: The Corrections API from Trimble Navigation — 2 operation(s) for corrections.
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Corrections API from Trimble Navigation — 2 operation(s) for corrections.
   name: Trimble Navigation Corrections API
   slug: trimble-navigation-corrections-api
-- description: The Positioning API from Trimble Navigation — 1 operation(s) for positioning.
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Positioning API from Trimble Navigation — 1 operation(s) for positioning.
   name: Trimble Navigation Positioning API
   slug: trimble-navigation-positioning-api
-- description: The Receiver API from Trimble Navigation — 2 operation(s) for receiver.
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The Receiver API from Trimble Navigation — 2 operation(s) for receiver.
   name: Trimble Navigation Receiver API
   slug: trimble-navigation-receiver-api
-- description: The System API from Trimble Navigation — 1 operation(s) for system.
+- baseURL_template: http://localhost:{apiPort}
+  baseurl_source: spec_template
+  description: The System API from Trimble Navigation — 1 operation(s) for system.
   name: Trimble Navigation System API
   slug: trimble-navigation-system-api
 artifact_total: 27
@@ -239,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble-navigation/refs/heads/main/screenshots/trimble-navigation-2026-06-20T195716.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -45,238 +45,394 @@ agentic_access:
   summary_line: 378 operations · 204 acting · 24 human-in-the-loop
 api_count: 2
 apis:
-- description: The Access API from Grafana — 2 operation(s) for access.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Access API from Grafana — 2 operation(s) for access.
   name: Grafana Access API
   slug: grafana-access-api
-- description: The Account API from Grafana — 2 operation(s) for account.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Account API from Grafana — 2 operation(s) for account.
   name: Grafana Account API
   slug: grafana-account-api
-- description: The Accounts API from Grafana — 1 operation(s) for accounts.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Accounts API from Grafana — 1 operation(s) for accounts.
   name: Grafana Accounts API
   slug: grafana-accounts-api
-- description: The Add API from Grafana — 8 operation(s) for add.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Add API from Grafana — 8 operation(s) for add.
   name: Grafana Add API
   slug: grafana-add-api
-- description: The Address API from Grafana — 2 operation(s) for address.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Address API from Grafana — 2 operation(s) for address.
   name: Grafana Address API
   slug: grafana-address-api
-- description: The Administrative API from Grafana — 15 operation(s) for administrative.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Administrative API from Grafana — 15 operation(s) for administrative.
   name: Grafana Administrative API
   slug: grafana-administrative-api
-- description: Alerting rules and notifications
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Alerting rules and notifications
   name: Grafana Alerts API
   slug: grafana-alerts-api
-- description: The All API from Grafana — 1 operation(s) for all.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The All API from Grafana — 1 operation(s) for all.
   name: Grafana All API
   slug: grafana-all-api
-- description: Dashboard annotations
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Dashboard annotations
   name: Grafana Annotations API
   slug: grafana-annotations-api
-- description: The Built API from Grafana — 1 operation(s) for built.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Built API from Grafana — 1 operation(s) for built.
   name: Grafana Built API
   slug: grafana-built-api
-- description: The Cache API from Grafana — 4 operation(s) for cache.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Cache API from Grafana — 4 operation(s) for cache.
   name: Grafana Cache API
   slug: grafana-cache-api
-- description: The Call API from Grafana — 2 operation(s) for call.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Call API from Grafana — 2 operation(s) for call.
   name: Grafana Call API
   slug: grafana-call-api
-- description: The Calls API from Grafana — 2 operation(s) for calls.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Calls API from Grafana — 2 operation(s) for calls.
   name: Grafana Calls API
   slug: grafana-calls-api
-- description: The Cancel API from Grafana — 1 operation(s) for cancel.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Cancel API from Grafana — 1 operation(s) for cancel.
   name: Grafana Cancel API
   slug: grafana-cancel-api
-- description: The Change API from Grafana — 1 operation(s) for change.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Change API from Grafana — 1 operation(s) for change.
   name: Grafana Change API
   slug: grafana-change-api
-- description: The Checks API from Grafana — 2 operation(s) for checks.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Checks API from Grafana — 2 operation(s) for checks.
   name: Grafana Checks API
   slug: grafana-checks-api
-- description: The Clear API from Grafana — 1 operation(s) for clear.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Clear API from Grafana — 1 operation(s) for clear.
   name: Grafana Clear API
   slug: grafana-clear-api
-- description: The Cloud API from Grafana — 2 operation(s) for cloud.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Cloud API from Grafana — 2 operation(s) for cloud.
   name: Grafana Cloud API
   slug: grafana-cloud-api
-- description: The Comments API from Grafana — 1 operation(s) for comments.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Comments API from Grafana — 1 operation(s) for comments.
   name: Grafana Comments API
   slug: grafana-comments-api
-- description: The Connections API from Grafana — 1 operation(s) for connections.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Connections API from Grafana — 1 operation(s) for connections.
   name: Grafana Connections API
   slug: grafana-connections-api
-- description: The Convert API from Grafana — 6 operation(s) for convert.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Convert API from Grafana — 6 operation(s) for convert.
   name: Grafana Convert API
   slug: grafana-convert-api
-- description: The Correlation API from Grafana — 3 operation(s) for correlation.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Correlation API from Grafana — 3 operation(s) for correlation.
   name: Grafana Correlation API
   slug: grafana-correlation-api
-- description: The Correlations API from Grafana — 2 operation(s) for correlations.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Correlations API from Grafana — 2 operation(s) for correlations.
   name: Grafana Correlations API
   slug: grafana-correlations-api
-- description: The Counts API from Grafana — 1 operation(s) for counts.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Counts API from Grafana — 1 operation(s) for counts.
   name: Grafana Counts API
   slug: grafana-counts-api
-- description: The Create API from Grafana — 21 operation(s) for create.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Create API from Grafana — 21 operation(s) for create.
   name: Grafana Create API
   slug: grafana-create-api
-- description: The Current API from Grafana — 6 operation(s) for current.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Current API from Grafana — 6 operation(s) for current.
   name: Grafana Current API
   slug: grafana-current-api
-- description: The Custom API from Grafana — 2 operation(s) for custom.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Custom API from Grafana — 2 operation(s) for custom.
   name: Grafana Custom API
   slug: grafana-custom-api
-- description: Manage dashboards
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Manage dashboards
   name: Grafana Dashboards API
   slug: grafana-dashboards-api
-- description: The Data API from Grafana — 9 operation(s) for data.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Data API from Grafana — 9 operation(s) for data.
   name: Grafana Data API
   slug: grafana-data-api
-- description: Manage data source connections
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Manage data source connections
   name: Grafana Data Sources API
   slug: grafana-data-sources-api
-- description: The Delete API from Grafana — 37 operation(s) for delete.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Delete API from Grafana — 37 operation(s) for delete.
   name: Grafana Delete API
   slug: grafana-delete-api
-- description: The Dependencies API from Grafana — 1 operation(s) for dependencies.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Dependencies API from Grafana — 1 operation(s) for dependencies.
   name: Grafana Dependencies API
   slug: grafana-dependencies-api
-- description: The Description API from Grafana — 1 operation(s) for description.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Description API from Grafana — 1 operation(s) for description.
   name: Grafana Description API
   slug: grafana-description-api
-- description: The Devices API from Grafana — 2 operation(s) for devices.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Devices API from Grafana — 2 operation(s) for devices.
   name: Grafana Devices API
   slug: grafana-devices-api
-- description: The Element API from Grafana — 4 operation(s) for element.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Element API from Grafana — 4 operation(s) for element.
   name: Grafana Element API
   slug: grafana-element-api
-- description: The Elements API from Grafana — 1 operation(s) for elements.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Elements API from Grafana — 1 operation(s) for elements.
   name: Grafana Elements API
   slug: grafana-elements-api
-- description: The Email API from Grafana — 3 operation(s) for email.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Email API from Grafana — 3 operation(s) for email.
   name: Grafana Email API
   slug: grafana-email-api
-- description: The Exports API from Grafana — 7 operation(s) for exports.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Exports API from Grafana — 7 operation(s) for exports.
   name: Grafana Exports API
   slug: grafana-exports-api
-- description: The Flag API from Grafana — 1 operation(s) for flag.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Flag API from Grafana — 1 operation(s) for flag.
   name: Grafana Flag API
   slug: grafana-flag-api
-- description: Dashboard folder management
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Dashboard folder management
   name: Grafana Folders API
   slug: grafana-folders-api
-- description: The Get API from Grafana — 118 operation(s) for get.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Get API from Grafana — 118 operation(s) for get.
   name: Grafana Get API
   slug: grafana-get-api
-- description: The Groups API from Grafana — 13 operation(s) for groups.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Groups API from Grafana — 13 operation(s) for groups.
   name: Grafana Groups API
   slug: grafana-groups-api
-- description: The Invites API from Grafana — 2 operation(s) for invites.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Invites API from Grafana — 2 operation(s) for invites.
   name: Grafana Invites API
   slug: grafana-invites-api
-- description: The Ldap API from Grafana — 4 operation(s) for ldap.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Ldap API from Grafana — 4 operation(s) for ldap.
   name: Grafana Ldap API
   slug: grafana-ldap-api
-- description: The Licenses API from Grafana — 3 operation(s) for licenses.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Licenses API from Grafana — 3 operation(s) for licenses.
   name: Grafana Licenses API
   slug: grafana-licenses-api
-- description: The Lists API from Grafana — 19 operation(s) for lists.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Lists API from Grafana — 19 operation(s) for lists.
   name: Grafana Lists API
   slug: grafana-lists-api
-- description: The Member API from Grafana — 2 operation(s) for member.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Member API from Grafana — 2 operation(s) for member.
   name: Grafana Member API
   slug: grafana-member-api
-- description: The Memberships API from Grafana — 1 operation(s) for memberships.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Memberships API from Grafana — 1 operation(s) for memberships.
   name: Grafana Memberships API
   slug: grafana-memberships-api
-- description: The Metrics API from Grafana — 1 operation(s) for metrics.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Metrics API from Grafana — 1 operation(s) for metrics.
   name: Grafana Metrics API
   slug: grafana-metrics-api
-- description: The Mute API from Grafana — 4 operation(s) for mute.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Mute API from Grafana — 4 operation(s) for mute.
   name: Grafana Mute API
   slug: grafana-mute-api
-- description: Organization management
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Organization management
   name: Grafana Organizations API
   slug: grafana-organizations-api
-- description: The Patch API from Grafana — 4 operation(s) for patch.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Patch API from Grafana — 4 operation(s) for patch.
   name: Grafana Patch API
   slug: grafana-patch-api
-- description: Permissions with `folderId=-1` are the default permissions for users with the Viewer and Editor roles. Permissions can be set for a user, a team or a role (Viewer or Editor). Permissions cannot be set
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Permissions with `folderId=-1` are the default permissions for users with the Viewer and Editor roles. Permissions can be set for a user, a team or a role (Viewer or Editor). Permissions cannot be set
   name: Grafana Permissions API
   slug: grafana-permissions-api
-- description: The Playlists API from Grafana — 1 operation(s) for playlists.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Playlists API from Grafana — 1 operation(s) for playlists.
   name: Grafana Playlists API
   slug: grafana-playlists-api
-- description: The Policies API from Grafana — 2 operation(s) for policies.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Policies API from Grafana — 2 operation(s) for policies.
   name: Grafana Policies API
   slug: grafana-policies-api
-- description: The Post API from Grafana — 17 operation(s) for post.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Post API from Grafana — 17 operation(s) for post.
   name: Grafana Post API
   slug: grafana-post-api
-- description: The Preferences API from Grafana — 3 operation(s) for preferences.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Preferences API from Grafana — 3 operation(s) for preferences.
   name: Grafana Preferences API
   slug: grafana-preferences-api
-- description: The Provider API from Grafana — 1 operation(s) for provider.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Provider API from Grafana — 1 operation(s) for provider.
   name: Grafana Provider API
   slug: grafana-provider-api
-- description: The Put API from Grafana — 6 operation(s) for put.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Put API from Grafana — 6 operation(s) for put.
   name: Grafana Put API
   slug: grafana-put-api
-- description: The Queries API from Grafana — 6 operation(s) for queries.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Queries API from Grafana — 6 operation(s) for queries.
   name: Grafana Queries API
   slug: grafana-queries-api
-- description: The Quota API from Grafana — 5 operation(s) for quota.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Quota API from Grafana — 5 operation(s) for quota.
   name: Grafana Quota API
   slug: grafana-quota-api
-- description: The Recording API from Grafana — 4 operation(s) for recording.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Recording API from Grafana — 4 operation(s) for recording.
   name: Grafana Recording API
   slug: grafana-recording-api
-- description: The Remove API from Grafana — 7 operation(s) for remove.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Remove API from Grafana — 7 operation(s) for remove.
   name: Grafana Remove API
   slug: grafana-remove-api
-- description: The Render API from Grafana — 2 operation(s) for render.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Render API from Grafana — 2 operation(s) for render.
   name: Grafana Render API
   slug: grafana-render-api
-- description: This API allows you to interact programmatically with the Reporting feature. Reporting is only available in Grafana Enterprise. Read more about Grafana Enterprise. If you have Fine-grained access Cont
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: This API allows you to interact programmatically with the Reporting feature. Reporting is only available in Grafana Enterprise. Read more about Grafana Enterprise. If you have Fine-grained access Cont
   name: Grafana Reports API
   slug: grafana-reports-api
-- description: The Result API from Grafana — 1 operation(s) for result.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Result API from Grafana — 1 operation(s) for result.
   name: Grafana Result API
   slug: grafana-result-api
-- description: The Retrieve API from Grafana — 2 operation(s) for retrieve.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Retrieve API from Grafana — 2 operation(s) for retrieve.
   name: Grafana Retrieve API
   slug: grafana-retrieve-api
-- description: The Revoke API from Grafana — 3 operation(s) for revoke.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Revoke API from Grafana — 3 operation(s) for revoke.
   name: Grafana Revoke API
   slug: grafana-revoke-api
-- description: The Role API from Grafana — 8 operation(s) for role.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Role API from Grafana — 8 operation(s) for role.
   name: Grafana Role API
   slug: grafana-role-api
-- description: The Roles API from Grafana — 6 operation(s) for roles.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Roles API from Grafana — 6 operation(s) for roles.
   name: Grafana Roles API
   slug: grafana-roles-api
-- description: The Rules API from Grafana — 17 operation(s) for rules.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Rules API from Grafana — 17 operation(s) for rules.
   name: Grafana Rules API
   slug: grafana-rules-api
-- description: The Search API from Grafana — 13 operation(s) for search.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Search API from Grafana — 13 operation(s) for search.
   name: Grafana Search API
   slug: grafana-search-api
-- description: The Sets API from Grafana — 11 operation(s) for sets.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Sets API from Grafana — 11 operation(s) for sets.
   name: Grafana Sets API
   slug: grafana-sets-api
-- description: The Signed API from Grafana — 3 operation(s) for signed.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Signed API from Grafana — 3 operation(s) for signed.
   name: Grafana Signed API
   slug: grafana-signed-api
-- description: Team management
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: Team management
   name: Grafana Teams API
   slug: grafana-teams-api
-- description: The Update API from Grafana — 36 operation(s) for update.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Update API from Grafana — 36 operation(s) for update.
   name: Grafana Update API
   slug: grafana-update-api
-- description: The Upload API from Grafana — 1 operation(s) for upload.
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: The Upload API from Grafana — 1 operation(s) for upload.
   name: Grafana Upload API
   slug: grafana-upload-api
-- description: User management
+- baseURL: http://localhost:3000/api
+  baseurl_source: declared
+  description: User management
   name: Grafana Users API
   slug: grafana-users-api
 arazzos:
@@ -1417,7 +1573,7 @@ score:
     catalog_gap: 59.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -1427,7 +1583,7 @@ score:
     discoverability: 68.5
     governance: 14.4
     operational_transparency: 42.1
-  previous_composite: 55.6
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1438,7 +1594,7 @@ score:
       total: 78
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

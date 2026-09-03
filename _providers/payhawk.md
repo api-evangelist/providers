@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Payhawk spend management features including expenses, corporate cards, transactions, employees, custom fields, fund accounts, bank statements, and webhook subscr
@@ -164,7 +164,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhawk/refs/heads/main/screenshots/payhawk-2026-06-20T191457.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -80,43 +80,69 @@ apis:
 - description: The Tableau Pulse API enables programmatic creation, management, and querying of Tableau Pulse metrics and subscriptions, as well as embedding Pulse insights into web applications.
   name: Tableau Pulse API
   slug: tableau-pulse-api
-- description: Sign in and sign out of Tableau Server or Tableau Cloud. You must sign in to obtain an authentication token before calling other methods.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Sign in and sign out of Tableau Server or Tableau Cloud. You must sign in to obtain an authentication token before calling other methods.
   name: Tableau Authentication API
   slug: tableau-authentication-api
-- description: Publish, query, update, delete, and download data sources. Data sources define the connection to data and can be shared across multiple workbooks.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Publish, query, update, delete, and download data sources. Data sources define the connection to data and can be shared across multiple workbooks.
   name: Tableau Data Sources API
   slug: tableau-data-sources-api
-- description: Add and remove content items from a user's list of favorites, including workbooks, views, data sources, projects, and flows.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Add and remove content items from a user's list of favorites, including workbooks, views, data sources, projects, and flows.
   name: Tableau Favorites API
   slug: tableau-favorites-api
-- description: Create, update, delete, and query groups. Groups are collections of users that simplify permission management.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Create, update, delete, and query groups. Groups are collections of users that simplify permission management.
   name: Tableau Groups API
   slug: tableau-groups-api
-- description: Query and cancel background jobs on a site, including extract refreshes, subscriptions, and flow runs.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Query and cancel background jobs on a site, including extract refreshes, subscriptions, and flow runs.
   name: Tableau Jobs API
   slug: tableau-jobs-api
-- description: Query and set permissions on content items including workbooks, data sources, projects, views, and flows.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Query and set permissions on content items including workbooks, data sources, projects, views, and flows.
   name: Tableau Permissions API
   slug: tableau-permissions-api
-- description: Create, update, delete, and query projects. Projects are containers for organizing workbooks, data sources, and other content on a site.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Create, update, delete, and query projects. Projects are containers for organizing workbooks, data sources, and other content on a site.
   name: Tableau Projects API
   slug: tableau-projects-api
-- description: Create, update, delete, and query schedules for extract refreshes and subscriptions on Tableau Server.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Create, update, delete, and query schedules for extract refreshes and subscriptions on Tableau Server.
   name: Tableau Schedules API
   slug: tableau-schedules-api
-- description: Manage sites on Tableau Server. A site is a collection of users, groups, projects, workbooks, data sources, and other resources.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Manage sites on Tableau Server. A site is a collection of users, groups, projects, workbooks, data sources, and other resources.
   name: Tableau Sites API
   slug: tableau-sites-api
-- description: Create, update, delete, and query subscriptions. Subscriptions deliver snapshots of views to users on a schedule.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Create, update, delete, and query subscriptions. Subscriptions deliver snapshots of views to users on a schedule.
   name: Tableau Subscriptions API
   slug: tableau-subscriptions-api
-- description: Add, update, remove, and query users on a site. Users are individuals who can sign in to Tableau Server or Tableau Cloud.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Add, update, remove, and query users on a site. Users are individuals who can sign in to Tableau Server or Tableau Cloud.
   name: Tableau Users API
   slug: tableau-users-api
-- description: Query views and download view images or data. Views are the individual sheets, dashboards, or stories within a workbook.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Query views and download view images or data. Views are the individual sheets, dashboards, or stories within a workbook.
   name: Tableau Views API
   slug: tableau-views-api
-- description: Publish, query, update, delete, and download workbooks. Workbooks contain one or more views (sheets, dashboards, or stories) and can connect to one or more data sources.
+- baseURL: https://[server]/api/[api-version]
+  baseurl_source: declared
+  description: Publish, query, update, delete, and download workbooks. Workbooks contain one or more views (sheets, dashboards, or stories) and can connect to one or more data sources.
   name: Tableau Workbooks API
   slug: tableau-workbooks-api
 artifact_total: 377
@@ -1318,7 +1344,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:

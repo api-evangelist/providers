@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The free Qlty CLI is a polyglot, Rust-based command-line tool for universal linting, auto-formatting, security scanning, code smells, duplication, and maintainability metrics. It runs 70+ static analy
+- baseURL: https://qlty.sh
+  baseurl_source: declared
+  description: The free Qlty CLI is a polyglot, Rust-based command-line tool for universal linting, auto-formatting, security scanning, code smells, duplication, and maintainability metrics. It runs 70+ static analy
   name: Qlty CLI
   slug: qlty-cli
-- description: Coverage publishing is performed by the Qlty CLI command qlty coverage publish, which uploads test coverage reports to Qlty Cloud from a CI pipeline. It authenticates with a per-project QLTY_COVERAGE_
+- baseURL: https://qlty.sh
+  baseurl_source: declared
+  description: Coverage publishing is performed by the Qlty CLI command qlty coverage publish, which uploads test coverage reports to Qlty Cloud from a CI pipeline. It authenticates with a per-project QLTY_COVERAGE_
   name: Qlty Coverage Upload
   slug: qlty-coverage-upload
-- description: Qlty Cloud is the hosted platform that analyzes pull requests, posts automated code review comments on newly introduced issues, enforces quality gates, aggregates coverage, and renders trends and dash
+- baseURL: https://qlty.sh
+  baseurl_source: declared
+  description: Qlty Cloud is the hosted platform that analyzes pull requests, posts automated code review comments on newly introduced issues, enforces quality gates, aggregates coverage, and renders trends and dash
   name: Qlty Cloud API
   slug: qlty-cloud
 artifact_total: 10
@@ -124,7 +130,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -140,8 +146,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qlty/refs/heads/main/screenshots/qlty-2026-09-02T152514.png
 security:
 - kind: authentication
   name: Qlty Authentication

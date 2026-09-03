@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -56,31 +56,49 @@ apis:
 - description: Inbound webhook listeners exposed by integrator.io. Each listener provides an auto-generated public HTTPS URL that accepts HTTP POST or PUT requests from a source application to trigger a real-time fl
   name: Celigo integrator.io Webhook Listeners
   slug: celigo-webhook-listeners
-- description: The Connections API from Celigo — 3 operation(s) for connections.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Connections API from Celigo — 3 operation(s) for connections.
   name: Celigo Connections API
   slug: celigo-connections-api
-- description: The Exports API from Celigo — 2 operation(s) for exports.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Exports API from Celigo — 2 operation(s) for exports.
   name: Celigo Exports API
   slug: celigo-exports-api
-- description: The Flows API from Celigo — 3 operation(s) for flows.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Flows API from Celigo — 3 operation(s) for flows.
   name: Celigo Flows API
   slug: celigo-flows-api
-- description: The iClients API from Celigo — 1 operation(s) for iclients.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The iClients API from Celigo — 1 operation(s) for iclients.
   name: Celigo iClients API
   slug: celigo-iclients-api
-- description: The Imports API from Celigo — 2 operation(s) for imports.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Imports API from Celigo — 2 operation(s) for imports.
   name: Celigo Imports API
   slug: celigo-imports-api
-- description: The Integrations API from Celigo — 2 operation(s) for integrations.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Integrations API from Celigo — 2 operation(s) for integrations.
   name: Celigo Integrations API
   slug: celigo-integrations-api
-- description: The Jobs API from Celigo — 2 operation(s) for jobs.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Jobs API from Celigo — 2 operation(s) for jobs.
   name: Celigo Jobs API
   slug: celigo-jobs-api
-- description: The Licenses API from Celigo — 1 operation(s) for licenses.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The Licenses API from Celigo — 1 operation(s) for licenses.
   name: Celigo Licenses API
   slug: celigo-licenses-api
-- description: The State API from Celigo — 2 operation(s) for state.
+- baseURL: https://api.integrator.io/v1
+  baseurl_source: spec
+  description: The State API from Celigo — 2 operation(s) for state.
   name: Celigo State API
   slug: celigo-state-api
 artifact_total: 33
@@ -227,7 +245,7 @@ score:
     catalog_gap: 70.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -237,7 +255,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 30.9
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -246,7 +264,7 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:

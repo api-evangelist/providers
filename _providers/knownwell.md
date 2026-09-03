@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -46,34 +46,54 @@ agentic_access:
   summary_line: 25 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The alignment API from Knownwell — 2 operation(s) for alignment. Returns the Red/Amber/Green alignment read a client team files by hand each week, alongside the machine-computed Knownwell score, so th
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The alignment API from Knownwell — 2 operation(s) for alignment. Returns the Red/Amber/Green alignment read a client team files by hand each week, alongside the machine-computed Knownwell score, so th
   name: Knownwell alignment API
   slug: knownwell-alignment-api
-- description: The api-keys API from Knownwell — 2 operation(s) for api-keys.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The api-keys API from Knownwell — 2 operation(s) for api-keys.
   name: Knownwell api-keys API
   slug: knownwell-api-keys-api
-- description: The clients API from Knownwell — 14 operation(s) for clients.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The clients API from Knownwell — 14 operation(s) for clients.
   name: Knownwell clients API
   slug: knownwell-clients-api
-- description: The documentation API from Knownwell — 1 operation(s) for documentation.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The documentation API from Knownwell — 1 operation(s) for documentation.
   name: Knownwell documentation API
   slug: knownwell-documentation-api
-- description: The health API from Knownwell — 1 operation(s) for health.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The health API from Knownwell — 1 operation(s) for health.
   name: Knownwell health API
   slug: knownwell-health-api
-- description: The portfolios API from Knownwell — 2 operation(s) for portfolios.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The portfolios API from Knownwell — 2 operation(s) for portfolios.
   name: Knownwell portfolios API
   slug: knownwell-portfolios-api
-- description: The root API from Knownwell — 1 operation(s) for root.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The root API from Knownwell — 1 operation(s) for root.
   name: Knownwell root API
   slug: knownwell-root-api
-- description: The status API from Knownwell — 1 operation(s) for status.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The status API from Knownwell — 1 operation(s) for status.
   name: Knownwell status API
   slug: knownwell-status-api
-- description: The streams API from Knownwell — 1 operation(s) for streams.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The streams API from Knownwell — 1 operation(s) for streams.
   name: Knownwell streams API
   slug: knownwell-streams-api
-- description: The topics API from Knownwell — 1 operation(s) for topics.
+- baseURL: https://api.knownwell.com/ci/v1
+  baseurl_source: declared
+  description: The topics API from Knownwell — 1 operation(s) for topics.
   name: Knownwell topics API
   slug: knownwell-topics-api
 artifact_total: 28
@@ -301,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png
 security:

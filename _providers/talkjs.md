@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: 'Server-to-server event delivery for message.sent, message.read, message.updated, message.deleted, user.created/updated, conversation.deleted, and notification lifecycle events, posted as JSON with an '
   name: TalkJS Webhooks API
   slug: talkjs-webhooks-api
-- description: Create, update, list, and delete conversations.
+- baseURL: https://api.talkjs.com/v1/{appId}
+  baseurl_source: declared
+  description: Create, update, list, and delete conversations.
   name: TalkJS Conversations API
   slug: talkjs-conversations-api
-- description: Import messages with original timestamps.
+- baseURL: https://api.talkjs.com/v1/{appId}
+  baseurl_source: declared
+  description: Import messages with original timestamps.
   name: TalkJS Import API
   slug: talkjs-import-api
-- description: Send, list, fetch, edit, delete messages, and manage reactions.
+- baseURL: https://api.talkjs.com/v1/{appId}
+  baseurl_source: declared
+  description: Send, list, fetch, edit, delete messages, and manage reactions.
   name: TalkJS Messages API
   slug: talkjs-messages-api
-- description: Add, update, and remove conversation participants.
+- baseURL: https://api.talkjs.com/v1/{appId}
+  baseurl_source: declared
+  description: Add, update, and remove conversation participants.
   name: TalkJS Participants API
   slug: talkjs-participants-api
-- description: Create, update, retrieve, and list users; manage presence.
+- baseURL: https://api.talkjs.com/v1/{appId}
+  baseurl_source: declared
+  description: Create, update, retrieve, and list users; manage presence.
   name: TalkJS Users API
   slug: talkjs-users-api
 artifact_total: 21
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkjs/refs/heads/main/screenshots/talkjs-2026-06-20T194905.png
 security:

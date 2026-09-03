@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The GraphQL API from DeepSource — 1 operation(s) for graphql.
+- baseURL: https://api.deepsource.com/graphql
+  baseurl_source: declared
+  description: The GraphQL API from DeepSource — 1 operation(s) for graphql.
   name: DeepSource GraphQL API
   slug: deepsource-graphql-api
 artifact_total: 11
@@ -159,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepsource/refs/heads/main/screenshots/deepsource-2026-07-25T211607.png
 security:

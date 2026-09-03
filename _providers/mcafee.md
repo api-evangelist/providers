@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -50,76 +50,124 @@ apis:
 - description: Messaging fabric for real-time security data exchange and integration.
   name: McAfee Data Exchange Layer (DXL) API
   slug: mcafee-dxl-api
-- description: Manage security alarms
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage security alarms
   name: McAfee (Trellix) Alarms API
   slug: mcafee-alarms-api
-- description: Session authentication and management
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Session authentication and management
   name: McAfee (Trellix) Authentication API
   slug: mcafee-authentication-api
-- description: Manage incident response cases
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage incident response cases
   name: McAfee (Trellix) Cases API
   slug: mcafee-cases-api
-- description: Core server operations and authentication
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Core server operations and authentication
   name: McAfee (Trellix) Core API
   slug: mcafee-core-api
-- description: Manage event data sources
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage event data sources
   name: McAfee (Trellix) Data Sources API
   slug: mcafee-data-sources-api
-- description: EDR detection events and alerts
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: EDR detection events and alerts
   name: McAfee (Trellix) Detections API
   slug: mcafee-detections-api
-- description: Manage ESM device hierarchy
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage ESM device hierarchy
   name: McAfee (Trellix) Devices API
   slug: mcafee-devices-api
-- description: Query and retrieve security events
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Query and retrieve security events
   name: McAfee (Trellix) Events API
   slug: mcafee-events-api
-- description: Import and export configuration files
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Import and export configuration files
   name: McAfee (Trellix) File Operations API
   slug: mcafee-file-operations-api
-- description: Threat investigation workflows and actions
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Threat investigation workflows and actions
   name: McAfee (Trellix) Investigations API
   slug: mcafee-investigations-api
-- description: Manage URL and IP lists used in filtering
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage URL and IP lists used in filtering
   name: McAfee (Trellix) Lists API
   slug: mcafee-lists-api
-- description: Appliance health and traffic monitoring
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Appliance health and traffic monitoring
   name: McAfee (Trellix) Monitoring API
   slug: mcafee-monitoring-api
-- description: Manage and assign security policies
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage and assign security policies
   name: McAfee (Trellix) Policies API
   slug: mcafee-policies-api
-- description: Manage proxy and policy settings
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage proxy and policy settings
   name: McAfee (Trellix) Policy Configuration API
   slug: mcafee-policy-configuration-api
-- description: Execute ePO queries and retrieve results
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Execute ePO queries and retrieve results
   name: McAfee (Trellix) Queries API
   slug: mcafee-queries-api
-- description: Real-time data collection from endpoints
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Real-time data collection from endpoints
   name: McAfee (Trellix) Real-Time Search API
   slug: mcafee-real-time-search-api
-- description: Manage web security rule sets
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage web security rule sets
   name: McAfee (Trellix) Rule Sets API
   slug: mcafee-rule-sets-api
-- description: Manage software repositories and packages
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage software repositories and packages
   name: McAfee (Trellix) Software API
   slug: mcafee-software-api
-- description: Manage the ePO System Tree groups
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage the ePO System Tree groups
   name: McAfee (Trellix) System Groups API
   slug: mcafee-system-groups-api
-- description: Manage endpoints and systems registered in ePO
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage endpoints and systems registered in ePO
   name: McAfee (Trellix) Systems API
   slug: mcafee-systems-api
-- description: Manage client tasks and server tasks
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage client tasks and server tasks
   name: McAfee (Trellix) Tasks API
   slug: mcafee-tasks-api
-- description: Retrieve threat event data from managed endpoints
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Retrieve threat event data from managed endpoints
   name: McAfee (Trellix) Threat Events API
   slug: mcafee-threat-events-api
-- description: Retrieve and manage detected threats
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Retrieve and manage detected threats
   name: McAfee (Trellix) Threats API
   slug: mcafee-threats-api
-- description: Manage security watchlists
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage security watchlists
   name: McAfee (Trellix) Watchlists API
   slug: mcafee-watchlists-api
 artifact_total: 106
@@ -443,7 +491,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -453,7 +501,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -462,7 +510,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcafee/refs/heads/main/screenshots/mcafee-2026-06-20T185056.png
 security:

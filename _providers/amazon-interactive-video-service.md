@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 30 operations · 29 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The BatchGetChannel API from Amazon Interactive Video Service — 1 operation(s) for batchgetchannel.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The BatchGetChannel API from Amazon Interactive Video Service — 1 operation(s) for batchgetchannel.
   name: Amazon Interactive Video Service BatchGetChannel API
   slug: amazon-interactive-video-service-batchgetchannel-api
-- description: The BatchGetStreamKey API from Amazon Interactive Video Service — 1 operation(s) for batchgetstreamkey.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The BatchGetStreamKey API from Amazon Interactive Video Service — 1 operation(s) for batchgetstreamkey.
   name: Amazon Interactive Video Service BatchGetStreamKey API
   slug: amazon-interactive-video-service-batchgetstreamkey-api
-- description: The BatchStartViewerSessionRevocation API from Amazon Interactive Video Service — 1 operation(s) for batchstartviewersessionrevocation.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The BatchStartViewerSessionRevocation API from Amazon Interactive Video Service — 1 operation(s) for batchstartviewersessionrevocation.
   name: Amazon Interactive Video Service BatchStartViewerSessionRevocation API
   slug: amazon-interactive-video-service-batchstartviewersessionrevocation-api
-- description: The CreateChannel API from Amazon Interactive Video Service — 1 operation(s) for createchannel.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The CreateChannel API from Amazon Interactive Video Service — 1 operation(s) for createchannel.
   name: Amazon Interactive Video Service CreateChannel API
   slug: amazon-interactive-video-service-createchannel-api
-- description: The CreateRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for createrecordingconfiguration.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The CreateRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for createrecordingconfiguration.
   name: Amazon Interactive Video Service CreateRecordingConfiguration API
   slug: amazon-interactive-video-service-createrecordingconfiguration-api
-- description: The CreateStreamKey API from Amazon Interactive Video Service — 1 operation(s) for createstreamkey.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The CreateStreamKey API from Amazon Interactive Video Service — 1 operation(s) for createstreamkey.
   name: Amazon Interactive Video Service CreateStreamKey API
   slug: amazon-interactive-video-service-createstreamkey-api
-- description: The DeleteChannel API from Amazon Interactive Video Service — 1 operation(s) for deletechannel.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteChannel API from Amazon Interactive Video Service — 1 operation(s) for deletechannel.
   name: Amazon Interactive Video Service DeleteChannel API
   slug: amazon-interactive-video-service-deletechannel-api
-- description: The DeletePlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for deleteplaybackkeypair.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DeletePlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for deleteplaybackkeypair.
   name: Amazon Interactive Video Service DeletePlaybackKeyPair API
   slug: amazon-interactive-video-service-deleteplaybackkeypair-api
-- description: The DeleteRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for deleterecordingconfiguration.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for deleterecordingconfiguration.
   name: Amazon Interactive Video Service DeleteRecordingConfiguration API
   slug: amazon-interactive-video-service-deleterecordingconfiguration-api
-- description: The DeleteStreamKey API from Amazon Interactive Video Service — 1 operation(s) for deletestreamkey.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteStreamKey API from Amazon Interactive Video Service — 1 operation(s) for deletestreamkey.
   name: Amazon Interactive Video Service DeleteStreamKey API
   slug: amazon-interactive-video-service-deletestreamkey-api
-- description: The GetChannel API from Amazon Interactive Video Service — 1 operation(s) for getchannel.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetChannel API from Amazon Interactive Video Service — 1 operation(s) for getchannel.
   name: Amazon Interactive Video Service GetChannel API
   slug: amazon-interactive-video-service-getchannel-api
-- description: The GetPlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for getplaybackkeypair.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetPlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for getplaybackkeypair.
   name: Amazon Interactive Video Service GetPlaybackKeyPair API
   slug: amazon-interactive-video-service-getplaybackkeypair-api
-- description: The GetRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for getrecordingconfiguration.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetRecordingConfiguration API from Amazon Interactive Video Service — 1 operation(s) for getrecordingconfiguration.
   name: Amazon Interactive Video Service GetRecordingConfiguration API
   slug: amazon-interactive-video-service-getrecordingconfiguration-api
-- description: The GetStream API from Amazon Interactive Video Service — 1 operation(s) for getstream.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetStream API from Amazon Interactive Video Service — 1 operation(s) for getstream.
   name: Amazon Interactive Video Service GetStream API
   slug: amazon-interactive-video-service-getstream-api
-- description: The GetStreamKey API from Amazon Interactive Video Service — 1 operation(s) for getstreamkey.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetStreamKey API from Amazon Interactive Video Service — 1 operation(s) for getstreamkey.
   name: Amazon Interactive Video Service GetStreamKey API
   slug: amazon-interactive-video-service-getstreamkey-api
-- description: The GetStreamSession API from Amazon Interactive Video Service — 1 operation(s) for getstreamsession.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The GetStreamSession API from Amazon Interactive Video Service — 1 operation(s) for getstreamsession.
   name: Amazon Interactive Video Service GetStreamSession API
   slug: amazon-interactive-video-service-getstreamsession-api
-- description: The ImportPlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for importplaybackkeypair.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ImportPlaybackKeyPair API from Amazon Interactive Video Service — 1 operation(s) for importplaybackkeypair.
   name: Amazon Interactive Video Service ImportPlaybackKeyPair API
   slug: amazon-interactive-video-service-importplaybackkeypair-api
-- description: The ListChannels API from Amazon Interactive Video Service — 1 operation(s) for listchannels.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListChannels API from Amazon Interactive Video Service — 1 operation(s) for listchannels.
   name: Amazon Interactive Video Service ListChannels API
   slug: amazon-interactive-video-service-listchannels-api
-- description: The ListPlaybackKeyPairs API from Amazon Interactive Video Service — 1 operation(s) for listplaybackkeypairs.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListPlaybackKeyPairs API from Amazon Interactive Video Service — 1 operation(s) for listplaybackkeypairs.
   name: Amazon Interactive Video Service ListPlaybackKeyPairs API
   slug: amazon-interactive-video-service-listplaybackkeypairs-api
-- description: The ListRecordingConfigurations API from Amazon Interactive Video Service — 1 operation(s) for listrecordingconfigurations.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListRecordingConfigurations API from Amazon Interactive Video Service — 1 operation(s) for listrecordingconfigurations.
   name: Amazon Interactive Video Service ListRecordingConfigurations API
   slug: amazon-interactive-video-service-listrecordingconfigurations-api
-- description: The ListStreamKeys API from Amazon Interactive Video Service — 1 operation(s) for liststreamkeys.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListStreamKeys API from Amazon Interactive Video Service — 1 operation(s) for liststreamkeys.
   name: Amazon Interactive Video Service ListStreamKeys API
   slug: amazon-interactive-video-service-liststreamkeys-api
-- description: The ListStreams API from Amazon Interactive Video Service — 1 operation(s) for liststreams.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListStreams API from Amazon Interactive Video Service — 1 operation(s) for liststreams.
   name: Amazon Interactive Video Service ListStreams API
   slug: amazon-interactive-video-service-liststreams-api
-- description: The ListStreamSessions API from Amazon Interactive Video Service — 1 operation(s) for liststreamsessions.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ListStreamSessions API from Amazon Interactive Video Service — 1 operation(s) for liststreamsessions.
   name: Amazon Interactive Video Service ListStreamSessions API
   slug: amazon-interactive-video-service-liststreamsessions-api
-- description: The PutMetadata API from Amazon Interactive Video Service — 1 operation(s) for putmetadata.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The PutMetadata API from Amazon Interactive Video Service — 1 operation(s) for putmetadata.
   name: Amazon Interactive Video Service PutMetadata API
   slug: amazon-interactive-video-service-putmetadata-api
-- description: The StartViewerSessionRevocation API from Amazon Interactive Video Service — 1 operation(s) for startviewersessionrevocation.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The StartViewerSessionRevocation API from Amazon Interactive Video Service — 1 operation(s) for startviewersessionrevocation.
   name: Amazon Interactive Video Service StartViewerSessionRevocation API
   slug: amazon-interactive-video-service-startviewersessionrevocation-api
-- description: The StopStream API from Amazon Interactive Video Service — 1 operation(s) for stopstream.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The StopStream API from Amazon Interactive Video Service — 1 operation(s) for stopstream.
   name: Amazon Interactive Video Service StopStream API
   slug: amazon-interactive-video-service-stopstream-api
-- description: The Tags API from Amazon Interactive Video Service — 2 operation(s) for tags.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Interactive Video Service — 2 operation(s) for tags.
   name: Amazon Interactive Video Service Tags API
   slug: amazon-interactive-video-service-tags-api
-- description: The UpdateChannel API from Amazon Interactive Video Service — 1 operation(s) for updatechannel.
+- baseURL: https://ivs.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateChannel API from Amazon Interactive Video Service — 1 operation(s) for updatechannel.
   name: Amazon Interactive Video Service UpdateChannel API
   slug: amazon-interactive-video-service-updatechannel-api
 artifact_total: 419
@@ -1436,7 +1492,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/screenshots/amazon-interactive-video-service-2026-06-20T171714.png
 security:

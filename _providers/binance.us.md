@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,16 +35,20 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
   name: Binance.US REST API
   slug: rest-api
-- description: The Binance.US WebSocket API is a request/response API delivered over a persistent WebSocket connection at wss://ws-api.binance.us/ws-api/v3. It is functionally equivalent to the REST API — the same p
+- baseURL: wss://ws-api.binance.us/ws-api/v3
+  baseurl_source: declared
+  description: The Binance.US WebSocket API is a request/response API delivered over a persistent WebSocket connection at wss://ws-api.binance.us/ws-api/v3. It is functionally equivalent to the REST API — the same p
   name: Binance.US WebSocket API
   slug: websocket-api
-- description: Binance.US WebSocket Streams deliver real-time market data and account events over persistent WebSocket connections at wss://stream.binance.us:9443. Market data streams include aggregate trade, raw tr
+- baseURL: wss://stream.binance.us:9443
+  baseurl_source: declared
+  description: Binance.US WebSocket Streams deliver real-time market data and account events over persistent WebSocket connections at wss://stream.binance.us:9443. Market data streams include aggregate trade, raw tr
   name: Binance.US WebSocket Streams
   slug: websocket-streams
 artifact_total: 10
@@ -196,7 +212,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -206,7 +222,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 52.8
+  previous_composite: 52.6
   provenance:
     conformance: first-party
   regulatory:
@@ -216,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
 security:

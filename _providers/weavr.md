@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -43,169 +43,279 @@ agentic_access:
   summary_line: 257 operations · 187 acting · 5 human-in-the-loop
 api_count: 5
 apis:
-- description: Acquire a token granting you access to perform sensitive operations on behalf of an identity.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Acquire a token granting you access to perform sensitive operations on behalf of an identity.
   name: Weavr Access Token API
   slug: weavr-access-token-api
-- description: Acquire and revoke access tokens.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Acquire and revoke access tokens.
   name: Weavr Access Tokens API
   slug: weavr-access-tokens-api
-- description: The Accounts API from Weavr — 2 operation(s) for accounts.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Accounts API from Weavr — 2 operation(s) for accounts.
   name: Weavr Accounts API
   slug: weavr-accounts-api
-- description: The Additional Factors API from Weavr — 2 operation(s) for additional factors.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Additional Factors API from Weavr — 2 operation(s) for additional factors.
   name: Weavr Additional Factors API
   slug: weavr-additional-factors-api
-- description: Manage user authentication factors, including passwords and device-based factors (OTP and push).
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Manage user authentication factors, including passwords and device-based factors (OTP and push).
   name: Weavr Authentication Factors API
   slug: weavr-authentication-factors-api
-- description: Verify the email of root users who act as authorised signatories of a Corporate or Consumer identity.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Verify the email of root users who act as authorised signatories of a Corporate or Consumer identity.
   name: Weavr Authorised Signatories API
   slug: weavr-authorised-signatories-api
-- description: Corporate and Consumer identities can invite authorised users to access their account. Once on-boarded, authorised users can create and manage instruments and transactions on behalf of the identity th
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Corporate and Consumer identities can invite authorised users to access their account. Once on-boarded, authorised users can create and manage instruments and transactions on behalf of the identity th
   name: Weavr Authorised Users API
   slug: weavr-authorised-users-api
-- description: 'Buyers can invite authorised users to access their account. Once on-boarded, authorised users can transact on behalf of the identity they are on-boarded with. Authorised users are typically employees '
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: 'Buyers can invite authorised users to access their account. Once on-boarded, authorised users can transact on behalf of the identity they are on-boarded with. Authorised users are typically employees '
   name: Weavr Buyer Authorised Users API
   slug: weavr-buyer-authorised-users-api
-- description: Buyers are identities representing a business Once on-boarded, Buyers can create payment runs and pay their suppliers in your application.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Buyers are identities representing a business Once on-boarded, Buyers can create payment runs and pay their suppliers in your application.
   name: Weavr Buyers API
   slug: weavr-buyers-api
-- description: Retrieve card payment activity, including authorisations, settlements, and related events.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Retrieve card payment activity, including authorisations, settlements, and related events.
   name: Weavr Card Payments API
   slug: weavr-card-payments-api
-- description: The Cards API from Weavr — 7 operation(s) for cards.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Cards API from Weavr — 7 operation(s) for cards.
   name: Weavr Cards API
   slug: weavr-cards-api
-- description: Issue and verify confirmation challenges used to authorise lists of resources.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Issue and verify confirmation challenges used to authorise lists of resources.
   name: Weavr Confirmation Challenges API
   slug: weavr-confirmation-challenges-api
-- description: The Consumers API from Weavr — 3 operation(s) for consumers.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Consumers API from Weavr — 3 operation(s) for consumers.
   name: Weavr Consumers API
   slug: weavr-consumers-api
-- description: The Corporates API from Weavr — 3 operation(s) for corporates.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Corporates API from Weavr — 3 operation(s) for corporates.
   name: Weavr Corporates API
   slug: weavr-corporates-api
-- description: Correspondent bank transfers allow financial institutions to initiate wire transfers on behalf of originators (third parties). These transfers comply with travel rule requirements by capturing and tra
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Correspondent bank transfers allow financial institutions to initiate wire transfers on behalf of originators (third parties). These transfers comply with travel rule requirements by capturing and tra
   name: Weavr Correspondent Bank Transfers API
   slug: weavr-correspondent-bank-transfers-api
-- description: Manage customer profile data and KYC/KYB due diligence flows for corporates and consumers.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Manage customer profile data and KYC/KYB due diligence flows for corporates and consumers.
   name: Weavr Customer Data & Due Diligence API
   slug: weavr-customer-data-due-diligence-api
-- description: The Factors API from Weavr — 3 operation(s) for factors.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Factors API from Weavr — 3 operation(s) for factors.
   name: Weavr Factors API
   slug: weavr-factors-api
-- description: The Fees API from Weavr — 4 operation(s) for fees.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Fees API from Weavr — 4 operation(s) for fees.
   name: Weavr Fees API
   slug: weavr-fees-api
-- description: Incoming wire transfers received from external bank accounts to managed accounts with IBANs.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Incoming wire transfers received from external bank accounts to managed accounts with IBANs.
   name: Weavr Incoming Wire Transfers API
   slug: weavr-incoming-wire-transfers-api
-- description: Institutions supported by Embedded Payment Run.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Institutions supported by Embedded Payment Run.
   name: Weavr Institutions API
   slug: weavr-institutions-api
-- description: The Linked Accounts API from Weavr — 11 operation(s) for linked accounts.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Linked Accounts API from Weavr — 11 operation(s) for linked accounts.
   name: Weavr Linked Accounts API
   slug: weavr-linked-accounts-api
-- description: The Manage API from Weavr — 7 operation(s) for manage.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Manage API from Weavr — 7 operation(s) for manage.
   name: Weavr Manage API
   slug: weavr-manage-api
-- description: 'Managed Accounts are a type of financial instrument offered by Weavr. They hold funds for their owner, and can be upgraded to IBANs so as to receive and send funds to instruments outside of the Weavr '
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: 'Managed Accounts are a type of financial instrument offered by Weavr. They hold funds for their owner, and can be upgraded to IBANs so as to receive and send funds to instruments outside of the Weavr '
   name: Weavr Managed Accounts API
   slug: weavr-managed-accounts-api
-- description: Managed Cards are a type of financial instrument offered by Weavr. Cards created in prepaid mode have their own balance, whereas those created in debit mode tap into the balance of their parent Manage
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Managed Cards are a type of financial instrument offered by Weavr. Cards created in prepaid mode have their own balance, whereas those created in debit mode tap into the balance of their parent Manage
   name: Weavr Managed Cards API
   slug: weavr-managed-cards-api
-- description: The Operations API from Weavr — 9 operation(s) for operations.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Operations API from Weavr — 9 operation(s) for operations.
   name: Weavr Operations API
   slug: weavr-operations-api
-- description: The Outgoing Wire Transfer transaction is used to transfer funds from managed accounts to an external bank account.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Outgoing Wire Transfer transaction is used to transfer funds from managed accounts to an external bank account.
   name: Weavr Outgoing Wire Transfers API
   slug: weavr-outgoing-wire-transfers-api
-- description: The Passwords API from Weavr — 5 operation(s) for passwords.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Passwords API from Weavr — 5 operation(s) for passwords.
   name: Weavr Passwords API
   slug: weavr-passwords-api
-- description: A Payment run contains a list of supplier payments. A Payment run can be - created by a user with a `CREATOR` role - confirmed by a user with a `CONTROLLER` role - funded by a user with a `CONTROLLER`
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: A Payment run contains a list of supplier payments. A Payment run can be - created by a user with a `CREATOR` role - confirmed by a user with a `CONTROLLER` role - funded by a user with a `CONTROLLER`
   name: Weavr Payment runs API
   slug: weavr-payment-runs-api
-- description: The Roles API from Weavr — 1 operation(s) for roles.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Roles API from Weavr — 1 operation(s) for roles.
   name: Weavr Roles API
   slug: weavr-roles-api
-- description: The Send transaction is used to send funds between managed accounts and managed cards belonging to different identities.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Send transaction is used to send funds between managed accounts and managed cards belonging to different identities.
   name: Weavr Sends API
   slug: weavr-sends-api
-- description: Register and manage the lifecycle of users that can access an identity, including authorised users invited by a Corporate or Consumer root user.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Register and manage the lifecycle of users that can access an identity, including authorised users invited by a Corporate or Consumer root user.
   name: Weavr Setup API
   slug: weavr-setup-api
-- description: Sign users in using passwords, biometrics, or third-party auth providers.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Sign users in using passwords, biometrics, or third-party auth providers.
   name: Weavr Sign-in API
   slug: weavr-sign-in-api
-- description: Simulators enable you to trigger processes in Sandbox that in Production are triggered from an external action rather than from your application. this way you can test scenarios that otherwise you wou
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Simulators enable you to trigger processes in Sandbox that in Production are triggered from an external action rather than from your application. this way you can test scenarios that otherwise you wou
   name: Weavr Simulator API
   slug: weavr-simulator-api
-- description: The Simulator Linked accounts API from Weavr — 2 operation(s) for simulator linked accounts.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Simulator Linked accounts API from Weavr — 2 operation(s) for simulator linked accounts.
   name: Weavr Simulator Linked accounts API
   slug: weavr-simulator-linked-accounts-api
-- description: Manage spend rules and authorisation forwarding to approve or reject card payments in real time.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Manage spend rules and authorisation forwarding to approve or reject card payments in real time.
   name: Weavr Spend Controls API
   slug: weavr-spend-controls-api
-- description: The Step up API from Weavr — 2 operation(s) for step up.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Step up API from Weavr — 2 operation(s) for step up.
   name: Weavr Step up API
   slug: weavr-step-up-api
-- description: Issue and verify step-up challenges that elevate an existing user token.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Issue and verify step-up challenges that elevate an existing user token.
   name: Weavr Step-up Challenges API
   slug: weavr-step-up-challenges-api
-- description: The Tokens API from Weavr — 2 operation(s) for tokens.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Tokens API from Weavr — 2 operation(s) for tokens.
   name: Weavr Tokens API
   slug: weavr-tokens-api
-- description: Retrieve the consolidated transaction activity across instruments.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Retrieve the consolidated transaction activity across instruments.
   name: Weavr Transaction Activity API
   slug: weavr-transaction-activity-api
-- description: The Transfers API from Weavr — 3 operation(s) for transfers.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Transfers API from Weavr — 3 operation(s) for transfers.
   name: Weavr Transfers API
   slug: weavr-transfers-api
-- description: Manage a list of trusted payees for Outgoing wire transfers and Sends. Aside from convenience and a reduced chance of making errors when making transactions, this allows for the introduction an SCA ex
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Manage a list of trusted payees for Outgoing wire transfers and Sends. Aside from convenience and a reduced chance of making errors when making transactions, this allows for the introduction an SCA ex
   name: Weavr Trusted Payees API
   slug: weavr-trusted-payees-api
-- description: The User Impersonation API from Weavr — 1 operation(s) for user impersonation.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The User Impersonation API from Weavr — 1 operation(s) for user impersonation.
   name: Weavr User Impersonation API
   slug: weavr-user-impersonation-api
-- description: The Wiretransfers API from Weavr — 2 operation(s) for wiretransfers.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Wiretransfers API from Weavr — 2 operation(s) for wiretransfers.
   name: Weavr Wiretransfers API
   slug: weavr-wiretransfers-api
-- description: Notification of the Authentication Factors that are used for the `Identity`.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Notification of the Authentication Factors that are used for the `Identity`.
   name: Weavr Authentication Factors Webhooks API
   slug: weavr-authentication-factors-webhooks-api
-- description: The Bulk Operations API from Weavr — 0 operation(s) for bulk operations.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Bulk Operations API from Weavr — 0 operation(s) for bulk operations.
   name: Weavr Bulk Operations API
   slug: weavr-bulk-operations-api
-- description: Buyers are identities representing companies. Once on-boarded, Buyers can create and manage their own instruments via your application.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Buyers are identities representing companies. Once on-boarded, Buyers can create and manage their own instruments via your application.
   name: Weavr Buyers Webhooks API
   slug: weavr-buyers-webhooks-api
-- description: The Ibans API from Weavr — 0 operation(s) for ibans.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Ibans API from Weavr — 0 operation(s) for ibans.
   name: Weavr Ibans API
   slug: weavr-ibans-api
-- description: Notification that the status of a Linked Account has been updated.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Notification that the status of a Linked Account has been updated.
   name: Weavr Linked Accounts Webhooks API
   slug: weavr-linked-accounts-webhooks-api
-- description: The Login API from Weavr — 0 operation(s) for login.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Login API from Weavr — 0 operation(s) for login.
   name: Weavr Login API
   slug: weavr-login-api
-- description: The Manual Transactions API from Weavr — 0 operation(s) for manual transactions.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Manual Transactions API from Weavr — 0 operation(s) for manual transactions.
   name: Weavr Manual Transactions API
   slug: weavr-manual-transactions-api
-- description: Notification that the Payment Run and payment statuses have been updated.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Notification that the Payment Run and payment statuses have been updated.
   name: Weavr Payment runs Webhooks API
   slug: weavr-payment-runs-webhooks-api
-- description: The Stepup API from Weavr — 0 operation(s) for stepup.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: The Stepup API from Weavr — 0 operation(s) for stepup.
   name: Weavr Stepup API
   slug: weavr-stepup-api
-- description: Notification that a step-up has been completed or declined.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Notification that a step-up has been completed or declined.
   name: Weavr Stepup Webhooks API
   slug: weavr-stepup-webhooks-api
-- description: Tokens webhooks
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Tokens webhooks
   name: Weavr Tokens Webhooks API
   slug: weavr-tokens-webhooks-api
-- description: Notification that the status of a transaction has been updated.
+- baseURL: https://api.weavr.io/multi
+  baseurl_source: declared
+  description: Notification that the status of a transaction has been updated.
   name: Weavr Transactions Webhooks API
   slug: weavr-transactions-webhooks-api
 arazzos:
@@ -527,7 +637,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -537,7 +647,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 59.9
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -561,7 +671,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/screenshots/weavr-2026-08-17T082854.png
 security:

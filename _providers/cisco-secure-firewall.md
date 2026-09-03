@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,328 +46,544 @@ agentic_access:
   summary_line: 0 operations
 api_count: 14
 apis:
-- description: The Access Groups API from Cisco Secure Firewall — 2 operation(s) for access groups.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Access Groups API from Cisco Secure Firewall — 2 operation(s) for access groups.
   name: Cisco Secure Firewall Access Groups API
   slug: cisco-secure-firewall-access-groups-api
-- description: The Access Token API from Cisco Secure Firewall — 1 operation(s) for access token.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Access Token API from Cisco Secure Firewall — 1 operation(s) for access token.
   name: Cisco Secure Firewall Access Token API
   slug: cisco-secure-firewall-access-token-api
-- description: Action APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Action APIs
   name: Cisco Secure Firewall Action API
   slug: cisco-secure-firewall-action-api
-- description: The Adjacent Zone API from Cisco Secure Firewall — 4 operation(s) for adjacent zone.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Adjacent Zone API from Cisco Secure Firewall — 4 operation(s) for adjacent zone.
   name: Cisco Secure Firewall Adjacent Zone API
   slug: cisco-secure-firewall-adjacent-zone-api
-- description: The AI Assistant API from Cisco Secure Firewall — 3 operation(s) for ai assistant.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The AI Assistant API from Cisco Secure Firewall — 3 operation(s) for ai assistant.
   name: Cisco Secure Firewall AI Assistant API
   slug: cisco-secure-firewall-ai-assistant-api
-- description: The Analysis API from Cisco Secure Firewall — 3 operation(s) for analysis.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Analysis API from Cisco Secure Firewall — 3 operation(s) for analysis.
   name: Cisco Secure Firewall Analysis API
   slug: cisco-secure-firewall-analysis-api
-- description: The API Entitlement API from Cisco Secure Firewall — 5 operation(s) for api entitlement.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The API Entitlement API from Cisco Secure Firewall — 5 operation(s) for api entitlement.
   name: Cisco Secure Firewall API Entitlement API
   slug: cisco-secure-firewall-api-entitlement-api
-- description: The ApiKeys API from Cisco Secure Firewall — 2 operation(s) for apikeys.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The ApiKeys API from Cisco Secure Firewall — 2 operation(s) for apikeys.
   name: Cisco Secure Firewall API Keys API
   slug: cisco-secure-firewall-apikeys-api
-- description: The App Group API from Cisco Secure Firewall — 3 operation(s) for app group.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The App Group API from Cisco Secure Firewall — 3 operation(s) for app group.
   name: Cisco Secure Firewall App Group API
   slug: cisco-secure-firewall-app-group-api
-- description: The ASA Access Rules API from Cisco Secure Firewall — 2 operation(s) for asa access rules.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The ASA Access Rules API from Cisco Secure Firewall — 2 operation(s) for asa access rules.
   name: Cisco Secure Firewall ASA Access Rules API
   slug: cisco-secure-firewall-asa-access-rules-api
-- description: The Audit API from Cisco Secure Firewall — 3 operation(s) for audit.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Audit API from Cisco Secure Firewall — 3 operation(s) for audit.
   name: Cisco Secure Firewall Audit API
   slug: cisco-secure-firewall-audit-api
-- description: The Audit Logs API from Cisco Secure Firewall — 1 operation(s) for audit logs.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Audit Logs API from Cisco Secure Firewall — 1 operation(s) for audit logs.
   name: Cisco Secure Firewall Audit Logs API
   slug: cisco-secure-firewall-audit-logs-api
-- description: The Authentication API from Cisco Secure Firewall — 5 operation(s) for authentication.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Authentication API from Cisco Secure Firewall — 5 operation(s) for authentication.
   name: Cisco Secure Firewall Authentication API
   slug: cisco-secure-firewall-authentication-api
-- description: The AWS Client Credentials API from Cisco Secure Firewall — 1 operation(s) for aws client credentials.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The AWS Client Credentials API from Cisco Secure Firewall — 1 operation(s) for aws client credentials.
   name: Cisco Secure Firewall AWS Client Credentials API
   slug: cisco-secure-firewall-aws-client-credentials-api
-- description: The Backup API from Cisco Secure Firewall — 4 operation(s) for backup.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Backup API from Cisco Secure Firewall — 4 operation(s) for backup.
   name: Cisco Secure Firewall Backup API
   slug: cisco-secure-firewall-backup-api
-- description: The Change Management API from Cisco Secure Firewall — 4 operation(s) for change management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Change Management API from Cisco Secure Firewall — 4 operation(s) for change management.
   name: Cisco Secure Firewall Change Management API
   slug: cisco-secure-firewall-change-management-api
-- description: The Change Requests API from Cisco Secure Firewall — 2 operation(s) for change requests.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Change Requests API from Cisco Secure Firewall — 2 operation(s) for change requests.
   name: Cisco Secure Firewall Change Requests API
   slug: cisco-secure-firewall-change-requests-api
-- description: The Changelogs API from Cisco Secure Firewall — 2 operation(s) for changelogs.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Changelogs API from Cisco Secure Firewall — 2 operation(s) for changelogs.
   name: Cisco Secure Firewall Changelogs API
   slug: cisco-secure-firewall-changelogs-api
-- description: The Chassis API from Cisco Secure Firewall — 32 operation(s) for chassis.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Chassis API from Cisco Secure Firewall — 32 operation(s) for chassis.
   name: Cisco Secure Firewall Chassis API
   slug: cisco-secure-firewall-chassis-api
-- description: The Child Zone API from Cisco Secure Firewall — 2 operation(s) for child zone.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Child Zone API from Cisco Secure Firewall — 2 operation(s) for child zone.
   name: Cisco Secure Firewall Child Zone API
   slug: cisco-secure-firewall-child-zone-api
-- description: The Claim Code API from Cisco Secure Firewall — 3 operation(s) for claim code.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Claim Code API from Cisco Secure Firewall — 3 operation(s) for claim code.
   name: Cisco Secure Firewall Claim Code API
   slug: cisco-secure-firewall-claim-code-api
-- description: The Command Line Interface API from Cisco Secure Firewall — 6 operation(s) for command line interface.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Command Line Interface API from Cisco Secure Firewall — 6 operation(s) for command line interface.
   name: Cisco Secure Firewall Command Line Interface API
   slug: cisco-secure-firewall-command-line-interface-api
-- description: The Commands API from Cisco Secure Firewall — 3 operation(s) for commands.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Commands API from Cisco Secure Firewall — 3 operation(s) for commands.
   name: Cisco Secure Firewall Commands API
   slug: cisco-secure-firewall-commands-api
-- description: Configuration APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Configuration APIs
   name: Cisco Secure Firewall Config API
   slug: cisco-secure-firewall-config-api
-- description: The Connectors API from Cisco Secure Firewall — 2 operation(s) for connectors.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Connectors API from Cisco Secure Firewall — 2 operation(s) for connectors.
   name: Cisco Secure Firewall Connectors API
   slug: cisco-secure-firewall-connectors-api
-- description: Conversation APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Conversation APIs
   name: Cisco Secure Firewall Conversation API
   slug: cisco-secure-firewall-conversation-api
-- description: The Deployment API from Cisco Secure Firewall — 10 operation(s) for deployment.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Deployment API from Cisco Secure Firewall — 10 operation(s) for deployment.
   name: Cisco Secure Firewall Deployment API
   slug: cisco-secure-firewall-deployment-api
-- description: The Device Clusters API from Cisco Secure Firewall — 5 operation(s) for device clusters.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Device Clusters API from Cisco Secure Firewall — 5 operation(s) for device clusters.
   name: Cisco Secure Firewall Device Clusters API
   slug: cisco-secure-firewall-device-clusters-api
-- description: The Device Groups API from Cisco Secure Firewall — 2 operation(s) for device groups.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Device Groups API from Cisco Secure Firewall — 2 operation(s) for device groups.
   name: Cisco Secure Firewall Device Groups API
   slug: cisco-secure-firewall-device-groups-api
-- description: The Device HA Pairs API from Cisco Secure Firewall — 6 operation(s) for device ha pairs.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Device HA Pairs API from Cisco Secure Firewall — 6 operation(s) for device ha pairs.
   name: Cisco Secure Firewall Device HA Pairs API
   slug: cisco-secure-firewall-device-ha-pairs-api
-- description: The Device Health API from Cisco Secure Firewall — 2 operation(s) for device health.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Device Health API from Cisco Secure Firewall — 2 operation(s) for device health.
   name: Cisco Secure Firewall Device Health API
   slug: cisco-secure-firewall-device-health-api
-- description: The Device Upgrades API from Cisco Secure Firewall — 7 operation(s) for device upgrades.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Device Upgrades API from Cisco Secure Firewall — 7 operation(s) for device upgrades.
   name: Cisco Secure Firewall Device Upgrades API
   slug: cisco-secure-firewall-device-upgrades-api
-- description: The Devices API from Cisco Secure Firewall — 108 operation(s) for devices.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Devices API from Cisco Secure Firewall — 108 operation(s) for devices.
   name: Cisco Secure Firewall Devices API
   slug: cisco-secure-firewall-devices-api
-- description: The Domains and Identity providers API from Cisco Secure Firewall — 4 operation(s) for domains and identity providers.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Domains and Identity providers API from Cisco Secure Firewall — 4 operation(s) for domains and identity providers.
   name: Cisco Secure Firewall Domains and Identity providers API
   slug: cisco-secure-firewall-domains-and-identity-providers-api
-- description: The Dynamic Group API from Cisco Secure Firewall — 2 operation(s) for dynamic group.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Dynamic Group API from Cisco Secure Firewall — 2 operation(s) for dynamic group.
   name: Cisco Secure Firewall Dynamic Group API
   slug: cisco-secure-firewall-dynamic-group-api
-- description: The Endpoint Group API from Cisco Secure Firewall — 6 operation(s) for endpoint group.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Endpoint Group API from Cisco Secure Firewall — 6 operation(s) for endpoint group.
   name: Cisco Secure Firewall Endpoint Group API
   slug: cisco-secure-firewall-endpoint-group-api
-- description: The Enterprise API from Cisco Secure Firewall — 4 operation(s) for enterprise.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Enterprise API from Cisco Secure Firewall — 4 operation(s) for enterprise.
   name: Cisco Secure Firewall Enterprise API
   slug: cisco-secure-firewall-enterprise-api
-- description: Feedback APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Feedback APIs
   name: Cisco Secure Firewall Feedback API
   slug: cisco-secure-firewall-feedback-api
-- description: The Gateway API from Cisco Secure Firewall — 4 operation(s) for gateway.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Gateway API from Cisco Secure Firewall — 4 operation(s) for gateway.
   name: Cisco Secure Firewall Gateway API
   slug: cisco-secure-firewall-gateway-api
-- description: The Gateway Policy Optimization API from Cisco Secure Firewall — 2 operation(s) for gateway policy optimization.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Gateway Policy Optimization API from Cisco Secure Firewall — 2 operation(s) for gateway policy optimization.
   name: Cisco Secure Firewall Gateway Policy Optimization API
   slug: cisco-secure-firewall-gateway-policy-optimization-api
-- description: The Gateway Status API from Cisco Secure Firewall — 4 operation(s) for gateway status.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Gateway Status API from Cisco Secure Firewall — 4 operation(s) for gateway status.
   name: Cisco Secure Firewall Gateway Status API
   slug: cisco-secure-firewall-gateway-status-api
-- description: The Health API from Cisco Secure Firewall — 12 operation(s) for health.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Health API from Cisco Secure Firewall — 12 operation(s) for health.
   name: Cisco Secure Firewall Health API
   slug: cisco-secure-firewall-health-api
-- description: The Install Target API from Cisco Secure Firewall — 2 operation(s) for install target.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Install Target API from Cisco Secure Firewall — 2 operation(s) for install target.
   name: Cisco Secure Firewall Install Target API
   slug: cisco-secure-firewall-install-target-api
-- description: The Integration API from Cisco Secure Firewall — 21 operation(s) for integration.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Integration API from Cisco Secure Firewall — 21 operation(s) for integration.
   name: Cisco Secure Firewall Integration API
   slug: cisco-secure-firewall-integration-api
-- description: The Integration Health API from Cisco Secure Firewall — 1 operation(s) for integration health.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Integration Health API from Cisco Secure Firewall — 1 operation(s) for integration health.
   name: Cisco Secure Firewall Integration Health API
   slug: cisco-secure-firewall-integration-health-api
-- description: The Integrations API from Cisco Secure Firewall — 7 operation(s) for integrations.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Integrations API from Cisco Secure Firewall — 7 operation(s) for integrations.
   name: Cisco Secure Firewall Integrations API
   slug: cisco-secure-firewall-integrations-api
-- description: The Intelligence API from Cisco Secure Firewall — 13 operation(s) for intelligence.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Intelligence API from Cisco Secure Firewall — 13 operation(s) for intelligence.
   name: Cisco Secure Firewall Intelligence API
   slug: cisco-secure-firewall-intelligence-api
-- description: The Intermediary Manager API from Cisco Secure Firewall — 47 operation(s) for intermediary manager.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Intermediary Manager API from Cisco Secure Firewall — 47 operation(s) for intermediary manager.
   name: Cisco Secure Firewall Intermediary Manager API
   slug: cisco-secure-firewall-intermediary-manager-api
-- description: The Inventory API from Cisco Secure Firewall — 26 operation(s) for inventory.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Inventory API from Cisco Secure Firewall — 26 operation(s) for inventory.
   name: Cisco Secure Firewall Inventory API
   slug: cisco-secure-firewall-inventory-api
-- description: The License API from Cisco Secure Firewall — 3 operation(s) for license.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The License API from Cisco Secure Firewall — 3 operation(s) for license.
   name: Cisco Secure Firewall License API
   slug: cisco-secure-firewall-license-api
-- description: The ManageEntitlements API from Cisco Secure Firewall — 1 operation(s) for manageentitlements.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The ManageEntitlements API from Cisco Secure Firewall — 1 operation(s) for manageentitlements.
   name: Cisco Secure Firewall Manage Entitlements API
   slug: cisco-secure-firewall-manageentitlements-api
-- description: The Management Relationships API from Cisco Secure Firewall — 5 operation(s) for management relationships.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Management Relationships API from Cisco Secure Firewall — 5 operation(s) for management relationships.
   name: Cisco Secure Firewall Management Relationships API
   slug: cisco-secure-firewall-management-relationships-api
-- description: The Meta API from Cisco Secure Firewall — 3 operation(s) for meta.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Meta API from Cisco Secure Firewall — 3 operation(s) for meta.
   name: Cisco Secure Firewall Meta API
   slug: cisco-secure-firewall-meta-api
-- description: The MPM App API from Cisco Secure Firewall — 7 operation(s) for mpm app.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM App API from Cisco Secure Firewall — 7 operation(s) for mpm app.
   name: Cisco Secure Firewall MPM App API
   slug: cisco-secure-firewall-mpm-app-api
-- description: The MPM App Group API from Cisco Secure Firewall — 5 operation(s) for mpm app group.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM App Group API from Cisco Secure Firewall — 5 operation(s) for mpm app group.
   name: Cisco Secure Firewall MPM App Group API
   slug: cisco-secure-firewall-mpm-app-group-api
-- description: The MPM Changeset API from Cisco Secure Firewall — 5 operation(s) for mpm changeset.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Changeset API from Cisco Secure Firewall — 5 operation(s) for mpm changeset.
   name: Cisco Secure Firewall MPM Changeset API
   slug: cisco-secure-firewall-mpm-changeset-api
-- description: The MPM Changeset Rebase API from Cisco Secure Firewall — 1 operation(s) for mpm changeset rebase.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Changeset Rebase API from Cisco Secure Firewall — 1 operation(s) for mpm changeset rebase.
   name: Cisco Secure Firewall MPM Changeset Rebase API
   slug: cisco-secure-firewall-mpm-changeset-rebase-api
-- description: The MPM Changeset Validation API from Cisco Secure Firewall — 1 operation(s) for mpm changeset validation.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Changeset Validation API from Cisco Secure Firewall — 1 operation(s) for mpm changeset validation.
   name: Cisco Secure Firewall MPM Changeset Validation API
   slug: cisco-secure-firewall-mpm-changeset-validation-api
-- description: The MPM Endpoint API from Cisco Secure Firewall — 5 operation(s) for mpm endpoint.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Endpoint API from Cisco Secure Firewall — 5 operation(s) for mpm endpoint.
   name: Cisco Secure Firewall MPM Endpoint API
   slug: cisco-secure-firewall-mpm-endpoint-api
-- description: The MPM Endpoint Group API from Cisco Secure Firewall — 5 operation(s) for mpm endpoint group.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Endpoint Group API from Cisco Secure Firewall — 5 operation(s) for mpm endpoint group.
   name: Cisco Secure Firewall MPM Endpoint Group API
   slug: cisco-secure-firewall-mpm-endpoint-group-api
-- description: The MPM Entities Revision Diff API from Cisco Secure Firewall — 5 operation(s) for mpm entities revision diff.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Entities Revision Diff API from Cisco Secure Firewall — 5 operation(s) for mpm entities revision diff.
   name: Cisco Secure Firewall MPM Entities Revision Diff API
   slug: cisco-secure-firewall-mpm-entities-revision-diff-api
-- description: The MPM Manager API from Cisco Secure Firewall — 5 operation(s) for mpm manager.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Manager API from Cisco Secure Firewall — 5 operation(s) for mpm manager.
   name: Cisco Secure Firewall MPM Manager API
   slug: cisco-secure-firewall-mpm-manager-api
-- description: The MPM Policy API from Cisco Secure Firewall — 4 operation(s) for mpm policy.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Policy API from Cisco Secure Firewall — 4 operation(s) for mpm policy.
   name: Cisco Secure Firewall MPM Policy API
   slug: cisco-secure-firewall-mpm-policy-api
-- description: The MPM Policy Push API from Cisco Secure Firewall — 3 operation(s) for mpm policy push.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Policy Push API from Cisco Secure Firewall — 3 operation(s) for mpm policy push.
   name: Cisco Secure Firewall MPM Policy Push API
   slug: cisco-secure-firewall-mpm-policy-push-api
-- description: The MPM Revision API from Cisco Secure Firewall — 2 operation(s) for mpm revision.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Revision API from Cisco Secure Firewall — 2 operation(s) for mpm revision.
   name: Cisco Secure Firewall MPM Revision API
   slug: cisco-secure-firewall-mpm-revision-api
-- description: The MPM Rule API from Cisco Secure Firewall — 2 operation(s) for mpm rule.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Rule API from Cisco Secure Firewall — 2 operation(s) for mpm rule.
   name: Cisco Secure Firewall MPM Rule API
   slug: cisco-secure-firewall-mpm-rule-api
-- description: The MPM Search API from Cisco Secure Firewall — 8 operation(s) for mpm search.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MPM Search API from Cisco Secure Firewall — 8 operation(s) for mpm search.
   name: Cisco Secure Firewall MPM Search API
   slug: cisco-secure-firewall-mpm-search-api
-- description: The MSP API from Cisco Secure Firewall — 28 operation(s) for msp.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MSP API from Cisco Secure Firewall — 28 operation(s) for msp.
   name: Cisco Secure Firewall MSP API
   slug: cisco-secure-firewall-msp-api
-- description: The MSP Entitlements Management API from Cisco Secure Firewall — 2 operation(s) for msp entitlements management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MSP Entitlements Management API from Cisco Secure Firewall — 2 operation(s) for msp entitlements management.
   name: Cisco Secure Firewall MSP Entitlements Management API
   slug: cisco-secure-firewall-msp-entitlements-management-api
-- description: The MSP Organizations Management API from Cisco Secure Firewall — 1 operation(s) for msp organizations management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The MSP Organizations Management API from Cisco Secure Firewall — 1 operation(s) for msp organizations management.
   name: Cisco Secure Firewall MSP Organizations Management API
   slug: cisco-secure-firewall-msp-organizations-management-api
-- description: The Network Map API from Cisco Secure Firewall — 4 operation(s) for network map.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Network Map API from Cisco Secure Firewall — 4 operation(s) for network map.
   name: Cisco Secure Firewall Network Map API
   slug: cisco-secure-firewall-network-map-api
-- description: Notification APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Notification APIs
   name: Cisco Secure Firewall Notification API
   slug: cisco-secure-firewall-notification-api
-- description: The Object API from Cisco Secure Firewall — 262 operation(s) for object.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Object API from Cisco Secure Firewall — 262 operation(s) for object.
   name: Cisco Secure Firewall Object API
   slug: cisco-secure-firewall-object-api
-- description: The Object Management API from Cisco Secure Firewall — 7 operation(s) for object management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Object Management API from Cisco Secure Firewall — 7 operation(s) for object management.
   name: Cisco Secure Firewall Object Management API
   slug: cisco-secure-firewall-object-management-api
-- description: The Org creation API from Cisco Secure Firewall — 5 operation(s) for org creation.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Org creation API from Cisco Secure Firewall — 5 operation(s) for org creation.
   name: Cisco Secure Firewall Org creation API
   slug: cisco-secure-firewall-org-creation-api
-- description: The Policy API from Cisco Secure Firewall — 164 operation(s) for policy.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy API from Cisco Secure Firewall — 164 operation(s) for policy.
   name: Cisco Secure Firewall Policy API
   slug: cisco-secure-firewall-policy-api
-- description: The Policy Assignments API from Cisco Secure Firewall — 2 operation(s) for policy assignments.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy Assignments API from Cisco Secure Firewall — 2 operation(s) for policy assignments.
   name: Cisco Secure Firewall Policy Assignments API
   slug: cisco-secure-firewall-policy-assignments-api
-- description: The Policy Based Access Control Privilege API from Cisco Secure Firewall — 6 operation(s) for policy based access control privilege.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy Based Access Control Privilege API from Cisco Secure Firewall — 6 operation(s) for policy based access control privilege.
   name: Cisco Secure Firewall Policy Based Access Control Privilege API
   slug: cisco-secure-firewall-policy-based-access-control-privilege-api
-- description: The Policy Based Access Control Role API from Cisco Secure Firewall — 2 operation(s) for policy based access control role.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy Based Access Control Role API from Cisco Secure Firewall — 2 operation(s) for policy based access control role.
   name: Cisco Secure Firewall Policy Based Access Control Role API
   slug: cisco-secure-firewall-policy-based-access-control-role-api
-- description: The Policy Based Access Control User API from Cisco Secure Firewall — 4 operation(s) for policy based access control user.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy Based Access Control User API from Cisco Secure Firewall — 4 operation(s) for policy based access control user.
   name: Cisco Secure Firewall Policy Based Access Control User API
   slug: cisco-secure-firewall-policy-based-access-control-user-api
-- description: The Policy Import Service API from Cisco Secure Firewall — 2 operation(s) for policy import service.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Policy Import Service API from Cisco Secure Firewall — 2 operation(s) for policy import service.
   name: Cisco Secure Firewall Policy Import Service API
   slug: cisco-secure-firewall-policy-import-service-api
-- description: The Product Instance API from Cisco Secure Firewall — 3 operation(s) for product instance.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Product Instance API from Cisco Secure Firewall — 3 operation(s) for product instance.
   name: Cisco Secure Firewall Product Instance API
   slug: cisco-secure-firewall-product-instance-api
-- description: The Provision API from Cisco Secure Firewall — 2 operation(s) for provision.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Provision API from Cisco Secure Firewall — 2 operation(s) for provision.
   name: Cisco Secure Firewall Provision API
   slug: cisco-secure-firewall-provision-api
-- description: The RBAC API from Cisco Secure Firewall — 3 operation(s) for rbac.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The RBAC API from Cisco Secure Firewall — 3 operation(s) for rbac.
   name: Cisco Secure Firewall RBAC API
   slug: cisco-secure-firewall-rbac-api
-- description: The Remote Access Monitoring API from Cisco Secure Firewall — 7 operation(s) for remote access monitoring.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Remote Access Monitoring API from Cisco Secure Firewall — 7 operation(s) for remote access monitoring.
   name: Cisco Secure Firewall Remote Access Monitoring API
   slug: cisco-secure-firewall-remote-access-monitoring-api
-- description: The Request API from Cisco Secure Firewall — 12 operation(s) for request.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Request API from Cisco Secure Firewall — 12 operation(s) for request.
   name: Cisco Secure Firewall Request API
   slug: cisco-secure-firewall-request-api
-- description: The Search API from Cisco Secure Firewall — 6 operation(s) for search.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Search API from Cisco Secure Firewall — 6 operation(s) for search.
   name: Cisco Secure Firewall Search API
   slug: cisco-secure-firewall-search-api
-- description: The Status API from Cisco Secure Firewall — 3 operation(s) for status.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Status API from Cisco Secure Firewall — 3 operation(s) for status.
   name: Cisco Secure Firewall Status API
   slug: cisco-secure-firewall-status-api
-- description: The Support API from Cisco Secure Firewall — 14 operation(s) for support.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Support API from Cisco Secure Firewall — 14 operation(s) for support.
   name: Cisco Secure Firewall Support API
   slug: cisco-secure-firewall-support-api
-- description: The System Configuration API from Cisco Secure Firewall — 2 operation(s) for system configuration.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The System Configuration API from Cisco Secure Firewall — 2 operation(s) for system configuration.
   name: Cisco Secure Firewall System Configuration API
   slug: cisco-secure-firewall-system-configuration-api
-- description: The System Info API from Cisco Secure Firewall — 2 operation(s) for system info.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The System Info API from Cisco Secure Firewall — 2 operation(s) for system info.
   name: Cisco Secure Firewall System Info API
   slug: cisco-secure-firewall-system-info-api
-- description: The System Information API from Cisco Secure Firewall — 4 operation(s) for system information.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The System Information API from Cisco Secure Firewall — 4 operation(s) for system information.
   name: Cisco Secure Firewall System Information API
   slug: cisco-secure-firewall-system-information-api
-- description: The Templates API from Cisco Secure Firewall — 17 operation(s) for templates.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Templates API from Cisco Secure Firewall — 17 operation(s) for templates.
   name: Cisco Secure Firewall Templates API
   slug: cisco-secure-firewall-templates-api
-- description: The Tenant Management API from Cisco Secure Firewall — 4 operation(s) for tenant management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Tenant Management API from Cisco Secure Firewall — 4 operation(s) for tenant management.
   name: Cisco Secure Firewall Tenant Management API
   slug: cisco-secure-firewall-tenant-management-api
-- description: The Terminal Zone API from Cisco Secure Firewall — 2 operation(s) for terminal zone.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Terminal Zone API from Cisco Secure Firewall — 2 operation(s) for terminal zone.
   name: Cisco Secure Firewall Terminal Zone API
   slug: cisco-secure-firewall-terminal-zone-api
-- description: The Topology Tag API from Cisco Secure Firewall — 1 operation(s) for topology tag.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Topology Tag API from Cisco Secure Firewall — 1 operation(s) for topology tag.
   name: Cisco Secure Firewall Topology Tag API
   slug: cisco-secure-firewall-topology-tag-api
-- description: The Topology Tag Key API from Cisco Secure Firewall — 1 operation(s) for topology tag key.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Topology Tag Key API from Cisco Secure Firewall — 1 operation(s) for topology tag key.
   name: Cisco Secure Firewall Topology Tag Key API
   slug: cisco-secure-firewall-topology-tag-key-api
-- description: The Transactions API from Cisco Secure Firewall — 1 operation(s) for transactions.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Transactions API from Cisco Secure Firewall — 1 operation(s) for transactions.
   name: Cisco Secure Firewall Transactions API
   slug: cisco-secure-firewall-transactions-api
-- description: The Troubleshoot API from Cisco Secure Firewall — 12 operation(s) for troubleshoot.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Troubleshoot API from Cisco Secure Firewall — 12 operation(s) for troubleshoot.
   name: Cisco Secure Firewall Troubleshoot API
   slug: cisco-secure-firewall-troubleshoot-api
-- description: The Updates API from Cisco Secure Firewall — 7 operation(s) for updates.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Updates API from Cisco Secure Firewall — 7 operation(s) for updates.
   name: Cisco Secure Firewall Updates API
   slug: cisco-secure-firewall-updates-api
-- description: Usage APIs
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: Usage APIs
   name: Cisco Secure Firewall Usage API
   slug: cisco-secure-firewall-usage-api
-- description: The User group management API from Cisco Secure Firewall — 4 operation(s) for user group management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The User group management API from Cisco Secure Firewall — 4 operation(s) for user group management.
   name: Cisco Secure Firewall User group management API
   slug: cisco-secure-firewall-user-group-management-api
-- description: The User Management API from Cisco Secure Firewall — 3 operation(s) for user management.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The User Management API from Cisco Secure Firewall — 3 operation(s) for user management.
   name: Cisco Secure Firewall User Management API
   slug: cisco-secure-firewall-user-management-api
-- description: The Users API from Cisco Secure Firewall — 13 operation(s) for users.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Users API from Cisco Secure Firewall — 13 operation(s) for users.
   name: Cisco Secure Firewall Users API
   slug: cisco-secure-firewall-users-api
-- description: The Zone Address API from Cisco Secure Firewall — 2 operation(s) for zone address.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Zone Address API from Cisco Secure Firewall — 2 operation(s) for zone address.
   name: Cisco Secure Firewall Zone Address API
   slug: cisco-secure-firewall-zone-address-api
-- description: The Zone API from Cisco Secure Firewall — 5 operation(s) for zone.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Zone API from Cisco Secure Firewall — 5 operation(s) for zone.
   name: Cisco Secure Firewall Zone API
   slug: cisco-secure-firewall-zone-api
-- description: The Zone Path API from Cisco Secure Firewall — 5 operation(s) for zone path.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Zone Path API from Cisco Secure Firewall — 5 operation(s) for zone path.
   name: Cisco Secure Firewall Zone Path API
   slug: cisco-secure-firewall-zone-path-api
-- description: The Zone Tag API from Cisco Secure Firewall — 2 operation(s) for zone tag.
+- baseURL: https://api.us.security.cisco.com/firewall
+  baseurl_source: declared
+  description: The Zone Tag API from Cisco Secure Firewall — 2 operation(s) for zone tag.
   name: Cisco Secure Firewall Zone Tag API
   slug: cisco-secure-firewall-zone-tag-api
 artifact_total: 116
@@ -567,20 +796,20 @@ rate_limits:
   slug: cisco-secure-firewall-rate-limits
 score:
   band: strong
-  composite: 56.3
+  composite: 54.9
   coverage:
-    artifact_dirs: 21
-    catalog_gap: 78.0
+    artifact_dirs: 22
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 53.6
+    contract_quality: 55.4
     developer_ergonomics: 78.0
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 18.2
     operational_transparency: 52.6
   previous_composite: 56.3
@@ -605,8 +834,9 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-firewall/refs/heads/main/screenshots/cisco-secure-firewall-2026-09-02T145045.png
 security:
 - kind: authentication
   name: Cisco Secure Firewall Authentication

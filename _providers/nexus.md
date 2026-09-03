@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,28 +48,44 @@ apis:
 - description: Comprehensive REST API for managing repositories, components, assets, search, security, blob stores, capabilities, tasks, tags, staging, and scripts in Sonatype Nexus Repository Manager 3. The full Op
   name: Nexus Repository Manager REST API
   slug: nexus-rest-api
-- description: The Assets API from Nexus Repository Manager — 2 operation(s) for assets.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Assets API from Nexus Repository Manager — 2 operation(s) for assets.
   name: Nexus Repository Manager Assets API
   slug: nexus-assets-api
-- description: The BlobStores API from Nexus Repository Manager — 1 operation(s) for blobstores.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The BlobStores API from Nexus Repository Manager — 1 operation(s) for blobstores.
   name: Nexus Repository Manager BlobStores API
   slug: nexus-blobstores-api
-- description: The Components API from Nexus Repository Manager — 2 operation(s) for components.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Components API from Nexus Repository Manager — 2 operation(s) for components.
   name: Nexus Repository Manager Components API
   slug: nexus-components-api
-- description: The Repositories API from Nexus Repository Manager — 2 operation(s) for repositories.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Repositories API from Nexus Repository Manager — 2 operation(s) for repositories.
   name: Nexus Repository Manager Repositories API
   slug: nexus-repositories-api
-- description: The Search API from Nexus Repository Manager — 2 operation(s) for search.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Search API from Nexus Repository Manager — 2 operation(s) for search.
   name: Nexus Repository Manager Search API
   slug: nexus-search-api
-- description: The Security API from Nexus Repository Manager — 2 operation(s) for security.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Security API from Nexus Repository Manager — 2 operation(s) for security.
   name: Nexus Repository Manager Security API
   slug: nexus-security-api
-- description: The Status API from Nexus Repository Manager — 1 operation(s) for status.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Status API from Nexus Repository Manager — 1 operation(s) for status.
   name: Nexus Repository Manager Status API
   slug: nexus-status-api
-- description: The Tasks API from Nexus Repository Manager — 1 operation(s) for tasks.
+- baseURL: https://your-nexus-instance.example.com/service/rest
+  baseurl_source: declared
+  description: The Tasks API from Nexus Repository Manager — 1 operation(s) for tasks.
   name: Nexus Repository Manager Tasks API
   slug: nexus-tasks-api
 artifact_total: 25
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/screenshots/nexus-2026-06-20T190305.png
 security:

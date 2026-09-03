@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: The official Python client for TiKV supporting raw and transactional key-value operations.
   name: TiKV Python Client
   slug: tikv-client-python
-- description: TiKV node configuration management
+- baseURL: http://localhost:20160
+  baseurl_source: declared
+  description: TiKV node configuration management
   name: TiKV Configuration API
   slug: tikv-configuration-api
-- description: Debug and diagnostic endpoints
+- baseURL: http://localhost:20160
+  baseurl_source: declared
+  description: Debug and diagnostic endpoints
   name: TiKV Debug API
   slug: tikv-debug-api
-- description: Prometheus metrics endpoint
+- baseURL: http://localhost:20160
+  baseurl_source: declared
+  description: Prometheus metrics endpoint
   name: TiKV Metrics API
   slug: tikv-metrics-api
-- description: Region management and inspection
+- baseURL: http://localhost:20160
+  baseurl_source: declared
+  description: Region management and inspection
   name: TiKV Regions API
   slug: tikv-regions-api
-- description: Node status and health
+- baseURL: http://localhost:20160
+  baseurl_source: declared
+  description: Node status and health
   name: TiKV Status API
   slug: tikv-status-api
 artifact_total: 27
@@ -291,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png
 security:

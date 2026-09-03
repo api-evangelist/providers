@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Obtain and revoke bearer tokens.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Obtain and revoke bearer tokens.
   name: Knowi Authentication API
   slug: knowi-authentication-api
-- description: Manage dashboards and shared URLs.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Manage dashboards and shared URLs.
   name: Knowi Dashboards API
   slug: knowi-dashboards-api
-- description: Manage user groups.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Manage user groups.
   name: Knowi Groups API
   slug: knowi-groups-api
-- description: Retrieve dataset contents.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Retrieve dataset contents.
   name: Knowi Pull API
   slug: knowi-pull-api
-- description: Send data to Knowi datasets in real time.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Send data to Knowi datasets in real time.
   name: Knowi Push API
   slug: knowi-push-api
-- description: Manage workspace users.
+- baseURL: https://knowi.com/api/1.0
+  baseurl_source: spec
+  description: Manage workspace users.
   name: Knowi Users API
   slug: knowi-users-api
 artifact_total: 22
@@ -200,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knowi/refs/heads/main/screenshots/knowi-2026-06-20T184113.png
 security:

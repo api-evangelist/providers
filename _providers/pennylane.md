@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -45,61 +45,99 @@ agentic_access:
   summary_line: 46 operations · 27 acting
 api_count: 1
 apis:
-- description: The Account API from Pennylane — 1 operation(s) for account.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Account API from Pennylane — 1 operation(s) for account.
   name: Pennylane Account API
   slug: pennylane-account-api
-- description: The Accounting Exports API from Pennylane — 2 operation(s) for accounting exports.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Accounting Exports API from Pennylane — 2 operation(s) for accounting exports.
   name: Pennylane Accounting Exports API
   slug: pennylane-accounting-exports-api
-- description: The Bank Accounts API from Pennylane — 2 operation(s) for bank accounts.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Bank Accounts API from Pennylane — 2 operation(s) for bank accounts.
   name: Pennylane Bank Accounts API
   slug: pennylane-bank-accounts-api
-- description: The Billing Subscriptions API from Pennylane — 1 operation(s) for billing subscriptions.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Billing Subscriptions API from Pennylane — 1 operation(s) for billing subscriptions.
   name: Pennylane Billing Subscriptions API
   slug: pennylane-billing-subscriptions-api
-- description: The Categories API from Pennylane — 2 operation(s) for categories.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Categories API from Pennylane — 2 operation(s) for categories.
   name: Pennylane Categories API
   slug: pennylane-categories-api
-- description: The Change Events API from Pennylane — 2 operation(s) for change events.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Change Events API from Pennylane — 2 operation(s) for change events.
   name: Pennylane Change Events API
   slug: pennylane-change-events-api
-- description: The Customer Invoices API from Pennylane — 7 operation(s) for customer invoices.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Customer Invoices API from Pennylane — 7 operation(s) for customer invoices.
   name: Pennylane Customer Invoices API
   slug: pennylane-customer-invoices-api
-- description: The Customers API from Pennylane — 4 operation(s) for customers.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Customers API from Pennylane — 4 operation(s) for customers.
   name: Pennylane Customers API
   slug: pennylane-customers-api
-- description: The E-Invoicing API from Pennylane — 1 operation(s) for e-invoicing.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The E-Invoicing API from Pennylane — 1 operation(s) for e-invoicing.
   name: Pennylane E-Invoicing API
   slug: pennylane-e-invoicing-api
-- description: The File Attachments API from Pennylane — 1 operation(s) for file attachments.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The File Attachments API from Pennylane — 1 operation(s) for file attachments.
   name: Pennylane File Attachments API
   slug: pennylane-file-attachments-api
-- description: The Journals API from Pennylane — 2 operation(s) for journals.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Journals API from Pennylane — 2 operation(s) for journals.
   name: Pennylane Journals API
   slug: pennylane-journals-api
-- description: The Ledger Accounts API from Pennylane — 2 operation(s) for ledger accounts.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Ledger Accounts API from Pennylane — 2 operation(s) for ledger accounts.
   name: Pennylane Ledger Accounts API
   slug: pennylane-ledger-accounts-api
-- description: The Ledger Entries API from Pennylane — 4 operation(s) for ledger entries.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Ledger Entries API from Pennylane — 4 operation(s) for ledger entries.
   name: Pennylane Ledger Entries API
   slug: pennylane-ledger-entries-api
-- description: The Mandates API from Pennylane — 2 operation(s) for mandates.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Mandates API from Pennylane — 2 operation(s) for mandates.
   name: Pennylane Mandates API
   slug: pennylane-mandates-api
-- description: The Products API from Pennylane — 2 operation(s) for products.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Products API from Pennylane — 2 operation(s) for products.
   name: Pennylane Products API
   slug: pennylane-products-api
-- description: The Quotes API from Pennylane — 2 operation(s) for quotes.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Quotes API from Pennylane — 2 operation(s) for quotes.
   name: Pennylane Quotes API
   slug: pennylane-quotes-api
-- description: The Supplier Invoices API from Pennylane — 4 operation(s) for supplier invoices.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Supplier Invoices API from Pennylane — 4 operation(s) for supplier invoices.
   name: Pennylane Supplier Invoices API
   slug: pennylane-supplier-invoices-api
-- description: The Suppliers API from Pennylane — 2 operation(s) for suppliers.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Suppliers API from Pennylane — 2 operation(s) for suppliers.
   name: Pennylane Suppliers API
   slug: pennylane-suppliers-api
-- description: The Transactions API from Pennylane — 2 operation(s) for transactions.
+- baseURL: https://app.pennylane.com/api/external/v2
+  baseurl_source: declared
+  description: The Transactions API from Pennylane — 2 operation(s) for transactions.
   name: Pennylane Transactions API
   slug: pennylane-transactions-api
 artifact_total: 68
@@ -456,7 +494,7 @@ score:
     regime_id: banking_open_finance
     score: 64.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
 security:

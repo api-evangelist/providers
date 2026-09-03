@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -108,148 +108,244 @@ apis:
 - description: The ACC Takeoff API provides access to takeoff items, types, and classification systems, enabling extraction of quantity data, management of packages, and integration of takeoff data with estimating t
   name: Autodesk ACC Takeoff API
   slug: acc-takeoff-api
-- description: The Account Users API from Autodesk — 1 operation(s) for account users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Account Users API from Autodesk — 1 operation(s) for account users.
   name: Autodesk Account Users API
   slug: autodesk-account-users-api
-- description: The Activities API from Autodesk — 5 operation(s) for activities.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Activities API from Autodesk — 5 operation(s) for activities.
   name: Autodesk Activities API
   slug: autodesk-activities-api
-- description: The Admin API from Autodesk — 2 operation(s) for admin.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Admin API from Autodesk — 2 operation(s) for admin.
   name: Autodesk Admin API
   slug: autodesk-admin-api
-- description: The AppBundles API from Autodesk — 5 operation(s) for appbundles.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The AppBundles API from Autodesk — 5 operation(s) for appbundles.
   name: Autodesk AppBundles API
   slug: autodesk-appbundles-api
-- description: The Authorization API from Autodesk — 2 operation(s) for authorization.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Authorization API from Autodesk — 2 operation(s) for authorization.
   name: Autodesk Authorization API
   slug: autodesk-authorization-api
-- description: The Calculations API from Autodesk — 1 operation(s) for calculations.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Calculations API from Autodesk — 1 operation(s) for calculations.
   name: Autodesk Calculations API
   slug: autodesk-calculations-api
-- description: The Collections API from Autodesk — 2 operation(s) for collections.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Collections API from Autodesk — 2 operation(s) for collections.
   name: Autodesk Collections API
   slug: autodesk-collections-api
-- description: The Companies API from Autodesk — 1 operation(s) for companies.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Companies API from Autodesk — 1 operation(s) for companies.
   name: Autodesk Companies API
   slug: autodesk-companies-api
-- description: The Datasets API from Autodesk — 2 operation(s) for datasets.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Datasets API from Autodesk — 2 operation(s) for datasets.
   name: Autodesk Datasets API
   slug: autodesk-datasets-api
-- description: The Derivatives API from Autodesk — 1 operation(s) for derivatives.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Derivatives API from Autodesk — 1 operation(s) for derivatives.
   name: Autodesk Derivatives API
   slug: autodesk-derivatives-api
-- description: The Elements API from Autodesk — 3 operation(s) for elements.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Elements API from Autodesk — 3 operation(s) for elements.
   name: Autodesk Elements API
   slug: autodesk-elements-api
-- description: The Engines API from Autodesk — 2 operation(s) for engines.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Engines API from Autodesk — 2 operation(s) for engines.
   name: Autodesk Engines API
   slug: autodesk-engines-api
-- description: The Files API from Autodesk — 1 operation(s) for files.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Files API from Autodesk — 1 operation(s) for files.
   name: Autodesk Files API
   slug: autodesk-files-api
-- description: The Folders API from Autodesk — 4 operation(s) for folders.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Folders API from Autodesk — 4 operation(s) for folders.
   name: Autodesk Folders API
   slug: autodesk-folders-api
-- description: The Forge Apps API from Autodesk — 1 operation(s) for forge apps.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Forge Apps API from Autodesk — 1 operation(s) for forge apps.
   name: Autodesk Forge Apps API
   slug: autodesk-forge-apps-api
-- description: The Graphs API from Autodesk — 2 operation(s) for graphs.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Graphs API from Autodesk — 2 operation(s) for graphs.
   name: Autodesk Graphs API
   slug: autodesk-graphs-api
-- description: The Groups API from Autodesk — 3 operation(s) for groups.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Groups API from Autodesk — 3 operation(s) for groups.
   name: Autodesk Groups API
   slug: autodesk-groups-api
-- description: The Hooks API from Autodesk — 3 operation(s) for hooks.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Hooks API from Autodesk — 3 operation(s) for hooks.
   name: Autodesk Hooks API
   slug: autodesk-hooks-api
-- description: The Hubs API from Autodesk — 2 operation(s) for hubs.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Hubs API from Autodesk — 2 operation(s) for hubs.
   name: Autodesk Hubs API
   slug: autodesk-hubs-api
-- description: The Industry Roles API from Autodesk — 1 operation(s) for industry roles.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Industry Roles API from Autodesk — 1 operation(s) for industry roles.
   name: Autodesk Industry Roles API
   slug: autodesk-industry-roles-api
-- description: The Informational API from Autodesk — 1 operation(s) for informational.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Informational API from Autodesk — 1 operation(s) for informational.
   name: Autodesk Informational API
   slug: autodesk-informational-api
-- description: The Issues API from Autodesk — 4 operation(s) for issues.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issues API from Autodesk — 4 operation(s) for issues.
   name: Autodesk Issues API
   slug: autodesk-issues-api
-- description: The Items API from Autodesk — 2 operation(s) for items.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Items API from Autodesk — 2 operation(s) for items.
   name: Autodesk Items API
   slug: autodesk-items-api
-- description: The Jobs API from Autodesk — 4 operation(s) for jobs.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Jobs API from Autodesk — 4 operation(s) for jobs.
   name: Autodesk Jobs API
   slug: autodesk-jobs-api
-- description: The Keys API from Autodesk — 1 operation(s) for keys.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Keys API from Autodesk — 1 operation(s) for keys.
   name: Autodesk Keys API
   slug: autodesk-keys-api
-- description: The Manifest API from Autodesk — 1 operation(s) for manifest.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Manifest API from Autodesk — 1 operation(s) for manifest.
   name: Autodesk Manifest API
   slug: autodesk-manifest-api
-- description: The Metadata API from Autodesk — 8 operation(s) for metadata.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Metadata API from Autodesk — 8 operation(s) for metadata.
   name: Autodesk Metadata API
   slug: autodesk-metadata-api
-- description: The Models API from Autodesk — 1 operation(s) for models.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Models API from Autodesk — 1 operation(s) for models.
   name: Autodesk Models API
   slug: autodesk-models-api
-- description: The Object Storage Service API from Autodesk — 6 operation(s) for object storage service.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Object Storage Service API from Autodesk — 6 operation(s) for object storage service.
   name: Autodesk Object Storage Service API
   slug: autodesk-object-storage-service-api
-- description: The Parameters API from Autodesk — 2 operation(s) for parameters.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Parameters API from Autodesk — 2 operation(s) for parameters.
   name: Autodesk Parameters API
   slug: autodesk-parameters-api
-- description: The Photoscenes API from Autodesk — 3 operation(s) for photoscenes.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Photoscenes API from Autodesk — 3 operation(s) for photoscenes.
   name: Autodesk Photoscenes API
   slug: autodesk-photoscenes-api
-- description: The Processing API from Autodesk — 1 operation(s) for processing.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Processing API from Autodesk — 1 operation(s) for processing.
   name: Autodesk Processing API
   slug: autodesk-processing-api
-- description: The Project Users API from Autodesk — 2 operation(s) for project users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Project Users API from Autodesk — 2 operation(s) for project users.
   name: Autodesk Project Users API
   slug: autodesk-project-users-api
-- description: The Projects API from Autodesk — 5 operation(s) for projects.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Projects API from Autodesk — 5 operation(s) for projects.
   name: Autodesk Projects API
   slug: autodesk-projects-api
-- description: The Records API from Autodesk — 2 operation(s) for records.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Records API from Autodesk — 2 operation(s) for records.
   name: Autodesk Records API
   slug: autodesk-records-api
-- description: The Results API from Autodesk — 1 operation(s) for results.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Results API from Autodesk — 1 operation(s) for results.
   name: Autodesk Results API
   slug: autodesk-results-api
-- description: The RFIs API from Autodesk — 1 operation(s) for rfis.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The RFIs API from Autodesk — 1 operation(s) for rfis.
   name: Autodesk RFIs API
   slug: autodesk-rfis-api
-- description: The Schema API from Autodesk — 1 operation(s) for schema.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Schema API from Autodesk — 1 operation(s) for schema.
   name: Autodesk Schema API
   slug: autodesk-schema-api
-- description: The Service Limits API from Autodesk — 1 operation(s) for service limits.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Service Limits API from Autodesk — 1 operation(s) for service limits.
   name: Autodesk Service Limits API
   slug: autodesk-service-limits-api
-- description: The Streams API from Autodesk — 2 operation(s) for streams.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Streams API from Autodesk — 2 operation(s) for streams.
   name: Autodesk Streams API
   slug: autodesk-streams-api
-- description: The Systems API from Autodesk — 2 operation(s) for systems.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Systems API from Autodesk — 2 operation(s) for systems.
   name: Autodesk Systems API
   slug: autodesk-systems-api
-- description: The Thumbnails API from Autodesk — 1 operation(s) for thumbnails.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Thumbnails API from Autodesk — 1 operation(s) for thumbnails.
   name: Autodesk Thumbnails API
   slug: autodesk-thumbnails-api
-- description: The Token API from Autodesk — 3 operation(s) for token.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Token API from Autodesk — 3 operation(s) for token.
   name: Autodesk Token API
   slug: autodesk-token-api
-- description: The Tokens API from Autodesk — 1 operation(s) for tokens.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Tokens API from Autodesk — 1 operation(s) for tokens.
   name: Autodesk Tokens API
   slug: autodesk-tokens-api
-- description: The Twins API from Autodesk — 2 operation(s) for twins.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Twins API from Autodesk — 2 operation(s) for twins.
   name: Autodesk Twins API
   slug: autodesk-twins-api
-- description: The Users API from Autodesk — 1 operation(s) for users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Users API from Autodesk — 1 operation(s) for users.
   name: Autodesk Users API
   slug: autodesk-users-api
-- description: The Versions API from Autodesk — 3 operation(s) for versions.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Versions API from Autodesk — 3 operation(s) for versions.
   name: Autodesk Versions API
   slug: autodesk-versions-api
-- description: The WorkItems API from Autodesk — 2 operation(s) for workitems.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The WorkItems API from Autodesk — 2 operation(s) for workitems.
   name: Autodesk WorkItems API
   slug: autodesk-workitems-api
 arazzos:
@@ -1493,7 +1589,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -1503,7 +1599,7 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 57.2
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1514,7 +1610,7 @@ score:
       total: 48
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

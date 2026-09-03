@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: GraphQL API for accessing comic book series, issues, and creator data from the Taddy comic book database.
   name: Taddy Comics API
   slug: taddy-comics-api
-- description: The GraphQL API from Taddy API — 1 operation(s) for graphql.
+- baseURL: https://api.taddy.org
+  baseurl_source: declared
+  description: The GraphQL API from Taddy API — 1 operation(s) for graphql.
   name: Taddy API GraphQL API
   slug: taddy-api-graphql-api
 artifact_total: 21
@@ -238,7 +240,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -248,7 +250,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 47.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -257,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taddy-api/refs/heads/main/screenshots/taddy-api-2026-06-20T194850.png
 security:

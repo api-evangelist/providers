@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: Streaming API providing real-time delivery of market data through persistent connections.
   name: Nasdaq Data Link Streaming API
   slug: data-link-streaming
-- description: Databases that group related datasets.
+- baseURL: https://data.nasdaq.com/api/v3
+  baseurl_source: declared
+  description: Databases that group related datasets.
   name: Nasdaq Databases API
   slug: nasdaq-omx-group-databases-api
-- description: Time-series datasets and their metadata.
+- baseURL: https://data.nasdaq.com/api/v3
+  baseurl_source: declared
+  description: Time-series datasets and their metadata.
   name: Nasdaq Datasets API
   slug: nasdaq-omx-group-datasets-api
 artifact_total: 14
@@ -177,7 +181,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasdaq-omx-group/refs/heads/main/screenshots/nasdaq-omx-group-2026-06-20T185958.png
 security:

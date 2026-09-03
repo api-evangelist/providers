@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 16 operations · 11 acting
 api_count: 6
 apis:
-- description: The Apps API from Mason — 2 operation(s) for apps.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Apps API from Mason — 2 operation(s) for apps.
   name: Mason Apps API
   slug: mason-apps-api
-- description: The Create Image API from Mason — 1 operation(s) for create image.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Create Image API from Mason — 1 operation(s) for create image.
   name: Mason Create Image API
   slug: mason-create-image-api
-- description: The Images API from Mason — 2 operation(s) for images.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Images API from Mason — 2 operation(s) for images.
   name: Mason Images API
   slug: mason-images-api
-- description: The Retrieve an Image API from Mason — 1 operation(s) for retrieve an image.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Retrieve an Image API from Mason — 1 operation(s) for retrieve an image.
   name: Mason Retrieve an Image API
   slug: mason-retrieve-an-image-api
-- description: The Search API from Mason — 1 operation(s) for search.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Search API from Mason — 1 operation(s) for search.
   name: Mason Search API
   slug: mason-search-api
-- description: The Template Mappings API from Mason — 1 operation(s) for template mappings.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Template Mappings API from Mason — 1 operation(s) for template mappings.
   name: Mason Template Mappings API
   slug: mason-template-mappings-api
-- description: The Tiered Discounts API from Mason — 4 operation(s) for tiered discounts.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Tiered Discounts API from Mason — 4 operation(s) for tiered discounts.
   name: Mason Tiered Discounts API
   slug: mason-tiered-discounts-api
-- description: The Webhooks API from Mason — 2 operation(s) for webhooks.
+- baseURL: https://api.getmason.io
+  baseurl_source: declared
+  description: The Webhooks API from Mason — 2 operation(s) for webhooks.
   name: Mason Webhooks API
   slug: mason-webhooks-api
 artifact_total: 24
@@ -254,7 +270,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -264,7 +280,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 42.0
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mason/refs/heads/main/screenshots/mason-2026-07-25T230331.png
 security:

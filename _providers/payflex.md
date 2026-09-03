@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: OAuth2 client credentials token endpoint
+- baseURL: https://api.payflex.co.za
+  baseurl_source: declared
+  description: OAuth2 client credentials token endpoint
   name: Payflex Authentication API
   slug: payflex-authentication-api
-- description: Retrieve merchant payment limits and settings
+- baseURL: https://api.payflex.co.za
+  baseurl_source: declared
+  description: Retrieve merchant payment limits and settings
   name: Payflex Configuration API
   slug: payflex-configuration-api
-- description: Create and manage BNPL payment orders
+- baseURL: https://api.payflex.co.za
+  baseurl_source: declared
+  description: Create and manage BNPL payment orders
   name: Payflex Orders API
   slug: payflex-orders-api
-- description: Initiate full or partial refunds on completed orders
+- baseURL: https://api.payflex.co.za
+  baseurl_source: declared
+  description: Initiate full or partial refunds on completed orders
   name: Payflex Refunds API
   slug: payflex-refunds-api
 artifact_total: 29
@@ -253,7 +261,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payflex/refs/heads/main/screenshots/payflex-2026-06-20T191458.png
 security:

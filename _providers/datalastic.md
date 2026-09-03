@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 1 acting
 api_count: 1
 apis:
-- description: Past AIS positions for vessels and zones.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Past AIS positions for vessels and zones.
   name: Datalastic Historical API
   slug: datalastic-historical-api
-- description: Real-time AIS vessel position and voyage data.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Real-time AIS vessel position and voyage data.
   name: Datalastic Live Tracking API
   slug: datalastic-live-tracking-api
-- description: Global maritime port search.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Global maritime port search.
   name: Datalastic Ports API
   slug: datalastic-ports-api
-- description: Asynchronous bulk report jobs and account usage statistics.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Asynchronous bulk report jobs and account usage statistics.
   name: Datalastic Reports and Usage API
   slug: datalastic-reports-and-usage-api
-- description: Static ship specifications and vessel search.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Static ship specifications and vessel search.
   name: Datalastic Vessel Data API
   slug: datalastic-vessel-data-api
-- description: Vessels within a radius of a point, port, or moving vessel.
+- baseURL: https://api.datalastic.com/api/v0
+  baseurl_source: declared
+  description: Vessels within a radius of a point, port, or moving vessel.
   name: Datalastic Zone Traffic API
   slug: datalastic-zone-traffic-api
 artifact_total: 20
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/screenshots/datalastic-2026-07-25T211330.png
 security:

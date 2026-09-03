@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,52 +36,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Activity Log API from Fund That Flip — 2 operation(s) for activity log.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Activity Log API from Fund That Flip — 2 operation(s) for activity log.
   name: Fund That Flip Activity Log API
   slug: fund-that-flip-activity-log-api
-- description: The Attachment Upload API from Fund That Flip — 1 operation(s) for attachment upload.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Attachment Upload API from Fund That Flip — 1 operation(s) for attachment upload.
   name: Fund That Flip Attachment Upload API
   slug: fund-that-flip-attachment-upload-api
-- description: The Company API from Fund That Flip — 4 operation(s) for company.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Company API from Fund That Flip — 4 operation(s) for company.
   name: Fund That Flip Company API
   slug: fund-that-flip-company-api
-- description: 'The Company: Categories API from Fund That Flip — 3 operation(s) for company: categories.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Company: Categories API from Fund That Flip — 3 operation(s) for company: categories.'
   name: 'Fund That Flip Company: Categories API'
   slug: fund-that-flip-company-categories-api
-- description: The Expense Accounts API from Fund That Flip — 3 operation(s) for expense accounts.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Expense Accounts API from Fund That Flip — 3 operation(s) for expense accounts.
   name: Fund That Flip Expense Accounts API
   slug: fund-that-flip-expense-accounts-api
-- description: The Project API from Fund That Flip — 3 operation(s) for project.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Project API from Fund That Flip — 3 operation(s) for project.
   name: Fund That Flip Project API
   slug: fund-that-flip-project-api
-- description: 'The Project Expenses: Categories API from Fund That Flip — 1 operation(s) for project expenses: categories.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Project Expenses: Categories API from Fund That Flip — 1 operation(s) for project expenses: categories.'
   name: 'Fund That Flip Project Expenses: Categories API'
   slug: fund-that-flip-project-expenses-categories-api
-- description: 'The Project Expenses: Line Items API from Fund That Flip — 2 operation(s) for project expenses: line items.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Project Expenses: Line Items API from Fund That Flip — 2 operation(s) for project expenses: line items.'
   name: 'Fund That Flip Project Expenses: Line Items API'
   slug: fund-that-flip-project-expenses-line-items-api
-- description: 'The Project Expenses: Transactions API from Fund That Flip — 3 operation(s) for project expenses: transactions.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Project Expenses: Transactions API from Fund That Flip — 3 operation(s) for project expenses: transactions.'
   name: 'Fund That Flip Project Expenses: Transactions API'
   slug: fund-that-flip-project-expenses-transactions-api
-- description: The Project Income API from Fund That Flip — 3 operation(s) for project income.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Project Income API from Fund That Flip — 3 operation(s) for project income.
   name: Fund That Flip Project Income API
   slug: fund-that-flip-project-income-api
-- description: 'The Project Photo Log: Photos API from Fund That Flip — 3 operation(s) for project photo log: photos.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Project Photo Log: Photos API from Fund That Flip — 3 operation(s) for project photo log: photos.'
   name: 'Fund That Flip Project Photo Log: Photos API'
   slug: fund-that-flip-project-photo-log-photos-api
-- description: The Project Receipts API from Fund That Flip — 3 operation(s) for project receipts.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Project Receipts API from Fund That Flip — 3 operation(s) for project receipts.
   name: Fund That Flip Project Receipts API
   slug: fund-that-flip-project-receipts-api
-- description: The Project Updates API from Fund That Flip — 3 operation(s) for project updates.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The Project Updates API from Fund That Flip — 3 operation(s) for project updates.
   name: Fund That Flip Project Updates API
   slug: fund-that-flip-project-updates-api
-- description: 'The Project Updates: Photos API from Fund That Flip — 2 operation(s) for project updates: photos.'
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: 'The Project Updates: Photos API from Fund That Flip — 2 operation(s) for project updates: photos.'
   name: 'Fund That Flip Project Updates: Photos API'
   slug: fund-that-flip-project-updates-photos-api
-- description: The User API from Fund That Flip — 1 operation(s) for user.
+- baseURL: https://tools.flipperforce.com/api/v1
+  baseurl_source: declared
+  description: The User API from Fund That Flip — 1 operation(s) for user.
   name: Fund That Flip User API
   slug: fund-that-flip-user-api
 artifact_total: 19
@@ -239,7 +282,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fund-that-flip/refs/heads/main/screenshots/fund-that-flip-2026-08-17T080937.png
 security:

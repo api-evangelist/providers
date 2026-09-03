@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The Account API from PDFEndpoint — 2 operation(s) for account.
+- baseURL: https://api.pdfendpoint.com/v1
+  baseurl_source: declared
+  description: The Account API from PDFEndpoint — 2 operation(s) for account.
   name: PDFEndpoint Account API
   slug: pdfendpoint-account-api
-- description: The Convert API from PDFEndpoint — 1 operation(s) for convert.
+- baseURL: https://api.pdfendpoint.com/v1
+  baseurl_source: declared
+  description: The Convert API from PDFEndpoint — 1 operation(s) for convert.
   name: PDFEndpoint Convert API
   slug: pdfendpoint-convert-api
-- description: The Renders API from PDFEndpoint — 2 operation(s) for renders.
+- baseURL: https://api.pdfendpoint.com/v1
+  baseurl_source: declared
+  description: The Renders API from PDFEndpoint — 2 operation(s) for renders.
   name: PDFEndpoint Renders API
   slug: pdfendpoint-renders-api
 artifact_total: 14
@@ -155,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdfendpoint/refs/heads/main/screenshots/pdfendpoint-2026-08-07T191717.png
 security:

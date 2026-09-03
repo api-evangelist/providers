@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -47,16 +47,24 @@ apis:
 - description: Single GraphQL endpoint for reading an end-user's unified financial data - Profile, Connections, Accounts, Balances, Account Owners and Numbers, Transactions, Investment Holdings, and Statements - aut
   name: Quiltt GraphQL Data API
   slug: quiltt-graphql-data-api
-- description: Manage a Profile's aggregator Connections.
+- baseURL: https://api.quiltt.io/v1/graphql
+  baseurl_source: declared
+  description: Manage a Profile's aggregator Connections.
   name: Quiltt Connections API
   slug: quiltt-connections-api
-- description: Manage end-user Profiles.
+- baseURL: https://api.quiltt.io/v1/graphql
+  baseurl_source: declared
+  description: Manage end-user Profiles.
   name: Quiltt Profiles API
   slug: quiltt-profiles-api
-- description: Issue, verify, and revoke Profile-scoped session tokens.
+- baseURL: https://api.quiltt.io/v1/graphql
+  baseurl_source: declared
+  description: Issue, verify, and revoke Profile-scoped session tokens.
   name: Quiltt Session Tokens API
   slug: quiltt-session-tokens-api
-- description: Manage webhook subscriptions for real-time events.
+- baseURL: https://api.quiltt.io/v1/graphql
+  baseurl_source: declared
+  description: Manage webhook subscriptions for real-time events.
   name: Quiltt Webhooks API
   slug: quiltt-webhooks-api
 artifact_total: 18
@@ -157,7 +165,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +194,9 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/screenshots/quiltt-2026-09-02T152701.png
 security:
 - kind: authentication
   name: Quiltt Authentication

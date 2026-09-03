@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,16 +59,24 @@ apis:
 - description: TypeScript and JavaScript community SDK for Industrial IoT APIs providing convenient wrappers around the MindSphere REST APIs for asset management, time series, file upload, and event management.
   name: Siemens MindConnect Node.js SDK
   slug: mindconnect-nodejs-sdk
-- description: Aspect type (data model template) management
+- baseURL: https://gateway.eu1.mindsphere.io/api/assetmanagement/v3
+  baseurl_source: declared
+  description: Aspect type (data model template) management
   name: Siemens MindSphere Aspect Types API
   slug: siemens-mindsphere-aspect-types-api
-- description: Asset type definition management
+- baseURL: https://gateway.eu1.mindsphere.io/api/assetmanagement/v3
+  baseurl_source: declared
+  description: Asset type definition management
   name: Siemens MindSphere Asset Types API
   slug: siemens-mindsphere-asset-types-api
-- description: Asset instance management
+- baseURL: https://gateway.eu1.mindsphere.io/api/assetmanagement/v3
+  baseurl_source: declared
+  description: Asset instance management
   name: Siemens MindSphere Assets API
   slug: siemens-mindsphere-assets-api
-- description: Time-series data read and write operations
+- baseURL: https://gateway.eu1.mindsphere.io/api/assetmanagement/v3
+  baseurl_source: declared
+  description: Time-series data read and write operations
   name: Siemens MindSphere Timeseries API
   slug: siemens-mindsphere-timeseries-api
 artifact_total: 50
@@ -289,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/screenshots/siemens-mindsphere-2026-06-20T193904.png
 security:

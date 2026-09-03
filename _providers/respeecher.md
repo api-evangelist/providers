@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 54 operations · 31 acting
 api_count: 1
 apis:
-- description: Low-latency real-time text-to-speech that begins streaming audio in under 200ms via three transports - one-shot bytes (POST /tts/bytes, up to ~5,000 characters), HTTP SSE chunks (POST /tts/sse), and a
+- baseURL: https://api.respeecher.com/v1/public/tts/en-rt
+  baseurl_source: declared
+  description: Low-latency real-time text-to-speech that begins streaming audio in under 200ms via three transports - one-shot bytes (POST /tts/bytes, up to ~5,000 characters), HTTP SSE chunks (POST /tts/sse), and a
   name: Respeecher Space Real-Time TTS API
   slug: respeecher-space-realtime-tts-api
-- description: The accents API from Respeecher — 1 operation(s) for accents.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The accents API from Respeecher — 1 operation(s) for accents.
   name: Respeecher accents API
   slug: respeecher-accents-api
-- description: The auth API from Respeecher — 3 operation(s) for auth.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The auth API from Respeecher — 3 operation(s) for auth.
   name: Respeecher auth API
   slug: respeecher-auth-api
-- description: The calibration API from Respeecher — 3 operation(s) for calibration.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The calibration API from Respeecher — 3 operation(s) for calibration.
   name: Respeecher calibration API
   slug: respeecher-calibration-api
-- description: The credits API from Respeecher — 1 operation(s) for credits.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The credits API from Respeecher — 1 operation(s) for credits.
   name: Respeecher credits API
   slug: respeecher-credits-api
-- description: The folders API from Respeecher — 2 operation(s) for folders.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The folders API from Respeecher — 2 operation(s) for folders.
   name: Respeecher folders API
   slug: respeecher-folders-api
-- description: The healtz API from Respeecher — 1 operation(s) for healtz.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The healtz API from Respeecher — 1 operation(s) for healtz.
   name: Respeecher healtz API
   slug: respeecher-healtz-api
-- description: The models API from Respeecher — 1 operation(s) for models.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The models API from Respeecher — 1 operation(s) for models.
   name: Respeecher models API
   slug: respeecher-models-api
-- description: The narration-styles API from Respeecher — 1 operation(s) for narration-styles.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The narration-styles API from Respeecher — 1 operation(s) for narration-styles.
   name: Respeecher narration-styles API
   slug: respeecher-narration-styles-api
-- description: The notes API from Respeecher — 1 operation(s) for notes.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The notes API from Respeecher — 1 operation(s) for notes.
   name: Respeecher notes API
   slug: respeecher-notes-api
-- description: The orders API from Respeecher — 2 operation(s) for orders.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The orders API from Respeecher — 2 operation(s) for orders.
   name: Respeecher orders API
   slug: respeecher-orders-api
-- description: The projects API from Respeecher — 4 operation(s) for projects.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The projects API from Respeecher — 4 operation(s) for projects.
   name: Respeecher projects API
   slug: respeecher-projects-api
-- description: The recordings API from Respeecher — 9 operation(s) for recordings.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The recordings API from Respeecher — 9 operation(s) for recordings.
   name: Respeecher recordings API
   slug: respeecher-recordings-api
-- description: The stats API from Respeecher — 3 operation(s) for stats.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The stats API from Respeecher — 3 operation(s) for stats.
   name: Respeecher stats API
   slug: respeecher-stats-api
-- description: The storage API from Respeecher — 1 operation(s) for storage.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The storage API from Respeecher — 1 operation(s) for storage.
   name: Respeecher storage API
   slug: respeecher-storage-api
-- description: The tts API from Respeecher — 1 operation(s) for tts.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The tts API from Respeecher — 1 operation(s) for tts.
   name: Respeecher tts API
   slug: respeecher-tts-api
-- description: The voices API from Respeecher — 4 operation(s) for voices.
+- baseURL: https://gateway.respeecher.com
+  baseurl_source: declared
+  description: The voices API from Respeecher — 4 operation(s) for voices.
   name: Respeecher voices API
   slug: respeecher-voices-api
 artifact_total: 41
@@ -244,11 +278,11 @@ score:
   band: thin
   composite: 33.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 59.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -258,7 +292,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 0.0
-  previous_composite: 33.9
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +301,9 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/screenshots/respeecher-2026-09-02T153756.png
 security:
 - kind: domain-security
   name: Respeecher Domain Security

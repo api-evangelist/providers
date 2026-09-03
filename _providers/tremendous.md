@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 22 operations · 8 acting
 api_count: 1
 apis:
-- description: Manage reward presentation and product catalogs
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Manage reward presentation and product catalogs
   name: Tremendous Campaigns API
   slug: tremendous-campaigns-api
-- description: Manage funding sources for sending rewards
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Manage funding sources for sending rewards
   name: Tremendous Funding Sources API
   slug: tremendous-funding-sources-api
-- description: View and manage invoices
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: View and manage invoices
   name: Tremendous Invoices API
   slug: tremendous-invoices-api
-- description: Manage organization members
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Manage organization members
   name: Tremendous Members API
   slug: tremendous-members-api
-- description: Create and manage reward orders
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Create and manage reward orders
   name: Tremendous Orders API
   slug: tremendous-orders-api
-- description: Manage organizations (team accounts)
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Manage organizations (team accounts)
   name: Tremendous Organizations API
   slug: tremendous-organizations-api
-- description: Browse available payout products and gift cards
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Browse available payout products and gift cards
   name: Tremendous Products API
   slug: tremendous-products-api
-- description: Manage individual rewards within orders
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Manage individual rewards within orders
   name: Tremendous Rewards API
   slug: tremendous-rewards-api
-- description: Configure webhook notifications
+- baseURL: https://testflight.tremendous.com/api/v2
+  baseurl_source: declared
+  description: Configure webhook notifications
   name: Tremendous Webhooks API
   slug: tremendous-webhooks-api
 artifact_total: 35
@@ -300,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/screenshots/tremendous-2026-06-20T195654.png
 security:

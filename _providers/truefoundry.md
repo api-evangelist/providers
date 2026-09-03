@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,31 +57,49 @@ apis:
 - description: 'The TrueFoundry Model Registry provides a versioned repository for storing and managing machine learning models backed by cloud storage such as S3, GCS, Azure Blob, or Minio. It supports programmatic '
   name: TrueFoundry Model Registry API
   slug: truefoundry-model-registry-api
-- description: Speech and audio processing
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Speech and audio processing
   name: TrueFoundry Audio API
   slug: truefoundry-audio-api
-- description: Batch request processing
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Batch request processing
   name: TrueFoundry Batches API
   slug: truefoundry-batches-api
-- description: Chat completion operations for LLM conversation
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Chat completion operations for LLM conversation
   name: TrueFoundry Chat API
   slug: truefoundry-chat-api
-- description: Text embedding operations
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Text embedding operations
   name: TrueFoundry Embeddings API
   slug: truefoundry-embeddings-api
-- description: File upload and management
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: File upload and management
   name: TrueFoundry Files API
   slug: truefoundry-files-api
-- description: Image generation and manipulation
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Image generation and manipulation
   name: TrueFoundry Images API
   slug: truefoundry-images-api
-- description: Available model listing
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Available model listing
   name: TrueFoundry Models API
   slug: truefoundry-models-api
-- description: Content moderation
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Content moderation
   name: TrueFoundry Moderations API
   slug: truefoundry-moderations-api
-- description: Reranking for search relevance
+- baseURL: https://gateway.truefoundry.ai/api/llm
+  baseurl_source: declared
+  description: Reranking for search relevance
   name: TrueFoundry Rerank API
   slug: truefoundry-rerank-api
 artifact_total: 67
@@ -361,7 +391,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/screenshots/truefoundry-2026-06-20T195805.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Agencies and their FOIA components.
+- baseURL: https://api.foia.gov
+  baseurl_source: declared
+  description: Agencies and their FOIA components.
   name: Freedom of Information Act Agency Components API
   slug: freedom-of-information-act-agency-components-api
-- description: Portal-to-agency request submission API (implemented by participating agencies at foia-api.agency.gov).
+- baseURL: https://api.foia.gov
+  baseurl_source: declared
+  description: Portal-to-agency request submission API (implemented by participating agencies at foia-api.agency.gov).
   name: Freedom of Information Act Agency Submission API
   slug: freedom-of-information-act-agency-submission-api
-- description: Agency annual FOIA reports as XML.
+- baseURL: https://api.foia.gov
+  baseurl_source: declared
+  description: Agency annual FOIA reports as XML.
   name: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
 artifact_total: 14
@@ -153,7 +159,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/screenshots/freedom-of-information-act-2026-06-20T181524.png
 security:

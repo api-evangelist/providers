@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: 'REST-style management API for Proxmox VE covering nodes, virtual machines, containers, storage, networking, clustering, pools, and access management. Authenticated via API tokens (PVEAPIToken header) '
   name: Proxmox VE API
   slug: ve-api
-- description: The Access API from Proxmox VE — 3 operation(s) for access.
+- baseURL: https://your.server:8006/api2/json
+  baseurl_source: declared
+  description: The Access API from Proxmox VE — 3 operation(s) for access.
   name: Proxmox VE Access API
   slug: proxmox-access-api
-- description: The Cluster API from Proxmox VE — 1 operation(s) for cluster.
+- baseURL: https://your.server:8006/api2/json
+  baseurl_source: declared
+  description: The Cluster API from Proxmox VE — 1 operation(s) for cluster.
   name: Proxmox VE Cluster API
   slug: proxmox-cluster-api
-- description: The Containers API from Proxmox VE — 2 operation(s) for containers.
+- baseURL: https://your.server:8006/api2/json
+  baseurl_source: declared
+  description: The Containers API from Proxmox VE — 2 operation(s) for containers.
   name: Proxmox VE Containers API
   slug: proxmox-containers-api
-- description: The Nodes API from Proxmox VE — 1 operation(s) for nodes.
+- baseURL: https://your.server:8006/api2/json
+  baseurl_source: declared
+  description: The Nodes API from Proxmox VE — 1 operation(s) for nodes.
   name: Proxmox VE Nodes API
   slug: proxmox-nodes-api
 artifact_total: 15
@@ -167,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/screenshots/proxmox-2026-06-20T192222.png
 security:

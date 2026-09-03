@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -36,37 +47,59 @@ apis:
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
   name: Immuta Govern API
   slug: govern-api
-- description: APIs for managing data access
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing data access
   name: Immuta Access Request API
   slug: immuta-access-request-api
-- description: APIs for managing assets
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing assets
   name: Immuta Asset API
   slug: immuta-asset-api
-- description: The Auth API from Immuta — 3 operation(s) for auth.
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: The Auth API from Immuta — 3 operation(s) for auth.
   name: Immuta Auth API
   slug: immuta-auth-api
-- description: APIs for managing data products
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing data products
   name: Immuta Data Product API
   slug: immuta-data-product-api
-- description: APIs for managing data sources
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing data sources
   name: Immuta Data Source API
   slug: immuta-data-source-api
-- description: APIs for managing data use agreements
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing data use agreements
   name: Immuta Data Use Agreement API
   slug: immuta-data-use-agreement-api
-- description: APIs for checking the health of the service
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for checking the health of the service
   name: Immuta Health API
   slug: immuta-health-api
-- description: APIs used to retrieve metadata from Immuta to enrich the marketplace
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs used to retrieve metadata from Immuta to enrich the marketplace
   name: Immuta Metadata API
   slug: immuta-metadata-api
-- description: APIs for managing notifications
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing notifications
   name: Immuta Notification API
   slug: immuta-notification-api
-- description: APIs for managing request forms
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs for managing request forms
   name: Immuta Request Form API
   slug: immuta-request-form-api
-- description: APIs used to retrieve metadata settings
+- baseURL: https://na.api.immutacloud.com/marketplace
+  baseurl_source: declared
+  description: APIs used to retrieve metadata settings
   name: Immuta Settings API
   slug: immuta-settings-api
 artifact_total: 20
@@ -264,7 +297,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -274,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 57.6
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +325,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,34 +36,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Authentication API from Emerge — 3 operation(s) for authentication.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Authentication API from Emerge — 3 operation(s) for authentication.
   name: Emerge Authentication API
   slug: emerge-authentication-api
-- description: The Awards API from Emerge — 2 operation(s) for awards.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Awards API from Emerge — 2 operation(s) for awards.
   name: Emerge Awards API
   slug: emerge-awards-api
-- description: The Network Partners API from Emerge — 2 operation(s) for network partners.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Network Partners API from Emerge — 2 operation(s) for network partners.
   name: Emerge Network Partners API
   slug: emerge-network-partners-api
-- description: The Opportunities API from Emerge — 6 operation(s) for opportunities.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Opportunities API from Emerge — 6 operation(s) for opportunities.
   name: Emerge Opportunities API
   slug: emerge-opportunities-api
-- description: The Options API from Emerge — 2 operation(s) for options.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Options API from Emerge — 2 operation(s) for options.
   name: Emerge Options API
   slug: emerge-options-api
-- description: The Shipments API from Emerge — 1 operation(s) for shipments.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Shipments API from Emerge — 1 operation(s) for shipments.
   name: Emerge Shipments API
   slug: emerge-shipments-api
-- description: The Tender API from Emerge — 1 operation(s) for tender.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Tender API from Emerge — 1 operation(s) for tender.
   name: Emerge Tender API
   slug: emerge-tender-api
-- description: The Tenders API from Emerge — 3 operation(s) for tenders.
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: The Tenders API from Emerge — 3 operation(s) for tenders.
   name: Emerge Tenders API
   slug: emerge-tenders-api
-- description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
+- baseURL: https://api.emergemarket.io/v1
+  baseurl_source: declared
+  description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
   name: Emerge Webhooks API
   slug: emerge-webhooks-api
 artifact_total: 19
@@ -255,7 +286,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -265,7 +296,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 47.2
+  previous_composite: 47.0
   provenance:
     conformance: derived
     contracts:
@@ -276,7 +307,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:

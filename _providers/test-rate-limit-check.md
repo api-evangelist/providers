@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: REST API for Azure API Management service supporting subscription quotas, rate limit policies, and throttling configuration for testing rate limit implementations.
   name: Azure API Management API
   slug: azure-api-management-api
-- description: The Consumers API from Test Rate Limit Check — 1 operation(s) for consumers.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Consumers API from Test Rate Limit Check — 1 operation(s) for consumers.
   name: Test Rate Limit Check Consumers API
   slug: test-rate-limit-check-consumers-api
-- description: The Plugins API from Test Rate Limit Check — 1 operation(s) for plugins.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Plugins API from Test Rate Limit Check — 1 operation(s) for plugins.
   name: Test Rate Limit Check Plugins API
   slug: test-rate-limit-check-plugins-api
-- description: The Routes API from Test Rate Limit Check — 1 operation(s) for routes.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Routes API from Test Rate Limit Check — 1 operation(s) for routes.
   name: Test Rate Limit Check Routes API
   slug: test-rate-limit-check-routes-api
-- description: The Schemas API from Test Rate Limit Check — 1 operation(s) for schemas.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Schemas API from Test Rate Limit Check — 1 operation(s) for schemas.
   name: Test Rate Limit Check Schemas API
   slug: test-rate-limit-check-schemas-api
-- description: The Services API from Test Rate Limit Check — 1 operation(s) for services.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Services API from Test Rate Limit Check — 1 operation(s) for services.
   name: Test Rate Limit Check Services API
   slug: test-rate-limit-check-services-api
-- description: The Status API from Test Rate Limit Check — 1 operation(s) for status.
+- baseURL: https://your-kong.example.com:8001
+  baseurl_source: declared
+  description: The Status API from Test Rate Limit Check — 1 operation(s) for status.
   name: Test Rate Limit Check Status API
   slug: test-rate-limit-check-status-api
 artifact_total: 49
@@ -261,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-rate-limit-check/refs/heads/main/screenshots/test-rate-limit-check-2026-06-20T195146.png
 security:

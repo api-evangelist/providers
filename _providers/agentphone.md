@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 67 operations · 32 acting
 api_count: 1
 apis:
-- description: The agent-webhooks API from AgentPhone — 3 operation(s) for agent-webhooks.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The agent-webhooks API from AgentPhone — 3 operation(s) for agent-webhooks.
   name: AgentPhone agent-webhooks API
   slug: agentphone-agent-webhooks-api
-- description: The agents API from AgentPhone — 7 operation(s) for agents.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The agents API from AgentPhone — 7 operation(s) for agents.
   name: AgentPhone agents API
   slug: agentphone-agents-api
-- description: The calls API from AgentPhone — 8 operation(s) for calls.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The calls API from AgentPhone — 8 operation(s) for calls.
   name: AgentPhone calls API
   slug: agentphone-calls-api
-- description: The contactCards API from AgentPhone — 1 operation(s) for contactcards.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The contactCards API from AgentPhone — 1 operation(s) for contactcards.
   name: AgentPhone contactCards API
   slug: agentphone-contactcards-api
-- description: The contacts API from AgentPhone — 3 operation(s) for contacts.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The contacts API from AgentPhone — 3 operation(s) for contacts.
   name: AgentPhone contacts API
   slug: agentphone-contacts-api
-- description: The conversations API from AgentPhone — 5 operation(s) for conversations.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The conversations API from AgentPhone — 5 operation(s) for conversations.
   name: AgentPhone conversations API
   slug: agentphone-conversations-api
-- description: The location API from AgentPhone — 2 operation(s) for location.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The location API from AgentPhone — 2 operation(s) for location.
   name: AgentPhone location API
   slug: agentphone-location-api
-- description: The messages API from AgentPhone — 2 operation(s) for messages.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The messages API from AgentPhone — 2 operation(s) for messages.
   name: AgentPhone messages API
   slug: agentphone-messages-api
-- description: The numbers API from AgentPhone — 3 operation(s) for numbers.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The numbers API from AgentPhone — 3 operation(s) for numbers.
   name: AgentPhone numbers API
   slug: agentphone-numbers-api
-- description: The registration API from AgentPhone — 2 operation(s) for registration.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The registration API from AgentPhone — 2 operation(s) for registration.
   name: AgentPhone registration API
   slug: agentphone-registration-api
-- description: The sub-accounts API from AgentPhone — 2 operation(s) for sub-accounts.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The sub-accounts API from AgentPhone — 2 operation(s) for sub-accounts.
   name: AgentPhone sub-accounts API
   slug: agentphone-sub-accounts-api
-- description: The usage API from AgentPhone — 5 operation(s) for usage.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The usage API from AgentPhone — 5 operation(s) for usage.
   name: AgentPhone usage API
   slug: agentphone-usage-api
-- description: The webhooks API from AgentPhone — 5 operation(s) for webhooks.
+- baseURL: https://api.agentphone.ai
+  baseurl_source: declared
+  description: The webhooks API from AgentPhone — 5 operation(s) for webhooks.
   name: AgentPhone webhooks API
   slug: agentphone-webhooks-api
 artifact_total: 33
@@ -291,7 +317,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -301,7 +327,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.4
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,7 +345,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/screenshots/agentphone-2026-07-25T195242.png
 security:

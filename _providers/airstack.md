@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,43 +46,69 @@ apis:
 - description: The primary Airstack API offering composable GraphQL queries across on-chain and off-chain Web3 data. Query NFT balances, token transfers, wallet identities, ENS names, POAP badges, and social graph d
   name: Airstack GraphQL API
   slug: airstack-graphql-api
-- description: The Casts API from Airstack — 4 operation(s) for casts.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Casts API from Airstack — 4 operation(s) for casts.
   name: Airstack Casts API
   slug: airstack-casts-api
-- description: The FIDs API from Airstack — 1 operation(s) for fids.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The FIDs API from Airstack — 1 operation(s) for fids.
   name: Airstack FIDs API
   slug: airstack-fids-api
-- description: The HubEvents API from Airstack — 2 operation(s) for hubevents.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The HubEvents API from Airstack — 2 operation(s) for hubevents.
   name: Airstack HubEvents API
   slug: airstack-hubevents-api
-- description: The Links API from Airstack — 3 operation(s) for links.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Links API from Airstack — 3 operation(s) for links.
   name: Airstack Links API
   slug: airstack-links-api
-- description: The OnChainEvents API from Airstack — 3 operation(s) for onchainevents.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The OnChainEvents API from Airstack — 3 operation(s) for onchainevents.
   name: Airstack OnChainEvents API
   slug: airstack-onchainevents-api
-- description: The Reactions API from Airstack — 4 operation(s) for reactions.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Reactions API from Airstack — 4 operation(s) for reactions.
   name: Airstack Reactions API
   slug: airstack-reactions-api
-- description: The Storage API from Airstack — 1 operation(s) for storage.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Storage API from Airstack — 1 operation(s) for storage.
   name: Airstack Storage API
   slug: airstack-storage-api
-- description: The SubmitMessage API from Airstack — 1 operation(s) for submitmessage.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The SubmitMessage API from Airstack — 1 operation(s) for submitmessage.
   name: Airstack SubmitMessage API
   slug: airstack-submitmessage-api
-- description: The UserData API from Airstack — 1 operation(s) for userdata.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The UserData API from Airstack — 1 operation(s) for userdata.
   name: Airstack UserData API
   slug: airstack-userdata-api
-- description: The Usernames API from Airstack — 2 operation(s) for usernames.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Usernames API from Airstack — 2 operation(s) for usernames.
   name: Airstack Usernames API
   slug: airstack-usernames-api
-- description: The ValidateMessage API from Airstack — 1 operation(s) for validatemessage.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The ValidateMessage API from Airstack — 1 operation(s) for validatemessage.
   name: Airstack ValidateMessage API
   slug: airstack-validatemessage-api
-- description: The Verifications API from Airstack — 1 operation(s) for verifications.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Verifications API from Airstack — 1 operation(s) for verifications.
   name: Airstack Verifications API
   slug: airstack-verifications-api
-- description: The Webhooks API from Airstack — 3 operation(s) for webhooks.
+- baseURL: https://api.airstack.xyz/graphql
+  baseurl_source: declared
+  description: The Webhooks API from Airstack — 3 operation(s) for webhooks.
   name: Airstack Webhooks API
   slug: airstack-webhooks-api
 artifact_total: 34
@@ -262,7 +288,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/screenshots/airstack-2026-06-20T171431.png
 security:

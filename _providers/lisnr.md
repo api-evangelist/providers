@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Accounts API from LISNR — 1 operation(s) for accounts.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Accounts API from LISNR — 1 operation(s) for accounts.
   name: LISNR Accounts API
   slug: lisnr-accounts-api
-- description: The API Tokens API from LISNR — 2 operation(s) for api tokens.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The API Tokens API from LISNR — 2 operation(s) for api tokens.
   name: LISNR API Tokens API
   slug: lisnr-api-tokens-api
-- description: The Applications API from LISNR — 2 operation(s) for applications.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Applications API from LISNR — 2 operation(s) for applications.
   name: LISNR Applications API
   slug: lisnr-applications-api
-- description: The Authentication API from LISNR — 5 operation(s) for authentication.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Authentication API from LISNR — 5 operation(s) for authentication.
   name: LISNR Authentication API
   slug: lisnr-authentication-api
-- description: The Billing API from LISNR — 1 operation(s) for billing.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Billing API from LISNR — 1 operation(s) for billing.
   name: LISNR Billing API
   slug: lisnr-billing-api
-- description: The Notifications API from LISNR — 2 operation(s) for notifications.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Notifications API from LISNR — 2 operation(s) for notifications.
   name: LISNR Notifications API
   slug: lisnr-notifications-api
-- description: The SDK Releases API from LISNR — 1 operation(s) for sdk releases.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The SDK Releases API from LISNR — 1 operation(s) for sdk releases.
   name: LISNR SDK Releases API
   slug: lisnr-sdk-releases-api
-- description: The SDK Tokens API from LISNR — 2 operation(s) for sdk tokens.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The SDK Tokens API from LISNR — 2 operation(s) for sdk tokens.
   name: LISNR SDK Tokens API
   slug: lisnr-sdk-tokens-api
-- description: The Tones Service API Reference API from LISNR — 1 operation(s) for tones service api reference.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Tones Service API Reference API from LISNR — 1 operation(s) for tones service api reference.
   name: LISNR Tones Service API Reference API
   slug: lisnr-tones-service-api-reference-api
-- description: The Users API from LISNR — 3 operation(s) for users.
+- baseURL: https://tones.lisnr.com/
+  baseurl_source: declared
+  description: The Users API from LISNR — 3 operation(s) for users.
   name: LISNR Users API
   slug: lisnr-users-api
 artifact_total: 24
@@ -246,7 +266,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lisnr/refs/heads/main/screenshots/lisnr-2026-07-25T225338.png
 security:

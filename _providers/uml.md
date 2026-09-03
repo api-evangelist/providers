@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 2
 apis:
-- description: Generate diagrams from textual descriptions
+- baseURL: https://www.plantuml.com/plantuml
+  baseurl_source: declared
+  description: Generate diagrams from textual descriptions
   name: UML Diagrams API
   slug: uml-diagrams-api
-- description: Service health check
+- baseURL: https://www.plantuml.com/plantuml
+  baseurl_source: declared
+  description: Service health check
   name: UML Health API
   slug: uml-health-api
-- description: Validate PlantUML source syntax
+- baseURL: https://www.plantuml.com/plantuml
+  baseurl_source: declared
+  description: Validate PlantUML source syntax
   name: UML Validation API
   slug: uml-validation-api
 artifact_total: 21
@@ -230,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uml/refs/heads/main/screenshots/uml-2026-06-20T200022.png
 security:

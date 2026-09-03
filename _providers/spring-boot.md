@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -52,34 +52,54 @@ apis:
 - description: Admin UI and monitoring tool for Spring Boot applications providing registration, health monitoring, log level management, JMX bean access, and notification capabilities for multiple application insta
   name: Spring Boot Admin API
   slug: spring-boot-admin
-- description: The Application API from Spring Boot — 3 operation(s) for application.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Application API from Spring Boot — 3 operation(s) for application.
   name: Spring Boot Application API
   slug: spring-boot-application-api
-- description: The Caches API from Spring Boot — 2 operation(s) for caches.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Caches API from Spring Boot — 2 operation(s) for caches.
   name: Spring Boot Caches API
   slug: spring-boot-caches-api
-- description: The Configuration API from Spring Boot — 1 operation(s) for configuration.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Configuration API from Spring Boot — 1 operation(s) for configuration.
   name: Spring Boot Configuration API
   slug: spring-boot-configuration-api
-- description: The Environment API from Spring Boot — 2 operation(s) for environment.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Environment API from Spring Boot — 2 operation(s) for environment.
   name: Spring Boot Environment API
   slug: spring-boot-environment-api
-- description: The Health API from Spring Boot — 2 operation(s) for health.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Health API from Spring Boot — 2 operation(s) for health.
   name: Spring Boot Health API
   slug: spring-boot-health-api
-- description: The Info API from Spring Boot — 1 operation(s) for info.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Info API from Spring Boot — 1 operation(s) for info.
   name: Spring Boot Info API
   slug: spring-boot-info-api
-- description: The JVM API from Spring Boot — 2 operation(s) for jvm.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The JVM API from Spring Boot — 2 operation(s) for jvm.
   name: Spring Boot JVM API
   slug: spring-boot-jvm-api
-- description: The Lifecycle API from Spring Boot — 1 operation(s) for lifecycle.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Lifecycle API from Spring Boot — 1 operation(s) for lifecycle.
   name: Spring Boot Lifecycle API
   slug: spring-boot-lifecycle-api
-- description: The Loggers API from Spring Boot — 2 operation(s) for loggers.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Loggers API from Spring Boot — 2 operation(s) for loggers.
   name: Spring Boot Loggers API
   slug: spring-boot-loggers-api
-- description: The Metrics API from Spring Boot — 3 operation(s) for metrics.
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: declared
+  description: The Metrics API from Spring Boot — 3 operation(s) for metrics.
   name: Spring Boot Metrics API
   slug: spring-boot-metrics-api
 artifact_total: 41
@@ -310,7 +330,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:

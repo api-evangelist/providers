@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Returns a JSON object containing the total count of humans currently in space and an array of crew member objects, each with the person's name and the spacecraft they are aboard. Covers all crewed spa
   name: People in Space Right Now
   slug: astronauts-in-space
-- description: Endpoints for retrieving information about humans currently in space
+- baseURL: http://api.open-notify.org
+  baseurl_source: declared
+  description: Endpoints for retrieving information about humans currently in space
   name: ISS Location API (Open Notify) Astronauts API
   slug: iss-api-astronauts-api
-- description: Endpoints for retrieving the current position of the International Space Station
+- baseURL: http://api.open-notify.org
+  baseurl_source: declared
+  description: Endpoints for retrieving the current position of the International Space Station
   name: ISS Location API (Open Notify) ISS Location API
   slug: iss-api-iss-location-api
 artifact_total: 17
@@ -185,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/screenshots/iss-api-2026-06-20T183624.png
 security:

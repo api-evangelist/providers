@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,88 +37,140 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 102
 apis:
 - description: Official first-party Model Context Protocol server (Apache-2.0) exposing 59 read-only tools across 13 categories — IP intelligence, WHOIS, DNS, SSL, domain, weather, currency, commodity, ZIP code, scr
   name: APIFreaks MCP Server
   slug: apifreaks-mcp-server
-- description: The Commodity APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for commodity apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Commodity APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for commodity apis.
   name: APIFreaks - API Hub for Developers Commodity APIs API
   slug: apifreaks-api-hub-for-developers-commodity-apis-api
-- description: The Currency APIs API from APIFreaks - API Hub for Developers — 10 operation(s) for currency apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Currency APIs API from APIFreaks - API Hub for Developers — 10 operation(s) for currency apis.
   name: APIFreaks - API Hub for Developers Currency APIs API
   slug: apifreaks-api-hub-for-developers-currency-apis-api
-- description: The DNS APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for dns apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The DNS APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for dns apis.
   name: APIFreaks - API Hub for Developers DNS APIs API
   slug: apifreaks-api-hub-for-developers-dns-apis-api
-- description: The Domain APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for domain apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Domain APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for domain apis.
   name: APIFreaks - API Hub for Developers Domain APIs API
   slug: apifreaks-api-hub-for-developers-domain-apis-api
-- description: The Email Validation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for email validation apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Email Validation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for email validation apis.
   name: APIFreaks - API Hub for Developers Email Validation APIs API
   slug: apifreaks-api-hub-for-developers-email-validation-apis-api
-- description: The Financial APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for financial apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Financial APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for financial apis.
   name: APIFreaks - API Hub for Developers Financial APIs API
   slug: apifreaks-api-hub-for-developers-financial-apis-api
-- description: The Flags APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for flags apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Flags APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for flags apis.
   name: APIFreaks - API Hub for Developers Flags APIs API
   slug: apifreaks-api-hub-for-developers-flags-apis-api
-- description: The General APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for general apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The General APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for general apis.
   name: APIFreaks - API Hub for Developers General APIs API
   slug: apifreaks-api-hub-for-developers-general-apis-api
-- description: The Geocoder APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for geocoder apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Geocoder APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for geocoder apis.
   name: APIFreaks - API Hub for Developers Geocoder APIs API
   slug: apifreaks-api-hub-for-developers-geocoder-apis-api
-- description: The GeoDB APIs API from APIFreaks - API Hub for Developers — 8 operation(s) for geodb apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The GeoDB APIs API from APIFreaks - API Hub for Developers — 8 operation(s) for geodb apis.
   name: APIFreaks - API Hub for Developers GeoDB APIs API
   slug: apifreaks-api-hub-for-developers-geodb-apis-api
-- description: The IP Geolocation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for ip geolocation apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The IP Geolocation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for ip geolocation apis.
   name: APIFreaks - API Hub for Developers IP Geolocation APIs API
   slug: apifreaks-api-hub-for-developers-ip-geolocation-apis-api
-- description: The Other APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for other apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Other APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for other apis.
   name: APIFreaks - API Hub for Developers Other APIs API
   slug: apifreaks-api-hub-for-developers-other-apis-api
-- description: The PDF Operations APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for pdf operations apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The PDF Operations APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for pdf operations apis.
   name: APIFreaks - API Hub for Developers PDF Operations APIs API
   slug: apifreaks-api-hub-for-developers-pdf-operations-apis-api
-- description: The PDF Security APIs API from APIFreaks - API Hub for Developers — 4 operation(s) for pdf security apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The PDF Security APIs API from APIFreaks - API Hub for Developers — 4 operation(s) for pdf security apis.
   name: APIFreaks - API Hub for Developers PDF Security APIs API
   slug: apifreaks-api-hub-for-developers-pdf-security-apis-api
-- description: The PDF To Image APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for pdf to image apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The PDF To Image APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for pdf to image apis.
   name: APIFreaks - API Hub for Developers PDF To Image APIs API
   slug: apifreaks-api-hub-for-developers-pdf-to-image-apis-api
-- description: The PDF Upload and Download APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for pdf upload and download apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The PDF Upload and Download APIs API from APIFreaks - API Hub for Developers — 3 operation(s) for pdf upload and download apis.
   name: APIFreaks - API Hub for Developers PDF Upload and Download APIs API
   slug: apifreaks-api-hub-for-developers-pdf-upload-and-download-apis-api
-- description: The Phone Validation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for phone validation apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Phone Validation APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for phone validation apis.
   name: APIFreaks - API Hub for Developers Phone Validation APIs API
   slug: apifreaks-api-hub-for-developers-phone-validation-apis-api
-- description: The Scraping APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for scraping apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Scraping APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for scraping apis.
   name: APIFreaks - API Hub for Developers Scraping APIs API
   slug: apifreaks-api-hub-for-developers-scraping-apis-api
-- description: The Screenshot APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for screenshot apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Screenshot APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for screenshot apis.
   name: APIFreaks - API Hub for Developers Screenshot APIs API
   slug: apifreaks-api-hub-for-developers-screenshot-apis-api
-- description: The SSL APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for ssl apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The SSL APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for ssl apis.
   name: APIFreaks - API Hub for Developers SSL APIs API
   slug: apifreaks-api-hub-for-developers-ssl-apis-api
-- description: The Task Status and File Info APIs API from APIFreaks - API Hub for Developers — 4 operation(s) for task status and file info apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Task Status and File Info APIs API from APIFreaks - API Hub for Developers — 4 operation(s) for task status and file info apis.
   name: APIFreaks - API Hub for Developers Task Status and File Info APIs API
   slug: apifreaks-api-hub-for-developers-task-status-and-file-info-apis-api
-- description: The Timezone APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for timezone apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Timezone APIs API from APIFreaks - API Hub for Developers — 2 operation(s) for timezone apis.
   name: APIFreaks - API Hub for Developers Timezone APIs API
   slug: apifreaks-api-hub-for-developers-timezone-apis-api
-- description: The User Agent APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for user agent apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The User Agent APIs API from APIFreaks - API Hub for Developers — 1 operation(s) for user agent apis.
   name: APIFreaks - API Hub for Developers User Agent APIs API
   slug: apifreaks-api-hub-for-developers-user-agent-apis-api
-- description: The Weather APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for weather apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The Weather APIs API from APIFreaks - API Hub for Developers — 7 operation(s) for weather apis.
   name: APIFreaks - API Hub for Developers Weather APIs API
   slug: apifreaks-api-hub-for-developers-weather-apis-api
-- description: The WHOIS APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for whois apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The WHOIS APIs API from APIFreaks - API Hub for Developers — 5 operation(s) for whois apis.
   name: APIFreaks - API Hub for Developers WHOIS APIs API
   slug: apifreaks-api-hub-for-developers-whois-apis-api
-- description: The ZIP Code APIs API from APIFreaks - API Hub for Developers — 6 operation(s) for zip code apis.
+- baseURL: https://api.apifreaks.com/v1.0/
+  baseurl_source: declared
+  description: The ZIP Code APIs API from APIFreaks - API Hub for Developers — 6 operation(s) for zip code apis.
   name: APIFreaks - API Hub for Developers ZIP Code APIs API
   slug: apifreaks-api-hub-for-developers-zip-code-apis-api
 artifact_total: 60
@@ -378,26 +444,26 @@ rate_limits:
   slug: apifreaks-api-hub-for-developers-rate-limits
 score:
   band: strong
-  composite: 57.6
+  composite: 55.9
   coverage:
     artifact_dirs: 21
-    catalog_gap: 58.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -1.7
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 66.7
     developer_ergonomics: 69.6
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 55.3
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
@@ -408,7 +474,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifreaks-api-hub-for-developers/refs/heads/main/screenshots/apifreaks-api-hub-for-developers-2026-08-17T080405.png
 security:

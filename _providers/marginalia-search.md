@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage named search filters (new API only).
+- baseURL: https://api2.marginalia-search.com
+  baseurl_source: declared
+  description: Manage named search filters (new API only).
   name: Marginalia Search Filters API
   slug: marginalia-search-filters-api
-- description: Search the Marginalia index.
+- baseURL: https://api2.marginalia-search.com
+  baseurl_source: declared
+  description: Search the Marginalia index.
   name: Marginalia Search Search API
   slug: marginalia-search-search-api
 artifact_total: 12
@@ -141,7 +145,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marginalia-search/refs/heads/main/screenshots/marginalia-search-2026-06-20T184938.png
 security:

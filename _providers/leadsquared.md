@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,10 +51,14 @@ apis:
 - description: Queued, retrying variants of the highest-volume LeadSquared write operations — Capture Leads, Update a Lead, Post an Activity on a Lead, Create a Lead and Activity, Capture Opportunities, Update an Op
   name: LeadSquared Async API
   slug: async-api
-- description: Activity events on leads
+- baseURL: https://api.leadsquared.com
+  baseurl_source: declared
+  description: Activity events on leads
   name: LeadSquared Activities API
   slug: leadsquared-activities-api
-- description: Lead create, get, and search
+- baseURL: https://api.leadsquared.com
+  baseurl_source: declared
+  description: Lead create, get, and search
   name: LeadSquared Leads API
   slug: leadsquared-leads-api
 artifact_total: 17
@@ -264,7 +268,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -274,7 +278,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 55.1
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/screenshots/leadsquared-2026-06-20T184350.png
 security:

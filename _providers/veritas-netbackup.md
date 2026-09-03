@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -89,19 +89,29 @@ apis:
 - description: REST API for controlling all aspects of NetBackup Flex Scale configuration including infrastructure monitoring, user management, node management, patch upgrades, and storage licensing.
   name: NetBackup Flex Scale REST API
   slug: netbackup-flex-scale-rest-api
-- description: Manage NetBackup clients including listing registered clients, retrieving client configuration details, and managing client-server trust relationships.
+- baseURL: https://netbackup-primary-server:1556/netbackup
+  baseurl_source: declared
+  description: Manage NetBackup clients including listing registered clients, retrieving client configuration details, and managing client-server trust relationships.
   name: Veritas NetBackup Clients API
   slug: veritas-netbackup-clients-api
-- description: Query the NetBackup image catalog to retrieve backup image metadata, search for images by policy or client, and manage image lifecycle operations such as expiration and duplication.
+- baseURL: https://netbackup-primary-server:1556/netbackup
+  baseurl_source: declared
+  description: Query the NetBackup image catalog to retrieve backup image metadata, search for images by policy or client, and manage image lifecycle operations such as expiration and duplication.
   name: Veritas NetBackup Images API
   slug: veritas-netbackup-images-api
-- description: Manage and monitor backup, restore, and administrative jobs. Retrieve job details, list jobs by filter criteria, cancel, restart, suspend, and resume jobs, and access job file lists and try logs.
+- baseURL: https://netbackup-primary-server:1556/netbackup
+  baseurl_source: declared
+  description: Manage and monitor backup, restore, and administrative jobs. Retrieve job details, list jobs by filter criteria, cancel, restart, suspend, and resume jobs, and access job file lists and try logs.
   name: Veritas NetBackup Jobs API
   slug: veritas-netbackup-jobs-api
-- description: Authenticate to the NetBackup REST API and obtain a JSON Web Token for subsequent API requests.
+- baseURL: https://netbackup-primary-server:1556/netbackup
+  baseurl_source: declared
+  description: Authenticate to the NetBackup REST API and obtain a JSON Web Token for subsequent API requests.
   name: Veritas NetBackup Login API
   slug: veritas-netbackup-login-api
-- description: Create, retrieve, update, and delete backup policies. Manage policy schedules, client lists, and backup selections that define what data gets backed up, when, and how.
+- baseURL: https://netbackup-primary-server:1556/netbackup
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete backup policies. Manage policy schedules, client lists, and backup selections that define what data gets backed up, when, and how.
   name: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
 artifact_total: 198
@@ -783,7 +793,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -793,7 +803,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 50.9
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     contracts:
@@ -802,7 +812,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/screenshots/veritas-netbackup-2026-06-20T200933.png
 security:

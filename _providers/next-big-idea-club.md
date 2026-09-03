@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Membership, subscription, library and course operations.
+- baseURL: https://nextbigideaclub.com/wp-json/members/v1
+  baseurl_source: declared
+  description: Membership, subscription, library and course operations.
   name: Next Big Idea Club members API
   slug: next-big-idea-club-members-api
 artifact_total: 7
@@ -163,7 +165,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/next-big-idea-club/refs/heads/main/screenshots/next-big-idea-club-2026-08-07T185200.png
 security:

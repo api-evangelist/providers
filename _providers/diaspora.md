@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Aspects API from Diaspora — 2 operation(s) for aspects.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Aspects API from Diaspora — 2 operation(s) for aspects.
   name: Diaspora Aspects API
   slug: diaspora-aspects-api
-- description: The Comments API from Diaspora — 3 operation(s) for comments.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Comments API from Diaspora — 3 operation(s) for comments.
   name: Diaspora Comments API
   slug: diaspora-comments-api
-- description: The Contacts API from Diaspora — 2 operation(s) for contacts.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Contacts API from Diaspora — 2 operation(s) for contacts.
   name: Diaspora Contacts API
   slug: diaspora-contacts-api
-- description: The Conversations API from Diaspora — 3 operation(s) for conversations.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Conversations API from Diaspora — 3 operation(s) for conversations.
   name: Diaspora Conversations API
   slug: diaspora-conversations-api
-- description: The Likes API from Diaspora — 2 operation(s) for likes.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Likes API from Diaspora — 2 operation(s) for likes.
   name: Diaspora Likes API
   slug: diaspora-likes-api
-- description: The Notifications API from Diaspora — 2 operation(s) for notifications.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Notifications API from Diaspora — 2 operation(s) for notifications.
   name: Diaspora Notifications API
   slug: diaspora-notifications-api
-- description: The Photos API from Diaspora — 2 operation(s) for photos.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Photos API from Diaspora — 2 operation(s) for photos.
   name: Diaspora Photos API
   slug: diaspora-photos-api
-- description: The Post interactions API from Diaspora — 5 operation(s) for post interactions.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Post interactions API from Diaspora — 5 operation(s) for post interactions.
   name: Diaspora Post interactions API
   slug: diaspora-post-interactions-api
-- description: The Posts API from Diaspora — 2 operation(s) for posts.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Posts API from Diaspora — 2 operation(s) for posts.
   name: Diaspora Posts API
   slug: diaspora-posts-api
-- description: The Reshares API from Diaspora — 1 operation(s) for reshares.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Reshares API from Diaspora — 1 operation(s) for reshares.
   name: Diaspora Reshares API
   slug: diaspora-reshares-api
-- description: The Search API from Diaspora — 3 operation(s) for search.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Search API from Diaspora — 3 operation(s) for search.
   name: Diaspora Search API
   slug: diaspora-search-api
-- description: The Streams API from Diaspora — 7 operation(s) for streams.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Streams API from Diaspora — 7 operation(s) for streams.
   name: Diaspora Streams API
   slug: diaspora-streams-api
-- description: The Tag followings API from Diaspora — 2 operation(s) for tag followings.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Tag followings API from Diaspora — 2 operation(s) for tag followings.
   name: Diaspora Tag followings API
   slug: diaspora-tag-followings-api
-- description: The Users API from Diaspora — 5 operation(s) for users.
+- baseURL: https://diaspora.social/api/v1
+  baseurl_source: declared
+  description: The Users API from Diaspora — 5 operation(s) for users.
   name: Diaspora Users API
   slug: diaspora-users-api
 artifact_total: 34
@@ -320,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/screenshots/diaspora-2026-07-25T211929.png
 security:

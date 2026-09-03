@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 3
 apis:
-- description: The Fullfeed API from Diamond Search — 1 operation(s) for fullfeed.
+- baseURL: https://api.idexonline.com/onsite/api
+  baseurl_source: declared
+  description: The Fullfeed API from Diamond Search — 1 operation(s) for fullfeed.
   name: Diamond Search Fullfeed API
   slug: diamond-search-fullfeed-api
-- description: The Getreport3 API from Diamond Search — 1 operation(s) for getreport3.
+- baseURL: https://api.idexonline.com/onsite/api
+  baseurl_source: declared
+  description: The Getreport3 API from Diamond Search — 1 operation(s) for getreport3.
   name: Diamond Search Getreport3 API
   slug: diamond-search-getreport3-api
-- description: The Labgrownfullfile API from Diamond Search — 1 operation(s) for labgrownfullfile.
+- baseURL: https://api.idexonline.com/onsite/api
+  baseurl_source: declared
+  description: The Labgrownfullfile API from Diamond Search — 1 operation(s) for labgrownfullfile.
   name: Diamond Search Labgrownfullfile API
   slug: diamond-search-labgrownfullfile-api
 artifact_total: 16
@@ -167,7 +173,7 @@ score:
     regime_id: securities_market_data
     score: 43.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diamond-search/refs/heads/main/screenshots/diamond-search-2026-06-20T180003.png
 security:

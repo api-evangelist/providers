@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 11 acting
 api_count: 1
 apis:
-- description: The authenticated user account.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: The authenticated user account.
   name: Transistor Account API
   slug: transistor-account-api
-- description: Download analytics for shows and episodes.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: Download analytics for shows and episodes.
   name: Transistor Analytics API
   slug: transistor-analytics-api
-- description: Podcast episodes, drafts, uploads, and publishing.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: Podcast episodes, drafts, uploads, and publishing.
   name: Transistor Episodes API
   slug: transistor-episodes-api
-- description: Podcasts (shows) in your Transistor account.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: Podcasts (shows) in your Transistor account.
   name: Transistor Shows API
   slug: transistor-shows-api
-- description: Private (subscriber-only) podcast subscribers.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: Private (subscriber-only) podcast subscribers.
   name: Transistor Subscribers API
   slug: transistor-subscribers-api
-- description: Event webhook subscriptions.
+- baseURL: https://api.transistor.fm/v1
+  baseurl_source: declared
+  description: Event webhook subscriptions.
   name: Transistor Webhooks API
   slug: transistor-webhooks-api
 artifact_total: 22
@@ -166,7 +178,7 @@ score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -189,8 +201,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/screenshots/transistor-2026-09-02T164127.png
 security:
 - kind: authentication
   name: Transistor Authentication

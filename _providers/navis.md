@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Truck gate transactions
+- baseURL_template: https://{terminal}.navis.example.com/apex/n4/api/v2
+  baseurl_source: spec_template
+  description: Truck gate transactions
   name: Navis (Kaleris) Gate API
   slug: navis-gate-api
-- description: Container hold management
+- baseURL_template: https://{terminal}.navis.example.com/apex/n4/api/v2
+  baseurl_source: spec_template
+  description: Container hold management
   name: Navis (Kaleris) Holds API
   slug: navis-holds-api
-- description: Work queues and crane operations
+- baseURL_template: https://{terminal}.navis.example.com/apex/n4/api/v2
+  baseurl_source: spec_template
+  description: Work queues and crane operations
   name: Navis (Kaleris) Operations API
   slug: navis-operations-api
-- description: Container and cargo unit tracking
+- baseURL_template: https://{terminal}.navis.example.com/apex/n4/api/v2
+  baseurl_source: spec_template
+  description: Container and cargo unit tracking
   name: Navis (Kaleris) Units API
   slug: navis-units-api
-- description: Vessel port call management and planning
+- baseURL_template: https://{terminal}.navis.example.com/apex/n4/api/v2
+  baseurl_source: spec_template
+  description: Vessel port call management and planning
   name: Navis (Kaleris) Vessel Visits API
   slug: navis-vessel-visits-api
 artifact_total: 27
@@ -233,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/screenshots/navis-2026-06-20T190102.png
 security:

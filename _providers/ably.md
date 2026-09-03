@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The apps API from Ably — 3 operation(s) for apps.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The apps API from Ably — 3 operation(s) for apps.
   name: Ably apps API
   slug: ably-apps-api
-- description: The Authentication API from Ably — 1 operation(s) for authentication.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The Authentication API from Ably — 1 operation(s) for authentication.
   name: Ably Authentication API
   slug: ably-authentication-api
-- description: The History API from Ably — 2 operation(s) for history.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The History API from Ably — 2 operation(s) for history.
   name: Ably History API
   slug: ably-history-api
-- description: The keys API from Ably — 3 operation(s) for keys.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The keys API from Ably — 3 operation(s) for keys.
   name: Ably keys API
   slug: ably-keys-api
-- description: The namespaces API from Ably — 2 operation(s) for namespaces.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The namespaces API from Ably — 2 operation(s) for namespaces.
   name: Ably namespaces API
   slug: ably-namespaces-api
-- description: The Publishing API from Ably — 1 operation(s) for publishing.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The Publishing API from Ably — 1 operation(s) for publishing.
   name: Ably Publishing API
   slug: ably-publishing-api
-- description: The Push API from Ably — 6 operation(s) for push.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The Push API from Ably — 6 operation(s) for push.
   name: Ably Push API
   slug: ably-push-api
-- description: The queues API from Ably — 2 operation(s) for queues.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The queues API from Ably — 2 operation(s) for queues.
   name: Ably queues API
   slug: ably-queues-api
-- description: The rules API from Ably — 2 operation(s) for rules.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The rules API from Ably — 2 operation(s) for rules.
   name: Ably rules API
   slug: ably-rules-api
-- description: The Stats API from Ably — 2 operation(s) for stats.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The Stats API from Ably — 2 operation(s) for stats.
   name: Ably Stats API
   slug: ably-stats-api
-- description: The Status API from Ably — 3 operation(s) for status.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The Status API from Ably — 3 operation(s) for status.
   name: Ably Status API
   slug: ably-status-api
-- description: The tokens API from Ably — 1 operation(s) for tokens.
+- baseURL: https://rest.ably.io
+  baseurl_source: declared
+  description: The tokens API from Ably — 1 operation(s) for tokens.
   name: Ably tokens API
   slug: ably-tokens-api
 artifact_total: 121
@@ -507,7 +531,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -517,7 +541,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 43.0
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -526,7 +550,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/screenshots/ably-2026-06-20T163221.png
 security:

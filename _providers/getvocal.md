@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Contact API from GetVocal — 1 operation(s) for contact.
+- baseURL: https://www.getvocal.ai
+  baseurl_source: declared
+  description: The Contact API from GetVocal — 1 operation(s) for contact.
   name: GetVocal Contact API
   slug: getvocal-contact-api
-- description: The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
+- baseURL: https://www.getvocal.ai
+  baseurl_source: declared
+  description: The Llms.txt API from GetVocal — 1 operation(s) for llms.txt.
   name: GetVocal Llms.txt API
   slug: getvocal-llms-txt-api
-- description: The .well Known API from GetVocal — 1 operation(s) for .well known.
+- baseURL: https://www.getvocal.ai
+  baseurl_source: declared
+  description: The .well Known API from GetVocal — 1 operation(s) for .well known.
   name: GetVocal .well Known API
   slug: getvocal-well-known-api
 artifact_total: 11
@@ -185,7 +191,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/screenshots/getvocal-2026-07-25T215750.png
 security:

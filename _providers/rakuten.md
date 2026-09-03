@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,13 +134,19 @@ apis:
 - description: RMS (Rakuten Merchant Server) is the operational API for Rakuten Ichiba sellers, covering item management, order management, shipping, inventory, and customer messaging. Access is restricted to approv
   name: Rakuten RMS (Merchant Server) API
   slug: rms
-- description: The Ichibagt API from Rakuten — 1 operation(s) for ichibagt.
+- baseURL: https://app.rakuten.co.jp
+  baseurl_source: declared
+  description: The Ichibagt API from Rakuten — 1 operation(s) for ichibagt.
   name: Rakuten Ichibagt API
   slug: rakuten-ichibagt-api
-- description: The Ichibams API from Rakuten — 1 operation(s) for ichibams.
+- baseURL: https://app.rakuten.co.jp
+  baseurl_source: declared
+  description: The Ichibams API from Rakuten — 1 operation(s) for ichibams.
   name: Rakuten Ichibams API
   slug: rakuten-ichibams-api
-- description: The Ichibaranking API from Rakuten — 1 operation(s) for ichibaranking.
+- baseURL: https://app.rakuten.co.jp
+  baseurl_source: declared
+  description: The Ichibaranking API from Rakuten — 1 operation(s) for ichibaranking.
   name: Rakuten Ichibaranking API
   slug: rakuten-ichibaranking-api
 artifact_total: 44
@@ -291,7 +297,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png
 security:

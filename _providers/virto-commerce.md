@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 9
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 426 operations · 283 acting · 9 human-in-the-loop
 api_count: 14
 apis:
-- description: Easily manage your products, categories, variations, and properties
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Easily manage your products, categories, variations, and properties
   name: Virto Commerce Catalog API
   slug: virto-commerce-catalog-api
-- description: Managing customers contacts and organizations
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Managing customers contacts and organizations
   name: Virto Commerce Companies and Contacts API
   slug: virto-commerce-companies-and-contacts-api
-- description: Simplify inventory management functionality
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Simplify inventory management functionality
   name: Virto Commerce Inventory API
   slug: virto-commerce-inventory-api
-- description: Marketing system with dynamic contents and promotions management
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Marketing system with dynamic contents and promotions management
   name: Virto Commerce Marketing API
   slug: virto-commerce-marketing-api
-- description: Document based flexible order management system.
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Document based flexible order management system.
   name: Virto Commerce Order Management API
   slug: virto-commerce-order-management-api
-- description: Robust pricing management functionality based on price list and dynamic evaluation
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Robust pricing management functionality based on price list and dynamic evaluation
   name: Virto Commerce Pricing API
   slug: virto-commerce-pricing-api
-- description: 'Quoter enables business users to execute quote requests online. Once initiated, an online conversation takes place with internal users who interact with the business user''s request. The internal user '
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: 'Quoter enables business users to execute quote requests online. Once initiated, an online conversation takes place with internal users who interact with the business user''s request. The internal user '
   name: Virto Commerce Quotes API
   slug: virto-commerce-quotes-api
-- description: Shopping cart / checkout functionality
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Shopping cart / checkout functionality
   name: Virto Commerce Shopping Cart API
   slug: virto-commerce-shopping-cart-api
-- description: Multi store management with individual store settings
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Multi store management with individual store settings
   name: Virto Commerce Store API
   slug: virto-commerce-store-api
-- description: B2B Innovation Platform
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: B2B Innovation Platform
   name: Virto Commerce VirtoCommerce Platform API
   slug: virto-commerce-virtocommerce-platform-api
-- description: Register HTTP webhooks against the platform domain-event catalog, compose the payload from selected entity properties (including previous values), fire test deliveries, and audit every delivery attemp
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: Register HTTP webhooks against the platform domain-event catalog, compose the payload from selected entity properties (including previous values), fire test deliveries, and audit every delivery attemp
   name: Virto Commerce Webhooks API
   slug: virto-commerce-webhooks-api
-- description: 'Return management: search returns, read a return by id, create or update a return against an order, and read the quantities still available to return.'
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: 'Return management: search returns, read a return by id, create or update a return against an order, and read the quantities still available to return.'
   name: Virto Commerce Returns API
   slug: virto-commerce-returns-api
-- description: The module enables you to be notified of new messages or changes via a Message Queue of your choice
+- baseURL: https://virtostart-demo-admin.govirto.com/api
+  baseurl_source: declared
+  description: The module enables you to be notified of new messages or changes via a Message Queue of your choice
   name: Virto Commerce Event Bus module API
   slug: virto-commerce-event-bus-module-api
 artifact_total: 35
@@ -365,7 +391,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -378,7 +404,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 64.9
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,7 +422,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Analytics API from Radio Mast — 3 operation(s) for analytics.
+- baseURL: https://api.radiomast.io/v1
+  baseurl_source: declared
+  description: The Analytics API from Radio Mast — 3 operation(s) for analytics.
   name: Radio Mast Analytics API
   slug: radio-mast-analytics-api
-- description: The Listener Pools API from Radio Mast — 1 operation(s) for listener pools.
+- baseURL: https://api.radiomast.io/v1
+  baseurl_source: declared
+  description: The Listener Pools API from Radio Mast — 1 operation(s) for listener pools.
   name: Radio Mast Listener Pools API
   slug: radio-mast-listener-pools-api
-- description: The Radio Mast API API from Radio Mast — 1 operation(s) for radio mast api.
+- baseURL: https://api.radiomast.io/v1
+  baseurl_source: declared
+  description: The Radio Mast API API from Radio Mast — 1 operation(s) for radio mast api.
   name: Radio Mast Radio Mast API API
   slug: radio-mast-radio-mast-api-api
-- description: The Radio Stations API from Radio Mast — 1 operation(s) for radio stations.
+- baseURL: https://api.radiomast.io/v1
+  baseurl_source: declared
+  description: The Radio Stations API from Radio Mast — 1 operation(s) for radio stations.
   name: Radio Mast Radio Stations API
   slug: radio-mast-radio-stations-api
-- description: The Radio Streams API from Radio Mast — 2 operation(s) for radio streams.
+- baseURL: https://api.radiomast.io/v1
+  baseurl_source: declared
+  description: The Radio Streams API from Radio Mast — 2 operation(s) for radio streams.
   name: Radio Mast Radio Streams API
   slug: radio-mast-radio-streams-api
 artifact_total: 18
@@ -163,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/screenshots/radio-mast-2026-06-20T192524.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -45,31 +45,49 @@ agentic_access:
   summary_line: 39 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations related to chains, such as list all chains.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to chains, such as list all chains.
   name: Zerion chains API
   slug: zerion-chains-api
-- description: Operations related to decentralized applications, such as list them all, search or get by ID.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to decentralized applications, such as list them all, search or get by ID.
   name: Zerion dapps API
   slug: zerion-dapps-api
-- description: Operations related to fungible assets, such as list them all, search or get by ID.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to fungible assets, such as list them all, search or get by ID.
   name: Zerion fungibles API
   slug: zerion-fungibles-api
-- description: Operations related to gas.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to gas.
   name: Zerion gas API
   slug: zerion-gas-api
-- description: Operations related to non fungible assets, such list them, search or get by ID.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to non fungible assets, such list them, search or get by ID.
   name: Zerion nfts API
   slug: zerion-nfts-api
-- description: Operations related to subscriptions to transactions.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to subscriptions to transactions.
   name: Zerion subscriptions to transactions API
   slug: zerion-subscriptions-to-transactions-api
-- description: Operations related to swapping and bridging assets.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to swapping and bridging assets.
   name: Zerion swap API
   slug: zerion-swap-api
-- description: Operations on a wallet set — aggregated portfolio data across at most one EVM address and one Solana address queried together.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations on a wallet set — aggregated portfolio data across at most one EVM address and one Solana address queried together.
   name: Zerion wallet sets API
   slug: zerion-wallet-sets-api
-- description: Operations related to wallets, such as portfolio charts, positions, and transactions.
+- baseURL: https://api.zerion.io
+  baseurl_source: declared
+  description: Operations related to wallets, such as portfolio charts, positions, and transactions.
   name: Zerion wallets API
   slug: zerion-wallets-api
 arazzos:
@@ -315,7 +333,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -325,7 +343,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 64.6
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,7 +361,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/screenshots/zerion-2026-08-17T083053.png
 security:

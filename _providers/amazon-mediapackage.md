@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 19 operations · 12 acting
 api_count: 1
 apis:
-- description: The Channels API from Amazon MediaPackage — 5 operation(s) for channels.
+- baseURL: http://mediapackage.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Channels API from Amazon MediaPackage — 5 operation(s) for channels.
   name: Amazon MediaPackage Channels API
   slug: amazon-mediapackage-channels-api
-- description: The Harvest Jobs API from Amazon MediaPackage — 2 operation(s) for harvest jobs.
+- baseURL: http://mediapackage.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Harvest Jobs API from Amazon MediaPackage — 2 operation(s) for harvest jobs.
   name: Amazon MediaPackage Harvest Jobs API
   slug: amazon-mediapackage-harvest-jobs-api
-- description: The Origin Endpoints API from Amazon MediaPackage — 2 operation(s) for origin endpoints.
+- baseURL: http://mediapackage.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Origin Endpoints API from Amazon MediaPackage — 2 operation(s) for origin endpoints.
   name: Amazon MediaPackage Origin Endpoints API
   slug: amazon-mediapackage-origin-endpoints-api
-- description: The Tags API from Amazon MediaPackage — 2 operation(s) for tags.
+- baseURL: http://mediapackage.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MediaPackage — 2 operation(s) for tags.
   name: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
 artifact_total: 261
@@ -946,7 +954,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/screenshots/amazon-mediapackage-2026-06-20T171746.png
 security:

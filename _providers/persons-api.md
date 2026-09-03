@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Placing and managing of persons placed for persons.
+- baseURL: http://apis.example.com
+  baseurl_source: declared
+  description: Placing and managing of persons placed for persons.
   name: Persons Persons API
   slug: persons-api-persons-api
 artifact_total: 9
@@ -123,7 +125,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persons-api/refs/heads/main/screenshots/persons-api-2026-06-20T191617.png
 security:

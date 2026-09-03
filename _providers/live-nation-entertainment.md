@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Search and retrieve attraction information.
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Search and retrieve attraction information.
   name: live-nation-entertainment Attractions API
   slug: live-nation-entertainment-attractions-api
-- description: Search and retrieve classification/genre information.
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Search and retrieve classification/genre information.
   name: live-nation-entertainment Classifications API
   slug: live-nation-entertainment-classifications-api
-- description: Search and retrieve event information.
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Search and retrieve event information.
   name: live-nation-entertainment Events API
   slug: live-nation-entertainment-events-api
-- description: Search and retrieve venue information.
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Search and retrieve venue information.
   name: live-nation-entertainment Venues API
   slug: live-nation-entertainment-venues-api
 artifact_total: 16
@@ -109,13 +117,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/live-nation-entertainment.png
 layout: provider
 modified: '2026-05-19'
-name: live-nation-entertainment
+name: Live Nation Entertainment
 nav: Providers
 network: true
-overview: 'live-nation-entertainment publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Attractions API, Classifications API, Events API, and 1 more. Tagged areas include Fortune 500.
+overview: 'Live Nation Entertainment publishes 4 APIs on the [APIs.io](https://apis.io/) network, including live-nation-entertainment Attractions API, live-nation-entertainment Classifications API, live-nation-entertainment Events API, and 1 more. Tagged areas include Fortune 500.
 
 
-  live-nation-entertainment''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
+  Live Nation Entertainment''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Live Nation Entertainment Plans Pricing
   plan_count: 3
@@ -168,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png
 security:

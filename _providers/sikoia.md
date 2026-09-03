@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 71 operations · 31 acting
 api_count: 1
 apis:
-- description: The Adverse Media API from Sikoia — 2 operation(s) for adverse media.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Adverse Media API from Sikoia — 2 operation(s) for adverse media.
   name: Sikoia Adverse Media API
   slug: sikoia-adverse-media-api
-- description: The Affordability Insights API from Sikoia — 5 operation(s) for affordability insights.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Affordability Insights API from Sikoia — 5 operation(s) for affordability insights.
   name: Sikoia Affordability Insights API
   slug: sikoia-affordability-insights-api
-- description: The Authentication API from Sikoia — 1 operation(s) for authentication.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Authentication API from Sikoia — 1 operation(s) for authentication.
   name: Sikoia Authentication API
   slug: sikoia-authentication-api
-- description: The Banking API from Sikoia — 8 operation(s) for banking.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Banking API from Sikoia — 8 operation(s) for banking.
   name: Sikoia Banking API
   slug: sikoia-banking-api
-- description: The Cases API from Sikoia — 2 operation(s) for cases.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Cases API from Sikoia — 2 operation(s) for cases.
   name: Sikoia Cases API
   slug: sikoia-cases-api
-- description: The Checklist API from Sikoia — 1 operation(s) for checklist.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Checklist API from Sikoia — 1 operation(s) for checklist.
   name: Sikoia Checklist API
   slug: sikoia-checklist-api
-- description: The Companies & People API from Sikoia — 2 operation(s) for companies & people.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Companies & People API from Sikoia — 2 operation(s) for companies & people.
   name: Sikoia Companies & People API
   slug: sikoia-companies-people-api
-- description: The Company Credit Report API from Sikoia — 4 operation(s) for company credit report.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Company Credit Report API from Sikoia — 4 operation(s) for company credit report.
   name: Sikoia Company Credit Report API
   slug: sikoia-company-credit-report-api
-- description: The Company Registry API from Sikoia — 5 operation(s) for company registry.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Company Registry API from Sikoia — 5 operation(s) for company registry.
   name: Sikoia Company Registry API
   slug: sikoia-company-registry-api
-- description: The Data Sources API from Sikoia — 1 operation(s) for data sources.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Data Sources API from Sikoia — 1 operation(s) for data sources.
   name: Sikoia Data Sources API
   slug: sikoia-data-sources-api
-- description: The Documents API from Sikoia — 5 operation(s) for documents.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Documents API from Sikoia — 5 operation(s) for documents.
   name: Sikoia Documents API
   slug: sikoia-documents-api
-- description: The Excel Report API from Sikoia — 1 operation(s) for excel report.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Excel Report API from Sikoia — 1 operation(s) for excel report.
   name: Sikoia Excel Report API
   slug: sikoia-excel-report-api
-- description: The Identity Verification API from Sikoia — 3 operation(s) for identity verification.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Identity Verification API from Sikoia — 3 operation(s) for identity verification.
   name: Sikoia Identity Verification API
   slug: sikoia-identity-verification-api
-- description: The Income & Employer Verification API from Sikoia — 4 operation(s) for income & employer verification.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Income & Employer Verification API from Sikoia — 4 operation(s) for income & employer verification.
   name: Sikoia Income & Employer Verification API
   slug: sikoia-income-employer-verification-api
-- description: The Online Data API from Sikoia — 3 operation(s) for online data.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Online Data API from Sikoia — 3 operation(s) for online data.
   name: Sikoia Online Data API
   slug: sikoia-online-data-api
-- description: The PEPs & Sanctions API from Sikoia — 2 operation(s) for peps & sanctions.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The PEPs & Sanctions API from Sikoia — 2 operation(s) for peps & sanctions.
   name: Sikoia PEPs & Sanctions API
   slug: sikoia-peps-sanctions-api
-- description: The User Management API from Sikoia — 1 operation(s) for user management.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The User Management API from Sikoia — 1 operation(s) for user management.
   name: Sikoia User Management API
   slug: sikoia-user-management-api
-- description: The Validation Checklists API from Sikoia — 4 operation(s) for validation checklists.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Validation Checklists API from Sikoia — 4 operation(s) for validation checklists.
   name: Sikoia Validation Checklists API
   slug: sikoia-validation-checklists-api
-- description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
+- baseURL: https://api.sikoia.com
+  baseurl_source: declared
+  description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
   name: Sikoia Webhooks API
   slug: sikoia-webhooks-api
 artifact_total: 45
@@ -335,7 +373,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -345,7 +383,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 56.2
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,7 +401,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/screenshots/sikoia-2026-08-17T081855.png
 security:

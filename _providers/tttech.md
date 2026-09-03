@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 11
@@ -33,10 +46,14 @@ agentic_access:
   summary_line: 228 operations · 122 acting · 11 human-in-the-loop
 api_count: 2
 apis:
-- description: REST API of the Nerve Management System, the cloud-hosted control plane for Nerve edge nodes. Covers authentication and MFA, node registration and lifecycle, workload and workload-version management (
+- baseURL: https://trynerve1.nerve.cloud
+  baseurl_source: declared
+  description: REST API of the Nerve Management System, the cloud-hosted control plane for Nerve edge nodes. Covers authentication and MFA, node registration and lifecycle, workload and workload-version management (
   name: Nerve Management System API
   slug: nerve-management-system-api
-- description: 'REST API served by the Nerve Local UI on each Nerve edge node. Covers node initialization and license activation, system and network configuration, proxy settings, local users and permissions, Docker '
+- baseURL: http://172.20.2.1:3333
+  baseurl_source: declared
+  description: 'REST API served by the Nerve Local UI on each Nerve edge node. Covers node initialization and license activation, system and network configuration, proxy settings, local users and permissions, Docker '
   name: Nerve Node API
   slug: nerve-node-api
 artifact_total: 8
@@ -189,21 +206,23 @@ rate_limits:
   slug: tttech-rate-limits
 score:
   band: developing
-  composite: 53.1
+  composite: 53.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 55.8
+    contract_quality: 56.6
     developer_ergonomics: 80.4
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 63.2
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -215,7 +234,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tttech/refs/heads/main/screenshots/tttech-2026-09-02T164452.png
 security:
 - kind: authentication
   name: Tttech Authentication

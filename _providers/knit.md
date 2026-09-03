@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: Operations for managing department data across connected platforms.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing department data across connected platforms.
   name: Knit Departments API
   slug: knit-departments-api
-- description: Operations for managing employee data across connected HRIS platforms.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing employee data across connected HRIS platforms.
   name: Knit Employees API
   slug: knit-employees-api
-- description: Operations for managing connected integrations.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing connected integrations.
   name: Knit Integrations API
   slug: knit-integrations-api
-- description: Operations for managing job postings and applications via ATS integrations.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing job postings and applications via ATS integrations.
   name: Knit Jobs API
   slug: knit-jobs-api
-- description: Operations for managing location/office data.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing location/office data.
   name: Knit Locations API
   slug: knit-locations-api
-- description: Operations for monitoring sync status and triggering syncs.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for monitoring sync status and triggering syncs.
   name: Knit Syncs API
   slug: knit-syncs-api
-- description: Operations for managing time off and leave data.
+- baseURL: https://api.getknit.dev/v1
+  baseurl_source: declared
+  description: Operations for managing time off and leave data.
   name: Knit Time Off API
   slug: knit-time-off-api
 artifact_total: 46
@@ -232,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/screenshots/knit-2026-06-20T184110.png
 security:

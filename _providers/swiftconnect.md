@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The SwiftConnect Developer API provides programmatic access to access credentials, permissions, people, buildings, readers and devices across the connected access network, so provisioning workflows ca
@@ -147,7 +159,7 @@ score:
   band: emerging
   composite: 21.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -172,8 +184,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swiftconnect/refs/heads/main/screenshots/swiftconnect-2026-09-02T161355.png
 security:
 - kind: authentication
   name: Swiftconnect Authentication

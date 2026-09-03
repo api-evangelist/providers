@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,61 +44,99 @@ agentic_access:
   summary_line: 68 operations
 api_count: 19
 apis:
-- description: The AGT Jobs API from American Gene Technologies — 2 operation(s) for agt jobs.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The AGT Jobs API from American Gene Technologies — 2 operation(s) for agt jobs.
   name: American Gene Technologies AGT Jobs API
   slug: american-gene-technologies-international-agt-jobs-api
-- description: The AGT Newsletters API from American Gene Technologies — 2 operation(s) for agt newsletters.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The AGT Newsletters API from American Gene Technologies — 2 operation(s) for agt newsletters.
   name: American Gene Technologies AGT Newsletters API
   slug: american-gene-technologies-international-agt-newsletters-api
-- description: The Blogs API from American Gene Technologies — 2 operation(s) for blogs.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Blogs API from American Gene Technologies — 2 operation(s) for blogs.
   name: American Gene Technologies Blogs API
   slug: american-gene-technologies-international-blogs-api
-- description: The Discovery API from American Gene Technologies — 6 operation(s) for discovery.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Discovery API from American Gene Technologies — 6 operation(s) for discovery.
   name: American Gene Technologies Discovery API
   slug: american-gene-technologies-international-discovery-api
-- description: The Gene Therapies API from American Gene Technologies — 2 operation(s) for gene therapies.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Gene Therapies API from American Gene Technologies — 2 operation(s) for gene therapies.
   name: American Gene Technologies Gene Therapies API
   slug: american-gene-technologies-international-gene-therapies-api
-- description: The In The News API from American Gene Technologies — 2 operation(s) for in the news.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The In The News API from American Gene Technologies — 2 operation(s) for in the news.
   name: American Gene Technologies In The News API
   slug: american-gene-technologies-international-in-the-news-api
-- description: The Media API from American Gene Technologies — 2 operation(s) for media.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Media API from American Gene Technologies — 2 operation(s) for media.
   name: American Gene Technologies Media API
   slug: american-gene-technologies-international-media-api
-- description: The Milestones API from American Gene Technologies — 2 operation(s) for milestones.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Milestones API from American Gene Technologies — 2 operation(s) for milestones.
   name: American Gene Technologies Milestones API
   slug: american-gene-technologies-international-milestones-api
-- description: The News Releases API from American Gene Technologies — 2 operation(s) for news releases.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The News Releases API from American Gene Technologies — 2 operation(s) for news releases.
   name: American Gene Technologies News Releases API
   slug: american-gene-technologies-international-news-releases-api
-- description: The oEmbed API from American Gene Technologies — 1 operation(s) for oembed.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The oEmbed API from American Gene Technologies — 1 operation(s) for oembed.
   name: American Gene Technologies O Embed API
   slug: american-gene-technologies-international-oembed-api
-- description: The Pages API from American Gene Technologies — 2 operation(s) for pages.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Pages API from American Gene Technologies — 2 operation(s) for pages.
   name: American Gene Technologies Pages API
   slug: american-gene-technologies-international-pages-api
-- description: The Patents API from American Gene Technologies — 2 operation(s) for patents.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Patents API from American Gene Technologies — 2 operation(s) for patents.
   name: American Gene Technologies Patents API
   slug: american-gene-technologies-international-patents-api
-- description: The Posts API from American Gene Technologies — 2 operation(s) for posts.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Posts API from American Gene Technologies — 2 operation(s) for posts.
   name: American Gene Technologies Posts API
   slug: american-gene-technologies-international-posts-api
-- description: The Scientific And Clinical Advisors API from American Gene Technologies — 2 operation(s) for scientific and clinical advisors.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Scientific And Clinical Advisors API from American Gene Technologies — 2 operation(s) for scientific and clinical advisors.
   name: American Gene Technologies Scientific And Clinical Advisors API
   slug: american-gene-technologies-international-scientific-and-clinical-advisors-api
-- description: The Search API from American Gene Technologies — 1 operation(s) for search.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Search API from American Gene Technologies — 1 operation(s) for search.
   name: American Gene Technologies Search API
   slug: american-gene-technologies-international-search-api
-- description: The Taxonomies API from American Gene Technologies — 30 operation(s) for taxonomies.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Taxonomies API from American Gene Technologies — 30 operation(s) for taxonomies.
   name: American Gene Technologies Taxonomies API
   slug: american-gene-technologies-international-taxonomies-api
-- description: The Video Series Videos API from American Gene Technologies — 2 operation(s) for video series videos.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Video Series Videos API from American Gene Technologies — 2 operation(s) for video series videos.
   name: American Gene Technologies Video Series Videos API
   slug: american-gene-technologies-international-video-series-videos-api
-- description: The Videos API from American Gene Technologies — 2 operation(s) for videos.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Videos API from American Gene Technologies — 2 operation(s) for videos.
   name: American Gene Technologies Videos API
   slug: american-gene-technologies-international-videos-api
-- description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
+- baseURL: https://www.americangene.com/wp-json
+  baseurl_source: declared
+  description: The Young Minds API from American Gene Technologies — 2 operation(s) for young minds.
   name: American Gene Technologies Young Minds API
   slug: american-gene-technologies-international-young-minds-api
 artifact_total: 43
@@ -363,7 +412,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-gene-technologies-international/refs/heads/main/screenshots/american-gene-technologies-international-2026-08-07T161327.png
 security:

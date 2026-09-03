@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,28 +37,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Endpoints for managing and retrieving customer-specific environment configurations.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: Endpoints for managing and retrieving customer-specific environment configurations.
   name: RELEX Solutions Environments API
   slug: relex-environments-api
-- description: Endpoints for fetching files and jobs event data.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: Endpoints for fetching files and jobs event data.
   name: RELEX Solutions Events API
   slug: relex-events-api
-- description: Endpoint that report on the Monitoring API operational and readiness status.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: Endpoint that report on the Monitoring API operational and readiness status.
   name: RELEX Solutions Health API
   slug: relex-health-api
-- description: The namespace for master data contains the different endpoints for transferring master data.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: The namespace for master data contains the different endpoints for transferring master data.
   name: RELEX Solutions Master data API
   slug: relex-master-data-api
-- description: The namespace for metadata contains the different endpoints for API metadata.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: The namespace for metadata contains the different endpoints for API metadata.
   name: RELEX Solutions Metadata API
   slug: relex-metadata-api
-- description: The Monitoring API exposes a Prometheus-compatible metrics endpoint at `/api/v1/{customer_id}/metrics`. The metrics available over this endpoint give quantitative insight into the throughput, latency,
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: The Monitoring API exposes a Prometheus-compatible metrics endpoint at `/api/v1/{customer_id}/metrics`. The metrics available over this endpoint give quantitative insight into the throughput, latency,
   name: RELEX Solutions Metrics API
   slug: relex-metrics-api
-- description: The namespace for transaction data contains the different endpoints for inventory transactions, balance and open order information.
+- baseURL: https://eu.rest.relexsolutions.com
+  baseurl_source: declared
+  description: The namespace for transaction data contains the different endpoints for inventory transactions, balance and open order information.
   name: RELEX Solutions Transactions API
   slug: relex-transactions-api
 artifact_total: 15
@@ -235,11 +263,11 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -249,7 +277,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 51.5
+  previous_composite: 51.3
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +288,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/relex/refs/heads/main/screenshots/relex-2026-09-02T153336.png
 security:
 - kind: authentication
   name: Relex Authentication

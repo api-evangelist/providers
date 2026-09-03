@@ -34,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Briefing Agent — automated market briefings with scheduling and delivery
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Briefing Agent — automated market briefings with scheduling and delivery
   name: LinqAlpha Briefing API
   slug: linqalpha-briefing-api
-- description: Customer Connectors — customer-owned MCP connector management
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Customer Connectors — customer-owned MCP connector management
   name: LinqAlpha Connectors API
   slug: linqalpha-connectors-api
-- description: Data retrieval and mapping
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Data retrieval and mapping
   name: LinqAlpha Data API
   slug: linqalpha-data-api
-- description: Conversation feedback
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Conversation feedback
   name: LinqAlpha Feedback API
   slug: linqalpha-feedback-api
-- description: LinqAlpha MCP — Financial data tools for AI assistants via Model Context Protocol
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: LinqAlpha MCP — Financial data tools for AI assistants via Model Context Protocol
   name: LinqAlpha MCP API
   slug: linqalpha-mcp-api
-- description: Research Management System
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Research Management System
   name: LinqAlpha RMS API
   slug: linqalpha-rms-api
-- description: Search and generate responses
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Search and generate responses
   name: LinqAlpha Search API
   slug: linqalpha-search-api
-- description: Source batch and file management
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Source batch and file management
   name: LinqAlpha Source Management API
   slug: linqalpha-source-management-api
-- description: Sync status — check organization, document, and container sync progress
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: Sync status — check organization, document, and container sync progress
   name: LinqAlpha Status API
   slug: linqalpha-status-api
-- description: The Vault API from LinqAlpha — 3 operation(s) for vault.
+- baseURL: https://api.linqalpha.com
+  baseurl_source: declared
+  description: The Vault API from LinqAlpha — 3 operation(s) for vault.
   name: LinqAlpha Vault API
   slug: linqalpha-vault-api
 artifact_total: 27
@@ -276,7 +296,7 @@ score:
     regime_id: securities_market_data
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqalpha/refs/heads/main/screenshots/linqalpha-2026-07-25T225300.png
 security:

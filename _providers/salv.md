@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 36 operations · 21 acting
 api_count: 1
 apis:
-- description: The alert API from Salv — 1 operation(s) for alert.
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: The alert API from Salv — 1 operation(s) for alert.
   name: Salv alert API
   slug: salv-alert-api
-- description: Salv has multiple properties that are associated with individual alerts and influence alert management process based on their assignment. Using the initial alert ID and TYPE that are generated after d
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Salv has multiple properties that are associated with individual alerts and influence alert management process based on their assignment. Using the initial alert ID and TYPE that are generated after d
   name: Salv alerts API
   slug: salv-alerts-api
-- description: 'This section contains all operations managing the state of persons and transactions. There are three endpoints for creating or modifying a person, make sure to choose the right one for your task: * [C'
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: 'This section contains all operations managing the state of persons and transactions. There are three endpoints for creating or modifying a person, make sure to choose the right one for your task: * [C'
   name: Salv aml API
   slug: salv-aml-api
-- description: 'Endpoints to add, update, delete and get custom list records. Custom Lists can be used in two ways: - Custom Lists can be used to screen persons and transactions against them in the same way it works '
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: 'Endpoints to add, update, delete and get custom list records. Custom Lists can be used in two ways: - Custom Lists can be used to screen persons and transactions against them in the same way it works '
   name: Salv custom-list-record API
   slug: salv-custom-list-record-api
-- description: Custom list usable fields can be used in [Screening search](#tag/screening-searches/operation/search)
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Custom list usable fields can be used in [Screening search](#tag/screening-searches/operation/search)
   name: Salv custom-list-usable-field-public API
   slug: salv-custom-list-usable-field-public-api
-- description: '## Steps to upload data using CSV 1. Format the csv file and add all the mandatory data fields indicated in the [User Manual](https://help.salv.com/en/articles/154650-data-overview) 2. Upload the [csv'
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: '## Steps to upload data using CSV 1. Format the csv file and add all the mandatory data fields indicated in the [User Manual](https://help.salv.com/en/articles/154650-data-overview) 2. Upload the [csv'
   name: Salv data-upload API
   slug: salv-data-upload-api
-- description: Manual alerts allow compliance officers to create alerts manually for persons or transactions that require investigation outside of automated monitoring and screening processes. These alerts can be us
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Manual alerts allow compliance officers to create alerts manually for persons or transactions that require investigation outside of automated monitoring and screening processes. These alerts can be us
   name: Salv manual-alerts API
   slug: salv-manual-alerts-api
-- description: 'Person & Transaction monitoring. Real-time (ONLINE) scenarios should be used when an alert created by the scenario should block the transaction. [Example: Real-time (pre-processing) transaction monito'
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: 'Person & Transaction monitoring. Real-time (ONLINE) scenarios should be used when an alert created by the scenario should block the transaction. [Example: Real-time (pre-processing) transaction monito'
   name: Salv monitoring-checks API
   slug: salv-monitoring-checks-api
-- description: The note API from Salv — 1 operation(s) for note.
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: The note API from Salv — 1 operation(s) for note.
   name: Salv note API
   slug: salv-note-api
-- description: Risks levels are assigned to persons according to configured risk rules. It is up to client how to interpret each particular level. Risk rules are configured in Salv UI. Person risk is scored every ti
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Risks levels are assigned to persons according to configured risk rules. It is up to client how to interpret each particular level. Risk rules are configured in Salv UI. Person risk is scored every ti
   name: Salv risk API
   slug: salv-risk-api
-- description: Screening alert is created when a particular field of a particular person matches against one of the screening lists. Screening alert has a list of hits, each of which represent one matched record fro
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Screening alert is created when a particular field of a particular person matches against one of the screening lists. Screening alert has a list of hits, each of which represent one matched record fro
   name: Salv screening-alerts API
   slug: salv-screening-alerts-api
-- description: Screening checks for transaction and person.
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Screening checks for transaction and person.
   name: Salv screening-checks API
   slug: salv-screening-checks-api
-- description: Screening selectors can be used in screening search. These can be used in [Screening search](#tag/screening-searches/operation/search)
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Screening selectors can be used in screening search. These can be used in [Screening search](#tag/screening-searches/operation/search)
   name: Salv screening-list-groups API
   slug: salv-screening-list-groups-api
-- description: Screening search can be used to check any name against screening lists without first uploading a person or a transaction.
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Screening search can be used to check any name against screening lists without first uploading a person or a transaction.
   name: Salv screening-searches API
   slug: salv-screening-searches-api
-- description: Endpoints to check if given entity has anything unresolved
+- baseURL: https://app.salv.com/api
+  baseurl_source: declared
+  description: Endpoints to check if given entity has anything unresolved
   name: Salv unresolved-alerts API
   slug: salv-unresolved-alerts-api
 artifact_total: 39
@@ -301,7 +331,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -311,7 +341,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 40.8
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,7 +353,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salv/refs/heads/main/screenshots/salv-2026-08-17T081716.png
 security:

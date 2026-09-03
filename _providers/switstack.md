@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 2
@@ -33,28 +47,44 @@ agentic_access:
   summary_line: 128 operations · 89 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: The Auth API from Switstack — 3 operation(s) for auth.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Auth API from Switstack — 3 operation(s) for auth.
   name: Switstack Auth API
   slug: switstack-auth-api
-- description: The BOM API from Switstack — 6 operation(s) for bom.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The BOM API from Switstack — 6 operation(s) for bom.
   name: Switstack BOM API
   slug: switstack-bom-api
-- description: The Config API from Switstack — 29 operation(s) for config.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Config API from Switstack — 29 operation(s) for config.
   name: Switstack Config API
   slug: switstack-config-api
-- description: The Parser API from Switstack — 4 operation(s) for parser.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Parser API from Switstack — 4 operation(s) for parser.
   name: Switstack Parser API
   slug: switstack-parser-api
-- description: The Payment API from Switstack — 4 operation(s) for payment.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Payment API from Switstack — 4 operation(s) for payment.
   name: Switstack Payment API
   slug: switstack-payment-api
-- description: The Suite API from Switstack — 2 operation(s) for suite.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Suite API from Switstack — 2 operation(s) for suite.
   name: Switstack Suite API
   slug: switstack-suite-api
-- description: The Test API from Switstack — 5 operation(s) for test.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Test API from Switstack — 5 operation(s) for test.
   name: Switstack Test API
   slug: switstack-test-api
-- description: The Validation API from Switstack — 6 operation(s) for validation.
+- baseURL: https://switcloud.switstack.io/
+  baseurl_source: declared
+  description: The Validation API from Switstack — 6 operation(s) for validation.
   name: Switstack Validation API
   slug: switstack-validation-api
 arazzos:
@@ -239,7 +269,7 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 26
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -271,8 +301,9 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/screenshots/switstack-2026-09-02T161419.png
 security:
 - kind: authentication
   name: Switstack Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Endpoints for authenticating end-users and obtaining authorization grants.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: Endpoints for authenticating end-users and obtaining authorization grants.
   name: OIDC Authentication API
   slug: oidc-authentication-api
-- description: OpenID Connect Discovery endpoints for provider metadata.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: OpenID Connect Discovery endpoints for provider metadata.
   name: OIDC Discovery API
   slug: oidc-discovery-api
-- description: JSON Web Key Set endpoint for token signature verification.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: JSON Web Key Set endpoint for token signature verification.
   name: OIDC JWKS API
   slug: oidc-jwks-api
-- description: Session management endpoints including logout.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: Session management endpoints including logout.
   name: OIDC Session API
   slug: oidc-session-api
-- description: Token endpoint for exchanging authorization codes for tokens.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: Token endpoint for exchanging authorization codes for tokens.
   name: OIDC Token API
   slug: oidc-token-api
-- description: Endpoint for retrieving claims about the authenticated end-user.
+- baseURL_template: https://{issuer}
+  baseurl_source: spec_template
+  description: Endpoint for retrieving claims about the authenticated end-user.
   name: OIDC UserInfo API
   slug: oidc-userinfo-api
 artifact_total: 24
@@ -193,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oidc/refs/heads/main/screenshots/oidc-2026-06-20T190645.png
 security:

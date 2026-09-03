@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: Evaluates whether a given nonprofit is eligible to receive a grant or donation based on configurable rules — IRS status, country, OFAC, custom program criteria — to automate grantmaking and giving wor
   name: Candid Nonprofit Eligibility API
   slug: nonprofit-eligibility-api
-- description: Operations for retrieving lookup values and filter metadata.
+- baseURL: https://api.candid.org/essentials
+  baseurl_source: declared
+  description: Operations for retrieving lookup values and filter metadata.
   name: Candid Lookup API
   slug: candid-lookup-api
-- description: Operations for searching the Candid nonprofit database.
+- baseURL: https://api.candid.org/essentials
+  baseurl_source: declared
+  description: Operations for searching the Candid nonprofit database.
   name: Candid Search API
   slug: candid-search-api
 artifact_total: 19
@@ -194,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid/refs/heads/main/screenshots/candid-2026-06-20T173922.png
 security:

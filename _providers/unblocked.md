@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Ask Unblocked questions and retrieve answers asynchronously. Submit a question using the PUT endpoint and poll for the response using the GET endpoint.
+- baseURL: https://getunblocked.com/api/v1
+  baseurl_source: declared
+  description: Ask Unblocked questions and retrieve answers asynchronously. Submit a question using the PUT endpoint and poll for the response using the GET endpoint.
   name: Unblocked Answers API
   slug: unblocked-answers-api
-- description: A collection in Unblocked allows you to organize related documents from various data sources, such as customer support tools, knowledge bases, and internal wikis, which are not natively supported by U
+- baseURL: https://getunblocked.com/api/v1
+  baseurl_source: declared
+  description: A collection in Unblocked allows you to organize related documents from various data sources, such as customer support tools, knowledge bases, and internal wikis, which are not natively supported by U
   name: Unblocked Collections API
   slug: unblocked-collections-api
-- description: A document contains content that Unblocked uses to answer questions. Each document is associated with a collection, so you must create a collection before adding documents. Documents used to provide a
+- baseURL: https://getunblocked.com/api/v1
+  baseurl_source: declared
+  description: A document contains content that Unblocked uses to answer questions. Each document is associated with a collection, so you must create a collection before adding documents. Documents used to provide a
   name: Unblocked Documents API
   slug: unblocked-documents-api
 artifact_total: 12
@@ -246,7 +252,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/screenshots/unblocked-2026-08-17T082549.png
 security:

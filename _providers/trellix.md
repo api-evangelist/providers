@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 21 operations · 6 acting
 api_count: 2
 apis:
-- description: McAfee ePolicy Orchestrator (ePO) REST API for centralized security management, policy enforcement, and reporting across the enterprise.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: McAfee ePolicy Orchestrator (ePO) REST API for centralized security management, policy enforcement, and reporting across the enterprise.
   name: Trellix ePO API
   slug: trellix-epo-api
 - description: The Trellix ePO SaaS API provides cloud-based access to ePolicy Orchestrator management capabilities. It enables programmatic control of devices, events, tags, queries, and response actions through th
@@ -86,43 +88,69 @@ apis:
 - description: Interactive API documentation and testing tool for Trellix security products formerly under the FireEye brand. Provides a web-based interface for exploring and testing API endpoints across multiple Tr
   name: Trellix API Explorer
   slug: trellix-api-explorer
-- description: Retrieve the history of response actions executed on managed endpoints through the EDR platform.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Retrieve the history of response actions executed on managed endpoints through the EDR platform.
   name: Trellix Action History API
   slug: trellix-action-history-api
-- description: Query detection counts, severity rankings, and first detection timestamps for systems affected by threats.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Query detection counts, severity rankings, and first detection timestamps for systems affected by threats.
   name: Trellix Affected Hosts API
   slug: trellix-affected-hosts-api
-- description: Access discrete detection alerts containing process, user, and host context with trace identifiers and severity scores.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Access discrete detection alerts containing process, user, and host context with trace identifiers and severity scores.
   name: Trellix Alerts API
   slug: trellix-alerts-api
-- description: Retrieve individual detection events with process names, command lines, hash identifiers, and domain information.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Retrieve individual detection events with process names, command lines, hash identifiers, and domain information.
   name: Trellix Detections API
   slug: trellix-detections-api
-- description: Manage and query endpoint devices registered in ePO SaaS, including device attributes, agent status, and system information.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage and query endpoint devices registered in ePO SaaS, including device attributes, agent status, and system information.
   name: Trellix Devices API
   slug: trellix-devices-api
-- description: The Epo API from Trellix — 2 operation(s) for epo.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: The Epo API from Trellix — 2 operation(s) for epo.
   name: Trellix Epo API
   slug: trellix-epo-api
-- description: Retrieve threat events and security incidents detected across managed endpoints. Events have a 3-day retention period.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Retrieve threat events and security incidents detected across managed endpoints. Events have a 3-day retention period.
   name: Trellix Events API
   slug: trellix-events-api
-- description: Manage device groups and organizational hierarchy within the ePO SaaS console.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Manage device groups and organizational hierarchy within the ePO SaaS console.
   name: Trellix Groups API
   slug: trellix-groups-api
-- description: Execute and manage saved queries against the ePO SaaS data store for reporting and analysis.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Execute and manage saved queries against the ePO SaaS data store for reporting and analysis.
   name: Trellix Queries API
   slug: trellix-queries-api
-- description: Execute response actions on endpoints such as killing processes, quarantining files, or isolating hosts.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Execute response actions on endpoints such as killing processes, quarantining files, or isolating hosts.
   name: Trellix Reactions API
   slug: trellix-reactions-api
-- description: Trigger automated response actions on managed endpoints, including policy enforcement and remediation tasks.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Trigger automated response actions on managed endpoints, including policy enforcement and remediation tasks.
   name: Trellix Response Actions API
   slug: trellix-response-actions-api
-- description: Execute real-time searches across managed endpoints to hunt for indicators of compromise and suspicious activity.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Execute real-time searches across managed endpoints to hunt for indicators of compromise and suspicious activity.
   name: Trellix Searches API
   slug: trellix-searches-api
-- description: Query aggregated threat intelligence including threat names, severity rankings, SHA256 hashes, and MITRE ATT&CK mappings.
+- baseURL: https://your-epo-server:8443/remote
+  baseurl_source: declared
+  description: Query aggregated threat intelligence including threat names, severity rankings, SHA256 hashes, and MITRE ATT&CK mappings.
   name: Trellix Threats API
   slug: trellix-threats-api
 artifact_total: 86
@@ -506,7 +534,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

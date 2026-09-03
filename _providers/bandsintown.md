@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The artist events API from Bandsintown — 1 operation(s) for artist events.
+- baseURL: https://rest.bandsintown.com
+  baseurl_source: declared
+  description: The artist events API from Bandsintown — 1 operation(s) for artist events.
   name: Bandsintown artist events API
   slug: bandsintown-artist-events-api
-- description: The artist information API from Bandsintown — 1 operation(s) for artist information.
+- baseURL: https://rest.bandsintown.com
+  baseurl_source: declared
+  description: The artist information API from Bandsintown — 1 operation(s) for artist information.
   name: Bandsintown artist information API
   slug: bandsintown-artist-information-api
 artifact_total: 18
@@ -212,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandsintown/refs/heads/main/screenshots/bandsintown-2026-06-20T172944.png
 security:

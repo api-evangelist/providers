@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Allergan was a global pharmaceutical company that developed, manufa
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allergan.png
 layout: provider
 modified: '2026-06-20'
-name: allergan
+name: Allergan
 nav: Providers
 network: true
-overview: allergan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Medical Aesthetics, Healthcare, Botox, and Eye Care.
+overview: Allergan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Medical Aesthetics, Healthcare, Botox, and Eye Care.
 random_paper: 19
 score:
   band: minimal
@@ -87,7 +87,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allergan/refs/heads/main/screenshots/allergan-2026-07-25T195651.png
 security:

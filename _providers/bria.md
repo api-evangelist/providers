@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 1
@@ -37,43 +50,69 @@ apis:
 - description: Bria's hosted, remote Model Context Protocol server, exposing image generation and editing to any MCP client. Authenticated with either a static api_token header or an OAuth 2.0 bearer token; anonymou
   name: Bria MCP Server
   slug: mcp
-- description: The Automotive Endpoints API from Bria — 7 operation(s) for automotive endpoints.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: The Automotive Endpoints API from Bria — 7 operation(s) for automotive endpoints.
   name: Bria Automotive Endpoints API
   slug: bria-automotive-endpoints-api
-- description: Manage training datasets
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Manage training datasets
   name: Bria Dataset API
   slug: bria-dataset-api
-- description: Tools for modifying video content (Erase, Upscale, Remove BG, Green Screen, Replace Background). REST async.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Tools for modifying video content (Erase, Upscale, Remove BG, Green Screen, Replace Background). REST async.
   name: Bria Editing Endpoints API
   slug: bria-editing-endpoints-api
-- description: The Endpoints API from Bria — 15 operation(s) for endpoints.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: The Endpoints API from Bria — 15 operation(s) for endpoints.
   name: Bria Endpoints API
   slug: bria-endpoints-api
-- description: The Image Attribution API from Bria — 2 operation(s) for image attribution.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: The Image Attribution API from Bria — 2 operation(s) for image attribution.
   name: Bria Image Attribution API
   slug: bria-image-attribution-api
-- description: Generate images using tailored models
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Generate images using tailored models
   name: Bria Image Generation API
   slug: bria-image-generation-api
-- description: Tools for generating segmentation masks (by prompt, by key points, foreground). REST async.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Tools for generating segmentation masks (by prompt, by key points, foreground). REST async.
   name: Bria Masking Endpoints API
   slug: bria-masking-endpoints-api
-- description: Manage and train models
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Manage and train models
   name: Bria Model API
   slug: bria-model-api
-- description: The Product Endpoints API from Bria — 9 operation(s) for product endpoints.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: The Product Endpoints API from Bria — 9 operation(s) for product endpoints.
   name: Bria Product Endpoints API
   slug: bria-product-endpoints-api
-- description: Manage your projects
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Manage your projects
   name: Bria Project API
   slug: bria-project-api
-- description: Endpoints that are part of BRIA API version 2.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Endpoints that are part of BRIA API version 2.
   name: Bria v2 endpoints API
   slug: bria-v2-endpoints-api
-- description: The Video Attribution API from Bria — 2 operation(s) for video attribution.
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: The Video Attribution API from Bria — 2 operation(s) for video attribution.
   name: Bria Video Attribution API
   slug: bria-video-attribution-api
-- description: Image-to-Video capabilities
+- baseURL: https://engine.prod.bria-api.com/v2
+  baseurl_source: declared
+  description: Image-to-Video capabilities
   name: Bria Video Generation API
   slug: bria-video-generation-api
 artifact_total: 35
@@ -306,7 +345,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -316,7 +355,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,7 +367,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/screenshots/bria-2026-08-17T080703.png
 security:

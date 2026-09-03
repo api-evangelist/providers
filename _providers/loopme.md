@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 2
 apis:
-- description: 'LoopMe''s server-to-server ad request endpoint. A third-party ad server, exchange or mediation platform sends a GET describing the device, app and user, and LoopMe returns an MRAID ad payload (ad HTML '
+- baseURL: https://loopme.me/api/s2s
+  baseurl_source: declared
+  description: 'LoopMe''s server-to-server ad request endpoint. A third-party ad server, exchange or mediation platform sends a GET describing the device, app and user, and LoopMe returns an MRAID ad payload (ad HTML '
   name: LoopMe S2S Ad Serving API
   slug: loopme-ad-serving-api
-- description: The Advertiser Reporting API from LoopMe — 1 operation(s) for advertiser reporting.
+- baseURL: https://reports.loopme.com/api/v1
+  baseurl_source: declared
+  description: The Advertiser Reporting API from LoopMe — 1 operation(s) for advertiser reporting.
   name: LoopMe Advertiser Reporting API
   slug: loopme-advertiser-reporting-api
-- description: The Publisher Reporting API from LoopMe — 1 operation(s) for publisher reporting.
+- baseURL: https://reports.loopme.com/api/v1
+  baseurl_source: declared
+  description: The Publisher Reporting API from LoopMe — 1 operation(s) for publisher reporting.
   name: LoopMe Publisher Reporting API
   slug: loopme-publisher-reporting-api
 artifact_total: 14
@@ -242,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopme/refs/heads/main/screenshots/loopme-2026-08-17T121137.png
 security:

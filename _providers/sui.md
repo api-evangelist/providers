@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: The legacy JSON-RPC API for interacting with Sui full nodes, providing methods for querying objects, transactions, checkpoints, events, balances, and coin metadata. This interface is deprecated and wi
   name: Sui JSON-RPC API (Deprecated)
   slug: sui-json-rpc-api-deprecated
-- description: The Coin Query API API from Sui — 6 operation(s) for coin query api.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The Coin Query API API from Sui — 6 operation(s) for coin query api.
   name: Sui Coin Query API API
   slug: sui-coin-query-api-api
-- description: Extended query methods (suix_ prefix)
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: Extended query methods (suix_ prefix)
   name: Sui Extended API API
   slug: sui-extended-api-api
-- description: The Governance Read API API from Sui — 6 operation(s) for governance read api.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The Governance Read API API from Sui — 6 operation(s) for governance read api.
   name: Sui Governance Read API API
   slug: sui-governance-read-api-api
-- description: The Move Utils API from Sui — 5 operation(s) for move utils.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The Move Utils API from Sui — 5 operation(s) for move utils.
   name: Sui Move Utils API
   slug: sui-move-utils-api
-- description: The PubSub API from Sui — 2 operation(s) for pubsub.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The PubSub API from Sui — 2 operation(s) for pubsub.
   name: Sui PubSub API
   slug: sui-pubsub-api
-- description: Methods for reading blockchain state
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: Methods for reading blockchain state
   name: Sui Read API API
   slug: sui-read-api-api
-- description: The Transaction Builder API API from Sui — 13 operation(s) for transaction builder api.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The Transaction Builder API API from Sui — 13 operation(s) for transaction builder api.
   name: Sui Transaction Builder API API
   slug: sui-transaction-builder-api-api
-- description: The Websocket API from Sui — 2 operation(s) for websocket.
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: The Websocket API from Sui — 2 operation(s) for websocket.
   name: Sui Websocket API
   slug: sui-websocket-api
-- description: Methods for submitting transactions
+- baseURL: https://fullnode.mainnet.sui.io:443
+  baseurl_source: declared
+  description: Methods for submitting transactions
   name: Sui Write API API
   slug: sui-write-api-api
 artifact_total: 43
@@ -294,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sui/refs/heads/main/screenshots/sui-2026-06-20T194741.png
 security:

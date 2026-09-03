@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: The third-party variant of BMW CarData targets independent service providers — repair shops, charging operators, fleet platforms, insurance, and aftermarket integrators — who consume vehicle data on b
   name: BMW CarData Third-Party API
   slug: bmw-cardata-thirdparty-api
-- description: Management of containers
+- baseURL: https://api-cardata.bmwgroup.com
+  baseurl_source: declared
+  description: Management of containers
   name: BMW ConnectedDrive Containers API
   slug: bmw-connecteddrive-containers-api
-- description: Access vehicle data and information
+- baseURL: https://api-cardata.bmwgroup.com
+  baseurl_source: declared
+  description: Access vehicle data and information
   name: BMW ConnectedDrive Vehicles API
   slug: bmw-connecteddrive-vehicles-api
 artifact_total: 21
@@ -234,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/screenshots/bmw-connecteddrive-2026-06-20T173542.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AI-powered conversational interface over your production systems.
+- baseURL: https://api.deeptrace.com
+  baseurl_source: declared
+  description: AI-powered conversational interface over your production systems.
   name: Deeptrace Chat API
   slug: deeptrace-chat-api
-- description: Trigger and retrieve asynchronous root-cause investigations.
+- baseURL: https://api.deeptrace.com
+  baseurl_source: declared
+  description: Trigger and retrieve asynchronous root-cause investigations.
   name: Deeptrace Investigations API
   slug: deeptrace-investigations-api
 artifact_total: 8
@@ -200,7 +204,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/screenshots/deeptrace-2026-07-25T211610.png
 security:

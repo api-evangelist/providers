@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -89,28 +89,44 @@ apis:
 - description: Exchange messages and data files between NHS organisations using MESH, the national messaging infrastructure. Supports sending and receiving structured clinical messages, bulk data transfers, and real
   name: Message Exchange for Social Care and Health (MESH) API
   slug: message-exchange-for-social-care-and-health-mesh-api
-- description: The Booking API from NHS Digital — 2 operation(s) for booking.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Booking API from NHS Digital — 2 operation(s) for booking.
   name: NHS Digital Booking API
   slug: nhs-digital-booking-api
-- description: The communication API from NHS Digital — 4 operation(s) for communication.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The communication API from NHS Digital — 4 operation(s) for communication.
   name: NHS Digital communication API
   slug: nhs-digital-communication-api
-- description: The Message API from NHS Digital — 1 operation(s) for message.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Message API from NHS Digital — 1 operation(s) for message.
   name: NHS Digital Message API
   slug: nhs-digital-message-api
-- description: The Metadata API from NHS Digital — 2 operation(s) for metadata.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Metadata API from NHS Digital — 2 operation(s) for metadata.
   name: NHS Digital Metadata API
   slug: nhs-digital-metadata-api
-- description: The R4 API from NHS Digital — 6 operation(s) for r4.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The R4 API from NHS Digital — 6 operation(s) for r4.
   name: NHS Digital R4 API
   slug: nhs-digital-r4-api
-- description: The Referral API from NHS Digital — 2 operation(s) for referral.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Referral API from NHS Digital — 2 operation(s) for referral.
   name: NHS Digital Referral API
   slug: nhs-digital-referral-api
-- description: The Slots API from NHS Digital — 1 operation(s) for slots.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The Slots API from NHS Digital — 1 operation(s) for slots.
   name: NHS Digital Slots API
   slug: nhs-digital-slots-api
-- description: The STU3 API from NHS Digital — 32 operation(s) for stu3.
+- baseURL: https://api.service.nhs.uk/personal-demographics
+  baseurl_source: declared
+  description: The STU3 API from NHS Digital — 32 operation(s) for stu3.
   name: NHS Digital STU3 API
   slug: nhs-digital-stu3-api
 artifact_total: 40
@@ -280,7 +296,7 @@ score:
     regime_id: health
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png
 security:

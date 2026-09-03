@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -77,46 +77,74 @@ apis:
 - description: Creates, retrieves, and deletes links between entities across domains in BIM 360. Enables cross-domain data linking between issues, RFIs, assets, documents, and other project entities to provide trace
   name: BIM 360 Relationships API
   slug: bim-360-relationships-api
-- description: The Account Users API from Autodesk BIM 360 — 6 operation(s) for account users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Account Users API from Autodesk BIM 360 — 6 operation(s) for account users.
   name: Autodesk BIM 360 Account Users API
   slug: autodesk-bim360-account-users-api
-- description: The Business Units API from Autodesk BIM 360 — 1 operation(s) for business units.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Business Units API from Autodesk BIM 360 — 1 operation(s) for business units.
   name: Autodesk BIM 360 Business Units API
   slug: autodesk-bim360-business-units-api
-- description: The Companies API from Autodesk BIM 360 — 7 operation(s) for companies.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Companies API from Autodesk BIM 360 — 7 operation(s) for companies.
   name: Autodesk BIM 360 Companies API
   slug: autodesk-bim360-companies-api
-- description: The Issue Attachments API from Autodesk BIM 360 — 3 operation(s) for issue attachments.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attachments API from Autodesk BIM 360 — 3 operation(s) for issue attachments.
   name: Autodesk BIM 360 Issue Attachments API
   slug: autodesk-bim360-issue-attachments-api
-- description: The Issue Attribute Definitions API from Autodesk BIM 360 — 1 operation(s) for issue attribute definitions.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attribute Definitions API from Autodesk BIM 360 — 1 operation(s) for issue attribute definitions.
   name: Autodesk BIM 360 Issue Attribute Definitions API
   slug: autodesk-bim360-issue-attribute-definitions-api
-- description: The Issue Attribute Mappings API from Autodesk BIM 360 — 1 operation(s) for issue attribute mappings.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Attribute Mappings API from Autodesk BIM 360 — 1 operation(s) for issue attribute mappings.
   name: Autodesk BIM 360 Issue Attribute Mappings API
   slug: autodesk-bim360-issue-attribute-mappings-api
-- description: The Issue Comments API from Autodesk BIM 360 — 1 operation(s) for issue comments.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Comments API from Autodesk BIM 360 — 1 operation(s) for issue comments.
   name: Autodesk BIM 360 Issue Comments API
   slug: autodesk-bim360-issue-comments-api
-- description: The Issue Root Cause Categories API from Autodesk BIM 360 — 1 operation(s) for issue root cause categories.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Root Cause Categories API from Autodesk BIM 360 — 1 operation(s) for issue root cause categories.
   name: Autodesk BIM 360 Issue Root Cause Categories API
   slug: autodesk-bim360-issue-root-cause-categories-api
-- description: The Issue Types API from Autodesk BIM 360 — 1 operation(s) for issue types.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issue Types API from Autodesk BIM 360 — 1 operation(s) for issue types.
   name: Autodesk BIM 360 Issue Types API
   slug: autodesk-bim360-issue-types-api
-- description: The Issues API from Autodesk BIM 360 — 2 operation(s) for issues.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issues API from Autodesk BIM 360 — 2 operation(s) for issues.
   name: Autodesk BIM 360 Issues API
   slug: autodesk-bim360-issues-api
-- description: The Issues Profile API from Autodesk BIM 360 — 1 operation(s) for issues profile.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Issues Profile API from Autodesk BIM 360 — 1 operation(s) for issues profile.
   name: Autodesk BIM 360 Issues Profile API
   slug: autodesk-bim360-issues-profile-api
-- description: The Project Users API from Autodesk BIM 360 — 3 operation(s) for project users.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Project Users API from Autodesk BIM 360 — 3 operation(s) for project users.
   name: Autodesk BIM 360 Project Users API
   slug: autodesk-bim360-project-users-api
-- description: The Projects API from Autodesk BIM 360 — 3 operation(s) for projects.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The Projects API from Autodesk BIM 360 — 3 operation(s) for projects.
   name: Autodesk BIM 360 Projects API
   slug: autodesk-bim360-projects-api
-- description: The User Projects API from Autodesk BIM 360 — 1 operation(s) for user projects.
+- baseURL: https://developer.api.autodesk.com
+  baseurl_source: declared
+  description: The User Projects API from Autodesk BIM 360 — 1 operation(s) for user projects.
   name: Autodesk BIM 360 User Projects API
   slug: autodesk-bim360-user-projects-api
 artifact_total: 61
@@ -345,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-bim360/refs/heads/main/screenshots/autodesk-bim360-2026-06-20T172629.png
 security:

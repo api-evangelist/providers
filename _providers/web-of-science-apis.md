@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 1 acting
 api_count: 2
 apis:
-- description: The citations API from Web of Science APIs — 3 operation(s) for citations.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The citations API from Web of Science APIs — 3 operation(s) for citations.
   name: Web of Science APIs citations API
   slug: web-of-science-apis-citations-api
-- description: The documents API from Web of Science APIs — 2 operation(s) for documents.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The documents API from Web of Science APIs — 2 operation(s) for documents.
   name: Web of Science APIs documents API
   slug: web-of-science-apis-documents-api
-- description: The journals API from Web of Science APIs — 2 operation(s) for journals.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The journals API from Web of Science APIs — 2 operation(s) for journals.
   name: Web of Science APIs journals API
   slug: web-of-science-apis-journals-api
-- description: The records API from Web of Science APIs — 1 operation(s) for records.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The records API from Web of Science APIs — 1 operation(s) for records.
   name: Web of Science APIs records API
   slug: web-of-science-apis-records-api
-- description: The reports API from Web of Science APIs — 2 operation(s) for reports.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The reports API from Web of Science APIs — 2 operation(s) for reports.
   name: Web of Science APIs reports API
   slug: web-of-science-apis-reports-api
-- description: The search API from Web of Science APIs — 3 operation(s) for search.
+- baseURL: https://api.clarivate.com/api/wos
+  baseurl_source: spec
+  description: The search API from Web of Science APIs — 3 operation(s) for search.
   name: Web of Science APIs search API
   slug: web-of-science-apis-search-api
 artifact_total: 129
@@ -551,7 +563,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/web-of-science-apis/refs/heads/main/screenshots/web-of-science-apis-2026-06-20T201320.png
 security:

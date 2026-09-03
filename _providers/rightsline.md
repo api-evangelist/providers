@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: RESTful API for managing royalties, revenue data, and financial workflows. Supports bulk loading of revenue, sales, and usage data. Enables automation of finance billing requests and royalty calculati
   name: Rightsline Royalties API
   slug: royalties-api
-- description: Content availability and windowing
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Content availability and windowing
   name: Rightsline Availability API
   slug: rightsline-availability-api
-- description: Content catalog and product management
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Content catalog and product management
   name: Rightsline Catalog API
   slug: rightsline-catalog-api
-- description: Contact and company management
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Contact and company management
   name: Rightsline Contacts API
   slug: rightsline-contacts-api
-- description: Master and pick list management
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Master and pick list management
   name: Rightsline Lists API
   slug: rightsline-lists-api
-- description: Rights and license management
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Rights and license management
   name: Rightsline Rights API
   slug: rightsline-rights-api
-- description: Royalty and revenue management
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Royalty and revenue management
   name: Rightsline Royalties API
   slug: rightsline-royalties-api
-- description: Template configuration
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Template configuration
   name: Rightsline Templates API
   slug: rightsline-templates-api
-- description: Workflow automation and actions
+- baseURL: https://app.rightsline.com/v4
+  baseurl_source: declared
+  description: Workflow automation and actions
   name: Rightsline Workflows API
   slug: rightsline-workflows-api
 artifact_total: 42
@@ -318,7 +334,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightsline/refs/heads/main/screenshots/rightsline-2026-06-20T193119.png
 security:

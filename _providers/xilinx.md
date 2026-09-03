@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,10 +60,10 @@ description: Xilinx was an American technology company that developed programmab
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xilinx.png
 layout: provider
 modified: '2026-03-24'
-name: xilinx
+name: Xilinx
 nav: Providers
 network: true
-overview: xilinx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Xilinx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: An Edge Computing System with AMD Xilinx FPGA AI ... - PMC
@@ -101,7 +101,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xilinx/refs/heads/main/screenshots/xilinx-2026-06-20T201706.png
 security:

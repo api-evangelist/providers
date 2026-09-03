@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 119 operations · 57 acting
 api_count: 1
 apis:
-- description: The agent API from AgentMail — 2 operation(s) for agent.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The agent API from AgentMail — 2 operation(s) for agent.
   name: AgentMail agent API
   slug: agentmail-agent-api
-- description: The api-keys API from AgentMail — 2 operation(s) for api-keys.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The api-keys API from AgentMail — 2 operation(s) for api-keys.
   name: AgentMail api-keys API
   slug: agentmail-api-keys-api
-- description: The auth API from AgentMail — 1 operation(s) for auth.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The auth API from AgentMail — 1 operation(s) for auth.
   name: AgentMail auth API
   slug: agentmail-auth-api
-- description: The domains API from AgentMail — 4 operation(s) for domains.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The domains API from AgentMail — 4 operation(s) for domains.
   name: AgentMail domains API
   slug: agentmail-domains-api
-- description: The drafts API from AgentMail — 3 operation(s) for drafts.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The drafts API from AgentMail — 3 operation(s) for drafts.
   name: AgentMail drafts API
   slug: agentmail-drafts-api
-- description: The inboxes > api-keys API from AgentMail — 2 operation(s) for inboxes > api-keys.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > api-keys API from AgentMail — 2 operation(s) for inboxes > api-keys.
   name: AgentMail inboxes > api-keys API
   slug: agentmail-inboxes-api-keys-api
-- description: The inboxes API from AgentMail — 2 operation(s) for inboxes.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes API from AgentMail — 2 operation(s) for inboxes.
   name: AgentMail inboxes API
   slug: agentmail-inboxes-api
-- description: The inboxes > drafts API from AgentMail — 4 operation(s) for inboxes > drafts.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > drafts API from AgentMail — 4 operation(s) for inboxes > drafts.
   name: AgentMail inboxes > drafts API
   slug: agentmail-inboxes-drafts-api
-- description: The inboxes > events API from AgentMail — 1 operation(s) for inboxes > events.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > events API from AgentMail — 1 operation(s) for inboxes > events.
   name: AgentMail inboxes > events API
   slug: agentmail-inboxes-events-api
-- description: The inboxes > lists API from AgentMail — 2 operation(s) for inboxes > lists.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > lists API from AgentMail — 2 operation(s) for inboxes > lists.
   name: AgentMail inboxes > lists API
   slug: agentmail-inboxes-lists-api
-- description: The inboxes > messages API from AgentMail — 11 operation(s) for inboxes > messages.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > messages API from AgentMail — 11 operation(s) for inboxes > messages.
   name: AgentMail inboxes > messages API
   slug: agentmail-inboxes-messages-api
-- description: The inboxes > metrics API from AgentMail — 2 operation(s) for inboxes > metrics.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > metrics API from AgentMail — 2 operation(s) for inboxes > metrics.
   name: AgentMail inboxes > metrics API
   slug: agentmail-inboxes-metrics-api
-- description: The inboxes > threads API from AgentMail — 4 operation(s) for inboxes > threads.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > threads API from AgentMail — 4 operation(s) for inboxes > threads.
   name: AgentMail inboxes > threads API
   slug: agentmail-inboxes-threads-api
-- description: The inboxes > webhooks API from AgentMail — 2 operation(s) for inboxes > webhooks.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The inboxes > webhooks API from AgentMail — 2 operation(s) for inboxes > webhooks.
   name: AgentMail inboxes > webhooks API
   slug: agentmail-inboxes-webhooks-api
-- description: The lists API from AgentMail — 2 operation(s) for lists.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The lists API from AgentMail — 2 operation(s) for lists.
   name: AgentMail lists API
   slug: agentmail-lists-api
-- description: The metrics API from AgentMail — 2 operation(s) for metrics.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The metrics API from AgentMail — 2 operation(s) for metrics.
   name: AgentMail metrics API
   slug: agentmail-metrics-api
-- description: The organizations API from AgentMail — 1 operation(s) for organizations.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The organizations API from AgentMail — 1 operation(s) for organizations.
   name: AgentMail organizations API
   slug: agentmail-organizations-api
-- description: The pods > api-keys API from AgentMail — 2 operation(s) for pods > api-keys.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > api-keys API from AgentMail — 2 operation(s) for pods > api-keys.
   name: AgentMail pods > api-keys API
   slug: agentmail-pods-api-keys-api
-- description: The pods API from AgentMail — 2 operation(s) for pods.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods API from AgentMail — 2 operation(s) for pods.
   name: AgentMail pods API
   slug: agentmail-pods-api
-- description: The pods > domains API from AgentMail — 4 operation(s) for pods > domains.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > domains API from AgentMail — 4 operation(s) for pods > domains.
   name: AgentMail pods > domains API
   slug: agentmail-pods-domains-api
-- description: The pods > drafts API from AgentMail — 3 operation(s) for pods > drafts.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > drafts API from AgentMail — 3 operation(s) for pods > drafts.
   name: AgentMail pods > drafts API
   slug: agentmail-pods-drafts-api
-- description: The pods > inboxes API from AgentMail — 2 operation(s) for pods > inboxes.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > inboxes API from AgentMail — 2 operation(s) for pods > inboxes.
   name: AgentMail pods > inboxes API
   slug: agentmail-pods-inboxes-api
-- description: The pods > lists API from AgentMail — 2 operation(s) for pods > lists.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > lists API from AgentMail — 2 operation(s) for pods > lists.
   name: AgentMail pods > lists API
   slug: agentmail-pods-lists-api
-- description: The pods > metrics API from AgentMail — 2 operation(s) for pods > metrics.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > metrics API from AgentMail — 2 operation(s) for pods > metrics.
   name: AgentMail pods > metrics API
   slug: agentmail-pods-metrics-api
-- description: The pods > threads API from AgentMail — 4 operation(s) for pods > threads.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > threads API from AgentMail — 4 operation(s) for pods > threads.
   name: AgentMail pods > threads API
   slug: agentmail-pods-threads-api
-- description: The pods > webhooks API from AgentMail — 2 operation(s) for pods > webhooks.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The pods > webhooks API from AgentMail — 2 operation(s) for pods > webhooks.
   name: AgentMail pods > webhooks API
   slug: agentmail-pods-webhooks-api
-- description: The threads API from AgentMail — 4 operation(s) for threads.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The threads API from AgentMail — 4 operation(s) for threads.
   name: AgentMail threads API
   slug: agentmail-threads-api
-- description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
   name: AgentMail webhooks API
   slug: agentmail-webhooks-api
-- description: The API Reference API from AgentMail — 0 operation(s) for api reference.
+- baseURL: https://api.agentmail.to
+  baseurl_source: declared
+  description: The API Reference API from AgentMail — 0 operation(s) for api reference.
   name: AgentMail API Reference API
   slug: agentmail-api-reference-api
 artifact_total: 64
@@ -392,7 +450,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -402,7 +460,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.4
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,7 +472,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:

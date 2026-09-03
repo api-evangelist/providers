@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Connect Links enable embedded Activations flows for Powered by Fivetran partners, letting end users configure destinations and syncs from within a host application via hosted URLs.
   name: Census Connect Links (Powered by Fivetran)
   slug: census-connect-links-api
-- description: Destination connections to operational systems
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Destination connections to operational systems
   name: Census Destinations API
   slug: census-destinations-api
-- description: Modeled queries that drive activations
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Modeled queries that drive activations
   name: Census Models API
   slug: census-models-api
-- description: Audience segments
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Audience segments
   name: Census Segments API
   slug: census-segments-api
-- description: Source connections to data warehouses
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Source connections to data warehouses
   name: Census Sources API
   slug: census-sources-api
-- description: Sync executions
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Sync executions
   name: Census SyncRuns API
   slug: census-syncruns-api
-- description: Sync configurations
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Sync configurations
   name: Census Syncs API
   slug: census-syncs-api
-- description: Organization-level workspace management
+- baseURL: https://app.getcensus.com/api/v1
+  baseurl_source: spec
+  description: Organization-level workspace management
   name: Census Workspaces API
   slug: census-workspaces-api
 artifact_total: 27
@@ -216,7 +230,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:

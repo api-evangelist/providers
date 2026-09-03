@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 15 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage data loader, transformer, and data exporter blocks.
+- baseURL: http://localhost:6789/api
+  baseurl_source: declared
+  description: Manage data loader, transformer, and data exporter blocks.
   name: Mage Blocks API
   slug: mage-ai-blocks-api
-- description: Trigger pipeline runs and read run status.
+- baseURL: http://localhost:6789/api
+  baseurl_source: declared
+  description: Trigger pipeline runs and read run status.
   name: Mage Pipeline Runs API
   slug: mage-ai-pipeline-runs-api
-- description: Manage triggers (schedule, event, and API triggers).
+- baseURL: http://localhost:6789/api
+  baseurl_source: declared
+  description: Manage triggers (schedule, event, and API triggers).
   name: Mage Pipeline Schedules API
   slug: mage-ai-pipeline-schedules-api
-- description: Manage pipelines.
+- baseURL: http://localhost:6789/api
+  baseurl_source: declared
+  description: Manage pipelines.
   name: Mage Pipelines API
   slug: mage-ai-pipelines-api
 artifact_total: 17
@@ -178,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mage-ai/refs/heads/main/screenshots/mage-ai-2026-06-20T184836.png
 security:

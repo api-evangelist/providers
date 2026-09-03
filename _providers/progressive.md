@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 2
 apis:
-- description: Generate and manage certificates of insurance.
+- baseURL: https://api.progressive.com
+  baseurl_source: declared
+  description: Generate and manage certificates of insurance.
   name: Progressive Certificates API
   slug: progressive-certificates-api
-- description: Manage driver profiles for quoting.
+- baseURL: https://api.progressive.com
+  baseurl_source: declared
+  description: Manage driver profiles for quoting.
   name: Progressive Drivers API
   slug: progressive-drivers-api
-- description: Retrieve policy information for certificate generation.
+- baseURL: https://api.progressive.com
+  baseurl_source: declared
+  description: Retrieve policy information for certificate generation.
   name: Progressive Policies API
   slug: progressive-policies-api
-- description: Create and retrieve auto insurance quotes.
+- baseURL: https://api.progressive.com
+  baseurl_source: declared
+  description: Create and retrieve auto insurance quotes.
   name: Progressive Quotes API
   slug: progressive-quotes-api
-- description: Manage vehicle information for quoting.
+- baseURL: https://api.progressive.com
+  baseurl_source: declared
+  description: Manage vehicle information for quoting.
   name: Progressive Vehicles API
   slug: progressive-vehicles-api
 artifact_total: 20
@@ -192,7 +202,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png
 security:

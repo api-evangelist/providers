@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -39,7 +52,9 @@ apis:
 - description: 'The partner-facing surface behind the KW Marketplace, where vendors sell products to Keller Williams agents. Keller Williams pushes subscription lifecycle events — subscription creation, subscription '
   name: KW Marketplace Subscription & Metered Billing API
   slug: keller-williams-marketplace-subscription-api
-- description: The Search API from Keller Williams — 5 operation(s) for search.
+- baseURL: https://partners.api.kw.com/v2
+  baseurl_source: declared
+  description: The Search API from Keller Williams — 5 operation(s) for search.
   name: Keller Williams Search API
   slug: keller-williams-search-api
 arazzos:
@@ -242,7 +257,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -252,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,7 +285,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:

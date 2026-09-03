@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -33,85 +47,139 @@ agentic_access:
   summary_line: 80 operations · 59 acting
 api_count: 1
 apis:
-- description: Endpoints to manage store onboarding and status
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to manage store onboarding and status
   name: CloudKitchens Account Pairing Endpoints API
   slug: cloudkitchens-account-pairing-endpoints-api
-- description: Webhooks to manage store onboarding and status
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks to manage store onboarding and status
   name: CloudKitchens Account Pairing Webhooks API
   slug: cloudkitchens-account-pairing-webhooks-api
-- description: Endpoints to handle token management.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to handle token management.
   name: CloudKitchens Auth Endpoints API
   slug: cloudkitchens-auth-endpoints-api
-- description: Endpoints for callback management.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints for callback management.
   name: CloudKitchens Callback Endpoints API
   slug: cloudkitchens-callback-endpoints-api
-- description: Endpoints to manage delivery.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to manage delivery.
   name: CloudKitchens Delivery Endpoints API
   slug: cloudkitchens-delivery-endpoints-api
-- description: Webhooks from the delivery domain.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks from the delivery domain.
   name: CloudKitchens Delivery Webhooks API
   slug: cloudkitchens-delivery-webhooks-api
-- description: Endpoints to get orders directly.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to get orders directly.
   name: CloudKitchens Direct Orders Endpoints API
   slug: cloudkitchens-direct-orders-endpoints-api
-- description: Endpoints to handle financial data.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to handle financial data.
   name: CloudKitchens Finance Endpoints API
   slug: cloudkitchens-finance-endpoints-api
-- description: Endpoints to interact with product inventory.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to interact with product inventory.
   name: CloudKitchens Inventory Endpoints API
   slug: cloudkitchens-inventory-endpoints-api
-- description: Endpoints to manage loyalty.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to manage loyalty.
   name: CloudKitchens Manager Loyalty Endpoints API
   slug: cloudkitchens-manager-loyalty-endpoints-api
-- description: Endpoints for applications managing menus related data and operations.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints for applications managing menus related data and operations.
   name: CloudKitchens Manager Menu Endpoints API
   slug: cloudkitchens-manager-menu-endpoints-api
-- description: Endpoints for applications that act on the merchant/store side of an order rather than as the ordering marketplace — typically Point-of-Sale (POS) systems, Business Intelligence (BI) tools, and report
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints for applications that act on the merchant/store side of an order rather than as the ordering marketplace — typically Point-of-Sale (POS) systems, Business Intelligence (BI) tools, and report
   name: CloudKitchens Manager Order Endpoints API
   slug: cloudkitchens-manager-order-endpoints-api
-- description: Webhooks delivered to merchant-side applications (POS, BI, and reporting integrations) so they can react to changes in an order as it progresses through its lifecycle.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks delivered to merchant-side applications (POS, BI, and reporting integrations) so they can react to changes in an order as it progresses through its lifecycle.
   name: CloudKitchens Manager Orders Webhooks API
   slug: cloudkitchens-manager-orders-webhooks-api
-- description: Endpoints for applications managing storefront related data and operations.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints for applications managing storefront related data and operations.
   name: CloudKitchens Manager Storefront Endpoints API
   slug: cloudkitchens-manager-storefront-endpoints-api
-- description: The marketintel_endpoints API from CloudKitchens — 1 operation(s) for marketintel_endpoints.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: The marketintel_endpoints API from CloudKitchens — 1 operation(s) for marketintel_endpoints.
   name: CloudKitchens Marketintel Endpoints API
   slug: cloudkitchens-marketintel-endpoints-api
-- description: Endpoints to manage menus.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to manage menus.
   name: CloudKitchens Menus Endpoints API
   slug: cloudkitchens-menus-endpoints-api
-- description: Webhooks from menus domain.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks from menus domain.
   name: CloudKitchens Menus Webhooks API
   slug: cloudkitchens-menus-webhooks-api
-- description: 'Endpoints used by ordering marketplaces and other order sources to send orders to a store and keep them up to date. This domain lets an order source submit new orders as customers place them, reflect '
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: 'Endpoints used by ordering marketplaces and other order sources to send orders to a store and keep them up to date. This domain lets an order source submit new orders as customers place them, reflect '
   name: CloudKitchens Orders Endpoints API
   slug: cloudkitchens-orders-endpoints-api
-- description: Webhooks from orders domains.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks from orders domains.
   name: CloudKitchens Orders Webhooks API
   slug: cloudkitchens-orders-webhooks-api
-- description: Endpoints to interact with with organizations/brands/stores and with integration connections.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to interact with with organizations/brands/stores and with integration connections.
   name: CloudKitchens Organization Endpoints API
   slug: cloudkitchens-organization-endpoints-api
-- description: Endpoints to ping and test system authentication.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to ping and test system authentication.
   name: CloudKitchens Ping Endpoints API
   slug: cloudkitchens-ping-endpoints-api
-- description: Webhooks to ping and test the system integration.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks to ping and test the system integration.
   name: CloudKitchens Ping Webhooks API
   slug: cloudkitchens-ping-webhooks-api
-- description: Endpoints to reports generation operations
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to reports generation operations
   name: CloudKitchens Reports Endpoints API
   slug: cloudkitchens-reports-endpoints-api
-- description: Webhooks from the reports generation operations
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks from the reports generation operations
   name: CloudKitchens Reports Webhooks API
   slug: cloudkitchens-reports-webhooks-api
-- description: Endpoints for review operations
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints for review operations
   name: CloudKitchens Reviews Endpoints API
   slug: cloudkitchens-reviews-endpoints-api
-- description: Endpoints to manage storefront state
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Endpoints to manage storefront state
   name: CloudKitchens Storefront Endpoints API
   slug: cloudkitchens-storefront-endpoints-api
-- description: Webhooks from storefront domain.
+- baseURL: https://api.cloudkitchens.com
+  baseurl_source: declared
+  description: Webhooks from storefront domain.
   name: CloudKitchens Storefront Webhooks API
   slug: cloudkitchens-storefront-webhooks-api
 artifact_total: 35
@@ -280,23 +348,23 @@ scopes:
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.8
+  composite: 38.8
   coverage:
     artifact_dirs: 23
-    catalog_gap: 71.0
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 1.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 53.2
     developer_ergonomics: 39.9
-    discoverability: 66.7
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 37.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/screenshots/cloudkitchens-2026-08-07T163508.png
 security:

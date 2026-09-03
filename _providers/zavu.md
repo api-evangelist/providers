@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 3
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 163 operations · 100 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The 10DLC API from Zavu — 11 operation(s) for 10dlc.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The 10DLC API from Zavu — 11 operation(s) for 10dlc.
   name: Zavu 10DLC API
   slug: zavu-10dlc-api
-- description: The Account API from Zavu — 1 operation(s) for account.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Account API from Zavu — 1 operation(s) for account.
   name: Zavu Account API
   slug: zavu-account-api
-- description: The Agent Flows API from Zavu — 3 operation(s) for agent flows.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Agent Flows API from Zavu — 3 operation(s) for agent flows.
   name: Zavu Agent Flows API
   slug: zavu-agent-flows-api
-- description: The Agent Knowledge Bases API from Zavu — 4 operation(s) for agent knowledge bases.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Agent Knowledge Bases API from Zavu — 4 operation(s) for agent knowledge bases.
   name: Zavu Agent Knowledge Bases API
   slug: zavu-agent-knowledge-bases-api
-- description: The Agent Tools API from Zavu — 3 operation(s) for agent tools.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Agent Tools API from Zavu — 3 operation(s) for agent tools.
   name: Zavu Agent Tools API
   slug: zavu-agent-tools-api
-- description: The Agents API from Zavu — 4 operation(s) for agents.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Agents API from Zavu — 4 operation(s) for agents.
   name: Zavu Agents API
   slug: zavu-agents-api
-- description: The Balance API from Zavu — 1 operation(s) for balance.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Balance API from Zavu — 1 operation(s) for balance.
   name: Zavu Balance API
   slug: zavu-balance-api
-- description: The Broadcasts API from Zavu — 10 operation(s) for broadcasts.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Broadcasts API from Zavu — 10 operation(s) for broadcasts.
   name: Zavu Broadcasts API
   slug: zavu-broadcasts-api
-- description: The Contacts API from Zavu — 8 operation(s) for contacts.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Contacts API from Zavu — 8 operation(s) for contacts.
   name: Zavu Contacts API
   slug: zavu-contacts-api
-- description: The Functions API from Zavu — 12 operation(s) for functions.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Functions API from Zavu — 12 operation(s) for functions.
   name: Zavu Functions API
   slug: zavu-functions-api
-- description: The Introspect API from Zavu — 1 operation(s) for introspect.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Introspect API from Zavu — 1 operation(s) for introspect.
   name: Zavu Introspect API
   slug: zavu-introspect-api
-- description: The Invitations API from Zavu — 3 operation(s) for invitations.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Invitations API from Zavu — 3 operation(s) for invitations.
   name: Zavu Invitations API
   slug: zavu-invitations-api
-- description: The Messages API from Zavu — 4 operation(s) for messages.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Messages API from Zavu — 4 operation(s) for messages.
   name: Zavu Messages API
   slug: zavu-messages-api
-- description: The Phone Numbers API from Zavu — 4 operation(s) for phone numbers.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Phone Numbers API from Zavu — 4 operation(s) for phone numbers.
   name: Zavu Phone Numbers API
   slug: zavu-phone-numbers-api
-- description: The Regulatory API from Zavu — 5 operation(s) for regulatory.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Regulatory API from Zavu — 5 operation(s) for regulatory.
   name: Zavu Regulatory API
   slug: zavu-regulatory-api
-- description: The Senders API from Zavu — 5 operation(s) for senders.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Senders API from Zavu — 5 operation(s) for senders.
   name: Zavu Senders API
   slug: zavu-senders-api
-- description: The Sub-Accounts API from Zavu — 5 operation(s) for sub-accounts.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Sub-Accounts API from Zavu — 5 operation(s) for sub-accounts.
   name: Zavu Sub-Accounts API
   slug: zavu-sub-accounts-api
-- description: The Templates API from Zavu — 3 operation(s) for templates.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The Templates API from Zavu — 3 operation(s) for templates.
   name: Zavu Templates API
   slug: zavu-templates-api
-- description: The URL Verification API from Zavu — 3 operation(s) for url verification.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The URL Verification API from Zavu — 3 operation(s) for url verification.
   name: Zavu URL Verification API
   slug: zavu-url-verification-api
-- description: The WhatsApp Alternative API from Zavu — 11 operation(s) for whatsapp alternative.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The WhatsApp Alternative API from Zavu — 11 operation(s) for whatsapp alternative.
   name: Zavu WhatsApp Alternative API
   slug: zavu-whatsapp-alternative-api
-- description: The WhatsApp Sync API from Zavu — 3 operation(s) for whatsapp sync.
+- baseURL: https://api.zavu.dev/v1
+  baseurl_source: declared
+  description: The WhatsApp Sync API from Zavu — 3 operation(s) for whatsapp sync.
   name: Zavu WhatsApp Sync API
   slug: zavu-whatsapp-sync-api
 artifact_total: 49
@@ -343,7 +385,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -353,7 +395,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 53.2
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,7 +413,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zavu/refs/heads/main/screenshots/zavu-2026-08-17T083039.png
 security:

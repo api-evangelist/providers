@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Presto Coordinator REST API exposes resources for inspecting and managing a running Presto cluster, including Node, Query, Stage, Statement, and Task resources. These endpoints are served by the c
   name: Presto Coordinator REST API
   slug: presto-coordinator-rest-api
-- description: Submit, page, and cancel SQL queries.
+- baseURL_template: http://{coordinator}:{port}
+  baseurl_source: spec_template
+  description: Submit, page, and cancel SQL queries.
   name: Presto Foundation Statement API
   slug: presto-foundation-statement-api
 artifact_total: 13
@@ -213,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/screenshots/presto-foundation-2026-06-20T192054.png
 security:

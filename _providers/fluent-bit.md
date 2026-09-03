@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 12 operations · 2 acting
 api_count: 1
 apis:
-- description: The Build API from Fluent Bit — 1 operation(s) for build.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Build API from Fluent Bit — 1 operation(s) for build.
   name: Fluent Bit Build API
   slug: fluent-bit-build-api
-- description: The Health API from Fluent Bit — 2 operation(s) for health.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Health API from Fluent Bit — 2 operation(s) for health.
   name: Fluent Bit Health API
   slug: fluent-bit-health-api
-- description: The Metrics API from Fluent Bit — 4 operation(s) for metrics.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Metrics API from Fluent Bit — 4 operation(s) for metrics.
   name: Fluent Bit Metrics API
   slug: fluent-bit-metrics-api
-- description: The Reload API from Fluent Bit — 1 operation(s) for reload.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Reload API from Fluent Bit — 1 operation(s) for reload.
   name: Fluent Bit Reload API
   slug: fluent-bit-reload-api
-- description: The Storage API from Fluent Bit — 1 operation(s) for storage.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Storage API from Fluent Bit — 1 operation(s) for storage.
   name: Fluent Bit Storage API
   slug: fluent-bit-storage-api
-- description: The Uptime API from Fluent Bit — 1 operation(s) for uptime.
+- baseURL: http://127.0.0.1:2020
+  baseurl_source: declared
+  description: The Uptime API from Fluent Bit — 1 operation(s) for uptime.
   name: Fluent Bit Uptime API
   slug: fluent-bit-uptime-api
 artifact_total: 19
@@ -199,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluent-bit/refs/heads/main/screenshots/fluent-bit-2026-06-20T181333.png
 security:

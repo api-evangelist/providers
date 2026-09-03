@@ -32,109 +32,177 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Billable Configs API from Habu — 2 operation(s) for billable configs.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Billable Configs API from Habu — 2 operation(s) for billable configs.
   name: Habu Billable Configs API
   slug: habu-billable-configs-api
-- description: The Cleanroom API from Habu — 2 operation(s) for cleanroom.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom API from Habu — 2 operation(s) for cleanroom.
   name: Habu Cleanroom API
   slug: habu-cleanroom-api
-- description: The Cleanroom Datasets API from Habu — 5 operation(s) for cleanroom datasets.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Datasets API from Habu — 5 operation(s) for cleanroom datasets.
   name: Habu Cleanroom Datasets API
   slug: habu-cleanroom-datasets-api
-- description: The Cleanroom Destinations API from Habu — 3 operation(s) for cleanroom destinations.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Destinations API from Habu — 3 operation(s) for cleanroom destinations.
   name: Habu Cleanroom Destinations API
   slug: habu-cleanroom-destinations-api
-- description: The Cleanroom Exports API from Habu — 4 operation(s) for cleanroom exports.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Exports API from Habu — 4 operation(s) for cleanroom exports.
   name: Habu Cleanroom Exports API
   slug: habu-cleanroom-exports-api
-- description: The Cleanroom Flow Runs API from Habu — 10 operation(s) for cleanroom flow runs.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Flow Runs API from Habu — 10 operation(s) for cleanroom flow runs.
   name: Habu Cleanroom Flow Runs API
   slug: habu-cleanroom-flow-runs-api
-- description: The Cleanroom Flows API from Habu — 10 operation(s) for cleanroom flows.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Flows API from Habu — 10 operation(s) for cleanroom flows.
   name: Habu Cleanroom Flows API
   slug: habu-cleanroom-flows-api
-- description: The Cleanroom Partners API from Habu — 8 operation(s) for cleanroom partners.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Partners API from Habu — 8 operation(s) for cleanroom partners.
   name: Habu Cleanroom Partners API
   slug: habu-cleanroom-partners-api
-- description: The Cleanroom Question Datasets API from Habu — 4 operation(s) for cleanroom question datasets.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Datasets API from Habu — 4 operation(s) for cleanroom question datasets.
   name: Habu Cleanroom Question Datasets API
   slug: habu-cleanroom-question-datasets-api
-- description: The Cleanroom Question Permissions API from Habu — 1 operation(s) for cleanroom question permissions.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Permissions API from Habu — 1 operation(s) for cleanroom question permissions.
   name: Habu Cleanroom Question Permissions API
   slug: habu-cleanroom-question-permissions-api
-- description: The Cleanroom Question Result Shares API from Habu — 1 operation(s) for cleanroom question result shares.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Result Shares API from Habu — 1 operation(s) for cleanroom question result shares.
   name: Habu Cleanroom Question Result Shares API
   slug: habu-cleanroom-question-result-shares-api
-- description: The Cleanroom Question Run Schedule API from Habu — 2 operation(s) for cleanroom question run schedule.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Run Schedule API from Habu — 2 operation(s) for cleanroom question run schedule.
   name: Habu Cleanroom Question Run Schedule API
   slug: habu-cleanroom-question-run-schedule-api
-- description: The Cleanroom Question Runs API from Habu — 10 operation(s) for cleanroom question runs.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Runs API from Habu — 10 operation(s) for cleanroom question runs.
   name: Habu Cleanroom Question Runs API
   slug: habu-cleanroom-question-runs-api
-- description: The Cleanroom Question Tags API from Habu — 2 operation(s) for cleanroom question tags.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Question Tags API from Habu — 2 operation(s) for cleanroom question tags.
   name: Habu Cleanroom Question Tags API
   slug: habu-cleanroom-question-tags-api
-- description: The Cleanroom Questions API from Habu — 5 operation(s) for cleanroom questions.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Questions API from Habu — 5 operation(s) for cleanroom questions.
   name: Habu Cleanroom Questions API
   slug: habu-cleanroom-questions-api
-- description: The Cleanroom Roles API from Habu — 2 operation(s) for cleanroom roles.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Roles API from Habu — 2 operation(s) for cleanroom roles.
   name: Habu Cleanroom Roles API
   slug: habu-cleanroom-roles-api
-- description: The Cleanroom Users API from Habu — 3 operation(s) for cleanroom users.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanroom Users API from Habu — 3 operation(s) for cleanroom users.
   name: Habu Cleanroom Users API
   slug: habu-cleanroom-users-api
-- description: The Cleanrooms API from Habu — 4 operation(s) for cleanrooms.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Cleanrooms API from Habu — 4 operation(s) for cleanrooms.
   name: Habu Cleanrooms API
   slug: habu-cleanrooms-api
-- description: The Credential Sources API from Habu — 3 operation(s) for credential sources.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Credential Sources API from Habu — 3 operation(s) for credential sources.
   name: Habu Credential Sources API
   slug: habu-credential-sources-api
-- description: The Data Connections API from Habu — 5 operation(s) for data connections.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Data Connections API from Habu — 5 operation(s) for data connections.
   name: Habu Data Connections API
   slug: habu-data-connections-api
-- description: The Data Source Parameters API from Habu — 1 operation(s) for data source parameters.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Data Source Parameters API from Habu — 1 operation(s) for data source parameters.
   name: Habu Data Source Parameters API
   slug: habu-data-source-parameters-api
-- description: The Data Sources API from Habu — 2 operation(s) for data sources.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Data Sources API from Habu — 2 operation(s) for data sources.
   name: Habu Data Sources API
   slug: habu-data-sources-api
-- description: The Data Types API from Habu — 2 operation(s) for data types.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Data Types API from Habu — 2 operation(s) for data types.
   name: Habu Data Types API
   slug: habu-data-types-api
-- description: The DataConnectionViews API from Habu — 2 operation(s) for dataconnectionviews.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The DataConnectionViews API from Habu — 2 operation(s) for dataconnectionviews.
   name: Habu Data Connection Views API
   slug: habu-dataconnectionviews-api
-- description: The Destinations API from Habu — 3 operation(s) for destinations.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Destinations API from Habu — 3 operation(s) for destinations.
   name: Habu Destinations API
   slug: habu-destinations-api
-- description: The Flow Decision Configurations API from Habu — 1 operation(s) for flow decision configurations.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Flow Decision Configurations API from Habu — 1 operation(s) for flow decision configurations.
   name: Habu Flow Decision Configurations API
   slug: habu-flow-decision-configurations-api
-- description: The Health API from Habu — 1 operation(s) for health.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Health API from Habu — 1 operation(s) for health.
   name: Habu Health API
   slug: habu-health-api
-- description: The Import Data Types API from Habu — 1 operation(s) for import data types.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Import Data Types API from Habu — 1 operation(s) for import data types.
   name: Habu Import Data Types API
   slug: habu-import-data-types-api
-- description: The Intelligence API from Habu — 4 operation(s) for intelligence.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Intelligence API from Habu — 4 operation(s) for intelligence.
   name: Habu Intelligence API
   slug: habu-intelligence-api
-- description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
   name: Habu Internal API
   slug: habu-internal-api
-- description: The Invitations API from Habu — 3 operation(s) for invitations.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Invitations API from Habu — 3 operation(s) for invitations.
   name: Habu Invitations API
   slug: habu-invitations-api
-- description: The Organization Credentials API from Habu — 2 operation(s) for organization credentials.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Organization Credentials API from Habu — 2 operation(s) for organization credentials.
   name: Habu Organization Credentials API
   slug: habu-organization-credentials-api
-- description: The Organization Users API from Habu — 1 operation(s) for organization users.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Organization Users API from Habu — 1 operation(s) for organization users.
   name: Habu Organization Users API
   slug: habu-organization-users-api
-- description: The Questions API from Habu — 3 operation(s) for questions.
+- baseURL: https://api.habu.com/v1/
+  baseurl_source: declared
+  description: The Questions API from Habu — 3 operation(s) for questions.
   name: Habu Questions API
   slug: habu-questions-api
 artifact_total: 42
@@ -322,7 +390,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -332,7 +400,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 45.1
+  previous_composite: 46.0
   provenance:
     conformance: derived
     contracts:
@@ -343,7 +411,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
 security:

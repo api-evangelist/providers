@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 1
 apis:
-- description: The Batches API from Vatstack — 2 operation(s) for batches.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Batches API from Vatstack — 2 operation(s) for batches.
   name: Vatstack Batches API
   slug: vatstack-batches-api
-- description: The Evidences API from Vatstack — 2 operation(s) for evidences.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Evidences API from Vatstack — 2 operation(s) for evidences.
   name: Vatstack Evidences API
   slug: vatstack-evidences-api
-- description: The Hits API from Vatstack — 1 operation(s) for hits.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Hits API from Vatstack — 1 operation(s) for hits.
   name: Vatstack Hits API
   slug: vatstack-hits-api
-- description: The Quotes API from Vatstack — 2 operation(s) for quotes.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Quotes API from Vatstack — 2 operation(s) for quotes.
   name: Vatstack Quotes API
   slug: vatstack-quotes-api
-- description: The Rates API from Vatstack — 2 operation(s) for rates.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Rates API from Vatstack — 2 operation(s) for rates.
   name: Vatstack Rates API
   slug: vatstack-rates-api
-- description: The Supplies API from Vatstack — 2 operation(s) for supplies.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Supplies API from Vatstack — 2 operation(s) for supplies.
   name: Vatstack Supplies API
   slug: vatstack-supplies-api
-- description: The Validations API from Vatstack — 2 operation(s) for validations.
+- baseURL: https://api.vatstack.com/v1
+  baseurl_source: declared
+  description: The Validations API from Vatstack — 2 operation(s) for validations.
   name: Vatstack Validations API
   slug: vatstack-validations-api
 artifact_total: 40
@@ -269,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatstack/refs/heads/main/screenshots/vatstack-2026-06-20T200843.png
 security:

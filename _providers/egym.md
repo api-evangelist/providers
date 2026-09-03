@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -39,112 +52,184 @@ apis:
 - description: Official hosted Model Context Protocol server published by EGYM at developer.egym.com/mcp and documented on the portal with copy-paste Codex configuration. Exposes six tools over the API catalog and d
   name: EGYM Documentation MCP Server
   slug: mcp-docs
-- description: API for submitting cardio measurements
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: API for submitting cardio measurements
   name: EGYM 1. Cardio Measurements API
   slug: egym-1-cardio-measurements-api
-- description: API for submitting workouts
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: API for submitting workouts
   name: EGYM 2. Workouts API
   slug: egym-2-workouts-api
-- description: The alive API from EGYM — 1 operation(s) for alive.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The alive API from EGYM — 1 operation(s) for alive.
   name: EGYM Alive API
   slug: egym-alive-api
-- description: Background export jobs that produce downloadable JSON, JSONL, or CSV files.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Background export jobs that produce downloadable JSON, JSONL, or CSV files.
   name: EGYM Asynchronous exports API
   slug: egym-asynchronous-exports-api
-- description: The Body Measurement API from EGYM — 2 operation(s) for body measurement.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Body Measurement API from EGYM — 2 operation(s) for body measurement.
   name: EGYM Body Measurement API
   slug: egym-body-measurement-api
-- description: The Cardio Measurement API from EGYM — 2 operation(s) for cardio measurement.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Cardio Measurement API from EGYM — 2 operation(s) for cardio measurement.
   name: EGYM Cardio Measurement API
   slug: egym-cardio-measurement-api
-- description: The Cardio Test API from EGYM — 3 operation(s) for cardio test.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Cardio Test API from EGYM — 3 operation(s) for cardio test.
   name: EGYM Cardio Test API
   slug: egym-cardio-test-api
-- description: The Cardio Workouts API from EGYM — 2 operation(s) for cardio workouts.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Cardio Workouts API from EGYM — 2 operation(s) for cardio workouts.
   name: EGYM Cardio Workouts API
   slug: egym-cardio-workouts-api
-- description: The Flexibility Measurement API from EGYM — 2 operation(s) for flexibility measurement.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Flexibility Measurement API from EGYM — 2 operation(s) for flexibility measurement.
   name: EGYM Flexibility Measurement API
   slug: egym-flexibility-measurement-api
-- description: The gym API from EGYM — 2 operation(s) for gym.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The gym API from EGYM — 2 operation(s) for gym.
   name: EGYM Gym API
   slug: egym-gym-api
-- description: These operations are needed to transmit the information to EGYM, that a specific member is currently in the gym. Based on that information several business logics are built, to provide a seamless trai
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to transmit the information to EGYM, that a specific member is currently in the gym. Based on that information several business logics are built, to provide a seamless trai
   name: EGYM Gym Visit API
   slug: egym-gym-visit-api
-- description: The Image API from EGYM — 1 operation(s) for image.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Image API from EGYM — 1 operation(s) for image.
   name: EGYM Image API
   slug: egym-image-api
-- description: Operations related to L2 level of integration
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Operations related to L2 level of integration
   name: EGYM L2 API
   slug: egym-l2-api
-- description: Operations related to L3 level of integration
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Operations related to L3 level of integration
   name: EGYM L3 API
   slug: egym-l3-api
-- description: The Machine API from EGYM — 1 operation(s) for machine.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Machine API from EGYM — 1 operation(s) for machine.
   name: EGYM Machine API
   slug: egym-machine-api
-- description: These operations are needed to retrieve measurements with corresponding metrics. Additional permissions are required to access these endpoints.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to retrieve measurements with corresponding metrics. Additional permissions are required to access these endpoints.
   name: EGYM Measurements API
   slug: egym-measurements-api
-- description: These operations are needed to create and update member accounts and their membership information.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to create and update member accounts and their membership information.
   name: EGYM Member Account API
   slug: egym-member-account-api
-- description: Note that NFC API endpoints are in beta as we've been tuning setup processes on both EGYM and partner sides.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Note that NFC API endpoints are in beta as we've been tuning setup processes on both EGYM and partner sides.
   name: EGYM Member Account NFC API
   slug: egym-member-account-nfc-api
-- description: These operation are needed to assign and retrieve member account roles
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operation are needed to assign and retrieve member account roles
   name: EGYM Member Account Roles API
   slug: egym-member-account-roles-api
-- description: Operations with RFIDs
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Operations with RFIDs
   name: EGYM Member RFIDs API
   slug: egym-member-rfids-api
-- description: These operations are needed to migrate members from V1 API to V2 API.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to migrate members from V1 API to V2 API.
   name: EGYM Migrating members API
   slug: egym-migrating-members-api
-- description: The OAuth API from EGYM — 2 operation(s) for oauth.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The OAuth API from EGYM — 2 operation(s) for oauth.
   name: EGYM O Auth API
   slug: egym-oauth-api
-- description: The Open Exercise Workouts API from EGYM — 1 operation(s) for open exercise workouts.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Open Exercise Workouts API from EGYM — 1 operation(s) for open exercise workouts.
   name: EGYM Open Exercise Workouts API
   slug: egym-open-exercise-workouts-api
-- description: The Partners API from EGYM — 1 operation(s) for partners.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Partners API from EGYM — 1 operation(s) for partners.
   name: EGYM Partners API
   slug: egym-partners-api
-- description: Operations on EGYM products. Currently available products are EGYM Smart Strength (Machine Admission) and EGYM+
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Operations on EGYM products. Currently available products are EGYM Smart Strength (Machine Admission) and EGYM+
   name: EGYM Products booking API
   slug: egym-products-booking-api
-- description: Send push notifications to EGYM mobile apps
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Send push notifications to EGYM mobile apps
   name: EGYM Push notifications API
   slug: egym-push-notifications-api
-- description: The Resource API from EGYM — 2 operation(s) for resource.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Resource API from EGYM — 2 operation(s) for resource.
   name: EGYM Resource API
   slug: egym-resource-api
-- description: The Statistics API from EGYM — 2 operation(s) for statistics.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Statistics API from EGYM — 2 operation(s) for statistics.
   name: EGYM Statistics API
   slug: egym-statistics-api
-- description: The Strength Workouts API from EGYM — 2 operation(s) for strength workouts.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The Strength Workouts API from EGYM — 2 operation(s) for strength workouts.
   name: EGYM Strength Workouts API
   slug: egym-strength-workouts-api
-- description: Immediate paginated JSON exports for weekly analytics and recent event data.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Immediate paginated JSON exports for weekly analytics and recent event data.
   name: EGYM Synchronous exports API
   slug: egym-synchronous-exports-api
-- description: The task API from EGYM — 2 operation(s) for task.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The task API from EGYM — 2 operation(s) for task.
   name: EGYM Task API
   slug: egym-task-api
-- description: These operations are needed to create and update trainer tasks.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to create and update trainer tasks.
   name: EGYM Trainer Task API
   slug: egym-trainer-task-api
-- description: The User API from EGYM — 9 operation(s) for user.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The User API from EGYM — 9 operation(s) for user.
   name: EGYM User API
   slug: egym-user-api
-- description: The User Details API from EGYM — 1 operation(s) for user details.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: The User Details API from EGYM — 1 operation(s) for user details.
   name: EGYM User Details API
   slug: egym-user-details-api
-- description: Operations with webhooks
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: Operations with webhooks
   name: EGYM Webhooks API
   slug: egym-webhooks-api
-- description: These operations are needed to retrieve workouts. Additional permissions are required to access these endpoints.
+- baseURL: https://mms.api.egym.com
+  baseurl_source: declared
+  description: These operations are needed to retrieve workouts. Additional permissions are required to access these endpoints.
   name: EGYM Workouts API
   slug: egym-workouts-api
 artifact_total: 55
@@ -427,7 +512,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -437,7 +522,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 62.8
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -455,7 +540,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:

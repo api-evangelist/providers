@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Enterprise · Self-serve signup
+  onboarding: self-serve
+  pricing: enterprise
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,13 +47,19 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 2
 apis:
-- description: The Applications API from Findigs — 2 operation(s) for applications.
+- baseURL: https://api.client.findigs.com
+  baseurl_source: declared
+  description: The Applications API from Findigs — 2 operation(s) for applications.
   name: Findigs Applications API
   slug: findigs-applications-api
-- description: The Groups API from Findigs — 2 operation(s) for groups.
+- baseURL: https://api.client.findigs.com
+  baseurl_source: declared
+  description: The Groups API from Findigs — 2 operation(s) for groups.
   name: Findigs Groups API
   slug: findigs-groups-api
-- description: The Listings API from Findigs — 2 operation(s) for listings.
+- baseURL: https://api.client.findigs.com
+  baseurl_source: declared
+  description: The Listings API from Findigs — 2 operation(s) for listings.
   name: Findigs Listings API
   slug: findigs-listings-api
 artifact_total: 12
@@ -220,7 +240,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -230,7 +250,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 57.4
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,7 +268,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/screenshots/findigs-2026-08-17T080925.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Retrieve airport information by IATA code or browse the full database.
+- baseURL: https://airportgap.com/api/v1
+  baseurl_source: declared
+  description: Retrieve airport information by IATA code or browse the full database.
   name: Airport Gap Airports API
   slug: airport-gap-airports-api
-- description: Calculate great-circle distances between two airports.
+- baseURL: https://airportgap.com/api/v1
+  baseurl_source: declared
+  description: Calculate great-circle distances between two airports.
   name: Airport Gap Distance API
   slug: airport-gap-distance-api
-- description: Manage saved favorite airports (authenticated users only).
+- baseURL: https://airportgap.com/api/v1
+  baseurl_source: declared
+  description: Manage saved favorite airports (authenticated users only).
   name: Airport Gap Favorites API
   slug: airport-gap-favorites-api
-- description: Generate Bearer tokens for authenticated access.
+- baseURL: https://airportgap.com/api/v1
+  baseurl_source: declared
+  description: Generate Bearer tokens for authenticated access.
   name: Airport Gap Tokens API
   slug: airport-gap-tokens-api
 artifact_total: 25
@@ -219,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/screenshots/airport-gap-2026-06-20T171424.png
 security:

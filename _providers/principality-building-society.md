@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The OBIE Read/Write Account and Transaction Information (AISP) standard for reading account, balance and transaction data. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentica
@@ -35,22 +46,34 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentic
   name: OBIE Confirmation of Funds API (CBPII - Standard, Out of Scope)
   slug: obie-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting ATM data
   name: Principality Building Society ATM API
   slug: principality-building-society-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Business Current Account data
   name: Principality Building Society BCA API
   slug: principality-building-society-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Branch data
   name: Principality Building Society Branch API
   slug: principality-building-society-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Commercial Credit Card data
   name: Principality Building Society CCC API
   slug: principality-building-society-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Personal Current Account data
   name: Principality Building Society PCA API
   slug: principality-building-society-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://developer.openbanking.org.uk/reference-implementation/open-banking/v1.3
+  baseurl_source: spec
+  description: Endpoint for getting Unsecured SME Loan data
   name: Principality Building Society SME API
   slug: principality-building-society-sme-api
 artifact_total: 12
@@ -133,7 +156,7 @@ score:
   band: thin
   composite: 30.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 68.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -165,8 +188,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/principality-building-society/refs/heads/main/screenshots/principality-building-society-2026-09-02T152028.png
 security:
 - kind: authentication
   name: Principality Building Society Authentication

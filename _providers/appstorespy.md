@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,22 +46,34 @@ agentic_access:
   summary_line: 33 operations · 7 acting
 api_count: 1
 apis:
-- description: The App Store API from AppstoreSpy — 14 operation(s) for app store.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The App Store API from AppstoreSpy — 14 operation(s) for app store.
   name: AppstoreSpy App Store API
   slug: appstorespy-app-store-api
-- description: The Events API from AppstoreSpy — 1 operation(s) for events.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The Events API from AppstoreSpy — 1 operation(s) for events.
   name: AppstoreSpy Events API
   slug: appstorespy-events-api
-- description: The Google Play API from AppstoreSpy — 17 operation(s) for google play.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The Google Play API from AppstoreSpy — 17 operation(s) for google play.
   name: AppstoreSpy Google Play API
   slug: appstorespy-google-play-api
-- description: The Jobs API from AppstoreSpy — 1 operation(s) for jobs.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The Jobs API from AppstoreSpy — 1 operation(s) for jobs.
   name: AppstoreSpy Jobs API
   slug: appstorespy-jobs-api
-- description: The Search Filter v.2 API from AppstoreSpy — 1 operation(s) for search filter v.2.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The Search Filter v.2 API from AppstoreSpy — 1 operation(s) for search filter v.2.
   name: AppstoreSpy Search Filter v.2 API
   slug: appstorespy-search-filter-v-2-api
-- description: The Suggestions API from AppstoreSpy — 1 operation(s) for suggestions.
+- baseURL: https://api.appstorespy.com/v1
+  baseurl_source: declared
+  description: The Suggestions API from AppstoreSpy — 1 operation(s) for suggestions.
   name: AppstoreSpy Suggestions API
   slug: appstorespy-suggestions-api
 artifact_total: 11
@@ -170,11 +195,11 @@ score:
   band: developing
   composite: 50.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -184,7 +209,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +221,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appstorespy/refs/heads/main/screenshots/appstorespy-2026-09-02T144124.png
 security:
 - kind: authentication
   name: Appstorespy Authentication

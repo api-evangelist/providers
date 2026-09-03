@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: Converts place names and city searches into geographic coordinates and returns metadata such as country, timezone, population, and elevation to facilitate location lookup within weather application wo
   name: Geocoding API
   slug: geocoding-api
-- description: The Air Quality APIs API from Open-Meteo — 1 operation(s) for air quality apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Air Quality APIs API from Open-Meteo — 1 operation(s) for air quality apis.
   name: Open-Meteo Air Quality APIs API
   slug: open-meteo-air-quality-apis-api
-- description: The Climate Change APIs API from Open-Meteo — 1 operation(s) for climate change apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Climate Change APIs API from Open-Meteo — 1 operation(s) for climate change apis.
   name: Open-Meteo Climate Change APIs API
   slug: open-meteo-climate-change-apis-api
-- description: The Elevation API API from Open-Meteo — 1 operation(s) for elevation api.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Elevation API API from Open-Meteo — 1 operation(s) for elevation api.
   name: Open-Meteo Elevation API API
   slug: open-meteo-elevation-api-api
-- description: The Ensemble Forecast APIs API from Open-Meteo — 1 operation(s) for ensemble forecast apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Ensemble Forecast APIs API from Open-Meteo — 1 operation(s) for ensemble forecast apis.
   name: Open-Meteo Ensemble Forecast APIs API
   slug: open-meteo-ensemble-forecast-apis-api
-- description: The Flood APIs API from Open-Meteo — 1 operation(s) for flood apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Flood APIs API from Open-Meteo — 1 operation(s) for flood apis.
   name: Open-Meteo Flood APIs API
   slug: open-meteo-flood-apis-api
-- description: The Historical Weather APIs API from Open-Meteo — 1 operation(s) for historical weather apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Historical Weather APIs API from Open-Meteo — 1 operation(s) for historical weather apis.
   name: Open-Meteo Historical Weather APIs API
   slug: open-meteo-historical-weather-apis-api
-- description: The Marine Weather APIs API from Open-Meteo — 1 operation(s) for marine weather apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Marine Weather APIs API from Open-Meteo — 1 operation(s) for marine weather apis.
   name: Open-Meteo Marine Weather APIs API
   slug: open-meteo-marine-weather-apis-api
-- description: The Seasonal Forecast APIs API from Open-Meteo — 1 operation(s) for seasonal forecast apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Seasonal Forecast APIs API from Open-Meteo — 1 operation(s) for seasonal forecast apis.
   name: Open-Meteo Seasonal Forecast APIs API
   slug: open-meteo-seasonal-forecast-apis-api
-- description: The Weather Forecast APIs API from Open-Meteo — 1 operation(s) for weather forecast apis.
+- baseURL: https://api.open-meteo.com
+  baseurl_source: declared
+  description: The Weather Forecast APIs API from Open-Meteo — 1 operation(s) for weather forecast apis.
   name: Open-Meteo Weather Forecast APIs API
   slug: open-meteo-weather-forecast-apis-api
 artifact_total: 34
@@ -249,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/screenshots/open-meteo-2026-06-20T190840.png
 security:

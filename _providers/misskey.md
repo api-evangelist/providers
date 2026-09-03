@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 412
   human_in_the_loop: 6
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 439 operations · 412 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The account API from Misskey — 34 operation(s) for account.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The account API from Misskey — 34 operation(s) for account.
   name: Misskey account API
   slug: misskey-account-api
-- description: The Admin API from Misskey — 108 operation(s) for admin.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Admin API from Misskey — 108 operation(s) for admin.
   name: Misskey Admin API
   slug: misskey-admin-api
-- description: The antennas API from Misskey — 6 operation(s) for antennas.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The antennas API from Misskey — 6 operation(s) for antennas.
   name: Misskey antennas API
   slug: misskey-antennas-api
-- description: The app API from Misskey — 2 operation(s) for app.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The app API from Misskey — 2 operation(s) for app.
   name: Misskey app API
   slug: misskey-app-api
-- description: The auth API from Misskey — 5 operation(s) for auth.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The auth API from Misskey — 5 operation(s) for auth.
   name: Misskey auth API
   slug: misskey-auth-api
-- description: The Bubble Game API from Misskey — 2 operation(s) for bubble game.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Bubble Game API from Misskey — 2 operation(s) for bubble game.
   name: Misskey Bubble Game API
   slug: misskey-bubble-game-api
-- description: The channels API from Misskey — 13 operation(s) for channels.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The channels API from Misskey — 13 operation(s) for channels.
   name: Misskey channels API
   slug: misskey-channels-api
-- description: The charts API from Misskey — 12 operation(s) for charts.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The charts API from Misskey — 12 operation(s) for charts.
   name: Misskey charts API
   slug: misskey-charts-api
-- description: The clip API from Misskey — 2 operation(s) for clip.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The clip API from Misskey — 2 operation(s) for clip.
   name: Misskey clip API
   slug: misskey-clip-api
-- description: The clips API from Misskey — 6 operation(s) for clips.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The clips API from Misskey — 6 operation(s) for clips.
   name: Misskey clips API
   slug: misskey-clips-api
-- description: The drive API from Misskey — 18 operation(s) for drive.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The drive API from Misskey — 18 operation(s) for drive.
   name: Misskey drive API
   slug: misskey-drive-api
-- description: The Export Custom Emojis API from Misskey — 1 operation(s) for export custom emojis.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Export Custom Emojis API from Misskey — 1 operation(s) for export custom emojis.
   name: Misskey Export Custom Emojis API
   slug: misskey-export-custom-emojis-api
-- description: The federation API from Misskey — 9 operation(s) for federation.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The federation API from Misskey — 9 operation(s) for federation.
   name: Misskey federation API
   slug: misskey-federation-api
-- description: The flash API from Misskey — 5 operation(s) for flash.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The flash API from Misskey — 5 operation(s) for flash.
   name: Misskey flash API
   slug: misskey-flash-api
-- description: The flashs API from Misskey — 2 operation(s) for flashs.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The flashs API from Misskey — 2 operation(s) for flashs.
   name: Misskey flashs API
   slug: misskey-flashs-api
-- description: The following API from Misskey — 10 operation(s) for following.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The following API from Misskey — 10 operation(s) for following.
   name: Misskey following API
   slug: misskey-following-api
-- description: The gallery API from Misskey — 9 operation(s) for gallery.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The gallery API from Misskey — 9 operation(s) for gallery.
   name: Misskey gallery API
   slug: misskey-gallery-api
-- description: The hashtags API from Misskey — 5 operation(s) for hashtags.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The hashtags API from Misskey — 5 operation(s) for hashtags.
   name: Misskey hashtags API
   slug: misskey-hashtags-api
-- description: The I API from Misskey — 38 operation(s) for i.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The I API from Misskey — 38 operation(s) for i.
   name: Misskey I API
   slug: misskey-i-api
-- description: The lists API from Misskey — 9 operation(s) for lists.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The lists API from Misskey — 9 operation(s) for lists.
   name: Misskey lists API
   slug: misskey-lists-api
-- description: The meta API from Misskey — 18 operation(s) for meta.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The meta API from Misskey — 18 operation(s) for meta.
   name: Misskey meta API
   slug: misskey-meta-api
-- description: The non-productive API from Misskey — 2 operation(s) for non-productive.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The non-productive API from Misskey — 2 operation(s) for non-productive.
   name: Misskey non-productive API
   slug: misskey-non-productive-api
-- description: The notes API from Misskey — 32 operation(s) for notes.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The notes API from Misskey — 32 operation(s) for notes.
   name: Misskey notes API
   slug: misskey-notes-api
-- description: The notifications API from Misskey — 4 operation(s) for notifications.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The notifications API from Misskey — 4 operation(s) for notifications.
   name: Misskey notifications API
   slug: misskey-notifications-api
-- description: The Page Push API from Misskey — 1 operation(s) for page push.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Page Push API from Misskey — 1 operation(s) for page push.
   name: Misskey Page Push API
   slug: misskey-page-push-api
-- description: The pages API from Misskey — 7 operation(s) for pages.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The pages API from Misskey — 7 operation(s) for pages.
   name: Misskey pages API
   slug: misskey-pages-api
-- description: The reactions API from Misskey — 2 operation(s) for reactions.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The reactions API from Misskey — 2 operation(s) for reactions.
   name: Misskey reactions API
   slug: misskey-reactions-api
-- description: The reset password API from Misskey — 2 operation(s) for reset password.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The reset password API from Misskey — 2 operation(s) for reset password.
   name: Misskey reset password API
   slug: misskey-reset-password-api
-- description: The Reversi API from Misskey — 7 operation(s) for reversi.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Reversi API from Misskey — 7 operation(s) for reversi.
   name: Misskey Reversi API
   slug: misskey-reversi-api
-- description: The role API from Misskey — 4 operation(s) for role.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The role API from Misskey — 4 operation(s) for role.
   name: Misskey role API
   slug: misskey-role-api
-- description: The Users API from Misskey — 30 operation(s) for users.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The Users API from Misskey — 30 operation(s) for users.
   name: Misskey Users API
   slug: misskey-users-api
-- description: The webhooks API from Misskey — 7 operation(s) for webhooks.
+- baseURL: https://misskey.io/api
+  baseurl_source: spec
+  description: The webhooks API from Misskey — 7 operation(s) for webhooks.
   name: Misskey webhooks API
   slug: misskey-webhooks-api
 artifact_total: 195
@@ -769,7 +833,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misskey/refs/heads/main/screenshots/misskey-2026-06-20T185633.png
 security:

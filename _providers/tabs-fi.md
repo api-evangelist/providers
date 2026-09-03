@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -47,67 +47,109 @@ apis:
 - description: REST API for the Tabs revenue automation platform that exposes the core data model of customers, contracts, items, revenue categories, obligations, invoices, payments, and usage events. The API lets f
   name: Tabs Platform API
   slug: tabs-platform-api
-- description: The BillingTerms API from Tabs — 3 operation(s) for billingterms.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The BillingTerms API from Tabs — 3 operation(s) for billingterms.
   name: Tabs BillingTerms API
   slug: tabs-fi-billingterms-api
-- description: The Categories API from Tabs — 3 operation(s) for categories.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Categories API from Tabs — 3 operation(s) for categories.
   name: Tabs Categories API
   slug: tabs-fi-categories-api
-- description: The Commitments API from Tabs — 2 operation(s) for commitments.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Commitments API from Tabs — 2 operation(s) for commitments.
   name: Tabs Commitments API
   slug: tabs-fi-commitments-api
-- description: The Contracts API from Tabs — 4 operation(s) for contracts.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Contracts API from Tabs — 4 operation(s) for contracts.
   name: Tabs Contracts API
   slug: tabs-fi-contracts-api
-- description: The CreditMemos API from Tabs — 3 operation(s) for creditmemos.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The CreditMemos API from Tabs — 3 operation(s) for creditmemos.
   name: Tabs CreditMemos API
   slug: tabs-fi-creditmemos-api
-- description: The Customers API from Tabs — 5 operation(s) for customers.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Customers API from Tabs — 5 operation(s) for customers.
   name: Tabs Customers API
   slug: tabs-fi-customers-api
-- description: The CustomFields API from Tabs — 1 operation(s) for customfields.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The CustomFields API from Tabs — 1 operation(s) for customfields.
   name: Tabs CustomFields API
   slug: tabs-fi-customfields-api
-- description: The Events API from Tabs — 3 operation(s) for events.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Events API from Tabs — 3 operation(s) for events.
   name: Tabs Events API
   slug: tabs-fi-events-api
-- description: The EventTypes API from Tabs — 2 operation(s) for eventtypes.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The EventTypes API from Tabs — 2 operation(s) for eventtypes.
   name: Tabs EventTypes API
   slug: tabs-fi-eventtypes-api
-- description: The Invoices API from Tabs — 4 operation(s) for invoices.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Invoices API from Tabs — 4 operation(s) for invoices.
   name: Tabs Invoices API
   slug: tabs-fi-invoices-api
-- description: The Items API from Tabs — 2 operation(s) for items.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Items API from Tabs — 2 operation(s) for items.
   name: Tabs Items API
   slug: tabs-fi-items-api
-- description: The Jobs API from Tabs — 1 operation(s) for jobs.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Jobs API from Tabs — 1 operation(s) for jobs.
   name: Tabs Jobs API
   slug: tabs-fi-jobs-api
-- description: The Merchant API from Tabs — 1 operation(s) for merchant.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Merchant API from Tabs — 1 operation(s) for merchant.
   name: Tabs Merchant API
   slug: tabs-fi-merchant-api
-- description: The Obligations API from Tabs — 4 operation(s) for obligations.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Obligations API from Tabs — 4 operation(s) for obligations.
   name: Tabs Obligations API
   slug: tabs-fi-obligations-api
-- description: The Payments API from Tabs — 3 operation(s) for payments.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Payments API from Tabs — 3 operation(s) for payments.
   name: Tabs Payments API
   slug: tabs-fi-payments-api
-- description: The PerformanceObligations API from Tabs — 4 operation(s) for performanceobligations.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The PerformanceObligations API from Tabs — 4 operation(s) for performanceobligations.
   name: Tabs PerformanceObligations API
   slug: tabs-fi-performanceobligations-api
-- description: The Renewals API from Tabs — 1 operation(s) for renewals.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Renewals API from Tabs — 1 operation(s) for renewals.
   name: Tabs Renewals API
   slug: tabs-fi-renewals-api
-- description: The Reports API from Tabs — 2 operation(s) for reports.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Reports API from Tabs — 2 operation(s) for reports.
   name: Tabs Reports API
   slug: tabs-fi-reports-api
-- description: The Revenue API from Tabs — 1 operation(s) for revenue.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The Revenue API from Tabs — 1 operation(s) for revenue.
   name: Tabs Revenue API
   slug: tabs-fi-revenue-api
-- description: The System API from Tabs — 4 operation(s) for system.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The System API from Tabs — 4 operation(s) for system.
   name: Tabs System API
   slug: tabs-fi-system-api
-- description: The UsageEvents API from Tabs — 2 operation(s) for usageevents.
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The UsageEvents API from Tabs — 2 operation(s) for usageevents.
   name: Tabs UsageEvents API
   slug: tabs-fi-usageevents-api
 artifact_total: 51
@@ -272,7 +314,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs-fi/refs/heads/main/screenshots/tabs-fi-2026-06-20T194954.png
 security:

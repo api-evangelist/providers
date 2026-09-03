@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -176,49 +176,79 @@ apis:
 - description: API for managing the lifecycle of VMware cloud provider environments including deployment, upgrade, and configuration of VMware products for service providers.
   name: VMware Cloud Provider Lifecycle Manager API
   slug: vmware-cloud-provider-lifecycle-manager-api
-- description: Cluster management for compute resource grouping, DRS, and HA configuration
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Cluster management for compute resource grouping, DRS, and HA configuration
   name: VMware Clusters API
   slug: vmware-clusters-api
-- description: Content library management for templates, ISOs, and OVF packages shared across vCenter instances
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Content library management for templates, ISOs, and OVF packages shared across vCenter instances
   name: VMware Content Library API
   slug: vmware-content-library-api
-- description: Datacenter management for organizing vSphere inventory
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Datacenter management for organizing vSphere inventory
   name: VMware Datacenters API
   slug: vmware-datacenters-api
-- description: Datastore management including browsing, capacity monitoring, and storage configuration
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Datastore management including browsing, capacity monitoring, and storage configuration
   name: VMware Datastores API
   slug: vmware-datastores-api
-- description: Inventory folder management for organizing vSphere objects
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Inventory folder management for organizing vSphere objects
   name: VMware Folders API
   slug: vmware-folders-api
-- description: ESXi host management including connection state, maintenance mode, and host configuration
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: ESXi host management including connection state, maintenance mode, and host configuration
   name: VMware Hosts API
   slug: vmware-hosts-api
-- description: Virtual network management including standard and distributed port groups and network connectivity
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Virtual network management including standard and distributed port groups and network connectivity
   name: VMware Networks API
   slug: vmware-networks-api
-- description: Resource pool management for allocating compute resources
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Resource pool management for allocating compute resources
   name: VMware Resource Pools API
   slug: vmware-resource-pools-api
-- description: Authentication session management for the vSphere REST API
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Authentication session management for the vSphere REST API
   name: VMware Session API
   slug: vmware-session-api
-- description: VM storage policy management for defining storage requirements and compliance
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: VM storage policy management for defining storage requirements and compliance
   name: VMware Storage Policies API
   slug: vmware-storage-policies-api
-- description: Tag and category management for organizing and classifying vSphere inventory objects
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Tag and category management for organizing and classifying vSphere inventory objects
   name: VMware Tagging API
   slug: vmware-tagging-api
-- description: Guest operating system operations including identity, networking, local filesystem, and process management via VMware Tools
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Guest operating system operations including identity, networking, local filesystem, and process management via VMware Tools
   name: VMware VM Guest API
   slug: vmware-vm-guest-api
-- description: Virtual machine hardware configuration including CPU, memory, disks, network adapters, CD-ROMs, and other virtual devices
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Virtual machine hardware configuration including CPU, memory, disks, network adapters, CD-ROMs, and other virtual devices
   name: VMware VM Hardware API
   slug: vmware-vm-hardware-api
-- description: Virtual machine power state operations including power on, power off, suspend, reset, and guest shutdown
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Virtual machine power state operations including power on, power off, suspend, reset, and guest shutdown
   name: VMware VM Power API
   slug: vmware-vm-power-api
-- description: Virtual machine lifecycle management including creation, power operations, cloning, migration, and configuration
+- baseURL: https://{{vcenter}}/api
+  baseurl_source: declared
+  description: Virtual machine lifecycle management including creation, power operations, cloning, migration, and configuration
   name: VMware VMs API
   slug: vmware-vms-api
 artifact_total: 311
@@ -1152,7 +1182,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:

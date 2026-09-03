@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -164,7 +164,9 @@ apis:
 - description: The Zendesk Chat Conversations API lets your application act as a Zendesk Chat agent and interact with customers. It is a GraphQL API that supports WebSocket connections for real-time message exchange
   name: Zendesk Chat Conversations API
   slug: chat-conversations
-- description: The Zendesk Webhooks API lets you create, manage, and monitor webhooks that send HTTP requests to specified URLs in response to events in Zendesk. It is the modern replacement for legacy targets, supp
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Zendesk Webhooks API lets you create, manage, and monitor webhooks that send HTTP requests to specified URLs in response to events in Zendesk. It is the modern replacement for legacy targets, supp
   name: Zendesk Webhooks API
   slug: webhooks
 - description: The Zendesk Sell Contacts API provides a simple interface to manage your contacts. A contact represents an individual or an organization. Each contact has customer_status and prospect_status fields de
@@ -254,244 +256,404 @@ apis:
 - description: The Zendesk Skill-Based Routing API lets you manage skills and skill-based routing rules that match tickets to agents with the right expertise. You can define skills such as language fluency or produc
   name: Zendesk Skill-Based Routing API
   slug: skill-based-routing
-- description: The Account Settings API from Zendesk — 1 operation(s) for account settings.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Account Settings API from Zendesk — 1 operation(s) for account settings.
   name: Zendesk Account Settings API
   slug: zendesk-account-settings-api
-- description: The Activity Stream API from Zendesk — 3 operation(s) for activity stream.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Activity Stream API from Zendesk — 3 operation(s) for activity stream.
   name: Zendesk Activity Stream API
   slug: zendesk-activity-stream-api
-- description: The Approval Requests API from Zendesk — 3 operation(s) for approval requests.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Approval Requests API from Zendesk — 3 operation(s) for approval requests.
   name: Zendesk Approval Requests API
   slug: zendesk-approval-requests-api
-- description: The AssigneeFieldAssignableAgents API from Zendesk — 3 operation(s) for assigneefieldassignableagents.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The AssigneeFieldAssignableAgents API from Zendesk — 3 operation(s) for assigneefieldassignableagents.
   name: Zendesk AssigneeFieldAssignableAgents API
   slug: zendesk-assigneefieldassignableagents-api
-- description: The AssigneeFieldAssignableGroups API from Zendesk — 1 operation(s) for assigneefieldassignablegroups.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The AssigneeFieldAssignableGroups API from Zendesk — 1 operation(s) for assigneefieldassignablegroups.
   name: Zendesk AssigneeFieldAssignableGroups API
   slug: zendesk-assigneefieldassignablegroups-api
-- description: The Attachments API from Zendesk — 4 operation(s) for attachments.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Attachments API from Zendesk — 4 operation(s) for attachments.
   name: Zendesk Attachments API
   slug: zendesk-attachments-api
-- description: The Audit Logs API from Zendesk — 3 operation(s) for audit logs.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Audit Logs API from Zendesk — 3 operation(s) for audit logs.
   name: Zendesk Audit Logs API
   slug: zendesk-audit-logs-api
-- description: The Autocomplete API from Zendesk — 1 operation(s) for autocomplete.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Autocomplete API from Zendesk — 1 operation(s) for autocomplete.
   name: Zendesk Autocomplete API
   slug: zendesk-autocomplete-api
-- description: The Automations API from Zendesk — 6 operation(s) for automations.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Automations API from Zendesk — 6 operation(s) for automations.
   name: Zendesk Automations API
   slug: zendesk-automations-api
-- description: The Basics API from Zendesk — 3 operation(s) for basics.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Basics API from Zendesk — 3 operation(s) for basics.
   name: Zendesk Basics API
   slug: zendesk-basics-api
-- description: The Bookmarks API from Zendesk — 2 operation(s) for bookmarks.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Bookmarks API from Zendesk — 2 operation(s) for bookmarks.
   name: Zendesk Bookmarks API
   slug: zendesk-bookmarks-api
-- description: The Brand Agents API from Zendesk — 2 operation(s) for brand agents.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Brand Agents API from Zendesk — 2 operation(s) for brand agents.
   name: Zendesk Brand Agents API
   slug: zendesk-brand-agents-api
-- description: The Brands API from Zendesk — 4 operation(s) for brands.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Brands API from Zendesk — 4 operation(s) for brands.
   name: Zendesk Brands API
   slug: zendesk-brands-api
-- description: The Channel Framework API from Zendesk — 3 operation(s) for channel framework.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Channel Framework API from Zendesk — 3 operation(s) for channel framework.
   name: Zendesk Channel Framework API
   slug: zendesk-channel-framework-api
-- description: The Conversation Log API from Zendesk — 1 operation(s) for conversation log.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Conversation Log API from Zendesk — 1 operation(s) for conversation log.
   name: Zendesk Conversation Log API
   slug: zendesk-conversation-log-api
-- description: The Custom Object Fields API from Zendesk — 4 operation(s) for custom object fields.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Custom Object Fields API from Zendesk — 4 operation(s) for custom object fields.
   name: Zendesk Custom Object Fields API
   slug: zendesk-custom-object-fields-api
-- description: The Custom Object Records API from Zendesk — 7 operation(s) for custom object records.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Custom Object Records API from Zendesk — 7 operation(s) for custom object records.
   name: Zendesk Custom Object Records API
   slug: zendesk-custom-object-records-api
-- description: The Custom Objects API from Zendesk — 3 operation(s) for custom objects.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Custom Objects API from Zendesk — 3 operation(s) for custom objects.
   name: Zendesk Custom Objects API
   slug: zendesk-custom-objects-api
-- description: The Custom Roles API from Zendesk — 2 operation(s) for custom roles.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Custom Roles API from Zendesk — 2 operation(s) for custom roles.
   name: Zendesk Custom Roles API
   slug: zendesk-custom-roles-api
-- description: The Custom Ticket Statuses API from Zendesk — 4 operation(s) for custom ticket statuses.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Custom Ticket Statuses API from Zendesk — 4 operation(s) for custom ticket statuses.
   name: Zendesk Custom Ticket Statuses API
   slug: zendesk-custom-ticket-statuses-api
-- description: The Deletion Schedules API from Zendesk — 2 operation(s) for deletion schedules.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Deletion Schedules API from Zendesk — 2 operation(s) for deletion schedules.
   name: Zendesk Deletion Schedules API
   slug: zendesk-deletion-schedules-api
-- description: The Dynamic Content API from Zendesk — 3 operation(s) for dynamic content.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Dynamic Content API from Zendesk — 3 operation(s) for dynamic content.
   name: Zendesk Dynamic Content API
   slug: zendesk-dynamic-content-api
-- description: The Dynamic Content Item Variants API from Zendesk — 4 operation(s) for dynamic content item variants.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Dynamic Content Item Variants API from Zendesk — 4 operation(s) for dynamic content item variants.
   name: Zendesk Dynamic Content Item Variants API
   slug: zendesk-dynamic-content-item-variants-api
-- description: The Email Notifications API from Zendesk — 3 operation(s) for email notifications.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Email Notifications API from Zendesk — 3 operation(s) for email notifications.
   name: Zendesk Email Notifications API
   slug: zendesk-email-notifications-api
-- description: The Essentials Card API from Zendesk — 2 operation(s) for essentials card.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Essentials Card API from Zendesk — 2 operation(s) for essentials card.
   name: Zendesk Essentials Card API
   slug: zendesk-essentials-card-api
-- description: The Global Clients API from Zendesk — 3 operation(s) for global clients.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Global Clients API from Zendesk — 3 operation(s) for global clients.
   name: Zendesk Global Clients API
   slug: zendesk-global-clients-api
-- description: The Grant Type Tokens API from Zendesk — 1 operation(s) for grant type tokens.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Grant Type Tokens API from Zendesk — 1 operation(s) for grant type tokens.
   name: Zendesk Grant Type Tokens API
   slug: zendesk-grant-type-tokens-api
-- description: The Group Memberships API from Zendesk — 6 operation(s) for group memberships.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Group Memberships API from Zendesk — 6 operation(s) for group memberships.
   name: Zendesk Group Memberships API
   slug: zendesk-group-memberships-api
-- description: The Group SLA Policies API from Zendesk — 4 operation(s) for group sla policies.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Group SLA Policies API from Zendesk — 4 operation(s) for group sla policies.
   name: Zendesk Group SLA Policies API
   slug: zendesk-group-sla-policies-api
-- description: The Groups API from Zendesk — 4 operation(s) for groups.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Groups API from Zendesk — 4 operation(s) for groups.
   name: Zendesk Groups API
   slug: zendesk-groups-api
-- description: The Incremental Export API from Zendesk — 7 operation(s) for incremental export.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Incremental Export API from Zendesk — 7 operation(s) for incremental export.
   name: Zendesk Incremental Export API
   slug: zendesk-incremental-export-api
-- description: The Incremental Skill Based Routing API from Zendesk — 3 operation(s) for incremental skill based routing.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Incremental Skill Based Routing API from Zendesk — 3 operation(s) for incremental skill based routing.
   name: Zendesk Incremental Skill Based Routing API
   slug: zendesk-incremental-skill-based-routing-api
-- description: The Job Statuses API from Zendesk — 4 operation(s) for job statuses.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Job Statuses API from Zendesk — 4 operation(s) for job statuses.
   name: Zendesk Job Statuses API
   slug: zendesk-job-statuses-api
-- description: The Locales API from Zendesk — 6 operation(s) for locales.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Locales API from Zendesk — 6 operation(s) for locales.
   name: Zendesk Locales API
   slug: zendesk-locales-api
-- description: The Lookup Relationships API from Zendesk — 2 operation(s) for lookup relationships.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Lookup Relationships API from Zendesk — 2 operation(s) for lookup relationships.
   name: Zendesk Lookup Relationships API
   slug: zendesk-lookup-relationships-api
-- description: The Macros API from Zendesk — 15 operation(s) for macros.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Macros API from Zendesk — 15 operation(s) for macros.
   name: Zendesk Macros API
   slug: zendesk-macros-api
-- description: The OAuth Clients API from Zendesk — 3 operation(s) for oauth clients.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The OAuth Clients API from Zendesk — 3 operation(s) for oauth clients.
   name: Zendesk OAuth Clients API
   slug: zendesk-oauth-clients-api
-- description: The OAuth Tokens API from Zendesk — 2 operation(s) for oauth tokens.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The OAuth Tokens API from Zendesk — 2 operation(s) for oauth tokens.
   name: Zendesk OAuth Tokens API
   slug: zendesk-oauth-tokens-api
-- description: The Object Triggers API from Zendesk — 7 operation(s) for object triggers.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Object Triggers API from Zendesk — 7 operation(s) for object triggers.
   name: Zendesk Object Triggers API
   slug: zendesk-object-triggers-api
-- description: The Omnichannel Routing Queues API from Zendesk — 4 operation(s) for omnichannel routing queues.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Omnichannel Routing Queues API from Zendesk — 4 operation(s) for omnichannel routing queues.
   name: Zendesk Omnichannel Routing Queues API
   slug: zendesk-omnichannel-routing-queues-api
-- description: The Organization Fields API from Zendesk — 3 operation(s) for organization fields.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Organization Fields API from Zendesk — 3 operation(s) for organization fields.
   name: Zendesk Organization Fields API
   slug: zendesk-organization-fields-api
-- description: The Organization Memberships API from Zendesk — 7 operation(s) for organization memberships.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Organization Memberships API from Zendesk — 7 operation(s) for organization memberships.
   name: Zendesk Organization Memberships API
   slug: zendesk-organization-memberships-api
-- description: The Organization Subscriptions API from Zendesk — 2 operation(s) for organization subscriptions.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Organization Subscriptions API from Zendesk — 2 operation(s) for organization subscriptions.
   name: Zendesk Organization Subscriptions API
   slug: zendesk-organization-subscriptions-api
-- description: The Organizations API from Zendesk — 18 operation(s) for organizations.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Organizations API from Zendesk — 18 operation(s) for organizations.
   name: Zendesk Organizations API
   slug: zendesk-organizations-api
-- description: The Push Notification Devices API from Zendesk — 1 operation(s) for push notification devices.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Push Notification Devices API from Zendesk — 1 operation(s) for push notification devices.
   name: Zendesk Push Notification Devices API
   slug: zendesk-push-notification-devices-api
-- description: The Requests API from Zendesk — 5 operation(s) for requests.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Requests API from Zendesk — 5 operation(s) for requests.
   name: Zendesk Requests API
   slug: zendesk-requests-api
-- description: The Reseller API from Zendesk — 2 operation(s) for reseller.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Reseller API from Zendesk — 2 operation(s) for reseller.
   name: Zendesk Reseller API
   slug: zendesk-reseller-api
-- description: The Resource Collections API from Zendesk — 2 operation(s) for resource collections.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Resource Collections API from Zendesk — 2 operation(s) for resource collections.
   name: Zendesk Resource Collections API
   slug: zendesk-resource-collections-api
-- description: The Satisfaction Ratings API from Zendesk — 4 operation(s) for satisfaction ratings.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Satisfaction Ratings API from Zendesk — 4 operation(s) for satisfaction ratings.
   name: Zendesk Satisfaction Ratings API
   slug: zendesk-satisfaction-ratings-api
-- description: The Satisfaction Reasons API from Zendesk — 2 operation(s) for satisfaction reasons.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Satisfaction Reasons API from Zendesk — 2 operation(s) for satisfaction reasons.
   name: Zendesk Satisfaction Reasons API
   slug: zendesk-satisfaction-reasons-api
-- description: The Search API from Zendesk — 3 operation(s) for search.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Search API from Zendesk — 3 operation(s) for search.
   name: Zendesk Search API
   slug: zendesk-search-api
-- description: The Sessions API from Zendesk — 6 operation(s) for sessions.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Sessions API from Zendesk — 6 operation(s) for sessions.
   name: Zendesk Sessions API
   slug: zendesk-sessions-api
-- description: The Sharing Agreements API from Zendesk — 2 operation(s) for sharing agreements.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Sharing Agreements API from Zendesk — 2 operation(s) for sharing agreements.
   name: Zendesk Sharing Agreements API
   slug: zendesk-sharing-agreements-api
-- description: The Skill Based Routing API from Zendesk — 10 operation(s) for skill based routing.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Skill Based Routing API from Zendesk — 10 operation(s) for skill based routing.
   name: Zendesk Skill Based Routing API
   slug: zendesk-skill-based-routing-api
-- description: The SLA Policies API from Zendesk — 4 operation(s) for sla policies.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The SLA Policies API from Zendesk — 4 operation(s) for sla policies.
   name: Zendesk SLA Policies API
   slug: zendesk-sla-policies-api
-- description: The Support Addresses API from Zendesk — 3 operation(s) for support addresses.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Support Addresses API from Zendesk — 3 operation(s) for support addresses.
   name: Zendesk Support Addresses API
   slug: zendesk-support-addresses-api
-- description: The Suspended Tickets API from Zendesk — 7 operation(s) for suspended tickets.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Suspended Tickets API from Zendesk — 7 operation(s) for suspended tickets.
   name: Zendesk Suspended Tickets API
   slug: zendesk-suspended-tickets-api
-- description: The Tags API from Zendesk — 2 operation(s) for tags.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Tags API from Zendesk — 2 operation(s) for tags.
   name: Zendesk Tags API
   slug: zendesk-tags-api
-- description: The Target Failures API from Zendesk — 2 operation(s) for target failures.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Target Failures API from Zendesk — 2 operation(s) for target failures.
   name: Zendesk Target Failures API
   slug: zendesk-target-failures-api
-- description: The Targets API from Zendesk — 2 operation(s) for targets.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Targets API from Zendesk — 2 operation(s) for targets.
   name: Zendesk Targets API
   slug: zendesk-targets-api
-- description: The Ticket Audits API from Zendesk — 5 operation(s) for ticket audits.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Audits API from Zendesk — 5 operation(s) for ticket audits.
   name: Zendesk Ticket Audits API
   slug: zendesk-ticket-audits-api
-- description: The Ticket Comments API from Zendesk — 7 operation(s) for ticket comments.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Comments API from Zendesk — 7 operation(s) for ticket comments.
   name: Zendesk Ticket Comments API
   slug: zendesk-ticket-comments-api
-- description: The Ticket Content Pins API from Zendesk — 2 operation(s) for ticket content pins.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Content Pins API from Zendesk — 2 operation(s) for ticket content pins.
   name: Zendesk Ticket Content Pins API
   slug: zendesk-ticket-content-pins-api
-- description: The Ticket Fields API from Zendesk — 6 operation(s) for ticket fields.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Fields API from Zendesk — 6 operation(s) for ticket fields.
   name: Zendesk Ticket Fields API
   slug: zendesk-ticket-fields-api
-- description: The Ticket Form Statuses API from Zendesk — 5 operation(s) for ticket form statuses.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Form Statuses API from Zendesk — 5 operation(s) for ticket form statuses.
   name: Zendesk Ticket Form Statuses API
   slug: zendesk-ticket-form-statuses-api
-- description: The Ticket Forms API from Zendesk — 7 operation(s) for ticket forms.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Forms API from Zendesk — 7 operation(s) for ticket forms.
   name: Zendesk Ticket Forms API
   slug: zendesk-ticket-forms-api
-- description: The Ticket Import API from Zendesk — 2 operation(s) for ticket import.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Import API from Zendesk — 2 operation(s) for ticket import.
   name: Zendesk Ticket Import API
   slug: zendesk-ticket-import-api
-- description: The Ticket Metric Events API from Zendesk — 1 operation(s) for ticket metric events.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Metric Events API from Zendesk — 1 operation(s) for ticket metric events.
   name: Zendesk Ticket Metric Events API
   slug: zendesk-ticket-metric-events-api
-- description: The Ticket Metrics API from Zendesk — 2 operation(s) for ticket metrics.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Metrics API from Zendesk — 2 operation(s) for ticket metrics.
   name: Zendesk Ticket Metrics API
   slug: zendesk-ticket-metrics-api
-- description: The Ticket Skips API from Zendesk — 2 operation(s) for ticket skips.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Ticket Skips API from Zendesk — 2 operation(s) for ticket skips.
   name: Zendesk Ticket Skips API
   slug: zendesk-ticket-skips-api
-- description: The Tickets API from Zendesk — 26 operation(s) for tickets.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Tickets API from Zendesk — 26 operation(s) for tickets.
   name: Zendesk Tickets API
   slug: zendesk-tickets-api
-- description: The Trigger Categories API from Zendesk — 3 operation(s) for trigger categories.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Trigger Categories API from Zendesk — 3 operation(s) for trigger categories.
   name: Zendesk Trigger Categories API
   slug: zendesk-trigger-categories-api
-- description: The Triggers API from Zendesk — 10 operation(s) for triggers.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Triggers API from Zendesk — 10 operation(s) for triggers.
   name: Zendesk Triggers API
   slug: zendesk-triggers-api
-- description: The User Fields API from Zendesk — 5 operation(s) for user fields.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The User Fields API from Zendesk — 5 operation(s) for user fields.
   name: Zendesk User Fields API
   slug: zendesk-user-fields-api
-- description: The User Identities API from Zendesk — 5 operation(s) for user identities.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The User Identities API from Zendesk — 5 operation(s) for user identities.
   name: Zendesk User Identities API
   slug: zendesk-user-identities-api
-- description: The User Passwords API from Zendesk — 2 operation(s) for user passwords.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The User Passwords API from Zendesk — 2 operation(s) for user passwords.
   name: Zendesk User Passwords API
   slug: zendesk-user-passwords-api
-- description: The Users API from Zendesk — 23 operation(s) for users.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Users API from Zendesk — 23 operation(s) for users.
   name: Zendesk Users API
   slug: zendesk-users-api
-- description: The Views API from Zendesk — 16 operation(s) for views.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Views API from Zendesk — 16 operation(s) for views.
   name: Zendesk Views API
   slug: zendesk-views-api
-- description: The Workspaces API from Zendesk — 4 operation(s) for workspaces.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The Workspaces API from Zendesk — 4 operation(s) for workspaces.
   name: Zendesk Workspaces API
   slug: zendesk-workspaces-api
-- description: The X Channel API from Zendesk — 4 operation(s) for x channel.
+- baseURL: https://{subdomain}.zendesk.com
+  baseurl_source: declared
+  description: The X Channel API from Zendesk — 4 operation(s) for x channel.
   name: Zendesk X Channel API
   slug: zendesk-x-channel-api
 arazzos:
@@ -1552,7 +1714,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1562,7 +1724,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1573,7 +1735,7 @@ score:
       total: 80
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

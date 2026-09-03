@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: Open API for building new/used listing search widgets.
+- baseURL: https://www.cargurus.com/Cars/api/1.0
+  baseurl_source: declared
+  description: Open API for building new/used listing search widgets.
   name: CarGurus Car Selector API
   slug: cargurus-dealer-car-selector-api
-- description: Retrieve sales reviews for a specific dealer.
+- baseURL: https://www.cargurus.com/Cars/api/1.0
+  baseurl_source: declared
+  description: Retrieve sales reviews for a specific dealer.
   name: CarGurus Dealer Reviews API
   slug: cargurus-dealer-dealer-reviews-api
-- description: Retrieve dealer inventory performance statistics.
+- baseURL: https://www.cargurus.com/Cars/api/1.0
+  baseurl_source: declared
+  description: Retrieve dealer inventory performance statistics.
   name: CarGurus Dealer Stats API
   slug: cargurus-dealer-dealer-stats-api
-- description: Retrieve CarGurus Instant Market Value and deal rating for cars.
+- baseURL: https://www.cargurus.com/Cars/api/1.0
+  baseurl_source: declared
+  description: Retrieve CarGurus Instant Market Value and deal rating for cars.
   name: CarGurus Instant Market Value API
   slug: cargurus-dealer-instant-market-value-api
 artifact_total: 11
@@ -154,7 +162,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/screenshots/cargurus-dealer-2026-07-25T204615.png
 security:

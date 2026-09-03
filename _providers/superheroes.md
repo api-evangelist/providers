@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Per-character physical appearance slices.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Per-character physical appearance slices.
   name: Superhero API (akabab) Appearance API
   slug: superheroes-appearance-api
-- description: Per-character biographical slices.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Per-character biographical slices.
   name: Superhero API (akabab) Biography API
   slug: superheroes-biography-api
-- description: Full character records and the consolidated dataset.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Full character records and the consolidated dataset.
   name: Superhero API (akabab) Characters API
   slug: superheroes-characters-api
-- description: Per-character group affiliations and relatives.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Per-character group affiliations and relatives.
   name: Superhero API (akabab) Connections API
   slug: superheroes-connections-api
-- description: Multi-resolution character image assets.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Multi-resolution character image assets.
   name: Superhero API (akabab) Images API
   slug: superheroes-images-api
-- description: Per-character powerstats slices (intelligence, strength, etc.).
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Per-character powerstats slices (intelligence, strength, etc.).
   name: Superhero API (akabab) Powerstats API
   slug: superheroes-powerstats-api
-- description: Per-character occupation and base slices.
+- baseURL: https://akabab.github.io/superhero-api/api
+  baseurl_source: declared
+  description: Per-character occupation and base slices.
   name: Superhero API (akabab) Work API
   slug: superheroes-work-api
 artifact_total: 33
@@ -312,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/screenshots/superheroes-2026-06-20T194712.png
 security:

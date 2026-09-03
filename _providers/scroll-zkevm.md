@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -67,7 +67,9 @@ apis:
 - description: Scroll's fork of go-ethereum that runs the Scroll zkEVM execution layer and serves the JSON-RPC API. Used by node operators and infrastructure providers running Scroll nodes.
   name: Scroll go-ethereum (l2geth)
   slug: go-ethereum
-- description: Ethereum JSON-RPC over HTTP POST
+- baseURL: https://rpc.scroll.io
+  baseurl_source: declared
+  description: Ethereum JSON-RPC over HTTP POST
   name: Scroll JSON-RPC API
   slug: scroll-zkevm-json-rpc-api
 artifact_total: 17
@@ -181,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scroll-zkevm/refs/heads/main/screenshots/scroll-zkevm-2026-06-20T193608.png
 security:

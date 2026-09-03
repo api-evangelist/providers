@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,52 +44,78 @@ agentic_access:
   summary_line: 35 operations · 18 acting
 api_count: 1
 apis:
-- description: List, transfer, comment, tag and archive calls.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: List, transfer, comment, tag and archive calls.
   name: Aircall Calls API
   slug: aircall-calls-api
 - description: Create, retrieve, update and delete users and organize them into teams.
   name: Aircall Users & Teams API
   slug: aircall-users-teams-api
-- description: Configure phone numbers and SMS settings.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: Configure phone numbers and SMS settings.
   name: Aircall Numbers API
   slug: aircall-numbers-api
-- description: Manage customer contacts shared across the workspace.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: Manage customer contacts shared across the workspace.
   name: Aircall Contacts API
   slug: aircall-contacts-api
-- description: Register, list and manage event subscriptions.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: Register, list and manage event subscriptions.
   name: Aircall Webhooks API
   slug: aircall-webhooks-api
 - description: Send and receive SMS/MMS and group messages.
   name: Aircall Messaging API
   slug: aircall-messaging-api
-- description: Access transcriptions, sentiment analysis, summaries and action items.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: Access transcriptions, sentiment analysis, summaries and action items.
   name: Aircall Conversation Intelligence API
   slug: aircall-conversation-intelligence-api
 - description: Create and manage outbound dialer campaigns.
   name: Aircall Dialer Campaign API
   slug: aircall-dialer-campaign-api
-- description: The Calls API from Aircall — 7 operation(s) for calls.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Calls API from Aircall — 7 operation(s) for calls.
   name: Aircall Calls API
   slug: aircall-calls-api
-- description: The Contacts API from Aircall — 2 operation(s) for contacts.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Contacts API from Aircall — 2 operation(s) for contacts.
   name: Aircall Contacts API
   slug: aircall-contacts-api
-- description: The Conversation Intelligence API from Aircall — 2 operation(s) for conversation intelligence.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Conversation Intelligence API from Aircall — 2 operation(s) for conversation intelligence.
   name: Aircall Conversation Intelligence API
   slug: aircall-conversation-intelligence-api
-- description: The Numbers API from Aircall — 2 operation(s) for numbers.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Numbers API from Aircall — 2 operation(s) for numbers.
   name: Aircall Numbers API
   slug: aircall-numbers-api
-- description: The Tags API from Aircall — 2 operation(s) for tags.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Tags API from Aircall — 2 operation(s) for tags.
   name: Aircall Tags API
   slug: aircall-tags-api
-- description: The Teams API from Aircall — 2 operation(s) for teams.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Teams API from Aircall — 2 operation(s) for teams.
   name: Aircall Teams API
   slug: aircall-teams-api
-- description: The Users API from Aircall — 2 operation(s) for users.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Users API from Aircall — 2 operation(s) for users.
   name: Aircall Users API
   slug: aircall-users-api
-- description: The Webhooks API from Aircall — 2 operation(s) for webhooks.
+- baseURL: https://api.aircall.io/v1
+  baseurl_source: declared
+  description: The Webhooks API from Aircall — 2 operation(s) for webhooks.
   name: Aircall Webhooks API
   slug: aircall-webhooks-api
 artifact_total: 36
@@ -230,7 +256,7 @@ score:
     catalog_gap: 72.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -240,7 +266,7 @@ score:
     discoverability: 66.7
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 32.1
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -249,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aircall/refs/heads/main/screenshots/aircall-2026-06-20T171433.png
 security:

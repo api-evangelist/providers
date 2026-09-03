@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Comments API from Life Biosciences — 1 operation(s) for comments.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Comments API from Life Biosciences — 1 operation(s) for comments.
   name: Life Biosciences Comments API
   slug: life-biosciences-comments-api
-- description: The Discovery API from Life Biosciences — 3 operation(s) for discovery.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Discovery API from Life Biosciences — 3 operation(s) for discovery.
   name: Life Biosciences Discovery API
   slug: life-biosciences-discovery-api
-- description: The Media API from Life Biosciences — 2 operation(s) for media.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Media API from Life Biosciences — 2 operation(s) for media.
   name: Life Biosciences Media API
   slug: life-biosciences-media-api
-- description: The oEmbed API from Life Biosciences — 1 operation(s) for oembed.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The oEmbed API from Life Biosciences — 1 operation(s) for oembed.
   name: Life Biosciences O Embed API
   slug: life-biosciences-oembed-api
-- description: The Pages API from Life Biosciences — 2 operation(s) for pages.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Pages API from Life Biosciences — 2 operation(s) for pages.
   name: Life Biosciences Pages API
   slug: life-biosciences-pages-api
-- description: The Posts API from Life Biosciences — 2 operation(s) for posts.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Posts API from Life Biosciences — 2 operation(s) for posts.
   name: Life Biosciences Posts API
   slug: life-biosciences-posts-api
-- description: The Search API from Life Biosciences — 1 operation(s) for search.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Search API from Life Biosciences — 1 operation(s) for search.
   name: Life Biosciences Search API
   slug: life-biosciences-search-api
-- description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
+- baseURL: https://www.lifebiosciences.com/wp-json
+  baseurl_source: declared
+  description: The Taxonomies API from Life Biosciences — 4 operation(s) for taxonomies.
   name: Life Biosciences Taxonomies API
   slug: life-biosciences-taxonomies-api
 artifact_total: 20
@@ -259,7 +275,7 @@ score:
     regime_id: health
     score: 40.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-biosciences/refs/heads/main/screenshots/life-biosciences-2026-08-07T171618.png
 security:

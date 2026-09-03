@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 8
 apis:
-- description: Access company account information
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Access company account information
   name: Union Pacific Account API
   slug: union-pacific-account-api
-- description: Manage exception cases for shipments that are off course
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Manage exception cases for shipments that are off course
   name: Union Pacific Cases API
   slug: union-pacific-cases-api
-- description: Search and identify rail equipment by specifications
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Search and identify rail equipment by specifications
   name: Union Pacific Equipment API
   slug: union-pacific-equipment-api
-- description: Manage intermodal planning, reservations, and driver services
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Manage intermodal planning, reservations, and driver services
   name: Union Pacific Intermodal API
   slug: union-pacific-intermodal-api
-- description: View Union Pacific network facility and location details
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: View Union Pacific network facility and location details
   name: Union Pacific Location API
   slug: union-pacific-location-api
-- description: Perform actions on shipments — order equipment, release, or cancel
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Perform actions on shipments — order equipment, release, or cancel
   name: Union Pacific Shipment Actions API
   slug: union-pacific-shipment-actions-api
-- description: Track and manage rail shipments with location and ETA data
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Track and manage rail shipments with location and ETA data
   name: Union Pacific Shipment API
   slug: union-pacific-shipment-api
-- description: Look up waybill details for shipments
+- baseURL: https://api.up.com
+  baseurl_source: declared
+  description: Look up waybill details for shipments
   name: Union Pacific Waybill API
   slug: union-pacific-waybill-api
 artifact_total: 47
@@ -253,7 +269,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -276,8 +292,9 @@ score:
       marker_coverage: 100.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/screenshots/union-pacific-2026-09-02T164906.png
 security:
 - kind: domain-security
   name: Union Pacific Domain Security

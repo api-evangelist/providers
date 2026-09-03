@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -44,211 +44,349 @@ agentic_access:
   summary_line: 238 operations · 141 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accept Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for accept certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Accept Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for accept certificate transfer.
   name: Amazon IoT Device Defender Accept Certificate Transfer API
   slug: amazon-iot-device-defender-accept-certificate-transfer-api
-- description: The Active Violations API from Amazon IoT Device Defender — 1 operation(s) for active violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Active Violations API from Amazon IoT Device Defender — 1 operation(s) for active violations.
   name: Amazon IoT Device Defender Active Violations API
   slug: amazon-iot-device-defender-active-violations-api
-- description: The Attached Policies API from Amazon IoT Device Defender — 1 operation(s) for attached policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Attached Policies API from Amazon IoT Device Defender — 1 operation(s) for attached policies.
   name: Amazon IoT Device Defender Attached Policies API
   slug: amazon-iot-device-defender-attached-policies-api
-- description: The Audit API from Amazon IoT Device Defender — 19 operation(s) for audit.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Audit API from Amazon IoT Device Defender — 19 operation(s) for audit.
   name: Amazon IoT Device Defender Audit API
   slug: amazon-iot-device-defender-audit-api
-- description: The Authorizer API from Amazon IoT Device Defender — 2 operation(s) for authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizer API from Amazon IoT Device Defender — 2 operation(s) for authorizer.
   name: Amazon IoT Device Defender Authorizer API
   slug: amazon-iot-device-defender-authorizer-api
-- description: The Authorizers API from Amazon IoT Device Defender — 1 operation(s) for authorizers.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Authorizers API from Amazon IoT Device Defender — 1 operation(s) for authorizers.
   name: Amazon IoT Device Defender Authorizers API
   slug: amazon-iot-device-defender-authorizers-api
-- description: The Behavior Model Training API from Amazon IoT Device Defender — 1 operation(s) for behavior model training.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Behavior Model Training API from Amazon IoT Device Defender — 1 operation(s) for behavior model training.
   name: Amazon IoT Device Defender Behavior Model Training API
   slug: amazon-iot-device-defender-behavior-model-training-api
-- description: The Billing Groups API from Amazon IoT Device Defender — 5 operation(s) for billing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Billing Groups API from Amazon IoT Device Defender — 5 operation(s) for billing groups.
   name: Amazon IoT Device Defender Billing Groups API
   slug: amazon-iot-device-defender-billing-groups-api
-- description: The Cacertificate API from Amazon IoT Device Defender — 2 operation(s) for cacertificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificate API from Amazon IoT Device Defender — 2 operation(s) for cacertificate.
   name: Amazon IoT Device Defender Cacertificate API
   slug: amazon-iot-device-defender-cacertificate-api
-- description: The Cacertificates API from Amazon IoT Device Defender — 1 operation(s) for cacertificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cacertificates API from Amazon IoT Device Defender — 1 operation(s) for cacertificates.
   name: Amazon IoT Device Defender Cacertificates API
   slug: amazon-iot-device-defender-cacertificates-api
-- description: The Cancel Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for cancel certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Cancel Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for cancel certificate transfer.
   name: Amazon IoT Device Defender Cancel Certificate Transfer API
   slug: amazon-iot-device-defender-cancel-certificate-transfer-api
-- description: The Certificate API from Amazon IoT Device Defender — 2 operation(s) for certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificate API from Amazon IoT Device Defender — 2 operation(s) for certificate.
   name: Amazon IoT Device Defender Certificate API
   slug: amazon-iot-device-defender-certificate-api
-- description: The Certificates API from Amazon IoT Device Defender — 3 operation(s) for certificates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates API from Amazon IoT Device Defender — 3 operation(s) for certificates.
   name: Amazon IoT Device Defender Certificates API
   slug: amazon-iot-device-defender-certificates-api
-- description: The Certificates By Ca API from Amazon IoT Device Defender — 1 operation(s) for certificates by ca.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates By Ca API from Amazon IoT Device Defender — 1 operation(s) for certificates by ca.
   name: Amazon IoT Device Defender Certificates By Ca API
   slug: amazon-iot-device-defender-certificates-by-ca-api
-- description: The Certificates Out Going API from Amazon IoT Device Defender — 1 operation(s) for certificates out going.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates Out Going API from Amazon IoT Device Defender — 1 operation(s) for certificates out going.
   name: Amazon IoT Device Defender Certificates Out Going API
   slug: amazon-iot-device-defender-certificates-out-going-api
-- description: The Confirmdestination API from Amazon IoT Device Defender — 1 operation(s) for confirmdestination.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Confirmdestination API from Amazon IoT Device Defender — 1 operation(s) for confirmdestination.
   name: Amazon IoT Device Defender Confirmdestination API
   slug: amazon-iot-device-defender-confirmdestination-api
-- description: The Custom Metric API from Amazon IoT Device Defender — 1 operation(s) for custom metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metric API from Amazon IoT Device Defender — 1 operation(s) for custom metric.
   name: Amazon IoT Device Defender Custom Metric API
   slug: amazon-iot-device-defender-custom-metric-api
-- description: The Custom Metrics API from Amazon IoT Device Defender — 1 operation(s) for custom metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Metrics API from Amazon IoT Device Defender — 1 operation(s) for custom metrics.
   name: Amazon IoT Device Defender Custom Metrics API
   slug: amazon-iot-device-defender-custom-metrics-api
-- description: The Default Authorizer API from Amazon IoT Device Defender — 1 operation(s) for default authorizer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Default Authorizer API from Amazon IoT Device Defender — 1 operation(s) for default authorizer.
   name: Amazon IoT Device Defender Default Authorizer API
   slug: amazon-iot-device-defender-default-authorizer-api
-- description: The Destinations API from Amazon IoT Device Defender — 2 operation(s) for destinations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Destinations API from Amazon IoT Device Defender — 2 operation(s) for destinations.
   name: Amazon IoT Device Defender Destinations API
   slug: amazon-iot-device-defender-destinations-api
-- description: The Detect API from Amazon IoT Device Defender — 4 operation(s) for detect.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Detect API from Amazon IoT Device Defender — 4 operation(s) for detect.
   name: Amazon IoT Device Defender Detect API
   slug: amazon-iot-device-defender-detect-api
-- description: The Dimensions API from Amazon IoT Device Defender — 2 operation(s) for dimensions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dimensions API from Amazon IoT Device Defender — 2 operation(s) for dimensions.
   name: Amazon IoT Device Defender Dimensions API
   slug: amazon-iot-device-defender-dimensions-api
-- description: The DomainConfigurations API from Amazon IoT Device Defender — 2 operation(s) for domainconfigurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The DomainConfigurations API from Amazon IoT Device Defender — 2 operation(s) for domainconfigurations.
   name: Amazon IoT Device Defender DomainConfigurations API
   slug: amazon-iot-device-defender-domainconfigurations-api
-- description: The Dynamic Thing Groups API from Amazon IoT Device Defender — 1 operation(s) for dynamic thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Dynamic Thing Groups API from Amazon IoT Device Defender — 1 operation(s) for dynamic thing groups.
   name: Amazon IoT Device Defender Dynamic Thing Groups API
   slug: amazon-iot-device-defender-dynamic-thing-groups-api
-- description: The Effective Policies API from Amazon IoT Device Defender — 1 operation(s) for effective policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Effective Policies API from Amazon IoT Device Defender — 1 operation(s) for effective policies.
   name: Amazon IoT Device Defender Effective Policies API
   slug: amazon-iot-device-defender-effective-policies-api
-- description: The Endpoint API from Amazon IoT Device Defender — 1 operation(s) for endpoint.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Endpoint API from Amazon IoT Device Defender — 1 operation(s) for endpoint.
   name: Amazon IoT Device Defender Endpoint API
   slug: amazon-iot-device-defender-endpoint-api
-- description: The Event Configurations API from Amazon IoT Device Defender — 1 operation(s) for event configurations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Event Configurations API from Amazon IoT Device Defender — 1 operation(s) for event configurations.
   name: Amazon IoT Device Defender Event Configurations API
   slug: amazon-iot-device-defender-event-configurations-api
-- description: The Fleet Metric API from Amazon IoT Device Defender — 1 operation(s) for fleet metric.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metric API from Amazon IoT Device Defender — 1 operation(s) for fleet metric.
   name: Amazon IoT Device Defender Fleet Metric API
   slug: amazon-iot-device-defender-fleet-metric-api
-- description: The Fleet Metrics API from Amazon IoT Device Defender — 1 operation(s) for fleet metrics.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Fleet Metrics API from Amazon IoT Device Defender — 1 operation(s) for fleet metrics.
   name: Amazon IoT Device Defender Fleet Metrics API
   slug: amazon-iot-device-defender-fleet-metrics-api
-- description: The Indexing API from Amazon IoT Device Defender — 1 operation(s) for indexing.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indexing API from Amazon IoT Device Defender — 1 operation(s) for indexing.
   name: Amazon IoT Device Defender Indexing API
   slug: amazon-iot-device-defender-indexing-api
-- description: The Indices API from Amazon IoT Device Defender — 7 operation(s) for indices.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Indices API from Amazon IoT Device Defender — 7 operation(s) for indices.
   name: Amazon IoT Device Defender Indices API
   slug: amazon-iot-device-defender-indices-api
-- description: The Job Templates API from Amazon IoT Device Defender — 2 operation(s) for job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Job Templates API from Amazon IoT Device Defender — 2 operation(s) for job templates.
   name: Amazon IoT Device Defender Job Templates API
   slug: amazon-iot-device-defender-job-templates-api
-- description: The Jobs API from Amazon IoT Device Defender — 6 operation(s) for jobs.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon IoT Device Defender — 6 operation(s) for jobs.
   name: Amazon IoT Device Defender Jobs API
   slug: amazon-iot-device-defender-jobs-api
-- description: The Keys And Certificate API from Amazon IoT Device Defender — 1 operation(s) for keys and certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Keys And Certificate API from Amazon IoT Device Defender — 1 operation(s) for keys and certificate.
   name: Amazon IoT Device Defender Keys And Certificate API
   slug: amazon-iot-device-defender-keys-and-certificate-api
-- description: The LoggingOptions API from Amazon IoT Device Defender — 1 operation(s) for loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The LoggingOptions API from Amazon IoT Device Defender — 1 operation(s) for loggingoptions.
   name: Amazon IoT Device Defender LoggingOptions API
   slug: amazon-iot-device-defender-loggingoptions-api
-- description: The Managed Job Templates API from Amazon IoT Device Defender — 2 operation(s) for managed job templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Job Templates API from Amazon IoT Device Defender — 2 operation(s) for managed job templates.
   name: Amazon IoT Device Defender Managed Job Templates API
   slug: amazon-iot-device-defender-managed-job-templates-api
-- description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Device Defender — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Metric Values#thingName&metricName&startTime&endTime API from Amazon IoT Device Defender — 1 operation(s) for metric values#thingname&metricname&starttime&endtime.
   name: Amazon IoT Device Defender Metric Values#thingName&metricName&startTime&endTime API
   slug: amazon-iot-device-defender-metric-values-thingname-metricname-starttime-endtime-api
-- description: The Mitigationactions API from Amazon IoT Device Defender — 2 operation(s) for mitigationactions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Mitigationactions API from Amazon IoT Device Defender — 2 operation(s) for mitigationactions.
   name: Amazon IoT Device Defender Mitigationactions API
   slug: amazon-iot-device-defender-mitigationactions-api
-- description: The OtaUpdates API from Amazon IoT Device Defender — 2 operation(s) for otaupdates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The OtaUpdates API from Amazon IoT Device Defender — 2 operation(s) for otaupdates.
   name: Amazon IoT Device Defender OtaUpdates API
   slug: amazon-iot-device-defender-otaupdates-api
-- description: The Policies API from Amazon IoT Device Defender — 4 operation(s) for policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policies API from Amazon IoT Device Defender — 4 operation(s) for policies.
   name: Amazon IoT Device Defender Policies API
   slug: amazon-iot-device-defender-policies-api
-- description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Device Defender — 1 operation(s) for policy principals#x amzn iot policy.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Principals#x Amzn Iot Policy API from Amazon IoT Device Defender — 1 operation(s) for policy principals#x amzn iot policy.
   name: Amazon IoT Device Defender Policy Principals#x Amzn Iot Policy API
   slug: amazon-iot-device-defender-policy-principals-x-amzn-iot-policy-api
-- description: The Policy Targets API from Amazon IoT Device Defender — 1 operation(s) for policy targets.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Policy Targets API from Amazon IoT Device Defender — 1 operation(s) for policy targets.
   name: Amazon IoT Device Defender Policy Targets API
   slug: amazon-iot-device-defender-policy-targets-api
-- description: The Principal Policies API from Amazon IoT Device Defender — 1 operation(s) for principal policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies API from Amazon IoT Device Defender — 1 operation(s) for principal policies.
   name: Amazon IoT Device Defender Principal Policies API
   slug: amazon-iot-device-defender-principal-policies-api
-- description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Device Defender — 1 operation(s) for principal policies#x amzn iot principal.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principal Policies#x Amzn Iot Principal API from Amazon IoT Device Defender — 1 operation(s) for principal policies#x amzn iot principal.
   name: Amazon IoT Device Defender Principal Policies#x Amzn Iot Principal API
   slug: amazon-iot-device-defender-principal-policies-x-amzn-iot-principal-api
-- description: The Principals API from Amazon IoT Device Defender — 1 operation(s) for principals.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Principals API from Amazon IoT Device Defender — 1 operation(s) for principals.
   name: Amazon IoT Device Defender Principals API
   slug: amazon-iot-device-defender-principals-api
-- description: The Provisioning Templates API from Amazon IoT Device Defender — 5 operation(s) for provisioning templates.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Provisioning Templates API from Amazon IoT Device Defender — 5 operation(s) for provisioning templates.
   name: Amazon IoT Device Defender Provisioning Templates API
   slug: amazon-iot-device-defender-provisioning-templates-api
-- description: The Registrationcode API from Amazon IoT Device Defender — 1 operation(s) for registrationcode.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Registrationcode API from Amazon IoT Device Defender — 1 operation(s) for registrationcode.
   name: Amazon IoT Device Defender Registrationcode API
   slug: amazon-iot-device-defender-registrationcode-api
-- description: The Reject Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for reject certificate transfer.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Reject Certificate Transfer API from Amazon IoT Device Defender — 1 operation(s) for reject certificate transfer.
   name: Amazon IoT Device Defender Reject Certificate Transfer API
   slug: amazon-iot-device-defender-reject-certificate-transfer-api
-- description: The Role Aliases API from Amazon IoT Device Defender — 2 operation(s) for role aliases.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Role Aliases API from Amazon IoT Device Defender — 2 operation(s) for role aliases.
   name: Amazon IoT Device Defender Role Aliases API
   slug: amazon-iot-device-defender-role-aliases-api
-- description: The Rules API from Amazon IoT Device Defender — 4 operation(s) for rules.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Rules API from Amazon IoT Device Defender — 4 operation(s) for rules.
   name: Amazon IoT Device Defender Rules API
   slug: amazon-iot-device-defender-rules-api
-- description: The Security Profile Behaviors API from Amazon IoT Device Defender — 1 operation(s) for security profile behaviors.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profile Behaviors API from Amazon IoT Device Defender — 1 operation(s) for security profile behaviors.
   name: Amazon IoT Device Defender Security Profile Behaviors API
   slug: amazon-iot-device-defender-security-profile-behaviors-api
-- description: The Security Profiles API from Amazon IoT Device Defender — 4 operation(s) for security profiles.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles API from Amazon IoT Device Defender — 4 operation(s) for security profiles.
   name: Amazon IoT Device Defender Security Profiles API
   slug: amazon-iot-device-defender-security-profiles-api
-- description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Device Defender — 1 operation(s) for security profiles for target#securityprofiletargetarn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Security Profiles For Target#securityProfileTargetArn API from Amazon IoT Device Defender — 1 operation(s) for security profiles for target#securityprofiletargetarn.
   name: Amazon IoT Device Defender Security Profiles For Target#securityProfileTargetArn API
   slug: amazon-iot-device-defender-security-profiles-for-target-securityprofiletargetarn-api
-- description: The Streams API from Amazon IoT Device Defender — 2 operation(s) for streams.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Streams API from Amazon IoT Device Defender — 2 operation(s) for streams.
   name: Amazon IoT Device Defender Streams API
   slug: amazon-iot-device-defender-streams-api
-- description: The Tags API from Amazon IoT Device Defender — 1 operation(s) for tags.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IoT Device Defender — 1 operation(s) for tags.
   name: Amazon IoT Device Defender Tags API
   slug: amazon-iot-device-defender-tags-api
-- description: The Tags#resourceArn API from Amazon IoT Device Defender — 1 operation(s) for tags#resourcearn.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Tags#resourceArn API from Amazon IoT Device Defender — 1 operation(s) for tags#resourcearn.
   name: Amazon IoT Device Defender Tags#resourceArn API
   slug: amazon-iot-device-defender-tags-resourcearn-api
-- description: The Target Policies API from Amazon IoT Device Defender — 1 operation(s) for target policies.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Target Policies API from Amazon IoT Device Defender — 1 operation(s) for target policies.
   name: Amazon IoT Device Defender Target Policies API
   slug: amazon-iot-device-defender-target-policies-api
-- description: The Test Authorization API from Amazon IoT Device Defender — 1 operation(s) for test authorization.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Test Authorization API from Amazon IoT Device Defender — 1 operation(s) for test authorization.
   name: Amazon IoT Device Defender Test Authorization API
   slug: amazon-iot-device-defender-test-authorization-api
-- description: The Thing Groups API from Amazon IoT Device Defender — 6 operation(s) for thing groups.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Groups API from Amazon IoT Device Defender — 6 operation(s) for thing groups.
   name: Amazon IoT Device Defender Thing Groups API
   slug: amazon-iot-device-defender-thing-groups-api
-- description: The Thing Registration Tasks API from Amazon IoT Device Defender — 4 operation(s) for thing registration tasks.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Registration Tasks API from Amazon IoT Device Defender — 4 operation(s) for thing registration tasks.
   name: Amazon IoT Device Defender Thing Registration Tasks API
   slug: amazon-iot-device-defender-thing-registration-tasks-api
-- description: The Thing Types API from Amazon IoT Device Defender — 3 operation(s) for thing types.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Thing Types API from Amazon IoT Device Defender — 3 operation(s) for thing types.
   name: Amazon IoT Device Defender Thing Types API
   slug: amazon-iot-device-defender-thing-types-api
-- description: The Things API from Amazon IoT Device Defender — 9 operation(s) for things.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Things API from Amazon IoT Device Defender — 9 operation(s) for things.
   name: Amazon IoT Device Defender Things API
   slug: amazon-iot-device-defender-things-api
-- description: The Transfer Certificate API from Amazon IoT Device Defender — 1 operation(s) for transfer certificate.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Transfer Certificate API from Amazon IoT Device Defender — 1 operation(s) for transfer certificate.
   name: Amazon IoT Device Defender Transfer Certificate API
   slug: amazon-iot-device-defender-transfer-certificate-api
-- description: The Untag API from Amazon IoT Device Defender — 1 operation(s) for untag.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Untag API from Amazon IoT Device Defender — 1 operation(s) for untag.
   name: Amazon IoT Device Defender Untag API
   slug: amazon-iot-device-defender-untag-api
-- description: The V2LoggingLevel API from Amazon IoT Device Defender — 1 operation(s) for v2logginglevel.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel API from Amazon IoT Device Defender — 1 operation(s) for v2logginglevel.
   name: Amazon IoT Device Defender V2LoggingLevel API
   slug: amazon-iot-device-defender-v2logginglevel-api
-- description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Device Defender — 1 operation(s) for v2logginglevel#targettype&targetname.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingLevel#targetType&targetName API from Amazon IoT Device Defender — 1 operation(s) for v2logginglevel#targettype&targetname.
   name: Amazon IoT Device Defender V2LoggingLevel#targetType&targetName API
   slug: amazon-iot-device-defender-v2logginglevel-targettype-targetname-api
-- description: The V2LoggingOptions API from Amazon IoT Device Defender — 1 operation(s) for v2loggingoptions.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The V2LoggingOptions API from Amazon IoT Device Defender — 1 operation(s) for v2loggingoptions.
   name: Amazon IoT Device Defender V2LoggingOptions API
   slug: amazon-iot-device-defender-v2loggingoptions-api
-- description: The Violation Events#startTime&endTime API from Amazon IoT Device Defender — 1 operation(s) for violation events#starttime&endtime.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violation Events#startTime&endTime API from Amazon IoT Device Defender — 1 operation(s) for violation events#starttime&endtime.
   name: Amazon IoT Device Defender Violation Events#startTime&endTime API
   slug: amazon-iot-device-defender-violation-events-starttime-endtime-api
-- description: The Violations API from Amazon IoT Device Defender — 1 operation(s) for violations.
+- baseURL: https://iot.amazonaws.com
+  baseurl_source: declared
+  description: The Violations API from Amazon IoT Device Defender — 1 operation(s) for violations.
   name: Amazon IoT Device Defender Violations API
   slug: amazon-iot-device-defender-violations-api
 artifact_total: 826
@@ -2655,7 +2793,7 @@ score:
       marker_coverage: 0.0
       total: 69
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/screenshots/amazon-iot-device-defender-2026-06-20T171707.png
 security:

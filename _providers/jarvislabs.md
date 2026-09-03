@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Account balance and status.
+- baseURL: https://api.jarvislabs.ai/v1
+  baseurl_source: declared
+  description: Account balance and status.
   name: JarvisLabs Account API
   slug: jarvislabs-account-api
-- description: Persistent storage volumes.
+- baseURL: https://api.jarvislabs.ai/v1
+  baseurl_source: declared
+  description: Persistent storage volumes.
   name: JarvisLabs Filesystems API
   slug: jarvislabs-filesystems-api
-- description: GPU type discovery, availability, and pricing.
+- baseURL: https://api.jarvislabs.ai/v1
+  baseurl_source: declared
+  description: GPU type discovery, availability, and pricing.
   name: JarvisLabs GPU Types API
   slug: jarvislabs-gpu-types-api
-- description: GPU and CPU instance lifecycle.
+- baseURL: https://api.jarvislabs.ai/v1
+  baseurl_source: declared
+  description: GPU and CPU instance lifecycle.
   name: JarvisLabs Instances API
   slug: jarvislabs-instances-api
-- description: Framework templates available for provisioning.
+- baseURL: https://api.jarvislabs.ai/v1
+  baseurl_source: declared
+  description: Framework templates available for provisioning.
   name: JarvisLabs Templates API
   slug: jarvislabs-templates-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/screenshots/jarvislabs-2026-07-25T223101.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 19 operations · 9 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Read and command the air conditioner state.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Read and command the air conditioner state.
   name: Sensibo AC States API
   slug: sensibo-ac-states-api
-- description: Smart-mode automation driven by temperature and humidity thresholds.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Smart-mode automation driven by temperature and humidity thresholds.
   name: Sensibo Climate React API
   slug: sensibo-climate-react-api
-- description: Individual device (pod) detail and status.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Individual device (pod) detail and status.
   name: Sensibo Devices API
   slug: sensibo-devices-api
-- description: Time-series measurements and the device event log.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Time-series measurements and the device event log.
   name: Sensibo Historical Data API
   slug: sensibo-historical-data-api
-- description: Latest temperature, humidity, and air quality readings.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Latest temperature, humidity, and air quality readings.
   name: Sensibo Measurements API
   slug: sensibo-measurements-api
-- description: Recurring day-and-time AC state schedules.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Recurring day-and-time AC state schedules.
   name: Sensibo Schedules API
   slug: sensibo-schedules-api
-- description: One-shot countdown timers that apply an AC state.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: One-shot countdown timers that apply an AC state.
   name: Sensibo Timers API
   slug: sensibo-timers-api
-- description: Account-level access to the devices enrolled on a Sensibo account.
+- baseURL: https://home.sensibo.com/api/v2
+  baseurl_source: declared
+  description: Account-level access to the devices enrolled on a Sensibo account.
   name: Sensibo Users API
   slug: sensibo-users-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +213,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sensibo/refs/heads/main/screenshots/sensibo-2026-09-02T154910.png
 security:
 - kind: authentication
   name: Sensibo Authentication

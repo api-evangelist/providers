@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Client organization information
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Client organization information
   name: Confident Cannabis Client Info API
   slug: confident-cannabis-client-info-api
-- description: Client relationship management
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Client relationship management
   name: Confident Cannabis Clients API
   slug: confident-cannabis-clients-api
-- description: The Lab Info API from Confident Cannabis — 1 operation(s) for lab info.
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: The Lab Info API from Confident Cannabis — 1 operation(s) for lab info.
   name: Confident Cannabis Lab Info API
   slug: confident-cannabis-lab-info-api
-- description: View associated labs
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: View associated labs
   name: Confident Cannabis Labs API
   slug: confident-cannabis-labs-api
-- description: Order lifecycle state transitions
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Order lifecycle state transitions
   name: Confident Cannabis Order Status API
   slug: confident-cannabis-order-status-api
-- description: View orders and order details
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: View orders and order details
   name: Confident Cannabis Orders API
   slug: confident-cannabis-orders-api
-- description: Reference data for sample metadata
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Reference data for sample metadata
   name: Confident Cannabis Reference Data API
   slug: confident-cannabis-reference-data-api
-- description: Upload sample images and documents
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Upload sample images and documents
   name: Confident Cannabis Sample Files API
   slug: confident-cannabis-sample-files-api
-- description: View samples and test results
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: View samples and test results
   name: Confident Cannabis Samples API
   slug: confident-cannabis-samples-api
-- description: Submit and manage test results
+- baseURL: https://api.confidentcannabis.com
+  baseurl_source: declared
+  description: Submit and manage test results
   name: Confident Cannabis Test Results API
   slug: confident-cannabis-test-results-api
 artifact_total: 24
@@ -258,7 +278,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
 security:

@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Contract Positions API from TermScout — 1 operation(s) for contract positions.
+- baseURL: https://api.termscout.com
+  baseurl_source: declared
+  description: The Contract Positions API from TermScout — 1 operation(s) for contract positions.
   name: TermScout Contract Positions API
   slug: termscout-contract-positions-api
-- description: The Contracts API from TermScout — 9 operation(s) for contracts.
+- baseURL: https://api.termscout.com
+  baseurl_source: declared
+  description: The Contracts API from TermScout — 9 operation(s) for contracts.
   name: TermScout Contracts API
   slug: termscout-contracts-api
 artifact_total: 8
@@ -164,7 +168,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/screenshots/termscout-2026-08-17T082319.png
 security:

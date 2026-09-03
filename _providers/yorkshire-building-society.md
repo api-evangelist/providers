@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -39,70 +52,114 @@ apis:
 - description: 'OBIE token endpoint (Generate Access Token API v3.1.0) - the OAuth2/OIDC token endpoint used by onboarded TPPs to exchange authorization codes and client credentials for access tokens against the YBS '
   name: Yorkshire Building Society Generate Access Token API
   slug: ybs-generate-access-token-api
-- description: The Account Access API from Yorkshire Building Society — 2 operation(s) for account access.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access API from Yorkshire Building Society — 2 operation(s) for account access.
   name: Yorkshire Building Society Account Access API
   slug: yorkshire-building-society-account-access-api
-- description: The Accounts API from Yorkshire Building Society — 2 operation(s) for accounts.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from Yorkshire Building Society — 2 operation(s) for accounts.
   name: Yorkshire Building Society Accounts API
   slug: yorkshire-building-society-accounts-api
-- description: The Balances API from Yorkshire Building Society — 2 operation(s) for balances.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from Yorkshire Building Society — 2 operation(s) for balances.
   name: Yorkshire Building Society Balances API
   slug: yorkshire-building-society-balances-api
-- description: The Beneficiaries API from Yorkshire Building Society — 2 operation(s) for beneficiaries.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from Yorkshire Building Society — 2 operation(s) for beneficiaries.
   name: Yorkshire Building Society Beneficiaries API
   slug: yorkshire-building-society-beneficiaries-api
-- description: The Direct Debits API from Yorkshire Building Society — 2 operation(s) for direct debits.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from Yorkshire Building Society — 2 operation(s) for direct debits.
   name: Yorkshire Building Society Direct Debits API
   slug: yorkshire-building-society-direct-debits-api
-- description: The Domestic Payments API from Yorkshire Building Society — 5 operation(s) for domestic payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from Yorkshire Building Society — 5 operation(s) for domestic payments.
   name: Yorkshire Building Society Domestic Payments API
   slug: yorkshire-building-society-domestic-payments-api
-- description: The Domestic Scheduled Payments API from Yorkshire Building Society — 4 operation(s) for domestic scheduled payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Yorkshire Building Society — 4 operation(s) for domestic scheduled payments.
   name: Yorkshire Building Society Domestic Scheduled Payments API
   slug: yorkshire-building-society-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from Yorkshire Building Society — 4 operation(s) for domestic standing orders.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Yorkshire Building Society — 4 operation(s) for domestic standing orders.
   name: Yorkshire Building Society Domestic Standing Orders API
   slug: yorkshire-building-society-domestic-standing-orders-api
-- description: The Event Subscriptions API from Yorkshire Building Society — 2 operation(s) for event subscriptions.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Event Subscriptions API from Yorkshire Building Society — 2 operation(s) for event subscriptions.
   name: Yorkshire Building Society Event Subscriptions API
   slug: yorkshire-building-society-event-subscriptions-api
-- description: The File Payments API from Yorkshire Building Society — 6 operation(s) for file payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payments API from Yorkshire Building Society — 6 operation(s) for file payments.
   name: Yorkshire Building Society File Payments API
   slug: yorkshire-building-society-file-payments-api
-- description: The Funds Confirmations API from Yorkshire Building Society — 3 operation(s) for funds confirmations.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Funds Confirmations API from Yorkshire Building Society — 3 operation(s) for funds confirmations.
   name: Yorkshire Building Society Funds Confirmations API
   slug: yorkshire-building-society-funds-confirmations-api
-- description: The International Payments API from Yorkshire Building Society — 5 operation(s) for international payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Payments API from Yorkshire Building Society — 5 operation(s) for international payments.
   name: Yorkshire Building Society International Payments API
   slug: yorkshire-building-society-international-payments-api
-- description: The International Scheduled Payments API from Yorkshire Building Society — 5 operation(s) for international scheduled payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Yorkshire Building Society — 5 operation(s) for international scheduled payments.
   name: Yorkshire Building Society International Scheduled Payments API
   slug: yorkshire-building-society-international-scheduled-payments-api
-- description: The International Standing Orders API from Yorkshire Building Society — 4 operation(s) for international standing orders.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Standing Orders API from Yorkshire Building Society — 4 operation(s) for international standing orders.
   name: Yorkshire Building Society International Standing Orders API
   slug: yorkshire-building-society-international-standing-orders-api
-- description: The Offers API from Yorkshire Building Society — 2 operation(s) for offers.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Offers API from Yorkshire Building Society — 2 operation(s) for offers.
   name: Yorkshire Building Society Offers API
   slug: yorkshire-building-society-offers-api
-- description: The Parties API from Yorkshire Building Society — 3 operation(s) for parties.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Parties API from Yorkshire Building Society — 3 operation(s) for parties.
   name: Yorkshire Building Society Parties API
   slug: yorkshire-building-society-parties-api
-- description: The Payment Details API from Yorkshire Building Society — 7 operation(s) for payment details.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Payment Details API from Yorkshire Building Society — 7 operation(s) for payment details.
   name: Yorkshire Building Society Payment Details API
   slug: yorkshire-building-society-payment-details-api
-- description: The Products API from Yorkshire Building Society — 2 operation(s) for products.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Products API from Yorkshire Building Society — 2 operation(s) for products.
   name: Yorkshire Building Society Products API
   slug: yorkshire-building-society-products-api
-- description: The Scheduled Payments API from Yorkshire Building Society — 2 operation(s) for scheduled payments.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Scheduled Payments API from Yorkshire Building Society — 2 operation(s) for scheduled payments.
   name: Yorkshire Building Society Scheduled Payments API
   slug: yorkshire-building-society-scheduled-payments-api
-- description: The Standing Orders API from Yorkshire Building Society — 2 operation(s) for standing orders.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from Yorkshire Building Society — 2 operation(s) for standing orders.
   name: Yorkshire Building Society Standing Orders API
   slug: yorkshire-building-society-standing-orders-api
-- description: The Statements API from Yorkshire Building Society — 4 operation(s) for statements.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Statements API from Yorkshire Building Society — 4 operation(s) for statements.
   name: Yorkshire Building Society Statements API
   slug: yorkshire-building-society-statements-api
-- description: The Transactions API from Yorkshire Building Society — 3 operation(s) for transactions.
+- baseURL: https://ob-ybs.api.ybs.co.uk/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from Yorkshire Building Society — 3 operation(s) for transactions.
   name: Yorkshire Building Society Transactions API
   slug: yorkshire-building-society-transactions-api
 artifact_total: 30
@@ -259,23 +316,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 48.9
+  composite: 47.1
   coverage:
     artifact_dirs: 19
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -1.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 60.7
     developer_ergonomics: 63.7
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 49.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,7 +354,7 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yorkshire-building-society/refs/heads/main/screenshots/yorkshire-building-society-2026-08-17T083019.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 11 acting
 api_count: 1
 apis:
-- description: Manage datasets of test cases and scenarios.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: Manage datasets of test cases and scenarios.
   name: Hamming AI Datasets API
   slug: hamming-ai-datasets-api
-- description: Create and run experiments and experiment items.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: Create and run experiments and experiment items.
   name: Hamming AI Experiments API
   slug: hamming-ai-experiments-api
-- description: Ingest traces, logs, and production call logs.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: Ingest traces, logs, and production call logs.
   name: Hamming AI Monitoring API
   slug: hamming-ai-monitoring-api
-- description: List and fetch versioned prompts from the registry.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: List and fetch versioned prompts from the registry.
   name: Hamming AI Prompts API
   slug: hamming-ai-prompts-api
-- description: Register custom scoring functions.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: Register custom scoring functions.
   name: Hamming AI Scoring API
   slug: hamming-ai-scoring-api
-- description: Run voice agents against datasets and retrieve experiment calls.
+- baseURL: https://app.hamming.ai/api/rest
+  baseurl_source: declared
+  description: Run voice agents against datasets and retrieve experiment calls.
   name: Hamming AI Voice Testing API
   slug: hamming-ai-voice-testing-api
 artifact_total: 20
@@ -181,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/screenshots/hamming-ai-2026-07-25T220600.png
 security:

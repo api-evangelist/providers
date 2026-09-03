@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 4
@@ -43,121 +43,199 @@ agentic_access:
   summary_line: 295 operations · 164 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The controller is responsible for handling the creation, updating, and retrieval of activities. Mainly the controller allow to manage activities (current and done)
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling the creation, updating, and retrieval of activities. Mainly the controller allow to manage activities (current and done)
   name: SPOTIO Activities V2 API
   slug: spotio-activitiesv2-api
-- description: 'The controller is responsible for handling the creation, updating, deleting and retrieval of appointment. Mainly the controller allow to manage appointment (current and future). Every appointment has '
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: 'The controller is responsible for handling the creation, updating, deleting and retrieval of appointment. Mainly the controller allow to manage appointment (current and future). Every appointment has '
   name: SPOTIO Appointments V2 API
   slug: spotio-appointmentsv2-api
-- description: The controller provides various endpoints for managing autoplays, which are automated workflows that can be triggered for dataObject in application. Allowed is adding / editing contacts and changing s
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller provides various endpoints for managing autoplays, which are automated workflows that can be triggered for dataObject in application. Allowed is adding / editing contacts and changing s
   name: SPOTIO Autoplays API
   slug: spotio-autoplays-api
-- description: The Business Cards API allows managing business card and their related operations, such as fetching details, listing, creating, updating, cloning, sharing, previewing, downloading, and rendering busin
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The Business Cards API allows managing business card and their related operations, such as fetching details, listing, creating, updating, cloning, sharing, previewing, downloading, and rendering busin
   name: SPOTIO Business Cards API
   slug: spotio-businesscards-api
-- description: The controller is responsible for managing calendar settings. Setup for company users calendar.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for managing calendar settings. Setup for company users calendar.
   name: SPOTIO Calendar Settings API
   slug: spotio-calendarsettings-api
-- description: API for communication activities. You can retrieve data about communication activities. You can also marks calls, emails, texts as seen/read.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: API for communication activities. You can retrieve data about communication activities. You can also marks calls, emails, texts as seen/read.
   name: SPOTIO Communication API
   slug: spotio-communication-api
-- description: The controller is responsible for managing company templates. Templates for text messages and emails. The controller allows creating new templates which can include information about dataObjects and c
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for managing company templates. Templates for text messages and emails. The controller allows creating new templates which can include information about dataObjects and c
   name: SPOTIO Communication Templates API
   slug: spotio-communicationtemplates-api
-- description: The controller is responsible for managing company links (connectors). The controller allows creating new connectors which user can use them on web or mobile app. Connector can can include information
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for managing company links (connectors). The controller allows creating new connectors which user can use them on web or mobile app. Connector can can include information
   name: SPOTIO Connectors API
   slug: spotio-connectors-api
-- description: The controller is responsible for gets information about contracts templates and signed documents / files.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for gets information about contracts templates and signed documents / files.
   name: SPOTIO Contracts API
   slug: spotio-contracts-api
-- description: The controller is responsible for manages the data objects and their related operations like creating, retrieving, updating, and deleting data objects, as well as some bulk actions.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for manages the data objects and their related operations like creating, retrieving, updating, and deleting data objects, as well as some bulk actions.
   name: SPOTIO Data Objects API
   slug: spotio-dataobjects-api
-- description: 'Bulk operations on data objects. Flow: Create job -> Upload NDJSON data -> Start processing -> Poll progress -> Download results -> Cleanup.'
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: 'Bulk operations on data objects. Flow: Create job -> Upload NDJSON data -> Start processing -> Poll progress -> Download results -> Cleanup.'
   name: SPOTIO Data Objects Bulk Jobs API
   slug: spotio-dataobjectsbulkjobs-api
-- description: 'This controller is responsible for searching data objects. There are available endpoints for: * simple global searches - return only basic information about data objects * searching on lists - return '
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: 'This controller is responsible for searching data objects. There are available endpoints for: * simple global searches - return only basic information about data objects * searching on lists - return '
   name: SPOTIO Data Objects Search API
   slug: spotio-dataobjectssearch-api
-- description: The controller is responsible for handling the upload and retrieval of documents. Documents can be attached to data object, activity or be available company wide.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling the upload and retrieval of documents. Documents can be attached to data object, activity or be available company wide.
   name: SPOTIO Documents API
   slug: spotio-documents-api
-- description: The controller is responsible for exporting data from the application, such as exporting dataObjects (leads) and activities. The result of the export is a CSV file.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for exporting data from the application, such as exporting dataObjects (leads) and activities. The result of the export is a CSV file.
   name: SPOTIO Exports API
   slug: spotio-exports-api
-- description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
   name: SPOTIO Filters API
   slug: spotio-filters-api
-- description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on filter objects. Filter can be used throughout the system to filter data. It can be passed wherever filterId query parameter or property is avai
   name: SPOTIO Filters V2 API
   slug: spotio-filtersv2-api
-- description: The controller is responsible for content generating for text messages and emails.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for content generating for text messages and emails.
   name: SPOTIO Generate Content API
   slug: spotio-generatecontent-api
-- description: The Layouts API from SPOTIO — 8 operation(s) for layouts.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The Layouts API from SPOTIO — 8 operation(s) for layouts.
   name: SPOTIO Layouts API
   slug: spotio-layouts-api
-- description: The controller is responsible for leaderboards.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for leaderboards.
   name: SPOTIO Leaderboards API
   slug: spotio-leaderboards-api
-- description: 'The controller is responsible for handling operations related to MCP. It provides endpoints for generating, retrieving, deactivating, and regenerating MCP keys. These keys are used for authenticating '
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: 'The controller is responsible for handling operations related to MCP. It provides endpoints for generating, retrieving, deactivating, and regenerating MCP keys. These keys are used for authenticating '
   name: SPOTIO MCP API
   slug: spotio-mcp-api
-- description: The controller is responsible for text messages management. Sending messages to customers
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for text messages management. Sending messages to customers
   name: SPOTIO Multi Channel Communication API
   slug: spotio-multichannelcommunication-api
-- description: The controller is responsible for managing MyReports in a web application, creation, updating and rendering MyReports.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for managing MyReports in a web application, creation, updating and rendering MyReports.
   name: SPOTIO My Reports API
   slug: spotio-myreports-api
-- description: The controller is responsible for handling operations on notification objects. Notifications are created automatically when creating appointments with reminder property set. Push notifications are sup
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on notification objects. Notifications are created automatically when creating appointments with reminder property set. Push notifications are sup
   name: SPOTIO Notifications V2 API
   slug: spotio-notificationsv2-api
-- description: Pins API handles searching and retrieving pins with details. It provides operations including fetching pins by viewport, getting pin details with data objects, searching for pins with specific criteri
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: Pins API handles searching and retrieving pins with details. It provides operations including fetching pins by viewport, getting pin details with data objects, searching for pins with specific criteri
   name: SPOTIO Pins V2 API
   slug: spotio-pinsv2-api
-- description: The controller is responsible exporting data by selected report type.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible exporting data by selected report type.
   name: SPOTIO Reports API
   slug: spotio-reports-api
-- description: API for routes. You can manage routes and calculate route based on stops list. You can also start a new trip based on the route.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: API for routes. You can manage routes and calculate route based on stops list. You can also start a new trip based on the route.
   name: SPOTIO Routes V2 API
   slug: spotio-routesv2-api
-- description: The controller is responsible for handling operations on teams creating, updating, deleting, and retrieving team data. The controller also handles adding users to teams, getting a list of all teams in
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on teams creating, updating, deleting, and retrieving team data. The controller also handles adding users to teams, getting a list of all teams in
   name: SPOTIO Teams API
   slug: spotio-teams-api
-- description: The controller is responsible for getting all territories for a company.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for getting all territories for a company.
   name: SPOTIO Territories API
   slug: spotio-territories-api
-- description: The controller is responsible for handling operations on trip objects. Trips are created from routes and record places that user visited during the trip. Some apis are exposed through Trips and some t
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on trip objects. Trips are created from routes and record places that user visited during the trip. Some apis are exposed through Trips and some t
   name: SPOTIO Trips API
   slug: spotio-trips-api
-- description: The controller is responsible for handling operations on trip objects. Trips are created from routes and record places that user visited during the trip. Some apis are exposed through Trips and some t
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling operations on trip objects. Trips are created from routes and record places that user visited during the trip. Some apis are exposed through Trips and some t
   name: SPOTIO Trips V2 API
   slug: spotio-tripsv2-api
-- description: Handles file upload operations
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: Handles file upload operations
   name: SPOTIO Upload Care API
   slug: spotio-uploadcare-api
-- description: The controller is responsible for handling the creation, updating, deleting Spotio Users. This controller allow users to exchange of credentials for a token.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling the creation, updating, deleting Spotio Users. This controller allow users to exchange of credentials for a token.
   name: SPOTIO Users API
   slug: spotio-users-api
-- description: User tracking API. You can configure Spotio to track users which using the app. Using the following methods you can retrieve tracking data.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: User tracking API. You can configure Spotio to track users which using the app. Using the following methods you can retrieve tracking data.
   name: SPOTIO User Tracking API
   slug: spotio-usertracking-api
-- description: The controller is responsible for handling webhooks related operations. It provides methods for retrieving available webhook scopes, getting all webhooks for the current company, creating a new webhoo
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: The controller is responsible for handling webhooks related operations. It provides methods for retrieving available webhook scopes, getting all webhooks for the current company, creating a new webhoo
   name: SPOTIO Webhooks API
   slug: spotio-webhooks-api
-- description: Activity templates are used to define type of activities in the system. To create activity from the activity template refer to the ActivitiesController. Each activity template can have multiple activi
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: Activity templates are used to define type of activities in the system. To create activity from the activity template refer to the ActivitiesController. Each activity template can have multiple activi
   name: SPOTIO Workflow Activity Templates API
   slug: spotio-workflowactivitytemplates-api
-- description: This controller is responsible for managing data object definitions. Data object definition consists of field and stages definitions. To create records from the definition refer to DataObjectsControll
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: This controller is responsible for managing data object definitions. Data object definition consists of field and stages definitions. To create records from the definition refer to DataObjectsControll
   name: SPOTIO Workflow Data Objects API
   slug: spotio-workflowdataobjects-api
-- description: Api is responsible for the comprehensive management of fields associated with data objects within a workflow. This includes functionality for retrieving available and existing fields, creating new fie
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: Api is responsible for the comprehensive management of fields associated with data objects within a workflow. This includes functionality for retrieving available and existing fields, creating new fie
   name: SPOTIO Workflow Fields API
   slug: spotio-workflowfields-api
-- description: Workflow Settings API provides operations including fetching full workflow settings for company as well as retrieving and updating workflow company properties.
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: Workflow Settings API provides operations including fetching full workflow settings for company as well as retrieving and updating workflow company properties.
   name: SPOTIO Workflow Settings API
   slug: spotio-workflowsettings-api
-- description: 'This controller is responsible for managing stages definitions. You can split stages in 3 groups, each group can have different set of stages. The available groups are: active, won and lost. Stages ca'
+- baseURL: https://api.spotio2.com
+  baseurl_source: declared
+  description: 'This controller is responsible for managing stages definitions. You can split stages in 3 groups, each group can have different set of stages. The available groups are: active, won and lost. Stages ca'
   name: SPOTIO Workflow Stages API
   slug: spotio-workflowstages-api
 artifact_total: 87
@@ -473,7 +551,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -483,7 +561,7 @@ score:
     discoverability: 53.7
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 59.9
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -495,7 +573,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotio/refs/heads/main/screenshots/spotio-2026-08-17T082034.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 120 operations · 60 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Use the account endpoints and methods to get account information.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use the account endpoints and methods to get account information.
   name: Constant Contact Account Services API
   slug: constant-contact-account-services-api
-- description: Bulk activities endpoints are used to manage large numbers of contacts, lists, and tags.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Bulk activities endpoints are used to manage large numbers of contacts, lists, and tags.
   name: Constant Contact Bulk Activities API
   slug: constant-contact-bulk-activities-api
-- description: Endpoints and methods to get, create, delete, and update one or more contact lists.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Endpoints and methods to get, create, delete, and update one or more contact lists.
   name: Constant Contact Contact Lists API
   slug: constant-contact-contact-lists-api
-- description: Endpoints and methods to get, create, delete, and update one or more contact tags.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Endpoints and methods to get, create, delete, and update one or more contact tags.
   name: Constant Contact Contact Tags API
   slug: constant-contact-contact-tags-api
-- description: Endpoints and methods to get, create, delete, and update one or more contacts.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Endpoints and methods to get, create, delete, and update one or more contacts.
   name: Constant Contact Contacts API
   slug: constant-contact-contacts-api
-- description: Endpoints and methods to get, create, delete, and update on one or more custom fields.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Endpoints and methods to get, create, delete, and update on one or more custom fields.
   name: Constant Contact Contacts Custom Fields API
   slug: constant-contact-contacts-custom-fields-api
-- description: Contact reporting endpoints are used to gather activity reports for campaigns sent to a contact.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Contact reporting endpoints are used to gather activity reports for campaigns sent to a contact.
   name: Constant Contact Contacts Reporting API
   slug: constant-contact-contacts-reporting-api
-- description: Use email campaigns A/B Test endpoints and methods to get, create, delete and update A/B tests.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use email campaigns A/B Test endpoints and methods to get, create, delete and update A/B tests.
   name: Constant Contact Email Campaigns AB Tests API
   slug: constant-contact-email-campaigns-ab-tests-api
-- description: Use email campaign endpoints and methods to get, create, and update email campaigns.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use email campaign endpoints and methods to get, create, and update email campaigns.
   name: Constant Contact Email Campaigns API
   slug: constant-contact-email-campaigns-api
-- description: Use the email reporting endpoints and methods to get reporting data for email campaigns you sent to contacts.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use the email reporting endpoints and methods to get reporting data for email campaigns you sent to contacts.
   name: Constant Contact Email Reporting API
   slug: constant-contact-email-reporting-api
-- description: Use email scheduling endpoints and methods to schedule an email campaign activity, unschedule an email campaign activity, and GET schedule information.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use email scheduling endpoints and methods to schedule an email campaign activity, unschedule an email campaign activity, and GET schedule information.
   name: Constant Contact Email Scheduling API
   slug: constant-contact-email-scheduling-api
-- description: Endpoints and methods used to create and manage events.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Endpoints and methods used to create and manage events.
   name: Constant Contact Events API
   slug: constant-contact-events-api
-- description: Use landing pages reporting endpoints and methods to get reporting data about how a contact interacted with a campaign activity.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use landing pages reporting endpoints and methods to get reporting data about how a contact interacted with a campaign activity.
   name: Constant Contact Landing Pages Reporting API
   slug: constant-contact-landing-pages-reporting-api
-- description: Use segments to target a subset of your contacts that are most likely to engage with a particular campaign.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use segments to target a subset of your contacts that are most likely to engage with a particular campaign.
   name: Constant Contact Segments API
   slug: constant-contact-segments-api
-- description: Use SMS reporting endpoints and methods to get reporting data about SMS campaigns.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use SMS reporting endpoints and methods to get reporting data about SMS campaigns.
   name: Constant Contact SMS Reporting API
   slug: constant-contact-sms-reporting-api
-- description: Use partner endpoints to manage client Constant Contact accounts under your partner account.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use partner endpoints to manage client Constant Contact accounts under your partner account.
   name: Constant Contact Technology Partners API
   slug: constant-contact-technology-partners-api
-- description: Use partner webhooks to subscribe to billing event notifications from Constant Contact.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use partner webhooks to subscribe to billing event notifications from Constant Contact.
   name: Constant Contact Technology Partners Webhooks API
   slug: constant-contact-technology-partners-webhooks-api
-- description: Use the automation endpoints and methods to manage automation campaigns
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: Use the automation endpoints and methods to manage automation campaigns
   name: Constant Contact Automations API
   slug: constant-contact-automations-api
-- description: The Social API from Constant Contact — 4 operation(s) for social.
+- baseURL: https://api.cc.email/v3
+  baseurl_source: declared
+  description: The Social API from Constant Contact — 4 operation(s) for social.
   name: Constant Contact Social API
   slug: constant-contact-social-api
 artifact_total: 69
@@ -415,23 +453,23 @@ scopes:
   summary_line: 6 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 63.4
+  composite: 63.3
   coverage:
     artifact_dirs: 32
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: -0.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
-    contract_quality: 67.9
+    contract_quality: 67.7
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 63.6
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,7 +487,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png
 security:

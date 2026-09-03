@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The Management API from Jeeng — 3 operation(s) for management.
+- baseURL: https://powerinbox.azure-api.net/
+  baseurl_source: declared
+  description: The Management API from Jeeng — 3 operation(s) for management.
   name: Jeeng Management API
   slug: jeeng-management-api
-- description: The Reporting API from Jeeng — 6 operation(s) for reporting.
+- baseURL: https://powerinbox.azure-api.net/
+  baseurl_source: declared
+  description: The Reporting API from Jeeng — 6 operation(s) for reporting.
   name: Jeeng Reporting API
   slug: jeeng-reporting-api
-- description: The Revenuestripe.onmicrosoft.com API from Jeeng — 1 operation(s) for revenuestripe.onmicrosoft.com.
+- baseURL: https://powerinbox.azure-api.net/
+  baseurl_source: declared
+  description: The Revenuestripe.onmicrosoft.com API from Jeeng — 1 operation(s) for revenuestripe.onmicrosoft.com.
   name: Jeeng Revenuestripe.onmicrosoft.com API
   slug: jeeng-revenuestripe-onmicrosoft-com-api
 artifact_total: 12
@@ -238,7 +244,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/screenshots/jeeng-2026-07-25T223120.png
 security:

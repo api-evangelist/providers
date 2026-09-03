@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: Manage automation rules that trigger workflows based on catalog entity changes or external events via plugin integrations.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Manage automation rules that trigger workflows based on catalog entity changes or external events via plugin integrations.
   name: Rely.io Automations API
   slug: rely-automations-api
-- description: Manage blueprint schemas that define the structure and attributes of catalog entities such as services, teams, and resources.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Manage blueprint schemas that define the structure and attributes of catalog entities such as services, teams, and resources.
   name: Rely.io Blueprints API
   slug: rely-blueprints-api
-- description: Manage catalog entity instances — the individual services, teams, deployments, and resources tracked in the software catalog.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Manage catalog entity instances — the individual services, teams, deployments, and resources tracked in the software catalog.
   name: Rely.io Entities API
   slug: rely-entities-api
-- description: Define and manage engineering scorecards that track adoption of standards and production readiness across services.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Define and manage engineering scorecards that track adoption of standards and production readiness across services.
   name: Rely.io Scorecards API
   slug: rely-scorecards-api
-- description: Configure developer self-service actions that automate infrastructure provisioning, service scaffolding, and deployment workflows.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Configure developer self-service actions that automate infrastructure provisioning, service scaffolding, and deployment workflows.
   name: Rely.io Self-Service Actions API
   slug: rely-self-service-actions-api
-- description: Manage user accounts and invitations in the organization.
+- baseURL: https://api.rely.io
+  baseurl_source: declared
+  description: Manage user accounts and invitations in the organization.
   name: Rely.io Users API
   slug: rely-users-api
 artifact_total: 28
@@ -236,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rely/refs/heads/main/screenshots/rely-2026-06-20T192840.png
 security:

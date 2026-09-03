@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 48 operations · 25 acting
 api_count: 2
 apis:
-- description: The Iterable Export API enables developers to extract data from Iterable projects for analytics, reporting, and data warehousing purposes. It provides asynchronous export endpoints that allow bulk ret
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The Iterable Export API enables developers to extract data from Iterable projects for analytics, reporting, and data warehousing purposes. It provides asynchronous export endpoints that allow bulk ret
   name: Iterable Export API
   slug: export-api
 - description: The Iterable Web SDK enables developers to integrate Iterable's marketing automation capabilities directly into JavaScript and Node.js applications. It provides functions for tracking user events, man
@@ -59,79 +61,129 @@ apis:
 - description: The Iterable React Native SDK enables developers to integrate Iterable's marketing automation capabilities into cross-platform mobile applications built with React Native. It wraps Iterable's native i
   name: Iterable React Native SDK
   slug: react-native-sdk
-- description: Create, retrieve, and manage marketing campaigns. Access campaign metrics and trigger campaign sends.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Create, retrieve, and manage marketing campaigns. Access campaign metrics and trigger campaign sends.
   name: Iterable Campaigns API
   slug: iterable-campaigns-api
-- description: Manage product catalogs and catalog items used for personalization and recommendation in campaigns.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Manage product catalogs and catalog items used for personalization and recommendation in campaigns.
   name: Iterable Catalogs API
   slug: iterable-catalogs-api
-- description: Retrieve and manage messaging channels and message types used for organizing campaigns and templates.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Retrieve and manage messaging channels and message types used for organizing campaigns and templates.
   name: Iterable Channels API
   slug: iterable-channels-api
-- description: Track purchase events, update cart data, and manage commerce-related user activity for revenue attribution.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Track purchase events, update cart data, and manage commerce-related user activity for revenue attribution.
   name: Iterable Commerce API
   slug: iterable-commerce-api
-- description: Send transactional emails and manage email-specific delivery settings.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Send transactional emails and manage email-specific delivery settings.
   name: Iterable Email API
   slug: iterable-email-api
-- description: Track custom events, retrieve event data for users, and manage event metadata used for segmentation and campaign triggering.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Track custom events, retrieve event data for users, and manage event metadata used for segmentation and campaign triggering.
   name: Iterable Events API
   slug: iterable-events-api
-- description: Retrieve experiment configurations and metrics for A/B tests running across campaigns.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Retrieve experiment configurations and metrics for A/B tests running across campaigns.
   name: Iterable Experiments API
   slug: iterable-experiments-api
-- description: Manage in-app messages and retrieve in-app message content for mobile and web clients.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Manage in-app messages and retrieve in-app message content for mobile and web clients.
   name: Iterable InApp API
   slug: iterable-inapp-api
-- description: Create and manage subscriber lists. Subscribe and unsubscribe users from lists. Retrieve list metadata and membership.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Create and manage subscriber lists. Subscribe and unsubscribe users from lists. Retrieve list metadata and membership.
   name: Iterable Lists API
   slug: iterable-lists-api
-- description: Manage message types that categorize the kinds of messages sent through channels.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Manage message types that categorize the kinds of messages sent through channels.
   name: Iterable MessageTypes API
   slug: iterable-messagetypes-api
-- description: Store and retrieve key-value metadata tables for use in personalization and campaign logic.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Store and retrieve key-value metadata tables for use in personalization and campaign logic.
   name: Iterable Metadata API
   slug: iterable-metadata-api
-- description: Send push notifications and manage push notification delivery settings and tokens.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Send push notifications and manage push notification delivery settings and tokens.
   name: Iterable Push API
   slug: iterable-push-api
-- description: Send SMS messages and manage SMS-specific delivery settings.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Send SMS messages and manage SMS-specific delivery settings.
   name: Iterable SMS API
   slug: iterable-sms-api
-- description: Manage email, push, SMS, and in-app message templates. Retrieve template content and metadata.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Manage email, push, SMS, and in-app message templates. Retrieve template content and metadata.
   name: Iterable Templates API
   slug: iterable-templates-api
-- description: Manage user profiles, update user fields, bulk update users, get user data by email or userId, and delete users.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Manage user profiles, update user fields, bulk update users, get user data by email or userId, and delete users.
   name: Iterable Users API
   slug: iterable-users-api
-- description: Send web push notifications and manage web push subscription tokens.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Send web push notifications and manage web push subscription tokens.
   name: Iterable WebPush API
   slug: iterable-webpush-api
-- description: Trigger workflow enrollments and manage journey-based automation workflows.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: Trigger workflow enrollments and manage journey-based automation workflows.
   name: Iterable Workflows API
   slug: iterable-workflows-api
-- description: The Embedded Messaging API from Iterable — 1 operation(s) for embedded messaging.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The Embedded Messaging API from Iterable — 1 operation(s) for embedded messaging.
   name: Iterable Embedded Messaging API
   slug: iterable-embedded-messaging-api
-- description: The In-app API from Iterable — 4 operation(s) for in-app.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The In-app API from Iterable — 4 operation(s) for in-app.
   name: Iterable In App API
   slug: iterable-in-app-api
-- description: The In-app-web API from Iterable — 1 operation(s) for in-app-web.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The In-app-web API from Iterable — 1 operation(s) for in-app-web.
   name: Iterable In App Web API
   slug: iterable-in-app-web-api
-- description: The snippets API from Iterable — 2 operation(s) for snippets.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The snippets API from Iterable — 2 operation(s) for snippets.
   name: Iterable Snippets API
   slug: iterable-snippets-api
-- description: The subscriptions API from Iterable — 4 operation(s) for subscriptions.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The subscriptions API from Iterable — 4 operation(s) for subscriptions.
   name: Iterable Subscriptions API
   slug: iterable-subscriptions-api
-- description: The Verify API from Iterable — 2 operation(s) for verify.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The Verify API from Iterable — 2 operation(s) for verify.
   name: Iterable Verify API
   slug: iterable-verify-api
-- description: The webhooks API from Iterable — 1 operation(s) for webhooks.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The webhooks API from Iterable — 1 operation(s) for webhooks.
   name: Iterable Webhooks API
   slug: iterable-webhooks-api
-- description: The WhatsApp API from Iterable — 2 operation(s) for whatsapp.
+- baseURL: https://api.iterable.com
+  baseurl_source: declared
+  description: The WhatsApp API from Iterable — 2 operation(s) for whatsapp.
   name: Iterable Whats App API
   slug: iterable-whatsapp-api
 artifact_total: 117
@@ -591,23 +643,23 @@ rules:
   slug: iterable-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 71.1
   coverage:
     artifact_dirs: 33
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.1
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 33.3
-    contract_quality: 68.8
+    contract_quality: 68.9
     developer_ergonomics: 83.3
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 71.3
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -625,7 +677,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:

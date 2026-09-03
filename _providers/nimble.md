@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 96 operations · 70 acting
 api_count: 1
 apis:
-- description: Account activity stream — list activities across contacts and deals, walked with a next_tstamp timestamp cursor. 1 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Account activity stream — list activities across contacts and deals, walked with a next_tstamp timestamp cursor. 1 operation(s).
   name: Nimble Activities API
   slug: nimble-activities-api
-- description: Contact records — the Nimble platform root object. Create, read, update and delete person and company contacts, search them with keyword or the advanced JSON query syntax, manage notes and tags. Conta
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Contact records — the Nimble platform root object. Create, read, update and delete person and company contacts, search them with keyword or the advanced JSON query syntax, manage notes and tags. Conta
   name: Nimble Contacts API
   slug: nimble-contacts-api
-- description: User-definable contact field schema — fields, choice option lists, field groups and tabs, plus primary-value marks on multi-valued fields. The field set differs per account and must be read before wri
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: User-definable contact field schema — fields, choice option lists, field groups and tabs, plus primary-value marks on multi-valued fields. The field set differs per account and must be read before wri
   name: Nimble Contacts Fields API
   slug: nimble-contacts-fields-api
-- description: Contact pipelines — the lead-progression surface for contacts, distinct from deal pipelines. 8 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Contact pipelines — the lead-progression surface for contacts, distinct from deal pipelines. 8 operation(s).
   name: Nimble Contacts Pipelines API
   slug: nimble-contacts-pipelines-api
-- description: Deals on the /api/v2 surface — create, update and delete deals, attach notes and files, manage deal tags, list overdue activity and read the won-last-month rollup. 18 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Deals on the /api/v2 surface — create, update and delete deals, attach notes and files, manage deal tags, list overdue activity and read the won-last-month rollup. 18 operation(s).
   name: Nimble Deals API
   slug: nimble-deals-api
-- description: Deal field surface — the user deal field list and the column catalogue backing Nimble's deal listing views. 2 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Deal field surface — the user deal field list and the column catalogue backing Nimble's deal listing views. 2 operation(s).
   name: Nimble Deals Fields API
   slug: nimble-deals-fields-api
-- description: Deal pipelines and stages — create and reshape pipelines, add and archive stages, set lost reasons, and read the deal book grouped by stage or by owner. 13 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Deal pipelines and stages — create and reshape pipelines, add and archive stages, set lost reasons, and read the deal book grouped by stage or by owner. 13 operation(s).
   name: Nimble Deals Pipelines API
   slug: nimble-deals-pipelines-api
-- description: Per-pipeline deal custom fields — fields, choice lists and field groups scoped to a single deal pipeline. 9 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Per-pipeline deal custom fields — fields, choice lists and field groups scoped to a single deal pipeline. 9 operation(s).
   name: Nimble Deals Pipelines Fields API
   slug: nimble-deals-pipelines-fields-api
-- description: Lead transitions through contact pipelines — move a lead between stages, mark it exited successfully or unsuccessfully, and undo a transition. 7 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Lead transitions through contact pipelines — move a lead between stages, mark it exited successfully or unsuccessfully, and undo a transition. 7 operation(s).
   name: Nimble Leads API
   slug: nimble-leads-api
-- description: Message drafts — list and create draft messages. 2 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Message drafts — list and create draft messages. 2 operation(s).
   name: Nimble Messages API
   slug: nimble-messages-api
-- description: Task creation against contacts. 1 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: Task creation against contacts. 1 operation(s).
   name: Nimble Tasks API
   slug: nimble-tasks-api
-- description: The authenticated user record — the credential-verification endpoint. 1 operation(s).
+- baseURL: https://app.nimble.com
+  baseurl_source: declared
+  description: The authenticated user record — the credential-verification endpoint. 1 operation(s).
   name: Nimble Users API
   slug: nimble-users-api
 artifact_total: 28
@@ -290,7 +314,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png
 security:

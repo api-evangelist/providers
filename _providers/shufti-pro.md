@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,10 +55,14 @@ apis:
 - description: Biometric authentication and re-verification API enabling face-based login and identity re-confirmation for returning users. Uses liveness detection to prevent spoofing and supports fast ID reusabilit
   name: Shufti Pro Biometric Authentication API
   slug: biometric-auth-api
-- description: The Status API from Shufti Pro — 2 operation(s) for status.
+- baseURL: https://api.shuftipro.com
+  baseurl_source: declared
+  description: The Status API from Shufti Pro — 2 operation(s) for status.
   name: Shufti Pro Status API
   slug: shufti-pro-status-api
-- description: The Verification API from Shufti Pro — 1 operation(s) for verification.
+- baseURL: https://api.shuftipro.com
+  baseurl_source: declared
+  description: The Verification API from Shufti Pro — 1 operation(s) for verification.
   name: Shufti Pro Verification API
   slug: shufti-pro-verification-api
 artifact_total: 17
@@ -196,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

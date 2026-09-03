@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 417
   human_in_the_loop: 14
@@ -33,184 +45,304 @@ agentic_access:
   summary_line: 854 operations · 417 acting · 14 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account API from Alianza — 22 operation(s) for account.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Account API from Alianza — 22 operation(s) for account.
   name: Alianza Account API
   slug: alianza-account-api
-- description: The Account Device API from Alianza — 7 operation(s) for account device.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Account Device API from Alianza — 7 operation(s) for account device.
   name: Alianza Account Device API
   slug: alianza-account-device-api
-- description: The Account Device Line API from Alianza — 9 operation(s) for account device line.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Account Device Line API from Alianza — 9 operation(s) for account device line.
   name: Alianza Account Device Line API
   slug: alianza-account-device-line-api
-- description: The Account Prevalidate API from Alianza — 3 operation(s) for account prevalidate.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Account Prevalidate API from Alianza — 3 operation(s) for account prevalidate.
   name: Alianza Account Prevalidate API
   slug: alianza-account-prevalidate-api
-- description: The Account User API from Alianza — 3 operation(s) for account user.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Account User API from Alianza — 3 operation(s) for account user.
   name: Alianza Account User API
   slug: alianza-account-user-api
-- description: The Address API from Alianza — 3 operation(s) for address.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Address API from Alianza — 3 operation(s) for address.
   name: Alianza Address API
   slug: alianza-address-api
-- description: The Asynchronous JOB Tracker API from Alianza — 5 operation(s) for asynchronous job tracker.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Asynchronous JOB Tracker API from Alianza — 5 operation(s) for asynchronous job tracker.
   name: Alianza Asynchronous JOB Tracker API
   slug: alianza-asynchronous-job-tracker-api
-- description: The Authorize API from Alianza — 4 operation(s) for authorize.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Authorize API from Alianza — 4 operation(s) for authorize.
   name: Alianza Authorize API
   slug: alianza-authorize-api
-- description: Brand settings toggles
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Brand settings toggles
   name: Alianza Brand Settings API
   slug: alianza-brand-settings-api
-- description: Manage collections used in the bulk process.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Manage collections used in the bulk process.
   name: Alianza Bulk Operation Collection API
   slug: alianza-bulk-operation-collection-api
-- description: Manage jobs used in the bulk process.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Manage jobs used in the bulk process.
   name: Alianza Bulk Operation Job API
   slug: alianza-bulk-operation-job-api
-- description: The Business Line API from Alianza — 22 operation(s) for business line.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Business Line API from Alianza — 22 operation(s) for business line.
   name: Alianza Business Line API
   slug: alianza-business-line-api
-- description: The Business Line Hunt Group API from Alianza — 6 operation(s) for business line hunt group.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Business Line Hunt Group API from Alianza — 6 operation(s) for business line hunt group.
   name: Alianza Business Line Hunt Group API
   slug: alianza-business-line-hunt-group-api
-- description: The Call Group API from Alianza — 2 operation(s) for call group.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Call Group API from Alianza — 2 operation(s) for call group.
   name: Alianza Call Group API
   slug: alianza-call-group-api
-- description: The Call Parking Spot API from Alianza — 2 operation(s) for call parking spot.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Call Parking Spot API from Alianza — 2 operation(s) for call parking spot.
   name: Alianza Call Parking Spot API
   slug: alianza-call-parking-spot-api
-- description: The Calling Plan API from Alianza — 2 operation(s) for calling plan.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Calling Plan API from Alianza — 2 operation(s) for calling plan.
   name: Alianza Calling Plan API
   slug: alianza-calling-plan-api
-- description: The Calling Plan Product API from Alianza — 5 operation(s) for calling plan product.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Calling Plan Product API from Alianza — 5 operation(s) for calling plan product.
   name: Alianza Calling Plan Product API
   slug: alianza-calling-plan-product-api
-- description: The CDRs API from Alianza — 3 operation(s) for cdrs.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The CDRs API from Alianza — 3 operation(s) for cdrs.
   name: Alianza CD Rs API
   slug: alianza-cdrs-api
-- description: The Cymbus User Product API from Alianza — 7 operation(s) for cymbus user product.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Cymbus User Product API from Alianza — 7 operation(s) for cymbus user product.
   name: Alianza Cymbus User Product API
   slug: alianza-cymbus-user-product-api
-- description: Convenience operations related to devices
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Convenience operations related to devices
   name: Alianza Device API
   slug: alianza-device-api
-- description: The Device (Deprecated) API from Alianza — 6 operation(s) for device (deprecated).
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Device (Deprecated) API from Alianza — 6 operation(s) for device (deprecated).
   name: Alianza Device (Deprecated) API
   slug: alianza-device-deprecated-api
-- description: The Device Inventory Management API from Alianza — 4 operation(s) for device inventory management.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Device Inventory Management API from Alianza — 4 operation(s) for device inventory management.
   name: Alianza Device Inventory Management API
   slug: alianza-device-inventory-management-api
-- description: The Device Provisioning API from Alianza — 2 operation(s) for device provisioning.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Device Provisioning API from Alianza — 2 operation(s) for device provisioning.
   name: Alianza Device Provisioning API
   slug: alianza-device-provisioning-api
-- description: Operations for managing documents
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing documents
   name: Alianza Document Repository API
   slug: alianza-document-repository-api
-- description: The Dynamic Inventory API from Alianza — 2 operation(s) for dynamic inventory.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Dynamic Inventory API from Alianza — 2 operation(s) for dynamic inventory.
   name: Alianza Dynamic Inventory API
   slug: alianza-dynamic-inventory-api
-- description: Operations for managing edge nodes
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing edge nodes
   name: Alianza Edge Node API
   slug: alianza-edge-node-api
-- description: The Emergency Notification API from Alianza — 4 operation(s) for emergency notification.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Emergency Notification API from Alianza — 4 operation(s) for emergency notification.
   name: Alianza Emergency Notification API
   slug: alianza-emergency-notification-api
-- description: The End User API from Alianza — 12 operation(s) for end user.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The End User API from Alianza — 12 operation(s) for end user.
   name: Alianza End User API
   slug: alianza-end-user-api
-- description: The Inbound Rate Plan Product API from Alianza — 2 operation(s) for inbound rate plan product.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Inbound Rate Plan Product API from Alianza — 2 operation(s) for inbound rate plan product.
   name: Alianza Inbound Rate Plan Product API
   slug: alianza-inbound-rate-plan-product-api
-- description: The IVR API from Alianza — 2 operation(s) for ivr.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The IVR API from Alianza — 2 operation(s) for ivr.
   name: Alianza IVR API
   slug: alianza-ivr-api
-- description: The Language Reference API from Alianza — 1 operation(s) for language reference.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Language Reference API from Alianza — 1 operation(s) for language reference.
   name: Alianza Language Reference API
   slug: alianza-language-reference-api
-- description: The Local Calling Areas API from Alianza — 2 operation(s) for local calling areas.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Local Calling Areas API from Alianza — 2 operation(s) for local calling areas.
   name: Alianza Local Calling Areas API
   slug: alianza-local-calling-areas-api
-- description: The Management User API from Alianza — 7 operation(s) for management user.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Management User API from Alianza — 7 operation(s) for management user.
   name: Alianza Management User API
   slug: alianza-management-user-api
-- description: The Media API from Alianza — 6 operation(s) for media.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Media API from Alianza — 6 operation(s) for media.
   name: Alianza Media API
   slug: alianza-media-api
-- description: The Paging Group API from Alianza — 2 operation(s) for paging group.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Paging Group API from Alianza — 2 operation(s) for paging group.
   name: Alianza Paging Group API
   slug: alianza-paging-group-api
-- description: The Partition API from Alianza — 6 operation(s) for partition.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Partition API from Alianza — 6 operation(s) for partition.
   name: Alianza Partition API
   slug: alianza-partition-api
-- description: The Pickup Group API from Alianza — 2 operation(s) for pickup group.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Pickup Group API from Alianza — 2 operation(s) for pickup group.
   name: Alianza Pickup Group API
   slug: alianza-pickup-group-api
-- description: The Port API from Alianza — 5 operation(s) for port.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Port API from Alianza — 5 operation(s) for port.
   name: Alianza Port API
   slug: alianza-port-api
-- description: Operations for managing rate centers. A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multip
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing rate centers. A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multip
   name: Alianza Rate Center Inventory API
   slug: alianza-rate-center-inventory-api
-- description: The Reference Resources API from Alianza — 11 operation(s) for reference resources.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Reference Resources API from Alianza — 11 operation(s) for reference resources.
   name: Alianza Reference Resources API
   slug: alianza-reference-resources-api
-- description: The Report API from Alianza — 33 operation(s) for report.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Report API from Alianza — 33 operation(s) for report.
   name: Alianza Report API
   slug: alianza-report-api
-- description: The Security Groups API from Alianza — 2 operation(s) for security groups.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Security Groups API from Alianza — 2 operation(s) for security groups.
   name: Alianza Security Groups API
   slug: alianza-security-groups-api
-- description: The Service Activation API from Alianza — 1 operation(s) for service activation.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Service Activation API from Alianza — 1 operation(s) for service activation.
   name: Alianza Service Activation API
   slug: alianza-service-activation-api
-- description: Operations for managing SSO
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing SSO
   name: Alianza Single Sign On - SSO API
   slug: alianza-single-sign-on-sso-api
-- description: The SIP Trunk API from Alianza — 7 operation(s) for sip trunk.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The SIP Trunk API from Alianza — 7 operation(s) for sip trunk.
   name: Alianza SIP Trunk API
   slug: alianza-sip-trunk-api
-- description: Operations for managing Sip Trunk Caller ID mappings
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing Sip Trunk Caller ID mappings
   name: Alianza Sip Trunk Caller ID Mapping API
   slug: alianza-sip-trunk-caller-id-mapping-api
-- description: Operations for managing SIP trunk groups
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing SIP trunk groups
   name: Alianza SIP Trunk Group API
   slug: alianza-sip-trunk-group-api
-- description: Managed Specialty Lines uses carefully curated CPE (Customer Premises Equipment) that can replace virtually any specialty use hardline for critical business and life safety systems.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Managed Specialty Lines uses carefully curated CPE (Customer Premises Equipment) that can replace virtually any specialty use hardline for critical business and life safety systems.
   name: Alianza Specialty Line API
   slug: alianza-specialty-line-api
-- description: The SSO API from Alianza — 1 operation(s) for sso.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The SSO API from Alianza — 1 operation(s) for sso.
   name: Alianza SSO API
   slug: alianza-sso-api
-- description: Operations for managing SSO authentication flows and callbacks
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing SSO authentication flows and callbacks
   name: Alianza SSO Authentication API
   slug: alianza-sso-authentication-api
-- description: Operations for managing SSO configurations for accounts and partitions
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing SSO configurations for accounts and partitions
   name: Alianza SSO Configuration API
   slug: alianza-sso-configuration-api
-- description: Operations for managing SSO exemptions for accounts and partitions
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing SSO exemptions for accounts and partitions
   name: Alianza SSO Exemptions API
   slug: alianza-sso-exemptions-api
-- description: A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multiple area codes.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: A rate center is a geographical area used to determine the boundaries for local calling, billing, and assigning specific phone numbers, which can encompass multiple area codes.
   name: Alianza Supported Rate Centers API
   slug: alianza-supported-rate-centers-api
-- description: The Supported Rate Centers by Alianza and specified carrier API from Alianza — 1 operation(s) for supported rate centers by alianza and specified carrier.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Supported Rate Centers by Alianza and specified carrier API from Alianza — 1 operation(s) for supported rate centers by alianza and specified carrier.
   name: Alianza Supported Rate Centers by Alianza and specified carrier API
   slug: alianza-supported-rate-centers-by-alianza-and-specified-carrier-api
-- description: The Telephone Number API from Alianza — 28 operation(s) for telephone number.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Telephone Number API from Alianza — 28 operation(s) for telephone number.
   name: Alianza Telephone Number API
   slug: alianza-telephone-number-api
-- description: Operations for managing user groups.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: Operations for managing user groups.
   name: Alianza User Groups API
   slug: alianza-user-groups-api
-- description: The Virtual Fax API from Alianza — 1 operation(s) for virtual fax.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Virtual Fax API from Alianza — 1 operation(s) for virtual fax.
   name: Alianza Virtual Fax API
   slug: alianza-virtual-fax-api
-- description: The Virtual Fax Line API from Alianza — 2 operation(s) for virtual fax line.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Virtual Fax Line API from Alianza — 2 operation(s) for virtual fax line.
   name: Alianza Virtual Fax Line API
   slug: alianza-virtual-fax-line-api
-- description: The Voicemail Box API from Alianza — 6 operation(s) for voicemail box.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Voicemail Box API from Alianza — 6 operation(s) for voicemail box.
   name: Alianza Voicemail Box API
   slug: alianza-voicemail-box-api
-- description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
+- baseURL: https://api.alianza.com
+  baseurl_source: declared
+  description: The Voicemail Message API from Alianza — 4 operation(s) for voicemail message.
   name: Alianza Voicemail Message API
   slug: alianza-voicemail-message-api
 artifact_total: 126
@@ -546,20 +678,20 @@ overview: 'Alianza publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 1
 score:
   band: thin
-  composite: 31.2
+  composite: 33.0
   coverage:
     artifact_dirs: 20
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 1.8
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 53.1
     developer_ergonomics: 51.8
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 4.5
     operational_transparency: 2.6
   previous_composite: 31.2
@@ -580,7 +712,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alianza/refs/heads/main/screenshots/alianza-2026-08-07T161200.png
 security:

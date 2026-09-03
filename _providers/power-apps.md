@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Custom connectors allow you to create wrappers around REST or SOAP APIs for use in Power Apps, Power Automate, Logic Apps, and Copilot Studio, enabling integration with services not available as prebu
   name: Custom Connectors API
   slug: custom-connectors-api
-- description: System operations and functions exposed by the Web API.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: System operations and functions exposed by the Web API.
   name: Microsoft Power Apps System API
   slug: power-apps-system-api
-- description: CRUD operations against Dataverse tables (entities).
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: CRUD operations against Dataverse tables (entities).
   name: Microsoft Power Apps Tables API
   slug: power-apps-tables-api
 artifact_total: 65
@@ -255,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/screenshots/power-apps-2026-06-20T192021.png
 security:

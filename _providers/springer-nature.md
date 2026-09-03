@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: Premium full-text API providing content retrieval for licensed Springer Nature publications including text and data mining (TDM) capabilities. Requires institutional or premium API access. Returns XML
   name: Springer Nature Full Text API
   slug: springer-nature-fulltext-api
-- description: The Open Access API from Springer Nature — 2 operation(s) for open access.
+- baseURL: https://api.springernature.com/meta/v2
+  baseurl_source: declared
+  description: The Open Access API from Springer Nature — 2 operation(s) for open access.
   name: Springer Nature Open Access API
   slug: springer-nature-open-access-api
-- description: The Search API from Springer Nature — 2 operation(s) for search.
+- baseURL: https://api.springernature.com/meta/v2
+  baseurl_source: declared
+  description: The Search API from Springer Nature — 2 operation(s) for search.
   name: Springer Nature Search API
   slug: springer-nature-search-api
 artifact_total: 22
@@ -230,7 +234,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/screenshots/springer-nature-2026-06-20T194417.png
 security:

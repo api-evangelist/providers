@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Model Context Protocol server published by CrewAI Inc. that exposes AMP crew deployment operations and status tracking to MCP-compatible agents and IDEs. Lets Claude, Cursor, and other MCP clients lis
   name: CrewAI Enterprise MCP Server
   slug: crewai-enterprise-mcp-server
-- description: Discover the input parameters this crew accepts.
+- baseURL: https://{crew-name}.crewai.com
+  baseurl_source: declared
+  description: Discover the input parameters this crew accepts.
   name: CrewAI Cloud Inputs API
   slug: crewai-cloud-inputs-api
-- description: Launch a crew execution.
+- baseURL: https://{crew-name}.crewai.com
+  baseurl_source: declared
+  description: Launch a crew execution.
   name: CrewAI Cloud Kickoff API
   slug: crewai-cloud-kickoff-api
-- description: Deliver human-in-the-loop feedback on a paused task.
+- baseURL: https://{crew-name}.crewai.com
+  baseurl_source: declared
+  description: Deliver human-in-the-loop feedback on a paused task.
   name: CrewAI Cloud Resume API
   slug: crewai-cloud-resume-api
-- description: Inspect execution progress and retrieve results.
+- baseURL: https://{crew-name}.crewai.com
+  baseurl_source: declared
+  description: Inspect execution progress and retrieve results.
   name: CrewAI Cloud Status API
   slug: crewai-cloud-status-api
 arazzos:
@@ -486,7 +494,7 @@ score:
     catalog_gap: 43.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -496,7 +504,7 @@ score:
     discoverability: 66.7
     governance: 54.5
     operational_transparency: 18.4
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     contracts:
@@ -505,7 +513,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crewai-cloud/refs/heads/main/screenshots/crewai-cloud-2026-06-20T175231.png
 security:

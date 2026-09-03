@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 30 operations · 10 acting
 api_count: 1
 apis:
-- description: Real-time market data over WebSocket. Stocks stream at wss://stream.data.alpaca.markets/v2/{feed} (iex, sip, delayed_sip, test) and crypto at wss://stream.data.alpaca.markets/v1beta3/crypto/us. Authen
+- baseURL: wss://stream.data.alpaca.markets
+  baseurl_source: declared
+  description: Real-time market data over WebSocket. Stocks stream at wss://stream.data.alpaca.markets/v2/{feed} (iex, sip, delayed_sip, test) and crypto at wss://stream.data.alpaca.markets/v1beta3/crypto/us. Authen
   name: Alpaca Market Data Streaming API
   slug: alpaca-markets-streaming-api
-- description: Trading account details, configuration, and activities.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Trading account details, configuration, and activities.
   name: Alpaca Account API
   slug: alpaca-markets-account-api
-- description: Tradable asset catalog.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Tradable asset catalog.
   name: Alpaca Assets API
   slug: alpaca-markets-assets-api
-- description: Open and manage end-user brokerage accounts.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Open and manage end-user brokerage accounts.
   name: Alpaca Broker - Accounts API
   slug: alpaca-markets-broker-accounts-api
-- description: Transfers and journals between accounts.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Transfers and journals between accounts.
   name: Alpaca Broker - Funding API
   slug: alpaca-markets-broker-funding-api
-- description: Place orders on behalf of end-user accounts.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Place orders on behalf of end-user accounts.
   name: Alpaca Broker - Trading API
   slug: alpaca-markets-broker-trading-api
-- description: Market calendar and clock.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Market calendar and clock.
   name: Alpaca Market API
   slug: alpaca-markets-market-api
-- description: Historical and latest crypto bars, trades, quotes, and orderbooks (v1beta3).
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Historical and latest crypto bars, trades, quotes, and orderbooks (v1beta3).
   name: Alpaca Market Data - Crypto API
   slug: alpaca-markets-market-data-crypto-api
-- description: Real-time and historical market news (v1beta1).
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Real-time and historical market news (v1beta1).
   name: Alpaca Market Data - News API
   slug: alpaca-markets-market-data-news-api
-- description: Options bars, trades, and snapshots (v1beta1).
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Options bars, trades, and snapshots (v1beta1).
   name: Alpaca Market Data - Options API
   slug: alpaca-markets-market-data-options-api
-- description: Most-actives and movers screeners (v1beta1).
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Most-actives and movers screeners (v1beta1).
   name: Alpaca Market Data - Screener API
   slug: alpaca-markets-market-data-screener-api
-- description: Historical and latest stock bars, trades, quotes, snapshots, and auctions.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Historical and latest stock bars, trades, quotes, snapshots, and auctions.
   name: Alpaca Market Data - Stocks API
   slug: alpaca-markets-market-data-stocks-api
-- description: Submit, list, replace, and cancel orders.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Submit, list, replace, and cancel orders.
   name: Alpaca Orders API
   slug: alpaca-markets-orders-api
-- description: Portfolio history and performance.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Portfolio history and performance.
   name: Alpaca Portfolio API
   slug: alpaca-markets-portfolio-api
-- description: Open positions and liquidation.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: Open positions and liquidation.
   name: Alpaca Positions API
   slug: alpaca-markets-positions-api
-- description: User watchlists.
+- baseURL: https://api.alpaca.markets/v2
+  baseurl_source: declared
+  description: User watchlists.
   name: Alpaca Watchlists API
   slug: alpaca-markets-watchlists-api
 artifact_total: 39
@@ -233,7 +265,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -243,7 +275,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 33.9
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -258,7 +290,7 @@ score:
     regime_id: securities_market_data
     score: 10.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/screenshots/alpaca-markets-2026-07-25T195746.png
 slug: alpaca-markets

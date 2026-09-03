@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
+- baseURL: https://api.sinai.com/v1
+  baseurl_source: declared
+  description: The Baseline forecasts API from Sinai Technologies — 7 operation(s) for baseline forecasts.
   name: Sinai Technologies Baseline forecasts API
   slug: sinai-technologies-baseline-forecasts-api
-- description: The Carbon accounting API from Sinai Technologies — 5 operation(s) for carbon accounting.
+- baseURL: https://api.sinai.com/v1
+  baseurl_source: declared
+  description: The Carbon accounting API from Sinai Technologies — 5 operation(s) for carbon accounting.
   name: Sinai Technologies Carbon accounting API
   slug: sinai-technologies-carbon-accounting-api
-- description: The Organization management API from Sinai Technologies — 20 operation(s) for organization management.
+- baseURL: https://api.sinai.com/v1
+  baseurl_source: declared
+  description: The Organization management API from Sinai Technologies — 20 operation(s) for organization management.
   name: Sinai Technologies Organization management API
   slug: sinai-technologies-organization-management-api
 artifact_total: 12
@@ -207,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinai-technologies/refs/heads/main/screenshots/sinai-technologies-2026-08-17T081904.png
 security:

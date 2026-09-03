@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -44,49 +44,77 @@ agentic_access:
   summary_line: 80 operations · 54 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: People and company enrichment, single and bulk. 4 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: People and company enrichment, single and bulk. 4 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Enrichment API
   slug: apollo-io-enrichment-api
-- description: Database search across Apollo's people, company, job-posting and news data. 6 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Database search across Apollo's people, company, job-posting and news data. 6 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Search API
   slug: apollo-io-search-api
-- description: Workspace CRM accounts — create, update, search, stages and ownership. 8 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Workspace CRM accounts — create, update, search, stages and ownership. 8 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Accounts API
   slug: apollo-io-accounts-api
-- description: Workspace CRM contacts — create, update, search, stages and ownership. 10 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Workspace CRM contacts — create, update, search, stages and ownership. 10 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Contacts API
   slug: apollo-io-contacts-api
-- description: Deals (opportunities), their stages, and the deals attached to a contact. 5 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Deals (opportunities), their stages, and the deals attached to a contact. 5 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Deals API
   slug: apollo-io-deals-api
-- description: Outreach sequences — create, update, approve, abort, archive, enrollment and activity. 12 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Outreach sequences — create, update, approve, abort, archive, enrollment and activity. 12 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Sequences API
   slug: apollo-io-sequences-api
-- description: One-off email drafting, sending, send status and content retrieval. 4 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: One-off email drafting, sending, send status and content retrieval. 4 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Emailer Messages API
   slug: apollo-io-emailer-messages-api
-- description: Tasks against contacts, accounts and deals — create, search, update, complete, skip. 7 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Tasks against contacts, accounts and deals — create, search, update, complete, skip. 7 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Tasks API
   slug: apollo-io-tasks-api
-- description: Phone-call records — log, search and update dialer activity. 3 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Phone-call records — log, search and update dialer activity. 3 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Calls API
   slug: apollo-io-calls-api
-- description: Conversation intelligence — search recorded calls and meetings, read insights, export. 4 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Conversation intelligence — search recorded calls and meetings, read insights, export. 4 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Conversations API
   slug: apollo-io-conversations-api
-- description: The Query Analytics Report endpoint — metrics, dimensions and filters over engagement data. 1 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: The Query Analytics Report endpoint — metrics, dimensions and filters over engagement data. 1 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Analytics API
   slug: apollo-io-analytics-api
-- description: Field and custom-field definitions across contacts, accounts and opportunities. 4 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Field and custom-field definitions across contacts, accounts and opportunities. 4 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Fields API
   slug: apollo-io-fields-api
-- description: Users, email accounts, lists and labels, notes, usage stats and webhook results. 12 operation(s) from the published Apollo OpenAPI.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: Users, email accounts, lists and labels, notes, usage stats and webhook results. 12 operation(s) from the published Apollo OpenAPI.
   name: Apollo.io Miscellaneous API
   slug: apollo-io-miscellaneous-api
 - description: Apollo's hosted Model Context Protocol server. A remote Streamable-HTTP endpoint at https://mcp.apollo.io/mcp, authenticated with OAuth 2.0 and no API key, exposing 51 published actions across search,
   name: Apollo MCP Server
   slug: apollo-mcp
-- description: The Users API from Apollo.io — 1 operation(s) for users.
+- baseURL: https://api.apollo.io/api/v1
+  baseurl_source: declared
+  description: The Users API from Apollo.io — 1 operation(s) for users.
   name: Apollo.io Users API
   slug: apollo-io-users-api
 artifact_total: 50
@@ -361,7 +389,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -371,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 61.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +411,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png
 security:

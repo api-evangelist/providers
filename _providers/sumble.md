@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ agentic_access:
   summary_line: 26 operations · 20 acting
 api_count: 1
 apis:
-- description: The contact-lists API from Sumble — 3 operation(s) for contact-lists.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The contact-lists API from Sumble — 3 operation(s) for contact-lists.
   name: Sumble contact-lists API
   slug: sumble-contact-lists-api
-- description: The jobs API from Sumble — 2 operation(s) for jobs.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The jobs API from Sumble — 2 operation(s) for jobs.
   name: Sumble jobs API
   slug: sumble-jobs-api
-- description: The organization-lists API from Sumble — 5 operation(s) for organization-lists.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The organization-lists API from Sumble — 5 operation(s) for organization-lists.
   name: Sumble organization-lists API
   slug: sumble-organization-lists-api
-- description: The organizations API from Sumble — 3 operation(s) for organizations.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The organizations API from Sumble — 3 operation(s) for organizations.
   name: Sumble organizations API
   slug: sumble-organizations-api
-- description: The people API from Sumble — 1 operation(s) for people.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The people API from Sumble — 1 operation(s) for people.
   name: Sumble people API
   slug: sumble-people-api
-- description: The projects API from Sumble — 1 operation(s) for projects.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The projects API from Sumble — 1 operation(s) for projects.
   name: Sumble projects API
   slug: sumble-projects-api
-- description: The signals API from Sumble — 3 operation(s) for signals.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The signals API from Sumble — 3 operation(s) for signals.
   name: Sumble signals API
   slug: sumble-signals-api
-- description: The support API from Sumble — 2 operation(s) for support.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The support API from Sumble — 2 operation(s) for support.
   name: Sumble support API
   slug: sumble-support-api
-- description: The teams API from Sumble — 1 operation(s) for teams.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The teams API from Sumble — 1 operation(s) for teams.
   name: Sumble teams API
   slug: sumble-teams-api
-- description: The technologies API from Sumble — 3 operation(s) for technologies.
+- baseURL: https://api.sumble.com
+  baseurl_source: declared
+  description: The technologies API from Sumble — 3 operation(s) for technologies.
   name: Sumble technologies API
   slug: sumble-technologies-api
 artifact_total: 80
@@ -472,7 +492,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/screenshots/sumble-2026-08-17T082151.png
 security:

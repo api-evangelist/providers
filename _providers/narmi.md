@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -43,136 +43,224 @@ agentic_access:
   summary_line: 189 operations · 100 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The account balances API from Narmi — 2 operation(s) for account balances.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The account balances API from Narmi — 2 operation(s) for account balances.
   name: Narmi account balances API
   slug: narmi-account-balances-api
-- description: The accounts API from Narmi — 10 operation(s) for accounts.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The accounts API from Narmi — 10 operation(s) for accounts.
   name: Narmi accounts API
   slug: narmi-accounts-api
-- description: The ach companies API from Narmi — 1 operation(s) for ach companies.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ach companies API from Narmi — 1 operation(s) for ach companies.
   name: Narmi ach companies API
   slug: narmi-ach-companies-api
-- description: The ach destinations API from Narmi — 1 operation(s) for ach destinations.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ach destinations API from Narmi — 1 operation(s) for ach destinations.
   name: Narmi ach destinations API
   slug: narmi-ach-destinations-api
-- description: The ach import API from Narmi — 6 operation(s) for ach import.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ach import API from Narmi — 6 operation(s) for ach import.
   name: Narmi ach import API
   slug: narmi-ach-import-api
-- description: The ach payments API from Narmi — 5 operation(s) for ach payments.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ach payments API from Narmi — 5 operation(s) for ach payments.
   name: Narmi ach payments API
   slug: narmi-ach-payments-api
-- description: The ach transfers API from Narmi — 1 operation(s) for ach transfers.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ach transfers API from Narmi — 1 operation(s) for ach transfers.
   name: Narmi ach transfers API
   slug: narmi-ach-transfers-api
-- description: The alerts API from Narmi — 6 operation(s) for alerts.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The alerts API from Narmi — 6 operation(s) for alerts.
   name: Narmi alerts API
   slug: narmi-alerts-api
-- description: The automatic savings enrollment API from Narmi — 1 operation(s) for automatic savings enrollment.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The automatic savings enrollment API from Narmi — 1 operation(s) for automatic savings enrollment.
   name: Narmi automatic savings enrollment API
   slug: narmi-automatic-savings-enrollment-api
-- description: The card linked offers API from Narmi — 2 operation(s) for card linked offers.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The card linked offers API from Narmi — 2 operation(s) for card linked offers.
   name: Narmi card linked offers API
   slug: narmi-card-linked-offers-api
-- description: The cards API from Narmi — 10 operation(s) for cards.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The cards API from Narmi — 10 operation(s) for cards.
   name: Narmi cards API
   slug: narmi-cards-api
-- description: The data access management API from Narmi — 2 operation(s) for data access management.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The data access management API from Narmi — 2 operation(s) for data access management.
   name: Narmi data access management API
   slug: narmi-data-access-management-api
-- description: The deposits API from Narmi — 2 operation(s) for deposits.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The deposits API from Narmi — 2 operation(s) for deposits.
   name: Narmi deposits API
   slug: narmi-deposits-api
-- description: The documents API from Narmi — 3 operation(s) for documents.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The documents API from Narmi — 3 operation(s) for documents.
   name: Narmi documents API
   slug: narmi-documents-api
-- description: The enrollments API from Narmi — 5 operation(s) for enrollments.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The enrollments API from Narmi — 5 operation(s) for enrollments.
   name: Narmi enrollments API
   slug: narmi-enrollments-api
-- description: The express-checkout API from Narmi — 2 operation(s) for express-checkout.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The express-checkout API from Narmi — 2 operation(s) for express-checkout.
   name: Narmi express-checkout API
   slug: narmi-express-checkout-api
-- description: The fedwire destinations API from Narmi — 2 operation(s) for fedwire destinations.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The fedwire destinations API from Narmi — 2 operation(s) for fedwire destinations.
   name: Narmi fedwire destinations API
   slug: narmi-fedwire-destinations-api
-- description: The fedwire templates API from Narmi — 2 operation(s) for fedwire templates.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The fedwire templates API from Narmi — 2 operation(s) for fedwire templates.
   name: Narmi fedwire templates API
   slug: narmi-fedwire-templates-api
-- description: The income source API from Narmi — 2 operation(s) for income source.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The income source API from Narmi — 2 operation(s) for income source.
   name: Narmi income source API
   slug: narmi-income-source-api
-- description: The instant transfers API from Narmi — 4 operation(s) for instant transfers.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The instant transfers API from Narmi — 4 operation(s) for instant transfers.
   name: Narmi instant transfers API
   slug: narmi-instant-transfers-api
-- description: The institution API from Narmi — 2 operation(s) for institution.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The institution API from Narmi — 2 operation(s) for institution.
   name: Narmi institution API
   slug: narmi-institution-api
-- description: The international wires API from Narmi — 4 operation(s) for international wires.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The international wires API from Narmi — 4 operation(s) for international wires.
   name: Narmi international wires API
   slug: narmi-international-wires-api
-- description: The me API from Narmi — 1 operation(s) for me.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The me API from Narmi — 1 operation(s) for me.
   name: Narmi me API
   slug: narmi-me-api
-- description: The merchants API from Narmi — 1 operation(s) for merchants.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The merchants API from Narmi — 1 operation(s) for merchants.
   name: Narmi merchants API
   slug: narmi-merchants-api
-- description: The mfa API from Narmi — 3 operation(s) for mfa.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The mfa API from Narmi — 3 operation(s) for mfa.
   name: Narmi mfa API
   slug: narmi-mfa-api
-- description: The payees API from Narmi — 2 operation(s) for payees.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The payees API from Narmi — 2 operation(s) for payees.
   name: Narmi payees API
   slug: narmi-payees-api
-- description: The payments API from Narmi — 2 operation(s) for payments.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The payments API from Narmi — 2 operation(s) for payments.
   name: Narmi payments API
   slug: narmi-payments-api
-- description: The ping API from Narmi — 1 operation(s) for ping.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The ping API from Narmi — 1 operation(s) for ping.
   name: Narmi ping API
   slug: narmi-ping-api
-- description: The recipients API from Narmi — 2 operation(s) for recipients.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The recipients API from Narmi — 2 operation(s) for recipients.
   name: Narmi recipients API
   slug: narmi-recipients-api
-- description: The reports API from Narmi — 3 operation(s) for reports.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The reports API from Narmi — 3 operation(s) for reports.
   name: Narmi reports API
   slug: narmi-reports-api
-- description: The same-day transfers API from Narmi — 1 operation(s) for same-day transfers.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The same-day transfers API from Narmi — 1 operation(s) for same-day transfers.
   name: Narmi same-day transfers API
   slug: narmi-same-day-transfers-api
-- description: The scheduled transfers API from Narmi — 1 operation(s) for scheduled transfers.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The scheduled transfers API from Narmi — 1 operation(s) for scheduled transfers.
   name: Narmi scheduled transfers API
   slug: narmi-scheduled-transfers-api
-- description: The subscriptions API from Narmi — 2 operation(s) for subscriptions.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The subscriptions API from Narmi — 2 operation(s) for subscriptions.
   name: Narmi subscriptions API
   slug: narmi-subscriptions-api
-- description: The support API from Narmi — 1 operation(s) for support.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The support API from Narmi — 1 operation(s) for support.
   name: Narmi support API
   slug: narmi-support-api
-- description: The surveys API from Narmi — 3 operation(s) for surveys.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The surveys API from Narmi — 3 operation(s) for surveys.
   name: Narmi surveys API
   slug: narmi-surveys-api
-- description: The swift wire templates API from Narmi — 2 operation(s) for swift wire templates.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The swift wire templates API from Narmi — 2 operation(s) for swift wire templates.
   name: Narmi swift wire templates API
   slug: narmi-swift-wire-templates-api
-- description: The teams API from Narmi — 1 operation(s) for teams.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The teams API from Narmi — 1 operation(s) for teams.
   name: Narmi teams API
   slug: narmi-teams-api
-- description: The threads API from Narmi — 6 operation(s) for threads.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The threads API from Narmi — 6 operation(s) for threads.
   name: Narmi threads API
   slug: narmi-threads-api
-- description: The transactions API from Narmi — 3 operation(s) for transactions.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The transactions API from Narmi — 3 operation(s) for transactions.
   name: Narmi transactions API
   slug: narmi-transactions-api
-- description: The unverified ach transactions API from Narmi — 4 operation(s) for unverified ach transactions.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The unverified ach transactions API from Narmi — 4 operation(s) for unverified ach transactions.
   name: Narmi unverified ach transactions API
   slug: narmi-unverified-ach-transactions-api
-- description: The users API from Narmi — 3 operation(s) for users.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The users API from Narmi — 3 operation(s) for users.
   name: Narmi users API
   slug: narmi-users-api
-- description: The whatismyip API from Narmi — 1 operation(s) for whatismyip.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The whatismyip API from Narmi — 1 operation(s) for whatismyip.
   name: Narmi whatismyip API
   slug: narmi-whatismyip-api
-- description: The wire recipients API from Narmi — 2 operation(s) for wire recipients.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The wire recipients API from Narmi — 2 operation(s) for wire recipients.
   name: Narmi wire recipients API
   slug: narmi-wire-recipients-api
-- description: The wires API from Narmi — 3 operation(s) for wires.
+- baseURL: https://api.sandbox.narmi.dev/
+  baseurl_source: declared
+  description: The wires API from Narmi — 3 operation(s) for wires.
   name: Narmi wires API
   slug: narmi-wires-api
 arazzos:
@@ -637,7 +725,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -647,7 +735,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 57.1
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -665,7 +753,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narmi/refs/heads/main/screenshots/narmi-2026-08-07T184633.png
 security:

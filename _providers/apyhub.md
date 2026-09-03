@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 506
   human_in_the_loop: 0
@@ -767,61 +767,99 @@ apis:
 - description: SE Ranking Data API | Website Audit - provides a comprehensive suite of tools to programmatically manage the full lifecycle of your technical SEO audits
   name: Audit Website SEO API
   slug: se-ranking-website-audit
-- description: The Artificial Intelligence API from ApyHub — 98 operation(s) for artificial intelligence.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Artificial Intelligence API from ApyHub — 98 operation(s) for artificial intelligence.
   name: ApyHub Artificial Intelligence API
   slug: apyhub-artificial-intelligence-api
-- description: The Audio Processing API from ApyHub — 23 operation(s) for audio processing.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Audio Processing API from ApyHub — 23 operation(s) for audio processing.
   name: ApyHub Audio Processing API
   slug: apyhub-audio-processing-api
-- description: The Communications API from ApyHub — 3 operation(s) for communications.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Communications API from ApyHub — 3 operation(s) for communications.
   name: ApyHub Communications API
   slug: apyhub-communications-api
-- description: The Data Extraction API from ApyHub — 50 operation(s) for data extraction.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Data Extraction API from ApyHub — 50 operation(s) for data extraction.
   name: ApyHub Data Extraction API
   slug: apyhub-data-extraction-api
-- description: The Data Validation API from ApyHub — 10 operation(s) for data validation.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Data Validation API from ApyHub — 10 operation(s) for data validation.
   name: ApyHub Data Validation API
   slug: apyhub-data-validation-api
-- description: The Developer Tools API from ApyHub — 120 operation(s) for developer tools.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Developer Tools API from ApyHub — 120 operation(s) for developer tools.
   name: ApyHub Developer Tools API
   slug: apyhub-developer-tools-api
-- description: The E-commerce Quick Tools API from ApyHub — 1 operation(s) for e-commerce quick tools.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The E-commerce Quick Tools API from ApyHub — 1 operation(s) for e-commerce quick tools.
   name: ApyHub E-commerce Quick Tools API
   slug: apyhub-e-commerce-quick-tools-api
-- description: The File Conversion API from ApyHub — 145 operation(s) for file conversion.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The File Conversion API from ApyHub — 145 operation(s) for file conversion.
   name: ApyHub File Conversion API
   slug: apyhub-file-conversion-api
-- description: The File Manipulation API from ApyHub — 40 operation(s) for file manipulation.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The File Manipulation API from ApyHub — 40 operation(s) for file manipulation.
   name: ApyHub File Manipulation API
   slug: apyhub-file-manipulation-api
-- description: The File Security API from ApyHub — 4 operation(s) for file security.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The File Security API from ApyHub — 4 operation(s) for file security.
   name: ApyHub File Security API
   slug: apyhub-file-security-api
-- description: The Finance API from ApyHub — 2 operation(s) for finance.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Finance API from ApyHub — 2 operation(s) for finance.
   name: ApyHub Finance API
   slug: apyhub-finance-api
-- description: The Geolocation API from ApyHub — 2 operation(s) for geolocation.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Geolocation API from ApyHub — 2 operation(s) for geolocation.
   name: ApyHub Geolocation API
   slug: apyhub-geolocation-api
-- description: The HR API from ApyHub — 10 operation(s) for hr.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The HR API from ApyHub — 10 operation(s) for hr.
   name: ApyHub HR API
   slug: apyhub-hr-api
-- description: The Marketing API from ApyHub — 10 operation(s) for marketing.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Marketing API from ApyHub — 10 operation(s) for marketing.
   name: ApyHub Marketing API
   slug: apyhub-marketing-api
-- description: The Security & Privacy API from ApyHub — 3 operation(s) for security & privacy.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Security & Privacy API from ApyHub — 3 operation(s) for security & privacy.
   name: ApyHub Security & Privacy API
   slug: apyhub-security-privacy-api
-- description: The SEO API from ApyHub — 7 operation(s) for seo.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The SEO API from ApyHub — 7 operation(s) for seo.
   name: ApyHub SEO API
   slug: apyhub-seo-api
-- description: The Smart Generation API from ApyHub — 6 operation(s) for smart generation.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Smart Generation API from ApyHub — 6 operation(s) for smart generation.
   name: ApyHub Smart Generation API
   slug: apyhub-smart-generation-api
-- description: The Standard Data API from ApyHub — 1 operation(s) for standard data.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Standard Data API from ApyHub — 1 operation(s) for standard data.
   name: ApyHub Standard Data API
   slug: apyhub-standard-data-api
-- description: The Uncategorized API from ApyHub — 14 operation(s) for uncategorized.
+- baseURL: https://api.apyhub.com
+  baseurl_source: spec
+  description: The Uncategorized API from ApyHub — 14 operation(s) for uncategorized.
   name: ApyHub Uncategorized API
   slug: apyhub-uncategorized-api
 artifact_total: 277
@@ -938,7 +976,7 @@ score:
     regime_id: energy_utilities
     score: 6.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/screenshots/apyhub-2026-06-20T172345.png
 security:

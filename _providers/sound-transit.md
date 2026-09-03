@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 20 operations
 api_count: 1
 apis:
-- description: Transit agency information and coverage
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Transit agency information and coverage
   name: Sound Transit Agencies API
   slug: sound-transit-agencies-api
-- description: Real-time and scheduled arrival/departure information
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Real-time and scheduled arrival/departure information
   name: Sound Transit Arrivals And Departures API
   slug: sound-transit-arrivals-and-departures-api
-- description: Route definitions and schedules
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Route definitions and schedules
   name: Sound Transit Routes API
   slug: sound-transit-routes-api
-- description: Stop locations and schedules
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Stop locations and schedules
   name: Sound Transit Stops API
   slug: sound-transit-stops-api
-- description: System utilities and configuration
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: System utilities and configuration
   name: Sound Transit System API
   slug: sound-transit-system-api
-- description: Trip details and active vehicle positions
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Trip details and active vehicle positions
   name: Sound Transit Trips API
   slug: sound-transit-trips-api
-- description: Active vehicle locations and assignments
+- baseURL: https://api.pugetsound.onebusaway.org/api/where
+  baseurl_source: declared
+  description: Active vehicle locations and assignments
   name: Sound Transit Vehicles API
   slug: sound-transit-vehicles-api
 artifact_total: 28
@@ -261,7 +275,7 @@ score:
     regime_id: government
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/screenshots/sound-transit-2026-06-20T194217.png
 security:

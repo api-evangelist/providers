@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,31 +42,49 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Per-agency profile, budget, and award data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Per-agency profile, budget, and award data.
   name: USAspending.gov Agency API
   slug: usaspending-agency-api
-- description: Advanced search and filtering across award and subaward spending.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Advanced search and filtering across award and subaward spending.
   name: USAspending.gov Awards Search API
   slug: usaspending-awards-search-api
-- description: Federal budget functional classification reference data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Federal budget functional classification reference data.
   name: USAspending.gov Budget Functions API
   slug: usaspending-budget-functions-api
-- description: Asynchronous bulk CSV/TSV/text export of filtered spending data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Asynchronous bulk CSV/TSV/text export of filtered spending data.
   name: USAspending.gov Bulk Download API
   slug: usaspending-bulk-download-api
-- description: Disaster and emergency (including COVID-19) supplemental funding data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Disaster and emergency (including COVID-19) supplemental funding data.
   name: USAspending.gov Disaster API
   slug: usaspending-disaster-api
-- description: Federal account and Treasury Account Symbol (TAS) data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Federal account and Treasury Account Symbol (TAS) data.
   name: USAspending.gov Federal Accounts API
   slug: usaspending-federal-accounts-api
-- description: Recipient (awardee) profile and search data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Recipient (awardee) profile and search data.
   name: USAspending.gov Recipient API
   slug: usaspending-recipient-api
-- description: Reference and typeahead/autocomplete lookup data.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Reference and typeahead/autocomplete lookup data.
   name: USAspending.gov References API
   slug: usaspending-references-api
-- description: Subaward (pass-through award) listings scoped to a prime award.
+- baseURL: https://api.usaspending.gov/api/v2
+  baseurl_source: declared
+  description: Subaward (pass-through award) listings scoped to a prime award.
   name: USAspending.gov Subawards API
   slug: usaspending-subawards-api
 artifact_total: 23
@@ -154,7 +172,7 @@ score:
   band: emerging
   composite: 25.6
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +201,9 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/screenshots/usaspending-2026-09-02T165227.png
 security:
 - kind: domain-security
   name: Usaspending Domain Security

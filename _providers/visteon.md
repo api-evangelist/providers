@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Phoenix Software Development Kit provides development tools for building automotive infotainment applications targeting Visteon hardware. Phoenix Studio 2.0 is a PC-based IDE that enables app deve
   name: Visteon Phoenix SDK
   slug: phoenix-sdk
-- description: Audio playback, volume, and source management
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Audio playback, volume, and source management
   name: Visteon Audio API
   slug: visteon-audio-api
-- description: Media library browsing, playback, and device management
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Media library browsing, playback, and device management
   name: Visteon Media API
   slug: visteon-media-api
-- description: Route planning, turn-by-turn guidance, and POI search
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Route planning, turn-by-turn guidance, and POI search
   name: Visteon Navigation API
   slug: visteon-navigation-api
-- description: Phone call management, contacts, and call history
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Phone call management, contacts, and call history
   name: Visteon Phone API
   slug: visteon-phone-api
-- description: Display and screen configuration for multi-screen cockpit
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Display and screen configuration for multi-screen cockpit
   name: Visteon Screen Management API
   slug: visteon-screen-management-api
-- description: Vehicle data including speed, fuel, HVAC, and door status
+- baseURL: https://developer.visteon.com/phoenix
+  baseurl_source: declared
+  description: Vehicle data including speed, fuel, HVAC, and door status
   name: Visteon Vehicle API
   slug: visteon-vehicle-api
 artifact_total: 29
@@ -260,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

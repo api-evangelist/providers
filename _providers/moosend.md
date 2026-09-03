@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Campaigns API from Moosend — 19 operation(s) for campaigns.
+- baseURL: https://api.moosend.com/v3
+  baseurl_source: declared
+  description: The Campaigns API from Moosend — 19 operation(s) for campaigns.
   name: Moosend Campaigns API
   slug: moosend-campaigns-api
-- description: The Mailing Lists API from Moosend — 9 operation(s) for mailing lists.
+- baseURL: https://api.moosend.com/v3
+  baseurl_source: declared
+  description: The Mailing Lists API from Moosend — 9 operation(s) for mailing lists.
   name: Moosend Mailing Lists API
   slug: moosend-mailing-lists-api
-- description: The Segments API from Moosend — 8 operation(s) for segments.
+- baseURL: https://api.moosend.com/v3
+  baseurl_source: declared
+  description: The Segments API from Moosend — 8 operation(s) for segments.
   name: Moosend Segments API
   slug: moosend-segments-api
-- description: The Subscribers API from Moosend — 11 operation(s) for subscribers.
+- baseURL: https://api.moosend.com/v3
+  baseurl_source: declared
+  description: The Subscribers API from Moosend — 11 operation(s) for subscribers.
   name: Moosend Subscribers API
   slug: moosend-subscribers-api
 artifact_total: 14
@@ -278,7 +286,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:

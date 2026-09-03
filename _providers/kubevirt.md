@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 32 operations · 18 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for managing DataSource resources. A DataSource references an existing DataVolume or VolumeSnapshot as a source for cloning into new DataVolumes.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing DataSource resources. A DataSource references an existing DataVolume or VolumeSnapshot as a source for cloning into new DataVolumes.
   name: KubeVirt DataSources API
   slug: kubevirt-datasources-api
-- description: Operations for managing DataVolume resources. A DataVolume is a managed PersistentVolumeClaim with an integrated import/clone pipeline that automatically populates the volume from a specified source.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing DataVolume resources. A DataVolume is a managed PersistentVolumeClaim with an integrated import/clone pipeline that automatically populates the volume from a specified source.
   name: KubeVirt DataVolumes API
   slug: kubevirt-datavolumes-api
-- description: Operations for managing StorageProfile resources. StorageProfiles describe the capabilities of a StorageClass and provide default clone and access mode strategies.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing StorageProfile resources. StorageProfiles describe the capabilities of a StorageClass and provide default clone and access mode strategies.
   name: KubeVirt StorageProfiles API
   slug: kubevirt-storageprofiles-api
-- description: Operations for managing live migration of VirtualMachineInstances from one node to another without downtime.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing live migration of VirtualMachineInstances from one node to another without downtime.
   name: KubeVirt VirtualMachineInstanceMigrations API
   slug: kubevirt-virtualmachineinstancemigrations-api
-- description: Operations for managing VirtualMachineInstance (VMI) resources. A VirtualMachineInstance represents a running virtual machine and tracks its actual state.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing VirtualMachineInstance (VMI) resources. A VirtualMachineInstance represents a running virtual machine and tracks its actual state.
   name: KubeVirt VirtualMachineInstances API
   slug: kubevirt-virtualmachineinstances-api
-- description: Operations for managing VirtualMachine (VM) resources. A VirtualMachine defines the desired state and configuration of a virtual machine, providing lifecycle management and persistence across restarts
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Operations for managing VirtualMachine (VM) resources. A VirtualMachine defines the desired state and configuration of a virtual machine, providing lifecycle management and persistence across restarts
   name: KubeVirt VirtualMachines API
   slug: kubevirt-virtualmachines-api
-- description: Subresource endpoints for accessing VM consoles via VNC, serial console, and USB redirection.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Subresource endpoints for accessing VM consoles via VNC, serial console, and USB redirection.
   name: KubeVirt VMConsole API
   slug: kubevirt-vmconsole-api
-- description: Subresource operations for VM lifecycle management including start, stop, pause, unpause, restart, migrate, and adding/removing volumes.
+- baseURL_template: https://{kubernetes-api-server}
+  baseurl_source: spec_template
+  description: Subresource operations for VM lifecycle management including start, stop, pause, unpause, restart, migrate, and adding/removing volumes.
   name: KubeVirt VMLifecycle API
   slug: kubevirt-vmlifecycle-api
 artifact_total: 27
@@ -245,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/screenshots/kubevirt-2026-06-20T184209.png
 security:

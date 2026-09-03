@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: Create, continue, and inspect AI-agent-handled support conversations.
+- baseURL: https://api.lorikeetcx.ai/v1
+  baseurl_source: declared
+  description: Create, continue, and inspect AI-agent-handled support conversations.
   name: Lorikeet Conversations API
   slug: lorikeet-conversations-api
-- description: Ingest and manage knowledge sources the agent reasons over.
+- baseURL: https://api.lorikeetcx.ai/v1
+  baseurl_source: declared
+  description: Ingest and manage knowledge sources the agent reasons over.
   name: Lorikeet Knowledge API
   slug: lorikeet-knowledge-api
-- description: Post and list messages within a conversation.
+- baseURL: https://api.lorikeetcx.ai/v1
+  baseurl_source: declared
+  description: Post and list messages within a conversation.
   name: Lorikeet Messages API
   slug: lorikeet-messages-api
-- description: Manage webhook subscriptions and receive Lorikeet events.
+- baseURL: https://api.lorikeetcx.ai/v1
+  baseurl_source: declared
+  description: Manage webhook subscriptions and receive Lorikeet events.
   name: Lorikeet Webhooks API
   slug: lorikeet-webhooks-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lorikeet/refs/heads/main/screenshots/lorikeet-2026-07-25T225543.png
 security:

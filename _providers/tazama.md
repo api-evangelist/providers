@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Administrative API for managing and configuring the Tazama platform. Supports configuration of rule processors, typology definitions, network maps, and system administration. Swagger documentation ava
   name: Tazama Admin Service API
   slug: admin-service
-- description: Service health check operations
+- baseURL: http://localhost:5000
+  baseurl_source: declared
+  description: Service health check operations
   name: Tazama Health API
   slug: tazama-health-api
-- description: ISO 20022 transaction message evaluation for fraud and AML detection
+- baseURL: http://localhost:5000
+  baseurl_source: declared
+  description: ISO 20022 transaction message evaluation for fraud and AML detection
   name: Tazama Transaction Evaluation API
   slug: tazama-transaction-evaluation-api
 artifact_total: 21
@@ -250,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tazama/refs/heads/main/screenshots/tazama-2026-06-20T194939.png
 security:

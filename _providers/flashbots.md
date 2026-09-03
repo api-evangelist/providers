@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,7 +62,9 @@ apis:
 - description: 'Single Unifying Auction for Value Expression - an Ethereum-native, MEV-aware, privacy-first encrypted mempool and decentralized block building network. Provides a testnet, SDKs, and reference clients '
   name: SUAVE
   slug: suave
-- description: The Flashbots Auction & MEV Share Relay (JSON RPC) API from Flashbots — 1 operation(s) for flashbots auction & mev share relay (json rpc).
+- baseURL: https://relay.flashbots.net
+  baseurl_source: declared
+  description: The Flashbots Auction & MEV Share Relay (JSON RPC) API from Flashbots — 1 operation(s) for flashbots auction & mev share relay (json rpc).
   name: Flashbots Flashbots Auction & MEV Share Relay (JSON RPC) API
   slug: flashbots-flashbots-auction-mev-share-relay-json-rpc-api
 artifact_total: 16
@@ -196,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flashbots/refs/heads/main/screenshots/flashbots-2026-06-20T181301.png
 security:

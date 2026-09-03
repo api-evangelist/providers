@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,94 +34,152 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Ad-hoc Search interface for complex queries
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Ad-hoc Search interface for complex queries
   name: Spyderbat Adhoc Search API
   slug: spyderbat-adhocsearch-api
-- description: Agent Action defines actions that can be executed on remote agents in response to events.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Agent Action defines actions that can be executed on remote agents in response to events.
   name: Spyderbat Agent Action API
   slug: spyderbat-agent-action-api
-- description: Agents represent a sepecific agent which collects data for one or more sources.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Agents represent a sepecific agent which collects data for one or more sources.
   name: Spyderbat Agent API
   slug: spyderbat-agent-api
-- description: Agents registrations are used to authorize and group agents by the registration.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Agents registrations are used to authorize and group agents by the registration.
   name: Spyderbat Agent Registration API
   slug: spyderbat-agent-registration-api
-- description: AgentWork API is intended for use by the UI to convey work & configuration to agents, this data can be specific to an agent or gloal to an organization. An example use case is configuration data for a
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: AgentWork API is intended for use by the UI to convey work & configuration to agents, this data can be specific to an agent or gloal to an organization. An example use case is configuration data for a
   name: Spyderbat Agent Work API
   slug: spyderbat-agentwork-api
-- description: An API to allow management of the organizations analytics policies. These will be used throughout the system to take various actions.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow management of the organizations analytics policies. These will be used throughout the system to take various actions.
   name: Spyderbat Analytics Policy API
   slug: spyderbat-analyticspolicy-api
-- description: An API to allow the management of analytics rulesets. Analytics rulesets are used within some types of analytics rulesets.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of analytics rulesets. Analytics rulesets are used within some types of analytics rulesets.
   name: Spyderbat Analytics Ruleset API
   slug: spyderbat-analyticsruleset-api
-- description: Access to raw agent archive data.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Access to raw agent archive data.
   name: Spyderbat Archive API
   slug: spyderbat-archive-api
-- description: Cases management API
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Cases management API
   name: Spyderbat Cases API
   slug: spyderbat-cases-api
-- description: Cluster represents known clusters, such as Kubernetes clusters running an appropriate agent.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Cluster represents known clusters, such as Kubernetes clusters running an appropriate agent.
   name: Spyderbat Cluster API
   slug: spyderbat-cluster-api
-- description: An API to allow the management of custom flags. Custom flags allow users to define custom detections within Spyderbat.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of custom flags. Custom flags allow users to define custom detections within Spyderbat.
   name: Spyderbat Custom Flag API
   slug: spyderbat-customflag-api
-- description: Each source may send fingerprint data which is stored and processed by the system.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Each source may send fingerprint data which is stored and processed by the system.
   name: Spyderbat Fingerprint Data API
   slug: spyderbat-fingerprintdata-api
-- description: An API to allow retrieval of observations for a SIEM.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow retrieval of observations for a SIEM.
   name: Spyderbat Forwarded Events API
   slug: spyderbat-forwardedevents-api
-- description: Investigations can be created by users as a way to have an investigation into a potential attack, allowing users to associate data from one or more sources into a single investigation. An investigatio
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Investigations can be created by users as a way to have an investigation into a potential attack, allowing users to associate data from one or more sources into a single investigation. An investigatio
   name: Spyderbat Investigation API
   slug: spyderbat-investigation-api
-- description: An API for retrieving, enabling, and disabling notification settings.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API for retrieving, enabling, and disabling notification settings.
   name: Spyderbat Notifications API
   slug: spyderbat-notifications-api
-- description: An API for creating, retrieving, updating, and deleting agent health notification settings.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API for creating, retrieving, updating, and deleting agent health notification settings.
   name: Spyderbat Notifications Agent Health API
   slug: spyderbat-notificationsagenthealth-api
-- description: An API to allow the management of notification targets. Notification targets allow users to define where notifications are sent.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of notification targets. Notification targets allow users to define where notifications are sent.
   name: Spyderbat Notification Target API
   slug: spyderbat-notificationtarget-api
-- description: An API to allow the management of notification templates. Notification templates allow users to define custom notifications within Spyderbat.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of notification templates. Notification templates allow users to define custom notifications within Spyderbat.
   name: Spyderbat Notification Template API
   slug: spyderbat-notificationtemplate-api
-- description: Organizations hold resources & data associated with an organization, users must be associated via roles with an organization to have permissions to interact with the organization. Each user my have mu
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Organizations hold resources & data associated with an organization, users must be associated via roles with an organization to have permissions to interact with the organization. Each user my have mu
   name: Spyderbat Org API
   slug: spyderbat-org-api
-- description: Organizational types specify both limits and defaults for organizations, they are used by the system to determine the resource utilization for an organization and associated settings.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Organizational types specify both limits and defaults for organizations, they are used by the system to determine the resource utilization for an organization and associated settings.
   name: Spyderbat Org Type API
   slug: spyderbat-orgtype-api
-- description: '# Introduction This RBAC model is based off of Amazon''s model with some simplifications and generic assumptions A user has some number of roles on some number of organizations, each role defines some '
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: '# Introduction This RBAC model is based off of Amazon''s model with some simplifications and generic assumptions A user has some number of roles on some number of organizations, each role defines some '
   name: Spyderbat RBAC API
   slug: spyderbat-rbac-api
-- description: An API to allow the management of saved queries. Saved queries are used to quickly run Athena searches.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of saved queries. Saved queries are used to quickly run Athena searches.
   name: Spyderbat Saved Query API
   slug: spyderbat-savedquery-api
-- description: An API to allow the management of search sets. Search sets can be used to augment queries in search.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to allow the management of search sets. Search sets can be used to augment queries in search.
   name: Spyderbat Search Set API
   slug: spyderbat-searchset-api
-- description: Sources are used to represent a container for source of security data, such as a machine, or other potential source. The source itself has data associated with the source, see the 'Source Data' APIs f
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Sources are used to represent a container for source of security data, such as a machine, or other potential source. The source itself has data associated with the source, see the 'Source Data' APIs f
   name: Spyderbat Source API
   slug: spyderbat-source-api
-- description: 'Each source may send data which is stored and processed by the system. So for example a machine will send data in a raw form which is then analyzed, both the raw machine data and the analyzed data is '
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: 'Each source may send data which is stored and processed by the system. So for example a machine will send data in a raw form which is then analyzed, both the raw machine data and the analyzed data is '
   name: Spyderbat Source Data API
   slug: spyderbat-sourcedata-api
-- description: A way to execute specific Spyctl logic via the API.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: A way to execute specific Spyctl logic via the API.
   name: Spyderbat Spyctl API
   slug: spyderbat-spyctl-api
-- description: Security Token Service endpoints. Trusted services assume a role on a single org and receive a short-lived, org-locked JWT for downstream consumers. The caller's authority to assume is gated by the st
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: Security Token Service endpoints. Trusted services assume a role on a single org and receive a short-lived, org-locked JWT for downstream consumers. The caller's authority to assume is gated by the st
   name: Spyderbat STS API
   slug: spyderbat-sts-api
-- description: An API that provides direct access to Spyderbat's tuning features.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API that provides direct access to Spyderbat's tuning features.
   name: Spyderbat Suppress API
   slug: spyderbat-suppress-api
-- description: An API to manage the watchlist for files within an organization.
+- baseURL: https://api.prod.spyderbat.com/api/v1
+  baseurl_source: declared
+  description: An API to manage the watchlist for files within an organization.
   name: Spyderbat Watchlist API
   slug: spyderbat-watchlist-api
 artifact_total: 35
@@ -264,11 +333,11 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -278,7 +347,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.1
+  previous_composite: 41.0
   provenance:
     conformance: derived
     contracts:
@@ -289,8 +358,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spyderbat/refs/heads/main/screenshots/spyderbat-2026-09-02T160632.png
 security:
 - kind: authentication
   name: Spyderbat Authentication

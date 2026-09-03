@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 51 operations · 8 acting
 api_count: 1
 apis:
-- description: OAuth2 password-grant token issuance.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: OAuth2 password-grant token issuance.
   name: PetExec Authentication API
   slug: petexec-authentication-api
-- description: Boarding reservations, packages, and services.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Boarding reservations, packages, and services.
   name: PetExec Boarding API
   slug: petexec-boarding-api
-- description: Company-wide and per-owner reservation calendars by date range.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Company-wide and per-owner reservation calendars by date range.
   name: PetExec Calendar API
   slug: petexec-calendar-api
-- description: Company locations, employees, lead sources, and preferences.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Company locations, employees, lead sources, and preferences.
   name: PetExec Company API
   slug: petexec-company-api
-- description: Owner stored payment cards.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Owner stored payment cards.
   name: PetExec Credit Cards API
   slug: petexec-credit-cards-api
-- description: Daycare reservations and services.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Daycare reservations and services.
   name: PetExec Daycare API
   slug: petexec-daycare-api
-- description: Grooming reservations, groomers, and services.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Grooming reservations, groomers, and services.
   name: PetExec Grooming API
   slug: petexec-grooming-api
-- description: Owner (pet parent) account records and search.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Owner (pet parent) account records and search.
   name: PetExec Owners API
   slug: petexec-owners-api
-- description: Pet profiles, pet types, breeds, and vets.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Pet profiles, pet types, breeds, and vets.
   name: PetExec Pets API
   slug: petexec-pets-api
-- description: The authenticated user's own profile and portal menu.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: The authenticated user's own profile and portal menu.
   name: PetExec Profile API
   slug: petexec-profile-api
-- description: Owner purchase/transaction history.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Owner purchase/transaction history.
   name: PetExec Purchase History API
   slug: petexec-purchase-history-api
-- description: Billing and statistics reports.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Billing and statistics reports.
   name: PetExec Reports API
   slug: petexec-reports-api
-- description: Scheduled-service reservations, types, and services.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Scheduled-service reservations, types, and services.
   name: PetExec Scheduled Services API
   slug: petexec-scheduled-services-api
-- description: Pet vaccination (shot) records.
+- baseURL: https://secure.petexec.net/api
+  baseurl_source: declared
+  description: Pet vaccination (shot) records.
   name: PetExec Vaccinations API
   slug: petexec-vaccinations-api
 artifact_total: 36
@@ -206,7 +234,7 @@ score:
   band: thin
   composite: 38.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -229,8 +257,9 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/screenshots/petexec-2026-09-02T151113.png
 security:
 - kind: authentication
   name: Petexec Authentication

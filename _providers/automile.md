@@ -33,241 +33,397 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The ClientApi API from Automile — 1 operation(s) for clientapi.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientApi API from Automile — 1 operation(s) for clientapi.
   name: Automile ClientApi API
   slug: automile-clientapi-api
-- description: The ClientApiAuthorizations API from Automile — 2 operation(s) for clientapiauthorizations.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientApiAuthorizations API from Automile — 2 operation(s) for clientapiauthorizations.
   name: Automile ClientApiAuthorizations API
   slug: automile-clientapiauthorizations-api
-- description: The ClientContracts API from Automile — 3 operation(s) for clientcontracts.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientContracts API from Automile — 3 operation(s) for clientcontracts.
   name: Automile ClientContracts API
   slug: automile-clientcontracts-api
-- description: The ClientCustom API from Automile — 10 operation(s) for clientcustom.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientCustom API from Automile — 10 operation(s) for clientcustom.
   name: Automile ClientCustom API
   slug: automile-clientcustom-api
-- description: The ClientOnboarding API from Automile — 2 operation(s) for clientonboarding.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientOnboarding API from Automile — 2 operation(s) for clientonboarding.
   name: Automile ClientOnboarding API
   slug: automile-clientonboarding-api
-- description: The ClientOrder API from Automile — 2 operation(s) for clientorder.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientOrder API from Automile — 2 operation(s) for clientorder.
   name: Automile ClientOrder API
   slug: automile-clientorder-api
-- description: The ClientTextMessage API from Automile — 2 operation(s) for clienttextmessage.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientTextMessage API from Automile — 2 operation(s) for clienttextmessage.
   name: Automile ClientTextMessage API
   slug: automile-clienttextmessage-api
-- description: The ClientUsers API from Automile — 2 operation(s) for clientusers.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ClientUsers API from Automile — 2 operation(s) for clientusers.
   name: Automile ClientUsers API
   slug: automile-clientusers-api
-- description: The Echo API from Automile — 1 operation(s) for echo.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Echo API from Automile — 1 operation(s) for echo.
   name: Automile Echo API
   slug: automile-echo-api
-- description: The Home API from Automile — 2 operation(s) for home.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Home API from Automile — 2 operation(s) for home.
   name: Automile Home API
   slug: automile-home-api
-- description: The Login API from Automile — 1 operation(s) for login.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Login API from Automile — 1 operation(s) for login.
   name: Automile Login API
   slug: automile-login-api
-- description: The OAuth API from Automile — 1 operation(s) for oauth.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The OAuth API from Automile — 1 operation(s) for oauth.
   name: Automile OAuth API
   slug: automile-oauth-api
-- description: The Order API from Automile — 1 operation(s) for order.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Order API from Automile — 1 operation(s) for order.
   name: Automile Order API
   slug: automile-order-api
-- description: The Phone API from Automile — 2 operation(s) for phone.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The Phone API from Automile — 2 operation(s) for phone.
   name: Automile Phone API
   slug: automile-phone-api
-- description: The ResourceOwnerCompany API from Automile — 2 operation(s) for resourceownercompany.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerCompany API from Automile — 2 operation(s) for resourceownercompany.
   name: Automile ResourceOwnerCompany API
   slug: automile-resourceownercompany-api
-- description: The ResourceOwnerCompanyContacts API from Automile — 4 operation(s) for resourceownercompanycontacts.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerCompanyContacts API from Automile — 4 operation(s) for resourceownercompanycontacts.
   name: Automile ResourceOwnerCompanyContacts API
   slug: automile-resourceownercompanycontacts-api
-- description: The ResourceOwnerCompanyVehicles API from Automile — 4 operation(s) for resourceownercompanyvehicles.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerCompanyVehicles API from Automile — 4 operation(s) for resourceownercompanyvehicles.
   name: Automile ResourceOwnerCompanyVehicles API
   slug: automile-resourceownercompanyvehicles-api
-- description: The ResourceOwnerContact API from Automile — 5 operation(s) for resourceownercontact.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContact API from Automile — 5 operation(s) for resourceownercontact.
   name: Automile ResourceOwnerContact API
   slug: automile-resourceownercontact-api
-- description: The ResourceOwnerContact2 API from Automile — 12 operation(s) for resourceownercontact2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContact2 API from Automile — 12 operation(s) for resourceownercontact2.
   name: Automile ResourceOwnerContact2 API
   slug: automile-resourceownercontact2-api
-- description: The ResourceOwnerContact3 API from Automile — 12 operation(s) for resourceownercontact3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContact3 API from Automile — 12 operation(s) for resourceownercontact3.
   name: Automile ResourceOwnerContact3 API
   slug: automile-resourceownercontact3-api
-- description: The ResourceOwnerContactSetting API from Automile — 2 operation(s) for resourceownercontactsetting.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContactSetting API from Automile — 2 operation(s) for resourceownercontactsetting.
   name: Automile ResourceOwnerContactSetting API
   slug: automile-resourceownercontactsetting-api
-- description: The ResourceOwnerContactVehicle API from Automile — 4 operation(s) for resourceownercontactvehicle.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContactVehicle API from Automile — 4 operation(s) for resourceownercontactvehicle.
   name: Automile ResourceOwnerContactVehicle API
   slug: automile-resourceownercontactvehicle-api
-- description: The ResourceOwnerContent API from Automile — 2 operation(s) for resourceownercontent.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerContent API from Automile — 2 operation(s) for resourceownercontent.
   name: Automile ResourceOwnerContent API
   slug: automile-resourceownercontent-api
-- description: The ResourceOwnerExpenseReport3V2 API from Automile — 5 operation(s) for resourceownerexpensereport3v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReport3V2 API from Automile — 5 operation(s) for resourceownerexpensereport3v2.
   name: Automile ResourceOwnerExpenseReport3V2 API
   slug: automile-resourceownerexpensereport3v2-api
-- description: The ResourceOwnerExpenseReportRow3V2 API from Automile — 2 operation(s) for resourceownerexpensereportrow3v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReportRow3V2 API from Automile — 2 operation(s) for resourceownerexpensereportrow3v2.
   name: Automile ResourceOwnerExpenseReportRow3V2 API
   slug: automile-resourceownerexpensereportrow3v2-api
-- description: The ResourceOwnerExpenseReportRowContent3V2 API from Automile — 2 operation(s) for resourceownerexpensereportrowcontent3v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReportRowContent3V2 API from Automile — 2 operation(s) for resourceownerexpensereportrowcontent3v2.
   name: Automile ResourceOwnerExpenseReportRowContent3V2 API
   slug: automile-resourceownerexpensereportrowcontent3v2-api
-- description: The ResourceOwnerExpenseReportRowContentV2 API from Automile — 2 operation(s) for resourceownerexpensereportrowcontentv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReportRowContentV2 API from Automile — 2 operation(s) for resourceownerexpensereportrowcontentv2.
   name: Automile ResourceOwnerExpenseReportRowContentV2 API
   slug: automile-resourceownerexpensereportrowcontentv2-api
-- description: The ResourceOwnerExpenseReportRowV2 API from Automile — 2 operation(s) for resourceownerexpensereportrowv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReportRowV2 API from Automile — 2 operation(s) for resourceownerexpensereportrowv2.
   name: Automile ResourceOwnerExpenseReportRowV2 API
   slug: automile-resourceownerexpensereportrowv2-api
-- description: The ResourceOwnerExpenseReportV2 API from Automile — 5 operation(s) for resourceownerexpensereportv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerExpenseReportV2 API from Automile — 5 operation(s) for resourceownerexpensereportv2.
   name: Automile ResourceOwnerExpenseReportV2 API
   slug: automile-resourceownerexpensereportv2-api
-- description: The ResourceOwnerGeofence API from Automile — 2 operation(s) for resourceownergeofence.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerGeofence API from Automile — 2 operation(s) for resourceownergeofence.
   name: Automile ResourceOwnerGeofence API
   slug: automile-resourceownergeofence-api
-- description: The ResourceOwnerGeofence2 API from Automile — 2 operation(s) for resourceownergeofence2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerGeofence2 API from Automile — 2 operation(s) for resourceownergeofence2.
   name: Automile ResourceOwnerGeofence2 API
   slug: automile-resourceownergeofence2-api
-- description: The ResourceOwnerGeofence3 API from Automile — 2 operation(s) for resourceownergeofence3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerGeofence3 API from Automile — 2 operation(s) for resourceownergeofence3.
   name: Automile ResourceOwnerGeofence3 API
   slug: automile-resourceownergeofence3-api
-- description: The ResourceOwnerHoursOfService API from Automile — 8 operation(s) for resourceownerhoursofservice.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerHoursOfService API from Automile — 8 operation(s) for resourceownerhoursofservice.
   name: Automile ResourceOwnerHoursOfService API
   slug: automile-resourceownerhoursofservice-api
-- description: The ResourceOwnerHoursOfServiceViolations API from Automile — 1 operation(s) for resourceownerhoursofserviceviolations.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerHoursOfServiceViolations API from Automile — 1 operation(s) for resourceownerhoursofserviceviolations.
   name: Automile ResourceOwnerHoursOfServiceViolations API
   slug: automile-resourceownerhoursofserviceviolations-api
-- description: The ResourceOwnerIMEIConfig API from Automile — 2 operation(s) for resourceownerimeiconfig.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerIMEIConfig API from Automile — 2 operation(s) for resourceownerimeiconfig.
   name: Automile ResourceOwnerIMEIConfig API
   slug: automile-resourceownerimeiconfig-api
-- description: The ResourceOwnerIMEIConfig3 API from Automile — 2 operation(s) for resourceownerimeiconfig3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerIMEIConfig3 API from Automile — 2 operation(s) for resourceownerimeiconfig3.
   name: Automile ResourceOwnerIMEIConfig3 API
   slug: automile-resourceownerimeiconfig3-api
-- description: The ResourceOwnerIMEIEvent API from Automile — 4 operation(s) for resourceownerimeievent.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerIMEIEvent API from Automile — 4 operation(s) for resourceownerimeievent.
   name: Automile ResourceOwnerIMEIEvent API
   slug: automile-resourceownerimeievent-api
-- description: The ResourceOwnerIntegration API from Automile — 11 operation(s) for resourceownerintegration.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerIntegration API from Automile — 11 operation(s) for resourceownerintegration.
   name: Automile ResourceOwnerIntegration API
   slug: automile-resourceownerintegration-api
-- description: The ResourceOwnerLead API from Automile — 1 operation(s) for resourceownerlead.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerLead API from Automile — 1 operation(s) for resourceownerlead.
   name: Automile ResourceOwnerLead API
   slug: automile-resourceownerlead-api
-- description: The ResourceOwnerOrganization API from Automile — 2 operation(s) for resourceownerorganization.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerOrganization API from Automile — 2 operation(s) for resourceownerorganization.
   name: Automile ResourceOwnerOrganization API
   slug: automile-resourceownerorganization-api
-- description: The ResourceOwnerPlace API from Automile — 2 operation(s) for resourceownerplace.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerPlace API from Automile — 2 operation(s) for resourceownerplace.
   name: Automile ResourceOwnerPlace API
   slug: automile-resourceownerplace-api
-- description: The ResourceOwnerPlace2 API from Automile — 2 operation(s) for resourceownerplace2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerPlace2 API from Automile — 2 operation(s) for resourceownerplace2.
   name: Automile ResourceOwnerPlace2 API
   slug: automile-resourceownerplace2-api
-- description: The ResourceOwnerPlace3 API from Automile — 2 operation(s) for resourceownerplace3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerPlace3 API from Automile — 2 operation(s) for resourceownerplace3.
   name: Automile ResourceOwnerPlace3 API
   slug: automile-resourceownerplace3-api
-- description: The ResourceOwnerPublishSubscribe API from Automile — 10 operation(s) for resourceownerpublishsubscribe.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerPublishSubscribe API from Automile — 10 operation(s) for resourceownerpublishsubscribe.
   name: Automile ResourceOwnerPublishSubscribe API
   slug: automile-resourceownerpublishsubscribe-api
-- description: The ResourceOwnerQuote API from Automile — 4 operation(s) for resourceownerquote.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerQuote API from Automile — 4 operation(s) for resourceownerquote.
   name: Automile ResourceOwnerQuote API
   slug: automile-resourceownerquote-api
-- description: The ResourceOwnerRegisteredTollV2 API from Automile — 4 operation(s) for resourceownerregisteredtollv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerRegisteredTollV2 API from Automile — 4 operation(s) for resourceownerregisteredtollv2.
   name: Automile ResourceOwnerRegisteredTollV2 API
   slug: automile-resourceownerregisteredtollv2-api
-- description: The ResourceOwnerReports API from Automile — 10 operation(s) for resourceownerreports.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerReports API from Automile — 10 operation(s) for resourceownerreports.
   name: Automile ResourceOwnerReports API
   slug: automile-resourceownerreports-api
-- description: The ResourceOwnerReports3 API from Automile — 6 operation(s) for resourceownerreports3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerReports3 API from Automile — 6 operation(s) for resourceownerreports3.
   name: Automile ResourceOwnerReports3 API
   slug: automile-resourceownerreports3-api
-- description: The ResourceOwnerRoutePlanner API from Automile — 8 operation(s) for resourceownerrouteplanner.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerRoutePlanner API from Automile — 8 operation(s) for resourceownerrouteplanner.
   name: Automile ResourceOwnerRoutePlanner API
   slug: automile-resourceownerrouteplanner-api
-- description: The ResourceOwnerTask API from Automile — 3 operation(s) for resourceownertask.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTask API from Automile — 3 operation(s) for resourceownertask.
   name: Automile ResourceOwnerTask API
   slug: automile-resourceownertask-api
-- description: The ResourceOwnerTask3 API from Automile — 3 operation(s) for resourceownertask3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTask3 API from Automile — 3 operation(s) for resourceownertask3.
   name: Automile ResourceOwnerTask3 API
   slug: automile-resourceownertask3-api
-- description: The ResourceOwnerTaskMessage API from Automile — 2 operation(s) for resourceownertaskmessage.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTaskMessage API from Automile — 2 operation(s) for resourceownertaskmessage.
   name: Automile ResourceOwnerTaskMessage API
   slug: automile-resourceownertaskmessage-api
-- description: The ResourceOwnerTaskMessage3 API from Automile — 2 operation(s) for resourceownertaskmessage3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTaskMessage3 API from Automile — 2 operation(s) for resourceownertaskmessage3.
   name: Automile ResourceOwnerTaskMessage3 API
   slug: automile-resourceownertaskmessage3-api
-- description: The ResourceOwnerTrackedAsset API from Automile — 14 operation(s) for resourceownertrackedasset.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTrackedAsset API from Automile — 14 operation(s) for resourceownertrackedasset.
   name: Automile ResourceOwnerTrackedAsset API
   slug: automile-resourceownertrackedasset-api
-- description: The ResourceOwnerTriggerMessages API from Automile — 2 operation(s) for resourceownertriggermessages.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTriggerMessages API from Automile — 2 operation(s) for resourceownertriggermessages.
   name: Automile ResourceOwnerTriggerMessages API
   slug: automile-resourceownertriggermessages-api
-- description: The ResourceOwnerTriggers API from Automile — 6 operation(s) for resourceownertriggers.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTriggers API from Automile — 6 operation(s) for resourceownertriggers.
   name: Automile ResourceOwnerTriggers API
   slug: automile-resourceownertriggers-api
-- description: The ResourceOwnerTriggers3 API from Automile — 5 operation(s) for resourceownertriggers3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTriggers3 API from Automile — 5 operation(s) for resourceownertriggers3.
   name: Automile ResourceOwnerTriggers3 API
   slug: automile-resourceownertriggers3-api
-- description: The ResourceOwnerTrip3V2 API from Automile — 15 operation(s) for resourceownertrip3v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTrip3V2 API from Automile — 15 operation(s) for resourceownertrip3v2.
   name: Automile ResourceOwnerTrip3V2 API
   slug: automile-resourceownertrip3v2-api
-- description: The ResourceOwnerTripApprovalV2 API from Automile — 6 operation(s) for resourceownertripapprovalv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTripApprovalV2 API from Automile — 6 operation(s) for resourceownertripapprovalv2.
   name: Automile ResourceOwnerTripApprovalV2 API
   slug: automile-resourceownertripapprovalv2-api
-- description: The ResourceOwnerTripMergeV2 API from Automile — 3 operation(s) for resourceownertripmergev2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTripMergeV2 API from Automile — 3 operation(s) for resourceownertripmergev2.
   name: Automile ResourceOwnerTripMergeV2 API
   slug: automile-resourceownertripmergev2-api
-- description: The ResourceOwnerTripScore API from Automile — 4 operation(s) for resourceownertripscore.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTripScore API from Automile — 4 operation(s) for resourceownertripscore.
   name: Automile ResourceOwnerTripScore API
   slug: automile-resourceownertripscore-api
-- description: The ResourceOwnerTripV2 API from Automile — 17 operation(s) for resourceownertripv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerTripV2 API from Automile — 17 operation(s) for resourceownertripv2.
   name: Automile ResourceOwnerTripV2 API
   slug: automile-resourceownertripv2-api
-- description: The ResourceOwnerUser API from Automile — 6 operation(s) for resourceowneruser.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerUser API from Automile — 6 operation(s) for resourceowneruser.
   name: Automile ResourceOwnerUser API
   slug: automile-resourceowneruser-api
-- description: The ResourceOwnerUserDevice API from Automile — 4 operation(s) for resourceowneruserdevice.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerUserDevice API from Automile — 4 operation(s) for resourceowneruserdevice.
   name: Automile ResourceOwnerUserDevice API
   slug: automile-resourceowneruserdevice-api
-- description: The ResourceOwnerVehicle2V2 API from Automile — 9 operation(s) for resourceownervehicle2v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicle2V2 API from Automile — 9 operation(s) for resourceownervehicle2v2.
   name: Automile ResourceOwnerVehicle2V2 API
   slug: automile-resourceownervehicle2v2-api
-- description: The ResourceOwnerVehicle3V2 API from Automile — 8 operation(s) for resourceownervehicle3v2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicle3V2 API from Automile — 8 operation(s) for resourceownervehicle3v2.
   name: Automile ResourceOwnerVehicle3V2 API
   slug: automile-resourceownervehicle3v2-api
-- description: The ResourceOwnerVehicleDefectComments API from Automile — 2 operation(s) for resourceownervehicledefectcomments.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleDefectComments API from Automile — 2 operation(s) for resourceownervehicledefectcomments.
   name: Automile ResourceOwnerVehicleDefectComments API
   slug: automile-resourceownervehicledefectcomments-api
-- description: The ResourceOwnerVehicleDefectComments3 API from Automile — 2 operation(s) for resourceownervehicledefectcomments3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleDefectComments3 API from Automile — 2 operation(s) for resourceownervehicledefectcomments3.
   name: Automile ResourceOwnerVehicleDefectComments3 API
   slug: automile-resourceownervehicledefectcomments3-api
-- description: The ResourceOwnerVehicleDefectTypes API from Automile — 1 operation(s) for resourceownervehicledefecttypes.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleDefectTypes API from Automile — 1 operation(s) for resourceownervehicledefecttypes.
   name: Automile ResourceOwnerVehicleDefectTypes API
   slug: automile-resourceownervehicledefecttypes-api
-- description: The ResourceOwnerVehicleGeofence API from Automile — 2 operation(s) for resourceownervehiclegeofence.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleGeofence API from Automile — 2 operation(s) for resourceownervehiclegeofence.
   name: Automile ResourceOwnerVehicleGeofence API
   slug: automile-resourceownervehiclegeofence-api
-- description: The ResourceOwnerVehicleHealth API from Automile — 2 operation(s) for resourceownervehiclehealth.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleHealth API from Automile — 2 operation(s) for resourceownervehiclehealth.
   name: Automile ResourceOwnerVehicleHealth API
   slug: automile-resourceownervehiclehealth-api
-- description: The ResourceOwnerVehicleHealth3 API from Automile — 2 operation(s) for resourceownervehiclehealth3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleHealth3 API from Automile — 2 operation(s) for resourceownervehiclehealth3.
   name: Automile ResourceOwnerVehicleHealth3 API
   slug: automile-resourceownervehiclehealth3-api
-- description: The ResourceOwnerVehicleInspection API from Automile — 3 operation(s) for resourceownervehicleinspection.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleInspection API from Automile — 3 operation(s) for resourceownervehicleinspection.
   name: Automile ResourceOwnerVehicleInspection API
   slug: automile-resourceownervehicleinspection-api
-- description: The ResourceOwnerVehicleInspection3 API from Automile — 3 operation(s) for resourceownervehicleinspection3.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleInspection3 API from Automile — 3 operation(s) for resourceownervehicleinspection3.
   name: Automile ResourceOwnerVehicleInspection3 API
   slug: automile-resourceownervehicleinspection3-api
-- description: The ResourceOwnerVehicleOdometerV2 API from Automile — 3 operation(s) for resourceownervehicleodometerv2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleOdometerV2 API from Automile — 3 operation(s) for resourceownervehicleodometerv2.
   name: Automile ResourceOwnerVehicleOdometerV2 API
   slug: automile-resourceownervehicleodometerv2-api
-- description: The ResourceOwnerVehiclePlace API from Automile — 2 operation(s) for resourceownervehicleplace.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehiclePlace API from Automile — 2 operation(s) for resourceownervehicleplace.
   name: Automile ResourceOwnerVehiclePlace API
   slug: automile-resourceownervehicleplace-api
-- description: The ResourceOwnerVehicleV2 API from Automile — 3 operation(s) for resourceownervehiclev2.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerVehicleV2 API from Automile — 3 operation(s) for resourceownervehiclev2.
   name: Automile ResourceOwnerVehicleV2 API
   slug: automile-resourceownervehiclev2-api
-- description: The ResourceOwnerWorkOrder API from Automile — 12 operation(s) for resourceownerworkorder.
+- baseURL: https://api.automile.com
+  baseurl_source: declared
+  description: The ResourceOwnerWorkOrder API from Automile — 12 operation(s) for resourceownerworkorder.
   name: Automile ResourceOwnerWorkOrder API
   slug: automile-resourceownerworkorder-api
 artifact_total: 162
@@ -647,7 +803,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -657,7 +813,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     conformance: derived
     contracts:
@@ -668,7 +824,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/screenshots/automile-2026-07-25T201834.png
 security:

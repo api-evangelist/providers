@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The WordPress REST API on Boston University's own web platform, and the one substantial machine-readable interface the institution both operates and authors. Its discovery document advertises 237 rout
+- baseURL: https://www.bu.edu/wp-json
+  baseurl_source: declared
+  description: The WordPress REST API on Boston University's own web platform, and the one substantial machine-readable interface the institution both operates and authors. Its discovery document advertises 237 rout
   name: Boston University WordPress REST API
   slug: wordpress-rest-api
 - description: Boston University's SAML 2.0 identity provider, publishing machine-readable entity metadata at its own host. The EntityDescriptor carries entityID https://shib.bu.edu/idp/shibboleth, the Shibboleth sc
@@ -204,23 +206,23 @@ rate_limits:
   slug: boston-rate-limits
 score:
   band: thin
-  composite: 35.1
+  composite: 35.3
   coverage:
     artifact_dirs: 15
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.1
+  delta: 0.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 3.8
-    contract_quality: 26.9
+    contract_quality: 28.0
     developer_ergonomics: 28.6
     discoverability: 59.3
     governance: 3.8
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     contracts:
@@ -235,8 +237,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boston/refs/heads/main/screenshots/boston-2026-06-20T173612.png
 security:
 - kind: authentication

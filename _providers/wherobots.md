@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -43,106 +43,174 @@ agentic_access:
   summary_line: 165 operations · 88 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The apikey API from Wherobots — 2 operation(s) for apikey.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The apikey API from Wherobots — 2 operation(s) for apikey.
   name: Wherobots apikey API
   slug: wherobots-apikey-api
-- description: The audit-log API from Wherobots — 2 operation(s) for audit-log.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The audit-log API from Wherobots — 2 operation(s) for audit-log.
   name: Wherobots audit-log API
   slug: wherobots-audit-log-api
-- description: The catalogs API from Wherobots — 7 operation(s) for catalogs.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The catalogs API from Wherobots — 7 operation(s) for catalogs.
   name: Wherobots catalogs API
   slug: wherobots-catalogs-api
-- description: The cloud-connections API from Wherobots — 11 operation(s) for cloud-connections.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The cloud-connections API from Wherobots — 11 operation(s) for cloud-connections.
   name: Wherobots cloud-connections API
   slug: wherobots-cloud-connections-api
-- description: The coupon API from Wherobots — 1 operation(s) for coupon.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The coupon API from Wherobots — 1 operation(s) for coupon.
   name: Wherobots coupon API
   slug: wherobots-coupon-api
-- description: The environment-override--preset API from Wherobots — 2 operation(s) for environment-override--preset.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The environment-override--preset API from Wherobots — 2 operation(s) for environment-override--preset.
   name: Wherobots environment-override--preset API
   slug: wherobots-environment-override-preset-api
-- description: The environment-preset API from Wherobots — 2 operation(s) for environment-preset.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The environment-preset API from Wherobots — 2 operation(s) for environment-preset.
   name: Wherobots environment-preset API
   slug: wherobots-environment-preset-api
-- description: The files API from Wherobots — 8 operation(s) for files.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The files API from Wherobots — 8 operation(s) for files.
   name: Wherobots files API
   slug: wherobots-files-api
-- description: The Flags API from Wherobots — 1 operation(s) for flags.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The Flags API from Wherobots — 1 operation(s) for flags.
   name: Wherobots Flags API
   slug: wherobots-flags-api
-- description: The foreign-catalog API from Wherobots — 4 operation(s) for foreign-catalog.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The foreign-catalog API from Wherobots — 4 operation(s) for foreign-catalog.
   name: Wherobots foreign-catalog API
   slug: wherobots-foreign-catalog-api
-- description: The Health API from Wherobots — 1 operation(s) for health.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The Health API from Wherobots — 1 operation(s) for health.
   name: Wherobots Health API
   slug: wherobots-health-api
-- description: The Is Super User API from Wherobots — 1 operation(s) for is super user.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The Is Super User API from Wherobots — 1 operation(s) for is super user.
   name: Wherobots Is Super User API
   slug: wherobots-is-super-user-api
-- description: The jupyter_lab API from Wherobots — 5 operation(s) for jupyter_lab.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The jupyter_lab API from Wherobots — 5 operation(s) for jupyter_lab.
   name: Wherobots jupyter_lab API
   slug: wherobots-jupyter-lab-api
-- description: The management API from Wherobots — 16 operation(s) for management.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The management API from Wherobots — 16 operation(s) for management.
   name: Wherobots management API
   slug: wherobots-management-api
-- description: The me API from Wherobots — 3 operation(s) for me.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The me API from Wherobots — 3 operation(s) for me.
   name: Wherobots me API
   slug: wherobots-me-api
-- description: The orb API from Wherobots — 1 operation(s) for orb.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The orb API from Wherobots — 1 operation(s) for orb.
   name: Wherobots orb API
   slug: wherobots-orb-api
-- description: The organization API from Wherobots — 25 operation(s) for organization.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The organization API from Wherobots — 25 operation(s) for organization.
   name: Wherobots organization API
   slug: wherobots-organization-api
-- description: The quota API from Wherobots — 1 operation(s) for quota.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The quota API from Wherobots — 1 operation(s) for quota.
   name: Wherobots quota API
   slug: wherobots-quota-api
-- description: The rasterflow API from Wherobots — 1 operation(s) for rasterflow.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The rasterflow API from Wherobots — 1 operation(s) for rasterflow.
   name: Wherobots rasterflow API
   slug: wherobots-rasterflow-api
-- description: The runs API from Wherobots — 5 operation(s) for runs.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The runs API from Wherobots — 5 operation(s) for runs.
   name: Wherobots runs API
   slug: wherobots-runs-api
-- description: The service API from Wherobots — 3 operation(s) for service.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The service API from Wherobots — 3 operation(s) for service.
   name: Wherobots service API
   slug: wherobots-service-api
-- description: The service_token_endpoint API from Wherobots — 3 operation(s) for service_token_endpoint.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The service_token_endpoint API from Wherobots — 3 operation(s) for service_token_endpoint.
   name: Wherobots service_token_endpoint API
   slug: wherobots-service-token-endpoint-api
-- description: The solution_notebooks API from Wherobots — 3 operation(s) for solution_notebooks.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The solution_notebooks API from Wherobots — 3 operation(s) for solution_notebooks.
   name: Wherobots solution_notebooks API
   slug: wherobots-solution-notebooks-api
-- description: The sql API from Wherobots — 3 operation(s) for sql.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The sql API from Wherobots — 3 operation(s) for sql.
   name: Wherobots sql API
   slug: wherobots-sql-api
-- description: The storage API from Wherobots — 12 operation(s) for storage.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The storage API from Wherobots — 12 operation(s) for storage.
   name: Wherobots storage API
   slug: wherobots-storage-api
-- description: The stripe API from Wherobots — 1 operation(s) for stripe.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The stripe API from Wherobots — 1 operation(s) for stripe.
   name: Wherobots stripe API
   slug: wherobots-stripe-api
-- description: The subscriptions API from Wherobots — 7 operation(s) for subscriptions.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The subscriptions API from Wherobots — 7 operation(s) for subscriptions.
   name: Wherobots subscriptions API
   slug: wherobots-subscriptions-api
-- description: The superuser API from Wherobots — 18 operation(s) for superuser.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The superuser API from Wherobots — 18 operation(s) for superuser.
   name: Wherobots superuser API
   slug: wherobots-superuser-api
-- description: The union-executions API from Wherobots — 1 operation(s) for union-executions.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The union-executions API from Wherobots — 1 operation(s) for union-executions.
   name: Wherobots union-executions API
   slug: wherobots-union-executions-api
-- description: The usage API from Wherobots — 5 operation(s) for usage.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The usage API from Wherobots — 5 operation(s) for usage.
   name: Wherobots usage API
   slug: wherobots-usage-api
-- description: The user-management API from Wherobots — 2 operation(s) for user-management.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The user-management API from Wherobots — 2 operation(s) for user-management.
   name: Wherobots user-management API
   slug: wherobots-user-management-api
-- description: The users API from Wherobots — 4 operation(s) for users.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The users API from Wherobots — 4 operation(s) for users.
   name: Wherobots users API
   slug: wherobots-users-api
-- description: The webhook API from Wherobots — 3 operation(s) for webhook.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The webhook API from Wherobots — 3 operation(s) for webhook.
   name: Wherobots webhook API
   slug: wherobots-webhook-api
-- description: The workos API from Wherobots — 1 operation(s) for workos.
+- baseURL: https://api.cloud.wherobots.com
+  baseurl_source: declared
+  description: The workos API from Wherobots — 1 operation(s) for workos.
   name: Wherobots workos API
   slug: wherobots-workos-api
 artifact_total: 75
@@ -444,7 +512,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png
 security:

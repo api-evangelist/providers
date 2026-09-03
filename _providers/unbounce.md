@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,25 +51,39 @@ apis:
 - description: Official hosted Model Context Protocol server for Unbounce. Exposes 37 tools that create, edit, publish, A/B-test and report on Unbounce landing pages and variants directly from an AI assistant. Autho
   name: Unbounce MCP Server
   slug: mcp-server
-- description: Account and sub-account resources
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Account and sub-account resources
   name: Unbounce Accounts API
   slug: unbounce-accounts-api
-- description: Domains attached to sub-accounts
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Domains attached to sub-accounts
   name: Unbounce Domains API
   slug: unbounce-domains-api
-- description: Lead submissions captured by pages
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Lead submissions captured by pages
   name: Unbounce Leads API
   slug: unbounce-leads-api
-- description: API meta-information
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: API meta-information
   name: Unbounce Meta API
   slug: unbounce-meta-api
-- description: Logical page groupings
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Logical page groupings
   name: Unbounce PageGroups API
   slug: unbounce-pagegroups-api
-- description: Landing pages and form fields
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Landing pages and form fields
   name: Unbounce Pages API
   slug: unbounce-pages-api
-- description: Users in the account
+- baseURL: https://api.unbounce.com
+  baseurl_source: declared
+  description: Users in the account
   name: Unbounce Users API
   slug: unbounce-users-api
 artifact_total: 64
@@ -441,7 +455,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -451,7 +465,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 65.6
+  previous_composite: 65.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -463,7 +477,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
 security:

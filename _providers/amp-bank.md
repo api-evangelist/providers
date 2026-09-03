@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: AMP Bank Banking Account Balances API
   slug: amp-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: AMP Bank Banking Account Direct Debits API
   slug: amp-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: AMP Bank Banking Account Scheduled Payments API
   slug: amp-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: AMP Bank Banking Account Transactions API
   slug: amp-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: AMP Bank Banking Accounts API
   slug: amp-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: AMP Bank Banking Payees API
   slug: amp-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.cdr-api.amp.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: AMP Bank Banking Products API
   slug: amp-bank-banking-products-api
 artifact_total: 20
@@ -245,7 +259,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amp-bank/refs/heads/main/screenshots/amp-bank-2026-07-21T114657.png
 security:

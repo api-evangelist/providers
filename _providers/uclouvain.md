@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Orthanc is a free and open-source, vendor-neutral DICOM server and medical-imaging ecosystem. UCLouvain describes itself as "the innovation engine behind Orthanc": the project is led by its author Seb'
+- baseURL: https://orthanc.uclouvain.be/demo/
+  baseurl_source: declared
+  description: 'Orthanc is a free and open-source, vendor-neutral DICOM server and medical-imaging ecosystem. UCLouvain describes itself as "the innovation engine behind Orthanc": the project is led by its author Seb'
   name: Orthanc API
   slug: orthanc-api
 - description: 'Open Data @ UCLouvain is the institution''s research-data repository, running Dataverse 6.8 on UCLouvain infrastructure at dataverse.uclouvain.be and minting DOIs under UCLouvain''s own Crossref prefix '
@@ -181,23 +183,23 @@ rate_limits:
   slug: uclouvain-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 33.1
   coverage:
     artifact_dirs: 10
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.1
+  delta: -0.3
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 46.8
+    contract_quality: 45.5
     developer_ergonomics: 28.6
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 33.4
   provenance:
     conformance: first-party
     contracts:
@@ -212,8 +214,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uclouvain/refs/heads/main/screenshots/uclouvain-2026-06-20T195945.png
 security:
 - kind: domain-security

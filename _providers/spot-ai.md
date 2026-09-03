@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 43 operations · 22 acting
 api_count: 18
 apis:
-- description: The Analytics API from Spot AI — 3 operation(s) for analytics.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Analytics API from Spot AI — 3 operation(s) for analytics.
   name: Spot AI Analytics API
   slug: spot-ai-analytics-api
-- description: The Appliances API from Spot AI — 2 operation(s) for appliances.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Appliances API from Spot AI — 2 operation(s) for appliances.
   name: Spot AI Appliances API
   slug: spot-ai-appliances-api
-- description: The Audio API from Spot AI — 1 operation(s) for audio.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Audio API from Spot AI — 1 operation(s) for audio.
   name: Spot AI Audio API
   slug: spot-ai-audio-api
-- description: The Cameras API from Spot AI — 8 operation(s) for cameras.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Cameras API from Spot AI — 8 operation(s) for cameras.
   name: Spot AI Cameras API
   slug: spot-ai-cameras-api
-- description: The Embeds API from Spot AI — 2 operation(s) for embeds.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Embeds API from Spot AI — 2 operation(s) for embeds.
   name: Spot AI Embeds API
   slug: spot-ai-embeds-api
-- description: The Historical Footage API from Spot AI — 2 operation(s) for historical footage.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Historical Footage API from Spot AI — 2 operation(s) for historical footage.
   name: Spot AI Historical Footage API
   slug: spot-ai-historical-footage-api
-- description: The Integration Devices API from Spot AI — 3 operation(s) for integration devices.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Integration Devices API from Spot AI — 3 operation(s) for integration devices.
   name: Spot AI Integration Devices API
   slug: spot-ai-integration-devices-api
-- description: The Integration Event Types API from Spot AI — 2 operation(s) for integration event types.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Integration Event Types API from Spot AI — 2 operation(s) for integration event types.
   name: Spot AI Integration Event Types API
   slug: spot-ai-integration-event-types-api
-- description: The Integration Events API from Spot AI — 3 operation(s) for integration events.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Integration Events API from Spot AI — 3 operation(s) for integration events.
   name: Spot AI Integration Events API
   slug: spot-ai-integration-events-api
-- description: The Integrations API from Spot AI — 2 operation(s) for integrations.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Integrations API from Spot AI — 2 operation(s) for integrations.
   name: Spot AI Integrations API
   slug: spot-ai-integrations-api
-- description: The Locations API from Spot AI — 1 operation(s) for locations.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Locations API from Spot AI — 1 operation(s) for locations.
   name: Spot AI Locations API
   slug: spot-ai-locations-api
-- description: The LPI API from Spot AI — 1 operation(s) for lpi.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The LPI API from Spot AI — 1 operation(s) for lpi.
   name: Spot AI LPI API
   slug: spot-ai-lpi-api
-- description: The LPR API from Spot AI — 1 operation(s) for lpr.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The LPR API from Spot AI — 1 operation(s) for lpr.
   name: Spot AI LPR API
   slug: spot-ai-lpr-api
-- description: The Shared Search API from Spot AI — 2 operation(s) for shared search.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Shared Search API from Spot AI — 2 operation(s) for shared search.
   name: Spot AI Shared Search API
   slug: spot-ai-shared-search-api
-- description: The Zones API from Spot AI — 1 operation(s) for zones.
+- baseURL: https://dev-api.spot.ai/
+  baseurl_source: declared
+  description: The Zones API from Spot AI — 1 operation(s) for zones.
   name: Spot AI Zones API
   slug: spot-ai-zones-api
 artifact_total: 37
@@ -287,7 +317,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -297,7 +327,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 46.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,7 +339,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/screenshots/spot-2026-08-17T082037.png
 security:

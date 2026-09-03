@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,25 +35,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Universal Commerce Protocol (UCP) MCP endpoint published on the Arccos Golf Shopify storefront for agent-driven commerce. An anonymous JSON-RPC tools/list returns 13 tools covering catalog search and '
   name: Arccos Golf Storefront UCP MCP Server
   slug: arccos-golf-storefront-ucp-mcp-server
-- description: The Clubs API from Arccos Golf — 2 operation(s) for clubs.
+- baseURL: https://api.arccosgolf.com/
+  baseurl_source: declared
+  description: The Clubs API from Arccos Golf — 2 operation(s) for clubs.
   name: Arccos Golf Clubs API
   slug: arccos-golf-clubs-api
-- description: The Courses API from Arccos Golf — 3 operation(s) for courses.
+- baseURL: https://api.arccosgolf.com/
+  baseurl_source: declared
+  description: The Courses API from Arccos Golf — 3 operation(s) for courses.
   name: Arccos Golf Courses API
   slug: arccos-golf-courses-api
-- description: The Rounds API from Arccos Golf — 3 operation(s) for rounds.
+- baseURL: https://api.arccosgolf.com/
+  baseurl_source: declared
+  description: The Rounds API from Arccos Golf — 3 operation(s) for rounds.
   name: Arccos Golf Rounds API
   slug: arccos-golf-rounds-api
-- description: The Users API from Arccos Golf — 1 operation(s) for users.
+- baseURL: https://api.arccosgolf.com/
+  baseurl_source: declared
+  description: The Users API from Arccos Golf — 1 operation(s) for users.
   name: Arccos Golf Users API
   slug: arccos-golf-users-api
-- description: The Webhooks API from Arccos Golf — 2 operation(s) for webhooks.
+- baseURL: https://api.arccosgolf.com/
+  baseurl_source: declared
+  description: The Webhooks API from Arccos Golf — 2 operation(s) for webhooks.
   name: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
 artifact_total: 19
@@ -236,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -246,7 +268,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 42.3
+  previous_composite: 42.2
   provenance:
     conformance: derived
     contracts:
@@ -257,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/screenshots/arccos-golf-2026-08-07T161622.png
 security:

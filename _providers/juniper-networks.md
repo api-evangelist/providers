@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -47,106 +47,172 @@ apis:
 - description: Python library for automating Junos devices using NETCONF.
   name: Junos PyEZ
   slug: junos-pyez
-- description: NETCONF-based XML API for programmatic access to Junos devices.
+- baseURL: netconf://device:830
+  baseurl_source: declared
+  description: NETCONF-based XML API for programmatic access to Junos devices.
   name: Junos XML API
   slug: junos-xml-api
 - description: Python-based tool for snapshot and verification of network device configurations.
   name: Juniper JSNAPy
   slug: juniper-jsnapy
-- description: Alarm monitoring, acknowledgment, and notification configuration.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Alarm monitoring, acknowledgment, and notification configuration.
   name: Juniper Networks Alarms API
   slug: juniper-networks-alarms-api
-- description: Network state anomaly detection and reporting.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Network state anomaly detection and reporting.
   name: Juniper Networks Anomalies API
   slug: juniper-networks-anomalies-api
-- description: User login, logout, and token management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: User login, logout, and token management.
   name: Juniper Networks Authentication API
   slug: juniper-networks-authentication-api
-- description: BGP router and peering configuration.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: BGP router and peering configuration.
   name: Juniper Networks BGP Routers API
   slug: juniper-networks-bgp-routers-api
-- description: Blueprint lifecycle management for data center network intent, including staging, commit, and deployment.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Blueprint lifecycle management for data center network intent, including staging, commit, and deployment.
   name: Juniper Networks Blueprints API
   slug: juniper-networks-blueprints-api
-- description: Wireless and wired client session monitoring and statistics.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Wireless and wired client session monitoring and statistics.
   name: Juniper Networks Clients API
   slug: juniper-networks-clients-api
-- description: Configuration management, templates, and deployment.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Configuration management, templates, and deployment.
   name: Juniper Networks Configuration API
   slug: juniper-networks-configuration-api
-- description: Design resources including logical devices, interface maps, rack types, templates, and config templates.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Design resources including logical devices, interface maps, rack types, templates, and config templates.
   name: Juniper Networks Design API
   slug: juniper-networks-design-api
-- description: Device discovery, management, and monitoring operations.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Device discovery, management, and monitoring operations.
   name: Juniper Networks Devices API
   slug: juniper-networks-devices-api
-- description: Floating IP pool and association management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Floating IP pool and association management.
   name: Juniper Networks Floating IPs API
   slug: juniper-networks-floating-ips-api
-- description: Intent-Based Analytics probes and dashboards.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Intent-Based Analytics probes and dashboards.
   name: Juniper Networks IBA API
   slug: juniper-networks-iba-api
-- description: AI-driven network insights, anomaly detection, and Marvis recommendations.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: AI-driven network insights, anomaly detection, and Marvis recommendations.
   name: Juniper Networks Insights API
   slug: juniper-networks-insights-api
-- description: Device claiming, unclaiming, and inventory management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Device claiming, unclaiming, and inventory management.
   name: Juniper Networks Inventory API
   slug: juniper-networks-inventory-api
-- description: Asynchronous job tracking and management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Asynchronous job tracking and management.
   name: Juniper Networks Jobs API
   slug: juniper-networks-jobs-api
-- description: Floor plan and map management for site RF planning.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Floor plan and map management for site RF planning.
   name: Juniper Networks Maps API
   slug: juniper-networks-maps-api
-- description: Device and session monitoring operations.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Device and session monitoring operations.
   name: Juniper Networks Monitoring API
   slug: juniper-networks-monitoring-api
-- description: Network address translation rule management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Network address translation rule management.
   name: Juniper Networks NAT API
   slug: juniper-networks-nat-api
-- description: Network policy rules for traffic control between virtual networks.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Network policy rules for traffic control between virtual networks.
   name: Juniper Networks Network Policies API
   slug: juniper-networks-network-policies-api
-- description: Organization-level settings, licenses, and inventory management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Organization-level settings, licenses, and inventory management.
   name: Juniper Networks Organizations API
   slug: juniper-networks-organizations-api
-- description: Tenant project management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Tenant project management.
   name: Juniper Networks Projects API
   slug: juniper-networks-projects-api
-- description: Resource pool management for ASN, IP, and VNI allocation.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Resource pool management for ASN, IP, and VNI allocation.
   name: Juniper Networks Resources API
   slug: juniper-networks-resources-api
-- description: Script management and execution on managed devices.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Script management and execution on managed devices.
   name: Juniper Networks Scripts API
   slug: juniper-networks-scripts-api
-- description: Security group rules for workload micro-segmentation.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Security group rules for workload micro-segmentation.
   name: Juniper Networks Security Groups API
   slug: juniper-networks-security-groups-api
-- description: Security policy and zone management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Security policy and zone management.
   name: Juniper Networks Security Policies API
   slug: juniper-networks-security-policies-api
-- description: Network function service instance management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Network function service instance management.
   name: Juniper Networks Service Instances API
   slug: juniper-networks-service-instances-api
-- description: Site creation, configuration, and management within organizations.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Site creation, configuration, and management within organizations.
   name: Juniper Networks Sites API
   slug: juniper-networks-sites-api
-- description: System information and operational commands.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: System information and operational commands.
   name: Juniper Networks System API
   slug: juniper-networks-system-api
-- description: Managed system (device) agent lifecycle and telemetry.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Managed system (device) agent lifecycle and telemetry.
   name: Juniper Networks Systems API
   slug: juniper-networks-systems-api
-- description: User and role-based access control management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: User and role-based access control management.
   name: Juniper Networks Users API
   slug: juniper-networks-users-api
-- description: Virtual network creation and management.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Virtual network creation and management.
   name: Juniper Networks Virtual Networks API
   slug: juniper-networks-virtual-networks-api
-- description: IPsec VPN tunnel configuration.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: IPsec VPN tunnel configuration.
   name: Juniper Networks VPN API
   slug: juniper-networks-vpn-api
-- description: Wireless LAN configuration including SSIDs, security, and VLAN assignment.
+- baseURL: https://<apstra-server>/api
+  baseurl_source: declared
+  description: Wireless LAN configuration including SSIDs, security, and VLAN assignment.
   name: Juniper Networks WLANs API
   slug: juniper-networks-wlans-api
 artifact_total: 130
@@ -587,7 +653,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper-networks/refs/heads/main/screenshots/juniper-networks-2026-06-20T183831.png
 security:

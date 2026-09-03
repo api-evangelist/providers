@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -59,100 +59,164 @@ apis:
 - description: Open-source libraries published under github.com/didomi for encoding, decoding, and validating the Didomi consent string and the IAB TCF v2 consent string. Includes TypeScript (`consent-string`, `cons
   name: Didomi Consent String Toolkit
   slug: didomi-consent-string-toolkit
-- description: The consents/events API from Didomi — 2 operation(s) for consents/events.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The consents/events API from Didomi — 2 operation(s) for consents/events.
   name: Didomi consents/events API
   slug: didomi-consents-events-api
-- description: The consents/proofs API from Didomi — 2 operation(s) for consents/proofs.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The consents/proofs API from Didomi — 2 operation(s) for consents/proofs.
   name: Didomi consents/proofs API
   slug: didomi-consents-proofs-api
-- description: The consents/tokens API from Didomi — 1 operation(s) for consents/tokens.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The consents/tokens API from Didomi — 1 operation(s) for consents/tokens.
   name: Didomi consents/tokens API
   slug: didomi-consents-tokens-api
-- description: The consents/users API from Didomi — 2 operation(s) for consents/users.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The consents/users API from Didomi — 2 operation(s) for consents/users.
   name: Didomi consents/users API
   slug: didomi-consents-users-api
-- description: Manage cookies set by a property
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage cookies set by a property
   name: Didomi cookies API
   slug: didomi-cookies-api
-- description: The dashboards-urls API from Didomi — 1 operation(s) for dashboards-urls.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The dashboards-urls API from Didomi — 1 operation(s) for dashboards-urls.
   name: Didomi dashboards-urls API
   slug: didomi-dashboards-urls-api
-- description: Provisioned domains for consent notices and privacy centers
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Provisioned domains for consent notices and privacy centers
   name: Didomi domains API
   slug: didomi-domains-api
-- description: The Integrations API from Didomi — 1 operation(s) for integrations.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The Integrations API from Didomi — 1 operation(s) for integrations.
   name: Didomi Integrations API
   slug: didomi-integrations-api
-- description: Manage API keys
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage API keys
   name: Didomi keys API
   slug: didomi-keys-api
-- description: List of available languages for the SDKs
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: List of available languages for the SDKs
   name: Didomi languages API
   slug: didomi-languages-api
-- description: Manage members of an organization
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage members of an organization
   name: Didomi members API
   slug: didomi-members-api
-- description: A metadata service
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: A metadata service
   name: Didomi metadata API
   slug: didomi-metadata-api
-- description: The metadata-purpose-regulation-override API from Didomi — 2 operation(s) for metadata-purpose-regulation-override.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The metadata-purpose-regulation-override API from Didomi — 2 operation(s) for metadata-purpose-regulation-override.
   name: Didomi metadata-purpose-regulation-override API
   slug: didomi-metadata-purpose-regulation-override-api
-- description: The notices API from Didomi — 18 operation(s) for notices.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The notices API from Didomi — 18 operation(s) for notices.
   name: Didomi notices API
   slug: didomi-notices-api
-- description: Manage organizations
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage organizations
   name: Didomi organizations API
   slug: didomi-organizations-api
-- description: Manage organization source systems
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage organization source systems
   name: Didomi organizations-source-systems API
   slug: didomi-organizations-source-systems-api
-- description: The partners API from Didomi — 2 operation(s) for partners.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The partners API from Didomi — 2 operation(s) for partners.
   name: Didomi partners API
   slug: didomi-partners-api
-- description: The partners-default-purposes API from Didomi — 1 operation(s) for partners-default-purposes.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The partners-default-purposes API from Didomi — 1 operation(s) for partners-default-purposes.
   name: Didomi partners-default-purposes API
   slug: didomi-partners-default-purposes-api
-- description: The partners-legitimate-interest-purposes API from Didomi — 1 operation(s) for partners-legitimate-interest-purposes.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The partners-legitimate-interest-purposes API from Didomi — 1 operation(s) for partners-legitimate-interest-purposes.
   name: Didomi partners-legitimate-interest-purposes API
   slug: didomi-partners-legitimate-interest-purposes-api
-- description: The partners-spi-purposes API from Didomi — 1 operation(s) for partners-spi-purposes.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The partners-spi-purposes API from Didomi — 1 operation(s) for partners-spi-purposes.
   name: Didomi partners-spi-purposes API
   slug: didomi-partners-spi-purposes-api
-- description: The partners-storages API from Didomi — 2 operation(s) for partners-storages.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The partners-storages API from Didomi — 2 operation(s) for partners-storages.
   name: Didomi partners-storages API
   slug: didomi-partners-storages-api
-- description: Manage premium features
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage premium features
   name: Didomi premium-features API
   slug: didomi-premium-features-api
-- description: Manage privacy centers
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage privacy centers
   name: Didomi privacy-centers API
   slug: didomi-privacy-centers-api
-- description: The purposes API from Didomi — 3 operation(s) for purposes.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The purposes API from Didomi — 3 operation(s) for purposes.
   name: Didomi purposes API
   slug: didomi-purposes-api
-- description: The purposes-groups API from Didomi — 2 operation(s) for purposes-groups.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The purposes-groups API from Didomi — 2 operation(s) for purposes-groups.
   name: Didomi purposes-groups API
   slug: didomi-purposes-groups-api
-- description: Manage quotas
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage quotas
   name: Didomi quotas API
   slug: didomi-quotas-api
-- description: Manage secrets
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage secrets
   name: Didomi secrets API
   slug: didomi-secrets-api
-- description: Manage sessions
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage sessions
   name: Didomi sessions API
   slug: didomi-sessions-api
-- description: Manage SSO connections
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage SSO connections
   name: Didomi sso-connections API
   slug: didomi-sso-connections-api
-- description: Manage the taxonomy for vendors
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage the taxonomy for vendors
   name: Didomi taxonomies API
   slug: didomi-taxonomies-api
-- description: Manage vendors used by a property
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: Manage vendors used by a property
   name: Didomi vendors API
   slug: didomi-vendors-api
-- description: The widgets/notices/remote-configs API from Didomi — 1 operation(s) for widgets/notices/remote-configs.
+- baseURL: https://api.didomi.io/v1
+  baseurl_source: declared
+  description: The widgets/notices/remote-configs API from Didomi — 1 operation(s) for widgets/notices/remote-configs.
   name: Didomi widgets/notices/remote-configs API
   slug: didomi-widgets-notices-remote-configs-api
 arazzos:
@@ -770,7 +834,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -780,7 +844,7 @@ score:
     discoverability: 61.1
     governance: 47.0
     operational_transparency: 81.6
-  previous_composite: 78.1
+  previous_composite: 77.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -792,7 +856,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

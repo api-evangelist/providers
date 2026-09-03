@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: ScrapingAnt is a web scraping API service that handles proxy rotation, headless browsers, and CAPTCHA solving for reliable web data extraction.
   name: ScrapingAnt
   slug: scrapingant
-- description: The ScrapingAnt web scraping endpoint. GET/POST/PUT/PATCH/DELETE /v2/general renders a target URL in headless Chrome behind rotating proxies and returns the page HTML; a non-GET method is proxied thro
+- baseURL: https://api.scrapingant.com
+  baseurl_source: declared
+  description: The ScrapingAnt web scraping endpoint. GET/POST/PUT/PATCH/DELETE /v2/general renders a target URL in headless Chrome behind rotating proxies and returns the page HTML; a non-GET method is proxied thro
   name: ScrapingAnt Scraping API
   slug: scrapingant-scraping-api
-- description: Account credit metering for ScrapingAnt. GET /v2/usage returns the current plan name, subscription period, total plan credits and remaining credits - the only way to observe budget on an API that publ
+- baseURL: https://api.scrapingant.com
+  baseurl_source: declared
+  description: Account credit metering for ScrapingAnt. GET /v2/usage returns the current plan name, subscription period, total plan credits and remaining credits - the only way to observe budget on an API that publ
   name: ScrapingAnt Usage API
   slug: scrapingant-usage-api
 - description: First-party hosted remote MCP server at https://api.scrapingant.com/mcp/ exposing get_web_page_html, get_web_page_markdown and get_web_page_text to MCP clients over streamable HTTP, authenticated with
@@ -231,23 +235,23 @@ rate_limits:
   slug: scrapingant-rate-limits
 score:
   band: developing
-  composite: 52.5
+  composite: 53.3
   coverage:
     artifact_dirs: 21
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.1
+  delta: 0.8
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
     contract_governance: 4.5
-    contract_quality: 53.7
+    contract_quality: 57.1
     developer_ergonomics: 63.7
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 47.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +263,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/screenshots/scrapingant-2026-06-20T193558.png
 security:
 - kind: authentication

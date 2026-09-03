@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The LLM models API from Keyframe Labs — 2 operation(s) for llm models.
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The LLM models API from Keyframe Labs — 2 operation(s) for llm models.
   name: Keyframe Labs LLM models API
   slug: keyframe-labs-llm-models-api
-- description: The Meet bots API from Keyframe Labs — 3 operation(s) for meet bots.
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The Meet bots API from Keyframe Labs — 3 operation(s) for meet bots.
   name: Keyframe Labs Meet bots API
   slug: keyframe-labs-meet-bots-api
-- description: The Sessions API from Keyframe Labs — 1 operation(s) for sessions.
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The Sessions API from Keyframe Labs — 1 operation(s) for sessions.
   name: Keyframe Labs Sessions API
   slug: keyframe-labs-sessions-api
-- description: The Voices API from Keyframe Labs — 2 operation(s) for voices.
+- baseURL: https://api.keyframelabs.com/v1
+  baseurl_source: declared
+  description: The Voices API from Keyframe Labs — 2 operation(s) for voices.
   name: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
 artifact_total: 13
@@ -232,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:

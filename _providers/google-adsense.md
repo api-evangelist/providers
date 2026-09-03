@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Accounts API from Google AdSense Management — 1 operation(s) for accounts.
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Accounts API from Google AdSense Management — 1 operation(s) for accounts.
   name: Google AdSense Management Accounts API
   slug: google-adsense-accounts-api
-- description: The Adclients API from Google AdSense Management — 1 operation(s) for adclients.
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Adclients API from Google AdSense Management — 1 operation(s) for adclients.
   name: Google AdSense Management Adclients API
   slug: google-adsense-adclients-api
-- description: The Adunits API from Google AdSense Management — 1 operation(s) for adunits.
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Adunits API from Google AdSense Management — 1 operation(s) for adunits.
   name: Google AdSense Management Adunits API
   slug: google-adsense-adunits-api
-- description: The Payments API from Google AdSense Management — 1 operation(s) for payments.
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Payments API from Google AdSense Management — 1 operation(s) for payments.
   name: Google AdSense Management Payments API
   slug: google-adsense-payments-api
-- description: The Reports:generate API from Google AdSense Management — 1 operation(s) for reports:generate.
+- baseURL: https://adsense.googleapis.com
+  baseurl_source: declared
+  description: The Reports:generate API from Google AdSense Management — 1 operation(s) for reports:generate.
   name: Google AdSense Management Reports:generate API
   slug: google-adsense-reports-generate-api
 artifact_total: 21
@@ -194,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/screenshots/google-adsense-2026-06-20T182008.png
 security:

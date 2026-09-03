@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 77 operations · 41 acting
 api_count: 1
 apis:
-- description: The Accounting API from Defacto — 1 operation(s) for accounting.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Accounting API from Defacto — 1 operation(s) for accounting.
   name: Defacto Accounting API
   slug: defacto-accounting-api
-- description: The Billing API from Defacto — 4 operation(s) for billing.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Billing API from Defacto — 4 operation(s) for billing.
   name: Defacto Billing API
   slug: defacto-billing-api
-- description: The Business and accounts API from Defacto — 1 operation(s) for business and accounts.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Business and accounts API from Defacto — 1 operation(s) for business and accounts.
   name: Defacto Business and accounts API
   slug: defacto-business-and-accounts-api
-- description: The Counterparty API from Defacto — 2 operation(s) for counterparty.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Counterparty API from Defacto — 2 operation(s) for counterparty.
   name: Defacto Counterparty API
   slug: defacto-counterparty-api
-- description: The Credit card API from Defacto — 6 operation(s) for credit card.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Credit card API from Defacto — 6 operation(s) for credit card.
   name: Defacto Credit card API
   slug: defacto-credit-card-api
-- description: The Eligibility and credit limit API from Defacto — 6 operation(s) for eligibility and credit limit.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Eligibility and credit limit API from Defacto — 6 operation(s) for eligibility and credit limit.
   name: Defacto Eligibility and credit limit API
   slug: defacto-eligibility-and-credit-limit-api
-- description: The Financial product API from Defacto — 1 operation(s) for financial product.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Financial product API from Defacto — 1 operation(s) for financial product.
   name: Defacto Financial product API
   slug: defacto-financial-product-api
-- description: The Invoice API from Defacto — 4 operation(s) for invoice.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Invoice API from Defacto — 4 operation(s) for invoice.
   name: Defacto Invoice API
   slug: defacto-invoice-api
-- description: The Loan API from Defacto — 7 operation(s) for loan.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Loan API from Defacto — 7 operation(s) for loan.
   name: Defacto Loan API
   slug: defacto-loan-api
-- description: The Onboarding API from Defacto — 9 operation(s) for onboarding.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Onboarding API from Defacto — 9 operation(s) for onboarding.
   name: Defacto Onboarding API
   slug: defacto-onboarding-api
-- description: The Payment API from Defacto — 3 operation(s) for payment.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Payment API from Defacto — 3 operation(s) for payment.
   name: Defacto Payment API
   slug: defacto-payment-api
-- description: The Recollection API from Defacto — 5 operation(s) for recollection.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Recollection API from Defacto — 5 operation(s) for recollection.
   name: Defacto Recollection API
   slug: defacto-recollection-api
-- description: The Repay API from Defacto — 1 operation(s) for repay.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Repay API from Defacto — 1 operation(s) for repay.
   name: Defacto Repay API
   slug: defacto-repay-api
-- description: The Sharing business data API from Defacto — 5 operation(s) for sharing business data.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Sharing business data API from Defacto — 5 operation(s) for sharing business data.
   name: Defacto Sharing business data API
   slug: defacto-sharing-business-data-api
-- description: The Subscription API from Defacto — 1 operation(s) for subscription.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Subscription API from Defacto — 1 operation(s) for subscription.
   name: Defacto Subscription API
   slug: defacto-subscription-api
-- description: The Testing API from Defacto — 5 operation(s) for testing.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Testing API from Defacto — 5 operation(s) for testing.
   name: Defacto Testing API
   slug: defacto-testing-api
-- description: The Translation API from Defacto — 2 operation(s) for translation.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Translation API from Defacto — 2 operation(s) for translation.
   name: Defacto Translation API
   slug: defacto-translation-api
-- description: The Webhook API from Defacto — 2 operation(s) for webhook.
+- baseURL: https://api.getdefacto.com
+  baseurl_source: declared
+  description: The Webhook API from Defacto — 2 operation(s) for webhook.
   name: Defacto Webhook API
   slug: defacto-webhook-api
 artifact_total: 44
@@ -324,7 +360,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -334,7 +370,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -358,7 +394,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png
 security:

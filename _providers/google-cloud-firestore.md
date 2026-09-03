@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations on Firestore databases
+- baseURL: https://firestore.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Firestore databases
   name: Google Cloud Firestore Databases API
   slug: google-cloud-firestore-databases-api
-- description: Operations on Firestore documents
+- baseURL: https://firestore.googleapis.com/v1
+  baseurl_source: declared
+  description: Operations on Firestore documents
   name: Google Cloud Firestore Documents API
   slug: google-cloud-firestore-documents-api
 artifact_total: 19
@@ -219,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/screenshots/google-cloud-firestore-2026-06-20T182112.png
 security:

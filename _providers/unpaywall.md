@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Look up open access status by DOI
+- baseURL: https://api.unpaywall.org/v2
+  baseurl_source: declared
+  description: Look up open access status by DOI
   name: Unpaywall DOI Lookup API
   slug: unpaywall-doi-lookup-api
-- description: Search articles by title
+- baseURL: https://api.unpaywall.org/v2
+  baseurl_source: declared
+  description: Search articles by title
   name: Unpaywall Search API
   slug: unpaywall-search-api
 artifact_total: 18
@@ -215,7 +219,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unpaywall/refs/heads/main/screenshots/unpaywall-2026-06-20T200345.png
 security:

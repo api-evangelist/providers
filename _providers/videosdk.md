@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 5
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 18 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: HLS live streaming and playback management.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: HLS live streaming and playback management.
   name: VideoSDK HLS Streaming API
   slug: videosdk-hls-streaming-api
-- description: Per-participant recording management.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: Per-participant recording management.
   name: VideoSDK Participant Recordings API
   slug: videosdk-participant-recordings-api
-- description: Start, stop, and manage meeting recordings.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: Start, stop, and manage meeting recordings.
   name: VideoSDK Recordings API
   slug: videosdk-recordings-api
-- description: Manage meeting rooms.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: Manage meeting rooms.
   name: VideoSDK Rooms API
   slug: videosdk-rooms-api
-- description: RTMP live streaming to external platforms.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: RTMP live streaming to external platforms.
   name: VideoSDK RTMP Streaming API
   slug: videosdk-rtmp-streaming-api
-- description: Manage and query meeting sessions and participants.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: Manage and query meeting sessions and participants.
   name: VideoSDK Sessions API
   slug: videosdk-sessions-api
-- description: Per-track and composite recording management.
+- baseURL: https://api.videosdk.live
+  baseurl_source: declared
+  description: Per-track and composite recording management.
   name: VideoSDK Track Recordings API
   slug: videosdk-track-recordings-api
 artifact_total: 35
@@ -259,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/screenshots/videosdk-2026-06-20T201124.png
 security:

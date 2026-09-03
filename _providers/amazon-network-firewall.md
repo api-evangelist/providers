@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 36 operations · 36 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.associatefirewallpolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.associatefirewallpolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateFirewallPolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatefirewallpolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.AssociateSubnets API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.associatesubnets.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.AssociateSubnets API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.associatesubnets.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.AssociateSubnets API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-associatesubnets-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.CreateFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createfirewall.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.CreateFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createfirewall.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.CreateFirewall API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewall-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.CreateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createfirewallpolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.CreateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createfirewallpolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.CreateFirewallPolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-createfirewallpolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.CreateRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createrulegroup.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.CreateRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createrulegroup.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.CreateRuleGroup API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-createrulegroup-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.CreateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createtlsinspectionconfiguratio'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.CreateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.createtlsinspectionconfiguratio'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.CreateTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-createtlsinspectionconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletefirewall.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletefirewall.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DeleteFirewall API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewall-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletefirewallpolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletefirewallpolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DeleteFirewallPolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletefirewallpolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deleteresourcepolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deleteresourcepolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DeleteResourcePolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleteresourcepolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deleterulegroup.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deleterulegroup.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DeleteRuleGroup API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-deleterulegroup-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletetlsinspectionconfiguratio'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DeleteTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.deletetlsinspectionconfiguratio'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DeleteTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-deletetlsinspectionconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describefirewall.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeFirewall API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describefirewall.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeFirewall API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewall-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describefirewallpolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describefirewallpolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeFirewallPolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describefirewallpolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeLoggingConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describeloggingconfiguration.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeLoggingConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describeloggingconfiguration.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeLoggingConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeloggingconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describeresourcepolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describeresourcepolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeResourcePolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describeresourcepolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describerulegroup.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describerulegroup.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroup API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroup-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroupMetadata API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describerulegroupmetadata.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroupMetadata API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describerulegroupmetadata.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeRuleGroupMetadata API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describerulegroupmetadata-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describetlsinspectionconfigur'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DescribeTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.describetlsinspectionconfigur'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DescribeTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-describetlsinspectionconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.DisassociateSubnets API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.disassociatesubnets.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.DisassociateSubnets API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.disassociatesubnets.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.DisassociateSubnets API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-disassociatesubnets-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.ListFirewallPolicies API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listfirewallpolicies.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.ListFirewallPolicies API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listfirewallpolicies.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.ListFirewallPolicies API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewallpolicies-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.ListFirewalls API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listfirewalls.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.ListFirewalls API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listfirewalls.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.ListFirewalls API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-listfirewalls-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.ListRuleGroups API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listrulegroups.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.ListRuleGroups API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listrulegroups.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.ListRuleGroups API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-listrulegroups-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.ListTagsForResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listtagsforresource.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.ListTagsForResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listtagsforresource.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.ListTagsForResource API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtagsforresource-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.ListTLSInspectionConfigurations API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listtlsinspectionconfigurations.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.ListTLSInspectionConfigurations API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.listtlsinspectionconfigurations.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.ListTLSInspectionConfigurations API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-listtlsinspectionconfigurations-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.PutResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.putresourcepolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.PutResourcePolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.putresourcepolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.PutResourcePolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-putresourcepolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.TagResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.tagresource.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.TagResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.tagresource.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.TagResource API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-tagresource-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UntagResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.untagresource.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UntagResource API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.untagresource.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UntagResource API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-untagresource-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDeleteProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewalldeleteprotection.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDeleteProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewalldeleteprotection.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDeleteProtection API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldeleteprotection-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDescription API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewalldescription.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDescription API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewalldescription.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateFirewallDescription API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewalldescription-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallEncryptionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallencryptionco'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallEncryptionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallencryptionco'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateFirewallEncryptionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallencryptionconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallpolicy.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicy API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallpolicy.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicy API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicy-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicyChangeProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallpolicychangep'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicyChangeProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatefirewallpolicychangep'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateFirewallPolicyChangeProtection API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatefirewallpolicychangeprotection-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateLoggingConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updateloggingconfiguration.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateLoggingConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updateloggingconfiguration.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateLoggingConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updateloggingconfiguration-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updaterulegroup.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateRuleGroup API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updaterulegroup.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateRuleGroup API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updaterulegroup-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateSubnetChangeProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatesubnetchangeprotection.'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateSubnetChangeProtection API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatesubnetchangeprotection.'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateSubnetChangeProtection API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatesubnetchangeprotection-api
-- description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatetlsinspectionconfiguratio'
+- baseURL: https://network-firewall.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API from Amazon Network Firewall — 1 operation(s) for #x amz target=networkfirewall 20201112.updatetlsinspectionconfiguratio'
   name: 'Amazon Network Firewall #X Amz Target=NetworkFirewall 20201112.UpdateTLSInspectionConfiguration API'
   slug: amazon-network-firewall-x-amz-target-networkfirewall-20201112-updatetlsinspectionconfiguration-api
 artifact_total: 809
@@ -2638,7 +2710,7 @@ score:
       marker_coverage: 0.0
       total: 36
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/screenshots/amazon-network-firewall-2026-06-20T171749.png
 security:

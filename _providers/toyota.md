@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: Toyota Dealers API enables searching and retrieving dealer information including location, hours, services offered, and inventory. Supports dealer locator applications and service scheduling integrati
   name: Toyota Dealers API
   slug: toyota-dealers
-- description: Climate control management
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Climate control management
   name: Toyota Climate API
   slug: toyota-climate-api
-- description: Electric and hybrid vehicle battery data
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Electric and hybrid vehicle battery data
   name: Toyota Electric API
   slug: toyota-electric-api
-- description: Fleet vehicle management operations
+- baseURL: https://api.eig.toyota.com/telematics/v1
+  baseurl_source: spec
+  description: Fleet vehicle management operations
   name: Toyota Fleet API
   slug: toyota-fleet-api
-- description: Vehicle health and diagnostics
+- baseURL: https://api.eig.toyota.com/telematics/v1
+  baseurl_source: spec
+  description: Vehicle health and diagnostics
   name: Toyota Health API
   slug: toyota-health-api
-- description: Service history
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Service history
   name: Toyota History API
   slug: toyota-history-api
-- description: Vehicle location services
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Vehicle location services
   name: Toyota Location API
   slug: toyota-location-api
-- description: Vehicle notification management
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Vehicle notification management
   name: Toyota Notifications API
   slug: toyota-notifications-api
-- description: Remote vehicle commands
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Remote vehicle commands
   name: Toyota Remote API
   slug: toyota-remote-api
-- description: Vehicle status and diagnostics
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Vehicle status and diagnostics
   name: Toyota Status API
   slug: toyota-status-api
-- description: Connected service and satellite radio subscriptions
+- baseURL: https://api.eig.toyota.com/telematics/v1
+  baseurl_source: spec
+  description: Connected service and satellite radio subscriptions
   name: Toyota Subscriptions API
   slug: toyota-subscriptions-api
-- description: Real-time vehicle telemetry data
+- baseURL: https://api.eig.toyota.com/telematics/v1
+  baseurl_source: spec
+  description: Real-time vehicle telemetry data
   name: Toyota Telemetry API
   slug: toyota-telemetry-api
-- description: Trip history and driving data
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Trip history and driving data
   name: Toyota Trips API
   slug: toyota-trips-api
-- description: Vehicle registration and management
+- baseURL: https://api.toyota.com/connected/v1
+  baseurl_source: spec
+  description: Vehicle registration and management
   name: Toyota Vehicles API
   slug: toyota-vehicles-api
 artifact_total: 46
@@ -297,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

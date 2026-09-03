@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 10 acting
 api_count: 1
 apis:
-- description: Message an agent and receive a response, with optional streaming.
+- baseURL: https://www.chatbase.co/api/v1
+  baseurl_source: declared
+  description: Message an agent and receive a response, with optional streaming.
   name: Chatbase Chat API
   slug: chatbase-chat-api
-- description: Create, retrain, configure, list, and delete chatbots/agents.
+- baseURL: https://www.chatbase.co/api/v1
+  baseurl_source: declared
+  description: Create, retrain, configure, list, and delete chatbots/agents.
   name: Chatbase Chatbots API
   slug: chatbase-chatbots-api
-- description: Manage contacts and custom attributes for a chatbot.
+- baseURL: https://www.chatbase.co/api/v1
+  baseurl_source: declared
+  description: Manage contacts and custom attributes for a chatbot.
   name: Chatbase Contacts API
   slug: chatbase-contacts-api
-- description: Retrieve conversation history for a chatbot.
+- baseURL: https://www.chatbase.co/api/v1
+  baseurl_source: declared
+  description: Retrieve conversation history for a chatbot.
   name: Chatbase Conversations API
   slug: chatbase-conversations-api
-- description: Retrieve leads captured by a chatbot.
+- baseURL: https://www.chatbase.co/api/v1
+  baseurl_source: declared
+  description: Retrieve leads captured by a chatbot.
   name: Chatbase Leads API
   slug: chatbase-leads-api
 artifact_total: 20
@@ -187,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/screenshots/chatbase-2026-06-20T174234.png
 security:

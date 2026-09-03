@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Customer activities recorded against loyalty rules to award points.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Customer activities recorded against loyalty rules to award points.
   name: LoyaltyLion Activities API
   slug: loyaltylion-activities-api
-- description: Loyalty customer profiles, points balances, tiers, and referrals.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Loyalty customer profiles, points balances, tiers, and referrals.
   name: LoyaltyLion Customers API
   slug: loyaltylion-customers-api
-- description: Manual point adjustments and immutable point transactions.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Manual point adjustments and immutable point transactions.
   name: LoyaltyLion Points API
   slug: loyaltylion-points-api
-- description: Claiming and refunding rewards on behalf of a customer.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Claiming and refunding rewards on behalf of a customer.
   name: LoyaltyLion Redemptions API
   slug: loyaltylion-redemptions-api
-- description: Rewards a customer can claim and program reward catalog controls.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Rewards a customer can claim and program reward catalog controls.
   name: LoyaltyLion Rewards API
   slug: loyaltylion-rewards-api
-- description: Identity and diagnostic endpoints.
+- baseURL: https://api.loyaltylion.com/v2
+  baseurl_source: declared
+  description: Identity and diagnostic endpoints.
   name: LoyaltyLion Utility API
   slug: loyaltylion-utility-api
 artifact_total: 20
@@ -177,7 +189,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/screenshots/loyaltylion-2026-07-25T225628.png
 security:

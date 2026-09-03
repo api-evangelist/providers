@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 75 operations · 50 acting
 api_count: 1
 apis:
-- description: Perform bulk products operation on a Product Catalog These endpoints allow you to add or remove products that are associated with a specific product catalog in bulk.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Perform bulk products operation on a Product Catalog These endpoints allow you to add or remove products that are associated with a specific product catalog in bulk.
   name: Canto bulk_products_catalogs API
   slug: canto-bulk-products-catalogs-api
-- description: Perform bulk products operation on a Product Channel Template These endpoints allow you to add or remove products that are associated with a specific channel template in bulk.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Perform bulk products operation on a Product Channel Template These endpoints allow you to add or remove products that are associated with a specific channel template in bulk.
   name: Canto bulk_products_channel_templates API
   slug: canto-bulk-products-channel-templates-api
-- description: The dimensions API from Canto — 2 operation(s) for dimensions.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The dimensions API from Canto — 2 operation(s) for dimensions.
   name: Canto dimensions API
   slug: canto-dimensions-api
-- description: 'API endpoints for filtering product attributes. Allows filtering and retrieving product attributes based on various criteria including: - Exact value matches - Partial text matches - Multiple value ma'
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: 'API endpoints for filtering product attributes. Allows filtering and retrieving product attributes based on various criteria including: - Exact value matches - Partial text matches - Multiple value ma'
   name: Canto filter API
   slug: canto-filter-api
-- description: 'API endpoints for configuring how CSV imports should be processed. This includes: - Mapping CSV headers to product attributes - Configuring how product variations should be handled - Setting up catego'
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: 'API endpoints for configuring how CSV imports should be processed. This includes: - Mapping CSV headers to product attributes - Configuring how product variations should be handled - Setting up catego'
   name: Canto import_settings API
   slug: canto-import-settings-api
-- description: API endpoint for importing products from a CSV file. Supports multipart form data uploads with import configuration.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: API endpoint for importing products from a CSV file. Supports multipart form data uploads with import configuration.
   name: Canto imports API
   slug: canto-imports-api
-- description: The options API from Canto — 2 operation(s) for options.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The options API from Canto — 2 operation(s) for options.
   name: Canto options API
   slug: canto-options-api
-- description: The product_catalog_products API from Canto — 2 operation(s) for product_catalog_products.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The product_catalog_products API from Canto — 2 operation(s) for product_catalog_products.
   name: Canto product_catalog_products API
   slug: canto-product-catalog-products-api
-- description: The product_catalogs API from Canto — 2 operation(s) for product_catalogs.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The product_catalogs API from Canto — 2 operation(s) for product_catalogs.
   name: Canto product_catalogs API
   slug: canto-product-catalogs-api
-- description: The product_categories API from Canto — 2 operation(s) for product_categories.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The product_categories API from Canto — 2 operation(s) for product_categories.
   name: Canto product_categories API
   slug: canto-product-categories-api
-- description: Manage products associated with product channel templates.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Manage products associated with product channel templates.
   name: Canto product_channel_template_products API
   slug: canto-product-channel-template-products-api
-- description: Product Channel Templates define the structure and configuration for importing and exporting product data into and out of Canto PIM.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Product Channel Templates define the structure and configuration for importing and exporting product data into and out of Canto PIM.
   name: Canto product_channel_templates API
   slug: canto-product-channel-templates-api
-- description: The product_custom_attributes API from Canto — 2 operation(s) for product_custom_attributes.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The product_custom_attributes API from Canto — 2 operation(s) for product_custom_attributes.
   name: Canto product_custom_attributes API
   slug: canto-product-custom-attributes-api
-- description: Product Share Links allow you to create shareable links for products that can be accessed outside the PIM system. These links can have custom names and optionally expire.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Product Share Links allow you to create shareable links for products that can be accessed outside the PIM system. These links can have custom names and optionally expire.
   name: Canto product_share_links API
   slug: canto-product-share-links-api
-- description: The product_types API from Canto — 2 operation(s) for product_types.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The product_types API from Canto — 2 operation(s) for product_types.
   name: Canto product_types API
   slug: canto-product-types-api
-- description: The products API from Canto — 4 operation(s) for products.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The products API from Canto — 4 operation(s) for products.
   name: Canto products API
   slug: canto-products-api
-- description: The variants API from Canto — 4 operation(s) for variants.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The variants API from Canto — 4 operation(s) for variants.
   name: Canto variants API
   slug: canto-variants-api
-- description: The webhook_events API from Canto — 2 operation(s) for webhook_events.
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: The webhook_events API from Canto — 2 operation(s) for webhook_events.
   name: Canto webhook_events API
   slug: canto-webhook-events-api
-- description: Webhooks are used to notify your application when certain events occur within the system. They can be configured to send a POST request to a specified URL when a specific event happens. Available reso
+- baseURL: https://api.canto.com/
+  baseurl_source: declared
+  description: Webhooks are used to notify your application when certain events occur within the system. They can be configured to send a POST request to a specified URL when a specific event happens. Available reso
   name: Canto webhooks API
   slug: canto-webhooks-api
 artifact_total: 71
@@ -347,7 +385,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -357,7 +395,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 44.2
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -372,7 +410,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canto/refs/heads/main/screenshots/canto-2026-06-20T173928.png
 security:

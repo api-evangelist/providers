@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,7 +52,9 @@ apis:
 - description: Hosted REST API for capture, upload, sharing, and management of 360-degree imagery from RICOH THETA and partner spherical cameras. Provides serverless image processing, AI-powered editing, virtual tou
   name: RICOH360 Cloud API
   slug: ricoh360-cloud-api
-- description: Core OSC protocol endpoints
+- baseURL: http://192.168.1.1
+  baseurl_source: declared
+  description: Core OSC protocol endpoints
   name: Ricoh USA Protocol API
   slug: ricoh-usa-protocol-api
 artifact_total: 48
@@ -305,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/screenshots/ricoh-usa-2026-06-20T193118.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -39,16 +50,24 @@ apis:
 - description: REST API for Nerdio Manager for MSP, used by MSPs to automate at the partner and account level what they would otherwise do in the NMM console — creating and managing host pools, session hosts and des
   name: Nerdio Manager for MSP Partner API
   slug: nerdio-manager-for-msp-partner-api
-- description: The Health API from Nerdio — 1 operation(s) for health.
+- baseURL: https://nmm-distributor-api.nerdio.net
+  baseurl_source: declared
+  description: The Health API from Nerdio — 1 operation(s) for health.
   name: Nerdio Health API
   slug: nerdio-health-api
-- description: The Install API from Nerdio — 5 operation(s) for install.
+- baseURL: https://nmm-distributor-api.nerdio.net
+  baseurl_source: declared
+  description: The Install API from Nerdio — 5 operation(s) for install.
   name: Nerdio Install API
   slug: nerdio-install-api
-- description: The Invoices API from Nerdio — 2 operation(s) for invoices.
+- baseURL: https://nmm-distributor-api.nerdio.net
+  baseurl_source: declared
+  description: The Invoices API from Nerdio — 2 operation(s) for invoices.
   name: Nerdio Invoices API
   slug: nerdio-invoices-api
-- description: The Usage API from Nerdio — 1 operation(s) for usage.
+- baseURL: https://nmm-distributor-api.nerdio.net
+  baseurl_source: declared
+  description: The Usage API from Nerdio — 1 operation(s) for usage.
   name: Nerdio Usage API
   slug: nerdio-usage-api
 artifact_total: 14
@@ -218,7 +237,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -228,7 +247,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 49.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,7 +259,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

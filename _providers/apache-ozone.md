@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 2
 apis:
-- description: The Buckets API from Apache Ozone — 2 operation(s) for buckets.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Buckets API from Apache Ozone — 2 operation(s) for buckets.
   name: Apache Ozone Buckets API
   slug: apache-ozone-buckets-api
-- description: The Objects API from Apache Ozone — 1 operation(s) for objects.
+- baseURL_template: https://{host}
+  baseurl_source: spec_template
+  description: The Objects API from Apache Ozone — 1 operation(s) for objects.
   name: Apache Ozone Objects API
   slug: apache-ozone-objects-api
 artifact_total: 44
@@ -251,7 +255,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/screenshots/apache-ozone-2026-06-20T172131.png
 security:

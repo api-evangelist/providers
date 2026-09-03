@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -33,16 +46,24 @@ agentic_access:
   summary_line: 12 operations · 10 acting
 api_count: 4
 apis:
-- description: The Media Transformation API from Leia — 9 operation(s) for media transformation.
+- baseURL: https://api.immersity.ai
+  baseurl_source: declared
+  description: The Media Transformation API from Leia — 9 operation(s) for media transformation.
   name: Leia Media Transformation API
   slug: leia-media-transformation-api
-- description: The Product Pricing API from Leia — 1 operation(s) for product pricing.
+- baseURL: https://api.immersity.ai
+  baseurl_source: declared
+  description: The Product Pricing API from Leia — 1 operation(s) for product pricing.
   name: Leia Product Pricing API
   slug: leia-product-pricing-api
-- description: The Protocol API from Leia — 1 operation(s) for protocol.
+- baseURL: https://api.immersity.ai
+  baseurl_source: declared
+  description: The Protocol API from Leia — 1 operation(s) for protocol.
   name: Leia Protocol API
   slug: leia-protocol-api
-- description: The Storage API from Leia — 1 operation(s) for storage.
+- baseURL: https://api.immersity.ai
+  baseurl_source: declared
+  description: The Storage API from Leia — 1 operation(s) for storage.
   name: Leia Storage API
   slug: leia-storage-api
 artifact_total: 13
@@ -232,7 +253,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -242,7 +263,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 53.7
+  previous_composite: 53.5
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -254,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:

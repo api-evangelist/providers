@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Httpstat API from Httpstat.us — 1 operation(s) for httpstat.
+- baseURL: https://httpstat.us
+  baseurl_source: declared
+  description: The Httpstat API from Httpstat.us — 1 operation(s) for httpstat.
   name: Httpstat.us Httpstat API
   slug: httpstat-httpstat-api
-- description: The Random API from Httpstat.us — 1 operation(s) for random.
+- baseURL: https://httpstat.us
+  baseurl_source: declared
+  description: The Random API from Httpstat.us — 1 operation(s) for random.
   name: Httpstat.us Random API
   slug: httpstat-random-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
     regime_id: energy_utilities
     score: 8.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

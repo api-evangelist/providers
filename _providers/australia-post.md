@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: Allows customers to select preferred delivery options at checkout, including delivery speed, delivery or collection location, and specific day, date, and time of delivery. Supports parcel locker deliv
   name: Australia Post Delivery Choices API
   slug: delivery-choices
-- description: The Endpoints API from Australia Post — 9 operation(s) for endpoints.
+- baseURL: https://digitalapi.auspost.com.au
+  baseurl_source: declared
+  description: The Endpoints API from Australia Post — 9 operation(s) for endpoints.
   name: Australia Post Endpoints API
   slug: australia-post-endpoints-api
 artifact_total: 49
@@ -289,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/australia-post/refs/heads/main/screenshots/australia-post-2026-06-20T172603.png
 security:

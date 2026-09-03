@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 68 operations · 61 acting
 api_count: 1
 apis:
-- description: The Barcodes API from PDF.co — 2 operation(s) for barcodes.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Barcodes API from PDF.co — 2 operation(s) for barcodes.
   name: PDF.co Barcodes API
   slug: pdf-co-barcodes-api
-- description: The Document, File & System API from PDF.co — 17 operation(s) for document, file & system.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Document, File & System API from PDF.co — 17 operation(s) for document, file & system.
   name: PDF.co Document, File & System API
   slug: pdf-co-document-file-system-api
-- description: The Editing API from PDF.co — 4 operation(s) for editing.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Editing API from PDF.co — 4 operation(s) for editing.
   name: PDF.co Editing API
   slug: pdf-co-editing-api
-- description: The Excel Conversion API from PDF.co — 6 operation(s) for excel conversion.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Excel Conversion API from PDF.co — 6 operation(s) for excel conversion.
   name: PDF.co Excel Conversion API
   slug: pdf-co-excel-conversion-api
-- description: The Extraction API from PDF.co — 5 operation(s) for extraction.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Extraction API from PDF.co — 5 operation(s) for extraction.
   name: PDF.co Extraction API
   slug: pdf-co-extraction-api
-- description: The Find & Search API from PDF.co — 4 operation(s) for find & search.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Find & Search API from PDF.co — 4 operation(s) for find & search.
   name: PDF.co Find & Search API
   slug: pdf-co-find-search-api
-- description: The Forms API from PDF.co — 1 operation(s) for forms.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Forms API from PDF.co — 1 operation(s) for forms.
   name: PDF.co Forms API
   slug: pdf-co-forms-api
-- description: The Pages API from PDF.co — 3 operation(s) for pages.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The Pages API from PDF.co — 3 operation(s) for pages.
   name: PDF.co Pages API
   slug: pdf-co-pages-api
-- description: The PDF Conversion API from PDF.co — 21 operation(s) for pdf conversion.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The PDF Conversion API from PDF.co — 21 operation(s) for pdf conversion.
   name: PDF.co PDF Conversion API
   slug: pdf-co-pdf-conversion-api
-- description: The PDF Merging & Splitting API from PDF.co — 4 operation(s) for pdf merging & splitting.
+- baseURL: https://api.pdf.co
+  baseurl_source: spec
+  description: The PDF Merging & Splitting API from PDF.co — 4 operation(s) for pdf merging & splitting.
   name: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
 artifact_total: 46
@@ -327,7 +347,7 @@ score:
     catalog_gap: 61.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -337,7 +357,7 @@ score:
     discoverability: 44.4
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 52.1
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -346,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png
 security:

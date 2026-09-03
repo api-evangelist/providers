@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Java Management Extensions (JMX) interface for monitoring and administering Cassandra nodes, including metrics, compaction, repairs, and configuration.
   name: Cassandra JMX Management Interface
   slug: cassandra-jmx-metrics
-- description: The Columns API from Apache Cassandra — 2 operation(s) for columns.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Columns API from Apache Cassandra — 2 operation(s) for columns.
   name: Apache Cassandra Columns API
   slug: cassandra-columns-api
-- description: The Indexes API from Apache Cassandra — 2 operation(s) for indexes.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Indexes API from Apache Cassandra — 2 operation(s) for indexes.
   name: Apache Cassandra Indexes API
   slug: cassandra-indexes-api
-- description: The Keyspaces API from Apache Cassandra — 2 operation(s) for keyspaces.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Keyspaces API from Apache Cassandra — 2 operation(s) for keyspaces.
   name: Apache Cassandra Keyspaces API
   slug: cassandra-keyspaces-api
-- description: The Rows API from Apache Cassandra — 3 operation(s) for rows.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Rows API from Apache Cassandra — 3 operation(s) for rows.
   name: Apache Cassandra Rows API
   slug: cassandra-rows-api
-- description: The Tables API from Apache Cassandra — 2 operation(s) for tables.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Tables API from Apache Cassandra — 2 operation(s) for tables.
   name: Apache Cassandra Tables API
   slug: cassandra-tables-api
-- description: The Types API from Apache Cassandra — 2 operation(s) for types.
+- baseURL_template: http://{host}:8082
+  baseurl_source: spec_template
+  description: The Types API from Apache Cassandra — 2 operation(s) for types.
   name: Apache Cassandra Types API
   slug: cassandra-types-api
 artifact_total: 61
@@ -312,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/screenshots/cassandra-2026-06-20T174035.png
 security:

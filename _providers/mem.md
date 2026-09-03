@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 64 operations · 38 acting
 api_count: 1
 apis:
-- description: The CoreApi__service-info API from Mem — 1 operation(s) for coreapi__service-info.
+- baseURL: https://api.mem.ai
+  baseurl_source: declared
+  description: The CoreApi__service-info API from Mem — 1 operation(s) for coreapi__service-info.
   name: Mem CoreApi__service-info API
   slug: mem-coreapi-service-info-api
-- description: The external API from Mem — 53 operation(s) for external.
+- baseURL: https://api.mem.ai
+  baseurl_source: declared
+  description: The external API from Mem — 53 operation(s) for external.
   name: Mem external API
   slug: mem-external-api
 artifact_total: 14
@@ -254,7 +258,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:

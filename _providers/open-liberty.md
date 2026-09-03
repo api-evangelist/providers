@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Server configuration management via Admin REST Connector.
+- baseURL: https://localhost:9443
+  baseurl_source: spec
+  description: Server configuration management via Admin REST Connector.
   name: Open Liberty Configuration API
   slug: open-liberty-configuration-api
-- description: MicroProfile Health check endpoints.
+- baseURL: https://localhost:9443
+  baseurl_source: spec
+  description: MicroProfile Health check endpoints.
   name: Open Liberty Health API
   slug: open-liberty-health-api
-- description: MicroProfile Metrics endpoints.
+- baseURL: https://localhost:9443
+  baseurl_source: spec
+  description: MicroProfile Metrics endpoints.
   name: Open Liberty Metrics API
   slug: open-liberty-metrics-api
 artifact_total: 16
@@ -173,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/screenshots/open-liberty-2026-06-20T190837.png
 security:

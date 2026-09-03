@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: 'OTP and TOTP-based verification API for authenticating users via SMS, email, or authenticator apps. Bundled with Growth and above plans at no additional cost. Supports mobile SDKs for iOS (Swift) and '
   name: Fyno Verify API
   slug: verify
-- description: The Fire an Event API from Fyno — 2 operation(s) for fire an event.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The Fire an Event API from Fyno — 2 operation(s) for fire an event.
   name: Fyno Fire an Event API
   slug: fyno-fire-an-event-api
-- description: The Fyno Verify API from Fyno — 1 operation(s) for fyno verify.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The Fyno Verify API from Fyno — 1 operation(s) for fyno verify.
   name: Fyno Fyno Verify API
   slug: fyno-fyno-verify-api
-- description: The Manage User Profiles API from Fyno — 6 operation(s) for manage user profiles.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The Manage User Profiles API from Fyno — 6 operation(s) for manage user profiles.
   name: Fyno Manage User Profiles API
   slug: fyno-manage-user-profiles-api
-- description: The Manage User Subscriptions & Preferences API from Fyno — 2 operation(s) for manage user subscriptions & preferences.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The Manage User Subscriptions & Preferences API from Fyno — 2 operation(s) for manage user subscriptions & preferences.
   name: Fyno Manage User Subscriptions & Preferences API
   slug: fyno-manage-user-subscriptions-preferences-api
-- description: The Suppression List API from Fyno — 1 operation(s) for suppression list.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The Suppression List API from Fyno — 1 operation(s) for suppression list.
   name: Fyno Suppression List API
   slug: fyno-suppression-list-api
-- description: The User Properties API from Fyno — 7 operation(s) for user properties.
+- baseURL: https://api.fyno.io/v1
+  baseurl_source: declared
+  description: The User Properties API from Fyno — 7 operation(s) for user properties.
   name: Fyno User Properties API
   slug: fyno-user-properties-api
 artifact_total: 38
@@ -293,7 +305,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyno/refs/heads/main/screenshots/fyno-2026-06-20T181627.png
 security:

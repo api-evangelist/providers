@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -44,55 +44,87 @@ agentic_access:
   summary_line: 82 operations · 44 acting
 api_count: 1
 apis:
-- description: The Freshdesk Webhook API enables real-time communication between Freshdesk and external systems by sending HTTP POST requests when specific events occur within the helpdesk. Webhooks can be triggered
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Freshdesk Webhook API enables real-time communication between Freshdesk and external systems by sending HTTP POST requests when specific events occur within the helpdesk. Webhooks can be triggered
   name: Freshdesk Webhook API
   slug: webhook-api
 - description: 'The Freshdesk App SDK allows developers to build custom applications that extend the functionality of the Freshdesk helpdesk platform. Backed by a Platform-as-a-Service infrastructure that includes a '
   name: Freshdesk App SDK
   slug: app-sdk
-- description: Manage support agents and their properties.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage support agents and their properties.
   name: freshdesk Agents API
   slug: freshdesk-agents-api
-- description: Manage business hour schedules used in SLA calculations.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage business hour schedules used in SLA calculations.
   name: freshdesk Business Hours API
   slug: freshdesk-business-hours-api
-- description: Manage companies (organizations) associated with contacts.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage companies (organizations) associated with contacts.
   name: freshdesk Companies API
   slug: freshdesk-companies-api
-- description: Manage contacts (end users) who submit support tickets.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage contacts (end users) who submit support tickets.
   name: freshdesk Contacts API
   slug: freshdesk-contacts-api
-- description: Manage replies, notes, and conversation threads on tickets.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage replies, notes, and conversation threads on tickets.
   name: freshdesk Conversations API
   slug: freshdesk-conversations-api
-- description: Manage email mailbox configurations for the helpdesk.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage email mailbox configurations for the helpdesk.
   name: freshdesk Email Configs API
   slug: freshdesk-email-configs-api
-- description: Manage agent groups for ticket assignment and routing.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage agent groups for ticket assignment and routing.
   name: freshdesk Groups API
   slug: freshdesk-groups-api
-- description: Manage products to categorize tickets by product line.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage products to categorize tickets by product line.
   name: freshdesk Products API
   slug: freshdesk-products-api
-- description: Manage roles that define agent permissions.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage roles that define agent permissions.
   name: freshdesk Roles API
   slug: freshdesk-roles-api
-- description: View customer satisfaction survey ratings on tickets.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: View customer satisfaction survey ratings on tickets.
   name: freshdesk Satisfaction Ratings API
   slug: freshdesk-satisfaction-ratings-api
-- description: Search across tickets, contacts, and companies using query syntax.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Search across tickets, contacts, and companies using query syntax.
   name: freshdesk Search API
   slug: freshdesk-search-api
-- description: Manage service level agreement policies for ticket response and resolution times.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage service level agreement policies for ticket response and resolution times.
   name: freshdesk SLA Policies API
   slug: freshdesk-sla-policies-api
-- description: Manage knowledge base solution categories, folders, and articles.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage knowledge base solution categories, folders, and articles.
   name: freshdesk Solutions API
   slug: freshdesk-solutions-api
-- description: Manage support tickets including creation, updates, bulk operations, merging, and lifecycle management.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage support tickets including creation, updates, bulk operations, merging, and lifecycle management.
   name: freshdesk Tickets API
   slug: freshdesk-tickets-api
-- description: Track time spent on tickets by agents.
+- baseURL: https://yourdomain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Track time spent on tickets by agents.
   name: freshdesk Time Entries API
   slug: freshdesk-time-entries-api
 artifact_total: 46
@@ -202,16 +234,16 @@ jsonld:
   slug: freshdesk-context
 layout: provider
 modified: '2026-05-19'
-name: freshdesk
+name: Freshdesk
 nav: Providers
 network: true
-overview: 'freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more.
+overview: 'Freshdesk publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Webhook API, Agents API, Business Hours API, and 13 more.
 
 
-  The freshdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Freshdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  freshdesk''s developer surface includes authentication and 6 more developer resources.'
+  Freshdesk''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Freshdesk Plans Pricing
   plan_count: 5
@@ -225,7 +257,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: freshdesk API Rules
+  name: Freshdesk API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -235,7 +267,7 @@ rules:
   slug: freshdesk-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: freshdesk API Rules
+  name: Freshdesk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -251,7 +283,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -261,7 +293,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.9
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -271,10 +303,10 @@ score:
       total: 15
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/screenshots/freshdesk-2026-06-20T181554.png
 security:

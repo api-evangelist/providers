@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 23 operations · 7 acting
 api_count: 1
 apis:
-- description: 'The TradeStation Streaming API provides real-time HTTP streaming endpoints using chunked transfer encoding with newline-delimited JSON for market data and brokerage events. Streams deliver live quote '
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: 'The TradeStation Streaming API provides real-time HTTP streaming endpoints using chunked transfer encoding with newline-delimited JSON for market data and brokerage events. Streams deliver live quote '
   name: TradeStation Streaming API
   slug: tradestation-streaming
-- description: Retrieve account information including account details, balances, beginning-of-day balances, positions, orders, historical orders, and cryptocurrency wallets.
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: Retrieve account information including account details, balances, beginning-of-day balances, positions, orders, historical orders, and cryptocurrency wallets.
   name: TradeStation Accounts API
   slug: tradestation-accounts-api
-- description: Access real-time and historical market data including quotes, bar charts, symbol information, symbol lists, and cryptocurrency pairs.
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: Access real-time and historical market data including quotes, bar charts, symbol information, symbol lists, and cryptocurrency pairs.
   name: TradeStation Market Data API
   slug: tradestation-market-data-api
-- description: Retrieve options-related market data including expirations, strike prices, spread types, and risk/reward calculations.
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: Retrieve options-related market data including expirations, strike prices, spread types, and risk/reward calculations.
   name: TradeStation Options API
   slug: tradestation-options-api
-- description: Place, confirm, modify, and cancel orders for stocks, options, and futures. Includes support for group orders such as bracket and OCO orders.
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: Place, confirm, modify, and cancel orders for stocks, options, and futures. Includes support for group orders such as bracket and OCO orders.
   name: TradeStation Order Execution API
   slug: tradestation-order-execution-api
-- description: Access reference data for order execution including activation triggers and available routing destinations.
+- baseURL: https://api.tradestation.com
+  baseurl_source: declared
+  description: Access reference data for order execution including activation triggers and available routing destinations.
   name: TradeStation Reference Data API
   slug: tradestation-reference-data-api
 artifact_total: 29
@@ -240,7 +252,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -250,7 +262,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 45.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -265,7 +277,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/screenshots/tradestation-2026-08-17T125935.png
 security:

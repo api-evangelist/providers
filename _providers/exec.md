@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -45,31 +45,49 @@ agentic_access:
   summary_line: 32 operations · 11 acting
 api_count: 1
 apis:
-- description: The Collections API from Exec — 1 operation(s) for collections.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Collections API from Exec — 1 operation(s) for collections.
   name: Exec Collections API
   slug: exec-collections-api
-- description: The Knowledge Hub - Folders API from Exec — 2 operation(s) for knowledge hub - folders.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Knowledge Hub - Folders API from Exec — 2 operation(s) for knowledge hub - folders.
   name: Exec Knowledge Hub - Folders API
   slug: exec-knowledge-hub-folders-api
-- description: The Knowledge Hub - Pages API from Exec — 3 operation(s) for knowledge hub - pages.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Knowledge Hub - Pages API from Exec — 3 operation(s) for knowledge hub - pages.
   name: Exec Knowledge Hub - Pages API
   slug: exec-knowledge-hub-pages-api
-- description: The Knowledge Hub - Sources API from Exec — 2 operation(s) for knowledge hub - sources.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Knowledge Hub - Sources API from Exec — 2 operation(s) for knowledge hub - sources.
   name: Exec Knowledge Hub - Sources API
   slug: exec-knowledge-hub-sources-api
-- description: The Scenario Studio API from Exec — 3 operation(s) for scenario studio.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Scenario Studio API from Exec — 3 operation(s) for scenario studio.
   name: Exec Scenario Studio API
   slug: exec-scenario-studio-api
-- description: The Scenarios API from Exec — 6 operation(s) for scenarios.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Scenarios API from Exec — 6 operation(s) for scenarios.
   name: Exec Scenarios API
   slug: exec-scenarios-api
-- description: The Sessions API from Exec — 2 operation(s) for sessions.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Sessions API from Exec — 2 operation(s) for sessions.
   name: Exec Sessions API
   slug: exec-sessions-api
-- description: The Skills API from Exec — 2 operation(s) for skills.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Skills API from Exec — 2 operation(s) for skills.
   name: Exec Skills API
   slug: exec-skills-api
-- description: The Workspace API from Exec — 3 operation(s) for workspace.
+- baseURL: https://api.exec.com/rest/v1
+  baseurl_source: declared
+  description: The Workspace API from Exec — 3 operation(s) for workspace.
   name: Exec Workspace API
   slug: exec-workspace-api
 artifact_total: 27
@@ -285,7 +303,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -295,7 +313,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 65.8
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,7 +331,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exec/refs/heads/main/screenshots/exec-2026-07-25T213855.png
 security:

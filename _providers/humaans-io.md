@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 63 operations · 31 acting
 api_count: 1
 apis:
-- description: Read-only audit trail
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Read-only audit trail
   name: Humaans Audit Events API
   slug: humaans-io-audit-events-api
-- description: Employee bank account records
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Employee bank account records
   name: Humaans Bank Accounts API
   slug: humaans-io-bank-accounts-api
-- description: Tenant company record
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Tenant company record
   name: Humaans Companies API
   slug: humaans-io-companies-api
-- description: Salary, bonus, and compensation history
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Salary, bonus, and compensation history
   name: Humaans Compensations API
   slug: humaans-io-compensations-api
-- description: Tenant-defined custom field definitions and values
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Tenant-defined custom field definitions and values
   name: Humaans Custom Fields API
   slug: humaans-io-custom-fields-api
-- description: Personal and company document storage
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Personal and company document storage
   name: Humaans Documents API
   slug: humaans-io-documents-api
-- description: Equipment assigned to employees
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Equipment assigned to employees
   name: Humaans Equipment API
   slug: humaans-io-equipment-api
-- description: Position and role definitions
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Position and role definitions
   name: Humaans Job Roles API
   slug: humaans-io-job-roles-api
-- description: Office and remote work locations
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Office and remote work locations
   name: Humaans Locations API
   slug: humaans-io-locations-api
-- description: Employee records, the canonical resource of the HRIS
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Employee records, the canonical resource of the HRIS
   name: Humaans People API
   slug: humaans-io-people-api
-- description: Performance reviews, cycles, templates, and ratings
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Performance reviews, cycles, templates, and ratings
   name: Humaans Performance API
   slug: humaans-io-performance-api
-- description: Time off, holidays, leave allocations, policies, and types
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Time off, holidays, leave allocations, policies, and types
   name: Humaans Time Away API
   slug: humaans-io-time-away-api
-- description: Timesheet entries and submissions
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Timesheet entries and submissions
   name: Humaans Timesheet API
   slug: humaans-io-timesheet-api
-- description: Outbound HMAC-signed event subscriptions
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Outbound HMAC-signed event subscriptions
   name: Humaans Webhooks API
   slug: humaans-io-webhooks-api
-- description: Work schedule patterns
+- baseURL: https://app.humaans.io/api
+  baseurl_source: declared
+  description: Work schedule patterns
   name: Humaans Working Patterns API
   slug: humaans-io-working-patterns-api
 artifact_total: 57
@@ -344,7 +374,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humaans-io/refs/heads/main/screenshots/humaans-io-2026-06-20T182927.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 118 operations · 71 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The agentic-search > agenticSearch API from Coactive — 2 operation(s) for agentic-search > agenticsearch.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The agentic-search > agenticSearch API from Coactive — 2 operation(s) for agentic-search > agenticsearch.
   name: Coactive agentic-search > agenticSearch API
   slug: coactive-agentic-search-agenticsearch-api
-- description: The celebrity-detection API from Coactive — 7 operation(s) for celebrity-detection.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The celebrity-detection API from Coactive — 7 operation(s) for celebrity-detection.
   name: Coactive celebrity-detection API
   slug: coactive-celebrity-detection-api
-- description: The classification API from Coactive — 1 operation(s) for classification.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The classification API from Coactive — 1 operation(s) for classification.
   name: Coactive classification API
   slug: coactive-classification-api
-- description: The concept API from Coactive — 5 operation(s) for concept.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The concept API from Coactive — 5 operation(s) for concept.
   name: Coactive concept API
   slug: coactive-concept-api
-- description: The connections > connections API from Coactive — 5 operation(s) for connections > connections.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The connections > connections API from Coactive — 5 operation(s) for connections > connections.
   name: Coactive connections > connections API
   slug: coactive-connections-connections-api
-- description: The context-studio > adSegments API from Coactive — 1 operation(s) for context-studio > adsegments.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The context-studio > adSegments API from Coactive — 1 operation(s) for context-studio > adsegments.
   name: Coactive context-studio > adSegments API
   slug: coactive-context-studio-adsegments-api
-- description: The datasets > dataset API from Coactive — 2 operation(s) for datasets > dataset.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The datasets > dataset API from Coactive — 2 operation(s) for datasets > dataset.
   name: Coactive datasets > dataset API
   slug: coactive-datasets-dataset-api
-- description: The datasets > datasetConfig API from Coactive — 1 operation(s) for datasets > datasetconfig.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The datasets > datasetConfig API from Coactive — 1 operation(s) for datasets > datasetconfig.
   name: Coactive datasets > datasetConfig API
   slug: coactive-datasets-datasetconfig-api
-- description: The datasets > encoder API from Coactive — 1 operation(s) for datasets > encoder.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The datasets > encoder API from Coactive — 1 operation(s) for datasets > encoder.
   name: Coactive datasets > encoder API
   slug: coactive-datasets-encoder-api
-- description: The dynamicTags API from Coactive — 1 operation(s) for dynamictags.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The dynamicTags API from Coactive — 1 operation(s) for dynamictags.
   name: Coactive dynamicTags API
   slug: coactive-dynamictags-api
-- description: The ingestion API from Coactive — 1 operation(s) for ingestion.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The ingestion API from Coactive — 1 operation(s) for ingestion.
   name: Coactive ingestion API
   slug: coactive-ingestion-api
-- description: The ingestion > ingest API from Coactive — 6 operation(s) for ingestion > ingest.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The ingestion > ingest API from Coactive — 6 operation(s) for ingestion > ingest.
   name: Coactive ingestion > ingest API
   slug: coactive-ingestion-ingest-api
-- description: The ingestion > status API from Coactive — 9 operation(s) for ingestion > status.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The ingestion > status API from Coactive — 9 operation(s) for ingestion > status.
   name: Coactive ingestion > status API
   slug: coactive-ingestion-status-api
-- description: The queries API from Coactive — 9 operation(s) for queries.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The queries API from Coactive — 9 operation(s) for queries.
   name: Coactive queries API
   slug: coactive-queries-api
-- description: The search-metadata-filter API from Coactive — 8 operation(s) for search-metadata-filter.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The search-metadata-filter API from Coactive — 8 operation(s) for search-metadata-filter.
   name: Coactive search-metadata-filter API
   slug: coactive-search-metadata-filter-api
-- description: The search > search API from Coactive — 10 operation(s) for search > search.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The search > search API from Coactive — 10 operation(s) for search > search.
   name: Coactive search > search API
   slug: coactive-search-search-api
-- description: The search-video > searchVideo API from Coactive — 1 operation(s) for search-video > searchvideo.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The search-video > searchVideo API from Coactive — 1 operation(s) for search-video > searchvideo.
   name: Coactive search-video > searchVideo API
   slug: coactive-search-video-searchvideo-api
-- description: The systemCredentials API from Coactive — 2 operation(s) for systemcredentials.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The systemCredentials API from Coactive — 2 operation(s) for systemcredentials.
   name: Coactive systemCredentials API
   slug: coactive-systemcredentials-api
-- description: The userManagement API from Coactive — 6 operation(s) for usermanagement.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The userManagement API from Coactive — 6 operation(s) for usermanagement.
   name: Coactive userManagement API
   slug: coactive-usermanagement-api
-- description: The video-narative-metadata > videoNarrativeMetadata API from Coactive — 13 operation(s) for video-narative-metadata > videonarrativemetadata.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The video-narative-metadata > videoNarrativeMetadata API from Coactive — 13 operation(s) for video-narative-metadata > videonarrativemetadata.
   name: Coactive video-narative-metadata > videoNarrativeMetadata API
   slug: coactive-video-narative-metadata-videonarrativemetadata-api
-- description: The video-narative-metadata > videoSummarization API from Coactive — 1 operation(s) for video-narative-metadata > videosummarization.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The video-narative-metadata > videoSummarization API from Coactive — 1 operation(s) for video-narative-metadata > videosummarization.
   name: Coactive video-narative-metadata > videoSummarization API
   slug: coactive-video-narative-metadata-videosummarization-api
-- description: The video-scores > videoScores API from Coactive — 4 operation(s) for video-scores > videoscores.
+- baseURL: https://api.coactive.ai
+  baseurl_source: declared
+  description: The video-scores > videoScores API from Coactive — 4 operation(s) for video-scores > videoscores.
   name: Coactive video-scores > videoScores API
   slug: coactive-video-scores-videoscores-api
 artifact_total: 53
@@ -387,7 +431,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:

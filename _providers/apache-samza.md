@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Checkpoints API from Apache Samza — 1 operation(s) for checkpoints.
+- baseURL: https://samza.example.com/v1
+  baseurl_source: spec
+  description: The Checkpoints API from Apache Samza — 1 operation(s) for checkpoints.
   name: Apache Samza Checkpoints API
   slug: apache-samza-checkpoints-api
-- description: The Jobs API from Apache Samza — 4 operation(s) for jobs.
+- baseURL: https://samza.example.com/v1
+  baseurl_source: spec
+  description: The Jobs API from Apache Samza — 4 operation(s) for jobs.
   name: Apache Samza Jobs API
   slug: apache-samza-jobs-api
-- description: The Tasks API from Apache Samza — 1 operation(s) for tasks.
+- baseURL: https://samza.example.com/v1
+  baseurl_source: spec
+  description: The Tasks API from Apache Samza — 1 operation(s) for tasks.
   name: Apache Samza Tasks API
   slug: apache-samza-tasks-api
 artifact_total: 54
@@ -282,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/screenshots/apache-samza-2026-06-20T172138.png
 security:

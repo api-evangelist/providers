@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 149 operations · 93 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: The account API from ZippyKid — 4 operation(s) for account.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The account API from ZippyKid — 4 operation(s) for account.
   name: ZippyKid account API
   slug: zippykid-account-api
-- description: The activity API from ZippyKid — 2 operation(s) for activity.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The activity API from ZippyKid — 2 operation(s) for activity.
   name: ZippyKid activity API
   slug: zippykid-activity-api
-- description: The auth API from ZippyKid — 2 operation(s) for auth.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The auth API from ZippyKid — 2 operation(s) for auth.
   name: ZippyKid auth API
   slug: zippykid-auth-api
-- description: The collaborators API from ZippyKid — 8 operation(s) for collaborators.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The collaborators API from ZippyKid — 8 operation(s) for collaborators.
   name: ZippyKid collaborators API
   slug: zippykid-collaborators-api
-- description: 'The http: API from ZippyKid — 1 operation(s) for http:.'
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: 'The http: API from ZippyKid — 1 operation(s) for http:.'
   name: 'ZippyKid http: API'
   slug: zippykid-http-api
-- description: The mu-plugins API from ZippyKid — 2 operation(s) for mu-plugins.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The mu-plugins API from ZippyKid — 2 operation(s) for mu-plugins.
   name: ZippyKid mu-plugins API
   slug: zippykid-mu-plugins-api
-- description: The sites API from ZippyKid — 88 operation(s) for sites.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The sites API from ZippyKid — 88 operation(s) for sites.
   name: ZippyKid sites API
   slug: zippykid-sites-api
-- description: The zones API from ZippyKid — 5 operation(s) for zones.
+- baseURL: https://my.pressable.com/v1
+  baseurl_source: declared
+  description: The zones API from ZippyKid — 5 operation(s) for zones.
   name: ZippyKid zones API
   slug: zippykid-zones-api
 artifact_total: 23
@@ -255,7 +271,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -265,7 +281,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 46.5
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -277,7 +293,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/screenshots/zippykid-2026-08-17T083111.png
 security:

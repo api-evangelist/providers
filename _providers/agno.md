@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 117 operations · 61 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The A2A API from Agno — 15 operation(s) for a2a.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The A2A API from Agno — 15 operation(s) for a2a.
   name: Agno A2A API
   slug: agno-a2a-api
-- description: The Agents API from Agno — 6 operation(s) for agents.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Agents API from Agno — 6 operation(s) for agents.
   name: Agno Agents API
   slug: agno-agents-api
-- description: The AGUI API from Agno — 2 operation(s) for agui.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The AGUI API from Agno — 2 operation(s) for agui.
   name: Agno AGUI API
   slug: agno-agui-api
-- description: The Approvals API from Agno — 5 operation(s) for approvals.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Approvals API from Agno — 5 operation(s) for approvals.
   name: Agno Approvals API
   slug: agno-approvals-api
-- description: The Components API from Agno — 6 operation(s) for components.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Components API from Agno — 6 operation(s) for components.
   name: Agno Components API
   slug: agno-components-api
-- description: The Core API from Agno — 2 operation(s) for core.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Core API from Agno — 2 operation(s) for core.
   name: Agno Core API
   slug: agno-core-api
-- description: The Database API from Agno — 2 operation(s) for database.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Database API from Agno — 2 operation(s) for database.
   name: Agno Database API
   slug: agno-database-api
-- description: The Evals API from Agno — 2 operation(s) for evals.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Evals API from Agno — 2 operation(s) for evals.
   name: Agno Evals API
   slug: agno-evals-api
-- description: The Health API from Agno — 1 operation(s) for health.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Health API from Agno — 1 operation(s) for health.
   name: Agno Health API
   slug: agno-health-api
-- description: The Home API from Agno — 1 operation(s) for home.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Home API from Agno — 1 operation(s) for home.
   name: Agno Home API
   slug: agno-home-api
-- description: The Knowledge API from Agno — 8 operation(s) for knowledge.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Knowledge API from Agno — 8 operation(s) for knowledge.
   name: Agno Knowledge API
   slug: agno-knowledge-api
-- description: The Memory API from Agno — 5 operation(s) for memory.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Memory API from Agno — 5 operation(s) for memory.
   name: Agno Memory API
   slug: agno-memory-api
-- description: The Metrics API from Agno — 2 operation(s) for metrics.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Metrics API from Agno — 2 operation(s) for metrics.
   name: Agno Metrics API
   slug: agno-metrics-api
-- description: The Registry API from Agno — 1 operation(s) for registry.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Registry API from Agno — 1 operation(s) for registry.
   name: Agno Registry API
   slug: agno-registry-api
-- description: The Schedules API from Agno — 7 operation(s) for schedules.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Schedules API from Agno — 7 operation(s) for schedules.
   name: Agno Schedules API
   slug: agno-schedules-api
-- description: The Sessions API from Agno — 5 operation(s) for sessions.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Sessions API from Agno — 5 operation(s) for sessions.
   name: Agno Sessions API
   slug: agno-sessions-api
-- description: The Slack API from Agno — 2 operation(s) for slack.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Slack API from Agno — 2 operation(s) for slack.
   name: Agno Slack API
   slug: agno-slack-api
-- description: The Teams API from Agno — 5 operation(s) for teams.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Teams API from Agno — 5 operation(s) for teams.
   name: Agno Teams API
   slug: agno-teams-api
-- description: The Traces API from Agno — 5 operation(s) for traces.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Traces API from Agno — 5 operation(s) for traces.
   name: Agno Traces API
   slug: agno-traces-api
-- description: The Whatsapp API from Agno — 2 operation(s) for whatsapp.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Whatsapp API from Agno — 2 operation(s) for whatsapp.
   name: Agno Whatsapp API
   slug: agno-whatsapp-api
-- description: The Workflows API from Agno — 5 operation(s) for workflows.
+- baseURL: https://api.agno.com
+  baseurl_source: declared
+  description: The Workflows API from Agno — 5 operation(s) for workflows.
   name: Agno Workflows API
   slug: agno-workflows-api
 artifact_total: 64
@@ -356,7 +398,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:

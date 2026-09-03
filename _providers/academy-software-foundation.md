@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -73,16 +73,24 @@ apis:
 - description: OpenPBR is an open specification and reference implementation for a physically-based shading model. It defines a standard material definition language that can be used across different renderers to ac
   name: OpenPBR
   slug: openpbr
-- description: Manage render host machines in the farm
+- baseURL: http://{opencue-gateway-host}:8448
+  baseurl_source: declared
+  description: Manage render host machines in the farm
   name: Academy Software Foundation Hosts API
   slug: academy-software-foundation-hosts-api
-- description: Manage render jobs submitted to the render farm
+- baseURL: http://{opencue-gateway-host}:8448
+  baseurl_source: declared
+  description: Manage render jobs submitted to the render farm
   name: Academy Software Foundation Jobs API
   slug: academy-software-foundation-jobs-api
-- description: Manage layers within a render job
+- baseURL: http://{opencue-gateway-host}:8448
+  baseurl_source: declared
+  description: Manage layers within a render job
   name: Academy Software Foundation Layers API
   slug: academy-software-foundation-layers-api
-- description: Manage shows (productions) in OpenCue
+- baseURL: http://{opencue-gateway-host}:8448
+  baseurl_source: declared
+  description: Manage shows (productions) in OpenCue
   name: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
 artifact_total: 87
@@ -487,7 +495,7 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -500,7 +508,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 55.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -512,7 +520,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:

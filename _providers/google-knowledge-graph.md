@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The Entities:search API from Google Knowledge Graph Search — 1 operation(s) for entities:search.
+- baseURL: https://kgsearch.googleapis.com/v1
+  baseurl_source: declared
+  description: The Entities:search API from Google Knowledge Graph Search — 1 operation(s) for entities:search.
   name: Google Knowledge Graph Search Entities:search API
   slug: google-knowledge-graph-entities-search-api
 artifact_total: 16
@@ -204,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/screenshots/google-knowledge-graph-2026-06-20T182208.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 25 operations · 1 acting
 api_count: 1
 apis:
-- description: Airdrop eligibility endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Airdrop eligibility endpoints
   name: Octav Airdrops API
   slug: octav-airdrops-api
-- description: Token approval endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Token approval endpoints
   name: Octav Approvals API
   slug: octav-approvals-api
-- description: Ethereum beacon chain validator endpoints — details, rewards, withdrawals, and deposits (mainnet only)
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Ethereum beacon chain validator endpoints — details, rewards, withdrawals, and deposits (mainnet only)
   name: Octav Beacon Validators API
   slug: octav-beacon-validators-api
-- description: Blockchain network and protocol endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Blockchain network and protocol endpoints
   name: Octav Chains API
   slug: octav-chains-api
-- description: Resolve a contract address to its DeFi protocol
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Resolve a contract address to its DeFi protocol
   name: Octav Contract Protocol API
   slug: octav-contract-protocol-api
-- description: Credit balance endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Credit balance endpoints
   name: Octav Credits API
   slug: octav-credits-api
-- description: Net Asset Value endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Net Asset Value endpoints
   name: Octav Nav API
   slug: octav-nav-api
-- description: Portfolio and holdings endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Portfolio and holdings endpoints
   name: Octav Portfolio API
   slug: octav-portfolio-api
-- description: Status check endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Status check endpoints
   name: Octav Status API
   slug: octav-status-api
-- description: Data synchronization endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Data synchronization endpoints
   name: Octav Sync API
   slug: octav-sync-api
-- description: Token data endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Token data endpoints
   name: Octav Tokens API
   slug: octav-tokens-api
-- description: Transaction history endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Transaction history endpoints
   name: Octav Transactions API
   slug: octav-transactions-api
-- description: Virtual user management and portfolio endpoints (Pro only)
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Virtual user management and portfolio endpoints (Pro only)
   name: Octav Virtual Users API
   slug: octav-virtual-users-api
-- description: Wallet information endpoints
+- baseURL: https://api.octav.fi/v1
+  baseurl_source: declared
+  description: Wallet information endpoints
   name: Octav Wallet API
   slug: octav-wallet-api
 artifact_total: 33
@@ -306,7 +334,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octav/refs/heads/main/screenshots/octav-2026-08-07T185936.png
 security:

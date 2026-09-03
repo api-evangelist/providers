@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) us
   name: AWS Elastic Beanstalk API
   slug: management-api
-- description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk api.
+- baseURL: https://elasticbeanstalk.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AWS Elastic Beanstalk API API from AWS Elastic Beanstalk — 1 operation(s) for aws elastic beanstalk api.
   name: AWS Elastic Beanstalk AWS Elastic Beanstalk API API
   slug: aws-elastic-beanstalk-aws-elastic-beanstalk-api-api
 artifact_total: 10
@@ -141,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/screenshots/aws-elastic-beanstalk-2026-06-20T172748.png
 security:

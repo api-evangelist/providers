@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Free cocktail and drinks recipe database with a REST API providing drink recipes, ingredients, glass types, categories, and cocktail images. Search cocktails by name, ingredient, category, glass type,
   name: TheCocktailDB API
   slug: thecocktaildb
-- description: Filter cocktails by attributes
+- baseURL: https://www.thecocktaildb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Filter cocktails by attributes
   name: TheCocktailDB Filter API
   slug: thecocktaildb-filter-api
-- description: List available categories, glasses, and ingredients
+- baseURL: https://www.thecocktaildb.com/api/json/v1/1
+  baseurl_source: declared
+  description: List available categories, glasses, and ingredients
   name: TheCocktailDB List API
   slug: thecocktaildb-list-api
-- description: Retrieve details by ID
+- baseURL: https://www.thecocktaildb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Retrieve details by ID
   name: TheCocktailDB Lookup API
   slug: thecocktaildb-lookup-api
-- description: Search for cocktails and ingredients
+- baseURL: https://www.thecocktaildb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Search for cocktails and ingredients
   name: TheCocktailDB Search API
   slug: thecocktaildb-search-api
 artifact_total: 31
@@ -258,7 +266,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecocktaildb/refs/heads/main/screenshots/thecocktaildb-2026-06-20T195244.png
 security:

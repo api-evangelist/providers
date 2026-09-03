@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: The Echo API from Grafana Tempo — 1 operation(s) for echo.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Echo API from Grafana Tempo — 1 operation(s) for echo.
   name: Grafana Tempo Echo API
   slug: grafana-tempo-echo-api
-- description: The Metrics API from Grafana Tempo — 1 operation(s) for metrics.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Metrics API from Grafana Tempo — 1 operation(s) for metrics.
   name: Grafana Tempo Metrics API
   slug: grafana-tempo-metrics-api
-- description: The Ready API from Grafana Tempo — 1 operation(s) for ready.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Ready API from Grafana Tempo — 1 operation(s) for ready.
   name: Grafana Tempo Ready API
   slug: grafana-tempo-ready-api
-- description: The Search API from Grafana Tempo — 5 operation(s) for search.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Search API from Grafana Tempo — 5 operation(s) for search.
   name: Grafana Tempo Search API
   slug: grafana-tempo-search-api
-- description: The Status API from Grafana Tempo — 1 operation(s) for status.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Status API from Grafana Tempo — 1 operation(s) for status.
   name: Grafana Tempo Status API
   slug: grafana-tempo-status-api
-- description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
+- baseURL: http://localhost:3200
+  baseurl_source: spec
+  description: The Traces API from Grafana Tempo — 1 operation(s) for traces.
   name: Grafana Tempo Traces API
   slug: grafana-tempo-traces-api
 artifact_total: 21
@@ -194,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/screenshots/grafana-tempo-2026-06-20T182315.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 77 operations · 38 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: REST APIs for working with Registry artifacts
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for working with Registry artifacts
   name: Speakeasy Artifacts API
   slug: speakeasy-api-artifacts-api
-- description: REST APIs for managing Authentication
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing Authentication
   name: Speakeasy Auth API
   slug: speakeasy-api-auth-api
-- description: REST APIs for retrieving Code Samples
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for retrieving Code Samples
   name: Speakeasy CodeSamples API
   slug: speakeasy-api-codesamples-api
-- description: REST APIs for managing events captured by a speakeasy binary (CLI, GitHub Action etc)
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing events captured by a speakeasy binary (CLI, GitHub Action etc)
   name: Speakeasy Events API
   slug: speakeasy-api-events-api
-- description: REST APIs for managing the github integration
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing the github integration
   name: Speakeasy Github API
   slug: speakeasy-api-github-api
-- description: REST APIs for managing Organizations (speakeasy L1 Tenancy construct)
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing Organizations (speakeasy L1 Tenancy construct)
   name: Speakeasy Organizations API
   slug: speakeasy-api-organizations-api
-- description: The PublishingTokens API from Speakeasy — 4 operation(s) for publishingtokens.
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: The PublishingTokens API from Speakeasy — 4 operation(s) for publishingtokens.
   name: Speakeasy PublishingTokens API
   slug: speakeasy-api-publishingtokens-api
-- description: REST APIs for managing reports (lint reports, change reports, etc)
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing reports (lint reports, change reports, etc)
   name: Speakeasy Reports API
   slug: speakeasy-api-reports-api
-- description: The SchemaStore API from Speakeasy — 1 operation(s) for schemastore.
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: The SchemaStore API from Speakeasy — 1 operation(s) for schemastore.
   name: Speakeasy SchemaStore API
   slug: speakeasy-api-schemastore-api
-- description: REST APIs for managing short URLs
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing short URLs
   name: Speakeasy ShortURLs API
   slug: speakeasy-api-shorturls-api
-- description: REST APIs for managing subscriptions
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing subscriptions
   name: Speakeasy Subscriptions API
   slug: speakeasy-api-subscriptions-api
-- description: REST APIs for managing LLM OAS suggestions
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing LLM OAS suggestions
   name: Speakeasy Suggest API
   slug: speakeasy-api-suggest-api
-- description: REST APIs for managing Workspaces (speakeasy tenancy)
+- baseURL: https://api.prod.speakeasy.com
+  baseurl_source: declared
+  description: REST APIs for managing Workspaces (speakeasy tenancy)
   name: Speakeasy Workspaces API
   slug: speakeasy-api-workspaces-api
 artifact_total: 34
@@ -233,7 +259,7 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

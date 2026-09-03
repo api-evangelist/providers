@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: Integration connector configuration
+- baseURL: https://api.squillo.io/v1
+  baseurl_source: declared
+  description: Integration connector configuration
   name: Squillo Connectors API
   slug: squillo-connectors-api
-- description: Workflow execution monitoring and management
+- baseURL: https://api.squillo.io/v1
+  baseurl_source: declared
+  description: Workflow execution monitoring and management
   name: Squillo Executions API
   slug: squillo-executions-api
-- description: Workflow variable and secret management
+- baseURL: https://api.squillo.io/v1
+  baseurl_source: declared
+  description: Workflow variable and secret management
   name: Squillo Variables API
   slug: squillo-variables-api
-- description: Workflow definition and management
+- baseURL: https://api.squillo.io/v1
+  baseurl_source: declared
+  description: Workflow definition and management
   name: Squillo Workflows API
   slug: squillo-workflows-api
 artifact_total: 23
@@ -236,7 +244,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squillo/refs/heads/main/screenshots/squillo-2026-06-20T194434.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -47,31 +47,49 @@ apis:
 - description: The Trigger.dev Realtime API streams live run state and typed stream data to backend and frontend clients. Backend SDK methods include runs.subscribeToRun, runs.subscribeToRunsWithTag, and runs.subscr
   name: Trigger.dev Realtime API
   slug: trigger-dev-realtime
-- description: Create and retrieve large-scale batch runs.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Create and retrieve large-scale batch runs.
   name: Trigger.dev Batches API
   slug: trigger-dev-batches-api
-- description: List deployments and promote versions to production.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: List deployments and promote versions to production.
   name: Trigger.dev Deployments API
   slug: trigger-dev-deployments-api
-- description: Create, read, update, delete, and import environment variables per project and environment.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Create, read, update, delete, and import environment variables per project and environment.
   name: Trigger.dev Environment Variables API
   slug: trigger-dev-environment-variables-api
-- description: Execute TRQL queries against runs, tasks, and metrics for dashboards and analytics.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Execute TRQL queries against runs, tasks, and metrics for dashboards and analytics.
   name: Trigger.dev Query API
   slug: trigger-dev-query-api
-- description: Manage task queues including pause, resume, and concurrency overrides.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Manage task queues including pause, resume, and concurrency overrides.
   name: Trigger.dev Queues API
   slug: trigger-dev-queues-api
-- description: List, retrieve, cancel, replay, reschedule, tag, and inspect run events, results, and traces.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: List, retrieve, cancel, replay, reschedule, tag, and inspect run events, results, and traces.
   name: Trigger.dev Runs API
   slug: trigger-dev-runs-api
-- description: Create and manage cron schedules with IANA timezone support.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Create and manage cron schedules with IANA timezone support.
   name: Trigger.dev Schedules API
   slug: trigger-dev-schedules-api
-- description: Trigger individual or batched task runs.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Trigger individual or batched task runs.
   name: Trigger.dev Tasks API
   slug: trigger-dev-tasks-api
-- description: Create, list, retrieve, and complete waitpoint tokens for human-in-the-loop workflows.
+- baseURL: https://api.trigger.dev
+  baseurl_source: declared
+  description: Create, list, retrieve, and complete waitpoint tokens for human-in-the-loop workflows.
   name: Trigger.dev Waitpoints API
   slug: trigger-dev-waitpoints-api
 artifact_total: 50
@@ -348,7 +366,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trigger-dev/refs/heads/main/screenshots/trigger-dev-2026-06-20T195710.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 16 operations · 4 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Query blockchain balances and supported chain metadata across multiple networks.
+- baseURL: https://svc.cipherowl.ai
+  baseurl_source: declared
+  description: Query blockchain balances and supported chain metadata across multiple networks.
   name: CipherOwl Onchain Service API
   slug: cipherowl-onchain-service-api
-- description: Manage organization-scoped screening overrides (allowlists and denylists) for blockchain addresses.
+- baseURL: https://svc.cipherowl.ai
+  baseurl_source: declared
+  description: Manage organization-scoped screening overrides (allowlists and denylists) for blockchain addresses.
   name: CipherOwl Private Data API API
   slug: cipherowl-private-data-api-api
-- description: Screen blockchain addresses for risk, retrieve risk reasons, breakdowns, scores, and generate reports.
+- baseURL: https://svc.cipherowl.ai
+  baseurl_source: declared
+  description: Screen blockchain addresses for risk, retrieve risk reasons, breakdowns, scores, and generate reports.
   name: CipherOwl SRR API API
   slug: cipherowl-srr-api-api
 arazzos:
@@ -242,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
 security:

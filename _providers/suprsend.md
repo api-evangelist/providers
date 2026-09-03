@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -47,64 +47,104 @@ apis:
 - description: The SuprSend Management API provides programmatic control over workspace assets including workflows, templates, and other SuprSend configuration resources. It uses service tokens for authentication ra
   name: SuprSend Management API
   slug: management-api
-- description: The Broadcast API from SuprSend — 1 operation(s) for broadcast.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Broadcast API from SuprSend — 1 operation(s) for broadcast.
   name: SuprSend Broadcast API
   slug: suprsend-broadcast-api
-- description: The Broadcast Run API from SuprSend — 1 operation(s) for broadcast run.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Broadcast Run API from SuprSend — 1 operation(s) for broadcast run.
   name: SuprSend Broadcast Run API
   slug: suprsend-broadcast-run-api
-- description: The Bulk API from SuprSend — 3 operation(s) for bulk.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Bulk API from SuprSend — 3 operation(s) for bulk.
   name: SuprSend Bulk API
   slug: suprsend-bulk-api
-- description: The Event API from SuprSend — 5 operation(s) for event.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Event API from SuprSend — 5 operation(s) for event.
   name: SuprSend Event API
   slug: suprsend-event-api
-- description: The Message API from SuprSend — 1 operation(s) for message.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Message API from SuprSend — 1 operation(s) for message.
   name: SuprSend Message API
   slug: suprsend-message-api
-- description: The Object API from SuprSend — 8 operation(s) for object.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Object API from SuprSend — 8 operation(s) for object.
   name: SuprSend Object API
   slug: suprsend-object-api
-- description: The Preference Category API from SuprSend — 4 operation(s) for preference category.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Preference Category API from SuprSend — 4 operation(s) for preference category.
   name: SuprSend Preference Category API
   slug: suprsend-preference-category-api
-- description: The Schema API from SuprSend — 3 operation(s) for schema.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Schema API from SuprSend — 3 operation(s) for schema.
   name: SuprSend Schema API
   slug: suprsend-schema-api
-- description: The Subscriber List API from SuprSend — 11 operation(s) for subscriber list.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Subscriber List API from SuprSend — 11 operation(s) for subscriber list.
   name: SuprSend Subscriber List API
   slug: suprsend-subscriber-list-api
-- description: The Template API from SuprSend — 12 operation(s) for template.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Template API from SuprSend — 12 operation(s) for template.
   name: SuprSend Template API
   slug: suprsend-template-api
-- description: The Tenant API from SuprSend — 7 operation(s) for tenant.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Tenant API from SuprSend — 7 operation(s) for tenant.
   name: SuprSend Tenant API
   slug: suprsend-tenant-api
-- description: The Translation API from SuprSend — 5 operation(s) for translation.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Translation API from SuprSend — 5 operation(s) for translation.
   name: SuprSend Translation API
   slug: suprsend-translation-api
-- description: The Trigger API from SuprSend — 2 operation(s) for trigger.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Trigger API from SuprSend — 2 operation(s) for trigger.
   name: SuprSend Trigger API
   slug: suprsend-trigger-api
-- description: The User API from SuprSend — 9 operation(s) for user.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The User API from SuprSend — 9 operation(s) for user.
   name: SuprSend User API
   slug: suprsend-user-api
-- description: The Workflow API from SuprSend — 4 operation(s) for workflow.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Workflow API from SuprSend — 4 operation(s) for workflow.
   name: SuprSend Workflow API
   slug: suprsend-workflow-api
-- description: The Workflow Run API from SuprSend — 1 operation(s) for workflow run.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Workflow Run API from SuprSend — 1 operation(s) for workflow run.
   name: SuprSend Workflow Run API
   slug: suprsend-workflow-run-api
-- description: The Workspace API from SuprSend — 1 operation(s) for workspace.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Workspace API from SuprSend — 1 operation(s) for workspace.
   name: SuprSend Workspace API
   slug: suprsend-workspace-api
-- description: The Ws Api Key API from SuprSend — 2 operation(s) for ws api key.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Ws Api Key API from SuprSend — 2 operation(s) for ws api key.
   name: SuprSend Ws Api Key API
   slug: suprsend-ws-api-key-api
-- description: The Ws Public Key API from SuprSend — 3 operation(s) for ws public key.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Ws Public Key API from SuprSend — 3 operation(s) for ws public key.
   name: SuprSend Ws Public Key API
   slug: suprsend-ws-public-key-api
-- description: The Ws Signing Key API from SuprSend — 3 operation(s) for ws signing key.
+- baseURL: https://hub.suprsend.com
+  baseurl_source: declared
+  description: The Ws Signing Key API from SuprSend — 3 operation(s) for ws signing key.
   name: SuprSend Ws Signing Key API
   slug: suprsend-ws-signing-key-api
 artifact_total: 72
@@ -398,7 +438,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:

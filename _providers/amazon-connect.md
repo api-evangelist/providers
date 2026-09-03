@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -74,40 +74,64 @@ apis:
 - description: Amazon Connect Voice ID provides real-time caller authentication and fraud risk detection to make voice interactions in contact centers more secure and efficient. Note - Voice ID end of support is sch
   name: Amazon Voice ID API
   slug: amazon-voice-id-api
-- description: Operations for managing agent status configurations
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing agent status configurations
   name: Amazon Connect Agent Statuses API
   slug: amazon-connect-agent-statuses-api
-- description: Operations for authentication and federation
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for authentication and federation
   name: Amazon Connect Authentication API
   slug: amazon-connect-authentication-api
-- description: Operations for managing contact flows
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing contact flows
   name: Amazon Connect Contact Flows API
   slug: amazon-connect-contact-flows-api
-- description: Operations for managing contacts and contact interactions
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing contacts and contact interactions
   name: Amazon Connect Contacts API
   slug: amazon-connect-contacts-api
-- description: Operations for managing hours of operation configurations
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing hours of operation configurations
   name: Amazon Connect Hours of Operations API
   slug: amazon-connect-hours-of-operations-api
-- description: Operations for managing Amazon Connect instances
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Amazon Connect instances
   name: Amazon Connect Instances API
   slug: amazon-connect-instances-api
-- description: Operations for retrieving real-time and historical metrics
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for retrieving real-time and historical metrics
   name: Amazon Connect Metrics API
   slug: amazon-connect-metrics-api
-- description: Operations for managing queues
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing queues
   name: Amazon Connect Queues API
   slug: amazon-connect-queues-api
-- description: Operations for managing routing profiles
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing routing profiles
   name: Amazon Connect Routing Profiles API
   slug: amazon-connect-routing-profiles-api
-- description: Operations for managing security profiles
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing security profiles
   name: Amazon Connect Security Profiles API
   slug: amazon-connect-security-profiles-api
-- description: Operations for tagging Amazon Connect resources
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for tagging Amazon Connect resources
   name: Amazon Connect Tags API
   slug: amazon-connect-tags-api
-- description: Operations for managing Amazon Connect users and agents
+- baseURL: https://connect.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing Amazon Connect users and agents
   name: Amazon Connect Users API
   slug: amazon-connect-users-api
 arazzos:
@@ -1257,7 +1281,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:

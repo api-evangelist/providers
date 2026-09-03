@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -33,22 +46,34 @@ agentic_access:
   summary_line: 23 operations · 23 acting
 api_count: 6
 apis:
-- description: The **Asset Info APIs**, a RESTful service on 73 Strings, provides detailed company insights, enabling efficient portfolio management, investment analysis, and seamless data retrieval across an organi
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The **Asset Info APIs**, a RESTful service on 73 Strings, provides detailed company insights, enabling efficient portfolio management, investment analysis, and seamless data retrieval across an organi
   name: 73 Strings Asset Info API
   slug: 73-strings-asset-info-api
-- description: The **Captable APIs**, a RESTful service on 73 Strings, provides comprehensive capital table data including securities, equity, cash positions, and key financial metrics for entities within an organiz
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The **Captable APIs**, a RESTful service on 73 Strings, provides comprehensive capital table data including securities, equity, cash positions, and key financial metrics for entities within an organiz
   name: 73 Strings Captable API
   slug: 73-strings-captable-api
-- description: The **Documents APIs**, a RESTful service on 73 Strings, provides a comprehensive information of the uploaded documents affiliated with the company in the funds across an organization in the 73 String
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The **Documents APIs**, a RESTful service on 73 Strings, provides a comprehensive information of the uploaded documents affiliated with the company in the funds across an organization in the 73 String
   name: 73 Strings Documents API
   slug: 73-strings-documents-api
-- description: 'The **Financial Data APIs**, a RESTful service on 73 Strings, allows to retrieve comprehensive information of attributes and their values on various cash flow dates in several tags of the Financials, '
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: 'The **Financial Data APIs**, a RESTful service on 73 Strings, allows to retrieve comprehensive information of attributes and their values on various cash flow dates in several tags of the Financials, '
   name: 73 Strings Financial Data API
   slug: 73-strings-financial-data-api
-- description: The **Qualitative Data APIs**, a RESTful service on the 73 Strings platform, provide structured access to narrative-driven company insights, enabling retrieval of qualitative analysis data such as str
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The **Qualitative Data APIs**, a RESTful service on the 73 Strings platform, provide structured access to narrative-driven company insights, enabling retrieval of qualitative analysis data such as str
   name: 73 Strings Qualitative Data API
   slug: 73-strings-qualitative-data-api
-- description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
+- baseURL: https://api-accord-eut-73strings.azure-api.net/assetinfo
+  baseurl_source: declared
+  description: The <b>Transaction APIs</b> enable external enterprise customers to <b>ingest and retrieve transaction ledger records</b> within the <b>73 Strings platform</b>.<br><br>These APIs are intended for <b>c
   name: 73 Strings Transaction API API
   slug: 73-strings-transaction-api-api
 artifact_total: 19
@@ -259,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 31 operations · 17 acting
 api_count: 1
 apis:
-- description: The access_requests API from Rhythms — 3 operation(s) for access_requests.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The access_requests API from Rhythms — 3 operation(s) for access_requests.
   name: Rhythms access_requests API
   slug: rhythms-access-requests-api
-- description: The chat_refresh_threads API from Rhythms — 1 operation(s) for chat_refresh_threads.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The chat_refresh_threads API from Rhythms — 1 operation(s) for chat_refresh_threads.
   name: Rhythms chat_refresh_threads API
   slug: rhythms-chat-refresh-threads-api
-- description: The connector_requests API from Rhythms — 1 operation(s) for connector_requests.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The connector_requests API from Rhythms — 1 operation(s) for connector_requests.
   name: Rhythms connector_requests API
   slug: rhythms-connector-requests-api
-- description: The data_sources API from Rhythms — 1 operation(s) for data_sources.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The data_sources API from Rhythms — 1 operation(s) for data_sources.
   name: Rhythms data_sources API
   slug: rhythms-data-sources-api
-- description: The documents API from Rhythms — 4 operation(s) for documents.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The documents API from Rhythms — 4 operation(s) for documents.
   name: Rhythms documents API
   slug: rhythms-documents-api
-- description: The explorer_views API from Rhythms — 1 operation(s) for explorer_views.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The explorer_views API from Rhythms — 1 operation(s) for explorer_views.
   name: Rhythms explorer_views API
   slug: rhythms-explorer-views-api
-- description: The labels API from Rhythms — 2 operation(s) for labels.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The labels API from Rhythms — 2 operation(s) for labels.
   name: Rhythms labels API
   slug: rhythms-labels-api
-- description: The mention_access_checks API from Rhythms — 1 operation(s) for mention_access_checks.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The mention_access_checks API from Rhythms — 1 operation(s) for mention_access_checks.
   name: Rhythms mention_access_checks API
   slug: rhythms-mention-access-checks-api
-- description: The notifications API from Rhythms — 1 operation(s) for notifications.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The notifications API from Rhythms — 1 operation(s) for notifications.
   name: Rhythms notifications API
   slug: rhythms-notifications-api
-- description: The objectives API from Rhythms — 1 operation(s) for objectives.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The objectives API from Rhythms — 1 operation(s) for objectives.
   name: Rhythms objectives API
   slug: rhythms-objectives-api
-- description: The teams API from Rhythms — 6 operation(s) for teams.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The teams API from Rhythms — 6 operation(s) for teams.
   name: Rhythms teams API
   slug: rhythms-teams-api
-- description: The time_periods API from Rhythms — 2 operation(s) for time_periods.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The time_periods API from Rhythms — 2 operation(s) for time_periods.
   name: Rhythms time_periods API
   slug: rhythms-time-periods-api
-- description: The users API from Rhythms — 1 operation(s) for users.
+- baseURL: https://api.rhythms.ai
+  baseurl_source: declared
+  description: The users API from Rhythms — 1 operation(s) for users.
   name: Rhythms users API
   slug: rhythms-users-api
 artifact_total: 32
@@ -228,7 +254,7 @@ score:
   band: thin
   composite: 27.6
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -254,8 +280,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rhythms/refs/heads/main/screenshots/rhythms-2026-09-02T153809.png
 security:
 - kind: authentication
   name: Rhythms Authentication

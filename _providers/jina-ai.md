@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 3
 apis:
-- description: Asynchronous batch embedding jobs
+- baseURL: https://api.jina.ai/v1
+  baseurl_source: declared
+  description: Asynchronous batch embedding jobs
   name: Jina AI Batch API
   slug: jina-ai-batch-api
-- description: Synchronous embedding generation
+- baseURL: https://api.jina.ai/v1
+  baseurl_source: declared
+  description: Synchronous embedding generation
   name: Jina AI Embeddings API
   slug: jina-ai-embeddings-api
-- description: URL-to-markdown extraction
+- baseURL: https://api.jina.ai/v1
+  baseurl_source: declared
+  description: URL-to-markdown extraction
   name: Jina AI Reader API
   slug: jina-ai-reader-api
-- description: Cross-encoder reranking
+- baseURL: https://api.jina.ai/v1
+  baseurl_source: declared
+  description: Cross-encoder reranking
   name: Jina AI Reranker API
   slug: jina-ai-reranker-api
 artifact_total: 19
@@ -187,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/screenshots/jina-ai-2026-06-20T183733.png
 security:

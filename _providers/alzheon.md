@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comments (the site publishes none).
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Comments (the site publishes none).
   name: Alzheon Comments API
   slug: alzheon-comments-api
-- description: The route index / discovery document.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: The route index / discovery document.
   name: Alzheon Discovery API
   slug: alzheon-discovery-api
-- description: Avada FAQ custom post type.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Avada FAQ custom post type.
   name: Alzheon FAQ API
   slug: alzheon-faq-api
-- description: 'The media library: images, posters, publication PDFs.'
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: 'The media library: images, posters, publication PDFs.'
   name: Alzheon Media API
   slug: alzheon-media-api
-- description: Registered types, taxonomies and statuses.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Registered types, taxonomies and statuses.
   name: Alzheon Metadata API
   slug: alzheon-metadata-api
-- description: oEmbed representations of alzheon.com URLs.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: oEmbed representations of alzheon.com URLs.
   name: Alzheon O Embed API
   slug: alzheon-oembed-api
-- description: 'Static site pages: science, pipeline, people, patients, careers.'
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: 'Static site pages: science, pipeline, people, patients, careers.'
   name: Alzheon Pages API
   slug: alzheon-pages-api
-- description: Avada portfolio custom post type.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Avada portfolio custom post type.
   name: Alzheon Portfolio API
   slug: alzheon-portfolio-api
-- description: Press releases and in-the-news items published by Alzheon.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Press releases and in-the-news items published by Alzheon.
   name: Alzheon Posts API
   slug: alzheon-posts-api
-- description: Cross-content-type search.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search.
   name: Alzheon Search API
   slug: alzheon-search-api
-- description: Categories and tags used to classify content.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags used to classify content.
   name: Alzheon Taxonomy API
   slug: alzheon-taxonomy-api
-- description: Publicly listed content authors.
+- baseURL: https://alzheon.com/wp-json
+  baseurl_source: declared
+  description: Publicly listed content authors.
   name: Alzheon Users API
   slug: alzheon-users-api
 artifact_total: 15
@@ -187,7 +222,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png
 security:

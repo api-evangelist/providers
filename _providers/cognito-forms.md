@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 10 acting
 api_count: 1
 apis:
-- description: The Entries API from Cognito Forms — 5 operation(s) for entries.
+- baseURL: https://www.cognitoforms.com/api
+  baseurl_source: declared
+  description: The Entries API from Cognito Forms — 5 operation(s) for entries.
   name: Cognito Forms Entries API
   slug: cognito-forms-entries-api
-- description: The Files API from Cognito Forms — 2 operation(s) for files.
+- baseURL: https://www.cognitoforms.com/api
+  baseurl_source: declared
+  description: The Files API from Cognito Forms — 2 operation(s) for files.
   name: Cognito Forms Files API
   slug: cognito-forms-files-api
-- description: The Forms API from Cognito Forms — 3 operation(s) for forms.
+- baseURL: https://www.cognitoforms.com/api
+  baseurl_source: declared
+  description: The Forms API from Cognito Forms — 3 operation(s) for forms.
   name: Cognito Forms Forms API
   slug: cognito-forms-forms-api
-- description: The OData API from Cognito Forms — 1 operation(s) for odata.
+- baseURL: https://www.cognitoforms.com/api
+  baseurl_source: declared
+  description: The OData API from Cognito Forms — 1 operation(s) for odata.
   name: Cognito Forms OData API
   slug: cognito-forms-odata-api
-- description: The Webhooks API from Cognito Forms — 4 operation(s) for webhooks.
+- baseURL: https://www.cognitoforms.com/api
+  baseurl_source: declared
+  description: The Webhooks API from Cognito Forms — 4 operation(s) for webhooks.
   name: Cognito Forms Webhooks API
   slug: cognito-forms-webhooks-api
 artifact_total: 28
@@ -242,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/screenshots/cognito-forms-2026-06-20T174716.png
 security:

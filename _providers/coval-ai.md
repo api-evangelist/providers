@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 80 operations · 43 acting
 api_count: 1
 apis:
-- description: Connect and manage AI agents under test.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Connect and manage AI agents under test.
   name: Coval Agents API
   slug: coval-ai-agents-api
-- description: Submit and evaluate production conversations.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Submit and evaluate production conversations.
   name: Coval Conversations API
   slug: coval-ai-conversations-api
-- description: Define scoring criteria, thresholds, and baselines.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Define scoring criteria, thresholds, and baselines.
   name: Coval Metrics API
   slug: coval-ai-metrics-api
-- description: Manage agent configuration variants (mutations).
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Manage agent configuration variants (mutations).
   name: Coval Mutations API
   slug: coval-ai-mutations-api
-- description: Configure simulated callers, voices, and scenario behavior.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Configure simulated callers, voices, and scenario behavior.
   name: Coval Personas API
   slug: coval-ai-personas-api
-- description: Create and manage evaluation reports.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Create and manage evaluation reports.
   name: Coval Reports API
   slug: coval-ai-reports-api
-- description: Save reusable run configurations.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Save reusable run configurations.
   name: Coval Run Templates API
   slug: coval-ai-run-templates-api
-- description: Launch and manage simulation runs.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Launch and manage simulation runs.
   name: Coval Runs API
   slug: coval-ai-runs-api
-- description: Schedule recurring simulation runs.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Schedule recurring simulation runs.
   name: Coval Scheduled Runs API
   slug: coval-ai-scheduled-runs-api
-- description: Inspect individual simulation results.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Inspect individual simulation results.
   name: Coval Simulations API
   slug: coval-ai-simulations-api
-- description: Manage individual evaluation inputs within a test set.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Manage individual evaluation inputs within a test set.
   name: Coval Test Cases API
   slug: coval-ai-test-cases-api
-- description: Manage collections of test cases (datasets).
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Manage collections of test cases (datasets).
   name: Coval Test Sets API
   slug: coval-ai-test-sets-api
 artifact_total: 32
@@ -221,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval-ai/refs/heads/main/screenshots/coval-ai-2026-07-25T210547.png
 security:

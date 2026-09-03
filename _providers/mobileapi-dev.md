@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 57 operations · 1 acting
 api_count: 1
 apis:
-- description: The api API from MobileAPI.dev — 2 operation(s) for api.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The api API from MobileAPI.dev — 2 operation(s) for api.
   name: MobileAPI.dev api API
   slug: mobileapi-dev-api-api
-- description: The api-token-auth API from MobileAPI.dev — 1 operation(s) for api-token-auth.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The api-token-auth API from MobileAPI.dev — 1 operation(s) for api-token-auth.
   name: MobileAPI.dev api-token-auth API
   slug: mobileapi-dev-api-token-auth-api
-- description: The demo-x7k9m2p4 API from MobileAPI.dev — 23 operation(s) for demo-x7k9m2p4.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The demo-x7k9m2p4 API from MobileAPI.dev — 23 operation(s) for demo-x7k9m2p4.
   name: MobileAPI.dev demo-x7k9m2p4 API
   slug: mobileapi-dev-demo-x7k9m2p4-api
-- description: The devices API from MobileAPI.dev — 24 operation(s) for devices.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The devices API from MobileAPI.dev — 24 operation(s) for devices.
   name: MobileAPI.dev devices API
   slug: mobileapi-dev-devices-api
-- description: The images API from MobileAPI.dev — 1 operation(s) for images.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The images API from MobileAPI.dev — 1 operation(s) for images.
   name: MobileAPI.dev images API
   slug: mobileapi-dev-images-api
-- description: The manufacturers API from MobileAPI.dev — 2 operation(s) for manufacturers.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The manufacturers API from MobileAPI.dev — 2 operation(s) for manufacturers.
   name: MobileAPI.dev manufacturers API
   slug: mobileapi-dev-manufacturers-api
-- description: The me API from MobileAPI.dev — 1 operation(s) for me.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The me API from MobileAPI.dev — 1 operation(s) for me.
   name: MobileAPI.dev me API
   slug: mobileapi-dev-me-api
-- description: The payment_successful API from MobileAPI.dev — 2 operation(s) for payment_successful.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The payment_successful API from MobileAPI.dev — 2 operation(s) for payment_successful.
   name: MobileAPI.dev payment_successful API
   slug: mobileapi-dev-payment-successful-api
-- description: The status API from MobileAPI.dev — 1 operation(s) for status.
+- baseURL: https://api.mobileapi.dev/
+  baseurl_source: declared
+  description: The status API from MobileAPI.dev — 1 operation(s) for status.
   name: MobileAPI.dev status API
   slug: mobileapi-dev-status-api
 arazzos:
@@ -498,7 +516,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/screenshots/mobileapi-dev-2026-06-20T185631.png
 security:

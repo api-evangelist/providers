@@ -10,36 +10,36 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
+  score: 14.6
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Ambient Mesh provides a sidecar-less service mesh via the Kubernetes Gateway API and Istio ambient mode. It exposes configuration APIs for traffic management, security policies, resilience settings, a
   name: Ambient Mesh
   slug: ambient-mesh
-artifact_total: 23
+artifact_total: 26
 common:
 - group: operate
   title: ''
@@ -89,6 +89,62 @@ common:
   title: ''
   type: GitHubRepository
   url: https://github.com/istio/istio
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://ambientmesh.io/get-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.solo.io/istio-support
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ambient-mesh-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ambient-mesh-mcp.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ambient-mesh-sandbox.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ambient-mesh-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ambient-mesh-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/ambient-mesh-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ambient-mesh-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ambient-mesh-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ambient-mesh-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/ambient-mesh-cli.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ambient-mesh-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/ambient-mesh-vulnerability-disclosure.yml
 created: '2026-04-19'
 description: Ambient Mesh is a sidecar-less service mesh architecture built on Istio that simplifies microservices communication, enhances zero-trust security, and improves observability without requiring sidecar proxy injection. It uses a shared per-node proxy (ztunnel) for zero-trust security and optional waypoint proxies for advanced Layer 7 policies, enabling seamless migration from sidecar-based meshes with zero downtime.
 features:
@@ -125,54 +181,69 @@ integrations:
 - description: Red Hat OpenShift Service Mesh 3.x supports Istio ambient mode for OpenShift deployments.
   name: OpenShift
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Solo.io Docs MCP
+  slug: soloio-docs-mcp
+modified: '2026-09-02'
 name: Ambient Mesh
 nav: Providers
 network: true
 overview: 'Ambient Mesh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Service Mesh, Istio, Kubernetes, Zero Trust, and Observability.
 
 
-  Ambient Mesh''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  Ambient Mesh''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, authentication, CLI, and 19 more developer resources.'
 plans:
 - name: Ambient Mesh Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ambient-mesh-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ambient Mesh Rate Limits
   slug: ambient-mesh-rate-limits
 score:
   band: thin
-  composite: 27.4
+  composite: 34.3
   coverage:
-    artifact_dirs: 6
-    catalog_gap: 69.0
+    artifact_dirs: 16
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 6.9
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 31.0
+    developer_ergonomics: 71.4
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 36.8
+    governance: 18.2
+    operational_transparency: 28.9
   open_source:
     applies: true
     score: 85.0
   previous_composite: 27.4
+  provenance:
+    conformance: first-party
+    mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/screenshots/ambient-mesh-2026-06-20T171854.png
 security:
+- kind: authentication
+  name: Ambient Mesh Authentication
+  slug: ambient-mesh-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Ambient Mesh Domain Security
   slug: ambient-mesh-domain-security
   summary_line: TLSv1.3
+- kind: vulnerability-disclosure
+  name: Ambient Mesh Vulnerability Disclosure
+  slug: ambient-mesh-vulnerability-disclosure
+  summary_line: Hackerone
 slug: ambient-mesh
 tags:
 - Service Mesh

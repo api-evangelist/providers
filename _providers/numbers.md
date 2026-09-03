@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,19 +42,29 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Multiple facts returned in a single request as a JSON map.
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Multiple facts returned in a single request as a JSON map.
   name: Numbers API Batch API
   slug: numbers-batch-api
-- description: Historical facts associated with a day of the year.
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Historical facts associated with a day of the year.
   name: Numbers API Date API
   slug: numbers-date-api
-- description: Mathematical properties of integers.
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Mathematical properties of integers.
   name: Numbers API Math API
   slug: numbers-math-api
-- description: Trivia facts about integers.
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Trivia facts about integers.
   name: Numbers API Trivia API
   slug: numbers-trivia-api
-- description: Historical facts associated with a year.
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Historical facts associated with a year.
   name: Numbers API Year API
   slug: numbers-year-api
 artifact_total: 50
@@ -259,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/screenshots/numbers-2026-06-20T190517.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 2 acting
 api_count: 1
 apis:
-- description: The Annotations API from Baremetrics — 2 operation(s) for annotations.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Annotations API from Baremetrics — 2 operation(s) for annotations.
   name: Baremetrics Annotations API
   slug: baremetrics-annotations-api
-- description: The Charges API from Baremetrics — 2 operation(s) for charges.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Charges API from Baremetrics — 2 operation(s) for charges.
   name: Baremetrics Charges API
   slug: baremetrics-charges-api
-- description: The Customers API from Baremetrics — 2 operation(s) for customers.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Customers API from Baremetrics — 2 operation(s) for customers.
   name: Baremetrics Customers API
   slug: baremetrics-customers-api
-- description: The Events API from Baremetrics — 1 operation(s) for events.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Events API from Baremetrics — 1 operation(s) for events.
   name: Baremetrics Events API
   slug: baremetrics-events-api
-- description: The Metrics API from Baremetrics — 1 operation(s) for metrics.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Metrics API from Baremetrics — 1 operation(s) for metrics.
   name: Baremetrics Metrics API
   slug: baremetrics-metrics-api
-- description: The Plans API from Baremetrics — 2 operation(s) for plans.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Plans API from Baremetrics — 2 operation(s) for plans.
   name: Baremetrics Plans API
   slug: baremetrics-plans-api
-- description: The Subscriptions API from Baremetrics — 2 operation(s) for subscriptions.
+- baseURL: https://api.baremetrics.com/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Baremetrics — 2 operation(s) for subscriptions.
   name: Baremetrics Subscriptions API
   slug: baremetrics-subscriptions-api
 artifact_total: 21
@@ -200,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/screenshots/baremetrics-2026-06-20T173000.png
 security:

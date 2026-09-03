@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 12 acting
 api_count: 1
 apis:
-- description: Categories that group products for the till and reporting.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: Categories that group products for the till and reporting.
   name: Epos Now Categories API
   slug: epos-now-categories-api
-- description: Customer records for loyalty, accounts, and CRM.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: Customer records for loyalty, accounts, and CRM.
   name: Epos Now Customers API
   slug: epos-now-customers-api
-- description: Registered tills and API devices on the account.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: Registered tills and API devices on the account.
   name: Epos Now Devices API
   slug: epos-now-devices-api
-- description: The product catalog sold at the point of sale.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: The product catalog sold at the point of sale.
   name: Epos Now Products API
   slug: epos-now-products-api
-- description: Product stock levels and stock control.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: Product stock levels and stock control.
   name: Epos Now Stock API
   slug: epos-now-stock-api
-- description: Sales records (orders) captured at the point of sale.
+- baseURL: https://api.eposnowhq.com/api/V2
+  baseurl_source: declared
+  description: Sales records (orders) captured at the point of sale.
   name: Epos Now Transactions API
   slug: epos-now-transactions-api
 artifact_total: 19
@@ -183,7 +195,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/screenshots/epos-now-2026-07-25T213541.png
 security:

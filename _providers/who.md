@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 25 operations · 4 acting
 api_count: 1
 apis:
-- description: The Foundation API from World Health Organization (WHO) — 4 operation(s) for foundation.
+- baseURL: https://ghoapi.azureedge.net/api
+  baseurl_source: declared
+  description: The Foundation API from World Health Organization (WHO) — 4 operation(s) for foundation.
   name: World Health Organization (WHO) Foundation API
   slug: who-foundation-api
-- description: The ICD10 API from World Health Organization (WHO) — 4 operation(s) for icd10.
+- baseURL: https://ghoapi.azureedge.net/api
+  baseurl_source: declared
+  description: The ICD10 API from World Health Organization (WHO) — 4 operation(s) for icd10.
   name: World Health Organization (WHO) ICD10 API
   slug: who-icd10-api
-- description: The Linearization (classification endpoints) API from World Health Organization (WHO) — 13 operation(s) for linearization (classification endpoints).
+- baseURL: https://ghoapi.azureedge.net/api
+  baseurl_source: declared
+  description: The Linearization (classification endpoints) API from World Health Organization (WHO) — 13 operation(s) for linearization (classification endpoints).
   name: World Health Organization (WHO) Linearization (classification endpoints) API
   slug: who-linearization-classification-endpoints-api
 artifact_total: 41
@@ -282,7 +288,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/screenshots/who-2026-06-20T201446.png
 security:

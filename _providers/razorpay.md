@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,13 +55,19 @@ apis:
 - description: Event-driven webhook surface that POSTs JSON payloads to a merchant-configured HTTPS endpoint when subscribed events occur across payments, orders, refunds, subscriptions, invoices, settlements, Smart
   name: Razorpay Webhooks
   slug: webhooks
-- description: The Orders API from Razorpay — 3 operation(s) for orders.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: The Orders API from Razorpay — 3 operation(s) for orders.
   name: Razorpay Orders API
   slug: razorpay-orders-api
-- description: The Payments API from Razorpay — 6 operation(s) for payments.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: The Payments API from Razorpay — 6 operation(s) for payments.
   name: Razorpay Payments API
   slug: razorpay-payments-api
-- description: The Refunds API from Razorpay — 2 operation(s) for refunds.
+- baseURL: https://api.razorpay.com/v1
+  baseurl_source: declared
+  description: The Refunds API from Razorpay — 2 operation(s) for refunds.
   name: Razorpay Refunds API
   slug: razorpay-refunds-api
 artifact_total: 19
@@ -210,7 +229,7 @@ score:
     catalog_gap: 79.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -220,7 +239,7 @@ score:
     discoverability: 59.3
     governance: 11.4
     operational_transparency: 44.7
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -235,7 +254,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png
 security:

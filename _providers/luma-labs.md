@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Dream Machine API exposes Luma's Ray and Photon model families for programmatic image and video generation. It provides endpoints for creating, listing, retrieving, and deleting generations, gener
   name: Luma Dream Machine API
   slug: dream-machine-api
-- description: The Concepts API from Luma AI — 1 operation(s) for concepts.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Concepts API from Luma AI — 1 operation(s) for concepts.
   name: Luma AI Concepts API
   slug: luma-labs-concepts-api
-- description: The Credits API from Luma AI — 1 operation(s) for credits.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Credits API from Luma AI — 1 operation(s) for credits.
   name: Luma AI Credits API
   slug: luma-labs-credits-api
-- description: The Generations API from Luma AI — 4 operation(s) for generations.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Generations API from Luma AI — 4 operation(s) for generations.
   name: Luma AI Generations API
   slug: luma-labs-generations-api
-- description: The Image API from Luma AI — 2 operation(s) for image.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Image API from Luma AI — 2 operation(s) for image.
   name: Luma AI Image API
   slug: luma-labs-image-api
-- description: The System API from Luma AI — 1 operation(s) for system.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The System API from Luma AI — 1 operation(s) for system.
   name: Luma AI System API
   slug: luma-labs-system-api
-- description: The Video API from Luma AI — 3 operation(s) for video.
+- baseURL: https://api.lumalabs.ai/dream-machine/v1
+  baseurl_source: declared
+  description: The Video API from Luma AI — 3 operation(s) for video.
   name: Luma AI Video API
   slug: luma-labs-video-api
 artifact_total: 21
@@ -200,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-labs/refs/heads/main/screenshots/luma-labs-2026-06-20T184752.png
 security:

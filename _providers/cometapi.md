@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations · 6 acting
 api_count: 1
 apis:
-- description: Speech synthesis, transcription, and translation.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: Speech synthesis, transcription, and translation.
   name: CometAPI Audio API
   slug: cometapi-audio-api
-- description: Chat completions across LLM providers.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: Chat completions across LLM providers.
   name: CometAPI Chat API
   slug: cometapi-chat-api
-- description: Vector embeddings for retrieval and similarity.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: Vector embeddings for retrieval and similarity.
   name: CometAPI Embeddings API
   slug: cometapi-embeddings-api
-- description: Text-to-image and image-to-image generation.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: Text-to-image and image-to-image generation.
   name: CometAPI Images API
   slug: cometapi-images-api
-- description: List of supported models routable by CometAPI.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: List of supported models routable by CometAPI.
   name: CometAPI Models API
   slug: cometapi-models-api
-- description: Text-to-video, image-to-video, and video extension.
+- baseURL: https://api.cometapi.com/v1
+  baseurl_source: declared
+  description: Text-to-video, image-to-video, and video extension.
   name: CometAPI Video API
   slug: cometapi-video-api
 artifact_total: 25
@@ -235,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometapi/refs/heads/main/screenshots/cometapi-2026-06-20T174808.png
 security:

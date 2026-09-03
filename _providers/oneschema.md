@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 156 operations · 91 acting
 api_count: 14
 apis:
-- description: Manage AWS Secrets Manager account connections
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage AWS Secrets Manager account connections
   name: Oneschema AWS Secrets Manager Accounts API
   slug: oneschema-aws-secrets-manager-accounts-api
-- description: Manage secret references within AWS Secrets Manager accounts
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage secret references within AWS Secrets Manager accounts
   name: Oneschema AWS Secrets Manager Secrets API
   slug: oneschema-aws-secrets-manager-secrets-api
-- description: Manage Azure Key Vault account connections
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage Azure Key Vault account connections
   name: Oneschema Azure Key Vault Accounts API
   slug: oneschema-azure-key-vault-accounts-api
-- description: Manage secret references within Azure Key Vault accounts
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage secret references within Azure Key Vault accounts
   name: Oneschema Azure Key Vault Secrets API
   slug: oneschema-azure-key-vault-secrets-api
-- description: Legacy Code Hook operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Legacy Code Hook operations
   name: Oneschema Code Hooks (Legacy) API
   slug: oneschema-code-hooks-legacy-api
-- description: Event webhook operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Event webhook operations
   name: Oneschema Event Webhooks API
   slug: oneschema-event-webhooks-api
-- description: FileFeed Folder operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: FileFeed Folder operations
   name: Oneschema FileFeed Folders API
   slug: oneschema-filefeed-folders-api
-- description: Saved column mappings for FileFeeds
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Saved column mappings for FileFeeds
   name: Oneschema FileFeed Mappings API
   slug: oneschema-filefeed-mappings-api
-- description: FileFeeds operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: FileFeeds operations
   name: Oneschema FileFeeds API
   slug: oneschema-filefeeds-api
-- description: FileFeeds Embed Sessions operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: FileFeeds Embed Sessions operations
   name: Oneschema FileFeeds Embed Sessions API
   slug: oneschema-filefeeds-embed-sessions-api
-- description: FileFeeds Imports operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: FileFeeds Imports operations
   name: Oneschema FileFeeds Imports API
   slug: oneschema-filefeeds-imports-api
-- description: Headless Importer operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Headless Importer operations
   name: Oneschema Headless Importer API
   slug: oneschema-headless-importer-api
-- description: Importer Embed Event operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Importer Embed Event operations
   name: Oneschema Importer Embed Events API
   slug: oneschema-importer-embed-events-api
-- description: Importer Embed operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Importer Embed operations
   name: Oneschema Importer Embeds API
   slug: oneschema-importer-embeds-api
-- description: Importer Webhook operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Importer Webhook operations
   name: Oneschema Importer Webhooks API
   slug: oneschema-importer-webhooks-api
-- description: Read-only MCP operations for API specs and product guides
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Read-only MCP operations for API specs and product guides
   name: Oneschema MCP Server API
   slug: oneschema-mcp-server-api
-- description: Manage immutable commit snapshots of a Multi FileFeed's transforms. Commits are created by sending a transforms payload. The endpoint atomically replaces the HEAD and creates an immutable snapshot. Im
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage immutable commit snapshots of a Multi FileFeed's transforms. Commits are created by sending a transforms payload. The endpoint atomically replaces the HEAD and creates an immutable snapshot. Im
   name: Oneschema Multi FileFeed Commits API
   slug: oneschema-multi-filefeed-commits-api
-- description: Multi FileFeed Folder operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Multi FileFeed Folder operations
   name: Oneschema Multi FileFeed Folders API
   slug: oneschema-multi-filefeed-folders-api
-- description: 'Multi FileFeed Imports operations. NOTE: These endpoints are served under the `/v0/multi-file-feeds/` path prefix. The legacy `/v0/workflows/` prefix is still supported for backward compatibility but '
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: 'Multi FileFeed Imports operations. NOTE: These endpoints are served under the `/v0/multi-file-feeds/` path prefix. The legacy `/v0/workflows/` prefix is still supported for backward compatibility but '
   name: Oneschema Multi FileFeed Imports API
   slug: oneschema-multi-filefeed-imports-api
-- description: Manage the transforms (flowgraph nodes) of a Multi FileFeed. The HEAD is the mutable, editable version of the flowgraph. Commits are immutable snapshots of the HEAD at a point in time. Imports run aga
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Manage the transforms (flowgraph nodes) of a Multi FileFeed. The HEAD is the mutable, editable version of the flowgraph. Commits are immutable snapshots of the HEAD at a point in time. Imports run aga
   name: Oneschema Multi FileFeed Transforms API
   slug: oneschema-multi-filefeed-transforms-api
-- description: Multi FileFeed operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Multi FileFeed operations
   name: Oneschema Multi FileFeeds API
   slug: oneschema-multi-filefeeds-api
-- description: S3 Accounts connected to OneSchema
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: S3 Accounts connected to OneSchema
   name: Oneschema S3 Accounts API
   slug: oneschema-s3-accounts-api
-- description: SFTP Accounts
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: SFTP Accounts
   name: Oneschema SFTP Accounts API
   slug: oneschema-sftp-accounts-api
-- description: Sheets operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Sheets operations
   name: Oneschema Sheets API
   slug: oneschema-sheets-api
-- description: Template Hooks operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Template Hooks operations
   name: Oneschema Template Hooks API
   slug: oneschema-template-hooks-api
-- description: Template operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Template operations
   name: Oneschema Templates API
   slug: oneschema-templates-api
-- description: Sheet operations within Workspaces
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Sheet operations within Workspaces
   name: Oneschema Workspace Sheets API
   slug: oneschema-workspace-sheets-api
-- description: Workspace operations
+- baseURL: https://api.oneschema.co
+  baseurl_source: declared
+  description: Workspace operations
   name: Oneschema Workspaces API
   slug: oneschema-workspaces-api
 artifact_total: 92
@@ -485,7 +541,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -495,7 +551,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 61.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -507,7 +563,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneschema/refs/heads/main/screenshots/oneschema-2026-08-07T190340.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: Search and filter chemical compounds by various properties.
+- baseURL: https://api.rsc.org/compounds/v1
+  baseurl_source: declared
+  description: Search and filter chemical compounds by various properties.
   name: RSC Filter API
   slug: rsc-filter-api
-- description: Look up reference data such as available data sources.
+- baseURL: https://api.rsc.org/compounds/v1
+  baseurl_source: declared
+  description: Look up reference data such as available data sources.
   name: RSC Lookups API
   slug: rsc-lookups-api
-- description: Retrieve compound record details, images, and molecular files.
+- baseURL: https://api.rsc.org/compounds/v1
+  baseurl_source: declared
+  description: Retrieve compound record details, images, and molecular files.
   name: RSC Records API
   slug: rsc-records-api
-- description: Chemical format conversion and validation utilities.
+- baseURL: https://api.rsc.org/compounds/v1
+  baseurl_source: declared
+  description: Chemical format conversion and validation utilities.
   name: RSC Tools API
   slug: rsc-tools-api
 artifact_total: 24
@@ -213,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rsc/refs/heads/main/screenshots/rsc-2026-08-17T081644.png
 security:

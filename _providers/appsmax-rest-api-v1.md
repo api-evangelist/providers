@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 21 operations · 6 acting
 api_count: 1
 apis:
-- description: Проверка токена и контекста организации.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Проверка токена и контекста организации.
   name: AppsMax Access API
   slug: appsmax-rest-api-v1-access-api
-- description: Заявки и их теги.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Заявки и их теги.
   name: AppsMax Applications API
   slug: appsmax-rest-api-v1-applications-api
-- description: Боты и их безопасные сведения о подключении без секретов.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Боты и их безопасные сведения о подключении без секретов.
   name: AppsMax Bots API
   slug: appsmax-rest-api-v1-bots-api
-- description: Рассылки и их запуск.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Рассылки и их запуск.
   name: AppsMax Campaigns API
   slug: appsmax-rest-api-v1-campaigns-api
-- description: Сценарии и воронки ботов.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Сценарии и воронки ботов.
   name: AppsMax Funnels API
   slug: appsmax-rest-api-v1-funnels-api
-- description: Элементы интерактивного меню ботов.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Элементы интерактивного меню ботов.
   name: AppsMax Interactive menu API
   slug: appsmax-rest-api-v1-interactive-menu-api
-- description: Мини-приложения организации.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Мини-приложения организации.
   name: AppsMax Miniapps API
   slug: appsmax-rest-api-v1-miniapps-api
-- description: Организация, к которой привязан токен.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Организация, к которой привязан токен.
   name: AppsMax Organizations API
   slug: appsmax-rest-api-v1-organizations-api
-- description: Подписчики и их сегментационные теги.
+- baseURL: https://telegram.appsmax.ru/api/v1
+  baseurl_source: declared
+  description: Подписчики и их сегментационные теги.
   name: AppsMax Subscribers API
   slug: appsmax-rest-api-v1-subscribers-api
 artifact_total: 28
@@ -299,7 +317,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmax-rest-api-v1/refs/heads/main/screenshots/appsmax-rest-api-v1-2026-08-17T080613.png
 security:

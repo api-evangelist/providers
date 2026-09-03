@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 85 operations · 18 acting
 api_count: 2
 apis:
-- description: The Airdrop API from Kamino — 2 operation(s) for airdrop.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Airdrop API from Kamino — 2 operation(s) for airdrop.
   name: Kamino Airdrop API
   slug: kamino-airdrop-api
-- description: The Farms API from Kamino — 3 operation(s) for farms.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Farms API from Kamino — 3 operation(s) for farms.
   name: Kamino Farms API
   slug: kamino-farms-api
-- description: The Kamino Earn Deposit API from Kamino — 2 operation(s) for kamino earn deposit.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Earn Deposit API from Kamino — 2 operation(s) for kamino earn deposit.
   name: Kamino Kamino Earn Deposit API
   slug: kamino-kamino-earn-deposit-api
-- description: The Kamino Earn User API from Kamino — 8 operation(s) for kamino earn user.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Earn User API from Kamino — 8 operation(s) for kamino earn user.
   name: Kamino Kamino Earn User API
   slug: kamino-kamino-earn-user-api
-- description: The Kamino Earn Vault Metadata API from Kamino — 2 operation(s) for kamino earn vault metadata.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Earn Vault Metadata API from Kamino — 2 operation(s) for kamino earn vault metadata.
   name: Kamino Kamino Earn Vault Metadata API
   slug: kamino-kamino-earn-vault-metadata-api
-- description: The Kamino Earn Vaults API from Kamino — 8 operation(s) for kamino earn vaults.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Earn Vaults API from Kamino — 8 operation(s) for kamino earn vaults.
   name: Kamino Kamino Earn Vaults API
   slug: kamino-kamino-earn-vaults-api
-- description: The Kamino Earn Withdraw API from Kamino — 2 operation(s) for kamino earn withdraw.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Earn Withdraw API from Kamino — 2 operation(s) for kamino earn withdraw.
   name: Kamino Kamino Earn Withdraw API
   slug: kamino-kamino-earn-withdraw-api
-- description: The Kamino Lend Borrow API from Kamino — 2 operation(s) for kamino lend borrow.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Borrow API from Kamino — 2 operation(s) for kamino lend borrow.
   name: Kamino Kamino Lend Borrow API
   slug: kamino-kamino-lend-borrow-api
-- description: The Kamino Lend Borrow Orders API from Kamino — 2 operation(s) for kamino lend borrow orders.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Borrow Orders API from Kamino — 2 operation(s) for kamino lend borrow orders.
   name: Kamino Kamino Lend Borrow Orders API
   slug: kamino-kamino-lend-borrow-orders-api
-- description: The Kamino Lend Deposit API from Kamino — 2 operation(s) for kamino lend deposit.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Deposit API from Kamino — 2 operation(s) for kamino lend deposit.
   name: Kamino Kamino Lend Deposit API
   slug: kamino-kamino-lend-deposit-api
-- description: The Kamino Lend Markets API from Kamino — 7 operation(s) for kamino lend markets.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Markets API from Kamino — 7 operation(s) for kamino lend markets.
   name: Kamino Kamino Lend Markets API
   slug: kamino-kamino-lend-markets-api
-- description: The Kamino Lend Repay API from Kamino — 2 operation(s) for kamino lend repay.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Repay API from Kamino — 2 operation(s) for kamino lend repay.
   name: Kamino Kamino Lend Repay API
   slug: kamino-kamino-lend-repay-api
-- description: The Kamino Lend Transactions API from Kamino — 7 operation(s) for kamino lend transactions.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Transactions API from Kamino — 7 operation(s) for kamino lend transactions.
   name: Kamino Kamino Lend Transactions API
   slug: kamino-kamino-lend-transactions-api
-- description: The Kamino Lend User Loans API from Kamino — 4 operation(s) for kamino lend user loans.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend User Loans API from Kamino — 4 operation(s) for kamino lend user loans.
   name: Kamino Kamino Lend User Loans API
   slug: kamino-kamino-lend-user-loans-api
-- description: The Kamino Lend Withdraw API from Kamino — 2 operation(s) for kamino lend withdraw.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Withdraw API from Kamino — 2 operation(s) for kamino lend withdraw.
   name: Kamino Kamino Lend Withdraw API
   slug: kamino-kamino-lend-withdraw-api
-- description: The Kamino Lend Yield API from Kamino — 7 operation(s) for kamino lend yield.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Kamino Lend Yield API from Kamino — 7 operation(s) for kamino lend yield.
   name: Kamino Kamino Lend Yield API
   slug: kamino-kamino-lend-yield-api
-- description: The Lookup Tables API from Kamino — 5 operation(s) for lookup tables.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Lookup Tables API from Kamino — 5 operation(s) for lookup tables.
   name: Kamino Lookup Tables API
   slug: kamino-lookup-tables-api
-- description: The Other API from Kamino — 4 operation(s) for other.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Other API from Kamino — 4 operation(s) for other.
   name: Kamino Other API
   slug: kamino-other-api
-- description: The Portfolio API from Kamino — 2 operation(s) for portfolio.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Portfolio API from Kamino — 2 operation(s) for portfolio.
   name: Kamino Portfolio API
   slug: kamino-portfolio-api
-- description: The Private Credit API from Kamino — 2 operation(s) for private credit.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Private Credit API from Kamino — 2 operation(s) for private credit.
   name: Kamino Private Credit API
   slug: kamino-private-credit-api
-- description: The Season Rewards API from Kamino — 5 operation(s) for season rewards.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Season Rewards API from Kamino — 5 operation(s) for season rewards.
   name: Kamino Season Rewards API
   slug: kamino-season-rewards-api
-- description: The Staking Yields API from Kamino — 3 operation(s) for staking yields.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Staking Yields API from Kamino — 3 operation(s) for staking yields.
   name: Kamino Staking Yields API
   slug: kamino-staking-yields-api
-- description: The Yields API from Kamino — 2 operation(s) for yields.
+- baseURL: https://api.kamino.finance
+  baseurl_source: declared
+  description: The Yields API from Kamino — 2 operation(s) for yields.
   name: Kamino Yields API
   slug: kamino-yields-api
 artifact_total: 53
@@ -354,7 +400,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kamino/refs/heads/main/screenshots/kamino-2026-07-25T223446.png
 security:

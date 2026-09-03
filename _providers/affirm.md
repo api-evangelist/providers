@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: Capture, void, and refund Affirm charges; read transaction details.
   name: Affirm Charges API
   slug: affirm-charges-api
-- description: Read transactions, settlements, and disputes.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Read transactions, settlements, and disputes.
   name: Affirm Transactions API
   slug: affirm-transactions-api
-- description: Server-side operations for authorizing Affirm transactions after a customer completes the checkout flow and a checkout token is returned.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Server-side operations for authorizing Affirm transactions after a customer completes the checkout flow and a checkout token is returned.
   name: Affirm Authorization API
   slug: affirm-authorization-api
-- description: Operations for managing virtual card numbers (VCN) issued via the Affirm Lite integration pattern.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for managing virtual card numbers (VCN) issued via the Affirm Lite integration pattern.
   name: Affirm Cards API
   slug: affirm-cards-api
-- description: Operations for creating, retrieving, updating, and resending Affirm checkout sessions.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and resending Affirm checkout sessions.
   name: Affirm Checkouts API
   slug: affirm-checkouts-api
-- description: Operations for listing, retrieving, contesting, and closing payment disputes initiated by customers.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for listing, retrieving, contesting, and closing payment disputes initiated by customers.
   name: Affirm Disputes API
   slug: affirm-disputes-api
-- description: Operations for retrieving dynamic promotional messaging and financing term information to display on merchant web pages.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for retrieving dynamic promotional messaging and financing term information to display on merchant web pages.
   name: Affirm Promos API
   slug: affirm-promos-api
-- description: Operations for listing settlement events and summaries that track disbursement activity.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for listing settlement events and summaries that track disbursement activity.
   name: Affirm Settlement Events API
   slug: affirm-settlement-events-api
-- description: Operations for listing transaction event records associated with transaction lifecycle changes.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Operations for listing transaction event records associated with transaction lifecycle changes.
   name: Affirm Transaction Events API
   slug: affirm-transaction-events-api
-- description: Post-authorization transaction management operations including capture, void, and refund.
+- baseURL: https://api.affirm.com
+  baseurl_source: declared
+  description: Post-authorization transaction management operations including capture, void, and refund.
   name: Affirm Transactions API
   slug: affirm-transactions-api
 artifact_total: 124
@@ -522,7 +540,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -532,7 +550,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.3
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -547,7 +565,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Nucleus platform API. Every platform capability is exposed over REST, documented with Swagger inside the authenticated customer console, and authenticated with a static API key in an x-apikey head
@@ -33,7 +46,9 @@ apis:
 - description: Hosted remote Model Context Protocol server included with the Nucleus platform, reachable at a per-tenant URL. Exposes project, asset, finding/vulnerability and Nucleus Query Language tools to AI clie
   name: Nucleus MCP Server
   slug: nucleus-mcp-server
-- description: Enriched CVE records from the Nucleus Security public vulnerability intelligence dataset.
+- baseURL: https://nucleussec.com/wp-json/nucleussec/v1
+  baseurl_source: declared
+  description: Enriched CVE records from the Nucleus Security public vulnerability intelligence dataset.
   name: Nucleus Security Vulnerabilities API
   slug: nucleus-security-vulnerabilities-api
 artifact_total: 11
@@ -205,7 +220,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -230,8 +245,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nucleus-security/refs/heads/main/screenshots/nucleus-security-2026-09-02T150811.png
 security:
 - kind: authentication
   name: Nucleus Security Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Create and retrieve encoding jobs.
+- baseURL: https://api.coconut.co/v2
+  baseurl_source: declared
+  description: Create and retrieve encoding jobs.
   name: Coconut Jobs API
   slug: coconut-jobs-api
-- description: Retrieve technical metadata for input and output files.
+- baseURL: https://api.coconut.co/v2
+  baseurl_source: declared
+  description: Retrieve technical metadata for input and output files.
   name: Coconut Metadata API
   slug: coconut-metadata-api
 artifact_total: 12
@@ -165,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coconut/refs/heads/main/screenshots/coconut-2026-06-20T174648.png
 security:

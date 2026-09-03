@@ -10,40 +10,106 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
+  score: 27.2
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Apiary API provides programmatic access to manage API projects, documentation, and team collaboration. It allows creating and updating API Blueprint and Swagger/OpenAPI documents, managing team me
+- baseURL: https://api.apiary.io
+  baseurl_source: declared
+  description: The Apiary API provides programmatic access to manage API projects, documentation, and team collaboration. It allows creating and updating API Blueprint and Swagger/OpenAPI documents, managing team me
   name: Apiary API
   slug: apiary-api
 - description: API Blueprint is a high-level API design language created by Apiary for designing and documenting web APIs. It uses a Markdown-based syntax that is human-readable and machine-parseable, enabling teams
   name: API Blueprint
   slug: api-blueprint
-artifact_total: 19
+artifact_total: 26
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/apiary-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/apiary-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/apiary-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/apiary-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/apiary-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/apiary-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/apiary-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/apiary-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apiary-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/apiary-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/apiary-conformance.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/apiary-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/apiary-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/apiary-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/apiary-llms.txt
 - group: operate
   title: ''
   type: IssueTracker
@@ -99,11 +165,19 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.oracle.com/legal/privacy/
+  url: https://apiary.io/privacy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.oracle.com/legal/terms.html
+  url: https://apiary.io/tos
+- group: operate
+  title: ''
+  type: ChangeLogRSS
+  url: https://apiary.docs.apiary.io/feed
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.apiary.io/feed.xml
 created: '2026-03-25'
 description: Apiary is an API design and documentation platform, now part of Oracle Cloud Infrastructure. With 486,000+ users and 591,000+ APIs managed, it uses API Blueprint and Swagger/OpenAPI specifications to produce interactive API documentation, mock servers, automated testing, and collaborative API design workflows. Apiary enables teams to design APIs before writing code, generate documentation automatically, and validate implementations against specifications.
 features:
@@ -128,51 +202,83 @@ finops:
   service_category: API
   slug: apiary-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apiary.png
+json_schemas:
+- name: Apiary Api List.Schema
+  property_count: 1
+  slug: apiary-api-list.schema
+- name: Apiary Api Project Created.Schema
+  property_count: 3
+  slug: apiary-api-project-created.schema
+- name: Apiary Error.Schema
+  property_count: 1
+  slug: apiary-error.schema
+- name: Apiary Token List.Schema
+  property_count: 1
+  slug: apiary-token-list.schema
+- name: Apiary Token.Schema
+  property_count: 3
+  slug: apiary-token.schema
+- name: Apiary User.Schema
+  property_count: 4
+  slug: apiary-user.schema
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Apiary
 nav: Providers
 network: true
-overview: 'Apiary publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Blueprint, API Design, API Testing, Collaboration, and Design-First.
+overview: 'Apiary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Blueprint, API Design, API Testing, Collaboration, and Design-First.
 
 
-  Apiary''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
+  Apiary''s developer surface includes authentication, CLI, changelog, sandbox, documentation, engineering blog, pricing, and 26 more developer resources.'
 plans:
 - name: Apiary Plans Pricing
   plan_count: 3
   slug: apiary-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Apiary Rate Limits
   slug: apiary-rate-limits
 score:
-  band: emerging
-  composite: 25.8
+  band: developing
+  composite: 44.6
   coverage:
-    artifact_dirs: 6
-    catalog_gap: 74.0
+    artifact_dirs: 25
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 18.8
   facets:
-    access_clarity: 53.9
-    commercial_clarity: 53.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 28.6
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 4.5
+    contract_quality: 21.9
+    developer_ergonomics: 70.8
     discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 26.3
+    governance: 4.5
+    operational_transparency: 39.5
   open_source:
     applies: true
     score: 25.0
   previous_composite: 25.8
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 1
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/screenshots/apiary-2026-06-20T172227.png
 security:
+- kind: authentication
+  name: Apiary Authentication
+  slug: apiary-authentication
+  summary_line: apiKey/http · 3 schemes
 - kind: domain-security
   name: Apiary Domain Security
   slug: apiary-domain-security

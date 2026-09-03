@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 85 operations · 38 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Enterprise messaging API supporting EMS (Enterprise Message Service) and FTL (Fast Transport Layer).
+- baseURL: https://messaging.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Enterprise messaging API supporting EMS (Enterprise Message Service) and FTL (Fast Transport Layer).
   name: TIBCO Messaging API
   slug: tibco-messaging-api
-- description: Manage inference agents
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage inference agents
   name: TIBCO Agents API
   slug: tibco-agents-api
-- description: Manage Spotfire analysis files
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage Spotfire analysis files
   name: TIBCO Analyses API
   slug: tibco-analyses-api
-- description: Manage developer applications
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage developer applications
   name: TIBCO Applications API
   slug: tibco-applications-api
-- description: Manage integration applications
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage integration applications
   name: TIBCO Apps API
   slug: tibco-apps-api
-- description: Manage event channels and destinations
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage event channels and destinations
   name: TIBCO Channels API
   slug: tibco-channels-api
-- description: Manage connector connections
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage connector connections
   name: TIBCO Connections API
   slug: tibco-connections-api
-- description: Manage data source connections
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage data source connections
   name: TIBCO Data Sources API
   slug: tibco-data-sources-api
-- description: Manage decision tables for rule evaluation
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage decision tables for rule evaluation
   name: TIBCO Decision Tables API
   slug: tibco-decision-tables-api
-- description: Deploy and manage running app instances
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Deploy and manage running app instances
   name: TIBCO Deployments API
   slug: tibco-deployments-api
-- description: Manage API endpoints within services
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage API endpoints within services
   name: TIBCO Endpoints API
   slug: tibco-endpoints-api
-- description: Manage deployment environments
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage deployment environments
   name: TIBCO Environments API
   slug: tibco-environments-api
-- description: Submit and query complex events
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Submit and query complex events
   name: TIBCO Events API
   slug: tibco-events-api
-- description: Manage Flogo flows and activities
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage Flogo flows and activities
   name: TIBCO Flows API
   slug: tibco-flows-api
-- description: Manage user groups
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage user groups
   name: TIBCO Groups API
   slug: tibco-groups-api
-- description: Manage Spotfire library items and folders
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage Spotfire library items and folders
   name: TIBCO Library API
   slug: tibco-library-api
-- description: Manage developer portal members
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage developer portal members
   name: TIBCO Members API
   slug: tibco-members-api
-- description: Manage Spotfire Server nodes and services
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage Spotfire Server nodes and services
   name: TIBCO Nodes API
   slug: tibco-nodes-api
-- description: Manage API packages for bundling services
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage API packages for bundling services
   name: TIBCO Packages API
   slug: tibco-packages-api
-- description: Manage subscription plans within packages
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage subscription plans within packages
   name: TIBCO Plans API
   slug: tibco-plans-api
-- description: API usage reporting and analytics
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: API usage reporting and analytics
   name: TIBCO Reports API
   slug: tibco-reports-api
-- description: The Rest API from TIBCO — 2 operation(s) for rest.
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: The Rest API from TIBCO — 2 operation(s) for rest.
   name: TIBCO Rest API
   slug: tibco-rest-api
-- description: Manage business rules and rule sets
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage business rules and rule sets
   name: TIBCO Rules API
   slug: tibco-rules-api
-- description: Manage scheduled analysis updates
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage scheduled analysis updates
   name: TIBCO Scheduled Updates API
   slug: tibco-scheduled-updates-api
-- description: Manage metric scorecards and dashboards
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage metric scorecards and dashboards
   name: TIBCO Scorecards API
   slug: tibco-scorecards-api
-- description: Manage Spotfire users
+- baseURL: https://integration.cloud.tibco.com/api/v1
+  baseurl_source: declared
+  description: Manage Spotfire users
   name: TIBCO Users API
   slug: tibco-users-api
 artifact_total: 74
@@ -403,7 +455,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -413,7 +465,7 @@ score:
     discoverability: 79.6
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 45.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -422,7 +474,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-08-17T082218.png
 security:

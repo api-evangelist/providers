@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 42 operations · 22 acting
 api_count: 1
 apis:
-- description: Account details, usage, and balance.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Account details, usage, and balance.
   name: ClickSend Account API
   slug: clicksend-account-api
-- description: Manage contacts.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Manage contacts.
   name: ClickSend Contact API
   slug: clicksend-contact-api
-- description: Manage contact lists.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Manage contact lists.
   name: ClickSend ContactList API
   slug: clicksend-contactlist-api
-- description: Send and view transactional email.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Send and view transactional email.
   name: ClickSend Email API
   slug: clicksend-email-api
-- description: Send and view MMS messages.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Send and view MMS messages.
   name: ClickSend MMS API
   slug: clicksend-mms-api
-- description: Print and mail physical letters.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Print and mail physical letters.
   name: ClickSend Post Letter API
   slug: clicksend-post-letter-api
-- description: Print and mail physical postcards.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Print and mail physical postcards.
   name: ClickSend Post Postcard API
   slug: clicksend-post-postcard-api
-- description: Delivery receipts, inbound messages, and automations.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Delivery receipts, inbound messages, and automations.
   name: ClickSend Receipts API
   slug: clicksend-receipts-api
-- description: Send and view SMS messages.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Send and view SMS messages.
   name: ClickSend SMS API
   slug: clicksend-sms-api
-- description: Send and view voice (text-to-speech) messages.
+- baseURL: https://rest.clicksend.com/v3
+  baseurl_source: declared
+  description: Send and view voice (text-to-speech) messages.
   name: ClickSend Voice API
   slug: clicksend-voice-api
 artifact_total: 29
@@ -219,7 +239,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clicksend/refs/heads/main/screenshots/clicksend-2026-07-25T205619.png
 security:

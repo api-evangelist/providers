@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 71 operations · 34 acting
 api_count: 1
 apis:
-- description: The Accounts API from Xflow — 4 operation(s) for accounts.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Accounts API from Xflow — 4 operation(s) for accounts.
   name: Xflow Accounts API
   slug: xflow-accounts-api
-- description: The AccountSettings API from Xflow — 3 operation(s) for accountsettings.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The AccountSettings API from Xflow — 3 operation(s) for accountsettings.
   name: Xflow AccountSettings API
   slug: xflow-accountsettings-api
-- description: The Addresses API from Xflow — 2 operation(s) for addresses.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Addresses API from Xflow — 2 operation(s) for addresses.
   name: Xflow Addresses API
   slug: xflow-addresses-api
-- description: The Balance API from Xflow — 2 operation(s) for balance.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Balance API from Xflow — 2 operation(s) for balance.
   name: Xflow Balance API
   slug: xflow-balance-api
-- description: The BalanceTransactions API from Xflow — 2 operation(s) for balancetransactions.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The BalanceTransactions API from Xflow — 2 operation(s) for balancetransactions.
   name: Xflow BalanceTransactions API
   slug: xflow-balancetransactions-api
-- description: The Deposits API from Xflow — 2 operation(s) for deposits.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Deposits API from Xflow — 2 operation(s) for deposits.
   name: Xflow Deposits API
   slug: xflow-deposits-api
-- description: The Events API from Xflow — 2 operation(s) for events.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Events API from Xflow — 2 operation(s) for events.
   name: Xflow Events API
   slug: xflow-events-api
-- description: The ExchangeRates API from Xflow — 2 operation(s) for exchangerates.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The ExchangeRates API from Xflow — 2 operation(s) for exchangerates.
   name: Xflow ExchangeRates API
   slug: xflow-exchangerates-api
-- description: The FeePlans API from Xflow — 2 operation(s) for feeplans.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The FeePlans API from Xflow — 2 operation(s) for feeplans.
   name: Xflow FeePlans API
   slug: xflow-feeplans-api
-- description: The Files API from Xflow — 3 operation(s) for files.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Files API from Xflow — 3 operation(s) for files.
   name: Xflow Files API
   slug: xflow-files-api
-- description: The PaymentLinks API from Xflow — 6 operation(s) for paymentlinks.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The PaymentLinks API from Xflow — 6 operation(s) for paymentlinks.
   name: Xflow PaymentLinks API
   slug: xflow-paymentlinks-api
-- description: The Payments API from Xflow — 2 operation(s) for payments.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Payments API from Xflow — 2 operation(s) for payments.
   name: Xflow Payments API
   slug: xflow-payments-api
-- description: The Payouts API from Xflow — 2 operation(s) for payouts.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Payouts API from Xflow — 2 operation(s) for payouts.
   name: Xflow Payouts API
   slug: xflow-payouts-api
-- description: The Persons API from Xflow — 2 operation(s) for persons.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Persons API from Xflow — 2 operation(s) for persons.
   name: Xflow Persons API
   slug: xflow-persons-api
-- description: The Quotes API from Xflow — 1 operation(s) for quotes.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Quotes API from Xflow — 1 operation(s) for quotes.
   name: Xflow Quotes API
   slug: xflow-quotes-api
-- description: The Receivables API from Xflow — 5 operation(s) for receivables.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Receivables API from Xflow — 5 operation(s) for receivables.
   name: Xflow Receivables API
   slug: xflow-receivables-api
-- description: The Transfers API from Xflow — 2 operation(s) for transfers.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The Transfers API from Xflow — 2 operation(s) for transfers.
   name: Xflow Transfers API
   slug: xflow-transfers-api
-- description: The WebhookEndpoints API from Xflow — 4 operation(s) for webhookendpoints.
+- baseURL: https://api.xflowpay.com
+  baseurl_source: declared
+  description: The WebhookEndpoints API from Xflow — 4 operation(s) for webhookendpoints.
   name: Xflow WebhookEndpoints API
   slug: xflow-webhookendpoints-api
 artifact_total: 42
@@ -329,7 +365,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -339,7 +375,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -357,7 +393,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xflow/refs/heads/main/screenshots/xflow-2026-08-17T083009.png
 security:

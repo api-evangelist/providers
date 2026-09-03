@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,40 +37,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Hyperliquid account state and risk management
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Hyperliquid account state and risk management
   name: FarmDash Agent Hub Account API
   slug: farmdash-account-api
-- description: Policy-bounded loop configuration and execution
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Policy-bounded loop configuration and execution
   name: FarmDash Agent Hub Autopilot API
   slug: farmdash-autopilot-api
-- description: Hyperliquid wallet delegation
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Hyperliquid wallet delegation
   name: FarmDash Agent Hub Delegation API
   slug: farmdash-delegation-api
-- description: Futures order execution and cancellation
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Futures order execution and cancellation
   name: FarmDash Agent Hub Execution API
   slug: farmdash-execution-api
-- description: Fee event history and revenue metrics
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Fee event history and revenue metrics
   name: FarmDash Agent Hub History API
   slug: farmdash-history-api
-- description: Trail Heat protocol data and chain analytics
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Trail Heat protocol data and chain analytics
   name: FarmDash Agent Hub Intelligence API
   slug: farmdash-intelligence-api
-- description: Futures market research — funding rates, technical indicators
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Futures market research — funding rates, technical indicators
   name: FarmDash Agent Hub Research API
   slug: farmdash-research-api
-- description: Pre-trade risk analysis, alerts, and execution guardrails
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Pre-trade risk analysis, alerts, and execution guardrails
   name: FarmDash Agent Hub Risk API
   slug: farmdash-risk-api
-- description: Bounded session management
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Bounded session management
   name: FarmDash Agent Hub Session API
   slug: farmdash-session-api
-- description: Strategy analysis and position sizing
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Strategy analysis and position sizing
   name: FarmDash Agent Hub Strategy API
   slug: farmdash-strategy-api
-- description: Token swap quotes, execution, and confirmation
+- baseURL: https://www.farmdash.one/api
+  baseurl_source: declared
+  description: Token swap quotes, execution, and confirmation
   name: FarmDash Agent Hub Swap API
   slug: farmdash-swap-api
 artifact_total: 16
@@ -186,7 +222,7 @@ score:
   band: developing
   composite: 54.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -217,8 +253,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/screenshots/farmdash-2026-09-02T145504.png
 security:
 - kind: authentication
   name: Farmdash Authentication

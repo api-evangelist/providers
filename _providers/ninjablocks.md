@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Historical RESTful API for the Ninja Blocks IoT platform, used to read device/sensor data and actuate devices. No longer operational; documented here from surviving first-party client libraries.
@@ -111,7 +111,7 @@ score:
       reason: never_enriched
   previous_composite: 10.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninjablocks/refs/heads/main/screenshots/ninjablocks-2026-08-07T185322.png
 slug: ninjablocks

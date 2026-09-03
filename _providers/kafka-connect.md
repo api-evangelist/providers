@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 22 operations · 12 acting · 3 human-in-the-loop
 api_count: 3
 apis:
-- description: The Connector Plugins API from Kafka Connect — 2 operation(s) for connector plugins.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Connector Plugins API from Kafka Connect — 2 operation(s) for connector plugins.
   name: Kafka Connect Connector Plugins API
   slug: kafka-connect-connector-plugins-api
-- description: The Connectors API from Kafka Connect — 14 operation(s) for connectors.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Connectors API from Kafka Connect — 14 operation(s) for connectors.
   name: Kafka Connect Connectors API
   slug: kafka-connect-connectors-api
-- description: The Kafka Connect REST API API from Kafka Connect — 1 operation(s) for kafka connect rest api.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Kafka Connect REST API API from Kafka Connect — 1 operation(s) for kafka connect rest api.
   name: Kafka Connect Kafka Connect REST API API
   slug: kafka-connect-kafka-connect-rest-api-api
 artifact_total: 14
@@ -158,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kafka-connect/refs/heads/main/screenshots/kafka-connect-2026-06-20T183852.png
 security:

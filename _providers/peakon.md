@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 24 operations · 4 acting
 api_count: 1
 apis:
-- description: Retrieving actions
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Retrieving actions
   name: Peakon Actions API
   slug: peakon-actions-api
-- description: The Answers API from Peakon — 1 operation(s) for answers.
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: The Answers API from Peakon — 1 operation(s) for answers.
   name: Peakon Answers API
   slug: peakon-answers-api
-- description: Retrieving company audit log
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Retrieving company audit log
   name: Peakon Audits API
   slug: peakon-audits-api
-- description: Authenticating with the API
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Authenticating with the API
   name: Peakon Authentication API
   slug: peakon-authentication-api
-- description: Manage employees
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Manage employees
   name: Peakon Employees API
   slug: peakon-employees-api
-- description: Retrieving engagement scores
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Retrieving engagement scores
   name: Peakon Engagement API
   slug: peakon-engagement-api
-- description: Retrieving scores
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Retrieving scores
   name: Peakon Scores API
   slug: peakon-scores-api
-- description: Retrieving segments
+- baseURL: https://api.peakon.com/api/v1/
+  baseurl_source: declared
+  description: Retrieving segments
   name: Peakon Segments API
   slug: peakon-segments-api
 artifact_total: 21
@@ -228,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/screenshots/peakon-2026-08-07T191724.png
 security:

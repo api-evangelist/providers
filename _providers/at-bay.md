@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Upload submission documents and download generated policy documents.
+- baseURL: https://api.at-bay.com/v2
+  baseurl_source: declared
+  description: Upload submission documents and download generated policy documents.
   name: At-Bay Documents API
   slug: at-bay-documents-api
-- description: API health check.
+- baseURL: https://api.at-bay.com/v2
+  baseurl_source: declared
+  description: API health check.
   name: At-Bay Health API
   slug: at-bay-health-api
-- description: Manage bound policies including renewal behavior.
+- baseURL: https://api.at-bay.com/v2
+  baseurl_source: declared
+  description: Manage bound policies including renewal behavior.
   name: At-Bay Policies API
   slug: at-bay-policies-api
-- description: Create, poll, and bind insurance quotes.
+- baseURL: https://api.at-bay.com/v2
+  baseurl_source: declared
+  description: Create, poll, and bind insurance quotes.
   name: At-Bay Quotes API
   slug: at-bay-quotes-api
-- description: Register webhook endpoints for asynchronous status callbacks.
+- baseURL: https://api.at-bay.com/v2
+  baseurl_source: declared
+  description: Register webhook endpoints for asynchronous status callbacks.
   name: At-Bay Webhooks API
   slug: at-bay-webhooks-api
 artifact_total: 27
@@ -316,7 +326,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png
 security:

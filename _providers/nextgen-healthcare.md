@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,88 +65,144 @@ apis:
 - description: 'API for NextGen Mirth Connect, an open-source healthcare integration engine supporting HL7 v2, FHIR, and other healthcare data standards for interoperability between clinical systems. Enables message '
   name: NextGen Mirth Connect Integration Engine API
   slug: nextgen-mirth-connect-integration-engine-api
-- description: https://hl7.org/fhir/R4/allergyintolerance.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/allergyintolerance.html
   name: NextGen Healthcare Allergy Intolerance API
   slug: nextgen-healthcare-allergyintolerance-api
-- description: https://hl7.org/fhir/R4/careplan.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/careplan.html
   name: NextGen Healthcare Care Plan API
   slug: nextgen-healthcare-careplan-api
-- description: https://hl7.org/fhir/R4/careteam.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/careteam.html
   name: NextGen Healthcare Care Team API
   slug: nextgen-healthcare-careteam-api
-- description: The CCDA API from NextGen Healthcare — 1 operation(s) for ccda.
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: The CCDA API from NextGen Healthcare — 1 operation(s) for ccda.
   name: NextGen Healthcare CCDA API
   slug: nextgen-healthcare-ccda-api
-- description: https://hl7.org/fhir/R4/condition.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/condition.html
   name: NextGen Healthcare Condition API
   slug: nextgen-healthcare-condition-api
-- description: https://hl7.org/fhir/R4/coverage.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/coverage.html
   name: NextGen Healthcare Coverage API
   slug: nextgen-healthcare-coverage-api
-- description: https://hl7.org/fhir/R4/device.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/device.html
   name: NextGen Healthcare Device API
   slug: nextgen-healthcare-device-api
-- description: https://hl7.org/fhir/R4/diagnosticreport.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/diagnosticreport.html
   name: NextGen Healthcare Diagnostic Report API
   slug: nextgen-healthcare-diagnosticreport-api
-- description: https://hl7.org/fhir/R4/documentreference.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/documentreference.html
   name: NextGen Healthcare Document Reference API
   slug: nextgen-healthcare-documentreference-api
-- description: https://hl7.org/fhir/R4/encounter.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/encounter.html
   name: NextGen Healthcare Encounter API
   slug: nextgen-healthcare-encounter-api
-- description: The Export APIs API from NextGen Healthcare — 2 operation(s) for export apis.
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: The Export APIs API from NextGen Healthcare — 2 operation(s) for export apis.
   name: NextGen Healthcare Export APIs API
   slug: nextgen-healthcare-export-apis-api
-- description: https://hl7.org/fhir/R4/goal.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/goal.html
   name: NextGen Healthcare Goal API
   slug: nextgen-healthcare-goal-api
-- description: The Group APIs API from NextGen Healthcare — 2 operation(s) for group apis.
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: The Group APIs API from NextGen Healthcare — 2 operation(s) for group apis.
   name: NextGen Healthcare Group APIs API
   slug: nextgen-healthcare-group-apis-api
-- description: https://hl7.org/fhir/R4/immunization.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/immunization.html
   name: NextGen Healthcare Immunization API
   slug: nextgen-healthcare-immunization-api
-- description: https://hl7.org/fhir/R4/location.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/location.html
   name: NextGen Healthcare Location API
   slug: nextgen-healthcare-location-api
-- description: https://hl7.org/fhir/R4/medicationadministration.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/medicationadministration.html
   name: NextGen Healthcare Medication Administration API
   slug: nextgen-healthcare-medicationadministration-api
-- description: The MedicationDispense API from NextGen Healthcare — 2 operation(s) for medicationdispense.
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: The MedicationDispense API from NextGen Healthcare — 2 operation(s) for medicationdispense.
   name: NextGen Healthcare Medication Dispense API
   slug: nextgen-healthcare-medicationdispense-api
-- description: https://hl7.org/fhir/R4/medicationrequest.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/medicationrequest.html
   name: NextGen Healthcare Medication Request API
   slug: nextgen-healthcare-medicationrequest-api
-- description: https://hl7.org/fhir/R4/observation.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/observation.html
   name: NextGen Healthcare Observation API
   slug: nextgen-healthcare-observation-api
-- description: https://hl7.org/fhir/R4/organization.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/organization.html
   name: NextGen Healthcare Organization API
   slug: nextgen-healthcare-organization-api
-- description: https://hl7.org/fhir/R4/patient.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/patient.html
   name: NextGen Healthcare Patient API
   slug: nextgen-healthcare-patient-api
-- description: The Patient Search API from NextGen Healthcare — 1 operation(s) for patient search.
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: The Patient Search API from NextGen Healthcare — 1 operation(s) for patient search.
   name: NextGen Healthcare Patient Search API
   slug: nextgen-healthcare-patient-search-api
-- description: https://hl7.org/fhir/R4/practitioner.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/practitioner.html
   name: NextGen Healthcare Practitioner API
   slug: nextgen-healthcare-practitioner-api
-- description: https://hl7.org/fhir/R4/practitionerrole.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/practitionerrole.html
   name: NextGen Healthcare Practitioner Role API
   slug: nextgen-healthcare-practitionerrole-api
-- description: https://hl7.org/fhir/R4/procedure.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/procedure.html
   name: NextGen Healthcare Procedure API
   slug: nextgen-healthcare-procedure-api
-- description: https://hl7.org/fhir/R4/provenance.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/provenance.html
   name: NextGen Healthcare Provenance API
   slug: nextgen-healthcare-provenance-api
-- description: https://hl7.org/fhir/R4/relatedperson.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/relatedperson.html
   name: NextGen Healthcare Related Person API
   slug: nextgen-healthcare-relatedperson-api
-- description: https://hl7.org/fhir/R4/specimen.html
+- baseURL: https://fhir.nextgen.com/nge/prod/fhir-api-r4/fhir/r4/
+  baseurl_source: declared
+  description: https://hl7.org/fhir/R4/specimen.html
   name: NextGen Healthcare Specimen API
   slug: nextgen-healthcare-specimen-api
 artifact_total: 47
@@ -432,7 +488,7 @@ score:
     regime_id: health
     score: 82.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 2
 apis:
-- description: List, create, read, update, and delete ThingSpeak channels — the primary container for time-series IoT data. Each channel holds up to eight numeric fields plus latitude, longitude, elevation, and a st
+- baseURL: https://api.thingspeak.com/
+  baseurl_source: declared
+  description: List, create, read, update, and delete ThingSpeak channels — the primary container for time-series IoT data. Each channel holds up to eight numeric fields plus latitude, longitude, elevation, and a st
   name: ThingSpeak Channels API
   slug: thingspeak-channels-api
-- description: Write a single channel entry via `/update` or push high-volume telemetry via `/channels/{channel_id}/bulk_update.json` (CSV or JSON batches). The write surface is the workhorse of every ThingSpeak dev
+- baseURL: https://api.thingspeak.com/
+  baseurl_source: declared
+  description: Write a single channel entry via `/update` or push high-volume telemetry via `/channels/{channel_id}/bulk_update.json` (CSV or JSON batches). The write surface is the workhorse of every ThingSpeak dev
   name: ThingSpeak Update API
   slug: thingspeak-update-api
-- description: Lightweight pub/sub MQTT broker at `mqtt3.thingspeak.com` over TCP (1883), TLS (8883), WebSocket (80), and secure WebSocket (443, path `/mqtt`). Publish to `channels/{channelID}/publish` and subscribe
+- baseURL: mqtt3.thingspeak.com
+  baseurl_source: declared
+  description: Lightweight pub/sub MQTT broker at `mqtt3.thingspeak.com` over TCP (1883), TLS (8883), WebSocket (80), and secure WebSocket (443, path `/mqtt`). Publish to `channels/{channelID}/publish` and subscribe
   name: ThingSpeak MQTT API
   slug: thingspeak-mqtt-api
 - description: 'React lets channels react to incoming data — running ThingHTTP requests, MATLAB Analysis snippets, TalkBack commands, or Twitter/Tweet posts when conditions (numeric threshold, string match, no-data) '
@@ -74,10 +80,14 @@ apis:
 - description: Cron-style scheduler that fires ThingHTTP, TalkBack, or MATLAB Analysis actions at a chosen time, recurring frequency, or after a delay. Pairs with React and TalkBack to close the IoT control loop.
   name: ThingSpeak TimeControl API
   slug: thingspeak-timecontrol-api
-- description: The Channels.json API from ThingSpeak — 1 operation(s) for channels.json.
+- baseURL: https://api.thingspeak.com/
+  baseurl_source: declared
+  description: The Channels.json API from ThingSpeak — 1 operation(s) for channels.json.
   name: ThingSpeak Channels.json API
   slug: thingspeak-channels-json-api
-- description: The Talkbacks API from ThingSpeak — 3 operation(s) for talkbacks.
+- baseURL: https://api.thingspeak.com/
+  baseurl_source: declared
+  description: The Talkbacks API from ThingSpeak — 3 operation(s) for talkbacks.
   name: ThingSpeak Talkbacks API
   slug: thingspeak-talkbacks-api
 arazzos:
@@ -462,7 +472,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -472,7 +482,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 62.2
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     contracts:
@@ -481,7 +491,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/screenshots/thingspeak-2026-06-20T195303.png
 security:

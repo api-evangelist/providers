@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +35,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The MyStars FaaS — Fulfilment API API from MyStars FaaS — 0 operation(s) for mystars faas — fulfilment api.
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: The MyStars FaaS — Fulfilment API API from MyStars FaaS — 0 operation(s) for mystars faas — fulfilment api.
   name: MyStars FaaS MyStars FaaS — Fulfilment API
   slug: mystars-mystars-faas-fulfilment-api-api
-- description: Create, inspect, list and cancel fulfilment orders.
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Create, inspect, list and cancel fulfilment orders.
   name: MyStars FaaS Orders API
   slug: mystars-orders-api
-- description: Quote a price; list supported payment currencies and products.
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Quote a price; list supported payment currencies and products.
   name: MyStars FaaS Pricing API
   slug: mystars-pricing-api
-- description: Resolve a recipient and check delivery eligibility before ordering.
+- baseURL: https://api.mystars.tg
+  baseurl_source: declared
+  description: Resolve a recipient and check delivery eligibility before ordering.
   name: MyStars FaaS Recipients API
   slug: mystars-recipients-api
 artifact_total: 10
@@ -212,11 +232,11 @@ score:
   band: strong
   composite: 59.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -226,7 +246,7 @@ score:
     discoverability: 83.3
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 62.0
+  previous_composite: 59.9
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +263,9 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mystars/refs/heads/main/screenshots/mystars-2026-09-02T150711.png
 security:
 - kind: authentication
   name: Mystars Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 53 operations · 3 acting
 api_count: 1
 apis:
-- description: Abuse Contact API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Abuse Contact API.
   name: IPinfo abuse API
   slug: ipinfo-abuse-api
-- description: ASN API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: ASN API.
   name: IPinfo asn API
   slug: ipinfo-asn-api
-- description: IP to Phone Carrier Detection API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IP to Phone Carrier Detection API.
   name: IPinfo carrier API
   slug: ipinfo-carrier-api
-- description: IP to Company API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IP to Company API.
   name: IPinfo company API
   slug: ipinfo-company-api
-- description: Hosted Domains API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Hosted Domains API.
   name: IPinfo domains API
   slug: ipinfo-domains-api
-- description: General API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: General API.
   name: IPinfo general API
   slug: ipinfo-general-api
-- description: IPinfo Core API - Core IP information service.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IPinfo Core API - Core IP information service.
   name: IPinfo ipinfo core API
   slug: ipinfo-ipinfo-core-api
-- description: IPinfo Lite API - IPinfo's free API service for country and ASN information.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IPinfo Lite API - IPinfo's free API service for country and ASN information.
   name: IPinfo ipinfo lite API
   slug: ipinfo-ipinfo-lite-api
-- description: IPinfo Max API - Most comprehensive IP intelligence with residential proxy detection.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IPinfo Max API - Most comprehensive IP intelligence with residential proxy detection.
   name: IPinfo ipinfo max API
   slug: ipinfo-ipinfo-max-api
-- description: IPinfo Plus API - Enhanced IP information service with mobile and anonymity detection.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IPinfo Plus API - Enhanced IP information service with mobile and anonymity detection.
   name: IPinfo ipinfo plus API
   slug: ipinfo-ipinfo-plus-api
-- description: IPinfo Places API - Building-level IP intelligence for physical locations.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IPinfo Places API - Building-level IP intelligence for physical locations.
   name: IPinfo places API
   slug: ipinfo-places-api
-- description: Privacy Detection Standard API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Privacy Detection Standard API.
   name: IPinfo privacy detection API
   slug: ipinfo-privacy-detection-api
-- description: Privacy Detection Extended API with detailed methodologies.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Privacy Detection Extended API with detailed methodologies.
   name: IPinfo privacy detection extended API
   slug: ipinfo-privacy-detection-extended-api
-- description: IP Ranges API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IP Ranges API.
   name: IPinfo ranges API
   slug: ipinfo-ranges-api
-- description: Residential Proxy Detection API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Residential Proxy Detection API.
   name: IPinfo residential proxy detection API
   slug: ipinfo-residential-proxy-detection-api
-- description: Single info API.
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: Single info API.
   name: IPinfo single API
   slug: ipinfo-single-api
-- description: IP WHOIS API
+- baseURL: https://api.ipinfo.io
+  baseurl_source: declared
+  description: IP WHOIS API
   name: IPinfo whois API
   slug: ipinfo-whois-api
 arazzos:
@@ -777,7 +811,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipinfo/refs/heads/main/screenshots/ipinfo-2026-06-20T183555.png
 security:

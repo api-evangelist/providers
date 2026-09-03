@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 1
@@ -49,223 +49,369 @@ apis:
 - description: REST API for channel managers integrating with Mews to push availability, rates, and inventory.
   name: Mews Channel Manager API
   slug: channel-manager-api
-- description: The Account notes API from Mews — 4 operation(s) for account notes.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Account notes API from Mews — 4 operation(s) for account notes.
   name: Mews Account notes API
   slug: mews-account-notes-api
-- description: The Accounting categories API from Mews — 1 operation(s) for accounting categories.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Accounting categories API from Mews — 1 operation(s) for accounting categories.
   name: Mews Accounting categories API
   slug: mews-accounting-categories-api
-- description: The Accounting items API from Mews — 2 operation(s) for accounting items.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Accounting items API from Mews — 2 operation(s) for accounting items.
   name: Mews Accounting items API
   slug: mews-accounting-items-api
-- description: The Accounts API from Mews — 3 operation(s) for accounts.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Accounts API from Mews — 3 operation(s) for accounts.
   name: Mews Accounts API
   slug: mews-accounts-api
-- description: The Addresses API from Mews — 4 operation(s) for addresses.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Addresses API from Mews — 4 operation(s) for addresses.
   name: Mews Addresses API
   slug: mews-addresses-api
-- description: The Age categories API from Mews — 1 operation(s) for age categories.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Age categories API from Mews — 1 operation(s) for age categories.
   name: Mews Age categories API
   slug: mews-age-categories-api
-- description: The Availability adjustments API from Mews — 1 operation(s) for availability adjustments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Availability adjustments API from Mews — 1 operation(s) for availability adjustments.
   name: Mews Availability adjustments API
   slug: mews-availability-adjustments-api
-- description: The Availability blocks API from Mews — 4 operation(s) for availability blocks.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Availability blocks API from Mews — 4 operation(s) for availability blocks.
   name: Mews Availability blocks API
   slug: mews-availability-blocks-api
-- description: The Billing automations API from Mews — 5 operation(s) for billing automations.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Billing automations API from Mews — 5 operation(s) for billing automations.
   name: Mews Billing automations API
   slug: mews-billing-automations-api
-- description: The Bills API from Mews — 6 operation(s) for bills.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Bills API from Mews — 6 operation(s) for bills.
   name: Mews Bills API
   slug: mews-bills-api
-- description: The Business segments API from Mews — 1 operation(s) for business segments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Business segments API from Mews — 1 operation(s) for business segments.
   name: Mews Business segments API
   slug: mews-business-segments-api
-- description: The Cancellation policies API from Mews — 3 operation(s) for cancellation policies.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Cancellation policies API from Mews — 3 operation(s) for cancellation policies.
   name: Mews Cancellation policies API
   slug: mews-cancellation-policies-api
-- description: The Cashier transactions API from Mews — 1 operation(s) for cashier transactions.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Cashier transactions API from Mews — 1 operation(s) for cashier transactions.
   name: Mews Cashier transactions API
   slug: mews-cashier-transactions-api
-- description: The Cashiers API from Mews — 1 operation(s) for cashiers.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Cashiers API from Mews — 1 operation(s) for cashiers.
   name: Mews Cashiers API
   slug: mews-cashiers-api
-- description: The Commands API from Mews — 7 operation(s) for commands.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Commands API from Mews — 7 operation(s) for commands.
   name: Mews Commands API
   slug: mews-commands-api
-- description: The Companies API from Mews — 4 operation(s) for companies.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Companies API from Mews — 4 operation(s) for companies.
   name: Mews Companies API
   slug: mews-companies-api
-- description: The Companionships API from Mews — 1 operation(s) for companionships.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Companionships API from Mews — 1 operation(s) for companionships.
   name: Mews Companionships API
   slug: mews-companionships-api
-- description: The Company contracts API from Mews — 4 operation(s) for company contracts.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Company contracts API from Mews — 4 operation(s) for company contracts.
   name: Mews Company contracts API
   slug: mews-company-contracts-api
-- description: The Configuration API from Mews — 1 operation(s) for configuration.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Configuration API from Mews — 1 operation(s) for configuration.
   name: Mews Configuration API
   slug: mews-configuration-api
-- description: The Counters API from Mews — 1 operation(s) for counters.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Counters API from Mews — 1 operation(s) for counters.
   name: Mews Counters API
   slug: mews-counters-api
-- description: The Countries API from Mews — 1 operation(s) for countries.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Countries API from Mews — 1 operation(s) for countries.
   name: Mews Countries API
   slug: mews-countries-api
-- description: The Credit cards API from Mews — 4 operation(s) for credit cards.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Credit cards API from Mews — 4 operation(s) for credit cards.
   name: Mews Credit cards API
   slug: mews-credit-cards-api
-- description: The Currencies API from Mews — 1 operation(s) for currencies.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Currencies API from Mews — 1 operation(s) for currencies.
   name: Mews Currencies API
   slug: mews-currencies-api
-- description: The Customers API from Mews — 8 operation(s) for customers.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Customers API from Mews — 8 operation(s) for customers.
   name: Mews Customers API
   slug: mews-customers-api
-- description: The Departments API from Mews — 1 operation(s) for departments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Departments API from Mews — 1 operation(s) for departments.
   name: Mews Departments API
   slug: mews-departments-api
-- description: The Devices API from Mews — 1 operation(s) for devices.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Devices API from Mews — 1 operation(s) for devices.
   name: Mews Devices API
   slug: mews-devices-api
-- description: The Enterprises API from Mews — 1 operation(s) for enterprises.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Enterprises API from Mews — 1 operation(s) for enterprises.
   name: Mews Enterprises API
   slug: mews-enterprises-api
-- description: The Exchange rates API from Mews — 1 operation(s) for exchange rates.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Exchange rates API from Mews — 1 operation(s) for exchange rates.
   name: Mews Exchange rates API
   slug: mews-exchange-rates-api
-- description: The Exports API from Mews — 2 operation(s) for exports.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Exports API from Mews — 2 operation(s) for exports.
   name: Mews Exports API
   slug: mews-exports-api
-- description: The Identity documents API from Mews — 5 operation(s) for identity documents.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Identity documents API from Mews — 5 operation(s) for identity documents.
   name: Mews Identity documents API
   slug: mews-identity-documents-api
-- description: The Images API from Mews — 1 operation(s) for images.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Images API from Mews — 1 operation(s) for images.
   name: Mews Images API
   slug: mews-images-api
-- description: The Languages API from Mews — 2 operation(s) for languages.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Languages API from Mews — 2 operation(s) for languages.
   name: Mews Languages API
   slug: mews-languages-api
-- description: The Ledger balances API from Mews — 1 operation(s) for ledger balances.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Ledger balances API from Mews — 1 operation(s) for ledger balances.
   name: Mews Ledger balances API
   slug: mews-ledger-balances-api
-- description: The Loyalty memberships API from Mews — 4 operation(s) for loyalty memberships.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Loyalty memberships API from Mews — 4 operation(s) for loyalty memberships.
   name: Mews Loyalty memberships API
   slug: mews-loyalty-memberships-api
-- description: The Loyalty programs API from Mews — 4 operation(s) for loyalty programs.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Loyalty programs API from Mews — 4 operation(s) for loyalty programs.
   name: Mews Loyalty programs API
   slug: mews-loyalty-programs-api
-- description: The Loyalty tiers API from Mews — 4 operation(s) for loyalty tiers.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Loyalty tiers API from Mews — 4 operation(s) for loyalty tiers.
   name: Mews Loyalty tiers API
   slug: mews-loyalty-tiers-api
-- description: The Message threads API from Mews — 2 operation(s) for message threads.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Message threads API from Mews — 2 operation(s) for message threads.
   name: Mews Message threads API
   slug: mews-message-threads-api
-- description: The Messages API from Mews — 2 operation(s) for messages.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Messages API from Mews — 2 operation(s) for messages.
   name: Mews Messages API
   slug: mews-messages-api
-- description: The Order items API from Mews — 2 operation(s) for order items.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Order items API from Mews — 2 operation(s) for order items.
   name: Mews Order items API
   slug: mews-order-items-api
-- description: The Orders API from Mews — 1 operation(s) for orders.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Orders API from Mews — 1 operation(s) for orders.
   name: Mews Orders API
   slug: mews-orders-api
-- description: The Outlet bills API from Mews — 1 operation(s) for outlet bills.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Outlet bills API from Mews — 1 operation(s) for outlet bills.
   name: Mews Outlet bills API
   slug: mews-outlet-bills-api
-- description: The Outlet items API from Mews — 1 operation(s) for outlet items.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Outlet items API from Mews — 1 operation(s) for outlet items.
   name: Mews Outlet items API
   slug: mews-outlet-items-api
-- description: The Outlets API from Mews — 1 operation(s) for outlets.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Outlets API from Mews — 1 operation(s) for outlets.
   name: Mews Outlets API
   slug: mews-outlets-api
-- description: The Payment method requests API from Mews — 1 operation(s) for payment method requests.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Payment method requests API from Mews — 1 operation(s) for payment method requests.
   name: Mews Payment method requests API
   slug: mews-payment-method-requests-api
-- description: The Payment plans API from Mews — 2 operation(s) for payment plans.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Payment plans API from Mews — 2 operation(s) for payment plans.
   name: Mews Payment plans API
   slug: mews-payment-plans-api
-- description: The Payment requests API from Mews — 3 operation(s) for payment requests.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Payment requests API from Mews — 3 operation(s) for payment requests.
   name: Mews Payment requests API
   slug: mews-payment-requests-api
-- description: The Payments API from Mews — 5 operation(s) for payments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Payments API from Mews — 5 operation(s) for payments.
   name: Mews Payments API
   slug: mews-payments-api
-- description: The Preauthorizations API from Mews — 1 operation(s) for preauthorizations.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Preauthorizations API from Mews — 1 operation(s) for preauthorizations.
   name: Mews Preauthorizations API
   slug: mews-preauthorizations-api
-- description: The Product categories API from Mews — 1 operation(s) for product categories.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Product categories API from Mews — 1 operation(s) for product categories.
   name: Mews Product categories API
   slug: mews-product-categories-api
-- description: The Product service orders API from Mews — 1 operation(s) for product service orders.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Product service orders API from Mews — 1 operation(s) for product service orders.
   name: Mews Product service orders API
   slug: mews-product-service-orders-api
-- description: The Products API from Mews — 4 operation(s) for products.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Products API from Mews — 4 operation(s) for products.
   name: Mews Products API
   slug: mews-products-api
-- description: The Rate groups API from Mews — 1 operation(s) for rate groups.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Rate groups API from Mews — 1 operation(s) for rate groups.
   name: Mews Rate groups API
   slug: mews-rate-groups-api
-- description: The Rates API from Mews — 7 operation(s) for rates.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Rates API from Mews — 7 operation(s) for rates.
   name: Mews Rates API
   slug: mews-rates-api
-- description: The Reservation groups API from Mews — 1 operation(s) for reservation groups.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Reservation groups API from Mews — 1 operation(s) for reservation groups.
   name: Mews Reservation groups API
   slug: mews-reservation-groups-api
-- description: The Reservations API from Mews — 16 operation(s) for reservations.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Reservations API from Mews — 16 operation(s) for reservations.
   name: Mews Reservations API
   slug: mews-reservations-api
-- description: The Resource access tokens API from Mews — 4 operation(s) for resource access tokens.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Resource access tokens API from Mews — 4 operation(s) for resource access tokens.
   name: Mews Resource access tokens API
   slug: mews-resource-access-tokens-api
-- description: The Resource blocks API from Mews — 3 operation(s) for resource blocks.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Resource blocks API from Mews — 3 operation(s) for resource blocks.
   name: Mews Resource blocks API
   slug: mews-resource-blocks-api
-- description: The Resource categories API from Mews — 3 operation(s) for resource categories.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Resource categories API from Mews — 3 operation(s) for resource categories.
   name: Mews Resource categories API
   slug: mews-resource-categories-api
-- description: The Resource features API from Mews — 2 operation(s) for resource features.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Resource features API from Mews — 2 operation(s) for resource features.
   name: Mews Resource features API
   slug: mews-resource-features-api
-- description: The Resources API from Mews — 3 operation(s) for resources.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Resources API from Mews — 3 operation(s) for resources.
   name: Mews Resources API
   slug: mews-resources-api
-- description: The Restrictions API from Mews — 3 operation(s) for restrictions.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Restrictions API from Mews — 3 operation(s) for restrictions.
   name: Mews Restrictions API
   slug: mews-restrictions-api
-- description: The Routing rules API from Mews — 4 operation(s) for routing rules.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Routing rules API from Mews — 4 operation(s) for routing rules.
   name: Mews Routing rules API
   slug: mews-routing-rules-api
-- description: The Rules API from Mews — 1 operation(s) for rules.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Rules API from Mews — 1 operation(s) for rules.
   name: Mews Rules API
   slug: mews-rules-api
-- description: The Service order notes API from Mews — 4 operation(s) for service order notes.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Service order notes API from Mews — 4 operation(s) for service order notes.
   name: Mews Service order notes API
   slug: mews-service-order-notes-api
-- description: The Service overbooking limits API from Mews — 3 operation(s) for service overbooking limits.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Service overbooking limits API from Mews — 3 operation(s) for service overbooking limits.
   name: Mews Service overbooking limits API
   slug: mews-service-overbooking-limits-api
-- description: The Services API from Mews — 4 operation(s) for services.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Services API from Mews — 4 operation(s) for services.
   name: Mews Services API
   slug: mews-services-api
-- description: The Source assignments API from Mews — 2 operation(s) for source assignments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Source assignments API from Mews — 2 operation(s) for source assignments.
   name: Mews Source assignments API
   slug: mews-source-assignments-api
-- description: The Sources API from Mews — 1 operation(s) for sources.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Sources API from Mews — 1 operation(s) for sources.
   name: Mews Sources API
   slug: mews-sources-api
-- description: The Tasks API from Mews — 3 operation(s) for tasks.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Tasks API from Mews — 3 operation(s) for tasks.
   name: Mews Tasks API
   slug: mews-tasks-api
-- description: The Tax environments API from Mews — 1 operation(s) for tax environments.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Tax environments API from Mews — 1 operation(s) for tax environments.
   name: Mews Tax environments API
   slug: mews-tax-environments-api
-- description: The Taxations API from Mews — 1 operation(s) for taxations.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Taxations API from Mews — 1 operation(s) for taxations.
   name: Mews Taxations API
   slug: mews-taxations-api
-- description: The Voucher codes API from Mews — 3 operation(s) for voucher codes.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Voucher codes API from Mews — 3 operation(s) for voucher codes.
   name: Mews Voucher codes API
   slug: mews-voucher-codes-api
-- description: The Vouchers API from Mews — 4 operation(s) for vouchers.
+- baseURL: https://api.mews.com
+  baseurl_source: declared
+  description: The Vouchers API from Mews — 4 operation(s) for vouchers.
   name: Mews Vouchers API
   slug: mews-vouchers-api
 artifact_total: 1213
@@ -3785,7 +3931,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews/refs/heads/main/screenshots/mews-2026-06-20T185313.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Bundles API from Apache ServiceMix — 2 operation(s) for bundles.
+- baseURL: https://servicemix.example.com/api
+  baseurl_source: spec
+  description: The Bundles API from Apache ServiceMix — 2 operation(s) for bundles.
   name: Apache ServiceMix Bundles API
   slug: apache-servicemix-bundles-api
-- description: The Endpoints API from Apache ServiceMix — 1 operation(s) for endpoints.
+- baseURL: https://servicemix.example.com/api
+  baseurl_source: spec
+  description: The Endpoints API from Apache ServiceMix — 1 operation(s) for endpoints.
   name: Apache ServiceMix Endpoints API
   slug: apache-servicemix-endpoints-api
-- description: The Messaging API from Apache ServiceMix — 1 operation(s) for messaging.
+- baseURL: https://servicemix.example.com/api
+  baseurl_source: spec
+  description: The Messaging API from Apache ServiceMix — 1 operation(s) for messaging.
   name: Apache ServiceMix Messaging API
   slug: apache-servicemix-messaging-api
-- description: The Routes API from Apache ServiceMix — 4 operation(s) for routes.
+- baseURL: https://servicemix.example.com/api
+  baseurl_source: spec
+  description: The Routes API from Apache ServiceMix — 4 operation(s) for routes.
   name: Apache ServiceMix Routes API
   slug: apache-servicemix-routes-api
 artifact_total: 60
@@ -295,7 +303,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/screenshots/apache-servicemix-2026-06-20T172139.png
 security:

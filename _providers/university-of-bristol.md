@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'The one institution-operated, keyless, machine-readable API surface the University of Bristol publishes. OAI-PMH 2.0 metadata harvesting for the University of Bristol Research Portal, served from the '
+- baseURL: https://research-information.bris.ac.uk/ws/oai
+  baseurl_source: declared
+  description: 'The one institution-operated, keyless, machine-readable API surface the University of Bristol publishes. OAI-PMH 2.0 metadata harvesting for the University of Bristol Research Portal, served from the '
   name: University of Bristol Research Portal OAI-PMH
   slug: research-portal-oai-pmh
 - description: Bristol operates its own Shibboleth identity provider at idp.bris.ac.uk, publishing SAML 2.0 metadata anonymously at /idp/shibboleth (200, application/xml, 5,990 bytes) and registered in the UK Access
@@ -206,7 +208,7 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -216,7 +218,7 @@ score:
     discoverability: 68.5
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 46.4
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     contracts:
@@ -231,8 +233,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png
 security:
 - kind: authentication

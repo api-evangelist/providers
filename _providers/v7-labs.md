@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 14 acting
 api_count: 1
 apis:
-- description: Read and import item annotations.
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Read and import item annotations.
   name: V7 Annotations API
   slug: v7-labs-annotations-api
-- description: Manage annotation classes (labeling taxonomy).
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Manage annotation classes (labeling taxonomy).
   name: V7 Classes API
   slug: v7-labs-classes-api
-- description: Create and manage datasets.
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Create and manage datasets.
   name: V7 Datasets API
   slug: v7-labs-datasets-api
-- description: Request and manage dataset exports (releases).
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Request and manage dataset exports (releases).
   name: V7 Exports API
   slug: v7-labs-exports-api
-- description: Register, upload, list, and manage dataset items.
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Register, upload, list, and manage dataset items.
   name: V7 Items API
   slug: v7-labs-items-api
-- description: Manage multi-stage annotation workflows and stages.
+- baseURL: https://darwin.v7labs.com/api
+  baseurl_source: declared
+  description: Manage multi-stage annotation workflows and stages.
   name: V7 Workflows API
   slug: v7-labs-workflows-api
 artifact_total: 22
@@ -170,7 +182,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/v7-labs/refs/heads/main/screenshots/v7-labs-2026-09-02T165453.png
 security:
 - kind: authentication
   name: V7 Labs Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The SoftwareOne Marketplace Platform API provides programmatic access to the marketplace catalog, enabling clients and partners to browse products, manage subscriptions, track orders, and access billi
@@ -45,19 +45,29 @@ apis:
 - description: APIs for software asset management (SAM) workflows including license inventory, compliance reporting, entitlement reconciliation, and vendor audit preparation across on-premises and cloud software est
   name: SoftwareOne Software Asset Management API
   slug: software-asset-management
-- description: Catalog item lifecycle management
+- baseURL: https://api.platform.softwareone.com
+  baseurl_source: declared
+  description: Catalog item lifecycle management
   name: SoftwareOne Items API
   slug: softwareone-items-api
-- description: Marketplace listings
+- baseURL: https://api.platform.softwareone.com
+  baseurl_source: declared
+  description: Marketplace listings
   name: SoftwareOne Listings API
   slug: softwareone-listings-api
-- description: Product media assets
+- baseURL: https://api.platform.softwareone.com
+  baseurl_source: declared
+  description: Product media assets
   name: SoftwareOne Media API
   slug: softwareone-media-api
-- description: Product configuration parameters
+- baseURL: https://api.platform.softwareone.com
+  baseurl_source: declared
+  description: Product configuration parameters
   name: SoftwareOne Parameters API
   slug: softwareone-parameters-api
-- description: Catalog product lifecycle management
+- baseURL: https://api.platform.softwareone.com
+  baseurl_source: declared
+  description: Catalog product lifecycle management
   name: SoftwareOne Products API
   slug: softwareone-products-api
 artifact_total: 25
@@ -209,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softwareone/refs/heads/main/screenshots/softwareone-2026-06-20T194144.png
 security:

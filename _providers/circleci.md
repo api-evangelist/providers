@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,58 +44,92 @@ agentic_access:
   summary_line: 74 operations · 30 acting
 api_count: 2
 apis:
-- description: The CircleCI Self-Hosted Runner API enables management and execution of jobs on self-hosted runner infrastructure. It provides endpoints for listing available runners, managing runner tasks, and query
+- baseURL: https://runner.circleci.com
+  baseurl_source: declared
+  description: The CircleCI Self-Hosted Runner API enables management and execution of jobs on self-hosted runner infrastructure. It provides endpoints for listing available runners, managing runner tasks, and query
   name: CircleCI Self-Hosted Runner API
   slug: runner-api
-- description: CircleCI Webhooks allow developers to receive real-time notifications about events in their CI/CD pipelines by configuring HTTP callbacks. Webhooks can be set up through project settings to notify ext
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: CircleCI Webhooks allow developers to receive real-time notifications about events in their CI/CD pipelines by configuring HTTP callbacks. Webhooks can be set up through project settings to notify ext
   name: CircleCI Webhooks
   slug: webhooks
 - description: CircleCI Orbs are shareable, reusable packages of CircleCI configuration that simplify build setup and integration with third-party tools. The Orbs Registry on the CircleCI Developer Hub provides a se
   name: CircleCI Orbs Registry
   slug: orbs
-- description: Endpoints for listing and downloading build artifacts.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for listing and downloading build artifacts.
   name: CircleCI Artifact API
   slug: circleci-artifact-api
-- description: Endpoints for retrieving build details, triggering builds, retrying builds, and canceling builds.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving build details, triggering builds, retrying builds, and canceling builds.
   name: CircleCI Build API
   slug: circleci-build-api
-- description: Endpoints for managing contexts, which are used to secure and share environment variables across projects.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing contexts, which are used to secure and share environment variables across projects.
   name: CircleCI Context API
   slug: circleci-context-api
-- description: Endpoints for retrieving workflow and job metrics, summary data, and test performance insights.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving workflow and job metrics, summary data, and test performance insights.
   name: CircleCI Insights API
   slug: circleci-insights-api
-- description: Endpoints for retrieving job details, artifacts, and test metadata associated with pipeline jobs.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving job details, artifacts, and test metadata associated with pipeline jobs.
   name: CircleCI Job API
   slug: circleci-job-api
-- description: Endpoints for triggering, retrieving, and managing pipelines and their configurations.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for triggering, retrieving, and managing pipelines and their configurations.
   name: CircleCI Pipeline API
   slug: circleci-pipeline-api
-- description: Endpoints for listing followed projects and managing project settings.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for listing followed projects and managing project settings.
   name: CircleCI Project API
   slug: circleci-project-api
-- description: Endpoints for managing runner resource classes, which define the compute resources available for self-hosted runner jobs.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing runner resource classes, which define the compute resources available for self-hosted runner jobs.
   name: CircleCI Resource Class API
   slug: circleci-resource-class-api
-- description: Endpoints for querying task counts and managing tasks assigned to self-hosted runners.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for querying task counts and managing tasks assigned to self-hosted runners.
   name: CircleCI Runner Task API
   slug: circleci-runner-task-api
-- description: Endpoints for creating, updating, and managing scheduled pipeline triggers.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for creating, updating, and managing scheduled pipeline triggers.
   name: CircleCI Schedule API
   slug: circleci-schedule-api
-- description: Endpoints for managing SSH keys and checkout keys for projects.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for managing SSH keys and checkout keys for projects.
   name: CircleCI SSH Key API
   slug: circleci-ssh-key-api
-- description: Endpoints for retrieving test metadata collected during builds.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving test metadata collected during builds.
   name: CircleCI Test Metadata API
   slug: circleci-test-metadata-api
-- description: Endpoints for retrieving information about the authenticated user.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving information about the authenticated user.
   name: CircleCI User API
   slug: circleci-user-api
-- description: Endpoints for creating, updating, listing, and deleting outbound webhook subscriptions.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for creating, updating, listing, and deleting outbound webhook subscriptions.
   name: CircleCI Webhook API
   slug: circleci-webhook-api
-- description: Endpoints for retrieving workflow details, managing workflow status, and rerunning workflows.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: declared
+  description: Endpoints for retrieving workflow details, managing workflow status, and rerunning workflows.
   name: CircleCI Workflow API
   slug: circleci-workflow-api
 artifact_total: 132
@@ -545,7 +579,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -555,7 +589,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -564,7 +598,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
 security:

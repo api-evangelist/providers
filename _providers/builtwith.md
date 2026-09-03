@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,40 +44,62 @@ agentic_access:
   summary_line: 20 operations · 1 acting
 api_count: 10
 apis:
-- description: Current and historical website technology information for single or multiple domains with support for JSON, XML, and CSV formats.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Current and historical website technology information for single or multiple domains with support for JSON, XML, and CSV formats.
   name: BuiltWith Domain API
   slug: builtwith-domain-api
-- description: Retrieve lists of websites using specific web technologies in XML, JSON, TXT, CSV, and TSV formats.
+- baseURL: https://api.builtwith.com/lists12
+  baseurl_source: declared
+  description: Retrieve lists of websites using specific web technologies in XML, JSON, TXT, CSV, and TSV formats.
   name: BuiltWith Lists API
   slug: builtwith-lists-api
-- description: Access technology trend data showing adoption and growth of web technologies over time.
+- baseURL: https://api.builtwith.com/trends/v6
+  baseurl_source: declared
+  description: Access technology trend data showing adoption and growth of web technologies over time.
   name: BuiltWith Trends API
   slug: builtwith-trends-api
-- description: Track technology additions and removals on websites with business context in JSON format.
+- baseURL: https://api.builtwith.com/change1
+  baseurl_source: declared
+  description: Track technology additions and removals on websites with business context in JSON format.
   name: BuiltWith Change API
   slug: builtwith-change-api
-- description: Website interconnection data revealing domain relationships via shared IPs, analytics, and other attributes.
+- baseURL: https://api.builtwith.com/rv4
+  baseurl_source: declared
+  description: Website interconnection data revealing domain relationships via shared IPs, analytics, and other attributes.
   name: BuiltWith Relationships API
   slug: builtwith-relationships-api
-- description: Free tier API providing technology group counts and last-updated timestamps for website domains.
+- baseURL: https://api.builtwith.com/free1
+  baseurl_source: declared
+  description: Free tier API providing technology group counts and last-updated timestamps for website domains.
   name: BuiltWith Free API
   slug: builtwith-free-api
-- description: Natural language website lookups returning technology profile data in JSON and CSV formats.
+- baseURL: https://api.builtwith.com/ask1
+  baseurl_source: declared
+  description: Natural language website lookups returning technology profile data in JSON and CSV formats.
   name: BuiltWith Ask API
   slug: builtwith-ask-api
-- description: Real-time WebSocket feed of technology detections as they happen across the web.
+- baseURL: wss://sync.builtwith.com/wss/
+  baseurl_source: declared
+  description: Real-time WebSocket feed of technology detections as they happen across the web.
   name: BuiltWith Live Feed API
   slug: builtwith-live-feed-api
 - description: Resolve company names to their associated domain names in JSON and XML formats.
   name: BuiltWith Company to URL API
   slug: builtwith-company-to-url-api
-- description: Retrieve related domains associated with IPs and other website attributes.
+- baseURL: https://api.builtwith.com/tag1
+  baseurl_source: declared
+  description: Retrieve related domains associated with IPs and other website attributes.
   name: BuiltWith Tags API
   slug: builtwith-tags-api
-- description: Get technology suggestions based on a website's existing technology profile.
+- baseURL: https://api.builtwith.com/rec1
+  baseurl_source: declared
+  description: Get technology suggestions based on a website's existing technology profile.
   name: BuiltWith Recommendations API
   slug: builtwith-recommendations-api
-- description: Find websites that use specific keywords in their content.
+- baseURL: https://api.builtwith.com/kw2
+  baseurl_source: declared
+  description: Find websites that use specific keywords in their content.
   name: BuiltWith Keywords API
   slug: builtwith-keywords-api
 - description: Search websites by keyword content returning results in JSON and CSV formats.
@@ -86,16 +108,24 @@ apis:
 - description: Text-based technology searches using vector embeddings for semantic similarity matching.
   name: BuiltWith Vector Search API
   slug: builtwith-vector-search-api
-- description: Access website redirect chain data to understand domain redirect patterns.
+- baseURL: https://api.builtwith.com/redirect1
+  baseurl_source: declared
+  description: Access website redirect chain data to understand domain redirect patterns.
   name: BuiltWith Redirects API
   slug: builtwith-redirects-api
-- description: eCommerce product lookup for identifying products and merchants across the web.
+- baseURL: https://api.builtwith.com/productv1
+  baseurl_source: declared
+  description: eCommerce product lookup for identifying products and merchants across the web.
   name: BuiltWith Product API
   slug: builtwith-product-api
-- description: Website trustworthiness assessment providing reliability and safety scores for domains.
+- baseURL: https://api.builtwith.com/trustv1
+  baseurl_source: declared
+  description: Website trustworthiness assessment providing reliability and safety scores for domains.
   name: BuiltWith Trust API
   slug: builtwith-trust-api
-- description: Access financial data from SEC Edgar and UK Companies House filings for domains, including revenue, assets, and equity data.
+- baseURL: https://api.builtwith.com/financial1
+  baseurl_source: declared
+  description: Access financial data from SEC Edgar and UK Companies House filings for domains, including revenue, assets, and equity data.
   name: BuiltWith Financial API
   slug: builtwith-financial-api
 - description: Batch domain processing for high-volume technology lookups across large domain lists.
@@ -104,115 +134,189 @@ apis:
 - description: Model Context Protocol server integration enabling AI assistants to query BuiltWith technology detection data natively.
   name: BuiltWith MCP API
   slug: builtwith-mcp-api
-- description: Asynchronous batch domain processing
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Asynchronous batch domain processing
   name: BuiltWith Bulk Processing API
   slug: builtwith-bulk-processing-api
-- description: Single or multi-domain technology detection endpoints
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Single or multi-domain technology detection endpoints
   name: BuiltWith Domain Lookup API
   slug: builtwith-domain-lookup-api
-- description: Identify domain interconnections via shared identifiers
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Identify domain interconnections via shared identifiers
   name: BuiltWith Domain Relationships API
   slug: builtwith-domain-relationships-api
-- description: Technology count lookups for free tier
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Technology count lookups for free tier
   name: BuiltWith Free Lookup API
   slug: builtwith-free-lookup-api
-- description: Lookup domains by IP or attribute identifier
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Lookup domains by IP or attribute identifier
   name: BuiltWith Tag Lookup API
   slug: builtwith-tag-lookup-api
-- description: Track technology additions and removals on websites
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Track technology additions and removals on websites
   name: BuiltWith Technology Changes API
   slug: builtwith-technology-changes-api
-- description: Retrieve websites using specific technologies
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Retrieve websites using specific technologies
   name: BuiltWith Technology Lists API
   slug: builtwith-technology-lists-api
-- description: Technology adoption trends and market share data
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: Technology adoption trends and market share data
   name: BuiltWith Technology Trends API
   slug: builtwith-technology-trends-api
-- description: The AgentAuth API from BuiltWith — 2 operation(s) for agentauth.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The AgentAuth API from BuiltWith — 2 operation(s) for agentauth.
   name: BuiltWith Agent Auth API
   slug: builtwith-agentauth-api
-- description: The AgentPayments API from BuiltWith — 3 operation(s) for agentpayments.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The AgentPayments API from BuiltWith — 3 operation(s) for agentpayments.
   name: BuiltWith Agent Payments API
   slug: builtwith-agentpayments-api
-- description: The Ask API from BuiltWith — 1 operation(s) for ask.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Ask API from BuiltWith — 1 operation(s) for ask.
   name: BuiltWith Ask API
   slug: builtwith-ask-api
-- description: The Change API from BuiltWith — 1 operation(s) for change.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Change API from BuiltWith — 1 operation(s) for change.
   name: BuiltWith Change API
   slug: builtwith-change-api
-- description: The Company Research API from BuiltWith — 4 operation(s) for company research.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Company Research API from BuiltWith — 4 operation(s) for company research.
   name: BuiltWith Company Research API
   slug: builtwith-company-research-api
-- description: The CompanyToUrl API from BuiltWith — 1 operation(s) for companytourl.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The CompanyToUrl API from BuiltWith — 1 operation(s) for companytourl.
   name: BuiltWith Company To URL API
   slug: builtwith-companytourl-api
-- description: The Domain API from BuiltWith — 4 operation(s) for domain.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Domain API from BuiltWith — 4 operation(s) for domain.
   name: BuiltWith Domain API
   slug: builtwith-domain-api
-- description: The Domain Intelligence API from BuiltWith — 2 operation(s) for domain intelligence.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Domain Intelligence API from BuiltWith — 2 operation(s) for domain intelligence.
   name: BuiltWith Domain Intelligence API
   slug: builtwith-domain-intelligence-api
-- description: The Financial API from BuiltWith — 1 operation(s) for financial.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Financial API from BuiltWith — 1 operation(s) for financial.
   name: BuiltWith Financial API
   slug: builtwith-financial-api
-- description: The Free API from BuiltWith — 1 operation(s) for free.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Free API from BuiltWith — 1 operation(s) for free.
   name: BuiltWith Free API
   slug: builtwith-free-api
-- description: The Keywords API from BuiltWith — 1 operation(s) for keywords.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Keywords API from BuiltWith — 1 operation(s) for keywords.
   name: BuiltWith Keywords API
   slug: builtwith-keywords-api
-- description: The KeywordSearch API from BuiltWith — 1 operation(s) for keywordsearch.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The KeywordSearch API from BuiltWith — 1 operation(s) for keywordsearch.
   name: BuiltWith Keyword Search API
   slug: builtwith-keywordsearch-api
-- description: The List Passes API from BuiltWith — 2 operation(s) for list passes.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The List Passes API from BuiltWith — 2 operation(s) for list passes.
   name: BuiltWith List Passes API
   slug: builtwith-list-passes-api
-- description: The Lists API from BuiltWith — 1 operation(s) for lists.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Lists API from BuiltWith — 1 operation(s) for lists.
   name: BuiltWith Lists API
   slug: builtwith-lists-api
-- description: The Meta API from BuiltWith — 2 operation(s) for meta.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Meta API from BuiltWith — 2 operation(s) for meta.
   name: BuiltWith Meta API
   slug: builtwith-meta-api
-- description: The Mppx API from BuiltWith — 3 operation(s) for mppx.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Mppx API from BuiltWith — 3 operation(s) for mppx.
   name: BuiltWith Mppx API
   slug: builtwith-mppx-api
-- description: The Product API from BuiltWith — 1 operation(s) for product.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Product API from BuiltWith — 1 operation(s) for product.
   name: BuiltWith Product API
   slug: builtwith-product-api
-- description: The Recommendations API from BuiltWith — 1 operation(s) for recommendations.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Recommendations API from BuiltWith — 1 operation(s) for recommendations.
   name: BuiltWith Recommendations API
   slug: builtwith-recommendations-api
-- description: The Redirects API from BuiltWith — 1 operation(s) for redirects.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Redirects API from BuiltWith — 1 operation(s) for redirects.
   name: BuiltWith Redirects API
   slug: builtwith-redirects-api
-- description: The Relationships API from BuiltWith — 1 operation(s) for relationships.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Relationships API from BuiltWith — 1 operation(s) for relationships.
   name: BuiltWith Relationships API
   slug: builtwith-relationships-api
-- description: The Social API from BuiltWith — 1 operation(s) for social.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Social API from BuiltWith — 1 operation(s) for social.
   name: BuiltWith Social API
   slug: builtwith-social-api
-- description: The Tags API from BuiltWith — 1 operation(s) for tags.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Tags API from BuiltWith — 1 operation(s) for tags.
   name: BuiltWith Tags API
   slug: builtwith-tags-api
-- description: The Technology Discovery API from BuiltWith — 1 operation(s) for technology discovery.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Technology Discovery API from BuiltWith — 1 operation(s) for technology discovery.
   name: BuiltWith Technology Discovery API
   slug: builtwith-technology-discovery-api
-- description: The Technology Intelligence API from BuiltWith — 3 operation(s) for technology intelligence.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Technology Intelligence API from BuiltWith — 3 operation(s) for technology intelligence.
   name: BuiltWith Technology Intelligence API
   slug: builtwith-technology-intelligence-api
-- description: The Trends API from BuiltWith — 1 operation(s) for trends.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Trends API from BuiltWith — 1 operation(s) for trends.
   name: BuiltWith Trends API
   slug: builtwith-trends-api
-- description: The Trust and Risk API from BuiltWith — 1 operation(s) for trust and risk.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Trust and Risk API from BuiltWith — 1 operation(s) for trust and risk.
   name: BuiltWith Trust and Risk API
   slug: builtwith-trust-and-risk-api
-- description: The Trust API from BuiltWith — 1 operation(s) for trust.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Trust API from BuiltWith — 1 operation(s) for trust.
   name: BuiltWith Trust API
   slug: builtwith-trust-api
-- description: The Vector API from BuiltWith — 1 operation(s) for vector.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Vector API from BuiltWith — 1 operation(s) for vector.
   name: BuiltWith Vector API
   slug: builtwith-vector-api
-- description: The Website Search API from BuiltWith — 1 operation(s) for website search.
+- baseURL: https://api.builtwith.com/v22
+  baseurl_source: declared
+  description: The Website Search API from BuiltWith — 1 operation(s) for website search.
   name: BuiltWith Website Search API
   slug: builtwith-website-search-api
 artifact_total: 85
@@ -585,7 +689,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -598,7 +702,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 54.7
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -610,7 +714,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:

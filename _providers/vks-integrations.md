@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Access work instruction guidebooks and step-level content
+- baseURL: https://api.vksapp.com
+  baseurl_source: spec
+  description: Access work instruction guidebooks and step-level content
   name: VKS Integrations Guidebooks API
   slug: vks-integrations-guidebooks-api
-- description: Manage and track operational steps and production data
+- baseURL: https://api.vksapp.com
+  baseurl_source: spec
+  description: Manage and track operational steps and production data
   name: VKS Integrations Operations API
   slug: vks-integrations-operations-api
-- description: Retrieve production metrics, quality data, and traceability records
+- baseURL: https://api.vksapp.com
+  baseurl_source: spec
+  description: Retrieve production metrics, quality data, and traceability records
   name: VKS Integrations Production Data API
   slug: vks-integrations-production-data-api
-- description: Create, retrieve, and manage work orders on the manufacturing floor
+- baseURL: https://api.vksapp.com
+  baseurl_source: spec
+  description: Create, retrieve, and manage work orders on the manufacturing floor
   name: VKS Integrations Work Orders API
   slug: vks-integrations-work-orders-api
 artifact_total: 19
@@ -187,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vks-integrations/refs/heads/main/screenshots/vks-integrations-2026-06-20T201113.png
 security:

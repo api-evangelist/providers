@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -34,88 +47,144 @@ agentic_access:
   summary_line: 221 operations · 76 acting
 api_count: 3
 apis:
-- description: The AddressLocators API from Domain Group — 1 operation(s) for addresslocators.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The AddressLocators API from Domain Group — 1 operation(s) for addresslocators.
   name: Domain Group Address Locators API
   slug: domain-group-addresslocators-api
-- description: The Agencies API from Domain Group — 5 operation(s) for agencies.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Agencies API from Domain Group — 5 operation(s) for agencies.
   name: Domain Group Agencies API
   slug: domain-group-agencies-api
-- description: The Agents API from Domain Group — 4 operation(s) for agents.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Agents API from Domain Group — 4 operation(s) for agents.
   name: Domain Group Agents API
   slug: domain-group-agents-api
-- description: The Authorities API from Domain Group — 6 operation(s) for authorities.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Authorities API from Domain Group — 6 operation(s) for authorities.
   name: Domain Group Authorities API
   slug: domain-group-authorities-api
-- description: The CampaignReporting API from Domain Group — 2 operation(s) for campaignreporting.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The CampaignReporting API from Domain Group — 2 operation(s) for campaignreporting.
   name: Domain Group Campaign Reporting API
   slug: domain-group-campaignreporting-api
-- description: The Dataset API from Domain Group — 1 operation(s) for dataset.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Dataset API from Domain Group — 1 operation(s) for dataset.
   name: Domain Group Dataset API
   slug: domain-group-dataset-api
-- description: The Demographics API from Domain Group — 1 operation(s) for demographics.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Demographics API from Domain Group — 1 operation(s) for demographics.
   name: Domain Group Demographics API
   slug: domain-group-demographics-api
-- description: The Disclaimers API from Domain Group — 2 operation(s) for disclaimers.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Disclaimers API from Domain Group — 2 operation(s) for disclaimers.
   name: Domain Group Disclaimers API
   slug: domain-group-disclaimers-api
-- description: The Enquiries API from Domain Group — 2 operation(s) for enquiries.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Enquiries API from Domain Group — 2 operation(s) for enquiries.
   name: Domain Group Enquiries API
   slug: domain-group-enquiries-api
-- description: The Leadscope API from Domain Group — 2 operation(s) for leadscope.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Leadscope API from Domain Group — 2 operation(s) for leadscope.
   name: Domain Group Leadscope API
   slug: domain-group-leadscope-api
-- description: The Listings API from Domain Group — 18 operation(s) for listings.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Listings API from Domain Group — 18 operation(s) for listings.
   name: Domain Group Listings API
   slug: domain-group-listings-api
-- description: The ListingSearch API from Domain Group — 2 operation(s) for listingsearch.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The ListingSearch API from Domain Group — 2 operation(s) for listingsearch.
   name: Domain Group Listing Search API
   slug: domain-group-listingsearch-api
-- description: The Locations API from Domain Group — 1 operation(s) for locations.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Locations API from Domain Group — 1 operation(s) for locations.
   name: Domain Group Locations API
   slug: domain-group-locations-api
-- description: The Me API from Domain Group — 3 operation(s) for me.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Me API from Domain Group — 3 operation(s) for me.
   name: Domain Group Me API
   slug: domain-group-me-api
-- description: The PreMarket API from Domain Group — 2 operation(s) for premarket.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PreMarket API from Domain Group — 2 operation(s) for premarket.
   name: Domain Group Pre Market API
   slug: domain-group-premarket-api
-- description: The Products API from Domain Group — 8 operation(s) for products.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Products API from Domain Group — 8 operation(s) for products.
   name: Domain Group Products API
   slug: domain-group-products-api
-- description: The Projects API from Domain Group — 6 operation(s) for projects.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Projects API from Domain Group — 6 operation(s) for projects.
   name: Domain Group Projects API
   slug: domain-group-projects-api
-- description: The Properties API from Domain Group — 10 operation(s) for properties.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Properties API from Domain Group — 10 operation(s) for properties.
   name: Domain Group Properties API
   slug: domain-group-properties-api
-- description: The PropertyAvm API from Domain Group — 2 operation(s) for propertyavm.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertyAvm API from Domain Group — 2 operation(s) for propertyavm.
   name: Domain Group Property Avm API
   slug: domain-group-propertyavm-api
-- description: The PropertyFeatures API from Domain Group — 1 operation(s) for propertyfeatures.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertyFeatures API from Domain Group — 1 operation(s) for propertyfeatures.
   name: Domain Group Property Features API
   slug: domain-group-propertyfeatures-api
-- description: The PropertyLike API from Domain Group — 1 operation(s) for propertylike.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertyLike API from Domain Group — 1 operation(s) for propertylike.
   name: Domain Group Property Like API
   slug: domain-group-propertylike-api
-- description: The PropertyRadar API from Domain Group — 7 operation(s) for propertyradar.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertyRadar API from Domain Group — 7 operation(s) for propertyradar.
   name: Domain Group Property Radar API
   slug: domain-group-propertyradar-api
-- description: The PropertySearch API from Domain Group — 1 operation(s) for propertysearch.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertySearch API from Domain Group — 1 operation(s) for propertysearch.
   name: Domain Group Property Search API
   slug: domain-group-propertysearch-api
-- description: The PropertyZoningPerils API from Domain Group — 1 operation(s) for propertyzoningperils.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The PropertyZoningPerils API from Domain Group — 1 operation(s) for propertyzoningperils.
   name: Domain Group Property Zoning Perils API
   slug: domain-group-propertyzoningperils-api
-- description: The SalesResults API from Domain Group — 5 operation(s) for salesresults.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The SalesResults API from Domain Group — 5 operation(s) for salesresults.
   name: Domain Group Sales Results API
   slug: domain-group-salesresults-api
-- description: The Schools API from Domain Group — 2 operation(s) for schools.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Schools API from Domain Group — 2 operation(s) for schools.
   name: Domain Group Schools API
   slug: domain-group-schools-api
-- description: The Statistics API from Domain Group — 6 operation(s) for statistics.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Statistics API from Domain Group — 6 operation(s) for statistics.
   name: Domain Group Statistics API
   slug: domain-group-statistics-api
-- description: The Webhooks API from Domain Group — 2 operation(s) for webhooks.
+- baseURL: https://api.domain.com.au
+  baseurl_source: declared
+  description: The Webhooks API from Domain Group — 2 operation(s) for webhooks.
   name: Domain Group Webhooks API
   slug: domain-group-webhooks-api
 artifact_total: 38
@@ -374,23 +443,23 @@ scopes:
   summary_line: 25 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.8
+  composite: 44.8
   coverage:
     artifact_dirs: 21
-    catalog_gap: 83.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 61.8
     developer_ergonomics: 63.7
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -402,7 +471,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png
 security:

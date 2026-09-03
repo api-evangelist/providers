@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Organizer-facing GraphQL API (the Event Admin endpoint) to fetch, create, modify, and delete event content - events, people, exhibitors, plannings/sessions, and groups. Single GraphQL endpoint over HT
+- baseURL: https://developer.swapcard.com/event-admin/graphql
+  baseurl_source: declared
+  description: Organizer-facing GraphQL API (the Event Admin endpoint) to fetch, create, modify, and delete event content - events, people, exhibitors, plannings/sessions, and groups. Single GraphQL endpoint over HT
   name: Swapcard Content API
   slug: swapcard-content-api
-- description: 'Exhibitor-facing GraphQL API to list accessible booths (myExhibitors), export event leads with cursor pagination (myLeads), and scan badges to create leads (scanBadges). Separate GraphQL endpoint and '
+- baseURL: https://developer.swapcard.com/exhibitor/graphql
+  baseurl_source: declared
+  description: 'Exhibitor-facing GraphQL API to list accessible booths (myExhibitors), export event leads with cursor pagination (myLeads), and scan badges to create leads (scanBadges). Separate GraphQL endpoint and '
   name: Swapcard Exhibitor Leads API
   slug: swapcard-leads-api
 - description: GraphQL API to collect and leverage analytics on event performance and attendee behavior. Documented on the Swapcard Developer Hub; its schema is not modeled in this catalog entry (baseURL shown is in
@@ -117,7 +121,7 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -133,8 +137,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swapcard/refs/heads/main/screenshots/swapcard-2026-09-02T161340.png
 security:
 - kind: authentication
   name: Swapcard Authentication

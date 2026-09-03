@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'An anonymous, read-oriented Model Context Protocol endpoint served from Field Medical''s own corporate domain. It is provided by the Wix website platform (Wix Site MCP), not authored by Field Medical, '
@@ -112,7 +124,7 @@ score:
   band: emerging
   composite: 14.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -137,8 +149,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/field-medical/refs/heads/main/screenshots/field-medical-2026-09-02T145507.png
 security:
 - kind: authentication
   name: Field Medical Authentication

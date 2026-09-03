@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Server-side CAPTCHA answer verification.
+- baseURL: https://api.leminnow.com
+  baseurl_source: declared
+  description: Server-side CAPTCHA answer verification.
   name: Capy Inc. Verification API
   slug: capy-inc-verification-api
 artifact_total: 7
@@ -207,7 +209,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capy-inc/refs/heads/main/screenshots/capy-inc-2026-08-17T083008.png
 security:

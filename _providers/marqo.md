@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Add, update, get, and delete documents in an index.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Add, update, get, and delete documents in an index.
   name: Marqo Documents API
   slug: marqo-documents-api
-- description: Generate embedding vectors using engine-loaded models.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Generate embedding vectors using engine-loaded models.
   name: Marqo Embeddings API
   slug: marqo-embeddings-api
-- description: Create, list, inspect, and delete tensor / lexical indexes.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Create, list, inspect, and delete tensor / lexical indexes.
   name: Marqo Indexes API
   slug: marqo-indexes-api
-- description: Inspect, load, and eject embedding models from the engine.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Inspect, load, and eject embedding models from the engine.
   name: Marqo Models API
   slug: marqo-models-api
-- description: Return documents similar to one or more reference documents.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Return documents similar to one or more reference documents.
   name: Marqo Recommendations API
   slug: marqo-recommendations-api
-- description: Tensor, lexical, and hybrid search across an index.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Tensor, lexical, and hybrid search across an index.
   name: Marqo Search API
   slug: marqo-search-api
-- description: Health, readiness, and engine-level metadata.
+- baseURL: http://localhost:8882
+  baseurl_source: declared
+  description: Health, readiness, and engine-level metadata.
   name: Marqo Telemetry API
   slug: marqo-telemetry-api
 artifact_total: 49
@@ -304,7 +318,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 15 operations · 3 acting
 api_count: 1
 apis:
-- description: Retrieve and update accounts.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Retrieve and update accounts.
   name: Tripleseat Accounts API
   slug: tripleseat-accounts-api
-- description: Create and associate contacts with accounts.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Create and associate contacts with accounts.
   name: Tripleseat Contacts API
   slug: tripleseat-contacts-api
-- description: Retrieve events and their bookings.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Retrieve events and their bookings.
   name: Tripleseat Events API
   slug: tripleseat-events-api
-- description: Capture and retrieve leads, including the public lead form.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Capture and retrieve leads, including the public lead form.
   name: Tripleseat Leads API
   slug: tripleseat-leads-api
-- description: Retrieve locations within a site.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Retrieve locations within a site.
   name: Tripleseat Locations API
   slug: tripleseat-locations-api
-- description: Retrieve sites that group locations.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Retrieve sites that group locations.
   name: Tripleseat Sites API
   slug: tripleseat-sites-api
-- description: Retrieve Tripleseat users.
+- baseURL: https://api.tripleseat.com
+  baseurl_source: declared
+  description: Retrieve Tripleseat users.
   name: Tripleseat Users API
   slug: tripleseat-users-api
 artifact_total: 86
@@ -414,7 +428,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -424,7 +438,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -433,7 +447,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/screenshots/tripleseat-2026-06-20T195730.png
 security:

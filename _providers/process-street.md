@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 150 operations · 88 acting
 api_count: 1
 apis:
-- description: An attachment is a file uploaded to a task within a workflow run. Use these endpoints to list, upload, and delete task-level attachments.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: An attachment is a file uploaded to a task within a workflow run. Use these endpoints to list, upload, and delete task-level attachments.
   name: Process Street Attachments API
   slug: process-street-attachments-api
-- description: A comment is a discussion message on a task within a workflow run. Use these endpoints to create, list, update, and delete comments.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A comment is a discussion message on a task within a workflow run. Use these endpoints to create, list, update, and delete comments.
   name: Process Street Comments API
   slug: process-street-comments-api
-- description: An incoming webhook triggers data set row creation or updates from external systems. Use these endpoints to create, view, update, and delete incoming webhooks for a data set.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: An incoming webhook triggers data set row creation or updates from external systems. Use these endpoints to create, view, update, and delete incoming webhooks for a data set.
   name: Process Street Data Set Incoming Webhooks API
   slug: process-street-data-set-incoming-webhooks-api
-- description: A data set is a structured collection of records that can be linked to workflow form fields. Use these endpoints to manage data sets and their records.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A data set is a structured collection of records that can be linked to workflow form fields. Use these endpoints to manage data sets and their records.
   name: Process Street Data Sets API
   slug: process-street-data-sets-api
-- description: A file upload is a two-step upload for large files. Create one to get an upload URL and a `fileUploadId`, send the file's bytes to that URL, then attach the upload to a target (form field value, attac
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A file upload is a two-step upload for large files. Create one to get an upload URL and a `fileUploadId`, send the file's bytes to that URL, then attach the upload to a target (form field value, attac
   name: Process Street File Uploads API
   slug: process-street-file-uploads-api
-- description: A folder organizes workflows, pages, and other templates within your organization. Use these endpoints to create and manage folders.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A folder organizes workflows, pages, and other templates within your organization. Use these endpoints to create and manage folders.
   name: Process Street Folders API
   slug: process-street-folders-api
-- description: A form field value is the data entered into a form field within a workflow run. Use these endpoints to read and update form field values for a specific workflow run.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A form field value is the data entered into a form field within a workflow run. Use these endpoints to read and update form field values for a specific workflow run.
   name: Process Street Form Field Values API
   slug: process-street-form-field-values-api
-- description: A form field is a data-collection element defined on a workflow template. Use these endpoints to inspect the form fields and their available options on a workflow.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A form field is a data-collection element defined on a workflow template. Use these endpoints to inspect the form fields and their available options on a workflow.
   name: Process Street Form Fields API
   slug: process-street-form-fields-api
-- description: My Work is your personal task inbox — a consolidated view of all tasks and checklist items assigned to you across all workflows. Use these endpoints to list, search, and manage your assigned work item
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: My Work is your personal task inbox — a consolidated view of all tasks and checklist items assigned to you across all workflows. Use these endpoints to list, search, and manage your assigned work item
   name: Process Street My Work API
   slug: process-street-my-work-api
-- description: A one-off task is a standalone task that can optionally be linked to a workflow run. Use these endpoints to create, view, and manage one-off tasks.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A one-off task is a standalone task that can optionally be linked to a workflow run. Use these endpoints to create, view, and manage one-off tasks.
   name: Process Street One-Off Tasks API
   slug: process-street-one-off-tasks-api
-- description: A page revision is a versioned snapshot of a page's content. Use these endpoints to list, inspect, and manage revisions.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A page revision is a versioned snapshot of a page's content. Use these endpoints to list, inspect, and manage revisions.
   name: Process Street Page Revisions API
   slug: process-street-page-revisions-api
-- description: A page widget is a content element (text, image, video, file, embed, cross-link, or table) on a page revision. Use these endpoints to create and manage widgets on draft revisions.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A page widget is a content element (text, image, video, file, embed, cross-link, or table) on a page revision. Use these endpoints to create and manage widgets on draft revisions.
   name: Process Street Page Widgets API
   slug: process-street-page-widgets-api
-- description: A page is a document template for sharing information. Use these endpoints to create and manage pages.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A page is a document template for sharing information. Use these endpoints to create and manage pages.
   name: Process Street Pages API
   slug: process-street-pages-api
-- description: A scheduled workflow is a recurring schedule that automatically creates workflow runs. Use these endpoints to list scheduled workflows and their recurrence rules.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A scheduled workflow is a recurring schedule that automatically creates workflow runs. Use these endpoints to list scheduled workflows and their recurrence rules.
   name: Process Street Scheduled Workflows API
   slug: process-street-scheduled-workflows-api
-- description: A task is a step within a workflow run. Tasks can be checked off, assigned to users, and may contain form fields for collecting data. Use these endpoints to view and update tasks within a workflow run
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A task is a step within a workflow run. Tasks can be checked off, assigned to users, and may contain form fields for collecting data. Use these endpoints to view and update tasks within a workflow run
   name: Process Street Tasks API
   slug: process-street-tasks-api
-- description: These endpoints let you list the users in your organization.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: These endpoints let you list the users in your organization.
   name: Process Street Users API
   slug: process-street-users-api
-- description: Helper endpoints for testing authentication and checking rate limits.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: Helper endpoints for testing authentication and checking rate limits.
   name: Process Street Utilities API
   slug: process-street-utilities-api
-- description: A webhook delivers real-time notifications to your application when events occur in Process Street. Use these endpoints to create and manage webhook subscriptions.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A webhook delivers real-time notifications to your application when events occur in Process Street. Use these endpoints to create and manage webhook subscriptions.
   name: Process Street Webhooks API
   slug: process-street-webhooks-api
-- description: A workflow due date rule defines how the checklist-level due date is calculated for workflow runs — either relative to the run's start date or derived from a Date form field value. Use these endpoints
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow due date rule defines how the checklist-level due date is calculated for workflow runs — either relative to the run's start date or derived from a Date form field value. Use these endpoints
   name: Process Street Workflow Due Date Rules API
   slug: process-street-workflow-due-date-rules-api
-- description: An incoming webhook triggers workflow runs from external systems. Use these endpoints to create, view, update, and delete incoming webhooks for a workflow.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: An incoming webhook triggers workflow runs from external systems. Use these endpoints to create, view, update, and delete incoming webhooks for a workflow.
   name: Process Street Workflow Incoming Webhooks API
   slug: process-street-workflow-incoming-webhooks-api
-- description: Workflow logic rules are conditional rules that control the visibility of tasks and form fields within a workflow revision. Use these endpoints to create, view, and manage logic rules.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: Workflow logic rules are conditional rules that control the visibility of tasks and form fields within a workflow revision. Use these endpoints to create, view, and manage logic rules.
   name: Process Street Workflow Logic Rules API
   slug: process-street-workflow-logic-rules-api
-- description: A workflow revision is a versioned snapshot of a workflow's structure. Use these endpoints to list, inspect, and manage revisions.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow revision is a versioned snapshot of a workflow's structure. Use these endpoints to list, inspect, and manage revisions.
   name: Process Street Workflow Revisions API
   slug: process-street-workflow-revisions-api
-- description: A workflow run is an active instance of a workflow. Each run tracks its own progress, assignees, and form field values as it moves through the process. Use these endpoints to create, update, and manag
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow run is an active instance of a workflow. Each run tracks its own progress, assignees, and form field values as it moves through the process. Use these endpoints to create, update, and manag
   name: Process Street Workflow Runs API
   slug: process-street-workflow-runs-api
-- description: A workflow task assignment rule assigns a task template on a draft workflow revision to a specific user (static) or derives assignees from a source such as the workflow run initiator, a Members form f
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow task assignment rule assigns a task template on a draft workflow revision to a specific user (static) or derives assignees from a source such as the workflow run initiator, a Members form f
   name: Process Street Workflow Task Assignment Rules API
   slug: process-street-workflow-task-assignment-rules-api
-- description: A task due date rule defines how an individual task's due date is calculated within a workflow run — relative to the run's start/due date, a form field value, or another task. Use these endpoints to s
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A task due date rule defines how an individual task's due date is calculated within a workflow run — relative to the run's start/due date, a form field value, or another task. Use these endpoints to s
   name: Process Street Workflow Task Due Date Rules API
   slug: process-street-workflow-task-due-date-rules-api
-- description: 'A workflow task is a task template within a workflow revision. Use these endpoints to create, view, update, and delete task templates on draft revisions. > 💡 Notes for MCP clients: > - Don''t prefix ta'
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: 'A workflow task is a task template within a workflow revision. Use these endpoints to create, view, update, and delete task templates on draft revisions. > 💡 Notes for MCP clients: > - Don''t prefix ta'
   name: Process Street Workflow Tasks API
   slug: process-street-workflow-tasks-api
-- description: A workflow widget is a form field or content element on a task within a workflow revision. Use these endpoints to create and manage widgets on draft revisions.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow widget is a form field or content element on a task within a workflow revision. Use these endpoints to create and manage widgets on draft revisions.
   name: Process Street Workflow Widgets API
   slug: process-street-workflow-widgets-api
-- description: A workflow is a reusable process template that defines the structure, tasks, and form fields for a repeatable process. Use these endpoints to browse and inspect your organization's workflows.
+- baseURL: https://public-api.process.st/api/v1.1
+  baseurl_source: declared
+  description: A workflow is a reusable process template that defines the structure, tasks, and form fields for a repeatable process. Use these endpoints to browse and inspect your organization's workflows.
   name: Process Street Workflows API
   slug: process-street-workflows-api
 artifact_total: 64
@@ -345,7 +401,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -355,7 +411,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 44.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,7 +423,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/process-street/refs/heads/main/screenshots/process-street-2026-08-17T081341.png
 security:

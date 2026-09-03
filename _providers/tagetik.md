@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: 'SCIM v2 (System for Cross-domain Identity Management) API for automated user provisioning and deprovisioning in CCH Tagetik. Supports synchronizing users and groups from Microsoft Entra ID (Azure AD) '
   name: CCH Tagetik SCIM API
   slug: cch-tagetik-scim-api
-- description: The Financial Data API from CCH Tagetik — 1 operation(s) for financial data.
+- baseURL: https://{your-tagetik-environment}/
+  baseurl_source: declared
+  description: The Financial Data API from CCH Tagetik — 1 operation(s) for financial data.
   name: CCH Tagetik Financial Data API
   slug: tagetik-financial-data-api
-- description: The Metadata API from CCH Tagetik — 1 operation(s) for metadata.
+- baseURL: https://{your-tagetik-environment}/
+  baseurl_source: declared
+  description: The Metadata API from CCH Tagetik — 1 operation(s) for metadata.
   name: CCH Tagetik Metadata API
   slug: tagetik-metadata-api
 artifact_total: 20
@@ -223,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tagetik/refs/heads/main/screenshots/tagetik-2026-06-20T194856.png
 security:

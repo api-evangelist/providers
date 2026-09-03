@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +29,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-09-01'
+  score: 2.5
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Ameriprise Financial is a diversified financial services company providing financial planning, products, and services including wealth management, asset management, insurance, and annuities. The compa
   name: Ameriprise Financial Website
   slug: website
-artifact_total: 25
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -52,30 +52,38 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ameriprise-financial-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ameriprise.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ameriprise-financial-llms.txt
 - group: start
   title: ''
-  type: Portal
-  url: https://www.ameriprise.com
+  type: Login
+  url: https://www.ameriprise.com/client-login
+- group: commercial
+  title: ''
+  type: Legal
+  url: https://www.ameriprise.com/legal/disclosures
 - group: company
   title: ''
   type: Blog
-  url: https://www.ameriprise.com/financial-goals-priorities/
+  url: https://www.ameriprise.com/financial-goals-priorities
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.ameriprise.com/legal/privacy-policy/
+  url: https://www.ameriprise.com/privacy-security-fraud/internet-privacy-statement
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.ameriprise.com/legal/terms-of-use/
-- group: auth
-  title: ''
-  type: Security
-  url: https://www.ameriprise.com/privacy-security/
+  url: https://www.ameriprise.com/legal/website-rules
 - group: operate
   title: ''
   type: Support
-  url: https://www.ameriprise.com/contact-us/
+  url: https://www.ameriprise.com/customer-service/contact
 - group: other
   title: ''
   type: X
@@ -88,6 +96,22 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/ameriprise
+coverage:
+  checked: '2026-09-02'
+  detail: Ameriprise Financial serves a real /llms.txt (HTTP 200) that indexes its entire public site, and that index contains no developer, API, integration or partner section at all; every candidate developer host (developer., api., apis., developers., dev., partner..ameriprise.com) fails to resolve in DNS, and /openapi.json, /swagger.json, /api-docs, /graphql and /mcp all 404 on www.ameriprise.com — the company ships client software only, not a developer program.
+  evidence:
+  - status: 200
+    url: https://www.ameriprise.com/llms.txt
+  - status: 404
+    url: https://www.ameriprise.com/openapi.json
+  - status: 404
+    url: https://www.ameriprise.com/graphql
+  - status: 404
+    url: https://www.ameriprise.com/.well-known/agent-card.json
+  - status: DNS does not resolve
+    url: https://developer.ameriprise.com/
+  reason: no-developer-program
+  state: none
 created: '2024-01-01'
 description: Get financial planning advice and retirement investment advice from Ameriprise financial advisors at ameriprise.com. Ameriprise Financial is a diversified financial services company offering comprehensive financial planning, wealth management, retirement planning, investment management, insurance, and annuities through a nationwide network of financial advisors.
 features:
@@ -122,17 +146,17 @@ integrations:
 - description: Integration with Ameriprise's nationwide network of over 10,000 financial advisors for personalized planning services.
   name: Financial Advisor Network
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Ameriprise Financial
 nav: Providers
 network: true
-overview: 'Ameriprise Financial publishes 1 API on the [APIs.io](https://apis.io/) network: Website. Tagged areas include Financial Planning, Wealth Management, Retirement, Insurance, and Annuities.
+overview: 'Ameriprise Financial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Planning, Wealth Management, Retirement, Insurance, and Annuities.
 
 
-  Ameriprise Financial''s developer surface includes developer portal, engineering blog, support, YouTube channel, and 6 more developer resources.'
+  Ameriprise Financial''s developer surface includes legal docs, engineering blog, support, YouTube channel, and 8 more developer resources.'
 plans:
 - name: Ameriprise Financial Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: ameriprise-financial-plans-pricing
 press:
 - date: '2026-05-25'
@@ -152,27 +176,27 @@ press:
   url: https://www.instagram.com/reel/DSkc7-Dkgq0/
 random_paper: 14
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Ameriprise Financial Rate Limits
   slug: ameriprise-financial-rate-limits
 score:
-  band: emerging
-  composite: 17.2
+  band: minimal
+  composite: 8.8
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 71.0
+    artifact_dirs: 12
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -8.4
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 29.3
-    developer_ergonomics: 11.9
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 0.0
   previous_composite: 17.2
   regulatory:
     applies: true
@@ -181,14 +205,18 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png
 security:
 - kind: domain-security
   name: Ameriprise Financial Domain Security
   slug: ameriprise-financial-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Ameriprise Financial Vulnerability Disclosure
+  slug: ameriprise-financial-vulnerability-disclosure
+  summary_line: Hackerone
 slug: ameriprise-financial
 tags:
 - Financial Planning

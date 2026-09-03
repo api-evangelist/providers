@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 5
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 45 operations · 30 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access Control API from Scrive — 7 operation(s) for access control.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Access Control API from Scrive — 7 operation(s) for access control.
   name: Scrive Access Control API
   slug: scrive-access-control-api
-- description: The Attachments API from Scrive — 9 operation(s) for attachments.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Attachments API from Scrive — 9 operation(s) for attachments.
   name: Scrive Attachments API
   slug: scrive-attachments-api
-- description: The Callbacks API from Scrive — 1 operation(s) for callbacks.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Callbacks API from Scrive — 1 operation(s) for callbacks.
   name: Scrive Callbacks API
   slug: scrive-callbacks-api
-- description: The Documents API from Scrive — 13 operation(s) for documents.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Documents API from Scrive — 13 operation(s) for documents.
   name: Scrive Documents API
   slug: scrive-documents-api
-- description: The e-ID Authentication API from Scrive — 3 operation(s) for e-id authentication.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The e-ID Authentication API from Scrive — 3 operation(s) for e-id authentication.
   name: Scrive e-ID Authentication API
   slug: scrive-e-id-authentication-api
-- description: The Monitor API from Scrive — 1 operation(s) for monitor.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Monitor API from Scrive — 1 operation(s) for monitor.
   name: Scrive Monitor API
   slug: scrive-monitor-api
-- description: The Signing API from Scrive — 7 operation(s) for signing.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Signing API from Scrive — 7 operation(s) for signing.
   name: Scrive Signing API
   slug: scrive-signing-api
-- description: The Templates API from Scrive — 2 operation(s) for templates.
+- baseURL: https://scrive.com/api/v2
+  baseurl_source: declared
+  description: The Templates API from Scrive — 2 operation(s) for templates.
   name: Scrive Templates API
   slug: scrive-templates-api
 artifact_total: 25
@@ -183,7 +199,7 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -206,8 +222,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/screenshots/scrive-2026-09-02T154619.png
 security:
 - kind: authentication
   name: Scrive Authentication

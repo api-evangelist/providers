@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -47,79 +47,129 @@ apis:
 - description: Open-finance surface that pulls direct-from-bank account, balance, transaction, and institution metadata for verification of assets (VOA) and verification of assets and income (VOAI). Includes Connect
   name: Argyle Banking API
   slug: argyle-banking-api
-- description: The Accounts API from Argyle — 3 operation(s) for accounts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Accounts API from Argyle — 3 operation(s) for accounts.
   name: Argyle Accounts API
   slug: argyle-financial-accounts-api
-- description: The Deposit Destinations API from Argyle — 2 operation(s) for deposit destinations.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Deposit Destinations API from Argyle — 2 operation(s) for deposit destinations.
   name: Argyle Deposit Destinations API
   slug: argyle-financial-deposit-destinations-api
-- description: The Employer Search API from Argyle — 1 operation(s) for employer search.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Employer Search API from Argyle — 1 operation(s) for employer search.
   name: Argyle Employer Search API
   slug: argyle-financial-employer-search-api
-- description: The Employments API from Argyle — 1 operation(s) for employments.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Employments API from Argyle — 1 operation(s) for employments.
   name: Argyle Employments API
   slug: argyle-financial-employments-api
-- description: The Gigs API from Argyle — 2 operation(s) for gigs.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Gigs API from Argyle — 2 operation(s) for gigs.
   name: Argyle Gigs API
   slug: argyle-financial-gigs-api
-- description: The Identities API from Argyle — 2 operation(s) for identities.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Identities API from Argyle — 2 operation(s) for identities.
   name: Argyle Identities API
   slug: argyle-financial-identities-api
-- description: The Invites API from Argyle — 3 operation(s) for invites.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Invites API from Argyle — 3 operation(s) for invites.
   name: Argyle Invites API
   slug: argyle-financial-invites-api
-- description: The Item Filters API from Argyle — 2 operation(s) for item filters.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Item Filters API from Argyle — 2 operation(s) for item filters.
   name: Argyle Item Filters API
   slug: argyle-financial-item-filters-api
-- description: The Item Migrations API from Argyle — 1 operation(s) for item migrations.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Item Migrations API from Argyle — 1 operation(s) for item migrations.
   name: Argyle Item Migrations API
   slug: argyle-financial-item-migrations-api
-- description: The Items API from Argyle — 2 operation(s) for items.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Items API from Argyle — 2 operation(s) for items.
   name: Argyle Items API
   slug: argyle-financial-items-api
-- description: The Partners API from Argyle — 12 operation(s) for partners.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Partners API from Argyle — 12 operation(s) for partners.
   name: Argyle Partners API
   slug: argyle-financial-partners-api
-- description: The Payroll Documents API from Argyle — 2 operation(s) for payroll documents.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Payroll Documents API from Argyle — 2 operation(s) for payroll documents.
   name: Argyle Payroll Documents API
   slug: argyle-financial-payroll-documents-api
-- description: The Paystubs API from Argyle — 2 operation(s) for paystubs.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Paystubs API from Argyle — 2 operation(s) for paystubs.
   name: Argyle Paystubs API
   slug: argyle-financial-paystubs-api
-- description: The Ratings API from Argyle — 2 operation(s) for ratings.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Ratings API from Argyle — 2 operation(s) for ratings.
   name: Argyle Ratings API
   slug: argyle-financial-ratings-api
-- description: The Receipts API from Argyle — 1 operation(s) for receipts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Receipts API from Argyle — 1 operation(s) for receipts.
   name: Argyle Receipts API
   slug: argyle-financial-receipts-api
-- description: The Reports API from Argyle — 3 operation(s) for reports.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Reports API from Argyle — 3 operation(s) for reports.
   name: Argyle Reports API
   slug: argyle-financial-reports-api
-- description: The Sessions API from Argyle — 1 operation(s) for sessions.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Sessions API from Argyle — 1 operation(s) for sessions.
   name: Argyle Sessions API
   slug: argyle-financial-sessions-api
-- description: The Shifts API from Argyle — 2 operation(s) for shifts.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Shifts API from Argyle — 2 operation(s) for shifts.
   name: Argyle Shifts API
   slug: argyle-financial-shifts-api
-- description: The User Forms API from Argyle — 2 operation(s) for user forms.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Forms API from Argyle — 2 operation(s) for user forms.
   name: Argyle User Forms API
   slug: argyle-financial-user-forms-api
-- description: The User Tokens API from Argyle — 1 operation(s) for user tokens.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Tokens API from Argyle — 1 operation(s) for user tokens.
   name: Argyle User Tokens API
   slug: argyle-financial-user-tokens-api
-- description: The User Uploads API from Argyle — 2 operation(s) for user uploads.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The User Uploads API from Argyle — 2 operation(s) for user uploads.
   name: Argyle User Uploads API
   slug: argyle-financial-user-uploads-api
-- description: The Users API from Argyle — 2 operation(s) for users.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Users API from Argyle — 2 operation(s) for users.
   name: Argyle Users API
   slug: argyle-financial-users-api
-- description: The Vehicles API from Argyle — 2 operation(s) for vehicles.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Vehicles API from Argyle — 2 operation(s) for vehicles.
   name: Argyle Vehicles API
   slug: argyle-financial-vehicles-api
-- description: The Verifications API from Argyle — 4 operation(s) for verifications.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Verifications API from Argyle — 4 operation(s) for verifications.
   name: Argyle Verifications API
   slug: argyle-financial-verifications-api
-- description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
+- baseURL: https://api.argyle.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
   name: Argyle Webhooks API
   slug: argyle-financial-webhooks-api
 artifact_total: 135
@@ -585,7 +635,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -595,7 +645,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 71.1
-  previous_composite: 64.0
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     contracts:
@@ -610,7 +660,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle-financial/refs/heads/main/screenshots/argyle-financial-2026-06-20T172425.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Token-authenticated Partner surface (partner.gupshup.io) for BSPs and resellers - manage apps, templates, subscriptions/callbacks, and send messages through Meta-format passthrough endpoints (e.g. POS
   name: Gupshup Partner API
   slug: gupshup-partner-api
-- description: Send WhatsApp session messages.
+- baseURL: https://api.gupshup.io/wa/api/v1
+  baseurl_source: declared
+  description: Send WhatsApp session messages.
   name: Gupshup Messaging API
   slug: gupshup-messaging-api
-- description: Manage user opt-in / opt-out and list interacted users.
+- baseURL: https://api.gupshup.io/wa/api/v1
+  baseurl_source: declared
+  description: Manage user opt-in / opt-out and list interacted users.
   name: Gupshup Opt-In API
   slug: gupshup-opt-in-api
-- description: Send and list WhatsApp template (HSM) messages.
+- baseURL: https://api.gupshup.io/wa/api/v1
+  baseurl_source: declared
+  description: Send and list WhatsApp template (HSM) messages.
   name: Gupshup Templates API
   slug: gupshup-templates-api
 artifact_total: 17
@@ -178,7 +184,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png
 security:

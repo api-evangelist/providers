@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 110 operations · 58 acting
 api_count: 1
 apis:
-- description: Application management operations including creation, listing, and updates
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Application management operations including creation, listing, and updates
   name: Devtron Applications API
   slug: devtron-applications-api
-- description: Core authentication endpoints including login, token refresh, and auth verification.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Core authentication endpoints including login, token refresh, and auth verification.
   name: Devtron Authentication API
   slug: devtron-authentication-api
-- description: The bulk_other API from Devtron — 2 operation(s) for bulk_other.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The bulk_other API from Devtron — 2 operation(s) for bulk_other.
   name: Devtron bulk_other API
   slug: devtron-bulk-other-api
-- description: The BulkUpdate API from Devtron — 5 operation(s) for bulkupdate.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The BulkUpdate API from Devtron — 5 operation(s) for bulkupdate.
   name: Devtron BulkUpdate API
   slug: devtron-bulkupdate-api
-- description: Endpoints for managing authentication and authorization caches.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Endpoints for managing authentication and authorization caches.
   name: Devtron Cache Management API
   slug: devtron-cache-management-api
-- description: The Change Chart API from Devtron — 1 operation(s) for change chart.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Change Chart API from Devtron — 1 operation(s) for change chart.
   name: Devtron Change Chart API
   slug: devtron-change-chart-api
-- description: The Clone Workflow API from Devtron — 1 operation(s) for clone workflow.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Clone Workflow API from Devtron — 1 operation(s) for clone workflow.
   name: Devtron Clone Workflow API
   slug: devtron-clone-workflow-api
-- description: Operations related to clusters and environments
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to clusters and environments
   name: Devtron Cluster Environment API
   slug: devtron-cluster-environment-api
-- description: Operations related to cluster creation, update, and validation
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to cluster creation, update, and validation
   name: Devtron Cluster Management API
   slug: devtron-cluster-management-api
-- description: Retrieves the deployment history for a specific CD pipeline based on various filter criteria.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Retrieves the deployment history for a specific CD pipeline based on various filter criteria.
   name: Devtron Deployment History API
   slug: devtron-deployment-history-api
-- description: The Devtron Server version API from Devtron — 1 operation(s) for devtron server version.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Devtron Server version API from Devtron — 1 operation(s) for devtron server version.
   name: Devtron Devtron Server version API
   slug: devtron-devtron-server-version-api
-- description: Operations for creating, updating, and deleting environments
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations for creating, updating, and deleting environments
   name: Devtron Environment Management API
   slug: devtron-environment-management-api
-- description: The GitOps Validation API from Devtron — 2 operation(s) for gitops validation.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The GitOps Validation API from Devtron — 2 operation(s) for gitops validation.
   name: Devtron GitOps Validation API
   slug: devtron-gitops-validation-api
-- description: Helm chart deployment management and operations
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Helm chart deployment management and operations
   name: Devtron Helm Charts API
   slug: devtron-helm-charts-api
-- description: Job management operations for creating, cloning, and retrieving jobs
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Job management operations for creating, cloning, and retrieving jobs
   name: Devtron Jobs API
   slug: devtron-jobs-api
-- description: The K8s API from Devtron — 1 operation(s) for k8s.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The K8s API from Devtron — 1 operation(s) for k8s.
   name: Devtron K8s API
   slug: devtron-k8s-api
-- description: APIs for managing Kubernetes resources (get, create, update, delete, list).
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: APIs for managing Kubernetes resources (get, create, update, delete, list).
   name: Devtron K8s Resource API
   slug: devtron-k8s-resource-api
-- description: The Labels API from Devtron — 1 operation(s) for labels.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Labels API from Devtron — 1 operation(s) for labels.
   name: Devtron Labels API
   slug: devtron-labels-api
-- description: Application listing
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Application listing
   name: Devtron List Applications API
   slug: devtron-list-applications-api
-- description: Application metadata and information retrieval
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Application metadata and information retrieval
   name: Devtron Metadata API
   slug: devtron-metadata-api
-- description: The Notifications API from Devtron — 3 operation(s) for notifications.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Notifications API from Devtron — 3 operation(s) for notifications.
   name: Devtron Notifications API
   slug: devtron-notifications-api
-- description: Endpoints for managing policies.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Endpoints for managing policies.
   name: Devtron Policy Management API
   slug: devtron-policy-management-api
-- description: Operations related to Role-Based Access Control, like fetching default roles.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to Role-Based Access Control, like fetching default roles.
   name: Devtron RBAC API
   slug: devtron-rbac-api
-- description: Operations related to resource recommendations for Kubernetes workloads.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to resource recommendations for Kubernetes workloads.
   name: Devtron Resource Recommendation API
   slug: devtron-resource-recommendation-api
-- description: Operations related to user role groups (CRUD, listing, bulk actions).
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to user role groups (CRUD, listing, bulk actions).
   name: Devtron Role Group Management API
   slug: devtron-role-group-management-api
-- description: Manage Single Sign-On (SSO) provider configurations.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Manage Single Sign-On (SSO) provider configurations.
   name: Devtron SSO Configuration API
   slug: devtron-sso-configuration-api
-- description: Operations related to user accounts (CRUD, listing, bulk actions).
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: Operations related to user accounts (CRUD, listing, bulk actions).
   name: Devtron User Management API
   slug: devtron-user-management-api
-- description: The Workflow Management API from Devtron — 2 operation(s) for workflow management.
+- baseURL: https://devtron.example.com/orchestrator
+  baseurl_source: declared
+  description: The Workflow Management API from Devtron — 2 operation(s) for workflow management.
   name: Devtron Workflow Management API
   slug: devtron-workflow-management-api
 artifact_total: 62
@@ -337,7 +393,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -347,7 +403,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.3
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -359,7 +415,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:

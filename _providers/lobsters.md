@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Community discussion comments on stories
+- baseURL: https://lobste.rs
+  baseurl_source: declared
+  description: Community discussion comments on stories
   name: Lobsters Comments API
   slug: lobsters-comments-api
-- description: Technology link aggregation stories submitted by the community
+- baseURL: https://lobste.rs
+  baseurl_source: declared
+  description: Technology link aggregation stories submitted by the community
   name: Lobsters Stories API
   slug: lobsters-stories-api
-- description: Community-maintained taxonomy tags for categorizing stories
+- baseURL: https://lobste.rs
+  baseurl_source: declared
+  description: Community-maintained taxonomy tags for categorizing stories
   name: Lobsters Tags API
   slug: lobsters-tags-api
-- description: Lobsters user profiles
+- baseURL: https://lobste.rs
+  baseurl_source: declared
+  description: Lobsters user profiles
   name: Lobsters Users API
   slug: lobsters-users-api
 artifact_total: 25
@@ -213,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/screenshots/lobsters-2026-06-20T184628.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 32 operations · 18 acting
 api_count: 1
 apis:
-- description: The Billing API from ReasonBlocks — 1 operation(s) for billing.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Billing API from ReasonBlocks — 1 operation(s) for billing.
   name: ReasonBlocks Billing API
   slug: reasonblocks-billing-api
-- description: The Codebase Findings API from ReasonBlocks — 5 operation(s) for codebase findings.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Codebase Findings API from ReasonBlocks — 5 operation(s) for codebase findings.
   name: ReasonBlocks Codebase Findings API
   slug: reasonblocks-codebase-findings-api
-- description: The Health API from ReasonBlocks — 1 operation(s) for health.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Health API from ReasonBlocks — 1 operation(s) for health.
   name: ReasonBlocks Health API
   slug: reasonblocks-health-api
-- description: The monitor API from ReasonBlocks — 11 operation(s) for monitor.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The monitor API from ReasonBlocks — 11 operation(s) for monitor.
   name: ReasonBlocks monitor API
   slug: reasonblocks-monitor-api
-- description: The Monitor Telemetry API from ReasonBlocks — 11 operation(s) for monitor telemetry.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Monitor Telemetry API from ReasonBlocks — 11 operation(s) for monitor telemetry.
   name: ReasonBlocks Monitor Telemetry API
   slug: reasonblocks-monitor-telemetry-api
-- description: The Monitors API from ReasonBlocks — 1 operation(s) for monitors.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Monitors API from ReasonBlocks — 1 operation(s) for monitors.
   name: ReasonBlocks Monitors API
   slug: reasonblocks-monitors-api
-- description: The Pattern Library API from ReasonBlocks — 2 operation(s) for pattern library.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Pattern Library API from ReasonBlocks — 2 operation(s) for pattern library.
   name: ReasonBlocks Pattern Library API
   slug: reasonblocks-pattern-library-api
-- description: The Patterns & Traces API from ReasonBlocks — 2 operation(s) for patterns & traces.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Patterns & Traces API from ReasonBlocks — 2 operation(s) for patterns & traces.
   name: ReasonBlocks Patterns & Traces API
   slug: reasonblocks-patterns-traces-api
-- description: The Scoring API from ReasonBlocks — 1 operation(s) for scoring.
+- baseURL: https://rb-api.reasonblocks.com
+  baseurl_source: declared
+  description: The Scoring API from ReasonBlocks — 1 operation(s) for scoring.
   name: ReasonBlocks Scoring API
   slug: reasonblocks-scoring-api
 artifact_total: 23
@@ -212,7 +230,7 @@ score:
   band: thin
   composite: 36.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -238,8 +256,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/screenshots/reasonblocks-2026-09-02T153021.png
 security:
 - kind: authentication
   name: Reasonblocks Authentication

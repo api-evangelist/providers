@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Power Platform Connectors provide pre-built integrations with hundreds of external services and enable developers to create custom connectors using OpenAPI definitions. Connectors abstract API authent
   name: Power Platform Connectors
   slug: connectors-api
-- description: The Metadata API from Microsoft Power Platform — 3 operation(s) for metadata.
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2/
+  baseurl_source: declared
+  description: The Metadata API from Microsoft Power Platform — 3 operation(s) for metadata.
   name: Microsoft Power Platform Metadata API
   slug: microsoft-power-platform-metadata-api
-- description: The Records API from Microsoft Power Platform — 2 operation(s) for records.
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2/
+  baseurl_source: declared
+  description: The Records API from Microsoft Power Platform — 2 operation(s) for records.
   name: Microsoft Power Platform Records API
   slug: microsoft-power-platform-records-api
 artifact_total: 16
@@ -197,7 +201,7 @@ score:
     regime_id: energy_utilities
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-platform/refs/heads/main/screenshots/microsoft-power-platform-2026-06-20T185525.png
 security:

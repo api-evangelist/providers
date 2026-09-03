@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 32 operations · 19 acting
 api_count: 2
 apis:
-- description: Retrieve historical weather observations and monthly climate normals for any point or polygon on Earth using the same field catalog as the realtime and forecast APIs.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Retrieve historical weather observations and monthly climate normals for any point or polygon on Earth using the same field catalog as the realtime and forecast APIs.
   name: Tomorrow.io Historical Weather API
   slug: tomorrow-io-historical-api
-- description: Retrieve severe weather events, fires, floods, lightning swarms, and custom vector events affecting a point or geometry.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Retrieve severe weather events, fires, floods, lightning swarms, and custom vector events affecting a point or geometry.
   name: Tomorrow.io Events API
   slug: tomorrow-io-events-api
-- description: Retrieve weather along an arbitrary polyline of waypoints at the times each segment is expected to be traversed — powers route optimization, logistics planning, and ETA-aware hazard detection.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Retrieve weather along an arbitrary polyline of waypoints at the times each segment is expected to be traversed — powers route optimization, logistics planning, and ETA-aware hazard detection.
   name: Tomorrow.io Weather on Routes API
   slug: tomorrow-io-route-api
-- description: Manage saved locations (points, polygons, lines) referenced by ``locationId`` across the Tomorrow.io APIs, with tag-based cohorts for fleet, customer, or asset organization.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Manage saved locations (points, polygons, lines) referenced by ``locationId`` across the Tomorrow.io APIs, with tag-based cohorts for fleet, customer, or asset organization.
   name: Tomorrow.io Locations API
   slug: tomorrow-io-locations-api
-- description: Create and manage threshold-based weather alerts that evaluate Tomorrow.io data layers against custom rules for linked locations and deliver notifications via webhook, email, and the Tomorrow.io app.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Create and manage threshold-based weather alerts that evaluate Tomorrow.io data layers against custom rules for linked locations and deliver notifications via webhook, email, and the Tomorrow.io app.
   name: Tomorrow.io Alerts API
   slug: tomorrow-io-alerts-api
-- description: Define and manage reusable Insights — named rules combining Tomorrow.io data layers, operators, and thresholds — that power the Events and Alerts APIs.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Define and manage reusable Insights — named rules combining Tomorrow.io data layers, operators, and thresholds — that power the Events and Alerts APIs.
   name: Tomorrow.io Insights API
   slug: tomorrow-io-insights-api
-- description: 1h / 1d step weather forecast for the next 14 days.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: 1h / 1d step weather forecast for the next 14 days.
   name: Tomorrow.io Forecast API
   slug: tomorrow-io-forecast-api
-- description: Web Mercator tile service for weather layers.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Web Mercator tile service for weather layers.
   name: Tomorrow.io Maps API
   slug: tomorrow-io-maps-api
-- description: Current weather conditions for a point or location.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Current weather conditions for a point or location.
   name: Tomorrow.io Realtime API
   slug: tomorrow-io-realtime-api
-- description: Flexible timeline retrieval across any combination of fields and timesteps.
+- baseURL: https://api.tomorrow.io/v4
+  baseurl_source: declared
+  description: Flexible timeline retrieval across any combination of fields and timesteps.
   name: Tomorrow.io Timelines API
   slug: tomorrow-io-timelines-api
 arazzos:
@@ -531,7 +551,7 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -541,7 +561,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 66.9
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     contracts:
@@ -550,7 +570,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png
 security:

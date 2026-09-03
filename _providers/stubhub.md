@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 81 operations · 37 acting
 api_count: 5
 apis:
-- description: The Addressess API from StubHub — 2 operation(s) for addressess.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Addressess API from StubHub — 2 operation(s) for addressess.
   name: StubHub Addressess API
   slug: stubhub-addressess-api
-- description: The Categories API from StubHub — 1 operation(s) for categories.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Categories API from StubHub — 1 operation(s) for categories.
   name: StubHub Categories API
   slug: stubhub-categories-api
-- description: The E-Tickets API from StubHub — 12 operation(s) for e-tickets.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The E-Tickets API from StubHub — 12 operation(s) for e-tickets.
   name: StubHub E-Tickets API
   slug: stubhub-e-tickets-api
-- description: The Events API from StubHub — 7 operation(s) for events.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Events API from StubHub — 7 operation(s) for events.
   name: StubHub Events API
   slug: stubhub-events-api
-- description: The ListingConstraints API from StubHub — 3 operation(s) for listingconstraints.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The ListingConstraints API from StubHub — 3 operation(s) for listingconstraints.
   name: StubHub ListingConstraints API
   slug: stubhub-listingconstraints-api
-- description: The PaymentMethods API from StubHub — 3 operation(s) for paymentmethods.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The PaymentMethods API from StubHub — 3 operation(s) for paymentmethods.
   name: StubHub PaymentMethods API
   slug: stubhub-paymentmethods-api
-- description: The Payments API from StubHub — 3 operation(s) for payments.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Payments API from StubHub — 3 operation(s) for payments.
   name: StubHub Payments API
   slug: stubhub-payments-api
-- description: The Sales API from StubHub — 3 operation(s) for sales.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Sales API from StubHub — 3 operation(s) for sales.
   name: StubHub Sales API
   slug: stubhub-sales-api
-- description: The SellerEvents API from StubHub — 2 operation(s) for sellerevents.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The SellerEvents API from StubHub — 2 operation(s) for sellerevents.
   name: StubHub SellerEvents API
   slug: stubhub-sellerevents-api
-- description: The SellerListings API from StubHub — 9 operation(s) for sellerlistings.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The SellerListings API from StubHub — 9 operation(s) for sellerlistings.
   name: StubHub SellerListings API
   slug: stubhub-sellerlistings-api
-- description: The Shipments API from StubHub — 6 operation(s) for shipments.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Shipments API from StubHub — 6 operation(s) for shipments.
   name: StubHub Shipments API
   slug: stubhub-shipments-api
-- description: The TicketHolders API from StubHub — 1 operation(s) for ticketholders.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The TicketHolders API from StubHub — 1 operation(s) for ticketholders.
   name: StubHub TicketHolders API
   slug: stubhub-ticketholders-api
-- description: The User API from StubHub — 1 operation(s) for user.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The User API from StubHub — 1 operation(s) for user.
   name: StubHub User API
   slug: stubhub-user-api
-- description: The Venues API from StubHub — 2 operation(s) for venues.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Venues API from StubHub — 2 operation(s) for venues.
   name: StubHub Venues API
   slug: stubhub-venues-api
-- description: The Webhooks API from StubHub — 3 operation(s) for webhooks.
+- baseURL: https://api.stubhub.net
+  baseurl_source: declared
+  description: The Webhooks API from StubHub — 3 operation(s) for webhooks.
   name: StubHub Webhooks API
   slug: stubhub-webhooks-api
 artifact_total: 37
@@ -292,7 +322,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -302,7 +332,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +344,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/screenshots/stubhub-2026-08-17T082143.png
 security:

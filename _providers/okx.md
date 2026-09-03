@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: REST and WebSocket endpoints for order book trading, algo orders, block trading, spread trading, and copy trading across spot, futures, options, and perpetual swap instruments.
@@ -178,7 +178,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okx/refs/heads/main/screenshots/okx-2026-06-20T190651.png
 security:

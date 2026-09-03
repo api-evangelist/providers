@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -77,19 +77,29 @@ apis:
 - description: Python Software Development Kit for programmatic access to Nexus 9000 Series switch modules including interfaces, VLANs, ACLs, and routes.
   name: Cisco NX-OS Python SDK API
   slug: cisco-nx-os-python-sdk-api
-- description: Session authentication and token management via aaaLogin and aaaLogout
+- baseURL: https://{switch-ip}/api
+  baseurl_source: declared
+  description: Session authentication and token management via aaaLogin and aaaLogout
   name: Cisco Nexus Dashboard Authentication API
   slug: cisco-nexus-authentication-api
-- description: Physical interface configuration and operational state using the l1PhysIf managed object class (DN sys/intf/phys-[id])
+- baseURL: https://{switch-ip}/api
+  baseurl_source: declared
+  description: Physical interface configuration and operational state using the l1PhysIf managed object class (DN sys/intf/phys-[id])
   name: Cisco Nexus Dashboard Interfaces API
   slug: cisco-nexus-interfaces-api
-- description: IPv4 and IPv6 static route configuration using ipv4Route/ipv6Route managed objects and BGP protocol management using bgpEntity hierarchy
+- baseURL: https://{switch-ip}/api
+  baseurl_source: declared
+  description: IPv4 and IPv6 static route configuration using ipv4Route/ipv6Route managed objects and BGP protocol management using bgpEntity hierarchy
   name: Cisco Nexus Dashboard Routing API
   slug: cisco-nexus-routing-api
-- description: Top-level system information and feature management via topSystem and fmEntity managed objects
+- baseURL: https://{switch-ip}/api
+  baseurl_source: declared
+  description: Top-level system information and feature management via topSystem and fmEntity managed objects
   name: Cisco Nexus Dashboard System API
   slug: cisco-nexus-system-api
-- description: VLAN bridge domain management using the l2BD managed object class (DN sys/bd/bd-[vlan-id]) and SVI interface configuration using sviIf
+- baseURL: https://{switch-ip}/api
+  baseurl_source: declared
+  description: VLAN bridge domain management using the l2BD managed object class (DN sys/bd/bd-[vlan-id]) and SVI interface configuration using sviIf
   name: Cisco Nexus Dashboard VLANs API
   slug: cisco-nexus-vlans-api
 artifact_total: 171
@@ -645,7 +655,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/screenshots/cisco-nexus-2026-06-20T174359.png
 security:

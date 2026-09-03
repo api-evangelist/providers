@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: EPEX Spot electricity market price data
+- baseURL: https://api.awattar.at
+  baseurl_source: declared
+  description: EPEX Spot electricity market price data
   name: aWATTar Market Data API
   slug: awattar-market-data-api
 artifact_total: 12
@@ -184,7 +186,7 @@ score:
     regime_id: energy_utilities
     score: 14.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/awattar/refs/heads/main/screenshots/awattar-2026-06-20T172732.png
 security:

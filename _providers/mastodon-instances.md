@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The instances.social API allows searching for and retrieving information about Mastodon server instances, including user counts, language, software version, and uptime statistics.
   name: Mastodon Instances API
   slug: mastodon-instances
-- description: The Instances API from Mastodon Instances — 4 operation(s) for instances.
+- baseURL: https://instances.social/api
+  baseurl_source: declared
+  description: The Instances API from Mastodon Instances — 4 operation(s) for instances.
   name: Mastodon Instances Instances API
   slug: mastodon-instances-instances-api
-- description: The Versions API from Mastodon Instances — 2 operation(s) for versions.
+- baseURL: https://instances.social/api
+  baseurl_source: declared
+  description: The Versions API from Mastodon Instances — 2 operation(s) for versions.
   name: Mastodon Instances Versions API
   slug: mastodon-instances-versions-api
 artifact_total: 13
@@ -140,7 +144,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/screenshots/mastodon-instances-2026-06-20T185025.png
 security:

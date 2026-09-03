@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 66 operations · 39 acting
 api_count: 6
 apis:
-- description: Actions that manage API Keys.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Actions that manage API Keys.
   name: Pinecone API Keys API
   slug: pinecone-api-keys-api
-- description: The Bulk Operations API from Pinecone — 2 operation(s) for bulk operations.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: The Bulk Operations API from Pinecone — 2 operation(s) for bulk operations.
   name: Pinecone Bulk Operations API
   slug: pinecone-bulk-operations-api
-- description: Model inference
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Model inference
   name: Pinecone Inference API
   slug: pinecone-inference-api
-- description: Actions that manage Assistants
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Actions that manage Assistants
   name: Pinecone Manage Assistants API
   slug: pinecone-manage-assistants-api
-- description: Actions that manage indexes
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Actions that manage indexes
   name: Pinecone Manage Indexes API
   slug: pinecone-manage-indexes-api
-- description: The Namespace Operations API from Pinecone — 2 operation(s) for namespace operations.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: The Namespace Operations API from Pinecone — 2 operation(s) for namespace operations.
   name: Pinecone Namespace Operations API
   slug: pinecone-namespace-operations-api
-- description: Actions that manage organizations.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Actions that manage organizations.
   name: Pinecone Organizations API
   slug: pinecone-organizations-api
-- description: Actions that manage projects.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: Actions that manage projects.
   name: Pinecone Projects API
   slug: pinecone-projects-api
-- description: The Vector Operations API from Pinecone — 10 operation(s) for vector operations.
+- baseURL: https://api.pinecone.io
+  baseurl_source: declared
+  description: The Vector Operations API from Pinecone — 10 operation(s) for vector operations.
   name: Pinecone Vector Operations API
   slug: pinecone-vector-operations-api
 artifact_total: 237
@@ -847,7 +877,7 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -860,7 +890,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -869,7 +899,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png
 security:

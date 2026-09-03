@@ -33,55 +33,85 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'SCIM 2.0 surface for provisioning Venminder platform users — list, get, search, create and patch Users using urn:ietf:params:scim:schemas:core:2.0:User plus the urn:ietf:params:scim:schemas:extension:'
   name: Venminder SCIM 2.0 User Provisioning API
   slug: venminder-scim-api
-- description: The BusinessUnit API from Venminder (Digital Comply) — 1 operation(s) for businessunit.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The BusinessUnit API from Venminder (Digital Comply) — 1 operation(s) for businessunit.
   name: Venminder (Digital Comply) BusinessUnit API
   slug: venminder-digital-comply-businessunit-api
-- description: The ClientInformation API from Venminder (Digital Comply) — 1 operation(s) for clientinformation.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The ClientInformation API from Venminder (Digital Comply) — 1 operation(s) for clientinformation.
   name: Venminder (Digital Comply) ClientInformation API
   slug: venminder-digital-comply-clientinformation-api
-- description: The Contact API from Venminder (Digital Comply) — 1 operation(s) for contact.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Contact API from Venminder (Digital Comply) — 1 operation(s) for contact.
   name: Venminder (Digital Comply) Contact API
   slug: venminder-digital-comply-contact-api
-- description: The Contracts API from Venminder (Digital Comply) — 9 operation(s) for contracts.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Contracts API from Venminder (Digital Comply) — 9 operation(s) for contracts.
   name: Venminder (Digital Comply) Contracts API
   slug: venminder-digital-comply-contracts-api
-- description: The Data API from Venminder (Digital Comply) — 1 operation(s) for data.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Data API from Venminder (Digital Comply) — 1 operation(s) for data.
   name: Venminder (Digital Comply) Data API
   slug: venminder-digital-comply-data-api
-- description: The Documents API from Venminder (Digital Comply) — 2 operation(s) for documents.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Documents API from Venminder (Digital Comply) — 2 operation(s) for documents.
   name: Venminder (Digital Comply) Documents API
   slug: venminder-digital-comply-documents-api
-- description: The Issues API from Venminder (Digital Comply) — 2 operation(s) for issues.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Issues API from Venminder (Digital Comply) — 2 operation(s) for issues.
   name: Venminder (Digital Comply) Issues API
   slug: venminder-digital-comply-issues-api
-- description: The OversightRequirement API from Venminder (Digital Comply) — 2 operation(s) for oversightrequirement.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The OversightRequirement API from Venminder (Digital Comply) — 2 operation(s) for oversightrequirement.
   name: Venminder (Digital Comply) OversightRequirement API
   slug: venminder-digital-comply-oversightrequirement-api
-- description: The OversightTask API from Venminder (Digital Comply) — 4 operation(s) for oversighttask.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The OversightTask API from Venminder (Digital Comply) — 4 operation(s) for oversighttask.
   name: Venminder (Digital Comply) OversightTask API
   slug: venminder-digital-comply-oversighttask-api
-- description: The Questionnaire API from Venminder (Digital Comply) — 4 operation(s) for questionnaire.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Questionnaire API from Venminder (Digital Comply) — 4 operation(s) for questionnaire.
   name: Venminder (Digital Comply) Questionnaire API
   slug: venminder-digital-comply-questionnaire-api
-- description: The Services API from Venminder (Digital Comply) — 2 operation(s) for services.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Services API from Venminder (Digital Comply) — 2 operation(s) for services.
   name: Venminder (Digital Comply) Services API
   slug: venminder-digital-comply-services-api
-- description: The VendorOnboarding API from Venminder (Digital Comply) — 8 operation(s) for vendoronboarding.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The VendorOnboarding API from Venminder (Digital Comply) — 8 operation(s) for vendoronboarding.
   name: Venminder (Digital Comply) VendorOnboarding API
   slug: venminder-digital-comply-vendoronboarding-api
-- description: The Vendors API from Venminder (Digital Comply) — 10 operation(s) for vendors.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Vendors API from Venminder (Digital Comply) — 10 operation(s) for vendors.
   name: Venminder (Digital Comply) Vendors API
   slug: venminder-digital-comply-vendors-api
-- description: The VendorSpend API from Venminder (Digital Comply) — 8 operation(s) for vendorspend.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The VendorSpend API from Venminder (Digital Comply) — 8 operation(s) for vendorspend.
   name: Venminder (Digital Comply) VendorSpend API
   slug: venminder-digital-comply-vendorspend-api
-- description: The Venmonitor API from Venminder (Digital Comply) — 1 operation(s) for venmonitor.
+- baseURL: https://rsd.venminder.com
+  baseurl_source: declared
+  description: The Venmonitor API from Venminder (Digital Comply) — 1 operation(s) for venmonitor.
   name: Venminder (Digital Comply) Venmonitor API
   slug: venminder-digital-comply-venmonitor-api
 artifact_total: 36
@@ -302,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/venminder-digital-comply/refs/heads/main/screenshots/venminder-digital-comply-2026-08-17T082723.png
 security:

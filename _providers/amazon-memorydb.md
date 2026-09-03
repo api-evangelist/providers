@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 34 operations · 22 acting
 api_count: 1
 apis:
-- description: The ACLs API from Amazon MemoryDB — 1 operation(s) for acls.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ACLs API from Amazon MemoryDB — 1 operation(s) for acls.
   name: Amazon MemoryDB ACLs API
   slug: amazon-memorydb-acls-api
-- description: The Clusters API from Amazon MemoryDB — 1 operation(s) for clusters.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Clusters API from Amazon MemoryDB — 1 operation(s) for clusters.
   name: Amazon MemoryDB Clusters API
   slug: amazon-memorydb-clusters-api
-- description: The EngineVersions API from Amazon MemoryDB — 1 operation(s) for engineversions.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The EngineVersions API from Amazon MemoryDB — 1 operation(s) for engineversions.
   name: Amazon MemoryDB EngineVersions API
   slug: amazon-memorydb-engineversions-api
-- description: The Events API from Amazon MemoryDB — 1 operation(s) for events.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Events API from Amazon MemoryDB — 1 operation(s) for events.
   name: Amazon MemoryDB Events API
   slug: amazon-memorydb-events-api
-- description: The NodeTypes API from Amazon MemoryDB — 1 operation(s) for nodetypes.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The NodeTypes API from Amazon MemoryDB — 1 operation(s) for nodetypes.
   name: Amazon MemoryDB NodeTypes API
   slug: amazon-memorydb-nodetypes-api
-- description: The ParameterGroups API from Amazon MemoryDB — 1 operation(s) for parametergroups.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ParameterGroups API from Amazon MemoryDB — 1 operation(s) for parametergroups.
   name: Amazon MemoryDB ParameterGroups API
   slug: amazon-memorydb-parametergroups-api
-- description: The ReservedNodes API from Amazon MemoryDB — 2 operation(s) for reservednodes.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ReservedNodes API from Amazon MemoryDB — 2 operation(s) for reservednodes.
   name: Amazon MemoryDB ReservedNodes API
   slug: amazon-memorydb-reservednodes-api
-- description: The Shards API from Amazon MemoryDB — 1 operation(s) for shards.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Shards API from Amazon MemoryDB — 1 operation(s) for shards.
   name: Amazon MemoryDB Shards API
   slug: amazon-memorydb-shards-api
-- description: The Snapshots API from Amazon MemoryDB — 2 operation(s) for snapshots.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Snapshots API from Amazon MemoryDB — 2 operation(s) for snapshots.
   name: Amazon MemoryDB Snapshots API
   slug: amazon-memorydb-snapshots-api
-- description: The SubnetGroups API from Amazon MemoryDB — 1 operation(s) for subnetgroups.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The SubnetGroups API from Amazon MemoryDB — 1 operation(s) for subnetgroups.
   name: Amazon MemoryDB SubnetGroups API
   slug: amazon-memorydb-subnetgroups-api
-- description: The Tags API from Amazon MemoryDB — 1 operation(s) for tags.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MemoryDB — 1 operation(s) for tags.
   name: Amazon MemoryDB Tags API
   slug: amazon-memorydb-tags-api
-- description: The Users API from Amazon MemoryDB — 1 operation(s) for users.
+- baseURL: https://memory-db.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Users API from Amazon MemoryDB — 1 operation(s) for users.
   name: Amazon MemoryDB Users API
   slug: amazon-memorydb-users-api
 artifact_total: 87
@@ -418,7 +442,7 @@ score:
       marker_coverage: 100.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/screenshots/amazon-memorydb-2026-06-20T171744.png
 security:

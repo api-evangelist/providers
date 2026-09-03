@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -33,100 +44,164 @@ agentic_access:
   summary_line: 239 operations · 120 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The achievements API from VersusGame — 1 operation(s) for achievements.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The achievements API from VersusGame — 1 operation(s) for achievements.
   name: VersusGame Achievements API
   slug: versusgame-achievements-api
-- description: The App API from VersusGame — 1 operation(s) for app.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The App API from VersusGame — 1 operation(s) for app.
   name: VersusGame App API
   slug: versusgame-app-api
-- description: The assets API from VersusGame — 4 operation(s) for assets.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The assets API from VersusGame — 4 operation(s) for assets.
   name: VersusGame Assets API
   slug: versusgame-assets-api
-- description: The auth API from VersusGame — 30 operation(s) for auth.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The auth API from VersusGame — 30 operation(s) for auth.
   name: VersusGame Auth API
   slug: versusgame-auth-api
-- description: The autogame API from VersusGame — 27 operation(s) for autogame.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The autogame API from VersusGame — 27 operation(s) for autogame.
   name: VersusGame Autogame API
   slug: versusgame-autogame-api
-- description: The autogame/article/v2 API from VersusGame — 10 operation(s) for autogame/article/v2.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The autogame/article/v2 API from VersusGame — 10 operation(s) for autogame/article/v2.
   name: VersusGame Autogame/article/v2 API
   slug: versusgame-autogame-article-v2-api
-- description: The buddy-list API from VersusGame — 4 operation(s) for buddy-list.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The buddy-list API from VersusGame — 4 operation(s) for buddy-list.
   name: VersusGame Buddy List API
   slug: versusgame-buddy-list-api
-- description: The categories API from VersusGame — 3 operation(s) for categories.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The categories API from VersusGame — 3 operation(s) for categories.
   name: VersusGame Categories API
   slug: versusgame-categories-api
-- description: The creators API from VersusGame — 3 operation(s) for creators.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The creators API from VersusGame — 3 operation(s) for creators.
   name: VersusGame Creators API
   slug: versusgame-creators-api
-- description: The custom-urls API from VersusGame — 5 operation(s) for custom-urls.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The custom-urls API from VersusGame — 5 operation(s) for custom-urls.
   name: VersusGame Custom URLS API
   slug: versusgame-custom-urls-api
-- description: The cuts API from VersusGame — 5 operation(s) for cuts.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The cuts API from VersusGame — 5 operation(s) for cuts.
   name: VersusGame Cuts API
   slug: versusgame-cuts-api
-- description: The gameplays API from VersusGame — 3 operation(s) for gameplays.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The gameplays API from VersusGame — 3 operation(s) for gameplays.
   name: VersusGame Gameplays API
   slug: versusgame-gameplays-api
-- description: The games API from VersusGame — 12 operation(s) for games.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The games API from VersusGame — 12 operation(s) for games.
   name: VersusGame Games API
   slug: versusgame-games-api
-- description: The gameset-plays API from VersusGame — 8 operation(s) for gameset-plays.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The gameset-plays API from VersusGame — 8 operation(s) for gameset-plays.
   name: VersusGame Gameset Plays API
   slug: versusgame-gameset-plays-api
-- description: The gamesets API from VersusGame — 3 operation(s) for gamesets.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The gamesets API from VersusGame — 3 operation(s) for gamesets.
   name: VersusGame Gamesets API
   slug: versusgame-gamesets-api
-- description: The Health API from VersusGame — 1 operation(s) for health.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The Health API from VersusGame — 1 operation(s) for health.
   name: VersusGame Health API
   slug: versusgame-health-api
-- description: The internal API from VersusGame — 2 operation(s) for internal.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The internal API from VersusGame — 2 operation(s) for internal.
   name: VersusGame Internal API
   slug: versusgame-internal-api
-- description: The Invite API from VersusGame — 1 operation(s) for invite.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The Invite API from VersusGame — 1 operation(s) for invite.
   name: VersusGame Invite API
   slug: versusgame-invite-api
-- description: The keyframes API from VersusGame — 3 operation(s) for keyframes.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The keyframes API from VersusGame — 3 operation(s) for keyframes.
   name: VersusGame Keyframes API
   slug: versusgame-keyframes-api
-- description: The leaderboards API from VersusGame — 16 operation(s) for leaderboards.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The leaderboards API from VersusGame — 16 operation(s) for leaderboards.
   name: VersusGame Leaderboards API
   slug: versusgame-leaderboards-api
-- description: The ledger API from VersusGame — 2 operation(s) for ledger.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The ledger API from VersusGame — 2 operation(s) for ledger.
   name: VersusGame Ledger API
   slug: versusgame-ledger-api
-- description: The Legal API from VersusGame — 5 operation(s) for legal.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The Legal API from VersusGame — 5 operation(s) for legal.
   name: VersusGame Legal API
   slug: versusgame-legal-api
-- description: The meter-ads API from VersusGame — 3 operation(s) for meter-ads.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The meter-ads API from VersusGame — 3 operation(s) for meter-ads.
   name: VersusGame Meter Ads API
   slug: versusgame-meter-ads-api
-- description: The notifications API from VersusGame — 2 operation(s) for notifications.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The notifications API from VersusGame — 2 operation(s) for notifications.
   name: VersusGame Notifications API
   slug: versusgame-notifications-api
-- description: The partner-domain API from VersusGame — 3 operation(s) for partner-domain.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The partner-domain API from VersusGame — 3 operation(s) for partner-domain.
   name: VersusGame Partner Domain API
   slug: versusgame-partner-domain-api
-- description: The payments API from VersusGame — 10 operation(s) for payments.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The payments API from VersusGame — 10 operation(s) for payments.
   name: VersusGame Payments API
   slug: versusgame-payments-api
-- description: The personal-information API from VersusGame — 1 operation(s) for personal-information.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The personal-information API from VersusGame — 1 operation(s) for personal-information.
   name: VersusGame Personal Information API
   slug: versusgame-personal-information-api
-- description: The playlists API from VersusGame — 4 operation(s) for playlists.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The playlists API from VersusGame — 4 operation(s) for playlists.
   name: VersusGame Playlists API
   slug: versusgame-playlists-api
-- description: The products API from VersusGame — 3 operation(s) for products.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The products API from VersusGame — 3 operation(s) for products.
   name: VersusGame Products API
   slug: versusgame-products-api
-- description: The profiles API from VersusGame — 5 operation(s) for profiles.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The profiles API from VersusGame — 5 operation(s) for profiles.
   name: VersusGame Profiles API
   slug: versusgame-profiles-api
-- description: The wallets API from VersusGame — 5 operation(s) for wallets.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The wallets API from VersusGame — 5 operation(s) for wallets.
   name: VersusGame Wallets API
   slug: versusgame-wallets-api
-- description: The widgets API from VersusGame — 5 operation(s) for widgets.
+- baseURL: https://api.versusgame.com
+  baseurl_source: declared
+  description: The widgets API from VersusGame — 5 operation(s) for widgets.
   name: VersusGame Widgets API
   slug: versusgame-widgets-api
 artifact_total: 70
@@ -351,7 +426,7 @@ score:
   band: thin
   composite: 28.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -383,8 +458,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/versusgame/refs/heads/main/screenshots/versusgame-2026-09-02T165753.png
 security:
 - kind: authentication
   name: Versusgame Authentication

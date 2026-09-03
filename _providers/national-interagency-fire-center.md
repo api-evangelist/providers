@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: The FeatureServer API from National Interagency Fire Center — 1 operation(s) for featureserver.
+- baseURL: https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services
+  baseurl_source: declared
+  description: The FeatureServer API from National Interagency Fire Center — 1 operation(s) for featureserver.
   name: National Interagency Fire Center FeatureServer API
   slug: national-interagency-fire-center-featureserver-api
-- description: The Layer API from National Interagency Fire Center — 2 operation(s) for layer.
+- baseURL: https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services
+  baseurl_source: declared
+  description: The Layer API from National Interagency Fire Center — 2 operation(s) for layer.
   name: National Interagency Fire Center Layer API
   slug: national-interagency-fire-center-layer-api
-- description: The Services API from National Interagency Fire Center — 1 operation(s) for services.
+- baseURL: https://services3.arcgis.com/T4QMspbfLg3qTGWY/ArcGIS/rest/services
+  baseurl_source: declared
+  description: The Services API from National Interagency Fire Center — 1 operation(s) for services.
   name: National Interagency Fire Center Services API
   slug: national-interagency-fire-center-services-api
 artifact_total: 14
@@ -152,7 +158,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/screenshots/national-interagency-fire-center-2026-06-20T190038.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -60,13 +60,13 @@ description: PolyOne Corporation was a specialty polymer materials and services 
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polyone.png
 layout: provider
 modified: '2026-04-28'
-name: polyone
+name: Polyone
 nav: Providers
 network: true
-overview: 'polyone is profiled on the [APIs.io](https://apis.io/) network.
+overview: 'Polyone is profiled on the [APIs.io](https://apis.io/) network.
 
 
-  polyone''s developer surface includes engineering blog and 4 more developer resources.'
+  Polyone''s developer surface includes engineering blog and 4 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Anti-AI sentiment is increasing across Ohio, with a growing ...
@@ -105,10 +105,10 @@ score:
   previous_composite: 4.0
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyone/refs/heads/main/screenshots/polyone-2026-06-20T191918.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -39,73 +52,119 @@ apis:
 - description: 'Roughly thirty embeddable UI components — custom elements (web components) rendering a React tree in an isolated container — that bring Clevergy''s end-user energy experiences into an integrator''s own '
   name: Clevergy Microfrontends
   slug: clevergy-microfrontends
-- description: The Access control API from Clevergy — 1 operation(s) for access control.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Access control API from Clevergy — 1 operation(s) for access control.
   name: Clevergy Access control API
   slug: clevergy-access-control-api
-- description: The Connections API from Clevergy — 1 operation(s) for connections.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Connections API from Clevergy — 1 operation(s) for connections.
   name: Clevergy Connections API
   slug: clevergy-connections-api
-- description: The Contracts API from Clevergy — 1 operation(s) for contracts.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Contracts API from Clevergy — 1 operation(s) for contracts.
   name: Clevergy Contracts API
   slug: clevergy-contracts-api
-- description: The Contracts - Deprecated API from Clevergy — 6 operation(s) for contracts - deprecated.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Contracts - Deprecated API from Clevergy — 6 operation(s) for contracts - deprecated.
   name: Clevergy Contracts - Deprecated API
   slug: clevergy-contracts-deprecated-api
-- description: The Contracts|Electricity API from Clevergy — 2 operation(s) for contracts|electricity.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Contracts|Electricity API from Clevergy — 2 operation(s) for contracts|electricity.
   name: Clevergy Contracts|Electricity API
   slug: clevergy-contracts-electricity-api
-- description: The Contracts|Gas API from Clevergy — 2 operation(s) for contracts|gas.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Contracts|Gas API from Clevergy — 2 operation(s) for contracts|gas.
   name: Clevergy Contracts|Gas API
   slug: clevergy-contracts-gas-api
-- description: The Disaggregation API from Clevergy — 1 operation(s) for disaggregation.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Disaggregation API from Clevergy — 1 operation(s) for disaggregation.
   name: Clevergy Disaggregation API
   slug: clevergy-disaggregation-api
-- description: The Energy API from Clevergy — 3 operation(s) for energy.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Energy API from Clevergy — 3 operation(s) for energy.
   name: Clevergy Energy API
   slug: clevergy-energy-api
-- description: The Energy communities API from Clevergy — 3 operation(s) for energy communities.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Energy communities API from Clevergy — 3 operation(s) for energy communities.
   name: Clevergy Energy communities API
   slug: clevergy-energy-communities-api
-- description: The Equipments API from Clevergy — 5 operation(s) for equipments.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Equipments API from Clevergy — 5 operation(s) for equipments.
   name: Clevergy Equipments API
   slug: clevergy-equipments-api
-- description: The Houses API from Clevergy — 6 operation(s) for houses.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Houses API from Clevergy — 6 operation(s) for houses.
   name: Clevergy Houses API
   slug: clevergy-houses-api
-- description: The Integrations API from Clevergy — 4 operation(s) for integrations.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Integrations API from Clevergy — 4 operation(s) for integrations.
   name: Clevergy Integrations API
   slug: clevergy-integrations-api
-- description: The Invoices API from Clevergy — 5 operation(s) for invoices.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Invoices API from Clevergy — 5 operation(s) for invoices.
   name: Clevergy Invoices API
   slug: clevergy-invoices-api
-- description: The Invoices - Deprecated API from Clevergy — 2 operation(s) for invoices - deprecated.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Invoices - Deprecated API from Clevergy — 2 operation(s) for invoices - deprecated.
   name: Clevergy Invoices - Deprecated API
   slug: clevergy-invoices-deprecated-api
-- description: The Power API from Clevergy — 1 operation(s) for power.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Power API from Clevergy — 1 operation(s) for power.
   name: Clevergy Power API
   slug: clevergy-power-api
-- description: The Sales Opportunities API from Clevergy — 3 operation(s) for sales opportunities.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Sales Opportunities API from Clevergy — 3 operation(s) for sales opportunities.
   name: Clevergy Sales Opportunities API
   slug: clevergy-sales-opportunities-api
-- description: The Settings API from Clevergy — 1 operation(s) for settings.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Settings API from Clevergy — 1 operation(s) for settings.
   name: Clevergy Settings API
   slug: clevergy-settings-api
-- description: The Tariffs API from Clevergy — 4 operation(s) for tariffs.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Tariffs API from Clevergy — 4 operation(s) for tariffs.
   name: Clevergy Tariffs API
   slug: clevergy-tariffs-api
-- description: The Tickets API from Clevergy — 3 operation(s) for tickets.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Tickets API from Clevergy — 3 operation(s) for tickets.
   name: Clevergy Tickets API
   slug: clevergy-tickets-api
-- description: The Tips API from Clevergy — 1 operation(s) for tips.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Tips API from Clevergy — 1 operation(s) for tips.
   name: Clevergy Tips API
   slug: clevergy-tips-api
-- description: The Users API from Clevergy — 6 operation(s) for users.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Users API from Clevergy — 6 operation(s) for users.
   name: Clevergy Users API
   slug: clevergy-users-api
-- description: The Virtual battery API from Clevergy — 1 operation(s) for virtual battery.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Virtual battery API from Clevergy — 1 operation(s) for virtual battery.
   name: Clevergy Virtual battery API
   slug: clevergy-virtual-battery-api
-- description: The Virtual wallet API from Clevergy — 1 operation(s) for virtual wallet.
+- baseURL: https://connect.clever.gy
+  baseurl_source: declared
+  description: The Virtual wallet API from Clevergy — 1 operation(s) for virtual wallet.
   name: Clevergy Virtual wallet API
   slug: clevergy-virtual-wallet-api
 artifact_total: 31
@@ -275,11 +334,11 @@ score:
   band: developing
   composite: 51.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -289,7 +348,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 51.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,8 +366,9 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clevergy/refs/heads/main/screenshots/clevergy-2026-09-02T145107.png
 security:
 - kind: authentication
   name: Clevergy Authentication

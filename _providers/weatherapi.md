@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 1 acting
 api_count: 1
 apis:
-- description: Government weather alerts
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Government weather alerts
   name: WeatherAPI Alerts API
   slug: weatherapi-alerts-api
-- description: Long-range future weather (14–300 days)
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Long-range future weather (14–300 days)
   name: WeatherAPI Future API
   slug: weatherapi-future-api
-- description: Location, IP lookup, timezone, astronomy
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Location, IP lookup, timezone, astronomy
   name: WeatherAPI Geo API
   slug: weatherapi-geo-api
-- description: Historical weather data
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Historical weather data
   name: WeatherAPI History API
   slug: weatherapi-history-api
-- description: Marine and sailing weather
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Marine and sailing weather
   name: WeatherAPI Marine API
   slug: weatherapi-marine-api
-- description: Upcoming sports events
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Upcoming sports events
   name: WeatherAPI Sports API
   slug: weatherapi-sports-api
-- description: Real-time and forecast weather endpoints
+- baseURL: https://api.weatherapi.com/v1
+  baseurl_source: declared
+  description: Real-time and forecast weather endpoints
   name: WeatherAPI Weather API
   slug: weatherapi-weather-api
 arazzos:
@@ -642,7 +656,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:

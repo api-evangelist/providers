@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Tripetto supports outbound webhooks that deliver form response data to external services and automation platforms including Make, Zapier, and Pabbly Connect. Custom webhook endpoints receive form subm
   name: Tripetto Webhooks
   slug: tripetto-webhooks
-- description: Create and manage form definitions
+- baseURL: https://tripetto.com
+  baseurl_source: declared
+  description: Create and manage form definitions
   name: Tripetto Forms API
   slug: tripetto-forms-api
-- description: Access collected form response data
+- baseURL: https://tripetto.com
+  baseurl_source: declared
+  description: Access collected form response data
   name: Tripetto Responses API
   slug: tripetto-responses-api
-- description: Configure outbound webhook integrations
+- baseURL: https://tripetto.com
+  baseurl_source: declared
+  description: Configure outbound webhook integrations
   name: Tripetto Webhooks API
   slug: tripetto-webhooks-api
 artifact_total: 26
@@ -275,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/screenshots/tripetto-2026-06-20T195723.png
 security:

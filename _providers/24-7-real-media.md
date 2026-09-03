@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 0
 common:
@@ -94,7 +94,7 @@ score:
       reason: never_enriched
   previous_composite: 5.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/24-7-real-media/refs/heads/main/screenshots/24-7-real-media-2026-07-25T181123.png
 slug: 24-7-real-media

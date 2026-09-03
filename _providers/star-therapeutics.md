@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
   name: Star Therapeutics Comments API
   slug: star-therapeutics-comments-api
-- description: Avada theme custom post types (avada_faq, avada_portfolio). Registered and anonymously reachable, but both report zero published items.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Avada theme custom post types (avada_faq, avada_portfolio). Registered and anonymously reachable, but both report zero published items.
   name: Star Therapeutics Custom Types API
   slug: star-therapeutics-custom-types-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Star Therapeutics Discovery API
   slug: star-therapeutics-discovery-api
-- description: Media library (661 attachments at harvest time).
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Media library (661 attachments at harvest time).
   name: Star Therapeutics Media API
   slug: star-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for star-therapeutics.com URLs.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for star-therapeutics.com URLs.
   name: Star Therapeutics Oembed API
   slug: star-therapeutics-oembed-api
-- description: Corporate pages (11 published at harvest time).
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages (11 published at harvest time).
   name: Star Therapeutics Pages API
   slug: star-therapeutics-pages-api
-- description: News archive — press releases, news coverage and scientific presentations (28 published at harvest time).
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: News archive — press releases, news coverage and scientific presentations (28 published at harvest time).
   name: Star Therapeutics Posts API
   slug: star-therapeutics-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: Star Therapeutics Search API
   slug: star-therapeutics-search-api
-- description: Categories and tags. Five categories are registered; the post_tag taxonomy is registered but empty.
+- baseURL: https://star-therapeutics.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Five categories are registered; the post_tag taxonomy is registered but empty.
   name: Star Therapeutics Taxonomy API
   slug: star-therapeutics-taxonomy-api
 artifact_total: 21
@@ -204,7 +233,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -234,8 +263,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/star-therapeutics/refs/heads/main/screenshots/star-therapeutics-2026-09-02T160755.png
 security:
 - kind: authentication
   name: Star Therapeutics Authentication

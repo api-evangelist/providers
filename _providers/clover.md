@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -59,31 +59,49 @@ apis:
 - description: Mobile SDK (iOS, Android) for accepting card-present payments via Clover Go readers.
   name: Clover Go SDK
   slug: go-sdk
-- description: The CHARGES API from Clover — 3 operation(s) for charges.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The CHARGES API from Clover — 3 operation(s) for charges.
   name: Clover CHARGES API
   slug: clover-charges-api
-- description: The CHECKOUT API from Clover — 1 operation(s) for checkout.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The CHECKOUT API from Clover — 1 operation(s) for checkout.
   name: Clover CHECKOUT API
   slug: clover-checkout-api
-- description: The CUSTOMERS API from Clover — 2 operation(s) for customers.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The CUSTOMERS API from Clover — 2 operation(s) for customers.
   name: Clover CUSTOMERS API
   slug: clover-customers-api
-- description: The EMPLOYEES API from Clover — 3 operation(s) for employees.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The EMPLOYEES API from Clover — 3 operation(s) for employees.
   name: Clover EMPLOYEES API
   slug: clover-employees-api
-- description: The INVENTORY API from Clover — 5 operation(s) for inventory.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The INVENTORY API from Clover — 5 operation(s) for inventory.
   name: Clover INVENTORY API
   slug: clover-inventory-api
-- description: The ORDERS API from Clover — 4 operation(s) for orders.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The ORDERS API from Clover — 4 operation(s) for orders.
   name: Clover ORDERS API
   slug: clover-orders-api
-- description: The PAYMENTS API from Clover — 2 operation(s) for payments.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The PAYMENTS API from Clover — 2 operation(s) for payments.
   name: Clover PAYMENTS API
   slug: clover-payments-api
-- description: The REFUNDS API from Clover — 2 operation(s) for refunds.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The REFUNDS API from Clover — 2 operation(s) for refunds.
   name: Clover REFUNDS API
   slug: clover-refunds-api
-- description: The TOKENS API from Clover — 1 operation(s) for tokens.
+- baseURL: https://api.clover.com
+  baseurl_source: declared
+  description: The TOKENS API from Clover — 1 operation(s) for tokens.
   name: Clover TOKENS API
   slug: clover-tokens-api
 artifact_total: 61
@@ -384,7 +402,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -394,7 +412,7 @@ score:
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 40.8
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -409,7 +427,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:

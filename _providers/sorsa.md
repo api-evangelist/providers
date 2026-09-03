@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 40 operations · 17 acting
 api_count: 1
 apis:
-- description: Twitter/X Community tweets, members, and community search
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: Twitter/X Community tweets, members, and community search
   name: Sorsa Community API
   slug: sorsa-community-api
-- description: Twitter/X List tweets, members, and followers
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: Twitter/X List tweets, members, and followers
   name: Sorsa Lists API
   slug: sorsa-lists-api
-- description: Search tweets, users, mentions, and Twitter Spaces (Places)
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: Search tweets, users, mentions, and Twitter Spaces (Places)
   name: Sorsa Search API
   slug: sorsa-search-api
-- description: The Sorsa Info Crypto Related API from Sorsa — 7 operation(s) for sorsa info crypto related.
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: The Sorsa Info Crypto Related API from Sorsa — 7 operation(s) for sorsa info crypto related.
   name: Sorsa Sorsa Info Crypto Related API
   slug: sorsa-sorsa-info-crypto-related-api
-- description: The Technical Endpoints API from Sorsa — 4 operation(s) for technical endpoints.
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: The Technical Endpoints API from Sorsa — 4 operation(s) for technical endpoints.
   name: Sorsa Technical Endpoints API
   slug: sorsa-technical-endpoints-api
-- description: Tweet data (single and batch), articles, user timelines, quotes, retweets, comments, trends
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: Tweet data (single and batch), articles, user timelines, quotes, retweets, comments, trends
   name: Sorsa Tweets API
   slug: sorsa-tweets-api
-- description: User profile, followers, following, verified followers, About metadata
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: User profile, followers, following, verified followers, About metadata
   name: Sorsa Users Data API
   slug: sorsa-users-data-api
-- description: Verify follow, comment, retweet, quote and community-membership relationships
+- baseURL: https://api.sorsa.io/v3
+  baseurl_source: declared
+  description: Verify follow, comment, retweet, quote and community-membership relationships
   name: Sorsa Verification API
   slug: sorsa-verification-api
 artifact_total: 97
@@ -448,7 +464,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/screenshots/sorsa-2026-06-20T194217.png
 security:

@@ -34,49 +34,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Tesser — 5 operation(s) for accounts.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Accounts API from Tesser — 5 operation(s) for accounts.
   name: Tesser Accounts API
   slug: tesser-accounts-api
-- description: The Admin API from Tesser — 1 operation(s) for admin.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Admin API from Tesser — 1 operation(s) for admin.
   name: Tesser Admin API
   slug: tesser-admin-api
-- description: The API Keys API from Tesser — 3 operation(s) for api keys.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The API Keys API from Tesser — 3 operation(s) for api keys.
   name: Tesser API Keys API
   slug: tesser-api-keys-api
-- description: The Counterparties API from Tesser — 2 operation(s) for counterparties.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Counterparties API from Tesser — 2 operation(s) for counterparties.
   name: Tesser Counterparties API
   slug: tesser-counterparties-api
-- description: The Currencies API from Tesser — 1 operation(s) for currencies.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Currencies API from Tesser — 1 operation(s) for currencies.
   name: Tesser Currencies API
   slug: tesser-currencies-api
-- description: The health API from Tesser — 2 operation(s) for health.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The health API from Tesser — 2 operation(s) for health.
   name: Tesser health API
   slug: tesser-health-api
-- description: The MCP API from Tesser — 1 operation(s) for mcp.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The MCP API from Tesser — 1 operation(s) for mcp.
   name: Tesser MCP API
   slug: tesser-mcp-api
-- description: The Networks API from Tesser — 1 operation(s) for networks.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Networks API from Tesser — 1 operation(s) for networks.
   name: Tesser Networks API
   slug: tesser-networks-api
-- description: The Organizations API from Tesser — 2 operation(s) for organizations.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Organizations API from Tesser — 2 operation(s) for organizations.
   name: Tesser Organizations API
   slug: tesser-organizations-api
-- description: The Payments API from Tesser — 7 operation(s) for payments.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Payments API from Tesser — 7 operation(s) for payments.
   name: Tesser Payments API
   slug: tesser-payments-api
-- description: The Tenants API from Tesser — 2 operation(s) for tenants.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Tenants API from Tesser — 2 operation(s) for tenants.
   name: Tesser Tenants API
   slug: tesser-tenants-api
-- description: The Treasury API from Tesser — 12 operation(s) for treasury.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Treasury API from Tesser — 12 operation(s) for treasury.
   name: Tesser Treasury API
   slug: tesser-treasury-api
-- description: The Users API from Tesser — 2 operation(s) for users.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The Users API from Tesser — 2 operation(s) for users.
   name: Tesser Users API
   slug: tesser-users-api
-- description: The webhooks API from Tesser — 6 operation(s) for webhooks.
+- baseURL: https://api.tesser.xyz
+  baseurl_source: declared
+  description: The webhooks API from Tesser — 6 operation(s) for webhooks.
   name: Tesser webhooks API
   slug: tesser-webhooks-api
 artifact_total: 33
@@ -279,7 +307,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -289,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.6
+  previous_composite: 45.8
   provenance:
     conformance: derived
     contracts:
@@ -306,7 +334,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/screenshots/tesser-2026-08-17T082322.png
 security:

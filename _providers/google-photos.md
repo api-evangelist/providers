@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Albums API from Google Photos Library — 2 operation(s) for albums.
+- baseURL: https://photoslibrary.googleapis.com/v1
+  baseurl_source: declared
+  description: The Albums API from Google Photos Library — 2 operation(s) for albums.
   name: Google Photos Library Albums API
   slug: google-photos-albums-api
-- description: The MediaItems API from Google Photos Library — 2 operation(s) for mediaitems.
+- baseURL: https://photoslibrary.googleapis.com/v1
+  baseurl_source: declared
+  description: The MediaItems API from Google Photos Library — 2 operation(s) for mediaitems.
   name: Google Photos Library MediaItems API
   slug: google-photos-mediaitems-api
-- description: The MediaItems:search API from Google Photos Library — 1 operation(s) for mediaitems:search.
+- baseURL: https://photoslibrary.googleapis.com/v1
+  baseurl_source: declared
+  description: The MediaItems:search API from Google Photos Library — 1 operation(s) for mediaitems:search.
   name: Google Photos Library MediaItems:search API
   slug: google-photos-mediaitems-search-api
-- description: The SharedAlbums API from Google Photos Library — 1 operation(s) for sharedalbums.
+- baseURL: https://photoslibrary.googleapis.com/v1
+  baseurl_source: declared
+  description: The SharedAlbums API from Google Photos Library — 1 operation(s) for sharedalbums.
   name: Google Photos Library SharedAlbums API
   slug: google-photos-sharedalbums-api
 artifact_total: 21
@@ -197,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/screenshots/google-photos-2026-06-20T182223.png
 security:

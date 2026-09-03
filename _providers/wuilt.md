@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -125,7 +125,7 @@ score:
   band: emerging
   composite: 25.2
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -147,8 +147,9 @@ score:
       reason: never_enriched
   previous_composite: 25.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wuilt/refs/heads/main/screenshots/wuilt-2026-09-02T171015.png
 slug: wuilt
 tags:
 - Company

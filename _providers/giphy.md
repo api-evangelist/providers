@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 23 operations · 2 acting
 api_count: 1
 apis:
-- description: Pingback and action register endpoints for measuring user engagement.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Pingback and action register endpoints for measuring user engagement.
   name: Giphy Analytics API
   slug: giphy-analytics-api
-- description: Programmatic creation of animated text/word GIFs.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Programmatic creation of animated text/word GIFs.
   name: Giphy Animate API
   slug: giphy-animate-api
-- description: Top-level categories and subcategories used to organize GIFs.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Top-level categories and subcategories used to organize GIFs.
   name: Giphy Categories API
   slug: giphy-categories-api
-- description: Channel discovery and metadata.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Channel discovery and metadata.
   name: Giphy Channels API
   slug: giphy-channels-api
-- description: GIFs with sound. Access is gated; contact clips@giphy.com.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: GIFs with sound. Access is gated; contact clips@giphy.com.
   name: Giphy Clips API
   slug: giphy-clips-api
-- description: GIPHY's animated emoji library and per-emoji variations.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: GIPHY's animated emoji library and per-emoji variations.
   name: Giphy Emoji API
   slug: giphy-emoji-api
-- description: Search, trending, translate, random, and lookup endpoints for animated GIFs.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Search, trending, translate, random, and lookup endpoints for animated GIFs.
   name: Giphy GIFs API
   slug: giphy-gifs-api
-- description: Tag autocompletion, related search terms, and trending search queries.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Tag autocompletion, related search terms, and trending search queries.
   name: Giphy Search Discovery API
   slug: giphy-search-discovery-api
-- description: The same surface as GIFs but scoped to transparent-background stickers.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: The same surface as GIFs but scoped to transparent-background stickers.
   name: Giphy Stickers API
   slug: giphy-stickers-api
-- description: Programmatic upload of GIFs and video assets.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Programmatic upload of GIFs and video assets.
   name: Giphy Upload API
   slug: giphy-upload-api
-- description: Identifier generation and other helpers.
+- baseURL: https://api.giphy.com
+  baseurl_source: declared
+  description: Identifier generation and other helpers.
   name: Giphy Utilities API
   slug: giphy-utilities-api
 artifact_total: 96
@@ -468,7 +490,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:

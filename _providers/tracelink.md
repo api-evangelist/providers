@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: 'SOAP web service for serialized operations: commissioning, aggregation, decommissioning, shipment and receipt orders, serial number verification, lot status, market release, sampling, and destruction.'
@@ -327,7 +339,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -337,7 +349,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 52.4
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: derived
@@ -349,7 +361,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tracelink/refs/heads/main/screenshots/tracelink-2026-08-17T082418.png
 security:

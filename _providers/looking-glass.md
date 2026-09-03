@@ -34,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Playlists that auto-play when Bridge starts
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Playlists that auto-play when Bridge starts
   name: Looking Glass Autostart API
   slug: looking-glass-autostart-api
-- description: Enumerate connected Looking Glass displays
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Enumerate connected Looking Glass displays
   name: Looking Glass Devices API
   slug: looking-glass-devices-api
-- description: Multi-user Bridge sessions (orchestrations)
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Multi-user Bridge sessions (orchestrations)
   name: Looking Glass Orchestration API
   slug: looking-glass-orchestration-api
-- description: Transport controls for the Bridge media player
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Transport controls for the Bridge media player
   name: Looking Glass Playback API
   slug: looking-glass-playback-api
-- description: Create, edit and delete hologram playlists
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Create, edit and delete hologram playlists
   name: Looking Glass Playlist API
   slug: looking-glass-playlist-api
-- description: Bridge and API version information
+- baseURL: http://localhost:33334/
+  baseurl_source: declared
+  description: Bridge and API version information
   name: Looking Glass Version API
   slug: looking-glass-version-api
 artifact_total: 17
@@ -221,7 +233,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

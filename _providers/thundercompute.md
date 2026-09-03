@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The tnr command-line interface is the primary developer surface for Thunder Compute, wrapping the REST API to log in, create, connect to, snapshot, and delete GPU instances and transfer files. Authent
   name: Thunder Compute CLI (tnr)
   slug: thundercompute-cli
-- description: The Instances API from Thunder Compute — 6 operation(s) for instances.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Instances API from Thunder Compute — 6 operation(s) for instances.
   name: Thunder Compute Instances API
   slug: thundercompute-instances-api
-- description: The Pricing API from Thunder Compute — 1 operation(s) for pricing.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Pricing API from Thunder Compute — 1 operation(s) for pricing.
   name: Thunder Compute Pricing API
   slug: thundercompute-pricing-api
-- description: The Snapshots API from Thunder Compute — 3 operation(s) for snapshots.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Snapshots API from Thunder Compute — 3 operation(s) for snapshots.
   name: Thunder Compute Snapshots API
   slug: thundercompute-snapshots-api
-- description: The Specs API from Thunder Compute — 1 operation(s) for specs.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Specs API from Thunder Compute — 1 operation(s) for specs.
   name: Thunder Compute Specs API
   slug: thundercompute-specs-api
-- description: The SSH Keys API from Thunder Compute — 3 operation(s) for ssh keys.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The SSH Keys API from Thunder Compute — 3 operation(s) for ssh keys.
   name: Thunder Compute SSH Keys API
   slug: thundercompute-ssh-keys-api
-- description: The Templates API from Thunder Compute — 1 operation(s) for templates.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Templates API from Thunder Compute — 1 operation(s) for templates.
   name: Thunder Compute Templates API
   slug: thundercompute-templates-api
-- description: The Tokens API from Thunder Compute — 1 operation(s) for tokens.
+- baseURL: https://api.thundercompute.com:8443/v1
+  baseurl_source: declared
+  description: The Tokens API from Thunder Compute — 1 operation(s) for tokens.
   name: Thunder Compute Tokens API
   slug: thundercompute-tokens-api
 artifact_total: 23
@@ -175,7 +189,7 @@ score:
   band: thin
   composite: 37.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -198,8 +212,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/screenshots/thundercompute-2026-09-02T163644.png
 security:
 - kind: authentication
   name: Thundercompute Authentication

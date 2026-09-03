@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations · 3 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Prismatic provides a GraphQL-based API for you to build, deploy, and support your integrations programmatically. While Prismatic recommends that new users use the web app or Prismatic CLI tool (prism)
+- baseURL: https://app.prismatic.io
+  baseurl_source: spec
+  description: Prismatic provides a GraphQL-based API for you to build, deploy, and support your integrations programmatically. While Prismatic recommends that new users use the web app or Prismatic CLI tool (prism)
   name: Prismatics GraphQL API
   slug: prismatics-graphql-api
-- description: Authentication endpoints for obtaining, refreshing, and revoking JWT tokens used to access the Prismatic API
+- baseURL: https://app.prismatic.io
+  baseurl_source: spec
+  description: Authentication endpoints for obtaining, refreshing, and revoking JWT tokens used to access the Prismatic API
   name: Prismatic Authentication API
   slug: prismatic-authentication-api
 arazzos:
@@ -821,7 +825,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/screenshots/prismatic-2026-06-20T192113.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The Shelf REST API enables developers to programmatically interact with the Shelf knowledge management platform. Access, search, create, and manage knowledge articles, gems (curated content), decision
@@ -185,7 +185,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shelf/refs/heads/main/screenshots/shelf-2026-06-20T193852.png
 security:

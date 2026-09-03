@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for Lightspeed Retail R-Series (formerly Vend) providing access to sales, inventory, customers, products, and reporting data for retail point-of-sale systems.
@@ -50,163 +50,269 @@ apis:
 - description: Partner REST API for Lightspeed Golf, the Chronogolf tee-sheet and golf course management platform Lightspeed acquired in 2019. Covers organizations, courses, tee times, green fees, reservations and c
   name: Lightspeed Golf (Chronogolf) Partner API
   slug: golf-g-series
-- description: Audit and security operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Audit and security operations
   name: Lightspeed Commerce Audit API
   slug: lightspeed-audit-api
-- description: Brand operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Brand operations
   name: Lightspeed Commerce Brands API
   slug: lightspeed-brands-api
-- description: A log of requests and responses between Lightspeed and an integration channel.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: A log of requests and responses between Lightspeed and an integration channel.
   name: Lightspeed Commerce Channel Request Log API
   slug: lightspeed-channel-request-log-api
-- description: Consignment Product operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Consignment Product operations
   name: Lightspeed Commerce Consignment Products API
   slug: lightspeed-consignment-products-api
-- description: Stock control operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Stock control operations
   name: Lightspeed Commerce Consignments API
   slug: lightspeed-consignments-api
-- description: Customer Address operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Customer Address operations
   name: Lightspeed Commerce Customer Addresses API
   slug: lightspeed-customer-addresses-api
-- description: Customer Group operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Customer Group operations
   name: Lightspeed Commerce Customer Groups API
   slug: lightspeed-customer-groups-api
-- description: Customer operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Customer operations
   name: Lightspeed Commerce Customers API
   slug: lightspeed-customers-api
-- description: 'V1 endpoints (`/f/finance/...`) for retrieving sales and financial data. For the newer V2 versions of these endpoints see FinancialV2 ### V1 behaviour - **Sorting**: No guaranteed sorting order; inter'
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: 'V1 endpoints (`/f/finance/...`) for retrieving sales and financial data. For the newer V2 versions of these endpoints see FinancialV2 ### V1 behaviour - **Sorting**: No guaranteed sorting order; inter'
   name: Lightspeed Commerce Financial API
   slug: lightspeed-financial-api
-- description: 'V2 endpoints (`/f/v2/...`) for retrieving sales and financial data. ### Endpoint Mapping | V1 Endpoint | V2 Endpoint | |-------------|-------------| | `getFinancials` (`/f/finance/{id}/financials/{fro'
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: 'V2 endpoints (`/f/v2/...`) for retrieving sales and financial data. ### Endpoint Mapping | V1 Endpoint | V2 Endpoint | |-------------|-------------| | `getFinancials` (`/f/finance/{id}/financials/{fro'
   name: Lightspeed Commerce Financial V2 API
   slug: lightspeed-financialv2-api
-- description: Fulfillment operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Fulfillment operations
   name: Lightspeed Commerce Fulfillments API
   slug: lightspeed-fulfillments-api
-- description: Gift Card operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Gift Card operations
   name: Lightspeed Commerce Gift Cards API
   slug: lightspeed-gift-cards-api
-- description: The ID Cards API from Lightspeed Commerce — 2 operation(s) for id cards.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The ID Cards API from Lightspeed Commerce — 2 operation(s) for id cards.
   name: Lightspeed Commerce ID Cards API
   slug: lightspeed-id-cards-api
-- description: Inventory operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Inventory operations
   name: Lightspeed Commerce Inventory API
   slug: lightspeed-inventory-api
-- description: The Items API from Lightspeed Commerce — 2 operation(s) for items.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Items API from Lightspeed Commerce — 2 operation(s) for items.
   name: Lightspeed Commerce Items API
   slug: lightspeed-items-api
-- description: The Loyalty Adjustments [BETA] API from Lightspeed Commerce — 1 operation(s) for loyalty adjustments [beta].
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Loyalty Adjustments [BETA] API from Lightspeed Commerce — 1 operation(s) for loyalty adjustments [beta].
   name: Lightspeed Commerce Loyalty Adjustments [BETA] API
   slug: lightspeed-loyalty-adjustments-beta-api
-- description: The Order and Pay API from Lightspeed Commerce — 19 operation(s) for order and pay.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Order and Pay API from Lightspeed Commerce — 19 operation(s) for order and pay.
   name: Lightspeed Commerce Order and Pay API
   slug: lightspeed-order-and-pay-api
-- description: 'The Order and Pay: Webhook API from Lightspeed Commerce — 4 operation(s) for order and pay: webhook.'
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: 'The Order and Pay: Webhook API from Lightspeed Commerce — 4 operation(s) for order and pay: webhook.'
   name: 'Lightspeed Commerce Order and Pay: Webhook API'
   slug: lightspeed-order-and-pay-webhook-api
-- description: Outlet Product Tax operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Outlet Product Tax operations
   name: Lightspeed Commerce Outlet Product Taxes API
   slug: lightspeed-outlet-product-taxes-api
-- description: Outlet operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Outlet operations
   name: Lightspeed Commerce Outlets API
   slug: lightspeed-outlets-api
-- description: Packing slip rendering operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Packing slip rendering operations
   name: Lightspeed Commerce Packing Slips API
   slug: lightspeed-packing-slips-api
-- description: Partner Billing operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Partner Billing operations
   name: Lightspeed Commerce Partner Billing API
   slug: lightspeed-partner-billing-api
-- description: Payment Type operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Payment Type operations
   name: Lightspeed Commerce Payment Types API
   slug: lightspeed-payment-types-api
-- description: The PMS API from Lightspeed Commerce — 3 operation(s) for pms.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The PMS API from Lightspeed Commerce — 3 operation(s) for pms.
   name: Lightspeed Commerce PMS API
   slug: lightspeed-pms-api
-- description: The PMS Integration API from Lightspeed Commerce — 0 operation(s) for pms integration.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The PMS Integration API from Lightspeed Commerce — 0 operation(s) for pms integration.
   name: Lightspeed Commerce PMS Integration API
   slug: lightspeed-pms-integration-api
-- description: Price Book operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Price Book operations
   name: Lightspeed Commerce Price Books API
   slug: lightspeed-price-books-api
-- description: Product Categories operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Product Categories operations
   name: Lightspeed Commerce Product Categories API
   slug: lightspeed-product-categories-api
-- description: Product Image operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Product Image operations
   name: Lightspeed Commerce Product Images API
   slug: lightspeed-product-images-api
-- description: Product Type operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Product Type operations
   name: Lightspeed Commerce Product Types API
   slug: lightspeed-product-types-api
-- description: Product operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Product operations
   name: Lightspeed Commerce Products API
   slug: lightspeed-products-api
-- description: The Promo Code API from Lightspeed Commerce — 2 operation(s) for promo code.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Promo Code API from Lightspeed Commerce — 2 operation(s) for promo code.
   name: Lightspeed Commerce Promo Code API
   slug: lightspeed-promo-code-api
-- description: Promotion operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Promotion operations
   name: Lightspeed Commerce Promotions API
   slug: lightspeed-promotions-api
-- description: Purchase order operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Purchase order operations
   name: Lightspeed Commerce Purchase Orders API
   slug: lightspeed-purchase-orders-api
-- description: Quotes operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Quotes operations
   name: Lightspeed Commerce Quotes API
   slug: lightspeed-quotes-api
-- description: Register operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Register operations
   name: Lightspeed Commerce Registers API
   slug: lightspeed-registers-api
-- description: The Reservations for Platforms API from Lightspeed Commerce — 11 operation(s) for reservations for platforms.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Reservations for Platforms API from Lightspeed Commerce — 11 operation(s) for reservations for platforms.
   name: Lightspeed Commerce Reservations for Platforms API
   slug: lightspeed-reservations-for-platforms-api
-- description: Retailer operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Retailer operations
   name: Lightspeed Commerce Retailers API
   slug: lightspeed-retailers-api
-- description: The Rich Item API from Lightspeed Commerce — 6 operation(s) for rich item.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Rich Item API from Lightspeed Commerce — 6 operation(s) for rich item.
   name: Lightspeed Commerce Rich Item API
   slug: lightspeed-rich-item-api
-- description: Sale operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Sale operations
   name: Lightspeed Commerce Sales API
   slug: lightspeed-sales-api
-- description: Search related operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Search related operations
   name: Lightspeed Commerce Search API
   slug: lightspeed-search-api
-- description: Serial number related operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Serial number related operations
   name: Lightspeed Commerce Serial Numbers API
   slug: lightspeed-serial-numbers-api
-- description: Service orders and Job management
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Service orders and Job management
   name: Lightspeed Commerce Service Orders API
   slug: lightspeed-service-orders-api
-- description: The Shifts API from Lightspeed Commerce — 1 operation(s) for shifts.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Shifts API from Lightspeed Commerce — 1 operation(s) for shifts.
   name: Lightspeed Commerce Shifts API
   slug: lightspeed-shifts-api
-- description: Staff API. Authorisation Code grant type is required for this API with permission ROLE_CONFIG_USERS.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Staff API. Authorisation Code grant type is required for this API with permission ROLE_CONFIG_USERS.
   name: Lightspeed Commerce Staff API
   slug: lightspeed-staff-api
-- description: Store Credit operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Store Credit operations
   name: Lightspeed Commerce Store Credits API
   slug: lightspeed-store-credits-api
-- description: Supplier operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Supplier operations
   name: Lightspeed Commerce Suppliers API
   slug: lightspeed-suppliers-api
-- description: Tag operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Tag operations
   name: Lightspeed Commerce Tags API
   slug: lightspeed-tags-api
-- description: The Tax Breakdown API from Lightspeed Commerce — 1 operation(s) for tax breakdown.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Tax Breakdown API from Lightspeed Commerce — 1 operation(s) for tax breakdown.
   name: Lightspeed Commerce Tax Breakdown API
   slug: lightspeed-tax-breakdown-api
-- description: Tax operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Tax operations
   name: Lightspeed Commerce Taxes API
   slug: lightspeed-taxes-api
-- description: User operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: User operations
   name: Lightspeed Commerce Users API
   slug: lightspeed-users-api
-- description: The Variant Attributes API from Lightspeed Commerce — 2 operation(s) for variant attributes.
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: The Variant Attributes API from Lightspeed Commerce — 2 operation(s) for variant attributes.
   name: Lightspeed Commerce Variant Attributes API
   slug: lightspeed-variant-attributes-api
-- description: Webhook operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Webhook operations
   name: Lightspeed Commerce Webhooks API
   slug: lightspeed-webhooks-api
-- description: Workflow operations
+- baseURL: https://{domain_prefix}.retail.lightspeed.app
+  baseurl_source: declared
+  description: Workflow operations
   name: Lightspeed Commerce Workflows API
   slug: lightspeed-workflows-api
 artifact_total: 68
@@ -458,23 +564,23 @@ scopes:
   summary_line: 90 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 80.4
+  composite: 81.1
   coverage:
     artifact_dirs: 27
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.1
+  delta: 0.7
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 4.5
-    contract_quality: 64.1
+    contract_quality: 66.9
     developer_ergonomics: 85.1
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 82.5
+  previous_composite: 80.4
   provenance:
     conformance: derived
     contracts:
@@ -491,7 +597,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed/refs/heads/main/screenshots/lightspeed-2026-06-20T184527.png
 security:

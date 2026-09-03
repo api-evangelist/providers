@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Session API from Zamna — 9 operation(s) for session.
+- baseURL: https://paxcheck-app-dev.staging.zamna.com
+  baseurl_source: declared
+  description: The Session API from Zamna — 9 operation(s) for session.
   name: Zamna Session API
   slug: zamna-session-api
-- description: The Start API from Zamna — 1 operation(s) for start.
+- baseURL: https://paxcheck-app-dev.staging.zamna.com
+  baseurl_source: declared
+  description: The Start API from Zamna — 1 operation(s) for start.
   name: Zamna Start API
   slug: zamna-start-api
-- description: The Start With Booking Id And Surname API from Zamna — 1 operation(s) for start with booking id and surname.
+- baseURL: https://paxcheck-app-dev.staging.zamna.com
+  baseurl_source: declared
+  description: The Start With Booking Id And Surname API from Zamna — 1 operation(s) for start with booking id and surname.
   name: Zamna Start With Booking Id And Surname API
   slug: zamna-start-with-booking-id-and-surname-api
-- description: The Start2 API from Zamna — 1 operation(s) for start2.
+- baseURL: https://paxcheck-app-dev.staging.zamna.com
+  baseurl_source: declared
+  description: The Start2 API from Zamna — 1 operation(s) for start2.
   name: Zamna Start2 API
   slug: zamna-start2-api
 artifact_total: 12
@@ -159,7 +167,7 @@ score:
   band: thin
   composite: 31.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -184,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zamna/refs/heads/main/screenshots/zamna-2026-09-02T171446.png
 security:
 - kind: authentication
   name: Zamna Authentication

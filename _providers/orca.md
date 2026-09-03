@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 11 operations
 api_count: 1
 apis:
-- description: Orca protocol information endpoints
+- baseURL: https://api.orca.so/v2/solana
+  baseurl_source: declared
+  description: Orca protocol information endpoints
   name: Orca protocol API
   slug: orca-protocol-api
-- description: Token information endpoints
+- baseURL: https://api.orca.so/v2/solana
+  baseurl_source: declared
+  description: Token information endpoints
   name: Orca tokens API
   slug: orca-tokens-api
-- description: Whirlpool information endpoints
+- baseURL: https://api.orca.so/v2/solana
+  baseurl_source: declared
+  description: Whirlpool information endpoints
   name: Orca whirlpools API
   slug: orca-whirlpools-api
 arazzos:
@@ -218,7 +224,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orca/refs/heads/main/screenshots/orca-2026-08-07T190854.png
 security:

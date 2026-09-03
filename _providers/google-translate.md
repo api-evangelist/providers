@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Detect language of text
+- baseURL: https://translation.googleapis.com
+  baseurl_source: declared
+  description: Detect language of text
   name: Google Cloud Translation API Detections API
   slug: google-translate-detections-api
-- description: List supported languages
+- baseURL: https://translation.googleapis.com
+  baseurl_source: declared
+  description: List supported languages
   name: Google Cloud Translation API Languages API
   slug: google-translate-languages-api
-- description: Translate text between languages
+- baseURL: https://translation.googleapis.com
+  baseurl_source: declared
+  description: Translate text between languages
   name: Google Cloud Translation API Translations API
   slug: google-translate-translations-api
 artifact_total: 20
@@ -218,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-translate/refs/heads/main/screenshots/google-translate-2026-06-20T182243.png
 security:

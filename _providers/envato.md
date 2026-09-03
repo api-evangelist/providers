@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Affiliate-only API for Envato Elements (subscription-based stock media). Provides search and metadata for catalog discovery within affiliate properties; not a general-purpose download API.
   name: Envato Elements Affiliate API
   slug: elements-affiliate
-- description: The Author API from Envato — 2 operation(s) for author.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The Author API from Envato — 2 operation(s) for author.
   name: Envato Author API
   slug: envato-author-api
-- description: The Catalog API from Envato — 2 operation(s) for catalog.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The Catalog API from Envato — 2 operation(s) for catalog.
   name: Envato Catalog API
   slug: envato-catalog-api
-- description: The Downloads API from Envato — 1 operation(s) for downloads.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The Downloads API from Envato — 1 operation(s) for downloads.
   name: Envato Downloads API
   slug: envato-downloads-api
-- description: The Items API from Envato — 1 operation(s) for items.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The Items API from Envato — 1 operation(s) for items.
   name: Envato Items API
   slug: envato-items-api
-- description: The Search API from Envato — 1 operation(s) for search.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The Search API from Envato — 1 operation(s) for search.
   name: Envato Search API
   slug: envato-search-api
-- description: The User API from Envato — 4 operation(s) for user.
+- baseURL: https://api.envato.com
+  baseurl_source: declared
+  description: The User API from Envato — 4 operation(s) for user.
   name: Envato User API
   slug: envato-user-api
 artifact_total: 24
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/screenshots/envato-2026-06-20T180736.png
 security:

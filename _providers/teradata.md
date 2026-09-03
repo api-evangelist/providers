@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 33 operations · 15 acting
 api_count: 11
 apis:
-- description: The API Info API from Teradata — 1 operation(s) for api info.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The API Info API from Teradata — 1 operation(s) for api info.
   name: Teradata API Info API
   slug: teradata-api-info-api
-- description: The Configuration API from Teradata — 8 operation(s) for configuration.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Configuration API from Teradata — 8 operation(s) for configuration.
   name: Teradata Configuration API
   slug: teradata-configuration-api
-- description: The Issues API from Teradata — 1 operation(s) for issues.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Issues API from Teradata — 1 operation(s) for issues.
   name: Teradata Issues API
   slug: teradata-issues-api
-- description: The Managers API from Teradata — 1 operation(s) for managers.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Managers API from Teradata — 1 operation(s) for managers.
   name: Teradata Managers API
   slug: teradata-managers-api
-- description: The Nodes API from Teradata — 1 operation(s) for nodes.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Nodes API from Teradata — 1 operation(s) for nodes.
   name: Teradata Nodes API
   slug: teradata-nodes-api
-- description: The Operations API from Teradata — 3 operation(s) for operations.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Operations API from Teradata — 3 operation(s) for operations.
   name: Teradata Operations API
   slug: teradata-operations-api
-- description: The Queries API from Teradata — 2 operation(s) for queries.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Queries API from Teradata — 2 operation(s) for queries.
   name: Teradata Queries API
   slug: teradata-queries-api
-- description: The Sessions API from Teradata — 2 operation(s) for sessions.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Sessions API from Teradata — 2 operation(s) for sessions.
   name: Teradata Sessions API
   slug: teradata-sessions-api
-- description: The Software API from Teradata — 1 operation(s) for software.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Software API from Teradata — 1 operation(s) for software.
   name: Teradata Software API
   slug: teradata-software-api
-- description: The Systems API from Teradata — 1 operation(s) for systems.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Systems API from Teradata — 1 operation(s) for systems.
   name: Teradata Systems API
   slug: teradata-systems-api
-- description: The Users API from Teradata — 1 operation(s) for users.
+- baseURL: https://querygrid.teradata.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Teradata — 1 operation(s) for users.
   name: Teradata Users API
   slug: teradata-users-api
 arazzos:
@@ -496,7 +518,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/screenshots/teradata-2026-06-20T195123.png
 security:

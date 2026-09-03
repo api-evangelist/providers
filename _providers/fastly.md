@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -44,244 +44,404 @@ agentic_access:
   summary_line: 256 operations · 130 acting · 7 human-in-the-loop
 api_count: 22
 apis:
-- description: Operations for managing ACL containers within a service version.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing ACL containers within a service version.
   name: Fastly ACL API
   slug: fastly-acl-api
-- description: Operations for managing individual entries within an ACL, including IP addresses and CIDR ranges. Entries are versionless and take effect immediately.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing individual entries within an ACL, including IP addresses and CIDR ranges. Entries are versionless and take effect immediately.
   name: Fastly ACL Entry API
   slug: fastly-acl-entry-api
-- description: The Alerts API from Fastly — 3 operation(s) for alerts.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Alerts API from Fastly — 3 operation(s) for alerts.
   name: Fastly Alerts API
   slug: fastly-alerts-api
-- description: Operations for enabling and managing the API Discovery product that identifies API endpoints in service traffic.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for enabling and managing the API Discovery product that identifies API endpoints in service traffic.
   name: Fastly API Discovery API
   slug: fastly-api-discovery-api
-- description: Operations for managing automation tokens used by non-human clients such as CI/CD pipelines and build systems.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing automation tokens used by non-human clients such as CI/CD pipelines and build systems.
   name: Fastly Automation Tokens API
   slug: fastly-automation-tokens-api
-- description: Operations for managing backends (origin servers) that a Fastly service routes requests to.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing backends (origin servers) that a Fastly service routes requests to.
   name: Fastly Backend API
   slug: fastly-backend-api
-- description: Operations for enabling and managing the Bot Management product on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for enabling and managing the Bot Management product on Fastly services.
   name: Fastly Bot Management API
   slug: fastly-bot-management-api
-- description: The Buckets API from Fastly — 2 operation(s) for buckets.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Buckets API from Fastly — 2 operation(s) for buckets.
   name: Fastly Buckets API
   slug: fastly-buckets-api
-- description: Operations for managing cache settings that control cache lifetimes and behavior at the edge.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing cache settings that control cache lifetimes and behavior at the edge.
   name: Fastly Cache Settings API
   slug: fastly-cache-settings-api
-- description: The Chat Completions API from Fastly — 2 operation(s) for chat completions.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Chat Completions API from Fastly — 2 operation(s) for chat completions.
   name: Fastly Chat Completions API
   slug: fastly-chat-completions-api
-- description: Operations for managing conditions that control when configuration objects are applied during request processing.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing conditions that control when configuration objects are applied during request processing.
   name: Fastly Condition API
   slug: fastly-condition-api
-- description: Operations for managing config stores that provide low-latency read access to configuration data from Compute services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing config stores that provide low-latency read access to configuration data from Compute services.
   name: Fastly Config Store API
   slug: fastly-config-store-api
-- description: The Content Status API from Fastly — 1 operation(s) for content status.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Content Status API from Fastly — 1 operation(s) for content status.
   name: Fastly Content Status API
   slug: fastly-content-status-api
-- description: The Custom Dashboards API from Fastly — 2 operation(s) for custom dashboards.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Custom Dashboards API from Fastly — 2 operation(s) for custom dashboards.
   name: Fastly Custom Dashboards API
   slug: fastly-custom-dashboards-api
-- description: Operations for uploading and managing full custom VCL files.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for uploading and managing full custom VCL files.
   name: Fastly Custom VCL API
   slug: fastly-custom-vcl-api
-- description: Operations for retrieving and updating customer account information.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for retrieving and updating customer account information.
   name: Fastly Customer API
   slug: fastly-customer-api
-- description: Operations for enabling, configuring, and managing DDoS Protection on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for enabling, configuring, and managing DDoS Protection on Fastly services.
   name: Fastly DDoS Protection API
   slug: fastly-ddos-protection-api
-- description: Operations for managing dictionary containers within a service version.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing dictionary containers within a service version.
   name: Fastly Dictionary API
   slug: fastly-dictionary-api
-- description: Operations for retrieving metadata about a dictionary.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for retrieving metadata about a dictionary.
   name: Fastly Dictionary Info API
   slug: fastly-dictionary-info-api
-- description: Operations for managing individual key-value pairs within a dictionary. Items are versionless and take effect within approximately 30 seconds.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing individual key-value pairs within a dictionary. Items are versionless and take effect within approximately 30 seconds.
   name: Fastly Dictionary Item API
   slug: fastly-dictionary-item-api
-- description: The Diff API from Fastly — 1 operation(s) for diff.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Diff API from Fastly — 1 operation(s) for diff.
   name: Fastly Diff API
   slug: fastly-diff-api
-- description: The Directors API from Fastly — 2 operation(s) for directors.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Directors API from Fastly — 2 operation(s) for directors.
   name: Fastly Directors API
   slug: fastly-directors-api
-- description: The Docs API from Fastly — 1 operation(s) for docs.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Docs API from Fastly — 1 operation(s) for docs.
   name: Fastly Docs API
   slug: fastly-docs-api
-- description: Operations for managing domain associations with Fastly service versions, including DNS validation and configuration checks.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing domain associations with Fastly service versions, including DNS validation and configuration checks.
   name: Fastly Domain API
   slug: fastly-domain-api
-- description: Domain-level analytics endpoints providing per-domain metrics for Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Domain-level analytics endpoints providing per-domain metrics for Fastly services.
   name: Fastly Domain Inspector API
   slug: fastly-domain-inspector-api
-- description: The Embeddings API from Fastly — 1 operation(s) for embeddings.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Embeddings API from Fastly — 1 operation(s) for embeddings.
   name: Fastly Embeddings API
   slug: fastly-embeddings-api
-- description: The Events API from Fastly — 2 operation(s) for events.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Events API from Fastly — 2 operation(s) for events.
   name: Fastly Events API
   slug: fastly-events-api
-- description: Operations for managing header manipulation rules that add, modify, or remove HTTP headers during request and response processing.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing header manipulation rules that add, modify, or remove HTTP headers during request and response processing.
   name: Fastly Header API
   slug: fastly-header-api
-- description: Historical statistics endpoints providing aggregated analytics data for Fastly services over configurable time ranges.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Historical statistics endpoints providing aggregated analytics data for Fastly services over configurable time ranges.
   name: Fastly Historical Stats API
   slug: fastly-historical-stats-api
-- description: Operations for managing identity and access management roles that define sets of permissions for users.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing identity and access management roles that define sets of permissions for users.
   name: Fastly IAM Roles API
   slug: fastly-iam-roles-api
-- description: Operations for managing service groups that organize services for access control purposes.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing service groups that organize services for access control purposes.
   name: Fastly IAM Service Groups API
   slug: fastly-iam-service-groups-api
-- description: Operations for managing user groups that organize users and assign them roles and service group access.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing user groups that organize users and assign them roles and service group access.
   name: Fastly IAM User Groups API
   slug: fastly-iam-user-groups-api
-- description: Operations for enabling and managing the Image Optimizer product on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for enabling and managing the Image Optimizer product on Fastly services.
   name: Fastly Image Optimizer API
   slug: fastly-image-optimizer-api
-- description: The Insights API from Fastly — 1 operation(s) for insights.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Insights API from Fastly — 1 operation(s) for insights.
   name: Fastly Insights API
   slug: fastly-insights-api
-- description: Operations for managing KV stores that provide persistent key-value storage accessible from Compute services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing KV stores that provide persistent key-value storage accessible from Compute services.
   name: Fastly KV Store API
   slug: fastly-kv-store-api
-- description: Operations for managing individual items within a KV store.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing individual items within a KV store.
   name: Fastly KV Store Item API
   slug: fastly-kv-store-item-api
-- description: The Log Aggregations API from Fastly — 1 operation(s) for log aggregations.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Log Aggregations API from Fastly — 1 operation(s) for log aggregations.
   name: Fastly Log Aggregations API
   slug: fastly-log-aggregations-api
-- description: The Log Explorer API from Fastly — 1 operation(s) for log explorer.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Log Explorer API from Fastly — 1 operation(s) for log explorer.
   name: Fastly Log Explorer API
   slug: fastly-log-explorer-api
-- description: Operations for managing Google BigQuery logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing Google BigQuery logging endpoints on Fastly services.
   name: Fastly Logging BigQuery API
   slug: fastly-logging-bigquery-api
-- description: Operations for managing Datadog logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing Datadog logging endpoints on Fastly services.
   name: Fastly Logging Datadog API
   slug: fastly-logging-datadog-api
-- description: Operations for managing HTTPS logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing HTTPS logging endpoints on Fastly services.
   name: Fastly Logging HTTPS API
   slug: fastly-logging-https-api
-- description: Operations for managing Amazon S3 logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing Amazon S3 logging endpoints on Fastly services.
   name: Fastly Logging S3 API
   slug: fastly-logging-s3-api
-- description: Operations for managing Splunk logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing Splunk logging endpoints on Fastly services.
   name: Fastly Logging Splunk API
   slug: fastly-logging-splunk-api
-- description: Operations for managing syslog logging endpoints on Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing syslog logging endpoints on Fastly services.
   name: Fastly Logging Syslog API
   slug: fastly-logging-syslog-api
-- description: The Notification Service API from Fastly — 2 operation(s) for notification service.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Notification Service API from Fastly — 2 operation(s) for notification service.
   name: Fastly Notification Service API
   slug: fastly-notification-service-api
-- description: The Objects API from Fastly — 2 operation(s) for objects.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Objects API from Fastly — 2 operation(s) for objects.
   name: Fastly Objects API
   slug: fastly-objects-api
-- description: Origin-level analytics endpoints providing metrics about requests to origin servers behind Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Origin-level analytics endpoints providing metrics about requests to origin servers behind Fastly services.
   name: Fastly Origin Inspector API
   slug: fastly-origin-inspector-api
-- description: Operations for managing Compute service packages (WebAssembly binaries).
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing Compute service packages (WebAssembly binaries).
   name: Fastly Package API
   slug: fastly-package-api
-- description: The Pages API from Fastly — 2 operation(s) for pages.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Pages API from Fastly — 2 operation(s) for pages.
   name: Fastly Pages API
   slug: fastly-pages-api
-- description: Operations for managing platform TLS bulk certificates where Fastly manages certificate deployment across the edge network.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing platform TLS bulk certificates where Fastly manages certificate deployment across the edge network.
   name: Fastly Platform TLS API
   slug: fastly-platform-tls-api
-- description: The Policies API from Fastly — 3 operation(s) for policies.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Policies API from Fastly — 3 operation(s) for policies.
   name: Fastly Policies API
   slug: fastly-policies-api
-- description: The POPs API from Fastly — 1 operation(s) for pops.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The POPs API from Fastly — 1 operation(s) for pops.
   name: Fastly POPs API
   slug: fastly-pops-api
-- description: The Public IP List API from Fastly — 1 operation(s) for public ip list.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Public IP List API from Fastly — 1 operation(s) for public ip list.
   name: Fastly Public IP List API
   slug: fastly-public-ip-list-api
-- description: The Publishing API from Fastly — 1 operation(s) for publishing.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Publishing API from Fastly — 1 operation(s) for publishing.
   name: Fastly Publishing API
   slug: fastly-publishing-api
-- description: Operations for purging cached content from Fastly's edge network, including single URL purges, surrogate key purges, bulk surrogate key purges, and purge-all operations.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for purging cached content from Fastly's edge network, including single URL purges, surrogate key purges, bulk surrogate key purges, and purge-all operations.
   name: Fastly Purging API
   slug: fastly-purging-api
-- description: Real-time analytics endpoints providing second-by-second stats for Fastly services, served from rt.fastly.com.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Real-time analytics endpoints providing second-by-second stats for Fastly services, served from rt.fastly.com.
   name: Fastly Real-Time Analytics API
   slug: fastly-real-time-analytics-api
-- description: Operations for managing request settings that modify inbound requests at the edge.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing request settings that modify inbound requests at the edge.
   name: Fastly Request Settings API
   slug: fastly-request-settings-api
-- description: Operations for managing synthetic response objects that can be served directly from the edge without contacting an origin.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing synthetic response objects that can be served directly from the edge without contacting an origin.
   name: Fastly Response Object API
   slug: fastly-response-object-api
-- description: The Rules API from Fastly — 2 operation(s) for rules.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Rules API from Fastly — 2 operation(s) for rules.
   name: Fastly Rules API
   slug: fastly-rules-api
-- description: The Scripts API from Fastly — 2 operation(s) for scripts.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Scripts API from Fastly — 2 operation(s) for scripts.
   name: Fastly Scripts API
   slug: fastly-scripts-api
-- description: Operations for managing secret stores that provide encrypted storage for credentials and tokens accessible from Compute services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing secret stores that provide encrypted storage for credentials and tokens accessible from Compute services.
   name: Fastly Secret Store API
   slug: fastly-secret-store-api
-- description: The Security Headers API from Fastly — 2 operation(s) for security headers.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Security Headers API from Fastly — 2 operation(s) for security headers.
   name: Fastly Security Headers API
   slug: fastly-security-headers-api
-- description: The Server Pools API from Fastly — 2 operation(s) for server pools.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Server Pools API from Fastly — 2 operation(s) for server pools.
   name: Fastly Server Pools API
   slug: fastly-server-pools-api
-- description: The Servers API from Fastly — 2 operation(s) for servers.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Servers API from Fastly — 2 operation(s) for servers.
   name: Fastly Servers API
   slug: fastly-servers-api
-- description: The Service API from Fastly — 4 operation(s) for service.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Service API from Fastly — 4 operation(s) for service.
   name: Fastly Service API
   slug: fastly-service-api
-- description: Operations for managing versions of a Fastly service. Each change to a service configuration creates a new version that can be activated or deactivated independently.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing versions of a Fastly service. Each change to a service configuration creates a new version that can be activated or deactivated independently.
   name: Fastly Service Version API
   slug: fastly-service-version-api
-- description: The Sudo Mode API from Fastly — 1 operation(s) for sudo mode.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Sudo Mode API from Fastly — 1 operation(s) for sudo mode.
   name: Fastly Sudo Mode API
   slug: fastly-sudo-mode-api
-- description: The Timeseries API from Fastly — 1 operation(s) for timeseries.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Timeseries API from Fastly — 1 operation(s) for timeseries.
   name: Fastly Timeseries API
   slug: fastly-timeseries-api
-- description: Operations for managing TLS activations that enable TLS traffic termination for specific domains using custom certificates.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing TLS activations that enable TLS traffic termination for specific domains using custom certificates.
   name: Fastly TLS Activations API
   slug: fastly-tls-activations-api
-- description: Operations for managing custom TLS certificates that are used to terminate TLS traffic for one or more fully qualified domain names.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing custom TLS certificates that are used to terminate TLS traffic for one or more fully qualified domain names.
   name: Fastly TLS Certificates API
   slug: fastly-tls-certificates-api
-- description: Operations for managing private keys used to sign TLS certificates.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing private keys used to sign TLS certificates.
   name: Fastly TLS Private Keys API
   slug: fastly-tls-private-keys-api
-- description: The Traffic Stats API from Fastly — 1 operation(s) for traffic stats.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Traffic Stats API from Fastly — 1 operation(s) for traffic stats.
   name: Fastly Traffic Stats API
   slug: fastly-traffic-stats-api
-- description: Operations for managing user accounts including invitations and profiles.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing user accounts including invitations and profiles.
   name: Fastly User API
   slug: fastly-user-api
-- description: Operations for managing user API tokens that authenticate requests to the Fastly API on behalf of a specific user.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing user API tokens that authenticate requests to the Fastly API on behalf of a specific user.
   name: Fastly User Tokens API
   slug: fastly-user-tokens-api
-- description: Operations for managing VCL snippets, which are small pieces of VCL code that can be inserted into specific subroutines.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing VCL snippets, which are small pieces of VCL code that can be inserted into specific subroutines.
   name: Fastly VCL Snippet API
   slug: fastly-vcl-snippet-api
-- description: Operations for managing which WAF rules are actively enforced on a firewall.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing which WAF rules are actively enforced on a firewall.
   name: Fastly WAF Active Rules API
   slug: fastly-waf-active-rules-api
-- description: Operations for managing WAF exclusions that prevent specific requests from being flagged by the firewall.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing WAF exclusions that prevent specific requests from being flagged by the firewall.
   name: Fastly WAF Exclusions API
   slug: fastly-waf-exclusions-api
-- description: Operations for managing WAF firewall instances associated with Fastly services.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing WAF firewall instances associated with Fastly services.
   name: Fastly WAF Firewalls API
   slug: fastly-waf-firewalls-api
-- description: Operations for managing WAF rules that define detection and response behaviors for web attacks.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: Operations for managing WAF rules that define detection and response behaviors for web attacks.
   name: Fastly WAF Rules API
   slug: fastly-waf-rules-api
-- description: The Websites API from Fastly — 2 operation(s) for websites.
+- baseURL: https://api.fastly.com
+  baseurl_source: declared
+  description: The Websites API from Fastly — 2 operation(s) for websites.
   name: Fastly Websites API
   slug: fastly-websites-api
 arazzos:
@@ -1354,7 +1514,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -1364,7 +1524,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 60.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1373,7 +1533,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:

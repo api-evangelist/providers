@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 4
@@ -37,46 +48,74 @@ apis:
 - description: VideoAmp's hosted remote Model Context Protocol server, exposing 101 tools that mirror the VideoAmp Public API operations for audiences, measurement, planning, inventory, data streams and sharing. Str
   name: VideoAmp MCP Server
   slug: videoamp-mcp-server
-- description: adMeasurements operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: adMeasurements operations.
   name: VideoAmp Ad Measurements API
   slug: videoamp-admeasurements-api
-- description: audiences operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: audiences operations.
   name: VideoAmp Audiences API
   slug: videoamp-audiences-api
-- description: campaigns operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: campaigns operations.
   name: VideoAmp Campaigns API
   slug: videoamp-campaigns-api
-- description: consents operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: consents operations.
   name: VideoAmp Consents API
   slug: videoamp-consents-api
-- description: content operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: content operations.
   name: VideoAmp Content API
   slug: videoamp-content-api
-- description: currency-of-record operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: currency-of-record operations.
   name: VideoAmp Currency Of Record API
   slug: videoamp-currency-of-record-api
-- description: dataStreams operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: dataStreams operations.
   name: VideoAmp Data Streams API
   slug: videoamp-datastreams-api
-- description: dataStreamTypes operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: dataStreamTypes operations.
   name: VideoAmp Data Stream Types API
   slug: videoamp-datastreamtypes-api
-- description: inventories operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: inventories operations.
   name: VideoAmp Inventories API
   slug: videoamp-inventories-api
-- description: library operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: library operations.
   name: VideoAmp Library API
   slug: videoamp-library-api
-- description: me operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: me operations.
   name: VideoAmp Me API
   slug: videoamp-me-api
-- description: plans operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: plans operations.
   name: VideoAmp Plans API
   slug: videoamp-plans-api
-- description: reports operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: reports operations.
   name: VideoAmp Reports API
   slug: videoamp-reports-api
-- description: shares operations.
+- baseURL: https://api.videoamp.dev
+  baseurl_source: declared
+  description: shares operations.
   name: VideoAmp Shares API
   slug: videoamp-shares-api
 artifact_total: 37
@@ -303,7 +342,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/videoamp/refs/heads/main/screenshots/videoamp-2026-08-17T082744.png
 security:

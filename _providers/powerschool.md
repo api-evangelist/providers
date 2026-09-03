@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 2 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token operations
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: OAuth 2.0 token operations
   name: PowerSchool Authentication API
   slug: powerschool-authentication-api
-- description: Course catalog information
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: Course catalog information
   name: PowerSchool Courses API
   slug: powerschool-courses-api
-- description: District-level resources
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: District-level resources
   name: PowerSchool District API
   slug: powerschool-district-api
-- description: System metadata and configuration
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: System metadata and configuration
   name: PowerSchool Metadata API
   slug: powerschool-metadata-api
-- description: Named PowerQuery endpoints for complex data retrieval
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: Named PowerQuery endpoints for complex data retrieval
   name: PowerSchool PowerQuery API
   slug: powerschool-powerquery-api
-- description: School information and management
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: School information and management
   name: PowerSchool Schools API
   slug: powerschool-schools-api
-- description: Course sections and scheduling
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: Course sections and scheduling
   name: PowerSchool Sections API
   slug: powerschool-sections-api
-- description: Student demographics, enrollment, and records
+- baseURL: https://{district}.powerschool.com
+  baseurl_source: declared
+  description: Student demographics, enrollment, and records
   name: PowerSchool Students API
   slug: powerschool-students-api
 artifact_total: 34
@@ -286,7 +302,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerschool/refs/heads/main/screenshots/powerschool-2026-06-20T192035.png
 security:

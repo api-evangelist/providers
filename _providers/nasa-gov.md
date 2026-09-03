@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,106 +43,174 @@ agentic_access:
   summary_line: 62 operations · 1 acting
 api_count: 17
 apis:
-- description: The Album API from NASA Open APIs — 1 operation(s) for album.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Album API from NASA Open APIs — 1 operation(s) for album.
   name: NASA Open APIs Album API
   slug: nasa-gov-album-api
-- description: The APOD API from NASA Open APIs — 1 operation(s) for apod.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The APOD API from NASA Open APIs — 1 operation(s) for apod.
   name: NASA Open APIs APOD API
   slug: nasa-gov-apod-api
-- description: The Asset API from NASA Open APIs — 3 operation(s) for asset.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Asset API from NASA Open APIs — 3 operation(s) for asset.
   name: NASA Open APIs Asset API
   slug: nasa-gov-asset-api
-- description: The Asteroids API from NASA Open APIs — 3 operation(s) for asteroids.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Asteroids API from NASA Open APIs — 3 operation(s) for asteroids.
   name: NASA Open APIs Asteroids API
   slug: nasa-gov-asteroids-api
-- description: The CAD API from NASA Open APIs — 1 operation(s) for cad.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The CAD API from NASA Open APIs — 1 operation(s) for cad.
   name: NASA Open APIs CAD API
   slug: nasa-gov-cad-api
-- description: The Categories API from NASA Open APIs — 2 operation(s) for categories.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Categories API from NASA Open APIs — 2 operation(s) for categories.
   name: NASA Open APIs Categories API
   slug: nasa-gov-categories-api
-- description: The DONKI API from NASA Open APIs — 11 operation(s) for donki.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The DONKI API from NASA Open APIs — 11 operation(s) for donki.
   name: NASA Open APIs DONKI API
   slug: nasa-gov-donki-api
-- description: The Earth API from NASA Open APIs — 2 operation(s) for earth.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Earth API from NASA Open APIs — 2 operation(s) for earth.
   name: NASA Open APIs Earth API
   slug: nasa-gov-earth-api
-- description: The Enhanced API from NASA Open APIs — 3 operation(s) for enhanced.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Enhanced API from NASA Open APIs — 3 operation(s) for enhanced.
   name: NASA Open APIs Enhanced API
   slug: nasa-gov-enhanced-api
-- description: The Events API from NASA Open APIs — 1 operation(s) for events.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Events API from NASA Open APIs — 1 operation(s) for events.
   name: NASA Open APIs Events API
   slug: nasa-gov-events-api
-- description: The Fireball API from NASA Open APIs — 1 operation(s) for fireball.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Fireball API from NASA Open APIs — 1 operation(s) for fireball.
   name: NASA Open APIs Fireball API
   slug: nasa-gov-fireball-api
-- description: The Layers API from NASA Open APIs — 1 operation(s) for layers.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Layers API from NASA Open APIs — 1 operation(s) for layers.
   name: NASA Open APIs Layers API
   slug: nasa-gov-layers-api
-- description: The Locations API from NASA Open APIs — 1 operation(s) for locations.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Locations API from NASA Open APIs — 1 operation(s) for locations.
   name: NASA Open APIs Locations API
   slug: nasa-gov-locations-api
-- description: The Magnitudes API from NASA Open APIs — 1 operation(s) for magnitudes.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Magnitudes API from NASA Open APIs — 1 operation(s) for magnitudes.
   name: NASA Open APIs Magnitudes API
   slug: nasa-gov-magnitudes-api
-- description: The Manifests API from NASA Open APIs — 1 operation(s) for manifests.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Manifests API from NASA Open APIs — 1 operation(s) for manifests.
   name: NASA Open APIs Manifests API
   slug: nasa-gov-manifests-api
-- description: The Natural API from NASA Open APIs — 4 operation(s) for natural.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Natural API from NASA Open APIs — 4 operation(s) for natural.
   name: NASA Open APIs Natural API
   slug: nasa-gov-natural-api
-- description: The NHATS API from NASA Open APIs — 1 operation(s) for nhats.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The NHATS API from NASA Open APIs — 1 operation(s) for nhats.
   name: NASA Open APIs NHATS API
   slug: nasa-gov-nhats-api
-- description: The Observatories API from NASA Open APIs — 1 operation(s) for observatories.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Observatories API from NASA Open APIs — 1 operation(s) for observatories.
   name: NASA Open APIs Observatories API
   slug: nasa-gov-observatories-api
-- description: The Patents API from NASA Open APIs — 2 operation(s) for patents.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Patents API from NASA Open APIs — 2 operation(s) for patents.
   name: NASA Open APIs Patents API
   slug: nasa-gov-patents-api
-- description: The Photos API from NASA Open APIs — 2 operation(s) for photos.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Photos API from NASA Open APIs — 2 operation(s) for photos.
   name: NASA Open APIs Photos API
   slug: nasa-gov-photos-api
-- description: The Projects API from NASA Open APIs — 2 operation(s) for projects.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Projects API from NASA Open APIs — 2 operation(s) for projects.
   name: NASA Open APIs Projects API
   slug: nasa-gov-projects-api
-- description: The Rovers API from NASA Open APIs — 1 operation(s) for rovers.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Rovers API from NASA Open APIs — 1 operation(s) for rovers.
   name: NASA Open APIs Rovers API
   slug: nasa-gov-rovers-api
-- description: The SBDB API from NASA Open APIs — 2 operation(s) for sbdb.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The SBDB API from NASA Open APIs — 2 operation(s) for sbdb.
   name: NASA Open APIs SBDB API
   slug: nasa-gov-sbdb-api
-- description: The Scout API from NASA Open APIs — 1 operation(s) for scout.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Scout API from NASA Open APIs — 1 operation(s) for scout.
   name: NASA Open APIs Scout API
   slug: nasa-gov-scout-api
-- description: The Search API from NASA Open APIs — 1 operation(s) for search.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Search API from NASA Open APIs — 1 operation(s) for search.
   name: NASA Open APIs Search API
   slug: nasa-gov-search-api
-- description: The Sentry API from NASA Open APIs — 1 operation(s) for sentry.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Sentry API from NASA Open APIs — 1 operation(s) for sentry.
   name: NASA Open APIs Sentry API
   slug: nasa-gov-sentry-api
-- description: The Software API from NASA Open APIs — 1 operation(s) for software.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Software API from NASA Open APIs — 1 operation(s) for software.
   name: NASA Open APIs Software API
   slug: nasa-gov-software-api
-- description: The Sources API from NASA Open APIs — 1 operation(s) for sources.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Sources API from NASA Open APIs — 1 operation(s) for sources.
   name: NASA Open APIs Sources API
   slug: nasa-gov-sources-api
-- description: The Spinoff API from NASA Open APIs — 1 operation(s) for spinoff.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Spinoff API from NASA Open APIs — 1 operation(s) for spinoff.
   name: NASA Open APIs Spinoff API
   slug: nasa-gov-spinoff-api
-- description: The Stations API from NASA Open APIs — 1 operation(s) for stations.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Stations API from NASA Open APIs — 1 operation(s) for stations.
   name: NASA Open APIs Stations API
   slug: nasa-gov-stations-api
-- description: The TAP API from NASA Open APIs — 2 operation(s) for tap.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The TAP API from NASA Open APIs — 2 operation(s) for tap.
   name: NASA Open APIs TAP API
   slug: nasa-gov-tap-api
-- description: The TLE API from NASA Open APIs — 2 operation(s) for tle.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The TLE API from NASA Open APIs — 2 operation(s) for tle.
   name: NASA Open APIs TLE API
   slug: nasa-gov-tle-api
-- description: The Weather API from NASA Open APIs — 1 operation(s) for weather.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The Weather API from NASA Open APIs — 1 operation(s) for weather.
   name: NASA Open APIs Weather API
   slug: nasa-gov-weather-api
-- description: The WMTS API from NASA Open APIs — 1 operation(s) for wmts.
+- baseURL: https://api.nasa.gov/planetary/apod
+  baseurl_source: declared
+  description: The WMTS API from NASA Open APIs — 1 operation(s) for wmts.
   name: NASA Open APIs WMTS API
   slug: nasa-gov-wmts-api
 artifact_total: 123
@@ -562,7 +630,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

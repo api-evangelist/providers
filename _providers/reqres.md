@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 52 operations · 27 acting
 api_count: 6
 apis:
-- description: Endpoints designed for AI coding agents. Cursor pagination, deeply nested resources, deliberate error scenarios, deterministic seeded fixtures.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: Endpoints designed for AI coding agents. Cursor pagination, deeply nested resources, deliberate error scenarios, deterministic seeded fixtures.
   name: ReqRes Agent Sandbox API
   slug: reqres-agent-sandbox-api
-- description: The App Users API from ReqRes — 13 operation(s) for app users.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: The App Users API from ReqRes — 13 operation(s) for app users.
   name: ReqRes App Users API
   slug: reqres-app-users-api
-- description: The Authentication API from ReqRes — 3 operation(s) for authentication.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: The Authentication API from ReqRes — 3 operation(s) for authentication.
   name: ReqRes Authentication API
   slug: reqres-authentication-api
-- description: The Collections API from ReqRes — 4 operation(s) for collections.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: The Collections API from ReqRes — 4 operation(s) for collections.
   name: ReqRes Collections API
   slug: reqres-collections-api
-- description: The Custom Endpoints API from ReqRes — 1 operation(s) for custom endpoints.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: The Custom Endpoints API from ReqRes — 1 operation(s) for custom endpoints.
   name: ReqRes Custom Endpoints API
   slug: reqres-custom-endpoints-api
-- description: The Legacy API from ReqRes — 4 operation(s) for legacy.
+- baseURL: https://reqres.in/
+  baseurl_source: declared
+  description: The Legacy API from ReqRes — 4 operation(s) for legacy.
   name: ReqRes Legacy API
   slug: reqres-legacy-api
 artifact_total: 167
@@ -638,7 +650,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/screenshots/reqres-2026-06-20T192921.png
 security:

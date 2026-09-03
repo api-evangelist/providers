@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: The TiVo Music Metadata API provides access to high-quality music information including artist details, album data, track information, and music imagery. Uses the same HTTP-based query structure and J
   name: TiVo Music Metadata API
   slug: tivo-music-metadata
-- description: Search and retrieve entertainment content metadata
+- baseURL: https://data.tivo.com
+  baseurl_source: declared
+  description: Search and retrieve entertainment content metadata
   name: Tivo Content API
   slug: tivo-content-api
-- description: Look up content by known identifiers
+- baseURL: https://data.tivo.com
+  baseurl_source: declared
+  description: Look up content by known identifiers
   name: Tivo Lookup API
   slug: tivo-lookup-api
 artifact_total: 20
@@ -217,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/screenshots/tivo-2026-06-20T195418.png
 security:

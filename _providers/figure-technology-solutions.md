@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 36 operations · 15 acting
 api_count: 3
 apis:
-- description: The Encryption API from Figure Technology Solutions — 1 operation(s) for encryption.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Encryption API from Figure Technology Solutions — 1 operation(s) for encryption.
   name: Figure Technology Solutions Encryption API
   slug: figure-technology-solutions-encryption-api
-- description: The HELOC application requests API from Figure Technology Solutions — 19 operation(s) for heloc application requests.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The HELOC application requests API from Figure Technology Solutions — 19 operation(s) for heloc application requests.
   name: Figure Technology Solutions HELOC application requests API
   slug: figure-technology-solutions-heloc-application-requests-api
-- description: The HELOC Offers API from Figure Technology Solutions — 2 operation(s) for heloc offers.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The HELOC Offers API from Figure Technology Solutions — 2 operation(s) for heloc offers.
   name: Figure Technology Solutions HELOC Offers API
   slug: figure-technology-solutions-heloc-offers-api
-- description: The Loan Originator requests API from Figure Technology Solutions — 1 operation(s) for loan originator requests.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Originator requests API from Figure Technology Solutions — 1 operation(s) for loan originator requests.
   name: Figure Technology Solutions Loan Originator requests API
   slug: figure-technology-solutions-loan-originator-requests-api
-- description: The Loan Tape V1 API from Figure Technology Solutions — 6 operation(s) for loan tape v1.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Tape V1 API from Figure Technology Solutions — 6 operation(s) for loan tape v1.
   name: Figure Technology Solutions Loan Tape V1 API
   slug: figure-technology-solutions-loan-tape-v1-api
-- description: The Loan Tape V2 API from Figure Technology Solutions — 3 operation(s) for loan tape v2.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Loan Tape V2 API from Figure Technology Solutions — 3 operation(s) for loan tape v2.
   name: Figure Technology Solutions Loan Tape V2 API
   slug: figure-technology-solutions-loan-tape-v2-api
-- description: The Payment History V1 API from Figure Technology Solutions — 3 operation(s) for payment history v1.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Payment History V1 API from Figure Technology Solutions — 3 operation(s) for payment history v1.
   name: Figure Technology Solutions Payment History V1 API
   slug: figure-technology-solutions-payment-history-v1-api
-- description: The Payment History V2 API from Figure Technology Solutions — 1 operation(s) for payment history v2.
+- baseURL: https://api.figure.com
+  baseurl_source: declared
+  description: The Payment History V2 API from Figure Technology Solutions — 1 operation(s) for payment history v2.
   name: Figure Technology Solutions Payment History V2 API
   slug: figure-technology-solutions-payment-history-v2-api
 artifact_total: 22
@@ -253,7 +269,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -263,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 40.1
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/screenshots/figure-technology-solutions-2026-07-25T214442.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: TechCrunch provides RSS feeds covering its full range of technology news, startup coverage, and venture capital reporting. The main feed delivers all published articles, and category-specific feeds ar
   name: TechCrunch RSS Feed
   slug: rss-feed
-- description: Author and contributor profiles
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Author and contributor profiles
   name: TechCrunch Authors API
   slug: techcrunch-authors-api
-- description: Post category taxonomy
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post category taxonomy
   name: TechCrunch Categories API
   slug: techcrunch-categories-api
-- description: Post comments
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post comments
   name: TechCrunch Comments API
   slug: techcrunch-comments-api
-- description: Media files and attachments
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Media files and attachments
   name: TechCrunch Media API
   slug: techcrunch-media-api
-- description: Static page content
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Static page content
   name: TechCrunch Pages API
   slug: techcrunch-pages-api
-- description: Article and post content
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Article and post content
   name: TechCrunch Posts API
   slug: techcrunch-posts-api
-- description: Full-text search across content
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Full-text search across content
   name: TechCrunch Search API
   slug: techcrunch-search-api
-- description: Post tag taxonomy
+- baseURL: https://techcrunch.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post tag taxonomy
   name: TechCrunch Tags API
   slug: techcrunch-tags-api
 artifact_total: 32
@@ -272,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png
 security:

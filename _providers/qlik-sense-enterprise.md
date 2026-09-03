@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -50,94 +50,154 @@ apis:
 - description: High-level JavaScript API for embedding and extending Qlik Sense visualizations and mashups.
   name: Qlik Sense Capabilities
   slug: qlik-sense-capabilities
-- description: ODAG service metadata
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: ODAG service metadata
   name: Qlik Sense Enterprise About API
   slug: qlik-sense-enterprise-about-api
-- description: Manage user access types and license allocations
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage user access types and license allocations
   name: Qlik Sense Enterprise Access Type API
   slug: qlik-sense-enterprise-access-type-api
-- description: Manage Qlik Sense applications including import, export, copy, publish, and reload
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage Qlik Sense applications including import, export, copy, publish, and reload
   name: Qlik Sense Enterprise App API
   slug: qlik-sense-enterprise-app-api
-- description: Manage application objects such as sheets, stories, and bookmarks
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage application objects such as sheets, stories, and bookmarks
   name: Qlik Sense Enterprise App Object API
   slug: qlik-sense-enterprise-app-object-api
-- description: Retrieve information about installed components
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Retrieve information about installed components
   name: Qlik Sense Enterprise Components API
   slug: qlik-sense-enterprise-components-api
-- description: Manage shared and app-specific content libraries
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage shared and app-specific content libraries
   name: Qlik Sense Enterprise Content Library API
   slug: qlik-sense-enterprise-content-library-api
-- description: Manage custom properties for tagging and categorizing entities
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage custom properties for tagging and categorizing entities
   name: Qlik Sense Enterprise Custom Property API
   slug: qlik-sense-enterprise-custom-property-api
-- description: Manage data connections used by Qlik Sense applications for loading data from external sources
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage data connections used by Qlik Sense applications for loading data from external sources
   name: Qlik Sense Enterprise Data Connection API
   slug: qlik-sense-enterprise-data-connection-api
-- description: Manage visualization extensions
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage visualization extensions
   name: Qlik Sense Enterprise Extension API
   slug: qlik-sense-enterprise-extension-api
-- description: Retrieve configured external URL information
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Retrieve configured external URL information
   name: Qlik Sense Enterprise External URLs API
   slug: qlik-sense-enterprise-external-urls-api
-- description: Health check and service status endpoints
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Health check and service status endpoints
   name: Qlik Sense Enterprise Health API
   slug: qlik-sense-enterprise-health-api
-- description: Manage Qlik Sense license information including LEF download and license status
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage Qlik Sense license information including LEF download and license status
   name: Qlik Sense Enterprise License API
   slug: qlik-sense-enterprise-license-api
-- description: Audit license rule evaluations and access type assignments
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Audit license rule evaluations and access type assignments
   name: Qlik Sense Enterprise License Audit API
   slug: qlik-sense-enterprise-license-audit-api
-- description: Manage license rules that control automatic license assignment
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage license rules that control automatic license assignment
   name: Qlik Sense Enterprise License Rule API
   slug: qlik-sense-enterprise-license-rule-api
-- description: Manage navigation links that connect selection apps to template apps for on-demand app generation
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage navigation links that connect selection apps to template apps for on-demand app generation
   name: Qlik Sense Enterprise Links API
   slug: qlik-sense-enterprise-links-api
-- description: Engine load balancing decisions for distributing app sessions across Qlik Sense Engine Services
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Engine load balancing decisions for distributing app sessions across Qlik Sense Engine Services
   name: Qlik Sense Enterprise Load Balancing API
   slug: qlik-sense-enterprise-load-balancing-api
-- description: Subscribe to and manage change notifications
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Subscribe to and manage change notifications
   name: Qlik Sense Enterprise Notification API
   slug: qlik-sense-enterprise-notification-api
-- description: Manage and execute reload tasks
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage and execute reload tasks
   name: Qlik Sense Enterprise Reload Task API
   slug: qlik-sense-enterprise-reload-task-api
-- description: Manage on-demand app generation requests including submission, status tracking, and app lifecycle operations
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage on-demand app generation requests including submission, status tracking, and app lifecycle operations
   name: Qlik Sense Enterprise Requests API
   slug: qlik-sense-enterprise-requests-api
-- description: Manage security rules and access control
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage security rules and access control
   name: Qlik Sense Enterprise Security Rule API
   slug: qlik-sense-enterprise-security-rule-api
-- description: Manage server nodes in a multi-node deployment
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage server nodes in a multi-node deployment
   name: Qlik Sense Enterprise Server Node API
   slug: qlik-sense-enterprise-server-node-api
-- description: Manage user sessions including listing, retrieving, and deleting sessions
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage user sessions including listing, retrieving, and deleting sessions
   name: Qlik Sense Enterprise Session API
   slug: qlik-sense-enterprise-session-api
-- description: Manage streams for organizing and distributing apps
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage streams for organizing and distributing apps
   name: Qlik Sense Enterprise Stream API
   slug: qlik-sense-enterprise-stream-api
-- description: Retrieve system-level information about the Qlik Sense site
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Retrieve system-level information about the Qlik Sense site
   name: Qlik Sense Enterprise System Info API
   slug: qlik-sense-enterprise-system-info-api
-- description: The Tag API from Qlik Sense Enterprise — 2 operation(s) for tag.
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: The Tag API from Qlik Sense Enterprise — 2 operation(s) for tag.
   name: Qlik Sense Enterprise Tag API
   slug: qlik-sense-enterprise-tag-api
-- description: Start and stop tasks including reload and external program tasks
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Start and stop tasks including reload and external program tasks
   name: Qlik Sense Enterprise Task API
   slug: qlik-sense-enterprise-task-api
-- description: Retrieve third-party software information
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Retrieve third-party software information
   name: Qlik Sense Enterprise Third Party API
   slug: qlik-sense-enterprise-third-party-api
-- description: Manage proxy sessions by user identity
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage proxy sessions by user identity
   name: Qlik Sense Enterprise User API
   slug: qlik-sense-enterprise-user-api
-- description: Manage user directory connectors and synchronization settings
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage user directory connectors and synchronization settings
   name: Qlik Sense Enterprise User Directory API
   slug: qlik-sense-enterprise-user-directory-api
-- description: Manage virtual proxy configurations
+- baseURL_template: https://{server}/api/about/v1
+  baseurl_source: spec_template
+  description: Manage virtual proxy configurations
   name: Qlik Sense Enterprise Virtual Proxy API
   slug: qlik-sense-enterprise-virtual-proxy-api
 artifact_total: 146
@@ -607,7 +667,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense-enterprise/refs/heads/main/screenshots/qlik-sense-enterprise-2026-06-20T192341.png
 security:

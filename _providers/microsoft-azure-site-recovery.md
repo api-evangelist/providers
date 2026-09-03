@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -47,10 +47,14 @@ apis:
 - description: Azure Site Recovery REST API provides management of disaster recovery for Azure VMs, on-premises VMs, and physical servers. It supports configuring replication, running test failovers, executing plann
   name: Azure Site Recovery REST API
   slug: rest-api
-- description: Manage recovery plans for orchestrated failover
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Manage recovery plans for orchestrated failover
   name: Azure Site Recovery RecoveryPlans API
   slug: microsoft-azure-site-recovery-recoveryplans-api
-- description: Manage replication protected items in a Recovery Services vault
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Manage replication protected items in a Recovery Services vault
   name: Azure Site Recovery ReplicationProtectedItems API
   slug: microsoft-azure-site-recovery-replicationprotecteditems-api
 artifact_total: 14
@@ -189,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/screenshots/microsoft-azure-site-recovery-2026-06-20T185437.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 41 operations · 24 acting
 api_count: 1
 apis:
-- description: Claims handling from FNOL through settlement.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Claims handling from FNOL through settlement.
   name: Tint Claims API
   slug: tint-claims-api
-- description: Decision Engine decisions and Score Module scores.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Decision Engine decisions and Score Module scores.
   name: Tint Decisions API
   slug: tint-decisions-api
-- description: Policy lifecycle and endorsements.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Policy lifecycle and endorsements.
   name: Tint Policies API
   slug: tint-policies-api
-- description: Insurance products (programs) and plans.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Insurance products (programs) and plans.
   name: Tint Programs API
   slug: tint-programs-api
-- description: Questionnaire definitions attached to policies.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Questionnaire definitions attached to policies.
   name: Tint Questionnaires API
   slug: tint-questionnaires-api
-- description: Rated plan quotes for a policy.
+- baseURL: https://api.tint.ai/v2
+  baseurl_source: declared
+  description: Rated plan quotes for a policy.
   name: Tint Quotes API
   slug: tint-quotes-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 30.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +203,9 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tint/refs/heads/main/screenshots/tint-2026-09-02T163811.png
 security:
 - kind: authentication
   name: Tint Authentication

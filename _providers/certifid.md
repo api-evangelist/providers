@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,52 +34,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
   name: CertifID Account Verifications API
   slug: certifid-accountverifications-api
-- description: The BankLookup API from CertifID — 2 operation(s) for banklookup.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The BankLookup API from CertifID — 2 operation(s) for banklookup.
   name: CertifID Bank Lookup API
   slug: certifid-banklookup-api
-- description: The CollectRequest API from CertifID — 3 operation(s) for collectrequest.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The CollectRequest API from CertifID — 3 operation(s) for collectrequest.
   name: CertifID Collect Request API
   slug: certifid-collectrequest-api
-- description: The ConfirmRequest API from CertifID — 3 operation(s) for confirmrequest.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The ConfirmRequest API from CertifID — 3 operation(s) for confirmrequest.
   name: CertifID Confirm Request API
   slug: certifid-confirmrequest-api
-- description: The Disbursements API from CertifID — 10 operation(s) for disbursements.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Disbursements API from CertifID — 10 operation(s) for disbursements.
   name: CertifID Disbursements API
   slug: certifid-disbursements-api
-- description: The IdentityRequest API from CertifID — 4 operation(s) for identityrequest.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The IdentityRequest API from CertifID — 4 operation(s) for identityrequest.
   name: CertifID Identity Request API
   slug: certifid-identityrequest-api
-- description: The Integration API from CertifID — 12 operation(s) for integration.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Integration API from CertifID — 12 operation(s) for integration.
   name: CertifID Integration API
   slug: certifid-integration-api
-- description: The Lenders API from CertifID — 2 operation(s) for lenders.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Lenders API from CertifID — 2 operation(s) for lenders.
   name: CertifID Lenders API
   slug: certifid-lenders-api
-- description: The Location API from CertifID — 2 operation(s) for location.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Location API from CertifID — 2 operation(s) for location.
   name: CertifID Location API
   slug: certifid-location-api
-- description: The PayoffOrdering API from CertifID — 6 operation(s) for payoffordering.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The PayoffOrdering API from CertifID — 6 operation(s) for payoffordering.
   name: CertifID Payoff Ordering API
   slug: certifid-payoffordering-api
-- description: The SendRequest API from CertifID — 3 operation(s) for sendrequest.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The SendRequest API from CertifID — 3 operation(s) for sendrequest.
   name: CertifID Send Request API
   slug: certifid-sendrequest-api
-- description: The Test API from CertifID — 3 operation(s) for test.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Test API from CertifID — 3 operation(s) for test.
   name: CertifID Test API
   slug: certifid-test-api
-- description: The Underwriter API from CertifID — 1 operation(s) for underwriter.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Underwriter API from CertifID — 1 operation(s) for underwriter.
   name: CertifID Underwriter API
   slug: certifid-underwriter-api
-- description: The Users API from CertifID — 1 operation(s) for users.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The Users API from CertifID — 1 operation(s) for users.
   name: CertifID Users API
   slug: certifid-users-api
-- description: The WiringInstructions API from CertifID — 1 operation(s) for wiringinstructions.
+- baseURL: https://api.certifid.com
+  baseurl_source: declared
+  description: The WiringInstructions API from CertifID — 1 operation(s) for wiringinstructions.
   name: CertifID Wiring Instructions API
   slug: certifid-wiringinstructions-api
 artifact_total: 36
@@ -271,7 +312,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -281,7 +322,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 42.7
+  previous_composite: 42.8
   provenance:
     conformance: first-party
     contracts:
@@ -298,7 +339,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:

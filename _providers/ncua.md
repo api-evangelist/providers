@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,10 +55,14 @@ apis:
 - description: A web-based system and searchable registry of Credit Union Service Organizations (CUSOs) that provide information about their services, financials, and relationships with credit unions. Accessible thr
   name: NCUA CUSO Registry
   slug: cuso-registry-api
-- description: The FindCUByRadius.aspx API from National Credit Union Administration (NCUA) — 1 operation(s) for findcubyradius.aspx.
+- baseURL: https://mapping.ncua.gov/
+  baseurl_source: declared
+  description: The FindCUByRadius.aspx API from National Credit Union Administration (NCUA) — 1 operation(s) for findcubyradius.aspx.
   name: National Credit Union Administration (NCUA) FindCUByRadius.aspx API
   slug: ncua-findcubyradius-aspx-api
-- description: The SingleResult.aspx API from National Credit Union Administration (NCUA) — 1 operation(s) for singleresult.aspx.
+- baseURL: https://mapping.ncua.gov/
+  baseurl_source: declared
+  description: The SingleResult.aspx API from National Credit Union Administration (NCUA) — 1 operation(s) for singleresult.aspx.
   name: National Credit Union Administration (NCUA) SingleResult.aspx API
   slug: ncua-singleresult-aspx-api
 artifact_total: 18
@@ -206,7 +210,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:

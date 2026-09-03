@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,16 +83,24 @@ apis:
 - description: APIs for accessing engineering metrics and analytics data to improve engineering productivity, efficiency, and alignment.
   name: Harness Software Engineering Insights API
   slug: sei-api
-- description: Manage organizations
+- baseURL: https://app.harness.io/gateway
+  baseurl_source: spec
+  description: Manage organizations
   name: Harness Organizations API
   slug: harness-organizations-api
-- description: Execute pipelines
+- baseURL: https://app.harness.io/gateway
+  baseurl_source: spec
+  description: Execute pipelines
   name: Harness Pipeline Execution API
   slug: harness-pipeline-execution-api
-- description: Manage pipelines
+- baseURL: https://app.harness.io/gateway
+  baseurl_source: spec
+  description: Manage pipelines
   name: Harness Pipelines API
   slug: harness-pipelines-api
-- description: Manage projects
+- baseURL: https://app.harness.io/gateway
+  baseurl_source: spec
+  description: Manage projects
   name: Harness Projects API
   slug: harness-projects-api
 artifact_total: 82
@@ -331,7 +339,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness/refs/heads/main/screenshots/harness-2026-06-20T182519.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The AWS VPN API (part of the Amazon EC2 API) provides programmatic access to create and manage VPN connections, customer gateways, virtual private gateways, and Client VPN endpoints. It enables config
   name: AWS VPN API
   slug: aws-vpn-api
-- description: The AWS VPN API (Amazon EC2 Query API Subset) API from Amazon VPN — 1 operation(s) for aws vpn api (amazon ec2 query api subset).
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The AWS VPN API (Amazon EC2 Query API Subset) API from Amazon VPN — 1 operation(s) for aws vpn api (amazon ec2 query api subset).
   name: Amazon VPN AWS VPN API (Amazon EC2 Query API Subset) API
   slug: amazon-vpn-aws-vpn-api-amazon-ec2-query-api-subset-api
 artifact_total: 21
@@ -324,7 +326,7 @@ score:
     catalog_gap: 37.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 22.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -334,7 +336,7 @@ score:
     discoverability: 68.5
     governance: 44.7
     operational_transparency: 76.3
-  previous_composite: 52.4
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -346,8 +348,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:
 - kind: authentication

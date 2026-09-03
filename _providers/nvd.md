@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The National Vulnerability Database (NVD) provides REST and RSS/Atom APIs for CVE (Common Vulnerabilities and Exposures) data. APIs deliver vulnerability descriptions, CVSS severity scores, affected p
   name: National Vulnerability Database API
   slug: nvd-overview
-- description: Common Platform Enumeration product dictionary
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: spec
+  description: Common Platform Enumeration product dictionary
   name: NVD CPE API
   slug: nvd-cpe-api
-- description: CVE-to-product match criteria
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: spec
+  description: CVE-to-product match criteria
   name: NVD CPE Match API
   slug: nvd-cpe-match-api
-- description: Common Vulnerabilities and Exposures records
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: spec
+  description: Common Vulnerabilities and Exposures records
   name: NVD CVE API
   slug: nvd-cve-api
-- description: CVE record modification tracking
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: spec
+  description: CVE record modification tracking
   name: NVD CVE Change History API
   slug: nvd-cve-change-history-api
-- description: NVD data source organizations
+- baseURL: https://services.nvd.nist.gov/rest/json
+  baseurl_source: spec
+  description: NVD data source organizations
   name: NVD Sources API
   slug: nvd-sources-api
 artifact_total: 33
@@ -242,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvd/refs/heads/main/screenshots/nvd-2026-06-20T190537.png
 security:

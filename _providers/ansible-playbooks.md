@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -62,40 +62,64 @@ apis:
 - description: Ansible Semaphore is an open-source modern web UI and REST API for running Ansible playbooks. It provides project management, task scheduling, access control, and a clean interface for teams using Ans
   name: Ansible Semaphore API
   slug: ansible-semaphore-api
-- description: OAuth2 token management.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: OAuth2 token management.
   name: Ansible Playbooks Auth API
   slug: ansible-playbooks-auth-api
-- description: The Credentials API from Ansible Playbooks — 1 operation(s) for credentials.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Credentials API from Ansible Playbooks — 1 operation(s) for credentials.
   name: Ansible Playbooks Credentials API
   slug: ansible-playbooks-credentials-api
-- description: The Hosts API from Ansible Playbooks — 1 operation(s) for hosts.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Hosts API from Ansible Playbooks — 1 operation(s) for hosts.
   name: Ansible Playbooks Hosts API
   slug: ansible-playbooks-hosts-api
-- description: The Inventories API from Ansible Playbooks — 2 operation(s) for inventories.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Inventories API from Ansible Playbooks — 2 operation(s) for inventories.
   name: Ansible Playbooks Inventories API
   slug: ansible-playbooks-inventories-api
-- description: The Job Templates API from Ansible Playbooks — 3 operation(s) for job templates.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Job Templates API from Ansible Playbooks — 3 operation(s) for job templates.
   name: Ansible Playbooks Job Templates API
   slug: ansible-playbooks-job-templates-api
-- description: The Jobs API from Ansible Playbooks — 4 operation(s) for jobs.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Jobs API from Ansible Playbooks — 4 operation(s) for jobs.
   name: Ansible Playbooks Jobs API
   slug: ansible-playbooks-jobs-api
-- description: The Organizations API from Ansible Playbooks — 2 operation(s) for organizations.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Organizations API from Ansible Playbooks — 2 operation(s) for organizations.
   name: Ansible Playbooks Organizations API
   slug: ansible-playbooks-organizations-api
-- description: The Projects API from Ansible Playbooks — 3 operation(s) for projects.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Projects API from Ansible Playbooks — 3 operation(s) for projects.
   name: Ansible Playbooks Projects API
   slug: ansible-playbooks-projects-api
-- description: The Schedules API from Ansible Playbooks — 1 operation(s) for schedules.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Schedules API from Ansible Playbooks — 1 operation(s) for schedules.
   name: Ansible Playbooks Schedules API
   slug: ansible-playbooks-schedules-api
-- description: The Users API from Ansible Playbooks — 1 operation(s) for users.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Users API from Ansible Playbooks — 1 operation(s) for users.
   name: Ansible Playbooks Users API
   slug: ansible-playbooks-users-api
-- description: The Workflow Job Templates API from Ansible Playbooks — 2 operation(s) for workflow job templates.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Workflow Job Templates API from Ansible Playbooks — 2 operation(s) for workflow job templates.
   name: Ansible Playbooks Workflow Job Templates API
   slug: ansible-playbooks-workflow-job-templates-api
-- description: The Workflow Jobs API from Ansible Playbooks — 1 operation(s) for workflow jobs.
+- baseURL: https://your-aap-instance/api/v2/
+  baseurl_source: declared
+  description: The Workflow Jobs API from Ansible Playbooks — 1 operation(s) for workflow jobs.
   name: Ansible Playbooks Workflow Jobs API
   slug: ansible-playbooks-workflow-jobs-api
 artifact_total: 62
@@ -334,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -36,112 +48,184 @@ apis:
 - description: Official OutSystems remote Model Context Protocol server (early alpha), exposed per tenant over streamable HTTP with OAuth Dynamic Client Registration. Tool domains cover Apps, the read-only Context S
   name: OutSystems Remote MCP Server
   slug: remote-mcp
-- description: The Analysis Status API from OutSystems — 1 operation(s) for analysis status.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Analysis Status API from OutSystems — 1 operation(s) for analysis status.
   name: OutSystems Analysis Status API
   slug: outsystems-analysis-status-api
-- description: The application-roles API from OutSystems — 2 operation(s) for application-roles.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The application-roles API from OutSystems — 2 operation(s) for application-roles.
   name: OutSystems Application Roles API
   slug: outsystems-application-roles-api
-- description: The Assets API from OutSystems — 19 operation(s) for assets.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Assets API from OutSystems — 19 operation(s) for assets.
   name: OutSystems Assets API
   slug: outsystems-assets-api
-- description: The Assets Quality Metrics API from OutSystems — 1 operation(s) for assets quality metrics.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Assets Quality Metrics API from OutSystems — 1 operation(s) for assets quality metrics.
   name: OutSystems Assets Quality Metrics API
   slug: outsystems-assets-quality-metrics-api
-- description: The Build API from OutSystems — 4 operation(s) for build.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Build API from OutSystems — 4 operation(s) for build.
   name: OutSystems Build API
   slug: outsystems-build-api
-- description: The BuildOperations API from OutSystems — 5 operation(s) for buildoperations.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The BuildOperations API from OutSystems — 5 operation(s) for buildoperations.
   name: OutSystems Build Operations API
   slug: outsystems-buildoperations-api
-- description: The Code Analyses API from OutSystems — 2 operation(s) for code analyses.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Code Analyses API from OutSystems — 2 operation(s) for code analyses.
   name: OutSystems Code Analyses API
   slug: outsystems-code-analyses-api
-- description: The Deletion Analyses API from OutSystems — 2 operation(s) for deletion analyses.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Deletion Analyses API from OutSystems — 2 operation(s) for deletion analyses.
   name: OutSystems Deletion Analyses API
   slug: outsystems-deletion-analyses-api
-- description: The deployed-assets API from OutSystems — 1 operation(s) for deployed-assets.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The deployed-assets API from OutSystems — 1 operation(s) for deployed-assets.
   name: OutSystems Deployed Assets API
   slug: outsystems-deployed-assets-api
-- description: The Deployment Analyses API from OutSystems — 2 operation(s) for deployment analyses.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Deployment Analyses API from OutSystems — 2 operation(s) for deployment analyses.
   name: OutSystems Deployment Analyses API
   slug: outsystems-deployment-analyses-api
-- description: The deployment-operations API from OutSystems — 3 operation(s) for deployment-operations.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The deployment-operations API from OutSystems — 3 operation(s) for deployment-operations.
   name: OutSystems Deployment Operations API
   slug: outsystems-deployment-operations-api
-- description: Manage custom domains for environments.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: Manage custom domains for environments.
   name: OutSystems Domains API
   slug: outsystems-domains-api
-- description: The Environments API from OutSystems — 12 operation(s) for environments.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Environments API from OutSystems — 12 operation(s) for environments.
   name: OutSystems Environments API
   slug: outsystems-environments-api
-- description: The Findings API from OutSystems — 1 operation(s) for findings.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Findings API from OutSystems — 1 operation(s) for findings.
   name: OutSystems Findings API
   slug: outsystems-findings-api
-- description: The Findings Summary API from OutSystems — 1 operation(s) for findings summary.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Findings Summary API from OutSystems — 1 operation(s) for findings summary.
   name: OutSystems Findings Summary API
   slug: outsystems-findings-summary-api
-- description: The Findings Trend API from OutSystems — 1 operation(s) for findings trend.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Findings Trend API from OutSystems — 1 operation(s) for findings trend.
   name: OutSystems Findings Trend API
   slug: outsystems-findings-trend-api
-- description: The GenerationOperations API from OutSystems — 4 operation(s) for generationoperations.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The GenerationOperations API from OutSystems — 4 operation(s) for generationoperations.
   name: OutSystems Generation Operations API
   slug: outsystems-generationoperations-api
-- description: The groups API from OutSystems — 5 operation(s) for groups.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The groups API from OutSystems — 5 operation(s) for groups.
   name: OutSystems Groups API
   slug: outsystems-groups-api
-- description: The identity-providers API from OutSystems — 2 operation(s) for identity-providers.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The identity-providers API from OutSystems — 2 operation(s) for identity-providers.
   name: OutSystems Identity Providers API
   slug: outsystems-identity-providers-api
-- description: Create, update, and delete IP filter groups and rules.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: Create, update, and delete IP filter groups and rules.
   name: OutSystems IP filters API
   slug: outsystems-ip-filters-api
-- description: The Libraries API from OutSystems — 1 operation(s) for libraries.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Libraries API from OutSystems — 1 operation(s) for libraries.
   name: OutSystems Libraries API
   slug: outsystems-libraries-api
-- description: The NativeBuilderVersions API from OutSystems — 1 operation(s) for nativebuilderversions.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The NativeBuilderVersions API from OutSystems — 1 operation(s) for nativebuilderversions.
   name: OutSystems Native Builder Versions API
   slug: outsystems-nativebuilderversions-api
-- description: The NativeBuildExtensibilitySettings API from OutSystems — 1 operation(s) for nativebuildextensibilitysettings.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The NativeBuildExtensibilitySettings API from OutSystems — 1 operation(s) for nativebuildextensibilitysettings.
   name: OutSystems Native Build Extensibility Settings API
   slug: outsystems-nativebuildextensibilitysettings-api
-- description: The NativeMobileConfigurations API from OutSystems — 2 operation(s) for nativemobileconfigurations.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The NativeMobileConfigurations API from OutSystems — 2 operation(s) for nativemobileconfigurations.
   name: OutSystems Native Mobile Configurations API
   slug: outsystems-nativemobileconfigurations-api
-- description: The Organization API from OutSystems — 3 operation(s) for organization.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Organization API from OutSystems — 3 operation(s) for organization.
   name: OutSystems Organization API
   slug: outsystems-organization-api
-- description: The organization-roles API from OutSystems — 3 operation(s) for organization-roles.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The organization-roles API from OutSystems — 3 operation(s) for organization-roles.
   name: OutSystems Organization Roles API
   slug: outsystems-organization-roles-api
-- description: The Patterns API from OutSystems — 2 operation(s) for patterns.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Patterns API from OutSystems — 2 operation(s) for patterns.
   name: OutSystems Patterns API
   slug: outsystems-patterns-api
-- description: The permissions API from OutSystems — 2 operation(s) for permissions.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The permissions API from OutSystems — 2 operation(s) for permissions.
   name: OutSystems Permissions API
   slug: outsystems-permissions-api
-- description: The Portfolios API from OutSystems — 2 operation(s) for portfolios.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Portfolios API from OutSystems — 2 operation(s) for portfolios.
   name: OutSystems Portfolios API
   slug: outsystems-portfolios-api
-- description: Activate, deactivate, and manage private gateways.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: Activate, deactivate, and manage private gateways.
   name: OutSystems Private gateways API
   slug: outsystems-private-gateways-api
-- description: The Public Elements API from OutSystems — 1 operation(s) for public elements.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Public Elements API from OutSystems — 1 operation(s) for public elements.
   name: OutSystems Public Elements API
   slug: outsystems-public-elements-api
-- description: The publish-operations API from OutSystems — 3 operation(s) for publish-operations.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The publish-operations API from OutSystems — 3 operation(s) for publish-operations.
   name: OutSystems Publish Operations API
   slug: outsystems-publish-operations-api
-- description: The SourceCodeDownload API from OutSystems — 2 operation(s) for sourcecodedownload.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The SourceCodeDownload API from OutSystems — 2 operation(s) for sourcecodedownload.
   name: OutSystems Source Code Download API
   slug: outsystems-sourcecodedownload-api
-- description: The Upload API from OutSystems — 1 operation(s) for upload.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Upload API from OutSystems — 1 operation(s) for upload.
   name: OutSystems Upload API
   slug: outsystems-upload-api
-- description: The Uploads API from OutSystems — 1 operation(s) for uploads.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The Uploads API from OutSystems — 1 operation(s) for uploads.
   name: OutSystems Uploads API
   slug: outsystems-uploads-api
-- description: The users API from OutSystems — 10 operation(s) for users.
+- baseURL: https://{odc-portal-domain}/api/identity/v1
+  baseurl_source: declared
+  description: The users API from OutSystems — 10 operation(s) for users.
   name: OutSystems Users API
   slug: outsystems-users-api
 artifact_total: 82
@@ -475,7 +559,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/screenshots/outsystems-2026-08-17T124448.png
 security:

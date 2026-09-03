@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Inquiry-based student discussion product with built-in AI coaching that helps students ask better questions and write stronger responses, plus automated moderation for instructors. Accessed by student
+- baseURL: https://packback.co
+  baseurl_source: spec
+  description: Inquiry-based student discussion product with built-in AI coaching that helps students ask better questions and write stronger responses, plus automated moderation for instructors. Accessed by student
   name: Packback Questions / Discussions
   slug: questions-discussions
-- description: Long-form writing and essay product (Writing, Deep Dives, Writing Lab) that gives students instant AI feedback on flow, structure, grammar, research quality, and formatting, with rubric-aligned AI-ass
+- baseURL: https://packback.co
+  baseurl_source: spec
+  description: Long-form writing and essay product (Writing, Deep Dives, Writing Lab) that gives students instant AI feedback on flow, structure, grammar, research quality, and formatting, with rubric-aligned AI-ass
   name: Packback Writing / Deep Dives
   slug: writing-deep-dives
-- description: Packback's integration surface is the IMS Global LTI standard (1EdTech certified for LTI 1.0, 1.2, and 1.3 / LTI Advantage), providing single sign-on, deep linking, and gradebook/grade passback sync a
+- baseURL: https://packback.co
+  baseurl_source: spec
+  description: Packback's integration surface is the IMS Global LTI standard (1EdTech certified for LTI 1.0, 1.2, and 1.3 / LTI Advantage), providing single sign-on, deep linking, and gradebook/grade passback sync a
   name: Packback LTI Integration
   slug: lti-integration
 artifact_total: 9
@@ -141,7 +147,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/screenshots/packback-2026-08-07T191240.png
 security:

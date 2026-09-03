@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -44,271 +44,449 @@ agentic_access:
   summary_line: 1479 operations · 848 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: '`Agent Executions` are time-series records of AI agent execution runs, capturing observability metrics, governance checks, and performance data.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Agent Executions` are time-series records of AI agent execution runs, capturing observability metrics, governance checks, and performance data.'
   name: OpenMetadata Agent Executions API
   slug: openmetadata-agent-executions-api
-- description: '`AI Applications` are autonomous software entities that use LLM models to perform tasks, make decisions, and interact with data sources.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`AI Applications` are autonomous software entities that use LLM models to perform tasks, make decisions, and interact with data sources.'
   name: OpenMetadata AI Applications API
   slug: openmetadata-ai-applications-api
-- description: '`AI Governance Policies` define rules, compliance requirements, bias thresholds, and control measures for AI agents and models.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`AI Governance Policies` define rules, compliance requirements, bias thresholds, and control measures for AI agents and models.'
   name: OpenMetadata AI Governance Policies API
   slug: openmetadata-ai-governance-policies-api
-- description: A `API Collection` is an optional way of grouping API Endpoints that belong to a API Service.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `API Collection` is an optional way of grouping API Endpoints that belong to a API Service.
   name: OpenMetadata API Collections API
   slug: openmetadata-api-collections-api
-- description: A `API Endpoint` is a specific endpoint of an API that is part of an API Collection..
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `API Endpoint` is a specific endpoint of an API that is part of an API Collection..
   name: OpenMetadata API Endpoint API
   slug: openmetadata-api-endpoint-api
-- description: APIs related `API Service` entities, such as REST or MicroService.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related `API Service` entities, such as REST or MicroService.
   name: OpenMetadata API Services API
   slug: openmetadata-api-services-api
-- description: Apps marketplace holds to application available for Open-metadata
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Apps marketplace holds to application available for Open-metadata
   name: OpenMetadata Apps API
   slug: openmetadata-apps-api
-- description: APIs for listing user initiated change events persisted for auditing
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs for listing user initiated change events persisted for auditing
   name: OpenMetadata Audit Logs API
   slug: openmetadata-audit-logs-api
-- description: A `Bot` automates tasks, such as ingesting metadata, and running data quality It performs this task as a special user in the system.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Bot` automates tasks, such as ingesting metadata, and running data quality It performs this task as a special user in the system.
   name: OpenMetadata Bots API
   slug: openmetadata-bots-api
-- description: APIs to retrieve change summary metadata for entities. Change summary tracks who changed each field, the source of the change (e.g., Suggested for AI-generated, Manual for user edits), and when the ch
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs to retrieve change summary metadata for entities. Change summary tracks who changed each field, the source of the change (e.g., Suggested for AI-generated, Manual for user edits), and when the ch
   name: OpenMetadata ChangeSummary API
   slug: openmetadata-changesummary-api
-- description: A `Chart` are computed from data presents data visually and can be part of `Dashboards`.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Chart` are computed from data presents data visually and can be part of `Dashboards`.
   name: OpenMetadata Charts API
   slug: openmetadata-charts-api
-- description: These APIs are related to `Classification` and `Tags`. A `Classification` entity contains hierarchical terms called `Tags` used for categorizing and classifying data assets and other entities.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: These APIs are related to `Classification` and `Tags`. A `Classification` entity contains hierarchical terms called `Tags` used for categorizing and classifying data assets and other entities.
   name: OpenMetadata Classifications API
   slug: openmetadata-classifications-api
-- description: Columns represent individual data fields within tables and dashboard data models. This API provides operations to update column metadata such as tags, glossary terms, descriptions, and other propertie
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Columns represent individual data fields within tables and dashboard data models. This API provides operations to update column metadata such as tags, glossary terms, descriptions, and other propertie
   name: OpenMetadata Columns API
   slug: openmetadata-columns-api
-- description: A Container is an abstraction for any path(including the top level eg. bucket in S3) storing data in an Object store such as S3, GCP, Azure. It maps a tree-like structure, where each Container can hav
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A Container is an abstraction for any path(including the top level eg. bucket in S3) storing data in an Object store such as S3, GCP, Azure. It maps a tree-like structure, where each Container can hav
   name: OpenMetadata Containers API
   slug: openmetadata-containers-api
-- description: '`Data Models` are the schemas used to build dashboards, charts, or other data assets.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Data Models` are the schemas used to build dashboards, charts, or other data assets.'
   name: OpenMetadata Dashboard Data Models API
   slug: openmetadata-dashboard-data-models-api
-- description: The Dashboard Services API from OpenMetadata — 12 operation(s) for dashboard services.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The Dashboard Services API from OpenMetadata — 12 operation(s) for dashboard services.
   name: OpenMetadata Dashboard Services API
   slug: openmetadata-dashboard-services-api
-- description: Dashboards are computed from data and visually present data, metrics, and KPIs. They are typically updated in real-time and allow interactive data exploration.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Dashboards are computed from data and visually present data, metrics, and KPIs. They are typically updated in real-time and allow interactive data exploration.
   name: OpenMetadata Dashboards API
   slug: openmetadata-dashboards-api
-- description: '`DataContract` defines the schema and quality guarantees for a data asset.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`DataContract` defines the schema and quality guarantees for a data asset.'
   name: OpenMetadata Data Contracts API
   slug: openmetadata-data-contracts-api
-- description: APIs to retrieve dimensional test case results data.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs to retrieve dimensional test case results data.
   name: OpenMetadata Data Quality API
   slug: openmetadata-data-quality-api
-- description: A `Database Schema` is collection of tables, views, stored procedures, and other database objects.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Database Schema` is collection of tables, views, stored procedures, and other database objects.
   name: OpenMetadata Database Schemas API
   slug: openmetadata-database-schemas-api
-- description: '`Database Service` is a service such as MySQL, BigQuery, Redshift, Postgres, or Snowflake. Alternative terms such as Database Cluster, Database Server instance are also used for database service.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Database Service` is a service such as MySQL, BigQuery, Redshift, Postgres, or Snowflake. Alternative terms such as Database Cluster, Database Server instance are also used for database service.'
   name: OpenMetadata Database Services API
   slug: openmetadata-database-services-api
-- description: A `Database` also referred to as `Database Catalog` is a collection of schemas.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Database` also referred to as `Database Catalog` is a collection of schemas.
   name: OpenMetadata Databases API
   slug: openmetadata-databases-api
-- description: A `Directory` is a folder or organizational unit in a Drive Service that can contain files, spreadsheets, and other directories.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Directory` is a folder or organizational unit in a Drive Service that can contain files, spreadsheets, and other directories.
   name: OpenMetadata Directories API
   slug: openmetadata-directories-api
-- description: A `Document` is an generic entity in OpenMetadata.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Document` is an generic entity in OpenMetadata.
   name: OpenMetadata Document Store API
   slug: openmetadata-document-store-api
-- description: A `Data Product` or `Data as a Product` is a logical unit that contains all components to process and store domain data for analytical or data-intensive use cases made available to data consumers.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Data Product` or `Data as a Product` is a logical unit that contains all components to process and store domain data for analytical or data-intensive use cases made available to data consumers.
   name: OpenMetadata Domains API
   slug: openmetadata-domains-api
-- description: '`Drive Service` is a cloud file storage service such as Google Drive, OneDrive, SharePoint, Box, or Dropbox where documents, spreadsheets, and other files are stored.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Drive Service` is a cloud file storage service such as Google Drive, OneDrive, SharePoint, Box, or Dropbox where documents, spreadsheets, and other files are stored.'
   name: OpenMetadata Drive Services API
   slug: openmetadata-drive-services-api
-- description: The `Events` are changes to metadata and are sent when entities are created, modified, or updated. External systems can subscribe to events using event subscription API over Webhooks, Slack, or Micros
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The `Events` are changes to metadata and are sent when entities are created, modified, or updated. External systems can subscribe to events using event subscription API over Webhooks, Slack, or Micros
   name: OpenMetadata Events API
   slug: openmetadata-events-api
-- description: Feeds API supports `Activity Feeds` and `Conversation Threads`.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Feeds API supports `Activity Feeds` and `Conversation Threads`.
   name: OpenMetadata Feeds API
   slug: openmetadata-feeds-api
-- description: A `File` is a document or resource stored in a Drive Service.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `File` is a document or resource stored in a Drive Service.
   name: OpenMetadata Files API
   slug: openmetadata-files-api
-- description: A `Glossary` is collection of hierarchical `GlossaryTerms`.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Glossary` is collection of hierarchical `GlossaryTerms`.
   name: OpenMetadata Glossaries API
   slug: openmetadata-glossaries-api
-- description: APIs related pipelines/workflows created by the system to ingest metadata.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related pipelines/workflows created by the system to ingest metadata.
   name: OpenMetadata Ingestion Pipelines API
   slug: openmetadata-ingestion-pipelines-api
-- description: The ingestionPipelines API from OpenMetadata — 1 operation(s) for ingestionpipelines.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The ingestionPipelines API from OpenMetadata — 1 operation(s) for ingestionpipelines.
   name: OpenMetadata ingestionPipelines API
   slug: openmetadata-ingestionpipelines-api
-- description: Inline tutorials and expert content surfaced across OpenMetadata product surfaces.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Inline tutorials and expert content surfaced across OpenMetadata product surfaces.
   name: OpenMetadata Learning Resources API
   slug: openmetadata-learning-resources-api
-- description: The `Lineage` for a given data asset, has information of the input datasets used and the ETL pipeline that created it.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The `Lineage` for a given data asset, has information of the input datasets used and the ETL pipeline that created it.
   name: OpenMetadata Lineage API
   slug: openmetadata-lineage-api
-- description: '`LLM Models` are Large Language Model instances such as GPT-4, Claude, Llama, or custom-trained models used for AI applications.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`LLM Models` are Large Language Model instances such as GPT-4, Claude, Llama, or custom-trained models used for AI applications.'
   name: OpenMetadata LLM Models API
   slug: openmetadata-llm-models-api
-- description: '`LLM Service` is a service for Large Language Model providers such as OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Google Vertex AI, or custom LLM deployments.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`LLM Service` is a service for Large Language Model providers such as OpenAI, Anthropic, Azure OpenAI, AWS Bedrock, Google Vertex AI, or custom LLM deployments.'
   name: OpenMetadata LLM Services API
   slug: openmetadata-llm-services-api
-- description: '`MCP Executions` are time-series records of MCP server execution sessions, capturing tool calls, resource accesses, data lineage, compliance checks, and audit trails for AI governance.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`MCP Executions` are time-series records of MCP server execution sessions, capturing tool calls, resource accesses, data lineage, compliance checks, and audit trails for AI governance.'
   name: OpenMetadata MCP Executions API
   slug: openmetadata-mcp-executions-api
-- description: '`MCP Servers` are Model Context Protocol servers that expose tools, resources, and prompts for AI applications. They enable AI governance including risk assessment, compliance tracking, and shadow AI '
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`MCP Servers` are Model Context Protocol servers that expose tools, resources, and prompts for AI applications. They enable AI governance including risk assessment, compliance tracking, and shadow AI '
   name: OpenMetadata MCP Servers API
   slug: openmetadata-mcp-servers-api
-- description: '`MCP Service` is a service for discovering and managing MCP (Model Context Protocol) servers, their tools, resources, and prompts for AI governance.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`MCP Service` is a service for discovering and managing MCP (Model Context Protocol) servers, their tools, resources, and prompts for AI governance.'
   name: OpenMetadata MCP Services API
   slug: openmetadata-mcp-services-api
-- description: MCP tool-call usage counters and breakdowns.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: MCP tool-call usage counters and breakdowns.
   name: OpenMetadata MCP Usage API
   slug: openmetadata-mcp-usage-api
-- description: The Messaging Services API from OpenMetadata — 12 operation(s) for messaging services.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The Messaging Services API from OpenMetadata — 12 operation(s) for messaging services.
   name: OpenMetadata Messaging Services API
   slug: openmetadata-messaging-services-api
-- description: These APIs are for managing custom property definitions in OpenMetadata. Use these APIs to create custom properties with predefined data types (String, Integer, Date, etc.) that extend entity metadata
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: These APIs are for managing custom property definitions in OpenMetadata. Use these APIs to create custom properties with predefined data types (String, Integer, Date, etc.) that extend entity metadata
   name: OpenMetadata Metadata API
   slug: openmetadata-metadata-api
-- description: APIs related to creating and managing other Metadata Services that OpenMetadata integrates with such as `Apache Atlas`, `Amundsen`, etc.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related to creating and managing other Metadata Services that OpenMetadata integrates with such as `Apache Atlas`, `Amundsen`, etc.
   name: OpenMetadata Metadata Services API
   slug: openmetadata-metadata-services-api
-- description: '`Metrics` are measurements computed from data such as `Monthly Active Users`. Some of the metrics that measures used to determine performance against an objective are called KPIs or Key Performance In'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Metrics` are measurements computed from data such as `Monthly Active Users`. Some of the metrics that measures used to determine performance against an objective are called KPIs or Key Performance In'
   name: OpenMetadata Metrics API
   slug: openmetadata-metrics-api
-- description: The ML Model Services API from OpenMetadata — 12 operation(s) for ml model services.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The ML Model Services API from OpenMetadata — 12 operation(s) for ml model services.
   name: OpenMetadata ML Model Services API
   slug: openmetadata-ml-model-services-api
-- description: '`Machine Learning Models` are algorithms trained on data to find patterns or make predictions.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Machine Learning Models` are algorithms trained on data to find patterns or make predictions.'
   name: OpenMetadata ML Models API
   slug: openmetadata-ml-models-api
-- description: Notification templates for customizing event notifications
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Notification templates for customizing event notifications
   name: OpenMetadata Notification Templates API
   slug: openmetadata-notification-templates-api
-- description: APIs related `Object Store Service` entities, such as S3, GCS or AZURE.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related `Object Store Service` entities, such as S3, GCS or AZURE.
   name: OpenMetadata Object Store Services API
   slug: openmetadata-object-store-services-api
-- description: OpenLineage API for receiving lineage events from external systems like Spark, Airflow, etc.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: OpenLineage API for receiving lineage events from external systems like Spark, Airflow, etc.
   name: OpenMetadata OpenLineage API
   slug: openmetadata-openlineage-api
-- description: The OpenMetadata APIs API from OpenMetadata — 1 operation(s) for openmetadata apis.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The OpenMetadata APIs API from OpenMetadata — 1 operation(s) for openmetadata apis.
   name: OpenMetadata OpenMetadata APIs API
   slug: openmetadata-openmetadata-apis-api
-- description: APIs related to getting access permission for a User.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related to getting access permission for a User.
   name: OpenMetadata Permissions API
   slug: openmetadata-permissions-api
-- description: A `Persona` is to represent job function a user does. OpenMetadata uses Persona to define customizable experience in the UI.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Persona` is to represent job function a user does. OpenMetadata uses Persona to define customizable experience in the UI.
   name: OpenMetadata Personas API
   slug: openmetadata-personas-api
-- description: The Pipeline Services API from OpenMetadata — 11 operation(s) for pipeline services.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The Pipeline Services API from OpenMetadata — 11 operation(s) for pipeline services.
   name: OpenMetadata Pipeline Services API
   slug: openmetadata-pipeline-services-api
-- description: A `Pipeline` enables the flow of data from source to destination through a series of processing steps. ETL is a type of pipeline where the series of steps Extract, Transform and Load the data.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Pipeline` enables the flow of data from source to destination through a series of processing steps. ETL is a type of pipeline where the series of steps Extract, Transform and Load the data.
   name: OpenMetadata Pipelines API
   slug: openmetadata-pipelines-api
-- description: A `Policy` defines control that needs to be applied across different Data Entities.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Policy` defines control that needs to be applied across different Data Entities.
   name: OpenMetadata Policies API
   slug: openmetadata-policies-api
-- description: '`Prompt Templates` are reusable, parameterized templates for LLM interactions that ensure consistent and effective prompting across AI agents.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Prompt Templates` are reusable, parameterized templates for LLM interactions that ensure consistent and effective prompting across AI agents.'
   name: OpenMetadata Prompt Templates API
   slug: openmetadata-prompt-templates-api
-- description: A `Query` entity represents a SQL query associated with data assets it is run against.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Query` entity represents a SQL query associated with data assets it is run against.
   name: OpenMetadata Queries API
   slug: openmetadata-queries-api
-- description: APIs to query cost records from usage workflow.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs to query cost records from usage workflow.
   name: OpenMetadata Query Cost Record Manager API
   slug: openmetadata-query-cost-record-manager-api
-- description: APIs for RDF and SPARQL operations
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs for RDF and SPARQL operations
   name: OpenMetadata RDF API
   slug: openmetadata-rdf-api
-- description: Execute SQL queries over RDF data
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Execute SQL queries over RDF data
   name: OpenMetadata RDF SQL API
   slug: openmetadata-rdf-sql-api
-- description: '`Reports` are static information computed from data periodically that includes data in text, table, and visual form.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Reports` are static information computed from data periodically that includes data in text, table, and visual form.'
   name: OpenMetadata Reports (beta) API
   slug: openmetadata-reports-beta-api
-- description: A `Role` is a collection of `Policies` that provides access control. A user or a team can be assigned one or multiple roles that provide privileges to a user and members of a team to perform the job f
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Role` is a collection of `Policies` that provides access control. A user or a team can be assigned one or multiple roles that provide privileges to a user and members of a team to perform the job f
   name: OpenMetadata Roles API
   slug: openmetadata-roles-api
-- description: SCIM 2.0 compliant user and group provisioning endpoints.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: SCIM 2.0 compliant user and group provisioning endpoints.
   name: OpenMetadata SCIM API
   slug: openmetadata-scim-api
-- description: APIs related to search and suggest.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related to search and suggest.
   name: OpenMetadata Search API
   slug: openmetadata-search-api
-- description: APIs related to search reindexing failures and status.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related to search reindexing failures and status.
   name: OpenMetadata Search Reindex API
   slug: openmetadata-search-reindex-api
-- description: APIs related `Search Service` entities, such as ElasticSearch, OpenSearch.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related `Search Service` entities, such as ElasticSearch, OpenSearch.
   name: OpenMetadata Search Services API
   slug: openmetadata-search-services-api
-- description: A `SearchIndex` is a index mapping for indexing documents in a `Search Service`.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `SearchIndex` is a index mapping for indexing documents in a `Search Service`.
   name: OpenMetadata SearchIndex API
   slug: openmetadata-searchindex-api
-- description: APIs related to Security Service entities, such as Apache Ranger.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related to Security Service entities, such as Apache Ranger.
   name: OpenMetadata Security Services API
   slug: openmetadata-security-services-api
-- description: A `Spreadsheet` is a file format for organizing data in a tabular format, like Google Sheets or Excel files.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Spreadsheet` is a file format for organizing data in a tabular format, like Google Sheets or Excel files.
   name: OpenMetadata Spreadsheets API
   slug: openmetadata-spreadsheets-api
-- description: A `StoredProcedure` entity that contains the set of code statements with an assigned name .
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `StoredProcedure` entity that contains the set of code statements with an assigned name .
   name: OpenMetadata Stored Procedures API
   slug: openmetadata-stored-procedures-api
-- description: Suggestions API supports ability to add suggestion for descriptions or tag labels for Entities.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Suggestions API supports ability to add suggestion for descriptions or tag labels for Entities.
   name: OpenMetadata Suggestions API
   slug: openmetadata-suggestions-api
-- description: The Swagger.json API from OpenMetadata — 1 operation(s) for swagger.json.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The Swagger.json API from OpenMetadata — 1 operation(s) for swagger.json.
   name: OpenMetadata Swagger.json API
   slug: openmetadata-swagger-json-api
-- description: The Swagger.yaml API from OpenMetadata — 1 operation(s) for swagger.yaml.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: The Swagger.yaml API from OpenMetadata — 1 operation(s) for swagger.yaml.
   name: OpenMetadata Swagger.yaml API
   slug: openmetadata-swagger-yaml-api
-- description: System diagnostics providing a performance snapshot for load test correlation
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: System diagnostics providing a performance snapshot for load test correlation
   name: OpenMetadata System API
   slug: openmetadata-system-api
-- description: '`Table` organizes data in rows and columns and is defined in a `Database Schema`.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Table` organizes data in rows and columns and is defined in a `Database Schema`.'
   name: OpenMetadata Tables API
   slug: openmetadata-tables-api
-- description: A `Team` is a group of zero or more users and/or other teams. Teams can own zero or more data assets. Hierarchical teams are supported `Organization` -> `BusinessUnit` -> `Division` -> `Department`.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Team` is a group of zero or more users and/or other teams. Teams can own zero or more data assets. Hierarchical teams are supported `Organization` -> `BusinessUnit` -> `Division` -> `Department`.
   name: OpenMetadata Teams API
   slug: openmetadata-teams-api
-- description: APIs to test case incident status from incident manager.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs to test case incident status from incident manager.
   name: OpenMetadata Test Case Incident Manager API
   slug: openmetadata-test-case-incident-manager-api
-- description: Test case results are the results of running a test case on a dataset. This resource provides APIs to manage test case results.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Test case results are the results of running a test case on a dataset. This resource provides APIs to manage test case results.
   name: OpenMetadata Test Case Results API
   slug: openmetadata-test-case-results-api
-- description: Test case is a test definition to capture data quality tests against tables, columns, and other data assets.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: Test case is a test definition to capture data quality tests against tables, columns, and other data assets.
   name: OpenMetadata Test Cases API
   slug: openmetadata-test-cases-api
-- description: '`Test Definition` is a definition of a type of test using which test cases are created that run against data to capture data quality.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`Test Definition` is a definition of a type of test using which test cases are created that run against data to capture data quality.'
   name: OpenMetadata Test Definitions API
   slug: openmetadata-test-definitions-api
-- description: '`TestSuite` is a set of test cases grouped together to capture data quality.'
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: '`TestSuite` is a set of test cases grouped together to capture data quality.'
   name: OpenMetadata Test Suites API
   slug: openmetadata-test-suites-api
-- description: A `Topic` is a feed or an event stream in a `Messaging Service` into which publishers publish messages and consumed by consumers.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Topic` is a feed or an event stream in a `Messaging Service` into which publishers publish messages and consumed by consumers.
   name: OpenMetadata Topics API
   slug: openmetadata-topics-api
-- description: APIs related usage of data assets.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs related usage of data assets.
   name: OpenMetadata Usage API
   slug: openmetadata-usage-api
-- description: 'A `User` represents a user of OpenMetadata. A user can be part of 0 or more teams. A special type of user called Bot is used for automation. A user can be an owner of zero or more data assets. A user '
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: 'A `User` represents a user of OpenMetadata. A user can be part of 0 or more teams. A special type of user called Bot is used for automation. A user can be an owner of zero or more data assets. A user '
   name: OpenMetadata Users API
   slug: openmetadata-users-api
-- description: APIs for vector-based semantic search.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: APIs for vector-based semantic search.
   name: OpenMetadata Vector Search API
   slug: openmetadata-vector-search-api
-- description: A `Workflow Definition` is a configured workflow setup for a given governance task.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Workflow Definition` is a configured workflow setup for a given governance task.
   name: OpenMetadata Workflow Definitions API
   slug: openmetadata-workflow-definitions-api
-- description: A Workflow Instance State is a specific state of a Workflow Instance.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A Workflow Instance State is a specific state of a Workflow Instance.
   name: OpenMetadata Workflow Instance States API
   slug: openmetadata-workflow-instance-states-api
-- description: A Workflow Instance is a specific instance of a Workflow Definition.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A Workflow Instance is a specific instance of a Workflow Definition.
   name: OpenMetadata Workflow Instances API
   slug: openmetadata-workflow-instances-api
-- description: A `Worksheet` is an individual sheet or tab within a Spreadsheet.
+- baseURL: https://{your-host}/api/v1
+  baseurl_source: declared
+  description: A `Worksheet` is an individual sheet or tab within a Spreadsheet.
   name: OpenMetadata Worksheets API
   slug: openmetadata-worksheets-api
 artifact_total: 219
@@ -833,7 +1011,7 @@ score:
       marker_coverage: 0.0
       total: 89
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:

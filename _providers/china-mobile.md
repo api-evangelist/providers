@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -45,13 +57,19 @@ apis:
 - description: 中国移动互联网能力开放平台 at dev.10086.cn is the operator's application-facing capability marketplace, describing itself as offering 移动认证/号码认证 (mobile and number authentication), 大数据服务 (big data services), 通信能力 (
   name: China Mobile Internet Capability Open Platform
   slug: internet-capability-open-platform
-- description: The Application Development API from China Mobile — 35 operation(s) for application development.
+- baseURL: https://openapi.heclouds.com
+  baseurl_source: declared
+  description: The Application Development API from China Mobile — 35 operation(s) for application development.
   name: China Mobile Application Development API
   slug: china-mobile-application-development-api
-- description: The Device Management API from China Mobile — 9 operation(s) for device management.
+- baseURL: https://openapi.heclouds.com
+  baseurl_source: declared
+  description: The Device Management API from China Mobile — 9 operation(s) for device management.
   name: China Mobile Device Management API
   slug: china-mobile-device-management-api
-- description: 语音通话 — voice notification and click-to-dial
+- baseURL: https://openapi.heclouds.com
+  baseurl_source: declared
+  description: 语音通话 — voice notification and click-to-dial
   name: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
 artifact_total: 15
@@ -235,7 +253,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -245,7 +263,7 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 42.0
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,7 +281,7 @@ score:
     regime_id: telecommunications
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
 security:

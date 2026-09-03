@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: The episodes belonging to a Buzzsprout podcast.
+- baseURL: https://www.buzzsprout.com/api
+  baseurl_source: declared
+  description: The episodes belonging to a Buzzsprout podcast.
   name: Buzzsprout Episodes API
   slug: buzzsprout-episodes-api
-- description: The podcasts on a Buzzsprout account.
+- baseURL: https://www.buzzsprout.com/api
+  baseurl_source: declared
+  description: The podcasts on a Buzzsprout account.
   name: Buzzsprout Podcasts API
   slug: buzzsprout-podcasts-api
 artifact_total: 12
@@ -161,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/screenshots/buzzsprout-2026-07-25T204129.png
 security:

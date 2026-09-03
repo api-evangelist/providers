@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Obtain and configure machine data from the DataPlatform, Proemion's API-first telematics cloud. Secured with OAuth2 client credentials (OpenID Connect / Keycloak).
@@ -173,7 +173,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +191,9 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/proemion/refs/heads/main/screenshots/proemion-2026-09-02T152122.png
 security:
 - kind: authentication
   name: Proemion Authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,313 +36,517 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: The activity API from OpenGov — 1 operation(s) for activity.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The activity API from OpenGov — 1 operation(s) for activity.
   name: OpenGov Activity API
   slug: opengov-activity-api
-- description: Activity Log APIs allow you to retrieve historical changes and actions performed on entities in the system. Activity logs track create, update, soft delete, and hard delete operations. Employee access
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Activity Log APIs allow you to retrieve historical changes and actions performed on entities in the system. Activity logs track create, update, soft delete, and hard delete operations. Employee access
   name: OpenGov Activity Logs API
   slug: opengov-activity-logs-api
-- description: The adminSettings API from OpenGov — 1 operation(s) for adminsettings.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The adminSettings API from OpenGov — 1 operation(s) for adminsettings.
   name: OpenGov Admin Settings API
   slug: opengov-adminsettings-api
-- description: Approval Steps are one step type that can be found in a record's workflow.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Approval Steps are one step type that can be found in a record's workflow.
   name: OpenGov Approval Steps API
   slug: opengov-approval-steps-api
-- description: The attachment API from OpenGov — 6 operation(s) for attachment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The attachment API from OpenGov — 6 operation(s) for attachment.
   name: OpenGov Attachment API
   slug: opengov-attachment-api
-- description: The attachmentLimits API from OpenGov — 2 operation(s) for attachmentlimits.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The attachmentLimits API from OpenGov — 2 operation(s) for attachmentlimits.
   name: OpenGov Attachment Limits API
   slug: opengov-attachmentlimits-api
-- description: The Attachments API from OpenGov — 5 operation(s) for attachments.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Attachments API from OpenGov — 5 operation(s) for attachments.
   name: OpenGov Attachments API
   slug: opengov-attachments-api
-- description: Operations for retrieving budget data.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Operations for retrieving budget data.
   name: OpenGov Budget API
   slug: opengov-budget-api
-- description: The Categories API from OpenGov — 2 operation(s) for categories.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Categories API from OpenGov — 2 operation(s) for categories.
   name: OpenGov Categories API
   slug: opengov-categories-api
-- description: The changeOrder API from OpenGov — 1 operation(s) for changeorder.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The changeOrder API from OpenGov — 1 operation(s) for changeorder.
   name: OpenGov Change Order API
   slug: opengov-changeorder-api
-- description: The changeOrderByPo API from OpenGov — 10 operation(s) for changeorderbypo.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The changeOrderByPo API from OpenGov — 10 operation(s) for changeorderbypo.
   name: OpenGov Change Order By Po API
   slug: opengov-changeorderbypo-api
-- description: Operations for retrieving Chart of Accounts data.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Operations for retrieving Chart of Accounts data.
   name: OpenGov Chart Of Accounts API
   slug: opengov-chartofaccounts-api
-- description: Inspection Results include Checklist Results for any checklist item that was inspected.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Inspection Results include Checklist Results for any checklist item that was inspected.
   name: OpenGov Checklist Results API
   slug: opengov-checklist-results-api
-- description: A Checklist Template is a single item in an Inspection Type Template's checklist.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Checklist Template is a single item in an Inspection Type Template's checklist.
   name: OpenGov Checklist Templates API
   slug: opengov-checklist-templates-api
-- description: The claims API from OpenGov — 2 operation(s) for claims.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The claims API from OpenGov — 2 operation(s) for claims.
   name: OpenGov Claims API
   slug: opengov-claims-api
-- description: The Classes API from OpenGov — 3 operation(s) for classes.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Classes API from OpenGov — 3 operation(s) for classes.
   name: OpenGov Classes API
   slug: opengov-classes-api
-- description: The coAttachment API from OpenGov — 4 operation(s) for coattachment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coAttachment API from OpenGov — 4 operation(s) for coattachment.
   name: OpenGov Co Attachment API
   slug: opengov-coattachment-api
-- description: The coComment API from OpenGov — 2 operation(s) for cocomment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coComment API from OpenGov — 2 operation(s) for cocomment.
   name: OpenGov Co Comment API
   slug: opengov-cocomment-api
-- description: The Commands API from OpenGov — 1 operation(s) for commands.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Commands API from OpenGov — 1 operation(s) for commands.
   name: OpenGov Commands API
   slug: opengov-commands-api
-- description: The comment API from OpenGov — 2 operation(s) for comment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The comment API from OpenGov — 2 operation(s) for comment.
   name: OpenGov Comment API
   slug: opengov-comment-api
-- description: The Contracts API from OpenGov — 10 operation(s) for contracts.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Contracts API from OpenGov — 10 operation(s) for contracts.
   name: OpenGov Contracts API
   slug: opengov-contracts-api
-- description: The coReason API from OpenGov — 2 operation(s) for coreason.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coReason API from OpenGov — 2 operation(s) for coreason.
   name: OpenGov Co Reason API
   slug: opengov-coreason-api
-- description: The coSurfaceVersions API from OpenGov — 1 operation(s) for cosurfaceversions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coSurfaceVersions API from OpenGov — 1 operation(s) for cosurfaceversions.
   name: OpenGov Co Surface Versions API
   slug: opengov-cosurfaceversions-api
-- description: The coTerms API from OpenGov — 1 operation(s) for coterms.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coTerms API from OpenGov — 1 operation(s) for coterms.
   name: OpenGov Co Terms API
   slug: opengov-coterms-api
-- description: The coTermsAttachment API from OpenGov — 2 operation(s) for cotermsattachment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The coTermsAttachment API from OpenGov — 2 operation(s) for cotermsattachment.
   name: OpenGov Co Terms Attachment API
   slug: opengov-cotermsattachment-api
-- description: '**Datasets** are collections of data that can be retrieved using the API. Datasets can be retrieved by using `GET` requests. The base url for datasets is `https://api.procurement.opengov.com/gateway/d'
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: '**Datasets** are collections of data that can be retrieved using the API. Datasets can be retrieved by using `GET` requests. The base url for datasets is `https://api.procurement.opengov.com/gateway/d'
   name: OpenGov Datasets API
   slug: opengov-datasets-api
-- description: A Department is a group of Record Types.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Department is a group of Record Types.
   name: OpenGov Departments API
   slug: opengov-departments-api
-- description: Document Steps are one step type that can be found in a record's workflow.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Document Steps are one step type that can be found in a record's workflow.
   name: OpenGov Document Steps API
   slug: opengov-document-steps-api
-- description: The entity-custom-fields API from OpenGov — 2 operation(s) for entity-custom-fields.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The entity-custom-fields API from OpenGov — 2 operation(s) for entity-custom-fields.
   name: OpenGov Entity Custom Fields API
   slug: opengov-entity-custom-fields-api
-- description: The entity-settings API from OpenGov — 1 operation(s) for entity-settings.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The entity-settings API from OpenGov — 1 operation(s) for entity-settings.
   name: OpenGov Entity Settings API
   slug: opengov-entity-settings-api
-- description: The entity-users API from OpenGov — 1 operation(s) for entity-users.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The entity-users API from OpenGov — 1 operation(s) for entity-users.
   name: OpenGov Entity Users API
   slug: opengov-entity-users-api
-- description: This is a list of all the types of events we currently send. We may add more at any time, so in developing and maintaining your code, you should not assume that only these types exist.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: This is a list of all the types of events we currently send. We may add more at any time, so in developing and maintaining your code, you should not assume that only these types exist.
   name: OpenGov Event Types API
   slug: opengov-event-types-api
-- description: A Payment Step can have one or more Fees.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Payment Step can have one or more Fees.
   name: OpenGov Fees API
   slug: opengov-fees-api
-- description: 'Files in OpenGov Permitting & Licensing are managed in a two-step process: 1. **File Upload** - First, create a file entry to receive a pre-signed Azure Blob Storage URL - Use this URL to upload your '
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: 'Files in OpenGov Permitting & Licensing are managed in a two-step process: 1. **File Upload** - First, create a file entry to receive a pre-signed Azure Blob Storage URL - Use this URL to upload your '
   name: OpenGov Files API
   slug: opengov-files-api
-- description: The glSuggestions API from OpenGov — 1 operation(s) for glsuggestions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The glSuggestions API from OpenGov — 1 operation(s) for glsuggestions.
   name: OpenGov Gl Suggestions API
   slug: opengov-glsuggestions-api
-- description: Groups are used to group datasets together in categories.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Groups are used to group datasets together in categories.
   name: OpenGov Group API
   slug: opengov-group-api
-- description: An Inspection Event is a single inspection appointment, during which one or more Inspection Results are typically created.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: An Inspection Event is a single inspection appointment, during which one or more Inspection Results are typically created.
   name: OpenGov Inspection Events API
   slug: opengov-inspection-events-api
-- description: An Inspection Result is created for each Inspection Type inspected during an Inspection Event.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: An Inspection Result is created for each Inspection Type inspected during an Inspection Event.
   name: OpenGov Inspection Results API
   slug: opengov-inspection-results-api
-- description: Inspection Steps are one step type that can be found in a record's workflow.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Inspection Steps are one step type that can be found in a record's workflow.
   name: OpenGov Inspection Steps API
   slug: opengov-inspection-steps-api
-- description: Inspection Type Templates can be added to Inspection Workflow Step Templates.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Inspection Type Templates can be added to Inspection Workflow Step Templates.
   name: OpenGov Inspection Type Templates API
   slug: opengov-inspection-type-templates-api
-- description: An Inspection Record Workflow Step has one or more Inspection Types.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: An Inspection Record Workflow Step has one or more Inspection Types.
   name: OpenGov Inspection Types API
   slug: opengov-inspection-types-api
-- description: The invoiceSync API from OpenGov — 1 operation(s) for invoicesync.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The invoiceSync API from OpenGov — 1 operation(s) for invoicesync.
   name: OpenGov Invoice Sync API
   slug: opengov-invoicesync-api
-- description: The Issued Documents API from OpenGov — 2 operation(s) for issued documents.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Issued Documents API from OpenGov — 2 operation(s) for issued documents.
   name: OpenGov Issued Documents API
   slug: opengov-issued-documents-api
-- description: A Leger Entry is created for each Fee paid or refunded in a Transaction.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Leger Entry is created for each Fee paid or refunded in a Transaction.
   name: OpenGov Ledger Entries API
   slug: opengov-ledger-entries-api
-- description: The lineItem API from OpenGov — 3 operation(s) for lineitem.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The lineItem API from OpenGov — 3 operation(s) for lineitem.
   name: OpenGov Line Item API
   slug: opengov-lineitem-api
-- description: Location Flags can be added to individual Locations to tag them with certain characteristics.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Location Flags can be added to individual Locations to tag them with certain characteristics.
   name: OpenGov Location Flags API
   slug: opengov-location-flags-api
-- description: A Location can be added as the Primary Location or an Additional Location of a Record. A Location can be a Point, Segment, or Parcel.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Location can be added as the Primary Location or an Additional Location of a Record. A Location can be a Point, Segment, or Parcel.
   name: OpenGov Locations API
   slug: opengov-locations-api
-- description: The operationError API from OpenGov — 1 operation(s) for operationerror.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The operationError API from OpenGov — 1 operation(s) for operationerror.
   name: OpenGov Operation Error API
   slug: opengov-operationerror-api
-- description: Organizations are used to create, manage and publish datasets.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Organizations are used to create, manage and publish datasets.
   name: OpenGov Organization API
   slug: opengov-organization-api
-- description: On early CKAN versions, datasets were called packages and this name has stuck in some places, specially internally and on API calls. Package has exactly the same meaning as dataset.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: On early CKAN versions, datasets were called packages and this name has stuck in some places, specially internally and on API calls. Package has exactly the same meaning as dataset.
   name: OpenGov Package API
   slug: opengov-package-api
-- description: Payment Steps are one step type that can be found in a record's workflow.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Payment Steps are one step type that can be found in a record's workflow.
   name: OpenGov Payment Steps API
   slug: opengov-payment-steps-api
-- description: The print API from OpenGov — 5 operation(s) for print.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The print API from OpenGov — 5 operation(s) for print.
   name: OpenGov Print API
   slug: opengov-print-api
-- description: Project APIs allow you to work with projects that group related records
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Project APIs allow you to work with projects that group related records
   name: OpenGov Projects API
   slug: opengov-projects-api
-- description: The purchaseOrder API from OpenGov — 13 operation(s) for purchaseorder.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The purchaseOrder API from OpenGov — 13 operation(s) for purchaseorder.
   name: OpenGov Purchase Order API
   slug: opengov-purchaseorder-api
-- description: The purchaseOrderType API from OpenGov — 1 operation(s) for purchaseordertype.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The purchaseOrderType API from OpenGov — 1 operation(s) for purchaseordertype.
   name: OpenGov Purchase Order Type API
   slug: opengov-purchaseordertype-api
-- description: The receiptActivity API from OpenGov — 1 operation(s) for receiptactivity.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receiptActivity API from OpenGov — 1 operation(s) for receiptactivity.
   name: OpenGov Receipt Activity API
   slug: opengov-receiptactivity-api
-- description: The receiptAttachments API from OpenGov — 6 operation(s) for receiptattachments.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receiptAttachments API from OpenGov — 6 operation(s) for receiptattachments.
   name: OpenGov Receipt Attachments API
   slug: opengov-receiptattachments-api
-- description: The receiptComments API from OpenGov — 2 operation(s) for receiptcomments.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receiptComments API from OpenGov — 2 operation(s) for receiptcomments.
   name: OpenGov Receipt Comments API
   slug: opengov-receiptcomments-api
-- description: The receipts API from OpenGov — 9 operation(s) for receipts.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receipts API from OpenGov — 9 operation(s) for receipts.
   name: OpenGov Receipts API
   slug: opengov-receipts-api
-- description: The receiptSurfaceVersions API from OpenGov — 1 operation(s) for receiptsurfaceversions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receiptSurfaceVersions API from OpenGov — 1 operation(s) for receiptsurfaceversions.
   name: OpenGov Receipt Surface Versions API
   slug: opengov-receiptsurfaceversions-api
-- description: The receiptSync API from OpenGov — 1 operation(s) for receiptsync.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The receiptSync API from OpenGov — 1 operation(s) for receiptsync.
   name: OpenGov Receipt Sync API
   slug: opengov-receiptsync-api
-- description: A Record can be associated with up to 99 Additional Locations. Record Locations reference Locations.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record can be associated with up to 99 Additional Locations. Record Locations reference Locations.
   name: OpenGov Record Additional Locations API
   slug: opengov-record-additional-locations-api
-- description: A Record represents a single permit or license application, code enforcement case, or business process in OpenGov Permitting & Licensing. Records are created in the Employee Portal and/or Citizen Port
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record represents a single permit or license application, code enforcement case, or business process in OpenGov Permitting & Licensing. Records are created in the Employee Portal and/or Citizen Port
   name: OpenGov Record API
   slug: opengov-record-api
-- description: The Applicant is the public user who submitted a Record and/or the primary public contact for the Record.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Applicant is the public user who submitted a Record and/or the primary public contact for the Record.
   name: OpenGov Record Applicant API
   slug: opengov-record-applicant-api
-- description: A Record can have attachments which either reference a Record Type Attachment or are ad-hoc. Each attachment can have one or more versions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record can have attachments which either reference a Record Type Attachment or are ad-hoc. Each attachment can have one or more versions.
   name: OpenGov Record Attachments API
   slug: opengov-record-attachments-api
-- description: A Record Change Request represents a request from an employee to the applicant for changes to the form or attachments.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record Change Request represents a request from an employee to the applicant for changes to the form or attachments.
   name: OpenGov Record Change Requests API
   slug: opengov-record-change-requests-api
-- description: A Record can have one **Applicant** and up to 99 **Guests**. The Applicant is the public user who submitted a Record. The Applicant or any employee user can add Guests to a Record.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record can have one **Applicant** and up to 99 **Guests**. The Applicant is the public user who submitted a Record. The Applicant or any employee user can add Guests to a Record.
   name: OpenGov Record Contacts API
   slug: opengov-record-contacts-api
-- description: A Record's **Form** is based on its **Record Type**. A Form is comprised of **Fields** which are contained within **Sections**. Each Field is of a specific data Type, and has a **Label** and a **Value
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record's **Form** is based on its **Record Type**. A Form is comprised of **Fields** which are contained within **Sections**. Each Field is of a specific data Type, and has a **Label** and a **Value
   name: OpenGov Record Form API
   slug: opengov-record-form-api
-- description: A Record's Form is based on its Record Type. A Form is comprised of Fields which are contained within Sections. Each Field is of a specific data Type, and has a Label and a Value.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record's Form is based on its Record Type. A Form is comprised of Fields which are contained within Sections. Each Field is of a specific data Type, and has a Label and a Value.
   name: OpenGov Record Forms API
   slug: opengov-record-forms-api
-- description: Record Guests are additional users who need visibility into the permit/license process. This could include contractors, architects, property owners, or other stakeholders who need to track the applica
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Record Guests are additional users who need visibility into the permit/license process. This could include contractors, architects, property owners, or other stakeholders who need to track the applica
   name: OpenGov Record Guests API
   slug: opengov-record-guests-api
-- description: A Record can be associated with one **Primary Location** and up to 99 **Additional Locations**. Record Locations reference **Locations**.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record can be associated with one **Primary Location** and up to 99 **Additional Locations**. Record Locations reference **Locations**.
   name: OpenGov Record Locations API
   slug: opengov-record-locations-api
-- description: A Record can be associated with one Primary Location. Record Locations reference Locations.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record can be associated with one Primary Location. Record Locations reference Locations.
   name: OpenGov Record Primary Location API
   slug: opengov-record-primary-location-api
-- description: Record Type Attachments are templates that define the required and optional Attachments for a Record of a particular Record Type.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Record Type Attachments are templates that define the required and optional Attachments for a Record of a particular Record Type.
   name: OpenGov Record Type Attachments API
   slug: opengov-record-type-attachments-api
-- description: Record Type Document Templates provide the format and content of a particular document that should be issued in a Document Step.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Record Type Document Templates provide the format and content of a particular document that should be issued in a Document Step.
   name: OpenGov Record Type Document Templates API
   slug: opengov-record-type-document-templates-api
-- description: Record Type Fees define the calculation structure for individual fees charged on Payment Steps.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Record Type Fees define the calculation structure for individual fees charged on Payment Steps.
   name: OpenGov Record Type Fees API
   slug: opengov-record-type-fees-api
-- description: The Record Type Form is the form template for records of that Record Type.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Record Type Form is the form template for records of that Record Type.
   name: OpenGov Record Type Form API
   slug: opengov-record-type-form-api
-- description: The Record Type Workflow is the workflow template for records of that Record Type.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Record Type Workflow is the workflow template for records of that Record Type.
   name: OpenGov Record Type Workflow API
   slug: opengov-record-type-workflow-api
-- description: A Record Type defines the configuration for individual Records of that Record Type.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record Type defines the configuration for individual Records of that Record Type.
   name: OpenGov Record Types API
   slug: opengov-record-types-api
-- description: Step Comments APIs allow you to retrieve, add or remove comments on workflow steps of a record.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Step Comments APIs allow you to retrieve, add or remove comments on workflow steps of a record.
   name: OpenGov Record Workflow Step Comments API
   slug: opengov-record-workflow-step-comments-api
-- description: A Record's Workflow is represented as a collection of **Steps**. Steps are automatically created on a Record at the time it is submitted, based on the Record Type Workflow defined for that Record's Ty
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record's Workflow is represented as a collection of **Steps**. Steps are automatically created on a Record at the time it is submitted, based on the Record Type Workflow defined for that Record's Ty
   name: OpenGov Record Workflow Steps API
   slug: opengov-record-workflow-steps-api
-- description: '**Records** are created in the OpenGov Permitting & Licensing Employee Portal and/or Citizen Portal. A **Record** can have a **Form**, a **Workflow**, one or more public **Contacts** (the applicant an'
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: '**Records** are created in the OpenGov Permitting & Licensing Employee Portal and/or Citizen Portal. A **Record** can have a **Form**, a **Workflow**, one or more public **Contacts** (the applicant an'
   name: OpenGov Records API
   slug: opengov-records-api
-- description: A resource holds the data itself. A resource can be a CSV or Excel spreadsheet, XML file, PDF document, image file, linked data, etc. A dataset can contain any number of resources.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A resource holds the data itself. A resource can be a CSV or Excel spreadsheet, XML file, PDF document, image file, linked data, etc. A dataset can contain any number of resources.
   name: OpenGov Resource API
   slug: opengov-resource-api
-- description: The revisions API from OpenGov — 1 operation(s) for revisions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The revisions API from OpenGov — 1 operation(s) for revisions.
   name: OpenGov Revisions API
   slug: opengov-revisions-api
-- description: The saved-views API from OpenGov — 2 operation(s) for saved-views.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The saved-views API from OpenGov — 2 operation(s) for saved-views.
   name: OpenGov Saved Views API
   slug: opengov-saved-views-api
-- description: The spendSummary API from OpenGov — 1 operation(s) for spendsummary.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The spendSummary API from OpenGov — 1 operation(s) for spendsummary.
   name: OpenGov Spend Summary API
   slug: opengov-spendsummary-api
-- description: A Record Step can have **Comments**, which are visible to public Record Contacts, and **Internal Notes**, which are visible to employees only. Comments send Notifications to any employee assigned to a
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record Step can have **Comments**, which are visible to public Record Contacts, and **Internal Notes**, which are visible to employees only. Comments send Notifications to any employee assigned to a
   name: OpenGov Step Comments API
   slug: opengov-step-comments-api
-- description: A Record's Workflow is represented as a collection of **Steps**. Steps are automatically created on a Record at the time it is submitted, based on the Workflow Template defined in the Record Type sett
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Record's Workflow is represented as a collection of **Steps**. Steps are automatically created on a Record at the time it is submitted, based on the Workflow Template defined in the Record Type sett
   name: OpenGov Steps API
   slug: opengov-steps-api
-- description: The surfaceVersions API from OpenGov — 1 operation(s) for surfaceversions.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The surfaceVersions API from OpenGov — 1 operation(s) for surfaceversions.
   name: OpenGov Surface Versions API
   slug: opengov-surfaceversions-api
-- description: The system API from OpenGov — 1 operation(s) for system.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The system API from OpenGov — 1 operation(s) for system.
   name: OpenGov System API
   slug: opengov-system-api
-- description: The tag API from OpenGov — 3 operation(s) for tag.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The tag API from OpenGov — 3 operation(s) for tag.
   name: OpenGov Tag API
   slug: opengov-tag-api
-- description: The Tags API from OpenGov — 18 operation(s) for tags.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The Tags API from OpenGov — 18 operation(s) for tags.
   name: OpenGov Tags API
   slug: opengov-tags-api
-- description: The terms API from OpenGov — 1 operation(s) for terms.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The terms API from OpenGov — 1 operation(s) for terms.
   name: OpenGov Terms API
   slug: opengov-terms-api
-- description: The termsAttachment API from OpenGov — 2 operation(s) for termsattachment.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The termsAttachment API from OpenGov — 2 operation(s) for termsattachment.
   name: OpenGov Terms Attachment API
   slug: opengov-termsattachment-api
-- description: A Transaction represents an individual payment or refund transaction on a Record.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: A Transaction represents an individual payment or refund transaction on a Record.
   name: OpenGov Transactions API
   slug: opengov-transactions-api
-- description: User Flags can be added to individual Users to tag them with certain characteristics.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: User Flags can be added to individual Users to tag them with certain characteristics.
   name: OpenGov User Flags API
   slug: opengov-user-flags-api
-- description: Users can be attached to Records as the Applicant or as a Guest.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: Users can be attached to Records as the Applicant or as a Guest.
   name: OpenGov Users API
   slug: opengov-users-api
-- description: The vendor-imports API from OpenGov — 7 operation(s) for vendor-imports.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendor-imports API from OpenGov — 7 operation(s) for vendor-imports.
   name: OpenGov Vendor Imports API
   slug: opengov-vendor-imports-api
-- description: The vendor-notes API from OpenGov — 2 operation(s) for vendor-notes.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendor-notes API from OpenGov — 2 operation(s) for vendor-notes.
   name: OpenGov Vendor Notes API
   slug: opengov-vendor-notes-api
-- description: The vendor-search API from OpenGov — 4 operation(s) for vendor-search.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendor-search API from OpenGov — 4 operation(s) for vendor-search.
   name: OpenGov Vendor Search API
   slug: opengov-vendor-search-api
-- description: The vendor-taskmaster API from OpenGov — 3 operation(s) for vendor-taskmaster.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendor-taskmaster API from OpenGov — 3 operation(s) for vendor-taskmaster.
   name: OpenGov Vendor Taskmaster API
   slug: opengov-vendor-taskmaster-api
-- description: The vendorRecommendations API from OpenGov — 1 operation(s) for vendorrecommendations.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendorRecommendations API from OpenGov — 1 operation(s) for vendorrecommendations.
   name: OpenGov Vendor Recommendations API
   slug: opengov-vendorrecommendations-api
-- description: The vendors API from OpenGov — 5 operation(s) for vendors.
+- baseURL: https://api.plce.opengov.com/plce
+  baseurl_source: declared
+  description: The vendors API from OpenGov — 5 operation(s) for vendors.
   name: OpenGov Vendors API
   slug: opengov-vendors-api
 artifact_total: 213
@@ -833,7 +1050,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -843,7 +1060,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 47.1
+  previous_composite: 46.9
   provenance:
     conformance: derived
     contracts:
@@ -860,7 +1077,7 @@ score:
     regime_id: government
     score: 77.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 27 operations
 api_count: 1
 apis:
-- description: Carbon intensity factors by fuel type
+- baseURL: https://api.carbonintensity.org.uk
+  baseurl_source: declared
+  description: Carbon intensity factors by fuel type
   name: Carbon Intensity API Factors API
   slug: carbon-intensity-factors-api
-- description: Electricity generation mix data (beta)
+- baseURL: https://api.carbonintensity.org.uk
+  baseurl_source: declared
+  description: Electricity generation mix data (beta)
   name: Carbon Intensity API Generation Mix API
   slug: carbon-intensity-generation-mix-api
-- description: National carbon intensity data for Great Britain
+- baseURL: https://api.carbonintensity.org.uk
+  baseurl_source: declared
+  description: National carbon intensity data for Great Britain
   name: Carbon Intensity API National Intensity API
   slug: carbon-intensity-national-intensity-api
-- description: Regional carbon intensity and generation mix data (beta)
+- baseURL: https://api.carbonintensity.org.uk
+  baseurl_source: declared
+  description: Regional carbon intensity and generation mix data (beta)
   name: Carbon Intensity API Regional API
   slug: carbon-intensity-regional-api
-- description: Carbon intensity statistics and aggregations
+- baseURL: https://api.carbonintensity.org.uk
+  baseurl_source: declared
+  description: Carbon intensity statistics and aggregations
   name: Carbon Intensity API Statistics API
   slug: carbon-intensity-statistics-api
 artifact_total: 27
@@ -225,7 +235,7 @@ score:
     regime_id: energy_utilities
     score: 20.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-intensity/refs/heads/main/screenshots/carbon-intensity-2026-06-20T173949.png
 security:

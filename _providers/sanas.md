@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection, supporting consecutive and simultaneous modes. Authenticated with a JWT bearer token or API key passed as a query '
+- baseURL: wss://api.sanaslt.com/v3/stream
+  baseurl_source: declared
+  description: 'Real-time speech-to-speech translation over a single persistent WebSocket connection, supporting consecutive and simultaneous modes. Authenticated with a JWT bearer token or API key passed as a query '
   name: Sanas Stream API
   slug: sanas-stream-api
 - description: Server-side C++17 and Python SDK for real-time speech enhancement, accent translation, and language translation. Applications initialize the SDK with an API key, create an audio processor for a chosen
@@ -176,7 +178,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -186,11 +188,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanas/refs/heads/main/screenshots/sanas-2026-08-17T081721.png
 security:

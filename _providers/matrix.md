@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -58,49 +58,79 @@ apis:
 - description: Push Gateway API homeservers use to deliver notifications to mobile push services on behalf of Matrix clients.
   name: Matrix Push Gateway API
   slug: push-gateway-api
-- description: The Account API from Matrix — 1 operation(s) for account.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Account API from Matrix — 1 operation(s) for account.
   name: Matrix Account API
   slug: matrix-account-api
-- description: The Capabilities API from Matrix — 1 operation(s) for capabilities.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Capabilities API from Matrix — 1 operation(s) for capabilities.
   name: Matrix Capabilities API
   slug: matrix-capabilities-api
-- description: The CreateRoom API from Matrix — 1 operation(s) for createroom.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The CreateRoom API from Matrix — 1 operation(s) for createroom.
   name: Matrix CreateRoom API
   slug: matrix-createroom-api
-- description: The Devices API from Matrix — 1 operation(s) for devices.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Devices API from Matrix — 1 operation(s) for devices.
   name: Matrix Devices API
   slug: matrix-devices-api
-- description: The Directory API from Matrix — 1 operation(s) for directory.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Directory API from Matrix — 1 operation(s) for directory.
   name: Matrix Directory API
   slug: matrix-directory-api
-- description: The Join API from Matrix — 1 operation(s) for join.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Join API from Matrix — 1 operation(s) for join.
   name: Matrix Join API
   slug: matrix-join-api
-- description: The Keys API from Matrix — 1 operation(s) for keys.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Keys API from Matrix — 1 operation(s) for keys.
   name: Matrix Keys API
   slug: matrix-keys-api
-- description: The Login API from Matrix — 1 operation(s) for login.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Login API from Matrix — 1 operation(s) for login.
   name: Matrix Login API
   slug: matrix-login-api
-- description: The Logout API from Matrix — 1 operation(s) for logout.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Logout API from Matrix — 1 operation(s) for logout.
   name: Matrix Logout API
   slug: matrix-logout-api
-- description: The Profile API from Matrix — 2 operation(s) for profile.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Profile API from Matrix — 2 operation(s) for profile.
   name: Matrix Profile API
   slug: matrix-profile-api
-- description: The PublicRooms API from Matrix — 1 operation(s) for publicrooms.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The PublicRooms API from Matrix — 1 operation(s) for publicrooms.
   name: Matrix PublicRooms API
   slug: matrix-publicrooms-api
-- description: The Refresh API from Matrix — 1 operation(s) for refresh.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Refresh API from Matrix — 1 operation(s) for refresh.
   name: Matrix Refresh API
   slug: matrix-refresh-api
-- description: The Register API from Matrix — 1 operation(s) for register.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Register API from Matrix — 1 operation(s) for register.
   name: Matrix Register API
   slug: matrix-register-api
-- description: The Rooms API from Matrix — 4 operation(s) for rooms.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Rooms API from Matrix — 4 operation(s) for rooms.
   name: Matrix Rooms API
   slug: matrix-rooms-api
-- description: The Sync API from Matrix — 1 operation(s) for sync.
+- baseURL: https://matrix.org/_matrix/client
+  baseurl_source: declared
+  description: The Sync API from Matrix — 1 operation(s) for sync.
   name: Matrix Sync API
   slug: matrix-sync-api
 artifact_total: 43
@@ -245,7 +275,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -255,7 +285,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 30.7
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -264,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/screenshots/matrix-2026-06-20T185038.png
 security:

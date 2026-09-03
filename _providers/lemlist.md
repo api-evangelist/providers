@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -48,67 +48,109 @@ apis:
 - description: lemlist's hosted remote Model Context Protocol server. An MCP client POSTs to https://app.lemlist.com/mcp and authenticates with OAuth 2.1 (authorization code + PKCE, dynamic client registration) or a
   name: lemlist MCP Server
   slug: mcp-server
-- description: Campaign CRUD and lifecycle - create, update, duplicate, start, pause, validation statutes, stats, reports and asynchronous exports.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Campaign CRUD and lifecycle - create, update, duplicate, start, pause, validation statutes, stats, reports and asynchronous exports.
   name: lemlist Campaigns API
   slug: lemlist-campaigns-api
-- description: Campaign sequences, their steps, and A/B test variants on email steps.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Campaign sequences, their steps, and A/B test variants on email steps.
   name: lemlist Sequences API
   slug: lemlist-sequences-api
-- description: Leads inside campaigns - create with optional enrichment, update, pause, resume, mark interested, custom variables, CRM import and unsubscribe.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Leads inside campaigns - create with optional enrichment, update, pause, resume, mark interested, custom variables, CRM import and unsubscribe.
   name: lemlist Leads API
   slug: lemlist-leads-api
-- description: Search the lemlist B2B people and company database, list its filters, and manage saved personas.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Search the lemlist B2B people and company database, list its filters, and manage saved personas.
   name: lemlist People Database API
   slug: lemlist-people-database-api
-- description: Asynchronous enrichment - find and verify emails, phone numbers and LinkedIn data, single or in bulk, then poll for the result. Credit-metered.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Asynchronous enrichment - find and verify emails, phone numbers and LinkedIn data, single or in bulk, then poll for the result. Credit-metered.
   name: lemlist Enrich API
   slug: lemlist-enrich-api
-- description: The unified reply inbox - conversations, messages, drafts, labels and sending on email, LinkedIn and WhatsApp.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: The unified reply inbox - conversations, messages, drafts, labels and sending on email, LinkedIn and WhatsApp.
   name: lemlist Inbox API
   slug: lemlist-inbox-api
-- description: CRM-side contacts, contact lists, list membership and exports.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: CRM-side contacts, contact lists, list membership and exports.
   name: lemlist Contacts API
   slug: lemlist-contacts-api
-- description: CRM-side companies and company notes.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: CRM-side companies and company notes.
   name: lemlist Companies API
   slug: lemlist-companies-api
-- description: Signal Agents (watch lists) - create and configure watches, list the available signal types and filters, read detected signals, and push external signals.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Signal Agents (watch lists) - create and configure watches, list the available signal types and filters, read detected signals, and push external signals.
   name: lemlist Signal Agents API
   slug: lemlist-signal-agents-api
-- description: Webhook subscription management - list, create with an optional shared secret, and delete. 76 event types are documented.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Webhook subscription management - list, create with an optional shared secret, and delete. 76 event types are documented.
   name: lemlist Webhooks API
   slug: lemlist-webhooks-api
-- description: Suppression management - unsubscribe and re-subscribe contacts and variables, list and export the suppression set, and the legacy email/domain surface.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Suppression management - unsubscribe and re-subscribe contacts and variables, list and export the suppression set, and the legacy email/domain surface.
   name: lemlist Unsubscribes API
   slug: lemlist-unsubscribes-api
-- description: Sending schedules - CRUD and association with campaigns.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Sending schedules - CRUD and association with campaigns.
   name: lemlist Schedules API
   slug: lemlist-schedules-api
-- description: Manual tasks - list, create, update and ignore.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Manual tasks - list, create, update and ignore.
   name: lemlist Tasks API
   slug: lemlist-tasks-api
-- description: The activity history feed, and deletion of call recordings and transcripts.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: The activity history feed, and deletion of call recordings and transcripts.
   name: lemlist Activities API
   slug: lemlist-activities-api
-- description: Team-level endpoints - team information, senders, remaining credits and CRM users.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Team-level endpoints - team information, senders, remaining credits and CRM users.
   name: lemlist Team API
   slug: lemlist-team-api
-- description: User endpoints - user detail and the connected channels available to the authenticated user.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: User endpoints - user detail and the connected channels available to the authenticated user.
   name: lemlist Users API
   slug: lemlist-users-api
-- description: Connect, test and disconnect custom SMTP/IMAP sending accounts.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Connect, test and disconnect custom SMTP/IMAP sending accounts.
   name: lemlist Email Accounts API
   slug: lemlist-email-accounts-api
-- description: lemwarm mailbox warm-up - start, pause, and read or update warm-up settings per mailbox.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: lemwarm mailbox warm-up - start, pause, and read or update warm-up settings per mailbox.
   name: lemlist lemwarm API
   slug: lemlist-lemwarm-api
-- description: Threshold alerts on deliverability metrics - create, read, update and delete.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: Threshold alerts on deliverability metrics - create, read, update and delete.
   name: lemlist Deliverability Alerts API
   slug: lemlist-deliverability-alerts-api
-- description: The custom field definitions available on leads, contacts and companies.
+- baseURL: https://api.lemlist.com/api
+  baseurl_source: declared
+  description: The custom field definitions available on leads, contacts and companies.
   name: lemlist Fields API
   slug: lemlist-fields-api
-- description: The Stats API from lemlist — 2 operation(s) for stats.
+- baseURL: https://app.lemlist.com/mcp
+  baseurl_source: declared
+  description: The Stats API from lemlist — 2 operation(s) for stats.
   name: lemlist Stats API
   slug: lemlist-stats-api
 artifact_total: 39
@@ -354,17 +396,17 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 60.7
+    contract_quality: 60.6
     developer_ergonomics: 78.6
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 65.0
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -376,7 +418,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/screenshots/lemlist-2026-06-20T184417.png
 security:

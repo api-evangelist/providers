@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
-- description: The Caption API allows you to request and manage closed captioning on your Videos.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Caption API allows you to request and manage closed captioning on your Videos.
   name: VidGrid Caption API
   slug: vidgrid-caption-api
-- description: The Folder API allows you to interact with folders on your VidGrid account.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Folder API allows you to interact with folders on your VidGrid account.
   name: VidGrid Folder API
   slug: vidgrid-folder-api
-- description: The Search API allows you to search for videos.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Search API allows you to search for videos.
   name: VidGrid Search API
   slug: vidgrid-search-api
-- description: The Video Creation Token API allows you to request a token that can be used to record or upload videos into your VidGrid account.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Video Creation Token API allows you to request a token that can be used to record or upload videos into your VidGrid account.
   name: VidGrid Token API
   slug: vidgrid-token-api
-- description: The User API allows you to interact with users on your VidGrid account.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The User API allows you to interact with users on your VidGrid account.
   name: VidGrid User API
   slug: vidgrid-user-api
-- description: The Video API allows you to interact with videos on your VidGrid account.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Video API allows you to interact with videos on your VidGrid account.
   name: VidGrid Video API
   slug: vidgrid-video-api
-- description: The Webhook API allows you to trigger webhook events.
+- baseURL: https://api.vidgrid.com/ContentManagement
+  baseurl_source: declared
+  description: The Webhook API allows you to trigger webhook events.
   name: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
 artifact_total: 21
@@ -227,7 +241,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -237,7 +251,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 41.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,7 +263,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
 security:

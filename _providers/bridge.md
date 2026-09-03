@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 128 operations · 57 acting
 api_count: 1
 apis:
-- description: The API Keys API from Bridge — 2 operation(s) for api keys.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The API Keys API from Bridge — 2 operation(s) for api keys.
   name: Bridge API Keys API
   slug: bridge-api-keys-api
-- description: The Associated Persons API from Bridge — 1 operation(s) for associated persons.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Associated Persons API from Bridge — 1 operation(s) for associated persons.
   name: Bridge Associated Persons API
   slug: bridge-associated-persons-api
-- description: The Batch Settlements API from Bridge — 1 operation(s) for batch settlements.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Batch Settlements API from Bridge — 1 operation(s) for batch settlements.
   name: Bridge Batch Settlements API
   slug: bridge-batch-settlements-api
-- description: The Bridge Wallets API from Bridge — 6 operation(s) for bridge wallets.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Bridge Wallets API from Bridge — 6 operation(s) for bridge wallets.
   name: Bridge Bridge Wallets API
   slug: bridge-bridge-wallets-api
-- description: The Cards API from Bridge — 18 operation(s) for cards.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Cards API from Bridge — 18 operation(s) for cards.
   name: Bridge Cards API
   slug: bridge-cards-api
-- description: The Crypto Return Policies API from Bridge — 2 operation(s) for crypto return policies.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Crypto Return Policies API from Bridge — 2 operation(s) for crypto return policies.
   name: Bridge Crypto Return Policies API
   slug: bridge-crypto-return-policies-api
-- description: The Customers API from Bridge — 9 operation(s) for customers.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Customers API from Bridge — 9 operation(s) for customers.
   name: Bridge Customers API
   slug: bridge-customers-api
-- description: The Developers API from Bridge — 2 operation(s) for developers.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Developers API from Bridge — 2 operation(s) for developers.
   name: Bridge Developers API
   slug: bridge-developers-api
-- description: The Exchange Rates API from Bridge — 1 operation(s) for exchange rates.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Exchange Rates API from Bridge — 1 operation(s) for exchange rates.
   name: Bridge Exchange Rates API
   slug: bridge-exchange-rates-api
-- description: The External Accounts API from Bridge — 6 operation(s) for external accounts.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The External Accounts API from Bridge — 6 operation(s) for external accounts.
   name: Bridge External Accounts API
   slug: bridge-external-accounts-api
-- description: The Fiat Payout Configuration API from Bridge — 1 operation(s) for fiat payout configuration.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Fiat Payout Configuration API from Bridge — 1 operation(s) for fiat payout configuration.
   name: Bridge Fiat Payout Configuration API
   slug: bridge-fiat-payout-configuration-api
-- description: The Funds Requests API from Bridge — 1 operation(s) for funds requests.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Funds Requests API from Bridge — 1 operation(s) for funds requests.
   name: Bridge Funds Requests API
   slug: bridge-funds-requests-api
-- description: The KYC Links API from Bridge — 2 operation(s) for kyc links.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The KYC Links API from Bridge — 2 operation(s) for kyc links.
   name: Bridge KYC Links API
   slug: bridge-kyc-links-api
-- description: The Liquidation Addresses API from Bridge — 8 operation(s) for liquidation addresses.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Liquidation Addresses API from Bridge — 8 operation(s) for liquidation addresses.
   name: Bridge Liquidation Addresses API
   slug: bridge-liquidation-addresses-api
-- description: The Lists API from Bridge — 2 operation(s) for lists.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Lists API from Bridge — 2 operation(s) for lists.
   name: Bridge Lists API
   slug: bridge-lists-api
-- description: The Plaid API from Bridge — 2 operation(s) for plaid.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Plaid API from Bridge — 2 operation(s) for plaid.
   name: Bridge Plaid API
   slug: bridge-plaid-api
-- description: The Prefunded Accounts API from Bridge — 3 operation(s) for prefunded accounts.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Prefunded Accounts API from Bridge — 3 operation(s) for prefunded accounts.
   name: Bridge Prefunded Accounts API
   slug: bridge-prefunded-accounts-api
-- description: The Rewards API from Bridge — 4 operation(s) for rewards.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Rewards API from Bridge — 4 operation(s) for rewards.
   name: Bridge Rewards API
   slug: bridge-rewards-api
-- description: The Sandbox API from Bridge — 1 operation(s) for sandbox.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Sandbox API from Bridge — 1 operation(s) for sandbox.
   name: Bridge Sandbox API
   slug: bridge-sandbox-api
-- description: The Static Memos API from Bridge — 5 operation(s) for static memos.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Static Memos API from Bridge — 5 operation(s) for static memos.
   name: Bridge Static Memos API
   slug: bridge-static-memos-api
-- description: The Transfers API from Bridge — 5 operation(s) for transfers.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Transfers API from Bridge — 5 operation(s) for transfers.
   name: Bridge Transfers API
   slug: bridge-transfers-api
-- description: The Travel Rule API from Bridge — 1 operation(s) for travel rule.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Travel Rule API from Bridge — 1 operation(s) for travel rule.
   name: Bridge Travel Rule API
   slug: bridge-travel-rule-api
-- description: The Virtual Accounts API from Bridge — 7 operation(s) for virtual accounts.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Virtual Accounts API from Bridge — 7 operation(s) for virtual accounts.
   name: Bridge Virtual Accounts API
   slug: bridge-virtual-accounts-api
-- description: The Webhooks API from Bridge — 6 operation(s) for webhooks.
+- baseURL: https://api.bridge.xyz/v0
+  baseurl_source: declared
+  description: The Webhooks API from Bridge — 6 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-webhooks-api
 artifact_total: 55
@@ -362,7 +410,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -372,7 +420,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 50.3
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -390,7 +438,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

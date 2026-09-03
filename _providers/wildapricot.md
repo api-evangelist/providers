@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 105 operations · 57 acting
 api_count: 29
 apis:
-- description: Account management operations
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: Account management operations
   name: WildApricot Accounts API
   slug: wildapricot-accounts-api
-- description: The Attachments API from WildApricot — 3 operation(s) for attachments.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Attachments API from WildApricot — 3 operation(s) for attachments.
   name: WildApricot Attachments API
   slug: wildapricot-attachments-api
-- description: Contact/member management
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: Contact/member management
   name: WildApricot Contacts API
   slug: wildapricot-contacts-api
-- description: The Contacts.CustomFields API from WildApricot — 2 operation(s) for contacts.customfields.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Contacts.CustomFields API from WildApricot — 2 operation(s) for contacts.customfields.
   name: WildApricot Contacts.CustomFields API
   slug: wildapricot-contacts-customfields-api
-- description: The Contacts.SavedSearch API from WildApricot — 2 operation(s) for contacts.savedsearch.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Contacts.SavedSearch API from WildApricot — 2 operation(s) for contacts.savedsearch.
   name: WildApricot Contacts.SavedSearch API
   slug: wildapricot-contacts-savedsearch-api
-- description: The Donation.CustomFields API from WildApricot — 2 operation(s) for donation.customfields.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Donation.CustomFields API from WildApricot — 2 operation(s) for donation.customfields.
   name: WildApricot Donation.CustomFields API
   slug: wildapricot-donation-customfields-api
-- description: The Emailing.Drafts API from WildApricot — 2 operation(s) for emailing.drafts.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Emailing.Drafts API from WildApricot — 2 operation(s) for emailing.drafts.
   name: WildApricot Emailing.Drafts API
   slug: wildapricot-emailing-drafts-api
-- description: The Emailing.Operations API from WildApricot — 8 operation(s) for emailing.operations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Emailing.Operations API from WildApricot — 8 operation(s) for emailing.operations.
   name: WildApricot Emailing.Operations API
   slug: wildapricot-emailing-operations-api
-- description: The Emailing.SentEmailRecipients API from WildApricot — 1 operation(s) for emailing.sentemailrecipients.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Emailing.SentEmailRecipients API from WildApricot — 1 operation(s) for emailing.sentemailrecipients.
   name: WildApricot Emailing.SentEmailRecipients API
   slug: wildapricot-emailing-sentemailrecipients-api
-- description: The Emailing.SentEmails API from WildApricot — 2 operation(s) for emailing.sentemails.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Emailing.SentEmails API from WildApricot — 2 operation(s) for emailing.sentemails.
   name: WildApricot Emailing.SentEmails API
   slug: wildapricot-emailing-sentemails-api
-- description: Event and registration management
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: Event and registration management
   name: WildApricot Events API
   slug: wildapricot-events-api
-- description: The Events.EventRegistrations API from WildApricot — 4 operation(s) for events.eventregistrations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Events.EventRegistrations API from WildApricot — 4 operation(s) for events.eventregistrations.
   name: WildApricot Events.EventRegistrations API
   slug: wildapricot-events-eventregistrations-api
-- description: The Events.EventRegistrationTypes API from WildApricot — 2 operation(s) for events.eventregistrationtypes.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Events.EventRegistrationTypes API from WildApricot — 2 operation(s) for events.eventregistrationtypes.
   name: WildApricot Events.EventRegistrationTypes API
   slug: wildapricot-events-eventregistrationtypes-api
-- description: The Finances.AuditLog API from WildApricot — 2 operation(s) for finances.auditlog.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.AuditLog API from WildApricot — 2 operation(s) for finances.auditlog.
   name: WildApricot Finances.AuditLog API
   slug: wildapricot-finances-auditlog-api
-- description: The Finances.Donations API from WildApricot — 2 operation(s) for finances.donations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.Donations API from WildApricot — 2 operation(s) for finances.donations.
   name: WildApricot Finances.Donations API
   slug: wildapricot-finances-donations-api
-- description: The Finances.Invoices API from WildApricot — 4 operation(s) for finances.invoices.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.Invoices API from WildApricot — 4 operation(s) for finances.invoices.
   name: WildApricot Finances.Invoices API
   slug: wildapricot-finances-invoices-api
-- description: The Finances.PaymentAllocations API from WildApricot — 1 operation(s) for finances.paymentallocations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.PaymentAllocations API from WildApricot — 1 operation(s) for finances.paymentallocations.
   name: WildApricot Finances.PaymentAllocations API
   slug: wildapricot-finances-paymentallocations-api
-- description: The Finances.Payments API from WildApricot — 7 operation(s) for finances.payments.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.Payments API from WildApricot — 7 operation(s) for finances.payments.
   name: WildApricot Finances.Payments API
   slug: wildapricot-finances-payments-api
-- description: The Finances.Refunds API from WildApricot — 2 operation(s) for finances.refunds.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.Refunds API from WildApricot — 2 operation(s) for finances.refunds.
   name: WildApricot Finances.Refunds API
   slug: wildapricot-finances-refunds-api
-- description: The Finances.Tenders API from WildApricot — 2 operation(s) for finances.tenders.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Finances.Tenders API from WildApricot — 2 operation(s) for finances.tenders.
   name: WildApricot Finances.Tenders API
   slug: wildapricot-finances-tenders-api
-- description: The Internal.Features API from WildApricot — 1 operation(s) for internal.features.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Internal.Features API from WildApricot — 1 operation(s) for internal.features.
   name: WildApricot Internal.Features API
   slug: wildapricot-internal-features-api
-- description: The Membership.Bundles API from WildApricot — 2 operation(s) for membership.bundles.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Membership.Bundles API from WildApricot — 2 operation(s) for membership.bundles.
   name: WildApricot Membership.Bundles API
   slug: wildapricot-membership-bundles-api
-- description: The Membership.Groups API from WildApricot — 2 operation(s) for membership.groups.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Membership.Groups API from WildApricot — 2 operation(s) for membership.groups.
   name: WildApricot Membership.Groups API
   slug: wildapricot-membership-groups-api
-- description: The Membership.Levels API from WildApricot — 2 operation(s) for membership.levels.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Membership.Levels API from WildApricot — 2 operation(s) for membership.levels.
   name: WildApricot Membership.Levels API
   slug: wildapricot-membership-levels-api
-- description: The Membership.Operations API from WildApricot — 3 operation(s) for membership.operations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Membership.Operations API from WildApricot — 3 operation(s) for membership.operations.
   name: WildApricot Membership.Operations API
   slug: wildapricot-membership-operations-api
-- description: The OnlineStore.Orders API from WildApricot — 2 operation(s) for onlinestore.orders.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The OnlineStore.Orders API from WildApricot — 2 operation(s) for onlinestore.orders.
   name: WildApricot OnlineStore.Orders API
   slug: wildapricot-onlinestore-orders-api
-- description: The OnlineStore.Orders.Operations API from WildApricot — 1 operation(s) for onlinestore.orders.operations.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The OnlineStore.Orders.Operations API from WildApricot — 1 operation(s) for onlinestore.orders.operations.
   name: WildApricot OnlineStore.Orders.Operations API
   slug: wildapricot-onlinestore-orders-operations-api
-- description: The OnlineStore.Products API from WildApricot — 2 operation(s) for onlinestore.products.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The OnlineStore.Products API from WildApricot — 2 operation(s) for onlinestore.products.
   name: WildApricot OnlineStore.Products API
   slug: wildapricot-onlinestore-products-api
-- description: The Pictures API from WildApricot — 2 operation(s) for pictures.
+- baseURL: https://api.wildapricot.org/v2.2
+  baseurl_source: declared
+  description: The Pictures API from WildApricot — 2 operation(s) for pictures.
   name: WildApricot Pictures API
   slug: wildapricot-pictures-api
 artifact_total: 152
@@ -624,7 +682,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wildapricot/refs/heads/main/screenshots/wildapricot-2026-06-20T201504.png
 security:

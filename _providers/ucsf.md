@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: UCSF's Shibboleth SAML 2.0 identity provider, registered in the InCommon Federation and re-exported to eduGAIN. Signed, versioned, publicly retrievable federation metadata describing SingleSignOnServi
@@ -54,10 +54,14 @@ apis:
 - description: 'The 2026–27 UCSF course catalog, published through Leepfrog''s CourseLeaf. No public course, timetable or registrar API exists — the CourseLeaf JSON endpoints that some institutions leave open are not '
   name: UCSF Course Catalog (CourseLeaf)
   slug: course-catalog
-- description: Query the IDL document corpus by identifier or by Solr query syntax.
+- baseURL: https://api.profiles.ucsf.edu/json/v2/
+  baseurl_source: declared
+  description: Query the IDL document corpus by identifier or by Solr query syntax.
   name: University of California, San Francisco Documents API
   slug: ucsf-documents-api
-- description: Look up a UCSF person's public research profile.
+- baseURL: https://api.profiles.ucsf.edu/json/v2/
+  baseurl_source: declared
+  description: Look up a UCSF person's public research profile.
   name: University of California, San Francisco Profiles API
   slug: ucsf-profiles-api
 artifact_total: 22
@@ -285,7 +289,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -295,7 +299,7 @@ score:
     discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 41.1
+  previous_composite: 41.4
   provenance:
     conformance: first-party
     contracts:
@@ -310,7 +314,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

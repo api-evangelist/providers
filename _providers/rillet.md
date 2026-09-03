@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 110 operations · 61 acting
 api_count: 1
 apis:
-- description: The API Key API from Rillet — 1 operation(s) for api key.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The API Key API from Rillet — 1 operation(s) for api key.
   name: Rillet API Key API
   slug: rillet-api-key-api
-- description: The Bank accounts API from Rillet — 2 operation(s) for bank accounts.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Bank accounts API from Rillet — 2 operation(s) for bank accounts.
   name: Rillet Bank accounts API
   slug: rillet-bank-accounts-api
-- description: The Bank Transactions API from Rillet — 2 operation(s) for bank transactions.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Bank Transactions API from Rillet — 2 operation(s) for bank transactions.
   name: Rillet Bank Transactions API
   slug: rillet-bank-transactions-api
-- description: The Bill Payments API from Rillet — 2 operation(s) for bill payments.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Bill Payments API from Rillet — 2 operation(s) for bill payments.
   name: Rillet Bill Payments API
   slug: rillet-bill-payments-api
-- description: The Bills API from Rillet — 2 operation(s) for bills.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Bills API from Rillet — 2 operation(s) for bills.
   name: Rillet Bills API
   slug: rillet-bills-api
-- description: The Books periods API from Rillet — 1 operation(s) for books periods.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Books periods API from Rillet — 1 operation(s) for books periods.
   name: Rillet Books periods API
   slug: rillet-books-periods-api
-- description: The Charges API from Rillet — 2 operation(s) for charges.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Charges API from Rillet — 2 operation(s) for charges.
   name: Rillet Charges API
   slug: rillet-charges-api
-- description: The Chart of Accounts API from Rillet — 1 operation(s) for chart of accounts.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Chart of Accounts API from Rillet — 1 operation(s) for chart of accounts.
   name: Rillet Chart of Accounts API
   slug: rillet-chart-of-accounts-api
-- description: The Contract Items API from Rillet — 1 operation(s) for contract items.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Contract Items API from Rillet — 1 operation(s) for contract items.
   name: Rillet Contract Items API
   slug: rillet-contract-items-api
-- description: The Contracts API from Rillet — 5 operation(s) for contracts.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Contracts API from Rillet — 5 operation(s) for contracts.
   name: Rillet Contracts API
   slug: rillet-contracts-api
-- description: The Credit Memos API from Rillet — 4 operation(s) for credit memos.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Credit Memos API from Rillet — 4 operation(s) for credit memos.
   name: Rillet Credit Memos API
   slug: rillet-credit-memos-api
-- description: The Customer Payments API from Rillet — 1 operation(s) for customer payments.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Customer Payments API from Rillet — 1 operation(s) for customer payments.
   name: Rillet Customer Payments API
   slug: rillet-customer-payments-api
-- description: The Customers API from Rillet — 2 operation(s) for customers.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Customers API from Rillet — 2 operation(s) for customers.
   name: Rillet Customers API
   slug: rillet-customers-api
-- description: The Draft Contracts API from Rillet — 2 operation(s) for draft contracts.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Draft Contracts API from Rillet — 2 operation(s) for draft contracts.
   name: Rillet Draft Contracts API
   slug: rillet-draft-contracts-api
-- description: The Fields API from Rillet — 4 operation(s) for fields.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Fields API from Rillet — 4 operation(s) for fields.
   name: Rillet Fields API
   slug: rillet-fields-api
-- description: The Health API from Rillet — 1 operation(s) for health.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Health API from Rillet — 1 operation(s) for health.
   name: Rillet Health API
   slug: rillet-health-api
-- description: The Invoice payments API from Rillet — 3 operation(s) for invoice payments.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Invoice payments API from Rillet — 3 operation(s) for invoice payments.
   name: Rillet Invoice payments API
   slug: rillet-invoice-payments-api
-- description: The Invoices API from Rillet — 4 operation(s) for invoices.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Invoices API from Rillet — 4 operation(s) for invoices.
   name: Rillet Invoices API
   slug: rillet-invoices-api
-- description: The Journal Entries API from Rillet — 2 operation(s) for journal entries.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Journal Entries API from Rillet — 2 operation(s) for journal entries.
   name: Rillet Journal Entries API
   slug: rillet-journal-entries-api
-- description: The Organizations API from Rillet — 1 operation(s) for organizations.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Organizations API from Rillet — 1 operation(s) for organizations.
   name: Rillet Organizations API
   slug: rillet-organizations-api
-- description: The Products API from Rillet — 2 operation(s) for products.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Products API from Rillet — 2 operation(s) for products.
   name: Rillet Products API
   slug: rillet-products-api
-- description: The Reimbursements API from Rillet — 2 operation(s) for reimbursements.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Reimbursements API from Rillet — 2 operation(s) for reimbursements.
   name: Rillet Reimbursements API
   slug: rillet-reimbursements-api
-- description: The Reports API from Rillet — 7 operation(s) for reports.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Reports API from Rillet — 7 operation(s) for reports.
   name: Rillet Reports API
   slug: rillet-reports-api
-- description: The Subsidiaries API from Rillet — 2 operation(s) for subsidiaries.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Subsidiaries API from Rillet — 2 operation(s) for subsidiaries.
   name: Rillet Subsidiaries API
   slug: rillet-subsidiaries-api
-- description: The Tax rates API from Rillet — 1 operation(s) for tax rates.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Tax rates API from Rillet — 1 operation(s) for tax rates.
   name: Rillet Tax rates API
   slug: rillet-tax-rates-api
-- description: The Vendor Credit Applications API from Rillet — 1 operation(s) for vendor credit applications.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Vendor Credit Applications API from Rillet — 1 operation(s) for vendor credit applications.
   name: Rillet Vendor Credit Applications API
   slug: rillet-vendor-credit-applications-api
-- description: The Vendor Credits API from Rillet — 2 operation(s) for vendor credits.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Vendor Credits API from Rillet — 2 operation(s) for vendor credits.
   name: Rillet Vendor Credits API
   slug: rillet-vendor-credits-api
-- description: The Vendors API from Rillet — 2 operation(s) for vendors.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Vendors API from Rillet — 2 operation(s) for vendors.
   name: Rillet Vendors API
   slug: rillet-vendors-api
-- description: The Webhooks API from Rillet — 0 operation(s) for webhooks.
+- baseURL: https://api.rillet.com
+  baseurl_source: declared
+  description: The Webhooks API from Rillet — 0 operation(s) for webhooks.
   name: Rillet Webhooks API
   slug: rillet-webhooks-api
 artifact_total: 64
@@ -385,7 +443,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -395,7 +453,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 19.7
-  previous_composite: 46.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -407,7 +465,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/screenshots/rillet-2026-08-17T081608.png
 security:

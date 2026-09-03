@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: Create studies and retrieve results
+- baseURL: https://api.viewpoints.ai
+  baseurl_source: declared
+  description: Create studies and retrieve results
   name: Viewpoints AI Studies API
   slug: viewpoints-ai-studies-api
-- description: Upload stimuli files for use in studies
+- baseURL: https://api.viewpoints.ai
+  baseurl_source: declared
+  description: Upload stimuli files for use in studies
   name: Viewpoints AI Study File Uploads API
   slug: viewpoints-ai-study-file-uploads-api
-- description: Manage recurring study schedules
+- baseURL: https://api.viewpoints.ai
+  baseurl_source: declared
+  description: Manage recurring study schedules
   name: Viewpoints AI Study Schedules API
   slug: viewpoints-ai-study-schedules-api
 artifact_total: 11
@@ -168,7 +174,7 @@ score:
   band: thin
   composite: 38.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -194,8 +200,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/viewpoints-ai/refs/heads/main/screenshots/viewpoints-ai-2026-09-02T165900.png
 security:
 - kind: authentication
   name: Viewpoints Ai Authentication

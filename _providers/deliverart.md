@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 130 operations · 93 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Addresses API from Deliverart — 3 operation(s) for addresses.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Addresses API from Deliverart — 3 operation(s) for addresses.
   name: Deliverart Addresses API
   slug: deliverart-addresses-api
-- description: The Companies API from Deliverart — 2 operation(s) for companies.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Companies API from Deliverart — 2 operation(s) for companies.
   name: Deliverart Companies API
   slug: deliverart-companies-api
-- description: The Customer addresses API from Deliverart — 5 operation(s) for customer addresses.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Customer addresses API from Deliverart — 5 operation(s) for customer addresses.
   name: Deliverart Customer addresses API
   slug: deliverart-customer-addresses-api
-- description: The Customer business profiles API from Deliverart — 5 operation(s) for customer business profiles.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Customer business profiles API from Deliverart — 5 operation(s) for customer business profiles.
   name: Deliverart Customer business profiles API
   slug: deliverart-customer-business-profiles-api
-- description: The Customers API from Deliverart — 5 operation(s) for customers.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Customers API from Deliverart — 5 operation(s) for customers.
   name: Deliverart Customers API
   slug: deliverart-customers-api
-- description: The Deliveries API from Deliverart — 6 operation(s) for deliveries.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Deliveries API from Deliverart — 6 operation(s) for deliveries.
   name: Deliverart Deliveries API
   slug: deliverart-deliveries-api
-- description: The Delivery fee API from Deliverart — 3 operation(s) for delivery fee.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Delivery fee API from Deliverart — 3 operation(s) for delivery fee.
   name: Deliverart Delivery fee API
   slug: deliverart-delivery-fee-api
-- description: The Me API from Deliverart — 16 operation(s) for me.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Me API from Deliverart — 16 operation(s) for me.
   name: Deliverart Me API
   slug: deliverart-me-api
-- description: The Menu API from Deliverart — 35 operation(s) for menu.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Menu API from Deliverart — 35 operation(s) for menu.
   name: Deliverart Menu API
   slug: deliverart-menu-api
-- description: The Orders API from Deliverart — 17 operation(s) for orders.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Orders API from Deliverart — 17 operation(s) for orders.
   name: Deliverart Orders API
   slug: deliverart-orders-api
-- description: The Password reset API from Deliverart — 3 operation(s) for password reset.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Password reset API from Deliverart — 3 operation(s) for password reset.
   name: Deliverart Password reset API
   slug: deliverart-password-reset-api
-- description: The Points of sale API from Deliverart — 10 operation(s) for points of sale.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Points of sale API from Deliverart — 10 operation(s) for points of sale.
   name: Deliverart Points of sale API
   slug: deliverart-points-of-sale-api
-- description: The Registration API from Deliverart — 3 operation(s) for registration.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Registration API from Deliverart — 3 operation(s) for registration.
   name: Deliverart Registration API
   slug: deliverart-registration-api
-- description: The Reservation API from Deliverart — 10 operation(s) for reservation.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Reservation API from Deliverart — 10 operation(s) for reservation.
   name: Deliverart Reservation API
   slug: deliverart-reservation-api
-- description: The Take away API from Deliverart — 2 operation(s) for take away.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Take away API from Deliverart — 2 operation(s) for take away.
   name: Deliverart Take away API
   slug: deliverart-take-away-api
-- description: The Workshifts API from Deliverart — 5 operation(s) for workshifts.
+- baseURL: https://pubapi.deliverart.it
+  baseurl_source: declared
+  description: The Workshifts API from Deliverart — 5 operation(s) for workshifts.
   name: Deliverart Workshifts API
   slug: deliverart-workshifts-api
 artifact_total: 38
@@ -305,7 +337,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:

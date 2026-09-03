@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: Financial news articles with sentiment analysis and entity extraction
+- baseURL: https://api.finlight.me
+  baseurl_source: declared
+  description: Financial news articles with sentiment analysis and entity extraction
   name: Finlight Articles API
   slug: finlight-articles-api
-- description: Available news sources and their configuration
+- baseURL: https://api.finlight.me
+  baseurl_source: declared
+  description: Available news sources and their configuration
   name: Finlight Sources API
   slug: finlight-sources-api
 artifact_total: 22
@@ -218,7 +222,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
-- description: Investor accounts and capital activity
+- baseURL: https://api.ssctech.example.com/geneva/v1
+  baseurl_source: declared
+  description: Investor accounts and capital activity
   name: SS&C Geneva Investors API
   slug: ssc-geneva-investors-api
-- description: Net Asset Value calculation and reporting
+- baseURL: https://api.ssctech.example.com/geneva/v1
+  baseurl_source: declared
+  description: Net Asset Value calculation and reporting
   name: SS&C Geneva NAV API
   slug: ssc-geneva-nav-api
-- description: Portfolio and fund management
+- baseURL: https://api.ssctech.example.com/geneva/v1
+  baseurl_source: declared
+  description: Portfolio and fund management
   name: SS&C Geneva Portfolios API
   slug: ssc-geneva-portfolios-api
-- description: Portfolio positions and holdings
+- baseURL: https://api.ssctech.example.com/geneva/v1
+  baseurl_source: declared
+  description: Portfolio positions and holdings
   name: SS&C Geneva Positions API
   slug: ssc-geneva-positions-api
-- description: Trade capture and processing
+- baseURL: https://api.ssctech.example.com/geneva/v1
+  baseurl_source: declared
+  description: Trade capture and processing
   name: SS&C Geneva Trades API
   slug: ssc-geneva-trades-api
 artifact_total: 30
@@ -264,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:

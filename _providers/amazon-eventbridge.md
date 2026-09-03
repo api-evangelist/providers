@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 14 acting
 api_count: 1
 apis:
-- description: Operations for managing event archives.
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing event archives.
   name: Amazon EventBridge Archives API
   slug: amazon-eventbridge-archives-api
-- description: Operations for managing event buses.
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing event buses.
   name: Amazon EventBridge Event Buses API
   slug: amazon-eventbridge-event-buses-api
-- description: Operations for putting events to EventBridge.
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: Operations for putting events to EventBridge.
   name: Amazon EventBridge Events API
   slug: amazon-eventbridge-events-api
-- description: Operations for managing EventBridge rules.
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing EventBridge rules.
   name: Amazon EventBridge Rules API
   slug: amazon-eventbridge-rules-api
-- description: Operations for managing rule targets.
+- baseURL: https://events.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing rule targets.
   name: Amazon EventBridge Targets API
   slug: amazon-eventbridge-targets-api
 arazzos:
@@ -631,7 +641,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -641,7 +651,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 61.6
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -650,7 +660,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/screenshots/amazon-eventbridge-2026-06-20T171644.png
 security:

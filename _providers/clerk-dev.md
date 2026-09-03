@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 5
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 80 operations · 54 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: Identifiers permitted or denied from signing up.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Identifiers permitted or denied from signing up.
   name: Clerk Allowlist & Blocklist API
   slug: clerk-dev-allowlist-blocklist-api
-- description: Browser / device clients tracking active sessions.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Browser / device clients tracking active sessions.
   name: Clerk Clients API
   slug: clerk-dev-clients-api
-- description: Email addresses, phone numbers, and message templates.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Email addresses, phone numbers, and message templates.
   name: Clerk Email & SMS API
   slug: clerk-dev-email-sms-api
-- description: Application-level sign-up invitations.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Application-level sign-up invitations.
   name: Clerk Invitations API
   slug: clerk-dev-invitations-api
-- description: Public keys for verifying Clerk-issued JWTs.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Public keys for verifying Clerk-issued JWTs.
   name: Clerk JWKS API
   slug: clerk-dev-jwks-api
-- description: Named claim templates for custom session tokens.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Named claim templates for custom session tokens.
   name: Clerk JWT Templates API
   slug: clerk-dev-jwt-templates-api
-- description: OAuth applications where Clerk is the identity provider.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: OAuth applications where Clerk is the identity provider.
   name: Clerk OAuth Applications API
   slug: clerk-dev-oauth-applications-api
-- description: Invitations to join an organization.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Invitations to join an organization.
   name: Clerk Organization Invitations API
   slug: clerk-dev-organization-invitations-api
-- description: Members of an organization and their roles.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Members of an organization and their roles.
   name: Clerk Organization Memberships API
   slug: clerk-dev-organization-memberships-api
-- description: Multi-tenant organizations.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Multi-tenant organizations.
   name: Clerk Organizations API
   slug: clerk-dev-organizations-api
-- description: Enterprise SSO connections.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Enterprise SSO connections.
   name: Clerk SAML & Enterprise Connections API
   slug: clerk-dev-saml-enterprise-connections-api
-- description: User sessions and session tokens.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: User sessions and session tokens.
   name: Clerk Sessions API
   slug: clerk-dev-sessions-api
-- description: Sign-up attempts, sign-in tokens, and actor tokens.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Sign-up attempts, sign-in tokens, and actor tokens.
   name: Clerk Sign-ups & Tokens API
   slug: clerk-dev-sign-ups-tokens-api
-- description: Create and manage users and their identities.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Create and manage users and their identities.
   name: Clerk Users API
   slug: clerk-dev-users-api
-- description: Svix-powered webhook portal management.
+- baseURL: https://api.clerk.com/v1
+  baseurl_source: declared
+  description: Svix-powered webhook portal management.
   name: Clerk Webhooks API
   slug: clerk-dev-webhooks-api
 artifact_total: 39
@@ -243,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-dev/refs/heads/main/screenshots/clerk-dev-2026-07-25T205602.png
 security:

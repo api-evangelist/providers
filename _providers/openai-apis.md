@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 28 operations · 21 acting
 api_count: 7
 apis:
-- description: Manage AI assistants
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Manage AI assistants
   name: OpenAI APIs Assistants API
   slug: openai-apis-assistants-api
-- description: Chat completion operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Chat completion operations
   name: OpenAI APIs Chat API
   slug: openai-apis-chat-api
-- description: Legacy text completion operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Legacy text completion operations
   name: OpenAI APIs Completions API
   slug: openai-apis-completions-api
-- description: Text embedding operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Text embedding operations
   name: OpenAI APIs Embeddings API
   slug: openai-apis-embeddings-api
-- description: Image generation, editing, and variation operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Image generation, editing, and variation operations
   name: OpenAI APIs Images API
   slug: openai-apis-images-api
-- description: Manage messages within threads
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Manage messages within threads
   name: OpenAI APIs Messages API
   slug: openai-apis-messages-api
-- description: Content moderation operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Content moderation operations
   name: OpenAI APIs Moderations API
   slug: openai-apis-moderations-api
-- description: Execute assistants on threads
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Execute assistants on threads
   name: OpenAI APIs Runs API
   slug: openai-apis-runs-api
-- description: Text-to-speech operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Text-to-speech operations
   name: OpenAI APIs Speech API
   slug: openai-apis-speech-api
-- description: Manage conversation threads
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Manage conversation threads
   name: OpenAI APIs Threads API
   slug: openai-apis-threads-api
-- description: Speech-to-text transcription operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Speech-to-text transcription operations
   name: OpenAI APIs Transcription API
   slug: openai-apis-transcription-api
-- description: Audio translation operations
+- baseURL: https://api.openai.com/v1
+  baseurl_source: declared
+  description: Audio translation operations
   name: OpenAI APIs Translation API
   slug: openai-apis-translation-api
 artifact_total: 93
@@ -421,7 +445,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai-apis/refs/heads/main/screenshots/openai-apis-2026-08-17T083218.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Create and manage data migration (import) jobs.
+- baseURL: https://www.import2.com/api/v2.1
+  baseurl_source: declared
+  description: Create and manage data migration (import) jobs.
   name: Import2 Imports API
   slug: import2-imports-api
-- description: Supported source and destination migration tools.
+- baseURL: https://www.import2.com/api/v2.1
+  baseurl_source: declared
+  description: Supported source and destination migration tools.
   name: Import2 Tools API
   slug: import2-tools-api
 artifact_total: 10
@@ -208,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:

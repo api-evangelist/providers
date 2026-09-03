@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -47,37 +47,59 @@ apis:
 - description: Outbound webhooks that POST subscription lifecycle events (INITIAL_PURCHASE, RENEWAL, CANCELLATION, EXPIRATION, BILLING_ISSUE, PRODUCT_CHANGE, and more) to a customer endpoint, secured with an Authori
   name: RevenueCat Webhooks
   slug: revenuecat-webhooks
-- description: v2 app (platform integration) management.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 app (platform integration) management.
   name: RevenueCat Apps API
   slug: revenuecat-apps-api
-- description: v2 customer management.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 customer management.
   name: RevenueCat Customers API
   slug: revenuecat-customers-api
-- description: v1 promotional entitlement grant and revoke.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v1 promotional entitlement grant and revoke.
   name: RevenueCat Entitlements (v1) API
   slug: revenuecat-entitlements-v1-api
-- description: v2 entitlement definitions.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 entitlement definitions.
   name: RevenueCat Entitlements (v2) API
   slug: revenuecat-entitlements-v2-api
-- description: v1 offering fetch and override.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v1 offering fetch and override.
   name: RevenueCat Offerings (v1) API
   slug: revenuecat-offerings-v1-api
-- description: v2 offering definitions.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 offering definitions.
   name: RevenueCat Offerings (v2) API
   slug: revenuecat-offerings-v2-api
-- description: v2 package definitions within an offering.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 package definitions within an offering.
   name: RevenueCat Packages API
   slug: revenuecat-packages-api
-- description: v2 product catalog management.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 product catalog management.
   name: RevenueCat Products API
   slug: revenuecat-products-api
-- description: v2 project management.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v2 project management.
   name: RevenueCat Projects API
   slug: revenuecat-projects-api
-- description: v1 receipt validation and transaction lifecycle operations.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v1 receipt validation and transaction lifecycle operations.
   name: RevenueCat Purchases API
   slug: revenuecat-purchases-api
-- description: v1 customer (app user) records, attributes, and state.
+- baseURL: https://api.revenuecat.com/v1
+  baseurl_source: declared
+  description: v1 customer (app user) records, attributes, and state.
   name: RevenueCat Subscribers API
   slug: revenuecat-subscribers-api
 artifact_total: 31
@@ -195,7 +217,7 @@ score:
   band: thin
   composite: 38.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +240,9 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revenuecat/refs/heads/main/screenshots/revenuecat-2026-09-02T153711.png
 security:
 - kind: authentication
   name: Revenuecat Authentication

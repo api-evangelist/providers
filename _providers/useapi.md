@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,46 +36,70 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Cross-cutting account API for the useapi.net subscription itself — retrieve account details and the configured service accounts, set the default replyUrl webhook applied to every API, and query per-bo
   name: useapi.net Account Management API v2
   slug: account-v2
-- description: The Account API from useapi.net — 4 operation(s) for account.
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: The Account API from useapi.net — 4 operation(s) for account.
   name: useapi.net Account API
   slug: useapi-account-api
-- description: Dreamina API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: Dreamina API v1 by useapi.net
   name: useapi.net Dreamina API
   slug: useapi-dreamina-api
-- description: InsightFaceSwap API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: InsightFaceSwap API v1 by useapi.net
   name: useapi.net Faceswap API
   slug: useapi-faceswap-api
-- description: FlowMusic API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: FlowMusic API v1 by useapi.net
   name: useapi.net Flowmusic API
   slug: useapi-flowmusic-api
-- description: Google Flow API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: Google Flow API v1 by useapi.net
   name: useapi.net Google Flow API
   slug: useapi-google-flow-api
-- description: The Jobs API from useapi.net — 12 operation(s) for jobs.
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: The Jobs API from useapi.net — 12 operation(s) for jobs.
   name: useapi.net Jobs API
   slug: useapi-jobs-api
-- description: Kling API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: Kling API v1 by useapi.net
   name: useapi.net Kling API
   slug: useapi-kling-api
-- description: MiniMax API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: MiniMax API v1 by useapi.net
   name: useapi.net Minimax API
   slug: useapi-minimax-api
-- description: Mureka API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: Mureka API v1 by useapi.net
   name: useapi.net Mureka API
   slug: useapi-mureka-api
-- description: PixVerse API v2 (web) by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: PixVerse API v2 (web) by useapi.net
   name: useapi.net Pixverse API
   slug: useapi-pixverse-api
-- description: Runway API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: Runway API v1 by useapi.net
   name: useapi.net Runwayml API
   slug: useapi-runwayml-api
-- description: TemPolor API v1 by useapi.net
+- baseURL: https://api.useapi.net/v1/google-flow
+  baseurl_source: declared
+  description: TemPolor API v1 by useapi.net
   name: useapi.net Tempolor API
   slug: useapi-tempolor-api
 artifact_total: 29
@@ -330,7 +366,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -340,7 +376,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 51.8
+  previous_composite: 41.6
   provenance:
     conformance: derived
     contracts:
@@ -351,8 +387,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/screenshots/useapi-2026-08-17T082646.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The AWS Glue API API from AWS Glue — 1 operation(s) for aws glue api.
+- baseURL: https://glue.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AWS Glue API API from AWS Glue — 1 operation(s) for aws glue api.
   name: AWS Glue AWS Glue API API
   slug: aws-glue-aws-glue-api-api
 artifact_total: 9
@@ -166,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/screenshots/aws-glue-2026-06-20T172756.png
 security:

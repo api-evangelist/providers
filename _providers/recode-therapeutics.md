@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Press releases, publications, corporate pages and site-specific custom post types.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: Press releases, publications, corporate pages and site-specific custom post types.
   name: ReCode Therapeutics Content API
   slug: recode-therapeutics-content-api
-- description: Route index and namespace metadata the install publishes about itself.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: Route index and namespace metadata the install publishes about itself.
   name: ReCode Therapeutics Discovery API
   slug: recode-therapeutics-discovery-api
-- description: oEmbed 1.0 provider endpoint for recodetx.com URLs.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for recodetx.com URLs.
   name: ReCode Therapeutics Embed API
   slug: recode-therapeutics-embed-api
-- description: The media library — images, PDFs, posters and decks attached to the site.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: The media library — images, PDFs, posters and decks attached to the site.
   name: ReCode Therapeutics Media API
   slug: recode-therapeutics-media-api
-- description: Author records. Personal data — read the x-personal-data annotation before use.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: Author records. Personal data — read the x-personal-data annotation before use.
   name: ReCode Therapeutics People API
   slug: recode-therapeutics-people-api
-- description: Cross-content search across every REST-exposed post type.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across every REST-exposed post type.
   name: ReCode Therapeutics Search API
   slug: recode-therapeutics-search-api
-- description: Categories, tags, and the registered type/status/taxonomy descriptors.
+- baseURL: https://recodetx.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags, and the registered type/status/taxonomy descriptors.
   name: ReCode Therapeutics Taxonomy API
   slug: recode-therapeutics-taxonomy-api
 artifact_total: 18
@@ -232,11 +257,11 @@ score:
   band: thin
   composite: 28.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 55.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.3
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
@@ -246,7 +271,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 28.7
   provenance:
     conformance: derived
     contracts:
@@ -262,8 +287,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/recode-therapeutics/refs/heads/main/screenshots/recode-therapeutics-2026-09-02T153045.png
 security:
 - kind: authentication
   name: Recode Therapeutics Authentication

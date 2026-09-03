@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 33 operations · 22 acting
 api_count: 4
 apis:
-- description: The Authentication API from Kurly — 1 operation(s) for authentication.
+- baseURL: https://kls.kurly.com
+  baseurl_source: declared
+  description: The Authentication API from Kurly — 1 operation(s) for authentication.
   name: Kurly Authentication API
   slug: kurly-authentication-api
-- description: The 배송운영 정책 API from Kurly — 26 operation(s) for 배송운영 정책.
+- baseURL: https://kls.kurly.com
+  baseurl_source: declared
+  description: The 배송운영 정책 API from Kurly — 26 operation(s) for 배송운영 정책.
   name: Kurly 배송운영 정책 API
   slug: kurly-default-api
-- description: The Delivery Tracking (배송추적) API from Kurly — 1 operation(s) for delivery tracking (배송추적).
+- baseURL: https://kls.kurly.com
+  baseurl_source: declared
+  description: The Delivery Tracking (배송추적) API from Kurly — 1 operation(s) for delivery tracking (배송추적).
   name: Kurly Delivery Tracking (배송추적) API
   slug: kurly-delivery-tracking-api
 arazzos:
@@ -260,7 +266,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

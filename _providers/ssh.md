@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,19 +48,29 @@ apis:
 - description: 'Teleport is a modern SSH infrastructure access platform providing certificate-based authentication, session recording, audit logging, and role-based access control for SSH, Kubernetes, databases, and '
   name: Teleport Access Management API
   slug: teleport-api
-- description: Authorized keys management for users
+- baseURL: https://api.openssh.example.com/v1
+  baseurl_source: declared
+  description: Authorized keys management for users
   name: SSH Authorized Keys API
   slug: ssh-authorized-keys-api
-- description: SSH certificate authority and certificate signing
+- baseURL: https://api.openssh.example.com/v1
+  baseurl_source: declared
+  description: SSH certificate authority and certificate signing
   name: SSH Certificates API
   slug: ssh-certificates-api
-- description: SSH server host key management
+- baseURL: https://api.openssh.example.com/v1
+  baseurl_source: declared
+  description: SSH server host key management
   name: SSH Host Keys API
   slug: ssh-host-keys-api
-- description: SSH key pair management
+- baseURL: https://api.openssh.example.com/v1
+  baseurl_source: declared
+  description: SSH key pair management
   name: SSH Keys API
   slug: ssh-keys-api
-- description: Known hosts verification and management
+- baseURL: https://api.openssh.example.com/v1
+  baseurl_source: declared
+  description: Known hosts verification and management
   name: SSH Known Hosts API
   slug: ssh-known-hosts-api
 artifact_total: 26
@@ -236,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssh/refs/heads/main/screenshots/ssh-2026-06-20T194434.png
 security:

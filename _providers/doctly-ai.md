@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: Upload documents for Markdown conversion and retrieve results.
+- baseURL: https://api.doctly.ai/api/v1
+  baseurl_source: declared
+  description: Upload documents for Markdown conversion and retrieve results.
   name: Doctly Documents API
   slug: doctly-ai-documents-api
-- description: Manage and run custom structured-data extractors.
+- baseURL: https://api.doctly.ai/api/v1
+  baseurl_source: declared
+  description: Manage and run custom structured-data extractors.
   name: Doctly Extractors API
   slug: doctly-ai-extractors-api
 artifact_total: 12
@@ -157,7 +161,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/screenshots/doctly-ai-2026-07-25T212214.png
 security:

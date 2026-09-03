@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,13 +55,19 @@ apis:
 - description: Bulk identifier conversion service for translating between PubChem CIDs, SIDs, and external identifiers such as CAS Registry Numbers, ChEMBL IDs, ChEBI IDs, and other registry identifiers at scale.
   name: PubChem Identifier Exchange Service
   slug: pubchem-identifier-exchange-service
-- description: Operations on compound records
+- baseURL: https://pubchem.ncbi.nlm.nih.gov/rest/pug
+  baseurl_source: declared
+  description: Operations on compound records
   name: PubChem Compounds API
   slug: pubchem-compounds-api
-- description: Chemical structure search operations
+- baseURL: https://pubchem.ncbi.nlm.nih.gov/rest/pug
+  baseurl_source: declared
+  description: Chemical structure search operations
   name: PubChem Structure Search API
   slug: pubchem-structure-search-api
-- description: Utility operations
+- baseURL: https://pubchem.ncbi.nlm.nih.gov/rest/pug
+  baseurl_source: declared
+  description: Utility operations
   name: PubChem Utilities API
   slug: pubchem-utilities-api
 artifact_total: 23
@@ -233,7 +239,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/screenshots/pubchem-2026-06-20T192236.png
 security:

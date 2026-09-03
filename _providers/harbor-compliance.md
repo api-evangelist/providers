@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 5 acting
 api_count: 1
 apis:
-- description: Annual reports, compliance filings, and deadline tracking.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: Annual reports, compliance filings, and deadline tracking.
   name: Harbor Compliance Compliance Filings API
   slug: harbor-compliance-compliance-filings-api
-- description: Business entity management including corporations, LLCs, and other legal entities.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: Business entity management including corporations, LLCs, and other legal entities.
   name: Harbor Compliance Entities API
   slug: harbor-compliance-entities-api
-- description: State and jurisdiction information for compliance requirements.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: State and jurisdiction information for compliance requirements.
   name: Harbor Compliance Jurisdictions API
   slug: harbor-compliance-jurisdictions-api
-- description: Business license applications, renewals, and status tracking across jurisdictions.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: Business license applications, renewals, and status tracking across jurisdictions.
   name: Harbor Compliance Licenses API
   slug: harbor-compliance-licenses-api
-- description: Compliance service orders and fulfillment tracking.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: Compliance service orders and fulfillment tracking.
   name: Harbor Compliance Orders API
   slug: harbor-compliance-orders-api
-- description: Registered agent appointment and management for business entities.
+- baseURL: https://api.harborcompliance.com/v1
+  baseurl_source: spec
+  description: Registered agent appointment and management for business entities.
   name: Harbor Compliance Registered Agents API
   slug: harbor-compliance-registered-agents-api
 artifact_total: 29
@@ -250,7 +262,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:

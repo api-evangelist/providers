@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Read account/subscriber information.
+- baseURL: https://api.justyo.co
+  baseurl_source: declared
+  description: Read account/subscriber information.
   name: justyo Account API
   slug: justyo-account-api
-- description: Send Yo notifications to subscribers.
+- baseURL: https://api.justyo.co
+  baseurl_source: declared
+  description: Send Yo notifications to subscribers.
   name: justyo Yo API
   slug: justyo-yo-api
 artifact_total: 9
@@ -167,7 +171,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

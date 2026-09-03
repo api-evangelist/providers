@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The Wix webhook surface delivers signed JWT events to subscriber URLs registered in the Wix Dev Center. Events cover Stores (products, inventory, collections, variants), eCommerce (cart, checkout, aba
   name: Wix Webhooks
   slug: webhooks
-- description: The Cart API from Wix — 3 operation(s) for cart.
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The Cart API from Wix — 3 operation(s) for cart.
   name: Wix Cart API
   slug: wix-cart-api
-- description: The Checkout API from Wix — 2 operation(s) for checkout.
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The Checkout API from Wix — 2 operation(s) for checkout.
   name: Wix Checkout API
   slug: wix-checkout-api
-- description: The OAuth API from Wix — 3 operation(s) for oauth.
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The OAuth API from Wix — 3 operation(s) for oauth.
   name: Wix OAuth API
   slug: wix-oauth-api
-- description: The Orders API from Wix — 3 operation(s) for orders.
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The Orders API from Wix — 3 operation(s) for orders.
   name: Wix Orders API
   slug: wix-orders-api
-- description: The Products API from Wix — 4 operation(s) for products.
+- baseURL: https://www.wixapis.com
+  baseurl_source: spec
+  description: The Products API from Wix — 4 operation(s) for products.
   name: Wix Products API
   slug: wix-products-api
 artifact_total: 49
@@ -253,7 +263,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -263,7 +273,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -272,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/screenshots/wix-2026-06-20T201529.png
 security:

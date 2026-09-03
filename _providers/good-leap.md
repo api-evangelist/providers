@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 53 operations · 21 acting
 api_count: 18
 apis:
-- description: The Authorization & Elevation Management API from Good Leap — 4 operation(s) for authorization & elevation management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Authorization & Elevation Management API from Good Leap — 4 operation(s) for authorization & elevation management.
   name: Good Leap Authorization & Elevation Management API
   slug: good-leap-authorization-elevation-management-api
-- description: The Calculate Payments API from Good Leap — 2 operation(s) for calculate payments.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Calculate Payments API from Good Leap — 2 operation(s) for calculate payments.
   name: Good Leap Calculate Payments API
   slug: good-leap-calculate-payments-api
-- description: The Case (loan stipulations) Management API from Good Leap — 5 operation(s) for case (loan stipulations) management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Case (loan stipulations) Management API from Good Leap — 5 operation(s) for case (loan stipulations) management.
   name: Good Leap Case (loan stipulations) Management API
   slug: good-leap-case-loan-stipulations-management-api
-- description: The Disclosures API from Good Leap — 1 operation(s) for disclosures.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Disclosures API from Good Leap — 1 operation(s) for disclosures.
   name: Good Leap Disclosures API
   slug: good-leap-disclosures-api
-- description: The Install Categories & Loan Limitations API from Good Leap — 3 operation(s) for install categories & loan limitations.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Install Categories & Loan Limitations API from Good Leap — 3 operation(s) for install categories & loan limitations.
   name: Good Leap Install Categories & Loan Limitations API
   slug: good-leap-install-categories-loan-limitations-api
-- description: The Loan Change Orders API from Good Leap — 3 operation(s) for loan change orders.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Change Orders API from Good Leap — 3 operation(s) for loan change orders.
   name: Good Leap Loan Change Orders API
   slug: good-leap-loan-change-orders-api
-- description: The Loan Documents Management API from Good Leap — 2 operation(s) for loan documents management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Documents Management API from Good Leap — 2 operation(s) for loan documents management.
   name: Good Leap Loan Documents Management API
   slug: good-leap-loan-documents-management-api
-- description: The Loan Notes Management API from Good Leap — 2 operation(s) for loan notes management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Notes Management API from Good Leap — 2 operation(s) for loan notes management.
   name: Good Leap Loan Notes Management API
   slug: good-leap-loan-notes-management-api
-- description: The Loan Status API from Good Leap — 6 operation(s) for loan status.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Status API from Good Leap — 6 operation(s) for loan status.
   name: Good Leap Loan Status API
   slug: good-leap-loan-status-api
-- description: The Loan Submission API from Good Leap — 2 operation(s) for loan submission.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Submission API from Good Leap — 2 operation(s) for loan submission.
   name: Good Leap Loan Submission API
   slug: good-leap-loan-submission-api
-- description: The Loan Tag Management API from Good Leap — 2 operation(s) for loan tag management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Loan Tag Management API from Good Leap — 2 operation(s) for loan tag management.
   name: Good Leap Loan Tag Management API
   slug: good-leap-loan-tag-management-api
-- description: The Milestone Management API from Good Leap — 2 operation(s) for milestone management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Milestone Management API from Good Leap — 2 operation(s) for milestone management.
   name: Good Leap Milestone Management API
   slug: good-leap-milestone-management-api
-- description: The Project Management API from Good Leap — 4 operation(s) for project management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Project Management API from Good Leap — 4 operation(s) for project management.
   name: Good Leap Project Management API
   slug: good-leap-project-management-api
-- description: The Promotions API from Good Leap — 1 operation(s) for promotions.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Promotions API from Good Leap — 1 operation(s) for promotions.
   name: Good Leap Promotions API
   slug: good-leap-promotions-api
-- description: The States & Channels API from Good Leap — 2 operation(s) for states & channels.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The States & Channels API from Good Leap — 2 operation(s) for states & channels.
   name: Good Leap States & Channels API
   slug: good-leap-states-channels-api
-- description: The Toolbox API from Good Leap — 1 operation(s) for toolbox.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Toolbox API from Good Leap — 1 operation(s) for toolbox.
   name: Good Leap Toolbox API
   slug: good-leap-toolbox-api
-- description: The User Management API from Good Leap — 7 operation(s) for user management.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The User Management API from Good Leap — 7 operation(s) for user management.
   name: Good Leap User Management API
   slug: good-leap-user-management-api
-- description: The Verify Loan Details API from Good Leap — 1 operation(s) for verify loan details.
+- baseURL: https://api.goodleap.com
+  baseurl_source: declared
+  description: The Verify Loan Details API from Good Leap — 1 operation(s) for verify loan details.
   name: Good Leap Verify Loan Details API
   slug: good-leap-verify-loan-details-api
 arazzos:
@@ -289,7 +325,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -299,7 +335,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.4
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +353,8 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: APIs for Xbox Live gaming services.
   name: Xbox Live API
   slug: xbox-live-api
-- description: The Drive API from Microsoft Products — 4 operation(s) for drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Drive API from Microsoft Products — 4 operation(s) for drive.
   name: Microsoft Products Drive API
   slug: microsoft-products-drive-api
-- description: The Mail API from Microsoft Products — 4 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Mail API from Microsoft Products — 4 operation(s) for mail.
   name: Microsoft Products Mail API
   slug: microsoft-products-mail-api
-- description: The Teams API from Microsoft Products — 4 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: spec
+  description: The Teams API from Microsoft Products — 4 operation(s) for teams.
   name: Microsoft Products Teams API
   slug: microsoft-products-teams-api
 artifact_total: 22
@@ -190,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-products/refs/heads/main/screenshots/microsoft-products-2026-06-20T185528.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 36 operations · 20 acting · 20 human-in-the-loop
 api_count: 1
 apis:
-- description: API information and endpoints
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: API information and endpoints
   name: NaviStone API Info API
   slug: navistone-api-info-api
-- description: Campaign management
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Campaign management
   name: NaviStone Campaigns API
   slug: navistone-campaigns-api
-- description: Client management
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Client management
   name: NaviStone Clients API
   slug: navistone-clients-api
-- description: Domain management
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Domain management
   name: NaviStone Domains API
   slug: navistone-domains-api
-- description: Geographic targeting
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Geographic targeting
   name: NaviStone Geo Targeting API
   slug: navistone-geo-targeting-api
-- description: Health checks
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Health checks
   name: NaviStone Health API
   slug: navistone-health-api
-- description: Output tracking
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Output tracking
   name: NaviStone Output API
   slug: navistone-output-api
-- description: Audience segments
+- baseURL: https://docs.navistone.com
+  baseurl_source: declared
+  description: Audience segments
   name: NaviStone Segments API
   slug: navistone-segments-api
 arazzos:
@@ -260,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
 security:

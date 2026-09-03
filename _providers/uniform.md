@@ -33,130 +33,212 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
   name: Uniform Aggregates API
   slug: uniform-aggregates-api
-- description: The AI Agents API from Uniform — 2 operation(s) for ai agents.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The AI Agents API from Uniform — 2 operation(s) for ai agents.
   name: Uniform AI Agents API
   slug: uniform-ai-agents-api
-- description: The Assets API from Uniform — 1 operation(s) for assets.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Assets API from Uniform — 1 operation(s) for assets.
   name: Uniform Assets API
   slug: uniform-assets-api
-- description: The Authentication API from Uniform — 1 operation(s) for authentication.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Authentication API from Uniform — 1 operation(s) for authentication.
   name: Uniform Authentication API
   slug: uniform-authentication-api
-- description: The Categories API from Uniform — 1 operation(s) for categories.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Categories API from Uniform — 1 operation(s) for categories.
   name: Uniform Categories API
   slug: uniform-categories-api
-- description: The Component Definitions API from Uniform — 1 operation(s) for component definitions.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Component Definitions API from Uniform — 1 operation(s) for component definitions.
   name: Uniform Component Definitions API
   slug: uniform-component-definitions-api
-- description: The Compositions & Component/Composition Patterns API from Uniform — 2 operation(s) for compositions & component/composition patterns.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Compositions & Component/Composition Patterns API from Uniform — 2 operation(s) for compositions & component/composition patterns.
   name: Uniform Compositions & Component/Composition Patterns API
   slug: uniform-compositions-component-composition-patterns-api
-- description: The Content Types API from Uniform — 1 operation(s) for content types.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Content Types API from Uniform — 1 operation(s) for content types.
   name: Uniform Content Types API
   slug: uniform-content-types-api
-- description: The Data Sources API from Uniform — 2 operation(s) for data sources.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Data Sources API from Uniform — 2 operation(s) for data sources.
   name: Uniform Data Sources API
   slug: uniform-data-sources-api
-- description: The Data Types API from Uniform — 1 operation(s) for data types.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Data Types API from Uniform — 1 operation(s) for data types.
   name: Uniform Data Types API
   slug: uniform-data-types-api
-- description: The Dimensions API from Uniform — 1 operation(s) for dimensions.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Dimensions API from Uniform — 1 operation(s) for dimensions.
   name: Uniform Dimensions API
   slug: uniform-dimensions-api
-- description: The Enrichments API from Uniform — 2 operation(s) for enrichments.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Enrichments API from Uniform — 2 operation(s) for enrichments.
   name: Uniform Enrichments API
   slug: uniform-enrichments-api
-- description: The Entries & Entry Patterns API from Uniform — 2 operation(s) for entries & entry patterns.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Entries & Entry Patterns API from Uniform — 2 operation(s) for entries & entry patterns.
   name: Uniform Entries & Entry Patterns API
   slug: uniform-entries-entry-patterns-api
-- description: The Favorites API from Uniform — 1 operation(s) for favorites.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Favorites API from Uniform — 1 operation(s) for favorites.
   name: Uniform Favorites API
   slug: uniform-favorites-api
-- description: The Files API from Uniform — 1 operation(s) for files.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Files API from Uniform — 1 operation(s) for files.
   name: Uniform Files API
   slug: uniform-files-api
-- description: The Insights API from Uniform — 3 operation(s) for insights.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Insights API from Uniform — 3 operation(s) for insights.
   name: Uniform Insights API
   slug: uniform-insights-api
-- description: The Integrations API from Uniform — 5 operation(s) for integrations.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Integrations API from Uniform — 5 operation(s) for integrations.
   name: Uniform Integrations API
   slug: uniform-integrations-api
-- description: The Labels API from Uniform — 1 operation(s) for labels.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Labels API from Uniform — 1 operation(s) for labels.
   name: Uniform Labels API
   slug: uniform-labels-api
-- description: The Locales API from Uniform — 1 operation(s) for locales.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Locales API from Uniform — 1 operation(s) for locales.
   name: Uniform Locales API
   slug: uniform-locales-api
-- description: The Manifest API from Uniform — 1 operation(s) for manifest.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Manifest API from Uniform — 1 operation(s) for manifest.
   name: Uniform Manifest API
   slug: uniform-manifest-api
-- description: The Members API from Uniform — 3 operation(s) for members.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Members API from Uniform — 3 operation(s) for members.
   name: Uniform Members API
   slug: uniform-members-api
-- description: The Notifications API from Uniform — 1 operation(s) for notifications.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Notifications API from Uniform — 1 operation(s) for notifications.
   name: Uniform Notifications API
   slug: uniform-notifications-api
-- description: The Policies API from Uniform — 1 operation(s) for policies.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Policies API from Uniform — 1 operation(s) for policies.
   name: Uniform Policies API
   slug: uniform-policies-api
-- description: The Preview Settings API from Uniform — 2 operation(s) for preview settings.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Preview Settings API from Uniform — 2 operation(s) for preview settings.
   name: Uniform Preview Settings API
   slug: uniform-preview-settings-api
-- description: The Project Map API from Uniform — 2 operation(s) for project map.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Project Map API from Uniform — 2 operation(s) for project map.
   name: Uniform Project Map API
   slug: uniform-project-map-api
-- description: The Projects API from Uniform — 2 operation(s) for projects.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Projects API from Uniform — 2 operation(s) for projects.
   name: Uniform Projects API
   slug: uniform-projects-api
-- description: The Prompts API from Uniform — 1 operation(s) for prompts.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Prompts API from Uniform — 1 operation(s) for prompts.
   name: Uniform Prompts API
   slug: uniform-prompts-api
-- description: The Quirks API from Uniform — 1 operation(s) for quirks.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Quirks API from Uniform — 1 operation(s) for quirks.
   name: Uniform Quirks API
   slug: uniform-quirks-api
-- description: The Redirects API from Uniform — 1 operation(s) for redirects.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Redirects API from Uniform — 1 operation(s) for redirects.
   name: Uniform Redirects API
   slug: uniform-redirects-api
-- description: The Relationships API from Uniform — 1 operation(s) for relationships.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Relationships API from Uniform — 1 operation(s) for relationships.
   name: Uniform Relationships API
   slug: uniform-relationships-api
-- description: The Releases API from Uniform — 3 operation(s) for releases.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Releases API from Uniform — 3 operation(s) for releases.
   name: Uniform Releases API
   slug: uniform-releases-api
-- description: The Roles API from Uniform — 1 operation(s) for roles.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Roles API from Uniform — 1 operation(s) for roles.
   name: Uniform Roles API
   slug: uniform-roles-api
-- description: The Routes API from Uniform — 1 operation(s) for routes.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Routes API from Uniform — 1 operation(s) for routes.
   name: Uniform Routes API
   slug: uniform-routes-api
-- description: The Security API from Uniform — 1 operation(s) for security.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Security API from Uniform — 1 operation(s) for security.
   name: Uniform Security API
   slug: uniform-security-api
-- description: The Signals API from Uniform — 1 operation(s) for signals.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Signals API from Uniform — 1 operation(s) for signals.
   name: Uniform Signals API
   slug: uniform-signals-api
-- description: The Teams API from Uniform — 1 operation(s) for teams.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Teams API from Uniform — 1 operation(s) for teams.
   name: Uniform Teams API
   slug: uniform-teams-api
-- description: The Tests API from Uniform — 1 operation(s) for tests.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Tests API from Uniform — 1 operation(s) for tests.
   name: Uniform Tests API
   slug: uniform-tests-api
-- description: The UTM Mapper API from Uniform — 1 operation(s) for utm mapper.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The UTM Mapper API from Uniform — 1 operation(s) for utm mapper.
   name: Uniform UTM Mapper API
   slug: uniform-utm-mapper-api
-- description: The Vercel API from Uniform — 1 operation(s) for vercel.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Vercel API from Uniform — 1 operation(s) for vercel.
   name: Uniform Vercel API
   slug: uniform-vercel-api
-- description: The Webhooks API from Uniform — 1 operation(s) for webhooks.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Webhooks API from Uniform — 1 operation(s) for webhooks.
   name: Uniform Webhooks API
   slug: uniform-webhooks-api
-- description: The Workflows API from Uniform — 1 operation(s) for workflows.
+- baseURL: https://uniform.app
+  baseurl_source: declared
+  description: The Workflows API from Uniform — 1 operation(s) for workflows.
   name: Uniform Workflows API
   slug: uniform-workflows-api
 artifact_total: 87
@@ -450,7 +532,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -460,7 +542,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -471,7 +553,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/screenshots/uniform-2026-08-17T082601.png
 security:

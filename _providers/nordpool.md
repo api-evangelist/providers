@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,52 @@ agentic_access:
   summary_line: 59 operations
 api_count: 2
 apis:
-- description: WebSocket API for continuous intraday power trading - clients speak STOMP over secure WebSocket (port 443) to parallel Market Data and Trading services for streaming contracts, order books, and capaci
+- baseURL: https://www.nordpoolgroup.com/en/trading/api/
+  baseurl_source: declared
+  description: WebSocket API for continuous intraday power trading - clients speak STOMP over secure WebSocket (port 443) to parallel Market Data and Trading services for streaming contracts, order books, and capaci
   name: Nord Pool Intraday Trading API
   slug: nordpool-intraday-trading-api
 - description: JSON REST API for day-ahead auction trading - integrated order submission and trade capture across the Nordic and Baltic auctions, CWE auctions, Poland, the GB Half Hourly Auction, and SEM-GB intraday
   name: Nord Pool Auction API
   slug: nordpool-auction-trading-api
-- description: The Auction API from Nord Pool — 14 operation(s) for auction.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The Auction API from Nord Pool — 14 operation(s) for auction.
   name: Nord Pool Auction API
   slug: nordpool-auction-api
-- description: The BalanceMarket API from Nord Pool — 2 operation(s) for balancemarket.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The BalanceMarket API from Nord Pool — 2 operation(s) for balancemarket.
   name: Nord Pool BalanceMarket API
   slug: nordpool-balancemarket-api
-- description: Public day-ahead auction prices and price indices.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: Public day-ahead auction prices and price indices.
   name: Nord Pool Day-Ahead Prices API
   slug: nordpool-day-ahead-prices-api
-- description: The ExchangeRate API from Nord Pool — 2 operation(s) for exchangerate.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The ExchangeRate API from Nord Pool — 2 operation(s) for exchangerate.
   name: Nord Pool ExchangeRate API
   slug: nordpool-exchangerate-api
-- description: The Intraday API from Nord Pool — 17 operation(s) for intraday.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The Intraday API from Nord Pool — 17 operation(s) for intraday.
   name: Nord Pool Intraday API
   slug: nordpool-intraday-api
-- description: The PowerSystem API from Nord Pool — 17 operation(s) for powersystem.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The PowerSystem API from Nord Pool — 17 operation(s) for powersystem.
   name: Nord Pool PowerSystem API
   slug: nordpool-powersystem-api
-- description: The PriceCurves API from Nord Pool — 1 operation(s) for pricecurves.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The PriceCurves API from Nord Pool — 1 operation(s) for pricecurves.
   name: Nord Pool PriceCurves API
   slug: nordpool-pricecurves-api
-- description: The System API from Nord Pool — 4 operation(s) for system.
+- baseURL: https://data-api.nordpoolgroup.com
+  baseurl_source: declared
+  description: The System API from Nord Pool — 4 operation(s) for system.
   name: Nord Pool System API
   slug: nordpool-system-api
 artifact_total: 30
@@ -216,7 +234,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -226,7 +244,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 48.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +259,7 @@ score:
     regime_id: energy_utilities
     score: 47.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nordpool/refs/heads/main/screenshots/nordpool-2026-08-07T185517.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,10 +46,14 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Conversica Integrations API API from Conversica — 0 operation(s) for conversica integrations api.
+- baseURL: https://integrations-api.conversica.com
+  baseurl_source: declared
+  description: The Conversica Integrations API API from Conversica — 0 operation(s) for conversica integrations api.
   name: Conversica Conversica Integrations API
   slug: conversica-conversica-integrations-api-api
-- description: Posting Lead object data into the Conversica Platform.
+- baseURL: https://integrations-api.conversica.com
+  baseurl_source: declared
+  description: Posting Lead object data into the Conversica Platform.
   name: Conversica Leads API
   slug: conversica-leads-api
 artifact_total: 19
@@ -238,7 +255,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -248,7 +265,7 @@ score:
     discoverability: 75.9
     governance: 19.7
     operational_transparency: 26.3
-  previous_composite: 45.0
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,7 +283,7 @@ score:
     regime_id: education
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
 security:

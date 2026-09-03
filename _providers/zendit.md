@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 29 operations · 5 acting
 api_count: 8
 apis:
-- description: Wallet balance and account information
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Wallet balance and account information
   name: Zendit Account API
   slug: zendit-account-api
-- description: Brand catalog
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Brand catalog
   name: Zendit Brands API
   slug: zendit-brands-api
-- description: eSIM plans and activation
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: eSIM plans and activation
   name: Zendit eSIM API
   slug: zendit-esim-api
-- description: Mobile credit top-ups, bundles, and data plans
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Mobile credit top-ups, bundles, and data plans
   name: Zendit Mobile Top-Up API
   slug: zendit-mobile-top-up-api
-- description: Transaction reporting
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Transaction reporting
   name: Zendit Reports API
   slug: zendit-reports-api
-- description: Utility endpoints
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Utility endpoints
   name: Zendit Tools API
   slug: zendit-tools-api
-- description: Cross-product transaction queries
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Cross-product transaction queries
   name: Zendit Transactions API
   slug: zendit-transactions-api
-- description: Digital gift cards and utility bill payments
+- baseURL: https://api.zendit.io/v1
+  baseurl_source: declared
+  description: Digital gift cards and utility bill payments
   name: Zendit Vouchers API
   slug: zendit-vouchers-api
 artifact_total: 113
@@ -489,7 +505,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png
 security:

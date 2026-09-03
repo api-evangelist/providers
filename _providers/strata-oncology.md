@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +34,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: Registered types, taxonomies and statuses.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Registered types, taxonomies and statuses.
   name: Strata Oncology Discovery API
   slug: strata-oncology-discovery-api
-- description: Uploaded media items.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Uploaded media items.
   name: Strata Oncology Media API
   slug: strata-oncology-media-api
-- description: Website pages.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Website pages.
   name: Strata Oncology Pages API
   slug: strata-oncology-pages-api
-- description: Blog posts.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Blog posts.
   name: Strata Oncology Posts API
   slug: strata-oncology-posts-api
-- description: Press releases and published research.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Press releases and published research.
   name: Strata Oncology Publications API
   slug: strata-oncology-publications-api
-- description: Patient and provider resource documents.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Patient and provider resource documents.
   name: Strata Oncology Resources API
   slug: strata-oncology-resources-api
-- description: Cross-content-type search.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Cross-content-type search.
   name: Strata Oncology Search API
   slug: strata-oncology-search-api
-- description: Categories and tags.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags.
   name: Strata Oncology Taxonomy API
   slug: strata-oncology-taxonomy-api
-- description: Leadership and team member profiles.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Leadership and team member profiles.
   name: Strata Oncology Team API
   slug: strata-oncology-team-api
-- description: Published testimonials.
+- baseURL: https://strataoncology.com/wp-json
+  baseurl_source: declared
+  description: Published testimonials.
   name: Strata Oncology Testimonials API
   slug: strata-oncology-testimonials-api
 artifact_total: 24
@@ -213,7 +244,7 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -248,8 +279,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/strata-oncology/refs/heads/main/screenshots/strata-oncology-2026-09-02T160950.png
 security:
 - kind: authentication
   name: Strata Oncology Authentication

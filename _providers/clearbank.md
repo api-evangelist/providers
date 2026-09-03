@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -33,49 +45,79 @@ agentic_access:
   summary_line: 31 operations · 29 acting
 api_count: 11
 apis:
-- description: The Accounts API from ClearBank — 2 operation(s) for accounts.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Accounts API from ClearBank — 2 operation(s) for accounts.
   name: ClearBank Accounts API
   slug: clearbank-accounts-api
-- description: The CoP API from ClearBank — 1 operation(s) for cop.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The CoP API from ClearBank — 1 operation(s) for cop.
   name: ClearBank Co P API
   slug: clearbank-cop-api
-- description: The CreateFxQuoteEndpoint API from ClearBank — 1 operation(s) for createfxquoteendpoint.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The CreateFxQuoteEndpoint API from ClearBank — 1 operation(s) for createfxquoteendpoint.
   name: ClearBank Create Fx Quote Endpoint API
   slug: clearbank-createfxquoteendpoint-api
-- description: The Customer API from ClearBank — 6 operation(s) for customer.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Customer API from ClearBank — 6 operation(s) for customer.
   name: ClearBank Customer API
   slug: clearbank-customer-api
-- description: The Customer Due Diligence API from ClearBank — 1 operation(s) for customer due diligence.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Customer Due Diligence API from ClearBank — 1 operation(s) for customer due diligence.
   name: ClearBank Customer Due Diligence API
   slug: clearbank-customer-due-diligence-api
-- description: The ExternalCrossBorderCustomerPaymentsV4 API from ClearBank — 1 operation(s) for externalcrossbordercustomerpaymentsv4.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The ExternalCrossBorderCustomerPaymentsV4 API from ClearBank — 1 operation(s) for externalcrossbordercustomerpaymentsv4.
   name: ClearBank External Cross Border Customer Payments V4 API
   slug: clearbank-externalcrossbordercustomerpaymentsv4-api
-- description: The ExternalCustomerPaymentsV6 API from ClearBank — 1 operation(s) for externalcustomerpaymentsv6.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The ExternalCustomerPaymentsV6 API from ClearBank — 1 operation(s) for externalcustomerpaymentsv6.
   name: ClearBank External Customer Payments V6 API
   slug: clearbank-externalcustomerpaymentsv6-api
-- description: The ExternalInstitutionPaymentsV6 API from ClearBank — 1 operation(s) for externalinstitutionpaymentsv6.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The ExternalInstitutionPaymentsV6 API from ClearBank — 1 operation(s) for externalinstitutionpaymentsv6.
   name: ClearBank External Institution Payments V6 API
   slug: clearbank-externalinstitutionpaymentsv6-api
-- description: The ExternalReturnPaymentsV6 API from ClearBank — 1 operation(s) for externalreturnpaymentsv6.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The ExternalReturnPaymentsV6 API from ClearBank — 1 operation(s) for externalreturnpaymentsv6.
   name: ClearBank External Return Payments V6 API
   slug: clearbank-externalreturnpaymentsv6-api
-- description: The FpsPayments API from ClearBank — 2 operation(s) for fpspayments.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The FpsPayments API from ClearBank — 2 operation(s) for fpspayments.
   name: ClearBank Fps Payments API
   slug: clearbank-fpspayments-api
-- description: The Fx Orders API from ClearBank — 1 operation(s) for fx orders.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Fx Orders API from ClearBank — 1 operation(s) for fx orders.
   name: ClearBank Fx Orders API
   slug: clearbank-fx-orders-api
-- description: The Payments API from ClearBank — 3 operation(s) for payments.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Payments API from ClearBank — 3 operation(s) for payments.
   name: ClearBank Payments API
   slug: clearbank-payments-api
-- description: The Retail API from ClearBank — 2 operation(s) for retail.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The Retail API from ClearBank — 2 operation(s) for retail.
   name: ClearBank Retail API
   slug: clearbank-retail-api
-- description: The SCT Payments API from ClearBank — 4 operation(s) for sct payments.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The SCT Payments API from ClearBank — 4 operation(s) for sct payments.
   name: ClearBank SCT Payments API
   slug: clearbank-sct-payments-api
-- description: The SecondaryReferenceData API from ClearBank — 1 operation(s) for secondaryreferencedata.
+- baseURL: https://institution-api.clearbank.co.uk
+  baseurl_source: declared
+  description: The SecondaryReferenceData API from ClearBank — 1 operation(s) for secondaryreferencedata.
   name: ClearBank Secondary Reference Data API
   slug: clearbank-secondaryreferencedata-api
 artifact_total: 32
@@ -323,7 +365,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -333,7 +375,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 45.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,7 +393,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

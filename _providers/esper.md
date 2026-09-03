@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: APIs for application management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for application management
   name: Esper Application API
   slug: esper-application-api
-- description: APIs for application management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for application management
   name: Esper Application V1 API
   slug: esper-application-v1-api
-- description: APIs to run device commands. `This version of commands is being deprecated and documentation will be archived soon. Please use Commands V2.`
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs to run device commands. `This version of commands is being deprecated and documentation will be archived soon. Please use Commands V2.`
   name: Esper Commands API
   slug: esper-commands-api
-- description: 'Commands V2.0 is to provide advanced device commands capabilities like queuing, support for offline devices, dynamic device set for commands and command history. Commands 2.0 is in active development '
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: 'Commands V2.0 is to provide advanced device commands capabilities like queuing, support for offline devices, dynamic device set for commands and command history. Commands 2.0 is in active development '
   name: Esper Commands V2 API
   slug: esper-commands-v2-api
-- description: APIs for Content management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for Content management
   name: Esper Content API
   slug: esper-content-api
-- description: APIs for device management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for device management
   name: Esper Device API
   slug: esper-device-api
-- description: APIs for device group management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for device group management
   name: Esper Device Group API
   slug: esper-device-group-api
-- description: The Esper Enterprise APIs to manage the account information set up for your company’s account. Read our Esper Manage documentation or use the Esper Manage Dashboard through the Esper Developer Console
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: The Esper Enterprise APIs to manage the account information set up for your company’s account. Read our Esper Manage documentation or use the Esper Manage Dashboard through the Esper Developer Console
   name: Esper Enterprise API
   slug: esper-enterprise-api
-- description: APIs to Esper Compliance Policy
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs to Esper Compliance Policy
   name: Esper Enterprise Policy API
   slug: esper-enterprise-policy-api
-- description: APIs for geofence management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for geofence management
   name: Esper Geofence API
   slug: esper-geofence-api
-- description: APIs to run group commands. Command will be run on all the active devices in a group
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs to run group commands. Command will be run on all the active devices in a group
   name: Esper Group Commands API
   slug: esper-group-commands-api
-- description: APIs for Subscription management
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: APIs for Subscription management
   name: Esper Subscription API
   slug: esper-subscription-api
-- description: Fetch API token information
+- baseURL: https://foo-api.esper.cloud/api
+  baseurl_source: declared
+  description: Fetch API token information
   name: Esper Token API
   slug: esper-token-api
 artifact_total: 32
@@ -244,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -254,7 +280,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     conformance: derived
     contracts:
@@ -265,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

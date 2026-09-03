@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -63,22 +63,34 @@ apis:
 - description: OAuth 2.0 client credentials token generation for authenticating API access to all Candid Health REST endpoints.
   name: Candid Health Auth API
   slug: candid-health-auth-api
-- description: The default API from Candid Health — 1 operation(s) for default.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The default API from Candid Health — 1 operation(s) for default.
   name: Candid Health Default API
   slug: candid-health-default-api
-- description: The diagnoses API from Candid Health — 2 operation(s) for diagnoses.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The diagnoses API from Candid Health — 2 operation(s) for diagnoses.
   name: Candid Health Diagnoses API
   slug: candid-health-diagnoses-api
-- description: The v1 API from Candid Health — 105 operation(s) for v1.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The v1 API from Candid Health — 105 operation(s) for v1.
   name: Candid Health V1 API
   slug: candid-health-v1-api
-- description: The v2 API from Candid Health — 25 operation(s) for v2.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The v2 API from Candid Health — 25 operation(s) for v2.
   name: Candid Health V2 API
   slug: candid-health-v2-api
-- description: The v3 API from Candid Health — 28 operation(s) for v3.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The v3 API from Candid Health — 28 operation(s) for v3.
   name: Candid Health V3 API
   slug: candid-health-v3-api
-- description: The v4 API from Candid Health — 10 operation(s) for v4.
+- baseURL: https://api.joincandidhealth.com
+  baseurl_source: declared
+  description: The v4 API from Candid Health — 10 operation(s) for v4.
   name: Candid Health V4 API
   slug: candid-health-v4-api
 artifact_total: 91
@@ -562,7 +574,7 @@ score:
     access_clarity: 72.4
     commercial_clarity: 72.4
     contract_governance: 25.0
-    contract_quality: 59.7
+    contract_quality: 59.8
     developer_ergonomics: 78.0
     discoverability: 87.0
     governance: 25.0
@@ -585,7 +597,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:

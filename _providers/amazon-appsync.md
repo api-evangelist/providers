@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 44 operations · 27 acting
 api_count: 1
 apis:
-- description: Manage API keys for authentication
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage API keys for authentication
   name: Amazon AppSync Api Keys API
   slug: amazon-appsync-api-keys-api
-- description: Manage data sources connected to GraphQL APIs
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage data sources connected to GraphQL APIs
   name: Amazon AppSync Data Sources API
   slug: amazon-appsync-data-sources-api
-- description: Manage custom domain names for AppSync APIs
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage custom domain names for AppSync APIs
   name: Amazon AppSync Domain Names API
   slug: amazon-appsync-domain-names-api
-- description: Manage reusable pipeline resolver functions
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage reusable pipeline resolver functions
   name: Amazon AppSync Functions API
   slug: amazon-appsync-functions-api
-- description: Manage GraphQL API configurations
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage GraphQL API configurations
   name: Amazon AppSync GraphQL APIs API
   slug: amazon-appsync-graphql-apis-api
-- description: Manage field resolvers for GraphQL types
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage field resolvers for GraphQL types
   name: Amazon AppSync Resolvers API
   slug: amazon-appsync-resolvers-api
-- description: Manage GraphQL schema documents
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage GraphQL schema documents
   name: Amazon AppSync Schema API
   slug: amazon-appsync-schema-api
-- description: Resource tagging operations
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Resource tagging operations
   name: Amazon AppSync Tags API
   slug: amazon-appsync-tags-api
-- description: Manage GraphQL type definitions
+- baseURL: https://appsync.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage GraphQL type definitions
   name: Amazon AppSync Types API
   slug: amazon-appsync-types-api
 artifact_total: 275
@@ -910,7 +928,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:

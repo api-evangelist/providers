@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 6 acting
 api_count: 1
 apis:
-- description: Obtain and refresh bearer tokens.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Obtain and refresh bearer tokens.
   name: NowCerts Authentication API
   slug: nowcerts-authentication-api
-- description: Carrier, underwriter, and line-of-business reference data.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Carrier, underwriter, and line-of-business reference data.
   name: NowCerts Carriers API
   slug: nowcerts-carriers-api
-- description: Policy endorsements and their financial detail.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Policy endorsements and their financial detail.
   name: NowCerts Endorsements API
   slug: nowcerts-endorsements-api
-- description: Insureds and prospects (customers), their contacts, and related data.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Insureds and prospects (customers), their contacts, and related data.
   name: NowCerts Insureds API
   slug: nowcerts-insureds-api
-- description: Policies, coverages, and quotes.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Policies, coverages, and quotes.
   name: NowCerts Policies API
   slug: nowcerts-policies-api
-- description: Tasks, task work groups, and to-do workflow.
+- baseURL: https://api.nowcerts.com/api
+  baseurl_source: declared
+  description: Tasks, task work groups, and to-do workflow.
   name: NowCerts Tasks API
   slug: nowcerts-tasks-api
 artifact_total: 20
@@ -183,7 +195,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowcerts/refs/heads/main/screenshots/nowcerts-2026-08-07T185637.png
 security:

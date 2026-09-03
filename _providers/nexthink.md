@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 17 operations · 11 acting
 api_count: 7
 apis:
-- description: The Campaigns API from Nexthink — 1 operation(s) for campaigns.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Campaigns API from Nexthink — 1 operation(s) for campaigns.
   name: Nexthink Campaigns API
   slug: nexthink-campaigns-api
-- description: The device-deletions API from Nexthink — 1 operation(s) for device-deletions.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The device-deletions API from Nexthink — 1 operation(s) for device-deletions.
   name: Nexthink device-deletions API
   slug: nexthink-device-deletions-api
-- description: The enrichment API from Nexthink — 1 operation(s) for enrichment.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The enrichment API from Nexthink — 1 operation(s) for enrichment.
   name: Nexthink enrichment API
   slug: nexthink-enrichment-api
-- description: The Execute API from Nexthink — 2 operation(s) for execute.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Execute API from Nexthink — 2 operation(s) for execute.
   name: Nexthink Execute API
   slug: nexthink-execute-api
-- description: The Export API from Nexthink — 2 operation(s) for export.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Export API from Nexthink — 2 operation(s) for export.
   name: Nexthink Export API
   slug: nexthink-export-api
-- description: The Handoff API API from Nexthink — 1 operation(s) for handoff api.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Handoff API API from Nexthink — 1 operation(s) for handoff api.
   name: Nexthink Handoff API API
   slug: nexthink-handoff-api-api
-- description: The Remote actions API from Nexthink — 3 operation(s) for remote actions.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Remote actions API from Nexthink — 3 operation(s) for remote actions.
   name: Nexthink Remote actions API
   slug: nexthink-remote-actions-api
-- description: The Workflows API from Nexthink — 5 operation(s) for workflows.
+- baseURL: https://instance.api.us.nexthink.cloud
+  baseurl_source: declared
+  description: The Workflows API from Nexthink — 5 operation(s) for workflows.
   name: Nexthink Workflows API
   slug: nexthink-workflows-api
 artifact_total: 24
@@ -273,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/screenshots/nexthink-2026-08-07T185209.png
 security:

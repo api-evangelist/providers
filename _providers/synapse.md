@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -47,28 +47,44 @@ apis:
 - description: API for integrating application services (bridges and bots) with the Matrix homeserver. Allows third-party applications to handle namespaced user IDs and room aliases, enabling Matrix bridges for IRC,
   name: Synapse Application Service API
   slug: synapse-application-service-api
-- description: Federation management
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Federation management
   name: Synapse Federation API
   slug: synapse-federation-api
-- description: Media file administration
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Media file administration
   name: Synapse Media API
   slug: synapse-media-api
-- description: User registration and tokens
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: User registration and tokens
   name: Synapse Registration API
   slug: synapse-registration-api
-- description: Event and user reports
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Event and user reports
   name: Synapse Reports API
   slug: synapse-reports-api
-- description: Room administration and membership
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Room administration and membership
   name: Synapse Rooms API
   slug: synapse-rooms-api
-- description: Server information and background updates
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Server information and background updates
   name: Synapse Server API
   slug: synapse-server-api
-- description: Server usage statistics
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: Server usage statistics
   name: Synapse Statistics API
   slug: synapse-statistics-api
-- description: User account management
+- baseURL: https://matrix.example.com/_matrix/client
+  baseurl_source: declared
+  description: User account management
   name: Synapse Users API
   slug: synapse-users-api
 artifact_total: 32
@@ -270,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/screenshots/synapse-2026-06-20T194821.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,13 +52,19 @@ apis:
 - description: 42Crunch API Protection deploys an API-native micro firewall (API Firewall) that provides runtime defense against API attacks. The firewall is tailor-made for each API based on its OpenAPI specificati
   name: 42Crunch API Protection
   slug: 42crunch-api-protection
-- description: Service health check
+- baseURL: http://localhost:8090/
+  baseurl_source: spec
+  description: Service health check
   name: 42Crunch Health API
   slug: 42crunch-health-api
-- description: Manage API conformance scan jobs on Kubernetes
+- baseURL: http://localhost:8090/
+  baseurl_source: spec
+  description: Manage API conformance scan jobs on Kubernetes
   name: 42Crunch Jobs API
   slug: 42crunch-jobs-api
-- description: Access job execution logs
+- baseURL: http://localhost:8090/
+  baseurl_source: spec
+  description: Access job execution logs
   name: 42Crunch Logs API
   slug: 42crunch-logs-api
 artifact_total: 49
@@ -335,7 +341,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/screenshots/42crunch-2026-06-20T162707.png
 security:

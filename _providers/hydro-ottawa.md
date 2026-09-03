@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Application Information endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Application Information endpoints
   name: Hydro Ottawa Application Information API
   slug: hydro-ottawa-applicationinformation-api
-- description: Authorization endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Authorization endpoints
   name: Hydro Ottawa Authorization API
   slug: hydro-ottawa-authorization-api
-- description: Batch data transfer endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Batch data transfer endpoints
   name: Hydro Ottawa Batch API
   slug: hydro-ottawa-batch-api
-- description: Usage Point endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Usage Point endpoints
   name: Hydro Ottawa Usage Point API
   slug: hydro-ottawa-usagepoint-api
 artifact_total: 8
@@ -219,7 +238,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/screenshots/hydro-ottawa-2026-08-07T170509.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 68 operations · 37 acting
 api_count: 1
 apis:
-- description: MODELED. Adjustments and payment splits on the patient ledger.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Adjustments and payment splits on the patient ledger.
   name: Open Dental Accounts & Ledger API
   slug: opendental-accounts-ledger-api
-- description: CONFIRMED. Scheduling, slots, and WebSched.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. Scheduling, slots, and WebSched.
   name: Open Dental Appointments API
   slug: opendental-appointments-api
-- description: CONFIRMED. Insurance claims and claim workflow.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. Insurance claims and claim workflow.
   name: Open Dental Claims API
   slug: opendental-claims-api
-- description: MODELED. Files and images attached to a patient.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Files and images attached to a patient.
   name: Open Dental Documents API
   slug: opendental-documents-api
-- description: MODELED. Procedure fees and fee schedules.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Procedure fees and fee schedules.
   name: Open Dental Fees & Fee Schedules API
   slug: opendental-fees-fee-schedules-api
-- description: MODELED. Medication catalog, patient meds, and prescriptions.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Medication catalog, patient meds, and prescriptions.
   name: Open Dental Medications & Prescriptions API
   slug: opendental-medications-prescriptions-api
-- description: CONFIRMED. Patient demographic records.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. Patient demographic records.
   name: Open Dental Patients API
   slug: opendental-patients-api
-- description: CONFIRMED. Patient payments, refunds, and split reallocation.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. Patient payments, refunds, and split reallocation.
   name: Open Dental Payments API
   slug: opendental-payments-api
-- description: CONFIRMED. ProcedureLogs, insurance history, and group notes.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. ProcedureLogs, insurance history, and group notes.
   name: Open Dental Procedures API
   slug: opendental-procedures-api
-- description: CONFIRMED. Dentists, hygienists, and billing entities.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: CONFIRMED. Dentists, hygienists, and billing entities.
   name: Open Dental Providers API
   slug: opendental-providers-api
-- description: MODELED. Hygiene / continuing-care recalls.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Hygiene / continuing-care recalls.
   name: Open Dental Recalls API
   slug: opendental-recalls-api
-- description: MODELED. Referral sources and attachments.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Referral sources and attachments.
   name: Open Dental Referrals API
   slug: opendental-referrals-api
-- description: MODELED. Configurable clinical and administrative forms.
+- baseURL: https://api.opendental.com/api/v1
+  baseurl_source: declared
+  description: MODELED. Configurable clinical and administrative forms.
   name: Open Dental Sheets API
   slug: opendental-sheets-api
 artifact_total: 34
@@ -237,7 +263,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opendental/refs/heads/main/screenshots/opendental-2026-08-07T190545.png
 security:

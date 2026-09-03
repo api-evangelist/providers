@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 3
@@ -47,28 +47,44 @@ apis:
 - description: 'The ClearML REST API is organized into services: auth (login/credentials), projects, tasks (experiments), workers, models, queues, events, pipelines, and reports. Authentication uses access/secret-key'
   name: ClearML REST API
   slug: clearml-rest-api
-- description: The Auth API from ClearML — 5 operation(s) for auth.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Auth API from ClearML — 5 operation(s) for auth.
   name: ClearML Auth API
   slug: clearml-auth-api
-- description: The Debug API from ClearML — 1 operation(s) for debug.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Debug API from ClearML — 1 operation(s) for debug.
   name: ClearML Debug API
   slug: clearml-debug-api
-- description: The Events API from ClearML — 4 operation(s) for events.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Events API from ClearML — 4 operation(s) for events.
   name: ClearML Events API
   slug: clearml-events-api
-- description: The Models API from ClearML — 4 operation(s) for models.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Models API from ClearML — 4 operation(s) for models.
   name: ClearML Models API
   slug: clearml-models-api
-- description: The Projects API from ClearML — 2 operation(s) for projects.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Projects API from ClearML — 2 operation(s) for projects.
   name: ClearML Projects API
   slug: clearml-projects-api
-- description: The Queues API from ClearML — 2 operation(s) for queues.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Queues API from ClearML — 2 operation(s) for queues.
   name: ClearML Queues API
   slug: clearml-queues-api
-- description: The Tasks API from ClearML — 15 operation(s) for tasks.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Tasks API from ClearML — 15 operation(s) for tasks.
   name: ClearML Tasks API
   slug: clearml-tasks-api
-- description: The Workers API from ClearML — 1 operation(s) for workers.
+- baseURL: https://api.clear.ml
+  baseurl_source: declared
+  description: The Workers API from ClearML — 1 operation(s) for workers.
   name: ClearML Workers API
   slug: clearml-workers-api
 artifact_total: 26
@@ -223,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearml/refs/heads/main/screenshots/clearml-2026-06-20T174458.png
 security:

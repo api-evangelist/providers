@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Idle Finance REST API endpoint for the Optimism network, providing pool and TVL data for Yield Tranches vaults deployed on Optimism.
   name: Idle Finance Optimism API
   slug: idle-finance-optimism-api
-- description: Best Yield and Yield Tranches vault pool data
+- baseURL: https://api.idle.finance
+  baseurl_source: declared
+  description: Best Yield and Yield Tranches vault pool data
   name: Idle Finance Pools API
   slug: idle-pools-api
-- description: Historical daily yield rate data for Best Yield vaults
+- baseURL: https://api.idle.finance
+  baseurl_source: declared
+  description: Historical daily yield rate data for Best Yield vaults
   name: Idle Finance Rates API
   slug: idle-rates-api
-- description: Total value locked metrics per underlying token
+- baseURL: https://api.idle.finance
+  baseurl_source: declared
+  description: Total value locked metrics per underlying token
   name: Idle Finance TVL API
   slug: idle-tvl-api
 artifact_total: 23
@@ -229,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/screenshots/idle-2026-06-20T183210.png
 security:

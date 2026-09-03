@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -62,25 +62,39 @@ apis:
 - description: Hosted trading APIs available on the Triton platform — Pyth Hermes price feeds, Jito bundle simulation, Metis Swap, and Titan Swap. Metered separately under the unified PAYG pricing model.
   name: Triton One Trading APIs
   slug: triton-one-trading-apis
-- description: Manage customer accounts.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Manage customer accounts.
   name: Triton One Accounts API
   slug: triton-one-accounts-api
-- description: Manage on-chain address watch lists for collections and Merkle trees.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Manage on-chain address watch lists for collections and Merkle trees.
   name: Triton One AddressWatchLists API
   slug: triton-one-addresswatchlists-api
-- description: Read methods for compressed and standard digital assets.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Read methods for compressed and standard digital assets.
   name: Triton One Assets API
   slug: triton-one-assets-api
-- description: Manage RPC endpoints attached to subscriptions.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Manage RPC endpoints attached to subscriptions.
   name: Triton One Endpoints API
   slug: triton-one-endpoints-api
-- description: Standard Solana JSON-RPC methods accepted at the same endpoint.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Standard Solana JSON-RPC methods accepted at the same endpoint.
   name: Triton One Standard API
   slug: triton-one-standard-api
-- description: Manage subscriptions (Developer, Mainnet-Shared, Mainnet-Dedicated).
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Manage subscriptions (Developer, Mainnet-Shared, Mainnet-Dedicated).
   name: Triton One Subscriptions API
   slug: triton-one-subscriptions-api
-- description: Manage RPC consumption tokens.
+- baseURL: https://customers.triton.one/api/v1
+  baseurl_source: declared
+  description: Manage RPC consumption tokens.
   name: Triton One Tokens API
   slug: triton-one-tokens-api
 artifact_total: 69
@@ -359,7 +373,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/screenshots/triton-one-2026-06-20T195737.png
 security:

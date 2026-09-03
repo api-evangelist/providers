@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Truework.js is the client-side JavaScript library that powers Truework Direct, the borrower-driven (consumer-permissioned) verification flow. The host page loads `https://js.truework.com/v1` and initi
   name: Truework.js (Truework Direct)
   slug: truework-js
-- description: The subpackage_orders API from Truework — 8 operation(s) for subpackage_orders.
+- baseURL: https://api.truework.com
+  baseurl_source: declared
+  description: The subpackage_orders API from Truework — 8 operation(s) for subpackage_orders.
   name: Truework subpackage_orders API
   slug: truework-subpackage-orders-api
-- description: The subpackage_qualificationChecks API from Truework — 3 operation(s) for subpackage_qualificationchecks.
+- baseURL: https://api.truework.com
+  baseurl_source: declared
+  description: The subpackage_qualificationChecks API from Truework — 3 operation(s) for subpackage_qualificationchecks.
   name: Truework subpackage_qualificationChecks API
   slug: truework-subpackage-qualificationchecks-api
-- description: The subpackage_reports API from Truework — 1 operation(s) for subpackage_reports.
+- baseURL: https://api.truework.com
+  baseurl_source: declared
+  description: The subpackage_reports API from Truework — 1 operation(s) for subpackage_reports.
   name: Truework subpackage_reports API
   slug: truework-subpackage-reports-api
-- description: The subpackage_tenantProperties API from Truework — 2 operation(s) for subpackage_tenantproperties.
+- baseURL: https://api.truework.com
+  baseurl_source: declared
+  description: The subpackage_tenantProperties API from Truework — 2 operation(s) for subpackage_tenantproperties.
   name: Truework subpackage_tenantProperties API
   slug: truework-subpackage-tenantproperties-api
-- description: The Truework Webhooks API from Truework — 0 operation(s) for truework webhooks.
+- baseURL: https://js.truework.com/v1
+  baseurl_source: declared
+  description: The Truework Webhooks API from Truework — 0 operation(s) for truework webhooks.
   name: Truework Truework Webhooks API
   slug: truework-truework-webhooks-api
 artifact_total: 46
@@ -359,7 +369,7 @@ score:
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -369,7 +379,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 73.7
-  previous_composite: 56.4
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -384,7 +394,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:

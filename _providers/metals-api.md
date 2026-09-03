@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Time series, fluctuation, and OHLC analytics.
+- baseURL: https://metals-api.com/api
+  baseurl_source: declared
+  description: Time series, fluctuation, and OHLC analytics.
   name: Metals-API Analytics API
   slug: metals-api-analytics-api
-- description: Currency and metal conversion endpoints.
+- baseURL: https://metals-api.com/api
+  baseurl_source: declared
+  description: Currency and metal conversion endpoints.
   name: Metals-API Conversion API
   slug: metals-api-conversion-api
-- description: Real-time and historical precious metals rates.
+- baseURL: https://metals-api.com/api
+  baseurl_source: declared
+  description: Real-time and historical precious metals rates.
   name: Metals-API Rates API
   slug: metals-api-rates-api
-- description: Symbols and reference data.
+- baseURL: https://metals-api.com/api
+  baseurl_source: declared
+  description: Symbols and reference data.
   name: Metals-API Reference API
   slug: metals-api-reference-api
 artifact_total: 16
@@ -157,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/screenshots/metals-api-2026-06-20T185245.png
 security:

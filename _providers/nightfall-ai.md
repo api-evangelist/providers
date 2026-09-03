@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Scan API from Nightfall AI — 1 operation(s) for scan.
+- baseURL: https://api.nightfall.ai/
+  baseurl_source: spec
+  description: The Scan API from Nightfall AI — 1 operation(s) for scan.
   name: Nightfall AI Scan API
   slug: nightfall-ai-scan-api
 artifact_total: 13
@@ -218,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/screenshots/nightfall-ai-2026-06-20T190326.png
 security:

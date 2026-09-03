@@ -33,22 +33,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Payload is a TypeScript-first headless CMS and application framework that automatically generates REST, GraphQL, and Local APIs from collection schemas, with built-in authentication, access control, a
   name: Payload
   slug: payload
-- description: The Authentication API from Payload — 8 operation(s) for authentication.
+- baseURL: https://payloadcms.com/api
+  baseurl_source: declared
+  description: The Authentication API from Payload — 8 operation(s) for authentication.
   name: Payload Authentication API
   slug: payload-authentication-api
-- description: The Collections API from Payload — 3 operation(s) for collections.
+- baseURL: https://payloadcms.com/api
+  baseurl_source: declared
+  description: The Collections API from Payload — 3 operation(s) for collections.
   name: Payload Collections API
   slug: payload-collections-api
-- description: The Globals API from Payload — 1 operation(s) for globals.
+- baseURL: https://payloadcms.com/api
+  baseurl_source: declared
+  description: The Globals API from Payload — 1 operation(s) for globals.
   name: Payload Globals API
   slug: payload-globals-api
-- description: The Preferences API from Payload — 1 operation(s) for preferences.
+- baseURL: https://payloadcms.com/api
+  baseurl_source: declared
+  description: The Preferences API from Payload — 1 operation(s) for preferences.
   name: Payload Preferences API
   slug: payload-preferences-api
 artifact_total: 15
@@ -168,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payload/refs/heads/main/screenshots/payload-2026-06-20T191457.png
 security:

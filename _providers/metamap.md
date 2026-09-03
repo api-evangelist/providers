@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 53 operations · 51 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from MetaMap — 2 operation(s) for authentication.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Authentication API from MetaMap — 2 operation(s) for authentication.
   name: MetaMap Authentication API
   slug: metamap-authentication-api
-- description: The Background Checks API from MetaMap — 2 operation(s) for background checks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Background Checks API from MetaMap — 2 operation(s) for background checks.
   name: MetaMap Background Checks API
   slug: metamap-background-checks-api
-- description: The Credit Checks API from MetaMap — 1 operation(s) for credit checks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Credit Checks API from MetaMap — 1 operation(s) for credit checks.
   name: MetaMap Credit Checks API
   slug: metamap-credit-checks-api
-- description: The Custom Watchlists API from MetaMap — 1 operation(s) for custom watchlists.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Custom Watchlists API from MetaMap — 1 operation(s) for custom watchlists.
   name: MetaMap Custom Watchlists API
   slug: metamap-custom-watchlists-api
-- description: The Email Checks API from MetaMap — 2 operation(s) for email checks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Email Checks API from MetaMap — 2 operation(s) for email checks.
   name: MetaMap Email Checks API
   slug: metamap-email-checks-api
-- description: The GovChecks API from MetaMap — 34 operation(s) for govchecks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The GovChecks API from MetaMap — 34 operation(s) for govchecks.
   name: MetaMap GovChecks API
   slug: metamap-govchecks-api
-- description: The Phone Checks API from MetaMap — 2 operation(s) for phone checks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Phone Checks API from MetaMap — 2 operation(s) for phone checks.
   name: MetaMap Phone Checks API
   slug: metamap-phone-checks-api
-- description: The Verifications API from MetaMap — 7 operation(s) for verifications.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Verifications API from MetaMap — 7 operation(s) for verifications.
   name: MetaMap Verifications API
   slug: metamap-verifications-api
-- description: The Watchlist Checks API from MetaMap — 1 operation(s) for watchlist checks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Watchlist Checks API from MetaMap — 1 operation(s) for watchlist checks.
   name: MetaMap Watchlist Checks API
   slug: metamap-watchlist-checks-api
-- description: The Webhooks API from MetaMap — 1 operation(s) for webhooks.
+- baseURL: https://api.prod.metamap.com
+  baseurl_source: declared
+  description: The Webhooks API from MetaMap — 1 operation(s) for webhooks.
   name: MetaMap Webhooks API
   slug: metamap-webhooks-api
 artifact_total: 88
@@ -653,7 +673,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -663,7 +683,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -672,7 +692,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -176,7 +176,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

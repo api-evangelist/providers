@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: The Get Password API from Securden — 1 operation(s) for get password.
+- baseURL: https://{your_api_url}/api
+  baseurl_source: declared
+  description: The Get Password API from Securden — 1 operation(s) for get password.
   name: Securden Get Password API
   slug: securden-get-password-api
 artifact_total: 7
@@ -210,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securden/refs/heads/main/screenshots/securden-2026-08-17T081746.png
 security:

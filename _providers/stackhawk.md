@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 54 operations · 25 acting
 api_count: 1
 apis:
-- description: Token management and login
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Token management and login
   name: StackHawk Api Authentication API
   slug: stackhawk-api-authentication-api
-- description: Manage applications and environments
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Manage applications and environments
   name: StackHawk Applications API
   slug: stackhawk-applications-api
-- description: Organization-level configurations
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Organization-level configurations
   name: StackHawk Global Configuration API
   slug: stackhawk-global-configuration-api
-- description: OpenAPI spec uploads and mapping
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: OpenAPI spec uploads and mapping
   name: StackHawk Hosted OAS API
   slug: stackhawk-hosted-oas-api
-- description: Team creation and member assignment
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Team creation and member assignment
   name: StackHawk Organization Teams API
   slug: stackhawk-organization-teams-api
-- description: Member management and audit logs
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Member management and audit logs
   name: StackHawk Organizations API
   slug: stackhawk-organizations-api
-- description: Scan command control
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Scan command control
   name: StackHawk Perch API
   slug: stackhawk-perch-api
-- description: Profile scan analysis
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Profile scan analysis
   name: StackHawk Profile Scans API
   slug: stackhawk-profile-scans-api
-- description: Scan report generation
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Scan report generation
   name: StackHawk Reports API
   slug: stackhawk-reports-api
-- description: Repository management
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Repository management
   name: StackHawk Repositories API
   slug: stackhawk-repositories-api
-- description: Scan configuration file management
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Scan configuration file management
   name: StackHawk Scan Configuration API
   slug: stackhawk-scan-configuration-api
-- description: Security policy management
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Security policy management
   name: StackHawk Scan Policies API
   slug: stackhawk-scan-policies-api
-- description: Scan result reporting and findings
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Scan result reporting and findings
   name: StackHawk Scan Results API
   slug: stackhawk-scan-results-api
-- description: Authenticated user information
+- baseURL: https://api.stackhawk.com
+  baseurl_source: declared
+  description: Authenticated user information
   name: StackHawk User API
   slug: stackhawk-user-api
 artifact_total: 59
@@ -343,7 +371,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackhawk/refs/heads/main/screenshots/stackhawk-2026-06-20T194446.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: API for the OCUDU Ecosystem Foundation, providing programmatic access to the open collaboration platform for Radio Access Network reference implementations and AI-based RAN algorithms.
@@ -112,7 +112,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocudu/refs/heads/main/screenshots/ocudu-2026-06-20T190617.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 63 operations · 47 acting
 api_count: 1
 apis:
-- description: The Delivery Notes API from Workist — 5 operation(s) for delivery notes.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Delivery Notes API from Workist — 5 operation(s) for delivery notes.
   name: Workist Delivery Notes API
   slug: workist-delivery-notes-api
-- description: The Invoices API from Workist — 5 operation(s) for invoices.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Invoices API from Workist — 5 operation(s) for invoices.
   name: Workist Invoices API
   slug: workist-invoices-api
-- description: The List Of Services API from Workist — 6 operation(s) for list of services.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The List Of Services API from Workist — 6 operation(s) for list of services.
   name: Workist List Of Services API
   slug: workist-list-of-services-api
-- description: The Master Data API from Workist — 12 operation(s) for master data.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Master Data API from Workist — 12 operation(s) for master data.
   name: Workist Master Data API
   slug: workist-master-data-api
-- description: The Order Confirmations API from Workist — 5 operation(s) for order confirmations.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Order Confirmations API from Workist — 5 operation(s) for order confirmations.
   name: Workist Order Confirmations API
   slug: workist-order-confirmations-api
-- description: The Orders API from Workist — 5 operation(s) for orders.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Orders API from Workist — 5 operation(s) for orders.
   name: Workist Orders API
   slug: workist-orders-api
-- description: The Property Bills API from Workist — 5 operation(s) for property bills.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Property Bills API from Workist — 5 operation(s) for property bills.
   name: Workist Property Bills API
   slug: workist-property-bills-api
-- description: The Rfq API from Workist — 5 operation(s) for rfq.
+- baseURL: https://api.workist.com/api/v1
+  baseurl_source: declared
+  description: The Rfq API from Workist — 5 operation(s) for rfq.
   name: Workist Rfq API
   slug: workist-rfq-api
 artifact_total: 21
@@ -252,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workist/refs/heads/main/screenshots/workist-2026-08-17T082941.png
 security:

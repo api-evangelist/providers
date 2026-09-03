@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Custom Routers API from Not Diamond — 2 operation(s) for custom routers.
+- baseURL: https://api.notdiamond.ai/v2
+  baseurl_source: declared
+  description: The Custom Routers API from Not Diamond — 2 operation(s) for custom routers.
   name: Not Diamond Custom Routers API
   slug: notdiamond-custom-routers-api
-- description: The Feedback API from Not Diamond — 2 operation(s) for feedback.
+- baseURL: https://api.notdiamond.ai/v2
+  baseurl_source: declared
+  description: The Feedback API from Not Diamond — 2 operation(s) for feedback.
   name: Not Diamond Feedback API
   slug: notdiamond-feedback-api
-- description: The Model Routing API from Not Diamond — 1 operation(s) for model routing.
+- baseURL: https://api.notdiamond.ai/v2
+  baseurl_source: declared
+  description: The Model Routing API from Not Diamond — 1 operation(s) for model routing.
   name: Not Diamond Model Routing API
   slug: notdiamond-model-routing-api
-- description: The Models API from Not Diamond — 1 operation(s) for models.
+- baseURL: https://api.notdiamond.ai/v2
+  baseurl_source: declared
+  description: The Models API from Not Diamond — 1 operation(s) for models.
   name: Not Diamond Models API
   slug: notdiamond-models-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notdiamond/refs/heads/main/screenshots/notdiamond-2026-06-20T190525.png
 security:

@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
   name: TrueBiz Async Web Presence Review API
   slug: truebiz-async-web-presence-review-api
-- description: The Fraud Searches API from TrueBiz — 2 operation(s) for fraud searches.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: The Fraud Searches API from TrueBiz — 2 operation(s) for fraud searches.
   name: TrueBiz Fraud Searches API
   slug: truebiz-fraud-searches-api
-- description: The History API from TrueBiz — 1 operation(s) for history.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: The History API from TrueBiz — 1 operation(s) for history.
   name: TrueBiz History API
   slug: truebiz-history-api
-- description: The Industry Discovery API from TrueBiz — 2 operation(s) for industry discovery.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: The Industry Discovery API from TrueBiz — 2 operation(s) for industry discovery.
   name: TrueBiz Industry Discovery API
   slug: truebiz-industry-discovery-api
-- description: The Industry Discovery History API from TrueBiz — 2 operation(s) for industry discovery history.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: The Industry Discovery History API from TrueBiz — 2 operation(s) for industry discovery history.
   name: TrueBiz Industry Discovery History API
   slug: truebiz-industry-discovery-history-api
-- description: Monitoring alerts endpoints allow you to see what alerts TrueBiz has found during monitoring.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Monitoring alerts endpoints allow you to see what alerts TrueBiz has found during monitoring.
   name: TrueBiz Monitoring Alerts API
   slug: truebiz-monitoring-alerts-api
-- description: Monitored domain endpoints allow you to see what domains TrueBiz is currently monitoring.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Monitored domain endpoints allow you to see what domains TrueBiz is currently monitoring.
   name: TrueBiz Monitoring Domains API
   slug: truebiz-monitoring-domains-api
-- description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Web Presence Review endpoints allow you to provide information about a business for TrueBiz to review. We look at the content on the website, find social media profiles, review sites, and other broade
   name: TrueBiz Web Presence Review API
   slug: truebiz-web-presence-review-api
-- description: Web Presence Review endpoints allow you to provide an input like a domain, url, or email associated with a website for TrueBiz to review. For business or compliance reasons, you may want to directly b
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Web Presence Review endpoints allow you to provide an input like a domain, url, or email associated with a website for TrueBiz to review. For business or compliance reasons, you may want to directly b
   name: TrueBiz Web Presence Review Blocklist API
   slug: truebiz-web-presence-review-blocklist-api
-- description: Web Presence Review results are stored with TrueBiz until you request their deletion. These endpoints are designed to allow you to access these historical results.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Web Presence Review results are stored with TrueBiz until you request their deletion. These endpoints are designed to allow you to access these historical results.
   name: TrueBiz Web Presence Review History API
   slug: truebiz-web-presence-review-history-api
-- description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
+- baseURL: https://ae.truebiz.io
+  baseurl_source: declared
+  description: Our website status endpoints help with checking to see if a provided URL is up and that it is not part of a website grouping that TrueBiz does not support.
   name: TrueBiz Website Status API
   slug: truebiz-website-status-api
 artifact_total: 22
@@ -201,7 +223,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -232,8 +254,9 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/truebiz/refs/heads/main/screenshots/truebiz-2026-09-02T164340.png
 security:
 - kind: authentication
   name: Truebiz Authentication

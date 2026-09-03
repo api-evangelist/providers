@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Webhooks management API for configuring real-time event notifications from Fonoa's platform. Recommended over polling for transaction status updates and e-invoicing compliance events.
   name: Fonoa Webhooks API
   slug: webhooks-api
-- description: The Lookup V2 API from Fonoa — 5 operation(s) for lookup v2.
+- baseURL: https://api.fonoa.com/validate
+  baseurl_source: declared
+  description: The Lookup V2 API from Fonoa — 5 operation(s) for lookup v2.
   name: Fonoa Lookup V2 API
   slug: fonoa-lookup-v2-api
-- description: The Onboarding API from Fonoa — 1 operation(s) for onboarding.
+- baseURL: https://api.fonoa.com/validate
+  baseurl_source: declared
+  description: The Onboarding API from Fonoa — 1 operation(s) for onboarding.
   name: Fonoa Onboarding API
   slug: fonoa-onboarding-api
-- description: The Tax API from Fonoa — 1 operation(s) for tax.
+- baseURL: https://api.fonoa.com/validate
+  baseurl_source: declared
+  description: The Tax API from Fonoa — 1 operation(s) for tax.
   name: Fonoa Tax API
   slug: fonoa-tax-api
-- description: The Transactions API from Fonoa — 1 operation(s) for transactions.
+- baseURL: https://api.fonoa.com/validate
+  baseurl_source: declared
+  description: The Transactions API from Fonoa — 1 operation(s) for transactions.
   name: Fonoa Transactions API
   slug: fonoa-transactions-api
 artifact_total: 19
@@ -217,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png
 security:

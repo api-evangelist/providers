@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: API for order creation, routing, management and execution monitoring through Bloomberg EMSX platform. Supports order lifecycle management, broker selection, route management, fill tracking, and real-t
   name: Bloomberg EMSX Trading API
   slug: bloomberg-emsx-trading-api
-- description: Query available brokers and broker strategies
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Query available brokers and broker strategies
   name: Bloomberg EMSX Brokers API
   slug: bloomberg-emsx-brokers-api
-- description: Retrieve available order and route fields
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Retrieve available order and route fields
   name: Bloomberg EMSX Field Lists API
   slug: bloomberg-emsx-field-lists-api
-- description: Query and monitor trade executions and fills
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Query and monitor trade executions and fills
   name: Bloomberg EMSX Fills API
   slug: bloomberg-emsx-fills-api
-- description: Create, modify, delete, and query trading orders
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Create, modify, delete, and query trading orders
   name: Bloomberg EMSX Orders API
   slug: bloomberg-emsx-orders-api
-- description: Create, modify, delete, and manage order routes to brokers
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Create, modify, delete, and manage order routes to brokers
   name: Bloomberg EMSX Routes API
   slug: bloomberg-emsx-routes-api
-- description: Manage EMSX trading teams
+- baseURL: https://api.bloomberg.com/emsxapi/v1
+  baseurl_source: spec
+  description: Manage EMSX trading teams
   name: Bloomberg EMSX Teams API
   slug: bloomberg-emsx-teams-api
 artifact_total: 27
@@ -223,7 +235,7 @@ score:
     regime_id: securities_market_data
     score: 61.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:

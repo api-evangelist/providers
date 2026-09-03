@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 48 operations · 25 acting
 api_count: 1
 apis:
-- description: The ACH Payment API from Helcim — 8 operation(s) for ach payment.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The ACH Payment API from Helcim — 8 operation(s) for ach payment.
   name: Helcim ACH Payment API
   slug: helcim-ach-payment-api
-- description: The Card Batch API from Helcim — 3 operation(s) for card batch.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Card Batch API from Helcim — 3 operation(s) for card batch.
   name: Helcim Card Batch API
   slug: helcim-card-batch-api
-- description: The Card Terminal API from Helcim — 1 operation(s) for card terminal.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Card Terminal API from Helcim — 1 operation(s) for card terminal.
   name: Helcim Card Terminal API
   slug: helcim-card-terminal-api
-- description: The Card Transaction API from Helcim — 2 operation(s) for card transaction.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Card Transaction API from Helcim — 2 operation(s) for card transaction.
   name: Helcim Card Transaction API
   slug: helcim-card-transaction-api
-- description: The Customer API from Helcim — 11 operation(s) for customer.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Customer API from Helcim — 11 operation(s) for customer.
   name: Helcim Customer API
   slug: helcim-customer-api
-- description: The Device API from Helcim — 5 operation(s) for device.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Device API from Helcim — 5 operation(s) for device.
   name: Helcim Device API
   slug: helcim-device-api
-- description: The General API from Helcim — 1 operation(s) for general.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The General API from Helcim — 1 operation(s) for general.
   name: Helcim General API
   slug: helcim-general-api
-- description: The Invoice API from Helcim — 2 operation(s) for invoice.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Invoice API from Helcim — 2 operation(s) for invoice.
   name: Helcim Invoice API
   slug: helcim-invoice-api
-- description: The Payment API from Helcim — 7 operation(s) for payment.
+- baseURL: https://api.helcim.com/v2
+  baseurl_source: declared
+  description: The Payment API from Helcim — 7 operation(s) for payment.
   name: Helcim Payment API
   slug: helcim-payment-api
 artifact_total: 17
@@ -265,7 +296,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -275,7 +306,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 77.6
-  previous_composite: 55.8
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,7 +324,7 @@ score:
     regime_id: payments
     score: 55.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

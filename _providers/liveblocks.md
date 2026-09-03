@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -53,31 +53,49 @@ apis:
 - description: WebSocket-based client API exposed through Liveblocks client SDKs for React, JavaScript, Redux, Zustand, Vue (community), and Yjs. Provides presence, broadcast events, Live storage data structures, an
   name: Liveblocks Realtime Client API
   slug: realtime-client-api
-- description: The Active Users API from Liveblocks — 2 operation(s) for active users.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Active Users API from Liveblocks — 2 operation(s) for active users.
   name: Liveblocks Active Users API
   slug: liveblocks-active-users-api
-- description: The Comments API from Liveblocks — 2 operation(s) for comments.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Comments API from Liveblocks — 2 operation(s) for comments.
   name: Liveblocks Comments API
   slug: liveblocks-comments-api
-- description: The Events API from Liveblocks — 1 operation(s) for events.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Events API from Liveblocks — 1 operation(s) for events.
   name: Liveblocks Events API
   slug: liveblocks-events-api
-- description: The Reactions API from Liveblocks — 2 operation(s) for reactions.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Reactions API from Liveblocks — 2 operation(s) for reactions.
   name: Liveblocks Reactions API
   slug: liveblocks-reactions-api
-- description: The Rooms API from Liveblocks — 6 operation(s) for rooms.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Rooms API from Liveblocks — 6 operation(s) for rooms.
   name: Liveblocks Rooms API
   slug: liveblocks-rooms-api
-- description: The Storage API from Liveblocks — 2 operation(s) for storage.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Storage API from Liveblocks — 2 operation(s) for storage.
   name: Liveblocks Storage API
   slug: liveblocks-storage-api
-- description: The Threads API from Liveblocks — 9 operation(s) for threads.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Threads API from Liveblocks — 9 operation(s) for threads.
   name: Liveblocks Threads API
   slug: liveblocks-threads-api
-- description: The Versions API from Liveblocks — 3 operation(s) for versions.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Versions API from Liveblocks — 3 operation(s) for versions.
   name: Liveblocks Versions API
   slug: liveblocks-versions-api
-- description: The Yjs API from Liveblocks — 2 operation(s) for yjs.
+- baseURL: https://api.liveblocks.io/v2
+  baseurl_source: declared
+  description: The Yjs API from Liveblocks — 2 operation(s) for yjs.
   name: Liveblocks Yjs API
   slug: liveblocks-yjs-api
 artifact_total: 33
@@ -244,7 +262,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -254,7 +272,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 65.8
-  previous_composite: 59.1
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveblocks/refs/heads/main/screenshots/liveblocks-2026-06-20T184615.png
 security:

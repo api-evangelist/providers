@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -46,40 +46,64 @@ agentic_access:
   summary_line: 57 operations · 42 acting
 api_count: 2
 apis:
-- description: The Account API from Kudosity — 1 operation(s) for account.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Account API from Kudosity — 1 operation(s) for account.
   name: Kudosity Account API
   slug: kudosity-account-api
-- description: The Contacts & Lists API from Kudosity — 9 operation(s) for contacts & lists.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Contacts & Lists API from Kudosity — 9 operation(s) for contacts & lists.
   name: Kudosity Contacts & Lists API
   slug: kudosity-contacts-lists-api
-- description: The Email SMS API from Kudosity — 2 operation(s) for email sms.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Email SMS API from Kudosity — 2 operation(s) for email sms.
   name: Kudosity Email SMS API
   slug: kudosity-email-sms-api
-- description: The Keywords API from Kudosity — 3 operation(s) for keywords.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Keywords API from Kudosity — 3 operation(s) for keywords.
   name: Kudosity Keywords API
   slug: kudosity-keywords-api
-- description: The primary method of sending MMS
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The primary method of sending MMS
   name: Kudosity MMS API
   slug: kudosity-mms-api
-- description: The Numbers API from Kudosity — 4 operation(s) for numbers.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Numbers API from Kudosity — 4 operation(s) for numbers.
   name: Kudosity Numbers API
   slug: kudosity-numbers-api
-- description: The RCS API from Kudosity — 3 operation(s) for rcs.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The RCS API from Kudosity — 3 operation(s) for rcs.
   name: Kudosity RCS API
   slug: kudosity-rcs-api
-- description: The Reporting API from Kudosity — 11 operation(s) for reporting.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Reporting API from Kudosity — 11 operation(s) for reporting.
   name: Kudosity Reporting API
   slug: kudosity-reporting-api
-- description: The Senders API from Kudosity — 4 operation(s) for senders.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The Senders API from Kudosity — 4 operation(s) for senders.
   name: Kudosity Senders API
   slug: kudosity-senders-api
-- description: The primary method of sending SMS. You can elect to pass us the recipient numbers from your database each time you make an API call. In order to send to a local number for a recipient the Sender virtu
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The primary method of sending SMS. You can elect to pass us the recipient numbers from your database each time you make an API call. In order to send to a local number for a recipient the Sender virtu
   name: Kudosity SMS API
   slug: kudosity-sms-api
-- description: Our webhooks API allows you to subscribe to events for SMS, MMS, and RCS messages. Using them requires you to have URLs (https) configured on your account that can receive POST requests over the inter
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: Our webhooks API allows you to subscribe to events for SMS, MMS, and RCS messages. Using them requires you to have URLs (https) configured on your account that can receive POST requests over the inter
   name: Kudosity Webhook API
   slug: kudosity-webhook-api
-- description: The WhatsApp API from Kudosity — 2 operation(s) for whatsapp.
+- baseURL: https://api.transmitmessage.com
+  baseurl_source: declared
+  description: The WhatsApp API from Kudosity — 2 operation(s) for whatsapp.
   name: Kudosity Whats App API
   slug: kudosity-whatsapp-api
 artifact_total: 24
@@ -334,7 +358,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -344,7 +368,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 58.9
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,7 +390,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:

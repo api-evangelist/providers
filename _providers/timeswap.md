@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The FastAPI API from Timeswap — 1 operation(s) for fastapi.
+- baseURL: https://api.timeswap.io
+  baseurl_source: declared
+  description: The FastAPI API from Timeswap — 1 operation(s) for fastapi.
   name: Timeswap FastAPI API
   slug: timeswap-fastapi-api
-- description: The Paulygon API from Timeswap — 1 operation(s) for paulygon.
+- baseURL: https://api.timeswap.io
+  baseurl_source: declared
+  description: The Paulygon API from Timeswap — 1 operation(s) for paulygon.
   name: Timeswap Paulygon API
   slug: timeswap-paulygon-api
-- description: The Pools API from Timeswap — 10 operation(s) for pools.
+- baseURL: https://api.timeswap.io
+  baseurl_source: declared
+  description: The Pools API from Timeswap — 10 operation(s) for pools.
   name: Timeswap Pools API
   slug: timeswap-pools-api
-- description: The TaskON API from Timeswap — 1 operation(s) for taskon.
+- baseURL: https://api.timeswap.io
+  baseurl_source: declared
+  description: The TaskON API from Timeswap — 1 operation(s) for taskon.
   name: Timeswap TaskON API
   slug: timeswap-taskon-api
-- description: The Token API from Timeswap — 1 operation(s) for token.
+- baseURL: https://api.timeswap.io
+  baseurl_source: declared
+  description: The Token API from Timeswap — 1 operation(s) for token.
   name: Timeswap Token API
   slug: timeswap-token-api
 artifact_total: 14
@@ -189,7 +199,7 @@ score:
   band: thin
   composite: 33.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -214,8 +224,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/timeswap/refs/heads/main/screenshots/timeswap-2026-09-02T163804.png
 security:
 - kind: authentication
   name: Timeswap Authentication

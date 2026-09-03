@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 73 operations · 46 acting
 api_count: 1
 apis:
-- description: '{''$ref'': ''./markdown/en/tags/account-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/account-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Account API
   slug: hellosign-account-api
-- description: '{''$ref'': ''./markdown/en/tags/api-app-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/api-app-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Api App API
   slug: hellosign-api-app-api
-- description: '{''$ref'': ''./markdown/en/tags/bulk-send-job-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/bulk-send-job-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Bulk Send Job API
   slug: hellosign-bulk-send-job-api
-- description: '{''$ref'': ''./markdown/en/tags/embedded-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/embedded-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Embedded API
   slug: hellosign-embedded-api
-- description: The Fax API from Dropbox Sign (HelloSign) — 4 operation(s) for fax.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Fax API from Dropbox Sign (HelloSign) — 4 operation(s) for fax.
   name: Dropbox Sign (HelloSign) Fax API
   slug: hellosign-fax-api
-- description: '{''$ref'': ''./markdown/en/tags/fax-lines-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/fax-lines-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Fax Line API
   slug: hellosign-fax-line-api
-- description: '{''$ref'': ''./markdown/en/tags/oauth-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/oauth-tag-description.md''}'
   name: Dropbox Sign (HelloSign) OAuth API
   slug: hellosign-oauth-api
-- description: '{''$ref'': ''./markdown/en/tags/report-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/report-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Report API
   slug: hellosign-report-api
-- description: '{''$ref'': ''./markdown/en/tags/signature-request-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/signature-request-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Signature Request API
   slug: hellosign-signature-request-api
-- description: '{''$ref'': ''./markdown/en/tags/team-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/team-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Team API
   slug: hellosign-team-api
-- description: '{''$ref'': ''./markdown/en/tags/template-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/template-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Template API
   slug: hellosign-template-api
-- description: '{''$ref'': ''./markdown/en/tags/unclaimed-draft-tag-description.md''}'
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: '{''$ref'': ''./markdown/en/tags/unclaimed-draft-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Unclaimed Draft API
   slug: hellosign-unclaimed-draft-api
-- description: The Callbacks and Events API from Dropbox Sign (HelloSign) — 0 operation(s) for callbacks and events.
+- baseURL: https://api.hellosign.com/v3
+  baseurl_source: declared
+  description: The Callbacks and Events API from Dropbox Sign (HelloSign) — 0 operation(s) for callbacks and events.
   name: Dropbox Sign (HelloSign) Callbacks and Events API
   slug: hellosign-callbacks-and-events-api
 artifact_total: 46
@@ -346,7 +372,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -356,7 +382,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 58.3
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -368,7 +394,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:

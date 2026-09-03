@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 5 operations · 5 acting
 api_count: 1
 apis:
-- description: The documents:analyzeEntities API from Google Cloud Natural Language — 1 operation(s) for documents:analyzeentities.
+- baseURL: https://language.googleapis.com
+  baseurl_source: declared
+  description: The documents:analyzeEntities API from Google Cloud Natural Language — 1 operation(s) for documents:analyzeentities.
   name: Google Cloud Natural Language documents:analyzeEntities API
   slug: google-cloud-natural-language-documents-analyzeentities-api
-- description: The documents:analyzeSentiment API from Google Cloud Natural Language — 1 operation(s) for documents:analyzesentiment.
+- baseURL: https://language.googleapis.com
+  baseurl_source: declared
+  description: The documents:analyzeSentiment API from Google Cloud Natural Language — 1 operation(s) for documents:analyzesentiment.
   name: Google Cloud Natural Language documents:analyzeSentiment API
   slug: google-cloud-natural-language-documents-analyzesentiment-api
-- description: The documents:analyzeSyntax API from Google Cloud Natural Language — 1 operation(s) for documents:analyzesyntax.
+- baseURL: https://language.googleapis.com
+  baseurl_source: declared
+  description: The documents:analyzeSyntax API from Google Cloud Natural Language — 1 operation(s) for documents:analyzesyntax.
   name: Google Cloud Natural Language documents:analyzeSyntax API
   slug: google-cloud-natural-language-documents-analyzesyntax-api
-- description: The documents:annotateText API from Google Cloud Natural Language — 1 operation(s) for documents:annotatetext.
+- baseURL: https://language.googleapis.com
+  baseurl_source: declared
+  description: The documents:annotateText API from Google Cloud Natural Language — 1 operation(s) for documents:annotatetext.
   name: Google Cloud Natural Language documents:annotateText API
   slug: google-cloud-natural-language-documents-annotatetext-api
-- description: The documents:classifyText API from Google Cloud Natural Language — 1 operation(s) for documents:classifytext.
+- baseURL: https://language.googleapis.com
+  baseurl_source: declared
+  description: The documents:classifyText API from Google Cloud Natural Language — 1 operation(s) for documents:classifytext.
   name: Google Cloud Natural Language documents:classifyText API
   slug: google-cloud-natural-language-documents-classifytext-api
 artifact_total: 26
@@ -232,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-natural-language/refs/heads/main/screenshots/google-cloud-natural-language-2026-06-20T182126.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
 - description: GraphQL surface for quotes - the pre-invoice document in Printavo. Query a single quote or a paginated quotes connection, and create, update, delete, or duplicate quotes via the quoteCreate, quoteUpda
@@ -130,7 +130,7 @@ score:
   band: thin
   composite: 32.5
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -146,8 +146,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/printavo/refs/heads/main/screenshots/printavo-2026-09-02T152036.png
 security:
 - kind: domain-security
   name: Printavo Domain Security

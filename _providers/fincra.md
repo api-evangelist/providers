@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 10 acting
 api_count: 1
 apis:
-- description: The Account Resolution API from Fincra — 1 operation(s) for account resolution.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Account Resolution API from Fincra — 1 operation(s) for account resolution.
   name: Fincra Account Resolution API
   slug: fincra-account-resolution-api
-- description: The Banks API from Fincra — 1 operation(s) for banks.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Banks API from Fincra — 1 operation(s) for banks.
   name: Fincra Banks API
   slug: fincra-banks-api
-- description: The Beneficiaries API from Fincra — 2 operation(s) for beneficiaries.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Beneficiaries API from Fincra — 2 operation(s) for beneficiaries.
   name: Fincra Beneficiaries API
   slug: fincra-beneficiaries-api
-- description: The Collections API from Fincra — 4 operation(s) for collections.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Collections API from Fincra — 4 operation(s) for collections.
   name: Fincra Collections API
   slug: fincra-collections-api
-- description: The Conversions API from Fincra — 3 operation(s) for conversions.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Conversions API from Fincra — 3 operation(s) for conversions.
   name: Fincra Conversions API
   slug: fincra-conversions-api
-- description: The Payouts API from Fincra — 3 operation(s) for payouts.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Payouts API from Fincra — 3 operation(s) for payouts.
   name: Fincra Payouts API
   slug: fincra-payouts-api
-- description: The Quotes API from Fincra — 1 operation(s) for quotes.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Quotes API from Fincra — 1 operation(s) for quotes.
   name: Fincra Quotes API
   slug: fincra-quotes-api
-- description: The Virtual Accounts API from Fincra — 4 operation(s) for virtual accounts.
+- baseURL: https://api.fincra.com
+  baseurl_source: declared
+  description: The Virtual Accounts API from Fincra — 4 operation(s) for virtual accounts.
   name: Fincra Virtual Accounts API
   slug: fincra-virtual-accounts-api
 artifact_total: 24
@@ -199,7 +215,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fincra/refs/heads/main/screenshots/fincra-2026-07-25T214519.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: United Airlines Flight Status API providing real-time flight status including estimated and actual departure and arrival times, gate information, delays, and flight tracking for United-operated flight
   name: United Airlines Flight Status API
   slug: united-airlines-flight-status-api
-- description: Flight booking and reservation management
+- baseURL: https://api.united.com/v1
+  baseurl_source: declared
+  description: Flight booking and reservation management
   name: United Airlines Booking API
   slug: united-airlines-booking-api
-- description: Post-booking modifications, refunds, and ancillaries
+- baseURL: https://api.united.com/v1
+  baseurl_source: declared
+  description: Post-booking modifications, refunds, and ancillaries
   name: United Airlines Servicing API
   slug: united-airlines-servicing-api
-- description: Flight search and pricing operations
+- baseURL: https://api.united.com/v1
+  baseurl_source: declared
+  description: Flight search and pricing operations
   name: United Airlines Shopping API
   slug: united-airlines-shopping-api
-- description: Flight status and schedule information
+- baseURL: https://api.united.com/v1
+  baseurl_source: declared
+  description: Flight status and schedule information
   name: United Airlines Status API
   slug: united-airlines-status-api
 artifact_total: 27
@@ -265,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png
 security:

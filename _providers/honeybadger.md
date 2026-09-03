@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -52,22 +52,34 @@ apis:
 - description: Outbound webhook notification surface delivered by Honeybadger to subscriber URLs configured via Project Settings > Alerts & Integrations. Covers the generic Webhook integration's documented event typ
   name: Honeybadger Outbound Webhook Notifications
   slug: webhooks
-- description: The Check In API from Honeybadger — 1 operation(s) for check in.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Check In API from Honeybadger — 1 operation(s) for check in.
   name: Honeybadger Check In API
   slug: honeybadger-check-in-api
-- description: The Deploys API from Honeybadger — 1 operation(s) for deploys.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Deploys API from Honeybadger — 1 operation(s) for deploys.
   name: Honeybadger Deploys API
   slug: honeybadger-deploys-api
-- description: The Events API from Honeybadger — 1 operation(s) for events.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Events API from Honeybadger — 1 operation(s) for events.
   name: Honeybadger Events API
   slug: honeybadger-events-api
-- description: The Notices API from Honeybadger — 1 operation(s) for notices.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Notices API from Honeybadger — 1 operation(s) for notices.
   name: Honeybadger Notices API
   slug: honeybadger-notices-api
-- description: The Projects API from Honeybadger — 21 operation(s) for projects.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Projects API from Honeybadger — 21 operation(s) for projects.
   name: Honeybadger Projects API
   slug: honeybadger-projects-api
-- description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
+- baseURL: https://api.honeybadger.io/v1
+  baseurl_source: declared
+  description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
   name: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
 artifact_total: 24
@@ -201,7 +213,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -211,7 +223,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 2.6
-  previous_composite: 36.2
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/screenshots/honeybadger-2026-06-20T182819.png
 security:

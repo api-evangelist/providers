@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 1
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 113 operations · 64 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations about callbacks
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about callbacks
   name: Rainforest QA callback API
   slug: rainforest-qa-callback-api
-- description: Operations about clients
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about clients
   name: Rainforest QA clients API
   slug: rainforest-qa-clients-api
-- description: Operations about connections
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about connections
   name: Rainforest QA connections API
   slug: rainforest-qa-connections-api
-- description: Operations about credit_cards
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about credit_cards
   name: Rainforest QA credit_cards API
   slug: rainforest-qa-credit-cards-api
-- description: Operations about environments
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about environments
   name: Rainforest QA environments API
   slug: rainforest-qa-environments-api
-- description: Operations about features
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about features
   name: Rainforest QA features API
   slug: rainforest-qa-features-api
-- description: Operations about folders
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about folders
   name: Rainforest QA folders API
   slug: rainforest-qa-folders-api
-- description: Operations about generators
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about generators
   name: Rainforest QA generators API
   slug: rainforest-qa-generators-api
-- description: Operations about on_premise_crowds
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about on_premise_crowds
   name: Rainforest QA on_premise_crowd API
   slug: rainforest-qa-on-premise-crowd-api
-- description: Operations about run_groups
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about run_groups
   name: Rainforest QA run_groups API
   slug: rainforest-qa-run-groups-api
-- description: Operations about runs
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about runs
   name: Rainforest QA runs API
   slug: rainforest-qa-runs-api
-- description: Operations about site_environments
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about site_environments
   name: Rainforest QA site_environments API
   slug: rainforest-qa-site-environments-api
-- description: Operations about sites
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about sites
   name: Rainforest QA sites API
   slug: rainforest-qa-sites-api
-- description: Operations about tags
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about tags
   name: Rainforest QA tags API
   slug: rainforest-qa-tags-api
-- description: Operations about test_results
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about test_results
   name: Rainforest QA test_results API
   slug: rainforest-qa-test-results-api
-- description: Operations about tests
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about tests
   name: Rainforest QA tests API
   slug: rainforest-qa-tests-api
-- description: Operations about users
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about users
   name: Rainforest QA users API
   slug: rainforest-qa-users-api
-- description: Operations about vm_stacks
+- baseURL: https://app.rainforestqa.com/api
+  baseurl_source: declared
+  description: Operations about vm_stacks
   name: Rainforest QA vm_stack API
   slug: rainforest-qa-vm-stack-api
 artifact_total: 43
@@ -313,7 +349,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -323,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -335,7 +371,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest-qa/refs/heads/main/screenshots/rainforest-qa-2026-08-17T124920.png
 security:

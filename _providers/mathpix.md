@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 5
 apis:
-- description: Recognize handwritten math, text, and chemistry from raw stroke coordinates (x/y arrays) via v3/strokes. Pairs with the App Tokens API and strokes_session_id for client-side digital-ink capture in bro
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Recognize handwritten math, text, and chemistry from raw stroke coordinates (x/y arrays) via v3/strokes. Pairs with the App Tokens API and strokes_session_id for client-side digital-ink capture in bro
   name: Mathpix Strokes API
   slug: mathpix-strokes-api
-- description: Mint short-lived client-side app_token credentials (30 seconds to 12 hours; 5 minutes by default) so browsers, mobile clients, and digital-ink surfaces can call Mathpix without exposing the long-lived
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Mint short-lived client-side app_token credentials (30 seconds to 12 hours; 5 minutes by default) so browsers, mobile clients, and digital-ink surfaces can call Mathpix without exposing the long-lived
   name: Mathpix App Tokens API
   slug: mathpix-app-tokens-api
-- description: Process multiple images in one request.
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Process multiple images in one request.
   name: Mathpix Batches API
   slug: mathpix-batches-api
-- description: Convert Mathpix Markdown into export formats.
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Convert Mathpix Markdown into export formats.
   name: Mathpix Conversions API
   slug: mathpix-conversions-api
-- description: Process a single image for STEM OCR.
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Process a single image for STEM OCR.
   name: Mathpix Images API
   slug: mathpix-images-api
-- description: Inspect OCR consumption.
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Inspect OCR consumption.
   name: Mathpix Usage API
   slug: mathpix-usage-api
-- description: Submit, monitor, and retrieve document OCR jobs.
+- baseURL: https://api.mathpix.com
+  baseurl_source: spec
+  description: Submit, monitor, and retrieve document OCR jobs.
   name: Mathpix Documents API
   slug: mathpix-documents-api
 artifact_total: 41
@@ -366,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mathpix/refs/heads/main/screenshots/mathpix-2026-06-20T185033.png
 security:

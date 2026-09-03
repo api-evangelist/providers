@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Data-centric GRC REST API for IBM OpenPages, specified in terms of resources, their URIs, and the actions that can be performed on those URIs. Available as v1 and v2. The API is hosted per service ins
@@ -161,7 +161,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -171,11 +171,11 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 46.6
+  previous_composite: 46.3
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpages/refs/heads/main/screenshots/openpages-2026-08-07T190623.png
 security:

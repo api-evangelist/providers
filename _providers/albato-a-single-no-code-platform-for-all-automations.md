@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 9 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Browse available apps
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Browse available apps
   name: Albato A Single No Code Platform For All Automations Apps API
   slug: albato-a-single-no-code-platform-for-all-automations-apps-api
-- description: Manage automation workflows
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage automation workflows
   name: Albato A Single No Code Platform For All Automations Automations API
   slug: albato-a-single-no-code-platform-for-all-automations-automations-api
-- description: Manage app connections
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage app connections
   name: Albato A Single No Code Platform For All Automations Connections API
   slug: albato-a-single-no-code-platform-for-all-automations-connections-api
-- description: Monitor automation execution history
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Monitor automation execution history
   name: Albato A Single No Code Platform For All Automations Executions API
   slug: albato-a-single-no-code-platform-for-all-automations-executions-api
-- description: Manage inbound webhooks
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage inbound webhooks
   name: Albato A Single No Code Platform For All Automations Webhooks API
   slug: albato-a-single-no-code-platform-for-all-automations-webhooks-api
 artifact_total: 64
@@ -362,7 +372,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/screenshots/albato-a-single-no-code-platform-for-all-automations-2026-07-25T195539.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -47,94 +47,154 @@ apis:
 - description: 'The Kinde MCP (Model Context Protocol) server acts as a bridge between AI assistants and a Kinde account. It exposes a subset of the Kinde Management API as MCP tools (query organizations, check user '
   name: Kinde MCP Server
   slug: kinde-mcp-server
-- description: The API Keys API from Kinde — 3 operation(s) for api keys.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The API Keys API from Kinde — 3 operation(s) for api keys.
   name: Kinde API Keys API
   slug: kinde-api-keys-api
-- description: The APIs API from Kinde — 6 operation(s) for apis.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The APIs API from Kinde — 6 operation(s) for apis.
   name: Kinde APIs API
   slug: kinde-apis-api
-- description: The Applications API from Kinde — 7 operation(s) for applications.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Applications API from Kinde — 7 operation(s) for applications.
   name: Kinde Applications API
   slug: kinde-applications-api
-- description: The Billing Agreements API from Kinde — 1 operation(s) for billing agreements.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Agreements API from Kinde — 1 operation(s) for billing agreements.
   name: Kinde Billing Agreements API
   slug: kinde-billing-agreements-api
-- description: The Billing API from Kinde — 2 operation(s) for billing.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing API from Kinde — 2 operation(s) for billing.
   name: Kinde Billing API
   slug: kinde-billing-api
-- description: The Billing Entitlements API from Kinde — 1 operation(s) for billing entitlements.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Entitlements API from Kinde — 1 operation(s) for billing entitlements.
   name: Kinde Billing Entitlements API
   slug: kinde-billing-entitlements-api
-- description: The Billing Meter Usage API from Kinde — 1 operation(s) for billing meter usage.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Billing Meter Usage API from Kinde — 1 operation(s) for billing meter usage.
   name: Kinde Billing Meter Usage API
   slug: kinde-billing-meter-usage-api
-- description: The Business API from Kinde — 1 operation(s) for business.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Business API from Kinde — 1 operation(s) for business.
   name: Kinde Business API
   slug: kinde-business-api
-- description: The Callbacks API from Kinde — 2 operation(s) for callbacks.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Callbacks API from Kinde — 2 operation(s) for callbacks.
   name: Kinde Callbacks API
   slug: kinde-callbacks-api
-- description: The Connected Apps API from Kinde — 3 operation(s) for connected apps.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Connected Apps API from Kinde — 3 operation(s) for connected apps.
   name: Kinde Connected Apps API
   slug: kinde-connected-apps-api
-- description: The Connections API from Kinde — 2 operation(s) for connections.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Connections API from Kinde — 2 operation(s) for connections.
   name: Kinde Connections API
   slug: kinde-connections-api
-- description: The Directories API from Kinde — 2 operation(s) for directories.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Directories API from Kinde — 2 operation(s) for directories.
   name: Kinde Directories API
   slug: kinde-directories-api
-- description: The Environment variables API from Kinde — 2 operation(s) for environment variables.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Environment variables API from Kinde — 2 operation(s) for environment variables.
   name: Kinde Environment variables API
   slug: kinde-environment-variables-api
-- description: The Environments API from Kinde — 5 operation(s) for environments.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Environments API from Kinde — 5 operation(s) for environments.
   name: Kinde Environments API
   slug: kinde-environments-api
-- description: The Feature flags API from Kinde — 3 operation(s) for feature flags.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Feature flags API from Kinde — 3 operation(s) for feature flags.
   name: Kinde Feature flags API
   slug: kinde-feature-flags-api
-- description: The Identities API from Kinde — 1 operation(s) for identities.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Identities API from Kinde — 1 operation(s) for identities.
   name: Kinde Identities API
   slug: kinde-identities-api
-- description: The Industries API from Kinde — 1 operation(s) for industries.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Industries API from Kinde — 1 operation(s) for industries.
   name: Kinde Industries API
   slug: kinde-industries-api
-- description: The MFA API from Kinde — 1 operation(s) for mfa.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The MFA API from Kinde — 1 operation(s) for mfa.
   name: Kinde MFA API
   slug: kinde-mfa-api
-- description: The OAuth API from Kinde — 3 operation(s) for oauth.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The OAuth API from Kinde — 3 operation(s) for oauth.
   name: Kinde OAuth API
   slug: kinde-oauth-api
-- description: The Organizations API from Kinde — 25 operation(s) for organizations.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Kinde — 25 operation(s) for organizations.
   name: Kinde Organizations API
   slug: kinde-organizations-api
-- description: The Permissions API from Kinde — 3 operation(s) for permissions.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Permissions API from Kinde — 3 operation(s) for permissions.
   name: Kinde Permissions API
   slug: kinde-permissions-api
-- description: The Properties API from Kinde — 3 operation(s) for properties.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Properties API from Kinde — 3 operation(s) for properties.
   name: Kinde Properties API
   slug: kinde-properties-api
-- description: The Property Categories API from Kinde — 2 operation(s) for property categories.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Property Categories API from Kinde — 2 operation(s) for property categories.
   name: Kinde Property Categories API
   slug: kinde-property-categories-api
-- description: The Roles API from Kinde — 7 operation(s) for roles.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Roles API from Kinde — 7 operation(s) for roles.
   name: Kinde Roles API
   slug: kinde-roles-api
-- description: The Search API from Kinde — 1 operation(s) for search.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Search API from Kinde — 1 operation(s) for search.
   name: Kinde Search API
   slug: kinde-search-api
-- description: The Self-serve portal API from Kinde — 1 operation(s) for self-serve portal.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Self-serve portal API from Kinde — 1 operation(s) for self-serve portal.
   name: Kinde Self-serve portal API
   slug: kinde-self-serve-portal-api
-- description: The Subscribers API from Kinde — 2 operation(s) for subscribers.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Subscribers API from Kinde — 2 operation(s) for subscribers.
   name: Kinde Subscribers API
   slug: kinde-subscribers-api
-- description: The Timezones API from Kinde — 1 operation(s) for timezones.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Timezones API from Kinde — 1 operation(s) for timezones.
   name: Kinde Timezones API
   slug: kinde-timezones-api
-- description: The Users API from Kinde — 11 operation(s) for users.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Kinde — 11 operation(s) for users.
   name: Kinde Users API
   slug: kinde-users-api
-- description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
+- baseURL: https://{subdomain}.kinde.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
   name: Kinde Webhooks API
   slug: kinde-webhooks-api
 arazzos:
@@ -688,7 +748,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -698,7 +758,7 @@ score:
     discoverability: 61.1
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 65.5
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     contracts:
@@ -707,7 +767,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
 security:

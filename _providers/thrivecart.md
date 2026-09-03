@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,40 +37,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account API from ThriveCart — 1 operation(s) for account.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Account API from ThriveCart — 1 operation(s) for account.
   name: ThriveCart Account API
   slug: thrivecart-account-api
-- description: The Affiliates API from ThriveCart — 9 operation(s) for affiliates.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Affiliates API from ThriveCart — 9 operation(s) for affiliates.
   name: ThriveCart Affiliates API
   slug: thrivecart-affiliates-api
-- description: The Bumps API from ThriveCart — 3 operation(s) for bumps.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Bumps API from ThriveCart — 3 operation(s) for bumps.
   name: ThriveCart Bumps API
   slug: thrivecart-bumps-api
-- description: The Customers API from ThriveCart — 2 operation(s) for customers.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Customers API from ThriveCart — 2 operation(s) for customers.
   name: ThriveCart Customers API
   slug: thrivecart-customers-api
-- description: The Downsells API from ThriveCart — 3 operation(s) for downsells.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Downsells API from ThriveCart — 3 operation(s) for downsells.
   name: ThriveCart Downsells API
   slug: thrivecart-downsells-api
-- description: The Event subscriptions API from ThriveCart — 2 operation(s) for event subscriptions.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Event subscriptions API from ThriveCart — 2 operation(s) for event subscriptions.
   name: ThriveCart Event subscriptions API
   slug: thrivecart-event-subscriptions-api
-- description: The Learn API from ThriveCart — 1 operation(s) for learn.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Learn API from ThriveCart — 1 operation(s) for learn.
   name: ThriveCart Learn API
   slug: thrivecart-learn-api
-- description: The Products API from ThriveCart — 3 operation(s) for products.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Products API from ThriveCart — 3 operation(s) for products.
   name: ThriveCart Products API
   slug: thrivecart-products-api
-- description: The Subscriptions API from ThriveCart — 4 operation(s) for subscriptions.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Subscriptions API from ThriveCart — 4 operation(s) for subscriptions.
   name: ThriveCart Subscriptions API
   slug: thrivecart-subscriptions-api
-- description: The Transactions API from ThriveCart — 1 operation(s) for transactions.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Transactions API from ThriveCart — 1 operation(s) for transactions.
   name: ThriveCart Transactions API
   slug: thrivecart-transactions-api
-- description: The Upsells API from ThriveCart — 3 operation(s) for upsells.
+- baseURL: https://thrivecart.com/api/external
+  baseurl_source: declared
+  description: The Upsells API from ThriveCart — 3 operation(s) for upsells.
   name: ThriveCart Upsells API
   slug: thrivecart-upsells-api
 artifact_total: 22
@@ -269,7 +305,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -279,7 +315,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 72.7
+  previous_composite: 72.5
   provenance:
     conformance: first-party
     contracts:
@@ -296,7 +332,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/screenshots/thrivecart-2026-08-17T082349.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 172 operations · 92 acting
 api_count: 1
 apis:
-- description: Includes endpoints for managing 1099 forms.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Includes endpoints for managing 1099 forms.
   name: Wingspan 1099 Operations API
   slug: wingspan-1099-operations-api
-- description: These endpoints cater to fetching, storing, and managing documents related to electronic signatures, including retrieval of signing URLs and saving e-signed documents.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: These endpoints cater to fetching, storing, and managing documents related to electronic signatures, including retrieval of signing URLs and saving e-signed documents.
   name: Wingspan Banking Management API
   slug: wingspan-banking-management-api
-- description: This category includes endpoints for managing bulk operations like bulk payables, bulk invoices, and bulk collaborator management.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: This category includes endpoints for managing bulk operations like bulk payables, bulk invoices, and bulk collaborator management.
   name: Wingspan Bulk Operations API
   slug: wingspan-bulk-operations-api
-- description: Encompasses endpoints for banking-related operations such as managing bank cards, statements, instant payouts, and banking institutions..
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Encompasses endpoints for banking-related operations such as managing bank cards, statements, instant payouts, and banking institutions..
   name: Wingspan Client Management API
   slug: wingspan-client-management-api
-- description: This category includes endpoints that manage relationships and interactions with collaborators. This includes collaborator settings, and various operations related to collaborators.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: This category includes endpoints that manage relationships and interactions with collaborators. This includes collaborator settings, and various operations related to collaborators.
   name: Wingspan Collaborator Management API
   slug: wingspan-collaborator-management-api
-- description: Focuses on endpoints for managing custom fields related to payments and collaborators.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Focuses on endpoints for managing custom fields related to payments and collaborators.
   name: Wingspan Custom Field Management API
   slug: wingspan-custom-field-management-api
-- description: Deprecated Endpoints.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Deprecated Endpoints.
   name: Wingspan Deprecated API
   slug: wingspan-deprecated-api
-- description: Focuses on endpoints for managing eligibility requirements and custom fields related to payments.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Focuses on endpoints for managing eligibility requirements and custom fields related to payments.
   name: Wingspan Document Signing and Eligibility API
   slug: wingspan-document-signing-and-eligibility-api
-- description: 'Covers endpoints related to invoice creation, retrieval, and management. This includes both member and client invoices, along with specific actions like sending invoices by email and managing invoice '
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: 'Covers endpoints related to invoice creation, retrieval, and management. This includes both member and client invoices, along with specific actions like sending invoices by email and managing invoice '
   name: Wingspan Invoice Management API
   slug: wingspan-invoice-management-api
-- description: Endpoint that provides a comprehensive list of available Merchant Category Codes.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Endpoint that provides a comprehensive list of available Merchant Category Codes.
   name: Wingspan Merchant Category Codes API
   slug: wingspan-merchant-category-codes-api
-- description: Endpoints dealing with payables, including creating, listing, updating, and deleting payables. It also includes summary endpoints and immediate payroll payables.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Endpoints dealing with payables, including creating, listing, updating, and deleting payables. It also includes summary endpoints and immediate payroll payables.
   name: Wingspan Payables Management API
   slug: wingspan-payables-management-api
-- description: Covers endpoints that manage payout settings and related configurations.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Covers endpoints that manage payout settings and related configurations.
   name: Wingspan Payroll Settings API
   slug: wingspan-payroll-settings-api
-- description: Includes endpoints for generating various reports and analytics, such as payables reports, collaborators reports, and aging reports.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Includes endpoints for generating various reports and analytics, such as payables reports, collaborators reports, and aging reports.
   name: Wingspan Reporting and Analytics API
   slug: wingspan-reporting-and-analytics-api
-- description: Covers endpoints that manage service statuses and related configurations.
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Covers endpoints that manage service statuses and related configurations.
   name: Wingspan Service Settings API
   slug: wingspan-service-settings-api
-- description: Operations related to Wingspan Wallet
+- baseURL: https://api.wingspan.app
+  baseurl_source: declared
+  description: Operations related to Wingspan Wallet
   name: Wingspan Wingspan Wallet API
   slug: wingspan-wingspan-wallet-api
 artifact_total: 53
@@ -356,7 +386,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -366,7 +396,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -388,7 +418,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wingspan/refs/heads/main/screenshots/wingspan-2026-08-17T082930.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 90 operations · 53 acting
 api_count: 1
 apis:
-- description: Manage Account Permissions and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Account Permissions and related operations.
   name: Frame.io Account Permissions API
   slug: frameio-account-permissions-api
-- description: Manage Accounts and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Accounts and related operations.
   name: Frame.io Accounts API
   slug: frameio-accounts-api
-- description: Manage Collections and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Collections and related operations.
   name: Frame.io Collections API
   slug: frameio-collections-api
-- description: Manage Comments and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Comments and related operations.
   name: Frame.io Comments API
   slug: frameio-comments-api
-- description: Manage Custom Actions and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Custom Actions and related operations.
   name: Frame.io Custom Actions API
   slug: frameio-custom-actions-api
-- description: Manage Files and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Files and related operations.
   name: Frame.io Files API
   slug: frameio-files-api
-- description: Manage Folder Permissions and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Folder Permissions and related operations.
   name: Frame.io Folder Permissions API
   slug: frameio-folder-permissions-api
-- description: Manage Folders and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Folders and related operations.
   name: Frame.io Folders API
   slug: frameio-folders-api
-- description: Manage Groups and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Groups and related operations.
   name: Frame.io Groups API
   slug: frameio-groups-api
-- description: Manage Metadata and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Metadata and related operations.
   name: Frame.io Metadata API
   slug: frameio-metadata-api
-- description: Manage Metadata Fields and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Metadata Fields and related operations.
   name: Frame.io Metadata Fields API
   slug: frameio-metadata-fields-api
-- description: Manage Project Permissions and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Project Permissions and related operations.
   name: Frame.io Project Permissions API
   slug: frameio-project-permissions-api
-- description: Manage Projects and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Projects and related operations.
   name: Frame.io Projects API
   slug: frameio-projects-api
-- description: Manage Search and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Search and related operations.
   name: Frame.io Search API
   slug: frameio-search-api
-- description: Manage Shares and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Shares and related operations.
   name: Frame.io Shares API
   slug: frameio-shares-api
-- description: Manage Users and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Users and related operations.
   name: Frame.io Users API
   slug: frameio-users-api
-- description: Manage Version Stacks and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Version Stacks and related operations.
   name: Frame.io Version Stacks API
   slug: frameio-version-stacks-api
-- description: Manage Webhooks and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Webhooks and related operations.
   name: Frame.io Webhooks API
   slug: frameio-webhooks-api
-- description: Manage Workspace Permissions and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Workspace Permissions and related operations.
   name: Frame.io Workspace Permissions API
   slug: frameio-workspace-permissions-api
-- description: Manage Workspaces and related operations.
+- baseURL: https://api.frame.io
+  baseurl_source: declared
+  description: Manage Workspaces and related operations.
   name: Frame.io Workspaces API
   slug: frameio-workspaces-api
 artifact_total: 48
@@ -331,7 +371,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -341,7 +381,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 52.3
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,7 +393,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frameio/refs/heads/main/screenshots/frameio-2026-07-25T215109.png
 security:

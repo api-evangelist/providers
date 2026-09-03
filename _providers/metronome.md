@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 3
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 133 operations · 120 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: '[Alerts](https://docs.metronome.com/connecting-metronome/alerts/) monitor customer spending, balances, and other billing factors. Use these endpoints to create, retrieve, and archive customer alerts. '
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Alerts](https://docs.metronome.com/connecting-metronome/alerts/) monitor customer spending, balances, and other billing factors. Use these endpoints to create, retrieve, and archive customer alerts. '
   name: Metronome Alerts API
   slug: metronome-alerts-api
-- description: The Billable Metrics API from Metronome — 5 operation(s) for billable metrics.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Billable Metrics API from Metronome — 5 operation(s) for billable metrics.
   name: Metronome Billable Metrics API
   slug: metronome-billable-metrics-api
-- description: A contract defines a customer’s products, pricing, discounts, commitments, and more. Use these endpoints to create and update contracts data.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: A contract defines a customer’s products, pricing, discounts, commitments, and more. Use these endpoints to create and update contracts data.
   name: Metronome Contracts API
   slug: metronome-contracts-api
-- description: Credits and commits are used to manage customer balances.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: Credits and commits are used to manage customer balances.
   name: Metronome Credits and commits API
   slug: metronome-credits-and-commits-api
-- description: '[Custom fields](https://docs.metronome.com/integrations/custom-fields/) enable adding additional data to Metronome entities. Use these endpoints to create, retrieve, update, and delete custom fields.'
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Custom fields](https://docs.metronome.com/integrations/custom-fields/) enable adding additional data to Metronome entities. Use these endpoints to create, retrieve, update, and delete custom fields.'
   name: Metronome Custom fields API
   slug: metronome-custom-fields-api
-- description: '[Customers](https://docs.metronome.com/provisioning/create-customers/) in Metronome represent your users for all billing and reporting. Use these endpoints to create, retrieve, update, and archive cus'
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Customers](https://docs.metronome.com/provisioning/create-customers/) in Metronome represent your users for all billing and reporting. Use these endpoints to create, retrieve, update, and archive cus'
   name: Metronome Customers API
   slug: metronome-customers-api
-- description: The Integrations API from Metronome — 1 operation(s) for integrations.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Integrations API from Metronome — 1 operation(s) for integrations.
   name: Metronome Integrations API
   slug: metronome-integrations-api
-- description: '[Invoices](https://docs.metronome.com/invoicing/) reflect how much a customer spent during a period, which is the basis for billing. Metronome automatically generates invoices based upon your pricing,'
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Invoices](https://docs.metronome.com/invoicing/) reflect how much a customer spent during a period, which is the basis for billing. Metronome automatically generates invoices based upon your pricing,'
   name: Metronome Invoices API
   slug: metronome-invoices-api
-- description: Named schedules are used for storing custom data that can change over time. Named schedules are often used in custom pricing logic.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: Named schedules are used for storing custom data that can change over time. Named schedules are often used in custom pricing logic.
   name: Metronome Named schedules API
   slug: metronome-named-schedules-api
-- description: The Notifications API from Metronome — 6 operation(s) for notifications.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Notifications API from Metronome — 6 operation(s) for notifications.
   name: Metronome Notifications API
   slug: metronome-notifications-api
-- description: The Packages API from Metronome — 3 operation(s) for packages.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Packages API from Metronome — 3 operation(s) for packages.
   name: Metronome Packages API
   slug: metronome-packages-api
-- description: The Payments API from Metronome — 3 operation(s) for payments.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Payments API from Metronome — 3 operation(s) for payments.
   name: Metronome Payments API
   slug: metronome-payments-api
-- description: Products are the items that customers purchase.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: Products are the items that customers purchase.
   name: Metronome Products API
   slug: metronome-products-api
-- description: Rate cards are used to define default pricing for products.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: Rate cards are used to define default pricing for products.
   name: Metronome Rate cards API
   slug: metronome-rate-cards-api
-- description: '[Security](https://docs.metronome.com/developer-resources/security/) endpoints allow you to retrieve security-related data.'
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Security](https://docs.metronome.com/developer-resources/security/) endpoints allow you to retrieve security-related data.'
   name: Metronome Security API
   slug: metronome-security-api
-- description: Use these endpoints to configure a billing API key, a webhook secret, or invoice finalization behavior.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: Use these endpoints to configure a billing API key, a webhook secret, or invoice finalization behavior.
   name: Metronome Settings API
   slug: metronome-settings-api
-- description: The Threshold billing API from Metronome — 1 operation(s) for threshold billing.
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: The Threshold billing API from Metronome — 1 operation(s) for threshold billing.
   name: Metronome Threshold billing API
   slug: metronome-threshold-billing-api
-- description: '[Usage events](https://docs.metronome.com/connecting-metronome/send-usage-data/) are the basis for billable metrics. Use these endpoints to send usage events to Metronome and retrieve aggregated event'
+- baseURL: https://api.metronome.com
+  baseurl_source: declared
+  description: '[Usage events](https://docs.metronome.com/connecting-metronome/send-usage-data/) are the basis for billable metrics. Use these endpoints to send usage events to Metronome and retrieve aggregated event'
   name: Metronome Usage API
   slug: metronome-usage-api
 artifact_total: 45
@@ -257,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metronome/refs/heads/main/screenshots/metronome-2026-06-20T185311.png
 security:

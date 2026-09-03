@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 48 operations · 1 acting
 api_count: 6
 apis:
-- description: PTAB appeal and interference decisions
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: PTAB appeal and interference decisions
   name: USPTO Appeals API
   slug: uspto-gov-appeals-api
-- description: Retrieve patent application data
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Retrieve patent application data
   name: USPTO Application API
   slug: uspto-gov-application-api
-- description: Retrieve assignment records
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Retrieve assignment records
   name: USPTO Assignments API
   slug: uspto-gov-assignments-api
-- description: The Citations API from USPTO — 2 operation(s) for citations.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Citations API from USPTO — 2 operation(s) for citations.
   name: USPTO Citations API
   slug: uspto-gov-citations-api
-- description: The Datasets API from USPTO — 3 operation(s) for datasets.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Datasets API from USPTO — 3 operation(s) for datasets.
   name: USPTO Datasets API
   slug: uspto-gov-datasets-api
-- description: PTAB decisions
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: PTAB decisions
   name: USPTO Decisions API
   slug: uspto-gov-decisions-api
-- description: Retrieve patent application documents
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Retrieve patent application documents
   name: USPTO Documents API
   slug: uspto-gov-documents-api
-- description: The Enriched Citations API from USPTO — 2 operation(s) for enriched citations.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Enriched Citations API from USPTO — 2 operation(s) for enriched citations.
   name: USPTO Enriched Citations API
   slug: uspto-gov-enriched-citations-api
-- description: The Office Actions API from USPTO — 2 operation(s) for office actions.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Office Actions API from USPTO — 2 operation(s) for office actions.
   name: USPTO Office Actions API
   slug: uspto-gov-office-actions-api
-- description: The Patentsview API from USPTO — 5 operation(s) for patentsview.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Patentsview API from USPTO — 5 operation(s) for patentsview.
   name: USPTO Patentsview API
   slug: uspto-gov-patentsview-api
-- description: PTAB trial proceedings
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: PTAB trial proceedings
   name: USPTO Proceedings API
   slug: uspto-gov-proceedings-api
-- description: The Rejections API from USPTO — 2 operation(s) for rejections.
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: The Rejections API from USPTO — 2 operation(s) for rejections.
   name: USPTO Rejections API
   slug: uspto-gov-rejections-api
-- description: Search patent applications
+- baseURL: https://api.uspto.gov
+  baseurl_source: spec
+  description: Search patent applications
   name: USPTO Search API
   slug: uspto-gov-search-api
-- description: Trademark case status
+- baseURL: https://tsdrapi.uspto.gov
+  baseurl_source: spec
+  description: Trademark case status
   name: USPTO Status API
   slug: uspto-gov-status-api
 artifact_total: 43
@@ -322,7 +350,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-gov/refs/heads/main/screenshots/uspto-gov-2026-06-20T200720.png
 security:

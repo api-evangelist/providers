@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 42 operations · 21 acting
 api_count: 1
 apis:
-- description: Duplex WebSocket stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change-notification events across domains (invoices, supplier-invoices, customers, articles, orders, offers, vouchers, proj
+- baseURL: wss://ws.fortnox.se/topics-v1
+  baseurl_source: declared
+  description: Duplex WebSocket stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change-notification events across domains (invoices, supplier-invoices, customers, articles, orders, offers, vouchers, proj
   name: Fortnox Topics WebSocket API
   slug: fortnox-topics-websocket-api
-- description: Chart of accounts.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Chart of accounts.
   name: Fortnox Accounts API
   slug: fortnox-accounts-api
-- description: Article (product/service) register.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Article (product/service) register.
   name: Fortnox Articles API
   slug: fortnox-articles-api
-- description: Customer register.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Customer register.
   name: Fortnox Customers API
   slug: fortnox-customers-api
-- description: Financial (accounting) years.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Financial (accounting) years.
   name: Fortnox Financial Years API
   slug: fortnox-financial-years-api
-- description: Accounts-receivable customer invoices.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Accounts-receivable customer invoices.
   name: Fortnox Invoices API
   slug: fortnox-invoices-api
-- description: Offers (quotations).
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Offers (quotations).
   name: Fortnox Offers API
   slug: fortnox-offers-api
-- description: Sales orders.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Sales orders.
   name: Fortnox Orders API
   slug: fortnox-orders-api
-- description: Projects for tagging and reporting.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Projects for tagging and reporting.
   name: Fortnox Projects API
   slug: fortnox-projects-api
-- description: Inbound accounts-payable supplier invoices.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Inbound accounts-payable supplier invoices.
   name: Fortnox Supplier Invoices API
   slug: fortnox-supplier-invoices-api
-- description: Supplier register.
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Supplier register.
   name: Fortnox Suppliers API
   slug: fortnox-suppliers-api
-- description: Accounting vouchers (journal entries).
+- baseURL: https://api.fortnox.se/3
+  baseurl_source: declared
+  description: Accounting vouchers (journal entries).
   name: Fortnox Vouchers API
   slug: fortnox-vouchers-api
 artifact_total: 33
@@ -214,7 +238,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -224,7 +248,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 39.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -233,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png
 security:

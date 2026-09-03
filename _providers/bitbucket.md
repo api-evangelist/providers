@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 335 operations · 156 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The addon resource is intended to use used by Bitbucket Cloud Connect Apps, and only supports JWT authentication.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The addon resource is intended to use used by Bitbucket Cloud Connect Apps, and only supports JWT authentication.
   name: Bitbucket Addon API
   slug: bitbucket-addon-api
-- description: Repository owners and administrators can set branch management rules on a repository that control what can be pushed by whom. Through these rules, you can enforce a project or team workflow. For examp
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Repository owners and administrators can set branch management rules on a repository that control what can be pushed by whom. Through these rules, you can enforce a project or team workflow. For examp
   name: Bitbucket Branch restrictions API
   slug: bitbucket-branch-restrictions-api
-- description: The branching model resource is used to modify the branching model for a repository. You can use the branching model to define a branch based workflow for your repositories. When you map your workflow
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The branching model resource is used to modify the branching model for a repository. You can use the branching model to define a branch based workflow for your repositories. When you map your workflow
   name: Bitbucket Branching model API
   slug: bitbucket-branching-model-api
-- description: Commit statuses provide a way to tag commits with meta data, like automated build results.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Commit statuses provide a way to tag commits with meta data, like automated build results.
   name: Bitbucket Commit statuses API
   slug: bitbucket-commit-statuses-api
-- description: These are the repository's commits. They are paginated and returned in reverse chronological order, similar to the output of git log.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: These are the repository's commits. They are paginated and returned in reverse chronological order, similar to the output of git log.
   name: Bitbucket Commits API
   slug: bitbucket-commits-api
-- description: Teams are deploying code faster than ever, thanks to continuous delivery practices and tools like Bitbucket Pipelines. Bitbucket Deployments gives teams visibility into their deployment environments a
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Teams are deploying code faster than ever, thanks to continuous delivery practices and tools like Bitbucket Pipelines. Bitbucket Deployments gives teams visibility into their deployment environments a
   name: Bitbucket Deployments API
   slug: bitbucket-deployments-api
-- description: Access the list of download links associated with the repository.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Access the list of download links associated with the repository.
   name: Bitbucket Downloads API
   slug: bitbucket-downloads-api
-- description: The GPG resource allows you to manage GPG keys.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The GPG resource allows you to manage GPG keys.
   name: Bitbucket GPG API
   slug: bitbucket-gpg-api
-- description: The issue resources provide functionality for getting information on issues in an issue tracker, creating new issues, updating them and deleting them. You can access public issues without authenticati
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The issue resources provide functionality for getting information on issues in an issue tracker, creating new issues, updating them and deleting them. You can access public issues without authenticati
   name: Bitbucket Issue tracker API
   slug: bitbucket-issue-tracker-api
-- description: Bitbucket Pipelines brings continuous delivery to Bitbucket Cloud, empowering teams with full branching to deployment visibility and faster feedback loops.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Bitbucket Pipelines brings continuous delivery to Bitbucket Cloud, empowering teams with full branching to deployment visibility and faster feedback loops.
   name: Bitbucket Pipelines API
   slug: bitbucket-pipelines-api
-- description: Bitbucket Cloud projects make it easier for teams to focus on a goal, product, or process by organizing their repositories.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Bitbucket Cloud projects make it easier for teams to focus on a goal, product, or process by organizing their repositories.
   name: Bitbucket Projects API
   slug: bitbucket-projects-api
-- description: The properties API from Bitbucket — 4 operation(s) for properties.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The properties API from Bitbucket — 4 operation(s) for properties.
   name: Bitbucket properties API
   slug: bitbucket-properties-api
-- description: 'Pull requests are a feature that makes it easier for developers to collaborate using Bitbucket. They provide a user-friendly web interface for discussing proposed changes before integrating them into '
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: 'Pull requests are a feature that makes it easier for developers to collaborate using Bitbucket. They provide a user-friendly web interface for discussing proposed changes before integrating them into '
   name: Bitbucket Pullrequests API
   slug: bitbucket-pullrequests-api
-- description: The refs resource allows you access branches and tags in a repository. By default, results will be in the order the underlying source control system returns them and identical to the ordering one sees
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The refs resource allows you access branches and tags in a repository. By default, results will be in the order the underlying source control system returns them and identical to the ordering one sees
   name: Bitbucket Refs API
   slug: bitbucket-refs-api
-- description: Code insights provides reports, annotations, and metrics to help you and your team improve code quality in pull requests throughout the code review process. Some of the available code insights are sta
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Code insights provides reports, annotations, and metrics to help you and your team improve code quality in pull requests throughout the code review process. Some of the available code insights are sta
   name: Bitbucket Reports API
   slug: bitbucket-reports-api
-- description: A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. The repo resource allows you to access public repos, or repos that
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. The repo resource allows you to access public repos, or repos that
   name: Bitbucket Repositories API
   slug: bitbucket-repositories-api
-- description: The Search API from Bitbucket — 3 operation(s) for search.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The Search API from Bitbucket — 3 operation(s) for search.
   name: Bitbucket Search API
   slug: bitbucket-search-api
-- description: Snippets allow you share code segments or files with yourself, members of your workspace, or the world. Like pull requests, repositories and workspaces, the full set of snippets is defined by what the
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Snippets allow you share code segments or files with yourself, members of your workspace, or the world. Like pull requests, repositories and workspaces, the full set of snippets is defined by what the
   name: Bitbucket Snippets API
   slug: bitbucket-snippets-api
-- description: Browse the source code in the repository and create new commits by uploading.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: Browse the source code in the repository and create new commits by uploading.
   name: Bitbucket Source API
   slug: bitbucket-source-api
-- description: The SSH resource allows you to manage SSH keys.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The SSH resource allows you to manage SSH keys.
   name: Bitbucket SSH API
   slug: bitbucket-ssh-api
-- description: The users resource allows you to access public information associated with a user account. Most resources in the users endpoint have been deprecated in favor of workspaces.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: The users resource allows you to access public information associated with a user account. Most resources in the users endpoint have been deprecated in favor of workspaces.
   name: Bitbucket Users API
   slug: bitbucket-users-api
-- description: 'Webhooks provide a way to configure Bitbucket Cloud to make requests to your server (or another external service) whenever certain events occur in Bitbucket Cloud. A webhook consists of: * A subject -'
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: 'Webhooks provide a way to configure Bitbucket Cloud to make requests to your server (or another external service) whenever certain events occur in Bitbucket Cloud. A webhook consists of: * A subject -'
   name: Bitbucket Webhooks API
   slug: bitbucket-webhooks-api
-- description: A workspace is where you create repositories, collaborate on your code, and organize different streams of work in your Bitbucket Cloud account. Workspaces replace the use of teams and users in API cal
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: declared
+  description: A workspace is where you create repositories, collaborate on your code, and organize different streams of work in your Bitbucket Cloud account. Workspaces replace the use of teams and users in API cal
   name: Bitbucket Workspaces API
   slug: bitbucket-workspaces-api
 artifact_total: 127
@@ -499,7 +545,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -509,7 +555,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 52.1
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -518,7 +564,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:

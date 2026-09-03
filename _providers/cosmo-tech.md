@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 16
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 101 operations · 56 acting · 16 human-in-the-loop
 api_count: 7
 apis:
-- description: Dataset Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Dataset Management
   name: Cosmo Tech dataset API
   slug: cosmo-tech-dataset-api
-- description: Meta Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Meta Management
   name: Cosmo Tech meta API
   slug: cosmo-tech-meta-api
-- description: Organization Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Organization Management
   name: Cosmo Tech organization API
   slug: cosmo-tech-organization-api
-- description: Run Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Run Management
   name: Cosmo Tech run API
   slug: cosmo-tech-run-api
-- description: Runner Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Runner Management
   name: Cosmo Tech runner API
   slug: cosmo-tech-runner-api
-- description: Solution Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Solution Management
   name: Cosmo Tech solution API
   slug: cosmo-tech-solution-api
-- description: Workspace Management
+- baseURL: https://dev.api.cosmotech.com
+  baseurl_source: declared
+  description: Workspace Management
   name: Cosmo Tech workspace API
   slug: cosmo-tech-workspace-api
 artifact_total: 20
@@ -251,7 +265,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmo-tech/refs/heads/main/screenshots/cosmo-tech-2026-07-25T210455.png
 security:

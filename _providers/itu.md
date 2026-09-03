@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,28 +45,44 @@ agentic_access:
   summary_line: 20 operations · 2 acting
 api_count: 2
 apis:
-- description: Curated DataHub dashboard definitions.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Curated DataHub dashboard definitions.
   name: ITU Dashboards API
   slug: itu-dashboards-api
-- description: Indicator time series, by indicator, country and region aggregate.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Indicator time series, by indicator, country and region aggregate.
   name: ITU Data API
   slug: itu-data-api
-- description: ICT Development Index composite scores.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: ICT Development Index composite scores.
   name: ITU IDI API
   slug: itu-idi-api
-- description: The indicator dictionary — categories, definitions, units and coverage.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: The indicator dictionary — categories, definitions, units and coverage.
   name: ITU Indicators API
   slug: itu-indicators-api
-- description: Dataset provenance and the owning ITU divisions.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Dataset provenance and the owning ITU divisions.
   name: ITU Methodology API
   slug: itu-methodology-api
-- description: Batch proximity scoring of coordinates against the ITU Interactive Transmission Map.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Batch proximity scoring of coordinates against the ITU Interactive Transmission Map.
   name: ITU Proximity API
   slug: itu-proximity-api
-- description: Country and region reference data.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Country and region reference data.
   name: ITU Reference API
   slug: itu-reference-api
-- description: Universal and Meaningful Connectivity targets and scores.
+- baseURL: https://api.datahub.itu.int/v2
+  baseurl_source: declared
+  description: Universal and Meaningful Connectivity targets and scores.
   name: ITU UMC API
   slug: itu-umc-api
 artifact_total: 14
@@ -216,7 +244,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

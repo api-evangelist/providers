@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 8
 apis:
-- description: The Accounts API from HostBill — 1 operation(s) for accounts.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Accounts API from HostBill — 1 operation(s) for accounts.
   name: HostBill Accounts API
   slug: hostbill-accounts-api
-- description: The Admin API from HostBill — 1 operation(s) for admin.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Admin API from HostBill — 1 operation(s) for admin.
   name: HostBill Admin API
   slug: hostbill-admin-api
-- description: The Clients API from HostBill — 1 operation(s) for clients.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Clients API from HostBill — 1 operation(s) for clients.
   name: HostBill Clients API
   slug: hostbill-clients-api
-- description: The Domains API from HostBill — 1 operation(s) for domains.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Domains API from HostBill — 1 operation(s) for domains.
   name: HostBill Domains API
   slug: hostbill-domains-api
-- description: The Invoices API from HostBill — 1 operation(s) for invoices.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Invoices API from HostBill — 1 operation(s) for invoices.
   name: HostBill Invoices API
   slug: hostbill-invoices-api
-- description: The Orders API from HostBill — 1 operation(s) for orders.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Orders API from HostBill — 1 operation(s) for orders.
   name: HostBill Orders API
   slug: hostbill-orders-api
-- description: The Tickets API from HostBill — 1 operation(s) for tickets.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Tickets API from HostBill — 1 operation(s) for tickets.
   name: HostBill Tickets API
   slug: hostbill-tickets-api
-- description: The Transactions API from HostBill — 1 operation(s) for transactions.
+- baseURL: https://yourinstance.hostbillapp.com/api2.php
+  baseurl_source: declared
+  description: The Transactions API from HostBill — 1 operation(s) for transactions.
   name: HostBill Transactions API
   slug: hostbill-transactions-api
 artifact_total: 25
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostbill/refs/heads/main/screenshots/hostbill-2026-06-20T182839.png
 security:

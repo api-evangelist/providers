@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 25 operations
 api_count: 1
 apis:
-- description: The Activities API from Recreation.gov — 2 operation(s) for activities.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Activities API from Recreation.gov — 2 operation(s) for activities.
   name: Recreation.gov Activities API
   slug: recreation-gov-activities-api
-- description: The Campsites API from Recreation.gov — 2 operation(s) for campsites.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Campsites API from Recreation.gov — 2 operation(s) for campsites.
   name: Recreation.gov Campsites API
   slug: recreation-gov-campsites-api
-- description: The Events API from Recreation.gov — 2 operation(s) for events.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Events API from Recreation.gov — 2 operation(s) for events.
   name: Recreation.gov Events API
   slug: recreation-gov-events-api
-- description: The Facilities API from Recreation.gov — 6 operation(s) for facilities.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Facilities API from Recreation.gov — 6 operation(s) for facilities.
   name: Recreation.gov Facilities API
   slug: recreation-gov-facilities-api
-- description: The Links API from Recreation.gov — 1 operation(s) for links.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Links API from Recreation.gov — 1 operation(s) for links.
   name: Recreation.gov Links API
   slug: recreation-gov-links-api
-- description: The Media API from Recreation.gov — 1 operation(s) for media.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Media API from Recreation.gov — 1 operation(s) for media.
   name: Recreation.gov Media API
   slug: recreation-gov-media-api
-- description: The Organizations API from Recreation.gov — 2 operation(s) for organizations.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Recreation.gov — 2 operation(s) for organizations.
   name: Recreation.gov Organizations API
   slug: recreation-gov-organizations-api
-- description: The Permitentrances API from Recreation.gov — 2 operation(s) for permitentrances.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Permitentrances API from Recreation.gov — 2 operation(s) for permitentrances.
   name: Recreation.gov Permitentrances API
   slug: recreation-gov-permitentrances-api
-- description: The Recareas API from Recreation.gov — 5 operation(s) for recareas.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Recareas API from Recreation.gov — 5 operation(s) for recareas.
   name: Recreation.gov Recareas API
   slug: recreation-gov-recareas-api
-- description: The Tours API from Recreation.gov — 2 operation(s) for tours.
+- baseURL: https://ridb.recreation.gov/api/v1
+  baseurl_source: declared
+  description: The Tours API from Recreation.gov — 2 operation(s) for tours.
   name: Recreation.gov Tours API
   slug: recreation-gov-tours-api
 artifact_total: 29
@@ -199,7 +219,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/screenshots/recreation-gov-2026-06-20T192708.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: The Device Fingerprint API from IPQualityScore — 1 operation(s) for device fingerprint.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The Device Fingerprint API from IPQualityScore — 1 operation(s) for device fingerprint.
   name: IPQualityScore Device Fingerprint API
   slug: ipqualityscore-device-fingerprint-api
-- description: The Email Validation API from IPQualityScore — 1 operation(s) for email validation.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The Email Validation API from IPQualityScore — 1 operation(s) for email validation.
   name: IPQualityScore Email Validation API
   slug: ipqualityscore-email-validation-api
-- description: The IP Reputation API from IPQualityScore — 1 operation(s) for ip reputation.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The IP Reputation API from IPQualityScore — 1 operation(s) for ip reputation.
   name: IPQualityScore IP Reputation API
   slug: ipqualityscore-ip-reputation-api
-- description: The Leaked Data API from IPQualityScore — 1 operation(s) for leaked data.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The Leaked Data API from IPQualityScore — 1 operation(s) for leaked data.
   name: IPQualityScore Leaked Data API
   slug: ipqualityscore-leaked-data-api
-- description: The Phone Validation API from IPQualityScore — 1 operation(s) for phone validation.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The Phone Validation API from IPQualityScore — 1 operation(s) for phone validation.
   name: IPQualityScore Phone Validation API
   slug: ipqualityscore-phone-validation-api
-- description: The URL Scanner API from IPQualityScore — 1 operation(s) for url scanner.
+- baseURL: https://www.ipqualityscore.com/api/json
+  baseurl_source: declared
+  description: The URL Scanner API from IPQualityScore — 1 operation(s) for url scanner.
   name: IPQualityScore URL Scanner API
   slug: ipqualityscore-url-scanner-api
 artifact_total: 20
@@ -181,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipqualityscore/refs/heads/main/screenshots/ipqualityscore-2026-07-25T222839.png
 security:

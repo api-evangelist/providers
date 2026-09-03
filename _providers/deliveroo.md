@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 15 operations · 11 acting
 api_count: 9
 apis:
-- description: The Deliveroo Catalogue API is part of the Retail Platform Suite and manages master grocery catalogues of up to 30,000 items per merchant. Retailers use it to publish product data, variations, and ava
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Deliveroo Catalogue API is part of the Retail Platform Suite and manages master grocery catalogues of up to 30,000 items per merchant. Retailers use it to publish product data, variations, and ava
   name: Deliveroo Catalogue API
   slug: catalogue-api
-- description: The Deliveroo Picking API supports the Retail Platform Suite picking flow, letting grocery operators process incoming orders, remove unavailable items, propose substitutions, and accept or reject orde
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Deliveroo Picking API supports the Retail Platform Suite picking flow, letting grocery operators process incoming orders, remove unavailable items, propose substitutions, and accept or reject orde
   name: Deliveroo Picking API
   slug: picking-api
-- description: The Deliveries API from Deliveroo — 1 operation(s) for deliveries.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Deliveries API from Deliveroo — 1 operation(s) for deliveries.
   name: Deliveroo Deliveries API
   slug: deliveroo-deliveries-api
-- description: The Menus API from Deliveroo — 1 operation(s) for menus.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Menus API from Deliveroo — 1 operation(s) for menus.
   name: Deliveroo Menus API
   slug: deliveroo-menus-api
-- description: The Opening Hours API from Deliveroo — 1 operation(s) for opening hours.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Opening Hours API from Deliveroo — 1 operation(s) for opening hours.
   name: Deliveroo Opening Hours API
   slug: deliveroo-opening-hours-api
-- description: The Orders API from Deliveroo — 2 operation(s) for orders.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Orders API from Deliveroo — 2 operation(s) for orders.
   name: Deliveroo Orders API
   slug: deliveroo-orders-api
-- description: The Pricing API from Deliveroo — 1 operation(s) for pricing.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Pricing API from Deliveroo — 1 operation(s) for pricing.
   name: Deliveroo Pricing API
   slug: deliveroo-pricing-api
-- description: The Quotes API from Deliveroo — 1 operation(s) for quotes.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Quotes API from Deliveroo — 1 operation(s) for quotes.
   name: Deliveroo Quotes API
   slug: deliveroo-quotes-api
-- description: The Sync Status API from Deliveroo — 1 operation(s) for sync status.
+- baseURL: https://api.developers.deliveroo.com
+  baseurl_source: declared
+  description: The Sync Status API from Deliveroo — 1 operation(s) for sync status.
   name: Deliveroo Sync Status API
   slug: deliveroo-sync-status-api
 artifact_total: 101
@@ -485,7 +503,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -495,7 +513,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 38.2
-  previous_composite: 40.9
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -504,7 +522,7 @@ score:
       marker_coverage: 100.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:

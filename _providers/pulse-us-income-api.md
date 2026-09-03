@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: It was designed to solve the problem of calculating the future income trajectory of applicants in real-time.
@@ -93,7 +93,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-us-income-api/refs/heads/main/screenshots/pulse-us-income-api-2026-06-20T192257.png
 security:

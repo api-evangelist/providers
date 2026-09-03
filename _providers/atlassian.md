@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -162,436 +162,724 @@ apis:
 - description: The Atlassian Forge App REST API enables Forge apps to expose custom REST API endpoints for external system integration.
   name: Atlassian Forge App REST API
   slug: atlassian-forge-app-rest-api
-- description: The Addon API from Atlassian — 5 operation(s) for addon.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Addon API from Atlassian — 5 operation(s) for addon.
   name: Atlassian Addon API
   slug: atlassian-addon-api
-- description: The Analytics API from Atlassian — 2 operation(s) for analytics.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Analytics API from Atlassian — 2 operation(s) for analytics.
   name: Atlassian Analytics API
   slug: atlassian-analytics-api
-- description: The Announcement Banner API from Atlassian — 1 operation(s) for announcement banner.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Announcement Banner API from Atlassian — 1 operation(s) for announcement banner.
   name: Atlassian Announcement Banner API
   slug: atlassian-announcement-banner-api
-- description: The App Data Policies (EAP) API from Atlassian — 2 operation(s) for app data policies (eap).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The App Data Policies (EAP) API from Atlassian — 2 operation(s) for app data policies (eap).
   name: Atlassian App Data Policies (EAP) API
   slug: atlassian-app-data-policies-eap-api
-- description: The App Migration API from Atlassian — 3 operation(s) for app migration.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The App Migration API from Atlassian — 3 operation(s) for app migration.
   name: Atlassian App Migration API
   slug: atlassian-app-migration-api
-- description: The App Properties API from Atlassian — 3 operation(s) for app properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The App Properties API from Atlassian — 3 operation(s) for app properties.
   name: Atlassian App Properties API
   slug: atlassian-app-properties-api
-- description: The Application Roles API from Atlassian — 2 operation(s) for application roles.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Application Roles API from Atlassian — 2 operation(s) for application roles.
   name: Atlassian Application Roles API
   slug: atlassian-application-roles-api
-- description: The Audit API from Atlassian — 4 operation(s) for audit.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Audit API from Atlassian — 4 operation(s) for audit.
   name: Atlassian Audit API
   slug: atlassian-audit-api
-- description: The Audit Records API from Atlassian — 1 operation(s) for audit records.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Audit Records API from Atlassian — 1 operation(s) for audit records.
   name: Atlassian Audit Records API
   slug: atlassian-audit-records-api
-- description: The Avatars API from Atlassian — 6 operation(s) for avatars.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Avatars API from Atlassian — 6 operation(s) for avatars.
   name: Atlassian Avatars API
   slug: atlassian-avatars-api
-- description: The Branch Restrictions API from Atlassian — 2 operation(s) for branch restrictions.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Branch Restrictions API from Atlassian — 2 operation(s) for branch restrictions.
   name: Atlassian Branch Restrictions API
   slug: atlassian-branch-restrictions-api
-- description: The Branching Model API from Atlassian — 5 operation(s) for branching model.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Branching Model API from Atlassian — 5 operation(s) for branching model.
   name: Atlassian Branching Model API
   slug: atlassian-branching-model-api
-- description: The Classification Levels API from Atlassian — 1 operation(s) for classification levels.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Classification Levels API from Atlassian — 1 operation(s) for classification levels.
   name: Atlassian Classification Levels API
   slug: atlassian-classification-levels-api
-- description: The Commit Statuses API from Atlassian — 3 operation(s) for commit statuses.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Commit Statuses API from Atlassian — 3 operation(s) for commit statuses.
   name: Atlassian Commit Statuses API
   slug: atlassian-commit-statuses-api
-- description: The Commits API from Atlassian — 19 operation(s) for commits.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Commits API from Atlassian — 19 operation(s) for commits.
   name: Atlassian Commits API
   slug: atlassian-commits-api
-- description: The Content API from Atlassian — 26 operation(s) for content.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content API from Atlassian — 26 operation(s) for content.
   name: Atlassian Content API
   slug: atlassian-content-api
-- description: The Content - Attachments API from Atlassian — 4 operation(s) for content - attachments.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content - Attachments API from Atlassian — 4 operation(s) for content - attachments.
   name: Atlassian Content - Attachments API
   slug: atlassian-content-attachments-api
-- description: The Content Body API from Atlassian — 3 operation(s) for content body.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Body API from Atlassian — 3 operation(s) for content body.
   name: Atlassian Content Body API
   slug: atlassian-content-body-api
-- description: The Content - Children and Descendants API from Atlassian — 7 operation(s) for content - children and descendants.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content - Children and Descendants API from Atlassian — 7 operation(s) for content - children and descendants.
   name: Atlassian Content - Children and Descendants API
   slug: atlassian-content-children-and-descendants-api
-- description: The Content Comments API from Atlassian — 1 operation(s) for content comments.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Comments API from Atlassian — 1 operation(s) for content comments.
   name: Atlassian Content Comments API
   slug: atlassian-content-comments-api
-- description: The Content Labels API from Atlassian — 2 operation(s) for content labels.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Labels API from Atlassian — 2 operation(s) for content labels.
   name: Atlassian Content Labels API
   slug: atlassian-content-labels-api
-- description: The Content - Macro Body API from Atlassian — 3 operation(s) for content - macro body.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content - Macro Body API from Atlassian — 3 operation(s) for content - macro body.
   name: Atlassian Content - Macro Body API
   slug: atlassian-content-macro-body-api
-- description: The Content Permissions API from Atlassian — 1 operation(s) for content permissions.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Permissions API from Atlassian — 1 operation(s) for content permissions.
   name: Atlassian Content Permissions API
   slug: atlassian-content-permissions-api
-- description: The Content Properties API from Atlassian — 2 operation(s) for content properties.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Properties API from Atlassian — 2 operation(s) for content properties.
   name: Atlassian Content Properties API
   slug: atlassian-content-properties-api
-- description: The Content Restrictions API from Atlassian — 6 operation(s) for content restrictions.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Restrictions API from Atlassian — 6 operation(s) for content restrictions.
   name: Atlassian Content Restrictions API
   slug: atlassian-content-restrictions-api
-- description: The Content States API from Atlassian — 8 operation(s) for content states.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content States API from Atlassian — 8 operation(s) for content states.
   name: Atlassian Content States API
   slug: atlassian-content-states-api
-- description: The Content Versions API from Atlassian — 2 operation(s) for content versions.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Versions API from Atlassian — 2 operation(s) for content versions.
   name: Atlassian Content Versions API
   slug: atlassian-content-versions-api
-- description: The Content Watches API from Atlassian — 6 operation(s) for content watches.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Content Watches API from Atlassian — 6 operation(s) for content watches.
   name: Atlassian Content Watches API
   slug: atlassian-content-watches-api
-- description: The Dashboards API from Atlassian — 10 operation(s) for dashboards.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Dashboards API from Atlassian — 10 operation(s) for dashboards.
   name: Atlassian Dashboards API
   slug: atlassian-dashboards-api
-- description: The Deployments API from Atlassian — 9 operation(s) for deployments.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Deployments API from Atlassian — 9 operation(s) for deployments.
   name: Atlassian Deployments API
   slug: atlassian-deployments-api
-- description: Manage verified domains for an organization.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Manage verified domains for an organization.
   name: Atlassian Domains API
   slug: atlassian-domains-api
-- description: The Downloads API from Atlassian — 2 operation(s) for downloads.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Downloads API from Atlassian — 2 operation(s) for downloads.
   name: Atlassian Downloads API
   slug: atlassian-downloads-api
-- description: The Dynamic Modules API from Atlassian — 2 operation(s) for dynamic modules.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Dynamic Modules API from Atlassian — 2 operation(s) for dynamic modules.
   name: Atlassian Dynamic Modules API
   slug: atlassian-dynamic-modules-api
-- description: Retrieve organization audit events.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Retrieve organization audit events.
   name: Atlassian Events API
   slug: atlassian-events-api
-- description: The Experimental API from Atlassian — 2 operation(s) for experimental.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Experimental API from Atlassian — 2 operation(s) for experimental.
   name: Atlassian Experimental API
   slug: atlassian-experimental-api
-- description: The Filter Sharing API from Atlassian — 3 operation(s) for filter sharing.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Filter Sharing API from Atlassian — 3 operation(s) for filter sharing.
   name: Atlassian Filter Sharing API
   slug: atlassian-filter-sharing-api
-- description: The Filters API from Atlassian — 8 operation(s) for filters.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Filters API from Atlassian — 8 operation(s) for filters.
   name: Atlassian Filters API
   slug: atlassian-filters-api
-- description: The Group and User Picker API from Atlassian — 1 operation(s) for group and user picker.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Group and User Picker API from Atlassian — 1 operation(s) for group and user picker.
   name: Atlassian Group and User Picker API
   slug: atlassian-group-and-user-picker-api
-- description: The Group API from Atlassian — 10 operation(s) for group.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Group API from Atlassian — 10 operation(s) for group.
   name: Atlassian Group API
   slug: atlassian-group-api
-- description: Manage groups within an organization.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Manage groups within an organization.
   name: Atlassian Groups API
   slug: atlassian-groups-api
-- description: The Inline Tasks API from Atlassian — 2 operation(s) for inline tasks.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Inline Tasks API from Atlassian — 2 operation(s) for inline tasks.
   name: Atlassian Inline Tasks API
   slug: atlassian-inline-tasks-api
-- description: The Issue Attachments API from Atlassian — 7 operation(s) for issue attachments.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Attachments API from Atlassian — 7 operation(s) for issue attachments.
   name: Atlassian Issue Attachments API
   slug: atlassian-issue-attachments-api
-- description: The Issue Comment Properties API from Atlassian — 2 operation(s) for issue comment properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Comment Properties API from Atlassian — 2 operation(s) for issue comment properties.
   name: Atlassian Issue Comment Properties API
   slug: atlassian-issue-comment-properties-api
-- description: The Issue Comments API from Atlassian — 3 operation(s) for issue comments.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Comments API from Atlassian — 3 operation(s) for issue comments.
   name: Atlassian Issue Comments API
   slug: atlassian-issue-comments-api
-- description: The Issue Custom Field Configuration (Apps) API from Atlassian — 1 operation(s) for issue custom field configuration (apps).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Custom Field Configuration (Apps) API from Atlassian — 1 operation(s) for issue custom field configuration (apps).
   name: Atlassian Issue Custom Field Configuration (Apps) API
   slug: atlassian-issue-custom-field-configuration-apps-api
-- description: The Issue Custom Field Contexts API from Atlassian — 10 operation(s) for issue custom field contexts.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Custom Field Contexts API from Atlassian — 10 operation(s) for issue custom field contexts.
   name: Atlassian Issue Custom Field Contexts API
   slug: atlassian-issue-custom-field-contexts-api
-- description: The Issue Custom Field Options API from Atlassian — 4 operation(s) for issue custom field options.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Custom Field Options API from Atlassian — 4 operation(s) for issue custom field options.
   name: Atlassian Issue Custom Field Options API
   slug: atlassian-issue-custom-field-options-api
-- description: The Issue Custom Field Options (Apps) API from Atlassian — 5 operation(s) for issue custom field options (apps).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Custom Field Options (Apps) API from Atlassian — 5 operation(s) for issue custom field options (apps).
   name: Atlassian Issue Custom Field Options (Apps) API
   slug: atlassian-issue-custom-field-options-apps-api
-- description: The Issue Custom Field Values (Apps) API from Atlassian — 2 operation(s) for issue custom field values (apps).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Custom Field Values (Apps) API from Atlassian — 2 operation(s) for issue custom field values (apps).
   name: Atlassian Issue Custom Field Values (Apps) API
   slug: atlassian-issue-custom-field-values-apps-api
-- description: The Issue Field Configurations API from Atlassian — 9 operation(s) for issue field configurations.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Field Configurations API from Atlassian — 9 operation(s) for issue field configurations.
   name: Atlassian Issue Field Configurations API
   slug: atlassian-issue-field-configurations-api
-- description: The Issue Fields API from Atlassian — 8 operation(s) for issue fields.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Fields API from Atlassian — 8 operation(s) for issue fields.
   name: Atlassian Issue Fields API
   slug: atlassian-issue-fields-api
-- description: The Issue Link Types API from Atlassian — 2 operation(s) for issue link types.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Link Types API from Atlassian — 2 operation(s) for issue link types.
   name: Atlassian Issue Link Types API
   slug: atlassian-issue-link-types-api
-- description: The Issue Links API from Atlassian — 2 operation(s) for issue links.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Links API from Atlassian — 2 operation(s) for issue links.
   name: Atlassian Issue Links API
   slug: atlassian-issue-links-api
-- description: The Issue Navigator Settings API from Atlassian — 1 operation(s) for issue navigator settings.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Navigator Settings API from Atlassian — 1 operation(s) for issue navigator settings.
   name: Atlassian Issue Navigator Settings API
   slug: atlassian-issue-navigator-settings-api
-- description: The Issue Notification Schemes API from Atlassian — 6 operation(s) for issue notification schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Notification Schemes API from Atlassian — 6 operation(s) for issue notification schemes.
   name: Atlassian Issue Notification Schemes API
   slug: atlassian-issue-notification-schemes-api
-- description: The Issue Priorities API from Atlassian — 5 operation(s) for issue priorities.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Priorities API from Atlassian — 5 operation(s) for issue priorities.
   name: Atlassian Issue Priorities API
   slug: atlassian-issue-priorities-api
-- description: The Issue Properties API from Atlassian — 5 operation(s) for issue properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Properties API from Atlassian — 5 operation(s) for issue properties.
   name: Atlassian Issue Properties API
   slug: atlassian-issue-properties-api
-- description: The Issue Remote Links API from Atlassian — 2 operation(s) for issue remote links.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Remote Links API from Atlassian — 2 operation(s) for issue remote links.
   name: Atlassian Issue Remote Links API
   slug: atlassian-issue-remote-links-api
-- description: The Issue Resolutions API from Atlassian — 5 operation(s) for issue resolutions.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Resolutions API from Atlassian — 5 operation(s) for issue resolutions.
   name: Atlassian Issue Resolutions API
   slug: atlassian-issue-resolutions-api
-- description: The Issue Search API from Atlassian — 4 operation(s) for issue search.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Search API from Atlassian — 4 operation(s) for issue search.
   name: Atlassian Issue Search API
   slug: atlassian-issue-search-api
-- description: The Issue Security Level API from Atlassian — 2 operation(s) for issue security level.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Security Level API from Atlassian — 2 operation(s) for issue security level.
   name: Atlassian Issue Security Level API
   slug: atlassian-issue-security-level-api
-- description: The Issue Security Schemes API from Atlassian — 12 operation(s) for issue security schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Security Schemes API from Atlassian — 12 operation(s) for issue security schemes.
   name: Atlassian Issue Security Schemes API
   slug: atlassian-issue-security-schemes-api
-- description: The Issue Tracker API from Atlassian — 19 operation(s) for issue tracker.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Issue Tracker API from Atlassian — 19 operation(s) for issue tracker.
   name: Atlassian Issue Tracker API
   slug: atlassian-issue-tracker-api
-- description: The Issue Type Properties API from Atlassian — 2 operation(s) for issue type properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Type Properties API from Atlassian — 2 operation(s) for issue type properties.
   name: Atlassian Issue Type Properties API
   slug: atlassian-issue-type-properties-api
-- description: The Issue Type Schemes API from Atlassian — 7 operation(s) for issue type schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Type Schemes API from Atlassian — 7 operation(s) for issue type schemes.
   name: Atlassian Issue Type Schemes API
   slug: atlassian-issue-type-schemes-api
-- description: The Issue Type Screen Schemes API from Atlassian — 8 operation(s) for issue type screen schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Type Screen Schemes API from Atlassian — 8 operation(s) for issue type screen schemes.
   name: Atlassian Issue Type Screen Schemes API
   slug: atlassian-issue-type-screen-schemes-api
-- description: The Issue Types API from Atlassian — 5 operation(s) for issue types.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Types API from Atlassian — 5 operation(s) for issue types.
   name: Atlassian Issue Types API
   slug: atlassian-issue-types-api
-- description: The Issue Votes API from Atlassian — 1 operation(s) for issue votes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Votes API from Atlassian — 1 operation(s) for issue votes.
   name: Atlassian Issue Votes API
   slug: atlassian-issue-votes-api
-- description: The Issue Watchers API from Atlassian — 2 operation(s) for issue watchers.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Watchers API from Atlassian — 2 operation(s) for issue watchers.
   name: Atlassian Issue Watchers API
   slug: atlassian-issue-watchers-api
-- description: The Issue Worklog Properties API from Atlassian — 2 operation(s) for issue worklog properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Worklog Properties API from Atlassian — 2 operation(s) for issue worklog properties.
   name: Atlassian Issue Worklog Properties API
   slug: atlassian-issue-worklog-properties-api
-- description: The Issue Worklogs API from Atlassian — 5 operation(s) for issue worklogs.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issue Worklogs API from Atlassian — 5 operation(s) for issue worklogs.
   name: Atlassian Issue Worklogs API
   slug: atlassian-issue-worklogs-api
-- description: The Issues API from Atlassian — 32 operation(s) for issues.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Issues API from Atlassian — 32 operation(s) for issues.
   name: Atlassian Issues API
   slug: atlassian-issues-api
-- description: The Jira Expressions API from Atlassian — 2 operation(s) for jira expressions.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Jira Expressions API from Atlassian — 2 operation(s) for jira expressions.
   name: Atlassian Jira Expressions API
   slug: atlassian-jira-expressions-api
-- description: The Jira Settings API from Atlassian — 4 operation(s) for jira settings.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Jira Settings API from Atlassian — 4 operation(s) for jira settings.
   name: Atlassian Jira Settings API
   slug: atlassian-jira-settings-api
-- description: The JQL API from Atlassian — 5 operation(s) for jql.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The JQL API from Atlassian — 5 operation(s) for jql.
   name: Atlassian JQL API
   slug: atlassian-jql-api
-- description: The JQL Functions (Apps) API from Atlassian — 1 operation(s) for jql functions (apps).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The JQL Functions (Apps) API from Atlassian — 1 operation(s) for jql functions (apps).
   name: Atlassian JQL Functions (Apps) API
   slug: atlassian-jql-functions-apps-api
-- description: The Label Info API from Atlassian — 1 operation(s) for label info.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Label Info API from Atlassian — 1 operation(s) for label info.
   name: Atlassian Label Info API
   slug: atlassian-label-info-api
-- description: The Labels API from Atlassian — 3 operation(s) for labels.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Labels API from Atlassian — 3 operation(s) for labels.
   name: Atlassian Labels API
   slug: atlassian-labels-api
-- description: The License Metrics API from Atlassian — 3 operation(s) for license metrics.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The License Metrics API from Atlassian — 3 operation(s) for license metrics.
   name: Atlassian License Metrics API
   slug: atlassian-license-metrics-api
-- description: The Long-Running Task API from Atlassian — 2 operation(s) for long-running task.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Long-Running Task API from Atlassian — 2 operation(s) for long-running task.
   name: Atlassian Long-Running Task API
   slug: atlassian-long-running-task-api
-- description: The Myself API from Atlassian — 3 operation(s) for myself.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Myself API from Atlassian — 3 operation(s) for myself.
   name: Atlassian Myself API
   slug: atlassian-myself-api
-- description: Manage Atlassian organizations.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Manage Atlassian organizations.
   name: Atlassian Organizations API
   slug: atlassian-organizations-api
-- description: The Permission Schemes API from Atlassian — 4 operation(s) for permission schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Permission Schemes API from Atlassian — 4 operation(s) for permission schemes.
   name: Atlassian Permission Schemes API
   slug: atlassian-permission-schemes-api
-- description: The Permissions API from Atlassian — 17 operation(s) for permissions.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Permissions API from Atlassian — 17 operation(s) for permissions.
   name: Atlassian Permissions API
   slug: atlassian-permissions-api
-- description: The Pipelines API from Atlassian — 33 operation(s) for pipelines.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Pipelines API from Atlassian — 33 operation(s) for pipelines.
   name: Atlassian Pipelines API
   slug: atlassian-pipelines-api
-- description: Manage organization-level policies.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Manage organization-level policies.
   name: Atlassian Policies API
   slug: atlassian-policies-api
-- description: The Project Avatars API from Atlassian — 4 operation(s) for project avatars.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Avatars API from Atlassian — 4 operation(s) for project avatars.
   name: Atlassian Project Avatars API
   slug: atlassian-project-avatars-api
-- description: The Project Categories API from Atlassian — 2 operation(s) for project categories.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Categories API from Atlassian — 2 operation(s) for project categories.
   name: Atlassian Project Categories API
   slug: atlassian-project-categories-api
-- description: The Project Classification Levels API from Atlassian — 1 operation(s) for project classification levels.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Classification Levels API from Atlassian — 1 operation(s) for project classification levels.
   name: Atlassian Project Classification Levels API
   slug: atlassian-project-classification-levels-api
-- description: The Project Components API from Atlassian — 5 operation(s) for project components.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Components API from Atlassian — 5 operation(s) for project components.
   name: Atlassian Project Components API
   slug: atlassian-project-components-api
-- description: The Project Email API from Atlassian — 1 operation(s) for project email.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Email API from Atlassian — 1 operation(s) for project email.
   name: Atlassian Project Email API
   slug: atlassian-project-email-api
-- description: The Project Features API from Atlassian — 2 operation(s) for project features.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Features API from Atlassian — 2 operation(s) for project features.
   name: Atlassian Project Features API
   slug: atlassian-project-features-api
-- description: The Project Key and Name Validation API from Atlassian — 3 operation(s) for project key and name validation.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Key and Name Validation API from Atlassian — 3 operation(s) for project key and name validation.
   name: Atlassian Project Key and Name Validation API
   slug: atlassian-project-key-and-name-validation-api
-- description: The Project Permission Schemes API from Atlassian — 3 operation(s) for project permission schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Permission Schemes API from Atlassian — 3 operation(s) for project permission schemes.
   name: Atlassian Project Permission Schemes API
   slug: atlassian-project-permission-schemes-api
-- description: The Project Properties API from Atlassian — 2 operation(s) for project properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Properties API from Atlassian — 2 operation(s) for project properties.
   name: Atlassian Project Properties API
   slug: atlassian-project-properties-api
-- description: The Project Role Actors API from Atlassian — 2 operation(s) for project role actors.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Role Actors API from Atlassian — 2 operation(s) for project role actors.
   name: Atlassian Project Role Actors API
   slug: atlassian-project-role-actors-api
-- description: The Project Roles API from Atlassian — 5 operation(s) for project roles.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Roles API from Atlassian — 5 operation(s) for project roles.
   name: Atlassian Project Roles API
   slug: atlassian-project-roles-api
-- description: The Project Types API from Atlassian — 4 operation(s) for project types.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Types API from Atlassian — 4 operation(s) for project types.
   name: Atlassian Project Types API
   slug: atlassian-project-types-api
-- description: The Project Versions API from Atlassian — 11 operation(s) for project versions.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Project Versions API from Atlassian — 11 operation(s) for project versions.
   name: Atlassian Project Versions API
   slug: atlassian-project-versions-api
-- description: The Projects API from Atlassian — 22 operation(s) for projects.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Projects API from Atlassian — 22 operation(s) for projects.
   name: Atlassian Projects API
   slug: atlassian-projects-api
-- description: The Projects - Workspaces API from Atlassian — 1 operation(s) for projects - workspaces.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Projects - Workspaces API from Atlassian — 1 operation(s) for projects - workspaces.
   name: Atlassian Projects - Workspaces API
   slug: atlassian-projects-workspaces-api
-- description: The Properties API from Atlassian — 7 operation(s) for properties.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Properties API from Atlassian — 7 operation(s) for properties.
   name: Atlassian Properties API
   slug: atlassian-properties-api
-- description: The Pullrequests API from Atlassian — 23 operation(s) for pullrequests.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Pullrequests API from Atlassian — 23 operation(s) for pullrequests.
   name: Atlassian Pullrequests API
   slug: atlassian-pullrequests-api
-- description: The Pullrequests - Commit Statuses API from Atlassian — 1 operation(s) for pullrequests - commit statuses.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Pullrequests - Commit Statuses API from Atlassian — 1 operation(s) for pullrequests - commit statuses.
   name: Atlassian Pullrequests - Commit Statuses API
   slug: atlassian-pullrequests-commit-statuses-api
-- description: The Refs API from Atlassian — 5 operation(s) for refs.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Refs API from Atlassian — 5 operation(s) for refs.
   name: Atlassian Refs API
   slug: atlassian-refs-api
-- description: The Relation API from Atlassian — 3 operation(s) for relation.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Relation API from Atlassian — 3 operation(s) for relation.
   name: Atlassian Relation API
   slug: atlassian-relation-api
-- description: The Reports - Commits API from Atlassian — 4 operation(s) for reports - commits.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Reports - Commits API from Atlassian — 4 operation(s) for reports - commits.
   name: Atlassian Reports - Commits API
   slug: atlassian-reports-commits-api
-- description: The Repositories API from Atlassian — 27 operation(s) for repositories.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Repositories API from Atlassian — 27 operation(s) for repositories.
   name: Atlassian Repositories API
   slug: atlassian-repositories-api
-- description: The Repositories - Webhooks API from Atlassian — 2 operation(s) for repositories - webhooks.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Repositories - Webhooks API from Atlassian — 2 operation(s) for repositories - webhooks.
   name: Atlassian Repositories - Webhooks API
   slug: atlassian-repositories-webhooks-api
-- description: The Screen Schemes API from Atlassian — 2 operation(s) for screen schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Screen Schemes API from Atlassian — 2 operation(s) for screen schemes.
   name: Atlassian Screen Schemes API
   slug: atlassian-screen-schemes-api
-- description: The Screen Tab Fields API from Atlassian — 3 operation(s) for screen tab fields.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Screen Tab Fields API from Atlassian — 3 operation(s) for screen tab fields.
   name: Atlassian Screen Tab Fields API
   slug: atlassian-screen-tab-fields-api
-- description: The Screen Tabs API from Atlassian — 4 operation(s) for screen tabs.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Screen Tabs API from Atlassian — 4 operation(s) for screen tabs.
   name: Atlassian Screen Tabs API
   slug: atlassian-screen-tabs-api
-- description: The Screens API from Atlassian — 5 operation(s) for screens.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Screens API from Atlassian — 5 operation(s) for screens.
   name: Atlassian Screens API
   slug: atlassian-screens-api
-- description: The Search API from Atlassian — 6 operation(s) for search.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Search API from Atlassian — 6 operation(s) for search.
   name: Atlassian Search API
   slug: atlassian-search-api
-- description: This resource provides information about the Jira instance.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: This resource provides information about the Jira instance.
   name: Atlassian Server Info API
   slug: atlassian-server-info-api
-- description: This resource represents a service registry. Use it to retrieve attributes related to a [service registry](https://support.atlassian.com/jira-service-management-cloud/docs/what-is-services/) in JSM.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: This resource represents a service registry. Use it to retrieve attributes related to a [service registry](https://support.atlassian.com/jira-service-management-cloud/docs/what-is-services/) in JSM.
   name: Atlassian Service Registry API
   slug: atlassian-service-registry-api
-- description: The Settings API from Atlassian — 5 operation(s) for settings.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Settings API from Atlassian — 5 operation(s) for settings.
   name: Atlassian Settings API
   slug: atlassian-settings-api
-- description: The Snippets API from Atlassian — 14 operation(s) for snippets.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Snippets API from Atlassian — 14 operation(s) for snippets.
   name: Atlassian Snippets API
   slug: atlassian-snippets-api
-- description: The Source - Repositories API from Atlassian — 3 operation(s) for source - repositories.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Source - Repositories API from Atlassian — 3 operation(s) for source - repositories.
   name: Atlassian Source - Repositories API
   slug: atlassian-source-repositories-api
-- description: The Space API from Atlassian — 5 operation(s) for space.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Space API from Atlassian — 5 operation(s) for space.
   name: Atlassian Space API
   slug: atlassian-space-api
-- description: The Space Permissions API from Atlassian — 3 operation(s) for space permissions.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Space Permissions API from Atlassian — 3 operation(s) for space permissions.
   name: Atlassian Space Permissions API
   slug: atlassian-space-permissions-api
-- description: The Space Properties API from Atlassian — 2 operation(s) for space properties.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Space Properties API from Atlassian — 2 operation(s) for space properties.
   name: Atlassian Space Properties API
   slug: atlassian-space-properties-api
-- description: The Space Settings API from Atlassian — 1 operation(s) for space settings.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Space Settings API from Atlassian — 1 operation(s) for space settings.
   name: Atlassian Space Settings API
   slug: atlassian-space-settings-api
-- description: The Ssh API from Atlassian — 3 operation(s) for ssh.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Ssh API from Atlassian — 3 operation(s) for ssh.
   name: Atlassian Ssh API
   slug: atlassian-ssh-api
-- description: The Status API from Atlassian — 11 operation(s) for status.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Status API from Atlassian — 11 operation(s) for status.
   name: Atlassian Status API
   slug: atlassian-status-api
-- description: The Tasks API from Atlassian — 5 operation(s) for tasks.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Tasks API from Atlassian — 5 operation(s) for tasks.
   name: Atlassian Tasks API
   slug: atlassian-tasks-api
-- description: The Template API from Atlassian — 4 operation(s) for template.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Template API from Atlassian — 4 operation(s) for template.
   name: Atlassian Template API
   slug: atlassian-template-api
-- description: The Themes API from Atlassian — 4 operation(s) for themes.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Themes API from Atlassian — 4 operation(s) for themes.
   name: Atlassian Themes API
   slug: atlassian-themes-api
-- description: The Time Tracking API from Atlassian — 3 operation(s) for time tracking.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Time Tracking API from Atlassian — 3 operation(s) for time tracking.
   name: Atlassian Time Tracking API
   slug: atlassian-time-tracking-api
-- description: The UI Modifications (Apps) API from Atlassian — 2 operation(s) for ui modifications (apps).
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The UI Modifications (Apps) API from Atlassian — 2 operation(s) for ui modifications (apps).
   name: Atlassian UI Modifications (Apps) API
   slug: atlassian-ui-modifications-apps-api
-- description: The User Properties API from Atlassian — 4 operation(s) for user properties.
+- baseURL: //your-domain.atlassian.net
+  baseurl_source: spec
+  description: The User Properties API from Atlassian — 4 operation(s) for user properties.
   name: Atlassian User Properties API
   slug: atlassian-user-properties-api
-- description: The User Search API from Atlassian — 8 operation(s) for user search.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The User Search API from Atlassian — 8 operation(s) for user search.
   name: Atlassian User Search API
   slug: atlassian-user-search-api
-- description: Manage users within an organization.
+- baseURL: https://api.atlassian.com
+  baseurl_source: spec
+  description: Manage users within an organization.
   name: Atlassian Users API
   slug: atlassian-users-api
-- description: The Webhooks API from Atlassian — 9 operation(s) for webhooks.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Webhooks API from Atlassian — 9 operation(s) for webhooks.
   name: Atlassian Webhooks API
   slug: atlassian-webhooks-api
-- description: The Workflow Scheme Drafts API from Atlassian — 6 operation(s) for workflow scheme drafts.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Scheme Drafts API from Atlassian — 6 operation(s) for workflow scheme drafts.
   name: Atlassian Workflow Scheme Drafts API
   slug: atlassian-workflow-scheme-drafts-api
-- description: The Workflow Scheme Project Associations API from Atlassian — 1 operation(s) for workflow scheme project associations.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Scheme Project Associations API from Atlassian — 1 operation(s) for workflow scheme project associations.
   name: Atlassian Workflow Scheme Project Associations API
   slug: atlassian-workflow-scheme-project-associations-api
-- description: The Workflow Schemes API from Atlassian — 8 operation(s) for workflow schemes.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Schemes API from Atlassian — 8 operation(s) for workflow schemes.
   name: Atlassian Workflow Schemes API
   slug: atlassian-workflow-schemes-api
-- description: The Workflow Status Categories API from Atlassian — 2 operation(s) for workflow status categories.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Status Categories API from Atlassian — 2 operation(s) for workflow status categories.
   name: Atlassian Workflow Status Categories API
   slug: atlassian-workflow-status-categories-api
-- description: The Workflow Statuses API from Atlassian — 2 operation(s) for workflow statuses.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Statuses API from Atlassian — 2 operation(s) for workflow statuses.
   name: Atlassian Workflow Statuses API
   slug: atlassian-workflow-statuses-api
-- description: The Workflow Transition Properties API from Atlassian — 1 operation(s) for workflow transition properties.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Transition Properties API from Atlassian — 1 operation(s) for workflow transition properties.
   name: Atlassian Workflow Transition Properties API
   slug: atlassian-workflow-transition-properties-api
-- description: The Workflow Transition Rules API from Atlassian — 2 operation(s) for workflow transition rules.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflow Transition Rules API from Atlassian — 2 operation(s) for workflow transition rules.
   name: Atlassian Workflow Transition Rules API
   slug: atlassian-workflow-transition-rules-api
-- description: The Workflows API from Atlassian — 9 operation(s) for workflows.
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: spec
+  description: The Workflows API from Atlassian — 9 operation(s) for workflows.
   name: Atlassian Workflows API
   slug: atlassian-workflows-api
-- description: The Workspaces API from Atlassian — 27 operation(s) for workspaces.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Workspaces API from Atlassian — 27 operation(s) for workspaces.
   name: Atlassian Workspaces API
   slug: atlassian-workspaces-api
-- description: The Workspaces - Webhooks API from Atlassian — 2 operation(s) for workspaces - webhooks.
+- baseURL: https://api.bitbucket.org/2.0
+  baseurl_source: spec
+  description: The Workspaces - Webhooks API from Atlassian — 2 operation(s) for workspaces - webhooks.
   name: Atlassian Workspaces - Webhooks API
   slug: atlassian-workspaces-webhooks-api
 arazzos:
@@ -10746,7 +11034,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -10756,7 +11044,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 57.7
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -10765,7 +11053,7 @@ score:
       marker_coverage: 0.0
       total: 144
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:

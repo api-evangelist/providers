@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: 'The Veeva Vault Direct Data API provides high-speed, read-only bulk access to Vault data for integration, analytics, and reporting purposes. Supports bulk export of documents, objects, and attachment '
   name: Veeva Vault Direct Data API
   slug: veeva-vault-direct-data-api
-- description: Session management
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: Session management
   name: veeva Authentication API
   slug: veeva-authentication-api
-- description: Document lifecycle management
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: Document lifecycle management
   name: veeva Documents API
   slug: veeva-documents-api
-- description: Vault object CRUD operations
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: Vault object CRUD operations
   name: veeva Objects API
   slug: veeva-objects-api
-- description: VQL query execution
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: VQL query execution
   name: veeva Query API
   slug: veeva-query-api
-- description: User management
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: User management
   name: veeva Users API
   slug: veeva-users-api
-- description: Workflow and task management
+- baseURL: https://myvault.veevavault.com/api/v25.3
+  baseurl_source: declared
+  description: Workflow and task management
   name: veeva Workflows API
   slug: veeva-workflows-api
 - description: Veeva ships two first-party Model Context Protocol servers. The Vault Documentation MCP at https://docs.veevavault.dev/mcp is public and anonymous, exposing one search_documentation tool over the Vaul
@@ -463,19 +475,19 @@ jsonld:
 layout: provider
 mcp_servers:
 - description: ''
-  name: veeva MCP Server
+  name: Veeva MCP Server
   slug: veeva-mcp-server
 modified: '2026-08-15'
-name: veeva
+name: Veeva
 nav: Providers
 network: true
-overview: 'veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more. Tagged areas include Life Sciences, Pharmaceuticals, Clinical Trials, Regulatory, and Quality Management.
+overview: 'Veeva publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Objects API, and 3 more. Tagged areas include Life Sciences, Pharmaceuticals, Clinical Trials, Regulatory, and Quality Management.
 
 
-  The veeva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Veeva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  veeva''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, sandbox, and 43 more developer resources.'
+  Veeva''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, sandbox, and 43 more developer resources.'
 plans:
 - name: Veeva Plans Pricing
   plan_count: 1
@@ -488,7 +500,7 @@ rate_limits:
 rules:
 - effective_rule_count: 4
   extends: []
-  name: veeva API Rules
+  name: Veeva API Rules
   rule_count: 4
   severity_counts:
     error: 0
@@ -499,7 +511,7 @@ rules:
 - effective_rule_count: 79
   extends:
   - spectral:oas
-  name: veeva API Rules
+  name: Veeva API Rules
   rule_count: 38
   severity_counts:
     error: 11
@@ -515,7 +527,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -525,7 +537,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 76.3
-  previous_composite: 75.5
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -543,7 +555,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:

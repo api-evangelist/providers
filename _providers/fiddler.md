@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Fiddler Everywhere is a cross-platform web debugging proxy for macOS, Windows, and Linux. It captures HTTP and HTTPS traffic, provides API composition capabilities, and includes collaboration features
@@ -242,7 +242,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.7
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -252,13 +252,13 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 42.4
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler/refs/heads/main/screenshots/fiddler-2026-06-20T181148.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 78 operations · 48 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Create, screen, update, archive, assign, link, and search screening cases; review and resolve screening results; enable ongoing screening and retrieve ongoing screening updates for KYC and third-party
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Create, screen, update, archive, assign, link, and search screening cases; review and resolve screening results; enable ongoing screening and retrieve ongoing screening updates for KYC and third-party
   name: LSEG World-Check One Case API
   slug: lseg-world-check-one-case-api
-- description: Retrieve MediaCheck adverse-media screening results, article metadata and content, attach or detach articles to cases, and mark articles as reviewed.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Retrieve MediaCheck adverse-media screening results, article metadata and content, attach or detach articles to cases, and mark articles as reviewed.
   name: LSEG World-Check One Media-Check API
   slug: lseg-world-check-one-media-check-api
-- description: Enable, disable, and retrieve the MediaCheck smart filter on screening cases.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Enable, disable, and retrieve the MediaCheck smart filter on screening cases.
   name: LSEG World-Check One Smart Filter API
   slug: lseg-world-check-one-smart-filter-api
-- description: Retrieve filtered audit events for screening cases to evidence compliance workflows.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Retrieve filtered audit events for screening cases to evidence compliance workflows.
   name: LSEG World-Check One Audit API
   slug: lseg-world-check-one-audit-api
-- description: Retrieve and update the risk rating on a screening case.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Retrieve and update the risk rating on a screening case.
   name: LSEG World-Check One Case Rating API
   slug: lseg-world-check-one-case-rating-api
-- description: Create, retrieve, and delete relationships between screening cases.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Create, retrieve, and delete relationships between screening cases.
   name: LSEG World-Check One Linked Cases API
   slug: lseg-world-check-one-linked-cases-api
-- description: Retrieve groups, case templates, and resolution toolkits that govern how cases are created and results resolved.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Retrieve groups, case templates, and resolution toolkits that govern how cases are created and results resolved.
   name: LSEG World-Check One Group API
   slug: lseg-world-check-one-group-api
-- description: List active users in the client account for case assignment.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: List active users in the client account for case assignment.
   name: LSEG World-Check One User API
   slug: lseg-world-check-one-user-api
-- description: Reference data for screening - countries, nationalities, providers, search filters, World-Check profiles and records, and PEP details.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Reference data for screening - countries, nationalities, providers, search filters, World-Check profiles and records, and PEP details.
   name: LSEG World-Check One Reference API
   slug: lseg-world-check-one-reference-api
-- description: Maintain custom client watchlist sources and records for screening.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Maintain custom client watchlist sources and records for screening.
   name: LSEG World-Check One Client Watchlist API
   slug: lseg-world-check-one-client-watchlist-api
-- description: Submit asynchronous case report requests, poll report status, and download completed reports.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Submit asynchronous case report requests, poll report status, and download completed reports.
   name: LSEG World-Check One Reporting API
   slug: lseg-world-check-one-reporting-api
-- description: Report status listing, report error details, and report cancellation operations.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Report status listing, report error details, and report cancellation operations.
   name: LSEG World-Check One Upcoming API
   slug: lseg-world-check-one-upcoming-api
-- description: Generate machine-readable zone (MRZ) data for passport verification.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Generate machine-readable zone (MRZ) data for passport verification.
   name: LSEG World-Check One Passport Check API
   slug: lseg-world-check-one-passport-check-api
-- description: Zero Footprint Screening surface - synchronous screening, groups, case templates, reference data, and client watchlist maintenance without persisting case data.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Zero Footprint Screening surface - synchronous screening, groups, case templates, reference data, and client watchlist maintenance without persisting case data.
   name: LSEG World-Check One Zero Footprint Screening API
   slug: lseg-world-check-one-zfs-api
-- description: Retrieve information about the public API, including the current API version.
+- baseURL: https://api-worldcheck.refinitiv.com/v2
+  baseurl_source: declared
+  description: Retrieve information about the public API, including the current API version.
   name: LSEG World-Check One API Info API
   slug: lseg-world-check-one-api-info-api
 artifact_total: 38
@@ -337,7 +367,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

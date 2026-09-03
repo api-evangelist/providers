@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,37 +44,57 @@ agentic_access:
   summary_line: 28 operations · 7 acting
 api_count: 1
 apis:
-- description: 'The Ally Invest Orders API enables programmatic placement and management of equity and options orders for self-directed brokerage accounts. Orders are submitted using a FIXML-variant format. Supports '
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: 'The Ally Invest Orders API enables programmatic placement and management of equity and options orders for self-directed brokerage accounts. Orders are submitted using a FIXML-variant format. Supports '
   name: Ally Invest Orders API
   slug: ally-invest-orders-api
-- description: The Ally Invest Market Data API provides access to real-time and delayed market data including equity and options quotes, option chains, option strikes and expirations, market news search, time-and-sa
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: The Ally Invest Market Data API provides access to real-time and delayed market data including equity and options quotes, option chains, option strikes and expirations, market news search, time-and-sa
   name: Ally Invest Market Data API
   slug: ally-invest-market-data-api
 - description: The Ally Invest Streaming API delivers real-time market quotes via a persistent HTTP streaming connection. Clients subscribe to one or more ticker symbols and receive continuous quote updates as marke
   name: Ally Invest Streaming Market Data API
   slug: ally-invest-streaming-api
-- description: The Ally Invest Watchlists API allows programmatic creation and management of symbol watchlists associated with a member account. Supports listing all watchlists, creating new watchlists, retrieving w
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: The Ally Invest Watchlists API allows programmatic creation and management of symbol watchlists associated with a member account. Supports listing all watchlists, creating new watchlists, retrieving w
   name: Ally Invest Watchlists API
   slug: ally-invest-watchlists-api
-- description: The Ally Invest Member API provides access to the authenticated member's profile information including account identifiers and user details associated with the OAuth credentials.
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: The Ally Invest Member API provides access to the authenticated member's profile information including account identifiers and user details associated with the OAuth credentials.
   name: Ally Invest Member API
   slug: ally-invest-member-api
-- description: Account balances, holdings, history, and portfolio data
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: Account balances, holdings, history, and portfolio data
   name: Ally Invest Accounts API
   slug: ally-invest-accounts-api
-- description: Quotes, options, news, time-and-sales, and top lists
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: Quotes, options, news, time-and-sales, and top lists
   name: Ally Invest Market Data API
   slug: ally-invest-market-data-api
-- description: Member profile and identity
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: Member profile and identity
   name: Ally Invest Member API
   slug: ally-invest-member-api
-- description: Order placement, preview, retrieval, and cancellation
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: Order placement, preview, retrieval, and cancellation
   name: Ally Invest Orders API
   slug: ally-invest-orders-api
-- description: API status and version utilities
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: API status and version utilities
   name: Ally Invest Utilities API
   slug: ally-invest-utilities-api
-- description: Watchlist creation and symbol management
+- baseURL: https://api.ally.com/v1
+  baseurl_source: declared
+  description: Watchlist creation and symbol management
   name: Ally Invest Watchlists API
   slug: ally-invest-watchlists-api
 artifact_total: 45
@@ -300,7 +320,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

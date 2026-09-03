@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public-facing presence of the U.S. Election Assistance Commission. The EAC publishes Election Administration and Voting Survey (EAVS) datasets, codebooks, voluntary voting system guidelines, voter lis
@@ -121,7 +121,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/election-assistance-commission/refs/heads/main/screenshots/election-assistance-commission-2026-06-20T180552.png
 security:

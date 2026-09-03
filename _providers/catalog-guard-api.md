@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
+- baseURL: https://catalogguard.noahcortezj-c.workers.dev
+  baseurl_source: declared
+  description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
   name: Catalog Guard API Catalog API
   slug: catalog-guard-api-catalog-api
 artifact_total: 7
@@ -156,7 +170,7 @@ score:
   band: thin
   composite: 35.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -181,8 +195,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/catalog-guard-api/refs/heads/main/screenshots/catalog-guard-api-2026-09-02T145033.png
 security:
 - kind: authentication
   name: Catalog Guard Api Authentication

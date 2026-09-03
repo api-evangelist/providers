@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The accounts API from Ceros — 1 operation(s) for accounts.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The accounts API from Ceros — 1 operation(s) for accounts.
   name: Ceros Accounts API
   slug: ceros-accounts-api
-- description: The embedCodes API from Ceros — 1 operation(s) for embedcodes.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The embedCodes API from Ceros — 1 operation(s) for embedcodes.
   name: Ceros Embed Codes API
   slug: ceros-embedcodes-api
-- description: The experience API from Ceros — 1 operation(s) for experience.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The experience API from Ceros — 1 operation(s) for experience.
   name: Ceros Experience API
   slug: ceros-experience-api
-- description: The experiencePage API from Ceros — 6 operation(s) for experiencepage.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The experiencePage API from Ceros — 6 operation(s) for experiencepage.
   name: Ceros Experience Page API
   slug: ceros-experiencepage-api
-- description: The folders API from Ceros — 1 operation(s) for folders.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The folders API from Ceros — 1 operation(s) for folders.
   name: Ceros Folders API
   slug: ceros-folders-api
-- description: The oembed API from Ceros — 1 operation(s) for oembed.
+- baseURL: https://rest.ceros.com
+  baseurl_source: declared
+  description: The oembed API from Ceros — 1 operation(s) for oembed.
   name: Ceros Oembed API
   slug: ceros-oembed-api
 artifact_total: 18
@@ -251,7 +274,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceros/refs/heads/main/screenshots/ceros-2026-08-17T080810.png
 security:

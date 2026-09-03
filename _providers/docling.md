@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -84,16 +84,24 @@ apis:
 - description: Shared job-runner primitives used by Docling Serve and the Docling Operator to dispatch conversion work across RQ workers and Ray.
   name: Docling Jobkit
   slug: docling-jobkit
-- description: Asynchronous conversion submission.
+- baseURL: http://localhost:5001
+  baseurl_source: spec
+  description: Asynchronous conversion submission.
   name: Docling Async API
   slug: docling-async-api
-- description: Document conversion operations.
+- baseURL: file:///usr/local/bin
+  baseurl_source: spec
+  description: Document conversion operations.
   name: Docling Convert API
   slug: docling-convert-api
-- description: Health and metadata.
+- baseURL: http://localhost:5001
+  baseurl_source: spec
+  description: Health and metadata.
   name: Docling System API
   slug: docling-system-api
-- description: Task status, results, and streaming.
+- baseURL: http://localhost:5001
+  baseurl_source: spec
+  description: Task status, results, and streaming.
   name: Docling Tasks API
   slug: docling-tasks-api
 artifact_total: 54
@@ -354,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

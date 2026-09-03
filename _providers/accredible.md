@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 45 operations · 32 acting
 api_count: 1
 apis:
-- description: Issuer-level and per-credential engagement analytics.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Issuer-level and per-credential engagement analytics.
   name: Accredible Analytics API
   slug: accredible-analytics-api
-- description: Issue, retrieve, update, delete, search, and verify digital credentials.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Issue, retrieve, update, delete, search, and verify digital credentials.
   name: Accredible Credentials API
   slug: accredible-credentials-api
-- description: Independent sub-organizations within an issuer account.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Independent sub-organizations within an issuer account.
   name: Accredible Departments API
   slug: accredible-departments-api
-- description: Reusable visual specifications for rendering badges and certificates.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Reusable visual specifications for rendering badges and certificates.
   name: Accredible Designs API
   slug: accredible-designs-api
-- description: Supplemental work samples attached to a credential.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Supplemental work samples attached to a credential.
   name: Accredible Evidence Items API
   slug: accredible-evidence-items-api
-- description: Course or achievement containers that credentials are issued against.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Course or achievement containers that credentials are issued against.
   name: Accredible Groups API
   slug: accredible-groups-api
-- description: Issuer account details and API token management.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Issuer account details and API token management.
   name: Accredible Issuer API
   slug: accredible-issuer-api
-- description: Peer, teacher, or manager endorsements attached to a credential.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Peer, teacher, or manager endorsements attached to a credential.
   name: Accredible References API
   slug: accredible-references-api
-- description: Recipient single sign-on link generation.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Recipient single sign-on link generation.
   name: Accredible SSO API
   slug: accredible-sso-api
-- description: Administrators and roles within the issuer account.
+- baseURL: https://api.accredible.com/v1
+  baseurl_source: declared
+  description: Administrators and roles within the issuer account.
   name: Accredible Team Members API
   slug: accredible-team-members-api
 artifact_total: 29
@@ -209,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/screenshots/accredible-2026-07-25T181445.png
 security:

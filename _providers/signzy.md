@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Authentication API from Signzy — 2 operation(s) for authentication.
+- baseURL: https://api.signzy.app
+  baseurl_source: declared
+  description: The Authentication API from Signzy — 2 operation(s) for authentication.
   name: Signzy Authentication API
   slug: signzy-authentication-api
-- description: The Banking API from Signzy — 1 operation(s) for banking.
+- baseURL: https://api.signzy.app
+  baseurl_source: declared
+  description: The Banking API from Signzy — 1 operation(s) for banking.
   name: Signzy Banking API
   slug: signzy-banking-api
-- description: The Identity (India) API from Signzy — 2 operation(s) for identity (india).
+- baseURL: https://api.signzy.app
+  baseurl_source: declared
+  description: The Identity (India) API from Signzy — 2 operation(s) for identity (india).
   name: Signzy Identity (India) API
   slug: signzy-identity-india-api
-- description: The Identity (US) API from Signzy — 1 operation(s) for identity (us).
+- baseURL: https://api.signzy.app
+  baseurl_source: declared
+  description: The Identity (US) API from Signzy — 1 operation(s) for identity (us).
   name: Signzy Identity (US) API
   slug: signzy-identity-us-api
 artifact_total: 22
@@ -293,7 +301,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signzy/refs/heads/main/screenshots/signzy-2026-08-17T081859.png
 security:

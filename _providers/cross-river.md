@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 16 acting
 api_count: 1
 apis:
-- description: Deposit accounts and subledgers (COS Core module, /core/v1/dda).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: Deposit accounts and subledgers (COS Core module, /core/v1/dda).
   name: Cross River Accounts API
   slug: cross-river-accounts-api
-- description: ACH origination and receipt (COS Payments, /ach).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: ACH origination and receipt (COS Payments, /ach).
   name: Cross River ACH API
   slug: cross-river-ach-api
-- description: Debit card issuing and management (COS Card Management, /cardmanagement).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: Debit card issuing and management (COS Card Management, /cardmanagement).
   name: Cross River Cards API
   slug: cross-river-cards-api
-- description: Customer records, KYC, and onboarding (COS Core module, /core/v1/cm).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: Customer records, KYC, and onboarding (COS Core module, /core/v1/cm).
   name: Cross River Customer Management API
   slug: cross-river-customer-management-api
-- description: RTP, FedNow, and CRNow instant payments (COS Payments, /rtp).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: RTP, FedNow, and CRNow instant payments (COS Payments, /rtp).
   name: Cross River Instant Payments API
   slug: cross-river-instant-payments-api
-- description: Loan origination and servicing (separate lending host).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: Loan origination and servicing (separate lending host).
   name: Cross River Lending API
   slug: cross-river-lending-api
-- description: Domestic wire transfers and drawdowns (COS Payments, /wires).
+- baseURL: https://sandbox.crbcos.com/core
+  baseurl_source: declared
+  description: Domestic wire transfers and drawdowns (COS Payments, /wires).
   name: Cross River Wires API
   slug: cross-river-wires-api
 artifact_total: 22
@@ -217,7 +231,7 @@ score:
     regime_id: payments
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png
 security:

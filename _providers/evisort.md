@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Exchange an Evisort API key for a short-lived JWT bearer token.
+- baseURL: https://api.evisort.com/v1
+  baseurl_source: declared
+  description: Exchange an Evisort API key for a short-lived JWT bearer token.
   name: Evisort Authentication API
   slug: evisort-authentication-api
-- description: Upload, retrieve, and download contract documents.
+- baseURL: https://api.evisort.com/v1
+  baseurl_source: declared
+  description: Upload, retrieve, and download contract documents.
   name: Evisort Documents API
   slug: evisort-documents-api
-- description: Read and write AI-extracted fields, clauses, and metadata.
+- baseURL: https://api.evisort.com/v1
+  baseurl_source: declared
+  description: Read and write AI-extracted fields, clauses, and metadata.
   name: Evisort Fields API
   slug: evisort-fields-api
-- description: Query documents across a workspace.
+- baseURL: https://api.evisort.com/v1
+  baseurl_source: declared
+  description: Query documents across a workspace.
   name: Evisort Search API
   slug: evisort-search-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/screenshots/evisort-2026-07-25T213806.png
 security:

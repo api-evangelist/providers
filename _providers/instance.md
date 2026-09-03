@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,88 +42,144 @@ agentic_access:
   summary_line: 37 operations · 15 acting
 api_count: 1
 apis:
-- description: The Archive API from Instance — 1 operation(s) for archive.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Archive API from Instance — 1 operation(s) for archive.
   name: Instance Archive API
   slug: instance-archive-api
-- description: The Audit API from Instance — 3 operation(s) for audit.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Audit API from Instance — 3 operation(s) for audit.
   name: Instance Audit API
   slug: instance-audit-api
-- description: The Batch API from Instance — 2 operation(s) for batch.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Batch API from Instance — 2 operation(s) for batch.
   name: Instance Batch API
   slug: instance-batch-api
-- description: The Captions API from Instance — 1 operation(s) for captions.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Captions API from Instance — 1 operation(s) for captions.
   name: Instance Captions API
   slug: instance-captions-api
-- description: The Clip API from Instance — 1 operation(s) for clip.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Clip API from Instance — 1 operation(s) for clip.
   name: Instance Clip API
   slug: instance-clip-api
-- description: The Download API from Instance — 1 operation(s) for download.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Download API from Instance — 1 operation(s) for download.
   name: Instance Download API
   slug: instance-download-api
-- description: The Example API from Instance — 1 operation(s) for example.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Example API from Instance — 1 operation(s) for example.
   name: Instance Example API
   slug: instance-example-api
-- description: The Examples API from Instance — 1 operation(s) for examples.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Examples API from Instance — 1 operation(s) for examples.
   name: Instance Examples API
   slug: instance-examples-api
-- description: The Fast API from Instance — 1 operation(s) for fast.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Fast API from Instance — 1 operation(s) for fast.
   name: Instance Fast API
   slug: instance-fast-api
-- description: The Feed API from Instance — 2 operation(s) for feed.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Feed API from Instance — 2 operation(s) for feed.
   name: Instance Feed API
   slug: instance-feed-api
-- description: The H1 API from Instance — 1 operation(s) for h1.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The H1 API from Instance — 1 operation(s) for h1.
   name: Instance H1 API
   slug: instance-h1-api
-- description: The Health API from Instance — 1 operation(s) for health.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Health API from Instance — 1 operation(s) for health.
   name: Instance Health API
   slug: instance-health-api
-- description: The Ingest API from Instance — 1 operation(s) for ingest.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Ingest API from Instance — 1 operation(s) for ingest.
   name: Instance Ingest API
   slug: instance-ingest-api
-- description: The Job API from Instance — 1 operation(s) for job.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Job API from Instance — 1 operation(s) for job.
   name: Instance Job API
   slug: instance-job-api
-- description: The Live Example API from Instance — 1 operation(s) for live example.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Live Example API from Instance — 1 operation(s) for live example.
   name: Instance Live Example API
   slug: instance-live-example-api
-- description: The Live Example Video API from Instance — 1 operation(s) for live example video.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Live Example Video API from Instance — 1 operation(s) for live example video.
   name: Instance Live Example Video API
   slug: instance-live-example-video-api
-- description: The Live State API from Instance — 1 operation(s) for live state.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Live State API from Instance — 1 operation(s) for live state.
   name: Instance Live State API
   slug: instance-live-state-api
-- description: The Opus API from Instance — 1 operation(s) for opus.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Opus API from Instance — 1 operation(s) for opus.
   name: Instance Opus API
   slug: instance-opus-api
-- description: The Qr API from Instance — 1 operation(s) for qr.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Qr API from Instance — 1 operation(s) for qr.
   name: Instance Qr API
   slug: instance-qr-api
-- description: The Record API from Instance — 1 operation(s) for record.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Record API from Instance — 1 operation(s) for record.
   name: Instance Record API
   slug: instance-record-api
-- description: The Robot Rollout Verifier API from Instance — 1 operation(s) for robot rollout verifier.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Robot Rollout Verifier API from Instance — 1 operation(s) for robot rollout verifier.
   name: Instance Robot Rollout Verifier API
   slug: instance-robot-rollout-verifier-api
-- description: The Segment API from Instance — 1 operation(s) for segment.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Segment API from Instance — 1 operation(s) for segment.
   name: Instance Segment API
   slug: instance-segment-api
-- description: The Subtasks API from Instance — 1 operation(s) for subtasks.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Subtasks API from Instance — 1 operation(s) for subtasks.
   name: Instance Subtasks API
   slug: instance-subtasks-api
-- description: The Subtasks Trace API from Instance — 1 operation(s) for subtasks trace.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Subtasks Trace API from Instance — 1 operation(s) for subtasks trace.
   name: Instance Subtasks Trace API
   slug: instance-subtasks-trace-api
-- description: The Upload API from Instance — 2 operation(s) for upload.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Upload API from Instance — 2 operation(s) for upload.
   name: Instance Upload API
   slug: instance-upload-api
-- description: The Usage API from Instance — 2 operation(s) for usage.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Usage API from Instance — 2 operation(s) for usage.
   name: Instance Usage API
   slug: instance-usage-api
-- description: The Verify API from Instance — 3 operation(s) for verify.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Verify API from Instance — 3 operation(s) for verify.
   name: Instance Verify API
   slug: instance-verify-api
-- description: The Verify Frames API from Instance — 1 operation(s) for verify frames.
+- baseURL: https://demo.instancelabs.ai
+  baseurl_source: declared
+  description: The Verify Frames API from Instance — 1 operation(s) for verify frames.
   name: Instance Verify Frames API
   slug: instance-verify-frames-api
 artifact_total: 60
@@ -331,7 +387,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/screenshots/instance-2026-07-25T222605.png
 security:

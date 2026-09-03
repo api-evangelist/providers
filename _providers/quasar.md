@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 1
 apis:
-- description: Operational statistics about the QuasarDB cluster
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: Operational statistics about the QuasarDB cluster
   name: Quasar cluster API
   slug: quasar-cluster-api
-- description: The Login API from Quasar — 1 operation(s) for login.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The Login API from Quasar — 1 operation(s) for login.
   name: Quasar Login API
   slug: quasar-login-api
-- description: The max-in-buffer-size API from Quasar — 1 operation(s) for max-in-buffer-size.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The max-in-buffer-size API from Quasar — 1 operation(s) for max-in-buffer-size.
   name: Quasar max-in-buffer-size API
   slug: quasar-max-in-buffer-size-api
-- description: The option API from Quasar — 2 operation(s) for option.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The option API from Quasar — 2 operation(s) for option.
   name: Quasar option API
   slug: quasar-option-api
-- description: The parallelism API from Quasar — 1 operation(s) for parallelism.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The parallelism API from Quasar — 1 operation(s) for parallelism.
   name: Quasar parallelism API
   slug: quasar-parallelism-api
-- description: The Prometheus API from Quasar — 2 operation(s) for prometheus.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The Prometheus API from Quasar — 2 operation(s) for prometheus.
   name: Quasar Prometheus API
   slug: quasar-prometheus-api
-- description: The query API from Quasar — 1 operation(s) for query.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The query API from Quasar — 1 operation(s) for query.
   name: Quasar query API
   slug: quasar-query-api
-- description: The Status API from Quasar — 2 operation(s) for status.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The Status API from Quasar — 2 operation(s) for status.
   name: Quasar Status API
   slug: quasar-status-api
-- description: The Tables API from Quasar — 1 operation(s) for tables.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The Tables API from Quasar — 1 operation(s) for tables.
   name: Quasar Tables API
   slug: quasar-tables-api
-- description: The tags API from Quasar — 1 operation(s) for tags.
+- baseURL: https://quasar.ai
+  baseurl_source: declared
+  description: The tags API from Quasar — 1 operation(s) for tags.
   name: Quasar tags API
   slug: quasar-tags-api
 artifact_total: 26
@@ -234,7 +254,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -260,8 +280,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/screenshots/quasar-2026-09-02T152632.png
 security:
 - kind: authentication
   name: Quasar Authentication

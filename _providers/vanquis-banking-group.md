@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,67 +47,109 @@ apis:
 - description: Vanquis Bank's OpenID / OBIE Dynamic Client Registration (DCR) endpoint, documented on the Vanquis developer portal, allowing onboarded Third Party Providers to register OAuth clients programmatically
   name: Vanquis Bank Dynamic Client Registration API
   slug: vanquis-dynamic-client-registration-api
-- description: The Account Access API from Vanquis Banking Group — 2 operation(s) for account access.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Account Access API from Vanquis Banking Group — 2 operation(s) for account access.
   name: Vanquis Banking Group Account Access API
   slug: vanquis-banking-group-account-access-api
-- description: The Accounts API from Vanquis Banking Group — 2 operation(s) for accounts.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Accounts API from Vanquis Banking Group — 2 operation(s) for accounts.
   name: Vanquis Banking Group Accounts API
   slug: vanquis-banking-group-accounts-api
-- description: The Balances API from Vanquis Banking Group — 2 operation(s) for balances.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Balances API from Vanquis Banking Group — 2 operation(s) for balances.
   name: Vanquis Banking Group Balances API
   slug: vanquis-banking-group-balances-api
-- description: The Beneficiaries API from Vanquis Banking Group — 2 operation(s) for beneficiaries.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Beneficiaries API from Vanquis Banking Group — 2 operation(s) for beneficiaries.
   name: Vanquis Banking Group Beneficiaries API
   slug: vanquis-banking-group-beneficiaries-api
-- description: The Direct Debits API from Vanquis Banking Group — 2 operation(s) for direct debits.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Direct Debits API from Vanquis Banking Group — 2 operation(s) for direct debits.
   name: Vanquis Banking Group Direct Debits API
   slug: vanquis-banking-group-direct-debits-api
-- description: The Domestic Payments API from Vanquis Banking Group — 5 operation(s) for domestic payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Payments API from Vanquis Banking Group — 5 operation(s) for domestic payments.
   name: Vanquis Banking Group Domestic Payments API
   slug: vanquis-banking-group-domestic-payments-api
-- description: The Domestic Scheduled Payments API from Vanquis Banking Group — 4 operation(s) for domestic scheduled payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Scheduled Payments API from Vanquis Banking Group — 4 operation(s) for domestic scheduled payments.
   name: Vanquis Banking Group Domestic Scheduled Payments API
   slug: vanquis-banking-group-domestic-scheduled-payments-api
-- description: The Domestic Standing Orders API from Vanquis Banking Group — 4 operation(s) for domestic standing orders.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Domestic Standing Orders API from Vanquis Banking Group — 4 operation(s) for domestic standing orders.
   name: Vanquis Banking Group Domestic Standing Orders API
   slug: vanquis-banking-group-domestic-standing-orders-api
-- description: The File Payments API from Vanquis Banking Group — 6 operation(s) for file payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The File Payments API from Vanquis Banking Group — 6 operation(s) for file payments.
   name: Vanquis Banking Group File Payments API
   slug: vanquis-banking-group-file-payments-api
-- description: The Funds Confirmations API from Vanquis Banking Group — 3 operation(s) for funds confirmations.
+- baseURL: /open-banking/v3.1/cbpii
+  baseurl_source: spec
+  description: The Funds Confirmations API from Vanquis Banking Group — 3 operation(s) for funds confirmations.
   name: Vanquis Banking Group Funds Confirmations API
   slug: vanquis-banking-group-funds-confirmations-api
-- description: The International Payments API from Vanquis Banking Group — 5 operation(s) for international payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Payments API from Vanquis Banking Group — 5 operation(s) for international payments.
   name: Vanquis Banking Group International Payments API
   slug: vanquis-banking-group-international-payments-api
-- description: The International Scheduled Payments API from Vanquis Banking Group — 5 operation(s) for international scheduled payments.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Scheduled Payments API from Vanquis Banking Group — 5 operation(s) for international scheduled payments.
   name: Vanquis Banking Group International Scheduled Payments API
   slug: vanquis-banking-group-international-scheduled-payments-api
-- description: The International Standing Orders API from Vanquis Banking Group — 4 operation(s) for international standing orders.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The International Standing Orders API from Vanquis Banking Group — 4 operation(s) for international standing orders.
   name: Vanquis Banking Group International Standing Orders API
   slug: vanquis-banking-group-international-standing-orders-api
-- description: The Offers API from Vanquis Banking Group — 2 operation(s) for offers.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Offers API from Vanquis Banking Group — 2 operation(s) for offers.
   name: Vanquis Banking Group Offers API
   slug: vanquis-banking-group-offers-api
-- description: The Parties API from Vanquis Banking Group — 3 operation(s) for parties.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Parties API from Vanquis Banking Group — 3 operation(s) for parties.
   name: Vanquis Banking Group Parties API
   slug: vanquis-banking-group-parties-api
-- description: The Payment Details API from Vanquis Banking Group — 7 operation(s) for payment details.
+- baseURL: /open-banking/v3.1/pisp
+  baseurl_source: spec
+  description: The Payment Details API from Vanquis Banking Group — 7 operation(s) for payment details.
   name: Vanquis Banking Group Payment Details API
   slug: vanquis-banking-group-payment-details-api
-- description: The Products API from Vanquis Banking Group — 2 operation(s) for products.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Products API from Vanquis Banking Group — 2 operation(s) for products.
   name: Vanquis Banking Group Products API
   slug: vanquis-banking-group-products-api
-- description: The Scheduled Payments API from Vanquis Banking Group — 2 operation(s) for scheduled payments.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Scheduled Payments API from Vanquis Banking Group — 2 operation(s) for scheduled payments.
   name: Vanquis Banking Group Scheduled Payments API
   slug: vanquis-banking-group-scheduled-payments-api
-- description: The Standing Orders API from Vanquis Banking Group — 2 operation(s) for standing orders.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Standing Orders API from Vanquis Banking Group — 2 operation(s) for standing orders.
   name: Vanquis Banking Group Standing Orders API
   slug: vanquis-banking-group-standing-orders-api
-- description: The Statements API from Vanquis Banking Group — 4 operation(s) for statements.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Statements API from Vanquis Banking Group — 4 operation(s) for statements.
   name: Vanquis Banking Group Statements API
   slug: vanquis-banking-group-statements-api
-- description: The Transactions API from Vanquis Banking Group — 3 operation(s) for transactions.
+- baseURL: /open-banking/v3.1/aisp
+  baseurl_source: spec
+  description: The Transactions API from Vanquis Banking Group — 3 operation(s) for transactions.
   name: Vanquis Banking Group Transactions API
   slug: vanquis-banking-group-transactions-api
 artifact_total: 27
@@ -255,7 +297,7 @@ score:
   band: developing
   composite: 42.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -291,8 +333,9 @@ score:
     regime_id: banking_open_finance
     score: 70.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vanquis-banking-group/refs/heads/main/screenshots/vanquis-banking-group-2026-09-02T165416.png
 security:
 - kind: authentication
   name: Vanquis Banking Group Authentication

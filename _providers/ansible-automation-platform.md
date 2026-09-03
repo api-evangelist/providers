@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: REST API for Ansible Galaxy, the community hub for sharing Ansible roles and collections. Supports searching, downloading, and rating community automation content.
   name: Ansible Galaxy API
   slug: galaxy-api
-- description: Manage inventories
+- baseURL: https://controller-host/api/v2/
+  baseurl_source: declared
+  description: Manage inventories
   name: Ansible Automation Platform Inventories API
   slug: ansible-automation-platform-inventories-api
-- description: Manage job templates
+- baseURL: https://controller-host/api/v2/
+  baseurl_source: declared
+  description: Manage job templates
   name: Ansible Automation Platform Job Templates API
   slug: ansible-automation-platform-job-templates-api
-- description: Manage and execute jobs
+- baseURL: https://controller-host/api/v2/
+  baseurl_source: declared
+  description: Manage and execute jobs
   name: Ansible Automation Platform Jobs API
   slug: ansible-automation-platform-jobs-api
-- description: Manage projects
+- baseURL: https://controller-host/api/v2/
+  baseurl_source: declared
+  description: Manage projects
   name: Ansible Automation Platform Projects API
   slug: ansible-automation-platform-projects-api
 artifact_total: 38
@@ -248,7 +256,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-automation-platform/refs/heads/main/screenshots/ansible-automation-platform-2026-06-20T172017.png
 security:

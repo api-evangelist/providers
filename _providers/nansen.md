@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: 'REST API surfacing Nansen''s on-chain intelligence: smart-money flows, profiler (wallet labels and balances), token screener, portfolio, points, Hyperliquid analytics, prediction markets, and the Nanse'
   name: Nansen REST API
   slug: rest-api
-- description: Smart-money wallet flows and behavior.
+- baseURL: https://api.nansen.ai/api/v1
+  baseurl_source: declared
+  description: Smart-money wallet flows and behavior.
   name: Nansen Smart Money API
   slug: nansen-smart-money-api
 artifact_total: 11
@@ -172,7 +174,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/screenshots/nansen-2026-06-20T185943.png
 security:

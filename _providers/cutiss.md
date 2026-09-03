@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,28 +45,44 @@ agentic_access:
   summary_line: 15 operations
 api_count: 1
 apis:
-- description: The Newsroom API from CUTISS — the `newsroom2021` custom post type served as JSON by the WordPress REST API on cutiss.swiss. 28 newsroom items were readable anonymously at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Newsroom API from CUTISS — the `newsroom2021` custom post type served as JSON by the WordPress REST API on cutiss.swiss. 28 newsroom items were readable anonymously at probe time.
   name: CUTISS Newsroom API
   slug: cutiss-newsroom-api
-- description: The Posts API from CUTISS — the company blog served as JSON with date, slug, category and full-text filtering. 278 posts were readable anonymously at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from CUTISS — the company blog served as JSON with date, slug, category and full-text filtering. 278 posts were readable anonymously at probe time.
   name: CUTISS Posts API
   slug: cutiss-posts-api
-- description: The Pages API from CUTISS — corporate website pages including About us, Technology, Clinical Development, Investors, Media, Career and Contact, in English and German, served as JSON. 34 pages were rea
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from CUTISS — corporate website pages including About us, Technology, Clinical Development, Investors, Media, Career and Contact, in English and German, served as JSON. 34 pages were rea
   name: CUTISS Pages API
   slug: cutiss-pages-api
-- description: The Team API from CUTISS — the `team_member` custom post type carrying staff and leadership profiles and their `cutiss-teams` taxonomy assignment. 128 profiles were readable anonymously at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Team API from CUTISS — the `team_member` custom post type carrying staff and leadership profiles and their `cutiss-teams` taxonomy assignment. 128 profiles were readable anonymously at probe time.
   name: CUTISS Team API
   slug: cutiss-team-api
-- description: The Media API from CUTISS — the media library of images, press assets and documents attached to pages, posts and newsroom items, with rendered source URLs and size variants. 842 items were readable an
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from CUTISS — the media library of images, press assets and documents attached to pages, posts and newsroom items, with rendered source URLs and size variants. 842 items were readable an
   name: CUTISS Media API
   slug: cutiss-media-api
-- description: The Categories API from CUTISS — the content categories posts are filed under. 13 categories were readable anonymously at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Categories API from CUTISS — the content categories posts are filed under. 13 categories were readable anonymously at probe time.
   name: CUTISS Categories API
   slug: cutiss-categories-api
-- description: The Search API from CUTISS — full-text search across every publicly readable object on cutiss.swiss, returning id, title, url, type and subtype. 514 searchable objects at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from CUTISS — full-text search across every publicly readable object on cutiss.swiss, returning id, title, url, type and subtype. 514 searchable objects at probe time.
   name: CUTISS Search API
   slug: cutiss-search-api
-- description: Read the `cutiss-teams` taxonomy — the organizational groupings team member profiles are filed under. 18 terms published at probe time.
+- baseURL: https://cutiss.swiss/wp-json/wp/v2
+  baseurl_source: declared
+  description: Read the `cutiss-teams` taxonomy — the organizational groupings team member profiles are filed under. 18 terms published at probe time.
   name: CUTISS Teams Taxonomy API
   slug: cutiss-teams-taxonomy-api
 artifact_total: 21
@@ -226,7 +254,7 @@ score:
   band: thin
   composite: 31.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -258,8 +286,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/screenshots/cutiss-2026-09-02T145209.png
 security:
 - kind: authentication
   name: Cutiss Authentication

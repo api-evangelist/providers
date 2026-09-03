@@ -33,76 +33,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Billing Terms API from Tabs — 1 operation(s) for billing terms.
   name: Tabs Billing Terms API
   slug: tabs-billing-terms-api
-- description: The Categories API from Tabs — 2 operation(s) for categories.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Categories API from Tabs — 2 operation(s) for categories.
   name: Tabs Categories API
   slug: tabs-categories-api
-- description: The Classes (QBO only) API from Tabs — 1 operation(s) for classes (qbo only).
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Classes (QBO only) API from Tabs — 1 operation(s) for classes (qbo only).
   name: Tabs Classes (QBO only) API
   slug: tabs-classes-qbo-only-api
-- description: The Commitments API from Tabs — 2 operation(s) for commitments.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Commitments API from Tabs — 2 operation(s) for commitments.
   name: Tabs Commitments API
   slug: tabs-commitments-api
-- description: The Contracts API from Tabs — 17 operation(s) for contracts.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Contracts API from Tabs — 17 operation(s) for contracts.
   name: Tabs Contracts API
   slug: tabs-contracts-api
-- description: The Credit Memos API from Tabs — 3 operation(s) for credit memos.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Credit Memos API from Tabs — 3 operation(s) for credit memos.
   name: Tabs Credit Memos API
   slug: tabs-credit-memos-api
-- description: The Custom Fields API from Tabs — 1 operation(s) for custom fields.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Custom Fields API from Tabs — 1 operation(s) for custom fields.
   name: Tabs Custom Fields API
   slug: tabs-custom-fields-api
-- description: The Customers API from Tabs — 21 operation(s) for customers.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Customers API from Tabs — 21 operation(s) for customers.
   name: Tabs Customers API
   slug: tabs-customers-api
-- description: The Departments API from Tabs — 1 operation(s) for departments.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Departments API from Tabs — 1 operation(s) for departments.
   name: Tabs Departments API
   slug: tabs-departments-api
-- description: The Events API from Tabs — 8 operation(s) for events.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Events API from Tabs — 8 operation(s) for events.
   name: Tabs Events API
   slug: tabs-events-api
-- description: The Health API from Tabs — 3 operation(s) for health.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Health API from Tabs — 3 operation(s) for health.
   name: Tabs Health API
   slug: tabs-health-api
-- description: The Invoices API from Tabs — 1 operation(s) for invoices.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Invoices API from Tabs — 1 operation(s) for invoices.
   name: Tabs Invoices API
   slug: tabs-invoices-api
-- description: The Items API from Tabs — 2 operation(s) for items.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Items API from Tabs — 2 operation(s) for items.
   name: Tabs Items API
   slug: tabs-items-api
-- description: The Jobs API from Tabs — 1 operation(s) for jobs.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Jobs API from Tabs — 1 operation(s) for jobs.
   name: Tabs Jobs API
   slug: tabs-jobs-api
-- description: The Merchant API from Tabs — 2 operation(s) for merchant.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Merchant API from Tabs — 2 operation(s) for merchant.
   name: Tabs Merchant API
   slug: tabs-merchant-api
-- description: The Obligations API from Tabs — 1 operation(s) for obligations.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Obligations API from Tabs — 1 operation(s) for obligations.
   name: Tabs Obligations API
   slug: tabs-obligations-api
-- description: The Payments API from Tabs — 1 operation(s) for payments.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Payments API from Tabs — 1 operation(s) for payments.
   name: Tabs Payments API
   slug: tabs-payments-api
-- description: The Performance Obligations API from Tabs — 2 operation(s) for performance obligations.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Performance Obligations API from Tabs — 2 operation(s) for performance obligations.
   name: Tabs Performance Obligations API
   slug: tabs-performance-obligations-api
-- description: The Products API from Tabs — 2 operation(s) for products.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Products API from Tabs — 2 operation(s) for products.
   name: Tabs Products API
   slug: tabs-products-api
-- description: The Projects API from Tabs — 1 operation(s) for projects.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Projects API from Tabs — 1 operation(s) for projects.
   name: Tabs Projects API
   slug: tabs-projects-api
-- description: The Renewals API from Tabs — 1 operation(s) for renewals.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Renewals API from Tabs — 1 operation(s) for renewals.
   name: Tabs Renewals API
   slug: tabs-renewals-api
-- description: The Reports API from Tabs — 2 operation(s) for reports.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Reports API from Tabs — 2 operation(s) for reports.
   name: Tabs Reports API
   slug: tabs-reports-api
-- description: The Revenue API from Tabs — 1 operation(s) for revenue.
+- baseURL: https://integrators.prod.api.tabsplatform.com
+  baseurl_source: declared
+  description: The Revenue API from Tabs — 1 operation(s) for revenue.
   name: Tabs Revenue API
   slug: tabs-revenue-api
 artifact_total: 52
@@ -345,7 +391,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -355,7 +401,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 48.3
+  previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
@@ -366,7 +412,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png
 security:

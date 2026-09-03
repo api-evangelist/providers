@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The Safety Data Sheet (SDS) API provides programmatic access to GHS- compliant Safety Data Sheets for all Sigma-Aldrich chemical products. Enables EHS systems, LIMS platforms, and safety management so
   name: Sigma-Aldrich Safety Data Sheet API
   slug: sigma-aldrich-sds-api
-- description: Real-time pricing and global stock availability for Sigma-Aldrich products.
+- baseURL: https://api.sigmaaldrich.com/v1
+  baseurl_source: spec
+  description: Real-time pricing and global stock availability for Sigma-Aldrich products.
   name: Sigma-Aldrich Pricing and Availability API
   slug: sigma-aldrich-pricing-and-availability-api
-- description: Product catalog search and retrieval for research chemicals, biochemicals, and laboratory supplies.
+- baseURL: https://api.sigmaaldrich.com/v1
+  baseurl_source: spec
+  description: Product catalog search and retrieval for research chemicals, biochemicals, and laboratory supplies.
   name: Sigma-Aldrich Products API
   slug: sigma-aldrich-products-api
-- description: Retrieval of GHS-compliant Safety Data Sheets for regulatory compliance and laboratory safety management.
+- baseURL: https://api.sigmaaldrich.com/v1
+  baseurl_source: spec
+  description: Retrieval of GHS-compliant Safety Data Sheets for regulatory compliance and laboratory safety management.
   name: Sigma-Aldrich Safety Data Sheets API
   slug: sigma-aldrich-safety-data-sheets-api
-- description: Chemical structure search using SMILES, InChI, or molecular formula notation for cheminformatics workflows.
+- baseURL: https://api.sigmaaldrich.com/v1
+  baseurl_source: spec
+  description: Chemical structure search using SMILES, InChI, or molecular formula notation for cheminformatics workflows.
   name: Sigma-Aldrich Structures API
   slug: sigma-aldrich-structures-api
 artifact_total: 24
@@ -235,7 +243,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

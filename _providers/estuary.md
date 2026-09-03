@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 22 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth API from Estuary — 5 operation(s) for auth.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Auth API from Estuary — 5 operation(s) for auth.
   name: Estuary Auth API
   slug: estuary-auth-api
-- description: The Captures API from Estuary — 2 operation(s) for captures.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Captures API from Estuary — 2 operation(s) for captures.
   name: Estuary Captures API
   slug: estuary-captures-api
-- description: The Collections API from Estuary — 3 operation(s) for collections.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Collections API from Estuary — 3 operation(s) for collections.
   name: Estuary Collections API
   slug: estuary-collections-api
-- description: The Connectors API from Estuary — 3 operation(s) for connectors.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Connectors API from Estuary — 3 operation(s) for connectors.
   name: Estuary Connectors API
   slug: estuary-connectors-api
-- description: The Drafts API from Estuary — 3 operation(s) for drafts.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Drafts API from Estuary — 3 operation(s) for drafts.
   name: Estuary Drafts API
   slug: estuary-drafts-api
-- description: The Materializations API from Estuary — 2 operation(s) for materializations.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Materializations API from Estuary — 2 operation(s) for materializations.
   name: Estuary Materializations API
   slug: estuary-materializations-api
-- description: The Publications API from Estuary — 1 operation(s) for publications.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Publications API from Estuary — 1 operation(s) for publications.
   name: Estuary Publications API
   slug: estuary-publications-api
-- description: The Tenants API from Estuary — 3 operation(s) for tenants.
+- baseURL: https://api.estuary.dev
+  baseurl_source: declared
+  description: The Tenants API from Estuary — 3 operation(s) for tenants.
   name: Estuary Tenants API
   slug: estuary-tenants-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/screenshots/estuary-2026-07-25T213644.png
 security:

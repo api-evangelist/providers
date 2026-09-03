@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 16 operations · 13 acting
 api_count: 2
 apis:
-- description: Card authorization and fund verification
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Card authorization and fund verification
   name: Vantiv Authorizations API
   slug: vantiv-authorizations-api
-- description: Capture previously authorized transactions for settlement
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Capture previously authorized transactions for settlement
   name: Vantiv Captures API
   slug: vantiv-captures-api
-- description: Chargeback dispute retrieval and response management
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Chargeback dispute retrieval and response management
   name: Vantiv Chargebacks API
   slug: vantiv-chargebacks-api
-- description: Refunds and credits to cardholder accounts
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Refunds and credits to cardholder accounts
   name: Vantiv Credits API
   slug: vantiv-credits-api
-- description: Evidence document upload and management for chargebacks
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Evidence document upload and management for chargebacks
   name: Vantiv Documents API
   slug: vantiv-documents-api
-- description: ACH and electronic check payment processing
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: ACH and electronic check payment processing
   name: Vantiv eCheck API
   slug: vantiv-echeck-api
-- description: Recurring and subscription billing
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Recurring and subscription billing
   name: Vantiv Recurring API
   slug: vantiv-recurring-api
-- description: Combined authorization and capture transactions
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Combined authorization and capture transactions
   name: Vantiv Sales API
   slug: vantiv-sales-api
-- description: Card data tokenization via Vantiv Vault
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Card data tokenization via Vantiv Vault
   name: Vantiv Tokenization API
   slug: vantiv-tokenization-api
-- description: Cancel pending unsettled transactions
+- baseURL: https://payments.vantivprelive.com/vap/communicator/online
+  baseurl_source: declared
+  description: Cancel pending unsettled transactions
   name: Vantiv Voids API
   slug: vantiv-voids-api
 artifact_total: 36
@@ -299,7 +319,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

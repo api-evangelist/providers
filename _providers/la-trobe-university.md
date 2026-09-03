@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'La Trobe''s own API gateway, an Azure API Management instance published at api.latrobe.edu.au (CNAME ltu-api-prod-apim.developer.azure-api.net). It is not a public developer product: every path returns'
@@ -171,7 +171,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.5
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -181,7 +181,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 27.1
+  previous_composite: 19.6
   provenance:
     conformance: derived
   regulatory:
@@ -191,8 +191,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:
 - kind: domain-security

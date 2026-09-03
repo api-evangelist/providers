@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
+  score: 2.5
+  scored_at: '2026-09-02'
 api_count: 0
-artifact_total: 14
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -44,6 +44,46 @@ common:
   title: ''
   type: DomainSecurity
   url: security/american-water-works-domain-security.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.amwater.com/.well-known/security.txt
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/american-water-works-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/american-water-works-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/american-water-works-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-water-works-llms.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.amwater.com/corp/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.amwater.com/corp/terms-of-use
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.amwater.com/corp/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://newsroom.amwater.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.amwater.com/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -60,6 +100,22 @@ common:
   title: ''
   type: Portal
   url: https://www.amwater.com/mywater
+coverage:
+  checked: '2026-09-02'
+  detail: American Water ships software only as end-user products — the MyWater web portal and mobile app — and publishes nothing for software developers; every "Developers" page on amwater.com is a land-developer water-main-extension page, and developer.amwater.com and api.amwater.com do not resolve at all.
+  evidence:
+  - status: 404
+    url: https://www.amwater.com/openapi.json
+  - status: 404
+    url: https://www.amwater.com/api-docs
+  - status: 404
+    url: https://www.amwater.com/.well-known/agent-card.json
+  - status: 200
+    url: https://api.github.com/orgs/American-Water/repos
+  - status: 200
+    url: https://www.amwater.com/.well-known/security.txt
+  reason: no-developer-program
+  state: none
 created: '2024-11-15'
 description: American Water Works Company is the largest publicly traded U.S. water and wastewater utility company, providing drinking water, wastewater, and other related services to approximately 14 million people in more than 1,700 communities across 14 states. The company operates through regulated utility subsidiaries and offers customer self-service through its MyWater online portal and mobile app.
 features:
@@ -82,14 +138,18 @@ integrations:
 - description: Advanced metering infrastructure (AMI) enabling real-time water usage monitoring, leak detection alerts, and data-driven conservation programs for customers.
   name: Smart Meter Infrastructure
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: American Water Works
 nav: Providers
 network: true
 overview: 'American Water Works is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Water Utility, Wastewater, Public Utility, Infrastructure, and Environmental Services.
 
 
-  American Water Works'' developer surface includes developer portal and 5 more developer resources.'
+  American Water Works'' developer surface includes support, engineering blog, developer portal, and 13 more developer resources.'
+plans:
+- name: American Water Works Plans Pricing
+  plan_count: 0
+  slug: american-water-works-plans-pricing
 press:
 - date: '2026-05-25'
   title: The Role of Generative AI (GenAI) for the Global Water ...
@@ -107,34 +167,38 @@ press:
   title: Financial Release Details
   url: https://ir.amwater.com/news-and-events/financial-releases/financial-release-details/2019/American-Water-Announces-10-Year-Capital-Spending-Plan-Sets-Long-Term-Growth-Targets-and-Announces-2020-Earnings-Guidance/default.aspx
 random_paper: 19
+rate_limits:
+- limit_count: 0
+  name: American Water Works Rate Limits
+  slug: american-water-works-rate-limits
 score:
-  band: minimal
-  composite: 6.8
+  band: emerging
+  composite: 18.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 10
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 11.2
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 13.2
   previous_composite: 6.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 16.2
+    score: 27.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-water-works/refs/heads/main/screenshots/american-water-works-2026-06-20T171919.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Klavis API manages hosted MCP servers, OAuth flows for 50+ integrated services, Strata multi-tool servers, and live sandbox environments. Endpoints cover MCP server CRUD and tool invocation, sandb
   name: Klavis MCP Platform API
   slug: mcp-platform
-- description: Create and manage hosted MCP server instances
+- baseURL: https://api.klavis.ai
+  baseurl_source: declared
+  description: Create and manage hosted MCP server instances
   name: Klavis AI MCP Servers API
   slug: klavis-mcp-servers-api
-- description: Acquire and manage isolated sandbox VMs
+- baseURL: https://api.klavis.ai
+  baseurl_source: declared
+  description: Acquire and manage isolated sandbox VMs
   name: Klavis AI Sandbox API
   slug: klavis-sandbox-api
-- description: List and invoke MCP server tools
+- baseURL: https://api.klavis.ai
+  baseurl_source: declared
+  description: List and invoke MCP server tools
   name: Klavis AI Tools API
   slug: klavis-tools-api
-- description: End-user metadata for agent integrations
+- baseURL: https://api.klavis.ai
+  baseurl_source: declared
+  description: End-user metadata for agent integrations
   name: Klavis AI Users API
   slug: klavis-users-api
 artifact_total: 17
@@ -199,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/screenshots/klavis-2026-06-20T184058.png
 security:

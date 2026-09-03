@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: GraphQL API for querying indexed on-chain data from the Gitcoin Grants Stack and Allo Protocol. Provides access to funding rounds, projects, applications, contributions, and quadratic funding match ca
   name: Gitcoin Grants Stack Indexer API
   slug: gitcoin-grants-stack-indexer-api
-- description: Operations related to Gitcoin bounties
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: Operations related to Gitcoin bounties
   name: Gitcoin Bounties API
   slug: gitcoin-bounties-api
-- description: Operations for accessing contributor address data
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: Operations for accessing contributor address data
   name: Gitcoin Contributors API
   slug: gitcoin-contributors-api
-- description: Operations related to Gitcoin grants
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: Operations related to Gitcoin grants
   name: Gitcoin Grants API
   slug: gitcoin-grants-api
-- description: The Model Analysis API from Gitcoin — 1 operation(s) for model analysis.
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: The Model Analysis API from Gitcoin — 1 operation(s) for model analysis.
   name: Gitcoin Model Analysis API
   slug: gitcoin-model-analysis-api
-- description: Operations related to Gitcoin Grants funding rounds
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: Operations related to Gitcoin Grants funding rounds
   name: Gitcoin Rounds API
   slug: gitcoin-rounds-api
-- description: The Stamp API API from Gitcoin — 4 operation(s) for stamp api.
+- baseURL: https://gitcoin.co/api/v0.1
+  baseurl_source: declared
+  description: The Stamp API API from Gitcoin — 4 operation(s) for stamp api.
   name: Gitcoin Stamp API API
   slug: gitcoin-stamp-api-api
 artifact_total: 34
@@ -271,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/screenshots/gitcoin-2026-08-17T123547.png
 security:

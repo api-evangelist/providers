@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -33,7 +45,9 @@ agentic_access:
   summary_line: 31 operations · 16 acting
 api_count: 1
 apis:
-- description: Solana JSON-RPC and WebSocket endpoints with enhanced WebSockets, archival data, and staked connections.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Solana JSON-RPC and WebSocket endpoints with enhanced WebSockets, archival data, and staked connections.
   name: Helius Solana RPC
   slug: rpc
 - description: Solana JSON-RPC API for unified asset queries (compressed NFTs, regular NFTs, tokens) including getAsset, getAssetsByOwner, searchAssets.
@@ -54,43 +68,69 @@ apis:
 - description: Indexed RPC for Solana ZK compression (compressed accounts).
   name: Helius Photon RPC (ZK Compression)
   slug: photon
-- description: Enhanced on-chain identity data with complete wallet activity and ownership information.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Enhanced on-chain identity data with complete wallet activity and ownership information.
   name: Helius Addresses API
   slug: helius-addresses-api
-- description: The Admin API from Helius — 1 operation(s) for admin.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: The Admin API from Helius — 1 operation(s) for admin.
   name: Helius Admin API
   slug: helius-admin-api
-- description: Query token and NFT balances
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Query token and NFT balances
   name: Helius Balances API
   slug: helius-balances-api
-- description: Wallet funding information
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Wallet funding information
   name: Helius Funding API
   slug: helius-funding-api
-- description: The Helius API Catalog API from Helius — 1 operation(s) for helius api catalog.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: The Helius API Catalog API from Helius — 1 operation(s) for helius api catalog.
   name: Helius Helius API Catalog API
   slug: helius-helius-api-catalog-api
-- description: Transaction history and balance changes
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Transaction history and balance changes
   name: Helius History API
   slug: helius-history-api
-- description: Lookup wallet identities and known addresses
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Lookup wallet identities and known addresses
   name: Helius Identity API
   slug: helius-identity-api
-- description: Access comprehensive NFT data including events, collection aggregations, real-time stats, and complete historical activity on Solana.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Access comprehensive NFT data including events, collection aggregations, real-time stats, and complete historical activity on Solana.
   name: Helius NFTs API
   slug: helius-nfts-api
-- description: The Sender API from Helius — 2 operation(s) for sender.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: The Sender API from Helius — 2 operation(s) for sender.
   name: Helius Sender API
   slug: helius-sender-api
-- description: Complete token account data, on-chain and off-chain metadata, and detailed information for both fungible and non-fungible Solana tokens.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Complete token account data, on-chain and off-chain metadata, and detailed information for both fungible and non-fungible Solana tokens.
   name: Helius Tokens API
   slug: helius-tokens-api
-- description: Enhanced and human-readable transaction histories with decoded instruction data and detailed context.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Enhanced and human-readable transaction histories with decoded instruction data and detailed context.
   name: Helius Transactions API
   slug: helius-transactions-api
-- description: Token transfer activity
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Token transfer activity
   name: Helius Transfers API
   slug: helius-transfers-api
-- description: Configure real-time blockchain notifications for any Solana address, transaction type, or on-chain event with customizable delivery options.
+- baseURL: https://mainnet.helius-rpc.com/?api-key={apiKey}
+  baseurl_source: declared
+  description: Configure real-time blockchain notifications for any Solana address, transaction type, or on-chain event with customizable delivery options.
   name: Helius Webhooks API
   slug: helius-webhooks-api
 artifact_total: 44
@@ -237,7 +277,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -247,7 +287,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 33.1
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +296,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helius/refs/heads/main/screenshots/helius-2026-06-20T182630.png
 security:

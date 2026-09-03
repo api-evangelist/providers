@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Spurwing references webhook-style event notifications for scheduling events in its integration guidance. Specific webhook event types and payloads are not reconciled in this artifact; verify against t
   name: Spurwing Webhooks API
   slug: webhooks
-- description: The Appointments API from Spurwing — 3 operation(s) for appointments.
+- baseURL: https://api.spurwing.io/api/v2
+  baseurl_source: declared
+  description: The Appointments API from Spurwing — 3 operation(s) for appointments.
   name: Spurwing Appointments API
   slug: spurwing-appointments-api
-- description: The Availability API from Spurwing — 2 operation(s) for availability.
+- baseURL: https://api.spurwing.io/api/v2
+  baseurl_source: declared
+  description: The Availability API from Spurwing — 2 operation(s) for availability.
   name: Spurwing Availability API
   slug: spurwing-availability-api
-- description: The Services API from Spurwing — 1 operation(s) for services.
+- baseURL: https://api.spurwing.io/api/v2
+  baseurl_source: declared
+  description: The Services API from Spurwing — 1 operation(s) for services.
   name: Spurwing Services API
   slug: spurwing-services-api
 artifact_total: 15
@@ -166,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

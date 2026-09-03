@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Teams API from Dashlane — 4 operation(s) for teams.
+- baseURL: https://api.dashlane.com/public
+  baseurl_source: declared
+  description: The Teams API from Dashlane — 4 operation(s) for teams.
   name: Dashlane Teams API
   slug: dashlane-teams-api
-- description: The Time API from Dashlane — 1 operation(s) for time.
+- baseURL: https://api.dashlane.com/public
+  baseurl_source: declared
+  description: The Time API from Dashlane — 1 operation(s) for time.
   name: Dashlane Time API
   slug: dashlane-time-api
 artifact_total: 10
@@ -236,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dashlane/refs/heads/main/screenshots/dashlane-2026-07-25T211226.png
 security:

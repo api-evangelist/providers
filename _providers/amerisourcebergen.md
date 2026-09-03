@@ -10,13 +10,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -30,25 +30,52 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-01'
-api_count: 1
+  score: 11.9
+  scored_at: '2026-09-02'
+api_count: 2
 apis:
 - description: AmerisourceBergen (now Cencora) is one of the largest global pharmaceutical distributors, serving pharmaceutical manufacturers, healthcare providers, and patients worldwide. The company does not curre
   name: AmerisourceBergen Website
   slug: website
-artifact_total: 22
+- description: Cencora operates an SAP API Business Hub Enterprise developer portal at api.cencora.com — DNS resolves to ab-cloud-foundry-prd.apibhubenterprise.cfapps.us21.hana.ondemand.com, and every request, on ev
+  name: Cencora API Developer Portal
+  slug: developer-portal
+artifact_total: 26
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/amerisourcebergen-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amerisourcebergen-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/amerisourcebergen-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/amerisourcebergen-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amerisourcebergen-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/amerisourcebergen-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.cencora.com/responsible-disclosure
 - group: start
   title: ''
   type: Portal
-  url: https://www.amerisourcebergen.com
+  url: https://api.cencora.com
 - group: company
   title: ''
   type: Website
@@ -56,23 +83,37 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.amerisourcebergen.com/privacy-policy
+  url: https://www.cencora.com/global-privacy-statement-overview
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.amerisourcebergen.com/terms-of-use
+  url: https://www.cencora.com/global-terms-and-conditions
 - group: operate
   title: ''
   type: Support
-  url: https://www.amerisourcebergen.com/contact
+  url: https://www.cencora.com/contact-us
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/amerisourcebergen
+  url: https://www.linkedin.com/company/cencoraglobal/
 - group: other
   title: ''
   type: X
-  url: https://twitter.com/AmerisourceBrg
+  url: https://x.com/CencoraGlobal
+coverage:
+  checked: '2026-09-02'
+  detail: Cencora runs a real SAP API Business Hub Enterprise developer portal at api.cencora.com, but every path on that host — including /openapi.json, /.well-known/* and a control path that cannot exist — returns the same 858-byte HTML shim redirecting to SAP XSUAA OAuth (client_id sb-dev-portal-xsuaa!b33), so no catalogue, reference or contract is readable without portal credentials Cencora publishes no way to request.
+  evidence:
+  - status: 200
+    url: https://api.cencora.com/
+  - status: 200
+    url: https://api.cencora.com/openapi.json
+  - status: 403
+    url: https://developer.cencora.com/
+  - status: 200
+    url: https://www.cencora.com/llms.txt
+  reason: partner-login
+  state: gated
 created: '2024-01-01'
 description: AmerisourceBergen (now Cencora) fosters a positive impact on healthcare around the world by advancing the development and delivery of pharmaceuticals and healthcare products. The company provides pharmaceutical distribution, manufacturer solutions, provider solutions, and animal health solutions across 50+ countries through 1,300+ facilities.
 features:
@@ -105,17 +146,17 @@ integrations:
 - description: Consulting and market access affiliate providing healthcare analytics, reimbursement support, and market access strategies for manufacturers.
   name: Xcenda
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: AmerisourceBergen
 nav: Providers
 network: true
-overview: 'AmerisourceBergen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical Distribution, Healthcare, Drug Distribution, Manufacturer Solutions, and Provider Solutions.
+overview: 'AmerisourceBergen publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical Distribution, Healthcare, Drug Distribution, Manufacturer Solutions, and Provider Solutions.
 
 
-  AmerisourceBergen''s developer surface includes developer portal, support, and 6 more developer resources.'
+  AmerisourceBergen''s developer surface includes authentication, developer portal, support, and 11 more developer resources.'
 plans:
 - name: Amerisourcebergen Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: amerisourcebergen-plans-pricing
 press:
 - date: '2026-05-25'
@@ -135,43 +176,58 @@ press:
   url: https://emerj.com/artificial-intelligence-at-cencora/
 random_paper: 4
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Amerisourcebergen Rate Limits
   slug: amerisourcebergen-rate-limits
+scopes:
+- name: Amerisourcebergen Scopes
+  scope_count: 6
+  slug: amerisourcebergen-scopes
+  summary_line: 6 scopes · authorizationCode
 score:
-  band: minimal
-  composite: 10.4
+  band: emerging
+  composite: 21.0
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 71.0
+    artifact_dirs: 14
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 10.6
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 21.4
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 5.3
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 10.4
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
+    score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerisourcebergen/refs/heads/main/screenshots/amerisourcebergen-2026-06-20T171929.png
 security:
+- kind: authentication
+  name: Amerisourcebergen Authentication
+  slug: amerisourcebergen-authentication
+  summary_line: oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Amerisourcebergen Domain Security
   slug: amerisourcebergen-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Amerisourcebergen Vulnerability Disclosure
+  slug: amerisourcebergen-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 slug: amerisourcebergen
 tags:
 - Pharmaceutical Distribution

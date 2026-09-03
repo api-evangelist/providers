@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: CDISC CORE (Checks and Rules Engine) is an open-source rules engine for validating clinical data against CDISC conformance rules. It enables automated validation of SDTM, ADaM, and other study data ar
   name: CDISC CORE (Checks and Rules Engine) API
   slug: cdisc-core-api
-- description: Analysis Data Model standards
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: Analysis Data Model standards
   name: cdisc ADaM API
   slug: cdisc-adam-api
-- description: CDISC Biomedical Concepts (COSMOS)
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: CDISC Biomedical Concepts (COSMOS)
   name: cdisc Biomedical Concepts API
   slug: cdisc-biomedical-concepts-api
-- description: Clinical Data Acquisition Standards Harmonization
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: Clinical Data Acquisition Standards Harmonization
   name: cdisc CDASH API
   slug: cdisc-cdash-api
-- description: CDISC standards product catalog
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: CDISC standards product catalog
   name: cdisc Products API
   slug: cdisc-products-api
-- description: Study Data Tabulation Model standards
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: Study Data Tabulation Model standards
   name: cdisc SDTM API
   slug: cdisc-sdtm-api
-- description: CDISC controlled terminology
+- baseURL: https://library.cdisc.org/api
+  baseurl_source: declared
+  description: CDISC controlled terminology
   name: cdisc Terminology API
   slug: cdisc-terminology-api
 artifact_total: 24
@@ -177,16 +189,16 @@ jsonld:
   slug: cdisc-context
 layout: provider
 modified: '2026-05-19'
-name: cdisc
+name: Cdisc
 nav: Providers
 network: true
-overview: 'cdisc publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ADaM API, Biomedical Concepts API, CDASH API, and 3 more.
+overview: 'Cdisc publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ADaM API, Biomedical Concepts API, CDASH API, and 3 more.
 
 
-  The cdisc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Cdisc catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  cdisc''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, changelog, signup flow, and 10 more developer resources.'
+  Cdisc''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, changelog, signup flow, and 10 more developer resources.'
 plans:
 - name: Cdisc Plans Pricing
   plan_count: 3
@@ -199,7 +211,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: cdisc API Rules
+  name: Cdisc API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,10 +247,10 @@ score:
       total: 6
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/screenshots/cdisc-2026-06-20T174105.png
 security:

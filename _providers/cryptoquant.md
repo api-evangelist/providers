@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations
 api_count: 1
 apis:
-- description: Inflow, outflow, and reserve metrics for major exchanges.
+- baseURL: https://api.cryptoquant.com/v1
+  baseurl_source: declared
+  description: Inflow, outflow, and reserve metrics for major exchanges.
   name: CryptoQuant Exchange Flows API
   slug: cryptoquant-exchange-flows-api
-- description: Price, open interest, and derivatives metrics.
+- baseURL: https://api.cryptoquant.com/v1
+  baseurl_source: declared
+  description: Price, open interest, and derivatives metrics.
   name: CryptoQuant Market Data API
   slug: cryptoquant-market-data-api
-- description: Miner reserve, position index, and outflow metrics.
+- baseURL: https://api.cryptoquant.com/v1
+  baseurl_source: declared
+  description: Miner reserve, position index, and outflow metrics.
   name: CryptoQuant Miner API
   slug: cryptoquant-miner-api
-- description: Network indicators including SOPR, MVRV, NVT, and active addresses.
+- baseURL: https://api.cryptoquant.com/v1
+  baseurl_source: declared
+  description: Network indicators including SOPR, MVRV, NVT, and active addresses.
   name: CryptoQuant On-Chain API
   slug: cryptoquant-on-chain-api
-- description: Stablecoin supply ratio and exchange metrics.
+- baseURL: https://api.cryptoquant.com/v1
+  baseurl_source: declared
+  description: Stablecoin supply ratio and exchange metrics.
   name: CryptoQuant Stablecoins API
   slug: cryptoquant-stablecoins-api
 artifact_total: 22
@@ -223,7 +233,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptoquant/refs/heads/main/screenshots/cryptoquant-2026-06-20T175316.png
 security:

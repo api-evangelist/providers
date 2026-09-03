@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 26 operations · 17 acting
 api_count: 1
 apis:
-- description: Source and sink connectors between Decodable and external systems.
+- baseURL: https://<account>.api.decodable.co/v1alpha2
+  baseurl_source: declared
+  description: Source and sink connectors between Decodable and external systems.
   name: Decodable Connections API
   slug: decodable-connections-api
-- description: SQL or custom Apache Flink transformations over streams.
+- baseURL: https://<account>.api.decodable.co/v1alpha2
+  baseurl_source: declared
+  description: SQL or custom Apache Flink transformations over streams.
   name: Decodable Pipelines API
   slug: decodable-pipelines-api
-- description: Account-level and control-plane resource endpoints.
+- baseURL: https://<account>.api.decodable.co/v1alpha2
+  baseurl_source: declared
+  description: Account-level and control-plane resource endpoints.
   name: Decodable Resources API
   slug: decodable-resources-api
-- description: Securely stored credentials referenced by connections.
+- baseURL: https://<account>.api.decodable.co/v1alpha2
+  baseurl_source: declared
+  description: Securely stored credentials referenced by connections.
   name: Decodable Secrets API
   slug: decodable-secrets-api
-- description: Typed, schema-bearing channels that carry records.
+- baseURL: https://<account>.api.decodable.co/v1alpha2
+  baseurl_source: declared
+  description: Typed, schema-bearing channels that carry records.
   name: Decodable Streams API
   slug: decodable-streams-api
 artifact_total: 20
@@ -187,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decodable/refs/heads/main/screenshots/decodable-2026-07-25T211523.png
 security:

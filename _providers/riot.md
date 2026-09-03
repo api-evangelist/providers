@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 40 operations · 9 acting
 api_count: 2
 apis:
-- description: Provides data about courses, their settings within the workspace and employees' learning progress.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: Provides data about courses, their settings within the workspace and employees' learning progress.
   name: Riot Awareness API
   slug: riot-awareness-api
-- description: The Breaches API from Riot — 3 operation(s) for breaches.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The Breaches API from Riot — 3 operation(s) for breaches.
   name: Riot Breaches API
   slug: riot-breaches-api
-- description: Provides an overview of the organization and employees' data.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: Provides an overview of the organization and employees' data.
   name: Riot General API
   slug: riot-general-api
-- description: The Groups API from Riot — 2 operation(s) for groups.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The Groups API from Riot — 2 operation(s) for groups.
   name: Riot Groups API
   slug: riot-groups-api
-- description: The Inbox API from Riot — 3 operation(s) for inbox.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The Inbox API from Riot — 3 operation(s) for inbox.
   name: Riot Inbox API
   slug: riot-inbox-api
-- description: The SCIM API from Riot — 9 operation(s) for scim.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The SCIM API from Riot — 9 operation(s) for scim.
   name: Riot SCIM API
   slug: riot-scim-api
-- description: Provides data about phishing campaigns, corresponding attacks and related events.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: Provides data about phishing campaigns, corresponding attacks and related events.
   name: Riot Simulation API
   slug: riot-simulation-api
-- description: The Slash API from Riot — 2 operation(s) for slash.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The Slash API from Riot — 2 operation(s) for slash.
   name: Riot Slash API
   slug: riot-slash-api
-- description: The Sonar API from Riot — 0 operation(s) for sonar.
+- baseURL: https://public-api.tryriot.com/v1
+  baseurl_source: declared
+  description: The Sonar API from Riot — 0 operation(s) for sonar.
   name: Riot Sonar API
   slug: riot-sonar-api
 artifact_total: 33
@@ -293,7 +324,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -303,7 +334,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 47.7
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -315,7 +346,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: 'FDC3 Desktop Agent Bridging (DAB) is a wire protocol that enables multiple Desktop Agent implementations to interoperate, allowing applications running under different Desktop Agents to share context '
   name: FDC3 Desktop Agent Bridging
   slug: desktop-agent-bridging
-- description: The Application API from FDC3 — 5 operation(s) for application.
+- baseURL: https://fdc3.finos.org
+  baseurl_source: declared
+  description: The Application API from FDC3 — 5 operation(s) for application.
   name: FDC3 Application API
   slug: fdc3-application-api
 artifact_total: 18
@@ -229,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdc3/refs/heads/main/screenshots/fdc3-2026-06-20T181104.png
 security:

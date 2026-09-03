@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,13 +56,19 @@ apis:
 - description: Tonic Fabricate generates synthetic relational data, free-text, and mockable APIs from a schema definition. Used through the Fabricate web app and project APIs.
   name: Tonic Fabricate
   slug: fabricate
-- description: The Generate Data API from Tonic.ai — 2 operation(s) for generate data.
+- baseURL: https://app.tonic.ai
+  baseurl_source: declared
+  description: The Generate Data API from Tonic.ai — 2 operation(s) for generate data.
   name: Tonic.ai Generate Data API
   slug: tonic-ai-generate-data-api
-- description: The Table Relationships API from Tonic.ai — 1 operation(s) for table relationships.
+- baseURL: https://app.tonic.ai
+  baseurl_source: declared
+  description: The Table Relationships API from Tonic.ai — 1 operation(s) for table relationships.
   name: Tonic.ai Table Relationships API
   slug: tonic-ai-table-relationships-api
-- description: The Workspaces API from Tonic.ai — 1 operation(s) for workspaces.
+- baseURL: https://app.tonic.ai
+  baseurl_source: declared
+  description: The Workspaces API from Tonic.ai — 1 operation(s) for workspaces.
   name: Tonic.ai Workspaces API
   slug: tonic-ai-workspaces-api
 artifact_total: 18
@@ -194,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/screenshots/tonic-ai-2026-06-20T195451.png
 security:

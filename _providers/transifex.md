@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 113 operations · 57 acting
 api_count: 1
 apis:
-- description: The Activity Reports API from Transifex — 9 operation(s) for activity reports.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Activity Reports API from Transifex — 9 operation(s) for activity reports.
   name: Transifex Activity Reports API
   slug: transifex-activity-reports-api
-- description: The Context Screenshots API from Transifex — 5 operation(s) for context screenshots.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Context Screenshots API from Transifex — 5 operation(s) for context screenshots.
   name: Transifex Context Screenshots API
   slug: transifex-context-screenshots-api
-- description: Glossaries
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Glossaries
   name: Transifex Glossaries API
   slug: transifex-glossaries-api
-- description: Internationalization formats supported by Transifex.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Internationalization formats supported by Transifex.
   name: Transifex I18n Formats API
   slug: transifex-i18n-formats-api
-- description: Languages objects represent each available language in Transifex.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Languages objects represent each available language in Transifex.
   name: Transifex Languages API
   slug: transifex-languages-api
-- description: Represents Transifex's organizations. Every user can be a member of one or multiple organizations. Only the organizations the authenticated user belongs to will appear here.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Represents Transifex's organizations. Every user can be a member of one or multiple organizations. Only the organizations the authenticated user belongs to will appear here.
   name: Transifex Organizations API
   slug: transifex-organizations-api
-- description: Project Webhooks lets you specify actions which will trigger some notification event. When that event occurs, Transfex application will make a HTTP request to the URL configured for the webhook (callb
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Project Webhooks lets you specify actions which will trigger some notification event. When that event occurs, Transfex application will make a HTTP request to the URL configured for the webhook (callb
   name: Transifex Project Webhooks API
   slug: transifex-project-webhooks-api
-- description: Represents projects, as used within Transifex. Each project belongs to an organization.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Represents projects, as used within Transifex. Each project belongs to an organization.
   name: Transifex Projects API
   slug: transifex-projects-api
-- description: Represents comments on resource strings. These are the same comments exposed in the Transifex Editor under the "Comments" tab. A comment can also be flagged as an **issue**. In this case, some extra f
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Represents comments on resource strings. These are the same comments exposed in the Transifex Editor under the "Comments" tab. A comment can also be flagged as an **issue**. In this case, some extra f
   name: Transifex Resource String Comments API
   slug: transifex-resource-string-comments-api
-- description: Resource Strings
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Resource Strings
   name: Transifex Resource Strings API
   slug: transifex-resource-strings-api
-- description: The Resource Translations API from Transifex — 7 operation(s) for resource translations.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Resource Translations API from Transifex — 7 operation(s) for resource translations.
   name: Transifex Resource Translations API
   slug: transifex-resource-translations-api
-- description: Represents a resource that holds source strings. Resources belong to a specific project in Transifex.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Represents a resource that holds source strings. Resources belong to a specific project in Transifex.
   name: Transifex Resources API
   slug: transifex-resources-api
-- description: The Statistics API from Transifex — 2 operation(s) for statistics.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Statistics API from Transifex — 2 operation(s) for statistics.
   name: Transifex Statistics API
   slug: transifex-statistics-api
-- description: Tasks are work items that can be assigned to users within a project. They help organize and track translation work.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Tasks are work items that can be assigned to users within a project. They help organize and track translation work.
   name: Transifex Tasks API
   slug: transifex-tasks-api
-- description: The Team Memberships API from Transifex — 2 operation(s) for team memberships.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Team Memberships API from Transifex — 2 operation(s) for team memberships.
   name: Transifex Team Memberships API
   slug: transifex-team-memberships-api
-- description: The Teams API from Transifex — 4 operation(s) for teams.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Teams API from Transifex — 4 operation(s) for teams.
   name: Transifex Teams API
   slug: transifex-teams-api
-- description: The Translation Memory API from Transifex — 4 operation(s) for translation memory.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: The Translation Memory API from Transifex — 4 operation(s) for translation memory.
   name: Transifex Translation Memory API
   slug: transifex-translation-memory-api
-- description: Represents Transifex's users.
+- baseURL: https://rest.api.transifex.com
+  baseurl_source: declared
+  description: Represents Transifex's users.
   name: Transifex Users API
   slug: transifex-users-api
 artifact_total: 54
@@ -315,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/screenshots/transifex-2026-06-20T195541.png
 security:

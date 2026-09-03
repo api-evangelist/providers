@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 2
 apis:
-- description: The Chat API from Cerebras Systems — 1 operation(s) for chat.
+- baseURL: https://api.cerebras.ai
+  baseurl_source: declared
+  description: The Chat API from Cerebras Systems — 1 operation(s) for chat.
   name: Cerebras Systems Chat API
   slug: cerebras-systems-chat-api
-- description: The Completions API from Cerebras Systems — 1 operation(s) for completions.
+- baseURL: https://api.cerebras.ai
+  baseurl_source: declared
+  description: The Completions API from Cerebras Systems — 1 operation(s) for completions.
   name: Cerebras Systems Completions API
   slug: cerebras-systems-completions-api
-- description: The Models API from Cerebras Systems — 2 operation(s) for models.
+- baseURL: https://api.cerebras.ai
+  baseurl_source: declared
+  description: The Models API from Cerebras Systems — 2 operation(s) for models.
   name: Cerebras Systems Models API
   slug: cerebras-systems-models-api
-- description: The Public Models API from Cerebras Systems — 2 operation(s) for public models.
+- baseURL: https://api.cerebras.ai
+  baseurl_source: declared
+  description: The Public Models API from Cerebras Systems — 2 operation(s) for public models.
   name: Cerebras Systems Public Models API
   slug: cerebras-systems-public-models-api
-- description: The Tcp Warming API from Cerebras Systems — 1 operation(s) for tcp warming.
+- baseURL: https://api.cerebras.ai
+  baseurl_source: declared
+  description: The Tcp Warming API from Cerebras Systems — 1 operation(s) for tcp warming.
   name: Cerebras Systems Tcp Warming API
   slug: cerebras-systems-tcp-warming-api
 artifact_total: 23
@@ -310,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

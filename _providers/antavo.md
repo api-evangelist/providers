@@ -33,94 +33,152 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 18
 apis:
-- description: This endpoint collects and aggregates all activities, provided by all modules
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: This endpoint collects and aggregates all activities, provided by all modules
   name: Antavo Activities API
   slug: antavo-activities-api
-- description: The Async Events API from Antavo — 2 operation(s) for async events.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Async Events API from Antavo — 2 operation(s) for async events.
   name: Antavo Async Events API
   slug: antavo-async-events-api
-- description: The Authentication API API from Antavo — 1 operation(s) for authentication api.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Authentication API API from Antavo — 1 operation(s) for authentication api.
   name: Antavo Authentication API
   slug: antavo-authentication-api-api
-- description: Cart endpoints collection
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Cart endpoints collection
   name: Antavo Cart API
   slug: antavo-cart-api
-- description: Endpoints provided by the _Challenges_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Challenges_ module
   name: Antavo Challenges API
   slug: antavo-challenges-api
-- description: The Clubs API from Antavo — 21 operation(s) for clubs.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Clubs API from Antavo — 21 operation(s) for clubs.
   name: Antavo Clubs API
   slug: antavo-clubs-api
-- description: The Content consumption API from Antavo — 1 operation(s) for content consumption.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Content consumption API from Antavo — 1 operation(s) for content consumption.
   name: Antavo Content consumption API
   slug: antavo-content-consumption-api
-- description: Endpoints provided by the _Contests Lite_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Contests Lite_ module
   name: Antavo Contests API
   slug: antavo-contests-api
-- description: The Coupon pools API from Antavo — 2 operation(s) for coupon pools.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Coupon pools API from Antavo — 2 operation(s) for coupon pools.
   name: Antavo Coupon pools API
   slug: antavo-coupon-pools-api
-- description: Bulk Coupons API endpoints
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Bulk Coupons API endpoints
   name: Antavo Coupons API
   slug: antavo-coupons-api
-- description: Bulk Customer List API endpoints
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Bulk Customer List API endpoints
   name: Antavo Customer lists API
   slug: antavo-customer-lists-api
-- description: The Customers API from Antavo — 11 operation(s) for customers.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Customers API from Antavo — 11 operation(s) for customers.
   name: Antavo Customers API
   slug: antavo-customers-api
-- description: Endpoints for probing data extensions
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints for probing data extensions
   name: Antavo Data extensions API
   slug: antavo-data-extensions-api
-- description: The Events API from Antavo — 3 operation(s) for events.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Events API from Antavo — 3 operation(s) for events.
   name: Antavo Events API
   slug: antavo-events-api
-- description: The FAQ API from Antavo — 1 operation(s) for faq.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The FAQ API from Antavo — 1 operation(s) for faq.
   name: Antavo FAQ API
   slug: antavo-faq-api
-- description: A general method for creating, accessing and modifying an Antavo entity.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: A general method for creating, accessing and modifying an Antavo entity.
   name: Antavo Generic API
   slug: antavo-generic-api
-- description: Endpoints providing information regarding the customers interactions with the loyalty cloud
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints providing information regarding the customers interactions with the loyalty cloud
   name: Antavo History API
   slug: antavo-history-api
-- description: The Leaderboard API from Antavo — 1 operation(s) for leaderboard.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Leaderboard API from Antavo — 1 operation(s) for leaderboard.
   name: Antavo Leaderboard API
   slug: antavo-leaderboard-api
-- description: Endpoints provided by the _Offers_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Offers_ module
   name: Antavo Offers API
   slug: antavo-offers-api
-- description: The Points Preview API API from Antavo — 1 operation(s) for points preview api.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Points Preview API API from Antavo — 1 operation(s) for points preview api.
   name: Antavo Points Preview API
   slug: antavo-points-preview-api-api
-- description: The Prize wheels API from Antavo — 2 operation(s) for prize wheels.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Prize wheels API from Antavo — 2 operation(s) for prize wheels.
   name: Antavo Prize wheels API
   slug: antavo-prize-wheels-api
-- description: Endpoints provided by the _Gamified Profiling_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Gamified Profiling_ module
   name: Antavo Profiling API
   slug: antavo-profiling-api
-- description: Promotion endpoints collection
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Promotion endpoints collection
   name: Antavo Promotion API
   slug: antavo-promotion-api
-- description: Endpoints provided by the _Quizzes_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Quizzes_ module
   name: Antavo Quizzes API
   slug: antavo-quizzes-api
-- description: Bulk Reward Claim API endpoints
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Bulk Reward Claim API endpoints
   name: Antavo Rewards API
   slug: antavo-rewards-api
-- description: The Social Share Campaigns API from Antavo — 1 operation(s) for social share campaigns.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Social Share Campaigns API from Antavo — 1 operation(s) for social share campaigns.
   name: Antavo Social Share Campaigns API
   slug: antavo-social-share-campaigns-api
-- description: Endpoints providing customer information regarding specified transaction ids.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints providing customer information regarding specified transaction ids.
   name: Antavo Transactions API
   slug: antavo-transactions-api
-- description: The Treasure hunt API from Antavo — 1 operation(s) for treasure hunt.
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: The Treasure hunt API from Antavo — 1 operation(s) for treasure hunt.
   name: Antavo Treasure hunt API
   slug: antavo-treasure-hunt-api
-- description: Endpoints provided by the _Wallet_ module
+- baseURL: https://api.antavo.com
+  baseurl_source: declared
+  description: Endpoints provided by the _Wallet_ module
   name: Antavo Wallet API
   slug: antavo-wallet-api
 artifact_total: 55
@@ -458,7 +516,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -468,7 +526,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 77.6
-  previous_composite: 62.1
+  previous_composite: 62.0
   provenance:
     conformance: first-party
     contracts:
@@ -479,7 +537,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:

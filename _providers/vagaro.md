@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Outbound event notifications - HTTP POST requests to a merchant- registered HTTPS endpoint, not a WebSocket - fired whenever Appointments, Customers, Employees, Transactions, Form Responses, or Busine
   name: Vagaro Webhooks
   slug: vagaro-webhooks
-- description: Appointment status, timing, and service-provider details. Endpoints modeled.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Appointment status, timing, and service-provider details. Endpoints modeled.
   name: Vagaro Appointments API
   slug: vagaro-appointments-api
-- description: Access token issuance for the Enterprise Business API.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Access token issuance for the Enterprise Business API.
   name: Vagaro Authentication API
   slug: vagaro-authentication-api
-- description: Customer contact information and tags. Endpoints modeled.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Customer contact information and tags. Endpoints modeled.
   name: Vagaro Customers API
   slug: vagaro-customers-api
-- description: Assign/unassign staff across locations and provision calendars. Endpoints modeled.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Assign/unassign staff across locations and provision calendars. Endpoints modeled.
   name: Vagaro Employee Management API
   slug: vagaro-employee-management-api
-- description: Service provider contact information and reporting relationships. Endpoints modeled.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Service provider contact information and reporting relationships. Endpoints modeled.
   name: Vagaro Employees API
   slug: vagaro-employees-api
-- description: Single- and multi-location business details. Endpoints modeled.
+- baseURL: https://api.vagaro.com
+  baseurl_source: declared
+  description: Single- and multi-location business details. Endpoints modeled.
   name: Vagaro Locations API
   slug: vagaro-locations-api
 artifact_total: 20
@@ -155,7 +167,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -178,8 +190,9 @@ score:
       marker_coverage: 50.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/screenshots/vagaro-2026-09-02T165304.png
 security:
 - kind: authentication
   name: Vagaro Authentication

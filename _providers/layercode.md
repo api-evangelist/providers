@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: Bidirectional realtime WebSocket transport that streams base64 PCM microphone audio from the browser to Layercode and streams synthesized speech, transcripts, and structured data back, authorized with
+- baseURL: wss://api.layercode.com/v1/agents/web/websocket
+  baseurl_source: declared
+  description: Bidirectional realtime WebSocket transport that streams base64 PCM microphone audio from the browser to Layercode and streams synthesized speech, transcripts, and structured data back, authorized with
   name: Layercode Realtime Voice API
   slug: layercode-realtime-voice-api
-- description: 'HMAC-signed webhook Layercode POSTs to your backend with session and transcript events (session.start, message, data, session.update, session.end); your backend streams response.tts / response.data / '
+- baseURL: https://docs.layercode.com/api-reference/webhook-sse-api
+  baseurl_source: declared
+  description: 'HMAC-signed webhook Layercode POSTs to your backend with session and transcript events (session.start, message, data, session.update, session.end); your backend streams response.tts / response.data / '
   name: Layercode Webhooks API
   slug: layercode-webhooks-api
-- description: The Agents API from Layercode — 2 operation(s) for agents.
+- baseURL: https://api.layercode.com/v1
+  baseurl_source: declared
+  description: The Agents API from Layercode — 2 operation(s) for agents.
   name: Layercode Agents API
   slug: layercode-agents-api
-- description: The Calls API from Layercode — 1 operation(s) for calls.
+- baseURL: https://api.layercode.com/v1
+  baseurl_source: declared
+  description: The Calls API from Layercode — 1 operation(s) for calls.
   name: Layercode Calls API
   slug: layercode-calls-api
-- description: The Sessions API from Layercode — 3 operation(s) for sessions.
+- baseURL: https://api.layercode.com/v1
+  baseurl_source: declared
+  description: The Sessions API from Layercode — 3 operation(s) for sessions.
   name: Layercode Sessions API
   slug: layercode-sessions-api
 artifact_total: 18
@@ -169,7 +179,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -179,7 +189,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 39.0
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -188,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/screenshots/layercode-2026-07-25T224657.png
 security:

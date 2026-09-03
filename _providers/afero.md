@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -33,16 +44,24 @@ agentic_access:
   summary_line: 25 operations · 12 acting
 api_count: 1
 apis:
-- description: The OAuth 2.0 token endpoint for the Afero Cloud. A partner authenticates with HTTP Basic using the OAuth Client ID and Client Secret issued in the Afero Profile Editor, posts the end-user credentials
+- baseURL: https://api.afero.io
+  baseurl_source: declared
+  description: The OAuth 2.0 token endpoint for the Afero Cloud. A partner authenticates with HTTP Basic using the OAuth Client ID and Client Secret issued in the Afero Profile Editor, posts the end-user credentials
   name: Afero Cloud Authentication API
   slug: authentication-api
-- description: 'The Afero Cloud Users API returns the profile of the authenticated end-user: the Afero accounts the user can access and the privileges held on each, the sign-in credential and its verification state, '
+- baseURL: https://api.afero.io
+  baseurl_source: declared
+  description: 'The Afero Cloud Users API returns the profile of the authenticated end-user: the Afero accounts the user can access and the privileges held on each, the sign-in credential and its verification state, '
   name: Afero Cloud Users API
   slug: users-api
-- description: The Afero Cloud Devices API lists the devices linked to an Afero account and, via the expansions query parameter, returns device state (available, visible, connected, connectable, linked, RSSI, locati
+- baseURL: https://api.afero.io
+  baseurl_source: declared
+  description: The Afero Cloud Devices API lists the devices linked to an Afero account and, via the expansions query parameter, returns device state (available, visible, connected, connectable, linked, RSSI, locati
   name: Afero Cloud Devices API
   slug: devices-api
-- description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
+- baseURL: https://api.afero.io
+  baseurl_source: declared
+  description: 'The Afero Over-the-Air (OTA) Update API lets a partner drive firmware releases from their own CI/CD pipeline instead of the OTA Manager web application. It creates and updates partner firmware types, '
   name: Afero Cloud OTA Firmware API
   slug: ota-api
 artifact_total: 14
@@ -252,7 +271,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/screenshots/afero-2026-08-07T161019.png
 security:

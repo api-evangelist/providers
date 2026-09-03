@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 1
 apis:
-- description: The Agents API from Anysphere — 11 operation(s) for agents.
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: The Agents API from Anysphere — 11 operation(s) for agents.
   name: Anysphere Agents API
   slug: anysphere-agents-api
-- description: The Me API from Anysphere — 1 operation(s) for me.
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: The Me API from Anysphere — 1 operation(s) for me.
   name: Anysphere Me API
   slug: anysphere-me-api
-- description: The Models API from Anysphere — 1 operation(s) for models.
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: The Models API from Anysphere — 1 operation(s) for models.
   name: Anysphere Models API
   slug: anysphere-models-api
-- description: The Repositories API from Anysphere — 1 operation(s) for repositories.
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: The Repositories API from Anysphere — 1 operation(s) for repositories.
   name: Anysphere Repositories API
   slug: anysphere-repositories-api
-- description: The Sub Tokens API from Anysphere — 1 operation(s) for sub tokens.
+- baseURL: https://api.cursor.com
+  baseurl_source: declared
+  description: The Sub Tokens API from Anysphere — 1 operation(s) for sub tokens.
   name: Anysphere Sub Tokens API
   slug: anysphere-sub-tokens-api
 artifact_total: 23
@@ -289,7 +299,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anysphere/refs/heads/main/screenshots/anysphere-2026-07-25T200524.png
 security:

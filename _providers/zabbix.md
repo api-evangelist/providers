@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 20 operations · 20 acting
 api_count: 1
 apis:
-- description: Action configuration for alerting and automation
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Action configuration for alerting and automation
   name: Zabbix Actions API
   slug: zabbix-actions-api
-- description: User login and session management
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: User login and session management
   name: Zabbix Authentication API
   slug: zabbix-authentication-api
-- description: Event retrieval and acknowledgement
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Event retrieval and acknowledgement
   name: Zabbix Events API
   slug: zabbix-events-api
-- description: Historical monitoring data
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Historical monitoring data
   name: Zabbix History API
   slug: zabbix-history-api
-- description: Host group management
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Host group management
   name: Zabbix Host Groups API
   slug: zabbix-host-groups-api
-- description: Host configuration and management
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Host configuration and management
   name: Zabbix Hosts API
   slug: zabbix-hosts-api
-- description: Monitoring item configuration
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Monitoring item configuration
   name: Zabbix Items API
   slug: zabbix-items-api
-- description: Active problem retrieval
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Active problem retrieval
   name: Zabbix Problems API
   slug: zabbix-problems-api
-- description: Trigger configuration and management
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: Trigger configuration and management
   name: Zabbix Triggers API
   slug: zabbix-triggers-api
-- description: User account management
+- baseURL: https://{host}/zabbix/api_jsonrpc.php
+  baseurl_source: declared
+  description: User account management
   name: Zabbix Users API
   slug: zabbix-users-api
 artifact_total: 44
@@ -258,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/screenshots/zabbix-2026-06-20T201756.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -44,112 +44,184 @@ agentic_access:
   summary_line: 135 operations · 65 acting
 api_count: 7
 apis:
-- description: Manage compiled tag library builds for deployment.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage compiled tag library builds for deployment.
   name: Adobe Launch Builds API
   slug: adobe-launch-builds-api
-- description: Manage webhook callbacks triggered by audit events.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage webhook callbacks triggered by audit events.
   name: Adobe Launch Callbacks API
   slug: adobe-launch-callbacks-api
-- description: Manage organization companies.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage organization companies.
   name: Adobe Launch Companies API
   slug: adobe-launch-companies-api
-- description: Manage data elements for server-side event processing.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage data elements for server-side event processing.
   name: Adobe Launch Data Elements API
   slug: adobe-launch-data-elements-api
-- description: Send event data directly to the Adobe Experience Platform Edge Network. Supports both interactive (interact) and non-interactive (collect) data collection with authenticated and non-authenticated mode
+- baseURL: https://edge.adobedc.net/ee
+  baseurl_source: declared
+  description: Send event data directly to the Adobe Experience Platform Edge Network. Supports both interactive (interact) and non-interactive (collect) data collection with authenticated and non-authenticated mode
   name: Adobe Launch Edge Network API API
   slug: adobe-launch-edge-network-api-api
-- description: Manage environments for event forwarding builds.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage environments for event forwarding builds.
   name: Adobe Launch Environments API
   slug: adobe-launch-environments-api
-- description: Manage extension packages that define capabilities, library modules, and views available to Adobe Experience Platform Tags users.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage extension packages that define capabilities, library modules, and views available to Adobe Experience Platform Tags users.
   name: Adobe Launch Extension Packages API
   slug: adobe-launch-extension-packages-api
-- description: Manage extensions installed in event forwarding properties.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage extensions installed in event forwarding properties.
   name: Adobe Launch Extensions API
   slug: adobe-launch-extensions-api
-- description: Manage hosting destinations for tag library delivery.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage hosting destinations for tag library delivery.
   name: Adobe Launch Hosts API
   slug: adobe-launch-hosts-api
-- description: Manage libraries for event forwarding deployment.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage libraries for event forwarding deployment.
   name: Adobe Launch Libraries API
   slug: adobe-launch-libraries-api
-- description: Track media playback events through the Adobe Experience Platform Edge Network. Requires the Streaming Media Collection Add-on. Supports session management, play/pause tracking, buffering, and error r
+- baseURL: https://edge.adobedc.net/ee/va/v1
+  baseurl_source: declared
+  description: Track media playback events through the Adobe Experience Platform Edge Network. Requires the Streaming Media Collection Add-on. Supports session management, play/pause tracking, buffering, and error r
   name: Adobe Launch Media Edge API API
   slug: adobe-launch-media-edge-api-api
-- description: Manage event forwarding properties (edge platform).
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage event forwarding properties (edge platform).
   name: Adobe Launch Properties API
   slug: adobe-launch-properties-api
-- description: Manage the individual event, condition, and action components within rules.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage the individual event, condition, and action components within rules.
   name: Adobe Launch Rule Components API
   slug: adobe-launch-rule-components-api
-- description: Manage server-side event forwarding rules.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage server-side event forwarding rules.
   name: Adobe Launch Rules API
   slug: adobe-launch-rules-api
-- description: Search across multiple resource types.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Search across multiple resource types.
   name: Adobe Launch Search API
   slug: adobe-launch-search-api
-- description: Manage secrets for authenticating event forwarding rules with external systems. Supports token, simple-http, oauth2, and oauth2-google types.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Manage secrets for authenticating event forwarding rules with external systems. Supports token, simple-http, oauth2, and oauth2-google types.
   name: Adobe Launch Secrets API
   slug: adobe-launch-secrets-api
-- description: The Ad API from Adobe Launch — 3 operation(s) for ad.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Ad API from Adobe Launch — 3 operation(s) for ad.
   name: Adobe Launch Ad API
   slug: adobe-launch-ad-api
-- description: The Ad Break API from Adobe Launch — 2 operation(s) for ad break.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Ad Break API from Adobe Launch — 2 operation(s) for ad break.
   name: Adobe Launch Ad Break API
   slug: adobe-launch-ad-break-api
-- description: App configurations allow credentials to be stored and retrieved for later use.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: App configurations allow credentials to be stored and retrieved for later use.
   name: Adobe Launch App configurations API
   slug: adobe-launch-app-configurations-api
-- description: An audit event is a record of a specific change to another tag resource, generated at the time the change is made. These are system events which can be subscribed to through the use of a callback func
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: An audit event is a record of a specific change to another tag resource, generated at the time the change is made. These are system events which can be subscribed to through the use of a callback func
   name: Adobe Launch Audit events API
   slug: adobe-launch-audit-events-api
-- description: The Bitrate API from Adobe Launch — 1 operation(s) for bitrate.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Bitrate API from Adobe Launch — 1 operation(s) for bitrate.
   name: Adobe Launch Bitrate API
   slug: adobe-launch-bitrate-api
-- description: The Buffer API from Adobe Launch — 1 operation(s) for buffer.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Buffer API from Adobe Launch — 1 operation(s) for buffer.
   name: Adobe Launch Buffer API
   slug: adobe-launch-buffer-api
-- description: The Chapter API from Adobe Launch — 3 operation(s) for chapter.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Chapter API from Adobe Launch — 3 operation(s) for chapter.
   name: Adobe Launch Chapter API
   slug: adobe-launch-chapter-api
-- description: Real-time events originating client-side, such as browsers or mobile devices
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Real-time events originating client-side, such as browsers or mobile devices
   name: Adobe Launch Client-to-server collection API
   slug: adobe-launch-client-to-server-collection-api
-- description: The Download API from Adobe Launch — 1 operation(s) for download.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Download API from Adobe Launch — 1 operation(s) for download.
   name: Adobe Launch Download API
   slug: adobe-launch-download-api
-- description: The Error API from Adobe Launch — 1 operation(s) for error.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Error API from Adobe Launch — 1 operation(s) for error.
   name: Adobe Launch Error API
   slug: adobe-launch-error-api
-- description: An extension package usage authorization is an authorization granted by the package owner to other companies for the private use of the extension package versions.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: An extension package usage authorization is an authorization granted by the package owner to other companies for the private use of the extension package versions.
   name: Adobe Launch Extension package usage authorization API
   slug: adobe-launch-extension-package-usage-authorization-api
-- description: Notes are textual annotations that you can add to certain tag resources, such as data elements, extensions, libraries, properties, rules, and rule components.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Notes are textual annotations that you can add to certain tag resources, such as data elements, extensions, libraries, properties, rules, and rule components.
   name: Adobe Launch Notes API
   slug: adobe-launch-notes-api
-- description: The Pause API from Adobe Launch — 1 operation(s) for pause.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Pause API from Adobe Launch — 1 operation(s) for pause.
   name: Adobe Launch Pause API
   slug: adobe-launch-pause-api
-- description: The Ping API from Adobe Launch — 1 operation(s) for ping.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Ping API from Adobe Launch — 1 operation(s) for ping.
   name: Adobe Launch Ping API
   slug: adobe-launch-ping-api
-- description: The Play API from Adobe Launch — 1 operation(s) for play.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Play API from Adobe Launch — 1 operation(s) for play.
   name: Adobe Launch Play API
   slug: adobe-launch-play-api
-- description: Collect specific data for Platform profile(s)
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Collect specific data for Platform profile(s)
   name: Adobe Launch Profile updates API
   slug: adobe-launch-profile-updates-api
-- description: A profile represents a tags user. Platform does not maintain its own database of users and permissions, and instead relies on Adobe IDs managed by Adobe’s company-wide Identity Management System (IMS)
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: A profile represents a tags user. Platform does not maintain its own database of users and permissions, and instead relies on Adobe IDs managed by Adobe’s company-wide Identity Management System (IMS)
   name: Adobe Launch Profiles API
   slug: adobe-launch-profiles-api
-- description: Real-time events forwarded by a private server
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: Real-time events forwarded by a private server
   name: Adobe Launch Server-to-server collection API
   slug: adobe-launch-server-to-server-collection-api
-- description: The Session API from Adobe Launch — 3 operation(s) for session.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The Session API from Adobe Launch — 3 operation(s) for session.
   name: Adobe Launch Session API
   slug: adobe-launch-session-api
-- description: The States API from Adobe Launch — 1 operation(s) for states.
+- baseURL: https://reactor.adobe.io
+  baseurl_source: declared
+  description: The States API from Adobe Launch — 1 operation(s) for states.
   name: Adobe Launch States API
   slug: adobe-launch-states-api
 arazzos:
@@ -1878,7 +1950,7 @@ score:
     catalog_gap: 29.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -1888,7 +1960,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 72.4
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1900,7 +1972,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/screenshots/adobe-launch-2026-06-20T164946.png
 security:

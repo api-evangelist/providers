@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from Amazon Elastic Beanstalk — 1 operation(s) for amazon elastic beanstalk aws elastic beanstalk api.
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from Amazon Elastic Beanstalk — 1 operation(s) for amazon elastic beanstalk aws elastic beanstalk api.
   name: Amazon Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API API
   slug: amazon-elastic-beanstalk-amazon-elastic-beanstalk-aws-elastic-beanstalk-api-api
-- description: 'The #CreateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #createenvironment.'
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #createenvironment.'
   name: 'Amazon Elastic Beanstalk #CreateEnvironment API'
   slug: amazon-elastic-beanstalk-createenvironment-api
-- description: 'The #DescribeEnvironments API from Amazon Elastic Beanstalk — 1 operation(s) for #describeenvironments.'
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeEnvironments API from Amazon Elastic Beanstalk — 1 operation(s) for #describeenvironments.'
   name: 'Amazon Elastic Beanstalk #DescribeEnvironments API'
   slug: amazon-elastic-beanstalk-describeenvironments-api
-- description: 'The #UpdateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #updateenvironment.'
+- baseURL: https://elasticbeanstalk.amazonaws.com
+  baseurl_source: declared
+  description: 'The #UpdateEnvironment API from Amazon Elastic Beanstalk — 1 operation(s) for #updateenvironment.'
   name: 'Amazon Elastic Beanstalk #UpdateEnvironment API'
   slug: amazon-elastic-beanstalk-updateenvironment-api
 arazzos:
@@ -372,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/screenshots/amazon-elastic-beanstalk-2026-06-20T171638.png
 security:

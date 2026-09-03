@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 30 operations
 api_count: 1
 apis:
-- description: The default API from OneBusAway — 13 operation(s) for default.
+- baseURL: https://api.pugetsound.onebusaway.org
+  baseurl_source: declared
+  description: The default API from OneBusAway — 13 operation(s) for default.
   name: OneBusAway default API
   slug: onebusaway-default-api
-- description: The Where API from OneBusAway — 17 operation(s) for where.
+- baseURL: https://api.pugetsound.onebusaway.org
+  baseurl_source: declared
+  description: The Where API from OneBusAway — 17 operation(s) for where.
   name: OneBusAway Where API
   slug: onebusaway-where-api
 artifact_total: 102
@@ -521,7 +525,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/screenshots/onebusaway-2026-06-20T190710.png
 security:

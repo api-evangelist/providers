@@ -29,7 +29,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -93,7 +93,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -146,7 +146,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -369,7 +369,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -422,7 +422,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -475,7 +475,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -528,7 +528,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -581,7 +581,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -634,7 +634,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -687,7 +687,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -740,7 +740,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -793,7 +793,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -846,7 +846,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -899,7 +899,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -952,7 +952,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1005,7 +1005,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1058,7 +1058,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1111,7 +1111,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -1157,7 +1157,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1210,7 +1210,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1252,8 +1252,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Aurora Solar",
@@ -1273,7 +1273,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1326,7 +1326,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1379,7 +1379,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1432,7 +1432,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1485,7 +1485,7 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1521,9 +1521,63 @@
      "rank": 28
     },
     {
+     "name": "Ameren",
+     "slug": "ameren",
+     "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 47.6,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 64.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 17.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "tier": "Utilities & Retailers",
+     "rank": 29
+    },
+    {
      "name": "Southern California Edison",
      "slug": "southern-california-edison",
      "description": "Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison International, delivering power to roughly 15 million people across a 50,000 square-mile service territory in central, coastal, and southern California. In the United States energy value chain SCE sits at the distribution and retail layer as an investor-owned utility (IOU) regulated by the California Public Utilities Commission, operating the meters, the distribution grid, and the customer of record relationship that every downstream energy-data platform, DER aggregator, demand response provider, and solar installer ultimately depends on. Its API posture splits cleanly in two. Consumer data is mandated but closed to the open web - SCE runs Green Button Connect My Data through its Customer Data Access platform under CPUC tariff Rule 26 (Advice 3087-E, Decision 14-05-016), and states publicly that third parties need OAuth 2.0 and bulk API capability consistent with the NAESB ESPI standard, but publishes no developer portal, no base URI, no OpenAPI, and no sandbox - a third party must register with a Taxpayer Identification Number, accept terms, and pass a machine-to-machine connectivity test before any endpoint is disclosed. Grid data is genuinely open - SCE's Distribution Resources Plan External Portal (DRPEP) serves Integration Capacity Analysis, distribution circuit, PSPS, fire map, and load growth layers over an anonymous, unauthenticated ArcGIS REST service catalog that any developer can query today without a key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southern-california-edison/refs/heads/main/screenshots/southern-california-edison-2026-09-02T160255.png",
      "score": 30.3,
      "band": "thin",
      "band_label": "Thin",
@@ -1537,7 +1591,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1570,7 +1624,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "New York Independent System Operator (NYISO)",
@@ -1590,7 +1644,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1623,7 +1677,7 @@
       "agentic_commerce": false
      },
      "tier": "System & Market Operators",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Persefoni",
@@ -1643,7 +1697,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1669,7 +1723,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 31
+     "rank": 32
     }
    ]
   },
@@ -1699,7 +1753,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1732,7 +1786,7 @@
       "agentic_commerce": false
      },
      "tier": "Metering",
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Electrify America",
@@ -1752,7 +1806,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1785,7 +1839,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Watershed",
@@ -1804,7 +1858,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1830,7 +1884,7 @@
       "agentic_commerce": false
      },
      "tier": "Carbon & Climate Accounting",
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "EVgo",
@@ -1849,7 +1903,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1882,7 +1936,7 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "EnergyHub",
@@ -1902,7 +1956,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1935,7 +1989,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "NERC",
@@ -1955,7 +2009,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1988,7 +2042,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators & Government Data",
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Enverus",
@@ -2008,7 +2062,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2041,7 +2095,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Blink Charging",
@@ -2061,7 +2115,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2094,12 +2148,13 @@
       "agentic_commerce": false
      },
      "tier": "EV Charging",
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Yes Energy",
      "slug": "yes-energy",
      "description": "Yes Energy is a Boulder, Colorado power market data company serving the North American wholesale electricity markets — the seven ISOs and RTOs (ERCOT, PJM, MISO, CAISO, SPP, ISO-NE, NYISO) plus Canadian and Western markets. It aggregates, cleans, and enriches nodal locational marginal prices, FTR auction results, transmission and generation outages, real-time generation and flow telemetry, constraints, load, weather, and fuels data, and sells it through DataSignals (a REST API), DataSignals Cloud (Snowflake Secure Data Sharing), DataSignals Lake (bulk load into a customer warehouse), the PowerSignals and QuickSignals analyst front ends, EnCompass modeling, Live Power telemetry, Infrastructure Insights, Position Management, and bid-to-bill Submission Services. It sits in the private, commercial layer of the energy value chain: it does not generate, distribute, or retail electricity and it holds no consumer relationship — it resells and enriches public ISO/RTO market data to traders, IPPs, utilities, and asset developers. Its API posture is honestly closed: the DataSignals REST API is real and confirmed live at https://services.yesenergy.com/PS/rest/, but it answers every anonymous request with HTTP 401 and WWW-Authenticate Basic, and even the product documentation (help.yesenergy.com) redirects through services.yesenergy.com/PS/KnowledgeOwlAuthentication to a customer login. No public developer portal, no self-serve signup, no machine-readable specification, and no free tier are published. Home market is the United States. There is no consumer energy data mandate that applies to Yes Energy — it is not a utility, retailer, or metering agent, so Green Button, ESPI, and the Consumer Data Right are all out of scope — and while the underlying ISO/RTO market data is publicly available at the source, Yes Energy itself publishes none of it openly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yes-energy/refs/heads/main/screenshots/yes-energy-2026-09-02T171246.png",
      "score": 20.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2113,7 +2168,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2146,7 +2201,7 @@
       "agentic_commerce": false
      },
      "tier": "Energy Trading & Markets",
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Xcel Energy",
@@ -2166,7 +2221,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2199,12 +2254,13 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Uplight",
      "slug": "uplight",
      "description": "Uplight is a Boulder, Colorado energy technology company formed in 2019 from the merger of Tendril and Simple Energy and expanded through the acquisitions of EnergySavvy, FirstFuel, Ecotagious, EEme, and DERMS/VPP provider AutoGrid (closed February 2024). It sells software to electric and gas utilities and retailers in North America, Europe, and Asia rather than to consumers, covering energy efficiency and electrification marketplaces, home energy reports, rate engagement, demand response, distributed energy resource management (DERMS), virtual power plants, and a utility data lake with analytics. In the United States value chain Uplight sits on the utility side of the meter as a vendor and orchestration layer between the utility, its customers, and connected devices, and it publicly states support for OpenADR, IEEE 2030.5, Modbus, DNP3 and other SCADA protocols for DER control. Its API posture is honestly closed — a Developer Platform exists and is marketed to utilities and ecosystem partners, the documentation portal at docs.uplight.com serves a public landing shell but every Documentation and API Reference path redirects to a ReadMe login, and the production gateway at api.uplight.com answers anonymously only with HTTP 401 and a bearer-token error. No consumer usage-data API, no open market data, no downloadable OpenAPI, and no Green Button or ESPI reference could be found. Uplight is a software vendor, not a regulated data holder, so no consumer data mandate applies to it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uplight/refs/heads/main/screenshots/uplight-2026-09-02T165035.png",
      "score": 18.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2218,7 +2274,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2251,14 +2307,14 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 42
+     "rank": 43
     },
     {
-     "name": "Ameren",
-     "slug": "ameren",
-     "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png",
-     "score": 17.5,
+     "name": "American Electric Power",
+     "slug": "american-electric-power",
+     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
+     "score": 17.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2266,28 +2322,28 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 24.3,
+      "score": 18.9,
       "matched_via": "tags"
      },
-     "agent_score": 5.0,
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -2304,12 +2360,13 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Vistra Corp",
      "slug": "vistra-energy",
      "description": "Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail electricity and power generation company and the largest competitive power generator in the United States, operating roughly 41,000-44,000 MW of natural gas, nuclear, coal, solar and battery storage capacity alongside a retail business serving nearly 5 million residential, commercial and industrial customers across 16 states and the District of Columbia through TXU Energy, Dynegy, Ambit Energy, Energy Harbor, Homefield Energy and U.S. Gas & Electric. Its home market is the United States, where it sits on both sides of the competitive value chain, a merchant generator selling into ERCOT, PJM, ISO-NE, NYISO, MISO and CAISO, and a retail electricity provider (REP) reselling that power to end customers. Its API posture is honestly none. No developer portal, no API subdomain and no machine-readable contract of any kind was found: developer., developers., docs., api. and data. on vistracorp.com do not resolve; /developers, /api, /docs, /data, /openapi.json, /swagger.json and /.well-known/openid-configuration all return 404; and TXU Energy's 758-URL sitemap contains no developer or API page. The United States has no consumer energy data mandate. Green Button is an NAESB/NIST ESPI standard adopted voluntarily, and TXU Energy appears on the US Department of Energy's list of \"Utilities Committed to Implementing Green Button\", a 2012-era commitment list and not evidence of a live endpoint. The only customer-data surface found is Download-My-Data-style export behind the TXU Energy MyAccount login, whose interval readings are themselves sourced from Smart Meter Texas, the shared ERCOT meter-data platform operated by the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) rather than by Vistra. Because Vistra is a retailer and generator and not a wires company, the third-party interval-data API in its home Texas market belongs to Smart Meter Texas and not to Vistra. Vistra likewise publishes no open market or grid data of its own; ERCOT, the other ISOs/RTOs and the EIA publish the market data about Vistra's fleet. Both sides are therefore closed at the company boundary. Not to be confused with Vistra Limited (vistra.com), the unrelated corporate-services and fund-administration firm that does run a real API developer portal at devportal.vistra.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra-energy/refs/heads/main/screenshots/vistra-energy-2026-09-02T170122.png",
      "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2323,7 +2380,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2356,7 +2413,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Constellation Energy",
@@ -2376,7 +2433,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2409,12 +2466,13 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Southern Company",
      "slug": "southern-company",
      "description": "Southern Company is an Atlanta-headquartered energy holding company and one of the largest producers of electricity in the United States, serving approximately 9 million electric and natural gas customers through Alabama Power, Georgia Power, Mississippi Power, Southern Power, Southern Company Gas (Atlanta Gas Light, Nicor Gas, Virginia Natural Gas, Chattanooga Gas), Southern Nuclear, PowerSecure, Southern Linc and Southern Telecom. It sits at the vertically-integrated regulated-utility layer of the value chain — it owns generation, transmission and distribution, operates its own balancing authority rather than belonging to an ISO/RTO, and runs a FERC-approved bid-based energy auction for wholesale power in the Southeast. Its API posture is honestly closed on both sides of the sector's two-speed split. There is no consumer data mandate in Alabama, Georgia or Mississippi and Southern Company does not implement Green Button Download My Data or Connect My Data, is not listed by the Green Button Alliance, and publishes no ESPI endpoint — a customer can only export their own interval data as a spreadsheet after logging into My Power Usage, and a third party gets billing history only through a signed paper release form. On the market side the FERC-required auction clearing prices and weighted-average hour-ahead transaction prices are posted as public web pages, but they are JavaScript-rendered HTML with no CSV, no feed and no API behind them. A production Apigee API gateway is live at api.southernco.com and developer.southernco.com resolves behind an Imperva edge, so the platform machinery exists internally, but no proxy, no specification and no documentation are published to anyone outside the company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/southern-company/refs/heads/main/screenshots/southern-company-2026-09-02T160256.png",
      "score": 12.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2428,7 +2486,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2461,7 +2519,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 46
+     "rank": 47
     }
    ]
   },
@@ -2470,8 +2528,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 14,
-   "shown": 14,
+   "count": 13,
+   "shown": 13,
    "providers": [
     {
      "name": "CenterPoint Energy",
@@ -2491,7 +2549,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2524,7 +2582,7 @@
       "agentic_commerce": false
      },
      "tier": "Utilities & Retailers",
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Sunrun",
@@ -2544,7 +2602,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2577,7 +2635,7 @@
       "agentic_commerce": false
      },
      "tier": "Solar & Distributed Energy",
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "AutoGrid",
@@ -2597,7 +2655,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2630,7 +2688,7 @@
       "agentic_commerce": false
      },
      "tier": "Grid Tech & DERMS",
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Exelon",
@@ -2650,66 +2708,13 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
       "score": 13.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Utilities & Retailers",
-     "rank": 50
-    },
-    {
-     "name": "American Electric Power",
-     "slug": "american-electric-power",
-     "description": "American Electric Power (AEP) is one of the largest electric utilities in the United States, delivering electricity to more than 5.6 million customers across 11 states through its regulated utility subsidiaries including AEP Ohio, AEP Texas, Appalachian Power, Indiana Michigan Power, Kentucky Power, Public Service Company of Oklahoma, and Southwestern Electric Power Company. AEP operates the nation's largest electricity transmission network spanning over 40,000 miles and maintains approximately 31,000 megawatts of generating capacity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png",
-     "score": 5.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -2756,7 +2761,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2809,7 +2814,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2862,7 +2867,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2914,7 +2919,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2960,7 +2965,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3012,7 +3017,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3058,12 +3063,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3109,7 +3114,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3162,7 +3167,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

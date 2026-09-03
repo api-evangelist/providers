@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: The Insights API from Lucent — 1 operation(s) for insights.
+- baseURL: https://app.lucenthq.com
+  baseurl_source: declared
+  description: The Insights API from Lucent — 1 operation(s) for insights.
   name: Lucent Insights API
   slug: lucent-insights-api
-- description: The Issues API from Lucent — 2 operation(s) for issues.
+- baseURL: https://app.lucenthq.com
+  baseurl_source: declared
+  description: The Issues API from Lucent — 2 operation(s) for issues.
   name: Lucent Issues API
   slug: lucent-issues-api
-- description: The Sdk API from Lucent — 1 operation(s) for sdk.
+- baseURL: https://app.lucenthq.com
+  baseurl_source: declared
+  description: The Sdk API from Lucent — 1 operation(s) for sdk.
   name: Lucent Sdk API
   slug: lucent-sdk-api
-- description: The Signals API from Lucent — 1 operation(s) for signals.
+- baseURL: https://app.lucenthq.com
+  baseurl_source: declared
+  description: The Signals API from Lucent — 1 operation(s) for signals.
   name: Lucent Signals API
   slug: lucent-signals-api
 arazzos:
@@ -258,7 +266,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -268,7 +276,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 50.7
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/screenshots/lucent-2026-07-25T225640.png
 security:

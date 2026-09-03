@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Anthos Multicloud API provides programmatic access to manage Anthos clusters running on other public clouds such as AWS and Azure. Developers can use the API to create, update, and delete attached
   name: Anthos Multicloud API
   slug: anthos-multicloud-api
-- description: Operations for managing bare metal on-premises clusters
+- baseURL: https://gkeonprem.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing bare metal on-premises clusters
   name: Google Anthos BareMetalClusters API
   slug: google-anthos-baremetalclusters-api
-- description: Operations for managing VMware-based on-premises clusters
+- baseURL: https://gkeonprem.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing VMware-based on-premises clusters
   name: Google Anthos VmwareClusters API
   slug: google-anthos-vmwareclusters-api
-- description: Operations for managing node pools in VMware clusters
+- baseURL: https://gkeonprem.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing node pools in VMware clusters
   name: Google Anthos VmwareNodePools API
   slug: google-anthos-vmwarenodepools-api
 artifact_total: 20
@@ -190,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/screenshots/google-anthos-2026-06-20T182013.png
 security:

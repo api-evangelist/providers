@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
-- description: Data sessions, call detail records, status, and location updates.
+- baseURL: https://iot.truphone.com/api
+  baseurl_source: declared
+  description: Data sessions, call detail records, status, and location updates.
   name: Truphone (1GLOBAL) Connectivity API
   slug: truphone-connectivity-api
-- description: Connected device management and automation rules.
+- baseURL: https://iot.truphone.com/api
+  baseurl_source: declared
+  description: Connected device management and automation rules.
   name: Truphone (1GLOBAL) Devices API
   slug: truphone-devices-api
-- description: Tags and custom attributes for organizing SIM fleets.
+- baseURL: https://iot.truphone.com/api
+  baseurl_source: declared
+  description: Tags and custom attributes for organizing SIM fleets.
   name: Truphone (1GLOBAL) Organization API
   slug: truphone-organization-api
-- description: Rate plans and SIM subscriptions.
+- baseURL: https://iot.truphone.com/api
+  baseurl_source: declared
+  description: Rate plans and SIM subscriptions.
   name: Truphone (1GLOBAL) Plans API
   slug: truphone-plans-api
-- description: SIM / eSIM listing, retrieval, update, and lifecycle status changes.
+- baseURL: https://iot.truphone.com/api
+  baseurl_source: declared
+  description: SIM / eSIM listing, retrieval, update, and lifecycle status changes.
   name: Truphone (1GLOBAL) SIMs API
   slug: truphone-sims-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +195,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/screenshots/truphone-2026-09-02T164407.png
 security:
 - kind: authentication
   name: Truphone Authentication

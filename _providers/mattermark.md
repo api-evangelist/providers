@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
   name: Mattermark GraphQL API
   slug: mattermark-graphql-api
-- description: The Companies API from Mattermark — 5 operation(s) for companies.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Companies API from Mattermark — 5 operation(s) for companies.
   name: Mattermark Companies API
   slug: mattermark-companies-api
-- description: The Complex Queries API from Mattermark — 1 operation(s) for complex queries.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Complex Queries API from Mattermark — 1 operation(s) for complex queries.
   name: Mattermark Complex Queries API
   slug: mattermark-complex-queries-api
-- description: The Funding Events API from Mattermark — 1 operation(s) for funding events.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Funding Events API from Mattermark — 1 operation(s) for funding events.
   name: Mattermark Funding Events API
   slug: mattermark-funding-events-api
-- description: The Investors API from Mattermark — 2 operation(s) for investors.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Investors API from Mattermark — 2 operation(s) for investors.
   name: Mattermark Investors API
   slug: mattermark-investors-api
-- description: The Search API from Mattermark — 1 operation(s) for search.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Search API from Mattermark — 1 operation(s) for search.
   name: Mattermark Search API
   slug: mattermark-search-api
-- description: The Utilities API from Mattermark — 1 operation(s) for utilities.
+- baseURL: https://api.mattermark.com/
+  baseurl_source: declared
+  description: The Utilities API from Mattermark — 1 operation(s) for utilities.
   name: Mattermark Utilities API
   slug: mattermark-utilities-api
 artifact_total: 13
@@ -241,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
 security:

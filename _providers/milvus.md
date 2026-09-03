@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: gRPC is the canonical, high-throughput interface to Milvus. The official SDKs are gRPC-based; the REST API is a thin wrapper for non-Go/Python/Java clients.
   name: Milvus gRPC API
   slug: milvus-grpc
-- description: The Collections API from Milvus — 11 operation(s) for collections.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Collections API from Milvus — 11 operation(s) for collections.
   name: Milvus Collections API
   slug: milvus-collections-api
-- description: The Entities API from Milvus — 7 operation(s) for entities.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Entities API from Milvus — 7 operation(s) for entities.
   name: Milvus Entities API
   slug: milvus-entities-api
-- description: The Indexes API from Milvus — 4 operation(s) for indexes.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Indexes API from Milvus — 4 operation(s) for indexes.
   name: Milvus Indexes API
   slug: milvus-indexes-api
-- description: The Partitions API from Milvus — 3 operation(s) for partitions.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Partitions API from Milvus — 3 operation(s) for partitions.
   name: Milvus Partitions API
   slug: milvus-partitions-api
-- description: The Roles API from Milvus — 2 operation(s) for roles.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Roles API from Milvus — 2 operation(s) for roles.
   name: Milvus Roles API
   slug: milvus-roles-api
-- description: The Users API from Milvus — 2 operation(s) for users.
+- baseURL: http://{milvus_host}:19530/v2/vectordb
+  baseurl_source: declared
+  description: The Users API from Milvus — 2 operation(s) for users.
   name: Milvus Users API
   slug: milvus-users-api
 artifact_total: 23
@@ -230,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/screenshots/milvus-2026-06-20T185554.png
 security:

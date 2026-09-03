@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Detailed profiling of Special Purpose Acquisition Companies (SPACs). Gain access to real-time content and analytics covering the full spectrum of the SPAC market, from IPO Filing/Pricing, additional f
   name: Ion Group Dealogic Analytics SPAC API
   slug: dealogic-analytics-spac-api
-- description: Get list of entities
+- baseURL: https://api.acuris.com
+  baseurl_source: declared
+  description: Get list of entities
   name: Ion Group Entities API
   slug: ion-group-entities-api
 artifact_total: 11
@@ -148,7 +150,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ion-group/refs/heads/main/screenshots/ion-group-2026-06-20T183527.png
 security:

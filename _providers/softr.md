@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'Softr Workflows fire outbound automations and HTTP webhook calls in response to app events (such as record or user changes), letting external systems react to activity inside a Softr app. There is no '
   name: Softr Webhooks and Workflows
   slug: webhooks
-- description: List and manage Softr Databases.
+- baseURL: https://studio-api.softr.io/v1/api
+  baseurl_source: declared
+  description: List and manage Softr Databases.
   name: Softr Databases API
   slug: softr-databases-api
-- description: Create, read, update, delete, and search records.
+- baseURL: https://studio-api.softr.io/v1/api
+  baseurl_source: declared
+  description: Create, read, update, delete, and search records.
   name: Softr Records API
   slug: softr-records-api
-- description: Manage end users of a published Softr app.
+- baseURL: https://studio-api.softr.io/v1/api
+  baseurl_source: declared
+  description: Manage end users of a published Softr app.
   name: Softr Users API
   slug: softr-users-api
 artifact_total: 15
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/softr/refs/heads/main/screenshots/softr-2026-06-20T194132.png
 security:

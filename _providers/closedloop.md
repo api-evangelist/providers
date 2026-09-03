@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,10 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Read-only /v1 REST API, team- and region-scoped, authenticated via X-API-Key. Exposes insights, products, themes, features, coverage/evidence, customers, customer context, competitors, trends, facets,
+- baseURL: https://api.closedloop.sh/v1
+  baseurl_source: declared
+  description: Read-only /v1 REST API, team- and region-scoped, authenticated via X-API-Key. Exposes insights, products, themes, features, coverage/evidence, customers, customer context, competitors, trends, facets,
   name: ClosedLoop AI REST API
   slug: closedloop-ai-rest-api
 - description: 'Hosted, first-class MCP server over HTTP with OAuth auth (interactive auto-registration or client_credentials for M2M). Ships MCP tools (query insights, context, customers, themes, competitors) and a '
@@ -213,11 +229,11 @@ score:
   band: strong
   composite: 62.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -227,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 62.1
+  previous_composite: 62.8
   provenance:
     conformance: first-party
     contracts:
@@ -238,8 +254,9 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/screenshots/closedloop-2026-09-02T145114.png
 security:
 - kind: authentication
   name: Closedloop Authentication

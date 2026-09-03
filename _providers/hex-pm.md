@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 3
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 45 operations · 23 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: API key creation and management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: API key creation and management.
   name: Hex.pm API Keys API
   slug: hex-pm-api-keys-api
-- description: Authentication verification.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Authentication verification.
   name: Hex.pm Authentication API
   slug: hex-pm-authentication-api
-- description: HexDocs package documentation.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: HexDocs package documentation.
   name: Hex.pm Documentation API
   slug: hex-pm-documentation-api
-- description: API index and discovery.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: API index and discovery.
   name: Hex.pm Index API
   slug: hex-pm-index-api
-- description: OAuth2 Device Authorization Grant flow.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: OAuth2 Device Authorization Grant flow.
   name: Hex.pm OAuth API
   slug: hex-pm-oauth-api
-- description: Organization and member management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Organization and member management.
   name: Hex.pm Organizations API
   slug: hex-pm-organizations-api
-- description: Package ownership management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Package ownership management.
   name: Hex.pm Package Owners API
   slug: hex-pm-package-owners-api
-- description: Package search and metadata.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Package search and metadata.
   name: Hex.pm Packages API
   slug: hex-pm-packages-api
-- description: Package release publishing and management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Package release publishing and management.
   name: Hex.pm Releases API
   slug: hex-pm-releases-api
-- description: Hex repository management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Hex repository management.
   name: Hex.pm Repositories API
   slug: hex-pm-repositories-api
-- description: User account management.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: User account management.
   name: Hex.pm Users API
   slug: hex-pm-users-api
-- description: Utility endpoints.
+- baseURL: https://hex.pm/api
+  baseurl_source: declared
+  description: Utility endpoints.
   name: Hex.pm Utilities API
   slug: hex-pm-utilities-api
 artifact_total: 38
@@ -283,7 +307,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hex-pm/refs/heads/main/screenshots/hex-pm-2026-06-20T182659.png
 security:

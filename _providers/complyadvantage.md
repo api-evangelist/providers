@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 10 acting
 api_count: 1
 apis:
-- description: ComplyAdvantage's newer Mesh platform API, authenticated with OAuth2 bearer tokens (24-hour validity). Covers the full customer lifecycle - customer creation and screening (sync or async), risk scorin
+- baseURL: https://api.mesh.complyadvantage.com
+  baseurl_source: declared
+  description: ComplyAdvantage's newer Mesh platform API, authenticated with OAuth2 bearer tokens (24-hour validity). Covers the full customer lifecycle - customer creation and screening (sync or async), risk scorin
   name: ComplyAdvantage Mesh Platform API
   slug: complyadvantage-mesh-platform-api
-- description: Comments, tags, assignment, and match status workflow on searches.
+- baseURL: https://api.complyadvantage.com
+  baseurl_source: declared
+  description: Comments, tags, assignment, and match status workflow on searches.
   name: ComplyAdvantage Case Management API
   slug: complyadvantage-case-management-api
-- description: Ongoing monitoring of searches, change differences, and acknowledgement.
+- baseURL: https://api.complyadvantage.com
+  baseurl_source: declared
+  description: Ongoing monitoring of searches, change differences, and acknowledgement.
   name: ComplyAdvantage Monitored Searches API
   slug: complyadvantage-monitored-searches-api
-- description: Create and manage AML screening searches against sanctions, PEP, warning, and adverse media data.
+- baseURL: https://api.complyadvantage.com
+  baseurl_source: declared
+  description: Create and manage AML screening searches against sanctions, PEP, warning, and adverse media data.
   name: ComplyAdvantage Searches API
   slug: complyadvantage-searches-api
-- description: Users on your ComplyAdvantage account.
+- baseURL: https://api.complyadvantage.com
+  baseurl_source: declared
+  description: Users on your ComplyAdvantage account.
   name: ComplyAdvantage Users API
   slug: complyadvantage-users-api
 artifact_total: 20
@@ -283,23 +293,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.5
+  composite: 50.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.2
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 25.3
+    contract_quality: 23.2
     developer_ergonomics: 55.4
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 51.7
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -311,7 +321,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/screenshots/complyadvantage-2026-07-25T210154.png
 security:

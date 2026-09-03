@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Account-configured webhook callbacks that POST a JSON payload to your endpoint when a document changes processing status (uploaded, processed, reviewed), carrying document identifiers and status for d
   name: Docsumo Webhooks API
   slug: docsumo-webhooks-api
-- description: Enabled document types and account detail.
+- baseURL: https://app.docsumo.com/api/v1
+  baseurl_source: declared
+  description: Enabled document types and account detail.
   name: Docsumo Document Types API
   slug: docsumo-document-types-api
-- description: Upload, list, summarize, and delete documents.
+- baseURL: https://app.docsumo.com/api/v1
+  baseurl_source: declared
+  description: Upload, list, summarize, and delete documents.
   name: Docsumo Documents API
   slug: docsumo-documents-api
-- description: Retrieve AI-extracted data for a processed document.
+- baseURL: https://app.docsumo.com/api/v1
+  baseurl_source: declared
+  description: Retrieve AI-extracted data for a processed document.
   name: Docsumo Extraction API
   slug: docsumo-extraction-api
-- description: Human-in-the-loop review URLs and review status.
+- baseURL: https://app.docsumo.com/api/v1
+  baseurl_source: declared
+  description: Human-in-the-loop review URLs and review status.
   name: Docsumo Review API
   slug: docsumo-review-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/screenshots/docsumo-2026-07-25T212211.png
 security:

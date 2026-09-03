@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: The Jelly Belly Wiki API is a community-built, read-only REST API that provides detailed information about Jelly Belly beans, including flavor details, facts, milestones, and recipes. It is designed a
   name: Jelly Belly Wiki API
   slug: jelly-belly-wiki-api
-- description: The Beans API from Jelly Belly — 2 operation(s) for beans.
+- baseURL: https://jellybellywikiapi.onrender.com
+  baseurl_source: spec
+  description: The Beans API from Jelly Belly — 2 operation(s) for beans.
   name: Jelly Belly Beans API
   slug: jelly-belly-beans-api
-- description: The Combinations API from Jelly Belly — 2 operation(s) for combinations.
+- baseURL: https://jellybellywikiapi.onrender.com
+  baseurl_source: spec
+  description: The Combinations API from Jelly Belly — 2 operation(s) for combinations.
   name: Jelly Belly Combinations API
   slug: jelly-belly-combinations-api
-- description: The Facts API from Jelly Belly — 2 operation(s) for facts.
+- baseURL: https://jellybellywikiapi.onrender.com
+  baseurl_source: spec
+  description: The Facts API from Jelly Belly — 2 operation(s) for facts.
   name: Jelly Belly Facts API
   slug: jelly-belly-facts-api
-- description: The MileStones API from Jelly Belly — 2 operation(s) for milestones.
+- baseURL: https://jellybellywikiapi.onrender.com
+  baseurl_source: spec
+  description: The MileStones API from Jelly Belly — 2 operation(s) for milestones.
   name: Jelly Belly MileStones API
   slug: jelly-belly-milestones-api
-- description: The Recipes API from Jelly Belly — 2 operation(s) for recipes.
+- baseURL: https://jellybellywikiapi.onrender.com
+  baseurl_source: spec
+  description: The Recipes API from Jelly Belly — 2 operation(s) for recipes.
   name: Jelly Belly Recipes API
   slug: jelly-belly-recipes-api
 artifact_total: 18
@@ -178,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/screenshots/jelly-belly-2026-06-20T183718.png
 security:

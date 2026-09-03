@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: RAGEngine exposes endpoints for managing retrieval-augmented generation services with embedded vector databases, including document indexing, retrieval, and chat completion endpoints.
   name: KAITO RAGEngine API
   slug: rag-engine
-- description: OpenAI-compatible chat completions grounded in RAG indexes.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: OpenAI-compatible chat completions grounded in RAG indexes.
   name: KAITO Chat API
   slug: kaito-chat-api
-- description: Create, list, and delete RAG indexes and their documents.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Create, list, and delete RAG indexes and their documents.
   name: KAITO Index Management API
   slug: kaito-index-management-api
-- description: Persist indexes to storage or reload them.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Persist indexes to storage or reload them.
   name: KAITO Persistence API
   slug: kaito-persistence-api
-- description: Retrieve relevant nodes from a RAG index.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: Retrieve relevant nodes from a RAG index.
   name: KAITO Retrieval API
   slug: kaito-retrieval-api
 artifact_total: 15
@@ -163,7 +171,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/screenshots/kaito-2026-06-20T183901.png
 slug: kaito

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,34 +48,54 @@ apis:
 - description: A WordPress MCP Adapter endpoint registered on group14.technology at /wp-json/mcp/mcp-adapter-default-server. The route is real — the namespace `mcp` is declared in the site REST index and the endpoin
   name: Group14 Technologies MCP Server (gated)
   slug: group14-technologies-mcp-server
-- description: Self-describing route, type and taxonomy metadata.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Self-describing route, type and taxonomy metadata.
   name: Group14 Technologies Discovery API
   slug: group14-technologies-discovery-api
-- description: Open roles published on group14.technology/careers.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Open roles published on group14.technology/careers.
   name: Group14 Technologies Job Openings API
   slug: group14-technologies-job-openings-api
-- description: Group14 manufacturing sites and offices as structured records.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Group14 manufacturing sites and offices as structured records.
   name: Group14 Technologies Locations API
   slug: group14-technologies-locations-api
-- description: WordPress media attachments — photography, press assets and their generated size variants.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: WordPress media attachments — photography, press assets and their generated size variants.
   name: Group14 Technologies Media API
   slug: group14-technologies-media-api
-- description: Static marketing, corporate and policy pages of group14.technology.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Static marketing, corporate and policy pages of group14.technology.
   name: Group14 Technologies Pages API
   slug: group14-technologies-pages-api
-- description: The WordPress post archive (Group14 publishes editorial content mainly as resources, not posts).
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: The WordPress post archive (Group14 publishes editorial content mainly as resources, not posts).
   name: Group14 Technologies Posts API
   slug: group14-technologies-posts-api
-- description: Press releases, news, blog posts and whitepapers published by Group14 Technologies.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Press releases, news, blog posts and whitepapers published by Group14 Technologies.
   name: Group14 Technologies Resources API
   slug: group14-technologies-resources-api
-- description: Cross-content search over every public content type.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: Cross-content search over every public content type.
   name: Group14 Technologies Search API
   slug: group14-technologies-search-api
-- description: The job-department and job-location vocabularies used to classify roles.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: The job-department and job-location vocabularies used to classify roles.
   name: Group14 Technologies Taxonomy API
   slug: group14-technologies-taxonomy-api
-- description: The site-specific video custom post type.
+- baseURL: https://group14.technology/wp-json
+  baseurl_source: declared
+  description: The site-specific video custom post type.
   name: Group14 Technologies Video API
   slug: group14-technologies-video-api
 artifact_total: 17
@@ -266,11 +298,11 @@ score:
   band: emerging
   composite: 24.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -280,7 +312,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.9
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,8 +330,9 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/group14-technologies/refs/heads/main/screenshots/group14-technologies-2026-09-02T145641.png
 security:
 - kind: authentication
   name: Group14 Technologies Authentication

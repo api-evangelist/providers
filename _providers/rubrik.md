@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -56,16 +56,24 @@ apis:
 - description: Terraform provider for managing Rubrik Security Cloud (Polaris) resources as infrastructure-as-code.
   name: Rubrik Polaris Terraform Provider
   slug: rubrik-terraform-provider
-- description: The Client Token API from Rubrik — 1 operation(s) for client token.
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Client Token API from Rubrik — 1 operation(s) for client token.
   name: Rubrik Client Token API
   slug: rubrik-client-token-api
-- description: The Graphql API from Rubrik — 1 operation(s) for graphql.
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Graphql API from Rubrik — 1 operation(s) for graphql.
   name: Rubrik Graphql API
   slug: rubrik-graphql-api
-- description: The Oauth API from Rubrik — 1 operation(s) for oauth.
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Oauth API from Rubrik — 1 operation(s) for oauth.
   name: Rubrik Oauth API
   slug: rubrik-oauth-api
-- description: The Session API from Rubrik — 1 operation(s) for session.
+- baseURL_template: https://{rsc_fqdn}/api
+  baseurl_source: spec_template
+  description: The Session API from Rubrik — 1 operation(s) for session.
   name: Rubrik Session API
   slug: rubrik-session-api
 artifact_total: 21
@@ -236,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/screenshots/rubrik-2026-06-20T193244.png
 security:

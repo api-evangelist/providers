@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 66 operations · 8 acting
 api_count: 1
 apis:
-- description: The Auxiliary API from Superform — 8 operation(s) for auxiliary.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Auxiliary API from Superform — 8 operation(s) for auxiliary.
   name: Superform Auxiliary API
   slug: superform-auxiliary-api
-- description: The Balances API from Superform — 2 operation(s) for balances.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Balances API from Superform — 2 operation(s) for balances.
   name: Superform Balances API
   slug: superform-balances-api
-- description: The Contract Checker API from Superform — 1 operation(s) for contract checker.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Contract Checker API from Superform — 1 operation(s) for contract checker.
   name: Superform Contract Checker API
   slug: superform-contract-checker-api
-- description: The Data API from Superform — 1 operation(s) for data.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Data API from Superform — 1 operation(s) for data.
   name: Superform Data API
   slug: superform-data-api
-- description: The Execution API from Superform — 6 operation(s) for execution.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Execution API from Superform — 6 operation(s) for execution.
   name: Superform Execution API
   slug: superform-execution-api
-- description: The Explorer API from Superform — 5 operation(s) for explorer.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Explorer API from Superform — 5 operation(s) for explorer.
   name: Superform Explorer API
   slug: superform-explorer-api
-- description: The Health API from Superform — 8 operation(s) for health.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Health API from Superform — 8 operation(s) for health.
   name: Superform Health API
   slug: superform-health-api
-- description: The Migrate API from Superform — 2 operation(s) for migrate.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Migrate API from Superform — 2 operation(s) for migrate.
   name: Superform Migrate API
   slug: superform-migrate-api
-- description: The Protocol API from Superform — 3 operation(s) for protocol.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Protocol API from Superform — 3 operation(s) for protocol.
   name: Superform Protocol API
   slug: superform-protocol-api
-- description: The Protocol Rewards API from Superform — 5 operation(s) for protocol rewards.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Protocol Rewards API from Superform — 5 operation(s) for protocol rewards.
   name: Superform Protocol Rewards API
   slug: superform-protocol-rewards-api
-- description: The Simulator API from Superform — 1 operation(s) for simulator.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Simulator API from Superform — 1 operation(s) for simulator.
   name: Superform Simulator API
   slug: superform-simulator-api
-- description: The Stats API from Superform — 2 operation(s) for stats.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Stats API from Superform — 2 operation(s) for stats.
   name: Superform Stats API
   slug: superform-stats-api
-- description: The SuperRewardsAPI API from Superform — 13 operation(s) for superrewardsapi.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The SuperRewardsAPI API from Superform — 13 operation(s) for superrewardsapi.
   name: Superform SuperRewardsAPI API
   slug: superform-superrewardsapi-api
-- description: The Token Distribution API from Superform — 6 operation(s) for token distribution.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Token Distribution API from Superform — 6 operation(s) for token distribution.
   name: Superform Token Distribution API
   slug: superform-token-distribution-api
-- description: The Vault API from Superform — 3 operation(s) for vault.
+- baseURL: https://api.superform.xyz
+  baseurl_source: declared
+  description: The Vault API from Superform — 3 operation(s) for vault.
   name: Superform Vault API
   slug: superform-vault-api
 artifact_total: 35
@@ -236,7 +266,7 @@ score:
   band: thin
   composite: 33.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -262,8 +292,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/superform/refs/heads/main/screenshots/superform-2026-09-02T161235.png
 security:
 - kind: authentication
   name: Superform Authentication

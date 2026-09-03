@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Manage Snyk Container scanning projects
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: spec
+  description: Manage Snyk Container scanning projects
   name: Snyk Container Container Projects API
   slug: snyk-container-container-projects-api
-- description: Retrieve container vulnerability issues
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: spec
+  description: Retrieve container vulnerability issues
   name: Snyk Container Issues API
   slug: snyk-container-issues-api
-- description: Manage scan targets (images, registries)
+- baseURL: https://api.snyk.io/rest
+  baseurl_source: spec
+  description: Manage scan targets (images, registries)
   name: Snyk Container Targets API
   slug: snyk-container-targets-api
 artifact_total: 27
@@ -272,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
 security:

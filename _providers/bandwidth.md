@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 62 operations · 31 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Create, retrieve, and manage phone calls. Supports outbound call creation, call state queries, and in-progress call modifications using BXML or redirect URLs.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Create, retrieve, and manage phone calls. Supports outbound call creation, call state queries, and in-progress call modifications using BXML or redirect URLs.
   name: Bandwidth Calls API
   slug: bandwidth-calls-api
-- description: Create and manage multi-party conference calls. Supports adding and removing members, muting, holding, and playing audio to conferences.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Create and manage multi-party conference calls. Supports adding and removing members, muting, holding, and playing audio to conferences.
   name: Bandwidth Conferences API
   slug: bandwidth-conferences-api
-- description: Configure notification recipients who receive alerts when 911 calls are made from your endpoints.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Configure notification recipients who receive alerts when 911 calls are made from your endpoints.
   name: Bandwidth Emergency Notification Recipients API
   slug: bandwidth-emergency-notification-recipients-api
-- description: Manage 911 endpoints that represent end users of your service. Endpoints are identified by Alternate End User IDs (AEUIs) and are associated with locations for emergency routing.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Manage 911 endpoints that represent end users of your service. Endpoints are identified by Alternate End User IDs (AEUIs) and are associated with locations for emergency routing.
   name: Bandwidth Endpoints API
   slug: bandwidth-endpoints-api
-- description: Provision and manage physical locations (addresses) for 911 emergency services routing. Locations are validated against the Master Street Address Guide (MSAG) for accuracy.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Provision and manage physical locations (addresses) for 911 emergency services routing. Locations are validated against the Master Street Address Guide (MSAG) for accuracy.
   name: Bandwidth Locations API
   slug: bandwidth-locations-api
-- description: Upload, retrieve, and manage media files for use in MMS messages. Supports files up to 3.75 MB with 48-hour retention.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Upload, retrieve, and manage media files for use in MMS messages. Supports files up to 3.75 MB with 48-hour retention.
   name: Bandwidth Media API
   slug: bandwidth-media-api
-- description: Send and retrieve SMS and MMS messages. Supports single and group messaging, delivery receipts, and message history queries.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Send and retrieve SMS and MMS messages. Supports single and group messaging, delivery receipts, and message history queries.
   name: Bandwidth Messages API
   slug: bandwidth-messages-api
-- description: Manage call recordings including retrieval of recording metadata, audio files, and transcription of recorded audio content.
+- baseURL: https://voice.bandwidth.com/api/v2
+  baseurl_source: declared
+  description: Manage call recordings including retrieval of recording metadata, audio files, and transcription of recorded audio content.
   name: Bandwidth Recordings API
   slug: bandwidth-recordings-api
 artifact_total: 249
@@ -882,7 +898,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -892,7 +908,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 55.3
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -907,7 +923,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/screenshots/bandwidth-2026-06-20T172942.png
 security:

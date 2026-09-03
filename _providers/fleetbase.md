@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 46 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Customer and facilitator contacts.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Customer and facilitator contacts.
   name: Fleetbase Contacts API
   slug: fleetbase-contacts-api
-- description: Drivers and their assignments.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Drivers and their assignments.
   name: Fleetbase Drivers API
   slug: fleetbase-drivers-api
-- description: Groupings of drivers and vehicles.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Groupings of drivers and vehicles.
   name: Fleetbase Fleets API
   slug: fleetbase-fleets-api
-- description: Create, dispatch, and manage delivery orders.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Create, dispatch, and manage delivery orders.
   name: Fleetbase Orders API
   slug: fleetbase-orders-api
-- description: Addressable geocoded locations.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Addressable geocoded locations.
   name: Fleetbase Places API
   slug: fleetbase-places-api
-- description: Pricing rules and delivery quotes.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Pricing rules and delivery quotes.
   name: Fleetbase Service Rates API
   slug: fleetbase-service-rates-api
-- description: Tracking status and telemetry.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Tracking status and telemetry.
   name: Fleetbase Tracking API
   slug: fleetbase-tracking-api
-- description: Vehicles in the fleet.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Vehicles in the fleet.
   name: Fleetbase Vehicles API
   slug: fleetbase-vehicles-api
-- description: Event subscription endpoints.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Event subscription endpoints.
   name: Fleetbase Webhooks API
   slug: fleetbase-webhooks-api
-- description: Service-area geofences.
+- baseURL: https://api.fleetbase.io/v1
+  baseurl_source: declared
+  description: Service-area geofences.
   name: Fleetbase Zones API
   slug: fleetbase-zones-api
 artifact_total: 28
@@ -213,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/screenshots/fleetbase-2026-07-25T214733.png
 security:

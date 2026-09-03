@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 9 acting
 api_count: 1
 apis:
-- description: Fitness device registration and management
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: Fitness device registration and management
   name: Under Armour Devices API
   slug: under-armour-devices-api
-- description: Heart rate zone configuration and calculations
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: Heart rate zone configuration and calculations
   name: Under Armour Heart Rate Zones API
   slug: under-armour-heart-rate-zones-api
-- description: Manage running, cycling, and other fitness routes
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: Manage running, cycling, and other fitness routes
   name: Under Armour Routes API
   slug: under-armour-routes-api
-- description: User profile management and social connections
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: User profile management and social connections
   name: Under Armour Users API
   slug: under-armour-users-api
-- description: Event-driven webhook subscriptions
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: Event-driven webhook subscriptions
   name: Under Armour Webhooks API
   slug: under-armour-webhooks-api
-- description: Create, retrieve, update, and delete fitness workouts
+- baseURL: https://api.ua.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete fitness workouts
   name: Under Armour Workouts API
   slug: under-armour-workouts-api
 artifact_total: 27
@@ -278,7 +290,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png
 security:

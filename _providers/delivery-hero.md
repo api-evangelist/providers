@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: Once you followed above steps from [Getting started](#section/Getting-Started) and that you have your signed JWT token, you can request the access token.
   name: Delivery Hero Authentication API
   slug: delivery-hero-authentication-api
-- description: '**▶️ READ THIS FIRST ◀️** * Those are NOT actual endpoints. They are callback from ODR to your endpoint * This is used to represent the payload ODR will sent * This is an optional feature and it requi'
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: '**▶️ READ THIS FIRST ◀️** * Those are NOT actual endpoints. They are callback from ODR to your endpoint * This is used to represent the payload ODR will sent * This is an optional feature and it requi'
   name: Delivery Hero Callback API
   slug: delivery-hero-callback-api
-- description: The OrdersEstimation API from Delivery Hero — 2 operation(s) for ordersestimation.
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: The OrdersEstimation API from Delivery Hero — 2 operation(s) for ordersestimation.
   name: Delivery Hero OrdersEstimation API
   slug: delivery-hero-ordersestimation-api
-- description: The following sections provide a complete summary of all available endpoints and features connected with the Orders API. Please review the documentation carefully. When selecting an endpoint, note the
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: The following sections provide a complete summary of all available endpoints and features connected with the Orders API. Please review the documentation carefully. When selecting an endpoint, note the
   name: Delivery Hero OrdersManagement API
   slug: delivery-hero-ordersmanagement-api
-- description: The Outlets API from Delivery Hero — 2 operation(s) for outlets.
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: The Outlets API from Delivery Hero — 2 operation(s) for outlets.
   name: Delivery Hero Outlets API
   slug: delivery-hero-outlets-api
-- description: The Proofs API from Delivery Hero — 3 operation(s) for proofs.
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: The Proofs API from Delivery Hero — 3 operation(s) for proofs.
   name: Delivery Hero Proofs API
   slug: delivery-hero-proofs-api
-- description: The RiderPosition API from Delivery Hero — 1 operation(s) for riderposition.
+- baseURL: https://ondemand-api-glovoapp.deliveryhero.io/
+  baseurl_source: declared
+  description: The RiderPosition API from Delivery Hero — 1 operation(s) for riderposition.
   name: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
 artifact_total: 20
@@ -217,7 +231,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -227,7 +241,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 30.0
+  previous_composite: 29.7
   provenance:
     conformance: derived
     contracts:
@@ -238,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/screenshots/delivery-hero-2026-07-25T211652.png
 security:

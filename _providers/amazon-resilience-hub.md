@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 15 acting
 api_count: 6
 apis:
-- description: Create and manage Resilience Hub applications.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Create and manage Resilience Hub applications.
   name: Amazon Resilience Hub Applications API
   slug: amazon-resilience-hub-applications-api
-- description: Run and retrieve resilience assessments.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Run and retrieve resilience assessments.
   name: Amazon Resilience Hub Assessments API
   slug: amazon-resilience-hub-assessments-api
-- description: Retrieve alarm, SOP, and test recommendations.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Retrieve alarm, SOP, and test recommendations.
   name: Amazon Resilience Hub Recommendations API
   slug: amazon-resilience-hub-recommendations-api
-- description: Define RTO and RPO targets for applications.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Define RTO and RPO targets for applications.
   name: Amazon Resilience Hub Resiliency Policies API
   slug: amazon-resilience-hub-resiliency-policies-api
-- description: Map and import resources into app versions.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Map and import resources into app versions.
   name: Amazon Resilience Hub Resource Management API
   slug: amazon-resilience-hub-resource-management-api
-- description: Manage resource tags.
+- baseURL: https://resiliencehub.amazonaws.com
+  baseurl_source: declared
+  description: Manage resource tags.
   name: Amazon Resilience Hub Tags API
   slug: amazon-resilience-hub-tags-api
 artifact_total: 22
@@ -213,7 +225,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-resilience-hub/refs/heads/main/screenshots/amazon-resilience-hub-2026-06-20T171808.png
 security:

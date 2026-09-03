@@ -35,31 +35,47 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: API key management — generate free keys and check usage
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: API key management — generate free keys and check usage
   name: IBANforge API Keys API
   slug: ibanforge-api-keys-api
-- description: BIC/SWIFT lookup endpoints (paid via x402)
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: BIC/SWIFT lookup endpoints (paid via x402)
   name: IBANforge BIC API
   slug: ibanforge-bic-api
-- description: Compliance check endpoint — IBAN validation + sanctions + SEPA + VoP + risk score (paid via x402)
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: Compliance check endpoint — IBAN validation + sanctions + SEPA + VoP + risk score (paid via x402)
   name: IBANforge Compliance API
   slug: ibanforge-compliance-api
-- description: Prepaid credit bundles — pay once in USDC (x402), get an API key with N credits; batch validation debits 1 credit per IBAN
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: Prepaid credit bundles — pay once in USDC (x402), get an API key with N credits; batch validation debits 1 credit per IBAN
   name: IBANforge Credits API
   slug: ibanforge-credits-api
-- description: Free endpoints — no payment required
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: Free endpoints — no payment required
   name: IBANforge Free API
   slug: ibanforge-free-api
-- description: IBAN validation endpoints (paid via x402)
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: IBAN validation endpoints (paid via x402)
   name: IBANforge IBAN API
   slug: ibanforge-iban-api
-- description: Model Context Protocol endpoint for AI agents (Streamable HTTP)
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: Model Context Protocol endpoint for AI agents (Streamable HTTP)
   name: IBANforge MCP API
   slug: ibanforge-mcp-api
-- description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
+- baseURL: https://api.ibanforge.com
+  baseurl_source: declared
+  description: Swiss BC-Nummer / IID clearing lookup (paid via x402)
   name: IBANforge Swiss Clearing API
   slug: ibanforge-swiss-clearing-api
 artifact_total: 20
@@ -210,7 +226,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:

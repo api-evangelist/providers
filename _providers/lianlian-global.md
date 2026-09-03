@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 0
@@ -43,145 +43,239 @@ agentic_access:
   summary_line: 548 operations · 262 acting
 api_count: 173
 apis:
-- description: The Account API from LianLian Global — 2 operation(s) for account.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Account API from LianLian Global — 2 operation(s) for account.
   name: LianLian Global Account API
   slug: lianlian-global-account-api
-- description: The Accounts API from LianLian Global — 6 operation(s) for accounts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Accounts API from LianLian Global — 6 operation(s) for accounts.
   name: LianLian Global Accounts API
   slug: lianlian-global-accounts-api
-- description: The Agreement API from LianLian Global — 2 operation(s) for agreement.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Agreement API from LianLian Global — 2 operation(s) for agreement.
   name: LianLian Global Agreement API
   slug: lianlian-global-agreement-api
-- description: The Balance API from LianLian Global — 3 operation(s) for balance.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Balance API from LianLian Global — 3 operation(s) for balance.
   name: LianLian Global Balance API
   slug: lianlian-global-balance-api
-- description: The Beneficiaries API from LianLian Global — 2 operation(s) for beneficiaries.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Beneficiaries API from LianLian Global — 2 operation(s) for beneficiaries.
   name: LianLian Global Beneficiaries API
   slug: lianlian-global-beneficiaries-api
-- description: The Captchas API from LianLian Global — 1 operation(s) for captchas.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Captchas API from LianLian Global — 1 operation(s) for captchas.
   name: LianLian Global Captchas API
   slug: lianlian-global-captchas-api
-- description: The Card Payouts API from LianLian Global — 1 operation(s) for card payouts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Card Payouts API from LianLian Global — 1 operation(s) for card payouts.
   name: LianLian Global Card Payouts API
   slug: lianlian-global-card-payouts-api
-- description: The Checkout API from LianLian Global — 1 operation(s) for checkout.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Checkout API from LianLian Global — 1 operation(s) for checkout.
   name: LianLian Global Checkout API
   slug: lianlian-global-checkout-api
-- description: The Compliances API from LianLian Global — 2 operation(s) for compliances.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Compliances API from LianLian Global — 2 operation(s) for compliances.
   name: LianLian Global Compliances API
   slug: lianlian-global-compliances-api
-- description: The Conversion API from LianLian Global — 2 operation(s) for conversion.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Conversion API from LianLian Global — 2 operation(s) for conversion.
   name: LianLian Global Conversion API
   slug: lianlian-global-conversion-api
-- description: The Conversions API from LianLian Global — 2 operation(s) for conversions.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Conversions API from LianLian Global — 2 operation(s) for conversions.
   name: LianLian Global Conversions API
   slug: lianlian-global-conversions-api
-- description: The 接口 API from LianLian Global — 63 operation(s) for 接口.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The 接口 API from LianLian Global — 63 operation(s) for 接口.
   name: LianLian Global 接口 API
   slug: lianlian-global-default-api
-- description: The Deposits API from LianLian Global — 2 operation(s) for deposits.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Deposits API from LianLian Global — 2 operation(s) for deposits.
   name: LianLian Global Deposits API
   slug: lianlian-global-deposits-api
-- description: The Ew Oauth2 API from LianLian Global — 1 operation(s) for ew oauth2.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Oauth2 API from LianLian Global — 1 operation(s) for ew oauth2.
   name: LianLian Global Ew Oauth2 API
   slug: lianlian-global-ew-oauth2-api
-- description: The Ew Receipts API from LianLian Global — 1 operation(s) for ew receipts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Receipts API from LianLian Global — 1 operation(s) for ew receipts.
   name: LianLian Global Ew Receipts API
   slug: lianlian-global-ew-receipts-api
-- description: The Ew Receiving API from LianLian Global — 2 operation(s) for ew receiving.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Receiving API from LianLian Global — 2 operation(s) for ew receiving.
   name: LianLian Global Ew Receiving API
   slug: lianlian-global-ew-receiving-api
-- description: The Ew Receivings API from LianLian Global — 1 operation(s) for ew receivings.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Receivings API from LianLian Global — 1 operation(s) for ew receivings.
   name: LianLian Global Ew Receivings API
   slug: lianlian-global-ew-receivings-api
-- description: The Ew Recharges API from LianLian Global — 1 operation(s) for ew recharges.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Recharges API from LianLian Global — 1 operation(s) for ew recharges.
   name: LianLian Global Ew Recharges API
   slug: lianlian-global-ew-recharges-api
-- description: The Ew Transactions API from LianLian Global — 1 operation(s) for ew transactions.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Transactions API from LianLian Global — 1 operation(s) for ew transactions.
   name: LianLian Global Ew Transactions API
   slug: lianlian-global-ew-transactions-api
-- description: The Ew Withdrawals API from LianLian Global — 1 operation(s) for ew withdrawals.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Ew Withdrawals API from LianLian Global — 1 operation(s) for ew withdrawals.
   name: LianLian Global Ew Withdrawals API
   slug: lianlian-global-ew-withdrawals-api
-- description: The Files API from LianLian Global — 2 operation(s) for files.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Files API from LianLian Global — 2 operation(s) for files.
   name: LianLian Global Files API
   slug: lianlian-global-files-api
-- description: The Gateway API from LianLian Global — 24 operation(s) for gateway.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Gateway API from LianLian Global — 24 operation(s) for gateway.
   name: LianLian Global Gateway API
   slug: lianlian-global-gateway-api
-- description: The Get API from LianLian Global — 1 operation(s) for get.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Get API from LianLian Global — 1 operation(s) for get.
   name: LianLian Global Get API
   slug: lianlian-global-get-api
-- description: The Kyc API from LianLian Global — 5 operation(s) for kyc.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Kyc API from LianLian Global — 5 operation(s) for kyc.
   name: LianLian Global Kyc API
   slug: lianlian-global-kyc-api
-- description: The Member API from LianLian Global — 1 operation(s) for member.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Member API from LianLian Global — 1 operation(s) for member.
   name: LianLian Global Member API
   slug: lianlian-global-member-api
-- description: The Oauth2 API from LianLian Global — 1 operation(s) for oauth2.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Oauth2 API from LianLian Global — 1 operation(s) for oauth2.
   name: LianLian Global Oauth2 API
   slug: lianlian-global-oauth2-api
-- description: The Operations API from LianLian Global — 117 operation(s) for operations.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Operations API from LianLian Global — 117 operation(s) for operations.
   name: LianLian Global Operations API
   slug: lianlian-global-operations-api
-- description: The Payers API from LianLian Global — 2 operation(s) for payers.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Payers API from LianLian Global — 2 operation(s) for payers.
   name: LianLian Global Payers API
   slug: lianlian-global-payers-api
-- description: The Payment API from LianLian Global — 4 operation(s) for payment.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Payment API from LianLian Global — 4 operation(s) for payment.
   name: LianLian Global Payment API
   slug: lianlian-global-payment-api
-- description: The Payout API from LianLian Global — 2 operation(s) for payout.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Payout API from LianLian Global — 2 operation(s) for payout.
   name: LianLian Global Payout API
   slug: lianlian-global-payout-api
-- description: The Payouts API from LianLian Global — 7 operation(s) for payouts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Payouts API from LianLian Global — 7 operation(s) for payouts.
   name: LianLian Global Payouts API
   slug: lianlian-global-payouts-api
-- description: The Query API from LianLian Global — 1 operation(s) for query.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Query API from LianLian Global — 1 operation(s) for query.
   name: LianLian Global Query API
   slug: lianlian-global-query-api
-- description: The Quote API from LianLian Global — 1 operation(s) for quote.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Quote API from LianLian Global — 1 operation(s) for quote.
   name: LianLian Global Quote API
   slug: lianlian-global-quote-api
-- description: The Quotes API from LianLian Global — 2 operation(s) for quotes.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Quotes API from LianLian Global — 2 operation(s) for quotes.
   name: LianLian Global Quotes API
   slug: lianlian-global-quotes-api
-- description: The Receipts API from LianLian Global — 3 operation(s) for receipts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Receipts API from LianLian Global — 3 operation(s) for receipts.
   name: LianLian Global Receipts API
   slug: lianlian-global-receipts-api
-- description: The Receiving Accounts API from LianLian Global — 4 operation(s) for receiving accounts.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Receiving Accounts API from LianLian Global — 4 operation(s) for receiving accounts.
   name: LianLian Global Receiving Accounts API
   slug: lianlian-global-receiving-accounts-api
-- description: The Refund API from LianLian Global — 2 operation(s) for refund.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Refund API from LianLian Global — 2 operation(s) for refund.
   name: LianLian Global Refund API
   slug: lianlian-global-refund-api
-- description: The Reports API from LianLian Global — 3 operation(s) for reports.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Reports API from LianLian Global — 3 operation(s) for reports.
   name: LianLian Global Reports API
   slug: lianlian-global-reports-api
-- description: The Statement API from LianLian Global — 1 operation(s) for statement.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Statement API from LianLian Global — 1 operation(s) for statement.
   name: LianLian Global Statement API
   slug: lianlian-global-statement-api
-- description: The Topup API from LianLian Global — 2 operation(s) for topup.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Topup API from LianLian Global — 2 operation(s) for topup.
   name: LianLian Global Topup API
   slug: lianlian-global-topup-api
-- description: The Transaction API from LianLian Global — 2 operation(s) for transaction.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Transaction API from LianLian Global — 2 operation(s) for transaction.
   name: LianLian Global Transaction API
   slug: lianlian-global-transaction-api
-- description: The Transaction Documents API from LianLian Global — 5 operation(s) for transaction documents.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Transaction Documents API from LianLian Global — 5 operation(s) for transaction documents.
   name: LianLian Global Transaction Documents API
   slug: lianlian-global-transaction-documents-api
-- description: The Transfer API from LianLian Global — 2 operation(s) for transfer.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Transfer API from LianLian Global — 2 operation(s) for transfer.
   name: LianLian Global Transfer API
   slug: lianlian-global-transfer-api
-- description: The User API from LianLian Global — 1 operation(s) for user.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The User API from LianLian Global — 1 operation(s) for user.
   name: LianLian Global User API
   slug: lianlian-global-user-api
-- description: The Users API from LianLian Global — 1 operation(s) for users.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Users API from LianLian Global — 1 operation(s) for users.
   name: LianLian Global Users API
   slug: lianlian-global-users-api
-- description: The Verifications API from LianLian Global — 2 operation(s) for verifications.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Verifications API from LianLian Global — 2 operation(s) for verifications.
   name: LianLian Global Verifications API
   slug: lianlian-global-verifications-api
-- description: The Webhooks API from LianLian Global — 2 operation(s) for webhooks.
+- baseURL: https://global-api.lianlianpay.com/b2b-export/v1
+  baseurl_source: declared
+  description: The Webhooks API from LianLian Global — 2 operation(s) for webhooks.
   name: LianLian Global Webhooks API
   slug: lianlian-global-webhooks-api
 artifact_total: 101
@@ -593,7 +687,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -603,7 +697,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -621,7 +715,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lianlian-global/refs/heads/main/screenshots/lianlian-global-2026-07-25T225015.png
 security:

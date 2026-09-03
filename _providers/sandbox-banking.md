@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: The Mock Bank API provides a sandbox environment for testing and developing banking integrations without connecting to production core banking systems. It simulates standard banking operations includi
   name: Mock Bank API
   slug: mockbank
-- description: Core banking and fintech adapter management.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Core banking and fintech adapter management.
   name: Sandbox Banking Adapters API
   slug: sandbox-banking-adapters-api
-- description: Field mapping configuration.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Field mapping configuration.
   name: Sandbox Banking Field Mappings API
   slug: sandbox-banking-field-mappings-api
-- description: Integration workflow management.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Integration workflow management.
   name: Sandbox Banking Integrations API
   slug: sandbox-banking-integrations-api
-- description: Integration run audit log access.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Integration run audit log access.
   name: Sandbox Banking Run History API
   slug: sandbox-banking-run-history-api
-- description: Service request adapter operations.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Service request adapter operations.
   name: Sandbox Banking Service Requests API
   slug: sandbox-banking-service-requests-api
-- description: Value mapping table management.
+- baseURL: https://{tenant}.sandboxbanking.com/api
+  baseurl_source: declared
+  description: Value mapping table management.
   name: Sandbox Banking Value Mappings API
   slug: sandbox-banking-value-mappings-api
 artifact_total: 28
@@ -259,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/screenshots/sandbox-banking-2026-06-20T193408.png
 security:

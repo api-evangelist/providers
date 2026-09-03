@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 6
 apis:
-- description: Extract structured fields from invoices, receipts, IDs, passports, resumes, bank statements, and any other document type via Mindee's configurable extraction models. Enqueue a file at POST /v2/inferen
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: Extract structured fields from invoices, receipts, IDs, passports, resumes, bank statements, and any other document type via Mindee's configurable extraction models. Enqueue a file at POST /v2/inferen
   name: Mindee Extraction API
   slug: mindee-extraction-api
-- description: 'Classify documents into predefined categories so they can be routed to the appropriate downstream extraction model. Enqueue at POST /v2/products/classification/enqueue and retrieve the label from GET '
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: 'Classify documents into predefined categories so they can be routed to the appropriate downstream extraction model. Enqueue at POST /v2/products/classification/enqueue and retrieve the label from GET '
   name: Mindee Classification API
   slug: mindee-classification-api
-- description: Detect, isolate, and crop the document area inside a larger scanned image. Useful for cleaning up phone-captured documents prior to classification or extraction. Async enqueue/results pattern at /v2/p
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: Detect, isolate, and crop the document area inside a larger scanned image. Useful for cleaning up phone-captured documents prior to classification or extraction. Async enqueue/results pattern at /v2/p
   name: Mindee Crop API
   slug: mindee-crop-api
-- description: Run full-page optical character recognition on a document and return the raw text plus bounding polygons. Enqueue at POST /v2/products/ocr/enqueue and retrieve the OCR payload from GET /v2/products/oc
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: Run full-page optical character recognition on a document and return the raw text plus bounding polygons. Enqueue at POST /v2/products/ocr/enqueue and retrieve the OCR payload from GET /v2/products/oc
   name: Mindee OCR API
   slug: mindee-ocr-api
-- description: Split a multi-document PDF or image batch into individual documents that can each be classified and extracted independently. Async enqueue/results pattern at /v2/products/split/.
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: Split a multi-document PDF or image batch into individual documents that can each be classified and extracted independently. Async enqueue/results pattern at /v2/products/split/.
   name: Mindee Split API
   slug: mindee-split-api
-- description: Poll the status of asynchronous Mindee inference jobs across every Mindee model family via GET /v2/jobs/{job_id}. Jobs return Waiting, Processing, Failed, or Success states and a polling_url plus opti
+- baseURL: https://api-v2.mindee.net
+  baseurl_source: spec
+  description: Poll the status of asynchronous Mindee inference jobs across every Mindee model family via GET /v2/jobs/{job_id}. Jobs return Waiting, Processing, Failed, or Success states and a polling_url plus opti
   name: Mindee Jobs API
   slug: mindee-jobs-api
 arazzos:
@@ -464,7 +476,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -474,7 +486,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 58.3
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -483,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/screenshots/mindee-2026-06-20T185555.png
 security:

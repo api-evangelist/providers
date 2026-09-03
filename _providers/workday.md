@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -56,142 +56,234 @@ apis:
 - description: Adaptive Planning REST and XML APIs for managing planning data, accounts, dimensions, and custom reports. Supports integration with enterprise planning and budgeting workflows.
   name: Workday Adaptive Planning API
   slug: adaptive-planning-api
-- description: Endpoints for managing absence types.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing absence types.
   name: Workday Absence Types API
   slug: workday-absence-types-api
-- description: Endpoints for managing accounting journals.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing accounting journals.
   name: Workday Accounting API
   slug: workday-accounting-api
-- description: Endpoints for managing benefit elections.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing benefit elections.
   name: Workday Benefit Elections API
   slug: workday-benefit-elections-api
-- description: Endpoints for managing benefit plans.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing benefit plans.
   name: Workday Benefit Plans API
   slug: workday-benefit-plans-api
-- description: Endpoints for managing candidates.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing candidates.
   name: Workday Candidates API
   slug: workday-candidates-api
-- description: Endpoints for managing compensation plans and grades.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing compensation plans and grades.
   name: Workday Compensation Plans API
   slug: workday-compensation-plans-api
-- description: Endpoints for managing contact information.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing contact information.
   name: Workday Contact Information API
   slug: workday-contact-information-api
-- description: Endpoints for managing data loading tasks.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing data loading tasks.
   name: Workday Data Change Tasks API
   slug: workday-data-change-tasks-api
-- description: Endpoints for discovering available data sources and fields.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for discovering available data sources and fields.
   name: Workday Data Sources API
   slug: workday-data-sources-api
-- description: Endpoints for managing Prism Analytics datasets.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing Prism Analytics datasets.
   name: Workday Datasets API
   slug: workday-datasets-api
-- description: Endpoints for managing worker dependents.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing worker dependents.
   name: Workday Dependents API
   slug: workday-dependents-api
-- description: Endpoints for managing expense reports.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing expense reports.
   name: Workday Expenses API
   slug: workday-expenses-api
-- description: Endpoints for managing feedback and feedback badges.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing feedback and feedback badges.
   name: Workday Feedback API
   slug: workday-feedback-api
-- description: Endpoints for file upload containers.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for file upload containers.
   name: Workday File Containers API
   slug: workday-file-containers-api
-- description: Endpoints for managing worker goals.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing worker goals.
   name: Workday Goals API
   slug: workday-goals-api
-- description: Endpoints for managing job applications.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing job applications.
   name: Workday Job Applications API
   slug: workday-job-applications-api
-- description: Endpoints for managing job postings.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing job postings.
   name: Workday Job Postings API
   slug: workday-job-postings-api
-- description: Endpoints for managing job profiles.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing job profiles.
   name: Workday Job Profiles API
   slug: workday-job-profiles-api
-- description: Endpoints for managing job requisitions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing job requisitions.
   name: Workday Job Requisitions API
   slug: workday-job-requisitions-api
-- description: Endpoints for managing leaves of absence.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing leaves of absence.
   name: Workday Leave of Absence API
   slug: workday-leave-of-absence-api
-- description: Endpoints for managing location data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing location data.
   name: Workday Locations API
   slug: workday-locations-api
-- description: Endpoints for managing mentorship relationships.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing mentorship relationships.
   name: Workday Mentorships API
   slug: workday-mentorships-api
-- description: Endpoints for one-time payment requests.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for one-time payment requests.
   name: Workday One-Time Payments API
   slug: workday-one-time-payments-api
-- description: Endpoints for managing organizational data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing organizational data.
   name: Workday Organizations API
   slug: workday-organizations-api
-- description: Endpoints for managing pay groups and pay periods.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing pay groups and pay periods.
   name: Workday Pay Groups API
   slug: workday-pay-groups-api
-- description: Endpoints for accessing pay slips.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for accessing pay slips.
   name: Workday Pay Slips API
   slug: workday-pay-slips-api
-- description: Endpoints for managing payroll inputs.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing payroll inputs.
   name: Workday Payroll Inputs API
   slug: workday-payroll-inputs-api
-- description: Endpoints for managing person data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing person data.
   name: Workday People API
   slug: workday-people-api
-- description: Endpoints for managing performance reviews.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing performance reviews.
   name: Workday Performance Reviews API
   slug: workday-performance-reviews-api
-- description: Endpoints for managing positions.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing positions.
   name: Workday Positions API
   slug: workday-positions-api
-- description: Endpoints for managing suppliers and purchase orders.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing suppliers and purchase orders.
   name: Workday Procurement API
   slug: workday-procurement-api
-- description: Endpoints for managing recruiting prospects.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing recruiting prospects.
   name: Workday Prospects API
   slug: workday-prospects-api
-- description: Endpoints for executing WQL queries.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for executing WQL queries.
   name: Workday Query API
   slug: workday-query-api
-- description: Endpoints for accessing common reference data and lookup values.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for accessing common reference data and lookup values.
   name: Workday Reference Data API
   slug: workday-reference-data-api
-- description: Endpoints for accessing custom report data via RaaS.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for accessing custom report data via RaaS.
   name: Workday Reports API
   slug: workday-reports-api
-- description: Endpoints for managing customer invoices.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing customer invoices.
   name: Workday Revenue API
   slug: workday-revenue-api
-- description: Endpoints for managing compensation scorecards and results.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing compensation scorecards and results.
   name: Workday Scorecards API
   slug: workday-scorecards-api
-- description: Endpoints for staffing events and organization assignments.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for staffing events and organization assignments.
   name: Workday Staffing API
   slug: workday-staffing-api
-- description: Endpoints for managing succession plans.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing succession plans.
   name: Workday Succession Planning API
   slug: workday-succession-planning-api
-- description: Endpoints for managing Prism Analytics tables.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing Prism Analytics tables.
   name: Workday Tables API
   slug: workday-tables-api
-- description: Endpoints for managing talent profiles and skills.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing talent profiles and skills.
   name: Workday Talent Profiles API
   slug: workday-talent-profiles-api
-- description: Endpoints for managing time clock events.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing time clock events.
   name: Workday Time Clock API
   slug: workday-time-clock-api
-- description: Endpoints for managing time entries.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing time entries.
   name: Workday Time Entries API
   slug: workday-time-entries-api
-- description: Endpoints for managing time-off requests and entries.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing time-off requests and entries.
   name: Workday Time Off API
   slug: workday-time-off-api
-- description: Endpoints for managing timesheets.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing timesheets.
   name: Workday Timesheets API
   slug: workday-timesheets-api
-- description: Endpoints for managing worker data.
+- baseURL: https://wd2-impl-services1.workday.com/ccx/api/
+  baseurl_source: declared
+  description: Endpoints for managing worker data.
   name: Workday Workers API
   slug: workday-workers-api
 arazzos:
@@ -2611,7 +2703,7 @@ score:
       total: 46
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

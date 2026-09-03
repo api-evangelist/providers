@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 23 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Achievement definitions and player unlocks.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Achievement definitions and player unlocks.
   name: AccelByte Achievement API
   slug: accelbyte-achievement-api
-- description: Player profiles and basic user data.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Player profiles and basic user data.
   name: AccelByte Basic API
   slug: accelbyte-basic-api
-- description: Player and game record storage.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Player and game record storage.
   name: AccelByte Cloud Save API
   slug: accelbyte-cloud-save-api
-- description: Dedicated Server Manager (Armada) fleets and sessions.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Dedicated Server Manager (Armada) fleets and sessions.
   name: AccelByte DSMC API
   slug: accelbyte-dsmc-api
-- description: Gameplay and client telemetry ingestion.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Gameplay and client telemetry ingestion.
   name: AccelByte Game Telemetry API
   slug: accelbyte-game-telemetry-api
-- description: Identity and Access Management - OAuth2 tokens, users, roles.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Identity and Access Management - OAuth2 tokens, users, roles.
   name: AccelByte IAM API
   slug: accelbyte-iam-api
-- description: Ranked leaderboards derived from statistics.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Ranked leaderboards derived from statistics.
   name: AccelByte Leaderboard API
   slug: accelbyte-leaderboard-api
-- description: Matchmaking V2 pools and tickets.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Matchmaking V2 pools and tickets.
   name: AccelByte Matchmaking API
   slug: accelbyte-matchmaking-api
-- description: Commerce - stores, items, entitlements, wallets, orders.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Commerce - stores, items, entitlements, wallets, orders.
   name: AccelByte Platform API
   slug: accelbyte-platform-api
-- description: Seasons, passes, tiers, and rewards.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Seasons, passes, tiers, and rewards.
   name: AccelByte Season Pass API
   slug: accelbyte-season-pass-api
-- description: Game sessions and parties (Session V2).
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Game sessions and parties (Session V2).
   name: AccelByte Session API
   slug: accelbyte-session-api
-- description: Player statistics and configurations.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: Player statistics and configurations.
   name: AccelByte Statistics API
   slug: accelbyte-statistics-api
-- description: User-generated content channels and contents.
+- baseURL: https://demo.accelbyte.io/iam
+  baseurl_source: declared
+  description: User-generated content channels and contents.
   name: AccelByte UGC API
   slug: accelbyte-ugc-api
 artifact_total: 34
@@ -227,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelbyte/refs/heads/main/screenshots/accelbyte-2026-07-25T181428.png
 security:

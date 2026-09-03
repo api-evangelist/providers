@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 14 operations
 api_count: 2
 apis:
-- description: The Collection ID API from GeoInsight — 1 operation(s) for collection id.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Collection ID API from GeoInsight — 1 operation(s) for collection id.
   name: GeoInsight Collection ID API
   slug: geoinsight-collection-id-api
-- description: The Collections API from GeoInsight — 1 operation(s) for collections.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Collections API from GeoInsight — 1 operation(s) for collections.
   name: GeoInsight Collections API
   slug: geoinsight-collections-api
-- description: The Data API from GeoInsight — 1 operation(s) for data.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Data API from GeoInsight — 1 operation(s) for data.
   name: GeoInsight Data API
   slug: geoinsight-data-api
-- description: The DGGRS ID API from GeoInsight — 2 operation(s) for dggrs id.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The DGGRS ID API from GeoInsight — 2 operation(s) for dggrs id.
   name: GeoInsight DGGRS ID API
   slug: geoinsight-dggrs-id-api
-- description: The DGGS API from GeoInsight — 2 operation(s) for dggs.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The DGGS API from GeoInsight — 2 operation(s) for dggs.
   name: GeoInsight DGGS API
   slug: geoinsight-dggs-api
-- description: The Items API from GeoInsight — 2 operation(s) for items.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Items API from GeoInsight — 2 operation(s) for items.
   name: GeoInsight Items API
   slug: geoinsight-items-api
-- description: The root API from GeoInsight — 1 operation(s) for root.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The root API from GeoInsight — 1 operation(s) for root.
   name: GeoInsight Root API
   slug: geoinsight-root-api
-- description: The Zone ID API from GeoInsight — 2 operation(s) for zone id.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Zone ID API from GeoInsight — 2 operation(s) for zone id.
   name: GeoInsight Zone ID API
   slug: geoinsight-zone-id-api
-- description: The Zones API from GeoInsight — 2 operation(s) for zones.
+- baseURL: https://api.geoinsight.ai
+  baseurl_source: declared
+  description: The Zones API from GeoInsight — 2 operation(s) for zones.
   name: GeoInsight Zones API
   slug: geoinsight-zones-api
 artifact_total: 14
@@ -188,7 +218,7 @@ score:
   band: thin
   composite: 28.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +250,9 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/geoinsight/refs/heads/main/screenshots/geoinsight-2026-09-02T145559.png
 security:
 - kind: authentication
   name: Geoinsight Authentication

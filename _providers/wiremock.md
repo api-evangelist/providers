@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 6
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 33 operations · 25 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: Near misses allow querying of received requests or request patterns according to similarity
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Near misses allow querying of received requests or request patterns according to similarity
   name: WireMock Near Misses API
   slug: wiremock-near-misses-api
-- description: Stub mapping record and snapshot functions
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Stub mapping record and snapshot functions
   name: WireMock Recordings API
   slug: wiremock-recordings-api
-- description: Logged requests and responses received by the mock service
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Logged requests and responses received by the mock service
   name: WireMock Requests API
   slug: wiremock-requests-api
-- description: Scenarios support modelling of stateful behaviour
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Scenarios support modelling of stateful behaviour
   name: WireMock Scenarios API
   slug: wiremock-scenarios-api
-- description: Operations on stub mappings
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Operations on stub mappings
   name: WireMock Stub Mappings API
   slug: wiremock-stub-mappings-api
-- description: Global operations
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Global operations
   name: WireMock System API
   slug: wiremock-system-api
 artifact_total: 26
@@ -265,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/screenshots/wiremock-2026-06-20T201523.png
 security:

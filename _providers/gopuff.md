@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Storefronts Powered by Gopuff is a customizable Shopify theme integrated with Gopuff's catalog and delivery APIs that enables brands to launch a white-labeled DTC website with built-in 15-minute deliv
   name: Powered by Gopuff Storefronts API
   slug: storefronts-api
-- description: Look up real-time product availability at the Gopuff MFC servicing a given customer location.
+- baseURL: https://fulfillment-api-eus.partners.gopuff.com/shopify/v1
+  baseurl_source: declared
+  description: Look up real-time product availability at the Gopuff MFC servicing a given customer location.
   name: Gopuff Availability API
   slug: gopuff-availability-api
-- description: Route completed Shopify checkouts to Gopuff for picking, packing, and last-mile delivery from the nearest MFC.
+- baseURL: https://fulfillment-api-eus.partners.gopuff.com/shopify/v1
+  baseurl_source: declared
+  description: Route completed Shopify checkouts to Gopuff for picking, packing, and last-mile delivery from the nearest MFC.
   name: Gopuff Orders API
   slug: gopuff-orders-api
-- description: Return Gopuff Instant Delivery carrier rates for a Shopify checkout, alongside the merchant's standard shipping options.
+- baseURL: https://fulfillment-api-eus.partners.gopuff.com/shopify/v1
+  baseurl_source: declared
+  description: Return Gopuff Instant Delivery carrier rates for a Shopify checkout, alongside the merchant's standard shipping options.
   name: Gopuff Rates API
   slug: gopuff-rates-api
-- description: Manage the binding between a partner Shopify shop and the Powered by Gopuff partnership.
+- baseURL: https://fulfillment-api-eus.partners.gopuff.com/shopify/v1
+  baseurl_source: declared
+  description: Manage the binding between a partner Shopify shop and the Powered by Gopuff partnership.
   name: Gopuff Shops API
   slug: gopuff-shops-api
-- description: Check whether a consumer address or IP location falls inside a Gopuff micro-fulfillment center (MFC) delivery zone.
+- baseURL: https://fulfillment-api-eus.partners.gopuff.com/shopify/v1
+  baseurl_source: declared
+  description: Check whether a consumer address or IP location falls inside a Gopuff micro-fulfillment center (MFC) delivery zone.
   name: Gopuff Zones API
   slug: gopuff-zones-api
 artifact_total: 31
@@ -314,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png
 security:

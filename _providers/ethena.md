@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 1
 apis:
-- description: Learner training campaign information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner training campaign information and operations.
   name: Ethena Learner Training Campaigns API
   slug: ethena-learner-training-campaigns-api
-- description: Learner training module information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner training module information and operations.
   name: Ethena Learner Training Modules API
   slug: ethena-learner-training-modules-api
-- description: Learner information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner information and operations.
   name: Ethena Learners API
   slug: ethena-learners-api
-- description: Training campaign information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Training campaign information and operations.
   name: Ethena Training Campaigns API
   slug: ethena-training-campaigns-api
-- description: Webhooks are not enabled by default, please work with your sales representative to have them enabled if you need them. Once you have access, webhooks can be managed through the API. Currently, only th
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Webhooks are not enabled by default, please work with your sales representative to have them enabled if you need them. Once you have access, webhooks can be managed through the API. Currently, only th
   name: Ethena Webhooks API
   slug: ethena-webhooks-api
 artifact_total: 17
@@ -235,7 +245,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -245,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.6
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -263,7 +273,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena/refs/heads/main/screenshots/ethena-2026-07-25T213647.png
 security:

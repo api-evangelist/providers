@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The USPTO Patent Assignment Search API retrieves patent assignment information including ownership transfers, recorded assignments, and assignment history for individual patents and patent portfolios.
   name: USPTO Patent Assignment Search API
   slug: assignment-search-api
-- description: Patent assignment records
+- baseURL: https://data.uspto.gov/api/v1
+  baseurl_source: declared
+  description: Patent assignment records
   name: USPTO Assignments API
   slug: uspto-assignments-api
-- description: Patent search and retrieval
+- baseURL: https://data.uspto.gov/api/v1
+  baseurl_source: declared
+  description: Patent search and retrieval
   name: USPTO Patents API
   slug: uspto-patents-api
-- description: Patent Trial and Appeal Board proceedings
+- baseURL: https://data.uspto.gov/api/v1
+  baseurl_source: declared
+  description: Patent Trial and Appeal Board proceedings
   name: USPTO PTAB API
   slug: uspto-ptab-api
-- description: Trademark status and documents
+- baseURL: https://data.uspto.gov/api/v1
+  baseurl_source: declared
+  description: Trademark status and documents
   name: USPTO Trademarks API
   slug: uspto-trademarks-api
 artifact_total: 42
@@ -309,7 +317,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/screenshots/uspto-2026-08-17T083343.png
 security:

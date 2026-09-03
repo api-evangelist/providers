@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -56,7 +56,9 @@ apis:
 - description: Enables programmatic management and automation of equities, futures, and options trading through the Bloomberg Execution Management System.
   name: Bloomberg EMSX API
   slug: bloomberg-emsx-api
-- description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
+- baseURL: tcp://localhost:8194
+  baseurl_source: spec
+  description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
   name: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
 artifact_total: 75
@@ -573,7 +575,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -583,7 +585,7 @@ score:
     discoverability: 59.3
     governance: 47.0
     operational_transparency: 36.8
-  previous_composite: 60.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -601,7 +603,7 @@ score:
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

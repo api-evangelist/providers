@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,55 +36,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Accounts API from Interchecks — 16 operation(s) for accounts.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Accounts API from Interchecks — 16 operation(s) for accounts.
   name: Interchecks Accounts API
   slug: interchecks-accounts-api
-- description: OAuth 2.0 is used for authentication and authorization to the API. Client ID and Secret Key can be generated in the Developer Portal.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: OAuth 2.0 is used for authentication and authorization to the API. Client ID and Secret Key can be generated in the Developer Portal.
   name: Interchecks Authentication API
   slug: interchecks-authentication-api
-- description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
   name: Interchecks Oauth2 API
   slug: interchecks-oauth2-api
-- description: Endpoints to retrieve a payer's connected accounts (aka good funds accounts) and payout method configuration for the `payer_id` designated in the URL.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: Endpoints to retrieve a payer's connected accounts (aka good funds accounts) and payout method configuration for the `payer_id` designated in the URL.
   name: Interchecks Payers API
   slug: interchecks-payers-api
-- description: The Payload API from Interchecks — 5 operation(s) for payload.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Payload API from Interchecks — 5 operation(s) for payload.
   name: Interchecks Payload API
   slug: interchecks-payload-api
-- description: The Payment Accounts - Bank API from Interchecks — 2 operation(s) for payment accounts - bank.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Payment Accounts - Bank API from Interchecks — 2 operation(s) for payment accounts - bank.
   name: Interchecks Payment Accounts - Bank API
   slug: interchecks-payment-accounts-bank-api
-- description: The Payment Accounts - Card API from Interchecks — 3 operation(s) for payment accounts - card.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Payment Accounts - Card API from Interchecks — 3 operation(s) for payment accounts - card.
   name: Interchecks Payment Accounts - Card API
   slug: interchecks-payment-accounts-card-api
-- description: The Payment Accounts - PayPal API from Interchecks — 3 operation(s) for payment accounts - paypal.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Payment Accounts - PayPal API from Interchecks — 3 operation(s) for payment accounts - paypal.
   name: Interchecks Payment Accounts - PayPal API
   slug: interchecks-payment-accounts-paypal-api
-- description: The Payments API from Interchecks — 7 operation(s) for payments.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Payments API from Interchecks — 7 operation(s) for payments.
   name: Interchecks Payments API
   slug: interchecks-payments-api
-- description: The Recipient Emails API from Interchecks — 1 operation(s) for recipient emails.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Recipient Emails API from Interchecks — 1 operation(s) for recipient emails.
   name: Interchecks Recipient Emails API
   slug: interchecks-recipient-emails-api
-- description: The Recipient Verification API from Interchecks — 1 operation(s) for recipient verification.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Recipient Verification API from Interchecks — 1 operation(s) for recipient verification.
   name: Interchecks Recipient Verification API
   slug: interchecks-recipient-verification-api
-- description: The Recipients API from Interchecks — 9 operation(s) for recipients.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Recipients API from Interchecks — 9 operation(s) for recipients.
   name: Interchecks Recipients API
   slug: interchecks-recipients-api
-- description: The Reports API from Interchecks — 5 operation(s) for reports.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Reports API from Interchecks — 5 operation(s) for reports.
   name: Interchecks Reports API
   slug: interchecks-reports-api
-- description: The Test Harness API from Interchecks — 4 operation(s) for test harness.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Test Harness API from Interchecks — 4 operation(s) for test harness.
   name: Interchecks Test Harness API
   slug: interchecks-test-harness-api
-- description: The Transactions API from Interchecks — 4 operation(s) for transactions.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Transactions API from Interchecks — 4 operation(s) for transactions.
   name: Interchecks Transactions API
   slug: interchecks-transactions-api
-- description: The Widgets API from Interchecks — 4 operation(s) for widgets.
+- baseURL: https://prod.api.interchecks.io
+  baseurl_source: declared
+  description: The Widgets API from Interchecks — 4 operation(s) for widgets.
   name: Interchecks Widgets API
   slug: interchecks-widgets-api
 artifact_total: 21
@@ -228,11 +273,11 @@ score:
   band: developing
   composite: 46.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -242,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.0
+  previous_composite: 46.4
   provenance:
     conformance: first-party
     contracts:
@@ -259,8 +304,9 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/interchecks/refs/heads/main/screenshots/interchecks-2026-09-02T145907.png
 security:
 - kind: authentication
   name: Interchecks Authentication

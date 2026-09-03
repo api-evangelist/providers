@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: 'The Odos Liquidity Zaps API enables streamlined single-transaction liquidity provisioning with optimized routing. Users can provide liquidity to DeFi protocols using any token combination in a single '
   name: Odos Liquidity Zaps API
   slug: odos-liquidity-zaps-api
-- description: General information about the Odos service offerings
+- baseURL: https://api.odos.xyz
+  baseurl_source: declared
+  description: General information about the Odos service offerings
   name: Odos Information API
   slug: odos-information-api
-- description: Query Odos' price for any token with liquidity
+- baseURL: https://api.odos.xyz
+  baseurl_source: declared
+  description: Query Odos' price for any token with liquidity
   name: Odos Pricing API
   slug: odos-pricing-api
-- description: Swap tokens
+- baseURL: https://api.odos.xyz
+  baseurl_source: declared
+  description: Swap tokens
   name: Odos Smart Order Routing API
   slug: odos-smart-order-routing-api
 artifact_total: 18
@@ -216,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/odos/refs/heads/main/screenshots/odos-2026-06-20T190622.png
 security:

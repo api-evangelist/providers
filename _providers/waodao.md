@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 2
 apis:
-- description: Traverse the daily Human + AI ArtChain.
+- baseURL: https://waodao.ai/api/v1/waodao
+  baseurl_source: declared
+  description: Traverse the daily Human + AI ArtChain.
   name: WAODAO Art Chain API
   slug: waodao-artchain-api
-- description: Discover official WAO token deployments and registered DEX pools.
+- baseURL: https://waodao.ai/api/v1/waodao
+  baseurl_source: declared
+  description: Discover official WAO token deployments and registered DEX pools.
   name: WAODAO Liquidity Pools API
   slug: waodao-liquidity-pools-api
-- description: Read WAODAO-specific field semantics and discovery links.
+- baseURL: https://waodao.ai/api/v1/waodao
+  baseurl_source: declared
+  description: Read WAODAO-specific field semantics and discovery links.
   name: WAODAO Schema API
   slug: waodao-schema-api
-- description: Read agent-friendly metadata for a published WAODAO day.
+- baseURL: https://waodao.ai/api/v1/waodao
+  baseurl_source: declared
+  description: Read agent-friendly metadata for a published WAODAO day.
   name: WAODAO Token Metadata API
   slug: waodao-token-metadata-api
 artifact_total: 22
@@ -242,7 +261,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -268,8 +287,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/screenshots/waodao-2026-09-02T170429.png
 security:
 - kind: authentication
   name: Waodao Authentication

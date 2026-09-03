@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -36,13 +47,19 @@ apis:
 - description: The TM Forum Open APIs implemented in Mavenir's cloud-native Digital Enablement (MDE) BSS, converged charging and digital marketplace platform. Mavenir holds TM Forum Open API Conformance certificatio
   name: Mavenir Digital Enablement (MDE) TM Forum Open APIs
   slug: mavenir-digital-enablement-tm-forum-open-apis
-- description: APIs related to 1-1 voice/video call session
+- baseURL_template: '{apiRoot}/vvoip/{apiVersion}/{userId}'
+  baseurl_source: spec_template
+  description: APIs related to 1-1 voice/video call session
   name: Mavenir One To One Call API
   slug: mavenir-onetoonecall-api
-- description: The Push Token API from Mavenir — 1 operation(s) for push token.
+- baseURL_template: '{apiRoot}/racm/{apiVersion}/{userId}'
+  baseurl_source: spec_template
+  description: The Push Token API from Mavenir — 1 operation(s) for push token.
   name: Mavenir Push Token API
   slug: mavenir-push-token-api
-- description: The RACM API from Mavenir — 2 operation(s) for racm.
+- baseURL_template: '{apiRoot}/racm/{apiVersion}/{userId}'
+  baseurl_source: spec_template
+  description: The RACM API from Mavenir — 2 operation(s) for racm.
   name: Mavenir RACM API
   slug: mavenir-racm-api
 arazzos:
@@ -231,7 +248,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -241,7 +258,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 40.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +276,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:

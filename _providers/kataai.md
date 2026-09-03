@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Login and token issuance.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Login and token issuance.
   name: Kata.ai Auth API
   slug: kataai-auth-api
-- description: Bot revisions and drafts.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Bot revisions and drafts.
   name: Kata.ai Bots API
   slug: kataai-bots-api
-- description: Messaging channels (LINE, Telegram, WhatsApp, etc.).
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Messaging channels (LINE, Telegram, WhatsApp, etc.).
   name: Kata.ai Channels API
   slug: kataai-channels-api
-- description: Deployment versions of a project bot.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Deployment versions of a project bot.
   name: Kata.ai Deployments API
   slug: kataai-deployments-api
-- description: Named environments binding a deployment version.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Named environments binding a deployment version.
   name: Kata.ai Environments API
   slug: kataai-environments-api
-- description: Natural Language Understanding models.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Natural Language Understanding models.
   name: Kata.ai NLU API
   slug: kataai-nlu-api
-- description: Run entity prediction against a deployed NLU model.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Run entity prediction against a deployed NLU model.
   name: Kata.ai Prediction API
   slug: kataai-prediction-api
-- description: A project bundles one Bot, CMS, and/or NLU.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: A project bundles one Bot, CMS, and/or NLU.
   name: Kata.ai Projects API
   slug: kataai-projects-api
-- description: Teams and membership.
+- baseURL: https://api.kata.ai
+  baseurl_source: declared
+  description: Teams and membership.
   name: Kata.ai Teams API
   slug: kataai-teams-api
 arazzos:
@@ -246,7 +264,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kataai/refs/heads/main/screenshots/kataai-2026-07-25T223526.png
 security:

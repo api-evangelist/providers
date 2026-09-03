@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -44,136 +44,224 @@ agentic_access:
   summary_line: 214 operations · 127 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: Operations for managing Purview accounts
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing Purview accounts
   name: Microsoft Purview Accounts API
   slug: microsoft-purview-accounts-api
-- description: Operations for approving or rejecting workflow tasks
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for approving or rejecting workflow tasks
   name: Microsoft Purview Approval API
   slug: microsoft-purview-approval-api
-- description: Operations for managing business domains
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing business domains
   name: Microsoft Purview Business Domains API
   slug: microsoft-purview-business-domains-api
-- description: Operations for managing eDiscovery cases
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing eDiscovery cases
   name: Microsoft Purview Cases API
   slug: microsoft-purview-cases-api
-- description: Operations for managing classification rules
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing classification rules
   name: Microsoft Purview Classification Rules API
   slug: microsoft-purview-classification-rules-api
-- description: Operations for managing critical data elements
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing critical data elements
   name: Microsoft Purview Critical Data Elements API
   slug: microsoft-purview-critical-data-elements-api
-- description: Operations for managing custodians within cases
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing custodians within cases
   name: Microsoft Purview Custodians API
   slug: microsoft-purview-custodians-api
-- description: Operations for managing data products
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing data products
   name: Microsoft Purview Data Products API
   slug: microsoft-purview-data-products-api
-- description: Operations for data profiling operations
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for data profiling operations
   name: Microsoft Purview Data Profiling API
   slug: microsoft-purview-data-profiling-api
-- description: Operations for managing data quality rules
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing data quality rules
   name: Microsoft Purview Data Quality Rules API
   slug: microsoft-purview-data-quality-rules-api
-- description: Operations for running data quality scans
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for running data quality scans
   name: Microsoft Purview Data Quality Scans API
   slug: microsoft-purview-data-quality-scans-api
-- description: Operations for retrieving data quality scores
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for retrieving data quality scores
   name: Microsoft Purview Data Quality Scores API
   slug: microsoft-purview-data-quality-scores-api
-- description: Operations for managing data source registrations
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing data source registrations
   name: Microsoft Purview Data Sources API
   slug: microsoft-purview-data-sources-api
-- description: Operations for searching and discovering data assets
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for searching and discovering data assets
   name: Microsoft Purview Discovery API
   slug: microsoft-purview-discovery-api
-- description: Operations for evaluating DLP policies on content
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for evaluating DLP policies on content
   name: Microsoft Purview DLP Policies API
   slug: microsoft-purview-dlp-policies-api
-- description: Operations for managing catalog entities
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing catalog entities
   name: Microsoft Purview Entity API
   slug: microsoft-purview-entity-api
-- description: Operations for managing glossary terms, categories, and assignments
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing glossary terms, categories, and assignments
   name: Microsoft Purview Glossary API
   slug: microsoft-purview-glossary-api
-- description: Operations for managing glossary terms in the unified catalog
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing glossary terms in the unified catalog
   name: Microsoft Purview Glossary Terms API
   slug: microsoft-purview-glossary-terms-api
-- description: Operations for managing label policy settings
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing label policy settings
   name: Microsoft Purview Label Policy Settings API
   slug: microsoft-purview-label-policy-settings-api
-- description: Operations for managing legal holds
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing legal holds
   name: Microsoft Purview Legal Holds API
   slug: microsoft-purview-legal-holds-api
-- description: Operations for tracking data lineage
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for tracking data lineage
   name: Microsoft Purview Lineage API
   slug: microsoft-purview-lineage-api
-- description: Operations for managing metadata policies
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing metadata policies
   name: Microsoft Purview Metadata Policy API
   slug: microsoft-purview-metadata-policy-api
-- description: Operations for managing metadata roles
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing metadata roles
   name: Microsoft Purview Metadata Roles API
   slug: microsoft-purview-metadata-roles-api
-- description: Operations for managing Objectives and Key Results
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing Objectives and Key Results
   name: Microsoft Purview OKRs API
   slug: microsoft-purview-okrs-api
-- description: Operations available on the Purview resource provider
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations available on the Purview resource provider
   name: Microsoft Purview Operations API
   slug: microsoft-purview-operations-api
-- description: Operations for managing private endpoint connections
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing private endpoint connections
   name: Microsoft Purview Private Endpoint Connections API
   slug: microsoft-purview-private-endpoint-connections-api
-- description: Operations for computing protection scopes
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for computing protection scopes
   name: Microsoft Purview Protection Scopes API
   slug: microsoft-purview-protection-scopes-api
-- description: Operations for managing relationships between entities
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing relationships between entities
   name: Microsoft Purview Relationship API
   slug: microsoft-purview-relationship-api
-- description: Operations for managing retention event types
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing retention event types
   name: Microsoft Purview Retention Event Types API
   slug: microsoft-purview-retention-event-types-api
-- description: Operations for managing retention events
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing retention events
   name: Microsoft Purview Retention Events API
   slug: microsoft-purview-retention-events-api
-- description: Operations for managing retention labels
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing retention labels
   name: Microsoft Purview Retention Labels API
   slug: microsoft-purview-retention-labels-api
-- description: Operations for managing review sets
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing review sets
   name: Microsoft Purview Review Sets API
   slug: microsoft-purview-review-sets-api
-- description: Operations for running scans and viewing scan results
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for running scans and viewing scan results
   name: Microsoft Purview Scan Result API
   slug: microsoft-purview-scan-result-api
-- description: Operations for managing scan rulesets
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing scan rulesets
   name: Microsoft Purview Scan Rulesets API
   slug: microsoft-purview-scan-rulesets-api
-- description: Operations for managing scan configurations
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing scan configurations
   name: Microsoft Purview Scans API
   slug: microsoft-purview-scans-api
-- description: Operations for managing eDiscovery searches
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing eDiscovery searches
   name: Microsoft Purview Searches API
   slug: microsoft-purview-searches-api
-- description: Operations for accessing tenant-level sensitivity labels
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for accessing tenant-level sensitivity labels
   name: Microsoft Purview Sensitivity Labels API
   slug: microsoft-purview-sensitivity-labels-api
-- description: Operations for managing scan triggers and schedules
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing scan triggers and schedules
   name: Microsoft Purview Triggers API
   slug: microsoft-purview-triggers-api
-- description: Operations for managing type definitions
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing type definitions
   name: Microsoft Purview Type API
   slug: microsoft-purview-type-api
-- description: Operations for submitting user requests
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for submitting user requests
   name: Microsoft Purview User Requests API
   slug: microsoft-purview-user-requests-api
-- description: Operations for managing individual workflows
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing individual workflows
   name: Microsoft Purview Workflow API
   slug: microsoft-purview-workflow-api
-- description: Operations for managing workflow runs
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing workflow runs
   name: Microsoft Purview Workflow Run API
   slug: microsoft-purview-workflow-run-api
-- description: Operations for managing workflow tasks
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for managing workflow tasks
   name: Microsoft Purview Workflow Task API
   slug: microsoft-purview-workflow-task-api
-- description: Operations for listing workflows
+- baseURL: https://{account-name}.purview.azure.com
+  baseurl_source: declared
+  description: Operations for listing workflows
   name: Microsoft Purview Workflows API
   slug: microsoft-purview-workflows-api
 arazzos:
@@ -1200,7 +1288,7 @@ score:
       total: 44
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-08-17T124207.png
 security:

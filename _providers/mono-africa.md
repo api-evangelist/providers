@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: Account linking authorization and re-authorization.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Account linking authorization and re-authorization.
   name: Mono Connect API
   slug: mono-africa-connect-api
-- description: Affordability and credit-decisioning analysis.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Affordability and credit-decisioning analysis.
   name: Mono Creditworthiness API
   slug: mono-africa-creditworthiness-api
-- description: Direct bank payment collection.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Direct bank payment collection.
   name: Mono DirectPay API
   slug: mono-africa-directpay-api
-- description: Read financial data from a linked account.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Read financial data from a linked account.
   name: Mono Financial Data API
   slug: mono-africa-financial-data-api
-- description: Investment holdings for a linked account.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Investment holdings for a linked account.
   name: Mono Investment API
   slug: mono-africa-investment-api
-- description: Identity and data verification for KYC/KYB.
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Identity and data verification for KYC/KYB.
   name: Mono Lookup API
   slug: mono-africa-lookup-api
 artifact_total: 20
@@ -191,7 +203,7 @@ score:
     regime_id: banking_open_finance
     score: 20.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-africa/refs/heads/main/screenshots/mono-africa-2026-08-07T184204.png
 security:

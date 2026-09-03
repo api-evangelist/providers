@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 15
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 23 operations · 15 acting · 15 human-in-the-loop
 api_count: 1
 apis:
-- description: The Fields API from Ninox — 3 operation(s) for fields.
+- baseURL: https://go.ninox.com
+  baseurl_source: declared
+  description: The Fields API from Ninox — 3 operation(s) for fields.
   name: Ninox Fields API
   slug: ninox-fields-api
-- description: The Modules API from Ninox — 2 operation(s) for modules.
+- baseURL: https://go.ninox.com
+  baseurl_source: declared
+  description: The Modules API from Ninox — 2 operation(s) for modules.
   name: Ninox Modules API
   slug: ninox-modules-api
-- description: The Records API from Ninox — 2 operation(s) for records.
+- baseURL: https://go.ninox.com
+  baseurl_source: declared
+  description: The Records API from Ninox — 2 operation(s) for records.
   name: Ninox Records API
   slug: ninox-records-api
-- description: The Tables API from Ninox — 2 operation(s) for tables.
+- baseURL: https://go.ninox.com
+  baseurl_source: declared
+  description: The Tables API from Ninox — 2 operation(s) for tables.
   name: Ninox Tables API
   slug: ninox-tables-api
-- description: The Workspace API from Ninox — 1 operation(s) for workspace.
+- baseURL: https://go.ninox.com
+  baseurl_source: declared
+  description: The Workspace API from Ninox — 1 operation(s) for workspace.
   name: Ninox Workspace API
   slug: ninox-workspace-api
 arazzos:
@@ -257,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninox/refs/heads/main/screenshots/ninox-2026-08-07T185329.png
 security:

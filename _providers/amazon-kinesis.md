@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 36 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for describing and updating account-level settings and limits.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for describing and updating account-level settings and limits.
   name: Amazon Kinesis Account API
   slug: amazon-kinesis-account-api
-- description: Operations for registering, describing, listing, and deregistering enhanced fan-out consumers.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for registering, describing, listing, and deregistering enhanced fan-out consumers.
   name: Amazon Kinesis Consumers API
   slug: amazon-kinesis-consumers-api
-- description: Operations for starting and stopping server-side encryption on a stream.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for starting and stopping server-side encryption on a stream.
   name: Amazon Kinesis Encryption API
   slug: amazon-kinesis-encryption-api
-- description: Operations for enabling and disabling enhanced shard-level monitoring.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for enabling and disabling enhanced shard-level monitoring.
   name: Amazon Kinesis Monitoring API
   slug: amazon-kinesis-monitoring-api
-- description: Operations for managing resource-based policies on streams.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing resource-based policies on streams.
   name: Amazon Kinesis Policies API
   slug: amazon-kinesis-policies-api
-- description: Operations for putting and getting data records to and from a stream.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for putting and getting data records to and from a stream.
   name: Amazon Kinesis Records API
   slug: amazon-kinesis-records-api
-- description: Operations for listing, splitting, merging, and managing shards within a stream.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for listing, splitting, merging, and managing shards within a stream.
   name: Amazon Kinesis Shards API
   slug: amazon-kinesis-shards-api
-- description: Operations for creating, describing, listing, and managing Kinesis data streams.
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, listing, and managing Kinesis data streams.
   name: Amazon Kinesis Streams API
   slug: amazon-kinesis-streams-api
-- description: 'The #X Amz Target=Kinesis 20131202.AddTagsToStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.addtagstostream.'
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.AddTagsToStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.addtagstostream.'
   name: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.AddTagsToStream API'
   slug: amazon-kinesis-x-amz-target-kinesis-20131202-addtagstostream-api
-- description: 'The #X Amz Target=Kinesis 20131202.ListTagsForStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listtagsforstream.'
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.ListTagsForStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listtagsforstream.'
   name: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.ListTagsForStream API'
   slug: amazon-kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api
-- description: 'The #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.removetagsfromstream.'
+- baseURL: https://kinesis.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API from Amazon Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.removetagsfromstream.'
   name: 'Amazon Kinesis #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API'
   slug: amazon-kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
 arazzos:
@@ -405,7 +427,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -415,7 +437,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 59.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     contracts:
@@ -424,7 +446,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/screenshots/amazon-kinesis-2026-06-20T171718.png
 security:

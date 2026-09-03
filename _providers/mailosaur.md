@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 28 operations · 13 acting
 api_count: 1
 apis:
-- description: Operations for analyzing the content and deliverability of an email, including SpamAssassin scoring and per-provider deliverability reports.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for analyzing the content and deliverability of an email, including SpamAssassin scoring and per-provider deliverability reports.
   name: Mailosaur Analysis API
   slug: mailosaur-analysis-api
-- description: Operations for managing virtual security devices and retrieving their current one-time passwords (OTPs), used to automate testing of app-based multi-factor authentication.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for managing virtual security devices and retrieving their current one-time passwords (OTPs), used to automate testing of app-based multi-factor authentication.
   name: Mailosaur Devices API
   slug: mailosaur-devices-api
-- description: Operations for downloading the raw content associated with a message — file attachments, the full EML source of an email, and rendered email previews.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for downloading the raw content associated with a message — file attachments, the full EML source of an email, and rendered email previews.
   name: Mailosaur Files API
   slug: mailosaur-files-api
-- description: Operations for finding, retrieving, creating, forwarding, replying to, and deleting the email and SMS messages received by your Mailosaur inboxes.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for finding, retrieving, creating, forwarding, replying to, and deleting the email and SMS messages received by your Mailosaur inboxes.
   name: Mailosaur Messages API
   slug: mailosaur-messages-api
-- description: Operations for discovering the email clients available for generating email previews (screenshots of an email rendered in real clients).
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for discovering the email clients available for generating email previews (screenshots of an email rendered in real clients).
   name: Mailosaur Previews API
   slug: mailosaur-previews-api
-- description: Operations for creating and managing your Mailosaur inboxes (servers). Inboxes group your tests together, each with its own domain and SMTP/POP3/IMAP credentials.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for creating and managing your Mailosaur inboxes (servers). Inboxes group your tests together, each with its own domain and SMTP/POP3/IMAP credentials.
   name: Mailosaur Servers API
   slug: mailosaur-servers-api
-- description: Operations for inspecting your account's usage limits and recent transactional usage. These endpoints require authentication with an account-level API key.
+- baseURL: https://mailosaur.com/api
+  baseurl_source: declared
+  description: Operations for inspecting your account's usage limits and recent transactional usage. These endpoints require authentication with an account-level API key.
   name: Mailosaur Usage API
   slug: mailosaur-usage-api
 artifact_total: 31
@@ -378,7 +392,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailosaur/refs/heads/main/screenshots/mailosaur-2026-06-20T184900.png
 security:

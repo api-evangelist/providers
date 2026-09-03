@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,22 +54,34 @@ apis:
 - description: Provides access to World Bank development data in SDMX (Statistical Data and Metadata eXchange) format, the international standard for statistical data sharing. Supports World Development Indicators (
   name: World Bank SDMX API
   slug: worldbank-sdmx
-- description: The Classifications API from World Bank — 2 operation(s) for classifications.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Classifications API from World Bank — 2 operation(s) for classifications.
   name: World Bank Classifications API
   slug: worldbank-classifications-api
-- description: The Countries API from World Bank — 2 operation(s) for countries.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Countries API from World Bank — 2 operation(s) for countries.
   name: World Bank Countries API
   slug: worldbank-countries-api
-- description: The Indicators API from World Bank — 5 operation(s) for indicators.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Indicators API from World Bank — 5 operation(s) for indicators.
   name: World Bank Indicators API
   slug: worldbank-indicators-api
-- description: The Regions API from World Bank — 1 operation(s) for regions.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Regions API from World Bank — 1 operation(s) for regions.
   name: World Bank Regions API
   slug: worldbank-regions-api
-- description: The Sources API from World Bank — 1 operation(s) for sources.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Sources API from World Bank — 1 operation(s) for sources.
   name: World Bank Sources API
   slug: worldbank-sources-api
-- description: The Topics API from World Bank — 2 operation(s) for topics.
+- baseURL: https://api.worldbank.org/v2
+  baseurl_source: declared
+  description: The Topics API from World Bank — 2 operation(s) for topics.
   name: World Bank Topics API
   slug: worldbank-topics-api
 artifact_total: 26
@@ -227,7 +239,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

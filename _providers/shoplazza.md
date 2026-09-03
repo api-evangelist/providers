@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 197 operations · 96 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access API from Shoplazza — 1 operation(s) for access.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Access API from Shoplazza — 1 operation(s) for access.
   name: Shoplazza Access API
   slug: shoplazza-access-api
-- description: The App Proxy API from Shoplazza — 3 operation(s) for app proxy.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The App Proxy API from Shoplazza — 3 operation(s) for app proxy.
   name: Shoplazza App Proxy API
   slug: shoplazza-app-proxy-api
-- description: The Billing API API from Shoplazza — 10 operation(s) for billing api.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Billing API API from Shoplazza — 10 operation(s) for billing api.
   name: Shoplazza Billing API API
   slug: shoplazza-billing-api-api
-- description: The Custom Area API from Shoplazza — 2 operation(s) for custom area.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Custom Area API from Shoplazza — 2 operation(s) for custom area.
   name: Shoplazza Custom Area API
   slug: shoplazza-custom-area-api
-- description: The Customer API from Shoplazza — 6 operation(s) for customer.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Customer API from Shoplazza — 6 operation(s) for customer.
   name: Shoplazza Customer API
   slug: shoplazza-customer-api
-- description: The Data API from Shoplazza — 5 operation(s) for data.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Data API from Shoplazza — 5 operation(s) for data.
   name: Shoplazza Data API
   slug: shoplazza-data-api
-- description: The Discounts API from Shoplazza — 14 operation(s) for discounts.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Discounts API from Shoplazza — 14 operation(s) for discounts.
   name: Shoplazza Discounts API
   slug: shoplazza-discounts-api
-- description: Upload image materials to the material library and the material library operations of material
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: Upload image materials to the material library and the material library operations of material
   name: Shoplazza File API
   slug: shoplazza-file-api
-- description: The Fullfillment API from Shoplazza — 5 operation(s) for fullfillment.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Fullfillment API from Shoplazza — 5 operation(s) for fullfillment.
   name: Shoplazza Fullfillment API
   slug: shoplazza-fullfillment-api
-- description: The Gift Card API from Shoplazza — 3 operation(s) for gift card.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Gift Card API from Shoplazza — 3 operation(s) for gift card.
   name: Shoplazza Gift Card API
   slug: shoplazza-gift-card-api
-- description: The Meta Definition API from Shoplazza — 5 operation(s) for meta definition.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Meta Definition API from Shoplazza — 5 operation(s) for meta definition.
   name: Shoplazza Meta Definition API
   slug: shoplazza-meta-definition-api
-- description: The Metafield API from Shoplazza — 6 operation(s) for metafield.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Metafield API from Shoplazza — 6 operation(s) for metafield.
   name: Shoplazza Metafield API
   slug: shoplazza-metafield-api
-- description: The Order API from Shoplazza — 11 operation(s) for order.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Order API from Shoplazza — 11 operation(s) for order.
   name: Shoplazza Order API
   slug: shoplazza-order-api
-- description: The Order Risk API from Shoplazza — 4 operation(s) for order risk.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Order Risk API from Shoplazza — 4 operation(s) for order risk.
   name: Shoplazza Order Risk API
   slug: shoplazza-order-risk-api
-- description: The Page API from Shoplazza — 4 operation(s) for page.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Page API from Shoplazza — 4 operation(s) for page.
   name: Shoplazza Page API
   slug: shoplazza-page-api
-- description: The Product API from Shoplazza — 21 operation(s) for product.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Product API from Shoplazza — 21 operation(s) for product.
   name: Shoplazza Product API
   slug: shoplazza-product-api
-- description: The Redirect API from Shoplazza — 3 operation(s) for redirect.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Redirect API from Shoplazza — 3 operation(s) for redirect.
   name: Shoplazza Redirect API
   slug: shoplazza-redirect-api
-- description: The Shop API from Shoplazza — 8 operation(s) for shop.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Shop API from Shoplazza — 8 operation(s) for shop.
   name: Shoplazza Shop API
   slug: shoplazza-shop-api
-- description: The Theme API from Shoplazza — 9 operation(s) for theme.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Theme API from Shoplazza — 9 operation(s) for theme.
   name: Shoplazza Theme API
   slug: shoplazza-theme-api
-- description: The Webhook API from Shoplazza — 3 operation(s) for webhook.
+- baseURL: https://developer.myshoplaza.com/openapi/2022-01
+  baseurl_source: declared
+  description: The Webhook API from Shoplazza — 3 operation(s) for webhook.
   name: Shoplazza Webhook API
   slug: shoplazza-webhook-api
 artifact_total: 48
@@ -354,7 +394,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -364,7 +404,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 54.3
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,7 +422,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
 security:

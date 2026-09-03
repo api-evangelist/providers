@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 171 operations · 42 acting
 api_count: 2
 apis:
-- description: Find information about AVAX supply.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about AVAX supply.
   name: Ava Labs AVAX Supply API
   slug: ava-labs-avax-supply-api
-- description: Get network level staking and usage metrics.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Get network level staking and usage metrics.
   name: Ava Labs Chain Metrics API
   slug: ava-labs-chain-metrics-api
-- description: Get throughput metrics for a given chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Get throughput metrics for a given chain.
   name: Ava Labs Chain Throughput API
   slug: ava-labs-chain-throughput-api
-- description: Get cumulative metrics for a given chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Get cumulative metrics for a given chain.
   name: Ava Labs Cumulative API
   slug: ava-labs-cumulative-api
-- description: Usage metrics and logs for the Data API.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Usage metrics and logs for the Data API.
   name: Ava Labs Data API Usage Metrics API
   slug: ava-labs-data-api-usage-metrics-api
-- description: Find information about balances on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about balances on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Ava Labs EVM Balances API
   slug: ava-labs-evm-balances-api
-- description: Find information about blocks on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about blocks on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Ava Labs EVM Blocks API
   slug: ava-labs-evm-blocks-api
-- description: Find information about indexed EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about indexed EVM-compatible chains, such as the Avalanche C-Chain.
   name: Ava Labs EVM Chains API
   slug: ava-labs-evm-chains-api
-- description: Find information about contracts on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about contracts on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Ava Labs EVM Contracts API
   slug: ava-labs-evm-contracts-api
-- description: Find information about transactions on EVM-compatible chains, such as the Avalanche C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about transactions on EVM-compatible chains, such as the Avalanche C-Chain.
   name: Ava Labs EVM Transactions API
   slug: ava-labs-evm-transactions-api
-- description: The Health Check API from Ava Labs — 2 operation(s) for health check.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: The Health Check API from Ava Labs — 2 operation(s) for health check.
   name: Ava Labs Health Check API
   slug: ava-labs-health-check-api
-- description: Find information about Interchain Messaging transactions.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about Interchain Messaging transactions.
   name: Ava Labs Interchain Messaging API
   slug: ava-labs-interchain-messaging-api
-- description: Get network level l1 validator metrics.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Get network level l1 validator metrics.
   name: Ava Labs L1 Validator Metrics API
   slug: ava-labs-l1-validator-metrics-api
-- description: Looking Glass is a tool that allows users to look up information for future airdrops.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Looking Glass is a tool that allows users to look up information for future airdrops.
   name: Ava Labs Looking Glass API
   slug: ava-labs-looking-glass-api
-- description: The NFTs API from Ava Labs — 3 operation(s) for nfts.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: The NFTs API from Ava Labs — 3 operation(s) for nfts.
   name: Ava Labs NFTs API
   slug: ava-labs-nfts-api
-- description: The Operations API from Ava Labs — 2 operation(s) for operations.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: The Operations API from Ava Labs — 2 operation(s) for operations.
   name: Ava Labs Operations API
   slug: ava-labs-operations-api
-- description: The Primary Network API from Ava Labs — 11 operation(s) for primary network.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: The Primary Network API from Ava Labs — 11 operation(s) for primary network.
   name: Ava Labs Primary Network API
   slug: ava-labs-primary-network-api
-- description: Find information about balances on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about balances on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Ava Labs Primary Network Balances API
   slug: ava-labs-primary-network-balances-api
-- description: Find information about blocks on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about blocks on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Ava Labs Primary Network Blocks API
   slug: ava-labs-primary-network-blocks-api
-- description: Find information about rewards on Avalanche's Primary Network.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about rewards on Avalanche's Primary Network.
   name: Ava Labs Primary Network Rewards API
   slug: ava-labs-primary-network-rewards-api
-- description: Find information about transactions on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about transactions on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Ava Labs Primary Network Transactions API
   slug: ava-labs-primary-network-transactions-api
-- description: Find information about utxos on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about utxos on Avalanche's Primary Network Chains - the P-Chain, the X-Chain, and the C-Chain.
   name: Ava Labs Primary Network UTXOs API
   slug: ava-labs-primary-network-utxos-api
-- description: Find information about vertices on Avalanche's X-Chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about vertices on Avalanche's X-Chain.
   name: Ava Labs Primary Network Vertices API
   slug: ava-labs-primary-network-vertices-api
-- description: Request signatures for a Warp message from Subnet validators
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Request signatures for a Warp message from Subnet validators
   name: Ava Labs Signature Aggregator API
   slug: ava-labs-signature-aggregator-api
-- description: Get staking information for a given chain.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Get staking information for a given chain.
   name: Ava Labs Staking Information API
   slug: ava-labs-staking-information-api
-- description: Find information about Teleporter transactions.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Find information about Teleporter transactions.
   name: Ava Labs Teleporter API
   slug: ava-labs-teleporter-api
-- description: Manage webhooks and get notified for various onchain activities.
+- baseURL: https://glacier-api.avax.network
+  baseurl_source: declared
+  description: Manage webhooks and get notified for various onchain activities.
   name: Ava Labs Webhooks API
   slug: ava-labs-webhooks-api
-- description: The Data API API from Ava Labs — 0 operation(s) for data api.
+- baseURL: https://api.avax.network/ext/bc
+  baseurl_source: declared
+  description: The Data API API from Ava Labs — 0 operation(s) for data api.
   name: Ava Labs Data API
   slug: ava-labs-data-api-api
 artifact_total: 62
@@ -363,23 +419,23 @@ overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 19
 score:
   band: developing
-  composite: 51.5
+  composite: 52.0
   coverage:
     artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 63.8
+    contract_quality: 65.6
     developer_ergonomics: 75.6
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -391,7 +447,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Headless browser operations like screenshot capture
+- baseURL: https://api-snap.com/api
+  baseurl_source: declared
+  description: Headless browser operations like screenshot capture
   name: API Snap Browser API
   slug: api-snap-browser-api
-- description: Document generation and conversion (PDF, Markdown)
+- baseURL: https://api-snap.com/api
+  baseurl_source: declared
+  description: Document generation and conversion (PDF, Markdown)
   name: API Snap Documents API
   slug: api-snap-documents-api
-- description: QR codes, image resizing, and placeholder image generation
+- baseURL: https://api-snap.com/api
+  baseurl_source: declared
+  description: QR codes, image resizing, and placeholder image generation
   name: API Snap Images API
   slug: api-snap-images-api
-- description: Cryptographic hashing and JWT decoding
+- baseURL: https://api-snap.com/api
+  baseurl_source: declared
+  description: Cryptographic hashing and JWT decoding
   name: API Snap Security API
   slug: api-snap-security-api
-- description: General-purpose developer utilities
+- baseURL: https://api-snap.com/api
+  baseurl_source: declared
+  description: General-purpose developer utilities
   name: API Snap Utilities API
   slug: api-snap-utilities-api
 artifact_total: 71
@@ -362,7 +372,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-snap/refs/heads/main/screenshots/api-snap-2026-07-25T200604.png
 security:

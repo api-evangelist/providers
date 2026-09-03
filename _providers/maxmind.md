@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 2
 apis:
-- description: City-level IP geolocation lookup with postal, subdivisions, and coordinates
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: City-level IP geolocation lookup with postal, subdivisions, and coordinates
   name: MaxMind GeoIP City API
   slug: maxmind-geoip-city-api
-- description: Country-level IP geolocation lookup
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: Country-level IP geolocation lookup
   name: MaxMind GeoIP Country API
   slug: maxmind-geoip-country-api
-- description: Most comprehensive IP data lookup including anonymizer/VPN/proxy detection, user type, static IP score, and connection details
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: Most comprehensive IP data lookup including anonymizer/VPN/proxy detection, user type, static IP score, and connection details
   name: MaxMind GeoIP Insights API
   slug: maxmind-geoip-insights-api
-- description: Most detailed fraud scoring with component-level risk factor decomposition
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: Most detailed fraud scoring with component-level risk factor decomposition
   name: MaxMind minFraud Factors API
   slug: maxmind-minfraud-factors-api
-- description: Extended fraud scoring with over 80 data points on IPs, emails, devices, and payment cards
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: Extended fraud scoring with over 80 data points on IPs, emails, devices, and payment cards
   name: MaxMind minFraud Insights API
   slug: maxmind-minfraud-insights-api
-- description: Basic fraud scoring returning a single risk score (0-99) and IP risk score
+- baseURL: https://geoip.maxmind.com
+  baseurl_source: declared
+  description: Basic fraud scoring returning a single risk score (0-99) and IP risk score
   name: MaxMind minFraud Score API
   slug: maxmind-minfraud-score-api
 artifact_total: 20
@@ -214,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxmind/refs/heads/main/screenshots/maxmind-2026-06-20T185052.png
 security:

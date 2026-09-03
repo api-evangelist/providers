@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
@@ -46,22 +46,34 @@ apis:
 - description: Switzerland's open banking platform connecting banks and third-party service providers over RESTful JSON/XML APIs with OAuth consent flows - Account Information Services (AIS), Payment Submission Serv
   name: SIX bLink API
   slug: blink-api
-- description: REST API for card issuers on the debiX debit and mobile payment platform - transaction processing, card token lifecycle, push notifications, and bulk operations - with publicly downloadable OpenAPI 3.
+- baseURL: https://api.six-group.com/api/debix/bank/v2
+  baseurl_source: declared
+  description: REST API for card issuers on the debiX debit and mobile payment platform - transaction processing, card token lifecycle, push notifications, and bulk operations - with publicly downloadable OpenAPI 3.
   name: SIX debiX API
   slug: debix-api
-- description: Bidirectional authentication API pair between SIX and auth providers supporting the 3DS out-of-band (OOB) authentication flow for debiX debit cards, with publicly downloadable OpenAPI definitions cove
+- baseURL: https://api.six-group.com/api/debix-auth/provider-auth/v2
+  baseurl_source: declared
+  description: Bidirectional authentication API pair between SIX and auth providers supporting the 3DS out-of-band (OOB) authentication flow for debiX debit cards, with publicly downloadable OpenAPI definitions cove
   name: SIX debiX Auth Provider API
   slug: debix-auth-provider-api
-- description: Master data required for electronic payments in Switzerland - bank master records in JSON and CSV plus IBAN tooling - published openly on the SIX API portal; the documented production endpoints respon
+- baseURL: https://api.six-group.com/api/epcd/bankmaster/v3
+  baseurl_source: declared
+  description: Master data required for electronic payments in Switzerland - bank master records in JSON and CSV plus IBAN tooling - published openly on the SIX API portal; the documented production endpoints respon
   name: Swiss Bank Master API
   slug: swiss-bank-master-api
-- description: Current operational status of the electronic payment services run by SIX Interbank Clearing Ltd, publicly documented with downloadable OpenAPI; GET /servicestatus on the documented production host ret
+- baseURL: https://api.six-group.com/api/sic/pci_p/status/v1
+  baseurl_source: declared
+  description: Current operational status of the electronic payment services run by SIX Interbank Clearing Ltd, publicly documented with downloadable OpenAPI; GET /servicestatus on the documented production host ret
   name: SIC Service Status API
   slug: sic-service-status-api
-- description: Scheduling information for the electronic payment services provided by SIX Interbank Clearing Ltd - clearing day calendar lookups - publicly documented on the SIX API portal with a downloadable OpenAP
+- baseURL: https://api.six-group.com/api/epcd/clearingday/v1
+  baseurl_source: declared
+  description: Scheduling information for the electronic payment services provided by SIX Interbank Clearing Ltd - clearing day calendar lookups - publicly documented on the SIX API portal with a downloadable OpenAP
   name: SIC Clearing Day Calendar API
   slug: sic-clearing-day-calendar-api
-- description: Security settlement information reporting from the SIX custody cockpit for the Swiss market, publicly documented on the SIX API portal with a downloadable OpenAPI 3.0 definition (CC BY-ND 4.0 licensed
+- baseURL: https://api.six-group.com/custody/cockpit/setlInfo/v1
+  baseurl_source: declared
+  description: Security settlement information reporting from the SIX custody cockpit for the Swiss market, publicly documented on the SIX API portal with a downloadable OpenAPI 3.0 definition (CC BY-ND 4.0 licensed
   name: Settlement Info Reporting API
   slug: settlement-info-reporting-api
 artifact_total: 35
@@ -302,7 +314,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -312,7 +324,7 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
@@ -329,7 +341,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:

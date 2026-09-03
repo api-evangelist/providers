@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +46,49 @@ agentic_access:
   summary_line: 27 operations
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Red Energy Data Holder Customers API
   slug: red-energy-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Red Energy Data Holder Operations API
   slug: red-energy-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Red Energy Distributed Energy Resources API
   slug: red-energy-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Red Energy Electricity Service Points API
   slug: red-energy-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Red Energy Electricity Usage API
   slug: red-energy-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Red Energy Energy Account Balances API
   slug: red-energy-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Red Energy Energy Account Billing API
   slug: red-energy-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Red Energy Energy Accounts API
   slug: red-energy-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/red-energy/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Red Energy Energy Plans API
   slug: red-energy-energy-plans-api
 arazzos:
@@ -326,7 +357,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

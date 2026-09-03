@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 17 operations · 1 acting
 api_count: 1
 apis:
-- description: Top-level accounts that own sites, workspaces, and surveys.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: Top-level accounts that own sites, workspaces, and surveys.
   name: Propeller Aero Organizations API
   slug: propeller-aero-organizations-api
-- description: DirtMate position-monitoring configs and recorded epochs.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: DirtMate position-monitoring configs and recorded epochs.
   name: Propeller Aero Position Monitoring API
   slug: propeller-aero-position-monitoring-api
-- description: User-defined polygons, lines, and points drawn in a workspace.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: User-defined polygons, lines, and points drawn in a workspace.
   name: Propeller Aero Shapes API
   slug: propeller-aero-shapes-api
-- description: Survey projects (job sites) within an organization.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: Survey projects (job sites) within an organization.
   name: Propeller Aero Sites API
   slug: propeller-aero-sites-api
-- description: Individual drone survey captures and their downloadable files.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: Individual drone survey captures and their downloadable files.
   name: Propeller Aero Surveys API
   slug: propeller-aero-surveys-api
-- description: Calculated measurements (volumes, distances, areas) tied to a shape.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: Calculated measurements (volumes, distances, areas) tied to a shape.
   name: Propeller Aero Widgets API
   slug: propeller-aero-widgets-api
-- description: Analysis contexts within a site that hold shapes and widgets.
+- baseURL: https://api.propelleraero.com/v1
+  baseurl_source: declared
+  description: Analysis contexts within a site that hold shapes and widgets.
   name: Propeller Aero Workspaces API
   slug: propeller-aero-workspaces-api
 artifact_total: 22
@@ -177,7 +191,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +214,9 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/screenshots/propeller-aero-2026-09-02T152151.png
 security:
 - kind: authentication
   name: Propeller Aero Authentication

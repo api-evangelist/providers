@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 81 operations · 40 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account & Team API from Lev — 4 operation(s) for account & team.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Account & Team API from Lev — 4 operation(s) for account & team.
   name: Lev Account & Team API
   slug: lev-account-team-api
-- description: The API Keys API from Lev — 2 operation(s) for api keys.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The API Keys API from Lev — 2 operation(s) for api keys.
   name: Lev API Keys API
   slug: lev-api-keys-api
-- description: The Billing API from Lev — 2 operation(s) for billing.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Billing API from Lev — 2 operation(s) for billing.
   name: Lev Billing API
   slug: lev-billing-api
-- description: The Companies API from Lev — 4 operation(s) for companies.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Companies API from Lev — 4 operation(s) for companies.
   name: Lev Companies API
   slug: lev-companies-api
-- description: The Contacts API from Lev — 5 operation(s) for contacts.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Contacts API from Lev — 5 operation(s) for contacts.
   name: Lev Contacts API
   slug: lev-contacts-api
-- description: The Deal Financials API from Lev — 1 operation(s) for deal financials.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Deal Financials API from Lev — 1 operation(s) for deal financials.
   name: Lev Deal Financials API
   slug: lev-deal-financials-api
-- description: The Deal Properties API from Lev — 1 operation(s) for deal properties.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Deal Properties API from Lev — 1 operation(s) for deal properties.
   name: Lev Deal Properties API
   slug: lev-deal-properties-api
-- description: The Deal Team API from Lev — 1 operation(s) for deal team.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Deal Team API from Lev — 1 operation(s) for deal team.
   name: Lev Deal Team API
   slug: lev-deal-team-api
-- description: The Deals API from Lev — 21 operation(s) for deals.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Deals API from Lev — 21 operation(s) for deals.
   name: Lev Deals API
   slug: lev-deals-api
-- description: The Lender Directory API from Lev — 3 operation(s) for lender directory.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Lender Directory API from Lev — 3 operation(s) for lender directory.
   name: Lev Lender Directory API
   slug: lev-lender-directory-api
-- description: The Lev API Documentation API from Lev — 1 operation(s) for lev api documentation.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Lev API Documentation API from Lev — 1 operation(s) for lev api documentation.
   name: Lev Lev API Documentation API
   slug: lev-lev-api-documentation-api
-- description: The Market Data API from Lev — 2 operation(s) for market data.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Market Data API from Lev — 2 operation(s) for market data.
   name: Lev Market Data API
   slug: lev-market-data-api
-- description: The Pipelines API from Lev — 3 operation(s) for pipelines.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Pipelines API from Lev — 3 operation(s) for pipelines.
   name: Lev Pipelines API
   slug: lev-pipelines-api
-- description: The Placements API from Lev — 4 operation(s) for placements.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Placements API from Lev — 4 operation(s) for placements.
   name: Lev Placements API
   slug: lev-placements-api
-- description: The Quickstart API from Lev — 1 operation(s) for quickstart.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Quickstart API from Lev — 1 operation(s) for quickstart.
   name: Lev Quickstart API
   slug: lev-quickstart-api
-- description: The Term Sheets API from Lev — 2 operation(s) for term sheets.
+- baseURL: https://api.lev.com/api/external/v2
+  baseurl_source: declared
+  description: The Term Sheets API from Lev — 2 operation(s) for term sheets.
   name: Lev Term Sheets API
   slug: lev-term-sheets-api
 artifact_total: 57
@@ -417,7 +449,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:

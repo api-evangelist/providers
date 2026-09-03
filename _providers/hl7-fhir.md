@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -51,22 +51,34 @@ apis:
 - description: 'SMART on FHIR (v2.2.0) defines OAuth 2.0-based authorization patterns for client applications to authorize, authenticate, and integrate with FHIR-based data systems. It enables EHR launch, standalone '
   name: SMART on FHIR Authentication
   slug: hl7-smart-on-fhir-api
-- description: Batch and transaction operations
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Batch and transaction operations
   name: HL7 FHIR Bundle API
   slug: hl7-fhir-bundle-api
-- description: Clinical conditions, diagnoses, and problems
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Clinical conditions, diagnoses, and problems
   name: HL7 FHIR Condition API
   slug: hl7-fhir-condition-api
-- description: Patient visits and encounters
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Patient visits and encounters
   name: HL7 FHIR Encounter API
   slug: hl7-fhir-encounter-api
-- description: Medication prescriptions and orders
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Medication prescriptions and orders
   name: HL7 FHIR MedicationRequest API
   slug: hl7-fhir-medicationrequest-api
-- description: Clinical measurements, lab results, vital signs
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Clinical measurements, lab results, vital signs
   name: HL7 FHIR Observation API
   slug: hl7-fhir-observation-api
-- description: Patient demographic and identity resources
+- baseURL: https://fhir-server.example.com/fhir/R5
+  baseurl_source: declared
+  description: Patient demographic and identity resources
   name: HL7 FHIR Patient API
   slug: hl7-fhir-patient-api
 artifact_total: 26
@@ -245,7 +257,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hl7-fhir/refs/heads/main/screenshots/hl7-fhir-2026-06-20T182802.png
 security:

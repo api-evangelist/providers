@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 32 operations · 2 acting
 api_count: 1
 apis:
-- description: Multimodal CO2e emission calculations (sea, road, rail, air, inland water).
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: Multimodal CO2e emission calculations (sea, road, rail, air, inland water).
   name: Searoutes CO2 Emissions API
   slug: searoutes-co2-emissions-api
-- description: Ports, airports, places, areas, postal codes, and nearest points.
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: Ports, airports, places, areas, postal codes, and nearest points.
   name: Searoutes Geocoding API
   slug: searoutes-geocoding-api
-- description: Sea routes, distances, durations, and voyage plans.
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: Sea routes, distances, durations, and voyage plans.
   name: Searoutes Ocean Routing API
   slug: searoutes-ocean-routing-api
-- description: Carrier and liner-service lookup.
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: Carrier and liner-service lookup.
   name: Searoutes Search API
   slug: searoutes-search-api
-- description: AIS vessel positions, ETAs, arrivals, traces, and time series.
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: AIS vessel positions, ETAs, arrivals, traces, and time series.
   name: Searoutes Vessel API
   slug: searoutes-vessel-api
-- description: Historical, real-time, and forecasted weather.
+- baseURL: https://api.searoutes.com
+  baseurl_source: declared
+  description: Historical, real-time, and forecasted weather.
   name: Searoutes Weather API
   slug: searoutes-weather-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/screenshots/searoutes-2026-09-02T154638.png
 security:
 - kind: authentication
   name: Searoutes Authentication

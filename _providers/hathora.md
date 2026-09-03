@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 36 operations · 17 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Create and manage your organization's applications.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Create and manage your organization's applications.
   name: Hathora AppsV2 API
   slug: hathora-appsv2-api
-- description: Player authentication - issue short-lived player tokens.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Player authentication - issue short-lived player tokens.
   name: Hathora AuthV1 API
   slug: hathora-authv1-api
-- description: Account balance, invoices, payment method, and Stripe portal.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Account balance, invoices, payment method, and Stripe portal.
   name: Hathora BillingV1 API
   slug: hathora-billingv1-api
-- description: Upload and manage game server build artifacts.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Upload and manage game server build artifacts.
   name: Hathora BuildsV3 API
   slug: hathora-buildsv3-api
-- description: Versioned runtime configuration for a build.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Versioned runtime configuration for a build.
   name: Hathora DeploymentsV3 API
   slug: hathora-deploymentsv3-api
-- description: Region ping endpoints for latency-based routing.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Region ping endpoints for latency-based routing.
   name: Hathora DiscoveryV2 API
   slug: hathora-discoveryv2-api
-- description: Stream and download logs for processes.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Stream and download logs for processes.
   name: Hathora LogsV1 API
   slug: hathora-logsv1-api
-- description: Read CPU, memory, egress, and connection metrics for a process.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Read CPU, memory, egress, and connection metrics for a process.
   name: Hathora MetricsV1 API
   slug: hathora-metricsv1-api
-- description: Launch, inspect, and stop running game server processes.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Launch, inspect, and stop running game server processes.
   name: Hathora ProcessesV3 API
   slug: hathora-processesv3-api
-- description: Create, inspect, and destroy rooms and get connection info.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Create, inspect, and destroy rooms and get connection info.
   name: Hathora RoomsV2 API
   slug: hathora-roomsv2-api
-- description: Create, list, and revoke organization API tokens.
+- baseURL: https://api.hathora.dev
+  baseurl_source: declared
+  description: Create, list, and revoke organization API tokens.
   name: Hathora TokensV1 API
   slug: hathora-tokensv1-api
 artifact_total: 30
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:

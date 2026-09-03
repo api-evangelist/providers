@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: 'REST API for creating and managing web ACLs, rule groups, IP sets, regex pattern sets, and logging configurations across regional and CloudFront-scoped AWS WAF deployments. Requests are authenticated '
   name: AWS WAFV2 API
   slug: wafv2-api
-- description: The AWS WAFV2 API API from AWS WAF — 1 operation(s) for aws wafv2 api.
+- baseURL: https://wafv2.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AWS WAFV2 API API from AWS WAF — 1 operation(s) for aws wafv2 api.
   name: AWS WAF AWS WAFV2 API API
   slug: aws-waf-aws-wafv2-api-api
 artifact_total: 11
@@ -145,7 +147,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/screenshots/aws-waf-2026-06-20T172801.png
 security:

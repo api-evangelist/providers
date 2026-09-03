@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 39 operations · 39 acting
 api_count: 9
 apis:
-- description: 'This API collection is specific for the stay part of the connected trip. </br></br>Use these endpoints to search for stays such as hotels and apartments, check availability, retrieve reviews, and get '
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: 'This API collection is specific for the stay part of the connected trip. </br></br>Use these endpoints to search for stays such as hotels and apartments, check availability, retrieve reviews, and get '
   name: Booking Holdings Accommodations API
   slug: booking-holdings-accommodations-api
-- description: Provides endpoints for handling message attachments. </br></br>Use these endpoints to upload and download images shared within conversations.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Provides endpoints for handling message attachments. </br></br>Use these endpoints to upload and download images shared within conversations.
   name: Booking Holdings Attachments API
   slug: booking-holdings-attachments-api
-- description: This API collection is specific to the car rentals part of the connected trip.</br></br> Use these endpoints to search for car rentals, check car details and look for depots and suppliers.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: This API collection is specific to the car rentals part of the connected trip.</br></br> Use these endpoints to search for car rentals, check car details and look for depots and suppliers.
   name: Booking Holdings Cars API
   slug: booking-holdings-cars-api
-- description: Provides a list of supported language codes for use in API requests.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Provides a list of supported language codes for use in API requests.
   name: Booking Holdings Common/languages API
   slug: booking-holdings-common-languages-api
-- description: 'Provides identifiers for a wide range of geographical locations, including airports, countries, cities, and regions. </br></br>Use these identifiers to construct your requests. </br></br>Note: These i'
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: 'Provides identifiers for a wide range of geographical locations, including airports, countries, cities, and regions. </br></br>Use these identifiers to construct your requests. </br></br>Note: These i'
   name: Booking Holdings Common/locations API
   slug: booking-holdings-common-locations-api
-- description: Provides generic payment-related endpoints, including supported currencies and payment types.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Provides generic payment-related endpoints, including supported currencies and payment types.
   name: Booking Holdings Common/payments API
   slug: booking-holdings-common-payments-api
-- description: Provides endpoints to retrieve and manage messaging conversations. </br></br>Use these endpoints to list conversations, fetch conversation details, and track updates.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Provides endpoints to retrieve and manage messaging conversations. </br></br>Use these endpoints to list conversations, fetch conversation details, and track updates.
   name: Booking Holdings Conversations API
   slug: booking-holdings-conversations-api
-- description: Provides endpoints for two-way post-booking communication between guests and properties. </br></br>Use these endpoints to send and retrieve messages, exchange images, and check conversation details.
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Provides endpoints for two-way post-booking communication between guests and properties. </br></br>Use these endpoints to send and retrieve messages, exchange images, and check conversation details.
   name: Booking Holdings Messages API
   slug: booking-holdings-messages-api
-- description: Enables management of booking orders within the Demand API. </br></br>Use these endpoints to preview and create new orders, check order details, cancel or modify existing orders. This collection is re
+- baseURL: https://demandapi.booking.com/3.1
+  baseurl_source: declared
+  description: Enables management of booking orders within the Demand API. </br></br>Use these endpoints to preview and create new orders, check order details, cancel or modify existing orders. This collection is re
   name: Booking Holdings Orders API
   slug: booking-holdings-orders-api
 artifact_total: 104
@@ -504,7 +522,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png
 security:

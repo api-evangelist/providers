@@ -33,172 +33,282 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
   name: MX Platform Account_numbers API
   slug: mx-platform-account-numbers-api
-- description: The Account_owners API from MX Platform — 1 operation(s) for account_owners.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Account_owners API from MX Platform — 1 operation(s) for account_owners.
   name: MX Platform Account_owners API
   slug: mx-platform-account-owners-api
-- description: The Accounts API from MX Platform — 13 operation(s) for accounts.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Accounts API from MX Platform — 13 operation(s) for accounts.
   name: MX Platform Accounts API
   slug: mx-platform-accounts-api
-- description: The Aggregate API from MX Platform — 1 operation(s) for aggregate.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Aggregate API from MX Platform — 1 operation(s) for aggregate.
   name: MX Platform Aggregate API
   slug: mx-platform-aggregate-api
-- description: The Budgets API from MX Platform — 3 operation(s) for budgets.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Budgets API from MX Platform — 3 operation(s) for budgets.
   name: MX Platform Budgets API
   slug: mx-platform-budgets-api
-- description: The Categories API from MX Platform — 6 operation(s) for categories.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Categories API from MX Platform — 6 operation(s) for categories.
   name: MX Platform Categories API
   slug: mx-platform-categories-api
-- description: The Challenges API from MX Platform — 1 operation(s) for challenges.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Challenges API from MX Platform — 1 operation(s) for challenges.
   name: MX Platform Challenges API
   slug: mx-platform-challenges-api
-- description: The Check_balance API from MX Platform — 1 operation(s) for check_balance.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Check_balance API from MX Platform — 1 operation(s) for check_balance.
   name: MX Platform Check_balance API
   slug: mx-platform-check-balance-api
-- description: The Connect_widget_url API from MX Platform — 1 operation(s) for connect_widget_url.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Connect_widget_url API from MX Platform — 1 operation(s) for connect_widget_url.
   name: MX Platform Connect_widget_url API
   slug: mx-platform-connect-widget-url-api
-- description: The Credentials API from MX Platform — 2 operation(s) for credentials.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Credentials API from MX Platform — 2 operation(s) for credentials.
   name: MX Platform Credentials API
   slug: mx-platform-credentials-api
-- description: The Credit_card_product_guid API from MX Platform — 1 operation(s) for credit_card_product_guid.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Credit_card_product_guid API from MX Platform — 1 operation(s) for credit_card_product_guid.
   name: MX Platform Credit_card_product_guid API
   slug: mx-platform-credit-card-product-guid-api
-- description: The Current API from MX Platform — 2 operation(s) for current.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Current API from MX Platform — 2 operation(s) for current.
   name: MX Platform Current API
   slug: mx-platform-current-api
-- description: The Default API from MX Platform — 2 operation(s) for default.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Default API from MX Platform — 2 operation(s) for default.
   name: MX Platform Default API
   slug: mx-platform-default-api
-- description: The Enhance API from MX Platform — 1 operation(s) for enhance.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Enhance API from MX Platform — 1 operation(s) for enhance.
   name: MX Platform Enhance API
   slug: mx-platform-enhance-api
-- description: The Extend_history API from MX Platform — 1 operation(s) for extend_history.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Extend_history API from MX Platform — 1 operation(s) for extend_history.
   name: MX Platform Extend_history API
   slug: mx-platform-extend-history-api
-- description: The Favorites API from MX Platform — 1 operation(s) for favorites.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Favorites API from MX Platform — 1 operation(s) for favorites.
   name: MX Platform Favorites API
   slug: mx-platform-favorites-api
-- description: The Fetch_rewards API from MX Platform — 1 operation(s) for fetch_rewards.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Fetch_rewards API from MX Platform — 1 operation(s) for fetch_rewards.
   name: MX Platform Fetch_rewards API
   slug: mx-platform-fetch-rewards-api
-- description: The Fetch_statements API from MX Platform — 1 operation(s) for fetch_statements.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Fetch_statements API from MX Platform — 1 operation(s) for fetch_statements.
   name: MX Platform Fetch_statements API
   slug: mx-platform-fetch-statements-api
-- description: The Fetch_tax_documents API from MX Platform — 1 operation(s) for fetch_tax_documents.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Fetch_tax_documents API from MX Platform — 1 operation(s) for fetch_tax_documents.
   name: MX Platform Fetch_tax_documents API
   slug: mx-platform-fetch-tax-documents-api
-- description: The Generate API from MX Platform — 1 operation(s) for generate.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Generate API from MX Platform — 1 operation(s) for generate.
   name: MX Platform Generate API
   slug: mx-platform-generate-api
-- description: The Goals API from MX Platform — 3 operation(s) for goals.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Goals API from MX Platform — 3 operation(s) for goals.
   name: MX Platform Goals API
   slug: mx-platform-goals-api
-- description: The Holdings API from MX Platform — 4 operation(s) for holdings.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Holdings API from MX Platform — 4 operation(s) for holdings.
   name: MX Platform Holdings API
   slug: mx-platform-holdings-api
-- description: The Identify API from MX Platform — 1 operation(s) for identify.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Identify API from MX Platform — 1 operation(s) for identify.
   name: MX Platform Identify API
   slug: mx-platform-identify-api
-- description: The Insights API from MX Platform — 8 operation(s) for insights.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Insights API from MX Platform — 8 operation(s) for insights.
   name: MX Platform Insights API
   slug: mx-platform-insights-api
-- description: The Institution_code API from MX Platform — 2 operation(s) for institution_code.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Institution_code API from MX Platform — 2 operation(s) for institution_code.
   name: MX Platform Institution_code API
   slug: mx-platform-institution-code-api
-- description: The Iteration_item_guid API from MX Platform — 1 operation(s) for iteration_item_guid.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Iteration_item_guid API from MX Platform — 1 operation(s) for iteration_item_guid.
   name: MX Platform Iteration_item_guid API
   slug: mx-platform-iteration-item-guid-api
-- description: The Iterations API from MX Platform — 4 operation(s) for iterations.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Iterations API from MX Platform — 4 operation(s) for iterations.
   name: MX Platform Iterations API
   slug: mx-platform-iterations-api
-- description: The Managed_members API from MX Platform — 6 operation(s) for managed_members.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Managed_members API from MX Platform — 6 operation(s) for managed_members.
   name: MX Platform Managed_members API
   slug: mx-platform-managed-members-api
-- description: The Members API from MX Platform — 29 operation(s) for members.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Members API from MX Platform — 29 operation(s) for members.
   name: MX Platform Members API
   slug: mx-platform-members-api
-- description: The Merchant_location_guid API from MX Platform — 1 operation(s) for merchant_location_guid.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Merchant_location_guid API from MX Platform — 1 operation(s) for merchant_location_guid.
   name: MX Platform Merchant_location_guid API
   slug: mx-platform-merchant-location-guid-api
-- description: The Merchants API from MX Platform — 3 operation(s) for merchants.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Merchants API from MX Platform — 3 operation(s) for merchants.
   name: MX Platform Merchants API
   slug: mx-platform-merchants-api
-- description: The Micro_deposits API from MX Platform — 2 operation(s) for micro_deposits.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Micro_deposits API from MX Platform — 2 operation(s) for micro_deposits.
   name: MX Platform Micro_deposits API
   slug: mx-platform-micro-deposits-api
-- description: The Microdeposit_guid API from MX Platform — 1 operation(s) for microdeposit_guid.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Microdeposit_guid API from MX Platform — 1 operation(s) for microdeposit_guid.
   name: MX Platform Microdeposit_guid API
   slug: mx-platform-microdeposit-guid-api
-- description: The Microdeposits API from MX Platform — 1 operation(s) for microdeposits.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Microdeposits API from MX Platform — 1 operation(s) for microdeposits.
   name: MX Platform Microdeposits API
   slug: mx-platform-microdeposits-api
-- description: The Monthly_cash_flow_profile API from MX Platform — 1 operation(s) for monthly_cash_flow_profile.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Monthly_cash_flow_profile API from MX Platform — 1 operation(s) for monthly_cash_flow_profile.
   name: MX Platform Monthly_cash_flow_profile API
   slug: mx-platform-monthly-cash-flow-profile-api
-- description: The Mx_platform API from MX Platform — 22 operation(s) for mx_platform.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Mx_platform API from MX Platform — 22 operation(s) for mx_platform.
   name: MX Platform Mx_platform API
   slug: mx-platform-mx-platform-api
-- description: The Oauth_window_uri API from MX Platform — 1 operation(s) for oauth_window_uri.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Oauth_window_uri API from MX Platform — 1 operation(s) for oauth_window_uri.
   name: MX Platform Oauth_window_uri API
   slug: mx-platform-oauth-window-uri-api
-- description: The .Pdf API from MX Platform — 2 operation(s) for .pdf.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The .Pdf API from MX Platform — 2 operation(s) for .pdf.
   name: MX Platform .Pdf API
   slug: mx-platform-pdf-api
-- description: The Resume API from MX Platform — 1 operation(s) for resume.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Resume API from MX Platform — 1 operation(s) for resume.
   name: MX Platform Resume API
   slug: mx-platform-resume-api
-- description: The Rewards API from MX Platform — 2 operation(s) for rewards.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Rewards API from MX Platform — 2 operation(s) for rewards.
   name: MX Platform Rewards API
   slug: mx-platform-rewards-api
-- description: The Scheduled_payments API from MX Platform — 1 operation(s) for scheduled_payments.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Scheduled_payments API from MX Platform — 1 operation(s) for scheduled_payments.
   name: MX Platform Scheduled_payments API
   slug: mx-platform-scheduled-payments-api
-- description: The Spending_plan_accounts API from MX Platform — 2 operation(s) for spending_plan_accounts.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Spending_plan_accounts API from MX Platform — 2 operation(s) for spending_plan_accounts.
   name: MX Platform Spending_plan_accounts API
   slug: mx-platform-spending-plan-accounts-api
-- description: The Spending Plan API from MX Platform — 4 operation(s) for spending plan.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Spending Plan API from MX Platform — 4 operation(s) for spending plan.
   name: MX Platform Spending Plan API
   slug: mx-platform-spending-plan-api
-- description: The Spending_plans API from MX Platform — 8 operation(s) for spending_plans.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Spending_plans API from MX Platform — 8 operation(s) for spending_plans.
   name: MX Platform Spending_plans API
   slug: mx-platform-spending-plans-api
-- description: The Split API from MX Platform — 1 operation(s) for split.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Split API from MX Platform — 1 operation(s) for split.
   name: MX Platform Split API
   slug: mx-platform-split-api
-- description: The Statements API from MX Platform — 3 operation(s) for statements.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Statements API from MX Platform — 3 operation(s) for statements.
   name: MX Platform Statements API
   slug: mx-platform-statements-api
-- description: The Status API from MX Platform — 1 operation(s) for status.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Status API from MX Platform — 1 operation(s) for status.
   name: MX Platform Status API
   slug: mx-platform-status-api
-- description: The Taggings API from MX Platform — 2 operation(s) for taggings.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Taggings API from MX Platform — 2 operation(s) for taggings.
   name: MX Platform Taggings API
   slug: mx-platform-taggings-api
-- description: The Tags API from MX Platform — 3 operation(s) for tags.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Tags API from MX Platform — 3 operation(s) for tags.
   name: MX Platform Tags API
   slug: mx-platform-tags-api
-- description: The Tax_documents API from MX Platform — 3 operation(s) for tax_documents.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Tax_documents API from MX Platform — 3 operation(s) for tax_documents.
   name: MX Platform Tax_documents API
   slug: mx-platform-tax-documents-api
-- description: The Transaction_rules API from MX Platform — 2 operation(s) for transaction_rules.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Transaction_rules API from MX Platform — 2 operation(s) for transaction_rules.
   name: MX Platform Transaction_rules API
   slug: mx-platform-transaction-rules-api
-- description: The Transactions API from MX Platform — 10 operation(s) for transactions.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Transactions API from MX Platform — 10 operation(s) for transactions.
   name: MX Platform Transactions API
   slug: mx-platform-transactions-api
-- description: The Users API from MX Platform — 84 operation(s) for users.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Users API from MX Platform — 84 operation(s) for users.
   name: MX Platform Users API
   slug: mx-platform-users-api
-- description: The Verify API from MX Platform — 2 operation(s) for verify.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Verify API from MX Platform — 2 operation(s) for verify.
   name: MX Platform Verify API
   slug: mx-platform-verify-api
-- description: The Widget_urls API from MX Platform — 1 operation(s) for widget_urls.
+- baseURL: https://api.mx.com
+  baseurl_source: declared
+  description: The Widget_urls API from MX Platform — 1 operation(s) for widget_urls.
   name: MX Platform Widget_urls API
   slug: mx-platform-widget-urls-api
 artifact_total: 116
@@ -497,7 +607,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -507,7 +617,7 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 43.4
+  previous_composite: 43.2
   provenance:
     contracts:
       callable: 100.0
@@ -521,7 +631,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:

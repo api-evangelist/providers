@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 1 acting
 api_count: 1
 apis:
-- description: Low-level blockchain primitives including accounts, blocks, transactions, logs, and traces across EVM chains.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: Low-level blockchain primitives including accounts, blocks, transactions, logs, and traces across EVM chains.
   name: Transpose Block API API
   slug: transpose-block-api-api
-- description: Ethereum Name Service records and transfer history.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: Ethereum Name Service records and transfer history.
   name: Transpose ENS API API
   slug: transpose-ens-api-api
-- description: NFT collections, ownership, sales, and transfers for ERC-721 and ERC-1155 tokens.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: NFT collections, ownership, sales, and transfers for ERC-721 and ERC-1155 tokens.
   name: Transpose NFT API API
   slug: transpose-nft-api-api
-- description: Custom SQL query interface against Transpose's entire indexed blockchain dataset.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: Custom SQL query interface against Transpose's entire indexed blockchain dataset.
   name: Transpose SQL Analytics API API
   slug: transpose-sql-analytics-api-api
-- description: ERC-20, ERC-777, and native token balances, transfers, and DEX swaps.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: ERC-20, ERC-777, and native token balances, transfers, and DEX swaps.
   name: Transpose Token API API
   slug: transpose-token-api-api
-- description: Real-time and historical OHLC price data for any token including LP tokens.
+- baseURL: https://api.transpose.io
+  baseurl_source: declared
+  description: Real-time and historical OHLC price data for any token including LP tokens.
   name: Transpose Token Prices API API
   slug: transpose-token-prices-api-api
 artifact_total: 31
@@ -238,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transpose/refs/heads/main/screenshots/transpose-2026-06-20T195630.png
 security:

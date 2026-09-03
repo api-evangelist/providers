@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 296 operations · 130 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Create and manage A/B split tests
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Create and manage A/B split tests
   name: Benchmark Email ABTest Creation API
   slug: benchmark-email-abtest-creation-api
-- description: Manage account settings and configurations
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage account settings and configurations
   name: Benchmark Email Account Settings API
   slug: benchmark-email-account-settings-api
-- description: Add and import contacts to lists
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Add and import contacts to lists
   name: Benchmark Email Add Contacts API
   slug: benchmark-email-add-contacts-api
-- description: Manage linked agency accounts
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage linked agency accounts
   name: Benchmark Email Agency Account API
   slug: benchmark-email-agency-account-api
-- description: Manage email archive and archive pages
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage email archive and archive pages
   name: Benchmark Email Archive API
   slug: benchmark-email-archive-api
-- description: Create and manage automation workflows
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Create and manage automation workflows
   name: Benchmark Email Automation Creation API
   slug: benchmark-email-automation-creation-api
-- description: Configure and search contacts
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Configure and search contacts
   name: Benchmark Email Contact Configurations & Searches API
   slug: benchmark-email-contact-configurations-searches-api
-- description: Contact reporting and metrics
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Contact reporting and metrics
   name: Benchmark Email Contact Reports & Metrics API
   slug: benchmark-email-contact-reports-metrics-api
-- description: Email template and layout management
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Email template and layout management
   name: Benchmark Email Email Editor API
   slug: benchmark-email-email-editor-api
-- description: Email Email Rss Creation
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Email Email Rss Creation
   name: Benchmark Email Email  Email Rss Creation API
   slug: benchmark-email-email-email-rss-creation-api
-- description: Engagement analytics and list building
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Engagement analytics and list building
   name: Benchmark Email Engagement API
   slug: benchmark-email-engagement-api
-- description: General operations
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: General operations
   name: Benchmark Email General API
   slug: benchmark-email-general-api
-- description: Help desk and support tickets
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Help desk and support tickets
   name: Benchmark Email Help API
   slug: benchmark-email-help-api
-- description: Manage image gallery
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage image gallery
   name: Benchmark Email Image Gallery API
   slug: benchmark-email-image-gallery-api
-- description: Test emails in inbox preview
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Test emails in inbox preview
   name: Benchmark Email Inbox Checker API
   slug: benchmark-email-inbox-checker-api
-- description: Configure and search contact lists
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Configure and search contact lists
   name: Benchmark Email List Configurations & Searches API
   slug: benchmark-email-list-configurations-searches-api
-- description: List reporting and metrics
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: List reporting and metrics
   name: Benchmark Email List Reporting or  Metrics API
   slug: benchmark-email-list-reporting-or-metrics-api
-- description: Partner commission and referral management
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Partner commission and referral management
   name: Benchmark Email Partner API
   slug: benchmark-email-partner-api
-- description: Create and manage polls
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Create and manage polls
   name: Benchmark Email Poll Creation API
   slug: benchmark-email-poll-creation-api
-- description: Campaign reporting and analytics
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Campaign reporting and analytics
   name: Benchmark Email Reports API
   slug: benchmark-email-reports-api
-- description: Authentication and security operations
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Authentication and security operations
   name: Benchmark Email Security API
   slug: benchmark-email-security-api
-- description: Manage contact segments
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage contact segments
   name: Benchmark Email Segments API
   slug: benchmark-email-segments-api
-- description: Manage signup forms
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage signup forms
   name: Benchmark Email Signup Form API
   slug: benchmark-email-signup-form-api
-- description: Manage sub-accounts and their settings
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage sub-accounts and their settings
   name: Benchmark Email Sub-Account API
   slug: benchmark-email-sub-account-api
-- description: Survey
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Survey
   name: Benchmark Email Survey API
   slug: benchmark-email-survey-api
-- description: Create and manage surveys
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Create and manage surveys
   name: Benchmark Email Survey Creation API
   slug: benchmark-email-survey-creation-api
-- description: Third-party signup form integrations
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Third-party signup form integrations
   name: Benchmark Email Third Party Signup Forms API
   slug: benchmark-email-third-party-signup-forms-api
-- description: Manage video gallery
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage video gallery
   name: Benchmark Email Video Gallery API
   slug: benchmark-email-video-gallery-api
-- description: Manage webhooks for event notifications
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Manage webhooks for event notifications
   name: Benchmark Email Webhooks API
   slug: benchmark-email-webhooks-api
-- description: Contact related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Contact related endpoints
   name: Benchmark Email Contact API
   slug: benchmark-email-contact-api
-- description: Contact structure related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Contact structure related endpoints
   name: Benchmark Email Contact Structure API
   slug: benchmark-email-contact-structure-api
-- description: Email campaign related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Email campaign related endpoints
   name: Benchmark Email Email Campaign API
   slug: benchmark-email-email-campaign-api
-- description: Email domain related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Email domain related endpoints
   name: Benchmark Email Email Domain API
   slug: benchmark-email-email-domain-api
-- description: Email template related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: Email template related endpoints
   name: Benchmark Email Email Template API
   slug: benchmark-email-email-template-api
-- description: List related endpoints
+- baseURL: https://clientapi.benchmarkemail.com
+  baseurl_source: declared
+  description: List related endpoints
   name: Benchmark Email Lists API
   slug: benchmark-email-lists-api
 artifact_total: 87
@@ -482,7 +552,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -492,7 +562,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 28.9
-  previous_composite: 63.8
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,7 +574,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:

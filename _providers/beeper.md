@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 30 operations · 18 acting
 api_count: 1
 apis:
-- description: Chat Accounts connected to this Beeper Desktop instance. Each Account owns a bridge and network.
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: Chat Accounts connected to this Beeper Desktop instance. Each Account owns a bridge and network.
   name: Beeper Accounts API
   slug: beeper-accounts-api
-- description: 'Top-level actions: focus the app window, jump to a chat, or run unified search across chats and messages.'
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: 'Top-level actions: focus the app window, jump to a chat, or run unified search across chats and messages.'
   name: Beeper App API
   slug: beeper-app-api
-- description: Chats, reminders, read state, archive state, priority, mute, and other conversation metadata.
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: Chats, reminders, read state, archive state, priority, mute, and other conversation metadata.
   name: Beeper Chats API
   slug: beeper-chats-api
-- description: Per-account address book and network lookup. The same person can appear under multiple Accounts.
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: Per-account address book and network lookup. The same person can appear under multiple Accounts.
   name: Beeper Contacts API
   slug: beeper-contacts-api
-- description: File upload, download, and streaming helpers for message attachments and drafts.
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: File upload, download, and streaming helpers for message attachments and drafts.
   name: Beeper Files API
   slug: beeper-files-api
-- description: 'Messages inside a Chat: list, search, send, retrieve, edit, delete, and react.'
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: 'Messages inside a Chat: list, search, send, retrieve, edit, delete, and react.'
   name: Beeper Messages API
   slug: beeper-messages-api
-- description: Server discovery and capability metadata. Use /v1/info before authentication setup.
+- baseURL: http://localhost:23373
+  baseurl_source: declared
+  description: Server discovery and capability metadata. Use /v1/info before authentication setup.
   name: Beeper Server API
   slug: beeper-server-api
 artifact_total: 21
@@ -248,7 +262,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -258,7 +272,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeper/refs/heads/main/screenshots/beeper-2026-07-25T202639.png
 security:

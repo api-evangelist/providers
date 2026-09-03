@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 25 operations · 7 acting
 api_count: 1
 apis:
-- description: The Account API from SF Compute — 4 operation(s) for account.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Account API from SF Compute — 4 operation(s) for account.
   name: SF Compute Account API
   slug: sfcompute-account-api
-- description: The Balance API from SF Compute — 2 operation(s) for balance.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Balance API from SF Compute — 2 operation(s) for balance.
   name: SF Compute Balance API
   slug: sfcompute-balance-api
-- description: The Clusters API from SF Compute — 5 operation(s) for clusters.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Clusters API from SF Compute — 5 operation(s) for clusters.
   name: SF Compute Clusters API
   slug: sfcompute-clusters-api
-- description: The Contracts API from SF Compute — 2 operation(s) for contracts.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Contracts API from SF Compute — 2 operation(s) for contracts.
   name: SF Compute Contracts API
   slug: sfcompute-contracts-api
-- description: The Nodes API from SF Compute — 3 operation(s) for nodes.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Nodes API from SF Compute — 3 operation(s) for nodes.
   name: SF Compute Nodes API
   slug: sfcompute-nodes-api
-- description: The Orders API from SF Compute — 3 operation(s) for orders.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Orders API from SF Compute — 3 operation(s) for orders.
   name: SF Compute Orders API
   slug: sfcompute-orders-api
-- description: The Prices API from SF Compute — 1 operation(s) for prices.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Prices API from SF Compute — 1 operation(s) for prices.
   name: SF Compute Prices API
   slug: sfcompute-prices-api
-- description: The Images API from SF Compute — 5 operation(s) for images.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Images API from SF Compute — 5 operation(s) for images.
   name: SF Compute Images API
   slug: sfcompute-images-api
-- description: The Money API from SF Compute — 4 operation(s) for money.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The Money API from SF Compute — 4 operation(s) for money.
   name: SF Compute Money API
   slug: sfcompute-money-api
-- description: The VMs API from SF Compute — 5 operation(s) for vms.
+- baseURL: https://api.sfcompute.com/v0
+  baseurl_source: declared
+  description: The VMs API from SF Compute — 5 operation(s) for vms.
   name: SF Compute V Ms API
   slug: sfcompute-vms-api
 artifact_total: 35
@@ -273,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfcompute/refs/heads/main/screenshots/sfcompute-2026-06-20T193742.png
 security:

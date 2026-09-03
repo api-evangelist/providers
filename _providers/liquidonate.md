@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations · 9 acting
 api_count: 2
 apis:
-- description: Bulky, multi-package and pickup-scheduled donations.
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: Bulky, multi-package and pickup-scheduled donations.
   name: LiquiDonate Donate API
   slug: liquidonate-donate-api
-- description: Match items to nonprofits.
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: Match items to nonprofits.
   name: LiquiDonate Match API
   slug: liquidonate-match-api
-- description: Push order data into ReturnsDirect.
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: Push order data into ReturnsDirect.
   name: LiquiDonate Orders API
   slug: liquidonate-orders-api
-- description: Retailer account setup and lookup.
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: Retailer account setup and lookup.
   name: LiquiDonate Retailer API
   slug: liquidonate-retailer-api
-- description: Purchase donation shipping labels.
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: Purchase donation shipping labels.
   name: LiquiDonate Ship API
   slug: liquidonate-ship-api
-- description: The ReturnsDirect By LiquiDonate (Beta) API from LiquiDonate — 0 operation(s) for returnsdirect by liquidonate (beta).
+- baseURL: https://api.liquidonate.com
+  baseurl_source: declared
+  description: The ReturnsDirect By LiquiDonate (Beta) API from LiquiDonate — 0 operation(s) for returnsdirect by liquidonate (beta).
   name: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
   slug: liquidonate-returnsdirect-by-liquidonate-beta-api
 artifact_total: 17
@@ -287,7 +299,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -297,7 +309,7 @@ score:
     discoverability: 75.9
     governance: 19.7
     operational_transparency: 23.7
-  previous_composite: 52.5
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:

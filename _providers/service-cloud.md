@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Core REST API for Service Cloud operations: sObject CRUD over Case, CaseComment, EmailMessage, Knowledge articles and every other standard and custom object, plus SOQL query, SOSL search and composite'
@@ -64,13 +64,19 @@ apis:
 - description: Generally available remote Model Context Protocol servers that expose the Salesforce sObject layer to AI agents over OAuth. Four least-privilege SObject servers (all, reads, mutations, deletes) plus D
   name: Salesforce Hosted MCP Servers
   slug: salesforce-hosted-mcp-servers
-- description: The bot API from Salesforce Service Cloud APIs — 3 operation(s) for bot.
+- baseURL: https://runtime-api-na-west.prod.chatbots.sfdc.sh
+  baseurl_source: spec
+  description: The bot API from Salesforce Service Cloud APIs — 3 operation(s) for bot.
   name: Salesforce Service Cloud APIs Bot API
   slug: service-cloud-bot-api
-- description: The health API from Salesforce Service Cloud APIs — 1 operation(s) for health.
+- baseURL: https://runtime-api-na-west.prod.chatbots.sfdc.sh
+  baseurl_source: spec
+  description: The health API from Salesforce Service Cloud APIs — 1 operation(s) for health.
   name: Salesforce Service Cloud APIs Health API
   slug: service-cloud-health-api
-- description: The versions API from Salesforce Service Cloud APIs — 1 operation(s) for versions.
+- baseURL: https://runtime-api-na-west.prod.chatbots.sfdc.sh
+  baseurl_source: spec
+  description: The versions API from Salesforce Service Cloud APIs — 1 operation(s) for versions.
   name: Salesforce Service Cloud APIs Versions API
   slug: service-cloud-versions-api
 artifact_total: 22
@@ -324,7 +330,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.4
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -334,7 +340,7 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 60.4
+  previous_composite: 67.8
   provenance:
     conformance: first-party
     contracts:
@@ -345,8 +351,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png
 security:
 - kind: authentication

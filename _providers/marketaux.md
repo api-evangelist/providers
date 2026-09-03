@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Entity statistics, trending entities, entity search, and entity metadata.
+- baseURL: https://api.marketaux.com/v1
+  baseurl_source: declared
+  description: Entity statistics, trending entities, entity search, and entity metadata.
   name: MarketAux Entities API
   slug: marketaux-entities-api
-- description: Financial and market news feeds, similar-article lookup, and article retrieval by UUID.
+- baseURL: https://api.marketaux.com/v1
+  baseurl_source: declared
+  description: Financial and market news feeds, similar-article lookup, and article retrieval by UUID.
   name: MarketAux News API
   slug: marketaux-news-api
-- description: News source metadata usable in news feed filters.
+- baseURL: https://api.marketaux.com/v1
+  baseurl_source: declared
+  description: News source metadata usable in news feed filters.
   name: MarketAux Sources API
   slug: marketaux-sources-api
 artifact_total: 9
@@ -224,7 +230,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

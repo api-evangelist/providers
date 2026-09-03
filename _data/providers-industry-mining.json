@@ -29,7 +29,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -74,7 +74,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -126,7 +126,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -164,6 +164,7 @@
      "name": "VRIFY",
      "slug": "vrify",
      "description": "VRIFY Technology Inc. is a Vancouver, British Columbia software company that builds exploration intelligence software for the mining industry, with a team of geoscientists and AI engineers and a presence in Western Australia. Its platform pairs VRIFY Predict — the DORA AI-assisted mineral discovery product, which trains mineral-system-specific models on a large proprietary global exploration dataset to rank prospectivity targets, score them (VPS) and, since August 2026, quantify prediction uncertainty — with VRIFY Present, an interactive 3D and 360-degree presentation product mining companies use to communicate projects to investors, plus a Files upload/processing and VRIFY Explore data layer and an iOS app. Southern Cross Gold's 2024 Sunday Creek discovery came from a target DORA identified independently. VRIFY raised a CAD$12.5M Series B in February 2025 led by LGVP with RCF Innovation and Beedie Capital, taking total funding past CAD$30M. VRIFY sells a closed end-user SaaS: as of August 2026 it publishes no public API, SDK, developer portal or machine-readable contract. The only machine surfaces a member of the public can reach are the app's own backend at services.vrify.com/v2/ (401, WWW-Authenticate: Bearer realm=\"api\", with its /v2/docs endpoint 302ing to a Django staff login) and a copy-paste 3D presentation embed customers place on their own company websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vrify/refs/heads/main/screenshots/vrify-2026-09-02T170313.png",
      "score": 28.7,
      "band": "thin",
      "band_label": "Thin",
@@ -177,7 +178,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -222,7 +223,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -267,7 +268,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
@@ -312,7 +313,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -368,7 +369,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -420,7 +421,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -458,6 +459,7 @@
      "name": "Tari",
      "slug": "tari",
      "description": "Tari is an open-source, proof-of-work blockchain protocol designed to be private by default (confidential transactions) and accessible to everyday users. Its Tari Universe application lets people mine XTM tokens by contributing compute, and the protocol has grown to hundreds of thousands of active miners. For developers, exchanges, and dApp builders, Tari exposes self-hosted Base Node and Wallet interfaces over gRPC (proto3, package tari.rpc): the Base Node service queries headers, blocks, mempool, network constants, block templates for miners, and PayRef payment-reference lookups, while the Wallet service handles balances, transfers, fee estimation, one-sided and atomic-swap transactions, transaction history, and a live transaction-event stream. A Layer-2 (Ootle) adds smart-contract templates via the tari-cli. Official TypeScript SDKs (tari.js, typescript-bindings, wallet JSON-RPC client) and Rust crates support integration. Tari is backed by Canaan Partners, Multicoin Capital, Pantera Capital, and Trinity Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/screenshots/tari-2026-09-02T162544.png",
      "score": 24.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -471,7 +473,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -523,7 +525,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -562,12 +564,12 @@
      "slug": "impossible-metals",
      "description": "Impossible Metals is a deep-ocean robotics and critical-minerals company founded in 2020 by CEO Oliver Gunasekara, headquartered in San Jose, California with a robotics lab in Canada, and a member of Y Combinator's W22 cohort. It builds the Eureka autonomous underwater vehicle, a hovering AUV that uses computer vision and robotic arms to pick polymetallic nodules from the seabed one at a time — leaving visible fauna and the sediment layer in place — as an alternative to the dredge-and-riser designs used elsewhere in deep-sea mining. Eureka I and Eureka II have been sea-tested, Eureka III is slated for a 2026 test in the BGR contract area of the Clarion-Clipperton Zone, and the company has applied for a deep-sea mining lease in U.S. federal waters and for observer status with the International Seabed Authority. It is a certified B Corp and publishes environmental data, policy positions and testimony alongside its technical work. Impossible Metals is a robotics and mining company rather than a software vendor: it operates no developer program, publishes no product API, SDKs or developer portal, and hosts no api. or developer. subdomain. The only machine-readable interfaces it serves are the WordPress REST content API behind impossiblemetals.com and the two OpenAPI documents its events plugin publishes on that same host, which are captured here for discovery purposes and are anonymously readable and read-only.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/impossible-metals/refs/heads/main/screenshots/impossible-metals-2026-09-02T145856.png",
-     "score": 20.8,
+     "score": 21.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 26.2,
+      "contract_quality": 29.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
@@ -575,7 +577,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -620,7 +622,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -665,7 +667,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -717,7 +719,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -769,7 +771,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -821,7 +823,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -873,7 +875,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -925,7 +927,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -970,7 +972,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1022,7 +1024,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1067,7 +1069,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1112,7 +1114,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1157,7 +1159,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1202,7 +1204,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1254,7 +1256,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1299,7 +1301,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1344,7 +1346,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1396,7 +1398,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1452,7 +1454,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1504,7 +1506,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1549,7 +1551,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1594,7 +1596,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1646,7 +1648,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1690,7 +1692,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1742,7 +1744,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1787,7 +1789,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1832,7 +1834,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1884,7 +1886,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1935,7 +1937,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1980,7 +1982,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2025,7 +2027,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2063,6 +2065,7 @@
      "name": "USA Rare Earth",
      "slug": "usa-rare-earth",
      "description": "USA Rare Earth, Inc. (Nasdaq: USAR) is an American critical-minerals and advanced-materials company building a domestic mine-to-magnet rare earth supply chain. It operates a 310,000 sq. ft. sintered neodymium-iron-boron (NdFeB) permanent magnet manufacturing facility in Stillwater, Oklahoma, and holds the Round Top heavy rare earth and critical minerals deposit in Hudspeth County, West Texas. The company produces rare earth elements, oxides, metals and sintered permanent magnets for defense, automotive, robotics, industrial and clean-energy customers, with the stated aim of reducing U.S. dependence on offshore rare earth processing and magnet production. It is a materials producer and manufacturer, not a software or data company, and publishes no public developer program, API, or machine-readable interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-rare-earth/refs/heads/main/screenshots/usa-rare-earth-2026-09-02T165223.png",
      "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2076,7 +2079,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2128,7 +2131,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2173,7 +2176,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2225,7 +2228,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -2270,7 +2273,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2315,7 +2318,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2360,7 +2363,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2405,7 +2408,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2450,7 +2453,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2495,7 +2498,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2540,7 +2543,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2571,6 +2574,7 @@
      "name": "Skycatch",
      "slug": "skycatch",
      "description": "Skycatch built spatial data capture, processing, and analytics for mining and construction sites, turning drone and aerial imagery into high-precision 3D data, volumetrics, and AI-driven site insights. Its products included Spatial Sight, Spatial DataHub (datahub.skycatch.com), and EdgeServer for on-site edge processing. Skycatch was acquired by Caterpillar Inc. on July 7, 2026 (following Caterpillar's RPMGlobal acquisition) to expand its mining technology capabilities. A developer platform exists at docs.skycatch.com but is password-gated, and no public API specification is available. Originally surfaced as a GV (Google Ventures) portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skycatch/refs/heads/main/screenshots/skycatch-2026-09-02T155753.png",
      "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2584,7 +2588,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2629,7 +2633,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2681,7 +2685,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2726,7 +2730,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2778,7 +2782,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2822,7 +2826,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2867,7 +2871,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2912,7 +2916,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2957,7 +2961,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3002,7 +3006,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3047,7 +3051,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3092,7 +3096,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3123,6 +3127,7 @@
      "name": "VerAI",
      "slug": "verai",
      "description": "VerAI Discoveries is an AI-driven mineral discovery company founded in 2020 and headquartered in Boston, Massachusetts. Its proprietary AI/ML Discovery Platform searches magnetic, gravimetric, electromagnetic, and seismic geophysical datasets to detect concealed mineral deposits in underexplored covered terrain, generating drill-ready targets across a portfolio of more than sixty mineral projects and royalties in North and South America. VerAI partners with explorers and investors to develop critical-mineral assets essential to the green-energy transition. The company is backed by Insight Partners, Blumberg Capital, Chrysalix Venture Capital, and Orion Industrial Ventures, and to date exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/verai/refs/heads/main/screenshots/verai-2026-09-02T165658.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3136,7 +3141,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3181,7 +3186,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3233,7 +3238,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3278,7 +3283,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3330,7 +3335,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3382,7 +3387,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3434,12 +3439,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3484,12 +3489,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3534,12 +3539,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3584,7 +3589,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3636,7 +3641,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3688,7 +3693,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3726,6 +3731,7 @@
      "name": "Terra AI",
      "slug": "terraai",
      "description": "Terra AI is a geoscience frontier company building specialized artificial intelligence for the natural resources sector, focused on subsurface characterization and exploration optimization for mining and reservoir operators. Its platform integrates exploration data to generate large populations of geological models, helping teams decide where to drill, characterize deposits, and assess project economics earlier — the company cites 50-60% fewer drilling meters and 2-3x more precise resource estimates versus conventional methods. Terra AI raised a $20M Series A led by Khosla Ventures with BHP Ventures in June 2026 and serves copper, gold, rare-earth (REE), and reservoir projects. The company operates on a B2B model and publishes no public developer API, SDK, or developer portal at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/terraai/refs/heads/main/screenshots/terraai-2026-09-02T163157.png",
      "score": 2.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3739,7 +3745,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3790,7 +3796,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3842,7 +3848,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

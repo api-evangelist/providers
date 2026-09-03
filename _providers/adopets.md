@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 3
 apis:
-- description: Create and manage adoption payment requests
+- baseURL: https://service.api.dev.adopets.app
+  baseurl_source: declared
+  description: Create and manage adoption payment requests
   name: Adopets payment-request API
   slug: adopets-payment-request-api
-- description: Retrieve and refund payment transactions
+- baseURL: https://service.api.dev.adopets.app
+  baseurl_source: declared
+  description: Retrieve and refund payment transactions
   name: Adopets payment-transaction API
   slug: adopets-payment-transaction-api
-- description: Connect/disconnect an external system user and obtain a session token
+- baseURL: https://service.api.dev.adopets.app
+  baseurl_source: declared
+  description: Connect/disconnect an external system user and obtain a session token
   name: Adopets system-auth API
   slug: adopets-system-auth-api
 arazzos:
@@ -183,7 +189,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -193,7 +199,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.8
+  previous_composite: 21.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +217,8 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adopets/refs/heads/main/screenshots/adopets-2026-07-25T181658.png
 security:
 - kind: authentication

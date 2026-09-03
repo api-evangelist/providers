@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: 'The USACE Open Data program provides public access to geospatial data, regulatory permit information, and other datasets maintained by the US Army Corps of Engineers. Data is available through ArcGIS '
   name: USACE Open Data
   slug: usace-open-data
-- description: The Catalog API from US Army Corps of Engineers — 1 operation(s) for catalog.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Catalog API from US Army Corps of Engineers — 1 operation(s) for catalog.
   name: US Army Corps of Engineers Catalog API
   slug: us-army-corps-of-engineers-catalog-api
-- description: The Levels API from US Army Corps of Engineers — 1 operation(s) for levels.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Levels API from US Army Corps of Engineers — 1 operation(s) for levels.
   name: US Army Corps of Engineers Levels API
   slug: us-army-corps-of-engineers-levels-api
-- description: The Locations API from US Army Corps of Engineers — 2 operation(s) for locations.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Locations API from US Army Corps of Engineers — 2 operation(s) for locations.
   name: US Army Corps of Engineers Locations API
   slug: us-army-corps-of-engineers-locations-api
-- description: The Offices API from US Army Corps of Engineers — 1 operation(s) for offices.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Offices API from US Army Corps of Engineers — 1 operation(s) for offices.
   name: US Army Corps of Engineers Offices API
   slug: us-army-corps-of-engineers-offices-api
-- description: The Ratings API from US Army Corps of Engineers — 1 operation(s) for ratings.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Ratings API from US Army Corps of Engineers — 1 operation(s) for ratings.
   name: US Army Corps of Engineers Ratings API
   slug: us-army-corps-of-engineers-ratings-api
-- description: The Reservoirs API from US Army Corps of Engineers — 1 operation(s) for reservoirs.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Reservoirs API from US Army Corps of Engineers — 1 operation(s) for reservoirs.
   name: US Army Corps of Engineers Reservoirs API
   slug: us-army-corps-of-engineers-reservoirs-api
-- description: The Timeseries API from US Army Corps of Engineers — 2 operation(s) for timeseries.
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: The Timeseries API from US Army Corps of Engineers — 2 operation(s) for timeseries.
   name: US Army Corps of Engineers Timeseries API
   slug: us-army-corps-of-engineers-timeseries-api
 artifact_total: 31
@@ -234,7 +248,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-army-corps-of-engineers/refs/heads/main/screenshots/us-army-corps-of-engineers-2026-06-20T200546.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Creators API from Indiegogo — 1 operation(s) for creators.
+- baseURL: https://www.indiegogo.com/api/public
+  baseurl_source: declared
+  description: The Creators API from Indiegogo — 1 operation(s) for creators.
   name: Indiegogo Creators API
   slug: indiegogo-creators-api
-- description: The Projects API from Indiegogo — 2 operation(s) for projects.
+- baseURL: https://www.indiegogo.com/api/public
+  baseurl_source: declared
+  description: The Projects API from Indiegogo — 2 operation(s) for projects.
   name: Indiegogo Projects API
   slug: indiegogo-projects-api
 artifact_total: 9
@@ -214,7 +218,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/screenshots/indiegogo-2026-07-25T222320.png
 security:

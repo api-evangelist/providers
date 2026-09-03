@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 210
   human_in_the_loop: 15
@@ -50,82 +50,134 @@ apis:
 - description: Okta for AI Agents secures the full lifecycle of AI agents — discovery, registration with mandatory human ownership, least-privilege scope enforcement, runtime monitoring, and instant revocation — wit
   name: Okta for AI Agents
   slug: okta-for-ai-agents
-- description: The Application API from Okta — 31 operation(s) for application.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Application API from Okta — 31 operation(s) for application.
   name: Okta Application API
   slug: okta-application-api
-- description: The Authenticator API from Okta — 4 operation(s) for authenticator.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Authenticator API from Okta — 4 operation(s) for authenticator.
   name: Okta Authenticator API
   slug: okta-authenticator-api
-- description: The AuthorizationServer API from Okta — 21 operation(s) for authorizationserver.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The AuthorizationServer API from Okta — 21 operation(s) for authorizationserver.
   name: Okta AuthorizationServer API
   slug: okta-authorizationserver-api
-- description: The Brand API from Okta — 15 operation(s) for brand.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Brand API from Okta — 15 operation(s) for brand.
   name: Okta Brand API
   slug: okta-brand-api
-- description: The Domain API from Okta — 4 operation(s) for domain.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Domain API from Okta — 4 operation(s) for domain.
   name: Okta Domain API
   slug: okta-domain-api
-- description: The EventHook API from Okta — 5 operation(s) for eventhook.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The EventHook API from Okta — 5 operation(s) for eventhook.
   name: Okta EventHook API
   slug: okta-eventhook-api
-- description: The Feature API from Okta — 5 operation(s) for feature.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Feature API from Okta — 5 operation(s) for feature.
   name: Okta Feature API
   slug: okta-feature-api
-- description: The Group API from Okta — 16 operation(s) for group.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Group API from Okta — 16 operation(s) for group.
   name: Okta Group API
   slug: okta-group-api
-- description: The GroupSchema API from Okta — 1 operation(s) for groupschema.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The GroupSchema API from Okta — 1 operation(s) for groupschema.
   name: Okta GroupSchema API
   slug: okta-groupschema-api
-- description: The IdentityProvider API from Okta — 16 operation(s) for identityprovider.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The IdentityProvider API from Okta — 16 operation(s) for identityprovider.
   name: Okta IdentityProvider API
   slug: okta-identityprovider-api
-- description: The InlineHook API from Okta — 5 operation(s) for inlinehook.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The InlineHook API from Okta — 5 operation(s) for inlinehook.
   name: Okta InlineHook API
   slug: okta-inlinehook-api
-- description: The LinkedObject API from Okta — 2 operation(s) for linkedobject.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The LinkedObject API from Okta — 2 operation(s) for linkedobject.
   name: Okta LinkedObject API
   slug: okta-linkedobject-api
-- description: The Log API from Okta — 1 operation(s) for log.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Log API from Okta — 1 operation(s) for log.
   name: Okta Log API
   slug: okta-log-api
-- description: The NetworkZone API from Okta — 4 operation(s) for networkzone.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The NetworkZone API from Okta — 4 operation(s) for networkzone.
   name: Okta NetworkZone API
   slug: okta-networkzone-api
-- description: The Org API from Okta — 14 operation(s) for org.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Org API from Okta — 14 operation(s) for org.
   name: Okta Org API
   slug: okta-org-api
-- description: The Policy API from Okta — 8 operation(s) for policy.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Policy API from Okta — 8 operation(s) for policy.
   name: Okta Policy API
   slug: okta-policy-api
-- description: The ProfileMapping API from Okta — 2 operation(s) for profilemapping.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The ProfileMapping API from Okta — 2 operation(s) for profilemapping.
   name: Okta ProfileMapping API
   slug: okta-profilemapping-api
-- description: The Session API from Okta — 3 operation(s) for session.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Session API from Okta — 3 operation(s) for session.
   name: Okta Session API
   slug: okta-session-api
-- description: The Subscription API from Okta — 6 operation(s) for subscription.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Subscription API from Okta — 6 operation(s) for subscription.
   name: Okta Subscription API
   slug: okta-subscription-api
-- description: The Template API from Okta — 2 operation(s) for template.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The Template API from Okta — 2 operation(s) for template.
   name: Okta Template API
   slug: okta-template-api
-- description: The ThreatInsight API from Okta — 1 operation(s) for threatinsight.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The ThreatInsight API from Okta — 1 operation(s) for threatinsight.
   name: Okta ThreatInsight API
   slug: okta-threatinsight-api
-- description: The TrustedOrigin API from Okta — 4 operation(s) for trustedorigin.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The TrustedOrigin API from Okta — 4 operation(s) for trustedorigin.
   name: Okta TrustedOrigin API
   slug: okta-trustedorigin-api
-- description: The User API from Okta — 36 operation(s) for user.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The User API from Okta — 36 operation(s) for user.
   name: Okta User API
   slug: okta-user-api
-- description: The UserFactor API from Okta — 7 operation(s) for userfactor.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The UserFactor API from Okta — 7 operation(s) for userfactor.
   name: Okta UserFactor API
   slug: okta-userfactor-api
-- description: The UserSchema API from Okta — 2 operation(s) for userschema.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The UserSchema API from Okta — 2 operation(s) for userschema.
   name: Okta UserSchema API
   slug: okta-userschema-api
-- description: The UserType API from Okta — 2 operation(s) for usertype.
+- baseURL: https://your-subdomain.okta.com
+  baseurl_source: declared
+  description: The UserType API from Okta — 2 operation(s) for usertype.
   name: Okta UserType API
   slug: okta-usertype-api
 arazzos:
@@ -2088,7 +2140,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -2098,7 +2150,7 @@ score:
     discoverability: 53.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 61.0
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
@@ -2107,7 +2159,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png
 security:

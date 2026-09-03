@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 25
@@ -43,139 +43,229 @@ agentic_access:
   summary_line: 412 operations · 264 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- description: The Active Directory API from Weka — 1 operation(s) for active directory.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Active Directory API from Weka — 1 operation(s) for active directory.
   name: Weka Active Directory API
   slug: weka-active-directory-api
-- description: The Alerts API from Weka — 8 operation(s) for alerts.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Alerts API from Weka — 8 operation(s) for alerts.
   name: Weka Alerts API
   slug: weka-alerts-api
-- description: The Catalog API from Weka — 12 operation(s) for catalog.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Catalog API from Weka — 12 operation(s) for catalog.
   name: Weka Catalog API
   slug: weka-catalog-api
-- description: The Cluster API from Weka — 2 operation(s) for cluster.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Cluster API from Weka — 2 operation(s) for cluster.
   name: Weka Cluster API
   slug: weka-cluster-api
-- description: The Containers API from Weka — 17 operation(s) for containers.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Containers API from Weka — 17 operation(s) for containers.
   name: Weka Containers API
   slug: weka-containers-api
-- description: The DataService API from Weka — 1 operation(s) for dataservice.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The DataService API from Weka — 1 operation(s) for dataservice.
   name: Weka DataService API
   slug: weka-dataservice-api
-- description: The Default network API from Weka — 1 operation(s) for default network.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Default network API from Weka — 1 operation(s) for default network.
   name: Weka Default network API
   slug: weka-default-network-api
-- description: The Drive API from Weka — 5 operation(s) for drive.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Drive API from Weka — 5 operation(s) for drive.
   name: Weka Drive API
   slug: weka-drive-api
-- description: The Events API from Weka — 5 operation(s) for events.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Events API from Weka — 5 operation(s) for events.
   name: Weka Events API
   slug: weka-events-api
-- description: The Failure domains API from Weka — 2 operation(s) for failure domains.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Failure domains API from Weka — 2 operation(s) for failure domains.
   name: Weka Failure domains API
   slug: weka-failure-domains-api
-- description: The Filesystem API from Weka — 16 operation(s) for filesystem.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Filesystem API from Weka — 16 operation(s) for filesystem.
   name: Weka Filesystem API
   slug: weka-filesystem-api
-- description: The Filesystem group API from Weka — 2 operation(s) for filesystem group.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Filesystem group API from Weka — 2 operation(s) for filesystem group.
   name: Weka Filesystem group API
   slug: weka-filesystem-group-api
-- description: The Health API from Weka — 2 operation(s) for health.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Health API from Weka — 2 operation(s) for health.
   name: Weka Health API
   slug: weka-health-api
-- description: The Hosts API from Weka — 14 operation(s) for hosts.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Hosts API from Weka — 14 operation(s) for hosts.
   name: Weka Hosts API
   slug: weka-hosts-api
-- description: The Interface group API from Weka — 10 operation(s) for interface group.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Interface group API from Weka — 10 operation(s) for interface group.
   name: Weka Interface group API
   slug: weka-interface-group-api
-- description: The KMS API from Weka — 3 operation(s) for kms.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The KMS API from Weka — 3 operation(s) for kms.
   name: Weka KMS API
   slug: weka-kms-api
-- description: The LDAP API from Weka — 1 operation(s) for ldap.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The LDAP API from Weka — 1 operation(s) for ldap.
   name: Weka LDAP API
   slug: weka-ldap-api
-- description: The License API from Weka — 1 operation(s) for license.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The License API from Weka — 1 operation(s) for license.
   name: Weka License API
   slug: weka-license-api
-- description: The Lockout policy API from Weka — 1 operation(s) for lockout policy.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Lockout policy API from Weka — 1 operation(s) for lockout policy.
   name: Weka Lockout policy API
   slug: weka-lockout-policy-api
-- description: The Login API from Weka — 2 operation(s) for login.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Login API from Weka — 2 operation(s) for login.
   name: Weka Login API
   slug: weka-login-api
-- description: The Machines API from Weka — 2 operation(s) for machines.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Machines API from Weka — 2 operation(s) for machines.
   name: Weka Machines API
   slug: weka-machines-api
-- description: The Mounts Defaults API from Weka — 1 operation(s) for mounts defaults.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Mounts Defaults API from Weka — 1 operation(s) for mounts defaults.
   name: Weka Mounts Defaults API
   slug: weka-mounts-defaults-api
-- description: The NetworkSpace API from Weka — 3 operation(s) for networkspace.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The NetworkSpace API from Weka — 3 operation(s) for networkspace.
   name: Weka NetworkSpace API
   slug: weka-networkspace-api
-- description: The NFS API from Weka — 21 operation(s) for nfs.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The NFS API from Weka — 21 operation(s) for nfs.
   name: Weka NFS API
   slug: weka-nfs-api
-- description: The Nodes API from Weka — 2 operation(s) for nodes.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Nodes API from Weka — 2 operation(s) for nodes.
   name: Weka Nodes API
   slug: weka-nodes-api
-- description: The Object store API from Weka — 2 operation(s) for object store.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Object store API from Weka — 2 operation(s) for object store.
   name: Weka Object store API
   slug: weka-object-store-api
-- description: The Object store bucket API from Weka — 3 operation(s) for object store bucket.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Object store bucket API from Weka — 3 operation(s) for object store bucket.
   name: Weka Object store bucket API
   slug: weka-object-store-bucket-api
-- description: The Organization API from Weka — 12 operation(s) for organization.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Organization API from Weka — 12 operation(s) for organization.
   name: Weka Organization API
   slug: weka-organization-api
-- description: The Processes API from Weka — 2 operation(s) for processes.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Processes API from Weka — 2 operation(s) for processes.
   name: Weka Processes API
   slug: weka-processes-api
-- description: The Quota API from Weka — 8 operation(s) for quota.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Quota API from Weka — 8 operation(s) for quota.
   name: Weka Quota API
   slug: weka-quota-api
-- description: The S3 API from Weka — 29 operation(s) for s3.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The S3 API from Weka — 29 operation(s) for s3.
   name: Weka S3 API
   slug: weka-s3-api
-- description: The Security API from Weka — 15 operation(s) for security.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Security API from Weka — 15 operation(s) for security.
   name: Weka Security API
   slug: weka-security-api
-- description: The Servers API from Weka — 3 operation(s) for servers.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Servers API from Weka — 3 operation(s) for servers.
   name: Weka Servers API
   slug: weka-servers-api
-- description: The SMB API from Weka — 13 operation(s) for smb.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The SMB API from Weka — 13 operation(s) for smb.
   name: Weka SMB API
   slug: weka-smb-api
-- description: The Snapshot Policy API from Weka — 7 operation(s) for snapshot policy.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Snapshot Policy API from Weka — 7 operation(s) for snapshot policy.
   name: Weka Snapshot Policy API
   slug: weka-snapshot-policy-api
-- description: The Snapshots API from Weka — 9 operation(s) for snapshots.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Snapshots API from Weka — 9 operation(s) for snapshots.
   name: Weka Snapshots API
   slug: weka-snapshots-api
-- description: The Stats API from Weka — 4 operation(s) for stats.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Stats API from Weka — 4 operation(s) for stats.
   name: Weka Stats API
   slug: weka-stats-api
-- description: The System IO API from Weka — 2 operation(s) for system io.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The System IO API from Weka — 2 operation(s) for system io.
   name: Weka System IO API
   slug: weka-system-io-api
-- description: The Tasks API from Weka — 5 operation(s) for tasks.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Tasks API from Weka — 5 operation(s) for tasks.
   name: Weka Tasks API
   slug: weka-tasks-api
-- description: The Telemetry API from Weka — 4 operation(s) for telemetry.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Telemetry API from Weka — 4 operation(s) for telemetry.
   name: Weka Telemetry API
   slug: weka-telemetry-api
-- description: The Tenant API from Weka — 12 operation(s) for tenant.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Tenant API from Weka — 12 operation(s) for tenant.
   name: Weka Tenant API
   slug: weka-tenant-api
-- description: The TLS API from Weka — 2 operation(s) for tls.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The TLS API from Weka — 2 operation(s) for tls.
   name: Weka TLS API
   slug: weka-tls-api
-- description: The Traces API from Weka — 3 operation(s) for traces.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Traces API from Weka — 3 operation(s) for traces.
   name: Weka Traces API
   slug: weka-traces-api
-- description: The User API from Weka — 7 operation(s) for user.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The User API from Weka — 7 operation(s) for user.
   name: Weka User API
   slug: weka-user-api
-- description: The Weka home API from Weka — 6 operation(s) for weka home.
+- baseURL: https://api.docs.weka.io/api/v2
+  baseurl_source: declared
+  description: The Weka home API from Weka — 6 operation(s) for weka home.
   name: Weka Weka home API
   slug: weka-weka-home-api
 artifact_total: 96
@@ -474,7 +564,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weka/refs/heads/main/screenshots/weka-2026-08-17T082907.png
 security:

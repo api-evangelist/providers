@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 54 operations · 49 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Endpoints to search for stays such as hotels and apartments, check availability, retrieve reviews, and get detailed property information.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints to search for stays such as hotels and apartments, check availability, retrieve reviews, and get detailed property information.
   name: booking-com Accommodations API
   slug: booking-com-accommodations-api
-- description: Endpoints for updating room availability, pricing, and booking restrictions using B.XML format.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for updating room availability, pricing, and booking restrictions using B.XML format.
   name: booking-com Availability API
   slug: booking-com-availability-api
-- description: Endpoints for searching available car rentals and retrieving vehicle details, pricing, and availability.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for searching available car rentals and retrieving vehicle details, pricing, and availability.
   name: booking-com Cars API
   slug: booking-com-cars-api
-- description: Endpoints for retrieving reference data such as accommodation types, facility types, room types, and other enumerated values.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for retrieving reference data such as accommodation types, facility types, room types, and other enumerated values.
   name: booking-com Constants API
   slug: booking-com-constants-api
-- description: Endpoints to retrieve and manage messaging conversations, list conversations, fetch conversation details, and track updates.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints to retrieve and manage messaging conversations, list conversations, fetch conversation details, and track updates.
   name: booking-com Conversations API
   slug: booking-com-conversations-api
-- description: Endpoints for looking up car rental depots, including locations, reviews, and score breakdowns.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for looking up car rental depots, including locations, reviews, and score breakdowns.
   name: booking-com Depots API
   slug: booking-com-depots-api
-- description: Endpoints for managing derived pricing rules that automatically calculate rates based on a parent rate plan.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for managing derived pricing rules that automatically calculate rates based on a parent rate plan.
   name: booking-com Derived Pricing API
   slug: booking-com-derived-pricing-api
-- description: Endpoints for managing property-level and room-level facilities and amenities.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for managing property-level and room-level facilities and amenities.
   name: booking-com Facilities API
   slug: booking-com-facilities-api
-- description: Endpoints for retrieving current inventory and rate details for active room/rate combinations.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for retrieving current inventory and rate details for active room/rate combinations.
   name: booking-com Inventory API
   slug: booking-com-inventory-api
-- description: Endpoints for retrieving geographical location data including countries, cities, regions, and airports.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for retrieving geographical location data including countries, cities, regions, and airports.
   name: booking-com Locations API
   slug: booking-com-locations-api
-- description: Endpoints for two-way post-booking communication between guests and properties, allowing you to send and retrieve messages, exchange images, and check conversation details.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for two-way post-booking communication between guests and properties, allowing you to send and retrieve messages, exchange images, and check conversation details.
   name: booking-com Messages API
   slug: booking-com-messages-api
-- description: Endpoints to preview and create new orders, check order details, cancel or modify existing orders.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints to preview and create new orders, check order details, cancel or modify existing orders.
   name: booking-com Orders API
   slug: booking-com-orders-api
-- description: OTA-based endpoints for availability and rate notifications following the OpenTravel Alliance specification.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: OTA-based endpoints for availability and rate notifications following the OpenTravel Alliance specification.
   name: booking-com OTA Availability API
   slug: booking-com-ota-availability-api
-- description: Legacy OTA-based endpoints for property content management. These endpoints follow the OpenTravel Alliance specification and are being deprecated in favor of modular APIs.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Legacy OTA-based endpoints for property content management. These endpoints follow the OpenTravel Alliance specification and are being deprecated in favor of modular APIs.
   name: booking-com OTA Legacy API
   slug: booking-com-ota-legacy-api
-- description: OTA-based endpoints for reservation notification and modification following the OpenTravel Alliance specification.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: OTA-based endpoints for reservation notification and modification following the OpenTravel Alliance specification.
   name: booking-com OTA Reservations API
   slug: booking-com-ota-reservations-api
-- description: Generic payment-related endpoints, including supported currencies and payment types.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Generic payment-related endpoints, including supported currencies and payment types.
   name: booking-com Payments API
   slug: booking-com-payments-api
-- description: Endpoints for adding, managing, and organizing property photos.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for adding, managing, and organizing property photos.
   name: booking-com Photos API
   slug: booking-com-photos-api
-- description: Endpoints for creating, managing, and retrieving promotional offers for properties on Booking.com.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for creating, managing, and retrieving promotional offers for properties on Booking.com.
   name: booking-com Promotions API
   slug: booking-com-promotions-api
-- description: Endpoints for creating and updating property information including name, location, contact details, policies, and general settings.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for creating and updating property information including name, location, contact details, policies, and general settings.
   name: booking-com Property Management API
   slug: booking-com-property-management-api
-- description: Endpoints for creating and managing rate plans, including pricing rules and occupancy-based rates.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for creating and managing rate plans, including pricing rules and occupancy-based rates.
   name: booking-com Rates API
   slug: booking-com-rates-api
-- description: Endpoints for recovering reservations that were not picked up earlier or made prior to the property being connected to the system.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for recovering reservations that were not picked up earlier or made prior to the property being connected to the system.
   name: booking-com Recovery API
   slug: booking-com-recovery-api
-- description: Endpoints for retrieving new, modified, and cancelled property reservations using B.XML format.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for retrieving new, modified, and cancelled property reservations using B.XML format.
   name: booking-com Reservations API
   slug: booking-com-reservations-api
-- description: Endpoints for managing room types, room names, bed configurations, and room-level facilities.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for managing room types, room names, bed configurations, and room-level facilities.
   name: booking-com Rooms API
   slug: booking-com-rooms-api
-- description: Endpoints for retrieving information about car rental suppliers and their offerings.
+- baseURL: https://demandapi.booking.com
+  baseurl_source: declared
+  description: Endpoints for retrieving information about car rental suppliers and their offerings.
   name: booking-com Suppliers API
   slug: booking-com-suppliers-api
 artifact_total: 71
@@ -287,16 +335,16 @@ jsonld:
   slug: booking-com-context
 layout: provider
 modified: '2026-05-19'
-name: booking-com
+name: Booking Com
 nav: Providers
 network: true
-overview: 'booking-com publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Accommodations API, Availability API, Cars API, and 21 more.
+overview: 'Booking Com publishes 24 APIs on the [APIs.io](https://apis.io/) network, including booking-com Accommodations API, booking-com Availability API, booking-com Cars API, and 21 more.
 
 
-  The booking-com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Booking Com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  booking-com''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Booking Com''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Booking Com Plans Pricing
   plan_count: 1
@@ -309,7 +357,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: booking-com API Rules
+  name: Booking Com API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -345,10 +393,10 @@ score:
       total: 24
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:

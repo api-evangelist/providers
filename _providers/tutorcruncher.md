@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 54 operations · 26 acting
 api_count: 1
 apis:
-- description: Affiliates / agents.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Affiliates / agents.
   name: TutorCruncher Agents API
   slug: tutorcruncher-agents-api
-- description: Appointments (individual lessons / sessions).
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Appointments (individual lessons / sessions).
   name: TutorCruncher Appointments API
   slug: tutorcruncher-appointments-api
-- description: Paying customers (parents or organizations).
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Paying customers (parents or organizations).
   name: TutorCruncher Clients API
   slug: tutorcruncher-clients-api
-- description: Tutors who deliver lessons.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Tutors who deliver lessons.
   name: TutorCruncher Contractors API
   slug: tutorcruncher-contractors-api
-- description: Client invoices and payment.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Client invoices and payment.
   name: TutorCruncher Invoices API
   slug: tutorcruncher-invoices-api
-- description: Payment orders, proforma invoices, and ad hoc charges.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Payment orders, proforma invoices, and ad hoc charges.
   name: TutorCruncher Payments API
   slug: tutorcruncher-payments-api
-- description: Students who receive tutoring.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Students who receive tutoring.
   name: TutorCruncher Recipients API
   slug: tutorcruncher-recipients-api
-- description: Reference data - subjects, countries, categories, action types.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Reference data - subjects, countries, categories, action types.
   name: TutorCruncher Reference API
   slug: tutorcruncher-reference-api
-- description: Services (jobs) tying recipients and contractors together.
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Services (jobs) tying recipients and contractors together.
   name: TutorCruncher Services API
   slug: tutorcruncher-services-api
-- description: Webhook event catalog (action types).
+- baseURL: https://app.tutorcruncher.com/api
+  baseurl_source: declared
+  description: Webhook event catalog (action types).
   name: TutorCruncher Webhooks API
   slug: tutorcruncher-webhooks-api
 artifact_total: 29
@@ -190,7 +210,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -219,8 +239,9 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tutorcruncher/refs/heads/main/screenshots/tutorcruncher-2026-09-02T164557.png
 security:
 - kind: authentication
   name: Tutorcruncher Authentication

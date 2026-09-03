@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: Accept payments globally via local methods, mobile money and bank transfers.
   name: Thunes Collection API
   slug: thunes-collection-api
-- description: The Account Management API from Thunes — 7 operation(s) for account management.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Account Management API from Thunes — 7 operation(s) for account management.
   name: Thunes Account Management API
   slug: thunes-account-management-api
-- description: The Connectivity API from Thunes — 1 operation(s) for connectivity.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Connectivity API from Thunes — 1 operation(s) for connectivity.
   name: Thunes Connectivity API
   slug: thunes-connectivity-api
-- description: The Credit Parties API from Thunes — 2 operation(s) for credit parties.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Credit Parties API from Thunes — 2 operation(s) for credit parties.
   name: Thunes Credit Parties API
   slug: thunes-credit-parties-api
-- description: The Discovery API from Thunes — 6 operation(s) for discovery.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Discovery API from Thunes — 6 operation(s) for discovery.
   name: Thunes Discovery API
   slug: thunes-discovery-api
-- description: The Quotations API from Thunes — 3 operation(s) for quotations.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Quotations API from Thunes — 3 operation(s) for quotations.
   name: Thunes Quotations API
   slug: thunes-quotations-api
-- description: The Simulation API from Thunes — 3 operation(s) for simulation.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Simulation API from Thunes — 3 operation(s) for simulation.
   name: Thunes Simulation API
   slug: thunes-simulation-api
-- description: The Transactions API from Thunes — 10 operation(s) for transactions.
+- baseURL: https://api.thunes.com
+  baseurl_source: declared
+  description: The Transactions API from Thunes — 10 operation(s) for transactions.
   name: Thunes Transactions API
   slug: thunes-transactions-api
 artifact_total: 24
@@ -195,7 +209,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Webhook delivery of user, wallet, and transaction events. Subscriptions managed via the dashboard and REST API.
   name: Privy Webhooks
   slug: webhooks
-- description: Manage users and their linked accounts.
+- baseURL: https://api.privy.io/v1
+  baseurl_source: declared
+  description: Manage users and their linked accounts.
   name: Privy Users API
   slug: privy-users-api
-- description: Create and operate Privy-managed wallets.
+- baseURL: https://api.privy.io/v1
+  baseurl_source: declared
+  description: Create and operate Privy-managed wallets.
   name: Privy Wallets API
   slug: privy-wallets-api
 artifact_total: 16
@@ -180,7 +184,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/screenshots/privy-2026-06-20T192122.png
 security:

@@ -34,67 +34,105 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
   name: DexCare REST API
   slug: dexcare-rest-api
-- description: The assignmentqualifiers API from DexCare — 1 operation(s) for assignmentqualifiers.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The assignmentqualifiers API from DexCare — 1 operation(s) for assignmentqualifiers.
   name: DexCare Assignmentqualifiers API
   slug: dexcare-assignmentqualifiers-api
-- description: The external API from DexCare — 2 operation(s) for external.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The external API from DexCare — 2 operation(s) for external.
   name: DexCare External API
   slug: dexcare-external-api
-- description: The modalities API from DexCare — 1 operation(s) for modalities.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The modalities API from DexCare — 1 operation(s) for modalities.
   name: DexCare Modalities API
   slug: dexcare-modalities-api
-- description: The OmniAnalytics API from DexCare — 1 operation(s) for omnianalytics.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniAnalytics API from DexCare — 1 operation(s) for omnianalytics.
   name: DexCare Omni Analytics API
   slug: dexcare-omnianalytics-api
-- description: The OmniData API from DexCare — 1 operation(s) for omnidata.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniData API from DexCare — 1 operation(s) for omnidata.
   name: DexCare Omni Data API
   slug: dexcare-omnidata-api
-- description: The OmniSearch API from DexCare — 1 operation(s) for omnisearch.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSearch API from DexCare — 1 operation(s) for omnisearch.
   name: DexCare Omni Search API
   slug: dexcare-omnisearch-api
-- description: The OmniSearchAnalytics API from DexCare — 1 operation(s) for omnisearchanalytics.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSearchAnalytics API from DexCare — 1 operation(s) for omnisearchanalytics.
   name: DexCare Omni Search Analytics API
   slug: dexcare-omnisearchanalytics-api
-- description: The OmniSearchFacets API from DexCare — 1 operation(s) for omnisearchfacets.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSearchFacets API from DexCare — 1 operation(s) for omnisearchfacets.
   name: DexCare Omni Search Facets API
   slug: dexcare-omnisearchfacets-api
-- description: The OmniSitemap API from DexCare — 1 operation(s) for omnisitemap.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSitemap API from DexCare — 1 operation(s) for omnisitemap.
   name: DexCare Omni Sitemap API
   slug: dexcare-omnisitemap-api
-- description: The OmniSlugs API from DexCare — 1 operation(s) for omnislugs.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSlugs API from DexCare — 1 operation(s) for omnislugs.
   name: DexCare Omni Slugs API
   slug: dexcare-omnislugs-api
-- description: The OmniSynonyms API from DexCare — 1 operation(s) for omnisynonyms.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The OmniSynonyms API from DexCare — 1 operation(s) for omnisynonyms.
   name: DexCare Omni Synonyms API
   slug: dexcare-omnisynonyms-api
-- description: The Pdm API from DexCare — 2 operation(s) for pdm.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The Pdm API from DexCare — 2 operation(s) for pdm.
   name: DexCare Pdm API
   slug: dexcare-pdm-api
-- description: The Providers API from DexCare — 1 operation(s) for providers.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The Providers API from DexCare — 1 operation(s) for providers.
   name: DexCare Providers API
   slug: dexcare-providers-api
-- description: The queued-guest-visit API from DexCare — 1 operation(s) for queued-guest-visit.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The queued-guest-visit API from DexCare — 1 operation(s) for queued-guest-visit.
   name: DexCare Queued Guest Visit API
   slug: dexcare-queued-guest-visit-api
-- description: The Slots API from DexCare — 3 operation(s) for slots.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The Slots API from DexCare — 3 operation(s) for slots.
   name: DexCare Slots API
   slug: dexcare-slots-api
-- description: The tokbox API from DexCare — 1 operation(s) for tokbox.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The tokbox API from DexCare — 1 operation(s) for tokbox.
   name: DexCare Tokbox API
   slug: dexcare-tokbox-api
-- description: The virtual-visits API from DexCare — 1 operation(s) for virtual-visits.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The virtual-visits API from DexCare — 1 operation(s) for virtual-visits.
   name: DexCare Virtual Visits API
   slug: dexcare-virtual-visits-api
-- description: The visits API from DexCare — 3 operation(s) for visits.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The visits API from DexCare — 3 operation(s) for visits.
   name: DexCare Visits API
   slug: dexcare-visits-api
-- description: The waittimes API from DexCare — 2 operation(s) for waittimes.
+- baseURL: https://api.care.dexcarehealth.com
+  baseurl_source: declared
+  description: The waittimes API from DexCare — 2 operation(s) for waittimes.
   name: DexCare Waittimes API
   slug: dexcare-waittimes-api
 artifact_total: 25
@@ -273,7 +311,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -283,7 +321,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 50.7
+  previous_composite: 50.8
   provenance:
     conformance: first-party
     contracts:
@@ -304,7 +342,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

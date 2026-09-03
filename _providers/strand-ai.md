@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations · 7 acting
 api_count: 1
 apis:
-- description: The Jobs API from Strand AI — 4 operation(s) for jobs.
+- baseURL: https://app.strandai.com/api/v1
+  baseurl_source: declared
+  description: The Jobs API from Strand AI — 4 operation(s) for jobs.
   name: Strand AI Jobs API
   slug: strand-ai-jobs-api
-- description: The Predict API from Strand AI — 2 operation(s) for predict.
+- baseURL: https://app.strandai.com/api/v1
+  baseurl_source: declared
+  description: The Predict API from Strand AI — 2 operation(s) for predict.
   name: Strand AI Predict API
   slug: strand-ai-predict-api
-- description: The Samples API from Strand AI — 3 operation(s) for samples.
+- baseURL: https://app.strandai.com/api/v1
+  baseurl_source: declared
+  description: The Samples API from Strand AI — 3 operation(s) for samples.
   name: Strand AI Samples API
   slug: strand-ai-samples-api
-- description: The Uploads API from Strand AI — 2 operation(s) for uploads.
+- baseURL: https://app.strandai.com/api/v1
+  baseurl_source: declared
+  description: The Uploads API from Strand AI — 2 operation(s) for uploads.
   name: Strand AI Uploads API
   slug: strand-ai-uploads-api
 artifact_total: 13
@@ -190,7 +198,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -222,8 +230,9 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/screenshots/strand-ai-2026-09-02T160944.png
 security:
 - kind: authentication
   name: Strand Ai Authentication

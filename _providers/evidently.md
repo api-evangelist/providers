@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 26 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage project monitoring dashboards
+- baseURL: https://app.evidently.cloud
+  baseurl_source: declared
+  description: Manage project monitoring dashboards
   name: Evidently AI Dashboards API
   slug: evidently-dashboards-api
-- description: Manage Evidently projects — create, list, update, delete
+- baseURL: https://app.evidently.cloud
+  baseurl_source: declared
+  description: Manage Evidently projects — create, list, update, delete
   name: Evidently AI Projects API
   slug: evidently-projects-api
-- description: Service metadata and version information
+- baseURL: https://app.evidently.cloud
+  baseurl_source: declared
+  description: Service metadata and version information
   name: Evidently AI Service API
   slug: evidently-service-api
-- description: Upload and query evaluation snapshots (reports and test suites)
+- baseURL: https://app.evidently.cloud
+  baseurl_source: declared
+  description: Upload and query evaluation snapshots (reports and test suites)
   name: Evidently AI Snapshots API
   slug: evidently-snapshots-api
 artifact_total: 16
@@ -213,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/screenshots/evidently-2026-06-20T180913.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -47,61 +47,99 @@ apis:
 - description: Autolabel is the open-source Python library (pip install refuel-autolabel) to label, clean, and enrich text datasets with any LLM (OpenAI, Anthropic, Google, HuggingFace, vLLM, Refuel-hosted). It is a
   name: Refuel Autolabel (Open Source)
   slug: refuel-autolabel-oss
-- description: The documented realtime application label surface — the endpoint Refuel's own catalog page publishes as `POST https://cloud-api.refuel.ai/applications/{applicationName}/label`, with the concrete reque
+- baseURL: https://cloud-api.refuel.ai
+  baseurl_source: declared
+  description: The documented realtime application label surface — the endpoint Refuel's own catalog page publishes as `POST https://cloud-api.refuel.ai/applications/{applicationName}/label`, with the concrete reque
   name: Refuel Applications API
   slug: refuel-ai-applications-api
-- description: The Access API from Refuel — 4 operation(s) for access.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Access API from Refuel — 4 operation(s) for access.
   name: Refuel Access API
   slug: refuel-ai-access-api
-- description: The Csp Reports API from Refuel — 1 operation(s) for csp reports.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Csp Reports API from Refuel — 1 operation(s) for csp reports.
   name: Refuel Csp Reports API
   slug: refuel-ai-csp-reports-api
-- description: The Datasets API from Refuel — 13 operation(s) for datasets.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Datasets API from Refuel — 13 operation(s) for datasets.
   name: Refuel Datasets API
   slug: refuel-ai-datasets-api
-- description: The Finetuned Models API from Refuel — 1 operation(s) for finetuned models.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Finetuned Models API from Refuel — 1 operation(s) for finetuned models.
   name: Refuel Finetuned Models API
   slug: refuel-ai-finetuned-models-api
-- description: The Integrations API from Refuel — 2 operation(s) for integrations.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Integrations API from Refuel — 2 operation(s) for integrations.
   name: Refuel Integrations API
   slug: refuel-ai-integrations-api
-- description: The Labs API from Refuel — 2 operation(s) for labs.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Labs API from Refuel — 2 operation(s) for labs.
   name: Refuel Labs API
   slug: refuel-ai-labs-api
-- description: The Models API from Refuel — 1 operation(s) for models.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Models API from Refuel — 1 operation(s) for models.
   name: Refuel Models API
   slug: refuel-ai-models-api
-- description: The Projects API from Refuel — 6 operation(s) for projects.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Projects API from Refuel — 6 operation(s) for projects.
   name: Refuel Projects API
   slug: refuel-ai-projects-api
-- description: The Refuel Cloud API API from Refuel — 1 operation(s) for refuel cloud api.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Refuel Cloud API API from Refuel — 1 operation(s) for refuel cloud api.
   name: Refuel Refuel Cloud API
   slug: refuel-ai-refuel-cloud-api-api
-- description: The Schema API from Refuel — 1 operation(s) for schema.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Schema API from Refuel — 1 operation(s) for schema.
   name: Refuel Schema API
   slug: refuel-ai-schema-api
-- description: The Tasks API from Refuel — 28 operation(s) for tasks.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Tasks API from Refuel — 28 operation(s) for tasks.
   name: Refuel Tasks API
   slug: refuel-ai-tasks-api
-- description: The Team API from Refuel — 2 operation(s) for team.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Team API from Refuel — 2 operation(s) for team.
   name: Refuel Team API
   slug: refuel-ai-team-api
-- description: The Teams API from Refuel — 1 operation(s) for teams.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Teams API from Refuel — 1 operation(s) for teams.
   name: Refuel Teams API
   slug: refuel-ai-teams-api
-- description: The Usage API from Refuel — 1 operation(s) for usage.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Usage API from Refuel — 1 operation(s) for usage.
   name: Refuel Usage API
   slug: refuel-ai-usage-api
-- description: The User API from Refuel — 1 operation(s) for user.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The User API from Refuel — 1 operation(s) for user.
   name: Refuel User API
   slug: refuel-ai-user-api
-- description: The Users API from Refuel — 3 operation(s) for users.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Users API from Refuel — 3 operation(s) for users.
   name: Refuel Users API
   slug: refuel-ai-users-api
-- description: The Webhook API from Refuel — 1 operation(s) for webhook.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Webhook API from Refuel — 1 operation(s) for webhook.
   name: Refuel Webhook API
   slug: refuel-ai-webhook-api
-- description: The Webhooks API from Refuel — 1 operation(s) for webhooks.
+- baseURL: https://github.com/refuel-ai/autolabel
+  baseurl_source: declared
+  description: The Webhooks API from Refuel — 1 operation(s) for webhooks.
   name: Refuel Webhooks API
   slug: refuel-ai-webhooks-api
 artifact_total: 33
@@ -316,7 +354,7 @@ score:
     catalog_gap: 52.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -326,7 +364,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 63.6
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,7 +376,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/screenshots/refuel-ai-2026-08-17T080415.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Advance workflow instances that are paused on an intermediate event.
+- baseURL: https://integration.liberateinc.io
+  baseurl_source: declared
+  description: Advance workflow instances that are paused on an intermediate event.
   name: Liberate Innovations Events API
   slug: liberate-innovations-events-api
-- description: Start workflow orchestrations and pass context data into them.
+- baseURL: https://integration.liberateinc.io
+  baseurl_source: declared
+  description: Start workflow orchestrations and pass context data into them.
   name: Liberate Innovations Workflows API
   slug: liberate-innovations-workflows-api
 artifact_total: 9
@@ -215,7 +219,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:

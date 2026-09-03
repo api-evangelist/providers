@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 2
@@ -44,220 +44,364 @@ agentic_access:
   summary_line: 75 operations · 75 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for managing source and target endpoints
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing source and target endpoints
   name: Amazon DMS Endpoints API
   slug: amazon-dms-endpoints-api
-- description: Operations for managing DMS replication instances
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing DMS replication instances
   name: Amazon DMS Replication Instances API
   slug: amazon-dms-replication-instances-api
-- description: Operations for managing replication tasks
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing replication tasks
   name: Amazon DMS Replication Tasks API
   slug: amazon-dms-replication-tasks-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.AddTagsToResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.addtagstoresource.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.AddTagsToResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.addtagstoresource.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.AddTagsToResource API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-addtagstoresource-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ApplyPendingMaintenanceAction API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.applypendingmaintenanceaction.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ApplyPendingMaintenanceAction API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.applypendingmaintenanceaction.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ApplyPendingMaintenanceAction API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-applypendingmaintenanceaction-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.BatchStartRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.batchstartrecommendations.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.BatchStartRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.batchstartrecommendations.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.BatchStartRecommendations API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-batchstartrecommendations-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CancelReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.cancelreplicationtaskassessmentrun.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CancelReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.cancelreplicationtaskassessmentrun.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CancelReplicationTaskAssessmentRun API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-cancelreplicationtaskassessmentrun-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createendpoint.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createendpoint.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateEndpoint API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createendpoint-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createeventsubscription.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createeventsubscription.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateEventSubscription API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createeventsubscription-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateFleetAdvisorCollector API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createfleetadvisorcollector.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateFleetAdvisorCollector API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createfleetadvisorcollector.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateFleetAdvisorCollector API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createfleetadvisorcollector-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationinstance.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationinstance.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateReplicationInstance API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createreplicationinstance-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationsubnetgroup.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationsubnetgroup.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateReplicationSubnetGroup API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createreplicationsubnetgroup-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.CreateReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.createreplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.CreateReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-createreplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteCertificate API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletecertificate.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteCertificate API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletecertificate.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteCertificate API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletecertificate-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteConnection API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteconnection.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteConnection API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteconnection.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteConnection API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deleteconnection-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteendpoint.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteendpoint.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteEndpoint API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deleteendpoint-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteeventsubscription.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deleteeventsubscription.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteEventSubscription API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deleteeventsubscription-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorCollector API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletefleetadvisorcollector.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorCollector API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletefleetadvisorcollector.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorCollector API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletefleetadvisorcollector-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorDatabases API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletefleetadvisordatabases.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorDatabases API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletefleetadvisordatabases.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteFleetAdvisorDatabases API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletefleetadvisordatabases-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationinstance.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationinstance.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteReplicationInstance API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationinstance-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationsubnetgroup.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationsubnetgroup.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteReplicationSubnetGroup API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationsubnetgroup-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationtaskassessmentrun.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DeleteReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.deletereplicationtaskassessmentrun.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DeleteReplicationTaskAssessmentRun API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-deletereplicationtaskassessmentrun-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeAccountAttributes API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeaccountattributes.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeAccountAttributes API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeaccountattributes.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeAccountAttributes API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeaccountattributes-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeApplicableIndividualAssessments API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeapplicableindividualassessments.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeApplicableIndividualAssessments API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeapplicableindividualassessments.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeApplicableIndividualAssessments API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeapplicableindividualassessments-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeCertificates API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describecertificates.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeCertificates API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describecertificates.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeCertificates API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describecertificates-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeConnections API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeconnections.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeConnections API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeconnections.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeConnections API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeconnections-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpoints API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpoints.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpoints API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpoints.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEndpoints API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeendpoints-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpointSettings API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpointsettings.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpointSettings API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpointsettings.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEndpointSettings API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeendpointsettings-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpointTypes API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpointtypes.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEndpointTypes API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeendpointtypes.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEndpointTypes API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeendpointtypes-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEventCategories API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeeventcategories.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEventCategories API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeeventcategories.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEventCategories API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeeventcategories-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEvents API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeevents.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEvents API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeevents.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEvents API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeevents-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEventSubscriptions API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeeventsubscriptions.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeEventSubscriptions API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeeventsubscriptions.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeEventSubscriptions API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeeventsubscriptions-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorCollectors API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorcollectors.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorCollectors API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorcollectors.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorCollectors API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorcollectors-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorDatabases API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisordatabases.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorDatabases API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisordatabases.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorDatabases API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisordatabases-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorLsaAnalysis API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorlsaanalysis.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorLsaAnalysis API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorlsaanalysis.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorLsaAnalysis API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorlsaanalysis-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemaObjectSummary API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorschemaobjectsummary.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemaObjectSummary API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorschemaobjectsummary.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemaObjectSummary API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorschemaobjectsummary-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorschemas.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describefleetadvisorschemas.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeFleetAdvisorSchemas API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describefleetadvisorschemas-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeOrderableReplicationInstances API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeorderablereplicationinstances.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeOrderableReplicationInstances API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeorderablereplicationinstances.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeOrderableReplicationInstances API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeorderablereplicationinstances-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribePendingMaintenanceActions API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describependingmaintenanceactions.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribePendingMaintenanceActions API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describependingmaintenanceactions.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribePendingMaintenanceActions API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describependingmaintenanceactions-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRecommendationLimitations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerecommendationlimitations.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRecommendationLimitations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerecommendationlimitations.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeRecommendationLimitations API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describerecommendationlimitations-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerecommendations.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerecommendations.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeRecommendations API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describerecommendations-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRefreshSchemasStatus API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerefreshschemasstatus.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeRefreshSchemasStatus API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describerefreshschemasstatus.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeRefreshSchemasStatus API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describerefreshschemasstatus-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstances API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationinstances.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstances API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationinstances.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstances API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationinstances-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstanceTaskLogs API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationinstancetasklogs.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstanceTaskLogs API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationinstancetasklogs.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationInstanceTaskLogs API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationinstancetasklogs-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationSubnetGroups API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationsubnetgroups.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationSubnetGroups API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationsubnetgroups.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationSubnetGroups API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationsubnetgroups-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentResults API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskassessmentresults.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentResults API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskassessmentresults.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentResults API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskassessmentresults-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentRuns API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskassessmentruns.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentRuns API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskassessmentruns.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskAssessmentRuns API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskassessmentruns-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskIndividualAssessments API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskindividualassessments'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskIndividualAssessments API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtaskindividualassessments'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationTaskIndividualAssessments API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtaskindividualassessments-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTasks API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtasks.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeReplicationTasks API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describereplicationtasks.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeReplicationTasks API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describereplicationtasks-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeschemas.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describeschemas.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeSchemas API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describeschemas-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.DescribeTableStatistics API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describetablestatistics.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.DescribeTableStatistics API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.describetablestatistics.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.DescribeTableStatistics API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-describetablestatistics-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ImportCertificate API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.importcertificate.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ImportCertificate API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.importcertificate.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ImportCertificate API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-importcertificate-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ListTagsForResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.listtagsforresource.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ListTagsForResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.listtagsforresource.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ListTagsForResource API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-listtagsforresource-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ModifyEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyendpoint.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ModifyEndpoint API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyendpoint.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ModifyEndpoint API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-modifyendpoint-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ModifyEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyeventsubscription.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ModifyEventSubscription API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyeventsubscription.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ModifyEventSubscription API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-modifyeventsubscription-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationinstance.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationinstance.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ModifyReplicationInstance API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationinstance-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationsubnetgroup.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationSubnetGroup API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationsubnetgroup.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ModifyReplicationSubnetGroup API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationsubnetgroup-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ModifyReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.modifyreplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ModifyReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-modifyreplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.MoveReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.movereplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.MoveReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.movereplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.MoveReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-movereplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.RebootReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.rebootreplicationinstance.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.RebootReplicationInstance API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.rebootreplicationinstance.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.RebootReplicationInstance API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-rebootreplicationinstance-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.RefreshSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.refreshschemas.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.RefreshSchemas API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.refreshschemas.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.RefreshSchemas API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-refreshschemas-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.ReloadTables API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.reloadtables.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.ReloadTables API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.reloadtables.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.ReloadTables API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-reloadtables-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.RemoveTagsFromResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.removetagsfromresource.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.RemoveTagsFromResource API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.removetagsfromresource.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.RemoveTagsFromResource API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-removetagsfromresource-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.RunFleetAdvisorLsaAnalysis API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.runfleetadvisorlsaanalysis.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.RunFleetAdvisorLsaAnalysis API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.runfleetadvisorlsaanalysis.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.RunFleetAdvisorLsaAnalysis API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-runfleetadvisorlsaanalysis-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.StartRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startrecommendations.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.StartRecommendations API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startrecommendations.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.StartRecommendations API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-startrecommendations-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.StartReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessment API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtaskassessment.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessment API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtaskassessment.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessment API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtaskassessment-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtaskassessmentrun.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessmentRun API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.startreplicationtaskassessmentrun.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.StartReplicationTaskAssessmentRun API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-startreplicationtaskassessmentrun-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.StopReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.stopreplicationtask.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.StopReplicationTask API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.stopreplicationtask.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.StopReplicationTask API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-stopreplicationtask-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.TestConnection API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.testconnection.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.TestConnection API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.testconnection.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.TestConnection API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-testconnection-api
-- description: 'The #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.updatesubscriptionstoeventbridge.'
+- baseURL: https://dms.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API from Amazon DMS — 1 operation(s) for #x amz target=amazondmsv20160101.updatesubscriptionstoeventbridge.'
   name: 'Amazon DMS #X Amz Target=AmazonDMSv20160101.UpdateSubscriptionsToEventBridge API'
   slug: amazon-dms-x-amz-target-amazondmsv20160101-updatesubscriptionstoeventbridge-api
 artifact_total: 315
@@ -1112,7 +1256,7 @@ score:
       marker_coverage: 0.0
       total: 72
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/screenshots/amazon-dms-2026-06-20T171625.png
 security:

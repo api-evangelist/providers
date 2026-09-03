@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The GDC Hardware Management API provides programmatic access to manage hardware lifecycle for Google Distributed Cloud deployments. Developers can use the API to track hardware orders, manage hardware
   name: GDC Hardware Management API
   slug: gdc-hardware-management-api
-- description: Operations for managing edge networks
+- baseURL: https://edgenetwork.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing edge networks
   name: Google Distributed Cloud Networks API
   slug: google-distributed-cloud-networks-api
-- description: Operations for managing edge routers
+- baseURL: https://edgenetwork.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing edge routers
   name: Google Distributed Cloud Routers API
   slug: google-distributed-cloud-routers-api
-- description: Operations for managing subnets within edge networks
+- baseURL: https://edgenetwork.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing subnets within edge networks
   name: Google Distributed Cloud Subnets API
   slug: google-distributed-cloud-subnets-api
-- description: Operations for listing available edge zones
+- baseURL: https://edgenetwork.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing available edge zones
   name: Google Distributed Cloud Zones API
   slug: google-distributed-cloud-zones-api
 artifact_total: 27
@@ -251,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-distributed-cloud/refs/heads/main/screenshots/google-distributed-cloud-2026-06-20T182158.png
 security:

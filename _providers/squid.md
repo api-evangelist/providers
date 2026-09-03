@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,19 +48,29 @@ apis:
 - description: Squid provides extensive access control configuration through its squid.conf file and runtime reload capabilities. The access control system supports ACLs for IP addresses, domain names, URL patterns,
   name: Squid Access Control Configuration API
   slug: squid-access-control
-- description: Cache performance metrics and counters
+- baseURL: http://localhost:3128/squid-internal-mgr
+  baseurl_source: declared
+  description: Cache performance metrics and counters
   name: Squid Cache Statistics API
   slug: squid-cache-statistics-api
-- description: Runtime configuration and ACL information
+- baseURL: http://localhost:3128/squid-internal-mgr
+  baseurl_source: declared
+  description: Runtime configuration and ACL information
   name: Squid Configuration API
   slug: squid-configuration-api
-- description: Active connection and request management
+- baseURL: http://localhost:3128/squid-internal-mgr
+  baseurl_source: declared
+  description: Active connection and request management
   name: Squid Connections API
   slug: squid-connections-api
-- description: Memory allocation and pool statistics
+- baseURL: http://localhost:3128/squid-internal-mgr
+  baseurl_source: declared
+  description: Memory allocation and pool statistics
   name: Squid Memory API
   slug: squid-memory-api
-- description: Cache operational commands
+- baseURL: http://localhost:3128/squid-internal-mgr
+  baseurl_source: declared
+  description: Cache operational commands
   name: Squid Operations API
   slug: squid-operations-api
 artifact_total: 26
@@ -244,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/screenshots/squid-2026-06-20T194428.png
 security:

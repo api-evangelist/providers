@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 34 operations · 19 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: The budgets API from Standard Metrics — 1 operation(s) for budgets.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The budgets API from Standard Metrics — 1 operation(s) for budgets.
   name: Standard Metrics budgets API
   slug: standard-metrics-budgets-api
-- description: The cap_table API from Standard Metrics — 10 operation(s) for cap_table.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The cap_table API from Standard Metrics — 10 operation(s) for cap_table.
   name: Standard Metrics cap_table API
   slug: standard-metrics-cap-table-api
-- description: The companies API from Standard Metrics — 3 operation(s) for companies.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The companies API from Standard Metrics — 3 operation(s) for companies.
   name: Standard Metrics companies API
   slug: standard-metrics-companies-api
-- description: The custom-columns API from Standard Metrics — 3 operation(s) for custom-columns.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The custom-columns API from Standard Metrics — 3 operation(s) for custom-columns.
   name: Standard Metrics custom-columns API
   slug: standard-metrics-custom-columns-api
-- description: The documents API from Standard Metrics — 2 operation(s) for documents.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The documents API from Standard Metrics — 2 operation(s) for documents.
   name: Standard Metrics documents API
   slug: standard-metrics-documents-api
-- description: The firm-details API from Standard Metrics — 1 operation(s) for firm-details.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The firm-details API from Standard Metrics — 1 operation(s) for firm-details.
   name: Standard Metrics firm-details API
   slug: standard-metrics-firm-details-api
-- description: The funds API from Standard Metrics — 1 operation(s) for funds.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The funds API from Standard Metrics — 1 operation(s) for funds.
   name: Standard Metrics funds API
   slug: standard-metrics-funds-api
-- description: The information-reports API from Standard Metrics — 1 operation(s) for information-reports.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The information-reports API from Standard Metrics — 1 operation(s) for information-reports.
   name: Standard Metrics information-reports API
   slug: standard-metrics-information-reports-api
-- description: The information-requests API from Standard Metrics — 1 operation(s) for information-requests.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The information-requests API from Standard Metrics — 1 operation(s) for information-requests.
   name: Standard Metrics information-requests API
   slug: standard-metrics-information-requests-api
-- description: The metrics API from Standard Metrics — 3 operation(s) for metrics.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The metrics API from Standard Metrics — 3 operation(s) for metrics.
   name: Standard Metrics metrics API
   slug: standard-metrics-metrics-api
-- description: The notes API from Standard Metrics — 1 operation(s) for notes.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The notes API from Standard Metrics — 1 operation(s) for notes.
   name: Standard Metrics notes API
   slug: standard-metrics-notes-api
-- description: The O API from Standard Metrics — 1 operation(s) for o.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The O API from Standard Metrics — 1 operation(s) for o.
   name: Standard Metrics O API
   slug: standard-metrics-o-api
-- description: The users API from Standard Metrics — 1 operation(s) for users.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The users API from Standard Metrics — 1 operation(s) for users.
   name: Standard Metrics users API
   slug: standard-metrics-users-api
-- description: The whoami API from Standard Metrics — 1 operation(s) for whoami.
+- baseURL: https://api.standardmetrics.io/v1
+  baseurl_source: declared
+  description: The whoami API from Standard Metrics — 1 operation(s) for whoami.
   name: Standard Metrics whoami API
   slug: standard-metrics-whoami-api
 artifact_total: 36
@@ -309,7 +337,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/screenshots/standard-metrics-2026-08-17T082103.png
 security:

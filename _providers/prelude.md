@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted, OAuth 2.1-secured Model Context Protocol server that lets agents run read-only structured queries against a tenant's endpoint and agent observability data (schema discovery + analytics query),
@@ -138,7 +138,7 @@ score:
   band: emerging
   composite: 25.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -157,8 +157,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prelude/refs/heads/main/screenshots/prelude-2026-09-02T151925.png
 security:
 - kind: authentication
   name: Prelude Authentication

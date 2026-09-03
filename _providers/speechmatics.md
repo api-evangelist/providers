@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: REST API for converting text to natural-sounding speech with multiple voice options and language support.
   name: Speechmatics Text-to-Speech API
   slug: text-to-speech-api
-- description: The API Keys API from Speechmatics — 2 operation(s) for api keys.
+- baseURL: https://asr.api.speechmatics.com/v2
+  baseurl_source: declared
+  description: The API Keys API from Speechmatics — 2 operation(s) for api keys.
   name: Speechmatics API Keys API
   slug: speechmatics-api-keys-api
-- description: The Jobs API from Speechmatics — 4 operation(s) for jobs.
+- baseURL: https://asr.api.speechmatics.com/v2
+  baseurl_source: declared
+  description: The Jobs API from Speechmatics — 4 operation(s) for jobs.
   name: Speechmatics Jobs API
   slug: speechmatics-jobs-api
-- description: The Projects API from Speechmatics — 2 operation(s) for projects.
+- baseURL: https://asr.api.speechmatics.com/v2
+  baseurl_source: declared
+  description: The Projects API from Speechmatics — 2 operation(s) for projects.
   name: Speechmatics Projects API
   slug: speechmatics-projects-api
-- description: The Usage API from Speechmatics — 1 operation(s) for usage.
+- baseURL: https://asr.api.speechmatics.com/v2
+  baseurl_source: declared
+  description: The Usage API from Speechmatics — 1 operation(s) for usage.
   name: Speechmatics Usage API
   slug: speechmatics-usage-api
 artifact_total: 23
@@ -230,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/screenshots/speechmatics-2026-06-20T194303.png
 security:

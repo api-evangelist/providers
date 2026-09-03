@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Query and manage the devices (screens) paired to an OptiSigns account. List devices, look them up by name or ID, create and update device settings, reboot a device, push content, and delete devices. C
+- baseURL: https://graphql-gateway.optisigns.com/graphql
+  baseurl_source: declared
+  description: Query and manage the devices (screens) paired to an OptiSigns account. List devices, look them up by name or ID, create and update device settings, reboot a device, push content, and delete devices. C
   name: OptiSigns Devices API
   slug: optisigns-devices-api
-- description: Manage the content assets displayed on screens - upload file assets (images, video, documents), create website and app assets, modify asset settings, list and fetch assets by filename, and delete asse
+- baseURL: https://graphql-gateway.optisigns.com/graphql
+  baseurl_source: declared
+  description: Manage the content assets displayed on screens - upload file assets (images, video, documents), create website and app assets, modify asset settings, list and fetch assets by filename, and delete asse
   name: OptiSigns Assets API
   slug: optisigns-assets-api
 - description: Create and manage playlists - ordered sequences of assets with per-item durations - and assign them to devices. Playlists are a documented OptiSigns resource type covered by the API cookbook; the spec
@@ -150,7 +154,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 36.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/screenshots/optisigns-2026-08-07T190813.png
 security:

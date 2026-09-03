@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 30 operations · 17 acting
 api_count: 1
 apis:
-- description: A set of non resource based endpoints that power various components within Apperio. These endpoints primarily support discovery and data investigation.
+- baseURL: https://app.apperio.com/api/v1
+  baseurl_source: declared
+  description: A set of non resource based endpoints that power various components within Apperio. These endpoints primarily support discovery and data investigation.
   name: Apperio Analytics API
   slug: apperio-analytics-api
-- description: The e-billing endpoints provide access to the e-billing invoices in Apperio. They allow you to retrieve information about the invoices and the approval workflow, and also to approve and reject invoice
+- baseURL: https://app.apperio.com/api/v1
+  baseurl_source: declared
+  description: The e-billing endpoints provide access to the e-billing invoices in Apperio. They allow you to retrieve information about the invoices and the approval workflow, and also to approve and reject invoice
   name: Apperio E-billing API
   slug: apperio-e-billing-api
-- description: 'The filter endpoints provide resource discovery in Apperio. This has two basic mechanisms. Firstly there are the resource discovery endpoints. These are: * `/api/v1/filter/engagements/` * `/api/v1/fil'
+- baseURL: https://app.apperio.com/api/v1
+  baseurl_source: declared
+  description: 'The filter endpoints provide resource discovery in Apperio. This has two basic mechanisms. Firstly there are the resource discovery endpoints. These are: * `/api/v1/filter/engagements/` * `/api/v1/fil'
   name: Apperio Filter API
   slug: apperio-filter-api
-- description: A set of endpoints returning information about a specific matter.
+- baseURL: https://app.apperio.com/api/v1
+  baseurl_source: declared
+  description: A set of endpoints returning information about a specific matter.
   name: Apperio Matter information API
   slug: apperio-matter-information-api
-- description: The users endpoints allow you to manage your API tokens. Tokens are used to authenticate requests to the Apperio API. You can list your existing tokens, delete tokens that are no longer needed, and ac
+- baseURL: https://app.apperio.com/api/v1
+  baseurl_source: declared
+  description: The users endpoints allow you to manage your API tokens. Tokens are used to authenticate requests to the Apperio API. You can list your existing tokens, delete tokens that are no longer needed, and ac
   name: Apperio Users API
   slug: apperio-users-api
 artifact_total: 17
@@ -242,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 121 operations · 66 acting · 66 human-in-the-loop
 api_count: 1
 apis:
-- description: The Api Keys API from Cal.com — 1 operation(s) for api keys.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Api Keys API from Cal.com — 1 operation(s) for api keys.
   name: Cal.com Api Keys API
   slug: cal-com-api-keys-api
-- description: The Bookings API from Cal.com — 16 operation(s) for bookings.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Bookings API from Cal.com — 16 operation(s) for bookings.
   name: Cal.com Bookings API
   slug: cal-com-bookings-api
-- description: The Bookings / Attendees API from Cal.com — 2 operation(s) for bookings / attendees.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Bookings / Attendees API from Cal.com — 2 operation(s) for bookings / attendees.
   name: Cal.com Bookings / Attendees API
   slug: cal-com-bookings-attendees-api
-- description: The Bookings / Guests API from Cal.com — 1 operation(s) for bookings / guests.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Bookings / Guests API from Cal.com — 1 operation(s) for bookings / guests.
   name: Cal.com Bookings / Guests API
   slug: cal-com-bookings-guests-api
-- description: The Cal Unified Calendars API from Cal.com — 8 operation(s) for cal unified calendars.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Cal Unified Calendars API from Cal.com — 8 operation(s) for cal unified calendars.
   name: Cal.com Cal Unified Calendars API
   slug: cal-com-cal-unified-calendars-api
-- description: The Calendars API from Cal.com — 9 operation(s) for calendars.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Calendars API from Cal.com — 9 operation(s) for calendars.
   name: Cal.com Calendars API
   slug: cal-com-calendars-api
-- description: The Conferencing API from Cal.com — 7 operation(s) for conferencing.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Conferencing API from Cal.com — 7 operation(s) for conferencing.
   name: Cal.com Conferencing API
   slug: cal-com-conferencing-api
-- description: 'The Deprecated: Platform / Managed Users API from Cal.com — 4 operation(s) for deprecated: platform / managed users.'
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: 'The Deprecated: Platform / Managed Users API from Cal.com — 4 operation(s) for deprecated: platform / managed users.'
   name: 'Cal.com Deprecated: Platform / Managed Users API'
   slug: cal-com-deprecated-platform-managed-users-api
-- description: 'The Deprecated: Platform OAuth Clients API from Cal.com — 2 operation(s) for deprecated: platform oauth clients.'
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: 'The Deprecated: Platform OAuth Clients API from Cal.com — 2 operation(s) for deprecated: platform oauth clients.'
   name: 'Cal.com Deprecated: Platform OAuth Clients API'
   slug: cal-com-deprecated-platform-oauth-clients-api
-- description: 'The Deprecated: Platform / Webhooks API from Cal.com — 2 operation(s) for deprecated: platform / webhooks.'
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: 'The Deprecated: Platform / Webhooks API from Cal.com — 2 operation(s) for deprecated: platform / webhooks.'
   name: 'Cal.com Deprecated: Platform / Webhooks API'
   slug: cal-com-deprecated-platform-webhooks-api
-- description: The Destination Calendars API from Cal.com — 1 operation(s) for destination calendars.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Destination Calendars API from Cal.com — 1 operation(s) for destination calendars.
   name: Cal.com Destination Calendars API
   slug: cal-com-destination-calendars-api
-- description: The Event Types API from Cal.com — 2 operation(s) for event types.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Event Types API from Cal.com — 2 operation(s) for event types.
   name: Cal.com Event Types API
   slug: cal-com-event-types-api
-- description: The Event Types Private Links API from Cal.com — 2 operation(s) for event types private links.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Event Types Private Links API from Cal.com — 2 operation(s) for event types private links.
   name: Cal.com Event Types Private Links API
   slug: cal-com-event-types-private-links-api
-- description: The Event Types / Webhooks API from Cal.com — 2 operation(s) for event types / webhooks.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Event Types / Webhooks API from Cal.com — 2 operation(s) for event types / webhooks.
   name: Cal.com Event Types / Webhooks API
   slug: cal-com-event-types-webhooks-api
-- description: The Me API from Cal.com — 1 operation(s) for me.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Me API from Cal.com — 1 operation(s) for me.
   name: Cal.com Me API
   slug: cal-com-me-api
-- description: The OAuth2 API from Cal.com — 2 operation(s) for oauth2.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The OAuth2 API from Cal.com — 2 operation(s) for oauth2.
   name: Cal.com OAuth2 API
   slug: cal-com-oauth2-api
-- description: The Schedules API from Cal.com — 3 operation(s) for schedules.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Schedules API from Cal.com — 3 operation(s) for schedules.
   name: Cal.com Schedules API
   slug: cal-com-schedules-api
-- description: The Selected Calendars API from Cal.com — 1 operation(s) for selected calendars.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Selected Calendars API from Cal.com — 1 operation(s) for selected calendars.
   name: Cal.com Selected Calendars API
   slug: cal-com-selected-calendars-api
-- description: The Slots API from Cal.com — 3 operation(s) for slots.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Slots API from Cal.com — 3 operation(s) for slots.
   name: Cal.com Slots API
   slug: cal-com-slots-api
-- description: The Stripe API from Cal.com — 3 operation(s) for stripe.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Stripe API from Cal.com — 3 operation(s) for stripe.
   name: Cal.com Stripe API
   slug: cal-com-stripe-api
-- description: The Verified Resources API from Cal.com — 8 operation(s) for verified resources.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Verified Resources API from Cal.com — 8 operation(s) for verified resources.
   name: Cal.com Verified Resources API
   slug: cal-com-verified-resources-api
-- description: The Webhooks API from Cal.com — 2 operation(s) for webhooks.
+- baseURL: https://api.cal.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from Cal.com — 2 operation(s) for webhooks.
   name: Cal.com Webhooks API
   slug: cal-com-webhooks-api
 artifact_total: 55
@@ -288,7 +332,7 @@ score:
     catalog_gap: 67.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -298,7 +342,7 @@ score:
     discoverability: 63.0
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 34.6
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -307,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: PointClickCare FHIR API provides HL7 FHIR-compliant access to resident clinical data for post-acute and long-term care settings, supporting interoperability with other healthcare systems and care coor
   name: PointClickCare FHIR API
   slug: pointclickcare-fhir-api
-- description: Clinical assessments (MDS, fall risk, etc.)
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Clinical assessments (MDS, fall risk, etc.)
   name: PointClickCare Assessments API
   slug: pointclickcare-assessments-api
-- description: Diagnosis and condition records
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Diagnosis and condition records
   name: PointClickCare Diagnoses API
   slug: pointclickcare-diagnoses-api
-- description: Facility and unit management
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Facility and unit management
   name: PointClickCare Facilities API
   slug: pointclickcare-facilities-api
-- description: Medication orders and administration records (MAR)
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Medication orders and administration records (MAR)
   name: PointClickCare Medications API
   slug: pointclickcare-medications-api
-- description: Resident/patient demographics and admission data
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Resident/patient demographics and admission data
   name: PointClickCare Patients API
   slug: pointclickcare-patients-api
-- description: Vital signs records
+- baseURL: https://api.pointclickcare.com/v2
+  baseurl_source: declared
+  description: Vital signs records
   name: PointClickCare Vitals API
   slug: pointclickcare-vitals-api
 artifact_total: 32
@@ -264,7 +276,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/screenshots/pointclickcare-2026-06-20T191845.png
 security:

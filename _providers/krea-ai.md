@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 72 operations · 64 acting
 api_count: 1
 apis:
-- description: Asset management endpoints for uploading and managing images, videos, audio files, and 3D models
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Asset management endpoints for uploading and managing images, videos, audio files, and 3D models
   name: Krea Assets API
   slug: krea-ai-assets-api
-- description: Core API operations including job management and billing information
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Core API operations including job management and billing information
   name: Krea General API
   slug: krea-ai-general-api
-- description: Image generation endpoints
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Image generation endpoints
   name: Krea Image API
   slug: krea-ai-image-api
-- description: Image enhance endpoints
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Image enhance endpoints
   name: Krea Image Enhance API
   slug: krea-ai-image-enhance-api
-- description: Executing custom node apps built in our nodes tool
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Executing custom node apps built in our nodes tool
   name: Krea Node Apps API
   slug: krea-ai-node-apps-api
-- description: Style (LoRA) generation and management endpoints
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Style (LoRA) generation and management endpoints
   name: Krea Styles API
   slug: krea-ai-styles-api
-- description: Video generation endpoints
+- baseURL: https://api.krea.ai
+  baseurl_source: declared
+  description: Video generation endpoints
   name: Krea Video API
   slug: krea-ai-video-api
 artifact_total: 37
@@ -317,7 +331,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -327,7 +341,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 39.5
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -336,7 +350,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:

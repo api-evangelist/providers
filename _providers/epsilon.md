@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +36,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
   name: Epsilon Retail Media Brand Pages API
   slug: epsilon-retail-media-brand-pages-api
-- description: The Ads API from Epsilon — 2 operation(s) for ads.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The Ads API from Epsilon — 2 operation(s) for ads.
   name: Epsilon Ads API
   slug: epsilon-ads-api
-- description: The Catalog Products API from Epsilon — 2 operation(s) for catalog products.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The Catalog Products API from Epsilon — 2 operation(s) for catalog products.
   name: Epsilon Catalog Products API
   slug: epsilon-catalog-products-api
-- description: The Catalogs API from Epsilon — 1 operation(s) for catalogs.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The Catalogs API from Epsilon — 1 operation(s) for catalogs.
   name: Epsilon Catalogs API
   slug: epsilon-catalogs-api
-- description: The crossSellCategory API from Epsilon — 2 operation(s) for crosssellcategory.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The crossSellCategory API from Epsilon — 2 operation(s) for crosssellcategory.
   name: Epsilon Cross Sell Category API
   slug: epsilon-crosssellcategory-api
-- description: The Customers API from Epsilon — 3 operation(s) for customers.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The Customers API from Epsilon — 3 operation(s) for customers.
   name: Epsilon Customers API
   slug: epsilon-customers-api
-- description: The filterMapping API from Epsilon — 2 operation(s) for filtermapping.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The filterMapping API from Epsilon — 2 operation(s) for filtermapping.
   name: Epsilon Filter Mapping API
   slug: epsilon-filtermapping-api
-- description: The Orders API from Epsilon — 2 operation(s) for orders.
+- baseURL: https://integration-{tenant}.citrusad.com/v1
+  baseurl_source: declared
+  description: The Orders API from Epsilon — 2 operation(s) for orders.
   name: Epsilon Orders API
   slug: epsilon-orders-api
 artifact_total: 15
@@ -199,7 +226,7 @@ score:
   band: thin
   composite: 34.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +251,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon/refs/heads/main/screenshots/epsilon-2026-09-02T145416.png
 security:
 - kind: authentication
   name: Epsilon Authentication

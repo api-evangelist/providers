@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Authenticated customer profile and registration.
+- baseURL: https://api.gokonfetti.com/v1
+  baseurl_source: declared
+  description: Authenticated customer profile and registration.
   name: konfetti account API
   slug: konfetti-account-api
-- description: OAuth 2.0 token issuance.
+- baseURL: https://api.gokonfetti.com/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance.
   name: konfetti auth API
   slug: konfetti-auth-api
-- description: Public read access to experiences and categories.
+- baseURL: https://api.gokonfetti.com/v1
+  baseurl_source: declared
+  description: Public read access to experiences and categories.
   name: konfetti catalog API
   slug: konfetti-catalog-api
-- description: Cart validation, coupons and orders.
+- baseURL: https://api.gokonfetti.com/v1
+  baseurl_source: declared
+  description: Cart validation, coupons and orders.
   name: konfetti checkout API
   slug: konfetti-checkout-api
-- description: Lead-capture endpoints for date and private-event requests.
+- baseURL: https://api.gokonfetti.com/v1
+  baseurl_source: declared
+  description: Lead-capture endpoints for date and private-event requests.
   name: konfetti requests API
   slug: konfetti-requests-api
 artifact_total: 14
@@ -226,7 +236,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.7
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -236,7 +246,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.9
+  previous_composite: 27.2
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +263,8 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:
 - kind: authentication

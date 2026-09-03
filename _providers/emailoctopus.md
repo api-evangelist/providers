@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 25 operations · 15 acting
 api_count: 2
 apis:
-- description: Enqueue an existing contact into an EmailOctopus automation. Write-only — the v2 API exposes no operation to list or read automations, so the automation id must come from the dashboard. 1 operation(s)
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: Enqueue an existing contact into an EmailOctopus automation. Write-only — the v2 API exposes no operation to list or read automations, so the automation id must come from the dashboard. 1 operation(s)
   name: EmailOctopus Automation API
   slug: emailoctopus-automation-api
-- description: 'Read campaigns and their three report projections — summary counters, per-link clicks, and per-contact engagement rows. Read-only: campaigns cannot be created, scheduled or sent through the v2 API. 5 '
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: 'Read campaigns and their three report projections — summary counters, per-link clicks, and per-contact engagement rows. Read-only: campaigns cannot be created, scheduled or sent through the v2 API. 5 '
   name: EmailOctopus Campaign API
   slug: emailoctopus-campaign-api
-- description: 'Manage subscribers on a list: create, read, update, delete, upsert by email address, and update many at once through the batch endpoint. The upsert (PUT /lists/{list_id}/contacts) is the safe-retry pa'
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: 'Manage subscribers on a list: create, read, update, delete, upsert by email address, and update many at once through the batch endpoint. The upsert (PUT /lists/{list_id}/contacts) is the safe-retry pa'
   name: EmailOctopus Contact API
   slug: emailoctopus-contact-api
-- description: 'Define the per-list custom fields contact records are written against. Fields are keyed by a stable tag slug and typed text, number or date, with optional choices and a fallback value. 3 operation(s) '
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: 'Define the per-list custom fields contact records are written against. Fields are keyed by a stable tag slug and typed text, number or date, with optional choices and a fallback value. 3 operation(s) '
   name: EmailOctopus Field API
   slug: emailoctopus-field-api
-- description: 'Create and manage subscriber lists, the aggregate root of the EmailOctopus data model. Fields, tags and contacts are all owned by a list and addressed through list-scoped paths. 5 operation(s) in the '
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: 'Create and manage subscriber lists, the aggregate root of the EmailOctopus data model. Fields, tags and contacts are all owned by a list and addressed through list-scoped paths. 5 operation(s) in the '
   name: EmailOctopus List API
   slug: emailoctopus-list-api
-- description: Create, rename, delete and list the tags used to segment contacts on a list. Tags are keyed by slug rather than an id. 4 operation(s) in the EmailOctopus v2 OpenAPI 3.1.0.
+- baseURL: https://api.emailoctopus.com
+  baseurl_source: declared
+  description: Create, rename, delete and list the tags used to segment contacts on a list. Tags are keyed by slug rather than an id. 4 operation(s) in the EmailOctopus v2 OpenAPI 3.1.0.
   name: EmailOctopus Tag API
   slug: emailoctopus-tag-api
 artifact_total: 21
@@ -245,7 +257,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -255,7 +267,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 59.4
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,7 +285,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png
 security:

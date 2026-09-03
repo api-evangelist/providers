@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -43,127 +43,209 @@ agentic_access:
   summary_line: 150 operations · 79 acting
 api_count: 1
 apis:
-- description: Customer Profile Addresses
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Customer Profile Addresses
   name: Newstore address API
   slug: newstore-address-api
-- description: Audit event operations.
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Audit event operations.
   name: Newstore audit-events API
   slug: newstore-audit-events-api
-- description: Operations on carts
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Operations on carts
   name: Newstore cart API
   slug: newstore-cart-api
-- description: Fiscal cashboxes
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Fiscal cashboxes
   name: Newstore cashboxes API
   slug: newstore-cashboxes-api
-- description: Customer API Configurations
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Customer API Configurations
   name: Newstore customer-configuration API
   slug: newstore-customer-configuration-api
-- description: Customer Profiles
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Customer Profiles
   name: Newstore customer-profile API
   slug: newstore-customer-profile-api
-- description: Customer Profiles
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Customer Profiles
   name: Newstore customerProfile API
   slug: newstore-customerprofile-api
-- description: PII Data
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: PII Data
   name: Newstore data API
   slug: newstore-data-api
-- description: Easypost Adapter Configuration
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Easypost Adapter Configuration
   name: Newstore EasypostAdapterConfig API
   slug: newstore-easypostadapterconfig-api
-- description: Fulfillment Requests
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Fulfillment Requests
   name: Newstore fulfillment-requests API
   slug: newstore-fulfillment-requests-api
-- description: Identity Providers
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Identity Providers
   name: Newstore identity-providers API
   slug: newstore-identity-providers-api
-- description: Import Schemas
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Import Schemas
   name: Newstore Import Schemas API
   slug: newstore-import-schemas-api
-- description: Inventory Configuration
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Inventory Configuration
   name: Newstore Inventory Configuration API
   slug: newstore-inventory-configuration-api
-- description: Order Injection
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Order Injection
   name: Newstore order-injection API
   slug: newstore-order-injection-api
-- description: Order Injection Configuration
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Order Injection Configuration
   name: Newstore order-injection-config API
   slug: newstore-order-injection-config-api
-- description: Fiscal orders
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Fiscal orders
   name: Newstore orders API
   slug: newstore-orders-api
-- description: Package Types
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Package Types
   name: Newstore package-types API
   slug: newstore-package-types-api
-- description: Pricebook Export
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Pricebook Export
   name: Newstore Pricebook export API
   slug: newstore-pricebook-export-api
-- description: Product Export
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Product Export
   name: Newstore Product export API
   slug: newstore-product-export-api
-- description: Clienteling Profiles
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Clienteling Profiles
   name: Newstore profiles API
   slug: newstore-profiles-api
-- description: Provider Rates
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Provider Rates
   name: Newstore provider-rates API
   slug: newstore-provider-rates-api
-- description: Payment provider operations
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Payment provider operations
   name: Newstore providers API
   slug: newstore-providers-api
-- description: Reason Codes API.
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Reason Codes API.
   name: Newstore Reason Codes API
   slug: newstore-reason-codes-api
-- description: Reservations
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Reservations
   name: Newstore reservations API
   slug: newstore-reservations-api
-- description: Roles
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Roles
   name: Newstore roles API
   slug: newstore-roles-api
-- description: Routing
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Routing
   name: Newstore routing API
   slug: newstore-routing-api
-- description: Routing Configuration
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Routing Configuration
   name: Newstore routing-config API
   slug: newstore-routing-config-api
-- description: Routing Ruleset
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Routing Ruleset
   name: Newstore routing-ruleset API
   slug: newstore-routing-ruleset-api
-- description: Operations related to sales order management.
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Operations related to sales order management.
   name: Newstore sales-orders API
   slug: newstore-sales-orders-api
-- description: Shipment Configurations
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Shipment Configurations
   name: Newstore shipment-configurations API
   slug: newstore-shipment-configurations-api
-- description: Shipping Labels
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Shipping Labels
   name: Newstore shipping-labels API
   slug: newstore-shipping-labels-api
-- description: Shipping Option Audits
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Shipping Option Audits
   name: Newstore shipping-option-audits API
   slug: newstore-shipping-option-audits-api
-- description: Stock Operations
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Stock Operations
   name: Newstore stock API
   slug: newstore-stock-api
-- description: Tax configuration - Store
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Tax configuration - Store
   name: Newstore store-tax-configuration API
   slug: newstore-store-tax-configuration-api
-- description: Fiscal stores
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Fiscal stores
   name: Newstore stores API
   slug: newstore-stores-api
-- description: Tax transactions
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Tax transactions
   name: Newstore tax-transactions API
   slug: newstore-tax-transactions-api
-- description: Tenant configuration
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Tenant configuration
   name: Newstore tenant-config API
   slug: newstore-tenant-config-api
-- description: Tax configuration - Tenant
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Tax configuration - Tenant
   name: Newstore tenant-tax-configuration API
   slug: newstore-tenant-tax-configuration-api
-- description: Tokens
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Tokens
   name: Newstore token-operations API
   slug: newstore-token-operations-api
-- description: Third Party Promotions Engine
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Third Party Promotions Engine
   name: Newstore tppe API
   slug: newstore-tppe-api
-- description: Users
+- baseURL: https://dodici-demo.p.newstore.net
+  baseurl_source: declared
+  description: Users
   name: Newstore users API
   slug: newstore-users-api
 artifact_total: 90
@@ -459,7 +541,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -469,7 +551,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -481,7 +563,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:

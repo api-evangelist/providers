@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: The Contact Activity API from Inflection.io — 4 operation(s) for contact activity.
+- baseURL: https://api.inflection.io/v1
+  baseurl_source: declared
+  description: The Contact Activity API from Inflection.io — 4 operation(s) for contact activity.
   name: Inflection.io Contact Activity API
   slug: inflectionio-contact-activity-api
-- description: The Contacts API from Inflection.io — 6 operation(s) for contacts.
+- baseURL: https://api.inflection.io/v1
+  baseurl_source: declared
+  description: The Contacts API from Inflection.io — 6 operation(s) for contacts.
   name: Inflection.io Contacts API
   slug: inflectionio-contacts-api
-- description: The Emails API from Inflection.io — 2 operation(s) for creating and reading HTML emails.
+- baseURL: https://api.inflection.io/v1
+  baseurl_source: declared
+  description: The Emails API from Inflection.io — 2 operation(s) for creating and reading HTML emails.
   name: Inflection.io Emails API
   slug: inflectionio-emails-api
-- description: The Email Versions API from Inflection.io — 1 operation for pushing a per-contact personalized version of a Personalized Email Asset.
+- baseURL: https://api.inflection.io/v1
+  baseurl_source: declared
+  description: The Email Versions API from Inflection.io — 1 operation for pushing a per-contact personalized version of a Personalized Email Asset.
   name: Inflection.io Email Versions API
   slug: inflectionio-email-versions-api
-- description: The Lists and Members API from Inflection.io — 7 operation(s) for lists and members.
+- baseURL: https://api.inflection.io/v1
+  baseurl_source: declared
+  description: The Lists and Members API from Inflection.io — 7 operation(s) for lists and members.
   name: Inflection.io Lists and Members API
   slug: inflectionio-lists-and-members-api
 - description: Inflection's first-party remote MCP server — the agent-facing authoring surface for journeys, audiences, segments, emails, tokens and analytics, gated by OAuth 2.1 with PKCE.
@@ -292,7 +302,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -302,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 59.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,7 +324,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:

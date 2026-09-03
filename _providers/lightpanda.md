@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Lightpanda's primary programmable interface. The browser runs as a CDP server (`lightpanda serve`) and exposes the Chrome DevTools Protocol over a WebSocket endpoint (default `ws://127.0.0.1:9222`). C
+- baseURL: ws://127.0.0.1:9222
+  baseurl_source: declared
+  description: Lightpanda's primary programmable interface. The browser runs as a CDP server (`lightpanda serve`) and exposes the Chrome DevTools Protocol over a WebSocket endpoint (default `ws://127.0.0.1:9222`). C
   name: Lightpanda CDP WebSocket Interface
   slug: lightpanda-cdp-websocket-interface
-- description: Managed, hosted CDP browser endpoints reached over secure WebSocket (e.g. `wss://euwest.cloud.lightpanda.io/ws`, `wss://uswest.cloud.lightpanda.io/ws`). Authentication is a `token` query-string parame
+- baseURL: wss://cloud.lightpanda.io/ws
+  baseurl_source: declared
+  description: Managed, hosted CDP browser endpoints reached over secure WebSocket (e.g. `wss://euwest.cloud.lightpanda.io/ws`, `wss://uswest.cloud.lightpanda.io/ws`). Authentication is a `token` query-string parame
   name: Lightpanda Cloud
   slug: lightpanda-cloud
 - description: The open-source command-line binary (AGPL-3.0, written in Zig). `lightpanda serve` starts the CDP-over-WebSocket server; `lightpanda fetch` retrieves and dumps a URL as HTML or markdown; `lightpanda a
@@ -142,7 +146,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -152,9 +156,9 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 30.9
+  previous_composite: 30.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightpanda/refs/heads/main/screenshots/lightpanda-2026-06-20T184520.png
 security:

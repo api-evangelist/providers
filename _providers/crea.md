@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 38 operations · 2 acting
 api_count: 3
 apis:
-- description: Get details about each destination linked to the Technology Provider
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get details about each destination linked to the Technology Provider
   name: CREA (REALTOR.ca) Destination API
   slug: crea-destination-api
-- description: Create Lead
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Create Lead
   name: CREA (REALTOR.ca) Lead API
   slug: crea-lead-api
-- description: This transaction is used to retrieve Member list for the specific board. Boards can access Member information of other Boards based on permissions granted.
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: This transaction is used to retrieve Member list for the specific board. Boards can access Member information of other Boards based on permissions granted.
   name: CREA (REALTOR.ca) Member API
   slug: crea-member-api
-- description: This transaction is used to retrieve Office details for the specific board. Boards can access Office information of other Boards based on permissions granted.
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: This transaction is used to retrieve Office details for the specific board. Boards can access Office information of other Boards based on permissions granted.
   name: CREA (REALTOR.ca) Office API
   slug: crea-office-api
-- description: The OpenHouse API from CREA (REALTOR.ca) — 2 operation(s) for openhouse.
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: The OpenHouse API from CREA (REALTOR.ca) — 2 operation(s) for openhouse.
   name: CREA (REALTOR.ca) Open House API
   slug: crea-openhouse-api
-- description: Get Properties
+- baseURL: https://ddfapi.realtor.ca/odata/v1
+  baseurl_source: declared
+  description: Get Properties
   name: CREA (REALTOR.ca) Property API
   slug: crea-property-api
 artifact_total: 16
@@ -308,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png
 security:

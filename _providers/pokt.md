@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: PATH (Pocket API and Toolkit Harness) is an open-source framework for deploying permissionless gateways on top of Pocket Network. Exposes health, readiness, and Prometheus metrics endpoints for gatewa
   name: Pocket Network PATH Gateway API
   slug: pocket-network-path-gateway-api
-- description: PATH API endpoints
+- baseURL: https://api.pocket.network
+  baseurl_source: declared
+  description: PATH API endpoints
   name: Pocket Network API API
   slug: pokt-api-api
-- description: The Msg API from Pocket Network — 34 operation(s) for msg.
+- baseURL: https://api.pocket.network
+  baseurl_source: declared
+  description: The Msg API from Pocket Network — 34 operation(s) for msg.
   name: Pocket Network Msg API
   slug: pokt-msg-api
-- description: The Query API from Pocket Network — 26 operation(s) for query.
+- baseURL: https://api.pocket.network
+  baseurl_source: declared
+  description: The Query API from Pocket Network — 26 operation(s) for query.
   name: Pocket Network Query API
   slug: pokt-query-api
 artifact_total: 29
@@ -264,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/screenshots/pokt-2026-06-20T191847.png
 security:

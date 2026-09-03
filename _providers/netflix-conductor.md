@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Events API from Netflix Conductor — 1 operation(s) for events.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Events API from Netflix Conductor — 1 operation(s) for events.
   name: Netflix Conductor Events API
   slug: netflix-conductor-events-api
-- description: The Metadata API from Netflix Conductor — 4 operation(s) for metadata.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Metadata API from Netflix Conductor — 4 operation(s) for metadata.
   name: Netflix Conductor Metadata API
   slug: netflix-conductor-metadata-api
-- description: The Tasks API from Netflix Conductor — 5 operation(s) for tasks.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Tasks API from Netflix Conductor — 5 operation(s) for tasks.
   name: Netflix Conductor Tasks API
   slug: netflix-conductor-tasks-api
-- description: The Workflow API from Netflix Conductor — 9 operation(s) for workflow.
+- baseURL_template: '{baseUrl}/api'
+  baseurl_source: spec_template
+  description: The Workflow API from Netflix Conductor — 9 operation(s) for workflow.
   name: Netflix Conductor Workflow API
   slug: netflix-conductor-workflow-api
 artifact_total: 15
@@ -156,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/screenshots/netflix-conductor-2026-06-20T190151.png
 security:

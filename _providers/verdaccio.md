@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -48,28 +48,44 @@ apis:
 - description: 'The Verdaccio npm Registry REST API implements the CommonJS Compliant Package Registry specification, providing endpoints to publish, retrieve, search, and delete npm packages. It supports JWT tokens '
   name: Verdaccio npm Registry API
   slug: verdaccio-npm-registry-api
-- description: Manage dist-tags for packages
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: Manage dist-tags for packages
   name: Verdaccio dist-tags API
   slug: verdaccio-dist-tags-api
-- description: Retrieve package metadata and tarballs
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: Retrieve package metadata and tarballs
   name: Verdaccio packages API
   slug: verdaccio-packages-api
-- description: User profile management
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: User profile management
   name: Verdaccio profile API
   slug: verdaccio-profile-api
-- description: Publish, update, and unpublish packages
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: Publish, update, and unpublish packages
   name: Verdaccio publish API
   slug: verdaccio-publish-api
-- description: Search the registry
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: Search the registry
   name: Verdaccio search API
   slug: verdaccio-search-api
-- description: API token management
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: API token management
   name: Verdaccio tokens API
   slug: verdaccio-tokens-api
-- description: User authentication and management
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: User authentication and management
   name: Verdaccio user API
   slug: verdaccio-user-api
-- description: Utility endpoints
+- baseURL: http://localhost:4873
+  baseurl_source: declared
+  description: Utility endpoints
   name: Verdaccio utility API
   slug: verdaccio-utility-api
 artifact_total: 32
@@ -275,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/screenshots/verdaccio-2026-06-20T200918.png
 security:

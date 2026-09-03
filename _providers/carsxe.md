@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -74,19 +74,29 @@ apis:
 - description: Matches an OBD-II diagnostic trouble code (DTC) to a human-readable vehicle fault description for use in service, maintenance, and connected-car applications.
   name: CarsXE OBD Codes Decoder API
   slug: obd-codes-decoder-api
-- description: The Auth API from CarsXE — 1 operation(s) for auth.
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: The Auth API from CarsXE — 1 operation(s) for auth.
   name: CarsXE Auth API
   slug: carsxe-auth-api
-- description: The Market Value API from CarsXE — 1 operation(s) for market value.
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: The Market Value API from CarsXE — 1 operation(s) for market value.
   name: CarsXE Market Value API
   slug: carsxe-market-value-api
-- description: The Plate API from CarsXE — 1 operation(s) for plate.
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: The Plate API from CarsXE — 1 operation(s) for plate.
   name: CarsXE Plate API
   slug: carsxe-plate-api
-- description: The Recalls API from CarsXE — 1 operation(s) for recalls.
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: The Recalls API from CarsXE — 1 operation(s) for recalls.
   name: CarsXE Recalls API
   slug: carsxe-recalls-api
-- description: The Specifications API from CarsXE — 1 operation(s) for specifications.
+- baseURL: https://api.carsxe.com
+  baseurl_source: declared
+  description: The Specifications API from CarsXE — 1 operation(s) for specifications.
   name: CarsXE Specifications API
   slug: carsxe-specifications-api
 artifact_total: 30
@@ -253,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carsxe/refs/heads/main/screenshots/carsxe-2026-06-20T174021.png
 security:

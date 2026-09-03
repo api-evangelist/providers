@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -36,43 +47,69 @@ apis:
 - description: A Model Context Protocol server endpoint advertised in the enveda.com WordPress REST route index under the "mcp" namespace and served at /wp-json/mcp/mcp-adapter-default-server. The endpoint is live b
   name: Enveda MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Comments API from Enveda — 2 operation(s) for comments.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Enveda — 2 operation(s) for comments.
   name: Enveda Comments API
   slug: enveda-biosciences-comments-api
-- description: The Discovery API from Enveda — 6 operation(s) for discovery.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Enveda — 6 operation(s) for discovery.
   name: Enveda Discovery API
   slug: enveda-biosciences-discovery-api
-- description: The Issues API from Enveda — 2 operation(s) for issues.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Issues API from Enveda — 2 operation(s) for issues.
   name: Enveda Issues API
   slug: enveda-biosciences-issues-api
-- description: The Media API from Enveda — 3 operation(s) for media.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Enveda — 3 operation(s) for media.
   name: Enveda Media API
   slug: enveda-biosciences-media-api
-- description: The News API from Enveda — 4 operation(s) for news.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The News API from Enveda — 4 operation(s) for news.
   name: Enveda News API
   slug: enveda-biosciences-news-api
-- description: The Pages API from Enveda — 2 operation(s) for pages.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Enveda — 2 operation(s) for pages.
   name: Enveda Pages API
   slug: enveda-biosciences-pages-api
-- description: The People API from Enveda — 4 operation(s) for people.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The People API from Enveda — 4 operation(s) for people.
   name: Enveda People API
   slug: enveda-biosciences-people-api
-- description: The Posts API from Enveda — 2 operation(s) for posts.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Enveda — 2 operation(s) for posts.
   name: Enveda Posts API
   slug: enveda-biosciences-posts-api
-- description: The Search API from Enveda — 1 operation(s) for search.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Enveda — 1 operation(s) for search.
   name: Enveda Search API
   slug: enveda-biosciences-search-api
-- description: The Settings API from Enveda — 1 operation(s) for settings.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Enveda — 1 operation(s) for settings.
   name: Enveda Settings API
   slug: enveda-biosciences-settings-api
-- description: The Taxonomy API from Enveda — 4 operation(s) for taxonomy.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomy API from Enveda — 4 operation(s) for taxonomy.
   name: Enveda Taxonomy API
   slug: enveda-biosciences-taxonomy-api
-- description: The Trial Sites API from Enveda — 4 operation(s) for trial sites.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Trial Sites API from Enveda — 4 operation(s) for trial sites.
   name: Enveda Trial Sites API
   slug: enveda-biosciences-trial-sites-api
-- description: The Users API from Enveda — 3 operation(s) for users.
+- baseURL: https://enveda.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Enveda — 3 operation(s) for users.
   name: Enveda Users API
   slug: enveda-biosciences-users-api
 artifact_total: 32
@@ -282,7 +319,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

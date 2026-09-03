@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The Azure DevOps Release API provides REST endpoints for managing release pipelines, deployments, and environments. APIs support release definition management, deployment approvals, environment config
   name: Azure DevOps Release API
   slug: azure-devops-release-api
-- description: Work item field definitions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Work item field definitions
   name: Azure DevOps Fields API
   slug: azure-devops-fields-api
-- description: Pipeline definition management
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Pipeline definition management
   name: Azure DevOps Pipelines API
   slug: azure-devops-pipelines-api
-- description: Work item query execution
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Work item query execution
   name: Azure DevOps Queries API
   slug: azure-devops-queries-api
-- description: Pipeline run execution and monitoring
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Pipeline run execution and monitoring
   name: Azure DevOps Runs API
   slug: azure-devops-runs-api
-- description: Work item CRUD and management
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Work item CRUD and management
   name: Azure DevOps WorkItems API
   slug: azure-devops-workitems-api
 artifact_total: 84
@@ -504,7 +514,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -514,7 +524,7 @@ score:
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     contracts:
@@ -523,7 +533,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:

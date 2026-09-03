@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 23 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Account-level information, sub-accounts, and users.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Account-level information, sub-accounts, and users.
   name: Beds24 Accounts API
   slug: beds24-accounts-api
-- description: Refresh and access token management and diagnostics.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Refresh and access token management and diagnostics.
   name: Beds24 Authentication API
   slug: beds24-authentication-api
-- description: Read, create, and modify reservations across all channels.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Read, create, and modify reservations across all channels.
   name: Beds24 Bookings API
   slug: beds24-bookings-api
-- description: OTA channel connection and mapping management.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: OTA channel connection and mapping management.
   name: Beds24 Channels API
   slug: beds24-channels-api
-- description: Per-day availability calendar, availability status, and fixed prices.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Per-day availability calendar, availability status, and fixed prices.
   name: Beds24 Inventory API
   slug: beds24-inventory-api
-- description: Invoice items, charges, and payments attached to bookings.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Invoice items, charges, and payments attached to bookings.
   name: Beds24 Invoices API
   slug: beds24-invoices-api
-- description: Guest and channel messages attached to bookings.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Guest and channel messages attached to bookings.
   name: Beds24 Messages API
   slug: beds24-messages-api
-- description: Property and room configuration and bookable offers.
+- baseURL: https://api.beds24.com/v2
+  baseurl_source: declared
+  description: Property and room configuration and bookable offers.
   name: Beds24 Properties API
   slug: beds24-properties-api
 artifact_total: 24
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beds24/refs/heads/main/screenshots/beds24-2026-07-25T202622.png
 security:

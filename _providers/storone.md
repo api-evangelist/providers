@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The S1 REST API manages a StorONE storage system: create and manage applications, volumes, snapshots, shares, file systems and object stores; register hosts and mappings; configure NAS servers, floati'
@@ -181,11 +194,11 @@ score:
   band: thin
   composite: 33.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -195,14 +208,15 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 34.4
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/storone/refs/heads/main/screenshots/storone-2026-09-02T160936.png
 security:
 - kind: authentication
   name: Storone Authentication

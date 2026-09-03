@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: The V1alpha API from Google Marketing Platform Admin — 4 operation(s) for v1alpha.
+- baseURL: https://marketingplatformadmin.googleapis.com
+  baseurl_source: declared
+  description: The V1alpha API from Google Marketing Platform Admin — 4 operation(s) for v1alpha.
   name: Google Marketing Platform Admin V1alpha API
   slug: google-marketing-platform-v1alpha-api
 artifact_total: 46
@@ -403,7 +405,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:

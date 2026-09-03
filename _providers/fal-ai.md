@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 11 operations · 5 acting
 api_count: 3
 apis:
-- description: WebSocket-based realtime inference for ultra-low latency interactive generative experiences such as LCM/SDXL sketch-to-image, live-portrait, and realtime upscaling. Bi-directional binary/JSON messagin
+- baseURL: wss://realtime.fal.run
+  baseurl_source: declared
+  description: WebSocket-based realtime inference for ultra-low latency interactive generative experiences such as LCM/SDXL sketch-to-image, live-portrait, and realtime upscaling. Bi-directional binary/JSON messagin
   name: fal Realtime API
   slug: fal-realtime-api
-- description: HTTP streaming endpoint (`/{model-id}/stream`) that emits progressive partial outputs as a model runs — used for LLM/VLM token streams, incremental video frames, and step-by-step image diffusion previ
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: HTTP streaming endpoint (`/{model-id}/stream`) that emits progressive partial outputs as a model runs — used for LLM/VLM token streams, incremental video frames, and step-by-step image diffusion previ
   name: fal Streaming API
   slug: fal-streaming-api
 - description: Read-only discovery endpoints for browsing fal's 1,000+ production model catalog, including model metadata, capability tags, pricing per output, supported parameters, example inputs, and OpenAPI schem
@@ -62,22 +66,34 @@ apis:
 - description: Programmatic access to usage metrics, per-model spend, GPU-second consumption, and invoicing history. Surfaces the same data shown on the fal dashboard so platform teams can pipe inference cost into i
   name: fal Usage and Billing API
   slug: fal-usage-billing-api
-- description: List and inspect deployed Serverless apps.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: List and inspect deployed Serverless apps.
   name: fal Apps API
   slug: fal-ai-apps-api
-- description: Manage files on persistent Serverless `/data` volumes.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Manage files on persistent Serverless `/data` volumes.
   name: fal Files API
   slug: fal-ai-files-api
-- description: Submit, inspect, and cancel model inference jobs.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Submit, inspect, and cancel model inference jobs.
   name: fal Queue API
   slug: fal-ai-queue-api
-- description: Manage per-org secrets injected into Serverless runs.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Manage per-org secrets injected into Serverless runs.
   name: fal Secrets API
   slug: fal-ai-secrets-api
-- description: Upload binary assets to the fal CDN.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Upload binary assets to the fal CDN.
   name: fal Storage API
   slug: fal-ai-storage-api
-- description: Server-sent streaming of incremental model output.
+- baseURL: https://queue.fal.run
+  baseurl_source: declared
+  description: Server-sent streaming of incremental model output.
   name: fal Streaming API
   slug: fal-ai-streaming-api
 arazzos:
@@ -551,7 +567,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -561,7 +577,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 68.2
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -572,7 +588,7 @@ score:
       total: 6
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:

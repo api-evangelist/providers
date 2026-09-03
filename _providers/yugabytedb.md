@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -45,223 +45,369 @@ agentic_access:
   summary_line: 895 operations · 571 acting · 33 human-in-the-loop
 api_count: 12
 apis:
-- description: The Access Keys API from YugabyteDB — 3 operation(s) for access keys.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Access Keys API from YugabyteDB — 3 operation(s) for access keys.
   name: YugabyteDB Access Keys API
   slug: yugabytedb-access-keys-api
-- description: Retrieve account-level information for the authenticated user, including account ID and metadata used to scope all other API requests.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Retrieve account-level information for the authenticated user, including account ID and metadata used to scope all other API requests.
   name: YugabyteDB Accounts API
   slug: yugabytedb-accounts-api
-- description: The Alerts API from YugabyteDB — 24 operation(s) for alerts.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Alerts API from YugabyteDB — 24 operation(s) for alerts.
   name: YugabyteDB Alerts API
   slug: yugabytedb-alerts-api
-- description: Manage IP allow lists that control which client IP addresses or CIDR ranges are permitted to connect to a cluster.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage IP allow lists that control which client IP addresses or CIDR ranges are permitted to connect to a cluster.
   name: YugabyteDB AllowLists API
   slug: yugabytedb-allowlists-api
-- description: The Asynchronous Replication API from YugabyteDB — 6 operation(s) for asynchronous replication.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Asynchronous Replication API from YugabyteDB — 6 operation(s) for asynchronous replication.
   name: YugabyteDB Asynchronous Replication API
   slug: yugabytedb-asynchronous-replication-api
-- description: The Audit API from YugabyteDB — 3 operation(s) for audit.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Audit API from YugabyteDB — 3 operation(s) for audit.
   name: YugabyteDB Audit API
   slug: yugabytedb-audit-api
-- description: Authentication operations on YBA
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Authentication operations on YBA
   name: YugabyteDB Authentication API
   slug: yugabytedb-authentication-api
-- description: The Availability Zones API from YugabyteDB — 4 operation(s) for availability zones.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Availability Zones API from YugabyteDB — 4 operation(s) for availability zones.
   name: YugabyteDB Availability Zones API
   slug: yugabytedb-availability-zones-api
-- description: Operations related to universe backup and restore
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Operations related to universe backup and restore
   name: YugabyteDB Backup and Restore API
   slug: yugabytedb-backup-and-restore-api
-- description: Manage backup schedules and trigger on-demand backups for YugabyteDB Aeon clusters. Backups are stored in the same region as the cluster.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage backup schedules and trigger on-demand backups for YugabyteDB Aeon clusters. Backups are stored in the same region as the cluster.
   name: YugabyteDB Backups API
   slug: yugabytedb-backups-api
-- description: The Certificate Info API from YugabyteDB — 7 operation(s) for certificate info.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Certificate Info API from YugabyteDB — 7 operation(s) for certificate info.
   name: YugabyteDB Certificate Info API
   slug: yugabytedb-certificate-info-api
-- description: The Cloud providers API from YugabyteDB — 8 operation(s) for cloud providers.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Cloud providers API from YugabyteDB — 8 operation(s) for cloud providers.
   name: YugabyteDB Cloud providers API
   slug: yugabytedb-cloud-providers-api
-- description: Create, list, retrieve, update, pause, resume, and delete YugabyteDB clusters within an account and project. Supports both single-region and multi-region cluster configurations.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Create, list, retrieve, update, pause, resume, and delete YugabyteDB clusters within an account and project. Supports both single-region and multi-region cluster configurations.
   name: YugabyteDB Clusters API
   slug: yugabytedb-clusters-api
-- description: CRUD operations for Continuous YBA Backups
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: CRUD operations for Continuous YBA Backups
   name: YugabyteDB Continuous Backup API
   slug: yugabytedb-continuous-backup-api
-- description: The Custom CA Certificates API from YugabyteDB — 4 operation(s) for custom ca certificates.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Custom CA Certificates API from YugabyteDB — 4 operation(s) for custom ca certificates.
   name: YugabyteDB Custom CA Certificates API
   slug: yugabytedb-custom-ca-certificates-api
-- description: The Customer Configuration API from YugabyteDB — 7 operation(s) for customer configuration.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Customer Configuration API from YugabyteDB — 7 operation(s) for customer configuration.
   name: YugabyteDB Customer Configuration API
   slug: yugabytedb-customer-configuration-api
-- description: The Customer management API from YugabyteDB — 4 operation(s) for customer management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Customer management API from YugabyteDB — 4 operation(s) for customer management.
   name: YugabyteDB Customer management API
   slug: yugabytedb-customer-management-api
-- description: The Customer Tasks API from YugabyteDB — 8 operation(s) for customer tasks.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Customer Tasks API from YugabyteDB — 8 operation(s) for customer tasks.
   name: YugabyteDB Customer Tasks API
   slug: yugabytedb-customer-tasks-api
-- description: The Disaster Recovery API from YugabyteDB — 15 operation(s) for disaster recovery.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Disaster Recovery API from YugabyteDB — 15 operation(s) for disaster recovery.
   name: YugabyteDB Disaster Recovery API
   slug: yugabytedb-disaster-recovery-api
-- description: The Encryption at rest API from YugabyteDB — 7 operation(s) for encryption at rest.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Encryption at rest API from YugabyteDB — 7 operation(s) for encryption at rest.
   name: YugabyteDB Encryption at rest API
   slug: yugabytedb-encryption-at-rest-api
-- description: The Extract metadata from remote tarball API from YugabyteDB — 2 operation(s) for extract metadata from remote tarball.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Extract metadata from remote tarball API from YugabyteDB — 2 operation(s) for extract metadata from remote tarball.
   name: YugabyteDB Extract metadata from remote tarball API
   slug: yugabytedb-extract-metadata-from-remote-tarball-api
-- description: The GFlags Validation APIs API from YugabyteDB — 3 operation(s) for gflags validation apis.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The GFlags Validation APIs API from YugabyteDB — 3 operation(s) for gflags validation apis.
   name: YugabyteDB GFlags Validation APIs API
   slug: yugabytedb-gflags-validation-apis-api
-- description: The Grafana Dashboard API from YugabyteDB — 1 operation(s) for grafana dashboard.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Grafana Dashboard API from YugabyteDB — 1 operation(s) for grafana dashboard.
   name: YugabyteDB Grafana Dashboard API
   slug: yugabytedb-grafana-dashboard-api
-- description: The HA API from YugabyteDB — 3 operation(s) for ha.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The HA API from YugabyteDB — 3 operation(s) for ha.
   name: YugabyteDB HA API
   slug: yugabytedb-ha-api
-- description: The Instance types API from YugabyteDB — 5 operation(s) for instance types.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Instance types API from YugabyteDB — 5 operation(s) for instance types.
   name: YugabyteDB Instance types API
   slug: yugabytedb-instance-types-api
-- description: The Internal HA API from YugabyteDB — 5 operation(s) for internal ha.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Internal HA API from YugabyteDB — 5 operation(s) for internal ha.
   name: YugabyteDB Internal HA API
   slug: yugabytedb-internal-ha-api
-- description: Isolated backup/restore of YBA to local filesystem
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Isolated backup/restore of YBA to local filesystem
   name: YugabyteDB Isolated Backup API
   slug: yugabytedb-isolated-backup-api
-- description: Job Scheduler
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Job Scheduler
   name: YugabyteDB Job Scheduler API
   slug: yugabytedb-job-scheduler-api
-- description: The KubernetesOverridesController API from YugabyteDB — 1 operation(s) for kubernetesoverridescontroller.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The KubernetesOverridesController API from YugabyteDB — 1 operation(s) for kubernetesoverridescontroller.
   name: YugabyteDB KubernetesOverridesController API
   slug: yugabytedb-kubernetesoverridescontroller-api
-- description: The LDAP Role management API from YugabyteDB — 1 operation(s) for ldap role management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The LDAP Role management API from YugabyteDB — 1 operation(s) for ldap role management.
   name: YugabyteDB LDAP Role management API
   slug: yugabytedb-ldap-role-management-api
-- description: The LDAPOIDC Role management API from YugabyteDB — 3 operation(s) for ldapoidc role management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The LDAPOIDC Role management API from YugabyteDB — 3 operation(s) for ldapoidc role management.
   name: YugabyteDB LDAPOIDC Role management API
   slug: yugabytedb-ldapoidc-role-management-api
-- description: The License management API from YugabyteDB — 2 operation(s) for license management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The License management API from YugabyteDB — 2 operation(s) for license management.
   name: YugabyteDB License management API
   slug: yugabytedb-license-management-api
-- description: The LoggingConfig API from YugabyteDB — 2 operation(s) for loggingconfig.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The LoggingConfig API from YugabyteDB — 2 operation(s) for loggingconfig.
   name: YugabyteDB LoggingConfig API
   slug: yugabytedb-loggingconfig-api
-- description: The Maintenance windows API from YugabyteDB — 4 operation(s) for maintenance windows.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Maintenance windows API from YugabyteDB — 4 operation(s) for maintenance windows.
   name: YugabyteDB Maintenance windows API
   slug: yugabytedb-maintenance-windows-api
-- description: Configure scheduled maintenance windows for clusters to control when Yugabyte applies software patches and infrastructure updates.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Configure scheduled maintenance windows for clusters to control when Yugabyte applies software patches and infrastructure updates.
   name: YugabyteDB MaintenanceWindows API
   slug: yugabytedb-maintenancewindows-api
-- description: The Metrics API from YugabyteDB — 2 operation(s) for metrics.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Metrics API from YugabyteDB — 2 operation(s) for metrics.
   name: YugabyteDB Metrics API
   slug: yugabytedb-metrics-api
-- description: The New Release management API from YugabyteDB — 2 operation(s) for new release management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The New Release management API from YugabyteDB — 2 operation(s) for new release management.
   name: YugabyteDB New Release management API
   slug: yugabytedb-new-release-management-api
-- description: The Node Agents API from YugabyteDB — 5 operation(s) for node agents.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Node Agents API from YugabyteDB — 5 operation(s) for node agents.
   name: YugabyteDB Node Agents API
   slug: yugabytedb-node-agents-api
-- description: The Node instances API from YugabyteDB — 10 operation(s) for node instances.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Node instances API from YugabyteDB — 10 operation(s) for node instances.
   name: YugabyteDB Node instances API
   slug: yugabytedb-node-instances-api
-- description: The PA Collector API from YugabyteDB — 4 operation(s) for pa collector.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The PA Collector API from YugabyteDB — 4 operation(s) for pa collector.
   name: YugabyteDB PA Collector API
   slug: yugabytedb-pa-collector-api
-- description: The PackagesController API from YugabyteDB — 1 operation(s) for packagescontroller.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The PackagesController API from YugabyteDB — 1 operation(s) for packagescontroller.
   name: YugabyteDB PackagesController API
   slug: yugabytedb-packagescontroller-api
-- description: The Performance Advisor API from YugabyteDB — 9 operation(s) for performance advisor.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Performance Advisor API from YugabyteDB — 9 operation(s) for performance advisor.
   name: YugabyteDB Performance Advisor API
   slug: yugabytedb-performance-advisor-api
-- description: The PITR management API from YugabyteDB — 5 operation(s) for pitr management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The PITR management API from YugabyteDB — 5 operation(s) for pitr management.
   name: YugabyteDB PITR management API
   slug: yugabytedb-pitr-management-api
-- description: The Platform Instance API from YugabyteDB — 4 operation(s) for platform instance.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Platform Instance API from YugabyteDB — 4 operation(s) for platform instance.
   name: YugabyteDB Platform Instance API
   slug: yugabytedb-platform-instance-api
-- description: The Platform Replication API from YugabyteDB — 4 operation(s) for platform replication.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Platform Replication API from YugabyteDB — 4 operation(s) for platform replication.
   name: YugabyteDB Platform Replication API
   slug: yugabytedb-platform-replication-api
-- description: The preview API from YugabyteDB — 2 operation(s) for preview.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The preview API from YugabyteDB — 2 operation(s) for preview.
   name: YugabyteDB preview API
   slug: yugabytedb-preview-api
-- description: Manage projects within a YugabyteDB Aeon account. Projects provide organizational grouping for clusters, allow lists, and billing.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage projects within a YugabyteDB Aeon account. Projects provide organizational grouping for clusters, allow lists, and billing.
   name: YugabyteDB Projects API
   slug: yugabytedb-projects-api
-- description: The RBAC management API from YugabyteDB — 5 operation(s) for rbac management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The RBAC management API from YugabyteDB — 5 operation(s) for rbac management.
   name: YugabyteDB RBAC management API
   slug: yugabytedb-rbac-management-api
-- description: Manage read replicas for a cluster to serve low-latency read requests from remote regions without affecting the primary cluster workload.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Manage read replicas for a cluster to serve low-latency read requests from remote regions without affecting the primary cluster workload.
   name: YugabyteDB ReadReplicas API
   slug: yugabytedb-readreplicas-api
-- description: The Region management API from YugabyteDB — 5 operation(s) for region management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Region management API from YugabyteDB — 5 operation(s) for region management.
   name: YugabyteDB Region management API
   slug: yugabytedb-region-management-api
-- description: The Release management API from YugabyteDB — 3 operation(s) for release management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Release management API from YugabyteDB — 3 operation(s) for release management.
   name: YugabyteDB Release management API
   slug: yugabytedb-release-management-api
-- description: Restore a cluster from a previously created backup snapshot, enabling point-in-time recovery of database state.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: Restore a cluster from a previously created backup snapshot, enabling point-in-time recovery of database state.
   name: YugabyteDB Restores API
   slug: yugabytedb-restores-api
-- description: The Runtime configuration API from YugabyteDB — 6 operation(s) for runtime configuration.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Runtime configuration API from YugabyteDB — 6 operation(s) for runtime configuration.
   name: YugabyteDB Runtime configuration API
   slug: yugabytedb-runtime-configuration-api
-- description: The Schedule management API from YugabyteDB — 7 operation(s) for schedule management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Schedule management API from YugabyteDB — 7 operation(s) for schedule management.
   name: YugabyteDB Schedule management API
   slug: yugabytedb-schedule-management-api
-- description: The Session management API from YugabyteDB — 9 operation(s) for session management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Session management API from YugabyteDB — 9 operation(s) for session management.
   name: YugabyteDB Session management API
   slug: yugabytedb-session-management-api
-- description: The Support Bundle management API from YugabyteDB — 5 operation(s) for support bundle management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Support Bundle management API from YugabyteDB — 5 operation(s) for support bundle management.
   name: YugabyteDB Support Bundle management API
   slug: yugabytedb-support-bundle-management-api
-- description: The Table management API from YugabyteDB — 8 operation(s) for table management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Table management API from YugabyteDB — 8 operation(s) for table management.
   name: YugabyteDB Table management API
   slug: yugabytedb-table-management-api
-- description: The Tablet server management API from YugabyteDB — 1 operation(s) for tablet server management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Tablet server management API from YugabyteDB — 1 operation(s) for tablet server management.
   name: YugabyteDB Tablet server management API
   slug: yugabytedb-tablet-server-management-api
-- description: The Telemetry Provider API from YugabyteDB — 3 operation(s) for telemetry provider.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Telemetry Provider API from YugabyteDB — 3 operation(s) for telemetry provider.
   name: YugabyteDB Telemetry Provider API
   slug: yugabytedb-telemetry-provider-api
-- description: The Universe actions API from YugabyteDB — 1 operation(s) for universe actions.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe actions API from YugabyteDB — 1 operation(s) for universe actions.
   name: YugabyteDB Universe actions API
   slug: yugabytedb-universe-actions-api
-- description: CRUD operations for a Universe
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: CRUD operations for a Universe
   name: YugabyteDB Universe API
   slug: yugabytedb-universe-api
-- description: The Universe CDC Management API from YugabyteDB — 3 operation(s) for universe cdc management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe CDC Management API from YugabyteDB — 3 operation(s) for universe cdc management.
   name: YugabyteDB Universe CDC Management API
   slug: yugabytedb-universe-cdc-management-api
-- description: The Universe database management API from YugabyteDB — 6 operation(s) for universe database management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe database management API from YugabyteDB — 6 operation(s) for universe database management.
   name: YugabyteDB Universe database management API
   slug: yugabytedb-universe-database-management-api
-- description: The Universe information API from YugabyteDB — 11 operation(s) for universe information.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe information API from YugabyteDB — 11 operation(s) for universe information.
   name: YugabyteDB Universe information API
   slug: yugabytedb-universe-information-api
-- description: The Universe management API from YugabyteDB — 11 operation(s) for universe management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe management API from YugabyteDB — 11 operation(s) for universe management.
   name: YugabyteDB Universe management API
   slug: yugabytedb-universe-management-api
-- description: The Universe node metadata (metamaster) API from YugabyteDB — 6 operation(s) for universe node metadata (metamaster).
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe node metadata (metamaster) API from YugabyteDB — 6 operation(s) for universe node metadata (metamaster).
   name: YugabyteDB Universe node metadata (metamaster) API
   slug: yugabytedb-universe-node-metadata-metamaster-api
-- description: The Universe performance suggestions API from YugabyteDB — 3 operation(s) for universe performance suggestions.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe performance suggestions API from YugabyteDB — 3 operation(s) for universe performance suggestions.
   name: YugabyteDB Universe performance suggestions API
   slug: yugabytedb-universe-performance-suggestions-api
-- description: The Universe Upgrades Management API from YugabyteDB — 20 operation(s) for universe upgrades management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Universe Upgrades Management API from YugabyteDB — 20 operation(s) for universe upgrades management.
   name: YugabyteDB Universe Upgrades Management API
   slug: yugabytedb-universe-upgrades-management-api
-- description: The UniverseClusterMutations API from YugabyteDB — 4 operation(s) for universeclustermutations.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The UniverseClusterMutations API from YugabyteDB — 4 operation(s) for universeclustermutations.
   name: YugabyteDB UniverseClusterMutations API
   slug: yugabytedb-universeclustermutations-api
-- description: The Upload Release packages API from YugabyteDB — 2 operation(s) for upload release packages.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Upload Release packages API from YugabyteDB — 2 operation(s) for upload release packages.
   name: YugabyteDB Upload Release packages API
   slug: yugabytedb-upload-release-packages-api
-- description: The User management API from YugabyteDB — 6 operation(s) for user management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The User management API from YugabyteDB — 6 operation(s) for user management.
   name: YugabyteDB User management API
   slug: yugabytedb-user-management-api
-- description: YBA Instance operations
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: YBA Instance operations
   name: YugabyteDB YBA Instance API
   slug: yugabytedb-yba-instance-api
-- description: The Ybc Management API from YugabyteDB — 5 operation(s) for ybc management.
+- baseURL: https://cloud.yugabyte.com/api/public/v1
+  baseurl_source: declared
+  description: The Ybc Management API from YugabyteDB — 5 operation(s) for ybc management.
   name: YugabyteDB Ybc Management API
   slug: yugabytedb-ybc-management-api
 arazzos:
@@ -1219,7 +1365,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -1229,7 +1375,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 48.8
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1238,8 +1384,8 @@ score:
       marker_coverage: 10.8
       total: 74
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:
 - kind: authentication

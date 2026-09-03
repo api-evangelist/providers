@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -62,7 +62,9 @@ apis:
 - description: NGINX Plus provides an advanced REST API for runtime configuration and statistics of upstream server groups, virtual servers, and cache zones. Enables dynamic load balancer reconfiguration and real-ti
   name: NGINX Plus API
   slug: nginx-plus
-- description: The ApplicationAutoScaling API from Scalable Systems — 1 operation(s) for applicationautoscaling.
+- baseURL_template: https://application-autoscaling.{region}.amazonaws.com
+  baseurl_source: spec_template
+  description: The ApplicationAutoScaling API from Scalable Systems — 1 operation(s) for applicationautoscaling.
   name: Scalable Systems ApplicationAutoScaling API
   slug: scalable-systems-applicationautoscaling-api
 artifact_total: 23
@@ -223,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/screenshots/scalable-systems-2026-06-20T193500.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -50,16 +50,24 @@ apis:
 - description: The ADP Benefits Administration API provides access to employee benefits enrollment, eligibility, and plan data. APIs support benefits carrier connectivity, open enrollment workflows, and benefits dat
   name: ADP Benefits Administration API
   slug: adp-benefits-api
-- description: Organizational unit management
+- baseURL: https://api.adp.com
+  baseurl_source: declared
+  description: Organizational unit management
   name: ADP Organizations API
   slug: adp-organizations-api
-- description: Payroll instructions and overrides
+- baseURL: https://api.adp.com
+  baseurl_source: declared
+  description: Payroll instructions and overrides
   name: ADP PayrollInstructions API
   slug: adp-payrollinstructions-api
-- description: Payroll output and run data
+- baseURL: https://api.adp.com
+  baseurl_source: declared
+  description: Payroll output and run data
   name: ADP PayrollOutputs API
   slug: adp-payrolloutputs-api
-- description: Worker (employee) data access
+- baseURL: https://api.adp.com
+  baseurl_source: declared
+  description: Worker (employee) data access
   name: ADP Workers API
   slug: adp-workers-api
 artifact_total: 112
@@ -490,7 +498,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Real-time event notifications for pipeline, workflow, and job lifecycle events delivered via HTTP callbacks.
   name: CircleCI Webhooks
   slug: webhooks
-- description: Operations for organization contexts.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Operations for organization contexts.
   name: CircleCI Context API
   slug: circlecis-context-api
-- description: Job inspection and cancellation.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Job inspection and cancellation.
   name: CircleCI Job API
   slug: circlecis-job-api
-- description: Pipeline trigger and inspection.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Pipeline trigger and inspection.
   name: CircleCI Pipeline API
   slug: circlecis-pipeline-api
-- description: Project-scoped operations.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Project-scoped operations.
   name: CircleCI Project API
   slug: circlecis-project-api
-- description: Current user information.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Current user information.
   name: CircleCI User API
   slug: circlecis-user-api
-- description: Workflow inspection and cancellation.
+- baseURL: https://circleci.com/api/v2
+  baseurl_source: spec
+  description: Workflow inspection and cancellation.
   name: CircleCI Workflow API
   slug: circlecis-workflow-api
 artifact_total: 24
@@ -171,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/screenshots/circlecis-2026-06-20T174349.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations for managing workflow requests.
+- baseURL: https://us.cflowapps.com
+  baseurl_source: declared
+  description: Operations for managing workflow requests.
   name: Cflow Requests API
   slug: cflow-requests-api
-- description: Operations for managing users and roles.
+- baseURL: https://us.cflowapps.com
+  baseurl_source: declared
+  description: Operations for managing users and roles.
   name: Cflow Users API
   slug: cflow-users-api
-- description: Operations for managing workflows.
+- baseURL: https://us.cflowapps.com
+  baseurl_source: declared
+  description: Operations for managing workflows.
   name: Cflow Workflows API
   slug: cflow-workflows-api
 artifact_total: 56
@@ -244,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/screenshots/cflow-2026-06-20T174158.png
 security:

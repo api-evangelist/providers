@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: Regulated benchmark crypto indices designed for fund administrators and ETF/ETP issuers.
   name: Kaiko Indices
   slug: indices
-- description: Canton oracle pricing endpoints.
+- baseURL: https://us.market-api.kaiko.io/v2
+  baseurl_source: declared
+  description: Canton oracle pricing endpoints.
   name: Kaiko Canton Oracle API
   slug: kaiko-canton-oracle-api
-- description: Reference-rate data for Kaiko indices.
+- baseURL: https://us.market-api.kaiko.io/v2
+  baseurl_source: declared
+  description: Reference-rate data for Kaiko indices.
   name: Kaiko Index Reference Data API
   slug: kaiko-index-reference-data-api
-- description: Index composition and replication data.
+- baseURL: https://us.market-api.kaiko.io/v2
+  baseurl_source: declared
+  description: Index composition and replication data.
   name: Kaiko Indices API
   slug: kaiko-indices-api
-- description: Asset supply and market-capitalization rankings.
+- baseURL: https://us.market-api.kaiko.io/v2
+  baseurl_source: declared
+  description: Asset supply and market-capitalization rankings.
   name: Kaiko Supply API
   slug: kaiko-supply-api
 artifact_total: 26
@@ -306,7 +314,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:

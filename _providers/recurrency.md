@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Supplier product catalog retrieval, filtering and upload.
+- baseURL: https://api.recurrency.com
+  baseurl_source: declared
+  description: Supplier product catalog retrieval, filtering and upload.
   name: Recurrency E-Procurement API
   slug: recurrency-e-procurement-api
-- description: Create, list and retrieve sales orders and quotes.
+- baseURL: https://api.recurrency.com
+  baseurl_source: declared
+  description: Create, list and retrieve sales orders and quotes.
   name: Recurrency Orders API
   slug: recurrency-orders-api
 arazzos:
@@ -218,7 +222,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/screenshots/recurrency-2026-08-17T081457.png
 security:

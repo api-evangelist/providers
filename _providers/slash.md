@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 105 operations · 48 acting
 api_count: 1
 apis:
-- description: The Account API from Slash — 4 operation(s) for account.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Account API from Slash — 4 operation(s) for account.
   name: Slash Account API
   slug: slash-account-api
-- description: The Agent Requests API from Slash — 2 operation(s) for agent requests.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Agent Requests API from Slash — 2 operation(s) for agent requests.
   name: Slash Agent Requests API
   slug: slash-agent-requests-api
-- description: The Analytics API from Slash — 1 operation(s) for analytics.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Analytics API from Slash — 1 operation(s) for analytics.
   name: Slash Analytics API
   slug: slash-analytics-api
-- description: The Card API from Slash — 5 operation(s) for card.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Card API from Slash — 5 operation(s) for card.
   name: Slash Card API
   slug: slash-card-api
-- description: The Card Group API from Slash — 4 operation(s) for card group.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Card Group API from Slash — 4 operation(s) for card group.
   name: Slash Card Group API
   slug: slash-card-group-api
-- description: The Card Product API from Slash — 1 operation(s) for card product.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Card Product API from Slash — 1 operation(s) for card product.
   name: Slash Card Product API
   slug: slash-card-product-api
-- description: The Contact API from Slash — 3 operation(s) for contact.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Contact API from Slash — 3 operation(s) for contact.
   name: Slash Contact API
   slug: slash-contact-api
-- description: The Crypto API from Slash — 1 operation(s) for crypto.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Crypto API from Slash — 1 operation(s) for crypto.
   name: Slash Crypto API
   slug: slash-crypto-api
-- description: The Customer API from Slash — 3 operation(s) for customer.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Customer API from Slash — 3 operation(s) for customer.
   name: Slash Customer API
   slug: slash-customer-api
-- description: The Developer Account API from Slash — 1 operation(s) for developer account.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Developer Account API from Slash — 1 operation(s) for developer account.
   name: Slash Developer Account API
   slug: slash-developer-account-api
-- description: The Developer Application API from Slash — 2 operation(s) for developer application.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Developer Application API from Slash — 2 operation(s) for developer application.
   name: Slash Developer Application API
   slug: slash-developer-application-api
-- description: The Expense Report API from Slash — 7 operation(s) for expense report.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Expense Report API from Slash — 7 operation(s) for expense report.
   name: Slash Expense Report API
   slug: slash-expense-report-api
-- description: The Fdx API from Slash — 8 operation(s) for fdx.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Fdx API from Slash — 8 operation(s) for fdx.
   name: Slash Fdx API
   slug: slash-fdx-api
-- description: The Invoice API from Slash — 13 operation(s) for invoice.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Invoice API from Slash — 13 operation(s) for invoice.
   name: Slash Invoice API
   slug: slash-invoice-api
-- description: The Legal Entity API from Slash — 1 operation(s) for legal entity.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Legal Entity API from Slash — 1 operation(s) for legal entity.
   name: Slash Legal Entity API
   slug: slash-legal-entity-api
-- description: The Merchant API from Slash — 2 operation(s) for merchant.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Merchant API from Slash — 2 operation(s) for merchant.
   name: Slash Merchant API
   slug: slash-merchant-api
-- description: The Merchant Category API from Slash — 1 operation(s) for merchant category.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Merchant Category API from Slash — 1 operation(s) for merchant category.
   name: Slash Merchant Category API
   slug: slash-merchant-category-api
-- description: The Oauth2 API from Slash — 2 operation(s) for oauth2.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Oauth2 API from Slash — 2 operation(s) for oauth2.
   name: Slash Oauth2 API
   slug: slash-oauth2-api
-- description: The Task API from Slash — 4 operation(s) for task.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Task API from Slash — 4 operation(s) for task.
   name: Slash Task API
   slug: slash-task-api
-- description: The Tokens API from Slash — 1 operation(s) for tokens.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Tokens API from Slash — 1 operation(s) for tokens.
   name: Slash Tokens API
   slug: slash-tokens-api
-- description: The Transaction API from Slash — 5 operation(s) for transaction.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Transaction API from Slash — 5 operation(s) for transaction.
   name: Slash Transaction API
   slug: slash-transaction-api
-- description: The Transfer API from Slash — 1 operation(s) for transfer.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Transfer API from Slash — 1 operation(s) for transfer.
   name: Slash Transfer API
   slug: slash-transfer-api
-- description: The Transfers API from Slash — 1 operation(s) for transfers.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Transfers API from Slash — 1 operation(s) for transfers.
   name: Slash Transfers API
   slug: slash-transfers-api
-- description: The Virtual Account API from Slash — 2 operation(s) for virtual account.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Virtual Account API from Slash — 2 operation(s) for virtual account.
   name: Slash Virtual Account API
   slug: slash-virtual-account-api
-- description: The Webhook API from Slash — 2 operation(s) for webhook.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The Webhook API from Slash — 2 operation(s) for webhook.
   name: Slash Webhook API
   slug: slash-webhook-api
-- description: The .well Known API from Slash — 1 operation(s) for .well known.
+- baseURL: https://api.slash.com
+  baseurl_source: declared
+  description: The .well Known API from Slash — 1 operation(s) for .well known.
   name: Slash .well Known API
   slug: slash-well-known-api
 artifact_total: 86
@@ -476,7 +528,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -486,7 +538,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 60.6
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -508,7 +560,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slash/refs/heads/main/screenshots/slash-2026-08-17T081925.png
 security:

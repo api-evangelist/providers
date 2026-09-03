@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,34 +62,54 @@ apis:
 - description: The SIS Import API ingests Canvas's canonical SIS CSV format (and ZIP archives of those CSVs) to provision accounts, terms, courses, sections, users, enrollments, groups, group memberships, cross-list
   name: Canvas SIS Import API
   slug: canvas-sis-import-api
-- description: Root and sub-accounts that own the Canvas tenancy hierarchy
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Root and sub-accounts that own the Canvas tenancy hierarchy
   name: Canvas LMS Accounts API
   slug: canvas-lms-accounts-api
-- description: Assignments, due dates, submission types, and grading
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Assignments, due dates, submission types, and grading
   name: Canvas LMS Assignments API
   slug: canvas-lms-assignments-api
-- description: The Canvas Course resource and its lifecycle
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: The Canvas Course resource and its lifecycle
   name: Canvas LMS Courses API
   slug: canvas-lms-courses-api
-- description: Discussion topics and entries
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Discussion topics and entries
   name: Canvas LMS Discussions API
   slug: canvas-lms-discussions-api
-- description: Student, teacher, TA, observer, and designer enrollments within a course or section
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Student, teacher, TA, observer, and designer enrollments within a course or section
   name: Canvas LMS Enrollments API
   slug: canvas-lms-enrollments-api
-- description: Course/user/group files and folders
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Course/user/group files and folders
   name: Canvas LMS Files API
   slug: canvas-lms-files-api
-- description: Course modules and module items
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Course modules and module items
   name: Canvas LMS Modules API
   slug: canvas-lms-modules-api
-- description: Learning outcomes and outcome results
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Learning outcomes and outcome results
   name: Canvas LMS Outcomes API
   slug: canvas-lms-outcomes-api
-- description: Student submissions, grades, and submission comments
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: Student submissions, grades, and submission comments
   name: Canvas LMS Submissions API
   slug: canvas-lms-submissions-api
-- description: User accounts, profiles, and per-user resources
+- baseURL: https://<canvas-install-url>/api/v1
+  baseurl_source: declared
+  description: User accounts, profiles, and per-user resources
   name: Canvas LMS Users API
   slug: canvas-lms-users-api
 arazzos:
@@ -709,7 +729,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

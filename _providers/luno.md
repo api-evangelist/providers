@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
+- baseURL: https://api.luno.com
+  baseurl_source: declared
+  description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
   name: Luno API
   slug: luno-api
 artifact_total: 8
@@ -193,7 +195,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -203,7 +205,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 52.7
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -215,7 +217,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
 security:

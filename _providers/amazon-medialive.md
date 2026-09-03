@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 4
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 59 operations · 39 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Prod API from Amazon MediaLive — 38 operation(s) for prod.
+- baseURL: http://medialive.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Prod API from Amazon MediaLive — 38 operation(s) for prod.
   name: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
 artifact_total: 1885
@@ -5813,7 +5815,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/screenshots/amazon-medialive-2026-06-20T171741.png
 security:

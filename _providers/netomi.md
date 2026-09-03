@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 41
@@ -36,103 +48,169 @@ apis:
 - description: Public machine-readable status feed for the Netomi platform, served by Atlassian Statuspage at status.netomi.com. Exposes the standard Statuspage v2 JSON surface (summary, status, components, incident
   name: Netomi Status API
   slug: netomi-status-api
-- description: The agent-desk-rest-api-controller API from Netomi — 2 operation(s) for agent-desk-rest-api-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The agent-desk-rest-api-controller API from Netomi — 2 operation(s) for agent-desk-rest-api-controller.
   name: Netomi Agent Desk Rest API Controller API
   slug: netomi-agent-desk-rest-api-controller-api
-- description: The agent-desk-webhook-controller API from Netomi — 4 operation(s) for agent-desk-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The agent-desk-webhook-controller API from Netomi — 4 operation(s) for agent-desk-webhook-controller.
   name: Netomi Agent Desk Webhook Controller API
   slug: netomi-agent-desk-webhook-controller-api
-- description: The asset-tracker-controller API from Netomi — 1 operation(s) for asset-tracker-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The asset-tracker-controller API from Netomi — 1 operation(s) for asset-tracker-controller.
   name: Netomi Asset Tracker Controller API
   slug: netomi-asset-tracker-controller-api
-- description: The booking-confirmation-controller API from Netomi — 1 operation(s) for booking-confirmation-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The booking-confirmation-controller API from Netomi — 1 operation(s) for booking-confirmation-controller.
   name: Netomi Booking Confirmation Controller API
   slug: netomi-booking-confirmation-controller-api
-- description: The facebook-webhook-controller API from Netomi — 1 operation(s) for facebook-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The facebook-webhook-controller API from Netomi — 1 operation(s) for facebook-webhook-controller.
   name: Netomi Facebook Webhook Controller API
   slug: netomi-facebook-webhook-controller-api
-- description: The firebase-rest-controller API from Netomi — 1 operation(s) for firebase-rest-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The firebase-rest-controller API from Netomi — 1 operation(s) for firebase-rest-controller.
   name: Netomi Firebase Rest Controller API
   slug: netomi-firebase-rest-controller-api
-- description: The freshdesk-webhook-controller API from Netomi — 1 operation(s) for freshdesk-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The freshdesk-webhook-controller API from Netomi — 1 operation(s) for freshdesk-webhook-controller.
   name: Netomi Freshdesk Webhook Controller API
   slug: netomi-freshdesk-webhook-controller-api
-- description: The generic-webhook-controller API from Netomi — 5 operation(s) for generic-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The generic-webhook-controller API from Netomi — 5 operation(s) for generic-webhook-controller.
   name: Netomi Generic Webhook Controller API
   slug: netomi-generic-webhook-controller-api
-- description: The generic-webhook-controller-v-2 API from Netomi — 1 operation(s) for generic-webhook-controller-v-2.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The generic-webhook-controller-v-2 API from Netomi — 1 operation(s) for generic-webhook-controller-v-2.
   name: Netomi Generic Webhook Controller V 2 API
   slug: netomi-generic-webhook-controller-v-2-api
-- description: The gladly-webhook-controller API from Netomi — 1 operation(s) for gladly-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The gladly-webhook-controller API from Netomi — 1 operation(s) for gladly-webhook-controller.
   name: Netomi Gladly Webhook Controller API
   slug: netomi-gladly-webhook-controller-api
-- description: The google-assistant-webhook-controller API from Netomi — 1 operation(s) for google-assistant-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The google-assistant-webhook-controller API from Netomi — 1 operation(s) for google-assistant-webhook-controller.
   name: Netomi Google Assistant Webhook Controller API
   slug: netomi-google-assistant-webhook-controller-api
-- description: The health-check-controller API from Netomi — 1 operation(s) for health-check-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The health-check-controller API from Netomi — 1 operation(s) for health-check-controller.
   name: Netomi Health Check Controller API
   slug: netomi-health-check-controller-api
-- description: The helpshift-webhook-controller API from Netomi — 2 operation(s) for helpshift-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The helpshift-webhook-controller API from Netomi — 2 operation(s) for helpshift-webhook-controller.
   name: Netomi Helpshift Webhook Controller API
   slug: netomi-helpshift-webhook-controller-api
-- description: The nluapi-controller API from Netomi — 2 operation(s) for nluapi-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The nluapi-controller API from Netomi — 2 operation(s) for nluapi-controller.
   name: Netomi Nluapi Controller API
   slug: netomi-nluapi-controller-api
-- description: The oauth-token-redirect-controller API from Netomi — 1 operation(s) for oauth-token-redirect-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The oauth-token-redirect-controller API from Netomi — 1 operation(s) for oauth-token-redirect-controller.
   name: Netomi OAUTH Token Redirect Controller API
   slug: netomi-oauth-token-redirect-controller-api
-- description: The platform-status-controller API from Netomi — 1 operation(s) for platform-status-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The platform-status-controller API from Netomi — 1 operation(s) for platform-status-controller.
   name: Netomi Platform Status Controller API
   slug: netomi-platform-status-controller-api
-- description: The pub-sub-controller API from Netomi — 1 operation(s) for pub-sub-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The pub-sub-controller API from Netomi — 1 operation(s) for pub-sub-controller.
   name: Netomi Pub Sub Controller API
   slug: netomi-pub-sub-controller-api
-- description: The query-analyzer-controller API from Netomi — 1 operation(s) for query-analyzer-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The query-analyzer-controller API from Netomi — 1 operation(s) for query-analyzer-controller.
   name: Netomi Query Analyzer Controller API
   slug: netomi-query-analyzer-controller-api
-- description: The rate-limiter-config-controller API from Netomi — 1 operation(s) for rate-limiter-config-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The rate-limiter-config-controller API from Netomi — 1 operation(s) for rate-limiter-config-controller.
   name: Netomi Rate Limiter Config Controller API
   slug: netomi-rate-limiter-config-controller-api
-- description: The rest-api-controller API from Netomi — 1 operation(s) for rest-api-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The rest-api-controller API from Netomi — 1 operation(s) for rest-api-controller.
   name: Netomi Rest API Controller API
   slug: netomi-rest-api-controller-api
-- description: The rest-api-controller-v-2 API from Netomi — 1 operation(s) for rest-api-controller-v-2.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The rest-api-controller-v-2 API from Netomi — 1 operation(s) for rest-api-controller-v-2.
   name: Netomi Rest API Controller V 2 API
   slug: netomi-rest-api-controller-v-2-api
-- description: The rest-api-controller-v-3 API from Netomi — 2 operation(s) for rest-api-controller-v-3.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The rest-api-controller-v-3 API from Netomi — 2 operation(s) for rest-api-controller-v-3.
   name: Netomi Rest API Controller V 3 API
   slug: netomi-rest-api-controller-v-3-api
-- description: The salesforce-webhook-controller API from Netomi — 3 operation(s) for salesforce-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The salesforce-webhook-controller API from Netomi — 3 operation(s) for salesforce-webhook-controller.
   name: Netomi Salesforce Webhook Controller API
   slug: netomi-salesforce-webhook-controller-api
-- description: The singtel-roaming-activation-webhook-controller API from Netomi — 1 operation(s) for singtel-roaming-activation-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The singtel-roaming-activation-webhook-controller API from Netomi — 1 operation(s) for singtel-roaming-activation-webhook-controller.
   name: Netomi Singtel Roaming Activation Webhook Controller API
   slug: netomi-singtel-roaming-activation-webhook-controller-api
-- description: The sprinklr-webhook-controller API from Netomi — 2 operation(s) for sprinklr-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The sprinklr-webhook-controller API from Netomi — 2 operation(s) for sprinklr-webhook-controller.
   name: Netomi Sprinklr Webhook Controller API
   slug: netomi-sprinklr-webhook-controller-api
-- description: The sunshine-conversations-webhook-controller API from Netomi — 1 operation(s) for sunshine-conversations-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The sunshine-conversations-webhook-controller API from Netomi — 1 operation(s) for sunshine-conversations-webhook-controller.
   name: Netomi Sunshine Conversations Webhook Controller API
   slug: netomi-sunshine-conversations-webhook-controller-api
-- description: The test-utterance-script-controller API from Netomi — 2 operation(s) for test-utterance-script-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The test-utterance-script-controller API from Netomi — 2 operation(s) for test-utterance-script-controller.
   name: Netomi Test Utterance Script Controller API
   slug: netomi-test-utterance-script-controller-api
-- description: The twitter-webhook-controller API from Netomi — 1 operation(s) for twitter-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The twitter-webhook-controller API from Netomi — 1 operation(s) for twitter-webhook-controller.
   name: Netomi Twitter Webhook Controller API
   slug: netomi-twitter-webhook-controller-api
-- description: The visitor-authorize-webhook-controller API from Netomi — 1 operation(s) for visitor-authorize-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The visitor-authorize-webhook-controller API from Netomi — 1 operation(s) for visitor-authorize-webhook-controller.
   name: Netomi Visitor Authorize Webhook Controller API
   slug: netomi-visitor-authorize-webhook-controller-api
-- description: The webhook-event-controller API from Netomi — 1 operation(s) for webhook-event-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The webhook-event-controller API from Netomi — 1 operation(s) for webhook-event-controller.
   name: Netomi Webhook Event Controller API
   slug: netomi-webhook-event-controller-api
-- description: The zen-desk-chat-rest-controller API from Netomi — 8 operation(s) for zen-desk-chat-rest-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The zen-desk-chat-rest-controller API from Netomi — 8 operation(s) for zen-desk-chat-rest-controller.
   name: Netomi Zen Desk Chat Rest Controller API
   slug: netomi-zen-desk-chat-rest-controller-api
-- description: The zendesk-webhook-controller API from Netomi — 1 operation(s) for zendesk-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The zendesk-webhook-controller API from Netomi — 1 operation(s) for zendesk-webhook-controller.
   name: Netomi Zendesk Webhook Controller API
   slug: netomi-zendesk-webhook-controller-api
-- description: The zoho-webhook-controller API from Netomi — 2 operation(s) for zoho-webhook-controller.
+- baseURL: https://api.netomi.com
+  baseurl_source: declared
+  description: The zoho-webhook-controller API from Netomi — 2 operation(s) for zoho-webhook-controller.
   name: Netomi Zoho Webhook Controller API
   slug: netomi-zoho-webhook-controller-api
 artifact_total: 41
@@ -312,23 +390,23 @@ overview: 'Netomi publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 1
 score:
   band: developing
-  composite: 45.4
+  composite: 47.2
   coverage:
     artifact_dirs: 22
-    catalog_gap: 91.0
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 1.8
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 48.5
     developer_ergonomics: 61.3
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 44.7
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -340,7 +418,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netomi/refs/heads/main/screenshots/netomi-2026-08-07T185015.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 18 operations · 10 acting
 api_count: 2
 apis:
-- description: The Apps API from Amazon Amplify — 4 operation(s) for apps.
+- baseURL: https://amplify.amazonaws.com
+  baseurl_source: declared
+  description: The Apps API from Amazon Amplify — 4 operation(s) for apps.
   name: Amazon Amplify Apps API
   slug: amazon-amplify-apps-api
 artifact_total: 55
@@ -368,7 +370,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:

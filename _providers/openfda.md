@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: Adverse events involving animal and veterinary products.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Adverse events involving animal and veterinary products.
   name: openFDA Animal & Veterinary API
   slug: openfda-animal-veterinary-api
-- description: Device-related endpoints (adverse events, classifications, recalls, 510(k), PMA, UDI).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Device-related endpoints (adverse events, classifications, recalls, 510(k), PMA, UDI).
   name: openFDA Device API
   slug: openfda-device-api
-- description: Drug-related endpoints (adverse events, labeling, recalls, NDC).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Drug-related endpoints (adverse events, labeling, recalls, NDC).
   name: openFDA Drug API
   slug: openfda-drug-api
-- description: Food-related endpoints (enforcement reports, adverse events).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Food-related endpoints (enforcement reports, adverse events).
   name: openFDA Food API
   slug: openfda-food-api
-- description: Cross-cutting datasets (NSDE, substance, harmonized).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Cross-cutting datasets (NSDE, substance, harmonized).
   name: openFDA Other API
   slug: openfda-other-api
-- description: Tobacco product problem reports.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Tobacco product problem reports.
   name: openFDA Tobacco API
   slug: openfda-tobacco-api
 artifact_total: 52
@@ -325,7 +337,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfda/refs/heads/main/screenshots/openfda-2026-06-20T190958.png
 security:

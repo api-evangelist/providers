@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 30
@@ -46,115 +46,189 @@ agentic_access:
   summary_line: 631 operations · 389 acting · 30 human-in-the-loop
 api_count: 37
 apis:
-- description: The AI Governance APIs are used to integrate external systems and streamline the flow of data with A I Governance in the OneTrust Platform. (20 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The AI Governance APIs are used to integrate external systems and streamline the flow of data with A I Governance in the OneTrust Platform. (20 operations.)
   name: OneTrust AI Governance — AI Governance
   slug: ai-governance-ai-governance
-- description: The Platform - Global Activity API from OneTrust — 1 operation(s) documented on the OneTrust Develop er Portal.
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Platform - Global Activity API from OneTrust — 1 operation(s) documented on the OneTrust Develop er Portal.
   name: OneTrust Platform — Global Activity
   slug: platform-global-activity
-- description: The Consent Interfaces APIs are used to integrate external systems and streamline the flow of data w ith Consent & Preferences user interfaces. (1 operations.)
+- baseURL: https://consent-api.onetrust.com
+  baseurl_source: declared
+  description: The Consent Interfaces APIs are used to integrate external systems and streamline the flow of data w ith Consent & Preferences user interfaces. (1 operations.)
   name: OneTrust Consent & Preferences — Consent Interfaces
   slug: consent-and-preferences-consent-interfaces
-- description: 'These are server-based APIs that will act as a medium between the OT hosted server that owns busines s logic and the client-side SDK, which will take the responsibility to render elements on UI based '
+- baseURL: https://mobile-data.onetrust.io
+  baseurl_source: declared
+  description: 'These are server-based APIs that will act as a medium between the OT hosted server that owns busines s logic and the client-side SDK, which will take the responsibility to render elements on UI based '
   name: OneTrust Consent & Preferences — Consent Management Platform (CMP)
   slug: consent-and-preferences-consent-management-platform-cmp
-- description: The Consent Receipts APIs are used to integrate external systems and streamline the flow of consent receipt data with the OneTrust Platform. (3 operations.)
+- baseURL: https://app.onetrust.com/request/v1
+  baseurl_source: declared
+  description: The Consent Receipts APIs are used to integrate external systems and streamline the flow of consent receipt data with the OneTrust Platform. (3 operations.)
   name: OneTrust Consent & Preferences — Consent Receipts
   slug: consent-and-preferences-consent-receipts
-- description: The Cookie Consent APIs are used to integrate external systems and streamline the flow of data with Cookie Consent in the OneTrust Platform. (44 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Cookie Consent APIs are used to integrate external systems and streamline the flow of data with Cookie Consent in the OneTrust Platform. (44 operations.)
   name: OneTrust Consent & Preferences — Cookie Consent
   slug: consent-and-preferences-cookie-consent
-- description: The Consent & Preferences - Cookie Consent (Swagger) API from OneTrust — 11 operation(s) documented on the OneTrust Developer Portal.
+- baseURL: https://customer.my.onetrust.com/api/cookiemanager
+  baseurl_source: declared
+  description: The Consent & Preferences - Cookie Consent (Swagger) API from OneTrust — 11 operation(s) documented on the OneTrust Developer Portal.
   name: OneTrust Consent & Preferences — Cookie Consent (Swagger)
   slug: consent-and-preferences-cookie-consent-swagger
-- description: 'Use this API to retrieve all templates, consent model, and vendor list data for a specific Website D omain by a user’s geolocation. The API returns a single JSON formatted for custom UI development. #'
+- baseURL: https://cookies-data.onetrust.io/bannersdk
+  baseurl_source: declared
+  description: 'Use this API to retrieve all templates, consent model, and vendor list data for a specific Website D omain by a user’s geolocation. The API returns a single JSON formatted for custom UI development. #'
   name: OneTrust Consent & Preferences — Cookie Domain Data
   slug: consent-and-preferences-cookie-domain-data
-- description: The Consent & Preferences - Cross-Device Consent API from OneTrust — 1 operation(s) documented on th e OneTrust Developer Portal.
+- baseURL: https://consent-api.onetrust.com
+  baseurl_source: declared
+  description: The Consent & Preferences - Cross-Device Consent API from OneTrust — 1 operation(s) documented on th e OneTrust Developer Portal.
   name: OneTrust Consent & Preferences — Cross-Device Consent
   slug: consent-and-preferences-cross-device-consent
-- description: Collection of APIs for the Mobile & OTT App Compliance SDKs. (1 operations.)
+- baseURL: https://customer.my.onetrust.com/bannersdk/v2
+  baseurl_source: declared
+  description: Collection of APIs for the Mobile & OTT App Compliance SDKs. (1 operations.)
   name: OneTrust Consent & Preferences — Mobile App Consent
   slug: consent-and-preferences-mobile-app-consent
-- description: The Policy & Notice Management APIs are used to list privacy notices, page through results, view ver sion history for a notice, and retrieve the version that was effective at a specific date and time.
+- baseURL: https://app.onetrust.com/api/privacynotice
+  baseurl_source: declared
+  description: The Policy & Notice Management APIs are used to list privacy notices, page through results, view ver sion history for a notice, and retrieve the version that was effective at a specific date and time.
   name: OneTrust Consent & Preferences — Policy & Notice Management
   slug: consent-and-preferences-policy-and-notice-management
-- description: 'The Universal Consent & Preference Management APIs are used to integrate external systems and stream line the flow of data with Universal Consent & Preference Management in the OneTrust Platform. (97 '
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: 'The Universal Consent & Preference Management APIs are used to integrate external systems and stream line the flow of data with Universal Consent & Preference Management in the OneTrust Platform. (97 '
   name: OneTrust Consent & Preferences — Universal Consent & Preference Management (OAS)
   slug: consent-and-preferences-universal-consent-and-preference-management-oas
-- description: The Data Catalog APIs provide comprehensive functionality for managing data governance assets within Data Catalog, enabling users to create, retrieve, and organize business glossaries, terms, and tags
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Catalog APIs provide comprehensive functionality for managing data governance assets within Data Catalog, enabling users to create, retrieve, and organize business glossaries, terms, and tags
   name: OneTrust Data Use Governance — Data Catalog
   slug: data-use-governance-data-catalog
-- description: The Data Discovery API provides comprehensive REST endpoints for managing data discovery operations including data sources, scan profiles, credentials, and scan jobs with OAuth2 security and extensive
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Discovery API provides comprehensive REST endpoints for managing data discovery operations including data sources, scan profiles, credentials, and scan jobs with OAuth2 security and extensive
   name: OneTrust Data Use Governance — Data Discovery
   slug: data-use-governance-data-discovery
-- description: The Data Discovery Worker Node APIs enables secure communication with an on-premises Data Discovery worker node. It provides operations to retrieve, classify, and catalog data from connected data sour
+- baseURL: https://app.onetrust.com:8080/api/data-discovery-bridge
+  baseurl_source: declared
+  description: The Data Discovery Worker Node APIs enables secure communication with an on-premises Data Discovery worker node. It provides operations to retrieve, classify, and catalog data from connected data sour
   name: OneTrust Data Use Governance — Data Discovery Worker Node
   slug: data-use-governance-data-discovery-worker-node
-- description: The ESG Program Reporting & Disclosures API from OneTrust — 5 operation(s) documented on the OneTrus t Developer Portal.
+- baseURL: https://app.onetrust.com/api/esg-management
+  baseurl_source: declared
+  description: The ESG Program Reporting & Disclosures API from OneTrust — 5 operation(s) documented on the OneTrus t Developer Portal.
   name: OneTrust ESG Program Reporting & Disclosures
   slug: esg-program-reporting-and-disclosures
-- description: The Access Management APIs enable you to programmatically control user access, manage organizational hierarchies, and monitor authentication activities across your OneTrust platform. (36 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Access Management APIs enable you to programmatically control user access, manage organizational hierarchies, and monitor authentication activities across your OneTrust platform. (36 operations.)
   name: OneTrust Platform — Access Management
   slug: platform-access-management
-- description: The Bulk Export APIs are used to integrate external systems and extract specific data from Cookie Co nsent and Universal Consent & Preference Management in the OneTrust platform. (7 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Bulk Export APIs are used to integrate external systems and extract specific data from Cookie Co nsent and Universal Consent & Preference Management in the OneTrust platform. (7 operations.)
   name: OneTrust Platform — Bulk Export
   slug: platform-bulk-export
-- description: The Documents API are used to integrate external systems and streamline the flow of data for documen ts in the OneTrust Platform. (3 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Documents API are used to integrate external systems and streamline the flow of data for documen ts in the OneTrust Platform. (3 operations.)
   name: OneTrust Platform — Documents
   slug: platform-documents
-- description: The Integrations APIs are used to configure, manage, and automate integrations. They provide functio nality to handle system credentials, import and export workflows, and manage integration details. (
+- baseURL: https://app.onetrust.com/api/integrationmanager
+  baseurl_source: declared
+  description: The Integrations APIs are used to configure, manage, and automate integrations. They provide functio nality to handle system credentials, import and export workflows, and manage integration details. (
   name: OneTrust Platform — Integrations
   slug: platform-integrations
-- description: The Inventory APIs are used to manage relationships and link data within the inventory. (13 operatio ns.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Inventory APIs are used to manage relationships and link data within the inventory. (13 operatio ns.)
   name: OneTrust Platform — Inventory
   slug: platform-inventory
-- description: The Object Manager APIs are used to integrate external systems and streamline the flow of data for o bjects created via Object Manager in the OneTrust Platform. (38 operations.)
+- baseURL: https://app.onetrust.com/api/custom-entity
+  baseurl_source: declared
+  description: The Object Manager APIs are used to integrate external systems and streamline the flow of data for o bjects created via Object Manager in the OneTrust Platform. (38 operations.)
   name: OneTrust Platform — Object Manager
   slug: platform-object-manager
-- description: The Task Management APIs are used to integrate external systems and streamline the flow of data for tasks created across the OneTrust Platform. (3 operations.)
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Task Management APIs are used to integrate external systems and streamline the flow of data for tasks created across the OneTrust Platform. (3 operations.)
   name: OneTrust Platform — Task Management
   slug: platform-task-management
-- description: OneTrust supports cross-domain identity management through the SCIM 2.0 specification. System for Cr oss-Domain Identity Management (SCIM) is an open specification to help facilitate the automated man
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: OneTrust supports cross-domain identity management through the SCIM 2.0 specification. System for Cr oss-Domain Identity Management (SCIM) is an open specification to help facilitate the automated man
   name: OneTrust Platform — User Provisioning
   slug: platform-user-provisioning
-- description: 'The Assessment Automation APIs provide functionality for managing assessment template lifecycle oper ations, including template export and import for cross-environment migration, retrieving published '
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: 'The Assessment Automation APIs provide functionality for managing assessment template lifecycle oper ations, including template export and import for cross-environment migration, retrieving published '
   name: OneTrust Privacy Automation — Assessment Automation
   slug: privacy-automation-assessment-automation
-- description: The Data Mapping Automation APIs are used to manage structured records (assets, vendors, processing activities, and legal entities), define schema attributes, traverse parent–child hierarchies, and cr
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Data Mapping Automation APIs are used to manage structured records (assets, vendors, processing activities, and legal entities), define schema attributes, traverse parent–child hierarchies, and cr
   name: OneTrust Privacy Automation — Data Mapping Automation
   slug: privacy-automation-data-mapping-automation
-- description: The Privacy Automation - Data Mapping Automation (Swagger) API from OneTrust — 4 operation(s) docume nted on the OneTrust Developer Portal.
+- baseURL: https://customer.my.onetrust.com/api
+  baseurl_source: declared
+  description: The Privacy Automation - Data Mapping Automation (Swagger) API from OneTrust — 4 operation(s) docume nted on the OneTrust Developer Portal.
   name: OneTrust Privacy Automation — Data Mapping Automation (Swagger)
   slug: privacy-automation-data-mapping-automation-swagger
-- description: The Privacy Rights Automation are used to manage, process, and fulfill data subject access requests (DSARs), including request creation, subtask management, resolution codes, verification methods, and
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Privacy Rights Automation are used to manage, process, and fulfill data subject access requests (DSARs), including request creation, subtask management, resolution codes, verification methods, and
   name: OneTrust Privacy Automation — Data Subject Request (DSR) Automation
   slug: privacy-automation-data-subject-request-dsr-automation
-- description: The Incident Management API allows you to efficiently manage and respond to incidents. (7 operations .)
+- baseURL: https://app.onetrust.com/api
+  baseurl_source: declared
+  description: The Incident Management API allows you to efficiently manage and respond to incidents. (7 operations .)
   name: OneTrust Privacy Automation — Incident Management
   slug: privacy-automation-incident-management
-- description: The The Trust Intelligence Platform - Document Gateway API from OneTrust — 1 operation(s) documented on the OneTrust Developer Portal.
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The The Trust Intelligence Platform - Document Gateway API from OneTrust — 1 operation(s) documented on the OneTrust Developer Portal.
   name: OneTrust The Trust Intelligence Platform — Document Gateway
   slug: the-trust-intelligence-platform-document-gateway
-- description: The Audit Management API provides comprehensive REST endpoints for managing enterprise audits, workp apers, and compliance assessments with OAuth2 security and advanced filtering capabilities. (11 ope
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Audit Management API provides comprehensive REST endpoints for managing enterprise audits, workp apers, and compliance assessments with OAuth2 security and advanced filtering capabilities. (11 ope
   name: OneTrust Tech Risk & Compliance — Audit Management
   slug: tech-risk-and-compliance-audit-management
-- description: The Compliance Automation APIs are used to integrate external systems and streamline the flow of dat a with Compliance Automation in the OneTrust Platform. (3 operations.)
+- baseURL: https://app.onetrust.com/api/compliance-wr
+  baseurl_source: declared
+  description: The Compliance Automation APIs are used to integrate external systems and streamline the flow of dat a with Compliance Automation in the OneTrust Platform. (3 operations.)
   name: OneTrust Tech Risk & Compliance — Compliance Automation
   slug: tech-risk-and-compliance-compliance-automation
-- description: The Enterprise Policy Management APIs are used to integrate external systems and streamline the flow of data with Enterprise Policy Management in the OneTrust platform. (6 operations.)
+- baseURL: https://app.onetrust.com/api/enterprise-policy
+  baseurl_source: declared
+  description: The Enterprise Policy Management APIs are used to integrate external systems and streamline the flow of data with Enterprise Policy Management in the OneTrust platform. (6 operations.)
   name: OneTrust Tech Risk & Compliance — Enterprise Policy Management
   slug: tech-risk-and-compliance-enterprise-policy-management
-- description: The Issues Management APIs are used to integrate external systems and streamline the flow of data wi th Issues Management in the OneTrust platform. (9 operations.)
+- baseURL: https://app.onetrust.com/api/issue-management
+  baseurl_source: declared
+  description: The Issues Management APIs are used to integrate external systems and streamline the flow of data wi th Issues Management in the OneTrust platform. (9 operations.)
   name: OneTrust Tech Risk & Compliance — Issues Management
   slug: tech-risk-and-compliance-issues-management
-- description: The IT Risk Management API provides comprehensive REST endpoints for managing enterprise security co ntrols, threats, vulnerabilities, and their implementations with OAuth2 security and extensive cust
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The IT Risk Management API provides comprehensive REST endpoints for managing enterprise security co ntrols, threats, vulnerabilities, and their implementations with OAuth2 security and extensive cust
   name: OneTrust Tech Risk & Compliance — IT Risk Management
   slug: tech-risk-and-compliance-it-risk-management
-- description: The Tech Risk & Compliance - Training API from OneTrust — 5 operation(s) documented on the OneTrust Developer Portal.
+- baseURL: https://customer.my.onetrust.com/api/awareness-training
+  baseurl_source: declared
+  description: The Tech Risk & Compliance - Training API from OneTrust — 5 operation(s) documented on the OneTrust Developer Portal.
   name: OneTrust Tech Risk & Compliance — Training
   slug: tech-risk-and-compliance-training
-- description: The Third-Party Risk Management APIs provide comprehensive functionality for managing vendor relatio nships, engagements, and contracts within the GRC ecosystem, enabling organizations to assess, moni
+- baseURL: https://app.onetrust.com
+  baseurl_source: declared
+  description: The Third-Party Risk Management APIs provide comprehensive functionality for managing vendor relatio nships, engagements, and contracts within the GRC ecosystem, enabling organizations to assess, moni
   name: OneTrust Third-Party Management — Third-Party Risk Management
   slug: third-party-management-third-party-risk-management
 artifact_total: 49
@@ -374,23 +448,23 @@ scopes:
   summary_line: 51 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.9
+  composite: 58.3
   coverage:
     artifact_dirs: 26
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.9
+  delta: 0.4
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 18.2
-    contract_quality: 66.4
+    contract_quality: 67.8
     developer_ergonomics: 51.8
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 53.0
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,7 +476,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetrust/refs/heads/main/screenshots/onetrust-2026-06-20T190718.png
 security:

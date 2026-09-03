@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -44,196 +44,324 @@ agentic_access:
   summary_line: 877 operations · 604 acting · 578 human-in-the-loop
 api_count: 10
 apis:
-- description: AsyncAPI 2.6 description of Frontegg's outbound webhook surface. Covers authentication, MFA, user lifecycle, tenant lifecycle, group, application, plan, API token, account security, and SCIM provision
+- baseURL: https://api.frontegg.com
+  baseurl_source: declared
+  description: AsyncAPI 2.6 description of Frontegg's outbound webhook surface. Covers authentication, MFA, user lifecycle, tenant lifecycle, group, application, plan, API token, account security, and SCIM provision
   name: Frontegg Webhooks
   slug: frontegg-webhooks
-- description: The Account Invitations API from Frontegg — 4 operation(s) for account invitations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Account Invitations API from Frontegg — 4 operation(s) for account invitations.
   name: Frontegg Account Invitations API
   slug: frontegg-account-invitations-api
-- description: The Account Invitations Settings API from Frontegg — 5 operation(s) for account invitations settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Account Invitations Settings API from Frontegg — 5 operation(s) for account invitations settings.
   name: Frontegg Account Invitations Settings API
   slug: frontegg-account-invitations-settings-api
-- description: The Account Migration API from Frontegg — 2 operation(s) for account migration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Account Migration API from Frontegg — 2 operation(s) for account migration.
   name: Frontegg Account Migration API
   slug: frontegg-account-migration-api
-- description: The Account Roles API from Frontegg — 3 operation(s) for account roles.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Account Roles API from Frontegg — 3 operation(s) for account roles.
   name: Frontegg Account Roles API
   slug: frontegg-account-roles-api
-- description: The Account Settings API from Frontegg — 2 operation(s) for account settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Account Settings API from Frontegg — 2 operation(s) for account settings.
   name: Frontegg Account Settings API
   slug: frontegg-account-settings-api
-- description: The Accounts API from Frontegg — 6 operation(s) for accounts.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Accounts API from Frontegg — 6 operation(s) for accounts.
   name: Frontegg Accounts API
   slug: frontegg-accounts-api
-- description: The API Access Control API from Frontegg — 4 operation(s) for api access control.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The API Access Control API from Frontegg — 4 operation(s) for api access control.
   name: Frontegg API Access Control API
   slug: frontegg-api-access-control-api
-- description: The API Access Control Configurations API from Frontegg — 1 operation(s) for api access control configurations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The API Access Control Configurations API from Frontegg — 1 operation(s) for api access control configurations.
   name: Frontegg API Access Control Configurations API
   slug: frontegg-api-access-control-configurations-api
-- description: The API Token API from Frontegg — 2 operation(s) for api token.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The API Token API from Frontegg — 2 operation(s) for api token.
   name: Frontegg API Token API
   slug: frontegg-api-token-api
-- description: The API Tokens API from Frontegg — 5 operation(s) for api tokens.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The API Tokens API from Frontegg — 5 operation(s) for api tokens.
   name: Frontegg API Tokens API
   slug: frontegg-api-tokens-api
-- description: The Applications Settings API from Frontegg — 13 operation(s) for applications settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Applications Settings API from Frontegg — 13 operation(s) for applications settings.
   name: Frontegg Applications Settings API
   slug: frontegg-applications-settings-api
-- description: The Approval Flows API from Frontegg — 6 operation(s) for approval flows.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Approval Flows API from Frontegg — 6 operation(s) for approval flows.
   name: Frontegg Approval Flows API
   slug: frontegg-approval-flows-api
-- description: The Authenticate With Env Credentials API from Frontegg — 1 operation(s) for authenticate with env credentials.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Authenticate With Env Credentials API from Frontegg — 1 operation(s) for authenticate with env credentials.
   name: Frontegg Authenticate With Env Credentials API
   slug: frontegg-authenticate-with-env-credentials-api
-- description: The Core Settings API from Frontegg — 7 operation(s) for core settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Core Settings API from Frontegg — 7 operation(s) for core settings.
   name: Frontegg Core Settings API
   slug: frontegg-core-settings-api
-- description: The Custom Social OAuth Provider API from Frontegg — 2 operation(s) for custom social oauth provider.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Custom Social OAuth Provider API from Frontegg — 2 operation(s) for custom social oauth provider.
   name: Frontegg Custom Social OAuth Provider API
   slug: frontegg-custom-social-oauth-provider-api
-- description: The Data Migration API from Frontegg — 5 operation(s) for data migration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Data Migration API from Frontegg — 5 operation(s) for data migration.
   name: Frontegg Data Migration API
   slug: frontegg-data-migration-api
-- description: The Delegation API from Frontegg — 1 operation(s) for delegation.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Delegation API from Frontegg — 1 operation(s) for delegation.
   name: Frontegg Delegation API
   slug: frontegg-delegation-api
-- description: The Domain Restrictions API from Frontegg — 4 operation(s) for domain restrictions.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Domain Restrictions API from Frontegg — 4 operation(s) for domain restrictions.
   name: Frontegg Domain Restrictions API
   slug: frontegg-domain-restrictions-api
-- description: The Email Configuration API from Frontegg — 2 operation(s) for email configuration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Email Configuration API from Frontegg — 2 operation(s) for email configuration.
   name: Frontegg Email Configuration API
   slug: frontegg-email-configuration-api
-- description: The Email Templates API from Frontegg — 3 operation(s) for email templates.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Email Templates API from Frontegg — 3 operation(s) for email templates.
   name: Frontegg Email Templates API
   slug: frontegg-email-templates-api
-- description: The Entitlements API from Frontegg — 3 operation(s) for entitlements.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Entitlements API from Frontegg — 3 operation(s) for entitlements.
   name: Frontegg Entitlements API
   slug: frontegg-entitlements-api
-- description: The Entitlements Check API from Frontegg — 3 operation(s) for entitlements check.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Entitlements Check API from Frontegg — 3 operation(s) for entitlements check.
   name: Frontegg Entitlements Check API
   slug: frontegg-entitlements-check-api
-- description: The Feature Flags API from Frontegg — 2 operation(s) for feature flags.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Feature Flags API from Frontegg — 2 operation(s) for feature flags.
   name: Frontegg Feature Flags API
   slug: frontegg-feature-flags-api
-- description: The Features API from Frontegg — 4 operation(s) for features.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Features API from Frontegg — 4 operation(s) for features.
   name: Frontegg Features API
   slug: frontegg-features-api
-- description: The General API from Frontegg — 5 operation(s) for general.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The General API from Frontegg — 5 operation(s) for general.
   name: Frontegg General API
   slug: frontegg-general-api
-- description: The IP Restrictions API from Frontegg — 5 operation(s) for ip restrictions.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The IP Restrictions API from Frontegg — 5 operation(s) for ip restrictions.
   name: Frontegg IP Restrictions API
   slug: frontegg-ip-restrictions-api
-- description: The Lockout Policy API from Frontegg — 1 operation(s) for lockout policy.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Lockout Policy API from Frontegg — 1 operation(s) for lockout policy.
   name: Frontegg Lockout Policy API
   slug: frontegg-lockout-policy-api
-- description: The M2M Tokens API from Frontegg — 3 operation(s) for m2m tokens.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The M2M Tokens API from Frontegg — 3 operation(s) for m2m tokens.
   name: Frontegg M2M Tokens API
   slug: frontegg-m2m-tokens-api
-- description: The Main API from Frontegg — 6 operation(s) for main.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Main API from Frontegg — 6 operation(s) for main.
   name: Frontegg Main API
   slug: frontegg-main-api
-- description: The Metrics API from Frontegg — 1 operation(s) for metrics.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Metrics API from Frontegg — 1 operation(s) for metrics.
   name: Frontegg Metrics API
   slug: frontegg-metrics-api
-- description: The MFA API from Frontegg — 26 operation(s) for mfa.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The MFA API from Frontegg — 26 operation(s) for mfa.
   name: Frontegg MFA API
   slug: frontegg-mfa-api
-- description: The MFA Configuration API from Frontegg — 1 operation(s) for mfa configuration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The MFA Configuration API from Frontegg — 1 operation(s) for mfa configuration.
   name: Frontegg MFA Configuration API
   slug: frontegg-mfa-configuration-api
-- description: The MFA Settings API from Frontegg — 2 operation(s) for mfa settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The MFA Settings API from Frontegg — 2 operation(s) for mfa settings.
   name: Frontegg MFA Settings API
   slug: frontegg-mfa-settings-api
-- description: The OIDC Configurations API from Frontegg — 1 operation(s) for oidc configurations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The OIDC Configurations API from Frontegg — 1 operation(s) for oidc configurations.
   name: Frontegg OIDC Configurations API
   slug: frontegg-oidc-configurations-api
-- description: The Password Settings API from Frontegg — 11 operation(s) for password settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Password Settings API from Frontegg — 11 operation(s) for password settings.
   name: Frontegg Password Settings API
   slug: frontegg-password-settings-api
-- description: The Passwordless API from Frontegg — 6 operation(s) for passwordless.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Passwordless API from Frontegg — 6 operation(s) for passwordless.
   name: Frontegg Passwordless API
   slug: frontegg-passwordless-api
-- description: The Permissions API from Frontegg — 4 operation(s) for permissions.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Permissions API from Frontegg — 4 operation(s) for permissions.
   name: Frontegg Permissions API
   slug: frontegg-permissions-api
-- description: The Permissions Categories API from Frontegg — 2 operation(s) for permissions categories.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Permissions Categories API from Frontegg — 2 operation(s) for permissions categories.
   name: Frontegg Permissions Categories API
   slug: frontegg-permissions-categories-api
-- description: The Personal Tokens API from Frontegg — 4 operation(s) for personal tokens.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Personal Tokens API from Frontegg — 4 operation(s) for personal tokens.
   name: Frontegg Personal Tokens API
   slug: frontegg-personal-tokens-api
-- description: The Plans API from Frontegg — 6 operation(s) for plans.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Plans API from Frontegg — 6 operation(s) for plans.
   name: Frontegg Plans API
   slug: frontegg-plans-api
-- description: The ReBAC API from Frontegg — 9 operation(s) for rebac.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The ReBAC API from Frontegg — 9 operation(s) for rebac.
   name: Frontegg ReBAC API
   slug: frontegg-rebac-api
-- description: The Resources API from Frontegg — 1 operation(s) for resources.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Resources API from Frontegg — 1 operation(s) for resources.
   name: Frontegg Resources API
   slug: frontegg-resources-api
-- description: The Roles API from Frontegg — 4 operation(s) for roles.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Roles API from Frontegg — 4 operation(s) for roles.
   name: Frontegg Roles API
   slug: frontegg-roles-api
-- description: The SAML Configurations API from Frontegg — 2 operation(s) for saml configurations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SAML Configurations API from Frontegg — 2 operation(s) for saml configurations.
   name: Frontegg SAML Configurations API
   slug: frontegg-saml-configurations-api
-- description: The SCIM Configurations API from Frontegg — 2 operation(s) for scim configurations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SCIM Configurations API from Frontegg — 2 operation(s) for scim configurations.
   name: Frontegg SCIM Configurations API
   slug: frontegg-scim-configurations-api
-- description: The SCIM Settings API from Frontegg — 1 operation(s) for scim settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SCIM Settings API from Frontegg — 1 operation(s) for scim settings.
   name: Frontegg SCIM Settings API
   slug: frontegg-scim-settings-api
-- description: The Sessions Configuration API from Frontegg — 1 operation(s) for sessions configuration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Sessions Configuration API from Frontegg — 1 operation(s) for sessions configuration.
   name: Frontegg Sessions Configuration API
   slug: frontegg-sessions-configuration-api
-- description: The Sessions Management API from Frontegg — 1 operation(s) for sessions management.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Sessions Management API from Frontegg — 1 operation(s) for sessions management.
   name: Frontegg Sessions Management API
   slug: frontegg-sessions-management-api
-- description: The SMS API from Frontegg — 7 operation(s) for sms.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SMS API from Frontegg — 7 operation(s) for sms.
   name: Frontegg SMS API
   slug: frontegg-sms-api
-- description: The SMS Configuration API from Frontegg — 1 operation(s) for sms configuration.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SMS Configuration API from Frontegg — 1 operation(s) for sms configuration.
   name: Frontegg SMS Configuration API
   slug: frontegg-sms-configuration-api
-- description: The SMS Templates API from Frontegg — 4 operation(s) for sms templates.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SMS Templates API from Frontegg — 4 operation(s) for sms templates.
   name: Frontegg SMS Templates API
   slug: frontegg-sms-templates-api
-- description: The SSO Configurations API from Frontegg — 12 operation(s) for sso configurations.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SSO Configurations API from Frontegg — 12 operation(s) for sso configurations.
   name: Frontegg SSO Configurations API
   slug: frontegg-sso-configurations-api
-- description: The SSO Settings API from Frontegg — 6 operation(s) for sso settings.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The SSO Settings API from Frontegg — 6 operation(s) for sso settings.
   name: Frontegg SSO Settings API
   slug: frontegg-sso-settings-api
-- description: The Sub-accounts and Hierarchy API from Frontegg — 1 operation(s) for sub-accounts and hierarchy.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Sub-accounts and Hierarchy API from Frontegg — 1 operation(s) for sub-accounts and hierarchy.
   name: Frontegg Sub-accounts and Hierarchy API
   slug: frontegg-sub-accounts-and-hierarchy-api
-- description: The Sub-accounts API from Frontegg — 7 operation(s) for sub-accounts.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Sub-accounts API from Frontegg — 7 operation(s) for sub-accounts.
   name: Frontegg Sub-accounts API
   slug: frontegg-sub-accounts-api
-- description: The Tenants_other API from Frontegg — 1 operation(s) for tenants_other.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Tenants_other API from Frontegg — 1 operation(s) for tenants_other.
   name: Frontegg Tenants_other API
   slug: frontegg-tenants-other-api
-- description: The User Emails Policy API from Frontegg — 1 operation(s) for user emails policy.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The User Emails Policy API from Frontegg — 1 operation(s) for user emails policy.
   name: Frontegg User Emails Policy API
   slug: frontegg-user-emails-policy-api
-- description: The User Groups API from Frontegg — 7 operation(s) for user groups.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The User Groups API from Frontegg — 7 operation(s) for user groups.
   name: Frontegg User Groups API
   slug: frontegg-user-groups-api
-- description: The User Management API from Frontegg — 42 operation(s) for user management.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The User Management API from Frontegg — 42 operation(s) for user management.
   name: Frontegg User Management API
   slug: frontegg-user-management-api
-- description: The User Pools API from Frontegg — 15 operation(s) for user pools.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The User Pools API from Frontegg — 15 operation(s) for user pools.
   name: Frontegg User Pools API
   slug: frontegg-user-pools-api
-- description: The User Sessions API from Frontegg — 3 operation(s) for user sessions.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The User Sessions API from Frontegg — 3 operation(s) for user sessions.
   name: Frontegg User Sessions API
   slug: frontegg-user-sessions-api
-- description: The Users API from Frontegg — 25 operation(s) for users.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Users API from Frontegg — 25 operation(s) for users.
   name: Frontegg Users API
   slug: frontegg-users-api
-- description: The Users-applications Management API from Frontegg — 4 operation(s) for users-applications management.
+- baseURL: https://api.frontegg.com/identity
+  baseurl_source: declared
+  description: The Users-applications Management API from Frontegg — 4 operation(s) for users-applications management.
   name: Frontegg Users-applications Management API
   slug: frontegg-users-applications-management-api
 artifact_total: 200
@@ -907,7 +1035,7 @@ score:
     catalog_gap: 26.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -920,7 +1048,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 58.6
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -929,7 +1057,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png
 security:

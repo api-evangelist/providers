@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 32 operations · 14 acting
 api_count: 1
 apis:
-- description: Bank accounts held inside a Link.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Bank accounts held inside a Link.
   name: Belvo Accounts API
   slug: belvo-accounts-api
-- description: Point-in-time balances for checking and savings accounts.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Point-in-time balances for checking and savings accounts.
   name: Belvo Balances API
   slug: belvo-balances-api
-- description: Income insights derived from account activity.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Income insights derived from account activity.
   name: Belvo Incomes API
   slug: belvo-incomes-api
-- description: Institutions Belvo can connect to.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Institutions Belvo can connect to.
   name: Belvo Institutions API
   slug: belvo-institutions-api
-- description: Manage the credential connections to institutions.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Manage the credential connections to institutions.
   name: Belvo Links API
   slug: belvo-links-api
-- description: Identity of the Link owner.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Identity of the Link owner.
   name: Belvo Owners API
   slug: belvo-owners-api
-- description: Pix / Open Finance payment initiation in Brazil.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Pix / Open Finance payment initiation in Brazil.
   name: Belvo Payments (Brazil) API
   slug: belvo-payments-brazil-api
-- description: Regular subscription and utility payments.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Regular subscription and utility payments.
   name: Belvo Recurring Expenses API
   slug: belvo-recurring-expenses-api
-- description: Detailed transaction history for accounts in a Link.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Detailed transaction history for accounts in a Link.
   name: Belvo Transactions API
   slug: belvo-transactions-api
-- description: Asynchronous event notifications.
+- baseURL: https://api.belvo.com/api
+  baseurl_source: declared
+  description: Asynchronous event notifications.
   name: Belvo Webhooks API
   slug: belvo-webhooks-api
 artifact_total: 29
@@ -223,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 22.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/screenshots/belvo-2026-07-25T202719.png
 security:

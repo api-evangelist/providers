@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Catalog API from ZenAdmin — 3 operation(s) for catalog.
   name: ZenAdmin Catalog API
   slug: zenadmin-catalog-api
-- description: The Context API from ZenAdmin — 1 operation(s) for context.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Context API from ZenAdmin — 1 operation(s) for context.
   name: ZenAdmin Context API
   slug: zenadmin-context-api
-- description: The Devices API from ZenAdmin — 2 operation(s) for devices.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Devices API from ZenAdmin — 2 operation(s) for devices.
   name: ZenAdmin Devices API
   slug: zenadmin-devices-api
-- description: The Employees API from ZenAdmin — 2 operation(s) for employees.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Employees API from ZenAdmin — 2 operation(s) for employees.
   name: ZenAdmin Employees API
   slug: zenadmin-employees-api
-- description: The Orders API from ZenAdmin — 3 operation(s) for orders.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Orders API from ZenAdmin — 3 operation(s) for orders.
   name: ZenAdmin Orders API
   slug: zenadmin-orders-api
-- description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
+- baseURL: https://console.zenadmin.ai/api/external
+  baseurl_source: declared
+  description: The Webhooks API from ZenAdmin — 4 operation(s) for webhooks.
   name: ZenAdmin Webhooks API
   slug: zenadmin-webhooks-api
 artifact_total: 17
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 29.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +199,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zenadmin/refs/heads/main/screenshots/zenadmin-2026-09-02T171553.png
 security:
 - kind: authentication
   name: Zenadmin Authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -36,88 +47,144 @@ apis:
 - description: OBIE Open Data API for Coutts publishing PUBLIC, unauthenticated reference data for its commercial/business current account products, following the Open Banking Open Data Standard. As a private bank C
   name: Coutts Open Data API
   slug: coutts-open-data-api
-- description: The Account Access Consents API from Coutts — 2 operation(s) for account access consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Account Access Consents API from Coutts — 2 operation(s) for account access consents.
   name: Coutts Account Access Consents API
   slug: coutts-account-access-consents-api
-- description: The Accounts API from Coutts — 2 operation(s) for accounts.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Accounts API from Coutts — 2 operation(s) for accounts.
   name: Coutts Accounts API
   slug: coutts-accounts-api
-- description: The Balances API from Coutts — 2 operation(s) for balances.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Balances API from Coutts — 2 operation(s) for balances.
   name: Coutts Balances API
   slug: coutts-balances-api
-- description: The Beneficiaries API from Coutts — 2 operation(s) for beneficiaries.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Beneficiaries API from Coutts — 2 operation(s) for beneficiaries.
   name: Coutts Beneficiaries API
   slug: coutts-beneficiaries-api
-- description: The Direct Debits API from Coutts — 2 operation(s) for direct debits.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Direct Debits API from Coutts — 2 operation(s) for direct debits.
   name: Coutts Direct Debits API
   slug: coutts-direct-debits-api
-- description: The Domestic Payment Consents API from Coutts — 3 operation(s) for domestic payment consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Coutts — 3 operation(s) for domestic payment consents.
   name: Coutts Domestic Payment Consents API
   slug: coutts-domestic-payment-consents-api
-- description: The Domestic Payments API from Coutts — 3 operation(s) for domestic payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Payments API from Coutts — 3 operation(s) for domestic payments.
   name: Coutts Domestic Payments API
   slug: coutts-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Coutts — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Coutts — 2 operation(s) for domestic scheduled payment consents.
   name: Coutts Domestic Scheduled Payment Consents API
   slug: coutts-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Coutts — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Coutts — 3 operation(s) for domestic scheduled payments.
   name: Coutts Domestic Scheduled Payments API
   slug: coutts-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Coutts — 2 operation(s) for domestic standing order consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Coutts — 2 operation(s) for domestic standing order consents.
   name: Coutts Domestic Standing Order Consents API
   slug: coutts-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Coutts — 3 operation(s) for domestic standing orders.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Coutts — 3 operation(s) for domestic standing orders.
   name: Coutts Domestic Standing Orders API
   slug: coutts-domestic-standing-orders-api
-- description: The File Payment Consents API from Coutts — 3 operation(s) for file payment consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payment Consents API from Coutts — 3 operation(s) for file payment consents.
   name: Coutts File Payment Consents API
   slug: coutts-file-payment-consents-api
-- description: The File Payments API from Coutts — 4 operation(s) for file payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The File Payments API from Coutts — 4 operation(s) for file payments.
   name: Coutts File Payments API
   slug: coutts-file-payments-api
-- description: The Funds Confirmation Consents API from Coutts — 2 operation(s) for funds confirmation consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Coutts — 2 operation(s) for funds confirmation consents.
   name: Coutts Funds Confirmation Consents API
   slug: coutts-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Coutts — 1 operation(s) for funds confirmations.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Funds Confirmations API from Coutts — 1 operation(s) for funds confirmations.
   name: Coutts Funds Confirmations API
   slug: coutts-funds-confirmations-api
-- description: The International Payment Consents API from Coutts — 3 operation(s) for international payment consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Payment Consents API from Coutts — 3 operation(s) for international payment consents.
   name: Coutts International Payment Consents API
   slug: coutts-international-payment-consents-api
-- description: The International Payments API from Coutts — 3 operation(s) for international payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Payments API from Coutts — 3 operation(s) for international payments.
   name: Coutts International Payments API
   slug: coutts-international-payments-api
-- description: The International Scheduled Payments API from Coutts — 3 operation(s) for international scheduled payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Coutts — 3 operation(s) for international scheduled payments.
   name: Coutts International Scheduled Payments API
   slug: coutts-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Coutts — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Coutts — 3 operation(s) for international scheduled payments consents.
   name: Coutts International Scheduled Payments Consents API
   slug: coutts-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Coutts — 3 operation(s) for international standing orders.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Standing Orders API from Coutts — 3 operation(s) for international standing orders.
   name: Coutts International Standing Orders API
   slug: coutts-international-standing-orders-api
-- description: The International Standing Orders Consents API from Coutts — 2 operation(s) for international standing orders consents.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Coutts — 2 operation(s) for international standing orders consents.
   name: Coutts International Standing Orders Consents API
   slug: coutts-international-standing-orders-consents-api
-- description: The Offers API from Coutts — 2 operation(s) for offers.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Offers API from Coutts — 2 operation(s) for offers.
   name: Coutts Offers API
   slug: coutts-offers-api
-- description: The Parties API from Coutts — 3 operation(s) for parties.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Parties API from Coutts — 3 operation(s) for parties.
   name: Coutts Parties API
   slug: coutts-parties-api
-- description: The Products API from Coutts — 2 operation(s) for products.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Products API from Coutts — 2 operation(s) for products.
   name: Coutts Products API
   slug: coutts-products-api
-- description: The Scheduled Payments API from Coutts — 2 operation(s) for scheduled payments.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Scheduled Payments API from Coutts — 2 operation(s) for scheduled payments.
   name: Coutts Scheduled Payments API
   slug: coutts-scheduled-payments-api
-- description: The Standing Orders API from Coutts — 2 operation(s) for standing orders.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Standing Orders API from Coutts — 2 operation(s) for standing orders.
   name: Coutts Standing Orders API
   slug: coutts-standing-orders-api
-- description: The Statements API from Coutts — 5 operation(s) for statements.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Statements API from Coutts — 5 operation(s) for statements.
   name: Coutts Statements API
   slug: coutts-statements-api
-- description: The Transactions API from Coutts — 2 operation(s) for transactions.
+- baseURL: https://api.coutts.com/open-banking/v3.1/aisp
+  baseurl_source: declared
+  description: The Transactions API from Coutts — 2 operation(s) for transactions.
   name: Coutts Transactions API
   slug: coutts-transactions-api
 artifact_total: 35
@@ -317,7 +384,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coutts/refs/heads/main/screenshots/coutts-2026-07-25T210525.png
 security:

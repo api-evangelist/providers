@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -36,85 +48,139 @@ apis:
 - description: The Heartbeat API is the customer-facing energy API behind the 1KOMMA5° mobile apps and the Heartbeat AI platform — sites and systems, live power snapshots for PV, battery, heat pump and EV charger, e
   name: 1KOMMA5° Heartbeat API
   slug: 1komma5-heartbeat-api
-- description: The Admin - Audit Logs API from 1KOMMA5° — 1 operation(s) for admin - audit logs.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Audit Logs API from 1KOMMA5° — 1 operation(s) for admin - audit logs.
   name: 1KOMMA5° Admin - Audit Logs API
   slug: 1komma5-admin-audit-logs-api
-- description: The Admin - Branches API from 1KOMMA5° — 2 operation(s) for admin - branches.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Branches API from 1KOMMA5° — 2 operation(s) for admin - branches.
   name: 1KOMMA5° Admin - Branches API
   slug: 1komma5-admin-branches-api
-- description: The Admin - Concepts API from 1KOMMA5° — 2 operation(s) for admin - concepts.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Concepts API from 1KOMMA5° — 2 operation(s) for admin - concepts.
   name: 1KOMMA5° Admin - Concepts API
   slug: 1komma5-admin-concepts-api
-- description: The Admin - Countries API from 1KOMMA5° — 1 operation(s) for admin - countries.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Countries API from 1KOMMA5° — 1 operation(s) for admin - countries.
   name: 1KOMMA5° Admin - Countries API
   slug: 1komma5-admin-countries-api
-- description: The Admin - Maintenance API from 1KOMMA5° — 1 operation(s) for admin - maintenance.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Maintenance API from 1KOMMA5° — 1 operation(s) for admin - maintenance.
   name: 1KOMMA5° Admin - Maintenance API
   slug: 1komma5-admin-maintenance-api
-- description: The Admin - Megasearch API from 1KOMMA5° — 1 operation(s) for admin - megasearch.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Megasearch API from 1KOMMA5° — 1 operation(s) for admin - megasearch.
   name: 1KOMMA5° Admin - Megasearch API
   slug: 1komma5-admin-megasearch-api
-- description: The Admin - Products API from 1KOMMA5° — 5 operation(s) for admin - products.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Products API from 1KOMMA5° — 5 operation(s) for admin - products.
   name: 1KOMMA5° Admin - Products API
   slug: 1komma5-admin-products-api
-- description: The Admin - Roles API from 1KOMMA5° — 1 operation(s) for admin - roles.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Roles API from 1KOMMA5° — 1 operation(s) for admin - roles.
   name: 1KOMMA5° Admin - Roles API
   slug: 1komma5-admin-roles-api
-- description: The Admin - Users API from 1KOMMA5° — 6 operation(s) for admin - users.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Admin - Users API from 1KOMMA5° — 6 operation(s) for admin - users.
   name: 1KOMMA5° Admin - Users API
   slug: 1komma5-admin-users-api
-- description: The Concepts API from 1KOMMA5° — 1 operation(s) for concepts.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Concepts API from 1KOMMA5° — 1 operation(s) for concepts.
   name: 1KOMMA5° Concepts API
   slug: 1komma5-concepts-api
-- description: The Configs API from 1KOMMA5° — 3 operation(s) for configs.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Configs API from 1KOMMA5° — 3 operation(s) for configs.
   name: 1KOMMA5° Configs API
   slug: 1komma5-configs-api
-- description: The CRM API from 1KOMMA5° — 2 operation(s) for crm.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The CRM API from 1KOMMA5° — 2 operation(s) for crm.
   name: 1KOMMA5° CRM API
   slug: 1komma5-crm-api
-- description: The Customers API from 1KOMMA5° — 3 operation(s) for customers.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Customers API from 1KOMMA5° — 3 operation(s) for customers.
   name: 1KOMMA5° Customers API
   slug: 1komma5-customers-api
-- description: The EffectivePrice API from 1KOMMA5° — 2 operation(s) for effectiveprice.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The EffectivePrice API from 1KOMMA5° — 2 operation(s) for effectiveprice.
   name: 1KOMMA5° Effective Price API
   slug: 1komma5-effectiveprice-api
-- description: The Health API from 1KOMMA5° — 1 operation(s) for health.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Health API from 1KOMMA5° — 1 operation(s) for health.
   name: 1KOMMA5° Health API
   slug: 1komma5-health-api
-- description: The index API from 1KOMMA5° — 1 operation(s) for index.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The index API from 1KOMMA5° — 1 operation(s) for index.
   name: 1KOMMA5° Index API
   slug: 1komma5-index-api
-- description: The migration-frozen-state API from 1KOMMA5° — 1 operation(s) for migration-frozen-state.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The migration-frozen-state API from 1KOMMA5° — 1 operation(s) for migration-frozen-state.
   name: 1KOMMA5° Migration Frozen State API
   slug: 1komma5-migration-frozen-state-api
-- description: The Migrations API from 1KOMMA5° — 12 operation(s) for migrations.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Migrations API from 1KOMMA5° — 12 operation(s) for migrations.
   name: 1KOMMA5° Migrations API
   slug: 1komma5-migrations-api
-- description: The payment-options API from 1KOMMA5° — 1 operation(s) for payment-options.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The payment-options API from 1KOMMA5° — 1 operation(s) for payment-options.
   name: 1KOMMA5° Payment Options API
   slug: 1komma5-payment-options-api
-- description: The PDF API from 1KOMMA5° — 1 operation(s) for pdf.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The PDF API from 1KOMMA5° — 1 operation(s) for pdf.
   name: 1KOMMA5° PDF API
   slug: 1komma5-pdf-api
-- description: The Products API from 1KOMMA5° — 2 operation(s) for products.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Products API from 1KOMMA5° — 2 operation(s) for products.
   name: 1KOMMA5° Products API
   slug: 1komma5-products-api
-- description: The Sales Users API from 1KOMMA5° — 1 operation(s) for sales users.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Sales Users API from 1KOMMA5° — 1 operation(s) for sales users.
   name: 1KOMMA5° Sales Users API
   slug: 1komma5-sales-users-api
-- description: The site API from 1KOMMA5° — 1 operation(s) for site.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The site API from 1KOMMA5° — 1 operation(s) for site.
   name: 1KOMMA5° Site API
   slug: 1komma5-site-api
-- description: The Sites API from 1KOMMA5° — 1 operation(s) for sites.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Sites API from 1KOMMA5° — 1 operation(s) for sites.
   name: 1KOMMA5° Sites API
   slug: 1komma5-sites-api
-- description: The Tenants API from 1KOMMA5° — 2 operation(s) for tenants.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Tenants API from 1KOMMA5° — 2 operation(s) for tenants.
   name: 1KOMMA5° Tenants API
   slug: 1komma5-tenants-api
-- description: The Test API from 1KOMMA5° — 1 operation(s) for test.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Test API from 1KOMMA5° — 1 operation(s) for test.
   name: 1KOMMA5° Test API
   slug: 1komma5-test-api
-- description: The Users API from 1KOMMA5° — 4 operation(s) for users.
+- baseURL: https://api.offer.1komma5grad.com
+  baseurl_source: declared
+  description: The Users API from 1KOMMA5° — 4 operation(s) for users.
   name: 1KOMMA5° Users API
   slug: 1komma5-users-api
 artifact_total: 63
@@ -381,7 +447,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

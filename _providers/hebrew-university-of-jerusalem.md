@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The public JSON API behind shnaton.huji.ac.il, the Hebrew University's official course catalog. Faculties, departments, degree programs, specializations, study roadmaps, courses, course groups, timeta
+- baseURL: https://shnaton.huji.ac.il/api
+  baseurl_source: declared
+  description: The public JSON API behind shnaton.huji.ac.il, the Hebrew University's official course catalog. Faculties, departments, degree programs, specializations, study roadmaps, courses, course groups, timeta
   name: Shnaton Course Catalog API
   slug: shnaton-course-catalog
 - description: The university's own SimpleSAMLphp identity provider, publishing a live SAML 2.0 EntityDescriptor (HTTP 200, application/xml, 4,548 bytes) with IDPSSODescriptor, HTTP-Redirect SSO and SLO bindings, em
@@ -235,7 +237,7 @@ score:
     catalog_gap: 28.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 20.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -245,7 +247,7 @@ score:
     discoverability: 68.5
     governance: 49.2
     operational_transparency: 26.3
-  previous_composite: 15.8
+  previous_composite: 35.8
   provenance:
     conformance: first-party
     contracts:
@@ -260,8 +262,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hebrew-university-of-jerusalem/refs/heads/main/screenshots/hebrew-university-of-jerusalem-2026-06-20T182715.png
 security:
 - kind: authentication

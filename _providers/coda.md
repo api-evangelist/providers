@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 1
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 124 operations · 58 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: At this time, the API exposes some limited information about your account. However, `/whoami` is a good endpoint to hit to verify that you're hitting the API correctly and that your token is working a
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: At this time, the API exposes some limited information about your account. However, `/whoami` is a good endpoint to hit to verify that you're hitting the API correctly and that your token is working a
   name: Coda Account API
   slug: coda-account-api
-- description: This API offers analytics data for your docs and Packs over time.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API offers analytics data for your docs and Packs over time.
   name: Coda Analytics API
   slug: coda-analytics-api
-- description: This API allows you to trigger automations.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API allows you to trigger automations.
   name: Coda Automations API
   slug: coda-automations-api
-- description: While columns in Coda have user-friendly names, they also have immutable IDs that are used when reading and writing rows. These endpoints let you query the columns in a table and get basic information
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: While columns in Coda have user-friendly names, they also have immutable IDs that are used when reading and writing rows. These endpoints let you query the columns in a table and get basic information
   name: Coda Columns API
   slug: coda-columns-api
-- description: Controls provide a user-friendly way to input a value that can affect other parts of the doc. This API lets you list controls and get their current values.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Controls provide a user-friendly way to input a value that can affect other parts of the doc. This API lets you list controls and get their current values.
   name: Coda Controls API
   slug: coda-controls-api
-- description: The CustomDocDomains API from Coda — 3 operation(s) for customdocdomains.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The CustomDocDomains API from Coda — 3 operation(s) for customdocdomains.
   name: Coda CustomDocDomains API
   slug: coda-customdocdomains-api
-- description: Coda docs are foundational, top-level collaborative projects that contain pages. The API lets you list and search your docs to obtain basic metadata like titles and ownership information.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Coda docs are foundational, top-level collaborative projects that contain pages. The API lets you list and search your docs to obtain basic metadata like titles and ownership information.
   name: Coda Docs API
   slug: coda-docs-api
-- description: Folders help you organize your docs within workspaces. This API lets you list, create, update, and delete folders.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Folders help you organize your docs within workspaces. This API lets you list, create, update, and delete folders.
   name: Coda Folders API
   slug: coda-folders-api
-- description: Formulas can be great for performing one-off computations, or used with tables and other formulas to compute a single value. With this API, you can discover formulas in a doc and obtain computed resul
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Formulas can be great for performing one-off computations, or used with tables and other formulas to compute a single value. With this API, you can discover formulas in a doc and obtain computed resul
   name: Coda Formulas API
   slug: coda-formulas-api
-- description: The Go Links API from Coda — 1 operation(s) for go links.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The Go Links API from Coda — 1 operation(s) for go links.
   name: Coda Go Links API
   slug: coda-go-links-api
-- description: These endpoints wouldn't fit anywhere else, but you may find them useful when working with Coda.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: These endpoints wouldn't fit anywhere else, but you may find them useful when working with Coda.
   name: Coda Miscellaneous API
   slug: coda-miscellaneous-api
-- description: This API allows you to manage Packs that you have developed as well as list publicly available Coda packs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API allows you to manage Packs that you have developed as well as list publicly available Coda packs.
   name: Coda Packs API
   slug: coda-packs-api
-- description: Pages in Coda offer canvases containing rich text, tables, controls, and other objects. At this time, this API lets you list and access pages in a doc.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Pages in Coda offer canvases containing rich text, tables, controls, and other objects. At this time, this API lets you list and access pages in a doc.
   name: Coda Pages API
   slug: coda-pages-api
-- description: This API lets you manage sharing and permissions for your docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API lets you manage sharing and permissions for your docs.
   name: Coda Permissions API
   slug: coda-permissions-api
-- description: Coda docs can be published publicly and associated with categories to help the world discover them. This API lets you manage the publishing settings of your docs.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: Coda docs can be published publicly and associated with categories to help the world discover them. This API lets you manage the publishing settings of your docs.
   name: Coda Publishing API
   slug: coda-publishing-api
-- description: You'll likely use this part of the API the most. These endpoints let you retrieve row data from tables in Coda as well as create, upsert, update, and delete them. Most of these endpoints work for both
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: You'll likely use this part of the API the most. These endpoints let you retrieve row data from tables in Coda as well as create, upsert, update, and delete them. Most of these endpoints work for both
   name: Coda Rows API
   slug: coda-rows-api
-- description: The Tables API from Coda — 2 operation(s) for tables.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: The Tables API from Coda — 2 operation(s) for tables.
   name: Coda Tables API
   slug: coda-tables-api
-- description: This API allows you to manage your workspace's membership and get analytics on membership over time.
+- baseURL: https://coda.io/apis/v1
+  baseurl_source: declared
+  description: This API allows you to manage your workspace's membership and get analytics on membership over time.
   name: Coda Workspaces API
   slug: coda-workspaces-api
 artifact_total: 48
@@ -269,7 +305,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -279,7 +315,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 13.2
-  previous_composite: 40.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -288,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coda/refs/heads/main/screenshots/coda-2026-06-20T174651.png
 security:

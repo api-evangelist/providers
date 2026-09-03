@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 17 operations · 4 acting
 api_count: 1
 apis:
-- description: Profile schema - built-in and custom fields.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Profile schema - built-in and custom fields.
   name: MemberClicks Attributes API
   slug: memberclicks-attributes-api
-- description: OAuth 2.0 token issuance.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance.
   name: MemberClicks Authorization API
   slug: memberclicks-authorization-api
-- description: Continuing education credits.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Continuing education credits.
   name: MemberClicks Continuing Education API
   slug: memberclicks-continuing-education-api
-- description: Events and registration (modeled paths).
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Events and registration (modeled paths).
   name: MemberClicks Events API
   slug: memberclicks-events-api
-- description: Group membership (modeled paths).
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Group membership (modeled paths).
   name: MemberClicks Groups API
   slug: memberclicks-groups-api
-- description: Search over the membership database.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Search over the membership database.
   name: MemberClicks Profile Search API
   slug: memberclicks-profile-search-api
-- description: Member / contact profile records.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Member / contact profile records.
   name: MemberClicks Profiles API
   slug: memberclicks-profiles-api
-- description: Member types and statuses.
+- baseURL: https://{orgId}.memberclicks.net/api/v1
+  baseurl_source: declared
+  description: Member types and statuses.
   name: MemberClicks Reference Data API
   slug: memberclicks-reference-data-api
 artifact_total: 25
@@ -202,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberclicks/refs/heads/main/screenshots/memberclicks-2026-08-07T172453.png
 security:

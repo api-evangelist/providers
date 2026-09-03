@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 527
   human_in_the_loop: 6
@@ -36,232 +47,384 @@ apis:
 - description: Huma's software development kits for building or enhancing applications with out-of-the-box Huma functionality across iOS, Android, and Angular, covering authentication/authorization, connected Device
   name: Huma Mobile & Web SDK
   slug: huma-mobile-sdk
-- description: The AI Engine API from Huma — 3 operation(s) for ai engine.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The AI Engine API from Huma — 3 operation(s) for ai engine.
   name: Huma AI Engine API
   slug: huma-ai-engine-api
-- description: The Appointment API from Huma — 3 operation(s) for appointment.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Appointment API from Huma — 3 operation(s) for appointment.
   name: Huma Appointment API
   slug: huma-appointment-api
-- description: The Assets API from Huma — 4 operation(s) for assets.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Assets API from Huma — 4 operation(s) for assets.
   name: Huma Assets API
   slug: huma-assets-api
-- description: The Audit Log API from Huma — 3 operation(s) for audit log.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Audit Log API from Huma — 3 operation(s) for audit log.
   name: Huma Audit Log API
   slug: huma-audit-log-api
-- description: The Auth API from Huma — 22 operation(s) for auth.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Auth API from Huma — 22 operation(s) for auth.
   name: Huma Auth API
   slug: huma-auth-api
-- description: The Authorization Admin API from Huma — 6 operation(s) for authorization admin.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Authorization Admin API from Huma — 6 operation(s) for authorization admin.
   name: Huma Authorization Admin API
   slug: huma-authorization-admin-api
-- description: The Autocomplete API from Huma — 6 operation(s) for autocomplete.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Autocomplete API from Huma — 6 operation(s) for autocomplete.
   name: Huma Autocomplete API
   slug: huma-autocomplete-api
-- description: The Billing API from Huma — 40 operation(s) for billing.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Billing API from Huma — 40 operation(s) for billing.
   name: Huma Billing API
   slug: huma-billing-api
-- description: The Billing Portal Route API from Huma — 1 operation(s) for billing portal route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Billing Portal Route API from Huma — 1 operation(s) for billing portal route.
   name: Huma Billing Portal Route API
   slug: huma-billing-portal-route-api
-- description: The Builder API from Huma — 8 operation(s) for builder.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Builder API from Huma — 8 operation(s) for builder.
   name: Huma Builder API
   slug: huma-builder-api
-- description: The Calendar Route API from Huma — 2 operation(s) for calendar route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Calendar Route API from Huma — 2 operation(s) for calendar route.
   name: Huma Calendar Route API
   slug: huma-calendar-route-api
-- description: The CMS API from Huma — 10 operation(s) for cms.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The CMS API from Huma — 10 operation(s) for cms.
   name: Huma CMS API
   slug: huma-cms-api
-- description: The Custom Module Config API from Huma — 4 operation(s) for custom module config.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Custom Module Config API from Huma — 4 operation(s) for custom module config.
   name: Huma Custom Module Config API
   slug: huma-custom-module-config-api
-- description: The Dashboard API from Huma — 5 operation(s) for dashboard.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Dashboard API from Huma — 5 operation(s) for dashboard.
   name: Huma Dashboard API
   slug: huma-dashboard-api
-- description: The Deployment API from Huma — 52 operation(s) for deployment.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Deployment API from Huma — 52 operation(s) for deployment.
   name: Huma Deployment API
   slug: huma-deployment-api
-- description: The Deployment Clone API from Huma — 1 operation(s) for deployment clone.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Deployment Clone API from Huma — 1 operation(s) for deployment clone.
   name: Huma Deployment Clone API
   slug: huma-deployment-clone-api
-- description: The Devices API from Huma — 3 operation(s) for devices.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Devices API from Huma — 3 operation(s) for devices.
   name: Huma Devices API
   slug: huma-devices-api
-- description: The Diary API from Huma — 4 operation(s) for diary.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Diary API from Huma — 4 operation(s) for diary.
   name: Huma Diary API
   slug: huma-diary-api
-- description: The Docs Route API from Huma — 1 operation(s) for docs route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Docs Route API from Huma — 1 operation(s) for docs route.
   name: Huma Docs Route API
   slug: huma-docs-route-api
-- description: The Export API from Huma — 10 operation(s) for export.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Export API from Huma — 10 operation(s) for export.
   name: Huma Export API
   slug: huma-export-api
-- description: The Export Configuration API from Huma — 2 operation(s) for export configuration.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Export Configuration API from Huma — 2 operation(s) for export configuration.
   name: Huma Export Configuration API
   slug: huma-export-configuration-api
-- description: The Extended Module API from Huma — 1 operation(s) for extended module.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Extended Module API from Huma — 1 operation(s) for extended module.
   name: Huma Extended Module API
   slug: huma-extended-module-api
-- description: The Firmware Bank API from Huma — 3 operation(s) for firmware bank.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Firmware Bank API from Huma — 3 operation(s) for firmware bank.
   name: Huma Firmware Bank API
   slug: huma-firmware-bank-api
-- description: The Fitbit API from Huma — 3 operation(s) for fitbit.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Fitbit API from Huma — 3 operation(s) for fitbit.
   name: Huma Fitbit API
   slug: huma-fitbit-api
-- description: The Health App Integration API from Huma — 5 operation(s) for health app integration.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Health App Integration API from Huma — 5 operation(s) for health app integration.
   name: Huma Health App Integration API
   slug: huma-health-app-integration-api
-- description: The Health Route API from Huma — 2 operation(s) for health route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Health Route API from Huma — 2 operation(s) for health route.
   name: Huma Health Route API
   slug: huma-health-route-api
-- description: The Health Score API from Huma — 1 operation(s) for health score.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Health Score API from Huma — 1 operation(s) for health score.
   name: Huma Health Score API
   slug: huma-health-score-api
-- description: The Import Configuration API from Huma — 4 operation(s) for import configuration.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Import Configuration API from Huma — 4 operation(s) for import configuration.
   name: Huma Import Configuration API
   slug: huma-import-configuration-api
-- description: The Inbox API from Huma — 5 operation(s) for inbox.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Inbox API from Huma — 5 operation(s) for inbox.
   name: Huma Inbox API
   slug: huma-inbox-api
-- description: The Inference API from Huma — 2 operation(s) for inference.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Inference API from Huma — 2 operation(s) for inference.
   name: Huma Inference API
   slug: huma-inference-api
-- description: The Inference Route API from Huma — 2 operation(s) for inference route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Inference Route API from Huma — 2 operation(s) for inference route.
   name: Huma Inference Route API
   slug: huma-inference-route-api
-- description: The Integration API from Huma — 11 operation(s) for integration.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Integration API from Huma — 11 operation(s) for integration.
   name: Huma Integration API
   slug: huma-integration-api
-- description: The Integration Ehr Route API from Huma — 1 operation(s) for integration ehr route.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Integration Ehr Route API from Huma — 1 operation(s) for integration ehr route.
   name: Huma Integration Ehr Route API
   slug: huma-integration-ehr-route-api
-- description: The Internal API from Huma — 1 operation(s) for internal.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Internal API from Huma — 1 operation(s) for internal.
   name: Huma Internal API
   slug: huma-internal-api
-- description: The Invitation Status API from Huma — 1 operation(s) for invitation status.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Invitation Status API from Huma — 1 operation(s) for invitation status.
   name: Huma Invitation Status API
   slug: huma-invitation-status-api
-- description: The Invitations API from Huma — 9 operation(s) for invitations.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Invitations API from Huma — 9 operation(s) for invitations.
   name: Huma Invitations API
   slug: huma-invitations-api
-- description: The Invitations (Depracated) API from Huma — 6 operation(s) for invitations (depracated).
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Invitations (Depracated) API from Huma — 6 operation(s) for invitations (depracated).
   name: Huma Invitations (Depracated) API
   slug: huma-invitations-depracated-api
-- description: The Kardia API from Huma — 5 operation(s) for kardia.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Kardia API from Huma — 5 operation(s) for kardia.
   name: Huma Kardia API
   slug: huma-kardia-api
-- description: The Key Actions API from Huma — 6 operation(s) for key actions.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Key Actions API from Huma — 6 operation(s) for key actions.
   name: Huma Key Actions API
   slug: huma-key-actions-api
-- description: The Location API from Huma — 2 operation(s) for location.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Location API from Huma — 2 operation(s) for location.
   name: Huma Location API
   slug: huma-location-api
-- description: The Medications API from Huma — 10 operation(s) for medications.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Medications API from Huma — 10 operation(s) for medications.
   name: Huma Medications API
   slug: huma-medications-api
-- description: The Medications (Deprecated) API from Huma — 3 operation(s) for medications (deprecated).
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Medications (Deprecated) API from Huma — 3 operation(s) for medications (deprecated).
   name: Huma Medications (Deprecated) API
   slug: huma-medications-deprecated-api
-- description: The Misc API from Huma — 7 operation(s) for misc.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Misc API from Huma — 7 operation(s) for misc.
   name: Huma Misc API
   slug: huma-misc-api
-- description: The Module API from Huma — 1 operation(s) for module.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Module API from Huma — 1 operation(s) for module.
   name: Huma Module API
   slug: huma-module-api
-- description: The Module Goal API from Huma — 5 operation(s) for module goal.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Module Goal API from Huma — 5 operation(s) for module goal.
   name: Huma Module Goal API
   slug: huma-module-goal-api
-- description: The Module Results API from Huma — 383 operation(s) for module results.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Module Results API from Huma — 383 operation(s) for module results.
   name: Huma Module Results API
   slug: huma-module-results-api
-- description: The Natural Conditions API from Huma — 2 operation(s) for natural conditions.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Natural Conditions API from Huma — 2 operation(s) for natural conditions.
   name: Huma Natural Conditions API
   slug: huma-natural-conditions-api
-- description: The Order Management API from Huma — 4 operation(s) for order management.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Order Management API from Huma — 4 operation(s) for order management.
   name: Huma Order Management API
   slug: huma-order-management-api
-- description: The Organization API from Huma — 15 operation(s) for organization.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Organization API from Huma — 15 operation(s) for organization.
   name: Huma Organization API
   slug: huma-organization-api
-- description: The Pfizer Hemophilia API from Huma — 1 operation(s) for pfizer hemophilia.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Pfizer Hemophilia API from Huma — 1 operation(s) for pfizer hemophilia.
   name: Huma Pfizer Hemophilia API
   slug: huma-pfizer-hemophilia-api
-- description: The Phone Number Lookup API from Huma — 1 operation(s) for phone number lookup.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Phone Number Lookup API from Huma — 1 operation(s) for phone number lookup.
   name: Huma Phone Number Lookup API
   slug: huma-phone-number-lookup-api
-- description: The Plugins API from Huma — 4 operation(s) for plugins.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Plugins API from Huma — 4 operation(s) for plugins.
   name: Huma Plugins API
   slug: huma-plugins-api
-- description: The Privacy Assets API from Huma — 2 operation(s) for privacy assets.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Privacy Assets API from Huma — 2 operation(s) for privacy assets.
   name: Huma Privacy Assets API
   slug: huma-privacy-assets-api
-- description: The Public Video Callback API from Huma — 3 operation(s) for public video callback.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Public Video Callback API from Huma — 3 operation(s) for public video callback.
   name: Huma Public Video Callback API
   slug: huma-public-video-callback-api
-- description: The Questionnaire Engine API from Huma — 1 operation(s) for questionnaire engine.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Questionnaire Engine API from Huma — 1 operation(s) for questionnaire engine.
   name: Huma Questionnaire Engine API
   slug: huma-questionnaire-engine-api
-- description: The Ratings API from Huma — 4 operation(s) for ratings.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Ratings API from Huma — 4 operation(s) for ratings.
   name: Huma Ratings API
   slug: huma-ratings-api
-- description: The Reminders API from Huma — 7 operation(s) for reminders.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Reminders API from Huma — 7 operation(s) for reminders.
   name: Huma Reminders API
   slug: huma-reminders-api
-- description: The Revere API from Huma — 7 operation(s) for revere.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Revere API from Huma — 7 operation(s) for revere.
   name: Huma Revere API
   slug: huma-revere-api
-- description: The Roche CDS API from Huma — 1 operation(s) for roche cds.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Roche CDS API from Huma — 1 operation(s) for roche cds.
   name: Huma Roche CDS API
   slug: huma-roche-cds-api
-- description: The Rule Engine API from Huma — 8 operation(s) for rule engine.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Rule Engine API from Huma — 8 operation(s) for rule engine.
   name: Huma Rule Engine API
   slug: huma-rule-engine-api
-- description: The Servier Care Plan API from Huma — 4 operation(s) for servier care plan.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Servier Care Plan API from Huma — 4 operation(s) for servier care plan.
   name: Huma Servier Care Plan API
   slug: huma-servier-care-plan-api
-- description: The Servier Five Lives API from Huma — 4 operation(s) for servier five lives.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Servier Five Lives API from Huma — 4 operation(s) for servier five lives.
   name: Huma Servier Five Lives API
   slug: huma-servier-five-lives-api
-- description: The Spirometry API from Huma — 1 operation(s) for spirometry.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Spirometry API from Huma — 1 operation(s) for spirometry.
   name: Huma Spirometry API
   slug: huma-spirometry-api
-- description: The Storage API from Huma — 6 operation(s) for storage.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Storage API from Huma — 6 operation(s) for storage.
   name: Huma Storage API
   slug: huma-storage-api
-- description: The Storage V1 API from Huma — 1 operation(s) for storage v1.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Storage V1 API from Huma — 1 operation(s) for storage v1.
   name: Huma Storage V1 API
   slug: huma-storage-v1-api
-- description: The Surgical Forms API from Huma — 3 operation(s) for surgical forms.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Surgical Forms API from Huma — 3 operation(s) for surgical forms.
   name: Huma Surgical Forms API
   slug: huma-surgical-forms-api
-- description: The Template Bank API from Huma — 4 operation(s) for template bank.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Template Bank API from Huma — 4 operation(s) for template bank.
   name: Huma Template Bank API
   slug: huma-template-bank-api
-- description: The User API from Huma — 40 operation(s) for user.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The User API from Huma — 40 operation(s) for user.
   name: Huma User API
   slug: huma-user-api
-- description: The User Deprecated API from Huma — 31 operation(s) for user deprecated.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The User Deprecated API from Huma — 31 operation(s) for user deprecated.
   name: Huma User Deprecated API
   slug: huma-user-deprecated-api
-- description: The User Export API from Huma — 4 operation(s) for user export.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The User Export API from Huma — 4 operation(s) for user export.
   name: Huma User Export API
   slug: huma-user-export-api
-- description: The User v2 API from Huma — 8 operation(s) for user v2.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The User v2 API from Huma — 8 operation(s) for user v2.
   name: Huma User v2 API
   slug: huma-user-v2-api
-- description: The Video Call API from Huma — 6 operation(s) for video call.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Video Call API from Huma — 6 operation(s) for video call.
   name: Huma Video Call API
   slug: huma-video-call-api
-- description: The Virtual Visit API from Huma — 2 operation(s) for virtual visit.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Virtual Visit API from Huma — 2 operation(s) for virtual visit.
   name: Huma Virtual Visit API
   slug: huma-virtual-visit-api
-- description: The Widgets API from Huma — 71 operation(s) for widgets.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Widgets API from Huma — 71 operation(s) for widgets.
   name: Huma Widgets API
   slug: huma-widgets-api
-- description: The Withings API from Huma — 1 operation(s) for withings.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Withings API from Huma — 1 operation(s) for withings.
   name: Huma Withings API
   slug: huma-withings-api
-- description: The Withings Integration API from Huma — 3 operation(s) for withings integration.
+- baseURL: https://workspace-gcp-uk.api.huma.com/api/integration/v1
+  baseurl_source: declared
+  description: The Withings Integration API from Huma — 3 operation(s) for withings integration.
   name: Huma Withings Integration API
   slug: huma-withings-integration-api
 artifact_total: 82
@@ -386,20 +549,20 @@ overview: 'Huma publishes 76 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 7
 score:
   band: developing
-  composite: 43.2
+  composite: 44.1
   coverage:
     artifact_dirs: 16
-    catalog_gap: 91.0
+    catalog_gap: 86.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 58.9
-    discoverability: 51.9
+    discoverability: 61.1
     governance: 18.2
     operational_transparency: 13.2
   previous_composite: 43.2
@@ -424,7 +587,7 @@ score:
     regime_id: health
     score: 32.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huma/refs/heads/main/screenshots/huma-2026-07-25T221642.png
 security:

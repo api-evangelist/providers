@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,22 +38,32 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Plain-English questions answered with SQL the service writes itself.
+- baseURL: https://data.useplinth.com/api
+  baseurl_source: declared
+  description: Plain-English questions answered with SQL the service writes itself.
   name: Plinth US Grants Data Analyze API
   slug: plinth-us-grants-data-analyze-api
-- description: 'The funder-grantee graph: grants, funders, recipients and aggregates.'
+- baseURL: https://data.useplinth.com/api
+  baseurl_source: declared
+  description: 'The funder-grantee graph: grants, funders, recipients and aggregates.'
   name: Plinth US Grants Data Grants API
   slug: plinth-us-grants-data-grants-api
-- description: Per-organization profiles, financials and IRS compliance facets.
+- baseURL: https://data.useplinth.com/api
+  baseurl_source: declared
+  description: Per-organization profiles, financials and IRS compliance facets.
   name: Plinth US Grants Data Organizations API
   slug: plinth-us-grants-data-organizations-api
-- description: Turn an organization name into an EIN and a canonical URL. No key required.
+- baseURL: https://data.useplinth.com/api
+  baseurl_source: declared
+  description: Turn an organization name into an EIN and a canonical URL. No key required.
   name: Plinth US Grants Data Resolve API
   slug: plinth-us-grants-data-resolve-api
-- description: Ad-hoc read-only SQL over the warehouse. Paid keys only.
+- baseURL: https://data.useplinth.com/api
+  baseurl_source: declared
+  description: Ad-hoc read-only SQL over the warehouse. Paid keys only.
   name: Plinth US Grants Data SQL API
   slug: plinth-us-grants-data-sql-api
 artifact_total: 14
@@ -239,7 +263,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/screenshots/plinth-us-grants-data-2026-08-17T081307.png
 security:

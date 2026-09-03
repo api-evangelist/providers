@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The management REST API enables namespace, queue, topic, and subscription configuration through Azure Resource Manager, including SKU, network rules, authorization rules, and disaster recovery configu
   name: Azure Service Bus Management REST API
   slug: management-api
-- description: The Messages API from Azure Service Bus — 3 operation(s) for messages.
+- baseURL: https://{namespace}.servicebus.windows.net/
+  baseurl_source: declared
+  description: The Messages API from Azure Service Bus — 3 operation(s) for messages.
   name: Azure Service Bus Messages API
   slug: microsoft-azure-service-bus-messages-api
 artifact_total: 11
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-bus/refs/heads/main/screenshots/microsoft-azure-service-bus-2026-06-20T185434.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,28 +46,44 @@ apis:
 - description: The Anodot Cloud Cost Management API provides programmatic access to cloud cost data, anomaly detection for cost spikes, cost allocation, budget management, and optimization recommendations across AWS
   name: Anodot Cloud Cost Management API
   slug: anodot-cloud-cost-api
-- description: The Access Token API from Anodot — 1 operation(s) for access token.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Access Token API from Anodot — 1 operation(s) for access token.
   name: Anodot Access Token API
   slug: anodot-access-token-api
-- description: The Alert Actions API from Anodot — 6 operation(s) for alert actions.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Alert Actions API from Anodot — 6 operation(s) for alert actions.
   name: Anodot Alert Actions API
   slug: anodot-alert-actions-api
-- description: The Alerts API from Anodot — 5 operation(s) for alerts.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Alerts API from Anodot — 5 operation(s) for alerts.
   name: Anodot Alerts API
   slug: anodot-alerts-api
-- description: The Anomalies API from Anodot — 5 operation(s) for anomalies.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Anomalies API from Anodot — 5 operation(s) for anomalies.
   name: Anodot Anomalies API
   slug: anodot-anomalies-api
-- description: The Customers API from Anodot — 1 operation(s) for customers.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Customers API from Anodot — 1 operation(s) for customers.
   name: Anodot Customers API
   slug: anodot-customers-api
-- description: The Forecast API from Anodot — 9 operation(s) for forecast.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Forecast API from Anodot — 9 operation(s) for forecast.
   name: Anodot Forecast API
   slug: anodot-forecast-api
-- description: The Groups API from Anodot — 1 operation(s) for groups.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Groups API from Anodot — 1 operation(s) for groups.
   name: Anodot Groups API
   slug: anodot-groups-api
-- description: The Users API from Anodot — 1 operation(s) for users.
+- baseURL: https://app.anodot.com
+  baseurl_source: declared
+  description: The Users API from Anodot — 1 operation(s) for users.
   name: Anodot Users API
   slug: anodot-users-api
 artifact_total: 24
@@ -199,7 +215,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anodot/refs/heads/main/screenshots/anodot-2026-06-20T172012.png
 security:

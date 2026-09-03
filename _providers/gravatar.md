@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 5 acting
 api_count: 1
 apis:
-- description: Operations about user avatars
+- baseURL: https://0.gravatar.com
+  baseurl_source: declared
+  description: Operations about user avatars
   name: Gravatar avatars API
   slug: gravatar-avatars-api
-- description: Experimental operations that might be subject to change. Use with caution.
+- baseURL: https://0.gravatar.com
+  baseurl_source: declared
+  description: Experimental operations that might be subject to change. Use with caution.
   name: Gravatar experimental API
   slug: gravatar-experimental-api
-- description: Operations about user profiles
+- baseURL: https://0.gravatar.com
+  baseurl_source: declared
+  description: Operations about user profiles
   name: Gravatar profiles API
   slug: gravatar-profiles-api
-- description: Operations about QR codes
+- baseURL: https://0.gravatar.com
+  baseurl_source: declared
+  description: Operations about QR codes
   name: Gravatar qr-code API
   slug: gravatar-qr-code-api
 artifact_total: 42
@@ -297,7 +305,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravatar/refs/heads/main/screenshots/gravatar-2026-08-17T083454.png
 security:

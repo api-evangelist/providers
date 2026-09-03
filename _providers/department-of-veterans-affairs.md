@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -83,55 +83,89 @@ apis:
 - description: Retrieve a Veteran's service history and eligibility for VA programs.
   name: VA Veteran Service History and Eligibility API
   slug: va-veteran-service-history-and-eligibility-api
-- description: The AllergyIntolerance API from Department of Veterans Affairs (VA) — 1 operation(s) for allergyintolerance.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The AllergyIntolerance API from Department of Veterans Affairs (VA) — 1 operation(s) for allergyintolerance.
   name: Department of Veterans Affairs (VA) AllergyIntolerance API
   slug: department-of-veterans-affairs-allergyintolerance-api
-- description: Appeals status and history
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Appeals status and history
   name: Department of Veterans Affairs (VA) Appeals API
   slug: department-of-veterans-affairs-appeals-api
-- description: Veteran benefits claims operations
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Veteran benefits claims operations
   name: Department of Veterans Affairs (VA) Claims API
   slug: department-of-veterans-affairs-claims-api
-- description: The Condition API from Department of Veterans Affairs (VA) — 1 operation(s) for condition.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Condition API from Department of Veterans Affairs (VA) — 1 operation(s) for condition.
   name: Department of Veterans Affairs (VA) Condition API
   slug: department-of-veterans-affairs-condition-api
-- description: Veteran status confirmation
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Veteran status confirmation
   name: Department of Veterans Affairs (VA) Confirmation API
   slug: department-of-veterans-affairs-confirmation-api
-- description: Search and retrieve VA facilities
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Search and retrieve VA facilities
   name: Department of Veterans Affairs (VA) Facilities API
   slug: department-of-veterans-affairs-facilities-api
-- description: Search and retrieve VA forms
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Search and retrieve VA forms
   name: Department of Veterans Affairs (VA) Forms API
   slug: department-of-veterans-affairs-forms-api
-- description: Intent to File operations
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Intent to File operations
   name: Department of Veterans Affairs (VA) Intent To File API
   slug: department-of-veterans-affairs-intent-to-file-api
-- description: The MedicationRequest API from Department of Veterans Affairs (VA) — 1 operation(s) for medicationrequest.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The MedicationRequest API from Department of Veterans Affairs (VA) — 1 operation(s) for medicationrequest.
   name: Department of Veterans Affairs (VA) MedicationRequest API
   slug: department-of-veterans-affairs-medicationrequest-api
-- description: Locate facilities near a given address or coordinates
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Locate facilities near a given address or coordinates
   name: Department of Veterans Affairs (VA) NearbyFacilities API
   slug: department-of-veterans-affairs-nearbyfacilities-api
-- description: The Observation API from Department of Veterans Affairs (VA) — 1 operation(s) for observation.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Observation API from Department of Veterans Affairs (VA) — 1 operation(s) for observation.
   name: Department of Veterans Affairs (VA) Observation API
   slug: department-of-veterans-affairs-observation-api
-- description: The Patient API from Department of Veterans Affairs (VA) — 1 operation(s) for patient.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Patient API from Department of Veterans Affairs (VA) — 1 operation(s) for patient.
   name: Department of Veterans Affairs (VA) Patient API
   slug: department-of-veterans-affairs-patient-api
-- description: Representation requests and POA management
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Representation requests and POA management
   name: Department of Veterans Affairs (VA) Power of Attorney API
   slug: department-of-veterans-affairs-power-of-attorney-api
-- description: Health, benefits, and other services offered at facilities
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Health, benefits, and other services offered at facilities
   name: Department of Veterans Affairs (VA) Services API
   slug: department-of-veterans-affairs-services-api
-- description: Request upload locations
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Request upload locations
   name: Department of Veterans Affairs (VA) UploadLocation API
   slug: department-of-veterans-affairs-uploadlocation-api
-- description: Submission status retrieval
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Submission status retrieval
   name: Department of Veterans Affairs (VA) UploadStatus API
   slug: department-of-veterans-affairs-uploadstatus-api
-- description: The Veterans API from Department of Veterans Affairs (VA) — 1 operation(s) for veterans.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Veterans API from Department of Veterans Affairs (VA) — 1 operation(s) for veterans.
   name: Department of Veterans Affairs (VA) Veterans API
   slug: department-of-veterans-affairs-veterans-api
 artifact_total: 74
@@ -356,7 +390,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -366,7 +400,7 @@ score:
     discoverability: 46.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 36.4
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -381,7 +415,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png
 security:

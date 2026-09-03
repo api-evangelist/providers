@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 9
 apis:
-- description: Comment collection. Registered and reachable, but empty — no object on this deployment carries comments.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and reachable, but empty — no object on this deployment carries comments.
   name: Matchpoint Therapeutics Comments API
   slug: matchpoint-therapeutics-comments-api
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Matchpoint Therapeutics Discovery API
   slug: matchpoint-therapeutics-discovery-api
-- description: Media library — 43 image attachments at harvest time.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Media library — 43 image attachments at harvest time.
   name: Matchpoint Therapeutics Media API
   slug: matchpoint-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs.
   name: Matchpoint Therapeutics Oembed API
   slug: matchpoint-therapeutics-oembed-api
-- description: Corporate pages — homepage, privacy policy, terms of use (3 published at harvest time).
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — homepage, privacy policy, terms of use (3 published at harvest time).
   name: Matchpoint Therapeutics Pages API
   slug: matchpoint-therapeutics-pages-api
-- description: News archive — company press releases and third-party coverage (5 published at harvest time).
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: News archive — company press releases and third-party coverage (5 published at harvest time).
   name: Matchpoint Therapeutics Posts API
   slug: matchpoint-therapeutics-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: Matchpoint Therapeutics Search API
   slug: matchpoint-therapeutics-search-api
-- description: Categories, post tags and the team_types taxonomy. Only one category term exists; post_tag and team_types are registered but empty.
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Categories, post tags and the team_types taxonomy. Only one category term exists; post_tag and team_types are registered but empty.
   name: Matchpoint Therapeutics Taxonomy API
   slug: matchpoint-therapeutics-taxonomy-api
-- description: Leadership, board, observers and scientific founders as a custom post type (19 published at harvest time).
+- baseURL: https://matchpointtx.com/wp-json
+  baseurl_source: declared
+  description: Leadership, board, observers and scientific founders as a custom post type (19 published at harvest time).
   name: Matchpoint Therapeutics Team API
   slug: matchpoint-therapeutics-team-api
 artifact_total: 13
@@ -169,7 +199,7 @@ score:
   band: thin
   composite: 28.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -200,8 +230,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/matchpoint-therapeutics/refs/heads/main/screenshots/matchpoint-therapeutics-2026-09-02T150436.png
 security:
 - kind: authentication
   name: Matchpoint Therapeutics Authentication

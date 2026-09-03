@@ -34,67 +34,105 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
   name: Synup MCP Server
   slug: synup-mcp
-- description: The Automations API from Synup — 1 operation(s) for automations.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Automations API from Synup — 1 operation(s) for automations.
   name: Synup Automations API
   slug: synup-automations-api
-- description: The Connected Accounts API from Synup — 20 operation(s) for connected accounts.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Connected Accounts API from Synup — 20 operation(s) for connected accounts.
   name: Synup Connected Accounts API
   slug: synup-connected-accounts-api
-- description: The Grid Rank API from Synup — 3 operation(s) for grid rank.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Grid Rank API from Synup — 3 operation(s) for grid rank.
   name: Synup Grid Rank API
   slug: synup-grid-rank-api
-- description: The Listings API from Synup — 7 operation(s) for listings.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Listings API from Synup — 7 operation(s) for listings.
   name: Synup Listings API
   slug: synup-listings-api
-- description: The Local Post Ideas API from Synup — 41 operation(s) for local post ideas.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Local Post Ideas API from Synup — 41 operation(s) for local post ideas.
   name: Synup Local Post Ideas API
   slug: synup-local-post-ideas-api
-- description: The Locations API from Synup — 25 operation(s) for locations.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Locations API from Synup — 25 operation(s) for locations.
   name: Synup Locations API
   slug: synup-locations-api
-- description: The Menus API from Synup — 5 operation(s) for menus.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Menus API from Synup — 5 operation(s) for menus.
   name: Synup Menus API
   slug: synup-menus-api
-- description: The Organizing locations API from Synup — 14 operation(s) for organizing locations.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Organizing locations API from Synup — 14 operation(s) for organizing locations.
   name: Synup Organizing locations API
   slug: synup-organizing-locations-api
-- description: The Posts API from Synup — 6 operation(s) for posts.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Posts API from Synup — 6 operation(s) for posts.
   name: Synup Posts API
   slug: synup-posts-api
-- description: The Profile Analytics API from Synup — 3 operation(s) for profile analytics.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Profile Analytics API from Synup — 3 operation(s) for profile analytics.
   name: Synup Profile Analytics API
   slug: synup-profile-analytics-api
-- description: The Rankings API from Synup — 6 operation(s) for rankings.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Rankings API from Synup — 6 operation(s) for rankings.
   name: Synup Rankings API
   slug: synup-rankings-api
-- description: The Review Campaigns API from Synup — 4 operation(s) for review campaigns.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Review Campaigns API from Synup — 4 operation(s) for review campaigns.
   name: Synup Review Campaigns API
   slug: synup-review-campaigns-api
-- description: The Reviews API from Synup — 9 operation(s) for reviews.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Reviews API from Synup — 9 operation(s) for reviews.
   name: Synup Reviews API
   slug: synup-reviews-api
-- description: The Reviews/Review Sources API from Synup — 3 operation(s) for reviews/review sources.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Reviews/Review Sources API from Synup — 3 operation(s) for reviews/review sources.
   name: Synup Reviews/Review Sources API
   slug: synup-reviews-review-sources-api
-- description: The Social API from Synup — 3 operation(s) for social.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Social API from Synup — 3 operation(s) for social.
   name: Synup Social API
   slug: synup-social-api
-- description: The Social Post Ideas API from Synup — 47 operation(s) for social post ideas.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Social Post Ideas API from Synup — 47 operation(s) for social post ideas.
   name: Synup Social Post Ideas API
   slug: synup-social-post-ideas-api
-- description: The User Management API from Synup — 11 operation(s) for user management.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The User Management API from Synup — 11 operation(s) for user management.
   name: Synup User Management API
   slug: synup-user-management-api
-- description: The Webhooks API from Synup — 0 operation(s) for webhooks.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Webhooks API from Synup — 0 operation(s) for webhooks.
   name: Synup Webhooks API
   slug: synup-webhooks-api
-- description: The Webhooks/Webhooks API from Synup — 0 operation(s) for webhooks/webhooks.
+- baseURL: https://api.synup.com/api/v4
+  baseurl_source: declared
+  description: The Webhooks/Webhooks API from Synup — 0 operation(s) for webhooks/webhooks.
   name: Synup Webhooks/Webhooks API
   slug: synup-webhooks-webhooks-api
 artifact_total: 30
@@ -333,7 +371,7 @@ score:
     catalog_gap: 44.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -343,7 +381,7 @@ score:
     discoverability: 75.9
     governance: 19.7
     operational_transparency: 26.3
-  previous_composite: 59.7
+  previous_composite: 60.3
   provenance:
     conformance: derived
     contracts:
@@ -354,7 +392,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
 security:

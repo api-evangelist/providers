@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Operations for managing account-level resources
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for managing account-level resources
   name: 10Web Account API
   slug: 10web-account-api
-- description: Operations for backup management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for backup management
   name: 10Web Backup API
   slug: 10web-backup-api
-- description: Operations for website builder and page management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for website builder and page management
   name: 10Web Builder API
   slug: 10web-builder-api
-- description: Operations for cache management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for cache management
   name: 10Web Cache API
   slug: 10web-cache-api
-- description: Operations for SSL certificate management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for SSL certificate management
   name: 10Web Certificate API
   slug: 10web-certificate-api
-- description: Operations for domain management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for domain management
   name: 10Web Domain API
   slug: 10web-domain-api
-- description: Operations for PHP version management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for PHP version management
   name: 10Web PHP Management API
   slug: 10web-php-management-api
-- description: Operations for AI-powered features
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for AI-powered features
   name: 10Web Section Based AI API
   slug: 10web-section-based-ai-api
-- description: Operations for subdomain management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for subdomain management
   name: 10Web Subdomain API
   slug: 10web-subdomain-api
-- description: Operations for WordPress Vibe Coding - AI-powered website content generation
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for WordPress Vibe Coding - AI-powered website content generation
   name: 10Web Vibe Coding API
   slug: 10web-vibe-coding-api
-- description: Operations for website creation and management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for website creation and management
   name: 10Web Website API
   slug: 10web-website-api
-- description: Operations for secure WordPress admin panel autologin functionality
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for secure WordPress admin panel autologin functionality
   name: 10Web WP Autologin API
   slug: 10web-wp-autologin-api
-- description: Operations for DNS zone management
+- baseURL: https://api.10web.io
+  baseurl_source: declared
+  description: Operations for DNS zone management
   name: 10Web Zone API
   slug: 10web-zone-api
 artifact_total: 31
@@ -236,7 +262,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -246,7 +272,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.8
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -257,7 +283,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/10web/refs/heads/main/screenshots/10web-2026-07-25T181101.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 39 operations · 9 acting
 api_count: 2
 apis:
-- description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
   name: Up Accounts API
   slug: up-bank-accounts-api
-- description: Attachments represent uploaded files that are attached to transactions, these are commonly receipts.
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Attachments represent uploaded files that are attached to transactions, these are commonly receipts.
   name: Up Attachments API
   slug: up-bank-attachments-api
-- description: Banking Account Balance endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Up Banking Account Balances API
   slug: up-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Up Banking Account Direct Debits API
   slug: up-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Up Banking Account Scheduled Payments API
   slug: up-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Up Banking Account Transactions API
   slug: up-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Up Banking Accounts API
   slug: up-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Up Banking Payees API
   slug: up-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Up Banking Products API
   slug: up-bank-banking-products-api
-- description: Categories enable understanding where your money goes by driving powerful insights in Up. All categories in Up are pre-defined and are automatically assigned to new purchases in most cases. A parent-c
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Categories enable understanding where your money goes by driving powerful insights in Up. All categories in Up are pre-defined and are automatically assigned to new purchases in most cases. A parent-c
   name: Up Categories API
   slug: up-bank-categories-api
-- description: 'Tags are custom labels that can be associated with transactions on Up. Within the Up application, tags provide additional insight into spending. For example, you could have a "Take Away" tag that you '
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Tags are custom labels that can be associated with transactions on Up. Within the Up application, tags provide additional insight into spending. For example, you could have a "Take Away" tag that you '
   name: Up Tags API
   slug: up-bank-tags-api
-- description: Transactions represent the movement of money into and out of an account. They have many characteristics that vary depending on the kind of transaction. Transactions may be temporarily `HELD` (pending)
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Transactions represent the movement of money into and out of an account. They have many characteristics that vary depending on the kind of transaction. Transactions may be temporarily `HELD` (pending)
   name: Up Transactions API
   slug: up-bank-transactions-api
-- description: 'Some endpoints exist not to expose data, but to test the API itself. Currently there is only one endpoint in this group: ping!'
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: 'Some endpoints exist not to expose data, but to test the API itself. Currently there is only one endpoint in this group: ping!'
   name: Up Utility endpoints API
   slug: up-bank-utility-endpoints-api
-- description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
+- baseURL: https://api.up.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Webhooks provide a mechanism for a configured URL to receive events when transaction activity occurs on Up. You can think of webhooks as being like push notifications for your server-side application.
   name: Up Webhooks API
   slug: up-bank-webhooks-api
 artifact_total: 37
@@ -328,7 +356,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -341,7 +369,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 47.4
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,7 +391,7 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: Public WebSocket event stream providing real-time access to all public activity on the AT Protocol network, including posts, likes, follows, and other repository events. No API key is required to subs
   name: AT Protocol Firehose (Event Stream)
   slug: firehose
-- description: Actor (user) profile, search, and preference operations
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Actor (user) profile, search, and preference operations
   name: AT Protocol actor API
   slug: atproto-actor-api
-- description: Feed, post, timeline, and content operations
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Feed, post, timeline, and content operations
   name: AT Protocol feed API
   slug: atproto-feed-api
-- description: Graph operations — follows, blocks, lists, and mutes
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Graph operations — follows, blocks, lists, and mutes
   name: AT Protocol graph API
   slug: atproto-graph-api
-- description: DID and handle resolution, identity management
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: DID and handle resolution, identity management
   name: AT Protocol identity API
   slug: atproto-identity-api
-- description: Notification management
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Notification management
   name: AT Protocol notification API
   slug: atproto-notification-api
-- description: Repository management, record CRUD operations
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Repository management, record CRUD operations
   name: AT Protocol repo API
   slug: atproto-repo-api
-- description: Server management, session creation, account administration
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Server management, session creation, account administration
   name: AT Protocol server API
   slug: atproto-server-api
-- description: Data synchronization, firehose, blob access
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: declared
+  description: Data synchronization, firehose, blob access
   name: AT Protocol sync API
   slug: atproto-sync-api
 artifact_total: 33
@@ -255,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/screenshots/atproto-2026-08-17T122416.png
 security:

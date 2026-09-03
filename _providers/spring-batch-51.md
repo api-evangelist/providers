@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Spring Boot Actuator-based monitoring endpoints for Spring Batch 5.1 applications providing job health, execution status, and Micrometer metrics visibility.
   name: Spring Batch 5.1 Actuator Monitoring
   slug: spring-batch-51-actuator-monitoring
-- description: Batch job execution management and monitoring
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Batch job execution management and monitoring
   name: Spring Batch 5.1 Batch Jobs API
   slug: spring-batch-51-batch-jobs-api
-- description: Application and component health checks
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Application and component health checks
   name: Spring Batch 5.1 Health API
   slug: spring-batch-51-health-api
-- description: Micrometer-based application metrics
+- baseURL: https://github.com/spring-projects/spring-batch
+  baseurl_source: declared
+  description: Micrometer-based application metrics
   name: Spring Batch 5.1 Metrics API
   slug: spring-batch-51-metrics-api
 artifact_total: 24
@@ -219,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-51/refs/heads/main/screenshots/spring-batch-51-2026-06-20T194406.png
 security:

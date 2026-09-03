@@ -33,25 +33,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
   name: A10 Thunder Kubernetes Connector (TKC)
   slug: thunder-kubernetes-connector
-- description: Session sign-on and sign-off
+- baseURL_template: https://{thunder-host}
+  baseurl_source: spec_template
+  description: Session sign-on and sign-off
   name: A10 Networks Authentication API
   slug: a10-networks-authentication-api
-- description: Active health probes attached to servers and service groups
+- baseURL_template: https://{thunder-host}
+  baseurl_source: spec_template
+  description: Active health probes attached to servers and service groups
   name: A10 Networks SLB Health Monitor API
   slug: a10-networks-slb-health-monitor-api
-- description: Real backend servers
+- baseURL_template: https://{thunder-host}
+  baseurl_source: spec_template
+  description: Real backend servers
   name: A10 Networks SLB Server API
   slug: a10-networks-slb-server-api
-- description: Service groups (pools) that bind real servers to a load-balancing method
+- baseURL_template: https://{thunder-host}
+  baseurl_source: spec_template
+  description: Service groups (pools) that bind real servers to a load-balancing method
   name: A10 Networks SLB Service Group API
   slug: a10-networks-slb-service-group-api
-- description: Virtual servers (VIPs) that front pools of real servers
+- baseURL_template: https://{thunder-host}
+  baseurl_source: spec_template
+  description: Virtual servers (VIPs) that front pools of real servers
   name: A10 Networks SLB Virtual Server API
   slug: a10-networks-slb-virtual-server-api
 artifact_total: 25
@@ -345,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

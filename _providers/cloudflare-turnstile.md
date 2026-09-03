@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,7 +55,9 @@ apis:
 - description: Turnstile widgets and analytics are managed through the broader Cloudflare API, which exposes endpoints to list, create, update, and rotate Turnstile sitekeys, retrieve analytics, and integrate with a
   name: Cloudflare Turnstile Management API
   slug: management-api
-- description: The Verification API from Cloudflare Turnstile — 1 operation(s) for verification.
+- baseURL: https://challenges.cloudflare.com/turnstile/v0/siteverify
+  baseurl_source: declared
+  description: The Verification API from Cloudflare Turnstile — 1 operation(s) for verification.
   name: Cloudflare Turnstile Verification API
   slug: cloudflare-turnstile-verification-api
 artifact_total: 14
@@ -170,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/screenshots/cloudflare-turnstile-2026-06-20T174557.png
 security:

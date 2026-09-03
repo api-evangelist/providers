@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The alerts API from Doppel — 3 operation(s) for alerts.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The alerts API from Doppel — 3 operation(s) for alerts.
   name: Doppel alerts API
   slug: doppel-alerts-api
-- description: The brands API from Doppel — 2 operation(s) for brands.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The brands API from Doppel — 2 operation(s) for brands.
   name: Doppel brands API
   slug: doppel-brands-api
-- description: The hrm API from Doppel — 3 operation(s) for hrm.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The hrm API from Doppel — 3 operation(s) for hrm.
   name: Doppel hrm API
   slug: doppel-hrm-api
-- description: The phishing-simulation API from Doppel — 1 operation(s) for phishing-simulation.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The phishing-simulation API from Doppel — 1 operation(s) for phishing-simulation.
   name: Doppel phishing-simulation API
   slug: doppel-phishing-simulation-api
-- description: The protected-assets API from Doppel — 3 operation(s) for protected-assets.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The protected-assets API from Doppel — 3 operation(s) for protected-assets.
   name: Doppel protected-assets API
   slug: doppel-protected-assets-api
-- description: The reports API from Doppel — 2 operation(s) for reports.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The reports API from Doppel — 2 operation(s) for reports.
   name: Doppel reports API
   slug: doppel-reports-api
-- description: The scan API from Doppel — 2 operation(s) for scan.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The scan API from Doppel — 2 operation(s) for scan.
   name: Doppel scan API
   slug: doppel-scan-api
-- description: The iocs API from Doppel — 0 operation(s) for iocs.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The iocs API from Doppel — 0 operation(s) for iocs.
   name: Doppel Iocs API
   slug: doppel-iocs-api
-- description: The reports (deprecated) API from Doppel — 0 operation(s) for reports (deprecated).
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The reports (deprecated) API from Doppel — 0 operation(s) for reports (deprecated).
   name: Doppel reports (deprecated) API
   slug: doppel-reports-deprecated-api
-- description: The sms_responses API from Doppel — 0 operation(s) for sms_responses.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The sms_responses API from Doppel — 0 operation(s) for sms_responses.
   name: Doppel Sms Responses API
   slug: doppel-sms-responses-api
-- description: The urls API from Doppel — 0 operation(s) for urls.
+- baseURL: https://api.doppel.com/v1
+  baseurl_source: declared
+  description: The urls API from Doppel — 0 operation(s) for urls.
   name: Doppel URLS API
   slug: doppel-urls-api
 artifact_total: 25
@@ -248,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -258,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -269,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doppel/refs/heads/main/screenshots/doppel-2026-07-25T212309.png
 security:

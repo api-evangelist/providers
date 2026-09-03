@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -48,127 +48,209 @@ apis:
 - description: Checkly is a monitoring-as-code platform for API and synthetic monitoring with Playwright-based browser checks and programmable API checks.
   name: Checkly
   slug: checkly
-- description: The Accounts API from Checkly — 11 operation(s) for accounts.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Accounts API from Checkly — 11 operation(s) for accounts.
   name: Checkly Accounts API
   slug: checkly-accounts-api
-- description: The Alert Channels API from Checkly — 6 operation(s) for alert channels.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Alert Channels API from Checkly — 6 operation(s) for alert channels.
   name: Checkly Alert Channels API
   slug: checkly-alert-channels-api
-- description: The Analytics API from Checkly — 12 operation(s) for analytics.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Analytics API from Checkly — 12 operation(s) for analytics.
   name: Checkly Analytics API
   slug: checkly-analytics-api
-- description: The Check Alerts API from Checkly — 2 operation(s) for check alerts.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Check Alerts API from Checkly — 2 operation(s) for check alerts.
   name: Checkly Check Alerts API
   slug: checkly-check-alerts-api
-- description: The Check Groups API from Checkly — 11 operation(s) for check groups.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Check Groups API from Checkly — 11 operation(s) for check groups.
   name: Checkly Check Groups API
   slug: checkly-check-groups-api
-- description: The Check Results API from Checkly — 4 operation(s) for check results.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Check Results API from Checkly — 4 operation(s) for check results.
   name: Checkly Check Results API
   slug: checkly-check-results-api
-- description: The Checks API from Checkly — 18 operation(s) for checks.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Checks API from Checkly — 18 operation(s) for checks.
   name: Checkly Checks API
   slug: checkly-checks-api
-- description: The Dashboards API from Checkly — 5 operation(s) for dashboards.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Dashboards API from Checkly — 5 operation(s) for dashboards.
   name: Checkly Dashboards API
   slug: checkly-dashboards-api
-- description: The Heartbeats API from Checkly — 5 operation(s) for heartbeats.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Heartbeats API from Checkly — 5 operation(s) for heartbeats.
   name: Checkly Heartbeats API
   slug: checkly-heartbeats-api
-- description: The Incidents API from Checkly — 4 operation(s) for incidents.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Incidents API from Checkly — 4 operation(s) for incidents.
   name: Checkly Incidents API
   slug: checkly-incidents-api
-- description: The Maintenance Windows API from Checkly — 12 operation(s) for maintenance windows.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Maintenance Windows API from Checkly — 12 operation(s) for maintenance windows.
   name: Checkly Maintenance Windows API
   slug: checkly-maintenance-windows-api
-- description: The Private Locations API from Checkly — 8 operation(s) for private locations.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Private Locations API from Checkly — 8 operation(s) for private locations.
   name: Checkly Private Locations API
   slug: checkly-private-locations-api
-- description: The Alert notifications API from Checkly — 1 operation(s) for alert notifications.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Alert notifications API from Checkly — 1 operation(s) for alert notifications.
   name: Checkly Alert notifications API
   slug: checkly-alert-notifications-api
-- description: The Badges API from Checkly — 2 operation(s) for badges.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Badges API from Checkly — 2 operation(s) for badges.
   name: Checkly Badges API
   slug: checkly-badges-api
-- description: The Check sessions API from Checkly — 7 operation(s) for check sessions.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Check sessions API from Checkly — 7 operation(s) for check sessions.
   name: Checkly Check sessions API
   slug: checkly-check-sessions-api
-- description: The Check status API from Checkly — 2 operation(s) for check status.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Check status API from Checkly — 2 operation(s) for check status.
   name: Checkly Check status API
   slug: checkly-check-status-api
-- description: The Client certificates API from Checkly — 4 operation(s) for client certificates.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Client certificates API from Checkly — 4 operation(s) for client certificates.
   name: Checkly Client certificates API
   slug: checkly-client-certificates-api
-- description: The Deployment Triggers API from Checkly — 2 operation(s) for deployment triggers.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Deployment Triggers API from Checkly — 2 operation(s) for deployment triggers.
   name: Checkly Deployment Triggers API
   slug: checkly-deployment-triggers-api
-- description: The Environment variables API from Checkly — 5 operation(s) for environment variables.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Environment variables API from Checkly — 5 operation(s) for environment variables.
   name: Checkly Environment variables API
   slug: checkly-environment-variables-api
-- description: The Error Groups API from Checkly — 4 operation(s) for error groups.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Error Groups API from Checkly — 4 operation(s) for error groups.
   name: Checkly Error Groups API
   slug: checkly-error-groups-api
-- description: The Incident Updates API from Checkly — 3 operation(s) for incident updates.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Incident Updates API from Checkly — 3 operation(s) for incident updates.
   name: Checkly Incident Updates API
   slug: checkly-incident-updates-api
-- description: The Location API from Checkly — 1 operation(s) for location.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Location API from Checkly — 1 operation(s) for location.
   name: Checkly Location API
   slug: checkly-location-api
-- description: The Monitors API from Checkly — 7 operation(s) for monitors.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Monitors API from Checkly — 7 operation(s) for monitors.
   name: Checkly Monitors API
   slug: checkly-monitors-api
-- description: The Reporting API from Checkly — 1 operation(s) for reporting.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Reporting API from Checkly — 1 operation(s) for reporting.
   name: Checkly Reporting API
   slug: checkly-reporting-api
-- description: The Rocky AI API from Checkly — 3 operation(s) for rocky ai.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Rocky AI API from Checkly — 3 operation(s) for rocky ai.
   name: Checkly Rocky AI API
   slug: checkly-rocky-ai-api
-- description: The Runtimes API from Checkly — 2 operation(s) for runtimes.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Runtimes API from Checkly — 2 operation(s) for runtimes.
   name: Checkly Runtimes API
   slug: checkly-runtimes-api
-- description: The Secret scans API from Checkly — 1 operation(s) for secret scans.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Secret scans API from Checkly — 1 operation(s) for secret scans.
   name: Checkly Secret scans API
   slug: checkly-secret-scans-api
-- description: The Snippets API from Checkly — 5 operation(s) for snippets.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Snippets API from Checkly — 5 operation(s) for snippets.
   name: Checkly Snippets API
   slug: checkly-snippets-api
-- description: The Static IPs API from Checkly — 6 operation(s) for static ips.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Static IPs API from Checkly — 6 operation(s) for static ips.
   name: Checkly Static IPs API
   slug: checkly-static-ips-api
-- description: The Status Page Incidents API from Checkly — 10 operation(s) for status page incidents.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Page Incidents API from Checkly — 10 operation(s) for status page incidents.
   name: Checkly Status Page Incidents API
   slug: checkly-status-page-incidents-api
-- description: The Status Page Services API from Checkly — 5 operation(s) for status page services.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Page Services API from Checkly — 5 operation(s) for status page services.
   name: Checkly Status Page Services API
   slug: checkly-status-page-services-api
-- description: The Status Pages API from Checkly — 8 operation(s) for status pages.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages API from Checkly — 8 operation(s) for status pages.
   name: Checkly Status Pages API
   slug: checkly-status-pages-api
-- description: The Status Pages V3 API from Checkly — 7 operation(s) for status pages v3.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages V3 API from Checkly — 7 operation(s) for status pages v3.
   name: Checkly Status Pages V3 API
   slug: checkly-status-pages-v3-api
-- description: The Status Pages V3 Automation Rules API from Checkly — 5 operation(s) for status pages v3 automation rules.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages V3 Automation Rules API from Checkly — 5 operation(s) for status pages v3 automation rules.
   name: Checkly Status Pages V3 Automation Rules API
   slug: checkly-status-pages-v3-automation-rules-api
-- description: The Status Pages V3 Components API from Checkly — 5 operation(s) for status pages v3 components.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages V3 Components API from Checkly — 5 operation(s) for status pages v3 components.
   name: Checkly Status Pages V3 Components API
   slug: checkly-status-pages-v3-components-api
-- description: The Status Pages V3 Incidents API from Checkly — 11 operation(s) for status pages v3 incidents.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages V3 Incidents API from Checkly — 11 operation(s) for status pages v3 incidents.
   name: Checkly Status Pages V3 Incidents API
   slug: checkly-status-pages-v3-incidents-api
-- description: The Status Pages V3 Subscribers API from Checkly — 3 operation(s) for status pages v3 subscribers.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Status Pages V3 Subscribers API from Checkly — 3 operation(s) for status pages v3 subscribers.
   name: Checkly Status Pages V3 Subscribers API
   slug: checkly-status-pages-v3-subscribers-api
-- description: The Subscriptions API from Checkly — 3 operation(s) for subscriptions.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Subscriptions API from Checkly — 3 operation(s) for subscriptions.
   name: Checkly Subscriptions API
   slug: checkly-subscriptions-api
-- description: The Test Session Error Groups API from Checkly — 4 operation(s) for test session error groups.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Test Session Error Groups API from Checkly — 4 operation(s) for test session error groups.
   name: Checkly Test Session Error Groups API
   slug: checkly-test-session-error-groups-api
-- description: The Test sessions API from Checkly — 7 operation(s) for test sessions.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Test sessions API from Checkly — 7 operation(s) for test sessions.
   name: Checkly Test sessions API
   slug: checkly-test-sessions-api
-- description: The Triggers API from Checkly — 9 operation(s) for triggers.
+- baseURL: https://api.checklyhq.com
+  baseurl_source: declared
+  description: The Triggers API from Checkly — 9 operation(s) for triggers.
   name: Checkly Triggers API
   slug: checkly-triggers-api
 artifact_total: 73
@@ -467,23 +549,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.9
+  composite: 71.8
   coverage:
     artifact_dirs: 25
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.5
+  delta: 0.9
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
     contract_governance: 18.2
-    contract_quality: 61.9
+    contract_quality: 65.2
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 86.8
-  previous_composite: 64.4
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -495,8 +577,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/screenshots/checkly-2026-06-20T174251.png
 security:
 - kind: authentication

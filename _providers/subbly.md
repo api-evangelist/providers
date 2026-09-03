@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: In-app webhook platform that notifies external and internal services of Subbly events (order and subscription lifecycle) with configurable conditions and variables. Webhooks are configured in the Subb
   name: Subbly Webhooks
   slug: subbly-webhooks
-- description: Cart and checkout operations (modeled from the SDK and SubblyCart.js).
+- baseURL: https://api.subbly.example/v1
+  baseurl_source: spec
+  description: Cart and checkout operations (modeled from the SDK and SubblyCart.js).
   name: Subbly Cart API
   slug: subbly-cart-api
-- description: Customer accounts, addresses, and payment methods (modeled from the SDK).
+- baseURL: https://api.subbly.example/v1
+  baseurl_source: spec
+  description: Customer accounts, addresses, and payment methods (modeled from the SDK).
   name: Subbly Customers API
   slug: subbly-customers-api
-- description: Storefront products and bundles (modeled from the SDK).
+- baseURL: https://api.subbly.example/v1
+  baseurl_source: spec
+  description: Storefront products and bundles (modeled from the SDK).
   name: Subbly Products API
   slug: subbly-products-api
-- description: Customer subscriptions and preferences (modeled from the SDK).
+- baseURL: https://api.subbly.example/v1
+  baseurl_source: spec
+  description: Customer subscriptions and preferences (modeled from the SDK).
   name: Subbly Subscriptions API
   slug: subbly-subscriptions-api
 artifact_total: 18
@@ -191,7 +199,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/screenshots/subbly-2026-08-17T082145.png
 security:

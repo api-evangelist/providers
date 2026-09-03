@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 3
 apis:
-- description: The Account API from ScreenshotOne — 1 operation(s) for account.
+- baseURL: https://api.screenshotone.com
+  baseurl_source: spec
+  description: The Account API from ScreenshotOne — 1 operation(s) for account.
   name: ScreenshotOne Account API
   slug: screenshotone-account-api
-- description: The Animations API from ScreenshotOne — 1 operation(s) for animations.
+- baseURL: https://api.screenshotone.com
+  baseurl_source: spec
+  description: The Animations API from ScreenshotOne — 1 operation(s) for animations.
   name: ScreenshotOne Animations API
   slug: screenshotone-animations-api
-- description: The Screenshots API from ScreenshotOne — 1 operation(s) for screenshots.
+- baseURL: https://api.screenshotone.com
+  baseurl_source: spec
+  description: The Screenshots API from ScreenshotOne — 1 operation(s) for screenshots.
   name: ScreenshotOne Screenshots API
   slug: screenshotone-screenshots-api
 artifact_total: 16
@@ -171,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/screenshots/screenshotone-2026-06-20T193605.png
 security:

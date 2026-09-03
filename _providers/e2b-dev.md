@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -50,43 +50,69 @@ apis:
 - description: Sandbox flavor that boots a Linux desktop environment with a noVNC stream and exposes mouse, keyboard, screenshot, and window-management primitives. Built for computer-use agents pairing vision-capabl
   name: E2B Desktop Sandbox SDK
   slug: e2b-desktop-api
-- description: The access-tokens API from E2B — 2 operation(s) for access-tokens.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The access-tokens API from E2B — 2 operation(s) for access-tokens.
   name: E2B access-tokens API
   slug: e2b-dev-access-tokens-api
-- description: The admin API from E2B — 4 operation(s) for admin.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The admin API from E2B — 4 operation(s) for admin.
   name: E2B admin API
   slug: e2b-dev-admin-api
-- description: The api-keys API from E2B — 2 operation(s) for api-keys.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The api-keys API from E2B — 2 operation(s) for api-keys.
   name: E2B api-keys API
   slug: e2b-dev-api-keys-api
-- description: The auth API from E2B — 3 operation(s) for auth.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The auth API from E2B — 3 operation(s) for auth.
   name: E2B auth API
   slug: e2b-dev-auth-api
-- description: The events API from E2B — 2 operation(s) for events.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The events API from E2B — 2 operation(s) for events.
   name: E2B events API
   slug: e2b-dev-events-api
-- description: The Health API from E2B — 1 operation(s) for health.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The Health API from E2B — 1 operation(s) for health.
   name: E2B Health API
   slug: e2b-dev-health-api
-- description: The sandboxes API from E2B — 13 operation(s) for sandboxes.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The sandboxes API from E2B — 13 operation(s) for sandboxes.
   name: E2B sandboxes API
   slug: e2b-dev-sandboxes-api
-- description: The snapshots API from E2B — 1 operation(s) for snapshots.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The snapshots API from E2B — 1 operation(s) for snapshots.
   name: E2B snapshots API
   slug: e2b-dev-snapshots-api
-- description: The tags API from E2B — 2 operation(s) for tags.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The tags API from E2B — 2 operation(s) for tags.
   name: E2B tags API
   slug: e2b-dev-tags-api
-- description: The templates API from E2B — 11 operation(s) for templates.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The templates API from E2B — 11 operation(s) for templates.
   name: E2B templates API
   slug: e2b-dev-templates-api
-- description: The volumes API from E2B — 5 operation(s) for volumes.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The volumes API from E2B — 5 operation(s) for volumes.
   name: E2B volumes API
   slug: e2b-dev-volumes-api
-- description: The webhooks API from E2B — 2 operation(s) for webhooks.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The webhooks API from E2B — 2 operation(s) for webhooks.
   name: E2B webhooks API
   slug: e2b-dev-webhooks-api
-- description: The E2B Sandbox Events And Webhooks API API from E2B — 0 operation(s) for e2b sandbox events and webhooks api.
+- baseURL: https://api.e2b.app
+  baseurl_source: declared
+  description: The E2B Sandbox Events And Webhooks API API from E2B — 0 operation(s) for e2b sandbox events and webhooks api.
   name: E2B E2B Sandbox Events And Webhooks API
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
 artifact_total: 73
@@ -475,7 +501,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:

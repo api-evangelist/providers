@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for cloud image recognition: target management endpoints (/targets/, /target/<id>, /grade/detection/, /ping) and a recognition endpoint (/search), plus a token exchange service. Uses per'
@@ -65,7 +65,7 @@ score:
       reason: never_enriched
   previous_composite: 7.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyar-crs-api/refs/heads/main/screenshots/easyar-crs-api-2026-07-25T212712.png
 slug: easyar-crs-api

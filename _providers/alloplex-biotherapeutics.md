@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Alloplex Biotherapeutics Discovery API
   slug: alloplex-biotherapeutics-discovery-api
-- description: Media library (225 attachments at harvest time), including PDF executive summaries and press assets.
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Media library (225 attachments at harvest time), including PDF executive summaries and press assets.
   name: Alloplex Biotherapeutics Media API
   slug: alloplex-biotherapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for alloplexbio.com URLs.
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for alloplexbio.com URLs.
   name: Alloplex Biotherapeutics Oembed API
   slug: alloplex-biotherapeutics-oembed-api
-- description: Corporate pages (19 published at harvest time) — About, Investors, Scientists, Information for Patients, Media and Press, Media Kit, FAQ, Releases and Updates, Terms of use, Privacy Policy, Contact, a
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages (19 published at harvest time) — About, Investors, Scientists, Information for Patients, Media and Press, Media Kit, FAQ, Releases and Updates, Terms of use, Privacy Policy, Contact, a
   name: Alloplex Biotherapeutics Pages API
   slug: alloplex-biotherapeutics-pages-api
-- description: Press releases, scientific and clinical news, conference notes and opinion pieces (61 published at harvest time). Unlike many corporate WordPress deployments, content.rendered and excerpt.rendered are
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Press releases, scientific and clinical news, conference notes and opinion pieces (61 published at harvest time). Unlike many corporate WordPress deployments, content.rendered and excerpt.rendered are
   name: Alloplex Biotherapeutics Posts API
   slug: alloplex-biotherapeutics-posts-api
-- description: Cross-content search across published posts and pages.
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published posts and pages.
   name: Alloplex Biotherapeutics Search API
   slug: alloplex-biotherapeutics-search-api
-- description: Categories and tags. Categories holds 11 terms (company-news, clinical-news, scientific-news, research-news, conferences, media-coverage, opinion, backgrounder, diary-marker, audio-video, uncategorize
+- baseURL: https://alloplexbio.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Categories holds 11 terms (company-news, clinical-news, scientific-news, research-news, conferences, media-coverage, opinion, backgrounder, diary-marker, audio-video, uncategorize
   name: Alloplex Biotherapeutics Taxonomy API
   slug: alloplex-biotherapeutics-taxonomy-api
 artifact_total: 18
@@ -258,7 +283,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloplex-biotherapeutics/refs/heads/main/screenshots/alloplex-biotherapeutics-2026-08-07T161225.png
 security:

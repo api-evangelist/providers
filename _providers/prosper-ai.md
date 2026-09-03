@@ -34,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The API Keys API from Prosper AI — 1 operation(s) for api keys.
   name: Prosper AI API Keys API
   slug: prosper-ai-api-keys-api
-- description: The Call Logs API from Prosper AI — 2 operation(s) for call logs.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The Call Logs API from Prosper AI — 2 operation(s) for call logs.
   name: Prosper AI Call Logs API
   slug: prosper-ai-call-logs-api
-- description: The Campaigns API from Prosper AI — 7 operation(s) for campaigns.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The Campaigns API from Prosper AI — 7 operation(s) for campaigns.
   name: Prosper AI Campaigns API
   slug: prosper-ai-campaigns-api
-- description: The Live Calls API from Prosper AI — 1 operation(s) for live calls.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The Live Calls API from Prosper AI — 1 operation(s) for live calls.
   name: Prosper AI Live Calls API
   slug: prosper-ai-live-calls-api
-- description: The Status API from Prosper AI — 1 operation(s) for status.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The Status API from Prosper AI — 1 operation(s) for status.
   name: Prosper AI Status API
   slug: prosper-ai-status-api
-- description: The Targets API from Prosper AI — 1 operation(s) for targets.
+- baseURL: https://voice.getprosperapp.com
+  baseurl_source: declared
+  description: The Targets API from Prosper AI — 1 operation(s) for targets.
   name: Prosper AI Targets API
   slug: prosper-ai-targets-api
 artifact_total: 17
@@ -216,7 +228,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosper-ai/refs/heads/main/screenshots/prosper-ai-2026-08-17T081402.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 1
 apis:
-- description: The Datasets API from Segments.ai — 4 operation(s) for datasets.
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Datasets API from Segments.ai — 4 operation(s) for datasets.
   name: Segments.ai Datasets API
   slug: segments-ai-datasets-api
-- description: The Labels API from Segments.ai — 1 operation(s) for labels.
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Labels API from Segments.ai — 1 operation(s) for labels.
   name: Segments.ai Labels API
   slug: segments-ai-labels-api
-- description: The Labelsets API from Segments.ai — 2 operation(s) for labelsets.
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Labelsets API from Segments.ai — 2 operation(s) for labelsets.
   name: Segments.ai Labelsets API
   slug: segments-ai-labelsets-api
-- description: The Releases API from Segments.ai — 2 operation(s) for releases.
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Releases API from Segments.ai — 2 operation(s) for releases.
   name: Segments.ai Releases API
   slug: segments-ai-releases-api
-- description: The Samples API from Segments.ai — 2 operation(s) for samples.
+- baseURL: https://api.segments.ai
+  baseurl_source: declared
+  description: The Samples API from Segments.ai — 2 operation(s) for samples.
   name: Segments.ai Samples API
   slug: segments-ai-samples-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/segments-ai/refs/heads/main/screenshots/segments-ai-2026-09-02T154805.png
 security:
 - kind: authentication
   name: Segments Ai Authentication

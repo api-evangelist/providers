@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 12 operations · 8 acting
 api_count: 1
 apis:
-- description: Device data storage and retrieval
+- baseURL: https://dash.mongoose-os.com/api/v2
+  baseurl_source: declared
+  description: Device data storage and retrieval
   name: Cesanta Data API
   slug: cesanta-data-api
-- description: Device registration, updates, RPC, and OTA
+- baseURL: https://dash.mongoose-os.com/api/v2
+  baseurl_source: declared
+  description: Device registration, updates, RPC, and OTA
   name: Cesanta Devices API
   slug: cesanta-devices-api
-- description: API key management
+- baseURL: https://dash.mongoose-os.com/api/v2
+  baseurl_source: declared
+  description: API key management
   name: Cesanta Keys API
   slug: cesanta-keys-api
-- description: Notification logs
+- baseURL: https://dash.mongoose-os.com/api/v2
+  baseurl_source: declared
+  description: Notification logs
   name: Cesanta Logs API
   slug: cesanta-logs-api
 artifact_total: 13
@@ -224,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cesanta/refs/heads/main/screenshots/cesanta-2026-07-25T205012.png
 security:

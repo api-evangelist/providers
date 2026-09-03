@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 18 operations · 1 acting
 api_count: 1
 apis:
-- description: The Exchange API from GTE — 1 operation(s) for exchange.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Exchange API from GTE — 1 operation(s) for exchange.
   name: GTE Exchange API
   slug: gte-exchange-api
-- description: The Health API from GTE — 1 operation(s) for health.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Health API from GTE — 1 operation(s) for health.
   name: GTE Health API
   slug: gte-health-api
-- description: The Info API from GTE — 1 operation(s) for info.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Info API from GTE — 1 operation(s) for info.
   name: GTE Info API
   slug: gte-info-api
-- description: The Markets API from GTE — 6 operation(s) for markets.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Markets API from GTE — 6 operation(s) for markets.
   name: GTE Markets API
   slug: gte-markets-api
-- description: The Tokens API from GTE — 3 operation(s) for tokens.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Tokens API from GTE — 3 operation(s) for tokens.
   name: GTE Tokens API
   slug: gte-tokens-api
-- description: The Users API from GTE — 6 operation(s) for users.
+- baseURL: https://api-testnet.gte.xyz/v1
+  baseurl_source: declared
+  description: The Users API from GTE — 6 operation(s) for users.
   name: GTE Users API
   slug: gte-users-api
 artifact_total: 17
@@ -242,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/screenshots/gte-2026-07-25T220408.png
 security:

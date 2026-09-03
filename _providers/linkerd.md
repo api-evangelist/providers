@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -49,31 +49,49 @@ apis:
 - description: 'The Linkerd Multicluster extension provides Kubernetes CRDs and a gateway component that enables transparent, secure cross-cluster service communication. It uses mTLS to authenticate workloads across '
   name: Linkerd Multicluster API
   slug: multicluster-api
-- description: API resource discovery
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: API resource discovery
   name: Linkerd Discovery API
   slug: linkerd-discovery-api
-- description: Connection topology between resources
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Connection topology between resources
   name: Linkerd Edges API
   slug: linkerd-edges-api
-- description: Multicluster gateway metrics
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Multicluster gateway metrics
   name: Linkerd Gateways API
   slug: linkerd-gateways-api
-- description: Health and readiness check endpoints
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Health and readiness check endpoints
   name: Linkerd Health API
   slug: linkerd-health-api
-- description: Proxy lifecycle management endpoints
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Proxy lifecycle management endpoints
   name: Linkerd Lifecycle API
   slug: linkerd-lifecycle-api
-- description: Prometheus metrics endpoints
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Prometheus metrics endpoints
   name: Linkerd Metrics API
   slug: linkerd-metrics-api
-- description: Per-route metrics
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Per-route metrics
   name: Linkerd Routes API
   slug: linkerd-routes-api
-- description: Resource statistics and golden metrics
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Resource statistics and golden metrics
   name: Linkerd Statistics API
   slug: linkerd-statistics-api
-- description: Real-time traffic inspection
+- baseURL: http://localhost:4191
+  baseurl_source: declared
+  description: Real-time traffic inspection
   name: Linkerd Tap API
   slug: linkerd-tap-api
 artifact_total: 36
@@ -308,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/screenshots/linkerd-2026-06-20T184545.png
 security:

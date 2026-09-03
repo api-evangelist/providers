@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 107 operations · 60 acting · 12 human-in-the-loop
 api_count: 2
 apis:
-- description: The connect API from Smithery — 12 operation(s) for connect.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The connect API from Smithery — 12 operation(s) for connect.
   name: Smithery connect API
   slug: smithery-connect-api
-- description: The connect.mcp API from Smithery — 1 operation(s) for connect.mcp.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The connect.mcp API from Smithery — 1 operation(s) for connect.mcp.
   name: Smithery connect.mcp API
   slug: smithery-connect-mcp-api
-- description: The domains API from Smithery — 2 operation(s) for domains.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The domains API from Smithery — 2 operation(s) for domains.
   name: Smithery domains API
   slug: smithery-domains-api
-- description: The Health API from Smithery — 1 operation(s) for health.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The Health API from Smithery — 1 operation(s) for health.
   name: Smithery Health API
   slug: smithery-health-api
-- description: The namespaces API from Smithery — 3 operation(s) for namespaces.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The namespaces API from Smithery — 3 operation(s) for namespaces.
   name: Smithery namespaces API
   slug: smithery-namespaces-api
-- description: The organizations API from Smithery — 2 operation(s) for organizations.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The organizations API from Smithery — 2 operation(s) for organizations.
   name: Smithery organizations API
   slug: smithery-organizations-api
-- description: Browse the MCP server registry, manage server configuration, and handle deployments
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: Browse the MCP server registry, manage server configuration, and handle deployments
   name: Smithery servers API
   slug: smithery-servers-api
-- description: Discover and search reusable prompt-based skills for MCP servers
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: Discover and search reusable prompt-based skills for MCP servers
   name: Smithery skills API
   slug: smithery-skills-api
-- description: The tokens API from Smithery — 1 operation(s) for tokens.
+- baseURL: https://api.smithery.ai
+  baseurl_source: declared
+  description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery tokens API
   slug: smithery-tokens-api
 artifact_total: 42
@@ -352,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithery/refs/heads/main/screenshots/smithery-2026-08-17T081933.png
 security:

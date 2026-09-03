@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -46,37 +46,59 @@ apis:
 - description: 'REST API for managing security standards, controls, findings, insights, automation rules, and member account configuration in AWS Security Hub. Requests are authenticated with AWS Signature Version 4 '
   name: AWS Security Hub CSPM API
   slug: cspm-api
-- description: The Action Targets API from AWS Security Hub — 1 operation(s) for action targets.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Action Targets API from AWS Security Hub — 1 operation(s) for action targets.
   name: AWS Security Hub Action Targets API
   slug: aws-security-hub-action-targets-api
-- description: The Automation Rules API from AWS Security Hub — 4 operation(s) for automation rules.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Automation Rules API from AWS Security Hub — 4 operation(s) for automation rules.
   name: AWS Security Hub Automation Rules API
   slug: aws-security-hub-automation-rules-api
-- description: The Configuration Policies API from AWS Security Hub — 3 operation(s) for configuration policies.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Configuration Policies API from AWS Security Hub — 3 operation(s) for configuration policies.
   name: AWS Security Hub Configuration Policies API
   slug: aws-security-hub-configuration-policies-api
-- description: The Controls API from AWS Security Hub — 3 operation(s) for controls.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Controls API from AWS Security Hub — 3 operation(s) for controls.
   name: AWS Security Hub Controls API
   slug: aws-security-hub-controls-api
-- description: The Findings API from AWS Security Hub — 3 operation(s) for findings.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Findings API from AWS Security Hub — 3 operation(s) for findings.
   name: AWS Security Hub Findings API
   slug: aws-security-hub-findings-api
-- description: The Hub API from AWS Security Hub — 1 operation(s) for hub.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Hub API from AWS Security Hub — 1 operation(s) for hub.
   name: AWS Security Hub Hub API
   slug: aws-security-hub-hub-api
-- description: The Insights API from AWS Security Hub — 4 operation(s) for insights.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Insights API from AWS Security Hub — 4 operation(s) for insights.
   name: AWS Security Hub Insights API
   slug: aws-security-hub-insights-api
-- description: The Invitations API from AWS Security Hub — 3 operation(s) for invitations.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Invitations API from AWS Security Hub — 3 operation(s) for invitations.
   name: AWS Security Hub Invitations API
   slug: aws-security-hub-invitations-api
-- description: The Members API from AWS Security Hub — 4 operation(s) for members.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Members API from AWS Security Hub — 4 operation(s) for members.
   name: AWS Security Hub Members API
   slug: aws-security-hub-members-api
-- description: The Standards API from AWS Security Hub — 4 operation(s) for standards.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Standards API from AWS Security Hub — 4 operation(s) for standards.
   name: AWS Security Hub Standards API
   slug: aws-security-hub-standards-api
-- description: The Tags API from AWS Security Hub — 1 operation(s) for tags.
+- baseURL: https://securityhub.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from AWS Security Hub — 1 operation(s) for tags.
   name: AWS Security Hub Tags API
   slug: aws-security-hub-tags-api
 artifact_total: 30
@@ -201,7 +223,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-security-hub/refs/heads/main/screenshots/aws-security-hub-2026-06-20T172802.png
 security:

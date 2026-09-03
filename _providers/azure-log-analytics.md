@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 9 acting
 api_count: 5
 apis:
-- description: Send log data to Log Analytics workspaces
+- baseURL: https://api.loganalytics.azure.com/v1
+  baseurl_source: declared
+  description: Send log data to Log Analytics workspaces
   name: Azure Log Analytics Ingestion API
   slug: azure-log-analytics-ingestion-api
-- description: Execute KQL queries against Log Analytics workspaces
+- baseURL: https://api.loganalytics.azure.com/v1
+  baseurl_source: declared
+  description: Execute KQL queries against Log Analytics workspaces
   name: Azure Log Analytics Query API
   slug: azure-log-analytics-query-api
-- description: Manage saved KQL queries
+- baseURL: https://api.loganalytics.azure.com/v1
+  baseurl_source: declared
+  description: Manage saved KQL queries
   name: Azure Log Analytics Saved Searches API
   slug: azure-log-analytics-saved-searches-api
-- description: Manage workspace tables
+- baseURL: https://api.loganalytics.azure.com/v1
+  baseurl_source: declared
+  description: Manage workspace tables
   name: Azure Log Analytics Tables API
   slug: azure-log-analytics-tables-api
-- description: Manage Log Analytics workspaces
+- baseURL: https://api.loganalytics.azure.com/v1
+  baseurl_source: declared
+  description: Manage Log Analytics workspaces
   name: Azure Log Analytics Workspaces API
   slug: azure-log-analytics-workspaces-api
 arazzos:
@@ -478,7 +488,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -491,7 +501,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 56.3
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -500,7 +510,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/screenshots/azure-log-analytics-2026-07-25T202128.png
 security:

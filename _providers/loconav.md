@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: <p>With our Alert subscription APIs, you can manage the alerts effectively on a platform</p>
   name: LocoNav Alert Subscriptions API
   slug: loconav-alert-subscriptions-api
-- description: The Alerts API from LocoNav — 2 operation(s) for alerts.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Alerts API from LocoNav — 2 operation(s) for alerts.
   name: LocoNav Alerts API
   slug: loconav-alerts-api
-- description: The Alerts Subscriptions API from LocoNav — 1 operation(s) for alerts subscriptions.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Alerts Subscriptions API from LocoNav — 1 operation(s) for alerts subscriptions.
   name: LocoNav Alerts Subscriptions API
   slug: loconav-alerts-subscriptions-api
-- description: <p>Efficient driver management is essential for the optimal operation of a fleet.</p> <p>Leveraging the capabilities of LocoNav REST APIs, fleet managers can seamlessly create, update, and retrieve de
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: <p>Efficient driver management is essential for the optimal operation of a fleet.</p> <p>Leveraging the capabilities of LocoNav REST APIs, fleet managers can seamlessly create, update, and retrieve de
   name: LocoNav Drivers API
   slug: loconav-drivers-api
-- description: The Mobilization API from LocoNav — 2 operation(s) for mobilization.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Mobilization API from LocoNav — 2 operation(s) for mobilization.
   name: LocoNav Mobilization API
   slug: loconav-mobilization-api
-- description: <p>A geofence is a virtual boundary, often a <strong>rectangular bounding box</strong>, created using mapping software with specified latitude and longitude coordinates. Integrated with fleet manageme
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: <p>A geofence is a virtual boundary, often a <strong>rectangular bounding box</strong>, created using mapping software with specified latitude and longitude coordinates. Integrated with fleet manageme
   name: LocoNav Polygon (Geofence) API
   slug: loconav-polygon-geofence-api
-- description: The Trips API from LocoNav — 3 operation(s) for trips.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Trips API from LocoNav — 3 operation(s) for trips.
   name: LocoNav Trips API
   slug: loconav-trips-api
-- description: The Users API from LocoNav — 1 operation(s) for users.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Users API from LocoNav — 1 operation(s) for users.
   name: LocoNav Users API
   slug: loconav-users-api
-- description: <p>Loconav's Vehicle APIs offer developers a powerful toolkit for real-time fleet management. The Fetch Vehicle Details API provides comprehensive vehicle insights, while the Last Known Stats API deli
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: <p>Loconav's Vehicle APIs offer developers a powerful toolkit for real-time fleet management. The Fetch Vehicle Details API provides comprehensive vehicle insights, while the Last Known Stats API deli
   name: LocoNav Vehicles API
   slug: loconav-vehicles-api
-- description: <p>Thes APIs allows you to access telematics data for vehicles, enabling you to retrieve real-time information and history about their status, location, and various sensor readings.</p>
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: <p>Thes APIs allows you to access telematics data for vehicles, enabling you to retrieve real-time information and history about their status, location, and various sensor readings.</p>
   name: LocoNav Vehicles / Telematics API
   slug: loconav-vehicles-telematics-api
-- description: The Video Telematics VT / Live Stream API from LocoNav — 3 operation(s) for video telematics vt / live stream.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Video Telematics VT / Live Stream API from LocoNav — 3 operation(s) for video telematics vt / live stream.
   name: LocoNav Video Telematics VT / Live Stream API
   slug: loconav-video-telematics-vt-live-stream-api
-- description: The Video Telematics VT / Videos API from LocoNav — 2 operation(s) for video telematics vt / videos.
+- baseURL: https://api.a.loconav.com/integration/api/v1
+  baseurl_source: declared
+  description: The Video Telematics VT / Videos API from LocoNav — 2 operation(s) for video telematics vt / videos.
   name: LocoNav Video Telematics VT / Videos API
   slug: loconav-video-telematics-vt-videos-api
 artifact_total: 31
@@ -249,7 +273,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -259,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     conformance: first-party
     contracts:
@@ -270,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: The Entity API API from Golden Recursion — 2 operation(s) for entity api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Entity API API from Golden Recursion — 2 operation(s) for entity api.
   name: Golden Recursion Entity API API
   slug: golden-recursion-entity-api-api
-- description: The Query API API from Golden Recursion — 2 operation(s) for query api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Query API API from Golden Recursion — 2 operation(s) for query api.
   name: Golden Recursion Query API API
   slug: golden-recursion-query-api-api
-- description: The Schema API API from Golden Recursion — 4 operation(s) for schema api.
+- baseURL: https://golden.com/api/v2/public
+  baseurl_source: declared
+  description: The Schema API API from Golden Recursion — 4 operation(s) for schema api.
   name: Golden Recursion Schema API API
   slug: golden-recursion-schema-api-api
 arazzos:
@@ -250,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:

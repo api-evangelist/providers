@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations
 api_count: 3
 apis:
-- description: Endpoints for exporting property search results in CSV format.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for exporting property search results in CSV format.
   name: Redfin CSV Export API
   slug: redfin-csv-export-api
-- description: Downloadable housing market tracker datasets segmented by region level.
+- baseURL: https://redfin-public-data.s3.us-west-2.amazonaws.com
+  baseurl_source: spec
+  description: Downloadable housing market tracker datasets segmented by region level.
   name: Redfin Market Tracker API
   slug: redfin-market-tracker-api
-- description: Endpoints for regional aggregate and historical market trends.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for regional aggregate and historical market trends.
   name: Redfin Market Trends API
   slug: redfin-market-trends-api
-- description: Endpoints for neighborhood statistics, commute data, and area info.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for neighborhood statistics, commute data, and area info.
   name: Redfin Neighborhood API
   slug: redfin-neighborhood-api
-- description: Endpoints for retrieving detailed information about a specific property.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for retrieving detailed information about a specific property.
   name: Redfin Property Details API
   slug: redfin-property-details-api
-- description: Endpoints for searching properties by location, region, and filters.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for searching properties by location, region, and filters.
   name: Redfin Search API
   slug: redfin-search-api
-- description: Endpoints for automated valuation model (AVM) data and estimates.
+- baseURL: https://www.redfin.com/stingray
+  baseurl_source: spec
+  description: Endpoints for automated valuation model (AVM) data and estimates.
   name: Redfin Valuation API
   slug: redfin-valuation-api
 artifact_total: 34
@@ -269,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/screenshots/redfin-2026-08-17T125152.png
 security:

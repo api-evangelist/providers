@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Retrieve preprint metadata by date interval or DOI
+- baseURL: https://api.medrxiv.org
+  baseurl_source: declared
+  description: Retrieve preprint metadata by date interval or DOI
   name: medRxiv Details API
   slug: medrxiv-details-api
-- description: Retrieve publication records linking preprints to published articles
+- baseURL: https://api.medrxiv.org
+  baseurl_source: declared
+  description: Retrieve publication records linking preprints to published articles
   name: medRxiv Publications API
   slug: medrxiv-publications-api
-- description: Retrieve usage statistics for preprints
+- baseURL: https://api.medrxiv.org
+  baseurl_source: declared
+  description: Retrieve usage statistics for preprints
   name: medRxiv Usage API
   slug: medrxiv-usage-api
 artifact_total: 18
@@ -184,7 +190,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medrxiv/refs/heads/main/screenshots/medrxiv-2026-06-20T185122.png
 security:

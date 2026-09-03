@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Florist One provides a free REST API for searching available flower products, retrieving product details and imagery, placing orders for delivery through the Florist One network, and checking order st
   name: Florist One API
   slug: florist-one-api
-- description: The Affiliate API from Florist One — 1 operation(s) for affiliate.
+- baseURL: https://www.floristone.com/api/
+  baseurl_source: declared
+  description: The Affiliate API from Florist One — 1 operation(s) for affiliate.
   name: Florist One Affiliate API
   slug: florist-one-affiliate-api
-- description: The FlowerShop API from Florist One — 5 operation(s) for flowershop.
+- baseURL: https://www.floristone.com/api/
+  baseurl_source: declared
+  description: The FlowerShop API from Florist One — 5 operation(s) for flowershop.
   name: Florist One FlowerShop API
   slug: florist-one-flowershop-api
-- description: The GiftBaskets API from Florist One — 3 operation(s) for giftbaskets.
+- baseURL: https://www.floristone.com/api/
+  baseurl_source: declared
+  description: The GiftBaskets API from Florist One — 3 operation(s) for giftbaskets.
   name: Florist One GiftBaskets API
   slug: florist-one-giftbaskets-api
-- description: The ShoppingCart API from Florist One — 1 operation(s) for shoppingcart.
+- baseURL: https://www.floristone.com/api/
+  baseurl_source: declared
+  description: The ShoppingCart API from Florist One — 1 operation(s) for shoppingcart.
   name: Florist One ShoppingCart API
   slug: florist-one-shoppingcart-api
 artifact_total: 17
@@ -168,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

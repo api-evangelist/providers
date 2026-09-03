@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,10 +58,14 @@ apis:
 - description: Provider-facing mobile application backed by Natera's private internal services for managing orders and results on the go. No public API surface is documented for the backend.
   name: Natera Provider Mobile App
   slug: natera-provider-mobile-app
-- description: Test order submission (modeled on the documented order workflow).
+- baseURL: https://www.natera.com
+  baseurl_source: spec
+  description: Test order submission (modeled on the documented order workflow).
   name: Natera Orders API
   slug: natera-orders-api
-- description: Test results retrieval (modeled on the documented results workflow).
+- baseURL: https://www.natera.com
+  baseurl_source: spec
+  description: Test results retrieval (modeled on the documented results workflow).
   name: Natera Results API
   slug: natera-results-api
 artifact_total: 16
@@ -173,7 +177,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/screenshots/natera-2026-06-20T185957.png
 security:

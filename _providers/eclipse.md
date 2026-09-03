@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,28 +58,44 @@ apis:
 - description: REST API providing access to news, events, and announcements from the Eclipse Foundation newsroom.
   name: Eclipse Newsroom REST API
   slug: newsroom-api
-- description: The Eclipse Marketplace REST API API from Eclipse Foundation — 1 operation(s) for eclipse marketplace rest api.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Eclipse Marketplace REST API API from Eclipse Foundation — 1 operation(s) for eclipse marketplace rest api.
   name: Eclipse Foundation Eclipse Marketplace REST API API
   slug: eclipse-eclipse-marketplace-rest-api-api
-- description: The Favorites API from Eclipse Foundation — 1 operation(s) for favorites.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Favorites API from Eclipse Foundation — 1 operation(s) for favorites.
   name: Eclipse Foundation Favorites API
   slug: eclipse-favorites-api
-- description: The Featured API from Eclipse Foundation — 1 operation(s) for featured.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Featured API from Eclipse Foundation — 1 operation(s) for featured.
   name: Eclipse Foundation Featured API
   slug: eclipse-featured-api
-- description: The Node API from Eclipse Foundation — 1 operation(s) for node.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Node API from Eclipse Foundation — 1 operation(s) for node.
   name: Eclipse Foundation Node API
   slug: eclipse-node-api
-- description: The Popular API from Eclipse Foundation — 1 operation(s) for popular.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Popular API from Eclipse Foundation — 1 operation(s) for popular.
   name: Eclipse Foundation Popular API
   slug: eclipse-popular-api
-- description: The Recent API from Eclipse Foundation — 1 operation(s) for recent.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Recent API from Eclipse Foundation — 1 operation(s) for recent.
   name: Eclipse Foundation Recent API
   slug: eclipse-recent-api
-- description: The Search API from Eclipse Foundation — 1 operation(s) for search.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Search API from Eclipse Foundation — 1 operation(s) for search.
   name: Eclipse Foundation Search API
   slug: eclipse-search-api
-- description: The Taxonomy API from Eclipse Foundation — 1 operation(s) for taxonomy.
+- baseURL: https://marketplace.eclipse.org/api/p
+  baseurl_source: declared
+  description: The Taxonomy API from Eclipse Foundation — 1 operation(s) for taxonomy.
   name: Eclipse Foundation Taxonomy API
   slug: eclipse-taxonomy-api
 artifact_total: 29
@@ -215,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse/refs/heads/main/screenshots/eclipse-2026-06-20T180424.png
 security:

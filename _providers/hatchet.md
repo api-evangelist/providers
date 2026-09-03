@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 141 operations · 59 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The API Token API from Hatchet — 2 operation(s) for api token.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The API Token API from Hatchet — 2 operation(s) for api token.
   name: Hatchet API Token API
   slug: hatchet-api-token-api
-- description: The CEL API from Hatchet — 1 operation(s) for cel.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The CEL API from Hatchet — 1 operation(s) for cel.
   name: Hatchet CEL API
   slug: hatchet-cel-api
-- description: The Durable Tasks API from Hatchet — 1 operation(s) for durable tasks.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Durable Tasks API from Hatchet — 1 operation(s) for durable tasks.
   name: Hatchet Durable Tasks API
   slug: hatchet-durable-tasks-api
-- description: The Event API from Hatchet — 11 operation(s) for event.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Event API from Hatchet — 11 operation(s) for event.
   name: Hatchet Event API
   slug: hatchet-event-api
-- description: The Feature Flags API from Hatchet — 1 operation(s) for feature flags.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Feature Flags API from Hatchet — 1 operation(s) for feature flags.
   name: Hatchet Feature Flags API
   slug: hatchet-feature-flags-api
-- description: The Filter API from Hatchet — 2 operation(s) for filter.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Filter API from Hatchet — 2 operation(s) for filter.
   name: Hatchet Filter API
   slug: hatchet-filter-api
-- description: The Github API from Hatchet — 1 operation(s) for github.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Github API from Hatchet — 1 operation(s) for github.
   name: Hatchet Github API
   slug: hatchet-github-api
-- description: The Healthcheck API from Hatchet — 2 operation(s) for healthcheck.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Healthcheck API from Hatchet — 2 operation(s) for healthcheck.
   name: Hatchet Healthcheck API
   slug: hatchet-healthcheck-api
-- description: The Log API from Hatchet — 3 operation(s) for log.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Log API from Hatchet — 3 operation(s) for log.
   name: Hatchet Log API
   slug: hatchet-log-api
-- description: The Metadata API from Hatchet — 3 operation(s) for metadata.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Metadata API from Hatchet — 3 operation(s) for metadata.
   name: Hatchet Metadata API
   slug: hatchet-metadata-api
-- description: The Monitoring API from Hatchet — 1 operation(s) for monitoring.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Monitoring API from Hatchet — 1 operation(s) for monitoring.
   name: Hatchet Monitoring API
   slug: hatchet-monitoring-api
-- description: The Observability API from Hatchet — 1 operation(s) for observability.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Observability API from Hatchet — 1 operation(s) for observability.
   name: Hatchet Observability API
   slug: hatchet-observability-api
-- description: The Rate Limits API from Hatchet — 1 operation(s) for rate limits.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Rate Limits API from Hatchet — 1 operation(s) for rate limits.
   name: Hatchet Rate Limits API
   slug: hatchet-rate-limits-api
-- description: The Slack API from Hatchet — 2 operation(s) for slack.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Slack API from Hatchet — 2 operation(s) for slack.
   name: Hatchet Slack API
   slug: hatchet-slack-api
-- description: The SNS API from Hatchet — 2 operation(s) for sns.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The SNS API from Hatchet — 2 operation(s) for sns.
   name: Hatchet SNS API
   slug: hatchet-sns-api
-- description: The Step Run API from Hatchet — 7 operation(s) for step run.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Step Run API from Hatchet — 7 operation(s) for step run.
   name: Hatchet Step Run API
   slug: hatchet-step-run-api
-- description: The Task API from Hatchet — 8 operation(s) for task.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Task API from Hatchet — 8 operation(s) for task.
   name: Hatchet Task API
   slug: hatchet-task-api
-- description: The Tenant API from Hatchet — 15 operation(s) for tenant.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Tenant API from Hatchet — 15 operation(s) for tenant.
   name: Hatchet Tenant API
   slug: hatchet-tenant-api
-- description: The Tenants API from Hatchet — 2 operation(s) for tenants.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Tenants API from Hatchet — 2 operation(s) for tenants.
   name: Hatchet Tenants API
   slug: hatchet-tenants-api
-- description: The User API from Hatchet — 12 operation(s) for user.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The User API from Hatchet — 12 operation(s) for user.
   name: Hatchet User API
   slug: hatchet-user-api
-- description: The Version API from Hatchet — 1 operation(s) for version.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Version API from Hatchet — 1 operation(s) for version.
   name: Hatchet Version API
   slug: hatchet-version-api
-- description: The Webhook API from Hatchet — 2 operation(s) for webhook.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Webhook API from Hatchet — 2 operation(s) for webhook.
   name: Hatchet Webhook API
   slug: hatchet-webhook-api
-- description: The Webhook Workers API from Hatchet — 2 operation(s) for webhook workers.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Webhook Workers API from Hatchet — 2 operation(s) for webhook workers.
   name: Hatchet Webhook Workers API
   slug: hatchet-webhook-workers-api
-- description: The Worker API from Hatchet — 2 operation(s) for worker.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Worker API from Hatchet — 2 operation(s) for worker.
   name: Hatchet Worker API
   slug: hatchet-worker-api
-- description: The Workflow API from Hatchet — 16 operation(s) for workflow.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Workflow API from Hatchet — 16 operation(s) for workflow.
   name: Hatchet Workflow API
   slug: hatchet-workflow-api
-- description: The Workflow Run API from Hatchet — 6 operation(s) for workflow run.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Workflow Run API from Hatchet — 6 operation(s) for workflow run.
   name: Hatchet Workflow Run API
   slug: hatchet-workflow-run-api
-- description: The Workflow Runs API from Hatchet — 9 operation(s) for workflow runs.
+- baseURL: https://api.hatchet-cloud.run
+  baseurl_source: declared
+  description: The Workflow Runs API from Hatchet — 9 operation(s) for workflow runs.
   name: Hatchet Workflow Runs API
   slug: hatchet-workflow-runs-api
 artifact_total: 165
@@ -650,7 +704,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -663,7 +717,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 57.0
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -672,7 +726,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:

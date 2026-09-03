@@ -35,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Health API from Metadata — 1 operation(s) for health.
+- baseURL: https://mcp-server.metadata.io
+  baseurl_source: declared
+  description: The Health API from Metadata — 1 operation(s) for health.
   name: Metadata Health API
   slug: metadata-health-api
-- description: The Mcp API from Metadata — 1 operation(s) for mcp.
+- baseURL: https://mcp-server.metadata.io
+  baseurl_source: declared
+  description: The Mcp API from Metadata — 1 operation(s) for mcp.
   name: Metadata MCP API
   slug: metadata-mcp-api
 artifact_total: 10
@@ -190,7 +194,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
 security:

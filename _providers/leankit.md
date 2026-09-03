@@ -34,82 +34,130 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Bulk export API for LeanKit / Planview AgilePlace reporting data — cards, card lane positions, blocked card history, comments, connections, lanes, tags, and user assignments — consumed from Excel, Pow
   name: Planview AgilePlace Advanced Reporting API
   slug: advanced-reporting-api
-- description: The account API from LeanKit — 1 operation(s) for account.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The account API from LeanKit — 1 operation(s) for account.
   name: LeanKit account API
   slug: leankit-account-api
-- description: The attachment API from LeanKit — 3 operation(s) for attachment.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The attachment API from LeanKit — 3 operation(s) for attachment.
   name: LeanKit attachment API
   slug: leankit-attachment-api
-- description: The automation API from LeanKit — 5 operation(s) for automation.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The automation API from LeanKit — 5 operation(s) for automation.
   name: LeanKit automation API
   slug: leankit-automation-api
-- description: The board API from LeanKit — 15 operation(s) for board.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The board API from LeanKit — 15 operation(s) for board.
   name: LeanKit board API
   slug: leankit-board-api
-- description: The board-filter API from LeanKit — 2 operation(s) for board-filter.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The board-filter API from LeanKit — 2 operation(s) for board-filter.
   name: LeanKit board-filter API
   slug: leankit-board-filter-api
-- description: The board-level API from LeanKit — 1 operation(s) for board-level.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The board-level API from LeanKit — 1 operation(s) for board-level.
   name: LeanKit board-level API
   slug: leankit-board-level-api
-- description: The board-template API from LeanKit — 2 operation(s) for board-template.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The board-template API from LeanKit — 2 operation(s) for board-template.
   name: LeanKit board-template API
   slug: leankit-board-template-api
-- description: The card API from LeanKit — 8 operation(s) for card.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The card API from LeanKit — 8 operation(s) for card.
   name: LeanKit card API
   slug: leankit-card-api
-- description: The card-scoring API from LeanKit — 1 operation(s) for card-scoring.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The card-scoring API from LeanKit — 1 operation(s) for card-scoring.
   name: LeanKit card-scoring API
   slug: leankit-card-scoring-api
-- description: The card-type API from LeanKit — 2 operation(s) for card-type.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The card-type API from LeanKit — 2 operation(s) for card-type.
   name: LeanKit card-type API
   slug: leankit-card-type-api
-- description: The comment API from LeanKit — 2 operation(s) for comment.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The comment API from LeanKit — 2 operation(s) for comment.
   name: LeanKit comment API
   slug: leankit-comment-api
-- description: The config API from LeanKit — 1 operation(s) for config.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The config API from LeanKit — 1 operation(s) for config.
   name: LeanKit config API
   slug: leankit-config-api
-- description: The connections API from LeanKit — 8 operation(s) for connections.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The connections API from LeanKit — 8 operation(s) for connections.
   name: LeanKit connections API
   slug: leankit-connections-api
-- description: The custom-field API from LeanKit — 1 operation(s) for custom-field.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The custom-field API from LeanKit — 1 operation(s) for custom-field.
   name: LeanKit custom-field API
   slug: leankit-custom-field-api
-- description: The custom-icon API from LeanKit — 2 operation(s) for custom-icon.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The custom-icon API from LeanKit — 2 operation(s) for custom-icon.
   name: LeanKit custom-icon API
   slug: leankit-custom-icon-api
-- description: The dependencies API from LeanKit — 2 operation(s) for dependencies.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The dependencies API from LeanKit — 2 operation(s) for dependencies.
   name: LeanKit dependencies API
   slug: leankit-dependencies-api
-- description: The lane API from LeanKit — 1 operation(s) for lane.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The lane API from LeanKit — 1 operation(s) for lane.
   name: LeanKit lane API
   slug: leankit-lane-api
-- description: The planning-series API from LeanKit — 6 operation(s) for planning-series.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The planning-series API from LeanKit — 6 operation(s) for planning-series.
   name: LeanKit planning-series API
   slug: leankit-planning-series-api
-- description: The tags API from LeanKit — 2 operation(s) for tags.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The tags API from LeanKit — 2 operation(s) for tags.
   name: LeanKit tags API
   slug: leankit-tags-api
-- description: The team API from LeanKit — 5 operation(s) for team.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The team API from LeanKit — 5 operation(s) for team.
   name: LeanKit team API
   slug: leankit-team-api
-- description: The token-auth API from LeanKit — 2 operation(s) for token-auth.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The token-auth API from LeanKit — 2 operation(s) for token-auth.
   name: LeanKit token-auth API
   slug: leankit-token-auth-api
-- description: The user API from LeanKit — 6 operation(s) for user.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The user API from LeanKit — 6 operation(s) for user.
   name: LeanKit user API
   slug: leankit-user-api
-- description: The user-invitation API from LeanKit — 2 operation(s) for user-invitation.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The user-invitation API from LeanKit — 2 operation(s) for user-invitation.
   name: LeanKit user-invitation API
   slug: leankit-user-invitation-api
-- description: The users API from LeanKit — 2 operation(s) for users.
+- baseURL: https://myaccount.leankit.com/io
+  baseurl_source: declared
+  description: The users API from LeanKit — 2 operation(s) for users.
   name: LeanKit users API
   slug: leankit-users-api
 artifact_total: 79
@@ -442,7 +490,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -452,7 +500,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 59.7
+  previous_composite: 59.4
   provenance:
     conformance: first-party
     contracts:
@@ -463,7 +511,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leankit/refs/heads/main/screenshots/leankit-2026-07-25T224738.png
 security:

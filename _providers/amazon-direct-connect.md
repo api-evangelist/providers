@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -44,193 +44,319 @@ agentic_access:
   summary_line: 63 operations · 63 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.acceptdirectconnectgatewayassociationp'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.acceptdirectconnectgatewayassociationp'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-acceptdirectconnectgatewayassociationproposal-api
-- description: 'The #X Amz Target=OvertureService.AllocateConnectionOnInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocateconnectiononinterconnect.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AllocateConnectionOnInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocateconnectiononinterconnect.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AllocateConnectionOnInterconnect API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-allocateconnectiononinterconnect-api
-- description: 'The #X Amz Target=OvertureService.AllocateHostedConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatehostedconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AllocateHostedConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatehostedconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AllocateHostedConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-allocatehostedconnection-api
-- description: 'The #X Amz Target=OvertureService.AllocatePrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocateprivatevirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AllocatePrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocateprivatevirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AllocatePrivateVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-allocateprivatevirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.AllocatePublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatepublicvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AllocatePublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatepublicvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AllocatePublicVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-allocatepublicvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.AllocateTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatetransitvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AllocateTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.allocatetransitvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AllocateTransitVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-allocatetransitvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.AssociateConnectionWithLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associateconnectionwithlag.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AssociateConnectionWithLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associateconnectionwithlag.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AssociateConnectionWithLag API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-associateconnectionwithlag-api
-- description: 'The #X Amz Target=OvertureService.AssociateHostedConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatehostedconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AssociateHostedConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatehostedconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AssociateHostedConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-associatehostedconnection-api
-- description: 'The #X Amz Target=OvertureService.AssociateMacSecKey API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatemacseckey.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AssociateMacSecKey API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatemacseckey.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AssociateMacSecKey API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-associatemacseckey-api
-- description: 'The #X Amz Target=OvertureService.AssociateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatevirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.AssociateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.associatevirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AssociateVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-associatevirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.ConfirmConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ConfirmConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ConfirmConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-confirmconnection-api
-- description: 'The #X Amz Target=OvertureService.ConfirmCustomerAgreement API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmcustomeragreement.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ConfirmCustomerAgreement API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmcustomeragreement.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ConfirmCustomerAgreement API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-confirmcustomeragreement-api
-- description: 'The #X Amz Target=OvertureService.ConfirmPrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmprivatevirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ConfirmPrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmprivatevirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ConfirmPrivateVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-confirmprivatevirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.ConfirmPublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmpublicvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ConfirmPublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmpublicvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ConfirmPublicVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-confirmpublicvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.ConfirmTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmtransitvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ConfirmTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.confirmtransitvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ConfirmTransitVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-confirmtransitvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.CreateBGPPeer API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createbgppeer.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateBGPPeer API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createbgppeer.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateBGPPeer API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createbgppeer-api
-- description: 'The #X Amz Target=OvertureService.CreateConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createconnection-api
-- description: 'The #X Amz Target=OvertureService.CreateDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgateway.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgateway.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateDirectConnectGateway API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgateway-api
-- description: 'The #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgatewayassociation.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgatewayassociation.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociation API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgatewayassociation-api
-- description: 'The #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgatewayassociationp'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createdirectconnectgatewayassociationp'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateDirectConnectGatewayAssociationProposal API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createdirectconnectgatewayassociationproposal-api
-- description: 'The #X Amz Target=OvertureService.CreateInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createinterconnect.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createinterconnect.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateInterconnect API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createinterconnect-api
-- description: 'The #X Amz Target=OvertureService.CreateLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createlag.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createlag.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateLag API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createlag-api
-- description: 'The #X Amz Target=OvertureService.CreatePrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createprivatevirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreatePrivateVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createprivatevirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreatePrivateVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createprivatevirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.CreatePublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createpublicvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreatePublicVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createpublicvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreatePublicVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createpublicvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.CreateTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createtransitvirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.CreateTransitVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.createtransitvirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.CreateTransitVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-createtransitvirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.DeleteBGPPeer API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletebgppeer.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteBGPPeer API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletebgppeer.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteBGPPeer API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletebgppeer-api
-- description: 'The #X Amz Target=OvertureService.DeleteConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deleteconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deleteconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deleteconnection-api
-- description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgateway.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgateway.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteDirectConnectGateway API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgateway-api
-- description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgatewayassociation.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgatewayassociation.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociation API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgatewayassociation-api
-- description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgatewayassociationp'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletedirectconnectgatewayassociationp'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteDirectConnectGatewayAssociationProposal API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletedirectconnectgatewayassociationproposal-api
-- description: 'The #X Amz Target=OvertureService.DeleteInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deleteinterconnect.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deleteinterconnect.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteInterconnect API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deleteinterconnect-api
-- description: 'The #X Amz Target=OvertureService.DeleteLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletelag.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletelag.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteLag API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletelag-api
-- description: 'The #X Amz Target=OvertureService.DeleteVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletevirtualinterface.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DeleteVirtualInterface API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.deletevirtualinterface.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DeleteVirtualInterface API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-deletevirtualinterface-api
-- description: 'The #X Amz Target=OvertureService.DescribeConnectionLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnectionloa.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeConnectionLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnectionloa.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeConnectionLoa API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeconnectionloa-api
-- description: 'The #X Amz Target=OvertureService.DescribeConnections API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnections.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeConnections API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnections.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeConnections API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeconnections-api
-- description: 'The #X Amz Target=OvertureService.DescribeConnectionsOnInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnectionsoninterconnect.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeConnectionsOnInterconnect API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeconnectionsoninterconnect.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeConnectionsOnInterconnect API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeconnectionsoninterconnect-api
-- description: 'The #X Amz Target=OvertureService.DescribeCustomerMetadata API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describecustomermetadata.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeCustomerMetadata API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describecustomermetadata.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeCustomerMetadata API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describecustomermetadata-api
-- description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociationProposals API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayassocia'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociationProposals API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayassocia'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociationProposals API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayassociationproposals-api
-- description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociations API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayassociations.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociations API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayassociations.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeDirectConnectGatewayAssociations API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayassociations-api
-- description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAttachments API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayattachments.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGatewayAttachments API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgatewayattachments.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeDirectConnectGatewayAttachments API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgatewayattachments-api
-- description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGateways API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgateways.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeDirectConnectGateways API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describedirectconnectgateways.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeDirectConnectGateways API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describedirectconnectgateways-api
-- description: 'The #X Amz Target=OvertureService.DescribeHostedConnections API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describehostedconnections.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeHostedConnections API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describehostedconnections.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeHostedConnections API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describehostedconnections-api
-- description: 'The #X Amz Target=OvertureService.DescribeInterconnectLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeinterconnectloa.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeInterconnectLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeinterconnectloa.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeInterconnectLoa API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeinterconnectloa-api
-- description: 'The #X Amz Target=OvertureService.DescribeInterconnects API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeinterconnects.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeInterconnects API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeinterconnects.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeInterconnects API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeinterconnects-api
-- description: 'The #X Amz Target=OvertureService.DescribeLags API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describelags.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeLags API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describelags.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeLags API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describelags-api
-- description: 'The #X Amz Target=OvertureService.DescribeLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeloa.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeLoa API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describeloa.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeLoa API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describeloa-api
-- description: 'The #X Amz Target=OvertureService.DescribeLocations API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describelocations.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeLocations API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describelocations.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeLocations API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describelocations-api
-- description: 'The #X Amz Target=OvertureService.DescribeRouterConfiguration API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describerouterconfiguration.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeRouterConfiguration API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describerouterconfiguration.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeRouterConfiguration API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describerouterconfiguration-api
-- description: 'The #X Amz Target=OvertureService.DescribeTags API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describetags.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeTags API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describetags.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeTags API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describetags-api
-- description: 'The #X Amz Target=OvertureService.DescribeVirtualGateways API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describevirtualgateways.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeVirtualGateways API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describevirtualgateways.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeVirtualGateways API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describevirtualgateways-api
-- description: 'The #X Amz Target=OvertureService.DescribeVirtualInterfaces API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describevirtualinterfaces.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DescribeVirtualInterfaces API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.describevirtualinterfaces.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DescribeVirtualInterfaces API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-describevirtualinterfaces-api
-- description: 'The #X Amz Target=OvertureService.DisassociateConnectionFromLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.disassociateconnectionfromlag.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DisassociateConnectionFromLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.disassociateconnectionfromlag.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DisassociateConnectionFromLag API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-disassociateconnectionfromlag-api
-- description: 'The #X Amz Target=OvertureService.DisassociateMacSecKey API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.disassociatemacseckey.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.DisassociateMacSecKey API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.disassociatemacseckey.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.DisassociateMacSecKey API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-disassociatemacseckey-api
-- description: 'The #X Amz Target=OvertureService.ListVirtualInterfaceTestHistory API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.listvirtualinterfacetesthistory.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.ListVirtualInterfaceTestHistory API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.listvirtualinterfacetesthistory.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.ListVirtualInterfaceTestHistory API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-listvirtualinterfacetesthistory-api
-- description: 'The #X Amz Target=OvertureService.StartBgpFailoverTest API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.startbgpfailovertest.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.StartBgpFailoverTest API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.startbgpfailovertest.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.StartBgpFailoverTest API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-startbgpfailovertest-api
-- description: 'The #X Amz Target=OvertureService.StopBgpFailoverTest API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.stopbgpfailovertest.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.StopBgpFailoverTest API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.stopbgpfailovertest.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.StopBgpFailoverTest API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-stopbgpfailovertest-api
-- description: 'The #X Amz Target=OvertureService.TagResource API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.tagresource.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.TagResource API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.tagresource.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.TagResource API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-tagresource-api
-- description: 'The #X Amz Target=OvertureService.UntagResource API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.untagresource.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UntagResource API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.untagresource.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UntagResource API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-untagresource-api
-- description: 'The #X Amz Target=OvertureService.UpdateConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updateconnection.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UpdateConnection API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updateconnection.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateConnection API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updateconnection-api
-- description: 'The #X Amz Target=OvertureService.UpdateDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatedirectconnectgateway.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UpdateDirectConnectGateway API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatedirectconnectgateway.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateDirectConnectGateway API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatedirectconnectgateway-api
-- description: 'The #X Amz Target=OvertureService.UpdateDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatedirectconnectgatewayassociation.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UpdateDirectConnectGatewayAssociation API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatedirectconnectgatewayassociation.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateDirectConnectGatewayAssociation API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatedirectconnectgatewayassociation-api
-- description: 'The #X Amz Target=OvertureService.UpdateLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatelag.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UpdateLag API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatelag.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateLag API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatelag-api
-- description: 'The #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatevirtualinterfaceattributes.'
+- baseURL: https://directconnect.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.updatevirtualinterfaceattributes.'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API'
   slug: amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
 artifact_total: 271
@@ -982,7 +1108,7 @@ score:
       marker_coverage: 0.0
       total: 63
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/screenshots/amazon-direct-connect-2026-06-20T171629.png
 security:

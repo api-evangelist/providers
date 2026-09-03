@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Saved CVE queries and their execution.
+- baseURL: https://app.empiricalsecurity.com/api
+  baseurl_source: declared
+  description: Saved CVE queries and their execution.
   name: Empirical Security CVE Groups API
   slug: empirical-security-cve-groups-api
-- description: Retrieve CVE detail, scores, malware hashes and history.
+- baseURL: https://app.empiricalsecurity.com/api
+  baseurl_source: declared
+  description: Retrieve CVE detail, scores, malware hashes and history.
   name: Empirical Security CVEs API
   slug: empirical-security-cves-api
-- description: Query CVEs using Empirical search syntax.
+- baseURL: https://app.empiricalsecurity.com/api
+  baseurl_source: declared
+  description: Query CVEs using Empirical search syntax.
   name: Empirical Security Search API
   slug: empirical-security-search-api
 artifact_total: 12
@@ -215,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/screenshots/empirical-security-2026-07-25T213247.png
 security:

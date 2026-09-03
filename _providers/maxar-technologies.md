@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -56,67 +56,109 @@ apis:
 - description: Transform API exposes image transformation primitives (reproject, tile, mosaic, format-convert) over Maxar imagery. A TypeScript client (@maxar/transform-api) and OpenLayers helpers are published from
   name: Maxar Transform API
   slug: transform-api
-- description: The Accounts API from Maxar Technologies — 2 operation(s) for accounts.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Accounts API from Maxar Technologies — 2 operation(s) for accounts.
   name: Maxar Technologies Accounts API
   slug: maxar-technologies-accounts-api
-- description: The API Keys API from Maxar Technologies — 2 operation(s) for api keys.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The API Keys API from Maxar Technologies — 2 operation(s) for api keys.
   name: Maxar Technologies API Keys API
   slug: maxar-technologies-api-keys-api
-- description: Browse and inspect collections
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: Browse and inspect collections
   name: Maxar Technologies Collections API
   slug: maxar-technologies-collections-api
-- description: The Credits API from Maxar Technologies — 1 operation(s) for credits.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Credits API from Maxar Technologies — 1 operation(s) for credits.
   name: Maxar Technologies Credits API
   slug: maxar-technologies-credits-api
-- description: The Deliveries API from Maxar Technologies — 1 operation(s) for deliveries.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Deliveries API from Maxar Technologies — 1 operation(s) for deliveries.
   name: Maxar Technologies Deliveries API
   slug: maxar-technologies-deliveries-api
-- description: The Estimates API from Maxar Technologies — 1 operation(s) for estimates.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Estimates API from Maxar Technologies — 1 operation(s) for estimates.
   name: Maxar Technologies Estimates API
   slug: maxar-technologies-estimates-api
-- description: The Events API from Maxar Technologies — 1 operation(s) for events.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Events API from Maxar Technologies — 1 operation(s) for events.
   name: Maxar Technologies Events API
   slug: maxar-technologies-events-api
-- description: The Feasibility API from Maxar Technologies — 1 operation(s) for feasibility.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Feasibility API from Maxar Technologies — 1 operation(s) for feasibility.
   name: Maxar Technologies Feasibility API
   slug: maxar-technologies-feasibility-api
-- description: The Image API from Maxar Technologies — 1 operation(s) for image.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Image API from Maxar Technologies — 1 operation(s) for image.
   name: Maxar Technologies Image API
   slug: maxar-technologies-image-api
-- description: Inspect tokens
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: Inspect tokens
   name: Maxar Technologies Introspection API
   slug: maxar-technologies-introspection-api
-- description: Retrieve individual STAC items
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: Retrieve individual STAC items
   name: Maxar Technologies Items API
   slug: maxar-technologies-items-api
-- description: The Monitors API from Maxar Technologies — 2 operation(s) for monitors.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Monitors API from Maxar Technologies — 2 operation(s) for monitors.
   name: Maxar Technologies Monitors API
   slug: maxar-technologies-monitors-api
-- description: The Orders API from Maxar Technologies — 2 operation(s) for orders.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Orders API from Maxar Technologies — 2 operation(s) for orders.
   name: Maxar Technologies Orders API
   slug: maxar-technologies-orders-api
-- description: Search and filter imagery and derivatives
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: Search and filter imagery and derivatives
   name: Maxar Technologies Search API
   slug: maxar-technologies-search-api
-- description: The Subscriptions API from Maxar Technologies — 1 operation(s) for subscriptions.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Subscriptions API from Maxar Technologies — 1 operation(s) for subscriptions.
   name: Maxar Technologies Subscriptions API
   slug: maxar-technologies-subscriptions-api
-- description: The Tasks API from Maxar Technologies — 2 operation(s) for tasks.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Tasks API from Maxar Technologies — 2 operation(s) for tasks.
   name: Maxar Technologies Tasks API
   slug: maxar-technologies-tasks-api
-- description: Issue and refresh access tokens
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: Issue and refresh access tokens
   name: Maxar Technologies Tokens API
   slug: maxar-technologies-tokens-api
-- description: The Users API from Maxar Technologies — 2 operation(s) for users.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The Users API from Maxar Technologies — 2 operation(s) for users.
   name: Maxar Technologies Users API
   slug: maxar-technologies-users-api
-- description: The WFS API from Maxar Technologies — 1 operation(s) for wfs.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The WFS API from Maxar Technologies — 1 operation(s) for wfs.
   name: Maxar Technologies WFS API
   slug: maxar-technologies-wfs-api
-- description: The WMS API from Maxar Technologies — 1 operation(s) for wms.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The WMS API from Maxar Technologies — 1 operation(s) for wms.
   name: Maxar Technologies WMS API
   slug: maxar-technologies-wms-api
-- description: The WMTS API from Maxar Technologies — 1 operation(s) for wmts.
+- baseURL: https://api.maxar.com
+  baseurl_source: declared
+  description: The WMTS API from Maxar Technologies — 1 operation(s) for wmts.
   name: Maxar Technologies WMTS API
   slug: maxar-technologies-wmts-api
 artifact_total: 100
@@ -559,7 +601,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:

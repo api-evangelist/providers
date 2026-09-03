@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The REST API behind IQM Resonance, IQM's quantum cloud service. It lists the quantum computers available on a server, reports their health and calibration state, accepts circuit and sweep jobs for exe
@@ -172,7 +186,7 @@ score:
   band: developing
   composite: 44.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/iqm-quantum-computers/refs/heads/main/screenshots/iqm-quantum-computers-2026-09-02T145920.png
 security:
 - kind: authentication
   name: Iqm Quantum Computers Authentication

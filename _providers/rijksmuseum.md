@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Standards-based bulk harvesting endpoint implementing the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0). Supports ListRecords, GetRecord, ListMetadataFormats, ListSets, and L
   name: OAI-PMH Harvesting API
   slug: oai-pmh-harvesting-api
-- description: Search and browse the Rijksmuseum collection.
+- baseURL: https://www.rijksmuseum.nl/api
+  baseurl_source: declared
+  description: Search and browse the Rijksmuseum collection.
   name: Rijksmuseum Collection API
   slug: rijksmuseum-collection-api
-- description: Deep-zoom tile pyramids for object web images.
+- baseURL: https://www.rijksmuseum.nl/api
+  baseurl_source: declared
+  description: Deep-zoom tile pyramids for object web images.
   name: Rijksmuseum Images API
   slug: rijksmuseum-images-api
-- description: Retrieve the full record for a single object.
+- baseURL: https://www.rijksmuseum.nl/api
+  baseurl_source: declared
+  description: Retrieve the full record for a single object.
   name: Rijksmuseum Object Details API
   slug: rijksmuseum-object-details-api
-- description: Rijksstudio sets curated by Rijksmuseum's online community.
+- baseURL: https://www.rijksmuseum.nl/api
+  baseurl_source: declared
+  description: Rijksstudio sets curated by Rijksmuseum's online community.
   name: Rijksmuseum User Generated Content API
   slug: rijksmuseum-user-generated-content-api
 artifact_total: 35
@@ -327,7 +335,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rijksmuseum/refs/heads/main/screenshots/rijksmuseum-2026-06-20T193120.png
 security:

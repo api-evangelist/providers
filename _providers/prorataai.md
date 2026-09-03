@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,31 +36,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The publisher ingest API for the Gist Content Network. Publisher partners push articles to ProRata in real time (POST /ingest/article) or in bulk for archived content (POST /ingest/multiple_articles),
   name: Gist Content API (Ingest)
   slug: prorataai-gist-content-api
-- description: The Chat API from ProRata.ai — 5 operation(s) for chat.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Chat API from ProRata.ai — 5 operation(s) for chat.
   name: ProRata.ai Chat API
   slug: prorataai-chat-api
-- description: The Health API from ProRata.ai — 1 operation(s) for health.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Health API from ProRata.ai — 1 operation(s) for health.
   name: ProRata.ai Health API
   slug: prorataai-health-api
-- description: The Publishers API from ProRata.ai — 2 operation(s) for publishers.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Publishers API from ProRata.ai — 2 operation(s) for publishers.
   name: ProRata.ai Publishers API
   slug: prorataai-publishers-api
-- description: The Questions API from ProRata.ai — 2 operation(s) for questions.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Questions API from ProRata.ai — 2 operation(s) for questions.
   name: ProRata.ai Questions API
   slug: prorataai-questions-api
-- description: The Root API from ProRata.ai — 1 operation(s) for root.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Root API from ProRata.ai — 1 operation(s) for root.
   name: ProRata.ai Root API
   slug: prorataai-root-api
-- description: The Summaries API from ProRata.ai — 2 operation(s) for summaries.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Summaries API from ProRata.ai — 2 operation(s) for summaries.
   name: ProRata.ai Summaries API
   slug: prorataai-summaries-api
-- description: The Threads API from ProRata.ai — 2 operation(s) for threads.
+- baseURL: https://api.gist.ai
+  baseurl_source: declared
+  description: The Threads API from ProRata.ai — 2 operation(s) for threads.
   name: ProRata.ai Threads API
   slug: prorataai-threads-api
 artifact_total: 13
@@ -193,7 +220,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -218,8 +245,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prorataai/refs/heads/main/screenshots/prorataai-2026-09-02T152208.png
 security:
 - kind: authentication
   name: Prorataai Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -45,37 +45,59 @@ agentic_access:
   summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The accounts API from Google AdMob — 4 operation(s) for accounts.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The accounts API from Google AdMob — 4 operation(s) for accounts.
   name: Google AdMob Accounts API
   slug: google-admob-accounts-api
-- description: The adapters API from Google AdMob — 1 operation(s) for adapters.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adapters API from Google AdMob — 1 operation(s) for adapters.
   name: Google AdMob Adapters API
   slug: google-admob-adapters-api
-- description: The adSources API from Google AdMob — 1 operation(s) for adsources.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adSources API from Google AdMob — 1 operation(s) for adsources.
   name: Google AdMob Ad Sources API
   slug: google-admob-adsources-api
-- description: The adUnitMappings API from Google AdMob — 2 operation(s) for adunitmappings.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adUnitMappings API from Google AdMob — 2 operation(s) for adunitmappings.
   name: Google AdMob Ad Unit Mappings API
   slug: google-admob-adunitmappings-api
-- description: The adUnits API from Google AdMob — 2 operation(s) for adunits.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The adUnits API from Google AdMob — 2 operation(s) for adunits.
   name: Google AdMob Ad Units API
   slug: google-admob-adunits-api
-- description: The apps API from Google AdMob — 2 operation(s) for apps.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The apps API from Google AdMob — 2 operation(s) for apps.
   name: Google AdMob Apps API
   slug: google-admob-apps-api
-- description: The campaignReport API from Google AdMob — 1 operation(s) for campaignreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The campaignReport API from Google AdMob — 1 operation(s) for campaignreport.
   name: Google AdMob Campaign Report API
   slug: google-admob-campaignreport-api
-- description: The mediationAbExperiments API from Google AdMob — 2 operation(s) for mediationabexperiments.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationAbExperiments API from Google AdMob — 2 operation(s) for mediationabexperiments.
   name: Google AdMob Mediation Ab Experiments API
   slug: google-admob-mediationabexperiments-api
-- description: The mediationGroups API from Google AdMob — 2 operation(s) for mediationgroups.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationGroups API from Google AdMob — 2 operation(s) for mediationgroups.
   name: Google AdMob Mediation Groups API
   slug: google-admob-mediationgroups-api
-- description: The mediationReport API from Google AdMob — 2 operation(s) for mediationreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The mediationReport API from Google AdMob — 2 operation(s) for mediationreport.
   name: Google AdMob Mediation Report API
   slug: google-admob-mediationreport-api
-- description: The networkReport API from Google AdMob — 2 operation(s) for networkreport.
+- baseURL: https://admob.googleapis.com
+  baseurl_source: declared
+  description: The networkReport API from Google AdMob — 2 operation(s) for networkreport.
   name: Google AdMob Network Report API
   slug: google-admob-networkreport-api
 artifact_total: 30
@@ -363,7 +385,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/screenshots/google-admob-2026-06-20T182006.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 330 operations · 180 acting · 12 human-in-the-loop
 api_count: 12
 apis:
-- description: The admin API from Daytona — 15 operation(s) for admin.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The admin API from Daytona — 15 operation(s) for admin.
   name: Daytona admin API
   slug: daytona-io-admin-api
-- description: The api-keys API from Daytona — 4 operation(s) for api-keys.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The api-keys API from Daytona — 4 operation(s) for api-keys.
   name: Daytona api-keys API
   slug: daytona-io-api-keys-api
-- description: The audit API from Daytona — 1 operation(s) for audit.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The audit API from Daytona — 1 operation(s) for audit.
   name: Daytona audit API
   slug: daytona-io-audit-api
-- description: The computer-use API from Daytona — 32 operation(s) for computer-use.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The computer-use API from Daytona — 32 operation(s) for computer-use.
   name: Daytona computer-use API
   slug: daytona-io-computer-use-api
-- description: The config API from Daytona — 1 operation(s) for config.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The config API from Daytona — 1 operation(s) for config.
   name: Daytona config API
   slug: daytona-io-config-api
-- description: The docker-registry API from Daytona — 3 operation(s) for docker-registry.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The docker-registry API from Daytona — 3 operation(s) for docker-registry.
   name: Daytona docker-registry API
   slug: daytona-io-docker-registry-api
-- description: The file-system API from Daytona — 12 operation(s) for file-system.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The file-system API from Daytona — 12 operation(s) for file-system.
   name: Daytona file-system API
   slug: daytona-io-file-system-api
-- description: The git API from Daytona — 9 operation(s) for git.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The git API from Daytona — 9 operation(s) for git.
   name: Daytona git API
   slug: daytona-io-git-api
-- description: The Health API from Daytona — 2 operation(s) for health.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Health API from Daytona — 2 operation(s) for health.
   name: Daytona Health API
   slug: daytona-io-health-api
-- description: The info API from Daytona — 3 operation(s) for info.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The info API from Daytona — 3 operation(s) for info.
   name: Daytona info API
   slug: daytona-io-info-api
-- description: The interpreter API from Daytona — 3 operation(s) for interpreter.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The interpreter API from Daytona — 3 operation(s) for interpreter.
   name: Daytona interpreter API
   slug: daytona-io-interpreter-api
-- description: The jobs API from Daytona — 4 operation(s) for jobs.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The jobs API from Daytona — 4 operation(s) for jobs.
   name: Daytona jobs API
   slug: daytona-io-jobs-api
-- description: The lsp API from Daytona — 7 operation(s) for lsp.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The lsp API from Daytona — 7 operation(s) for lsp.
   name: Daytona lsp API
   slug: daytona-io-lsp-api
-- description: The object-storage API from Daytona — 1 operation(s) for object-storage.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The object-storage API from Daytona — 1 operation(s) for object-storage.
   name: Daytona object-storage API
   slug: daytona-io-object-storage-api
-- description: The organizations API from Daytona — 30 operation(s) for organizations.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The organizations API from Daytona — 30 operation(s) for organizations.
   name: Daytona organizations API
   slug: daytona-io-organizations-api
-- description: The port API from Daytona — 2 operation(s) for port.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The port API from Daytona — 2 operation(s) for port.
   name: Daytona port API
   slug: daytona-io-port-api
-- description: The preview API from Daytona — 4 operation(s) for preview.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The preview API from Daytona — 4 operation(s) for preview.
   name: Daytona preview API
   slug: daytona-io-preview-api
-- description: The process API from Daytona — 14 operation(s) for process.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The process API from Daytona — 14 operation(s) for process.
   name: Daytona process API
   slug: daytona-io-process-api
-- description: The regions API from Daytona — 1 operation(s) for regions.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The regions API from Daytona — 1 operation(s) for regions.
   name: Daytona regions API
   slug: daytona-io-regions-api
-- description: The runners API from Daytona — 9 operation(s) for runners.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The runners API from Daytona — 9 operation(s) for runners.
   name: Daytona runners API
   slug: daytona-io-runners-api
-- description: The sandbox API from Daytona — 37 operation(s) for sandbox.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The sandbox API from Daytona — 37 operation(s) for sandbox.
   name: Daytona sandbox API
   slug: daytona-io-sandbox-api
-- description: The server API from Daytona — 1 operation(s) for server.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The server API from Daytona — 1 operation(s) for server.
   name: Daytona server API
   slug: daytona-io-server-api
-- description: The snapshots API from Daytona — 6 operation(s) for snapshots.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The snapshots API from Daytona — 6 operation(s) for snapshots.
   name: Daytona snapshots API
   slug: daytona-io-snapshots-api
-- description: The toolbox API from Daytona — 61 operation(s) for toolbox.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The toolbox API from Daytona — 61 operation(s) for toolbox.
   name: Daytona toolbox API
   slug: daytona-io-toolbox-api
-- description: The users API from Daytona — 5 operation(s) for users.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The users API from Daytona — 5 operation(s) for users.
   name: Daytona users API
   slug: daytona-io-users-api
-- description: The volumes API from Daytona — 3 operation(s) for volumes.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The volumes API from Daytona — 3 operation(s) for volumes.
   name: Daytona volumes API
   slug: daytona-io-volumes-api
-- description: The webhooks API from Daytona — 3 operation(s) for webhooks.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The webhooks API from Daytona — 3 operation(s) for webhooks.
   name: Daytona webhooks API
   slug: daytona-io-webhooks-api
-- description: The workspace API from Daytona — 12 operation(s) for workspace.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The workspace API from Daytona — 12 operation(s) for workspace.
   name: Daytona workspace API
   slug: daytona-io-workspace-api
-- description: The Daytona Admin API API from Daytona — 0 operation(s) for daytona admin api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Admin API API from Daytona — 0 operation(s) for daytona admin api.
   name: Daytona Daytona Admin API
   slug: daytona-io-daytona-admin-api-api
-- description: The Daytona Api Keys API API from Daytona — 0 operation(s) for daytona api keys api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Api Keys API API from Daytona — 0 operation(s) for daytona api keys api.
   name: Daytona Daytona Api Keys API
   slug: daytona-io-daytona-api-keys-api-api
-- description: The Daytona Health API API from Daytona — 0 operation(s) for daytona health api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Health API API from Daytona — 0 operation(s) for daytona health api.
   name: Daytona Daytona Health API
   slug: daytona-io-daytona-health-api-api
-- description: The Daytona Organizations API API from Daytona — 0 operation(s) for daytona organizations api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Organizations API API from Daytona — 0 operation(s) for daytona organizations api.
   name: Daytona Daytona Organizations API
   slug: daytona-io-daytona-organizations-api-api
-- description: The Daytona Preview API API from Daytona — 0 operation(s) for daytona preview api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Preview API API from Daytona — 0 operation(s) for daytona preview api.
   name: Daytona Daytona Preview API
   slug: daytona-io-daytona-preview-api-api
-- description: The Daytona Sandbox API API from Daytona — 0 operation(s) for daytona sandbox api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Sandbox API API from Daytona — 0 operation(s) for daytona sandbox api.
   name: Daytona Daytona Sandbox API
   slug: daytona-io-daytona-sandbox-api-api
-- description: The Daytona Snapshots API API from Daytona — 0 operation(s) for daytona snapshots api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Snapshots API API from Daytona — 0 operation(s) for daytona snapshots api.
   name: Daytona Daytona Snapshots API
   slug: daytona-io-daytona-snapshots-api-api
-- description: The Daytona Toolbox API API from Daytona — 0 operation(s) for daytona toolbox api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Toolbox API API from Daytona — 0 operation(s) for daytona toolbox api.
   name: Daytona Daytona Toolbox API
   slug: daytona-io-daytona-toolbox-api-api
-- description: The Daytona Users API API from Daytona — 0 operation(s) for daytona users api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Users API API from Daytona — 0 operation(s) for daytona users api.
   name: Daytona Daytona Users API
   slug: daytona-io-daytona-users-api-api
-- description: The Daytona Volumes API API from Daytona — 0 operation(s) for daytona volumes api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Volumes API API from Daytona — 0 operation(s) for daytona volumes api.
   name: Daytona Daytona Volumes API
   slug: daytona-io-daytona-volumes-api-api
-- description: The Daytona Webhooks API API from Daytona — 0 operation(s) for daytona webhooks api.
+- baseURL: https://app.daytona.io/api
+  baseurl_source: declared
+  description: The Daytona Webhooks API API from Daytona — 0 operation(s) for daytona webhooks api.
   name: Daytona Daytona Webhooks API
   slug: daytona-io-daytona-webhooks-api-api
 arazzos:
@@ -750,7 +828,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

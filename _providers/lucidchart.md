@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: Subscribe to events on documents and folders (create, update, trash, restore) and receive HTTP callbacks at your endpoint.
   name: Lucid Webhooks API
   slug: lucid-webhooks-api
-- description: The Documents API from Lucidchart — 2 operation(s) for documents.
+- baseURL: https://api.lucid.co
+  baseurl_source: declared
+  description: The Documents API from Lucidchart — 2 operation(s) for documents.
   name: Lucidchart Documents API
   slug: lucidchart-documents-api
-- description: The Folders API from Lucidchart — 2 operation(s) for folders.
+- baseURL: https://api.lucid.co
+  baseurl_source: declared
+  description: The Folders API from Lucidchart — 2 operation(s) for folders.
   name: Lucidchart Folders API
   slug: lucidchart-folders-api
 artifact_total: 19
@@ -190,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/screenshots/lucidchart-2026-06-20T184747.png
 security:

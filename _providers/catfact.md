@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Breeds API from Cat Facts API — 1 operation(s) for breeds.
+- baseURL: https://catfact.ninja
+  baseurl_source: declared
+  description: The Breeds API from Cat Facts API — 1 operation(s) for breeds.
   name: Cat Facts API Breeds API
   slug: catfact-breeds-api
-- description: The Fact API from Cat Facts API — 1 operation(s) for fact.
+- baseURL: https://catfact.ninja
+  baseurl_source: declared
+  description: The Fact API from Cat Facts API — 1 operation(s) for fact.
   name: Cat Facts API Fact API
   slug: catfact-fact-api
-- description: The Facts API from Cat Facts API — 1 operation(s) for facts.
+- baseURL: https://catfact.ninja
+  baseurl_source: declared
+  description: The Facts API from Cat Facts API — 1 operation(s) for facts.
   name: Cat Facts API Facts API
   slug: catfact-facts-api
 artifact_total: 21
@@ -193,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catfact/refs/heads/main/screenshots/catfact-2026-06-20T174051.png
 security:

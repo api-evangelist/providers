@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Order previews, creation, tracking, address updates, and cancellation.
+- baseURL: https://api.partner.example.com/v1
+  baseurl_source: declared
+  description: Order previews, creation, tracking, address updates, and cancellation.
   name: CopThis Orders API
   slug: copthis-orders-api
-- description: Partner stores (typically one per artist) and their merchandise.
+- baseURL: https://api.partner.example.com/v1
+  baseurl_source: declared
+  description: Partner stores (typically one per artist) and their merchandise.
   name: CopThis Stores API
   slug: copthis-stores-api
 artifact_total: 8
@@ -168,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/screenshots/copthis-2026-07-25T210411.png
 security:

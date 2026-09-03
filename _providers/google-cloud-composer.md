@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Operations for managing Composer environments
+- baseURL: https://composer.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing Composer environments
   name: Google Cloud Composer Environments API
   slug: google-cloud-composer-environments-api
-- description: Operations for listing available image versions
+- baseURL: https://composer.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing available image versions
   name: Google Cloud Composer ImageVersions API
   slug: google-cloud-composer-imageversions-api
-- description: Long-running operation management
+- baseURL: https://composer.googleapis.com
+  baseurl_source: declared
+  description: Long-running operation management
   name: Google Cloud Composer Operations API
   slug: google-cloud-composer-operations-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/screenshots/google-cloud-composer-2026-06-20T182052.png
 security:

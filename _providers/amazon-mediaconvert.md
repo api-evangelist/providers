@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 28 operations · 18 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Certificates API from Amazon MediaConvert — 2 operation(s) for certificates.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Certificates API from Amazon MediaConvert — 2 operation(s) for certificates.
   name: Amazon MediaConvert Certificates API
   slug: amazon-mediaconvert-certificates-api
-- description: The Endpoints API from Amazon MediaConvert — 1 operation(s) for endpoints.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Endpoints API from Amazon MediaConvert — 1 operation(s) for endpoints.
   name: Amazon MediaConvert Endpoints API
   slug: amazon-mediaconvert-endpoints-api
-- description: The Jobs API from Amazon MediaConvert — 2 operation(s) for jobs.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon MediaConvert — 2 operation(s) for jobs.
   name: Amazon MediaConvert Jobs API
   slug: amazon-mediaconvert-jobs-api
-- description: The JobTemplates API from Amazon MediaConvert — 2 operation(s) for jobtemplates.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The JobTemplates API from Amazon MediaConvert — 2 operation(s) for jobtemplates.
   name: Amazon MediaConvert JobTemplates API
   slug: amazon-mediaconvert-jobtemplates-api
-- description: The Policy API from Amazon MediaConvert — 1 operation(s) for policy.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Policy API from Amazon MediaConvert — 1 operation(s) for policy.
   name: Amazon MediaConvert Policy API
   slug: amazon-mediaconvert-policy-api
-- description: The Presets API from Amazon MediaConvert — 2 operation(s) for presets.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Presets API from Amazon MediaConvert — 2 operation(s) for presets.
   name: Amazon MediaConvert Presets API
   slug: amazon-mediaconvert-presets-api
-- description: The Queues API from Amazon MediaConvert — 2 operation(s) for queues.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Queues API from Amazon MediaConvert — 2 operation(s) for queues.
   name: Amazon MediaConvert Queues API
   slug: amazon-mediaconvert-queues-api
-- description: The Tags API from Amazon MediaConvert — 2 operation(s) for tags.
+- baseURL: http://mediaconvert.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MediaConvert — 2 operation(s) for tags.
   name: Amazon MediaConvert Tags API
   slug: amazon-mediaconvert-tags-api
 artifact_total: 1945
@@ -5997,7 +6013,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/screenshots/amazon-mediaconvert-2026-06-20T171740.png
 security:

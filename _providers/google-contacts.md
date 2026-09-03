@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: The ContactGroups API from Google People API — 2 operation(s) for contactgroups.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The ContactGroups API from Google People API — 2 operation(s) for contactgroups.
   name: Google People API ContactGroups API
   slug: google-contacts-contactgroups-api
-- description: The People API from Google People API — 4 operation(s) for people.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The People API from Google People API — 4 operation(s) for people.
   name: Google People API People API
   slug: google-contacts-people-api
-- description: The People:createContact API from Google People API — 1 operation(s) for people:createcontact.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The People:createContact API from Google People API — 1 operation(s) for people:createcontact.
   name: Google People API People:createContact API
   slug: google-contacts-people-createcontact-api
-- description: The People:searchContacts API from Google People API — 1 operation(s) for people:searchcontacts.
+- baseURL: https://people.googleapis.com/v1
+  baseurl_source: declared
+  description: The People:searchContacts API from Google People API — 1 operation(s) for people:searchcontacts.
   name: Google People API People:searchContacts API
   slug: google-contacts-people-searchcontacts-api
 artifact_total: 25
@@ -229,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-contacts/refs/heads/main/screenshots/google-contacts-2026-06-20T182151.png
 security:

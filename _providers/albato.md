@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 10 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Manage automation workflows
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage automation workflows
   name: Albato Automations API
   slug: albato-automations-api
-- description: Manage app connectors
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage app connectors
   name: Albato Connectors API
   slug: albato-connectors-api
-- description: Monitor automation execution history
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Monitor automation execution history
   name: Albato Executions API
   slug: albato-executions-api
-- description: Manage embedded teams (customer accounts)
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage embedded teams (customer accounts)
   name: Albato Teams API
   slug: albato-teams-api
-- description: Manage automation templates
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage automation templates
   name: Albato Templates API
   slug: albato-templates-api
-- description: Manage team users
+- baseURL: https://albato.com/api/v1
+  baseurl_source: declared
+  description: Manage team users
   name: Albato Users API
   slug: albato-users-api
 artifact_total: 71
@@ -374,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/screenshots/albato-2026-06-20T171504.png
 security:

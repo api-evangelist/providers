@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: Tag key/value autocompletion
+- baseURL_template: http://{host}:{port}/api/v2
+  baseurl_source: spec_template
+  description: Tag key/value autocompletion
   name: Apache Zipkin autocomplete API
   slug: apache-zipkin-autocomplete-api
-- description: Service discovery and dependency links
+- baseURL_template: http://{host}:{port}/api/v2
+  baseurl_source: spec_template
+  description: Service discovery and dependency links
   name: Apache Zipkin services API
   slug: apache-zipkin-services-api
-- description: Ingest spans and query span names
+- baseURL_template: http://{host}:{port}/api/v2
+  baseurl_source: spec_template
+  description: Ingest spans and query span names
   name: Apache Zipkin spans API
   slug: apache-zipkin-spans-api
-- description: Query trace data
+- baseURL_template: http://{host}:{port}/api/v2
+  baseurl_source: spec_template
+  description: Query trace data
   name: Apache Zipkin traces API
   slug: apache-zipkin-traces-api
 artifact_total: 31
@@ -217,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zipkin/refs/heads/main/screenshots/apache-zipkin-2026-06-20T172158.png
 security:

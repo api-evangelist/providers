@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
+- baseURL: https://api.democracy.works/v2
+  baseurl_source: declared
+  description: The Authorities API from Democracy Works — 3 operation(s) for authorities.
   name: Democracy Works Authorities API
   slug: democracy-works-authorities-api
-- description: The Elections API from Democracy Works — 1 operation(s) for elections.
+- baseURL: https://api.democracy.works/v2
+  baseurl_source: declared
+  description: The Elections API from Democracy Works — 1 operation(s) for elections.
   name: Democracy Works Elections API
   slug: democracy-works-elections-api
-- description: The Exports API from Democracy Works — 1 operation(s) for exports.
+- baseURL: https://api.democracy.works/v2
+  baseurl_source: declared
+  description: The Exports API from Democracy Works — 1 operation(s) for exports.
   name: Democracy Works Exports API
   slug: democracy-works-exports-api
 artifact_total: 16
@@ -194,7 +200,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-works/refs/heads/main/screenshots/democracy-works-2026-06-20T175910.png
 security:

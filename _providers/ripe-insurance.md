@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 8 operations
 api_count: 2
 apis:
-- description: The Content API from Ripe Insurance — 8 operation(s) for content.
+- baseURL: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v2
+  baseurl_source: declared
+  description: The Content API from Ripe Insurance — 8 operation(s) for content.
   name: Ripe Insurance Content API
   slug: ripe-insurance-content-api
-- description: The Media API from Ripe Insurance — 8 operation(s) for media.
+- baseURL: https://www.ripeinsurance.co.uk/umbraco/delivery/api/v2
+  baseurl_source: declared
+  description: The Media API from Ripe Insurance — 8 operation(s) for media.
   name: Ripe Insurance Media API
   slug: ripe-insurance-media-api
 artifact_total: 9
@@ -207,7 +223,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -239,8 +255,9 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/screenshots/ripe-insurance-2026-09-02T153839.png
 security:
 - kind: authentication
   name: Ripe Insurance Authentication

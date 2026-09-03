@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
@@ -51,52 +51,84 @@ apis:
 - description: The HealthData.gov Catalog API uses CKAN and provides machine-readable access to the HHS health data catalog. Developers can find newly added datasets, search the catalog, download catalog metadata fo
   name: HealthData.gov Catalog API
   slug: healthdatagov-catalog-api
-- description: The Agency v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for agency v1.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Agency v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for agency v1.
   name: HHS (US Department of Health and Human Services) Agency v1 API
   slug: hhs-agency-v1-api
-- description: The Application Alpha API from HHS (US Department of Health and Human Services) — 11 operation(s) for application alpha.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Application Alpha API from HHS (US Department of Health and Human Services) — 11 operation(s) for application alpha.
   name: HHS (US Department of Health and Human Services) Application Alpha API
   slug: hhs-application-alpha-api
-- description: The Award Recommendation Alpha API from HHS (US Department of Health and Human Services) — 11 operation(s) for award recommendation alpha.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Award Recommendation Alpha API from HHS (US Department of Health and Human Services) — 11 operation(s) for award recommendation alpha.
   name: HHS (US Department of Health and Human Services) Award Recommendation Alpha API
   slug: hhs-award-recommendation-alpha-api
-- description: CommonGrants-compliant API routes for searching opportunities to promote interoperability across grant systems. Learn more by visiting CommonGrants.org
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: CommonGrants-compliant API routes for searching opportunities to promote interoperability across grant systems. Learn more by visiting CommonGrants.org
   name: HHS (US Department of Health and Human Services) CommonGrants Protocol API
   slug: hhs-commongrants-protocol-api
-- description: The Competition Alpha API from HHS (US Department of Health and Human Services) — 3 operation(s) for competition alpha.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Competition Alpha API from HHS (US Department of Health and Human Services) — 3 operation(s) for competition alpha.
   name: HHS (US Department of Health and Human Services) Competition Alpha API
   slug: hhs-competition-alpha-api
-- description: The Extract v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for extract v1.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Extract v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for extract v1.
   name: HHS (US Department of Health and Human Services) Extract v1 API
   slug: hhs-extract-v1-api
-- description: The File v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for file v1.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The File v1 API from HHS (US Department of Health and Human Services) — 1 operation(s) for file v1.
   name: HHS (US Department of Health and Human Services) File v1 API
   slug: hhs-file-v1-api
-- description: The Form Alpha API from HHS (US Department of Health and Human Services) — 2 operation(s) for form alpha.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Form Alpha API from HHS (US Department of Health and Human Services) — 2 operation(s) for form alpha.
   name: HHS (US Department of Health and Human Services) Form Alpha API
   slug: hhs-form-alpha-api
-- description: The Health API from HHS (US Department of Health and Human Services) — 1 operation(s) for health.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Health API from HHS (US Department of Health and Human Services) — 1 operation(s) for health.
   name: HHS (US Department of Health and Human Services) Health API
   slug: hhs-health-api
-- description: The Internal v1 - Admin Only API from HHS (US Department of Health and Human Services) — 1 operation(s) for internal v1 - admin only.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Internal v1 - Admin Only API from HHS (US Department of Health and Human Services) — 1 operation(s) for internal v1 - admin only.
   name: HHS (US Department of Health and Human Services) Internal v1 - Admin Only API
   slug: hhs-internal-v1-admin-only-api
-- description: The LOCAL ONLY API from HHS (US Department of Health and Human Services) — 1 operation(s) for local only.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The LOCAL ONLY API from HHS (US Department of Health and Human Services) — 1 operation(s) for local only.
   name: HHS (US Department of Health and Human Services) LOCAL ONLY API
   slug: hhs-local-only-api
-- description: The Opportunity v1 API from HHS (US Department of Health and Human Services) — 4 operation(s) for opportunity v1.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Opportunity v1 API from HHS (US Department of Health and Human Services) — 4 operation(s) for opportunity v1.
   name: HHS (US Department of Health and Human Services) Opportunity v1 API
   slug: hhs-opportunity-v1-api
-- description: The Opportunity v1 - for Grantors API from HHS (US Department of Health and Human Services) — 8 operation(s) for opportunity v1 - for grantors.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Opportunity v1 - for Grantors API from HHS (US Department of Health and Human Services) — 8 operation(s) for opportunity v1 - for grantors.
   name: HHS (US Department of Health and Human Services) Opportunity v1 - for Grantors API
   slug: hhs-opportunity-v1-for-grantors-api
-- description: The Organization v1 API from HHS (US Department of Health and Human Services) — 10 operation(s) for organization v1.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Organization v1 API from HHS (US Department of Health and Human Services) — 10 operation(s) for organization v1.
   name: HHS (US Department of Health and Human Services) Organization v1 API
   slug: hhs-organization-v1-api
-- description: The User v1 - Internal Only API from HHS (US Department of Health and Human Services) — 23 operation(s) for user v1 - internal only.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The User v1 - Internal Only API from HHS (US Department of Health and Human Services) — 23 operation(s) for user v1 - internal only.
   name: HHS (US Department of Health and Human Services) User v1 - Internal Only API
   slug: hhs-user-v1-internal-only-api
-- description: The Workflow API from HHS (US Department of Health and Human Services) — 4 operation(s) for workflow.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: The Workflow API from HHS (US Department of Health and Human Services) — 4 operation(s) for workflow.
   name: HHS (US Department of Health and Human Services) Workflow API
   slug: hhs-workflow-api
 artifact_total: 41
@@ -256,7 +288,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:

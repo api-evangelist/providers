@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Real-time and scheduled bus departure and arrival data
+- baseURL: https://transportapi.com/v3/uk
+  baseurl_source: declared
+  description: Real-time and scheduled bus departure and arrival data
   name: TransportAPI Bus Information API
   slug: transportapi-bus-information-api
-- description: Multimodal journey planning across Great Britain
+- baseURL: https://transportapi.com/v3/uk
+  baseurl_source: declared
+  description: Multimodal journey planning across Great Britain
   name: TransportAPI Journey Planner API
   slug: transportapi-journey-planner-api
-- description: Transport stops, stations, and points of interest
+- baseURL: https://transportapi.com/v3/uk
+  baseurl_source: declared
+  description: Transport stops, stations, and points of interest
   name: TransportAPI Places API
   slug: transportapi-places-api
-- description: Real-time and scheduled rail departure and arrival data
+- baseURL: https://transportapi.com/v3/uk
+  baseurl_source: declared
+  description: Real-time and scheduled rail departure and arrival data
   name: TransportAPI Rail Information API
   slug: transportapi-rail-information-api
 artifact_total: 21
@@ -196,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/screenshots/transportapi-2026-06-20T195629.png
 security:

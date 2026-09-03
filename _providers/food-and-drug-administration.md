@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: Adverse events involving animal and veterinary products.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Adverse events involving animal and veterinary products.
   name: Food and Drug Administration Animal & Veterinary API
   slug: food-and-drug-administration-animal-veterinary-api
-- description: Device-related endpoints (adverse events, classifications, recalls, 510(k), PMA, UDI).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Device-related endpoints (adverse events, classifications, recalls, 510(k), PMA, UDI).
   name: Food and Drug Administration Device API
   slug: food-and-drug-administration-device-api
-- description: Drug-related endpoints (adverse events, labeling, recalls, NDC).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Drug-related endpoints (adverse events, labeling, recalls, NDC).
   name: Food and Drug Administration Drug API
   slug: food-and-drug-administration-drug-api
-- description: Food-related endpoints (enforcement reports, adverse events).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Food-related endpoints (enforcement reports, adverse events).
   name: Food and Drug Administration Food API
   slug: food-and-drug-administration-food-api
-- description: Cross-cutting datasets (NSDE, substance, harmonized).
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Cross-cutting datasets (NSDE, substance, harmonized).
   name: Food and Drug Administration Other API
   slug: food-and-drug-administration-other-api
-- description: Tobacco product problem reports.
+- baseURL: https://api.fda.gov
+  baseurl_source: declared
+  description: Tobacco product problem reports.
   name: Food and Drug Administration Tobacco API
   slug: food-and-drug-administration-tobacco-api
 artifact_total: 21
@@ -197,7 +209,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/food-and-drug-administration/refs/heads/main/screenshots/food-and-drug-administration-2026-06-20T181356.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 3 acting
 api_count: 1
 apis:
-- description: Type-ahead suggestions for entities.
+- baseURL: https://api.crunchbase.com/api/v4
+  baseurl_source: declared
+  description: Type-ahead suggestions for entities.
   name: Crunchbase Autocomplete API
   slug: crunchbase-autocomplete-api
-- description: Feeds of deleted entities for downstream sync.
+- baseURL: https://api.crunchbase.com/api/v4
+  baseurl_source: declared
+  description: Feeds of deleted entities for downstream sync.
   name: Crunchbase Deletes API
   slug: crunchbase-deletes-api
-- description: Entity lookup endpoints for organizations, people, funding rounds, acquisitions, and IPOs.
+- baseURL: https://api.crunchbase.com/api/v4
+  baseurl_source: declared
+  description: Entity lookup endpoints for organizations, people, funding rounds, acquisitions, and IPOs.
   name: Crunchbase Entities API
   slug: crunchbase-entities-api
-- description: Full-text and faceted search across entity types.
+- baseURL: https://api.crunchbase.com/api/v4
+  baseurl_source: declared
+  description: Full-text and faceted search across entity types.
   name: Crunchbase Search API
   slug: crunchbase-search-api
 artifact_total: 25
@@ -279,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase/refs/heads/main/screenshots/crunchbase-2026-06-20T175258.png
 security:

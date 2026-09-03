@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 51 operations · 14 acting
 api_count: 5
 apis:
-- description: To view and maintain Agent Definitions with the Agent System of Record.
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: To view and maintain Agent Definitions with the Agent System of Record.
   name: Workday Payroll agentDefinition API
   slug: workday-payroll-agentdefinition-api
-- description: Manage deduction codes and worker deductions
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage deduction codes and worker deductions
   name: Workday Payroll Deductions API
   slug: workday-payroll-deductions-api
-- description: Manage earning codes and worker earnings
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage earning codes and worker earnings
   name: Workday Payroll Earnings API
   slug: workday-payroll-earnings-api
-- description: Manage batch submissions of payroll input data
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage batch submissions of payroll input data
   name: Workday Payroll Input Batches API
   slug: workday-payroll-input-batches-api
-- description: Submit and manage one-time payment requests
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Submit and manage one-time payment requests
   name: Workday Payroll One-Time Payments API
   slug: workday-payroll-one-time-payments-api
-- description: Configure and manage pay groups for organizing payroll
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Configure and manage pay groups for organizing payroll
   name: Workday Payroll Pay Groups API
   slug: workday-payroll-pay-groups-api
-- description: Manage payroll processing runs and their lifecycle
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage payroll processing runs and their lifecycle
   name: Workday Payroll Pay Runs API
   slug: workday-payroll-pay-runs-api
-- description: Manage worker payment election and distribution details
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage worker payment election and distribution details
   name: Workday Payroll Payment Elections API
   slug: workday-payroll-payment-elections-api
-- description: Retrieve payment processing results and details
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Retrieve payment processing results and details
   name: Workday Payroll Payment Results API
   slug: workday-payroll-payment-results-api
-- description: Create and manage payroll adjustments and corrections
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Create and manage payroll adjustments and corrections
   name: Workday Payroll Payroll Adjustments API
   slug: workday-payroll-payroll-adjustments-api
-- description: Trigger and monitor payroll calculation processes
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Trigger and monitor payroll calculation processes
   name: Workday Payroll Payroll Calculations API
   slug: workday-payroll-payroll-calculations-api
-- description: Access aggregated payroll result summaries
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Access aggregated payroll result summaries
   name: Workday Payroll Payroll Summaries API
   slug: workday-payroll-payroll-summaries-api
-- description: Access worker payslip and pay statement data
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Access worker payslip and pay statement data
   name: Workday Payroll Payslips API
   slug: workday-payroll-payslips-api
-- description: Submit supplemental earnings such as bonuses and commissions
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Submit supplemental earnings such as bonuses and commissions
   name: Workday Payroll Supplemental Earnings API
   slug: workday-payroll-supplemental-earnings-api
-- description: View and manage tax calculation results
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: View and manage tax calculation results
   name: Workday Payroll Tax Calculations API
   slug: workday-payroll-tax-calculations-api
-- description: Access and manage worker tax elections (W-4, state forms)
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Access and manage worker tax elections (W-4, state forms)
   name: Workday Payroll Tax Elections API
   slug: workday-payroll-tax-elections-api
-- description: Access tax filing data and compliance reports
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Access tax filing data and compliance reports
   name: Workday Payroll Tax Filing API
   slug: workday-payroll-tax-filing-api
-- description: Retrieve tax jurisdiction and authority information
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Retrieve tax jurisdiction and authority information
   name: Workday Payroll Tax Jurisdictions API
   slug: workday-payroll-tax-jurisdictions-api
-- description: Manage worker tax withholding configurations
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Manage worker tax withholding configurations
   name: Workday Payroll Tax Withholdings API
   slug: workday-payroll-tax-withholdings-api
-- description: Submit time off and leave inputs for payroll processing
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Submit time off and leave inputs for payroll processing
   name: Workday Payroll Time Off Inputs API
   slug: workday-payroll-time-off-inputs-api
-- description: Access worker payroll data and compensation details
+- baseURL: https://api.workday.com/payroll/v1
+  baseurl_source: declared
+  description: Access worker payroll data and compensation details
   name: Workday Payroll Workers API
   slug: workday-payroll-workers-api
 artifact_total: 324
@@ -1132,7 +1174,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png
 security:

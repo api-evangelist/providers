@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -93,7 +93,7 @@ score:
   band: thin
   composite: 28.2
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -119,8 +119,9 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/science-corporation/refs/heads/main/screenshots/science-corporation-2026-09-02T154534.png
 security:
 - kind: domain-security
   name: Science Corporation Domain Security

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -33,58 +45,94 @@ agentic_access:
   summary_line: 109 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Administration API from Ki Insurance — 4 operation(s) for administration.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Administration API from Ki Insurance — 4 operation(s) for administration.
   name: Ki Insurance Administration API
   slug: ki-insurance-administration-api
-- description: The Broking Houses API from Ki Insurance — 5 operation(s) for broking houses.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Broking Houses API from Ki Insurance — 5 operation(s) for broking houses.
   name: Ki Insurance Broking Houses API
   slug: ki-insurance-broking-houses-api
-- description: The Classes of Business API from Ki Insurance — 1 operation(s) for classes of business.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Classes of Business API from Ki Insurance — 1 operation(s) for classes of business.
   name: Ki Insurance Classes of Business API
   slug: ki-insurance-classes-of-business-api
-- description: The Configuration API from Ki Insurance — 1 operation(s) for configuration.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Configuration API from Ki Insurance — 1 operation(s) for configuration.
   name: Ki Insurance Configuration API
   slug: ki-insurance-configuration-api
-- description: The Dashboard API from Ki Insurance — 2 operation(s) for dashboard.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Dashboard API from Ki Insurance — 2 operation(s) for dashboard.
   name: Ki Insurance Dashboard API
   slug: ki-insurance-dashboard-api
-- description: The Facilities API from Ki Insurance — 4 operation(s) for facilities.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Facilities API from Ki Insurance — 4 operation(s) for facilities.
   name: Ki Insurance Facilities API
   slug: ki-insurance-facilities-api
-- description: The Indications API from Ki Insurance — 2 operation(s) for indications.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Indications API from Ki Insurance — 2 operation(s) for indications.
   name: Ki Insurance Indications API
   slug: ki-insurance-indications-api
-- description: The Leads API from Ki Insurance — 3 operation(s) for leads.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Leads API from Ki Insurance — 3 operation(s) for leads.
   name: Ki Insurance Leads API
   slug: ki-insurance-leads-api
-- description: The Market Leaders API from Ki Insurance — 4 operation(s) for market leaders.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Market Leaders API from Ki Insurance — 4 operation(s) for market leaders.
   name: Ki Insurance Market Leaders API
   slug: ki-insurance-market-leaders-api
-- description: The Master Data API from Ki Insurance — 39 operation(s) for master data.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Master Data API from Ki Insurance — 39 operation(s) for master data.
   name: Ki Insurance Master Data API
   slug: ki-insurance-master-data-api
-- description: The Pipeline API from Ki Insurance — 2 operation(s) for pipeline.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Pipeline API from Ki Insurance — 2 operation(s) for pipeline.
   name: Ki Insurance Pipeline API
   slug: ki-insurance-pipeline-api
-- description: The Quotes API from Ki Insurance — 15 operation(s) for quotes.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Quotes API from Ki Insurance — 15 operation(s) for quotes.
   name: Ki Insurance Quotes API
   slug: ki-insurance-quotes-api
-- description: The Risk Codes API from Ki Insurance — 1 operation(s) for risk codes.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Risk Codes API from Ki Insurance — 1 operation(s) for risk codes.
   name: Ki Insurance Risk Codes API
   slug: ki-insurance-risk-codes-api
-- description: The Schedule of Values API from Ki Insurance — 2 operation(s) for schedule of values.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Schedule of Values API from Ki Insurance — 2 operation(s) for schedule of values.
   name: Ki Insurance Schedule of Values API
   slug: ki-insurance-schedule-of-values-api
-- description: The Slip Extraction API from Ki Insurance — 5 operation(s) for slip extraction.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Slip Extraction API from Ki Insurance — 5 operation(s) for slip extraction.
   name: Ki Insurance Slip Extraction API
   slug: ki-insurance-slip-extraction-api
-- description: The Support API from Ki Insurance — 1 operation(s) for support.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Support API from Ki Insurance — 1 operation(s) for support.
   name: Ki Insurance Support API
   slug: ki-insurance-support-api
-- description: The Telemetry API from Ki Insurance — 1 operation(s) for telemetry.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Telemetry API from Ki Insurance — 1 operation(s) for telemetry.
   name: Ki Insurance Telemetry API
   slug: ki-insurance-telemetry-api
-- description: The Users API from Ki Insurance — 10 operation(s) for users.
+- baseURL: https://app.ki-insurance.com
+  baseurl_source: declared
+  description: The Users API from Ki Insurance — 10 operation(s) for users.
   name: Ki Insurance Users API
   slug: ki-insurance-users-api
 arazzos:
@@ -275,7 +323,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

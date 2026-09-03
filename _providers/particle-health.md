@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 59 operations · 17 acting
 api_count: 1
 apis:
-- description: OAuth 2 client-credentials JWT issuance.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: OAuth 2 client-credentials JWT issuance.
   name: Particle Health Authentication API
   slug: particle-health-authentication-api
-- description: Batch query orchestration over patient cohorts.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Batch query orchestration over patient cohorts.
   name: Particle Health Batches API
   slug: particle-health-batches-api
-- description: C-CDA clinical document retrieval.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: C-CDA clinical document retrieval.
   name: Particle Health CCDA API
   slug: particle-health-ccda-api
-- description: Incremental change retrieval since a previous query.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Incremental change retrieval since a previous query.
   name: Particle Health Deltas API
   slug: particle-health-deltas-api
-- description: Document upload, retrieval, and deletion.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Document upload, retrieval, and deletion.
   name: Particle Health Documents API
   slug: particle-health-documents-api
-- description: FHIR R4 resource search and read.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: FHIR R4 resource search and read.
   name: Particle Health FHIR API
   slug: particle-health-fhir-api
-- description: Query result file download.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Query result file download.
   name: Particle Health Files API
   slug: particle-health-files-api
-- description: Flat (normalized columnar) clinical data domains.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Flat (normalized columnar) clinical data domains.
   name: Particle Health Flat API
   slug: particle-health-flat-api
-- description: HL7v2 ADT messages.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: HL7v2 ADT messages.
   name: Particle Health HL7v2 API
   slug: particle-health-hl7v2-api
-- description: Directory search over connected network organizations.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Directory search over connected network organizations.
   name: Particle Health NetworkParticipants API
   slug: particle-health-networkparticipants-api
-- description: Project-level webhook notification configuration.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Project-level webhook notification configuration.
   name: Particle Health Notifications API
   slug: particle-health-notifications-api
-- description: Patient demographic registration and lookup.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Patient demographic registration and lookup.
   name: Particle Health Patients API
   slug: particle-health-patients-api
-- description: Project and service-account management.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Project and service-account management.
   name: Particle Health Projects API
   slug: particle-health-projects-api
-- description: Patient provider mapping across the network.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Patient provider mapping across the network.
   name: Particle Health ProviderMap API
   slug: particle-health-providermap-api
-- description: One-time network query orchestration.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: One-time network query orchestration.
   name: Particle Health Queries API
   slug: particle-health-queries-api
-- description: Real-time encounter, transition, and ADT alerts.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Real-time encounter, transition, and ADT alerts.
   name: Particle Health Signal API
   slug: particle-health-signal-api
-- description: Patient subscription management for Signal.
+- baseURL: https://api.particlehealth.com
+  baseurl_source: declared
+  description: Patient subscription management for Signal.
   name: Particle Health Subscriptions API
   slug: particle-health-subscriptions-api
 arazzos:
@@ -505,7 +539,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -515,7 +549,7 @@ score:
     discoverability: 70.4
     governance: 25.0
     operational_transparency: 80.3
-  previous_composite: 63.6
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -533,7 +567,7 @@ score:
     regime_id: health
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:

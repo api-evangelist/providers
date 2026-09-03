@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Obtain and test API keys
+- baseURL: https://api.shopgo.me/v1/management
+  baseurl_source: declared
+  description: Obtain and test API keys
   name: ShopGo Authentication API
   slug: shopgo-authentication-api
-- description: Order, payment and shipment management
+- baseURL: https://api.shopgo.me/v1/management
+  baseurl_source: declared
+  description: Order, payment and shipment management
   name: ShopGo Orders API
   slug: shopgo-orders-api
-- description: Store availability, legal and webhook settings
+- baseURL: https://api.shopgo.me/v1/management
+  baseurl_source: declared
+  description: Store availability, legal and webhook settings
   name: ShopGo Store API
   slug: shopgo-store-api
-- description: The Tenants API from ShopGo — 2 operation(s) for tenants.
+- baseURL: https://api.shopgo.me/v1/management
+  baseurl_source: declared
+  description: The Tenants API from ShopGo — 2 operation(s) for tenants.
   name: ShopGo Tenants API
   slug: shopgo-tenants-api
-- description: Dashboard user and tenant information
+- baseURL: https://api.shopgo.me/v1/management
+  baseurl_source: declared
+  description: Dashboard user and tenant information
   name: ShopGo Users API
   slug: shopgo-users-api
 artifact_total: 15
@@ -172,11 +182,11 @@ score:
   band: thin
   composite: 31.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -186,7 +196,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 31.7
   provenance:
     conformance: derived
     contracts:
@@ -203,8 +213,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopgo/refs/heads/main/screenshots/shopgo-2026-09-02T155259.png
 security:
 - kind: authentication
   name: Shopgo Authentication

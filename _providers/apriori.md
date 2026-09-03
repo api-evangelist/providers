@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Agent Controller
+- baseURL: http://localhost/api
+  baseurl_source: declared
+  description: Agent Controller
   name: aPriori Agent API
   slug: apriori-agent-api
-- description: Workflows Controller
+- baseURL: http://localhost/api
+  baseurl_source: declared
+  description: Workflows Controller
   name: aPriori Workflow API
   slug: apriori-workflow-api
 artifact_total: 9
@@ -198,7 +213,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:

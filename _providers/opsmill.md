@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,49 +46,79 @@ apis:
 - description: The GraphQL API is Infrahub's primary interface, auto-generated from core and user-defined schema models, supporting branch-aware queries, time-travel (global branch), mutations, and subscriptions. En
   name: Infrahub GraphQL API
   slug: infrahub-graphql-api
-- description: The Artifact API from OpsMill — 2 operation(s) for artifact.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Artifact API from OpsMill — 2 operation(s) for artifact.
   name: OpsMill Artifact API
   slug: opsmill-artifact-api
-- description: The Auth API from OpsMill — 4 operation(s) for auth.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Auth API from OpsMill — 4 operation(s) for auth.
   name: OpsMill Auth API
   slug: opsmill-auth-api
-- description: The Config API from OpsMill — 1 operation(s) for config.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Config API from OpsMill — 1 operation(s) for config.
   name: OpsMill Config API
   slug: opsmill-config-api
-- description: The Diff API from OpsMill — 2 operation(s) for diff.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Diff API from OpsMill — 2 operation(s) for diff.
   name: OpsMill Diff API
   slug: opsmill-diff-api
-- description: The File API from OpsMill — 1 operation(s) for file.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The File API from OpsMill — 1 operation(s) for file.
   name: OpsMill File API
   slug: opsmill-file-api
-- description: The Info API from OpsMill — 1 operation(s) for info.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Info API from OpsMill — 1 operation(s) for info.
   name: OpsMill Info API
   slug: opsmill-info-api
-- description: The Menu API from OpsMill — 1 operation(s) for menu.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Menu API from OpsMill — 1 operation(s) for menu.
   name: OpsMill Menu API
   slug: opsmill-menu-api
-- description: The Oauth2 API from OpsMill — 2 operation(s) for oauth2.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Oauth2 API from OpsMill — 2 operation(s) for oauth2.
   name: OpsMill Oauth2 API
   slug: opsmill-oauth2-api
-- description: The Oidc API from OpsMill — 2 operation(s) for oidc.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Oidc API from OpsMill — 2 operation(s) for oidc.
   name: OpsMill Oidc API
   slug: opsmill-oidc-api
-- description: The Query API from OpsMill — 1 operation(s) for query.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Query API from OpsMill — 1 operation(s) for query.
   name: OpsMill Query API
   slug: opsmill-query-api
-- description: The Schema API from OpsMill — 6 operation(s) for schema.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Schema API from OpsMill — 6 operation(s) for schema.
   name: OpsMill Schema API
   slug: opsmill-schema-api
-- description: The Schema.graphql API from OpsMill — 1 operation(s) for schema.graphql.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Schema.graphql API from OpsMill — 1 operation(s) for schema.graphql.
   name: OpsMill Schema.graphql API
   slug: opsmill-schema-graphql-api
-- description: The Storage API from OpsMill — 6 operation(s) for storage.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Storage API from OpsMill — 6 operation(s) for storage.
   name: OpsMill Storage API
   slug: opsmill-storage-api
-- description: The Telemetry API from OpsMill — 1 operation(s) for telemetry.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Telemetry API from OpsMill — 1 operation(s) for telemetry.
   name: OpsMill Telemetry API
   slug: opsmill-telemetry-api
-- description: The Transform API from OpsMill — 2 operation(s) for transform.
+- baseURL: https://sandbox.infrahub.app/api
+  baseurl_source: declared
+  description: The Transform API from OpsMill — 2 operation(s) for transform.
   name: OpsMill Transform API
   slug: opsmill-transform-api
 artifact_total: 36
@@ -305,7 +335,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsmill/refs/heads/main/screenshots/opsmill-2026-08-07T190749.png
 security:

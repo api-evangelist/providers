@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 32 operations
 api_count: 1
 apis:
-- description: The Celebrities API from Tribune Media — 3 operation(s) for celebrities.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Celebrities API from Tribune Media — 3 operation(s) for celebrities.
   name: Tribune Media Celebrities API
   slug: tribune-media-celebrities-api
-- description: The Lineups API from Tribune Media — 4 operation(s) for lineups.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Lineups API from Tribune Media — 4 operation(s) for lineups.
   name: Tribune Media Lineups API
   slug: tribune-media-lineups-api
-- description: The Movies API from Tribune Media — 3 operation(s) for movies.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Movies API from Tribune Media — 3 operation(s) for movies.
   name: Tribune Media Movies API
   slug: tribune-media-movies-api
-- description: The Online Video API from Tribune Media — 3 operation(s) for online video.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Online Video API from Tribune Media — 3 operation(s) for online video.
   name: Tribune Media Online Video API
   slug: tribune-media-online-video-api
-- description: The Programs API from Tribune Media — 5 operation(s) for programs.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Programs API from Tribune Media — 5 operation(s) for programs.
   name: Tribune Media Programs API
   slug: tribune-media-programs-api
-- description: The Series API from Tribune Media — 3 operation(s) for series.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Series API from Tribune Media — 3 operation(s) for series.
   name: Tribune Media Series API
   slug: tribune-media-series-api
-- description: The Social API from Tribune Media — 1 operation(s) for social.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Social API from Tribune Media — 1 operation(s) for social.
   name: Tribune Media Social API
   slug: tribune-media-social-api
-- description: The Sports API from Tribune Media — 5 operation(s) for sports.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Sports API from Tribune Media — 5 operation(s) for sports.
   name: Tribune Media Sports API
   slug: tribune-media-sports-api
-- description: The Stations API from Tribune Media — 3 operation(s) for stations.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Stations API from Tribune Media — 3 operation(s) for stations.
   name: Tribune Media Stations API
   slug: tribune-media-stations-api
-- description: The Theatres API from Tribune Media — 2 operation(s) for theatres.
+- baseURL: https://data.tmsapi.com
+  baseurl_source: spec
+  description: The Theatres API from Tribune Media — 2 operation(s) for theatres.
   name: Tribune Media Theatres API
   slug: tribune-media-theatres-api
 artifact_total: 39
@@ -295,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png
 security:

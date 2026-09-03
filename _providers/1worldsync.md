@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 3 acting
 api_count: 1
 apis:
-- description: The FetchProduct API from 1WorldSync — 3 operation(s) for fetchproduct.
+- baseURL: https://content1-api.1worldsync.com
+  baseurl_source: declared
+  description: The FetchProduct API from 1WorldSync — 3 operation(s) for fetchproduct.
   name: 1WorldSync FetchProduct API
   slug: 1worldsync-fetchproduct-api
 artifact_total: 8
@@ -226,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1worldsync/refs/heads/main/screenshots/1worldsync-2026-07-25T181115.png
 security:

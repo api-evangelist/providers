@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Read triaged, deduplicated bugs and their analysis runs.
+- baseURL: https://sonarly.com/api/v1/public
+  baseurl_source: declared
+  description: Read triaged, deduplicated bugs and their analysis runs.
   name: Sonarly Bugs API
   slug: sonarly-bugs-api
-- description: Read incidents and their analysis runs.
+- baseURL: https://sonarly.com/api/v1/public
+  baseurl_source: declared
+  description: Read incidents and their analysis runs.
   name: Sonarly Incidents API
   slug: sonarly-incidents-api
-- description: Device-code style setup-session API to onboard a tenant.
+- baseURL: https://sonarly.com/api/v1/public
+  baseurl_source: declared
+  description: Device-code style setup-session API to onboard a tenant.
   name: Sonarly Setup API
   slug: sonarly-setup-api
 artifact_total: 13
@@ -181,7 +187,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -191,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 26.7
+  previous_composite: 26.6
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarly/refs/heads/main/screenshots/sonarly-2026-08-17T081959.png
 security:

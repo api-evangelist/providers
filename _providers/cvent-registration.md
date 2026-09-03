@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: Cvent Webhooks deliver real-time push notifications when registration, attendee, session, and meeting request events occur in Cvent. Webhook subscribers receive event payloads at a configured URL, ena
   name: Cvent Registration Webhooks
   slug: webhooks
-- description: Event registrations and attendees
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event registrations and attendees
   name: Cvent Registration Attendees API
   slug: cvent-registration-attendees-api
-- description: Contact/address book
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Contact/address book
   name: Cvent Registration Contacts API
   slug: cvent-registration-contacts-api
-- description: Event lifecycle and configuration
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event lifecycle and configuration
   name: Cvent Registration Events API
   slug: cvent-registration-events-api
-- description: Exhibitor management
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Exhibitor management
   name: Cvent Registration Exhibitors API
   slug: cvent-registration-exhibitors-api
-- description: OAuth 2.0 token issuance
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance
   name: Cvent Registration OAuth API
   slug: cvent-registration-oauth-api
-- description: Agenda sessions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Agenda sessions
   name: Cvent Registration Sessions API
   slug: cvent-registration-sessions-api
-- description: Webhook subscriptions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Webhook subscriptions
   name: Cvent Registration Webhooks API
   slug: cvent-registration-webhooks-api
 artifact_total: 26
@@ -240,7 +254,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-registration/refs/heads/main/screenshots/cvent-registration-2026-06-20T175407.png
 security:

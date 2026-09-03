@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -43,112 +43,184 @@ agentic_access:
   summary_line: 71 operations · 71 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Amazon App Runner AWS App Runner API API from Amazon App Runner — 1 operation(s) for amazon app runner aws app runner api.
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon App Runner AWS App Runner API API from Amazon App Runner — 1 operation(s) for amazon app runner aws app runner api.
   name: Amazon App Runner Amazon App Runner AWS App Runner API API
   slug: amazon-app-runner-amazon-app-runner-aws-app-runner-api-api
-- description: 'The #X Amz Target=AppRunner.AssociateCustomDomain API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.associatecustomdomain.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.AssociateCustomDomain API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.associatecustomdomain.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.AssociateCustomDomain API'
   slug: amazon-app-runner-x-amz-target-apprunner-associatecustomdomain-api
-- description: 'The #X Amz Target=AppRunner.CreateAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createautoscalingconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createautoscalingconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateAutoScalingConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-createautoscalingconfiguration-api
-- description: 'The #X Amz Target=AppRunner.CreateConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-createconnection-api
-- description: 'The #X Amz Target=AppRunner.CreateObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createobservabilityconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createobservabilityconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateObservabilityConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-createobservabilityconfiguration-api
-- description: 'The #X Amz Target=AppRunner.CreateService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateService API'
   slug: amazon-app-runner-x-amz-target-apprunner-createservice-api
-- description: 'The #X Amz Target=AppRunner.CreateVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createvpcconnector.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createvpcconnector.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateVpcConnector API'
   slug: amazon-app-runner-x-amz-target-apprunner-createvpcconnector-api
-- description: 'The #X Amz Target=AppRunner.CreateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createvpcingressconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.CreateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.createvpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.CreateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-createvpcingressconnection-api
-- description: 'The #X Amz Target=AppRunner.DeleteAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteautoscalingconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteautoscalingconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteAutoScalingConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-deleteautoscalingconfiguration-api
-- description: 'The #X Amz Target=AppRunner.DeleteConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-deleteconnection-api
-- description: 'The #X Amz Target=AppRunner.DeleteObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteobservabilityconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteobservabilityconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteObservabilityConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-deleteobservabilityconfiguration-api
-- description: 'The #X Amz Target=AppRunner.DeleteService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deleteservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteService API'
   slug: amazon-app-runner-x-amz-target-apprunner-deleteservice-api
-- description: 'The #X Amz Target=AppRunner.DeleteVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deletevpcconnector.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deletevpcconnector.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteVpcConnector API'
   slug: amazon-app-runner-x-amz-target-apprunner-deletevpcconnector-api
-- description: 'The #X Amz Target=AppRunner.DeleteVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deletevpcingressconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DeleteVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.deletevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DeleteVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-deletevpcingressconnection-api
-- description: 'The #X Amz Target=AppRunner.DescribeAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeautoscalingconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeAutoScalingConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeautoscalingconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeAutoScalingConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-describeautoscalingconfiguration-api
-- description: 'The #X Amz Target=AppRunner.DescribeCustomDomains API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describecustomdomains.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeCustomDomains API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describecustomdomains.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeCustomDomains API'
   slug: amazon-app-runner-x-amz-target-apprunner-describecustomdomains-api
-- description: 'The #X Amz Target=AppRunner.DescribeObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeobservabilityconfiguration.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeObservabilityConfiguration API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeobservabilityconfiguration.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeObservabilityConfiguration API'
   slug: amazon-app-runner-x-amz-target-apprunner-describeobservabilityconfiguration-api
-- description: 'The #X Amz Target=AppRunner.DescribeService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describeservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeService API'
   slug: amazon-app-runner-x-amz-target-apprunner-describeservice-api
-- description: 'The #X Amz Target=AppRunner.DescribeVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describevpcconnector.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeVpcConnector API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describevpcconnector.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeVpcConnector API'
   slug: amazon-app-runner-x-amz-target-apprunner-describevpcconnector-api
-- description: 'The #X Amz Target=AppRunner.DescribeVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describevpcingressconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DescribeVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.describevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DescribeVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-describevpcingressconnection-api
-- description: 'The #X Amz Target=AppRunner.DisassociateCustomDomain API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.disassociatecustomdomain.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.DisassociateCustomDomain API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.disassociatecustomdomain.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.DisassociateCustomDomain API'
   slug: amazon-app-runner-x-amz-target-apprunner-disassociatecustomdomain-api
-- description: 'The #X Amz Target=AppRunner.ListAutoScalingConfigurations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listautoscalingconfigurations.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListAutoScalingConfigurations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listautoscalingconfigurations.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListAutoScalingConfigurations API'
   slug: amazon-app-runner-x-amz-target-apprunner-listautoscalingconfigurations-api
-- description: 'The #X Amz Target=AppRunner.ListConnections API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listconnections.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListConnections API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listconnections.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListConnections API'
   slug: amazon-app-runner-x-amz-target-apprunner-listconnections-api
-- description: 'The #X Amz Target=AppRunner.ListObservabilityConfigurations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listobservabilityconfigurations.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListObservabilityConfigurations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listobservabilityconfigurations.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListObservabilityConfigurations API'
   slug: amazon-app-runner-x-amz-target-apprunner-listobservabilityconfigurations-api
-- description: 'The #X Amz Target=AppRunner.ListOperations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listoperations.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListOperations API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listoperations.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListOperations API'
   slug: amazon-app-runner-x-amz-target-apprunner-listoperations-api
-- description: 'The #X Amz Target=AppRunner.ListServices API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listservices.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListServices API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listservices.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListServices API'
   slug: amazon-app-runner-x-amz-target-apprunner-listservices-api
-- description: 'The #X Amz Target=AppRunner.ListTagsForResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listtagsforresource.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListTagsForResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listtagsforresource.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListTagsForResource API'
   slug: amazon-app-runner-x-amz-target-apprunner-listtagsforresource-api
-- description: 'The #X Amz Target=AppRunner.ListVpcConnectors API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listvpcconnectors.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListVpcConnectors API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listvpcconnectors.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListVpcConnectors API'
   slug: amazon-app-runner-x-amz-target-apprunner-listvpcconnectors-api
-- description: 'The #X Amz Target=AppRunner.ListVpcIngressConnections API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listvpcingressconnections.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ListVpcIngressConnections API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.listvpcingressconnections.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ListVpcIngressConnections API'
   slug: amazon-app-runner-x-amz-target-apprunner-listvpcingressconnections-api
-- description: 'The #X Amz Target=AppRunner.PauseService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.pauseservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.PauseService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.pauseservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.PauseService API'
   slug: amazon-app-runner-x-amz-target-apprunner-pauseservice-api
-- description: 'The #X Amz Target=AppRunner.ResumeService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.resumeservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.ResumeService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.resumeservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.ResumeService API'
   slug: amazon-app-runner-x-amz-target-apprunner-resumeservice-api
-- description: 'The #X Amz Target=AppRunner.StartDeployment API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.startdeployment.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.StartDeployment API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.startdeployment.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.StartDeployment API'
   slug: amazon-app-runner-x-amz-target-apprunner-startdeployment-api
-- description: 'The #X Amz Target=AppRunner.TagResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.tagresource.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.TagResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.tagresource.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.TagResource API'
   slug: amazon-app-runner-x-amz-target-apprunner-tagresource-api
-- description: 'The #X Amz Target=AppRunner.UntagResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.untagresource.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.UntagResource API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.untagresource.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UntagResource API'
   slug: amazon-app-runner-x-amz-target-apprunner-untagresource-api
-- description: 'The #X Amz Target=AppRunner.UpdateService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updateservice.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.UpdateService API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updateservice.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateService API'
   slug: amazon-app-runner-x-amz-target-apprunner-updateservice-api
-- description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
+- baseURL: https://apprunner.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AppRunner.UpdateVpcIngressConnection API from Amazon App Runner — 1 operation(s) for #x amz target=apprunner.updatevpcingressconnection.'
   name: 'Amazon App Runner #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
 artifact_total: 632
@@ -2110,7 +2182,7 @@ score:
       total: 36
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

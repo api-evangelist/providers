@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -59,31 +59,49 @@ apis:
 - description: Unreal Engine is profiled separately. See the unreal-engine entry for Unreal SDK / Plugin / Pixel Streaming / RHI / Online Subsystem details.
   name: Unreal Engine (Pointer)
   slug: unreal-engine-pointer
-- description: The Achievements API from Epic Games — 2 operation(s) for achievements.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Achievements API from Epic Games — 2 operation(s) for achievements.
   name: Epic Games Achievements API
   slug: epic-games-achievements-api
-- description: The Auth API from Epic Games — 4 operation(s) for auth.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Auth API from Epic Games — 4 operation(s) for auth.
   name: Epic Games Auth API
   slug: epic-games-auth-api
-- description: The Connect API from Epic Games — 1 operation(s) for connect.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Connect API from Epic Games — 1 operation(s) for connect.
   name: Epic Games Connect API
   slug: epic-games-connect-api
-- description: The Ecom API from Epic Games — 1 operation(s) for ecom.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Ecom API from Epic Games — 1 operation(s) for ecom.
   name: Epic Games Ecom API
   slug: epic-games-ecom-api
-- description: The Leaderboards API from Epic Games — 2 operation(s) for leaderboards.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Leaderboards API from Epic Games — 2 operation(s) for leaderboards.
   name: Epic Games Leaderboards API
   slug: epic-games-leaderboards-api
-- description: The PlayerDataStorage API from Epic Games — 1 operation(s) for playerdatastorage.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The PlayerDataStorage API from Epic Games — 1 operation(s) for playerdatastorage.
   name: Epic Games PlayerDataStorage API
   slug: epic-games-playerdatastorage-api
-- description: The Sanctions API from Epic Games — 1 operation(s) for sanctions.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Sanctions API from Epic Games — 1 operation(s) for sanctions.
   name: Epic Games Sanctions API
   slug: epic-games-sanctions-api
-- description: The Stats API from Epic Games — 1 operation(s) for stats.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The Stats API from Epic Games — 1 operation(s) for stats.
   name: Epic Games Stats API
   slug: epic-games-stats-api
-- description: The TitleStorage API from Epic Games — 1 operation(s) for titlestorage.
+- baseURL: https://api.epicgames.dev
+  baseurl_source: declared
+  description: The TitleStorage API from Epic Games — 1 operation(s) for titlestorage.
   name: Epic Games TitleStorage API
   slug: epic-games-titlestorage-api
 artifact_total: 34
@@ -279,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/screenshots/epic-games-2026-06-20T180759.png
 security:

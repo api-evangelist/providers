@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -80,19 +80,29 @@ apis:
 - description: Transaction reporting, reconciliation, and financial action exports.
   name: Checkout.com Reporting & Financial Actions API
   slug: checkoutcom-reporting-financial-actions-api
-- description: The Customers API from Checkout.com — 2 operation(s) for customers.
+- baseURL: https://api.checkout.com
+  baseurl_source: declared
+  description: The Customers API from Checkout.com — 2 operation(s) for customers.
   name: Checkout.com Customers API
   slug: checkout-com-customers-api
-- description: The Instruments API from Checkout.com — 2 operation(s) for instruments.
+- baseURL: https://api.checkout.com
+  baseurl_source: declared
+  description: The Instruments API from Checkout.com — 2 operation(s) for instruments.
   name: Checkout.com Instruments API
   slug: checkout-com-instruments-api
-- description: The Payments API from Checkout.com — 5 operation(s) for payments.
+- baseURL: https://api.checkout.com
+  baseurl_source: declared
+  description: The Payments API from Checkout.com — 5 operation(s) for payments.
   name: Checkout.com Payments API
   slug: checkout-com-payments-api
-- description: The Tokens API from Checkout.com — 2 operation(s) for tokens.
+- baseURL: https://api.checkout.com
+  baseurl_source: declared
+  description: The Tokens API from Checkout.com — 2 operation(s) for tokens.
   name: Checkout.com Tokens API
   slug: checkout-com-tokens-api
-- description: The Workflows API from Checkout.com — 2 operation(s) for workflows.
+- baseURL: https://api.checkout.com
+  baseurl_source: declared
+  description: The Workflows API from Checkout.com — 2 operation(s) for workflows.
   name: Checkout.com Workflows API
   slug: checkout-com-workflows-api
 artifact_total: 34
@@ -258,7 +268,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png
 security:

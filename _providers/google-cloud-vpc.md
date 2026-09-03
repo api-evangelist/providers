@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage firewall rules for VPC networks
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage firewall rules for VPC networks
   name: Google Cloud VPC Firewalls API
   slug: google-cloud-vpc-firewalls-api
-- description: Manage VPC networks
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage VPC networks
   name: Google Cloud VPC Networks API
   slug: google-cloud-vpc-networks-api
-- description: Manage routes for VPC networks
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage routes for VPC networks
   name: Google Cloud VPC Routes API
   slug: google-cloud-vpc-routes-api
-- description: Manage subnetworks within VPC networks
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage subnetworks within VPC networks
   name: Google Cloud VPC Subnetworks API
   slug: google-cloud-vpc-subnetworks-api
 artifact_total: 19
@@ -192,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-vpc/refs/heads/main/screenshots/google-cloud-vpc-2026-06-20T182148.png
 security:

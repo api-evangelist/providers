@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -43,76 +43,124 @@ agentic_access:
   summary_line: 137 operations · 64 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints to interract with activities collected by StreamElements
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to interract with activities collected by StreamElements
   name: StreamElements activities API
   slug: streamelements-activities-api
-- description: Endpoints to manage StreamElements chat bot
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage StreamElements chat bot
   name: StreamElements bot API
   slug: streamelements-bot-api
-- description: Endpoints to get channel data
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to get channel data
   name: StreamElements channels API
   slug: streamelements-channels-api
-- description: Endpoint to get chat statistics
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoint to get chat statistics
   name: StreamElements chatstats API
   slug: streamelements-chatstats-api
-- description: Bot commands management
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Bot commands management
   name: StreamElements commands API
   slug: streamelements-commands-api
-- description: Endpoints to interract with contests
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to interract with contests
   name: StreamElements contests API
   slug: streamelements-contests-api
-- description: Bot spam filters management
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Bot spam filters management
   name: StreamElements filters API
   slug: streamelements-filters-api
-- description: 'This endpoint is available only in the API version 3. Make sure to use the v3 base URL: https://api.streamelements.com/kappa/v3.'
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: 'This endpoint is available only in the API version 3. Make sure to use the v3 base URL: https://api.streamelements.com/kappa/v3.'
   name: StreamElements giveaways API
   slug: streamelements-giveaways-api
-- description: Endpoints to manage loyalty settings
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage loyalty settings
   name: StreamElements loyalties API
   slug: streamelements-loyalties-api
-- description: Endpoints to manage bot modules
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage bot modules
   name: StreamElements modules API
   slug: streamelements-modules-api
-- description: Endpoints to manage overlays assigned to channel
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage overlays assigned to channel
   name: StreamElements overlays API
   slug: streamelements-overlays-api
-- description: Endpoints to manage loyalty points
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage loyalty points
   name: StreamElements points API
   slug: streamelements-points-api
-- description: The redemptions API from StreamElements — 4 operation(s) for redemptions.
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: The redemptions API from StreamElements — 4 operation(s) for redemptions.
   name: StreamElements redemptions API
   slug: streamelements-redemptions-api
-- description: Endpoints to manage session data
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage session data
   name: StreamElements sessions API
   slug: streamelements-sessions-api
-- description: The single contest API from StreamElements — 6 operation(s) for single contest.
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: The single contest API from StreamElements — 6 operation(s) for single contest.
   name: StreamElements single contest API
   slug: streamelements-single-contest-api
-- description: 'This endpoint is available only in the API version 3. Make sure to use the v3 base URL: https://api.streamelements.com/kappa/v3.'
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: 'This endpoint is available only in the API version 3. Make sure to use the v3 base URL: https://api.streamelements.com/kappa/v3.'
   name: StreamElements single giveaway API
   slug: streamelements-single-giveaway-api
-- description: Endpoints to manage single user points data
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to manage single user points data
   name: StreamElements single user API
   slug: streamelements-single-user-api
-- description: Endpoints to interact with StreamElements Mediashare
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to interact with StreamElements Mediashare
   name: StreamElements songrequests API
   slug: streamelements-songrequests-api
-- description: Folder for loyalty
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Folder for loyalty
   name: StreamElements stats API
   slug: streamelements-stats-api
-- description: Store items management
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Store items management
   name: StreamElements store API
   slug: streamelements-store-api
-- description: Endpoints to browse StreamElements themes
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to browse StreamElements themes
   name: StreamElements themes API
   slug: streamelements-themes-api
-- description: Bot timers (chat "cron" messages) management
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Bot timers (chat "cron" messages) management
   name: StreamElements timers API
   slug: streamelements-timers-api
-- description: Endpoints to interract with tips
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Endpoints to interract with tips
   name: StreamElements tips API
   slug: streamelements-tips-api
-- description: Folder for loyalty
+- baseURL: https://api.streamelements.com/kappa/v2
+  baseurl_source: declared
+  description: Folder for loyalty
   name: StreamElements users API
   slug: streamelements-users-api
 artifact_total: 55
@@ -350,7 +398,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -360,7 +408,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 43.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,7 +420,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamelements/refs/heads/main/screenshots/streamelements-2026-08-17T082134.png
 security:

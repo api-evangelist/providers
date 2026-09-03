@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 26 operations · 23 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Autocomplete API from Ocean.io — 5 operation(s) for autocomplete.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Autocomplete API from Ocean.io — 5 operation(s) for autocomplete.
   name: Ocean.io Autocomplete API
   slug: ocean-io-autocomplete-api
-- description: The Enrich API from Ocean.io — 4 operation(s) for enrich.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Enrich API from Ocean.io — 4 operation(s) for enrich.
   name: Ocean.io Enrich API
   slug: ocean-io-enrich-api
-- description: The Lookup API from Ocean.io — 2 operation(s) for lookup.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Lookup API from Ocean.io — 2 operation(s) for lookup.
   name: Ocean.io Lookup API
   slug: ocean-io-lookup-api
-- description: The Ocean.io API Documentation API from Ocean.io — 0 operation(s) for ocean.io api documentation.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Ocean.io API Documentation API from Ocean.io — 0 operation(s) for ocean.io api documentation.
   name: Ocean.io Ocean.io API Documentation API
   slug: ocean-io-ocean-io-api-documentation-api
-- description: The Other API from Ocean.io — 3 operation(s) for other.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Other API from Ocean.io — 3 operation(s) for other.
   name: Ocean.io Other API
   slug: ocean-io-other-api
-- description: The Reveal API from Ocean.io — 2 operation(s) for reveal.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Reveal API from Ocean.io — 2 operation(s) for reveal.
   name: Ocean.io Reveal API
   slug: ocean-io-reveal-api
-- description: The Search API from Ocean.io — 6 operation(s) for search.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Search API from Ocean.io — 6 operation(s) for search.
   name: Ocean.io Search API
   slug: ocean-io-search-api
-- description: The Segmentation API from Ocean.io — 4 operation(s) for segmentation.
+- baseURL: https://api.ocean.io
+  baseurl_source: declared
+  description: The Segmentation API from Ocean.io — 4 operation(s) for segmentation.
   name: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
 artifact_total: 19
@@ -238,7 +254,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -248,7 +264,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 41.2
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,7 +276,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/screenshots/ocean-io-2026-06-20T190601.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -43,145 +43,239 @@ agentic_access:
   summary_line: 356 operations · 246 acting
 api_count: 1
 apis:
-- description: AI Translation APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: AI Translation APIs.
   name: Patsnap AI Translation API
   slug: patsnap-ai-translation-api
-- description: Bio-Pharma Encyclopedia Q&A APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Bio-Pharma Encyclopedia Q&A APIs.
   name: Patsnap Bio-Pharma Encyclopedia Q&A API
   slug: patsnap-bio-pharma-encyclopedia-q-a-api
-- description: Biopharmaceutical Dictionary Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Biopharmaceutical Dictionary Data APIs.
   name: Patsnap Biopharmaceutical Dictionary Data API
   slug: patsnap-biopharmaceutical-dictionary-data-api
-- description: Chemical and Bio Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Chemical and Bio Data APIs.
   name: Patsnap Chemical and Bio Data API
   slug: patsnap-chemical-and-bio-data-api
-- description: Chemical SAR Extract APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Chemical SAR Extract APIs.
   name: Patsnap Chemical SAR Extract API
   slug: patsnap-chemical-sar-extract-api
-- description: Custom Aggregate Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Custom Aggregate Data APIs.
   name: Patsnap Custom Aggregate Data API
   slug: patsnap-custom-aggregate-data-api
-- description: Design Infringement 1v1 APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Design Infringement 1v1 APIs.
   name: Patsnap Design Infringement 1v1 API
   slug: patsnap-design-infringement-1v1-api
-- description: Design Infringement Search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Design Infringement Search APIs.
   name: Patsnap Design Infringement Search API
   slug: patsnap-design-infringement-search-api
-- description: Drug Basic Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Drug Basic Data APIs.
   name: Patsnap Drug Basic Data API
   slug: patsnap-drug-basic-data-api
-- description: Drug Clinical Trial Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Drug Clinical Trial Data APIs.
   name: Patsnap Drug Clinical Trial Data API
   slug: patsnap-drug-clinical-trial-data-api
-- description: Drug Mining Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Drug Mining Data APIs.
   name: Patsnap Drug Mining Data API
   slug: patsnap-drug-mining-data-api
-- description: Drug R&D Orgnization APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Drug R&D Orgnization APIs.
   name: Patsnap Drug R&D Orgnization API
   slug: patsnap-drug-r-d-orgnization-api
-- description: Drug Visual Analysis APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Drug Visual Analysis APIs.
   name: Patsnap Drug Visual Analysis  API
   slug: patsnap-drug-visual-analysis-api
-- description: Enterprise Basic Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Enterprise Basic Data APIs.
   name: Patsnap Enterprise Basic Data API
   slug: patsnap-enterprise-basic-data-api
-- description: Enterprise IP Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Enterprise IP Data APIs.
   name: Patsnap Enterprise IP Data API
   slug: patsnap-enterprise-ip-data-api
-- description: Enterprise Persona Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Enterprise Persona Data APIs.
   name: Patsnap Enterprise Persona Data API
   slug: patsnap-enterprise-persona-data-api
-- description: Enterprise Tech Analysis APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Enterprise Tech Analysis APIs.
   name: Patsnap Enterprise Tech Analysis API
   slug: patsnap-enterprise-tech-analysis-api
-- description: Enterprise Tech Evaluation APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Enterprise Tech Evaluation APIs.
   name: Patsnap Enterprise Tech Evaluation API
   slug: patsnap-enterprise-tech-evaluation-api
-- description: Feasibility Analysis Assistant APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Feasibility Analysis Assistant APIs.
   name: Patsnap Feasibility Analysis Assistant API
   slug: patsnap-feasibility-analysis-assistant-api
-- description: Formulation Assistant APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Formulation Assistant APIs.
   name: Patsnap Formulation Assistant API
   slug: patsnap-formulation-assistant-api
-- description: FTO Search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: FTO Search APIs.
   name: Patsnap FTO Search API
   slug: patsnap-fto-search-api
-- description: Insights Company Report APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Insights Company Report APIs.
   name: Patsnap Insights Company Report API
   slug: patsnap-insights-company-report-api
-- description: Literature Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Literature Data APIs.
   name: Patsnap Literature Data API
   slug: patsnap-literature-data-api
-- description: LS Search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: LS Search APIs.
   name: Patsnap LS Search API
   slug: patsnap-ls-search-api
-- description: Novelty Check Assistant APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Novelty Check Assistant APIs.
   name: Patsnap Novelty Check Assistant API
   slug: patsnap-novelty-check-assistant-api
-- description: Novelty Search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Novelty Search APIs.
   name: Patsnap Novelty Search API
   slug: patsnap-novelty-search-api
-- description: Others APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Others APIs.
   name: Patsnap Others API
   slug: patsnap-others-api
-- description: Patent Basic Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Basic Data APIs.
   name: Patsnap Patent Basic Data API
   slug: patsnap-patent-basic-data-api
-- description: Patent Data Search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Data Search APIs.
   name: Patsnap Patent Data Search API
   slug: patsnap-patent-data-search-api
-- description: Patent Legal Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Legal Data APIs.
   name: Patsnap Patent Legal Data API
   slug: patsnap-patent-legal-data-api
-- description: Patent Mining Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Mining Data APIs.
   name: Patsnap Patent Mining Data API
   slug: patsnap-patent-mining-data-api
-- description: Patent Monitor and Export APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Monitor and Export APIs.
   name: Patsnap Patent Monitor and Export API
   slug: patsnap-patent-monitor-and-export-api
-- description: Patent Valuation Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patent Valuation Data APIs.
   name: Patsnap Patent Valuation Data API
   slug: patsnap-patent-valuation-data-api
-- description: Patsnap Academy Course APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patsnap Academy Course APIs.
   name: Patsnap Patsnap Academy Course API
   slug: patsnap-patsnap-academy-course-api
-- description: Patsnap Analysis Report APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patsnap Analysis Report APIs.
   name: Patsnap Patsnap Analysis Report API
   slug: patsnap-patsnap-analysis-report-api
-- description: Patsnap LLM APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Patsnap LLM APIs.
   name: Patsnap Patsnap LLM API
   slug: patsnap-patsnap-llm-api
-- description: R&D solution search APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: R&D solution search APIs.
   name: Patsnap R&D solution search API
   slug: patsnap-r-d-solution-search-api
-- description: Specification Drafting APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Specification Drafting APIs.
   name: Patsnap Specification Drafting API
   slug: patsnap-specification-drafting-api
-- description: Tech Pre-research Report APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Tech Pre-research Report APIs.
   name: Patsnap Tech Pre-research Report API
   slug: patsnap-tech-pre-research-report-api
-- description: Tech Solution Exploration APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Tech Solution Exploration APIs.
   name: Patsnap Tech Solution Exploration API
   slug: patsnap-tech-solution-exploration-api
-- description: Tech Solution Exploration(Materials) APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Tech Solution Exploration(Materials) APIs.
   name: Patsnap Tech Solution Exploration(Materials) API
   slug: patsnap-tech-solution-exploration-materials-api
-- description: Technical Disclosure APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Technical Disclosure APIs.
   name: Patsnap Technical Disclosure API
   slug: patsnap-technical-disclosure-api
-- description: Technical Q&A APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Technical Q&A APIs.
   name: Patsnap Technical Q&A API
   slug: patsnap-technical-q-a-api
-- description: Technology Key Report APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Technology Key Report APIs.
   name: Patsnap Technology Key Report API
   slug: patsnap-technology-key-report-api
-- description: Telecom APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Telecom APIs.
   name: Patsnap Telecom API
   slug: patsnap-telecom-api
-- description: TFFI Enterprise Evaluation (Level5) APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: TFFI Enterprise Evaluation (Level5) APIs.
   name: Patsnap TFFI Enterprise Evaluation (Level5) API
   slug: patsnap-tffi-enterprise-evaluation-level5-api
-- description: Trademark Data APIs.
+- baseURL: https://connect.patsnap.com
+  baseurl_source: declared
+  description: Trademark Data APIs.
   name: Patsnap Trademark Data API
   slug: patsnap-trademark-data-api
 artifact_total: 100
@@ -500,7 +594,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png
 security:

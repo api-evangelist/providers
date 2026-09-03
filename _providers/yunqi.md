@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 3
 common:
@@ -154,7 +154,7 @@ score:
   band: thin
   composite: 31.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -174,8 +174,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yunqi/refs/heads/main/screenshots/yunqi-2026-09-02T171409.png
 security:
 - kind: authentication
   name: Yunqi Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: Operations for managing discovered infrastructure assets
+- baseURL: https://migrationcenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing discovered infrastructure assets
   name: Google Cloud Migration Center Assets API
   slug: google-cloud-migration-center-assets-api
-- description: Operations for organizing assets into groups
+- baseURL: https://migrationcenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for organizing assets into groups
   name: Google Cloud Migration Center Groups API
   slug: google-cloud-migration-center-groups-api
-- description: Operations for importing asset data from external sources
+- baseURL: https://migrationcenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for importing asset data from external sources
   name: Google Cloud Migration Center ImportJobs API
   slug: google-cloud-migration-center-importjobs-api
-- description: Operations for managing migration preference configurations
+- baseURL: https://migrationcenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing migration preference configurations
   name: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/screenshots/google-cloud-migration-center-2026-06-20T182120.png
 security:

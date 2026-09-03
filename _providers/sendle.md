@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 1
 apis:
-- description: Create, view, cancel, and return parcel orders. Supports domestic AU / US / CA orders plus international from AU and US (DAP and DDP Price Guaranteed) and from CA to US. Returns label URLs, tracking U
+- baseURL: https://api.sendle.com/api
+  baseurl_source: declared
+  description: Create, view, cancel, and return parcel orders. Supports domestic AU / US / CA orders plus international from AU and US (DAP and DDP Price Guaranteed) and from CA to US. Returns label URLs, tracking U
   name: Sendle Orders API
   slug: sendle-orders-api
-- description: Get one quote per shipping product for a given route. GET /products handles domestic and DAP international; POST /products adds DDP Price Guaranteed (duties + taxes included). Each quote includes plan
+- baseURL: https://api.sendle.com/api
+  baseurl_source: declared
+  description: Get one quote per shipping product for a given route. GET /products handles domestic and DAP international; POST /products adds DDP Price Guaranteed (duties + taxes included). Each quote includes plan
   name: Sendle Products & Quoting API
   slug: sendle-products-api
-- description: 'Retrieve all tracking events for a parcel by Sendle reference, or subscribe a parcel to webhook tracking updates. Webhooks deliver per-event JSON payloads to the account-level callback URL configured '
+- baseURL: https://api.sendle.com/api
+  baseurl_source: declared
+  description: 'Retrieve all tracking events for a parcel by Sendle reference, or subscribe a parcel to webhook tracking updates. Webhooks deliver per-event JSON payloads to the account-level callback URL configured '
   name: Sendle Tracking API
   slug: sendle-tracking-api
-- description: Create, list, download (PDF), and inspect USPS SCAN Form shipping manifests so a driver can pick up many US Domestic Sendle orders with a single barcode scan. Orders must be created the same day as th
+- baseURL: https://api.sendle.com/api
+  baseurl_source: declared
+  description: Create, list, download (PDF), and inspect USPS SCAN Form shipping manifests so a driver can pick up many US Domestic Sendle orders with a single barcode scan. Orders must be created the same day as th
   name: Sendle Shipping Manifests API
   slug: sendle-manifests-api
-- description: Connectivity and credential testing
+- baseURL: https://api.sendle.com/api
+  baseurl_source: declared
+  description: Connectivity and credential testing
   name: Sendle Utility API
   slug: sendle-utility-api
 artifact_total: 32
@@ -282,7 +292,7 @@ score:
     catalog_gap: 24.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -292,7 +302,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 44.7
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,7 +313,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Company record, offices, and teams.
+- baseURL: https://charliehr.com/api/v1
+  baseurl_source: declared
+  description: Company record, offices, and teams.
   name: CharlieHR Company API
   slug: charliehr-company-api
-- description: Leave (time off) requests.
+- baseURL: https://charliehr.com/api/v1
+  baseurl_source: declared
+  description: Leave (time off) requests.
   name: CharlieHR Leave / Absences API
   slug: charliehr-leave-absences-api
-- description: Leave allowance balances.
+- baseURL: https://charliehr.com/api/v1
+  baseurl_source: declared
+  description: Leave allowance balances.
   name: CharlieHR Leave Allowances API
   slug: charliehr-leave-allowances-api
-- description: Company team members and their notes.
+- baseURL: https://charliehr.com/api/v1
+  baseurl_source: declared
+  description: Company team members and their notes.
   name: CharlieHR Team Members API
   slug: charliehr-team-members-api
 artifact_total: 18
@@ -186,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/screenshots/charliehr-2026-07-25T205104.png
 security:

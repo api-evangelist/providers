@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 11 acting
 api_count: 1
 apis:
-- description: Create, list, retrieve, cancel, and audit print orders.
+- baseURL: https://api.cloudprinter.com/cloudcore/1.0
+  baseurl_source: declared
+  description: Create, list, retrieve, cancel, and audit print orders.
   name: Cloudprinter Orders API
   slug: cloudprinter-orders-api
-- description: List products and retrieve product specifications and options.
+- baseURL: https://api.cloudprinter.com/cloudcore/1.0
+  baseurl_source: declared
+  description: List products and retrieve product specifications and options.
   name: Cloudprinter Products API
   slug: cloudprinter-products-api
-- description: Request real-time product and shipping price quotes.
+- baseURL: https://api.cloudprinter.com/cloudcore/1.0
+  baseurl_source: declared
+  description: Request real-time product and shipping price quotes.
   name: Cloudprinter Quotes API
   slug: cloudprinter-quotes-api
-- description: Shipping levels, supported countries, and states reference data.
+- baseURL: https://api.cloudprinter.com/cloudcore/1.0
+  baseurl_source: declared
+  description: Shipping levels, supported countries, and states reference data.
   name: Cloudprinter Shipping API
   slug: cloudprinter-shipping-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
 security:

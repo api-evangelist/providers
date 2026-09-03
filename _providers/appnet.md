@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The App.net Stream API — a RESTful, OAuth 2.0-secured social API covering posts, users, follows, channels/messages, files, filters, and a real-time streaming surface. Responses use a uniform {data, me
@@ -137,7 +137,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appnet/refs/heads/main/screenshots/appnet-2026-07-25T200825.png
 security:

@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
   name: Oddpool API
   slug: oddpool-api
-- description: Single-connection WebSocket streaming real-time, normalized cross-venue prediction market data (dist, book, trade, and snapshot channels) for macro economic events and crypto (BTC/ETH) markets enriche
+- baseURL: wss://feeds.oddpool.com/ws
+  baseurl_source: declared
+  description: Single-connection WebSocket streaming real-time, normalized cross-venue prediction market data (dist, book, trade, and snapshot channels) for macro economic events and crypto (BTC/ETH) markets enriche
   name: Oddpool WebSocket Feeds
   slug: oddpool-websocket-feeds
 artifact_total: 6
@@ -160,7 +162,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -170,7 +172,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 40.5
   provenance:
     conformance: derived
     mcp: derived
@@ -181,7 +183,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddpool/refs/heads/main/screenshots/oddpool-2026-08-07T185952.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 23 operations · 6 acting
 api_count: 1
 apis:
-- description: Daily exercise tracking
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Daily exercise tracking
   name: fatsecret Exercise Diary API
   slug: fatsecret-exercise-diary-api
-- description: Daily food entries and summaries
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Daily food entries and summaries
   name: fatsecret Food Diary API
   slug: fatsecret-food-diary-api
-- description: Search and retrieve food nutrition data
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Search and retrieve food nutrition data
   name: fatsecret Foods API
   slug: fatsecret-foods-api
-- description: Identify foods and their nutrition from a photograph
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Identify foods and their nutrition from a photograph
   name: fatsecret Image Recognition API
   slug: fatsecret-image-recognition-api
-- description: Turn a free-text meal description into matched foods and nutrition
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Turn a free-text meal description into matched foods and nutrition
   name: fatsecret Natural Language Processing API
   slug: fatsecret-natural-language-processing-api
-- description: User-managed custom foods and favorites
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: User-managed custom foods and favorites
   name: fatsecret Profile Foods API
   slug: fatsecret-profile-foods-api
-- description: Saved meals and meal items
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Saved meals and meal items
   name: fatsecret Profile Meals API
   slug: fatsecret-profile-meals-api
-- description: Search and retrieve recipes
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Search and retrieve recipes
   name: fatsecret Recipes API
   slug: fatsecret-recipes-api
-- description: Reference data for brands, categories, and exercises
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: Reference data for brands, categories, and exercises
   name: fatsecret Reference API
   slug: fatsecret-reference-api
-- description: User weight history
+- baseURL: https://platform.fatsecret.com/rest
+  baseurl_source: declared
+  description: User weight history
   name: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
 artifact_total: 33
@@ -343,7 +363,7 @@ score:
     regime_id: health
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/screenshots/fatsecret-2026-06-20T181056.png
 security:

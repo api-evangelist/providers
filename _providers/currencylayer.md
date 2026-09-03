@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Currency change (margin and percentage) analysis between two dates.
+- baseURL: https://api.apilayer.com/currency_data
+  baseurl_source: declared
+  description: Currency change (margin and percentage) analysis between two dates.
   name: Currencylayer Change API
   slug: currencylayer-change-api
-- description: On-demand currency amount conversion.
+- baseURL: https://api.apilayer.com/currency_data
+  baseurl_source: declared
+  description: On-demand currency amount conversion.
   name: Currencylayer Conversion API
   slug: currencylayer-conversion-api
-- description: Real-time and historical foreign exchange rate operations.
+- baseURL: https://api.apilayer.com/currency_data
+  baseurl_source: declared
+  description: Real-time and historical foreign exchange rate operations.
   name: Currencylayer Rates API
   slug: currencylayer-rates-api
-- description: Discovery of supported currency symbols.
+- baseURL: https://api.apilayer.com/currency_data
+  baseurl_source: declared
+  description: Discovery of supported currency symbols.
   name: Currencylayer Symbols API
   slug: currencylayer-symbols-api
-- description: Daily historical rates between two dates.
+- baseURL: https://api.apilayer.com/currency_data
+  baseurl_source: declared
+  description: Daily historical rates between two dates.
   name: Currencylayer Time Frame API
   slug: currencylayer-time-frame-api
 artifact_total: 72
@@ -364,7 +374,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
 security:

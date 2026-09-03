@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 3
 common:
@@ -77,13 +77,13 @@ jsonld:
   slug: welltower-context
 layout: provider
 modified: '2026-05-03'
-name: welltower
+name: Welltower
 nav: Providers
 network: true
-overview: 'welltower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Welltower is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
-  The welltower catalog on APIs.io includes 1 JSON-LD context.'
+  The Welltower catalog on APIs.io includes 1 JSON-LD context.'
 press:
 - date: '2026-05-25'
   title: Public Storage and Welltower Announce Strategic Data ...
@@ -121,7 +121,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/welltower/refs/heads/main/screenshots/welltower-2026-06-20T201351.png
 security:

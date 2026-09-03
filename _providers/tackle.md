@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 78 operations · 35 acting
 api_count: 7
 apis:
-- description: Operations for API Authentication
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for API Authentication
   name: Tackle Authentication API
   slug: tackle-authentication-api
-- description: The Contracts API from Tackle — 2 operation(s) for contracts.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Contracts API from Tackle — 2 operation(s) for contracts.
   name: Tackle Contracts API
   slug: tackle-contracts-api
-- description: Microsoft marketplace currency and conversion helpers.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Microsoft marketplace currency and conversion helpers.
   name: Tackle Currencies API
   slug: tackle-currencies-api
-- description: The Disbursements API from Tackle — 1 operation(s) for disbursements.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Disbursements API from Tackle — 1 operation(s) for disbursements.
   name: Tackle Disbursements API
   slug: tackle-disbursements-api
-- description: Legacy entitlements endpoint - returns flat role objects
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Legacy entitlements endpoint - returns flat role objects
   name: Tackle Entitlements API
   slug: tackle-entitlements-api
-- description: SCIM 2.0 Groups endpoint - returns full Group resources (RFC 7643 §4.2)
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: SCIM 2.0 Groups endpoint - returns full Group resources (RFC 7643 §4.2)
   name: Tackle Groups API
   slug: tackle-groups-api
-- description: Create (test-environment-only), read, update, and list co-sell invitations — AWS-led requests to partner with you on a specific opportunity. Use the update operation to accept or reject an invitation,
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Create (test-environment-only), read, update, and list co-sell invitations — AWS-led requests to partner with you on a specific opportunity. Use the update operation to accept or reject an invitation,
   name: Tackle Invitations API
   slug: tackle-invitations-api
-- description: The Invoices API from Tackle — 1 operation(s) for invoices.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Invoices API from Tackle — 1 operation(s) for invoices.
   name: Tackle Invoices API
   slug: tackle-invoices-api
-- description: AWS Marketplace context endpoints used to assemble offers and amendments.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: AWS Marketplace context endpoints used to assemble offers and amendments.
   name: Tackle Marketplace API
   slug: tackle-marketplace-api
-- description: The Metering API from Tackle — 2 operation(s) for metering.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The Metering API from Tackle — 2 operation(s) for metering.
   name: Tackle Metering API
   slug: tackle-metering-api
-- description: Buyer instruction notification operations.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Buyer instruction notification operations.
   name: Tackle Notifications API
   slug: tackle-notifications-api
-- description: 'Create, read, update, and list co-sell opportunities — the partner- originated (Outbound / Partner Referral) and AWS-originated (Inbound / AWS Referral) deals tracked in AWS Partner Central. Includes '
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: 'Create, read, update, and list co-sell opportunities — the partner- originated (Outbound / Partner Referral) and AWS-originated (Inbound / AWS Referral) deals tracked in AWS Partner Central. Includes '
   name: Tackle Opportunities API
   slug: tackle-opportunities-api
-- description: AWS Marketplace partner (reseller) reference data.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: AWS Marketplace partner (reseller) reference data.
   name: Tackle Partners API
   slug: tackle-partners-api
-- description: Private offer lifecycle actions such as archive, cancel, and sync.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Private offer lifecycle actions such as archive, cancel, and sync.
   name: Tackle Private Offer Actions API
   slug: tackle-private-offer-actions-api
-- description: AWS private-offer lifecycle (create, read, update, cancel, push to marketplace).
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: AWS private-offer lifecycle (create, read, update, cancel, push to marketplace).
   name: Tackle Private Offers API
   slug: tackle-private-offers-api
-- description: Operations for Products
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Products
   name: Tackle Products API
   slug: tackle-products-api
-- description: The public API from Tackle — 7 operation(s) for public.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: The public API from Tackle — 7 operation(s) for public.
   name: Tackle public API
   slug: tackle-public-api
-- description: Operations for Order Registrations
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Order Registrations
   name: Tackle Registrations API
   slug: tackle-registrations-api
-- description: Score domains and search scored accounts.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Score domains and search scored accounts.
   name: Tackle Scores API
   slug: tackle-scores-api
-- description: Service provider configuration and capabilities
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Service provider configuration and capabilities
   name: Tackle Service Provider API
   slug: tackle-service-provider-api
-- description: List the co-sell solutions registered with AWS Partner Central for your account. Solution identifiers are referenced by `solutions` on opportunities.
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: List the co-sell solutions registered with AWS Partner Central for your account. Solution identifiers are referenced by `solutions` on opportunities.
   name: Tackle Solutions API
   slug: tackle-solutions-api
-- description: Operations for Subscriptions
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Subscriptions
   name: Tackle Subscriptions API
   slug: tackle-subscriptions-api
-- description: User management operations
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: User management operations
   name: Tackle Users API
   slug: tackle-users-api
-- description: Operations for API Versions
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for API Versions
   name: Tackle Version API
   slug: tackle-version-api
-- description: Operations for Webhooks
+- baseURL: https://api.tackle.io
+  baseurl_source: declared
+  description: Operations for Webhooks
   name: Tackle Webhooks API
   slug: tackle-webhooks-api
 artifact_total: 61
@@ -380,7 +430,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -390,7 +440,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 54.4
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,7 +452,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tackle/refs/heads/main/screenshots/tackle-2026-08-17T082242.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 19 operations · 19 acting
 api_count: 19
 apis:
-- description: The CreateCluster API from Amazon Parallel Computing Service — 1 operation(s) for createcluster.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The CreateCluster API from Amazon Parallel Computing Service — 1 operation(s) for createcluster.
   name: Amazon Parallel Computing Service CreateCluster API
   slug: amazon-parallel-computing-service-createcluster-api
-- description: The CreateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for createcomputenodegroup.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The CreateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for createcomputenodegroup.
   name: Amazon Parallel Computing Service CreateComputeNodeGroup API
   slug: amazon-parallel-computing-service-createcomputenodegroup-api
-- description: The CreateQueue API from Amazon Parallel Computing Service — 1 operation(s) for createqueue.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The CreateQueue API from Amazon Parallel Computing Service — 1 operation(s) for createqueue.
   name: Amazon Parallel Computing Service CreateQueue API
   slug: amazon-parallel-computing-service-createqueue-api
-- description: The DeleteCluster API from Amazon Parallel Computing Service — 1 operation(s) for deletecluster.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteCluster API from Amazon Parallel Computing Service — 1 operation(s) for deletecluster.
   name: Amazon Parallel Computing Service DeleteCluster API
   slug: amazon-parallel-computing-service-deletecluster-api
-- description: The DeleteComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for deletecomputenodegroup.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for deletecomputenodegroup.
   name: Amazon Parallel Computing Service DeleteComputeNodeGroup API
   slug: amazon-parallel-computing-service-deletecomputenodegroup-api
-- description: The DeleteQueue API from Amazon Parallel Computing Service — 1 operation(s) for deletequeue.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteQueue API from Amazon Parallel Computing Service — 1 operation(s) for deletequeue.
   name: Amazon Parallel Computing Service DeleteQueue API
   slug: amazon-parallel-computing-service-deletequeue-api
-- description: The GetCluster API from Amazon Parallel Computing Service — 1 operation(s) for getcluster.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The GetCluster API from Amazon Parallel Computing Service — 1 operation(s) for getcluster.
   name: Amazon Parallel Computing Service GetCluster API
   slug: amazon-parallel-computing-service-getcluster-api
-- description: The GetComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for getcomputenodegroup.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The GetComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for getcomputenodegroup.
   name: Amazon Parallel Computing Service GetComputeNodeGroup API
   slug: amazon-parallel-computing-service-getcomputenodegroup-api
-- description: The GetQueue API from Amazon Parallel Computing Service — 1 operation(s) for getqueue.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The GetQueue API from Amazon Parallel Computing Service — 1 operation(s) for getqueue.
   name: Amazon Parallel Computing Service GetQueue API
   slug: amazon-parallel-computing-service-getqueue-api
-- description: The ListClusters API from Amazon Parallel Computing Service — 1 operation(s) for listclusters.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The ListClusters API from Amazon Parallel Computing Service — 1 operation(s) for listclusters.
   name: Amazon Parallel Computing Service ListClusters API
   slug: amazon-parallel-computing-service-listclusters-api
-- description: The ListComputeNodeGroups API from Amazon Parallel Computing Service — 1 operation(s) for listcomputenodegroups.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The ListComputeNodeGroups API from Amazon Parallel Computing Service — 1 operation(s) for listcomputenodegroups.
   name: Amazon Parallel Computing Service ListComputeNodeGroups API
   slug: amazon-parallel-computing-service-listcomputenodegroups-api
-- description: The ListQueues API from Amazon Parallel Computing Service — 1 operation(s) for listqueues.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The ListQueues API from Amazon Parallel Computing Service — 1 operation(s) for listqueues.
   name: Amazon Parallel Computing Service ListQueues API
   slug: amazon-parallel-computing-service-listqueues-api
-- description: The ListTagsForResource API from Amazon Parallel Computing Service — 1 operation(s) for listtagsforresource.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from Amazon Parallel Computing Service — 1 operation(s) for listtagsforresource.
   name: Amazon Parallel Computing Service ListTagsForResource API
   slug: amazon-parallel-computing-service-listtagsforresource-api
-- description: The RegisterComputeNodeGroupInstance API from Amazon Parallel Computing Service — 1 operation(s) for registercomputenodegroupinstance.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The RegisterComputeNodeGroupInstance API from Amazon Parallel Computing Service — 1 operation(s) for registercomputenodegroupinstance.
   name: Amazon Parallel Computing Service RegisterComputeNodeGroupInstance API
   slug: amazon-parallel-computing-service-registercomputenodegroupinstance-api
-- description: The TagResource API from Amazon Parallel Computing Service — 1 operation(s) for tagresource.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from Amazon Parallel Computing Service — 1 operation(s) for tagresource.
   name: Amazon Parallel Computing Service TagResource API
   slug: amazon-parallel-computing-service-tagresource-api
-- description: The UntagResource API from Amazon Parallel Computing Service — 1 operation(s) for untagresource.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from Amazon Parallel Computing Service — 1 operation(s) for untagresource.
   name: Amazon Parallel Computing Service UntagResource API
   slug: amazon-parallel-computing-service-untagresource-api
-- description: The UpdateCluster API from Amazon Parallel Computing Service — 1 operation(s) for updatecluster.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateCluster API from Amazon Parallel Computing Service — 1 operation(s) for updatecluster.
   name: Amazon Parallel Computing Service UpdateCluster API
   slug: amazon-parallel-computing-service-updatecluster-api
-- description: The UpdateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for updatecomputenodegroup.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateComputeNodeGroup API from Amazon Parallel Computing Service — 1 operation(s) for updatecomputenodegroup.
   name: Amazon Parallel Computing Service UpdateComputeNodeGroup API
   slug: amazon-parallel-computing-service-updatecomputenodegroup-api
-- description: The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
+- baseURL: https://pcs.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateQueue API from Amazon Parallel Computing Service — 1 operation(s) for updatequeue.
   name: Amazon Parallel Computing Service UpdateQueue API
   slug: amazon-parallel-computing-service-updatequeue-api
 artifact_total: 48
@@ -309,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/screenshots/amazon-parallel-computing-service-2026-06-20T171755.png
 security:

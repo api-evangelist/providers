@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 4
@@ -53,70 +53,114 @@ apis:
 - description: Emory Libraries (Library Technology and Digital Strategies) maintains a large public open-source GitHub organization with ~120 repositories, including the dlp-curate preservation workbench, TheKeep ar
   name: Emory Libraries Digital Repository Software
   slug: libraries-github
-- description: annotation resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: annotation resource
   name: Emory University annotation API
   slug: emory-annotation-api
-- description: api_key resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: api_key resource
   name: Emory University api_key API
   slug: emory-api-key-api
-- description: assetstore resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: assetstore resource
   name: Emory University assetstore API
   slug: emory-assetstore-api
-- description: collection resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: collection resource
   name: Emory University collection API
   slug: emory-collection-api
-- description: dicomweb_assetstore resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: dicomweb_assetstore resource
   name: Emory University dicomweb_assetstore API
   slug: emory-dicomweb-assetstore-api
-- description: file resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: file resource
   name: Emory University file API
   slug: emory-file-api
-- description: files resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: files resource
   name: Emory University files API
   slug: emory-files-api
-- description: folder resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: folder resource
   name: Emory University folder API
   slug: emory-folder-api
-- description: group resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: group resource
   name: Emory University group API
   slug: emory-group-api
-- description: histomicsui resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: histomicsui resource
   name: Emory University histomicsui API
   slug: emory-histomicsui-api
-- description: homepage resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: homepage resource
   name: Emory University homepage API
   slug: emory-homepage-api
-- description: item resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: item resource
   name: Emory University item API
   slug: emory-item-api
-- description: job resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: job resource
   name: Emory University job API
   slug: emory-job-api
-- description: large_image resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: large_image resource
   name: Emory University large_image API
   slug: emory-large-image-api
-- description: notification resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: notification resource
   name: Emory University notification API
   slug: emory-notification-api
-- description: resource resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: resource resource
   name: Emory University resource API
   slug: emory-resource-api
-- description: slicer_cli_web resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: slicer_cli_web resource
   name: Emory University slicer_cli_web API
   slug: emory-slicer-cli-web-api
-- description: system resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: system resource
   name: Emory University system API
   slug: emory-system-api
-- description: tcga resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: tcga resource
   name: Emory University tcga API
   slug: emory-tcga-api
-- description: token resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: token resource
   name: Emory University token API
   slug: emory-token-api
-- description: user resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: user resource
   name: Emory University user API
   slug: emory-user-api
-- description: worker resource
+- baseURL: https://computablebrain.emory.edu/api/v1
+  baseurl_source: declared
+  description: worker resource
   name: Emory University worker API
   slug: emory-worker-api
 - description: The Emory Libraries Digital Library Program discovery layer (dlp-lux) exposes its Blacklight search index as a JSON:API document at /catalog.json. Query, paginate and read digital collection records —
@@ -407,7 +451,7 @@ score:
     catalog_gap: 49.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -420,7 +464,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 38.4
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -436,7 +480,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
 security:

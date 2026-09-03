@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,10 +55,14 @@ apis:
 - description: Enforcement and Compliance History Online (ECHO) provides public access to compliance and enforcement information for EPA-regulated facilities nationwide. The ECHO web services API supports facility s
   name: EPA ECHO Compliance and Enforcement API
   slug: echo
-- description: The Envirofacts API from Environmental Protection Agency — 2 operation(s) for envirofacts.
+- baseURL: https://data.epa.gov/efservice/
+  baseurl_source: declared
+  description: The Envirofacts API from Environmental Protection Agency — 2 operation(s) for envirofacts.
   name: Environmental Protection Agency Envirofacts API
   slug: environmental-protection-agency-envirofacts-api
-- description: The UVIndex API from Environmental Protection Agency — 4 operation(s) for uvindex.
+- baseURL: https://data.epa.gov/efservice/
+  baseurl_source: declared
+  description: The UVIndex API from Environmental Protection Agency — 4 operation(s) for uvindex.
   name: Environmental Protection Agency UVIndex API
   slug: environmental-protection-agency-uvindex-api
 artifact_total: 15
@@ -163,7 +167,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/environmental-protection-agency/refs/heads/main/screenshots/environmental-protection-agency-2026-06-20T180737.png
 security:

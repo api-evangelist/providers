@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -60,16 +60,24 @@ apis:
 - description: Web API for Power Pages (formerly Power Apps Portals) enabling CRUD operations on Microsoft Dataverse tables from portal webpages for richer user experiences.
   name: Power Pages Web API
   slug: power-pages-web-api
-- description: Operations for managing application packages within Power Platform environments, including listing available packages, installing applications, and checking installation status.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations for managing application packages within Power Platform environments, including listing available packages, installing applications, and checking installation status.
   name: Microsoft Power Platform APIs Applications API
   slug: power-platform-applications-api
-- description: Operations for listing, creating, and managing Power Platform environments. Environments are containers that store apps, flows, data, and other resources.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations for listing, creating, and managing Power Platform environments. Environments are containers that store apps, flows, data, and other resources.
   name: Microsoft Power Platform APIs Environments API
   slug: power-platform-environments-api
-- description: Operations for monitoring and retrieving Power Automate flow run history within environments.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations for monitoring and retrieving Power Automate flow run history within environments.
   name: Microsoft Power Platform APIs Flow Runs API
   slug: power-platform-flow-runs-api
-- description: Operations for managing billing policies and licensing across the Power Platform tenant.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations for managing billing policies and licensing across the Power Platform tenant.
   name: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
 artifact_total: 149
@@ -555,7 +563,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 30 operations · 13 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Retrieve a user's loyalty account, rewards, and points balances.
+- baseURL: https://loyalty.thanx.com
+  baseurl_source: declared
+  description: Retrieve a user's loyalty account, rewards, and points balances.
   name: Thanx Account API
   slug: thanx-account-api
-- description: Acquire privileged end-user access tokens.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Acquire privileged end-user access tokens.
   name: Thanx Auth API
   slug: thanx-auth-api
-- description: Create and update ordering baskets and redeem rewards or points products.
+- baseURL: https://loyalty.thanx.com
+  baseurl_source: declared
+  description: Create and update ordering baskets and redeem rewards or points products.
   name: Thanx Baskets API
   slug: thanx-baskets-api
-- description: Create, retrieve, list campaigns and issue rewards.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Create, retrieve, list campaigns and issue rewards.
   name: Thanx Campaigns API
   slug: thanx-campaigns-api
-- description: Register and manage payment cards for card-linked loyalty.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Register and manage payment cards for card-linked loyalty.
   name: Thanx Cards API
   slug: thanx-cards-api
-- description: Create, retrieve, and delete digital gift cards.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Create, retrieve, and delete digital gift cards.
   name: Thanx Gift Cards API
   slug: thanx-gift-cards-api
-- description: Track and revoke asynchronous reward issuance jobs.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Track and revoke asynchronous reward issuance jobs.
   name: Thanx Issuance Jobs API
   slug: thanx-issuance-jobs-api
-- description: Retrieve merchant locations.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Retrieve merchant locations.
   name: Thanx Locations API
   slug: thanx-locations-api
-- description: Look up merchants, locations, and scopes.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Look up merchants, locations, and scopes.
   name: Thanx Metadata API
   slug: thanx-metadata-api
-- description: Points balances, products, experiences, and multipliers.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Points balances, products, experiences, and multipliers.
   name: Thanx Points API
   slug: thanx-points-api
-- description: Retrieve and report consumer purchases.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Retrieve and report consumer purchases.
   name: Thanx Purchases API
   slug: thanx-purchases-api
-- description: Retrieve, activate, finalize, and grant loyalty rewards.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Retrieve, activate, finalize, and grant loyalty rewards.
   name: Thanx Rewards API
   slug: thanx-rewards-api
-- description: Ingest marketing subscribers.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Ingest marketing subscribers.
   name: Thanx Subscribers API
   slug: thanx-subscribers-api
-- description: Create, retrieve, update, and delete Thanx users.
+- baseURL: https://api.thanx.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete Thanx users.
   name: Thanx Users API
   slug: thanx-users-api
 artifact_total: 153
@@ -745,7 +773,7 @@ score:
     catalog_gap: 24.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -755,7 +783,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 86.8
-  previous_composite: 76.6
+  previous_composite: 76.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -767,7 +795,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:

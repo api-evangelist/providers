@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -45,52 +45,84 @@ agentic_access:
   summary_line: 123 operations · 46 acting
 api_count: 1
 apis:
-- description: The Authorization API from Zeplin — 2 operation(s) for authorization.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Authorization API from Zeplin — 2 operation(s) for authorization.
   name: Zeplin Authorization API
   slug: zeplin-authorization-api
-- description: The Colors API from Zeplin — 4 operation(s) for colors.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Colors API from Zeplin — 4 operation(s) for colors.
   name: Zeplin Colors API
   slug: zeplin-colors-api
-- description: The Components API from Zeplin — 10 operation(s) for components.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Components API from Zeplin — 10 operation(s) for components.
   name: Zeplin Components API
   slug: zeplin-components-api
-- description: The Connected Components API from Zeplin — 2 operation(s) for connected components.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Connected Components API from Zeplin — 2 operation(s) for connected components.
   name: Zeplin Connected Components API
   slug: zeplin-connected-components-api
-- description: The Design Tokens API from Zeplin — 2 operation(s) for design tokens.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Design Tokens API from Zeplin — 2 operation(s) for design tokens.
   name: Zeplin Design Tokens API
   slug: zeplin-design-tokens-api
-- description: The Flows API from Zeplin — 7 operation(s) for flows.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Flows API from Zeplin — 7 operation(s) for flows.
   name: Zeplin Flows API
   slug: zeplin-flows-api
-- description: The Notifications API from Zeplin — 2 operation(s) for notifications.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Notifications API from Zeplin — 2 operation(s) for notifications.
   name: Zeplin Notifications API
   slug: zeplin-notifications-api
-- description: The Organizations API from Zeplin — 11 operation(s) for organizations.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Organizations API from Zeplin — 11 operation(s) for organizations.
   name: Zeplin Organizations API
   slug: zeplin-organizations-api
-- description: The Projects API from Zeplin — 5 operation(s) for projects.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Projects API from Zeplin — 5 operation(s) for projects.
   name: Zeplin Projects API
   slug: zeplin-projects-api
-- description: The Screens API from Zeplin — 17 operation(s) for screens.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Screens API from Zeplin — 17 operation(s) for screens.
   name: Zeplin Screens API
   slug: zeplin-screens-api
-- description: The Spacing API from Zeplin — 6 operation(s) for spacing.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Spacing API from Zeplin — 6 operation(s) for spacing.
   name: Zeplin Spacing API
   slug: zeplin-spacing-api
-- description: The Styleguides API from Zeplin — 6 operation(s) for styleguides.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Styleguides API from Zeplin — 6 operation(s) for styleguides.
   name: Zeplin Styleguides API
   slug: zeplin-styleguides-api
-- description: The TextStyles API from Zeplin — 4 operation(s) for textstyles.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The TextStyles API from Zeplin — 4 operation(s) for textstyles.
   name: Zeplin TextStyles API
   slug: zeplin-textstyles-api
-- description: The Users API from Zeplin — 3 operation(s) for users.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Users API from Zeplin — 3 operation(s) for users.
   name: Zeplin Users API
   slug: zeplin-users-api
-- description: The Variable Collections API from Zeplin — 2 operation(s) for variable collections.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Variable Collections API from Zeplin — 2 operation(s) for variable collections.
   name: Zeplin Variable Collections API
   slug: zeplin-variable-collections-api
-- description: The Webhooks API from Zeplin — 8 operation(s) for webhooks.
+- baseURL: https://api.zeplin.io
+  baseurl_source: declared
+  description: The Webhooks API from Zeplin — 8 operation(s) for webhooks.
   name: Zeplin Webhooks API
   slug: zeplin-webhooks-api
 artifact_total: 44
@@ -272,7 +304,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -282,7 +314,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 46.1
-  previous_composite: 44.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -291,7 +323,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/screenshots/zeplin-2026-06-20T201824.png
 security:

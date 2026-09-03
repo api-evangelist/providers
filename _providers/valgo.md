@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 14 operations · 9 acting
 api_count: 1
 apis:
-- description: The Compute API from Valgo — 1 operation(s) for compute.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Compute API from Valgo — 1 operation(s) for compute.
   name: Valgo Compute API
   slug: valgo-compute-api
-- description: The Compute Batch API from Valgo — 1 operation(s) for compute batch.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Compute Batch API from Valgo — 1 operation(s) for compute batch.
   name: Valgo Compute Batch API
   slug: valgo-compute-batch-api
-- description: The Compute Depot Route API from Valgo — 1 operation(s) for compute depot route.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Compute Depot Route API from Valgo — 1 operation(s) for compute depot route.
   name: Valgo Compute Depot Route API
   slug: valgo-compute-depot-route-api
-- description: The Compute Route API from Valgo — 1 operation(s) for compute route.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Compute Route API from Valgo — 1 operation(s) for compute route.
   name: Valgo Compute Route API
   slug: valgo-compute-route-api
-- description: The Health API from Valgo — 1 operation(s) for health.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Health API from Valgo — 1 operation(s) for health.
   name: Valgo Health API
   slug: valgo-health-api
-- description: The Manifest API from Valgo — 1 operation(s) for manifest.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Manifest API from Valgo — 1 operation(s) for manifest.
   name: Valgo Manifest API
   slug: valgo-manifest-api
-- description: The Request Api Key API from Valgo — 1 operation(s) for request api key.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The Request Api Key API from Valgo — 1 operation(s) for request api key.
   name: Valgo Request Api Key API
   slug: valgo-request-api-key-api
-- description: The v1 API from Valgo — 7 operation(s) for v1.
+- baseURL: https://humanbaselines.com/v1
+  baseurl_source: declared
+  description: The v1 API from Valgo — 7 operation(s) for v1.
   name: Valgo v1 API
   slug: valgo-v1-api
 artifact_total: 21
@@ -210,7 +226,7 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -242,8 +258,9 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/screenshots/valgo-2026-09-02T165318.png
 security:
 - kind: authentication
   name: Valgo Authentication

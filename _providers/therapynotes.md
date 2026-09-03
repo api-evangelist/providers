@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: 'Modeled capability area for managing the client (patient) roster - demographics, contacts, insurance, and portal enrollment. TherapyNotes surfaces this only in its web application; there is no public '
@@ -95,7 +95,7 @@ score:
   band: emerging
   composite: 14.1
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -117,8 +117,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/therapynotes/refs/heads/main/screenshots/therapynotes-2026-09-02T163516.png
 security:
 - kind: domain-security
   name: Therapynotes Domain Security

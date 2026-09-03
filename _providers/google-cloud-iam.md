@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: The Permissions API from Google Cloud IAM — 1 operation(s) for permissions.
+- baseURL: https://iam.googleapis.com
+  baseurl_source: declared
+  description: The Permissions API from Google Cloud IAM — 1 operation(s) for permissions.
   name: Google Cloud IAM Permissions API
   slug: google-cloud-iam-permissions-api
-- description: The Roles API from Google Cloud IAM — 2 operation(s) for roles.
+- baseURL: https://iam.googleapis.com
+  baseurl_source: declared
+  description: The Roles API from Google Cloud IAM — 2 operation(s) for roles.
   name: Google Cloud IAM Roles API
   slug: google-cloud-iam-roles-api
-- description: The Service Account Keys API from Google Cloud IAM — 1 operation(s) for service account keys.
+- baseURL: https://iam.googleapis.com
+  baseurl_source: declared
+  description: The Service Account Keys API from Google Cloud IAM — 1 operation(s) for service account keys.
   name: Google Cloud IAM Service Account Keys API
   slug: google-cloud-iam-service-account-keys-api
-- description: The Service Accounts API from Google Cloud IAM — 2 operation(s) for service accounts.
+- baseURL: https://iam.googleapis.com
+  baseurl_source: declared
+  description: The Service Accounts API from Google Cloud IAM — 2 operation(s) for service accounts.
   name: Google Cloud IAM Service Accounts API
   slug: google-cloud-iam-service-accounts-api
 artifact_total: 25
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-iam/refs/heads/main/screenshots/google-cloud-iam-2026-06-20T182117.png
 security:

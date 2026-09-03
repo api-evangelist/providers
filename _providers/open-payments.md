@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
-- description: Structured query over a dataset distribution.
+- baseURL: https://openpaymentsdata.cms.gov/api/1
+  baseurl_source: declared
+  description: Structured query over a dataset distribution.
   name: CMS Open Payments Datastore Query API
   slug: open-payments-datastore-query-api
-- description: SQL query over a datastore resource.
+- baseURL: https://openpaymentsdata.cms.gov/api/1
+  baseurl_source: declared
+  description: SQL query over a datastore resource.
   name: CMS Open Payments Datastore SQL API
   slug: open-payments-datastore-sql-api
-- description: Bulk CSV or JSON download of query results.
+- baseURL: https://openpaymentsdata.cms.gov/api/1
+  baseurl_source: declared
+  description: Bulk CSV or JSON download of query results.
   name: CMS Open Payments Download API
   slug: open-payments-download-api
-- description: DCAT-US dataset catalog and metadata.
+- baseURL: https://openpaymentsdata.cms.gov/api/1
+  baseurl_source: declared
+  description: DCAT-US dataset catalog and metadata.
   name: CMS Open Payments Metastore API
   slug: open-payments-metastore-api
-- description: Full-text and faceted dataset discovery.
+- baseURL: https://openpaymentsdata.cms.gov/api/1
+  baseurl_source: declared
+  description: Full-text and faceted dataset discovery.
   name: CMS Open Payments Search API
   slug: open-payments-search-api
 artifact_total: 18
@@ -177,7 +187,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-payments/refs/heads/main/screenshots/open-payments-2026-08-07T190513.png
 security:

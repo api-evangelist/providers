@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -53,40 +53,64 @@ apis:
 - description: Open Finance and Open Banking APIs for Payment Initiation (ITP with and without redirect), account linking with FIDO biometrics, data sharing and consent management, and sweeping accounts for intellig
   name: Celcoin Open Finance API
   slug: open-finance
-- description: The AnnotationCompetenceCalendar API from Celcoin — 1 operation(s) for annotationcompetencecalendar.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The AnnotationCompetenceCalendar API from Celcoin — 1 operation(s) for annotationcompetencecalendar.
   name: Celcoin AnnotationCompetenceCalendar API
   slug: celcoin-annotationcompetencecalendar-api
-- description: The BankCorrespondentAgent API from Celcoin — 2 operation(s) for bankcorrespondentagent.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The BankCorrespondentAgent API from Celcoin — 2 operation(s) for bankcorrespondentagent.
   name: Celcoin BankCorrespondentAgent API
   slug: celcoin-bankcorrespondentagent-api
-- description: The Consignee API from Celcoin — 1 operation(s) for consignee.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The Consignee API from Celcoin — 1 operation(s) for consignee.
   name: Celcoin Consignee API
   slug: celcoin-consignee-api
-- description: The Files API from Celcoin — 1 operation(s) for files.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The Files API from Celcoin — 1 operation(s) for files.
   name: Celcoin Files API
   slug: celcoin-files-api
-- description: The Guarantee API from Celcoin — 21 operation(s) for guarantee.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The Guarantee API from Celcoin — 21 operation(s) for guarantee.
   name: Celcoin Guarantee API
   slug: celcoin-guarantee-api
-- description: The LegacyGuarantee API from Celcoin — 1 operation(s) for legacyguarantee.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The LegacyGuarantee API from Celcoin — 1 operation(s) for legacyguarantee.
   name: Celcoin LegacyGuarantee API
   slug: celcoin-legacyguarantee-api
-- description: The LegalPerson API from Celcoin — 1 operation(s) for legalperson.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The LegalPerson API from Celcoin — 1 operation(s) for legalperson.
   name: Celcoin LegalPerson API
   slug: celcoin-legalperson-api
-- description: The NaturalPerson API from Celcoin — 2 operation(s) for naturalperson.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The NaturalPerson API from Celcoin — 2 operation(s) for naturalperson.
   name: Celcoin NaturalPerson API
   slug: celcoin-naturalperson-api
-- description: The OutstandingBalance API from Celcoin — 4 operation(s) for outstandingbalance.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The OutstandingBalance API from Celcoin — 4 operation(s) for outstandingbalance.
   name: Celcoin OutstandingBalance API
   slug: celcoin-outstandingbalance-api
-- description: The Proposal API from Celcoin — 2 operation(s) for proposal.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The Proposal API from Celcoin — 2 operation(s) for proposal.
   name: Celcoin Proposal API
   slug: celcoin-proposal-api
-- description: The Settlement API from Celcoin — 2 operation(s) for settlement.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The Settlement API from Celcoin — 2 operation(s) for settlement.
   name: Celcoin Settlement API
   slug: celcoin-settlement-api
-- description: The TaggingJourney API from Celcoin — 1 operation(s) for taggingjourney.
+- baseURL: https://api.openfinance.celcoin.com.br/
+  baseurl_source: declared
+  description: The TaggingJourney API from Celcoin — 1 operation(s) for taggingjourney.
   name: Celcoin TaggingJourney API
   slug: celcoin-taggingjourney-api
 artifact_total: 35
@@ -269,7 +293,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:

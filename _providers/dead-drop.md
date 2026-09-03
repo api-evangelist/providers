@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 1
 apis:
-- description: The Documentation API from Dead Drop — 2 operation(s) for documentation.
+- baseURL: https://api.dead-drop.xyz/api/v1
+  baseurl_source: declared
+  description: The Documentation API from Dead Drop — 2 operation(s) for documentation.
   name: Dead Drop Documentation API
   slug: dead-drop-documentation-api
-- description: Drop CRUD operations
+- baseURL: https://api.dead-drop.xyz/api/v1
+  baseurl_source: declared
+  description: Drop CRUD operations
   name: Dead Drop Drops API
   slug: dead-drop-drops-api
-- description: Health check endpoints
+- baseURL: https://api.dead-drop.xyz/api/v1
+  baseurl_source: declared
+  description: Health check endpoints
   name: Dead Drop Health API
   slug: dead-drop-health-api
-- description: Drop version history
+- baseURL: https://api.dead-drop.xyz/api/v1
+  baseurl_source: declared
+  description: Drop version history
   name: Dead Drop History API
   slug: dead-drop-history-api
 artifact_total: 30
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/screenshots/dead-drop-2026-06-20T175740.png
 security:

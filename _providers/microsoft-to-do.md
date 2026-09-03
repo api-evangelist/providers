@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 18 operations · 10 acting
 api_count: 4
 apis:
-- description: The ChecklistItems API from Microsoft to Do — 2 operation(s) for checklistitems.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The ChecklistItems API from Microsoft to Do — 2 operation(s) for checklistitems.
   name: Microsoft to Do ChecklistItems API
   slug: microsoft-to-do-checklistitems-api
-- description: The LinkedResources API from Microsoft to Do — 1 operation(s) for linkedresources.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The LinkedResources API from Microsoft to Do — 1 operation(s) for linkedresources.
   name: Microsoft to Do LinkedResources API
   slug: microsoft-to-do-linkedresources-api
-- description: The TaskLists API from Microsoft to Do — 2 operation(s) for tasklists.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The TaskLists API from Microsoft to Do — 2 operation(s) for tasklists.
   name: Microsoft to Do TaskLists API
   slug: microsoft-to-do-tasklists-api
-- description: The Tasks API from Microsoft to Do — 3 operation(s) for tasks.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Tasks API from Microsoft to Do — 3 operation(s) for tasks.
   name: Microsoft to Do Tasks API
   slug: microsoft-to-do-tasks-api
 artifact_total: 17
@@ -181,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-to-do/refs/heads/main/screenshots/microsoft-to-do-2026-06-20T185539.png
 security:

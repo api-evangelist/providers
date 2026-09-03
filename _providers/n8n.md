@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -47,46 +47,74 @@ apis:
 - description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
   name: N8n
   slug: n8n
-- description: Operations about security audit
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about security audit
   name: N8n Audit API
   slug: n8n-audit-api
-- description: Operations about community packages
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about community packages
   name: N8n CommunityPackage API
   slug: n8n-communitypackage-api
-- description: Operations about credentials
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about credentials
   name: N8n Credential API
   slug: n8n-credential-api
-- description: Operations about data tables and their rows
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about data tables and their rows
   name: N8n DataTable API
   slug: n8n-datatable-api
-- description: API capability discovery
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: API capability discovery
   name: N8n Discover API
   slug: n8n-discover-api
-- description: Operations about executions
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about executions
   name: N8n Execution API
   slug: n8n-execution-api
-- description: Operations about folders
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about folders
   name: N8n Folders API
   slug: n8n-folders-api
-- description: Operations about insights
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about insights
   name: N8n Insights API
   slug: n8n-insights-api
-- description: Operations about projects
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about projects
   name: N8n Projects API
   slug: n8n-projects-api
-- description: Operations about source control
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about source control
   name: N8n SourceControl API
   slug: n8n-sourcecontrol-api
-- description: Operations about tags
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about tags
   name: N8n Tags API
   slug: n8n-tags-api
-- description: Operations about users
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about users
   name: N8n User API
   slug: n8n-user-api
-- description: Operations about variables
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about variables
   name: N8n Variables API
   slug: n8n-variables-api
-- description: Operations about workflows
+- baseURL: https://app.n8n.cloud/api/v1
+  baseurl_source: declared
+  description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
 artifact_total: 58
@@ -301,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:

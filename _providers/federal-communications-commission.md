@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: Dataset catalog and resources
+- baseURL: https://publicapi.fcc.gov/ecfs
+  baseurl_source: declared
+  description: Dataset catalog and resources
   name: Federal Communications Commission Datasets API
   slug: federal-communications-commission-datasets-api
-- description: The Filings API from Federal Communications Commission — 1 operation(s) for filings.
+- baseURL: https://publicapi.fcc.gov/ecfs
+  baseurl_source: declared
+  description: The Filings API from Federal Communications Commission — 1 operation(s) for filings.
   name: Federal Communications Commission Filings API
   slug: federal-communications-commission-filings-api
-- description: Pirate Radio Broadcasting Database
+- baseURL: https://publicapi.fcc.gov/ecfs
+  baseurl_source: declared
+  description: Pirate Radio Broadcasting Database
   name: Federal Communications Commission Pirate Radio API
   slug: federal-communications-commission-pirate-radio-api
-- description: The Proceedings API from Federal Communications Commission — 1 operation(s) for proceedings.
+- baseURL: https://publicapi.fcc.gov/ecfs
+  baseurl_source: declared
+  description: The Proceedings API from Federal Communications Commission — 1 operation(s) for proceedings.
   name: Federal Communications Commission Proceedings API
   slug: federal-communications-commission-proceedings-api
 artifact_total: 19
@@ -190,7 +198,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-communications-commission/refs/heads/main/screenshots/federal-communications-commission-2026-06-20T181114.png
 security:

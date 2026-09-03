@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 4
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 127 operations · 83 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The accounts API from BlindInsight — 10 operation(s) for accounts.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The accounts API from BlindInsight — 10 operation(s) for accounts.
   name: BlindInsight accounts API
   slug: blindinsight-accounts-api
-- description: The blindllm API from BlindInsight — 4 operation(s) for blindllm.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The blindllm API from BlindInsight — 4 operation(s) for blindllm.
   name: BlindInsight blindllm API
   slug: blindinsight-blindllm-api
-- description: The blindllm-queries API from BlindInsight — 2 operation(s) for blindllm-queries.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The blindllm-queries API from BlindInsight — 2 operation(s) for blindllm-queries.
   name: BlindInsight blindllm-queries API
   slug: blindinsight-blindllm-queries-api
-- description: The csrf API from BlindInsight — 1 operation(s) for csrf.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The csrf API from BlindInsight — 1 operation(s) for csrf.
   name: BlindInsight csrf API
   slug: blindinsight-csrf-api
-- description: The datasets API from BlindInsight — 3 operation(s) for datasets.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The datasets API from BlindInsight — 3 operation(s) for datasets.
   name: BlindInsight datasets API
   slug: blindinsight-datasets-api
-- description: The delete-jobs API from BlindInsight — 1 operation(s) for delete-jobs.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The delete-jobs API from BlindInsight — 1 operation(s) for delete-jobs.
   name: BlindInsight delete-jobs API
   slug: blindinsight-delete-jobs-api
-- description: The files API from BlindInsight — 2 operation(s) for files.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The files API from BlindInsight — 2 operation(s) for files.
   name: BlindInsight files API
   slug: blindinsight-files-api
-- description: The grants API from BlindInsight — 2 operation(s) for grants.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The grants API from BlindInsight — 2 operation(s) for grants.
   name: BlindInsight grants API
   slug: blindinsight-grants-api
-- description: The identities API from BlindInsight — 2 operation(s) for identities.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The identities API from BlindInsight — 2 operation(s) for identities.
   name: BlindInsight identities API
   slug: blindinsight-identities-api
-- description: The jobs API from BlindInsight — 2 operation(s) for jobs.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The jobs API from BlindInsight — 2 operation(s) for jobs.
   name: BlindInsight jobs API
   slug: blindinsight-jobs-api
-- description: The materials API from BlindInsight — 8 operation(s) for materials.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The materials API from BlindInsight — 8 operation(s) for materials.
   name: BlindInsight materials API
   slug: blindinsight-materials-api
-- description: The organizations API from BlindInsight — 15 operation(s) for organizations.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The organizations API from BlindInsight — 15 operation(s) for organizations.
   name: BlindInsight organizations API
   slug: blindinsight-organizations-api
-- description: The records API from BlindInsight — 5 operation(s) for records.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The records API from BlindInsight — 5 operation(s) for records.
   name: BlindInsight records API
   slug: blindinsight-records-api
-- description: The requests API from BlindInsight — 4 operation(s) for requests.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The requests API from BlindInsight — 4 operation(s) for requests.
   name: BlindInsight requests API
   slug: blindinsight-requests-api
-- description: The schemas API from BlindInsight — 4 operation(s) for schemas.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The schemas API from BlindInsight — 4 operation(s) for schemas.
   name: BlindInsight schemas API
   slug: blindinsight-schemas-api
-- description: The status API from BlindInsight — 1 operation(s) for status.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The status API from BlindInsight — 1 operation(s) for status.
   name: BlindInsight status API
   slug: blindinsight-status-api
-- description: The token API from BlindInsight — 3 operation(s) for token.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The token API from BlindInsight — 3 operation(s) for token.
   name: BlindInsight token API
   slug: blindinsight-token-api
-- description: The users API from BlindInsight — 4 operation(s) for users.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The users API from BlindInsight — 4 operation(s) for users.
   name: BlindInsight users API
   slug: blindinsight-users-api
-- description: The ws API from BlindInsight — 1 operation(s) for ws.
+- baseURL: https://api.app.blindinsight.io
+  baseurl_source: declared
+  description: The ws API from BlindInsight — 1 operation(s) for ws.
   name: BlindInsight ws API
   slug: blindinsight-ws-api
 artifact_total: 44
@@ -295,7 +333,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -305,7 +343,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,7 +355,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/screenshots/blindinsight-2026-07-25T203316.png
 security:

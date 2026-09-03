@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 44 operations · 41 acting
 api_count: 1
 apis:
-- description: The auto-monitor-setups API from Traceloop — 2 operation(s) for auto-monitor-setups.
+- baseURL: https://api.traceloop.com
+  baseurl_source: declared
+  description: The auto-monitor-setups API from Traceloop — 2 operation(s) for auto-monitor-setups.
   name: Traceloop auto-monitor-setups API
   slug: traceloop-auto-monitor-setups-api
-- description: The evaluators API from Traceloop — 36 operation(s) for evaluators.
+- baseURL: https://api.traceloop.com
+  baseurl_source: declared
+  description: The evaluators API from Traceloop — 36 operation(s) for evaluators.
   name: Traceloop evaluators API
   slug: traceloop-evaluators-api
-- description: The metrics API from Traceloop — 2 operation(s) for metrics.
+- baseURL: https://api.traceloop.com
+  baseurl_source: declared
+  description: The metrics API from Traceloop — 2 operation(s) for metrics.
   name: Traceloop metrics API
   slug: traceloop-metrics-api
-- description: The organizations API from Traceloop — 1 operation(s) for organizations.
+- baseURL: https://api.traceloop.com
+  baseurl_source: declared
+  description: The organizations API from Traceloop — 1 operation(s) for organizations.
   name: Traceloop organizations API
   slug: traceloop-organizations-api
 artifact_total: 18
@@ -205,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/screenshots/traceloop-2026-06-20T195517.png
 security:

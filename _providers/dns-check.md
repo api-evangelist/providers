@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: 'RESTful JSON API for managing DNS record monitors and DNS record group monitors at DNSCheck.co. All requests use GET and authenticate via a 32-character API key passed as the api_key query parameter; '
   name: DNS Check REST API
   slug: rest-api
-- description: The DNS Record Monitoring API from DNS Check — 1 operation(s) for dns record monitoring.
+- baseURL: https://www.dnscheck.co/api
+  baseurl_source: declared
+  description: The DNS Record Monitoring API from DNS Check — 1 operation(s) for dns record monitoring.
   name: DNS Check DNS Record Monitoring API
   slug: dns-check-dns-record-monitoring-api
 artifact_total: 8
@@ -141,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/screenshots/dns-check-2026-06-20T180058.png
 security:

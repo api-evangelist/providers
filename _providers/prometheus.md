@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -50,40 +50,64 @@ apis:
 - description: Prometheus provides official client libraries for Go, Java/Scala, Python, Ruby, and Rust that enable application instrumentation. Libraries implement the Prometheus metric types (Counter, Gauge, Histo
   name: Prometheus Client Libraries
   slug: prometheus-client-libraries
-- description: Administrative endpoints for TSDB management including snapshots and tombstone cleanup. Requires --web.enable-admin-api flag.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Administrative endpoints for TSDB management including snapshots and tombstone cleanup. Requires --web.enable-admin-api flag.
   name: Prometheus Admin API
   slug: prometheus-admin-api
-- description: Endpoints for listing and creating alerts in the Alertmanager.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for listing and creating alerts in the Alertmanager.
   name: Prometheus Alerts API
   slug: prometheus-alerts-api
-- description: Endpoints for managing the Prometheus server lifecycle including configuration reloads and graceful shutdown. Requires --web.enable-lifecycle flag.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for managing the Prometheus server lifecycle including configuration reloads and graceful shutdown. Requires --web.enable-lifecycle flag.
   name: Prometheus Lifecycle API
   slug: prometheus-lifecycle-api
-- description: Endpoints for querying label names, label values, series metadata, and metric metadata without executing PromQL expressions.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for querying label names, label values, series metadata, and metric metadata without executing PromQL expressions.
   name: Prometheus Metadata API
   slug: prometheus-metadata-api
-- description: Endpoints for pushing, replacing, and deleting metric groups. Metrics are grouped by job and optional additional labels.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for pushing, replacing, and deleting metric groups. Metrics are grouped by job and optional additional labels.
   name: Prometheus Metrics API
   slug: prometheus-metrics-api
-- description: PromQL instant and range query endpoints for evaluating expressions against the time series database.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: PromQL instant and range query endpoints for evaluating expressions against the time series database.
   name: Prometheus Query API
   slug: prometheus-query-api
-- description: Endpoints for listing configured alert receivers.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for listing configured alert receivers.
   name: Prometheus Receivers API
   slug: prometheus-receivers-api
-- description: Endpoints for retrieving loaded recording rules and alerting rules.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for retrieving loaded recording rules and alerting rules.
   name: Prometheus Rules API
   slug: prometheus-rules-api
-- description: Endpoints for creating, listing, updating, and expiring silences that mute matching alerts.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for creating, listing, updating, and expiring silences that mute matching alerts.
   name: Prometheus Silences API
   slug: prometheus-silences-api
-- description: Endpoints for retrieving Alertmanager configuration, cluster status, and version information.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for retrieving Alertmanager configuration, cluster status, and version information.
   name: Prometheus Status API
   slug: prometheus-status-api
-- description: Endpoints for discovering scrape targets and their current health status.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for discovering scrape targets and their current health status.
   name: Prometheus Targets API
   slug: prometheus-targets-api
-- description: Endpoints for querying TSDB statistics and deleting time series data.
+- baseURL_template: http://{host}:{port}
+  baseurl_source: spec_template
+  description: Endpoints for querying TSDB statistics and deleting time series data.
   name: Prometheus TSDB API
   slug: prometheus-tsdb-api
 arazzos:
@@ -441,7 +465,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -454,7 +478,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 49.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,7 +489,7 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

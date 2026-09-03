@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Resource-oriented REST API for managing records in Knack applications. Supports create, retrieve, update, and delete operations against specific objects or page views. All requests and responses use J
   name: Knack REST API
   slug: rest-api
-- description: CRUD operations on records via object endpoints
+- baseURL: https://api.knack.com/v1
+  baseurl_source: declared
+  description: CRUD operations on records via object endpoints
   name: Knack Object Records API
   slug: knack-object-records-api
-- description: Operations on records via page view endpoints
+- baseURL: https://api.knack.com/v1
+  baseurl_source: declared
+  description: Operations on records via page view endpoints
   name: Knack View Records API
   slug: knack-view-records-api
 artifact_total: 10
@@ -155,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/screenshots/knack-2026-06-20T184106.png
 security:

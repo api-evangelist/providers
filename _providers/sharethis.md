@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public, unauthenticated GET endpoint returning aggregate social sharing metrics for any URL — clicks and shares broken out per network (facebook, twitter, linkedin, pinterest, whatsapp and dozens more
@@ -33,22 +47,34 @@ apis:
 - description: 'First-party remote Model Context Protocol server letting AI assistants create and manage ShareThis properties, validate domain ownership, configure apps and inspect live app output. JSON-RPC 2.0 over '
   name: ShareThis MCP Server
   slug: sharethis-mcp-server
-- description: Generates the "Key Observations" summary for the Sharing Intelligence Overview page from a compact, pre-aggregated metrics payload. The OpenAI key stays server-side.
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: Generates the "Key Observations" summary for the Sharing Intelligence Overview page from a compact, pre-aggregated metrics payload. The OpenAI key stays server-side.
   name: ShareThis AI Summary API
   slug: sharethis-ai-summary-api
-- description: ShareThis apps attached to a property
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: ShareThis apps attached to a property
   name: ShareThis Apps API
   slug: sharethis-apps-api
-- description: Audience analytics for the Sharing Intelligence page.
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: Audience analytics for the Sharing Intelligence page.
   name: ShareThis Audience API
   slug: sharethis-audience-api
-- description: Managing user authentication
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: Managing user authentication
   name: ShareThis Authentication API
   slug: sharethis-authentication-api
-- description: Manage machine-to-machine (client_credentials) OAuth credentials for the authenticated account. Create a client to receive a client_id and a client_secret (shown once), then exchange them at /v2.0/mcp
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: Manage machine-to-machine (client_credentials) OAuth credentials for the authenticated account. Create a client to receive a client_id and a client_secret (shown once), then exchange them at /v2.0/mcp
   name: ShareThis OAuth Clients API
   slug: sharethis-oauth-clients-api
-- description: Managing properties. A Property represents a single website or domain and is used to configure and manage multiple apps under that domain.
+- baseURL: https://platform-api.sharethis.com/v2.0
+  baseurl_source: declared
+  description: Managing properties. A Property represents a single website or domain and is used to configure and manage multiple apps under that domain.
   name: ShareThis Properties API
   slug: sharethis-properties-api
 artifact_total: 14
@@ -211,11 +237,11 @@ score:
   band: developing
   composite: 43.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -225,7 +251,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 43.6
+  previous_composite: 43.4
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +262,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sharethis/refs/heads/main/screenshots/sharethis-2026-09-02T155116.png
 security:
 - kind: authentication
   name: Sharethis Authentication

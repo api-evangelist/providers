@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Authenticated REST administration and reporting surface for the iboss Zero Trust SASE/SSE cloud platform, served under the /ibcloud/web path on the iboss cloud gateway hosts. Probed anonymously it ans
@@ -159,7 +172,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -178,8 +191,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/iboss/refs/heads/main/screenshots/iboss-2026-09-02T145820.png
 security:
 - kind: authentication
   name: Iboss Authentication

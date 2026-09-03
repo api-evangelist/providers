@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
-- description: Graphite CLI authentication with a Graphite auth token.
+- baseURL: https://github.com/apps/graphite-app
+  baseurl_source: declared
+  description: Graphite CLI authentication with a Graphite auth token.
   name: Graphite Authentication API
   slug: graphite-com-authentication-api
-- description: GitHub App install and webhook integration entry points.
+- baseURL: https://github.com/apps/graphite-app
+  baseurl_source: declared
+  description: GitHub App install and webhook integration entry points.
   name: Graphite GitHub App API
   slug: graphite-com-github-app-api
-- description: Graphite merge queue actions.
+- baseURL: https://github.com/apps/graphite-app
+  baseurl_source: declared
+  description: Graphite merge queue actions.
   name: Graphite Merge Queue API
   slug: graphite-com-merge-queue-api
-- description: Create, submit, sync, and merge stacked pull requests via the gt CLI.
+- baseURL: https://github.com/apps/graphite-app
+  baseurl_source: declared
+  description: Create, submit, sync, and merge stacked pull requests via the gt CLI.
   name: Graphite Stacks API
   slug: graphite-com-stacks-api
 artifact_total: 19
@@ -304,7 +312,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphite-com/refs/heads/main/screenshots/graphite-com-2026-06-20T182329.png
 security:

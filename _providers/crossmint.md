@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -59,25 +59,39 @@ apis:
 - description: REST Order API for fully headless on-chain commerce flows including fiat and crypto payment intents.
   name: Crossmint Headless Checkout (Order API)
   slug: headless-checkout
-- description: The Balances API from Crossmint — 1 operation(s) for balances.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Balances API from Crossmint — 1 operation(s) for balances.
   name: Crossmint Balances API
   slug: crossmint-balances-api
-- description: The NFTs API from Crossmint — 1 operation(s) for nfts.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The NFTs API from Crossmint — 1 operation(s) for nfts.
   name: Crossmint NFTs API
   slug: crossmint-nfts-api
-- description: The Signatures API from Crossmint — 3 operation(s) for signatures.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Signatures API from Crossmint — 3 operation(s) for signatures.
   name: Crossmint Signatures API
   slug: crossmint-signatures-api
-- description: The Signers API from Crossmint — 2 operation(s) for signers.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Signers API from Crossmint — 2 operation(s) for signers.
   name: Crossmint Signers API
   slug: crossmint-signers-api
-- description: The Transactions API from Crossmint — 3 operation(s) for transactions.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Transactions API from Crossmint — 3 operation(s) for transactions.
   name: Crossmint Transactions API
   slug: crossmint-transactions-api
-- description: The Transfers API from Crossmint — 2 operation(s) for transfers.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Transfers API from Crossmint — 2 operation(s) for transfers.
   name: Crossmint Transfers API
   slug: crossmint-transfers-api
-- description: The Wallets API from Crossmint — 2 operation(s) for wallets.
+- baseURL: https://staging.crossmint.com/api/2022-06-09 (staging) | https://www.crossmint.com/api/2022-06-09 (prod)
+  baseurl_source: declared
+  description: The Wallets API from Crossmint — 2 operation(s) for wallets.
   name: Crossmint Wallets API
   slug: crossmint-wallets-api
 artifact_total: 28
@@ -212,7 +226,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossmint/refs/heads/main/screenshots/crossmint-2026-06-20T175244.png
 security:

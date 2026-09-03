@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ apis:
 - description: 'GraphQL Disney character API hosted at /graphql. Single root field `characters(page, pageSize, filter)` returns a `CharacterPage` with `items` and `paginationInfo`. The `CharacterFilterInput` accepts '
   name: Disney API (GraphQL)
   slug: disney-api-graphql
-- description: Endpoints that list, retrieve, and filter Disney characters.
+- baseURL: https://api.disneyapi.dev
+  baseurl_source: declared
+  description: Endpoints that list, retrieve, and filter Disney characters.
   name: Disney API Characters API
   slug: disney-characters-api
-- description: Service discovery endpoint that enumerates available REST routes.
+- baseURL: https://api.disneyapi.dev
+  baseurl_source: declared
+  description: Service discovery endpoint that enumerates available REST routes.
   name: Disney API Index API
   slug: disney-index-api
 artifact_total: 25
@@ -299,7 +303,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -44,181 +44,299 @@ agentic_access:
   summary_line: 178 operations · 88 acting
 api_count: 17
 apis:
-- description: Manage business accounts
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage business accounts
   name: Microsoft Accounts API
   slug: microsoft-accounts-api
-- description: Manage application registrations
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage application registrations
   name: Microsoft Applications API
   slug: microsoft-applications-api
-- description: Transcribe and translate audio
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Transcribe and translate audio
   name: Microsoft Audio API
   slug: microsoft-audio-api
-- description: Access and manage Outlook calendar events
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access and manage Outlook calendar events
   name: Microsoft Calendar API
   slug: microsoft-calendar-api
-- description: Manage channels within teams
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage channels within teams
   name: Microsoft Channels API
   slug: microsoft-channels-api
-- description: Manage chat threads and messages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage chat threads and messages
   name: Microsoft Chat API
   slug: microsoft-chat-api
-- description: Create chat completions using conversational models
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Create chat completions using conversational models
   name: Microsoft Chat Completions API
   slug: microsoft-chat-completions-api
-- description: Create text completions
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Create text completions
   name: Microsoft Completions API
   slug: microsoft-completions-api
-- description: Analyze images and extract visual features
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Analyze images and extract visual features
   name: Microsoft Computer Vision API
   slug: microsoft-computer-vision-api
-- description: Manage contacts
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage contacts
   name: Microsoft Contacts API
   slug: microsoft-contacts-api
-- description: Manage Power BI dashboards
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Power BI dashboards
   name: Microsoft Dashboards API
   slug: microsoft-dashboards-api
-- description: Manage Power BI datasets
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Power BI datasets
   name: Microsoft Datasets API
   slug: microsoft-datasets-api
-- description: Manage ARM template deployments
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage ARM template deployments
   name: Microsoft Deployments API
   slug: microsoft-deployments-api
-- description: Manage compliance policies
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage compliance policies
   name: Microsoft Device Compliance API
   slug: microsoft-device-compliance-api
-- description: Manage device configuration profiles
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage device configuration profiles
   name: Microsoft Device Configuration API
   slug: microsoft-device-configuration-api
-- description: Access OneDrive files and folders
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access OneDrive files and folders
   name: Microsoft Drive API
   slug: microsoft-drive-api
-- description: Access drives (OneDrive or document libraries)
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access drives (OneDrive or document libraries)
   name: Microsoft Drives API
   slug: microsoft-drives-api
-- description: Send email messages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Send email messages
   name: Microsoft Email API
   slug: microsoft-email-api
-- description: Create vector embeddings from text
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Create vector embeddings from text
   name: Microsoft Embeddings API
   slug: microsoft-embeddings-api
-- description: CRUD operations on Dataverse entities
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: CRUD operations on Dataverse entities
   name: Microsoft Entities API
   slug: microsoft-entities-api
-- description: Manage Git repositories
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Git repositories
   name: Microsoft Git API
   slug: microsoft-git-api
-- description: Manage Microsoft Entra groups including Microsoft 365 groups and security groups
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Microsoft Entra groups including Microsoft 365 groups and security groups
   name: Microsoft Groups API
   slug: microsoft-groups-api
-- description: Create and manage communication identities
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Create and manage communication identities
   name: Microsoft Identity API
   slug: microsoft-identity-api
-- description: Search for images
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Search for images
   name: Microsoft Image Search API
   slug: microsoft-image-search-api
-- description: Generate images from text descriptions
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Generate images from text descriptions
   name: Microsoft Images API
   slug: microsoft-images-api
-- description: Import content into Power BI
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Import content into Power BI
   name: Microsoft Imports API
   slug: microsoft-imports-api
-- description: Manage files and folders
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage files and folders
   name: Microsoft Items API
   slug: microsoft-items-api
-- description: Manage leads
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage leads
   name: Microsoft Leads API
   slug: microsoft-leads-api
-- description: Manage SharePoint lists
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage SharePoint lists
   name: Microsoft Lists API
   slug: microsoft-lists-api
-- description: Access and manage Outlook mail messages and folders
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access and manage Outlook mail messages and folders
   name: Microsoft Mail API
   slug: microsoft-mail-api
-- description: Manage enrolled devices
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage enrolled devices
   name: Microsoft Managed Devices API
   slug: microsoft-managed-devices-api
-- description: Manage team membership
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage team membership
   name: Microsoft Members API
   slug: microsoft-members-api
-- description: Send and manage channel messages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Send and manage channel messages
   name: Microsoft Messages API
   slug: microsoft-messages-api
-- description: Entity and attribute metadata
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Entity and attribute metadata
   name: Microsoft Metadata API
   slug: microsoft-metadata-api
-- description: Manage mobile applications
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage mobile applications
   name: Microsoft Mobile Apps API
   slug: microsoft-mobile-apps-api
-- description: Search for news articles
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Search for news articles
   name: Microsoft News Search API
   slug: microsoft-news-search-api
-- description: Manage OAuth2 permission grants
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage OAuth2 permission grants
   name: Microsoft OAuth2 Permissions API
   slug: microsoft-oauth2-permissions-api
-- description: Manage sales opportunities
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage sales opportunities
   name: Microsoft Opportunities API
   slug: microsoft-opportunities-api
-- description: Manage build and release pipelines
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage build and release pipelines
   name: Microsoft Pipelines API
   slug: microsoft-pipelines-api
-- description: Manage team projects
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage team projects
   name: Microsoft Projects API
   slug: microsoft-projects-api
-- description: Manage Power BI reports
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Power BI reports
   name: Microsoft Reports API
   slug: microsoft-reports-api
-- description: Manage Azure resource groups
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Azure resource groups
   name: Microsoft Resource Groups API
   slug: microsoft-resource-groups-api
-- description: Manage Azure resources
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Azure resources
   name: Microsoft Resources API
   slug: microsoft-resources-api
-- description: Manage service principals
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage service principals
   name: Microsoft Service Principals API
   slug: microsoft-service-principals-api
-- description: Share files and folders
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Share files and folders
   name: Microsoft Sharing API
   slug: microsoft-sharing-api
-- description: Access SharePoint sites via Microsoft Graph
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access SharePoint sites via Microsoft Graph
   name: Microsoft Sites API
   slug: microsoft-sites-api
-- description: Send SMS messages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Send SMS messages
   name: Microsoft SMS API
   slug: microsoft-sms-api
-- description: Manage Azure subscriptions
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Azure subscriptions
   name: Microsoft Subscriptions API
   slug: microsoft-subscriptions-api
-- description: Manage Microsoft Teams resources
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Microsoft Teams resources
   name: Microsoft Teams API
   slug: microsoft-teams-api
-- description: Extract insights from text including sentiment and entities
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Extract insights from text including sentiment and entities
   name: Microsoft Text Analytics API
   slug: microsoft-text-analytics-api
-- description: Translate text between languages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Translate text between languages
   name: Microsoft Translator API
   slug: microsoft-translator-api
-- description: Manage Microsoft Entra user accounts and profiles
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Microsoft Entra user accounts and profiles
   name: Microsoft Users API
   slug: microsoft-users-api
-- description: Search for videos
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Search for videos
   name: Microsoft Video Search API
   slug: microsoft-video-search-api
-- description: Search the web for relevant results
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Search the web for relevant results
   name: Microsoft Web Search API
   slug: microsoft-web-search-api
-- description: Manage work items and queries
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage work items and queries
   name: Microsoft Work Items API
   slug: microsoft-work-items-api
-- description: LinkedIn Marketing APIs
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: LinkedIn Marketing APIs
   name: Microsoft Marketing API
   slug: microsoft-marketing-api
-- description: Manage organization pages
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage organization pages
   name: Microsoft Organizations API
   slug: microsoft-organizations-api
-- description: Create and manage posts
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Create and manage posts
   name: Microsoft Posts API
   slug: microsoft-posts-api
-- description: Access member profile information
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access member profile information
   name: Microsoft Profile API
   slug: microsoft-profile-api
 artifact_total: 249
@@ -893,7 +1011,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

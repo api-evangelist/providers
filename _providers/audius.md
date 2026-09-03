@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -47,64 +47,104 @@ apis:
 - description: Public REST API for the Audius network. Endpoints cover tracks (metadata, stream, trending), users (profile, followers), playlists, search, and resolve (lookup by URL). API hosts are discovered dynami
   name: Audius REST API
   slug: platform
-- description: Challenge related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Challenge related operations
   name: Audius challenges API
   slug: audius-challenges-api
-- description: The cid_data API from Audius — 1 operation(s) for cid_data.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The cid_data API from Audius — 1 operation(s) for cid_data.
   name: Audius cid_data API
   slug: audius-cid-data-api
-- description: The coins API from Audius — 9 operation(s) for coins.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The coins API from Audius — 9 operation(s) for coins.
   name: Audius coins API
   slug: audius-coins-api
-- description: Comment related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Comment related operations
   name: Audius comments API
   slug: audius-comments-api
-- description: Protocol dashboard wallet users related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Protocol dashboard wallet users related operations
   name: Audius dashboard_wallet_users API
   slug: audius-dashboard-wallet-users-api
-- description: Developer app related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Developer app related operations
   name: Audius developer_apps API
   slug: audius-developer-apps-api
-- description: Events related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Events related operations
   name: Audius events API
   slug: audius-events-api
-- description: Explore related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Explore related operations
   name: Audius explore API
   slug: audius-explore-api
-- description: The notifications API from Audius — 2 operation(s) for notifications.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The notifications API from Audius — 2 operation(s) for notifications.
   name: Audius notifications API
   slug: audius-notifications-api
-- description: Playlist related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Playlist related operations
   name: Audius playlists API
   slug: audius-playlists-api
-- description: Prize claiming related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Prize claiming related operations
   name: Audius prizes API
   slug: audius-prizes-api
-- description: The reactions API from Audius — 1 operation(s) for reactions.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The reactions API from Audius — 1 operation(s) for reactions.
   name: Audius reactions API
   slug: audius-reactions-api
-- description: Audius Canonical URL resolver
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Audius Canonical URL resolver
   name: Audius resolve API
   slug: audius-resolve-api
-- description: Rewards related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Rewards related operations
   name: Audius rewards API
   slug: audius-rewards-api
-- description: The search API from Audius — 3 operation(s) for search.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The search API from Audius — 3 operation(s) for search.
   name: Audius search API
   slug: audius-search-api
-- description: Tip related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Tip related operations
   name: Audius tips API
   slug: audius-tips-api
-- description: Track related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: Track related operations
   name: Audius tracks API
   slug: audius-tracks-api
-- description: The transactions API from Audius — 2 operation(s) for transactions.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The transactions API from Audius — 2 operation(s) for transactions.
   name: Audius transactions API
   slug: audius-transactions-api
-- description: User related operations
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: User related operations
   name: Audius users API
   slug: audius-users-api
-- description: The wallet API from Audius — 1 operation(s) for wallet.
+- baseURL: https://api.audius.co
+  baseurl_source: declared
+  description: The wallet API from Audius — 1 operation(s) for wallet.
   name: Audius wallet API
   slug: audius-wallet-api
 artifact_total: 51
@@ -285,7 +325,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/screenshots/audius-2026-06-20T172554.png
 security:

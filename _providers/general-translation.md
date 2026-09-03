@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 21 operations · 16 acting
 api_count: 1
 apis:
-- description: Read and create project branches.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Read and create project branches.
   name: General Translation Branches API
   slug: general-translation-branches-api
-- description: Generate translation context such as glossaries and instructions.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Generate translation context such as glossaries and instructions.
   name: General Translation Context API
   slug: general-translation-context-api
-- description: Upload, download, publish, move, and inspect project files.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Upload, download, publish, move, and inspect project files.
   name: General Translation Files API
   slug: general-translation-files-api
-- description: Read background job status.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Read background job status.
   name: General Translation Jobs API
   slug: general-translation-jobs-api
-- description: Read and update project information.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Read and update project information.
   name: General Translation Project API
   slug: general-translation-project-api
-- description: Tag file versions.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Tag file versions.
   name: General Translation Tags API
   slug: general-translation-tags-api
-- description: Translate content at runtime and queue files for translation.
+- baseURL: https://api2.gtx.dev
+  baseurl_source: declared
+  description: Translate content at runtime and queue files for translation.
   name: General Translation Translation API
   slug: general-translation-translation-api
 artifact_total: 28
@@ -296,7 +310,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -306,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 62.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -318,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-translation/refs/heads/main/screenshots/general-translation-2026-07-25T215549.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -44,175 +44,289 @@ agentic_access:
   summary_line: 238 operations · 132 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Each account can have multiple account and routing numbers. We recommend that you use a set per vendor. This is similar to how you use different passwords for different websites. Account numbers can a
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Each account can have multiple account and routing numbers. We recommend that you use a set per vendor. This is similar to how you use different passwords for different websites. Account numbers can a
   name: Increase Account Numbers API
   slug: increase-account-numbers-api
-- description: Account Statements are generated monthly for every active Account. You can access the statement's data via the API or retrieve a PDF with its details via its associated File.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Account Statements are generated monthly for every active Account. You can access the statement's data via the API or retrieve a PDF with its details via its associated File.
   name: Increase Account Statements API
   slug: increase-account-statements-api
-- description: Account transfers move funds between your own accounts at Increase (accounting systems often refer to these as Book Transfers). Account Transfers are free and synchronous. Upon creation they create tw
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Account transfers move funds between your own accounts at Increase (accounting systems often refer to these as Book Transfers). Account Transfers are free and synchronous. Upon creation they create tw
   name: Increase Account Transfers API
   slug: increase-account-transfers-api
-- description: Accounts are your bank accounts with Increase. They store money, receive transfers, and send payments. They earn interest and have depository insurance.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Accounts are your bank accounts with Increase. They store money, receive transfers, and send payments. They earn interest and have depository insurance.
   name: Increase Accounts API
   slug: increase-accounts-api
-- description: The Ach Prenotifications API from Increase — 2 operation(s) for ach prenotifications.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Ach Prenotifications API from Increase — 2 operation(s) for ach prenotifications.
   name: Increase Ach Prenotifications API
   slug: increase-ach-prenotifications-api
-- description: The Ach Transfers API from Increase — 4 operation(s) for ach transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Ach Transfers API from Increase — 4 operation(s) for ach transfers.
   name: Increase Ach Transfers API
   slug: increase-ach-transfers-api
-- description: If unauthorized activity occurs on a card, you can create a Card Dispute and we'll work with the card networks to return the funds if appropriate.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: If unauthorized activity occurs on a card, you can create a Card Dispute and we'll work with the card networks to return the funds if appropriate.
   name: Increase Card Disputes API
   slug: increase-card-disputes-api
-- description: Card Payments group together interactions related to a single card payment, such as an authorization and its corresponding settlement.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Card Payments group together interactions related to a single card payment, such as an authorization and its corresponding settlement.
   name: Increase Card Payments API
   slug: increase-card-payments-api
-- description: Additional information about a card purchase (e.g., settlement or refund), such as level 3 line item data.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Additional information about a card purchase (e.g., settlement or refund), such as level 3 line item data.
   name: Increase Card Purchase Supplements API
   slug: increase-card-purchase-supplements-api
-- description: Card Push Transfers send funds to a recipient's payment card in real-time.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Card Push Transfers send funds to a recipient's payment card in real-time.
   name: Increase Card Push Transfers API
   slug: increase-card-push-transfers-api
-- description: Card Tokens represent a tokenized card number that can be used for Card Push Transfers and Card Validations.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Card Tokens represent a tokenized card number that can be used for Card Push Transfers and Card Validations.
   name: Increase Card Tokens API
   slug: increase-card-tokens-api
-- description: Card Validations are used to validate a card and its cardholder before sending funds to or pulling funds from a card.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Card Validations are used to validate a card and its cardholder before sending funds to or pulling funds from a card.
   name: Increase Card Validations API
   slug: increase-card-validations-api
-- description: 'Cards may operate on credit, debit, or prepaid BINs. They’ll immediately work for online purchases after you create them. All cards work on a good funds model, and maintain a maximum limit of 100% of '
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: 'Cards may operate on credit, debit, or prepaid BINs. They’ll immediately work for online purchases after you create them. All cards work on a good funds model, and maintain a maximum limit of 100% of '
   name: Increase Cards API
   slug: increase-cards-api
-- description: Check Deposits allow you to deposit images of paper checks into your account.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Check Deposits allow you to deposit images of paper checks into your account.
   name: Increase Check Deposits API
   slug: increase-check-deposits-api
-- description: Check Transfers move funds from your Increase account by mailing a physical check.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Check Transfers move funds from your Increase account by mailing a physical check.
   name: Increase Check Transfers API
   slug: increase-check-transfers-api
-- description: Declined Transactions are refused additions and removals of money from your bank account. For example, Declined Transactions are caused when your Account has an insufficient balance or your Limits are
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Declined Transactions are refused additions and removals of money from your bank account. For example, Declined Transactions are caused when your Account has an insufficient balance or your Limits are
   name: Increase Declined Transactions API
   slug: increase-declined-transactions-api
-- description: This contains artwork and metadata relating to a Card's appearance in digital wallet apps like Apple Pay and Google Pay. For more information, see our guide on [digital card artwork](https://increase.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: This contains artwork and metadata relating to a Card's appearance in digital wallet apps like Apple Pay and Google Pay. For more information, see our guide on [digital card artwork](https://increase.
   name: Increase Digital Card Profiles API
   slug: increase-digital-card-profiles-api
-- description: A Digital Wallet Token is created when a user adds a Card to their Apple Pay or Google Pay app. The Digital Wallet Token can be used for purchases just like a Card.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: A Digital Wallet Token is created when a user adds a Card to their Apple Pay or Google Pay app. The Digital Wallet Token can be used for purchases just like a Card.
   name: Increase Digital Wallet Tokens API
   slug: increase-digital-wallet-tokens-api
-- description: Entities are the legal entities that own accounts. They can be people, corporations, partnerships, government authorities, or trusts. To learn more, see [Entities](/documentation/entities).
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Entities are the legal entities that own accounts. They can be people, corporations, partnerships, government authorities, or trusts. To learn more, see [Entities](/documentation/entities).
   name: Increase Entities API
   slug: increase-entities-api
-- description: The Entity Beneficial Owners API from Increase — 3 operation(s) for entity beneficial owners.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Entity Beneficial Owners API from Increase — 3 operation(s) for entity beneficial owners.
   name: Increase Entity Beneficial Owners API
   slug: increase-entity-beneficial-owners-api
-- description: Entity Onboarding Sessions let your customers onboard themselves by completing Increase-hosted forms. Create a session and redirect your customer to the returned URL. When they're done, they'll be red
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Entity Onboarding Sessions let your customers onboard themselves by completing Increase-hosted forms. Create a session and redirect your customer to the returned URL. When they're done, they'll be red
   name: Increase Entity Onboarding Sessions API
   slug: increase-entity-onboarding-sessions-api
-- description: The Entity Supplemental Documents API from Increase — 1 operation(s) for entity supplemental documents.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Entity Supplemental Documents API from Increase — 1 operation(s) for entity supplemental documents.
   name: Increase Entity Supplemental Documents API
   slug: increase-entity-supplemental-documents-api
-- description: Webhooks are event notifications we send to you by HTTPS POST requests. Event Subscriptions are how you configure your application to listen for them. You can create an Event Subscription through your
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Webhooks are event notifications we send to you by HTTPS POST requests. Event Subscriptions are how you configure your application to listen for them. You can create an Event Subscription through your
   name: Increase Event Subscriptions API
   slug: increase-event-subscriptions-api
-- description: Events are records of things that happened to objects at Increase. Events are accessible via the List Events endpoint and can be delivered to your application via webhooks. For more information, see o
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Events are records of things that happened to objects at Increase. Events are accessible via the List Events endpoint and can be delivered to your application via webhooks. For more information, see o
   name: Increase Events API
   slug: increase-events-api
-- description: 'Exports are generated files. Some exports can contain a lot of data, like a CSV of your transactions. Others can be a single document, like a tax form. Since they can take a while, they are generated '
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: 'Exports are generated files. Some exports can contain a lot of data, like a CSV of your transactions. Others can be a single document, like a tax form. Since they can take a while, they are generated '
   name: Increase Exports API
   slug: increase-exports-api
-- description: External Accounts represent accounts at financial institutions other than Increase. You can use this API to store their details for reuse.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: External Accounts represent accounts at financial institutions other than Increase. You can use this API to store their details for reuse.
   name: Increase External Accounts API
   slug: increase-external-accounts-api
-- description: The Fednow Transfers API from Increase — 4 operation(s) for fednow transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Fednow Transfers API from Increase — 4 operation(s) for fednow transfers.
   name: Increase Fednow Transfers API
   slug: increase-fednow-transfers-api
-- description: File Links let you generate a URL that can be used to download a File.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: File Links let you generate a URL that can be used to download a File.
   name: Increase File Links API
   slug: increase-file-links-api
-- description: Files are objects that represent a file hosted on Increase's servers. The file may have been uploaded by you (for example, when uploading a check image) or it may have been created by Increase (for ex
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Files are objects that represent a file hosted on Increase's servers. The file may have been uploaded by you (for example, when uploading a check image) or it may have been created by Increase (for ex
   name: Increase Files API
   slug: increase-files-api
-- description: Groups represent organizations using Increase. You can retrieve information about your own organization via the API. More commonly, OAuth platforms can retrieve information about the organizations tha
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Groups represent organizations using Increase. You can retrieve information about your own organization via the API. More commonly, OAuth platforms can retrieve information about the organizations tha
   name: Increase Groups API
   slug: increase-groups-api
-- description: The Inbound Ach Transfers API from Increase — 5 operation(s) for inbound ach transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Inbound Ach Transfers API from Increase — 5 operation(s) for inbound ach transfers.
   name: Increase Inbound Ach Transfers API
   slug: increase-inbound-ach-transfers-api
-- description: Inbound Check Deposits are records of third-parties attempting to deposit checks against your account.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Inbound Check Deposits are records of third-parties attempting to deposit checks against your account.
   name: Increase Inbound Check Deposits API
   slug: increase-inbound-check-deposits-api
-- description: The Inbound Fednow Transfers API from Increase — 2 operation(s) for inbound fednow transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Inbound Fednow Transfers API from Increase — 2 operation(s) for inbound fednow transfers.
   name: Increase Inbound Fednow Transfers API
   slug: increase-inbound-fednow-transfers-api
-- description: Inbound Mail Items represent pieces of physical mail delivered to a Lockbox Address.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Inbound Mail Items represent pieces of physical mail delivered to a Lockbox Address.
   name: Increase Inbound Mail Items API
   slug: increase-inbound-mail-items-api
-- description: The Inbound Real Time Payments Transfers API from Increase — 2 operation(s) for inbound real time payments transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Inbound Real Time Payments Transfers API from Increase — 2 operation(s) for inbound real time payments transfers.
   name: Increase Inbound Real Time Payments Transfers API
   slug: increase-inbound-real-time-payments-transfers-api
-- description: Inbound wire drawdown requests are requests from someone else to send them a wire. For more information, see our [Wire Drawdown Requests documentation](/documentation/wire-drawdown-requests).
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Inbound wire drawdown requests are requests from someone else to send them a wire. For more information, see our [Wire Drawdown Requests documentation](/documentation/wire-drawdown-requests).
   name: Increase Inbound Wire Drawdown Requests API
   slug: increase-inbound-wire-drawdown-requests-api
-- description: An Inbound Wire Transfer is a wire transfer initiated outside of Increase to your account.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: An Inbound Wire Transfer is a wire transfer initiated outside of Increase to your account.
   name: Increase Inbound Wire Transfers API
   slug: increase-inbound-wire-transfers-api
-- description: The Intrafi Account Enrollments API from Increase — 3 operation(s) for intrafi account enrollments.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Intrafi Account Enrollments API from Increase — 3 operation(s) for intrafi account enrollments.
   name: Increase Intrafi Account Enrollments API
   slug: increase-intrafi-account-enrollments-api
-- description: The Intrafi Exclusions API from Increase — 3 operation(s) for intrafi exclusions.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Intrafi Exclusions API from Increase — 3 operation(s) for intrafi exclusions.
   name: Increase Intrafi Exclusions API
   slug: increase-intrafi-exclusions-api
-- description: Lockbox Addresses are physical locations that can receive mail containing paper checks.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Lockbox Addresses are physical locations that can receive mail containing paper checks.
   name: Increase Lockbox Addresses API
   slug: increase-lockbox-addresses-api
-- description: Lockbox Recipients represent an inbox at a Lockbox Address. Checks received for a Lockbox Recipient are deposited into its associated Account.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Lockbox Recipients represent an inbox at a Lockbox Address. Checks received for a Lockbox Recipient are deposited into its associated Account.
   name: Increase Lockbox Recipients API
   slug: increase-lockbox-recipients-api
-- description: The Oauth API from Increase — 1 operation(s) for oauth.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Oauth API from Increase — 1 operation(s) for oauth.
   name: Increase Oauth API
   slug: increase-oauth-api
-- description: The Oauth Applications API from Increase — 2 operation(s) for oauth applications.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Oauth Applications API from Increase — 2 operation(s) for oauth applications.
   name: Increase Oauth Applications API
   slug: increase-oauth-applications-api
-- description: The Oauth Connections API from Increase — 2 operation(s) for oauth connections.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Oauth Connections API from Increase — 2 operation(s) for oauth connections.
   name: Increase Oauth Connections API
   slug: increase-oauth-connections-api
-- description: Pending Transactions are potential future additions and removals of money from your bank account. They impact your available balance, but not your current balance. To learn more, see [Transactions and
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Pending Transactions are potential future additions and removals of money from your bank account. They impact your available balance, but not your current balance. To learn more, see [Transactions and
   name: Increase Pending Transactions API
   slug: increase-pending-transactions-api
-- description: This contains artwork and metadata relating to a Physical Card's appearance. For more information, see our guide on [physical card artwork](https://increase.com/documentation/card-art-physical-cards).
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: This contains artwork and metadata relating to a Physical Card's appearance. For more information, see our guide on [physical card artwork](https://increase.com/documentation/card-art-physical-cards).
   name: Increase Physical Card Profiles API
   slug: increase-physical-card-profiles-api
-- description: Custom physical Visa cards that are shipped to your customers. The artwork is configurable by a connected [Card Profile](/documentation/api#card-profiles). The same Card can be used for multiple Physi
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Custom physical Visa cards that are shipped to your customers. The artwork is configurable by a connected [Card Profile](/documentation/api#card-profiles). The same Card can be used for multiple Physi
   name: Increase Physical Cards API
   slug: increase-physical-cards-api
-- description: Programs determine the compliance and commercial terms of Accounts. By default, you have a Commercial Banking program for managing your own funds. If you are lending or managing funds on behalf of you
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Programs determine the compliance and commercial terms of Accounts. By default, you have a Commercial Banking program for managing your own funds. If you are lending or managing funds on behalf of you
   name: Increase Programs API
   slug: increase-programs-api
-- description: The Real Time Decisions API from Increase — 2 operation(s) for real time decisions.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Real Time Decisions API from Increase — 2 operation(s) for real time decisions.
   name: Increase Real Time Decisions API
   slug: increase-real-time-decisions-api
-- description: The Real Time Payments Transfers API from Increase — 4 operation(s) for real time payments transfers.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Real Time Payments Transfers API from Increase — 4 operation(s) for real time payments transfers.
   name: Increase Real Time Payments Transfers API
   slug: increase-real-time-payments-transfers-api
-- description: Routing numbers are used to identify your bank in a financial transaction.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Routing numbers are used to identify your bank in a financial transaction.
   name: Increase Routing Numbers API
   slug: increase-routing-numbers-api
-- description: The Simulations API from Increase — 48 operation(s) for simulations.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Simulations API from Increase — 48 operation(s) for simulations.
   name: Increase Simulations API
   slug: increase-simulations-api
-- description: Swift Transfers send funds internationally.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Swift Transfers send funds internationally.
   name: Increase Swift Transfers API
   slug: increase-swift-transfers-api
-- description: Transactions are the immutable additions and removals of money from your bank account. They're the equivalent of line items on your bank statement. To learn more, see [Transactions and Transfers](/doc
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Transactions are the immutable additions and removals of money from your bank account. They're the equivalent of line items on your bank statement. To learn more, see [Transactions and Transfers](/doc
   name: Increase Transactions API
   slug: increase-transactions-api
-- description: 'Wire drawdown requests enable you to request that someone else send you a wire. Because there is nuance to making sure your counterparty''s bank processes these correctly, we ask that you reach out to '
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: 'Wire drawdown requests enable you to request that someone else send you a wire. Because there is nuance to making sure your counterparty''s bank processes these correctly, we ask that you reach out to '
   name: Increase Wire Drawdown Requests API
   slug: increase-wire-drawdown-requests-api
-- description: Wire transfers move funds between your Increase account and any other account accessible by Fedwire.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: Wire transfers move funds between your Increase account and any other account accessible by Fedwire.
   name: Increase Wire Transfers API
   slug: increase-wire-transfers-api
-- description: The Increase API API from Increase — 0 operation(s) for increase api.
+- baseURL: https://api.increase.com
+  baseurl_source: declared
+  description: The Increase API API from Increase — 0 operation(s) for increase api.
   name: Increase Increase API
   slug: increase-increase-api-api
 artifact_total: 122
@@ -530,7 +644,7 @@ score:
     regime_id: banking_open_finance
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:

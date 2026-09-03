@@ -33,43 +33,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
   name: Tweed API (V1)
   slug: tweed-api-v1
-- description: The assets API from Tweed — 5 operation(s) for assets.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The assets API from Tweed — 5 operation(s) for assets.
   name: Tweed assets API
   slug: tweed-assets-api
-- description: The audit-event-mappings API from Tweed — 1 operation(s) for audit-event-mappings.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The audit-event-mappings API from Tweed — 1 operation(s) for audit-event-mappings.
   name: Tweed audit-event-mappings API
   slug: tweed-audit-event-mappings-api
-- description: The auth API from Tweed — 3 operation(s) for auth.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The auth API from Tweed — 3 operation(s) for auth.
   name: Tweed auth API
   slug: tweed-auth-api
-- description: The blockchains API from Tweed — 4 operation(s) for blockchains.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The blockchains API from Tweed — 4 operation(s) for blockchains.
   name: Tweed blockchains API
   slug: tweed-blockchains-api
-- description: The checkout API from Tweed — 4 operation(s) for checkout.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The checkout API from Tweed — 4 operation(s) for checkout.
   name: Tweed checkout API
   slug: tweed-checkout-api
-- description: The contracts API from Tweed — 5 operation(s) for contracts.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The contracts API from Tweed — 5 operation(s) for contracts.
   name: Tweed contracts API
   slug: tweed-contracts-api
-- description: The items API from Tweed — 5 operation(s) for items.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The items API from Tweed — 5 operation(s) for items.
   name: Tweed items API
   slug: tweed-items-api
-- description: The payouts API from Tweed — 4 operation(s) for payouts.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The payouts API from Tweed — 4 operation(s) for payouts.
   name: Tweed payouts API
   slug: tweed-payouts-api
-- description: The platform-webhooks API from Tweed — 3 operation(s) for platform-webhooks.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The platform-webhooks API from Tweed — 3 operation(s) for platform-webhooks.
   name: Tweed platform-webhooks API
   slug: tweed-platform-webhooks-api
-- description: The Rate API from Tweed — 1 operation(s) for rate.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The Rate API from Tweed — 1 operation(s) for rate.
   name: Tweed Rate API
   slug: tweed-rate-api
-- description: The tickets API from Tweed — 1 operation(s) for tickets.
+- baseURL: https://api-v2.prod.paytweed.com
+  baseurl_source: declared
+  description: The tickets API from Tweed — 1 operation(s) for tickets.
   name: Tweed tickets API
   slug: tweed-tickets-api
 artifact_total: 28
@@ -227,11 +249,11 @@ score:
   band: thin
   composite: 38.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -241,7 +263,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 38.4
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +280,9 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tweed/refs/heads/main/screenshots/tweed-2026-09-02T164612.png
 security:
 - kind: authentication
   name: Tweed Authentication

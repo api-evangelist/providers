@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 50 operations · 21 acting
 api_count: 1
 apis:
-- description: Manage connected bank accounts. Bank accounts are created automatically when a bank link enrollment is completed.
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Manage connected bank accounts. Bank accounts are created automatically when a bank link enrollment is completed.
   name: Astrada bank-accounts API
   slug: astrada-bank-accounts-api
-- description: Manage bank enrollment links. A bank link represents an invitation for a user to connect their bank account via Plaid.
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Manage bank enrollment links. A bank link represents an invitation for a user to connect their bank account via Plaid.
   name: Astrada bank-links API
   slug: astrada-bank-links-api
-- description: Manage bank subscriptions (Plaid connections). A subscription represents an active connection to a financial institution.
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Manage bank subscriptions (Plaid connections). A subscription represents an active connection to a financial institution.
   name: Astrada bank-subscriptions API
   slug: astrada-bank-subscriptions-api
-- description: Access bank transactions synced from connected accounts. Transactions are ingested via Plaid and can be matched against card transactions.
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Access bank transactions synced from connected accounts. Transactions are ingested via Plaid and can be matched against card transactions.
   name: Astrada bank-transactions API
   slug: astrada-bank-transactions-api
-- description: BIN Lookup
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: BIN Lookup
   name: Astrada bin-lookup API
   slug: astrada-bin-lookup-api
-- description: Card resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Card resource
   name: Astrada card API
   slug: astrada-card-api
-- description: Card Subscription resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Card Subscription resource
   name: Astrada card-subscription API
   slug: astrada-card-subscription-api
-- description: Card Verification
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Card Verification
   name: Astrada card-verification API
   slug: astrada-card-verification-api
-- description: Enrollment methods resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Enrollment methods resource
   name: Astrada enrollment-methods API
   slug: astrada-enrollment-methods-api
-- description: Network bulk feed resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Network bulk feed resource
   name: Astrada network-bulk-feeds API
   slug: astrada-network-bulk-feeds-api
-- description: Subaccount resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Subaccount resource
   name: Astrada subaccounts API
   slug: astrada-subaccounts-api
-- description: Access transaction matches between bank and card transactions, including confidence scores and match reasoning.
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Access transaction matches between bank and card transactions, including confidence scores and match reasoning.
   name: Astrada transaction-matches API
   slug: astrada-transaction-matches-api
-- description: Transaction messages resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Transaction messages resource
   name: Astrada transaction-messages API
   slug: astrada-transaction-messages-api
-- description: Transaction resource
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Transaction resource
   name: Astrada transactions API
   slug: astrada-transactions-api
-- description: Manage webhooks
+- baseURL: https://api.astrada.co
+  baseurl_source: declared
+  description: Manage webhooks
   name: Astrada webhooks API
   slug: astrada-webhooks-api
 artifact_total: 55
@@ -364,7 +394,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -374,7 +404,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 61.4
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,7 +428,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:

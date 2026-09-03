@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -33,16 +46,24 @@ agentic_access:
   summary_line: 11 operations · 10 acting
 api_count: 2
 apis:
-- description: The CatalogService API from Engine — 1 operation(s) for catalogservice.
+- baseURL: https://partner-api.engine.com
+  baseurl_source: declared
+  description: The CatalogService API from Engine — 1 operation(s) for catalogservice.
   name: Engine Catalog Service API
   slug: hotel-engine-catalogservice-api
-- description: The ContentService API from Engine — 2 operation(s) for contentservice.
+- baseURL: https://partner-api.engine.com
+  baseurl_source: declared
+  description: The ContentService API from Engine — 2 operation(s) for contentservice.
   name: Engine Content Service API
   slug: hotel-engine-contentservice-api
-- description: The LodgingBookingService API from Engine — 5 operation(s) for lodgingbookingservice.
+- baseURL: https://partner-api.engine.com
+  baseurl_source: declared
+  description: The LodgingBookingService API from Engine — 5 operation(s) for lodgingbookingservice.
   name: Engine Lodging Booking Service API
   slug: hotel-engine-lodgingbookingservice-api
-- description: The LodgingShoppingService API from Engine — 2 operation(s) for lodgingshoppingservice.
+- baseURL: https://partner-api.engine.com
+  baseurl_source: declared
+  description: The LodgingShoppingService API from Engine — 2 operation(s) for lodgingshoppingservice.
   name: Engine Lodging Shopping Service API
   slug: hotel-engine-lodgingshoppingservice-api
 artifact_total: 16
@@ -252,7 +273,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotel-engine/refs/heads/main/screenshots/hotel-engine-2026-08-07T170318.png
 security:

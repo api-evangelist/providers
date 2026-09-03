@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 20 operations · 13 acting
 api_count: 1
 apis:
-- description: Merchant (location) status and integration completion.
+- baseURL: https://core.cuboh.net
+  baseurl_source: declared
+  description: Merchant (location) status and integration completion.
   name: Cuboh Locations API
   slug: cuboh-locations-api
-- description: Menu retrieval, push, creation, update, and validation.
+- baseURL: https://core.cuboh.net
+  baseurl_source: declared
+  description: Menu retrieval, push, creation, update, and validation.
   name: Cuboh Menu API
   slug: cuboh-menu-api
-- description: Order creation, retrieval, and lifecycle actions.
+- baseURL: https://core.cuboh.net
+  baseurl_source: declared
+  description: Order creation, retrieval, and lifecycle actions.
   name: Cuboh Orders API
   slug: cuboh-orders-api
-- description: Signed event notifications delivered to partner-hosted URLs.
+- baseURL: https://core.cuboh.net
+  baseurl_source: declared
+  description: Signed event notifications delivered to partner-hosted URLs.
   name: Cuboh Webhooks API
   slug: cuboh-webhooks-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/screenshots/cuboh-2026-07-25T210903.png
 security:

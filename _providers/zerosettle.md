@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Configurable cancel flow with retention offers
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Configurable cancel flow with retention offers
   name: ZeroSettle Cancel Flow API
   slug: zerosettle-cancel-flow-api
-- description: Create checkout sessions and payment intents for web purchases
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Create checkout sessions and payment intents for web purchases
   name: ZeroSettle Checkout API
   slug: zerosettle-checkout-api
-- description: Query user entitlements (active purchases and subscriptions)
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Query user entitlements (active purchases and subscriptions)
   name: ZeroSettle Entitlements API
   slug: zerosettle-entitlements-api
-- description: Track SDK analytics events
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Track SDK analytics events
   name: ZeroSettle Events API
   slug: zerosettle-events-api
-- description: Switch & Save migration tracking
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Switch & Save migration tracking
   name: ZeroSettle Migration API
   slug: zerosettle-migration-api
-- description: Fetch the product catalog for your app
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Fetch the product catalog for your app
   name: ZeroSettle Products API
   slug: zerosettle-products-api
-- description: Restore purchases for a user
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Restore purchases for a user
   name: ZeroSettle Restore API
   slug: zerosettle-restore-api
-- description: Sync and query StoreKit transactions
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Sync and query StoreKit transactions
   name: ZeroSettle StoreKit API
   slug: zerosettle-storekit-api
-- description: Manage subscription lifecycle (cancel, pause, resume)
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Manage subscription lifecycle (cancel, pause, resume)
   name: ZeroSettle Subscriptions API
   slug: zerosettle-subscriptions-api
-- description: Query transaction status and history
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Query transaction status and history
   name: ZeroSettle Transactions API
   slug: zerosettle-transactions-api
-- description: Subscription upgrade/downgrade offers
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Subscription upgrade/downgrade offers
   name: ZeroSettle Upgrade Offers API
   slug: zerosettle-upgrade-offers-api
-- description: Unified offer + subscription-state resolver (SDK 1.2+)
+- baseURL: https://api.zerosettle.io/v1
+  baseurl_source: declared
+  description: Unified offer + subscription-state resolver (SDK 1.2+)
   name: ZeroSettle User Offer API
   slug: zerosettle-user-offer-api
 artifact_total: 28
@@ -274,7 +298,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/screenshots/zerosettle-2026-08-17T083101.png
 security:

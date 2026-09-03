@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 142 operations · 95 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Billing API from Didit — 2 operation(s) for billing.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Billing API from Didit — 2 operation(s) for billing.
   name: Didit Billing API
   slug: didit-billing-api
-- description: The Businesses API from Didit — 5 operation(s) for businesses.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Businesses API from Didit — 5 operation(s) for businesses.
   name: Didit Businesses API
   slug: didit-businesses-api
-- description: The Case Blueprints API from Didit — 4 operation(s) for case blueprints.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Case Blueprints API from Didit — 4 operation(s) for case blueprints.
   name: Didit Case Blueprints API
   slug: didit-case-blueprints-api
-- description: The Cases API from Didit — 24 operation(s) for cases.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Cases API from Didit — 24 operation(s) for cases.
   name: Didit Cases API
   slug: didit-cases-api
-- description: The Customization API from Didit — 1 operation(s) for customization.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Customization API from Didit — 1 operation(s) for customization.
   name: Didit Customization API
   slug: didit-customization-api
-- description: The Questionnaires API from Didit — 2 operation(s) for questionnaires.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Questionnaires API from Didit — 2 operation(s) for questionnaires.
   name: Didit Questionnaires API
   slug: didit-questionnaires-api
-- description: The Regulatory Reports API from Didit — 6 operation(s) for regulatory reports.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Regulatory Reports API from Didit — 6 operation(s) for regulatory reports.
   name: Didit Regulatory Reports API
   slug: didit-regulatory-reports-api
-- description: The Report Templates API from Didit — 2 operation(s) for report templates.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Report Templates API from Didit — 2 operation(s) for report templates.
   name: Didit Report Templates API
   slug: didit-report-templates-api
-- description: The Session API from Didit — 1 operation(s) for session.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Session API from Didit — 1 operation(s) for session.
   name: Didit Session API
   slug: didit-session-api
-- description: The Sessions API from Didit — 20 operation(s) for sessions.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Sessions API from Didit — 20 operation(s) for sessions.
   name: Didit Sessions API
   slug: didit-sessions-api
-- description: The Standalone APIs API from Didit — 14 operation(s) for standalone apis.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Standalone APIs API from Didit — 14 operation(s) for standalone apis.
   name: Didit Standalone APIs API
   slug: didit-standalone-apis-api
-- description: The System API from Didit — 1 operation(s) for system.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The System API from Didit — 1 operation(s) for system.
   name: Didit System API
   slug: didit-system-api
-- description: The Transactions API from Didit — 6 operation(s) for transactions.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Transactions API from Didit — 6 operation(s) for transactions.
   name: Didit Transactions API
   slug: didit-transactions-api
-- description: The Travel Rule API from Didit — 11 operation(s) for travel rule.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Travel Rule API from Didit — 11 operation(s) for travel rule.
   name: Didit Travel Rule API
   slug: didit-travel-rule-api
-- description: The Users API from Didit — 6 operation(s) for users.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Users API from Didit — 6 operation(s) for users.
   name: Didit Users API
   slug: didit-users-api
-- description: The Webhook API from Didit — 2 operation(s) for webhook.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Webhook API from Didit — 2 operation(s) for webhook.
   name: Didit Webhook API
   slug: didit-webhook-api
-- description: The Workflows API from Didit — 2 operation(s) for workflows.
+- baseURL: https://verification.didit.me
+  baseurl_source: declared
+  description: The Workflows API from Didit — 2 operation(s) for workflows.
   name: Didit Workflows API
   slug: didit-workflows-api
 artifact_total: 41
@@ -325,7 +359,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -335,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.7
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:

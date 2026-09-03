@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -54,25 +54,37 @@ apis:
 - description: Bulk access to pre-built technographic datasets covering technology installations across millions of websites, suitable for market research and lead list generation.
   name: Wappalyzer Dataset API
   slug: wappalyzer-dataset-api
-- description: The four anonymous, unauthenticated technology and category reference endpoints on the v2 host — the technology directory (7,281 entries), a single technology profile, the category directory (106 entr
+- baseURL: https://api.wappalyzer.com/v2
+  baseurl_source: declared
+  description: The four anonymous, unauthenticated technology and category reference endpoints on the v2 host — the technology directory (7,281 entries), a single technology profile, the category directory (106 entr
   name: Wappalyzer Metadata API
   slug: wappalyzer-metadata-api
 - description: First-party hosted Model Context Protocol server at https://mcp.wappalyzer.com/mcp — remote Streamable HTTP, OAuth 2.1 with PKCE and dynamic client registration, exposing three read-only tools and fou
   name: Wappalyzer MCP Server
   slug: wappalyzer-mcp
-- description: Shared authentication, billing, and response conventions.
+- baseURL: https://api.wappalyzer.com
+  baseurl_source: declared
+  description: Shared authentication, billing, and response conventions.
   name: Wappalyzer Basics API
   slug: wappalyzer-basics-api
-- description: Lead list creation, pricing, and download lifecycle.
+- baseURL: https://api.wappalyzer.com
+  baseurl_source: declared
+  description: Lead list creation, pricing, and download lifecycle.
   name: Wappalyzer Lists API
   slug: wappalyzer-lists-api
-- description: Website technology lookup and asynchronous crawl callbacks.
+- baseURL: https://api.wappalyzer.com
+  baseurl_source: declared
+  description: Website technology lookup and asynchronous crawl callbacks.
   name: Wappalyzer Lookup API
   slug: wappalyzer-lookup-api
-- description: Dataset-backed website-serving subdomain discovery.
+- baseURL: https://api.wappalyzer.com
+  baseurl_source: declared
+  description: Dataset-backed website-serving subdomain discovery.
   name: Wappalyzer Subdomains API
   slug: wappalyzer-subdomains-api
-- description: Email verification and deliverability checks.
+- baseURL: https://api.wappalyzer.com
+  baseurl_source: declared
+  description: Email verification and deliverability checks.
   name: Wappalyzer Verify API
   slug: wappalyzer-verify-api
 artifact_total: 32
@@ -349,7 +361,7 @@ score:
     catalog_gap: 25.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -359,7 +371,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 63.2
-  previous_composite: 68.6
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,7 +383,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wappalyzer/refs/heads/main/screenshots/wappalyzer-2026-06-20T201222.png
 security:

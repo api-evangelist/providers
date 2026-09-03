@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Vendr Model Context Protocol (MCP) server exposes Vendr pricing intelligence to AI agents via the MCP standard. It provides tools for searching the product catalog, retrieving custom price estimat
   name: Vendr MCP Server
   slug: vendr-mcp
-- description: Search and retrieve software product catalog data
+- baseURL: https://api.vendr.com
+  baseurl_source: declared
+  description: Search and retrieve software product catalog data
   name: Vendr Catalog API
   slug: vendr-catalog-api
-- description: Fair price estimates and negotiation insights
+- baseURL: https://api.vendr.com
+  baseurl_source: declared
+  description: Fair price estimates and negotiation insights
   name: Vendr Pricing API
   slug: vendr-pricing-api
-- description: Define and submit purchase scope requirements
+- baseURL: https://api.vendr.com
+  baseurl_source: declared
+  description: Define and submit purchase scope requirements
   name: Vendr Scope API
   slug: vendr-scope-api
-- description: Subscribe to and manage event notifications
+- baseURL: https://api.vendr.com
+  baseurl_source: declared
+  description: Subscribe to and manage event notifications
   name: Vendr Webhooks API
   slug: vendr-webhooks-api
 artifact_total: 29
@@ -257,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/screenshots/vendr-2026-06-20T200912.png
 security:

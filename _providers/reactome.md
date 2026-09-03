@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,73 +42,119 @@ agentic_access:
   summary_line: 122 operations · 31 acting
 api_count: 2
 apis:
-- description: Database info queries
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Database info queries
   name: Reactome database API
   slug: reactome-database-api
-- description: 'Reactome Data: Search engines discovery schema'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Search engines discovery schema'
   name: Reactome discover API
   slug: reactome-discover-api
-- description: 'Reactome Data: Disease related queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Disease related queries'
   name: Reactome diseases API
   slug: reactome-diseases-api
-- description: Methods to download different views of a result
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Methods to download different views of a result
   name: Reactome download API
   slug: reactome-download-api
-- description: 'Reactome Data: PhysicalEntity queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: PhysicalEntity queries'
   name: Reactome entities API
   slug: reactome-entities-api
-- description: 'Reactome Data: Queries related to events'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Queries related to events'
   name: Reactome events API
   slug: reactome-events-api
-- description: 'Reactome Data: Format Exporter'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Format Exporter'
   name: Reactome exporter API
   slug: reactome-exporter-api
-- description: Queries for only one identifier
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Queries for only one identifier
   name: Reactome identifier API
   slug: reactome-identifier-api
-- description: Queries for multiple identifiers
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Queries for multiple identifiers
   name: Reactome identifiers API
   slug: reactome-identifiers-api
-- description: Imports an external result
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Imports an external result
   name: Reactome import API
   slug: reactome-import-api
-- description: Molecule interactors
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Molecule interactors
   name: Reactome interactors API
   slug: reactome-interactors-api
-- description: Identifiers mapping methods
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Identifiers mapping methods
   name: Reactome mapping API
   slug: reactome-mapping-api
-- description: 'Reactome Data: Orthology related queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Orthology related queries'
   name: Reactome orthology API
   slug: reactome-orthology-api
-- description: 'Reactome Data: Queries related to participants'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Queries related to participants'
   name: Reactome participants API
   slug: reactome-participants-api
-- description: 'Reactome Data: Pathway related queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Pathway related queries'
   name: Reactome pathways API
   slug: reactome-pathways-api
-- description: 'Reactome Data: Person queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Person queries'
   name: Reactome person API
   slug: reactome-person-api
-- description: 'Reactome Data: Common data retrieval'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Common data retrieval'
   name: Reactome query API
   slug: reactome-query-api
-- description: 'Reactome xRefs: ReferenceEntity queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome xRefs: ReferenceEntity queries'
   name: Reactome references API
   slug: reactome-references-api
-- description: Retrieves report files in PDF format
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Retrieves report files in PDF format
   name: Reactome report API
   slug: reactome-report-api
-- description: 'Reactome Data: Schema class queries'
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: 'Reactome Data: Schema class queries'
   name: Reactome schema API
   slug: reactome-schema-api
-- description: Reactome Search
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Reactome Search
   name: Reactome search API
   slug: reactome-search-api
-- description: Species comparison
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Species comparison
   name: Reactome species API
   slug: reactome-species-api
-- description: Previous queries filter
+- baseURL: https://reactome.org/ContentService
+  baseurl_source: declared
+  description: Previous queries filter
   name: Reactome token API
   slug: reactome-token-api
 artifact_total: 122
@@ -513,7 +559,7 @@ score:
     regime_id: health
     score: 13.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reactome/refs/heads/main/screenshots/reactome-2026-06-20T192632.png
 security:

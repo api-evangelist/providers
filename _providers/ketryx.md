@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Upload build artifacts, test results, and SBOM files.
+- baseURL: https://app.ketryx.com
+  baseurl_source: declared
+  description: Upload build artifacts, test results, and SBOM files.
   name: Ketryx Artifacts API
   slug: ketryx-artifacts-api
-- description: Report builds and their status to Ketryx.
+- baseURL: https://app.ketryx.com
+  baseurl_source: declared
+  description: Report builds and their status to Ketryx.
   name: Ketryx Builds API
   slug: ketryx-builds-api
 artifact_total: 10
@@ -214,7 +218,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/screenshots/ketryx-2026-07-25T223638.png
 security:

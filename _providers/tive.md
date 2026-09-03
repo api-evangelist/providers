@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alerts API from Tive — 1 operation(s) for alerts.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Alerts API from Tive — 1 operation(s) for alerts.
   name: Tive Alerts API
   slug: tive-alerts-api
-- description: The Authentication API from Tive — 1 operation(s) for authentication.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Authentication API from Tive — 1 operation(s) for authentication.
   name: Tive Authentication API
   slug: tive-authentication-api
-- description: The Devices API from Tive — 2 operation(s) for devices.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Devices API from Tive — 2 operation(s) for devices.
   name: Tive Devices API
   slug: tive-devices-api
-- description: The Sensor Data API from Tive — 1 operation(s) for sensor data.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Sensor Data API from Tive — 1 operation(s) for sensor data.
   name: Tive Sensor Data API
   slug: tive-sensor-data-api
-- description: The Shipments API from Tive — 3 operation(s) for shipments.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Shipments API from Tive — 3 operation(s) for shipments.
   name: Tive Shipments API
   slug: tive-shipments-api
-- description: The Webhooks API from Tive — 2 operation(s) for webhooks.
+- baseURL: https://api.tive.com/public/v3
+  baseurl_source: declared
+  description: The Webhooks API from Tive — 2 operation(s) for webhooks.
   name: Tive Webhooks API
   slug: tive-webhooks-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tive/refs/heads/main/screenshots/tive-2026-09-02T163825.png
 security:
 - kind: authentication
   name: Tive Authentication

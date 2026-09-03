@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 11 operations · 11 acting
 api_count: 2
 apis:
-- description: Portfolio analytics and risk calculations
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Portfolio analytics and risk calculations
   name: Credit Benchmark Analytics API
   slug: creditbenchmark-analytics-api
-- description: JWT token generation and authentication
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: JWT token generation and authentication
   name: Credit Benchmark Authentication API
   slug: creditbenchmark-authentication-api
-- description: Contributor-specific analytics using client/bank internal PD data. Requires ent_CLIENT-DATA entitlement.
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Contributor-specific analytics using client/bank internal PD data. Requires ent_CLIENT-DATA entitlement.
   name: Credit Benchmark Contributor Data API
   slug: creditbenchmark-contributor-data-api
-- description: Entity-specific data and rating information
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Entity-specific data and rating information
   name: Credit Benchmark Entity Data API
   slug: creditbenchmark-entity-data-api
-- description: Entity name matching and identification
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Entity name matching and identification
   name: Credit Benchmark Entity Matching API
   slug: creditbenchmark-entity-matching-api
-- description: Portfolio-level analytics and summaries
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Portfolio-level analytics and summaries
   name: Credit Benchmark Portfolio Analytics API
   slug: creditbenchmark-portfolio-analytics-api
-- description: Raw data extraction endpoints.
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Raw data extraction endpoints.
   name: Credit Benchmark Data API
   slug: creditbenchmark-data-api
-- description: Entity name resolution endpoints.
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Entity name resolution endpoints.
   name: Credit Benchmark Entity Resolution API
   slug: creditbenchmark-entity-resolution-api
-- description: Metadata discovery endpoints.
+- baseURL: https://api.creditbenchmark.com
+  baseurl_source: declared
+  description: Metadata discovery endpoints.
   name: Credit Benchmark Metadata API
   slug: creditbenchmark-metadata-api
 artifact_total: 25
@@ -254,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:

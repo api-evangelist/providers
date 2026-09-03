@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Category terms used to classify posts.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Category terms used to classify posts.
   name: Lish Categories API
   slug: lish-categories-api
-- description: Comments left on Lish posts.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Comments left on Lish posts.
   name: Lish Comments API
   slug: lish-comments-api
-- description: Media library items (images, attachments).
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Media library items (images, attachments).
   name: Lish Media API
   slug: lish-media-api
-- description: Static marketing pages on the Lish site.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Static marketing pages on the Lish site.
   name: Lish Pages API
   slug: lish-pages-api
-- description: Blog posts published on the Lish site.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Blog posts published on the Lish site.
   name: Lish Posts API
   slug: lish-posts-api
-- description: Cross-resource search over site content.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Cross-resource search over site content.
   name: Lish Search API
   slug: lish-search-api
-- description: Registered post statuses.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered post statuses.
   name: Lish Statuses API
   slug: lish-statuses-api
-- description: Tag terms used to classify posts.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Tag terms used to classify posts.
   name: Lish Tags API
   slug: lish-tags-api
-- description: Registered taxonomies.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered taxonomies.
   name: Lish Taxonomies API
   slug: lish-taxonomies-api
-- description: Registered post types.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Registered post types.
   name: Lish Types API
   slug: lish-types-api
-- description: Post authors exposed by the site.
+- baseURL: https://www.lishfood.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: Post authors exposed by the site.
   name: Lish Users API
   slug: lish-users-api
 artifact_total: 26
@@ -235,7 +257,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lish/refs/heads/main/screenshots/lish-2026-07-25T225325.png
 security:

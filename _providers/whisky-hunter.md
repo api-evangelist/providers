@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Auctions API from Whisky Hunter — 1 operation(s) for auctions.
+- baseURL: https://whiskyhunter.net/api
+  baseurl_source: declared
+  description: The Auctions API from Whisky Hunter — 1 operation(s) for auctions.
   name: Whisky Hunter Auctions API
   slug: whisky-hunter-auctions-api
-- description: The Distilleries API from Whisky Hunter — 2 operation(s) for distilleries.
+- baseURL: https://whiskyhunter.net/api
+  baseurl_source: declared
+  description: The Distilleries API from Whisky Hunter — 2 operation(s) for distilleries.
   name: Whisky Hunter Distilleries API
   slug: whisky-hunter-distilleries-api
 artifact_total: 21
@@ -212,7 +216,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whisky-hunter/refs/heads/main/screenshots/whisky-hunter-2026-06-20T201439.png
 security:

@@ -33,100 +33,162 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Account Settings API from RentCheck — 9 operation(s) for account settings.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Account Settings API from RentCheck — 9 operation(s) for account settings.
   name: RentCheck Account Settings API
   slug: rentcheck-account-settings-api
-- description: The Automations API from RentCheck — 2 operation(s) for automations.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Automations API from RentCheck — 2 operation(s) for automations.
   name: RentCheck Automations API
   slug: rentcheck-automations-api
-- description: The Buildings API from RentCheck — 3 operation(s) for buildings.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Buildings API from RentCheck — 3 operation(s) for buildings.
   name: RentCheck Buildings API
   slug: rentcheck-buildings-api
-- description: The Chargebee API from RentCheck — 3 operation(s) for chargebee.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Chargebee API from RentCheck — 3 operation(s) for chargebee.
   name: RentCheck Chargebee API
   slug: rentcheck-chargebee-api
-- description: The Communities API from RentCheck — 3 operation(s) for communities.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Communities API from RentCheck — 3 operation(s) for communities.
   name: RentCheck Communities API
   slug: rentcheck-communities-api
-- description: The Dashboard API from RentCheck — 2 operation(s) for dashboard.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Dashboard API from RentCheck — 2 operation(s) for dashboard.
   name: RentCheck Dashboard API
   slug: rentcheck-dashboard-api
-- description: The File Requests API from RentCheck — 2 operation(s) for file requests.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The File Requests API from RentCheck — 2 operation(s) for file requests.
   name: RentCheck File Requests API
   slug: rentcheck-file-requests-api
-- description: The Filter Segments API from RentCheck — 2 operation(s) for filter segments.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Filter Segments API from RentCheck — 2 operation(s) for filter segments.
   name: RentCheck Filter Segments API
   slug: rentcheck-filter-segments-api
-- description: The Inspection Features API from RentCheck — 13 operation(s) for inspection features.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Inspection Features API from RentCheck — 13 operation(s) for inspection features.
   name: RentCheck Inspection Features API
   slug: rentcheck-inspection-features-api
-- description: The Inspections API from RentCheck — 26 operation(s) for inspections.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Inspections API from RentCheck — 26 operation(s) for inspections.
   name: RentCheck Inspections API
   slug: rentcheck-inspections-api
-- description: The Inspections Templates API from RentCheck — 4 operation(s) for inspections templates.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Inspections Templates API from RentCheck — 4 operation(s) for inspections templates.
   name: RentCheck Inspections Templates API
   slug: rentcheck-inspections-templates-api
-- description: The Inspections V2 API from RentCheck — 2 operation(s) for inspections v2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Inspections V2 API from RentCheck — 2 operation(s) for inspections v2.
   name: RentCheck Inspections V2 API
   slug: rentcheck-inspections-v2-api
-- description: The Integrations API from RentCheck — 1 operation(s) for integrations.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Integrations API from RentCheck — 1 operation(s) for integrations.
   name: RentCheck Integrations API
   slug: rentcheck-integrations-api
-- description: The LatchelProxy API from RentCheck — 6 operation(s) for latchelproxy.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The LatchelProxy API from RentCheck — 6 operation(s) for latchelproxy.
   name: RentCheck LatchelProxy API
   slug: rentcheck-latchelproxy-api
-- description: The Leases API from RentCheck — 9 operation(s) for leases.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Leases API from RentCheck — 9 operation(s) for leases.
   name: RentCheck Leases API
   slug: rentcheck-leases-api
-- description: The Maintenance Flags API from RentCheck — 3 operation(s) for maintenance flags.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Maintenance Flags API from RentCheck — 3 operation(s) for maintenance flags.
   name: RentCheck Maintenance Flags API
   slug: rentcheck-maintenance-flags-api
-- description: The Maintenance Reports API from RentCheck — 2 operation(s) for maintenance reports.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Maintenance Reports API from RentCheck — 2 operation(s) for maintenance reports.
   name: RentCheck Maintenance Reports API
   slug: rentcheck-maintenance-reports-api
-- description: The Maintenance Reports V2 API from RentCheck — 1 operation(s) for maintenance reports v2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Maintenance Reports V2 API from RentCheck — 1 operation(s) for maintenance reports v2.
   name: RentCheck Maintenance Reports V2 API
   slug: rentcheck-maintenance-reports-v2-api
-- description: The oAuth2 API from RentCheck — 8 operation(s) for oauth2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The oAuth2 API from RentCheck — 8 operation(s) for oauth2.
   name: RentCheck oAuth2 API
   slug: rentcheck-oauth2-api
-- description: The Permission Groups API from RentCheck — 2 operation(s) for permission groups.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Permission Groups API from RentCheck — 2 operation(s) for permission groups.
   name: RentCheck Permission Groups API
   slug: rentcheck-permission-groups-api
-- description: The Properties V2 API from RentCheck — 4 operation(s) for properties v2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Properties V2 API from RentCheck — 4 operation(s) for properties v2.
   name: RentCheck Properties V2 API
   slug: rentcheck-properties-v2-api
-- description: The Properties V3 API from RentCheck — 4 operation(s) for properties v3.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Properties V3 API from RentCheck — 4 operation(s) for properties v3.
   name: RentCheck Properties V3 API
   slug: rentcheck-properties-v3-api
-- description: The Residents (deprecated) API from RentCheck — 3 operation(s) for residents (deprecated).
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Residents (deprecated) API from RentCheck — 3 operation(s) for residents (deprecated).
   name: RentCheck Residents (deprecated) API
   slug: rentcheck-residents-deprecated-api
-- description: The Residents V2 API from RentCheck — 2 operation(s) for residents v2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Residents V2 API from RentCheck — 2 operation(s) for residents v2.
   name: RentCheck Residents V2 API
   slug: rentcheck-residents-v2-api
-- description: The Residents V3 API from RentCheck — 1 operation(s) for residents v3.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Residents V3 API from RentCheck — 1 operation(s) for residents v3.
   name: RentCheck Residents V3 API
   slug: rentcheck-residents-v3-api
-- description: The Subscriptions API from RentCheck — 6 operation(s) for subscriptions.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Subscriptions API from RentCheck — 6 operation(s) for subscriptions.
   name: RentCheck Subscriptions API
   slug: rentcheck-subscriptions-api
-- description: The Teams API from RentCheck — 11 operation(s) for teams.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Teams API from RentCheck — 11 operation(s) for teams.
   name: RentCheck Teams API
   slug: rentcheck-teams-api
-- description: The Units API from RentCheck — 4 operation(s) for units.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Units API from RentCheck — 4 operation(s) for units.
   name: RentCheck Units API
   slug: rentcheck-units-api
-- description: The Users API from RentCheck — 20 operation(s) for users.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Users API from RentCheck — 20 operation(s) for users.
   name: RentCheck Users API
   slug: rentcheck-users-api
-- description: The Work Orders API from RentCheck — 3 operation(s) for work orders.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Work Orders API from RentCheck — 3 operation(s) for work orders.
   name: RentCheck Work Orders API
   slug: rentcheck-work-orders-api
-- description: The Work Orders V2 API from RentCheck — 1 operation(s) for work orders v2.
+- baseURL: https://prod-public-api.getrentcheck.com
+  baseurl_source: declared
+  description: The Work Orders V2 API from RentCheck — 1 operation(s) for work orders v2.
   name: RentCheck Work Orders V2 API
   slug: rentcheck-work-orders-v2-api
 artifact_total: 66
@@ -386,7 +448,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcheck/refs/heads/main/screenshots/rentcheck-2026-08-17T081520.png
 security:

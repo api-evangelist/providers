@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -34,343 +47,569 @@ agentic_access:
   summary_line: 1261 operations · 653 acting · 18 human-in-the-loop
 api_count: 21
 apis:
-- description: The account API from TUI Group — 5 operation(s) for account.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The account API from TUI Group — 5 operation(s) for account.
   name: TUI Group Account API
   slug: tui-group-account-api
-- description: The AirlineProfile API from TUI Group — 2 operation(s) for airlineprofile.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The AirlineProfile API from TUI Group — 2 operation(s) for airlineprofile.
   name: TUI Group Airline Profile API
   slug: tui-group-airlineprofile-api
-- description: The AirShopping API from TUI Group — 2 operation(s) for airshopping.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The AirShopping API from TUI Group — 2 operation(s) for airshopping.
   name: TUI Group Air Shopping API
   slug: tui-group-airshopping-api
-- description: The apisMessage API from TUI Group — 1 operation(s) for apismessage.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The apisMessage API from TUI Group — 1 operation(s) for apismessage.
   name: TUI Group APIS Message API
   slug: tui-group-apismessage-api
-- description: The apo API from TUI Group — 2 operation(s) for apo.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The apo API from TUI Group — 2 operation(s) for apo.
   name: TUI Group Apo API
   slug: tui-group-apo-api
-- description: The Auth API from TUI Group — 2 operation(s) for auth.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Auth API from TUI Group — 2 operation(s) for auth.
   name: TUI Group Auth API
   slug: tui-group-auth-api
-- description: The availability API from TUI Group — 6 operation(s) for availability.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The availability API from TUI Group — 6 operation(s) for availability.
   name: TUI Group Availability API
   slug: tui-group-availability-api
-- description: The baggage API from TUI Group — 6 operation(s) for baggage.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The baggage API from TUI Group — 6 operation(s) for baggage.
   name: TUI Group Baggage API
   slug: tui-group-baggage-api
-- description: The bagTag API from TUI Group — 1 operation(s) for bagtag.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The bagTag API from TUI Group — 1 operation(s) for bagtag.
   name: TUI Group Bag Tag API
   slug: tui-group-bagtag-api
-- description: The boarding API from TUI Group — 5 operation(s) for boarding.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The boarding API from TUI Group — 5 operation(s) for boarding.
   name: TUI Group Boarding API
   slug: tui-group-boarding-api
-- description: The boardingDevices API from TUI Group — 1 operation(s) for boardingdevices.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The boardingDevices API from TUI Group — 1 operation(s) for boardingdevices.
   name: TUI Group Boarding Devices API
   slug: tui-group-boardingdevices-api
-- description: The booking/addons API from TUI Group — 3 operation(s) for booking/addons.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/addons API from TUI Group — 3 operation(s) for booking/addons.
   name: TUI Group Booking/addons API
   slug: tui-group-booking-addons-api
-- description: The booking API from TUI Group — 53 operation(s) for booking.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking API from TUI Group — 53 operation(s) for booking.
   name: TUI Group Booking API
   slug: tui-group-booking-api
-- description: The booking/boardingpasses API from TUI Group — 4 operation(s) for booking/boardingpasses.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/boardingpasses API from TUI Group — 4 operation(s) for booking/boardingpasses.
   name: TUI Group Booking/boardingpasses API
   slug: tui-group-booking-boardingpasses-api
-- description: The booking/checkin API from TUI Group — 10 operation(s) for booking/checkin.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/checkin API from TUI Group — 10 operation(s) for booking/checkin.
   name: TUI Group Booking/checkin API
   slug: tui-group-booking-checkin-api
-- description: The booking/contacts API from TUI Group — 5 operation(s) for booking/contacts.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/contacts API from TUI Group — 5 operation(s) for booking/contacts.
   name: TUI Group Booking/contacts API
   slug: tui-group-booking-contacts-api
-- description: The booking/history API from TUI Group — 9 operation(s) for booking/history.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/history API from TUI Group — 9 operation(s) for booking/history.
   name: TUI Group Booking/history API
   slug: tui-group-booking-history-api
-- description: The booking/journeys API from TUI Group — 18 operation(s) for booking/journeys.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/journeys API from TUI Group — 18 operation(s) for booking/journeys.
   name: TUI Group Booking/journeys API
   slug: tui-group-booking-journeys-api
-- description: The booking/passengers API from TUI Group — 50 operation(s) for booking/passengers.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/passengers API from TUI Group — 50 operation(s) for booking/passengers.
   name: TUI Group Booking/passengers API
   slug: tui-group-booking-passengers-api
-- description: The booking/payments API from TUI Group — 62 operation(s) for booking/payments.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/payments API from TUI Group — 62 operation(s) for booking/payments.
   name: TUI Group Booking/payments API
   slug: tui-group-booking-payments-api
-- description: The booking/retrieve API from TUI Group — 5 operation(s) for booking/retrieve.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/retrieve API from TUI Group — 5 operation(s) for booking/retrieve.
   name: TUI Group Booking/retrieve API
   slug: tui-group-booking-retrieve-api
-- description: The booking/seatmaps API from TUI Group — 3 operation(s) for booking/seatmaps.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/seatmaps API from TUI Group — 3 operation(s) for booking/seatmaps.
   name: TUI Group Booking/seatmaps API
   slug: tui-group-booking-seatmaps-api
-- description: The booking/seats API from TUI Group — 8 operation(s) for booking/seats.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/seats API from TUI Group — 8 operation(s) for booking/seats.
   name: TUI Group Booking/seats API
   slug: tui-group-booking-seats-api
-- description: The booking/segments API from TUI Group — 7 operation(s) for booking/segments.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/segments API from TUI Group — 7 operation(s) for booking/segments.
   name: TUI Group Booking/segments API
   slug: tui-group-booking-segments-api
-- description: The booking/ssrs API from TUI Group — 12 operation(s) for booking/ssrs.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The booking/ssrs API from TUI Group — 12 operation(s) for booking/ssrs.
   name: TUI Group Booking/ssrs API
   slug: tui-group-booking-ssrs-api
-- description: The Bookings API from TUI Group — 71 operation(s) for bookings.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Bookings API from TUI Group — 71 operation(s) for bookings.
   name: TUI Group Bookings API
   slug: tui-group-bookings-api
-- description: The bundles API from TUI Group — 3 operation(s) for bundles.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The bundles API from TUI Group — 3 operation(s) for bundles.
   name: TUI Group Bundles API
   slug: tui-group-bundles-api
-- description: The checkin API from TUI Group — 4 operation(s) for checkin.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The checkin API from TUI Group — 4 operation(s) for checkin.
   name: TUI Group Checkin API
   slug: tui-group-checkin-api
-- description: The CheckInHandler API from TUI Group — 2 operation(s) for checkinhandler.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The CheckInHandler API from TUI Group — 2 operation(s) for checkinhandler.
   name: TUI Group Check In Handler API
   slug: tui-group-checkinhandler-api
-- description: The collection API from TUI Group — 3 operation(s) for collection.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The collection API from TUI Group — 3 operation(s) for collection.
   name: TUI Group Collection API
   slug: tui-group-collection-api
-- description: The configuration API from TUI Group — 1 operation(s) for configuration.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The configuration API from TUI Group — 1 operation(s) for configuration.
   name: TUI Group Configuration API
   slug: tui-group-configuration-api
-- description: The contacts API from TUI Group — 1 operation(s) for contacts.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The contacts API from TUI Group — 1 operation(s) for contacts.
   name: TUI Group Contacts API
   slug: tui-group-contacts-api
-- description: The contents API from TUI Group — 1 operation(s) for contents.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The contents API from TUI Group — 1 operation(s) for contents.
   name: TUI Group Contents API
   slug: tui-group-contents-api
-- description: The Cruise Add a stay API from TUI Group — 1 operation(s) for cruise add a stay.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Add a stay API from TUI Group — 1 operation(s) for cruise add a stay.
   name: TUI Group Cruise Add a stay API
   slug: tui-group-cruise-add-a-stay-api
-- description: The Cruise Alternate Cabin and Board Search API from TUI Group — 1 operation(s) for cruise alternate cabin and board search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Alternate Cabin and Board Search API from TUI Group — 1 operation(s) for cruise alternate cabin and board search.
   name: TUI Group Cruise Alternate Cabin and Board Search API
   slug: tui-group-cruise-alternate-cabin-and-board-search-api
-- description: The Cruise Alternate Flight Variant Search API from TUI Group — 1 operation(s) for cruise alternate flight variant search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Alternate Flight Variant Search API from TUI Group — 1 operation(s) for cruise alternate flight variant search.
   name: TUI Group Cruise Alternate Flight Variant Search API
   slug: tui-group-cruise-alternate-flight-variant-search-api
-- description: The Cruise Alternate Stay Variant Search API from TUI Group — 1 operation(s) for cruise alternate stay variant search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Alternate Stay Variant Search API from TUI Group — 1 operation(s) for cruise alternate stay variant search.
   name: TUI Group Cruise Alternate Stay Variant Search API
   slug: tui-group-cruise-alternate-stay-variant-search-api
-- description: The Cruise Cabin availability API from TUI Group — 1 operation(s) for cruise cabin availability.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Cabin availability API from TUI Group — 1 operation(s) for cruise cabin availability.
   name: TUI Group Cruise Cabin availability API
   slug: tui-group-cruise-cabin-availability-api
-- description: The Cruise Search API from TUI Group — 1 operation(s) for cruise search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Search API from TUI Group — 1 operation(s) for cruise search.
   name: TUI Group Cruise Search API
   slug: tui-group-cruise-search-api
-- description: The Cruise Unique Search API from TUI Group — 1 operation(s) for cruise unique search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Cruise Unique Search API from TUI Group — 1 operation(s) for cruise unique search.
   name: TUI Group Cruise Unique Search API
   slug: tui-group-cruise-unique-search-api
-- description: The currency API from TUI Group — 1 operation(s) for currency.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The currency API from TUI Group — 1 operation(s) for currency.
   name: TUI Group Currency API
   slug: tui-group-currency-api
-- description: The deviceManagers API from TUI Group — 1 operation(s) for devicemanagers.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The deviceManagers API from TUI Group — 1 operation(s) for devicemanagers.
   name: TUI Group Device Managers API
   slug: tui-group-devicemanagers-api
-- description: The disruption API from TUI Group — 5 operation(s) for disruption.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The disruption API from TUI Group — 5 operation(s) for disruption.
   name: TUI Group Disruption API
   slug: tui-group-disruption-api
-- description: The documents API from TUI Group — 2 operation(s) for documents.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The documents API from TUI Group — 2 operation(s) for documents.
   name: TUI Group Documents API
   slug: tui-group-documents-api
-- description: The download API from TUI Group — 2 operation(s) for download.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The download API from TUI Group — 2 operation(s) for download.
   name: TUI Group Download API
   slug: tui-group-download-api
-- description: The equipment API from TUI Group — 2 operation(s) for equipment.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The equipment API from TUI Group — 2 operation(s) for equipment.
   name: TUI Group Equipment API
   slug: tui-group-equipment-api
-- description: The eTickets API from TUI Group — 4 operation(s) for etickets.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The eTickets API from TUI Group — 4 operation(s) for etickets.
   name: TUI Group E Tickets API
   slug: tui-group-etickets-api
-- description: The fareRules API from TUI Group — 2 operation(s) for farerules.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The fareRules API from TUI Group — 2 operation(s) for farerules.
   name: TUI Group Fare Rules API
   slug: tui-group-farerules-api
-- description: The Flights API from TUI Group — 1 operation(s) for flights.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Flights API from TUI Group — 1 operation(s) for flights.
   name: TUI Group Flights API
   slug: tui-group-flights-api
-- description: The G7 content API from TUI Group — 1 operation(s) for g7 content.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The G7 content API from TUI Group — 1 operation(s) for g7 content.
   name: TUI Group G7 content API
   slug: tui-group-g7-content-api
-- description: The graph API from TUI Group — 3 operation(s) for graph.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The graph API from TUI Group — 3 operation(s) for graph.
   name: TUI Group Graph API
   slug: tui-group-graph-api
-- description: The Graphql API from TUI Group — 1 operation(s) for graphql.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Graphql API from TUI Group — 1 operation(s) for graphql.
   name: TUI Group Graphql API
   slug: tui-group-graphql-api
-- description: The health API from TUI Group — 3 operation(s) for health.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The health API from TUI Group — 3 operation(s) for health.
   name: TUI Group Health API
   slug: tui-group-health-api
-- description: The HolidayOffersController USL API API from TUI Group — 1 operation(s) for holidayofferscontroller usl api.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The HolidayOffersController USL API API from TUI Group — 1 operation(s) for holidayofferscontroller usl api.
   name: TUI Group HolidayOffersController USL API
   slug: tui-group-holidayofferscontroller-usl-api-api
-- description: Operations around hotel availability details
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: Operations around hotel availability details
   name: TUI Group Hotel Availability API
   slug: tui-group-hotel-availability-api
-- description: Operations to manage hotel inventory related information
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: Operations to manage hotel inventory related information
   name: TUI Group Hotel Inventory API
   slug: tui-group-hotel-inventory-api
-- description: The inventory API from TUI Group — 7 operation(s) for inventory.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The inventory API from TUI Group — 7 operation(s) for inventory.
   name: TUI Group Inventory API
   slug: tui-group-inventory-api
-- description: The legs API from TUI Group — 4 operation(s) for legs.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The legs API from TUI Group — 4 operation(s) for legs.
   name: TUI Group Legs API
   slug: tui-group-legs-api
-- description: The Live Search Packages (Beta) API from TUI Group — 5 operation(s) for live search packages (beta).
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Live Search Packages (Beta) API from TUI Group — 5 operation(s) for live search packages (beta).
   name: TUI Group Live Search Packages (Beta) API
   slug: tui-group-live-search-packages-beta-api
-- description: The logs API from TUI Group — 2 operation(s) for logs.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The logs API from TUI Group — 2 operation(s) for logs.
   name: TUI Group Logs API
   slug: tui-group-logs-api
-- description: The manifest API from TUI Group — 11 operation(s) for manifest.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The manifest API from TUI Group — 11 operation(s) for manifest.
   name: TUI Group Manifest API
   slug: tui-group-manifest-api
-- description: The messages API from TUI Group — 5 operation(s) for messages.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The messages API from TUI Group — 5 operation(s) for messages.
   name: TUI Group Messages API
   slug: tui-group-messages-api
-- description: The Ndc API from TUI Group — 1 operation(s) for ndc.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Ndc API from TUI Group — 1 operation(s) for ndc.
   name: TUI Group Ndc API
   slug: tui-group-ndc-api
-- description: The OfferPrice API from TUI Group — 2 operation(s) for offerprice.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OfferPrice API from TUI Group — 2 operation(s) for offerprice.
   name: TUI Group Offer Price API
   slug: tui-group-offerprice-api
-- description: Operations for retrieving holiday offers and availability
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: Operations for retrieving holiday offers and availability
   name: TUI Group Offers API
   slug: tui-group-offers-api
-- description: The oneTimeTravelNotifications API from TUI Group — 4 operation(s) for onetimetravelnotifications.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The oneTimeTravelNotifications API from TUI Group — 4 operation(s) for onetimetravelnotifications.
   name: TUI Group One Time Travel Notifications API
   slug: tui-group-onetimetravelnotifications-api
-- description: The OrderChange API from TUI Group — 2 operation(s) for orderchange.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OrderChange API from TUI Group — 2 operation(s) for orderchange.
   name: TUI Group Order Change API
   slug: tui-group-orderchange-api
-- description: The OrderCreate API from TUI Group — 2 operation(s) for ordercreate.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OrderCreate API from TUI Group — 2 operation(s) for ordercreate.
   name: TUI Group Order Create API
   slug: tui-group-ordercreate-api
-- description: The OrderQuote API from TUI Group — 2 operation(s) for orderquote.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OrderQuote API from TUI Group — 2 operation(s) for orderquote.
   name: TUI Group Order Quote API
   slug: tui-group-orderquote-api
-- description: The OrderReshop API from TUI Group — 2 operation(s) for orderreshop.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OrderReshop API from TUI Group — 2 operation(s) for orderreshop.
   name: TUI Group Order Reshop API
   slug: tui-group-orderreshop-api
-- description: The OrderRetrieve API from TUI Group — 2 operation(s) for orderretrieve.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The OrderRetrieve API from TUI Group — 2 operation(s) for orderretrieve.
   name: TUI Group Order Retrieve API
   slug: tui-group-orderretrieve-api
-- description: The organizationGroup API from TUI Group — 1 operation(s) for organizationgroup.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The organizationGroup API from TUI Group — 1 operation(s) for organizationgroup.
   name: TUI Group Organization Group API
   slug: tui-group-organizationgroup-api
-- description: The organizationGroups API from TUI Group — 3 operation(s) for organizationgroups.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The organizationGroups API from TUI Group — 3 operation(s) for organizationgroups.
   name: TUI Group Organization Groups API
   slug: tui-group-organizationgroups-api
-- description: The organizations API from TUI Group — 2 operation(s) for organizations.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The organizations API from TUI Group — 2 operation(s) for organizations.
   name: TUI Group Organizations API
   slug: tui-group-organizations-api
-- description: The organizations2 API from TUI Group — 35 operation(s) for organizations2.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The organizations2 API from TUI Group — 35 operation(s) for organizations2.
   name: TUI Group Organizations2 API
   slug: tui-group-organizations2-api
-- description: The Ota API from TUI Group — 12 operation(s) for ota.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Ota API from TUI Group — 12 operation(s) for ota.
   name: TUI Group Ota API
   slug: tui-group-ota-api
-- description: The Packages API from TUI Group — 1 operation(s) for packages.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Packages API from TUI Group — 1 operation(s) for packages.
   name: TUI Group Packages API
   slug: tui-group-packages-api
-- description: The Partner Content Api (Beta) API from TUI Group — 2 operation(s) for partner content api (beta).
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Partner Content Api (Beta) API from TUI Group — 2 operation(s) for partner content api (beta).
   name: TUI Group Partner Content Api (Beta) API
   slug: tui-group-partner-content-api-beta-api
-- description: The passengers API from TUI Group — 1 operation(s) for passengers.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The passengers API from TUI Group — 1 operation(s) for passengers.
   name: TUI Group Passengers API
   slug: tui-group-passengers-api
-- description: The payments API from TUI Group — 1 operation(s) for payments.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The payments API from TUI Group — 1 operation(s) for payments.
   name: TUI Group Payments API
   slug: tui-group-payments-api
-- description: The persons API from TUI Group — 41 operation(s) for persons.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The persons API from TUI Group — 41 operation(s) for persons.
   name: TUI Group Persons API
   slug: tui-group-persons-api
-- description: The Price calendar search API from TUI Group — 1 operation(s) for price calendar search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Price calendar search API from TUI Group — 1 operation(s) for price calendar search.
   name: TUI Group Price calendar search API
   slug: tui-group-price-calendar-search-api
-- description: The pricing API from TUI Group — 2 operation(s) for pricing.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The pricing API from TUI Group — 2 operation(s) for pricing.
   name: TUI Group Pricing API
   slug: tui-group-pricing-api
-- description: The printers API from TUI Group — 13 operation(s) for printers.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The printers API from TUI Group — 13 operation(s) for printers.
   name: TUI Group Printers API
   slug: tui-group-printers-api
-- description: The printers/reports API from TUI Group — 41 operation(s) for printers/reports.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The printers/reports API from TUI Group — 41 operation(s) for printers/reports.
   name: TUI Group Printers/reports API
   slug: tui-group-printers-reports-api
-- description: The promotions API from TUI Group — 3 operation(s) for promotions.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The promotions API from TUI Group — 3 operation(s) for promotions.
   name: TUI Group Promotions API
   slug: tui-group-promotions-api
-- description: The queues API from TUI Group — 9 operation(s) for queues.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The queues API from TUI Group — 9 operation(s) for queues.
   name: TUI Group Queues API
   slug: tui-group-queues-api
-- description: The redis API from TUI Group — 2 operation(s) for redis.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The redis API from TUI Group — 2 operation(s) for redis.
   name: TUI Group Redis API
   slug: tui-group-redis-api
-- description: The resources API from TUI Group — 159 operation(s) for resources.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The resources API from TUI Group — 159 operation(s) for resources.
   name: TUI Group Resources API
   slug: tui-group-resources-api
-- description: The Route Feed API from TUI Group — 1 operation(s) for route feed.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Route Feed API from TUI Group — 1 operation(s) for route feed.
   name: TUI Group Route Feed API
   slug: tui-group-route-feed-api
-- description: The scanners API from TUI Group — 1 operation(s) for scanners.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The scanners API from TUI Group — 1 operation(s) for scanners.
   name: TUI Group Scanners API
   slug: tui-group-scanners-api
-- description: The Search API from TUI Group — 1 operation(s) for search.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Search API from TUI Group — 1 operation(s) for search.
   name: TUI Group Search API
   slug: tui-group-search-api
-- description: The SeatAvailability API from TUI Group — 4 operation(s) for seatavailability.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The SeatAvailability API from TUI Group — 4 operation(s) for seatavailability.
   name: TUI Group Seat Availability API
   slug: tui-group-seatavailability-api
-- description: The seatmaps API from TUI Group — 2 operation(s) for seatmaps.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The seatmaps API from TUI Group — 2 operation(s) for seatmaps.
   name: TUI Group Seatmaps API
   slug: tui-group-seatmaps-api
-- description: The seats API from TUI Group — 3 operation(s) for seats.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The seats API from TUI Group — 3 operation(s) for seats.
   name: TUI Group Seats API
   slug: tui-group-seats-api
-- description: The segments API from TUI Group — 1 operation(s) for segments.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The segments API from TUI Group — 1 operation(s) for segments.
   name: TUI Group Segments API
   slug: tui-group-segments-api
-- description: The ServiceList API from TUI Group — 4 operation(s) for servicelist.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The ServiceList API from TUI Group — 4 operation(s) for servicelist.
   name: TUI Group Service List API
   slug: tui-group-servicelist-api
-- description: The settings API from TUI Group — 37 operation(s) for settings.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The settings API from TUI Group — 37 operation(s) for settings.
   name: TUI Group Settings API
   slug: tui-group-settings-api
-- description: The Soap API from TUI Group — 1 operation(s) for soap.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Soap API from TUI Group — 1 operation(s) for soap.
   name: TUI Group Soap API
   slug: tui-group-soap-api
-- description: The ssrs API from TUI Group — 1 operation(s) for ssrs.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The ssrs API from TUI Group — 1 operation(s) for ssrs.
   name: TUI Group Ssrs API
   slug: tui-group-ssrs-api
-- description: The Supply API from TUI Group — 1 operation(s) for supply.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Supply API from TUI Group — 1 operation(s) for supply.
   name: TUI Group Supply API
   slug: tui-group-supply-api
-- description: The timestamp API from TUI Group — 2 operation(s) for timestamp.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The timestamp API from TUI Group — 2 operation(s) for timestamp.
   name: TUI Group Timestamp API
   slug: tui-group-timestamp-api
-- description: The token API from TUI Group — 13 operation(s) for token.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The token API from TUI Group — 13 operation(s) for token.
   name: TUI Group Token API
   slug: tui-group-token-api
-- description: The TravelMessage API from TUI Group — 10 operation(s) for travelmessage.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The TravelMessage API from TUI Group — 10 operation(s) for travelmessage.
   name: TUI Group Travel Message API
   slug: tui-group-travelmessage-api
-- description: The trip API from TUI Group — 38 operation(s) for trip.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The trip API from TUI Group — 38 operation(s) for trip.
   name: TUI Group Trip API
   slug: tui-group-trip-api
-- description: The Unique offer USL API API from TUI Group — 1 operation(s) for unique offer usl api.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The Unique offer USL API API from TUI Group — 1 operation(s) for unique offer usl api.
   name: TUI Group Unique offer USL API
   slug: tui-group-unique-offer-usl-api-api
-- description: The user API from TUI Group — 11 operation(s) for user.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The user API from TUI Group — 11 operation(s) for user.
   name: TUI Group User API
   slug: tui-group-user-api
-- description: The users API from TUI Group — 42 operation(s) for users.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The users API from TUI Group — 42 operation(s) for users.
   name: TUI Group Users API
   slug: tui-group-users-api
-- description: The utilities API from TUI Group — 1 operation(s) for utilities.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The utilities API from TUI Group — 1 operation(s) for utilities.
   name: TUI Group Utilities API
   slug: tui-group-utilities-api
-- description: The verifiedTravelDocuments API from TUI Group — 3 operation(s) for verifiedtraveldocuments.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The verifiedTravelDocuments API from TUI Group — 3 operation(s) for verifiedtraveldocuments.
   name: TUI Group Verified Travel Documents API
   slug: tui-group-verifiedtraveldocuments-api
-- description: The voucherIssuance API from TUI Group — 3 operation(s) for voucherissuance.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The voucherIssuance API from TUI Group — 3 operation(s) for voucherissuance.
   name: TUI Group Voucher Issuance API
   slug: tui-group-voucherissuance-api
-- description: The vouchers API from TUI Group — 11 operation(s) for vouchers.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The vouchers API from TUI Group — 11 operation(s) for vouchers.
   name: TUI Group Vouchers API
   slug: tui-group-vouchers-api
-- description: The watchList API from TUI Group — 4 operation(s) for watchlist.
+- baseURL: https://prod.api.tui/flight/newskies/rest
+  baseurl_source: declared
+  description: The watchList API from TUI Group — 4 operation(s) for watchlist.
   name: TUI Group Watch List API
   slug: tui-group-watchlist-api
 artifact_total: 140
@@ -717,7 +956,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:

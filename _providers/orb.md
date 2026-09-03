@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 14 operations · 11 acting
 api_count: 10
 apis:
-- description: The Alerts API from Orb — 3 operation(s) for alerts.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Alerts API from Orb — 3 operation(s) for alerts.
   name: Orb Alerts API
   slug: orb-alerts-api
-- description: The Availability API from Orb — 1 operation(s) for availability.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Availability API from Orb — 1 operation(s) for availability.
   name: Orb Availability API
   slug: orb-availability-api
-- description: The Coupons API from Orb — 1 operation(s) for coupons.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Coupons API from Orb — 1 operation(s) for coupons.
   name: Orb Coupons API
   slug: orb-coupons-api
-- description: The Credit Notes API from Orb — 1 operation(s) for credit notes.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Credit Notes API from Orb — 1 operation(s) for credit notes.
   name: Orb Credit Notes API
   slug: orb-credit-notes-api
-- description: The Customers API from Orb — 2 operation(s) for customers.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Customers API from Orb — 2 operation(s) for customers.
   name: Orb Customers API
   slug: orb-customers-api
-- description: The Events API from Orb — 1 operation(s) for events.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Events API from Orb — 1 operation(s) for events.
   name: Orb Events API
   slug: orb-events-api
-- description: The Invoices API from Orb — 1 operation(s) for invoices.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Invoices API from Orb — 1 operation(s) for invoices.
   name: Orb Invoices API
   slug: orb-invoices-api
-- description: The Plans API from Orb — 1 operation(s) for plans.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Plans API from Orb — 1 operation(s) for plans.
   name: Orb Plans API
   slug: orb-plans-api
-- description: The Prices API from Orb — 1 operation(s) for prices.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Prices API from Orb — 1 operation(s) for prices.
   name: Orb Prices API
   slug: orb-prices-api
-- description: The Subscriptions API from Orb — 2 operation(s) for subscriptions.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: spec
+  description: The Subscriptions API from Orb — 2 operation(s) for subscriptions.
   name: Orb Subscriptions API
   slug: orb-subscriptions-api
 artifact_total: 29
@@ -196,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb/refs/heads/main/screenshots/orb-2026-06-20T191155.png
 security:

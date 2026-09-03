@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 29 operations · 20 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Short-lived tokens authorizing Corbado Connect frontend flows.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Short-lived tokens authorizing Corbado Connect frontend flows.
   name: Corbado ConnectTokens API
   slug: corbado-connecttokens-api
-- description: Project data exports and download links.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Project data exports and download links.
   name: Corbado Exports API
   slug: corbado-exports-api
-- description: Manage login identifiers (email, phone, username) attached to a user.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Manage login identifiers (email, phone, username) attached to a user.
   name: Corbado Identifiers API
   slug: corbado-identifiers-api
-- description: Record and query passkey lifecycle events for a user.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Record and query passkey lifecycle events for a user.
   name: Corbado PasskeyEvents API
   slug: corbado-passkeyevents-api
-- description: WebAuthn passkey registration and login ceremonies and verification.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: WebAuthn passkey registration and login ceremonies and verification.
   name: Corbado Passkeys API
   slug: corbado-passkeys-api
-- description: List and revoke authenticated sessions.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: List and revoke authenticated sessions.
   name: Corbado Sessions API
   slug: corbado-sessions-api
-- description: Create and manage end users and their social logins and credentials.
+- baseURL: https://backendapi.corbado.io/v2
+  baseurl_source: declared
+  description: Create and manage end users and their social logins and credentials.
   name: Corbado Users API
   slug: corbado-users-api
 artifact_total: 24
@@ -199,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/screenshots/corbado-2026-06-20T175018.png
 security:

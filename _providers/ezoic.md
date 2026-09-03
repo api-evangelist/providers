@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 3 operations
 api_count: 2
 apis:
-- description: The Access API from ezoic — 1 operation(s) for access.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: The Access API from ezoic — 1 operation(s) for access.
   name: ezoic Access API
   slug: ezoic-access-api
-- description: The Products API from ezoic — 1 operation(s) for products.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: The Products API from ezoic — 1 operation(s) for products.
   name: ezoic Products API
   slug: ezoic-products-api
-- description: The Purchases API from ezoic — 1 operation(s) for purchases.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: The Purchases API from ezoic — 1 operation(s) for purchases.
   name: ezoic Purchases API
   slug: ezoic-purchases-api
-- description: The CDN REST API clears and purges cached content on the Ezoic CDN — a single URL, a batch of URLs in groups of 100, a comma-separated set of surrogate keys, or a whole domain — plus a ping liveness c
+- baseURL: https://api-gateway.ezoic.com
+  baseurl_source: declared
+  description: The CDN REST API clears and purges cached content on the Ezoic CDN — a single URL, a batch of URLs in groups of 100, a comma-separated set of surrogate keys, or a whole domain — plus a ping liveness c
   name: ezoic CDN API
   slug: ezoic-cdn-api
-- description: Pulling report data and ad-hoc custom data.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: Pulling report data and ad-hoc custom data.
   name: ezoic Data API
   slug: ezoic-data-api
-- description: Multifilters and multifilter types used to build segments.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: Multifilters and multifilter types used to build segments.
   name: ezoic Filters API
   slug: ezoic-filters-api
-- description: Predefined and custom report definitions.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: Predefined and custom report definitions.
   name: ezoic Reports API
   slug: ezoic-reports-api
-- description: Segments that split report data into categories.
+- baseURL: https://api-gateway.ezoic.com/subscriptions/v1
+  baseurl_source: declared
+  description: Segments that split report data into categories.
   name: ezoic Segments API
   slug: ezoic-segments-api
 artifact_total: 20
@@ -290,7 +306,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.3
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -300,7 +316,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 53.7
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,7 +328,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -53,31 +53,49 @@ apis:
 - description: Bulk data delivery service for historical and reference data.
   name: Bloomberg Data License API
   slug: bloomberg-data-license-api
-- description: API Authorization Service — entitlements and identity
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: API Authorization Service — entitlements and identity
   name: Bloomberg APIs apiauth API
   slug: bloomberg-apis-apiauth-api
-- description: API Field Information Service — discover and search Bloomberg fields
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: API Field Information Service — discover and search Bloomberg fields
   name: Bloomberg APIs apiflds API
   slug: bloomberg-apis-apiflds-api
-- description: Instruments Service — security/curve/government lookups
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Instruments Service — security/curve/government lookups
   name: Bloomberg APIs instruments API
   slug: bloomberg-apis-instruments-api
-- description: Market Bar Subscription Service — streaming subscription
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Market Bar Subscription Service — streaming subscription
   name: Bloomberg APIs mktbar API
   slug: bloomberg-apis-mktbar-api
-- description: Market Data Service — streaming subscription paradigm
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Market Data Service — streaming subscription paradigm
   name: Bloomberg APIs mktdata API
   slug: bloomberg-apis-mktdata-api
-- description: Custom VWAP Service — streaming subscription
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Custom VWAP Service — streaming subscription
   name: Bloomberg APIs mktvwap API
   slug: bloomberg-apis-mktvwap-api
-- description: Page Data Service — GPGX page subscription
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Page Data Service — GPGX page subscription
   name: Bloomberg APIs pagedata API
   slug: bloomberg-apis-pagedata-api
-- description: Reference Data Service operations — request/response paradigm
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Reference Data Service operations — request/response paradigm
   name: Bloomberg APIs refdata API
   slug: bloomberg-apis-refdata-api
-- description: Technical Analysis Service — historical, intraday, and real-time studies
+- baseURL_template: blpapi+session://{session}
+  baseurl_source: spec_template
+  description: Technical Analysis Service — historical, intraday, and real-time studies
   name: Bloomberg APIs tasvc API
   slug: bloomberg-apis-tasvc-api
 artifact_total: 30
@@ -214,7 +232,7 @@ score:
     regime_id: securities_market_data
     score: 53.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-apis/refs/heads/main/screenshots/bloomberg-apis-2026-06-20T173407.png
 security:

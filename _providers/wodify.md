@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 30 operations · 14 acting
 api_count: 1
 apis:
-- description: Scheduled classes, waitlists, reservations, and sign-ins.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Scheduled classes, waitlists, reservations, and sign-ins.
   name: Wodify Classes API
   slug: wodify-classes-api
-- description: Gym clients (members).
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Gym clients (members).
   name: Wodify Clients API
   slug: wodify-clients-api
-- description: Email, SMS, in-app chat, and tasks.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Email, SMS, in-app chat, and tasks.
   name: Wodify Communications API
   slug: wodify-communications-api
-- description: Invoices, transactions, discounts, tax rates, and revenue categories.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Invoices, transactions, discounts, tax rates, and revenue categories.
   name: Wodify Financials API
   slug: wodify-financials-api
-- description: Prospective members and their conversion to clients.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Prospective members and their conversion to clients.
   name: Wodify Leads API
   slug: wodify-leads-api
-- description: Membership records, templates, holds, and billing configuration.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Membership records, templates, holds, and billing configuration.
   name: Wodify Memberships API
   slug: wodify-memberships-api
-- description: Training programs offered by the gym.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Training programs offered by the gym.
   name: Wodify Programs API
   slug: wodify-programs-api
-- description: Reference data such as locations, employees, programs, and services.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Reference data such as locations, employees, programs, and services.
   name: Wodify Reference API
   slug: wodify-reference-api
-- description: Appointment services and bookings.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Appointment services and bookings.
   name: Wodify Services API
   slug: wodify-services-api
-- description: Workouts (WODs) and skill progressions.
+- baseURL: https://api.wodify.com/v1
+  baseurl_source: declared
+  description: Workouts (WODs) and skill progressions.
   name: Wodify Workouts API
   slug: wodify-workouts-api
 artifact_total: 28
@@ -182,7 +202,7 @@ score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -205,8 +225,9 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wodify/refs/heads/main/screenshots/wodify-2026-09-02T170921.png
 security:
 - kind: authentication
   name: Wodify Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 4
 apis:
-- description: Connected build agents.
+- baseURL_template: https://{jenkinsHost}
+  baseurl_source: spec_template
+  description: Connected build agents.
   name: Jenkins Computer API
   slug: jenkins-computer-api
-- description: Jenkins jobs and their builds.
+- baseURL_template: https://{jenkinsHost}
+  baseurl_source: spec_template
+  description: Jenkins jobs and their builds.
   name: Jenkins Jobs API
   slug: jenkins-jobs-api
-- description: The build queue.
+- baseURL_template: https://{jenkinsHost}
+  baseurl_source: spec_template
+  description: The build queue.
   name: Jenkins Queue API
   slug: jenkins-queue-api
-- description: Information about the Jenkins instance.
+- baseURL_template: https://{jenkinsHost}
+  baseurl_source: spec_template
+  description: Information about the Jenkins instance.
   name: Jenkins Server API
   slug: jenkins-server-api
 arazzos:
@@ -288,7 +296,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:

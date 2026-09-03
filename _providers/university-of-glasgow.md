@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting over Enlighten, the University of Glasgow's EPrints institutional repository of research outputs — journal articles, conference papers, books, book sections and theses.
@@ -45,7 +45,9 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting over Enlighten Theses, the University of Glasgow's electronic theses repository, with records back to 2012-12-10. Offers oai_dc, didl, mets, oai_bibl, rdf and uketd_dc,
   name: Enlighten Theses OAI-PMH
   slug: theses-oai
-- description: 'An anonymous read interface over the Enlighten repositories that the University of Glasgow does not document or advertise anywhere: a dataset index at /rest/, an object index per dataset, a full EPrin'
+- baseURL: https://eprints.gla.ac.uk/rest
+  baseurl_source: declared
+  description: 'An anonymous read interface over the Enlighten repositories that the University of Glasgow does not document or advertise anywhere: a dataset index at /rest/, an object index per dataset, a full EPrin'
   name: Enlighten EPrints REST API
   slug: enlighten-rest
 - description: The University of Glasgow's virtual learning environment, self-hosted on Moodle, exposes a live LTI 1.3 Advantage platform surface — a public JWKS at /mod/lti/certs.php carrying one RS256 signing key,
@@ -212,7 +214,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -8.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -222,7 +224,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 40.8
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -237,8 +239,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/screenshots/university-of-glasgow-2026-06-20T200152.png
 security:
 - kind: authentication

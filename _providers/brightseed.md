@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -33,37 +44,59 @@ agentic_access:
   summary_line: 84 operations · 51 acting
 api_count: 11
 apis:
-- description: The posts API from Brightseed — 13 operation(s) for posts, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The posts API from Brightseed — 13 operation(s) for posts, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed posts API
   slug: brightseed-posts-api
-- description: The pages API from Brightseed — 13 operation(s) for pages, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The pages API from Brightseed — 13 operation(s) for pages, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed pages API
   slug: brightseed-pages-api
-- description: The media API from Brightseed — 9 operation(s) for media, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The media API from Brightseed — 9 operation(s) for media, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed media API
   slug: brightseed-media-api
-- description: The categories API from Brightseed — 7 operation(s) for categories, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The categories API from Brightseed — 7 operation(s) for categories, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed categories API
   slug: brightseed-categories-api
-- description: The tags API from Brightseed — 7 operation(s) for tags, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The tags API from Brightseed — 7 operation(s) for tags, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed tags API
   slug: brightseed-tags-api
-- description: The users API from Brightseed — 21 operation(s) for users, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The users API from Brightseed — 21 operation(s) for users, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed users API
   slug: brightseed-users-api
-- description: The comments API from Brightseed — 7 operation(s) for comments, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The comments API from Brightseed — 7 operation(s) for comments, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed comments API
   slug: brightseed-comments-api
-- description: The search API from Brightseed — 1 operation(s) for search, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The search API from Brightseed — 1 operation(s) for search, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed search API
   slug: brightseed-search-api
-- description: The taxonomies API from Brightseed — 2 operation(s) for taxonomies, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Brightseed — 2 operation(s) for taxonomies, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed taxonomies API
   slug: brightseed-taxonomies-api
-- description: The types API from Brightseed — 2 operation(s) for types, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The types API from Brightseed — 2 operation(s) for types, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed types API
   slug: brightseed-types-api
-- description: The statuses API from Brightseed — 2 operation(s) for statuses, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
+- baseURL: https://www.brightseedbio.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from Brightseed — 2 operation(s) for statuses, served by the WordPress REST API wp/v2 namespace on www.brightseedbio.com.
   name: Brightseed statuses API
   slug: brightseed-statuses-api
 artifact_total: 26
@@ -268,7 +301,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:

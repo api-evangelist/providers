@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Nextdoor developer platform with Advertising, Sharing, and Content Display APIs for connecting with hyperlocal audiences.
   name: Nextdoor
   slug: nextdoor
-- description: The Advertising API from Nextdoor — 7 operation(s) for advertising.
+- baseURL: https://developer.nextdoor.com
+  baseurl_source: spec
+  description: The Advertising API from Nextdoor — 7 operation(s) for advertising.
   name: Nextdoor Advertising API
   slug: nextdoor-advertising-api
-- description: The Conversions API from Nextdoor — 1 operation(s) for conversions.
+- baseURL: https://developer.nextdoor.com
+  baseurl_source: spec
+  description: The Conversions API from Nextdoor — 1 operation(s) for conversions.
   name: Nextdoor Conversions API
   slug: nextdoor-conversions-api
-- description: The Creatives API from Nextdoor — 4 operation(s) for creatives.
+- baseURL: https://developer.nextdoor.com
+  baseurl_source: spec
+  description: The Creatives API from Nextdoor — 4 operation(s) for creatives.
   name: Nextdoor Creatives API
   slug: nextdoor-creatives-api
-- description: The Posts API from Nextdoor — 6 operation(s) for posts.
+- baseURL: https://developer.nextdoor.com
+  baseurl_source: spec
+  description: The Posts API from Nextdoor — 6 operation(s) for posts.
   name: Nextdoor Posts API
   slug: nextdoor-posts-api
-- description: The Search API from Nextdoor — 4 operation(s) for search.
+- baseURL: https://developer.nextdoor.com
+  baseurl_source: spec
+  description: The Search API from Nextdoor — 4 operation(s) for search.
   name: Nextdoor Search API
   slug: nextdoor-search-api
 artifact_total: 21
@@ -191,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextdoor/refs/heads/main/screenshots/nextdoor-2026-06-20T190257.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 10 operations · 9 acting
 api_count: 1
 apis:
-- description: Quote and bind Duuo event insurance. Ordered flow — create entity, create quote, get quote, make payment. With bindOnPayment=true (the default for API partners) the policy is created and emailed autom
+- baseURL_template: https://{partnerHost}
+  baseurl_source: spec_template
+  description: Quote and bind Duuo event insurance. Ordered flow — create entity, create quote, get quote, make payment. With bindOnPayment=true (the default for API partners) the policy is created and emailed autom
   name: The Co-operators Event Insurance API
   slug: cooperators-event-insurance-api
-- description: Quote and bind Duuo tenant (renters) insurance. Ordered flow — check eligibility, update quote, add insured, make payment. Duuo notes that Get Quote Status and Get Policies were documented as "to be r
+- baseURL_template: https://{partnerHost}
+  baseurl_source: spec_template
+  description: Quote and bind Duuo tenant (renters) insurance. Ordered flow — check eligibility, update quote, add insured, make payment. Duuo notes that Get Quote Status and Get Policies were documented as "to be r
   name: The Co-operators Tenant Insurance API
   slug: cooperators-tenant-insurance-api
 arazzos:
@@ -218,7 +234,7 @@ score:
     regime_id: insurance
     score: 48.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:

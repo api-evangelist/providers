@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 39 operations · 20 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agent Connections (v2) API from LangGraph — 2 operation(s) for agent connections (v2).
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Agent Connections (v2) API from LangGraph — 2 operation(s) for agent connections (v2).
   name: LangGraph Agent Connections (v2) API
   slug: langgraph-agent-connections-v2-api
-- description: The Auth Service (v2) API from LangGraph — 13 operation(s) for auth service (v2).
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Auth Service (v2) API from LangGraph — 13 operation(s) for auth service (v2).
   name: LangGraph Auth Service (v2) API
   slug: langgraph-auth-service-v2-api
-- description: The Deployments (v2) API from LangGraph — 5 operation(s) for deployments (v2).
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Deployments (v2) API from LangGraph — 5 operation(s) for deployments (v2).
   name: LangGraph Deployments (v2) API
   slug: langgraph-deployments-v2-api
-- description: The Integrations (v1) API from LangGraph — 4 operation(s) for integrations (v1).
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Integrations (v1) API from LangGraph — 4 operation(s) for integrations (v1).
   name: LangGraph Integrations (v1) API
   slug: langgraph-integrations-v1-api
-- description: The Listeners (v2) API from LangGraph — 2 operation(s) for listeners (v2).
+- baseURL: https://api.host.langchain.com
+  baseurl_source: declared
+  description: The Listeners (v2) API from LangGraph — 2 operation(s) for listeners (v2).
   name: LangGraph Listeners (v2) API
   slug: langgraph-listeners-v2-api
 artifact_total: 18
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langgraph/refs/heads/main/screenshots/langgraph-2026-06-20T184305.png
 security:

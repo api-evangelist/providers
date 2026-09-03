@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: The Vessel Information Verification Service (VIVS) is a NAVCEN web service that allows retrieval of a vessel's broadcasted AIS static data, including Maritime Mobile Service Identity (MMSI), call sign
   name: NAVCEN AIS Vessel Information Verification Service
   slug: navcen-ais-vessel-information
-- description: USCG approved equipment certification data
+- baseURL: https://cgmix.uscg.mil
+  baseurl_source: declared
+  description: USCG approved equipment certification data
   name: United States Coast Guard Equipment API
   slug: united-states-coast-guard-equipment-api
-- description: Incident Investigation Report data
+- baseURL: https://cgmix.uscg.mil
+  baseurl_source: declared
+  description: Incident Investigation Report data
   name: United States Coast Guard Incident Reports API
   slug: united-states-coast-guard-incident-reports-api
-- description: Port State Information Exchange vessel safety data
+- baseURL: https://cgmix.uscg.mil
+  baseurl_source: declared
+  description: Port State Information Exchange vessel safety data
   name: United States Coast Guard Port State Information API
   slug: united-states-coast-guard-port-state-information-api
-- description: National Vessel Documentation Center vessel records
+- baseURL: https://cgmix.uscg.mil
+  baseurl_source: declared
+  description: National Vessel Documentation Center vessel records
   name: United States Coast Guard Vessel Documentation API
   slug: united-states-coast-guard-vessel-documentation-api
 artifact_total: 25
@@ -196,7 +204,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/screenshots/united-states-coast-guard-2026-06-20T200050.png
 security:

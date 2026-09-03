@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Java API based on the Bulk Synchronous Parallel (BSP) model for implementing graph algorithms, with Vertex, Edge, and Master compute APIs for distributed graph processing on Hadoop.
   name: Apache Giraph Java API
   slug: apache-giraph-java-api
-- description: The Cluster API from Apache Giraph — 1 operation(s) for cluster.
+- baseURL: http://localhost:8088
+  baseurl_source: declared
+  description: The Cluster API from Apache Giraph — 1 operation(s) for cluster.
   name: Apache Giraph Cluster API
   slug: apache-giraph-cluster-api
-- description: The Job Management API from Apache Giraph — 2 operation(s) for job management.
+- baseURL: http://localhost:8088
+  baseurl_source: declared
+  description: The Job Management API from Apache Giraph — 2 operation(s) for job management.
   name: Apache Giraph Job Management API
   slug: apache-giraph-job-management-api
 artifact_total: 46
@@ -260,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/screenshots/apache-giraph-2026-06-20T172100.png
 security:

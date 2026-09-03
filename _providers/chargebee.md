@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 13 operations · 2 acting
 api_count: 1
 apis:
-- description: The Customers API from Chargebee — 2 operation(s) for customers.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Customers API from Chargebee — 2 operation(s) for customers.
   name: Chargebee Customers API
   slug: chargebee-customers-api
-- description: The Invoices API from Chargebee — 2 operation(s) for invoices.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Invoices API from Chargebee — 2 operation(s) for invoices.
   name: Chargebee Invoices API
   slug: chargebee-invoices-api
-- description: The Items API from Chargebee — 1 operation(s) for items.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Items API from Chargebee — 1 operation(s) for items.
   name: Chargebee Items API
   slug: chargebee-items-api
-- description: The Orders API from Chargebee — 1 operation(s) for orders.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Orders API from Chargebee — 1 operation(s) for orders.
   name: Chargebee Orders API
   slug: chargebee-orders-api
-- description: The Payments API from Chargebee — 1 operation(s) for payments.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Payments API from Chargebee — 1 operation(s) for payments.
   name: Chargebee Payments API
   slug: chargebee-payments-api
-- description: The Plans API from Chargebee — 1 operation(s) for plans.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Plans API from Chargebee — 1 operation(s) for plans.
   name: Chargebee Plans API
   slug: chargebee-plans-api
-- description: The Quotes API from Chargebee — 1 operation(s) for quotes.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Quotes API from Chargebee — 1 operation(s) for quotes.
   name: Chargebee Quotes API
   slug: chargebee-quotes-api
-- description: The Subscriptions API from Chargebee — 2 operation(s) for subscriptions.
+- baseURL: https://{site}.chargebee.com/api/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Chargebee — 2 operation(s) for subscriptions.
   name: Chargebee Subscriptions API
   slug: chargebee-subscriptions-api
 artifact_total: 23
@@ -256,7 +272,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -266,7 +282,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 42.1
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -281,7 +297,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 78 operations · 52 acting
 api_count: 1
 apis:
-- description: The Agents API from Julep — 13 operation(s) for agents.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Agents API from Julep — 13 operation(s) for agents.
   name: Julep Agents API
   slug: julep-agents-api
-- description: The Docs API from Julep — 1 operation(s) for docs.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Docs API from Julep — 1 operation(s) for docs.
   name: Julep Docs API
   slug: julep-docs-api
-- description: The Embed API from Julep — 1 operation(s) for embed.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Embed API from Julep — 1 operation(s) for embed.
   name: Julep Embed API
   slug: julep-embed-api
-- description: The Executions API from Julep — 5 operation(s) for executions.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Executions API from Julep — 5 operation(s) for executions.
   name: Julep Executions API
   slug: julep-executions-api
-- description: The Files API from Julep — 2 operation(s) for files.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Files API from Julep — 2 operation(s) for files.
   name: Julep Files API
   slug: julep-files-api
-- description: The Jobs API from Julep — 1 operation(s) for jobs.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Jobs API from Julep — 1 operation(s) for jobs.
   name: Julep Jobs API
   slug: julep-jobs-api
-- description: The Projects API from Julep — 2 operation(s) for projects.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Projects API from Julep — 2 operation(s) for projects.
   name: Julep Projects API
   slug: julep-projects-api
-- description: The Responses API from Julep — 2 operation(s) for responses.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Responses API from Julep — 2 operation(s) for responses.
   name: Julep Responses API
   slug: julep-responses-api
-- description: The Secrets API from Julep — 2 operation(s) for secrets.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Secrets API from Julep — 2 operation(s) for secrets.
   name: Julep Secrets API
   slug: julep-secrets-api
-- description: The Sessions API from Julep — 5 operation(s) for sessions.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Sessions API from Julep — 5 operation(s) for sessions.
   name: Julep Sessions API
   slug: julep-sessions-api
-- description: The Tasks API from Julep — 2 operation(s) for tasks.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Tasks API from Julep — 2 operation(s) for tasks.
   name: Julep Tasks API
   slug: julep-tasks-api
-- description: The Users API from Julep — 5 operation(s) for users.
+- baseURL: https://api.julep.ai/api
+  baseurl_source: declared
+  description: The Users API from Julep — 5 operation(s) for users.
   name: Julep Users API
   slug: julep-users-api
 artifact_total: 29
@@ -247,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/julep/refs/heads/main/screenshots/julep-2026-07-25T223304.png
 security:

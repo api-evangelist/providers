@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 2
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 35 operations · 23 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The v1-api-keys API from Ardent — 2 operation(s) for v1-api-keys.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-api-keys API from Ardent — 2 operation(s) for v1-api-keys.
   name: Ardent v1-api-keys API
   slug: ardent-v1-api-keys-api
-- description: The v1-branching API from Ardent — 2 operation(s) for v1-branching.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-branching API from Ardent — 2 operation(s) for v1-branching.
   name: Ardent v1-branching API
   slug: ardent-v1-branching-api
-- description: The v1-connectors API from Ardent — 10 operation(s) for v1-connectors.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-connectors API from Ardent — 10 operation(s) for v1-connectors.
   name: Ardent v1-connectors API
   slug: ardent-v1-connectors-api
-- description: The v1-operations API from Ardent — 1 operation(s) for v1-operations.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-operations API from Ardent — 1 operation(s) for v1-operations.
   name: Ardent v1-operations API
   slug: ardent-v1-operations-api
-- description: The v1-orgs API from Ardent — 7 operation(s) for v1-orgs.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-orgs API from Ardent — 7 operation(s) for v1-orgs.
   name: Ardent v1-orgs API
   slug: ardent-v1-orgs-api
-- description: The v1-projects API from Ardent — 2 operation(s) for v1-projects.
+- baseURL: https://api.tryardent.com
+  baseurl_source: declared
+  description: The v1-projects API from Ardent — 2 operation(s) for v1-projects.
   name: Ardent v1-projects API
   slug: ardent-v1-projects-api
 artifact_total: 17
@@ -240,7 +252,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ardent/refs/heads/main/screenshots/ardent-2026-07-25T201116.png
 security:

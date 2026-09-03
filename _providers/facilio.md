@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 213 operations · 96 acting
 api_count: 1
 apis:
-- description: Assets represent the equipment, machines, and devices in your facilities — HVAC units, elevators, generators, fire panels, and more. Track their lifecycle, location, warranty, and maintenance history.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Assets represent the equipment, machines, and devices in your facilities — HVAC units, elevators, generators, fire panels, and more. Track their lifecycle, location, warranty, and maintenance history.
   name: Facilio Assets API
   slug: facilio-assets-api
-- description: Buildings belong to a site and represent individual structures. Track floor count, area, and contacts for each building.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Buildings belong to a site and represent individual structures. Track floor count, area, and contacts for each building.
   name: Facilio Buildings API
   slug: facilio-buildings-api
-- description: Individual contacts within a client organization. Manage names, emails, and phone numbers.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Individual contacts within a client organization. Manage names, emails, and phone numbers.
   name: Facilio Client Contacts API
   slug: facilio-client-contacts-api
-- description: Client credit notes for refunds and transaction adjustments. Track credit amounts, line items, and approval status for client-related credits.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Client credit notes for refunds and transaction adjustments. Track credit amounts, line items, and approval status for client-related credits.
   name: Facilio Client Credits API
   slug: facilio-client-credits-api
-- description: Clients are the organizations you provide facility services to. Manage their contact information and associate them with sites and work orders.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Clients are the organizations you provide facility services to. Manage their contact information and associate them with sites and work orders.
   name: Facilio Clients API
   slug: facilio-clients-api
-- description: User profile and utility endpoints
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: User profile and utility endpoints
   name: Facilio Common API
   slug: facilio-common-api
-- description: Manage your organization's custom modules — record types you define for the data and workflows that are specific to your business.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Manage your organization's custom modules — record types you define for the data and workflows that are specific to your business.
   name: Facilio Custom Modules API
   slug: facilio-custom-modules-api
-- description: Floors belong to a building and represent individual levels. Track floor level, area, and associated spaces.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Floors belong to a building and represent individual levels. Track floor level, area, and associated spaces.
   name: Facilio Floors API
   slug: facilio-floors-api
-- description: Material requisitions linked to work orders. Request items or tools from a storeroom.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Material requisitions linked to work orders. Request items or tools from a storeroom.
   name: Facilio Inventory Requests API
   slug: facilio-inventory-requests-api
-- description: Billing records with line items, typically created from quotes. Track costs, taxes, and approval status.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Billing records with line items, typically created from quotes. Track costs, taxes, and approval status.
   name: Facilio Invoices API
   slug: facilio-invoices-api
-- description: Consumable materials in your inventory (filters, bulbs, fasteners). Manage costing, reorder thresholds, and pricing.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Consumable materials in your inventory (filters, bulbs, fasteners). Manage costing, reorder thresholds, and pricing.
   name: Facilio Item Types API
   slug: facilio-item-types-api
-- description: Item balances per storeroom (read-only list, detail, and bin list); non-rotating quantity changes use the item adjustment endpoint.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Item balances per storeroom (read-only list, detail, and bin list); non-rotating quantity changes use the item adjustment endpoint.
   name: Facilio Items API
   slug: facilio-items-api
-- description: Retrieve picklist values for enum and system lookup fields. Use these to discover valid values for fields like status, priority, category, and type. Custom picklist fields can also be queried using `G
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Retrieve picklist values for enum and system lookup fields. Use these to discover valid values for fields like status, priority, category, and type. Custom picklist fields can also be queried using `G
   name: Facilio Picklists API
   slug: facilio-picklists-api
-- description: Vendor purchase orders with line items; track ordered and received quantities.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Vendor purchase orders with line items; track ordered and received quantities.
   name: Facilio Purchase Orders API
   slug: facilio-purchase-orders-api
-- description: Internal requisitions for materials or services, with line items. Line items on PATCH represent the full desired state.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Internal requisitions for materials or services, with line items. Line items on PATCH represent the full desired state.
   name: Facilio Purchase Requests API
   slug: facilio-purchase-requests-api
-- description: Pricing proposals with line items. Line items on PATCH represent the full desired state — omitted items are deleted.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Pricing proposals with line items. Line items on PATCH represent the full desired state — omitted items are deleted.
   name: Facilio Quotes API
   slug: facilio-quotes-api
-- description: One receiving record per purchase order; list, read, and drive receipts through action endpoints.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: One receiving record per purchase order; list, read, and drive receipts through action endpoints.
   name: Facilio Receivables API
   slug: facilio-receivables-api
-- description: Attach photos and documents to service requests, such as screenshots of issues or supporting evidence from reporters.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Attach photos and documents to service requests, such as screenshots of issues or supporting evidence from reporters.
   name: Facilio Service Request Attachments API
   slug: facilio-service-request-attachments-api
-- description: Add notes and status updates to service requests to keep requesters and assignees informed.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Add notes and status updates to service requests to keep requesters and assignees informed.
   name: Facilio Service Request Comments API
   slug: facilio-service-request-comments-api
-- description: Service requests capture facility issues reported by occupants, tenants, or staff. They typically flow through triage, assignment, and resolution — and can be converted into work orders when maintenan
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Service requests capture facility issues reported by occupants, tenants, or staff. They typically flow through triage, assignment, and resolution — and can be converted into work orders when maintenan
   name: Facilio Service Requests API
   slug: facilio-service-requests-api
-- description: Labor and service offerings (cleaning, inspection, calibration). Define buying/selling prices, duration, and payment type.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Labor and service offerings (cleaning, inspection, calibration). Define buying/selling prices, duration, and payment type.
   name: Facilio Services API
   slug: facilio-services-api
-- description: Sites are the top-level locations in your portfolio — campuses, office buildings, warehouses, or any physical facility you manage. Each site can contain buildings, floors, and spaces.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Sites are the top-level locations in your portfolio — campuses, office buildings, warehouses, or any physical facility you manage. Each site can contain buildings, floors, and spaces.
   name: Facilio Sites API
   slug: facilio-sites-api
-- description: Spaces are the rooms, zones, and areas within your buildings — conference rooms, lobbies, server rooms, parking areas, and more. Track occupancy, area, and category.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Spaces are the rooms, zones, and areas within your buildings — conference rooms, lobbies, server rooms, parking areas, and more. Track occupancy, area, and category.
   name: Facilio Spaces API
   slug: facilio-spaces-api
-- description: Warehouse locations where inventory is stored. Each storeroom belongs to a site and can serve multiple sites.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Warehouse locations where inventory is stored. Each storeroom belongs to a site and can serve multiple sites.
   name: Facilio Storerooms API
   slug: facilio-storerooms-api
-- description: Individual contacts within a tenant organization.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Individual contacts within a tenant organization.
   name: Facilio Tenant Contacts API
   slug: facilio-tenant-contacts-api
-- description: Manage tenant unit (space) assignments.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Manage tenant unit (space) assignments.
   name: Facilio Tenant Units API
   slug: facilio-tenant-units-api
-- description: Tenants are the organizations or individuals who occupy space in your facilities. Manage lease-related contacts, tenant types, and unit assignments.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Tenants are the organizations or individuals who occupy space in your facilities. Manage lease-related contacts, tenant types, and unit assignments.
   name: Facilio Tenants API
   slug: facilio-tenants-api
-- description: Reusable equipment tracked in your inventory (drills, multimeters, ladders). Manage quantities, pricing, and approvals.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Reusable equipment tracked in your inventory (drills, multimeters, ladders). Manage quantities, pricing, and approvals.
   name: Facilio Tool Types API
   slug: facilio-tool-types-api
-- description: Tool balances per storeroom (read-only list, detail, and bin list); non-rotating quantity changes use the tool adjustment endpoint.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Tool balances per storeroom (read-only list, detail, and bin list); non-rotating quantity changes use the tool adjustment endpoint.
   name: Facilio Tools API
   slug: facilio-tools-api
-- description: Individual contacts within a vendor organization.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Individual contacts within a vendor organization.
   name: Facilio Vendor Contacts API
   slug: facilio-vendor-contacts-api
-- description: Vendor credit notes for refunds and transaction adjustments. Track credit amounts, line items, and approval status for vendor-related credits.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Vendor credit notes for refunds and transaction adjustments. Track credit amounts, line items, and approval status for vendor-related credits.
   name: Facilio Vendor Credits API
   slug: facilio-vendor-credits-api
-- description: Vendors are the external service providers and contractors who perform work at your facilities. Manage their contact details and associate them with work orders.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Vendors are the external service providers and contractors who perform work at your facilities. Manage their contact details and associate them with work orders.
   name: Facilio Vendors API
   slug: facilio-vendors-api
-- description: Attach photos, documents, invoices, and other files to work orders. Useful for before/after photos, inspection reports, and supporting documentation.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Attach photos, documents, invoices, and other files to work orders. Useful for before/after photos, inspection reports, and supporting documentation.
   name: Facilio Work Order Attachments API
   slug: facilio-work-order-attachments-api
-- description: Add notes and updates to work orders. Comments provide an audit trail of communication between technicians, managers, and requesters.
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Add notes and updates to work orders. Comments provide an audit trail of communication between technicians, managers, and requesters.
   name: Facilio Work Order Comments API
   slug: facilio-work-order-comments-api
-- description: Work orders represent maintenance tasks, repairs, and scheduled jobs across your facilities. Track them from creation through assignment, execution, and closure. Assign to staff or teams, set prioriti
+- baseURL: https://us.facilioapis.com/maintenance/api/v5
+  baseurl_source: declared
+  description: Work orders represent maintenance tasks, repairs, and scheduled jobs across your facilities. Track them from creation through assignment, execution, and closure. Assign to staff or teams, set prioriti
   name: Facilio Work Orders API
   slug: facilio-work-orders-api
 artifact_total: 77
@@ -444,7 +514,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: The Densify Container Optimization REST API provides programmatic access to container right-sizing recommendations across Amazon EKS, AKS, GKE, OpenShift, and self-managed Kubernetes footprints. It ex
   name: Densify Container Optimization API
   slug: container-api
-- description: The Authentication API from Densify — 1 operation(s) for authentication.
+- baseURL: https://api.densify.com/api/v2
+  baseurl_source: declared
+  description: The Authentication API from Densify — 1 operation(s) for authentication.
   name: Densify Authentication API
   slug: densify-authentication-api
-- description: The Cloud Analysis API from Densify — 3 operation(s) for cloud analysis.
+- baseURL: https://api.densify.com/api/v2
+  baseurl_source: declared
+  description: The Cloud Analysis API from Densify — 3 operation(s) for cloud analysis.
   name: Densify Cloud Analysis API
   slug: densify-cloud-analysis-api
-- description: The Kubernetes API from Densify — 2 operation(s) for kubernetes.
+- baseURL: https://api.densify.com/api/v2
+  baseurl_source: declared
+  description: The Kubernetes API from Densify — 2 operation(s) for kubernetes.
   name: Densify Kubernetes API
   slug: densify-kubernetes-api
-- description: The Recommendations API from Densify — 3 operation(s) for recommendations.
+- baseURL: https://api.densify.com/api/v2
+  baseurl_source: declared
+  description: The Recommendations API from Densify — 3 operation(s) for recommendations.
   name: Densify Recommendations API
   slug: densify-recommendations-api
-- description: The System API from Densify — 1 operation(s) for system.
+- baseURL: https://api.densify.com/api/v2
+  baseurl_source: declared
+  description: The System API from Densify — 1 operation(s) for system.
   name: Densify System API
   slug: densify-system-api
 artifact_total: 22
@@ -237,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/densify/refs/heads/main/screenshots/densify-2026-06-20T175916.png
 security:

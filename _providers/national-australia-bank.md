@@ -33,31 +33,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: NAB's first-party merchant payments REST API platform (the NAB Gateway / NAB Transact developer portal at nabgateway-developer.nab.com.au), distinct from the CDR Open Banking surface. Documents a full
   name: National Australia Bank (NAB) Gateway Payments API
   slug: national-australia-bank-gateway-payments-api
-- description: Banking Account Balance endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: National Australia Bank Banking Account Balances API
   slug: national-australia-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: National Australia Bank Banking Account Direct Debits API
   slug: national-australia-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: National Australia Bank Banking Account Scheduled Payments API
   slug: national-australia-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: National Australia Bank Banking Account Transactions API
   slug: national-australia-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: National Australia Bank Banking Accounts API
   slug: national-australia-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: National Australia Bank Banking Payees API
   slug: national-australia-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://openbank.api.nab.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: National Australia Bank Banking Products API
   slug: national-australia-bank-banking-products-api
 artifact_total: 21
@@ -260,7 +274,7 @@ score:
     regime_id: banking_open_finance
     score: 68.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png
 security:

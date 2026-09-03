@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -34,37 +46,59 @@ agentic_access:
   summary_line: 13 operations · 10 acting
 api_count: 2
 apis:
-- description: The Agent Data API from Aquant — 1 operation(s) for agent data.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Agent Data API from Aquant — 1 operation(s) for agent data.
   name: Aquant Agent Data API
   slug: aquant-agent-data-api
-- description: The Asset Location API from Aquant — 1 operation(s) for asset location.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Asset Location API from Aquant — 1 operation(s) for asset location.
   name: Aquant Asset Location API
   slug: aquant-asset-location-api
-- description: The Health API from Aquant — 3 operation(s) for health.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Health API from Aquant — 3 operation(s) for health.
   name: Aquant Health API
   slug: aquant-health-api
-- description: The Next Symptom API from Aquant — 1 operation(s) for next symptom.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Next Symptom API from Aquant — 1 operation(s) for next symptom.
   name: Aquant Next Symptom API
   slug: aquant-next-symptom-api
-- description: The Observation Existence API from Aquant — 1 operation(s) for observation existence.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Observation Existence API from Aquant — 1 operation(s) for observation existence.
   name: Aquant Observation Existence API
   slug: aquant-observation-existence-api
-- description: The Part Catalog Lookup API from Aquant — 1 operation(s) for part catalog lookup.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Part Catalog Lookup API from Aquant — 1 operation(s) for part catalog lookup.
   name: Aquant Part Catalog Lookup API
   slug: aquant-part-catalog-lookup-api
-- description: The Part Info API from Aquant — 1 operation(s) for part info.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Part Info API from Aquant — 1 operation(s) for part info.
   name: Aquant Part Info API
   slug: aquant-part-info-api
-- description: The Part Sources API from Aquant — 1 operation(s) for part sources.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Part Sources API from Aquant — 1 operation(s) for part sources.
   name: Aquant Part Sources API
   slug: aquant-part-sources-api
-- description: The Preventive Maintenance Check List API from Aquant — 1 operation(s) for preventive maintenance check list.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Preventive Maintenance Check List API from Aquant — 1 operation(s) for preventive maintenance check list.
   name: Aquant Preventive Maintenance Check List API
   slug: aquant-preventive-maintenance-check-list-api
-- description: The Summary Report API from Aquant — 1 operation(s) for summary report.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Summary Report API from Aquant — 1 operation(s) for summary report.
   name: Aquant Summary Report API
   slug: aquant-summary-report-api
-- description: The Technician Proximity API from Aquant — 1 operation(s) for technician proximity.
+- baseURL: https://mcp.aquant.ai
+  baseurl_source: declared
+  description: The Technician Proximity API from Aquant — 1 operation(s) for technician proximity.
   name: Aquant Technician Proximity API
   slug: aquant-technician-proximity-api
 arazzos:
@@ -314,7 +348,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

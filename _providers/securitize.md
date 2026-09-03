@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -39,19 +52,29 @@ apis:
 - description: Public, unauthenticated Model Context Protocol server ("Securitize Connector") that gives AI assistants and agents real-time, standardized access to the Securitize tokenized-asset catalog — listing as
   name: Securitize MCP Server
   slug: securitize-mcp-server
-- description: The APAC API from Securitize — 4 operation(s) for apac.
+- baseURL: https://public-api.securitize.io/
+  baseurl_source: declared
+  description: The APAC API from Securitize — 4 operation(s) for apac.
   name: Securitize APAC API
   slug: securitize-apac-api
-- description: The Domains API from Securitize — 74 operation(s) for domains.
+- baseURL: https://public-api.securitize.io/
+  baseurl_source: declared
+  description: The Domains API from Securitize — 74 operation(s) for domains.
   name: Securitize Domains API
   slug: securitize-domains-api
-- description: The Health Check API from Securitize — 1 operation(s) for health check.
+- baseURL: https://public-api.securitize.io/
+  baseurl_source: declared
+  description: The Health Check API from Securitize — 1 operation(s) for health check.
   name: Securitize Health Check API
   slug: securitize-health-check-api
-- description: The Travel Rule API from Securitize — 4 operation(s) for travel rule.
+- baseURL: https://public-api.securitize.io/
+  baseurl_source: declared
+  description: The Travel Rule API from Securitize — 4 operation(s) for travel rule.
   name: Securitize Travel Rule API
   slug: securitize-travel-rule-api
-- description: The Webhooks API from Securitize — 4 operation(s) for webhooks.
+- baseURL: https://public-api.securitize.io/
+  baseurl_source: declared
+  description: The Webhooks API from Securitize — 4 operation(s) for webhooks.
   name: Securitize Webhooks API
   slug: securitize-webhooks-api
 artifact_total: 21
@@ -228,7 +251,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -238,7 +261,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 43.3
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +279,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
 security:

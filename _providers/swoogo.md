@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 17 acting
 api_count: 1
 apis:
-- description: OAuth2 client-credentials token exchange.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: OAuth2 client-credentials token exchange.
   name: Swoogo Authentication API
   slug: swoogo-authentication-api
-- description: Organization-level CRM contacts and contact fields.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: Organization-level CRM contacts and contact fields.
   name: Swoogo Contacts API
   slug: swoogo-contacts-api
-- description: Events and their fields, questions, websites, folders, and badges.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: Events and their fields, questions, websites, folders, and badges.
   name: Swoogo Events API
   slug: swoogo-events-api
-- description: Attendees, check-in, groups, session registration, and types.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: Attendees, check-in, groups, session registration, and types.
   name: Swoogo Registrants API
   slug: swoogo-registrants-api
-- description: Agenda sessions, locations, fees, attendance, and scans.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: Agenda sessions, locations, fees, attendance, and scans.
   name: Swoogo Sessions API
   slug: swoogo-sessions-api
-- description: Speakers and their session assignments.
+- baseURL: https://api.swoogo.com/api/v1
+  baseurl_source: declared
+  description: Speakers and their session assignments.
   name: Swoogo Speakers API
   slug: swoogo-speakers-api
 artifact_total: 22
@@ -197,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swoogo/refs/heads/main/screenshots/swoogo-2026-08-17T082218.png
 security:

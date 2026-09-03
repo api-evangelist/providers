@@ -33,34 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST API for online checkout and credit-application flows: retrieve supported devices, begin a sale, and receive completion webhooks. Bearer-token authenticated plus a symmetric E-commerce key for enc'
   name: PayJoy E-commerce API
   slug: payjoy-e-commerce-api
-- description: Retrieve cart information.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: Retrieve cart information.
   name: PayJoy Carts API
   slug: payjoy-carts-api
-- description: The Down Payments API from PayJoy — 1 operation(s) for down payments.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: The Down Payments API from PayJoy — 1 operation(s) for down payments.
   name: PayJoy Down Payments API
   slug: payjoy-down-payments-api
-- description: Retrieve merchants information.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: Retrieve merchants information.
   name: PayJoy Merchants API
   slug: payjoy-merchants-api
-- description: The Reconciliation API from PayJoy — 1 operation(s) for reconciliation.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: The Reconciliation API from PayJoy — 1 operation(s) for reconciliation.
   name: PayJoy Reconciliation API
   slug: payjoy-reconciliation-api
-- description: The Repayments API from PayJoy — 3 operation(s) for repayments.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: The Repayments API from PayJoy — 3 operation(s) for repayments.
   name: PayJoy Repayments API
   slug: payjoy-repayments-api
-- description: Retrieve sales clerks information.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: Retrieve sales clerks information.
   name: PayJoy SalesClerks API
   slug: payjoy-salesclerks-api
-- description: Displays the status of the application.
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: Displays the status of the application.
   name: PayJoy Status API
   slug: payjoy-status-api
-- description: Endpoints related to vouchers management
+- baseURL: https://partner-integration.sandbox.payjoy.com/partner-api
+  baseurl_source: declared
+  description: Endpoints related to vouchers management
   name: PayJoy Vouchers API
   slug: payjoy-vouchers-api
 artifact_total: 22
@@ -221,7 +237,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -231,7 +247,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     conformance: derived
     contracts:
@@ -248,7 +264,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjoy/refs/heads/main/screenshots/payjoy-2026-08-07T191639.png
 security:

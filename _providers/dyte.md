@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 13 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage livestreams for a meeting.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Manage livestreams for a meeting.
   name: Dyte Livestreams API
   slug: dyte-livestreams-api
-- description: Create and manage meeting rooms.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Create and manage meeting rooms.
   name: Dyte Meetings API
   slug: dyte-meetings-api
-- description: Add participants and issue/refresh their SDK auth tokens.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Add participants and issue/refresh their SDK auth tokens.
   name: Dyte Participants API
   slug: dyte-participants-api
-- description: Start, stop, and fetch meeting recordings.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Start, stop, and fetch meeting recordings.
   name: Dyte Recordings API
   slug: dyte-recordings-api
-- description: Query completed and active sessions.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Query completed and active sessions.
   name: Dyte Sessions API
   slug: dyte-sessions-api
-- description: Manage webhook event subscriptions.
+- baseURL: https://api.dyte.io/v2
+  baseurl_source: declared
+  description: Manage webhook event subscriptions.
   name: Dyte Webhooks API
   slug: dyte-webhooks-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyte/refs/heads/main/screenshots/dyte-2026-06-20T180436.png
 security:

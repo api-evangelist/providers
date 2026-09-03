@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 2
@@ -44,199 +44,329 @@ agentic_access:
   summary_line: 130 operations · 65 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #Action=AttachInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachinstances.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachinstances.'
   name: 'Amazon EC2 Auto Scaling #Action=AttachInstances API'
   slug: amazon-ec2-auto-scaling-action-attachinstances-api
-- description: 'The #Action=AttachLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachloadbalancers.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachloadbalancers.'
   name: 'Amazon EC2 Auto Scaling #Action=AttachLoadBalancers API'
   slug: amazon-ec2-auto-scaling-action-attachloadbalancers-api
-- description: 'The #Action=AttachLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachloadbalancertargetgroups.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachloadbalancertargetgroups.'
   name: 'Amazon EC2 Auto Scaling #Action=AttachLoadBalancerTargetGroups API'
   slug: amazon-ec2-auto-scaling-action-attachloadbalancertargetgroups-api
-- description: 'The #Action=AttachTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachtrafficsources.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=AttachTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachtrafficsources.'
   name: 'Amazon EC2 Auto Scaling #Action=AttachTrafficSources API'
   slug: amazon-ec2-auto-scaling-action-attachtrafficsources-api
-- description: 'The #Action=BatchDeleteScheduledAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=batchdeletescheduledaction.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchDeleteScheduledAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=batchdeletescheduledaction.'
   name: 'Amazon EC2 Auto Scaling #Action=BatchDeleteScheduledAction API'
   slug: amazon-ec2-auto-scaling-action-batchdeletescheduledaction-api
-- description: 'The #Action=BatchPutScheduledUpdateGroupAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=batchputscheduledupdategroupaction.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchPutScheduledUpdateGroupAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=batchputscheduledupdategroupaction.'
   name: 'Amazon EC2 Auto Scaling #Action=BatchPutScheduledUpdateGroupAction API'
   slug: amazon-ec2-auto-scaling-action-batchputscheduledupdategroupaction-api
-- description: 'The #Action=CancelInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=cancelinstancerefresh.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CancelInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=cancelinstancerefresh.'
   name: 'Amazon EC2 Auto Scaling #Action=CancelInstanceRefresh API'
   slug: amazon-ec2-auto-scaling-action-cancelinstancerefresh-api
-- description: 'The #Action=CompleteLifecycleAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=completelifecycleaction.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CompleteLifecycleAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=completelifecycleaction.'
   name: 'Amazon EC2 Auto Scaling #Action=CompleteLifecycleAction API'
   slug: amazon-ec2-auto-scaling-action-completelifecycleaction-api
-- description: 'The #Action=CreateAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createautoscalinggroup.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createautoscalinggroup.'
   name: 'Amazon EC2 Auto Scaling #Action=CreateAutoScalingGroup API'
   slug: amazon-ec2-auto-scaling-action-createautoscalinggroup-api
-- description: 'The #Action=CreateLaunchConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createlaunchconfiguration.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateLaunchConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createlaunchconfiguration.'
   name: 'Amazon EC2 Auto Scaling #Action=CreateLaunchConfiguration API'
   slug: amazon-ec2-auto-scaling-action-createlaunchconfiguration-api
-- description: 'The #Action=CreateOrUpdateTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createorupdatetags.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateOrUpdateTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=createorupdatetags.'
   name: 'Amazon EC2 Auto Scaling #Action=CreateOrUpdateTags API'
   slug: amazon-ec2-auto-scaling-action-createorupdatetags-api
-- description: 'The #Action=DeleteAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deleteautoscalinggroup.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deleteautoscalinggroup.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteAutoScalingGroup API'
   slug: amazon-ec2-auto-scaling-action-deleteautoscalinggroup-api
-- description: 'The #Action=DeleteLaunchConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletelaunchconfiguration.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteLaunchConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletelaunchconfiguration.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteLaunchConfiguration API'
   slug: amazon-ec2-auto-scaling-action-deletelaunchconfiguration-api
-- description: 'The #Action=DeleteLifecycleHook API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletelifecyclehook.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteLifecycleHook API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletelifecyclehook.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteLifecycleHook API'
   slug: amazon-ec2-auto-scaling-action-deletelifecyclehook-api
-- description: 'The #Action=DeleteNotificationConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletenotificationconfiguration.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteNotificationConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletenotificationconfiguration.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteNotificationConfiguration API'
   slug: amazon-ec2-auto-scaling-action-deletenotificationconfiguration-api
-- description: 'The #Action=DeletePolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletepolicy.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeletePolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletepolicy.'
   name: 'Amazon EC2 Auto Scaling #Action=DeletePolicy API'
   slug: amazon-ec2-auto-scaling-action-deletepolicy-api
-- description: 'The #Action=DeleteScheduledAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletescheduledaction.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteScheduledAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletescheduledaction.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteScheduledAction API'
   slug: amazon-ec2-auto-scaling-action-deletescheduledaction-api
-- description: 'The #Action=DeleteTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletetags.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletetags.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteTags API'
   slug: amazon-ec2-auto-scaling-action-deletetags-api
-- description: 'The #Action=DeleteWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletewarmpool.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=deletewarmpool.'
   name: 'Amazon EC2 Auto Scaling #Action=DeleteWarmPool API'
   slug: amazon-ec2-auto-scaling-action-deletewarmpool-api
-- description: 'The #Action=DescribeAccountLimits API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeaccountlimits.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAccountLimits API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeaccountlimits.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeAccountLimits API'
   slug: amazon-ec2-auto-scaling-action-describeaccountlimits-api
-- description: 'The #Action=DescribeAdjustmentTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeadjustmenttypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAdjustmentTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeadjustmenttypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeAdjustmentTypes API'
   slug: amazon-ec2-auto-scaling-action-describeadjustmenttypes-api
-- description: 'The #Action=DescribeAutoScalingGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalinggroups.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAutoScalingGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalinggroups.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeAutoScalingGroups API'
   slug: amazon-ec2-auto-scaling-action-describeautoscalinggroups-api
-- description: 'The #Action=DescribeAutoScalingInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalinginstances.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAutoScalingInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalinginstances.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeAutoScalingInstances API'
   slug: amazon-ec2-auto-scaling-action-describeautoscalinginstances-api
-- description: 'The #Action=DescribeAutoScalingNotificationTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalingnotificationtypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeAutoScalingNotificationTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeautoscalingnotificationtypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeAutoScalingNotificationTypes API'
   slug: amazon-ec2-auto-scaling-action-describeautoscalingnotificationtypes-api
-- description: 'The #Action=DescribeInstanceRefreshes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeinstancerefreshes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeInstanceRefreshes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeinstancerefreshes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeInstanceRefreshes API'
   slug: amazon-ec2-auto-scaling-action-describeinstancerefreshes-api
-- description: 'The #Action=DescribeLaunchConfigurations API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelaunchconfigurations.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLaunchConfigurations API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelaunchconfigurations.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeLaunchConfigurations API'
   slug: amazon-ec2-auto-scaling-action-describelaunchconfigurations-api
-- description: 'The #Action=DescribeLifecycleHooks API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelifecyclehooks.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLifecycleHooks API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelifecyclehooks.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeLifecycleHooks API'
   slug: amazon-ec2-auto-scaling-action-describelifecyclehooks-api
-- description: 'The #Action=DescribeLifecycleHookTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelifecyclehooktypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLifecycleHookTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describelifecyclehooktypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeLifecycleHookTypes API'
   slug: amazon-ec2-auto-scaling-action-describelifecyclehooktypes-api
-- description: 'The #Action=DescribeLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeloadbalancers.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeloadbalancers.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeLoadBalancers API'
   slug: amazon-ec2-auto-scaling-action-describeloadbalancers-api
-- description: 'The #Action=DescribeLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeloadbalancertargetgroups.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeloadbalancertargetgroups.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeLoadBalancerTargetGroups API'
   slug: amazon-ec2-auto-scaling-action-describeloadbalancertargetgroups-api
-- description: 'The #Action=DescribeMetricCollectionTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describemetriccollectiontypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeMetricCollectionTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describemetriccollectiontypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeMetricCollectionTypes API'
   slug: amazon-ec2-auto-scaling-action-describemetriccollectiontypes-api
-- description: 'The #Action=DescribeNotificationConfigurations API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describenotificationconfigurations.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeNotificationConfigurations API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describenotificationconfigurations.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeNotificationConfigurations API'
   slug: amazon-ec2-auto-scaling-action-describenotificationconfigurations-api
-- description: 'The #Action=DescribePolicies API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describepolicies.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribePolicies API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describepolicies.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribePolicies API'
   slug: amazon-ec2-auto-scaling-action-describepolicies-api
-- description: 'The #Action=DescribeScalingActivities API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescalingactivities.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeScalingActivities API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescalingactivities.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeScalingActivities API'
   slug: amazon-ec2-auto-scaling-action-describescalingactivities-api
-- description: 'The #Action=DescribeScalingProcessTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescalingprocesstypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeScalingProcessTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescalingprocesstypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeScalingProcessTypes API'
   slug: amazon-ec2-auto-scaling-action-describescalingprocesstypes-api
-- description: 'The #Action=DescribeScheduledActions API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescheduledactions.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeScheduledActions API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describescheduledactions.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeScheduledActions API'
   slug: amazon-ec2-auto-scaling-action-describescheduledactions-api
-- description: 'The #Action=DescribeTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describetags.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeTags API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describetags.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeTags API'
   slug: amazon-ec2-auto-scaling-action-describetags-api
-- description: 'The #Action=DescribeTerminationPolicyTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeterminationpolicytypes.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeTerminationPolicyTypes API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describeterminationpolicytypes.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeTerminationPolicyTypes API'
   slug: amazon-ec2-auto-scaling-action-describeterminationpolicytypes-api
-- description: 'The #Action=DescribeTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describetrafficsources.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describetrafficsources.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeTrafficSources API'
   slug: amazon-ec2-auto-scaling-action-describetrafficsources-api
-- description: 'The #Action=DescribeWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describewarmpool.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DescribeWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=describewarmpool.'
   name: 'Amazon EC2 Auto Scaling #Action=DescribeWarmPool API'
   slug: amazon-ec2-auto-scaling-action-describewarmpool-api
-- description: 'The #Action=DetachInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachinstances.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachinstances.'
   name: 'Amazon EC2 Auto Scaling #Action=DetachInstances API'
   slug: amazon-ec2-auto-scaling-action-detachinstances-api
-- description: 'The #Action=DetachLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachloadbalancers.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachLoadBalancers API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachloadbalancers.'
   name: 'Amazon EC2 Auto Scaling #Action=DetachLoadBalancers API'
   slug: amazon-ec2-auto-scaling-action-detachloadbalancers-api
-- description: 'The #Action=DetachLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachloadbalancertargetgroups.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachLoadBalancerTargetGroups API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachloadbalancertargetgroups.'
   name: 'Amazon EC2 Auto Scaling #Action=DetachLoadBalancerTargetGroups API'
   slug: amazon-ec2-auto-scaling-action-detachloadbalancertargetgroups-api
-- description: 'The #Action=DetachTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachtrafficsources.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DetachTrafficSources API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=detachtrafficsources.'
   name: 'Amazon EC2 Auto Scaling #Action=DetachTrafficSources API'
   slug: amazon-ec2-auto-scaling-action-detachtrafficsources-api
-- description: 'The #Action=DisableMetricsCollection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=disablemetricscollection.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DisableMetricsCollection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=disablemetricscollection.'
   name: 'Amazon EC2 Auto Scaling #Action=DisableMetricsCollection API'
   slug: amazon-ec2-auto-scaling-action-disablemetricscollection-api
-- description: 'The #Action=EnableMetricsCollection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=enablemetricscollection.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=EnableMetricsCollection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=enablemetricscollection.'
   name: 'Amazon EC2 Auto Scaling #Action=EnableMetricsCollection API'
   slug: amazon-ec2-auto-scaling-action-enablemetricscollection-api
-- description: 'The #Action=EnterStandby API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=enterstandby.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=EnterStandby API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=enterstandby.'
   name: 'Amazon EC2 Auto Scaling #Action=EnterStandby API'
   slug: amazon-ec2-auto-scaling-action-enterstandby-api
-- description: 'The #Action=ExecutePolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=executepolicy.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ExecutePolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=executepolicy.'
   name: 'Amazon EC2 Auto Scaling #Action=ExecutePolicy API'
   slug: amazon-ec2-auto-scaling-action-executepolicy-api
-- description: 'The #Action=ExitStandby API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=exitstandby.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ExitStandby API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=exitstandby.'
   name: 'Amazon EC2 Auto Scaling #Action=ExitStandby API'
   slug: amazon-ec2-auto-scaling-action-exitstandby-api
-- description: 'The #Action=GetPredictiveScalingForecast API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=getpredictivescalingforecast.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetPredictiveScalingForecast API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=getpredictivescalingforecast.'
   name: 'Amazon EC2 Auto Scaling #Action=GetPredictiveScalingForecast API'
   slug: amazon-ec2-auto-scaling-action-getpredictivescalingforecast-api
-- description: 'The #Action=PutLifecycleHook API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putlifecyclehook.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutLifecycleHook API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putlifecyclehook.'
   name: 'Amazon EC2 Auto Scaling #Action=PutLifecycleHook API'
   slug: amazon-ec2-auto-scaling-action-putlifecyclehook-api
-- description: 'The #Action=PutNotificationConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putnotificationconfiguration.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutNotificationConfiguration API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putnotificationconfiguration.'
   name: 'Amazon EC2 Auto Scaling #Action=PutNotificationConfiguration API'
   slug: amazon-ec2-auto-scaling-action-putnotificationconfiguration-api
-- description: 'The #Action=PutScalingPolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putscalingpolicy.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutScalingPolicy API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putscalingpolicy.'
   name: 'Amazon EC2 Auto Scaling #Action=PutScalingPolicy API'
   slug: amazon-ec2-auto-scaling-action-putscalingpolicy-api
-- description: 'The #Action=PutScheduledUpdateGroupAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putscheduledupdategroupaction.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutScheduledUpdateGroupAction API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putscheduledupdategroupaction.'
   name: 'Amazon EC2 Auto Scaling #Action=PutScheduledUpdateGroupAction API'
   slug: amazon-ec2-auto-scaling-action-putscheduledupdategroupaction-api
-- description: 'The #Action=PutWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putwarmpool.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutWarmPool API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=putwarmpool.'
   name: 'Amazon EC2 Auto Scaling #Action=PutWarmPool API'
   slug: amazon-ec2-auto-scaling-action-putwarmpool-api
-- description: 'The #Action=RecordLifecycleActionHeartbeat API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=recordlifecycleactionheartbeat.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RecordLifecycleActionHeartbeat API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=recordlifecycleactionheartbeat.'
   name: 'Amazon EC2 Auto Scaling #Action=RecordLifecycleActionHeartbeat API'
   slug: amazon-ec2-auto-scaling-action-recordlifecycleactionheartbeat-api
-- description: 'The #Action=ResumeProcesses API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=resumeprocesses.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ResumeProcesses API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=resumeprocesses.'
   name: 'Amazon EC2 Auto Scaling #Action=ResumeProcesses API'
   slug: amazon-ec2-auto-scaling-action-resumeprocesses-api
-- description: 'The #Action=RollbackInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=rollbackinstancerefresh.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=RollbackInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=rollbackinstancerefresh.'
   name: 'Amazon EC2 Auto Scaling #Action=RollbackInstanceRefresh API'
   slug: amazon-ec2-auto-scaling-action-rollbackinstancerefresh-api
-- description: 'The #Action=SetDesiredCapacity API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setdesiredcapacity.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SetDesiredCapacity API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setdesiredcapacity.'
   name: 'Amazon EC2 Auto Scaling #Action=SetDesiredCapacity API'
   slug: amazon-ec2-auto-scaling-action-setdesiredcapacity-api
-- description: 'The #Action=SetInstanceHealth API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setinstancehealth.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SetInstanceHealth API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setinstancehealth.'
   name: 'Amazon EC2 Auto Scaling #Action=SetInstanceHealth API'
   slug: amazon-ec2-auto-scaling-action-setinstancehealth-api
-- description: 'The #Action=SetInstanceProtection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setinstanceprotection.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SetInstanceProtection API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=setinstanceprotection.'
   name: 'Amazon EC2 Auto Scaling #Action=SetInstanceProtection API'
   slug: amazon-ec2-auto-scaling-action-setinstanceprotection-api
-- description: 'The #Action=StartInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=startinstancerefresh.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=StartInstanceRefresh API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=startinstancerefresh.'
   name: 'Amazon EC2 Auto Scaling #Action=StartInstanceRefresh API'
   slug: amazon-ec2-auto-scaling-action-startinstancerefresh-api
-- description: 'The #Action=SuspendProcesses API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=suspendprocesses.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=SuspendProcesses API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=suspendprocesses.'
   name: 'Amazon EC2 Auto Scaling #Action=SuspendProcesses API'
   slug: amazon-ec2-auto-scaling-action-suspendprocesses-api
-- description: 'The #Action=TerminateInstanceInAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=terminateinstanceinautoscalinggroup.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=TerminateInstanceInAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=terminateinstanceinautoscalinggroup.'
   name: 'Amazon EC2 Auto Scaling #Action=TerminateInstanceInAutoScalingGroup API'
   slug: amazon-ec2-auto-scaling-action-terminateinstanceinautoscalinggroup-api
-- description: 'The #Action=UpdateAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=updateautoscalinggroup.'
+- baseURL: https://autoscaling.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=UpdateAutoScalingGroup API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=updateautoscalinggroup.'
   name: 'Amazon EC2 Auto Scaling #Action=UpdateAutoScalingGroup API'
   slug: amazon-ec2-auto-scaling-action-updateautoscalinggroup-api
 arazzos:
@@ -4266,7 +4396,7 @@ score:
       marker_coverage: 0.0
       total: 65
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/screenshots/amazon-ec2-auto-scaling-2026-07-25T200006.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 28 operations · 16 acting
 api_count: 1
 apis:
-- description: Manage Google Cloud folders. Folders provide an additional grouping mechanism and isolation boundary between projects. They can be used to model organizational structure, departments, teams, or enviro
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage Google Cloud folders. Folders provide an additional grouping mechanism and isolation boundary between projects. They can be used to model organizational structure, departments, teams, or enviro
   name: Google Cloud Platform Folders API
   slug: google-cloud-platform-folders-api
-- description: Long-running operations returned by Resource Manager API methods. Some methods return an Operation resource to track the progress of asynchronous requests.
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Long-running operations returned by Resource Manager API methods. Some methods return an Operation resource to track the progress of asynchronous requests.
   name: Google Cloud Platform Operations API
   slug: google-cloud-platform-operations-api
-- description: Manage Google Cloud organizations. An organization is the root node in the Google Cloud resource hierarchy, typically representing a company or business entity. Organizations are tied to a Google Work
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage Google Cloud organizations. An organization is the root node in the Google Cloud resource hierarchy, typically representing a company or business entity. Organizations are tied to a Google Work
   name: Google Cloud Platform Organizations API
   slug: google-cloud-platform-organizations-api
-- description: Manage Google Cloud projects. A project is the base-level organizing entity in Google Cloud and is required to use most Google Cloud services. Projects contain resources and are associated with billin
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage Google Cloud projects. A project is the base-level organizing entity in Google Cloud and is required to use most Google Cloud services. Projects contain resources and are associated with billin
   name: Google Cloud Platform Projects API
   slug: google-cloud-platform-projects-api
-- description: Manage tag bindings that associate tag values with Google Cloud resources. Tag bindings connect tag values to specific resources in the hierarchy.
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage tag bindings that associate tag values with Google Cloud resources. Tag bindings connect tag values to specific resources in the hierarchy.
   name: Google Cloud Platform TagBindings API
   slug: google-cloud-platform-tagbindings-api
-- description: Manage tag keys used to organize and categorize Google Cloud resources. Tag keys define the namespace for tag values that can be attached to resources.
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage tag keys used to organize and categorize Google Cloud resources. Tag keys define the namespace for tag values that can be attached to resources.
   name: Google Cloud Platform TagKeys API
   slug: google-cloud-platform-tagkeys-api
-- description: Manage tag values associated with tag keys. Tag values are the specific labels that can be bound to resources through tag bindings.
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Manage tag values associated with tag keys. Tag values are the specific labels that can be bound to resources through tag bindings.
   name: Google Cloud Platform TagValues API
   slug: google-cloud-platform-tagvalues-api
 arazzos:
@@ -915,7 +929,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -925,7 +939,7 @@ score:
     discoverability: 48.1
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 61.2
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -936,7 +950,7 @@ score:
       total: 7
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

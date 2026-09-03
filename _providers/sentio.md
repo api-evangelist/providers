@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 81 operations · 31 acting
 api_count: 1
 apis:
-- description: The AI API from Sentio — 4 operation(s) for ai.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The AI API from Sentio — 4 operation(s) for ai.
   name: Sentio AI API
   slug: sentio-ai-api
-- description: The Alerts API from Sentio — 4 operation(s) for alerts.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Alerts API from Sentio — 4 operation(s) for alerts.
   name: Sentio Alerts API
   slug: sentio-alerts-api
-- description: The Data API from Sentio — 25 operation(s) for data.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Data API from Sentio — 25 operation(s) for data.
   name: Sentio Data API
   slug: sentio-data-api
-- description: The Debug and Simulation API from Sentio — 9 operation(s) for debug and simulation.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Debug and Simulation API from Sentio — 9 operation(s) for debug and simulation.
   name: Sentio Debug and Simulation API
   slug: sentio-debug-and-simulation-api
-- description: The Forks API from Sentio — 8 operation(s) for forks.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Forks API from Sentio — 8 operation(s) for forks.
   name: Sentio Forks API
   slug: sentio-forks-api
-- description: The Move API from Sentio — 2 operation(s) for move.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Move API from Sentio — 2 operation(s) for move.
   name: Sentio Move API
   slug: sentio-move-api
-- description: The Price API from Sentio — 5 operation(s) for price.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Price API from Sentio — 5 operation(s) for price.
   name: Sentio Price API
   slug: sentio-price-api
-- description: The Prices API from Sentio — 6 operation(s) for prices.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Prices API from Sentio — 6 operation(s) for prices.
   name: Sentio Prices API
   slug: sentio-prices-api
-- description: The Processor API from Sentio — 2 operation(s) for processor.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Processor API from Sentio — 2 operation(s) for processor.
   name: Sentio Processor API
   slug: sentio-processor-api
-- description: The ProcessorExt API from Sentio — 1 operation(s) for processorext.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The ProcessorExt API from Sentio — 1 operation(s) for processorext.
   name: Sentio ProcessorExt API
   slug: sentio-processorext-api
-- description: The Web API from Sentio — 8 operation(s) for web.
+- baseURL: https://api.sentio.xyz
+  baseurl_source: declared
+  description: The Web API from Sentio — 8 operation(s) for web.
   name: Sentio Web API
   slug: sentio-web-api
 artifact_total: 28
@@ -279,7 +301,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -289,7 +311,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,7 +323,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentio/refs/heads/main/screenshots/sentio-2026-08-17T081807.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 23 operations
 api_count: 12
 apis:
-- description: Public, unauthenticated read access to the Cruz Foam news and blog archive via the WordPress core REST API. Verified live at 139 published posts.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Cruz Foam news and blog archive via the WordPress core REST API. Verified live at 139 published posts.
   name: Cruz Foam Posts API
   slug: cruz-foam-posts-api
-- description: Public, unauthenticated read access to the static marketing and policy pages of cruzfoam.com — Products, Science, Impact, About Us, Partners, Customers, Careers, Press, Contact, Terms and Privacy. Ver
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static marketing and policy pages of cruzfoam.com — Products, Science, Impact, About Us, Partners, Customers, Careers, Press, Contact, Terms and Privacy. Ver
   name: Cruz Foam Pages API
   slug: cruz-foam-pages-api
-- description: Public, unauthenticated read access to the Cruz Foam customer showcase — the site-specific `customers` custom post type behind cruzfoam.com/customers/, listing the brands that ship in Cruz Foam materi
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Cruz Foam customer showcase — the site-specific `customers` custom post type behind cruzfoam.com/customers/, listing the brands that ship in Cruz Foam materi
   name: Cruz Foam Customers API
   slug: cruz-foam-customers-api
-- description: 'Public, unauthenticated read access to the media library behind cruzfoam.com — product photography, material and science imagery, and press assets with their generated size variants. Verified live at '
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the media library behind cruzfoam.com — product photography, material and science imagery, and press assets with their generated size variants. Verified live at '
   name: Cruz Foam Media API
   slug: cruz-foam-media-api
-- description: Public, unauthenticated cross-content search over cruzfoam.com — posts, pages and the customer showcase — returning lightweight id / title / url / type / subtype records. Verified live at 142 searchab
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over cruzfoam.com — posts, pages and the customer showcase — returning lightweight id / title / url / type / subtype records. Verified live at 142 searchab
   name: Cruz Foam Search API
   slug: cruz-foam-search-api
-- description: Public, unauthenticated discovery metadata for cruzfoam.com — the self-describing route index (487 routes across 18 namespaces at capture), the registered content types and taxonomies, the publication
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated discovery metadata for cruzfoam.com — the self-describing route index (487 routes across 18 namespaces at capture), the registered content types and taxonomies, the publication
   name: Cruz Foam Discovery API
   slug: cruz-foam-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for cruzfoam.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page or customer showcase entry.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for cruzfoam.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page or customer showcase entry.
   name: Cruz Foam oEmbed API
   slug: cruz-foam-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any cruzfoam.com URL — a structured-data view of every page without scraping the HTML.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any cruzfoam.com URL — a structured-data view of every page without scraping the HTML.
   name: Cruz Foam SEO Metadata API
   slug: cruz-foam-seo-api
-- description: Post categories.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Post categories.
   name: Cruz Foam Categories API
   slug: cruz-foam-categories-api
-- description: Segments applied to the customer showcase.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Segments applied to the customer showcase.
   name: Cruz Foam Portfolio Categories API
   slug: cruz-foam-portfolio-categories-api
-- description: Post tags.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Post tags.
   name: Cruz Foam Tags API
   slug: cruz-foam-tags-api
-- description: Public author records.
+- baseURL: https://cruzfoam.com/wp-json
+  baseurl_source: declared
+  description: Public author records.
   name: Cruz Foam Users API
   slug: cruz-foam-users-api
 artifact_total: 26
@@ -263,11 +287,11 @@ score:
   band: emerging
   composite: 19.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.9
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -277,7 +301,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.3
+  previous_composite: 19.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +313,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cruz-foam/refs/heads/main/screenshots/cruz-foam-2026-09-02T145201.png
 security:
 - kind: authentication
   name: Cruz Foam Authentication

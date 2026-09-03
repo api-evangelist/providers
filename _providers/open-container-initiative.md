@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: The Blobs API from Open Container Initiative — 3 operation(s) for blobs.
+- baseURL_template: https://{registry}
+  baseurl_source: spec_template
+  description: The Blobs API from Open Container Initiative — 3 operation(s) for blobs.
   name: Open Container Initiative Blobs API
   slug: open-container-initiative-blobs-api
-- description: The Manifests API from Open Container Initiative — 1 operation(s) for manifests.
+- baseURL_template: https://{registry}
+  baseurl_source: spec_template
+  description: The Manifests API from Open Container Initiative — 1 operation(s) for manifests.
   name: Open Container Initiative Manifests API
   slug: open-container-initiative-manifests-api
-- description: The OCI Distribution Specification API from Open Container Initiative — 1 operation(s) for oci distribution specification.
+- baseURL_template: https://{registry}
+  baseurl_source: spec_template
+  description: The OCI Distribution Specification API from Open Container Initiative — 1 operation(s) for oci distribution specification.
   name: Open Container Initiative OCI Distribution Specification API
   slug: open-container-initiative-oci-distribution-specification-api
-- description: The Referrers API from Open Container Initiative — 1 operation(s) for referrers.
+- baseURL_template: https://{registry}
+  baseurl_source: spec_template
+  description: The Referrers API from Open Container Initiative — 1 operation(s) for referrers.
   name: Open Container Initiative Referrers API
   slug: open-container-initiative-referrers-api
-- description: The Tags API from Open Container Initiative — 1 operation(s) for tags.
+- baseURL_template: https://{registry}
+  baseurl_source: spec_template
+  description: The Tags API from Open Container Initiative — 1 operation(s) for tags.
   name: Open Container Initiative Tags API
   slug: open-container-initiative-tags-api
 artifact_total: 17
@@ -166,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/screenshots/open-container-initiative-2026-06-20T190734.png
 security:

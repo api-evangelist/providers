@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: In-app TypeScript/JavaScript Plugin API for building Obsidian plugins. Plugins access the Vault, Workspace, MetadataCache, file system, command palette, settings, editor, and Markdown post-processing.
   name: Obsidian Plugin API
   slug: obsidian-plugin-api
-- description: The Active File API from Obsidian — 1 operation(s) for active file.
+- baseURL: local
+  baseurl_source: declared
+  description: The Active File API from Obsidian — 1 operation(s) for active file.
   name: Obsidian Active File API
   slug: obsidian-active-file-api
-- description: The Commands API from Obsidian — 2 operation(s) for commands.
+- baseURL: local
+  baseurl_source: declared
+  description: The Commands API from Obsidian — 2 operation(s) for commands.
   name: Obsidian Commands API
   slug: obsidian-commands-api
-- description: The Open API from Obsidian — 1 operation(s) for open.
+- baseURL: local
+  baseurl_source: declared
+  description: The Open API from Obsidian — 1 operation(s) for open.
   name: Obsidian Open API
   slug: obsidian-open-api
-- description: The Periodic Notes API from Obsidian — 2 operation(s) for periodic notes.
+- baseURL: local
+  baseurl_source: declared
+  description: The Periodic Notes API from Obsidian — 2 operation(s) for periodic notes.
   name: Obsidian Periodic Notes API
   slug: obsidian-periodic-notes-api
-- description: The Search API from Obsidian — 2 operation(s) for search.
+- baseURL: local
+  baseurl_source: declared
+  description: The Search API from Obsidian — 2 operation(s) for search.
   name: Obsidian Search API
   slug: obsidian-search-api
-- description: The System API from Obsidian — 3 operation(s) for system.
+- baseURL: local
+  baseurl_source: declared
+  description: The System API from Obsidian — 3 operation(s) for system.
   name: Obsidian System API
   slug: obsidian-system-api
-- description: The Tags API from Obsidian — 1 operation(s) for tags.
+- baseURL: local
+  baseurl_source: declared
+  description: The Tags API from Obsidian — 1 operation(s) for tags.
   name: Obsidian Tags API
   slug: obsidian-tags-api
-- description: The Vault Directories API from Obsidian — 2 operation(s) for vault directories.
+- baseURL: local
+  baseurl_source: declared
+  description: The Vault Directories API from Obsidian — 2 operation(s) for vault directories.
   name: Obsidian Vault Directories API
   slug: obsidian-vault-directories-api
-- description: The Vault Files API from Obsidian — 1 operation(s) for vault files.
+- baseURL: local
+  baseurl_source: declared
+  description: The Vault Files API from Obsidian — 1 operation(s) for vault files.
   name: Obsidian Vault Files API
   slug: obsidian-vault-files-api
 artifact_total: 27
@@ -223,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:

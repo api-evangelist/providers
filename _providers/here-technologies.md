@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -110,19 +110,29 @@ apis:
 - description: Web-based mapping studio for designing custom map styles, uploading and visualizing geospatial data, and publishing interactive map experiences on top of the HERE Platform.
   name: HERE Studio
   slug: studio
-- description: The Batch Jobs API from HERE Technologies — 6 operation(s) for batch jobs.
+- baseURL: https://geocode.search.hereapi.com
+  baseurl_source: declared
+  description: The Batch Jobs API from HERE Technologies — 6 operation(s) for batch jobs.
   name: HERE Technologies Batch Jobs API
   slug: here-technologies-batch-jobs-api
-- description: The Geocode API from HERE Technologies — 1 operation(s) for geocode.
+- baseURL: https://geocode.search.hereapi.com
+  baseurl_source: declared
+  description: The Geocode API from HERE Technologies — 1 operation(s) for geocode.
   name: HERE Technologies Geocode API
   slug: here-technologies-geocode-api
-- description: The Health API from HERE Technologies — 1 operation(s) for health.
+- baseURL: https://geocode.search.hereapi.com
+  baseurl_source: declared
+  description: The Health API from HERE Technologies — 1 operation(s) for health.
   name: HERE Technologies Health API
   slug: here-technologies-health-api
-- description: The Notifications API from HERE Technologies — 1 operation(s) for notifications.
+- baseURL: https://geocode.search.hereapi.com
+  baseurl_source: declared
+  description: The Notifications API from HERE Technologies — 1 operation(s) for notifications.
   name: HERE Technologies Notifications API
   slug: here-technologies-notifications-api
-- description: The Reverse Geocode API from HERE Technologies — 1 operation(s) for reverse geocode.
+- baseURL: https://geocode.search.hereapi.com
+  baseurl_source: declared
+  description: The Reverse Geocode API from HERE Technologies — 1 operation(s) for reverse geocode.
   name: HERE Technologies Reverse Geocode API
   slug: here-technologies-reverse-geocode-api
 artifact_total: 40
@@ -241,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/screenshots/here-technologies-2026-06-20T182642.png
 security:

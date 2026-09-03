@@ -33,91 +33,147 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Pipeline actions
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Pipeline actions
   name: Seqera Labs actions API
   slug: seqera-labs-actions-api
-- description: The admin API from Seqera Labs — 3 operation(s) for admin.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The admin API from Seqera Labs — 3 operation(s) for admin.
   name: Seqera Labs admin API
   slug: seqera-labs-admin-api
-- description: The agents API from Seqera Labs — 4 operation(s) for agents.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The agents API from Seqera Labs — 4 operation(s) for agents.
   name: Seqera Labs agents API
   slug: seqera-labs-agents-api
-- description: Avatars
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Avatars
   name: Seqera Labs avatars API
   slug: seqera-labs-avatars-api
-- description: Compute environments
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Compute environments
   name: Seqera Labs compute-envs API
   slug: seqera-labs-compute-envs-api
-- description: Credentials
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Credentials
   name: Seqera Labs credentials API
   slug: seqera-labs-credentials-api
-- description: Cloud storage directory paths in Data Explorer
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Cloud storage directory paths in Data Explorer
   name: Seqera Labs data-links API
   slug: seqera-labs-data-links-api
-- description: Pipeline input datasets (samplesheets) in CSV or TSV format
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Pipeline input datasets (samplesheets) in CSV or TSV format
   name: Seqera Labs datasets API
   slug: seqera-labs-datasets-api
-- description: GA4GH workflow execution service runs
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: GA4GH workflow execution service runs
   name: Seqera Labs ga4gh API
   slug: seqera-labs-ga4gh-api
-- description: The identities API from Seqera Labs — 4 operation(s) for identities.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The identities API from Seqera Labs — 4 operation(s) for identities.
   name: Seqera Labs identities API
   slug: seqera-labs-identities-api
-- description: Labels and resource labels
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Labels and resource labels
   name: Seqera Labs labels API
   slug: seqera-labs-labels-api
-- description: Workflow launch events
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Workflow launch events
   name: Seqera Labs launch API
   slug: seqera-labs-launch-api
-- description: Organizations
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Organizations
   name: Seqera Labs orgs API
   slug: seqera-labs-orgs-api
-- description: The pipeline-schemas API from Seqera Labs — 1 operation(s) for pipeline-schemas.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The pipeline-schemas API from Seqera Labs — 1 operation(s) for pipeline-schemas.
   name: Seqera Labs pipeline-schemas API
   slug: seqera-labs-pipeline-schemas-api
-- description: Pipeline secrets in a user or workspace context
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Pipeline secrets in a user or workspace context
   name: Seqera Labs pipeline-secrets API
   slug: seqera-labs-pipeline-secrets-api
-- description: The pipeline-versions API from Seqera Labs — 4 operation(s) for pipeline-versions.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The pipeline-versions API from Seqera Labs — 4 operation(s) for pipeline-versions.
   name: Seqera Labs pipeline-versions API
   slug: seqera-labs-pipeline-versions-api
-- description: Pipelines
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Pipelines
   name: Seqera Labs pipelines API
   slug: seqera-labs-pipelines-api
-- description: Computing platforms
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Computing platforms
   name: Seqera Labs platforms API
   slug: seqera-labs-platforms-api
-- description: The roles API from Seqera Labs — 4 operation(s) for roles.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The roles API from Seqera Labs — 4 operation(s) for roles.
   name: Seqera Labs roles API
   slug: seqera-labs-roles-api
-- description: Seqera Platform API service information
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Seqera Platform API service information
   name: Seqera Labs service-info API
   slug: seqera-labs-service-info-api
-- description: The ssh-keys API from Seqera Labs — 4 operation(s) for ssh-keys.
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: The ssh-keys API from Seqera Labs — 4 operation(s) for ssh-keys.
   name: Seqera Labs ssh-keys API
   slug: seqera-labs-ssh-keys-api
-- description: Studios and Studio sessions
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Studios and Studio sessions
   name: Seqera Labs studios API
   slug: seqera-labs-studios-api
-- description: Teams in an organization context
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Teams in an organization context
   name: Seqera Labs teams API
   slug: seqera-labs-teams-api
-- description: API access tokens
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: API access tokens
   name: Seqera Labs tokens API
   slug: seqera-labs-tokens-api
-- description: Workflow execution traces
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Workflow execution traces
   name: Seqera Labs trace API
   slug: seqera-labs-trace-api
-- description: Users
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Users
   name: Seqera Labs users API
   slug: seqera-labs-users-api
-- description: Workflow executions
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Workflow executions
   name: Seqera Labs workflows API
   slug: seqera-labs-workflows-api
-- description: Workspaces in an organization context
+- baseURL: https://api.cloud.seqera.io
+  baseurl_source: declared
+  description: Workspaces in an organization context
   name: Seqera Labs workspaces API
   slug: seqera-labs-workspaces-api
 artifact_total: 62
@@ -398,7 +454,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:

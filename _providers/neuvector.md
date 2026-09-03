@@ -33,100 +33,162 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Admission Control
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Admission Control
   name: NeuVector Admission API
   slug: neuvector-admission-api
-- description: The Apikey API from NeuVector — 2 operation(s) for apikey.
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: The Apikey API from NeuVector — 2 operation(s) for apikey.
   name: NeuVector Apikey API
   slug: neuvector-apikey-api
-- description: Authenticates login or logout
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Authenticates login or logout
   name: NeuVector Authentication API
   slug: neuvector-authentication-api
-- description: Operations about Compliance
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Compliance
   name: NeuVector Compliance API
   slug: neuvector-compliance-api
-- description: The compliance profile. The payload body is the content of the compliance profile yaml file. API from NeuVector — 1 operation(s) for compliance profile. the payload body is the content of the complian
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: The compliance profile. The payload body is the content of the compliance profile yaml file. API from NeuVector — 1 operation(s) for compliance profile. the payload body is the content of the complian
   name: NeuVector compliance profile. The payload body is the content of the compliance profile yaml file. API
   slug: neuvector-compliance-profile-the-payload-body-is-the-content-of-the-compliance-profile-yaml-file-api
-- description: The compliance profile. The payload body is the content of the vulnerability profile yaml file. API from NeuVector — 1 operation(s) for compliance profile. the payload body is the content of the vulne
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: The compliance profile. The payload body is the content of the vulnerability profile yaml file. API from NeuVector — 1 operation(s) for compliance profile. the payload body is the content of the vulne
   name: NeuVector compliance profile. The payload body is the content of the vulnerability profile yaml file. API
   slug: neuvector-compliance-profile-the-payload-body-is-the-content-of-the-vulnerability-profile-yaml-file-api
-- description: Operations about Container
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Container
   name: NeuVector Container API
   slug: neuvector-container-api
-- description: Operations about Controller
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Controller
   name: NeuVector Controller API
   slug: neuvector-controller-api
-- description: Operations about DLP
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about DLP
   name: NeuVector DLP API
   slug: neuvector-dlp-api
-- description: Operations about Enforcer
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Enforcer
   name: NeuVector Enforcer API
   slug: neuvector-enforcer-api
-- description: End-User License Agreement
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: End-User License Agreement
   name: NeuVector EULA API
   slug: neuvector-eula-api
-- description: Operations about Federation
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Federation
   name: NeuVector Federation API
   slug: neuvector-federation-api
-- description: Operations about File
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about File
   name: NeuVector File API
   slug: neuvector-file-api
-- description: Operations about File Monitor
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about File Monitor
   name: NeuVector File Monitor API
   slug: neuvector-file-monitor-api
-- description: Operations about Group
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Group
   name: NeuVector Group API
   slug: neuvector-group-api
-- description: Operations about Host
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Host
   name: NeuVector Host API
   slug: neuvector-host-api
-- description: Operations about Log
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Log
   name: NeuVector Log API
   slug: neuvector-log-api
-- description: Operations about Namespace
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Namespace
   name: NeuVector Namespace API
   slug: neuvector-namespace-api
-- description: Operations about Policy
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Policy
   name: NeuVector Policy API
   slug: neuvector-policy-api
-- description: Operations about Process Profile
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Process Profile
   name: NeuVector Process API
   slug: neuvector-process-api
-- description: The Remote Export Repository API from NeuVector — 1 operation(s) for remote export repository.
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: The Remote Export Repository API from NeuVector — 1 operation(s) for remote export repository.
   name: NeuVector Remote Export Repository API
   slug: neuvector-remote-export-repository-api
-- description: The Remote Repository API from NeuVector — 2 operation(s) for remote repository.
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: The Remote Repository API from NeuVector — 2 operation(s) for remote repository.
   name: NeuVector Remote Repository API
   slug: neuvector-remote-repository-api
-- description: Operations about Response Rule
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Response Rule
   name: NeuVector Response Rule API
   slug: neuvector-response-rule-api
-- description: Operations about Scan
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Scan
   name: NeuVector Scan API
   slug: neuvector-scan-api
-- description: Operations about Server
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Server
   name: NeuVector Server API
   slug: neuvector-server-api
-- description: Operations about Service
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Service
   name: NeuVector Service API
   slug: neuvector-service-api
-- description: Operations about Sniffer
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Sniffer
   name: NeuVector Sniffer API
   slug: neuvector-sniffer-api
-- description: Operations about System
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about System
   name: NeuVector System API
   slug: neuvector-system-api
-- description: Operations about User
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about User
   name: NeuVector User API
   slug: neuvector-user-api
-- description: Operations about Vulnerability management
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about Vulnerability management
   name: NeuVector Vulnerability API
   slug: neuvector-vulnerability-api
-- description: Operations about waf Rule
+- baseURL: https://localhost:10443
+  baseurl_source: declared
+  description: Operations about waf Rule
   name: NeuVector WAF Rule API
   slug: neuvector-waf-rule-api
 artifact_total: 67
@@ -307,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:

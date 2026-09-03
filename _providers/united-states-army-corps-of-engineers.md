@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 20 operations · 3 acting
 api_count: 1
 apis:
-- description: River basin information
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: River basin information
   name: United States Army Corps of Engineers Basins API
   slug: united-states-army-corps-of-engineers-basins-api
-- description: Browse available data in the CWMS catalog
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Browse available data in the CWMS catalog
   name: United States Army Corps of Engineers Catalog API
   slug: united-states-army-corps-of-engineers-catalog-api
-- description: Forecast instances and specifications
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Forecast instances and specifications
   name: United States Army Corps of Engineers Forecasts API
   slug: united-states-army-corps-of-engineers-forecasts-api
-- description: Location levels and stage-discharge relationships
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Location levels and stage-discharge relationships
   name: United States Army Corps of Engineers Levels API
   slug: united-states-army-corps-of-engineers-levels-api
-- description: USACE location data including dams, reservoirs, streamgages, and sites
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: USACE location data including dams, reservoirs, streamgages, and sites
   name: United States Army Corps of Engineers Locations API
   slug: united-states-army-corps-of-engineers-locations-api
-- description: Physical parameters and units
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Physical parameters and units
   name: United States Army Corps of Engineers Parameters API
   slug: united-states-army-corps-of-engineers-parameters-api
-- description: USACE project management including locks, gates, turbines, and outlets
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: USACE project management including locks, gates, turbines, and outlets
   name: United States Army Corps of Engineers Projects API
   slug: united-states-army-corps-of-engineers-projects-api
-- description: Rating tables for converting between measured values
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Rating tables for converting between measured values
   name: United States Army Corps of Engineers Ratings API
   slug: united-states-army-corps-of-engineers-ratings-api
-- description: Time series data retrieval and management
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: Time series data retrieval and management
   name: United States Army Corps of Engineers Time Series API
   slug: united-states-army-corps-of-engineers-time-series-api
-- description: API version information
+- baseURL: https://cwms-data.usace.army.mil/cwms-data
+  baseurl_source: declared
+  description: API version information
   name: United States Army Corps of Engineers Version API
   slug: united-states-army-corps-of-engineers-version-api
 artifact_total: 38
@@ -288,7 +308,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

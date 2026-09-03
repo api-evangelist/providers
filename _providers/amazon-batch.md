@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: Operations for managing compute environments
+- baseURL: https://batch.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing compute environments
   name: Amazon Batch Compute Environments API
   slug: amazon-batch-compute-environments-api
-- description: Operations for submitting and managing jobs
+- baseURL: https://batch.amazonaws.com
+  baseurl_source: declared
+  description: Operations for submitting and managing jobs
   name: Amazon Batch Jobs API
   slug: amazon-batch-jobs-api
 artifact_total: 17
@@ -248,7 +252,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/screenshots/amazon-batch-2026-07-25T195933.png
 security:

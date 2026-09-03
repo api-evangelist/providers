@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -33,55 +45,89 @@ agentic_access:
   summary_line: 45 operations · 23 acting
 api_count: 1
 apis:
-- description: The Attributes API from Attio — 2 operation(s) for attributes.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Attributes API from Attio — 2 operation(s) for attributes.
   name: Attio Attributes API
   slug: attio-attributes-api
-- description: The Call Recordings API from Attio — 1 operation(s) for call recordings.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Call Recordings API from Attio — 1 operation(s) for call recordings.
   name: Attio Call Recordings API
   slug: attio-call-recordings-api
-- description: The Comments API from Attio — 2 operation(s) for comments.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Comments API from Attio — 2 operation(s) for comments.
   name: Attio Comments API
   slug: attio-comments-api
-- description: The Entries API from Attio — 1 operation(s) for entries.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Entries API from Attio — 1 operation(s) for entries.
   name: Attio Entries API
   slug: attio-entries-api
-- description: The Files API from Attio — 1 operation(s) for files.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Files API from Attio — 1 operation(s) for files.
   name: Attio Files API
   slug: attio-files-api
-- description: The Lists API from Attio — 2 operation(s) for lists.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Lists API from Attio — 2 operation(s) for lists.
   name: Attio Lists API
   slug: attio-lists-api
-- description: The Meetings API from Attio — 2 operation(s) for meetings.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Meetings API from Attio — 2 operation(s) for meetings.
   name: Attio Meetings API
   slug: attio-meetings-api
-- description: The Meta API from Attio — 1 operation(s) for meta.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Meta API from Attio — 1 operation(s) for meta.
   name: Attio Meta API
   slug: attio-meta-api
-- description: The Notes API from Attio — 1 operation(s) for notes.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Notes API from Attio — 1 operation(s) for notes.
   name: Attio Notes API
   slug: attio-notes-api
-- description: The OAuth API from Attio — 2 operation(s) for oauth.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The OAuth API from Attio — 2 operation(s) for oauth.
   name: Attio OAuth API
   slug: attio-oauth-api
-- description: The Objects API from Attio — 2 operation(s) for objects.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Objects API from Attio — 2 operation(s) for objects.
   name: Attio Objects API
   slug: attio-objects-api
-- description: The Records API from Attio — 3 operation(s) for records.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Records API from Attio — 3 operation(s) for records.
   name: Attio Records API
   slug: attio-records-api
-- description: The Tasks API from Attio — 1 operation(s) for tasks.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Tasks API from Attio — 1 operation(s) for tasks.
   name: Attio Tasks API
   slug: attio-tasks-api
-- description: The Threads API from Attio — 1 operation(s) for threads.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Threads API from Attio — 1 operation(s) for threads.
   name: Attio Threads API
   slug: attio-threads-api
-- description: The Webhooks API from Attio — 2 operation(s) for webhooks.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Webhooks API from Attio — 2 operation(s) for webhooks.
   name: Attio Webhooks API
   slug: attio-webhooks-api
-- description: The Workspace Members API from Attio — 2 operation(s) for workspace members.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: The Workspace Members API from Attio — 2 operation(s) for workspace members.
   name: Attio Workspace Members API
   slug: attio-workspace-members-api
-- description: Entries within a list, referencing a parent record.
+- baseURL: https://api.attio.com
+  baseurl_source: declared
+  description: Entries within a list, referencing a parent record.
   name: Attio List Entries API
   slug: attio-list-entries-api
 artifact_total: 44
@@ -264,7 +310,7 @@ score:
       marker_coverage: 94.1
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attio/refs/heads/main/screenshots/attio-2026-07-25T201641.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 16 acting
 api_count: 2
 apis:
-- description: The Client Session API API from Primer — 1 operation(s) for client session api.
+- baseURL: https://api.primer.io
+  baseurl_source: declared
+  description: The Client Session API API from Primer — 1 operation(s) for client session api.
   name: Primer Client Session API API
   slug: primer-client-session-api-api
-- description: The Dispute & Chargebacks Webhooks API from Primer — 2 operation(s) for dispute & chargebacks webhooks.
+- baseURL: https://api.primer.io
+  baseurl_source: declared
+  description: The Dispute & Chargebacks Webhooks API from Primer — 2 operation(s) for dispute & chargebacks webhooks.
   name: Primer Dispute & Chargebacks Webhooks API
   slug: primer-dispute-chargebacks-webhooks-api
-- description: The Payment Methods API API from Primer — 4 operation(s) for payment methods api.
+- baseURL: https://api.primer.io
+  baseurl_source: declared
+  description: The Payment Methods API API from Primer — 4 operation(s) for payment methods api.
   name: Primer Payment Methods API API
   slug: primer-payment-methods-api-api
-- description: The Payment Webhooks API from Primer — 2 operation(s) for payment webhooks.
+- baseURL: https://api.primer.io
+  baseurl_source: declared
+  description: The Payment Webhooks API from Primer — 2 operation(s) for payment webhooks.
   name: Primer Payment Webhooks API
   slug: primer-payment-webhooks-api
-- description: The Payments API API from Primer — 8 operation(s) for payments api.
+- baseURL: https://api.primer.io
+  baseurl_source: declared
+  description: The Payments API API from Primer — 8 operation(s) for payments api.
   name: Primer Payments API API
   slug: primer-payments-api-api
 artifact_total: 53
@@ -351,7 +361,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png
 security:

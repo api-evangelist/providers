@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: Shopify webhooks allow apps to subscribe to specific events that occur in a store. When an event occurs, Shopify sends an HTTP POST request with a JSON payload to the configured endpoint. Webhooks can
   name: Shopify Webhooks
   slug: shopify-webhooks
-- description: The Collections API from Shopify Admin API — 2 operation(s) for collections.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Collections API from Shopify Admin API — 2 operation(s) for collections.
   name: Shopify Admin API Collections API
   slug: shopify-admin-collections-api
-- description: The Customers API from Shopify Admin API — 2 operation(s) for customers.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Customers API from Shopify Admin API — 2 operation(s) for customers.
   name: Shopify Admin API Customers API
   slug: shopify-admin-customers-api
-- description: The Inventory API from Shopify Admin API — 2 operation(s) for inventory.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Inventory API from Shopify Admin API — 2 operation(s) for inventory.
   name: Shopify Admin API Inventory API
   slug: shopify-admin-inventory-api
-- description: The Locations API from Shopify Admin API — 1 operation(s) for locations.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Locations API from Shopify Admin API — 1 operation(s) for locations.
   name: Shopify Admin API Locations API
   slug: shopify-admin-locations-api
-- description: The Orders API from Shopify Admin API — 3 operation(s) for orders.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Orders API from Shopify Admin API — 3 operation(s) for orders.
   name: Shopify Admin API Orders API
   slug: shopify-admin-orders-api
-- description: The Products API from Shopify Admin API — 2 operation(s) for products.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Products API from Shopify Admin API — 2 operation(s) for products.
   name: Shopify Admin API Products API
   slug: shopify-admin-products-api
-- description: The Shop API from Shopify Admin API — 1 operation(s) for shop.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Shop API from Shopify Admin API — 1 operation(s) for shop.
   name: Shopify Admin API Shop API
   slug: shopify-admin-shop-api
-- description: The Webhooks API from Shopify Admin API — 2 operation(s) for webhooks.
+- baseURL: https://{store_name}.myshopify.com/admin/api/2024-10
+  baseurl_source: declared
+  description: The Webhooks API from Shopify Admin API — 2 operation(s) for webhooks.
   name: Shopify Admin API Webhooks API
   slug: shopify-admin-webhooks-api
 artifact_total: 38
@@ -298,7 +314,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -308,7 +324,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 40.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -317,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/screenshots/shopify-admin-2026-06-20T193830.png
 security:

@@ -34,190 +34,312 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Credit balance, usage, and transaction history.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: Credit balance, usage, and transaction history.
   name: Orthogonal Account API
   slug: orthogonal-account-api
-- description: Find APIs and endpoints, inspect parameters, and get code snippets.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: Find APIs and endpoints, inspect parameters, and get code snippets.
   name: Orthogonal Discovery API
   slug: orthogonal-discovery-api
-- description: Execute a call against any catalog API through Orthogonal.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: Execute a call against any catalog API through Orthogonal.
   name: Orthogonal Run API
   slug: orthogonal-run-api
-- description: The Abstract Avatars API from Orthogonal — 1 operation(s) for abstract avatars.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Avatars API from Orthogonal — 1 operation(s) for abstract avatars.
   name: Orthogonal Abstract Avatars API
   slug: orthogonal-abstract-avatars-api
-- description: The Abstract Company Enrichment API from Orthogonal — 1 operation(s) for abstract company enrichment.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Company Enrichment API from Orthogonal — 1 operation(s) for abstract company enrichment.
   name: Orthogonal Abstract Company Enrichment API
   slug: orthogonal-abstract-company-enrichment-api
-- description: The Abstract Email Reputation API from Orthogonal — 1 operation(s) for abstract email reputation.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Email Reputation API from Orthogonal — 1 operation(s) for abstract email reputation.
   name: Orthogonal Abstract Email Reputation API
   slug: orthogonal-abstract-email-reputation-api
-- description: The Abstract Exchange Rates API from Orthogonal — 3 operation(s) for abstract exchange rates.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Exchange Rates API from Orthogonal — 3 operation(s) for abstract exchange rates.
   name: Orthogonal Abstract Exchange Rates API
   slug: orthogonal-abstract-exchange-rates-api
-- description: The Abstract IBAN Validation API from Orthogonal — 1 operation(s) for abstract iban validation.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract IBAN Validation API from Orthogonal — 1 operation(s) for abstract iban validation.
   name: Orthogonal Abstract IBAN Validation API
   slug: orthogonal-abstract-iban-validation-api
-- description: The Abstract IP Intelligence API from Orthogonal — 1 operation(s) for abstract ip intelligence.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract IP Intelligence API from Orthogonal — 1 operation(s) for abstract ip intelligence.
   name: Orthogonal Abstract IP Intelligence API
   slug: orthogonal-abstract-ip-intelligence-api
-- description: The Abstract Phone Intelligence API from Orthogonal — 1 operation(s) for abstract phone intelligence.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Phone Intelligence API from Orthogonal — 1 operation(s) for abstract phone intelligence.
   name: Orthogonal Abstract Phone Intelligence API
   slug: orthogonal-abstract-phone-intelligence-api
-- description: The Abstract Timezone API from Orthogonal — 2 operation(s) for abstract timezone.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract Timezone API from Orthogonal — 2 operation(s) for abstract timezone.
   name: Orthogonal Abstract Timezone API
   slug: orthogonal-abstract-timezone-api
-- description: The Abstract VAT Validation API from Orthogonal — 3 operation(s) for abstract vat validation.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Abstract VAT Validation API from Orthogonal — 3 operation(s) for abstract vat validation.
   name: Orthogonal Abstract VAT Validation API
   slug: orthogonal-abstract-vat-validation-api
-- description: The AgentMail API from Orthogonal — 14 operation(s) for agentmail.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The AgentMail API from Orthogonal — 14 operation(s) for agentmail.
   name: Orthogonal Agent Mail API
   slug: orthogonal-agentmail-api
-- description: The AgentPhone API from Orthogonal — 17 operation(s) for agentphone.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The AgentPhone API from Orthogonal — 17 operation(s) for agentphone.
   name: Orthogonal Agent Phone API
   slug: orthogonal-agentphone-api
-- description: The Andi Search API API from Orthogonal — 1 operation(s) for andi search api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Andi Search API API from Orthogonal — 1 operation(s) for andi search api.
   name: Orthogonal Andi Search API
   slug: orthogonal-andi-search-api-api
-- description: The Apollo API API from Orthogonal — 9 operation(s) for apollo api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Apollo API API from Orthogonal — 9 operation(s) for apollo api.
   name: Orthogonal Apollo API
   slug: orthogonal-apollo-api-api
-- description: The Aviato API from Orthogonal — 25 operation(s) for aviato.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Aviato API from Orthogonal — 25 operation(s) for aviato.
   name: Orthogonal Aviato API
   slug: orthogonal-aviato-api
-- description: The Baseten Model APIs API from Orthogonal — 2 operation(s) for baseten model apis.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Baseten Model APIs API from Orthogonal — 2 operation(s) for baseten model apis.
   name: Orthogonal Baseten Model APIs API
   slug: orthogonal-baseten-model-apis-api
-- description: The Brand.dev API API from Orthogonal — 13 operation(s) for brand.dev api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Brand.dev API API from Orthogonal — 13 operation(s) for brand.dev api.
   name: Orthogonal Brand.dev API
   slug: orthogonal-brand-dev-api-api
-- description: The Bytemine API from Orthogonal — 23 operation(s) for bytemine.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Bytemine API from Orthogonal — 23 operation(s) for bytemine.
   name: Orthogonal Bytemine API
   slug: orthogonal-bytemine-api
-- description: The CaptainData API from Orthogonal — 7 operation(s) for captaindata.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The CaptainData API from Orthogonal — 7 operation(s) for captaindata.
   name: Orthogonal Captain Data API
   slug: orthogonal-captaindata-api
-- description: The Company Enrich API from Orthogonal — 25 operation(s) for company enrich.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Company Enrich API from Orthogonal — 25 operation(s) for company enrich.
   name: Orthogonal Company Enrich API
   slug: orthogonal-company-enrich-api
-- description: The ContactOut API from Orthogonal — 7 operation(s) for contactout.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The ContactOut API from Orthogonal — 7 operation(s) for contactout.
   name: Orthogonal Contact Out API
   slug: orthogonal-contactout-api
-- description: The Context.dev API from Orthogonal — 26 operation(s) for context.dev.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Context.dev API from Orthogonal — 26 operation(s) for context.dev.
   name: Orthogonal Context.dev API
   slug: orthogonal-context-dev-api
-- description: The Coresignal API from Orthogonal — 21 operation(s) for coresignal.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Coresignal API from Orthogonal — 21 operation(s) for coresignal.
   name: Orthogonal Coresignal API
   slug: orthogonal-coresignal-api
-- description: The Crustdata API from Orthogonal — 7 operation(s) for crustdata.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Crustdata API from Orthogonal — 7 operation(s) for crustdata.
   name: Orthogonal Crustdata API
   slug: orthogonal-crustdata-api
-- description: The Didit API API from Orthogonal — 6 operation(s) for didit api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Didit API API from Orthogonal — 6 operation(s) for didit api.
   name: Orthogonal Didit API
   slug: orthogonal-didit-api-api
-- description: The Edges API from Orthogonal — 42 operation(s) for edges.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Edges API from Orthogonal — 42 operation(s) for edges.
   name: Orthogonal Edges API
   slug: orthogonal-edges-api
-- description: The Fantastic Jobs API from Orthogonal — 2 operation(s) for fantastic jobs.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Fantastic Jobs API from Orthogonal — 2 operation(s) for fantastic jobs.
   name: Orthogonal Fantastic Jobs API
   slug: orthogonal-fantastic-jobs-api
-- description: The Fiber AI API API from Orthogonal — 92 operation(s) for fiber ai api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Fiber AI API API from Orthogonal — 92 operation(s) for fiber ai api.
   name: Orthogonal Fiber AI API
   slug: orthogonal-fiber-ai-api-api
-- description: The Findymail API from Orthogonal — 14 operation(s) for findymail.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Findymail API from Orthogonal — 14 operation(s) for findymail.
   name: Orthogonal Findymail API
   slug: orthogonal-findymail-api
-- description: The FullEnrich API from Orthogonal — 8 operation(s) for fullenrich.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The FullEnrich API from Orthogonal — 8 operation(s) for fullenrich.
   name: Orthogonal Full Enrich API
   slug: orthogonal-fullenrich-api
-- description: The Fundable API from Orthogonal — 13 operation(s) for fundable.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Fundable API from Orthogonal — 13 operation(s) for fundable.
   name: Orthogonal Fundable API
   slug: orthogonal-fundable-api
-- description: The Happenstance API from Orthogonal — 2 operation(s) for happenstance.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Happenstance API from Orthogonal — 2 operation(s) for happenstance.
   name: Orthogonal Happenstance API
   slug: orthogonal-happenstance-api
-- description: The Icypeas API from Orthogonal — 16 operation(s) for icypeas.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Icypeas API from Orthogonal — 16 operation(s) for icypeas.
   name: Orthogonal Icypeas API
   slug: orthogonal-icypeas-api
-- description: The Influencers Club API from Orthogonal — 22 operation(s) for influencers club.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Influencers Club API from Orthogonal — 22 operation(s) for influencers club.
   name: Orthogonal Influencers Club API
   slug: orthogonal-influencers-club-api
-- description: The Leadsforge API from Orthogonal — 31 operation(s) for leadsforge.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Leadsforge API from Orthogonal — 31 operation(s) for leadsforge.
   name: Orthogonal Leadsforge API
   slug: orthogonal-leadsforge-api
-- description: The Linkup API API from Orthogonal — 2 operation(s) for linkup api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Linkup API API from Orthogonal — 2 operation(s) for linkup api.
   name: Orthogonal Linkup API
   slug: orthogonal-linkup-api-api
-- description: The Massive Web API API from Orthogonal — 12 operation(s) for massive web api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Massive Web API API from Orthogonal — 12 operation(s) for massive web api.
   name: Orthogonal Massive Web API
   slug: orthogonal-massive-web-api-api
-- description: The Notte API from Orthogonal — 14 operation(s) for notte.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Notte API from Orthogonal — 14 operation(s) for notte.
   name: Orthogonal Notte API
   slug: orthogonal-notte-api
-- description: The Nyne.ai API from Orthogonal — 14 operation(s) for nyne.ai.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Nyne.ai API from Orthogonal — 14 operation(s) for nyne.ai.
   name: Orthogonal Nyne.ai API
   slug: orthogonal-nyne-ai-api
-- description: The Ocean.io API from Orthogonal — 8 operation(s) for ocean.io.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Ocean.io API from Orthogonal — 8 operation(s) for ocean.io.
   name: Orthogonal Ocean.io API
   slug: orthogonal-ocean-io-api
-- description: The Olostep API API from Orthogonal — 12 operation(s) for olostep api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Olostep API API from Orthogonal — 12 operation(s) for olostep api.
   name: Orthogonal Olostep API
   slug: orthogonal-olostep-api-api
-- description: The OpenFunnel API from Orthogonal — 7 operation(s) for openfunnel.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The OpenFunnel API from Orthogonal — 7 operation(s) for openfunnel.
   name: Orthogonal Open Funnel API
   slug: orthogonal-openfunnel-api
-- description: The Openmart API from Orthogonal — 4 operation(s) for openmart.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Openmart API from Orthogonal — 4 operation(s) for openmart.
   name: Orthogonal Openmart API
   slug: orthogonal-openmart-api
-- description: The People Data Labs API from Orthogonal — 6 operation(s) for people data labs.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The People Data Labs API from Orthogonal — 6 operation(s) for people data labs.
   name: Orthogonal People Data Labs API
   slug: orthogonal-people-data-labs-api
-- description: The Precip AI - Hyperlocal Weather Data API API from Orthogonal — 16 operation(s) for precip ai - hyperlocal weather data api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Precip AI - Hyperlocal Weather Data API API from Orthogonal — 16 operation(s) for precip ai - hyperlocal weather data api.
   name: Orthogonal Precip AI - Hyperlocal Weather Data API
   slug: orthogonal-precip-ai-hyperlocal-weather-data-api-api
-- description: The PredictLeads API from Orthogonal — 23 operation(s) for predictleads.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The PredictLeads API from Orthogonal — 23 operation(s) for predictleads.
   name: Orthogonal Predict Leads API
   slug: orthogonal-predictleads-api
-- description: The Riveter API API from Orthogonal — 5 operation(s) for riveter api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Riveter API API from Orthogonal — 5 operation(s) for riveter api.
   name: Orthogonal Riveter API
   slug: orthogonal-riveter-api-api
-- description: The RocketReach API from Orthogonal — 6 operation(s) for rocketreach.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The RocketReach API from Orthogonal — 6 operation(s) for rocketreach.
   name: Orthogonal Rocket Reach API
   slug: orthogonal-rocketreach-api
-- description: The Scrape Creators API from Orthogonal — 107 operation(s) for scrape creators.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Scrape Creators API from Orthogonal — 107 operation(s) for scrape creators.
   name: Orthogonal Scrape Creators API
   slug: orthogonal-scrape-creators-api
-- description: The ScrapeGraphAI API from Orthogonal — 9 operation(s) for scrapegraphai.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The ScrapeGraphAI API from Orthogonal — 9 operation(s) for scrapegraphai.
   name: Orthogonal Scrape Graph AI API
   slug: orthogonal-scrapegraphai-api
-- description: The Seltz API from Orthogonal — 1 operation(s) for seltz.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Seltz API from Orthogonal — 1 operation(s) for seltz.
   name: Orthogonal Seltz API
   slug: orthogonal-seltz-api
-- description: The Serper API from Orthogonal — 12 operation(s) for serper.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Serper API from Orthogonal — 12 operation(s) for serper.
   name: Orthogonal Serper API
   slug: orthogonal-serper-api
-- description: The Serper Scrape API from Orthogonal — 1 operation(s) for serper scrape.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Serper Scrape API from Orthogonal — 1 operation(s) for serper scrape.
   name: Orthogonal Serper Scrape API
   slug: orthogonal-serper-scrape-api
-- description: The Signalbase API from Orthogonal — 9 operation(s) for signalbase.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Signalbase API from Orthogonal — 9 operation(s) for signalbase.
   name: Orthogonal Signalbase API
   slug: orthogonal-signalbase-api
-- description: The Sixtyfour API API from Orthogonal — 4 operation(s) for sixtyfour api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Sixtyfour API API from Orthogonal — 4 operation(s) for sixtyfour api.
   name: Orthogonal Sixtyfour API
   slug: orthogonal-sixtyfour-api-api
-- description: The Tako API from Orthogonal — 6 operation(s) for tako.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Tako API from Orthogonal — 6 operation(s) for tako.
   name: Orthogonal Tako API
   slug: orthogonal-tako-api
-- description: The Tavily API API from Orthogonal — 6 operation(s) for tavily api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Tavily API API from Orthogonal — 6 operation(s) for tavily api.
   name: Orthogonal Tavily API
   slug: orthogonal-tavily-api-api
-- description: The Tomba API API from Orthogonal — 20 operation(s) for tomba api.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Tomba API API from Orthogonal — 20 operation(s) for tomba api.
   name: Orthogonal Tomba API
   slug: orthogonal-tomba-api-api
-- description: The Voygr API from Orthogonal — 1 operation(s) for voygr.
+- baseURL: https://api.orthogonal.com/v1
+  baseurl_source: declared
+  description: The Voygr API from Orthogonal — 1 operation(s) for voygr.
   name: Orthogonal Voygr API
   slug: orthogonal-voygr-api
 artifact_total: 73
@@ -433,7 +555,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 8.1
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -443,7 +565,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 48.4
+  previous_composite: 56.5
   provenance:
     conformance: derived
     contracts:
@@ -460,8 +582,8 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orthogonal/refs/heads/main/screenshots/orthogonal-2026-08-07T190954.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: GraphQL subgraph deployed to The Graph Decentralized Network that indexes Lido smart-contract events — rewards distribution, oracle reports, stETH transfers and submissions, node operator keys — and e
   name: Lido Subgraph (GraphQL)
   slug: lido-subgraph
-- description: The APR for Eth and stEth API from Lido Finance — 8 operation(s) for apr for eth and steth.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The APR for Eth and stEth API from Lido Finance — 8 operation(s) for apr for eth and steth.
   name: Lido Finance APR for Eth and stEth API
   slug: lido-finance-apr-for-eth-and-steth-api
-- description: The Estimate API from Lido Finance — 1 operation(s) for estimate.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Estimate API from Lido Finance — 1 operation(s) for estimate.
   name: Lido Finance Estimate API
   slug: lido-finance-estimate-api
-- description: The NFT API from Lido Finance — 2 operation(s) for nft.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The NFT API from Lido Finance — 2 operation(s) for nft.
   name: Lido Finance NFT API
   slug: lido-finance-nft-api
-- description: The Request Time API from Lido Finance — 3 operation(s) for request time.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Request Time API from Lido Finance — 3 operation(s) for request time.
   name: Lido Finance Request Time API
   slug: lido-finance-request-time-api
-- description: The Rewards API from Lido Finance — 1 operation(s) for rewards.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Rewards API from Lido Finance — 1 operation(s) for rewards.
   name: Lido Finance Rewards API
   slug: lido-finance-rewards-api
-- description: The Swap rate for stETH and wstETH API from Lido Finance — 2 operation(s) for swap rate for steth and wsteth.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Swap rate for stETH and wstETH API from Lido Finance — 2 operation(s) for swap rate for steth and wsteth.
   name: Lido Finance Swap rate for stETH and wstETH API
   slug: lido-finance-swap-rate-for-steth-and-wsteth-api
-- description: The Validators API from Lido Finance — 1 operation(s) for validators.
+- baseURL: https://eth-api.lido.fi
+  baseurl_source: declared
+  description: The Validators API from Lido Finance — 1 operation(s) for validators.
   name: Lido Finance Validators API
   slug: lido-finance-validators-api
 artifact_total: 21
@@ -286,7 +300,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lido-finance/refs/heads/main/screenshots/lido-finance-2026-07-25T225027.png
 security:

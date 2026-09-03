@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 14 operations · 14 acting
 api_count: 1
 apis:
-- description: Access-token issuance for SDK integration
+- baseURL: https://agw.zk.me
+  baseurl_source: declared
+  description: Access-token issuance for SDK integration
   name: zkMe Auth API
   slug: zkme-auth-api
-- description: Know-Your-Transaction wallet-address and transaction risk screening
+- baseURL: https://agw.zk.me
+  baseurl_source: declared
+  description: Know-Your-Transaction wallet-address and transaction risk screening
   name: zkMe KYT API
   slug: zkme-kyt-api
-- description: Business entity and UBO verification status
+- baseURL: https://agw.zk.me
+  baseurl_source: declared
+  description: Business entity and UBO verification status
   name: zkMe zkKYB API
   slug: zkme-zkkyb-api
-- description: Customer identity verification results and proofs
+- baseURL: https://agw.zk.me
+  baseurl_source: declared
+  description: Customer identity verification results and proofs
   name: zkMe zkKYC API
   slug: zkme-zkkyc-api
-- description: Open banking / accredited-investor (proof of accreditation)
+- baseURL: https://agw.zk.me
+  baseurl_source: declared
+  description: Open banking / accredited-investor (proof of accreditation)
   name: zkMe zkOBS API
   slug: zkme-zkobs-api
 artifact_total: 17
@@ -180,7 +190,7 @@ score:
   band: thin
   composite: 28.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -206,8 +216,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zkme/refs/heads/main/screenshots/zkme-2026-09-02T171816.png
 security:
 - kind: authentication
   name: Zkme Authentication

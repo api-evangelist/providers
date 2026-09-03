@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 61 operations · 25 acting
 api_count: 3
 apis:
-- description: Manage applications that group related projects
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage applications that group related projects
   name: Checkmarx Applications API
   slug: checkmarx-applications-api
-- description: Obtain and manage authentication tokens via OAuth 2.0
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Obtain and manage authentication tokens via OAuth 2.0
   name: Checkmarx Authentication API
   slug: checkmarx-authentication-api
-- description: Manage project and tenant-level scan configuration
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage project and tenant-level scan configuration
   name: Checkmarx Configuration API
   slug: checkmarx-configuration-api
-- description: Manage scan engines and engine servers
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage scan engines and engine servers
   name: Checkmarx Engines API
   slug: checkmarx-engines-api
-- description: Manage access control groups
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage access control groups
   name: Checkmarx Groups API
   slug: checkmarx-groups-api
-- description: Query open source package information
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Query open source package information
   name: Checkmarx Packages API
   slug: checkmarx-packages-api
-- description: Manage scan configuration presets
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage scan configuration presets
   name: Checkmarx Presets API
   slug: checkmarx-presets-api
-- description: Manage scanning projects and their configuration
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage scanning projects and their configuration
   name: Checkmarx Projects API
   slug: checkmarx-projects-api
-- description: Manage custom SAST queries and presets
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage custom SAST queries and presets
   name: Checkmarx Queries API
   slug: checkmarx-queries-api
-- description: Generate and download scan reports
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Generate and download scan reports
   name: Checkmarx Reports API
   slug: checkmarx-reports-api
-- description: Retrieve and manage scan results and findings
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Retrieve and manage scan results and findings
   name: Checkmarx Results API
   slug: checkmarx-results-api
-- description: Retrieve vulnerability and risk analysis results
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Retrieve vulnerability and risk analysis results
   name: Checkmarx Risk Reports API
   slug: checkmarx-risk-reports-api
-- description: Trigger, monitor, and manage security scans
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Trigger, monitor, and manage security scans
   name: Checkmarx Scans API
   slug: checkmarx-scans-api
-- description: Manage project and organization settings
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage project and organization settings
   name: Checkmarx Settings API
   slug: checkmarx-settings-api
-- description: Manage teams and access control
+- baseURL: https://your-checkmarx-instance.com/cxrestapi
+  baseurl_source: declared
+  description: Manage teams and access control
   name: Checkmarx Teams API
   slug: checkmarx-teams-api
 artifact_total: 61
@@ -341,7 +371,7 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -351,7 +381,7 @@ score:
     discoverability: 88.9
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 48.6
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -360,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/screenshots/checkmarx-2026-06-20T174245.png
 security:

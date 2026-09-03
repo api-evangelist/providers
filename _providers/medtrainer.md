@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,25 +37,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Public department lookup endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public department lookup endpoints
   name: MedTrainer Departments API
   slug: medtrainer-departments-api
-- description: Public division lookup and mutation endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public division lookup and mutation endpoints
   name: MedTrainer Divisions API
   slug: medtrainer-divisions-api
-- description: Public location lookup and mutation endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public location lookup and mutation endpoints
   name: MedTrainer Locations API
   slug: medtrainer-locations-api
-- description: Public position lookup endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public position lookup endpoints
   name: MedTrainer Positions API
   slug: medtrainer-positions-api
-- description: Public practitioner category lookup endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public practitioner category lookup endpoints
   name: MedTrainer Practitioner Categories API
   slug: medtrainer-practitioner-categories-api
-- description: Public practitioner lookup, search, and mutation endpoints
+- baseURL: https://api.medtrainer.com
+  baseurl_source: declared
+  description: Public practitioner lookup, search, and mutation endpoints
   name: MedTrainer Practitioners API
   slug: medtrainer-practitioners-api
 artifact_total: 13
@@ -217,7 +243,7 @@ score:
   band: strong
   composite: 60.8
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -248,8 +274,9 @@ score:
     regime_id: health
     score: 66.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/medtrainer/refs/heads/main/screenshots/medtrainer-2026-09-02T150458.png
 security:
 - kind: authentication
   name: Medtrainer Authentication

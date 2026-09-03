@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
+- baseURL: https://sms.cresclab.com/api
+  baseurl_source: declared
+  description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
   name: Crescendo Lab Broadcast API
   slug: crescendo-lab-broadcast-api
-- description: Address book with NCC-consent tracking.
+- baseURL: https://sms.cresclab.com/api
+  baseurl_source: declared
+  description: Address book with NCC-consent tracking.
   name: Crescendo Lab Contacts API
   slug: crescendo-lab-contacts-api
-- description: Transactional (1-to-1) SMS send + status.
+- baseURL: https://sms.cresclab.com/api
+  baseurl_source: declared
+  description: Transactional (1-to-1) SMS send + status.
   name: Crescendo Lab SMS API
   slug: crescendo-lab-sms-api
-- description: Cost-attribution teams. Tag sends with a team to see which team sent/spent how much (shared wallet — reporting only, not a wallet split).
+- baseURL: https://sms.cresclab.com/api
+  baseurl_source: declared
+  description: Cost-attribution teams. Tag sends with a team to see which team sent/spent how much (shared wallet — reporting only, not a wallet split).
   name: Crescendo Lab Teams API
   slug: crescendo-lab-teams-api
-- description: The MAAC Go API API from Crescendo Lab — 0 operation(s) for maac go api.
+- baseURL: https://sms.cresclab.com/api
+  baseurl_source: declared
+  description: The MAAC Go API API from Crescendo Lab — 0 operation(s) for maac go api.
   name: Crescendo Lab MAAC Go API
   slug: crescendo-lab-maac-go-api-api
 artifact_total: 16
@@ -221,7 +231,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -231,7 +241,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 58.5
+  previous_composite: 58.3
   provenance:
     conformance: derived
     contracts:
@@ -248,7 +258,7 @@ score:
     regime_id: telecommunications
     score: 34.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

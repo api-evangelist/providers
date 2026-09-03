@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
+- baseURL: https://orderbook.filament.finance/sei
+  baseurl_source: declared
+  description: Signature-authenticated REST + WebSocket order-book API for the Filament perpetual DEX on Sei. Place limit/market orders, cancel orders, manage isolated collateral, set TP/SL, read tradable assets wit
   name: Filament API
   slug: filament-api
 artifact_total: 5
@@ -149,7 +151,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -159,7 +161,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 24.2
   provenance:
     mcp: derived
     skills: derived
@@ -170,7 +172,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filament/refs/heads/main/screenshots/filament-2026-07-25T214446.png
 security:

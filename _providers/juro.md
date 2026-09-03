@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: Create, read, update, delete, and upload contracts.
+- baseURL: https://api.juro.com/v3
+  baseurl_source: declared
+  description: Create, read, update, delete, and upload contracts.
   name: Juro Contracts API
   slug: juro-contracts-api
-- description: API status and key validity.
+- baseURL: https://api.juro.com/v3
+  baseurl_source: declared
+  description: API status and key validity.
   name: Juro Health API
   slug: juro-health-api
-- description: Send contracts for e-signature and apply signatures.
+- baseURL: https://api.juro.com/v3
+  baseurl_source: declared
+  description: Send contracts for e-signature and apply signatures.
   name: Juro Signatures API
   slug: juro-signatures-api
-- description: List and retrieve contract templates.
+- baseURL: https://api.juro.com/v3
+  baseurl_source: declared
+  description: List and retrieve contract templates.
   name: Juro Templates API
   slug: juro-templates-api
-- description: Subscribe to contract lifecycle events (modeled).
+- baseURL: https://api.juro.com/v3
+  baseurl_source: declared
+  description: Subscribe to contract lifecycle events (modeled).
   name: Juro Webhooks API
   slug: juro-webhooks-api
 artifact_total: 17
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juro/refs/heads/main/screenshots/juro-2026-07-25T223336.png
 security:

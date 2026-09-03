@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 114 operations · 63 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: The annotations API from Conxai — 1 operation(s) for annotations.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The annotations API from Conxai — 1 operation(s) for annotations.
   name: Conxai annotations API
   slug: conxai-annotations-api
-- description: The camera API from Conxai — 4 operation(s) for camera.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The camera API from Conxai — 4 operation(s) for camera.
   name: Conxai camera API
   slug: conxai-camera-api
-- description: The document-types API from Conxai — 4 operation(s) for document-types.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The document-types API from Conxai — 4 operation(s) for document-types.
   name: Conxai document-types API
   slug: conxai-document-types-api
-- description: The documents API from Conxai — 26 operation(s) for documents.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The documents API from Conxai — 26 operation(s) for documents.
   name: Conxai documents API
   slug: conxai-documents-api
-- description: The exports API from Conxai — 2 operation(s) for exports.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The exports API from Conxai — 2 operation(s) for exports.
   name: Conxai exports API
   slug: conxai-exports-api
-- description: The Images API from Conxai — 2 operation(s) for images.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The Images API from Conxai — 2 operation(s) for images.
   name: Conxai Images API
   slug: conxai-images-api
-- description: The integrations API from Conxai — 5 operation(s) for integrations.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The integrations API from Conxai — 5 operation(s) for integrations.
   name: Conxai integrations API
   slug: conxai-integrations-api
-- description: The production_tracking API from Conxai — 4 operation(s) for production_tracking.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The production_tracking API from Conxai — 4 operation(s) for production_tracking.
   name: Conxai production_tracking API
   slug: conxai-production-tracking-api
-- description: The project API from Conxai — 5 operation(s) for project.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The project API from Conxai — 5 operation(s) for project.
   name: Conxai project API
   slug: conxai-project-api
-- description: The projects API from Conxai — 2 operation(s) for projects.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The projects API from Conxai — 2 operation(s) for projects.
   name: Conxai projects API
   slug: conxai-projects-api
-- description: The samples API from Conxai — 16 operation(s) for samples.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The samples API from Conxai — 16 operation(s) for samples.
   name: Conxai samples API
   slug: conxai-samples-api
-- description: The schema API from Conxai — 1 operation(s) for schema.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The schema API from Conxai — 1 operation(s) for schema.
   name: Conxai schema API
   slug: conxai-schema-api
-- description: The summary-table API from Conxai — 12 operation(s) for summary-table.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The summary-table API from Conxai — 12 operation(s) for summary-table.
   name: Conxai summary-table API
   slug: conxai-summary-table-api
-- description: The use-cases API from Conxai — 6 operation(s) for use-cases.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The use-cases API from Conxai — 6 operation(s) for use-cases.
   name: Conxai use-cases API
   slug: conxai-use-cases-api
-- description: The users API from Conxai — 3 operation(s) for users.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The users API from Conxai — 3 operation(s) for users.
   name: Conxai users API
   slug: conxai-users-api
-- description: The workflow API from Conxai — 3 operation(s) for workflow.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The workflow API from Conxai — 3 operation(s) for workflow.
   name: Conxai workflow API
   slug: conxai-workflow-api
-- description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
+- baseURL: https://customer.conxai.ai
+  baseurl_source: declared
+  description: The workflow-table API from Conxai — 3 operation(s) for workflow-table.
   name: Conxai workflow-table API
   slug: conxai-workflow-table-api
 artifact_total: 40
@@ -303,7 +337,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conxai/refs/heads/main/screenshots/conxai-2026-07-25T210354.png
 security:

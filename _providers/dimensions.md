@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: 'The Dimensions Analytics API provides programmatic access to the Dimensions research data platform via the Dimensions Search Language (DSL). It supports queries against publications, grants, patents, '
   name: Dimensions Analytics API
   slug: dimensions-analytics-api
-- description: The Authentication API from Dimensions — 1 operation(s) for authentication.
+- baseURL: https://app.dimensions.ai/api
+  baseurl_source: declared
+  description: The Authentication API from Dimensions — 1 operation(s) for authentication.
   name: Dimensions Authentication API
   slug: dimensions-authentication-api
-- description: The Query API from Dimensions — 1 operation(s) for query.
+- baseURL: https://app.dimensions.ai/api
+  baseurl_source: declared
+  description: The Query API from Dimensions — 1 operation(s) for query.
   name: Dimensions Query API
   slug: dimensions-query-api
 artifact_total: 13
@@ -169,7 +173,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dimensions/refs/heads/main/screenshots/dimensions-2026-06-20T180036.png
 security:

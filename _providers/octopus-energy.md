@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: The Octopus Energy GraphQL API is the primary Kraken interface for partner and customer-facing integrations. A single /v1/graphql/ endpoint exposes queries and mutations grouped into API Collections b
   name: Octopus Energy Kraken GraphQL API
   slug: octopus-energy-kraken-graphql-api
-- description: Half-hourly smart-meter consumption readings.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Half-hourly smart-meter consumption readings.
   name: Octopus Energy Consumption API
   slug: octopus-energy-consumption-api
-- description: Electricity meter points (MPAN) and registered meters.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Electricity meter points (MPAN) and registered meters.
   name: Octopus Energy ElectricityMeterPoints API
   slug: octopus-energy-electricitymeterpoints-api
-- description: Electricity tariff unit rates and standing charges.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Electricity tariff unit rates and standing charges.
   name: Octopus Energy ElectricityTariffs API
   slug: octopus-energy-electricitytariffs-api
-- description: Gas meter points (MPRN) and registered meters.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Gas meter points (MPRN) and registered meters.
   name: Octopus Energy GasMeterPoints API
   slug: octopus-energy-gasmeterpoints-api
-- description: Gas tariff unit rates and standing charges.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Gas tariff unit rates and standing charges.
   name: Octopus Energy GasTariffs API
   slug: octopus-energy-gastariffs-api
-- description: UK industry references such as grid supply points.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: UK industry references such as grid supply points.
   name: Octopus Energy Industry API
   slug: octopus-energy-industry-api
-- description: Octopus Energy product catalog and tariff lookups.
+- baseURL: https://api.octopus.energy/v1/
+  baseurl_source: declared
+  description: Octopus Energy product catalog and tariff lookups.
   name: Octopus Energy Products API
   slug: octopus-energy-products-api
 artifact_total: 52
@@ -426,7 +440,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
 security:

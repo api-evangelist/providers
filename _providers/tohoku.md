@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: 'Public, anonymous, read-only GraphQL API for jMorp — the Japanese Multi Omics Reference Panel published by the Tohoku Medical Megabank Organization (ToMMo), an institute of Tohoku University. Runs on '
@@ -193,7 +193,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 14.9
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -203,7 +203,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 19.5
+  previous_composite: 34.4
   provenance:
     conformance: derived
   regulatory:
@@ -213,8 +213,8 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png
 security:
 - kind: authentication

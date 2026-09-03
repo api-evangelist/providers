@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Insights API from ClearSlide — 1 operation(s) for insights.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Insights API from ClearSlide — 1 operation(s) for insights.
   name: ClearSlide Insights API
   slug: clearslide-insights-api
-- description: The Links API from ClearSlide — 1 operation(s) for links.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Links API from ClearSlide — 1 operation(s) for links.
   name: ClearSlide Links API
   slug: clearslide-links-api
-- description: The Meetings API from ClearSlide — 2 operation(s) for meetings.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Meetings API from ClearSlide — 2 operation(s) for meetings.
   name: ClearSlide Meetings API
   slug: clearslide-meetings-api
-- description: The Presentations API from ClearSlide — 1 operation(s) for presentations.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Presentations API from ClearSlide — 1 operation(s) for presentations.
   name: ClearSlide Presentations API
   slug: clearslide-presentations-api
-- description: The Upload API from ClearSlide — 2 operation(s) for upload.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Upload API from ClearSlide — 2 operation(s) for upload.
   name: ClearSlide Upload API
   slug: clearslide-upload-api
-- description: The Users API from ClearSlide — 1 operation(s) for users.
+- baseURL: https://platform.clearslide.com
+  baseurl_source: declared
+  description: The Users API from ClearSlide — 1 operation(s) for users.
   name: ClearSlide Users API
   slug: clearslide-users-api
 - description: ClearSlide's SCIM 2.0 (RFC 7644) user and group provisioning API, for automating directory sync from an identity provider. Serves /scim/ServiceProviderConfigs, /scim/Schemas (core User and Group), ful
@@ -284,7 +296,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearslide/refs/heads/main/screenshots/clearslide-2026-07-25T205547.png
 security:

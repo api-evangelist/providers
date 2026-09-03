@@ -32,28 +32,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage the prepaid credit balance
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: Manage the prepaid credit balance
   name: Wren Credits API
   slug: wren-credits-api
-- description: Create and list carbon offset orders by tonnage
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: Create and list carbon offset orders by tonnage
   name: Wren Offset Orders API
   slug: wren-offset-orders-api
-- description: List available portfolios and their projects
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: List available portfolios and their projects
   name: Wren Portfolios API
   slug: wren-portfolios-api
-- description: List non-offsettable project funding
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: List non-offsettable project funding
   name: Wren Project Donations API
   slug: wren-project-donations-api
-- description: Fund a specific project by dollar amount
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: Fund a specific project by dollar amount
   name: Wren Project Orders API
   slug: wren-project-orders-api
-- description: List purchase summaries with certificate URLs
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: List purchase summaries with certificate URLs
   name: Wren Purchases API
   slug: wren-purchases-api
-- description: Create and list tree-planting orders
+- baseURL: https://www.wren.co
+  baseurl_source: spec
+  description: Create and list tree-planting orders
   name: Wren Tree Orders API
   slug: wren-tree-orders-api
 artifact_total: 16
@@ -104,7 +118,7 @@ score:
   band: minimal
   composite: 6.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 98.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -126,8 +140,9 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wren/refs/heads/main/screenshots/wren-2026-09-02T171014.png
 slug: wren
 tags:
 - Company

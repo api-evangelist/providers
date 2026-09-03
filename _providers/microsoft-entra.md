@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -83,16 +83,24 @@ apis:
 - description: API for creating, securing, and monitoring AI agent identities, providing authentication, authorization, and lifecycle management for AI agents.
   name: Microsoft Entra Agent ID API
   slug: agent-id
-- description: Register and manage application objects that define application configuration including credentials, permissions, and sign-in settings
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Register and manage application objects that define application configuration including credentials, permissions, and sign-in settings
   name: Microsoft Entra Applications API
   slug: microsoft-entra-applications-api
-- description: Manage groups for organizing users, devices, and other principals including Microsoft 365 groups, security groups, and distribution lists
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Manage groups for organizing users, devices, and other principals including Microsoft 365 groups, security groups, and distribution lists
   name: Microsoft Entra Groups API
   slug: microsoft-entra-groups-api
-- description: Manage service principal objects that represent application instances in a tenant for authentication and authorization
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Manage service principal objects that represent application instances in a tenant for authentication and authorization
   name: Microsoft Entra ServicePrincipals API
   slug: microsoft-entra-serviceprincipals-api
-- description: Manage user accounts in the directory including creation, updates, profile management, and lifecycle operations
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Manage user accounts in the directory including creation, updates, profile management, and lifecycle operations
   name: Microsoft Entra Users API
   slug: microsoft-entra-users-api
 arazzos:
@@ -725,7 +733,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/screenshots/microsoft-entra-2026-06-20T185457.png
 security:

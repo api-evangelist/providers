@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
+- baseURL: wss://streams.fast.onetrading.com
+  baseurl_source: declared
+  description: Real-time WebSocket API for market data (order book, price ticks, book ticker) and, after authenticating, private trading events (order lifecycle, trades, settlement, funding payments, balance adjustm
   name: One Trading WebSocket Streams API
   slug: one-trading-websocket-streams-api
-- description: Subaccount balance transfers
+- baseURL: https://api.onetrading.com/fast
+  baseurl_source: declared
+  description: Subaccount balance transfers
   name: One Trading Funding API
   slug: one-trading-funding-api
-- description: Futures positions, funding and portfolio endpoints
+- baseURL: https://api.onetrading.com/fast
+  baseurl_source: declared
+  description: Futures positions, funding and portfolio endpoints
   name: One Trading Futures API
   slug: one-trading-futures-api
-- description: Public market-data endpoints (no authentication)
+- baseURL: https://api.onetrading.com/fast
+  baseurl_source: declared
+  description: Public market-data endpoints (no authentication)
   name: One Trading Public API
   slug: one-trading-public-api
-- description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
+- baseURL: https://api.onetrading.com/fast
+  baseurl_source: declared
+  description: Account order and trade endpoints (Bearer token, TRADE/READ scope)
   name: One Trading Trading API
   slug: one-trading-trading-api
 artifact_total: 14
@@ -232,7 +242,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-trading/refs/heads/main/screenshots/one-trading-2026-08-07T190256.png
 security:

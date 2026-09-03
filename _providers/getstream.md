@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -50,40 +50,64 @@ apis:
 - description: Create and manage audio/video calls and livestreams - get-or-create calls, manage call members and permissions, start and stop recording, transcription, and broadcasting. Metered on participant minute
   name: Stream Video and Audio API
   slug: getstream-video-audio-api
-- description: Application-level utilities such as rate limits and search.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Application-level utilities such as rate limits and search.
   name: Stream Application API
   slug: getstream-application-api
-- description: Create and control bulk messaging campaigns.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Create and control bulk messaging campaigns.
   name: Stream Campaigns API
   slug: getstream-campaigns-api
-- description: Query, create, update, truncate, and delete chat channels.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Query, create, update, truncate, and delete chat channels.
   name: Stream Channels API
   slug: getstream-channels-api
-- description: Register and manage push notification devices.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Register and manage push notification devices.
   name: Stream Devices API
   slug: getstream-devices-api
-- description: Query and partially update channel members.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Query and partially update channel members.
   name: Stream Members API
   slug: getstream-members-api
-- description: Send, retrieve, update, delete, and search messages and replies.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Send, retrieve, update, delete, and search messages and replies.
   name: Stream Messages API
   slug: getstream-messages-api
-- description: Ban, flag, and mute users, messages, and channels.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Ban, flag, and mute users, messages, and channels.
   name: Stream Moderation API
   slug: getstream-moderation-api
-- description: Inspect application permissions.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Inspect application permissions.
   name: Stream Permissions API
   slug: getstream-permissions-api
-- description: Add and remove emoji reactions on messages.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Add and remove emoji reactions on messages.
   name: Stream Reactions API
   slug: getstream-reactions-api
-- description: List, create, and delete custom roles.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: List, create, and delete custom roles.
   name: Stream Roles API
   slug: getstream-roles-api
-- description: Query and retrieve message threads.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Query and retrieve message threads.
   name: Stream Threads API
   slug: getstream-threads-api
-- description: Upsert, query, update, deactivate, and reactivate users.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: Upsert, query, update, deactivate, and reactivate users.
   name: Stream Users API
   slug: getstream-users-api
 artifact_total: 38
@@ -239,7 +263,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -249,7 +273,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.0
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -258,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:

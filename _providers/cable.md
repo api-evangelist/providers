@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 77 operations · 59 acting
 api_count: 3
 apis:
-- description: The alerts API from Cable — 1 operation(s) for alerts.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The alerts API from Cable — 1 operation(s) for alerts.
   name: Cable alerts API
   slug: cable-alerts-api
-- description: The authentication API from Cable — 2 operation(s) for authentication.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The authentication API from Cable — 2 operation(s) for authentication.
   name: Cable authentication API
   slug: cable-authentication-api
-- description: The business API from Cable — 9 operation(s) for business.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The business API from Cable — 9 operation(s) for business.
   name: Cable business API
   slug: cable-business-api
-- description: The checks API from Cable — 1 operation(s) for checks.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The checks API from Cable — 1 operation(s) for checks.
   name: Cable checks API
   slug: cable-checks-api
-- description: The company API from Cable — 1 operation(s) for company.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The company API from Cable — 1 operation(s) for company.
   name: Cable company API
   slug: cable-company-api
-- description: The customerSar API from Cable — 1 operation(s) for customersar.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The customerSar API from Cable — 1 operation(s) for customersar.
   name: Cable customerSar API
   slug: cable-customersar-api
-- description: The helper API from Cable — 1 operation(s) for helper.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The helper API from Cable — 1 operation(s) for helper.
   name: Cable helper API
   slug: cable-helper-api
-- description: The identityVerification API from Cable — 1 operation(s) for identityverification.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The identityVerification API from Cable — 1 operation(s) for identityverification.
   name: Cable identityVerification API
   slug: cable-identityverification-api
-- description: The onboardingFlow API from Cable — 1 operation(s) for onboardingflow.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The onboardingFlow API from Cable — 1 operation(s) for onboardingflow.
   name: Cable onboardingFlow API
   slug: cable-onboardingflow-api
-- description: The person API from Cable — 1 operation(s) for person.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The person API from Cable — 1 operation(s) for person.
   name: Cable person API
   slug: cable-person-api
-- description: The retail API from Cable — 8 operation(s) for retail.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The retail API from Cable — 8 operation(s) for retail.
   name: Cable retail API
   slug: cable-retail-api
-- description: The riskAssessment API from Cable — 1 operation(s) for riskassessment.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The riskAssessment API from Cable — 1 operation(s) for riskassessment.
   name: Cable riskAssessment API
   slug: cable-riskassessment-api
-- description: The screening API from Cable — 2 operation(s) for screening.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The screening API from Cable — 2 operation(s) for screening.
   name: Cable screening API
   slug: cable-screening-api
-- description: The suspiciousActivities API from Cable — 1 operation(s) for suspiciousactivities.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The suspiciousActivities API from Cable — 1 operation(s) for suspiciousactivities.
   name: Cable suspiciousActivities API
   slug: cable-suspiciousactivities-api
-- description: The transactionAlerts API from Cable — 1 operation(s) for transactionalerts.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The transactionAlerts API from Cable — 1 operation(s) for transactionalerts.
   name: Cable transactionAlerts API
   slug: cable-transactionalerts-api
-- description: The transactionChecks API from Cable — 1 operation(s) for transactionchecks.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The transactionChecks API from Cable — 1 operation(s) for transactionchecks.
   name: Cable transactionChecks API
   slug: cable-transactionchecks-api
-- description: The transactions API from Cable — 4 operation(s) for transactions.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The transactions API from Cable — 4 operation(s) for transactions.
   name: Cable transactions API
   slug: cable-transactions-api
-- description: The transactionSuspiciousActivities API from Cable — 1 operation(s) for transactionsuspiciousactivities.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The transactionSuspiciousActivities API from Cable — 1 operation(s) for transactionsuspiciousactivities.
   name: Cable transactionSuspiciousActivities API
   slug: cable-transactionsuspiciousactivities-api
-- description: The upload API from Cable — 1 operation(s) for upload.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The upload API from Cable — 1 operation(s) for upload.
   name: Cable upload API
   slug: cable-upload-api
-- description: The utilities API from Cable — 1 operation(s) for utilities.
+- baseURL: https://api.cable.tech
+  baseurl_source: declared
+  description: The utilities API from Cable — 1 operation(s) for utilities.
   name: Cable utilities API
   slug: cable-utilities-api
 artifact_total: 47
@@ -346,7 +386,7 @@ score:
     regime_id: banking_open_finance
     score: 45.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/screenshots/cable-2026-07-25T204213.png
 security:

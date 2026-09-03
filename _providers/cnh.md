@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The CNH Developer Portal at develop.cnh.com hosts onboarding, authentication guidance, API guides, Postman collections, and curated SwaggerHub documentation for FieldOps and related CNH APIs. Develope
   name: CNH Developer Portal
   slug: cnh-developer-portal
-- description: Fleet and equipment details.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: Fleet and equipment details.
   name: CNH Equipment API
   slug: cnh-equipment-api
-- description: Grower, farm, field, and boundary management.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: Grower, farm, field, and boundary management.
   name: CNH Farm Setup API
   slug: cnh-farm-setup-api
-- description: Operations by vehicle.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: Operations by vehicle.
   name: CNH Operations API
   slug: cnh-operations-api
-- description: Send prescription Rx files to vehicles or FieldOps.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: Send prescription Rx files to vehicles or FieldOps.
   name: CNH Prescriptions API
   slug: cnh-prescriptions-api
-- description: OAuth refresh and access token management.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: OAuth refresh and access token management.
   name: CNH Tokens API
   slug: cnh-tokens-api
-- description: ISO 15143-3 vehicle telemetry, fault codes, and metrics.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: ISO 15143-3 vehicle telemetry, fault codes, and metrics.
   name: CNH Vehicle Telemetry API
   slug: cnh-vehicle-telemetry-api
-- description: Subscribe to FieldOps event notifications.
+- baseURL: https://api.fieldops.cnh.com
+  baseurl_source: declared
+  description: Subscribe to FieldOps event notifications.
   name: CNH Webhooks API
   slug: cnh-webhooks-api
 artifact_total: 29
@@ -256,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/screenshots/cnh-2026-06-20T174635.png
 security:

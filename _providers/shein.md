@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Merchant-integration API for SHEIN sellers and logistics partners — OpenAPI and Webhook capabilities covering product publishing, order fulfillment, logistics/shipping, and stock-preparation order man
@@ -113,11 +113,11 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -127,10 +127,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 33.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shein/refs/heads/main/screenshots/shein-2026-09-02T155124.png
 security:
 - kind: authentication
   name: Shein Authentication

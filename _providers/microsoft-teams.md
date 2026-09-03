@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 24 operations · 15 acting
 api_count: 11
 apis:
-- description: API for building conversational bots that interact with users in Microsoft Teams through the Bot Framework.
+- baseURL: https://smba.trafficmanager.net/teams/
+  baseurl_source: declared
+  description: API for building conversational bots that interact with users in Microsoft Teams through the Bot Framework.
   name: Microsoft Teams Bot Framework API
   slug: microsoft-teams-bot-framework-api
 - description: APIs for creating incoming webhooks and Office 365 connectors to post messages and notifications to Teams channels.
@@ -53,28 +55,44 @@ apis:
 - description: APIs for building calling and meeting experiences in Teams including VoIP calls, group calls, IVR flows, and online meetings.
   name: Microsoft Teams Real-Time Communication APIs
   slug: microsoft-teams-real-time-communication-apis
-- description: Operations for managing app installations in teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing app installations in teams.
   name: Microsoft Teams Apps API
   slug: microsoft-teams-apps-api
-- description: Operations for initiating and managing calls.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for initiating and managing calls.
   name: Microsoft Teams Calls API
   slug: microsoft-teams-calls-api
-- description: Operations for managing channels within teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing channels within teams.
   name: Microsoft Teams Channels API
   slug: microsoft-teams-channels-api
-- description: Operations for managing team and channel members.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing team and channel members.
   name: Microsoft Teams Members API
   slug: microsoft-teams-members-api
-- description: Operations for sending and receiving chat messages.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for sending and receiving chat messages.
   name: Microsoft Teams Messages API
   slug: microsoft-teams-messages-api
-- description: Operations for creating and managing online meetings.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for creating and managing online meetings.
   name: Microsoft Teams Online Meetings API
   slug: microsoft-teams-online-meetings-api
-- description: Operations for managing tabs in channels.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing tabs in channels.
   name: Microsoft Teams Tabs API
   slug: microsoft-teams-tabs-api
-- description: Operations for managing teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing teams.
   name: Microsoft Teams Teams API
   slug: microsoft-teams-teams-api
 arazzos:
@@ -587,7 +605,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -597,7 +615,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 54.2
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -608,7 +626,7 @@ score:
       total: 9
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

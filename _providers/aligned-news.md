@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Reference Model Context Protocol server distributed as a single TypeScript file (mcp-server.ts) that proxies the Aligned News REST API to MCP-compatible AI tools like Claude Code, Claude Desktop, Curs
   name: Aligned News MCP Server
   slug: aligned-news-mcp-server
-- description: Curated groupings of related stories around themes.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: Curated groupings of related stories around themes.
   name: Aligned News Bundles API
   slug: aligned-news-bundles-api
-- description: All current stories grouped by section.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: All current stories grouped by section.
   name: Aligned News News Feed API
   slug: aligned-news-news-feed-api
-- description: Trend deep-dives and longer-form analysis.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: Trend deep-dives and longer-form analysis.
   name: Aligned News Reports API
   slug: aligned-news-reports-api
-- description: Full-text search across stories, signals, and reports.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: Full-text search across stories, signals, and reports.
   name: Aligned News Search API
   slug: aligned-news-search-api
-- description: Topical sections used to organize stories.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: Topical sections used to organize stories.
   name: Aligned News Sections API
   slug: aligned-news-sections-api
-- description: Early pattern detections with editorial badges.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: Early pattern detections with editorial badges.
   name: Aligned News Signals API
   slug: aligned-news-signals-api
-- description: AI news stories curated and synthesized from monitored accounts.
+- baseURL: https://alignednews.com/v1
+  baseurl_source: declared
+  description: AI news stories curated and synthesized from monitored accounts.
   name: Aligned News Stories API
   slug: aligned-news-stories-api
 artifact_total: 60
@@ -326,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:

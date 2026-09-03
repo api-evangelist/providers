@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: ROCm system configuration
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: ROCm system configuration
   name: Advanced Micro Devices Configuration API
   slug: advanced-micro-devices-configuration-api
-- description: Cloud credit balance and usage
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: Cloud credit balance and usage
   name: Advanced Micro Devices Credits API
   slug: advanced-micro-devices-credits-api
-- description: GPU device enumeration and information
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: GPU device enumeration and information
   name: Advanced Micro Devices Devices API
   slug: advanced-micro-devices-devices-api
-- description: GPU health and diagnostic status
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: GPU health and diagnostic status
   name: Advanced Micro Devices Health API
   slug: advanced-micro-devices-health-api
-- description: GPU compute instance management
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: GPU compute instance management
   name: Advanced Micro Devices Instances API
   slug: advanced-micro-devices-instances-api
-- description: AI model deployment and management
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: AI model deployment and management
   name: Advanced Micro Devices Models API
   slug: advanced-micro-devices-models-api
-- description: GPU utilization and performance monitoring
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: GPU utilization and performance monitoring
   name: Advanced Micro Devices Monitoring API
   slug: advanced-micro-devices-monitoring-api
-- description: Performance counters and profiling data
+- baseURL: https://api.developer.amd.com/v1
+  baseurl_source: declared
+  description: Performance counters and profiling data
   name: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
 artifact_total: 103
@@ -530,7 +546,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -540,7 +556,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 34.2
-  previous_composite: 56.2
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -551,7 +567,7 @@ score:
       total: 8
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -64,70 +64,114 @@ apis:
 - description: Provides v2 REST endpoints for creating and managing AI-managed agent portfolios on eToro. Supports portfolio creation with named scopes, retrieval of all agent portfolios belonging to the authenticat
   name: eToro Agent Portfolios API
   slug: agent-portfolios-api
-- description: The Agent Portfolios API from eToro — 8 operation(s) for agent portfolios.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Agent Portfolios API from eToro — 8 operation(s) for agent portfolios.
   name: eToro Agent Portfolios API
   slug: etoro-agent-portfolios-api
-- description: The Asset Explorer API from eToro — 3 operation(s) for asset explorer.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Asset Explorer API from eToro — 3 operation(s) for asset explorer.
   name: eToro Asset Explorer API
   slug: etoro-asset-explorer-api
-- description: The Attachments API from eToro — 1 operation(s) for attachments.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Attachments API from eToro — 1 operation(s) for attachments.
   name: eToro Attachments API
   slug: etoro-attachments-api
-- description: The Balances API from eToro — 6 operation(s) for balances.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Balances API from eToro — 6 operation(s) for balances.
   name: eToro Balances API
   slug: etoro-balances-api
-- description: The Cash Accounts API from eToro — 5 operation(s) for cash accounts.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Cash Accounts API from eToro — 5 operation(s) for cash accounts.
   name: eToro Cash Accounts API
   slug: etoro-cash-accounts-api
-- description: The Clubs API from eToro — 1 operation(s) for clubs.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Clubs API from eToro — 1 operation(s) for clubs.
   name: eToro Clubs API
   slug: etoro-clubs-api
-- description: The Comments and Replies API from eToro — 4 operation(s) for comments and replies.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Comments and Replies API from eToro — 4 operation(s) for comments and replies.
   name: eToro Comments and Replies API
   slug: etoro-comments-and-replies-api
-- description: The Comments API from eToro — 1 operation(s) for comments.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Comments API from eToro — 1 operation(s) for comments.
   name: eToro Comments API
   slug: etoro-comments-api
-- description: The Deprecated API from eToro — 14 operation(s) for deprecated.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Deprecated API from eToro — 14 operation(s) for deprecated.
   name: eToro Deprecated API
   slug: etoro-deprecated-api
-- description: The Feeds API from eToro — 10 operation(s) for feeds.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Feeds API from eToro — 10 operation(s) for feeds.
   name: eToro Feeds API
   slug: etoro-feeds-api
-- description: The Identity API from eToro — 1 operation(s) for identity.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Identity API from eToro — 1 operation(s) for identity.
   name: eToro Identity API
   slug: etoro-identity-api
-- description: The Likes API from eToro — 3 operation(s) for likes.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Likes API from eToro — 3 operation(s) for likes.
   name: eToro Likes API
   slug: etoro-likes-api
-- description: The Market Data API from eToro — 8 operation(s) for market data.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Market Data API from eToro — 8 operation(s) for market data.
   name: eToro Market Data API
   slug: etoro-market-data-api
-- description: The Notifications API from eToro — 1 operation(s) for notifications.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Notifications API from eToro — 1 operation(s) for notifications.
   name: eToro Notifications API
   slug: etoro-notifications-api
-- description: The PI Data API from eToro — 1 operation(s) for pi data.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The PI Data API from eToro — 1 operation(s) for pi data.
   name: eToro PI Data API
   slug: etoro-pi-data-api
-- description: The Posts API from eToro — 9 operation(s) for posts.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Posts API from eToro — 9 operation(s) for posts.
   name: eToro Posts API
   slug: etoro-posts-api
-- description: The Price Alerts API from eToro — 2 operation(s) for price alerts.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Price Alerts API from eToro — 2 operation(s) for price alerts.
   name: eToro Price Alerts API
   slug: etoro-price-alerts-api
-- description: The Trading - Demo API from eToro — 18 operation(s) for trading - demo.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Trading - Demo API from eToro — 18 operation(s) for trading - demo.
   name: eToro Trading - Demo API
   slug: etoro-trading-demo-api
-- description: The Trading - Real API from eToro — 18 operation(s) for trading - real.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Trading - Real API from eToro — 18 operation(s) for trading - real.
   name: eToro Trading - Real API
   slug: etoro-trading-real-api
-- description: The Users Info API from eToro — 6 operation(s) for users info.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Users Info API from eToro — 6 operation(s) for users info.
   name: eToro Users Info API
   slug: etoro-users-info-api
-- description: The Users Stats API from eToro — 4 operation(s) for users stats.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Users Stats API from eToro — 4 operation(s) for users stats.
   name: eToro Users Stats API
   slug: etoro-users-stats-api
-- description: The Watchlists API from eToro — 12 operation(s) for watchlists.
+- baseURL: https://public-api.etoro.com/api/v1
+  baseurl_source: declared
+  description: The Watchlists API from eToro — 12 operation(s) for watchlists.
   name: eToro Watchlists API
   slug: etoro-watchlists-api
 artifact_total: 387
@@ -1328,7 +1372,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

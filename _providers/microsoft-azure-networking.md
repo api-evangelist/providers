@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -95,28 +95,44 @@ apis:
 - description: Cloud-native web application firewall service that provides centralized protection for web applications from common exploits and vulnerabilities. Azure WAF can be deployed with Application Gateway, Fr
   name: Azure Web Application Firewall API
   slug: azure-web-application-firewall-api
-- description: Operations for managing backend address pools that define the group of resources to receive load-balanced traffic.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing backend address pools that define the group of resources to receive load-balanced traffic.
   name: Azure Networking Backend Address Pools API
   slug: microsoft-azure-networking-backend-address-pools-api
-- description: Operations for managing health probes that monitor the health status of backend resources.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing health probes that monitor the health status of backend resources.
   name: Azure Networking Load Balancer Probes API
   slug: microsoft-azure-networking-load-balancer-probes-api
-- description: Operations for creating, updating, deleting, and listing Azure Load Balancer resources.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and listing Azure Load Balancer resources.
   name: Azure Networking Load Balancers API
   slug: microsoft-azure-networking-load-balancers-api
-- description: Operations for managing load balancing rules that define how traffic is distributed to backend pool members.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing load balancing rules that define how traffic is distributed to backend pool members.
   name: Azure Networking Load Balancing Rules API
   slug: microsoft-azure-networking-load-balancing-rules-api
-- description: Operations operations
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations operations
   name: Azure Networking Operations API
   slug: microsoft-azure-networking-operations-api
-- description: Operations for managing subnets within a virtual network, including creation, configuration, and delegation.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing subnets within a virtual network, including creation, configuration, and delegation.
   name: Azure Networking Subnets API
   slug: microsoft-azure-networking-subnets-api
-- description: Operations for creating and managing peering connections between virtual networks.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating and managing peering connections between virtual networks.
   name: Azure Networking Virtual Network Peerings API
   slug: microsoft-azure-networking-virtual-network-peerings-api
-- description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
   name: Azure Networking Virtual Networks API
   slug: microsoft-azure-networking-virtual-networks-api
 artifact_total: 78
@@ -453,7 +469,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-networking/refs/heads/main/screenshots/microsoft-azure-networking-2026-06-20T185429.png
 security:

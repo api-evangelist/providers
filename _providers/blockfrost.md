@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 124 operations · 6 acting
 api_count: 2
 apis:
-- description: The Cardano » Accounts API from Blockfrost — 12 operation(s) for cardano » accounts.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Accounts API from Blockfrost — 12 operation(s) for cardano » accounts.
   name: Blockfrost Cardano » Accounts API
   slug: blockfrost-cardano-accounts-api
-- description: The Cardano » Addresses API from Blockfrost — 7 operation(s) for cardano » addresses.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Addresses API from Blockfrost — 7 operation(s) for cardano » addresses.
   name: Blockfrost Cardano » Addresses API
   slug: blockfrost-cardano-addresses-api
-- description: The Cardano » Assets API from Blockfrost — 7 operation(s) for cardano » assets.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Assets API from Blockfrost — 7 operation(s) for cardano » assets.
   name: Blockfrost Cardano » Assets API
   slug: blockfrost-cardano-assets-api
-- description: The Cardano » Blocks API from Blockfrost — 11 operation(s) for cardano » blocks.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Blocks API from Blockfrost — 11 operation(s) for cardano » blocks.
   name: Blockfrost Cardano » Blocks API
   slug: blockfrost-cardano-blocks-api
-- description: The Cardano » Epochs API from Blockfrost — 10 operation(s) for cardano » epochs.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Epochs API from Blockfrost — 10 operation(s) for cardano » epochs.
   name: Blockfrost Cardano » Epochs API
   slug: blockfrost-cardano-epochs-api
-- description: The Cardano » Governance API from Blockfrost — 17 operation(s) for cardano » governance.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Governance API from Blockfrost — 17 operation(s) for cardano » governance.
   name: Blockfrost Cardano » Governance API
   slug: blockfrost-cardano-governance-api
-- description: The Cardano » Ledger API from Blockfrost — 1 operation(s) for cardano » ledger.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Ledger API from Blockfrost — 1 operation(s) for cardano » ledger.
   name: Blockfrost Cardano » Ledger API
   slug: blockfrost-cardano-ledger-api
-- description: The Cardano » Mempool API from Blockfrost — 3 operation(s) for cardano » mempool.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Mempool API from Blockfrost — 3 operation(s) for cardano » mempool.
   name: Blockfrost Cardano » Mempool API
   slug: blockfrost-cardano-mempool-api
-- description: The Cardano » Metadata API from Blockfrost — 3 operation(s) for cardano » metadata.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Metadata API from Blockfrost — 3 operation(s) for cardano » metadata.
   name: Blockfrost Cardano » Metadata API
   slug: blockfrost-cardano-metadata-api
-- description: The Cardano » Network API from Blockfrost — 2 operation(s) for cardano » network.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Network API from Blockfrost — 2 operation(s) for cardano » network.
   name: Blockfrost Cardano » Network API
   slug: blockfrost-cardano-network-api
-- description: The Cardano » Pools API from Blockfrost — 12 operation(s) for cardano » pools.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Pools API from Blockfrost — 12 operation(s) for cardano » pools.
   name: Blockfrost Cardano » Pools API
   slug: blockfrost-cardano-pools-api
-- description: The Cardano » Scripts API from Blockfrost — 7 operation(s) for cardano » scripts.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Scripts API from Blockfrost — 7 operation(s) for cardano » scripts.
   name: Blockfrost Cardano » Scripts API
   slug: blockfrost-cardano-scripts-api
-- description: The Cardano » Transactions API from Blockfrost — 14 operation(s) for cardano » transactions.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Transactions API from Blockfrost — 14 operation(s) for cardano » transactions.
   name: Blockfrost Cardano » Transactions API
   slug: blockfrost-cardano-transactions-api
-- description: The Cardano » Utilities API from Blockfrost — 3 operation(s) for cardano » utilities.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Cardano » Utilities API from Blockfrost — 3 operation(s) for cardano » utilities.
   name: Blockfrost Cardano » Utilities API
   slug: blockfrost-cardano-utilities-api
-- description: The Health API from Blockfrost — 3 operation(s) for health.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Health API from Blockfrost — 3 operation(s) for health.
   name: Blockfrost Health API
   slug: blockfrost-health-api
-- description: The IPFS » Add API from Blockfrost — 1 operation(s) for ipfs » add.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The IPFS » Add API from Blockfrost — 1 operation(s) for ipfs » add.
   name: Blockfrost IPFS » Add API
   slug: blockfrost-ipfs-add-api
-- description: The IPFS » Gateway API from Blockfrost — 1 operation(s) for ipfs » gateway.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The IPFS » Gateway API from Blockfrost — 1 operation(s) for ipfs » gateway.
   name: Blockfrost IPFS » Gateway API
   slug: blockfrost-ipfs-gateway-api
-- description: The IPFS » Pins API from Blockfrost — 4 operation(s) for ipfs » pins.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The IPFS » Pins API from Blockfrost — 4 operation(s) for ipfs » pins.
   name: Blockfrost IPFS » Pins API
   slug: blockfrost-ipfs-pins-api
-- description: The Metrics API from Blockfrost — 2 operation(s) for metrics.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Metrics API from Blockfrost — 2 operation(s) for metrics.
   name: Blockfrost Metrics API
   slug: blockfrost-metrics-api
-- description: The Nut.link API from Blockfrost — 4 operation(s) for nut.link.
+- baseURL: https://cardano-mainnet.blockfrost.io/api/v0
+  baseurl_source: spec
+  description: The Nut.link API from Blockfrost — 4 operation(s) for nut.link.
   name: Blockfrost Nut.link API
   slug: blockfrost-nut-link-api
 artifact_total: 147
@@ -599,7 +639,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/screenshots/blockfrost-2026-06-20T173358.png
 security:

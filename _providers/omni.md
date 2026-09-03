@@ -33,121 +33,197 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: AI-powered query generation
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: AI-powered query generation
   name: Omni AI API
   slug: omni-ai-api
-- description: Manage organization-level AI credit usage
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage organization-level AI credit usage
   name: Omni AI Credit Controls API
   slug: omni-ai-credit-controls-api
-- description: 'AI evaluation: manage prompt sets and runs used to score AI quality against curated prompt suites.'
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: 'AI evaluation: manage prompt sets and runs used to score AI quality against curated prompt suites.'
   name: Omni AI Eval API
   slug: omni-ai-eval-api
-- description: Manage AI-generated suggestions for shared models
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage AI-generated suggestions for shared models
   name: Omni AI Model Suggestions API
   slug: omni-ai-model-suggestions-api
-- description: 'Manage AI Routines: schedule recurring AI-powered tasks to run automatically on your data.'
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: 'Manage AI Routines: schedule recurring AI-powered tasks to run automatically on your data.'
   name: Omni AI Routines API
   slug: omni-ai-routines-api
-- description: Manage API tokens (Organization keys, Personal Access Tokens, MCP OAuth grants)
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage API tokens (Organization keys, Personal Access Tokens, MCP OAuth grants)
   name: Omni API Tokens API
   slug: omni-api-tokens-api
-- description: Manage connection environments database connections
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage connection environments database connections
   name: Omni Connection environments API
   slug: omni-connection-environments-api
-- description: Manage database connections
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage database connections
   name: Omni Connections API
   slug: omni-connections-api
-- description: Unified content retrieval (documents and folders)
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Unified content retrieval (documents and folders)
   name: Omni Content API
   slug: omni-content-api
-- description: Export and import dashboards
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Export and import dashboards
   name: Omni Content migration API
   slug: omni-content-migration-api
-- description: Validate content against models and perform find/replace operations
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Validate content against models and perform find/replace operations
   name: Omni Content validator API
   slug: omni-content-validator-api
-- description: Download dashboards and tiles as PDF, PNG, XLSX, CSV, or JSON files
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Download dashboards and tiles as PDF, PNG, XLSX, CSV, or JSON files
   name: Omni Dashboard downloads API
   slug: omni-dashboard-downloads-api
-- description: The Dashboard filters API from Omni — 1 operation(s) for dashboard filters.
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: The Dashboard filters API from Omni — 1 operation(s) for dashboard filters.
   name: Omni Dashboard filters API
   slug: omni-dashboard-filters-api
-- description: Manage dbt configuration for connections
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage dbt configuration for connections
   name: Omni dbt API
   slug: omni-dbt-api
-- description: Favorite and unfavorite documents
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Favorite and unfavorite documents
   name: Omni Document favorites API
   slug: omni-document-favorites-api
-- description: Apply and manage labels on documents
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Apply and manage labels on documents
   name: Omni Document labels API
   slug: omni-document-labels-api
-- description: Manage document-level access
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage document-level access
   name: Omni Document permissions API
   slug: omni-document-permissions-api
-- description: Create, retrieve, and manage documents
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Create, retrieve, and manage documents
   name: Omni Documents API
   slug: omni-documents-api
-- description: 'A draft-based workflow for creating and editing documents: create a document, patch a draft, then publish. Replaces the one-shot `PUT`/`PATCH` v1 document write endpoints.'
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: 'A draft-based workflow for creating and editing documents: create a document, patch a draft, then publish. Replaces the one-shot `PUT`/`PATCH` v1 document write endpoints.'
   name: Omni Documents v2 API
   slug: omni-documents-v2-api
-- description: Manage folder-level access
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage folder-level access
   name: Omni Folder permissions API
   slug: omni-folder-permissions-api
-- description: Create and organize content folders
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Create and organize content folders
   name: Omni Folders API
   slug: omni-folders-api
-- description: Check status of asynchronous jobs
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Check status of asynchronous jobs
   name: Omni Jobs API
   slug: omni-jobs-api
-- description: 'Manage labels in an organization. Labels can be applied to documents and folders to help organize and categorize content. **Label types:** - **Basic labels**: Can be created and managed by any user - '
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: 'Manage labels in an organization. Labels can be applied to documents and folders to help organize and categorize content. **Label types:** - **Basic labels**: Can be created and managed by any user - '
   name: Omni Labels API
   slug: omni-labels-api
-- description: Manage model branches and merge changes
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage model branches and merge changes
   name: Omni Model branches API
   slug: omni-model-branches-api
-- description: Manage git configuration for shared models
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage git configuration for shared models
   name: Omni Model git configuration API
   slug: omni-model-git-configuration-api
-- description: Create and manage data models
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Create and manage data models
   name: Omni Models API
   slug: omni-models-api
-- description: Execute workbook queries
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Execute workbook queries
   name: Omni Queries API
   slug: omni-queries-api
-- description: Manage schedule recipients
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage schedule recipients
   name: Omni Schedule recipients API
   slug: omni-schedule-recipients-api
-- description: Create and manage scheduled tasks
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Create and manage scheduled tasks
   name: Omni Schedules API
   slug: omni-schedules-api
-- description: Manage automated schema refresh schedules for connections
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage automated schema refresh schedules for connections
   name: Omni Schema refresh schedules API
   slug: omni-schema-refresh-schedules-api
-- description: Retrieve topic information from models
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Retrieve topic information from models
   name: Omni Topics API
   slug: omni-topics-api
-- description: Manage CSV and spreadsheet uploads
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage CSV and spreadsheet uploads
   name: Omni Uploads API
   slug: omni-uploads-api
-- description: Manage user attribute definitions
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage user attribute definitions
   name: Omni User attributes API
   slug: omni-user-attributes-api
-- description: Manage model and connection role assignments for user groups
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage model and connection role assignments for user groups
   name: Omni User group model roles API
   slug: omni-user-group-model-roles-api
-- description: Manage user groups
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage user groups
   name: Omni User groups API
   slug: omni-user-groups-api
-- description: Manage model and connection role assignments for users
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage model and connection role assignments for users
   name: Omni User model roles API
   slug: omni-user-model-roles-api
-- description: Manage users
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Manage users
   name: Omni Users API
   slug: omni-users-api
-- description: Inspect your own user permissions
+- baseURL: https://blobsrus.omniapp.co/api
+  baseurl_source: declared
+  description: Inspect your own user permissions
   name: Omni Who Am I API
   slug: omni-who-am-i-api
 artifact_total: 82
@@ -452,7 +528,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:

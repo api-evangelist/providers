@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Look Up Practitioners API from Orderly Health — 1 operation(s) for look up practitioners.
+- baseURL: https://api.orderlyhealth.com
+  baseurl_source: declared
+  description: The Look Up Practitioners API from Orderly Health — 1 operation(s) for look up practitioners.
   name: Orderly Health Look Up Practitioners API
   slug: orderly-health-look-up-practitioners-api
 artifact_total: 7
@@ -200,7 +202,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderly-health/refs/heads/main/screenshots/orderly-health-2026-08-07T190912.png
 security:

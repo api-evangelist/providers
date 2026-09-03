@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST interface of the Transwarp Hippo distributed vector database. The published reference covers database and table operations, data writes, import/export (standalone mode), index operations, vector '
@@ -113,7 +113,7 @@ score:
   band: emerging
   composite: 21.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -129,8 +129,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/transwarp/refs/heads/main/screenshots/transwarp-2026-09-02T164138.png
 security:
 - kind: domain-security
   name: Transwarp Domain Security

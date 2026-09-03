@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,25 +62,39 @@ apis:
 - description: Provides the capability to inquire on the status of wire payments using unique reference numbers, offering real-time payment tracking powered by SWIFT GPI.
   name: Payment Track and Trace API
   slug: payment-track-trace
-- description: The Account Validation API from Scotiabank — 1 operation(s) for account validation.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Account Validation API from Scotiabank — 1 operation(s) for account validation.
   name: Scotiabank Account Validation API
   slug: scotiabank-account-validation-api
-- description: The Accounts API from Scotiabank — 3 operation(s) for accounts.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Accounts API from Scotiabank — 3 operation(s) for accounts.
   name: Scotiabank Accounts API
   slug: scotiabank-accounts-api
-- description: The EFT Payments API from Scotiabank — 2 operation(s) for eft payments.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The EFT Payments API from Scotiabank — 2 operation(s) for eft payments.
   name: Scotiabank EFT Payments API
   slug: scotiabank-eft-payments-api
-- description: The Payment Tracking API from Scotiabank — 1 operation(s) for payment tracking.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Payment Tracking API from Scotiabank — 1 operation(s) for payment tracking.
   name: Scotiabank Payment Tracking API
   slug: scotiabank-payment-tracking-api
-- description: The Real-Time Payments API from Scotiabank — 1 operation(s) for real-time payments.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Real-Time Payments API from Scotiabank — 1 operation(s) for real-time payments.
   name: Scotiabank Real-Time Payments API
   slug: scotiabank-real-time-payments-api
-- description: The Request for Payment API from Scotiabank — 1 operation(s) for request for payment.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Request for Payment API from Scotiabank — 1 operation(s) for request for payment.
   name: Scotiabank Request for Payment API
   slug: scotiabank-request-for-payment-api
-- description: The Wire Payments API from Scotiabank — 2 operation(s) for wire payments.
+- baseURL: https://developer.api.scotiabank.com
+  baseurl_source: spec
+  description: The Wire Payments API from Scotiabank — 2 operation(s) for wire payments.
   name: Scotiabank Wire Payments API
   slug: scotiabank-wire-payments-api
 artifact_total: 51
@@ -294,7 +308,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png
 security:

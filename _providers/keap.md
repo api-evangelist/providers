@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,157 +43,259 @@ agentic_access:
   summary_line: 26 operations · 10 acting
 api_count: 7
 apis:
-- description: Keap Affiliate API — 48 operations across 28 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Affiliate API — 48 operations across 28 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Affiliate API
   slug: keap-affiliate-api
-- description: Keap Automation API — 10 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Automation API — 10 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Automation API
   slug: keap-automation-api
-- description: Keap Campaign API — 6 operations across 6 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Campaign API — 6 operations across 6 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Campaigns API
   slug: keap-campaigns-api
-- description: Keap Category Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Category Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Category Discounts API
   slug: keap-category-discounts-api
-- description: Keap Company API — 22 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Company API — 22 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Companies API
   slug: keap-companies-api
-- description: Keap Contact API — 27 operations across 16 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Contact API — 27 operations across 16 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Contacts API
   slug: keap-contacts-api
-- description: Keap Email API — 10 operations across 8 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Email API — 10 operations across 8 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Email API
   slug: keap-email-api
-- description: Keap Files API — 6 operations across 3 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Files API — 6 operations across 3 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Files API
   slug: keap-files-api
-- description: Keap Free Trial Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Free Trial Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Free Trial Discounts API
   slug: keap-free-trial-discounts-api
-- description: Keap Lead Source Categories API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Lead Source Categories API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Lead Source Categories API
   slug: keap-lead-source-categories-api
-- description: Keap Lead Source Expenses API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Lead Source Expenses API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Lead Source Expenses API
   slug: keap-lead-source-expenses-api
-- description: Keap Lead Source Recurring Expenses API — 6 operations across 3 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Lead Source Recurring Expenses API — 6 operations across 3 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Lead Source Recurring Expenses API
   slug: keap-lead-source-recurring-expenses-api
-- description: Keap Lead Sources API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Lead Sources API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Lead Sources API
   slug: keap-lead-sources-api
-- description: Keap Note API — 21 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Note API — 21 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Note API
   slug: keap-note-api
-- description: Keap Opportunity API — 26 operations across 13 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Opportunity API — 26 operations across 13 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Opportunities API
   slug: keap-opportunities-api
-- description: Keap Order Total Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Order Total Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Order Total Discounts API
   slug: keap-order-total-discounts-api
-- description: Keap Orders API — 29 operations across 16 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Orders API — 29 operations across 16 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Orders API
   slug: keap-orders-api
-- description: Keap Product Categories API — 9 operations across 5 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Product Categories API — 9 operations across 5 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Product Categories API
   slug: keap-product-categories-api
-- description: Keap Product Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Product Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Product Discounts API
   slug: keap-product-discounts-api
-- description: Keap Product Interest Bundles API — 8 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Product Interest Bundles API — 8 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Product Interest Bundles API
   slug: keap-product-interest-bundles-api
-- description: Keap Products API — 17 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Products API — 17 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Products API
   slug: keap-products-api
-- description: Keap Shipping Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Shipping Discounts API — 7 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Shipping Discounts API
   slug: keap-shipping-discounts-api
-- description: Keap Subscription Plans API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Subscription Plans API — 5 operations across 2 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Subscription Plans API
   slug: keap-subscription-plans-api
-- description: Keap Subscriptions API — 20 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Subscriptions API — 20 operations across 11 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Subscriptions API
   slug: keap-subscriptions-api
-- description: Keap Tags API — 14 operations across 8 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Tags API — 14 operations across 8 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Tags API
   slug: keap-tags-api
-- description: Keap Task API — 19 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Task API — 19 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Tasks API
   slug: keap-tasks-api
-- description: Keap Users API — 5 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Keap Users API — 5 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Users API
   slug: keap-users-api
-- description: The Appointment API from Keap — 4 operation(s) for appointment.
+- baseURL: https://api.infusionsoft.com/crm/rest/v1
+  baseurl_source: declared
+  description: The Appointment API from Keap — 4 operation(s) for appointment.
   name: Keap Appointment API
   slug: keap-appointment-api
-- description: The E-Commerce API from Keap — 12 operation(s) for e-commerce.
+- baseURL: https://api.infusionsoft.com/crm/rest/v1
+  baseurl_source: declared
+  description: The E-Commerce API from Keap — 12 operation(s) for e-commerce.
   name: Keap E Commerce API
   slug: keap-e-commerce-api
-- description: The File API from Keap — 2 operation(s) for file.
+- baseURL: https://api.infusionsoft.com/crm/rest/v1
+  baseurl_source: declared
+  description: The File API from Keap — 2 operation(s) for file.
   name: Keap File API
   slug: keap-file-api
-- description: The Product API from Keap — 6 operation(s) for product.
+- baseURL: https://api.infusionsoft.com/crm/rest/v1
+  baseurl_source: declared
+  description: The Product API from Keap — 6 operation(s) for product.
   name: Keap Product API
   slug: keap-product-api
-- description: The REST Hooks API from Keap — 5 operation(s) for rest hooks.
+- baseURL: https://api.infusionsoft.com/crm/rest/v1
+  baseurl_source: declared
+  description: The REST Hooks API from Keap — 5 operation(s) for rest hooks.
   name: Keap REST Hooks API
   slug: keap-rest-hooks-api
-- description: Account Info-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Account Info-Endpoint
   name: Keap Account Info API
   slug: keap-account-info-api
-- description: The AutomationCategory API from Keap — 2 operation(s) for automationcategory.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The AutomationCategory API from Keap — 2 operation(s) for automationcategory.
   name: Keap Automation Category API
   slug: keap-automationcategory-api
-- description: The Business Profile API from Keap — 1 operation(s) for business profile.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Business Profile API from Keap — 1 operation(s) for business profile.
   name: Keap Business Profile API
   slug: keap-business-profile-api
-- description: Email-Addresses-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Email-Addresses-Endpoint
   name: Keap Email Address API
   slug: keap-email-address-api
-- description: The Integrations API from Keap — 3 operation(s) for integrations.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Integrations API from Keap — 3 operation(s) for integrations.
   name: Keap Integrations API
   slug: keap-integrations-api
-- description: The LeadScore API from Keap — 1 operation(s) for leadscore.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The LeadScore API from Keap — 1 operation(s) for leadscore.
   name: Keap Lead Score API
   slug: keap-leadscore-api
-- description: Locale-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Locale-Endpoint
   name: Keap Locale API
   slug: keap-locale-api
-- description: Merchant-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Merchant-Endpoint
   name: Keap Merchant API
   slug: keap-merchant-api
-- description: The Merchants API from Keap — 1 operation(s) for merchants.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Merchants API from Keap — 1 operation(s) for merchants.
   name: Keap Merchants API
   slug: keap-merchants-api
-- description: The Payment Method Configs API from Keap — 1 operation(s) for payment method configs.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Payment Method Configs API from Keap — 1 operation(s) for payment method configs.
   name: Keap Payment Method Configs API
   slug: keap-payment-method-configs-api
-- description: The Payment Methods API from Keap — 4 operation(s) for payment methods.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Payment Methods API from Keap — 4 operation(s) for payment methods.
   name: Keap Payment Methods API
   slug: keap-payment-methods-api
-- description: The Referral API from Keap — 1 operation(s) for referral.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Referral API from Keap — 1 operation(s) for referral.
   name: Keap Referral API
   slug: keap-referral-api
-- description: The Reporting API from Keap — 4 operation(s) for reporting.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Reporting API from Keap — 4 operation(s) for reporting.
   name: Keap Reporting API
   slug: keap-reporting-api
-- description: The Sales API from Keap — 3 operation(s) for sales.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Sales API from Keap — 3 operation(s) for sales.
   name: Keap Sales API
   slug: keap-sales-api
-- description: Setting-Endpoint
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: Setting-Endpoint
   name: Keap Setting API
   slug: keap-setting-api
-- description: The Settings API from Keap — 3 operation(s) for settings.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Settings API from Keap — 3 operation(s) for settings.
   name: Keap Settings API
   slug: keap-settings-api
-- description: The Shipping API from Keap — 1 operation(s) for shipping.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Shipping API from Keap — 1 operation(s) for shipping.
   name: Keap Shipping API
   slug: keap-shipping-api
-- description: The User Groups API from Keap — 2 operation(s) for user groups.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The User Groups API from Keap — 2 operation(s) for user groups.
   name: Keap User Groups API
   slug: keap-user-groups-api
-- description: The Webforms API from Keap — 2 operation(s) for webforms.
+- baseURL: https://api.infusionsoft.com/crm/rest/v2
+  baseurl_source: declared
+  description: The Webforms API from Keap — 2 operation(s) for webforms.
   name: Keap Webforms API
   slug: keap-webforms-api
 artifact_total: 70
@@ -514,7 +616,7 @@ score:
     catalog_gap: 76.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -524,7 +626,7 @@ score:
     discoverability: 50.0
     governance: 15.9
     operational_transparency: 34.2
-  previous_composite: 62.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -542,7 +644,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:

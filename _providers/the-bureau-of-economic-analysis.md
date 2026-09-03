@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: GDP by industry, input-output accounts, and sector-level data.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: GDP by industry, input-output accounts, and sector-level data.
   name: The Bureau of Economic Analysis Industry API
   slug: the-bureau-of-economic-analysis-industry-api
-- description: International transactions, investment position, and multinational enterprise data.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: International transactions, investment position, and multinational enterprise data.
   name: The Bureau of Economic Analysis International API
   slug: the-bureau-of-economic-analysis-international-api
-- description: Methods for discovering available datasets, parameters, and valid values.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: Methods for discovering available datasets, parameters, and valid values.
   name: The Bureau of Economic Analysis Metadata API
   slug: the-bureau-of-economic-analysis-metadata-api
-- description: National Income and Product Accounts, Fixed Assets, and related national economic statistics.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: National Income and Product Accounts, Fixed Assets, and related national economic statistics.
   name: The Bureau of Economic Analysis National Accounts API
   slug: the-bureau-of-economic-analysis-national-accounts-api
-- description: State, metropolitan area, and county level economic data.
+- baseURL: https://apps.bea.gov/api/data
+  baseurl_source: declared
+  description: State, metropolitan area, and county level economic data.
   name: The Bureau of Economic Analysis Regional API
   slug: the-bureau-of-economic-analysis-regional-api
 artifact_total: 27
@@ -240,7 +250,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-bureau-of-economic-analysis/refs/heads/main/screenshots/the-bureau-of-economic-analysis-2026-06-20T195214.png
 security:

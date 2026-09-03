@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: GraphQL API for managing pipes, cards, phases, fields, organizations, users, webhooks, and AI agents on the Pipefy workflow automation platform. Authentication is performed using an OAuth2 Bearer toke
   name: Pipefy GraphQL API
   slug: graphql-api
-- description: Single GraphQL entry point for all Pipefy operations.
+- baseURL: https://api.pipefy.com/graphql
+  baseurl_source: declared
+  description: Single GraphQL entry point for all Pipefy operations.
   name: Pipefy GraphQL API
   slug: pipefy-graphql-api
 artifact_total: 10
@@ -165,7 +167,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/screenshots/pipefy-2026-06-20T191727.png
 security:

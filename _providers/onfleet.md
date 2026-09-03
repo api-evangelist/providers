@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 54 operations · 33 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: Create, list, fetch, update, clone, force-complete, and delete pickup/dropoff tasks. Tasks are the atomic unit of work in Onfleet — each has a destination, recipient, completion window, optional depen
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Create, list, fetch, update, clone, force-complete, and delete pickup/dropoff tasks. Tasks are the atomic unit of work in Onfleet — each has a destination, recipient, completion window, optional depen
   name: Onfleet Tasks API
   slug: onfleet-tasks-api
-- description: Manage drivers — create, list, update, delete, fetch a worker's assigned tasks, and pull a delivery manifest for compliance reporting. Workers are bound to teams, have vehicle metadata (CAR/MOTORCYCLE
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Manage drivers — create, list, update, delete, fetch a worker's assigned tasks, and pull a delivery manifest for compliance reporting. Workers are bound to teams, have vehicle metadata (CAR/MOTORCYCLE
   name: Onfleet Workers API
   slug: onfleet-workers-api
-- description: Create and manage route plans — ordered sequences of tasks assigned to a worker for a time window — and kick off asynchronous route optimization jobs (task-based, vehicle-based, or auto-dispatch). Opt
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Create and manage route plans — ordered sequences of tasks assigned to a worker for a time window — and kick off asynchronous route optimization jobs (task-based, vehicle-based, or auto-dispatch). Opt
   name: Onfleet Route Plans API
   slug: onfleet-route-plans-api
-- description: Orders represent a pickup-dropoff task pair shared between a courier organization and its clients on the Onfleet Connect network. Clients can quote, create, update, clone, cancel, or reject orders; co
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Orders represent a pickup-dropoff task pair shared between a courier organization and its clients on the Onfleet Connect network. Clients can quote, create, update, clone, cancel, or reject orders; co
   name: Onfleet Orders API
   slug: onfleet-orders-api
-- description: Look up your own organization and connected delegatee organizations on Onfleet Connect, manage administrators (Super and Standard, optionally read-only), create and list teams, and trigger Team Auto-D
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Look up your own organization and connected delegatee organizations on Onfleet Connect, manage administrators (Super and Standard, optionally read-only), create and list teams, and trigger Team Auto-D
   name: Onfleet Organizations & Teams API
   slug: onfleet-organizations-api
-- description: Create and look up end customers (recipients) by ID, name, or E.164 phone number. Recipients carry SMS notification preferences and metadata, and can be reused across tasks.
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Create and look up end customers (recipients) by ID, name, or E.164 phone number. Recipients carry SMS notification preferences and metadata, and can be reused across tasks.
   name: Onfleet Recipients API
   slug: onfleet-recipients-api
-- description: Manage geocoded physical addresses used as task pickup/dropoff locations. Accepts a parsed address structure or a single `unparsed` field; coordinates are returned as GeoJSON [longitude, latitude].
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Manage geocoded physical addresses used as task pickup/dropoff locations. Accepts a parsed address structure or a single `unparsed` field; coordinates are returned as GeoJSON [longitude, latitude].
   name: Onfleet Destinations API
   slug: onfleet-destinations-api
-- description: Register HTTPS callbacks against 27 trigger types covering task lifecycle, worker duty/CRUD, route plan state changes, SMS recipient events, and async job completions (auto-dispatch, task batch create
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: Register HTTPS callbacks against 27 trigger types covering task lifecycle, worker duty/CRUD, route plan state changes, SMS recipient events, and async job completions (auto-dispatch, task batch create
   name: Onfleet Webhooks API
   slug: onfleet-webhooks-api
-- description: The Route Optimization API from Onfleet — 5 operation(s) for route optimization.
+- baseURL: https://onfleet.com/api/v2
+  baseurl_source: declared
+  description: The Route Optimization API from Onfleet — 5 operation(s) for route optimization.
   name: Onfleet Route Optimization API
   slug: onfleet-route-optimization-api
 arazzos:
@@ -511,7 +529,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -521,7 +539,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 62.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     contracts:
@@ -530,7 +548,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:

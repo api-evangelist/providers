@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The api API from Tandoor Recipes — 243 operation(s) for api.
+- baseURL: https://app.tandoor.dev/api/
+  baseurl_source: declared
+  description: The api API from Tandoor Recipes — 243 operation(s) for api.
   name: Tandoor Recipes API
   slug: tandoor-api-api
-- description: The api-token-auth API from Tandoor Recipes — 1 operation(s) for api-token-auth.
+- baseURL: https://app.tandoor.dev/api/
+  baseurl_source: declared
+  description: The api-token-auth API from Tandoor Recipes — 1 operation(s) for api-token-auth.
   name: Tandoor Recipes API Token Auth API
   slug: tandoor-api-token-auth-api
 artifact_total: 7
@@ -178,23 +196,23 @@ rate_limits:
   slug: tandoor-rate-limits
 score:
   band: strong
-  composite: 56.2
+  composite: 57.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.9
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 37.8
+    contract_quality: 41.2
     developer_ergonomics: 49.4
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 58.9
+  previous_composite: 56.2
   provenance:
     conformance: derived
     contracts:
@@ -211,8 +229,9 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/screenshots/tandoor-2026-09-02T162516.png
 security:
 - kind: authentication
   name: Tandoor Authentication

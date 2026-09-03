@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -33,28 +45,44 @@ agentic_access:
   summary_line: 17 operations · 12 acting
 api_count: 7
 apis:
-- description: Authenticate user with MNO or OTP. These endpoints can be directly called by the users.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: Authenticate user with MNO or OTP. These endpoints can be directly called by the users.
   name: TMT ID Authenticate API
   slug: tmt-id-authenticate-api
-- description: The HTTP API API from TMT ID — 3 operation(s) for http api.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The HTTP API API from TMT ID — 3 operation(s) for http api.
   name: TMT ID HTTP API
   slug: tmt-id-http-api-api
-- description: The HTTP API v1.3 API from TMT ID — 2 operation(s) for http api v1.3.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The HTTP API v1.3 API from TMT ID — 2 operation(s) for http api v1.3.
   name: TMT ID HTTP API v1.3 API
   slug: tmt-id-http-api-v1-3-api
-- description: The HTTP API v2.0 API from TMT ID — 3 operation(s) for http api v2.0.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The HTTP API v2.0 API from TMT ID — 3 operation(s) for http api v2.0.
   name: TMT ID HTTP API v2.0 API
   slug: tmt-id-http-api-v2-0-api
-- description: The Network Biometrics API from TMT ID — 1 operation(s) for network biometrics.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The Network Biometrics API from TMT ID — 1 operation(s) for network biometrics.
   name: TMT ID Network Biometrics API
   slug: tmt-id-network-biometrics-api
-- description: Service endpoints
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: Service endpoints
   name: TMT ID Service API
   slug: tmt-id-service-api
-- description: The Standard API Call API from TMT ID — 1 operation(s) for standard api call.
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The Standard API Call API from TMT ID — 1 operation(s) for standard api call.
   name: TMT ID Standard API Call API
   slug: tmt-id-standard-api-call-api
-- description: The v2 (deprecated) API from TMT ID — 2 operation(s) for v2 (deprecated).
+- baseURL: https://api.tmtverify.com
+  baseurl_source: declared
+  description: The v2 (deprecated) API from TMT ID — 2 operation(s) for v2 (deprecated).
   name: TMT ID v2 (deprecated) API
   slug: tmt-id-v2-deprecated-api
 artifact_total: 21
@@ -315,7 +343,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/screenshots/tmt-id-2026-08-17T082402.png
 security:

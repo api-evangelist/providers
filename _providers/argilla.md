@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 73 operations · 44 acting
 api_count: 1
 apis:
-- description: The Authentication API from Argilla — 4 operation(s) for authentication.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The Authentication API from Argilla — 4 operation(s) for authentication.
   name: Argilla Authentication API
   slug: argilla-authentication-api
-- description: The datasets API from Argilla — 19 operation(s) for datasets.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The datasets API from Argilla — 19 operation(s) for datasets.
   name: Argilla datasets API
   slug: argilla-datasets-api
-- description: The fields API from Argilla — 1 operation(s) for fields.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The fields API from Argilla — 1 operation(s) for fields.
   name: Argilla fields API
   slug: argilla-fields-api
-- description: The info API from Argilla — 2 operation(s) for info.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The info API from Argilla — 2 operation(s) for info.
   name: Argilla info API
   slug: argilla-info-api
-- description: The jobs API from Argilla — 1 operation(s) for jobs.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The jobs API from Argilla — 1 operation(s) for jobs.
   name: Argilla jobs API
   slug: argilla-jobs-api
-- description: The metadata properties API from Argilla — 2 operation(s) for metadata properties.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The metadata properties API from Argilla — 2 operation(s) for metadata properties.
   name: Argilla metadata properties API
   slug: argilla-metadata-properties-api
-- description: The questions API from Argilla — 1 operation(s) for questions.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The questions API from Argilla — 1 operation(s) for questions.
   name: Argilla questions API
   slug: argilla-questions-api
-- description: The records API from Argilla — 3 operation(s) for records.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The records API from Argilla — 3 operation(s) for records.
   name: Argilla records API
   slug: argilla-records-api
-- description: The responses API from Argilla — 2 operation(s) for responses.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The responses API from Argilla — 2 operation(s) for responses.
   name: Argilla responses API
   slug: argilla-responses-api
-- description: The settings API from Argilla — 1 operation(s) for settings.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The settings API from Argilla — 1 operation(s) for settings.
   name: Argilla settings API
   slug: argilla-settings-api
-- description: The suggestions API from Argilla — 1 operation(s) for suggestions.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The suggestions API from Argilla — 1 operation(s) for suggestions.
   name: Argilla suggestions API
   slug: argilla-suggestions-api
-- description: The users API from Argilla — 4 operation(s) for users.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The users API from Argilla — 4 operation(s) for users.
   name: Argilla users API
   slug: argilla-users-api
-- description: The vectors-settings API from Argilla — 1 operation(s) for vectors-settings.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The vectors-settings API from Argilla — 1 operation(s) for vectors-settings.
   name: Argilla vectors-settings API
   slug: argilla-vectors-settings-api
-- description: The webhooks API from Argilla — 3 operation(s) for webhooks.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The webhooks API from Argilla — 3 operation(s) for webhooks.
   name: Argilla webhooks API
   slug: argilla-webhooks-api
-- description: The workspaces API from Argilla — 5 operation(s) for workspaces.
+- baseURL: https://argilla.io
+  baseurl_source: declared
+  description: The workspaces API from Argilla — 5 operation(s) for workspaces.
   name: Argilla workspaces API
   slug: argilla-workspaces-api
 artifact_total: 53
@@ -315,7 +345,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
 security:

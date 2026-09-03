@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,22 +57,34 @@ apis:
 - description: API publishing Metro Bank's FCA service-quality and account metrics data (management information required under UK regulatory reporting), documented in the Metro Bank developer portal as the FCA Accou
   name: Metro Bank FCA Account Metrics API
   slug: metro-bank-fca-account-metrics-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Metro Bank ATM API
   slug: metro-bank-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Metro Bank BCA API
   slug: metro-bank-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Metro Bank Branch API
   slug: metro-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Metro Bank CCC API
   slug: metro-bank-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Metro Bank PCA API
   slug: metro-bank-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api.metrobankonline.co.uk/open-banking/v2.3
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Metro Bank SME API
   slug: metro-bank-sme-api
 artifact_total: 16
@@ -220,7 +244,7 @@ score:
     regime_id: banking_open_finance
     score: 65.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:

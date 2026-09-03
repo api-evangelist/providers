@@ -35,16 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Eligibility entries and eligibility-file uploads for a population.
+- baseURL: https://api.color.com/api/v1/external
+  baseurl_source: declared
+  description: Eligibility entries and eligibility-file uploads for a population.
   name: Color Eligibility API
   slug: color-eligibility-api
-- description: 'Read-side queries across a population: participants, results, samples, self-reported results.'
+- baseURL: https://api.color.com/api/v1/external
+  baseurl_source: declared
+  description: 'Read-side queries across a population: participants, results, samples, self-reported results.'
   name: Color Populations API
   slug: color-populations-api
-- description: 'Lab/LIMS sample lifecycle: accession, result reporting, destruction.'
+- baseURL: https://api.color.com/api/v1/external
+  baseurl_source: declared
+  description: 'Lab/LIMS sample lifecycle: accession, result reporting, destruction.'
   name: Color Samples API
   slug: color-samples-api
 artifact_total: 11
@@ -251,7 +257,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:

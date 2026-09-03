@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Published applications and self-hostable app downloads.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Published applications and self-hostable app downloads.
   name: PlayCanvas Apps API
   slug: playcanvas-apps-api
-- description: Project asset create/read/update/delete.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Project asset create/read/update/delete.
   name: PlayCanvas Assets API
   slug: playcanvas-assets-api
-- description: Version-control branches.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Version-control branches.
   name: PlayCanvas Branches API
   slug: playcanvas-branches-api
-- description: Branch checkpoints (snapshots).
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Branch checkpoints (snapshots).
   name: PlayCanvas Checkpoints API
   slug: playcanvas-checkpoints-api
-- description: Asynchronous job polling.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Asynchronous job polling.
   name: PlayCanvas Jobs API
   slug: playcanvas-jobs-api
-- description: Project-level operations.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Project-level operations.
   name: PlayCanvas Projects API
   slug: playcanvas-projects-api
-- description: Account rate-limit inspection.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Account rate-limit inspection.
   name: PlayCanvas RateLimits API
   slug: playcanvas-ratelimits-api
-- description: Project scenes.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: Project scenes.
   name: PlayCanvas Scenes API
   slug: playcanvas-scenes-api
-- description: SuperSplat Gaussian-splat publishing.
+- baseURL: https://playcanvas.com/api
+  baseurl_source: declared
+  description: SuperSplat Gaussian-splat publishing.
   name: PlayCanvas Splats API
   slug: playcanvas-splats-api
 artifact_total: 23
@@ -262,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playcanvas/refs/heads/main/screenshots/playcanvas-2026-08-17T081259.png
 security:

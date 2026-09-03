@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -56,61 +56,99 @@ apis:
 - description: Apicurio Codegen generates Java JAX-RS server stubs and client code from OpenAPI specifications, enabling design-first API development workflows.
   name: Apicurio Codegen
   slug: apicurio-codegen
-- description: The Admin API from Apicurio — 17 operation(s) for admin.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Admin API from Apicurio — 17 operation(s) for admin.
   name: Apicurio Admin API
   slug: apicurio-admin-api
-- description: The AI API from Apicurio — 1 operation(s) for ai.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The AI API from Apicurio — 1 operation(s) for ai.
   name: Apicurio AI API
   slug: apicurio-ai-api
-- description: The Artifact rules API from Apicurio — 2 operation(s) for artifact rules.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Artifact rules API from Apicurio — 2 operation(s) for artifact rules.
   name: Apicurio Artifact rules API
   slug: apicurio-artifact-rules-api
-- description: The Artifact Type API from Apicurio — 1 operation(s) for artifact type.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Artifact Type API from Apicurio — 1 operation(s) for artifact type.
   name: Apicurio Artifact Type API
   slug: apicurio-artifact-type-api
-- description: The Artifacts API from Apicurio — 9 operation(s) for artifacts.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Artifacts API from Apicurio — 9 operation(s) for artifacts.
   name: Apicurio Artifacts API
   slug: apicurio-artifacts-api
-- description: The Branches API from Apicurio — 3 operation(s) for branches.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Branches API from Apicurio — 3 operation(s) for branches.
   name: Apicurio Branches API
   slug: apicurio-branches-api
-- description: The Content API from Apicurio — 1 operation(s) for content.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Content API from Apicurio — 1 operation(s) for content.
   name: Apicurio Content API
   slug: apicurio-content-api
-- description: The Contracts API from Apicurio — 16 operation(s) for contracts.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Contracts API from Apicurio — 16 operation(s) for contracts.
   name: Apicurio Contracts API
   slug: apicurio-contracts-api
-- description: The GitOps API from Apicurio — 2 operation(s) for gitops.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The GitOps API from Apicurio — 2 operation(s) for gitops.
   name: Apicurio GitOps API
   slug: apicurio-gitops-api
-- description: The Global rules API from Apicurio — 2 operation(s) for global rules.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Global rules API from Apicurio — 2 operation(s) for global rules.
   name: Apicurio Global rules API
   slug: apicurio-global-rules-api
-- description: The Group rules API from Apicurio — 2 operation(s) for group rules.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Group rules API from Apicurio — 2 operation(s) for group rules.
   name: Apicurio Group rules API
   slug: apicurio-group-rules-api
-- description: The Groups API from Apicurio — 3 operation(s) for groups.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Groups API from Apicurio — 3 operation(s) for groups.
   name: Apicurio Groups API
   slug: apicurio-groups-api
-- description: The KafkaSQL API from Apicurio — 1 operation(s) for kafkasql.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The KafkaSQL API from Apicurio — 1 operation(s) for kafkasql.
   name: Apicurio KafkaSQL API
   slug: apicurio-kafkasql-api
-- description: The Metadata API from Apicurio — 2 operation(s) for metadata.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Metadata API from Apicurio — 2 operation(s) for metadata.
   name: Apicurio Metadata API
   slug: apicurio-metadata-api
-- description: The Search API from Apicurio — 5 operation(s) for search.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Search API from Apicurio — 5 operation(s) for search.
   name: Apicurio Search API
   slug: apicurio-search-api
-- description: The Snapshot API from Apicurio — 1 operation(s) for snapshot.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Snapshot API from Apicurio — 1 operation(s) for snapshot.
   name: Apicurio Snapshot API
   slug: apicurio-snapshot-api
-- description: The System API from Apicurio — 2 operation(s) for system.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The System API from Apicurio — 2 operation(s) for system.
   name: Apicurio System API
   slug: apicurio-system-api
-- description: The Users API from Apicurio — 1 operation(s) for users.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Users API from Apicurio — 1 operation(s) for users.
   name: Apicurio Users API
   slug: apicurio-users-api
-- description: The Versions API from Apicurio — 11 operation(s) for versions.
+- baseURL: http://localhost:8080/apis/registry/v3
+  baseurl_source: spec
+  description: The Versions API from Apicurio — 11 operation(s) for versions.
   name: Apicurio Versions API
   slug: apicurio-versions-api
 artifact_total: 52
@@ -283,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/screenshots/apicurio-2026-06-20T172228.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 3
 apis:
-- description: Register and manage developer applications
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: Register and manage developer applications
   name: Rainbow Applications API
   slug: rainbow-applications-api
-- description: OAuth2 token management
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: OAuth2 token management
   name: Rainbow Authentication API
   slug: rainbow-authentication-api
-- description: Manage group chat rooms (bubbles)
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: Manage group chat rooms (bubbles)
   name: Rainbow Bubbles API
   slug: rainbow-bubbles-api
-- description: Manage and search contacts
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: Manage and search contacts
   name: Rainbow Contacts API
   slug: rainbow-contacts-api
-- description: Manage one-to-one and group conversations
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: Manage one-to-one and group conversations
   name: Rainbow Conversations API
   slug: rainbow-conversations-api
-- description: Send and receive chat messages
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: Send and receive chat messages
   name: Rainbow Messages API
   slug: rainbow-messages-api
-- description: User profile and presence operations
+- baseURL: https://openrainbow.com/api/rainbow
+  baseurl_source: declared
+  description: User profile and presence operations
   name: Rainbow Users API
   slug: rainbow-users-api
 artifact_total: 34
@@ -278,7 +292,7 @@ score:
     regime_id: telecommunications
     score: 30.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow/refs/heads/main/screenshots/rainbow-2026-06-20T192535.png
 security:

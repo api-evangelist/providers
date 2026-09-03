@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,52 +37,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 15
 apis:
-- description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
   name: iSports API Basketball Common API API
   slug: isports-api-basketball-common-api-api
-- description: The Basketball Live animation API from iSports API — 1 operation(s) for basketball live animation.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Live animation API from iSports API — 1 operation(s) for basketball live animation.
   name: iSports API Basketball Live animation API
   slug: isports-api-basketball-live-animation-api
-- description: The Basketball Live Data API from iSports API — 7 operation(s) for basketball live data.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Live Data API from iSports API — 7 operation(s) for basketball live data.
   name: iSports API Basketball Live Data API
   slug: isports-api-basketball-live-data-api
-- description: The Basketball Odds API from iSports API — 7 operation(s) for basketball odds.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Odds API from iSports API — 7 operation(s) for basketball odds.
   name: iSports API Basketball Odds API
   slug: isports-api-basketball-odds-api
-- description: The Basketball Profile API from iSports API — 7 operation(s) for basketball profile.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Profile API from iSports API — 7 operation(s) for basketball profile.
   name: iSports API Basketball Profile API
   slug: isports-api-basketball-profile-api
-- description: The Basketball Stats API from iSports API — 4 operation(s) for basketball stats.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Basketball Stats API from iSports API — 4 operation(s) for basketball stats.
   name: iSports API Basketball Stats API
   slug: isports-api-basketball-stats-api
-- description: The Football Common API API from iSports API — 8 operation(s) for football common api.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Common API API from iSports API — 8 operation(s) for football common api.
   name: iSports API Football Common API API
   slug: isports-api-football-common-api-api
-- description: The Football European Odds (200+ Agencies) API from iSports API — 1 operation(s) for football european odds (200+ agencies).
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football European Odds (200+ Agencies) API from iSports API — 1 operation(s) for football european odds (200+ agencies).
   name: iSports API Football European Odds (200+ Agencies) API
   slug: isports-api-football-european-odds-200-agencies-api
-- description: The Football Live animation API from iSports API — 1 operation(s) for football live animation.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Live animation API from iSports API — 1 operation(s) for football live animation.
   name: iSports API Football Live animation API
   slug: isports-api-football-live-animation-api
-- description: The Football Live Data API from iSports API — 13 operation(s) for football live data.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Live Data API from iSports API — 13 operation(s) for football live data.
   name: iSports API Football Live Data API
   slug: isports-api-football-live-data-api
-- description: The Football Multiple languages API from iSports API — 6 operation(s) for football multiple languages.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Multiple languages API from iSports API — 6 operation(s) for football multiple languages.
   name: iSports API Football Multiple languages API
   slug: isports-api-football-multiple-languages-api
-- description: The Football Odds (18 Agencies) API from iSports API — 12 operation(s) for football odds (18 agencies).
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Odds (18 Agencies) API from iSports API — 12 operation(s) for football odds (18 agencies).
   name: iSports API Football Odds (18 Agencies) API
   slug: isports-api-football-odds-18-agencies-api
-- description: The Football Other Odds API from iSports API — 23 operation(s) for football other odds.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Other Odds API from iSports API — 23 operation(s) for football other odds.
   name: iSports API Football Other Odds API
   slug: isports-api-football-other-odds-api
-- description: The Football Profile API from iSports API — 8 operation(s) for football profile.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Profile API from iSports API — 8 operation(s) for football profile.
   name: iSports API Football Profile API
   slug: isports-api-football-profile-api
-- description: The Football Stats API from iSports API — 10 operation(s) for football stats.
+- baseURL: https://api.isportsapi.com/
+  baseurl_source: declared
+  description: The Football Stats API from iSports API — 10 operation(s) for football stats.
   name: iSports API Football Stats API
   slug: isports-api-football-stats-api
 artifact_total: 146
@@ -621,7 +665,7 @@ score:
       total: 16
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:

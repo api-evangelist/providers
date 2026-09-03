@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Grip Security is a SaaS security control plane providing identity governance, shadow SaaS discovery, and data loss prevention for cloud applications.
@@ -106,7 +106,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grip-security/refs/heads/main/screenshots/grip-security-2026-06-20T182412.png
 security:

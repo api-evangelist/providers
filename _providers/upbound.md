@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 23 operations · 13 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Managed control plane lifecycle
+- baseURL: https://api.upbound.io/v1
+  baseurl_source: declared
+  description: Managed control plane lifecycle
   name: Upbound Control Planes API
   slug: upbound-control-planes-api
-- description: Organization management
+- baseURL: https://api.upbound.io/v1
+  baseurl_source: declared
+  description: Organization management
   name: Upbound Organizations API
   slug: upbound-organizations-api
-- description: Package registry and repository management
+- baseURL: https://api.upbound.io/v1
+  baseurl_source: declared
+  description: Package registry and repository management
   name: Upbound Repositories API
   slug: upbound-repositories-api
-- description: Robot account and token management
+- baseURL: https://api.upbound.io/v1
+  baseurl_source: declared
+  description: Robot account and token management
   name: Upbound Robots API
   slug: upbound-robots-api
-- description: Team and membership management
+- baseURL: https://api.upbound.io/v1
+  baseurl_source: declared
+  description: Team and membership management
   name: Upbound Teams API
   slug: upbound-teams-api
 artifact_total: 27
@@ -232,7 +242,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/screenshots/upbound-2026-06-20T200438.png
 security:

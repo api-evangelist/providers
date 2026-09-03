@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 69 operations · 43 acting
 api_count: 1
 apis:
-- description: Asset tracking — lifecycle management, inspection forms, bulk operations, and history
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Asset tracking — lifecycle management, inspection forms, bulk operations, and history
   name: Zuper Assets API
   slug: zuper-assets-api
-- description: API key generation and base URL discovery
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: API key generation and base URL discovery
   name: Zuper Authentication API
   slug: zuper-authentication-api
-- description: Customer relationship management — create, update, search, and manage customer records
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Customer relationship management — create, update, search, and manage customer records
   name: Zuper Customers API
   slug: zuper-customers-api
-- description: Invoice generation, management, and status tracking
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Invoice generation, management, and status tracking
   name: Zuper Invoices API
   slug: zuper-invoices-api
-- description: Job lifecycle management — creation, scheduling, assignment, status updates, and route optimization
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Job lifecycle management — creation, scheduling, assignment, status updates, and route optimization
   name: Zuper Jobs API
   slug: zuper-jobs-api
-- description: Customer organization (account) management
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Customer organization (account) management
   name: Zuper Organizations API
   slug: zuper-organizations-api
-- description: Multi-job project management with phases, milestones, and dependencies
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Multi-job project management with phases, milestones, and dependencies
   name: Zuper Projects API
   slug: zuper-projects-api
-- description: Service property management and service task assignment
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Service property management and service task assignment
   name: Zuper Properties API
   slug: zuper-properties-api
-- description: Vendor purchase order management
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Vendor purchase order management
   name: Zuper Purchase Orders API
   slug: zuper-purchase-orders-api
-- description: Field team management and assignments
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Field team management and assignments
   name: Zuper Teams API
   slug: zuper-teams-api
-- description: Field staff timesheet and time-off management
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Field staff timesheet and time-off management
   name: Zuper Timesheets API
   slug: zuper-timesheets-api
-- description: Platform user management and skills tracking
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Platform user management and skills tracking
   name: Zuper Users API
   slug: zuper-users-api
-- description: Vendor management and catalog operations
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Vendor management and catalog operations
   name: Zuper Vendors API
   slug: zuper-vendors-api
-- description: Webhook registration and event subscription management
+- baseURL: https://accounts.zuperpro.com/api
+  baseurl_source: declared
+  description: Webhook registration and event subscription management
   name: Zuper Webhooks API
   slug: zuper-webhooks-api
 artifact_total: 44
@@ -285,7 +313,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuper/refs/heads/main/screenshots/zuper-2026-06-20T202002.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -74,7 +74,9 @@ apis:
 - description: Open-source general-purpose benchmarking tool for turbopuffer deployments. Useful for validating recall, latency, and throughput on a given workload.
   name: tpuf-benchmark
   slug: benchmark
-- description: The Namespaces API from turbopuffer — 12 operation(s) for namespaces.
+- baseURL: https://api.turbopuffer.com
+  baseurl_source: declared
+  description: The Namespaces API from turbopuffer — 12 operation(s) for namespaces.
   name: turbopuffer Namespaces API
   slug: turbopuffer-namespaces-api
 artifact_total: 20
@@ -224,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/screenshots/turbopuffer-2026-06-20T195831.png
 security:

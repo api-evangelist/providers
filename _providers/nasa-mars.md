@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Mission manifest data per rover.
+- baseURL: https://api.nasa.gov/mars-photos/api/v1
+  baseurl_source: declared
+  description: Mission manifest data per rover.
   name: NASA Mars Rovers Manifests API
   slug: nasa-mars-manifests-api
-- description: Retrieve rover photos filtered by sol, Earth date, and camera.
+- baseURL: https://api.nasa.gov/mars-photos/api/v1
+  baseurl_source: declared
+  description: Retrieve rover photos filtered by sol, Earth date, and camera.
   name: NASA Mars Rovers Photos API
   slug: nasa-mars-photos-api
-- description: List and inspect Mars rover records.
+- baseURL: https://api.nasa.gov/mars-photos/api/v1
+  baseurl_source: declared
+  description: List and inspect Mars rover records.
   name: NASA Mars Rovers Rovers API
   slug: nasa-mars-rovers-api
 artifact_total: 20
@@ -218,7 +224,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-mars/refs/heads/main/screenshots/nasa-mars-2026-06-20T185952.png
 security:

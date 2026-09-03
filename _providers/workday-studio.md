@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -53,49 +53,79 @@ apis:
 - description: Low-code integration and automation platform for building event-driven and batch integrations using a visual drag-and-drop builder. Enables developers to create workflows that connect Workday with ext
   name: Workday Orchestrate API
   slug: workday-orchestrate-api
-- description: Web service operations for managing time-off requests, leave balances, absence plans, and return-to-work processes.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for managing time-off requests, leave balances, absence plans, and return-to-work processes.
   name: Workday Studio Absence Management API
   slug: workday-studio-absence-management-api
-- description: Web service operations for benefits enrollment, plan management, coverage administration, and life events processing.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for benefits enrollment, plan management, coverage administration, and life events processing.
   name: Workday Studio Benefits Administration API
   slug: workday-studio-benefits-administration-api
-- description: Web service operations for compensation plans, pay grades, salary structures, and bonus configurations.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for compensation plans, pay grades, salary structures, and bonus configurations.
   name: Workday Studio Compensation API
   slug: workday-studio-compensation-api
-- description: Web service operations for financial accounting, expense management, revenue management, and financial reporting.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for financial accounting, expense management, revenue management, and financial reporting.
   name: Workday Studio Financial Management API
   slug: workday-studio-financial-management-api
-- description: Web service operations for managing employee data, worker records, organizational structures, and HR transactions.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for managing employee data, worker records, organizational structures, and HR transactions.
   name: Workday Studio Human Resources API
   slug: workday-studio-human-resources-api
-- description: Manage Studio integration assemblies, which are the graphical representations of integration logic composed of configurable components.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Manage Studio integration assemblies, which are the graphical representations of integration logic composed of configurable components.
   name: Workday Studio Integration Assemblies API
   slug: workday-studio-integration-assemblies-api
-- description: Monitor and retrieve integration execution events including run status, processing statistics, and error details.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Monitor and retrieve integration execution events including run status, processing statistics, and error details.
   name: Workday Studio Integration Events API
   slug: workday-studio-integration-events-api
-- description: Manage integration systems configured in the Workday tenant, including Studio-built integrations and core connector configurations.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Manage integration systems configured in the Workday tenant, including Studio-built integrations and core connector configurations.
   name: Workday Studio Integration Systems API
   slug: workday-studio-integration-systems-api
-- description: Access available integration templates and core connectors that serve as starting points for building new integrations.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Access available integration templates and core connectors that serve as starting points for building new integrations.
   name: Workday Studio Integration Templates API
   slug: workday-studio-integration-templates-api
-- description: Configure and retrieve launch parameters used to control integration execution behavior at runtime.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Configure and retrieve launch parameters used to control integration execution behavior at runtime.
   name: Workday Studio Launch Parameters API
   slug: workday-studio-launch-parameters-api
-- description: Web service operations for payroll processing, tax management, compensation calculations, and pay component configurations.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for payroll processing, tax management, compensation calculations, and pay component configurations.
   name: Workday Studio Payroll API
   slug: workday-studio-payroll-api
-- description: Web service operations for job postings, candidate management, application tracking, and offer management.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for job postings, candidate management, application tracking, and offer management.
   name: Workday Studio Recruiting API
   slug: workday-studio-recruiting-api
-- description: Operations for discovering available web services, their versions, and WSDL definitions.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Operations for discovering available web services, their versions, and WSDL definitions.
   name: Workday Studio Service Directory API
   slug: workday-studio-service-directory-api
-- description: Web service operations for position management, job requisitions, hiring actions, and organizational staffing.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for position management, job requisitions, hiring actions, and organizational staffing.
   name: Workday Studio Staffing API
   slug: workday-studio-staffing-api
-- description: Web service operations for time entry, timesheet management, time calculations, and clock-in/clock-out records.
+- baseURL_template: https://{baseUrl}/ccx/service/{tenant}
+  baseurl_source: spec_template
+  description: Web service operations for time entry, timesheet management, time calculations, and clock-in/clock-out records.
   name: Workday Studio Time Tracking API
   slug: workday-studio-time-tracking-api
 artifact_total: 133
@@ -555,7 +585,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-studio/refs/heads/main/screenshots/workday-studio-2026-06-20T201611.png
 security:

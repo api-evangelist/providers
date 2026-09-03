@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,16 +107,24 @@ apis:
 - description: ISteamDeepLinkService creates and resolves time-limited deep links into the Steam client and store, useful for marketing campaigns and partner referrals.
   name: ISteamDeepLinkService
   slug: steam-deeplinkservice-api
-- description: The IPlayerService API from Steam — 3 operation(s) for iplayerservice.
+- baseURL: https://api.steampowered.com
+  baseurl_source: spec
+  description: The IPlayerService API from Steam — 3 operation(s) for iplayerservice.
   name: Steam IPlayerService API
   slug: steam-iplayerservice-api
-- description: The ISteamNews API from Steam — 1 operation(s) for isteamnews.
+- baseURL: https://api.steampowered.com
+  baseurl_source: spec
+  description: The ISteamNews API from Steam — 1 operation(s) for isteamnews.
   name: Steam ISteamNews API
   slug: steam-isteamnews-api
-- description: The ISteamUser API from Steam — 4 operation(s) for isteamuser.
+- baseURL: https://api.steampowered.com
+  baseurl_source: spec
+  description: The ISteamUser API from Steam — 4 operation(s) for isteamuser.
   name: Steam ISteamUser API
   slug: steam-isteamuser-api
-- description: The ISteamUserStats API from Steam — 3 operation(s) for isteamuserstats.
+- baseURL: https://api.steampowered.com
+  baseurl_source: spec
+  description: The ISteamUserStats API from Steam — 3 operation(s) for isteamuserstats.
   name: Steam ISteamUserStats API
   slug: steam-isteamuserstats-api
 artifact_total: 37
@@ -312,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/screenshots/steam-2026-06-20T194532.png
 security:

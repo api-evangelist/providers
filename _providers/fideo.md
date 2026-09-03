@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Fideo''s real-time REST API for identity verification, fraud risk scoring, and identity intelligence. Two endpoints share a common multi-field request schema: POST /verify runs a comprehensive suite of'
@@ -158,7 +158,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fideo/refs/heads/main/screenshots/fideo-2026-07-25T214416.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 11 acting
 api_count: 2
 apis:
-- description: Access control list operations for buckets and objects. Supports getting and setting ACLs to control access at the bucket and object level.
+- baseURL_template: http://{objectNodeHost}:{objectNodePort}
+  baseurl_source: spec_template
+  description: Access control list operations for buckets and objects. Supports getting and setting ACLs to control access at the bucket and object level.
   name: CubeFS ACLs API
   slug: cubefs-acls-api
-- description: Bucket-level operations including creating, listing, and deleting buckets. In CubeFS, each S3 bucket corresponds to a CubeFS volume. Bucket names must be unique within the cluster.
+- baseURL_template: http://{objectNodeHost}:{objectNodePort}
+  baseurl_source: spec_template
+  description: Bucket-level operations including creating, listing, and deleting buckets. In CubeFS, each S3 bucket corresponds to a CubeFS volume. Bucket names must be unique within the cluster.
   name: CubeFS Buckets API
   slug: cubefs-buckets-api
-- description: Cluster-level operations including retrieving cluster status, topology, and freezing/unfreezing the cluster to control automatic partition creation.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Cluster-level operations including retrieving cluster status, topology, and freezing/unfreezing the cluster to control automatic partition creation.
   name: CubeFS Cluster API
   slug: cubefs-cluster-api
-- description: Data node management operations including listing nodes, querying node status, decommissioning nodes, and managing data partitions on nodes.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Data node management operations including listing nodes, querying node status, decommissioning nodes, and managing data partitions on nodes.
   name: CubeFS DataNodes API
   slug: cubefs-datanodes-api
-- description: Data partition management including creating, loading, decommissioning, and diagnosing data partitions within volumes.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Data partition management including creating, loading, decommissioning, and diagnosing data partitions within volumes.
   name: CubeFS DataPartitions API
   slug: cubefs-datapartitions-api
-- description: Metadata node management operations including listing nodes, querying node status, decommissioning nodes, and managing metadata partitions.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Metadata node management operations including listing nodes, querying node status, decommissioning nodes, and managing metadata partitions.
   name: CubeFS MetaNodes API
   slug: cubefs-metanodes-api
-- description: Metadata partition management including creating, loading, and decommissioning metadata partitions within volumes.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Metadata partition management including creating, loading, and decommissioning metadata partitions within volumes.
   name: CubeFS MetaPartitions API
   slug: cubefs-metapartitions-api
-- description: Multipart upload operations for uploading large objects in parts. Supports initiating, uploading parts, listing parts, completing, and aborting multipart uploads.
+- baseURL_template: http://{objectNodeHost}:{objectNodePort}
+  baseurl_source: spec_template
+  description: Multipart upload operations for uploading large objects in parts. Supports initiating, uploading parts, listing parts, completing, and aborting multipart uploads.
   name: CubeFS Multipart API
   slug: cubefs-multipart-api
-- description: Object CRUD operations including uploading, downloading, copying, listing, and deleting objects. Supports both standard single-part uploads and multipart uploads for large objects.
+- baseURL_template: http://{objectNodeHost}:{objectNodePort}
+  baseurl_source: spec_template
+  description: Object CRUD operations including uploading, downloading, copying, listing, and deleting objects. Supports both standard single-part uploads and multipart uploads for large objects.
   name: CubeFS Objects API
   slug: cubefs-objects-api
-- description: User and access control management for CubeFS multi-tenancy. Users own volumes and are assigned access keys and secret keys for S3-compatible object storage operations.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: User and access control management for CubeFS multi-tenancy. Users own volumes and are assigned access keys and secret keys for S3-compatible object storage operations.
   name: CubeFS Users API
   slug: cubefs-users-api
-- description: Volume lifecycle management operations including creating, updating, expanding, shrinking, and deleting volumes. Volumes are the top-level storage namespaces in CubeFS.
+- baseURL_template: http://{masterHost}:{masterPort}
+  baseurl_source: spec_template
+  description: Volume lifecycle management operations including creating, updating, expanding, shrinking, and deleting volumes. Volumes are the top-level storage namespaces in CubeFS.
   name: CubeFS Volumes API
   slug: cubefs-volumes-api
 artifact_total: 36
@@ -306,7 +328,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubefs/refs/heads/main/screenshots/cubefs-2026-06-20T175330.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'A live remote Model Context Protocol endpoint serving WINN.AI conversation data to agents. It is published nowhere on the company''s website — it was found by probing RFC 9728 OAuth protected-resource '
@@ -155,7 +155,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 62.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -174,8 +174,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/winnai/refs/heads/main/screenshots/winnai-2026-09-02T170810.png
 security:
 - kind: authentication
   name: Winnai Authentication

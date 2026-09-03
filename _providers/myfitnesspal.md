@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
+- baseURL: https://api.myfitnesspal.com/v2
+  baseurl_source: declared
+  description: Partner REST API for reading and writing a consenting user's food and exercise diary, body measurements, and profile, plus webhook subscriptions for data-change notifications. OAuth 2.0 authorization-
   name: MyFitnessPal API v2
   slug: myfitnesspal-api-v2
 artifact_total: 7
@@ -146,7 +148,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -156,7 +158,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.7
+  previous_composite: 45.5
   provenance:
     conformance: derived
     mcp: derived
@@ -168,7 +170,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfitnesspal/refs/heads/main/screenshots/myfitnesspal-2026-08-07T184519.png
 security:

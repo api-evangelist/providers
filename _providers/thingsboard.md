@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -44,178 +44,294 @@ agentic_access:
   summary_line: 491 operations · 228 acting · 226 human-in-the-loop
 api_count: 15
 apis:
-- description: Admin
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Admin
   name: ThingsBoard admin-controller API
   slug: thingsboard-admin-controller-api
-- description: Ai Model
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Ai Model
   name: ThingsBoard ai-model-controller API
   slug: thingsboard-ai-model-controller-api
-- description: Alarm Comment
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Alarm Comment
   name: ThingsBoard alarm-comment-controller API
   slug: thingsboard-alarm-comment-controller-api
-- description: Alarm
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Alarm
   name: ThingsBoard alarm-controller API
   slug: thingsboard-alarm-controller-api
-- description: Api Key
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Api Key
   name: ThingsBoard api-key-controller API
   slug: thingsboard-api-key-controller-api
-- description: Asset
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Asset
   name: ThingsBoard asset-controller API
   slug: thingsboard-asset-controller-api
-- description: Asset Profile
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Asset Profile
   name: ThingsBoard asset-profile-controller API
   slug: thingsboard-asset-profile-controller-api
-- description: Audit Log
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Audit Log
   name: ThingsBoard audit-log-controller API
   slug: thingsboard-audit-log-controller-api
-- description: Auth
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Auth
   name: ThingsBoard auth-controller API
   slug: thingsboard-auth-controller-api
-- description: Calculated Field
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Calculated Field
   name: ThingsBoard calculated-field-controller API
   slug: thingsboard-calculated-field-controller-api
-- description: Component Descriptor
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Component Descriptor
   name: ThingsBoard component-descriptor-controller API
   slug: thingsboard-component-descriptor-controller-api
-- description: Customer
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Customer
   name: ThingsBoard customer-controller API
   slug: thingsboard-customer-controller-api
-- description: Dashboard
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Dashboard
   name: ThingsBoard dashboard-controller API
   slug: thingsboard-dashboard-controller-api
-- description: Device Connectivity
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Device Connectivity
   name: ThingsBoard device-connectivity-controller API
   slug: thingsboard-device-connectivity-controller-api
-- description: Device
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Device
   name: ThingsBoard device-controller API
   slug: thingsboard-device-controller-api
-- description: Device Profile
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Device Profile
   name: ThingsBoard device-profile-controller API
   slug: thingsboard-device-profile-controller-api
-- description: Domain
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Domain
   name: ThingsBoard domain-controller API
   slug: thingsboard-domain-controller-api
-- description: Edge
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Edge
   name: ThingsBoard edge-controller API
   slug: thingsboard-edge-controller-api
-- description: Edge Event
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Edge Event
   name: ThingsBoard edge-event-controller API
   slug: thingsboard-edge-event-controller-api
-- description: Entities Version Control
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Entities Version Control
   name: ThingsBoard entities-version-control-controller API
   slug: thingsboard-entities-version-control-controller-api
-- description: Entity Query
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Entity Query
   name: ThingsBoard entity-query-controller API
   slug: thingsboard-entity-query-controller-api
-- description: Entity Relation
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Entity Relation
   name: ThingsBoard entity-relation-controller API
   slug: thingsboard-entity-relation-controller-api
-- description: Entity View
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Entity View
   name: ThingsBoard entity-view-controller API
   slug: thingsboard-entity-view-controller-api
-- description: Event
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Event
   name: ThingsBoard event-controller API
   slug: thingsboard-event-controller-api
-- description: Image
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Image
   name: ThingsBoard image-controller API
   slug: thingsboard-image-controller-api
-- description: Job
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Job
   name: ThingsBoard job-controller API
   slug: thingsboard-job-controller-api
-- description: Login
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Login
   name: ThingsBoard login-endpoint API
   slug: thingsboard-login-endpoint-api
-- description: Lwm 2m
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Lwm 2m
   name: ThingsBoard lwm-2m-controller API
   slug: thingsboard-lwm-2m-controller-api
-- description: Mail Config Template
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Mail Config Template
   name: ThingsBoard mail-config-template-controller API
   slug: thingsboard-mail-config-template-controller-api
-- description: Mobile App Bundle
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Mobile App Bundle
   name: ThingsBoard mobile-app-bundle-controller API
   slug: thingsboard-mobile-app-bundle-controller-api
-- description: Mobile App
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Mobile App
   name: ThingsBoard mobile-app-controller API
   slug: thingsboard-mobile-app-controller-api
-- description: Notification
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Notification
   name: ThingsBoard notification-controller API
   slug: thingsboard-notification-controller-api
-- description: Notification Rule
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Notification Rule
   name: ThingsBoard notification-rule-controller API
   slug: thingsboard-notification-rule-controller-api
-- description: Notification Target
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Notification Target
   name: ThingsBoard notification-target-controller API
   slug: thingsboard-notification-target-controller-api
-- description: Notification Template
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Notification Template
   name: ThingsBoard notification-template-controller API
   slug: thingsboard-notification-template-controller-api
-- description: O Auth 2 Config Template
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: O Auth 2 Config Template
   name: ThingsBoard o-auth-2-config-template-controller API
   slug: thingsboard-o-auth-2-config-template-controller-api
-- description: O Auth 2
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: O Auth 2
   name: ThingsBoard o-auth-2-controller API
   slug: thingsboard-o-auth-2-controller-api
-- description: Ota Package
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Ota Package
   name: ThingsBoard ota-package-controller API
   slug: thingsboard-ota-package-controller-api
-- description: Qr Code Settings
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Qr Code Settings
   name: ThingsBoard qr-code-settings-controller API
   slug: thingsboard-qr-code-settings-controller-api
-- description: Queue
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Queue
   name: ThingsBoard queue-controller API
   slug: thingsboard-queue-controller-api
-- description: Queue Stats
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Queue Stats
   name: ThingsBoard queue-stats-controller API
   slug: thingsboard-queue-stats-controller-api
-- description: Rpc V 1
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Rpc V 1
   name: ThingsBoard rpc-v-1-controller API
   slug: thingsboard-rpc-v-1-controller-api
-- description: Rpc V 2
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Rpc V 2
   name: ThingsBoard rpc-v-2-controller API
   slug: thingsboard-rpc-v-2-controller-api
-- description: Rule Chain
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Rule Chain
   name: ThingsBoard rule-chain-controller API
   slug: thingsboard-rule-chain-controller-api
-- description: Rule Engine
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Rule Engine
   name: ThingsBoard rule-engine-controller API
   slug: thingsboard-rule-engine-controller-api
-- description: Sign Up
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Sign Up
   name: ThingsBoard sign-up-controller API
   slug: thingsboard-sign-up-controller-api
-- description: Tb Resource
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Tb Resource
   name: ThingsBoard tb-resource-controller API
   slug: thingsboard-tb-resource-controller-api
-- description: Telemetry
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Telemetry
   name: ThingsBoard telemetry-controller API
   slug: thingsboard-telemetry-controller-api
-- description: Tenant
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Tenant
   name: ThingsBoard tenant-controller API
   slug: thingsboard-tenant-controller-api
-- description: Tenant Profile
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Tenant Profile
   name: ThingsBoard tenant-profile-controller API
   slug: thingsboard-tenant-profile-controller-api
-- description: Trendz
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Trendz
   name: ThingsBoard trendz-controller API
   slug: thingsboard-trendz-controller-api
-- description: Two Factor Auth Config
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Two Factor Auth Config
   name: ThingsBoard two-factor-auth-config-controller API
   slug: thingsboard-two-factor-auth-config-controller-api
-- description: Two Factor Auth
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Two Factor Auth
   name: ThingsBoard two-factor-auth-controller API
   slug: thingsboard-two-factor-auth-controller-api
-- description: Ui Settings
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Ui Settings
   name: ThingsBoard ui-settings-controller API
   slug: thingsboard-ui-settings-controller-api
-- description: Usage Info
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Usage Info
   name: ThingsBoard usage-info-controller API
   slug: thingsboard-usage-info-controller-api
-- description: User
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: User
   name: ThingsBoard user-controller API
   slug: thingsboard-user-controller-api
-- description: Widget Type
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Widget Type
   name: ThingsBoard widget-type-controller API
   slug: thingsboard-widget-type-controller-api
-- description: Widgets Bundle
+- baseURL: https://demo.thingsboard.io
+  baseurl_source: spec
+  description: Widgets Bundle
   name: ThingsBoard widgets-bundle-controller API
   slug: thingsboard-widgets-bundle-controller-api
 artifact_total: 232
@@ -941,7 +1057,7 @@ score:
       marker_coverage: 0.0
       total: 58
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:

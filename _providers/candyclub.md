@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the CandyClub Shopify storefront: a Universal Commerce Protocol (UCP) MCP endpoint plus read-only storefront browsing, governed by an llms.txt agent guide and Shopify'
@@ -129,7 +129,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candyclub/refs/heads/main/screenshots/candyclub-2026-08-07T162931.png
 security:

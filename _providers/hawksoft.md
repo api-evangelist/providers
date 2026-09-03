@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Agencies and their offices
+- baseURL: https://integration.hawksoft.app
+  baseurl_source: declared
+  description: Agencies and their offices
   name: HawkSoft Agencies API
   slug: hawksoft-agencies-api
-- description: File attachments on client records
+- baseURL: https://integration.hawksoft.app
+  baseurl_source: declared
+  description: File attachments on client records
   name: HawkSoft Attachments API
   slug: hawksoft-attachments-api
-- description: Client records including contacts, policies, coverages, vehicles, and drivers
+- baseURL: https://integration.hawksoft.app
+  baseurl_source: declared
+  description: Client records including contacts, policies, coverages, vehicles, and drivers
   name: HawkSoft Clients API
   slug: hawksoft-clients-api
-- description: Write-back activity log notes
+- baseURL: https://integration.hawksoft.app
+  baseurl_source: declared
+  description: Write-back activity log notes
   name: HawkSoft Log Entries API
   slug: hawksoft-log-entries-api
-- description: Payment receipts on client records
+- baseURL: https://integration.hawksoft.app
+  baseurl_source: declared
+  description: Payment receipts on client records
   name: HawkSoft Receipts API
   slug: hawksoft-receipts-api
 artifact_total: 17
@@ -186,7 +196,7 @@ score:
     regime_id: insurance
     score: 24.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:

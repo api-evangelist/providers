@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -33,64 +44,104 @@ agentic_access:
   summary_line: 147 operations · 109 acting
 api_count: 1
 apis:
-- description: The Alert API from BioFlyte — 4 operation(s) for alert.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Alert API from BioFlyte — 4 operation(s) for alert.
   name: BioFlyte Alert API
   slug: bioflyte-alert-api
-- description: The Client API from BioFlyte — 1 operation(s) for client.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Client API from BioFlyte — 1 operation(s) for client.
   name: BioFlyte Client API
   slug: bioflyte-client-api
-- description: The Comments API from BioFlyte — 2 operation(s) for comments.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Comments API from BioFlyte — 2 operation(s) for comments.
   name: BioFlyte Comments API
   slug: bioflyte-comments-api
-- description: The Discovery API from BioFlyte — 6 operation(s) for discovery.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Discovery API from BioFlyte — 6 operation(s) for discovery.
   name: BioFlyte Discovery API
   slug: bioflyte-discovery-api
-- description: The Files API from BioFlyte — 3 operation(s) for files.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Files API from BioFlyte — 3 operation(s) for files.
   name: BioFlyte Files API
   slug: bioflyte-files-api
-- description: The Filters API from BioFlyte — 22 operation(s) for filters.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Filters API from BioFlyte — 22 operation(s) for filters.
   name: BioFlyte Filters API
   slug: bioflyte-filters-api
-- description: The Locations API from BioFlyte — 1 operation(s) for locations.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Locations API from BioFlyte — 1 operation(s) for locations.
   name: BioFlyte Locations API
   slug: bioflyte-locations-api
-- description: The Media API from BioFlyte — 2 operation(s) for media.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Media API from BioFlyte — 2 operation(s) for media.
   name: BioFlyte Media API
   slug: bioflyte-media-api
-- description: The Organization API from BioFlyte — 1 operation(s) for organization.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Organization API from BioFlyte — 1 operation(s) for organization.
   name: BioFlyte Organization API
   slug: bioflyte-organization-api
-- description: The Pages API from BioFlyte — 2 operation(s) for pages.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Pages API from BioFlyte — 2 operation(s) for pages.
   name: BioFlyte Pages API
   slug: bioflyte-pages-api
-- description: The Permissions API from BioFlyte — 4 operation(s) for permissions.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Permissions API from BioFlyte — 4 operation(s) for permissions.
   name: BioFlyte Permissions API
   slug: bioflyte-permissions-api
-- description: The Press Releases API from BioFlyte — 2 operation(s) for press releases.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Press Releases API from BioFlyte — 2 operation(s) for press releases.
   name: BioFlyte Press Releases API
   slug: bioflyte-press-releases-api
-- description: The Projects API from BioFlyte — 6 operation(s) for projects.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Projects API from BioFlyte — 6 operation(s) for projects.
   name: BioFlyte Projects API
   slug: bioflyte-projects-api
-- description: The RequestHelp API from BioFlyte — 1 operation(s) for requesthelp.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The RequestHelp API from BioFlyte — 1 operation(s) for requesthelp.
   name: BioFlyte Request Help API
   slug: bioflyte-requesthelp-api
-- description: The Resources API from BioFlyte — 4 operation(s) for resources.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Resources API from BioFlyte — 4 operation(s) for resources.
   name: BioFlyte Resources API
   slug: bioflyte-resources-api
-- description: The Search API from BioFlyte — 1 operation(s) for search.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Search API from BioFlyte — 1 operation(s) for search.
   name: BioFlyte Search API
   slug: bioflyte-search-api
-- description: The Settings API from BioFlyte — 1 operation(s) for settings.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Settings API from BioFlyte — 1 operation(s) for settings.
   name: BioFlyte Settings API
   slug: bioflyte-settings-api
-- description: The Taxonomy API from BioFlyte — 6 operation(s) for taxonomy.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Taxonomy API from BioFlyte — 6 operation(s) for taxonomy.
   name: BioFlyte Taxonomy API
   slug: bioflyte-taxonomy-api
-- description: The Test API from BioFlyte — 3 operation(s) for test.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Test API from BioFlyte — 3 operation(s) for test.
   name: BioFlyte Test API
   slug: bioflyte-test-api
-- description: The Users API from BioFlyte — 3 operation(s) for users.
+- baseURL: https://portal.bioflyte.com
+  baseurl_source: declared
+  description: The Users API from BioFlyte — 3 operation(s) for users.
   name: BioFlyte Users API
   slug: bioflyte-users-api
 artifact_total: 48
@@ -310,7 +361,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -320,7 +371,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 25.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -332,7 +383,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

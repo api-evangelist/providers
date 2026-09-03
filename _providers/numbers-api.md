@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The Date API from Numbers API — 1 operation(s) for date.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Date API from Numbers API — 1 operation(s) for date.
   name: Numbers API Date API
   slug: numbers-api-date-api
-- description: The Math API from Numbers API — 1 operation(s) for math.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Math API from Numbers API — 1 operation(s) for math.
   name: Numbers API Math API
   slug: numbers-api-math-api
-- description: The Numbers API API from Numbers API — 1 operation(s) for numbers api.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Numbers API API from Numbers API — 1 operation(s) for numbers api.
   name: Numbers API Numbers API API
   slug: numbers-api-numbers-api-api
-- description: The Random API from Numbers API — 4 operation(s) for random.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Random API from Numbers API — 4 operation(s) for random.
   name: Numbers API Random API
   slug: numbers-api-random-api
-- description: The Trivia API from Numbers API — 1 operation(s) for trivia.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Trivia API from Numbers API — 1 operation(s) for trivia.
   name: Numbers API Trivia API
   slug: numbers-api-trivia-api
-- description: The Year API from Numbers API — 1 operation(s) for year.
+- baseURL: http://numbersapi.com
+  baseurl_source: declared
+  description: The Year API from Numbers API — 1 operation(s) for year.
   name: Numbers API Year API
   slug: numbers-api-year-api
 artifact_total: 26
@@ -234,7 +246,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/screenshots/numbers-api-2026-06-20T190517.png
 security:

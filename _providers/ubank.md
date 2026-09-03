@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: ubank Banking Account Balances API
   slug: ubank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: ubank Banking Account Direct Debits API
   slug: ubank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: ubank Banking Account Scheduled Payments API
   slug: ubank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: ubank Banking Account Transactions API
   slug: ubank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: ubank Banking Accounts API
   slug: ubank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: ubank Banking Payees API
   slug: ubank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://public.cdr-api.86400.com.au/cds-au/v1
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: ubank Banking Products API
   slug: ubank-banking-products-api
 artifact_total: 19
@@ -221,7 +235,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubank/refs/heads/main/screenshots/ubank-2026-07-21T114753.png
 security:

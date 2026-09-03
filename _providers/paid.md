@@ -33,73 +33,117 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The agents API from Paid — 3 operation(s) for agents.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The agents API from Paid — 3 operation(s) for agents.
   name: Paid agents API
   slug: paid-agents-api
-- description: The analyticsExperimental API from Paid — 3 operation(s) for analyticsexperimental.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The analyticsExperimental API from Paid — 3 operation(s) for analyticsexperimental.
   name: Paid analyticsExperimental API
   slug: paid-analyticsexperimental-api
-- description: The checkouts API from Paid — 2 operation(s) for checkouts.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The checkouts API from Paid — 2 operation(s) for checkouts.
   name: Paid checkouts API
   slug: paid-checkouts-api
-- description: The contacts API from Paid — 5 operation(s) for contacts.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The contacts API from Paid — 5 operation(s) for contacts.
   name: Paid contacts API
   slug: paid-contacts-api
-- description: The costs API from Paid — 1 operation(s) for costs.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The costs API from Paid — 1 operation(s) for costs.
   name: Paid costs API
   slug: paid-costs-api
-- description: The credits API from Paid — 2 operation(s) for credits.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The credits API from Paid — 2 operation(s) for credits.
   name: Paid credits API
   slug: paid-credits-api
-- description: The customer-groups API from Paid — 3 operation(s) for customer-groups.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The customer-groups API from Paid — 3 operation(s) for customer-groups.
   name: Paid customer-groups API
   slug: paid-customer-groups-api
-- description: The customer-portals API from Paid — 1 operation(s) for customer-portals.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The customer-portals API from Paid — 1 operation(s) for customer-portals.
   name: Paid customer-portals API
   slug: paid-customer-portals-api
-- description: The customers API from Paid — 22 operation(s) for customers.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The customers API from Paid — 22 operation(s) for customers.
   name: Paid customers API
   slug: paid-customers-api
-- description: The customViewsExperimental API from Paid — 6 operation(s) for customviewsexperimental.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The customViewsExperimental API from Paid — 6 operation(s) for customviewsexperimental.
   name: Paid customViewsExperimental API
   slug: paid-customviewsexperimental-api
-- description: The invoices API from Paid — 3 operation(s) for invoices.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The invoices API from Paid — 3 operation(s) for invoices.
   name: Paid invoices API
   slug: paid-invoices-api
-- description: The orders API from Paid — 14 operation(s) for orders.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The orders API from Paid — 14 operation(s) for orders.
   name: Paid orders API
   slug: paid-orders-api
-- description: The orders > lines API from Paid — 1 operation(s) for orders > lines.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The orders > lines API from Paid — 1 operation(s) for orders > lines.
   name: Paid orders > lines API
   slug: paid-orders-lines-api
-- description: The plans API from Paid — 12 operation(s) for plans.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The plans API from Paid — 12 operation(s) for plans.
   name: Paid plans API
   slug: paid-plans-api
-- description: The pricing API from Paid — 2 operation(s) for pricing.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The pricing API from Paid — 2 operation(s) for pricing.
   name: Paid pricing API
   slug: paid-pricing-api
-- description: The products API from Paid — 5 operation(s) for products.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The products API from Paid — 5 operation(s) for products.
   name: Paid products API
   slug: paid-products-api
-- description: The signals API from Paid — 1 operation(s) for signals.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The signals API from Paid — 1 operation(s) for signals.
   name: Paid signals API
   slug: paid-signals-api
-- description: The traces API from Paid — 1 operation(s) for traces.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The traces API from Paid — 1 operation(s) for traces.
   name: Paid traces API
   slug: paid-traces-api
-- description: The usage API from Paid — 3 operation(s) for usage.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The usage API from Paid — 3 operation(s) for usage.
   name: Paid usage API
   slug: paid-usage-api
-- description: The value-models API from Paid — 4 operation(s) for value-models.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The value-models API from Paid — 4 operation(s) for value-models.
   name: Paid value-models API
   slug: paid-value-models-api
-- description: The value-receipts API from Paid — 9 operation(s) for value-receipts.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The value-receipts API from Paid — 9 operation(s) for value-receipts.
   name: Paid value-receipts API
   slug: paid-value-receipts-api
-- description: The webhooks API from Paid — 4 operation(s) for webhooks.
+- baseURL: https://api.agentpaid.io/api/v2
+  baseurl_source: declared
+  description: The webhooks API from Paid — 4 operation(s) for webhooks.
   name: Paid webhooks API
   slug: paid-webhooks-api
 artifact_total: 49
@@ -322,7 +366,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -332,7 +376,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 50.3
+  previous_composite: 50.1
   provenance:
     conformance: derived
     contracts:
@@ -349,7 +393,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:

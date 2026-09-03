@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -43,235 +43,389 @@ agentic_access:
   summary_line: 122 operations · 56 acting · 3 human-in-the-loop
 api_count: 17
 apis:
-- description: The Accelerometer API from Microsoft Windows 10 — 1 operation(s) for accelerometer.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Accelerometer API from Microsoft Windows 10 — 1 operation(s) for accelerometer.
   name: Microsoft Windows 10 Accelerometer API
   slug: microsoft-windows-10-accelerometer-api
-- description: The Access API from Microsoft Windows 10 — 2 operation(s) for access.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Access API from Microsoft Windows 10 — 2 operation(s) for access.
   name: Microsoft Windows 10 Access API
   slug: microsoft-windows-10-access-api
-- description: The Activation API from Microsoft Windows 10 — 1 operation(s) for activation.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Activation API from Microsoft Windows 10 — 1 operation(s) for activation.
   name: Microsoft Windows 10 Activation API
   slug: microsoft-windows-10-activation-api
-- description: The Animations API from Microsoft Windows 10 — 1 operation(s) for animations.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Animations API from Microsoft Windows 10 — 1 operation(s) for animations.
   name: Microsoft Windows 10 Animations API
   slug: microsoft-windows-10-animations-api
-- description: The API Categories API from Microsoft Windows 10 — 1 operation(s) for api categories.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The API Categories API from Microsoft Windows 10 — 1 operation(s) for api categories.
   name: Microsoft Windows 10 API Categories API
   slug: microsoft-windows-10-api-categories-api
-- description: The App Data API from Microsoft Windows 10 — 1 operation(s) for app data.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The App Data API from Microsoft Windows 10 — 1 operation(s) for app data.
   name: Microsoft Windows 10 App Data API
   slug: microsoft-windows-10-app-data-api
-- description: The Attestation API from Microsoft Windows 10 — 1 operation(s) for attestation.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Attestation API from Microsoft Windows 10 — 1 operation(s) for attestation.
   name: Microsoft Windows 10 Attestation API
   slug: microsoft-windows-10-attestation-api
-- description: The Authentication API from Microsoft Windows 10 — 2 operation(s) for authentication.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Authentication API from Microsoft Windows 10 — 2 operation(s) for authentication.
   name: Microsoft Windows 10 Authentication API
   slug: microsoft-windows-10-authentication-api
-- description: The Availability API from Microsoft Windows 10 — 1 operation(s) for availability.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Availability API from Microsoft Windows 10 — 1 operation(s) for availability.
   name: Microsoft Windows 10 Availability API
   slug: microsoft-windows-10-availability-api
-- description: The Background Transfers API from Microsoft Windows 10 — 1 operation(s) for background transfers.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Background Transfers API from Microsoft Windows 10 — 1 operation(s) for background transfers.
   name: Microsoft Windows 10 Background Transfers API
   slug: microsoft-windows-10-background-transfers-api
-- description: The Badge Notifications API from Microsoft Windows 10 — 1 operation(s) for badge notifications.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Badge Notifications API from Microsoft Windows 10 — 1 operation(s) for badge notifications.
   name: Microsoft Windows 10 Badge Notifications API
   slug: microsoft-windows-10-badge-notifications-api
-- description: The Barometer API from Microsoft Windows 10 — 1 operation(s) for barometer.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Barometer API from Microsoft Windows 10 — 1 operation(s) for barometer.
   name: Microsoft Windows 10 Barometer API
   slug: microsoft-windows-10-barometer-api
-- description: The BLE Scanning API from Microsoft Windows 10 — 1 operation(s) for ble scanning.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The BLE Scanning API from Microsoft Windows 10 — 1 operation(s) for ble scanning.
   name: Microsoft Windows 10 BLE Scanning API
   slug: microsoft-windows-10-ble-scanning-api
-- description: The Change Tracking API from Microsoft Windows 10 — 1 operation(s) for change tracking.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Change Tracking API from Microsoft Windows 10 — 1 operation(s) for change tracking.
   name: Microsoft Windows 10 Change Tracking API
   slug: microsoft-windows-10-change-tracking-api
-- description: The Classes API from Microsoft Windows 10 — 2 operation(s) for classes.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Classes API from Microsoft Windows 10 — 2 operation(s) for classes.
   name: Microsoft Windows 10 Classes API
   slug: microsoft-windows-10-classes-api
-- description: The Collections API from Microsoft Windows 10 — 1 operation(s) for collections.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Collections API from Microsoft Windows 10 — 1 operation(s) for collections.
   name: Microsoft Windows 10 Collections API
   slug: microsoft-windows-10-collections-api
-- description: The Command Queues API from Microsoft Windows 10 — 1 operation(s) for command queues.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Command Queues API from Microsoft Windows 10 — 1 operation(s) for command queues.
   name: Microsoft Windows 10 Command Queues API
   slug: microsoft-windows-10-command-queues-api
-- description: The Compass API from Microsoft Windows 10 — 1 operation(s) for compass.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Compass API from Microsoft Windows 10 — 1 operation(s) for compass.
   name: Microsoft Windows 10 Compass API
   slug: microsoft-windows-10-compass-api
-- description: The Connectivity API from Microsoft Windows 10 — 1 operation(s) for connectivity.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Connectivity API from Microsoft Windows 10 — 1 operation(s) for connectivity.
   name: Microsoft Windows 10 Connectivity API
   slug: microsoft-windows-10-connectivity-api
-- description: The Controls API from Microsoft Windows 10 — 2 operation(s) for controls.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Controls API from Microsoft Windows 10 — 2 operation(s) for controls.
   name: Microsoft Windows 10 Controls API
   slug: microsoft-windows-10-controls-api
-- description: The Credentials API from Microsoft Windows 10 — 2 operation(s) for credentials.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Credentials API from Microsoft Windows 10 — 2 operation(s) for credentials.
   name: Microsoft Windows 10 Credentials API
   slug: microsoft-windows-10-credentials-api
-- description: The Devices API from Microsoft Windows 10 — 6 operation(s) for devices.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Devices API from Microsoft Windows 10 — 6 operation(s) for devices.
   name: Microsoft Windows 10 Devices API
   slug: microsoft-windows-10-devices-api
-- description: The Drawing Attributes API from Microsoft Windows 10 — 1 operation(s) for drawing attributes.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Drawing Attributes API from Microsoft Windows 10 — 1 operation(s) for drawing attributes.
   name: Microsoft Windows 10 Drawing Attributes API
   slug: microsoft-windows-10-drawing-attributes-api
-- description: The Effects API from Microsoft Windows 10 — 1 operation(s) for effects.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Effects API from Microsoft Windows 10 — 1 operation(s) for effects.
   name: Microsoft Windows 10 Effects API
   slug: microsoft-windows-10-effects-api
-- description: The Evaluation API from Microsoft Windows 10 — 1 operation(s) for evaluation.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Evaluation API from Microsoft Windows 10 — 1 operation(s) for evaluation.
   name: Microsoft Windows 10 Evaluation API
   slug: microsoft-windows-10-evaluation-api
-- description: The File Operations API from Microsoft Windows 10 — 1 operation(s) for file operations.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The File Operations API from Microsoft Windows 10 — 1 operation(s) for file operations.
   name: Microsoft Windows 10 File Operations API
   slug: microsoft-windows-10-file-operations-api
-- description: The Files API from Microsoft Windows 10 — 2 operation(s) for files.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Files API from Microsoft Windows 10 — 2 operation(s) for files.
   name: Microsoft Windows 10 Files API
   slug: microsoft-windows-10-files-api
-- description: The Folders API from Microsoft Windows 10 — 1 operation(s) for folders.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Folders API from Microsoft Windows 10 — 1 operation(s) for folders.
   name: Microsoft Windows 10 Folders API
   slug: microsoft-windows-10-folders-api
-- description: The Functions API from Microsoft Windows 10 — 2 operation(s) for functions.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Functions API from Microsoft Windows 10 — 2 operation(s) for functions.
   name: Microsoft Windows 10 Functions API
   slug: microsoft-windows-10-functions-api
-- description: The GATT Characteristics API from Microsoft Windows 10 — 1 operation(s) for gatt characteristics.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The GATT Characteristics API from Microsoft Windows 10 — 1 operation(s) for gatt characteristics.
   name: Microsoft Windows 10 GATT Characteristics API
   slug: microsoft-windows-10-gatt-characteristics-api
-- description: The GATT Operations API from Microsoft Windows 10 — 1 operation(s) for gatt operations.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The GATT Operations API from Microsoft Windows 10 — 1 operation(s) for gatt operations.
   name: Microsoft Windows 10 GATT Operations API
   slug: microsoft-windows-10-gatt-operations-api
-- description: The GATT Services API from Microsoft Windows 10 — 1 operation(s) for gatt services.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The GATT Services API from Microsoft Windows 10 — 1 operation(s) for gatt services.
   name: Microsoft Windows 10 GATT Services API
   slug: microsoft-windows-10-gatt-services-api
-- description: The Geofencing API from Microsoft Windows 10 — 1 operation(s) for geofencing.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Geofencing API from Microsoft Windows 10 — 1 operation(s) for geofencing.
   name: Microsoft Windows 10 Geofencing API
   slug: microsoft-windows-10-geofencing-api
-- description: The Gyrometer API from Microsoft Windows 10 — 1 operation(s) for gyrometer.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Gyrometer API from Microsoft Windows 10 — 1 operation(s) for gyrometer.
   name: Microsoft Windows 10 Gyrometer API
   slug: microsoft-windows-10-gyrometer-api
-- description: The HTTP Client API from Microsoft Windows 10 — 1 operation(s) for http client.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The HTTP Client API from Microsoft Windows 10 — 1 operation(s) for http client.
   name: Microsoft Windows 10 HTTP Client API
   slug: microsoft-windows-10-http-client-api
-- description: The Human Presence API from Microsoft Windows 10 — 1 operation(s) for human presence.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Human Presence API from Microsoft Windows 10 — 1 operation(s) for human presence.
   name: Microsoft Windows 10 Human Presence API
   slug: microsoft-windows-10-human-presence-api
-- description: The Icons API from Microsoft Windows 10 — 1 operation(s) for icons.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Icons API from Microsoft Windows 10 — 1 operation(s) for icons.
   name: Microsoft Windows 10 Icons API
   slug: microsoft-windows-10-icons-api
-- description: The Inclinometer API from Microsoft Windows 10 — 1 operation(s) for inclinometer.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Inclinometer API from Microsoft Windows 10 — 1 operation(s) for inclinometer.
   name: Microsoft Windows 10 Inclinometer API
   slug: microsoft-windows-10-inclinometer-api
-- description: The Libraries API from Microsoft Windows 10 — 1 operation(s) for libraries.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Libraries API from Microsoft Windows 10 — 1 operation(s) for libraries.
   name: Microsoft Windows 10 Libraries API
   slug: microsoft-windows-10-libraries-api
-- description: The Light Sensor API from Microsoft Windows 10 — 1 operation(s) for light sensor.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Light Sensor API from Microsoft Windows 10 — 1 operation(s) for light sensor.
   name: Microsoft Windows 10 Light Sensor API
   slug: microsoft-windows-10-light-sensor-api
-- description: The Messages API from Microsoft Windows 10 — 1 operation(s) for messages.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Messages API from Microsoft Windows 10 — 1 operation(s) for messages.
   name: Microsoft Windows 10 Messages API
   slug: microsoft-windows-10-messages-api
-- description: The Models API from Microsoft Windows 10 — 2 operation(s) for models.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Models API from Microsoft Windows 10 — 2 operation(s) for models.
   name: Microsoft Windows 10 Models API
   slug: microsoft-windows-10-models-api
-- description: The Namespaces API from Microsoft Windows 10 — 1 operation(s) for namespaces.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Namespaces API from Microsoft Windows 10 — 1 operation(s) for namespaces.
   name: Microsoft Windows 10 Namespaces API
   slug: microsoft-windows-10-namespaces-api
-- description: The Orientation API from Microsoft Windows 10 — 1 operation(s) for orientation.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Orientation API from Microsoft Windows 10 — 1 operation(s) for orientation.
   name: Microsoft Windows 10 Orientation API
   slug: microsoft-windows-10-orientation-api
-- description: The Pedometer API from Microsoft Windows 10 — 1 operation(s) for pedometer.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Pedometer API from Microsoft Windows 10 — 1 operation(s) for pedometer.
   name: Microsoft Windows 10 Pedometer API
   slug: microsoft-windows-10-pedometer-api
-- description: The Photo Capture API from Microsoft Windows 10 — 1 operation(s) for photo capture.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Photo Capture API from Microsoft Windows 10 — 1 operation(s) for photo capture.
   name: Microsoft Windows 10 Photo Capture API
   slug: microsoft-windows-10-photo-capture-api
-- description: The Phrase Lists API from Microsoft Windows 10 — 1 operation(s) for phrase lists.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Phrase Lists API from Microsoft Windows 10 — 1 operation(s) for phrase lists.
   name: Microsoft Windows 10 Phrase Lists API
   slug: microsoft-windows-10-phrase-lists-api
-- description: The Pipeline API from Microsoft Windows 10 — 1 operation(s) for pipeline.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Pipeline API from Microsoft Windows 10 — 1 operation(s) for pipeline.
   name: Microsoft Windows 10 Pipeline API
   slug: microsoft-windows-10-pipeline-api
-- description: The Position API from Microsoft Windows 10 — 1 operation(s) for position.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Position API from Microsoft Windows 10 — 1 operation(s) for position.
   name: Microsoft Windows 10 Position API
   slug: microsoft-windows-10-position-api
-- description: The Presentation API from Microsoft Windows 10 — 1 operation(s) for presentation.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Presentation API from Microsoft Windows 10 — 1 operation(s) for presentation.
   name: Microsoft Windows 10 Presentation API
   slug: microsoft-windows-10-presentation-api
-- description: The Preview API from Microsoft Windows 10 — 2 operation(s) for preview.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Preview API from Microsoft Windows 10 — 2 operation(s) for preview.
   name: Microsoft Windows 10 Preview API
   slug: microsoft-windows-10-preview-api
-- description: The Proximity API from Microsoft Windows 10 — 1 operation(s) for proximity.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Proximity API from Microsoft Windows 10 — 1 operation(s) for proximity.
   name: Microsoft Windows 10 Proximity API
   slug: microsoft-windows-10-proximity-api
-- description: The Recognition API from Microsoft Windows 10 — 2 operation(s) for recognition.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Recognition API from Microsoft Windows 10 — 2 operation(s) for recognition.
   name: Microsoft Windows 10 Recognition API
   slug: microsoft-windows-10-recognition-api
-- description: The Resources API from Microsoft Windows 10 — 1 operation(s) for resources.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Resources API from Microsoft Windows 10 — 1 operation(s) for resources.
   name: Microsoft Windows 10 Resources API
   slug: microsoft-windows-10-resources-api
-- description: The Responses API from Microsoft Windows 10 — 1 operation(s) for responses.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Responses API from Microsoft Windows 10 — 1 operation(s) for responses.
   name: Microsoft Windows 10 Responses API
   slug: microsoft-windows-10-responses-api
-- description: The RFCOMM API from Microsoft Windows 10 — 1 operation(s) for rfcomm.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The RFCOMM API from Microsoft Windows 10 — 1 operation(s) for rfcomm.
   name: Microsoft Windows 10 RFCOMM API
   slug: microsoft-windows-10-rfcomm-api
-- description: The Scheduled Notifications API from Microsoft Windows 10 — 1 operation(s) for scheduled notifications.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Scheduled Notifications API from Microsoft Windows 10 — 1 operation(s) for scheduled notifications.
   name: Microsoft Windows 10 Scheduled Notifications API
   slug: microsoft-windows-10-scheduled-notifications-api
-- description: The Sensors API from Microsoft Windows 10 — 1 operation(s) for sensors.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Sensors API from Microsoft Windows 10 — 1 operation(s) for sensors.
   name: Microsoft Windows 10 Sensors API
   slug: microsoft-windows-10-sensors-api
-- description: The Service Connections API from Microsoft Windows 10 — 1 operation(s) for service connections.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Service Connections API from Microsoft Windows 10 — 1 operation(s) for service connections.
   name: Microsoft Windows 10 Service Connections API
   slug: microsoft-windows-10-service-connections-api
-- description: The Sessions API from Microsoft Windows 10 — 2 operation(s) for sessions.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Sessions API from Microsoft Windows 10 — 2 operation(s) for sessions.
   name: Microsoft Windows 10 Sessions API
   slug: microsoft-windows-10-sessions-api
-- description: The Strokes API from Microsoft Windows 10 — 2 operation(s) for strokes.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Strokes API from Microsoft Windows 10 — 2 operation(s) for strokes.
   name: Microsoft Windows 10 Strokes API
   slug: microsoft-windows-10-strokes-api
-- description: The Structures API from Microsoft Windows 10 — 1 operation(s) for structures.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Structures API from Microsoft Windows 10 — 1 operation(s) for structures.
   name: Microsoft Windows 10 Structures API
   slug: microsoft-windows-10-structures-api
-- description: The Styles API from Microsoft Windows 10 — 1 operation(s) for styles.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Styles API from Microsoft Windows 10 — 1 operation(s) for styles.
   name: Microsoft Windows 10 Styles API
   slug: microsoft-windows-10-styles-api
-- description: The Surfaces API from Microsoft Windows 10 — 1 operation(s) for surfaces.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Surfaces API from Microsoft Windows 10 — 1 operation(s) for surfaces.
   name: Microsoft Windows 10 Surfaces API
   slug: microsoft-windows-10-surfaces-api
-- description: The Tasks API from Microsoft Windows 10 — 2 operation(s) for tasks.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Tasks API from Microsoft Windows 10 — 2 operation(s) for tasks.
   name: Microsoft Windows 10 Tasks API
   slug: microsoft-windows-10-tasks-api
-- description: The TCP Sockets API from Microsoft Windows 10 — 1 operation(s) for tcp sockets.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The TCP Sockets API from Microsoft Windows 10 — 1 operation(s) for tcp sockets.
   name: Microsoft Windows 10 TCP Sockets API
   slug: microsoft-windows-10-tcp-sockets-api
-- description: The Themes API from Microsoft Windows 10 — 1 operation(s) for themes.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Themes API from Microsoft Windows 10 — 1 operation(s) for themes.
   name: Microsoft Windows 10 Themes API
   slug: microsoft-windows-10-themes-api
-- description: The Tile Notifications API from Microsoft Windows 10 — 1 operation(s) for tile notifications.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Tile Notifications API from Microsoft Windows 10 — 1 operation(s) for tile notifications.
   name: Microsoft Windows 10 Tile Notifications API
   slug: microsoft-windows-10-tile-notifications-api
-- description: The Toast Notifications API from Microsoft Windows 10 — 2 operation(s) for toast notifications.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Toast Notifications API from Microsoft Windows 10 — 2 operation(s) for toast notifications.
   name: Microsoft Windows 10 Toast Notifications API
   slug: microsoft-windows-10-toast-notifications-api
-- description: The Tracking API from Microsoft Windows 10 — 1 operation(s) for tracking.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Tracking API from Microsoft Windows 10 — 1 operation(s) for tracking.
   name: Microsoft Windows 10 Tracking API
   slug: microsoft-windows-10-tracking-api
-- description: The Triggers API from Microsoft Windows 10 — 1 operation(s) for triggers.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Triggers API from Microsoft Windows 10 — 1 operation(s) for triggers.
   name: Microsoft Windows 10 Triggers API
   slug: microsoft-windows-10-triggers-api
-- description: The UDP Sockets API from Microsoft Windows 10 — 1 operation(s) for udp sockets.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The UDP Sockets API from Microsoft Windows 10 — 1 operation(s) for udp sockets.
   name: Microsoft Windows 10 UDP Sockets API
   slug: microsoft-windows-10-udp-sockets-api
-- description: The Video Recording API from Microsoft Windows 10 — 2 operation(s) for video recording.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Video Recording API from Microsoft Windows 10 — 2 operation(s) for video recording.
   name: Microsoft Windows 10 Video Recording API
   slug: microsoft-windows-10-video-recording-api
-- description: The Visits API from Microsoft Windows 10 — 1 operation(s) for visits.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Visits API from Microsoft Windows 10 — 1 operation(s) for visits.
   name: Microsoft Windows 10 Visits API
   slug: microsoft-windows-10-visits-api
-- description: The Visuals API from Microsoft Windows 10 — 1 operation(s) for visuals.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Visuals API from Microsoft Windows 10 — 1 operation(s) for visuals.
   name: Microsoft Windows 10 Visuals API
   slug: microsoft-windows-10-visuals-api
-- description: The Voice Commands API from Microsoft Windows 10 — 2 operation(s) for voice commands.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The Voice Commands API from Microsoft Windows 10 — 2 operation(s) for voice commands.
   name: Microsoft Windows 10 Voice Commands API
   slug: microsoft-windows-10-voice-commands-api
-- description: The WebSockets API from Microsoft Windows 10 — 1 operation(s) for websockets.
+- baseURL: https://api.windows.com
+  baseurl_source: declared
+  description: The WebSockets API from Microsoft Windows 10 — 1 operation(s) for websockets.
   name: Microsoft Windows 10 WebSockets API
   slug: microsoft-windows-10-websockets-api
 arazzos:
@@ -1331,7 +1485,7 @@ score:
       marker_coverage: 0.0
       total: 77
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:

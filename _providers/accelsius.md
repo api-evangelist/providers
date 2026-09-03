@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,34 +44,54 @@ agentic_access:
   summary_line: 23 operations
 api_count: 1
 apis:
-- description: The public WordPress REST collection behind https://accelsius.com/resources/ - the Accelsius resource library, holding 154 published items at time of capture across eight content classes carried as ca
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: The public WordPress REST collection behind https://accelsius.com/resources/ - the Accelsius resource library, holding 154 published items at time of capture across eight content classes carried as ca
   name: Accelsius Resources Content API
   slug: content
-- description: The `news` WordPress custom post type Accelsius registered for curated third-party press coverage, surfaced at https://accelsius.com/in-the-news/ and served from accelsius.com/wp-json/wp/v2/news. Eigh
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: The `news` WordPress custom post type Accelsius registered for curated third-party press coverage, surfaced at https://accelsius.com/in-the-news/ and served from accelsius.com/wp-json/wp/v2/news. Eigh
   name: Accelsius News API
   slug: news
-- description: Public read access to the 30 static marketing, product, company and legal pages of accelsius.com via the WordPress REST API - the NeuCool IR150 and MR250 product pages, the Thermal Simulation Rack and
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Public read access to the 30 static marketing, product, company and legal pages of accelsius.com via the WordPress REST API - the NeuCool IR150 and MR250 product pages, the Thermal Simulation Rack and
   name: Accelsius Pages API
   slug: pages
-- description: Public read access to the 903-item accelsius.com media library - NeuCool product renders and photography, thermal diagrams, partner and customer logos, and the PDF white papers, studies and infographi
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Public read access to the 903-item accelsius.com media library - NeuCool product renders and photography, thermal diagrams, partner and customer logos, and the PDF white papers, studies and infographi
   name: Accelsius Media API
   slug: media
-- description: Site-wide search across every searchable object on accelsius.com - resource-library posts, static pages and news items, 192 objects at time of capture. Returns a lightweight uniform record (id, title,
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Site-wide search across every searchable object on accelsius.com - resource-library posts, static pages and news items, 192 objects at time of capture. Returns a lightweight uniform record (id, title,
   name: Accelsius Search API
   slug: search
-- description: The WordPress REST route-discovery documents served at accelsius.com/wp-json/ and accelsius.com/wp-json/wp/v2 - the only machine-readable API description documents Accelsius serves. They enumerate 387
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: The WordPress REST route-discovery documents served at accelsius.com/wp-json/ and accelsius.com/wp-json/wp/v2 - the only machine-readable API description documents Accelsius serves. They enumerate 387
   name: Accelsius API Discovery
   slug: discovery
-- description: Content-class terms in the category taxonomy.
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Content-class terms in the category taxonomy.
   name: Accelsius Categories API
   slug: accelsius-categories-api
-- description: HappyFiles folders organising the media library.
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: HappyFiles folders organising the media library.
   name: Accelsius Media Folders API
   slug: accelsius-media-folders-api
-- description: Post types, taxonomies and publication statuses registered on the site.
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Post types, taxonomies and publication statuses registered on the site.
   name: Accelsius Registry API
   slug: accelsius-registry-api
-- description: Topic terms in the post_tag taxonomy.
+- baseURL: https://accelsius.com/wp-json
+  baseurl_source: declared
+  description: Topic terms in the post_tag taxonomy.
   name: Accelsius Tags API
   slug: accelsius-tags-api
 artifact_total: 25
@@ -263,7 +294,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelsius/refs/heads/main/screenshots/accelsius-2026-08-07T160754.png
 security:

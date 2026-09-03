@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 31 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Application management
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: Application management
   name: OneLogin Apps API
   slug: onelogin-apps-api
-- description: Multi-Factor Authentication
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: Multi-Factor Authentication
   name: OneLogin MFA API
   slug: onelogin-mfa-api
-- description: OAuth 2.0 token generation and revocation
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: OAuth 2.0 token generation and revocation
   name: OneLogin OAuth API
   slug: onelogin-oauth-api
-- description: Role management
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: Role management
   name: OneLogin Roles API
   slug: onelogin-roles-api
-- description: SAML assertion generation
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: SAML assertion generation
   name: OneLogin SAML API
   slug: onelogin-saml-api
-- description: User management
+- baseURL: https://<subdomain>.onelogin.com
+  baseurl_source: declared
+  description: User management
   name: OneLogin Users API
   slug: onelogin-users-api
 artifact_total: 20
@@ -177,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onelogin/refs/heads/main/screenshots/onelogin-2026-06-20T190716.png
 security:

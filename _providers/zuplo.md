@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 45 operations · 26 acting
 api_count: 1
 apis:
-- description: A Bucket is an object representing a group of API key consumers for a given account. This section includes a group of endpoints available to perform CRUD operations on a bucket. You can learn more abo
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: A Bucket is an object representing a group of API key consumers for a given account. This section includes a group of endpoints available to perform CRUD operations on a bucket. You can learn more abo
   name: Zuplo API Keys - Buckets API
   slug: zuplo-api-keys-buckets-api
-- description: A Consumer is an object representing a group of API keys in a given bucket. This section includes a group of endpoints available to perform CRUD operations on a consumer. You can learn more about cons
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: A Consumer is an object representing a group of API keys in a given bucket. This section includes a group of endpoints available to perform CRUD operations on a consumer. You can learn more about cons
   name: Zuplo API Keys - Consumers API
   slug: zuplo-api-keys-consumers-api
-- description: This is an object representing an API key. This section includes a list of endpoints to perform CRUD operations on an API key. You can learn more about API keys [here](https://zuplo.com/docs/articles/
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: This is an object representing an API key. This section includes a list of endpoints to perform CRUD operations on an API key. You can learn more about API keys [here](https://zuplo.com/docs/articles/
   name: Zuplo API Keys - Keys API
   slug: zuplo-api-keys-keys-api
-- description: 'A Manager is an object representing a group of managers in a given consumer. This section includes a group of endpoints available to perform operations on a manager. You can learn more about consumer '
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: 'A Manager is an object representing a group of managers in a given consumer. This section includes a group of endpoints available to perform operations on a manager. You can learn more about consumer '
   name: Zuplo API Keys - Managers API
   slug: zuplo-api-keys-managers-api
-- description: The Audit Logs API from Zuplo — 1 operation(s) for audit logs.
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: The Audit Logs API from Zuplo — 1 operation(s) for audit logs.
   name: Zuplo Audit Logs API
   slug: zuplo-audit-logs-api
-- description: Manage account custom domains and their deployment mappings
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: Manage account custom domains and their deployment mappings
   name: Zuplo Custom Domains API
   slug: zuplo-custom-domains-api
-- description: Set of operations available to handle deployments. You can learn more about deployments [here](https://zuplo.com/docs/articles/environments).
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: Set of operations available to handle deployments. You can learn more about deployments [here](https://zuplo.com/docs/articles/environments).
   name: Zuplo Deployments API
   slug: zuplo-deployments-api
-- description: MCP server endpoints for AI-powered tools
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: MCP server endpoints for AI-powered tools
   name: Zuplo MCP Servers API
   slug: zuplo-mcp-servers-api
-- description: The Openapi API from Zuplo — 1 operation(s) for openapi.
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: The Openapi API from Zuplo — 1 operation(s) for openapi.
   name: Zuplo Openapi API
   slug: zuplo-openapi-api
-- description: List of endpoints available to manage services for a given tunnel.
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: List of endpoints available to manage services for a given tunnel.
   name: Zuplo Tunnel Services API
   slug: zuplo-tunnel-services-api
-- description: List of endpoints available to perform operations on Tunnels.
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: List of endpoints available to perform operations on Tunnels.
   name: Zuplo Tunnels API
   slug: zuplo-tunnels-api
-- description: Set of operations available to create and update environment variables. You can learn more about environment variables [here](https://zuplo.com/docs/articles/environment-variables).
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: Set of operations available to create and update environment variables. You can learn more about environment variables [here](https://zuplo.com/docs/articles/environment-variables).
   name: Zuplo Variables API
   slug: zuplo-variables-api
-- description: The Who Am I API from Zuplo — 1 operation(s) for who am i.
+- baseURL: https://dev.zuplo.com
+  baseurl_source: declared
+  description: The Who Am I API from Zuplo — 1 operation(s) for who am i.
   name: Zuplo Who Am I API
   slug: zuplo-who-am-i-api
 arazzos:
@@ -568,7 +594,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuplo/refs/heads/main/screenshots/zuplo-2026-06-20T202006.png
 security:

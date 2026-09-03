@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: UON's institutional identity provider, publishing machine-readable SAML 2.0 metadata at a stable URL. entityID https://idp.newcastle.edu.au/idp/shibboleth, shibmd:Scope newcastle.edu.au, SingleSignOnS
@@ -138,23 +138,23 @@ rate_limits:
   slug: uon-rate-limits
 score:
   band: emerging
-  composite: 21.3
+  composite: 20.4
   coverage:
     artifact_dirs: 6
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: -0.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 8.0
+    contract_quality: 4.4
     developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 21.9
+  previous_composite: 21.3
   provenance:
     conformance: first-party
   regulatory:
@@ -164,7 +164,7 @@ score:
     regime_id: education
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Browse featured and user-owned collections.
+- baseURL: https://api.pexels.com/v1
+  baseurl_source: declared
+  description: Browse featured and user-owned collections.
   name: Pexels Collections API
   slug: pexels-collections-api
-- description: Search, browse, and retrieve photos.
+- baseURL: https://api.pexels.com/v1
+  baseurl_source: declared
+  description: Search, browse, and retrieve photos.
   name: Pexels Photos API
   slug: pexels-photos-api
-- description: Search, browse, and retrieve videos.
+- baseURL: https://api.pexels.com/v1
+  baseurl_source: declared
+  description: Search, browse, and retrieve videos.
   name: Pexels Videos API
   slug: pexels-videos-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexels/refs/heads/main/screenshots/pexels-2026-06-20T191627.png
 security:

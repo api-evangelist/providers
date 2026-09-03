@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,13 +45,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 3
 apis:
-- description: Returns the advertising account structure the API user can reach — accounts, their campaigns, and each campaign's ad groups — in one unpaginated document. One operation, read-only.
+- baseURL: https://app.choozle.com/api
+  baseurl_source: declared
+  description: Returns the advertising account structure the API user can reach — accounts, their campaigns, and each campaign's ad groups — in one unpaginated document. One operation, read-only.
   name: Choozle Accounts API
   slug: choozle-accounts-api
-- description: The token exchange. POST an API profile email, an ISO 8601 timestamp within five minutes of server time, and an HMAC-SHA256 hex signature to receive a token valid two hours. One operation, the API's o
+- baseURL: https://app.choozle.com/api
+  baseurl_source: declared
+  description: The token exchange. POST an API profile email, an ISO 8601 timestamp within five minutes of server time, and an HMAC-SHA256 hex signature to receive a token valid two hours. One operation, the API's o
   name: Choozle Authorization API
   slug: choozle-authorization-api
-- description: Returns one performance row per active ad group per day for an account, optionally filtered by date range and by exactly one of campaign, campaign status, or ad group ids. Rows are omitted for days wi
+- baseURL: https://app.choozle.com/api
+  baseurl_source: declared
+  description: Returns one performance row per active ad group per day for an account, optionally filtered by date range and by exactly one of campaign, campaign status, or ad group ids. Rows are omitted for days wi
   name: Choozle Reports API
   slug: choozle-reports-api
 artifact_total: 18
@@ -279,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png
 security:

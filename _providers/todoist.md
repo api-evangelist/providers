@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: The Todoist REST API v2 is the legacy recommended API for external integrations, providing access to tasks, projects, sections, labels, comments, and filters. Uses Bearer token authentication with OAu
   name: Todoist REST API v2
   slug: todoist-rest-api
-- description: The Todoist Sync API is designed for clients maintaining a local representation of user data, allowing incremental synchronization of projects, tasks, labels, filters, and reminders. Supports batch co
+- baseURL: https://api.todoist.com/sync/v9
+  baseurl_source: declared
+  description: The Todoist Sync API is designed for clients maintaining a local representation of user data, allowing incremental synchronization of projects, tasks, labels, filters, and reminders. Supports batch co
   name: Todoist Sync API v9
   slug: todoist-sync-api
-- description: Comment and note operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Comment and note operations
   name: Todoist Comments API
   slug: todoist-comments-api
-- description: Label management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Label management operations
   name: Todoist Labels API
   slug: todoist-labels-api
-- description: Project management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Project management operations
   name: Todoist Projects API
   slug: todoist-projects-api
-- description: Reminder management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Reminder management operations
   name: Todoist Reminders API
   slug: todoist-reminders-api
-- description: Section management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Section management operations
   name: Todoist Sections API
   slug: todoist-sections-api
-- description: Incremental sync operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Incremental sync operations
   name: Todoist Sync API
   slug: todoist-sync-api
-- description: Task (item) management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Task (item) management operations
   name: Todoist Tasks API
   slug: todoist-tasks-api
-- description: User account and settings operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: User account and settings operations
   name: Todoist User API
   slug: todoist-user-api
-- description: Workspace management operations
+- baseURL: https://api.todoist.com/api/v1
+  baseurl_source: declared
+  description: Workspace management operations
   name: Todoist Workspaces API
   slug: todoist-workspaces-api
 artifact_total: 50
@@ -323,7 +343,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -333,7 +353,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 51.2
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -342,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:

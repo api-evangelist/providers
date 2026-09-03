@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 2
 apis:
-- description: The Deployment API from Maven Central — 5 operation(s) for deployment.
+- baseURL: https://search.maven.org/solrsearch
+  baseurl_source: declared
+  description: The Deployment API from Maven Central — 5 operation(s) for deployment.
   name: Maven Central Deployment API
   slug: maven-central-deployment-api
-- description: The Download API from Maven Central — 1 operation(s) for download.
+- baseURL: https://search.maven.org/solrsearch
+  baseurl_source: declared
+  description: The Download API from Maven Central — 1 operation(s) for download.
   name: Maven Central Download API
   slug: maven-central-download-api
-- description: The Search API from Maven Central — 1 operation(s) for search.
+- baseURL: https://search.maven.org/solrsearch
+  baseurl_source: declared
+  description: The Search API from Maven Central — 1 operation(s) for search.
   name: Maven Central Search API
   slug: maven-central-search-api
 artifact_total: 15
@@ -166,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/screenshots/maven-central-2026-06-20T185044.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
-- description: The catalog of gifts available to send.
+- baseURL: https://api.gemnote.com
+  baseurl_source: declared
+  description: The catalog of gifts available to send.
   name: Gemnote Gifts API
   slug: gemnote-gifts-api
-- description: The catalog of greeting cards / postcards available to include.
+- baseURL: https://api.gemnote.com
+  baseurl_source: declared
+  description: The catalog of greeting cards / postcards available to include.
   name: Gemnote Greeting Cards API
   slug: gemnote-greeting-cards-api
-- description: Orders that send a gift and optional greeting card to a recipient.
+- baseURL: https://api.gemnote.com
+  baseurl_source: declared
+  description: Orders that send a gift and optional greeting card to a recipient.
   name: Gemnote Shipments API
   slug: gemnote-shipments-api
 artifact_total: 11
@@ -174,7 +180,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: The Spredfast-lineage Khoros Marketing API surface covering Conversations, Publishing, Analytics Reporting and Notification. Uses a 3-legged OAuth 2.0 flow (/authorize, /grant, /token) and Bearer acce
@@ -194,7 +194,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -204,11 +204,11 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 43.8
+  previous_composite: 43.6
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium-technologies/refs/heads/main/screenshots/lithium-technologies-2026-07-25T225336.png
 security:

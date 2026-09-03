@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 1
 apis:
-- description: The Balance API from engageSPARK — 1 operation(s) for balance.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The Balance API from engageSPARK — 1 operation(s) for balance.
   name: engageSPARK Balance API
   slug: engagespark-balance-api
-- description: The Campaigns API from engageSPARK — 2 operation(s) for campaigns.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The Campaigns API from engageSPARK — 2 operation(s) for campaigns.
   name: engageSPARK Campaigns API
   slug: engagespark-campaigns-api
-- description: The Contacts API from engageSPARK — 2 operation(s) for contacts.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The Contacts API from engageSPARK — 2 operation(s) for contacts.
   name: engageSPARK Contacts API
   slug: engagespark-contacts-api
-- description: The Files API from engageSPARK — 2 operation(s) for files.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The Files API from engageSPARK — 2 operation(s) for files.
   name: engageSPARK Files API
   slug: engagespark-files-api
-- description: The SMS API from engageSPARK — 4 operation(s) for sms.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The SMS API from engageSPARK — 4 operation(s) for sms.
   name: engageSPARK SMS API
   slug: engagespark-sms-api
-- description: The Top-Up API from engageSPARK — 3 operation(s) for top-up.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The Top-Up API from engageSPARK — 3 operation(s) for top-up.
   name: engageSPARK Top-Up API
   slug: engagespark-top-up-api
-- description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
+- baseURL: https://api.engagespark.com
+  baseurl_source: declared
+  description: The WhatsApp API from engageSPARK — 3 operation(s) for whatsapp.
   name: engageSPARK WhatsApp API
   slug: engagespark-whatsapp-api
 artifact_total: 20
@@ -203,7 +217,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -213,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 35.1
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,7 +245,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:

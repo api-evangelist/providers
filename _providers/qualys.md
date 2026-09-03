@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'REST/XML API for managing the full Vulnerability Management Detection and Response lifecycle including asset inventory, scans, vulnerability findings, prioritization, and reports. Base URL varies per '
@@ -128,7 +128,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 21.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualys/refs/heads/main/screenshots/qualys-2026-06-20T192405.png
 security:

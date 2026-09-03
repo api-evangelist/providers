@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 28 operations
 api_count: 10
 apis:
-- description: Customer case studies
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Customer case studies
   name: Lendis case-study API
   slug: lendis-case-study-api
-- description: Route, type and taxonomy discovery plus site-wide search
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Route, type and taxonomy discovery plus site-wide search
   name: Lendis discovery API
   slug: lendis-discovery-api
-- description: Kataloge (downloadable product catalogs)
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Kataloge (downloadable product catalogs)
   name: Lendis kataloge API
   slug: lendis-kataloge-api
-- description: Medien (media library items)
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Medien (media library items)
   name: Lendis media API
   slug: lendis-media-api
-- description: Seiten (site pages)
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Seiten (site pages)
   name: Lendis pages API
   slug: lendis-pages-api
-- description: Beitraege (blog posts from the Lendis Magazin)
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Beitraege (blog posts from the Lendis Magazin)
   name: Lendis posts API
   slug: lendis-posts-api
-- description: Ratgeber (buyer's guides)
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Ratgeber (buyer's guides)
   name: Lendis ratgeber API
   slug: lendis-ratgeber-api
-- description: 'Taxonomy terms: categories, tags, wiki letters, Ratgeber categories'
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: 'Taxonomy terms: categories, tags, wiki letters, Ratgeber categories'
   name: Lendis taxonomies API
   slug: lendis-taxonomies-api
-- description: Customer testimonials
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Customer testimonials
   name: Lendis testimonial API
   slug: lendis-testimonial-api
-- description: Wiki glossary entries
+- baseURL: https://www.lendis.io/wp-json
+  baseurl_source: declared
+  description: Wiki glossary entries
   name: Lendis wiki API
   slug: lendis-wiki-api
 artifact_total: 25
@@ -236,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendis/refs/heads/main/screenshots/lendis-2026-07-25T224902.png
 security:

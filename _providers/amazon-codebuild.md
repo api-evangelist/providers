@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -43,145 +43,239 @@ agentic_access:
   summary_line: 51 operations · 50 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Operations for starting, stopping, and viewing builds
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for starting, stopping, and viewing builds
   name: Amazon CodeBuild Builds API
   slug: amazon-codebuild-builds-api
-- description: Operations for creating and managing build projects
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing build projects
   name: Amazon CodeBuild Projects API
   slug: amazon-codebuild-projects-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchDeleteBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchdeletebuilds.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchDeleteBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchdeletebuilds.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchDeleteBuilds API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchdeletebuilds-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchGetBuildBatches API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetbuildbatches.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchGetBuildBatches API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetbuildbatches.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchGetBuildBatches API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchgetbuildbatches-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchGetBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetbuilds.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchGetBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetbuilds.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchGetBuilds API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchgetbuilds-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchGetProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetprojects.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchGetProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetprojects.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchGetProjects API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchgetprojects-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchGetReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetreportgroups.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchGetReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetreportgroups.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchGetReportGroups API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchgetreportgroups-api
-- description: 'The #X Amz Target=CodeBuild 20161006.BatchGetReports API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetreports.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.BatchGetReports API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.batchgetreports.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.BatchGetReports API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-batchgetreports-api
-- description: 'The #X Amz Target=CodeBuild 20161006.CreateProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createproject.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.CreateProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createproject.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.CreateProject API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-createproject-api
-- description: 'The #X Amz Target=CodeBuild 20161006.CreateReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createreportgroup.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.CreateReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createreportgroup.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.CreateReportGroup API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-createreportgroup-api
-- description: 'The #X Amz Target=CodeBuild 20161006.CreateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createwebhook.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.CreateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.createwebhook.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.CreateWebhook API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-createwebhook-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletebuildbatch.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletebuildbatch.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteBuildBatch API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deletebuildbatch-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deleteproject.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deleteproject.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteProject API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deleteproject-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteReport API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletereport.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteReport API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletereport.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteReport API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deletereport-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletereportgroup.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletereportgroup.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteReportGroup API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deletereportgroup-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deleteresourcepolicy.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deleteresourcepolicy.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteResourcePolicy API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deleteresourcepolicy-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletesourcecredentials.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletesourcecredentials.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteSourceCredentials API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deletesourcecredentials-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DeleteWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletewebhook.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DeleteWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.deletewebhook.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DeleteWebhook API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-deletewebhook-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DescribeCodeCoverages API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.describecodecoverages.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DescribeCodeCoverages API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.describecodecoverages.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DescribeCodeCoverages API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-describecodecoverages-api
-- description: 'The #X Amz Target=CodeBuild 20161006.DescribeTestCases API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.describetestcases.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.DescribeTestCases API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.describetestcases.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.DescribeTestCases API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-describetestcases-api
-- description: 'The #X Amz Target=CodeBuild 20161006.GetReportGroupTrend API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.getreportgrouptrend.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.GetReportGroupTrend API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.getreportgrouptrend.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.GetReportGroupTrend API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-getreportgrouptrend-api
-- description: 'The #X Amz Target=CodeBuild 20161006.GetResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.getresourcepolicy.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.GetResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.getresourcepolicy.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.GetResourcePolicy API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-getresourcepolicy-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ImportSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.importsourcecredentials.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ImportSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.importsourcecredentials.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ImportSourceCredentials API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-importsourcecredentials-api
-- description: 'The #X Amz Target=CodeBuild 20161006.InvalidateProjectCache API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.invalidateprojectcache.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.InvalidateProjectCache API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.invalidateprojectcache.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.InvalidateProjectCache API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-invalidateprojectcache-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListBuildBatches API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildbatches.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListBuildBatches API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildbatches.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListBuildBatches API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listbuildbatches-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListBuildBatchesForProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildbatchesforproject.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListBuildBatchesForProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildbatchesforproject.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListBuildBatchesForProject API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listbuildbatchesforproject-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuilds.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListBuilds API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuilds.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListBuilds API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listbuilds-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListBuildsForProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildsforproject.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListBuildsForProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listbuildsforproject.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListBuildsForProject API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listbuildsforproject-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListCuratedEnvironmentImages API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listcuratedenvironmentimages.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListCuratedEnvironmentImages API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listcuratedenvironmentimages.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListCuratedEnvironmentImages API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listcuratedenvironmentimages-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listprojects.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listprojects.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListProjects API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listprojects-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreportgroups.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreportgroups.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListReportGroups API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listreportgroups-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListReports API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreports.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListReports API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreports.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListReports API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listreports-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListReportsForReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreportsforreportgroup.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListReportsForReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listreportsforreportgroup.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListReportsForReportGroup API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listreportsforreportgroup-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListSharedProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsharedprojects.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListSharedProjects API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsharedprojects.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListSharedProjects API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listsharedprojects-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListSharedReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsharedreportgroups.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListSharedReportGroups API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsharedreportgroups.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListSharedReportGroups API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listsharedreportgroups-api
-- description: 'The #X Amz Target=CodeBuild 20161006.ListSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsourcecredentials.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.ListSourceCredentials API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.listsourcecredentials.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.ListSourceCredentials API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-listsourcecredentials-api
-- description: 'The #X Amz Target=CodeBuild 20161006.PutResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.putresourcepolicy.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.PutResourcePolicy API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.putresourcepolicy.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.PutResourcePolicy API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-putresourcepolicy-api
-- description: 'The #X Amz Target=CodeBuild 20161006.RetryBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.retrybuild.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.RetryBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.retrybuild.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.RetryBuild API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-retrybuild-api
-- description: 'The #X Amz Target=CodeBuild 20161006.RetryBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.retrybuildbatch.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.RetryBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.retrybuildbatch.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.RetryBuildBatch API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-retrybuildbatch-api
-- description: 'The #X Amz Target=CodeBuild 20161006.StartBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.startbuild.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.StartBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.startbuild.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.StartBuild API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-startbuild-api
-- description: 'The #X Amz Target=CodeBuild 20161006.StartBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.startbuildbatch.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.StartBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.startbuildbatch.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.StartBuildBatch API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-startbuildbatch-api
-- description: 'The #X Amz Target=CodeBuild 20161006.StopBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.stopbuild.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.StopBuild API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.stopbuild.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.StopBuild API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-stopbuild-api
-- description: 'The #X Amz Target=CodeBuild 20161006.StopBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.stopbuildbatch.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.StopBuildBatch API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.stopbuildbatch.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.StopBuildBatch API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-stopbuildbatch-api
-- description: 'The #X Amz Target=CodeBuild 20161006.UpdateProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updateproject.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.UpdateProject API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updateproject.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateProject API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updateproject-api
-- description: 'The #X Amz Target=CodeBuild 20161006.UpdateProjectVisibility API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updateprojectvisibility.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.UpdateProjectVisibility API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updateprojectvisibility.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateProjectVisibility API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updateprojectvisibility-api
-- description: 'The #X Amz Target=CodeBuild 20161006.UpdateReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatereportgroup.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.UpdateReportGroup API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatereportgroup.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateReportGroup API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updatereportgroup-api
-- description: 'The #X Amz Target=CodeBuild 20161006.UpdateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatewebhook.'
+- baseURL: https://codebuild.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeBuild 20161006.UpdateWebhook API from Amazon CodeBuild — 1 operation(s) for #x amz target=codebuild 20161006.updatewebhook.'
   name: 'Amazon CodeBuild #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
   slug: amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
 artifact_total: 778
@@ -2527,7 +2621,7 @@ score:
       total: 47
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

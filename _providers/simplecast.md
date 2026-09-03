@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 62 operations · 1 acting
 api_count: 1
 apis:
-- description: Audience analytics for podcasts and episodes.
+- baseURL: https://api.simplecast.com
+  baseurl_source: declared
+  description: Audience analytics for podcasts and episodes.
   name: Simplecast Analytics API
   slug: simplecast-analytics-api
-- description: Distribution channels a podcast is syndicated to.
+- baseURL: https://api.simplecast.com
+  baseurl_source: declared
+  description: Distribution channels a podcast is syndicated to.
   name: Simplecast Distribution API
   slug: simplecast-distribution-api
-- description: Episodes and their authors, keywords, markers, and audio.
+- baseURL: https://api.simplecast.com
+  baseurl_source: declared
+  description: Episodes and their authors, keywords, markers, and audio.
   name: Simplecast Episodes API
   slug: simplecast-episodes-api
-- description: Account, categories, keywords, authors, and helper resources.
+- baseURL: https://api.simplecast.com
+  baseurl_source: declared
+  description: Account, categories, keywords, authors, and helper resources.
   name: Simplecast Metadata API
   slug: simplecast-metadata-api
-- description: Podcasts (shows) and their related metadata.
+- baseURL: https://api.simplecast.com
+  baseurl_source: declared
+  description: Podcasts (shows) and their related metadata.
   name: Simplecast Podcasts API
   slug: simplecast-podcasts-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/screenshots/simplecast-2026-09-02T155534.png
 security:
 - kind: authentication
   name: Simplecast Authentication

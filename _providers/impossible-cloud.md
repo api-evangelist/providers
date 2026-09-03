@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 1
 apis:
-- description: The Distributors API from Impossible Cloud — 11 operation(s) for distributors.
+- baseURL: https://api.partner.impossiblecloud.com/v1
+  baseurl_source: declared
+  description: The Distributors API from Impossible Cloud — 11 operation(s) for distributors.
   name: Impossible Cloud Distributors API
   slug: impossible-cloud-distributors-api
-- description: The Integrations API from Impossible Cloud — 1 operation(s) for integrations.
+- baseURL: https://api.partner.impossiblecloud.com/v1
+  baseurl_source: declared
+  description: The Integrations API from Impossible Cloud — 1 operation(s) for integrations.
   name: Impossible Cloud Integrations API
   slug: impossible-cloud-integrations-api
-- description: The Partners API from Impossible Cloud — 5 operation(s) for partners.
+- baseURL: https://api.partner.impossiblecloud.com/v1
+  baseurl_source: declared
+  description: The Partners API from Impossible Cloud — 5 operation(s) for partners.
   name: Impossible Cloud Partners API
   slug: impossible-cloud-partners-api
 artifact_total: 12
@@ -225,7 +231,7 @@ score:
       total: 3
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:

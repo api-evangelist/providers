@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,28 +53,44 @@ apis:
 - description: The State Street Sample Transactions API is a reference and onboarding API provided in the developer portal to help new integration teams understand the authentication flow, request structure, and res
   name: Sample Transactions API
   slug: sample-transactions-api
-- description: ETF portfolio composition basket operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: ETF portfolio composition basket operations
   name: State Street Baskets API
   slug: state-street-baskets-api
-- description: ETF fund information operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: ETF fund information operations
   name: State Street Funds API
   slug: state-street-funds-api
-- description: ETF creation and redemption order operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: ETF creation and redemption order operations
   name: State Street Orders API
   slug: state-street-orders-api
-- description: Performance measurement and attribution operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: Performance measurement and attribution operations
   name: State Street Performance API
   slug: state-street-performance-api
-- description: Portfolio and account management operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: Portfolio and account management operations
   name: State Street Portfolios API
   slug: state-street-portfolios-api
-- description: Portfolio position and holdings operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: Portfolio position and holdings operations
   name: State Street Positions API
   slug: state-street-positions-api
-- description: Risk analytics and exposure operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: Risk analytics and exposure operations
   name: State Street Risk API
   slug: state-street-risk-api
-- description: Transaction history and settlement operations
+- baseURL: https://api.statestreet.com/v1
+  baseurl_source: declared
+  description: Transaction history and settlement operations
   name: State Street Transactions API
   slug: state-street-transactions-api
 artifact_total: 50
@@ -385,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png
 security:

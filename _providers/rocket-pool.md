@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -45,46 +45,74 @@ apis:
 - description: The rocketpool-js library is a TypeScript/JavaScript client for the Rocket Pool protocol's deployed smart contracts. It mirrors much of the Go library's surface and is intended for browser-based dApps
   name: Rocket Pool Protocol API (rocketpool-js)
   slug: rocketpool-js-protocol-api
-- description: The Auction API from Rocket Pool — 3 operation(s) for auction.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Auction API from Rocket Pool — 3 operation(s) for auction.
   name: Rocket Pool Auction API
   slug: rocket-pool-auction-api
-- description: The Deposit API from Rocket Pool — 1 operation(s) for deposit.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Deposit API from Rocket Pool — 1 operation(s) for deposit.
   name: Rocket Pool Deposit API
   slug: rocket-pool-deposit-api
-- description: The Megapool API from Rocket Pool — 3 operation(s) for megapool.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: The Megapool API from Rocket Pool — 3 operation(s) for megapool.
   name: Rocket Pool Megapool API
   slug: rocket-pool-megapool-api
-- description: The Minipool API from Rocket Pool — 7 operation(s) for minipool.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Minipool API from Rocket Pool — 7 operation(s) for minipool.
   name: Rocket Pool Minipool API
   slug: rocket-pool-minipool-api
-- description: The Network API from Rocket Pool — 7 operation(s) for network.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Network API from Rocket Pool — 7 operation(s) for network.
   name: Rocket Pool Network API
   slug: rocket-pool-network-api
-- description: The Node API from Rocket Pool — 12 operation(s) for node.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Node API from Rocket Pool — 12 operation(s) for node.
   name: Rocket Pool Node API
   slug: rocket-pool-node-api
-- description: The OracleDAO API from Rocket Pool — 2 operation(s) for oracledao.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The OracleDAO API from Rocket Pool — 2 operation(s) for oracledao.
   name: Rocket Pool OracleDAO API
   slug: rocket-pool-oracledao-api
-- description: The ProtocolDAO API from Rocket Pool — 4 operation(s) for protocoldao.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The ProtocolDAO API from Rocket Pool — 4 operation(s) for protocoldao.
   name: Rocket Pool ProtocolDAO API
   slug: rocket-pool-protocoldao-api
-- description: The Queue API from Rocket Pool — 2 operation(s) for queue.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: The Queue API from Rocket Pool — 2 operation(s) for queue.
   name: Rocket Pool Queue API
   slug: rocket-pool-queue-api
-- description: The Rewards API from Rocket Pool — 4 operation(s) for rewards.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Rewards API from Rocket Pool — 4 operation(s) for rewards.
   name: Rocket Pool Rewards API
   slug: rocket-pool-rewards-api
-- description: The Service API from Rocket Pool — 2 operation(s) for service.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: The Service API from Rocket Pool — 2 operation(s) for service.
   name: Rocket Pool Service API
   slug: rocket-pool-service-api
-- description: The Settings API from Rocket Pool — 1 operation(s) for settings.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Settings API from Rocket Pool — 1 operation(s) for settings.
   name: Rocket Pool Settings API
   slug: rocket-pool-settings-api
-- description: The Tokens API from Rocket Pool — 2 operation(s) for tokens.
+- baseURL: https://protocol.rocketpool.example/v1
+  baseurl_source: spec
+  description: The Tokens API from Rocket Pool — 2 operation(s) for tokens.
   name: Rocket Pool Tokens API
   slug: rocket-pool-tokens-api
-- description: The Wallet API from Rocket Pool — 4 operation(s) for wallet.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: The Wallet API from Rocket Pool — 4 operation(s) for wallet.
   name: Rocket Pool Wallet API
   slug: rocket-pool-wallet-api
 artifact_total: 44
@@ -371,7 +399,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
 security:

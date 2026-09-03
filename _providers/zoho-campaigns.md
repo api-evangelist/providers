@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for managing email campaigns, mailing lists, subscribers, templates, and analytics in Zoho Campaigns. Supports campaign creation, scheduling, sending, cloning, and reporting as well as contac
   name: Zoho Campaigns API
   slug: zoho-campaigns-api
-- description: Resource-oriented JSON REST API for sending email at volume from Zoho Campaigns. Covers transmissions (create, schedule, reschedule, cancel, fetch), stored HTML/text templates, recipient lists, the su
+- baseURL: https://campaigns.zoho.com/emailapi/v2/
+  baseurl_source: declared
+  description: Resource-oriented JSON REST API for sending email at volume from Zoho Campaigns. Covers transmissions (create, schedule, reschedule, cancel, fetch), stored HTML/text templates, recipient lists, the su
   name: Zoho Campaigns Email API
   slug: zoho-campaigns-email-api
 artifact_total: 11
@@ -249,7 +251,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -259,7 +261,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 68.7
+  previous_composite: 68.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -270,7 +272,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-campaigns/refs/heads/main/screenshots/zoho-campaigns-2026-06-20T201934.png
 security:

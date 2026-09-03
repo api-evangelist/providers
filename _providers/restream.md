@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: 'WebSocket API for accessing and managing Restream Chat. Receive real-time chat messages from all connected streaming platforms (Twitch, YouTube, Facebook, Discord, LinkedIn, DLive) in a unified event '
   name: Restream Chat API
   slug: restream-chat-api
-- description: Channel management and configuration
+- baseURL: https://api.restream.io/v2
+  baseurl_source: declared
+  description: Channel management and configuration
   name: Restream Channels API
   slug: restream-channels-api
-- description: Live event management and scheduling
+- baseURL: https://api.restream.io/v2
+  baseurl_source: declared
+  description: Live event management and scheduling
   name: Restream Events API
   slug: restream-events-api
-- description: Public platform information
+- baseURL: https://api.restream.io/v2
+  baseurl_source: declared
+  description: Public platform information
   name: Restream Platforms API
   slug: restream-platforms-api
-- description: Stream key and SRT URL management
+- baseURL: https://api.restream.io/v2
+  baseurl_source: declared
+  description: Stream key and SRT URL management
   name: Restream Stream Keys API
   slug: restream-stream-keys-api
-- description: User profile and account management
+- baseURL: https://api.restream.io/v2
+  baseurl_source: declared
+  description: User profile and account management
   name: Restream User API
   slug: restream-user-api
 artifact_total: 38
@@ -289,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png
 security:

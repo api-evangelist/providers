@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: Retrieve available reward budget balances.
+- baseURL: https://api.guusto.com/api/v1
+  baseurl_source: declared
+  description: Retrieve available reward budget balances.
   name: Guusto Account Budget API
   slug: guusto-account-budget-api
-- description: Order digital gifts and track order status.
+- baseURL: https://api.guusto.com/api/v1
+  baseurl_source: declared
+  description: Order digital gifts and track order status.
   name: Guusto Order Gift API
   slug: guusto-order-gift-api
-- description: Recognition activity and manager-insight reports.
+- baseURL: https://api.guusto.com/api/v1
+  baseurl_source: declared
+  description: Recognition activity and manager-insight reports.
   name: Guusto Reports API
   slug: guusto-reports-api
 artifact_total: 15
@@ -169,7 +175,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/screenshots/guusto-2026-07-25T220443.png
 security:

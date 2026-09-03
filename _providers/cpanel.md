@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: cPanel API 2 is the legacy XML/JSON API for cPanel-user operations. It remains supported for backward compatibility but has been largely superseded by UAPI; new development should target UAPI where po
   name: cPanel API 2 (Legacy)
   slug: cpanel-api-2
-- description: Domain information (DomainInfo module)
+- baseURL: https://hostname:2083/execute
+  baseurl_source: declared
+  description: Domain information (DomainInfo module)
   name: cPanel DomainInfo API
   slug: cpanel-domaininfo-api
-- description: Email account management (Email module)
+- baseURL: https://hostname:2083/execute
+  baseurl_source: declared
+  description: Email account management (Email module)
   name: cPanel Email API
   slug: cpanel-email-api
-- description: MySQL database operations (Mysql module)
+- baseURL: https://hostname:2083/execute
+  baseurl_source: declared
+  description: MySQL database operations (Mysql module)
   name: cPanel Mysql API
   slug: cpanel-mysql-api
-- description: Generic UAPI execute endpoint
+- baseURL: https://hostname:2083/execute
+  baseurl_source: declared
+  description: Generic UAPI execute endpoint
   name: cPanel UAPI API
   slug: cpanel-uapi-api
 artifact_total: 20
@@ -206,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cpanel/refs/heads/main/screenshots/cpanel-2026-06-20T175154.png
 security:

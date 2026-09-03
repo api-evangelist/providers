@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Staples Product Catalog API provides programmatic access to Staples' office supply catalog including product search, pricing, availability, and category browsing for integration with procurement a
   name: Staples Product Catalog API
   slug: staples-product-catalog-api
-- description: Account and contract management operations
+- baseURL: https://api.staplesadvantage.com
+  baseurl_source: spec
+  description: Account and contract management operations
   name: Staples Account API
   slug: staples-account-api
-- description: Product catalog search and browse operations
+- baseURL: https://api.staplesadvantage.com
+  baseurl_source: spec
+  description: Product catalog search and browse operations
   name: Staples Catalog API
   slug: staples-catalog-api
-- description: Delivery tracking and scheduling operations
+- baseURL: https://api.staplesadvantage.com
+  baseurl_source: spec
+  description: Delivery tracking and scheduling operations
   name: Staples Delivery API
   slug: staples-delivery-api
-- description: Invoice and billing operations
+- baseURL: https://api.staplesadvantage.com
+  baseurl_source: spec
+  description: Invoice and billing operations
   name: Staples Invoices API
   slug: staples-invoices-api
-- description: Order management operations
+- baseURL: https://api.staplesadvantage.com
+  baseurl_source: spec
+  description: Order management operations
   name: Staples Orders API
   slug: staples-orders-api
 artifact_total: 27
@@ -258,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/screenshots/staples-2026-06-20T194507.png
 security:

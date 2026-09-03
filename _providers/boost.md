@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: The Action API from Boost — 2 operation(s) for action.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Action API from Boost — 2 operation(s) for action.
   name: Boost Action API
   slug: boost-action-api
-- description: The Action Template API from Boost — 2 operation(s) for action template.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Action Template API from Boost — 2 operation(s) for action template.
   name: Boost Action Template API
   slug: boost-action-template-api
-- description: The Blocklist API from Boost — 1 operation(s) for blocklist.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Blocklist API from Boost — 1 operation(s) for blocklist.
   name: Boost Blocklist API
   slug: boost-blocklist-api
-- description: The Boost API from Boost — 9 operation(s) for boost.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Boost API from Boost — 9 operation(s) for boost.
   name: Boost Boost API
   slug: boost-boost-api
-- description: The Budget API from Boost — 2 operation(s) for budget.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Budget API from Boost — 2 operation(s) for budget.
   name: Boost Budget API
   slug: boost-budget-api
-- description: The Contract API from Boost — 2 operation(s) for contract.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The Contract API from Boost — 2 operation(s) for contract.
   name: Boost Contract API
   slug: boost-contract-api
-- description: The RewardKit API from Boost — 3 operation(s) for rewardkit.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The RewardKit API from Boost — 3 operation(s) for rewardkit.
   name: Boost RewardKit API
   slug: boost-rewardkit-api
-- description: The RewardKitTrending API from Boost — 1 operation(s) for rewardkittrending.
+- baseURL: https://api-v2.boost.xyz
+  baseurl_source: declared
+  description: The RewardKitTrending API from Boost — 1 operation(s) for rewardkittrending.
   name: Boost RewardKitTrending API
   slug: boost-rewardkittrending-api
 artifact_total: 21
@@ -244,7 +260,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/screenshots/boost-2026-07-25T203625.png
 security:

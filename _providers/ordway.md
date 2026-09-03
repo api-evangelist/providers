@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 65 operations · 20 acting
 api_count: 1
 apis:
-- description: Automated billing run management
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Automated billing run management
   name: Ordway Billing Runs API
   slug: ordway-billing-runs-api
-- description: Manage billing schedules
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage billing schedules
   name: Ordway Billing Schedules API
   slug: ordway-billing-schedules-api
-- description: Manage general ledger chart of accounts
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage general ledger chart of accounts
   name: Ordway Chart of Accounts API
   slug: ordway-chart-of-accounts-api
-- description: Manage discount coupons
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage discount coupons
   name: Ordway Coupons API
   slug: ordway-coupons-api
-- description: Manage customer credits
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage customer credits
   name: Ordway Credits API
   slug: ordway-credits-api
-- description: Manage billing customers and their contacts, notes, and payment methods
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage billing customers and their contacts, notes, and payment methods
   name: Ordway Customers API
   slug: ordway-customers-api
-- description: Manage debit memos
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage debit memos
   name: Ordway Debit Memos API
   slug: ordway-debit-memos-api
-- description: Manage invoices and billing
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage invoices and billing
   name: Ordway Invoices API
   slug: ordway-invoices-api
-- description: Manage accounting journal entries
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage accounting journal entries
   name: Ordway Journal Entries API
   slug: ordway-journal-entries-api
-- description: Manage one-time orders
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage one-time orders
   name: Ordway Orders API
   slug: ordway-orders-api
-- description: Automated payment run management
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Automated payment run management
   name: Ordway Payment Runs API
   slug: ordway-payment-runs-api
-- description: Manage payments and payment methods
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage payments and payment methods
   name: Ordway Payments API
   slug: ordway-payments-api
-- description: Manage billing plans and charges
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage billing plans and charges
   name: Ordway Plans API
   slug: ordway-plans-api
-- description: Manage products and plans
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage products and plans
   name: Ordway Products API
   slug: ordway-products-api
-- description: Manage payment refunds
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage payment refunds
   name: Ordway Refunds API
   slug: ordway-refunds-api
-- description: Manage revenue recognition rules
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage revenue recognition rules
   name: Ordway Revenue Rules API
   slug: ordway-revenue-rules-api
-- description: Manage ASC 606 revenue recognition schedules
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage ASC 606 revenue recognition schedules
   name: Ordway Revenue Schedules API
   slug: ordway-revenue-schedules-api
-- description: Customer account statements
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Customer account statements
   name: Ordway Statements API
   slug: ordway-statements-api
-- description: Manage subscription lifecycle and charges
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage subscription lifecycle and charges
   name: Ordway Subscriptions API
   slug: ordway-subscriptions-api
-- description: Manage usage-based billing records
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage usage-based billing records
   name: Ordway Usages API
   slug: ordway-usages-api
-- description: Manage webhook configurations
+- baseURL: https://api.ordwaylabs.com/api/v1
+  baseurl_source: declared
+  description: Manage webhook configurations
   name: Ordway Webhooks API
   slug: ordway-webhooks-api
 artifact_total: 60
@@ -334,7 +376,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordway/refs/heads/main/screenshots/ordway-2026-06-20T191205.png
 security:

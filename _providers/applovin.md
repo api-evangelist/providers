@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 30 operations · 14 acting
 api_count: 11
 apis:
-- description: Ad unit lifecycle and configuration
+- baseURL: https://o.applovin.com/mediation/v1
+  baseurl_source: declared
+  description: Ad unit lifecycle and configuration
   name: AppLovin Ad Units API
   slug: applovin-ad-units-api
-- description: Creative-level performance reporting
+- baseURL: https://r.applovin.com
+  baseurl_source: declared
+  description: Creative-level performance reporting
   name: AppLovin Asset Reporting API
   slug: applovin-asset-reporting-api
-- description: Creative asset upload and listing
+- baseURL: https://api.ads.axon.ai/manage/v1
+  baseurl_source: declared
+  description: Creative asset upload and listing
   name: AppLovin Assets API
   slug: applovin-assets-api
-- description: Campaign create / update / list operations
+- baseURL: https://api.ads.axon.ai/manage/v1
+  baseurl_source: declared
+  description: Campaign create / update / list operations
   name: AppLovin Campaigns API
   slug: applovin-campaigns-api
-- description: Server-to-server conversion event ingestion
+- baseURL: https://b.applovin.com
+  baseurl_source: declared
+  description: Server-to-server conversion event ingestion
   name: AppLovin Conversion Events API
   slug: applovin-conversion-events-api
-- description: Creative set lifecycle operations
+- baseURL: https://api.ads.axon.ai/manage/v1
+  baseurl_source: declared
+  description: Creative set lifecycle operations
   name: AppLovin Creative Sets API
   slug: applovin-creative-sets-api
-- description: Ad unit A/B experiment management
+- baseURL: https://o.applovin.com/mediation/v1
+  baseurl_source: declared
+  description: Ad unit A/B experiment management
   name: AppLovin Experiments API
   slug: applovin-experiments-api
-- description: Campaign performance reporting for advertisers and publishers
+- baseURL: https://r.applovin.com
+  baseurl_source: declared
+  description: Campaign performance reporting for advertisers and publishers
   name: AppLovin Growth Reporting API
   slug: applovin-growth-reporting-api
-- description: Mediation revenue and user-level reporting
+- baseURL: https://r.applovin.com
+  baseurl_source: declared
+  description: Mediation revenue and user-level reporting
   name: AppLovin Revenue Reporting API
   slug: applovin-revenue-reporting-api
-- description: Test device management
+- baseURL: https://o.applovin.com/mediation/v1
+  baseurl_source: declared
+  description: Test device management
   name: AppLovin Test Devices API
   slug: applovin-test-devices-api
-- description: Per-segment waterfall management
+- baseURL: https://o.applovin.com/mediation/v1
+  baseurl_source: declared
+  description: Per-segment waterfall management
   name: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
 artifact_total: 60
@@ -496,7 +518,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -506,7 +528,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 47.4
-  previous_composite: 35.6
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -518,7 +540,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:

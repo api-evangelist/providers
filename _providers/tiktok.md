@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 3
 apis:
-- description: Ad group (ad set) management
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Ad group (ad set) management
   name: TikTok Ad Groups API
   slug: tiktok-ad-groups-api
-- description: Individual ad management
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Individual ad management
   name: TikTok Ads API
   slug: tiktok-ads-api
-- description: Custom audience management
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Custom audience management
   name: TikTok Audiences API
   slug: tiktok-audiences-api
-- description: Advertising campaign management
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Advertising campaign management
   name: TikTok Campaigns API
   slug: tiktok-campaigns-api
-- description: User data export operations
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: User data export operations
   name: TikTok Data Portability API
   slug: tiktok-data-portability-api
-- description: Settlement and financial reporting
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Settlement and financial reporting
   name: TikTok Finance API
   slug: tiktok-finance-api
-- description: Shipping and logistics operations
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Shipping and logistics operations
   name: TikTok Logistics API
   slug: tiktok-logistics-api
-- description: Order management and fulfillment
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Order management and fulfillment
   name: TikTok Orders API
   slug: tiktok-orders-api
-- description: Product catalog management
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Product catalog management
   name: TikTok Products API
   slug: tiktok-products-api
-- description: Campaign performance reporting
+- baseURL: https://business-api.tiktok.com
+  baseurl_source: declared
+  description: Campaign performance reporting
   name: TikTok Reporting API
   slug: tiktok-reporting-api
 artifact_total: 49
@@ -345,7 +365,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:

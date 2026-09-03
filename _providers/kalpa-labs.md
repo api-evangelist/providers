@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Health checks and capability discovery.
+- baseURL: https://api.kalpalabs.ai
+  baseurl_source: declared
+  description: Health checks and capability discovery.
   name: Kalpa Labs Meta API
   slug: kalpa-labs-meta-api
-- description: Text-to-speech and conversational generation.
+- baseURL: https://api.kalpalabs.ai
+  baseurl_source: declared
+  description: Text-to-speech and conversational generation.
   name: Kalpa Labs Speech API
   slug: kalpa-labs-speech-api
-- description: Per-key usage and metering.
+- baseURL: https://api.kalpalabs.ai
+  baseurl_source: declared
+  description: Per-key usage and metering.
   name: Kalpa Labs Usage API
   slug: kalpa-labs-usage-api
 artifact_total: 11
@@ -181,7 +187,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -191,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.2
+  previous_composite: 36.0
   provenance:
     conformance: derived
     contracts:
@@ -202,7 +208,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kalpa-labs/refs/heads/main/screenshots/kalpa-labs-2026-07-25T223437.png
 security:

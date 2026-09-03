@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -71,13 +71,19 @@ apis:
 - description: API and SDK for building code-first Power Apps using popular frameworks like React and Vue, developed in any code-first IDE and deployed to Power Apps.
   name: Power Apps Code Apps API
   slug: power-apps-code-apps-api
-- description: Operations on the account entity set. An account represents a business that is a customer or potential customer, typically the company billed in business transactions.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations on the account entity set. An account represents a business that is a customer or potential customer, typically the company billed in business transactions.
   name: Microsoft Power Apps Accounts API
   slug: microsoft-power-apps-accounts-api
-- description: Operations on the contact entity set. A contact represents a person with whom a business unit has a relationship, such as a customer, supplier, or colleague.
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations on the contact entity set. A contact represents a person with whom a business unit has a relationship, such as a customer, supplier, or colleague.
   name: Microsoft Power Apps Contacts API
   slug: microsoft-power-apps-contacts-api
-- description: Operations on the entity definition entity set. Provides metadata about Dataverse tables (entities) including their logical names, collection names, and structural information. Read-only access via Re
+- baseURL: https://api.powerapps.com
+  baseurl_source: declared
+  description: Operations on the entity definition entity set. Provides metadata about Dataverse tables (entities) including their logical names, collection names, and structural information. Read-only access via Re
   name: Microsoft Power Apps Entities API
   slug: microsoft-power-apps-entities-api
 artifact_total: 73
@@ -412,7 +418,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:

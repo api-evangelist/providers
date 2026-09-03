@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 16 acting
 api_count: 1
 apis:
-- description: Inspect the current API key.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Inspect the current API key.
   name: Tolgee API Keys API
   slug: tolgee-api-keys-api
-- description: Export localization files and import translation data.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Export localization files and import translation data.
   name: Tolgee Import/Export API
   slug: tolgee-import-export-api
-- description: Manage translation keys within a project.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Manage translation keys within a project.
   name: Tolgee Keys API
   slug: tolgee-keys-api
-- description: Manage project languages (locales).
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Manage project languages (locales).
   name: Tolgee Languages API
   slug: tolgee-languages-api
-- description: Create and manage localization projects.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Create and manage localization projects.
   name: Tolgee Projects API
   slug: tolgee-projects-api
-- description: Attach visual context screenshots to keys.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Attach visual context screenshots to keys.
   name: Tolgee Screenshots API
   slug: tolgee-screenshots-api
-- description: Read and write translations and their states.
+- baseURL: https://app.tolgee.io
+  baseurl_source: declared
+  description: Read and write translations and their states.
   name: Tolgee Translations API
   slug: tolgee-translations-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 39.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tolgee/refs/heads/main/screenshots/tolgee-2026-09-02T163851.png
 security:
 - kind: authentication
   name: Tolgee Authentication

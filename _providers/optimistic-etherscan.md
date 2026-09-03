@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Address balances, transaction lists, and token holdings on OP Mainnet
+- baseURL: https://api-optimistic.etherscan.io/api
+  baseurl_source: declared
+  description: Address balances, transaction lists, and token holdings on OP Mainnet
   name: Optimism Etherscan Accounts API
   slug: optimistic-etherscan-accounts-api
 artifact_total: 17
@@ -182,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/screenshots/optimistic-etherscan-2026-08-17T124250.png
 security:

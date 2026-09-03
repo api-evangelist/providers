@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: REST API for translating text between 100+ languages, detecting the source language of text, and listing supported languages. Built on Yandex neural machine translation technology with support for glo
   name: Yandex Translate API
   slug: yandex-translate-api
-- description: Operations for detecting the language of text
+- baseURL: https://translate.api.cloud.yandex.net
+  baseurl_source: declared
+  description: Operations for detecting the language of text
   name: Yandex Translate API Language Detection API
   slug: yandex-translate-language-detection-api
-- description: Operations for listing supported languages
+- baseURL: https://translate.api.cloud.yandex.net
+  baseurl_source: declared
+  description: Operations for listing supported languages
   name: Yandex Translate API Languages API
   slug: yandex-translate-languages-api
-- description: Operations for translating text between languages
+- baseURL: https://translate.api.cloud.yandex.net
+  baseurl_source: declared
+  description: Operations for translating text between languages
   name: Yandex Translate API Translation API
   slug: yandex-translate-translation-api
 artifact_total: 29
@@ -240,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yandex-translate/refs/heads/main/screenshots/yandex-translate-2026-06-20T201724.png
 security:

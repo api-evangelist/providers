@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,16 +58,24 @@ apis:
 - description: JavaScript/TypeScript SDK wrapping common cross-chain operations on the Axelar network. Key classes include AxelarAssetTransfer (generates deposit addresses for token transfers), AxelarQueryAPI (fee e
   name: AxelarJS SDK
   slug: axelarjs-sdk
-- description: The Chains API from Axelar — 3 operation(s) for chains.
+- baseURL: https://api.axelarscan.io/api
+  baseurl_source: declared
+  description: The Chains API from Axelar — 3 operation(s) for chains.
   name: Axelar Chains API
   slug: axelar-chains-api
-- description: The Contracts API from Axelar — 3 operation(s) for contracts.
+- baseURL: https://api.axelarscan.io/api
+  baseurl_source: declared
+  description: The Contracts API from Axelar — 3 operation(s) for contracts.
   name: Axelar Contracts API
   slug: axelar-contracts-api
-- description: The Health API from Axelar — 1 operation(s) for health.
+- baseURL: https://api.axelarscan.io/api
+  baseurl_source: declared
+  description: The Health API from Axelar — 1 operation(s) for health.
   name: Axelar Health API
   slug: axelar-health-api
-- description: The Payloads API from Axelar — 2 operation(s) for payloads.
+- baseURL: https://api.axelarscan.io/api
+  baseurl_source: declared
+  description: The Payloads API from Axelar — 2 operation(s) for payloads.
   name: Axelar Payloads API
   slug: axelar-payloads-api
 artifact_total: 24
@@ -235,7 +243,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/screenshots/axelar-2026-06-20T172905.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 119 operations · 74 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The AbsaDebiCheckService API from LayUp Technologies — 2 operation(s) for absadebicheckservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The AbsaDebiCheckService API from LayUp Technologies — 2 operation(s) for absadebicheckservice.
   name: LayUp Technologies AbsaDebiCheckService API
   slug: layup-technologies-absadebicheckservice-api
-- description: The AbsaEftService API from LayUp Technologies — 2 operation(s) for absaeftservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The AbsaEftService API from LayUp Technologies — 2 operation(s) for absaeftservice.
   name: LayUp Technologies AbsaEftService API
   slug: layup-technologies-absaeftservice-api
-- description: The authService API from LayUp Technologies — 6 operation(s) for authservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The authService API from LayUp Technologies — 6 operation(s) for authservice.
   name: LayUp Technologies authService API
   slug: layup-technologies-authservice-api
-- description: The BankService API from LayUp Technologies — 2 operation(s) for bankservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The BankService API from LayUp Technologies — 2 operation(s) for bankservice.
   name: LayUp Technologies BankService API
   slug: layup-technologies-bankservice-api
-- description: The BankTransactionService API from LayUp Technologies — 4 operation(s) for banktransactionservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The BankTransactionService API from LayUp Technologies — 4 operation(s) for banktransactionservice.
   name: LayUp Technologies BankTransactionService API
   slug: layup-technologies-banktransactionservice-api
-- description: The CardService API from LayUp Technologies — 2 operation(s) for cardservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The CardService API from LayUp Technologies — 2 operation(s) for cardservice.
   name: LayUp Technologies CardService API
   slug: layup-technologies-cardservice-api
-- description: The ConnectorService API from LayUp Technologies — 1 operation(s) for connectorservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The ConnectorService API from LayUp Technologies — 1 operation(s) for connectorservice.
   name: LayUp Technologies ConnectorService API
   slug: layup-technologies-connectorservice-api
-- description: The DebiCheckService API from LayUp Technologies — 5 operation(s) for debicheckservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The DebiCheckService API from LayUp Technologies — 5 operation(s) for debicheckservice.
   name: LayUp Technologies DebiCheckService API
   slug: layup-technologies-debicheckservice-api
-- description: The DebitOrderMandateService API from LayUp Technologies — 2 operation(s) for debitordermandateservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The DebitOrderMandateService API from LayUp Technologies — 2 operation(s) for debitordermandateservice.
   name: LayUp Technologies DebitOrderMandateService API
   slug: layup-technologies-debitordermandateservice-api
-- description: The IntegrationService API from LayUp Technologies — 1 operation(s) for integrationservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The IntegrationService API from LayUp Technologies — 1 operation(s) for integrationservice.
   name: LayUp Technologies IntegrationService API
   slug: layup-technologies-integrationservice-api
-- description: The InternationalMsisdnService API from LayUp Technologies — 2 operation(s) for internationalmsisdnservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The InternationalMsisdnService API from LayUp Technologies — 2 operation(s) for internationalmsisdnservice.
   name: LayUp Technologies InternationalMsisdnService API
   slug: layup-technologies-internationalmsisdnservice-api
-- description: The InvoicesService API from LayUp Technologies — 6 operation(s) for invoicesservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The InvoicesService API from LayUp Technologies — 6 operation(s) for invoicesservice.
   name: LayUp Technologies InvoicesService API
   slug: layup-technologies-invoicesservice-api
-- description: The JournalFeeService API from LayUp Technologies — 1 operation(s) for journalfeeservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The JournalFeeService API from LayUp Technologies — 1 operation(s) for journalfeeservice.
   name: LayUp Technologies JournalFeeService API
   slug: layup-technologies-journalfeeservice-api
-- description: The JournalService API from LayUp Technologies — 1 operation(s) for journalservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The JournalService API from LayUp Technologies — 1 operation(s) for journalservice.
   name: LayUp Technologies JournalService API
   slug: layup-technologies-journalservice-api
-- description: The MerchantService API from LayUp Technologies — 4 operation(s) for merchantservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The MerchantService API from LayUp Technologies — 4 operation(s) for merchantservice.
   name: LayUp Technologies MerchantService API
   slug: layup-technologies-merchantservice-api
-- description: The OrderAmendmentService API from LayUp Technologies — 2 operation(s) for orderamendmentservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The OrderAmendmentService API from LayUp Technologies — 2 operation(s) for orderamendmentservice.
   name: LayUp Technologies OrderAmendmentService API
   slug: layup-technologies-orderamendmentservice-api
-- description: The OrderService API from LayUp Technologies — 7 operation(s) for orderservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The OrderService API from LayUp Technologies — 7 operation(s) for orderservice.
   name: LayUp Technologies OrderService API
   slug: layup-technologies-orderservice-api
-- description: The PayAtService API from LayUp Technologies — 5 operation(s) for payatservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The PayAtService API from LayUp Technologies — 5 operation(s) for payatservice.
   name: LayUp Technologies PayAtService API
   slug: layup-technologies-payatservice-api
-- description: The PaymentPlanService API from LayUp Technologies — 7 operation(s) for paymentplanservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The PaymentPlanService API from LayUp Technologies — 7 operation(s) for paymentplanservice.
   name: LayUp Technologies PaymentPlanService API
   slug: layup-technologies-paymentplanservice-api
-- description: The PaymentProviderSettlementService API from LayUp Technologies — 3 operation(s) for paymentprovidersettlementservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The PaymentProviderSettlementService API from LayUp Technologies — 3 operation(s) for paymentprovidersettlementservice.
   name: LayUp Technologies PaymentProviderSettlementService API
   slug: layup-technologies-paymentprovidersettlementservice-api
-- description: The PaymentService API from LayUp Technologies — 10 operation(s) for paymentservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The PaymentService API from LayUp Technologies — 10 operation(s) for paymentservice.
   name: LayUp Technologies PaymentService API
   slug: layup-technologies-paymentservice-api
-- description: The PaymentServiceV2 API from LayUp Technologies — 2 operation(s) for paymentservicev2.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The PaymentServiceV2 API from LayUp Technologies — 2 operation(s) for paymentservicev2.
   name: LayUp Technologies PaymentServiceV2 API
   slug: layup-technologies-paymentservicev2-api
-- description: The SettlementService API from LayUp Technologies — 3 operation(s) for settlementservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The SettlementService API from LayUp Technologies — 3 operation(s) for settlementservice.
   name: LayUp Technologies SettlementService API
   slug: layup-technologies-settlementservice-api
-- description: The ShopifyService API from LayUp Technologies — 6 operation(s) for shopifyservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The ShopifyService API from LayUp Technologies — 6 operation(s) for shopifyservice.
   name: LayUp Technologies ShopifyService API
   slug: layup-technologies-shopifyservice-api
-- description: The TerminalPaymentAppsService API from LayUp Technologies — 1 operation(s) for terminalpaymentappsservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The TerminalPaymentAppsService API from LayUp Technologies — 1 operation(s) for terminalpaymentappsservice.
   name: LayUp Technologies TerminalPaymentAppsService API
   slug: layup-technologies-terminalpaymentappsservice-api
-- description: The TerminalService API from LayUp Technologies — 3 operation(s) for terminalservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The TerminalService API from LayUp Technologies — 3 operation(s) for terminalservice.
   name: LayUp Technologies TerminalService API
   slug: layup-technologies-terminalservice-api
-- description: The TokenService API from LayUp Technologies — 1 operation(s) for tokenservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The TokenService API from LayUp Technologies — 1 operation(s) for tokenservice.
   name: LayUp Technologies TokenService API
   slug: layup-technologies-tokenservice-api
-- description: The UserService API from LayUp Technologies — 2 operation(s) for userservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The UserService API from LayUp Technologies — 2 operation(s) for userservice.
   name: LayUp Technologies UserService API
   slug: layup-technologies-userservice-api
-- description: The VerifyService API from LayUp Technologies — 1 operation(s) for verifyservice.
+- baseURL: https://api.layup.co.za
+  baseurl_source: declared
+  description: The VerifyService API from LayUp Technologies — 1 operation(s) for verifyservice.
   name: LayUp Technologies VerifyService API
   slug: layup-technologies-verifyservice-api
 artifact_total: 64
@@ -375,7 +433,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -385,7 +443,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 32.6
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,7 +461,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: API for managing and reporting on Brave Ads campaigns. Enables advertisers to retrieve campaign details and performance data for privacy-preserving native browser ads and search ads. Supports customiz
   name: Brave Ads API
   slug: brave-ads-api
-- description: Campaign management and hierarchy endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Campaign management and hierarchy endpoints
   name: Brave campaigns API
   slug: brave-campaigns-api
-- description: Image search endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Image search endpoints
   name: Brave images API
   slug: brave-images-api
-- description: Local place of interest endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Local place of interest endpoints
   name: Brave local API
   slug: brave-local-api
-- description: News search endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: News search endpoints
   name: Brave news API
   slug: brave-news-api
-- description: Campaign performance reporting endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Campaign performance reporting endpoints
   name: Brave reporting API
   slug: brave-reporting-api
-- description: Spellcheck endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Spellcheck endpoints
   name: Brave spellcheck API
   slug: brave-spellcheck-api
-- description: Autosuggest endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Autosuggest endpoints
   name: Brave suggest API
   slug: brave-suggest-api
-- description: Video search endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Video search endpoints
   name: Brave videos API
   slug: brave-videos-api
-- description: Web search endpoints
+- baseURL: https://api.search.brave.com/res/v1/
+  baseurl_source: declared
+  description: Web search endpoints
   name: Brave web API
   slug: brave-web-api
 artifact_total: 36
@@ -277,7 +295,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave/refs/heads/main/screenshots/brave-2026-06-20T173636.png
 security:

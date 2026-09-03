@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate operations for users and organizational hie
@@ -182,7 +182,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cornerstone/refs/heads/main/screenshots/cornerstone-2026-06-20T175031.png
 security:

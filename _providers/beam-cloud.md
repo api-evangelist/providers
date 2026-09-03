@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 5 acting
 api_count: 1
 apis:
-- description: The Task Queues API from Beam — 1 operation(s) for task queues.
+- baseURL: https://app.beam.cloud
+  baseurl_source: declared
+  description: The Task Queues API from Beam — 1 operation(s) for task queues.
   name: Beam Task Queues API
   slug: beam-cloud-task-queues-api
-- description: The Tasks API from Beam — 2 operation(s) for tasks.
+- baseURL: https://app.beam.cloud
+  baseurl_source: declared
+  description: The Tasks API from Beam — 2 operation(s) for tasks.
   name: Beam Tasks API
   slug: beam-cloud-tasks-api
-- description: The Web Endpoints API from Beam — 3 operation(s) for web endpoints.
+- baseURL: https://app.beam.cloud
+  baseurl_source: declared
+  description: The Web Endpoints API from Beam — 3 operation(s) for web endpoints.
   name: Beam Web Endpoints API
   slug: beam-cloud-web-endpoints-api
 artifact_total: 16
@@ -167,7 +173,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -177,7 +183,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.9
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -186,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beam-cloud/refs/heads/main/screenshots/beam-cloud-2026-06-20T173120.png
 security:

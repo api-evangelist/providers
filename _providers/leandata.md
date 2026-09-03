@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 16 operations · 12 acting
 api_count: 3
 apis:
-- description: <p>The availability endpoints return meeting configuration and open time slots used to render booking pages or refresh availability. Depending on the request context (routing, direct link, or reschedu
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: <p>The availability endpoints return meeting configuration and open time slots used to render booking pages or refresh availability. Depending on the request context (routing, direct link, or reschedu
   name: LeanData 🗓️ Availability API
   slug: leandata-availability-api
-- description: <p>This section outlines the endpoints used to retrieve scheduling data for building a custom calendaring experience. Both endpoints return the same structure of <strong>read-only</strong> information
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: <p>This section outlines the endpoints used to retrieve scheduling data for building a custom calendaring experience. Both endpoints return the same structure of <strong>read-only</strong> information
   name: LeanData Legacy (still supported) API
   slug: leandata-legacy-still-supported-api
-- description: The Matching API from LeanData — 1 operation(s) for matching.
+- baseURL: https://yourinstance.my.salesforce.com
+  baseurl_source: declared
+  description: The Matching API from LeanData — 1 operation(s) for matching.
   name: LeanData Matching API
   slug: leandata-matching-api
-- description: '<p>Use these endpoints to finalize and book meetings after a timeslot has been selected.</p> <p>⚠️ <strong>Important:</strong> You <strong>must</strong> support both <code>POST /v1/meeting</code> and '
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: '<p>Use these endpoints to finalize and book meetings after a timeslot has been selected.</p> <p>⚠️ <strong>Important:</strong> You <strong>must</strong> support both <code>POST /v1/meeting</code> and '
   name: LeanData 📆 Meetings > Create API
   slug: leandata-meetings-create-api
-- description: The 📆 Meetings > Manage API from LeanData — 1 operation(s) for 📆 meetings > manage.
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: The 📆 Meetings > Manage API from LeanData — 1 operation(s) for 📆 meetings > manage.
   name: LeanData 📆 Meetings > Manage API
   slug: leandata-meetings-manage-api
-- description: The 📆 Meetings > Retrieve API from LeanData — 2 operation(s) for 📆 meetings > retrieve.
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: The 📆 Meetings > Retrieve API from LeanData — 2 operation(s) for 📆 meetings > retrieve.
   name: LeanData 📆 Meetings > Retrieve API
   slug: leandata-meetings-retrieve-api
-- description: '<p>This section describes the endpoints used to trigger 1x Routing for creating a custom orchestration experience, as well as to retrieve the status of the resulting job. When invoked, the 1x Routing '
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: '<p>This section describes the endpoints used to trigger 1x Routing for creating a custom orchestration experience, as well as to retrieve the status of the resulting job. When invoked, the 1x Routing '
   name: LeanData One Time Routing API
   slug: leandata-one-time-routing-api
-- description: <p>This section outlines the endpoints used to retrieve Routing Graphs information for building a custom orchestration experience. The endpoint returns information such as trigger node names, the edge
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: <p>This section outlines the endpoints used to retrieve Routing Graphs information for building a custom orchestration experience. The endpoint returns information such as trigger node names, the edge
   name: LeanData Retrieve Routing Graphs Information API
   slug: leandata-retrieve-routing-graphs-information-api
-- description: The 🧠 Scheduling Inputs API from LeanData — 1 operation(s) for 🧠 scheduling inputs.
+- baseURL: https://api.leandata.com
+  baseurl_source: declared
+  description: The 🧠 Scheduling Inputs API from LeanData — 1 operation(s) for 🧠 scheduling inputs.
   name: LeanData 🧠 Scheduling Inputs API
   slug: leandata-scheduling-inputs-api
 artifact_total: 32
@@ -435,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/screenshots/leandata-2026-06-20T184358.png
 security:

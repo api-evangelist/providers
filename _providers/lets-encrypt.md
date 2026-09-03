@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 12 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: ACME account creation and management
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: ACME account creation and management
   name: Let's Encrypt Account API
   slug: lets-encrypt-account-api
-- description: Domain control authorizations
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Domain control authorizations
   name: Let's Encrypt Authorization API
   slug: lets-encrypt-authorization-api
-- description: Issued certificate retrieval and revocation
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Issued certificate retrieval and revocation
   name: Let's Encrypt Certificate API
   slug: lets-encrypt-certificate-api
-- description: Validation challenges (HTTP-01, DNS-01, TLS-ALPN-01)
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Validation challenges (HTTP-01, DNS-01, TLS-ALPN-01)
   name: Let's Encrypt Challenge API
   slug: lets-encrypt-challenge-api
-- description: Discovery document listing ACME resources
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Discovery document listing ACME resources
   name: Let's Encrypt Directory API
   slug: lets-encrypt-directory-api
-- description: Anti-replay nonces for JWS-signed requests
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Anti-replay nonces for JWS-signed requests
   name: Let's Encrypt Nonce API
   slug: lets-encrypt-nonce-api
-- description: Certificate issuance orders
+- baseURL: https://acme-v02.api.letsencrypt.org
+  baseurl_source: declared
+  description: Certificate issuance orders
   name: Let's Encrypt Order API
   slug: lets-encrypt-order-api
 artifact_total: 22
@@ -174,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/screenshots/lets-encrypt-2026-06-20T184427.png
 security:

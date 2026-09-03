@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: 'REST API and SDK suite for embedding accounts payable and accounts receivable into vertical SaaS platforms. Exposes resources for entities, users, invoices, bills, vendors, approval policies, payment '
   name: Mercoa API
   slug: mercoa-api
-- description: The Entities API from Mercoa — 7 operation(s) for entities.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Entities API from Mercoa — 7 operation(s) for entities.
   name: Mercoa Entities API
   slug: mercoa-entities-api
-- description: The Entity Groups API from Mercoa — 5 operation(s) for entity groups.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Entity Groups API from Mercoa — 5 operation(s) for entity groups.
   name: Mercoa Entity Groups API
   slug: mercoa-entity-groups-api
-- description: The Invoice Templates API from Mercoa — 3 operation(s) for invoice templates.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Invoice Templates API from Mercoa — 3 operation(s) for invoice templates.
   name: Mercoa Invoice Templates API
   slug: mercoa-invoice-templates-api
-- description: The Invoices API from Mercoa — 8 operation(s) for invoices.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Invoices API from Mercoa — 8 operation(s) for invoices.
   name: Mercoa Invoices API
   slug: mercoa-invoices-api
-- description: The OCR API from Mercoa — 3 operation(s) for ocr.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The OCR API from Mercoa — 3 operation(s) for ocr.
   name: Mercoa OCR API
   slug: mercoa-ocr-api
-- description: The Organization API from Mercoa — 1 operation(s) for organization.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Organization API from Mercoa — 1 operation(s) for organization.
   name: Mercoa Organization API
   slug: mercoa-organization-api
-- description: The Payment Gateway API from Mercoa — 2 operation(s) for payment gateway.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Payment Gateway API from Mercoa — 2 operation(s) for payment gateway.
   name: Mercoa Payment Gateway API
   slug: mercoa-payment-gateway-api
-- description: The Payment Methods API from Mercoa — 3 operation(s) for payment methods.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Payment Methods API from Mercoa — 3 operation(s) for payment methods.
   name: Mercoa Payment Methods API
   slug: mercoa-payment-methods-api
-- description: The Transactions API from Mercoa — 2 operation(s) for transactions.
+- baseURL: https://api.mercoa.com
+  baseurl_source: declared
+  description: The Transactions API from Mercoa — 2 operation(s) for transactions.
   name: Mercoa Transactions API
   slug: mercoa-transactions-api
 artifact_total: 27
@@ -204,7 +222,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercoa/refs/heads/main/screenshots/mercoa-2026-06-20T185210.png
 security:

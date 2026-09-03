@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Business-to-consumer identity management solution.
   name: Azure AD B2C API
   slug: azure-ad-b2c-api
-- description: Application registrations in Entra ID
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Application registrations in Entra ID
   name: Azure Active Directory Applications API
   slug: azure-ad-applications-api
-- description: Directory roles and objects
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Directory roles and objects
   name: Azure Active Directory Directory API
   slug: azure-ad-directory-api
-- description: Microsoft 365 and security groups
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Microsoft 365 and security groups
   name: Azure Active Directory Groups API
   slug: azure-ad-groups-api
-- description: Operations on the signed-in user
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Operations on the signed-in user
   name: Azure Active Directory Me API
   slug: azure-ad-me-api
-- description: User accounts in the directory
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: User accounts in the directory
   name: Azure Active Directory Users API
   slug: azure-ad-users-api
 artifact_total: 39
@@ -225,7 +235,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ad/refs/heads/main/screenshots/azure-ad-2026-06-20T172836.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Oracle Transportation Management Data Export REST API facilitates table-centric data extraction and integration with external systems for reporting, analytics, and data warehouse use cases.
   name: Oracle Transportation Management Data Export REST API
   slug: oracle-transportation-management-data-export-rest-api
-- description: Carrier master data
+- baseURL: https://{host}/GC3/glog.integration.servlet.WMServlet/otm/rest/v1
+  baseurl_source: declared
+  description: Carrier master data
   name: Oracle Transportation Management Carriers API
   slug: oracle-transportation-management-carriers-api
-- description: Location master data
+- baseURL: https://{host}/GC3/glog.integration.servlet.WMServlet/otm/rest/v1
+  baseurl_source: declared
+  description: Location master data
   name: Oracle Transportation Management Locations API
   slug: oracle-transportation-management-locations-api
-- description: Rate records and freight costs
+- baseURL: https://{host}/GC3/glog.integration.servlet.WMServlet/otm/rest/v1
+  baseurl_source: declared
+  description: Rate records and freight costs
   name: Oracle Transportation Management Rates API
   slug: oracle-transportation-management-rates-api
-- description: Shipment order management
+- baseURL: https://{host}/GC3/glog.integration.servlet.WMServlet/otm/rest/v1
+  baseurl_source: declared
+  description: Shipment order management
   name: Oracle Transportation Management ShipmentOrders API
   slug: oracle-transportation-management-shipmentorders-api
 artifact_total: 21
@@ -236,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/screenshots/oracle-transportation-management-2026-06-20T191148.png
 security:

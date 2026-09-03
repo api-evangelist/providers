@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agents API from Beyond Presence — 2 operation(s) for agents.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Agents API from Beyond Presence — 2 operation(s) for agents.
   name: Beyond Presence Agents API
   slug: beyond-presence-agents-api
-- description: The Authentication API from Beyond Presence — 1 operation(s) for authentication.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Authentication API from Beyond Presence — 1 operation(s) for authentication.
   name: Beyond Presence Authentication API
   slug: beyond-presence-authentication-api
-- description: The Avatars API from Beyond Presence — 2 operation(s) for avatars.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Avatars API from Beyond Presence — 2 operation(s) for avatars.
   name: Beyond Presence Avatars API
   slug: beyond-presence-avatars-api
-- description: The Calls API from Beyond Presence — 3 operation(s) for calls.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Calls API from Beyond Presence — 3 operation(s) for calls.
   name: Beyond Presence Calls API
   slug: beyond-presence-calls-api
-- description: The External APIs API from Beyond Presence — 2 operation(s) for external apis.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The External APIs API from Beyond Presence — 2 operation(s) for external apis.
   name: Beyond Presence External APIs API
   slug: beyond-presence-external-apis-api
-- description: The Knowledge Files API from Beyond Presence — 4 operation(s) for knowledge files.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Knowledge Files API from Beyond Presence — 4 operation(s) for knowledge files.
   name: Beyond Presence Knowledge Files API
   slug: beyond-presence-knowledge-files-api
-- description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
+- baseURL: https://api.bey.dev
+  baseurl_source: declared
+  description: The Sessions API from Beyond Presence — 2 operation(s) for sessions.
   name: Beyond Presence Sessions API
   slug: beyond-presence-sessions-api
 artifact_total: 27
@@ -269,7 +283,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -279,7 +293,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 54.1
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     contracts:
@@ -290,7 +304,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-presence/refs/heads/main/screenshots/beyond-presence-2026-07-25T202842.png
 security:

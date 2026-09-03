@@ -33,142 +33,232 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Addresses API from Onfido — 1 operation(s) for addresses.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Addresses API from Onfido — 1 operation(s) for addresses.
   name: Onfido Addresses API
   slug: onfido-addresses-api
-- description: The Applicants API from Onfido — 3 operation(s) for applicants.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Applicants API from Onfido — 3 operation(s) for applicants.
   name: Onfido Applicants API
   slug: onfido-applicants-api
-- description: The Attempts API from Onfido — 1 operation(s) for attempts.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Attempts API from Onfido — 1 operation(s) for attempts.
   name: Onfido Attempts API
   slug: onfido-attempts-api
-- description: The Cancel API from Onfido — 1 operation(s) for cancel.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Cancel API from Onfido — 1 operation(s) for cancel.
   name: Onfido Cancel API
   slug: onfido-cancel-api
-- description: The Capture API from Onfido — 3 operation(s) for capture.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Capture API from Onfido — 3 operation(s) for capture.
   name: Onfido Capture API
   slug: onfido-capture-api
-- description: The Captures API from Onfido — 4 operation(s) for captures.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Captures API from Onfido — 4 operation(s) for captures.
   name: Onfido Captures API
   slug: onfido-captures-api
-- description: The Checks API from Onfido — 4 operation(s) for checks.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Checks API from Onfido — 4 operation(s) for checks.
   name: Onfido Checks API
   slug: onfido-checks-api
-- description: The Complete API from Onfido — 1 operation(s) for complete.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Complete API from Onfido — 1 operation(s) for complete.
   name: Onfido Complete API
   slug: onfido-complete-api
-- description: The Documents API from Onfido — 5 operation(s) for documents.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Documents API from Onfido — 5 operation(s) for documents.
   name: Onfido Documents API
   slug: onfido-documents-api
-- description: The Download API from Onfido — 6 operation(s) for download.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Download API from Onfido — 6 operation(s) for download.
   name: Onfido Download API
   slug: onfido-download-api
-- description: The Downloads API from Onfido — 1 operation(s) for downloads.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Downloads API from Onfido — 1 operation(s) for downloads.
   name: Onfido Downloads API
   slug: onfido-downloads-api
-- description: The Electronic API from Onfido — 1 operation(s) for electronic.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Electronic API from Onfido — 1 operation(s) for electronic.
   name: Onfido Electronic API
   slug: onfido-electronic-api
-- description: The Evidence API from Onfido — 1 operation(s) for evidence.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Evidence API from Onfido — 1 operation(s) for evidence.
   name: Onfido Evidence API
   slug: onfido-evidence-api
-- description: The Extractions API from Onfido — 1 operation(s) for extractions.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Extractions API from Onfido — 1 operation(s) for extractions.
   name: Onfido Extractions API
   slug: onfido-extractions-api
-- description: The Feedback API from Onfido — 1 operation(s) for feedback.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Feedback API from Onfido — 1 operation(s) for feedback.
   name: Onfido Feedback API
   slug: onfido-feedback-api
-- description: The Files API from Onfido — 3 operation(s) for files.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Files API from Onfido — 3 operation(s) for files.
   name: Onfido Files API
   slug: onfido-files-api
-- description: The Frame API from Onfido — 2 operation(s) for frame.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Frame API from Onfido — 2 operation(s) for frame.
   name: Onfido Frame API
   slug: onfido-frame-api
-- description: The Live API from Onfido — 7 operation(s) for live.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Live API from Onfido — 7 operation(s) for live.
   name: Onfido Live API
   slug: onfido-live-api
-- description: The Matches API from Onfido — 1 operation(s) for matches.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Matches API from Onfido — 1 operation(s) for matches.
   name: Onfido Matches API
   slug: onfido-matches-api
-- description: The Monitors API from Onfido — 4 operation(s) for monitors.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Monitors API from Onfido — 4 operation(s) for monitors.
   name: Onfido Monitors API
   slug: onfido-monitors-api
-- description: The Motion API from Onfido — 4 operation(s) for motion.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Motion API from Onfido — 4 operation(s) for motion.
   name: Onfido Motion API
   slug: onfido-motion-api
-- description: The Photo API from Onfido — 4 operation(s) for photo.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Photo API from Onfido — 4 operation(s) for photo.
   name: Onfido Photo API
   slug: onfido-photo-api
-- description: The Photos API from Onfido — 6 operation(s) for photos.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Photos API from Onfido — 6 operation(s) for photos.
   name: Onfido Photos API
   slug: onfido-photos-api
-- description: The Pick API from Onfido — 1 operation(s) for pick.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Pick API from Onfido — 1 operation(s) for pick.
   name: Onfido Pick API
   slug: onfido-pick-api
-- description: The Pings API from Onfido — 1 operation(s) for pings.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Pings API from Onfido — 1 operation(s) for pings.
   name: Onfido Pings API
   slug: onfido-pings-api
-- description: The Repeat API from Onfido — 1 operation(s) for repeat.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Repeat API from Onfido — 1 operation(s) for repeat.
   name: Onfido Repeat API
   slug: onfido-repeat-api
-- description: The Report API from Onfido — 1 operation(s) for report.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Report API from Onfido — 1 operation(s) for report.
   name: Onfido Report API
   slug: onfido-report-api
-- description: The Reports API from Onfido — 5 operation(s) for reports.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Reports API from Onfido — 5 operation(s) for reports.
   name: Onfido Reports API
   slug: onfido-reports-api
-- description: The Resend API from Onfido — 1 operation(s) for resend.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Resend API from Onfido — 1 operation(s) for resend.
   name: Onfido Resend API
   slug: onfido-resend-api
-- description: The Restore API from Onfido — 1 operation(s) for restore.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Restore API from Onfido — 1 operation(s) for restore.
   name: Onfido Restore API
   slug: onfido-restore-api
-- description: The Results API from Onfido — 1 operation(s) for results.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Results API from Onfido — 1 operation(s) for results.
   name: Onfido Results API
   slug: onfido-results-api
-- description: The Resume API from Onfido — 2 operation(s) for resume.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Resume API from Onfido — 2 operation(s) for resume.
   name: Onfido Resume API
   slug: onfido-resume-api
-- description: The Run API from Onfido — 7 operation(s) for run.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Run API from Onfido — 7 operation(s) for run.
   name: Onfido Run API
   slug: onfido-run-api
-- description: The Runs API from Onfido — 8 operation(s) for runs.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Runs API from Onfido — 8 operation(s) for runs.
   name: Onfido Runs API
   slug: onfido-runs-api
-- description: The Signatures API from Onfido — 1 operation(s) for signatures.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Signatures API from Onfido — 1 operation(s) for signatures.
   name: Onfido Signatures API
   slug: onfido-signatures-api
-- description: The Signed API from Onfido — 1 operation(s) for signed.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Signed API from Onfido — 1 operation(s) for signed.
   name: Onfido Signed API
   slug: onfido-signed-api
-- description: The Task API from Onfido — 2 operation(s) for task.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Task API from Onfido — 2 operation(s) for task.
   name: Onfido Task API
   slug: onfido-task-api
-- description: The Tasks API from Onfido — 3 operation(s) for tasks.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Tasks API from Onfido — 3 operation(s) for tasks.
   name: Onfido Tasks API
   slug: onfido-tasks-api
-- description: The Timeline API from Onfido — 2 operation(s) for timeline.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Timeline API from Onfido — 2 operation(s) for timeline.
   name: Onfido Timeline API
   slug: onfido-timeline-api
-- description: The Token API from Onfido — 1 operation(s) for token.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Token API from Onfido — 1 operation(s) for token.
   name: Onfido Token API
   slug: onfido-token-api
-- description: The Video API from Onfido — 1 operation(s) for video.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Video API from Onfido — 1 operation(s) for video.
   name: Onfido Video API
   slug: onfido-video-api
-- description: The Videos API from Onfido — 4 operation(s) for videos.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Videos API from Onfido — 4 operation(s) for videos.
   name: Onfido Videos API
   slug: onfido-videos-api
-- description: The Watchlist API from Onfido — 4 operation(s) for watchlist.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Watchlist API from Onfido — 4 operation(s) for watchlist.
   name: Onfido Watchlist API
   slug: onfido-watchlist-api
-- description: The Webhooks API from Onfido — 3 operation(s) for webhooks.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Webhooks API from Onfido — 3 operation(s) for webhooks.
   name: Onfido Webhooks API
   slug: onfido-webhooks-api
-- description: The Workflows API from Onfido — 8 operation(s) for workflows.
+- baseURL_template: https://api.{region}.onfido.com/v3.6
+  baseurl_source: spec_template
+  description: The Workflows API from Onfido — 8 operation(s) for workflows.
   name: Onfido Workflows API
   slug: onfido-workflows-api
 artifact_total: 96
@@ -424,7 +514,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -434,7 +524,7 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.2
+  previous_composite: 43.4
   provenance:
     contracts:
       callable: 100.0
@@ -442,7 +532,7 @@ score:
       marker_coverage: 0.0
       total: 46
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,19 +46,29 @@ agentic_access:
   summary_line: 8 operations · 7 acting
 api_count: 1
 apis:
-- description: Appraisal / quote data derived from an inspection.
+- baseURL: https://api.uveye.dev/v1
+  baseurl_source: declared
+  description: Appraisal / quote data derived from an inspection.
   name: UVeye Appraisal API
   slug: uveye-appraisal-api
-- description: Retrieve vehicle inspection data and the most recent inspections for a site or site group.
+- baseURL: https://api.uveye.dev/v1
+  baseurl_source: declared
+  description: Retrieve vehicle inspection data and the most recent inspections for a site or site group.
   name: UVeye Inspections API
   slug: uveye-inspections-api
-- description: Inspection imagery.
+- baseURL: https://api.uveye.dev/v1
+  baseurl_source: declared
+  description: Inspection imagery.
   name: UVeye Media API
   slug: uveye-media-api
-- description: Submit dealer inventory for merchandising and mark vehicles sold.
+- baseURL: https://api.uveye.dev/v1
+  baseurl_source: declared
+  description: Submit dealer inventory for merchandising and mark vehicles sold.
   name: UVeye Merchandise API
   slug: uveye-merchandise-api
-- description: Generate and record customer-facing public inspection links.
+- baseURL: https://api.uveye.dev/v1
+  baseurl_source: declared
+  description: Generate and record customer-facing public inspection links.
   name: UVeye Public Links API
   slug: uveye-public-links-api
 artifact_total: 19
@@ -246,7 +269,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -256,7 +279,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 57.1
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/screenshots/uveye-2026-08-17T082702.png
 security:

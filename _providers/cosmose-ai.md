@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,46 +35,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The contact-form-controller API from Cosmose AI — 1 operation(s) for contact-form-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The contact-form-controller API from Cosmose AI — 1 operation(s) for contact-form-controller.
   name: Cosmose AI Contact Form Controller API
   slug: cosmose-ai-contact-form-controller-api
-- description: The crucible-token-controller API from Cosmose AI — 1 operation(s) for crucible-token-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The crucible-token-controller API from Cosmose AI — 1 operation(s) for crucible-token-controller.
   name: Cosmose AI Crucible Token Controller API
   slug: cosmose-ai-crucible-token-controller-api
-- description: The forget-me-controller API from Cosmose AI — 2 operation(s) for forget-me-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The forget-me-controller API from Cosmose AI — 2 operation(s) for forget-me-controller.
   name: Cosmose AI Forget Me Controller API
   slug: cosmose-ai-forget-me-controller-api
-- description: The invitation-controller API from Cosmose AI — 1 operation(s) for invitation-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The invitation-controller API from Cosmose AI — 1 operation(s) for invitation-controller.
   name: Cosmose AI Invitation Controller API
   slug: cosmose-ai-invitation-controller-api
-- description: The kkn-onboarding-controller API from Cosmose AI — 2 operation(s) for kkn-onboarding-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The kkn-onboarding-controller API from Cosmose AI — 2 operation(s) for kkn-onboarding-controller.
   name: Cosmose AI Kkn Onboarding Controller API
   slug: cosmose-ai-kkn-onboarding-controller-api
-- description: The learn-to-code-controller API from Cosmose AI — 1 operation(s) for learn-to-code-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The learn-to-code-controller API from Cosmose AI — 1 operation(s) for learn-to-code-controller.
   name: Cosmose AI Learn To Code Controller API
   slug: cosmose-ai-learn-to-code-controller-api
-- description: The merchant-controller API from Cosmose AI — 1 operation(s) for merchant-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The merchant-controller API from Cosmose AI — 1 operation(s) for merchant-controller.
   name: Cosmose AI Merchant Controller API
   slug: cosmose-ai-merchant-controller-api
-- description: The newsletter-controller API from Cosmose AI — 1 operation(s) for newsletter-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The newsletter-controller API from Cosmose AI — 1 operation(s) for newsletter-controller.
   name: Cosmose AI Newsletter Controller API
   slug: cosmose-ai-newsletter-controller-api
-- description: The onboarding-controller API from Cosmose AI — 3 operation(s) for onboarding-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The onboarding-controller API from Cosmose AI — 3 operation(s) for onboarding-controller.
   name: Cosmose AI Onboarding Controller API
   slug: cosmose-ai-onboarding-controller-api
-- description: The registration-admin-controller API from Cosmose AI — 2 operation(s) for registration-admin-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The registration-admin-controller API from Cosmose AI — 2 operation(s) for registration-admin-controller.
   name: Cosmose AI Registration Admin Controller API
   slug: cosmose-ai-registration-admin-controller-api
-- description: The registration-controller API from Cosmose AI — 4 operation(s) for registration-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The registration-controller API from Cosmose AI — 4 operation(s) for registration-controller.
   name: Cosmose AI Registration Controller API
   slug: cosmose-ai-registration-controller-api
-- description: The school-controller API from Cosmose AI — 2 operation(s) for school-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The school-controller API from Cosmose AI — 2 operation(s) for school-controller.
   name: Cosmose AI School Controller API
   slug: cosmose-ai-school-controller-api
-- description: The token-controller API from Cosmose AI — 1 operation(s) for token-controller.
+- baseURL: https://api.sg.cosmose.co/deal-hunter-registration-api
+  baseurl_source: declared
+  description: The token-controller API from Cosmose AI — 1 operation(s) for token-controller.
   name: Cosmose AI Token Controller API
   slug: cosmose-ai-token-controller-api
 artifact_total: 18
@@ -165,7 +203,7 @@ score:
   band: emerging
   composite: 25.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -190,8 +228,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cosmose-ai/refs/heads/main/screenshots/cosmose-ai-2026-09-02T145151.png
 security:
 - kind: authentication
   name: Cosmose Ai Authentication

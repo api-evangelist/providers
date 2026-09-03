@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -59,37 +59,59 @@ apis:
 - description: Subscribe to real-time event notifications from the Snov.io platform. Supports listing, creating, updating, and deleting webhook subscriptions for automated event-driven integrations.
   name: Snov.io Webhooks API
   slug: snovio-webhooks-api
-- description: OAuth 2.0 token management
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: Snov.io Authentication API
   slug: snov-io-authentication-api
-- description: Create and manage multi-channel outreach campaigns
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Create and manage multi-channel outreach campaigns
   name: Snov.io Campaigns API
   slug: snov-io-campaigns-api
-- description: CRM pipeline and stage management
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: CRM pipeline and stage management
   name: Snov.io CRM Pipeline API
   slug: snov-io-crm-pipeline-api
-- description: Search for company information and email addresses by domain
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Search for company information and email addresses by domain
   name: Snov.io Domain Search API
   slug: snov-io-domain-search-api
-- description: Manage sender email accounts
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Manage sender email accounts
   name: Snov.io Email Accounts API
   slug: snov-io-email-accounts-api
-- description: Find email addresses by name, LinkedIn, or domain
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Find email addresses by name, LinkedIn, or domain
   name: Snov.io Email Finder API
   slug: snov-io-email-finder-api
-- description: Verify email deliverability and validity
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Verify email deliverability and validity
   name: Snov.io Email Verification API
   slug: snov-io-email-verification-api
-- description: Manage email warm-up campaigns for improved deliverability
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Manage email warm-up campaigns for improved deliverability
   name: Snov.io Email Warm-up API
   slug: snov-io-email-warm-up-api
-- description: Manage prospect records and lists
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Manage prospect records and lists
   name: Snov.io Prospects API
   slug: snov-io-prospects-api
-- description: User account management
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: User account management
   name: Snov.io User API
   slug: snov-io-user-api
-- description: Real-time event webhook subscriptions
+- baseURL: https://api.snov.io
+  baseurl_source: declared
+  description: Real-time event webhook subscriptions
   name: Snov.io Webhooks API
   slug: snov-io-webhooks-api
 - description: 'First-party remote Model Context Protocol server exposing 100+ Snov.io actions to AI assistants — prospect search and enrichment, list and folder management, email verification, Sales CRM (pipelines, '
@@ -380,7 +402,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -390,7 +412,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 65.8
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -402,7 +424,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:

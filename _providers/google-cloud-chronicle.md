@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for managing security alerts
+- baseURL: https://chronicle.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing security alerts
   name: Google Cloud Chronicle Alerts API
   slug: google-cloud-chronicle-alerts-api
-- description: Operations for managing data ingestion feeds
+- baseURL: https://chronicle.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing data ingestion feeds
   name: Google Cloud Chronicle Feeds API
   slug: google-cloud-chronicle-feeds-api
-- description: Operations for managing reference lists
+- baseURL: https://chronicle.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing reference lists
   name: Google Cloud Chronicle ReferenceLists API
   slug: google-cloud-chronicle-referencelists-api
-- description: Operations for managing detection rules
+- baseURL: https://chronicle.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing detection rules
   name: Google Cloud Chronicle Rules API
   slug: google-cloud-chronicle-rules-api
 artifact_total: 25
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/screenshots/google-cloud-chronicle-2026-06-20T182100.png
 security:

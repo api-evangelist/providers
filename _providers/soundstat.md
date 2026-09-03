@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 20 operations · 15 acting
 api_count: 1
 apis:
-- description: The Genres API from SoundStat — 1 operation(s) for genres.
+- baseURL: https://soundstat.info/api/v1
+  baseurl_source: declared
+  description: The Genres API from SoundStat — 1 operation(s) for genres.
   name: SoundStat Genres API
   slug: soundstat-genres-api
-- description: The Recommendations API from SoundStat — 15 operation(s) for recommendations.
+- baseURL: https://soundstat.info/api/v1
+  baseurl_source: declared
+  description: The Recommendations API from SoundStat — 15 operation(s) for recommendations.
   name: SoundStat Recommendations API
   slug: soundstat-recommendations-api
-- description: The Stats API from SoundStat — 1 operation(s) for stats.
+- baseURL: https://soundstat.info/api/v1
+  baseurl_source: declared
+  description: The Stats API from SoundStat — 1 operation(s) for stats.
   name: SoundStat Stats API
   slug: soundstat-stats-api
-- description: The Track API from SoundStat — 2 operation(s) for track.
+- baseURL: https://soundstat.info/api/v1
+  baseurl_source: declared
+  description: The Track API from SoundStat — 2 operation(s) for track.
   name: SoundStat Track API
   slug: soundstat-track-api
-- description: The Tracks API from SoundStat — 1 operation(s) for tracks.
+- baseURL: https://soundstat.info/api/v1
+  baseurl_source: declared
+  description: The Tracks API from SoundStat — 1 operation(s) for tracks.
   name: SoundStat Tracks API
   slug: soundstat-tracks-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundstat/refs/heads/main/screenshots/soundstat-2026-08-17T082005.png
 security:

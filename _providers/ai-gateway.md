@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -88,73 +88,119 @@ apis:
 - description: Gentrace was an AI evaluation and observability product; the company has shut down and its codebase is now MIT-licensed open source on GitHub. Included here for historical completeness in the AI gatew
   name: Gentrace
   slug: gentrace
-- description: The Analytics API from AI Gateway — 2 operation(s) for analytics.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Analytics API from AI Gateway — 2 operation(s) for analytics.
   name: AI Gateway Analytics API
   slug: ai-gateway-analytics-api
-- description: The APIKeys API from AI Gateway — 1 operation(s) for apikeys.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The APIKeys API from AI Gateway — 1 operation(s) for apikeys.
   name: AI Gateway APIKeys API
   slug: ai-gateway-apikeys-api
-- description: The Assistants API from AI Gateway — 1 operation(s) for assistants.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Assistants API from AI Gateway — 1 operation(s) for assistants.
   name: AI Gateway Assistants API
   slug: ai-gateway-assistants-api
-- description: The Audio API from AI Gateway — 3 operation(s) for audio.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Audio API from AI Gateway — 3 operation(s) for audio.
   name: AI Gateway Audio API
   slug: ai-gateway-audio-api
-- description: The Batches API from AI Gateway — 2 operation(s) for batches.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Batches API from AI Gateway — 2 operation(s) for batches.
   name: AI Gateway Batches API
   slug: ai-gateway-batches-api
-- description: The Chat API from AI Gateway — 1 operation(s) for chat.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Chat API from AI Gateway — 1 operation(s) for chat.
   name: AI Gateway Chat API
   slug: ai-gateway-chat-api
-- description: The Completions API from AI Gateway — 1 operation(s) for completions.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Completions API from AI Gateway — 1 operation(s) for completions.
   name: AI Gateway Completions API
   slug: ai-gateway-completions-api
-- description: The Configs API from AI Gateway — 1 operation(s) for configs.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Configs API from AI Gateway — 1 operation(s) for configs.
   name: AI Gateway Configs API
   slug: ai-gateway-configs-api
-- description: The Embeddings API from AI Gateway — 2 operation(s) for embeddings.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Embeddings API from AI Gateway — 2 operation(s) for embeddings.
   name: AI Gateway Embeddings API
   slug: ai-gateway-embeddings-api
-- description: The Feedback API from AI Gateway — 1 operation(s) for feedback.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Feedback API from AI Gateway — 1 operation(s) for feedback.
   name: AI Gateway Feedback API
   slug: ai-gateway-feedback-api
-- description: The Files API from AI Gateway — 2 operation(s) for files.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Files API from AI Gateway — 2 operation(s) for files.
   name: AI Gateway Files API
   slug: ai-gateway-files-api
-- description: The FineTuning API from AI Gateway — 2 operation(s) for finetuning.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The FineTuning API from AI Gateway — 2 operation(s) for finetuning.
   name: AI Gateway FineTuning API
   slug: ai-gateway-finetuning-api
-- description: The Guardrails API from AI Gateway — 1 operation(s) for guardrails.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Guardrails API from AI Gateway — 1 operation(s) for guardrails.
   name: AI Gateway Guardrails API
   slug: ai-gateway-guardrails-api
-- description: The Images API from AI Gateway — 1 operation(s) for images.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Images API from AI Gateway — 1 operation(s) for images.
   name: AI Gateway Images API
   slug: ai-gateway-images-api
-- description: The Integrations API from AI Gateway — 2 operation(s) for integrations.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Integrations API from AI Gateway — 2 operation(s) for integrations.
   name: AI Gateway Integrations API
   slug: ai-gateway-integrations-api
-- description: The Logs API from AI Gateway — 2 operation(s) for logs.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Logs API from AI Gateway — 2 operation(s) for logs.
   name: AI Gateway Logs API
   slug: ai-gateway-logs-api
-- description: The MCP API from AI Gateway — 2 operation(s) for mcp.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The MCP API from AI Gateway — 2 operation(s) for mcp.
   name: AI Gateway MCP API
   slug: ai-gateway-mcp-api
-- description: The Policies API from AI Gateway — 2 operation(s) for policies.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Policies API from AI Gateway — 2 operation(s) for policies.
   name: AI Gateway Policies API
   slug: ai-gateway-policies-api
-- description: The Prompts API from AI Gateway — 6 operation(s) for prompts.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Prompts API from AI Gateway — 6 operation(s) for prompts.
   name: AI Gateway Prompts API
   slug: ai-gateway-prompts-api
-- description: The Responses API from AI Gateway — 1 operation(s) for responses.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Responses API from AI Gateway — 1 operation(s) for responses.
   name: AI Gateway Responses API
   slug: ai-gateway-responses-api
-- description: The Threads API from AI Gateway — 3 operation(s) for threads.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Threads API from AI Gateway — 3 operation(s) for threads.
   name: AI Gateway Threads API
   slug: ai-gateway-threads-api
-- description: The VirtualKeys API from AI Gateway — 1 operation(s) for virtualkeys.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The VirtualKeys API from AI Gateway — 1 operation(s) for virtualkeys.
   name: AI Gateway VirtualKeys API
   slug: ai-gateway-virtualkeys-api
-- description: The Workspaces API from AI Gateway — 4 operation(s) for workspaces.
+- baseURL: https://api.portkey.ai
+  baseurl_source: declared
+  description: The Workspaces API from AI Gateway — 4 operation(s) for workspaces.
   name: AI Gateway Workspaces API
   slug: ai-gateway-workspaces-api
 artifact_total: 108
@@ -462,7 +508,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/screenshots/ai-gateway-2026-06-20T170650.png
 security:

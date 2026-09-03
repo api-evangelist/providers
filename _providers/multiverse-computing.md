@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +36,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The audio API from Multiverse Computing — 1 operation(s) for audio.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The audio API from Multiverse Computing — 1 operation(s) for audio.
   name: Multiverse Computing Audio API
   slug: multiverse-computing-audio-api
-- description: The batches API from Multiverse Computing — 3 operation(s) for batches.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The batches API from Multiverse Computing — 3 operation(s) for batches.
   name: Multiverse Computing Batches API
   slug: multiverse-computing-batches-api
-- description: The completions API from Multiverse Computing — 2 operation(s) for completions.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The completions API from Multiverse Computing — 2 operation(s) for completions.
   name: Multiverse Computing Completions API
   slug: multiverse-computing-completions-api
-- description: The files API from Multiverse Computing — 2 operation(s) for files.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The files API from Multiverse Computing — 2 operation(s) for files.
   name: Multiverse Computing Files API
   slug: multiverse-computing-files-api
-- description: The Model info API from Multiverse Computing — 2 operation(s) for model info.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The Model info API from Multiverse Computing — 2 operation(s) for model info.
   name: Multiverse Computing Model info API
   slug: multiverse-computing-model-info-api
-- description: The responses API from Multiverse Computing — 2 operation(s) for responses.
+- baseURL: https://api.compactif.ai
+  baseurl_source: declared
+  description: The responses API from Multiverse Computing — 2 operation(s) for responses.
   name: Multiverse Computing Responses API
   slug: multiverse-computing-responses-api
 artifact_total: 10
@@ -195,7 +220,7 @@ score:
   band: developing
   composite: 50.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +245,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/multiverse-computing/refs/heads/main/screenshots/multiverse-computing-2026-09-02T150656.png
 security:
 - kind: authentication
   name: Multiverse Computing Authentication

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -46,49 +46,79 @@ agentic_access:
   summary_line: 167 operations · 85 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Administrator tasks
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Administrator tasks
   name: FOSSology Admin API
   slug: fossology-admin-api
-- description: Authentication endpoints
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Authentication endpoints
   name: FOSSology auth API
   slug: fossology-auth-api
-- description: Copyright information
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Copyright information
   name: FOSSology Copyrights API
   slug: fossology-copyrights-api
-- description: Folder management
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Folder management
   name: FOSSology Folders API
   slug: fossology-folders-api
-- description: User group management
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: User group management
   name: FOSSology Groups API
   slug: fossology-groups-api
-- description: Basic info about API
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Basic info about API
   name: FOSSology info API
   slug: fossology-info-api
-- description: FOSSology jobs
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: FOSSology jobs
   name: FOSSology Job API
   slug: fossology-job-api
-- description: License and obligation management
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: License and obligation management
   name: FOSSology License API
   slug: fossology-license-api
-- description: Maintenance operations
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Maintenance operations
   name: FOSSology Maintenance API
   slug: fossology-maintenance-api
-- description: Endpoints for organization of data
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Endpoints for organization of data
   name: FOSSology Organize API
   slug: fossology-organize-api
-- description: Overview of FOSSology operations
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Overview of FOSSology operations
   name: FOSSology Overview API
   slug: fossology-overview-api
-- description: Upload's report
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Upload's report
   name: FOSSology Report API
   slug: fossology-report-api
-- description: Searching data on FOSSology
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Searching data on FOSSology
   name: FOSSology Search API
   slug: fossology-search-api
-- description: Endpoints related to uploads
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: Endpoints related to uploads
   name: FOSSology Upload API
   slug: fossology-upload-api
-- description: User management
+- baseURL: http://localhost/repo/api/v1
+  baseurl_source: declared
+  description: User management
   name: FOSSology User API
   slug: fossology-user-api
 artifact_total: 47
@@ -299,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fossology/refs/heads/main/screenshots/fossology-2026-06-20T181450.png
 security:

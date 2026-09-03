@@ -34,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Create and manage bank accounts and their account holders through the GraphQL Partner API - open accounts, read balances and status, and access the IBAN and BIC distributed to each account. Queries in
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: Create and manage bank accounts and their account holders through the GraphQL Partner API - open accounts, read balances and status, and access the IBAN and BIC distributed to each account. Queries in
   name: Swan Accounts API
   slug: swan-io-accounts-api
-- description: Bind users to accounts and manage their permissions. Mutations include addAccountMemberships (add up to 200 memberships with a single consent), bindAccountMembership, suspendAccountMembership, and res
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: Bind users to accounts and manage their permissions. Mutations include addAccountMemberships (add up to 200 memberships with a single consent), bindAccountMembership, suspendAccountMembership, and res
   name: Swan Account Memberships API
   slug: swan-io-account-memberships-api
-- description: Issue and manage virtual and physical payment cards attached to account memberships. The addCards mutation adds up to 200 cards (including physical printing) with a single consent; further mutations a
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: Issue and manage virtual and physical payment cards attached to account memberships. The addCards mutation adds up to 200 cards (including physical printing) with a single consent; further mutations a
   name: Swan Cards API
   slug: swan-io-cards-api
-- description: Initiate and track SEPA payments. The initiateCreditTransfers mutation sends SEPA Credit Transfers, including SEPA Instant Credit Transfers via the isInstant flag; direct-debit mutations set up mandat
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: Initiate and track SEPA payments. The initiateCreditTransfers mutation sends SEPA Credit Transfers, including SEPA Instant Credit Transfers via the isInstant flag; direct-debit mutations set up mandat
   name: Swan Payments API
   slug: swan-io-payments-api
-- description: 'Read the transaction ledger for an account - list and filter transactions through Relay-style connections, inspect their status (Pending, Booked, Rejected, Canceled), amounts, counterparties, and the '
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: 'Read the transaction ledger for an account - list and filter transactions through Relay-style connections, inspect their status (Pending, Booked, Rejected, Canceled), amounts, counterparties, and the '
   name: Swan Transactions API
   slug: swan-io-transactions-api
-- description: Onboard individual and company account holders before they have a session. Started against the Unauthenticated GraphQL endpoint, onboarding mutations create and update an onboarding, attach supporting
+- baseURL: https://api.swan.io/live-unauthenticated/graphql
+  baseurl_source: declared
+  description: Onboard individual and company account holders before they have a session. Started against the Unauthenticated GraphQL endpoint, onboarding mutations create and update an onboarding, attach supporting
   name: Swan Onboarding API
   slug: swan-io-onboarding-api
-- description: 'Read users and drive Swan''s strong-customer-authentication consent flow. Sensitive mutations (adding memberships, issuing cards, initiating payments) return a consent that the user must approve via a '
+- baseURL: https://api.swan.io/live-partner/graphql
+  baseurl_source: declared
+  description: 'Read users and drive Swan''s strong-customer-authentication consent flow. Sensitive mutations (adding memberships, issuing cards, initiating payments) return a consent that the user must approve via a '
   name: Swan Users and Consents API
   slug: swan-io-users-consents-api
 artifact_total: 13
@@ -133,7 +147,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -155,8 +169,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/screenshots/swan-io-2026-09-02T161336.png
 security:
 - kind: authentication
   name: Swan Io Authentication

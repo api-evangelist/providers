@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,31 +59,49 @@ apis:
 - description: UCLA's learning management system. The brand, the courses, the learners and the subdomain are UCLA's; the REST API, the LTI 1.3 implementation, the key rotation and the contract are Instructure's, and
   name: BruinLearn (Canvas LMS)
   slug: bruinlearn
-- description: The Class Sections API from University of California, Los Angeles — 2 operation(s) for class sections.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Class Sections API from University of California, Los Angeles — 2 operation(s) for class sections.
   name: University of California, Los Angeles Class Sections API
   slug: ucla-class-sections-api
-- description: The Classes API from University of California, Los Angeles — 4 operation(s) for classes.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Classes API from University of California, Los Angeles — 4 operation(s) for classes.
   name: University of California, Los Angeles Classes API
   slug: ucla-classes-api
-- description: The Courses API from University of California, Los Angeles — 5 operation(s) for courses.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Courses API from University of California, Los Angeles — 5 operation(s) for courses.
   name: University of California, Los Angeles Courses API
   slug: ucla-courses-api
-- description: The Dictionary API from University of California, Los Angeles — 61 operation(s) for dictionary.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Dictionary API from University of California, Los Angeles — 61 operation(s) for dictionary.
   name: University of California, Los Angeles Dictionary API
   slug: ucla-dictionary-api
-- description: The GE Foundations API from University of California, Los Angeles — 2 operation(s) for ge foundations.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The GE Foundations API from University of California, Los Angeles — 2 operation(s) for ge foundations.
   name: University of California, Los Angeles GE Foundations API
   slug: ucla-ge-foundations-api
-- description: The Infrastructure API from University of California, Los Angeles — 1 operation(s) for infrastructure.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Infrastructure API from University of California, Los Angeles — 1 operation(s) for infrastructure.
   name: University of California, Los Angeles Infrastructure API
   slug: ucla-infrastructure-api
-- description: The MyUCLA API from University of California, Los Angeles — 1 operation(s) for myucla.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The MyUCLA API from University of California, Los Angeles — 1 operation(s) for myucla.
   name: University of California, Los Angeles My UCLA API
   slug: ucla-myucla-api
-- description: The Production Calendar Jobs API from University of California, Los Angeles — 1 operation(s) for production calendar jobs.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Production Calendar Jobs API from University of California, Los Angeles — 1 operation(s) for production calendar jobs.
   name: University of California, Los Angeles Production Calendar Jobs API
   slug: ucla-production-calendar-jobs-api
-- description: The Weather API from University of California, Los Angeles — 14 operation(s) for weather.
+- baseURL: https://api.ucla.edu/sis
+  baseurl_source: declared
+  description: The Weather API from University of California, Los Angeles — 14 operation(s) for weather.
   name: University of California, Los Angeles Weather API
   slug: ucla-weather-api
 artifact_total: 32
@@ -435,7 +453,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png
 security:

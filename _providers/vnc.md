@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -50,7 +50,9 @@ apis:
 - description: Cross-platform SDK for embedding VNC Viewer and Server functionality into applications. Available for C, Java, Python, .NET, and JavaScript. Supports direct TCP/UDP connections, VNC Cloud brokering, e
   name: VNC Developer SDK
   slug: vnc-sdk
-- description: Manage cloud addresses for VNC Cloud connectivity brokering.
+- baseURL: https://api.vnc.com/cloud/1.1
+  baseurl_source: declared
+  description: Manage cloud addresses for VNC Cloud connectivity brokering.
   name: VNC Cloud Addresses API
   slug: vnc-cloud-addresses-api
 artifact_total: 24
@@ -255,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vnc/refs/heads/main/screenshots/vnc-2026-06-20T201123.png
 security:

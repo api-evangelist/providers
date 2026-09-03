@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 1 acting
 api_count: 1
 apis:
-- description: Per-address balance and transaction dashboards.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Per-address balance and transaction dashboards.
   name: Blockchair Address Dashboards API
   slug: blockchair-address-dashboards-api
-- description: Parsed block dashboards.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Parsed block dashboards.
   name: Blockchair Block Dashboards API
   slug: blockchair-block-dashboards-api
-- description: Signed transaction broadcasting.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Signed transaction broadcasting.
   name: Blockchair Broadcast API
   slug: blockchair-broadcast-api
-- description: SQL-like database query interface.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: SQL-like database query interface.
   name: Blockchair Outputs Database API
   slug: blockchair-outputs-database-api
-- description: Raw node-level block and transaction data.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Raw node-level block and transaction data.
   name: Blockchair Raw Data API
   slug: blockchair-raw-data-api
-- description: Network and chain statistics.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Network and chain statistics.
   name: Blockchair Stats API
   slug: blockchair-stats-api
-- description: Parsed transaction dashboards.
+- baseURL: https://api.blockchair.com
+  baseurl_source: declared
+  description: Parsed transaction dashboards.
   name: Blockchair Transaction Dashboards API
   slug: blockchair-transaction-dashboards-api
 artifact_total: 22
@@ -187,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

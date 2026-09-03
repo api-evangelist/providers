@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 19 operations
 api_count: 13
 apis:
-- description: User avatar generation operations
+- baseURL: https://avatars.abstractapi.com/v1/
+  baseurl_source: declared
+  description: User avatar generation operations
   name: Abstract API Avatars API
   slug: abstract-api-avatars-api
-- description: Company data enrichment operations
+- baseURL: https://companyenrichment.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Company data enrichment operations
   name: Abstract API Company Enrichment API
   slug: abstract-api-company-enrichment-api
-- description: Email validation and reputation operations
+- baseURL: https://emailreputation.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Email validation and reputation operations
   name: Abstract API Email Reputation API
   slug: abstract-api-email-reputation-api
-- description: Currency exchange rate operations
+- baseURL: https://exchange-rates.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Currency exchange rate operations
   name: Abstract API Exchange Rates API
   slug: abstract-api-exchange-rates-api
-- description: IBAN number validation operations
+- baseURL: https://ibanvalidation.abstractapi.com/v1/
+  baseurl_source: declared
+  description: IBAN number validation operations
   name: Abstract API IBAN Validation API
   slug: abstract-api-iban-validation-api
-- description: Image compression and optimization operations
+- baseURL: https://images.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Image compression and optimization operations
   name: Abstract API Image Processing API
   slug: abstract-api-image-processing-api
-- description: IP address geolocation operations
+- baseURL: https://ipgeolocation.abstractapi.com/v1/
+  baseurl_source: declared
+  description: IP address geolocation operations
   name: Abstract API IP Geolocation API
   slug: abstract-api-ip-geolocation-api
-- description: Advanced IP address intelligence and security operations
+- baseURL: https://ip-intelligence.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Advanced IP address intelligence and security operations
   name: Abstract API IP Intelligence API
   slug: abstract-api-ip-intelligence-api
-- description: Phone number validation and intelligence
+- baseURL: https://phoneintelligence.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Phone number validation and intelligence
   name: Abstract API Phone Intelligence API
   slug: abstract-api-phone-intelligence-api
-- description: Holiday lookup operations
+- baseURL: https://holidays.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Holiday lookup operations
   name: Abstract API Public Holidays API
   slug: abstract-api-public-holidays-api
-- description: Timezone lookup and conversion operations
+- baseURL: https://timezone.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Timezone lookup and conversion operations
   name: Abstract API Timezones API
   slug: abstract-api-timezones-api
-- description: VAT number validation and rate lookup
+- baseURL: https://vat.abstractapi.com/v1/
+  baseurl_source: declared
+  description: VAT number validation and rate lookup
   name: Abstract API VAT Validation API
   slug: abstract-api-vat-validation-api
-- description: Web content extraction operations
+- baseURL: https://scrape.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Web content extraction operations
   name: Abstract API Web Scraping API
   slug: abstract-api-web-scraping-api
-- description: Website screenshot capture operations
+- baseURL: https://screenshot.abstractapi.com/v1/
+  baseurl_source: declared
+  description: Website screenshot capture operations
   name: Abstract API Website Screenshot API
   slug: abstract-api-website-screenshot-api
 arazzos:
@@ -993,7 +1021,7 @@ score:
     catalog_gap: 20.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.8
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -1003,7 +1031,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 34.2
-  previous_composite: 50.0
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1015,8 +1043,8 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication

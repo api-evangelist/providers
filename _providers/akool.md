@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 7
 apis:
-- description: Mint a Bearer token from a clientId / clientSecret pair.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Mint a Bearer token from a clientId / clientSecret pair.
   name: Akool Authentication API
   slug: akool-authentication-api
-- description: Swap a source face onto a target image or video.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Swap a source face onto a target image or video.
   name: Akool Face Swap API
   slug: akool-face-swap-api
-- description: Text-to-image and image-to-image generation.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Text-to-image and image-to-image generation.
   name: Akool Image Generation API
   slug: akool-image-generation-api
-- description: Real-time streaming avatar sessions over WebRTC (Agora / LiveKit / TRTC).
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Real-time streaming avatar sessions over WebRTC (Agora / LiveKit / TRTC).
   name: Akool Live Avatar API
   slug: akool-live-avatar-api
-- description: Generate a speaking avatar video from text or audio.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Generate a speaking avatar video from text or audio.
   name: Akool Talking Avatar API
   slug: akool-talking-avatar-api
-- description: Animate a still portrait into a talking video.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Animate a still portrait into a talking video.
   name: Akool Talking Photo API
   slug: akool-talking-photo-api
-- description: Translate a video into other languages with optional lip-sync.
+- baseURL: https://openapi.akool.com
+  baseurl_source: declared
+  description: Translate a video into other languages with optional lip-sync.
   name: Akool Video Translation API
   slug: akool-video-translation-api
 artifact_total: 21
@@ -187,7 +201,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akool/refs/heads/main/screenshots/akool-2026-07-25T195517.png
 security:

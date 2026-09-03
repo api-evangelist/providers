@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 43 operations · 18 acting
 api_count: 1
 apis:
-- description: The Collections API from Fourthwall — 3 operation(s) for collections.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Collections API from Fourthwall — 3 operation(s) for collections.
   name: Fourthwall Collections API
   slug: fourthwall-collections-api
-- description: The Gifting API from Fourthwall — 4 operation(s) for gifting.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Gifting API from Fourthwall — 4 operation(s) for gifting.
   name: Fourthwall Gifting API
   slug: fourthwall-gifting-api
-- description: The Giveaways API from Fourthwall — 1 operation(s) for giveaways.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Giveaways API from Fourthwall — 1 operation(s) for giveaways.
   name: Fourthwall Giveaways API
   slug: fourthwall-giveaways-api
-- description: The Memberships API from Fourthwall — 3 operation(s) for memberships.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Memberships API from Fourthwall — 3 operation(s) for memberships.
   name: Fourthwall Memberships API
   slug: fourthwall-memberships-api
-- description: The Orders API from Fourthwall — 4 operation(s) for orders.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Orders API from Fourthwall — 4 operation(s) for orders.
   name: Fourthwall Orders API
   slug: fourthwall-orders-api
-- description: The Products API from Fourthwall — 3 operation(s) for products.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Products API from Fourthwall — 3 operation(s) for products.
   name: Fourthwall Products API
   slug: fourthwall-products-api
-- description: The Promotions API from Fourthwall — 2 operation(s) for promotions.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Promotions API from Fourthwall — 2 operation(s) for promotions.
   name: Fourthwall Promotions API
   slug: fourthwall-promotions-api
-- description: The Storefront Carts API from Fourthwall — 5 operation(s) for storefront carts.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Storefront Carts API from Fourthwall — 5 operation(s) for storefront carts.
   name: Fourthwall Storefront Carts API
   slug: fourthwall-storefront-carts-api
-- description: The Storefront Collections API from Fourthwall — 3 operation(s) for storefront collections.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Storefront Collections API from Fourthwall — 3 operation(s) for storefront collections.
   name: Fourthwall Storefront Collections API
   slug: fourthwall-storefront-collections-api
-- description: The Storefront Products API from Fourthwall — 1 operation(s) for storefront products.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Storefront Products API from Fourthwall — 1 operation(s) for storefront products.
   name: Fourthwall Storefront Products API
   slug: fourthwall-storefront-products-api
-- description: The Storefront Shop API from Fourthwall — 1 operation(s) for storefront shop.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Storefront Shop API from Fourthwall — 1 operation(s) for storefront shop.
   name: Fourthwall Storefront Shop API
   slug: fourthwall-storefront-shop-api
-- description: The Webhooks API from Fourthwall — 3 operation(s) for webhooks.
+- baseURL: https://storefront-api.fourthwall.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Fourthwall — 3 operation(s) for webhooks.
   name: Fourthwall Webhooks API
   slug: fourthwall-webhooks-api
 artifact_total: 34
@@ -230,7 +254,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png
 security:

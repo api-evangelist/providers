@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,13 +44,17 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 12
 apis:
-- description: Multi-chain JSON-RPC over HTTPS and WebSockets covering standard eth_*, solana, and other chain methods, plus Alchemy-enhanced subscriptions (alchemy_minedTransactions, alchemy_pendingTransactions).
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: Multi-chain JSON-RPC over HTTPS and WebSockets covering standard eth_*, solana, and other chain methods, plus Alchemy-enhanced subscriptions (alchemy_minedTransactions, alchemy_pendingTransactions).
   name: Alchemy Node API (JSON-RPC)
   slug: node-rpc
 - description: REST endpoints for NFT ownership, metadata, floor price, sales, contract metadata, and transfers across EVM chains and Solana.
   name: Alchemy NFT API
   slug: nft-api
-- description: REST endpoints for paginated address-level transfer history (external, internal, ERC-20, ERC-721, ERC-1155).
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: REST endpoints for paginated address-level transfer history (external, internal, ERC-20, ERC-721, ERC-1155).
   name: Alchemy Transfers API
   slug: transfers-api
 - description: REST endpoints aggregating multi-chain wallet balances, NFTs, and tokens in a single call.
@@ -68,16 +72,24 @@ apis:
 - description: REST/JSON-RPC API for simulating transactions and asset changes before broadcasting.
   name: Alchemy Simulation API
   slug: simulation-api
-- description: Sponsor user operations via ERC-4337 paymaster endpoints.
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: Sponsor user operations via ERC-4337 paymaster endpoints.
   name: Alchemy Paymaster API
   slug: alchemy-paymaster-api
-- description: Create and manage gas sponsorship policies.
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: Create and manage gas sponsorship policies.
   name: Alchemy Policies API
   slug: alchemy-policies-api
-- description: Retrieve ERC-20 token balances for wallet addresses.
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: Retrieve ERC-20 token balances for wallet addresses.
   name: Alchemy Token Balances API
   slug: alchemy-token-balances-api
-- description: Retrieve metadata for ERC-20 tokens.
+- baseURL: https://{network}.g.alchemy.com/v2/{apiKey}
+  baseurl_source: declared
+  description: Retrieve metadata for ERC-20 tokens.
   name: Alchemy Token Metadata API
   slug: alchemy-token-metadata-api
 artifact_total: 81
@@ -391,7 +403,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -401,7 +413,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 30.9
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -410,7 +422,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/screenshots/alchemy-2026-06-20T171514.png
 security:

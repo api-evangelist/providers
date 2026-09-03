@@ -34,79 +34,127 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
   name: Braze Catalogs > Catalog Items > Asynchronous API
   slug: braze-catalogs-catalog-items-asynchronous-api
-- description: The Catalogs > Catalog Items > Synchronous API from Braze — 2 operation(s) for catalogs > catalog items > synchronous.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Catalogs > Catalog Items > Synchronous API from Braze — 2 operation(s) for catalogs > catalog items > synchronous.
   name: Braze Catalogs > Catalog Items > Synchronous API
   slug: braze-catalogs-catalog-items-synchronous-api
-- description: The Catalogs > Catalog Management > Synchronous API from Braze — 2 operation(s) for catalogs > catalog management > synchronous.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Catalogs > Catalog Management > Synchronous API from Braze — 2 operation(s) for catalogs > catalog management > synchronous.
   name: Braze Catalogs > Catalog Management > Synchronous API
   slug: braze-catalogs-catalog-management-synchronous-api
-- description: Users email subscription status can be updated and retrieved via Braze using a RESTful API. You can use the API to set up bi-directional sync between Braze and other email systems or your own database
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: Users email subscription status can be updated and retrieved via Braze using a RESTful API. You can use the API to set up bi-directional sync between Braze and other email systems or your own database
   name: Braze Email Lists & Addresses API
   slug: braze-email-lists-addresses-api
-- description: The Export > Campaign API from Braze — 4 operation(s) for export > campaign.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Campaign API from Braze — 4 operation(s) for export > campaign.
   name: Braze Export > Campaign API
   slug: braze-export-campaign-api
-- description: The Export > Canvas API from Braze — 4 operation(s) for export > canvas.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Canvas API from Braze — 4 operation(s) for export > canvas.
   name: Braze Export > Canvas API
   slug: braze-export-canvas-api
-- description: The Export > Custom Events API from Braze — 2 operation(s) for export > custom events.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Custom Events API from Braze — 2 operation(s) for export > custom events.
   name: Braze Export > Custom Events API
   slug: braze-export-custom-events-api
-- description: The Export > KPI API from Braze — 4 operation(s) for export > kpi.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > KPI API from Braze — 4 operation(s) for export > kpi.
   name: Braze Export > KPI API
   slug: braze-export-kpi-api
-- description: The Export > News Feed API from Braze — 3 operation(s) for export > news feed.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > News Feed API from Braze — 3 operation(s) for export > news feed.
   name: Braze Export > News Feed API
   slug: braze-export-news-feed-api
-- description: The Export > Purchases API from Braze — 3 operation(s) for export > purchases.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Purchases API from Braze — 3 operation(s) for export > purchases.
   name: Braze Export > Purchases API
   slug: braze-export-purchases-api
-- description: The Export > Segment API from Braze — 3 operation(s) for export > segment.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Segment API from Braze — 3 operation(s) for export > segment.
   name: Braze Export > Segment API
   slug: braze-export-segment-api
-- description: The Export > Session Analytics API from Braze — 1 operation(s) for export > session analytics.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Session Analytics API from Braze — 1 operation(s) for export > session analytics.
   name: Braze Export > Session Analytics API
   slug: braze-export-session-analytics-api
-- description: The Export > Users API from Braze — 3 operation(s) for export > users.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Export > Users API from Braze — 3 operation(s) for export > users.
   name: Braze Export > Users API
   slug: braze-export-users-api
-- description: The Messaging > Live Activities API from Braze — 1 operation(s) for messaging > live activities.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Messaging > Live Activities API from Braze — 1 operation(s) for messaging > live activities.
   name: Braze Messaging > Live Activities API
   slug: braze-messaging-live-activities-api
-- description: The Messaging > Schedule Mesages API from Braze — 10 operation(s) for messaging > schedule mesages.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Messaging > Schedule Mesages API from Braze — 10 operation(s) for messaging > schedule mesages.
   name: Braze Messaging > Schedule Mesages API
   slug: braze-messaging-schedule-mesages-api
-- description: The Messaging > Send Messages API from Braze — 5 operation(s) for messaging > send messages.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Messaging > Send Messages API from Braze — 5 operation(s) for messaging > send messages.
   name: Braze Messaging > Send Messages API
   slug: braze-messaging-send-messages-api
-- description: The Preference Center API from Braze — 4 operation(s) for preference center.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Preference Center API from Braze — 4 operation(s) for preference center.
   name: Braze Preference Center API
   slug: braze-preference-center-api
-- description: The SCIM API from Braze — 2 operation(s) for scim.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The SCIM API from Braze — 2 operation(s) for scim.
   name: Braze SCIM API
   slug: braze-scim-api
-- description: Use the Braze SMS Endpoints to manage your users phone numbers in your subscription groups.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: Use the Braze SMS Endpoints to manage your users phone numbers in your subscription groups.
   name: Braze SMS API
   slug: braze-sms-api
-- description: The Subscription Groups > SMS and WhatsApp API from Braze — 4 operation(s) for subscription groups > sms and whatsapp.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Subscription Groups > SMS and WhatsApp API from Braze — 4 operation(s) for subscription groups > sms and whatsapp.
   name: Braze Subscription Groups > SMS and WhatsApp API
   slug: braze-subscription-groups-sms-and-whatsapp-api
-- description: 'Content Blocks are an Email Templating feature that allow you to: - Create a consistent look and feel to your Email campaigns using Content Blocks as Headers and Footers. - Distribute the same offer c'
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: 'Content Blocks are an Email Templating feature that allow you to: - Create a consistent look and feel to your Email campaigns using Content Blocks as Headers and Footers. - Distribute the same offer c'
   name: Braze Templates > Content Blocks API
   slug: braze-templates-content-blocks-api
-- description: The Templates > Email Templates API from Braze — 4 operation(s) for templates > email templates.
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The Templates > Email Templates API from Braze — 4 operation(s) for templates > email templates.
   name: Braze Templates > Email Templates API
   slug: braze-templates-email-templates-api
-- description: The User API allows you to track information on your users by logging data about your users that comes from outside your mobile app. You can also use this API to delete users for testing or other purp
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The User API allows you to track information on your users by logging data about your users that comes from outside your mobile app. You can also use this API to delete users for testing or other purp
   name: Braze User Data API
   slug: braze-user-data-api
-- description: The External ID Migration API allows you to rename existing external IDs (creating a new primary ID and deprecating the existing ID) and remove deprecated IDs post-migration. <br><br> We've architecte
+- baseURL: https://rest.iad-01.braze.com
+  baseurl_source: declared
+  description: The External ID Migration API allows you to rename existing external IDs (creating a new primary ID and deprecating the existing ID) and remove deprecated IDs post-migration. <br><br> We've architecte
   name: Braze User Data > External ID Migration API
   slug: braze-user-data-external-id-migration-api
 artifact_total: 76
@@ -461,7 +509,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -471,7 +519,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 78.1
+  previous_composite: 77.9
   provenance:
     conformance: derived
     contracts:
@@ -488,7 +536,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:

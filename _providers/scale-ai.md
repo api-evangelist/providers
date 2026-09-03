@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: Donovan is Scale's AI platform for defense and public-sector use cases, delivering decision-support and analytic capabilities to U.S. and allied government customers.
   name: Scale Donovan
   slug: scale-donovan
-- description: The Batches API from Scale AI — 4 operation(s) for batches.
+- baseURL: https://api.scale.com
+  baseurl_source: declared
+  description: The Batches API from Scale AI — 4 operation(s) for batches.
   name: Scale AI Batches API
   slug: scale-ai-batches-api
-- description: The Projects API from Scale AI — 3 operation(s) for projects.
+- baseURL: https://api.scale.com
+  baseurl_source: declared
+  description: The Projects API from Scale AI — 3 operation(s) for projects.
   name: Scale AI Projects API
   slug: scale-ai-projects-api
-- description: The Tasks API from Scale AI — 5 operation(s) for tasks.
+- baseURL: https://api.scale.com
+  baseurl_source: declared
+  description: The Tasks API from Scale AI — 5 operation(s) for tasks.
   name: Scale AI Tasks API
   slug: scale-ai-tasks-api
 artifact_total: 43
@@ -249,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale-ai/refs/heads/main/screenshots/scale-ai-2026-06-20T193601.png
 security:

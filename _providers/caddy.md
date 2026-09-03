@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -46,19 +46,29 @@ apis:
 - description: Caddy exposes a RESTful administration API on localhost:2019 by default for dynamically loading and modifying server configuration at runtime without restarts. Endpoints support loading full JSON conf
   name: Caddy Admin API
   slug: caddy-admin-api
-- description: The Adapt API from Caddy — 1 operation(s) for adapt.
+- baseURL: http://localhost:2019
+  baseurl_source: declared
+  description: The Adapt API from Caddy — 1 operation(s) for adapt.
   name: Caddy Adapt API
   slug: caddy-adapt-api
-- description: The Configuration API from Caddy — 1 operation(s) for configuration.
+- baseURL: http://localhost:2019
+  baseurl_source: declared
+  description: The Configuration API from Caddy — 1 operation(s) for configuration.
   name: Caddy Configuration API
   slug: caddy-configuration-api
-- description: The Lifecycle API from Caddy — 2 operation(s) for lifecycle.
+- baseURL: http://localhost:2019
+  baseurl_source: declared
+  description: The Lifecycle API from Caddy — 2 operation(s) for lifecycle.
   name: Caddy Lifecycle API
   slug: caddy-lifecycle-api
-- description: The PKI API from Caddy — 2 operation(s) for pki.
+- baseURL: http://localhost:2019
+  baseurl_source: declared
+  description: The PKI API from Caddy — 2 operation(s) for pki.
   name: Caddy PKI API
   slug: caddy-pki-api
-- description: The Reverse Proxy API from Caddy — 1 operation(s) for reverse proxy.
+- baseURL: http://localhost:2019
+  baseurl_source: declared
+  description: The Reverse Proxy API from Caddy — 1 operation(s) for reverse proxy.
   name: Caddy Reverse Proxy API
   slug: caddy-reverse-proxy-api
 artifact_total: 18
@@ -192,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caddy/refs/heads/main/screenshots/caddy-2026-06-20T173835.png
 security:

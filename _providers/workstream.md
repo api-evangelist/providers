@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Applicants represent people who have applied for positions within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Applicants represent people who have applied for positions within your company.
   name: Workstream Applicants API
   slug: workstream-applicants-api
-- description: The Workstream API uses OAuth 2.0 Bearer access tokens to authenticate requests. You can view and manage your access tokens in the [Workstream Dashboard](https://hr.workstream.us/#/company?currentPane
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: The Workstream API uses OAuth 2.0 Bearer access tokens to authenticate requests. You can view and manage your access tokens in the [Workstream Dashboard](https://hr.workstream.us/#/company?currentPane
   name: Workstream Authorization API
   slug: workstream-authorization-api
-- description: Company Roles represent roles within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Company Roles represent roles within your company.
   name: Workstream Company Roles API
   slug: workstream-company-roles-api
-- description: Company Users represent people who are system users within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Company Users represent people who are system users within your company.
   name: Workstream Company Users API
   slug: workstream-company-users-api
-- description: Custom field config for location, department, job posting and employee within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Custom field config for location, department, job posting and employee within your company.
   name: Workstream Custom Field API
   slug: workstream-custom-field-api
-- description: Departments represent departments within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Departments represent departments within your company.
   name: Workstream Departments API
   slug: workstream-departments-api
-- description: Employee Documents represent documents that are associated with employees within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Employee Documents represent documents that are associated with employees within your company.
   name: Workstream Employee Documents API
   slug: workstream-employee-documents-api
-- description: Employees represent applicants who have been accepted into a new position, or people who are already working for your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Employees represent applicants who have been accepted into a new position, or people who are already working for your company.
   name: Workstream Employees API
   slug: workstream-employees-api
-- description: Imported Employee Infos represent imported employee information that is associated with employees within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Imported Employee Infos represent imported employee information that is associated with employees within your company.
   name: Workstream Imported Employee Infos API
   slug: workstream-imported-employee-infos-api
-- description: Locations represent store locations within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Locations represent store locations within your company.
   name: Workstream Locations API
   slug: workstream-locations-api
-- description: Positions represent open job requisitions within your company that are looking to be filled.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Positions represent open job requisitions within your company that are looking to be filled.
   name: Workstream Positions API
   slug: workstream-positions-api
-- description: Team Members represent team members that are managed within your company.
+- baseURL: https://public-api.workstream.us
+  baseurl_source: declared
+  description: Team Members represent team members that are managed within your company.
   name: Workstream Team Members API
   slug: workstream-team-members-api
 artifact_total: 28
@@ -222,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/screenshots/workstream-2026-08-17T082948.png
 security:

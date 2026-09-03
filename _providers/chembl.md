@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 30 operations
 api_count: 1
 apis:
-- description: Activity values recorded in assays, linking molecules to targets with quantitative bioactivity measurements.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Activity values recorded in assays, linking molecules to targets with quantitative bioactivity measurements.
   name: ChEMBL Activity API
   slug: chembl-activity-api
-- description: Experimental protocols and result details from source documents and datasets.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Experimental protocols and result details from source documents and datasets.
   name: ChEMBL Assay API
   slug: chembl-assay-api
-- description: WHO Anatomical Therapeutic Chemical classification for drugs.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: WHO Anatomical Therapeutic Chemical classification for drugs.
   name: ChEMBL ATC Classification API
   slug: chembl-atc-classification-api
-- description: Target binding site definitions used in assays.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Target binding site definitions used in assays.
   name: ChEMBL Binding Site API
   slug: chembl-binding-site-api
-- description: Cell line information used in assays.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Cell line information used in assays.
   name: ChEMBL Cell Line API
   slug: chembl-cell-line-api
-- description: Occurrence of a compound in a specific source document.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Occurrence of a compound in a specific source document.
   name: ChEMBL Compound Record API
   slug: chembl-compound-record-api
-- description: Source documents and datasets from which assay data is derived.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Source documents and datasets from which assay data is derived.
   name: ChEMBL Document API
   slug: chembl-document-api
-- description: Approved drug information including applicants, patent numbers, and research codes.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Approved drug information including applicants, patent numbers, and research codes.
   name: ChEMBL Drug API
   slug: chembl-drug-api
-- description: Drug-disease associations with clinical trial and regulatory references.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Drug-disease associations with clinical trial and regulatory references.
   name: ChEMBL Drug Indication API
   slug: chembl-drug-indication-api
-- description: Safety information for withdrawn or black-box warned drugs.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Safety information for withdrawn or black-box warned drugs.
   name: ChEMBL Drug Warning API
   slug: chembl-drug-warning-api
-- description: Mechanism of action information for approved drugs.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Mechanism of action information for approved drugs.
   name: ChEMBL Mechanism API
   slug: chembl-mechanism-api
-- description: Chemical molecules including properties, structural representations, synonyms, and drug-like properties.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Chemical molecules including properties, structural representations, synonyms, and drug-like properties.
   name: ChEMBL Molecule API
   slug: chembl-molecule-api
-- description: Molecule similarity searching using Tanimoto coefficient.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Molecule similarity searching using Tanimoto coefficient.
   name: ChEMBL Similarity API
   slug: chembl-similarity-api
-- description: API operational status and ChEMBL database version information.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: API operational status and ChEMBL database version information.
   name: ChEMBL Status API
   slug: chembl-status-api
-- description: Molecular substructure searching.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Molecular substructure searching.
   name: ChEMBL Substructure API
   slug: chembl-substructure-api
-- description: Protein and non-protein targets defined in assays.
+- baseURL: https://www.ebi.ac.uk/chembl/api/data/
+  baseurl_source: declared
+  description: Protein and non-protein targets defined in assays.
   name: ChEMBL Target API
   slug: chembl-target-api
 artifact_total: 45
@@ -281,7 +313,7 @@ score:
     regime_id: health
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/screenshots/chembl-2026-06-20T174255.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: Blue Yonder Connect - API & Expansion Pack provides an advanced integration suite with pre-built MuleSoft connectors, enhanced API management tools, and higher throughput capacity. Supports REST, SOAP
   name: Blue Yonder Connect API & Expansion Pack
   slug: blue-yonder-connect-api
-- description: Inventory positions and stock management
+- baseURL: https://api.blueyonder.example.com
+  baseurl_source: declared
+  description: Inventory positions and stock management
   name: blue-yonder Inventory API
   slug: blue-yonder-inventory-api
-- description: Outbound order management and picking
+- baseURL: https://api.blueyonder.example.com
+  baseurl_source: declared
+  description: Outbound order management and picking
   name: blue-yonder Orders API
   slug: blue-yonder-orders-api
-- description: Inbound receiving and putaway
+- baseURL: https://api.blueyonder.example.com
+  baseurl_source: declared
+  description: Inbound receiving and putaway
   name: blue-yonder Receipts API
   slug: blue-yonder-receipts-api
-- description: Warehouse task management
+- baseURL: https://api.blueyonder.example.com
+  baseurl_source: declared
+  description: Warehouse task management
   name: blue-yonder Tasks API
   slug: blue-yonder-tasks-api
 artifact_total: 23
@@ -163,16 +171,16 @@ jsonld:
   slug: blue-yonder-context
 layout: provider
 modified: '2026-05-19'
-name: blue-yonder
+name: Blue Yonder
 nav: Providers
 network: true
-overview: 'blue-yonder publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Orders API, Receipts API, and 1 more.
+overview: 'Blue Yonder publishes 4 APIs on the [APIs.io](https://apis.io/) network, including blue-yonder Inventory API, blue-yonder Orders API, blue-yonder Receipts API, and 1 more.
 
 
-  The blue-yonder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Blue Yonder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  blue-yonder''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
+  Blue Yonder''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Blue Yonder Plans Pricing
   plan_count: 1
@@ -185,7 +193,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: blue-yonder API Rules
+  name: Blue Yonder API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -226,10 +234,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/screenshots/blue-yonder-2026-06-20T173532.png
 security:

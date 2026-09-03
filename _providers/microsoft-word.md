@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -48,58 +48,94 @@ apis:
 - description: Server-side document conversion and automation service for SharePoint. Supports batch conversion of Word documents to PDF, XPS, and other formats without user interaction.
   name: Word Automation Services (SharePoint)
   slug: word-automation-services-sharepoint
-- description: Operations on the document body content
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations on the document body content
   name: Microsoft Word Body API
   slug: microsoft-word-body-api
-- description: Operations for checking in and out files
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for checking in and out files
   name: Microsoft Word Checkout API
   slug: microsoft-word-checkout-api
-- description: Operations for managing comments and replies
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing comments and replies
   name: Microsoft Word Comments API
   slug: microsoft-word-comments-api
-- description: Operations for uploading and downloading file content
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for uploading and downloading file content
   name: Microsoft Word Content API
   slug: microsoft-word-content-api
-- description: Operations for managing content controls
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing content controls
   name: Microsoft Word Content Controls API
   slug: microsoft-word-content-controls-api
-- description: Operations for creating, opening, and managing Word documents
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for creating, opening, and managing Word documents
   name: Microsoft Word Documents API
   slug: microsoft-word-documents-api
-- description: Operations for managing files and folders in OneDrive and SharePoint
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing files and folders in OneDrive and SharePoint
   name: Microsoft Word Drive Items API
   slug: microsoft-word-drive-items-api
-- description: Operations for managing headers and footers
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing headers and footers
   name: Microsoft Word Headers And Footers API
   slug: microsoft-word-headers-and-footers-api
-- description: Operations for managing images in documents
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing images in documents
   name: Microsoft Word Images API
   slug: microsoft-word-images-api
-- description: Operations for managing paragraphs in documents
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing paragraphs in documents
   name: Microsoft Word Paragraphs API
   slug: microsoft-word-paragraphs-api
-- description: Operations for managing sharing and permissions on drive items
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing sharing and permissions on drive items
   name: Microsoft Word Permissions API
   slug: microsoft-word-permissions-api
-- description: Operations for managing document properties
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing document properties
   name: Microsoft Word Properties API
   slug: microsoft-word-properties-api
-- description: Operations for searching files and folders
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for searching files and folders
   name: Microsoft Word Search API
   slug: microsoft-word-search-api
-- description: Operations for managing document sections
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing document sections
   name: Microsoft Word Sections API
   slug: microsoft-word-sections-api
-- description: Operations for managing document styles
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing document styles
   name: Microsoft Word Styles API
   slug: microsoft-word-styles-api
-- description: Operations for creating and managing tables
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for creating and managing tables
   name: Microsoft Word Tables API
   slug: microsoft-word-tables-api
-- description: Operations for retrieving file thumbnails
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for retrieving file thumbnails
   name: Microsoft Word Thumbnails API
   slug: microsoft-word-thumbnails-api
-- description: Operations for managing file version history
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing file version history
   name: Microsoft Word Versions API
   slug: microsoft-word-versions-api
 arazzos:
@@ -648,7 +684,7 @@ score:
       total: 21
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:

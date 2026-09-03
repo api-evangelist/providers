@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 26 operations · 1 acting
 api_count: 1
 apis:
-- description: Album metadata, tracks, followers, charts, and placements.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Album metadata, tracks, followers, charts, and placements.
   name: Chartmetric Albums API
   slug: chartmetric-albums-api
-- description: Artist metadata, stats, related artists, and placements.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Artist metadata, stats, related artists, and placements.
   name: Chartmetric Artists API
   slug: chartmetric-artists-api
-- description: Exchange a refresh token for a short-lived access token.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Exchange a refresh token for a short-lived access token.
   name: Chartmetric Authentication API
   slug: chartmetric-authentication-api
-- description: Platform chart rankings and Chartmetric Score (cm-score).
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Platform chart rankings and Chartmetric Score (cm-score).
   name: Chartmetric Charts API
   slug: chartmetric-charts-api
-- description: Playlist metadata, track listings, snapshots, and evolution.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Playlist metadata, track listings, snapshots, and evolution.
   name: Chartmetric Playlists API
   slug: chartmetric-playlists-api
-- description: Unified entity search.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Unified entity search.
   name: Chartmetric Search API
   slug: chartmetric-search-api
-- description: Track metadata, stats, charts, and playlist placements.
+- baseURL: https://api.chartmetric.com/api
+  baseurl_source: declared
+  description: Track metadata, stats, charts, and playlist placements.
   name: Chartmetric Tracks API
   slug: chartmetric-tracks-api
 artifact_total: 22
@@ -195,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/screenshots/chartmetric-2026-07-25T205111.png
 security:

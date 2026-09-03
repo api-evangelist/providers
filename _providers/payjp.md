@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 6
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 24 operations · 15 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The 3D Secure API from PAY.JP — 4 operation(s) for 3d secure.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The 3D Secure API from PAY.JP — 4 operation(s) for 3d secure.
   name: PAY.JP 3D Secure API
   slug: payjp-3d-secure-api
-- description: The Account API from PAY.JP — 1 operation(s) for account.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Account API from PAY.JP — 1 operation(s) for account.
   name: PAY.JP Account API
   slug: payjp-account-api
-- description: The Balances API from PAY.JP — 2 operation(s) for balances.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Balances API from PAY.JP — 2 operation(s) for balances.
   name: PAY.JP Balances API
   slug: payjp-balances-api
-- description: The Cards API from PAY.JP — 2 operation(s) for cards.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Cards API from PAY.JP — 2 operation(s) for cards.
   name: PAY.JP Cards API
   slug: payjp-cards-api
-- description: The Charges API from PAY.JP — 6 operation(s) for charges.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Charges API from PAY.JP — 6 operation(s) for charges.
   name: PAY.JP Charges API
   slug: payjp-charges-api
-- description: The Customers API from PAY.JP — 2 operation(s) for customers.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Customers API from PAY.JP — 2 operation(s) for customers.
   name: PAY.JP Customers API
   slug: payjp-customers-api
-- description: The Events API from PAY.JP — 2 operation(s) for events.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Events API from PAY.JP — 2 operation(s) for events.
   name: PAY.JP Events API
   slug: payjp-events-api
-- description: The Plans API from PAY.JP — 2 operation(s) for plans.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Plans API from PAY.JP — 2 operation(s) for plans.
   name: PAY.JP Plans API
   slug: payjp-plans-api
-- description: The Platform API from PAY.JP — 4 operation(s) for platform.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Platform API from PAY.JP — 4 operation(s) for platform.
   name: PAY.JP Platform API
   slug: payjp-platform-api
-- description: The Statements API from PAY.JP — 3 operation(s) for statements.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Statements API from PAY.JP — 3 operation(s) for statements.
   name: PAY.JP Statements API
   slug: payjp-statements-api
-- description: The Subscriptions API from PAY.JP — 5 operation(s) for subscriptions.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Subscriptions API from PAY.JP — 5 operation(s) for subscriptions.
   name: PAY.JP Subscriptions API
   slug: payjp-subscriptions-api
-- description: The Terms API from PAY.JP — 2 operation(s) for terms.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Terms API from PAY.JP — 2 operation(s) for terms.
   name: PAY.JP Terms API
   slug: payjp-terms-api
-- description: The Tokens API from PAY.JP — 3 operation(s) for tokens.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Tokens API from PAY.JP — 3 operation(s) for tokens.
   name: PAY.JP Tokens API
   slug: payjp-tokens-api
-- description: The Transfers API from PAY.JP — 3 operation(s) for transfers.
+- baseURL: https://api.pay.jp/v1
+  baseurl_source: declared
+  description: The Transfers API from PAY.JP — 3 operation(s) for transfers.
   name: PAY.JP Transfers API
   slug: payjp-transfers-api
 artifact_total: 53
@@ -384,7 +412,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -394,7 +422,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 78.0
+  previous_composite: 77.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -412,7 +440,7 @@ score:
     regime_id: payments
     score: 78.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/screenshots/payjp-2026-08-07T191639.png
 security:

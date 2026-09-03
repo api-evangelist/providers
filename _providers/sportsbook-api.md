@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: The Betting Analysis API from Sportsbook API — 3 operation(s) for betting analysis.
+- baseURL: https://api.sportsbookapi.com
+  baseurl_source: declared
+  description: The Betting Analysis API from Sportsbook API — 3 operation(s) for betting analysis.
   name: Sportsbook API Betting Analysis API
   slug: sportsbook-api-betting-analysis-api
-- description: The Odds API from Sportsbook API — 2 operation(s) for odds.
+- baseURL: https://api.sportsbookapi.com
+  baseurl_source: declared
+  description: The Odds API from Sportsbook API — 2 operation(s) for odds.
   name: Sportsbook API Odds API
   slug: sportsbook-api-odds-api
-- description: The Reference API from Sportsbook API — 2 operation(s) for reference.
+- baseURL: https://api.sportsbookapi.com
+  baseurl_source: declared
+  description: The Reference API from Sportsbook API — 2 operation(s) for reference.
   name: Sportsbook API Reference API
   slug: sportsbook-api-reference-api
 artifact_total: 22
@@ -199,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsbook-api/refs/heads/main/screenshots/sportsbook-api-2026-06-20T194345.png
 security:

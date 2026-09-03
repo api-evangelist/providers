@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 28 operations · 26 acting
 api_count: 2
 apis:
-- description: The asyncVideoGeneration API from Lightricks — 8 operation(s) for asyncvideogeneration.
+- baseURL: https://api.ltx.video
+  baseurl_source: declared
+  description: The asyncVideoGeneration API from Lightricks — 8 operation(s) for asyncvideogeneration.
   name: Lightricks asyncVideoGeneration API
   slug: lightricks-asyncvideogeneration-api
-- description: The upload API from Lightricks — 1 operation(s) for upload.
+- baseURL: https://api.ltx.video
+  baseurl_source: declared
+  description: The upload API from Lightricks — 1 operation(s) for upload.
   name: Lightricks upload API
   slug: lightricks-upload-api
-- description: The videoGeneration API from Lightricks — 5 operation(s) for videogeneration.
+- baseURL: https://api.ltx.video
+  baseurl_source: declared
+  description: The videoGeneration API from Lightricks — 5 operation(s) for videogeneration.
   name: Lightricks videoGeneration API
   slug: lightricks-videogeneration-api
 artifact_total: 13
@@ -278,7 +284,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/screenshots/lightricks-2026-07-25T225127.png
 security:

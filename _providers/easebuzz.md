@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST payment gateway API to initiate transactions, verify transaction status, and process refunds across 150+ payment options (cards, UPI, net banking, wallets, EMI). Requests are authenticated with a
@@ -169,7 +169,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png
 security:

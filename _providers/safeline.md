@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -47,28 +47,44 @@ apis:
 - description: 'SafeLine provides two MCP (Model Context Protocol) Server implementations for AI-assisted WAF management: a Python MCP Server for tool-based API management and a Go MCP Server for high-performance man'
   name: SafeLine MCP Server
   slug: mcp-server
-- description: Access control list rules for blocking and allowing traffic
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: Access control list rules for blocking and allowing traffic
   name: SafeLine ACL Rules API
   slug: safeline-acl-rules-api
-- description: Login and session management
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: Login and session management
   name: SafeLine Authentication API
   slug: safeline-authentication-api
-- description: Security report generation and retrieval
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: Security report generation and retrieval
   name: SafeLine Reports API
   slug: safeline-reports-api
-- description: Security policy and rule group management
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: Security policy and rule group management
   name: SafeLine Security Policies API
   slug: safeline-security-policies-api
-- description: SSL/TLS certificate management
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: SSL/TLS certificate management
   name: SafeLine SSL Certificates API
   slug: safeline-ssl-certificates-api
-- description: System configuration and administration
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: System configuration and administration
   name: SafeLine System API
   slug: safeline-system-api
-- description: User account and permission management
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: User account and permission management
   name: SafeLine Users API
   slug: safeline-users-api
-- description: Protected website (application) management
+- baseURL_template: https://{host}:9443
+  baseurl_source: spec_template
+  description: Protected website (application) management
   name: SafeLine Websites API
   slug: safeline-websites-api
 artifact_total: 35
@@ -285,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/screenshots/safeline-2026-06-20T193323.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 24 operations · 10 acting
 api_count: 1
 apis:
-- description: Operations for accessing commit details and commit history within a repository, including diffs and changes.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for accessing commit details and commit history within a repository, including diffs and changes.
   name: Azure Repos Commits API
   slug: microsoft-azure-repo-commits-api
-- description: Operations for retrieving files, folders, and submodules from a repository. Files are blobs, folders are trees.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for retrieving files, folders, and submodules from a repository. Files are blobs, folders are trees.
   name: Azure Repos Items API
   slug: microsoft-azure-repo-items-api
-- description: Operations for managing reviewers on pull requests, including adding, removing, and updating reviewer votes.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for managing reviewers on pull requests, including adding, removing, and updating reviewer votes.
   name: Azure Repos Pull Request Reviewers API
   slug: microsoft-azure-repo-pull-request-reviewers-api
-- description: Operations for managing comment threads on pull requests, including creating threads and replying to comments.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for managing comment threads on pull requests, including creating threads and replying to comments.
   name: Azure Repos Pull Request Threads API
   slug: microsoft-azure-repo-pull-request-threads-api
-- description: Operations for creating, retrieving, updating, and completing pull requests. Includes managing reviewers, labels, and merge options.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and completing pull requests. Includes managing reviewers, labels, and merge options.
   name: Azure Repos Pull Requests API
   slug: microsoft-azure-repo-pull-requests-api
-- description: Operations for listing and creating pushes, which represent one or more commits pushed to a repository branch.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for listing and creating pushes, which represent one or more commits pushed to a repository branch.
   name: Azure Repos Pushes API
   slug: microsoft-azure-repo-pushes-api
-- description: Operations for managing branches and tags (refs) including listing, creating, updating, and deleting refs.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for managing branches and tags (refs) including listing, creating, updating, and deleting refs.
   name: Azure Repos Refs API
   slug: microsoft-azure-repo-refs-api
-- description: Operations for managing Git repositories including creating, listing, updating, and deleting repositories within a project.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for managing Git repositories including creating, listing, updating, and deleting repositories within a project.
   name: Azure Repos Repositories API
   slug: microsoft-azure-repo-repositories-api
-- description: Operations for retrieving branch statistics such as commit counts ahead and behind relative to the default branch.
+- baseURL: https://dev.azure.com/{organization}/{project}/_apis/git
+  baseurl_source: declared
+  description: Operations for retrieving branch statistics such as commit counts ahead and behind relative to the default branch.
   name: Azure Repos Stats API
   slug: microsoft-azure-repo-stats-api
 artifact_total: 27
@@ -261,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/screenshots/microsoft-azure-repo-2026-06-20T185433.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: WebSocket API for the Crypto.com Exchange, split into a Market Data stream (public channels for book, ticker, trade, candlestick, index, mark price, settlement, funding and open interest) and a User A
@@ -38,34 +51,54 @@ apis:
 - description: On-chain developer platform service API for Cronos EVM and Cronos zkEVM, exposing native and ERC-20 token balances and transfers, smart contract ABI and bytecode lookup, transaction and block queries,
   name: Crypto.com Developer Platform API
   slug: cryptocom-developer-platform-api
-- description: 'Retrieve real-time and historical snapshots of wallet balances, open positions, margin requirements, and collateral status. Use these endpoints to monitor account health, risk exposure, and available '
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: 'Retrieve real-time and historical snapshots of wallet balances, open positions, margin requirements, and collateral status. Use these endpoints to monitor account health, risk exposure, and available '
   name: Crypto.com Account Balance and Positions API
   slug: crypto-com-account-balance-and-positions-api
-- description: 'Advanced Order Management provides trigger orders and multi-leg execution strategies beyond basic LIMIT and MARKET orders. Use these endpoints for conditional order execution based on price triggers. '
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: 'Advanced Order Management provides trigger orders and multi-leg execution strategies beyond basic LIMIT and MARKET orders. Use these endpoints for conditional order execution based on price triggers. '
   name: Crypto.com Advanced Order Management API
   slug: crypto-com-advanced-order-management-api
-- description: Manages the user's wallet. Most of the endpoints are only available at master account level. Some endpoints requires Withdrawal setting to be enabled for your API Key. If you do not see the option whe
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: Manages the user's wallet. Most of the endpoints are only available at master account level. Some endpoints requires Withdrawal setting to be enabled for your API Key. If you do not see the option whe
   name: Crypto.com Crypto Wallet API
   slug: crypto-com-crypto-wallet-api
-- description: Manages the user's fiat wallet. Most of the endpoints are only available at master account level. Some endpoints requires Withdrawal setting to be enabled for your API Key. If you do not see the optio
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: Manages the user's fiat wallet. Most of the endpoints are only available at master account level. Some endpoints requires Withdrawal setting to be enabled for your API Key. If you do not see the optio
   name: Crypto.com Fiat Wallet API
   slug: crypto-com-fiat-wallet-api
-- description: OTC RFQ (Request For Quote) enables takers to request block trade quotes from multiple liquidity providers, evaluate received quotes, and execute trades at the best available price. This workflow is d
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: OTC RFQ (Request For Quote) enables takers to request block trade quotes from multiple liquidity providers, evaluate received quotes, and execute trades at the best available price. This workflow is d
   name: Crypto.com OTC RFQ for Taker API
   slug: crypto-com-otc-rfq-for-taker-api
-- description: Reference and market data endpoints provide public, unauthenticated access to instrument metadata, real-time market data, and historical pricing information. These endpoints form the foundation for pr
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: Reference and market data endpoints provide public, unauthenticated access to instrument metadata, real-time market data, and historical pricing information. These endpoints form the foundation for pr
   name: Crypto.com Reference and Market Data API
   slug: crypto-com-reference-and-market-data-api
-- description: 'Stake crypto assets on-chain to earn rewards directly from the Exchange. Staking locks your tokens for a period, during which you earn periodic rewards. Liquid staking tokens (e.g., CDCETH) allow you '
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: 'Stake crypto assets on-chain to earn rewards directly from the Exchange. Staking locks your tokens for a period, during which you earn periodic rewards. Liquid staking tokens (e.g., CDCETH) allow you '
   name: Crypto.com Staking API
   slug: crypto-com-staking-api
-- description: Private trading endpoints manage order placement and lifecycle. All order operations (create, amend, cancel) are asynchronous — the REST response confirms the request was received, but order lifecycle
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: Private trading endpoints manage order placement and lifecycle. All order operations (create, amend, cancel) are asynchronous — the REST response confirms the request was received, but order lifecycle
   name: Crypto.com Trading API
   slug: crypto-com-trading-api
-- description: 'Manage automated trading bots including DCA (Dollar-Cost Averaging), TWAP (Time-Weighted Average Price), GRID, and Funding Arbitrage strategies. ## Bot Types | Type | Description | |------|-----------'
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: 'Manage automated trading bots including DCA (Dollar-Cost Averaging), TWAP (Time-Weighted Average Price), GRID, and Funding Arbitrage strategies. ## Bot Types | Type | Description | |------|-----------'
   name: Crypto.com Trading Bot API
   slug: crypto-com-trading-bot-api-api
-- description: History will be stored for recent 6 months record only. For records over 6 months, please contact our support team.
+- baseURL: https://api.crypto.com/exchange/v1
+  baseurl_source: declared
+  description: History will be stored for recent 6 months record only. For records over 6 months, please contact our support team.
   name: Crypto.com Transaction History API
   slug: crypto-com-transaction-history-api
 artifact_total: 23
@@ -290,7 +323,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -300,7 +333,7 @@ score:
     discoverability: 51.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 69.1
+  previous_composite: 68.9
   provenance:
     conformance: first-party
     contracts:
@@ -317,7 +350,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crypto-com/refs/heads/main/screenshots/crypto-com-2026-08-17T080411.png
 security:

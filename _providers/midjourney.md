@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: The Midjourney Discord Bot is the original interface for accessing Midjourney's AI image generation service. Users interact with the bot through Discord slash commands such as /imagine, /blend, /descr
   name: Midjourney Discord Bot
   slug: discord-bot
-- description: Operations for analyzing existing images, including the describe endpoint that generates text prompts from uploaded images.
+- baseURL: https://api.midjourney.com
+  baseurl_source: declared
+  description: Operations for analyzing existing images, including the describe endpoint that generates text prompts from uploaded images.
   name: midjourney Image Analysis API
   slug: midjourney-image-analysis-api
-- description: Operations for generating images from text prompts, including the core imagine endpoint that produces a grid of images from a natural language description.
+- baseURL: https://api.midjourney.com
+  baseurl_source: declared
+  description: Operations for generating images from text prompts, including the core imagine endpoint that produces a grid of images from a natural language description.
   name: midjourney Image Generation API
   slug: midjourney-image-generation-api
-- description: Operations for manipulating existing generated images, including upscaling to higher resolutions, creating variations, blending multiple images, and region-based inpainting.
+- baseURL: https://api.midjourney.com
+  baseurl_source: declared
+  description: Operations for manipulating existing generated images, including upscaling to higher resolutions, creating variations, blending multiple images, and region-based inpainting.
   name: midjourney Image Manipulation API
   slug: midjourney-image-manipulation-api
-- description: Operations for tracking and managing asynchronous image generation jobs, including retrieving job status, results, and listing previous jobs.
+- baseURL: https://api.midjourney.com
+  baseurl_source: declared
+  description: Operations for tracking and managing asynchronous image generation jobs, including retrieving job status, results, and listing previous jobs.
   name: midjourney Jobs API
   slug: midjourney-jobs-api
 artifact_total: 24
@@ -132,16 +140,16 @@ jsonld:
   slug: midjourney-context
 layout: provider
 modified: '2026-05-19'
-name: midjourney
+name: Midjourney
 nav: Providers
 network: true
-overview: 'midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more.
+overview: 'Midjourney publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Image Analysis API, Image Generation API, Image Manipulation API, and 1 more.
 
 
-  The midjourney catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Midjourney catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  midjourney''s developer surface includes authentication and 5 more developer resources.'
+  Midjourney''s developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Midjourney Plans Pricing
   plan_count: 5
@@ -155,7 +163,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: midjourney API Rules
+  name: Midjourney API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -165,7 +173,7 @@ rules:
   slug: midjourney-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: midjourney API Rules
+  name: Midjourney API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -181,7 +189,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -191,7 +199,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.1
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -201,10 +209,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/screenshots/midjourney-2026-06-20T185557.png
 security:

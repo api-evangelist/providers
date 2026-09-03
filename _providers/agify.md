@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Endpoints for predicting age from first names using statistical data.
+- baseURL: https://api.agify.io
+  baseurl_source: declared
+  description: Endpoints for predicting age from first names using statistical data.
   name: Agify.io Age Prediction API
   slug: agify-age-prediction-api
 artifact_total: 17
@@ -201,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify/refs/heads/main/screenshots/agify-2026-06-20T170124.png
 security:

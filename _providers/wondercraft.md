@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: The Account API from Wondercraft — 1 operation(s) for account.
+- baseURL: https://api.wondercraft.ai/v1
+  baseurl_source: declared
+  description: The Account API from Wondercraft — 1 operation(s) for account.
   name: Wondercraft Account API
   slug: wondercraft-account-api
-- description: The Audio Generation API from Wondercraft — 2 operation(s) for audio generation.
+- baseURL: https://api.wondercraft.ai/v1
+  baseurl_source: declared
+  description: The Audio Generation API from Wondercraft — 2 operation(s) for audio generation.
   name: Wondercraft Audio Generation API
   slug: wondercraft-audio-generation-api
-- description: The Convo Mode API from Wondercraft — 2 operation(s) for convo mode.
+- baseURL: https://api.wondercraft.ai/v1
+  baseurl_source: declared
+  description: The Convo Mode API from Wondercraft — 2 operation(s) for convo mode.
   name: Wondercraft Convo Mode API
   slug: wondercraft-convo-mode-api
-- description: The Jobs API from Wondercraft — 2 operation(s) for jobs.
+- baseURL: https://api.wondercraft.ai/v1
+  baseurl_source: declared
+  description: The Jobs API from Wondercraft — 2 operation(s) for jobs.
   name: Wondercraft Jobs API
   slug: wondercraft-jobs-api
 artifact_total: 16
@@ -150,7 +158,7 @@ score:
   band: thin
   composite: 38.7
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +181,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/screenshots/wondercraft-2026-09-02T170915.png
 security:
 - kind: authentication
   name: Wondercraft Authentication

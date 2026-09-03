@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations · 1 acting
 api_count: 1
 apis:
-- description: Bulk snapshot download of all active tutors.
+- baseURL: https://data.wyzant.com
+  baseurl_source: declared
+  description: Bulk snapshot download of all active tutors.
   name: Wyzant Data Feed API
   slug: wyzant-data-feed-api
-- description: Real-time search against the live tutor database.
+- baseURL: https://data.wyzant.com
+  baseurl_source: declared
+  description: Real-time search against the live tutor database.
   name: Wyzant Search API
   slug: wyzant-search-api
 artifact_total: 11
@@ -134,7 +138,7 @@ score:
   band: emerging
   composite: 22.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -163,8 +167,9 @@ score:
     regime_id: education
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wyzant/refs/heads/main/screenshots/wyzant-2026-09-02T171037.png
 security:
 - kind: domain-security
   name: Wyzant Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 9
@@ -44,244 +44,404 @@ agentic_access:
   summary_line: 80 operations · 80 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=WorkMailService.AssociateDelegateToResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.associatedelegatetoresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.AssociateDelegateToResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.associatedelegatetoresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-associatedelegatetoresource-api
-- description: 'The #X Amz Target=WorkMailService.AssociateMemberToGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.associatemembertogroup.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.AssociateMemberToGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.associatemembertogroup.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateMemberToGroup API'
   slug: amazon-workmail-x-amz-target-workmailservice-associatemembertogroup-api
-- description: 'The #X Amz Target=WorkMailService.AssumeImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.assumeimpersonationrole.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.AssumeImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.assumeimpersonationrole.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssumeImpersonationRole API'
   slug: amazon-workmail-x-amz-target-workmailservice-assumeimpersonationrole-api
-- description: 'The #X Amz Target=WorkMailService.CancelMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.cancelmailboxexportjob.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CancelMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.cancelmailboxexportjob.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CancelMailboxExportJob API'
   slug: amazon-workmail-x-amz-target-workmailservice-cancelmailboxexportjob-api
-- description: 'The #X Amz Target=WorkMailService.CreateAlias API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createalias.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateAlias API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createalias.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateAlias API'
   slug: amazon-workmail-x-amz-target-workmailservice-createalias-api
-- description: 'The #X Amz Target=WorkMailService.CreateAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createavailabilityconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createavailabilityconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateAvailabilityConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-createavailabilityconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.CreateGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.creategroup.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.creategroup.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateGroup API'
   slug: amazon-workmail-x-amz-target-workmailservice-creategroup-api
-- description: 'The #X Amz Target=WorkMailService.CreateImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createimpersonationrole.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createimpersonationrole.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateImpersonationRole API'
   slug: amazon-workmail-x-amz-target-workmailservice-createimpersonationrole-api
-- description: 'The #X Amz Target=WorkMailService.CreateMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createmobiledeviceaccessrule.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createmobiledeviceaccessrule.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateMobileDeviceAccessRule API'
   slug: amazon-workmail-x-amz-target-workmailservice-createmobiledeviceaccessrule-api
-- description: 'The #X Amz Target=WorkMailService.CreateOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createorganization.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createorganization.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateOrganization API'
   slug: amazon-workmail-x-amz-target-workmailservice-createorganization-api
-- description: 'The #X Amz Target=WorkMailService.CreateResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-createresource-api
-- description: 'The #X Amz Target=WorkMailService.CreateUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createuser.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.CreateUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.createuser.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.CreateUser API'
   slug: amazon-workmail-x-amz-target-workmailservice-createuser-api
-- description: 'The #X Amz Target=WorkMailService.DeleteAccessControlRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteaccesscontrolrule.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteAccessControlRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteaccesscontrolrule.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteAccessControlRule API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteaccesscontrolrule-api
-- description: 'The #X Amz Target=WorkMailService.DeleteAlias API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletealias.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteAlias API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletealias.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteAlias API'
   slug: amazon-workmail-x-amz-target-workmailservice-deletealias-api
-- description: 'The #X Amz Target=WorkMailService.DeleteAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteavailabilityconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteavailabilityconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteAvailabilityConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteavailabilityconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.DeleteEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteemailmonitoringconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteemailmonitoringconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteEmailMonitoringConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteemailmonitoringconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.DeleteGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletegroup.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletegroup.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteGroup API'
   slug: amazon-workmail-x-amz-target-workmailservice-deletegroup-api
-- description: 'The #X Amz Target=WorkMailService.DeleteImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteimpersonationrole.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteimpersonationrole.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteImpersonationRole API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteimpersonationrole-api
-- description: 'The #X Amz Target=WorkMailService.DeleteMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemailboxpermissions.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemailboxpermissions.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteMailboxPermissions API'
   slug: amazon-workmail-x-amz-target-workmailservice-deletemailboxpermissions-api
-- description: 'The #X Amz Target=WorkMailService.DeleteMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemobiledeviceaccessoverride.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemobiledeviceaccessoverride.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteMobileDeviceAccessOverride API'
   slug: amazon-workmail-x-amz-target-workmailservice-deletemobiledeviceaccessoverride-api
-- description: 'The #X Amz Target=WorkMailService.DeleteMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemobiledeviceaccessrule.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deletemobiledeviceaccessrule.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteMobileDeviceAccessRule API'
   slug: amazon-workmail-x-amz-target-workmailservice-deletemobiledeviceaccessrule-api
-- description: 'The #X Amz Target=WorkMailService.DeleteOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteorganization.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteorganization.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteOrganization API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteorganization-api
-- description: 'The #X Amz Target=WorkMailService.DeleteResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteresource-api
-- description: 'The #X Amz Target=WorkMailService.DeleteRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteretentionpolicy.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteretentionpolicy.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteRetentionPolicy API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteretentionpolicy-api
-- description: 'The #X Amz Target=WorkMailService.DeleteUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteuser.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeleteUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deleteuser.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeleteUser API'
   slug: amazon-workmail-x-amz-target-workmailservice-deleteuser-api
-- description: 'The #X Amz Target=WorkMailService.DeregisterFromWorkMail API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deregisterfromworkmail.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeregisterFromWorkMail API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deregisterfromworkmail.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeregisterFromWorkMail API'
   slug: amazon-workmail-x-amz-target-workmailservice-deregisterfromworkmail-api
-- description: 'The #X Amz Target=WorkMailService.DeregisterMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deregistermaildomain.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DeregisterMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.deregistermaildomain.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DeregisterMailDomain API'
   slug: amazon-workmail-x-amz-target-workmailservice-deregistermaildomain-api
-- description: 'The #X Amz Target=WorkMailService.DescribeEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeemailmonitoringconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeemailmonitoringconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeEmailMonitoringConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-describeemailmonitoringconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.DescribeGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describegroup.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describegroup.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeGroup API'
   slug: amazon-workmail-x-amz-target-workmailservice-describegroup-api
-- description: 'The #X Amz Target=WorkMailService.DescribeInboundDmarcSettings API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeinbounddmarcsettings.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeInboundDmarcSettings API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeinbounddmarcsettings.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeInboundDmarcSettings API'
   slug: amazon-workmail-x-amz-target-workmailservice-describeinbounddmarcsettings-api
-- description: 'The #X Amz Target=WorkMailService.DescribeMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describemailboxexportjob.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describemailboxexportjob.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeMailboxExportJob API'
   slug: amazon-workmail-x-amz-target-workmailservice-describemailboxexportjob-api
-- description: 'The #X Amz Target=WorkMailService.DescribeOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeorganization.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeOrganization API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeorganization.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeOrganization API'
   slug: amazon-workmail-x-amz-target-workmailservice-describeorganization-api
-- description: 'The #X Amz Target=WorkMailService.DescribeResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-describeresource-api
-- description: 'The #X Amz Target=WorkMailService.DescribeUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeuser.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DescribeUser API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.describeuser.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DescribeUser API'
   slug: amazon-workmail-x-amz-target-workmailservice-describeuser-api
-- description: 'The #X Amz Target=WorkMailService.DisassociateDelegateFromResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.disassociatedelegatefromresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DisassociateDelegateFromResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.disassociatedelegatefromresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DisassociateDelegateFromResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-disassociatedelegatefromresource-api
-- description: 'The #X Amz Target=WorkMailService.DisassociateMemberFromGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.disassociatememberfromgroup.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.DisassociateMemberFromGroup API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.disassociatememberfromgroup.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.DisassociateMemberFromGroup API'
   slug: amazon-workmail-x-amz-target-workmailservice-disassociatememberfromgroup-api
-- description: 'The #X Amz Target=WorkMailService.GetAccessControlEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getaccesscontroleffect.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetAccessControlEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getaccesscontroleffect.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetAccessControlEffect API'
   slug: amazon-workmail-x-amz-target-workmailservice-getaccesscontroleffect-api
-- description: 'The #X Amz Target=WorkMailService.GetDefaultRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getdefaultretentionpolicy.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetDefaultRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getdefaultretentionpolicy.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetDefaultRetentionPolicy API'
   slug: amazon-workmail-x-amz-target-workmailservice-getdefaultretentionpolicy-api
-- description: 'The #X Amz Target=WorkMailService.GetImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getimpersonationrole.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getimpersonationrole.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetImpersonationRole API'
   slug: amazon-workmail-x-amz-target-workmailservice-getimpersonationrole-api
-- description: 'The #X Amz Target=WorkMailService.GetImpersonationRoleEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getimpersonationroleeffect.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetImpersonationRoleEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getimpersonationroleeffect.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetImpersonationRoleEffect API'
   slug: amazon-workmail-x-amz-target-workmailservice-getimpersonationroleeffect-api
-- description: 'The #X Amz Target=WorkMailService.GetMailboxDetails API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmailboxdetails.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetMailboxDetails API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmailboxdetails.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetMailboxDetails API'
   slug: amazon-workmail-x-amz-target-workmailservice-getmailboxdetails-api
-- description: 'The #X Amz Target=WorkMailService.GetMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmaildomain.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmaildomain.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetMailDomain API'
   slug: amazon-workmail-x-amz-target-workmailservice-getmaildomain-api
-- description: 'The #X Amz Target=WorkMailService.GetMobileDeviceAccessEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmobiledeviceaccesseffect.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetMobileDeviceAccessEffect API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmobiledeviceaccesseffect.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetMobileDeviceAccessEffect API'
   slug: amazon-workmail-x-amz-target-workmailservice-getmobiledeviceaccesseffect-api
-- description: 'The #X Amz Target=WorkMailService.GetMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmobiledeviceaccessoverride.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.GetMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.getmobiledeviceaccessoverride.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.GetMobileDeviceAccessOverride API'
   slug: amazon-workmail-x-amz-target-workmailservice-getmobiledeviceaccessoverride-api
-- description: 'The #X Amz Target=WorkMailService.ListAccessControlRules API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listaccesscontrolrules.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListAccessControlRules API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listaccesscontrolrules.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListAccessControlRules API'
   slug: amazon-workmail-x-amz-target-workmailservice-listaccesscontrolrules-api
-- description: 'The #X Amz Target=WorkMailService.ListAliases API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listaliases.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListAliases API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listaliases.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListAliases API'
   slug: amazon-workmail-x-amz-target-workmailservice-listaliases-api
-- description: 'The #X Amz Target=WorkMailService.ListAvailabilityConfigurations API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listavailabilityconfigurations.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListAvailabilityConfigurations API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listavailabilityconfigurations.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListAvailabilityConfigurations API'
   slug: amazon-workmail-x-amz-target-workmailservice-listavailabilityconfigurations-api
-- description: 'The #X Amz Target=WorkMailService.ListGroupMembers API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listgroupmembers.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListGroupMembers API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listgroupmembers.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListGroupMembers API'
   slug: amazon-workmail-x-amz-target-workmailservice-listgroupmembers-api
-- description: 'The #X Amz Target=WorkMailService.ListGroups API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listgroups.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListGroups API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listgroups.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListGroups API'
   slug: amazon-workmail-x-amz-target-workmailservice-listgroups-api
-- description: 'The #X Amz Target=WorkMailService.ListImpersonationRoles API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listimpersonationroles.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListImpersonationRoles API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listimpersonationroles.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListImpersonationRoles API'
   slug: amazon-workmail-x-amz-target-workmailservice-listimpersonationroles-api
-- description: 'The #X Amz Target=WorkMailService.ListMailboxExportJobs API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmailboxexportjobs.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListMailboxExportJobs API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmailboxexportjobs.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListMailboxExportJobs API'
   slug: amazon-workmail-x-amz-target-workmailservice-listmailboxexportjobs-api
-- description: 'The #X Amz Target=WorkMailService.ListMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmailboxpermissions.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmailboxpermissions.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListMailboxPermissions API'
   slug: amazon-workmail-x-amz-target-workmailservice-listmailboxpermissions-api
-- description: 'The #X Amz Target=WorkMailService.ListMailDomains API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmaildomains.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListMailDomains API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmaildomains.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListMailDomains API'
   slug: amazon-workmail-x-amz-target-workmailservice-listmaildomains-api
-- description: 'The #X Amz Target=WorkMailService.ListMobileDeviceAccessOverrides API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmobiledeviceaccessoverrides.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListMobileDeviceAccessOverrides API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmobiledeviceaccessoverrides.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListMobileDeviceAccessOverrides API'
   slug: amazon-workmail-x-amz-target-workmailservice-listmobiledeviceaccessoverrides-api
-- description: 'The #X Amz Target=WorkMailService.ListMobileDeviceAccessRules API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmobiledeviceaccessrules.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListMobileDeviceAccessRules API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listmobiledeviceaccessrules.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListMobileDeviceAccessRules API'
   slug: amazon-workmail-x-amz-target-workmailservice-listmobiledeviceaccessrules-api
-- description: 'The #X Amz Target=WorkMailService.ListOrganizations API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listorganizations.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListOrganizations API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listorganizations.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListOrganizations API'
   slug: amazon-workmail-x-amz-target-workmailservice-listorganizations-api
-- description: 'The #X Amz Target=WorkMailService.ListResourceDelegates API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listresourcedelegates.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListResourceDelegates API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listresourcedelegates.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListResourceDelegates API'
   slug: amazon-workmail-x-amz-target-workmailservice-listresourcedelegates-api
-- description: 'The #X Amz Target=WorkMailService.ListResources API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listresources.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListResources API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listresources.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListResources API'
   slug: amazon-workmail-x-amz-target-workmailservice-listresources-api
-- description: 'The #X Amz Target=WorkMailService.ListTagsForResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listtagsforresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListTagsForResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listtagsforresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListTagsForResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-listtagsforresource-api
-- description: 'The #X Amz Target=WorkMailService.ListUsers API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listusers.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ListUsers API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.listusers.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ListUsers API'
   slug: amazon-workmail-x-amz-target-workmailservice-listusers-api
-- description: 'The #X Amz Target=WorkMailService.PutAccessControlRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putaccesscontrolrule.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutAccessControlRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putaccesscontrolrule.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutAccessControlRule API'
   slug: amazon-workmail-x-amz-target-workmailservice-putaccesscontrolrule-api
-- description: 'The #X Amz Target=WorkMailService.PutEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putemailmonitoringconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutEmailMonitoringConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putemailmonitoringconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutEmailMonitoringConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-putemailmonitoringconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.PutInboundDmarcSettings API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putinbounddmarcsettings.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutInboundDmarcSettings API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putinbounddmarcsettings.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutInboundDmarcSettings API'
   slug: amazon-workmail-x-amz-target-workmailservice-putinbounddmarcsettings-api
-- description: 'The #X Amz Target=WorkMailService.PutMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putmailboxpermissions.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutMailboxPermissions API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putmailboxpermissions.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutMailboxPermissions API'
   slug: amazon-workmail-x-amz-target-workmailservice-putmailboxpermissions-api
-- description: 'The #X Amz Target=WorkMailService.PutMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putmobiledeviceaccessoverride.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutMobileDeviceAccessOverride API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putmobiledeviceaccessoverride.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutMobileDeviceAccessOverride API'
   slug: amazon-workmail-x-amz-target-workmailservice-putmobiledeviceaccessoverride-api
-- description: 'The #X Amz Target=WorkMailService.PutRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putretentionpolicy.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.PutRetentionPolicy API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.putretentionpolicy.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.PutRetentionPolicy API'
   slug: amazon-workmail-x-amz-target-workmailservice-putretentionpolicy-api
-- description: 'The #X Amz Target=WorkMailService.RegisterMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.registermaildomain.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.RegisterMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.registermaildomain.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.RegisterMailDomain API'
   slug: amazon-workmail-x-amz-target-workmailservice-registermaildomain-api
-- description: 'The #X Amz Target=WorkMailService.RegisterToWorkMail API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.registertoworkmail.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.RegisterToWorkMail API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.registertoworkmail.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.RegisterToWorkMail API'
   slug: amazon-workmail-x-amz-target-workmailservice-registertoworkmail-api
-- description: 'The #X Amz Target=WorkMailService.ResetPassword API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.resetpassword.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.ResetPassword API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.resetpassword.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.ResetPassword API'
   slug: amazon-workmail-x-amz-target-workmailservice-resetpassword-api
-- description: 'The #X Amz Target=WorkMailService.StartMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.startmailboxexportjob.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.StartMailboxExportJob API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.startmailboxexportjob.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.StartMailboxExportJob API'
   slug: amazon-workmail-x-amz-target-workmailservice-startmailboxexportjob-api
-- description: 'The #X Amz Target=WorkMailService.TagResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.tagresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.TagResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.tagresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.TagResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-tagresource-api
-- description: 'The #X Amz Target=WorkMailService.TestAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.testavailabilityconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.TestAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.testavailabilityconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.TestAvailabilityConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-testavailabilityconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.UntagResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.untagresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UntagResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.untagresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UntagResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-untagresource-api
-- description: 'The #X Amz Target=WorkMailService.UpdateAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateavailabilityconfiguration.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateAvailabilityConfiguration API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateavailabilityconfiguration.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateAvailabilityConfiguration API'
   slug: amazon-workmail-x-amz-target-workmailservice-updateavailabilityconfiguration-api
-- description: 'The #X Amz Target=WorkMailService.UpdateDefaultMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatedefaultmaildomain.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateDefaultMailDomain API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatedefaultmaildomain.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateDefaultMailDomain API'
   slug: amazon-workmail-x-amz-target-workmailservice-updatedefaultmaildomain-api
-- description: 'The #X Amz Target=WorkMailService.UpdateImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateimpersonationrole.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateImpersonationRole API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateimpersonationrole.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateImpersonationRole API'
   slug: amazon-workmail-x-amz-target-workmailservice-updateimpersonationrole-api
-- description: 'The #X Amz Target=WorkMailService.UpdateMailboxQuota API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatemailboxquota.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateMailboxQuota API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatemailboxquota.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateMailboxQuota API'
   slug: amazon-workmail-x-amz-target-workmailservice-updatemailboxquota-api
-- description: 'The #X Amz Target=WorkMailService.UpdateMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatemobiledeviceaccessrule.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateMobileDeviceAccessRule API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updatemobiledeviceaccessrule.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateMobileDeviceAccessRule API'
   slug: amazon-workmail-x-amz-target-workmailservice-updatemobiledeviceaccessrule-api
-- description: 'The #X Amz Target=WorkMailService.UpdatePrimaryEmailAddress API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateprimaryemailaddress.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdatePrimaryEmailAddress API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateprimaryemailaddress.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdatePrimaryEmailAddress API'
   slug: amazon-workmail-x-amz-target-workmailservice-updateprimaryemailaddress-api
-- description: 'The #X Amz Target=WorkMailService.UpdateResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateresource.'
+- baseURL: https://workmail.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=WorkMailService.UpdateResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.updateresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.UpdateResource API'
   slug: amazon-workmail-x-amz-target-workmailservice-updateresource-api
 artifact_total: 1045
@@ -3298,7 +3458,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png
 security:

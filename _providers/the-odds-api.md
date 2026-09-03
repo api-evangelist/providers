@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Event listings without odds.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Event listings without odds.
   name: The Odds API Events API
   slug: the-odds-api-events-api
-- description: Historical odds and event snapshots.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Historical odds and event snapshots.
   name: The Odds API Historical API
   slug: the-odds-api-historical-api
-- description: Current odds from bookmakers.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Current odds from bookmakers.
   name: The Odds API Odds API
   slug: the-odds-api-odds-api
-- description: Teams and players in a sport.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Teams and players in a sport.
   name: The Odds API Participants API
   slug: the-odds-api-participants-api
-- description: Live and recent game scores.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Live and recent game scores.
   name: The Odds API Scores API
   slug: the-odds-api-scores-api
-- description: Available sports and their keys.
+- baseURL: https://api.the-odds-api.com/v4
+  baseurl_source: declared
+  description: Available sports and their keys.
   name: The Odds API Sports API
   slug: the-odds-api-sports-api
 artifact_total: 26
@@ -247,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/screenshots/the-odds-api-2026-06-20T195231.png
 security:

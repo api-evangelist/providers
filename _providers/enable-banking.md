@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 14 operations · 5 acting
 api_count: 1
 apis:
-- description: The Accounts data API from Enable Banking — 4 operation(s) for accounts data.
+- baseURL: https://api.enablebanking.com
+  baseurl_source: declared
+  description: The Accounts data API from Enable Banking — 4 operation(s) for accounts data.
   name: Enable Banking Accounts data API
   slug: enable-banking-accounts-data-api
-- description: The Misc API from Enable Banking — 2 operation(s) for misc.
+- baseURL: https://api.enablebanking.com
+  baseurl_source: declared
+  description: The Misc API from Enable Banking — 2 operation(s) for misc.
   name: Enable Banking Misc API
   slug: enable-banking-misc-api
-- description: The Payments API from Enable Banking — 3 operation(s) for payments.
+- baseURL: https://api.enablebanking.com
+  baseurl_source: declared
+  description: The Payments API from Enable Banking — 3 operation(s) for payments.
   name: Enable Banking Payments API
   slug: enable-banking-payments-api
-- description: The User sessions API from Enable Banking — 3 operation(s) for user sessions.
+- baseURL: https://api.enablebanking.com
+  baseurl_source: declared
+  description: The User sessions API from Enable Banking — 3 operation(s) for user sessions.
   name: Enable Banking User sessions API
   slug: enable-banking-user-sessions-api
 artifact_total: 30
@@ -301,7 +309,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
 security:

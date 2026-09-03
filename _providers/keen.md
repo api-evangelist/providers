@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 8 acting
 api_count: 3
 apis:
-- description: The Keen Cached Queries API allows developers to create, manage, and retrieve pre-defined queries that are automatically refreshed on a schedule. Cached queries improve performance for frequently acce
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: The Keen Cached Queries API allows developers to create, manage, and retrieve pre-defined queries that are automatically refreshed on a schedule. Cached queries improve performance for frequently acce
   name: Keen Cached Queries API
   slug: cached-queries-api
-- description: The Keen Saved Queries API enables developers to create and manage reusable query definitions. Saved queries store query parameters as named resources that can be retrieved and executed later, enablin
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: The Keen Saved Queries API enables developers to create and manage reusable query definitions. Saved queries store query parameters as named resources that can be retrieved and executed later, enablin
   name: Keen Saved Queries API
   slug: saved-queries-api
-- description: Inspect event collection schemas and properties for a project.
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: Inspect event collection schemas and properties for a project.
   name: Keen Collections API
   slug: keen-collections-api
-- description: Record and inspect events stored in Keen event collections.
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: Record and inspect events stored in Keen event collections.
   name: Keen Events API
   slug: keen-events-api
-- description: Extract raw event data from Keen event collections.
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: Extract raw event data from Keen event collections.
   name: Keen Extractions API
   slug: keen-extractions-api
-- description: Run analytical queries against Keen event collections.
+- baseURL: https://api.keen.io/3.0
+  baseurl_source: spec
+  description: Run analytical queries against Keen event collections.
   name: Keen Queries API
   slug: keen-queries-api
 artifact_total: 35
@@ -279,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/screenshots/keen-2026-06-20T183939.png
 security:

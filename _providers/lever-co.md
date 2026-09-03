@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -47,61 +47,99 @@ apis:
 - description: XML feed of all published job postings for a Lever site, designed for distribution to third-party job boards. Returned by appending `?mode=xml` to the Postings API list endpoint. Fields include positi
   name: Lever Postings XML Feed
   slug: lever-postings-xml-feed
-- description: Lever publishes ten webhook events covering the application and candidate lifecycle — applicationCreated, candidateHired, candidateStageChange, candidateArchiveChange, candidateDeleted, interviewCreat
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Lever publishes ten webhook events covering the application and candidate lifecycle — applicationCreated, candidateHired, candidateStageChange, candidateArchiveChange, candidateDeleted, interviewCreat
   name: Lever Webhooks
   slug: lever-webhooks
-- description: A candidate's application to a specific posting on an opportunity.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: A candidate's application to a specific posting on an opportunity.
   name: Lever Applications API
   slug: lever-co-applications-api
-- description: Reasons candidates are archived (rejected, withdrew, hired, etc).
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Reasons candidates are archived (rejected, withdrew, hired, etc).
   name: Lever Archive Reasons API
   slug: lever-co-archive-reasons-api
-- description: Audit log of admin and security-relevant actions.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Audit log of admin and security-relevant actions.
   name: Lever Audit Events API
   slug: lever-co-audit-events-api
-- description: Equal Employment Opportunity survey responses.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Equal Employment Opportunity survey responses.
   name: Lever EEO Responses API
   slug: lever-co-eeo-responses-api
-- description: Structured interview feedback from interviewers.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Structured interview feedback from interviewers.
   name: Lever Feedback API
   slug: lever-co-feedback-api
-- description: Resumes and other attachments on an opportunity.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Resumes and other attachments on an opportunity.
   name: Lever Files API
   slug: lever-co-files-api
-- description: Scheduled interviews on an opportunity.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Scheduled interviews on an opportunity.
   name: Lever Interviews API
   slug: lever-co-interviews-api
-- description: Free-form notes captured on an opportunity.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Free-form notes captured on an opportunity.
   name: Lever Notes API
   slug: lever-co-notes-api
-- description: Offer records associated with hired candidates.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Offer records associated with hired candidates.
   name: Lever Offers API
   slug: lever-co-offers-api
-- description: Opportunities are the unified record for a candidate at a posting (replaces legacy Candidates).
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Opportunities are the unified record for a candidate at a posting (replaces legacy Candidates).
   name: Lever Opportunities API
   slug: lever-co-opportunities-api
-- description: Interview panels comprising multiple interviewers.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Interview panels comprising multiple interviewers.
   name: Lever Panels API
   slug: lever-co-panels-api
-- description: Job postings published to the company careers site.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Job postings published to the company careers site.
   name: Lever Postings API
   slug: lever-co-postings-api
-- description: Headcount-tracking job requisitions backing postings.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Headcount-tracking job requisitions backing postings.
   name: Lever Requisitions API
   slug: lever-co-requisitions-api
-- description: How candidates entered the pipeline (referral, agency, job board, sourced, etc).
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: How candidates entered the pipeline (referral, agency, job board, sourced, etc).
   name: Lever Sources API
   slug: lever-co-sources-api
-- description: Pipeline stages (lead, applicant, phone screen, on-site, offer, hired, archived).
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Pipeline stages (lead, applicant, phone screen, on-site, offer, hired, archived).
   name: Lever Stages API
   slug: lever-co-stages-api
-- description: Free-form tags applied to opportunities.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Free-form tags applied to opportunities.
   name: Lever Tags API
   slug: lever-co-tags-api
-- description: Lever users (recruiters, hiring managers, interviewers, admins).
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Lever users (recruiters, hiring managers, interviewers, admins).
   name: Lever Users API
   slug: lever-co-users-api
-- description: Outbound event subscriptions.
+- baseURL: https://api.lever.co/v1
+  baseurl_source: declared
+  description: Outbound event subscriptions.
   name: Lever Webhooks API
   slug: lever-co-webhooks-api
 artifact_total: 74
@@ -496,7 +534,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -506,7 +544,7 @@ score:
     discoverability: 75.9
     governance: 28.0
     operational_transparency: 76.3
-  previous_composite: 66.2
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -518,7 +556,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lever-co/refs/heads/main/screenshots/lever-co-2026-06-20T184439.png
 security:

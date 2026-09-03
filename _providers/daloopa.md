@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,64 +37,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Auth API from Daloopa — 10 operation(s) for auth.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Auth API from Daloopa — 10 operation(s) for auth.
   name: Daloopa Auth API
   slug: daloopa-auth-api
-- description: Company Data and Metadata
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: Company Data and Metadata
   name: Daloopa Companies API
   slug: daloopa-companies-api
-- description: The Consumption API from Daloopa — 6 operation(s) for consumption.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Consumption API from Daloopa — 6 operation(s) for consumption.
   name: Daloopa Consumption API
   slug: daloopa-consumption-api
-- description: The Daloopa MCP Service API from Daloopa — 1 operation(s) for daloopa mcp service.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Daloopa MCP Service API from Daloopa — 1 operation(s) for daloopa mcp service.
   name: Daloopa Daloopa MCP Service API
   slug: daloopa-daloopa-mcp-service-api
-- description: The Data Warehouse API from Daloopa — 1 operation(s) for data warehouse.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Data Warehouse API from Daloopa — 1 operation(s) for data warehouse.
   name: Daloopa Data Warehouse API
   slug: daloopa-data-warehouse-api
-- description: The Databricks API from Daloopa — 1 operation(s) for databricks.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Databricks API from Daloopa — 1 operation(s) for databricks.
   name: Daloopa Databricks API
   slug: daloopa-databricks-api
-- description: The Documents API from Daloopa — 5 operation(s) for documents.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Documents API from Daloopa — 5 operation(s) for documents.
   name: Daloopa Documents API
   slug: daloopa-documents-api
-- description: The Download API from Daloopa — 2 operation(s) for download.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Download API from Daloopa — 2 operation(s) for download.
   name: Daloopa Download API
   slug: daloopa-download-api
-- description: The Export API from Daloopa — 1 operation(s) for export.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Export API from Daloopa — 1 operation(s) for export.
   name: Daloopa Export API
   slug: daloopa-export-api
-- description: Financial Fundamentals Data
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: Financial Fundamentals Data
   name: Daloopa Fundamentals API
   slug: daloopa-fundamentals-api
-- description: The Health API from Daloopa — 1 operation(s) for health.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Health API from Daloopa — 1 operation(s) for health.
   name: Daloopa Health API
   slug: daloopa-health-api
-- description: The Industry Models API from Daloopa — 1 operation(s) for industry models.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Industry Models API from Daloopa — 1 operation(s) for industry models.
   name: Daloopa Industry Models API
   slug: daloopa-industry-models-api
-- description: The Investing Skills API from Daloopa — 2 operation(s) for investing skills.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Investing Skills API from Daloopa — 2 operation(s) for investing skills.
   name: Daloopa Investing Skills API
   slug: daloopa-investing-skills-api
-- description: The Market Data API from Daloopa — 2 operation(s) for market data.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Market Data API from Daloopa — 2 operation(s) for market data.
   name: Daloopa Market Data API
   slug: daloopa-market-data-api
-- description: The Partnership API from Daloopa — 1 operation(s) for partnership.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Partnership API from Daloopa — 1 operation(s) for partnership.
   name: Daloopa Partnership API
   slug: daloopa-partnership-api
-- description: The Series API from Daloopa — 1 operation(s) for series.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Series API from Daloopa — 1 operation(s) for series.
   name: Daloopa Series API
   slug: daloopa-series-api
-- description: The Snowflake API from Daloopa — 1 operation(s) for snowflake.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Snowflake API from Daloopa — 1 operation(s) for snowflake.
   name: Daloopa Snowflake API
   slug: daloopa-snowflake-api
-- description: The Taxonomy API from Daloopa — 5 operation(s) for taxonomy.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Taxonomy API from Daloopa — 5 operation(s) for taxonomy.
   name: Daloopa Taxonomy API
   slug: daloopa-taxonomy-api
-- description: The Webhooks API from Daloopa — 6 operation(s) for webhooks.
+- baseURL: https://app.daloopa.com/api/v3
+  baseurl_source: declared
+  description: The Webhooks API from Daloopa — 6 operation(s) for webhooks.
   name: Daloopa Webhooks API
   slug: daloopa-webhooks-api
 artifact_total: 29
@@ -252,7 +303,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -262,7 +313,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 54.7
+  previous_composite: 54.3
   provenance:
     conformance: derived
     contracts:
@@ -279,7 +330,7 @@ score:
     regime_id: securities_market_data
     score: 60.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
 security:

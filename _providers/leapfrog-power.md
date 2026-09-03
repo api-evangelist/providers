@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -33,37 +45,59 @@ agentic_access:
   summary_line: 48 operations · 30 acting · 9 human-in-the-loop
 api_count: 8
 apis:
-- description: The create meters API from Leap — 4 operation(s) for create meters.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The create meters API from Leap — 4 operation(s) for create meters.
   name: Leap create meters API
   slug: leapfrog-power-create-meters-api
-- description: Endpoints for group dispatches
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: Endpoints for group dispatches
   name: Leap Group Dispatches API
   slug: leapfrog-power-group-dispatches-api
-- description: The interval_data_upload API from Leap — 6 operation(s) for interval_data_upload.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The interval_data_upload API from Leap — 6 operation(s) for interval_data_upload.
   name: Leap Interval Data Upload API
   slug: leapfrog-power-interval-data-upload-api
-- description: The Meter Details API from Leap — 2 operation(s) for meter details.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The Meter Details API from Leap — 2 operation(s) for meter details.
   name: Leap Meter Details API
   slug: leapfrog-power-meter-details-api
-- description: Endpoints for meter dispatches
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: Endpoints for meter dispatches
   name: Leap Meter Dispatches API
   slug: leapfrog-power-meter-dispatches-api
-- description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
   name: Leap meter enrollment API
   slug: leapfrog-power-meter-enrollment-api
-- description: The nominations API from Leap — 5 operation(s) for nominations.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The nominations API from Leap — 5 operation(s) for nominations.
   name: Leap Nominations API
   slug: leapfrog-power-nominations-api
-- description: The performance API from Leap — 1 operation(s) for performance.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The performance API from Leap — 1 operation(s) for performance.
   name: Leap Performance API
   slug: leapfrog-power-performance-api
-- description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
   name: Leap provisional assets API
   slug: leapfrog-power-provisional-assets-api
-- description: The revenue API from Leap — 8 operation(s) for revenue.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The revenue API from Leap — 8 operation(s) for revenue.
   name: Leap Revenue API
   slug: leapfrog-power-revenue-api
-- description: The webhooks API from Leap — 3 operation(s) for webhooks.
+- baseURL: https://api.leap.energy
+  baseurl_source: declared
+  description: The webhooks API from Leap — 3 operation(s) for webhooks.
   name: Leap Webhooks API
   slug: leapfrog-power-webhooks-api
 artifact_total: 24
@@ -297,7 +331,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -307,7 +341,7 @@ score:
     discoverability: 77.8
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 43.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,7 +359,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

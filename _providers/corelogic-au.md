@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +37,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 26
 apis:
-- description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
+- baseURL: https://access.api.cotality.com.au
+  baseurl_source: declared
+  description: OAuth 2.0 token service for every Cotality Australia and New Zealand API. Issues JWT access tokens via client_credentials, authorization_code and refresh_token grants. The developer portal documents P
   name: CoreLogic Australia Access API
   slug: corelogic-au-access-api
-- description: Per-property record retrieval keyed on the CoreLogic property identifier — core and additional attributes, site detail, features, occupancy, sales history and last sale, on-the-market sales and rental
+- baseURL: https://property-details.api.cotality.com.au
+  baseurl_source: declared
+  description: Per-property record retrieval keyed on the CoreLogic property identifier — core and additional attributes, site detail, features, occupancy, sales history and last sale, on-the-market sales and rental
   name: CoreLogic Australia Property Details API
   slug: corelogic-au-property-details-api
-- description: The older versioned property services family — comparables, geo sales search by polygon, locality, postcode and street, property and parcel suggest, point search, for-sale and for-rent advertisements,
+- baseURL: https://property-au.api.cotality.com.au
+  baseurl_source: declared
+  description: The older versioned property services family — comparables, geo sales search by polygon, locality, postcode and street, property and parcel suggest, point search, for-sale and for-rent advertisements,
   name: CoreLogic Australia Property Services API
   slug: corelogic-au-property-services-api
-- description: Property search and address matching across Australia — radius search by latitude/longitude, and filtered search by council area, locality, postcode and street, each in four flavours (current attribut
+- baseURL: https://search.api.cotality.com.au
+  baseurl_source: declared
+  description: Property search and address matching across Australia — radius search by latitude/longitude, and filtered search by council area, locality, postcode and street, each in four flavours (current attribut
   name: CoreLogic Australia Search API
   slug: corelogic-au-search-api
-- description: IntelliVal automated valuation model — the valuation engine at the centre of CoreLogic Australia's mortgage and lending business. The sandbox collection publishes consumer and origination AVM variants
+- baseURL: https://avm.api.cotality.com.au
+  baseurl_source: declared
+  description: IntelliVal automated valuation model — the valuation engine at the centre of CoreLogic Australia's mortgage and lending business. The sandbox collection publishes consumer and origination AVM variants
   name: CoreLogic Australia AVM API
   slug: corelogic-au-avm-api
-- description: Australian auction results and clearance rates — the weekly number the Australian property press runs on. Publishes state-level summaries and results with capital-city filtering, suburb and postcode d
+- baseURL: https://auction.api.cotality.com.au
+  baseurl_source: declared
+  description: Australian auction results and clearance rates — the weekly number the Australian property press runs on. Publishes state-level summaries and results with capital-city filtering, suburb and postcode d
   name: CoreLogic Australia Auction API
   slug: corelogic-au-auction-api
-- description: Suburb, locality and region statistics plus ABS census summaries, driven by location and location-type identifiers and metric-type identifiers. Four operations are published in the sandbox collection,
+- baseURL: https://statistics.api.cotality.com.au
+  baseurl_source: declared
+  description: Suburb, locality and region statistics plus ABS census summaries, driven by location and location-type identifiers and metric-type identifiers. Four operations are published in the sandbox collection,
   name: CoreLogic Australia Statistics API
   slug: corelogic-au-statistics-api
-- description: Server-rendered PNG chart images for market trends and census data, driven by location, property-type and metric-type identifiers with extensive presentation parameters (chart size, colours, titles, a
+- baseURL: https://charts.api.cotality.com.au
+  baseurl_source: declared
+  description: Server-rendered PNG chart images for market trends and census data, driven by location, property-type and metric-type identifiers with extensive presentation parameters (chart size, colours, titles, a
   name: CoreLogic Australia Charts API
   slug: corelogic-au-charts-api
-- description: 'Chronological event timeline for a single property — sales, listing campaigns, rental campaigns and, with the withBuildingConsents flag, building consent events. Three operations are published in the '
+- baseURL: https://property-timeline.api.cotality.com.au
+  baseurl_source: declared
+  description: 'Chronological event timeline for a single property — sales, listing campaigns, rental campaigns and, with the withBuildingConsents flag, building consent events. Three operations are published in the '
   name: CoreLogic Australia Property Timeline API
   slug: corelogic-au-property-timeline-api
-- description: Serves the legal disclaimers that licensees are contractually required to display alongside CoreLogic data, retrieved by disclaimer key (for example /legal/disclaimers/auction_au and /legal/disclaimer
+- baseURL: https://content.api.cotality.com.au
+  baseurl_source: declared
+  description: Serves the legal disclaimers that licensees are contractually required to display alongside CoreLogic data, retrieved by disclaimer key (for example /legal/disclaimers/auction_au and /legal/disclaimer
   name: CoreLogic Australia Content API
   slug: corelogic-au-content-api
 - description: PSX is CoreLogic Australia's valuation ordering exchange, connecting lenders and brokers to panels of licensed valuers. The Cotality Developer Portal defines nine documented PSX operations — panel loo
@@ -348,7 +382,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -358,13 +392,13 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 27.9
+  previous_composite: 27.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic-au/refs/heads/main/screenshots/corelogic-au-2026-07-27T125335.png
 security:

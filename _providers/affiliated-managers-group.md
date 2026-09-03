@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Digital platform providing financial advisors and their clients access to independent investment managers with differentiated investment solutions. Offers access to mutual funds, separately managed ac
@@ -42,10 +42,14 @@ apis:
 - description: Investor relations platform providing shareholders, analysts, and institutional investors access to AMG's financial performance data, earnings releases, SEC filings, governance documents, and corporat
   name: AMG Investor Relations
   slug: affiliated-managers-group-investor-relations
-- description: 'Undocumented, anonymously callable JSON API on wealth.amg.com that backs the AMG Wealth Platform product pages. Exposed as the AMG-authored WordPress REST namespace amgfundsdata/v1, whose route table '
+- baseURL: https://wealth.amg.com/wp-json/amgfundsdata/v1
+  baseurl_source: declared
+  description: 'Undocumented, anonymously callable JSON API on wealth.amg.com that backs the AMG Wealth Platform product pages. Exposed as the AMG-authored WordPress REST namespace amgfundsdata/v1, whose route table '
   name: AMG Funds Data API
   slug: affiliated-managers-group-funds-data
-- description: Undocumented, anonymously callable JSON API on www.amg.com that backs the AMG Affiliate directory. Exposed as the AMG-authored WordPress REST namespace amginc/v1. A single POST-only route, /amginc/v1/
+- baseURL: https://www.amg.com/wp-json/amginc/v1
+  baseurl_source: declared
+  description: Undocumented, anonymously callable JSON API on www.amg.com that backs the AMG Affiliate directory. Exposed as the AMG-authored WordPress REST namespace amginc/v1. A single POST-only route, /amginc/v1/
   name: AMG Corporate Content API
   slug: affiliated-managers-group-corporate-content
 artifact_total: 26
@@ -207,7 +211,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.1
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -217,7 +221,7 @@ score:
     discoverability: 57.4
     governance: 15.2
     operational_transparency: 0.0
-  previous_composite: 38.1
+  previous_composite: 31.0
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +232,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/screenshots/affiliated-managers-group-2026-06-20T165600.png
 security:
 - kind: authentication

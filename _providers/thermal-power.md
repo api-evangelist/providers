@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Generating capacity and generator-level data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Generating capacity and generator-level data.
   name: Thermal Power Capacity API
   slug: thermal-power-capacity-api
-- description: Plant-level thermal generation operational data.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Plant-level thermal generation operational data.
   name: Thermal Power Plant Operations API
   slug: thermal-power-plant-operations-api
-- description: Electric power operational statistics by fuel type.
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Electric power operational statistics by fuel type.
   name: Thermal Power Power Operations API
   slug: thermal-power-power-operations-api
 artifact_total: 21
@@ -205,7 +211,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/screenshots/thermal-power-2026-06-20T195251.png
 security:

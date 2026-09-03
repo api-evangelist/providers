@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 48 operations · 24 acting
 api_count: 1
 apis:
-- description: The balance API from River Markets — 1 operation(s) for balance.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The balance API from River Markets — 1 operation(s) for balance.
   name: River Markets balance API
   slug: river-markets-balance-api
-- description: 'Manage complex orders: conditional orders (take-profit and stop-loss), TWAP, and other advanced order types.'
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: 'Manage complex orders: conditional orders (take-profit and stop-loss), TWAP, and other advanced order types.'
   name: River Markets complex-orders API
   slug: river-markets-complex-orders-api
-- description: The fair-values API from River Markets — 2 operation(s) for fair-values.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The fair-values API from River Markets — 2 operation(s) for fair-values.
   name: River Markets fair-values API
   slug: river-markets-fair-values-api
-- description: Retrieve trade execution history and fill details.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Retrieve trade execution history and fill details.
   name: River Markets fills API
   slug: river-markets-fills-api
-- description: The generic-assets API from River Markets — 3 operation(s) for generic-assets.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The generic-assets API from River Markets — 3 operation(s) for generic-assets.
   name: River Markets generic-assets API
   slug: river-markets-generic-assets-api
-- description: Search and discover prediction markets across Kalshi and Polymarket.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Search and discover prediction markets across Kalshi and Polymarket.
   name: River Markets markets API
   slug: river-markets-markets-api
-- description: The orderbooks API from River Markets — 2 operation(s) for orderbooks.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The orderbooks API from River Markets — 2 operation(s) for orderbooks.
   name: River Markets orderbooks API
   slug: river-markets-orderbooks-api
-- description: Place and manage orders on prediction market exchanges.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Place and manage orders on prediction market exchanges.
   name: River Markets orders API
   slug: river-markets-orders-api
-- description: View current portfolio positions across all connected exchanges.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: View current portfolio positions across all connected exchanges.
   name: River Markets positions API
   slug: river-markets-positions-api
-- description: Get historical price data and candlesticks from exchanges.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Get historical price data and candlesticks from exchanges.
   name: River Markets prices API
   slug: river-markets-prices-api
-- description: Manage trading subaccounts. Each subaccount can have its own exchange credentials and positions.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Manage trading subaccounts. Each subaccount can have its own exchange credentials and positions.
   name: River Markets subaccounts API
   slug: river-markets-subaccounts-api
-- description: Recent trades for a market. Pairs with the /v1/ws/tradeprints WebSocket for live updates.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: Recent trades for a market. Pairs with the /v1/ws/tradeprints WebSocket for live updates.
   name: River Markets tradeprints API
   slug: river-markets-tradeprints-api
-- description: The watchlists API from River Markets — 4 operation(s) for watchlists.
+- baseURL: https://api.rivermarkets.com
+  baseurl_source: declared
+  description: The watchlists API from River Markets — 4 operation(s) for watchlists.
   name: River Markets watchlists API
   slug: river-markets-watchlists-api
 artifact_total: 32
@@ -247,11 +273,11 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -261,7 +287,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.8
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +305,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/river-markets/refs/heads/main/screenshots/river-markets-2026-09-02T153922.png
 security:
 - kind: authentication
   name: River Markets Authentication

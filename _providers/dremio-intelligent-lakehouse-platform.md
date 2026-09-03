@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: Dremio is an agentic lakehouse platform built natively on Apache Iceberg, Polaris, and Arrow. It provides AI-powered analytics, an intelligent SQL query engine, an AI semantic layer, and an open catal
   name: Dremio | Intelligent Lakehouse Platform
   slug: dremio-intelligent-lakehouse-platform
-- description: The Authentication API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for authentication.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Authentication API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for authentication.
   name: Dremio | Intelligent Lakehouse Platform Authentication API
   slug: dremio-intelligent-lakehouse-platform-authentication-api
-- description: The Catalog API from Dremio | Intelligent Lakehouse Platform — 3 operation(s) for catalog.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Catalog API from Dremio | Intelligent Lakehouse Platform — 3 operation(s) for catalog.
   name: Dremio | Intelligent Lakehouse Platform Catalog API
   slug: dremio-intelligent-lakehouse-platform-catalog-api
-- description: The Jobs API from Dremio | Intelligent Lakehouse Platform — 4 operation(s) for jobs.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Jobs API from Dremio | Intelligent Lakehouse Platform — 4 operation(s) for jobs.
   name: Dremio | Intelligent Lakehouse Platform Jobs API
   slug: dremio-intelligent-lakehouse-platform-jobs-api
-- description: The PAT API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for pat.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The PAT API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for pat.
   name: Dremio | Intelligent Lakehouse Platform PAT API
   slug: dremio-intelligent-lakehouse-platform-pat-api
-- description: The Reflections API from Dremio | Intelligent Lakehouse Platform — 2 operation(s) for reflections.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Reflections API from Dremio | Intelligent Lakehouse Platform — 2 operation(s) for reflections.
   name: Dremio | Intelligent Lakehouse Platform Reflections API
   slug: dremio-intelligent-lakehouse-platform-reflections-api
-- description: The Roles API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for roles.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Roles API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for roles.
   name: Dremio | Intelligent Lakehouse Platform Roles API
   slug: dremio-intelligent-lakehouse-platform-roles-api
-- description: The Scripts API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for scripts.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Scripts API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for scripts.
   name: Dremio | Intelligent Lakehouse Platform Scripts API
   slug: dremio-intelligent-lakehouse-platform-scripts-api
-- description: The Sources API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for sources.
+- baseURL_template: https://{hostname}/api/v3
+  baseurl_source: spec_template
+  description: The Sources API from Dremio | Intelligent Lakehouse Platform — 1 operation(s) for sources.
   name: Dremio | Intelligent Lakehouse Platform Sources API
   slug: dremio-intelligent-lakehouse-platform-sources-api
 artifact_total: 26
@@ -200,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dremio-intelligent-lakehouse-platform/refs/heads/main/screenshots/dremio-intelligent-lakehouse-platform-2026-06-20T180225.png
 security:

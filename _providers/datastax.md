@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 123 operations · 79 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: View, create, modify, or delete the IP access list for an Astra database.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: View, create, modify, or delete the IP access list for an Astra database.
   name: DataStax Access List API
   slug: datastax-access-list-api
-- description: Generate and revoke tokens that are used to authenticate DevOps API operations.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Generate and revoke tokens that are used to authenticate DevOps API operations.
   name: DataStax Authentication API
   slug: datastax-authentication-api
-- description: Use the DevOps API to clone databases.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps API to clone databases.
   name: DataStax Clone API
   slug: datastax-clone-api
-- description: Manage customer keys for your Astra organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Manage customer keys for your Astra organization.
   name: DataStax Customer Keys API
   slug: datastax-customer-keys-api
-- description: Use these DevOps APIs to manage Astra databases.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use these DevOps APIs to manage Astra databases.
   name: DataStax Database Operations API
   slug: datastax-database-operations-api
-- description: View, create, modify, or delete the access list that restricts access to the DevOps API for an Astra organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: View, create, modify, or delete the access list that restricts access to the DevOps API for an Astra organization.
   name: DataStax DevOps Access List API
   slug: datastax-devops-access-list-api
-- description: DevOps APIs for your Astra enterprise.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: DevOps APIs for your Astra enterprise.
   name: DataStax Enterprise Operations API
   slug: datastax-enterprise-operations-api
-- description: Use the DevOps API to manage SSTables-based migrations.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps API to manage SSTables-based migrations.
   name: DataStax Migrations API
   slug: datastax-migrations-api
-- description: DevOps APIs for your Astra organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: DevOps APIs for your Astra organization.
   name: DataStax Organization Operations API
   slug: datastax-organization-operations-api
-- description: Use the DevOps API to manage provisioned capacity units for eligible organizations and databases.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps API to manage provisioned capacity units for eligible organizations and databases.
   name: DataStax PCU API
   slug: datastax-pcu-api
-- description: Use the DevOps Private Link APIs to manage private link endpoints for your Astra databases.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps Private Link APIs to manage private link endpoints for your Astra databases.
   name: DataStax Private Link API
   slug: datastax-private-link-api
-- description: Get available regions by database type, user, or organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Get available regions by database type, user, or organization.
   name: DataStax Regions API
   slug: datastax-regions-api
-- description: Use the DevOps Roles APIs to manage roles in your Astra organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps Roles APIs to manage roles in your Astra organization.
   name: DataStax Roles API
   slug: datastax-roles-api
-- description: SCIM 2.0 endpoints for user and group provisioning and management.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: SCIM 2.0 endpoints for user and group provisioning and management.
   name: DataStax SCIM API
   slug: datastax-scim-api
-- description: Generate and revoke tokens that are used to authenticate DevOps API operations.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Generate and revoke tokens that are used to authenticate DevOps API operations.
   name: DataStax Token API
   slug: datastax-token-api
-- description: Use the DevOps Users APIs to manage users in your Astra organization.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps Users APIs to manage users in your Astra organization.
   name: DataStax Users API
   slug: datastax-users-api
-- description: Use the DevOps VPC Peering APIs to manage VPC peering for Managed Cluster (Classic) databases.
+- baseURL: https://api.astra.datastax.com
+  baseurl_source: declared
+  description: Use the DevOps VPC Peering APIs to manage VPC peering for Managed Cluster (Classic) databases.
   name: DataStax VPC Peering API
   slug: datastax-vpc-peering-api
 arazzos:
@@ -339,7 +373,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

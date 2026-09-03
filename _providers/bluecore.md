@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,31 +44,47 @@ agentic_access:
   summary_line: 9 operations · 6 acting
 api_count: 3
 apis:
-- description: The Authn API from Bluecore — 1 operation(s) for authn.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The Authn API from Bluecore — 1 operation(s) for authn.
   name: Bluecore Authn API
   slug: bluecore-authn-api
-- description: The CampaignsAPIPublic API from Bluecore — 1 operation(s) for campaignsapipublic.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The CampaignsAPIPublic API from Bluecore — 1 operation(s) for campaignsapipublic.
   name: Bluecore CampaignsAPIPublic API
   slug: bluecore-campaignsapipublic-api
-- description: The Direct send API from Bluecore — 1 operation(s) for direct send.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The Direct send API from Bluecore — 1 operation(s) for direct send.
   name: Bluecore Direct send API
   slug: bluecore-direct-send-api
-- description: The Eligibility API from Bluecore — 2 operation(s) for eligibility.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The Eligibility API from Bluecore — 2 operation(s) for eligibility.
   name: Bluecore Eligibility API
   slug: bluecore-eligibility-api
-- description: The Profile API from Bluecore — 1 operation(s) for profile.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The Profile API from Bluecore — 1 operation(s) for profile.
   name: Bluecore Profile API
   slug: bluecore-profile-api
-- description: The Transactional API from Bluecore — 1 operation(s) for transactional.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The Transactional API from Bluecore — 1 operation(s) for transactional.
   name: Bluecore Transactional API
   slug: bluecore-transactional-api
 - description: Bluecore's event-ingestion API - POST shopper behaviour and identity events (viewed_product, search, add_to_cart, remove_from_cart, wishlist, purchase, customer_patch, identify, optin, unsubscribe, pl
   name: Bluecore Events API
   slug: bluecore-events-api
-- description: The GET STATUS API from Bluecore — 1 operation(s) for get status.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The GET STATUS API from Bluecore — 1 operation(s) for get status.
   name: Bluecore GET STATUS API
   slug: bluecore-get-status-api
-- description: The SEND EMAIL API from Bluecore — 1 operation(s) for send email.
+- baseURL: https://a.bluecore.com/api
+  baseurl_source: declared
+  description: The SEND EMAIL API from Bluecore — 1 operation(s) for send email.
   name: Bluecore SEND EMAIL API
   slug: bluecore-send-email-api
 arazzos:
@@ -316,7 +332,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -326,7 +342,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 52.0
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +360,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

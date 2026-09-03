@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 116 operations · 62 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: Create, update, list, archive, pause, and unpause connections. A connection routes events from a Source to a Destination and may carry rules (retry, alert, transform, filter, delay) that determine how
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Create, update, list, archive, pause, and unpause connections. A connection routes events from a Source to a Destination and may carry rules (retry, alert, transform, filter, delay) that determine how
   name: Hookdeck Connections API
   slug: hookdeck-connections-api
-- description: Manage sources — the upstream endpoints (webhook senders or push channels) that ingest events into Hookdeck. Sources support platform-specific verification (Stripe, GitHub, Twilio, Shopify, and many m
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Manage sources — the upstream endpoints (webhook senders or push channels) that ingest events into Hookdeck. Sources support platform-specific verification (Stripe, GitHub, Twilio, Shopify, and many m
   name: Hookdeck Sources API
   slug: hookdeck-sources-api
-- description: Manage destinations — the downstream targets (HTTP endpoints, AWS SQS, Azure Service Bus, GCP Pub/Sub, Kafka, RabbitMQ, MongoDB, and more) where Hookdeck delivers events. Supports configurable auth me
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Manage destinations — the downstream targets (HTTP endpoints, AWS SQS, Azure Service Bus, GCP Pub/Sub, Kafka, RabbitMQ, MongoDB, and more) where Hookdeck delivers events. Supports configurable auth me
   name: Hookdeck Destinations API
   slug: hookdeck-destinations-api
-- description: List, retrieve, retry, mute, and inspect events and their delivery attempts. An event is any request Hookdeck received from a source; an attempt is each delivery try against a destination, including s
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: List, retrieve, retry, mute, and inspect events and their delivery attempts. An event is any request Hookdeck received from a source; an attempt is each delivery try against a destination, including s
   name: Hookdeck Events API
   slug: hookdeck-events-api
-- description: List and inspect raw requests received by Hookdeck. A request precedes events and is what gets accepted at the gateway boundary before verification, fan-out, transformation, and routing produce one or
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: List and inspect raw requests received by Hookdeck. A request precedes events and is what gets accepted at the gateway boundary before verification, fan-out, transformation, and routing produce one or
   name: Hookdeck Requests API
   slug: hookdeck-requests-api
-- description: 'Manage transformations — sandboxed JavaScript executed against events to mutate headers, body, path, or query string before delivery. Also includes a sandboxed run endpoint for testing transformation '
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: 'Manage transformations — sandboxed JavaScript executed against events to mutate headers, body, path, or query string before delivery. Also includes a sandboxed run endpoint for testing transformation '
   name: Hookdeck Transformations API
   slug: hookdeck-transformations-api
-- description: Save bookmarked events for quick replay and one-click testing during development. Bookmarks let your team capture canonical event payloads and trigger them on demand into any destination.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Save bookmarked events for quick replay and one-click testing during development. Bookmarks let your team capture canonical event payloads and trigger them on demand into any destination.
   name: Hookdeck Bookmarks API
   slug: hookdeck-bookmarks-api
-- description: Track issues that occur on events, requests, and backpressure, and manage the triggers (rules) that open and route issues to Slack, Email, Microsoft Teams, Discord, BetterUptime, and other channels.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Track issues that occur on events, requests, and backpressure, and manage the triggers (rules) that open and route issues to Slack, Email, Microsoft Teams, Discord, BetterUptime, and other channels.
   name: Hookdeck Issues API
   slug: hookdeck-issues-api
-- description: Query aggregated metrics for events, requests, and attempts — success counts, failure counts, response time, throughput, and SLA bands grouped by source, destination, or connection. Backs the dashboar
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Query aggregated metrics for events, requests, and attempts — success counts, failure counts, response time, throughput, and SLA bands grouped by source, destination, or connection. Backs the dashboar
   name: Hookdeck Metrics API
   slug: hookdeck-metrics-api
-- description: Configure platform integrations that adapt Hookdeck behavior for specific source platforms — including signature verification, header normalization, allowed event types, and platform-aware retries (e.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Configure platform integrations that adapt Hookdeck behavior for specific source platforms — including signature verification, header normalization, allowed event types, and platform-aware retries (e.
   name: Hookdeck Integrations API
   slug: hookdeck-integrations-api
-- description: Manage how your team is notified when issues occur — channel routing, mute windows, per-team subscriptions, and the templates rendered to Slack, Email, Microsoft Teams, and Discord.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Manage how your team is notified when issues occur — channel routing, mute windows, per-team subscriptions, and the templates rendered to Slack, Email, Microsoft Teams, and Discord.
   name: Hookdeck Notifications API
   slug: hookdeck-notifications-api
-- description: An attempt is any request that Hookdeck makes on behalf of an event.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: An attempt is any request that Hookdeck makes on behalf of an event.
   name: Hookdeck Attempts API
   slug: hookdeck-attempts-api
-- description: Bulk cancel operations allow you to cancel multiple pending events at once.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Bulk cancel operations allow you to cancel multiple pending events at once.
   name: Hookdeck Bulk cancel events API
   slug: hookdeck-bulk-cancel-events-api
-- description: Bulk retry operations allow you to retry many events at once. A bulk retry is first estimated, then created, then processed asynchronously.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Bulk retry operations allow you to retry many events at once. A bulk retry is first estimated, then created, then processed asynchronously.
   name: Hookdeck Bulk retry events API
   slug: hookdeck-bulk-retry-events-api
-- description: Bulk retry ignored events allow you to retry many events that were previously ignored (for instance due to filter rules) at once.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Bulk retry ignored events allow you to retry many events that were previously ignored (for instance due to filter rules) at once.
   name: Hookdeck Bulk retry ignored events API
   slug: hookdeck-bulk-retry-ignored-events-api
-- description: Bulk retry requests allow you to re-ingest many previously received requests at once.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Bulk retry requests allow you to re-ingest many previously received requests at once.
   name: Hookdeck Bulk retry requests API
   slug: hookdeck-bulk-retry-requests-api
-- description: Issue Triggers lets you setup rules that trigger issues when certain conditions are met.
+- baseURL: https://api.hookdeck.com/2025-07-01
+  baseurl_source: declared
+  description: Issue Triggers lets you setup rules that trigger issues when certain conditions are met.
   name: Hookdeck Issue Triggers API
   slug: hookdeck-issue-triggers-api
 arazzos:
@@ -593,7 +627,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:

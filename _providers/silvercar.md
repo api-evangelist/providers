@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Versioned (mob-api-v4) REST API for Dealerware fleet-management and courtesy/loaner mobility workflows: contracts, reservations, contactless check-in, customers, drivers, employees, dealerships, fleet'
@@ -129,11 +129,11 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -143,10 +143,11 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 11.8
-  previous_composite: 30.7
+  previous_composite: 30.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/silvercar/refs/heads/main/screenshots/silvercar-2026-09-02T155508.png
 security:
 - kind: authentication
   name: Silvercar Authentication

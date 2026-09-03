@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 9 operations
 api_count: 2
 apis:
-- description: Read-only indexer checkpoints and warnings.
+- baseURL: https://rugspull.com
+  baseurl_source: declared
+  description: Read-only indexer checkpoints and warnings.
   name: Rugspull Read API Indexer API
   slug: rugspull-read-api-indexer-api
-- description: Event-derived market points and sparklines; not a price oracle.
+- baseURL: https://rugspull.com
+  baseurl_source: declared
+  description: Event-derived market points and sparklines; not a price oracle.
   name: Rugspull Read API Market API
   slug: rugspull-read-api-market-api
-- description: Public immutable metadata and image objects.
+- baseURL: https://rugspull.com
+  baseurl_source: declared
+  description: Public immutable metadata and image objects.
   name: Rugspull Read API Objects API
   slug: rugspull-read-api-objects-api
-- description: Current-Factory discovery cache and indexed event records.
+- baseURL: https://rugspull.com
+  baseurl_source: declared
+  description: Current-Factory discovery cache and indexed event records.
   name: Rugspull Read API Rugs API
   slug: rugspull-read-api-rugs-api
-- description: Liveness and public configuration.
+- baseURL: https://rugspull.com
+  baseurl_source: declared
+  description: Liveness and public configuration.
   name: Rugspull Read API Service API
   slug: rugspull-read-api-service-api
 artifact_total: 12
@@ -195,7 +217,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +243,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rugspull-read-api/refs/heads/main/screenshots/rugspull-read-api-2026-09-02T154200.png
 security:
 - kind: authentication
   name: Rugspull Read Api Authentication

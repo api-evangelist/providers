@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: Esports data feeds for CS:GO, League of Legends, and other major titles. Covers teams, players, tournaments, matches, live scores, and statistics.
   name: TheSports Esports API
   slug: esports-api
-- description: Football competition and league data
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: Football competition and league data
   name: TheSports Competitions API
   slug: thesports-competitions-api
-- description: Football match fixtures, results, and live data
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: Football match fixtures, results, and live data
   name: TheSports Matches API
   slug: thesports-matches-api
-- description: Football player profiles and statistics
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: Football player profiles and statistics
   name: TheSports Players API
   slug: thesports-players-api
-- description: League tables and competition standings
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: League tables and competition standings
   name: TheSports Standings API
   slug: thesports-standings-api
-- description: Match and player statistics
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: Match and player statistics
   name: TheSports Statistics API
   slug: thesports-statistics-api
-- description: Football team information and statistics
+- baseURL: https://api.thesports.com/v1
+  baseurl_source: declared
+  description: Football team information and statistics
   name: TheSports Teams API
   slug: thesports-teams-api
 artifact_total: 32
@@ -245,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/screenshots/thesports-2026-06-20T195259.png
 security:

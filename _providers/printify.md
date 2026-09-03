@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 33 operations · 18 acting
 api_count: 1
 apis:
-- description: Blueprints, print providers, variants, and shipping in the Printify catalog.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Blueprints, print providers, variants, and shipping in the Printify catalog.
   name: Printify Catalog API
   slug: printify-catalog-api
-- description: Order submission, shipping calculation, production, and cancellation.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Order submission, shipping calculation, production, and cancellation.
   name: Printify Orders API
   slug: printify-orders-api
-- description: Products in a shop and their publishing lifecycle.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Products in a shop and their publishing lifecycle.
   name: Printify Products API
   slug: printify-products-api
-- description: Stores connected to a Printify account.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Stores connected to a Printify account.
   name: Printify Shops API
   slug: printify-shops-api
-- description: Artwork uploads to the merchant Media Library.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Artwork uploads to the merchant Media Library.
   name: Printify Uploads API
   slug: printify-uploads-api
-- description: Event notifications delivered to merchant endpoints.
+- baseURL: https://api.printify.com/v1
+  baseurl_source: declared
+  description: Event notifications delivered to merchant endpoints.
   name: Printify Webhooks API
   slug: printify-webhooks-api
 artifact_total: 21
@@ -170,7 +182,7 @@ score:
   band: thin
   composite: 34.8
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/screenshots/printify-2026-09-02T152036.png
 security:
 - kind: authentication
   name: Printify Authentication

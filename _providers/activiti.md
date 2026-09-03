@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 1
@@ -47,130 +47,214 @@ apis:
 - description: The Activiti Cloud Runtime Bundle provides a cloud-native REST API for executing BPMN 2.0 processes in a distributed, scalable environment. It exposes endpoints for process instances, tasks, variables
   name: Activiti Cloud Runtime Bundle API
   slug: activiti-cloud-runtime-bundle-api
-- description: Information about Activiti BPM Suite
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Information about Activiti BPM Suite
   name: Activiti About API
   slug: activiti-about-api
-- description: Manage Endpoints
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Endpoints
   name: Activiti Admin Endpoints API
   slug: activiti-admin-endpoints-api
-- description: Manage Endpoints
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Endpoints
   name: Activiti Admin Groups API
   slug: activiti-admin-groups-api
-- description: Manage Tenants
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Tenants
   name: Activiti Admin Tenants API
   slug: activiti-admin-tenants-api
-- description: Manage Users
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Users
   name: Activiti Admin Users API
   slug: activiti-admin-users-api
-- description: The Alfresco API from Activiti — 9 operation(s) for alfresco.
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: The Alfresco API from Activiti — 9 operation(s) for alfresco.
   name: Activiti Alfresco API
   slug: activiti-alfresco-api
-- description: The Apps API from Activiti — 5 operation(s) for apps.
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: The Apps API from Activiti — 5 operation(s) for apps.
   name: Activiti Apps API
   slug: activiti-apps-api
-- description: Manage App Definition
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage App Definition
   name: Activiti Apps Definition API
   slug: activiti-apps-definition-api
-- description: Manage Runtime Apps
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Runtime Apps
   name: Activiti Apps Runtime API
   slug: activiti-apps-runtime-api
-- description: Manage Comments
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Comments
   name: Activiti Comments API
   slug: activiti-comments-api
-- description: Manage Contents
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Contents
   name: Activiti Content API
   slug: activiti-content-api
-- description: Retrieve Content Rendition
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Retrieve Content Rendition
   name: Activiti Content Rendition API
   slug: activiti-content-rendition-api
-- description: Api Editor Form Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Editor Form Resource
   name: Activiti Editor API
   slug: activiti-editor-api
-- description: Retrieve Groups
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Retrieve Groups
   name: Activiti Groups API
   slug: activiti-groups-api
-- description: Api Idm Sync Log Entry Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Idm Sync Log Entry Resource
   name: Activiti IDM Sync API
   slug: activiti-idm-sync-api
-- description: Client Integration Account
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Client Integration Account
   name: Activiti Integration Account API
   slug: activiti-integration-account-api
-- description: Manage Alfresco Integration
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Alfresco Integration
   name: Activiti Integration Alfresco Cloud API
   slug: activiti-integration-alfresco-cloud-api
-- description: Manage Alfresco Integration
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Alfresco Integration
   name: Activiti Integration Alfresco OnPremise API
   slug: activiti-integration-alfresco-onpremise-api
-- description: The Integration API from Activiti — 15 operation(s) for integration.
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: The Integration API from Activiti — 15 operation(s) for integration.
   name: Activiti Integration API
   slug: activiti-integration-api
-- description: Manage Box Integration
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Box Integration
   name: Activiti Integration Box API
   slug: activiti-integration-box-api
-- description: Manage Google Drive Integration
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Google Drive Integration
   name: Activiti Integration Drive API
   slug: activiti-integration-drive-api
-- description: ''
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: ''
   name: Activiti Model Bpmn API
   slug: activiti-model-bpmn-api
-- description: Api Model Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Model Resource
   name: Activiti Models API
   slug: activiti-models-api
-- description: Model Version history
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Model Version history
   name: Activiti Models History API
   slug: activiti-models-history-api
-- description: The Process API from Activiti — 10 operation(s) for process.
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: The Process API from Activiti — 10 operation(s) for process.
   name: Activiti Process API
   slug: activiti-process-api
-- description: Api Process Definitions Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Process Definitions Resource
   name: Activiti Process Definitions API
   slug: activiti-process-definitions-api
-- description: Start Forms
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Start Forms
   name: Activiti Process Definitions Form API
   slug: activiti-process-definitions-form-api
-- description: Manage Process Instances
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Process Instances
   name: Activiti Process Instances API
   slug: activiti-process-instances-api
-- description: Manage process instances
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage process instances
   name: Activiti Process Instances Information API
   slug: activiti-process-instances-information-api
-- description: Listing
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Listing
   name: Activiti Process Instances Listing API
   slug: activiti-process-instances-listing-api
-- description: Api Process Scope Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Process Scope Resource
   name: Activiti Process Scope API
   slug: activiti-process-scope-api
-- description: Manage User Information
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage User Information
   name: Activiti Profile API
   slug: activiti-profile-api
-- description: Script file
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Script file
   name: Activiti Script File API
   slug: activiti-script-file-api
-- description: List System Properties
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: List System Properties
   name: Activiti System Properties API
   slug: activiti-system-properties-api
-- description: Manage Task Actions
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Task Actions
   name: Activiti Task Actions API
   slug: activiti-task-actions-api
-- description: Manage Tasks
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Tasks
   name: Activiti Task API
   slug: activiti-task-api
-- description: Manage CheckList
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage CheckList
   name: Activiti Task CheckList API
   slug: activiti-task-checklist-api
-- description: Manage Task Forms
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Task Forms
   name: Activiti Task Forms API
   slug: activiti-task-forms-api
-- description: Api Example Form Option Resource
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Api Example Form Option Resource
   name: Activiti Temporary API
   slug: activiti-temporary-api
-- description: Retrieve Users
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Retrieve Users
   name: Activiti User API
   slug: activiti-user-api
-- description: Manage Task & Process Filters
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Manage Task & Process Filters
   name: Activiti User Filters API
   slug: activiti-user-filters-api
-- description: Retrieve Workflow User
+- baseURL: https://your-activiti-host/activiti-rest/service
+  baseurl_source: declared
+  description: Retrieve Workflow User
   name: Activiti Users Workflow API
   slug: activiti-users-workflow-api
 artifact_total: 109
@@ -518,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 42
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/screenshots/activiti-2026-06-20T164259.png
 security:

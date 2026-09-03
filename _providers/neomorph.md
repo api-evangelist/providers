@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,43 +35,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Corporate pages — About, Platform, Pipeline, Publications, Patients, Careers, News, Contact and the policy set (15 published at harvest time, including the NEO-811 programme page).
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — About, Platform, Pipeline, Publications, Patients, Careers, News, Contact and the policy set (15 published at harvest time, including the NEO-811 programme page).
   name: Neomorph Pages API
   slug: neomorph-pages-api
-- description: Publications custom post type — the peer-reviewed molecular glue and targeted protein degradation literature Neomorph's founders and scientists authored (11 published at harvest time, from the 2014 CR
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Publications custom post type — the peer-reviewed molecular glue and targeted protein degradation literature Neomorph's founders and scientists authored (11 published at harvest time, from the 2014 CR
   name: Neomorph Publications API
   slug: neomorph-publications-api
-- description: Team custom post type and its team_category taxonomy — management, board of directors and scientific founders (19 people across 4 registered categories at harvest time).
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Team custom post type and its team_category taxonomy — management, board of directors and scientific founders (19 people across 4 registered categories at harvest time).
   name: Neomorph Team API
   slug: neomorph-team-api
-- description: Media library — team portraits, pipeline and platform figures, and press assets (111 attachments at harvest time).
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Media library — team portraits, pipeline and platform figures, and press assets (111 attachments at harvest time).
   name: Neomorph Media API
   slug: neomorph-media-api
-- description: Comment collection. Registered and anonymously reachable, but empty — no post on this deployment carries comments.
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty — no post on this deployment carries comments.
   name: Neomorph Comments API
   slug: neomorph-comments-api
-- description: Cross-content search across every publicly queryable object type on the deployment (post, page, team, resource).
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across every publicly queryable object type on the deployment (post, page, team, resource).
   name: Neomorph Search API
   slug: neomorph-search-api
-- description: Route, post-type, taxonomy and status discovery documents — the 432-route, 23-namespace index the deployment publishes about itself.
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: Route, post-type, taxonomy and status discovery documents — the 432-route, 23-namespace index the deployment publishes about itself.
   name: Neomorph Discovery API
   slug: neomorph-discovery-api
-- description: oEmbed 1.0 provider endpoint for neomorph.com permalinks.
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for neomorph.com permalinks.
   name: Neomorph oEmbed API
   slug: neomorph-oembed-api
-- description: 'News taxonomy. Two terms are registered on this deployment: Press Release (13 posts) and In The Media (1 post).'
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: 'News taxonomy. Two terms are registered on this deployment: Press Release (13 posts) and In The Media (1 post).'
   name: Neomorph Categories API
   slug: neomorph-categories-api
-- description: News archive - Neomorph press releases and media coverage (14 published at harvest time, spanning the December 2020 $109M Series A through the May 2026 appointment of Robert J. Hugin as Chairman of th
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: News archive - Neomorph press releases and media coverage (14 published at harvest time, spanning the December 2020 $109M Series A through the May 2026 appointment of Robert J. Hugin as Chairman of th
   name: Neomorph Posts API
   slug: neomorph-posts-api
-- description: The post_tag taxonomy is registered and anonymously reachable but empty - no term has been created on this deployment.
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: The post_tag taxonomy is registered and anonymously reachable but empty - no term has been created on this deployment.
   name: Neomorph Tags API
   slug: neomorph-tags-api
-- description: 'team_category taxonomy grouping the Team collection. Four terms are registered: Management (11), Board of Directors (7), Scientific Founders (4) and Scientific Advisory Board (0).'
+- baseURL: https://neomorph.com/wp-json
+  baseurl_source: declared
+  description: 'team_category taxonomy grouping the Team collection. Four terms are registered: Management (11), Board of Directors (7), Scientific Founders (4) and Scientific Advisory Board (0).'
   name: Neomorph Team Categories API
   slug: neomorph-team-categories-api
 artifact_total: 16
@@ -206,7 +242,7 @@ score:
   band: thin
   composite: 34.3
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -237,8 +273,9 @@ score:
     regime_id: health
     score: 48.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neomorph/refs/heads/main/screenshots/neomorph-2026-09-02T150731.png
 security:
 - kind: authentication
   name: Neomorph Authentication

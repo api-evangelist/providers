@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 2
 apis:
-- description: Lex bot management
+- baseURL: https://models-v2-lex.amazonaws.com
+  baseurl_source: declared
+  description: Lex bot management
   name: Amazon Lex Bots API
   slug: amazon-lex-bots-api
 artifact_total: 37
@@ -295,10 +297,10 @@ score:
       total: 1
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/screenshots/amazon-lex-2026-06-20T171723.png
 security:

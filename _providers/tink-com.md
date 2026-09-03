@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 63 operations · 25 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: User bank accounts and balances.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: User bank accounts and balances.
   name: Tink Accounts API
   slug: tink-com-accounts-api
-- description: Account ownership verification reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Account ownership verification reports.
   name: Tink AccountVerificationReports API
   slug: tink-com-accountverificationreports-api
-- description: On-demand balance refresh.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: On-demand balance refresh.
   name: Tink BalanceRefresh API
   slug: tink-com-balancerefresh-api
-- description: Personal and business budgets.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Personal and business budgets.
   name: Tink Budgets API
   slug: tink-com-budgets-api
-- description: Business account ownership verification reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Business account ownership verification reports.
   name: Tink BusinessAccountVerificationReports API
   slug: tink-com-businessaccountverificationreports-api
-- description: Cash flow summaries.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Cash flow summaries.
   name: Tink CashFlow API
   slug: tink-com-cashflow-api
-- description: Tink categorisation taxonomy.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Tink categorisation taxonomy.
   name: Tink Categories API
   slug: tink-com-categories-api
-- description: Partner-ingested accounts.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Partner-ingested accounts.
   name: Tink ConnectorAccounts API
   slug: tink-com-connectoraccounts-api
-- description: Partner-ingested transactions.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Partner-ingested transactions.
   name: Tink ConnectorTransactions API
   slug: tink-com-connectortransactions-api
-- description: Categorised and merchant-enriched transactions.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Categorised and merchant-enriched transactions.
   name: Tink EnrichedTransactions API
   slug: tink-com-enrichedtransactions-api
-- description: Expense verification reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Expense verification reports.
   name: Tink ExpenseChecks API
   slug: tink-com-expensechecks-api
-- description: Financial calendar events and reconciliations.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Financial calendar events and reconciliations.
   name: Tink FinancialCalendar API
   slug: tink-com-financialcalendar-api
-- description: Account holder identities returned by the bank.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Account holder identities returned by the bank.
   name: Tink Identities API
   slug: tink-com-identities-api
-- description: Income verification reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Income verification reports.
   name: Tink IncomeChecks API
   slug: tink-com-incomechecks-api
-- description: Investment accounts and holdings.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Investment accounts and holdings.
   name: Tink Investments API
   slug: tink-com-investments-api
-- description: Loan accounts.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Loan accounts.
   name: Tink Loans API
   slug: tink-com-loans-api
-- description: Recurring payment mandates.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Recurring payment mandates.
   name: Tink Mandates API
   slug: tink-com-mandates-api
-- description: Token, authorization, and delegated grant endpoints.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Token, authorization, and delegated grant endpoints.
   name: Tink OAuth API
   slug: tink-com-oauth-api
-- description: Payment initiation, status, cancel, and refund.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Payment initiation, status, cancel, and refund.
   name: Tink Payments API
   slug: tink-com-payments-api
-- description: Recurring transaction detection and prediction.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Recurring transaction detection and prediction.
   name: Tink RecurringTransactions API
   slug: tink-com-recurringtransactions-api
-- description: Risk categorisation reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Risk categorisation reports.
   name: Tink RiskCategorisation API
   slug: tink-com-riskcategorisation-api
-- description: Risk decisioning reports.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Risk decisioning reports.
   name: Tink RiskInsights API
   slug: tink-com-riskinsights-api
-- description: User bank transactions.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: User bank transactions.
   name: Tink Transactions API
   slug: tink-com-transactions-api
-- description: Permanent user lifecycle management.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Permanent user lifecycle management.
   name: Tink User API
   slug: tink-com-user-api
-- description: Webhook endpoint management.
+- baseURL: https://api.tink.com
+  baseurl_source: declared
+  description: Webhook endpoint management.
   name: Tink WebhookEndpoints API
   slug: tink-com-webhookendpoints-api
 arazzos:
@@ -597,7 +647,7 @@ score:
     regime_id: banking_open_finance
     score: 44.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:

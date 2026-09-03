@@ -32,19 +32,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for managing candidates, contacts, clients, job openings, interviews, attachments, notes, and custom modules in Zoho Recruit. Requests are authenticated with OAuth 2.0 tokens issued by the do
   name: Zoho Recruit REST API v2
   slug: rest-api-v2
-- description: The Candidates API from Zoho Recruit — 1 operation(s) for candidates.
+- baseURL: https://recruit.zoho.com/recruit/v2
+  baseurl_source: declared
+  description: The Candidates API from Zoho Recruit — 1 operation(s) for candidates.
   name: Zoho Recruit Candidates API
   slug: zoho-recruit-candidates-api
-- description: The Job Openings API from Zoho Recruit — 1 operation(s) for job openings.
+- baseURL: https://recruit.zoho.com/recruit/v2
+  baseurl_source: declared
+  description: The Job Openings API from Zoho Recruit — 1 operation(s) for job openings.
   name: Zoho Recruit Job Openings API
   slug: zoho-recruit-job-openings-api
-- description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
+- baseURL: https://recruit.zoho.com/recruit/v2
+  baseurl_source: declared
+  description: The Zoho Recruit API API from Zoho Recruit — 1 operation(s) for zoho recruit api.
   name: Zoho Recruit Zoho Recruit API API
   slug: zoho-recruit-zoho-recruit-api-api
 artifact_total: 10
@@ -137,7 +143,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-recruit/refs/heads/main/screenshots/zoho-recruit-2026-06-20T201945.png
 security:

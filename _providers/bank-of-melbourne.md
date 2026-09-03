@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 5
 apis:
-- description: PUBLIC, unauthenticated Consumer Data Right (CDR) Product Reference Data API exposing Bank of Melbourne's banking products (term deposits, credit and charge cards, personal loans, residential mortgage
+- baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: PUBLIC, unauthenticated Consumer Data Right (CDR) Product Reference Data API exposing Bank of Melbourne's banking products (term deposits, credit and charge cards, personal loans, residential mortgage
   name: Bank of Melbourne CDR Product Reference Data API
   slug: bank-of-melbourne-cdr-product-reference-data-api
-- description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Accounts & Balances surface of the shared DSB Banking API that Bank of Melbourne implements as an accredited CDR data holder on shared Westpac Group infra
+- baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking/accounts
+  baseurl_source: declared
+  description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Accounts & Balances surface of the shared DSB Banking API that Bank of Melbourne implements as an accredited CDR data holder on shared Westpac Group infra
   name: Bank of Melbourne CDR Accounts & Balances API
   slug: bank-of-melbourne-cdr-accounts-balances-api
-- description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Transactions surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data R
+- baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking/accounts
+  baseurl_source: declared
+  description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Transactions surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data R
   name: Bank of Melbourne CDR Transactions API
   slug: bank-of-melbourne-cdr-transactions-api
-- description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Direct Debits and Scheduled Payments surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requi
+- baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking
+  baseurl_source: declared
+  description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Direct Debits and Scheduled Payments surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requi
   name: Bank of Melbourne CDR Direct Debits & Scheduled Payments API
   slug: bank-of-melbourne-cdr-direct-debits-scheduled-payments-api
-- description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Payees surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data Recipie
+- baseURL: https://digital-api.bankofmelbourne.com.au/cds-au/v1/banking/payees
+  baseurl_source: declared
+  description: CONSUMER-AUTHORIZED Consumer Data Right (CDR) Payees surface of the shared DSB Banking API implemented by Bank of Melbourne as an accredited CDR data holder. Access requires an Accredited Data Recipie
   name: Bank of Melbourne CDR Payees API
   slug: bank-of-melbourne-cdr-payees-api
 artifact_total: 11
@@ -188,7 +198,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-melbourne/refs/heads/main/screenshots/bank-of-melbourne-2026-07-21T114702.png
 security:

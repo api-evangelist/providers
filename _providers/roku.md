@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -62,67 +62,109 @@ apis:
 - description: APIs and patterns for implementing user sign-in and authentication within Roku channels, including device-linking ("on-device authentication") and OAuth-style flows. The framework is implemented in Br
   name: Roku Authentication Framework
   slug: authentication
-- description: Application listing, launching, and termination
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Application listing, launching, and termination
   name: Roku Apps API
   slug: roku-apps-api
-- description: The asyncapi API from Roku — 3 operation(s) for asyncapi.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The asyncapi API from Roku — 3 operation(s) for asyncapi.
   name: Roku asyncapi API
   slug: roku-asyncapi-api
-- description: Billing cycle and credit management
+- baseURL: https://apipub.roku.com/listen/transaction-service.svc
+  baseurl_source: spec
+  description: Billing cycle and credit management
   name: Roku Billing API
   slug: roku-billing-api
-- description: The builds API from Roku — 2 operation(s) for builds.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The builds API from Roku — 2 operation(s) for builds.
   name: Roku builds API
   slug: roku-builds-api
-- description: The devices API from Roku — 6 operation(s) for devices.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The devices API from Roku — 6 operation(s) for devices.
   name: Roku devices API
   slug: roku-devices-api
-- description: Developer-mode diagnostics and performance counters
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Developer-mode diagnostics and performance counters
   name: Roku Diagnostics API
   slug: roku-diagnostics-api
-- description: Device discovery and metadata
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Device discovery and metadata
   name: Roku Discovery API
   slug: roku-discovery-api
-- description: The groups API from Roku — 4 operation(s) for groups.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The groups API from Roku — 4 operation(s) for groups.
   name: Roku groups API
   slug: roku-groups-api
-- description: The healthz API from Roku — 2 operation(s) for healthz.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The healthz API from Roku — 2 operation(s) for healthz.
   name: Roku healthz API
   slug: roku-healthz-api
-- description: Custom input event injection
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Custom input event injection
   name: Roku Input API
   slug: roku-input-api
-- description: Simulated remote-control key injection
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Simulated remote-control key injection
   name: Roku KeyPress API
   slug: roku-keypress-api
-- description: The organisation-roles API from Roku — 2 operation(s) for organisation-roles.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The organisation-roles API from Roku — 2 operation(s) for organisation-roles.
   name: Roku organisation-roles API
   slug: roku-organisation-roles-api
-- description: The organisations API from Roku — 10 operation(s) for organisations.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The organisations API from Roku — 10 operation(s) for organisations.
   name: Roku organisations API
   slug: roku-organisations-api
-- description: The personal-access-tokens API from Roku — 4 operation(s) for personal-access-tokens.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The personal-access-tokens API from Roku — 4 operation(s) for personal-access-tokens.
   name: Roku personal-access-tokens API
   slug: roku-personal-access-tokens-api
-- description: The projects API from Roku — 6 operation(s) for projects.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The projects API from Roku — 6 operation(s) for projects.
   name: Roku projects API
   slug: roku-projects-api
-- description: Device, media, and TV state queries
+- baseURL_template: http://{rokuDeviceIp}:8060
+  baseurl_source: spec_template
+  description: Device, media, and TV state queries
   name: Roku Query API
   slug: roku-query-api
-- description: The serviceaccounts API from Roku — 1 operation(s) for serviceaccounts.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The serviceaccounts API from Roku — 1 operation(s) for serviceaccounts.
   name: Roku serviceaccounts API
   slug: roku-serviceaccounts-api
-- description: The snapshots API from Roku — 2 operation(s) for snapshots.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The snapshots API from Roku — 2 operation(s) for snapshots.
   name: Roku snapshots API
   slug: roku-snapshots-api
-- description: Subscription lifecycle management
+- baseURL: https://apipub.roku.com/listen/transaction-service.svc
+  baseurl_source: spec
+  description: Subscription lifecycle management
   name: Roku Subscription API
   slug: roku-subscription-api
-- description: The users API from Roku — 4 operation(s) for users.
+- baseURL: https://api.cloud.roku.dev
+  baseurl_source: spec
+  description: The users API from Roku — 4 operation(s) for users.
   name: Roku users API
   slug: roku-users-api
-- description: Transaction and refund validation
+- baseURL: https://apipub.roku.com/listen/transaction-service.svc
+  baseurl_source: spec
+  description: Transaction and refund validation
   name: Roku Validation API
   slug: roku-validation-api
 artifact_total: 208
@@ -818,7 +860,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -831,7 +873,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 36.9
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -840,7 +882,7 @@ score:
       marker_coverage: 47.8
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

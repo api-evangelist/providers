@@ -23,67 +23,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Cases
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Cases
   name: Debitura Cases API
   slug: debitura-cases-api
-- description: Clients
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Clients
   name: Debitura Clients API
   slug: debitura-clients-api
-- description: Debt-collection contract status and signing URLs for your account.
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Debt-collection contract status and signing URLs for your account.
   name: Debitura Contracts API
   slug: debitura-contracts-api
-- description: Jurisdiction coverage — query which countries and debt types Debitura can collect in, and check case eligibility.
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Jurisdiction coverage — query which countries and debt types Debitura can collect in, and check case eligibility.
   name: Debitura Coverage API
   slug: debitura-coverage-api
-- description: Divisions
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Divisions
   name: Debitura Divisions API
   slug: debitura-divisions-api
-- description: Referral Partners
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Referral Partners
   name: Debitura Filter Options API
   slug: debitura-filteroptions-api
-- description: IngestionJobs
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: IngestionJobs
   name: Debitura Ingestion Jobs API
   slug: debitura-ingestionjobs-api
-- description: Managed Cases
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Managed Cases
   name: Debitura Managed Cases API
   slug: debitura-managedcases-api
-- description: Collection Partner Profile
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Collection Partner Profile
   name: Debitura Me API
   slug: debitura-me-api
-- description: The OAuth API from Debitura — 1 operation(s) for oauth.
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: The OAuth API from Debitura — 1 operation(s) for oauth.
   name: Debitura O Auth API
   slug: debitura-oauth-api
-- description: Payments
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Payments
   name: Debitura Payments API
   slug: debitura-payments-api
-- description: Cases
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Cases
   name: Debitura Preview Cases API
   slug: debitura-previewcases-api
-- description: Referral Partners
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Referral Partners
   name: Debitura Referral Partners API
   slug: debitura-referralpartners-api
-- description: Reporting
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Reporting
   name: Debitura Reporting API
   slug: debitura-reporting-api
-- description: Tasks
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Tasks
   name: Debitura Tasks API
   slug: debitura-tasks-api
-- description: Test Cases
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Test Cases
   name: Debitura Test Cases API
   slug: debitura-testcases-api
-- description: Test Webhooks
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Test Webhooks
   name: Debitura Test Webhooks API
   slug: debitura-testwebhooks-api
-- description: Users
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Users
   name: Debitura Users API
   slug: debitura-users-api
-- description: Webhooks
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Webhooks
   name: Debitura Webhook Events API
   slug: debitura-webhookevents-api
-- description: Manage webhook subscriptions and inspect the delivery event log. Create subscriptions to receive real-time notifications for case lifecycle events, payments, and chats. Use GET /webhooks/events to ver
+- baseURL: https://customer-api.debitura.com
+  baseurl_source: declared
+  description: Manage webhook subscriptions and inspect the delivery event log. Create subscriptions to receive real-time notifications for case lifecycle events, payments, and chats. Use GET /webhooks/events to ver
   name: Debitura Webhooks API
   slug: debitura-webhooks-api
 artifact_total: 23
@@ -138,7 +178,7 @@ score:
     regime_id: payments
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debitura/refs/heads/main/screenshots/debitura-2026-08-07T164217.png
 slug: debitura

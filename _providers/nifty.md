@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 37 operations · 22 acting
 api_count: 1
 apis:
-- description: The Authentication API from Nifty — 1 operation(s) for authentication.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Authentication API from Nifty — 1 operation(s) for authentication.
   name: Nifty Authentication API
   slug: nifty-authentication-api
-- description: The Documents API from Nifty — 2 operation(s) for documents.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Documents API from Nifty — 2 operation(s) for documents.
   name: Nifty Documents API
   slug: nifty-documents-api
-- description: The Files API from Nifty — 2 operation(s) for files.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Files API from Nifty — 2 operation(s) for files.
   name: Nifty Files API
   slug: nifty-files-api
-- description: The Folders API from Nifty — 2 operation(s) for folders.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Folders API from Nifty — 2 operation(s) for folders.
   name: Nifty Folders API
   slug: nifty-folders-api
-- description: The Members API from Nifty — 2 operation(s) for members.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Members API from Nifty — 2 operation(s) for members.
   name: Nifty Members API
   slug: nifty-members-api
-- description: The Milestones API from Nifty — 2 operation(s) for milestones.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Milestones API from Nifty — 2 operation(s) for milestones.
   name: Nifty Milestones API
   slug: nifty-milestones-api
-- description: The Projects API from Nifty — 2 operation(s) for projects.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Projects API from Nifty — 2 operation(s) for projects.
   name: Nifty Projects API
   slug: nifty-projects-api
-- description: The Tasks API from Nifty — 2 operation(s) for tasks.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Tasks API from Nifty — 2 operation(s) for tasks.
   name: Nifty Tasks API
   slug: nifty-tasks-api
-- description: The Webhooks API from Nifty — 1 operation(s) for webhooks.
+- baseURL: https://openapi.niftypm.com
+  baseurl_source: declared
+  description: The Webhooks API from Nifty — 1 operation(s) for webhooks.
   name: Nifty Webhooks API
   slug: nifty-webhooks-api
 artifact_total: 25
@@ -198,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/screenshots/nifty-2026-06-20T190320.png
 security:

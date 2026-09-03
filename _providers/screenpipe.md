@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 3
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 71 operations · 43 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Activity summaries and analytics
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Activity summaries and analytics
   name: Screenpipe Activity API
   slug: screenpipe-activity-api
-- description: Manage audio recording devices
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Manage audio recording devices
   name: Screenpipe Audio API
   slug: screenpipe-audio-api
-- description: Archive old data to cloud storage
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Archive old data to cloud storage
   name: Screenpipe Cloud Archive API
   slug: screenpipe-cloud-archive-api
-- description: Sync data across devices via cloud
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Sync data across devices via cloud
   name: Screenpipe Cloud Sync API
   slug: screenpipe-cloud-sync-api
-- description: Manual data deletion and storage info
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Manual data deletion and storage info
   name: Screenpipe Data Management API
   slug: screenpipe-data-management-api
-- description: Auto-delete old data locally
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Auto-delete old data locally
   name: Screenpipe Data Retention API
   slug: screenpipe-data-retention-api
-- description: Direct database access
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Direct database access
   name: Screenpipe Database API
   slug: screenpipe-database-api
-- description: Query captured UI accessibility tree data
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Query captured UI accessibility tree data
   name: Screenpipe Elements API
   slug: screenpipe-elements-api
-- description: Experimental/unstable endpoints
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Experimental/unstable endpoints
   name: Screenpipe Experimental API
   slug: screenpipe-experimental-api
-- description: Access captured screenshots and their extracted text
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Access captured screenshots and their extracted text
   name: Screenpipe Frames API
   slug: screenpipe-frames-api
-- description: Detected and manual meeting transcriptions
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Detected and manual meeting transcriptions
   name: Screenpipe Meetings API
   slug: screenpipe-meetings-api
-- description: AI-extracted knowledge from screen activity
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: AI-extracted knowledge from screen activity
   name: Screenpipe Memories API
   slug: screenpipe-memories-api
-- description: Search through captured screen and audio content
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Search through captured screen and audio content
   name: Screenpipe Search API
   slug: screenpipe-search-api
-- description: Speaker identification and management
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Speaker identification and management
   name: Screenpipe Speakers API
   slug: screenpipe-speakers-api
-- description: Health checks and system status
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Health checks and system status
   name: Screenpipe System API
   slug: screenpipe-system-api
-- description: Tag content items for organization
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Tag content items for organization
   name: Screenpipe Tags API
   slug: screenpipe-tags-api
-- description: Encrypt/decrypt all data at rest
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Encrypt/decrypt all data at rest
   name: Screenpipe Vault API
   slug: screenpipe-vault-api
-- description: Manage screen capture monitors
+- baseURL: http://localhost:3030
+  baseurl_source: declared
+  description: Manage screen capture monitors
   name: Screenpipe Vision API
   slug: screenpipe-vision-api
 artifact_total: 43
@@ -333,7 +369,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenpipe/refs/heads/main/screenshots/screenpipe-2026-08-17T081738.png
 security:

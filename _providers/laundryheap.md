@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Requires approval
+  onboarding: approval
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Laundryheap's primary product API. A single GraphQL endpoint serving the consumer web and mobile apps, covering ordering, recurring orders, addresses, timeslots, services, hotels, subscriptions, bundl
@@ -167,7 +180,7 @@ score:
   band: emerging
   composite: 22.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +200,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/laundryheap/refs/heads/main/screenshots/laundryheap-2026-09-02T150223.png
 security:
 - kind: authentication
   name: Laundryheap Authentication

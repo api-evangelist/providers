@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Keep Track is the free, open source tool that makes space exploration accessible to all - professionals and amateurs alike. With its user-friendly interface, you can simulate satellite launches, visua
   name: KeepTrack
   slug: keeptrack
-- description: Bulk catalog and listings.
+- baseURL: https://www.keeptrack.space/api
+  baseurl_source: declared
+  description: Bulk catalog and listings.
   name: KeepTrack Catalog API
   slug: keeptrack-catalog-api
-- description: Retrieve orbital elements (TLE, OMM).
+- baseURL: https://www.keeptrack.space/api
+  baseurl_source: declared
+  description: Retrieve orbital elements (TLE, OMM).
   name: KeepTrack Orbits API
   slug: keeptrack-orbits-api
-- description: Compute real-time positions and ephemerides.
+- baseURL: https://www.keeptrack.space/api
+  baseurl_source: declared
+  description: Compute real-time positions and ephemerides.
   name: KeepTrack Positions API
   slug: keeptrack-positions-api
-- description: Search and retrieve catalog data about tracked space objects.
+- baseURL: https://www.keeptrack.space/api
+  baseurl_source: declared
+  description: Search and retrieve catalog data about tracked space objects.
   name: KeepTrack Satellites API
   slug: keeptrack-satellites-api
 artifact_total: 17
@@ -144,7 +152,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keeptrack/refs/heads/main/screenshots/keeptrack-2026-06-20T183941.png
 security:

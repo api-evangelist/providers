@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -47,46 +47,74 @@ apis:
 - description: Strapi includes a built-in webhook system that notifies external services whenever content entries or media assets are created, updated, deleted, published, or unpublished. Webhooks are configured thr
   name: Strapi Webhooks
   slug: strapi-webhooks
-- description: Authentication endpoints for administrator accounts used to access the Strapi admin panel.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Authentication endpoints for administrator accounts used to access the Strapi admin panel.
   name: Strapi Admin Authentication API
   slug: strapi-admin-authentication-api
-- description: Endpoints for managing administrator roles (Super Admin, Editor, Author) and their associated permissions.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing administrator roles (Super Admin, Editor, Author) and their associated permissions.
   name: Strapi Admin Roles API
   slug: strapi-admin-roles-api
-- description: Endpoints for managing administrator user accounts that have access to the Strapi admin panel.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing administrator user accounts that have access to the Strapi admin panel.
   name: Strapi Admin Users API
   slug: strapi-admin-users-api
-- description: Endpoints for managing API tokens used to authenticate REST and GraphQL API requests.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing API tokens used to authenticate REST and GraphQL API requests.
   name: Strapi API Tokens API
   slug: strapi-api-tokens-api
-- description: Endpoints for user authentication including login, registration, and password management using JWT tokens.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for user authentication including login, registration, and password management using JWT tokens.
   name: Strapi Authentication API
   slug: strapi-authentication-api
-- description: CRUD operations on content-type entries. Strapi auto-generates these endpoints for each content-type defined in the application.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: CRUD operations on content-type entries. Strapi auto-generates these endpoints for each content-type defined in the application.
   name: Strapi Content Entries API
   slug: strapi-content-entries-api
-- description: Endpoints for managing content entries through the admin panel Content Manager interface.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing content entries through the admin panel Content Manager interface.
   name: Strapi Content Manager API
   slug: strapi-content-manager-api
-- description: Endpoints for managing content-type definitions through the Content-Type Builder.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing content-type definitions through the Content-Type Builder.
   name: Strapi Content Types API
   slug: strapi-content-types-api
-- description: Endpoints for viewing and configuring permissions assigned to roles.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for viewing and configuring permissions assigned to roles.
   name: Strapi Permissions API
   slug: strapi-permissions-api
-- description: Endpoints for managing user roles and their associated permissions.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing user roles and their associated permissions.
   name: Strapi Roles API
   slug: strapi-roles-api
-- description: Endpoints for managing transfer tokens used for data transfer operations between Strapi instances.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing transfer tokens used for data transfer operations between Strapi instances.
   name: Strapi Transfer Tokens API
   slug: strapi-transfer-tokens-api
-- description: File upload and media library management endpoints powered by the Upload plugin.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: File upload and media library management endpoints powered by the Upload plugin.
   name: Strapi Upload API
   slug: strapi-upload-api
-- description: Endpoints for managing end-user accounts and profiles.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing end-user accounts and profiles.
   name: Strapi Users API
   slug: strapi-users-api
-- description: Endpoints for managing webhook configurations from the admin panel.
+- baseURL: https://{host}
+  baseurl_source: declared
+  description: Endpoints for managing webhook configurations from the admin panel.
   name: Strapi Webhooks API
   slug: strapi-webhooks-api
 artifact_total: 52
@@ -333,7 +361,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -343,7 +371,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 42.2
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -352,7 +380,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png
 security:

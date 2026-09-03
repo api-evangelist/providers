@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 13 operations · 8 acting
 api_count: 2
 apis:
-- description: Requests relating to audiences
+- baseURL: https://dashboard.localytics.com/api/v6
+  baseurl_source: declared
+  description: Requests relating to audiences
   name: Localytics Audiences API
   slug: localytics-audiences-api
-- description: Requests relating to all channel campaigns
+- baseURL: https://dashboard.localytics.com/api/v6
+  baseurl_source: declared
+  description: Requests relating to all channel campaigns
   name: Localytics Campaigns API
   slug: localytics-campaigns-api
-- description: Requests relating to push-channel campaigns
+- baseURL: https://dashboard.localytics.com/api/v6
+  baseurl_source: declared
+  description: Requests relating to push-channel campaigns
   name: Localytics Push Campaigns API
   slug: localytics-push-campaigns-api
 - description: HAL+JSON reporting and analytics API. Run queries over apps, events, sessions, users, profiles and attribution data with metrics, dimensions and conditions; the service root at https://api.localytics.
@@ -70,10 +76,14 @@ apis:
 - description: Point-of-interest sync for location-triggered messaging — upload and manage the geofence/POI set an app monitors. Rate limited to 20 requests per hour and 50 per day per app. No machine-readable speci
   name: Localytics Places API
   slug: localytics-places-api
-- description: Health and documentation endpoints
+- baseURL: https://dashboard.localytics.com/api/v6
+  baseurl_source: declared
+  description: Health and documentation endpoints
   name: Localytics Meta API
   slug: localytics-meta-api
-- description: Transactional push send endpoints
+- baseURL: https://dashboard.localytics.com/api/v6
+  baseurl_source: declared
+  description: Transactional push send endpoints
   name: Localytics Push API
   slug: localytics-push-api
 artifact_total: 23
@@ -289,7 +299,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -299,7 +309,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 47.9
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,7 +321,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:

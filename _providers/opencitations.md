@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: SPARQL endpoints for structured queries against the OpenCitations Meta and Index datasets. Provides access to the full Linked Open Data graph for both bibliographic metadata and citation entity data u
   name: OpenCitations SPARQL Endpoint
   slug: opencitations-sparql-endpoint
-- description: Operations for retrieving works by author
+- baseURL: https://api.opencitations.net/index/v2
+  baseurl_source: declared
+  description: Operations for retrieving works by author
   name: OpenCitations Authors API
   slug: opencitations-authors-api
-- description: Operations for retrieving citation metadata and counts
+- baseURL: https://api.opencitations.net/index/v2
+  baseurl_source: declared
+  description: Operations for retrieving citation metadata and counts
   name: OpenCitations Citations API
   slug: opencitations-citations-api
-- description: Operations for retrieving works by editor
+- baseURL: https://api.opencitations.net/index/v2
+  baseurl_source: declared
+  description: Operations for retrieving works by editor
   name: OpenCitations Editors API
   slug: opencitations-editors-api
-- description: Operations for retrieving bibliographic metadata
+- baseURL: https://api.opencitations.net/index/v2
+  baseurl_source: declared
+  description: Operations for retrieving bibliographic metadata
   name: OpenCitations Metadata API
   slug: opencitations-metadata-api
-- description: Operations for retrieving outgoing reference data
+- baseURL: https://api.opencitations.net/index/v2
+  baseurl_source: declared
+  description: Operations for retrieving outgoing reference data
   name: OpenCitations References API
   slug: opencitations-references-api
 artifact_total: 21
@@ -164,7 +174,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/screenshots/opencitations-2026-06-20T190921.png
 security:

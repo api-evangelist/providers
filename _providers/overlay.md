@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: CoinGecko/CMC-style aggregator market-data feed.
+- baseURL: https://api.overlay.market
+  baseurl_source: declared
+  description: CoinGecko/CMC-style aggregator market-data feed.
   name: Overlay Aggregator API
   slug: overlay-aggregator-api
-- description: Price overview and OHLC chart data.
+- baseURL: https://api.overlay.market
+  baseurl_source: declared
+  description: Price overview and OHLC chart data.
   name: Overlay Charts API
   slug: overlay-charts-api
-- description: Market catalog and metadata.
+- baseURL: https://api.overlay.market
+  baseurl_source: declared
+  description: Market catalog and metadata.
   name: Overlay Markets API
   slug: overlay-markets-api
 artifact_total: 10
@@ -196,7 +202,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overlay/refs/heads/main/screenshots/overlay-2026-08-07T191129.png
 security:

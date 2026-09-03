@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 4 acting
 api_count: 5
 apis:
-- description: The AlertRules API from Microsoft Sentinel — 2 operation(s) for alertrules.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The AlertRules API from Microsoft Sentinel — 2 operation(s) for alertrules.
   name: Microsoft Sentinel AlertRules API
   slug: microsoft-sentinel-alertrules-api
-- description: The Bookmarks API from Microsoft Sentinel — 1 operation(s) for bookmarks.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Bookmarks API from Microsoft Sentinel — 1 operation(s) for bookmarks.
   name: Microsoft Sentinel Bookmarks API
   slug: microsoft-sentinel-bookmarks-api
-- description: The DataConnectors API from Microsoft Sentinel — 1 operation(s) for dataconnectors.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The DataConnectors API from Microsoft Sentinel — 1 operation(s) for dataconnectors.
   name: Microsoft Sentinel DataConnectors API
   slug: microsoft-sentinel-dataconnectors-api
-- description: The Incidents API from Microsoft Sentinel — 2 operation(s) for incidents.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Incidents API from Microsoft Sentinel — 2 operation(s) for incidents.
   name: Microsoft Sentinel Incidents API
   slug: microsoft-sentinel-incidents-api
-- description: The ThreatIntelligence API from Microsoft Sentinel — 1 operation(s) for threatintelligence.
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The ThreatIntelligence API from Microsoft Sentinel — 1 operation(s) for threatintelligence.
   name: Microsoft Sentinel ThreatIntelligence API
   slug: microsoft-sentinel-threatintelligence-api
 artifact_total: 18
@@ -199,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/screenshots/microsoft-sentinel-2026-06-20T185532.png
 security:

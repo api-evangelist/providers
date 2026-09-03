@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: Model Context Protocol transport endpoints for connecting AI assistants. Supports SSE and streamable HTTP transports.
+- baseURL: http://localhost:6280
+  baseurl_source: spec
+  description: Model Context Protocol transport endpoints for connecting AI assistants. Supports SSE and streamable HTTP transports.
   name: Grounded.tools MCP Transport API
   slug: grounded-tools-mcp-transport-api
-- description: Web-based management interface for documentation sources, library browsing, job monitoring, and search.
+- baseURL: http://localhost:6280
+  baseurl_source: spec
+  description: Web-based management interface for documentation sources, library browsing, job monitoring, and search.
   name: Grounded.tools Web UI API
   slug: grounded-tools-web-ui-api
 artifact_total: 17
@@ -176,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
 security:

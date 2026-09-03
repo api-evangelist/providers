@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 52 operations · 36 acting · 1 human-in-the-loop
 api_count: 11
 apis:
-- description: The Activities API from Timeular — 3 operation(s) for activities.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Activities API from Timeular — 3 operation(s) for activities.
   name: Timeular Activities API
   slug: timeular-activities-api
-- description: The Authentication API from Timeular — 3 operation(s) for authentication.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Authentication API from Timeular — 3 operation(s) for authentication.
   name: Timeular Authentication API
   slug: timeular-authentication-api
-- description: The Current Tracking API from Timeular — 3 operation(s) for current tracking.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Current Tracking API from Timeular — 3 operation(s) for current tracking.
   name: Timeular Current Tracking API
   slug: timeular-current-tracking-api
-- description: The Folders API from Timeular — 4 operation(s) for folders.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Folders API from Timeular — 4 operation(s) for folders.
   name: Timeular Folders API
   slug: timeular-folders-api
-- description: The Leaves API from Timeular — 6 operation(s) for leaves.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Leaves API from Timeular — 6 operation(s) for leaves.
   name: Timeular Leaves API
   slug: timeular-leaves-api
-- description: The Members API from Timeular — 2 operation(s) for members.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Members API from Timeular — 2 operation(s) for members.
   name: Timeular Members API
   slug: timeular-members-api
-- description: The Reports API from Timeular — 1 operation(s) for reports.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Reports API from Timeular — 1 operation(s) for reports.
   name: Timeular Reports API
   slug: timeular-reports-api
-- description: The Tags & Mentions API from Timeular — 5 operation(s) for tags & mentions.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Tags & Mentions API from Timeular — 5 operation(s) for tags & mentions.
   name: Timeular Tags & Mentions API
   slug: timeular-tags-mentions-api
-- description: The Time Entries API from Timeular — 3 operation(s) for time entries.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Time Entries API from Timeular — 3 operation(s) for time entries.
   name: Timeular Time Entries API
   slug: timeular-time-entries-api
-- description: The Users API from Timeular — 2 operation(s) for users.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Users API from Timeular — 2 operation(s) for users.
   name: Timeular Users API
   slug: timeular-users-api
-- description: The Webhooks API from Timeular — 3 operation(s) for webhooks.
+- baseURL: https://api.early.app/api/v4
+  baseurl_source: declared
+  description: The Webhooks API from Timeular — 3 operation(s) for webhooks.
   name: Timeular Webhooks API
   slug: timeular-webhooks-api
 artifact_total: 28
@@ -227,7 +249,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.8
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -237,7 +259,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.3
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +271,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timeular/refs/heads/main/screenshots/timeular-2026-08-17T082357.png
 security:
 - kind: authentication

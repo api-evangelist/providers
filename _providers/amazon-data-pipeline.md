@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 13 acting
 api_count: 1
 apis:
-- description: Operations for managing pipeline object definitions
+- baseURL: https://datapipeline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing pipeline object definitions
   name: Amazon Data Pipeline Pipeline Objects API
   slug: amazon-data-pipeline-pipeline-objects-api
-- description: Operations for managing pipeline execution and task runs
+- baseURL: https://datapipeline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing pipeline execution and task runs
   name: Amazon Data Pipeline Pipeline Runs API
   slug: amazon-data-pipeline-pipeline-runs-api
-- description: Operations for managing data pipelines
+- baseURL: https://datapipeline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data pipelines
   name: Amazon Data Pipeline Pipelines API
   slug: amazon-data-pipeline-pipelines-api
-- description: Operations for managing pipeline tags
+- baseURL: https://datapipeline.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing pipeline tags
   name: Amazon Data Pipeline Tags API
   slug: amazon-data-pipeline-tags-api
 arazzos:
@@ -468,7 +476,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/screenshots/amazon-data-pipeline-2026-06-20T171620.png
 security:

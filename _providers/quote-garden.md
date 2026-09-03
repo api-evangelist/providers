@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: Master list of authors represented in the quote corpus.
+- baseURL: https://quote-garden.onrender.com/api/v3
+  baseurl_source: declared
+  description: Master list of authors represented in the quote corpus.
   name: Quote Garden Authors API
   slug: quote-garden-authors-api
-- description: Master list of genres / categories represented in the quote corpus.
+- baseURL: https://quote-garden.onrender.com/api/v3
+  baseurl_source: declared
+  description: Master list of genres / categories represented in the quote corpus.
   name: Quote Garden Genres API
   slug: quote-garden-genres-api
-- description: Operations for retrieving quote records, individually at random or as a paginated list.
+- baseURL: https://quote-garden.onrender.com/api/v3
+  baseurl_source: declared
+  description: Operations for retrieving quote records, individually at random or as a paginated list.
   name: Quote Garden Quotes API
   slug: quote-garden-quotes-api
 artifact_total: 51
@@ -259,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

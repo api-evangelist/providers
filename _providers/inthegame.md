@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 108 operations · 71 acting
 api_count: 1
 apis:
-- description: The admin API from Inthegame — 1 operation(s) for admin.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The admin API from Inthegame — 1 operation(s) for admin.
   name: Inthegame admin API
   slug: inthegame-admin-api
-- description: The analytics API from Inthegame — 3 operation(s) for analytics.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The analytics API from Inthegame — 3 operation(s) for analytics.
   name: Inthegame analytics API
   slug: inthegame-analytics-api
-- description: The category API from Inthegame — 5 operation(s) for category.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The category API from Inthegame — 5 operation(s) for category.
   name: Inthegame category API
   slug: inthegame-category-api
-- description: The chat API from Inthegame — 3 operation(s) for chat.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The chat API from Inthegame — 3 operation(s) for chat.
   name: Inthegame chat API
   slug: inthegame-chat-api
-- description: The entity API from Inthegame — 7 operation(s) for entity.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The entity API from Inthegame — 7 operation(s) for entity.
   name: Inthegame entity API
   slug: inthegame-entity-api
-- description: The general API from Inthegame — 1 operation(s) for general.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The general API from Inthegame — 1 operation(s) for general.
   name: Inthegame general API
   slug: inthegame-general-api
-- description: The item API from Inthegame — 6 operation(s) for item.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The item API from Inthegame — 6 operation(s) for item.
   name: Inthegame item API
   slug: inthegame-item-api
-- description: The leaderboard API from Inthegame — 1 operation(s) for leaderboard.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The leaderboard API from Inthegame — 1 operation(s) for leaderboard.
   name: Inthegame leaderboard API
   slug: inthegame-leaderboard-api
-- description: The moderationData API from Inthegame — 3 operation(s) for moderationdata.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The moderationData API from Inthegame — 3 operation(s) for moderationdata.
   name: Inthegame moderationData API
   slug: inthegame-moderationdata-api
-- description: The poll API from Inthegame — 7 operation(s) for poll.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The poll API from Inthegame — 7 operation(s) for poll.
   name: Inthegame poll API
   slug: inthegame-poll-api
-- description: The promotion API from Inthegame — 5 operation(s) for promotion.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The promotion API from Inthegame — 5 operation(s) for promotion.
   name: Inthegame promotion API
   slug: inthegame-promotion-api
-- description: The rating API from Inthegame — 6 operation(s) for rating.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The rating API from Inthegame — 6 operation(s) for rating.
   name: Inthegame rating API
   slug: inthegame-rating-api
-- description: The shop API from Inthegame — 7 operation(s) for shop.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The shop API from Inthegame — 7 operation(s) for shop.
   name: Inthegame shop API
   slug: inthegame-shop-api
-- description: The socket API from Inthegame — 1 operation(s) for socket.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The socket API from Inthegame — 1 operation(s) for socket.
   name: Inthegame socket API
   slug: inthegame-socket-api
-- description: The sponsor API from Inthegame — 5 operation(s) for sponsor.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The sponsor API from Inthegame — 5 operation(s) for sponsor.
   name: Inthegame sponsor API
   slug: inthegame-sponsor-api
-- description: The streamer API from Inthegame — 16 operation(s) for streamer.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The streamer API from Inthegame — 16 operation(s) for streamer.
   name: Inthegame streamer API
   slug: inthegame-streamer-api
-- description: The translations API from Inthegame — 6 operation(s) for translations.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The translations API from Inthegame — 6 operation(s) for translations.
   name: Inthegame translations API
   slug: inthegame-translations-api
-- description: The trivia API from Inthegame — 6 operation(s) for trivia.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The trivia API from Inthegame — 6 operation(s) for trivia.
   name: Inthegame trivia API
   slug: inthegame-trivia-api
-- description: The uploads API from Inthegame — 3 operation(s) for uploads.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The uploads API from Inthegame — 3 operation(s) for uploads.
   name: Inthegame uploads API
   slug: inthegame-uploads-api
-- description: The user API from Inthegame — 11 operation(s) for user.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The user API from Inthegame — 11 operation(s) for user.
   name: Inthegame user API
   slug: inthegame-user-api
-- description: The wiki API from Inthegame — 5 operation(s) for wiki.
+- baseURL: https://api-dev.inthegame.io
+  baseurl_source: declared
+  description: The wiki API from Inthegame — 5 operation(s) for wiki.
   name: Inthegame wiki API
   slug: inthegame-wiki-api
 artifact_total: 49
@@ -307,7 +349,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -317,7 +359,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,7 +371,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inthegame/refs/heads/main/screenshots/inthegame-2026-07-25T222719.png
 security:

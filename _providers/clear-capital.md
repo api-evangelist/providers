@@ -34,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Lending-grade automated valuation model (ClearAVM) and Rental AVM delivered over a RESTful interface, returning a point value estimate, value certainty, and supporting analytics for a subject property
+- baseURL: https://api.clearcapital.com
+  baseurl_source: declared
+  description: Lending-grade automated valuation model (ClearAVM) and Rental AVM delivered over a RESTful interface, returning a point value estimate, value certainty, and supporting analytics for a subject property
   name: Clear Capital ClearAVM / Valuation API
   slug: clearavm-valuation-api
-- description: Property characteristics (bedrooms, bathrooms, gross living area, photos), home price index and historical trends, sales and listing history, and owner and tax history, sourced from Clear Capital's pr
+- baseURL: https://api.clearcapital.com
+  baseurl_source: declared
+  description: Property characteristics (bedrooms, bathrooms, gross living area, photos), home price index and historical trends, sales and listing history, and owner and tax history, sourced from Clear Capital's pr
   name: Clear Capital Property Data API
   slug: property-data-api
-- description: Comparable sales and comparable rentals for a subject property, ranked by Clear Capital's proprietary ClearRank algorithm, returned as part of a customizable Property Analytics valuation report. Exact
+- baseURL: https://api.clearcapital.com
+  baseurl_source: declared
+  description: Comparable sales and comparable rentals for a subject property, ranked by Clear Capital's proprietary ClearRank algorithm, returned as part of a customizable Property Analytics valuation report. Exact
   name: Clear Capital Comparables (Comps) API
   slug: comps-api
-- description: Ordering and fulfillment of Clear Capital valuation products via the Property Valuation API - Hybrid Appraisal, Desktop Appraisal (GSE 1004 Desktop/70D), Broker Price Opinion (BPO), Collateral Desktop
+- baseURL: https://api.clearcapital.com
+  baseurl_source: declared
+  description: Ordering and fulfillment of Clear Capital valuation products via the Property Valuation API - Hybrid Appraisal, Desktop Appraisal (GSE 1004 Desktop/70D), Broker Price Opinion (BPO), Collateral Desktop
   name: Clear Capital Appraisal & Orders API
   slug: appraisal-orders-api
 artifact_total: 12
@@ -143,7 +151,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-capital/refs/heads/main/screenshots/clear-capital-2026-07-25T205535.png
 security:

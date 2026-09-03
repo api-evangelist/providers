@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -62,19 +62,29 @@ apis:
 - description: Voyager Standard Interface for Yardi's Electronic Health Records platform for senior living communities, supporting data exchange with pharmacy networks, laboratory systems and other healthcare partne
   name: Yardi Senior Living EHR Interface
   slug: yardi-senior-living-ehr-api
-- description: Operations for managing resident transactions, charges, payments, credits and billing data, accessed via the ItfResidentTransactions20 Voyager web service interface. Yardi publishes no specification f
+- baseURL_template: https://{server}.yardi.com/{clientUrl}/webservices
+  baseurl_source: spec_template
+  description: Operations for managing resident transactions, charges, payments, credits and billing data, accessed via the ItfResidentTransactions20 Voyager web service interface. Yardi publishes no specification f
   name: Yardi Billing and Payments Interface
   slug: yardi-billing-and-payments-api
-- description: Operations for retrieving shared property management data including properties, units, tenants and chart of accounts, accessed via the ItfCommonData Voyager web service interface. Yardi publishes no s
+- baseURL_template: https://{server}.yardi.com/{clientUrl}/webservices
+  baseurl_source: spec_template
+  description: Operations for retrieving shared property management data including properties, units, tenants and chart of accounts, accessed via the ItfCommonData Voyager web service interface. Yardi publishes no s
   name: Yardi Common Data Interface
   slug: yardi-common-data-api
-- description: Operations for job cost tracking, budgets and construction project financials, accessed via the ItfJobCost Voyager web service interface. Corresponds to the "Construction API" interface category on Ya
+- baseURL_template: https://{server}.yardi.com/{clientUrl}/webservices
+  baseurl_source: spec_template
+  description: Operations for job cost tracking, budgets and construction project financials, accessed via the ItfJobCost Voyager web service interface. Corresponds to the "Construction API" interface category on Ya
   name: Yardi Job Cost Interface
   slug: yardi-job-cost-api
-- description: Operations for creating and managing maintenance work orders and service requests, accessed via the ItfServiceRequests Voyager web service interface. Corresponds to the "Maintenance API" interface cat
+- baseURL_template: https://{server}.yardi.com/{clientUrl}/webservices
+  baseurl_source: spec_template
+  description: Operations for creating and managing maintenance work orders and service requests, accessed via the ItfServiceRequests Voyager web service interface. Corresponds to the "Maintenance API" interface cat
   name: Yardi Service Requests Interface
   slug: yardi-service-requests-api
-- description: Operations for vendor invoices, purchase orders and accounts payable transactions, accessed via the ItfVendorInvoice Voyager web service interface. Corresponds to the "Payables API" interface category
+- baseURL_template: https://{server}.yardi.com/{clientUrl}/webservices
+  baseurl_source: spec_template
+  description: Operations for vendor invoices, purchase orders and accounts payable transactions, accessed via the ItfVendorInvoice Voyager web service interface. Corresponds to the "Payables API" interface category
   name: Yardi Vendor Invoicing Interface
   slug: yardi-vendor-invoicing-api
 artifact_total: 62
@@ -382,7 +392,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:

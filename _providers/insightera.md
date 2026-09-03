@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 23 operations · 22 acting
 api_count: 2
 apis:
-- description: The classification API from InsightEra — 8 operation(s) for classification.
+- baseURL: https://nlp.insightera.co.th/api
+  baseurl_source: declared
+  description: The classification API from InsightEra — 8 operation(s) for classification.
   name: InsightEra Classification API
   slug: insightera-classification-api
-- description: The nlp API from InsightEra — 15 operation(s) for nlp.
+- baseURL: https://nlp.insightera.co.th/api
+  baseurl_source: declared
+  description: The nlp API from InsightEra — 15 operation(s) for nlp.
   name: InsightEra Nlp API
   slug: insightera-nlp-api
 artifact_total: 8
@@ -217,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/screenshots/insightera-2026-08-07T170722.png
 security:

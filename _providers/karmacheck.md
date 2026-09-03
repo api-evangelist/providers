@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,34 +37,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authentication API from KarmaCheck — 1 operation(s) for authentication.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Authentication API from KarmaCheck — 1 operation(s) for authentication.
   name: KarmaCheck Authentication API
   slug: karmacheck-authentication-api
-- description: The Candidate onboarding API from KarmaCheck — 20 operation(s) for candidate onboarding.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Candidate onboarding API from KarmaCheck — 20 operation(s) for candidate onboarding.
   name: KarmaCheck Candidate onboarding API
   slug: karmacheck-candidate-onboarding-api
-- description: The Case API from KarmaCheck — 2 operation(s) for case.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Case API from KarmaCheck — 2 operation(s) for case.
   name: KarmaCheck Case API
   slug: karmacheck-case-api
-- description: The Cases API from KarmaCheck — 22 operation(s) for cases.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Cases API from KarmaCheck — 22 operation(s) for cases.
   name: KarmaCheck Cases API
   slug: karmacheck-cases-api
-- description: The Packages API from KarmaCheck — 4 operation(s) for packages.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Packages API from KarmaCheck — 4 operation(s) for packages.
   name: KarmaCheck Packages API
   slug: karmacheck-packages-api
-- description: The Secure documents API from KarmaCheck — 6 operation(s) for secure documents.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Secure documents API from KarmaCheck — 6 operation(s) for secure documents.
   name: KarmaCheck Secure documents API
   slug: karmacheck-secure-documents-api
-- description: The Services API from KarmaCheck — 5 operation(s) for services.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Services API from KarmaCheck — 5 operation(s) for services.
   name: KarmaCheck Services API
   slug: karmacheck-services-api
-- description: The Users API from KarmaCheck — 1 operation(s) for users.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Users API from KarmaCheck — 1 operation(s) for users.
   name: KarmaCheck Users API
   slug: karmacheck-users-api
-- description: The Verification Book API from KarmaCheck — 1 operation(s) for verification book.
+- baseURL: https://api.karmacheck.io
+  baseurl_source: declared
+  description: The Verification Book API from KarmaCheck — 1 operation(s) for verification book.
   name: KarmaCheck Verification Book API
   slug: karmacheck-verification-book-api
 artifact_total: 15
@@ -213,11 +244,11 @@ score:
   band: developing
   composite: 52.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -227,7 +258,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 52.9
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     contracts:
@@ -244,8 +275,9 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/karmacheck/refs/heads/main/screenshots/karmacheck-2026-09-02T150133.png
 security:
 - kind: authentication
   name: Karmacheck Authentication

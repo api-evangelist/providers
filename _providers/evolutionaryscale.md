@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Official Python SDK packaging ESM3 and ESM Cambrian model loaders, the `ESMProtein` multi-track data model, generation/sampling configurations, structure tokenization utilities, and a `forge.client()`
   name: EvolutionaryScale ESM Python SDK
   slug: esm-python-sdk
-- description: Sequence-only tokenization and representation extraction.
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Sequence-only tokenization and representation extraction.
   name: EvolutionaryScale Embeddings API
   slug: evolutionaryscale-embeddings-api
-- description: Tokenize ESMProtein objects into ESMProteinTensor inputs (and back).
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Tokenize ESMProtein objects into ESMProteinTensor inputs (and back).
   name: EvolutionaryScale Encoding API
   slug: evolutionaryscale-encoding-api
-- description: Generate proteins across sequence, structure, and function tracks.
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Generate proteins across sequence, structure, and function tracks.
   name: EvolutionaryScale Generation API
   slug: evolutionaryscale-generation-api
-- description: Fetch multiple sequence alignments used by structure predictors.
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Fetch multiple sequence alignments used by structure predictors.
   name: EvolutionaryScale MSA API
   slug: evolutionaryscale-msa-api
-- description: Low-level forward passes with logits and sampling control.
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Low-level forward passes with logits and sampling control.
   name: EvolutionaryScale Sampling API
   slug: evolutionaryscale-sampling-api
-- description: Predict protein backbone coordinates from sequence and back.
+- baseURL: https://forge.evolutionaryscale.ai
+  baseurl_source: spec
+  description: Predict protein backbone coordinates from sequence and back.
   name: EvolutionaryScale Structure API
   slug: evolutionaryscale-structure-api
 artifact_total: 32
@@ -229,7 +241,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/screenshots/evolutionaryscale-2026-06-20T180917.png
 security:

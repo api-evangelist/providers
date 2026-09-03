@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: VWO Data API exposes account data, campaign and goal configuration, reporting, and segmentation across the VWO experimentation platform.
   name: VWO Data API
   slug: vwo-data-api
-- description: A/B, split, and personalization campaigns.
+- baseURL: https://app.vwo.com/api/v2
+  baseurl_source: declared
+  description: A/B, split, and personalization campaigns.
   name: VWO Campaigns API
   slug: vwo-campaigns-api
-- description: Feature management (FME) feature flags and rules.
+- baseURL: https://app.vwo.com/api/v2
+  baseurl_source: declared
+  description: Feature management (FME) feature flags and rules.
   name: VWO Feature Flags API
   slug: vwo-feature-flags-api
-- description: Metric and campaign reports.
+- baseURL: https://app.vwo.com/api/v2
+  baseurl_source: declared
+  description: Metric and campaign reports.
   name: VWO Reports API
   slug: vwo-reports-api
-- description: Websites configured under an account.
+- baseURL: https://app.vwo.com/api/v2
+  baseurl_source: declared
+  description: Websites configured under an account.
   name: VWO Websites API
   slug: vwo-websites-api
 artifact_total: 18
@@ -180,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/screenshots/vwo-2026-06-20T201152.png
 security:

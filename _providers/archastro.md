@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 89 operations · 51 acting
 api_count: 1
 apis:
-- description: The Activity Feed API from Archastro — 1 operation(s) for activity feed.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Activity Feed API from Archastro — 1 operation(s) for activity feed.
   name: Archastro Activity Feed API
   slug: archastro-activity-feed-api
-- description: The Agents API from Archastro — 17 operation(s) for agents.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Agents API from Archastro — 17 operation(s) for agents.
   name: Archastro Agents API
   slug: archastro-agents-api
-- description: The auth API from Archastro — 9 operation(s) for auth.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The auth API from Archastro — 9 operation(s) for auth.
   name: Archastro auth API
   slug: archastro-auth-api
-- description: The Files API from Archastro — 2 operation(s) for files.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Files API from Archastro — 2 operation(s) for files.
   name: Archastro Files API
   slug: archastro-files-api
-- description: The Oauth API from Archastro — 5 operation(s) for oauth.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Oauth API from Archastro — 5 operation(s) for oauth.
   name: Archastro Oauth API
   slug: archastro-oauth-api
-- description: The s2s API from Archastro — 2 operation(s) for s2s.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The s2s API from Archastro — 2 operation(s) for s2s.
   name: Archastro s2s API
   slug: archastro-s2s-api
-- description: The Slack Channel Bindings API from Archastro — 2 operation(s) for slack channel bindings.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Slack Channel Bindings API from Archastro — 2 operation(s) for slack channel bindings.
   name: Archastro Slack Channel Bindings API
   slug: archastro-slack-channel-bindings-api
-- description: The Teams API from Archastro — 11 operation(s) for teams.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Teams API from Archastro — 11 operation(s) for teams.
   name: Archastro Teams API
   slug: archastro-teams-api
-- description: The Threads API from Archastro — 10 operation(s) for threads.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Threads API from Archastro — 10 operation(s) for threads.
   name: Archastro Threads API
   slug: archastro-threads-api
-- description: The Users API from Archastro — 7 operation(s) for users.
+- baseURL: https://developers.archastro.ai
+  baseurl_source: declared
+  description: The Users API from Archastro — 7 operation(s) for users.
   name: Archastro Users API
   slug: archastro-users-api
 artifact_total: 26
@@ -253,7 +273,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -263,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
 security:

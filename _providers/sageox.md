@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -34,73 +46,119 @@ agentic_access:
   summary_line: 223 operations · 105 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Administrative analytics, session management, and system operations. Includes active session counts, user analytics, and management endpoints restricted to admin roles.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Administrative analytics, session management, and system operations. Includes active session counts, user analytics, and management endpoints restricted to admin roles.
   name: Sageox Admin API
   slug: sageox-admin-api
-- description: Multi-tenant telemetry platform for CLI tools and AI agents. Register applications, ingest events via API key authentication, and query analytics through the dashboard API. **Two authentication models
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Multi-tenant telemetry platform for CLI tools and AI agents. Register applications, ingest events via API key authentication, and query analytics through the dashboard API. **Two authentication models
   name: Sageox AgentX API
   slug: sageox-agentx-api
-- description: The API Keys API from Sageox — 2 operation(s) for api keys.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The API Keys API from Sageox — 2 operation(s) for api keys.
   name: Sageox API Keys API
   slug: sageox-api-keys-api
-- description: Session management and token lifecycle. Validates JWT tokens issued by Better Auth, returns session details and user identity. Used by both web app and CLI for authentication verification.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Session management and token lifecycle. Validates JWT tokens issued by Better Auth, returns session details and user identity. Used by both web app and CLI for authentication verification.
   name: Sageox Auth API
   slug: sageox-auth-api
-- description: Integration endpoints for the `ox` CLI tool. Includes device flow authentication (code request → polling → token exchange), server-side diagnostics, repository initialization, and friction event track
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Integration endpoints for the `ox` CLI tool. Includes device flow authentication (code request → polling → token exchange), server-side diagnostics, repository initialization, and friction event track
   name: Sageox CLI API
   slug: sageox-cli-api
-- description: The Devices API from Sageox — 7 operation(s) for devices.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The Devices API from Sageox — 7 operation(s) for devices.
   name: Sageox Devices API
   slug: sageox-devices-api
-- description: The Firmware Admin API from Sageox — 9 operation(s) for firmware admin.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The Firmware Admin API from Sageox — 9 operation(s) for firmware admin.
   name: Sageox Firmware Admin API
   slug: sageox-firmware-admin-api
-- description: The Firmware OTA API from Sageox — 1 operation(s) for firmware ota.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The Firmware OTA API from Sageox — 1 operation(s) for firmware ota.
   name: Sageox Firmware OTA API
   slug: sageox-firmware-ota-api
-- description: Browse repository files, view commits, compare branches, and manage the Ledger. The Ledger stores historical context (decisions, discussions, AI-generated summaries) as version-controlled files in a G
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Browse repository files, view commits, compare branches, and manage the Ledger. The Ledger stores historical context (decisions, discussions, AI-generated summaries) as version-controlled files in a G
   name: Sageox Git API
   slug: sageox-git-api
-- description: AI-generated guidance content and statistics. Provides contextual recommendations, best practices, and insights derived from team context and recording analysis.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: AI-generated guidance content and statistics. Provides contextual recommendations, best practices, and insights derived from team context and recording analysis.
   name: Sageox Guidance API
   slug: sageox-guidance-api
-- description: Service health and readiness endpoints for orchestration platforms. The `/live` endpoint returns service liveness; `/ready` confirms database connectivity and dependency availability.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Service health and readiness endpoints for orchestration platforms. The `/live` endpoint returns service liveness; `/ready` confirms database connectivity and dependency availability.
   name: Sageox Health API
   slug: sageox-health-api
-- description: OpenAI-compatible chat completion endpoints. Proxies requests to configured LLM providers (Bedrock, OpenAI) with model routing, token usage tracking, and streaming support. Follows the OpenAI `/v1/cha
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: OpenAI-compatible chat completion endpoints. Proxies requests to configured LLM providers (Bedrock, OpenAI) with model routing, token usage tracking, and streaming support. Follows the OpenAI `/v1/cha
   name: Sageox LLM API
   slug: sageox-llm-api
-- description: Collect frontend application logs for centralized error tracking and debugging. Accepts batches of structured log entries from web and CLI clients with severity levels and metadata.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Collect frontend application logs for centralized error tracking and debugging. Accepts batches of structured log entries from web and CLI clients with severity levels and metadata.
   name: Sageox Logs API
   slug: sageox-logs-api
-- description: The Miscellaneous API from Sageox — 12 operation(s) for miscellaneous.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The Miscellaneous API from Sageox — 12 operation(s) for miscellaneous.
   name: Sageox Miscellaneous API
   slug: sageox-miscellaneous-api
-- description: Read, manage, and stream real-time notifications. Supports SSE (Server-Sent Events) for live delivery, bulk operations (mark read, delete), and preference-based filtering. Notifications originate from
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Read, manage, and stream real-time notifications. Supports SSE (Server-Sent Events) for live delivery, bulk operations (mark read, delete), and preference-based filtering. Notifications originate from
   name: Sageox Notifications API
   slug: sageox-notifications-api
-- description: Upload and manage photos with automatic OCR text extraction. Photos can be scoped to a repository (linked to recordings/discussions) or a team (shared resources). Uses presigned URLs for direct-to-sto
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Upload and manage photos with automatic OCR text extraction. Photos can be scoped to a repository (linked to recordings/discussions) or a team (shared resources). Uses presigned URLs for direct-to-sto
   name: Sageox Photos API
   slug: sageox-photos-api
-- description: Unauthenticated endpoints for public-facing data. Returns team profiles, public recording metadata, shared conventions, and repository status without requiring authentication. Rate limited per IP.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Unauthenticated endpoints for public-facing data. Returns team profiles, public recording metadata, shared conventions, and repository status without requiring authentication. Rate limited per IP.
   name: Sageox Public API
   slug: sageox-public-api
-- description: 'Full lifecycle management for discussion recordings: chunked upload, transcription, speaker identification, AI-generated summaries, decisions, and action items. Recordings feed into the repository Led'
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: 'Full lifecycle management for discussion recordings: chunked upload, transcription, speaker identification, AI-generated summaries, decisions, and action items. Recordings feed into the repository Led'
   name: Sageox Recordings API
   slug: sageox-recordings-api
-- description: The Repositories API from Sageox — 6 operation(s) for repositories.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The Repositories API from Sageox — 6 operation(s) for repositories.
   name: Sageox Repositories API
   slug: sageox-repositories-api
-- description: Repository initialization and merge operations. `initRepo` creates or reconnects a repository with SageOx (idempotent). `mergeRepos` combines ledger data when repositories are merged.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Repository initialization and merge operations. `initRepo` creates or reconnects a repository with SageOx (idempotent). `mergeRepos` combines ledger data when repositories are merged.
   name: Sageox Repository API
   slug: sageox-repository-api
-- description: The runs API from Sageox — 7 operation(s) for runs.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: The runs API from Sageox — 7 operation(s) for runs.
   name: Sageox runs API
   slug: sageox-runs-api
-- description: Create and manage teams with hierarchical membership (owner, admin, member). Handles invitations via email with role assignment, team-wide conventions and norms, and child-team relationships. Teams ar
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Create and manage teams with hierarchical membership (owner, admin, member). Handles invitations via email with role assignment, team-wide conventions and norms, and child-team relationships. Teams ar
   name: Sageox Teams API
   slug: sageox-teams-api
-- description: Manage user profiles, preferences, API keys, and account settings. Preferences control notification delivery, theme, and feature opt-ins. API keys authenticate CLI and programmatic access.
+- baseURL: http://localhost:3000
+  baseurl_source: spec
+  description: Manage user profiles, preferences, API keys, and account settings. Preferences control notification delivery, theme, and feature opt-ins. API keys authenticate CLI and programmatic access.
   name: Sageox Users API
   slug: sageox-users-api
 artifact_total: 52
@@ -248,7 +306,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

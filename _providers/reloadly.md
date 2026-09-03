@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 17 operations · 4 acting
 api_count: 2
 apis:
-- description: Obtain OAuth 2.0 access tokens for API authorization.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Obtain OAuth 2.0 access tokens for API authorization.
   name: Reloadly Authentication API
   slug: reloadly-authentication-api
-- description: Check your Reloadly account balance.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Check your Reloadly account balance.
   name: Reloadly Balance API
   slug: reloadly-balance-api
-- description: Retrieve discount rates available on gift card products.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Retrieve discount rates available on gift card products.
   name: Reloadly Discounts API
   slug: reloadly-discounts-api
-- description: Browse mobile network operators and their coverage.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Browse mobile network operators and their coverage.
   name: Reloadly Operators API
   slug: reloadly-operators-api
-- description: Place and manage gift card orders.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Place and manage gift card orders.
   name: Reloadly Orders API
   slug: reloadly-orders-api
-- description: Browse and search the gift card product catalog.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Browse and search the gift card product catalog.
   name: Reloadly Products API
   slug: reloadly-products-api
-- description: Send airtime top-ups to mobile phones worldwide.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: Send airtime top-ups to mobile phones worldwide.
   name: Reloadly Top-Ups API
   slug: reloadly-top-ups-api
-- description: List and retrieve top-up transaction history.
+- baseURL: https://giftcards.reloadly.com
+  baseurl_source: declared
+  description: List and retrieve top-up transaction history.
   name: Reloadly Transactions API
   slug: reloadly-transactions-api
 artifact_total: 34
@@ -272,7 +288,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/screenshots/reloadly-2026-06-20T192834.png
 security:

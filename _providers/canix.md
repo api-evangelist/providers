@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -37,85 +49,139 @@ apis:
 - description: Canix's hosted Model Context Protocol server, announced 2026-07-09, connects Canix account data to AI assistants such as Claude and ChatGPT. It is published as an OAuth 2.1 protected resource at https
   name: Canix MCP Server
   slug: canix-mcp
-- description: The Audited Actions API from Canix — 1 operation(s) for audited actions.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Audited Actions API from Canix — 1 operation(s) for audited actions.
   name: Canix Audited Actions API
   slug: canix-audited-actions-api
-- description: The Bill of Materials API from Canix — 2 operation(s) for bill of materials.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Bill of Materials API from Canix — 2 operation(s) for bill of materials.
   name: Canix Bill of Materials API
   slug: canix-bill-of-materials-api
-- description: The Brands API from Canix — 1 operation(s) for brands.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Brands API from Canix — 1 operation(s) for brands.
   name: Canix Brands API
   slug: canix-brands-api
-- description: The Company API from Canix — 1 operation(s) for company.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Company API from Canix — 1 operation(s) for company.
   name: Canix Company API
   slug: canix-company-api
-- description: The Customers API from Canix — 3 operation(s) for customers.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Customers API from Canix — 3 operation(s) for customers.
   name: Canix Customers API
   slug: canix-customers-api
-- description: The Facilities API from Canix — 2 operation(s) for facilities.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Facilities API from Canix — 2 operation(s) for facilities.
   name: Canix Facilities API
   slug: canix-facilities-api
-- description: The Harvests API from Canix — 2 operation(s) for harvests.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Harvests API from Canix — 2 operation(s) for harvests.
   name: Canix Harvests API
   slug: canix-harvests-api
-- description: The Item Sub-Types API from Canix — 1 operation(s) for item sub-types.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Item Sub-Types API from Canix — 1 operation(s) for item sub-types.
   name: Canix Item Sub-Types API
   slug: canix-item-sub-types-api
-- description: The Item Types API from Canix — 1 operation(s) for item types.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Item Types API from Canix — 1 operation(s) for item types.
   name: Canix Item Types API
   slug: canix-item-types-api
-- description: The Items API from Canix — 5 operation(s) for items.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Items API from Canix — 5 operation(s) for items.
   name: Canix Items API
   slug: canix-items-api
-- description: The Locations API from Canix — 3 operation(s) for locations.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Locations API from Canix — 3 operation(s) for locations.
   name: Canix Locations API
   slug: canix-locations-api
-- description: The Manufacturing Batch API from Canix — 2 operation(s) for manufacturing batch.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Manufacturing Batch API from Canix — 2 operation(s) for manufacturing batch.
   name: Canix Manufacturing Batch API
   slug: canix-manufacturing-batch-api
-- description: The Manufacturing Run API from Canix — 2 operation(s) for manufacturing run.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Manufacturing Run API from Canix — 2 operation(s) for manufacturing run.
   name: Canix Manufacturing Run API
   slug: canix-manufacturing-run-api
-- description: The Non-Cannabis Products API from Canix — 3 operation(s) for non-cannabis products.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Non-Cannabis Products API from Canix — 3 operation(s) for non-cannabis products.
   name: Canix Non-Cannabis Products API
   slug: canix-non-cannabis-products-api
-- description: The Packages API from Canix — 2 operation(s) for packages.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Packages API from Canix — 2 operation(s) for packages.
   name: Canix Packages API
   slug: canix-packages-api
-- description: The Plant Batches API from Canix — 2 operation(s) for plant batches.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Plant Batches API from Canix — 2 operation(s) for plant batches.
   name: Canix Plant Batches API
   slug: canix-plant-batches-api
-- description: The Plants API from Canix — 3 operation(s) for plants.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Plants API from Canix — 3 operation(s) for plants.
   name: Canix Plants API
   slug: canix-plants-api
-- description: The Products API from Canix — 2 operation(s) for products.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Products API from Canix — 2 operation(s) for products.
   name: Canix Products API
   slug: canix-products-api
-- description: The Purchase Orders API from Canix — 4 operation(s) for purchase orders.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Purchase Orders API from Canix — 4 operation(s) for purchase orders.
   name: Canix Purchase Orders API
   slug: canix-purchase-orders-api
-- description: The Sales Orders API from Canix — 7 operation(s) for sales orders.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Sales Orders API from Canix — 7 operation(s) for sales orders.
   name: Canix Sales Orders API
   slug: canix-sales-orders-api
-- description: The Standard Costs API from Canix — 1 operation(s) for standard costs.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Standard Costs API from Canix — 1 operation(s) for standard costs.
   name: Canix Standard Costs API
   slug: canix-standard-costs-api
-- description: The Strains API from Canix — 2 operation(s) for strains.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Strains API from Canix — 2 operation(s) for strains.
   name: Canix Strains API
   slug: canix-strains-api
-- description: The Submissions API from Canix — 1 operation(s) for submissions.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Submissions API from Canix — 1 operation(s) for submissions.
   name: Canix Submissions API
   slug: canix-submissions-api
-- description: The Transfer Destinations API from Canix — 2 operation(s) for transfer destinations.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Transfer Destinations API from Canix — 2 operation(s) for transfer destinations.
   name: Canix Transfer Destinations API
   slug: canix-transfer-destinations-api
-- description: The Transfers API from Canix — 2 operation(s) for transfers.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Transfers API from Canix — 2 operation(s) for transfers.
   name: Canix Transfers API
   slug: canix-transfers-api
-- description: The Vendors API from Canix — 2 operation(s) for vendors.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The Vendors API from Canix — 2 operation(s) for vendors.
   name: Canix Vendors API
   slug: canix-vendors-api
-- description: The WeightUnits API from Canix — 1 operation(s) for weightunits.
+- baseURL: https://api.canix.com/api/v1
+  baseurl_source: declared
+  description: The WeightUnits API from Canix — 1 operation(s) for weightunits.
   name: Canix Weight Units API
   slug: canix-weightunits-api
 artifact_total: 61
@@ -377,7 +443,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 59 operations · 46 acting
 api_count: 1
 apis:
-- description: The Actions API from Maven AGI — 3 operation(s) for actions.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Actions API from Maven AGI — 3 operation(s) for actions.
   name: Maven AGI Actions API
   slug: maven-agi-actions-api
-- description: The Agents API from Maven AGI — 3 operation(s) for agents.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Agents API from Maven AGI — 3 operation(s) for agents.
   name: Maven AGI Agents API
   slug: maven-agi-agents-api
-- description: The Analytics API from Maven AGI — 4 operation(s) for analytics.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Analytics API from Maven AGI — 4 operation(s) for analytics.
   name: Maven AGI Analytics API
   slug: maven-agi-analytics-api
-- description: The App Settings API from Maven AGI — 2 operation(s) for app settings.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The App Settings API from Maven AGI — 2 operation(s) for app settings.
   name: Maven AGI App Settings API
   slug: maven-agi-app-settings-api
-- description: The Conversations API from Maven AGI — 12 operation(s) for conversations.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Conversations API from Maven AGI — 12 operation(s) for conversations.
   name: Maven AGI Conversations API
   slug: maven-agi-conversations-api
-- description: The Events API from Maven AGI — 4 operation(s) for events.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Events API from Maven AGI — 4 operation(s) for events.
   name: Maven AGI Events API
   slug: maven-agi-events-api
-- description: The Knowledge API from Maven AGI — 12 operation(s) for knowledge.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Knowledge API from Maven AGI — 12 operation(s) for knowledge.
   name: Maven AGI Knowledge API
   slug: maven-agi-knowledge-api
-- description: The Triggers API from Maven AGI — 2 operation(s) for triggers.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Triggers API from Maven AGI — 2 operation(s) for triggers.
   name: Maven AGI Triggers API
   slug: maven-agi-triggers-api
-- description: The Users API from Maven AGI — 4 operation(s) for users.
+- baseURL: https://www.mavenagi-apis.com/v1
+  baseurl_source: declared
+  description: The Users API from Maven AGI — 4 operation(s) for users.
   name: Maven AGI Users API
   slug: maven-agi-users-api
 artifact_total: 27
@@ -207,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/screenshots/maven-agi-2026-07-25T230432.png
 security:

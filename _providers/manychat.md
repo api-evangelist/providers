@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 35 operations · 22 acting
 api_count: 3
 apis:
-- description: 'Page-level configuration for a connected ManyChat page: connected page info, tags, typed custom user field definitions, global bot fields, automations (flows) and folders, growth tools and One-Time No'
+- baseURL: https://api.manychat.com
+  baseurl_source: declared
+  description: 'Page-level configuration for a connected ManyChat page: connected page info, tags, typed custom user field definitions, global bot fields, automations (flows) and folders, growth tools and One-Time No'
   name: ManyChat Page API
   slug: manychat-page-api
-- description: 'Send Dynamic Block content and trigger automations for a subscriber across Messenger, Instagram and WhatsApp. 3 operations. This is the surface governed by Meta policy rather than by ManyChat: outside'
+- baseURL: https://api.manychat.com
+  baseurl_source: declared
+  description: 'Send Dynamic Block content and trigger automations for a subscriber across Messenger, Instagram and WhatsApp. 3 operations. This is the surface governed by Meta policy rather than by ManyChat: outside'
   name: ManyChat Sending API
   slug: manychat-sending-api
-- description: Look up, search, create, update, tag and set custom field values on subscribers. 15 operations. A subscriber carries per-channel identity fields for Messenger, Instagram, WhatsApp, email and SMS on on
+- baseURL: https://api.manychat.com
+  baseurl_source: declared
+  description: Look up, search, create, update, tag and set custom field values on subscribers. 15 operations. A subscriber carries per-channel identity fields for Messenger, Instagram, WhatsApp, email and SMS on on
   name: ManyChat Subscriber API
   slug: manychat-subscriber-api
-- description: White-label profile / template management (Profile API)
+- baseURL: https://api.manychat.com
+  baseurl_source: declared
+  description: White-label profile / template management (Profile API)
   name: ManyChat Template API
   slug: manychat-template-api
 artifact_total: 17
@@ -250,7 +258,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -260,7 +268,7 @@ score:
     discoverability: 74.1
     governance: 19.7
     operational_transparency: 52.6
-  previous_composite: 50.1
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,7 +286,7 @@ score:
     regime_id: telecommunications
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/screenshots/manychat-2026-06-20T184935.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 86 operations · 35 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Bank account information and balances
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: Bank account information and balances
   name: Chariot Accounts API
   slug: chariot-accounts-api
-- description: The Authorization Tokens API from Chariot — 4 operation(s) for authorization tokens.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Authorization Tokens API from Chariot — 4 operation(s) for authorization tokens.
   name: Chariot Authorization Tokens API
   slug: chariot-authorization-tokens-api
-- description: The Connects API from Chariot — 2 operation(s) for connects.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Connects API from Chariot — 2 operation(s) for connects.
   name: Chariot Connects API
   slug: chariot-connects-api
-- description: Account contact and holder information
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: Account contact and holder information
   name: Chariot Contact API
   slug: chariot-contact-api
-- description: Account customer (organization) identity
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: Account customer (organization) identity
   name: Chariot Customers API
   slug: chariot-customers-api
-- description: The deposits API from Chariot — 2 operation(s) for deposits.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The deposits API from Chariot — 2 operation(s) for deposits.
   name: Chariot deposits API
   slug: chariot-deposits-api
-- description: The disbursements API from Chariot — 9 operation(s) for disbursements.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The disbursements API from Chariot — 9 operation(s) for disbursements.
   name: Chariot disbursements API
   slug: chariot-disbursements-api
-- description: The donations API from Chariot — 2 operation(s) for donations.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The donations API from Chariot — 2 operation(s) for donations.
   name: Chariot donations API
   slug: chariot-donations-api
-- description: The Donor Accounts API from Chariot — 4 operation(s) for donor accounts.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Donor Accounts API from Chariot — 4 operation(s) for donor accounts.
   name: Chariot Donor Accounts API
   slug: chariot-donor-accounts-api
-- description: The Donor Advised Funds API from Chariot — 2 operation(s) for donor advised funds.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Donor Advised Funds API from Chariot — 2 operation(s) for donor advised funds.
   name: Chariot Donor Advised Funds API
   slug: chariot-donor-advised-funds-api
-- description: The Event Subscriptions API from Chariot — 2 operation(s) for event subscriptions.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Event Subscriptions API from Chariot — 2 operation(s) for event subscriptions.
   name: Chariot Event Subscriptions API
   slug: chariot-event-subscriptions-api
-- description: The Events API from Chariot — 2 operation(s) for events.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Events API from Chariot — 2 operation(s) for events.
   name: Chariot Events API
   slug: chariot-events-api
-- description: The financial_accounts API from Chariot — 3 operation(s) for financial_accounts.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The financial_accounts API from Chariot — 3 operation(s) for financial_accounts.
   name: Chariot financial_accounts API
   slug: chariot-financial-accounts-api
-- description: The Giving Pools API from Chariot — 2 operation(s) for giving pools.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Giving Pools API from Chariot — 2 operation(s) for giving pools.
   name: Chariot Giving Pools API
   slug: chariot-giving-pools-api
-- description: The Grant Requests API from Chariot — 4 operation(s) for grant requests.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Grant Requests API from Chariot — 4 operation(s) for grant requests.
   name: Chariot Grant Requests API
   slug: chariot-grant-requests-api
-- description: The Grants API from Chariot — 4 operation(s) for grants.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Grants API from Chariot — 4 operation(s) for grants.
   name: Chariot Grants API
   slug: chariot-grants-api
-- description: The inboundTransfers API from Chariot — 5 operation(s) for inboundtransfers.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The inboundTransfers API from Chariot — 5 operation(s) for inboundtransfers.
   name: Chariot inboundTransfers API
   slug: chariot-inboundtransfers-api
-- description: The mailbox API from Chariot — 2 operation(s) for mailbox.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The mailbox API from Chariot — 2 operation(s) for mailbox.
   name: Chariot mailbox API
   slug: chariot-mailbox-api
-- description: The nonprofitAddresses API from Chariot — 1 operation(s) for nonprofitaddresses.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The nonprofitAddresses API from Chariot — 1 operation(s) for nonprofitaddresses.
   name: Chariot nonprofitAddresses API
   slug: chariot-nonprofitaddresses-api
-- description: The nonprofitContacts API from Chariot — 1 operation(s) for nonprofitcontacts.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The nonprofitContacts API from Chariot — 1 operation(s) for nonprofitcontacts.
   name: Chariot nonprofitContacts API
   slug: chariot-nonprofitcontacts-api
-- description: The Organizations API from Chariot — 3 operation(s) for organizations.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Organizations API from Chariot — 3 operation(s) for organizations.
   name: Chariot Organizations API
   slug: chariot-organizations-api
-- description: The paymentSources API from Chariot — 2 operation(s) for paymentsources.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The paymentSources API from Chariot — 2 operation(s) for paymentsources.
   name: Chariot paymentSources API
   slug: chariot-paymentsources-api
-- description: The Programs API from Chariot — 2 operation(s) for programs.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The Programs API from Chariot — 2 operation(s) for programs.
   name: Chariot Programs API
   slug: chariot-programs-api
-- description: The properties API from Chariot — 4 operation(s) for properties.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The properties API from Chariot — 4 operation(s) for properties.
   name: Chariot properties API
   slug: chariot-properties-api
-- description: The recurring_grants API from Chariot — 2 operation(s) for recurring_grants.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The recurring_grants API from Chariot — 2 operation(s) for recurring_grants.
   name: Chariot recurring_grants API
   slug: chariot-recurring-grants-api
-- description: Account statements and statement documents
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: Account statements and statement documents
   name: Chariot Statements API
   slug: chariot-statements-api
-- description: Account transaction history
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: Account transaction history
   name: Chariot Transactions API
   slug: chariot-transactions-api
-- description: The unintegrated_grants API from Chariot — 2 operation(s) for unintegrated_grants.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The unintegrated_grants API from Chariot — 2 operation(s) for unintegrated_grants.
   name: Chariot unintegrated_grants API
   slug: chariot-unintegrated-grants-api
-- description: The verificationRequests API from Chariot — 2 operation(s) for verificationrequests.
+- baseURL: https://api.givechariot.com
+  baseurl_source: declared
+  description: The verificationRequests API from Chariot — 2 operation(s) for verificationrequests.
   name: Chariot verificationRequests API
   slug: chariot-verificationrequests-api
 artifact_total: 94
@@ -499,7 +557,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -509,7 +567,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -527,7 +585,7 @@ score:
     regime_id: banking_open_finance
     score: 63.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:

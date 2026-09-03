@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,97 +51,159 @@ apis:
 - description: Baseball Savant is MLB's public Statcast platform, surfacing pitch- and tracking-level data captured by Statcast cameras and radar in every MLB ballpark. It exposes leaderboards, search tools, visuali
   name: MLB Statcast (Baseball Savant)
   slug: mlb-statcast-baseball-savant
-- description: Operations pertaining to field tracking and analytics.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to field tracking and analytics.
   name: Major League Baseball Analytics API
   slug: major-league-baseball-analytics-api
-- description: The attendance endpoints handle game and season attendance and openings numbers by team.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The attendance endpoints handle game and season attendance and openings numbers by team.
   name: Major League Baseball Attendance API
   slug: major-league-baseball-attendance-api
-- description: The awards endpoints allow users to lookup award information and recipients.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The awards endpoints allow users to lookup award information and recipients.
   name: Major League Baseball Awards API
   slug: major-league-baseball-awards-api
-- description: Operations pertaining to bat tracking data
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to bat tracking data
   name: Major League Baseball Bat Tracking API
   slug: major-league-baseball-bat-tracking-api
-- description: Operations pertaining to biomechanical data
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to biomechanical data
   name: Major League Baseball Biomechanics API
   slug: major-league-baseball-biomechanics-api
-- description: The broadcast endpoints return information pertaining to broadcasters.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The broadcast endpoints return information pertaining to broadcasters.
   name: Major League Baseball Broadcast API
   slug: major-league-baseball-broadcast-api
-- description: The conference endpoint returns data specific to the PCL (Pacific Coast League) which was historically divided into separate conferences.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The conference endpoint returns data specific to the PCL (Pacific Coast League) which was historically divided into separate conferences.
   name: Major League Baseball Conference API
   slug: major-league-baseball-conference-api
-- description: Config elements
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Config elements
   name: Major League Baseball Config API
   slug: major-league-baseball-config-api
-- description: Operations pertaining to divisions
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to divisions
   name: Major League Baseball Division API
   slug: major-league-baseball-division-api
-- description: Operations pertaining to MLB BaseballDraft
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to MLB BaseballDraft
   name: Major League Baseball Draft API
   slug: major-league-baseball-draft-api
-- description: Operations pertaining to games
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to games
   name: Major League Baseball Game API
   slug: major-league-baseball-game-api
-- description: The Game Pace API from Major League Baseball — 1 operation(s) for game pace.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The Game Pace API from Major League Baseball — 1 operation(s) for game pace.
   name: Major League Baseball Game Pace API
   slug: major-league-baseball-game-pace-api
-- description: Operations pertaining to high/low stats
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to high/low stats
   name: Major League Baseball High/Low API
   slug: major-league-baseball-high-low-api
-- description: Operations pertaining to home run derby
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to home run derby
   name: Major League Baseball Homerun Derby API
   slug: major-league-baseball-homerun-derby-api
-- description: Operations pertaining to jobs
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to jobs
   name: Major League Baseball Job API
   slug: major-league-baseball-job-api
-- description: Operations pertaining to leagues
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to leagues
   name: Major League Baseball League API
   slug: major-league-baseball-league-api
-- description: Operations pertaining to milestones
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to milestones
   name: Major League Baseball Milestones API
   slug: major-league-baseball-milestones-api
-- description: Operations pertaining to players
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to players
   name: Major League Baseball Person API
   slug: major-league-baseball-person-api
-- description: The Predictions API from Major League Baseball — 2 operation(s) for predictions.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The Predictions API from Major League Baseball — 2 operation(s) for predictions.
   name: Major League Baseball Predictions API
   slug: major-league-baseball-predictions-api
-- description: The Reviews API from Major League Baseball — 1 operation(s) for reviews.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The Reviews API from Major League Baseball — 1 operation(s) for reviews.
   name: Major League Baseball Reviews API
   slug: major-league-baseball-reviews-api
-- description: Operations pertaining to schedules
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to schedules
   name: Major League Baseball Schedule API
   slug: major-league-baseball-schedule-api
-- description: Operations pertaining to seasons
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to seasons
   name: Major League Baseball Season API
   slug: major-league-baseball-season-api
-- description: Operations pertaining to skeletal data
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to skeletal data
   name: Major League Baseball Skeletal API
   slug: major-league-baseball-skeletal-api
-- description: Operations pertaining to sports
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to sports
   name: Major League Baseball Sports API
   slug: major-league-baseball-sports-api
-- description: Operations pertaining to teams
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to teams
   name: Major League Baseball Standings API
   slug: major-league-baseball-standings-api
-- description: Operations pertaining to stats
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to stats
   name: Major League Baseball Stats API
   slug: major-league-baseball-stats-api
-- description: Endpoints for stats streaks
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Endpoints for stats streaks
   name: Major League Baseball Streaks API
   slug: major-league-baseball-streaks-api
-- description: Operations pertaining to teams
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to teams
   name: Major League Baseball Teams API
   slug: major-league-baseball-teams-api
-- description: Operations pertaining to transactions
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to transactions
   name: Major League Baseball Transactions API
   slug: major-league-baseball-transactions-api
-- description: Operations pertaining to venues
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: Operations pertaining to venues
   name: Major League Baseball Venues API
   slug: major-league-baseball-venues-api
-- description: The Weather API from Major League Baseball — 4 operation(s) for weather.
+- baseURL: https://statsapi.mlb.com
+  baseurl_source: spec
+  description: The Weather API from Major League Baseball — 4 operation(s) for weather.
   name: Major League Baseball Weather API
   slug: major-league-baseball-weather-api
 artifact_total: 69
@@ -339,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 31
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

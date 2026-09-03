@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 35 operations · 35 acting
 api_count: 2
 apis:
-- description: The CreateGroup API from Amazon X-Ray — 1 operation(s) for creategroup.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The CreateGroup API from Amazon X-Ray — 1 operation(s) for creategroup.
   name: Amazon X-Ray CreateGroup API
   slug: amazon-xray-creategroup-api
-- description: The CreateSamplingRule API from Amazon X-Ray — 1 operation(s) for createsamplingrule.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The CreateSamplingRule API from Amazon X-Ray — 1 operation(s) for createsamplingrule.
   name: Amazon X-Ray CreateSamplingRule API
   slug: amazon-xray-createsamplingrule-api
-- description: The DeleteGroup API from Amazon X-Ray — 1 operation(s) for deletegroup.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteGroup API from Amazon X-Ray — 1 operation(s) for deletegroup.
   name: Amazon X-Ray DeleteGroup API
   slug: amazon-xray-deletegroup-api
-- description: The DeleteResourcePolicy API from Amazon X-Ray — 1 operation(s) for deleteresourcepolicy.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteResourcePolicy API from Amazon X-Ray — 1 operation(s) for deleteresourcepolicy.
   name: Amazon X-Ray DeleteResourcePolicy API
   slug: amazon-xray-deleteresourcepolicy-api
-- description: The DeleteSamplingRule API from Amazon X-Ray — 1 operation(s) for deletesamplingrule.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteSamplingRule API from Amazon X-Ray — 1 operation(s) for deletesamplingrule.
   name: Amazon X-Ray DeleteSamplingRule API
   slug: amazon-xray-deletesamplingrule-api
-- description: The EncryptionConfig API from Amazon X-Ray — 1 operation(s) for encryptionconfig.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The EncryptionConfig API from Amazon X-Ray — 1 operation(s) for encryptionconfig.
   name: Amazon X-Ray EncryptionConfig API
   slug: amazon-xray-encryptionconfig-api
-- description: The GetGroup API from Amazon X-Ray — 1 operation(s) for getgroup.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The GetGroup API from Amazon X-Ray — 1 operation(s) for getgroup.
   name: Amazon X-Ray GetGroup API
   slug: amazon-xray-getgroup-api
-- description: The GetSamplingRules API from Amazon X-Ray — 1 operation(s) for getsamplingrules.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The GetSamplingRules API from Amazon X-Ray — 1 operation(s) for getsamplingrules.
   name: Amazon X-Ray GetSamplingRules API
   slug: amazon-xray-getsamplingrules-api
-- description: The Groups API from Amazon X-Ray — 1 operation(s) for groups.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Groups API from Amazon X-Ray — 1 operation(s) for groups.
   name: Amazon X-Ray Groups API
   slug: amazon-xray-groups-api
-- description: The Insight API from Amazon X-Ray — 1 operation(s) for insight.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Insight API from Amazon X-Ray — 1 operation(s) for insight.
   name: Amazon X-Ray Insight API
   slug: amazon-xray-insight-api
-- description: The InsightEvents API from Amazon X-Ray — 1 operation(s) for insightevents.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The InsightEvents API from Amazon X-Ray — 1 operation(s) for insightevents.
   name: Amazon X-Ray InsightEvents API
   slug: amazon-xray-insightevents-api
-- description: The InsightImpactGraph API from Amazon X-Ray — 1 operation(s) for insightimpactgraph.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The InsightImpactGraph API from Amazon X-Ray — 1 operation(s) for insightimpactgraph.
   name: Amazon X-Ray InsightImpactGraph API
   slug: amazon-xray-insightimpactgraph-api
-- description: The InsightSummaries API from Amazon X-Ray — 1 operation(s) for insightsummaries.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The InsightSummaries API from Amazon X-Ray — 1 operation(s) for insightsummaries.
   name: Amazon X-Ray InsightSummaries API
   slug: amazon-xray-insightsummaries-api
-- description: The ListResourcePolicies API from Amazon X-Ray — 1 operation(s) for listresourcepolicies.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The ListResourcePolicies API from Amazon X-Ray — 1 operation(s) for listresourcepolicies.
   name: Amazon X-Ray ListResourcePolicies API
   slug: amazon-xray-listresourcepolicies-api
-- description: The ListTagsForResource API from Amazon X-Ray — 1 operation(s) for listtagsforresource.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from Amazon X-Ray — 1 operation(s) for listtagsforresource.
   name: Amazon X-Ray ListTagsForResource API
   slug: amazon-xray-listtagsforresource-api
-- description: The PutEncryptionConfig API from Amazon X-Ray — 1 operation(s) for putencryptionconfig.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The PutEncryptionConfig API from Amazon X-Ray — 1 operation(s) for putencryptionconfig.
   name: Amazon X-Ray PutEncryptionConfig API
   slug: amazon-xray-putencryptionconfig-api
-- description: The PutResourcePolicy API from Amazon X-Ray — 1 operation(s) for putresourcepolicy.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The PutResourcePolicy API from Amazon X-Ray — 1 operation(s) for putresourcepolicy.
   name: Amazon X-Ray PutResourcePolicy API
   slug: amazon-xray-putresourcepolicy-api
-- description: The Sampling API from Amazon X-Ray — 1 operation(s) for sampling.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Sampling API from Amazon X-Ray — 1 operation(s) for sampling.
   name: Amazon X-Ray Sampling API
   slug: amazon-xray-sampling-api
-- description: The SamplingStatisticSummaries API from Amazon X-Ray — 1 operation(s) for samplingstatisticsummaries.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The SamplingStatisticSummaries API from Amazon X-Ray — 1 operation(s) for samplingstatisticsummaries.
   name: Amazon X-Ray SamplingStatisticSummaries API
   slug: amazon-xray-samplingstatisticsummaries-api
-- description: The SamplingTargets API from Amazon X-Ray — 1 operation(s) for samplingtargets.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The SamplingTargets API from Amazon X-Ray — 1 operation(s) for samplingtargets.
   name: Amazon X-Ray SamplingTargets API
   slug: amazon-xray-samplingtargets-api
-- description: The Service Graph API from Amazon X-Ray — 1 operation(s) for service graph.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Service Graph API from Amazon X-Ray — 1 operation(s) for service graph.
   name: Amazon X-Ray Service Graph API
   slug: amazon-xray-service-graph-api
-- description: The ServiceGraph API from Amazon X-Ray — 1 operation(s) for servicegraph.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The ServiceGraph API from Amazon X-Ray — 1 operation(s) for servicegraph.
   name: Amazon X-Ray ServiceGraph API
   slug: amazon-xray-servicegraph-api
-- description: The TagResource API from Amazon X-Ray — 1 operation(s) for tagresource.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from Amazon X-Ray — 1 operation(s) for tagresource.
   name: Amazon X-Ray TagResource API
   slug: amazon-xray-tagresource-api
-- description: The TelemetryRecords API from Amazon X-Ray — 1 operation(s) for telemetryrecords.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TelemetryRecords API from Amazon X-Ray — 1 operation(s) for telemetryrecords.
   name: Amazon X-Ray TelemetryRecords API
   slug: amazon-xray-telemetryrecords-api
-- description: The TimeSeriesServiceStatistics API from Amazon X-Ray — 1 operation(s) for timeseriesservicestatistics.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TimeSeriesServiceStatistics API from Amazon X-Ray — 1 operation(s) for timeseriesservicestatistics.
   name: Amazon X-Ray TimeSeriesServiceStatistics API
   slug: amazon-xray-timeseriesservicestatistics-api
-- description: The TraceGraph API from Amazon X-Ray — 1 operation(s) for tracegraph.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TraceGraph API from Amazon X-Ray — 1 operation(s) for tracegraph.
   name: Amazon X-Ray TraceGraph API
   slug: amazon-xray-tracegraph-api
-- description: The Traces API from Amazon X-Ray — 2 operation(s) for traces.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The Traces API from Amazon X-Ray — 2 operation(s) for traces.
   name: Amazon X-Ray Traces API
   slug: amazon-xray-traces-api
-- description: The TraceSegments API from Amazon X-Ray — 1 operation(s) for tracesegments.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TraceSegments API from Amazon X-Ray — 1 operation(s) for tracesegments.
   name: Amazon X-Ray TraceSegments API
   slug: amazon-xray-tracesegments-api
-- description: The TraceSummaries API from Amazon X-Ray — 1 operation(s) for tracesummaries.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The TraceSummaries API from Amazon X-Ray — 1 operation(s) for tracesummaries.
   name: Amazon X-Ray TraceSummaries API
   slug: amazon-xray-tracesummaries-api
-- description: The UntagResource API from Amazon X-Ray — 1 operation(s) for untagresource.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from Amazon X-Ray — 1 operation(s) for untagresource.
   name: Amazon X-Ray UntagResource API
   slug: amazon-xray-untagresource-api
-- description: The UpdateGroup API from Amazon X-Ray — 1 operation(s) for updategroup.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateGroup API from Amazon X-Ray — 1 operation(s) for updategroup.
   name: Amazon X-Ray UpdateGroup API
   slug: amazon-xray-updategroup-api
-- description: The UpdateSamplingRule API from Amazon X-Ray — 1 operation(s) for updatesamplingrule.
+- baseURL: https://xray.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateSamplingRule API from Amazon X-Ray — 1 operation(s) for updatesamplingrule.
   name: Amazon X-Ray UpdateSamplingRule API
   slug: amazon-xray-updatesamplingrule-api
 artifact_total: 701
@@ -2276,7 +2340,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/screenshots/amazon-xray-2026-06-20T171851.png
 security:

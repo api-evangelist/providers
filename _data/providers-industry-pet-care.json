@@ -29,7 +29,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -74,7 +74,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -233,6 +233,7 @@
      "name": "UrbanSitter",
      "slug": "urbansitter",
      "description": "UrbanSitter is an online marketplace that connects families with trusted local caregivers, including babysitters, nannies, child care providers, daycares and preschools, tutors, pet sitters, senior caregivers, and household help. Operated by UrbanSitter, Inc., the platform lets parents browse caregiver profiles, read reviews from other families, compare pay rates, and book and pay sitters, while caregivers find and manage child care and home care jobs. UrbanSitter runs its platform on a private Spring Boot API (Swagger UI is IP-safelisted) and does not publish a public developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urbansitter/refs/heads/main/screenshots/urbansitter-2026-09-02T165211.png",
      "score": 16.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -246,7 +247,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -291,7 +292,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -343,7 +344,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -388,7 +389,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -440,7 +441,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -485,7 +486,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -530,7 +531,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -568,6 +569,7 @@
      "name": "Wag!",
      "slug": "wag",
      "description": "Wag! is a US pet-care marketplace that connects dog and pet owners with local, background-checked caregivers for on-demand and scheduled dog walking, drop-in visits, pet sitting, boarding, daycare, and 24/7 vet chat. Operating across 5,300+ cities in all 50 states, the platform has completed more than 16 million services and is delivered primarily through its iOS and Android consumer apps. Wag! (Wag Labs, Inc.) is backed by Battery Ventures, Bullpen Capital, and General Catalyst. As of July 2026 Wag! exposes no public developer API or documented partner API; its production API hosts (prod-*-api.wagwalking.com) are internal mobile-app backends. This profile captures the company's public security and identity surface pending any future developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wag/refs/heads/main/screenshots/wag-2026-09-02T170400.png",
      "score": 12.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -581,7 +583,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -626,7 +628,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -671,7 +673,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -723,7 +725,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -768,7 +770,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -812,7 +814,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -854,6 +856,7 @@
      "name": "Smalls",
      "slug": "smalls",
      "description": "Smalls is a New York City based direct-to-consumer pet food company founded in 2017 by Matt Michaelson and Calvin Bohn, selling gently cooked human-grade fresh cat food, freeze-dried raw and treats on a personalized monthly subscription that customers build through an onboarding quiz at smalls.com, shipped nationwide and, since 2023, also sold into brick-and-mortar retail and wholesale. The company had raised roughly $34 million as of March 2023 — including a $9M Series A round announced in 2020 and a $19M Series B closed in mid-2022 — from investors including Left Lane Capital, Founder Collective, Digitalis Ventures and R/GA Ventures, and its shares trade on the Forge Global secondary market. Smalls runs its own Remix storefront on Netlify backed by a Contentful CMS rather than a hosted commerce platform, and publishes no first-party developer program: contract discovery in August 2026 found no OpenAPI, Swagger, GraphQL endpoint, MCP server, A2A agent card, llms.txt or /.well-known documents on any smalls.com host, and no GitHub organization or public client library.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smalls/refs/heads/main/screenshots/smalls-2026-09-02T155903.png",
      "score": 10.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -867,7 +870,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -912,7 +915,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -943,6 +946,7 @@
      "name": "Skiptown",
      "slug": "skiptown",
      "description": "Skiptown is a modern pet-care company operating premium dog daycare, boarding, grooming, and walking services alongside its signature Dog Bar & Park — an indoor/outdoor social club where owners enjoy craft cocktails and coffee while dogs play off-leash. Backed by Techstars, Skiptown runs company-owned locations in Charlotte, Atlanta, and Denver and offers franchise expansion opportunities. Its consumer experience is delivered through a mobile app for booking, curbside dropoff, and daily photo updates. Skiptown does not currently publish a public API or developer platform; this profile captures its public web and security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skiptown/refs/heads/main/screenshots/skiptown-2026-09-02T155740.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -956,7 +960,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -987,6 +991,7 @@
      "name": "Snout",
      "slug": "snout",
      "description": "Snout provides affordable veterinary wellness subscription plans that help pet owners access preventive and routine care without financial stress, while enabling veterinary clinics to increase visit frequency and revenue. Clinics offer monthly membership plans covering unlimited exams and preventative care tailored to each pet's life stage (puppy, adult, senior), and receive upfront payment at the time of service. Snout supports partner practices with dedicated Clinic Success Managers, custom marketing, and staff training, serving 2,500+ providers nationwide. Backed by 500 Global. No public API, developer portal, or developer documentation was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snout/refs/heads/main/screenshots/snout-2026-09-02T160021.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1000,7 +1005,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1038,6 +1043,7 @@
      "name": "Vetic",
      "slug": "vetic",
      "description": "Vetic is a pet healthcare company in India operating a chain of full-service veterinary clinics and hospitals across 11 cities, paired with a consumer mobile app. Founded by Gaurav Ajmera (ex-COO OYO), Vetic offers in-clinic vet consultations, vaccinations, in-house diagnostics (blood work, X-ray, imaging, endoscopy), surgery, physiotherapy, 24/7 emergency and intensive care, grooming, an in-house pharmacy, pet supplies, pet insurance, video vet consultations, digital medical records, and 2-hour pet food delivery. It is a consumer (B2C) business with no public developer API surface at this time; this profile captures its public web and app footprint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vetic/refs/heads/main/screenshots/vetic-2026-09-02T165828.png",
      "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1051,7 +1057,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1103,7 +1109,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1155,7 +1161,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1207,7 +1213,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1252,7 +1258,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1296,7 +1302,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1341,7 +1347,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1386,7 +1392,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1431,7 +1437,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1462,6 +1468,7 @@
      "name": "TellTail",
      "slug": "telltail",
      "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/screenshots/telltail-2026-09-02T162746.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1475,7 +1482,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1520,7 +1527,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1572,12 +1579,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1622,7 +1629,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

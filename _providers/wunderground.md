@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Weather forecasts based on PWS location
+- baseURL: https://api.weather.com
+  baseurl_source: declared
+  description: Weather forecasts based on PWS location
   name: Weather Underground Forecast API
   slug: wunderground-forecast-api
-- description: Historical PWS observations and daily summaries
+- baseURL: https://api.weather.com
+  baseurl_source: declared
+  description: Historical PWS observations and daily summaries
   name: Weather Underground Historical API
   slug: wunderground-historical-api
-- description: PWS station location lookup
+- baseURL: https://api.weather.com
+  baseurl_source: declared
+  description: PWS station location lookup
   name: Weather Underground Location API
   slug: wunderground-location-api
-- description: Current and real-time PWS observations
+- baseURL: https://api.weather.com
+  baseurl_source: declared
+  description: Current and real-time PWS observations
   name: Weather Underground Observations API
   slug: wunderground-observations-api
 artifact_total: 22
@@ -219,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderground/refs/heads/main/screenshots/wunderground-2026-06-20T201644.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: HTTP client request sending through the proxy
+- baseURL: http://localhost:45456
+  baseurl_source: declared
+  description: HTTP client request sending through the proxy
   name: HTTP Toolkit client API
   slug: http-toolkit-client-api
-- description: Proxy configuration and network settings
+- baseURL: http://localhost:45456
+  baseurl_source: declared
+  description: Proxy configuration and network settings
   name: HTTP Toolkit config API
   slug: http-toolkit-config-api
-- description: Interceptor management for various environments and applications
+- baseURL: http://localhost:45456
+  baseurl_source: declared
+  description: Interceptor management for various environments and applications
   name: HTTP Toolkit interceptors API
   slug: http-toolkit-interceptors-api
-- description: Server lifecycle and version management
+- baseURL: http://localhost:45456
+  baseurl_source: declared
+  description: Server lifecycle and version management
   name: HTTP Toolkit server API
   slug: http-toolkit-server-api
 artifact_total: 25
@@ -248,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/http-toolkit/refs/heads/main/screenshots/http-toolkit-2026-06-20T182918.png
 security:

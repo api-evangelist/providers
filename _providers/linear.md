@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Linear webhooks deliver HTTP push notifications whenever data is created, updated, or removed. Webhooks are organization-scoped and can be configured for all public teams or a single team, enabling in
   name: Linear Webhooks API
   slug: linear-webhooks-api
-- description: File upload for issue and comment attachments
+- baseURL: https://api.linear.app/graphql
+  baseurl_source: declared
+  description: File upload for issue and comment attachments
   name: linear Attachments API
   slug: linear-attachments-api
-- description: Core GraphQL query and mutation endpoint
+- baseURL: https://api.linear.app/graphql
+  baseurl_source: declared
+  description: Core GraphQL query and mutation endpoint
   name: linear GraphQL API
   slug: linear-graphql-api
 artifact_total: 29
@@ -144,16 +148,16 @@ jsonld:
   slug: linear-context
 layout: provider
 modified: '2026-05-19'
-name: linear
+name: Linear
 nav: Providers
 network: true
-overview: 'linear publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhooks API, Attachments API, and GraphQL API.
+overview: 'Linear publishes 3 APIs on the [APIs.io](https://apis.io/) network: Webhooks API, Attachments API, and GraphQL API.
 
 
-  The linear catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Linear catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  linear''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  Linear''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
 plans:
 - name: Linear Plans Pricing
   plan_count: 4
@@ -167,7 +171,7 @@ rules:
 - effective_rule_count: 32
   extends:
   - spectral:asyncapi
-  name: linear API Rules
+  name: Linear API Rules
   rule_count: 5
   severity_counts:
     error: 1
@@ -177,7 +181,7 @@ rules:
   slug: linear-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: linear API Rules
+  name: Linear API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -198,7 +202,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -208,7 +212,7 @@ score:
     discoverability: 61.1
     governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 41.8
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -218,10 +222,10 @@ score:
       total: 2
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png
 security:

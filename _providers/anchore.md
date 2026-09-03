@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 1
 apis:
-- description: The Images API from Anchore — 2 operation(s) for images.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The Images API from Anchore — 2 operation(s) for images.
   name: Anchore Images API
   slug: anchore-images-api
-- description: The Policies API from Anchore — 2 operation(s) for policies.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The Policies API from Anchore — 2 operation(s) for policies.
   name: Anchore Policies API
   slug: anchore-policies-api
-- description: The Registries API from Anchore — 1 operation(s) for registries.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The Registries API from Anchore — 1 operation(s) for registries.
   name: Anchore Registries API
   slug: anchore-registries-api
-- description: The SBOM API from Anchore — 1 operation(s) for sbom.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The SBOM API from Anchore — 1 operation(s) for sbom.
   name: Anchore SBOM API
   slug: anchore-sbom-api
-- description: The Subscriptions API from Anchore — 1 operation(s) for subscriptions.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Anchore — 1 operation(s) for subscriptions.
   name: Anchore Subscriptions API
   slug: anchore-subscriptions-api
-- description: The Vulnerabilities API from Anchore — 1 operation(s) for vulnerabilities.
+- baseURL: https://anchore.example.com/v2
+  baseurl_source: declared
+  description: The Vulnerabilities API from Anchore — 1 operation(s) for vulnerabilities.
   name: Anchore Vulnerabilities API
   slug: anchore-vulnerabilities-api
 arazzos:
@@ -340,7 +352,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/screenshots/anchore-2026-07-25T200203.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations
@@ -88,7 +88,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanitarian-data-exchange/refs/heads/main/screenshots/humanitarian-data-exchange-2026-06-20T182931.png
 security:

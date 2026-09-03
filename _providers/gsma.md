@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -33,97 +45,159 @@ agentic_access:
   summary_line: 107 operations · 58 acting
 api_count: 18
 apis:
-- description: The **Accounts** APIs are used to support a range of operations on a financial account resource and associated resources. Types of accounts include mobile wallets, financial institution accounts and u
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Accounts** APIs are used to support a range of operations on a financial account resource and associated resources. Types of accounts include mobile wallets, financial institution accounts and u
   name: GSMA Accounts API
   slug: gsma-accounts-api
-- description: The **Authorisation** Codes APIs allow a payer to generate a payment code which when presented to the payee, can be redeemed for an amount associated with the code. Authorisation codes can be set to e
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Authorisation** Codes APIs allow a payer to generate a payment code which when presented to the payee, can be redeemed for an amount associated with the code. Authorisation codes can be set to e
   name: GSMA Authorisation Codes API
   slug: gsma-authorisation-codes-api
-- description: 'The **Bills** APIs allow a mobile money provider to allow customers to retrieve and pay bills. Specific use cases include: - Retrieving information on service providers (bill companies) that accept bi'
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: 'The **Bills** APIs allow a mobile money provider to allow customers to retrieve and pay bills. Specific use cases include: - Retrieving information on service providers (bill companies) that accept bi'
   name: GSMA Bills API
   slug: gsma-bills-api
-- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
   name: GSMA Call Forwarding information retrieval API
   slug: gsma-call-forwarding-information-retrieval-api
-- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Validate if the SIM of the end-user has been installed in a different device during a past period
   name: GSMA Check Device Swap API
   slug: gsma-check-device-swap-api
-- description: operation to perform a sim swap check for a past period
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: operation to perform a sim swap check for a past period
   name: GSMA Check SIM Swap API
   slug: gsma-check-sim-swap-api
-- description: The **Debit Mandates** APIs allow a mobile money customer to provide prior approval for payments to be taken from their account by a requesting payee. If the amount limit field is not supplied, the pa
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Debit Mandates** APIs allow a mobile money customer to provide prior approval for payments to be taken from their account by a requesting payee. If the amount limit field is not supplied, the pa
   name: GSMA Debit Mandates API
   slug: gsma-debit-mandates-api
-- description: Operations to get the current reachability status of a device
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to get the current reachability status of a device
   name: GSMA Device reachability status API
   slug: gsma-device-reachability-status-api
-- description: Find the closest Edge Cloud Zone to the user device.
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Find the closest Edge Cloud Zone to the user device.
   name: GSMA Discovery API
   slug: gsma-discovery-api
-- description: Retrieve details about the device being used by a mobile subscriber
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Retrieve details about the device being used by a mobile subscriber
   name: GSMA Get Device Identifiers API
   slug: gsma-get-device-identifiers-api
-- description: QoD control operations for home devices
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: QoD control operations for home devices
   name: GSMA Home Devices QoD API
   slug: gsma-home-devices-qod-api
-- description: The **Links** APIs are used to establish a link between two separate accounts on the client and provider systems. The API can be used for example to link a mobile wallet account to a Microfinance Inst
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Links** APIs are used to establish a link between two separate accounts on the client and provider systems. The API can be used for example to link a mobile wallet account to a Microfinance Inst
   name: GSMA Links API
   slug: gsma-links-api
-- description: Retrieve the location of a device
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Retrieve the location of a device
   name: GSMA Location Retrieval API
   slug: gsma-location-retrieval-api
-- description: Verification of the location of a device
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Verification of the location of a device
   name: GSMA Location Verification API
   slug: gsma-location-verification-api
-- description: Operations to match a customer identity against the account data bound to their phone number.
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to match a customer identity against the account data bound to their phone number.
   name: GSMA Match API
   slug: gsma-match-api
-- description: Operations to manage One Step Payment procedure
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to manage One Step Payment procedure
   name: GSMA One Step Payment API
   slug: gsma-one-step-payment-api
-- description: API operations to manage OTP codes
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: API operations to manage OTP codes
   name: GSMA OTP Management API
   slug: gsma-otp-management-api
-- description: Operations to obtain information about payments
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to obtain information about payments
   name: GSMA Payment API
   slug: gsma-payment-api
-- description: API operation to return the phone number associated to the access token.
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: API operation to return the phone number associated to the access token.
   name: GSMA Phone Number Share API
   slug: gsma-phone-number-share-api
-- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
   name: GSMA Phone Number Verify API
   slug: gsma-phone-number-verify-api
-- description: Operations to retrieve population density information.
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to retrieve population density information.
   name: GSMA Population Density Data API
   slug: gsma-population-density-data-api
-- description: Manage QoS sessions
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Manage QoS sessions
   name: GSMA QoS Sessions API
   slug: gsma-qos-sessions-api
-- description: The **Quotations** APIs are used to obtain one or multiple quotes for a mobile money customer who wishes to transfer money. The creation of a quote involves returning any fees that will be levied on t
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Quotations** APIs are used to obtain one or multiple quotes for a mobile money customer who wishes to transfer money. The creation of a quote involves returning any fees that will be levied on t
   name: GSMA Quotations API
   slug: gsma-quotations-api
-- description: Operations to manage Refund procedure
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to manage Refund procedure
   name: GSMA Refund API
   slug: gsma-refund-api
-- description: Receive the last date in which the device of the end-user was swapped
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Receive the last date in which the device of the end-user was swapped
   name: GSMA Retrieve Device Swap Date API
   slug: gsma-retrieve-device-swap-date-api
-- description: operation to retrieve latest SIM swap change date
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: operation to retrieve latest SIM swap change date
   name: GSMA Retrieve SIM Swap Date API
   slug: gsma-retrieve-sim-swap-date-api
-- description: Operation to get device roaming status and country information (if roaming) synchronously
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operation to get device roaming status and country information (if roaming) synchronously
   name: GSMA Roaming status retrieval API
   slug: gsma-roaming-status-retrieval-api
-- description: 'Supporting APIs consist of the following: - **Heartbeat API:** Used for monitoring purposes and establishes whether the system of an API provider is in a state that enables a client to submit a reques'
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: 'Supporting APIs consist of the following: - **Heartbeat API:** Used for monitoring purposes and establishes whether the system of an API provider is in a state that enables a client to submit a reques'
   name: GSMA Supporting API
   slug: gsma-supporting-api
-- description: The **Transactions** APIs are used to support mobile money financial transaction use cases. Transactions are used for a wide range of use cases including merchant payments, international transfers, do
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: The **Transactions** APIs are used to support mobile money financial transaction use cases. Transactions are used for a wide range of use cases including merchant payments, international transfers, do
   name: GSMA Transactions API
   slug: gsma-transactions-api
-- description: Operations to manage Two Step Payment procedure
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Operations to manage Two Step Payment procedure
   name: GSMA Two Step Payment API
   slug: gsma-two-step-payment-api
-- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+- baseURL: https://sandbox.mobilemoneyapi.io/simulator/v1.2/passthrough/mm
+  baseurl_source: declared
+  description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
   name: GSMA Unconditional Call Forwarding information retrieval API
   slug: gsma-unconditional-call-forwarding-information-retrieval-api
 artifact_total: 56
@@ -438,24 +512,24 @@ scopes:
   slug: gsma-scopes
   summary_line: 30 scopes
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 54.9
   coverage:
     artifact_dirs: 26
-    catalog_gap: 83.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 58.7
     developer_ergonomics: 73.2
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 54.2
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -473,7 +547,7 @@ score:
     regime_id: telecommunications
     score: 80.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png
 security:

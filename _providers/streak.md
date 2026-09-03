@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: RESTful API exposing CRUD access to pipelines, boxes (records), stages, custom fields, threads, tasks, files, comments, users, and teams in the Streak CRM. Authentication uses HTTP Basic Auth with the
   name: Streak REST API
   slug: rest-api
-- description: The Boxes API from Streak — 2 operation(s) for boxes.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Boxes API from Streak — 2 operation(s) for boxes.
   name: Streak Boxes API
   slug: streak-boxes-api
-- description: The Fields API from Streak — 1 operation(s) for fields.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Fields API from Streak — 1 operation(s) for fields.
   name: Streak Fields API
   slug: streak-fields-api
-- description: The Newsfeed API from Streak — 1 operation(s) for newsfeed.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Newsfeed API from Streak — 1 operation(s) for newsfeed.
   name: Streak Newsfeed API
   slug: streak-newsfeed-api
-- description: The Pipelines API from Streak — 2 operation(s) for pipelines.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Pipelines API from Streak — 2 operation(s) for pipelines.
   name: Streak Pipelines API
   slug: streak-pipelines-api
-- description: The Stages API from Streak — 1 operation(s) for stages.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Stages API from Streak — 1 operation(s) for stages.
   name: Streak Stages API
   slug: streak-stages-api
-- description: The Users API from Streak — 1 operation(s) for users.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Users API from Streak — 1 operation(s) for users.
   name: Streak Users API
   slug: streak-users-api
-- description: The Webhooks API from Streak — 1 operation(s) for webhooks.
+- baseURL: https://api.streak.com/api
+  baseurl_source: declared
+  description: The Webhooks API from Streak — 1 operation(s) for webhooks.
   name: Streak Webhooks API
   slug: streak-webhooks-api
 artifact_total: 21
@@ -189,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/screenshots/streak-2026-06-20T194620.png
 security:

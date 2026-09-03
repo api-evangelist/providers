@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 2
 apis:
-- description: Asset requisition retrieval and update operations
+- baseURL: https://openapi.ariba.com/api/catalog-shop/v1/prod
+  baseurl_source: declared
+  description: Asset requisition retrieval and update operations
   name: Ariba Guided Buying Requisitions API
   slug: ariba-guided-buying-requisitions-api
-- description: Catalog shop search and retrieval operations
+- baseURL: https://openapi.ariba.com/api/catalog-shop/v1/prod
+  baseurl_source: declared
+  description: Catalog shop search and retrieval operations
   name: Ariba Guided Buying Shops API
   slug: ariba-guided-buying-shops-api
 arazzos:
@@ -431,7 +435,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/screenshots/ariba-guided-buying-2026-07-25T201151.png
 security:

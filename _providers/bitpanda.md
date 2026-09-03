@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Asset metadata lookup
+- baseURL: https://developer.bitpanda.com
+  baseurl_source: declared
+  description: Asset metadata lookup
   name: Bitpanda assets API
   slug: bitpanda-assets-api
-- description: Live ticker prices
+- baseURL: https://developer.bitpanda.com
+  baseurl_source: declared
+  description: Live ticker prices
   name: Bitpanda market-data API
   slug: bitpanda-market-data-api
-- description: Transaction history across all asset types
+- baseURL: https://developer.bitpanda.com
+  baseurl_source: declared
+  description: Transaction history across all asset types
   name: Bitpanda transactions API
   slug: bitpanda-transactions-api
-- description: Wallet balances across all asset types
+- baseURL: https://developer.bitpanda.com
+  baseurl_source: declared
+  description: Wallet balances across all asset types
   name: Bitpanda wallets API
   slug: bitpanda-wallets-api
 artifact_total: 13
@@ -246,7 +254,7 @@ score:
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:

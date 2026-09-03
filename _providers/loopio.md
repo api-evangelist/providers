@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,52 +38,82 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: An asynchronous endpoint
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: An asynchronous endpoint
   name: Loopio Asynchronous API
   slug: loopio-asynchronous-api
-- description: The CRM API from Loopio — 2 operation(s) for crm.
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: The CRM API from Loopio — 2 operation(s) for crm.
   name: Loopio CRM API
   slug: loopio-crm-api
-- description: Create and manage Custom Project Fields
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create and manage Custom Project Fields
   name: Loopio Custom Project Fields API
   slug: loopio-custom-project-fields-api
-- description: Get information about Customer instances
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Get information about Customer instances
   name: Loopio Customers API
   slug: loopio-customers-api
-- description: Manage Loopio files
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Manage Loopio files
   name: Loopio Files API
   slug: loopio-files-api
-- description: Create and manage Library Entries
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create and manage Library Entries
   name: Loopio Library Entries API
   slug: loopio-library-entries-api
-- description: Reusable Library/Project-wide variables
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Reusable Library/Project-wide variables
   name: Loopio Merge Variables API
   slug: loopio-merge-variables-api
-- description: Get Information about Project Templates
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Get Information about Project Templates
   name: Loopio Project Templates API
   slug: loopio-project-templates-api
-- description: Create and manage Projects
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create and manage Projects
   name: Loopio Projects API
   slug: loopio-projects-api
-- description: The Roles API from Loopio — 2 operation(s) for roles.
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: The Roles API from Loopio — 2 operation(s) for roles.
   name: Loopio Roles API
   slug: loopio-roles-api
-- description: View accessible stacks or Library structure
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: View accessible stacks or Library structure
   name: Loopio Stacks API
   slug: loopio-stacks-api
-- description: Create and manage Tags
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create and manage Tags
   name: Loopio Tags API
   slug: loopio-tags-api
-- description: Get Information about Teams
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Get Information about Teams
   name: Loopio Teams API
   slug: loopio-teams-api
-- description: Create and manage Users
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create and manage Users
   name: Loopio Users API
   slug: loopio-users-api
-- description: Create & Manage webhook subscriptions
+- baseURL: https://api.loopio.com/data/v2
+  baseurl_source: declared
+  description: Create & Manage webhook subscriptions
   name: Loopio Webhooks API
   slug: loopio-webhooks-api
 artifact_total: 21
@@ -221,23 +265,23 @@ scopes:
   summary_line: 52 scopes
 score:
   band: thin
-  composite: 33.7
+  composite: 34.6
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 58.2
+    contract_quality: 61.6
     developer_ergonomics: 18.5
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 33.9
+  previous_composite: 33.7
   provenance:
     conformance: first-party
     contracts:
@@ -254,8 +298,9 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/loopio/refs/heads/main/screenshots/loopio-2026-09-02T150315.png
 security:
 - kind: authentication
   name: Loopio Authentication

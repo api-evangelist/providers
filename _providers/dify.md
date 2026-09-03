@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -47,22 +47,34 @@ apis:
 - description: Dify is an open-source platform for building AI applications. We combine Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions, making it accessible to both develope
   name: Dify
   slug: dify
-- description: The Chat API from Dify — 2 operation(s) for chat.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Chat API from Dify — 2 operation(s) for chat.
   name: Dify Chat API
   slug: dify-chat-api
-- description: The Completion API from Dify — 2 operation(s) for completion.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Completion API from Dify — 2 operation(s) for completion.
   name: Dify Completion API
   slug: dify-completion-api
-- description: The Conversations API from Dify — 3 operation(s) for conversations.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Conversations API from Dify — 3 operation(s) for conversations.
   name: Dify Conversations API
   slug: dify-conversations-api
-- description: The Datasets API from Dify — 2 operation(s) for datasets.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Datasets API from Dify — 2 operation(s) for datasets.
   name: Dify Datasets API
   slug: dify-datasets-api
-- description: The Files API from Dify — 1 operation(s) for files.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Files API from Dify — 1 operation(s) for files.
   name: Dify Files API
   slug: dify-files-api
-- description: The Workflows API from Dify — 3 operation(s) for workflows.
+- baseURL: https://api.dify.ai/v1
+  baseurl_source: spec
+  description: The Workflows API from Dify — 3 operation(s) for workflows.
   name: Dify Workflows API
   slug: dify-workflows-api
 artifact_total: 22
@@ -204,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: 'The Limble CMMS REST API V2 provides HTTPS access to maintenance management data including assets, locations, work orders, preventive maintenance tasks, parts, purchase orders, users, vendors, teams, '
   name: Limble API V2
   slug: limble-api-v2
-- description: The Routes API from Limble CMMS — 120 operation(s) for routes.
+- baseURL: https://api.limblecmms.com
+  baseurl_source: declared
+  description: The Routes API from Limble CMMS — 120 operation(s) for routes.
   name: Limble CMMS Routes API
   slug: limble-cmms-routes-api
 artifact_total: 77
@@ -380,7 +382,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:

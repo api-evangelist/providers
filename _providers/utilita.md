@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +34,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The individual Utilita services tracked on the status page.
+- baseURL: https://status.utilita.co.uk/api/v2
+  baseurl_source: declared
+  description: The individual Utilita services tracked on the status page.
   name: Utilita Components API
   slug: utilita-components-api
-- description: Unplanned service incidents and their update timeline.
+- baseURL: https://status.utilita.co.uk/api/v2
+  baseurl_source: declared
+  description: Unplanned service incidents and their update timeline.
   name: Utilita Incidents API
   slug: utilita-incidents-api
-- description: Planned maintenance windows.
+- baseURL: https://status.utilita.co.uk/api/v2
+  baseurl_source: declared
+  description: Planned maintenance windows.
   name: Utilita Scheduled Maintenance API
   slug: utilita-scheduled-maintenance-api
-- description: Overall page status and rolled-up summary.
+- baseURL: https://status.utilita.co.uk/api/v2
+  baseurl_source: declared
+  description: Overall page status and rolled-up summary.
   name: Utilita Status API
   slug: utilita-status-api
 artifact_total: 14
@@ -221,7 +240,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -231,7 +250,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     conformance: derived
     contracts:
@@ -251,7 +270,7 @@ score:
     regime_id: energy_utilities
     score: 62.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utilita/refs/heads/main/screenshots/utilita-2026-08-17T082702.png
 security:

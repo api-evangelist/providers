@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 42 operations · 32 acting
 api_count: 2
 apis:
-- description: The Accounts API from Paymob — 1 operation(s) for accounts.
+- baseURL: https://payouts.paymobsolutions.com
+  baseurl_source: spec
+  description: The Accounts API from Paymob — 1 operation(s) for accounts.
   name: Paymob Accounts API
   slug: paymob-accounts-api
-- description: The Authentication API from Paymob — 3 operation(s) for authentication.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Authentication API from Paymob — 3 operation(s) for authentication.
   name: Paymob Authentication API
   slug: paymob-authentication-api
-- description: The Capture API from Paymob — 3 operation(s) for capture.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Capture API from Paymob — 3 operation(s) for capture.
   name: Paymob Capture API
   slug: paymob-capture-api
-- description: The Disbursement API from Paymob — 4 operation(s) for disbursement.
+- baseURL: https://payouts.paymobsolutions.com
+  baseurl_source: spec
+  description: The Disbursement API from Paymob — 4 operation(s) for disbursement.
   name: Paymob Disbursement API
   slug: paymob-disbursement-api
-- description: The Orders API from Paymob — 1 operation(s) for orders.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Orders API from Paymob — 1 operation(s) for orders.
   name: Paymob Orders API
   slug: paymob-orders-api
-- description: The Payment Keys API from Paymob — 1 operation(s) for payment keys.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Payment Keys API from Paymob — 1 operation(s) for payment keys.
   name: Paymob Payment Keys API
   slug: paymob-payment-keys-api
-- description: The Payment Links API from Paymob — 2 operation(s) for payment links.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Payment Links API from Paymob — 2 operation(s) for payment links.
   name: Paymob Payment Links API
   slug: paymob-payment-links-api
-- description: The Payments API from Paymob — 1 operation(s) for payments.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Payments API from Paymob — 1 operation(s) for payments.
   name: Paymob Payments API
   slug: paymob-payments-api
-- description: The Topup API from Paymob — 2 operation(s) for topup.
+- baseURL: https://payouts.paymobsolutions.com
+  baseurl_source: spec
+  description: The Topup API from Paymob — 2 operation(s) for topup.
   name: Paymob Topup API
   slug: paymob-topup-api
-- description: The Transactions API from Paymob — 2 operation(s) for transactions.
+- baseURL: https://accept.paymob.com
+  baseurl_source: spec
+  description: The Transactions API from Paymob — 2 operation(s) for transactions.
   name: Paymob Transactions API
   slug: paymob-transactions-api
 artifact_total: 107
@@ -544,7 +564,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/screenshots/paymob-2026-06-20T191508.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Open API for integrating third-party and customer AI algorithms into the Visage 7 platform and Visage AI Accelerator research server, unifying research and diagnostic imaging. Publicly described as su
@@ -93,7 +93,7 @@ score:
   band: minimal
   composite: 6.7
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -115,8 +115,9 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/visage-imaging/refs/heads/main/screenshots/visage-imaging-2026-09-02T170046.png
 security:
 - kind: domain-security
   name: Visage Imaging Domain Security

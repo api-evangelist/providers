@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Granular Insights provides analytics and reporting APIs for farm operations, enabling agronomic analysis, yield benchmarking, and field performance reporting for precision agriculture workflows.
   name: Granular Insights API
   slug: granular-insights-api
-- description: Field activities — planting, application, harvest
+- baseURL: https://api.granular.ag
+  baseurl_source: declared
+  description: Field activities — planting, application, harvest
   name: Granular (Corteva Agriscience) Activities API
   slug: granular-activities-api
-- description: Crop plans and variety information
+- baseURL: https://api.granular.ag
+  baseurl_source: declared
+  description: Crop plans and variety information
   name: Granular (Corteva Agriscience) Crops API
   slug: granular-crops-api
-- description: Farm entity management
+- baseURL: https://api.granular.ag
+  baseurl_source: declared
+  description: Farm entity management
   name: Granular (Corteva Agriscience) Farms API
   slug: granular-farms-api
-- description: Field boundary and attribute management
+- baseURL: https://api.granular.ag
+  baseurl_source: declared
+  description: Field boundary and attribute management
   name: Granular (Corteva Agriscience) Fields API
   slug: granular-fields-api
-- description: Farm financial records and cost tracking
+- baseURL: https://api.granular.ag
+  baseurl_source: declared
+  description: Farm financial records and cost tracking
   name: Granular (Corteva Agriscience) Financials API
   slug: granular-financials-api
 artifact_total: 23
@@ -184,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/screenshots/granular-2026-06-20T182321.png
 security:

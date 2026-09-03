@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The SambaCloud API exposes OpenAI-compatible chat completions over SambaNova's RDU-accelerated infrastructure. It serves multiple open model families including DeepSeek V3, Llama 3.3 and Llama 4, Gemm
   name: SambaCloud API
   slug: sambacloud-api
-- description: The Chat API from SambaNova — 1 operation(s) for chat.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Chat API from SambaNova — 1 operation(s) for chat.
   name: SambaNova Chat API
   slug: sambanova-chat-api
-- description: The Completions API from SambaNova — 1 operation(s) for completions.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Completions API from SambaNova — 1 operation(s) for completions.
   name: SambaNova Completions API
   slug: sambanova-completions-api
-- description: The Embeddings API from SambaNova — 1 operation(s) for embeddings.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Embeddings API from SambaNova — 1 operation(s) for embeddings.
   name: SambaNova Embeddings API
   slug: sambanova-embeddings-api
-- description: The Models API from SambaNova — 1 operation(s) for models.
+- baseURL: https://api.sambanova.ai/v1
+  baseurl_source: declared
+  description: The Models API from SambaNova — 1 operation(s) for models.
   name: SambaNova Models API
   slug: sambanova-models-api
 artifact_total: 18
@@ -188,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:

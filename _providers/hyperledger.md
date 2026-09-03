@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,7 +55,9 @@ apis:
 - description: Hyperledger Cacti (formerly Cactus) is a pluggable enterprise-grade framework for cross-chain transactions, providing connector plugins and REST APIs for interoperability across DLTs.
   name: Hyperledger Cacti API
   slug: hyperledger-cacti-api
-- description: Standard Ethereum JSON-RPC methods.
+- baseURL: https://besu.example.com
+  baseurl_source: declared
+  description: Standard Ethereum JSON-RPC methods.
   name: Hyperledger Eth API
   slug: hyperledger-eth-api
 artifact_total: 17
@@ -183,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperledger/refs/heads/main/screenshots/hyperledger-2026-06-20T183044.png
 security:

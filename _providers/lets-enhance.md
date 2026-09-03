@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 1
 apis:
-- description: Encompasses operations with images.
+- baseURL: https://api.claid.ai/v1/
+  baseurl_source: declared
+  description: Encompasses operations with images.
   name: Let's Enhance Image API
   slug: lets-enhance-image-api
-- description: 'Perform operations with storage: check supported storage types, safely connect your cloud buckets and more.'
+- baseURL: https://api.claid.ai/v1/
+  baseurl_source: declared
+  description: 'Perform operations with storage: check supported storage types, safely connect your cloud buckets and more.'
   name: Let's Enhance Storage API
   slug: lets-enhance-storage-api
-- description: Encompasses operations with videos.
+- baseURL: https://api.claid.ai/v1/
+  baseurl_source: declared
+  description: Encompasses operations with videos.
   name: Let's Enhance Video API
   slug: lets-enhance-video-api
 artifact_total: 14
@@ -228,7 +234,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -238,7 +244,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.6
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
 security:

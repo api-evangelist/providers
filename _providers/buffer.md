@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: GraphQL API for scheduling and publishing posts, managing social media channels, handling content ideas and idea groups, post templates, and accessing normalized post metrics across 11 major social me
@@ -281,7 +281,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buffer/refs/heads/main/screenshots/buffer-2026-08-17T123104.png
 security:

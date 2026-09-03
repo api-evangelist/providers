@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 1
 apis:
-- description: The Actions API from GitHub Enterprise — 2 operation(s) for actions.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Actions API from GitHub Enterprise — 2 operation(s) for actions.
   name: GitHub Enterprise Actions API
   slug: github-enterprise-actions-api
-- description: The Code Scanning API from GitHub Enterprise — 1 operation(s) for code scanning.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Code Scanning API from GitHub Enterprise — 1 operation(s) for code scanning.
   name: GitHub Enterprise Code Scanning API
   slug: github-enterprise-code-scanning-api
-- description: The Enterprise Admin API from GitHub Enterprise — 1 operation(s) for enterprise admin.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Enterprise Admin API from GitHub Enterprise — 1 operation(s) for enterprise admin.
   name: GitHub Enterprise Enterprise Admin API
   slug: github-enterprise-enterprise-admin-api
-- description: The Issues API from GitHub Enterprise — 1 operation(s) for issues.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Issues API from GitHub Enterprise — 1 operation(s) for issues.
   name: GitHub Enterprise Issues API
   slug: github-enterprise-issues-api
-- description: The Organizations API from GitHub Enterprise — 1 operation(s) for organizations.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Organizations API from GitHub Enterprise — 1 operation(s) for organizations.
   name: GitHub Enterprise Organizations API
   slug: github-enterprise-organizations-api
-- description: The Pull Requests API from GitHub Enterprise — 1 operation(s) for pull requests.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Pull Requests API from GitHub Enterprise — 1 operation(s) for pull requests.
   name: GitHub Enterprise Pull Requests API
   slug: github-enterprise-pull-requests-api
-- description: The Repositories API from GitHub Enterprise — 2 operation(s) for repositories.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Repositories API from GitHub Enterprise — 2 operation(s) for repositories.
   name: GitHub Enterprise Repositories API
   slug: github-enterprise-repositories-api
-- description: The SCIM API from GitHub Enterprise — 1 operation(s) for scim.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The SCIM API from GitHub Enterprise — 1 operation(s) for scim.
   name: GitHub Enterprise SCIM API
   slug: github-enterprise-scim-api
-- description: The Users API from GitHub Enterprise — 2 operation(s) for users.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Users API from GitHub Enterprise — 2 operation(s) for users.
   name: GitHub Enterprise Users API
   slug: github-enterprise-users-api
 artifact_total: 23
@@ -194,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-enterprise/refs/heads/main/screenshots/github-enterprise-2026-06-20T181846.png
 security:

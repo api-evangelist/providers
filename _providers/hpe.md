@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -46,13 +46,19 @@ apis:
 - description: Unified REST API gateway for HPE GreenLake edge-to-cloud services including Compute Ops Management, Data Services Cloud Console, identity, workspaces, and API client credentials. Conforms to OpenAPI 3
   name: HPE GreenLake API
   slug: greenlake-api
-- description: The Authorization API from Hewlett Packard Enterprise — 7 operation(s) for authorization.
+- baseURL: https://global.api.greenlake.hpe.com
+  baseurl_source: declared
+  description: The Authorization API from Hewlett Packard Enterprise — 7 operation(s) for authorization.
   name: Hewlett Packard Enterprise Authorization API
   slug: hpe-authorization-api
-- description: The Identity API from Hewlett Packard Enterprise — 2 operation(s) for identity.
+- baseURL: https://global.api.greenlake.hpe.com
+  baseurl_source: declared
+  description: The Identity API from Hewlett Packard Enterprise — 2 operation(s) for identity.
   name: Hewlett Packard Enterprise Identity API
   slug: hpe-identity-api
-- description: The Workspaces API from Hewlett Packard Enterprise — 3 operation(s) for workspaces.
+- baseURL: https://global.api.greenlake.hpe.com
+  baseurl_source: declared
+  description: The Workspaces API from Hewlett Packard Enterprise — 3 operation(s) for workspaces.
   name: Hewlett Packard Enterprise Workspaces API
   slug: hpe-workspaces-api
 artifact_total: 12
@@ -153,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/screenshots/hpe-2026-06-20T182854.png
 security:

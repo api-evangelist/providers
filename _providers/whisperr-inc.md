@@ -35,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Dashboard API from Whisperr, Inc. — 23 operation(s) for dashboard.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Dashboard API from Whisperr, Inc. — 23 operation(s) for dashboard.
   name: Whisperr, Inc. Dashboard API
   slug: whisperr-inc-dashboard-api
-- description: The Decisioning API from Whisperr, Inc. — 1 operation(s) for decisioning.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Decisioning API from Whisperr, Inc. — 1 operation(s) for decisioning.
   name: Whisperr, Inc. Decisioning API
   slug: whisperr-inc-decisioning-api
-- description: The Delivery API from Whisperr, Inc. — 14 operation(s) for delivery.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Delivery API from Whisperr, Inc. — 14 operation(s) for delivery.
   name: Whisperr, Inc. Delivery API
   slug: whisperr-inc-delivery-api
-- description: The Ingestion API from Whisperr, Inc. — 2 operation(s) for ingestion.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Ingestion API from Whisperr, Inc. — 2 operation(s) for ingestion.
   name: Whisperr, Inc. Ingestion API
   slug: whisperr-inc-ingestion-api
-- description: The Internal API from Whisperr, Inc. — 1 operation(s) for internal.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Internal API from Whisperr, Inc. — 1 operation(s) for internal.
   name: Whisperr, Inc. Internal API
   slug: whisperr-inc-internal-api
-- description: The System API from Whisperr, Inc. — 2 operation(s) for system.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The System API from Whisperr, Inc. — 2 operation(s) for system.
   name: Whisperr, Inc. System API
   slug: whisperr-inc-system-api
-- description: The Users API from Whisperr, Inc. — 3 operation(s) for users.
+- baseURL: https://api.whisperr.net
+  baseurl_source: declared
+  description: The Users API from Whisperr, Inc. — 3 operation(s) for users.
   name: Whisperr, Inc. Users API
   slug: whisperr-inc-users-api
 artifact_total: 14
@@ -212,11 +226,11 @@ score:
   band: thin
   composite: 37.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -226,7 +240,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 36.8
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     contracts:
@@ -237,8 +251,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/whisperr-inc/refs/heads/main/screenshots/whisperr-inc-2026-09-02T170705.png
 security:
 - kind: authentication
   name: Whisperr Inc Authentication

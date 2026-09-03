@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,16 +56,24 @@ apis:
 - description: API supporting the Kubeflow central dashboard and UI components, which provide a unified interface to all installed Kubeflow components.
   name: Kubeflow Central Dashboard API
   slug: central-dashboard
-- description: Group runs and recurring jobs into logical experiments
+- baseURL: https://your-kubeflow-instance/pipeline
+  baseurl_source: declared
+  description: Group runs and recurring jobs into logical experiments
   name: Kubeflow Experiments API
   slug: kubeflow-experiments-api
-- description: Health and auth checks
+- baseURL: https://your-kubeflow-instance/pipeline
+  baseurl_source: declared
+  description: Health and auth checks
   name: Kubeflow Health API
   slug: kubeflow-health-api
-- description: Manage pipeline definitions
+- baseURL: https://your-kubeflow-instance/pipeline
+  baseurl_source: declared
+  description: Manage pipeline definitions
   name: Kubeflow Pipelines API
   slug: kubeflow-pipelines-api
-- description: Manage versions of pipelines
+- baseURL: https://your-kubeflow-instance/pipeline
+  baseurl_source: declared
+  description: Manage versions of pipelines
   name: Kubeflow PipelineVersions API
   slug: kubeflow-pipelineversions-api
 artifact_total: 21
@@ -216,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeflow/refs/heads/main/screenshots/kubeflow-2026-06-20T184203.png
 security:

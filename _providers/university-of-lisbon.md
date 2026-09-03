@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Public REST API of the FenixEdu academic information system operated by Instituto Superior Tecnico, a school of the University of Lisbon. Anonymous access to institution metadata, academic terms, cont
+- baseURL: https://fenix.tecnico.ulisboa.pt/api/fenix/v1
+  baseurl_source: declared
+  description: Public REST API of the FenixEdu academic information system operated by Instituto Superior Tecnico, a school of the University of Lisbon. Anonymous access to institution metadata, academic terms, cont
   name: FenixEdu Academic API (Instituto Superior Tecnico)
   slug: fenixedu-tecnico
 - description: OAI-PMH 2.0 metadata harvesting interface over the DSpace 7.6.1 institutional open-access repository. Operating since November 2002; 100,245 items; twelve metadata formats including oai_dc, marcxml, m
@@ -296,7 +298,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 30.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -306,7 +308,7 @@ score:
     discoverability: 68.5
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 19.5
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     contracts:
@@ -321,8 +323,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/screenshots/university-of-lisbon-2026-06-20T200201.png
 security:
 - kind: authentication

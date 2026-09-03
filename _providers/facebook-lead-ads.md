@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: Graph API endpoints for managing Facebook and Instagram lead generation forms, retrieving captured leads, exporting bulk lead data, and subscribing to leadgen webhooks. Authentication uses Page access
   name: Meta Marketing API - Lead Ads
   slug: graph-api
-- description: The Bulk Leads API from Facebook Lead Ads — 1 operation(s) for bulk leads.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Bulk Leads API from Facebook Lead Ads — 1 operation(s) for bulk leads.
   name: Facebook Lead Ads Bulk Leads API
   slug: facebook-lead-ads-bulk-leads-api
-- description: The Leadgen Forms API from Facebook Lead Ads — 1 operation(s) for leadgen forms.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Leadgen Forms API from Facebook Lead Ads — 1 operation(s) for leadgen forms.
   name: Facebook Lead Ads Leadgen Forms API
   slug: facebook-lead-ads-leadgen-forms-api
-- description: The Leads API from Facebook Lead Ads — 2 operation(s) for leads.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Leads API from Facebook Lead Ads — 2 operation(s) for leads.
   name: Facebook Lead Ads Leads API
   slug: facebook-lead-ads-leads-api
-- description: The Meta Marketing API Lead Ads API from Facebook Lead Ads — 2 operation(s) for meta marketing api lead ads.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Meta Marketing API Lead Ads API from Facebook Lead Ads — 2 operation(s) for meta marketing api lead ads.
   name: Facebook Lead Ads Meta Marketing API Lead Ads API
   slug: facebook-lead-ads-meta-marketing-api-lead-ads-api
-- description: The Subscribed Apps API from Facebook Lead Ads — 1 operation(s) for subscribed apps.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Subscribed Apps API from Facebook Lead Ads — 1 operation(s) for subscribed apps.
   name: Facebook Lead Ads Subscribed Apps API
   slug: facebook-lead-ads-subscribed-apps-api
-- description: The Subscriptions API from Facebook Lead Ads — 1 operation(s) for subscriptions.
+- baseURL: https://graph.facebook.com
+  baseurl_source: declared
+  description: The Subscriptions API from Facebook Lead Ads — 1 operation(s) for subscriptions.
   name: Facebook Lead Ads Subscriptions API
   slug: facebook-lead-ads-subscriptions-api
 artifact_total: 24
@@ -296,7 +308,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -306,7 +318,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 52.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,7 +330,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/screenshots/facebook-lead-ads-2026-06-20T181004.png
 security:

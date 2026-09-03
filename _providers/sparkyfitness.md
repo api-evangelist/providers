@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,73 +35,115 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: A first-party Model Context Protocol server running in-process inside the SparkyFitness API server, mounted at POST /mcp over a stateless streamable HTTP transport. 56 tools across food, exercise, che
   name: SparkyFitness MCP Server
   slug: sparkyfitness-mcp-server
-- description: The Admin API from SparkyFitness — 3 operation(s) for admin.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Admin API from SparkyFitness — 3 operation(s) for admin.
   name: SparkyFitness Admin API
   slug: sparkyfitness-admin-api
-- description: The AI API from SparkyFitness — 1 operation(s) for ai.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The AI API from SparkyFitness — 1 operation(s) for ai.
   name: SparkyFitness AI API
   slug: sparkyfitness-ai-api
-- description: AI-powered chat assistance, reports, trends, and analytical insights.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: AI-powered chat assistance, reports, trends, and analytical insights.
   name: SparkyFitness AI & Insights API
   slug: sparkyfitness-ai-insights-api
-- description: The Allergen Preferences API from SparkyFitness — 2 operation(s) for allergen preferences.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Allergen Preferences API from SparkyFitness — 2 operation(s) for allergen preferences.
   name: SparkyFitness Allergen Preferences API
   slug: sparkyfitness-allergen-preferences-api
-- description: The Authentication API from SparkyFitness — 4 operation(s) for authentication.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Authentication API from SparkyFitness — 4 operation(s) for authentication.
   name: SparkyFitness Authentication API
   slug: sparkyfitness-authentication-api
-- description: The Dashboard API from SparkyFitness — 3 operation(s) for dashboard.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Dashboard API from SparkyFitness — 3 operation(s) for dashboard.
   name: SparkyFitness Dashboard API
   slug: sparkyfitness-dashboard-api
-- description: The Dashboard Layouts API from SparkyFitness — 1 operation(s) for dashboard layouts.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Dashboard Layouts API from SparkyFitness — 1 operation(s) for dashboard layouts.
   name: SparkyFitness Dashboard Layouts API
   slug: sparkyfitness-dashboard-layouts-api
-- description: The Exercise Entries API from SparkyFitness — 1 operation(s) for exercise entries.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Exercise Entries API from SparkyFitness — 1 operation(s) for exercise entries.
   name: SparkyFitness Exercise Entries API
   slug: sparkyfitness-exercise-entries-api
-- description: The Exercise Stats API from SparkyFitness — 4 operation(s) for exercise stats.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Exercise Stats API from SparkyFitness — 4 operation(s) for exercise stats.
   name: SparkyFitness Exercise Stats API
   slug: sparkyfitness-exercise-stats-api
-- description: The Exercise & Workouts API from SparkyFitness — 23 operation(s) for exercise & workouts.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Exercise & Workouts API from SparkyFitness — 23 operation(s) for exercise & workouts.
   name: SparkyFitness Exercise & Workouts API
   slug: sparkyfitness-exercise-workouts-api
-- description: Third-party service connections (Garmin, Withings, OIDC, etc.).
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Third-party service connections (Garmin, Withings, OIDC, etc.).
   name: SparkyFitness External Integrations API
   slug: sparkyfitness-external-integrations-api
-- description: Exercise database, workout presets, plan templates, and activity logging.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Exercise database, workout presets, plan templates, and activity logging.
   name: SparkyFitness Fitness & Workouts API
   slug: sparkyfitness-fitness-workouts-api
-- description: Personal goal setting, goal presets, and application preferences.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Personal goal setting, goal presets, and application preferences.
   name: SparkyFitness Goals & Personalization API
   slug: sparkyfitness-goals-personalization-api
-- description: User authentication, registration, profile management, MFA, and access control.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: User authentication, registration, profile management, MFA, and access control.
   name: SparkyFitness Identity & Security API
   slug: sparkyfitness-identity-security-api
-- description: Medication cabinet, schedules, GLP-1 injections, pen/vial inventory, titration, and modeled PK/site-rotation.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Medication cabinet, schedules, GLP-1 injections, pen/vial inventory, titration, and modeled PK/site-rotation.
   name: SparkyFitness Medications & GLP-1 API
   slug: sparkyfitness-medications-glp-1-api
-- description: Food database, diary logging, meal planning, and nutritional preferences.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Food database, diary logging, meal planning, and nutritional preferences.
   name: SparkyFitness Nutrition & Meals API
   slug: sparkyfitness-nutrition-meals-api
-- description: The SleepScience API from SparkyFitness — 7 operation(s) for sleepscience.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The SleepScience API from SparkyFitness — 7 operation(s) for sleepscience.
   name: SparkyFitness Sleep Science API
   slug: sparkyfitness-sleepscience-api
-- description: The Synced Data API from SparkyFitness — 2 operation(s) for synced data.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Synced Data API from SparkyFitness — 2 operation(s) for synced data.
   name: SparkyFitness Synced Data API
   slug: sparkyfitness-synced-data-api
-- description: System configuration, administrative tasks, backups, reviews, and versioning.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: System configuration, administrative tasks, backups, reviews, and versioning.
   name: SparkyFitness System & Admin API
   slug: sparkyfitness-system-admin-api
-- description: The Utility API from SparkyFitness — 1 operation(s) for utility.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: The Utility API from SparkyFitness — 1 operation(s) for utility.
   name: SparkyFitness Utility API
   slug: sparkyfitness-utility-api
-- description: Health metrics tracking (weight, measurements, sleep, mood) and fasting.
+- baseURL: https://{host}/api
+  baseurl_source: declared
+  description: Health metrics tracking (weight, measurements, sleep, mood) and fasting.
   name: SparkyFitness Wellness & Metrics API
   slug: sparkyfitness-wellness-metrics-api
 artifact_total: 28
@@ -213,23 +267,23 @@ rate_limits:
   slug: sparkyfitness-rate-limits
 score:
   band: thin
-  composite: 30.7
+  composite: 31.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.3
+  delta: 0.7
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
-    contract_quality: 11.5
+    contract_quality: 14.4
     developer_ergonomics: 56.5
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 42.0
+  previous_composite: 30.7
   provenance:
     conformance: derived
     contracts:
@@ -246,8 +300,9 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/screenshots/sparkyfitness-2026-09-02T160339.png
 security:
 - kind: authentication
   name: Sparkyfitness Authentication

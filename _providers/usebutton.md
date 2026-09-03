@@ -33,28 +33,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Brands report new orders, order updates (including partial returns), and cancellations to Button server-to-server, passing the Button Attribution Token (btn_ref) captured by the Merchant Library; docu
   name: Button Order API
   slug: button-order-api
-- description: The Accounts API from Button — 2 operation(s) for accounts.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Accounts API from Button — 2 operation(s) for accounts.
   name: Button Accounts API
   slug: usebutton-accounts-api
-- description: The Brands Api API from Button — 1 operation(s) for brands api.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Brands Api API from Button — 1 operation(s) for brands api.
   name: Button Brands Api API
   slug: usebutton-brands-api-api
-- description: The Create API from Button — 2 operation(s) for create.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Create API from Button — 2 operation(s) for create.
   name: Button Create API
   slug: usebutton-create-api
-- description: The Links Api API from Button — 1 operation(s) for links api.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Links Api API from Button — 1 operation(s) for links api.
   name: Button Links Api API
   slug: usebutton-links-api-api
-- description: The Offers API from Button — 1 operation(s) for offers.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Offers API from Button — 1 operation(s) for offers.
   name: Button Offers API
   slug: usebutton-offers-api
-- description: The Transactions API from Button — 1 operation(s) for transactions.
+- baseURL: https://api.usebutton.com/v1/brands
+  baseurl_source: declared
+  description: The Transactions API from Button — 1 operation(s) for transactions.
   name: Button Transactions API
   slug: usebutton-transactions-api
 artifact_total: 26
@@ -279,7 +291,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -289,7 +301,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -300,7 +312,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usebutton/refs/heads/main/screenshots/usebutton-2026-08-17T082649.png
 security:

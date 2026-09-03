@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -33,19 +47,29 @@ agentic_access:
   summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
-- description: The Dynamic Qr API from QR Code Crafter — 2 operation(s) for dynamic qr.
+- baseURL: https://qrcodecrafter.com
+  baseurl_source: declared
+  description: The Dynamic Qr API from QR Code Crafter — 2 operation(s) for dynamic qr.
   name: QR Code Crafter Dynamic Qr API
   slug: qr-code-crafter-dynamic-qr-api
-- description: The Dynamic Qr Vaults API from QR Code Crafter — 5 operation(s) for dynamic qr vaults.
+- baseURL: https://qrcodecrafter.com
+  baseurl_source: declared
+  description: The Dynamic Qr Vaults API from QR Code Crafter — 5 operation(s) for dynamic qr vaults.
   name: QR Code Crafter Dynamic Qr Vaults API
   slug: qr-code-crafter-dynamic-qr-vaults-api
-- description: The .netlify API from QR Code Crafter — 3 operation(s) for .netlify.
+- baseURL: https://qrcodecrafter.com
+  baseurl_source: declared
+  description: The .netlify API from QR Code Crafter — 3 operation(s) for .netlify.
   name: QR Code Crafter .netlify API
   slug: qr-code-crafter-netlify-api
-- description: The R API from QR Code Crafter — 1 operation(s) for r.
+- baseURL: https://qrcodecrafter.com
+  baseurl_source: declared
+  description: The R API from QR Code Crafter — 1 operation(s) for r.
   name: QR Code Crafter R API
   slug: qr-code-crafter-r-api
-- description: The Send Feedback API from QR Code Crafter — 1 operation(s) for send feedback.
+- baseURL: https://qrcodecrafter.com
+  baseurl_source: declared
+  description: The Send Feedback API from QR Code Crafter — 1 operation(s) for send feedback.
   name: QR Code Crafter Send Feedback API
   slug: qr-code-crafter-send-feedback-api
 artifact_total: 11
@@ -225,7 +249,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/screenshots/qr-code-crafter-2026-08-17T081420.png
 security:

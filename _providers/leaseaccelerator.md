@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
   name: LeaseAccelerator Documents API
   slug: leaseaccelerator-documents-api
-- description: The Events API from LeaseAccelerator — 5 operation(s) for events.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Events API from LeaseAccelerator — 5 operation(s) for events.
   name: LeaseAccelerator Events API
   slug: leaseaccelerator-events-api
-- description: The Financials API from LeaseAccelerator — 6 operation(s) for financials.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Financials API from LeaseAccelerator — 6 operation(s) for financials.
   name: LeaseAccelerator Financials API
   slug: leaseaccelerator-financials-api
-- description: The Portfolio API from LeaseAccelerator — 6 operation(s) for portfolio.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Portfolio API from LeaseAccelerator — 6 operation(s) for portfolio.
   name: LeaseAccelerator Portfolio API
   slug: leaseaccelerator-portfolio-api
-- description: The Process Status API from LeaseAccelerator — 4 operation(s) for process status.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Process Status API from LeaseAccelerator — 4 operation(s) for process status.
   name: LeaseAccelerator Process Status API
   slug: leaseaccelerator-process-status-api
-- description: The Reference Data API from LeaseAccelerator — 8 operation(s) for reference data.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Reference Data API from LeaseAccelerator — 8 operation(s) for reference data.
   name: LeaseAccelerator Reference Data API
   slug: leaseaccelerator-reference-data-api
-- description: The Reporting API from LeaseAccelerator — 4 operation(s) for reporting.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Reporting API from LeaseAccelerator — 4 operation(s) for reporting.
   name: LeaseAccelerator Reporting API
   slug: leaseaccelerator-reporting-api
-- description: The Search API from LeaseAccelerator — 3 operation(s) for search.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The Search API from LeaseAccelerator — 3 operation(s) for search.
   name: LeaseAccelerator Search API
   slug: leaseaccelerator-search-api
-- description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
+- baseURL: https://www.leaseaccelerator.com/lease_accelerator/api/LeaseAccelerator
+  baseurl_source: declared
+  description: The User Provisioning API from LeaseAccelerator — 3 operation(s) for user provisioning.
   name: LeaseAccelerator User Provisioning API
   slug: leaseaccelerator-user-provisioning-api
 artifact_total: 23
@@ -274,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -55,16 +55,24 @@ apis:
 - description: API for AWS Marketplace sellers to request and retrieve reports about sales, customer subscriptions, and disbursements.
   name: AWS Marketplace Commerce Analytics Service API
   slug: commerce-analytics-service
-- description: The Change Sets API from AWS Marketplace — 4 operation(s) for change sets.
+- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Change Sets API from AWS Marketplace — 4 operation(s) for change sets.
   name: AWS Marketplace Change Sets API
   slug: aws-marketplace-change-sets-api
-- description: The Entities API from AWS Marketplace — 3 operation(s) for entities.
+- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Entities API from AWS Marketplace — 3 operation(s) for entities.
   name: AWS Marketplace Entities API
   slug: aws-marketplace-entities-api
-- description: The Resource Policies API from AWS Marketplace — 3 operation(s) for resource policies.
+- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Resource Policies API from AWS Marketplace — 3 operation(s) for resource policies.
   name: AWS Marketplace Resource Policies API
   slug: aws-marketplace-resource-policies-api
-- description: The Tags API from AWS Marketplace — 3 operation(s) for tags.
+- baseURL: https://catalog.marketplace.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from AWS Marketplace — 3 operation(s) for tags.
   name: AWS Marketplace Tags API
   slug: aws-marketplace-tags-api
 artifact_total: 19
@@ -184,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-marketplace/refs/heads/main/screenshots/aws-marketplace-2026-06-20T172754.png
 security:

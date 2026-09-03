@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 5
 apis:
-- description: Consumer identity and registration
+- baseURL: https://api.bloomcredit.io/v1
+  baseurl_source: spec
+  description: Consumer identity and registration
   name: Bloom Credit Consumers API
   slug: bloom-credit-consumers-api
-- description: Full credit bureau report retrieval
+- baseURL: https://api.bloomcredit.io/v1
+  baseurl_source: spec
+  description: Full credit bureau report retrieval
   name: Bloom Credit Credit Reports API
   slug: bloom-credit-credit-reports-api
-- description: Credit score retrieval
+- baseURL: https://api.bloomcredit.io/v1
+  baseurl_source: spec
+  description: Credit score retrieval
   name: Bloom Credit Credit Scores API
   slug: bloom-credit-credit-scores-api
-- description: Credit monitoring and alerts
+- baseURL: https://api.bloomcredit.io/v1
+  baseurl_source: spec
+  description: Credit monitoring and alerts
   name: Bloom Credit Monitoring API
   slug: bloom-credit-monitoring-api
-- description: Individual account and trade line data
+- baseURL: https://api.bloomcredit.io/v1
+  baseurl_source: spec
+  description: Individual account and trade line data
   name: Bloom Credit Trade Lines API
   slug: bloom-credit-trade-lines-api
 artifact_total: 53
@@ -310,7 +320,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloom-credit/refs/heads/main/screenshots/bloom-credit-2026-06-20T173402.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage OpenAPI specifications via the API Builder
+- baseURL: https://app.us1.jetic.io/api/v1
+  baseurl_source: spec
+  description: Manage OpenAPI specifications via the API Builder
   name: Jetic API Specifications API
   slug: jetic-api-specifications-api
-- description: Manage connected Kubernetes clusters
+- baseURL: https://app.us1.jetic.io/api/v1
+  baseurl_source: spec
+  description: Manage connected Kubernetes clusters
   name: Jetic Clusters API
   slug: jetic-clusters-api
-- description: Deploy and manage integration deployments on Kubernetes
+- baseURL: https://app.us1.jetic.io/api/v1
+  baseurl_source: spec
+  description: Deploy and manage integration deployments on Kubernetes
   name: Jetic Deployments API
   slug: jetic-deployments-api
-- description: Manage integration projects and routes
+- baseURL: https://app.us1.jetic.io/api/v1
+  baseurl_source: spec
+  description: Manage integration projects and routes
   name: Jetic Integrations API
   slug: jetic-integrations-api
-- description: Monitor integration status, logs, and metrics
+- baseURL: https://app.us1.jetic.io/api/v1
+  baseurl_source: spec
+  description: Monitor integration status, logs, and metrics
   name: Jetic Monitoring API
   slug: jetic-monitoring-api
 artifact_total: 58
@@ -245,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetic/refs/heads/main/screenshots/jetic-2026-06-20T183725.png
 security:

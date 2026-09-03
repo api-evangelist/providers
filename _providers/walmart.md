@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -45,79 +45,129 @@ agentic_access:
   summary_line: 171 operations · 82 acting · 2 human-in-the-loop
 api_count: 27
 apis:
-- description: The Assortment Recommendations API from Walmart — 3 operation(s) for assortment recommendations.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Assortment Recommendations API from Walmart — 3 operation(s) for assortment recommendations.
   name: Walmart Assortment Recommendations API
   slug: walmart-assortment-recommendations-api
-- description: The Authorization API from Walmart — 2 operation(s) for authorization.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Authorization API from Walmart — 2 operation(s) for authorization.
   name: Walmart Authorization API
   slug: walmart-authorization-api
-- description: The DSV Cost API from Walmart — 1 operation(s) for dsv cost.
+- baseURL: https://api-gateway.walmart.com
+  baseurl_source: declared
+  description: The DSV Cost API from Walmart — 1 operation(s) for dsv cost.
   name: Walmart DSV Cost API
   slug: walmart-dsv-cost-api
-- description: The DSV Orders API from Walmart — 6 operation(s) for dsv orders.
+- baseURL: https://api-gateway.walmart.com
+  baseurl_source: declared
+  description: The DSV Orders API from Walmart — 6 operation(s) for dsv orders.
   name: Walmart DSV Orders API
   slug: walmart-dsv-orders-api
-- description: The Feeds API from Walmart — 3 operation(s) for feeds.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Feeds API from Walmart — 3 operation(s) for feeds.
   name: Walmart Feeds API
   slug: walmart-feeds-api
-- description: The Fulfillment API from Walmart — 21 operation(s) for fulfillment.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Fulfillment API from Walmart — 21 operation(s) for fulfillment.
   name: Walmart Fulfillment API
   slug: walmart-fulfillment-api
-- description: The Insight API from Walmart — 7 operation(s) for insight.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Insight API from Walmart — 7 operation(s) for insight.
   name: Walmart Insight API
   slug: walmart-insight-api
-- description: The Inventory API from Walmart — 6 operation(s) for inventory.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Inventory API from Walmart — 6 operation(s) for inventory.
   name: Walmart Inventory API
   slug: walmart-inventory-api
-- description: The Items API from Walmart — 13 operation(s) for items.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Items API from Walmart — 13 operation(s) for items.
   name: Walmart Items API
   slug: walmart-items-api
-- description: The Lag Time API from Walmart — 2 operation(s) for lag time.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Lag Time API from Walmart — 2 operation(s) for lag time.
   name: Walmart Lag Time API
   slug: walmart-lag-time-api
-- description: The Listing Quality API from Walmart — 3 operation(s) for listing quality.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Listing Quality API from Walmart — 3 operation(s) for listing quality.
   name: Walmart Listing Quality API
   slug: walmart-listing-quality-api
-- description: The Notifications API from Walmart — 4 operation(s) for notifications.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Notifications API from Walmart — 4 operation(s) for notifications.
   name: Walmart Notifications API
   slug: walmart-notifications-api
-- description: The On-Request Report API from Walmart — 3 operation(s) for on-request report.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The On-Request Report API from Walmart — 3 operation(s) for on-request report.
   name: Walmart On-Request Report API
   slug: walmart-on-request-report-api
-- description: The On Request Reports API from Walmart — 3 operation(s) for on request reports.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The On Request Reports API from Walmart — 3 operation(s) for on request reports.
   name: Walmart On Request Reports API
   slug: walmart-on-request-reports-api
-- description: The Orders API from Walmart — 7 operation(s) for orders.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Orders API from Walmart — 7 operation(s) for orders.
   name: Walmart Orders API
   slug: walmart-orders-api
-- description: The Pre-Generated Reports API from Walmart — 1 operation(s) for pre-generated reports.
+- baseURL: https://api-gateway.walmart.com
+  baseurl_source: declared
+  description: The Pre-Generated Reports API from Walmart — 1 operation(s) for pre-generated reports.
   name: Walmart Pre-Generated Reports API
   slug: walmart-pre-generated-reports-api
-- description: The Prices API from Walmart — 8 operation(s) for prices.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Prices API from Walmart — 8 operation(s) for prices.
   name: Walmart Prices API
   slug: walmart-prices-api
-- description: The Promotions API from Walmart — 3 operation(s) for promotions.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Promotions API from Walmart — 3 operation(s) for promotions.
   name: Walmart Promotions API
   slug: walmart-promotions-api
-- description: The Reports API from Walmart — 7 operation(s) for reports.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Reports API from Walmart — 7 operation(s) for reports.
   name: Walmart Reports API
   slug: walmart-reports-api
-- description: The Returns/Refunds API from Walmart — 3 operation(s) for returns/refunds.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Returns/Refunds API from Walmart — 3 operation(s) for returns/refunds.
   name: Walmart Returns/Refunds API
   slug: walmart-returns-refunds-api
-- description: The Reviews API from Walmart — 3 operation(s) for reviews.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Reviews API from Walmart — 3 operation(s) for reviews.
   name: Walmart Reviews API
   slug: walmart-reviews-api
-- description: The Rules API from Walmart — 14 operation(s) for rules.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Rules API from Walmart — 14 operation(s) for rules.
   name: Walmart Rules API
   slug: walmart-rules-api
-- description: The Settings API from Walmart — 11 operation(s) for settings.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Settings API from Walmart — 11 operation(s) for settings.
   name: Walmart Settings API
   slug: walmart-settings-api
-- description: The Ship with Walmart API from Walmart — 7 operation(s) for ship with walmart.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Ship with Walmart API from Walmart — 7 operation(s) for ship with walmart.
   name: Walmart Ship with Walmart API
   slug: walmart-ship-with-walmart-api
-- description: The Utilities API from Walmart — 4 operation(s) for utilities.
+- baseURL: https://marketplace.walmartapis.com
+  baseurl_source: declared
+  description: The Utilities API from Walmart — 4 operation(s) for utilities.
   name: Walmart Utilities API
   slug: walmart-utilities-api
 artifact_total: 77
@@ -503,7 +553,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 5.0
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -513,7 +563,7 @@ score:
     discoverability: 74.1
     governance: 31.8
     operational_transparency: 84.2
-  previous_composite: 55.4
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -525,8 +575,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:
 - kind: authentication

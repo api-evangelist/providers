@@ -33,34 +33,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
   name: KurrentDB gRPC API
   slug: kurrentdb-grpc-api
-- description: Node administration operations
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Node administration operations
   name: Kurrent Admin API
   slug: kurrent-admin-api
-- description: Cluster gossip
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Cluster gossip
   name: Kurrent Gossip API
   slug: kurrent-gossip-api
-- description: Node information and configuration
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Node information and configuration
   name: Kurrent Info API
   slug: kurrent-info-api
-- description: Create, manage and query projections
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Create, manage and query projections
   name: Kurrent Projections API
   slug: kurrent-projections-api
-- description: Node statistics
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Node statistics
   name: Kurrent Statistics API
   slug: kurrent-statistics-api
-- description: Append to, read from and manage event streams
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Append to, read from and manage event streams
   name: Kurrent Streams API
   slug: kurrent-streams-api
-- description: Persistent (competing consumer) subscription management and consumption
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: Persistent (competing consumer) subscription management and consumption
   name: Kurrent Subscriptions API
   slug: kurrent-subscriptions-api
-- description: User account management
+- baseURL: https://docs.kurrent.io/server/v26.1/http-api/api.html
+  baseurl_source: declared
+  description: User account management
   name: Kurrent Users API
   slug: kurrent-users-api
 artifact_total: 32
@@ -343,7 +359,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -353,7 +369,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 45.8
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -364,7 +380,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:

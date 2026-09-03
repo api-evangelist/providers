@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 34 operations · 12 acting
 api_count: 2
 apis:
-- description: Authentication and SSO operations
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Authentication and SSO operations
   name: Trakstar Auth API
   slug: trakstar-auth-api
-- description: Manage messages sent to candidates
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage messages sent to candidates
   name: Trakstar Candidate Messages API
   slug: trakstar-candidate-messages-api
-- description: Manage job candidates
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage job candidates
   name: Trakstar Candidates API
   slug: trakstar-candidates-api
-- description: Manage course enrollment and information
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage course enrollment and information
   name: Trakstar Courses API
   slug: trakstar-courses-api
-- description: Manage candidate evaluations
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage candidate evaluations
   name: Trakstar Evaluations API
   slug: trakstar-evaluations-api
-- description: Manage user groups
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage user groups
   name: Trakstar Groups API
   slug: trakstar-groups-api
-- description: Manage internal notes on candidates
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage internal notes on candidates
   name: Trakstar Internal Notes API
   slug: trakstar-internal-notes-api
-- description: Manage candidate interviews
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage candidate interviews
   name: Trakstar Interviews API
   slug: trakstar-interviews-api
-- description: Manage job openings / positions
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage job openings / positions
   name: Trakstar Openings API
   slug: trakstar-openings-api
-- description: Manage candidate reviews
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage candidate reviews
   name: Trakstar Reviews API
   slug: trakstar-reviews-api
-- description: Manage to-do items
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage to-do items
   name: Trakstar To-Dos API
   slug: trakstar-to-dos-api
-- description: Manage user accounts
+- baseURL: https://companyname.hire.trakstar.com/api/v1/
+  baseurl_source: declared
+  description: Manage user accounts
   name: Trakstar Users API
   slug: trakstar-users-api
 artifact_total: 41
@@ -290,7 +314,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trakstar/refs/heads/main/screenshots/trakstar-2026-06-20T195534.png
 security:

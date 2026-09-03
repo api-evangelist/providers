@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 100 operations · 63 acting
 api_count: 1
 apis:
-- description: The Account API from Cintoo — 4 operation(s) for account.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Account API from Cintoo — 4 operation(s) for account.
   name: Cintoo Account API
   slug: cintoo-account-api
-- description: The Annotation API from Cintoo — 3 operation(s) for annotation.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Annotation API from Cintoo — 3 operation(s) for annotation.
   name: Cintoo Annotation API
   slug: cintoo-annotation-api
-- description: The Autodesk API from Cintoo — 3 operation(s) for autodesk.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Autodesk API from Cintoo — 3 operation(s) for autodesk.
   name: Cintoo Autodesk API
   slug: cintoo-autodesk-api
-- description: The Crop API from Cintoo — 3 operation(s) for crop.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Crop API from Cintoo — 3 operation(s) for crop.
   name: Cintoo Crop API
   slug: cintoo-crop-api
-- description: The Export Scene API from Cintoo — 1 operation(s) for export scene.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Export Scene API from Cintoo — 1 operation(s) for export scene.
   name: Cintoo Export Scene API
   slug: cintoo-export-scene-api
-- description: The File API from Cintoo — 7 operation(s) for file.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The File API from Cintoo — 7 operation(s) for file.
   name: Cintoo File API
   slug: cintoo-file-api
-- description: The Group API from Cintoo — 3 operation(s) for group.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Group API from Cintoo — 3 operation(s) for group.
   name: Cintoo Group API
   slug: cintoo-group-api
-- description: The Integrations API from Cintoo — 3 operation(s) for integrations.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Integrations API from Cintoo — 3 operation(s) for integrations.
   name: Cintoo Integrations API
   slug: cintoo-integrations-api
-- description: The Konekt API from Cintoo — 4 operation(s) for konekt.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Konekt API from Cintoo — 4 operation(s) for konekt.
   name: Cintoo Konekt API
   slug: cintoo-konekt-api
-- description: The Measurement API from Cintoo — 1 operation(s) for measurement.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Measurement API from Cintoo — 1 operation(s) for measurement.
   name: Cintoo Measurement API
   slug: cintoo-measurement-api
-- description: The Members API from Cintoo — 4 operation(s) for members.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Members API from Cintoo — 4 operation(s) for members.
   name: Cintoo Members API
   slug: cintoo-members-api
-- description: The Permissions API from Cintoo — 1 operation(s) for permissions.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Permissions API from Cintoo — 1 operation(s) for permissions.
   name: Cintoo Permissions API
   slug: cintoo-permissions-api
-- description: The Project API from Cintoo — 5 operation(s) for project.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Project API from Cintoo — 5 operation(s) for project.
   name: Cintoo Project API
   slug: cintoo-project-api
-- description: The Role API from Cintoo — 2 operation(s) for role.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Role API from Cintoo — 2 operation(s) for role.
   name: Cintoo Role API
   slug: cintoo-role-api
-- description: The Share Link API from Cintoo — 2 operation(s) for share link.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Share Link API from Cintoo — 2 operation(s) for share link.
   name: Cintoo Share Link API
   slug: cintoo-share-link-api
-- description: The Subscription API from Cintoo — 2 operation(s) for subscription.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Subscription API from Cintoo — 2 operation(s) for subscription.
   name: Cintoo Subscription API
   slug: cintoo-subscription-api
-- description: The Tag API from Cintoo — 3 operation(s) for tag.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Tag API from Cintoo — 3 operation(s) for tag.
   name: Cintoo Tag API
   slug: cintoo-tag-api
-- description: The Tag List API from Cintoo — 7 operation(s) for tag list.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Tag List API from Cintoo — 7 operation(s) for tag list.
   name: Cintoo Tag List API
   slug: cintoo-tag-list-api
-- description: The Usage Report API from Cintoo — 1 operation(s) for usage report.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Usage Report API from Cintoo — 1 operation(s) for usage report.
   name: Cintoo Usage Report API
   slug: cintoo-usage-report-api
-- description: The User API from Cintoo — 3 operation(s) for user.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The User API from Cintoo — 3 operation(s) for user.
   name: Cintoo User API
   slug: cintoo-user-api
-- description: The Workzone API from Cintoo — 3 operation(s) for workzone.
+- baseURL: https://aec.cintoo.com/api/2/
+  baseurl_source: declared
+  description: The Workzone API from Cintoo — 3 operation(s) for workzone.
   name: Cintoo Workzone API
   slug: cintoo-workzone-api
 artifact_total: 48
@@ -319,7 +361,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cintoo/refs/heads/main/screenshots/cintoo-2026-07-25T205406.png
 security:

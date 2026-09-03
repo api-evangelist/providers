@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Available transit networks and coverage near a location.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Available transit networks and coverage near a location.
   name: Transit Locations API
   slug: transitapp-locations-api
-- description: Public transit routes near a location with real-time departures.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Public transit routes near a location with real-time departures.
   name: Transit Nearby Routes API
   slug: transitapp-nearby-routes-api
-- description: Public transit stops near a location.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Public transit stops near a location.
   name: Transit Nearby Stops API
   slug: transitapp-nearby-stops-api
-- description: Itineraries, stops, and geometry for a specific route.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Itineraries, stops, and geometry for a specific route.
   name: Transit Route Details API
   slug: transitapp-route-details-api
-- description: Service alerts and disruptions for routes, stops, and networks.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Service alerts and disruptions for routes, stops, and networks.
   name: Transit Service Alerts API
   slug: transitapp-service-alerts-api
-- description: Upcoming departures for a specific stop.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Upcoming departures for a specific stop.
   name: Transit Stop Departures API
   slug: transitapp-stop-departures-api
-- description: Multimodal origin-to-destination trip planning.
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Multimodal origin-to-destination trip planning.
   name: Transit Trip Planning API
   slug: transitapp-trip-planning-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 38.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/transitapp/refs/heads/main/screenshots/transitapp-2026-09-02T164130.png
 security:
 - kind: authentication
   name: Transitapp Authentication

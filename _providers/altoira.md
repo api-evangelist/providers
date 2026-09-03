@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -34,19 +45,29 @@ agentic_access:
   summary_line: 17 operations · 11 acting
 api_count: 2
 apis:
-- description: These are the endpoints you will redirect your investors to (these are NOT api endpoints so you cannot use the Try it out tool)
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: These are the endpoints you will redirect your investors to (these are NOT api endpoints so you cannot use the Try it out tool)
   name: AltoIRA Handoffs API
   slug: altoira-handoffs-api
-- description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header (same as the Offering endpoints)
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header (same as the Offering endpoints)
   name: AltoIRA Investment API
   slug: altoira-investment-api
-- description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: Provides access to an investor's account. Generates a token to be used with the "user" endpoints below
   name: AltoIRA OAUTH API
   slug: altoira-oauth-api
-- description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: The actions are performed as the manager of an offering, not as a specific user. Authentication uses the `Basic Auth` header
   name: AltoIRA Offering API
   slug: altoira-offering-api
-- description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
+- baseURL: https://www.altoira.com
+  baseurl_source: declared
+  description: 'These actions are performed within the context of a specific user (uses OAuth2 with an `Authorization: Bearer` header)'
   name: AltoIRA User API
   slug: altoira-user-api
 artifact_total: 19
@@ -246,7 +267,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -256,7 +277,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,7 +289,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/screenshots/altoira-2026-08-07T161253.png
 security:

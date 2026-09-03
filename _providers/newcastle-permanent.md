@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Newcastle Permanent Building Society Banking Account Balances API
   slug: newcastle-permanent-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Newcastle Permanent Building Society Banking Account Direct Debits API
   slug: newcastle-permanent-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Newcastle Permanent Building Society Banking Account Scheduled Payments API
   slug: newcastle-permanent-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Newcastle Permanent Building Society Banking Account Transactions API
   slug: newcastle-permanent-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Newcastle Permanent Building Society Banking Accounts API
   slug: newcastle-permanent-banking-accounts-api
-- description: The Banking API from Newcastle Permanent Building Society — 14 operation(s) for banking.
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: The Banking API from Newcastle Permanent Building Society — 14 operation(s) for banking.
   name: Newcastle Permanent Building Society Banking API
   slug: newcastle-permanent-banking-api
-- description: Banking Payee endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Newcastle Permanent Building Society Banking Payees API
   slug: newcastle-permanent-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Newcastle Permanent Building Society Banking Products API
   slug: newcastle-permanent-banking-products-api
-- description: The Common API from Newcastle Permanent Building Society — 2 operation(s) for common.
+- baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: The Common API from Newcastle Permanent Building Society — 2 operation(s) for common.
   name: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
 artifact_total: 28
@@ -257,7 +275,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.7
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -267,7 +285,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 43.1
+  previous_composite: 44.8
   provenance:
     conformance: derived
     contracts:
@@ -288,7 +306,7 @@ score:
     regime_id: banking_open_finance
     score: 87.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

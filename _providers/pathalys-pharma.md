@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Pathalys Pharma news, press releases and scientific updates
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Pathalys Pharma news, press releases and scientific updates
   name: Pathalys Pharma Posts API
   slug: pathalys-pharma-posts-api
-- description: Corporate pages — company, team, science, contact and legal
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — company, team, science, contact and legal
   name: Pathalys Pharma Pages API
   slug: pathalys-pharma-pages-api
-- description: Media library — logos, team photography and press imagery
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Media library — logos, team photography and press imagery
   name: Pathalys Pharma Media API
   slug: pathalys-pharma-media-api
-- description: Post categories and tags taxonomy
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Post categories and tags taxonomy
   name: Pathalys Pharma Categories API
   slug: pathalys-pharma-categories-api
-- description: Comments on posts (collection is empty on this site)
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Comments on posts (collection is empty on this site)
   name: Pathalys Pharma Comments API
   slug: pathalys-pharma-comments-api
-- description: Cross-content search over posts and pages
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search over posts and pages
   name: Pathalys Pharma Search API
   slug: pathalys-pharma-search-api
-- description: Site index, route/namespace table, content types, taxonomies, statuses and oEmbed
+- baseURL: https://pathalys.com/wp-json
+  baseurl_source: declared
+  description: Site index, route/namespace table, content types, taxonomies, statuses and oEmbed
   name: Pathalys Pharma Discovery API
   slug: pathalys-pharma-discovery-api
 artifact_total: 11
@@ -175,11 +201,11 @@ score:
   band: emerging
   composite: 24.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -189,7 +215,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.0
+  previous_composite: 24.4
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +232,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pathalys-pharma/refs/heads/main/screenshots/pathalys-pharma-2026-09-02T150913.png
 security:
 - kind: authentication
   name: Pathalys Pharma Authentication

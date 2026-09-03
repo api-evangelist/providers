@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -36,34 +47,54 @@ apis:
 - description: A Model Context Protocol server endpoint advertised in the colossal.com WordPress REST route index under the "mcp" namespace and served at /wp-json/mcp/mcp-adapter-default-server. The endpoint is live
   name: Colossal Biosciences MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Categories API from Colossal Biosciences — 2 operation(s) for categories.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Categories API from Colossal Biosciences — 2 operation(s) for categories.
   name: Colossal Biosciences Categories API
   slug: colossal-biosciences-categories-api
-- description: The Comments API from Colossal Biosciences — 2 operation(s) for comments.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Colossal Biosciences — 2 operation(s) for comments.
   name: Colossal Biosciences Comments API
   slug: colossal-biosciences-comments-api
-- description: The Discovery API from Colossal Biosciences — 6 operation(s) for discovery.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Discovery API from Colossal Biosciences — 6 operation(s) for discovery.
   name: Colossal Biosciences Discovery API
   slug: colossal-biosciences-discovery-api
-- description: The Media API from Colossal Biosciences — 4 operation(s) for media.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Colossal Biosciences — 4 operation(s) for media.
   name: Colossal Biosciences Media API
   slug: colossal-biosciences-media-api
-- description: The Pages API from Colossal Biosciences — 2 operation(s) for pages.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Colossal Biosciences — 2 operation(s) for pages.
   name: Colossal Biosciences Pages API
   slug: colossal-biosciences-pages-api
-- description: The Posts API from Colossal Biosciences — 2 operation(s) for posts.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Colossal Biosciences — 2 operation(s) for posts.
   name: Colossal Biosciences Posts API
   slug: colossal-biosciences-posts-api
-- description: The Search API from Colossal Biosciences — 1 operation(s) for search.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Colossal Biosciences — 1 operation(s) for search.
   name: Colossal Biosciences Search API
   slug: colossal-biosciences-search-api
-- description: The Settings API from Colossal Biosciences — 1 operation(s) for settings.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Settings API from Colossal Biosciences — 1 operation(s) for settings.
   name: Colossal Biosciences Settings API
   slug: colossal-biosciences-settings-api
-- description: The Tags API from Colossal Biosciences — 2 operation(s) for tags.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Tags API from Colossal Biosciences — 2 operation(s) for tags.
   name: Colossal Biosciences Tags API
   slug: colossal-biosciences-tags-api
-- description: The Users API from Colossal Biosciences — 3 operation(s) for users.
+- baseURL: https://colossal.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Users API from Colossal Biosciences — 3 operation(s) for users.
   name: Colossal Biosciences Users API
   slug: colossal-biosciences-users-api
 artifact_total: 26
@@ -247,7 +278,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossal-biosciences/refs/heads/main/screenshots/colossal-biosciences-2026-08-07T163606.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 2
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 13 operations · 6 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Query registered applications
+- baseURL: http://localhost:8761/eureka
+  baseurl_source: declared
+  description: Query registered applications
   name: Netflix Eureka Applications API
   slug: netflix-eureka-applications-api
-- description: Manage service instances
+- baseURL: http://localhost:8761/eureka
+  baseurl_source: declared
+  description: Manage service instances
   name: Netflix Eureka Instances API
   slug: netflix-eureka-instances-api
-- description: Virtual IP address based queries
+- baseURL: http://localhost:8761/eureka
+  baseurl_source: declared
+  description: Virtual IP address based queries
   name: Netflix Eureka VIP API
   slug: netflix-eureka-vip-api
 artifact_total: 12
@@ -150,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/screenshots/netflix-eureka-2026-06-20T190154.png
 slug: netflix-eureka

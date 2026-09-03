@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,19 +42,29 @@ agentic_access:
   summary_line: 7 operations
 api_count: 5
 apis:
-- description: Recognised Yu-Gi-Oh! archetype catalog.
+- baseURL: https://db.ygoprodeck.com/api/v7
+  baseurl_source: declared
+  description: Recognised Yu-Gi-Oh! archetype catalog.
   name: YGOPRODeck Archetypes API
   slug: yu-gi-oh-archetypes-api
-- description: Yu-Gi-Oh! card set catalog and per-print details.
+- baseURL: https://db.ygoprodeck.com/api/v7
+  baseurl_source: declared
+  description: Yu-Gi-Oh! card set catalog and per-print details.
   name: YGOPRODeck Card Sets API
   slug: yu-gi-oh-card-sets-api
-- description: Card search, filtering, and metadata retrieval.
+- baseURL: https://db.ygoprodeck.com/api/v7
+  baseurl_source: declared
+  description: Card search, filtering, and metadata retrieval.
   name: YGOPRODeck Cards API
   slug: yu-gi-oh-cards-api
-- description: Database version and freshness information.
+- baseURL: https://db.ygoprodeck.com/api/v7
+  baseurl_source: declared
+  description: Database version and freshness information.
   name: YGOPRODeck Database API
   slug: yu-gi-oh-database-api
-- description: Valid value enumerations used by the search engine.
+- baseURL: https://db.ygoprodeck.com/api/v7
+  baseurl_source: declared
+  description: Valid value enumerations used by the search engine.
   name: YGOPRODeck Reference Data API
   slug: yu-gi-oh-reference-data-api
 artifact_total: 62
@@ -363,7 +373,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 21 operations · 21 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=MediaStore 20170901.CreateContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.createcontainer.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.CreateContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.createcontainer.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.CreateContainer API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-createcontainer-api
-- description: 'The #X Amz Target=MediaStore 20170901.DeleteContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecontainer.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DeleteContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecontainer.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DeleteContainer API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainer-api
-- description: 'The #X Amz Target=MediaStore 20170901.DeleteContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecontainerpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DeleteContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecontainerpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DeleteContainerPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-deletecontainerpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.DeleteCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecorspolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DeleteCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletecorspolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DeleteCorsPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-deletecorspolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.DeleteLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletelifecyclepolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DeleteLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletelifecyclepolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DeleteLifecyclePolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-deletelifecyclepolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.DeleteMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletemetricpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DeleteMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.deletemetricpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DeleteMetricPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-deletemetricpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.DescribeContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.describecontainer.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.DescribeContainer API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.describecontainer.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.DescribeContainer API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-describecontainer-api
-- description: 'The #X Amz Target=MediaStore 20170901.GetContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getcontainerpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.GetContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getcontainerpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.GetContainerPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-getcontainerpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.GetCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getcorspolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.GetCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getcorspolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.GetCorsPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-getcorspolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.GetLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getlifecyclepolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.GetLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getlifecyclepolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.GetLifecyclePolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-getlifecyclepolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.GetMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getmetricpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.GetMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.getmetricpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.GetMetricPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-getmetricpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.ListContainers API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.listcontainers.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.ListContainers API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.listcontainers.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.ListContainers API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-listcontainers-api
-- description: 'The #X Amz Target=MediaStore 20170901.ListTagsForResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.listtagsforresource.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.ListTagsForResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.listtagsforresource.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.ListTagsForResource API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-listtagsforresource-api
-- description: 'The #X Amz Target=MediaStore 20170901.PutContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putcontainerpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.PutContainerPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putcontainerpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.PutContainerPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-putcontainerpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.PutCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putcorspolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.PutCorsPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putcorspolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.PutCorsPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-putcorspolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.PutLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putlifecyclepolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.PutLifecyclePolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putlifecyclepolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.PutLifecyclePolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-putlifecyclepolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.PutMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putmetricpolicy.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.PutMetricPolicy API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.putmetricpolicy.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.PutMetricPolicy API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-putmetricpolicy-api
-- description: 'The #X Amz Target=MediaStore 20170901.StartAccessLogging API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.startaccesslogging.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.StartAccessLogging API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.startaccesslogging.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.StartAccessLogging API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-startaccesslogging-api
-- description: 'The #X Amz Target=MediaStore 20170901.StopAccessLogging API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.stopaccesslogging.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.StopAccessLogging API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.stopaccesslogging.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.StopAccessLogging API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-stopaccesslogging-api
-- description: 'The #X Amz Target=MediaStore 20170901.TagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.tagresource.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.TagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.tagresource.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.TagResource API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-tagresource-api
-- description: 'The #X Amz Target=MediaStore 20170901.UntagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.untagresource.'
+- baseURL: http://mediastore.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MediaStore 20170901.UntagResource API from Amazon MediaStore — 1 operation(s) for #x amz target=mediastore 20170901.untagresource.'
   name: 'Amazon MediaStore #X Amz Target=MediaStore 20170901.UntagResource API'
   slug: amazon-mediastore-x-amz-target-mediastore-20170901-untagresource-api
 artifact_total: 330
@@ -1149,7 +1191,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/screenshots/amazon-mediastore-2026-06-20T171740.png
 security:

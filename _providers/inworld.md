@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -45,22 +57,34 @@ apis:
 - description: Routing layer over 220+ LLM models, billed at provider cost via Inworld's unified API.
   name: Inworld LLM Router API
   slug: llm-router
-- description: Available models
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: Available models
   name: Inworld AI Models API
   slug: inworld-models-api
-- description: Realtime speech-to-speech
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: Realtime speech-to-speech
   name: Inworld AI Realtime API
   slug: inworld-realtime-api
-- description: LLM Router configurations
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: LLM Router configurations
   name: Inworld AI Router API
   slug: inworld-router-api
-- description: Speech-to-Text transcription
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: Speech-to-Text transcription
   name: Inworld AI STT API
   slug: inworld-stt-api
-- description: Text-to-Speech synthesis
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: Text-to-Speech synthesis
   name: Inworld AI TTS API
   slug: inworld-tts-api
-- description: Voice catalog and custom voice management
+- baseURL: https://api.inworld.ai
+  baseurl_source: declared
+  description: Voice catalog and custom voice management
   name: Inworld AI Voices API
   slug: inworld-voices-api
 artifact_total: 25
@@ -194,7 +218,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:

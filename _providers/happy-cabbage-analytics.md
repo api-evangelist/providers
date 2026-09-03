@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,49 +35,77 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Blockout dates
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Blockout dates
   name: Happy Cabbage Analytics Blockout Dates API
   slug: happy-cabbage-analytics-blockout-dates-api
-- description: Daily product sales and stock metadata
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Daily product sales and stock metadata
   name: Happy Cabbage Analytics Daily Sales Metadata API
   slug: happy-cabbage-analytics-daily-sales-metadata-api
-- description: API key identity and organization context
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: API key identity and organization context
   name: Happy Cabbage Analytics Identity API
   slug: happy-cabbage-analytics-identity-api
-- description: Inventory health data
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Inventory health data
   name: Happy Cabbage Analytics Inventory Health API
   slug: happy-cabbage-analytics-inventory-health-api
-- description: Orders
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Orders
   name: Happy Cabbage Analytics Orders API
   slug: happy-cabbage-analytics-orders-api
-- description: Package-level product inventory
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Package-level product inventory
   name: Happy Cabbage Analytics Packages API
   slug: happy-cabbage-analytics-packages-api
-- description: Organization POS brand metadata and mappings
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Organization POS brand metadata and mappings
   name: Happy Cabbage Analytics POS Brands API
   slug: happy-cabbage-analytics-pos-brands-api
-- description: Organization POS category metadata and mappings
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Organization POS category metadata and mappings
   name: Happy Cabbage Analytics POS Categories API
   slug: happy-cabbage-analytics-pos-categories-api
-- description: Product-level inventory, sales, and demand metrics
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Product-level inventory, sales, and demand metrics
   name: Happy Cabbage Analytics Product Inventory API
   slug: happy-cabbage-analytics-product-inventory-api
-- description: Product-line inventory, demand, and replenishment metrics
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Product-line inventory, demand, and replenishment metrics
   name: Happy Cabbage Analytics Product Line Inventory API
   slug: happy-cabbage-analytics-product-line-inventory-api
-- description: Product-lines
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Product-lines
   name: Happy Cabbage Analytics Product Lines API
   slug: happy-cabbage-analytics-product-lines-api
-- description: Organization location metadata
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Organization location metadata
   name: Happy Cabbage Analytics Stores API
   slug: happy-cabbage-analytics-stores-api
-- description: Canonical brand metadata across POS systems
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Canonical brand metadata across POS systems
   name: Happy Cabbage Analytics Universal Brands API
   slug: happy-cabbage-analytics-universal-brands-api
-- description: Canonical product category metadata across POS systems
+- baseURL: https://api.happycabbage.ai
+  baseurl_source: declared
+  description: Canonical product category metadata across POS systems
   name: Happy Cabbage Analytics Universal Categories API
   slug: happy-cabbage-analytics-universal-categories-api
 artifact_total: 18
@@ -198,18 +238,18 @@ rate_limits:
   slug: happy-cabbage-analytics-rate-limits
 score:
   band: thin
-  composite: 35.8
+  composite: 36.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 4.5
-    contract_quality: 55.2
+    contract_quality: 58.6
     developer_ergonomics: 37.5
     discoverability: 68.5
     governance: 4.5
@@ -225,8 +265,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/screenshots/happy-cabbage-analytics-2026-09-02T145659.png
 security:
 - kind: authentication
   name: Happy Cabbage Analytics Authentication

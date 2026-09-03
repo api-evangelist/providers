@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Academic Bibliography (Biblio) is Ghent University's institutional publication and dataset registry, operated by Ghent University Library on the university's own host. It exposes a JSON/JSONP REST
+- baseURL: https://biblio.ugent.be
+  baseurl_source: declared
+  description: The Academic Bibliography (Biblio) is Ghent University's institutional publication and dataset registry, operated by Ghent University Library on the university's own host. It exposes a JSON/JSONP REST
   name: Ghent University Academic Bibliography API
   slug: biblio
-- description: OAI-PMH 2.0 harvesting endpoint for the Academic Bibliography. The live Identify response names the repository "Ghent University Institutional Archive", declares repositoryIdentifier archive.ugent.be,
+- baseURL: https://biblio.ugent.be/oai
+  baseurl_source: declared
+  description: OAI-PMH 2.0 harvesting endpoint for the Academic Bibliography. The live Identify response names the repository "Ghent University Institutional Archive", declares repositoryIdentifier archive.ugent.be,
   name: Ghent University Academic Bibliography OAI-PMH
   slug: biblio-oai
-- description: 'SRU 1.1 search/retrieve service over the Academic Bibliography, driven by Contextual Query Language. Seventy-eight indexes are documented with their supported relations and sortability, from abstract '
+- baseURL: https://biblio.ugent.be/sru
+  baseurl_source: declared
+  description: 'SRU 1.1 search/retrieve service over the Academic Bibliography, driven by Contextual Query Language. Seventy-eight indexes are documented with their supported relations and sortability, from abstract '
   name: Ghent University Academic Bibliography SRU
   slug: biblio-sru
-- description: Open JSON API for Ghent University's student restaurants - locations and opening hours, day menus, weekly ecological sandwiches, salad bowls, extra food and allergen information - served from hydra.ug
+- baseURL: https://hydra.ugent.be/api/2.0/resto
+  baseurl_source: declared
+  description: Open JSON API for Ghent University's student restaurants - locations and opening hours, day menus, weekly ecological sandwiches, salad bowls, extra food and allergen information - served from hydra.ug
   name: Hydra Resto API
   slug: hydra-resto
-- description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the people and organizations directory behind the Academic Bibliography. Sixteen operations covering person and organi
+- baseURL: /api/v1
+  baseurl_source: spec
+  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the people and organizations directory behind the Academic Bibliography. Sixteen operations covering person and organi
   name: Ghent University Library People Service
   slug: people-service
-- description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the directory of research projects at Ghent University - add, get, delete and suggest operations over project records.
+- baseURL: /api/v1
+  baseurl_source: spec
+  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the directory of research projects at Ghent University - add, get, delete and suggest operations over project records.
   name: Ghent University Library Projects Service
   slug: projects-service
-- description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the administrative side of the OAI-PMH server that fronts the Academic Bibliography - adding metadata formats, sets, i
+- baseURL: /api/v1
+  baseurl_source: spec
+  description: An OpenAPI 3.1 contract authored and open-sourced by Ghent University Library for the administrative side of the OAI-PMH server that fronts the Academic Bibliography - adding metadata formats, sets, i
   name: Ghent University Library OAI Service
   slug: oai-service
 - description: Ghent University's own SAML 2.0 identity provider, operated by the university's ICT directorate. The signed metadata document is publicly readable and carries entityID https://identity.ugent.be/simple
@@ -229,7 +243,7 @@ score:
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 24.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -239,7 +253,7 @@ score:
     discoverability: 64.8
     governance: 3.8
     operational_transparency: 26.3
-  previous_composite: 19.2
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
@@ -254,8 +268,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghent/refs/heads/main/screenshots/ghent-2026-06-20T181815.png
 security:
 - kind: authentication

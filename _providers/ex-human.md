@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 12 operations · 11 acting
 api_count: 1
 apis:
-- description: The animations API from Ex-Human — 6 operation(s) for animations.
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The animations API from Ex-Human — 6 operation(s) for animations.
   name: Ex-Human animations API
   slug: ex-human-animations-api
-- description: The chatbot API from Ex-Human — 3 operation(s) for chatbot.
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The chatbot API from Ex-Human — 3 operation(s) for chatbot.
   name: Ex-Human chatbot API
   slug: ex-human-chatbot-api
-- description: The Image Generation API from Ex-Human — 2 operation(s) for image generation.
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The Image Generation API from Ex-Human — 2 operation(s) for image generation.
   name: Ex-Human Image Generation API
   slug: ex-human-image-generation-api
-- description: The Text to Speech API from Ex-Human — 1 operation(s) for text to speech.
+- baseURL: https://api.exh.ai
+  baseurl_source: declared
+  description: The Text to Speech API from Ex-Human — 1 operation(s) for text to speech.
   name: Ex-Human Text to Speech API
   slug: ex-human-text-to-speech-api
 artifact_total: 13
@@ -220,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ex-human/refs/heads/main/screenshots/ex-human-2026-07-25T213827.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 45 operations · 30 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: The Authentication Service provides token services for clients
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Authentication Service provides token services for clients
   name: Lightstream AuthenticationService API
   slug: lightstream-authenticationservice-api
-- description: The Backend Authentication Service provides token services for partner backend systems
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Backend Authentication Service provides token services for partner backend systems
   name: Lightstream BackendAuthenticationService API
   slug: lightstream-backendauthenticationservice-api
-- description: The Collection Service operates on collections, which contain projects and collection live sources used in projects.
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Collection Service operates on collections, which contain projects and collection live sources used in projects.
   name: Lightstream CollectionService API
   slug: lightstream-collectionservice-api
-- description: The Destination Service operates on Project Destinations. Destinations designate where a Broadcast associated with a Project is distributed downstream.
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Destination Service operates on Project Destinations. Destinations designate where a Broadcast associated with a Project is distributed downstream.
   name: Lightstream DestinationService API
   slug: lightstream-destinationservice-api
-- description: The event API provides a mechanism for you to subscribe and publish events between your backend services and the composition, as well as receive events from the live and layout api.
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The event API provides a mechanism for you to subscribe and publish events between your backend services and the composition, as well as receive events from the live and layout api.
   name: Lightstream EventService API
   slug: lightstream-eventservice-api
-- description: Layers
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: Layers
   name: Lightstream LayerService API
   slug: lightstream-layerservice-api
-- description: Layouts
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: Layouts
   name: Lightstream LayoutService API
   slug: lightstream-layoutservice-api
-- description: The Project Service operates on a Project.
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Project Service operates on a Project.
   name: Lightstream ProjectService API
   slug: lightstream-projectservice-api
-- description: The Public Authentication Service provides token verification services
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Public Authentication Service provides token verification services
   name: Lightstream PublicAuthenticationService API
   slug: lightstream-publicauthenticationservice-api
-- description: The Source Service operates on Collection Live Sources and Project Sources.
+- baseURL: https://live.api.stream/live/v2
+  baseurl_source: declared
+  description: The Source Service operates on Collection Live Sources and Project Sources.
   name: Lightstream SourceService API
   slug: lightstream-sourceservice-api
 artifact_total: 26
@@ -277,7 +297,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -287,7 +307,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -74,28 +74,44 @@ apis:
 - description: REST API for automating bulk data import and export flows with Oracle Fusion Cloud General Ledger. The ERP integrations resource supports loading journal data files, submitting Enterprise Scheduler Se
   name: Oracle General Ledger ERP Integrations REST API
   slug: oracle-general-ledger-erp-integrations-rest-api
-- description: The Accounting Periods API from Oracle General Ledger — 1 operation(s) for accounting periods.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Accounting Periods API from Oracle General Ledger — 1 operation(s) for accounting periods.
   name: Oracle General Ledger Accounting Periods API
   slug: oracle-general-ledger-accounting-periods-api
-- description: The Budgetary Control API from Oracle General Ledger — 1 operation(s) for budgetary control.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Budgetary Control API from Oracle General Ledger — 1 operation(s) for budgetary control.
   name: Oracle General Ledger Budgetary Control API
   slug: oracle-general-ledger-budgetary-control-api
-- description: The Currency Rates API from Oracle General Ledger — 1 operation(s) for currency rates.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Currency Rates API from Oracle General Ledger — 1 operation(s) for currency rates.
   name: Oracle General Ledger Currency Rates API
   slug: oracle-general-ledger-currency-rates-api
-- description: The ERP Integrations API from Oracle General Ledger — 1 operation(s) for erp integrations.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The ERP Integrations API from Oracle General Ledger — 1 operation(s) for erp integrations.
   name: Oracle General Ledger ERP Integrations API
   slug: oracle-general-ledger-erp-integrations-api
-- description: The Intercompany API from Oracle General Ledger — 1 operation(s) for intercompany.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Intercompany API from Oracle General Ledger — 1 operation(s) for intercompany.
   name: Oracle General Ledger Intercompany API
   slug: oracle-general-ledger-intercompany-api
-- description: The Journal Batches API from Oracle General Ledger — 2 operation(s) for journal batches.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Journal Batches API from Oracle General Ledger — 2 operation(s) for journal batches.
   name: Oracle General Ledger Journal Batches API
   slug: oracle-general-ledger-journal-batches-api
-- description: The Ledger Balances API from Oracle General Ledger — 1 operation(s) for ledger balances.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Ledger Balances API from Oracle General Ledger — 1 operation(s) for ledger balances.
   name: Oracle General Ledger Ledger Balances API
   slug: oracle-general-ledger-ledger-balances-api
-- description: The Ledger Options API from Oracle General Ledger — 1 operation(s) for ledger options.
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/resources/11.13.18.05
+  baseurl_source: declared
+  description: The Ledger Options API from Oracle General Ledger — 1 operation(s) for ledger options.
   name: Oracle General Ledger Ledger Options API
   slug: oracle-general-ledger-ledger-options-api
 artifact_total: 34
@@ -267,7 +283,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-general-ledger/refs/heads/main/screenshots/oracle-general-ledger-2026-06-20T191133.png
 security:

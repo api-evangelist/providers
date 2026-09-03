@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 51 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alerts API from Orb — 4 operation(s) for alerts.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Alerts API from Orb — 4 operation(s) for alerts.
   name: Orb Alerts API
   slug: orb-billing-alerts-api
-- description: The Coupons API from Orb — 2 operation(s) for coupons.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Coupons API from Orb — 2 operation(s) for coupons.
   name: Orb Coupons API
   slug: orb-billing-coupons-api
-- description: The Credits API from Orb — 4 operation(s) for credits.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Credits API from Orb — 4 operation(s) for credits.
   name: Orb Credits API
   slug: orb-billing-credits-api
-- description: The Customers API from Orb — 5 operation(s) for customers.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Customers API from Orb — 5 operation(s) for customers.
   name: Orb Customers API
   slug: orb-billing-customers-api
-- description: The Events API from Orb — 4 operation(s) for events.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Events API from Orb — 4 operation(s) for events.
   name: Orb Events API
   slug: orb-billing-events-api
-- description: The Invoices API from Orb — 4 operation(s) for invoices.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Invoices API from Orb — 4 operation(s) for invoices.
   name: Orb Invoices API
   slug: orb-billing-invoices-api
-- description: The Items API from Orb — 2 operation(s) for items.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Items API from Orb — 2 operation(s) for items.
   name: Orb Items API
   slug: orb-billing-items-api
-- description: The Metrics API from Orb — 2 operation(s) for metrics.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Metrics API from Orb — 2 operation(s) for metrics.
   name: Orb Metrics API
   slug: orb-billing-metrics-api
-- description: The Plans API from Orb — 2 operation(s) for plans.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Plans API from Orb — 2 operation(s) for plans.
   name: Orb Plans API
   slug: orb-billing-plans-api
-- description: The Prices API from Orb — 3 operation(s) for prices.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Prices API from Orb — 3 operation(s) for prices.
   name: Orb Prices API
   slug: orb-billing-prices-api
-- description: The Subscriptions API from Orb — 5 operation(s) for subscriptions.
+- baseURL: https://api.withorb.com/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Orb — 5 operation(s) for subscriptions.
   name: Orb Subscriptions API
   slug: orb-billing-subscriptions-api
 artifact_total: 32
@@ -219,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orb-billing/refs/heads/main/screenshots/orb-billing-2026-06-20T191155.png
 security:

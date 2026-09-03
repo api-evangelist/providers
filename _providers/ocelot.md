@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Ocelot is an open-source .NET API Gateway that provides routing, authentication, authorization, rate limiting, load balancing, caching, and service discovery for microservices architectures. It is con
   name: Ocelot API Gateway
   slug: ocelot-gateway
-- description: Obtain access tokens for the Administration API
+- baseURL: https://ocelot.readthedocs.io/
+  baseurl_source: declared
+  description: Obtain access tokens for the Administration API
   name: Ocelot Authentication API
   slug: ocelot-authentication-api
-- description: Clear output cache regions
+- baseURL: https://ocelot.readthedocs.io/
+  baseurl_source: declared
+  description: Clear output cache regions
   name: Ocelot Cache API
   slug: ocelot-cache-api
-- description: Read and update the active gateway configuration
+- baseURL: https://ocelot.readthedocs.io/
+  baseurl_source: declared
+  description: Read and update the active gateway configuration
   name: Ocelot Configuration API
   slug: ocelot-configuration-api
 artifact_total: 15
@@ -193,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/screenshots/ocelot-2026-06-20T190607.png
 security:

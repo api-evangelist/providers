@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Replica API v2 (OpenAPI 3.0.0) — REST API for AI text-to-speech, speech-to-speech, and voice-library operations. Historical; the service was sunset on 2025-06-30.
@@ -98,7 +98,7 @@ score:
   band: emerging
   composite: 14.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -114,8 +114,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/replica-studios/refs/heads/main/screenshots/replica-studios-2026-09-02T153503.png
 security:
 - kind: authentication
   name: Replica Studios Authentication

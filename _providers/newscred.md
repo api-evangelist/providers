@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,64 +38,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Assets API from Newscred — 1 operation(s) for assets.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Assets API from Newscred — 1 operation(s) for assets.
   name: Newscred Assets API
   slug: newscred-assets-api
-- description: The Brand Compliance API from Newscred — 2 operation(s) for brand compliance.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Brand Compliance API from Newscred — 2 operation(s) for brand compliance.
   name: Newscred Brand Compliance API
   slug: newscred-brand-compliance-api
-- description: The Campaigns API from Newscred — 7 operation(s) for campaigns.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Campaigns API from Newscred — 7 operation(s) for campaigns.
   name: Newscred Campaigns API
   slug: newscred-campaigns-api
-- description: The Events API from Newscred — 3 operation(s) for events.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Events API from Newscred — 3 operation(s) for events.
   name: Newscred Events API
   slug: newscred-events-api
-- description: The Fields API from Newscred — 4 operation(s) for fields.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Fields API from Newscred — 4 operation(s) for fields.
   name: Newscred Fields API
   slug: newscred-fields-api
-- description: The Labels API from Newscred — 1 operation(s) for labels.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Labels API from Newscred — 1 operation(s) for labels.
   name: Newscred Labels API
   slug: newscred-labels-api
-- description: The Library API from Newscred — 24 operation(s) for library.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Library API from Newscred — 24 operation(s) for library.
   name: Newscred Library API
   slug: newscred-library-api
-- description: The Milestones API from Newscred — 2 operation(s) for milestones.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Milestones API from Newscred — 2 operation(s) for milestones.
   name: Newscred Milestones API
   slug: newscred-milestones-api
-- description: The Publishing API from Newscred — 4 operation(s) for publishing.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Publishing API from Newscred — 4 operation(s) for publishing.
   name: Newscred Publishing API
   slug: newscred-publishing-api
-- description: The Settings API from Newscred — 1 operation(s) for settings.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Settings API from Newscred — 1 operation(s) for settings.
   name: Newscred Settings API
   slug: newscred-settings-api
-- description: The Structured Contents API from Newscred — 11 operation(s) for structured contents.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Structured Contents API from Newscred — 11 operation(s) for structured contents.
   name: Newscred Structured Contents API
   slug: newscred-structured-contents-api
-- description: The Task Step API from Newscred — 1 operation(s) for task step.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Task Step API from Newscred — 1 operation(s) for task step.
   name: Newscred Task Step API
   slug: newscred-task-step-api
-- description: 'Facilitates the integration of external systems with Optimizely CMP through the following use cases: 1. **External Work Management** – Use the endpoints to link Optimizely CMP with an external system '
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: 'Facilitates the integration of external systems with Optimizely CMP through the following use cases: 1. **External Work Management** – Use the endpoints to link Optimizely CMP with an external system '
   name: Newscred Tasks API
   slug: newscred-tasks-api
-- description: The Teams API from Newscred — 2 operation(s) for teams.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Teams API from Newscred — 2 operation(s) for teams.
   name: Newscred Teams API
   slug: newscred-teams-api
-- description: The Templates API from Newscred — 2 operation(s) for templates.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Templates API from Newscred — 2 operation(s) for templates.
   name: Newscred Templates API
   slug: newscred-templates-api
-- description: The Uploader API from Newscred — 4 operation(s) for uploader.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Uploader API from Newscred — 4 operation(s) for uploader.
   name: Newscred Uploader API
   slug: newscred-uploader-api
-- description: The Users API from Newscred — 3 operation(s) for users.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Users API from Newscred — 3 operation(s) for users.
   name: Newscred Users API
   slug: newscred-users-api
-- description: The Work Requests API from Newscred — 13 operation(s) for work requests.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Work Requests API from Newscred — 13 operation(s) for work requests.
   name: Newscred Work Requests API
   slug: newscred-work-requests-api
-- description: The Workflows API from Newscred — 2 operation(s) for workflows.
+- baseURL: https://api.cmp.optimizely.com/v3
+  baseurl_source: declared
+  description: The Workflows API from Newscred — 2 operation(s) for workflows.
   name: Newscred Workflows API
   slug: newscred-workflows-api
 artifact_total: 27
@@ -270,23 +322,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.5
+  composite: 57.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.2
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 18.2
-    contract_quality: 64.0
+    contract_quality: 64.8
     developer_ergonomics: 51.8
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 57.7
+  previous_composite: 57.5
   provenance:
     conformance: first-party
     contracts:
@@ -297,8 +349,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/newscred/refs/heads/main/screenshots/newscred-2026-09-02T150743.png
 security:
 - kind: authentication
   name: Newscred Authentication

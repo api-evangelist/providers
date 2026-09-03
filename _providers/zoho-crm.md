@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -46,112 +46,184 @@ agentic_access:
   summary_line: 405 operations · 249 acting · 1 human-in-the-loop
 api_count: 105
 apis:
-- description: The Actions API from Zoho CRM — 36 operation(s) for actions.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Actions API from Zoho CRM — 36 operation(s) for actions.
   name: Zoho CRM Actions API
   slug: zoho-crm-actions-api
-- description: The Apis API from Zoho CRM — 1 operation(s) for apis.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Apis API from Zoho CRM — 1 operation(s) for apis.
   name: Zoho CRM APIS API
   slug: zoho-crm-apis-api
-- description: The Appointments S API from Zoho CRM — 2 operation(s) for appointments s.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Appointments S API from Zoho CRM — 2 operation(s) for appointments s.
   name: Zoho CRM Appointments S API
   slug: zoho-crm-appointments-s-api
-- description: The Attachments API from Zoho CRM — 2 operation(s) for attachments.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Attachments API from Zoho CRM — 2 operation(s) for attachments.
   name: Zoho CRM Attachments API
   slug: zoho-crm-attachments-api
-- description: The Composite Requests API from Zoho CRM — 1 operation(s) for composite requests.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Composite Requests API from Zoho CRM — 1 operation(s) for composite requests.
   name: Zoho CRM Composite Requests API
   slug: zoho-crm-composite-requests-api
-- description: The Contact Roles API from Zoho CRM — 2 operation(s) for contact roles.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Contact Roles API from Zoho CRM — 2 operation(s) for contact roles.
   name: Zoho CRM Contact Roles API
   slug: zoho-crm-contact-roles-api
-- description: The Contacts API from Zoho CRM — 4 operation(s) for contacts.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Contacts API from Zoho CRM — 4 operation(s) for contacts.
   name: Zoho CRM Contacts API
   slug: zoho-crm-contacts-api
-- description: The Coql API from Zoho CRM — 1 operation(s) for coql.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Coql API from Zoho CRM — 1 operation(s) for coql.
   name: Zoho CRM Coql API
   slug: zoho-crm-coql-api
-- description: The Deleted API from Zoho CRM — 2 operation(s) for deleted.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Deleted API from Zoho CRM — 2 operation(s) for deleted.
   name: Zoho CRM Deleted API
   slug: zoho-crm-deleted-api
-- description: The Email Drafts API from Zoho CRM — 2 operation(s) for email drafts.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Email Drafts API from Zoho CRM — 2 operation(s) for email drafts.
   name: Zoho CRM Email Drafts API
   slug: zoho-crm-email-drafts-api
-- description: The Emails API from Zoho CRM — 2 operation(s) for emails.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Emails API from Zoho CRM — 2 operation(s) for emails.
   name: Zoho CRM Emails API
   slug: zoho-crm-emails-api
-- description: The Emails Sharing Details API from Zoho CRM — 1 operation(s) for emails sharing details.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Emails Sharing Details API from Zoho CRM — 1 operation(s) for emails sharing details.
   name: Zoho CRM Emails Sharing Details API
   slug: zoho-crm-emails-sharing-details-api
-- description: The Events API from Zoho CRM — 1 operation(s) for events.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Events API from Zoho CRM — 1 operation(s) for events.
   name: Zoho CRM Events API
   slug: zoho-crm-events-api
-- description: The Features API from Zoho CRM — 2 operation(s) for features.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Features API from Zoho CRM — 2 operation(s) for features.
   name: Zoho CRM Features API
   slug: zoho-crm-features-api
-- description: The Files API from Zoho CRM — 1 operation(s) for files.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Files API from Zoho CRM — 1 operation(s) for files.
   name: Zoho CRM Files API
   slug: zoho-crm-files-api
-- description: The Global Picklists API from Zoho CRM — 3 operation(s) for global picklists.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Global Picklists API from Zoho CRM — 3 operation(s) for global picklists.
   name: Zoho CRM Global Picklists API
   slug: zoho-crm-global-picklists-api
-- description: Operations for managing holidays that affect business hours and shift schedules
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: Operations for managing holidays that affect business hours and shift schedules
   name: Zoho CRM Holidays API
   slug: zoho-crm-holidays-api
-- description: The Layouts API from Zoho CRM — 1 operation(s) for layouts.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Layouts API from Zoho CRM — 1 operation(s) for layouts.
   name: Zoho CRM Layouts API
   slug: zoho-crm-layouts-api
-- description: The Leads API from Zoho CRM — 3 operation(s) for leads.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Leads API from Zoho CRM — 3 operation(s) for leads.
   name: Zoho CRM Leads API
   slug: zoho-crm-leads-api
-- description: The Locking Information S API from Zoho CRM — 2 operation(s) for locking information s.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Locking Information S API from Zoho CRM — 2 operation(s) for locking information s.
   name: Zoho CRM Locking Information S API
   slug: zoho-crm-locking-information-s-api
-- description: The Notes API from Zoho CRM — 4 operation(s) for notes.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Notes API from Zoho CRM — 4 operation(s) for notes.
   name: Zoho CRM Notes API
   slug: zoho-crm-notes-api
-- description: The Org API from Zoho CRM — 5 operation(s) for org.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Org API from Zoho CRM — 5 operation(s) for org.
   name: Zoho CRM Org API
   slug: zoho-crm-org-api
-- description: The Photo API from Zoho CRM — 1 operation(s) for photo.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Photo API from Zoho CRM — 1 operation(s) for photo.
   name: Zoho CRM Photo API
   slug: zoho-crm-photo-api
-- description: The Read API from Zoho CRM — 3 operation(s) for read.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Read API from Zoho CRM — 3 operation(s) for read.
   name: Zoho CRM Read API
   slug: zoho-crm-read-api
-- description: The Records API from Zoho CRM — 3 operation(s) for records.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Records API from Zoho CRM — 3 operation(s) for records.
   name: Zoho CRM Records API
   slug: zoho-crm-records-api
-- description: The Search API from Zoho CRM — 1 operation(s) for search.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Search API from Zoho CRM — 1 operation(s) for search.
   name: Zoho CRM Search API
   slug: zoho-crm-search-api
-- description: The Services S API from Zoho CRM — 2 operation(s) for services s.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Services S API from Zoho CRM — 2 operation(s) for services s.
   name: Zoho CRM Services S API
   slug: zoho-crm-services-s-api
-- description: The Settings API from Zoho CRM — 107 operation(s) for settings.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Settings API from Zoho CRM — 107 operation(s) for settings.
   name: Zoho CRM Settings API
   slug: zoho-crm-settings-api
-- description: The Timeline API from Zoho CRM — 1 operation(s) for timeline.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Timeline API from Zoho CRM — 1 operation(s) for timeline.
   name: Zoho CRM Timeline API
   slug: zoho-crm-timeline-api
-- description: The Upload API from Zoho CRM — 1 operation(s) for upload.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Upload API from Zoho CRM — 1 operation(s) for upload.
   name: Zoho CRM Upload API
   slug: zoho-crm-upload-api
-- description: The Upsert API from Zoho CRM — 1 operation(s) for upsert.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Upsert API from Zoho CRM — 1 operation(s) for upsert.
   name: Zoho CRM Upsert API
   slug: zoho-crm-upsert-api
-- description: The Users API from Zoho CRM — 10 operation(s) for users.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Users API from Zoho CRM — 10 operation(s) for users.
   name: Zoho CRM Users API
   slug: zoho-crm-users-api
-- description: The Workflow Configurations API from Zoho CRM — 1 operation(s) for workflow configurations.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Workflow Configurations API from Zoho CRM — 1 operation(s) for workflow configurations.
   name: Zoho CRM Workflow Configurations API
   slug: zoho-crm-workflow-configurations-api
-- description: The Write API from Zoho CRM — 2 operation(s) for write.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Write API from Zoho CRM — 2 operation(s) for write.
   name: Zoho CRM Write API
   slug: zoho-crm-write-api
-- description: The Zia Org Enrichment API from Zoho CRM — 2 operation(s) for zia org enrichment.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Zia Org Enrichment API from Zoho CRM — 2 operation(s) for zia org enrichment.
   name: Zoho CRM Zia Org Enrichment API
   slug: zoho-crm-zia-org-enrichment-api
-- description: The Zoho CRM Related Records API API from Zoho CRM — 2 operation(s) for zoho crm related records api.
+- baseURL: https://www.zohoapis.com/crm/v2
+  baseurl_source: declared
+  description: The Zoho CRM Related Records API API from Zoho CRM — 2 operation(s) for zoho crm related records api.
   name: Zoho CRM Zoho CRM Related Records API
   slug: zoho-crm-zoho-crm-related-records-api-api
 artifact_total: 48
@@ -838,7 +910,7 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -848,7 +920,7 @@ score:
     discoverability: 68.5
     governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 72.2
+  previous_composite: 72.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -860,7 +932,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:

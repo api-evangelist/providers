@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: AI REST API returning product recommendations and performing actions in the Proton.ai distributor platform. Authenticated with a static API key in the request header. Documented as a public Postman co
@@ -130,7 +130,7 @@ score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -146,8 +146,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 27.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/proton/refs/heads/main/screenshots/proton-2026-09-02T152230.png
 security:
 - kind: authentication
   name: Proton Authentication

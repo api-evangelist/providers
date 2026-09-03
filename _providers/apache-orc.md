@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 3
 apis:
-- description: The Conversion API from Apache ORC — 1 operation(s) for conversion.
+- baseURL_template: https://{host}/orc
+  baseurl_source: spec_template
+  description: The Conversion API from Apache ORC — 1 operation(s) for conversion.
   name: Apache ORC Conversion API
   slug: apache-orc-conversion-api
-- description: The Files API from Apache ORC — 4 operation(s) for files.
+- baseURL_template: https://{host}/orc
+  baseurl_source: spec_template
+  description: The Files API from Apache ORC — 4 operation(s) for files.
   name: Apache ORC Files API
   slug: apache-orc-files-api
-- description: The Operations API from Apache ORC — 1 operation(s) for operations.
+- baseURL_template: https://{host}/orc
+  baseurl_source: spec_template
+  description: The Operations API from Apache ORC — 1 operation(s) for operations.
   name: Apache ORC Operations API
   slug: apache-orc-operations-api
 artifact_total: 67
@@ -320,7 +326,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/screenshots/apache-orc-2026-06-20T172130.png
 security:

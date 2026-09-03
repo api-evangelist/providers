@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 67 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Greenspark — 3 operation(s) for account.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Account API from Greenspark — 3 operation(s) for account.
   name: Greenspark Account API
   slug: greenspark-account-api
-- description: The Email API from Greenspark — 14 operation(s) for email.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Email API from Greenspark — 14 operation(s) for email.
   name: Greenspark Email API
   slug: greenspark-email-api
-- description: The Estimations API from Greenspark — 4 operation(s) for estimations.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Estimations API from Greenspark — 4 operation(s) for estimations.
   name: Greenspark Estimations API
   slug: greenspark-estimations-api
-- description: The Impacts API from Greenspark — 5 operation(s) for impacts.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Impacts API from Greenspark — 5 operation(s) for impacts.
   name: Greenspark Impacts API
   slug: greenspark-impacts-api
-- description: The Projects API from Greenspark — 3 operation(s) for projects.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Projects API from Greenspark — 3 operation(s) for projects.
   name: Greenspark Projects API
   slug: greenspark-projects-api
-- description: The Reports API from Greenspark — 15 operation(s) for reports.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Reports API from Greenspark — 15 operation(s) for reports.
   name: Greenspark Reports API
   slug: greenspark-reports-api
-- description: The Widgets API from Greenspark — 17 operation(s) for widgets.
+- baseURL: https://api.getgreenspark.com
+  baseurl_source: declared
+  description: The Widgets API from Greenspark — 17 operation(s) for widgets.
   name: Greenspark Widgets API
   slug: greenspark-widgets-api
 artifact_total: 19
@@ -250,7 +264,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/screenshots/greenspark-2026-07-25T220317.png
 security:

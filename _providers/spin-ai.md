@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Entity management operations for reading, filtering, and updating the backup status of Google Workspace, Microsoft 365, and Salesforce entities such as users, groups, and shared drives
+- baseURL: https://apg-1.spin.ai
+  baseurl_source: spec
+  description: Entity management operations for reading, filtering, and updating the backup status of Google Workspace, Microsoft 365, and Salesforce entities such as users, groups, and shared drives
   name: Spin.AI Entities API
   slug: spin-ai-entities-api
 artifact_total: 20
@@ -235,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spin-ai/refs/heads/main/screenshots/spin-ai-2026-06-20T194315.png
 security:

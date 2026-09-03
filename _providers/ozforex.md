@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: RESTful partner API for international mass payments — live FX rate quotes, recipient account management, and automated payment processing to 170+ countries in 50+ currencies. Authenticated with API ke
@@ -154,7 +154,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ozforex/refs/heads/main/screenshots/ozforex-2026-08-07T191224.png
 security:

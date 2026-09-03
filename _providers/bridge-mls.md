@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: Zillow Group Data feeds delivered through Bridge — parcels, assessments, transactions, and Zillow Group Econ Data (ZHVI, ZORI, market metrics) — accessible via the same OData/RESO Web API surface as M
   name: Zillow Group Data (ZG Data) API
   slug: zillow-group-data-api
-- description: The Agents API from Bridge — 1 operation(s) for agents.
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The Agents API from Bridge — 1 operation(s) for agents.
   name: Bridge Agents API
   slug: bridge-mls-agents-api
-- description: The Listings API from Bridge — 2 operation(s) for listings.
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The Listings API from Bridge — 2 operation(s) for listings.
   name: Bridge Listings API
   slug: bridge-mls-listings-api
-- description: RESO Media resource (photos, virtual tours)
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Media resource (photos, virtual tours)
   name: Bridge Media API
   slug: bridge-mls-media-api
-- description: RESO Member resource (agents)
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Member resource (agents)
   name: Bridge Member API
   slug: bridge-mls-member-api
-- description: Service document and CSDL schema discovery
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: Service document and CSDL schema discovery
   name: Bridge Metadata API
   slug: bridge-mls-metadata-api
-- description: RESO Office resource (brokerages)
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Office resource (brokerages)
   name: Bridge Office API
   slug: bridge-mls-office-api
-- description: The Offices API from Bridge — 1 operation(s) for offices.
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The Offices API from Bridge — 1 operation(s) for offices.
   name: Bridge Offices API
   slug: bridge-mls-offices-api
-- description: RESO OpenHouse resource
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO OpenHouse resource
   name: Bridge OpenHouse API
   slug: bridge-mls-openhouse-api
-- description: The OpenHouses API from Bridge — 1 operation(s) for openhouses.
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The OpenHouses API from Bridge — 1 operation(s) for openhouses.
   name: Bridge OpenHouses API
   slug: bridge-mls-openhouses-api
-- description: RESO Property resource (listings)
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: RESO Property resource (listings)
   name: Bridge Property API
   slug: bridge-mls-property-api
-- description: The Webhooks API from Bridge — 3 operation(s) for webhooks.
+- baseURL: https://api.bridgedataoutput.com/api/v2/OData
+  baseurl_source: declared
+  description: The Webhooks API from Bridge — 3 operation(s) for webhooks.
   name: Bridge Webhooks API
   slug: bridge-mls-webhooks-api
 artifact_total: 67
@@ -398,7 +420,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 53 operations · 26 acting
 api_count: 2
 apis:
-- description: The Collection API from Microsoft Azure Health Data Services — 2 operation(s) for collection.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Collection API from Microsoft Azure Health Data Services — 2 operation(s) for collection.
   name: Microsoft Azure Health Data Services Collection API
   slug: azure-health-collection-api
-- description: The Deid API from Microsoft Azure Health Data Services — 1 operation(s) for deid.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Deid API from Microsoft Azure Health Data Services — 1 operation(s) for deid.
   name: Microsoft Azure Health Data Services Deid API
   slug: azure-health-deid-api
-- description: The DicomServices API from Microsoft Azure Health Data Services — 2 operation(s) for dicomservices.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The DicomServices API from Microsoft Azure Health Data Services — 2 operation(s) for dicomservices.
   name: Microsoft Azure Health Data Services DicomServices API
   slug: azure-health-dicomservices-api
-- description: The FhirServices API from Microsoft Azure Health Data Services — 2 operation(s) for fhirservices.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The FhirServices API from Microsoft Azure Health Data Services — 2 operation(s) for fhirservices.
   name: Microsoft Azure Health Data Services FhirServices API
   slug: azure-health-fhirservices-api
-- description: The IotConnectors API from Microsoft Azure Health Data Services — 4 operation(s) for iotconnectors.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The IotConnectors API from Microsoft Azure Health Data Services — 4 operation(s) for iotconnectors.
   name: Microsoft Azure Health Data Services IotConnectors API
   slug: azure-health-iotconnectors-api
-- description: The Jobs API from Microsoft Azure Health Data Services — 4 operation(s) for jobs.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Jobs API from Microsoft Azure Health Data Services — 4 operation(s) for jobs.
   name: Microsoft Azure Health Data Services Jobs API
   slug: azure-health-jobs-api
-- description: The PrivateEndpointConnections API from Microsoft Azure Health Data Services — 2 operation(s) for privateendpointconnections.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The PrivateEndpointConnections API from Microsoft Azure Health Data Services — 2 operation(s) for privateendpointconnections.
   name: Microsoft Azure Health Data Services PrivateEndpointConnections API
   slug: azure-health-privateendpointconnections-api
-- description: The PrivateLinkResources API from Microsoft Azure Health Data Services — 2 operation(s) for privatelinkresources.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The PrivateLinkResources API from Microsoft Azure Health Data Services — 2 operation(s) for privatelinkresources.
   name: Microsoft Azure Health Data Services PrivateLinkResources API
   slug: azure-health-privatelinkresources-api
-- description: The Proxy API from Microsoft Azure Health Data Services — 3 operation(s) for proxy.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Proxy API from Microsoft Azure Health Data Services — 3 operation(s) for proxy.
   name: Microsoft Azure Health Data Services Proxy API
   slug: azure-health-proxy-api
-- description: The Resource API from Microsoft Azure Health Data Services — 1 operation(s) for resource.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Resource API from Microsoft Azure Health Data Services — 1 operation(s) for resource.
   name: Microsoft Azure Health Data Services Resource API
   slug: azure-health-resource-api
-- description: The WorkspacePrivateEndpointConnections API from Microsoft Azure Health Data Services — 2 operation(s) for workspaceprivateendpointconnections.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The WorkspacePrivateEndpointConnections API from Microsoft Azure Health Data Services — 2 operation(s) for workspaceprivateendpointconnections.
   name: Microsoft Azure Health Data Services WorkspacePrivateEndpointConnections API
   slug: azure-health-workspaceprivateendpointconnections-api
-- description: The WorkspacePrivateLinkResources API from Microsoft Azure Health Data Services — 2 operation(s) for workspaceprivatelinkresources.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The WorkspacePrivateLinkResources API from Microsoft Azure Health Data Services — 2 operation(s) for workspaceprivatelinkresources.
   name: Microsoft Azure Health Data Services WorkspacePrivateLinkResources API
   slug: azure-health-workspaceprivatelinkresources-api
-- description: The Workspaces API from Microsoft Azure Health Data Services — 3 operation(s) for workspaces.
+- baseURL: https://{workspace-name}-{fhir-service-name}.fhir.azurehealthcareapis.com
+  baseurl_source: declared
+  description: The Workspaces API from Microsoft Azure Health Data Services — 3 operation(s) for workspaces.
   name: Microsoft Azure Health Data Services Workspaces API
   slug: azure-health-workspaces-api
 artifact_total: 63
@@ -418,7 +444,7 @@ score:
     regime_id: health
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-health/refs/heads/main/screenshots/azure-health-2026-06-20T172859.png
 security:

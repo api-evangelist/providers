@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -68,40 +68,64 @@ apis:
 - description: The Boomi Agent Control Tower GraphQL API provides programmatic access to AI agent management capabilities within Boomi Agentstudio. It enables listing accounts and agents, including those from extern
   name: Boomi Agent Control Tower GraphQL API
   slug: agent-control-tower-graphql-api
-- description: Manage Boomi Atoms — the lightweight runtime engines that execute integration processes.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Manage Boomi Atoms — the lightweight runtime engines that execute integration processes.
   name: Boomi Atoms API
   slug: boomi-atoms-api
-- description: Manage packaged components and integration pack attachments.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Manage packaged components and integration pack attachments.
   name: Boomi Components API
   slug: boomi-components-api
-- description: Manage deployed packages and the deployment of integration components to environments.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Manage deployed packages and the deployment of integration components to environments.
   name: Boomi Deployments API
   slug: boomi-deployments-api
-- description: Manage runtime environments where Boomi Atoms and Molecules are deployed to run integration processes.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Manage runtime environments where Boomi Atoms and Molecules are deployed to run integration processes.
   name: Boomi Environments API
   slug: boomi-environments-api
-- description: Execute integration processes and retrieve execution statistics and job results.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Execute integration processes and retrieve execution statistics and job results.
   name: Boomi Execution API
   slug: boomi-execution-api
-- description: Query and manage the authoritative master records that result from matching and merging source records.
+- baseURL: https://mdh.boomi.com/mdh
+  baseurl_source: spec
+  description: Query and manage the authoritative master records that result from matching and merging source records.
   name: Boomi Golden Records API
   slug: boomi-golden-records-api
-- description: Endpoints for producing messages to Boomi Event Streams topics via HTTP REST calls.
+- baseURL_template: https://{topicEndpoint}
+  baseurl_source: spec_template
+  description: Endpoints for producing messages to Boomi Event Streams topics via HTTP REST calls.
   name: Boomi Messages API
   slug: boomi-messages-api
-- description: Manage data models that define the schema and rules for master data domains.
+- baseURL: https://mdh.boomi.com/mdh
+  baseurl_source: spec
+  description: Manage data models that define the schema and rules for master data domains.
   name: Boomi Models API
   slug: boomi-models-api
-- description: Manage integration processes (recipes) within the Boomi platform.
+- baseURL_template: https://api.boomi.com/api/rest/v1/{accountId}
+  baseurl_source: spec_template
+  description: Manage integration processes (recipes) within the Boomi platform.
   name: Boomi Processes API
   slug: boomi-processes-api
-- description: Manage quarantined records that could not be automatically processed due to data quality issues.
+- baseURL: https://mdh.boomi.com/mdh
+  baseurl_source: spec
+  description: Manage quarantined records that could not be automatically processed due to data quality issues.
   name: Boomi Quarantine API
   slug: boomi-quarantine-api
-- description: Manage DataHub repositories that contain master data domains.
+- baseURL: https://mdh.boomi.com/mdh
+  baseurl_source: spec
+  description: Manage DataHub repositories that contain master data domains.
   name: Boomi Repositories API
   slug: boomi-repositories-api
-- description: Manage data sources that contribute records to the master data hub for matching and merging.
+- baseURL: https://mdh.boomi.com/mdh
+  baseurl_source: spec
+  description: Manage data sources that contribute records to the master data hub for matching and merging.
   name: Boomi Sources API
   slug: boomi-sources-api
 arazzos:
@@ -1039,7 +1063,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1049,7 +1073,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 61.5
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1058,7 +1082,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boomi/refs/heads/main/screenshots/boomi-2026-06-20T173607.png
 security:

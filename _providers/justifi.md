@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 90 operations · 41 acting
 api_count: 1
 apis:
-- description: 'ACH return fees are fees charged by financial institutions when an ACH (Automated Clearing House) transaction is returned due to insufficient funds or other reasons. If an ACH transaction is returned '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'ACH return fees are fees charged by financial institutions when an ACH (Automated Clearing House) transaction is returned due to insufficient funds or other reasons. If an ACH transaction is returned '
   name: JustiFi Ach Return Fees API
   slug: justifi-ach-return-fees-api
-- description: Creating an Address entity provides the necessary information to identify and locate a physical address. It may be associated with an Identity entity or Business entity to provide a more complete pict
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Creating an Address entity provides the necessary information to identify and locate a physical address. It may be associated with an Identity entity or Business entity to provide a more complete pict
   name: JustiFi Address API
   slug: justifi-address-api
-- description: The API Credentials API from JustiFi — 1 operation(s) for api credentials.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: The API Credentials API from JustiFi — 1 operation(s) for api credentials.
   name: JustiFi API Credentials API
   slug: justifi-api-credentials-api
-- description: Balance transactions are the reflection of any movement of funds that affects the balance of an account. Oftentimes, a single financial transaction (like a payment) will result in the creation of many
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Balance transactions are the reflection of any movement of funds that affects the balance of an account. Oftentimes, a single financial transaction (like a payment) will result in the creation of many
   name: JustiFi Balance Transactions API
   slug: justifi-balance-transactions-api
-- description: Create/manage bank accounts for your businesses. These accounts are used for paying out earnings for usage of various products, for example card processing.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Create/manage bank accounts for your businesses. These accounts are used for paying out earnings for usage of various products, for example card processing.
   name: JustiFi Bank Account API
   slug: justifi-bank-account-api
-- description: The Bind Insurance API from JustiFi — 1 operation(s) for bind insurance.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: The Bind Insurance API from JustiFi — 1 operation(s) for bind insurance.
   name: JustiFi Bind Insurance API
   slug: justifi-bind-insurance-api
-- description: Creating a business entity is an essential step in integrating your business operations with JustiFi. It is also necessary to comply with local laws and regulations governing your operations. To creat
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Creating a business entity is an essential step in integrating your business operations with JustiFi. It is also necessary to comply with local laws and regulations governing your operations. To creat
   name: JustiFi Business API
   slug: justifi-business-api
-- description: Checkouts can be used to collect payments directly via API, or using our Checkout component. You can use a checkout to complete a payment via JustiFi, via BNPL, via terminal, and to purchase insurance
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Checkouts can be used to collect payments directly via API, or using our Checkout component. You can use a checkout to complete a payment via JustiFi, via BNPL, via terminal, and to purchase insurance
   name: JustiFi Checkouts API
   slug: justifi-checkouts-api
-- description: A customer may dispute their payment with the card issuer/bank if they believe the charge is erroneous. When this happens, a dispute record is created and associated with their original payment.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: A customer may dispute their payment with the card issuer/bank if they believe the charge is erroneous. When this happens, a dispute record is created and associated with their original payment.
   name: JustiFi Disputes API
   slug: justifi-disputes-api
-- description: Create/manage documents attached to your businesses and identities. When a document record is created using this API the response object returns a presigned url used to upload this document to an encr
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Create/manage documents attached to your businesses and identities. When a document record is created using this API the response object returns a presigned url used to upload this document to an encr
   name: JustiFi Document API
   slug: justifi-document-api
-- description: 'Standard Fee Configurations allow platforms to set per-sub-account fee rates that are automatically applied at payment time. Configurations are managed per fee type — creating a new configuration for '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'Standard Fee Configurations allow platforms to set per-sub-account fee rates that are automatically applied at payment time. Configurations are managed per fee type — creating a new configuration for '
   name: JustiFi Fee Configurations API
   slug: justifi-fee-configurations-api
-- description: 'Creating an identity establishes a unique identification for people associated with your business. Accurately providing your information is crucial in ensuring that your identity is properly verified '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'Creating an identity establishes a unique identification for people associated with your business. Accurately providing your information is crucial in ensuring that your identity is properly verified '
   name: JustiFi Identity API
   slug: justifi-identity-api
-- description: Payment method groups are a way to associate payment methods to a single group for easy access.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Payment method groups are a way to associate payment methods to a single group for easy access.
   name: JustiFi Payment Method Groups API
   slug: justifi-payment-method-groups-api
-- description: Payment methods refer to the specific form of payment each customer uses (e.g. their credit card). Payment methods are tokenized, then charged at time of payment.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Payment methods refer to the specific form of payment each customer uses (e.g. their credit card). Payment methods are tokenized, then charged at time of payment.
   name: JustiFi Payment Methods API
   slug: justifi-payment-methods-api
-- description: 'To charge a payment method the desired amount, you''ll use a payment. You can choose whether to charge a payment method that''s already been tokenized or tokenize a new one when you create the payment. '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'To charge a payment method the desired amount, you''ll use a payment. You can choose whether to charge a payment method that''s already been tokenized or tokenize a new one when you create the payment. '
   name: JustiFi Payments API
   slug: justifi-payments-api
-- description: A payout hold is a resource that temporarily hold or pause payouts for a sub account. This feature is used for risk management, compliance, or business rule enforcement. Holds can be created automatic
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: A payout hold is a resource that temporarily hold or pause payouts for a sub account. This feature is used for risk management, compliance, or business rule enforcement. Holds can be created automatic
   name: JustiFi Payout Holds API
   slug: justifi-payout-holds-api
-- description: 'Each day, a payout containing that day''s funds is automatically created for the purpose of distributing those funds to the active bank account. Payout amounts are calculated by summing the associated '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'Each day, a payout containing that day''s funds is automatically created for the purpose of distributing those funds to the active bank account. Payout amounts are calculated by summing the associated '
   name: JustiFi Payouts API
   slug: justifi-payouts-api
-- description: Proceeds represent your platform's take-home portion of the fees from your sub account's financial transactions. Proceeds are batched together according to the payout schedule configured on your accou
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Proceeds represent your platform's take-home portion of the fees from your sub account's financial transactions. Proceeds are batched together according to the payout schedule configured on your accou
   name: JustiFi Proceeds API
   slug: justifi-proceeds-api
-- description: Provisioning API for Products serves as an automated interface to configure resources based on your current entities informations, for example creating an account for card processing.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Provisioning API for Products serves as an automated interface to configure resources based on your current entities informations, for example creating an account for card processing.
   name: JustiFi Provisioning API
   slug: justifi-provisioning-api
-- description: When you refund a payment, a refund object is created. You can retrieve information about the refunds you've issued.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: When you refund a payment, a refund object is created. You can retrieve information about the refunds you've issued.
   name: JustiFi Refunds API
   slug: justifi-refunds-api
-- description: Reports can be used to pull data for various different resources. They are CSV format, and can be filtered by date and sub account. Once a the create endpoint is called via POST, a report will be in `
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Reports can be used to pull data for various different resources. They are CSV format, and can be filtered by date and sub account. Once a the create endpoint is called via POST, a report will be in `
   name: JustiFi Reports API
   slug: justifi-reports-api
-- description: Sub Accounts are the representation of your platform's customers for payment processing in JustiFi and are associated with your platform account. To gain approval for payment processing each of your c
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Sub Accounts are the representation of your platform's customers for payment processing in JustiFi and are associated with your platform account. To gain approval for payment processing each of your c
   name: JustiFi Sub Accounts API
   slug: justifi-sub-accounts-api
-- description: 'JustiFi provides a card present solution which allows you to collect a payment via a terminal provider via one of our technology partners. To collect a payment via terminal, you must first ensure you '
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: 'JustiFi provides a card present solution which allows you to collect a payment via a terminal provider via one of our technology partners. To collect a payment via terminal, you must first ensure you '
   name: JustiFi Terminals API
   slug: justifi-terminals-api
-- description: Terminals Orders API for order management
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Terminals Orders API for order management
   name: JustiFi Terminals Orders API
   slug: justifi-terminals-orders-api
-- description: Legally binding rules and agreements that outline the rights, responsibilities, and limitations governing the use of the platform.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: Legally binding rules and agreements that outline the rights, responsibilities, and limitations governing the use of the platform.
   name: JustiFi Terms and Conditions API
   slug: justifi-terms-and-conditions-api
-- description: The Voids API from JustiFi — 1 operation(s) for voids.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: The Voids API from JustiFi — 1 operation(s) for voids.
   name: JustiFi Voids API
   slug: justifi-voids-api
-- description: The Web Component Tokens API from JustiFi — 1 operation(s) for web component tokens.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: The Web Component Tokens API from JustiFi — 1 operation(s) for web component tokens.
   name: JustiFi Web Component Tokens API
   slug: justifi-web-component-tokens-api
-- description: The Events API from JustiFi — 0 operation(s) for events.
+- baseURL: https://api.justifi.ai/v1
+  baseurl_source: declared
+  description: The Events API from JustiFi — 0 operation(s) for events.
   name: JustiFi Events API
   slug: justifi-events-api
 artifact_total: 61
@@ -358,7 +414,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -368,7 +424,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 51.3
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -390,7 +446,7 @@ score:
     regime_id: payments
     score: 53.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

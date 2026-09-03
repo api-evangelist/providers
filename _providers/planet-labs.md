@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -80,22 +80,34 @@ apis:
 - description: Official Python SDK (planet on PyPI) and CLI for working with all Planet APIs, including async clients for search, orders, subscriptions, and data activation.
   name: Planet Python SDK
   slug: python-sdk
-- description: Item type and asset type metadata.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Item type and asset type metadata.
   name: Planet Labs Data - Item Types API
   slug: planet-labs-data-item-types-api
-- description: Item and asset retrieval.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Item and asset retrieval.
   name: Planet Labs Data - Items API
   slug: planet-labs-data-items-api
-- description: Catalog search and saved searches.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Catalog search and saved searches.
   name: Planet Labs Data - Search API
   slug: planet-labs-data-search-api
-- description: Search-driven statistics.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Search-driven statistics.
   name: Planet Labs Data - Stats API
   slug: planet-labs-data-stats-api
-- description: Bundle preparation and delivery jobs.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Bundle preparation and delivery jobs.
   name: Planet Labs Orders API
   slug: planet-labs-orders-api
-- description: Standing area-of-interest delivery feeds.
+- baseURL: https://api.planet.com/data/v1
+  baseurl_source: declared
+  description: Standing area-of-interest delivery feeds.
   name: Planet Labs Subscriptions API
   slug: planet-labs-subscriptions-api
 artifact_total: 33
@@ -256,7 +268,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png
 security:

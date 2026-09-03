@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 46 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assets API from Anything — 2 operation(s) for assets.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Assets API from Anything — 2 operation(s) for assets.
   name: Anything Assets API
   slug: anything-assets-api
-- description: The Databases API from Anything — 5 operation(s) for databases.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Databases API from Anything — 5 operation(s) for databases.
   name: Anything Databases API
   slug: anything-databases-api
-- description: The Deployments API from Anything — 4 operation(s) for deployments.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Deployments API from Anything — 4 operation(s) for deployments.
   name: Anything Deployments API
   slug: anything-deployments-api
-- description: The Domains API from Anything — 3 operation(s) for domains.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Domains API from Anything — 3 operation(s) for domains.
   name: Anything Domains API
   slug: anything-domains-api
-- description: The Files API from Anything — 1 operation(s) for files.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Files API from Anything — 1 operation(s) for files.
   name: Anything Files API
   slug: anything-files-api
-- description: The Generation API from Anything — 1 operation(s) for generation.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Generation API from Anything — 1 operation(s) for generation.
   name: Anything Generation API
   slug: anything-generation-api
-- description: The Logs API from Anything — 1 operation(s) for logs.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Logs API from Anything — 1 operation(s) for logs.
   name: Anything Logs API
   slug: anything-logs-api
-- description: The Messages API from Anything — 1 operation(s) for messages.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Messages API from Anything — 1 operation(s) for messages.
   name: Anything Messages API
   slug: anything-messages-api
-- description: The Mobile API from Anything — 3 operation(s) for mobile.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Mobile API from Anything — 3 operation(s) for mobile.
   name: Anything Mobile API
   slug: anything-mobile-api
-- description: The Organizations API from Anything — 4 operation(s) for organizations.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Organizations API from Anything — 4 operation(s) for organizations.
   name: Anything Organizations API
   slug: anything-organizations-api
-- description: The Projects API from Anything — 9 operation(s) for projects.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Projects API from Anything — 9 operation(s) for projects.
   name: Anything Projects API
   slug: anything-projects-api
-- description: The Secrets API from Anything — 2 operation(s) for secrets.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Secrets API from Anything — 2 operation(s) for secrets.
   name: Anything Secrets API
   slug: anything-secrets-api
-- description: The Settings API from Anything — 1 operation(s) for settings.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The Settings API from Anything — 1 operation(s) for settings.
   name: Anything Settings API
   slug: anything-settings-api
-- description: The User API from Anything — 1 operation(s) for user.
+- baseURL: https://api.anything.com/v0/api
+  baseurl_source: declared
+  description: The User API from Anything — 1 operation(s) for user.
   name: Anything User API
   slug: anything-user-api
 artifact_total: 33
@@ -288,7 +316,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/screenshots/anything-2026-07-25T200512.png
 security:

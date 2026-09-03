@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 16 operations
 api_count: 1
 apis:
-- description: The Age Model API from Macrostrat — 1 operation(s) for age model.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Age Model API from Macrostrat — 1 operation(s) for age model.
   name: Macrostrat Age Model API
   slug: macrostrat-age-model-api
-- description: The Cartography API from Macrostrat — 1 operation(s) for cartography.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Cartography API from Macrostrat — 1 operation(s) for cartography.
   name: Macrostrat Cartography API
   slug: macrostrat-cartography-api
-- description: The Columns API from Macrostrat — 1 operation(s) for columns.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Columns API from Macrostrat — 1 operation(s) for columns.
   name: Macrostrat Columns API
   slug: macrostrat-columns-api
-- description: The Definitions API from Macrostrat — 1 operation(s) for definitions.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Definitions API from Macrostrat — 1 operation(s) for definitions.
   name: Macrostrat Definitions API
   slug: macrostrat-definitions-api
-- description: The Fossils API from Macrostrat — 1 operation(s) for fossils.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Fossils API from Macrostrat — 1 operation(s) for fossils.
   name: Macrostrat Fossils API
   slug: macrostrat-fossils-api
-- description: The Geologic Maps API from Macrostrat — 3 operation(s) for geologic maps.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Geologic Maps API from Macrostrat — 3 operation(s) for geologic maps.
   name: Macrostrat Geologic Maps API
   slug: macrostrat-geologic-maps-api
-- description: The Grids API from Macrostrat — 1 operation(s) for grids.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Grids API from Macrostrat — 1 operation(s) for grids.
   name: Macrostrat Grids API
   slug: macrostrat-grids-api
-- description: The Measurements API from Macrostrat — 1 operation(s) for measurements.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Measurements API from Macrostrat — 1 operation(s) for measurements.
   name: Macrostrat Measurements API
   slug: macrostrat-measurements-api
-- description: The Meta API from Macrostrat — 1 operation(s) for meta.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Meta API from Macrostrat — 1 operation(s) for meta.
   name: Macrostrat Meta API
   slug: macrostrat-meta-api
-- description: The Mobile API from Macrostrat — 1 operation(s) for mobile.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Mobile API from Macrostrat — 1 operation(s) for mobile.
   name: Macrostrat Mobile API
   slug: macrostrat-mobile-api
-- description: The Paleogeography API from Macrostrat — 1 operation(s) for paleogeography.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Paleogeography API from Macrostrat — 1 operation(s) for paleogeography.
   name: Macrostrat Paleogeography API
   slug: macrostrat-paleogeography-api
-- description: The Sections API from Macrostrat — 1 operation(s) for sections.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Sections API from Macrostrat — 1 operation(s) for sections.
   name: Macrostrat Sections API
   slug: macrostrat-sections-api
-- description: The Stats API from Macrostrat — 1 operation(s) for stats.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Stats API from Macrostrat — 1 operation(s) for stats.
   name: Macrostrat Stats API
   slug: macrostrat-stats-api
-- description: The Units API from Macrostrat — 1 operation(s) for units.
+- baseURL: https://macrostrat.org/api/v2
+  baseurl_source: declared
+  description: The Units API from Macrostrat — 1 operation(s) for units.
   name: Macrostrat Units API
   slug: macrostrat-units-api
 artifact_total: 35
@@ -197,7 +225,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macrostrat/refs/heads/main/screenshots/macrostrat-2026-06-20T184834.png
 security:

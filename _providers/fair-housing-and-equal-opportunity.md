@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Office of Fair Housing and Equal Opportunity (FHEO) administers and enforces federal laws that prohibit discrimination in housing based on race, color, national origin, religion, sex, familial sta
@@ -117,7 +117,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fair-housing-and-equal-opportunity/refs/heads/main/screenshots/fair-housing-and-equal-opportunity-2026-06-20T181015.png
 security:

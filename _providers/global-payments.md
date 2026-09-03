@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Global Payments Integrated API provides ISVs and software partners with payment integration capabilities including credit card processing, ACH payments, and reporting. The platform supports semi-i
   name: Global Payments Integrated API
   slug: integrated-api
-- description: Manage chargebacks and disputes.
+- baseURL: https://apis.globalpay.com
+  baseurl_source: declared
+  description: Manage chargebacks and disputes.
   name: Global Payments Disputes API
   slug: global-payments-disputes-api
-- description: Manage stored payment methods and tokenization.
+- baseURL: https://apis.globalpay.com
+  baseurl_source: declared
+  description: Manage stored payment methods and tokenization.
   name: Global Payments Payment Methods API
   slug: global-payments-payment-methods-api
-- description: Access settlement and funding information.
+- baseURL: https://apis.globalpay.com
+  baseurl_source: declared
+  description: Access settlement and funding information.
   name: Global Payments Settlements API
   slug: global-payments-settlements-api
-- description: Process and manage payment transactions.
+- baseURL: https://apis.globalpay.com
+  baseurl_source: declared
+  description: Process and manage payment transactions.
   name: Global Payments Transactions API
   slug: global-payments-transactions-api
 artifact_total: 18
@@ -199,7 +207,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png
 security:

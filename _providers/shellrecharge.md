@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 8 operations · 2 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Locations API from ShellRecharge — 4 operation(s) for locations.
+- baseURL: https://api.shell.com
+  baseurl_source: declared
+  description: The Locations API from ShellRecharge — 4 operation(s) for locations.
   name: ShellRecharge Locations API
   slug: shellrecharge-locations-api
-- description: The Sessions API from ShellRecharge — 4 operation(s) for sessions.
+- baseURL: https://api.shell.com
+  baseurl_source: declared
+  description: The Sessions API from ShellRecharge — 4 operation(s) for sessions.
   name: ShellRecharge Sessions API
   slug: shellrecharge-sessions-api
 artifact_total: 13
@@ -147,7 +151,7 @@ score:
   band: thin
   composite: 36.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -176,8 +180,9 @@ score:
     regime_id: energy_utilities
     score: 39.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/screenshots/shellrecharge-2026-09-02T155127.png
 security:
 - kind: authentication
   name: Shellrecharge Authentication

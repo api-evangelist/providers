@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Retool's low-code platform provides a visual development environment with 100+ pre-built components, native connectors to 70+ data sources, AI-powered app generation (AppGen), workflow automation, bui
   name: Retool Platform
   slug: retool-platform
-- description: Create and manage Retool applications. Apps are the core visual building blocks created in the Retool editor.
+- baseURL: https://api.retool.com/v1
+  baseurl_source: spec
+  description: Create and manage Retool applications. Apps are the core visual building blocks created in the Retool editor.
   name: Retool Apps API
   slug: retool-apps-api
-- description: Organize apps, resources, and workflows into folders for better team organization.
+- baseURL: https://api.retool.com/v1
+  baseurl_source: spec
+  description: Organize apps, resources, and workflows into folders for better team organization.
   name: Retool Folders API
   slug: retool-folders-api
-- description: Manage groups and group membership. Groups control access to apps, resources, and workflows within the organization.
+- baseURL: https://api.retool.com/v1
+  baseurl_source: spec
+  description: Manage groups and group membership. Groups control access to apps, resources, and workflows within the organization.
   name: Retool Groups API
   slug: retool-groups-api
-- description: Manage data source connections (databases, APIs, services) that power Retool queries.
+- baseURL: https://api.retool.com/v1
+  baseurl_source: spec
+  description: Manage data source connections (databases, APIs, services) that power Retool queries.
   name: Retool Resources API
   slug: retool-resources-api
-- description: Create, read, update, and delete users within a Retool organization. Manage user roles (admin, standard, end-user) and activation status.
+- baseURL: https://api.retool.com/v1
+  baseurl_source: spec
+  description: Create, read, update, and delete users within a Retool organization. Manage user roles (admin, standard, end-user) and activation status.
   name: Retool Users API
   slug: retool-users-api
 artifact_total: 37
@@ -298,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/screenshots/retool-2026-06-20T193043.png
 security:

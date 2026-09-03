@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 api_count: 13
 apis:
-- description: Operations for managing accrual overrides and balances
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing accrual overrides and balances
   name: Workday Tracking System Accruals API
   slug: workday-tracking-system-accruals-api
-- description: Operations for managing time off plan balances and overrides
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing time off plan balances and overrides
   name: Workday Tracking System Balances API
   slug: workday-tracking-system-balances-api
-- description: Operations for managing labor demand data
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing labor demand data
   name: Workday Tracking System Labor Demand API
   slug: workday-tracking-system-labor-demand-api
-- description: Operations for managing leave of absence requests
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing leave of absence requests
   name: Workday Tracking System Leave of Absence API
   slug: workday-tracking-system-leave-of-absence-api
-- description: Operations for managing scheduling organizations and settings
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing scheduling organizations and settings
   name: Workday Tracking System Scheduling Organizations API
   slug: workday-tracking-system-scheduling-organizations-api
-- description: Operations for managing schedule shifts
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing schedule shifts
   name: Workday Tracking System Shifts API
   slug: workday-tracking-system-shifts-api
-- description: Operations for managing reported and calculated time blocks
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing reported and calculated time blocks
   name: Workday Tracking System Time Blocks API
   slug: workday-tracking-system-time-blocks-api
-- description: Operations for importing and managing time clock events
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for importing and managing time clock events
   name: Workday Tracking System Time Clock Events API
   slug: workday-tracking-system-time-clock-events-api
-- description: Operations for managing employee time off requests
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing employee time off requests
   name: Workday Tracking System Time Off API
   slug: workday-tracking-system-time-off-api
-- description: Operations for creating and retrieving time requests
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for creating and retrieving time requests
   name: Workday Tracking System Time Requests API
   slug: workday-tracking-system-time-requests-api
-- description: Operations for managing employee timesheets
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing employee timesheets
   name: Workday Tracking System Timesheets API
   slug: workday-tracking-system-timesheets-api
-- description: Operations for assigning and managing work schedules
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for assigning and managing work schedules
   name: Workday Tracking System Work Schedules API
   slug: workday-tracking-system-work-schedules-api
-- description: Operations for managing worker scheduling preferences
+- baseURL: https://{tenant}.workday.com/api/time-tracking/v1
+  baseurl_source: declared
+  description: Operations for managing worker scheduling preferences
   name: Workday Tracking System Worker Preferences API
   slug: workday-tracking-system-worker-preferences-api
 arazzos:
@@ -697,7 +723,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:

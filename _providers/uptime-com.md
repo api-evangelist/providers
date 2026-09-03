@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 39 operations · 22 acting
 api_count: 1
 apis:
-- description: Create, list, update, pause, resume, and delete monitoring checks.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Create, list, update, pause, resume, and delete monitoring checks.
   name: Uptime.com Checks API
   slug: uptime-com-checks-api
-- description: Manage contact groups used for alert notifications.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Manage contact groups used for alert notifications.
   name: Uptime.com Contacts API
   slug: uptime-com-contacts-api
-- description: Manage notification integrations.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Manage notification integrations.
   name: Uptime.com Integrations API
   slug: uptime-com-integrations-api
-- description: List and retrieve detected outage records.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: List and retrieve detected outage records.
   name: Uptime.com Outages API
   slug: uptime-com-outages-api
-- description: Create, list, update, and delete SLA reports.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Create, list, update, and delete SLA reports.
   name: Uptime.com SLA Reports API
   slug: uptime-com-sla-reports-api
-- description: Manage status pages, components, and incidents.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Manage status pages, components, and incidents.
   name: Uptime.com Status Pages API
   slug: uptime-com-status-pages-api
-- description: Manage color-coded check tags.
+- baseURL: https://uptime.com/api/v1
+  baseurl_source: declared
+  description: Manage color-coded check tags.
   name: Uptime.com Tags API
   slug: uptime-com-tags-api
 artifact_total: 22
@@ -168,7 +182,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/screenshots/uptime-com-2026-09-02T165134.png
 security:
 - kind: authentication
   name: Uptime Com Authentication

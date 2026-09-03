@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 15 operations · 2 acting
 api_count: 1
 apis:
-- description: User-defined alerts on search queries.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: User-defined alerts on search queries.
   name: Free Law Project Alerts API
   slug: free-law-project-alerts-api
-- description: Opinions, clusters, dockets, and courts.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Opinions, clusters, dockets, and courts.
   name: Free Law Project Case Law API
   slug: free-law-project-case-law-api
-- description: Citation lookup and verification.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Citation lookup and verification.
   name: Free Law Project Citations API
   slug: free-law-project-citations-api
-- description: Federal and state judge financial disclosure filings.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Federal and state judge financial disclosure filings.
   name: Free Law Project Financial Disclosures API
   slug: free-law-project-financial-disclosures-api
-- description: Judges, positions, education, and political affiliations.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Judges, positions, education, and political affiliations.
   name: Free Law Project Judges API
   slug: free-law-project-judges-api
-- description: Oral argument audio recordings.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Oral argument audio recordings.
   name: Free Law Project Oral Arguments API
   slug: free-law-project-oral-arguments-api
-- description: PACER dockets, entries, and documents.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: PACER dockets, entries, and documents.
   name: Free Law Project PACER API
   slug: free-law-project-pacer-api
-- description: RECAP archive of public PACER documents.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: RECAP archive of public PACER documents.
   name: Free Law Project RECAP API
   slug: free-law-project-recap-api
-- description: Full-text and faceted search across CourtListener data.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: Full-text and faceted search across CourtListener data.
   name: Free Law Project Search API
   slug: free-law-project-search-api
-- description: User tags for organizing dockets.
+- baseURL: https://www.courtlistener.com/api/rest/v4
+  baseurl_source: declared
+  description: User tags for organizing dockets.
   name: Free Law Project Tags API
   slug: free-law-project-tags-api
 artifact_total: 28
@@ -197,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/screenshots/free-law-project-2026-06-20T181519.png
 security:

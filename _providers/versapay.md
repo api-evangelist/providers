@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -34,70 +47,114 @@ agentic_access:
   summary_line: 106 operations · 54 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The Agreements API from Versapay — 7 operation(s) for agreements.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: The Agreements API from Versapay — 7 operation(s) for agreements.
   name: Versapay Agreements API
   slug: versapay-agreements-api
-- description: 'Visit your account settings in `UAT` (https://uat.versapay.com/account) or `Production` (https://secure.versapay.com/account) to setup API credentials needed for authentication as well as webhooks to '
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: 'Visit your account settings in `UAT` (https://uat.versapay.com/account) or `Production` (https://secure.versapay.com/account) to setup API credentials needed for authentication as well as webhooks to '
   name: Versapay Authentication API
   slug: versapay-authentication-api
-- description: Autopays are a digital analog to paper pre-authorized debit agreements that businesses could use, for instance, for monthly billing.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Autopays are a digital analog to paper pre-authorized debit agreements that businesses could use, for instance, for monthly billing.
   name: Versapay Autopay API
   slug: versapay-autopay-api
-- description: Card Present EMV payment transactions require a Versapay certified point-of-sale terminal. Contact support@versapay.com for support & setup for POS/CP EMV enablement.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Card Present EMV payment transactions require a Versapay certified point-of-sale terminal. Contact support@versapay.com for support & setup for POS/CP EMV enablement.
   name: Versapay Card Present EMV API
   slug: versapay-card-present-emv-api
-- description: As a supplier your customers collaborate with you through comments about invoices and/or payments.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: As a supplier your customers collaborate with you through comments about invoices and/or payments.
   name: Versapay Collaboration API
   slug: versapay-collaboration-api
-- description: 'As a supplier your customers are the entities that are invoiced. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a customer.'
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: 'As a supplier your customers are the entities that are invoiced. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a customer.'
   name: Versapay Customers API
   slug: versapay-customers-api
-- description: Operations available to developers
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Operations available to developers
   name: Versapay Developers API
   slug: versapay-developers-api
-- description: As a supplier divisions are used to group your invoices.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: As a supplier divisions are used to group your invoices.
   name: Versapay Divisions API
   slug: versapay-divisions-api
-- description: As a supplier you can upload customer, invoice, and payment data in CSV file formats.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: As a supplier you can upload customer, invoice, and payment data in CSV file formats.
   name: Versapay File Imports API
   slug: versapay-file-imports-api
-- description: The Fund Sources API from Versapay — 2 operation(s) for fund sources.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: The Fund Sources API from Versapay — 2 operation(s) for fund sources.
   name: Versapay Fund Sources API
   slug: versapay-fund-sources-api
-- description: Provisioned gift cards can be activated/enabled (or deactivated/disabled) as well as have their balances loaded/re-loaded with an amount. Contact support@versapay.com for support & setup for Gift Card
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Provisioned gift cards can be activated/enabled (or deactivated/disabled) as well as have their balances loaded/re-loaded with an amount. Contact support@versapay.com for support & setup for Gift Card
   name: Versapay Gift Cards API
   slug: versapay-gift-cards-api
-- description: Operations intended only to the iframe front end
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Operations intended only to the iframe front end
   name: Versapay Internal API
   slug: versapay-internal-api
-- description: 'As a supplier invoices are your receivables. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for an invoice.'
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: 'As a supplier invoices are your receivables. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for an invoice.'
   name: Versapay Invoices API
   slug: versapay-invoices-api
-- description: 'As a supplier a payments are made by customers for invoices issued to them. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a payment.'
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: 'As a supplier a payments are made by customers for invoices issued to them. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a payment.'
   name: Versapay Invoicing Payments API
   slug: versapay-invoicing-payments-api
-- description: As a supplier you can notify customers about their invoices.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: As a supplier you can notify customers about their invoices.
   name: Versapay Notifications API
   slug: versapay-notifications-api
-- description: Onboarding supports the automated process of applying for merchant services. Contact support@versapay.com for support & setup of supplier onboarding partner credentials.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Onboarding supports the automated process of applying for merchant services. Contact support@versapay.com for support & setup of supplier onboarding partner credentials.
   name: Versapay Onboarding API
   slug: versapay-onboarding-api
-- description: Order-based card/ACH and card present EMV payment transactions include verify, authorize, capture, sale, void, return refund, and return credit transaction types. If participating in a gift card progr
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Order-based card/ACH and card present EMV payment transactions include verify, authorize, capture, sale, void, return refund, and return credit transaction types. If participating in a gift card progr
   name: Versapay Order Transactions API
   slug: versapay-order-transactions-api
-- description: The Order entity represents the sales document in the ERP system. The fields in the ERP system should be aligned as closely as possible with the fields in the order entity, as the gateway will use the
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: The Order entity represents the sales document in the ERP system. The fields in the ERP system should be aligned as closely as possible with the fields in the order entity, as the gateway will use the
   name: Versapay Orders API
   slug: versapay-orders-api
-- description: For convenience purposes only, Versapay can supply third party reference data to its partners and users. This data can be used to implement client-side tooling (e.g., fraud mitigation services), but i
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: For convenience purposes only, Versapay can supply third party reference data to its partners and users. This data can be used to implement client-side tooling (e.g., fraud mitigation services), but i
   name: Versapay Reference Data API
   slug: versapay-reference-data-api
-- description: Settlement Reporting includes retrieval of monthly statements, daily deposit amounts (including fee information), transaction exceptions (ACH reject/return & CC chargeback), and transaction details. C
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: Settlement Reporting includes retrieval of monthly statements, daily deposit amounts (including fee information), transaction exceptions (ACH reject/return & CC chargeback), and transaction details. C
   name: Versapay Settlement Reporting API
   slug: versapay-settlement-reporting-api
-- description: The Transactions API from Versapay — 4 operation(s) for transactions.
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: The Transactions API from Versapay — 4 operation(s) for transactions.
   name: Versapay Transactions API
   slug: versapay-transactions-api
-- description: The Wallet entity holds vaulted & secured payment methods owned by a customer (buyer/payor) that can be used to make payments via Collaborative AR (online Portals, AutoPay, Pay Now), Order Transaction
+- baseURL: https://secure.versapay.com
+  baseurl_source: declared
+  description: The Wallet entity holds vaulted & secured payment methods owned by a customer (buyer/payor) that can be used to make payments via Collaborative AR (online Portals, AutoPay, Pay Now), Order Transaction
   name: Versapay Wallets API
   slug: versapay-wallets-api
 artifact_total: 30
@@ -275,7 +332,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -285,7 +342,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,7 +360,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
 security:

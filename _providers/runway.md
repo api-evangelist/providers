@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,46 +50,74 @@ apis:
 - description: The Runway Node.js SDK provides a JavaScript and TypeScript library for integrating with the Runway API. Supports Node.js 18+ with TypeScript bindings, automatic retries, and best-practice error handl
   name: Runway Node.js SDK
   slug: nodejs-sdk
-- description: Create and manage persistent avatar personas with defined appearance, voice, and personality. Avatars can be created from a single reference image in any visual style.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Create and manage persistent avatar personas with defined appearance, voice, and personality. Avatars can be created from a single reference image in any visual style.
   name: Runway Avatars API
   slug: runway-avatars-api
-- description: Control a character's facial expressions and body movements using a reference performance video with the Act Two model.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Control a character's facial expressions and body movements using a reference performance video with the Act Two model.
   name: Runway Character Performance API
   slug: runway-character-performance-api
-- description: Upload and manage domain-specific knowledge documents that avatars can reference during conversations to provide accurate, contextual responses. Each avatar supports up to 50,000 tokens of knowledge.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Upload and manage domain-specific knowledge documents that avatars can reference during conversations to provide accurate, contextual responses. Each avatar supports up to 50,000 tokens of knowledge.
   name: Runway Documents API
   slug: runway-documents-api
-- description: Interpolate between video frames to increase frame rate and smoothness.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Interpolate between video frames to increase frame rate and smoothness.
   name: Runway Frame Interpolation API
   slug: runway-frame-interpolation-api
-- description: Generate videos from input images with optional text prompts using Gen-4, Gen-4 Turbo, Gen-4.5, or Aleph models.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate videos from input images with optional text prompts using Gen-4, Gen-4 Turbo, Gen-4.5, or Aleph models.
   name: Runway Image to Video API
   slug: runway-image-to-video-api
-- description: Create generative videos where a selected face speaks lines from audio clips or AI-generated voices, supporting 28+ languages.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Create generative videos where a selected face speaks lines from audio clips or AI-generated voices, supporting 28+ languages.
   name: Runway Lip Sync API
   slug: runway-lip-sync-api
-- description: Create live WebRTC sessions connecting users to avatars for real-time conversational interactions. Each session has a maximum duration of 5 minutes.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Create live WebRTC sessions connecting users to avatars for real-time conversational interactions. Each session has a maximum duration of 5 minutes.
   name: Runway Realtime Sessions API
   slug: runway-realtime-sessions-api
-- description: Generate sound effects for videos using AI.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate sound effects for videos using AI.
   name: Runway Sound Effects API
   slug: runway-sound-effects-api
-- description: Retrieve status and output of asynchronous generation tasks.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Retrieve status and output of asynchronous generation tasks.
   name: Runway Tasks API
   slug: runway-tasks-api
-- description: Generate high-quality images from text prompts using the Gen-4 Image model.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate high-quality images from text prompts using the Gen-4 Image model.
   name: Runway Text to Image API
   slug: runway-text-to-image-api
-- description: Generate videos from text prompts alone using Gen-4.5, Veo 3.1, or Veo 3.1 Fast models.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate videos from text prompts alone using Gen-4.5, Veo 3.1, or Veo 3.1 Fast models.
   name: Runway Text to Video API
   slug: runway-text-to-video-api
-- description: Upload temporary media files that can be referenced in generation requests.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Upload temporary media files that can be referenced in generation requests.
   name: Runway Uploads API
   slug: runway-uploads-api
-- description: Generate new videos from existing video inputs using the Gen-4 Aleph model.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate new videos from existing video inputs using the Gen-4 Aleph model.
   name: Runway Video to Video API
   slug: runway-video-to-video-api
-- description: Upscale video resolution and quality.
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Upscale video resolution and quality.
   name: Runway Video Upscale API
   slug: runway-video-upscale-api
 artifact_total: 82
@@ -408,7 +436,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -421,7 +449,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 51.9
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -430,7 +458,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

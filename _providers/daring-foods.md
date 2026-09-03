@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 31 operations
 api_count: 1
 apis:
-- description: 'Public, unauthenticated read access to the Daring recipe library via the site''s custom `recipes` WordPress post type. Verified live at 208 published recipes, each classified by cooking method through '
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the Daring recipe library via the site''s custom `recipes` WordPress post type. Verified live at 208 published recipes, each classified by cooking method through '
   name: Daring Foods Recipes API
   slug: daring-foods-recipes-api
-- description: Public, unauthenticated read access to the Daring retail plant-chicken catalog via the custom `products` post type - Original Shredded and Diced Plant Chicken, the Plant Chicken Bowl line, Plant Chick
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Daring retail plant-chicken catalog via the custom `products` post type - Original Shredded and Diced Plant Chicken, the Plant Chicken Bowl line, Plant Chick
   name: Daring Foods Retail Products API
   slug: daring-foods-products-api
-- description: Public, unauthenticated read access to the Daring foodservice (B2B) product line via the custom `foodservice-products` post type - the bulk and gluten-free product sold to restaurants, campus dining a
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Daring foodservice (B2B) product line via the custom `foodservice-products` post type - the bulk and gluten-free product sold to restaurants, campus dining a
   name: Daring Foods Foodservice Products API
   slug: daring-foods-foodservice-api
-- description: Public, unauthenticated read access to the 17 static marketing pages of daring.com - Our Mission, Ingredients, How To Cook, Locator, FAQ, Careers, Terms & Conditions and the Foodservice sub-tree. Unli
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the 17 static marketing pages of daring.com - Our Mission, Ingredients, How To Cook, Locator, FAQ, Careers, Terms & Conditions and the Foodservice sub-tree. Unli
   name: Daring Foods Pages API
   slug: daring-foods-pages-api
-- description: Public, unauthenticated read access to the media library behind daring.com - packaging and product photography, recipe imagery and site assets. Verified live at 749 attachments, each with every genera
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind daring.com - packaging and product photography, recipe imagery and site assets. Verified live at 749 attachments, each with every genera
   name: Daring Foods Media API
   slug: daring-foods-media-api
-- description: Public, unauthenticated cross-content search over daring.com, returning lightweight id / title / url / type / subtype records spanning recipes, retail products, foodservice products, pages and posts i
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over daring.com, returning lightweight id / title / url / type / subtype records spanning recipes, retail products, foodservice products, pages and posts i
   name: Daring Foods Search API
   slug: daring-foods-search-api
-- description: The self-describing metadata layer - route index (222 routes across 10 namespaces), registered post types, taxonomies, statuses and authors - that makes the whole daring.com surface machine-readable w
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: The self-describing metadata layer - route index (222 routes across 10 namespaces), registered post types, taxonomies, statuses and authors - that makes the whole daring.com surface machine-readable w
   name: Daring Foods Discovery API
   slug: daring-foods-discovery-api
-- description: Public, unauthenticated read access to the standard WordPress `post` collection and its comment thread. Daring Foods runs no editorial blog - the collection holds one post, the WordPress install defau
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the standard WordPress `post` collection and its comment thread. Daring Foods runs no editorial blog - the collection holds one post, the WordPress install defau
   name: Daring Foods Posts API
   slug: daring-foods-posts-api
-- description: Public oEmbed 1.0 provider endpoint for daring.com URLs, returning embeddable rich metadata - title, author, thumbnail and iframe markup - for any recipe, product or marketing page in a single unauthe
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for daring.com URLs, returning embeddable rich metadata - title, author, thumbnail and iframe markup - for any recipe, product or marketing page in a single unauthe
   name: Daring Foods oEmbed API
   slug: daring-foods-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered SEO metadata and full schema.org JSON-LD graph for any daring.com URL - the most structured description of a Daring recipe or product available fr
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered SEO metadata and full schema.org JSON-LD graph for any daring.com URL - the most structured description of a Daring recipe or product available fr
   name: Daring Foods SEO Metadata API
   slug: daring-foods-seo-api
-- description: The `category` taxonomy - cooking methods for the recipe library.
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: The `category` taxonomy - cooking methods for the recipe library.
   name: Daring Foods Categories API
   slug: daring-foods-categories-api
-- description: Comments attached to posts. 41 approved, predominantly automated spam.
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Comments attached to posts. 41 approved, predominantly automated spam.
   name: Daring Foods Comments API
   slug: daring-foods-comments-api
-- description: Post types, taxonomies, statuses and authors.
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: Post types, taxonomies, statuses and authors.
   name: Daring Foods Metadata API
   slug: daring-foods-metadata-api
-- description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
+- baseURL: https://daring.com/wp-json
+  baseurl_source: declared
+  description: The `post_tag` taxonomy. Registered but empty on this site (0 terms).
   name: Daring Foods Tags API
   slug: daring-foods-tags-api
 artifact_total: 33
@@ -297,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:

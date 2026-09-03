@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 2
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 32 operations · 22 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth States API from Scrapybara — 4 operation(s) for auth states.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Auth States API from Scrapybara — 4 operation(s) for auth states.
   name: Scrapybara Auth States API
   slug: scrapybara-auth-states-api
-- description: The Browser API from Scrapybara — 4 operation(s) for browser.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Browser API from Scrapybara — 4 operation(s) for browser.
   name: Scrapybara Browser API
   slug: scrapybara-browser-api
-- description: The Code Execution API from Scrapybara — 2 operation(s) for code execution.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Code Execution API from Scrapybara — 2 operation(s) for code execution.
   name: Scrapybara Code Execution API
   slug: scrapybara-code-execution-api
-- description: The Computer Actions API from Scrapybara — 3 operation(s) for computer actions.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Computer Actions API from Scrapybara — 3 operation(s) for computer actions.
   name: Scrapybara Computer Actions API
   slug: scrapybara-computer-actions-api
-- description: The Environment API from Scrapybara — 1 operation(s) for environment.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Environment API from Scrapybara — 1 operation(s) for environment.
   name: Scrapybara Environment API
   slug: scrapybara-environment-api
-- description: The Filesystem API from Scrapybara — 3 operation(s) for filesystem.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Filesystem API from Scrapybara — 3 operation(s) for filesystem.
   name: Scrapybara Filesystem API
   slug: scrapybara-filesystem-api
-- description: The Instances API from Scrapybara — 6 operation(s) for instances.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Instances API from Scrapybara — 6 operation(s) for instances.
   name: Scrapybara Instances API
   slug: scrapybara-instances-api
-- description: The Notebook API from Scrapybara — 6 operation(s) for notebook.
+- baseURL: https://api.scrapybara.com/v1
+  baseurl_source: declared
+  description: The Notebook API from Scrapybara — 6 operation(s) for notebook.
   name: Scrapybara Notebook API
   slug: scrapybara-notebook-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: thin
   composite: 38.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -197,8 +213,9 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scrapybara/refs/heads/main/screenshots/scrapybara-2026-09-02T154602.png
 security:
 - kind: authentication
   name: Scrapybara Authentication

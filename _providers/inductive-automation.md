@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -46,265 +46,439 @@ apis:
 - description: The Ignition Gateway REST API (available in Ignition 8.3+) provides an OpenAPI- compliant HTTP interface to Gateway configuration resources including tags, projects, modules, device connections, and h
   name: Ignition Gateway REST API
   slug: ignition-gateway-rest-api
-- description: Access control configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Access control configuration
   name: Inductive Automation access-control API
   slug: inductive-automation-access-control-api
-- description: EAM agent group management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: EAM agent group management
   name: Inductive Automation agent-group API
   slug: inductive-automation-agent-group-api
-- description: EAM agent management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: EAM agent management
   name: Inductive Automation agent-management API
   slug: inductive-automation-agent-management-api
-- description: Alarm journal resource management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Alarm journal resource management
   name: Inductive Automation alarm-journal-resources API
   slug: inductive-automation-alarm-journal-resources-api
-- description: Alarm notification profile management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Alarm notification profile management
   name: Inductive Automation alarm-notification-profile API
   slug: inductive-automation-alarm-notification-profile-api
-- description: API token authentication
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: API token authentication
   name: Inductive Automation api-token API
   slug: inductive-automation-api-token-api
-- description: Audit log access
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Audit log access
   name: Inductive Automation audit API
   slug: inductive-automation-audit-api
-- description: Script invocation endpoints
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Script invocation endpoints
   name: Inductive Automation call-script API
   slug: inductive-automation-call-script-api
-- description: TLS/SSL certificate management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: TLS/SSL certificate management
   name: Inductive Automation certificate-management API
   slug: inductive-automation-certificate-management-api
-- description: Charts module information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Charts module information
   name: Inductive Automation charts-info API
   slug: inductive-automation-charts-info-api
-- description: Client PKI certificate management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Client PKI certificate management
   name: Inductive Automation client-pki-certificate-management API
   slug: inductive-automation-client-pki-certificate-management-api
-- description: Alarm configuration resources
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Alarm configuration resources
   name: Inductive Automation config-alarm API
   slug: inductive-automation-config-alarm-api
-- description: API token configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: API token configuration
   name: Inductive Automation config-api-token API
   slug: inductive-automation-config-api-token-api
-- description: Audit profile configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Audit profile configuration
   name: Inductive Automation config-audit-profiles API
   slug: inductive-automation-config-audit-profiles-api
-- description: Database connection configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Database connection configuration
   name: Inductive Automation config-databases API
   slug: inductive-automation-config-databases-api
-- description: Edge system properties
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Edge system properties
   name: Inductive Automation config-edge-system-properties API
   slug: inductive-automation-config-edge-system-properties-api
-- description: Email profile configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Email profile configuration
   name: Inductive Automation config-email-profile API
   slug: inductive-automation-config-email-profile-api
-- description: Gateway network configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway network configuration
   name: Inductive Automation config-gateway-network API
   slug: inductive-automation-config-gateway-network-api
-- description: Identity provider configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Identity provider configuration
   name: Inductive Automation config-identity-provider API
   slug: inductive-automation-config-identity-provider-api
-- description: Keyboard layout configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Keyboard layout configuration
   name: Inductive Automation config-keyboard-layouts API
   slug: inductive-automation-config-keyboard-layouts-api
-- description: Local system properties
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Local system properties
   name: Inductive Automation config-local-system-properties API
   slug: inductive-automation-config-local-system-properties-api
-- description: General configuration management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: General configuration management
   name: Inductive Automation config-management API
   slug: inductive-automation-config-management-api
-- description: Metrics dashboard configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Metrics dashboard configuration
   name: Inductive Automation config-metrics-dashboard API
   slug: inductive-automation-config-metrics-dashboard-api
-- description: OAuth2 client configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: OAuth2 client configuration
   name: Inductive Automation config-oauth2-client API
   slug: inductive-automation-config-oauth2-client-api
-- description: Perspective module branding configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Perspective module branding configuration
   name: Inductive Automation config-perspective-branding API
   slug: inductive-automation-config-perspective-branding-api
-- description: Perspective font configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Perspective font configuration
   name: Inductive Automation config-perspective-fonts API
   slug: inductive-automation-config-perspective-fonts-api
-- description: Perspective icon library configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Perspective icon library configuration
   name: Inductive Automation config-perspective-icons API
   slug: inductive-automation-config-perspective-icons-api
-- description: Perspective theme configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Perspective theme configuration
   name: Inductive Automation config-perspective-themes API
   slug: inductive-automation-config-perspective-themes-api
-- description: Secret provider configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Secret provider configuration
   name: Inductive Automation config-secret-provider API
   slug: inductive-automation-config-secret-provider-api
-- description: Security zone level configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Security zone level configuration
   name: Inductive Automation config-security-levels API
   slug: inductive-automation-config-security-levels-api
-- description: Security properties configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Security properties configuration
   name: Inductive Automation config-security-properties API
   slug: inductive-automation-config-security-properties-api
-- description: Security zone configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Security zone configuration
   name: Inductive Automation config-security-zone API
   slug: inductive-automation-config-security-zone-api
-- description: Store-and-forward configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Store-and-forward configuration
   name: Inductive Automation config-store-forward API
   slug: inductive-automation-config-store-forward-api
-- description: System properties configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: System properties configuration
   name: Inductive Automation config-system-properties API
   slug: inductive-automation-config-system-properties-api
-- description: Tag provider configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Tag provider configuration
   name: Inductive Automation config-tag-provider API
   slug: inductive-automation-config-tag-provider-api
-- description: Translation configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Translation configuration
   name: Inductive Automation config-translations API
   slug: inductive-automation-config-translations-api
-- description: User source configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: User source configuration
   name: Inductive Automation config-user-source API
   slug: inductive-automation-config-user-source-api
-- description: Data synchronization
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Data synchronization
   name: Inductive Automation data-syncs API
   slug: inductive-automation-data-syncs-api
-- description: Designer session management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Designer session management
   name: Inductive Automation designer-sessions API
   slug: inductive-automation-designer-sessions-api
-- description: Device connection management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Device connection management
   name: Inductive Automation device API
   slug: inductive-automation-device-api
-- description: Enterprise Administration Module task management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Enterprise Administration Module task management
   name: Inductive Automation eam-tasks API
   slug: inductive-automation-eam-tasks-api
-- description: Encryption utilities
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Encryption utilities
   name: Inductive Automation encryption API
   slug: inductive-automation-encryption-api
-- description: Generic entity management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Generic entity management
   name: Inductive Automation entity API
   slug: inductive-automation-entity-api
-- description: Event threshold configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Event threshold configuration
   name: Inductive Automation event-thresholds API
   slug: inductive-automation-event-thresholds-api
-- description: Thread pool executor management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Thread pool executor management
   name: Inductive Automation executors API
   slug: inductive-automation-executors-api
-- description: Gateway backup and restore
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway backup and restore
   name: Inductive Automation gateway-backups API
   slug: inductive-automation-gateway-backups-api
-- description: Gateway information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway information
   name: Inductive Automation gateway-info API
   slug: inductive-automation-gateway-info-api
-- description: Gateway network topology
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway network topology
   name: Inductive Automation gateway-network API
   slug: inductive-automation-gateway-network-api
-- description: Gateway script execution
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway script execution
   name: Inductive Automation gateway-scripts API
   slug: inductive-automation-gateway-scripts-api
-- description: General alarm settings
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: General alarm settings
   name: Inductive Automation general-alarm-settings API
   slug: inductive-automation-general-alarm-settings-api
-- description: The general API from Inductive Automation — 3 operation(s) for general.
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: The general API from Inductive Automation — 3 operation(s) for general.
   name: Inductive Automation general API
   slug: inductive-automation-general-api
-- description: User group information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: User group information
   name: Inductive Automation groups-info API
   slug: inductive-automation-groups-info-api
-- description: Tag historian configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Tag historian configuration
   name: Inductive Automation historian-config API
   slug: inductive-automation-historian-config-api
-- description: Ignition Launcher operations
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Ignition Launcher operations
   name: Inductive Automation launcher API
   slug: inductive-automation-launcher-api
-- description: License activation management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: License activation management
   name: Inductive Automation license-activation API
   slug: inductive-automation-license-activation-api
-- description: License management operations
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: License management operations
   name: Inductive Automation license-management API
   slug: inductive-automation-license-management-api
-- description: License status information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: License status information
   name: Inductive Automation license-status API
   slug: inductive-automation-license-status-api
-- description: Local device management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Local device management
   name: Inductive Automation local devices API
   slug: inductive-automation-local-devices-api
-- description: Logging configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Logging configuration
   name: Inductive Automation logging API
   slug: inductive-automation-logging-api
-- description: Managed tag provider operations
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Managed tag provider operations
   name: Inductive Automation managed-tag-provider API
   slug: inductive-automation-managed-tag-provider-api
-- description: Module certificate management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Module certificate management
   name: Inductive Automation module-certificate API
   slug: inductive-automation-module-certificate-api
-- description: Module EULA acceptance
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Module EULA acceptance
   name: Inductive Automation module-eula API
   slug: inductive-automation-module-eula-api
-- description: Module settings configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Module settings configuration
   name: Inductive Automation module-settings API
   slug: inductive-automation-module-settings-api
-- description: Installed module management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Installed module management
   name: Inductive Automation modules API
   slug: inductive-automation-modules-api
-- description: OPC connection management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: OPC connection management
   name: Inductive Automation opc connection API
   slug: inductive-automation-opc-connection-api
-- description: Gateway overview and status
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway overview and status
   name: Inductive Automation overview API
   slug: inductive-automation-overview-api
-- description: Perspective module session management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Perspective module session management
   name: Inductive Automation perspective-sessions API
   slug: inductive-automation-perspective-sessions-api
-- description: Alarm notification pipeline status
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Alarm notification pipeline status
   name: Inductive Automation pipeline-status API
   slug: inductive-automation-pipeline-status-api
-- description: Ignition project management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Ignition project management
   name: Inductive Automation projects API
   slug: inductive-automation-projects-api
-- description: Quick-start setup wizard
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Quick-start setup wizard
   name: Inductive Automation quickstart API
   slug: inductive-automation-quickstart-api
-- description: Gateway redundancy configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway redundancy configuration
   name: Inductive Automation redundancy API
   slug: inductive-automation-redundancy-api
-- description: Remote Gateway upgrade operations
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Remote Gateway upgrade operations
   name: Inductive Automation remote-upgrade API
   slug: inductive-automation-remote-upgrade-api
-- description: Reporting module information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Reporting module information
   name: Inductive Automation reports-info API
   slug: inductive-automation-reports-info-api
-- description: Gateway restart task management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Gateway restart task management
   name: Inductive Automation restart-tasks API
   slug: inductive-automation-restart-tasks-api
-- description: Alarm roster configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Alarm roster configuration
   name: Inductive Automation roster-config API
   slug: inductive-automation-roster-config-api
-- description: Running script monitoring
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Running script monitoring
   name: Inductive Automation running-scripts API
   slug: inductive-automation-running-scripts-api
-- description: Secret provider management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Secret provider management
   name: Inductive Automation secret-providers API
   slug: inductive-automation-secret-providers-api
-- description: OPC UA server configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: OPC UA server configuration
   name: Inductive Automation server API
   slug: inductive-automation-server-api
-- description: Server PKI certificate management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Server PKI certificate management
   name: Inductive Automation server-pki-certificate-management API
   slug: inductive-automation-server-pki-certificate-management-api
-- description: Service connector configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Service connector configuration
   name: Inductive Automation service-connectors API
   slug: inductive-automation-service-connectors-api
-- description: Sequential Function Chart configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Sequential Function Chart configuration
   name: Inductive Automation sfc-config API
   slug: inductive-automation-sfc-config-api
-- description: Storage configuration
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Storage configuration
   name: Inductive Automation storage API
   slug: inductive-automation-storage-api
-- description: Data stream information
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Data stream information
   name: Inductive Automation streams-info API
   slug: inductive-automation-streams-info-api
-- description: System performance metrics
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: System performance metrics
   name: Inductive Automation system-performance API
   slug: inductive-automation-system-performance-api
-- description: JVM thread diagnostics
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: JVM thread diagnostics
   name: Inductive Automation thread-diagnostics API
   slug: inductive-automation-thread-diagnostics-api
-- description: SCIM 2.0 user and group management
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: SCIM 2.0 user and group management
   name: Inductive Automation user-management-scim API
   slug: inductive-automation-user-management-scim-api
-- description: Vision module client sessions
+- baseURL: https://{gateway-host}:8088/api
+  baseurl_source: declared
+  description: Vision module client sessions
   name: Inductive Automation vision-sessions API
   slug: inductive-automation-vision-sessions-api
 artifact_total: 192
@@ -738,7 +912,7 @@ score:
       marker_coverage: 0.0
       total: 87
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:

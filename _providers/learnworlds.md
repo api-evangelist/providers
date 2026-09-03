@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 8 acting
 api_count: 1
 apis:
-- description: Read the school's courses and their contents.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Read the school's courses and their contents.
   name: LearnWorlds Courses API
   slug: learnworlds-courses-api
-- description: Enroll and unenroll users on courses, bundles, and subscriptions.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Enroll and unenroll users on courses, bundles, and subscriptions.
   name: LearnWorlds Enrollments API
   slug: learnworlds-enrollments-api
-- description: Read payments, subscriptions, and transactions.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Read payments, subscriptions, and transactions.
   name: LearnWorlds Payments API
   slug: learnworlds-payments-api
-- description: Read per-user course progress and completion.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Read per-user course progress and completion.
   name: LearnWorlds Progress API
   slug: learnworlds-progress-api
-- description: List tags and attach / detach them from users.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: List tags and attach / detach them from users.
   name: LearnWorlds Tags API
   slug: learnworlds-tags-api
-- description: Manage school users (students / members) and their profiles.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Manage school users (students / members) and their profiles.
   name: LearnWorlds Users API
   slug: learnworlds-users-api
-- description: Manage webhook subscriptions for school events.
+- baseURL: https://{school}.learnworlds.com/admin/api/v2
+  baseurl_source: declared
+  description: Manage webhook subscriptions for school events.
   name: LearnWorlds Webhooks API
   slug: learnworlds-webhooks-api
 artifact_total: 23
@@ -206,7 +220,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/learnworlds/refs/heads/main/screenshots/learnworlds-2026-07-25T224802.png
 security:

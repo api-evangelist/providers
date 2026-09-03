@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 63 operations · 27 acting · 2 human-in-the-loop
 api_count: 3
 apis:
-- description: Anti-malware scanning configuration
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Anti-malware scanning configuration
   name: Trellix Web Gateway Anti-Malware API
   slug: trellix-web-gateway-anti-malware-api
-- description: Authentication policy settings
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Authentication policy settings
   name: Trellix Web Gateway Authentication API
   slug: trellix-web-gateway-authentication-api
-- description: Configuration management and commit operations
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Configuration management and commit operations
   name: Trellix Web Gateway Configuration API
   slug: trellix-web-gateway-configuration-api
-- description: Dashboard data for visualization
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Dashboard data for visualization
   name: Trellix Web Gateway Dashboards API
   slug: trellix-web-gateway-dashboards-api
-- description: DLP policy configuration
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: DLP policy configuration
   name: Trellix Web Gateway Data Loss Prevention API
   slug: trellix-web-gateway-data-loss-prevention-api
-- description: File upload and download operations
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: File upload and download operations
   name: Trellix Web Gateway Files API
   slug: trellix-web-gateway-files-api
-- description: Manage custom lists used in policy rules
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Manage custom lists used in policy rules
   name: Trellix Web Gateway Lists API
   slug: trellix-web-gateway-lists-api
-- description: Report generation and retrieval
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Report generation and retrieval
   name: Trellix Web Gateway Reports API
   slug: trellix-web-gateway-reports-api
-- description: Manage policy rule sets
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Manage policy rule sets
   name: Trellix Web Gateway Rule Sets API
   slug: trellix-web-gateway-rule-sets-api
-- description: Manage individual policy rules within rule sets
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Manage individual policy rules within rule sets
   name: Trellix Web Gateway Rules API
   slug: trellix-web-gateway-rules-api
-- description: Security event and threat detection data
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Security event and threat detection data
   name: Trellix Web Gateway Security Events API
   slug: trellix-web-gateway-security-events-api
-- description: SSL/TLS inspection configuration
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: SSL/TLS inspection configuration
   name: Trellix Web Gateway SSL Scanning API
   slug: trellix-web-gateway-ssl-scanning-api
-- description: Aggregated traffic and security statistics
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Aggregated traffic and security statistics
   name: Trellix Web Gateway Statistics API
   slug: trellix-web-gateway-statistics-api
-- description: System information and appliance management
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: System information and appliance management
   name: Trellix Web Gateway System API
   slug: trellix-web-gateway-system-api
-- description: Web traffic log access and search
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Web traffic log access and search
   name: Trellix Web Gateway Traffic Logs API
   slug: trellix-web-gateway-traffic-logs-api
-- description: Log access and diagnostic operations
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: Log access and diagnostic operations
   name: Trellix Web Gateway Troubleshooting API
   slug: trellix-web-gateway-troubleshooting-api
-- description: URL categorization and filtering settings
+- baseURL: https://<mwg-server>:<port>/Konfigurator/REST
+  baseurl_source: declared
+  description: URL categorization and filtering settings
   name: Trellix Web Gateway URL Filtering API
   slug: trellix-web-gateway-url-filtering-api
 artifact_total: 68
@@ -385,7 +419,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/screenshots/trellix-web-gateway-2026-06-20T195750.png
 security:

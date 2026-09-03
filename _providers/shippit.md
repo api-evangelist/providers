@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: Initiate carrier bookings for orders.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Initiate carrier bookings for orders.
   name: Shippit Book API
   slug: shippit-book-api
-- description: Retrieve shipping labels and documents for an order.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Retrieve shipping labels and documents for an order.
   name: Shippit Label API
   slug: shippit-label-api
-- description: Merchant account settings, operating hours, and webhooks.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Merchant account settings, operating hours, and webhooks.
   name: Shippit Merchant API
   slug: shippit-merchant-api
-- description: Create, retrieve, update, and cancel shipping orders.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Create, retrieve, update, and cancel shipping orders.
   name: Shippit Orders API
   slug: shippit-orders-api
-- description: Live multi-carrier shipping quotes.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Live multi-carrier shipping quotes.
   name: Shippit Quote API
   slug: shippit-quote-api
-- description: Pull-based order tracking.
+- baseURL: https://app.shippit.com/api/3
+  baseurl_source: declared
+  description: Pull-based order tracking.
   name: Shippit Tracking API
   slug: shippit-tracking-api
 artifact_total: 20
@@ -158,7 +170,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +199,9 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/screenshots/shippit-2026-09-02T155233.png
 security:
 - kind: authentication
   name: Shippit Authentication

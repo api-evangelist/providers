@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 4 acting
 api_count: 1
 apis:
-- description: Fetch any URL through the rotating proxy network, optionally rendered.
+- baseURL: https://api.crawlbase.com
+  baseurl_source: declared
+  description: Fetch any URL through the rotating proxy network, optionally rendered.
   name: Crawlbase Crawling API API
   slug: crawlbase-crawling-api-api
-- description: Publicly visible email discovery for a domain (legacy).
+- baseURL: https://api.crawlbase.com
+  baseurl_source: declared
+  description: Publicly visible email discovery for a domain (legacy).
   name: Crawlbase Leads API API
   slug: crawlbase-leads-api-api
-- description: Ready-made structured-data extractors for supported sites (legacy).
+- baseURL: https://api.crawlbase.com
+  baseurl_source: declared
+  description: Ready-made structured-data extractors for supported sites (legacy).
   name: Crawlbase Scraper API API
   slug: crawlbase-scraper-api-api
-- description: Rendered page screenshots in headless Chrome (legacy).
+- baseURL: https://api.crawlbase.com
+  baseurl_source: declared
+  description: Rendered page screenshots in headless Chrome (legacy).
   name: Crawlbase Screenshots API API
   slug: crawlbase-screenshots-api-api
-- description: Retrieve, list, and delete previously stored crawls.
+- baseURL: https://api.crawlbase.com
+  baseurl_source: declared
+  description: Retrieve, list, and delete previously stored crawls.
   name: Crawlbase Storage API API
   slug: crawlbase-storage-api-api
 artifact_total: 18
@@ -179,7 +189,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/screenshots/crawlbase-2026-07-25T210650.png
 security:

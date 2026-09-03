@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 117 operations · 46 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: 🆕 NEW - Retrieve actions (tasks/work items), action types, and action statuses for supplier relationships, compliance reviews, and operational activities. Available from February 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - Retrieve actions (tasks/work items), action types, and action statuses for supplier relationships, compliance reviews, and operational activities. Available from February 2026.
   name: Prewave Actions API
   slug: prewave-actions-api
-- description: Endpoints for retrieving alert information from user feeds, disruption maps, and specific targets. Supports filtering by collections, dates, priorities, geographic regions, target identifiers, and oth
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Endpoints for retrieving alert information from user feeds, disruption maps, and specific targets. Supports filtering by collections, dates, priorities, geographic regions, target identifiers, and oth
   name: Prewave Alerts API
   slug: prewave-alerts-api
-- description: Public API for managing collections in Prewave's supply chain network. Collections are used to organize and group suppliers (targets) in your supply chain.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Public API for managing collections in Prewave's supply chain network. Collections are used to organize and group suppliers (targets) in your supply chain.
   name: Prewave Collections - Management API
   slug: prewave-collections-management-api
-- description: Allows you to retrieve network information. Like tree-graph and commodity-graph.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to retrieve network information. Like tree-graph and commodity-graph.
   name: Prewave Collections - Network API
   slug: prewave-collections-network-api
-- description: Public API for managing targets within collections in Prewave's supply chain network.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Public API for managing targets within collections in Prewave's supply chain network.
   name: Prewave Collections - Targets API
   slug: prewave-collections-targets-api
-- description: Public API for retrieving supplier relationship graphs from tier-n enabled collections.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Public API for retrieving supplier relationship graphs from tier-n enabled collections.
   name: Prewave Collections - Tier-N API
   slug: prewave-collections-tier-n-api
-- description: Endpoints for retrieving alerts from the disruption map. Supports filtering by geographic region, collections, countries, and other criteria.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Endpoints for retrieving alerts from the disruption map. Supports filtering by geographic region, collections, countries, and other criteria.
   name: Prewave Disruptions API
   slug: prewave-disruptions-api
-- description: 🆕 NEW - Allows you to manage customer Due Diligence Statements (DDS), including creating, updating, submitting, withdrawing customer DDS, and viewing supplier DDS associated with products.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - Allows you to manage customer Due Diligence Statements (DDS), including creating, updating, submitting, withdrawing customer DDS, and viewing supplier DDS associated with products.
   name: Prewave EUDR - Customers - DDS API
   slug: prewave-eudr-customers-dds-api
-- description: Allows you to manage customer origin requests for products, including creating, updating, closing requests, and viewing requests per product.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to manage customer origin requests for products, including creating, updating, closing requests, and viewing requests per product.
   name: Prewave EUDR - Customers - Origin Requests API
   slug: prewave-eudr-customers-origin-requests-api
-- description: Allows you to manage customer products, including creating, updating, linking/unlinking products, and deactivating products.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to manage customer products, including creating, updating, linking/unlinking products, and deactivating products.
   name: Prewave EUDR - Customers - Products API
   slug: prewave-eudr-customers-products-api
-- description: Allows you to search for suppliers, find suppliers by IDs or references, and manage supplier connection contacts.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to search for suppliers, find suppliers by IDs or references, and manage supplier connection contacts.
   name: Prewave EUDR - Customers - Suppliers API
   slug: prewave-eudr-customers-suppliers-api
-- description: Shared reference data for EUDR, including countries, HS codes, and commodities. Available to both customers and suppliers.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Shared reference data for EUDR, including countries, HS codes, and commodities. Available to both customers and suppliers.
   name: Prewave EUDR - Shared API
   slug: prewave-eudr-shared-api
-- description: Allows suppliers to manage their origin requests, view their customers, and answer origin requests with supplier DDS.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows suppliers to manage their origin requests, view their customers, and answer origin requests with supplier DDS.
   name: Prewave EUDR - Suppliers API
   slug: prewave-eudr-suppliers-api
-- description: Get exposure analysis graph and targets
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Get exposure analysis graph and targets
   name: Prewave Exposure API
   slug: prewave-exposure-api
-- description: Allows you to retrieve information about infotags and groups.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to retrieve information about infotags and groups.
   name: Prewave Infotags API
   slug: prewave-infotags-api
-- description: Public API for managing enterprise export configurations and retrieving score data in Prewave's supply chain network.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Public API for managing enterprise export configurations and retrieving score data in Prewave's supply chain network.
   name: Prewave Scores - Enterprise Export API
   slug: prewave-scores-enterprise-export-api
-- description: Upload and read custom supplier scores from your systems (e.g. SAP). Bulk upload, list event types, and view history per supplier. Available from June 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Upload and read custom supplier scores from your systems (e.g. SAP). Bulk upload, list event types, and view history per supplier. Available from June 2026.
   name: Prewave Scores - Externals API
   slug: prewave-scores-externals-api
-- description: '⚠️ **DEPRECATED** - Target score endpoints. These endpoints are deprecated and will be removed at the end of December 2026. Use `/public/v1/enterprise-export/scores` instead. **Note**: Responses from '
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: '⚠️ **DEPRECATED** - Target score endpoints. These endpoints are deprecated and will be removed at the end of December 2026. Use `/public/v1/enterprise-export/scores` instead. **Note**: Responses from '
   name: Prewave Scores - Target API
   slug: prewave-scores-target-api
-- description: 🆕 NEW - Supplier connection contact management endpoints. Available from February 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - Supplier connection contact management endpoints. Available from February 2026.
   name: Prewave Suppliers - Connection Contacts API
   slug: prewave-suppliers-connection-contacts-api
-- description: Supplier management endpoints for listing, retrieving, updating supplier data, and bulk operations.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Supplier management endpoints for listing, retrieving, updating supplier data, and bulk operations.
   name: Prewave Suppliers - Management API
   slug: prewave-suppliers-management-api
-- description: 🆕 NEW - Supplier and site management endpoints. Available from January 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - Supplier and site management endpoints. Available from January 2026.
   name: Prewave Suppliers - Sites API
   slug: prewave-suppliers-sites-api
-- description: Allows you to create or update sites.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: Allows you to create or update sites.
   name: Prewave Suppliers - Sites Upsert API
   slug: prewave-suppliers-sites-upsert-api
-- description: ⚠️ **DEPRECATED** - This API is deprecated and will be removed at the end of December 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: ⚠️ **DEPRECATED** - This API is deprecated and will be removed at the end of December 2026.
   name: Prewave Suppliers - Supplier Graph API
   slug: prewave-suppliers-supplier-graph-api
-- description: 🆕 NEW - API to manage users in the public network. Available from February 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - API to manage users in the public network. Available from February 2026.
   name: Prewave Users API
   slug: prewave-users-api
-- description: 🆕 NEW - API to manage user roles in the public network. Available from February 2026.
+- baseURL: https://api.prewave.com
+  baseurl_source: declared
+  description: 🆕 NEW - API to manage user roles in the public network. Available from February 2026.
   name: Prewave Users - Roles API
   slug: prewave-users-roles-api
 arazzos:
@@ -361,7 +411,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/screenshots/prewave-2026-08-17T081335.png
 security:

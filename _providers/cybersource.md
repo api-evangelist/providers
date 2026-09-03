@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -46,13 +46,17 @@ apis:
 - description: Securely tokenizes, stores, and manages customer payment credentials and card data. Supports instrument identifiers, payment instruments, customer profiles, network tokens, and cryptograms. Reduces PC
   name: CyberSource Token Management Service (TMS) API
   slug: cybersource-token-management-service-tms-api
-- description: Provides AI-powered fraud detection and risk management using machine learning models trained on Visa and CyberSource transaction data. Offers real-time fraud scoring, custom rules, device fingerprint
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Provides AI-powered fraud detection and risk management using machine learning models trained on Visa and CyberSource transaction data. Offers real-time fraud scoring, custom rules, device fingerprint
   name: CyberSource Decision Manager API
   slug: cybersource-decision-manager-api
 - description: Enables subscription management and automated recurring payments without storing sensitive card data. Create and manage subscription plans, customer billing agreements, and on-demand charges. Supports
   name: CyberSource Recurring Billing API
   slug: cybersource-recurring-billing-api
-- description: 'Delivers funds directly to recipients via eligible Visa and Mastercard debit accounts using Account Funding Transactions (AFT) and Original Credit Transactions (OCT). Supports use cases including gig '
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: 'Delivers funds directly to recipients via eligible Visa and Mastercard debit accounts using Account Funding Transactions (AFT) and Original Credit Transactions (OCT). Supports use cases including gig '
   name: CyberSource Payouts API
   slug: cybersource-payouts-api
 - description: PCI DSS-compliant hosted payment field solution that replaces sensitive card input fields with secure CyberSource-hosted iFrame components. Encrypts card data on the customer's device before transmiss
@@ -79,220 +83,362 @@ apis:
 - description: 'Creates and manages payment invoices with customizable fields, due dates, and customer information. Generates shareable payment links, tracks invoice status, and enables merchants to collect payments '
   name: CyberSource Invoicing API
   slug: cybersource-invoicing-api
-- description: Identifies card type, issuing bank, country of origin, and fast funds eligibility based on the Bank Identification Number (BIN) extracted from payment card numbers. Helps merchants optimize checkout r
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Identifies card type, issuing bank, country of origin, and fast funds eligibility based on the Bank Identification Number (BIN) extracted from payment card numbers. Helps merchants optimize checkout r
   name: CyberSource BIN Lookup API
   slug: cybersource-bin-lookup-api
 - description: Unified API suite for secure, cross-network agent-initiated payments enabling seamless merchant onboarding, card enrollment, and transaction management. Designed to support AI agent workflows, automat
   name: CyberSource Intelligent Commerce API
   slug: cybersource-intelligent-commerce-api
-- description: The Visa Bank Account Validation Service is a new standalone product designed to validate customer's routing and bank account number combination for ACH transactions. Merchant's can use this standalon
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Visa Bank Account Validation Service is a new standalone product designed to validate customer's routing and bank account number combination for ACH transactions. Merchant's can use this standalon
   name: CyberSource bankAccountValidation API
   slug: cybersource-bankaccountvalidation-api
-- description: Once a batch is created its status can be checked using the status resource. When the batch status is COMPLETED its report can then be retrieved.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Once a batch is created its status can be checked using the status resource. When the batch status is COMPLETED its report can then be retrieved.
   name: CyberSource Batches API
   slug: cybersource-batches-api
-- description: A billingAgreement is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A billingAgreement is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
   name: CyberSource billingAgreements API
   slug: cybersource-billingagreements-api
-- description: The Bin Lookup API from CyberSource — 1 operation(s) for bin lookup.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Bin Lookup API from CyberSource — 1 operation(s) for bin lookup.
   name: CyberSource Bin Lookup API
   slug: cybersource-bin-lookup-api
-- description: When you are ready to fulfill a customer's order and transfer funds from the customer's bank to your bank, capture the payment for that order.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: When you are ready to fulfill a customer's order and transfer funds from the customer's bank to your bank, capture the payment for that order.
   name: CyberSource capture API
   slug: cybersource-capture-api
-- description: API for requesting Chargeback Details.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for requesting Chargeback Details.
   name: CyberSource Chargeback Details API
   slug: cybersource-chargeback-details-api
-- description: API for requesting Chargeback Summaries.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for requesting Chargeback Summaries.
   name: CyberSource Chargeback Summaries API
   slug: cybersource-chargeback-summaries-api
-- description: API for retrieving conversion data for merchant
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for retrieving conversion data for merchant
   name: CyberSource Conversion Details API
   slug: cybersource-conversion-details-api
-- description: Create a new webhook connection
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Create a new webhook connection
   name: CyberSource Create New Webhooks API
   slug: cybersource-create-new-webhooks-api
-- description: MPP (Machine Payment Protocol) token provisioning and encrypted credential generation. Use these APIs to provision encrypted payment credentials for use in MPP Authorization Payment headers. Accepts a
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: MPP (Machine Payment Protocol) token provisioning and encrypted credential generation. Use these APIs to provision encrypted payment credentials for use in MPP Authorization Payment headers. Accepts a
   name: CyberSource Credentials API
   slug: cybersource-credentials-api
-- description: A credit is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A credit is a stand-alone transaction that is not linked to any previous transactions. It takes money from your merchant bank account and returns it to the customer.
   name: CyberSource credit API
   slug: cybersource-credit-api
-- description: A Customer can be linked to multiple Payment Instruments and Shipping Addresses. With one Payment Instrument and Shipping Address designated as the default. It stores merchant reference information fo
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A Customer can be linked to multiple Payment Instruments and Shipping Addresses. With one Payment Instrument and Shipping Address designated as the default. It stores merchant reference information fo
   name: CyberSource Customer API
   slug: cybersource-customer-api
-- description: A Customer Payment Instrument is linked to a Customer and an Instrument Identifier. It stores additional information in relation to a card number(PAN) or bank account (echeck).
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A Customer Payment Instrument is linked to a Customer and an Instrument Identifier. It stores additional information in relation to a card number(PAN) or bank account (echeck).
   name: CyberSource Customer Payment Instrument API
   slug: cybersource-customer-payment-instrument-api
-- description: A Customer Shipping Address is linked to a Customer. It stores shipping information in relation to the Customer.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A Customer Shipping Address is linked to a Customer. It stores shipping information in relation to the Customer.
   name: CyberSource Customer Shipping Address API
   slug: cybersource-customer-shipping-address-api
-- description: REST API for the Decision Manager Service
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: REST API for the Decision Manager Service
   name: CyberSource Decision Manager API
   slug: cybersource-decision-manager-api
-- description: Remove Association of a Device.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Remove Association of a Device.
   name: CyberSource Device De-Association API
   slug: cybersource-device-de-association-api
-- description: Search and Retrieve Devices.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Search and Retrieve Devices.
   name: CyberSource Device Search API
   slug: cybersource-device-search-api
-- description: API to download report DTDs
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API to download report DTDs
   name: CyberSource Download DTD API
   slug: cybersource-download-dtd-api
-- description: API to download report XSDs
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API to download report XSDs
   name: CyberSource Download XSD API
   slug: cybersource-download-xsd-api
-- description: The EMVTagDetails API from CyberSource — 1 operation(s) for emvtagdetails.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The EMVTagDetails API from CyberSource — 1 operation(s) for emvtagdetails.
   name: CyberSource EMVTagDetails API
   slug: cybersource-emvtagdetails-api
-- description: Card enrollment and tokenization for agentic payments. Use these APIs to register a consumer's payment card, creating a tokenized reference that can be used in subsequent purchase instructions and pay
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Card enrollment and tokenization for agentic payments. Use these APIs to register a consumer's payment card, creating a tokenized reference that can be used in subsequent purchase instructions and pay
   name: CyberSource Enrollment API
   slug: cybersource-enrollment-api
-- description: 'The Flex API enables merchants to securely accept customer payment information captured within a server-side application using a set of APIs. These APIs protect your customer''s primary account number '
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: 'The Flex API enables merchants to securely accept customer payment information captured within a server-side application using a set of APIs. These APIs protect your customer''s primary account number '
   name: CyberSource Flex API API
   slug: cybersource-flex-api-api
-- description: Purchase intent lifecycle management for agentic payments. Use these APIs to create, update, and cancel purchase intents (instructions) that define what a consumer wants to buy, including mandates, or
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Purchase intent lifecycle management for agentic payments. Use these APIs to create, update, and cancel purchase intents (instructions) that define what a consumer wants to buy, including mandates, or
   name: CyberSource Instructions API
   slug: cybersource-instructions-api
-- description: An Instrument Identifier represents a unique card number(PAN) or bank account (echeck). It can also be associated with a Network Token that can be used for payment transactions.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: An Instrument Identifier represents a unique card number(PAN) or bank account (echeck). It can also be associated with a Network Token that can be used for payment transactions.
   name: CyberSource Instrument Identifier API
   slug: cybersource-instrument-identifier-api
-- description: API for requesting Interchange Clearing Level data for an account or a merchant.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for requesting Interchange Clearing Level data for an account or a merchant.
   name: CyberSource Interchange Clearing Level Details API
   slug: cybersource-interchange-clearing-level-details-api
-- description: Update the settings for the invoice payment page.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Update the settings for the invoice payment page.
   name: CyberSource Invoice Settings API
   slug: cybersource-invoice-settings-api
-- description: Offer your customers a simple, convenient, and fast way to pay with the new online invoicing tool.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Offer your customers a simple, convenient, and fast way to pay with the new online invoicing tool.
   name: CyberSource Invoices API
   slug: cybersource-invoices-api
-- description: '- Manage your webhooks. This will allow for you to update existing webhooks, test webhooks, or delete them.'
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: '- Manage your webhooks. This will allow for you to update existing webhooks, test webhooks, or delete them.'
   name: CyberSource Manage Webhooks API
   slug: cybersource-manage-webhooks-api
-- description: Manage Boarding Registrations
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Manage Boarding Registrations
   name: CyberSource Merchant Boarding API
   slug: cybersource-merchant-boarding-api
-- description: The Merchant Defined Fields API from CyberSource — 2 operation(s) for merchant defined fields.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Merchant Defined Fields API from CyberSource — 2 operation(s) for merchant defined fields.
   name: CyberSource Merchant Defined Fields API
   slug: cybersource-merchant-defined-fields-api
-- description: The Microform Integration API from CyberSource — 1 operation(s) for microform integration.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Microform Integration API from CyberSource — 1 operation(s) for microform integration.
   name: CyberSource Microform Integration API
   slug: cybersource-microform-integration-api
-- description: API for retrieving the netfunding data for an account or a merchant
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for retrieving the netfunding data for an account or a merchant
   name: CyberSource Net Fundings API
   slug: cybersource-net-fundings-api
-- description: A Network Token represents a tokenized version of a card number (PAN) that can be used for payment transactions and, it's represented by a Tokenized Card in TMS.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A Network Token represents a tokenized version of a card number (PAN) that can be used for payment transactions and, it's represented by a Tokenized Card in TMS.
   name: CyberSource Network Tokens API
   slug: cybersource-network-tokens-api
-- description: API for Notification Of Change
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for Notification Of Change
   name: CyberSource Notification Of Changes API
   slug: cybersource-notification-of-changes-api
-- description: Operations related to creating, retrieving, and updating offers.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Operations related to creating, retrieving, and updating offers.
   name: CyberSource Offers API
   slug: cybersource-offers-api
-- description: An order is a service that is used for initiating a transaction with itemized details, shipping, billing and buyer information.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: An order is a service that is used for initiating a transaction with itemized details, shipping, billing and buyer information.
   name: CyberSource orders API
   slug: cybersource-orders-api
-- description: The Payer Authentication API from CyberSource — 3 operation(s) for payer authentication.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Payer Authentication API from CyberSource — 3 operation(s) for payer authentication.
   name: CyberSource Payer Authentication API
   slug: cybersource-payer-authentication-api
-- description: API for payment batch summary reports
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for payment batch summary reports
   name: CyberSource Payment Batch Summaries API
   slug: cybersource-payment-batch-summaries-api
-- description: A stand-alone Payment Instrument is linked to an Instrument Identifier. It stores additional information in relation to a card number(PAN) or bank account (echeck).
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A stand-alone Payment Instrument is linked to an Instrument Identifier. It stores additional information in relation to a card number(PAN) or bank account (echeck).
   name: CyberSource Payment Instrument API
   slug: cybersource-payment-instrument-api
-- description: Offer your customers a simple, convenient, and fast way to pay with the new online pay by link tool.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Offer your customers a simple, convenient, and fast way to pay with the new online pay by link tool.
   name: CyberSource Payment Links API
   slug: cybersource-payment-links-api
-- description: A payment-tokens is a service that is used for retrieving vault details or deleting vault id/payment method.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A payment-tokens is a service that is used for retrieving vault details or deleting vault id/payment method.
   name: CyberSource payment-tokens API
   slug: cybersource-payment-tokens-api
-- description: A payment authorizes the amount for the transaction. There are a number of supported payment instruments, such as Credit Card, Debit Card, e-Wallet, and Alternative Payments. A payment response includ
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A payment authorizes the amount for the transaction. There are a number of supported payment instruments, such as Credit Card, Debit Card, e-Wallet, and Alternative Payments. A payment response includ
   name: CyberSource payments API
   slug: cybersource-payments-api
-- description: A payout enables an originator to send funds on behalf of itself, merchants, or customers to credit card accounts using an Original Credit Transaction (OCT). An originator is a merchant, government en
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A payout enables an originator to send funds on behalf of itself, merchants, or customers to credit card accounts using an Original Credit Transaction (OCT). An originator is a merchant, government en
   name: CyberSource Payouts API
   slug: cybersource-payouts-api
-- description: Create and manage Plans for subscriptions.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Create and manage Plans for subscriptions.
   name: CyberSource Plans API
   slug: cybersource-plans-api
-- description: Cybersource Payouts Funds Transfer REST API for Account Funding Transaction (AFT)
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Cybersource Payouts Funds Transfer REST API for Account Funding Transaction (AFT)
   name: CyberSource Pull Funds API
   slug: cybersource-pull-funds-api
-- description: API for Purchase and Refund Details
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for Purchase and Refund Details
   name: CyberSource Purchase And Refund Details API
   slug: cybersource-purchase-and-refund-details-api
-- description: A payout enables an originator to send funds on behalf of itself, merchants, or customers to credit card accounts using an Original Credit Transaction (OCT). An originator is a merchant, government en
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A payout enables an originator to send funds on behalf of itself, merchants, or customers to credit card accounts using an Original Credit Transaction (OCT). An originator is a merchant, government en
   name: CyberSource Push Funds API
   slug: cybersource-push-funds-api
-- description: A refund is a follow-on transaction that uses the ID returned from either a payment or capture request.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A refund is a follow-on transaction that uses the ID returned from either a payment or capture request.
   name: CyberSource refund API
   slug: cybersource-refund-api
-- description: Get report definition information
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Get report definition information
   name: CyberSource Report Definitions API
   slug: cybersource-report-definitions-api
-- description: API for creation and retrieval of Reports
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for creation and retrieval of Reports
   name: CyberSource Report Downloads API
   slug: cybersource-report-downloads-api
-- description: API for creation and retrieval of Report Subscriptions
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for creation and retrieval of Report Subscriptions
   name: CyberSource Report Subscriptions API
   slug: cybersource-report-subscriptions-api
-- description: API for creation and retrieval of Reports
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for creation and retrieval of Reports
   name: CyberSource Reports API
   slug: cybersource-reports-api
-- description: API for requesting Retrieval Details.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for requesting Retrieval Details.
   name: CyberSource Retrieval Details API
   slug: cybersource-retrieval-details-api
-- description: API for requesting Retrieval Summaries
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: API for requesting Retrieval Summaries
   name: CyberSource Retrieval Summaries API
   slug: cybersource-retrieval-summaries-api
-- description: An authorization reversal releases the hold that the payment placed on the customer's funds.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: An authorization reversal releases the hold that the payment placed on the customer's funds.
   name: CyberSource reversal API
   slug: cybersource-reversal-api
-- description: The SearchTransactions API from CyberSource — 2 operation(s) for searchtransactions.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The SearchTransactions API from CyberSource — 2 operation(s) for searchtransactions.
   name: CyberSource SearchTransactions API
   slug: cybersource-searchtransactions-api
-- description: The SecureFileShare API from CyberSource — 2 operation(s) for securefileshare.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The SecureFileShare API from CyberSource — 2 operation(s) for securefileshare.
   name: CyberSource SecureFileShare API
   slug: cybersource-securefileshare-api
-- description: Create and manage Recurring Subscriptions. You have option to link subscription to plan or create independent subscriptions.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Create and manage Recurring Subscriptions. You have option to link subscription to plan or create independent subscriptions.
   name: CyberSource Subscriptions API
   slug: cybersource-subscriptions-api
-- description: Create a Follow-On Subscription from an already existing successful Transaction. You have option to link subscription to plan or create independent subscriptions.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Create a Follow-On Subscription from an already existing successful Transaction. You have option to link subscription to plan or create independent subscriptions.
   name: CyberSource Subscriptions Follow-Ons API
   slug: cybersource-subscriptions-follow-ons-api
-- description: tax calculation service
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: tax calculation service
   name: CyberSource taxes API
   slug: cybersource-taxes-api
-- description: An orchestration resource used to combine multiple API calls into a single request.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: An orchestration resource used to combine multiple API calls into a single request.
   name: CyberSource Tokenize API
   slug: cybersource-tokenize-api
-- description: Get a list of batch files or details of Individual file processed through the Offline Transaction Submission Services.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: Get a list of batch files or details of Individual file processed through the Offline Transaction Submission Services.
   name: CyberSource TransactionBatches API
   slug: cybersource-transactionbatches-api
-- description: The TransactionDetails API from CyberSource — 1 operation(s) for transactiondetails.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The TransactionDetails API from CyberSource — 1 operation(s) for transactiondetails.
   name: CyberSource TransactionDetails API
   slug: cybersource-transactiondetails-api
-- description: The Transient Token Data v2 API from CyberSource — 3 operation(s) for transient token data v2.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Transient Token Data v2 API from CyberSource — 3 operation(s) for transient token data v2.
   name: CyberSource Transient Token Data v2 API
   slug: cybersource-transient-token-data-v2-api
-- description: The Unified Checkout Capture Context API from CyberSource — 1 operation(s) for unified checkout capture context.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Unified Checkout Capture Context API from CyberSource — 1 operation(s) for unified checkout capture context.
   name: CyberSource Unified Checkout Capture Context API
   slug: cybersource-unified-checkout-capture-context-api
-- description: The Unified Checkout V1 Capture Context API from CyberSource — 1 operation(s) for unified checkout v1 capture context.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Unified Checkout V1 Capture Context API from CyberSource — 1 operation(s) for unified checkout v1 capture context.
   name: CyberSource Unified Checkout V1 Capture Context API
   slug: cybersource-unified-checkout-v1-capture-context-api
-- description: The UserManagement API from CyberSource — 1 operation(s) for usermanagement.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The UserManagement API from CyberSource — 1 operation(s) for usermanagement.
   name: CyberSource UserManagement API
   slug: cybersource-usermanagement-api
-- description: The UserManagementSearch API from CyberSource — 1 operation(s) for usermanagementsearch.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The UserManagementSearch API from CyberSource — 1 operation(s) for usermanagementsearch.
   name: CyberSource UserManagementSearch API
   slug: cybersource-usermanagementsearch-api
-- description: The Verification API from CyberSource — 2 operation(s) for verification.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: The Verification API from CyberSource — 2 operation(s) for verification.
   name: CyberSource Verification API
   slug: cybersource-verification-api
-- description: A void cancels a payment or capture. A transaction can be voided only when CyberSource has not already submitted the capture to your processor. You cannot undo a void.
+- baseURL: https://api.cybersource.com
+  baseurl_source: declared
+  description: A void cancels a payment or capture. A transaction can be voided only when CyberSource has not already submitted the capture to your processor. You cannot undo a void.
   name: CyberSource void API
   slug: cybersource-void-api
 artifact_total: 164
@@ -676,7 +822,7 @@ score:
     regime_id: payments
     score: 23.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png
 security:

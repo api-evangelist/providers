@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Chart Data API from Preciser — 1 operation(s) for chart data.
+- baseURL: https://plg-api.preciser.io/v1
+  baseurl_source: declared
+  description: The Chart Data API from Preciser — 1 operation(s) for chart data.
   name: Preciser Chart Data API
   slug: preciser-chart-data-api
-- description: The Opp Team Data API from Preciser — 1 operation(s) for opp team data.
+- baseURL: https://plg-api.preciser.io/v1
+  baseurl_source: declared
+  description: The Opp Team Data API from Preciser — 1 operation(s) for opp team data.
   name: Preciser Opp Team Data API
   slug: preciser-opp-team-data-api
 artifact_total: 7
@@ -146,7 +150,7 @@ score:
   band: emerging
   composite: 20.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -170,8 +174,9 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/preciser/refs/heads/main/screenshots/preciser-2026-09-02T151907.png
 security:
 - kind: domain-security
   name: Preciser Domain Security

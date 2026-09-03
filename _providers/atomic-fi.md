@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 30 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access Tokens API from Atomic — 2 operation(s) for access tokens.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Access Tokens API from Atomic — 2 operation(s) for access tokens.
   name: Atomic Access Tokens API
   slug: atomic-fi-access-tokens-api
-- description: The Company API from Atomic — 3 operation(s) for company.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Company API from Atomic — 3 operation(s) for company.
   name: Atomic Company API
   slug: atomic-fi-company-api
-- description: The Data API from Atomic — 7 operation(s) for data.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Data API from Atomic — 7 operation(s) for data.
   name: Atomic Data API
   slug: atomic-fi-data-api
-- description: The Linked Accounts API from Atomic — 2 operation(s) for linked accounts.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Linked Accounts API from Atomic — 2 operation(s) for linked accounts.
   name: Atomic Linked Accounts API
   slug: atomic-fi-linked-accounts-api
-- description: The PayLink API from Atomic — 2 operation(s) for paylink.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The PayLink API from Atomic — 2 operation(s) for paylink.
   name: Atomic PayLink API
   slug: atomic-fi-paylink-api
-- description: The Secrets API from Atomic — 2 operation(s) for secrets.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Secrets API from Atomic — 2 operation(s) for secrets.
   name: Atomic Secrets API
   slug: atomic-fi-secrets-api
-- description: The Tasks API from Atomic — 5 operation(s) for tasks.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Tasks API from Atomic — 5 operation(s) for tasks.
   name: Atomic Tasks API
   slug: atomic-fi-tasks-api
-- description: The Users API from Atomic — 3 operation(s) for users.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Users API from Atomic — 3 operation(s) for users.
   name: Atomic Users API
   slug: atomic-fi-users-api
-- description: The Webhooks API from Atomic — 2 operation(s) for webhooks.
+- baseURL: https://api.atomicfi.com
+  baseurl_source: declared
+  description: The Webhooks API from Atomic — 2 operation(s) for webhooks.
   name: Atomic Webhooks API
   slug: atomic-fi-webhooks-api
 artifact_total: 26
@@ -199,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/screenshots/atomic-fi-2026-07-25T201606.png
 security:

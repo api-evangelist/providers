@@ -34,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Publisher app and placement (inventory) management.
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: Publisher app and placement (inventory) management.
   name: Opera Inventory API
   slug: opera-inventory-api
-- description: Server-to-server conversion event reporting.
+- baseURL: https://cb.adx.opera.com
+  baseurl_source: declared
+  description: Server-to-server conversion event reporting.
   name: Opera Marketing API
   slug: opera-marketing-api
-- description: Advertiser reporting on campaign performance.
+- baseURL: https://ofa.adx.opera.com/oapi/v1
+  baseurl_source: declared
+  description: Advertiser reporting on campaign performance.
   name: Opera Report API
   slug: opera-report-api
-- description: DSP-side exchange performance reporting.
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: DSP-side exchange performance reporting.
   name: Opera DSP Report API
   slug: opera-dspreport-api
-- description: Listing and inspecting uploads.
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: Listing and inspecting uploads.
   name: Opera File Management API
   slug: opera-filemanagement-api
-- description: Publisher revenue and delivery reporting.
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: Publisher revenue and delivery reporting.
   name: Opera Publisher Report API
   slug: opera-publisherreport-api
-- description: TUS resumable upload session lifecycle.
+- baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
+  baseurl_source: declared
+  description: TUS resumable upload session lifecycle.
   name: Opera Upload API
   slug: opera-upload-api
 artifact_total: 17
@@ -272,7 +286,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

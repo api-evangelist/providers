@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,247 +36,405 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: An OpenRPC 1.3.2 contract for real-time control of live calls over RELAY — 8 methods (calling.dial, calling.update, calling.end, calling.ai_hold, calling.ai_unhold, calling.ai_message, calling.live_tr
   name: SignalWire Calling API (JSON-RPC)
   slug: signalwire-calling-rpc
-- description: Manage SignalWire projects and subprojects.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage SignalWire projects and subprojects.
   name: SignalWire Accounts API
   slug: signalwire-accounts-api
-- description: 'Client-side endpoints for listing and retrieving resource addresses using [subscriber](/docs/platform/subscribers) access tokens (SAT). Intended for use with the Browser SDK to resolve addresses from '
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: 'Client-side endpoints for listing and retrieving resource addresses using [subscriber](/docs/platform/subscribers) access tokens (SAT). Intended for use with the Browser SDK to resolve addresses from '
   name: SignalWire Addresses API
   slug: signalwire-addresses-api
-- description: Endpoints related to creating & managing SignalWire AI Agents
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing SignalWire AI Agents
   name: 'SignalWire AI Agents: Custom API'
   slug: signalwire-ai-agents-custom-api
-- description: Endpoints related to creating & managing Dialogflow Agents
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing Dialogflow Agents
   name: 'SignalWire AI Agents: Dialogflow API'
   slug: signalwire-ai-agents-dialogflow-api
-- description: Endpoints related to holding a text conversation with an AI agent
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to holding a text conversation with an AI agent
   name: SignalWire AI Chat API
   slug: signalwire-ai-chat-api
-- description: Callbacks an AI agent sends to your server. The same payloads apply to every surface an agent runs on — voice calls, Amazon Bedrock agents, sidecar agents, and text conversations.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Callbacks an AI agent sends to your server. The same payloads apply to every surface an agent runs on — voice calls, Amazon Bedrock agents, sidecar agents, and text conversations.
   name: SignalWire AI Webhooks API
   slug: signalwire-ai-webhooks-api
-- description: Manage cXML applications for handling voice and messaging.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage cXML applications for handling voice and messaging.
   name: SignalWire Applications API
   slug: signalwire-applications-api
-- description: Search for available phone numbers to purchase.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Search for available phone numbers to purchase.
   name: SignalWire Available Phone Numbers API
   slug: signalwire-available-phone-numbers-api
-- description: Endpoints related to creating & managing Call Flows
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing Call Flows
   name: SignalWire Call Flows API
   slug: signalwire-call-flows-api
-- description: 'Callbacks about a call: the SWML document request sent when a call arrives, and the progress of work you started on it such as a transcription or a background audio stream.'
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: 'Callbacks about a call: the SWML document request sent when a call arrives, and the progress of work you started on it such as a transcription or a background audio stream.'
   name: SignalWire Calling Webhooks API
   slug: signalwire-calling-webhooks-api
-- description: Manage voice calls and call recordings.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage voice calls and call recordings.
   name: SignalWire Calls API
   slug: signalwire-calls-api
-- description: Register and manage brands for 10DLC campaign registration.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Register and manage brands for 10DLC campaign registration.
   name: 'SignalWire Campaign Registry: Brands API'
   slug: signalwire-campaign-registry-brands-api
-- description: Create and manage 10DLC campaigns for A2P messaging compliance.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Create and manage 10DLC campaigns for A2P messaging compliance.
   name: 'SignalWire Campaign Registry: Campaigns API'
   slug: signalwire-campaign-registry-campaigns-api
-- description: Assign and manage phone numbers within 10DLC campaigns.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Assign and manage phone numbers within 10DLC campaigns.
   name: 'SignalWire Campaign Registry: Phone Number Assignments API'
   slug: signalwire-campaign-registry-phone-number-assignments-api
-- description: Manage Chat tokens.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage Chat tokens.
   name: SignalWire Chat Tokens API
   slug: signalwire-chat-tokens-api
-- description: Manage chunks within Datasphere documents.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage chunks within Datasphere documents.
   name: SignalWire Chunks API
   slug: signalwire-chunks-api
-- description: Manage and query conference log data.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage and query conference log data.
   name: SignalWire Conference Logs API
   slug: signalwire-conference-logs-api
-- description: Manage participants in conference calls.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage participants in conference calls.
   name: SignalWire Conference Participants API
   slug: signalwire-conference-participants-api
-- description: Manage recordings for conference calls.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage recordings for conference calls.
   name: SignalWire Conference Recordings API
   slug: signalwire-conference-recordings-api
-- description: Endpoints related to creating & managing Conference Rooms
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing Conference Rooms
   name: SignalWire Conference Rooms API
   slug: signalwire-conference-rooms-api
-- description: Manage media streams for conferences.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage media streams for conferences.
   name: SignalWire Conference Streams API
   slug: signalwire-conference-streams-api
-- description: Manage conference tokens
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage conference tokens
   name: SignalWire Conference Tokens API
   slug: signalwire-conference-tokens-api
-- description: Manage conference calls.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage conference calls.
   name: SignalWire Conferences API
   slug: signalwire-conferences-api
-- description: Endpoints related to creating & managing cXML Applications
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing cXML Applications
   name: SignalWire cXML Applications API
   slug: signalwire-cxml-applications-api
-- description: Manage cXML scripts for storing XML instructions.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage cXML scripts for storing XML instructions.
   name: SignalWire CXML Scripts API
   slug: signalwire-cxml-scripts-api
-- description: Endpoints related to creating & managing cXML Webhooks
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing cXML Webhooks
   name: SignalWire cXML Webhook API
   slug: signalwire-cxml-webhook-api
-- description: Manage Datasphere documents.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage Datasphere documents.
   name: SignalWire Documents API
   slug: signalwire-documents-api
-- description: Endpoints related to managing Domain Applications
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to managing Domain Applications
   name: SignalWire Domain Applications API
   slug: signalwire-domain-applications-api
-- description: Manage E911 addresses for regulatory compliance and phone number provisioning.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage E911 addresses for regulatory compliance and phone number provisioning.
   name: SignalWire E911 Addresses API
   slug: signalwire-e911-addresses-api
-- description: Endpoints related to accessing fax logs
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to accessing fax logs
   name: SignalWire Fax Logs API
   slug: signalwire-fax-logs-api
-- description: Manage fax media files.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage fax media files.
   name: SignalWire Fax Media API
   slug: signalwire-fax-media-api
-- description: Send and manage faxes.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Send and manage faxes.
   name: SignalWire Faxes API
   slug: signalwire-faxes-api
-- description: Endpoints related to creating & managing FreeSWITCH Connectors
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing FreeSWITCH Connectors
   name: SignalWire FreeSWITCH Connector API
   slug: signalwire-freeswitch-connector-api
-- description: Import phone numbers hosted elsewhere into your SignalWire Space.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Import phone numbers hosted elsewhere into your SignalWire Space.
   name: SignalWire Imported Phone Numbers API
   slug: signalwire-imported-phone-numbers-api
-- description: Manage phone numbers in your project.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage phone numbers in your project.
   name: SignalWire Incoming Phone Numbers API
   slug: signalwire-incoming-phone-numbers-api
-- description: Endpoints related to accessing message logs
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to accessing message logs
   name: SignalWire Message Logs API
   slug: signalwire-message-logs-api
-- description: Manage media files attached to messages.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage media files attached to messages.
   name: SignalWire Message Media API
   slug: signalwire-message-media-api
-- description: Send and manage SMS/MMS messages.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Send and manage SMS/MMS messages.
   name: SignalWire Messages API
   slug: signalwire-messages-api
-- description: 'Callbacks about a message: the SWML document request sent when a message arrives, delivery state for messages you send, and 10DLC registration state.'
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: 'Callbacks about a message: the SWML document request sent when a message arrives, delivery state for messages you send, and 10DLC registration state.'
   name: SignalWire Messaging Webhooks API
   slug: signalwire-messaging-webhooks-api
-- description: Multi-factor authentication adds security to your application by requesting a user to be verified via voice or via text message. It can also be used for One Time Password flows (OTP).
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Multi-factor authentication adds security to your application by requesting a user to be verified via voice or via text message. It can also be used for One Time Password flows (OTP).
   name: SignalWire Multi-Factor Authentication API
   slug: signalwire-multi-factor-authentication-api
-- description: Manage phone number memberships within number groups.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage phone number memberships within number groups.
   name: SignalWire Number Group Membership API
   slug: signalwire-number-group-membership-api
-- description: Manage number groups for organizing phone numbers.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage number groups for organizing phone numbers.
   name: SignalWire Number Groups API
   slug: signalwire-number-groups-api
-- description: Look up information about phone numbers.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Look up information about phone numbers.
   name: SignalWire Phone Number Lookup API
   slug: signalwire-phone-number-lookup-api
-- description: Manage phone numbers for your SignalWire project.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage phone numbers for your SignalWire project.
   name: SignalWire Phone Numbers API
   slug: signalwire-phone-numbers-api
-- description: Endpoints related to managing Phone Routes
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to managing Phone Routes
   name: SignalWire Phone Routes API
   slug: signalwire-phone-routes-api
-- description: Manage API tokens for authentication.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage API tokens for authentication.
   name: SignalWire Project Tokens API
   slug: signalwire-project-tokens-api
-- description: Manage projects and subprojects under the authenticated root project.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage projects and subprojects under the authenticated root project.
   name: SignalWire Projects API
   slug: signalwire-projects-api
-- description: Endpoints related to creating & managing PubSub Tokens
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing PubSub Tokens
   name: SignalWire PubSub Tokens API
   slug: signalwire-pubsub-tokens-api
-- description: Manage members in call queues.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage members in call queues.
   name: SignalWire Queue Members API
   slug: signalwire-queue-members-api
-- description: Manage call queues.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage call queues.
   name: SignalWire Queues API
   slug: signalwire-queues-api
-- description: Manage transcriptions of recordings.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage transcriptions of recordings.
   name: SignalWire Recording Transcriptions API
   slug: signalwire-recording-transcriptions-api
-- description: Manage call recordings.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage call recordings.
   name: SignalWire Recordings API
   slug: signalwire-recordings-api
-- description: Endpoints related to creating & managing Relay Applications
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing Relay Applications
   name: SignalWire Relay Application API
   slug: signalwire-relay-application-api
-- description: Endpoints related to creating & managing Resources
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing Resources
   name: SignalWire Resources API
   slug: signalwire-resources-api
-- description: Manage room recordings
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage room recordings
   name: SignalWire Room Recordings API
   slug: signalwire-room-recordings-api
-- description: Manage room sessions
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage room sessions
   name: SignalWire Room Sessions API
   slug: signalwire-room-sessions-api
-- description: Manage room tokens
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage room tokens
   name: SignalWire Room Tokens API
   slug: signalwire-room-tokens-api
-- description: Manage video rooms
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage video rooms
   name: SignalWire Rooms API
   slug: signalwire-rooms-api
-- description: Manage short codes for SMS and MMS messaging.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage short codes for SMS and MMS messaging.
   name: SignalWire Short Codes API
   slug: signalwire-short-codes-api
-- description: Endpoints related to creating & managing SIP Addresses — the SIP configuration (username, Domain, codecs, ciphers, encryption, IP authentication, registration password) for the resource that handles c
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing SIP Addresses — the SIP configuration (username, Domain, codecs, ciphers, encryption, IP authentication, registration password) for the resource that handles c
   name: SignalWire SIP Addresses API
   slug: signalwire-sip-addresses-api
-- description: Manage SIP credentials for authenticating SIP endpoints.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage SIP credentials for authenticating SIP endpoints.
   name: SignalWire SIP Credentials API
   slug: signalwire-sip-credentials-api
-- description: Manage SIP endpoints for voice communication. Use SIP Credentials for new integrations.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage SIP endpoints for voice communication. Use SIP Credentials for new integrations.
   name: SignalWire SIP Endpoints (Legacy) API
   slug: signalwire-sip-endpoints-legacy-api
-- description: Endpoints related to creating & managing SIP Gateways
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing SIP Gateways
   name: SignalWire SIP Gateway API
   slug: signalwire-sip-gateway-api
-- description: Manage SIP profile settings.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage SIP profile settings.
   name: SignalWire SIP Profile API
   slug: signalwire-sip-profile-api
-- description: Manage domain applications for call handling configuration.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage domain applications for call handling configuration.
   name: SignalWire Space Domain Applications API
   slug: signalwire-space-domain-applications-api
-- description: Manage media streams for calls.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage media streams for calls.
   name: SignalWire Streams API
   slug: signalwire-streams-api
-- description: Endpoints related to creating & managing [Subscriber](/docs/platform/subscribers) SIP Endpoints.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing [Subscriber](/docs/platform/subscribers) SIP Endpoints.
   name: SignalWire Subscriber SIP Credentials API
   slug: signalwire-subscriber-sip-credentials-api
-- description: Endpoints related to creating & managing [Subscriber](/docs/platform/subscribers) tokens.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing [Subscriber](/docs/platform/subscribers) tokens.
   name: SignalWire Subscriber Tokens API
   slug: signalwire-subscriber-tokens-api
-- description: Endpoints related to creating & managing [Subscribers](/docs/platform/subscribers).
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing [Subscribers](/docs/platform/subscribers).
   name: SignalWire Subscribers API
   slug: signalwire-subscribers-api
-- description: Endpoints related to creating & managing SWML Scripts
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing SWML Scripts
   name: SignalWire SWML Scripts API
   slug: signalwire-swml-scripts-api
-- description: Endpoints related to creating & managing SWML Webhooks
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to creating & managing SWML Webhooks
   name: SignalWire SWML Webhook API
   slug: signalwire-swml-webhook-api
-- description: Manage API tokens for authentication.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage API tokens for authentication.
   name: SignalWire Tokens API
   slug: signalwire-tokens-api
-- description: Manage verified caller IDs for phone numbers not purchased through SignalWire.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage verified caller IDs for phone numbers not purchased through SignalWire.
   name: SignalWire Verified Caller ID API
   slug: signalwire-verified-caller-id-api
-- description: Manage video conferences
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Manage video conferences
   name: SignalWire Video Conferences API
   slug: signalwire-video-conferences-api
-- description: View video logs
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: View video logs
   name: SignalWire Video Logs API
   slug: signalwire-video-logs-api
-- description: Endpoints related to accessing voice logs
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Endpoints related to accessing voice logs
   name: SignalWire Voice Logs API
   slug: signalwire-voice-logs-api
-- description: List the WhatsApp Business Accounts connected to your Space.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: List the WhatsApp Business Accounts connected to your Space.
   name: SignalWire WhatsApp Businesses API
   slug: signalwire-whatsapp-businesses-api
-- description: List and retrieve the WhatsApp numbers connected to your Space.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: List and retrieve the WhatsApp numbers connected to your Space.
   name: SignalWire WhatsApp Numbers API
   slug: signalwire-whatsapp-numbers-api
-- description: Create and manage the Meta-approved templates required to start WhatsApp conversations.
+- baseURL: https://{space_name}.signalwire.com
+  baseurl_source: declared
+  description: Create and manage the Meta-approved templates required to start WhatsApp conversations.
   name: SignalWire WhatsApp Templates API
   slug: signalwire-whatsapp-templates-api
 artifact_total: 89
@@ -481,24 +652,24 @@ rate_limits:
   name: Signalwire Rate Limits
   slug: signalwire-rate-limits
 score:
-  band: strong
-  composite: 65.8
+  band: exemplar
+  composite: 68.5
   coverage:
-    artifact_dirs: 24
-    catalog_gap: 76.0
+    artifact_dirs: 25
+    catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.6
+  delta: 2.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
-    contract_quality: 64.3
+    contract_quality: 67.7
     developer_ergonomics: 90.5
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 64.2
+  previous_composite: 65.8
   provenance:
     conformance: first-party
     contracts:
@@ -515,8 +686,9 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signalwire/refs/heads/main/screenshots/signalwire-2026-09-02T155435.png
 security:
 - kind: authentication
   name: Signalwire Authentication

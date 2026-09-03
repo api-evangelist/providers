@@ -33,67 +33,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The Asset API from ProjectDiscovery — 8 operation(s) for asset.
   name: ProjectDiscovery Asset API
   slug: projectdiscovery-asset-api
-- description: The assets API from ProjectDiscovery — 3 operation(s) for assets.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The assets API from ProjectDiscovery — 3 operation(s) for assets.
   name: ProjectDiscovery assets API
   slug: projectdiscovery-assets-api
-- description: The chaos API from ProjectDiscovery — 1 operation(s) for chaos.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The chaos API from ProjectDiscovery — 1 operation(s) for chaos.
   name: ProjectDiscovery chaos API
   slug: projectdiscovery-chaos-api
-- description: The configurations API from ProjectDiscovery — 6 operation(s) for configurations.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The configurations API from ProjectDiscovery — 6 operation(s) for configurations.
   name: ProjectDiscovery configurations API
   slug: projectdiscovery-configurations-api
-- description: The enumerations API from ProjectDiscovery — 11 operation(s) for enumerations.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The enumerations API from ProjectDiscovery — 11 operation(s) for enumerations.
   name: ProjectDiscovery enumerations API
   slug: projectdiscovery-enumerations-api
-- description: The export API from ProjectDiscovery — 2 operation(s) for export.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The export API from ProjectDiscovery — 2 operation(s) for export.
   name: ProjectDiscovery export API
   slug: projectdiscovery-export-api
-- description: The history API from ProjectDiscovery — 1 operation(s) for history.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The history API from ProjectDiscovery — 1 operation(s) for history.
   name: ProjectDiscovery history API
   slug: projectdiscovery-history-api
-- description: The internal API from ProjectDiscovery — 3 operation(s) for internal.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The internal API from ProjectDiscovery — 3 operation(s) for internal.
   name: ProjectDiscovery internal API
   slug: projectdiscovery-internal-api
-- description: The Leaks API from ProjectDiscovery — 5 operation(s) for leaks.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The Leaks API from ProjectDiscovery — 5 operation(s) for leaks.
   name: ProjectDiscovery Leaks API
   slug: projectdiscovery-leaks-api
-- description: The results API from ProjectDiscovery — 4 operation(s) for results.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The results API from ProjectDiscovery — 4 operation(s) for results.
   name: ProjectDiscovery results API
   slug: projectdiscovery-results-api
-- description: The retests API from ProjectDiscovery — 1 operation(s) for retests.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The retests API from ProjectDiscovery — 1 operation(s) for retests.
   name: ProjectDiscovery retests API
   slug: projectdiscovery-retests-api
-- description: The scan_log API from ProjectDiscovery — 1 operation(s) for scan_log.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The scan_log API from ProjectDiscovery — 1 operation(s) for scan_log.
   name: ProjectDiscovery scan_log API
   slug: projectdiscovery-scan-log-api
-- description: The scans API from ProjectDiscovery — 17 operation(s) for scans.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The scans API from ProjectDiscovery — 17 operation(s) for scans.
   name: ProjectDiscovery scans API
   slug: projectdiscovery-scans-api
-- description: The Team API from ProjectDiscovery — 2 operation(s) for team.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The Team API from ProjectDiscovery — 2 operation(s) for team.
   name: ProjectDiscovery Team API
   slug: projectdiscovery-team-api
-- description: The Template API from ProjectDiscovery — 1 operation(s) for template.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The Template API from ProjectDiscovery — 1 operation(s) for template.
   name: ProjectDiscovery Template API
   slug: projectdiscovery-template-api
-- description: The template/v2 API from ProjectDiscovery — 1 operation(s) for template/v2.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The template/v2 API from ProjectDiscovery — 1 operation(s) for template/v2.
   name: ProjectDiscovery template/v2 API
   slug: projectdiscovery-template-v2-api
-- description: The templates API from ProjectDiscovery — 9 operation(s) for templates.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The templates API from ProjectDiscovery — 9 operation(s) for templates.
   name: ProjectDiscovery templates API
   slug: projectdiscovery-templates-api
-- description: The users API from ProjectDiscovery — 2 operation(s) for users.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The users API from ProjectDiscovery — 2 operation(s) for users.
   name: ProjectDiscovery users API
   slug: projectdiscovery-users-api
-- description: The vuln API from ProjectDiscovery — 1 operation(s) for vuln.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The vuln API from ProjectDiscovery — 1 operation(s) for vuln.
   name: ProjectDiscovery vuln API
   slug: projectdiscovery-vuln-api
-- description: The Vulnerability API from ProjectDiscovery — 4 operation(s) for vulnerability.
+- baseURL: https://api.projectdiscovery.io
+  baseurl_source: declared
+  description: The Vulnerability API from ProjectDiscovery — 4 operation(s) for vulnerability.
   name: ProjectDiscovery Vulnerability API
   slug: projectdiscovery-vulnerability-api
 artifact_total: 46
@@ -332,7 +372,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/projectdiscovery/refs/heads/main/screenshots/projectdiscovery-2026-08-17T081344.png
 security:

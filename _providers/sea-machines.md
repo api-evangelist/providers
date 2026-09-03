@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Partner-gated interface announced September 2025 that delivers real-time SM300 vessel telemetry and data feeds (position, heading, mechanical and navigational state) to external command-and-control an
+- baseURL: https://sea-machines.com
+  baseurl_source: spec
+  description: Partner-gated interface announced September 2025 that delivers real-time SM300 vessel telemetry and data feeds (position, heading, mechanical and navigational state) to external command-and-control an
   name: SMLink Streaming-API
   slug: smlink-streaming-api
-- description: Partner-gated interface announced September 2025 that grants select partners the ability to command SM300 autonomy functions directly from third-party mission software. Supported on the SM300-SP and S
+- baseURL: https://sea-machines.com
+  baseurl_source: spec
+  description: Partner-gated interface announced September 2025 that grants select partners the ability to command SM300 autonomy functions directly from third-party mission software. Supported on the SM300-SP and S
   name: SMLink Control-API
   slug: smlink-control-api
 - description: Industrial-grade vessel intelligence system providing operator-in-the-loop autonomous command and control, multi-waypoint missions, search and survey, patrol and surveillance, and remote command. Avai
@@ -137,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sea-machines/refs/heads/main/screenshots/sea-machines-2026-06-20T193612.png
 security:

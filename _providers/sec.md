@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 3
 apis:
-- description: Historical values for a single XBRL concept
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Historical values for a single XBRL concept
   name: SEC EDGAR Company Concept API
   slug: sec-company-concept-api
-- description: XBRL financial disclosures for a company
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: XBRL financial disclosures for a company
   name: SEC EDGAR Company Facts API
   slug: sec-company-facts-api
-- description: This API reports the status of the EDGAR system. This resource requires presentation of a Filer API Token only.
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: This API reports the status of the EDGAR system. This resource requires presentation of a Filer API Token only.
   name: SEC EDGAR EDGAR Operational Status API API
   slug: sec-edgar-operational-status-api-api
-- description: A set of API endpoints that allows you to verify permissions, get filer information, manage CCC, manage individuals, and manage delegations.
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: A set of API endpoints that allows you to verify permissions, get filer information, manage CCC, manage individuals, and manage delegations.
   name: SEC EDGAR Filer Management API API
   slug: sec-filer-management-api-api
-- description: Cross-company data for a concept in a specific period
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Cross-company data for a concept in a specific period
   name: SEC EDGAR Frames API
   slug: sec-frames-api
-- description: Full-text search across EDGAR filing documents
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Full-text search across EDGAR filing documents
   name: SEC EDGAR Search API
   slug: sec-search-api
-- description: Submission of filings to EDGAR by API can be made through the Submission API. The Submission API requires the presentation of a Filer API Token in combination with a User API Token. Optionally, filers
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Submission of filings to EDGAR by API can be made through the Submission API. The Submission API requires the presentation of a Filer API Token in combination with a User API Token. Optionally, filers
   name: SEC EDGAR Submission API API
   slug: sec-submission-api-api
-- description: The Submission Status API provides information from the EDGAR system. It requires a Filer API Token and accession number(s). To obtain information about a submission through the Submission Status API,
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: The Submission Status API provides information from the EDGAR system. It requires a Filer API Token and accession number(s). To obtain information about a submission through the Submission Status API,
   name: SEC EDGAR Submission Status API API
   slug: sec-submission-status-api-api
-- description: Company filing history and metadata by CIK
+- baseURL: https://data.sec.gov
+  baseurl_source: declared
+  description: Company filing history and metadata by CIK
   name: SEC EDGAR Submissions API
   slug: sec-submissions-api
 artifact_total: 32
@@ -266,7 +284,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

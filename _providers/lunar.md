@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,28 +49,44 @@ apis:
 - description: The Lunar MCPX Gateway is an agent-native Model Context Protocol gateway that governs tool invocation for AI agents. It consolidates multiple MCP servers into a single endpoint, providing authenticati
   name: Lunar MCPX Gateway
   slug: mcpx-gateway
-- description: Contract-based configuration management
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Contract-based configuration management
   name: Lunar Configuration API
   slug: lunar-configuration-api
-- description: API discovery and remedy state reporting
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: API discovery and remedy state reporting
   name: Lunar Discovery API
   slug: lunar-discovery-api
-- description: Gateway diagnostic reporting
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Gateway diagnostic reporting
   name: Lunar Doctor API
   slug: lunar-doctor-api
-- description: Manage Lunar Flows (streams-based traffic shaping rules)
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Manage Lunar Flows (streams-based traffic shaping rules)
   name: Lunar Flows API
   slug: lunar-flows-api
-- description: Gateway health and connectivity check
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Gateway health and connectivity check
   name: Lunar Handshake API
   slug: lunar-handshake-api
-- description: Manage Lunar Policies (legacy traffic control rules)
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Manage Lunar Policies (legacy traffic control rules)
   name: Lunar Policies API
   slug: lunar-policies-api
-- description: Gateway health monitoring endpoints.
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Gateway health monitoring endpoints.
   name: Lunar Health API
   slug: lunar-health-api
-- description: Proxy endpoints for routing third-party API traffic through the Lunar Gateway with policy enforcement, traffic controls, and observability.
+- baseURL: https://app.lunar.dev
+  baseurl_source: declared
+  description: Proxy endpoints for routing third-party API traffic through the Lunar Gateway with policy enforcement, traffic controls, and observability.
   name: Lunar Proxy API
   slug: lunar-proxy-api
 artifact_total: 65
@@ -385,7 +401,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/screenshots/lunar-2026-06-20T184803.png
 security:

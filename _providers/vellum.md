@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -47,49 +47,79 @@ apis:
 - description: 'The Vellum REST API exposes prompts, workflows, evaluations, datasets, document indexes, deployments, and execution endpoints so developers can run versioned LLM pipelines from their own backends and '
   name: Vellum LLM Platform API
   slug: llm-platform
-- description: The Default API from Vellum AI — 8 operation(s) for default.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The Default API from Vellum AI — 8 operation(s) for default.
   name: Vellum AI Default API
   slug: vellum-default-api
-- description: The subpackage_deployments API from Vellum AI — 7 operation(s) for subpackage_deployments.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_deployments API from Vellum AI — 7 operation(s) for subpackage_deployments.
   name: Vellum AI subpackage_deployments API
   slug: vellum-subpackage-deployments-api
-- description: The subpackage_documentIndexes API from Vellum AI — 3 operation(s) for subpackage_documentindexes.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_documentIndexes API from Vellum AI — 3 operation(s) for subpackage_documentindexes.
   name: Vellum AI subpackage_documentIndexes API
   slug: vellum-subpackage-documentindexes-api
-- description: The subpackage_documents API from Vellum AI — 3 operation(s) for subpackage_documents.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_documents API from Vellum AI — 3 operation(s) for subpackage_documents.
   name: Vellum AI subpackage_documents API
   slug: vellum-subpackage-documents-api
-- description: The subpackage_events API from Vellum AI — 1 operation(s) for subpackage_events.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_events API from Vellum AI — 1 operation(s) for subpackage_events.
   name: Vellum AI subpackage_events API
   slug: vellum-subpackage-events-api
-- description: The subpackage_folderEntities API from Vellum AI — 2 operation(s) for subpackage_folderentities.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_folderEntities API from Vellum AI — 2 operation(s) for subpackage_folderentities.
   name: Vellum AI subpackage_folderEntities API
   slug: vellum-subpackage-folderentities-api
-- description: The subpackage_sandboxes API from Vellum AI — 3 operation(s) for subpackage_sandboxes.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_sandboxes API from Vellum AI — 3 operation(s) for subpackage_sandboxes.
   name: Vellum AI subpackage_sandboxes API
   slug: vellum-subpackage-sandboxes-api
-- description: The subpackage_testSuiteRuns API from Vellum AI — 3 operation(s) for subpackage_testsuiteruns.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_testSuiteRuns API from Vellum AI — 3 operation(s) for subpackage_testsuiteruns.
   name: Vellum AI subpackage_testSuiteRuns API
   slug: vellum-subpackage-testsuiteruns-api
-- description: The subpackage_testSuites API from Vellum AI — 3 operation(s) for subpackage_testsuites.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_testSuites API from Vellum AI — 3 operation(s) for subpackage_testsuites.
   name: Vellum AI subpackage_testSuites API
   slug: vellum-subpackage-testsuites-api
-- description: The subpackage_uploadedFiles API from Vellum AI — 1 operation(s) for subpackage_uploadedfiles.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_uploadedFiles API from Vellum AI — 1 operation(s) for subpackage_uploadedfiles.
   name: Vellum AI subpackage_uploadedFiles API
   slug: vellum-subpackage-uploadedfiles-api
-- description: The subpackage_workflowDeployments API from Vellum AI — 10 operation(s) for subpackage_workflowdeployments.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_workflowDeployments API from Vellum AI — 10 operation(s) for subpackage_workflowdeployments.
   name: Vellum AI subpackage_workflowDeployments API
   slug: vellum-subpackage-workflowdeployments-api
-- description: The subpackage_workflowExecutions API from Vellum AI — 1 operation(s) for subpackage_workflowexecutions.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_workflowExecutions API from Vellum AI — 1 operation(s) for subpackage_workflowexecutions.
   name: Vellum AI subpackage_workflowExecutions API
   slug: vellum-subpackage-workflowexecutions-api
-- description: The subpackage_workflows API from Vellum AI — 1 operation(s) for subpackage_workflows.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_workflows API from Vellum AI — 1 operation(s) for subpackage_workflows.
   name: Vellum AI subpackage_workflows API
   slug: vellum-subpackage-workflows-api
-- description: The subpackage_workflowSandboxes API from Vellum AI — 1 operation(s) for subpackage_workflowsandboxes.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_workflowSandboxes API from Vellum AI — 1 operation(s) for subpackage_workflowsandboxes.
   name: Vellum AI subpackage_workflowSandboxes API
   slug: vellum-subpackage-workflowsandboxes-api
-- description: The subpackage_workspaceSecrets API from Vellum AI — 1 operation(s) for subpackage_workspacesecrets.
+- baseURL: https://api.vellum.ai
+  baseurl_source: declared
+  description: The subpackage_workspaceSecrets API from Vellum AI — 1 operation(s) for subpackage_workspacesecrets.
   name: Vellum AI subpackage_workspaceSecrets API
   slug: vellum-subpackage-workspacesecrets-api
 artifact_total: 39
@@ -258,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:

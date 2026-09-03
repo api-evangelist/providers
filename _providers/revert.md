@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 51 operations · 25 acting
 api_count: 1
 apis:
-- description: Unified accounting operations across Xero and QuickBooks
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified accounting operations across Xero and QuickBooks
   name: Revert Accounting API
   slug: revert-accounting-api
-- description: Unified chat operations across Slack, Microsoft Teams, and Discord
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified chat operations across Slack, Microsoft Teams, and Discord
   name: Revert Chat API
   slug: revert-chat-api
-- description: Manage third-party OAuth connections and webhooks
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Manage third-party OAuth connections and webhooks
   name: Revert Connections API
   slug: revert-connections-api
-- description: Unified CRM company/account operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM company/account operations
   name: Revert CRM Companies API
   slug: revert-crm-companies-api
-- description: Unified CRM contact operations across Salesforce, HubSpot, Zoho, Pipedrive, and Close
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM contact operations across Salesforce, HubSpot, Zoho, Pipedrive, and Close
   name: Revert CRM Contacts API
   slug: revert-crm-contacts-api
-- description: Unified CRM deal/opportunity operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM deal/opportunity operations
   name: Revert CRM Deals API
   slug: revert-crm-deals-api
-- description: Unified CRM event/activity operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM event/activity operations
   name: Revert CRM Events API
   slug: revert-crm-events-api
-- description: Unified CRM lead operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM lead operations
   name: Revert CRM Leads API
   slug: revert-crm-leads-api
-- description: Unified CRM note operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM note operations
   name: Revert CRM Notes API
   slug: revert-crm-notes-api
-- description: Unified CRM custom property operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM custom property operations
   name: Revert CRM Properties API
   slug: revert-crm-properties-api
-- description: Unified CRM task operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM task operations
   name: Revert CRM Tasks API
   slug: revert-crm-tasks-api
-- description: Unified CRM user operations
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified CRM user operations
   name: Revert CRM Users API
   slug: revert-crm-users-api
-- description: Unified ticketing operations across Jira and Asana
+- baseURL: https://api.revert.dev
+  baseurl_source: declared
+  description: Unified ticketing operations across Jira and Asana
   name: Revert Tickets API
   slug: revert-tickets-api
 artifact_total: 41
@@ -274,7 +300,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

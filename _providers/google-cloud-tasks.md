@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: The Projects API from Google Cloud Tasks — 5 operation(s) for projects.
+- baseURL: https://cloudtasks.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Cloud Tasks — 5 operation(s) for projects.
   name: Google Cloud Tasks Projects API
   slug: google-cloud-tasks-projects-api
 artifact_total: 12
@@ -191,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-tasks/refs/heads/main/screenshots/google-cloud-tasks-2026-06-20T182142.png
 security:

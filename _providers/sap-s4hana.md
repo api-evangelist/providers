@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 15 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations on header and item partner functions
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on header and item partner functions
   name: SAP S/4HANA Partners API
   slug: sap-s4hana-partners-api
-- description: Operations on header and item pricing elements
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on header and item pricing elements
   name: SAP S/4HANA Pricing Elements API
   slug: sap-s4hana-pricing-elements-api
-- description: Operations on sales order line items
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on sales order line items
   name: SAP S/4HANA Sales Order Items API
   slug: sap-s4hana-sales-order-items-api
-- description: Operations on sales order header records
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on sales order header records
   name: SAP S/4HANA Sales Orders API
   slug: sap-s4hana-sales-orders-api
-- description: Operations on item schedule lines for delivery scheduling
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on item schedule lines for delivery scheduling
   name: SAP S/4HANA Schedule Lines API
   slug: sap-s4hana-schedule-lines-api
-- description: Operations on header and item text records
+- baseURL: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV
+  baseurl_source: spec
+  description: Operations on header and item text records
   name: SAP S/4HANA Text API
   slug: sap-s4hana-text-api
 artifact_total: 96
@@ -451,7 +463,7 @@ score:
     catalog_gap: 65.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -461,7 +473,7 @@ score:
     discoverability: 38.9
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 38.6
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -470,7 +482,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png
 security:

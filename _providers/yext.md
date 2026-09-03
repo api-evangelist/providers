@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 248 operations · 121 acting
 api_count: 9
 apis:
-- description: The Account Settings API from Yext — 10 operation(s) for account settings.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Account Settings API from Yext — 10 operation(s) for account settings.
   name: Yext Account Settings API
   slug: yext-account-settings-api
-- description: The Accounts API from Yext — 8 operation(s) for accounts.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Accounts API from Yext — 8 operation(s) for accounts.
   name: Yext Accounts API
   slug: yext-accounts-api
-- description: 'NOTE: You need a sandbox account to test your Administrative API integration. Contact your Account Manager to have one created for you.'
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: 'NOTE: You need a sandbox account to test your Administrative API integration. Contact your Account Manager to have one created for you.'
   name: Yext Administrative API API
   slug: yext-administrative-api-api
-- description: The Analytics API from Yext — 4 operation(s) for analytics.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Analytics API from Yext — 4 operation(s) for analytics.
   name: Yext Analytics API
   slug: yext-analytics-api
-- description: The Computations API from Yext — 2 operation(s) for computations.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Computations API from Yext — 2 operation(s) for computations.
   name: Yext Computations API
   slug: yext-computations-api
-- description: The Configuration API from Yext — 3 operation(s) for configuration.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Configuration API from Yext — 3 operation(s) for configuration.
   name: Yext Configuration API
   slug: yext-configuration-api
-- description: The Connectors API from Yext — 5 operation(s) for connectors.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Connectors API from Yext — 5 operation(s) for connectors.
   name: Yext Connectors API
   slug: yext-connectors-api
-- description: The Content API API from Yext — 2 operation(s) for content api.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Content API API from Yext — 2 operation(s) for content api.
   name: Yext Content API API
   slug: yext-content-api-api
-- description: The Domains API from Yext — 7 operation(s) for domains.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Domains API from Yext — 7 operation(s) for domains.
   name: Yext Domains API
   slug: yext-domains-api
-- description: The Health Check API from Yext — 1 operation(s) for health check.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Health Check API from Yext — 1 operation(s) for health check.
   name: Yext Health Check API
   slug: yext-health-check-api
-- description: The Knowledge Manager API from Yext — 30 operation(s) for knowledge manager.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Knowledge Manager API from Yext — 30 operation(s) for knowledge manager.
   name: Yext Knowledge Manager API
   slug: yext-knowledge-manager-api
-- description: The Licenses API from Yext — 3 operation(s) for licenses.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Licenses API from Yext — 3 operation(s) for licenses.
   name: Yext Licenses API
   slug: yext-licenses-api
-- description: The Listings API from Yext — 26 operation(s) for listings.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Listings API from Yext — 26 operation(s) for listings.
   name: Yext Listings API
   slug: yext-listings-api
-- description: The Lists API from Yext — 1 operation(s) for lists.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Lists API from Yext — 1 operation(s) for lists.
   name: Yext Lists API
   slug: yext-lists-api
-- description: The Live API API from Yext — 21 operation(s) for live api.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Live API API from Yext — 21 operation(s) for live api.
   name: Yext Live API API
   slug: yext-live-api-api
-- description: The LogsAPI API from Yext — 3 operation(s) for logsapi.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The LogsAPI API from Yext — 3 operation(s) for logsapi.
   name: Yext LogsAPI API
   slug: yext-logsapi-api
-- description: The Optimization Tasks API from Yext — 2 operation(s) for optimization tasks.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Optimization Tasks API from Yext — 2 operation(s) for optimization tasks.
   name: Yext Optimization Tasks API
   slug: yext-optimization-tasks-api
-- description: The Plpixel API from Yext — 1 operation(s) for plpixel.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Plpixel API from Yext — 1 operation(s) for plpixel.
   name: Yext Plpixel API
   slug: yext-plpixel-api
-- description: The Publisher Disruptions API from Yext — 2 operation(s) for publisher disruptions.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Publisher Disruptions API from Yext — 2 operation(s) for publisher disruptions.
   name: Yext Publisher Disruptions API
   slug: yext-publisher-disruptions-api
-- description: The Reviews API from Yext — 14 operation(s) for reviews.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Reviews API from Yext — 14 operation(s) for reviews.
   name: Yext Reviews API
   slug: yext-reviews-api
-- description: The Social API from Yext — 10 operation(s) for social.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Social API from Yext — 10 operation(s) for social.
   name: Yext Social API
   slug: yext-social-api
-- description: The Suggestions API from Yext — 2 operation(s) for suggestions.
+- baseURL: https://api.yextapis.com/v2
+  baseurl_source: declared
+  description: The Suggestions API from Yext — 2 operation(s) for suggestions.
   name: Yext Suggestions API
   slug: yext-suggestions-api
 artifact_total: 62
@@ -346,7 +390,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png
 security:

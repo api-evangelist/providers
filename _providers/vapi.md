@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -47,49 +47,79 @@ apis:
 - description: Server- and client-side webhook events emitted by Vapi during voice sessions, including end-of-call reports, transcripts, function calls, status updates, and tool invocations.
   name: Vapi Webhooks API
   slug: webhooks
-- description: The Analytics API from Vapi — 1 operation(s) for analytics.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Analytics API from Vapi — 1 operation(s) for analytics.
   name: Vapi Analytics API
   slug: vapi-analytics-api
-- description: The Assistants API from Vapi — 2 operation(s) for assistants.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Assistants API from Vapi — 2 operation(s) for assistants.
   name: Vapi Assistants API
   slug: vapi-assistants-api
-- description: The Calls API from Vapi — 2 operation(s) for calls.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Calls API from Vapi — 2 operation(s) for calls.
   name: Vapi Calls API
   slug: vapi-calls-api
-- description: The Campaigns API from Vapi — 2 operation(s) for campaigns.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Campaigns API from Vapi — 2 operation(s) for campaigns.
   name: Vapi Campaigns API
   slug: vapi-campaigns-api
-- description: The Chats API from Vapi — 3 operation(s) for chats.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Chats API from Vapi — 3 operation(s) for chats.
   name: Vapi Chats API
   slug: vapi-chats-api
-- description: The Eval API from Vapi — 4 operation(s) for eval.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Eval API from Vapi — 4 operation(s) for eval.
   name: Vapi Eval API
   slug: vapi-eval-api
-- description: The Files API from Vapi — 2 operation(s) for files.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Files API from Vapi — 2 operation(s) for files.
   name: Vapi Files API
   slug: vapi-files-api
-- description: The Insight API from Vapi — 4 operation(s) for insight.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Insight API from Vapi — 4 operation(s) for insight.
   name: Vapi Insight API
   slug: vapi-insight-api
-- description: The Observability/Scorecard API from Vapi — 2 operation(s) for observability/scorecard.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Observability/Scorecard API from Vapi — 2 operation(s) for observability/scorecard.
   name: Vapi Observability/Scorecard API
   slug: vapi-observability-scorecard-api
-- description: The Phone Numbers API from Vapi — 3 operation(s) for phone numbers.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Phone Numbers API from Vapi — 3 operation(s) for phone numbers.
   name: Vapi Phone Numbers API
   slug: vapi-phone-numbers-api
-- description: The Provider Resources API from Vapi — 2 operation(s) for provider resources.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Provider Resources API from Vapi — 2 operation(s) for provider resources.
   name: Vapi Provider Resources API
   slug: vapi-provider-resources-api
-- description: The Sessions API from Vapi — 2 operation(s) for sessions.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Sessions API from Vapi — 2 operation(s) for sessions.
   name: Vapi Sessions API
   slug: vapi-sessions-api
-- description: The Squads API from Vapi — 2 operation(s) for squads.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Squads API from Vapi — 2 operation(s) for squads.
   name: Vapi Squads API
   slug: vapi-squads-api
-- description: The Structured Outputs API from Vapi — 3 operation(s) for structured outputs.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Structured Outputs API from Vapi — 3 operation(s) for structured outputs.
   name: Vapi Structured Outputs API
   slug: vapi-structured-outputs-api
-- description: The Tools API from Vapi — 2 operation(s) for tools.
+- baseURL: https://api.vapi.ai
+  baseurl_source: declared
+  description: The Tools API from Vapi — 2 operation(s) for tools.
   name: Vapi Tools API
   slug: vapi-tools-api
 artifact_total: 922
@@ -2919,7 +2949,7 @@ score:
     regime_id: telecommunications
     score: 23.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi/refs/heads/main/screenshots/vapi-2026-06-20T200920.png
 security:

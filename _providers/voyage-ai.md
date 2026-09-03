@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
@@ -51,16 +51,24 @@ apis:
 - description: Official TypeScript / JavaScript client for the Voyage AI REST API.
   name: Voyage AI TypeScript SDK
   slug: typescript-sdk
-- description: Embed chunks conditioned on surrounding document context.
+- baseURL: https://api.voyageai.com/v1
+  baseurl_source: declared
+  description: Embed chunks conditioned on surrounding document context.
   name: Voyage AI Contextualized API
   slug: voyage-ai-contextualized-api
-- description: Dense text embeddings.
+- baseURL: https://api.voyageai.com/v1
+  baseurl_source: declared
+  description: Dense text embeddings.
   name: Voyage AI Embeddings API
   slug: voyage-ai-embeddings-api
-- description: Embed interleaved text and images in a shared vector space.
+- baseURL: https://api.voyageai.com/v1
+  baseurl_source: declared
+  description: Embed interleaved text and images in a shared vector space.
   name: Voyage AI Multimodal API
   slug: voyage-ai-multimodal-api
-- description: Cross-encoder reranking of candidate documents.
+- baseURL: https://api.voyageai.com/v1
+  baseurl_source: declared
+  description: Cross-encoder reranking of candidate documents.
   name: Voyage AI Rerank API
   slug: voyage-ai-rerank-api
 artifact_total: 18
@@ -191,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:

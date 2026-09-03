@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,46 +45,74 @@ agentic_access:
   summary_line: 84 operations · 25 acting
 api_count: 15
 apis:
-- description: The Activity-Logs API from Picus Security — 1 operation(s) for activity-logs.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Activity-Logs API from Picus Security — 1 operation(s) for activity-logs.
   name: Picus Security Activity Logs API
   slug: picus-security-activity-logs-api
-- description: The Agents API from Picus Security — 6 operation(s) for agents.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Agents API from Picus Security — 6 operation(s) for agents.
   name: Picus Security Agents API
   slug: picus-security-agents-api
-- description: The Authentication API from Picus Security — 2 operation(s) for authentication.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Authentication API from Picus Security — 2 operation(s) for authentication.
   name: Picus Security Authentication API
   slug: picus-security-authentication-api
-- description: The Instances API from Picus Security — 1 operation(s) for instances.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Instances API from Picus Security — 1 operation(s) for instances.
   name: Picus Security Instances API
   slug: picus-security-instances-api
-- description: The Integrations API from Picus Security — 2 operation(s) for integrations.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Integrations API from Picus Security — 2 operation(s) for integrations.
   name: Picus Security Integrations API
   slug: picus-security-integrations-api
-- description: The Mitigation API from Picus Security — 15 operation(s) for mitigation.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Mitigation API from Picus Security — 15 operation(s) for mitigation.
   name: Picus Security Mitigation API
   slug: picus-security-mitigation-api
-- description: The Simulation-Latest-Result API from Picus Security — 7 operation(s) for simulation-latest-result.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Simulation-Latest-Result API from Picus Security — 7 operation(s) for simulation-latest-result.
   name: Picus Security Simulation Latest Result API
   slug: picus-security-simulation-latest-result-api
-- description: The Simulation-Result API from Picus Security — 8 operation(s) for simulation-result.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Simulation-Result API from Picus Security — 8 operation(s) for simulation-result.
   name: Picus Security Simulation Result API
   slug: picus-security-simulation-result-api
-- description: The Simulation-Result-Reports API from Picus Security — 4 operation(s) for simulation-result-reports.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Simulation-Result-Reports API from Picus Security — 4 operation(s) for simulation-result-reports.
   name: Picus Security Simulation Result Reports API
   slug: picus-security-simulation-result-reports-api
-- description: The Simulations API from Picus Security — 4 operation(s) for simulations.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Simulations API from Picus Security — 4 operation(s) for simulations.
   name: Picus Security Simulations API
   slug: picus-security-simulations-api
-- description: The Summary API from Picus Security — 1 operation(s) for summary.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Summary API from Picus Security — 1 operation(s) for summary.
   name: Picus Security Summary API
   slug: picus-security-summary-api
-- description: The Templates API from Picus Security — 2 operation(s) for templates.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Templates API from Picus Security — 2 operation(s) for templates.
   name: Picus Security Templates API
   slug: picus-security-templates-api
-- description: The Threats API from Picus Security — 13 operation(s) for threats.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Threats API from Picus Security — 13 operation(s) for threats.
   name: Picus Security Threats API
   slug: picus-security-threats-api
-- description: The Users API from Picus Security — 5 operation(s) for users.
+- baseURL: https://api.picussecurity.com/
+  baseurl_source: declared
+  description: The Users API from Picus Security — 5 operation(s) for users.
   name: Picus Security Users API
   slug: picus-security-users-api
 artifact_total: 36
@@ -310,7 +350,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:

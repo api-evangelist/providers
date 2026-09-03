@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 248
   human_in_the_loop: 0
@@ -43,196 +43,324 @@ agentic_access:
   summary_line: 351 operations · 248 acting
 api_count: 4
 apis:
-- description: The Assortment API from Erply — 3 operation(s) for assortment.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Assortment API from Erply — 3 operation(s) for assortment.
   name: Erply Assortment API
   slug: erply-assortment-api
-- description: The Assortment To Product Linking API from Erply — 9 operation(s) for assortment to product linking.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Assortment To Product Linking API from Erply — 9 operation(s) for assortment to product linking.
   name: Erply Assortment To Product Linking API
   slug: erply-assortment-to-product-linking-api
-- description: 'Attributes are attached to entities. The possible entities are: product, recipe, warehouse location, assortment, brand, matrix dimension, matrix dimension value, category, country, family, group, pack'
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: 'Attributes are attached to entities. The possible entities are: product, recipe, warehouse location, assortment, brand, matrix dimension, matrix dimension value, category, country, family, group, pack'
   name: Erply Attributes API
   slug: erply-attributes-api
-- description: The auth API from Erply — 1 operation(s) for auth.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The auth API from Erply — 1 operation(s) for auth.
   name: Erply auth API
   slug: erply-auth-api
-- description: The Brand API from Erply — 5 operation(s) for brand.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Brand API from Erply — 5 operation(s) for brand.
   name: Erply Brand API
   slug: erply-brand-api
-- description: The clsf API from Erply — 7 operation(s) for clsf.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The clsf API from Erply — 7 operation(s) for clsf.
   name: Erply clsf API
   slug: erply-clsf-api
-- description: The clsf-device-properties API from Erply — 6 operation(s) for clsf-device-properties.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The clsf-device-properties API from Erply — 6 operation(s) for clsf-device-properties.
   name: Erply clsf-device-properties API
   slug: erply-clsf-device-properties-api
-- description: The clsf-events API from Erply — 2 operation(s) for clsf-events.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The clsf-events API from Erply — 2 operation(s) for clsf-events.
   name: Erply clsf-events API
   slug: erply-clsf-events-api
-- description: The clsf-labels API from Erply — 4 operation(s) for clsf-labels.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The clsf-labels API from Erply — 4 operation(s) for clsf-labels.
   name: Erply clsf-labels API
   slug: erply-clsf-labels-api
-- description: The Country API from Erply — 3 operation(s) for country.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Country API from Erply — 3 operation(s) for country.
   name: Erply Country API
   slug: erply-country-api
-- description: The device API from Erply — 4 operation(s) for device.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The device API from Erply — 4 operation(s) for device.
   name: Erply device API
   slug: erply-device-api
-- description: The event API from Erply — 1 operation(s) for event.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The event API from Erply — 1 operation(s) for event.
   name: Erply event API
   slug: erply-event-api
-- description: The Export API from Erply — 3 operation(s) for export.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Export API from Erply — 3 operation(s) for export.
   name: Erply Export API
   slug: erply-export-api
-- description: The External IDs API from Erply — 4 operation(s) for external ids.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The External IDs API from Erply — 4 operation(s) for external ids.
   name: Erply External IDs API
   slug: erply-external-ids-api
-- description: The form API from Erply — 1 operation(s) for form.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The form API from Erply — 1 operation(s) for form.
   name: Erply form API
   slug: erply-form-api
-- description: The Franchise Products API from Erply — 2 operation(s) for franchise products.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Franchise Products API from Erply — 2 operation(s) for franchise products.
   name: Erply Franchise Products API
   slug: erply-franchise-products-api
-- description: The Import & Export API from Erply — 2 operation(s) for import & export.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Import & Export API from Erply — 2 operation(s) for import & export.
   name: Erply Import & Export API
   slug: erply-import-export-api
-- description: The item API from Erply — 4 operation(s) for item.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The item API from Erply — 4 operation(s) for item.
   name: Erply item API
   slug: erply-item-api
-- description: The label API from Erply — 1 operation(s) for label.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The label API from Erply — 1 operation(s) for label.
   name: Erply label API
   slug: erply-label-api
-- description: Manage substitute and cross-sell products
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: Manage substitute and cross-sell products
   name: Erply Linked Products API
   slug: erply-linked-products-api
-- description: The Locations in warehouse API from Erply — 1 operation(s) for locations in warehouse.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Locations in warehouse API from Erply — 1 operation(s) for locations in warehouse.
   name: Erply Locations in warehouse API
   slug: erply-locations-in-warehouse-api
-- description: The Matrix Dimension API from Erply — 6 operation(s) for matrix dimension.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Matrix Dimension API from Erply — 6 operation(s) for matrix dimension.
   name: Erply Matrix Dimension API
   slug: erply-matrix-dimension-api
-- description: The Matrix Dimension Value API from Erply — 6 operation(s) for matrix dimension value.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Matrix Dimension Value API from Erply — 6 operation(s) for matrix dimension value.
   name: Erply Matrix Dimension Value API
   slug: erply-matrix-dimension-value-api
-- description: The Matrix Product API from Erply — 7 operation(s) for matrix product.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Matrix Product API from Erply — 7 operation(s) for matrix product.
   name: Erply Matrix Product API
   slug: erply-matrix-product-api
-- description: The Matrix Product Variation API from Erply — 4 operation(s) for matrix product variation.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Matrix Product Variation API from Erply — 4 operation(s) for matrix product variation.
   name: Erply Matrix Product Variation API
   slug: erply-matrix-product-variation-api
-- description: The note API from Erply — 2 operation(s) for note.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The note API from Erply — 2 operation(s) for note.
   name: Erply note API
   slug: erply-note-api
-- description: The Parameter Set to Group Linking API from Erply — 2 operation(s) for parameter set to group linking.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Parameter Set to Group Linking API from Erply — 2 operation(s) for parameter set to group linking.
   name: Erply Parameter Set to Group Linking API
   slug: erply-parameter-set-to-group-linking-api
-- description: The Parameter Set To Product Linking API from Erply — 1 operation(s) for parameter set to product linking.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Parameter Set To Product Linking API from Erply — 1 operation(s) for parameter set to product linking.
   name: Erply Parameter Set To Product Linking API
   slug: erply-parameter-set-to-product-linking-api
-- description: The Permissions API from Erply — 2 operation(s) for permissions.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Permissions API from Erply — 2 operation(s) for permissions.
   name: Erply Permissions API
   slug: erply-permissions-api
-- description: The printout API from Erply — 3 operation(s) for printout.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The printout API from Erply — 3 operation(s) for printout.
   name: Erply printout API
   slug: erply-printout-api
-- description: The Product Category API from Erply — 8 operation(s) for product category.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Category API from Erply — 8 operation(s) for product category.
   name: Erply Product Category API
   slug: erply-product-category-api
-- description: The Product Extra Field 1 API from Erply — 6 operation(s) for product extra field 1.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Extra Field 1 API from Erply — 6 operation(s) for product extra field 1.
   name: Erply Product Extra Field 1 API
   slug: erply-product-extra-field-1-api
-- description: The Product Extra Field 2 API from Erply — 6 operation(s) for product extra field 2.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Extra Field 2 API from Erply — 6 operation(s) for product extra field 2.
   name: Erply Product Extra Field 2 API
   slug: erply-product-extra-field-2-api
-- description: The Product Extra Field 3 API from Erply — 6 operation(s) for product extra field 3.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Extra Field 3 API from Erply — 6 operation(s) for product extra field 3.
   name: Erply Product Extra Field 3 API
   slug: erply-product-extra-field-3-api
-- description: The Product Extra Field 4 API from Erply — 6 operation(s) for product extra field 4.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Extra Field 4 API from Erply — 6 operation(s) for product extra field 4.
   name: Erply Product Extra Field 4 API
   slug: erply-product-extra-field-4-api
-- description: The Product Family API from Erply — 4 operation(s) for product family.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Family API from Erply — 4 operation(s) for product family.
   name: Erply Product Family API
   slug: erply-product-family-api
-- description: The Product Fields API from Erply — 2 operation(s) for product fields.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Fields API from Erply — 2 operation(s) for product fields.
   name: Erply Product Fields API
   slug: erply-product-fields-api
-- description: The Product Group API from Erply — 15 operation(s) for product group.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Group API from Erply — 15 operation(s) for product group.
   name: Erply Product Group API
   slug: erply-product-group-api
-- description: The Product Package API from Erply — 4 operation(s) for product package.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Package API from Erply — 4 operation(s) for product package.
   name: Erply Product Package API
   slug: erply-product-package-api
-- description: The Product Parameter API from Erply — 5 operation(s) for product parameter.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Parameter API from Erply — 5 operation(s) for product parameter.
   name: Erply Product Parameter API
   slug: erply-product-parameter-api
-- description: The Product Parameter Option API from Erply — 5 operation(s) for product parameter option.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Parameter Option API from Erply — 5 operation(s) for product parameter option.
   name: Erply Product Parameter Option API
   slug: erply-product-parameter-option-api
-- description: The Product Parameter Set API from Erply — 3 operation(s) for product parameter set.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Parameter Set API from Erply — 3 operation(s) for product parameter set.
   name: Erply Product Parameter Set API
   slug: erply-product-parameter-set-api
-- description: The Product Parameter Validation Rule API from Erply — 4 operation(s) for product parameter validation rule.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Parameter Validation Rule API from Erply — 4 operation(s) for product parameter validation rule.
   name: Erply Product Parameter Validation Rule API
   slug: erply-product-parameter-validation-rule-api
-- description: The Product Parameter Value API from Erply — 4 operation(s) for product parameter value.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Parameter Value API from Erply — 4 operation(s) for product parameter value.
   name: Erply Product Parameter Value API
   slug: erply-product-parameter-value-api
-- description: The Product Priority Groups API from Erply — 6 operation(s) for product priority groups.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Priority Groups API from Erply — 6 operation(s) for product priority groups.
   name: Erply Product Priority Groups API
   slug: erply-product-priority-groups-api
-- description: The Product Recipes API from Erply — 4 operation(s) for product recipes.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Recipes API from Erply — 4 operation(s) for product recipes.
   name: Erply Product Recipes API
   slug: erply-product-recipes-api
-- description: The Product Replacement API from Erply — 2 operation(s) for product replacement.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Replacement API from Erply — 2 operation(s) for product replacement.
   name: Erply Product Replacement API
   slug: erply-product-replacement-api
-- description: The Product Units API from Erply — 6 operation(s) for product units.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Product Units API from Erply — 6 operation(s) for product units.
   name: Erply Product Units API
   slug: erply-product-units-api
-- description: 'NB: Product picture management is done with CDN API: https://learn-api.erply.com/new-apis/cdn-api'
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: 'NB: Product picture management is done with CDN API: https://learn-api.erply.com/new-apis/cdn-api'
   name: Erply Products API
   slug: erply-products-api
-- description: The report API from Erply — 4 operation(s) for report.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The report API from Erply — 4 operation(s) for report.
   name: Erply report API
   slug: erply-report-api
-- description: The resource API from Erply — 3 operation(s) for resource.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The resource API from Erply — 3 operation(s) for resource.
   name: Erply resource API
   slug: erply-resource-api
-- description: The row API from Erply — 4 operation(s) for row.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The row API from Erply — 4 operation(s) for row.
   name: Erply row API
   slug: erply-row-api
-- description: The Special Endpoints API from Erply — 3 operation(s) for special endpoints.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Special Endpoints API from Erply — 3 operation(s) for special endpoints.
   name: Erply Special Endpoints API
   slug: erply-special-endpoints-api
-- description: The Supplier API from Erply — 6 operation(s) for supplier.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Supplier API from Erply — 6 operation(s) for supplier.
   name: Erply Supplier API
   slug: erply-supplier-api
-- description: The sync API from Erply — 3 operation(s) for sync.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The sync API from Erply — 3 operation(s) for sync.
   name: Erply sync API
   slug: erply-sync-api
-- description: The task API from Erply — 4 operation(s) for task.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The task API from Erply — 4 operation(s) for task.
   name: Erply task API
   slug: erply-task-api
-- description: The Tasks API from Erply — 2 operation(s) for tasks.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Tasks API from Erply — 2 operation(s) for tasks.
   name: Erply Tasks API
   slug: erply-tasks-api
-- description: The template API from Erply — 3 operation(s) for template.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The template API from Erply — 3 operation(s) for template.
   name: Erply template API
   slug: erply-template-api
-- description: The v1 API from Erply — 4 operation(s) for v1.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The v1 API from Erply — 4 operation(s) for v1.
   name: Erply v1 API
   slug: erply-v1-api
-- description: The v3 API from Erply — 2 operation(s) for v3.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The v3 API from Erply — 2 operation(s) for v3.
   name: Erply v3 API
   slug: erply-v3-api
-- description: The Warehouse Locations API from Erply — 3 operation(s) for warehouse locations.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The Warehouse Locations API from Erply — 3 operation(s) for warehouse locations.
   name: Erply Warehouse Locations API
   slug: erply-warehouse-locations-api
-- description: The webhook API from Erply — 2 operation(s) for webhook.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The webhook API from Erply — 2 operation(s) for webhook.
   name: Erply webhook API
   slug: erply-webhook-api
-- description: The webhook-configuration API from Erply — 2 operation(s) for webhook-configuration.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The webhook-configuration API from Erply — 2 operation(s) for webhook-configuration.
   name: Erply webhook-configuration API
   slug: erply-webhook-configuration-api
-- description: The workorder API from Erply — 14 operation(s) for workorder.
+- baseURL: https://api-pim-eu.erply.com
+  baseurl_source: declared
+  description: The workorder API from Erply — 14 operation(s) for workorder.
   name: Erply workorder API
   slug: erply-workorder-api
 artifact_total: 135
@@ -601,7 +729,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -611,7 +739,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 48.4
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -623,7 +751,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erply/refs/heads/main/screenshots/erply-2026-07-25T213611.png
 security:

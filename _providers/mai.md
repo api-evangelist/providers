@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The one public, callable API MAI publishes. A single unauthenticated write-only endpoint, POST /api/collect, that ingests first-party commerce events from a merchant's storefront — product views, cart
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads/main/screenshots/mai-2026-07-25T225907.png
 security:

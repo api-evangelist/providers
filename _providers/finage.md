@@ -34,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Real-time streaming trades and quotes for US stocks, global stocks, forex, crypto, CFD indices, and ETFs over per-customer WebSocket URLs (assigned subdomain and port on finage.ws, socket-key token au
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: Real-time streaming trades and quotes for US stocks, global stocks, forex, crypto, CFD indices, and ETFs over per-customer WebSocket URLs (assigned subdomain and port on finage.ws, socket-key token au
   name: Finage WebSocket Market Data Stream
   slug: finage-websocket-market-data-stream
-- description: The Bonds API from Finage — 1 operation(s) for bonds.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Bonds API from Finage — 1 operation(s) for bonds.
   name: Finage Bonds API
   slug: finage-bonds-api
-- description: The Canadian Stocks API from Finage — 2 operation(s) for canadian stocks.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Canadian Stocks API from Finage — 2 operation(s) for canadian stocks.
   name: Finage Canadian Stocks API
   slug: finage-canadian-stocks-api
-- description: The Crypto API from Finage — 6 operation(s) for crypto.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Crypto API from Finage — 6 operation(s) for crypto.
   name: Finage Crypto API
   slug: finage-crypto-api
-- description: The ETFs API from Finage — 3 operation(s) for etfs.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The ETFs API from Finage — 3 operation(s) for etfs.
   name: Finage ET Fs API
   slug: finage-etfs-api
-- description: The Forex API from Finage — 6 operation(s) for forex.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Forex API from Finage — 6 operation(s) for forex.
   name: Finage Forex API
   slug: finage-forex-api
-- description: The Fundamentals API from Finage — 40 operation(s) for fundamentals.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Fundamentals API from Finage — 40 operation(s) for fundamentals.
   name: Finage Fundamentals API
   slug: finage-fundamentals-api
-- description: The Indian Stocks API from Finage — 2 operation(s) for indian stocks.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Indian Stocks API from Finage — 2 operation(s) for indian stocks.
   name: Finage Indian Stocks API
   slug: finage-indian-stocks-api
-- description: The Indices API from Finage — 3 operation(s) for indices.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Indices API from Finage — 3 operation(s) for indices.
   name: Finage Indices API
   slug: finage-indices-api
-- description: The Russian Stocks API from Finage — 2 operation(s) for russian stocks.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The Russian Stocks API from Finage — 2 operation(s) for russian stocks.
   name: Finage Russian Stocks API
   slug: finage-russian-stocks-api
-- description: The UK Stocks API from Finage — 2 operation(s) for uk stocks.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The UK Stocks API from Finage — 2 operation(s) for uk stocks.
   name: Finage UK Stocks API
   slug: finage-uk-stocks-api
-- description: The US Stocks API from Finage — 5 operation(s) for us stocks.
+- baseURL: https://api.finage.co.uk
+  baseurl_source: declared
+  description: The US Stocks API from Finage — 5 operation(s) for us stocks.
   name: Finage US Stocks API
   slug: finage-us-stocks-api
 artifact_total: 19
@@ -274,7 +298,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finage/refs/heads/main/screenshots/finage-2026-06-20T181209.png
 security:

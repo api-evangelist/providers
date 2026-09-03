@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 53 operations · 7 acting
 api_count: 2
 apis:
-- description: Recent activity on the calling user's photos and contacts
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Recent activity on the calling user's photos and contacts
   name: Flickr Activity API
   slug: flickr-activity-api
-- description: OAuth 1.0a token exchange
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: OAuth 1.0a token exchange
   name: Flickr Auth API
   slug: flickr-auth-api
-- description: Configured blogs and posting to them
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Configured blogs and posting to them
   name: Flickr Blogs API
   slug: flickr-blogs-api
-- description: Camera brand and model metadata
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Camera brand and model metadata
   name: Flickr Cameras API
   slug: flickr-cameras-api
-- description: Hierarchical collections of photosets
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Hierarchical collections of photosets
   name: Flickr Collections API
   slug: flickr-collections-api
-- description: Flickr Commons institutions
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Flickr Commons institutions
   name: Flickr Commons API
   slug: flickr-commons-api
-- description: Calling user's contacts and recent contact activity
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Calling user's contacts and recent contact activity
   name: Flickr Contacts API
   slug: flickr-contacts-api
-- description: Photos a user has marked as favorites
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Photos a user has marked as favorites
   name: Flickr Favorites API
   slug: flickr-favorites-api
-- description: Curated, themed galleries of photos
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Curated, themed galleries of photos
   name: Flickr Galleries API
   slug: flickr-galleries-api
-- description: Group metadata, membership, and pool management
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Group metadata, membership, and pool management
   name: Flickr Groups API
   slug: flickr-groups-api
-- description: Group discussion topics and replies
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Group discussion topics and replies
   name: Flickr Groups Discuss API
   slug: flickr-groups-discuss-api
-- description: The day's most interesting photos
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: The day's most interesting photos
   name: Flickr Interestingness API
   slug: flickr-interestingness-api
-- description: Namespace, predicate, and value lookups for machine tags
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Namespace, predicate, and value lookups for machine tags
   name: Flickr Machine Tags API
   slug: flickr-machine-tags-api
-- description: The Flickr Panda firehose of "interesting" photos
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: The Flickr Panda firehose of "interesting" photos
   name: Flickr Panda API
   slug: flickr-panda-api
-- description: People (users), their info, public photos, and groups
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: People (users), their info, public photos, and groups
   name: Flickr People API
   slug: flickr-people-api
-- description: Core photo metadata, search, comments, and lifecycle
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Core photo metadata, search, comments, and lifecycle
   name: Flickr Photos API
   slug: flickr-photos-api
-- description: Geotagging photos with latitude/longitude
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Geotagging photos with latitude/longitude
   name: Flickr Photos Geo API
   slug: flickr-photos-geo-api
-- description: License catalog and per-photo license assignment
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: License catalog and per-photo license assignment
   name: Flickr Photos Licenses API
   slug: flickr-photos-licenses-api
-- description: Notes drawn on photos
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Notes drawn on photos
   name: Flickr Photos Notes API
   slug: flickr-photos-notes-api
-- description: Rotate photos server-side
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Rotate photos server-side
   name: Flickr Photos Transform API
   slug: flickr-photos-transform-api
-- description: Asynchronous upload status polling
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Asynchronous upload status polling
   name: Flickr Photos Upload API
   slug: flickr-photos-upload-api
-- description: Photo albums (photosets)
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Photo albums (photosets)
   name: Flickr Photosets API
   slug: flickr-photosets-api
-- description: Place IDs, hierarchies, and resolution
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Place IDs, hierarchies, and resolution
   name: Flickr Places API
   slug: flickr-places-api
-- description: Calling user's posting preferences
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Calling user's posting preferences
   name: Flickr Prefs API
   slug: flickr-prefs-api
-- description: User profile fields
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: User profile fields
   name: Flickr Profile API
   slug: flickr-profile-api
-- description: The Public API from Flickr — 25 operation(s) for public.
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: The Public API from Flickr — 25 operation(s) for public.
   name: Flickr Public API
   slug: flickr-public-api
-- description: PubSubHubbub push subscriptions
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: PubSubHubbub push subscriptions
   name: Flickr Push API
   slug: flickr-push-api
-- description: Programmatic discovery of available API methods
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Programmatic discovery of available API methods
   name: Flickr Reflection API
   slug: flickr-reflection-api
-- description: View counts and referrers for photos/photosets/collections
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: View counts and referrers for photos/photosets/collections
   name: Flickr Stats API
   slug: flickr-stats-api
-- description: Tag clusters, hot lists, and tag-based lookups
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Tag clusters, hot lists, and tag-based lookups
   name: Flickr Tags API
   slug: flickr-tags-api
-- description: Echo, login, and null test methods
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Echo, login, and null test methods
   name: Flickr Test API
   slug: flickr-test-api
-- description: Look up Flickr URLs by user, group, gallery
+- baseURL: https://api.flickr.com/services
+  baseurl_source: declared
+  description: Look up Flickr URLs by user, group, gallery
   name: Flickr URLs API
   slug: flickr-urls-api
 artifact_total: 308
@@ -1101,7 +1165,7 @@ score:
       marker_coverage: 100.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -45,58 +45,94 @@ agentic_access:
   summary_line: 52 operations · 52 acting
 api_count: 1
 apis:
-- description: Email activity search
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Email activity search
   name: SMTP2GO Activity API
   slug: smtp2go-activity-api
-- description: API key management
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: API key management
   name: SMTP2GO API Keys API
   slug: smtp2go-api-keys-api
-- description: Send and receive SMS messages
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Send and receive SMS messages
   name: SMTP2GO SMS API
   slug: smtp2go-sms-api
-- description: SMTP user account management
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: SMTP user account management
   name: SMTP2GO SMTP Users API
   slug: smtp2go-smtp-users-api
-- description: Subaccount management
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Subaccount management
   name: SMTP2GO Subaccounts API
   slug: smtp2go-subaccounts-api
-- description: Suppression list management
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Suppression list management
   name: SMTP2GO Suppressions API
   slug: smtp2go-suppressions-api
-- description: Email template management
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Email template management
   name: SMTP2GO Templates API
   slug: smtp2go-templates-api
-- description: Webhook configuration
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Webhook configuration
   name: SMTP2GO Webhooks API
   slug: smtp2go-webhooks-api
-- description: Manage the allowed recipients list
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Manage the allowed recipients list
   name: SMTP2GO ALLOWED RECIPIENTS API
   slug: smtp2go-allowed-recipients-api
-- description: Manage the allowed/restricted senders list
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Manage the allowed/restricted senders list
   name: SMTP2GO ALLOWED SENDERS API
   slug: smtp2go-allowed-senders-api
-- description: View dedicated IP addresses on the account
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: View dedicated IP addresses on the account
   name: SMTP2GO DEDICATED IPS API
   slug: smtp2go-dedicated-ips-api
-- description: Search and retrieve archived email content
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Search and retrieve archived email content
   name: SMTP2GO EMAIL ARCHIVE API
   slug: smtp2go-email-archive-api
-- description: Send standard, MIME and batch email; manage scheduled sends
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Send standard, MIME and batch email; manage scheduled sends
   name: SMTP2GO EMAILS API
   slug: smtp2go-emails-api
-- description: Manage the account IP allow list for SMTP and API access
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Manage the account IP allow list for SMTP and API access
   name: SMTP2GO IP Allow List API
   slug: smtp2go-ip-allow-list-api
-- description: Manage IP-authenticated sending entries
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Manage IP-authenticated sending entries
   name: SMTP2GO IP AUTH API
   slug: smtp2go-ip-auth-api
-- description: Add, verify and manage sender domains, tracking and return-path subdomains
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Add, verify and manage sender domains, tracking and return-path subdomains
   name: SMTP2GO SENDER DOMAINS API
   slug: smtp2go-sender-domains-api
-- description: Verify individual From addresses
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Verify individual From addresses
   name: SMTP2GO SINGLE SENDER EMAILS API
   slug: smtp2go-single-sender-emails-api
-- description: Delivery, bounce, spam, unsubscribe and cycle statistics
+- baseURL: https://api.smtp2go.com/v3
+  baseurl_source: declared
+  description: Delivery, bounce, spam, unsubscribe and cycle statistics
   name: SMTP2GO STATISTICS API
   slug: smtp2go-statistics-api
 artifact_total: 45
@@ -375,7 +411,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -385,7 +421,7 @@ score:
     discoverability: 75.9
     governance: 28.0
     operational_transparency: 76.3
-  previous_composite: 72.6
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -403,7 +439,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:

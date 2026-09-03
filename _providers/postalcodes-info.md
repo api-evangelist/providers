@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Country-level CSV, XLSX and JSON exports.
+- baseURL: https://postalcodes.info
+  baseurl_source: declared
+  description: Country-level CSV, XLSX and JSON exports.
   name: PostalCodes.info Downloads API
   slug: postalcodes-info-downloads-api
-- description: Canonical HTML pages for manual review and citation.
+- baseURL: https://postalcodes.info
+  baseurl_source: declared
+  description: Canonical HTML pages for manual review and citation.
   name: PostalCodes.info Lookup Pages API
   slug: postalcodes-info-lookup-pages-api
-- description: Interactive postal-code and locality lookup.
+- baseURL: https://postalcodes.info
+  baseurl_source: declared
+  description: Interactive postal-code and locality lookup.
   name: PostalCodes.info Search API
   slug: postalcodes-info-search-api
 artifact_total: 27
@@ -266,7 +272,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/screenshots/postalcodes-info-2026-06-20T191947.png
 security:

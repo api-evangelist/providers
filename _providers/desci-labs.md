@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 12 operations · 1 acting
 api_count: 1
 apis:
-- description: '**Data utilities** - IPFS-related utilities like folder tree listing by dPID or CID. Useful for directory browsing UIs and content explorers.'
+- baseURL: https://beta.dpid.org/api
+  baseurl_source: declared
+  description: '**Data utilities** - IPFS-related utilities like folder tree listing by dPID or CID. Useful for directory browsing UIs and content explorers.'
   name: DeSci Labs Data API
   slug: desci-labs-data-api
-- description: '**Research discovery and browse functionality** - Ideal for browse pages, search, and analytics. Paginated lists of research objects with optional metadata resolution, version history, and filtering c'
+- baseURL: https://beta.dpid.org/api
+  baseurl_source: declared
+  description: '**Research discovery and browse functionality** - Ideal for browse pages, search, and analytics. Paginated lists of research objects with optional metadata resolution, version history, and filtering c'
   name: DeSci Labs Query API
   slug: desci-labs-query-api
-- description: '**Individual research object resolution** - Perfect for detail pages, file access, and direct DPID links. Get complete research objects with full version history, specific files, or content in differe'
+- baseURL: https://beta.dpid.org/api
+  baseurl_source: declared
+  description: '**Individual research object resolution** - Perfect for detail pages, file access, and direct DPID links. Get complete research objects with full version history, specific files, or content in differe'
   name: DeSci Labs Resolve API
   slug: desci-labs-resolve-api
 artifact_total: 11
@@ -220,7 +226,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/screenshots/desci-labs-2026-07-25T211750.png
 security:

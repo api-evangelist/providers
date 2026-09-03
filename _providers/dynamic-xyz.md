@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 208
   human_in_the_loop: 23
@@ -53,115 +53,189 @@ apis:
 - description: Webhook delivery of auth, user, wallet, and session events. Subscriptions managed through dashboard and Backend API.
   name: Dynamic Webhooks
   slug: webhooks
-- description: The Allowlists API from Dynamic — 6 operation(s) for allowlists.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Allowlists API from Dynamic — 6 operation(s) for allowlists.
   name: Dynamic Allowlists API
   slug: dynamic-xyz-allowlists-api
-- description: The Analytics API from Dynamic — 6 operation(s) for analytics.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Analytics API from Dynamic — 6 operation(s) for analytics.
   name: Dynamic Analytics API
   slug: dynamic-xyz-analytics-api
-- description: The Chainalysis API from Dynamic — 3 operation(s) for chainalysis.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Chainalysis API from Dynamic — 3 operation(s) for chainalysis.
   name: Dynamic Chainalysis API
   slug: dynamic-xyz-chainalysis-api
-- description: The Chains API from Dynamic — 1 operation(s) for chains.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Chains API from Dynamic — 1 operation(s) for chains.
   name: Dynamic Chains API
   slug: dynamic-xyz-chains-api
-- description: The Custom Fields API from Dynamic — 2 operation(s) for custom fields.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Custom Fields API from Dynamic — 2 operation(s) for custom fields.
   name: Dynamic Custom Fields API
   slug: dynamic-xyz-custom-fields-api
-- description: The Custom Networks API from Dynamic — 2 operation(s) for custom networks.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Custom Networks API from Dynamic — 2 operation(s) for custom networks.
   name: Dynamic Custom Networks API
   slug: dynamic-xyz-custom-networks-api
-- description: The CustomHostnames API from Dynamic — 2 operation(s) for customhostnames.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The CustomHostnames API from Dynamic — 2 operation(s) for customhostnames.
   name: Dynamic CustomHostnames API
   slug: dynamic-xyz-customhostnames-api
-- description: The DeeplinkUrls API from Dynamic — 2 operation(s) for deeplinkurls.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The DeeplinkUrls API from Dynamic — 2 operation(s) for deeplinkurls.
   name: Dynamic DeeplinkUrls API
   slug: dynamic-xyz-deeplinkurls-api
-- description: The Environments API from Dynamic — 4 operation(s) for environments.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Environments API from Dynamic — 4 operation(s) for environments.
   name: Dynamic Environments API
   slug: dynamic-xyz-environments-api
-- description: The Events API from Dynamic — 3 operation(s) for events.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Events API from Dynamic — 3 operation(s) for events.
   name: Dynamic Events API
   slug: dynamic-xyz-events-api
-- description: The Exports API from Dynamic — 3 operation(s) for exports.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Exports API from Dynamic — 3 operation(s) for exports.
   name: Dynamic Exports API
   slug: dynamic-xyz-exports-api
-- description: The ExternalJwt API from Dynamic — 1 operation(s) for externaljwt.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The ExternalJwt API from Dynamic — 1 operation(s) for externaljwt.
   name: Dynamic ExternalJwt API
   slug: dynamic-xyz-externaljwt-api
-- description: The Gates API from Dynamic — 4 operation(s) for gates.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Gates API from Dynamic — 4 operation(s) for gates.
   name: Dynamic Gates API
   slug: dynamic-xyz-gates-api
-- description: The GlobalWalletAccessControl API from Dynamic — 5 operation(s) for globalwalletaccesscontrol.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The GlobalWalletAccessControl API from Dynamic — 5 operation(s) for globalwalletaccesscontrol.
   name: Dynamic GlobalWalletAccessControl API
   slug: dynamic-xyz-globalwalletaccesscontrol-api
-- description: The GlobalWalletConnections API from Dynamic — 1 operation(s) for globalwalletconnections.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The GlobalWalletConnections API from Dynamic — 1 operation(s) for globalwalletconnections.
   name: Dynamic GlobalWalletConnections API
   slug: dynamic-xyz-globalwalletconnections-api
-- description: The GlobalWallets API from Dynamic — 3 operation(s) for globalwallets.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The GlobalWallets API from Dynamic — 3 operation(s) for globalwallets.
   name: Dynamic GlobalWallets API
   slug: dynamic-xyz-globalwallets-api
-- description: The Invites API from Dynamic — 3 operation(s) for invites.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Invites API from Dynamic — 3 operation(s) for invites.
   name: Dynamic Invites API
   slug: dynamic-xyz-invites-api
-- description: The Members API from Dynamic — 4 operation(s) for members.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Members API from Dynamic — 4 operation(s) for members.
   name: Dynamic Members API
   slug: dynamic-xyz-members-api
-- description: The Mfa API from Dynamic — 2 operation(s) for mfa.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Mfa API from Dynamic — 2 operation(s) for mfa.
   name: Dynamic Mfa API
   slug: dynamic-xyz-mfa-api
-- description: The MfaSettings API from Dynamic — 3 operation(s) for mfasettings.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The MfaSettings API from Dynamic — 3 operation(s) for mfasettings.
   name: Dynamic MfaSettings API
   slug: dynamic-xyz-mfasettings-api
-- description: The NameServices API from Dynamic — 4 operation(s) for nameservices.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The NameServices API from Dynamic — 4 operation(s) for nameservices.
   name: Dynamic NameServices API
   slug: dynamic-xyz-nameservices-api
-- description: The Organizations API from Dynamic — 8 operation(s) for organizations.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Organizations API from Dynamic — 8 operation(s) for organizations.
   name: Dynamic Organizations API
   slug: dynamic-xyz-organizations-api
-- description: The Origins API from Dynamic — 2 operation(s) for origins.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Origins API from Dynamic — 2 operation(s) for origins.
   name: Dynamic Origins API
   slug: dynamic-xyz-origins-api
-- description: The Projects API from Dynamic — 2 operation(s) for projects.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Projects API from Dynamic — 2 operation(s) for projects.
   name: Dynamic Projects API
   slug: dynamic-xyz-projects-api
-- description: The SDK API from Dynamic — 124 operation(s) for sdk.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The SDK API from Dynamic — 124 operation(s) for sdk.
   name: Dynamic SDK API
   slug: dynamic-xyz-sdk-api
-- description: The SDK Views API from Dynamic — 2 operation(s) for sdk views.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The SDK Views API from Dynamic — 2 operation(s) for sdk views.
   name: Dynamic SDK Views API
   slug: dynamic-xyz-sdk-views-api
-- description: The Sessions API from Dynamic — 3 operation(s) for sessions.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Sessions API from Dynamic — 3 operation(s) for sessions.
   name: Dynamic Sessions API
   slug: dynamic-xyz-sessions-api
-- description: The Settings API from Dynamic — 9 operation(s) for settings.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Settings API from Dynamic — 9 operation(s) for settings.
   name: Dynamic Settings API
   slug: dynamic-xyz-settings-api
-- description: The TestAccount API from Dynamic — 1 operation(s) for testaccount.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The TestAccount API from Dynamic — 1 operation(s) for testaccount.
   name: Dynamic TestAccount API
   slug: dynamic-xyz-testaccount-api
-- description: The Tokens API from Dynamic — 2 operation(s) for tokens.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Tokens API from Dynamic — 2 operation(s) for tokens.
   name: Dynamic Tokens API
   slug: dynamic-xyz-tokens-api
-- description: The UserApiTokens API from Dynamic — 2 operation(s) for userapitokens.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The UserApiTokens API from Dynamic — 2 operation(s) for userapitokens.
   name: Dynamic UserApiTokens API
   slug: dynamic-xyz-userapitokens-api
-- description: The Users API from Dynamic — 8 operation(s) for users.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Users API from Dynamic — 8 operation(s) for users.
   name: Dynamic Users API
   slug: dynamic-xyz-users-api
-- description: The Visits API from Dynamic — 1 operation(s) for visits.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Visits API from Dynamic — 1 operation(s) for visits.
   name: Dynamic Visits API
   slug: dynamic-xyz-visits-api
-- description: The Waas API from Dynamic — 14 operation(s) for waas.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Waas API from Dynamic — 14 operation(s) for waas.
   name: Dynamic Waas API
   slug: dynamic-xyz-waas-api
-- description: The WalletConnect API from Dynamic — 1 operation(s) for walletconnect.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The WalletConnect API from Dynamic — 1 operation(s) for walletconnect.
   name: Dynamic WalletConnect API
   slug: dynamic-xyz-walletconnect-api
-- description: The Wallets API from Dynamic — 9 operation(s) for wallets.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Wallets API from Dynamic — 9 operation(s) for wallets.
   name: Dynamic Wallets API
   slug: dynamic-xyz-wallets-api
-- description: The Webhooks API from Dynamic — 5 operation(s) for webhooks.
+- baseURL: https://app.dynamicauth.com/api/v0
+  baseurl_source: declared
+  description: The Webhooks API from Dynamic — 5 operation(s) for webhooks.
   name: Dynamic Webhooks API
   slug: dynamic-xyz-webhooks-api
 artifact_total: 87
@@ -390,7 +464,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic-xyz/refs/heads/main/screenshots/dynamic-xyz-2026-06-20T180335.png
 security:

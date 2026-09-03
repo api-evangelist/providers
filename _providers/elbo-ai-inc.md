@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 7 operations · 4 acting
 api_count: 1
 apis:
-- description: The Audio Uploads API from ELBO AI, INC — 1 operation(s) for audio uploads.
+- baseURL: https://www.puppetry.com/api/v1
+  baseurl_source: declared
+  description: The Audio Uploads API from ELBO AI, INC — 1 operation(s) for audio uploads.
   name: ELBO AI, INC Audio Uploads API
   slug: elbo-ai-inc-audio-uploads-api
-- description: The Text to Speech API from ELBO AI, INC — 1 operation(s) for text to speech.
+- baseURL: https://www.puppetry.com/api/v1
+  baseurl_source: declared
+  description: The Text to Speech API from ELBO AI, INC — 1 operation(s) for text to speech.
   name: ELBO AI, INC Text to Speech API
   slug: elbo-ai-inc-text-to-speech-api
-- description: The Usage API from ELBO AI, INC — 1 operation(s) for usage.
+- baseURL: https://www.puppetry.com/api/v1
+  baseurl_source: declared
+  description: The Usage API from ELBO AI, INC — 1 operation(s) for usage.
   name: ELBO AI, INC Usage API
   slug: elbo-ai-inc-usage-api
-- description: The Videos API from ELBO AI, INC — 3 operation(s) for videos.
+- baseURL: https://www.puppetry.com/api/v1
+  baseurl_source: declared
+  description: The Videos API from ELBO AI, INC — 3 operation(s) for videos.
   name: ELBO AI, INC Videos API
   slug: elbo-ai-inc-videos-api
-- description: The Voices API from ELBO AI, INC — 1 operation(s) for voices.
+- baseURL: https://www.puppetry.com/api/v1
+  baseurl_source: declared
+  description: The Voices API from ELBO AI, INC — 1 operation(s) for voices.
   name: ELBO AI, INC Voices API
   slug: elbo-ai-inc-voices-api
 artifact_total: 15
@@ -250,7 +260,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:

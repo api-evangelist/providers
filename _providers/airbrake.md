@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: REST API for submitting error notices, managing projects, tracking deployments, querying notices and groups, and uploading source maps. Authentication uses project keys, user keys, or time-limited use
   name: Airbrake API
   slug: api
-- description: The Activities API from Airbrake — 2 operation(s) for activities.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Activities API from Airbrake — 2 operation(s) for activities.
   name: Airbrake Activities API
   slug: airbrake-activities-api
-- description: The Deploys API from Airbrake — 2 operation(s) for deploys.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Deploys API from Airbrake — 2 operation(s) for deploys.
   name: Airbrake Deploys API
   slug: airbrake-deploys-api
-- description: The Groups API from Airbrake — 6 operation(s) for groups.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Groups API from Airbrake — 6 operation(s) for groups.
   name: Airbrake Groups API
   slug: airbrake-groups-api
-- description: The iOS Crash Reports API from Airbrake — 1 operation(s) for ios crash reports.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The iOS Crash Reports API from Airbrake — 1 operation(s) for ios crash reports.
   name: Airbrake iOS Crash Reports API
   slug: airbrake-ios-crash-reports-api
-- description: The Notices API from Airbrake — 3 operation(s) for notices.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Notices API from Airbrake — 3 operation(s) for notices.
   name: Airbrake Notices API
   slug: airbrake-notices-api
-- description: The Performance API from Airbrake — 4 operation(s) for performance.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Performance API from Airbrake — 4 operation(s) for performance.
   name: Airbrake Performance API
   slug: airbrake-performance-api
-- description: The Projects API from Airbrake — 2 operation(s) for projects.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Projects API from Airbrake — 2 operation(s) for projects.
   name: Airbrake Projects API
   slug: airbrake-projects-api
-- description: The Sessions API from Airbrake — 1 operation(s) for sessions.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Sessions API from Airbrake — 1 operation(s) for sessions.
   name: Airbrake Sessions API
   slug: airbrake-sessions-api
-- description: The Source Maps API from Airbrake — 2 operation(s) for source maps.
+- baseURL: https://api.airbrake.io/api/v4
+  baseurl_source: declared
+  description: The Source Maps API from Airbrake — 2 operation(s) for source maps.
   name: Airbrake Source Maps API
   slug: airbrake-source-maps-api
 artifact_total: 24
@@ -185,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbrake/refs/heads/main/screenshots/airbrake-2026-06-20T171417.png
 security:

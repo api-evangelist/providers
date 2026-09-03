@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: The Customers API from PartnerStack — 1 operation(s) for customers.
+- baseURL: https://api.partnerstack.com/api/v2
+  baseurl_source: declared
+  description: The Customers API from PartnerStack — 1 operation(s) for customers.
   name: PartnerStack Customers API
   slug: partnerstack-customers-api
-- description: The Deals API from PartnerStack — 1 operation(s) for deals.
+- baseURL: https://api.partnerstack.com/api/v2
+  baseurl_source: declared
+  description: The Deals API from PartnerStack — 1 operation(s) for deals.
   name: PartnerStack Deals API
   slug: partnerstack-deals-api
-- description: The Partnerships API from PartnerStack — 1 operation(s) for partnerships.
+- baseURL: https://api.partnerstack.com/api/v2
+  baseurl_source: declared
+  description: The Partnerships API from PartnerStack — 1 operation(s) for partnerships.
   name: PartnerStack Partnerships API
   slug: partnerstack-partnerships-api
-- description: The Rewards API from PartnerStack — 1 operation(s) for rewards.
+- baseURL: https://api.partnerstack.com/api/v2
+  baseurl_source: declared
+  description: The Rewards API from PartnerStack — 1 operation(s) for rewards.
   name: PartnerStack Rewards API
   slug: partnerstack-rewards-api
-- description: The Transactions API from PartnerStack — 1 operation(s) for transactions.
+- baseURL: https://api.partnerstack.com/api/v2
+  baseurl_source: declared
+  description: The Transactions API from PartnerStack — 1 operation(s) for transactions.
   name: PartnerStack Transactions API
   slug: partnerstack-transactions-api
 artifact_total: 19
@@ -175,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerstack/refs/heads/main/screenshots/partnerstack-2026-06-20T191432.png
 security:

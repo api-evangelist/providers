@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Free trial
+  onboarding: unknown
+  pricing: free-trial
+  public: false
+  source:
+  - plans
+  - rate-limits
+  - security
+  trial: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -157,11 +169,11 @@ score:
   band: thin
   composite: 38.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
@@ -171,12 +183,13 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 38.5
+  previous_composite: 38.3
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/supply-wisdom/refs/heads/main/screenshots/supply-wisdom-2026-09-02T161305.png
 security:
 - kind: domain-security
   name: Supply Wisdom Domain Security

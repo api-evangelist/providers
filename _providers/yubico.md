@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Yubico OTP validation operations.
+- baseURL: https://api.yubico.com/wsapi/2.0
+  baseurl_source: declared
+  description: Yubico OTP validation operations.
   name: Yubico Validation API
   slug: yubico-validation-api
 artifact_total: 8
@@ -226,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -44,97 +44,157 @@ agentic_access:
   summary_line: 133 operations · 71 acting
 api_count: 1
 apis:
-- description: The Accounts API from Buttondown — 1 operation(s) covering the authenticated account and its plan/feature state.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Accounts API from Buttondown — 1 operation(s) covering the authenticated account and its plan/feature state.
   name: Buttondown Accounts API
   slug: buttondown-accounts-api
-- description: The Advertising Units API from Buttondown — 6 operation(s) covering newsletter sponsorship inventory — advertising units and the slots sold against them.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Advertising Units API from Buttondown — 6 operation(s) covering newsletter sponsorship inventory — advertising units and the slots sold against them.
   name: Buttondown Advertising Units API
   slug: buttondown-advertising-units-api
-- description: The API Requests API from Buttondown — 2 operation(s) covering the account's own API request log, including retained response bodies for idempotent requests.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The API Requests API from Buttondown — 2 operation(s) covering the account's own API request log, including retained response bodies for idempotent requests.
   name: Buttondown API Requests API
   slug: buttondown-api-requests-api
-- description: The Attachments API from Buttondown — 4 operation(s) covering files attached to emails and inbox replies.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Attachments API from Buttondown — 4 operation(s) covering files attached to emails and inbox replies.
   name: Buttondown Attachments API
   slug: buttondown-attachments-api
-- description: The Automations API from Buttondown — 7 operation(s) covering triggered and scheduled email sequences, their actions, timing and analytics.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Automations API from Buttondown — 7 operation(s) covering triggered and scheduled email sequences, their actions, timing and analytics.
   name: Buttondown Automations API
   slug: buttondown-automations-api
-- description: The Books API from Buttondown — 5 operation(s) covering the Bookshop.org book catalog embedded in newsletters.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Books API from Buttondown — 5 operation(s) covering the Bookshop.org book catalog embedded in newsletters.
   name: Buttondown Books API
   slug: buttondown-books-api
-- description: The Bulk Actions API from Buttondown — 2 operation(s) covering asynchronous mass operations over existing records.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Bulk Actions API from Buttondown — 2 operation(s) covering asynchronous mass operations over existing records.
   name: Buttondown Bulk Actions API
   slug: buttondown-bulk-actions-api
-- description: The Comments API from Buttondown — 5 operation(s) covering subscriber comments on emails, and their moderation state.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Comments API from Buttondown — 5 operation(s) covering subscriber comments on emails, and their moderation state.
   name: Buttondown Comments API
   slug: buttondown-comments-api
-- description: The Coupons API from Buttondown — 1 operation(s) covering Stripe coupons available to a paid newsletter.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Coupons API from Buttondown — 1 operation(s) covering Stripe coupons available to a paid newsletter.
   name: Buttondown Coupons API
   slug: buttondown-coupons-api
-- description: The Emails API from Buttondown — 11 operation(s) covering drafting, scheduling, publishing, rendering and analyzing newsletter emails.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Emails API from Buttondown — 11 operation(s) covering drafting, scheduling, publishing, rendering and analyzing newsletter emails.
   name: Buttondown Emails API
   slug: buttondown-emails-api
-- description: The Events API from Buttondown — 2 operation(s) covering the unified event store that also powers webhooks.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Events API from Buttondown — 2 operation(s) covering the unified event store that also powers webhooks.
   name: Buttondown Events API
   slug: buttondown-events-api
-- description: The Exports API from Buttondown — 3 operation(s) covering data exports of subscribers, emails and events.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Exports API from Buttondown — 3 operation(s) covering data exports of subscribers, emails and events.
   name: Buttondown Exports API
   slug: buttondown-exports-api
-- description: The External Feeds API from Buttondown — 7 operation(s) covering RSS-to-email feeds, their polling cadence and the items they produce.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The External Feeds API from Buttondown — 7 operation(s) covering RSS-to-email feeds, their polling cadence and the items they produce.
   name: Buttondown External Feeds API
   slug: buttondown-external-feeds-api
-- description: The Forms API from Buttondown — 5 operation(s) covering hosted and embeddable subscription forms.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Forms API from Buttondown — 5 operation(s) covering hosted and embeddable subscription forms.
   name: Buttondown Forms API
   slug: buttondown-forms-api
-- description: The Images API from Buttondown — 4 operation(s) covering images hosted for use in emails and archives.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Images API from Buttondown — 4 operation(s) covering images hosted for use in emails and archives.
   name: Buttondown Images API
   slug: buttondown-images-api
-- description: The Imports API from Buttondown — 5 operation(s) covering bulk subscriber imports — the supported path for adding subscribers at volume.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Imports API from Buttondown — 5 operation(s) covering bulk subscriber imports — the supported path for adding subscribers at volume.
   name: Buttondown Imports API
   slug: buttondown-imports-api
-- description: The Newsletters API from Buttondown — 7 operation(s) covering newsletter settings, branding, locale, and custom sending/hosting domain verification.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Newsletters API from Buttondown — 7 operation(s) covering newsletter settings, branding, locale, and custom sending/hosting domain verification.
   name: Buttondown Newsletters API
   slug: buttondown-newsletters-api
-- description: The Notes API from Buttondown — 3 operation(s) covering internal notes attached to subscribers and team members.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Notes API from Buttondown — 3 operation(s) covering internal notes attached to subscribers and team members.
   name: Buttondown Notes API
   slug: buttondown-notes-api
-- description: The Ping API from Buttondown — 1 operation(s) covering a connectivity and credential health check.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Ping API from Buttondown — 1 operation(s) covering a connectivity and credential health check.
   name: Buttondown Ping API
   slug: buttondown-ping-api
-- description: The Prices API from Buttondown — 3 operation(s) covering paid-subscription pricing and products.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Prices API from Buttondown — 3 operation(s) covering paid-subscription pricing and products.
   name: Buttondown Prices API
   slug: buttondown-prices-api
-- description: The Public API from Buttondown — 1 operation(s) covering the unauthenticated public archive search.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Public API from Buttondown — 1 operation(s) covering the unauthenticated public archive search.
   name: Buttondown Public API
   slug: buttondown-public-api
-- description: The Segments API from Buttondown — 5 operation(s) covering saved, reusable audiences built from tag and metadata filters.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Segments API from Buttondown — 5 operation(s) covering saved, reusable audiences built from tag and metadata filters.
   name: Buttondown Segments API
   slug: buttondown-segments-api
-- description: The Snippets API from Buttondown — 5 operation(s) covering reusable content snippets referenced from emails.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Snippets API from Buttondown — 5 operation(s) covering reusable content snippets referenced from emails.
   name: Buttondown Snippets API
   slug: buttondown-snippets-api
-- description: The Subscribers API from Buttondown — 12 operation(s) covering subscriber lifecycle — creation, updates, tags, referrals, automations and Stripe subscriptions.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Subscribers API from Buttondown — 12 operation(s) covering subscriber lifecycle — creation, updates, tags, referrals, automations and Stripe subscriptions.
   name: Buttondown Subscribers API
   slug: buttondown-subscribers-api
-- description: The Survey Responses API from Buttondown — 3 operation(s) covering responses collected from newsletter surveys.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Survey Responses API from Buttondown — 3 operation(s) covering responses collected from newsletter surveys.
   name: Buttondown Survey Responses API
   slug: buttondown-survey-responses-api
-- description: The Surveys API from Buttondown — 5 operation(s) covering surveys embedded in emails and on the archive.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Surveys API from Buttondown — 5 operation(s) covering surveys embedded in emails and on the archive.
   name: Buttondown Surveys API
   slug: buttondown-surveys-api
-- description: The Tags API from Buttondown — 6 operation(s) covering subscriber tags and their analytics.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Tags API from Buttondown — 6 operation(s) covering subscriber tags and their analytics.
   name: Buttondown Tags API
   slug: buttondown-tags-api
-- description: The Users API from Buttondown — 5 operation(s) covering team members on the account and their permissions.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Users API from Buttondown — 5 operation(s) covering team members on the account and their permissions.
   name: Buttondown Users API
   slug: buttondown-users-api
-- description: The Webhooks API from Buttondown — 7 operation(s) covering webhook registration, delivery attempts, and test fires.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Buttondown — 7 operation(s) covering webhook registration, delivery attempts, and test fires.
   name: Buttondown Webhooks API
   slug: buttondown-webhooks-api
 - description: The Buttondown hosted newsletter platform provides a markdown-based composition experience, subscriber management, delivery infrastructure, analytics, monetization via paid subscriptions, team collabo
   name: Buttondown Newsletter Platform
   slug: newsletter-platform
-- description: The Buttondown Webhooks API API from Buttondown — 0 operation(s) for buttondown webhooks api.
+- baseURL: https://api.buttondown.com/v1
+  baseurl_source: declared
+  description: The Buttondown Webhooks API API from Buttondown — 0 operation(s) for buttondown webhooks api.
   name: Buttondown Buttondown Webhooks API
   slug: buttondown-buttondown-webhooks-api-api
 artifact_total: 71
@@ -457,7 +517,7 @@ score:
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -467,7 +527,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 68.2
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -485,7 +545,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:

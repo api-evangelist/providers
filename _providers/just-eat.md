@@ -33,76 +33,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
   name: Just Eat Attempted Delivery API API
   slug: just-eat-attempted-delivery-api-api
-- description: The Attempted Delivery Webhooks API from Just Eat — 2 operation(s) for attempted delivery webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Attempted Delivery Webhooks API from Just Eat — 2 operation(s) for attempted delivery webhooks.
   name: Just Eat Attempted Delivery Webhooks API
   slug: just-eat-attempted-delivery-webhooks-api
-- description: The Checkout API from Just Eat — 2 operation(s) for checkout.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Checkout API from Just Eat — 2 operation(s) for checkout.
   name: Just Eat Checkout API
   slug: just-eat-checkout-api
-- description: The Consumer Queries Webhooks API from Just Eat — 2 operation(s) for consumer queries webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Consumer Queries Webhooks API from Just Eat — 2 operation(s) for consumer queries webhooks.
   name: Just Eat Consumer Queries Webhooks API
   slug: just-eat-consumer-queries-webhooks-api
-- description: The ConsumerQueries API from Just Eat — 2 operation(s) for consumerqueries.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The ConsumerQueries API from Just Eat — 2 operation(s) for consumerqueries.
   name: Just Eat ConsumerQueries API
   slug: just-eat-consumerqueries-api
-- description: The Consumers API from Just Eat — 4 operation(s) for consumers.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Consumers API from Just Eat — 4 operation(s) for consumers.
   name: Just Eat Consumers API
   slug: just-eat-consumers-api
-- description: The Delivery Pools API API from Just Eat — 5 operation(s) for delivery pools api.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Delivery Pools API API from Just Eat — 5 operation(s) for delivery pools api.
   name: Just Eat Delivery Pools API API
   slug: just-eat-delivery-pools-api-api
-- description: The DeliveryFee API from Just Eat — 1 operation(s) for deliveryfee.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The DeliveryFee API from Just Eat — 1 operation(s) for deliveryfee.
   name: Just Eat DeliveryFee API
   slug: just-eat-deliveryfee-api
-- description: The Order Acceptance API API from Just Eat — 7 operation(s) for order acceptance api.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order Acceptance API API from Just Eat — 7 operation(s) for order acceptance api.
   name: Just Eat Order Acceptance API API
   slug: just-eat-order-acceptance-api-api
-- description: The Order Acceptance Webhooks API from Just Eat — 5 operation(s) for order acceptance webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order Acceptance Webhooks API from Just Eat — 5 operation(s) for order acceptance webhooks.
   name: Just Eat Order Acceptance Webhooks API
   slug: just-eat-order-acceptance-webhooks-api
-- description: The Order API API from Just Eat — 1 operation(s) for order api.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order API API from Just Eat — 1 operation(s) for order api.
   name: Just Eat Order API API
   slug: just-eat-order-api-api
-- description: The Order Delivery API API from Just Eat — 10 operation(s) for order delivery api.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order Delivery API API from Just Eat — 10 operation(s) for order delivery api.
   name: Just Eat Order Delivery API API
   slug: just-eat-order-delivery-api-api
-- description: The Order Delivery Webhooks API from Just Eat — 8 operation(s) for order delivery webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order Delivery Webhooks API from Just Eat — 8 operation(s) for order delivery webhooks.
   name: Just Eat Order Delivery Webhooks API
   slug: just-eat-order-delivery-webhooks-api
-- description: The Order Webhooks API from Just Eat — 3 operation(s) for order webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Order Webhooks API from Just Eat — 3 operation(s) for order webhooks.
   name: Just Eat Order Webhooks API
   slug: just-eat-order-webhooks-api
-- description: The publicly-accessible API from Just Eat — 85 operation(s) for publicly-accessible.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The publicly-accessible API from Just Eat — 85 operation(s) for publicly-accessible.
   name: Just Eat publicly-accessible API
   slug: just-eat-publicly-accessible-api
-- description: The Restaurant Claims API from Just Eat — 4 operation(s) for restaurant claims.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Restaurant Claims API from Just Eat — 4 operation(s) for restaurant claims.
   name: Just Eat Restaurant Claims API
   slug: just-eat-restaurant-claims-api
-- description: The Restaurant Events API from Just Eat — 2 operation(s) for restaurant events.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Restaurant Events API from Just Eat — 2 operation(s) for restaurant events.
   name: Just Eat Restaurant Events API
   slug: just-eat-restaurant-events-api
-- description: The Restaurant Events Webhooks API from Just Eat — 2 operation(s) for restaurant events webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Restaurant Events Webhooks API from Just Eat — 2 operation(s) for restaurant events webhooks.
   name: Just Eat Restaurant Events Webhooks API
   slug: just-eat-restaurant-events-webhooks-api
-- description: The Restaurant Webhooks API from Just Eat — 2 operation(s) for restaurant webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Restaurant Webhooks API from Just Eat — 2 operation(s) for restaurant webhooks.
   name: Just Eat Restaurant Webhooks API
   slug: just-eat-restaurant-webhooks-api
-- description: The RestaurantQueries API from Just Eat — 1 operation(s) for restaurantqueries.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The RestaurantQueries API from Just Eat — 1 operation(s) for restaurantqueries.
   name: Just Eat RestaurantQueries API
   slug: just-eat-restaurantqueries-api
-- description: The RestaurantQueries Webhooks API from Just Eat — 1 operation(s) for restaurantqueries webhooks.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The RestaurantQueries Webhooks API from Just Eat — 1 operation(s) for restaurantqueries webhooks.
   name: Just Eat RestaurantQueries Webhooks API
   slug: just-eat-restaurantqueries-webhooks-api
-- description: The Restaurants API from Just Eat — 15 operation(s) for restaurants.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Restaurants API from Just Eat — 15 operation(s) for restaurants.
   name: Just Eat Restaurants API
   slug: just-eat-restaurants-api
-- description: The Search API from Just Eat — 2 operation(s) for search.
+- baseURL: https://uk.api.just-eat.io
+  baseurl_source: declared
+  description: The Search API from Just Eat — 2 operation(s) for search.
   name: Just Eat Search API
   slug: just-eat-search-api
 artifact_total: 52
@@ -295,7 +341,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -305,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 33.5
+  previous_composite: 33.3
   provenance:
     conformance: derived
     contracts:
@@ -316,7 +362,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

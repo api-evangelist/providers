@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -33,61 +46,99 @@ agentic_access:
   summary_line: 121 operations · 53 acting
 api_count: 12
 apis:
-- description: Alerts API
+- baseURL: https://api.bitvore.com/muni/alerts/
+  baseurl_source: declared
+  description: Alerts API
   name: Bitvore Alert API API
   slug: bitvore-alert-api-api
-- description: Municipal Bond API
+- baseURL: https://api.bitvore.com/bondapi/
+  baseurl_source: declared
+  description: Municipal Bond API
   name: Bitvore Bond API
   slug: bitvore-bond-api
-- description: Corp News API
+- baseURL: https://api.bitvore.com/corpnews/
+  baseurl_source: declared
+  description: Corp News API
   name: Bitvore Corporate News API
   slug: bitvore-corporate-news-api
-- description: Export Files and Reports
+- baseURL: https://api.bitvore.com/v2/corp/
+  baseurl_source: declared
+  description: Export Files and Reports
   name: Bitvore Datasets API API
   slug: bitvore-datasets-api-api
-- description: Economic News API
+- baseURL: https://api.bitvore.com/econnews/
+  baseurl_source: declared
+  description: Economic News API
   name: Bitvore Economic News API
   slug: bitvore-economic-news-api
-- description: Entity API
+- baseURL: https://api.bitvore.com/entityapi/
+  baseurl_source: declared
+  description: Entity API
   name: Bitvore Entity API
   slug: bitvore-entity-api
-- description: Financial Filings, Submissions and Summaries
+- baseURL: https://api.bitvore.com/v2/corp/
+  baseurl_source: declared
+  description: Financial Filings, Submissions and Summaries
   name: Bitvore Filings API API
   slug: bitvore-filings-api-api
-- description: Financial Filings API
+- baseURL: https://api.bitvore.com/financialfiling/
+  baseurl_source: declared
+  description: Financial Filings API
   name: Bitvore Financial Filings API
   slug: bitvore-financial-filings-api
-- description: Identification API
+- baseURL: https://api.bitvore.com/idapi/
+  baseurl_source: declared
+  description: Identification API
   name: Bitvore Identification API
   slug: bitvore-identification-api
-- description: Intelligence API
+- baseURL: https://api.bitvore.com/intelapi/
+  baseurl_source: declared
+  description: Intelligence API
   name: Bitvore Intel API
   slug: bitvore-intel-api
-- description: Municipal API
+- baseURL: https://api.bitvore.com/muni/api/
+  baseurl_source: declared
+  description: Municipal API
   name: Bitvore Muni API API
   slug: bitvore-muni-api-api
-- description: Muni News API
+- baseURL: https://api.bitvore.com/muninews/
+  baseurl_source: declared
+  description: Muni News API
   name: Bitvore Muni News API
   slug: bitvore-muni-news-api
-- description: Precision and Economic News
+- baseURL: https://api.bitvore.com/v2/
+  baseurl_source: declared
+  description: Precision and Economic News
   name: Bitvore News API API
   slug: bitvore-news-api-api
-- description: Bitvore OAuth2 Authorization Server API
+- baseURL: https://api.bitvore.com/oauth/
+  baseurl_source: declared
+  description: Bitvore OAuth2 Authorization Server API
   name: Bitvore O Auth2 API
   slug: bitvore-oauth2-api
-- description: Organization Details and Search
+- baseURL: https://api.bitvore.com/v2/corp/
+  baseurl_source: declared
+  description: Organization Details and Search
   name: Bitvore Organizations API API
   slug: bitvore-organizations-api-api
-- description: Portfolio API
+- baseURL: https://api.bitvore.com/portfolioapi/
+  baseurl_source: declared
+  description: Portfolio API
   name: Bitvore Portfolio API
   slug: bitvore-portfolio-api
-- description: Manage Organization-based Portfolios
+- baseURL: https://api.bitvore.com/v2/
+  baseurl_source: declared
+  description: Manage Organization-based Portfolios
   name: Bitvore Portfolios API API
   slug: bitvore-portfolios-api-api
-- description: Organization Scores
+- baseURL: https://api.bitvore.com/v2/corp/
+  baseurl_source: declared
+  description: Organization Scores
   name: Bitvore Sentiment Scores API API
   slug: bitvore-sentiment-scores-api-api
-- description: Company Sentiment Score API
+- baseURL: https://api.bitvore.com/sentimentscores/
+  baseurl_source: declared
+  description: Company Sentiment Score API
   name: Bitvore Sentiment Scores API
   slug: bitvore-sentiment-scores-api
 artifact_total: 45
@@ -351,7 +402,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
 security:

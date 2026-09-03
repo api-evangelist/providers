@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 14 operations · 4 acting
 api_count: 1
 apis:
-- description: Record custom customer activities that can earn points.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Record custom customer activities that can earn points.
   name: Smile.io Activities API
   slug: smile-io-activities-api
-- description: Create or update a customer from an external system identity.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Create or update a customer from an external system identity.
   name: Smile.io Customer Identities API
   slug: smile-io-customer-identities-api
-- description: Loyalty program members and their point balances and state.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Loyalty program members and their point balances and state.
   name: Smile.io Customers API
   slug: smile-io-customers-api
-- description: Rules that define how customers earn points.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Rules that define how customers earn points.
   name: Smile.io Earning Rules API
   slug: smile-io-earning-rules-api
-- description: Redeemable products a customer can purchase with points.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Redeemable products a customer can purchase with points.
   name: Smile.io Points Products API
   slug: smile-io-points-products-api
-- description: Program-level points configuration (currency name, ratios).
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Program-level points configuration (currency name, ratios).
   name: Smile.io Points Settings API
   slug: smile-io-points-settings-api
-- description: Point balance changes - earn, redeem, adjust - for a customer.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Point balance changes - earn, redeem, adjust - for a customer.
   name: Smile.io Points Transactions API
   slug: smile-io-points-transactions-api
-- description: Fulfillment records for rewards a customer has redeemed.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: Fulfillment records for rewards a customer has redeemed.
   name: Smile.io Reward Fulfillments API
   slug: smile-io-reward-fulfillments-api
-- description: VIP program tiers and their thresholds and perks.
+- baseURL: https://api.smile.io/v1
+  baseurl_source: declared
+  description: VIP program tiers and their thresholds and perks.
   name: Smile.io VIP Tiers API
   slug: smile-io-vip-tiers-api
 artifact_total: 26
@@ -172,7 +190,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +213,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/screenshots/smile-io-2026-09-02T155946.png
 security:
 - kind: authentication
   name: Smile Io Authentication

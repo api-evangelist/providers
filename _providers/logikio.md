@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 36 operations · 16 acting
 api_count: 4
 apis:
-- description: Export Blueprints
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Export Blueprints
   name: Logik.io Blueprint > Export API
   slug: logikio-blueprint-export-api
-- description: Import Blueprints
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Import Blueprints
   name: Logik.io Blueprint > Import API
   slug: logikio-blueprint-import-api
-- description: APIs to retrieve BOM information
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: APIs to retrieve BOM information
   name: Logik.io BOM API
   slug: logikio-bom-api
-- description: APIs to operate on Configuration blueprint to generate BOM
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: APIs to operate on Configuration blueprint to generate BOM
   name: Logik.io Configuration API
   slug: logikio-configuration-api
-- description: Creating new configurations, reconfiguring existing configurations, making updates to a configuration and saving changes.
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Creating new configurations, reconfiguring existing configurations, making updates to a configuration and saving changes.
   name: Logik.io Configuration (V2) API
   slug: logikio-configuration-v2-api
-- description: Export and Download Tables
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Export and Download Tables
   name: Logik.io Managed Tables > Export Tables API
   slug: logikio-managed-tables-export-tables-api
-- description: Import and Replace Tables
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Import and Replace Tables
   name: Logik.io Managed Tables > Import Tables API
   slug: logikio-managed-tables-import-tables-api
-- description: Working with Table Metadata
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Working with Table Metadata
   name: Logik.io Managed Tables > Metadata API
   slug: logikio-managed-tables-metadata-api
-- description: Working with individual Table Rows
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Working with individual Table Rows
   name: Logik.io Managed Tables > Table Rows API
   slug: logikio-managed-tables-table-rows-api
-- description: Listing all Tables and working with indiviudal Tables
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Listing all Tables and working with indiviudal Tables
   name: Logik.io Managed Tables > Tables API
   slug: logikio-managed-tables-tables-api
-- description: Get Bill of Materials (BOM) information for a given configuration UUID.
+- baseURL: https://{tenant}.{sector}.logik.io
+  baseurl_source: declared
+  description: Get Bill of Materials (BOM) information for a given configuration UUID.
   name: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
 artifact_total: 30
@@ -269,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 116 operations · 58 acting · 2 human-in-the-loop
 api_count: 8
 apis:
-- description: 1NCE OS Administration Logs
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: 1NCE OS Administration Logs
   name: 1NCE Administration Logs API
   slug: 1nce-administration-logs-api
-- description: 1NCE OS Agreements
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: 1NCE OS Agreements
   name: 1NCE Agreements API
   slug: 1nce-agreements-api
-- description: Obtain Bearer Token
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Obtain Bearer Token
   name: 1NCE Bearer Authorization API
   slug: 1nce-bearer-authorization-api
-- description: Connectivty Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Connectivty Management
   name: 1NCE Connectivity API
   slug: 1nce-connectivity-api
-- description: Inspect details of the devices
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Inspect details of the devices
   name: 1NCE Device Inspector API
   slug: 1nce-device-inspector-api
-- description: Get device positions and manage geofences
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Get device positions and manage geofences
   name: 1NCE Device Locator API
   slug: 1nce-device-locator-api
-- description: Device Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Device Management
   name: 1NCE Devices API
   slug: 1nce-devices-api
-- description: General SIM Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: General SIM Management
   name: 1NCE General SIMs API
   slug: 1nce-general-sims-api
-- description: Integrate Devices and Clouds
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Integrate Devices and Clouds
   name: 1NCE IoT Integrator API
   slug: 1nce-iot-integrator-api
-- description: Optimize energy consumption
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Optimize energy consumption
   name: 1NCE Optimizer API
   slug: 1nce-optimizer-api
-- description: Order Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Order Management
   name: 1NCE Orders API
   slug: 1nce-orders-api
-- description: 1NCE OS Plugin System
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: 1NCE OS Plugin System
   name: 1NCE Plugin system API
   slug: 1nce-plugin-system-api
-- description: Product Information
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Product Information
   name: 1NCE Products API
   slug: 1nce-products-api
-- description: Support Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Support Management
   name: 1NCE Service Requests API
   slug: 1nce-service-requests-api
-- description: 1NCE OS Settings
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: 1NCE OS Settings
   name: 1NCE Settings API
   slug: 1nce-settings-api
-- description: Event Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Event Management
   name: 1NCE SIM Events API
   slug: 1nce-sim-events-api
-- description: SIM Extension Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: SIM Extension Management
   name: 1NCE SIM Extension API
   slug: 1nce-sim-extension-api
-- description: Usage Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Usage Management
   name: 1NCE SIM Usage API
   slug: 1nce-sim-usage-api
-- description: SMS Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: SMS Management
   name: 1NCE SMS API
   slug: 1nce-sms-api
-- description: The SMS by ICCID API from 1NCE — 1 operation(s) for sms by iccid.
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: The SMS by ICCID API from 1NCE — 1 operation(s) for sms by iccid.
   name: 1NCE SMS by ICCID API
   slug: 1nce-sms-by-iccid-api
-- description: Limit Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Limit Management
   name: 1NCE Volume Limits API
   slug: 1nce-volume-limits-api
-- description: Top Up Management
+- baseURL: https://api.1nce.com/management-api
+  baseurl_source: spec
+  description: Top Up Management
   name: 1NCE Volume Top Up API
   slug: 1nce-volume-top-up-api
 artifact_total: 104
@@ -535,7 +579,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

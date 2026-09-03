@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Step CI is an open source API Quality Assurance framework that is language-agnostic and configured using YAML, JSON, or JavaScript. It supports REST, GraphQL, gRPC, tRPC, and SOAP, enabling tests acro
@@ -164,7 +164,7 @@ score:
     score: 25.0
   previous_composite: 19.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/step-ci/refs/heads/main/screenshots/step-ci-2026-06-20T194539.png
 security:

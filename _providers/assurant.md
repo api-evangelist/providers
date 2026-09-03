@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Assurant Global Housing API provides property management companies and housing partners with programmatic access to insurance products including renter's insurance, lender-placed insurance, and pr
   name: Assurant Global Housing API
   slug: global-housing-api
-- description: Claims filing and management
+- baseURL: https://api-prod.portal.assurant.com
+  baseurl_source: declared
+  description: Claims filing and management
   name: Assurant Claims API
   slug: assurant-claims-api
-- description: Customer enrollment operations
+- baseURL: https://api-prod.portal.assurant.com
+  baseurl_source: declared
+  description: Customer enrollment operations
   name: Assurant Enrollments API
   slug: assurant-enrollments-api
-- description: Insurance policy management
+- baseURL: https://api-prod.portal.assurant.com
+  baseurl_source: declared
+  description: Insurance policy management
   name: Assurant Policies API
   slug: assurant-policies-api
-- description: Insurance product catalog
+- baseURL: https://api-prod.portal.assurant.com
+  baseurl_source: declared
+  description: Insurance product catalog
   name: Assurant Products API
   slug: assurant-products-api
 artifact_total: 29
@@ -208,7 +216,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png
 security:

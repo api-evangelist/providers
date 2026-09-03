@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 14
@@ -39,325 +53,539 @@ apis:
 - description: Real-time exchange events over WebSocket, brokered by Centrifugo with JWT channel access rights and epoch-based state recovery. Seventeen documented channels cover heartbeat, matcher state, instrument
   name: EVEDEX Async API (Centrifugo)
   slug: evedex-async-api-centrifugo
-- description: The ACL API from EVEDEX — 3 operation(s) for acl.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The ACL API from EVEDEX — 3 operation(s) for acl.
   name: EVEDEX ACL API
   slug: evedex-acl-api
-- description: The AI Strategy API from EVEDEX — 5 operation(s) for ai strategy.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The AI Strategy API from EVEDEX — 5 operation(s) for ai strategy.
   name: EVEDEX AI Strategy API
   slug: evedex-ai-strategy-api
-- description: The Aml API from EVEDEX — 3 operation(s) for aml.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Aml API from EVEDEX — 3 operation(s) for aml.
   name: EVEDEX Aml API
   slug: evedex-aml-api
-- description: The ApiKey API from EVEDEX — 3 operation(s) for apikey.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The ApiKey API from EVEDEX — 3 operation(s) for apikey.
   name: EVEDEX API Key API
   slug: evedex-apikey-api
-- description: The Article API from EVEDEX — 2 operation(s) for article.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Article API from EVEDEX — 2 operation(s) for article.
   name: EVEDEX Article API
   slug: evedex-article-api
-- description: The Auth API from EVEDEX — 11 operation(s) for auth.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Auth API from EVEDEX — 11 operation(s) for auth.
   name: EVEDEX Auth API
   slug: evedex-auth-api
-- description: The Badge API from EVEDEX — 10 operation(s) for badge.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Badge API from EVEDEX — 10 operation(s) for badge.
   name: EVEDEX Badge API
   slug: evedex-badge-api
-- description: The Bill API from EVEDEX — 5 operation(s) for bill.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Bill API from EVEDEX — 5 operation(s) for bill.
   name: EVEDEX Bill API
   slug: evedex-bill-api
-- description: The Blocked API from EVEDEX — 3 operation(s) for blocked.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Blocked API from EVEDEX — 3 operation(s) for blocked.
   name: EVEDEX Blocked API
   slug: evedex-blocked-api
-- description: The Bot API from EVEDEX — 6 operation(s) for bot.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Bot API from EVEDEX — 6 operation(s) for bot.
   name: EVEDEX Bot API
   slug: evedex-bot-api
-- description: The Cashback API from EVEDEX — 2 operation(s) for cashback.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Cashback API from EVEDEX — 2 operation(s) for cashback.
   name: EVEDEX Cashback API
   slug: evedex-cashback-api
-- description: The Centrifugo API from EVEDEX — 1 operation(s) for centrifugo.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Centrifugo API from EVEDEX — 1 operation(s) for centrifugo.
   name: EVEDEX Centrifugo API
   slug: evedex-centrifugo-api
-- description: The Challenges API from EVEDEX — 10 operation(s) for challenges.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Challenges API from EVEDEX — 10 operation(s) for challenges.
   name: EVEDEX Challenges API
   slug: evedex-challenges-api
-- description: The Checkout API from EVEDEX — 1 operation(s) for checkout.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Checkout API from EVEDEX — 1 operation(s) for checkout.
   name: EVEDEX Checkout API
   slug: evedex-checkout-api
-- description: The Claim stop list API from EVEDEX — 1 operation(s) for claim stop list.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Claim stop list API from EVEDEX — 1 operation(s) for claim stop list.
   name: EVEDEX Claim stop list API
   slug: evedex-claim-stop-list-api
-- description: The Coin API from EVEDEX — 2 operation(s) for coin.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Coin API from EVEDEX — 2 operation(s) for coin.
   name: EVEDEX Coin API
   slug: evedex-coin-api
-- description: The Collectable API from EVEDEX — 5 operation(s) for collectable.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Collectable API from EVEDEX — 5 operation(s) for collectable.
   name: EVEDEX Collectable API
   slug: evedex-collectable-api
-- description: The Comment API from EVEDEX — 2 operation(s) for comment.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Comment API from EVEDEX — 2 operation(s) for comment.
   name: EVEDEX Comment API
   slug: evedex-comment-api
-- description: The Competition Templates API from EVEDEX — 3 operation(s) for competition templates.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Competition Templates API from EVEDEX — 3 operation(s) for competition templates.
   name: EVEDEX Competition Templates API
   slug: evedex-competition-templates-api
-- description: The Competitions API from EVEDEX — 8 operation(s) for competitions.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Competitions API from EVEDEX — 8 operation(s) for competitions.
   name: EVEDEX Competitions API
   slug: evedex-competitions-api
-- description: The Course API from EVEDEX — 10 operation(s) for course.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Course API from EVEDEX — 10 operation(s) for course.
   name: EVEDEX Course API
   slug: evedex-course-api
-- description: The CuratorCourse API from EVEDEX — 2 operation(s) for curatorcourse.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The CuratorCourse API from EVEDEX — 2 operation(s) for curatorcourse.
   name: EVEDEX Curator Course API
   slug: evedex-curatorcourse-api
-- description: The DailyStatistics API from EVEDEX — 1 operation(s) for dailystatistics.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The DailyStatistics API from EVEDEX — 1 operation(s) for dailystatistics.
   name: EVEDEX Daily Statistics API
   slug: evedex-dailystatistics-api
-- description: The DailyTask API from EVEDEX — 3 operation(s) for dailytask.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The DailyTask API from EVEDEX — 3 operation(s) for dailytask.
   name: EVEDEX Daily Task API
   slug: evedex-dailytask-api
-- description: The Deposit API from EVEDEX — 1 operation(s) for deposit.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Deposit API from EVEDEX — 1 operation(s) for deposit.
   name: EVEDEX Deposit API
   slug: evedex-deposit-api
-- description: The Deposit Bonus API from EVEDEX — 4 operation(s) for deposit bonus.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Deposit Bonus API from EVEDEX — 4 operation(s) for deposit bonus.
   name: EVEDEX Deposit Bonus API
   slug: evedex-deposit-bonus-api
-- description: The Dev API from EVEDEX — 10 operation(s) for dev.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Dev API from EVEDEX — 10 operation(s) for dev.
   name: EVEDEX Dev API
   slug: evedex-dev-api
-- description: The Discord API from EVEDEX — 3 operation(s) for discord.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Discord API from EVEDEX — 3 operation(s) for discord.
   name: EVEDEX Discord API
   slug: evedex-discord-api
-- description: The Distribution API from EVEDEX — 5 operation(s) for distribution.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Distribution API from EVEDEX — 5 operation(s) for distribution.
   name: EVEDEX Distribution API
   slug: evedex-distribution-api
-- description: The Event API from EVEDEX — 3 operation(s) for event.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Event API from EVEDEX — 3 operation(s) for event.
   name: EVEDEX Event API
   slug: evedex-event-api
-- description: The Exchange API from EVEDEX — 5 operation(s) for exchange.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Exchange API from EVEDEX — 5 operation(s) for exchange.
   name: EVEDEX Exchange API
   slug: evedex-exchange-api
-- description: The External API from EVEDEX — 3 operation(s) for external.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The External API from EVEDEX — 3 operation(s) for external.
   name: EVEDEX External API
   slug: evedex-external-api
-- description: The File API from EVEDEX — 10 operation(s) for file.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The File API from EVEDEX — 10 operation(s) for file.
   name: EVEDEX File API
   slug: evedex-file-api
-- description: The Funded Account API from EVEDEX — 3 operation(s) for funded account.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Funded Account API from EVEDEX — 3 operation(s) for funded account.
   name: EVEDEX Funded Account API
   slug: evedex-funded-account-api
-- description: The GrandContest API from EVEDEX — 7 operation(s) for grandcontest.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The GrandContest API from EVEDEX — 7 operation(s) for grandcontest.
   name: EVEDEX Grand Contest API
   slug: evedex-grandcontest-api
-- description: The Hedging API from EVEDEX — 2 operation(s) for hedging.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Hedging API from EVEDEX — 2 operation(s) for hedging.
   name: EVEDEX Hedging API
   slug: evedex-hedging-api
-- description: The History API from EVEDEX — 5 operation(s) for history.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The History API from EVEDEX — 5 operation(s) for history.
   name: EVEDEX History API
   slug: evedex-history-api
-- description: The Homework API from EVEDEX — 2 operation(s) for homework.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Homework API from EVEDEX — 2 operation(s) for homework.
   name: EVEDEX Homework API
   slug: evedex-homework-api
-- description: The Invitation API from EVEDEX — 1 operation(s) for invitation.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Invitation API from EVEDEX — 1 operation(s) for invitation.
   name: EVEDEX Invitation API
   slug: evedex-invitation-api
-- description: The Journal API from EVEDEX — 1 operation(s) for journal.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Journal API from EVEDEX — 1 operation(s) for journal.
   name: EVEDEX Journal API
   slug: evedex-journal-api
-- description: The Leaderboard API from EVEDEX — 7 operation(s) for leaderboard.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Leaderboard API from EVEDEX — 7 operation(s) for leaderboard.
   name: EVEDEX Leaderboard API
   slug: evedex-leaderboard-api
-- description: The League API from EVEDEX — 1 operation(s) for league.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The League API from EVEDEX — 1 operation(s) for league.
   name: EVEDEX League API
   slug: evedex-league-api
-- description: The Lesson API from EVEDEX — 2 operation(s) for lesson.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Lesson API from EVEDEX — 2 operation(s) for lesson.
   name: EVEDEX Lesson API
   slug: evedex-lesson-api
-- description: The Link API from EVEDEX — 7 operation(s) for link.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Link API from EVEDEX — 7 operation(s) for link.
   name: EVEDEX Link API
   slug: evedex-link-api
-- description: The Liquidation API from EVEDEX — 1 operation(s) for liquidation.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Liquidation API from EVEDEX — 1 operation(s) for liquidation.
   name: EVEDEX Liquidation API
   slug: evedex-liquidation-api
-- description: The Lucky Shot API from EVEDEX — 8 operation(s) for lucky shot.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Lucky Shot API from EVEDEX — 8 operation(s) for lucky shot.
   name: EVEDEX Lucky Shot API
   slug: evedex-lucky-shot-api
-- description: The Mail API from EVEDEX — 1 operation(s) for mail.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Mail API from EVEDEX — 1 operation(s) for mail.
   name: EVEDEX Mail API
   slug: evedex-mail-api
-- description: The Market API from EVEDEX — 9 operation(s) for market.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Market API from EVEDEX — 9 operation(s) for market.
   name: EVEDEX Market API
   slug: evedex-market-api
-- description: The Material API from EVEDEX — 2 operation(s) for material.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Material API from EVEDEX — 2 operation(s) for material.
   name: EVEDEX Material API
   slug: evedex-material-api
-- description: The Message API from EVEDEX — 4 operation(s) for message.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Message API from EVEDEX — 4 operation(s) for message.
   name: EVEDEX Message API
   slug: evedex-message-api
-- description: The MobileApp API from EVEDEX — 9 operation(s) for mobileapp.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The MobileApp API from EVEDEX — 9 operation(s) for mobileapp.
   name: EVEDEX Mobile App API
   slug: evedex-mobileapp-api
-- description: The Module API from EVEDEX — 2 operation(s) for module.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Module API from EVEDEX — 2 operation(s) for module.
   name: EVEDEX Module API
   slug: evedex-module-api
-- description: The Newcomer API from EVEDEX — 2 operation(s) for newcomer.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Newcomer API from EVEDEX — 2 operation(s) for newcomer.
   name: EVEDEX Newcomer API
   slug: evedex-newcomer-api
-- description: The Notification API from EVEDEX — 1 operation(s) for notification.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Notification API from EVEDEX — 1 operation(s) for notification.
   name: EVEDEX Notification API
   slug: evedex-notification-api
-- description: The Notifications API from EVEDEX — 6 operation(s) for notifications.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Notifications API from EVEDEX — 6 operation(s) for notifications.
   name: EVEDEX Notifications API
   slug: evedex-notifications-api
-- description: The Oauth API from EVEDEX — 5 operation(s) for oauth.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Oauth API from EVEDEX — 5 operation(s) for oauth.
   name: EVEDEX OAUTH API
   slug: evedex-oauth-api
-- description: The Order API from EVEDEX — 15 operation(s) for order.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Order API from EVEDEX — 15 operation(s) for order.
   name: EVEDEX Order API
   slug: evedex-order-api
-- description: The PaymentService API from EVEDEX — 1 operation(s) for paymentservice.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The PaymentService API from EVEDEX — 1 operation(s) for paymentservice.
   name: EVEDEX Payment Service API
   slug: evedex-paymentservice-api
-- description: The Paysystem API from EVEDEX — 1 operation(s) for paysystem.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Paysystem API from EVEDEX — 1 operation(s) for paysystem.
   name: EVEDEX Paysystem API
   slug: evedex-paysystem-api
-- description: The Podium API from EVEDEX — 4 operation(s) for podium.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Podium API from EVEDEX — 4 operation(s) for podium.
   name: EVEDEX Podium API
   slug: evedex-podium-api
-- description: The Points API from EVEDEX — 4 operation(s) for points.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Points API from EVEDEX — 4 operation(s) for points.
   name: EVEDEX Points API
   slug: evedex-points-api
-- description: The Position API from EVEDEX — 4 operation(s) for position.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Position API from EVEDEX — 4 operation(s) for position.
   name: EVEDEX Position API
   slug: evedex-position-api
-- description: The Product API from EVEDEX — 3 operation(s) for product.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Product API from EVEDEX — 3 operation(s) for product.
   name: EVEDEX Product API
   slug: evedex-product-api
-- description: The Promocodes API from EVEDEX — 4 operation(s) for promocodes.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Promocodes API from EVEDEX — 4 operation(s) for promocodes.
   name: EVEDEX Promocodes API
   slug: evedex-promocodes-api
-- description: The Public profile API from EVEDEX — 2 operation(s) for public profile.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Public profile API from EVEDEX — 2 operation(s) for public profile.
   name: EVEDEX Public profile API
   slug: evedex-public-profile-api
-- description: The Push API from EVEDEX — 1 operation(s) for push.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Push API from EVEDEX — 1 operation(s) for push.
   name: EVEDEX Push API
   slug: evedex-push-api
-- description: The Quest API from EVEDEX — 4 operation(s) for quest.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Quest API from EVEDEX — 4 operation(s) for quest.
   name: EVEDEX Quest API
   slug: evedex-quest-api
-- description: The Question API from EVEDEX — 2 operation(s) for question.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Question API from EVEDEX — 2 operation(s) for question.
   name: EVEDEX Question API
   slug: evedex-question-api
-- description: The Redirect API from EVEDEX — 6 operation(s) for redirect.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Redirect API from EVEDEX — 6 operation(s) for redirect.
   name: EVEDEX Redirect API
   slug: evedex-redirect-api
-- description: The Referral API from EVEDEX — 1 operation(s) for referral.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Referral API from EVEDEX — 1 operation(s) for referral.
   name: EVEDEX Referral API
   slug: evedex-referral-api
-- description: The ReferralCompetition API from EVEDEX — 1 operation(s) for referralcompetition.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The ReferralCompetition API from EVEDEX — 1 operation(s) for referralcompetition.
   name: EVEDEX Referral Competition API
   slug: evedex-referralcompetition-api
-- description: The Refund API from EVEDEX — 1 operation(s) for refund.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Refund API from EVEDEX — 1 operation(s) for refund.
   name: EVEDEX Refund API
   slug: evedex-refund-api
-- description: The Registration request API from EVEDEX — 3 operation(s) for registration request.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Registration request API from EVEDEX — 3 operation(s) for registration request.
   name: EVEDEX Registration request API
   slug: evedex-registration-request-api
-- description: The Reward API from EVEDEX — 8 operation(s) for reward.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Reward API from EVEDEX — 8 operation(s) for reward.
   name: EVEDEX Reward API
   slug: evedex-reward-api
-- description: The Rhino API from EVEDEX — 2 operation(s) for rhino.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Rhino API from EVEDEX — 2 operation(s) for rhino.
   name: EVEDEX Rhino API
   slug: evedex-rhino-api
-- description: The Service API from EVEDEX — 2 operation(s) for service.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Service API from EVEDEX — 2 operation(s) for service.
   name: EVEDEX Service API
   slug: evedex-service-api
-- description: The Session API from EVEDEX — 5 operation(s) for session.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Session API from EVEDEX — 5 operation(s) for session.
   name: EVEDEX Session API
   slug: evedex-session-api
-- description: The ShareContent API from EVEDEX — 2 operation(s) for sharecontent.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The ShareContent API from EVEDEX — 2 operation(s) for sharecontent.
   name: EVEDEX Share Content API
   slug: evedex-sharecontent-api
-- description: The ShortLink API from EVEDEX — 3 operation(s) for shortlink.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The ShortLink API from EVEDEX — 3 operation(s) for shortlink.
   name: EVEDEX Short Link API
   slug: evedex-shortlink-api
-- description: The Simulator API from EVEDEX — 2 operation(s) for simulator.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Simulator API from EVEDEX — 2 operation(s) for simulator.
   name: EVEDEX Simulator API
   slug: evedex-simulator-api
-- description: The Skill API from EVEDEX — 6 operation(s) for skill.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Skill API from EVEDEX — 6 operation(s) for skill.
   name: EVEDEX Skill API
   slug: evedex-skill-api
-- description: The SmartAccount API from EVEDEX — 2 operation(s) for smartaccount.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The SmartAccount API from EVEDEX — 2 operation(s) for smartaccount.
   name: EVEDEX Smart Account API
   slug: evedex-smartaccount-api
-- description: The Statistics API from EVEDEX — 6 operation(s) for statistics.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Statistics API from EVEDEX — 6 operation(s) for statistics.
   name: EVEDEX Statistics API
   slug: evedex-statistics-api
-- description: The Statistics details API from EVEDEX — 2 operation(s) for statistics details.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Statistics details API from EVEDEX — 2 operation(s) for statistics details.
   name: EVEDEX Statistics details API
   slug: evedex-statistics-details-api
-- description: The Statistics List API from EVEDEX — 3 operation(s) for statistics list.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Statistics List API from EVEDEX — 3 operation(s) for statistics list.
   name: EVEDEX Statistics List API
   slug: evedex-statistics-list-api
-- description: The Strategy API from EVEDEX — 4 operation(s) for strategy.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Strategy API from EVEDEX — 4 operation(s) for strategy.
   name: EVEDEX Strategy API
   slug: evedex-strategy-api
-- description: The SubAccount API from EVEDEX — 7 operation(s) for subaccount.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The SubAccount API from EVEDEX — 7 operation(s) for subaccount.
   name: EVEDEX Sub Account API
   slug: evedex-subaccount-api
-- description: The Subscription API from EVEDEX — 4 operation(s) for subscription.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Subscription API from EVEDEX — 4 operation(s) for subscription.
   name: EVEDEX Subscription API
   slug: evedex-subscription-api
-- description: The Subtitle API from EVEDEX — 2 operation(s) for subtitle.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Subtitle API from EVEDEX — 2 operation(s) for subtitle.
   name: EVEDEX Subtitle API
   slug: evedex-subtitle-api
-- description: The System API from EVEDEX — 2 operation(s) for system.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The System API from EVEDEX — 2 operation(s) for system.
   name: EVEDEX System API
   slug: evedex-system-api
-- description: The Tag API from EVEDEX — 5 operation(s) for tag.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Tag API from EVEDEX — 5 operation(s) for tag.
   name: EVEDEX Tag API
   slug: evedex-tag-api
-- description: The Tariff API from EVEDEX — 4 operation(s) for tariff.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Tariff API from EVEDEX — 4 operation(s) for tariff.
   name: EVEDEX Tariff API
   slug: evedex-tariff-api
-- description: The Telegram API from EVEDEX — 5 operation(s) for telegram.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Telegram API from EVEDEX — 5 operation(s) for telegram.
   name: EVEDEX Telegram API
   slug: evedex-telegram-api
-- description: The Template API from EVEDEX — 2 operation(s) for template.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Template API from EVEDEX — 2 operation(s) for template.
   name: EVEDEX Template API
   slug: evedex-template-api
-- description: The TpSl API from EVEDEX — 3 operation(s) for tpsl.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The TpSl API from EVEDEX — 3 operation(s) for tpsl.
   name: EVEDEX Tp Sl API
   slug: evedex-tpsl-api
-- description: The Trade signal API from EVEDEX — 2 operation(s) for trade signal.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Trade signal API from EVEDEX — 2 operation(s) for trade signal.
   name: EVEDEX Trade signal API
   slug: evedex-trade-signal-api
-- description: The Trading Platform API from EVEDEX — 5 operation(s) for trading platform.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Trading Platform API from EVEDEX — 5 operation(s) for trading platform.
   name: EVEDEX Trading Platform API
   slug: evedex-trading-platform-api
-- description: The TradingCompetition API from EVEDEX — 1 operation(s) for tradingcompetition.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The TradingCompetition API from EVEDEX — 1 operation(s) for tradingcompetition.
   name: EVEDEX Trading Competition API
   slug: evedex-tradingcompetition-api
-- description: The TradingVolume API from EVEDEX — 1 operation(s) for tradingvolume.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The TradingVolume API from EVEDEX — 1 operation(s) for tradingvolume.
   name: EVEDEX Trading Volume API
   slug: evedex-tradingvolume-api
-- description: The Transfer API from EVEDEX — 8 operation(s) for transfer.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Transfer API from EVEDEX — 8 operation(s) for transfer.
   name: EVEDEX Transfer API
   slug: evedex-transfer-api
-- description: The User API from EVEDEX — 74 operation(s) for user.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The User API from EVEDEX — 74 operation(s) for user.
   name: EVEDEX User API
   slug: evedex-user-api
-- description: The UserImage API from EVEDEX — 1 operation(s) for userimage.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The UserImage API from EVEDEX — 1 operation(s) for userimage.
   name: EVEDEX User Image API
   slug: evedex-userimage-api
-- description: The Wallet API from EVEDEX — 1 operation(s) for wallet.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Wallet API from EVEDEX — 1 operation(s) for wallet.
   name: EVEDEX Wallet API
   slug: evedex-wallet-api
-- description: The Webhook API from EVEDEX — 3 operation(s) for webhook.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Webhook API from EVEDEX — 3 operation(s) for webhook.
   name: EVEDEX Webhook API
   slug: evedex-webhook-api
-- description: The Winner API from EVEDEX — 1 operation(s) for winner.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Winner API from EVEDEX — 1 operation(s) for winner.
   name: EVEDEX Winner API
   slug: evedex-winner-api
-- description: The Withdraw API from EVEDEX — 3 operation(s) for withdraw.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Withdraw API from EVEDEX — 3 operation(s) for withdraw.
   name: EVEDEX Withdraw API
   slug: evedex-withdraw-api
-- description: The Yield API from EVEDEX — 2 operation(s) for yield.
+- baseURL: https://auth-api.evedex.com
+  baseurl_source: declared
+  description: The Yield API from EVEDEX — 2 operation(s) for yield.
   name: EVEDEX Yield API
   slug: evedex-yield-api
 artifact_total: 116
@@ -565,23 +793,23 @@ rate_limits:
   slug: evedex-rate-limits
 score:
   band: strong
-  composite: 56.3
+  composite: 55.6
   coverage:
-    artifact_dirs: 22
-    catalog_gap: 54.0
+    artifact_dirs: 23
+    catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: -0.7
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 4.5
-    contract_quality: 49.1
+    contract_quality: 49.9
     developer_ergonomics: 73.2
-    discoverability: 75.9
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 55.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -599,8 +827,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/evedex/refs/heads/main/screenshots/evedex-2026-09-02T145428.png
 security:
 - kind: authentication
   name: Evedex Authentication

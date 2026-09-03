@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: 'Oracle Health Data Intelligence is a comprehensive platform that leverages advanced analytics and artificial intelligence to collect and analyze health data from various sources, including electronic '
   name: Oracle Health Data Intelligence
   slug: oracle-health-data-intelligence
-- description: 'The Populations API from Oracle Health Data Intelligence — population-scoped read access to a patient''s aggregated allergy record within the longitudinal patient record. Two operations, listAllergies '
+- baseURL: https://cernerdemo.api.us-1.healtheintent.com/allergy/v1
+  baseurl_source: declared
+  description: 'The Populations API from Oracle Health Data Intelligence — population-scoped read access to a patient''s aggregated allergy record within the longitudinal patient record. Two operations, listAllergies '
   name: Oracle Health Data Intelligence Populations API
   slug: oracle-health-data-intelligence-populations-api
 artifact_total: 13
@@ -219,7 +221,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.0
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -229,7 +231,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 52.5
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -247,7 +249,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-health-data-intelligence/refs/heads/main/screenshots/oracle-health-data-intelligence-2026-06-20T191145.png
 security:

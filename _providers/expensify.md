@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ apis:
 - description: REST-style API for exporting expense reports, creating and updating policies, managing employees, and integrating Expensify data with accounting and HR systems. Authentication uses partnerUserID and p
   name: Expensify Integration Server API
   slug: integration-server
-- description: The Integrations API from Expensify — 1 operation(s) for integrations.
+- baseURL: https://integrations.expensify.com/Integration-Server/ExpensifyIntegrations
+  baseurl_source: declared
+  description: The Integrations API from Expensify — 1 operation(s) for integrations.
   name: Expensify Integrations API
   slug: expensify-integrations-api
 artifact_total: 7
@@ -150,7 +152,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expensify/refs/heads/main/screenshots/expensify-2026-06-20T180939.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,88 +36,142 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: The Actions API from Pypestream — 2 operation(s) for actions.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Actions API from Pypestream — 2 operation(s) for actions.
   name: Pypestream Actions API
   slug: pypestream-actions-api
-- description: Advanced SDK features
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: Advanced SDK features
   name: Pypestream Advanced API
   slug: pypestream-advanced-api
-- description: The Agent API from Pypestream — 2 operation(s) for agent.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Agent API from Pypestream — 2 operation(s) for agent.
   name: Pypestream Agent API
   slug: pypestream-agent-api
-- description: The Annotations API from Pypestream — 2 operation(s) for annotations.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Annotations API from Pypestream — 2 operation(s) for annotations.
   name: Pypestream Annotations API
   slug: pypestream-annotations-api
-- description: The Batch Exports API from Pypestream — 7 operation(s) for batch exports.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Batch Exports API from Pypestream — 7 operation(s) for batch exports.
   name: Pypestream Batch Exports API
   slug: pypestream-batch-exports-api
-- description: The Cohorts API from Pypestream — 3 operation(s) for cohorts.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Cohorts API from Pypestream — 3 operation(s) for cohorts.
   name: Pypestream Cohorts API
   slug: pypestream-cohorts-api
-- description: SDK configuration methods
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: SDK configuration methods
   name: Pypestream Configuration API
   slug: pypestream-configuration-api
-- description: Use the Conversation API after the escalate request
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: Use the Conversation API after the escalate request
   name: Pypestream Conversations API
   slug: pypestream-conversations-api-api
-- description: The Dashboards API from Pypestream — 2 operation(s) for dashboards.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Dashboards API from Pypestream — 2 operation(s) for dashboards.
   name: Pypestream Dashboards API
   slug: pypestream-dashboards-api
-- description: The Datasets API from Pypestream — 2 operation(s) for datasets.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Datasets API from Pypestream — 2 operation(s) for datasets.
   name: Pypestream Datasets API
   slug: pypestream-datasets-api
-- description: Control chat visibility
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: Control chat visibility
   name: Pypestream Display Control API
   slug: pypestream-display-control-api
-- description: API to be consumed by the 3rd party apps.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: API to be consumed by the 3rd party apps.
   name: Pypestream Endpoints API
   slug: pypestream-endpoints-api
-- description: The Event Definitions API from Pypestream — 2 operation(s) for event definitions.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Event Definitions API from Pypestream — 2 operation(s) for event definitions.
   name: Pypestream Event Definitions API
   slug: pypestream-event-definitions-api
-- description: Register event callbacks
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: Register event callbacks
   name: Pypestream Event Handlers API
   slug: pypestream-event-handlers-api
-- description: The Events API from Pypestream — 2 operation(s) for events.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Events API from Pypestream — 2 operation(s) for events.
   name: Pypestream Events API
   slug: pypestream-events-api
-- description: The Insights API from Pypestream — 7 operation(s) for insights.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Insights API from Pypestream — 7 operation(s) for insights.
   name: Pypestream Insights API
   slug: pypestream-insights-api
-- description: (NEW) Enhanced version of the previous Settings API
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: (NEW) Enhanced version of the previous Settings API
   name: Pypestream Integrations API
   slug: pypestream-integrations-api-api
-- description: The KPIs API from Pypestream — 2 operation(s) for kpis.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The KPIs API from Pypestream — 2 operation(s) for kpis.
   name: Pypestream KP Is API
   slug: pypestream-kpis-api
-- description: SDK lifecycle management
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: SDK lifecycle management
   name: Pypestream Lifecycle API
   slug: pypestream-lifecycle-api
-- description: The Metadata API from Pypestream — 2 operation(s) for metadata.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Metadata API from Pypestream — 2 operation(s) for metadata.
   name: Pypestream Metadata API
   slug: pypestream-metadata-api
-- description: The Organization API from Pypestream — 2 operation(s) for organization.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Organization API from Pypestream — 2 operation(s) for organization.
   name: Pypestream Organization API
   slug: pypestream-organization-api
-- description: The Persons API from Pypestream — 2 operation(s) for persons.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Persons API from Pypestream — 2 operation(s) for persons.
   name: Pypestream Persons API
   slug: pypestream-persons-api
-- description: The Projects API from Pypestream — 2 operation(s) for projects.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Projects API from Pypestream — 2 operation(s) for projects.
   name: Pypestream Projects API
   slug: pypestream-projects-api
-- description: The Property Definitions API from Pypestream — 2 operation(s) for property definitions.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Property Definitions API from Pypestream — 2 operation(s) for property definitions.
   name: Pypestream Property Definitions API
   slug: pypestream-property-definitions-api
-- description: (DEPRECATED) Please use the new Integrations API
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: (DEPRECATED) Please use the new Integrations API
   name: Pypestream Settings API
   slug: pypestream-settings-api-api
-- description: The Settings API from Pypestream — 1 operation(s) for settings.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Settings API from Pypestream — 1 operation(s) for settings.
   name: Pypestream Settings API
   slug: pypestream-settings-api
-- description: The Transcript API from Pypestream — 2 operation(s) for transcript.
+- baseURL: https://reporting.pypestream.com/api/v2/
+  baseurl_source: declared
+  description: The Transcript API from Pypestream — 2 operation(s) for transcript.
   name: Pypestream Transcript API
   slug: pypestream-transcript-api
 artifact_total: 36
@@ -294,23 +361,23 @@ rate_limits:
   slug: pypestream-rate-limits
 score:
   band: developing
-  composite: 42.5
+  composite: 42.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.2
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 4.5
-    contract_quality: 56.7
+    contract_quality: 57.3
     developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 41.9
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -321,8 +388,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pypestream/refs/heads/main/screenshots/pypestream-2026-09-02T152407.png
 security:
 - kind: authentication
   name: Pypestream Authentication

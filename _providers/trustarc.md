@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 17
@@ -61,154 +61,254 @@ apis:
 - description: Create Assessment Manager projects (PIA/DPIA/TIA) programmatically over a RESTful surface, plus an external-integration project answer endpoint and packaged Salesforce and ServiceNow connectors. Docum
   name: TrustArc Assessment Manager API
   slug: trustarc-assessment-manager-api
-- description: The Accounts API from TrustArc — 14 operation(s) for accounts.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts API from TrustArc — 14 operation(s) for accounts.
   name: TrustArc Accounts API
   slug: trustarc-accounts-api
-- description: The Accounts-CustomMetaTags API from TrustArc — 7 operation(s) for accounts-custommetatags.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-CustomMetaTags API from TrustArc — 7 operation(s) for accounts-custommetatags.
   name: TrustArc Accounts Custom Meta Tags API
   slug: trustarc-accounts-custommetatags-api
-- description: The Accounts-Extension API from TrustArc — 6 operation(s) for accounts-extension.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-Extension API from TrustArc — 6 operation(s) for accounts-extension.
   name: TrustArc Accounts Extension API
   slug: trustarc-accounts-extension-api
-- description: The Accounts-fieldtypes API from TrustArc — 3 operation(s) for accounts-fieldtypes.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-fieldtypes API from TrustArc — 3 operation(s) for accounts-fieldtypes.
   name: TrustArc Accounts Fieldtypes API
   slug: trustarc-accounts-fieldtypes-api
-- description: The Accounts-MetaTags API from TrustArc — 3 operation(s) for accounts-metatags.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-MetaTags API from TrustArc — 3 operation(s) for accounts-metatags.
   name: TrustArc Accounts Meta Tags API
   slug: trustarc-accounts-metatags-api
-- description: The Accounts-OrganizationalStructure API from TrustArc — 6 operation(s) for accounts-organizationalstructure.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-OrganizationalStructure API from TrustArc — 6 operation(s) for accounts-organizationalstructure.
   name: TrustArc Accounts Organizational Structure API
   slug: trustarc-accounts-organizationalstructure-api
-- description: The Accounts-PickTags API from TrustArc — 4 operation(s) for accounts-picktags.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-PickTags API from TrustArc — 4 operation(s) for accounts-picktags.
   name: TrustArc Accounts Pick Tags API
   slug: trustarc-accounts-picktags-api
-- description: The Accounts-Prefaces API from TrustArc — 3 operation(s) for accounts-prefaces.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-Prefaces API from TrustArc — 3 operation(s) for accounts-prefaces.
   name: TrustArc Accounts Prefaces API
   slug: trustarc-accounts-prefaces-api
-- description: The Accounts-ReportConfigs API from TrustArc — 3 operation(s) for accounts-reportconfigs.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-ReportConfigs API from TrustArc — 3 operation(s) for accounts-reportconfigs.
   name: TrustArc Accounts Report Configs API
   slug: trustarc-accounts-reportconfigs-api
-- description: The Accounts-SubAccount API from TrustArc — 2 operation(s) for accounts-subaccount.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-SubAccount API from TrustArc — 2 operation(s) for accounts-subaccount.
   name: TrustArc Accounts Sub Account API
   slug: trustarc-accounts-subaccount-api
-- description: The Accounts-Tokens API from TrustArc — 3 operation(s) for accounts-tokens.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-Tokens API from TrustArc — 3 operation(s) for accounts-tokens.
   name: TrustArc Accounts Tokens API
   slug: trustarc-accounts-tokens-api
-- description: The Accounts-UserGroups API from TrustArc — 1 operation(s) for accounts-usergroups.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Accounts-UserGroups API from TrustArc — 1 operation(s) for accounts-usergroups.
   name: TrustArc Accounts User Groups API
   slug: trustarc-accounts-usergroups-api
-- description: Monitor and interact
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: Monitor and interact
   name: TrustArc Actuator API
   slug: trustarc-actuator-api
-- description: The anon-credential-resource API from TrustArc — 2 operation(s) for anon-credential-resource.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The anon-credential-resource API from TrustArc — 2 operation(s) for anon-credential-resource.
   name: TrustArc Anon Credential Resource API
   slug: trustarc-anon-credential-resource-api
-- description: The anon-session-controller API from TrustArc — 1 operation(s) for anon-session-controller.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The anon-session-controller API from TrustArc — 1 operation(s) for anon-session-controller.
   name: TrustArc Anon Session Controller API
   slug: trustarc-anon-session-controller-api
-- description: The Clients API from TrustArc — 13 operation(s) for clients.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Clients API from TrustArc — 13 operation(s) for clients.
   name: TrustArc Clients API
   slug: trustarc-clients-api
-- description: The Clients-Extension API from TrustArc — 1 operation(s) for clients-extension.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Clients-Extension API from TrustArc — 1 operation(s) for clients-extension.
   name: TrustArc Clients Extension API
   slug: trustarc-clients-extension-api
-- description: The Clients-Extension-License API from TrustArc — 3 operation(s) for clients-extension-license.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Clients-Extension-License API from TrustArc — 3 operation(s) for clients-extension-license.
   name: TrustArc Clients Extension License API
   slug: trustarc-clients-extension-license-api
-- description: The Clients-Roles API from TrustArc — 2 operation(s) for clients-roles.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Clients-Roles API from TrustArc — 2 operation(s) for clients-roles.
   name: TrustArc Clients Roles API
   slug: trustarc-clients-roles-api
-- description: The Clients-UserGroups API from TrustArc — 3 operation(s) for clients-usergroups.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Clients-UserGroups API from TrustArc — 3 operation(s) for clients-usergroups.
   name: TrustArc Clients User Groups API
   slug: trustarc-clients-usergroups-api
-- description: The Email Templates API from TrustArc — 4 operation(s) for email templates.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Email Templates API from TrustArc — 4 operation(s) for email templates.
   name: TrustArc Email Templates API
   slug: trustarc-email-templates-api
-- description: The Entity Configs API from TrustArc — 4 operation(s) for entity configs.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Entity Configs API from TrustArc — 4 operation(s) for entity configs.
   name: TrustArc Entity Configs API
   slug: trustarc-entity-configs-api
-- description: The Groups API from TrustArc — 2 operation(s) for groups.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Groups API from TrustArc — 2 operation(s) for groups.
   name: TrustArc Groups API
   slug: trustarc-groups-api
-- description: The History API from TrustArc — 3 operation(s) for history.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The History API from TrustArc — 3 operation(s) for history.
   name: TrustArc History API
   slug: trustarc-history-api
-- description: The Jobs API from TrustArc — 3 operation(s) for jobs.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Jobs API from TrustArc — 3 operation(s) for jobs.
   name: TrustArc Jobs API
   slug: trustarc-jobs-api
-- description: The Navigation-Menus API from TrustArc — 4 operation(s) for navigation-menus.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Navigation-Menus API from TrustArc — 4 operation(s) for navigation-menus.
   name: TrustArc Navigation Menus API
   slug: trustarc-navigation-menus-api
-- description: The Nymity API from TrustArc — 2 operation(s) for nymity.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Nymity API from TrustArc — 2 operation(s) for nymity.
   name: TrustArc Nymity API
   slug: trustarc-nymity-api
-- description: The PermissionProfiles API from TrustArc — 5 operation(s) for permissionprofiles.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The PermissionProfiles API from TrustArc — 5 operation(s) for permissionprofiles.
   name: TrustArc Permission Profiles API
   slug: trustarc-permissionprofiles-api
-- description: The Preface API from TrustArc — 3 operation(s) for preface.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Preface API from TrustArc — 3 operation(s) for preface.
   name: TrustArc Preface API
   slug: trustarc-preface-api
-- description: The Reports API from TrustArc — 2 operation(s) for reports.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Reports API from TrustArc — 2 operation(s) for reports.
   name: TrustArc Reports API
   slug: trustarc-reports-api
-- description: The Schedules API from TrustArc — 3 operation(s) for schedules.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Schedules API from TrustArc — 3 operation(s) for schedules.
   name: TrustArc Schedules API
   slug: trustarc-schedules-api
-- description: The Scim API from TrustArc — 5 operation(s) for scim.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Scim API from TrustArc — 5 operation(s) for scim.
   name: TrustArc SCIM API
   slug: trustarc-scim-api
-- description: The Sessions API from TrustArc — 5 operation(s) for sessions.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Sessions API from TrustArc — 5 operation(s) for sessions.
   name: TrustArc Sessions API
   slug: trustarc-sessions-api
-- description: The sso-login-controller API from TrustArc — 1 operation(s) for sso-login-controller.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The sso-login-controller API from TrustArc — 1 operation(s) for sso-login-controller.
   name: TrustArc SSO Login Controller API
   slug: trustarc-sso-login-controller-api
-- description: The Storage API from TrustArc — 1 operation(s) for storage.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Storage API from TrustArc — 1 operation(s) for storage.
   name: TrustArc Storage API
   slug: trustarc-storage-api
-- description: The Sysinfo API from TrustArc — 1 operation(s) for sysinfo.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Sysinfo API from TrustArc — 1 operation(s) for sysinfo.
   name: TrustArc Sysinfo API
   slug: trustarc-sysinfo-api
-- description: The Translations API from TrustArc — 2 operation(s) for translations.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Translations API from TrustArc — 2 operation(s) for translations.
   name: TrustArc Translations API
   slug: trustarc-translations-api
-- description: The user-info-resource API from TrustArc — 1 operation(s) for user-info-resource.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The user-info-resource API from TrustArc — 1 operation(s) for user-info-resource.
   name: TrustArc User Info Resource API
   slug: trustarc-user-info-resource-api
-- description: The UserProfiles-Activations API from TrustArc — 2 operation(s) for userprofiles-activations.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The UserProfiles-Activations API from TrustArc — 2 operation(s) for userprofiles-activations.
   name: TrustArc User Profiles Activations API
   slug: trustarc-userprofiles-activations-api
-- description: The UserProfiles API from TrustArc — 11 operation(s) for userprofiles.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The UserProfiles API from TrustArc — 11 operation(s) for userprofiles.
   name: TrustArc User Profiles API
   slug: trustarc-userprofiles-api
-- description: The UserProfiles-Users API from TrustArc — 4 operation(s) for userprofiles-users.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The UserProfiles-Users API from TrustArc — 4 operation(s) for userprofiles-users.
   name: TrustArc User Profiles Users API
   slug: trustarc-userprofiles-users-api
-- description: The Users API from TrustArc — 34 operation(s) for users.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users API from TrustArc — 34 operation(s) for users.
   name: TrustArc Users API
   slug: trustarc-users-api
-- description: The Users-Audits API from TrustArc — 1 operation(s) for users-audits.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-Audits API from TrustArc — 1 operation(s) for users-audits.
   name: TrustArc Users Audits API
   slug: trustarc-users-audits-api
-- description: The Users-Extension API from TrustArc — 1 operation(s) for users-extension.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-Extension API from TrustArc — 1 operation(s) for users-extension.
   name: TrustArc Users Extension API
   slug: trustarc-users-extension-api
-- description: The Users-fieldtypes API from TrustArc — 2 operation(s) for users-fieldtypes.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-fieldtypes API from TrustArc — 2 operation(s) for users-fieldtypes.
   name: TrustArc Users Fieldtypes API
   slug: trustarc-users-fieldtypes-api
-- description: The Users-History API from TrustArc — 3 operation(s) for users-history.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-History API from TrustArc — 3 operation(s) for users-history.
   name: TrustArc Users History API
   slug: trustarc-users-history-api
-- description: The Users-MetaTags API from TrustArc — 4 operation(s) for users-metatags.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-MetaTags API from TrustArc — 4 operation(s) for users-metatags.
   name: TrustArc Users Meta Tags API
   slug: trustarc-users-metatags-api
-- description: The Users-Simple API from TrustArc — 1 operation(s) for users-simple.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-Simple API from TrustArc — 1 operation(s) for users-simple.
   name: TrustArc Users Simple API
   slug: trustarc-users-simple-api
-- description: The Users-Switch API from TrustArc — 1 operation(s) for users-switch.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Users-Switch API from TrustArc — 1 operation(s) for users-switch.
   name: TrustArc Users Switch API
   slug: trustarc-users-switch-api
-- description: The Xauths API from TrustArc — 4 operation(s) for xauths.
+- baseURL: https://login.truste.com
+  baseurl_source: declared
+  description: The Xauths API from TrustArc — 4 operation(s) for xauths.
   name: TrustArc Xauths API
   slug: trustarc-xauths-api
 artifact_total: 64
@@ -482,23 +582,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 44.8
+  composite: 45.7
   coverage:
     artifact_dirs: 24
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 18.2
-    contract_quality: 49.5
+    contract_quality: 52.8
     developer_ergonomics: 63.7
     discoverability: 63.0
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 45.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -510,7 +610,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustarc/refs/heads/main/screenshots/trustarc-2026-06-20T195803.png
 security:

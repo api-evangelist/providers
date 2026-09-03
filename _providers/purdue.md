@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Rosen Center for Advanced Computing publishes its own OpenAPI 3.0.0 description at www.rcac.purdue.edu/api - 206 paths and 452 operations covering research computing groups and their members, depa
+- baseURL: https://www.rcac.purdue.edu/api
+  baseurl_source: declared
+  description: The Rosen Center for Advanced Computing publishes its own OpenAPI 3.0.0 description at www.rcac.purdue.edu/api - 206 paths and 452 operations covering research computing groups and their members, depa
   name: Purdue RCAC API
   slug: purdue-rcac-api
-- description: A public, keyless HTTP API operated by Purdue University Housing and Food Services at api.hfs.purdue.edu, serving dining-court locations, published daily menus by location and date, and per-item nutri
+- baseURL: https://api.hfs.purdue.edu/menus/v2
+  baseurl_source: declared
+  description: A public, keyless HTTP API operated by Purdue University Housing and Food Services at api.hfs.purdue.edu, serving dining-court locations, published daily menus by location and date, and per-item nutri
   name: Purdue HFS Dining Menus API
   slug: purdue-hfs-dining-menus-api
 - description: The Purdue University Research Repository exposes an OAI-PMH 2.0 endpoint for harvesting research dataset metadata, supporting the standard verbs (Identify, ListSets, ListMetadataFormats, ListIdentifi
@@ -220,23 +224,23 @@ rules:
   slug: purdue-openapi-spectral-rules
 score:
   band: developing
-  composite: 47.1
+  composite: 48.0
   coverage:
     artifact_dirs: 15
     catalog_gap: 29.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.9
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 58.3
-    contract_quality: 41.1
+    contract_quality: 44.4
     developer_ergonomics: 35.7
     discoverability: 68.5
     governance: 58.3
     operational_transparency: 23.7
-  previous_composite: 47.6
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -251,7 +255,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png
 security:

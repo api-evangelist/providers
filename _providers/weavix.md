@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: The Channels & Messaging API from Weavix — 4 operation(s) for channels & messaging.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Channels & Messaging API from Weavix — 4 operation(s) for channels & messaging.
   name: Weavix Channels & Messaging API
   slug: weavix-channels-messaging-api
-- description: The Crafts API from Weavix — 1 operation(s) for crafts.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Crafts API from Weavix — 1 operation(s) for crafts.
   name: Weavix Crafts API
   slug: weavix-crafts-api
-- description: The Forms API from Weavix — 1 operation(s) for forms.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Forms API from Weavix — 1 operation(s) for forms.
   name: Weavix Forms API
   slug: weavix-forms-api
-- description: The Geofences API from Weavix — 1 operation(s) for geofences.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Geofences API from Weavix — 1 operation(s) for geofences.
   name: Weavix Geofences API
   slug: weavix-geofences-api
-- description: The Mass Alerts API from Weavix — 2 operation(s) for mass alerts.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Mass Alerts API from Weavix — 2 operation(s) for mass alerts.
   name: Weavix Mass Alerts API
   slug: weavix-mass-alerts-api
-- description: The Permission Groups API from Weavix — 1 operation(s) for permission groups.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Permission Groups API from Weavix — 1 operation(s) for permission groups.
   name: Weavix Permission Groups API
   slug: weavix-permission-groups-api
-- description: The Sites API from Weavix — 1 operation(s) for sites.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The Sites API from Weavix — 1 operation(s) for sites.
   name: Weavix Sites API
   slug: weavix-sites-api
-- description: The User Management API from Weavix — 5 operation(s) for user management.
+- baseURL: https://api.weavix.com
+  baseurl_source: declared
+  description: The User Management API from Weavix — 5 operation(s) for user management.
   name: Weavix User Management API
   slug: weavix-user-management-api
 artifact_total: 23
@@ -260,7 +276,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavix/refs/heads/main/screenshots/weavix-2026-08-17T082852.png
 security:

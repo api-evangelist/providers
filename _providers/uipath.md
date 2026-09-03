@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 79 operations · 33 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: Retrieve and manage system and automation alerts
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve and manage system and automation alerts
   name: UiPath Alerts API
   slug: uipath-alerts-api
-- description: Manage the application inventory used in automation assessments
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage the application inventory used in automation assessments
   name: UiPath AppInventory API
   slug: uipath-appinventory-api
-- description: Manage shared assets such as credentials, text values, integers, and boolean values
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage shared assets such as credentials, text values, integers, and boolean values
   name: UiPath Assets API
   slug: uipath-assets-api
-- description: Retrieve and download organization and tenant audit event logs
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve and download organization and tenant audit event logs
   name: UiPath AuditLogs API
   slug: uipath-auditlogs-api
-- description: Manage automation ideas and projects in the pipeline
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage automation ideas and projects in the pipeline
   name: UiPath Automations API
   slug: uipath-automations-api
-- description: Classify documents into predefined document types
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Classify documents into predefined document types
   name: UiPath Classification API
   slug: uipath-classification-api
-- description: Convert documents into a digitized format for downstream processing
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Convert documents into a digitized format for downstream processing
   name: UiPath Digitization API
   slug: uipath-digitization-api
-- description: Discover available projects, classifiers, and extractors
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Discover available projects, classifiers, and extractors
   name: UiPath Discovery API
   slug: uipath-discovery-api
-- description: Perform CRUD operations on custom data entity records
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Perform CRUD operations on custom data entity records
   name: UiPath Entities API
   slug: uipath-entities-api
-- description: Extract structured data fields from documents
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Extract structured data fields from documents
   name: UiPath Extraction API
   slug: uipath-extraction-api
-- description: Manage organizational folders for grouping automation resources
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage organizational folders for grouping automation resources
   name: UiPath Folders API
   slug: uipath-folders-api
-- description: Manage user groups and group memberships
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage user groups and group memberships
   name: UiPath Groups API
   slug: uipath-groups-api
-- description: Manage automation job execution, including starting, stopping, and querying job state
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage automation job execution, including starting, stopping, and querying job state
   name: UiPath Jobs API
   slug: uipath-jobs-api
-- description: Manage license allocations across user groups and services
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage license allocations across user groups and services
   name: UiPath Licenses API
   slug: uipath-licenses-api
-- description: Manage machine templates and registered physical or virtual machines
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage machine templates and registered physical or virtual machines
   name: UiPath Machines API
   slug: uipath-machines-api
-- description: Manage automation package uploads and versions
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage automation package uploads and versions
   name: UiPath Packages API
   slug: uipath-packages-api
-- description: Retrieve automation pipeline data and status views
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve automation pipeline data and status views
   name: UiPath Pipeline API
   slug: uipath-pipeline-api
-- description: Manage automation processes (published packages deployed to folders)
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage automation processes (published packages deployed to folders)
   name: UiPath Processes API
   slug: uipath-processes-api
-- description: Manage test projects within Test Manager
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage test projects within Test Manager
   name: UiPath Projects API
   slug: uipath-projects-api
-- description: Manage individual queue transaction items and their processing state
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage individual queue transaction items and their processing state
   name: UiPath QueueItems API
   slug: uipath-queueitems-api
-- description: Manage transaction queues for distributing work items to robots
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage transaction queues for distributing work items to robots
   name: UiPath Queues API
   slug: uipath-queues-api
-- description: Manage requirements and their traceability links to test cases
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage requirements and their traceability links to test cases
   name: UiPath Requirements API
   slug: uipath-requirements-api
-- description: Manage software robots registered with Orchestrator
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage software robots registered with Orchestrator
   name: UiPath Robots API
   slug: uipath-robots-api
-- description: Manage roles and their associated permissions
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage roles and their associated permissions
   name: UiPath Roles API
   slug: uipath-roles-api
-- description: Manage time-based and recurring triggers for automation processes
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage time-based and recurring triggers for automation processes
   name: UiPath Schedules API
   slug: uipath-schedules-api
-- description: Manage cloud storage buckets for storing automation artifacts
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage cloud storage buckets for storing automation artifacts
   name: UiPath StorageBuckets API
   slug: uipath-storagebuckets-api
-- description: Manage test cases and their definitions
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage test cases and their definitions
   name: UiPath TestCases API
   slug: uipath-testcases-api
-- description: Retrieve test execution results and logs
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Retrieve test execution results and logs
   name: UiPath TestExecutions API
   slug: uipath-testexecutions-api
-- description: Manage test sets that group test cases for execution
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage test sets that group test cases for execution
   name: UiPath TestSets API
   slug: uipath-testsets-api
-- description: Manage users and their roles within Automation Hub
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage users and their roles within Automation Hub
   name: UiPath Users API
   slug: uipath-users-api
-- description: Validate and correct digitization, classification, and extraction results
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Validate and correct digitization, classification, and extraction results
   name: UiPath Validation API
   slug: uipath-validation-api
-- description: Manage webhook subscriptions for Orchestrator event notifications
+- baseURL: https://cloud.uipath.com/{organizationName}/{tenantName}/orchestrator_
+  baseurl_source: declared
+  description: Manage webhook subscriptions for Orchestrator event notifications
   name: UiPath Webhooks API
   slug: uipath-webhooks-api
 arazzos:
@@ -1534,7 +1598,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1544,7 +1608,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 61.7
+  previous_composite: 61.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1553,7 +1617,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

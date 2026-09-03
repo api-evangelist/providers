@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 20 operations · 3 acting
 api_count: 3
 apis:
-- description: The Author Data API from Semantic Scholar — 4 operation(s) for author data.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Author Data API from Semantic Scholar — 4 operation(s) for author data.
   name: Semantic Scholar Author Data API
   slug: semantic-scholar-author-data-api
-- description: The Incremental Updates API from Semantic Scholar — 1 operation(s) for incremental updates.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Incremental Updates API from Semantic Scholar — 1 operation(s) for incremental updates.
   name: Semantic Scholar Incremental Updates API
   slug: semantic-scholar-incremental-updates-api
-- description: The Paper Data API from Semantic Scholar — 9 operation(s) for paper data.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Paper Data API from Semantic Scholar — 9 operation(s) for paper data.
   name: Semantic Scholar Paper Data API
   slug: semantic-scholar-paper-data-api
-- description: The Paper Recommendations API from Semantic Scholar — 2 operation(s) for paper recommendations.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Paper Recommendations API from Semantic Scholar — 2 operation(s) for paper recommendations.
   name: Semantic Scholar Paper Recommendations API
   slug: semantic-scholar-paper-recommendations-api
-- description: The Release Data API from Semantic Scholar — 3 operation(s) for release data.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Release Data API from Semantic Scholar — 3 operation(s) for release data.
   name: Semantic Scholar Release Data API
   slug: semantic-scholar-release-data-api
-- description: The Snippet Text API from Semantic Scholar — 1 operation(s) for snippet text.
+- baseURL: https://api.semanticscholar.org/graph/v1
+  baseurl_source: declared
+  description: The Snippet Text API from Semantic Scholar — 1 operation(s) for snippet text.
   name: Semantic Scholar Snippet Text API
   slug: semantic-scholar-snippet-text-api
 artifact_total: 28
@@ -264,7 +276,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semantic-scholar/refs/heads/main/screenshots/semantic-scholar-2026-06-20T193645.png
 security:

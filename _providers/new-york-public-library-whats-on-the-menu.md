@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Dish records appearing across menus.
+- baseURL: http://api.menus.nypl.org
+  baseurl_source: declared
+  description: Dish records appearing across menus.
   name: New York Public Library What's On The Menu Dishes API
   slug: new-york-public-library-whats-on-the-menu-dishes-api
-- description: Historical menu records and pages.
+- baseURL: http://api.menus.nypl.org
+  baseurl_source: declared
+  description: Historical menu records and pages.
   name: New York Public Library What's On The Menu Menus API
   slug: new-york-public-library-whats-on-the-menu-menus-api
 artifact_total: 22
@@ -197,7 +201,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
 security:

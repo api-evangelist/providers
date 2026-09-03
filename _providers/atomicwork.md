@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
   name: Atomicwork accessManagement API
   slug: atomicwork-accessmanagement-api
-- description: The agentGroups API from Atomicwork — 3 operation(s) for agentgroups.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The agentGroups API from Atomicwork — 3 operation(s) for agentgroups.
   name: Atomicwork agentGroups API
   slug: atomicwork-agentgroups-api
-- description: The assets API from Atomicwork — 7 operation(s) for assets.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The assets API from Atomicwork — 7 operation(s) for assets.
   name: Atomicwork assets API
   slug: atomicwork-assets-api
-- description: The auditLogs API from Atomicwork — 3 operation(s) for auditlogs.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The auditLogs API from Atomicwork — 3 operation(s) for auditlogs.
   name: Atomicwork auditLogs API
   slug: atomicwork-auditlogs-api
-- description: The businessHourConfig API from Atomicwork — 2 operation(s) for businesshourconfig.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The businessHourConfig API from Atomicwork — 2 operation(s) for businesshourconfig.
   name: Atomicwork businessHourConfig API
   slug: atomicwork-businesshourconfig-api
-- description: The changeManagement API from Atomicwork — 7 operation(s) for changemanagement.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The changeManagement API from Atomicwork — 7 operation(s) for changemanagement.
   name: Atomicwork changeManagement API
   slug: atomicwork-changemanagement-api
-- description: The customObjects API from Atomicwork — 7 operation(s) for customobjects.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The customObjects API from Atomicwork — 7 operation(s) for customobjects.
   name: Atomicwork customObjects API
   slug: atomicwork-customobjects-api
-- description: The entities API from Atomicwork — 1 operation(s) for entities.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The entities API from Atomicwork — 1 operation(s) for entities.
   name: Atomicwork entities API
   slug: atomicwork-entities-api
-- description: The forms API from Atomicwork — 5 operation(s) for forms.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The forms API from Atomicwork — 5 operation(s) for forms.
   name: Atomicwork forms API
   slug: atomicwork-forms-api
-- description: The problems API from Atomicwork — 4 operation(s) for problems.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The problems API from Atomicwork — 4 operation(s) for problems.
   name: Atomicwork problems API
   slug: atomicwork-problems-api
-- description: The requests API from Atomicwork — 19 operation(s) for requests.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The requests API from Atomicwork — 19 operation(s) for requests.
   name: Atomicwork requests API
   slug: atomicwork-requests-api
-- description: The serviceCatalog API from Atomicwork — 7 operation(s) for servicecatalog.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The serviceCatalog API from Atomicwork — 7 operation(s) for servicecatalog.
   name: Atomicwork serviceCatalog API
   slug: atomicwork-servicecatalog-api
-- description: The tags API from Atomicwork — 2 operation(s) for tags.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The tags API from Atomicwork — 2 operation(s) for tags.
   name: Atomicwork tags API
   slug: atomicwork-tags-api
-- description: The users API from Atomicwork — 10 operation(s) for users.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The users API from Atomicwork — 10 operation(s) for users.
   name: Atomicwork users API
   slug: atomicwork-users-api
-- description: The workflows API from Atomicwork — 14 operation(s) for workflows.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The workflows API from Atomicwork — 14 operation(s) for workflows.
   name: Atomicwork workflows API
   slug: atomicwork-workflows-api
-- description: The workspaces API from Atomicwork — 3 operation(s) for workspaces.
+- baseURL: https://{tenant}.atomicwork.com/api/v1
+  baseurl_source: declared
+  description: The workspaces API from Atomicwork — 3 operation(s) for workspaces.
   name: Atomicwork workspaces API
   slug: atomicwork-workspaces-api
 artifact_total: 38
@@ -304,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/screenshots/atomicwork-2026-07-25T201615.png
 security:

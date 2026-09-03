@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: The State Farm B2B Lender Services API provides mortgage lenders and auto lenders with programmatic access to verify insurance coverage for collateral assets financed by their borrowers. Lenders can c
   name: B2B Lender Services API
   slug: b2b-lender-services-api
-- description: Coverage options and details
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Coverage options and details
   name: State Farm Insurance Companies Coverage API
   slug: state-farm-insurance-cos-coverage-api
-- description: Renters insurance policy operations
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance policy operations
   name: State Farm Insurance Companies Policies API
   slug: state-farm-insurance-cos-policies-api
-- description: Renters insurance quote operations
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance quote operations
   name: State Farm Insurance Companies Quotes API
   slug: state-farm-insurance-cos-quotes-api
 artifact_total: 24
@@ -272,10 +278,10 @@ score:
       total: 3
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/screenshots/state-farm-insurance-cos-2026-06-20T194526.png
 security:

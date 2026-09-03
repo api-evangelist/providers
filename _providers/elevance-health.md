@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The Payer to Payer API enables Elevance Health to exchange member coverage and clinical data with other health plans when members move between payers, supporting the CMS Interoperability and Prior Aut
   name: Elevance Health Payer to Payer API
   slug: payer-to-payer
-- description: The Claims API from Elevance Health — 3 operation(s) for claims.
+- baseURL: https://patient360.anthem.com/P360Member/fhir
+  baseurl_source: declared
+  description: The Claims API from Elevance Health — 3 operation(s) for claims.
   name: Elevance Health Claims API
   slug: elevance-health-claims-api
-- description: The Conformance API from Elevance Health — 1 operation(s) for conformance.
+- baseURL: https://patient360.anthem.com/P360Member/fhir
+  baseurl_source: declared
+  description: The Conformance API from Elevance Health — 1 operation(s) for conformance.
   name: Elevance Health Conformance API
   slug: elevance-health-conformance-api
-- description: The Coverage API from Elevance Health — 2 operation(s) for coverage.
+- baseURL: https://patient360.anthem.com/P360Member/fhir
+  baseurl_source: declared
+  description: The Coverage API from Elevance Health — 2 operation(s) for coverage.
   name: Elevance Health Coverage API
   slug: elevance-health-coverage-api
-- description: The Patient API from Elevance Health — 2 operation(s) for patient.
+- baseURL: https://patient360.anthem.com/P360Member/fhir
+  baseurl_source: declared
+  description: The Patient API from Elevance Health — 2 operation(s) for patient.
   name: Elevance Health Patient API
   slug: elevance-health-patient-api
-- description: The Provider Directory API from Elevance Health — 2 operation(s) for provider directory.
+- baseURL: https://patient360.anthem.com/P360Member/fhir
+  baseurl_source: declared
+  description: The Provider Directory API from Elevance Health — 2 operation(s) for provider directory.
   name: Elevance Health Provider Directory API
   slug: elevance-health-provider-directory-api
 artifact_total: 23
@@ -198,7 +208,7 @@ score:
     regime_id: health
     score: 36.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/screenshots/elevance-health-2026-06-20T180559.png
 security:

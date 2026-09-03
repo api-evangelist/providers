@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: 'REST API for the Cofactr platform: BOMs, purchase orders, kits, invoices, and inventory, scoped per organization via org_id, with outbound webhooks for created/updated events.'
   name: Cofactr Platform API
   slug: cofactr-platform-api
-- description: Execute multiple product queries in a single request. Each batch member is an operation against the products API expressed as a relative URL; members are fulfilled concurrently and returned in order.
+- baseURL: https://graph.cofactr.com
+  baseurl_source: declared
+  description: Execute multiple product queries in a single request. Each batch member is an operation against the products API expressed as a relative URL; members are fulfilled concurrently and returned in order.
   name: Cofactr batch API
   slug: cofactr-batch-api
-- description: Search, view, and autocomplete electronic component products. Every product is a unique combination of manufacturer (`mfr`) and manufacturer part number (`mpn`), identified by a Cofactr ID (CPID). Pro
+- baseURL: https://graph.cofactr.com
+  baseurl_source: declared
+  description: Search, view, and autocomplete electronic component products. Every product is a unique combination of manufacturer (`mfr`) and manufacturer part number (`mpn`), identified by a Cofactr ID (CPID). Pro
   name: Cofactr products API
   slug: cofactr-products-api
 arazzos:
@@ -228,7 +232,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -238,7 +242,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,7 +254,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cofactr/refs/heads/main/screenshots/cofactr-2026-07-25T205951.png
 security:

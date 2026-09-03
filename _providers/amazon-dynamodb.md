@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 15 acting
 api_count: 1
 apis:
-- description: Operations for batch reading and writing multiple items
+- baseURL: https://dynamodb.amazonaws.com
+  baseurl_source: declared
+  description: Operations for batch reading and writing multiple items
   name: Amazon DynamoDB Batch API
   slug: amazon-dynamodb-batch-api
-- description: Operations for putting, getting, updating, and deleting individual items
+- baseURL: https://dynamodb.amazonaws.com
+  baseurl_source: declared
+  description: Operations for putting, getting, updating, and deleting individual items
   name: Amazon DynamoDB Items API
   slug: amazon-dynamodb-items-api
-- description: Operations for querying and scanning table data
+- baseURL: https://dynamodb.amazonaws.com
+  baseurl_source: declared
+  description: Operations for querying and scanning table data
   name: Amazon DynamoDB Queries API
   slug: amazon-dynamodb-queries-api
-- description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
+- baseURL: https://dynamodb.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
   name: Amazon DynamoDB Tables API
   slug: amazon-dynamodb-tables-api
-- description: Operations for transactional reads and writes across multiple items
+- baseURL: https://dynamodb.amazonaws.com
+  baseurl_source: declared
+  description: Operations for transactional reads and writes across multiple items
   name: Amazon DynamoDB Transactions API
   slug: amazon-dynamodb-transactions-api
 arazzos:
@@ -671,7 +681,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/screenshots/amazon-dynamodb-2026-06-20T171630.png
 security:

@@ -33,76 +33,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 23
 apis:
-- description: Addresses resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Addresses resource.
   name: Science Exchange addresses API
   slug: science-exchange-addresses-api
-- description: Attachments resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Attachments resource.
   name: Science Exchange attachments API
   slug: science-exchange-attachments-api
-- description: CurrencyCodes resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: CurrencyCodes resource.
   name: Science Exchange currency_codes API
   slug: science-exchange-currency-codes-api
-- description: ExperimentTypeFields resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: ExperimentTypeFields resource.
   name: Science Exchange experiment_type_fields API
   slug: science-exchange-experiment-type-fields-api
-- description: ExperimentTypes resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: ExperimentTypes resource.
   name: Science Exchange experiment_types API
   slug: science-exchange-experiment-types-api
-- description: Facilities resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Facilities resource.
   name: Science Exchange facilities API
   slug: science-exchange-facilities-api
-- description: FacilityMembers resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: FacilityMembers resource.
   name: Science Exchange facility_members API
   slug: science-exchange-facility-members-api
-- description: FacilityPhotos resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: FacilityPhotos resource.
   name: Science Exchange facility_photos API
   slug: science-exchange-facility-photos-api
-- description: Groups resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Groups resource.
   name: Science Exchange groups API
   slug: science-exchange-groups-api
-- description: LineItems resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: LineItems resource.
   name: Science Exchange line_items API
   slug: science-exchange-line-items-api
-- description: PricingUnits resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: PricingUnits resource.
   name: Science Exchange pricing_units API
   slug: science-exchange-pricing-units-api
-- description: QuoteVersions resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: QuoteVersions resource.
   name: Science Exchange quote_versions API
   slug: science-exchange-quote-versions-api
-- description: Quotes resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Quotes resource.
   name: Science Exchange quotes API
   slug: science-exchange-quotes-api
-- description: Ratings resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Ratings resource.
   name: Science Exchange ratings API
   slug: science-exchange-ratings-api
-- description: RFQCollaborators resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQCollaborators resource.
   name: Science Exchange rfq_collaborators API
   slug: science-exchange-rfq-collaborators-api
-- description: RFQEvents resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQEvents resource.
   name: Science Exchange rfq_events API
   slug: science-exchange-rfq-events-api
-- description: RFQFields resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQFields resource.
   name: Science Exchange rfq_fields API
   slug: science-exchange-rfq-fields-api
-- description: RFQMessages resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQMessages resource.
   name: Science Exchange rfq_messages API
   slug: science-exchange-rfq-messages-api
-- description: RFQs resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: RFQs resource.
   name: Science Exchange rfqs API
   slug: science-exchange-rfqs-api
-- description: Services resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Services resource.
   name: Science Exchange services API
   slug: science-exchange-services-api
-- description: TagContexts resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: TagContexts resource.
   name: Science Exchange tag_contexts API
   slug: science-exchange-tag-contexts-api
-- description: Tags resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Tags resource.
   name: Science Exchange tags API
   slug: science-exchange-tags-api
-- description: Users resource.
+- baseURL: https://www.scienceexchange.com/api/providers/v1
+  baseurl_source: declared
+  description: Users resource.
   name: Science Exchange users API
   slug: science-exchange-users-api
 artifact_total: 51
@@ -346,7 +392,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-exchange/refs/heads/main/screenshots/science-exchange-2026-08-17T081734.png
 security:

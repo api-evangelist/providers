@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 35 operations · 21 acting
 api_count: 3
 apis:
-- description: The Benefits API from Nayya — 4 operation(s) for benefits.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Benefits API from Nayya — 4 operation(s) for benefits.
   name: Nayya Benefits API
   slug: nayya-benefits-api
-- description: The Carriers API from Nayya — 1 operation(s) for carriers.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Carriers API from Nayya — 1 operation(s) for carriers.
   name: Nayya Carriers API
   slug: nayya-carriers-api
-- description: The Connections API from Nayya — 2 operation(s) for connections.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Connections API from Nayya — 2 operation(s) for connections.
   name: Nayya Connections API
   slug: nayya-connections-api
-- description: The Dependents API from Nayya — 2 operation(s) for dependents.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Dependents API from Nayya — 2 operation(s) for dependents.
   name: Nayya Dependents API
   slug: nayya-dependents-api
-- description: The Employees API from Nayya — 2 operation(s) for employees.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Employees API from Nayya — 2 operation(s) for employees.
   name: Nayya Employees API
   slug: nayya-employees-api
-- description: The Employers API from Nayya — 3 operation(s) for employers.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Employers API from Nayya — 3 operation(s) for employers.
   name: Nayya Employers API
   slug: nayya-employers-api
-- description: The Enrollments API from Nayya — 2 operation(s) for enrollments.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Enrollments API from Nayya — 2 operation(s) for enrollments.
   name: Nayya Enrollments API
   slug: nayya-enrollments-api
-- description: The Recommendations API from Nayya — 1 operation(s) for recommendations.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Recommendations API from Nayya — 1 operation(s) for recommendations.
   name: Nayya Recommendations API
   slug: nayya-recommendations-api
-- description: The Rule Templates API from Nayya — 1 operation(s) for rule templates.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Rule Templates API from Nayya — 1 operation(s) for rule templates.
   name: Nayya Rule Templates API
   slug: nayya-rule-templates-api
-- description: The Snapshots API from Nayya — 1 operation(s) for snapshots.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Snapshots API from Nayya — 1 operation(s) for snapshots.
   name: Nayya Snapshots API
   slug: nayya-snapshots-api
-- description: The Token API from Nayya — 1 operation(s) for token.
+- baseURL: https://integrate.nayya.com/accounts
+  baseurl_source: declared
+  description: The Token API from Nayya — 1 operation(s) for token.
   name: Nayya Token API
   slug: nayya-token-api
 artifact_total: 29
@@ -280,7 +302,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

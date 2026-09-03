@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 38 operations · 18 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage LLM provider integrations and AI enabler functionality for intelligent optimization.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage LLM provider integrations and AI enabler functionality for intelligent optimization.
   name: CAST AI AI Enabler API
   slug: cast-ai-ai-enabler-api
-- description: Manage allocation groups and view efficiency metrics for grouped workloads.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage allocation groups and view efficiency metrics for grouped workloads.
   name: CAST AI Allocation Groups API
   slug: cast-ai-allocation-groups-api
-- description: Autoscaler operations including triggering rebalancing plans and managing cluster scaling behavior.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Autoscaler operations including triggering rebalancing plans and managing cluster scaling behavior.
   name: CAST AI Autoscaler API
   slug: cast-ai-autoscaler-api
-- description: Manage cluster controller actions including acknowledging completed actions and ingesting logs.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage cluster controller actions including acknowledging completed actions and ingesting logs.
   name: CAST AI Cluster Actions API
   slug: cast-ai-cluster-actions-api
-- description: Access cost reporting and efficiency data at the cluster, namespace, and workload levels.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Access cost reporting and efficiency data at the cluster, namespace, and workload levels.
   name: CAST AI Cost Reports API
   slug: cast-ai-cost-reports-api
-- description: Manage external Kubernetes clusters connected to CAST AI, including listing nodes, draining nodes, and cluster operations.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage external Kubernetes clusters connected to CAST AI, including listing nodes, draining nodes, and cluster operations.
   name: CAST AI External Clusters API
   slug: cast-ai-external-clusters-api
-- description: Create and manage hibernation schedules for clusters to reduce costs during off-peak hours.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Create and manage hibernation schedules for clusters to reduce costs during off-peak hours.
   name: CAST AI Hibernation Schedules API
   slug: cast-ai-hibernation-schedules-api
-- description: Access security insights, best practices reports, and container image scanning information.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Access security insights, best practices reports, and container image scanning information.
   name: CAST AI Insights API
   slug: cast-ai-insights-api
-- description: Manage inventory resources and blacklists for instance types and regions.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage inventory resources and blacklists for instance types and regions.
   name: CAST AI Inventory API
   slug: cast-ai-inventory-api
-- description: Manage node configurations for clusters, which define how nodes are provisioned and configured.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage node configurations for clusters, which define how nodes are provisioned and configured.
   name: CAST AI Node Configuration API
   slug: cast-ai-node-configuration-api
-- description: Manage node templates that define instance types, constraints, and configuration for autoscaled nodes.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage node templates that define instance types, constraints, and configuration for autoscaled nodes.
   name: CAST AI Node Templates API
   slug: cast-ai-node-templates-api
-- description: Track and manage long-running operations within CAST AI.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Track and manage long-running operations within CAST AI.
   name: CAST AI Operations API
   slug: cast-ai-operations-api
-- description: Manage autoscaler policies configuration for clusters, including unscheduled pods, node downscaler, and spot instance policies.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage autoscaler policies configuration for clusters, including unscheduled pods, node downscaler, and spot instance policies.
   name: CAST AI Policies API
   slug: cast-ai-policies-api
-- description: Access pricing information for cloud provider instances and sync billing data.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Access pricing information for cloud provider instances and sync billing data.
   name: CAST AI Pricing API
   slug: cast-ai-pricing-api
-- description: Create and manage scheduled rebalancing jobs that periodically optimize cluster node allocation.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Create and manage scheduled rebalancing jobs that periodically optimize cluster node allocation.
   name: CAST AI Scheduled Rebalancing API
   slug: cast-ai-scheduled-rebalancing-api
-- description: Manage API key settings and organization-level configuration.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage API key settings and organization-level configuration.
   name: CAST AI Settings API
   slug: cast-ai-settings-api
-- description: Manage workload optimization settings, view workload recommendations, and configure workload autoscaling.
+- baseURL: https://api.cast.ai
+  baseurl_source: declared
+  description: Manage workload optimization settings, view workload recommendations, and configure workload autoscaling.
   name: CAST AI Workload Optimization API
   slug: cast-ai-workload-optimization-api
 artifact_total: 103
@@ -423,7 +457,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png
 security:

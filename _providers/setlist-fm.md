@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 15 operations
 api_count: 2
 apis:
-- description: The /1.0/artist/{mbid} API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/artist/{mbid} API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}.
   name: setlist.fm /1.0/artist/{mbid} API
   slug: setlist-fm-1-0-artist-mbid-api
-- description: The /1.0/artist/{mbid}/setlists API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}/setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/artist/{mbid}/setlists API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}/setlists.
   name: setlist.fm /1.0/artist/{mbid}/setlists API
   slug: setlist-fm-1-0-artist-mbid-setlists-api
-- description: The /1.0/city/{geoId} API from setlist.fm — 1 operation(s) for /1.0/city/{geoid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/city/{geoId} API from setlist.fm — 1 operation(s) for /1.0/city/{geoid}.
   name: setlist.fm /1.0/city/{geoId} API
   slug: setlist-fm-1-0-city-geoid-api
-- description: The /1.0/search/artists API from setlist.fm — 1 operation(s) for /1.0/search/artists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/search/artists API from setlist.fm — 1 operation(s) for /1.0/search/artists.
   name: setlist.fm /1.0/search/artists API
   slug: setlist-fm-1-0-search-artists-api
-- description: The /1.0/search/cities API from setlist.fm — 1 operation(s) for /1.0/search/cities.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/search/cities API from setlist.fm — 1 operation(s) for /1.0/search/cities.
   name: setlist.fm /1.0/search/cities API
   slug: setlist-fm-1-0-search-cities-api
-- description: The /1.0/search/countries API from setlist.fm — 1 operation(s) for /1.0/search/countries.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/search/countries API from setlist.fm — 1 operation(s) for /1.0/search/countries.
   name: setlist.fm /1.0/search/countries API
   slug: setlist-fm-1-0-search-countries-api
-- description: The /1.0/search/setlists API from setlist.fm — 1 operation(s) for /1.0/search/setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/search/setlists API from setlist.fm — 1 operation(s) for /1.0/search/setlists.
   name: setlist.fm /1.0/search/setlists API
   slug: setlist-fm-1-0-search-setlists-api
-- description: The /1.0/search/venues API from setlist.fm — 1 operation(s) for /1.0/search/venues.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/search/venues API from setlist.fm — 1 operation(s) for /1.0/search/venues.
   name: setlist.fm /1.0/search/venues API
   slug: setlist-fm-1-0-search-venues-api
-- description: The /1.0/setlist/{setlistId} API from setlist.fm — 1 operation(s) for /1.0/setlist/{setlistid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/setlist/{setlistId} API from setlist.fm — 1 operation(s) for /1.0/setlist/{setlistid}.
   name: setlist.fm /1.0/setlist/{setlistId} API
   slug: setlist-fm-1-0-setlist-setlistid-api
-- description: The /1.0/setlist/version/{versionId} API from setlist.fm — 1 operation(s) for /1.0/setlist/version/{versionid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/setlist/version/{versionId} API from setlist.fm — 1 operation(s) for /1.0/setlist/version/{versionid}.
   name: setlist.fm /1.0/setlist/version/{versionId} API
   slug: setlist-fm-1-0-setlist-version-versionid-api
-- description: The /1.0/user/{userId} API from setlist.fm — 1 operation(s) for /1.0/user/{userid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/user/{userId} API from setlist.fm — 1 operation(s) for /1.0/user/{userid}.
   name: setlist.fm /1.0/user/{userId} API
   slug: setlist-fm-1-0-user-userid-api
-- description: The /1.0/user/{userId}/attended API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/attended.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/user/{userId}/attended API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/attended.
   name: setlist.fm /1.0/user/{userId}/attended API
   slug: setlist-fm-1-0-user-userid-attended-api
-- description: The /1.0/user/{userId}/edited API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/edited.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/user/{userId}/edited API from setlist.fm — 1 operation(s) for /1.0/user/{userid}/edited.
   name: setlist.fm /1.0/user/{userId}/edited API
   slug: setlist-fm-1-0-user-userid-edited-api
-- description: The /1.0/venue/{venueId} API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/venue/{venueId} API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}.
   name: setlist.fm /1.0/venue/{venueId} API
   slug: setlist-fm-1-0-venue-venueid-api
-- description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
   name: setlist.fm /1.0/venue/{venueId}/setlists API
   slug: setlist-fm-1-0-venue-venueid-setlists-api
-- description: Artists keyed by MusicBrainz MBID and their setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Artists keyed by MusicBrainz MBID and their setlists.
   name: setlist.fm Artists API
   slug: setlist-fm-artists-api
-- description: Cities resolved by GeoNames geoId.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Cities resolved by GeoNames geoId.
   name: setlist.fm Cities API
   slug: setlist-fm-cities-api
-- description: The reference list of countries.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: The reference list of countries.
   name: setlist.fm Countries API
   slug: setlist-fm-countries-api
-- description: Full-text search across artists, venues, cities, and setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Full-text search across artists, venues, cities, and setlists.
   name: setlist.fm Search API
   slug: setlist-fm-search-api
-- description: Individual setlists and their historical versions.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Individual setlists and their historical versions.
   name: setlist.fm Setlists API
   slug: setlist-fm-setlists-api
-- description: Community members and their attended/edited setlists.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Community members and their attended/edited setlists.
   name: setlist.fm User API
   slug: setlist-fm-user-api
-- description: Concert venues and the setlists performed at them.
+- baseURL: https://api.setlist.fm/rest
+  baseurl_source: declared
+  description: Concert venues and the setlists performed at them.
   name: setlist.fm Venues API
   slug: setlist-fm-venues-api
 artifact_total: 69
@@ -351,7 +395,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
 security:

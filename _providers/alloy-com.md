@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 115 operations · 69 acting
 api_count: 2
 apis:
-- description: Bank account records and related entity history.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Bank account records and related entity history.
   name: Alloy Bank Accounts API
   slug: alloy-com-bank-accounts-api
-- description: Batch processing of journey applications and evaluations.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Batch processing of journey applications and evaluations.
   name: Alloy Batches API
   slug: alloy-com-batches-api
-- description: Case management, evidences, and review work items.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Case management, evidences, and review work items.
   name: Alloy Cases API
   slug: alloy-com-cases-api
-- description: Tenant-defined reference lists with versioning and activation.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Tenant-defined reference lists with versioning and activation.
   name: Alloy Custom Lists API
   slug: alloy-com-custom-lists-api
-- description: Uploaded identity, address, and supporting documents for entities.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Uploaded identity, address, and supporting documents for entities.
   name: Alloy Documents API
   slug: alloy-com-documents-api
-- description: Person and business entities, notes, merging, feedback, and groups.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Person and business entities, notes, merging, feedback, and groups.
   name: Alloy Entities API
   slug: alloy-com-entities-api
-- description: Run, retrieve, and audit identity, KYC, KYB, AML, fraud, and credit evaluations.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Run, retrieve, and audit identity, KYC, KYB, AML, fraud, and credit evaluations.
   name: Alloy Evaluations API
   slug: alloy-com-evaluations-api
-- description: Real-time monitoring events for entities, accounts, transactions, and logins.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Real-time monitoring events for entities, accounts, transactions, and logins.
   name: Alloy Events API
   slug: alloy-com-events-api
-- description: Entity groups and group-level evaluations.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Entity groups and group-level evaluations.
   name: Alloy Groups API
   slug: alloy-com-groups-api
-- description: Investigation lifecycle, assignment, review, archival, and types.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Investigation lifecycle, assignment, review, archival, and types.
   name: Alloy Investigations API
   slug: alloy-com-investigations-api
-- description: Multi-step decisioning journeys, applications, batches, and reviews.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Multi-step decisioning journeys, applications, batches, and reviews.
   name: Alloy Journeys API
   slug: alloy-com-journeys-api
-- description: Built-in watchlist-style lists and list metadata.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Built-in watchlist-style lists and list metadata.
   name: Alloy Lists API
   slug: alloy-com-lists-api
-- description: OAuth 2.0 bearer token issuance and validation.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: OAuth 2.0 bearer token issuance and validation.
   name: Alloy OAuth API
   slug: alloy-com-oauth-api
-- description: Tenant-level parameters for evaluations and journeys.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Tenant-level parameters for evaluations and journeys.
   name: Alloy Parameters API
   slug: alloy-com-parameters-api
-- description: Bulk re-evaluations across a portfolio of entities.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Bulk re-evaluations across a portfolio of entities.
   name: Alloy Portfolio Evaluations API
   slug: alloy-com-portfolio-evaluations-api
-- description: Custom attributes published from external systems and used in policy.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Custom attributes published from external systems and used in policy.
   name: Alloy Published Attributes API
   slug: alloy-com-published-attributes-api
-- description: Manual review notes and decisions on entities.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Manual review notes and decisions on entities.
   name: Alloy Reviews API
   slug: alloy-com-reviews-api
-- description: Entity groups can be used to associate multiple Person and Business Entities together at the point of onboarding and update throughout the entity lifecycle.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Entity groups can be used to associate multiple Person and Business Entities together at the point of onboarding and update throughout the entity lifecycle.
   name: Alloy Entity Groups API
   slug: alloy-com-entity-groups-api
-- description: Manage transactions. These transactions are aggregated and decisioned through Transaction Monitoring workflows and evaluations.
+- baseURL: https://api.alloy.co/v1
+  baseurl_source: declared
+  description: Manage transactions. These transactions are aggregated and decisioned through Transaction Monitoring workflows and evaluations.
   name: Alloy Transactions API
   slug: alloy-com-transactions-api
 artifact_total: 86
@@ -423,7 +461,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -433,7 +471,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 58.5
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -448,7 +486,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/screenshots/alloy-com-2026-06-20T171540.png
 security:

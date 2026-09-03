@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 53 operations · 25 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Documents API from Sage HR — 2 operation(s) for documents.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Documents API from Sage HR — 2 operation(s) for documents.
   name: Sage HR Documents API
   slug: sage-hr-documents-api
-- description: The Employee API from Sage HR — 9 operation(s) for employee.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Employee API from Sage HR — 9 operation(s) for employee.
   name: Sage HR Employee API
   slug: sage-hr-employee-api
-- description: The Integrations API from Sage HR — 12 operation(s) for integrations.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Integrations API from Sage HR — 12 operation(s) for integrations.
   name: Sage HR Integrations API
   slug: sage-hr-integrations-api
-- description: The KIT days API from Sage HR — 3 operation(s) for kit days.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The KIT days API from Sage HR — 3 operation(s) for kit days.
   name: Sage HR KIT days API
   slug: sage-hr-kit-days-api
-- description: The Leave management API from Sage HR — 8 operation(s) for leave management.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Leave management API from Sage HR — 8 operation(s) for leave management.
   name: Sage HR Leave management API
   slug: sage-hr-leave-management-api
-- description: The Offboarding API from Sage HR — 2 operation(s) for offboarding.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Offboarding API from Sage HR — 2 operation(s) for offboarding.
   name: Sage HR Offboarding API
   slug: sage-hr-offboarding-api
-- description: The Onboarding API from Sage HR — 2 operation(s) for onboarding.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Onboarding API from Sage HR — 2 operation(s) for onboarding.
   name: Sage HR Onboarding API
   slug: sage-hr-onboarding-api
-- description: The Performance API from Sage HR — 4 operation(s) for performance.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Performance API from Sage HR — 4 operation(s) for performance.
   name: Sage HR Performance API
   slug: sage-hr-performance-api
-- description: The Policies API from Sage HR — 2 operation(s) for policies.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Policies API from Sage HR — 2 operation(s) for policies.
   name: Sage HR Policies API
   slug: sage-hr-policies-api
-- description: The Positions API from Sage HR — 1 operation(s) for positions.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Positions API from Sage HR — 1 operation(s) for positions.
   name: Sage HR Positions API
   slug: sage-hr-positions-api
-- description: The Recruitment API from Sage HR — 5 operation(s) for recruitment.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Recruitment API from Sage HR — 5 operation(s) for recruitment.
   name: Sage HR Recruitment API
   slug: sage-hr-recruitment-api
-- description: The Teams API from Sage HR — 1 operation(s) for teams.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Teams API from Sage HR — 1 operation(s) for teams.
   name: Sage HR Teams API
   slug: sage-hr-teams-api
-- description: The Terminations reasons API from Sage HR — 1 operation(s) for terminations reasons.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Terminations reasons API from Sage HR — 1 operation(s) for terminations reasons.
   name: Sage HR Terminations reasons API
   slug: sage-hr-terminations-reasons-api
-- description: The Timesheets API from Sage HR — 1 operation(s) for timesheets.
+- baseURL: https://subdomain.sage.hr/api
+  baseurl_source: spec
+  description: The Timesheets API from Sage HR — 1 operation(s) for timesheets.
   name: Sage HR Timesheets API
   slug: sage-hr-timesheets-api
 artifact_total: 40
@@ -276,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
 security:

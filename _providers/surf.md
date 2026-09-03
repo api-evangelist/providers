@@ -33,55 +33,85 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OpenAI-style Chat/Research API. POST /responses with a surf-2.0 or surf-2.0-instant model and a natural-language crypto question; returns synthesized answers with inline citations drawn from live mark
   name: Surf Chat API
   slug: surf-chat-api
-- description: The DEX API from Surf — 1 operation(s) for dex.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: The DEX API from Surf — 1 operation(s) for dex.
   name: Surf DEX API
   slug: surf-dex-api
-- description: Access real-time trading data from major exchanges including Binance, OKX, Bybit, and more. Query live ticker prices, order book depth, OHLCV candlestick charts, and perpetual contract data such as fu
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Access real-time trading data from major exchanges including Binance, OKX, Bybit, and more. Query live ticker prices, order book depth, OHLCV candlestick charts, and perpetual contract data such as fu
   name: Surf Exchange API
   slug: surf-exchange-api
-- description: Explore crypto venture capital. Look up fund profiles with team info and social links, browse their full investment portfolio with round details, and rank funds by tier or portfolio size.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Explore crypto venture capital. Look up fund profiles with team info and social links, browse their full investment portfolio with round details, and rank funds by tier or portfolio size.
   name: Surf Fund API
   slug: surf-fund-api
-- description: The Hyperliquid API from Surf — 9 operation(s) for hyperliquid.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: The Hyperliquid API from Surf — 9 operation(s) for hyperliquid.
   name: Surf Hyperliquid API
   slug: surf-hyperliquid-api
-- description: Get a high-level view of the crypto market. Browse token rankings by market cap or volume, track derivatives across all exchanges, monitor spot ETF fund flows, view liquidation events, compute technic
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Get a high-level view of the crypto market. Browse token rankings by market cap or volume, track derivatives across all exchanges, monitor spot ETF fund flows, view liquidation events, compute technic
   name: Surf Market API
   slug: surf-market-api
-- description: Stay up to date with crypto news. Browse the latest articles from major crypto media outlets, read full article content, and search across all sources by keyword.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Stay up to date with crypto news. Browse the latest articles from major crypto media outlets, read full article content, and search across all sources by keyword.
   name: Surf News API
   slug: surf-news-api
-- description: Query blockchain data directly. Look up transaction details by hash, check gas prices, and run structured or raw SQL queries against indexed blockchain datasets spanning Ethereum, Base, Solana, and mo
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Query blockchain data directly. Look up transaction details by hash, check gas prices, and run structured or raw SQL queries against indexed blockchain datasets spanning Ethereum, Base, Solana, and mo
   name: Surf Onchain API
   slug: surf-onchain-api
-- description: Track prediction markets on Polymarket and Kalshi. Browse events and markets, view live prices and odds, analyze trading volume and open interest history, inspect individual trades, and discover top-r
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Track prediction markets on Polymarket and Kalshi. Browse events and markets, view live prices and odds, analyze trading volume and open interest history, inspect individual trades, and discover top-r
   name: Surf Prediction Market API
   slug: surf-prediction-market-api
-- description: Research crypto projects in depth. Retrieve aggregated project profiles covering overview, team, funding rounds, tokenomics, social links, and TGE status. Track DeFi protocol metrics like TVL, fees, r
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Research crypto projects in depth. Retrieve aggregated project profiles covering overview, team, funding rounds, tokenomics, social links, and TGE status. Track DeFi protocol metrics like TVL, fees, r
   name: Surf Project API
   slug: surf-project-api
-- description: Find anything across Surf's data universe. Search for crypto projects, X (Twitter) accounts and posts, news articles, wallet addresses, web pages, investment funds, airdrop opportunities, and predicti
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Find anything across Surf's data universe. Search for crypto projects, X (Twitter) accounts and posts, news articles, wallet addresses, web pages, investment funds, airdrop opportunities, and predicti
   name: Surf Search API
   slug: surf-search-api
-- description: Explore ranked project signal score snapshots, token-of-day/week highlights, and project-level signal cards with latest price, price-change, dimension scores, compact signals, and AI summaries.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Explore ranked project signal score snapshots, token-of-day/week highlights, and project-level signal cards with latest price, price-change, dimension scores, compact signals, and AI summaries.
   name: Surf Signal API
   slug: surf-signal-api
-- description: Monitor crypto social activity on X (Twitter). Look up user profiles and their posts, track project sentiment scores and follower geography, discover smart followers, and analyze mindshare trends over
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Monitor crypto social activity on X (Twitter). Look up user profiles and their posts, track project sentiment scores and follower geography, discover smart followers, and analyze mindshare trends over
   name: Surf Social API
   slug: surf-social-api
-- description: Analyze individual tokens on-chain. Look up top holders and their share of supply, track ERC-20/SPL token transfers, browse DEX swap history, and view upcoming token unlock schedules with allocation b
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Analyze individual tokens on-chain. Look up top holders and their share of supply, track ERC-20/SPL token transfers, browse DEX swap history, and view upcoming token unlock schedules with allocation b
   name: Surf Token API
   slug: surf-token-api
-- description: Inspect any wallet on Ethereum, Base, Solana, and other chains. View token balances, NFT holdings, entity labels, transfer history, full transaction logs, DeFi protocol positions (lending, staking, LP
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Inspect any wallet on Ethereum, Base, Solana, and other chains. View token balances, NFT holdings, entity labels, transfer history, full transaction logs, DeFi protocol positions (lending, staking, LP
   name: Surf Wallet API
   slug: surf-wallet-api
-- description: Fetch and search web content. Retrieve any URL and convert it to clean, LLM-friendly markdown, or search the internet for crypto-related articles, reports, and resources.
+- baseURL: https://api.asksurf.ai/gateway/v1
+  baseurl_source: declared
+  description: Fetch and search web content. Retrieve any URL and convert it to clean, LLM-friendly markdown, or search the internet for crypto-related articles, reports, and resources.
   name: Surf Web API
   slug: surf-web-api
 artifact_total: 35
@@ -244,7 +274,7 @@ score:
   band: developing
   composite: 39.7
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -275,8 +305,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/surf/refs/heads/main/screenshots/surf-2026-09-02T161314.png
 security:
 - kind: authentication
   name: Surf Authentication

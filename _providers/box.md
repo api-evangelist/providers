@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 291
   human_in_the_loop: 14
@@ -45,247 +45,409 @@ agentic_access:
   summary_line: 537 operations · 291 acting · 14 human-in-the-loop
 api_count: 52
 apis:
-- description: A set of endpoints used to manage user authorization process.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints used to manage user authorization process.
   name: Box Authorization API
   slug: box-authorization-api
-- description: The Authorize API from Box — 1 operation(s) for authorize.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Authorize API from Box — 1 operation(s) for authorize.
   name: Box Authorize API
   slug: box-authorize-api
-- description: Classification labels are used for content that is sensitive or under security restrictions.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Classification labels are used for content that is sensitive or under security restrictions.
   name: Box Classifications API
   slug: box-classifications-api
-- description: Classification labels are used for files that are sensitive or under security restrictions.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Classification labels are used for files that are sensitive or under security restrictions.
   name: Box Classifications on Files API
   slug: box-classifications-on-files-api
-- description: Classification labels are used for folders that are sensitive or under security restrictions.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Classification labels are used for folders that are sensitive or under security restrictions.
   name: Box Classifications on Folders API
   slug: box-classifications-on-folders-api
-- description: The Collaboration Whitelist Entries API from Box — 2 operation(s) for collaboration whitelist entries.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Collaboration Whitelist Entries API from Box — 2 operation(s) for collaboration whitelist entries.
   name: Box Collaboration Whitelist Entries API
   slug: box-collaboration-whitelist-entries-api
-- description: The Collaboration Whitelist Exempt Targets API from Box — 2 operation(s) for collaboration whitelist exempt targets.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Collaboration Whitelist Exempt Targets API from Box — 2 operation(s) for collaboration whitelist exempt targets.
   name: Box Collaboration Whitelist Exempt Targets API
   slug: box-collaboration-whitelist-exempt-targets-api
-- description: Collaborations define access permissions for users and groups to files and folders, similar to access control lists.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Collaborations define access permissions for users and groups to files and folders, similar to access control lists.
   name: Box Collaborations API
   slug: box-collaborations-api
-- description: A set of endpoints used to retrieve file, folder, pending, and group collaborations.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints used to retrieve file, folder, pending, and group collaborations.
   name: Box Collaborations (List) API
   slug: box-collaborations-list-api
-- description: Collections are a way to group files, folders, and web links without putting them all into a folder.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Collections are a way to group files, folders, and web links without putting them all into a folder.
   name: Box Collections API
   slug: box-collections-api
-- description: Comments are messages generated users on files, allowing users to collaborate on a file, discussing any feedback they might have on the content.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Comments are messages generated users on files, allowing users to collaborate on a file, discussing any feedback they might have on the content.
   name: Box Comments API
   slug: box-comments-api
-- description: Device pinners allow enterprises to control what devices can use native Box applications.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Device pinners allow enterprises to control what devices can use native Box applications.
   name: Box Device Pinners API
   slug: box-device-pinners-api
-- description: A set of endpoints that manage domains for which users can collaborate with files and folders in an enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints that manage domains for which users can collaborate with files and folders in an enterprise.
   name: Box Domain Restrictions for Collaborations API
   slug: box-domain-restrictions-for-collaborations-api
-- description: A set of endpoints that allow exempting users from restrictions imposed by the list of allowed collaboration domains for a specific enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints that allow exempting users from restrictions imposed by the list of allowed collaboration domains for a specific enterprise.
   name: Box Domain Restrictions (User Exemptions) API
   slug: box-domain-restrictions-user-exemptions-api
-- description: Downloads allow saving files to the application's server, or directly by the end user in a browser.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Downloads allow saving files to the application's server, or directly by the end user in a browser.
   name: Box Downloads API
   slug: box-downloads-api
-- description: Email aliases provide a list of emails additional to the user's primary login email.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Email aliases provide a list of emails additional to the user's primary login email.
   name: Box Email Aliases API
   slug: box-email-aliases-api
-- description: The Enterprises API from Box — 1 operation(s) for enterprises.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Enterprises API from Box — 1 operation(s) for enterprises.
   name: Box Enterprises API
   slug: box-enterprises-api
-- description: Events provide a way for an application to subscribe to any actions performed by any user, users, or service in an enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Events provide a way for an application to subscribe to any actions performed by any user, users, or service in an enterprise.
   name: Box Events API
   slug: box-events-api
-- description: File Requests provide a fast and secure way to request files and associated metadata from anyone. Users can create new file requests based on an existing file request, update file request settings, ac
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: File Requests provide a fast and secure way to request files and associated metadata from anyone. Users can create new file requests based on an existing file request, update file request settings, ac
   name: Box File Requests API
   slug: box-file-requests-api
-- description: A legal hold is a process that an enterprise can use to preserve all forms of potentially relevant information when litigation is pending or reasonably anticipated. A File Version Legal Hold represent
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A legal hold is a process that an enterprise can use to preserve all forms of potentially relevant information when litigation is pending or reasonably anticipated. A File Version Legal Hold represent
   name: Box File Version Legal Holds API
   slug: box-file-version-legal-holds-api
-- description: A retention policy blocks permanent deletion of content for a specified amount of time. A file version retention is a record for a retained file.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A retention policy blocks permanent deletion of content for a specified amount of time. A file version retention is a record for a retained file.
   name: Box File Version Retentions API
   slug: box-file-version-retentions-api
-- description: A set of endpoints used to manage specific versions of a file.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints used to manage specific versions of a file.
   name: Box File Versions API
   slug: box-file-versions-api
-- description: Files, together with Folders, are at the core of the Box API. Files can be uploaded and downloaded, as well as hold important metadata information about the content.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Files, together with Folders, are at the core of the Box API. Files can be uploaded and downloaded, as well as hold important metadata information about the content.
   name: Box Files API
   slug: box-files-api
-- description: Folder locks define access restrictions placed by folder owners to prevent specific folders from being moved or deleted.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Folder locks define access restrictions placed by folder owners to prevent specific folders from being moved or deleted.
   name: Box Folder Locks API
   slug: box-folder-locks-api
-- description: Folders, together with Files, are at the core of the Box API. Folders can be uploaded and downloaded, as well as hold important metadata information about the content.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Folders, together with Files, are at the core of the Box API. Folders can be uploaded and downloaded, as well as hold important metadata information about the content.
   name: Box Folders API
   slug: box-folders-api
-- description: Group memberships signify that a user is a part of the group.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Group memberships signify that a user is a part of the group.
   name: Box Group Memberships API
   slug: box-group-memberships-api
-- description: Groups created in an enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Groups created in an enterprise.
   name: Box Groups API
   slug: box-groups-api
-- description: Integration Mappings allow the users to manage where content from partner apps is stored in Box.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Integration Mappings allow the users to manage where content from partner apps is stored in Box.
   name: Box Integration Mappings API
   slug: box-integration-mappings-api
-- description: Invites are used to invite the user to an enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Invites are used to invite the user to an enterprise.
   name: Box Invites API
   slug: box-invites-api
-- description: A legal hold is a process that an enterprise can use to preserve all forms of potentially relevant information when litigation is pending or reasonably anticipated.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A legal hold is a process that an enterprise can use to preserve all forms of potentially relevant information when litigation is pending or reasonably anticipated.
   name: Box Legal Hold Policies API
   slug: box-legal-hold-policies-api
-- description: A Legal Hold Policy Assignment is a relation between a policy and custodian. In this case, as custodian can be a user, folder, file, or file version.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A Legal Hold Policy Assignment is a relation between a policy and custodian. In this case, as custodian can be a user, folder, file, or file version.
   name: Box Legal Hold Policy Assignments API
   slug: box-legal-hold-policy-assignments-api
-- description: A metadata cascade policy describes how metadata instances applied to a folder should be applied to any item within that folder.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A metadata cascade policy describes how metadata instances applied to a folder should be applied to any item within that folder.
   name: Box Metadata Cascade Policies API
   slug: box-metadata-cascade-policies-api
-- description: A metadata instance describes the relation between a template and a file, including the values that are assigned for every field.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A metadata instance describes the relation between a template and a file, including the values that are assigned for every field.
   name: Box Metadata Instances (Files) API
   slug: box-metadata-instances-files-api
-- description: A metadata instance describes the relation between a template and a folder, including the values that are assigned for every field.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A metadata instance describes the relation between a template and a folder, including the values that are assigned for every field.
   name: Box Metadata Instances (Folders) API
   slug: box-metadata-instances-folders-api
-- description: The Metadata Queries API from Box — 1 operation(s) for metadata queries.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Metadata Queries API from Box — 1 operation(s) for metadata queries.
   name: Box Metadata Queries API
   slug: box-metadata-queries-api
-- description: A metadata template describes a reusable set of key/value pairs that can be assigned to a file.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A metadata template describes a reusable set of key/value pairs that can be assigned to a file.
   name: Box Metadata Templates API
   slug: box-metadata-templates-api
-- description: The Oauth2 API from Box — 3 operation(s) for oauth2.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Oauth2 API from Box — 3 operation(s) for oauth2.
   name: Box Oauth2 API
   slug: box-oauth2-api
-- description: Recent items represent items such as files or folders that the user accessed recently.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Recent items represent items such as files or folders that the user accessed recently.
   name: Box Recent Items API
   slug: box-recent-items-api
-- description: A retention policy blocks permanent deletion of content for a specified amount of time. Admins can create retention policies and then assign them to specific folders or their entire enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A retention policy blocks permanent deletion of content for a specified amount of time. Admins can create retention policies and then assign them to specific folders or their entire enterprise.
   name: Box Retention Policies API
   slug: box-retention-policies-api
-- description: A Retention Policy Assignment is a relation between a policy and folder or enterprise. Creating an assignment puts a retention on all the file versions that belong to that folder or enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A Retention Policy Assignment is a relation between a policy and folder or enterprise. Creating an assignment puts a retention on all the file versions that belong to that folder or enterprise.
   name: Box Retention Policy Assignments API
   slug: box-retention-policy-assignments-api
-- description: The Box API provides a way to find content in Box using full-text search queries.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Box API provides a way to find content in Box using full-text search queries.
   name: Box Search API
   slug: box-search-api
-- description: Session termination API is used to validate the roles and permissions of the group, and creates asynchronous jobs to terminate the group's sessions.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Session termination API is used to validate the roles and permissions of the group, and creates asynchronous jobs to terminate the group's sessions.
   name: Box Session Termination API
   slug: box-session-termination-api
-- description: The Shared Items API from Box — 1 operation(s) for shared items.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Shared Items API from Box — 1 operation(s) for shared items.
   name: Box Shared Items API
   slug: box-shared-items-api
-- description: The Shared Items#folders API from Box — 1 operation(s) for shared items#folders.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Shared Items#folders API from Box — 1 operation(s) for shared items#folders.
   name: Box Shared Items#folders API
   slug: box-shared-items-folders-api
-- description: The Shared Items#web Links API from Box — 1 operation(s) for shared items#web links.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Shared Items#web Links API from Box — 1 operation(s) for shared items#web links.
   name: Box Shared Items#web Links API
   slug: box-shared-items-web-links-api
-- description: Files shared links are URLs that are generated for files stored in Box, which provide direct, read-only access to the resource.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Files shared links are URLs that are generated for files stored in Box, which provide direct, read-only access to the resource.
   name: Box Shared Links (Files) API
   slug: box-shared-links-files-api
-- description: Folders shared links are URLs that are generated for folders stored in Box, which provide direct, read-only access to the resource.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Folders shared links are URLs that are generated for folders stored in Box, which provide direct, read-only access to the resource.
   name: Box Shared Links (Folders) API
   slug: box-shared-links-folders-api
-- description: Web links for files are URLs that are generated for web links in Box, which provide direct, read-only access to the resource.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Web links for files are URLs that are generated for web links in Box, which provide direct, read-only access to the resource.
   name: Box Shared Links (Web Links) API
   slug: box-shared-links-web-links-api
-- description: Shield information barrier reports contain information on what existing collaborations will be removed permanently when the information barrier is enabled.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Shield information barrier reports contain information on what existing collaborations will be removed permanently when the information barrier is enabled.
   name: Box Shield Information Barrier Reports API
   slug: box-shield-information-barrier-reports-api
-- description: Shield information barrier segment member represents a user that is assigned to a specific segment.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Shield information barrier segment member represents a user that is assigned to a specific segment.
   name: Box Shield Information Barrier Segment Members API
   slug: box-shield-information-barrier-segment-members-api
-- description: Shield information barrier segment restriction is an access restriction based on the content (file or folder) owner.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Shield information barrier segment restriction is an access restriction based on the content (file or folder) owner.
   name: Box Shield Information Barrier Segment Restrictions API
   slug: box-shield-information-barrier-segment-restrictions-api
-- description: Shield information barrier segment represents a defined group of users. A user can be a member of only one segment, which makes segments different from groups.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Shield information barrier segment represents a defined group of users. A user can be a member of only one segment, which makes segments different from groups.
   name: Box Shield Information Barrier Segments API
   slug: box-shield-information-barrier-segments-api
-- description: Shield information barrier in Box defines an ethical wall. An ethical wall is a mechanism that prevents exchanges or communication that could lead to conflicts of interest and therefore result in busi
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Shield information barrier in Box defines an ethical wall. An ethical wall is a mechanism that prevents exchanges or communication that could lead to conflicts of interest and therefore result in busi
   name: Box Shield Information Barriers API
   slug: box-shield-information-barriers-api
-- description: Sign requests are used to submit a file for signature.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Sign requests are used to submit a file for signature.
   name: Box Sign Requests API
   slug: box-sign-requests-api
-- description: Sign templates allow you to use a predefined Box Sign template when creating a sign request. The template includes placeholders that are automatically populated with data when creating the request.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Sign templates allow you to use a predefined Box Sign template when creating a sign request. The template includes placeholders that are automatically populated with data when creating the request.
   name: Box Sign Templates API
   slug: box-sign-templates-api
-- description: The Skill Invocations API from Box — 1 operation(s) for skill invocations.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Skill Invocations API from Box — 1 operation(s) for skill invocations.
   name: Box Skill Invocations API
   slug: box-skill-invocations-api
-- description: Box Skills are designed to allow custom processing of files uploaded to Box, with the intent of enhancing the underlying metadata of the file.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Box Skills are designed to allow custom processing of files uploaded to Box, with the intent of enhancing the underlying metadata of the file.
   name: Box Skills API
   slug: box-skills-api
-- description: Storage policy assignment represents the storage zone for items in a given enterprise.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Storage policy assignment represents the storage zone for items in a given enterprise.
   name: Box Standard and Zones Storage Policies API
   slug: box-standard-and-zones-storage-policies-api
-- description: Storage policy assignment represents the relation between storage zone and the assigned item (for example a file stored in a specific zone).
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Storage policy assignment represents the relation between storage zone and the assigned item (for example a file stored in a specific zone).
   name: Box Standard and Zones Storage Policy Assignments API
   slug: box-standard-and-zones-storage-policy-assignments-api
-- description: The Storage Policies API from Box — 2 operation(s) for storage policies.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Storage Policies API from Box — 2 operation(s) for storage policies.
   name: Box Storage Policies API
   slug: box-storage-policies-api
-- description: The Storage Policy Assignments API from Box — 2 operation(s) for storage policy assignments.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Storage Policy Assignments API from Box — 2 operation(s) for storage policy assignments.
   name: Box Storage Policy Assignments API
   slug: box-storage-policy-assignments-api
-- description: A task assignment defines which task is assigned to which user to complete.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A task assignment defines which task is assigned to which user to complete.
   name: Box Task Assignments API
   slug: box-task-assignments-api
-- description: Tasks allow users to request collaborators on a file to review a file or complete a piece of work. Tasks can be used by developers to create file-centric workflows.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Tasks allow users to request collaborators on a file to review a file or complete a piece of work. Tasks can be used by developers to create file-centric workflows.
   name: Box Tasks API
   slug: box-tasks-api
-- description: A set of endpoints used to manage terms of service agreements.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints used to manage terms of service agreements.
   name: Box Terms of Service API
   slug: box-terms-of-service-api
-- description: A set of endpoints used to manage the status of terms of service for a particular user.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A set of endpoints used to manage the status of terms of service for a particular user.
   name: Box Terms of Service User Statuses API
   slug: box-terms-of-service-user-statuses-api
-- description: The Terms of Services API from Box — 2 operation(s) for terms of services.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The Terms of Services API from Box — 2 operation(s) for terms of services.
   name: Box Terms of Services API
   slug: box-terms-of-services-api
-- description: API designed to move all of the items (files, folders and workflows) owned by a user into another user's account.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: API designed to move all of the items (files, folders and workflows) owned by a user into another user's account.
   name: Box Transfer Folders API
   slug: box-transfer-folders-api
-- description: Files that were deleted and are in trash.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Files that were deleted and are in trash.
   name: Box Trashed Files API
   slug: box-trashed-files-api
-- description: Folders that were deleted and are in trash.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Folders that were deleted and are in trash.
   name: Box Trashed Folders API
   slug: box-trashed-folders-api
-- description: Items that were deleted and are in trash.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Items that were deleted and are in trash.
   name: Box Trashed Items API
   slug: box-trashed-items-api
-- description: Web links that were deleted and are in trash.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Web links that were deleted and are in trash.
   name: Box Trashed Web Links API
   slug: box-trashed-web-links-api
-- description: The direct file upload API supports files up to 50MB in size and sends all the binary data to the Box API in 1 API request.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The direct file upload API supports files up to 50MB in size and sends all the binary data to the Box API in 1 API request.
   name: Box Uploads API
   slug: box-uploads-api
-- description: The chunked upload endpoints support files from 20MB in size and allow an application to upload the file in parts, allowing for more control to catch any errors and retry parts individually.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: The chunked upload endpoints support files from 20MB in size and allow an application to upload the file in parts, allowing for more control to catch any errors and retry parts individually.
   name: Box Uploads (Chunked) API
   slug: box-uploads-chunked-api
-- description: User avatars are JPG or PNG files uploaded to Box to represent the user image. They are then displayed in the user account.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: User avatars are JPG or PNG files uploaded to Box to represent the user image. They are then displayed in the user account.
   name: Box User Avatars API
   slug: box-user-avatars-api
-- description: Box API supports a variety of users, ranging from real employees logging in with their Managed User account, to applications using App Users to drive powerful automation workflows.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Box API supports a variety of users, ranging from real employees logging in with their Managed User account, to applications using App Users to drive powerful automation workflows.
   name: Box Users API
   slug: box-users-api
-- description: A watermark is a semi-transparent overlay on an embedded file preview that displays a viewer's email address or user ID and the time of access over the file.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A watermark is a semi-transparent overlay on an embedded file preview that displays a viewer's email address or user ID and the time of access over the file.
   name: Box Watermarks (Files) API
   slug: box-watermarks-files-api
-- description: A watermark is a semi-transparent overlay on an embedded folder preview that displays a viewer's email address or user ID and the time of access over the folder content.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: A watermark is a semi-transparent overlay on an embedded folder preview that displays a viewer's email address or user ID and the time of access over the folder content.
   name: Box Watermarks (Folders) API
   slug: box-watermarks-folders-api
-- description: Web links are objects that point to URLs. These objects are also known as bookmarks within the Box web application.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Web links are objects that point to URLs. These objects are also known as bookmarks within the Box web application.
   name: Box Web Links API
   slug: box-web-links-api
-- description: Webhooks allow you to monitor Box content for events, and receive notifications to a URL of your choice when they occur. For example, a workflow may include waiting for a file to be downloaded to dele
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Webhooks allow you to monitor Box content for events, and receive notifications to a URL of your choice when they occur. For example, a workflow may include waiting for a file to be downloaded to dele
   name: Box Webhooks API
   slug: box-webhooks-api
-- description: Box Relay Workflows are objects that represent a named collection of flows.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Box Relay Workflows are objects that represent a named collection of flows.
   name: Box Workflows API
   slug: box-workflows-api
-- description: Zip downloads represent a successful request to create a ZIP archive with files and folders.
+- baseURL: https://account.box.com/api/oauth2
+  baseurl_source: declared
+  description: Zip downloads represent a successful request to create a ZIP archive with files and folders.
   name: Box Zip Downloads API
   slug: box-zip-downloads-api
 artifact_total: 482
@@ -1636,7 +1798,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1646,7 +1808,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 56.0
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1655,7 +1817,7 @@ score:
       marker_coverage: 0.0
       total: 81
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/box/refs/heads/main/screenshots/box-2026-06-20T173623.png
 security:

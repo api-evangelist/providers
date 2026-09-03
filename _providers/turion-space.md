@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: First-party REST API gateway behind the STARFIRE customer dashboard. Route prefixes observed in the provider's own published dashboard bundle include /api/v1/tasking-orders, /api/v1/images/, /api/v1/t
@@ -118,10 +130,11 @@ score:
   band: emerging
   composite: 14.9
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -131,11 +144,14 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 14.9
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/turion-space/refs/heads/main/screenshots/turion-space-2026-09-02T164540.png
 security:
 - kind: authentication
   name: Turion Space Authentication

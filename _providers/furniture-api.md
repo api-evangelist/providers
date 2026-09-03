@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Product catalog, inventory, and merchandising operations
+- baseURL: https://furniture-api.fly.dev
+  baseurl_source: declared
+  description: Product catalog, inventory, and merchandising operations
   name: Furniture API Products API
   slug: furniture-api-products-api
 artifact_total: 8
@@ -122,7 +124,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/screenshots/furniture-api-2026-06-20T181622.png
 slug: furniture-api

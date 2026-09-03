@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -46,10 +46,14 @@ apis:
 - description: Agent-backed REST API used by Vertica Management Console for monitoring, provisioning, and managing Vertica databases and clusters. Returns JSON responses for node, database, and cluster operations.
   name: Vertica Management Console REST API
   slug: management-console-api
-- description: The Health API from Vertica — 1 operation(s) for health.
+- baseURL: https://<node-host>:5554
+  baseurl_source: declared
+  description: The Health API from Vertica — 1 operation(s) for health.
   name: Vertica Health API
   slug: vertica-health-api
-- description: The Lifecycle API from Vertica — 1 operation(s) for lifecycle.
+- baseURL: https://<node-host>:5554
+  baseurl_source: declared
+  description: The Lifecycle API from Vertica — 1 operation(s) for lifecycle.
   name: Vertica Lifecycle API
   slug: vertica-lifecycle-api
 artifact_total: 10
@@ -159,7 +163,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/screenshots/vertica-2026-06-20T200949.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 31 operations · 24 acting
 api_count: 1
 apis:
-- description: The Accounts API from Amazon DevOps Guru — 3 operation(s) for accounts.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Accounts API from Amazon DevOps Guru — 3 operation(s) for accounts.
   name: Amazon DevOps Guru Accounts API
   slug: amazon-devops-guru-accounts-api
-- description: The Anomalies API from Amazon DevOps Guru — 2 operation(s) for anomalies.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Anomalies API from Amazon DevOps Guru — 2 operation(s) for anomalies.
   name: Amazon DevOps Guru Anomalies API
   slug: amazon-devops-guru-anomalies-api
-- description: The Channels API from Amazon DevOps Guru — 2 operation(s) for channels.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Channels API from Amazon DevOps Guru — 2 operation(s) for channels.
   name: Amazon DevOps Guru Channels API
   slug: amazon-devops-guru-channels-api
-- description: The Cost Estimation API from Amazon DevOps Guru — 1 operation(s) for cost estimation.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Cost Estimation API from Amazon DevOps Guru — 1 operation(s) for cost estimation.
   name: Amazon DevOps Guru Cost Estimation API
   slug: amazon-devops-guru-cost-estimation-api
-- description: The Event Sources API from Amazon DevOps Guru — 1 operation(s) for event sources.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Event Sources API from Amazon DevOps Guru — 1 operation(s) for event sources.
   name: Amazon DevOps Guru Event Sources API
   slug: amazon-devops-guru-event-sources-api
-- description: The Events API from Amazon DevOps Guru — 1 operation(s) for events.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Events API from Amazon DevOps Guru — 1 operation(s) for events.
   name: Amazon DevOps Guru Events API
   slug: amazon-devops-guru-events-api
-- description: The Feedback API from Amazon DevOps Guru — 1 operation(s) for feedback.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Feedback API from Amazon DevOps Guru — 1 operation(s) for feedback.
   name: Amazon DevOps Guru Feedback API
   slug: amazon-devops-guru-feedback-api
-- description: The Insights API from Amazon DevOps Guru — 3 operation(s) for insights.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Insights API from Amazon DevOps Guru — 3 operation(s) for insights.
   name: Amazon DevOps Guru Insights API
   slug: amazon-devops-guru-insights-api
-- description: The List Log Anomalies API from Amazon DevOps Guru — 1 operation(s) for list log anomalies.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The List Log Anomalies API from Amazon DevOps Guru — 1 operation(s) for list log anomalies.
   name: Amazon DevOps Guru List Log Anomalies API
   slug: amazon-devops-guru-list-log-anomalies-api
-- description: The MonitoredResources API from Amazon DevOps Guru — 1 operation(s) for monitoredresources.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The MonitoredResources API from Amazon DevOps Guru — 1 operation(s) for monitoredresources.
   name: Amazon DevOps Guru MonitoredResources API
   slug: amazon-devops-guru-monitoredresources-api
-- description: The Organization API from Amazon DevOps Guru — 5 operation(s) for organization.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Organization API from Amazon DevOps Guru — 5 operation(s) for organization.
   name: Amazon DevOps Guru Organization API
   slug: amazon-devops-guru-organization-api
-- description: The Recommendations API from Amazon DevOps Guru — 1 operation(s) for recommendations.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Recommendations API from Amazon DevOps Guru — 1 operation(s) for recommendations.
   name: Amazon DevOps Guru Recommendations API
   slug: amazon-devops-guru-recommendations-api
-- description: The Resource Collections API from Amazon DevOps Guru — 2 operation(s) for resource collections.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Resource Collections API from Amazon DevOps Guru — 2 operation(s) for resource collections.
   name: Amazon DevOps Guru Resource Collections API
   slug: amazon-devops-guru-resource-collections-api
-- description: The Service Integrations API from Amazon DevOps Guru — 1 operation(s) for service integrations.
+- baseURL: https://devops-guru.amazonaws.com
+  baseurl_source: declared
+  description: The Service Integrations API from Amazon DevOps Guru — 1 operation(s) for service integrations.
   name: Amazon DevOps Guru Service Integrations API
   slug: amazon-devops-guru-service-integrations-api
 artifact_total: 133
@@ -560,7 +588,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/screenshots/amazon-devops-guru-2026-06-20T171630.png
 security:

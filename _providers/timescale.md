@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 5
@@ -36,37 +48,59 @@ apis:
 - description: A publicly reachable, anonymous Model Context Protocol server (server name pg-aiguide) serving hybrid semantic + BM25 search over Tiger Cloud, TimescaleDB, PostgreSQL and PostGIS documentation, plus a
   name: Tiger Docs MCP Server
   slug: tiger-docs-mcp-server
-- description: The Analytics API from Timescale — 2 operation(s) for analytics.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Analytics API from Timescale — 2 operation(s) for analytics.
   name: Timescale Analytics API
   slug: timescale-analytics-api
-- description: The Auth API from Timescale — 2 operation(s) for auth.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Auth API from Timescale — 2 operation(s) for auth.
   name: Timescale Auth API
   slug: timescale-auth-api
-- description: The Feedback API from Timescale — 1 operation(s) for feedback.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Feedback API from Timescale — 1 operation(s) for feedback.
   name: Timescale Feedback API
   slug: timescale-feedback-api
-- description: The Health API from Timescale — 1 operation(s) for health.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Health API from Timescale — 1 operation(s) for health.
   name: Timescale Health API
   slug: timescale-health-api
-- description: The Invites API from Timescale — 3 operation(s) for invites.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Invites API from Timescale — 3 operation(s) for invites.
   name: Timescale Invites API
   slug: timescale-invites-api
-- description: The Pricing API from Timescale — 1 operation(s) for pricing.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Pricing API from Timescale — 1 operation(s) for pricing.
   name: Timescale Pricing API
   slug: timescale-pricing-api
-- description: The Projects API from Timescale — 1 operation(s) for projects.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Projects API from Timescale — 1 operation(s) for projects.
   name: Timescale Projects API
   slug: timescale-projects-api
-- description: The Read Replica Sets API from Timescale — 6 operation(s) for read replica sets.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Read Replica Sets API from Timescale — 6 operation(s) for read replica sets.
   name: Timescale Read Replica Sets API
   slug: timescale-read-replica-sets-api
-- description: Manage services, read replicas, and their associated actions.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Manage services, read replicas, and their associated actions.
   name: Timescale Services API
   slug: timescale-services-api
-- description: The Spaces API from Timescale — 31 operation(s) for spaces.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Spaces API from Timescale — 31 operation(s) for spaces.
   name: Timescale Spaces API
   slug: timescale-spaces-api
-- description: Manage VPCs and their peering connections.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Manage VPCs and their peering connections.
   name: Timescale VP Cs API
   slug: timescale-vpcs-api
 artifact_total: 30
@@ -335,7 +369,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/screenshots/timescale-2026-08-17T082356.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Emissions API from Singularity — 3 operation(s) for emissions.
+- baseURL: https://api.singularity.energy
+  baseurl_source: declared
+  description: The Emissions API from Singularity — 3 operation(s) for emissions.
   name: Singularity Emissions API
   slug: singularity-energy-emissions-api
-- description: The Events API from Singularity — 4 operation(s) for events.
+- baseURL: https://api.singularity.energy
+  baseurl_source: declared
+  description: The Events API from Singularity — 4 operation(s) for events.
   name: Singularity Events API
   slug: singularity-energy-events-api
-- description: The Interchange API from Singularity — 2 operation(s) for interchange.
+- baseURL: https://api.singularity.energy
+  baseurl_source: declared
+  description: The Interchange API from Singularity — 2 operation(s) for interchange.
   name: Singularity Interchange API
   slug: singularity-energy-interchange-api
 artifact_total: 14
@@ -144,7 +150,7 @@ score:
   band: thin
   composite: 38.4
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -173,8 +179,9 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/screenshots/singularity-energy-2026-09-02T155609.png
 security:
 - kind: authentication
   name: Singularity Energy Authentication

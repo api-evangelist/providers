@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 22 operations · 16 acting
 api_count: 1
 apis:
-- description: The Metaplane REST API — 23 operations over connections, monitors, monitor evaluations, datapoint ingestion and tags. Bearer-token authenticated, versioned by path prefix (/v1 with /v2 for two monitor
+- baseURL: https://dev.api.metaplane.dev
+  baseurl_source: declared
+  description: The Metaplane REST API — 23 operations over connections, monitors, monitor evaluations, datapoint ingestion and tags. Bearer-token authenticated, versioned by path prefix (/v1 with /v2 for two monitor
   name: Metaplane API
   slug: metaplane
-- description: The Connections API from Metaplane — 4 operations for listing warehouse, BI and dbt connections, reading sync status, triggering a re-sync and rotating a connection private key.
+- baseURL: https://dev.api.metaplane.dev
+  baseurl_source: declared
+  description: The Connections API from Metaplane — 4 operations for listing warehouse, BI and dbt connections, reading sync status, triggering a re-sync and rotating a connection private key.
   name: Metaplane Connections API
   slug: metaplane-connections-api
-- description: The Monitors API from Metaplane — 12 operations for creating, updating, running and reading data quality monitors, their evaluation history and their status, plus historic-data import and datapoint in
+- baseURL: https://dev.api.metaplane.dev
+  baseurl_source: declared
+  description: The Monitors API from Metaplane — 12 operations for creating, updating, running and reading data quality monitors, their evaluation history and their status, plus historic-data import and datapoint in
   name: Metaplane Monitors API
   slug: metaplane-monitors-api
-- description: 'The Tags API from Metaplane — 7 operations for bulk-labelling tables and monitors, removing tags, fetching tag definitions and reading tagged objects and monitors back. Tags are the routing dimension '
+- baseURL: https://dev.api.metaplane.dev
+  baseurl_source: declared
+  description: 'The Tags API from Metaplane — 7 operations for bulk-labelling tables and monitors, removing tags, fetching tag definitions and reading tagged objects and monitors back. Tags are the routing dimension '
   name: Metaplane Tags API
   slug: metaplane-tags-api
 artifact_total: 19
@@ -265,7 +273,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.5
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -275,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 56.6
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/screenshots/metaplane-2026-06-20T185251.png
 security:

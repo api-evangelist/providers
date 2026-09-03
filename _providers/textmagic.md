@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 49 operations · 20 acting
 api_count: 1
 apis:
-- description: Track bulk send sessions.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Track bulk send sessions.
   name: Textmagic Bulk API
   slug: textmagic-bulk-api
-- description: Manage two-way conversations.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Manage two-way conversations.
   name: Textmagic Chats API
   slug: textmagic-chats-api
-- description: Manage contacts in the address book.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Manage contacts in the address book.
   name: Textmagic Contacts API
   slug: textmagic-contacts-api
-- description: Manage contact lists.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Manage contact lists.
   name: Textmagic Lists API
   slug: textmagic-lists-api
-- description: Send and manage outbound SMS messages.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Send and manage outbound SMS messages.
   name: Textmagic Messages API
   slug: textmagic-messages-api
-- description: Find and manage dedicated virtual numbers.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Find and manage dedicated virtual numbers.
   name: Textmagic Numbers API
   slug: textmagic-numbers-api
-- description: Retrieve and manage inbound messages.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Retrieve and manage inbound messages.
   name: Textmagic Replies API
   slug: textmagic-replies-api
-- description: Manage scheduled (future-dated) messages.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Manage scheduled (future-dated) messages.
   name: Textmagic Schedules API
   slug: textmagic-schedules-api
-- description: Apply for and manage alphanumeric sender IDs.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Apply for and manage alphanumeric sender IDs.
   name: Textmagic Sender IDs API
   slug: textmagic-sender-ids-api
-- description: Account, usage, and spending statistics.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Account, usage, and spending statistics.
   name: Textmagic Stats API
   slug: textmagic-stats-api
-- description: Manage reusable message templates.
+- baseURL: https://rest.textmagic.com/api/v2
+  baseurl_source: declared
+  description: Manage reusable message templates.
   name: Textmagic Templates API
   slug: textmagic-templates-api
 artifact_total: 30
@@ -221,7 +243,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/screenshots/textmagic-2026-06-20T195211.png
 security:

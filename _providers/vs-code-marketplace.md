@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: Download extension assets including VSIX packages
+- baseURL: https://marketplace.visualstudio.com/_apis/public/gallery
+  baseurl_source: declared
+  description: Download extension assets including VSIX packages
   name: VS Code Marketplace Assets API
   slug: vs-code-marketplace-assets-api
-- description: Query, search, and retrieve VS Code extensions from the Marketplace
+- baseURL: https://marketplace.visualstudio.com/_apis/public/gallery
+  baseurl_source: declared
+  description: Query, search, and retrieve VS Code extensions from the Marketplace
   name: VS Code Marketplace Extensions API
   slug: vs-code-marketplace-extensions-api
-- description: Publisher management and information
+- baseURL: https://marketplace.visualstudio.com/_apis/public/gallery
+  baseurl_source: declared
+  description: Publisher management and information
   name: VS Code Marketplace Publishers API
   slug: vs-code-marketplace-publishers-api
 artifact_total: 20
@@ -247,7 +253,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vs-code-marketplace/refs/heads/main/screenshots/vs-code-marketplace-2026-06-20T201145.png
 security:

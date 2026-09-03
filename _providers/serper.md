@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 10 operations · 10 acting
 api_count: 2
 apis:
-- description: Search autocomplete suggestions
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Search autocomplete suggestions
   name: Serper Autocomplete API
   slug: serper-autocomplete-api
-- description: Image search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Image search results
   name: Serper Images API
   slug: serper-images-api
-- description: Google Lens reverse image search from an image URL. Exposed to every playground user; costs 3 credits per query.
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Google Lens reverse image search from an image URL. Exposed to every playground user; costs 3 credits per query.
   name: Serper Lens API
   slug: serper-lens-api
-- description: Canonical Google geo-target lookup for the location parameter used by every Serper search endpoint, plus a service health check. The only Serper surface that answers unauthenticated.
+- baseURL: https://api.serper.dev
+  baseurl_source: declared
+  description: Canonical Google geo-target lookup for the location parameter used by every Serper search endpoint, plus a service health check. The only Serper surface that answers unauthenticated.
   name: Serper Locations API
   slug: serper-locations-api
-- description: Maps and location search
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Maps and location search
   name: Serper Maps API
   slug: serper-maps-api
-- description: News search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: News search results
   name: Serper News API
   slug: serper-news-api
-- description: Patent search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Patent search results
   name: Serper Patents API
   slug: serper-patents-api
-- description: Local business and place search
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Local business and place search
   name: Serper Places API
   slug: serper-places-api
-- description: Google place reviews by cid, fid or placeId, cursor-paginated with nextPageToken. The only Serper endpoint that uses cursor pagination and the only one where mini-batch is unsupported.
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Google place reviews by cid, fid or placeId, cursor-paginated with nextPageToken. The only Serper endpoint that uses cursor pagination and the only one where mini-batch is unsupported.
   name: Serper Reviews API
   slug: serper-reviews-api
-- description: Academic publication search
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Academic publication search
   name: Serper Scholar API
   slug: serper-scholar-api
-- description: Web search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Web search results
   name: Serper Search API
   slug: serper-search-api
-- description: Product and shopping search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Product and shopping search results
   name: Serper Shopping API
   slug: serper-shopping-api
-- description: Video search results
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Video search results
   name: Serper Videos API
   slug: serper-videos-api
-- description: Webpage content extraction
+- baseURL: https://google.serper.dev
+  baseurl_source: declared
+  description: Webpage content extraction
   name: Serper Scrape API
   slug: serper-scrape-api
 artifact_total: 42
@@ -362,7 +390,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 0
@@ -44,136 +44,224 @@ agentic_access:
   summary_line: 193 operations · 101 acting
 api_count: 1
 apis:
-- description: Operations about AccessGrants
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about AccessGrants
   name: Vantage AccessGrants API
   slug: vantage-sh-accessgrants-api
-- description: Operations about AnomalyAlerts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about AnomalyAlerts
   name: Vantage AnomalyAlerts API
   slug: vantage-sh-anomalyalerts-api
-- description: Operations about AnomalyNotifications
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about AnomalyNotifications
   name: Vantage AnomalyNotifications API
   slug: vantage-sh-anomalynotifications-api
-- description: Operations about AuditLogs
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about AuditLogs
   name: Vantage AuditLogs API
   slug: vantage-sh-auditlogs-api
-- description: Operations about BillingProfiles
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about BillingProfiles
   name: Vantage BillingProfiles API
   slug: vantage-sh-billingprofiles-api
-- description: Operations about BillingRules
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about BillingRules
   name: Vantage BillingRules API
   slug: vantage-sh-billingrules-api
-- description: Operations about BudgetAlerts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about BudgetAlerts
   name: Vantage BudgetAlerts API
   slug: vantage-sh-budgetalerts-api
-- description: Operations about Budgets
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Budgets
   name: Vantage Budgets API
   slug: vantage-sh-budgets-api
-- description: Operations about BusinessMetrics
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about BusinessMetrics
   name: Vantage BusinessMetrics API
   slug: vantage-sh-businessmetrics-api
-- description: Operations about Canvases
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Canvases
   name: Vantage Canvases API
   slug: vantage-sh-canvases-api
-- description: Operations about CostAlertEvents
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about CostAlertEvents
   name: Vantage CostAlertEvents API
   slug: vantage-sh-costalertevents-api
-- description: Operations about CostAlerts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about CostAlerts
   name: Vantage CostAlerts API
   slug: vantage-sh-costalerts-api
-- description: Operations about CostProviders
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about CostProviders
   name: Vantage CostProvider API
   slug: vantage-sh-costprovider-api
-- description: Operations about CostProviderAccounts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about CostProviderAccounts
   name: Vantage CostProviderAccounts API
   slug: vantage-sh-costprovideraccounts-api
-- description: Operations about Costs
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Costs
   name: Vantage Costs API
   slug: vantage-sh-costs-api
-- description: Operations about CostServices
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about CostServices
   name: Vantage CostService API
   slug: vantage-sh-costservice-api
-- description: Operations about Dashboards
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Dashboards
   name: Vantage Dashboards API
   slug: vantage-sh-dashboards-api
-- description: Operations about DataExports
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about DataExports
   name: Vantage DataExports API
   slug: vantage-sh-dataexports-api
-- description: Operations about ExchangeRates
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about ExchangeRates
   name: Vantage ExchangeRates API
   slug: vantage-sh-exchangerates-api
-- description: Operations about FinancialCommitmentReports
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about FinancialCommitmentReports
   name: Vantage FinancialCommitmentReports API
   slug: vantage-sh-financialcommitmentreports-api
-- description: Operations about FinancialCommitments
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about FinancialCommitments
   name: Vantage FinancialCommitments API
   slug: vantage-sh-financialcommitments-api
-- description: Operations about Folders
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Folders
   name: Vantage Folders API
   slug: vantage-sh-folders-api
-- description: Operations about Integrations
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Integrations
   name: Vantage Integrations API
   slug: vantage-sh-integrations-api
-- description: Operations about Invoices
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Invoices
   name: Vantage Invoices API
   slug: vantage-sh-invoices-api
-- description: Operations about KubernetesEfficiencyReports
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about KubernetesEfficiencyReports
   name: Vantage KubernetesEfficiencyReports API
   slug: vantage-sh-kubernetesefficiencyreports-api
-- description: Operations about ManagedAccounts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about ManagedAccounts
   name: Vantage ManagedAccounts API
   slug: vantage-sh-managedaccounts-api
-- description: Operations about Mes
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Mes
   name: Vantage Me API
   slug: vantage-sh-me-api
-- description: Operations about NetworkFlowReports
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about NetworkFlowReports
   name: Vantage NetworkFlowReports API
   slug: vantage-sh-networkflowreports-api
-- description: Operations about Pings
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Pings
   name: Vantage Ping API
   slug: vantage-sh-ping-api
-- description: Operations about Prices
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Prices
   name: Vantage Prices API
   slug: vantage-sh-prices-api
-- description: Operations about Recommendations
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Recommendations
   name: Vantage Recommendations API
   slug: vantage-sh-recommendations-api
-- description: Operations about RecommendationViews
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about RecommendationViews
   name: Vantage RecommendationViews API
   slug: vantage-sh-recommendationviews-api
-- description: Operations about ReportNotifications
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about ReportNotifications
   name: Vantage ReportNotifications API
   slug: vantage-sh-reportnotifications-api
-- description: Operations about ResourceReports
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about ResourceReports
   name: Vantage ResourceReports API
   slug: vantage-sh-resourcereports-api
-- description: Operations about Resources
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Resources
   name: Vantage Resources API
   slug: vantage-sh-resources-api
-- description: Operations about SavedFilters
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about SavedFilters
   name: Vantage SavedFilters API
   slug: vantage-sh-savedfilters-api
-- description: Operations about Segments
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Segments
   name: Vantage Segments API
   slug: vantage-sh-segments-api
-- description: Operations about Tags
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Tags
   name: Vantage Tags API
   slug: vantage-sh-tags-api
-- description: Operations about Teams
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Teams
   name: Vantage Teams API
   slug: vantage-sh-teams-api
-- description: Operations about UnitCosts
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about UnitCosts
   name: Vantage UnitCosts API
   slug: vantage-sh-unitcosts-api
-- description: Operations about UserFeedbacks
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about UserFeedbacks
   name: Vantage UserFeedback API
   slug: vantage-sh-userfeedback-api
-- description: Operations about Users
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Users
   name: Vantage Users API
   slug: vantage-sh-users-api
-- description: Operations about VirtualTags
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about VirtualTags
   name: Vantage VirtualTags API
   slug: vantage-sh-virtualtags-api
-- description: Operations about Workspaces
+- baseURL: https://api.vantage.sh/v2
+  baseurl_source: declared
+  description: Operations about Workspaces
   name: Vantage Workspaces API
   slug: vantage-sh-workspaces-api
 artifact_total: 96
@@ -394,7 +482,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -417,8 +505,9 @@ score:
       marker_coverage: 0.0
       total: 44
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vantage-sh/refs/heads/main/screenshots/vantage-sh-2026-09-02T165424.png
 security:
 - kind: authentication
   name: Vantage Sh Authentication

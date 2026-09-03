@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -54,61 +54,99 @@ apis:
 - description: The Nomad Java SDK is an official Java client library for the HashiCorp Nomad HTTP API. It enables Java and JVM-based applications to interact with Nomad clusters for submitting jobs, querying allocat
   name: HashiCorp Nomad Java SDK
   slug: java-sdk
-- description: Endpoints for managing Access Control List policies, tokens, and authentication methods.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for managing Access Control List policies, tokens, and authentication methods.
   name: HashiCorp Nomad ACL API
   slug: nomad-acl-api
-- description: Endpoints for interacting with the local Nomad agent, including health checks, member listing, and server management.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for interacting with the local Nomad agent, including health checks, member listing, and server management.
   name: HashiCorp Nomad Agent API
   slug: nomad-agent-api
-- description: Endpoints for querying allocations. An allocation declares that a set of tasks in a job should be run on a particular node.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying allocations. An allocation declares that a set of tasks in a job should be run on a particular node.
   name: HashiCorp Nomad Allocations API
   slug: nomad-allocations-api
-- description: Endpoints for querying and managing deployments. Deployments track the rolling update of allocations between two versions of a job.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying and managing deployments. Deployments track the rolling update of allocations between two versions of a job.
   name: HashiCorp Nomad Deployments API
   slug: nomad-deployments-api
-- description: Endpoints for querying evaluations. Evaluations are the mechanism by which Nomad makes scheduling decisions.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying evaluations. Evaluations are the mechanism by which Nomad makes scheduling decisions.
   name: HashiCorp Nomad Evaluations API
   slug: nomad-evaluations-api
-- description: Endpoints for listing, creating, reading, updating, and deleting jobs. Jobs are the primary unit of work in Nomad.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for listing, creating, reading, updating, and deleting jobs. Jobs are the primary unit of work in Nomad.
   name: HashiCorp Nomad Jobs API
   slug: nomad-jobs-api
-- description: Endpoints for managing namespaces, which segment jobs and their associated objects.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for managing namespaces, which segment jobs and their associated objects.
   name: HashiCorp Nomad Namespaces API
   slug: nomad-namespaces-api
-- description: Endpoints for managing node pools, which group nodes for scheduling constraints.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for managing node pools, which group nodes for scheduling constraints.
   name: HashiCorp Nomad Node Pools API
   slug: nomad-node-pools-api
-- description: Endpoints for querying and managing client nodes registered with the Nomad cluster.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying and managing client nodes registered with the Nomad cluster.
   name: HashiCorp Nomad Nodes API
   slug: nomad-nodes-api
-- description: Endpoints for cluster-level operations such as Raft peer management and autopilot configuration.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for cluster-level operations such as Raft peer management and autopilot configuration.
   name: HashiCorp Nomad Operator API
   slug: nomad-operator-api
-- description: Endpoints for listing known regions in the Nomad cluster.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for listing known regions in the Nomad cluster.
   name: HashiCorp Nomad Regions API
   slug: nomad-regions-api
-- description: Endpoints for querying scaling policies and their status.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying scaling policies and their status.
   name: HashiCorp Nomad Scaling API
   slug: nomad-scaling-api
-- description: Endpoints for searching across Nomad objects by prefix or fuzzy match.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for searching across Nomad objects by prefix or fuzzy match.
   name: HashiCorp Nomad Search API
   slug: nomad-search-api
-- description: The Service API from HashiCorp Nomad — 1 operation(s) for service.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: The Service API from HashiCorp Nomad — 1 operation(s) for service.
   name: HashiCorp Nomad Service API
   slug: nomad-service-api
-- description: The Services API from HashiCorp Nomad — 1 operation(s) for services.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: The Services API from HashiCorp Nomad — 1 operation(s) for services.
   name: HashiCorp Nomad Services API
   slug: nomad-services-api
-- description: Endpoints for querying the status of the Nomad cluster including leader and peer information.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for querying the status of the Nomad cluster including leader and peer information.
   name: HashiCorp Nomad Status API
   slug: nomad-status-api
-- description: Endpoints for system maintenance operations such as garbage collection and reconciliation.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for system maintenance operations such as garbage collection and reconciliation.
   name: HashiCorp Nomad System API
   slug: nomad-system-api
-- description: Endpoints for managing Nomad variables, which store encrypted key-value data.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for managing Nomad variables, which store encrypted key-value data.
   name: HashiCorp Nomad Variables API
   slug: nomad-variables-api
-- description: Endpoints for managing CSI and host volumes attached to Nomad allocations.
+- baseURL: http://localhost:4646
+  baseurl_source: declared
+  description: Endpoints for managing CSI and host volumes attached to Nomad allocations.
   name: HashiCorp Nomad Volumes API
   slug: nomad-volumes-api
 artifact_total: 73
@@ -361,7 +399,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -371,7 +409,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -380,7 +418,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomad/refs/heads/main/screenshots/nomad-2026-06-20T190354.png
 security:

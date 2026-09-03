@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 90 operations · 51 acting
 api_count: 1
 apis:
-- description: The legacy authentication method, using the GPGAuth protocol. Find more [here](https://www.passbolt.com/docs/development/authentication).
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: The legacy authentication method, using the GPGAuth protocol. Find more [here](https://www.passbolt.com/docs/development/authentication).
   name: Passbolt Authentication (GPGAuth) API
   slug: passbolt-authentication-gpgauth-api
-- description: JWT-based authentication is the preferred way to interact with the Passbolt API. Find more [here](https://www.passbolt.com/docs/development)
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: JWT-based authentication is the preferred way to interact with the Passbolt API. Find more [here](https://www.passbolt.com/docs/development)
   name: Passbolt Authentication (JWT) API
   slug: passbolt-authentication-jwt-api
-- description: Query avatar images.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Query avatar images.
   name: Passbolt Avatars API
   slug: passbolt-avatars-api
-- description: Manipulate comments for resources.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Manipulate comments for resources.
   name: Passbolt Comments API
   slug: passbolt-comments-api
-- description: Run directory synchronization.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Run directory synchronization.
   name: Passbolt Directory Sync API
   slug: passbolt-directory-sync-api
-- description: The favorite endpoints are used to add or remove a `Resource` from your favorites.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: The favorite endpoints are used to add or remove a `Resource` from your favorites.
   name: Passbolt Favorites API
   slug: passbolt-favorites-api
-- description: Organize your passwords and share them in bulk using folders.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Organize your passwords and share them in bulk using folders.
   name: Passbolt Folders API
   slug: passbolt-folders-api
-- description: In order to encrypt information, the server and the clients needs the user's public keys. These OpenPGP endpoints let you query the saved public key data.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: In order to encrypt information, the server and the clients needs the user's public keys. These OpenPGP endpoints let you query the saved public key data.
   name: Passbolt GPG keys API
   slug: passbolt-gpg-keys-api
-- description: Organize users in logical groups to make it easier to share resources with them.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Organize users in logical groups to make it easier to share resources with them.
   name: Passbolt Groups API
   slug: passbolt-groups-api
-- description: Gather data about the passbolt instance's health.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Gather data about the passbolt instance's health.
   name: Passbolt Healthcheck API
   slug: passbolt-healthcheck-api
-- description: Manipulate metadata keys.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Manipulate metadata keys.
   name: Passbolt Metadata keys API
   slug: passbolt-metadata-keys-api
-- description: Manipulate private keys for metadata.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Manipulate private keys for metadata.
   name: Passbolt Metadata private keys API
   slug: passbolt-metadata-private-keys-api
-- description: Gather information about metadata keys that needs to be rotated
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Gather information about metadata keys that needs to be rotated
   name: Passbolt Metadata rotate key API
   slug: passbolt-metadata-rotate-key-api
-- description: Gather information on the saved encrypted session keys cache
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Gather information on the saved encrypted session keys cache
   name: Passbolt Metadata session key API
   slug: passbolt-metadata-session-key-api
-- description: Retrieve information about the resource types settings selected by the administrators
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Retrieve information about the resource types settings selected by the administrators
   name: Passbolt Metadata types settings API
   slug: passbolt-metadata-types-settings-api
-- description: Upgrading elements to the new v5 metadata format
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Upgrading elements to the new v5 metadata format
   name: Passbolt Metadata upgrade API
   slug: passbolt-metadata-upgrade-api
-- description: Move a folder or a resource across folders.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Move a folder or a resource across folders.
   name: Passbolt Move API
   slug: passbolt-move-api
-- description: Complete and validate authentication for users with MFA enabled.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Complete and validate authentication for users with MFA enabled.
   name: Passbolt Multi-Factor Authentication API
   slug: passbolt-multi-factor-authentication-api
-- description: Query permissions for resources.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Query permissions for resources.
   name: Passbolt Permissions API
   slug: passbolt-permissions-api
-- description: Resource-types are used for describing how and what data is stored for a resource and its associated secrets.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Resource-types are used for describing how and what data is stored for a resource and its associated secrets.
   name: Passbolt Resource types API
   slug: passbolt-resource-types-api
-- description: A resource holds the metadata for its secrets.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: A resource holds the metadata for its secrets.
   name: Passbolt Resources API
   slug: passbolt-resources-api
-- description: Different categories of users.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Different categories of users.
   name: Passbolt Roles API
   slug: passbolt-roles-api
-- description: Secrets associated to resources.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Secrets associated to resources.
   name: Passbolt Secrets API
   slug: passbolt-secrets-api
-- description: Retrieve the server settings
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Retrieve the server settings
   name: Passbolt Settings API
   slug: passbolt-settings-api
-- description: Share resources and folders to users with an exhaustive permission system.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Share resources and folders to users with an exhaustive permission system.
   name: Passbolt Shares API
   slug: passbolt-shares-api
-- description: Get tags and add tags to resources to categorize them.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: Get tags and add tags to resources to categorize them.
   name: Passbolt Tags API
   slug: passbolt-tags-api
-- description: User are entities with the ability to interact with the application.
+- baseURL: https://passbolt.local
+  baseurl_source: declared
+  description: User are entities with the ability to interact with the application.
   name: Passbolt Users API
   slug: passbolt-users-api
 artifact_total: 62
@@ -300,7 +354,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbolt/refs/heads/main/screenshots/passbolt-2026-06-20T191434.png
 security:

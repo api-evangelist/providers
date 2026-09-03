@@ -33,58 +33,90 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: 'Streams Bombora''s Company Surge intent signals — account-level scores against 18,000+ B2B intent topics — derived from the Bombora Data Cooperative. Subscribers pull weekly Surge scores for monitored '
+- baseURL: https://api.bombora.com/intent/v1
+  baseurl_source: declared
+  description: 'Streams Bombora''s Company Surge intent signals — account-level scores against 18,000+ B2B intent topics — derived from the Bombora Data Cooperative. Subscribers pull weekly Surge scores for monitored '
   name: Bombora Intent API
   slug: bombora-intent-api
 - description: Partner API for orchestrating Company Surge reports — create reports with topic, geography, blacklist, and AutoGen options (POST /v4/Surge/Create), list reports (GET /v4/Surge/GetList), and retrieve r
   name: Bombora Company Surge API (v4)
   slug: bombora-company-surge-api
-- description: The AccountLists API from Bombora — 2 operation(s) for accountlists.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The AccountLists API from Bombora — 2 operation(s) for accountlists.
   name: Bombora Account Lists API
   slug: bombora-accountlists-api
-- description: The Accounts API from Bombora — 4 operation(s) for accounts.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Accounts API from Bombora — 4 operation(s) for accounts.
   name: Bombora Accounts API
   slug: bombora-accounts-api
-- description: The Activate API from Bombora — 1 operation(s) for activate.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Activate API from Bombora — 1 operation(s) for activate.
   name: Bombora Activate API
   slug: bombora-activate-api
-- description: The Data API from Bombora — 1 operation(s) for data.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Data API from Bombora — 1 operation(s) for data.
   name: Bombora Data API
   slug: bombora-data-api
-- description: The Demographic API from Bombora — 4 operation(s) for demographic.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Demographic API from Bombora — 4 operation(s) for demographic.
   name: Bombora Demographic API
   slug: bombora-demographic-api
-- description: The Destinations API from Bombora — 4 operation(s) for destinations.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Destinations API from Bombora — 4 operation(s) for destinations.
   name: Bombora Destinations API
   slug: bombora-destinations-api
-- description: The Digital Audience Builder (DAB) API API from Bombora — 2 operation(s) for digital audience builder (dab) api.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Digital Audience Builder (DAB) API API from Bombora — 2 operation(s) for digital audience builder (dab) api.
   name: Bombora Digital Audience Builder (DAB) API
   slug: bombora-digital-audience-builder-dab-api-api
-- description: The Estimate API from Bombora — 1 operation(s) for estimate.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Estimate API from Bombora — 1 operation(s) for estimate.
   name: Bombora Estimate API
   slug: bombora-estimate-api
-- description: The Events API from Bombora — 2 operation(s) for events.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Events API from Bombora — 2 operation(s) for events.
   name: Bombora Events API
   slug: bombora-events-api
-- description: The Firmographic API from Bombora — 3 operation(s) for firmographic.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Firmographic API from Bombora — 3 operation(s) for firmographic.
   name: Bombora Firmographic API
   slug: bombora-firmographic-api
-- description: The Geographic API from Bombora — 3 operation(s) for geographic.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Geographic API from Bombora — 3 operation(s) for geographic.
   name: Bombora Geographic API
   slug: bombora-geographic-api
-- description: The Install Data API from Bombora — 1 operation(s) for install data.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Install Data API from Bombora — 1 operation(s) for install data.
   name: Bombora Install Data API
   slug: bombora-install-data-api
-- description: The Oauth API from Bombora — 1 operation(s) for oauth.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Oauth API from Bombora — 1 operation(s) for oauth.
   name: Bombora OAUTH API
   slug: bombora-oauth-api
-- description: The SignalDefinition API from Bombora — 5 operation(s) for signaldefinition.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The SignalDefinition API from Bombora — 5 operation(s) for signaldefinition.
   name: Bombora Signal Definition API
   slug: bombora-signaldefinition-api
-- description: The Suspend API from Bombora — 1 operation(s) for suspend.
+- baseURL: https://api.bombora.com
+  baseurl_source: declared
+  description: The Suspend API from Bombora — 1 operation(s) for suspend.
   name: Bombora Suspend API
   slug: bombora-suspend-api
 artifact_total: 30
@@ -337,7 +369,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -347,7 +379,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 42.1
+  previous_composite: 41.9
   provenance:
     conformance: derived
     contracts:
@@ -358,7 +390,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:

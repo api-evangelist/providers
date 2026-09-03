@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -46,37 +46,59 @@ apis:
 - description: The core Kafka messaging protocol for producing and consuming records to/from topics using the native Kafka binary protocol, supporting exactly-once semantics, compaction, and partitioned log storage.
   name: Apache Kafka Messaging API
   slug: kafka-messaging-api
-- description: The ACL API from Apache Kafka — 1 operation(s) for acl.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The ACL API from Apache Kafka — 1 operation(s) for acl.
   name: Apache Kafka ACL API
   slug: apache-kafka-acl-api
-- description: The Broker API from Apache Kafka — 1 operation(s) for broker.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Broker API from Apache Kafka — 1 operation(s) for broker.
   name: Apache Kafka Broker API
   slug: apache-kafka-broker-api
-- description: The Cluster API from Apache Kafka — 3 operation(s) for cluster.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Cluster API from Apache Kafka — 3 operation(s) for cluster.
   name: Apache Kafka Cluster API
   slug: apache-kafka-cluster-api
-- description: The Connectors API from Apache Kafka — 8 operation(s) for connectors.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Connectors API from Apache Kafka — 8 operation(s) for connectors.
   name: Apache Kafka Connectors API
   slug: apache-kafka-connectors-api
-- description: The Consumer Group API from Apache Kafka — 2 operation(s) for consumer group.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Consumer Group API from Apache Kafka — 2 operation(s) for consumer group.
   name: Apache Kafka Consumer Group API
   slug: apache-kafka-consumer-group-api
-- description: The Offsets API from Apache Kafka — 1 operation(s) for offsets.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Offsets API from Apache Kafka — 1 operation(s) for offsets.
   name: Apache Kafka Offsets API
   slug: apache-kafka-offsets-api
-- description: The Partition API from Apache Kafka — 1 operation(s) for partition.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Partition API from Apache Kafka — 1 operation(s) for partition.
   name: Apache Kafka Partition API
   slug: apache-kafka-partition-api
-- description: The Plugins API from Apache Kafka — 2 operation(s) for plugins.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Plugins API from Apache Kafka — 2 operation(s) for plugins.
   name: Apache Kafka Plugins API
   slug: apache-kafka-plugins-api
-- description: The Records API from Apache Kafka — 1 operation(s) for records.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Records API from Apache Kafka — 1 operation(s) for records.
   name: Apache Kafka Records API
   slug: apache-kafka-records-api
-- description: The Tasks API from Apache Kafka — 3 operation(s) for tasks.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Tasks API from Apache Kafka — 3 operation(s) for tasks.
   name: Apache Kafka Tasks API
   slug: apache-kafka-tasks-api
-- description: The Topic API from Apache Kafka — 2 operation(s) for topic.
+- baseURL: http://localhost:8082
+  baseurl_source: declared
+  description: The Topic API from Apache Kafka — 2 operation(s) for topic.
   name: Apache Kafka Topic API
   slug: apache-kafka-topic-api
 arazzos:
@@ -617,7 +639,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -630,7 +652,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -641,7 +663,7 @@ score:
       total: 11
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:

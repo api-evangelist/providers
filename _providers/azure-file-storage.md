@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: Azure Resource Manager REST API for managing storage accounts, FileService settings, and FileShare resources at the control-plane level. Authentication uses Microsoft Entra ID OAuth 2.0 bearer tokens.
   name: Azure Storage Resource Provider API (File Services / Shares)
   slug: storage-rp-api
-- description: Account-level file service operations
+- baseURL: https://{account-name}.file.core.windows.net
+  baseurl_source: declared
+  description: Account-level file service operations
   name: Azure Files Account API
   slug: azure-file-storage-account-api
-- description: Directory operations within a share
+- baseURL: https://{account-name}.file.core.windows.net
+  baseurl_source: declared
+  description: Directory operations within a share
   name: Azure Files Directories API
   slug: azure-file-storage-directories-api
-- description: File operations
+- baseURL: https://{account-name}.file.core.windows.net
+  baseurl_source: declared
+  description: File operations
   name: Azure Files Files API
   slug: azure-file-storage-files-api
-- description: File share operations
+- baseURL: https://{account-name}.file.core.windows.net
+  baseurl_source: declared
+  description: File share operations
   name: Azure Files Shares API
   slug: azure-file-storage-shares-api
 artifact_total: 17
@@ -167,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-file-storage/refs/heads/main/screenshots/azure-file-storage-2026-06-20T172902.png
 security:

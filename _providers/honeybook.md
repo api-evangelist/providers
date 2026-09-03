@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 25 operations · 10 acting
 api_count: 1
 apis:
-- description: Clients and inquiries/leads captured through HoneyBook lead forms.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Clients and inquiries/leads captured through HoneyBook lead forms.
   name: HoneyBook Clients API
   slug: honeybook-clients-api
-- description: Contracts and e-signature agreements attached to a project.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Contracts and e-signature agreements attached to a project.
   name: HoneyBook Contracts API
   slug: honeybook-contracts-api
-- description: Invoices issued to clients within a project.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Invoices issued to clients within a project.
   name: HoneyBook Invoices API
   slug: honeybook-invoices-api
-- description: Card and ACH payments made against invoices.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Card and ACH payments made against invoices.
   name: HoneyBook Payments API
   slug: honeybook-payments-api
-- description: The visual project pipeline - bookings and pipeline stage.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: The visual project pipeline - bookings and pipeline stage.
   name: HoneyBook Projects API
   slug: honeybook-projects-api
-- description: Combined quote + contract + invoice documents sent to clients.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Combined quote + contract + invoice documents sent to clients.
   name: HoneyBook Proposals API
   slug: honeybook-proposals-api
-- description: Self-service session-type booking (Essentials/Premium plans).
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Self-service session-type booking (Essentials/Premium plans).
   name: HoneyBook Scheduler API
   slug: honeybook-scheduler-api
-- description: Modeled event subscription surface mirroring HoneyBook's Zapier triggers.
+- baseURL: https://api.honeybook.com/v1
+  baseurl_source: declared
+  description: Modeled event subscription surface mirroring HoneyBook's Zapier triggers.
   name: HoneyBook Webhooks API
   slug: honeybook-webhooks-api
 artifact_total: 25
@@ -213,7 +229,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/screenshots/honeybook-2026-07-25T221358.png
 security:

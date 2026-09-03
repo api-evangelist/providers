@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 67 operations · 3 acting
 api_count: 2
 apis:
-- description: Ten Instagram endpoints covering profiles, posts, reels, tagged media, story highlights, post comments, location feeds and trending media search, normalized to ActivityStreams 2.0.
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: Ten Instagram endpoints covering profiles, posts, reels, tagged media, story highlights, post comments, location feeds and trending media search, normalized to ActivityStreams 2.0.
   name: KonbiniAPI Instagram API
   slug: konbiniapi-instagram-api
-- description: Twenty-one TikTok endpoints covering profiles, videos, likes, reposts, collections, stories, following and follower lists, live streams, comments and replies, WebVTT transcripts, hashtags, audio track
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: Twenty-one TikTok endpoints covering profiles, videos, likes, reposts, collections, stories, following and follower lists, live streams, comments and replies, WebVTT transcripts, hashtags, audio track
   name: KonbiniAPI TikTok API
   slug: konbiniapi-tiktok-api
-- description: Seven X (Twitter) endpoints covering public profiles, user post timelines, the Highlights tab, single posts, and X Communities including community metadata, posts and media — all as visible to a logge
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: Seven X (Twitter) endpoints covering public profiles, user post timelines, the Highlights tab, single posts, and X Communities including community metadata, posts and media — all as visible to a logge
   name: KonbiniAPI X API
   slug: konbiniapi-x-api
-- description: Twenty-two Reddit endpoints — the provider's deepest surface — covering users, subreddits and their structured rules, posts, comments and reply threads, duplicates and crossposts, site-wide feeds, thr
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: Twenty-two Reddit endpoints — the provider's deepest surface — covering users, subreddits and their structured rules, posts, comments and reply threads, duplicates and crossposts, site-wide feeds, thr
   name: KonbiniAPI Reddit API
   slug: konbiniapi-reddit-api
-- description: Seven LinkedIn endpoints covering public member profiles, member posts and published articles, company pages and company posts, single posts with inline comments, and video post transcripts. The newes
+- baseURL: https://api.konbiniapi.com/v1
+  baseurl_source: declared
+  description: Seven LinkedIn endpoints covering public member profiles, member posts and published articles, company pages and company posts, single posts with inline comments, and video post transcripts. The newes
   name: KonbiniAPI LinkedIn API
   slug: konbiniapi-linkedin-api
 - description: Hosted remote MCP server exposing one typed tool for every one of the 67 REST operations, over streamable HTTP with OAuth 2.1 (authorization code + PKCE) or a Bearer API key. Adds three MCP-only proje
@@ -629,7 +639,7 @@ score:
     regime_id: government
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/screenshots/konbiniapi-2026-06-20T184125.png
 security:

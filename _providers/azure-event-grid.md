@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Data-plane REST API for publishing events and CloudEvents to Event Grid topics and domains, and for managing namespace topics, subscriptions, and event delivery. Authentication uses Microsoft Entra ID
   name: Azure Event Grid Publisher API
   slug: publisher-api
-- description: Namespace topic publish, receive, acknowledge
+- baseURL: https://{topic-endpoint}.{region}.eventgrid.azure.net
+  baseurl_source: declared
+  description: Namespace topic publish, receive, acknowledge
   name: Azure Event Grid Namespace Topics API
   slug: azure-event-grid-namespace-topics-api
-- description: Publish events to a topic
+- baseURL: https://{topic-endpoint}.{region}.eventgrid.azure.net
+  baseurl_source: declared
+  description: Publish events to a topic
   name: Azure Event Grid Publish API
   slug: azure-event-grid-publish-api
 artifact_total: 12
@@ -152,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-event-grid/refs/heads/main/screenshots/azure-event-grid-2026-06-20T172903.png
 security:

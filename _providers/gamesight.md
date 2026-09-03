@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 2
 apis:
-- description: The Measurement API from Gamesight — 3 operation(s) for measurement.
+- baseURL: https://api.ingest.marketing.gamesight.io
+  baseurl_source: declared
+  description: The Measurement API from Gamesight — 3 operation(s) for measurement.
   name: Gamesight Measurement API
   slug: gamesight-measurement-api
-- description: The Reporting API from Gamesight — 9 operation(s) for reporting.
+- baseURL: https://api.marketing.gamesight.io
+  baseurl_source: declared
+  description: The Reporting API from Gamesight — 9 operation(s) for reporting.
   name: Gamesight Reporting API
   slug: gamesight-reporting-api
 artifact_total: 13
@@ -257,7 +261,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:

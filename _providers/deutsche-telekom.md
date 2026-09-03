@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -79,22 +79,34 @@ apis:
 - description: Cloud-native, ubiquitous enterprise integration platform open-sourced by Deutsche Telekom. Combines a Kong-based API gateway, the Jumper sidecar, Keycloak identity, and the TARDIS control plane to pro
   name: Open Telekom Integration Platform
   slug: open-telekom-integration-platform
-- description: The ApiChangelog API from Deutsche Telekom — 3 operation(s) for apichangelog.
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: The ApiChangelog API from Deutsche Telekom — 3 operation(s) for apichangelog.
   name: Deutsche Telekom ApiChangelog API
   slug: deutsche-telekom-apichangelog-api
-- description: With an ApiExposure you can define and API you want to expose on TARDIS, to provide it to other consumers. It is only possible to expose the entire API. It is not possible to expose a single resource.
+- baseURL: https://api.telekom.de/stargate/v2
+  baseurl_source: spec
+  description: With an ApiExposure you can define and API you want to expose on TARDIS, to provide it to other consumers. It is only possible to expose the entire API. It is not possible to expose a single resource.
   name: Deutsche Telekom ApiExposure API
   slug: deutsche-telekom-apiexposure-api
-- description: Manage ApiRoadmaps
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: Manage ApiRoadmaps
   name: Deutsche Telekom ApiRoadmap API
   slug: deutsche-telekom-apiroadmap-api
-- description: Manage ApiSpecifications
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: Manage ApiSpecifications
   name: Deutsche Telekom ApiSpecification API
   slug: deutsche-telekom-apispecification-api
-- description: After an API is successful subscribed, you are able to use the API. It is only possible to subscribe to the entire API. It is not possible to subscribe only to a single resource
+- baseURL: https://api.telekom.de/stargate/v2
+  baseurl_source: spec
+  description: After an API is successful subscribed, you are able to use the API. It is only possible to subscribe to the entire API. It is not possible to subscribe only to a single resource
   name: Deutsche Telekom ApiSubscription API
   slug: deutsche-telekom-apisubscription-api
-- description: Manage applications
+- baseURL: https://api.telekom.de/application/v2
+  baseurl_source: spec
+  description: Manage applications
   name: Deutsche Telekom Application API
   slug: deutsche-telekom-application-api
 - description: The Attack Detection API from Deutsche Telekom — 2 operation(s) for attack detection.
@@ -124,22 +136,34 @@ apis:
 - description: The Component API from Deutsche Telekom — 3 operation(s) for component.
   name: Deutsche Telekom Component API
   slug: deutsche-telekom-component-api
-- description: The deleting API from Deutsche Telekom — 1 operation(s) for deleting.
+- baseURL: https://locahost:8080
+  baseurl_source: spec
+  description: The deleting API from Deutsche Telekom — 1 operation(s) for deleting.
   name: Deutsche Telekom deleting API
   slug: deutsche-telekom-deleting-api
-- description: An endpoint to download existing files
+- baseURL: https://locahost:8080
+  baseurl_source: spec
+  description: An endpoint to download existing files
   name: Deutsche Telekom downloading API
   slug: deutsche-telekom-downloading-api
-- description: With an EventExposure you declare that your application publishes events of a specific type. This makes the events available for subscription by other applications. Each exposure is scoped to a zone a
+- baseURL: https://api.telekom.de/event/v2
+  baseurl_source: spec
+  description: With an EventExposure you declare that your application publishes events of a specific type. This makes the events available for subscription by other applications. Each exposure is scoped to a zone a
   name: Deutsche Telekom EventExposure API
   slug: deutsche-telekom-eventexposure-api
-- description: Manage EventSpecifications
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: Manage EventSpecifications
   name: Deutsche Telekom EventSpecification API
   slug: deutsche-telekom-eventspecification-api
-- description: An EventSubscription declares that your application wants to receive events of a specific type. You can configure the delivery mechanism (callback or server-sent events), payload format, and subscribe
+- baseURL: https://api.telekom.de/event/v2
+  baseurl_source: spec
+  description: An EventSubscription declares that your application wants to receive events of a specific type. You can configure the delivery mechanism (callback or server-sent events), payload format, and subscribe
   name: Deutsche Telekom EventSubscription API
   slug: deutsche-telekom-eventsubscription-api
-- description: An EventType is a registry entry representing a known event type. It serves as the canonical reference that both EventExposures and EventSubscriptions point to. EventTypes are identified by a dot-sepa
+- baseURL: https://api.telekom.de/event/v2
+  baseurl_source: spec
+  description: An EventType is a registry entry representing a known event type. It serves as the canonical reference that both EventExposures and EventSubscriptions point to. EventTypes are identified by a dot-sepa
   name: Deutsche Telekom EventType API
   slug: deutsche-telekom-eventtype-api
 - description: The Groups API from Deutsche Telekom — 6 operation(s) for groups.
@@ -151,7 +175,9 @@ apis:
 - description: The Key API from Deutsche Telekom — 1 operation(s) for key.
   name: Deutsche Telekom Key API
   slug: deutsche-telekom-key-api
-- description: The onboarding API from Deutsche Telekom — 3 operation(s) for onboarding.
+- baseURL: https://locahost:8080
+  baseurl_source: spec
+  description: The onboarding API from Deutsche Telekom — 3 operation(s) for onboarding.
   name: Deutsche Telekom onboarding API
   slug: deutsche-telekom-onboarding-api
 - description: The Protocol Mappers API from Deutsche Telekom — 8 operation(s) for protocol mappers.
@@ -160,7 +186,9 @@ apis:
 - description: The Realms Admin API from Deutsche Telekom — 28 operation(s) for realms admin.
   name: Deutsche Telekom Realms Admin API
   slug: deutsche-telekom-realms-admin-api
-- description: Manage remoteSubscriptions
+- baseURL: https://api.telekom.de/controlplane/v1
+  baseurl_source: spec
+  description: Manage remoteSubscriptions
   name: Deutsche Telekom RemoteSubscription API
   slug: deutsche-telekom-remotesubscription-api
 - description: The Role Mapper API from Deutsche Telekom — 8 operation(s) for role mapper.
@@ -175,16 +203,22 @@ apis:
 - description: The Root API from Deutsche Telekom — 1 operation(s) for root.
   name: Deutsche Telekom Root API
   slug: deutsche-telekom-root-api
-- description: Manage Rovers
+- baseURL_template: https://{host}/rover/v3
+  baseurl_source: spec_template
+  description: Manage Rovers
   name: Deutsche Telekom Rover API
   slug: deutsche-telekom-rover-api
 - description: The Scope Mappings API from Deutsche Telekom — 14 operation(s) for scope mappings.
   name: Deutsche Telekom Scope Mappings API
   slug: deutsche-telekom-scope-mappings-api
-- description: Everything regarding storing and resolving secrets
+- baseURL: https://locahost:8080
+  baseurl_source: spec
+  description: Everything regarding storing and resolving secrets
   name: Deutsche Telekom secrets API
   slug: deutsche-telekom-secrets-api
-- description: An endpoint to upload new files
+- baseURL: https://locahost:8080
+  baseurl_source: spec
+  description: An endpoint to upload new files
   name: Deutsche Telekom uploading API
   slug: deutsche-telekom-uploading-api
 - description: The User Storage Provider API from Deutsche Telekom — 6 operation(s) for user storage provider.
@@ -522,7 +556,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -535,7 +569,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 31.8
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -550,7 +584,7 @@ score:
     regime_id: telecommunications
     score: 48.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: The SAP API Management Analytics API provides access to API usage metrics, performance statistics, error rates, and traffic analytics for APIs managed on the SAP API Management platform. It supports b
   name: SAP API Management Analytics API
   slug: sap-api-management-analytics
-- description: Collections of APIs bundled as products for developer consumption
+- baseURL_template: https://{tenantUrl}/apiportal/api/1.0/Management.svc
+  baseurl_source: spec_template
+  description: Collections of APIs bundled as products for developer consumption
   name: SAP API Management API Products API
   slug: sap-api-management-api-products-api
-- description: Backend systems that provide APIs for SAP API Management
+- baseURL_template: https://{tenantUrl}/apiportal/api/1.0/Management.svc
+  baseurl_source: spec_template
+  description: Backend systems that provide APIs for SAP API Management
   name: SAP API Management API Providers API
   slug: sap-api-management-api-providers-api
-- description: Managed API proxies fronting backend services
+- baseURL_template: https://{tenantUrl}/apiportal/api/1.0/Management.svc
+  baseurl_source: spec_template
+  description: Managed API proxies fronting backend services
   name: SAP API Management API Proxies API
   slug: sap-api-management-api-proxies-api
-- description: Developer applications consuming API products
+- baseURL_template: https://{tenantUrl}/apiportal/api/1.0/Management.svc
+  baseurl_source: spec_template
+  description: Developer applications consuming API products
   name: SAP API Management Applications API
   slug: sap-api-management-applications-api
-- description: Configuration key-value stores for policy runtime use
+- baseURL_template: https://{tenantUrl}/apiportal/api/1.0/Management.svc
+  baseurl_source: spec_template
+  description: Configuration key-value stores for policy runtime use
   name: SAP API Management Key Value Maps API
   slug: sap-api-management-key-value-maps-api
 artifact_total: 36
@@ -311,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:

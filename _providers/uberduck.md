@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Mint LiveKit tokens for real-time conversational AI voice calls.
+- baseURL: https://api.uberduck.ai/v1
+  baseurl_source: declared
+  description: Mint LiveKit tokens for real-time conversational AI voice calls.
   name: Uberduck Conversational API
   slug: uberduck-conversational-api
-- description: List available text-to-speech models by provider.
+- baseURL: https://api.uberduck.ai/v1
+  baseurl_source: declared
+  description: List available text-to-speech models by provider.
   name: Uberduck Models API
   slug: uberduck-models-api
-- description: Synthesize speech from text using a chosen voice and model.
+- baseURL: https://api.uberduck.ai/v1
+  baseurl_source: declared
+  description: Synthesize speech from text using a chosen voice and model.
   name: Uberduck Text-to-Speech API
   slug: uberduck-text-to-speech-api
-- description: List, filter, and clone voices.
+- baseURL: https://api.uberduck.ai/v1
+  baseurl_source: declared
+  description: List, filter, and clone voices.
   name: Uberduck Voices API
   slug: uberduck-voices-api
 artifact_total: 16
@@ -146,7 +154,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +177,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uberduck/refs/heads/main/screenshots/uberduck-2026-09-02T164706.png
 security:
 - kind: authentication
   name: Uberduck Authentication

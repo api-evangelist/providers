@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: The Batch API from Jitsu — 2 operation(s) for batch.
+- baseURL: https://use.jitsu.com
+  baseurl_source: declared
+  description: The Batch API from Jitsu — 2 operation(s) for batch.
   name: Jitsu Batch API
   slug: jitsu-batch-api
-- description: The Ingestion API from Jitsu — 2 operation(s) for ingestion.
+- baseURL: https://use.jitsu.com
+  baseurl_source: declared
+  description: The Ingestion API from Jitsu — 2 operation(s) for ingestion.
   name: Jitsu Ingestion API
   slug: jitsu-ingestion-api
 artifact_total: 13
@@ -161,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jitsu/refs/heads/main/screenshots/jitsu-2026-07-25T223202.png
 security:

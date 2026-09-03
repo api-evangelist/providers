@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage container tracking subscriptions (references)
+- baseURL: https://prod.vizionapi.com
+  baseurl_source: spec
+  description: Manage container tracking subscriptions (references)
   name: Vizion References API
   slug: vizion-references-api
-- description: Retrieve tracking event updates for a reference
+- baseURL: https://prod.vizionapi.com
+  baseurl_source: spec
+  description: Retrieve tracking event updates for a reference
   name: Vizion Updates API
   slug: vizion-updates-api
 artifact_total: 20
@@ -217,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vizion/refs/heads/main/screenshots/vizion-2026-06-20T201119.png
 security:

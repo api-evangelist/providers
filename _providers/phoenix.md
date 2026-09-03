@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 84 operations · 43 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The annotation_configs API from Arize Phoenix — 3 operation(s) for annotation_configs.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The annotation_configs API from Arize Phoenix — 3 operation(s) for annotation_configs.
   name: Arize Phoenix annotation_configs API
   slug: phoenix-annotation-configs-api
-- description: The annotations API from Arize Phoenix — 3 operation(s) for annotations.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The annotations API from Arize Phoenix — 3 operation(s) for annotations.
   name: Arize Phoenix annotations API
   slug: phoenix-annotations-api
-- description: The Arize Phoenix Version API from Arize Phoenix — 1 operation(s) for arize phoenix version.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The Arize Phoenix Version API from Arize Phoenix — 1 operation(s) for arize phoenix version.
   name: Arize Phoenix Arize Phoenix Version API
   slug: phoenix-arize-phoenix-version-api
-- description: The Auth API from Arize Phoenix — 6 operation(s) for auth.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The Auth API from Arize Phoenix — 6 operation(s) for auth.
   name: Arize Phoenix Auth API
   slug: phoenix-auth-api
-- description: The chat API from Arize Phoenix — 2 operation(s) for chat.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The chat API from Arize Phoenix — 2 operation(s) for chat.
   name: Arize Phoenix chat API
   slug: phoenix-chat-api
-- description: The datasets API from Arize Phoenix — 9 operation(s) for datasets.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The datasets API from Arize Phoenix — 9 operation(s) for datasets.
   name: Arize Phoenix datasets API
   slug: phoenix-datasets-api
-- description: The experiments API from Arize Phoenix — 8 operation(s) for experiments.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The experiments API from Arize Phoenix — 8 operation(s) for experiments.
   name: Arize Phoenix experiments API
   slug: phoenix-experiments-api
-- description: The Healthz API from Arize Phoenix — 1 operation(s) for healthz.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The Healthz API from Arize Phoenix — 1 operation(s) for healthz.
   name: Arize Phoenix Healthz API
   slug: phoenix-healthz-api
-- description: The Oauth2 API from Arize Phoenix — 2 operation(s) for oauth2.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The Oauth2 API from Arize Phoenix — 2 operation(s) for oauth2.
   name: Arize Phoenix Oauth2 API
   slug: phoenix-oauth2-api
-- description: The projects API from Arize Phoenix — 2 operation(s) for projects.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The projects API from Arize Phoenix — 2 operation(s) for projects.
   name: Arize Phoenix projects API
   slug: phoenix-projects-api
-- description: The prompts API from Arize Phoenix — 8 operation(s) for prompts.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The prompts API from Arize Phoenix — 8 operation(s) for prompts.
   name: Arize Phoenix prompts API
   slug: phoenix-prompts-api
-- description: The Readyz API from Arize Phoenix — 1 operation(s) for readyz.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The Readyz API from Arize Phoenix — 1 operation(s) for readyz.
   name: Arize Phoenix Readyz API
   slug: phoenix-readyz-api
-- description: The secrets API from Arize Phoenix — 1 operation(s) for secrets.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The secrets API from Arize Phoenix — 1 operation(s) for secrets.
   name: Arize Phoenix secrets API
   slug: phoenix-secrets-api
-- description: The sessions API from Arize Phoenix — 5 operation(s) for sessions.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The sessions API from Arize Phoenix — 5 operation(s) for sessions.
   name: Arize Phoenix sessions API
   slug: phoenix-sessions-api
-- description: The spans API from Arize Phoenix — 6 operation(s) for spans.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The spans API from Arize Phoenix — 6 operation(s) for spans.
   name: Arize Phoenix spans API
   slug: phoenix-spans-api
-- description: The traces API from Arize Phoenix — 4 operation(s) for traces.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The traces API from Arize Phoenix — 4 operation(s) for traces.
   name: Arize Phoenix traces API
   slug: phoenix-traces-api
-- description: The users API from Arize Phoenix — 3 operation(s) for users.
+- baseURL: https://app.phoenix.arize.com
+  baseurl_source: declared
+  description: The users API from Arize Phoenix — 3 operation(s) for users.
   name: Arize Phoenix users API
   slug: phoenix-users-api
 artifact_total: 56
@@ -314,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/screenshots/phoenix-2026-06-20T191644.png
 security:

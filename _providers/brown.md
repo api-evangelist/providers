@@ -34,13 +34,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Brown University Library's public, keyless REST API over the Brown Digital Repository — an item API, a collection API, a Solr-backed search API, and a two-key link index at /api/. Live and unauthe
+- baseURL: https://repository.library.brown.edu/api/
+  baseurl_source: declared
+  description: The Brown University Library's public, keyless REST API over the Brown Digital Repository — an item API, a collection API, a Solr-backed search API, and a two-key link index at /api/. Live and unauthe
   name: Brown Digital Repository (BDR) API
   slug: bdr-api
-- description: The BDR's IIIF surface, on the same institution-operated host. IIIF Image API 2.x (info.json reports a 6335x8560 source with a seven-step size pyramid and 512x512 tiles for the probed object) and IIIF
+- baseURL: https://repository.library.brown.edu/iiif/
+  baseurl_source: declared
+  description: The BDR's IIIF surface, on the same institution-operated host. IIIF Image API 2.x (info.json reports a 6335x8560 source with a seven-step size pyramid and 512x512 tiles for the probed object) and IIIF
   name: Brown Digital Repository IIIF Image and Presentation API
   slug: bdr-iiif
 - description: Brown's Shibboleth identity provider, and the strongest machine-readable contract in this profile. Brown self-publishes signed per-entity SAML metadata at the entityID itself — uncommon; most institut
@@ -317,7 +321,7 @@ score:
     catalog_gap: 50.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -21.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -327,7 +331,7 @@ score:
     discoverability: 68.5
     governance: 17.4
     operational_transparency: 10.5
-  previous_composite: 55.8
+  previous_composite: 34.0
   provenance:
     conformance: derived
     contracts:
@@ -342,8 +346,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/screenshots/brown-2026-06-20T173721.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
-- description: Chat completions with the Reka model family.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Chat completions with the Reka model family.
   name: Reka Chat API
   slug: reka-chat-api
-- description: Generate and manage video clips.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Generate and manage video clips.
   name: Reka Clips API
   slug: reka-clips-api
-- description: List and describe available Reka models.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: List and describe available Reka models.
   name: Reka Models API
   slug: reka-models-api
-- description: Question-answer interactions over video content.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Question-answer interactions over video content.
   name: Reka QA API
   slug: reka-qa-api
-- description: Research chat completions with web search.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Research chat completions with web search.
   name: Reka Research API
   slug: reka-research-api
-- description: Search across uploaded video content.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Search across uploaded video content.
   name: Reka Search API
   slug: reka-search-api
-- description: Speech transcription and translation.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Speech transcription and translation.
   name: Reka Speech API
   slug: reka-speech-api
-- description: Organize videos into named groups.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Organize videos into named groups.
   name: Reka VideoGroups API
   slug: reka-videogroups-api
-- description: Upload and manage videos for the Reka Vision platform.
+- baseURL: https://api.reka.ai/v1
+  baseurl_source: declared
+  description: Upload and manage videos for the Reka Vision platform.
   name: Reka Videos API
   slug: reka-videos-api
 artifact_total: 27
@@ -219,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/screenshots/reka-2026-06-20T192942.png
 security:

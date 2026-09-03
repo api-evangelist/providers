@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
   name: VISO Trust (Protecht) client-api-assessment-rest-resource API
   slug: viso-trust-protecht-client-api-assessment-rest-resource-api
-- description: The client-api-audit-log-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-audit-log-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-audit-log-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-audit-log-rest-resource.
   name: VISO Trust (Protecht) client-api-audit-log-rest-resource API
   slug: viso-trust-protecht-client-api-audit-log-rest-resource-api
-- description: The client-api-chat-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-chat-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-chat-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-chat-rest-resource.
   name: VISO Trust (Protecht) client-api-chat-rest-resource API
   slug: viso-trust-protecht-client-api-chat-rest-resource-api
-- description: The client-api-context-type-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-context-type-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-context-type-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-context-type-rest-resource.
   name: VISO Trust (Protecht) client-api-context-type-rest-resource API
   slug: viso-trust-protecht-client-api-context-type-rest-resource-api
-- description: The client-api-data-type-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-data-type-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-data-type-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-data-type-rest-resource.
   name: VISO Trust (Protecht) client-api-data-type-rest-resource API
   slug: viso-trust-protecht-client-api-data-type-rest-resource-api
-- description: The client-api-external-intelligence-report-rest-resource API from VISO Trust (Protecht) — 8 operation(s) for client-api-external-intelligence-report-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-external-intelligence-report-rest-resource API from VISO Trust (Protecht) — 8 operation(s) for client-api-external-intelligence-report-rest-resource.
   name: VISO Trust (Protecht) client-api-external-intelligence-report-rest-resource API
   slug: viso-trust-protecht-client-api-external-intelligence-report-rest-resource-api
-- description: The client-api-questionnaire-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-questionnaire-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-questionnaire-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-questionnaire-rest-resource.
   name: VISO Trust (Protecht) client-api-questionnaire-rest-resource API
   slug: viso-trust-protecht-client-api-questionnaire-rest-resource-api
-- description: The client-api-relationship-rest-resource API from VISO Trust (Protecht) — 11 operation(s) for client-api-relationship-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-relationship-rest-resource API from VISO Trust (Protecht) — 11 operation(s) for client-api-relationship-rest-resource.
   name: VISO Trust (Protecht) client-api-relationship-rest-resource API
   slug: viso-trust-protecht-client-api-relationship-rest-resource-api
-- description: The client-api-user-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-user-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-user-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-user-rest-resource.
   name: VISO Trust (Protecht) client-api-user-rest-resource API
   slug: viso-trust-protecht-client-api-user-rest-resource-api
-- description: The client-api-vendor-directory-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-vendor-directory-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-vendor-directory-rest-resource API from VISO Trust (Protecht) — 1 operation(s) for client-api-vendor-directory-rest-resource.
   name: VISO Trust (Protecht) client-api-vendor-directory-rest-resource API
   slug: viso-trust-protecht-client-api-vendor-directory-rest-resource-api
-- description: The client-api-vendor-risk-summary-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-vendor-risk-summary-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-vendor-risk-summary-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-vendor-risk-summary-rest-resource.
   name: VISO Trust (Protecht) client-api-vendor-risk-summary-rest-resource API
   slug: viso-trust-protecht-client-api-vendor-risk-summary-rest-resource-api
-- description: The client-api-webhook-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-webhook-rest-resource.
+- baseURL: https://app.visotrust.com/api/v1
+  baseurl_source: declared
+  description: The client-api-webhook-rest-resource API from VISO Trust (Protecht) — 2 operation(s) for client-api-webhook-rest-resource.
   name: VISO Trust (Protecht) client-api-webhook-rest-resource API
   slug: viso-trust-protecht-client-api-webhook-rest-resource-api
 artifact_total: 30
@@ -234,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -244,7 +268,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 38.6
+  previous_composite: 38.4
   provenance:
     conformance: derived
     contracts:
@@ -255,7 +279,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/screenshots/viso-trust-protecht-2026-08-17T082805.png
 security:

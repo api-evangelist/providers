@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 5 acting
 api_count: 1
 apis:
-- description: Authenticated customer account information.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Authenticated customer account information.
   name: Unbabel Account API
   slug: unbabel-account-api
-- description: Supported source-to-target language combinations.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Supported source-to-target language combinations.
   name: Unbabel Language Pairs API
   slug: unbabel-language-pairs-api
-- description: Pure machine-translation jobs, optionally upgradeable to human review.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Pure machine-translation jobs, optionally upgradeable to human review.
   name: Unbabel Machine Translation API
   slug: unbabel-machine-translation-api
-- description: Available tones and topics/domains for a translation.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Available tones and topics/domains for a translation.
   name: Unbabel Tone and Topic API
   slug: unbabel-tone-and-topic-api
-- description: Submit and manage AI-plus-human translation jobs.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Submit and manage AI-plus-human translation jobs.
   name: Unbabel Translation API
   slug: unbabel-translation-api
-- description: Billable word count calculation for a block of text.
+- baseURL: https://api.unbabel.com/tapi/v2
+  baseurl_source: declared
+  description: Billable word count calculation for a block of text.
   name: Unbabel Word Count API
   slug: unbabel-word-count-api
 artifact_total: 22
@@ -170,7 +182,7 @@ score:
   band: thin
   composite: 30.0
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -193,8 +205,9 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/screenshots/unbabel-2026-09-02T164827.png
 security:
 - kind: authentication
   name: Unbabel Authentication

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -34,19 +48,29 @@ agentic_access:
   summary_line: 37 operations · 10 acting
 api_count: 2
 apis:
-- description: Saved sets, owned by an API key.
+- baseURL: https://api.pexafy.com
+  baseurl_source: declared
+  description: Saved sets, owned by an API key.
   name: Pexafy Collections API
   slug: pexafy-collections-api
-- description: What the filters accept.
+- baseURL: https://api.pexafy.com
+  baseurl_source: declared
+  description: What the filters accept.
   name: Pexafy Facets API
   slug: pexafy-facets-api
-- description: One photo at a time.
+- baseURL: https://api.pexafy.com
+  baseurl_source: declared
+  description: One photo at a time.
   name: Pexafy Photos API
   slug: pexafy-photos-api
-- description: Finding photos.
+- baseURL: https://api.pexafy.com
+  baseurl_source: declared
+  description: Finding photos.
   name: Pexafy Search API
   slug: pexafy-search-api
-- description: Quota counters.
+- baseURL: https://api.pexafy.com
+  baseurl_source: declared
+  description: Quota counters.
   name: Pexafy Usage API
   slug: pexafy-usage-api
 artifact_total: 13
@@ -200,11 +224,11 @@ score:
   band: strong
   composite: 64.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -214,7 +238,7 @@ score:
     discoverability: 83.3
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 64.2
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -226,8 +250,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pexafy/refs/heads/main/screenshots/pexafy-2026-09-02T151126.png
 security:
 - kind: authentication
   name: Pexafy Authentication

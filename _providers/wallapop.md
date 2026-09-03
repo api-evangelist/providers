@@ -34,25 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: A category is a classification for product listings, with specific attributes and constraints that products within the category must adhere to.
   name: Wallapop Categories API
   slug: wallapop-categories-api
-- description: The Delivery API from Wallapop — 1 operation(s) for delivery.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: The Delivery API from Wallapop — 1 operation(s) for delivery.
   name: Wallapop Delivery API
   slug: wallapop-delivery-api
-- description: The Disputes API from Wallapop — 1 operation(s) for disputes.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: The Disputes API from Wallapop — 1 operation(s) for disputes.
   name: Wallapop Disputes API
   slug: wallapop-disputes-api
-- description: An item refers to a listing created by a user on the Wallapop marketplace, indicating their intent to sell. These items can include a diverse range of products.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: An item refers to a listing created by a user on the Wallapop marketplace, indicating their intent to sell. These items can include a diverse range of products.
   name: Wallapop Items API
   slug: wallapop-items-api
-- description: A shipping transaction is initiated when a seller accepts a shipping request.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: A shipping transaction is initiated when a seller accepts a shipping request.
   name: Wallapop Transactions API
   slug: wallapop-transactions-api
-- description: Webhooks allow you to receive event notifications.
+- baseURL: https://connect.wallapop.com
+  baseurl_source: declared
+  description: Webhooks allow you to receive event notifications.
   name: Wallapop Webhooks API
   slug: wallapop-webhooks-api
 artifact_total: 19
@@ -232,7 +244,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -242,7 +254,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 52.1
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -253,7 +265,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallapop/refs/heads/main/screenshots/wallapop-2026-08-17T082833.png
 security:

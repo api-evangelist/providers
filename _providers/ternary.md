@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Manage and query cloud cost anomalies
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Manage and query cloud cost anomalies
   name: Ternary Anomaly Detection API
   slug: ternary-anomaly-detection-api
-- description: Manage cloud commitment purchases and optimization
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Manage cloud commitment purchases and optimization
   name: Ternary Commitments API
   slug: ternary-commitments-api
-- description: Manage cost allocation rules, cost centers, and labels
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Manage cost allocation rules, cost centers, and labels
   name: Ternary Cost Allocation API
   slug: ternary-cost-allocation-api
-- description: Budget forecasting and spend projections
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Budget forecasting and spend projections
   name: Ternary Forecasting API
   slug: ternary-forecasting-api
-- description: Kubernetes cost allocation and pod label management
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Kubernetes cost allocation and pod label management
   name: Ternary Kubernetes API
   slug: ternary-kubernetes-api
-- description: Cost reports, dashboards, and analytics
+- baseURL: https://api.ternary.app
+  baseurl_source: spec
+  description: Cost reports, dashboards, and analytics
   name: Ternary Reporting API
   slug: ternary-reporting-api
 artifact_total: 28
@@ -238,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/screenshots/ternary-2026-06-20T195129.png
 security:

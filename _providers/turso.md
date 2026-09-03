@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -50,16 +50,24 @@ apis:
 - description: Model Context Protocol (MCP) server that exposes Turso databases, filesystem operations, and key-value storage to AI assistants such as Claude Desktop, Cursor, and Windsurf. Enables AI agents to disco
   name: Turso AgentFS MCP Server
   slug: agentfs-mcp
-- description: The Auth API from Turso — 3 operation(s) for auth.
+- baseURL: https://api.turso.tech
+  baseurl_source: declared
+  description: The Auth API from Turso — 3 operation(s) for auth.
   name: Turso Auth API
   slug: turso-auth-api
-- description: The Locations API from Turso — 1 operation(s) for locations.
+- baseURL: https://api.turso.tech
+  baseurl_source: declared
+  description: The Locations API from Turso — 1 operation(s) for locations.
   name: Turso Locations API
   slug: turso-locations-api
-- description: The Organizations API from Turso — 31 operation(s) for organizations.
+- baseURL: https://api.turso.tech
+  baseurl_source: declared
+  description: The Organizations API from Turso — 31 operation(s) for organizations.
   name: Turso Organizations API
   slug: turso-organizations-api
-- description: The User API from Turso — 1 operation(s) for user.
+- baseURL: https://api.turso.tech
+  baseurl_source: declared
+  description: The User API from Turso — 1 operation(s) for user.
   name: Turso User API
   slug: turso-user-api
 artifact_total: 27
@@ -269,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/screenshots/turso-2026-06-20T195837.png
 security:

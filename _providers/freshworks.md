@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -50,130 +50,214 @@ apis:
 - description: The Freshworks App SDK enables developers to build custom applications and extensions that run within the Freshworks product ecosystem. It provides tools for creating apps for Freshdesk, Freshservice,
   name: Freshworks App SDK
   slug: freshworks-app-sdk
-- description: Manage company accounts with which you have business relationships.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage company accounts with which you have business relationships.
   name: freshworks Accounts API
   slug: freshworks-accounts-api
-- description: Manage chat agents and their availability.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage chat agents and their availability.
   name: freshworks Agents API
   slug: freshworks-agents-api
-- description: Manage job applicants and their application details.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage job applicants and their application details.
   name: freshworks Applicants API
   slug: freshworks-applicants-api
-- description: Manage scheduled appointments and meetings.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage scheduled appointments and meetings.
   name: freshworks Appointments API
   slug: freshworks-appointments-api
-- description: Manage IT assets including hardware, software, and configurations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage IT assets including hardware, software, and configurations.
   name: freshworks Assets API
   slug: freshworks-assets-api
-- description: Manage organizational branch or office locations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage organizational branch or office locations.
   name: freshworks Branches API
   slug: freshworks-branches-api
-- description: Manage business hours configurations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage business hours configurations.
   name: freshworks Business Hours API
   slug: freshworks-business-hours-api
-- description: Access call center metrics and analytics data.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Access call center metrics and analytics data.
   name: freshworks Call Metrics API
   slug: freshworks-call-metrics-api
-- description: Access call records, call details, and call metrics from the Freshcaller system.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Access call records, call details, and call metrics from the Freshcaller system.
   name: freshworks Calls API
   slug: freshworks-calls-api
-- description: Manage change requests for controlled modifications to IT infrastructure.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage change requests for controlled modifications to IT infrastructure.
   name: freshworks Changes API
   slug: freshworks-changes-api
-- description: Manage messaging channels and their configurations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage messaging channels and their configurations.
   name: freshworks Channels API
   slug: freshworks-channels-api
-- description: Manage company records associated with contacts.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage company records associated with contacts.
   name: freshworks Companies API
   slug: freshworks-companies-api
-- description: Manage customer contacts including creation, updates, merging, and deactivation.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage customer contacts including creation, updates, merging, and deactivation.
   name: freshworks Contacts API
   slug: freshworks-contacts-api
-- description: Manage customer conversations and their lifecycle.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage customer conversations and their lifecycle.
   name: freshworks Conversations API
   slug: freshworks-conversations-api
-- description: Manage sales deals and their pipeline progression.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage sales deals and their pipeline progression.
   name: freshworks Deals API
   slug: freshworks-deals-api
-- description: Manage organizational department records.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage organizational department records.
   name: freshworks Departments API
   slug: freshworks-departments-api
-- description: Manage email configuration settings for the helpdesk.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage email configuration settings for the helpdesk.
   name: freshworks Email Configs API
   slug: freshworks-email-configs-api
-- description: Manage employee records including personal information, job details, and employment history.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage employee records including personal information, job details, and employment history.
   name: freshworks Employees API
   slug: freshworks-employees-api
-- description: Manage agent groups for conversation routing.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage agent groups for conversation routing.
   name: freshworks Groups API
   slug: freshworks-groups-api
-- description: Manage job postings and their associated applicant fields.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage job postings and their associated applicant fields.
   name: freshworks Job Postings API
   slug: freshworks-job-postings-api
-- description: Manage sales leads before they are converted to contacts or accounts.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage sales leads before they are converted to contacts or accounts.
   name: freshworks Leads API
   slug: freshworks-leads-api
-- description: Manage employee levels and designations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage employee levels and designations.
   name: freshworks Levels API
   slug: freshworks-levels-api
-- description: Manage office and facility locations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage office and facility locations.
   name: freshworks Locations API
   slug: freshworks-locations-api
-- description: Send and retrieve messages within conversations.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Send and retrieve messages within conversations.
   name: freshworks Messages API
   slug: freshworks-messages-api
-- description: Manage notes attached to CRM records.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage notes attached to CRM records.
   name: freshworks Notes API
   slug: freshworks-notes-api
-- description: Manage problem records for root cause analysis of recurring incidents.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage problem records for root cause analysis of recurring incidents.
   name: freshworks Problems API
   slug: freshworks-problems-api
-- description: Manage products associated with the helpdesk.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage products associated with the helpdesk.
   name: freshworks Products API
   slug: freshworks-products-api
-- description: Manage release records for deploying changes to production.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage release records for deploying changes to production.
   name: freshworks Releases API
   slug: freshworks-releases-api
-- description: Manage requesters who submit tickets to the service desk.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage requesters who submit tickets to the service desk.
   name: freshworks Requesters API
   slug: freshworks-requesters-api
-- description: Manage agent roles and permissions.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage agent roles and permissions.
   name: freshworks Roles API
   slug: freshworks-roles-api
-- description: Track and manage sales activity records.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Track and manage sales activity records.
   name: freshworks Sales Activities API
   slug: freshworks-sales-activities-api
-- description: Manage service catalog items available for request.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage service catalog items available for request.
   name: freshworks Service Catalog API
   slug: freshworks-service-catalog-api
-- description: Manage SLA policies for ticket response and resolution targets.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage SLA policies for ticket response and resolution targets.
   name: freshworks SLA Policies API
   slug: freshworks-sla-policies-api
-- description: Manage sub-departments within departments.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage sub-departments within departments.
   name: freshworks Sub-Departments API
   slug: freshworks-sub-departments-api
-- description: Manage customer satisfaction surveys.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage customer satisfaction surveys.
   name: freshworks Surveys API
   slug: freshworks-surveys-api
-- description: Manage tasks associated with sales activities.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage tasks associated with sales activities.
   name: freshworks Tasks API
   slug: freshworks-tasks-api
-- description: Manage agent teams for call routing and organization.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage agent teams for call routing and organization.
   name: freshworks Teams API
   slug: freshworks-teams-api
-- description: Manage helpdesk tickets including creation, updates, assignment, and resolution workflows.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage helpdesk tickets including creation, updates, assignment, and resolution workflows.
   name: freshworks Tickets API
   slug: freshworks-tickets-api
-- description: Track time spent on tickets.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Track time spent on tickets.
   name: freshworks Time Entries API
   slug: freshworks-time-entries-api
-- description: Manage time-off types and employee leave requests.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage time-off types and employee leave requests.
   name: freshworks Time Off API
   slug: freshworks-time-off-api
-- description: Manage agent users in the Freshcaller system including creation, updates, and status management.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage agent users in the Freshcaller system including creation, updates, and status management.
   name: freshworks Users API
   slug: freshworks-users-api
-- description: Manage vendor records for IT procurement and contracts.
+- baseURL: https://domain.freshdesk.com/api/v2
+  baseurl_source: declared
+  description: Manage vendor records for IT procurement and contracts.
   name: freshworks Vendors API
   slug: freshworks-vendors-api
 artifact_total: 197
@@ -636,16 +720,16 @@ jsonld:
   slug: freshworks-context
 layout: provider
 modified: '2026-05-19'
-name: freshworks
+name: Freshworks
 nav: Providers
 network: true
-overview: 'freshworks publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agents API, Applicants API, and 39 more.
+overview: 'Freshworks publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agents API, Applicants API, and 39 more.
 
 
-  The freshworks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Freshworks catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  freshworks'' developer surface includes authentication and 9 more developer resources.'
+  Freshworks'' developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Freshworks Plans Pricing
   plan_count: 3
@@ -659,7 +743,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: freshworks API Rules
+  name: Freshworks API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -669,7 +753,7 @@ rules:
   slug: freshworks-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: freshworks API Rules
+  name: Freshworks API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -685,7 +769,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -695,7 +779,7 @@ score:
     discoverability: 40.7
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.5
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -705,10 +789,10 @@ score:
       total: 42
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/screenshots/freshworks-2026-06-20T181551.png
 security:

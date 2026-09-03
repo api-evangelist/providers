@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -53,97 +53,159 @@ apis:
 - description: Swell Apps extend the platform with custom data models (added fields or new entities), events (triggering functions, webhooks, and notifications), edge functions deployed to 200+ locations with no col
   name: Swell Apps Platform
   slug: swell-apps-platform
-- description: Saved shipping/billing addresses on an account.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Saved shipping/billing addresses on an account.
   name: Swell Account Addresses API
   slug: swell-io-account-addresses-api
-- description: Authenticated customer account operations.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Authenticated customer account operations.
   name: Swell Account API
   slug: swell-io-account-api
-- description: Saved payment cards on an account.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Saved payment cards on an account.
   name: Swell Account Cards API
   slug: swell-io-account-cards-api
-- description: Store credit balances and transactions per account.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Store credit balances and transactions per account.
   name: Swell Account Credits API
   slug: swell-io-account-credits-api
-- description: Login, logout, and session recovery.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Login, logout, and session recovery.
   name: Swell Account Session API
   slug: swell-io-account-session-api
-- description: Customer accounts including billing/shipping, saved cards, and history.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Customer accounts including billing/shipping, saved cards, and history.
   name: Swell Accounts API
   slug: swell-io-accounts-api
-- description: Product attributes used for filtering and faceted search.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Product attributes used for filtering and faceted search.
   name: Swell Attributes API
   slug: swell-io-attributes-api
-- description: Session-scoped shopping cart for the current visitor.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Session-scoped shopping cart for the current visitor.
   name: Swell Cart API
   slug: swell-io-cart-api
-- description: Pending purchase requests that can be converted into orders.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Pending purchase requests that can be converted into orders.
   name: Swell Carts API
   slug: swell-io-carts-api
-- description: Category tree and product taxonomy.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Category tree and product taxonomy.
   name: Swell Categories API
   slug: swell-io-categories-api
-- description: Cart conversion and order placement.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Cart conversion and order placement.
   name: Swell Checkout API
   slug: swell-io-checkout-api
-- description: Pages, custom data models, and stored records.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Pages, custom data models, and stored records.
   name: Swell Content API
   slug: swell-io-content-api
-- description: Coupon definitions with codes, redemptions, and discount rules.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Coupon definitions with codes, redemptions, and discount rules.
   name: Swell Coupons API
   slug: swell-io-coupons-api
-- description: Event records emitted by the platform.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Event records emitted by the platform.
   name: Swell Events API
   slug: swell-io-events-api
-- description: Stored files (images, attachments) served via Swell CDN.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Stored files (images, attachments) served via Swell CDN.
   name: Swell Files API
   slug: swell-io-files-api
-- description: Gift cards, debit transactions, and gift card products.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Gift cards, debit transactions, and gift card products.
   name: Swell Gift Cards API
   slug: swell-io-gift-cards-api
-- description: Invoices generated for subscription billing cycles and B2B orders.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Invoices generated for subscription billing cycles and B2B orders.
   name: Swell Invoices API
   slug: swell-io-invoices-api
-- description: Customer orders, line items, financial totals, and lifecycle.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Customer orders, line items, financial totals, and lifecycle.
   name: Swell Orders API
   slug: swell-io-orders-api
-- description: Payment transactions, refunds, and gateway settlement.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Payment transactions, refunds, and gateway settlement.
   name: Swell Payments API
   slug: swell-io-payments-api
-- description: Product catalog including variants, options, bundles, gift cards, and subscription products.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Product catalog including variants, options, bundles, gift cards, and subscription products.
   name: Swell Products API
   slug: swell-io-products-api
-- description: Automatic promotion rules applied at cart and checkout.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Automatic promotion rules applied at cart and checkout.
   name: Swell Promotions API
   slug: swell-io-promotions-api
-- description: Shareable purchase links that prefill a cart.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Shareable purchase links that prefill a cart.
   name: Swell Purchase Links API
   slug: swell-io-purchase-links-api
-- description: Refund records linked to a payment.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Refund records linked to a payment.
   name: Swell Refunds API
   slug: swell-io-refunds-api
-- description: Customer return merchandise authorizations.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Customer return merchandise authorizations.
   name: Swell Returns API
   slug: swell-io-returns-api
-- description: Fulfillment shipments, tracking, and split fulfillment.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Fulfillment shipments, tracking, and split fulfillment.
   name: Swell Shipments API
   slug: swell-io-shipments-api
-- description: Stock levels and stock adjustments across locations.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Stock levels and stock adjustments across locations.
   name: Swell Stock API
   slug: swell-io-stock-api
-- description: Public store settings, currencies, payment settings, and menus.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Public store settings, currencies, payment settings, and menus.
   name: Swell Store API
   slug: swell-io-store-api
-- description: Plan templates that define billing schedule and price for recurring products.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Plan templates that define billing schedule and price for recurring products.
   name: Swell Subscription Plans API
   slug: swell-io-subscription-plans-api
-- description: Recurring billing subscriptions and plans.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Recurring billing subscriptions and plans.
   name: Swell Subscriptions API
   slug: swell-io-subscriptions-api
-- description: Variant-level inventory and pricing under a parent product.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Variant-level inventory and pricing under a parent product.
   name: Swell Variants API
   slug: swell-io-variants-api
-- description: Webhook subscriptions for receiving event callbacks.
+- baseURL: https://api.swell.store
+  baseurl_source: declared
+  description: Webhook subscriptions for receiving event callbacks.
   name: Swell Webhooks API
   slug: swell-io-webhooks-api
 arazzos:
@@ -761,7 +823,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

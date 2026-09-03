@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 7 acting
 api_count: 6
 apis:
-- description: API authentication and authorization
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: API authentication and authorization
   name: BeyondTrust Authentication API
   slug: beyondtrust-authentication-api
-- description: Manage privileged account credentials and passwords
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: Manage privileged account credentials and passwords
   name: BeyondTrust Credentials API
   slug: beyondtrust-credentials-api
-- description: Manage privileged accounts and their configurations
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: Manage privileged accounts and their configurations
   name: BeyondTrust Managed Accounts API
   slug: beyondtrust-managed-accounts-api
-- description: Manage systems registered in Password Safe
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: Manage systems registered in Password Safe
   name: BeyondTrust Managed Systems API
   slug: beyondtrust-managed-systems-api
-- description: Submit and manage access requests for privileged accounts
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: Submit and manage access requests for privileged accounts
   name: BeyondTrust Requests API
   slug: beyondtrust-requests-api
-- description: Manage secrets and secret store entries
+- baseURL: https://{host}/BeyondTrust/api/public/v3
+  baseurl_source: declared
+  description: Manage secrets and secret store entries
   name: BeyondTrust Secrets API
   slug: beyondtrust-secrets-api
 artifact_total: 77
@@ -346,7 +358,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/screenshots/beyondtrust-2026-06-20T173216.png
 security:

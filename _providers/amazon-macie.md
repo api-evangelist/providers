@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 79 operations · 49 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The Admin#adminAccountId API from Amazon Macie — 1 operation(s) for admin#adminaccountid.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Admin#adminAccountId API from Amazon Macie — 1 operation(s) for admin#adminaccountid.
   name: Amazon Macie Admin#adminAccountId API
   slug: amazon-macie-admin-adminaccountid-api
-- description: The Admin API from Amazon Macie — 2 operation(s) for admin.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Admin API from Amazon Macie — 2 operation(s) for admin.
   name: Amazon Macie Admin API
   slug: amazon-macie-admin-api
-- description: The Administrator API from Amazon Macie — 2 operation(s) for administrator.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Administrator API from Amazon Macie — 2 operation(s) for administrator.
   name: Amazon Macie Administrator API
   slug: amazon-macie-administrator-api
-- description: The Allow Lists API from Amazon Macie — 2 operation(s) for allow lists.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Allow Lists API from Amazon Macie — 2 operation(s) for allow lists.
   name: Amazon Macie Allow Lists API
   slug: amazon-macie-allow-lists-api
-- description: The Automated Discovery API from Amazon Macie — 1 operation(s) for automated discovery.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Automated Discovery API from Amazon Macie — 1 operation(s) for automated discovery.
   name: Amazon Macie Automated Discovery API
   slug: amazon-macie-automated-discovery-api
-- description: The Classification Export Configuration API from Amazon Macie — 1 operation(s) for classification export configuration.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Classification Export Configuration API from Amazon Macie — 1 operation(s) for classification export configuration.
   name: Amazon Macie Classification Export Configuration API
   slug: amazon-macie-classification-export-configuration-api
-- description: The Classification Scopes API from Amazon Macie — 2 operation(s) for classification scopes.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Classification Scopes API from Amazon Macie — 2 operation(s) for classification scopes.
   name: Amazon Macie Classification Scopes API
   slug: amazon-macie-classification-scopes-api
-- description: The Custom Data Identifiers API from Amazon Macie — 5 operation(s) for custom data identifiers.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Custom Data Identifiers API from Amazon Macie — 5 operation(s) for custom data identifiers.
   name: Amazon Macie Custom Data Identifiers API
   slug: amazon-macie-custom-data-identifiers-api
-- description: The Datasources API from Amazon Macie — 3 operation(s) for datasources.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Datasources API from Amazon Macie — 3 operation(s) for datasources.
   name: Amazon Macie Datasources API
   slug: amazon-macie-datasources-api
-- description: The Findings API from Amazon Macie — 6 operation(s) for findings.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Findings API from Amazon Macie — 6 operation(s) for findings.
   name: Amazon Macie Findings API
   slug: amazon-macie-findings-api
-- description: The Findings Publication Configuration API from Amazon Macie — 1 operation(s) for findings publication configuration.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Findings Publication Configuration API from Amazon Macie — 1 operation(s) for findings publication configuration.
   name: Amazon Macie Findings Publication Configuration API
   slug: amazon-macie-findings-publication-configuration-api
-- description: The Findingsfilters API from Amazon Macie — 2 operation(s) for findingsfilters.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Findingsfilters API from Amazon Macie — 2 operation(s) for findingsfilters.
   name: Amazon Macie Findingsfilters API
   slug: amazon-macie-findingsfilters-api
-- description: The Invitations API from Amazon Macie — 5 operation(s) for invitations.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Invitations API from Amazon Macie — 5 operation(s) for invitations.
   name: Amazon Macie Invitations API
   slug: amazon-macie-invitations-api
-- description: The Jobs API from Amazon Macie — 3 operation(s) for jobs.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon Macie — 3 operation(s) for jobs.
   name: Amazon Macie Jobs API
   slug: amazon-macie-jobs-api
-- description: The Macie API from Amazon Macie — 2 operation(s) for macie.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Macie API from Amazon Macie — 2 operation(s) for macie.
   name: Amazon Macie Macie API
   slug: amazon-macie-macie-api
-- description: The Managed Data Identifiers API from Amazon Macie — 1 operation(s) for managed data identifiers.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Managed Data Identifiers API from Amazon Macie — 1 operation(s) for managed data identifiers.
   name: Amazon Macie Managed Data Identifiers API
   slug: amazon-macie-managed-data-identifiers-api
-- description: The Master API from Amazon Macie — 2 operation(s) for master.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Master API from Amazon Macie — 2 operation(s) for master.
   name: Amazon Macie Master API
   slug: amazon-macie-master-api
-- description: The Members API from Amazon Macie — 3 operation(s) for members.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Members API from Amazon Macie — 3 operation(s) for members.
   name: Amazon Macie Members API
   slug: amazon-macie-members-api
-- description: The Resource Profiles API from Amazon Macie — 2 operation(s) for resource profiles.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Resource Profiles API from Amazon Macie — 2 operation(s) for resource profiles.
   name: Amazon Macie Resource Profiles API
   slug: amazon-macie-resource-profiles-api
-- description: The Resource Profiles#resourceArn API from Amazon Macie — 1 operation(s) for resource profiles#resourcearn.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Resource Profiles#resourceArn API from Amazon Macie — 1 operation(s) for resource profiles#resourcearn.
   name: Amazon Macie Resource Profiles#resourceArn API
   slug: amazon-macie-resource-profiles-resourcearn-api
-- description: The Reveal Configuration API from Amazon Macie — 1 operation(s) for reveal configuration.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Reveal Configuration API from Amazon Macie — 1 operation(s) for reveal configuration.
   name: Amazon Macie Reveal Configuration API
   slug: amazon-macie-reveal-configuration-api
-- description: The Tags API from Amazon Macie — 2 operation(s) for tags.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Macie — 2 operation(s) for tags.
   name: Amazon Macie Tags API
   slug: amazon-macie-tags-api
-- description: The Templates API from Amazon Macie — 2 operation(s) for templates.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Templates API from Amazon Macie — 2 operation(s) for templates.
   name: Amazon Macie Templates API
   slug: amazon-macie-templates-api
-- description: The Usage API from Amazon Macie — 2 operation(s) for usage.
+- baseURL: https://macie2.amazonaws.com
+  baseurl_source: declared
+  description: The Usage API from Amazon Macie — 2 operation(s) for usage.
   name: Amazon Macie Usage API
   slug: amazon-macie-usage-api
 artifact_total: 1363
@@ -4247,7 +4295,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:

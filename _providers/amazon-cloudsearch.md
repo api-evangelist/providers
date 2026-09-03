@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,10 +42,14 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: Operations for creating and managing search domains
+- baseURL: https://cloudsearch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing search domains
   name: Amazon CloudSearch Domains API
   slug: amazon-cloudsearch-domains-api
-- description: Operations for defining and managing index fields
+- baseURL: https://cloudsearch.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for defining and managing index fields
   name: Amazon CloudSearch Index Fields API
   slug: amazon-cloudsearch-index-fields-api
 artifact_total: 55
@@ -361,7 +365,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/screenshots/amazon-cloudsearch-2026-07-25T195949.png
 security:

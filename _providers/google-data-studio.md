@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -50,16 +50,24 @@ apis:
 - description: 'Community Visualizations allow developers to build and share custom JavaScript visualizations in Looker Studio using the dscc helper library, extending the platform with custom chart types and visual '
   name: Looker Studio Community Visualizations
   slug: looker-studio-community-visualizations
-- description: Operations for searching and listing Looker Studio assets
+- baseURL: https://datastudio.googleapis.com
+  baseurl_source: declared
+  description: Operations for searching and listing Looker Studio assets
   name: Google Data Studio Assets API
   slug: google-data-studio-assets-api
-- description: Operations for embedding pre-configured Looker Studio reports
+- baseURL: https://datastudio.googleapis.com
+  baseurl_source: declared
+  description: Operations for embedding pre-configured Looker Studio reports
   name: Google Data Studio Embedding API
   slug: google-data-studio-embedding-api
-- description: Operations for managing access controls on Looker Studio assets
+- baseURL: https://datastudio.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing access controls on Looker Studio assets
   name: Google Data Studio Permissions API
   slug: google-data-studio-permissions-api
-- description: Operations for creating and configuring pre-built Looker Studio reports
+- baseURL: https://datastudio.googleapis.com
+  baseurl_source: declared
+  description: Operations for creating and configuring pre-built Looker Studio reports
   name: Google Data Studio Reports API
   slug: google-data-studio-reports-api
 artifact_total: 32
@@ -314,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/screenshots/google-data-studio-2026-06-20T182153.png
 security:

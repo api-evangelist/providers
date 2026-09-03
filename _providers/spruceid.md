@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,19 +57,29 @@ apis:
 - description: SpruceID's isomdl library provides a Rust implementation of the ISO/IEC 18013-5 standard for mobile driver's licenses (mDL). It enables issuers to create standards-compliant mDL credentials and verifi
   name: SpruceID isomdl Mobile Driver's License API
   slug: spruceid-isomdl-mobile-drivers-license-api
-- description: Issue and verify W3C Verifiable Credentials using the VC API specification. Supports both legacy (/issue/credentials, /verify/credentials) and current (/credentials/issue, /credentials/verify) path st
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: Issue and verify W3C Verifiable Credentials using the VC API specification. Supports both legacy (/issue/credentials, /verify/credentials) and current (/credentials/issue, /credentials/verify) path st
   name: SpruceID Credentials API
   slug: spruceid-credentials-api
-- description: Health check endpoints
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: Health check endpoints
   name: SpruceID Health API
   slug: spruceid-health-api
-- description: DID resolution implementing the W3C DID Resolution HTTP binding.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: DID resolution implementing the W3C DID Resolution HTTP binding.
   name: SpruceID Identifiers API
   slug: spruceid-identifiers-api
-- description: Issue and verify W3C Verifiable Presentations. Supports both legacy (/issue/presentations, /verify/presentations) and current (/presentations/issue, /presentations/verify) path styles.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: Issue and verify W3C Verifiable Presentations. Supports both legacy (/issue/presentations, /verify/presentations) and current (/presentations/issue, /presentations/verify) path styles.
   name: SpruceID Presentations API
   slug: spruceid-presentations-api
-- description: Bitstring Status List credential endpoint for credential revocation status.
+- baseURL: https://localhost:8080
+  baseurl_source: declared
+  description: Bitstring Status List credential endpoint for credential revocation status.
   name: SpruceID Status API
   slug: spruceid-status-api
 artifact_total: 18
@@ -194,7 +204,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/screenshots/spruceid-2026-06-20T194421.png
 security:

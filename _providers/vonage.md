@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -53,22 +53,34 @@ apis:
 - description: Embed live, interactive video into web, mobile, and desktop applications using WebRTC. Supports sessions, tokens, broadcasting, recording, and SIP interconnect.
   name: Vonage Video API
   slug: vonage-video-api
-- description: Configure Vonage application settings and webhooks
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Configure Vonage application settings and webhooks
   name: Vonage Applications API
   slug: vonage-applications-api
-- description: Multi-channel messaging via SMS, WhatsApp, Messenger, Viber, MMS, RCS
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Multi-channel messaging via SMS, WhatsApp, Messenger, Viber, MMS, RCS
   name: Vonage Messages API
   slug: vonage-messages-api
-- description: Provision and manage virtual phone numbers
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Provision and manage virtual phone numbers
   name: Vonage Numbers API
   slug: vonage-numbers-api
-- description: Send and receive SMS messages
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Send and receive SMS messages
   name: Vonage SMS API
   slug: vonage-sms-api
-- description: Two-factor authentication and phone verification
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Two-factor authentication and phone verification
   name: Vonage Verify API
   slug: vonage-verify-api
-- description: Create and control voice calls
+- baseURL: https://rest.nexmo.com
+  baseurl_source: declared
+  description: Create and control voice calls
   name: Vonage Voice API
   slug: vonage-voice-api
 artifact_total: 75
@@ -400,7 +412,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -410,7 +422,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 52.6
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -425,7 +437,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:

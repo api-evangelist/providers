@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 31 operations · 12 acting
 api_count: 1
 apis:
-- description: The Documents API from Luminary — 8 operation(s) for documents.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Documents API from Luminary — 8 operation(s) for documents.
   name: Luminary Documents API
   slug: luminary-documents-api
-- description: The Entities API from Luminary — 4 operation(s) for entities.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Entities API from Luminary — 4 operation(s) for entities.
   name: Luminary Entities API
   slug: luminary-entities-api
-- description: The Households API from Luminary — 5 operation(s) for households.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Households API from Luminary — 5 operation(s) for households.
   name: Luminary Households API
   slug: luminary-households-api
-- description: The Individuals API from Luminary — 3 operation(s) for individuals.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Individuals API from Luminary — 3 operation(s) for individuals.
   name: Luminary Individuals API
   slug: luminary-individuals-api
-- description: The Users API from Luminary — 2 operation(s) for users.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Users API from Luminary — 2 operation(s) for users.
   name: Luminary Users API
   slug: luminary-users-api
-- description: The Valuations API from Luminary — 1 operation(s) for valuations.
+- baseURL: https://lum.withluminary.com/api/public/v1
+  baseurl_source: declared
+  description: The Valuations API from Luminary — 1 operation(s) for valuations.
   name: Luminary Valuations API
   slug: luminary-valuations-api
 artifact_total: 19
@@ -241,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/screenshots/luminary-2026-07-25T225714.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -45,52 +45,82 @@ agentic_access:
   summary_line: 80 operations · 32 acting
 api_count: 3
 apis:
-- description: Account Management API and Usage APIs
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Account Management API and Usage APIs
   name: Meltwater Account Management API
   slug: meltwater-account-management-api
-- description: Upload your own content into the Meltwater Platform.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Upload your own content into the Meltwater Platform.
   name: Meltwater Bring Your Own Content (BYOC) API
   slug: meltwater-bring-your-own-content-byoc-api
-- description: Fetch analytics on data within your private index.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Fetch analytics on data within your private index.
   name: Meltwater Explore+ Analytics API
   slug: meltwater-explore-analytics-api
-- description: Manage your Explore+ assets including searches and custom fields.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Manage your Explore+ assets including searches and custom fields.
   name: Meltwater Explore+ Assets API
   slug: meltwater-explore-assets-api
-- description: Export earned documents from your private index.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Export earned documents from your private index.
   name: Meltwater Explore+ Search API
   slug: meltwater-explore-search-api
-- description: Analyse multiple types of Meltwater data, run volume time series, top tags and sentiment counts.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Analyse multiple types of Meltwater data, run volume time series, top tags and sentiment counts.
   name: Meltwater Listening Analytics API
   slug: meltwater-listening-analytics-api
-- description: Data exports for onetime and recurring jobs.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Data exports for onetime and recurring jobs.
   name: Meltwater Listening Exports API
   slug: meltwater-listening-exports-api
-- description: Search Meltwater data using saved searches to integrate with your own API connectors and internal systems.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Search Meltwater data using saved searches to integrate with your own API connectors and internal systems.
   name: Meltwater Listening Search API
   slug: meltwater-listening-search-api
-- description: Manage Saved Searches
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Manage Saved Searches
   name: Meltwater Listening Search Management API
   slug: meltwater-listening-search-management-api
-- description: Streaming of Meltwater data to integrate with your internal systems and workflows.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Streaming of Meltwater data to integrate with your internal systems and workflows.
   name: Meltwater Listening Streaming API
   slug: meltwater-listening-streaming-api
-- description: AI-powered chat completion and project listing features.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: AI-powered chat completion and project listing features.
   name: Meltwater Mira API API
   slug: meltwater-mira-api-api
-- description: Retrieve owned social metrics and analytics.
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Retrieve owned social metrics and analytics.
   name: Meltwater Owned Analytics API
   slug: meltwater-owned-analytics-api
 - description: Meltwater MCP is a single remote Model Context Protocol server that exposes a customer's Meltwater assets (saved searches, tags and other configured objects) and Meltwater data (news and social mentio
   name: Meltwater MCP
   slug: meltwater-mcp
-- description: Analyze data with metrics and KPIs for LLM prompts
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Analyze data with metrics and KPIs for LLM prompts
   name: Meltwater Analyze API
   slug: meltwater-analyze-api
-- description: Export content and manage export jobs
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Export content and manage export jobs
   name: Meltwater Export API
   slug: meltwater-export-api
-- description: Endpoints to list LLM prompts and folders available for analytics
+- baseURL: https://api.meltwater.com
+  baseurl_source: declared
+  description: Endpoints to list LLM prompts and folders available for analytics
   name: Meltwater LLM API
   slug: meltwater-llm-api
 artifact_total: 44
@@ -404,7 +434,7 @@ score:
     catalog_gap: 31.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -414,7 +444,7 @@ score:
     discoverability: 81.5
     governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 71.2
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -426,7 +456,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/screenshots/meltwater-2026-06-20T185137.png
 security:

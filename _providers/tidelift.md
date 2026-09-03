@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 2
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 66 operations · 33 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alignments API from Tidelift — 4 operation(s) for alignments.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Alignments API from Tidelift — 4 operation(s) for alignments.
   name: Tidelift Alignments API
   slug: tidelift-alignments-api
-- description: The Attestations API from Tidelift — 2 operation(s) for attestations.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Attestations API from Tidelift — 2 operation(s) for attestations.
   name: Tidelift Attestations API
   slug: tidelift-attestations-api
-- description: A [Tidelift API key](https://docs.tidelift.com/article/79-api-authentication) is required for all endpoints. If a particular type of API key is required it will be noted on the path. <SecurityDefiniti
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: A [Tidelift API key](https://docs.tidelift.com/article/79-api-authentication) is required for all endpoints. If a particular type of API key is required it will be noted on the path. <SecurityDefiniti
   name: Tidelift Authentication API
   slug: tidelift-authentication-api
-- description: '* curl ``` curl -H "Accept: application/json" \ -H "Authorization: bearer <your Tidelift API key>" \ https://api.tidelift.com/external-api/v1/packages/pypi/urllib3 ``` More detailed examples can be fo'
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: '* curl ``` curl -H "Accept: application/json" \ -H "Authorization: bearer <your Tidelift API key>" \ https://api.tidelift.com/external-api/v1/packages/pypi/urllib3 ``` More detailed examples can be fo'
   name: Tidelift Basic Examples API
   slug: tidelift-basic-examples-api
-- description: The Catalog Releases API from Tidelift — 7 operation(s) for catalog releases.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Catalog Releases API from Tidelift — 7 operation(s) for catalog releases.
   name: Tidelift Catalog Releases API
   slug: tidelift-catalog-releases-api
-- description: The Catalogs API from Tidelift — 9 operation(s) for catalogs.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Catalogs API from Tidelift — 9 operation(s) for catalogs.
   name: Tidelift Catalogs API
   slug: tidelift-catalogs-api
-- description: The CatalogStandards API from Tidelift — 3 operation(s) for catalogstandards.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The CatalogStandards API from Tidelift — 3 operation(s) for catalogstandards.
   name: Tidelift CatalogStandards API
   slug: tidelift-catalogstandards-api
-- description: The Groups API from Tidelift — 5 operation(s) for groups.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Groups API from Tidelift — 5 operation(s) for groups.
   name: Tidelift Groups API
   slug: tidelift-groups-api
-- description: The Licenses API from Tidelift — 5 operation(s) for licenses.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Licenses API from Tidelift — 5 operation(s) for licenses.
   name: Tidelift Licenses API
   slug: tidelift-licenses-api
-- description: The Packages API from Tidelift — 6 operation(s) for packages.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Packages API from Tidelift — 6 operation(s) for packages.
   name: Tidelift Packages API
   slug: tidelift-packages-api
-- description: The Projects API from Tidelift — 6 operation(s) for projects.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Projects API from Tidelift — 6 operation(s) for projects.
   name: Tidelift Projects API
   slug: tidelift-projects-api
-- description: The Releases API from Tidelift — 5 operation(s) for releases.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Releases API from Tidelift — 5 operation(s) for releases.
   name: Tidelift Releases API
   slug: tidelift-releases-api
-- description: The Reports API from Tidelift — 3 operation(s) for reports.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Reports API from Tidelift — 3 operation(s) for reports.
   name: Tidelift Reports API
   slug: tidelift-reports-api
-- description: The Users API from Tidelift — 1 operation(s) for users.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Users API from Tidelift — 1 operation(s) for users.
   name: Tidelift Users API
   slug: tidelift-users-api
-- description: The Vulnerabilities API from Tidelift — 2 operation(s) for vulnerabilities.
+- baseURL: https://api.tidelift.com/external-api
+  baseurl_source: declared
+  description: The Vulnerabilities API from Tidelift — 2 operation(s) for vulnerabilities.
   name: Tidelift Vulnerabilities API
   slug: tidelift-vulnerabilities-api
 arazzos:
@@ -295,7 +325,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -305,7 +335,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 39.5
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,7 +347,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/screenshots/tidelift-2026-08-17T082353.png
 security:

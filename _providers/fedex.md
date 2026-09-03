@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -68,10 +68,14 @@ apis:
 - description: Shipment Visibility Webhook pushes near real-time tracking events to a registered HTTPS endpoint, eliminating the need to repeatedly poll the Track API for shipment status changes.
   name: FedEx Shipment Visibility Webhook
   slug: shipment-visibility-webhook
-- description: OAuth 2.0 token issuance for FedEx APIs
+- baseURL: https://apis.fedex.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance for FedEx APIs
   name: FedEx Authorization API
   slug: fedex-authorization-api
-- description: Track API v1 operations
+- baseURL: https://apis.fedex.com
+  baseurl_source: declared
+  description: Track API v1 operations
   name: FedEx Track API
   slug: fedex-track-api
 artifact_total: 24
@@ -205,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png
 security:

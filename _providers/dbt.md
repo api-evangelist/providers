@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 3
 apis:
-- description: The Accounts API from dbt — 1 operation(s) for accounts.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Accounts API from dbt — 1 operation(s) for accounts.
   name: dbt Accounts API
   slug: dbt-accounts-api
-- description: The Environments API from dbt — 1 operation(s) for environments.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Environments API from dbt — 1 operation(s) for environments.
   name: dbt Environments API
   slug: dbt-environments-api
-- description: The Jobs API from dbt — 1 operation(s) for jobs.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Jobs API from dbt — 1 operation(s) for jobs.
   name: dbt Jobs API
   slug: dbt-jobs-api
-- description: The Metadata API from dbt — 1 operation(s) for metadata.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Metadata API from dbt — 1 operation(s) for metadata.
   name: dbt Metadata API
   slug: dbt-metadata-api
-- description: The Metrics API from dbt — 1 operation(s) for metrics.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Metrics API from dbt — 1 operation(s) for metrics.
   name: dbt Metrics API
   slug: dbt-metrics-api
-- description: The Projects API from dbt — 2 operation(s) for projects.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Projects API from dbt — 2 operation(s) for projects.
   name: dbt Projects API
   slug: dbt-projects-api
-- description: The Runs API from dbt — 4 operation(s) for runs.
+- baseURL: https://cloud.getdbt.com/api/v3
+  baseurl_source: declared
+  description: The Runs API from dbt — 4 operation(s) for runs.
   name: dbt Runs API
   slug: dbt-runs-api
 arazzos:
@@ -363,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dbt/refs/heads/main/screenshots/dbt-2026-06-20T175739.png
 security:

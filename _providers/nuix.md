@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -50,37 +50,59 @@ apis:
 - description: GraphQL-based API for querying and managing discovery data within Nuix Discover, supporting queries and mutations for document review, production sets, and legal analytics workflows.
   name: Nuix Discover Connect API
   slug: nuix-discover-connect-api
-- description: The Case API from Nuix — 3 operation(s) for case.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Case API from Nuix — 3 operation(s) for case.
   name: Nuix Case API
   slug: nuix-case-api
-- description: The Collection and Survey API from Nuix — 4 operation(s) for collection and survey.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Collection and Survey API from Nuix — 4 operation(s) for collection and survey.
   name: Nuix Collection and Survey API
   slug: nuix-collection-and-survey-api
-- description: The Collection Configuration API from Nuix — 2 operation(s) for collection configuration.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Collection Configuration API from Nuix — 2 operation(s) for collection configuration.
   name: Nuix Collection Configuration API
   slug: nuix-collection-configuration-api
-- description: The Computer API from Nuix — 1 operation(s) for computer.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Computer API from Nuix — 1 operation(s) for computer.
   name: Nuix Computer API
   slug: nuix-computer-api
-- description: The Computer Configuration API from Nuix — 2 operation(s) for computer configuration.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Computer Configuration API from Nuix — 2 operation(s) for computer configuration.
   name: Nuix Computer Configuration API
   slug: nuix-computer-configuration-api
-- description: The Custodian API from Nuix — 1 operation(s) for custodian.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Custodian API from Nuix — 1 operation(s) for custodian.
   name: Nuix Custodian API
   slug: nuix-custodian-api
-- description: The Group API from Nuix — 2 operation(s) for group.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Group API from Nuix — 2 operation(s) for group.
   name: Nuix Group API
   slug: nuix-group-api
-- description: The Job API from Nuix — 3 operation(s) for job.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Job API from Nuix — 3 operation(s) for job.
   name: Nuix Job API
   slug: nuix-job-api
-- description: The Log API from Nuix — 1 operation(s) for log.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Log API from Nuix — 1 operation(s) for log.
   name: Nuix Log API
   slug: nuix-log-api
-- description: The Target API from Nuix — 3 operation(s) for target.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Target API from Nuix — 3 operation(s) for target.
   name: Nuix Target API
   slug: nuix-target-api
-- description: The Utility API from Nuix — 3 operation(s) for utility.
+- baseURL: https://localhost:4444
+  baseurl_source: declared
+  description: The Utility API from Nuix — 3 operation(s) for utility.
   name: Nuix Utility API
   slug: nuix-utility-api
 artifact_total: 368
@@ -1258,7 +1280,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

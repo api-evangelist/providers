@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,7 +48,9 @@ apis:
 - description: Open's browser JavaScript library for embedding insurance into a partner's web app. Documented methods are opensdk.quote.load, opensdk.quote.prepare, opensdk.quote.portal, opensdk.quote.status, opensd
   name: Open.js Embedded Insurance SDK
   slug: open-js-embedded-insurance-sdk
-- description: The Policy API from Open — 1 operation(s) for policy.
+- baseURL: https://api.beopen.com
+  baseurl_source: declared
+  description: The Policy API from Open — 1 operation(s) for policy.
   name: Open Policy API
   slug: open-insurance-policy-api
 artifact_total: 7
@@ -255,7 +269,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

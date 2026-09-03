@@ -32,34 +32,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 12
 apis:
-- description: The Event management API from CrossEngage — 1 operation(s) for event management.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Event management API from CrossEngage — 1 operation(s) for event management.
   name: CrossEngage Event management API
   slug: crossenagage-event-management-api
-- description: The File Attachment API API from CrossEngage — 1 operation(s) for file attachment api.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The File Attachment API API from CrossEngage — 1 operation(s) for file attachment api.
   name: CrossEngage File Attachment API
   slug: crossenagage-file-attachment-api-api
-- description: The Lead management API from CrossEngage — 1 operation(s) for lead management.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Lead management API from CrossEngage — 1 operation(s) for lead management.
   name: CrossEngage Lead management API
   slug: crossenagage-lead-management-api
-- description: The Opt-out management API from CrossEngage — 3 operation(s) for opt-out management.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Opt-out management API from CrossEngage — 3 operation(s) for opt-out management.
   name: CrossEngage Opt-out management API
   slug: crossenagage-opt-out-management-api
-- description: The product-feed API from CrossEngage — 2 operation(s) for product-feed.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The product-feed API from CrossEngage — 2 operation(s) for product-feed.
   name: CrossEngage Product Feed API
   slug: crossenagage-product-feed-api
-- description: The Raw Export API API from CrossEngage — 5 operation(s) for raw export api.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Raw Export API API from CrossEngage — 5 operation(s) for raw export api.
   name: CrossEngage Raw Export API
   slug: crossenagage-raw-export-api-api
-- description: The Statistics API API from CrossEngage — 4 operation(s) for statistics api.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The Statistics API API from CrossEngage — 4 operation(s) for statistics api.
   name: CrossEngage Statistics API
   slug: crossenagage-statistics-api-api
-- description: The User Attribute Management API from CrossEngage — 2 operation(s) for user attribute management.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The User Attribute Management API from CrossEngage — 2 operation(s) for user attribute management.
   name: CrossEngage User Attribute Management API
   slug: crossenagage-user-attribute-management-api
-- description: The User profile management API from CrossEngage — 5 operation(s) for user profile management.
+- baseURL: https://api.crossengage.io
+  baseurl_source: declared
+  description: The User profile management API from CrossEngage — 5 operation(s) for user profile management.
   name: CrossEngage User profile management API
   slug: crossenagage-user-profile-management-api
 artifact_total: 23
@@ -305,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: Secure WebSocket stream that delivers realtime events to a Pushbullet account, including periodic `nop` keep-alives, `tickle` notifications that signal changes to pushes or devices, and `push` ephemer
   name: Pushbullet Realtime Event Stream
   slug: realtime-event-stream
-- description: The Channels API from Pushbullet — 2 operation(s) for channels.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Channels API from Pushbullet — 2 operation(s) for channels.
   name: Pushbullet Channels API
   slug: pushbullet-channels-api
-- description: The Chats API from Pushbullet — 2 operation(s) for chats.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Chats API from Pushbullet — 2 operation(s) for chats.
   name: Pushbullet Chats API
   slug: pushbullet-chats-api
-- description: The Devices API from Pushbullet — 2 operation(s) for devices.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Devices API from Pushbullet — 2 operation(s) for devices.
   name: Pushbullet Devices API
   slug: pushbullet-devices-api
-- description: The Ephemerals API from Pushbullet — 1 operation(s) for ephemerals.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Ephemerals API from Pushbullet — 1 operation(s) for ephemerals.
   name: Pushbullet Ephemerals API
   slug: pushbullet-ephemerals-api
-- description: The Pushes API from Pushbullet — 2 operation(s) for pushes.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Pushes API from Pushbullet — 2 operation(s) for pushes.
   name: Pushbullet Pushes API
   slug: pushbullet-pushes-api
-- description: The Subscriptions API from Pushbullet — 2 operation(s) for subscriptions.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Subscriptions API from Pushbullet — 2 operation(s) for subscriptions.
   name: Pushbullet Subscriptions API
   slug: pushbullet-subscriptions-api
-- description: The Texts API from Pushbullet — 1 operation(s) for texts.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Texts API from Pushbullet — 1 operation(s) for texts.
   name: Pushbullet Texts API
   slug: pushbullet-texts-api
-- description: The Upload API from Pushbullet — 1 operation(s) for upload.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Upload API from Pushbullet — 1 operation(s) for upload.
   name: Pushbullet Upload API
   slug: pushbullet-upload-api
-- description: The Users API from Pushbullet — 1 operation(s) for users.
+- baseURL: https://api.pushbullet.com/v2
+  baseurl_source: declared
+  description: The Users API from Pushbullet — 1 operation(s) for users.
   name: Pushbullet Users API
   slug: pushbullet-users-api
 artifact_total: 27
@@ -218,7 +236,7 @@ score:
     regime_id: telecommunications
     score: 40.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/screenshots/pushbullet-2026-06-20T192316.png
 security:

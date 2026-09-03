@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 17 operations · 8 acting
 api_count: 1
 apis:
-- description: Resource-pack balance and consumption.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Resource-pack balance and consumption.
   name: Kling AI Account API
   slug: kling-ai-account-api
-- description: Generate still images with the Kolors models.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Generate still images with the Kolors models.
   name: Kling AI Image Generation API
   slug: kling-ai-image-generation-api
-- description: Animate images into video.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Animate images into video.
   name: Kling AI Image-to-Video API
   slug: kling-ai-image-to-video-api
-- description: Sync a subject's lips to speech or audio.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Sync a subject's lips to speech or audio.
   name: Kling AI Lip-Sync API
   slug: kling-ai-lip-sync-api
-- description: Generate video from a text prompt.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Generate video from a text prompt.
   name: Kling AI Text-to-Video API
   slug: kling-ai-text-to-video-api
-- description: Apply preset creative effects to images.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Apply preset creative effects to images.
   name: Kling AI Video Effects API
   slug: kling-ai-video-effects-api
-- description: Extend an existing generated video.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Extend an existing generated video.
   name: Kling AI Video Extension API
   slug: kling-ai-video-extension-api
-- description: Composite a garment onto a person image.
+- baseURL: https://api.klingai.com/v1
+  baseurl_source: declared
+  description: Composite a garment onto a person image.
   name: Kling AI Virtual Try-On API
   slug: kling-ai-virtual-try-on-api
 artifact_total: 23
@@ -185,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kling-ai/refs/heads/main/screenshots/kling-ai-2026-07-25T223947.png
 security:

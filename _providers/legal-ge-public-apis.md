@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 2
 apis:
-- description: Look up services, practice areas and verified specialists on legal.ge.
+- baseURL: https://legal.ge
+  baseurl_source: declared
+  description: Look up services, practice areas and verified specialists on legal.ge.
   name: legal.ge Public APIs Directory API
   slug: legal-ge-public-apis-directory-api
-- description: Map a free-text legal question to practice areas, and optionally to ranked verified specialists.
+- baseURL: https://legal.ge
+  baseurl_source: declared
+  description: Map a free-text legal question to practice areas, and optionally to ranked verified specialists.
   name: legal.ge Public APIs Matching API
   slug: legal-ge-public-apis-matching-api
 artifact_total: 11
@@ -218,7 +234,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png
 security:

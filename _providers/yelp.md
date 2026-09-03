@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 5
 apis:
-- description: Conversational Yelp Fusion AI search and chat
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: Conversational Yelp Fusion AI search and chat
   name: Yelp AI API
   slug: yelp-ai-api
-- description: Search, match, and retrieve local business data
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: Search, match, and retrieve local business data
   name: Yelp Businesses API
   slug: yelp-businesses-api
-- description: Yelp business category taxonomy
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: Yelp business category taxonomy
   name: Yelp Categories API
   slug: yelp-categories-api
-- description: Local event search and details
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: Local event search and details
   name: Yelp Events API
   slug: yelp-events-api
-- description: Business review excerpts and ratings
+- baseURL: https://api.yelp.com
+  baseurl_source: declared
+  description: Business review excerpts and ratings
   name: Yelp Reviews API
   slug: yelp-reviews-api
 artifact_total: 85
@@ -485,7 +495,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:

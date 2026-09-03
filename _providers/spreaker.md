@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 61 operations · 28 acting
 api_count: 1
 apis:
-- description: Advertisers, campaigns, and line items for direct ad sales.
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: Advertisers, campaigns, and line items for direct ad sales.
   name: Spreaker Advertising API
   slug: spreaker-advertising-api
-- description: Episodes, uploads, playback, likes, bookmarks, messages, chapters, cuepoints.
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: Episodes, uploads, playback, likes, bookmarks, messages, chapters, cuepoints.
   name: Spreaker Episodes API
   slug: spreaker-episodes-api
-- description: Search, explore categories, tags, and oEmbed.
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: Search, explore categories, tags, and oEmbed.
   name: Spreaker Search and Discovery API
   slug: spreaker-search-and-discovery-api
-- description: Podcast shows, favorites, and reference data.
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: Podcast shows, favorites, and reference data.
   name: Spreaker Shows API
   slug: spreaker-shows-api
-- description: Playback and engagement analytics at user, show, and episode level.
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: Playback and engagement analytics at user, show, and episode level.
   name: Spreaker Statistics API
   slug: spreaker-statistics-api
-- description: User profiles and social graph (followers, followings, blocks).
+- baseURL: https://api.spreaker.com/v2
+  baseurl_source: declared
+  description: User profiles and social graph (followers, followings, blocks).
   name: Spreaker Users API
   slug: spreaker-users-api
 artifact_total: 22
@@ -171,7 +183,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -194,8 +206,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spreaker/refs/heads/main/screenshots/spreaker-2026-09-02T160606.png
 security:
 - kind: authentication
   name: Spreaker Authentication

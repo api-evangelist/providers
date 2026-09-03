@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Convert an amount between two currencies.
+- baseURL: https://api.fxratesapi.com
+  baseurl_source: declared
+  description: Convert an amount between two currencies.
   name: FXRatesAPI Convert API
   slug: fxratesapi-convert-api
-- description: List of supported currencies and their metadata.
+- baseURL: https://api.fxratesapi.com
+  baseurl_source: declared
+  description: List of supported currencies and their metadata.
   name: FXRatesAPI Currencies API
   slug: fxratesapi-currencies-api
-- description: Exchange rates for a specific past date.
+- baseURL: https://api.fxratesapi.com
+  baseurl_source: declared
+  description: Exchange rates for a specific past date.
   name: FXRatesAPI Historical Rates API
   slug: fxratesapi-historical-rates-api
-- description: Most recent exchange rates for a base currency.
+- baseURL: https://api.fxratesapi.com
+  baseurl_source: declared
+  description: Most recent exchange rates for a base currency.
   name: FXRatesAPI Latest Rates API
   slug: fxratesapi-latest-rates-api
-- description: Daily exchange rates across a date range.
+- baseURL: https://api.fxratesapi.com
+  baseurl_source: declared
+  description: Daily exchange rates across a date range.
   name: FXRatesAPI Time-Series API
   slug: fxratesapi-time-series-api
 artifact_total: 18
@@ -167,7 +177,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/screenshots/fxratesapi-2026-07-25T215340.png
 security:

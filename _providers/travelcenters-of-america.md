@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Fuel code management for fleet operators
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Fuel code management for fleet operators
   name: TravelCenters of America Fuel Codes API
   slug: travelcenters-of-america-fuel-codes-api
-- description: Travel center location search and amenity data
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Travel center location search and amenity data
   name: TravelCenters of America Locations API
   slug: travelcenters-of-america-locations-api
-- description: Parking availability at travel centers
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Parking availability at travel centers
   name: TravelCenters of America Parking API
   slug: travelcenters-of-america-parking-api
-- description: Fuel and service pricing data
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Fuel and service pricing data
   name: TravelCenters of America Pricing API
   slug: travelcenters-of-america-pricing-api
-- description: Shower facility availability
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Shower facility availability
   name: TravelCenters of America Showers API
   slug: travelcenters-of-america-showers-api
-- description: Work order management for TA Truck Service
+- baseURL: https://api.accessta.com/v1
+  baseurl_source: declared
+  description: Work order management for TA Truck Service
   name: TravelCenters of America Truck Service API
   slug: travelcenters-of-america-truck-service-api
 artifact_total: 27
@@ -234,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/screenshots/travelcenters-of-america-2026-06-20T195634.png
 security:

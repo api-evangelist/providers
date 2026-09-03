@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 43 operations · 17 acting
 api_count: 1
 apis:
-- description: The Accounts Payable API from Campfire — 2 operation(s) for accounts payable.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Accounts Payable API from Campfire — 2 operation(s) for accounts payable.
   name: Campfire Accounts Payable API
   slug: campfire-hq-accounts-payable-api
-- description: The Accounts Receivable API from Campfire — 3 operation(s) for accounts receivable.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Accounts Receivable API from Campfire — 3 operation(s) for accounts receivable.
   name: Campfire Accounts Receivable API
   slug: campfire-hq-accounts-receivable-api
-- description: The Bank Reconciliation API from Campfire — 1 operation(s) for bank reconciliation.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Bank Reconciliation API from Campfire — 1 operation(s) for bank reconciliation.
   name: Campfire Bank Reconciliation API
   slug: campfire-hq-bank-reconciliation-api
-- description: The Cash Management API from Campfire — 2 operation(s) for cash management.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Cash Management API from Campfire — 2 operation(s) for cash management.
   name: Campfire Cash Management API
   slug: campfire-hq-cash-management-api
-- description: The coa API from Campfire — 1 operation(s) for coa.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The coa API from Campfire — 1 operation(s) for coa.
   name: Campfire coa API
   slug: campfire-hq-coa-api
-- description: The Company Objects API from Campfire — 2 operation(s) for company objects.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Company Objects API from Campfire — 2 operation(s) for company objects.
   name: Campfire Company Objects API
   slug: campfire-hq-company-objects-api
-- description: The Core Accounting API from Campfire — 4 operation(s) for core accounting.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Core Accounting API from Campfire — 4 operation(s) for core accounting.
   name: Campfire Core Accounting API
   slug: campfire-hq-core-accounting-api
-- description: The Custom Fields API from Campfire — 1 operation(s) for custom fields.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Custom Fields API from Campfire — 1 operation(s) for custom fields.
   name: Campfire Custom Fields API
   slug: campfire-hq-custom-fields-api
-- description: The Financial Statements API from Campfire — 6 operation(s) for financial statements.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Financial Statements API from Campfire — 6 operation(s) for financial statements.
   name: Campfire Financial Statements API
   slug: campfire-hq-financial-statements-api
-- description: The Integrations API from Campfire — 2 operation(s) for integrations.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Integrations API from Campfire — 2 operation(s) for integrations.
   name: Campfire Integrations API
   slug: campfire-hq-integrations-api
-- description: The Revenue Recognition API from Campfire — 3 operation(s) for revenue recognition.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Revenue Recognition API from Campfire — 3 operation(s) for revenue recognition.
   name: Campfire Revenue Recognition API
   slug: campfire-hq-revenue-recognition-api
-- description: The Settings API from Campfire — 2 operation(s) for settings.
+- baseURL: https://api.meetcampfire.com
+  baseurl_source: declared
+  description: The Settings API from Campfire — 2 operation(s) for settings.
   name: Campfire Settings API
   slug: campfire-hq-settings-api
 artifact_total: 32
@@ -217,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire-hq/refs/heads/main/screenshots/campfire-hq-2026-07-25T204316.png
 security:

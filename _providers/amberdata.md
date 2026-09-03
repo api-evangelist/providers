@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 240 operations
 api_count: 10
 apis:
-- description: Low-latency real-time WebSocket streaming over a JSON-RPC 2.0 subscribe interface for spot trades and prices, DEX data, and on-chain events, authenticated with the x-api-key header.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: Low-latency real-time WebSocket streaming over a JSON-RPC 2.0 subscribe interface for spot trades and prices, DEX data, and on-chain events, authenticated with the x-api-key header.
   name: Amberdata WebSocket Streaming API
   slug: websocket-streaming
-- description: Decentralized finance (DEX and lending) data.
+- baseURL: https://api.amberdata.com/defi
+  baseurl_source: declared
+  description: Decentralized finance (DEX and lending) data.
   name: Amberdata DeFi API
   slug: amberdata-defi-api
-- description: Futures and perpetuals market data and derivatives analytics (funding rates, open interest, liquidations, basis).
+- baseURL: https://api.amberdata.com/markets/derivatives
+  baseurl_source: declared
+  description: Futures and perpetuals market data and derivatives analytics (funding rates, open interest, liquidations, basis).
   name: Amberdata Futures API
   slug: amberdata-futures-api
-- description: On-chain blockchain data (blocks, transactions, addresses, tokens).
+- baseURL: https://api.amberdata.com/blockchains
+  baseurl_source: declared
+  description: On-chain blockchain data (blocks, transactions, addresses, tokens).
   name: Amberdata On-Chain API
   slug: amberdata-on-chain-api
-- description: Options market data and volatility analytics (implied volatility, Greeks, surfaces, term structures).
+- baseURL: https://api.amberdata.com/markets/derivatives
+  baseurl_source: declared
+  description: Options market data and volatility analytics (implied volatility, Greeks, surfaces, term structures).
   name: Amberdata Options API
   slug: amberdata-options-api
-- description: Spot market analytics across supported exchanges (order-book depth, trade analytics).
+- baseURL: https://api.amberdata.com/markets/spot/analytics
+  baseurl_source: declared
+  description: Spot market analytics across supported exchanges (order-book depth, trade analytics).
   name: Amberdata Spot API
   slug: amberdata-spot-api
-- description: The Addresses API from Amberdata — 10 operation(s) for addresses.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Addresses API from Amberdata — 10 operation(s) for addresses.
   name: Amberdata Addresses API
   slug: amberdata-addresses-api
-- description: The Analytics API from Amberdata — 73 operation(s) for analytics.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Analytics API from Amberdata — 73 operation(s) for analytics.
   name: Amberdata Analytics API
   slug: amberdata-analytics-api
-- description: The Blocks API from Amberdata — 1 operation(s) for blocks.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Blocks API from Amberdata — 1 operation(s) for blocks.
   name: Amberdata Blocks API
   slug: amberdata-blocks-api
-- description: The Classifications API from Amberdata — 1 operation(s) for classifications.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Classifications API from Amberdata — 1 operation(s) for classifications.
   name: Amberdata Classifications API
   slug: amberdata-classifications-api
-- description: The Contracts API from Amberdata — 1 operation(s) for contracts.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Contracts API from Amberdata — 1 operation(s) for contracts.
   name: Amberdata Contracts API
   slug: amberdata-contracts-api
-- description: The Depth API from Amberdata — 7 operation(s) for depth.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Depth API from Amberdata — 7 operation(s) for depth.
   name: Amberdata Depth API
   slug: amberdata-depth-api
-- description: The Dex API from Amberdata — 6 operation(s) for dex.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Dex API from Amberdata — 6 operation(s) for dex.
   name: Amberdata Dex API
   slug: amberdata-dex-api
-- description: The Exchanges API from Amberdata — 5 operation(s) for exchanges.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Exchanges API from Amberdata — 5 operation(s) for exchanges.
   name: Amberdata Exchanges API
   slug: amberdata-exchanges-api
-- description: The Lending API from Amberdata — 10 operation(s) for lending.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Lending API from Amberdata — 10 operation(s) for lending.
   name: Amberdata Lending API
   slug: amberdata-lending-api
-- description: The Liquidity API from Amberdata — 1 operation(s) for liquidity.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Liquidity API from Amberdata — 1 operation(s) for liquidity.
   name: Amberdata Liquidity API
   slug: amberdata-liquidity-api
-- description: The Marketcap API from Amberdata — 1 operation(s) for marketcap.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Marketcap API from Amberdata — 1 operation(s) for marketcap.
   name: Amberdata Marketcap API
   slug: amberdata-marketcap-api
-- description: The Metrics API from Amberdata — 7 operation(s) for metrics.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Metrics API from Amberdata — 7 operation(s) for metrics.
   name: Amberdata Metrics API
   slug: amberdata-metrics-api
-- description: The Ohlcv API from Amberdata — 2 operation(s) for ohlcv.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Ohlcv API from Amberdata — 2 operation(s) for ohlcv.
   name: Amberdata Ohlcv API
   slug: amberdata-ohlcv-api
-- description: The Prices API from Amberdata — 4 operation(s) for prices.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Prices API from Amberdata — 4 operation(s) for prices.
   name: Amberdata Prices API
   slug: amberdata-prices-api
-- description: The Search API from Amberdata — 1 operation(s) for search.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Search API from Amberdata — 1 operation(s) for search.
   name: Amberdata Search API
   slug: amberdata-search-api
-- description: The Stablecoins API from Amberdata — 1 operation(s) for stablecoins.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Stablecoins API from Amberdata — 1 operation(s) for stablecoins.
   name: Amberdata Stablecoins API
   slug: amberdata-stablecoins-api
-- description: The Supply API from Amberdata — 2 operation(s) for supply.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Supply API from Amberdata — 2 operation(s) for supply.
   name: Amberdata Supply API
   slug: amberdata-supply-api
-- description: The Tokens API from Amberdata — 6 operation(s) for tokens.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Tokens API from Amberdata — 6 operation(s) for tokens.
   name: Amberdata Tokens API
   slug: amberdata-tokens-api
-- description: The Trade API from Amberdata — 6 operation(s) for trade.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Trade API from Amberdata — 6 operation(s) for trade.
   name: Amberdata Trade API
   slug: amberdata-trade-api
-- description: The Transactions API from Amberdata — 1 operation(s) for transactions.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Transactions API from Amberdata — 1 operation(s) for transactions.
   name: Amberdata Transactions API
   slug: amberdata-transactions-api
-- description: The Updates API from Amberdata — 1 operation(s) for updates.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Updates API from Amberdata — 1 operation(s) for updates.
   name: Amberdata Updates API
   slug: amberdata-updates-api
-- description: The Volumes API from Amberdata — 2 operation(s) for volumes.
+- baseURL: wss://ws.web3api.io
+  baseurl_source: declared
+  description: The Volumes API from Amberdata — 2 operation(s) for volumes.
   name: Amberdata Volumes API
   slug: amberdata-volumes-api
 artifact_total: 58
@@ -386,7 +442,7 @@ score:
     catalog_gap: 48.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -396,7 +452,7 @@ score:
     discoverability: 81.5
     governance: 15.9
     operational_transparency: 65.8
-  previous_composite: 55.3
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,7 +470,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:

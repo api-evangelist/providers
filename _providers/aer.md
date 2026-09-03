@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Australian Energy Regulator Data Holder Customers API
   slug: aer-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Australian Energy Regulator Data Holder Operations API
   slug: aer-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Australian Energy Regulator Distributed Energy Resources API
   slug: aer-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Australian Energy Regulator Electricity Service Points API
   slug: aer-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Australian Energy Regulator Electricity Usage API
   slug: aer-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Australian Energy Regulator Energy Account Balances API
   slug: aer-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Australian Energy Regulator Energy Account Billing API
   slug: aer-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Australian Energy Regulator Energy Accounts API
   slug: aer-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/agl/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Australian Energy Regulator Energy Plans API
   slug: aer-energy-plans-api
 artifact_total: 16
@@ -287,7 +317,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 2
@@ -53,46 +53,74 @@ apis:
 - description: Zulip supports both incoming webhooks (allowing third-party services to push data to Zulip) and outgoing webhooks (allowing Zulip to send HTTP POST payloads to external services when messages are sent
   name: Zulip Webhooks
   slug: webhooks
-- description: The authentication API from Zulip — 4 operation(s) for authentication.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The authentication API from Zulip — 4 operation(s) for authentication.
   name: Zulip authentication API
   slug: zulip-authentication-api
-- description: The bots API from Zulip — 1 operation(s) for bots.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The bots API from Zulip — 1 operation(s) for bots.
   name: Zulip bots API
   slug: zulip-bots-api
-- description: The channels API from Zulip — 23 operation(s) for channels.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The channels API from Zulip — 23 operation(s) for channels.
   name: Zulip channels API
   slug: zulip-channels-api
-- description: The drafts API from Zulip — 4 operation(s) for drafts.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The drafts API from Zulip — 4 operation(s) for drafts.
   name: Zulip drafts API
   slug: zulip-drafts-api
-- description: The invites API from Zulip — 5 operation(s) for invites.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The invites API from Zulip — 5 operation(s) for invites.
   name: Zulip invites API
   slug: zulip-invites-api
-- description: The messages API from Zulip — 16 operation(s) for messages.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The messages API from Zulip — 16 operation(s) for messages.
   name: Zulip messages API
   slug: zulip-messages-api
-- description: The mobile API from Zulip — 6 operation(s) for mobile.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The mobile API from Zulip — 6 operation(s) for mobile.
   name: Zulip mobile API
   slug: zulip-mobile-api
-- description: The navigation_views API from Zulip — 2 operation(s) for navigation_views.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The navigation_views API from Zulip — 2 operation(s) for navigation_views.
   name: Zulip navigation_views API
   slug: zulip-navigation-views-api
-- description: The real_time_events API from Zulip — 4 operation(s) for real_time_events.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The real_time_events API from Zulip — 4 operation(s) for real_time_events.
   name: Zulip real_time_events API
   slug: zulip-real-time-events-api
-- description: The reminders API from Zulip — 2 operation(s) for reminders.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The reminders API from Zulip — 2 operation(s) for reminders.
   name: Zulip reminders API
   slug: zulip-reminders-api
-- description: The scheduled_messages API from Zulip — 2 operation(s) for scheduled_messages.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The scheduled_messages API from Zulip — 2 operation(s) for scheduled_messages.
   name: Zulip scheduled_messages API
   slug: zulip-scheduled-messages-api
-- description: The server_and_organizations API from Zulip — 16 operation(s) for server_and_organizations.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The server_and_organizations API from Zulip — 16 operation(s) for server_and_organizations.
   name: Zulip server_and_organizations API
   slug: zulip-server-and-organizations-api
-- description: The users API from Zulip — 29 operation(s) for users.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The users API from Zulip — 29 operation(s) for users.
   name: Zulip users API
   slug: zulip-users-api
-- description: The webhooks API from Zulip — 1 operation(s) for webhooks.
+- baseURL_template: https://{subdomain}.zulipchat.com/api/v1
+  baseurl_source: spec_template
+  description: The webhooks API from Zulip — 1 operation(s) for webhooks.
   name: Zulip webhooks API
   slug: zulip-webhooks-api
 artifact_total: 43
@@ -234,7 +262,7 @@ score:
     catalog_gap: 75.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -244,7 +272,7 @@ score:
     discoverability: 50.0
     governance: 11.4
     operational_transparency: 13.2
-  previous_composite: 34.5
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -253,7 +281,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zulip/refs/heads/main/screenshots/zulip-2026-06-20T201957.png
 security:

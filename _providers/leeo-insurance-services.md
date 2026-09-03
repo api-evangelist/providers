@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 7 operations
 api_count: 4
 apis:
-- description: Daily and weekly aggregated driver scorecards.
+- baseURL: https://api.leeoinsurance.com/api/v1
+  baseurl_source: declared
+  description: Daily and weekly aggregated driver scorecards.
   name: LEEO Insurance Services Aggregates API
   slug: leeo-insurance-services-aggregates-api
-- description: Fleet driver roster.
+- baseURL: https://api.leeoinsurance.com/api/v1
+  baseurl_source: declared
+  description: Fleet driver roster.
   name: LEEO Insurance Services Drivers API
   slug: leeo-insurance-services-drivers-api
-- description: Generated fleet report links.
+- baseURL: https://api.leeoinsurance.com/api/v1
+  baseurl_source: declared
+  description: Generated fleet report links.
   name: LEEO Insurance Services Reports API
   slug: leeo-insurance-services-reports-api
-- description: Trip lists, trip detail, paths, and driving events.
+- baseURL: https://api.leeoinsurance.com/api/v1
+  baseurl_source: declared
+  description: Trip lists, trip detail, paths, and driving events.
   name: LEEO Insurance Services Trips API
   slug: leeo-insurance-services-trips-api
 artifact_total: 13
@@ -202,7 +210,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.5
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -212,7 +220,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 46.7
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,8 +238,8 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:
 - kind: authentication

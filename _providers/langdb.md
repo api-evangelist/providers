@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
-- description: Usage analytics and cost summaries.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: Usage analytics and cost summaries.
   name: LangDB Analytics API
   slug: langdb-analytics-api
-- description: OpenAI-compatible chat completions and model routing.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions and model routing.
   name: LangDB Chat API
   slug: langdb-chat-api
-- description: Vector embeddings for input text.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: Vector embeddings for input text.
   name: LangDB Embeddings API
   slug: langdb-embeddings-api
-- description: Image generation.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: Image generation.
   name: LangDB Images API
   slug: langdb-images-api
-- description: Catalog of models available through the gateway.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: Catalog of models available through the gateway.
   name: LangDB Models API
   slug: langdb-models-api
-- description: Conversation threads, their messages, and per-thread cost.
+- baseURL: https://api.us-east-1.langdb.ai/{project_id}/v1
+  baseurl_source: declared
+  description: Conversation threads, their messages, and per-thread cost.
   name: LangDB Threads API
   slug: langdb-threads-api
 artifact_total: 22
@@ -181,7 +193,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -191,7 +203,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -200,7 +212,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/screenshots/langdb-2026-06-20T184302.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,13 +37,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The organization, user, role, permission and API-credential control plane behind SIMBA Build. Creates and manages organisations, domains, invites, org-scoped and custom system roles, bulk user imports
+- baseURL: https://blocks.simbachain.com/api/member-service
+  baseurl_source: declared
+  description: The organization, user, role, permission and API-credential control plane behind SIMBA Build. Creates and manages organisations, domains, invites, org-scoped and custom system roles, bulk user imports
   name: SIMBA Blocks Member Service API
   slug: simba-chain-member-service-api
-- description: SIMBA's OAuth 2.0 / OpenID Connect authorization server and token validator (the "member service validator"). Publishes an OIDC discovery document and a JWKS, issues tokens over the authorization_code
+- baseURL: https://blocks.simbachain.com/api/member-service-validator
+  baseurl_source: declared
+  description: SIMBA's OAuth 2.0 / OpenID Connect authorization server and token validator (the "member service validator"). Publishes an OIDC discovery document and a JWKS, issues tokens over the authorization_code
   name: SIMBA Blocks Authentication Service API
   slug: simba-chain-authentication-api
 - description: The SIMBA Build dynamic API generator. When a smart contract is deployed into an application, Blocks auto-generates REST endpoints for every method and public variable of that contract — POST to invok
@@ -214,11 +231,11 @@ score:
   band: developing
   composite: 53.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -228,7 +245,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 54.3
+  previous_composite: 53.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -240,8 +257,9 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/simba-chain/refs/heads/main/screenshots/simba-chain-2026-09-02T155524.png
 security:
 - kind: authentication
   name: Simba Chain Authentication

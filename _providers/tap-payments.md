@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: Server-to-server HTTP POST callbacks (Instant Payment Notification) that Tap sends to your configured endpoint when a charge, authorize, invoice, or recurring payment changes state. Payloads are signe
   name: Tap Payments Webhooks
   slug: tap-payments-webhooks
-- description: Authorize (hold) funds for later capture.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Authorize (hold) funds for later capture.
   name: Tap Payments Authorize API
   slug: tap-payments-authorize-api
-- description: Business, merchant, and destination onboarding.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Business, merchant, and destination onboarding.
   name: Tap Payments Business API
   slug: tap-payments-business-api
-- description: Saved cards (card-on-file) attached to a customer.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Saved cards (card-on-file) attached to a customer.
   name: Tap Payments Cards API
   slug: tap-payments-cards-api
-- description: Charge a card or other payment source.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Charge a card or other payment source.
   name: Tap Payments Charges API
   slug: tap-payments-charges-api
-- description: Customer records for vaulting and recurring payments.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Customer records for vaulting and recurring payments.
   name: Tap Payments Customers API
   slug: tap-payments-customers-api
-- description: Hosted, payable invoices.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Hosted, payable invoices.
   name: Tap Payments Invoices API
   slug: tap-payments-invoices-api
-- description: Settlements paid out to the merchant.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Settlements paid out to the merchant.
   name: Tap Payments Payouts API
   slug: tap-payments-payouts-api
-- description: Refund a captured charge.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Refund a captured charge.
   name: Tap Payments Refunds API
   slug: tap-payments-refunds-api
-- description: Single-use tokenization of cards and wallets.
+- baseURL: https://api.tap.company/v2
+  baseurl_source: declared
+  description: Single-use tokenization of cards and wallets.
   name: Tap Payments Tokens API
   slug: tap-payments-tokens-api
 artifact_total: 27
@@ -179,7 +197,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -208,8 +226,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/screenshots/tap-payments-2026-09-02T162529.png
 security:
 - kind: authentication
   name: Tap Payments Authentication

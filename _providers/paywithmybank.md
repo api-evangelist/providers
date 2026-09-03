@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 31 operations · 15 acting
 api_count: 1
 apis:
-- description: The accountData API from PayWithMyBank (Trustly) — 4 operation(s) for accountdata.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The accountData API from PayWithMyBank (Trustly) — 4 operation(s) for accountdata.
   name: PayWithMyBank (Trustly) accountData API
   slug: paywithmybank-accountdata-api
-- description: The accounts API from PayWithMyBank (Trustly) — 3 operation(s) for accounts.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The accounts API from PayWithMyBank (Trustly) — 3 operation(s) for accounts.
   name: PayWithMyBank (Trustly) accounts API
   slug: paywithmybank-accounts-api
-- description: The countries API from PayWithMyBank (Trustly) — 1 operation(s) for countries.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The countries API from PayWithMyBank (Trustly) — 1 operation(s) for countries.
   name: PayWithMyBank (Trustly) countries API
   slug: paywithmybank-countries-api
-- description: The customers API from PayWithMyBank (Trustly) — 2 operation(s) for customers.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The customers API from PayWithMyBank (Trustly) — 2 operation(s) for customers.
   name: PayWithMyBank (Trustly) customers API
   slug: paywithmybank-customers-api
-- description: The disputeManagement API from PayWithMyBank (Trustly) — 1 operation(s) for disputemanagement.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The disputeManagement API from PayWithMyBank (Trustly) — 1 operation(s) for disputemanagement.
   name: PayWithMyBank (Trustly) disputeManagement API
   slug: paywithmybank-disputemanagement-api
-- description: The identity API from PayWithMyBank (Trustly) — 3 operation(s) for identity.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The identity API from PayWithMyBank (Trustly) — 3 operation(s) for identity.
   name: PayWithMyBank (Trustly) identity API
   slug: paywithmybank-identity-api
-- description: The networkCheckApi API from PayWithMyBank (Trustly) — 1 operation(s) for networkcheckapi.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The networkCheckApi API from PayWithMyBank (Trustly) — 1 operation(s) for networkcheckapi.
   name: PayWithMyBank (Trustly) networkCheckApi API
   slug: paywithmybank-networkcheckapi-api
-- description: The paymentProviders API from PayWithMyBank (Trustly) — 1 operation(s) for paymentproviders.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The paymentProviders API from PayWithMyBank (Trustly) — 1 operation(s) for paymentproviders.
   name: PayWithMyBank (Trustly) paymentProviders API
   slug: paywithmybank-paymentproviders-api
-- description: The payments API from PayWithMyBank (Trustly) — 2 operation(s) for payments.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The payments API from PayWithMyBank (Trustly) — 2 operation(s) for payments.
   name: PayWithMyBank (Trustly) payments API
   slug: paywithmybank-payments-api
-- description: The transactions API from PayWithMyBank (Trustly) — 10 operation(s) for transactions.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The transactions API from PayWithMyBank (Trustly) — 10 operation(s) for transactions.
   name: PayWithMyBank (Trustly) transactions API
   slug: paywithmybank-transactions-api
-- description: The verifyCustomer API from PayWithMyBank (Trustly) — 1 operation(s) for verifycustomer.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The verifyCustomer API from PayWithMyBank (Trustly) — 1 operation(s) for verifycustomer.
   name: PayWithMyBank (Trustly) verifyCustomer API
   slug: paywithmybank-verifycustomer-api
-- description: The API API from PayWithMyBank (Trustly) — 0 operation(s) for api.
+- baseURL: https://api.trustly.one/api/v1
+  baseurl_source: declared
+  description: The API API from PayWithMyBank (Trustly) — 0 operation(s) for api.
   name: PayWithMyBank (Trustly) API
   slug: paywithmybank-api-api
 artifact_total: 29
@@ -286,7 +310,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -296,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.2
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -314,7 +338,7 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:

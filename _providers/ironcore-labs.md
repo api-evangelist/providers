@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Assignments between KMS configurations and tenants
+- baseURL: https://ironcorelabs.com
+  baseurl_source: declared
+  description: Assignments between KMS configurations and tenants
   name: IronCore Labs Configuration Assignment API
   slug: ironcore-labs-configuration-assignment-api
-- description: KMS configurations from different providers (AWS, Azure, GCP, Thales)
+- baseURL: https://ironcorelabs.com
+  baseurl_source: declared
+  description: KMS configurations from different providers (AWS, Azure, GCP, Thales)
   name: IronCore Labs KMS Configuration API
   slug: ironcore-labs-kms-configuration-api
-- description: Label shared between service account configs and tenants. Controls where KMS configurations can be sent.
+- baseURL: https://ironcorelabs.com
+  baseurl_source: declared
+  description: Label shared between service account configs and tenants. Controls where KMS configurations can be sent.
   name: IronCore Labs Tag API
   slug: ironcore-labs-tag-api
-- description: Vendor tenants managed by the Config Broker
+- baseURL: https://ironcorelabs.com
+  baseurl_source: declared
+  description: Vendor tenants managed by the Config Broker
   name: IronCore Labs Tenant API
   slug: ironcore-labs-tenant-api
-- description: Tenant secrets created by the TSP and stored in the Config Broker
+- baseURL: https://ironcorelabs.com
+  baseurl_source: declared
+  description: Tenant secrets created by the TSP and stored in the Config Broker
   name: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
 artifact_total: 16
@@ -258,7 +268,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/screenshots/ironcore-labs-2026-07-25T222920.png
 security:

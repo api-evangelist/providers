@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Contractbook's document life-cycle notification (webhook) mechanism. When a document is created, updated, or signed, Contractbook sends an HTTP request to a client-configured callback URL, letting int
   name: Contractbook Document Webhooks
   slug: contractbook-document-webhooks
-- description: The Attachments API from Contractbook — 1 operation(s) for attachments.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Attachments API from Contractbook — 1 operation(s) for attachments.
   name: Contractbook Attachments API
   slug: contractbook-attachments-api
-- description: The Automations API from Contractbook — 2 operation(s) for automations.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Automations API from Contractbook — 2 operation(s) for automations.
   name: Contractbook Automations API
   slug: contractbook-automations-api
-- description: The Document sharing API from Contractbook — 1 operation(s) for document sharing.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Document sharing API from Contractbook — 1 operation(s) for document sharing.
   name: Contractbook Document sharing API
   slug: contractbook-document-sharing-api
-- description: The Documents API from Contractbook — 5 operation(s) for documents.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Documents API from Contractbook — 5 operation(s) for documents.
   name: Contractbook Documents API
   slug: contractbook-documents-api
-- description: The Spaces API from Contractbook — 2 operation(s) for spaces.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Spaces API from Contractbook — 2 operation(s) for spaces.
   name: Contractbook Spaces API
   slug: contractbook-spaces-api
-- description: The Templates API from Contractbook — 2 operation(s) for templates.
+- baseURL: https://api.contractbook.com/v3
+  baseurl_source: declared
+  description: The Templates API from Contractbook — 2 operation(s) for templates.
   name: Contractbook Templates API
   slug: contractbook-templates-api
 artifact_total: 20
@@ -165,7 +177,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -175,7 +187,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 40.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -184,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:

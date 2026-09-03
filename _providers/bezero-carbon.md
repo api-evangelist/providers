@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,13 +35,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
+- baseURL: https://api.bezerocarbonmarkets.com/v3
+  baseurl_source: declared
+  description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
   name: BeZero Carbon Projects API
   slug: bezero-carbon-projects-api
-- description: The Ratings API from BeZero Carbon — 3 operation(s) for ratings.
+- baseURL: https://api.bezerocarbonmarkets.com/v3
+  baseurl_source: declared
+  description: The Ratings API from BeZero Carbon — 3 operation(s) for ratings.
   name: BeZero Carbon Ratings API
   slug: bezero-carbon-ratings-api
 artifact_total: 10
@@ -219,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

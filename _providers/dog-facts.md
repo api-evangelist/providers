@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Random dog facts
@@ -84,7 +84,7 @@ score:
       reason: never_enriched
   previous_composite: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dog-facts/refs/heads/main/screenshots/dog-facts-2026-06-20T180124.png
 slug: dog-facts

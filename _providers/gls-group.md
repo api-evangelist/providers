@@ -23,40 +23,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: Group-wide shipping integration web service (version 3.4.19) exposed by the GLS ShipIT backend, documented publicly as Doxygen reference pages. Resource groups cover shipment processing (POST /backend
   name: GLS ShipIT REST API
   slug: gls-shipit-rest-api
-- description: The Authentication API from GLS Group — 1 operation(s) for authentication.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Authentication API from GLS Group — 1 operation(s) for authentication.
   name: GLS Group Authentication API
   slug: gls-group-authentication-api
-- description: The Delivery API from GLS Group — 4 operation(s) for delivery.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Delivery API from GLS Group — 4 operation(s) for delivery.
   name: GLS Group Delivery API
   slug: gls-group-delivery-api
-- description: The DeliveryOptions API from GLS Group — 1 operation(s) for deliveryoptions.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The DeliveryOptions API from GLS Group — 1 operation(s) for deliveryoptions.
   name: GLS Group Delivery Options API
   slug: gls-group-deliveryoptions-api
-- description: The Home API from GLS Group — 1 operation(s) for home.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Home API from GLS Group — 1 operation(s) for home.
   name: GLS Group Home API
   slug: gls-group-home-api
-- description: The Monitor API from GLS Group — 1 operation(s) for monitor.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Monitor API from GLS Group — 1 operation(s) for monitor.
   name: GLS Group Monitor API
   slug: gls-group-monitor-api
-- description: The Parcel API from GLS Group — 2 operation(s) for parcel.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Parcel API from GLS Group — 2 operation(s) for parcel.
   name: GLS Group Parcel API
   slug: gls-group-parcel-api
-- description: The ParcelShop API from GLS Group — 1 operation(s) for parcelshop.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The ParcelShop API from GLS Group — 1 operation(s) for parcelshop.
   name: GLS Group Parcel Shop API
   slug: gls-group-parcelshop-api
-- description: The Pickup API from GLS Group — 2 operation(s) for pickup.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Pickup API from GLS Group — 2 operation(s) for pickup.
   name: GLS Group Pickup API
   slug: gls-group-pickup-api
-- description: The Pod API from GLS Group — 1 operation(s) for pod.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The Pod API from GLS Group — 1 operation(s) for pod.
   name: GLS Group Pod API
   slug: gls-group-pod-api
-- description: The ShopReturn API from GLS Group — 1 operation(s) for shopreturn.
+- baseURL: https://api.gls.nl/v1
+  baseurl_source: declared
+  description: The ShopReturn API from GLS Group — 1 operation(s) for shopreturn.
   name: GLS Group Shop Return API
   slug: gls-group-shopreturn-api
 artifact_total: 15
@@ -139,7 +159,7 @@ score:
     catalog_gap: 82.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -149,7 +169,7 @@ score:
     discoverability: 61.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.4
+  previous_composite: 26.2
   provenance:
     contracts:
       callable: 100.0
@@ -157,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png
 slug: gls-group

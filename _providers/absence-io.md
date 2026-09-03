@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 12 operations · 10 acting
 api_count: 7
 apis:
-- description: Operations for managing employee absence records.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for managing employee absence records.
   name: Absence.io Absences API
   slug: absence-io-absences-api
-- description: Operations for managing employee leave allowances and balances.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for managing employee leave allowances and balances.
   name: Absence.io Allowances API
   slug: absence-io-allowances-api
-- description: Operations for retrieving organizational department information.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for retrieving organizational department information.
   name: Absence.io Departments API
   slug: absence-io-departments-api
-- description: Operations for retrieving office location information.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for retrieving office location information.
   name: Absence.io Locations API
   slug: absence-io-locations-api
-- description: Operations for retrieving absence reason type definitions.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for retrieving absence reason type definitions.
   name: Absence.io Reason Types API
   slug: absence-io-reason-types-api
-- description: Operations for retrieving working time configurations.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for retrieving working time configurations.
   name: Absence.io Timespans API
   slug: absence-io-timespans-api
-- description: Operations for retrieving user/employee information.
+- baseURL: https://app.absence.io/api/v2
+  baseurl_source: spec
+  description: Operations for retrieving user/employee information.
   name: Absence.io Users API
   slug: absence-io-users-api
 artifact_total: 71
@@ -350,7 +364,7 @@ score:
       marker_coverage: 100.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/screenshots/absence-io-2026-06-20T163343.png
 security:

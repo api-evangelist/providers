@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 2
@@ -43,178 +43,294 @@ agentic_access:
   summary_line: 732 operations · 396 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AccountExternalTruckIdentifier API from tread.io — 2 operation(s) for accountexternaltruckidentifier.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The AccountExternalTruckIdentifier API from tread.io — 2 operation(s) for accountexternaltruckidentifier.
   name: tread.io AccountExternalTruckIdentifier API
   slug: treadio-accountexternaltruckidentifier-api
-- description: The Accounts API from tread.io — 19 operation(s) for accounts.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Accounts API from tread.io — 19 operation(s) for accounts.
   name: tread.io Accounts API
   slug: treadio-accounts-api
-- description: The AddOnCharges API from tread.io — 6 operation(s) for addoncharges.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The AddOnCharges API from tread.io — 6 operation(s) for addoncharges.
   name: tread.io AddOnCharges API
   slug: treadio-addoncharges-api
-- description: The AddOns API from tread.io — 9 operation(s) for addons.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The AddOns API from tread.io — 9 operation(s) for addons.
   name: tread.io AddOns API
   slug: treadio-addons-api
-- description: The Agave API from tread.io — 14 operation(s) for agave.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Agave API from tread.io — 14 operation(s) for agave.
   name: tread.io Agave API
   slug: treadio-agave-api
-- description: The ApprovalAssignments API from tread.io — 12 operation(s) for approvalassignments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The ApprovalAssignments API from tread.io — 12 operation(s) for approvalassignments.
   name: tread.io ApprovalAssignments API
   slug: treadio-approvalassignments-api
-- description: The Authentication API from tread.io — 11 operation(s) for authentication.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Authentication API from tread.io — 11 operation(s) for authentication.
   name: tread.io Authentication API
   slug: treadio-authentication-api
-- description: The AutoAddOnAssignments API from tread.io — 10 operation(s) for autoaddonassignments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The AutoAddOnAssignments API from tread.io — 10 operation(s) for autoaddonassignments.
   name: tread.io AutoAddOnAssignments API
   slug: treadio-autoaddonassignments-api
-- description: The Companies API from tread.io — 14 operation(s) for companies.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Companies API from tread.io — 14 operation(s) for companies.
   name: tread.io Companies API
   slug: treadio-companies-api
-- description: The CompanyDayJobStats API from tread.io — 1 operation(s) for companydayjobstats.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The CompanyDayJobStats API from tread.io — 1 operation(s) for companydayjobstats.
   name: tread.io CompanyDayJobStats API
   slug: treadio-companydayjobstats-api
-- description: The CompanyShares API from tread.io — 9 operation(s) for companyshares.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The CompanyShares API from tread.io — 9 operation(s) for companyshares.
   name: tread.io CompanyShares API
   slug: treadio-companyshares-api
-- description: The Compliance API from tread.io — 3 operation(s) for compliance.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Compliance API from tread.io — 3 operation(s) for compliance.
   name: tread.io Compliance API
   slug: treadio-compliance-api
-- description: The ComplianceDocuments API from tread.io — 9 operation(s) for compliancedocuments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The ComplianceDocuments API from tread.io — 9 operation(s) for compliancedocuments.
   name: tread.io ComplianceDocuments API
   slug: treadio-compliancedocuments-api
-- description: The Departments API from tread.io — 4 operation(s) for departments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Departments API from tread.io — 4 operation(s) for departments.
   name: tread.io Departments API
   slug: treadio-departments-api
-- description: The DriverDays API from tread.io — 19 operation(s) for driverdays.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The DriverDays API from tread.io — 19 operation(s) for driverdays.
   name: tread.io DriverDays API
   slug: treadio-driverdays-api
-- description: The Drivers API from tread.io — 9 operation(s) for drivers.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Drivers API from tread.io — 9 operation(s) for drivers.
   name: tread.io Drivers API
   slug: treadio-drivers-api
-- description: The DriverStateEvent API from tread.io — 5 operation(s) for driverstateevent.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The DriverStateEvent API from tread.io — 5 operation(s) for driverstateevent.
   name: tread.io DriverStateEvent API
   slug: treadio-driverstateevent-api
-- description: The Equipment API from tread.io — 13 operation(s) for equipment.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Equipment API from tread.io — 13 operation(s) for equipment.
   name: tread.io Equipment API
   slug: treadio-equipment-api
-- description: The EquipmentType API from tread.io — 7 operation(s) for equipmenttype.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The EquipmentType API from tread.io — 7 operation(s) for equipmenttype.
   name: tread.io EquipmentType API
   slug: treadio-equipmenttype-api
-- description: The FileAttachments API from tread.io — 10 operation(s) for fileattachments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The FileAttachments API from tread.io — 10 operation(s) for fileattachments.
   name: tread.io FileAttachments API
   slug: treadio-fileattachments-api
-- description: The Foremen API from tread.io — 4 operation(s) for foremen.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Foremen API from tread.io — 4 operation(s) for foremen.
   name: tread.io Foremen API
   slug: treadio-foremen-api
-- description: The FuelSurcharges API from tread.io — 10 operation(s) for fuelsurcharges.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The FuelSurcharges API from tread.io — 10 operation(s) for fuelsurcharges.
   name: tread.io FuelSurcharges API
   slug: treadio-fuelsurcharges-api
-- description: The GeofenceTriggers API from tread.io — 3 operation(s) for geofencetriggers.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The GeofenceTriggers API from tread.io — 3 operation(s) for geofencetriggers.
   name: tread.io GeofenceTriggers API
   slug: treadio-geofencetriggers-api
-- description: The IamRoles API from tread.io — 2 operation(s) for iamroles.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The IamRoles API from tread.io — 2 operation(s) for iamroles.
   name: tread.io IamRoles API
   slug: treadio-iamroles-api
-- description: The Integrations API from tread.io — 1 operation(s) for integrations.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Integrations API from tread.io — 1 operation(s) for integrations.
   name: tread.io Integrations API
   slug: treadio-integrations-api
-- description: The Invoices API from tread.io — 18 operation(s) for invoices.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Invoices API from tread.io — 18 operation(s) for invoices.
   name: tread.io Invoices API
   slug: treadio-invoices-api
-- description: The JobAssignments API from tread.io — 2 operation(s) for jobassignments.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The JobAssignments API from tread.io — 2 operation(s) for jobassignments.
   name: tread.io JobAssignments API
   slug: treadio-jobassignments-api
-- description: The Jobs API from tread.io — 95 operation(s) for jobs.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Jobs API from tread.io — 95 operation(s) for jobs.
   name: tread.io Jobs API
   slug: treadio-jobs-api
-- description: The JobSummaries API from tread.io — 2 operation(s) for jobsummaries.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The JobSummaries API from tread.io — 2 operation(s) for jobsummaries.
   name: tread.io JobSummaries API
   slug: treadio-jobsummaries-api
-- description: The KMLFiles API from tread.io — 2 operation(s) for kmlfiles.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The KMLFiles API from tread.io — 2 operation(s) for kmlfiles.
   name: tread.io KMLFiles API
   slug: treadio-kmlfiles-api
-- description: The Labels API from tread.io — 2 operation(s) for labels.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Labels API from tread.io — 2 operation(s) for labels.
   name: tread.io Labels API
   slug: treadio-labels-api
-- description: The LineItemType API from tread.io — 1 operation(s) for lineitemtype.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The LineItemType API from tread.io — 1 operation(s) for lineitemtype.
   name: tread.io LineItemType API
   slug: treadio-lineitemtype-api
-- description: The LoadCycles API from tread.io — 1 operation(s) for loadcycles.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The LoadCycles API from tread.io — 1 operation(s) for loadcycles.
   name: tread.io LoadCycles API
   slug: treadio-loadcycles-api
-- description: The Loads API from tread.io — 16 operation(s) for loads.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Loads API from tread.io — 16 operation(s) for loads.
   name: tread.io Loads API
   slug: treadio-loads-api
-- description: The LoadSummaries API from tread.io — 1 operation(s) for loadsummaries.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The LoadSummaries API from tread.io — 1 operation(s) for loadsummaries.
   name: tread.io LoadSummaries API
   slug: treadio-loadsummaries-api
-- description: The LocationHistories API from tread.io — 5 operation(s) for locationhistories.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The LocationHistories API from tread.io — 5 operation(s) for locationhistories.
   name: tread.io LocationHistories API
   slug: treadio-locationhistories-api
-- description: The MaterialRates API from tread.io — 5 operation(s) for materialrates.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The MaterialRates API from tread.io — 5 operation(s) for materialrates.
   name: tread.io MaterialRates API
   slug: treadio-materialrates-api
-- description: The Materials API from tread.io — 9 operation(s) for materials.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Materials API from tread.io — 9 operation(s) for materials.
   name: tread.io Materials API
   slug: treadio-materials-api
-- description: The MaterialType API from tread.io — 2 operation(s) for materialtype.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The MaterialType API from tread.io — 2 operation(s) for materialtype.
   name: tread.io MaterialType API
   slug: treadio-materialtype-api
-- description: The OmniReports API from tread.io — 8 operation(s) for omnireports.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The OmniReports API from tread.io — 8 operation(s) for omnireports.
   name: tread.io OmniReports API
   slug: treadio-omnireports-api
-- description: The Orders API from tread.io — 47 operation(s) for orders.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Orders API from tread.io — 47 operation(s) for orders.
   name: tread.io Orders API
   slug: treadio-orders-api
-- description: The Projects API from tread.io — 10 operation(s) for projects.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Projects API from tread.io — 10 operation(s) for projects.
   name: tread.io Projects API
   slug: treadio-projects-api
-- description: The Rates API from tread.io — 5 operation(s) for rates.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Rates API from tread.io — 5 operation(s) for rates.
   name: tread.io Rates API
   slug: treadio-rates-api
-- description: The Reflection API from tread.io — 3 operation(s) for reflection.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Reflection API from tread.io — 3 operation(s) for reflection.
   name: tread.io Reflection API
   slug: treadio-reflection-api
-- description: The ResourceScopes API from tread.io — 4 operation(s) for resourcescopes.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The ResourceScopes API from tread.io — 4 operation(s) for resourcescopes.
   name: tread.io ResourceScopes API
   slug: treadio-resourcescopes-api
-- description: The ResourceUsageLogs API from tread.io — 4 operation(s) for resourceusagelogs.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The ResourceUsageLogs API from tread.io — 4 operation(s) for resourceusagelogs.
   name: tread.io ResourceUsageLogs API
   slug: treadio-resourceusagelogs-api
-- description: The ServiceClass API from tread.io — 5 operation(s) for serviceclass.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The ServiceClass API from tread.io — 5 operation(s) for serviceclass.
   name: tread.io ServiceClass API
   slug: treadio-serviceclass-api
-- description: The Services API from tread.io — 4 operation(s) for services.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Services API from tread.io — 4 operation(s) for services.
   name: tread.io Services API
   slug: treadio-services-api
-- description: The Settlements API from tread.io — 35 operation(s) for settlements.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Settlements API from tread.io — 35 operation(s) for settlements.
   name: tread.io Settlements API
   slug: treadio-settlements-api
-- description: The SiteRateSchedules API from tread.io — 2 operation(s) for siterateschedules.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The SiteRateSchedules API from tread.io — 2 operation(s) for siterateschedules.
   name: tread.io SiteRateSchedules API
   slug: treadio-siterateschedules-api
-- description: The Sites API from tread.io — 28 operation(s) for sites.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Sites API from tread.io — 28 operation(s) for sites.
   name: tread.io Sites API
   slug: treadio-sites-api
-- description: The Telematics API from tread.io — 3 operation(s) for telematics.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Telematics API from tread.io — 3 operation(s) for telematics.
   name: tread.io Telematics API
   slug: treadio-telematics-api
-- description: The Tickets API from tread.io — 14 operation(s) for tickets.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Tickets API from tread.io — 14 operation(s) for tickets.
   name: tread.io Tickets API
   slug: treadio-tickets-api
-- description: The TravelledDistances API from tread.io — 4 operation(s) for travelleddistances.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The TravelledDistances API from tread.io — 4 operation(s) for travelleddistances.
   name: tread.io TravelledDistances API
   slug: treadio-travelleddistances-api
-- description: The TwilioIntegrations API from tread.io — 2 operation(s) for twiliointegrations.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The TwilioIntegrations API from tread.io — 2 operation(s) for twiliointegrations.
   name: tread.io TwilioIntegrations API
   slug: treadio-twiliointegrations-api
-- description: The Typeaheads API from tread.io — 54 operation(s) for typeaheads.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Typeaheads API from tread.io — 54 operation(s) for typeaheads.
   name: tread.io Typeaheads API
   slug: treadio-typeaheads-api
-- description: The UserDevicePermission API from tread.io — 1 operation(s) for userdevicepermission.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The UserDevicePermission API from tread.io — 1 operation(s) for userdevicepermission.
   name: tread.io UserDevicePermission API
   slug: treadio-userdevicepermission-api
-- description: The Users API from tread.io — 23 operation(s) for users.
+- baseURL: https://api.tread-horizon.com
+  baseurl_source: declared
+  description: The Users API from tread.io — 23 operation(s) for users.
   name: tread.io Users API
   slug: treadio-users-api
 artifact_total: 122
@@ -541,7 +657,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -551,7 +667,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 46.0
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -563,7 +679,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treadio/refs/heads/main/screenshots/treadio-2026-08-17T082430.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Connects third-party delivery marketplaces (DoorDash, Uber Eats, Grubhub, and 150+ channels) and 50+ native POS systems (Toast, Square, SpotOn, Clover, and others). Marketplace and POS partners integr
   name: Chowly Integrations API
   slug: integrations
-- description: Retrieve the menu synchronized across ordering channels.
+- baseURL: https://api.chowlyinc.com
+  baseurl_source: declared
+  description: Retrieve the menu synchronized across ordering channels.
   name: Chowly Menu API
   slug: chowly-menu-api
-- description: Create and retrieve orders injected into the restaurant POS.
+- baseURL: https://api.chowlyinc.com
+  baseurl_source: declared
+  description: Create and retrieve orders injected into the restaurant POS.
   name: Chowly Orders API
   slug: chowly-orders-api
 artifact_total: 13
@@ -164,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/screenshots/chowly-2026-07-25T205258.png
 security:

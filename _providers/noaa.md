@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,49 +50,79 @@ apis:
 - description: The NOAA Center for Operational Oceanographic Products and Services (CO-OPS) Data Retrieval API provides access to water levels, tide predictions, currents, and meteorological observations from hundre
   name: CO-OPS Tides and Currents API
   slug: co-ops-tides-and-currents-api
-- description: The Alerts API from NOAA — 8 operation(s) for alerts.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Alerts API from NOAA — 8 operation(s) for alerts.
   name: NOAA Alerts API
   slug: noaa-alerts-api
-- description: The Aviation API from NOAA — 7 operation(s) for aviation.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Aviation API from NOAA — 7 operation(s) for aviation.
   name: NOAA Aviation API
   slug: noaa-aviation-api
-- description: The Glossary API from NOAA — 1 operation(s) for glossary.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Glossary API from NOAA — 1 operation(s) for glossary.
   name: NOAA Glossary API
   slug: noaa-glossary-api
-- description: The Gridpoints API from NOAA — 4 operation(s) for gridpoints.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Gridpoints API from NOAA — 4 operation(s) for gridpoints.
   name: NOAA Gridpoints API
   slug: noaa-gridpoints-api
-- description: The Icons API from NOAA — 3 operation(s) for icons.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Icons API from NOAA — 3 operation(s) for icons.
   name: NOAA Icons API
   slug: noaa-icons-api
-- description: Decoded navigational information
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: Decoded navigational information
   name: NOAA Navigational Data API
   slug: noaa-navigational-data-api
-- description: The Offices API from NOAA — 8 operation(s) for offices.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Offices API from NOAA — 8 operation(s) for offices.
   name: NOAA Offices API
   slug: noaa-offices-api
-- description: The Points API from NOAA — 3 operation(s) for points.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Points API from NOAA — 3 operation(s) for points.
   name: NOAA Points API
   slug: noaa-points-api
-- description: The Products API from NOAA — 9 operation(s) for products.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Products API from NOAA — 9 operation(s) for products.
   name: NOAA Products API
   slug: noaa-products-api
-- description: The Radar API from NOAA — 8 operation(s) for radar.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radar API from NOAA — 8 operation(s) for radar.
   name: NOAA Radar API
   slug: noaa-radar-api
-- description: The Radio API from NOAA — 1 operation(s) for radio.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Radio API from NOAA — 1 operation(s) for radio.
   name: NOAA Radio API
   slug: noaa-radio-api
-- description: The Stations API from NOAA — 7 operation(s) for stations.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Stations API from NOAA — 7 operation(s) for stations.
   name: NOAA Stations API
   slug: noaa-stations-api
-- description: The Thumbnails API from NOAA — 1 operation(s) for thumbnails.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Thumbnails API from NOAA — 1 operation(s) for thumbnails.
   name: NOAA Thumbnails API
   slug: noaa-thumbnails-api
-- description: Decoded weather information
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: Decoded weather information
   name: NOAA Weather Data API
   slug: noaa-weather-data-api
-- description: The Zones API from NOAA — 6 operation(s) for zones.
+- baseURL: https://api.weather.gov
+  baseurl_source: declared
+  description: The Zones API from NOAA — 6 operation(s) for zones.
   name: NOAA Zones API
   slug: noaa-zones-api
 artifact_total: 54
@@ -336,7 +366,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa/refs/heads/main/screenshots/noaa-2026-06-20T190339.png
 security:

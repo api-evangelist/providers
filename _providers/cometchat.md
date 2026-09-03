@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -47,40 +47,64 @@ apis:
 - description: Client SDKs (JavaScript, React, React Native, Android, iOS, Flutter, Ionic) connect over a managed WebSocket layer for realtime message delivery, typing indicators, presence, and read receipts. The so
   name: CometChat Realtime & Client SDK
   slug: cometchat-realtime-sdk
-- description: Per-user authentication tokens for SDK login
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Per-user authentication tokens for SDK login
   name: CometChat Auth Tokens API
   slug: cometchat-auth-tokens-api
-- description: Ban and unban users from groups
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Ban and unban users from groups
   name: CometChat Banned Users API
   slug: cometchat-banned-users-api
-- description: Block and unblock users
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Block and unblock users
   name: CometChat Blocked Users API
   slug: cometchat-blocked-users-api
-- description: List conversations and manage read/delivered state
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: List conversations and manage read/delivered state
   name: CometChat Conversations API
   slug: cometchat-conversations-api
-- description: User-to-user friend relationships
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: User-to-user friend relationships
   name: CometChat Friends API
   slug: cometchat-friends-api
-- description: Add, list, kick, and scope group members
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Add, list, kick, and scope group members
   name: CometChat Group Members API
   slug: cometchat-group-members-api
-- description: Create and manage groups
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Create and manage groups
   name: CometChat Groups API
   slug: cometchat-groups-api
-- description: Send, list, edit, and delete messages
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Send, list, edit, and delete messages
   name: CometChat Messages API
   slug: cometchat-messages-api
-- description: Add and remove message reactions
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Add and remove message reactions
   name: CometChat Reactions API
   slug: cometchat-reactions-api
-- description: Custom roles and permissions
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Custom roles and permissions
   name: CometChat Roles API
   slug: cometchat-roles-api
-- description: Create and manage app users
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Create and manage app users
   name: CometChat Users API
   slug: cometchat-users-api
-- description: Register webhooks and manage event triggers
+- baseURL: https://{appId}.api-{region}.cometchat.io/v3
+  baseurl_source: declared
+  description: Register webhooks and manage event triggers
   name: CometChat Webhooks API
   slug: cometchat-webhooks-api
 artifact_total: 33
@@ -228,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometchat/refs/heads/main/screenshots/cometchat-2026-06-20T174808.png
 security:

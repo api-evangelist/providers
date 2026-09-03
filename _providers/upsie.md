@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 8
 apis:
-- description: The Authorization API from Upsie — 5 operation(s) for authorization.
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Authorization API from Upsie — 5 operation(s) for authorization.
   name: Upsie Authorization API
   slug: upsie-authorization-api
-- description: The Repair Assignments (/repairassignments) API from Upsie — 1 operation(s) for repair assignments (/repairassignments).
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repair Assignments (/repairassignments) API from Upsie — 1 operation(s) for repair assignments (/repairassignments).
   name: Upsie Repair Assignments (/repairassignments) API
   slug: upsie-repair-assignments-repairassignments-api
-- description: The Repair Categories API from Upsie — 1 operation(s) for repair categories.
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repair Categories API from Upsie — 1 operation(s) for repair categories.
   name: Upsie Repair Categories API
   slug: upsie-repair-categories-api
-- description: The Repair Item Templates API from Upsie — 1 operation(s) for repair item templates.
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repair Item Templates API from Upsie — 1 operation(s) for repair item templates.
   name: Upsie Repair Item Templates API
   slug: upsie-repair-item-templates-api
-- description: The Repair Items (/repairitems) API from Upsie — 1 operation(s) for repair items (/repairitems).
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repair Items (/repairitems) API from Upsie — 1 operation(s) for repair items (/repairitems).
   name: Upsie Repair Items (/repairitems) API
   slug: upsie-repair-items-repairitems-api
-- description: The Repair Notes API from Upsie — 1 operation(s) for repair notes.
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repair Notes API from Upsie — 1 operation(s) for repair notes.
   name: Upsie Repair Notes API
   slug: upsie-repair-notes-api
-- description: The Repairs (/repairs) API from Upsie — 2 operation(s) for repairs (/repairs).
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Repairs (/repairs) API from Upsie — 2 operation(s) for repairs (/repairs).
   name: Upsie Repairs (/repairs) API
   slug: upsie-repairs-repairs-api
-- description: The Webhooks API from Upsie — 2 operation(s) for webhooks.
+- baseURL: https://api.upsie.com
+  baseurl_source: declared
+  description: The Webhooks API from Upsie — 2 operation(s) for webhooks.
   name: Upsie Webhooks API
   slug: upsie-webhooks-api
 artifact_total: 23
@@ -224,7 +240,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -234,7 +250,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.8
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +268,8 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: OffenderList provides security and information-focused organizations API access, batch requests, remote access, and internal access to a national sex offender database.
@@ -98,7 +98,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 9.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offenderlist/refs/heads/main/screenshots/offenderlist-2026-06-20T190626.png
 security:

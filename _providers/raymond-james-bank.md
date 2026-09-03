@@ -1,4 +1,14 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Raymond James Bank exposes no first-party public API. Consumer-permissioned account and transaction data is available only indirectly through third-party data aggregators (e.g., Plaid). This entry is '
@@ -80,7 +90,7 @@ score:
   band: emerging
   composite: 12.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -102,8 +112,9 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/raymond-james-bank/refs/heads/main/screenshots/raymond-james-bank-2026-09-02T152931.png
 security:
 - kind: domain-security
   name: Raymond James Bank Domain Security

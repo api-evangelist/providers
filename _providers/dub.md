@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -53,49 +53,79 @@ apis:
 - description: List and manage custom domains associated with a Dub workspace, including SSL certificate provisioning and free .link domain support.
   name: Dub Domains API
   slug: domains
-- description: The Analytics API from Dub — 1 operation(s) for analytics.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Analytics API from Dub — 1 operation(s) for analytics.
   name: Dub Analytics API
   slug: dub-analytics-api
-- description: The Bounties API from Dub — 3 operation(s) for bounties.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Bounties API from Dub — 3 operation(s) for bounties.
   name: Dub Bounties API
   slug: dub-bounties-api
-- description: The Commissions API from Dub — 3 operation(s) for commissions.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Commissions API from Dub — 3 operation(s) for commissions.
   name: Dub Commissions API
   slug: dub-commissions-api
-- description: The Customers API from Dub — 2 operation(s) for customers.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Customers API from Dub — 2 operation(s) for customers.
   name: Dub Customers API
   slug: dub-customers-api
-- description: The Domains API from Dub — 4 operation(s) for domains.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Domains API from Dub — 4 operation(s) for domains.
   name: Dub Domains API
   slug: dub-domains-api
-- description: The Embed Tokens API from Dub — 1 operation(s) for embed tokens.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Embed Tokens API from Dub — 1 operation(s) for embed tokens.
   name: Dub Embed Tokens API
   slug: dub-embed-tokens-api
-- description: The Events API from Dub — 1 operation(s) for events.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Events API from Dub — 1 operation(s) for events.
   name: Dub Events API
   slug: dub-events-api
-- description: The Folders API from Dub — 2 operation(s) for folders.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Folders API from Dub — 2 operation(s) for folders.
   name: Dub Folders API
   slug: dub-folders-api
-- description: The Links API from Dub — 6 operation(s) for links.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Links API from Dub — 6 operation(s) for links.
   name: Dub Links API
   slug: dub-links-api
-- description: The Partner Applications API from Dub — 3 operation(s) for partner applications.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Partner Applications API from Dub — 3 operation(s) for partner applications.
   name: Dub Partner Applications API
   slug: dub-partner-applications-api
-- description: The Partners API from Dub — 6 operation(s) for partners.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Partners API from Dub — 6 operation(s) for partners.
   name: Dub Partners API
   slug: dub-partners-api
-- description: The Payouts API from Dub — 1 operation(s) for payouts.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Payouts API from Dub — 1 operation(s) for payouts.
   name: Dub Payouts API
   slug: dub-payouts-api
-- description: The QR Codes API from Dub — 1 operation(s) for qr codes.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The QR Codes API from Dub — 1 operation(s) for qr codes.
   name: Dub QR Codes API
   slug: dub-qr-codes-api
-- description: The Tags API from Dub — 2 operation(s) for tags.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Tags API from Dub — 2 operation(s) for tags.
   name: Dub Tags API
   slug: dub-tags-api
-- description: The Track API from Dub — 3 operation(s) for track.
+- baseURL: https://api.dub.co
+  baseurl_source: declared
+  description: The Track API from Dub — 3 operation(s) for track.
   name: Dub Track API
   slug: dub-track-api
 artifact_total: 68
@@ -402,7 +432,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/screenshots/dub-2026-06-20T180305.png
 security:

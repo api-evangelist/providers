@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 33 operations · 14 acting
 api_count: 1
 apis:
-- description: Employee availability records.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Employee availability records.
   name: 7shifts Availability API
   slug: 7shifts-availability-api
-- description: Company resources for 7shifts accounts.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Company resources for 7shifts accounts.
   name: 7shifts Companies API
   slug: 7shifts-companies-api
-- description: Departments within a location.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Departments within a location.
   name: 7shifts Departments API
   slug: 7shifts-departments-api
-- description: Identity introspection for the authenticated token.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Identity introspection for the authenticated token.
   name: 7shifts Identity API
   slug: 7shifts-identity-api
-- description: Physical restaurant locations within a company.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Physical restaurant locations within a company.
   name: 7shifts Locations API
   slug: 7shifts-locations-api
-- description: Token issuance for Partner OAuth applications.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Token issuance for Partner OAuth applications.
   name: 7shifts OAuth API
   slug: 7shifts-oauth-api
-- description: Sales, labor, and worked-hours reporting.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Sales, labor, and worked-hours reporting.
   name: 7shifts Reporting API
   slug: 7shifts-reporting-api
-- description: Job roles within a department.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Job roles within a department.
   name: 7shifts Roles API
   slug: 7shifts-roles-api
-- description: Sales receipts and POS-integrated sales data.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Sales receipts and POS-integrated sales data.
   name: 7shifts Sales API
   slug: 7shifts-sales-api
-- description: Scheduled shifts assigned to users.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Scheduled shifts assigned to users.
   name: 7shifts Shifts API
   slug: 7shifts-shifts-api
-- description: Time off requests and approvals.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Time off requests and approvals.
   name: 7shifts Time Off API
   slug: 7shifts-time-off-api
-- description: Clock-in and clock-out time tracking records.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Clock-in and clock-out time tracking records.
   name: 7shifts Time Punches API
   slug: 7shifts-time-punches-api
-- description: Users (employees) scoped to a company.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Users (employees) scoped to a company.
   name: 7shifts Users API
   slug: 7shifts-users-api
-- description: Hourly and salary wage records for users.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Hourly and salary wage records for users.
   name: 7shifts Wages API
   slug: 7shifts-wages-api
-- description: Company-level webhook subscriptions.
+- baseURL: https://api.7shifts.com/v2
+  baseurl_source: declared
+  description: Company-level webhook subscriptions.
   name: 7shifts Webhooks API
   slug: 7shifts-webhooks-api
 artifact_total: 79
@@ -406,7 +436,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -416,7 +446,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 43.4
-  previous_composite: 47.1
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -425,7 +455,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
 security:

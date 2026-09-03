@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Lyrics generation endpoints
+- baseURL: https://docs.sunoapi.org/
+  baseurl_source: declared
+  description: Lyrics generation endpoints
   name: Suno Lyrics API
   slug: suno-lyrics-api
-- description: Music generation endpoints
+- baseURL: https://docs.sunoapi.org/
+  baseurl_source: declared
+  description: Music generation endpoints
   name: Suno Music API
   slug: suno-music-api
 artifact_total: 12
@@ -225,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/screenshots/suno-2026-06-20T194658.png
 security:

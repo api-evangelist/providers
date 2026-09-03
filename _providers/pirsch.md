@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 97 operations · 54 acting
 api_count: 1
 apis:
-- description: Manage shareable access links for dashboard visibility
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Manage shareable access links for dashboard visibility
   name: Pirsch Access Links API
   slug: pirsch-access-links-api
-- description: Obtain access tokens using OAuth2 client credentials
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Obtain access tokens using OAuth2 client credentials
   name: Pirsch Authentication API
   slug: pirsch-authentication-api
-- description: Manage OAuth2 and access-key API clients
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Manage OAuth2 and access-key API clients
   name: Pirsch Clients API
   slug: pirsch-clients-api
-- description: Define and manage conversion goals with path patterns or events
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Define and manage conversion goals with path patterns or events
   name: Pirsch Conversion Goals API
   slug: pirsch-conversion-goals-api
-- description: Manage tracked domains and their configuration
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Manage tracked domains and their configuration
   name: Pirsch Domains API
   slug: pirsch-domains-api
-- description: Schedule and manage recurring email analytics reports
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Schedule and manage recurring email analytics reports
   name: Pirsch Email Reports API
   slug: pirsch-email-reports-api
-- description: Define and manage multi-step conversion funnels
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Define and manage multi-step conversion funnels
   name: Pirsch Funnels API
   slug: pirsch-funnels-api
-- description: Manage domain members, roles, and invitations
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Manage domain members, roles, and invitations
   name: Pirsch Members API
   slug: pirsch-members-api
-- description: Create and manage UTM-enriched short links
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Create and manage UTM-enriched short links
   name: Pirsch Short Links API
   slug: pirsch-short-links-api
-- description: Query analytics statistics by date range and filter criteria
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Query analytics statistics by date range and filter criteria
   name: Pirsch Statistics API
   slug: pirsch-statistics-api
-- description: Send page views, events, and session keep-alive signals
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Send page views, events, and session keep-alive signals
   name: Pirsch Tracking API
   slug: pirsch-tracking-api
-- description: Filter traffic and configure spike/warning notifications
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Filter traffic and configure spike/warning notifications
   name: Pirsch Traffic Management API
   slug: pirsch-traffic-management-api
-- description: Manage the authenticated user account
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Manage the authenticated user account
   name: Pirsch User API
   slug: pirsch-user-api
-- description: Save and manage custom analytics views
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Save and manage custom analytics views
   name: Pirsch Views API
   slug: pirsch-views-api
-- description: Configure webhooks for event-driven integrations
+- baseURL: https://api.pirsch.io/api/v1
+  baseurl_source: declared
+  description: Configure webhooks for event-driven integrations
   name: Pirsch Webhooks API
   slug: pirsch-webhooks-api
 artifact_total: 49
@@ -517,7 +547,7 @@ score:
     catalog_gap: 31.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -527,7 +557,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 57.9
-  previous_composite: 66.7
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -539,7 +569,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/screenshots/pirsch-2026-06-20T191730.png
 security:

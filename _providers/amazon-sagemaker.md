@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -58,16 +58,24 @@ apis:
 - description: SageMaker Edge Manager dataplane service for communicating with active edge agents running ML models on edge devices.
   name: Amazon SageMaker Edge Manager API
   slug: amazon-sagemaker-edge-manager-api
-- description: Operations for managing SageMaker endpoints.
+- baseURL: https://api.sagemaker.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SageMaker endpoints.
   name: Amazon SageMaker Endpoints API
   slug: amazon-sagemaker-endpoints-api
-- description: Operations for managing SageMaker models.
+- baseURL: https://api.sagemaker.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SageMaker models.
   name: Amazon SageMaker Models API
   slug: amazon-sagemaker-models-api
-- description: Operations for managing SageMaker notebook instances.
+- baseURL: https://api.sagemaker.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SageMaker notebook instances.
   name: Amazon SageMaker Notebook Instances API
   slug: amazon-sagemaker-notebook-instances-api
-- description: Operations for managing SageMaker training jobs.
+- baseURL: https://api.sagemaker.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SageMaker training jobs.
   name: Amazon SageMaker Training Jobs API
   slug: amazon-sagemaker-training-jobs-api
 arazzos:
@@ -563,7 +571,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/screenshots/amazon-sagemaker-2026-06-20T171815.png
 security:

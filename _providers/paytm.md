@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -89,10 +89,14 @@ apis:
 - description: Browser JavaScript checkout that renders the Paytm payment page in two steps - server-side token creation followed by client-side invocation of the hosted checkout overlay.
   name: Paytm JS Checkout
   slug: js-checkout
-- description: The Payments API from Paytm — 2 operation(s) for payments.
+- baseURL: https://securegw.paytm.in
+  baseurl_source: declared
+  description: The Payments API from Paytm — 2 operation(s) for payments.
   name: Paytm Payments API
   slug: paytm-payments-api
-- description: The Refunds API from Paytm — 1 operation(s) for refunds.
+- baseURL: https://securegw.paytm.in
+  baseurl_source: declared
+  description: The Refunds API from Paytm — 1 operation(s) for refunds.
   name: Paytm Refunds API
   slug: paytm-refunds-api
 artifact_total: 27
@@ -204,7 +208,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png
 security:

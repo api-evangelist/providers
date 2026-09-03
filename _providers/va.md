@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -74,49 +74,79 @@ apis:
 - description: Provides reference data used for VA benefits forms and applications, including lists of service branches, discharge types, disabilities, countries, and other standardized VA data sets.
   name: Benefits Reference Data API
   slug: benefits-reference-data-api
-- description: The Appealable Issues API from Veterans Affairs — 1 operation(s) for appealable issues.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Appealable Issues API from Veterans Affairs — 1 operation(s) for appealable issues.
   name: Veterans Affairs Appealable Issues API
   slug: va-appealable-issues-api
-- description: The Appeals Status API from Veterans Affairs — 1 operation(s) for appeals status.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Appeals Status API from Veterans Affairs — 1 operation(s) for appeals status.
   name: Veterans Affairs Appeals Status API
   slug: va-appeals-status-api
-- description: The Contestable Issues API from Veterans Affairs — 1 operation(s) for contestable issues.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Contestable Issues API from Veterans Affairs — 1 operation(s) for contestable issues.
   name: Veterans Affairs Contestable Issues API
   slug: va-contestable-issues-api
-- description: The Higher-Level Reviews API from Veterans Affairs — 10 operation(s) for higher-level reviews.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Higher-Level Reviews API from Veterans Affairs — 10 operation(s) for higher-level reviews.
   name: Veterans Affairs Higher-Level Reviews API
   slug: va-higher-level-reviews-api
-- description: The Labs And Tests API from Veterans Affairs — 1 operation(s) for labs and tests.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Labs And Tests API from Veterans Affairs — 1 operation(s) for labs and tests.
   name: Veterans Affairs Labs And Tests API
   slug: va-labs-and-tests-api
-- description: The Legacy Appeals API from Veterans Affairs — 2 operation(s) for legacy appeals.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Legacy Appeals API from Veterans Affairs — 2 operation(s) for legacy appeals.
   name: Veterans Affairs Legacy Appeals API
   slug: va-legacy-appeals-api
-- description: The Medical Records API from Veterans Affairs — 30 operation(s) for medical records.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Medical Records API from Veterans Affairs — 30 operation(s) for medical records.
   name: Veterans Affairs Medical Records API
   slug: va-medical-records-api
-- description: The Messaging API from Veterans Affairs — 20 operation(s) for messaging.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Messaging API from Veterans Affairs — 20 operation(s) for messaging.
   name: Veterans Affairs Messaging API
   slug: va-messaging-api
-- description: The Notice of Disagreements API from Veterans Affairs — 15 operation(s) for notice of disagreements.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Notice of Disagreements API from Veterans Affairs — 15 operation(s) for notice of disagreements.
   name: Veterans Affairs Notice of Disagreements API
   slug: va-notice-of-disagreements-api
-- description: The Other Accredited Representatives API from Veterans Affairs — 1 operation(s) for other accredited representatives.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Other Accredited Representatives API from Veterans Affairs — 1 operation(s) for other accredited representatives.
   name: Veterans Affairs Other Accredited Representatives API
   slug: va-other-accredited-representatives-api
-- description: The Prescriptions API from Veterans Affairs — 8 operation(s) for prescriptions.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Prescriptions API from Veterans Affairs — 8 operation(s) for prescriptions.
   name: Veterans Affairs Prescriptions API
   slug: va-prescriptions-api
-- description: The Supplemental Claims API from Veterans Affairs — 15 operation(s) for supplemental claims.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Supplemental Claims API from Veterans Affairs — 15 operation(s) for supplemental claims.
   name: Veterans Affairs Supplemental Claims API
   slug: va-supplemental-claims-api
-- description: The Tooltips API from Veterans Affairs — 2 operation(s) for tooltips.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Tooltips API from Veterans Affairs — 2 operation(s) for tooltips.
   name: Veterans Affairs Tooltips API
   slug: va-tooltips-api
-- description: The Unique User Metrics API from Veterans Affairs — 1 operation(s) for unique user metrics.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The Unique User Metrics API from Veterans Affairs — 1 operation(s) for unique user metrics.
   name: Veterans Affairs Unique User Metrics API
   slug: va-unique-user-metrics-api
-- description: The VSO Accredited Representatives API from Veterans Affairs — 1 operation(s) for vso accredited representatives.
+- baseURL: https://api.va.gov/services/benefits-intake/v2
+  baseurl_source: declared
+  description: The VSO Accredited Representatives API from Veterans Affairs — 1 operation(s) for vso accredited representatives.
   name: Veterans Affairs VSO Accredited Representatives API
   slug: va-vso-accredited-representatives-api
 artifact_total: 54
@@ -322,7 +352,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png
 security:

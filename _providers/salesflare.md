@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 72 operations · 37 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Accounts API from Salesflare — 6 operation(s) for accounts.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Accounts API from Salesflare — 6 operation(s) for accounts.
   name: Salesflare Accounts API
   slug: salesflare-accounts-api
-- description: The AI Message Feedbacks API from Salesflare — 2 operation(s) for ai message feedbacks.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The AI Message Feedbacks API from Salesflare — 2 operation(s) for ai message feedbacks.
   name: Salesflare AI Message Feedbacks API
   slug: salesflare-ai-message-feedbacks-api
-- description: The AISetings API from Salesflare — 1 operation(s) for aisetings.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The AISetings API from Salesflare — 1 operation(s) for aisetings.
   name: Salesflare AISetings API
   slug: salesflare-aisetings-api
-- description: The AISettings API from Salesflare — 1 operation(s) for aisettings.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The AISettings API from Salesflare — 1 operation(s) for aisettings.
   name: Salesflare AISettings API
   slug: salesflare-aisettings-api
-- description: The Calls API from Salesflare — 2 operation(s) for calls.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Calls API from Salesflare — 2 operation(s) for calls.
   name: Salesflare Calls API
   slug: salesflare-calls-api
-- description: The Contacts API from Salesflare — 2 operation(s) for contacts.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Contacts API from Salesflare — 2 operation(s) for contacts.
   name: Salesflare Contacts API
   slug: salesflare-contacts-api
-- description: The Custom Fields API from Salesflare — 4 operation(s) for custom fields.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Custom Fields API from Salesflare — 4 operation(s) for custom fields.
   name: Salesflare Custom Fields API
   slug: salesflare-custom-fields-api
-- description: The Email Data Sources API from Salesflare — 2 operation(s) for email data sources.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Email Data Sources API from Salesflare — 2 operation(s) for email data sources.
   name: Salesflare Email Data Sources API
   slug: salesflare-email-data-sources-api
-- description: The Filter Fields API from Salesflare — 1 operation(s) for filter fields.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Filter Fields API from Salesflare — 1 operation(s) for filter fields.
   name: Salesflare Filter Fields API
   slug: salesflare-filter-fields-api
-- description: The Groups API from Salesflare — 2 operation(s) for groups.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Groups API from Salesflare — 2 operation(s) for groups.
   name: Salesflare Groups API
   slug: salesflare-groups-api
-- description: The Internal Notes API from Salesflare — 2 operation(s) for internal notes.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Internal Notes API from Salesflare — 2 operation(s) for internal notes.
   name: Salesflare Internal Notes API
   slug: salesflare-internal-notes-api
-- description: The Meetings API from Salesflare — 3 operation(s) for meetings.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Meetings API from Salesflare — 3 operation(s) for meetings.
   name: Salesflare Meetings API
   slug: salesflare-meetings-api
-- description: The Opportunities API from Salesflare — 2 operation(s) for opportunities.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Opportunities API from Salesflare — 2 operation(s) for opportunities.
   name: Salesflare Opportunities API
   slug: salesflare-opportunities-api
-- description: The Persons API from Salesflare — 1 operation(s) for persons.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Persons API from Salesflare — 1 operation(s) for persons.
   name: Salesflare Persons API
   slug: salesflare-persons-api
-- description: The Pipelines API from Salesflare — 3 operation(s) for pipelines.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Pipelines API from Salesflare — 3 operation(s) for pipelines.
   name: Salesflare Pipelines API
   slug: salesflare-pipelines-api
-- description: The Regional Settings API from Salesflare — 1 operation(s) for regional settings.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Regional Settings API from Salesflare — 1 operation(s) for regional settings.
   name: Salesflare Regional Settings API
   slug: salesflare-regional-settings-api
-- description: The Tags API from Salesflare — 3 operation(s) for tags.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Tags API from Salesflare — 3 operation(s) for tags.
   name: Salesflare Tags API
   slug: salesflare-tags-api
-- description: The Tasks API from Salesflare — 2 operation(s) for tasks.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Tasks API from Salesflare — 2 operation(s) for tasks.
   name: Salesflare Tasks API
   slug: salesflare-tasks-api
-- description: The Users API from Salesflare — 4 operation(s) for users.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Users API from Salesflare — 4 operation(s) for users.
   name: Salesflare Users API
   slug: salesflare-users-api
-- description: The Workflows API from Salesflare — 4 operation(s) for workflows.
+- baseURL: https://api.salesflare.com
+  baseurl_source: declared
+  description: The Workflows API from Salesflare — 4 operation(s) for workflows.
   name: Salesflare Workflows API
   slug: salesflare-workflows-api
 artifact_total: 56
@@ -402,7 +442,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:

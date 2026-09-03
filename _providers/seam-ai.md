@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Completions API from Seam AI — 1 operation(s) for completions.
+- baseURL: https://enricher.getseam.ai
+  baseurl_source: declared
+  description: The Completions API from Seam AI — 1 operation(s) for completions.
   name: Seam AI Completions API
   slug: seam-ai-completions-api
 artifact_total: 6
@@ -200,7 +202,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/screenshots/seam-ai-2026-08-17T081740.png
 security:

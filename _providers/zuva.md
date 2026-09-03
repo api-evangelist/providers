@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 9 acting
 api_count: 1
 apis:
-- description: Multi-level document classification.
+- baseURL: https://us.app.zuva.ai/api/v2
+  baseurl_source: declared
+  description: Multi-level document classification.
   name: Zuva Classification API
   slug: zuva-classification-api
-- description: Extract field values from documents.
+- baseURL: https://us.app.zuva.ai/api/v2
+  baseurl_source: declared
+  description: Extract field values from documents.
   name: Zuva Field Extraction API
   slug: zuva-field-extraction-api
-- description: Field catalog management.
+- baseURL: https://us.app.zuva.ai/api/v2
+  baseurl_source: declared
+  description: Field catalog management.
   name: Zuva Fields API
   slug: zuva-fields-api
-- description: Upload and manage document files.
+- baseURL: https://us.app.zuva.ai/api/v2
+  baseurl_source: declared
+  description: Upload and manage document files.
   name: Zuva Files API
   slug: zuva-files-api
-- description: Optical character recognition.
+- baseURL: https://us.app.zuva.ai/api/v2
+  baseurl_source: declared
+  description: Optical character recognition.
   name: Zuva OCR API
   slug: zuva-ocr-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 37.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zuva/refs/heads/main/screenshots/zuva-2026-09-02T171913.png
 security:
 - kind: authentication
   name: Zuva Authentication

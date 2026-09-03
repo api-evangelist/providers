@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations · 9 acting
 api_count: 1
 apis:
-- description: The Auth API from Involve Asia — 1 operation(s) for auth.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Auth API from Involve Asia — 1 operation(s) for auth.
   name: Involve Asia Auth API
   slug: involve-asia-auth-api
-- description: The Campaigns API from Involve Asia — 1 operation(s) for campaigns.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Campaigns API from Involve Asia — 1 operation(s) for campaigns.
   name: Involve Asia Campaigns API
   slug: involve-asia-campaigns-api
-- description: The Conversions API from Involve Asia — 3 operation(s) for conversions.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Conversions API from Involve Asia — 3 operation(s) for conversions.
   name: Involve Asia Conversions API
   slug: involve-asia-conversions-api
-- description: The Deeplink API from Involve Asia — 1 operation(s) for deeplink.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Deeplink API from Involve Asia — 1 operation(s) for deeplink.
   name: Involve Asia Deeplink API
   slug: involve-asia-deeplink-api
-- description: The Offers API from Involve Asia — 2 operation(s) for offers.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Offers API from Involve Asia — 2 operation(s) for offers.
   name: Involve Asia Offers API
   slug: involve-asia-offers-api
-- description: The Shopee API from Involve Asia — 1 operation(s) for shopee.
+- baseURL: https://api.involve.asia/api
+  baseurl_source: declared
+  description: The Shopee API from Involve Asia — 1 operation(s) for shopee.
   name: Involve Asia Shopee API
   slug: involve-asia-shopee-api
 arazzos:
@@ -260,7 +272,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -270,7 +282,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 50.2
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,7 +294,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-asia/refs/heads/main/screenshots/involve-asia-2026-07-25T222801.png
 security:

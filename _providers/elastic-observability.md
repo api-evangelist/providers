@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'The Elastic Observability product surface: logs, metrics, APM traces, synthetics, RUM, universal profiling and SLOs on the Elastic Stack. The callable contracts are the four APM Server intake APIs lis'
   name: Elastic Observability
   slug: elastic-observability
-- description: The Server Info API from Elastic Observability — 1 operation(s) for server info.
+- baseURL: https://{deployment}.apm.{region}.cloud.es.io:443
+  baseurl_source: declared
+  description: The Server Info API from Elastic Observability — 1 operation(s) for server info.
   name: Elastic Observability Server Info API
   slug: elastic-observability-server-info-api
-- description: APIs that query the APM Server for configuration changes.
+- baseURL: https://{deployment}.apm.{region}.cloud.es.io:443
+  baseurl_source: declared
+  description: APIs that query the APM Server for configuration changes.
   name: Elastic Observability agent config API
   slug: elastic-observability-agent-config-api
-- description: The events intake API is the internal protocol that APM agents use to talk to the APM Server.
+- baseURL: https://{deployment}.apm.{region}.cloud.es.io:443
+  baseurl_source: declared
+  description: The events intake API is the internal protocol that APM agents use to talk to the APM Server.
   name: Elastic Observability event intake API
   slug: elastic-observability-event-intake-api
-- description: The OpenTelemetry intake API uses the OpenTelemetry Protocol (OTLP) to send traces, metrics, and logs to APM Server. OTLP is the default transfer protocol for OpenTelemetry and is supported natively b
+- baseURL: https://{deployment}.apm.{region}.cloud.es.io:443
+  baseurl_source: declared
+  description: The OpenTelemetry intake API uses the OpenTelemetry Protocol (OTLP) to send traces, metrics, and logs to APM Server. OTLP is the default transfer protocol for OpenTelemetry and is supported natively b
   name: Elastic Observability opentelemetry intake API
   slug: elastic-observability-opentelemetry-intake-api
 artifact_total: 20
@@ -281,7 +289,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -291,7 +299,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 57.0
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,7 +311,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-observability/refs/heads/main/screenshots/elastic-observability-2026-06-20T180529.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 16 operations · 5 acting
 api_count: 1
 apis:
-- description: Exchange API key and secret for a bearer access token.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Exchange API key and secret for a bearer access token.
   name: Endor Labs Authentication API
   slug: endor-labs-authentication-api
-- description: Detected problems requiring remediation.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Detected problems requiring remediation.
   name: Endor Labs Findings API
   slug: endor-labs-findings-api
-- description: Tenants and child namespaces a token may access.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Tenants and child namespaces a token may access.
   name: Endor Labs Namespaces API
   slug: endor-labs-namespaces-api
-- description: PackageVersion and dependency resources.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: PackageVersion and dependency resources.
   name: Endor Labs Packages API
   slug: endor-labs-packages-api
-- description: Governance rules over resources.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Governance rules over resources.
   name: Endor Labs Policies API
   slug: endor-labs-policies-api
-- description: Project resources - the root of scanned source code.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Project resources - the root of scanned source code.
   name: Endor Labs Projects API
   slug: endor-labs-projects-api
-- description: Scan execution results and metrics.
+- baseURL: https://api.endorlabs.com/v1
+  baseurl_source: declared
+  description: Scan execution results and metrics.
   name: Endor Labs Scan Results API
   slug: endor-labs-scan-results-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endor-labs/refs/heads/main/screenshots/endor-labs-2026-06-20T180657.png
 security:

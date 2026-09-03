@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Case list and case detail lookups
+- baseURL: https://crashviewer.nhtsa.dot.gov/CrashAPI
+  baseurl_source: spec
+  description: Case list and case detail lookups
   name: NHTSA Crash API Cases API
   slug: nhtsa-crash-api-cases-api
-- description: Crash queries by location, vehicle, and occupant
+- baseURL: https://crashviewer.nhtsa.dot.gov/CrashAPI
+  baseurl_source: spec
+  description: Crash queries by location, vehicle, and occupant
   name: NHTSA Crash API Crashes API
   slug: nhtsa-crash-api-crashes-api
-- description: Fatality Analysis Reporting System datasets and queries
+- baseURL: https://crashviewer.nhtsa.dot.gov/CrashAPI
+  baseurl_source: spec
+  description: Fatality Analysis Reporting System datasets and queries
   name: NHTSA Crash API FARS API
   slug: nhtsa-crash-api-fars-api
 artifact_total: 13
@@ -148,7 +154,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/screenshots/nhtsa-crash-api-2026-06-20T190316.png
 security:

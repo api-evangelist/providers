@@ -34,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The access-management API from Upwind — 10 operation(s) for access-management.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The access-management API from Upwind — 10 operation(s) for access-management.
   name: Upwind access-management API
   slug: upwind-access-management-api
-- description: The api-security API from Upwind — 2 operation(s) for api-security.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The api-security API from Upwind — 2 operation(s) for api-security.
   name: Upwind api-security API
   slug: upwind-api-security-api
-- description: The cloud-accounts API from Upwind — 2 operation(s) for cloud-accounts.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The cloud-accounts API from Upwind — 2 operation(s) for cloud-accounts.
   name: Upwind cloud-accounts API
   slug: upwind-cloud-accounts-api
-- description: The configurations API from Upwind — 14 operation(s) for configurations.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The configurations API from Upwind — 14 operation(s) for configurations.
   name: Upwind configurations API
   slug: upwind-configurations-api
-- description: The events API from Upwind — 3 operation(s) for events.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The events API from Upwind — 3 operation(s) for events.
   name: Upwind events API
   slug: upwind-events-api
-- description: The integrations API from Upwind — 2 operation(s) for integrations.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The integrations API from Upwind — 2 operation(s) for integrations.
   name: Upwind integrations API
   slug: upwind-integrations-api
-- description: The Inventory API from Upwind — 6 operation(s) for inventory.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Inventory API from Upwind — 6 operation(s) for inventory.
   name: Upwind Inventory API
   slug: upwind-inventory-api
-- description: The packages API from Upwind — 2 operation(s) for packages.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The packages API from Upwind — 2 operation(s) for packages.
   name: Upwind packages API
   slug: upwind-packages-api
-- description: The shiftleft API from Upwind — 1 operation(s) for shiftleft.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The shiftleft API from Upwind — 1 operation(s) for shiftleft.
   name: Upwind shiftleft API
   slug: upwind-shiftleft-api
-- description: The threats API from Upwind — 18 operation(s) for threats.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The threats API from Upwind — 18 operation(s) for threats.
   name: Upwind threats API
   slug: upwind-threats-api
-- description: The vulnerabilities API from Upwind — 2 operation(s) for vulnerabilities.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The vulnerabilities API from Upwind — 2 operation(s) for vulnerabilities.
   name: Upwind vulnerabilities API
   slug: upwind-vulnerabilities-api
-- description: The workflows API from Upwind — 2 operation(s) for workflows.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The workflows API from Upwind — 2 operation(s) for workflows.
   name: Upwind workflows API
   slug: upwind-workflows-api
 artifact_total: 44
@@ -332,7 +356,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -342,7 +366,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     contracts:
@@ -353,7 +377,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwind/refs/heads/main/screenshots/upwind-2026-08-17T082651.png
 security:

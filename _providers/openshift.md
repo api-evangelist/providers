@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: OAuth authentication and authorization API for OpenShift.
   name: OpenShift OAuth API
   slug: openshift-oauth-api
-- description: API for managing application routes and ingress.
+- baseURL: https://api.openshift.com/apis/route.openshift.io/v1
+  baseurl_source: declared
+  description: API for managing application routes and ingress.
   name: OpenShift Routes API
   slug: openshift-routes-api
 - description: API for managing application builds and build configurations.
@@ -119,22 +121,34 @@ apis:
 - description: Managed service API for installing, modifying, operating, and upgrading Red Hat OpenShift clusters across cloud providers.
   name: OpenShift Cluster Manager API
   slug: openshift-cluster-manager-api
-- description: Manage build configuration templates that define how to transform source code into container images using Source, Docker, or Custom build strategies with configurable triggers.
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Manage build configuration templates that define how to transform source code into container images using Source, Docker, or Custom build strategies with configurable triggers.
   name: OpenShift BuildConfigs API
   slug: openshift-buildconfigs-api
-- description: Manage builds and build configurations for source-to-image, Docker, and custom build strategies. Builds compile source code into runnable container images.
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Manage builds and build configurations for source-to-image, Docker, and custom build strategies. Builds compile source code into runnable container images.
   name: OpenShift Builds API
   slug: openshift-builds-api
-- description: Manage OpenShift DeploymentConfigs which provide declarative deployment lifecycle management with rolling, recreate, and custom strategies, plus automatic rollback and deployment triggers.
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Manage OpenShift DeploymentConfigs which provide declarative deployment lifecycle management with rolling, recreate, and custom strategies, plus automatic rollback and deployment triggers.
   name: OpenShift DeploymentConfigs API
   slug: openshift-deploymentconfigs-api
-- description: Request creation of new projects. ProjectRequests are the mechanism through which users provision new projects subject to cluster policy.
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Request creation of new projects. ProjectRequests are the mechanism through which users provision new projects subject to cluster policy.
   name: OpenShift ProjectRequests API
   slug: openshift-projectrequests-api
-- description: Manage OpenShift projects which extend Kubernetes namespaces with additional metadata, access controls, and resource isolation for multi-tenant environments.
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Manage OpenShift projects which extend Kubernetes namespaces with additional metadata, access controls, and resource isolation for multi-tenant environments.
   name: OpenShift Projects API
   slug: openshift-projects-api
-- description: Manage application routes that expose services at a hostname. Routes provide external access to services via HTTP/HTTPS, with support for TLS termination strategies including edge, passthrough, and re
+- baseURL: https://api.openshift.com
+  baseurl_source: declared
+  description: Manage application routes that expose services at a hostname. Routes provide external access to services via HTTP/HTTPS, with support for TLS termination strategies including edge, passthrough, and re
   name: OpenShift Routes API
   slug: openshift-routes-api
 artifact_total: 284
@@ -992,7 +1006,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:

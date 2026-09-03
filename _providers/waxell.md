@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -47,19 +47,29 @@ apis:
 - description: Waxell Developer MCP is a hosted Model Context Protocol server that lets coding agents (Claude Code, Cursor, Windsurf, VS Code, Claude Desktop) query a Waxell instance in real time. It exposes 15 live
   name: Waxell Developer MCP Server
   slug: developer-mcp
-- description: Model cost catalog and tenant-level overrides
+- baseURL: https://{tenant}.waxell.dev/api/v1/observe
+  baseurl_source: declared
+  description: Model cost catalog and tenant-level overrides
   name: Waxell Cost Management API
   slug: waxell-cost-management-api
-- description: Pre-execution policy checks and audit events
+- baseURL: https://{tenant}.waxell.dev/api/v1/observe
+  baseurl_source: declared
+  description: Pre-execution policy checks and audit events
   name: Waxell Governance API
   slug: waxell-governance-api
-- description: Managed prompts retrievable by name and version
+- baseURL: https://{tenant}.waxell.dev/api/v1/observe
+  baseurl_source: declared
+  description: Managed prompts retrievable by name and version
   name: Waxell Prompts API
   slug: waxell-prompts-api
-- description: Lifecycle endpoints for agent execution runs
+- baseURL: https://{tenant}.waxell.dev/api/v1/observe
+  baseurl_source: declared
+  description: Lifecycle endpoints for agent execution runs
   name: Waxell Runs API
   slug: waxell-runs-api
-- description: LLM calls, spans, steps, and quality scores recorded against a run
+- baseURL: https://{tenant}.waxell.dev/api/v1/observe
+  baseurl_source: declared
+  description: LLM calls, spans, steps, and quality scores recorded against a run
   name: Waxell Telemetry API
   slug: waxell-telemetry-api
 artifact_total: 69
@@ -390,7 +400,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:

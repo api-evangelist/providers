@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 1
 apis:
-- description: The Accounts API from Agora — 2 operation(s) for accounts.
+- baseURL: https://api.agora.finance
+  baseurl_source: declared
+  description: The Accounts API from Agora — 2 operation(s) for accounts.
   name: Agora Accounts API
   slug: agora-accounts-api
-- description: The Auth API from Agora — 1 operation(s) for auth.
+- baseURL: https://api.agora.finance
+  baseurl_source: declared
+  description: The Auth API from Agora — 1 operation(s) for auth.
   name: Agora Auth API
   slug: agora-auth-api
-- description: The Metrics API from Agora — 3 operation(s) for metrics.
+- baseURL: https://api.agora.finance
+  baseurl_source: declared
+  description: The Metrics API from Agora — 3 operation(s) for metrics.
   name: Agora Metrics API
   slug: agora-metrics-api
-- description: The Routes API from Agora — 2 operation(s) for routes.
+- baseURL: https://api.agora.finance
+  baseurl_source: declared
+  description: The Routes API from Agora — 2 operation(s) for routes.
   name: Agora Routes API
   slug: agora-routes-api
-- description: The Transactions API from Agora — 2 operation(s) for transactions.
+- baseURL: https://api.agora.finance
+  baseurl_source: declared
+  description: The Transactions API from Agora — 2 operation(s) for transactions.
   name: Agora Transactions API
   slug: agora-transactions-api
 artifact_total: 15
@@ -228,7 +238,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/screenshots/agora-2026-07-25T195314.png
 security:

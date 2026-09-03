@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Retrieve credit decisions
+- baseURL: https://api.fundingcircle.co.uk/v1
+  baseurl_source: declared
+  description: Retrieve credit decisions
   name: Funding Circle Decisions API
   slug: funding-circle-decisions-api
-- description: Upload supporting documents
+- baseURL: https://api.fundingcircle.co.uk/v1
+  baseurl_source: declared
+  description: Upload supporting documents
   name: Funding Circle Documents API
   slug: funding-circle-documents-api
-- description: Create and manage business loan applications
+- baseURL: https://api.fundingcircle.co.uk/v1
+  baseurl_source: declared
+  description: Create and manage business loan applications
   name: Funding Circle Loan Applications API
   slug: funding-circle-loan-applications-api
 artifact_total: 11
@@ -207,7 +213,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funding-circle/refs/heads/main/screenshots/funding-circle-2026-08-17T123438.png
 security:

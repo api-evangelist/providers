@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: Live public inventory of 200+ payers with network-quality scoring, updated monthly, exposing data coverage and freshness across payer machine-readable files.
   name: Serif Health Payer Inventory
   slug: payer-inventory-api
-- description: The Distributions API from Serif Health — 1 operation(s) for distributions.
+- baseURL: https://pricing-api.serifhealth.com
+  baseurl_source: declared
+  description: The Distributions API from Serif Health — 1 operation(s) for distributions.
   name: Serif Health Distributions API
   slug: serif-health-distributions-api
-- description: The Rates API from Serif Health — 1 operation(s) for rates.
+- baseURL: https://pricing-api.serifhealth.com
+  baseurl_source: declared
+  description: The Rates API from Serif Health — 1 operation(s) for rates.
   name: Serif Health Rates API
   slug: serif-health-rates-api
 artifact_total: 14
@@ -148,7 +152,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -177,8 +181,9 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/serif-health/refs/heads/main/screenshots/serif-health-2026-09-02T155111.png
 security:
 - kind: authentication
   name: Serif Health Authentication

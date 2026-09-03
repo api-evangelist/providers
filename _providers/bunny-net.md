@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -92,34 +92,54 @@ apis:
 - description: Reference endpoint returning the list of Bunny.net edge and storage regions for use in zone configuration.
   name: Bunny.net Regions API
   slug: regions
-- description: The APIKeys API from Bunny.net — 1 operation(s) for apikeys.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The APIKeys API from Bunny.net — 1 operation(s) for apikeys.
   name: Bunny.net APIKeys API
   slug: bunny-net-apikeys-api
-- description: The Billing API from Bunny.net — 3 operation(s) for billing.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Billing API from Bunny.net — 3 operation(s) for billing.
   name: Bunny.net Billing API
   slug: bunny-net-billing-api
-- description: The Countries API from Bunny.net — 1 operation(s) for countries.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Countries API from Bunny.net — 1 operation(s) for countries.
   name: Bunny.net Countries API
   slug: bunny-net-countries-api
-- description: The DNSZones API from Bunny.net — 6 operation(s) for dnszones.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The DNSZones API from Bunny.net — 6 operation(s) for dnszones.
   name: Bunny.net DNSZones API
   slug: bunny-net-dnszones-api
-- description: The PullZones API from Bunny.net — 12 operation(s) for pullzones.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The PullZones API from Bunny.net — 12 operation(s) for pullzones.
   name: Bunny.net PullZones API
   slug: bunny-net-pullzones-api
-- description: The Purge API from Bunny.net — 1 operation(s) for purge.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Purge API from Bunny.net — 1 operation(s) for purge.
   name: Bunny.net Purge API
   slug: bunny-net-purge-api
-- description: The Regions API from Bunny.net — 1 operation(s) for regions.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Regions API from Bunny.net — 1 operation(s) for regions.
   name: Bunny.net Regions API
   slug: bunny-net-regions-api
-- description: The Statistics API from Bunny.net — 3 operation(s) for statistics.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Statistics API from Bunny.net — 3 operation(s) for statistics.
   name: Bunny.net Statistics API
   slug: bunny-net-statistics-api
-- description: The StorageZones API from Bunny.net — 4 operation(s) for storagezones.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The StorageZones API from Bunny.net — 4 operation(s) for storagezones.
   name: Bunny.net StorageZones API
   slug: bunny-net-storagezones-api
-- description: The Stream API from Bunny.net — 2 operation(s) for stream.
+- baseURL: https://api.bunny.net
+  baseurl_source: declared
+  description: The Stream API from Bunny.net — 2 operation(s) for stream.
   name: Bunny.net Stream API
   slug: bunny-net-stream-api
 artifact_total: 47
@@ -277,7 +297,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -287,7 +307,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 40.3
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -296,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

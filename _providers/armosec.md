@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 53 operations · 39 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Account API access key management.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Account API access key management.
   name: ARMO Access Keys API
   slug: armosec-access-keys-api
-- description: Connected clusters and workloads.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Connected clusters and workloads.
   name: ARMO Clusters API
   slug: armosec-clusters-api
-- description: Jira and collaboration/notification integrations.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Jira and collaboration/notification integrations.
   name: ARMO Integrations API
   slug: armosec-integrations-api
-- description: KSPM posture and compliance framework results.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: KSPM posture and compliance framework results.
   name: ARMO Posture API
   slug: armosec-posture-api
-- description: Container registry scanning.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Container registry scanning.
   name: ARMO Registry API
   slug: armosec-registry-api
-- description: Runtime incidents (CADR), network and runtime policies.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Runtime incidents (CADR), network and runtime policies.
   name: ARMO Runtime API
   slug: armosec-runtime-api
-- description: Correlated security risks and attack chains.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Correlated security risks and attack chains.
   name: ARMO Security Risks API
   slug: armosec-security-risks-api
-- description: Image and workload vulnerability scanning and results.
+- baseURL: https://api.armosec.io/api/v1
+  baseurl_source: declared
+  description: Image and workload vulnerability scanning and results.
   name: ARMO Vulnerabilities API
   slug: armosec-vulnerabilities-api
 artifact_total: 24
@@ -198,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armosec/refs/heads/main/screenshots/armosec-2026-07-25T201225.png
 security:

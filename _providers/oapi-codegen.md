@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Command-line tool and Go library that converts OpenAPI 3.0 and 3.1 specifications into Go server-side, client-side, and HTTP model code with support for multiple Go web frameworks.
@@ -187,7 +187,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oapi-codegen/refs/heads/main/screenshots/oapi-codegen-2026-06-20T190551.png
 security:

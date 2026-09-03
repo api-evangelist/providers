@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations on Zoho Sheet workbooks (spreadsheet files)
+- baseURL: https://sheet.zoho.com/api/v2
+  baseurl_source: declared
+  description: Operations on Zoho Sheet workbooks (spreadsheet files)
   name: Zoho Sheet Workbook API
   slug: zoho-sheet-workbook-api
 artifact_total: 19
@@ -214,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/screenshots/zoho-sheet-2026-06-20T201949.png
 security:

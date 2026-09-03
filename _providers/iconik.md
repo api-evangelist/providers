@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 26 operations · 13 acting
 api_count: 1
 apis:
-- description: Core media asset containers.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Core media asset containers.
   name: iconik Assets API
   slug: iconik-assets-api
-- description: Folder-like grouping of assets and sub-collections.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Folder-like grouping of assets and sub-collections.
   name: iconik Collections API
   slug: iconik-collections-api
-- description: Files, proxies, formats, and storages attached to assets.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Files, proxies, formats, and storages attached to assets.
   name: iconik Files API
   slug: iconik-files-api
-- description: Asynchronous job tracking and orchestration.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Asynchronous job tracking and orchestration.
   name: iconik Jobs API
   slug: iconik-jobs-api
-- description: Custom metadata fields, views, and values.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Custom metadata fields, views, and values.
   name: iconik Metadata API
   slug: iconik-metadata-api
-- description: Full-text and metadata search across the catalog.
+- baseURL: https://app.iconik.io/API/assets/v1
+  baseurl_source: declared
+  description: Full-text and metadata search across the catalog.
   name: iconik Search API
   slug: iconik-search-api
 artifact_total: 21
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/screenshots/iconik-2026-07-25T222037.png
 security:

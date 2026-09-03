@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 21 operations · 10 acting
 api_count: 1
 apis:
-- description: CAD geometry upload and import
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: CAD geometry upload and import
   name: SimScale Geometry API
   slug: simscale-geometry-api
-- description: Mesh generation and configuration
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: Mesh generation and configuration
   name: SimScale Mesh Operations API
   slug: simscale-mesh-operations-api
-- description: Simulation project management
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: Simulation project management
   name: SimScale Projects API
   slug: simscale-projects-api
-- description: Post-processing and results reporting
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: Post-processing and results reporting
   name: SimScale Reports API
   slug: simscale-reports-api
-- description: Simulation execution and status
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: Simulation execution and status
   name: SimScale Simulation Runs API
   slug: simscale-simulation-runs-api
-- description: Simulation setup and configuration
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: Simulation setup and configuration
   name: SimScale Simulations API
   slug: simscale-simulations-api
-- description: File storage management
+- baseURL: https://api.simscale.com
+  baseurl_source: declared
+  description: File storage management
   name: SimScale Storage API
   slug: simscale-storage-api
 artifact_total: 31
@@ -247,7 +261,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/screenshots/simscale-2026-06-20T193939.png
 security:

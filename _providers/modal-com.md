@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 56 operations · 28 acting · 3 human-in-the-loop
 api_count: 9
 apis:
-- description: Modal App lifecycle.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Modal App lifecycle.
   name: Modal Apps API
   slug: modal-com-apps-api
-- description: Distributed key-value stores.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Distributed key-value stores.
   name: Modal Dicts API
   slug: modal-com-dicts-api
-- description: Modal workspace environments.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Modal workspace environments.
   name: Modal Environments API
   slug: modal-com-environments-api
-- description: Process execution inside sandboxes.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Process execution inside sandboxes.
   name: Modal Execution API
   slug: modal-com-execution-api
-- description: Volume file operations.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Volume file operations.
   name: Modal Files API
   slug: modal-com-files-api
-- description: Sandbox filesystem operations.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Sandbox filesystem operations.
   name: Modal Filesystem API
   slug: modal-com-filesystem-api
-- description: Modal Function definitions, invocations, and scaling.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Modal Function definitions, invocations, and scaling.
   name: Modal Functions API
   slug: modal-com-functions-api
-- description: Container image specifications and builds.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Container image specifications and builds.
   name: Modal Images API
   slug: modal-com-images-api
-- description: Asynchronous function invocations and result retrieval.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Asynchronous function invocations and result retrieval.
   name: Modal Invocations API
   slug: modal-com-invocations-api
-- description: Distributed FIFO queues.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Distributed FIFO queues.
   name: Modal Queues API
   slug: modal-com-queues-api
-- description: Sandbox lifecycle and management.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Sandbox lifecycle and management.
   name: Modal Sandboxes API
   slug: modal-com-sandboxes-api
-- description: Scheduled function executions.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Scheduled function executions.
   name: Modal Schedules API
   slug: modal-com-schedules-api
-- description: Encrypted environment-variable secrets.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Encrypted environment-variable secrets.
   name: Modal Secrets API
   slug: modal-com-secrets-api
-- description: Modal API tokens.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Modal API tokens.
   name: Modal Tokens API
   slug: modal-com-tokens-api
-- description: Volume lifecycle.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Volume lifecycle.
   name: Modal Volumes API
   slug: modal-com-volumes-api
-- description: HTTP/ASGI/WSGI web endpoints backed by Modal Functions.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: HTTP/ASGI/WSGI web endpoints backed by Modal Functions.
   name: Modal WebEndpoints API
   slug: modal-com-webendpoints-api
-- description: Modal workspaces.
+- baseURL: https://api.modal.com/v1
+  baseurl_source: spec
+  description: Modal workspaces.
   name: Modal Workspaces API
   slug: modal-com-workspaces-api
 artifact_total: 79
@@ -534,7 +568,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:

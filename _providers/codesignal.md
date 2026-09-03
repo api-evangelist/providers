@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
@@ -42,7 +42,9 @@ apis:
 - description: Outbound webhook events across assessment, candidate, auditor, and live-interview workflows. Deliveries are signed with HMAC-SHA256.
   name: CodeSignal Webhook API
   slug: codesignal-webhook-api
-- description: The Organization API from Codesignal — 5 operation(s) for organization.
+- baseURL: https://codesignal.com/learn
+  baseurl_source: declared
+  description: The Organization API from Codesignal — 5 operation(s) for organization.
   name: Codesignal Organization API
   slug: codesignal-organization-api
 artifact_total: 12
@@ -215,7 +217,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -225,7 +227,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 53.8
+  previous_composite: 53.6
   provenance:
     conformance: derived
     contracts:
@@ -242,7 +244,7 @@ score:
     regime_id: education
     score: 85.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:

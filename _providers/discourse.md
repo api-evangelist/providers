@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 93 operations · 53 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from Discourse — 10 operation(s) for admin.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Admin API from Discourse — 10 operation(s) for admin.
   name: Discourse Admin API
   slug: discourse-admin-api
-- description: The Backups API from Discourse — 2 operation(s) for backups.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Backups API from Discourse — 2 operation(s) for backups.
   name: Discourse Backups API
   slug: discourse-backups-api
-- description: The Badges API from Discourse — 3 operation(s) for badges.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Badges API from Discourse — 3 operation(s) for badges.
   name: Discourse Badges API
   slug: discourse-badges-api
-- description: The Categories API from Discourse — 5 operation(s) for categories.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Categories API from Discourse — 5 operation(s) for categories.
   name: Discourse Categories API
   slug: discourse-categories-api
-- description: The Discourse Calendar - Events API from Discourse — 2 operation(s) for discourse calendar - events.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Discourse Calendar - Events API from Discourse — 2 operation(s) for discourse calendar - events.
   name: Discourse Discourse Calendar - Events API
   slug: discourse-discourse-calendar-events-api
-- description: The Groups API from Discourse — 8 operation(s) for groups.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Groups API from Discourse — 8 operation(s) for groups.
   name: Discourse Groups API
   slug: discourse-groups-api
-- description: The Invites API from Discourse — 4 operation(s) for invites.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Invites API from Discourse — 4 operation(s) for invites.
   name: Discourse Invites API
   slug: discourse-invites-api
-- description: The Notifications API from Discourse — 2 operation(s) for notifications.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Notifications API from Discourse — 2 operation(s) for notifications.
   name: Discourse Notifications API
   slug: discourse-notifications-api
-- description: The Posts API from Discourse — 5 operation(s) for posts.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Posts API from Discourse — 5 operation(s) for posts.
   name: Discourse Posts API
   slug: discourse-posts-api
-- description: The Private Messages API from Discourse — 3 operation(s) for private messages.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Private Messages API from Discourse — 3 operation(s) for private messages.
   name: Discourse Private Messages API
   slug: discourse-private-messages-api
-- description: The Search API from Discourse — 1 operation(s) for search.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Search API from Discourse — 1 operation(s) for search.
   name: Discourse Search API
   slug: discourse-search-api
-- description: The Site API from Discourse — 2 operation(s) for site.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Site API from Discourse — 2 operation(s) for site.
   name: Discourse Site API
   slug: discourse-site-api
-- description: The Tags API from Discourse — 4 operation(s) for tags.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Tags API from Discourse — 4 operation(s) for tags.
   name: Discourse Tags API
   slug: discourse-tags-api
-- description: The Topics API from Discourse — 14 operation(s) for topics.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Topics API from Discourse — 14 operation(s) for topics.
   name: Discourse Topics API
   slug: discourse-topics-api
-- description: The Uploads API from Discourse — 7 operation(s) for uploads.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Uploads API from Discourse — 7 operation(s) for uploads.
   name: Discourse Uploads API
   slug: discourse-uploads-api
-- description: The Users API from Discourse — 23 operation(s) for users.
+- baseURL: https://meta.discourse.org
+  baseurl_source: declared
+  description: The Users API from Discourse — 23 operation(s) for users.
   name: Discourse Users API
   slug: discourse-users-api
 artifact_total: 41
@@ -272,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discourse/refs/heads/main/screenshots/discourse-2026-06-20T180038.png
 security:

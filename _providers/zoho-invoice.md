@@ -32,25 +32,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for managing organizations, contacts, items, invoices, estimates, credit notes, recurring invoices, expenses, projects, time entries, and customer payments. Authentication is OAuth 2.0 with O
   name: Zoho Invoice API
   slug: api
-- description: The Contacts API from Zoho Invoice — 3 operation(s) for contacts.
+- baseURL: https://www.zohoapis.com/invoice/v3
+  baseurl_source: declared
+  description: The Contacts API from Zoho Invoice — 3 operation(s) for contacts.
   name: Zoho Invoice Contacts API
   slug: zoho-invoice-contacts-api
-- description: The Credit Notes API from Zoho Invoice — 2 operation(s) for credit notes.
+- baseURL: https://www.zohoapis.com/invoice/v3
+  baseurl_source: declared
+  description: The Credit Notes API from Zoho Invoice — 2 operation(s) for credit notes.
   name: Zoho Invoice Credit Notes API
   slug: zoho-invoice-credit-notes-api
-- description: The Estimates API from Zoho Invoice — 2 operation(s) for estimates.
+- baseURL: https://www.zohoapis.com/invoice/v3
+  baseurl_source: declared
+  description: The Estimates API from Zoho Invoice — 2 operation(s) for estimates.
   name: Zoho Invoice Estimates API
   slug: zoho-invoice-estimates-api
-- description: The Invoices API from Zoho Invoice — 6 operation(s) for invoices.
+- baseURL: https://www.zohoapis.com/invoice/v3
+  baseurl_source: declared
+  description: The Invoices API from Zoho Invoice — 6 operation(s) for invoices.
   name: Zoho Invoice Invoices API
   slug: zoho-invoice-invoices-api
-- description: The Organizations API from Zoho Invoice — 1 operation(s) for organizations.
+- baseURL: https://www.zohoapis.com/invoice/v3
+  baseurl_source: declared
+  description: The Organizations API from Zoho Invoice — 1 operation(s) for organizations.
   name: Zoho Invoice Organizations API
   slug: zoho-invoice-organizations-api
 artifact_total: 14
@@ -149,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-invoice/refs/heads/main/screenshots/zoho-invoice-2026-06-20T201940.png
 security:

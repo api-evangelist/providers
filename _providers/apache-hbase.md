@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Java client API for all HBase data operations including table administration, filters, coprocessors, batch operations, and async client for high-throughput workloads.
   name: Apache HBase Java Client API
   slug: apache-hbase-java-api
-- description: Region information
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Region information
   name: Apache HBase Regions API
   slug: apache-hbase-regions-api
-- description: Row and cell operations
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Row and cell operations
   name: Apache HBase Rows API
   slug: apache-hbase-rows-api
-- description: Table scanning operations
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Table scanning operations
   name: Apache HBase Scans API
   slug: apache-hbase-scans-api
-- description: Table management operations
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: Table management operations
   name: Apache HBase Tables API
   slug: apache-hbase-tables-api
 artifact_total: 62
@@ -319,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/screenshots/apache-hbase-2026-06-20T172109.png
 security:

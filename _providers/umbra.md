@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,52 +38,80 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: 'Anonymous, hosted Model Context Protocol server published by Umbra on the Canopy documentation host. Exposes six tools that let an agent enumerate the Canopy OpenAPI specs, list and search endpoints, '
   name: Umbra Canopy Documentation MCP Server
   slug: docs-mcp
-- description: The Client Credentials API from Umbra — 1 operation(s) for client credentials.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Client Credentials API from Umbra — 1 operation(s) for client credentials.
   name: Umbra Client Credentials API
   slug: umbra-client-credentials-api
-- description: The Collections API from Umbra — 4 operation(s) for collections.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Collections API from Umbra — 4 operation(s) for collections.
   name: Umbra Collections API
   slug: umbra-collections-api
-- description: The CollectMetadata API from Umbra — 1 operation(s) for collectmetadata.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The CollectMetadata API from Umbra — 1 operation(s) for collectmetadata.
   name: Umbra Collect Metadata API
   slug: umbra-collectmetadata-api
-- description: The Collects API from Umbra — 2 operation(s) for collects.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Collects API from Umbra — 2 operation(s) for collects.
   name: Umbra Collects API
   slug: umbra-collects-api
-- description: The DeliveryConfig API from Umbra — 3 operation(s) for deliveryconfig.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The DeliveryConfig API from Umbra — 3 operation(s) for deliveryconfig.
   name: Umbra Delivery Config API
   slug: umbra-deliveryconfig-api
-- description: The Feasibility API from Umbra — 2 operation(s) for feasibility.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Feasibility API from Umbra — 2 operation(s) for feasibility.
   name: Umbra Feasibility API
   slug: umbra-feasibility-api
-- description: The Organizations API from Umbra — 2 operation(s) for organizations.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Organizations API from Umbra — 2 operation(s) for organizations.
   name: Umbra Organizations API
   slug: umbra-organizations-api
-- description: The Preview API from Umbra — 1 operation(s) for preview.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Preview API from Umbra — 1 operation(s) for preview.
   name: Umbra Preview API
   slug: umbra-preview-api
-- description: The Preview Image API from Umbra — 1 operation(s) for preview image.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Preview Image API from Umbra — 1 operation(s) for preview image.
   name: Umbra Preview Image API
   slug: umbra-preview-image-api
-- description: The Product Constraints API from Umbra — 1 operation(s) for product constraints.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Product Constraints API from Umbra — 1 operation(s) for product constraints.
   name: Umbra Product Constraints API
   slug: umbra-product-constraints-api
-- description: The Restricted Access Areas API from Umbra — 1 operation(s) for restricted access areas.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Restricted Access Areas API from Umbra — 1 operation(s) for restricted access areas.
   name: Umbra Restricted Access Areas API
   slug: umbra-restricted-access-areas-api
-- description: The Search API from Umbra — 2 operation(s) for search.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Search API from Umbra — 2 operation(s) for search.
   name: Umbra Search API
   slug: umbra-search-api
-- description: The Tasks API from Umbra — 5 operation(s) for tasks.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Tasks API from Umbra — 5 operation(s) for tasks.
   name: Umbra Tasks API
   slug: umbra-tasks-api
-- description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
+- baseURL: https://api.canopy.umbra.space/tasking
+  baseurl_source: declared
+  description: The Thumbnail API from Umbra — 1 operation(s) for thumbnail.
   name: Umbra Thumbnail API
   slug: umbra-thumbnail-api
 artifact_total: 33
@@ -309,7 +351,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/umbra/refs/heads/main/screenshots/umbra-2026-08-17T082544.png
 security:

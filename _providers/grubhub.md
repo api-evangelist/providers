@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 35 operations · 18 acting · 3 human-in-the-loop
 api_count: 6
 apis:
-- description: Endpoints for tracking delivery status, driver information, and estimated arrival times.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for tracking delivery status, driver information, and estimated arrival times.
   name: grubhub Delivery Status API
   slug: grubhub-delivery-status-api
-- description: Endpoints for establishing communication with delivery drivers through proxy phone numbers.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for establishing communication with delivery drivers through proxy phone numbers.
   name: grubhub Driver Communication API
   slug: grubhub-driver-communication-api
-- description: Endpoints for reporting onboarding issues to Grubhub.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for reporting onboarding issues to Grubhub.
   name: grubhub Issue Reporting API
   slug: grubhub-issue-reporting-api
-- description: Endpoints for uploading and managing normalized menus including schedules, sections, items, and modifiers.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for uploading and managing normalized menus including schedules, sections, items, and modifiers.
   name: grubhub Menu Ingestion API
   slug: grubhub-menu-ingestion-api
-- description: Endpoints for retrieving the current menu for a merchant.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for retrieving the current menu for a merchant.
   name: grubhub Menu Retrieval API
   slug: grubhub-menu-retrieval-api
-- description: Endpoints for managing menu schedule overrides such as temporary availability changes.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for managing menu schedule overrides such as temporary availability changes.
   name: grubhub Menu Schedule Overrides API
   slug: grubhub-menu-schedule-overrides-api
-- description: Endpoints for checking merchant eligibility for onboarding.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for checking merchant eligibility for onboarding.
   name: grubhub Merchant Eligibility API
   slug: grubhub-merchant-eligibility-api
-- description: Endpoints for onboarding merchants to the Grubhub platform, including referrals, activation, and association.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for onboarding merchants to the Grubhub platform, including referrals, activation, and association.
   name: grubhub Merchant Onboarding API
   slug: grubhub-merchant-onboarding-api
-- description: Endpoints for updating merchant properties such as fulfillment settings and tax rates.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for updating merchant properties such as fulfillment settings and tax rates.
   name: grubhub Merchant Properties API
   slug: grubhub-merchant-properties-api
-- description: Endpoints for managing merchant online/offline status on Grubhub, including soft and hard pauses.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for managing merchant online/offline status on Grubhub, including soft and hard pauses.
   name: grubhub Merchant Status API
   slug: grubhub-merchant-status-api
-- description: Endpoints for retrieving merchant information and ID mappings.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for retrieving merchant information and ID mappings.
   name: grubhub Merchants API
   slug: grubhub-merchants-api
-- description: Endpoints for managing order change requests and modifications.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for managing order change requests and modifications.
   name: grubhub Order Change Requests API
   slug: grubhub-order-change-requests-api
-- description: Endpoints for polling orders across multiple merchants. Webhook subscription is the preferred method for receiving new orders.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for polling orders across multiple merchants. Webhook subscription is the preferred method for receiving new orders.
   name: grubhub Order Polling API
   slug: grubhub-order-polling-api
-- description: Endpoints for confirming orders and updating order lifecycle states.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for confirming orders and updating order lifecycle states.
   name: grubhub Order Status API
   slug: grubhub-order-status-api
-- description: Endpoints for retrieving and managing orders placed through the Grubhub Marketplace.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing orders placed through the Grubhub Marketplace.
   name: grubhub Orders API
   slug: grubhub-orders-api
-- description: Endpoints for creating and managing temporary schedule overrides such as closures and holiday hours.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for creating and managing temporary schedule overrides such as closures and holiday hours.
   name: grubhub Schedule Overrides API
   slug: grubhub-schedule-overrides-api
-- description: Endpoints for retrieving and managing merchant operating hours for delivery, pickup, and catering.
+- baseURL: https://api.grubhub.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing merchant operating hours for delivery, pickup, and catering.
   name: grubhub Schedules API
   slug: grubhub-schedules-api
 artifact_total: 217
@@ -751,16 +785,16 @@ jsonld:
   slug: grubhub-context
 layout: provider
 modified: '2026-05-19'
-name: grubhub
+name: Grubhub
 nav: Providers
 network: true
-overview: 'grubhub publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Delivery Status API, Driver Communication API, Issue Reporting API, and 14 more.
+overview: 'Grubhub publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Delivery Status API, Driver Communication API, Issue Reporting API, and 14 more.
 
 
-  The grubhub catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Grubhub catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  grubhub''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
+  Grubhub''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
 plans:
 - name: Grubhub Plans Pricing
   plan_count: 4
@@ -774,7 +808,7 @@ rules:
 - effective_rule_count: 36
   extends:
   - spectral:asyncapi
-  name: grubhub API Rules
+  name: Grubhub API Rules
   rule_count: 9
   severity_counts:
     error: 1
@@ -784,7 +818,7 @@ rules:
   slug: grubhub-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: grubhub API Rules
+  name: Grubhub API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -795,7 +829,7 @@ rules:
 - effective_rule_count: 92
   extends:
   - spectral:oas
-  name: grubhub API Rules
+  name: Grubhub API Rules
   rule_count: 51
   severity_counts:
     error: 8
@@ -816,7 +850,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -826,7 +860,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 35.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -836,10 +870,10 @@ score:
       total: 17
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

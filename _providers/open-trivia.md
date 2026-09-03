@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 4
 apis:
-- description: Operations for discovering trivia category metadata and counts.
+- baseURL: https://opentdb.com
+  baseurl_source: declared
+  description: Operations for discovering trivia category metadata and counts.
   name: Open Trivia Database Categories API
   slug: open-trivia-categories-api
-- description: Operations for retrieving trivia questions from the database.
+- baseURL: https://opentdb.com
+  baseurl_source: declared
+  description: Operations for retrieving trivia questions from the database.
   name: Open Trivia Database Questions API
   slug: open-trivia-questions-api
-- description: Operations for inspecting overall database statistics.
+- baseURL: https://opentdb.com
+  baseurl_source: declared
+  description: Operations for inspecting overall database statistics.
   name: Open Trivia Database Statistics API
   slug: open-trivia-statistics-api
-- description: Operations for managing session tokens that prevent duplicate questions.
+- baseURL: https://opentdb.com
+  baseurl_source: declared
+  description: Operations for managing session tokens that prevent duplicate questions.
   name: Open Trivia Database Tokens API
   slug: open-trivia-tokens-api
 artifact_total: 43
@@ -319,7 +327,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:

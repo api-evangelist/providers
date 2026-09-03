@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Stories, comments, jobs, Ask HNs, polls, and pollopts.
+- baseURL: https://hacker-news.firebaseio.com
+  baseurl_source: declared
+  description: Stories, comments, jobs, Ask HNs, polls, and pollopts.
   name: Hacker News Items API
   slug: hacker-news-items-api
-- description: Top, new, best, ask, show, and job story lists.
+- baseURL: https://hacker-news.firebaseio.com
+  baseurl_source: declared
+  description: Top, new, best, ask, show, and job story lists.
   name: Hacker News Lists API
   slug: hacker-news-lists-api
-- description: Max item ID and recent updates.
+- baseURL: https://hacker-news.firebaseio.com
+  baseurl_source: declared
+  description: Max item ID and recent updates.
   name: Hacker News Live API
   slug: hacker-news-live-api
-- description: User profiles.
+- baseURL: https://hacker-news.firebaseio.com
+  baseurl_source: declared
+  description: User profiles.
   name: Hacker News Users API
   slug: hacker-news-users-api
 artifact_total: 15
@@ -176,7 +184,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/screenshots/hacker-news-2026-06-20T182448.png
 security:

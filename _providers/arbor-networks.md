@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'JSON:API-compliant REST API for NETSCOUT Arbor Sightline (formerly SP/Peakflow), fully discoverable from the root URL /api/sp/. Exposes network traffic data, DDoS alerts, managed objects, mitigations '
@@ -147,7 +147,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbor-networks/refs/heads/main/screenshots/arbor-networks-2026-07-25T201002.png
 security:

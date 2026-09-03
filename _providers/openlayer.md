@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 24 operations · 14 acting
 api_count: 1
 apis:
-- description: Project versions (commits) and their test results.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Project versions (commits) and their test results.
   name: Openlayer Commits API
   slug: openlayer-commits-api
-- description: Publish production inference data to a pipeline.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Publish production inference data to a pipeline.
   name: Openlayer Data Stream API
   slug: openlayer-data-stream-api
-- description: Production monitoring pipelines and their rows, sessions, and users.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Production monitoring pipelines and their rows, sessions, and users.
   name: Openlayer Inference Pipelines API
   slug: openlayer-inference-pipelines-api
-- description: Create, list, and delete projects.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Create, list, and delete projects.
   name: Openlayer Projects API
   slug: openlayer-projects-api
-- description: Presigned URLs for uploading datasets and artifacts.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Presigned URLs for uploading datasets and artifacts.
   name: Openlayer Storage API
   slug: openlayer-storage-api
-- description: Define, evaluate, and read project tests.
+- baseURL: https://api.openlayer.com/v1
+  baseurl_source: declared
+  description: Define, evaluate, and read project tests.
   name: Openlayer Tests API
   slug: openlayer-tests-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlayer/refs/heads/main/screenshots/openlayer-2026-06-20T191012.png
 security:

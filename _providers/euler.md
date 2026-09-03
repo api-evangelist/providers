@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -53,67 +53,109 @@ apis:
 - description: The recommended TypeScript entry point for applications, bots, scripts, and operational tooling built on Euler V2. Provides protocol data fetching, EVC batch composition, transaction simulation, appro
   name: Euler V2 TypeScript SDK
   slug: euler-v2-typescript-sdk
-- description: Account activity, discovered positions, and sub-account relationships. Legacy nested account payloads are flattened into account-vault rows in v3.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Account activity, discovered positions, and sub-account relationships. Legacy nested account payloads are flattened into account-vault rows in v3.
   name: Euler Finance Accounts API
   slug: euler-accounts-api
-- description: Base and intrinsic APY surfaces. In v3, APY families are split into dedicated endpoints instead of being embedded inconsistently across larger payloads.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Base and intrinsic APY surfaces. In v3, APY families are split into dedicated endpoints instead of being embedded inconsistently across larger payloads.
   name: Euler Finance APYs API
   slug: euler-apys-api
-- description: Authentication and authorization conventions used across the API, including API keys, admin secrets, and rate-limit behavior.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Authentication and authorization conventions used across the API, including API keys, admin secrets, and rate-limit behavior.
   name: Euler Finance Auth API
   slug: euler-auth-api
-- description: Chain inventory and per-chain protocol summaries. These replace ad-hoc chain-level aggregates from legacy APIs with explicit, cacheable resources.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Chain inventory and per-chain protocol summaries. These replace ad-hoc chain-level aggregates from legacy APIs with explicit, cacheable resources.
   name: Euler Finance Chains API
   slug: euler-chains-api
-- description: Curator-managed metadata such as labels, descriptions, and visibility controls. This is the operator-owned customization surface in v3.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Curator-managed metadata such as labels, descriptions, and visibility controls. This is the operator-owned customization surface in v3.
   name: Euler Finance Curator API
   slug: euler-curator-api
-- description: Euler Earn vault resources and historical data. These endpoints are separate from EVK vaults and should be modeled independently in client code.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Euler Earn vault resources and historical data. These endpoints are separate from EVK vaults and should be modeled independently in client code.
   name: Euler Finance Earn API
   slug: euler-earn-api
-- description: Platform-admin managed KYBed organization profiles used as backend-owned label and control-plane resources.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Platform-admin managed KYBed organization profiles used as backend-owned label and control-plane resources.
   name: Euler Finance Entities API
   slug: euler-entities-api
-- description: Ethereum Vault Connector account event resources. These are separate from account position snapshots and are intended for event-level inspection.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Ethereum Vault Connector account event resources. These are separate from account position snapshots and are intended for event-level inspection.
   name: Euler Finance EVC API
   slug: euler-evc-api
-- description: Fee-flow event resources and fee-related historical activity.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Fee-flow event resources and fee-related historical activity.
   name: Euler Finance FeeFlow API
   slug: euler-feeflow-api
-- description: Controlled GraphQL passthrough endpoints for indexer-backed data exploration and compatibility workflows.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Controlled GraphQL passthrough endpoints for indexer-backed data exploration and compatibility workflows.
   name: Euler Finance GraphQL API
   slug: euler-graphql-api
-- description: Liveness, readiness, and dashboard-friendly platform status checks. Use these for operational monitoring, not for reconstructing full portfolio state.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Liveness, readiness, and dashboard-friendly platform status checks. Use these for operational monitoring, not for reconstructing full portfolio state.
   name: Euler Finance Health API
   slug: euler-health-api
-- description: Liquidation events and related historical views used for risk analysis and monitoring.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Liquidation events and related historical views used for risk analysis and monitoring.
   name: Euler Finance Liquidations API
   slug: euler-liquidations-api
-- description: Oracle routing, adapter, and price-source inspection endpoints. These expose pricing/oracle internals that were previously harder to inspect externally.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Oracle routing, adapter, and price-source inspection endpoints. These expose pricing/oracle internals that were previously harder to inspect externally.
   name: Euler Finance Oracles API
   slug: euler-oracles-api
-- description: Current and historical token prices. Prices follow v3 source priority rules and return the canonical merged value rather than exposing raw provider-specific reads by default.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Current and historical token prices. Prices follow v3 source priority rules and return the canonical merged value rather than exposing raw provider-specific reads by default.
   name: Euler Finance Prices API
   slug: euler-prices-api
-- description: 'Protocol-wide summary endpoints and aggregate metrics. In v3, these endpoints are explicitly summary-oriented and should be treated as lightweight rollups rather than replacements for full vault list '
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: 'Protocol-wide summary endpoints and aggregate metrics. In v3, these endpoints are explicitly summary-oriented and should be treated as lightweight rollups rather than replacements for full vault list '
   name: Euler Finance Protocol API
   slug: euler-protocol-api
-- description: Public allocator event resources for allocator-level activity and history.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Public allocator event resources for allocator-level activity and history.
   name: Euler Finance PublicAllocator API
   slug: euler-publicallocator-api
-- description: Reward campaign APRs and per-account reward breakdowns. Rewards APY is intentionally separate from base vault APY in v3; combine them client-side when you need a legacy-style total supply APY.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Reward campaign APRs and per-account reward breakdowns. Rewards APY is intentionally separate from base vault APY in v3; combine them client-side when you need a legacy-style total supply APY.
   name: Euler Finance Rewards API
   slug: euler-rewards-api
-- description: Terms-of-use signature state and audit endpoints.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Terms-of-use signature state and audit endpoints.
   name: Euler Finance TermsOfUse API
   slug: euler-termsofuse-api
-- description: Token metadata, protocol classifications, and related static reference data used throughout the API.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Token metadata, protocol classifications, and related static reference data used throughout the API.
   name: Euler Finance Tokens API
   slug: euler-tokens-api
-- description: API usage and API key analytics. These endpoints are intended for operators and consumers tracking traffic, rate limits, and key-level activity.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: API usage and API key analytics. These endpoints are intended for operators and consumers tracking traffic, rate limits, and key-level activity.
   name: Euler Finance Usage API
   slug: euler-usage-api
-- description: Canonical vault resources, vault history, holders, borrowers, and open-interest views. In v3, vault detail is decomposed into focused endpoints instead of one large legacy response.
+- baseURL: https://v3.euler.finance/v3
+  baseurl_source: declared
+  description: Canonical vault resources, vault history, holders, borrowers, and open-interest views. In v3, vault detail is decomposed into focused endpoints instead of one large legacy response.
   name: Euler Finance Vaults API
   slug: euler-vaults-api
 artifact_total: 255
@@ -927,7 +969,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/screenshots/euler-2026-06-20T180844.png
 security:

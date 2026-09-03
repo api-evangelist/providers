@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: 'A public, keyless JSON endpoint served by the university''s own website CMS at www.wgtn.ac.nz/api/globalobject. It returns the global site object every page is built from: canonical base URLs including'
+- baseURL: https://www.wgtn.ac.nz/api/globalobject
+  baseurl_source: declared
+  description: 'A public, keyless JSON endpoint served by the university''s own website CMS at www.wgtn.ac.nz/api/globalobject. It returns the global site object every page is built from: canonical base URLs including'
   name: Website Global Object
   slug: website-global-object
-- description: The university's own SAML 2.0 Identity Provider. entityID https://idp.vuw.ac.nz/idp/shibboleth, shibmd:Scope vuw.ac.nz, metadata served unauthenticated over HTTPS GET and republished in the signed Tua
+- baseURL: https://idp.vuw.ac.nz/idp/shibboleth
+  baseurl_source: declared
+  description: The university's own SAML 2.0 Identity Provider. entityID https://idp.vuw.ac.nz/idp/shibboleth, shibmd:Scope vuw.ac.nz, metadata served unauthenticated over HTTPS GET and republished in the signed Tua
   name: Shibboleth Identity Provider (Tuakiri / eduGAIN)
   slug: identity-federation
-- description: 'The university''s institutional repository, ir.wgtn.ac.nz, running DSpace 7.6.7 on the institution''s OWN infrastructure: the host sits under its own registrable domain, carries no CNAME to any vendor, '
+- baseURL: https://ir.wgtn.ac.nz/
+  baseurl_source: declared
+  description: 'The university''s institutional repository, ir.wgtn.ac.nz, running DSpace 7.6.7 on the institution''s OWN infrastructure: the host sits under its own registrable domain, carries no CNAME to any vendor, '
   name: Institutional Repository (self-hosted DSpace)
   slug: institutional-repository
 - description: The university's Open Access institutional repository is a Figshare portal running on the institution's own vanity domain openaccess.wgtn.ac.nz, which CNAMEs to figshare.com, with wellington.figshare.
@@ -257,7 +263,7 @@ score:
     catalog_gap: 36.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -11.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -267,7 +273,7 @@ score:
     discoverability: 74.1
     governance: 45.5
     operational_transparency: 7.9
-  previous_composite: 47.3
+  previous_composite: 36.1
   provenance:
     conformance: derived
     contracts:
@@ -282,8 +288,8 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoria-university-of-wellington/refs/heads/main/screenshots/victoria-university-of-wellington-2026-06-20T201017.png
 security:
 - kind: authentication

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -33,64 +47,104 @@ agentic_access:
   summary_line: 73 operations · 39 acting
 api_count: 1
 apis:
-- description: Coverage provides the ability to see which time spans are available within Foxglove.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Coverage provides the ability to see which time spans are available within Foxglove.
   name: Foxglove Technologies Coverage API
   slug: foxglove-technologies-coverage-api
-- description: Custom properties are typed metadata which you can assign to devices. For example, you can create a device custom property identified with a key `locationId` and a type of `string`. This enables you t
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Custom properties are typed metadata which you can assign to devices. For example, you can create a device custom property identified with a key `locationId` and a type of `string`. This enables you t
   name: Foxglove Technologies Custom Properties API
   slug: foxglove-technologies-custom-properties-api
-- description: Device tokens authenticate a device to the API.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Device tokens authenticate a device to the API.
   name: Foxglove Technologies Device Tokens API
   slug: foxglove-technologies-device-tokens-api
-- description: Devices represent robots in your organization. It is common to have devices for both physical and virtual robots. Devices are referenced by other resources like recordings and events. A device may hav
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Devices represent robots in your organization. It is common to have devices for both physical and virtual robots. Devices are referenced by other resources like recordings and events. A device may hav
   name: Foxglove Technologies Devices API
   slug: foxglove-technologies-devices-api
-- description: Event types help ensure data quality through validation, enable better filtering and analytics, and provide visual distinctions between categories of events.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Event types help ensure data quality through validation, enable better filtering and analytics, and provide visual distinctions between categories of events.
   name: Foxglove Technologies Event Types API
   slug: foxglove-technologies-event-types-api
-- description: 'Adding events can help you quickly identify, categorize, and search for points of interest in your data. Each event is tied to a device and time span, and can contain metadata. You can list events by '
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: 'Adding events can help you quickly identify, categorize, and search for points of interest in your data. Each event is tied to a device and time span, and can contain metadata. You can list events by '
   name: Foxglove Technologies Events API
   slug: foxglove-technologies-events-api
-- description: The Extensions API from Foxglove Technologies — 3 operation(s) for extensions.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: The Extensions API from Foxglove Technologies — 3 operation(s) for extensions.
   name: Foxglove Technologies Extensions API
   slug: foxglove-technologies-extensions-api
-- description: '**The Imports endpoints are deprecated. Use the [Recordings](#tag/Recordings) endpoints instead.** Imports are recordings that are available at a Primary Site.'
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: '**The Imports endpoints are deprecated. Use the [Recordings](#tag/Recordings) endpoints instead.** Imports are recordings that are available at a Primary Site.'
   name: Foxglove Technologies Imports API
   slug: foxglove-technologies-imports-api
-- description: MCAP files stored in the lake bucket of a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted). You must have an Enterprise account to use lake file endpoints.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: MCAP files stored in the lake bucket of a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted). You must have an Enterprise account to use lake file endpoints.
   name: Foxglove Technologies Lake files API
   slug: foxglove-technologies-lake-files-api
-- description: The Layouts API from Foxglove Technologies — 3 operation(s) for layouts.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: The Layouts API from Foxglove Technologies — 3 operation(s) for layouts.
   name: Foxglove Technologies Layouts API
   slug: foxglove-technologies-layouts-api
-- description: '[Projects](https://docs.foxglove.dev/docs/projects) are a container for organizing data and resources in Foxglove. Your plan must support managing projects.'
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: '[Projects](https://docs.foxglove.dev/docs/projects) are a container for organizing data and resources in Foxglove. Your plan must support managing projects.'
   name: Foxglove Technologies Projects API
   slug: foxglove-technologies-projects-api
-- description: The Properties API from Foxglove Technologies — 3 operation(s) for properties.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: The Properties API from Foxglove Technologies — 3 operation(s) for properties.
   name: Foxglove Technologies Properties API
   slug: foxglove-technologies-properties-api
-- description: A recording attachment resource represents information about an MCAP attachment imported to Foxglove. Attachments are available for individual download or with their recording.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: A recording attachment resource represents information about an MCAP attachment imported to Foxglove. Attachments are available for individual download or with their recording.
   name: Foxglove Technologies Recording Attachments API
   slug: foxglove-technologies-recording-attachments-api
-- description: A recording is a resource representing the content of an MCAP file or ROS bag managed by Data Platform.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: A recording is a resource representing the content of an MCAP file or ROS bag managed by Data Platform.
   name: Foxglove Technologies Recordings API
   slug: foxglove-technologies-recordings-api
-- description: Sessions are logical groupings of recordings from a single device. They allow you to manage and interact with recording data independent of how the recordings are stored.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Sessions are logical groupings of recordings from a single device. They allow you to manage and interact with recording data independent of how the recordings are stored.
   name: Foxglove Technologies Sessions API
   slug: foxglove-technologies-sessions-api
-- description: Site inbox notification tokens are credentials used to authenticate bucket notifications for a [Primary Site](https://docs.foxglove.dev/docs/primary-sites) (self-managed or BYOS) to the Foxglove API.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Site inbox notification tokens are credentials used to authenticate bucket notifications for a [Primary Site](https://docs.foxglove.dev/docs/primary-sites) (self-managed or BYOS) to the Foxglove API.
   name: Foxglove Technologies Site Inbox Notification Tokens API
   slug: foxglove-technologies-site-inbox-notification-tokens-api
-- description: Site tokens are credentials a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted) or [Edge Site](https://docs.foxglove.dev/docs/edge-sites) use to communicate with the
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Site tokens are credentials a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted) or [Edge Site](https://docs.foxglove.dev/docs/edge-sites) use to communicate with the
   name: Foxglove Technologies Site Tokens API
   slug: foxglove-technologies-site-tokens-api
-- description: A site is a logical grouping of storage and compute for storing Recording data.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: A site is a logical grouping of storage and compute for storing Recording data.
   name: Foxglove Technologies Sites API
   slug: foxglove-technologies-sites-api
-- description: The Stream data API from Foxglove Technologies — 1 operation(s) for stream data.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: The Stream data API from Foxglove Technologies — 1 operation(s) for stream data.
   name: Foxglove Technologies Stream data API
   slug: foxglove-technologies-stream-data-api
-- description: Topics provide schema information for messages in the data source.
+- baseURL: https://api.foxglove.dev/v1
+  baseurl_source: declared
+  description: Topics provide schema information for messages in the data source.
   name: Foxglove Technologies Topics API
   slug: foxglove-technologies-topics-api
 artifact_total: 78
@@ -442,7 +496,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -452,7 +506,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 58.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -464,7 +518,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/screenshots/foxglove-technologies-2026-08-17T080933.png
 security:

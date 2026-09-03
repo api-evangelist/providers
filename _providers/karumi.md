@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Hosted, remote MCP server that exposes a Karumi workspace to any MCP-compatible client. 37 published tools cover organizations, agents, sessions, transcripts (keyword and semantic search), leads, comp
   name: Karumi MCP Server
   slug: karumi-mcp-server
-- description: The Analytics API from Karumi — 2 operation(s) for analytics.
+- baseURL: https://api.karumi.ai/api/v1
+  baseurl_source: declared
+  description: The Analytics API from Karumi — 2 operation(s) for analytics.
   name: Karumi Analytics API
   slug: karumi-analytics-api
-- description: The Sessions API from Karumi — 5 operation(s) for sessions.
+- baseURL: https://api.karumi.ai/api/v1
+  baseurl_source: declared
+  description: The Sessions API from Karumi — 5 operation(s) for sessions.
   name: Karumi Sessions API
   slug: karumi-sessions-api
-- description: The Targets API from Karumi — 2 operation(s) for targets.
+- baseURL: https://api.karumi.ai/api/v1
+  baseurl_source: declared
+  description: The Targets API from Karumi — 2 operation(s) for targets.
   name: Karumi Targets API
   slug: karumi-targets-api
 artifact_total: 13
@@ -245,7 +251,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/screenshots/karumi-2026-07-25T223528.png
 security:

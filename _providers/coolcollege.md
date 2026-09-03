@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 25 operations · 8 acting
 api_count: 1
 apis:
-- description: '* 访问学习相关的操作以及数据 * ```{enterprise-id}```可在系统内获取 * 学习的```{plan-id}```可以通过获取学习任务列表的API得到'
+- baseURL: https://openapi.coolcollege.cn/api/v2
+  baseurl_source: declared
+  description: '* 访问学习相关的操作以及数据 * ```{enterprise-id}```可在系统内获取 * 学习的```{plan-id}```可以通过获取学习任务列表的API得到'
   name: 酷学院 (Cool College) 学习 API
   slug: coolcollege-default-api
-- description: Everything about your Pets
+- baseURL: https://openapi.coolcollege.cn/api/v2
+  baseurl_source: declared
+  description: Everything about your Pets
   name: 酷学院 (Cool College) pet API
   slug: coolcollege-pet-api
-- description: '* OA系统 人员/部门变动事件推送API * 访问该目录下接口时header中需要携带参数 `access-token` 和 `enterprise-id` * access-token 参数来自鉴权接口返回的token值'
+- baseURL: https://openapi.coolcollege.cn/api/v2
+  baseurl_source: declared
+  description: '* OA系统 人员/部门变动事件推送API * 访问该目录下接口时header中需要携带参数 `access-token` 和 `enterprise-id` * access-token 参数来自鉴权接口返回的token值'
   name: 酷学院 (Cool College) thirdoa API
   slug: coolcollege-thirdoa-api
 artifact_total: 11
@@ -212,7 +218,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/screenshots/coolcollege-2026-07-25T210405.png
 security:

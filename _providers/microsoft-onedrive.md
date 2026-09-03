@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'The OneDrive File Picker is a JavaScript SDK that provides a pre-built UI component for selecting files from OneDrive within web applications. It handles authentication, file browsing, and selection, '
   name: OneDrive File Picker
   slug: file-picker
-- description: The DriveItems API from Microsoft OneDrive — 6 operation(s) for driveitems.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The DriveItems API from Microsoft OneDrive — 6 operation(s) for driveitems.
   name: Microsoft OneDrive DriveItems API
   slug: microsoft-onedrive-driveitems-api
-- description: The Drives API from Microsoft OneDrive — 4 operation(s) for drives.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Drives API from Microsoft OneDrive — 4 operation(s) for drives.
   name: Microsoft OneDrive Drives API
   slug: microsoft-onedrive-drives-api
-- description: The Sharing API from Microsoft OneDrive — 4 operation(s) for sharing.
+- baseURL: https://graph.microsoft.com/v1.0/
+  baseurl_source: declared
+  description: The Sharing API from Microsoft OneDrive — 4 operation(s) for sharing.
   name: Microsoft OneDrive Sharing API
   slug: microsoft-onedrive-sharing-api
 artifact_total: 15
@@ -174,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-onedrive/refs/heads/main/screenshots/microsoft-onedrive-2026-06-20T185515.png
 security:

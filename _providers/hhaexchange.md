@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Configuration API from HHAeXchange — 1 operation(s) for configuration.
+- baseURL: https://api.hhaexchange.com
+  baseurl_source: declared
+  description: The Configuration API from HHAeXchange — 1 operation(s) for configuration.
   name: HHAeXchange Configuration API
   slug: hhaexchange-configuration-api
-- description: The Internal API from HHAeXchange — 3 operation(s) for internal.
+- baseURL: https://api.hhaexchange.com
+  baseurl_source: declared
+  description: The Internal API from HHAeXchange — 3 operation(s) for internal.
   name: HHAeXchange Internal API
   slug: hhaexchange-internal-api
-- description: The Onboarding API from HHAeXchange — 3 operation(s) for onboarding.
+- baseURL: https://api.hhaexchange.com
+  baseurl_source: declared
+  description: The Onboarding API from HHAeXchange — 3 operation(s) for onboarding.
   name: HHAeXchange Onboarding API
   slug: hhaexchange-onboarding-api
 artifact_total: 18
@@ -202,7 +208,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/screenshots/hhaexchange-2026-06-20T182722.png
 security:

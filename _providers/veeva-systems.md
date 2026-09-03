@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 5
 apis:
-- description: The Authentication API from Veeva Systems — 4 operation(s) for authentication.
+- baseURL: https://api.veeva.com
+  baseurl_source: declared
+  description: The Authentication API from Veeva Systems — 4 operation(s) for authentication.
   name: Veeva Systems Authentication API
   slug: veeva-systems-authentication-api
-- description: The DirectData API from Veeva Systems — 2 operation(s) for directdata.
+- baseURL: https://api.veeva.com
+  baseurl_source: declared
+  description: The DirectData API from Veeva Systems — 2 operation(s) for directdata.
   name: Veeva Systems DirectData API
   slug: veeva-systems-directdata-api
-- description: The MDL API from Veeva Systems — 2 operation(s) for mdl.
+- baseURL: https://api.veeva.com
+  baseurl_source: declared
+  description: The MDL API from Veeva Systems — 2 operation(s) for mdl.
   name: Veeva Systems MDL API
   slug: veeva-systems-mdl-api
-- description: The Metadata API from Veeva Systems — 3 operation(s) for metadata.
+- baseURL: https://api.veeva.com
+  baseurl_source: declared
+  description: The Metadata API from Veeva Systems — 3 operation(s) for metadata.
   name: Veeva Systems Metadata API
   slug: veeva-systems-metadata-api
-- description: The Query API from Veeva Systems — 1 operation(s) for query.
+- baseURL: https://api.veeva.com
+  baseurl_source: declared
+  description: The Query API from Veeva Systems — 1 operation(s) for query.
   name: Veeva Systems Query API
   slug: veeva-systems-query-api
 artifact_total: 18
@@ -165,7 +175,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/screenshots/veeva-systems-2026-06-20T200853.png
 security:

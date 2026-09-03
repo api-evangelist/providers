@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 11 operations · 10 acting
 api_count: 1
 apis:
-- description: Address validation and standardization
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Address validation and standardization
   name: UPS Address Validation API
   slug: ups-address-validation-api
-- description: OAuth 2.0 token management
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: OAuth 2.0 token management
   name: UPS OAuth API
   slug: ups-oauth-api
-- description: International paperless document management
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: International paperless document management
   name: UPS Paperless Documents API
   slug: ups-paperless-documents-api
-- description: Pickup scheduling and management
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Pickup scheduling and management
   name: UPS Pickup API
   slug: ups-pickup-api
-- description: Shipping rates and service comparison
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Shipping rates and service comparison
   name: UPS Rating API
   slug: ups-rating-api
-- description: Shipment creation and label generation
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Shipment creation and label generation
   name: UPS Shipping API
   slug: ups-shipping-api
-- description: Transit time and service schedules
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Transit time and service schedules
   name: UPS Time In Transit API
   slug: ups-time-in-transit-api
-- description: Package tracking and status
+- baseURL: https://onlinetools.ups.com/api
+  baseurl_source: declared
+  description: Package tracking and status
   name: UPS Tracking API
   slug: ups-tracking-api
 artifact_total: 58
@@ -333,7 +349,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png
 security:

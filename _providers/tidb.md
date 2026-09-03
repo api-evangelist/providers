@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 74 operations · 32 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Operations for creating, listing, updating, and deleting TiDB Cloud API keys.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating, listing, updating, and deleting TiDB Cloud API keys.
   name: tidb API Keys API
   slug: tidb-api-keys-api
-- description: Operations for retrieving organization-level console audit logs.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for retrieving organization-level console audit logs.
   name: tidb Audit Logs API
   slug: tidb-audit-logs-api
-- description: Operations for retrieving monthly billing summaries, cost details, and usage trends.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for retrieving monthly billing summaries, cost details, and usage trends.
   name: tidb Billing API
   slug: tidb-billing-api
-- description: Operations for translating natural language questions into SQL and executing them against TiDB Cloud clusters.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for translating natural language questions into SQL and executing them against TiDB Cloud clusters.
   name: tidb Chat2Data API
   slug: tidb-chat2data-api
-- description: Operations for creating, listing, updating, and deleting TiDB Cloud Dedicated clusters.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating, listing, updating, and deleting TiDB Cloud Dedicated clusters.
   name: tidb Clusters API
   slug: tidb-clusters-api
-- description: Operations for managing API keys scoped to a specific Data App.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for managing API keys scoped to a specific Data App.
   name: tidb Data App API Keys API
   slug: tidb-data-app-api-keys-api
-- description: Operations for creating, listing, updating, and deleting Data Apps.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating, listing, updating, and deleting Data Apps.
   name: tidb Data Apps API
   slug: tidb-data-apps-api
-- description: Operations for linking and managing TiDB Cloud clusters as data sources within a Data App.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for linking and managing TiDB Cloud clusters as data sources within a Data App.
   name: tidb Data Sources API
   slug: tidb-data-sources-api
-- description: Operations for generating and managing AI summaries of database schemas used as context for SQL generation.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for generating and managing AI summaries of database schemas used as context for SQL generation.
   name: tidb Data Summaries API
   slug: tidb-data-summaries-api
-- description: Endpoints for managing and inspecting DDL jobs, including ownership and history.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for managing and inspecting DDL jobs, including ownership and history.
   name: tidb DDL API
   slug: tidb-ddl-api
-- description: Operations for deploying and managing versions of a Data App.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for deploying and managing versions of a Data App.
   name: tidb Deployments API
   slug: tidb-deployments-api
-- description: Endpoints for downloading debug information and managing server diagnostics.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for downloading debug information and managing server diagnostics.
   name: tidb Diagnostics API
   slug: tidb-diagnostics-api
-- description: Operations for creating, listing, updating, testing, and deleting custom SQL-backed API endpoints.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating, listing, updating, testing, and deleting custom SQL-backed API endpoints.
   name: tidb Endpoints API
   slug: tidb-endpoints-api
-- description: Operations for creating and managing data import tasks into TiDB Cloud clusters.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating and managing data import tasks into TiDB Cloud clusters.
   name: tidb Imports API
   slug: tidb-imports-api
-- description: Operations for managing third-party integrations with TiDB Cloud clusters.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for managing third-party integrations with TiDB Cloud clusters.
   name: tidb Integrations API
   slug: tidb-integrations-api
-- description: Endpoints for retrieving multi-version concurrency control (MVCC) key details for debugging.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for retrieving multi-version concurrency control (MVCC) key details for debugging.
   name: tidb MVCC API
   slug: tidb-mvcc-api
-- description: Operations for listing available cloud regions and node specifications.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for listing available cloud regions and node specifications.
   name: tidb Regions API
   slug: tidb-regions-api
-- description: Endpoints for retrieving database and table schema information from the TiDB information schema.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for retrieving database and table schema information from the TiDB information schema.
   name: tidb Schema API
   slug: tidb-schema-api
-- description: Operations for creating and managing multi-round conversational chat sessions.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for creating and managing multi-round conversational chat sessions.
   name: tidb Sessions API
   slug: tidb-sessions-api
-- description: Endpoints for retrieving and modifying TiDB server runtime settings.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for retrieving and modifying TiDB server runtime settings.
   name: tidb Settings API
   slug: tidb-settings-api
-- description: Operations for refining and improving previously generated SQL queries.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Operations for refining and improving previously generated SQL queries.
   name: tidb SQL Refinement API
   slug: tidb-sql-refinement-api
-- description: Endpoints for exporting optimizer statistics used for query planning.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for exporting optimizer statistics used for query planning.
   name: tidb Statistics API
   slug: tidb-statistics-api
-- description: Endpoints for retrieving the operational status of the TiDB server instance.
+- baseURL: https://api.tidbcloud.com
+  baseurl_source: declared
+  description: Endpoints for retrieving the operational status of the TiDB server instance.
   name: tidb Status API
   slug: tidb-status-api
 artifact_total: 65
@@ -270,16 +316,16 @@ jsonld:
   slug: tidb-context
 layout: provider
 modified: '2026-05-19'
-name: tidb
+name: Tidb
 nav: Providers
 network: true
-overview: 'tidb publishes 23 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Audit Logs API, Billing API, and 20 more.
+overview: 'Tidb publishes 23 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Audit Logs API, Billing API, and 20 more.
 
 
-  The tidb catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Tidb catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  tidb''s developer surface includes authentication and 8 more developer resources.'
+  Tidb''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Tidb Plans Pricing
   plan_count: 6
@@ -292,7 +338,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: tidb API Rules
+  name: Tidb API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -308,7 +354,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -318,7 +364,7 @@ score:
     discoverability: 50.0
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 34.0
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -328,10 +374,10 @@ score:
       total: 23
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidb/refs/heads/main/screenshots/tidb-2026-06-20T195336.png
 security:

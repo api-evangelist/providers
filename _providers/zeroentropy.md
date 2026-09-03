@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Admin API from ZeroEntropy — 7 operation(s) for admin.
   name: ZeroEntropy Admin API
   slug: zeroentropy-admin-api
-- description: The Collections API from ZeroEntropy — 3 operation(s) for collections.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Collections API from ZeroEntropy — 3 operation(s) for collections.
   name: ZeroEntropy Collections API
   slug: zeroentropy-collections-api
-- description: The Documents API from ZeroEntropy — 8 operation(s) for documents.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Documents API from ZeroEntropy — 8 operation(s) for documents.
   name: ZeroEntropy Documents API
   slug: zeroentropy-documents-api
-- description: The Models API from ZeroEntropy — 2 operation(s) for models.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Models API from ZeroEntropy — 2 operation(s) for models.
   name: ZeroEntropy Models API
   slug: zeroentropy-models-api
-- description: The Queries API from ZeroEntropy — 3 operation(s) for queries.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Queries API from ZeroEntropy — 3 operation(s) for queries.
   name: ZeroEntropy Queries API
   slug: zeroentropy-queries-api
-- description: The Status API from ZeroEntropy — 1 operation(s) for status.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Status API from ZeroEntropy — 1 operation(s) for status.
   name: ZeroEntropy Status API
   slug: zeroentropy-status-api
-- description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
+- baseURL: https://api.zeroentropy.dev/v1
+  baseurl_source: declared
+  description: The Usage API from ZeroEntropy — 6 operation(s) for usage.
   name: ZeroEntropy Usage API
   slug: zeroentropy-usage-api
 artifact_total: 19
@@ -214,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroentropy/refs/heads/main/screenshots/zeroentropy-2026-08-17T083058.png
 security:

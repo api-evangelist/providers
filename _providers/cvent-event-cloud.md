@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 0
@@ -48,166 +48,274 @@ apis:
 - description: RESTful API for managing events, contacts, registrations, attendees, sessions, speakers, exhibitors, surveys, webhooks, and Attendee Hub data. Uses OAuth 2.0 client credentials. Authorization code flo
   name: Cvent Platform REST API (Event Cloud)
   slug: rest-api
-- description: Event registrations and attendees
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event registrations and attendees
   name: Cvent Event Cloud Attendees API
   slug: cvent-event-cloud-attendees-api
-- description: Contact/address book
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Contact/address book
   name: Cvent Event Cloud Contacts API
   slug: cvent-event-cloud-contacts-api
-- description: Event lifecycle and configuration
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event lifecycle and configuration
   name: Cvent Event Cloud Events API
   slug: cvent-event-cloud-events-api
-- description: Agenda sessions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Agenda sessions
   name: Cvent Event Cloud Sessions API
   slug: cvent-event-cloud-sessions-api
-- description: 'An appointment is a meeting scheduled between two or more parties. These APIs allow you to get information about your Cvent Appointments: appointment attendees, their interests, and availabilities. * '
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'An appointment is a meeting scheduled between two or more parties. These APIs allow you to get information about your Cvent Appointments: appointment attendees, their interests, and availabilities. * '
   name: Cvent Event Cloud Appointments API
   slug: cvent-event-cloud-appointments-api
-- description: The Attendee Activities API gives valuable insight into your customer's experience at your Cvent event. Now, you can get a fuller picture of your customer's journey, including onsite activities, offsi
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Attendee Activities API gives valuable insight into your customer's experience at your Cvent event. Now, you can get a fuller picture of your customer's journey, including onsite activities, offsi
   name: Cvent Event Cloud Attendee Activities API
   slug: cvent-event-cloud-attendee-activities-api
-- description: 'The Attendee Insights feature provides valuable information about your event attendees. It assists planners, marketers, and exhibitors in targeting customers effectively, thereby enhancing engagement '
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'The Attendee Insights feature provides valuable information about your event attendees. It assists planners, marketers, and exhibitors in targeting customers effectively, thereby enhancing engagement '
   name: Cvent Event Cloud Attendee Insights API
   slug: cvent-event-cloud-attendee-insights-api
-- description: These APIs retrieve and manage attendee messages—communications exchanged between attendees within channels. Channels are virtual spaces created for one-on-one or group conversations, allowing attende
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: These APIs retrieve and manage attendee messages—communications exchanged between attendees within channels. Channels are virtual spaces created for one-on-one or group conversations, allowing attende
   name: Cvent Event Cloud Attendee Messages API
   slug: cvent-event-cloud-attendee-messages-api
-- description: Audience Segments allow planners to segment their attendees into groups and better manage the attendee experience based on their defined segments. Audience Segments APIs will enable you to get, create
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Audience Segments allow planners to segment their attendees into groups and better manage the attendee experience based on their defined segments. Audience Segments APIs will enable you to get, create
   name: Cvent Event Cloud Audience Segments API
   slug: cvent-event-cloud-audience-segments-api
-- description: Endpoints for obtaining, refreshing, and validating OAuth2 access tokens.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Endpoints for obtaining, refreshing, and validating OAuth2 access tokens.
   name: Cvent Event Cloud Authentication API
   slug: cvent-event-cloud-authentication-api
-- description: Badge print jobs can be scheduled to a printer pool, so a printer in the printer pool can consume the job and print the badge.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Badge print jobs can be scheduled to a printer pool, so a printer in the printer pool can consume the job and print the badge.
   name: Cvent Event Cloud Badge Print Job API
   slug: cvent-event-cloud-badge-print-job-api
-- description: Badge printer pools are set up from Cvent UI. You can use this API to retrieve badge printer pools.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Badge printer pools are set up from Cvent UI. You can use this API to retrieve badge printer pools.
   name: Cvent Event Cloud Badge Printer Pools API
   slug: cvent-event-cloud-badge-printer-pools-api
-- description: Budget is an event feature used to organize spending and track [allocations](https://support.cvent.com/s/communityarticle/Setting-Up-Budget-Allocations). Use this API to view budget items, cards and c
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Budget is an event feature used to organize spending and track [allocations](https://support.cvent.com/s/communityarticle/Setting-Up-Budget-Allocations). Use this API to view budget items, cards and c
   name: Cvent Event Cloud Budget API
   slug: cvent-event-cloud-budget-api
-- description: 'The Bulk API provides a simple interface to upload large amounts of data into Cvent. The API processes the uploaded data asynchronously making API calls on behalf of the caller. Consumers of the bulk '
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'The Bulk API provides a simple interface to upload large amounts of data into Cvent. The API processes the uploaded data asynchronously making API calls on behalf of the caller. Consumers of the bulk '
   name: Cvent Event Cloud Bulk API
   slug: cvent-event-cloud-bulk-api
-- description: Planners use eMarketing campaigns to contact an audience, such as newsletters, press releases, or product updates. Campaign emails are used as newsletters, promotions, advertisements, or marketing mes
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Planners use eMarketing campaigns to contact an audience, such as newsletters, press releases, or product updates. Campaign emails are used as newsletters, promotions, advertisements, or marketing mes
   name: Cvent Event Cloud Campaigns API
   slug: cvent-event-cloud-campaigns-api
-- description: '**Card Tokenization**: Tokenization is the process Cvent uses to collect sensitive card details and personally identifiable information (PII), directly from your customers in a secure manner. This gua'
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: '**Card Tokenization**: Tokenization is the process Cvent uses to collect sensitive card details and personally identifiable information (PII), directly from your customers in a secure manner. This gua'
   name: Cvent Event Cloud Card Tokens API
   slug: cvent-event-cloud-card-tokens-api
-- description: These API's provide compliance support for regulated industries. **Communication Compliance** lets you view communication activities across your account. Various written forms of communication are cap
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: These API's provide compliance support for regulated industries. **Communication Compliance** lets you view communication activities across your account. Various written forms of communication are cap
   name: Cvent Event Cloud Compliance API
   slug: cvent-event-cloud-compliance-api
-- description: Custom Fields are created by event planners to track important information about specific objects like events, contacts, or sessions. Use these APIs to view, create, and update custom fields in your a
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Custom Fields are created by event planners to track important information about specific objects like events, contacts, or sessions. Use these APIs to view, create, and update custom fields in your a
   name: Cvent Event Cloud Custom Fields API
   slug: cvent-event-cloud-custom-fields-api
-- description: Discounts provide a way to reduce the cost of event registration items. Use these APIs to manage event discounts, including creating, updating, and linking discounts to agenda items.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Discounts provide a way to reduce the cost of event registration items. Use these APIs to manage event discounts, including creating, updating, and linking discounts to agenda items.
   name: Cvent Event Cloud Discounts API
   slug: cvent-event-cloud-discounts-api
-- description: Event planners use emails to invite registrants, market their events and request feedback from attendees. Use these APIs to get historical data about your emails and see relevant details like the type
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event planners use emails to invite registrants, market their events and request feedback from attendees. Use these APIs to get historical data about your emails and see relevant details like the type
   name: Cvent Event Cloud Emails API
   slug: cvent-event-cloud-emails-api
-- description: Event Credits reward attendees for participating in your events. Planners can award credits for the entire event, specific sessions, or both. You can also award credits after attendees complete survey
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event Credits reward attendees for participating in your events. Planners can award credits for the entire event, specific sessions, or both. You can also award credits after attendees complete survey
   name: Cvent Event Cloud Event Credits API
   slug: cvent-event-cloud-event-credits-api
-- description: EventFeatures related APIs
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: EventFeatures related APIs
   name: Cvent Event Cloud Event Features API
   slug: cvent-event-cloud-event-features-api
-- description: Event roles are event specific permission sets for your organization's users. Use these APIs to retrieve, create, update, and delete event role assignments to your organization's users.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event roles are event specific permission sets for your organization's users. Use these APIs to retrieve, create, update, and delete event role assignments to your organization's users.
   name: Cvent Event Cloud Event Role API
   slug: cvent-event-cloud-event-role-api
-- description: Event travel lets planners capture air & hotel requests from attendees and track air actuals, hotel reservations and alternate travel answers at your event. Use these endpoints to retrieve your air, h
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event travel lets planners capture air & hotel requests from attendees and track air actuals, hotel reservations and alternate travel answers at your event. Use these endpoints to retrieve your air, h
   name: Cvent Event Cloud Event Travel API
   slug: cvent-event-cloud-event-travel-api
-- description: An Events+ Hub persists basic information needed to assign an owner and optionally customize the public presentation.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: An Events+ Hub persists basic information needed to assign an owner and optionally customize the public presentation.
   name: Cvent Event Cloud Events+ Hub API
   slug: cvent-event-cloud-events-hub-api
-- description: '* **Exhibitor -** An exhibitor is an organization that is sponsoring or exhibiting at your event. This API allows you to get information about your exhibitors. * **Registration Pack -** Registration P'
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: '* **Exhibitor -** An exhibitor is an organization that is sponsoring or exhibiting at your event. This API allows you to get information about your exhibitors. * **Registration Pack -** Registration P'
   name: Cvent Event Cloud Exhibitor API
   slug: cvent-event-cloud-exhibitor-api
-- description: Exhibitor Content operations for an exhibitor. This API allows you to upload & get exhibitor content data such as files, weblinks.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Exhibitor Content operations for an exhibitor. This API allows you to upload & get exhibitor content data such as files, weblinks.
   name: Cvent Event Cloud Exhibitor Content API
   slug: cvent-event-cloud-exhibitor-content-api
-- description: '* **Exhibitor Admin -** Exhibitor Admins are administrators that have access to the exhibitor portal. In the portal, they are able to complete pre-event tasks, manage their team, purchase LeadCapture '
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: '* **Exhibitor Admin -** Exhibitor Admins are administrators that have access to the exhibitor portal. In the portal, they are able to complete pre-event tasks, manage their team, purchase LeadCapture '
   name: Cvent Event Cloud Exhibitor Team API
   slug: cvent-event-cloud-exhibitor-team-api
-- description: 'Allows you to upload files and get file location using the file ID. File ID can be used with other APIs to associate the file to an entity. For example: * <a href="#operation/addSessionDoc">Add Docume'
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'Allows you to upload files and get file location using the file ID. File ID can be used with other APIs to associate the file to an entity. For example: * <a href="#operation/addSessionDoc">Add Docume'
   name: Cvent Event Cloud File API
   slug: cvent-event-cloud-file-api
-- description: These APIs allow you to create hooks. When triggered, a hook sends a request to your service to get updated data related to the related Cvent object. For more information on using hooks, see the [gett
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: These APIs allow you to create hooks. When triggered, a hook sends a request to your service to get updated data related to the related Cvent object. For more information on using hooks, see the [gett
   name: Cvent Event Cloud Hooks API
   slug: cvent-event-cloud-hooks-api
-- description: '* **Leads -** Leads include leads gathered by LeadCapture, Appointments, and Inbound Leads. Use this API to get information for the lead and how it was captured. * **Lead Qualification Question -** Cu'
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: '* **Leads -** Leads include leads gathered by LeadCapture, Appointments, and Inbound Leads. Use this API to get information for the lead and how it was captured. * **Lead Qualification Question -** Cu'
   name: Cvent Event Cloud Leads API
   slug: cvent-event-cloud-leads-api
-- description: 'Process forms automate data collection and notifications related to planning and executing events. Process form submissions are responses to a specific process form, providing data the form requests. '
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'Process forms automate data collection and notifications related to planning and executing events. Process form submissions are responses to a specific process form, providing data the form requests. '
   name: Cvent Event Cloud Process Form API
   slug: cvent-event-cloud-process-form-api
-- description: Seating lets you plan seating at your events by configuring tables and assigning seats to your attendees. The seating APIs allow you to create, update, and delete seating, tables, seats, and seating a
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Seating lets you plan seating at your events by configuring tables and assigning seats to your attendees. The seating APIs allow you to create, update, and delete seating, tables, seats, and seating a
   name: Cvent Event Cloud Seating API
   slug: cvent-event-cloud-seating-api
-- description: Retrieves Check-In & Check-Out Signatures Of Attendees
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Retrieves Check-In & Check-Out Signatures Of Attendees
   name: Cvent Event Cloud Signatures API
   slug: cvent-event-cloud-signatures-api
-- description: Speakers are individuals presenting at your event's session(s). Use Speaker APIs to read existing speaker data, create new speakers or update existing speakers in your events.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Speakers are individuals presenting at your event's session(s). Use Speaker APIs to read existing speaker data, create new speakers or update existing speakers in your events.
   name: Cvent Event Cloud Speakers API
   slug: cvent-event-cloud-speakers-api
-- description: Surveys are lists of questions deployed to your contacts. Surveys can be standalone or can be associated to a Cvent event. Use these APIs to search for surveys and retrieve the associated questions an
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Surveys are lists of questions deployed to your contacts. Surveys can be standalone or can be associated to a Cvent event. Use these APIs to search for surveys and retrieve the associated questions an
   name: Cvent Event Cloud Surveys API
   slug: cvent-event-cloud-surveys-api
-- description: Use these APIs view your REST API usage and limits metrics. For more details on limits - [Rate Limits](#section/Getting-Started/Rate-Limits)
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Use these APIs view your REST API usage and limits metrics. For more details on limits - [Rate Limits](#section/Getting-Started/Rate-Limits)
   name: Cvent Event Cloud Usage API
   slug: cvent-event-cloud-usage-api
-- description: The [SCIM](https://www.simplecloud.info/) standard allows for easier cross-domain identity management. This API allows you to manage your account users and SCIM groups (representing Cvent user roles).
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The [SCIM](https://www.simplecloud.info/) standard allows for easier cross-domain identity management. This API allows you to manage your account users and SCIM groups (representing Cvent user roles).
   name: Cvent Event Cloud User SCIM API
   slug: cvent-event-cloud-user-scim-api
-- description: Operations for managing account users and user groups, including creation, retrieval, update, and deletion. Use these endpoints to administer user access and roles within your account.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Operations for managing account users and user groups, including creation, retrieval, update, and deletion. Use these endpoints to administer user access and roles within your account.
   name: Cvent Event Cloud Users API
   slug: cvent-event-cloud-users-api
-- description: Videos can be added to Cvent events with renditions at various resolutions, audio files, reactions tracks, and text tracks. Attendee viewership is tracked to get insight into durations, devices used a
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Videos can be added to Cvent events with renditions at various resolutions, audio files, reactions tracks, and text tracks. Attendee viewership is tracked to get insight into durations, devices used a
   name: Cvent Event Cloud Video API
   slug: cvent-event-cloud-video-api
-- description: Webcasts are virtual or livestreaming components of your Cvent events. Use these APIs to integrate your virtual events from outside sources into your Cvent workflows, create and delete webcasts from w
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Webcasts are virtual or livestreaming components of your Cvent events. Use these APIs to integrate your virtual events from outside sources into your Cvent workflows, create and delete webcasts from w
   name: Cvent Event Cloud Webcasts API
   slug: cvent-event-cloud-webcasts-api
-- description: 'RegLink APIs allow you to exchange data with Cvent Passkey events and hotel reservation-booking engines. Generally, there are four primary categories of functionality that RegLink APIs support: * **Sy'
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: 'RegLink APIs allow you to exchange data with Cvent Passkey events and hotel reservation-booking engines. Generally, there are four primary categories of functionality that RegLink APIs support: * **Sy'
   name: Cvent Event Cloud Housing API
   slug: cvent-event-cloud-housing-api
-- description: APIs for managing hotel-related operations.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: APIs for managing hotel-related operations.
   name: Cvent Event Cloud Housing Hotels API
   slug: cvent-event-cloud-housing-hotels-api
-- description: When planning an event, meeting request forms are customizable online questionnaires to capture information about the event and facilitate the approval of events. When a meeting request form is submit
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: When planning an event, meeting request forms are customizable online questionnaires to capture information about the event and facilitate the approval of events. When a meeting request form is submit
   name: Cvent Event Cloud Meeting Request API
   slug: cvent-event-cloud-meeting-request-api
-- description: Beta - All APIs are in Beta. Proposal Drafts are editable copies of proposals. This API allows you to edit proposal data privately before publishing.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Beta - All APIs are in Beta. Proposal Drafts are editable copies of proposals. This API allows you to edit proposal data privately before publishing.
   name: Cvent Event Cloud Proposal Draft API
   slug: cvent-event-cloud-proposal-draft-api
-- description: RFP additional details APIs for managing past event references and other miscellaneous RFP operations.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: RFP additional details APIs for managing past event references and other miscellaneous RFP operations.
   name: Cvent Event Cloud RFP Additional Details API
   slug: cvent-event-cloud-rfp-additional-details-api
-- description: RFP (Request for Proposal) management APIs for core RFP operations including CRUD operations for base RFPs.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: RFP (Request for Proposal) management APIs for core RFP operations including CRUD operations for base RFPs.
   name: Cvent Event Cloud RFP Management API
   slug: cvent-event-cloud-rfp-management-api
-- description: RFP requirements APIs for managing RFP-specific requirements including guest rooms, meeting rooms, custom questions, custom fields, and attachments (CRUD operations).
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: RFP requirements APIs for managing RFP-specific requirements including guest rooms, meeting rooms, custom questions, custom fields, and attachments (CRUD operations).
   name: Cvent Event Cloud RFP Requirements API
   slug: cvent-event-cloud-rfp-requirements-api
-- description: Suppliers are the venues and service providers that receive and respond to RFPs. Use these APIs to manage supplier associations, view recipient history, and create award details.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Suppliers are the venues and service providers that receive and respond to RFPs. Use these APIs to manage supplier associations, view recipient history, and create award details.
   name: Cvent Event Cloud RFP Suppliers API
   slug: cvent-event-cloud-rfp-suppliers-api
-- description: The travel account, or corporation that represents the demand-side of travel RFPs.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The travel account, or corporation that represents the demand-side of travel RFPs.
   name: Cvent Event Cloud Travel Accounts API
   slug: cvent-event-cloud-travel-accounts-api
-- description: The Travel RFP APIs provide access to travel programs and proposals. A travel program represents a request for proposal (RFP) that defines the specific travel needs and requirements of a travel accoun
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Travel RFP APIs provide access to travel programs and proposals. A travel program represents a request for proposal (RFP) that defines the specific travel needs and requirements of a travel accoun
   name: Cvent Event Cloud Travel RFPs API
   slug: cvent-event-cloud-travel-rfps-api
-- description: The Travel Supplier APIs provide access to Cvent data related to hotels, apartments, and other travel providers. This includes information related to properties, and sleeping rooms.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: The Travel Supplier APIs provide access to Cvent data related to hotels, apartments, and other travel providers. This includes information related to properties, and sleeping rooms.
   name: Cvent Event Cloud Travel Suppliers API
   slug: cvent-event-cloud-travel-suppliers-api
-- description: Manage meeting rooms for a venue, including creating and updating room details, configuring capacities and amenities, and associating images.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Manage meeting rooms for a venue, including creating and updating room details, configuring capacities and amenities, and associating images.
   name: Cvent Event Cloud Venue Meeting Rooms API
   slug: cvent-event-cloud-venue-meeting-rooms-api
-- description: Manage venue profile details including type, contact information, address, and other venue properties.
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Manage venue profile details including type, contact information, address, and other venue properties.
   name: Cvent Event Cloud Venue Profiles API
   slug: cvent-event-cloud-venue-profiles-api
 arazzos:
@@ -589,7 +697,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -599,7 +707,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 70.4
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -611,7 +719,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png
 security:

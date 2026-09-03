@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 26 operations · 5 acting
 api_count: 3
 apis:
-- description: Aggregated HMDA data reports
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: Aggregated HMDA data reports
   name: Consumer Financial Protection Bureau (CFPB) Aggregations API
   slug: cfpb-aggregations-api
-- description: These endpoints provide access to consumer complaints
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: These endpoints provide access to consumer complaints
   name: Consumer Financial Protection Bureau (CFPB) Complaints API
   slug: cfpb-complaints-api
-- description: HMDA data as CSV downloads
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: HMDA data as CSV downloads
   name: Consumer Financial Protection Bureau (CFPB) CSV API
   slug: cfpb-csv-api
-- description: Submission edit and validation reports
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: Submission edit and validation reports
   name: Consumer Financial Protection Bureau (CFPB) Edits API
   slug: cfpb-edits-api
-- description: HMDA filing institution information
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: HMDA filing institution information
   name: Consumer Financial Protection Bureau (CFPB) Filers API
   slug: cfpb-filers-api
-- description: HMDA filing management
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: HMDA filing management
   name: Consumer Financial Protection Bureau (CFPB) Filings API
   slug: cfpb-filings-api
-- description: Service health check
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: Service health check
   name: Consumer Financial Protection Bureau (CFPB) Health API
   slug: cfpb-health-api
-- description: Financial institution information
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: Financial institution information
   name: Consumer Financial Protection Bureau (CFPB) Institutions API
   slug: cfpb-institutions-api
-- description: HMDA data submission management
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: HMDA data submission management
   name: Consumer Financial Protection Bureau (CFPB) Submissions API
   slug: cfpb-submissions-api
-- description: These endpoints provide access aggregated consumer complaint data
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: These endpoints provide access aggregated consumer complaint data
   name: Consumer Financial Protection Bureau (CFPB) Trends API
   slug: cfpb-trends-api
-- description: These endpoints support the typeahead boxes in the UI
+- baseURL: https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
+  baseurl_source: declared
+  description: These endpoints support the typeahead boxes in the UI
   name: Consumer Financial Protection Bureau (CFPB) Typeahead API
   slug: cfpb-typeahead-api
 artifact_total: 35
@@ -286,7 +308,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/screenshots/cfpb-2026-06-20T174148.png
 security:

@@ -33,307 +33,505 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
   name: Khoros Community API
   slug: community
-- description: The AccountSet API from Lithium — 1 operation(s) for accountset.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The AccountSet API from Lithium — 1 operation(s) for accountset.
   name: Lithium AccountSet API
   slug: lithium-accountset-api
-- description: The Active API from Lithium — 1 operation(s) for active.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Active API from Lithium — 1 operation(s) for active.
   name: Lithium Active API
   slug: lithium-active-api
-- description: The Admin API from Lithium — 2 operation(s) for admin.
+- baseURL: https://api.spredfast.com/v2/crm
+  baseurl_source: declared
+  description: The Admin API from Lithium — 2 operation(s) for admin.
   name: Lithium Admin API
   slug: lithium-admin-api
-- description: The Agent States Api V2 API from Lithium — 1 operation(s) for agent states api v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Agent States Api V2 API from Lithium — 1 operation(s) for agent states api v2.
   name: Lithium Agent States Api V2 API
   slug: lithium-agent-states-api-v2-api
-- description: The Asset API from Lithium — 1 operation(s) for asset.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Asset API from Lithium — 1 operation(s) for asset.
   name: Lithium Asset API
   slug: lithium-asset-api
-- description: The Assets API from Lithium — 3 operation(s) for assets.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Assets API from Lithium — 3 operation(s) for assets.
   name: Lithium Assets API
   slug: lithium-assets-api
-- description: The Author Api V2 API from Lithium — 2 operation(s) for author api v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Author Api V2 API from Lithium — 2 operation(s) for author api v2.
   name: Lithium Author Api V2 API
   slug: lithium-author-api-v2-api
-- description: The Authors API from Lithium — 2 operation(s) for authors.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Authors API from Lithium — 2 operation(s) for authors.
   name: Lithium Authors API
   slug: lithium-authors-api
-- description: The Broadcast API from Lithium — 3 operation(s) for broadcast.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Broadcast API from Lithium — 3 operation(s) for broadcast.
   name: Lithium Broadcast API
   slug: lithium-broadcast-api
-- description: The Businesshours API from Lithium — 1 operation(s) for businesshours.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Businesshours API from Lithium — 1 operation(s) for businesshours.
   name: Lithium Businesshours API
   slug: lithium-businesshours-api
-- description: The BySourceDocumentId API from Lithium — 1 operation(s) for bysourcedocumentid.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The BySourceDocumentId API from Lithium — 1 operation(s) for bysourcedocumentid.
   name: Lithium BySourceDocumentId API
   slug: lithium-bysourcedocumentid-api
-- description: The Case API from Lithium — 2 operation(s) for case.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Case API from Lithium — 2 operation(s) for case.
   name: Lithium Case API
   slug: lithium-case-api
-- description: The Changed API from Lithium — 1 operation(s) for changed.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Changed API from Lithium — 1 operation(s) for changed.
   name: Lithium Changed API
   slug: lithium-changed-api
-- description: The Compare.json?streams API from Lithium — 1 operation(s) for compare.json?streams.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Compare.json?streams API from Lithium — 1 operation(s) for compare.json?streams.
   name: Lithium Compare.json?streams API
   slug: lithium-compare-json-streams-api
-- description: The Compare.json?streams={content}&sort API from Lithium — 1 operation(s) for compare.json?streams={content}&sort.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&sort API from Lithium — 1 operation(s) for compare.json?streams={content}&sort.
   name: Lithium Compare.json?streams={content}&sort API
   slug: lithium-compare-json-streams-content-sort-api
-- description: The Compare.json?streams={content}&target API from Lithium — 1 operation(s) for compare.json?streams={content}&target.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&target API from Lithium — 1 operation(s) for compare.json?streams={content}&target.
   name: Lithium Compare.json?streams={content}&target API
   slug: lithium-compare-json-streams-content-target-api
-- description: The Compare.json?streams={content}&target={number}&precision API from Lithium — 1 operation(s) for compare.json?streams={content}&target={number}&precision.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Compare.json?streams={content}&target={number}&precision API from Lithium — 1 operation(s) for compare.json?streams={content}&target={number}&precision.
   name: Lithium Compare.json?streams={content}&target={number}&precision API
   slug: lithium-compare-json-streams-content-target-number-precision-api
-- description: The Config API from Lithium — 1 operation(s) for config.
+- baseURL: https://analytics-api.app.lithium.com/api/public
+  baseurl_source: declared
+  description: The Config API from Lithium — 1 operation(s) for config.
   name: Lithium Config API
   slug: lithium-config-api
-- description: The Control API from Lithium — 2 operation(s) for control.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Control API from Lithium — 2 operation(s) for control.
   name: Lithium Control API
   slug: lithium-control-api
-- description: The Conversation Api V2 API from Lithium — 1 operation(s) for conversation api v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Conversation Api V2 API from Lithium — 1 operation(s) for conversation api v2.
   name: Lithium Conversation Api V2 API
   slug: lithium-conversation-api-v2-api
-- description: The Conversation Tag Rules V2 API from Lithium — 1 operation(s) for conversation tag rules v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Conversation Tag Rules V2 API from Lithium — 1 operation(s) for conversation tag rules v2.
   name: Lithium Conversation Tag Rules V2 API
   slug: lithium-conversation-tag-rules-v2-api
-- description: The Conversations API from Lithium — 29 operation(s) for conversations.
+- baseURL: https://api.spredfast.com/v2
+  baseurl_source: declared
+  description: The Conversations API from Lithium — 29 operation(s) for conversations.
   name: Lithium Conversations API
   slug: lithium-conversations-api
-- description: The Csv API from Lithium — 1 operation(s) for csv.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Csv API from Lithium — 1 operation(s) for csv.
   name: Lithium Csv API
   slug: lithium-csv-api
-- description: The Csv Long API from Lithium — 1 operation(s) for csv long.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Csv Long API from Lithium — 1 operation(s) for csv long.
   name: Lithium Csv Long API
   slug: lithium-csv-long-api
-- description: The CurrentTAR API from Lithium — 1 operation(s) for currenttar.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The CurrentTAR API from Lithium — 1 operation(s) for currenttar.
   name: Lithium CurrentTAR API
   slug: lithium-currenttar-api
-- description: The Customer API from Lithium — 4 operation(s) for customer.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Customer API from Lithium — 4 operation(s) for customer.
   name: Lithium Customer API
   slug: lithium-customer-api
-- description: The Customer (COPY) API from Lithium — 1 operation(s) for customer (copy).
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Customer (COPY) API from Lithium — 1 operation(s) for customer (copy).
   name: Lithium Customer (COPY) API
   slug: lithium-customer-copy-api
-- description: The Customers API from Lithium — 1 operation(s) for customers.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Customers API from Lithium — 1 operation(s) for customers.
   name: Lithium Customers API
   slug: lithium-customers-api
-- description: The Data API from Lithium — 1 operation(s) for data.
+- baseURL: https://api.spredfast.com/v2/events
+  baseurl_source: declared
+  description: The Data API from Lithium — 1 operation(s) for data.
   name: Lithium Data API
   slug: lithium-data-api
-- description: 'The # API from Lithium — 1 operation(s) for #.'
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: 'The # API from Lithium — 1 operation(s) for #.'
   name: 'Lithium # API'
   slug: lithium-default-api
-- description: The Discussion API from Lithium — 1 operation(s) for discussion.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Discussion API from Lithium — 1 operation(s) for discussion.
   name: Lithium Discussion API
   slug: lithium-discussion-api
-- description: The DisplayIds API from Lithium — 1 operation(s) for displayids.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The DisplayIds API from Lithium — 1 operation(s) for displayids.
   name: Lithium DisplayIds API
   slug: lithium-displayids-api
-- description: The Email API from Lithium — 1 operation(s) for email.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Email API from Lithium — 1 operation(s) for email.
   name: Lithium Email API
   slug: lithium-email-api
-- description: The Entities.json?entity Ids API from Lithium — 1 operation(s) for entities.json?entity ids.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Entities.json?entity Ids API from Lithium — 1 operation(s) for entities.json?entity ids.
   name: Lithium Entities.json?entity Ids API
   slug: lithium-entities-json-entity-ids-api
-- description: The Export API from Lithium — 10 operation(s) for export.
+- baseURL: https://api.spredfast.com/v2/analytics
+  baseurl_source: declared
+  description: The Export API from Lithium — 10 operation(s) for export.
   name: Lithium Export API
   slug: lithium-export-api
-- description: The Flow Rest Api API from Lithium — 2 operation(s) for flow rest api.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Flow Rest Api API from Lithium — 2 operation(s) for flow rest api.
   name: Lithium Flow Rest Api API
   slug: lithium-flow-rest-api-api
-- description: The Folder API from Lithium — 3 operation(s) for folder.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Folder API from Lithium — 3 operation(s) for folder.
   name: Lithium Folder API
   slug: lithium-folder-api
-- description: The Form API from Lithium — 1 operation(s) for form.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Form API from Lithium — 1 operation(s) for form.
   name: Lithium Form API
   slug: lithium-form-api
-- description: The GetForms API from Lithium — 1 operation(s) for getforms.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The GetForms API from Lithium — 1 operation(s) for getforms.
   name: Lithium GetForms API
   slug: lithium-getforms-api
-- description: The Handover API from Lithium — 1 operation(s) for handover.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Handover API from Lithium — 1 operation(s) for handover.
   name: Lithium Handover API
   slug: lithium-handover-api
-- description: The Health API from Lithium — 1 operation(s) for health.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Health API from Lithium — 1 operation(s) for health.
   name: Lithium Health API
   slug: lithium-health-api
-- description: The Initiatives API from Lithium — 2 operation(s) for initiatives.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Initiatives API from Lithium — 2 operation(s) for initiatives.
   name: Lithium Initiatives API
   slug: lithium-initiatives-api
-- description: The Introspection Api API from Lithium — 1 operation(s) for introspection api.
+- baseURL: https://api.spredfast.com/v2/whoami
+  baseurl_source: declared
+  description: The Introspection Api API from Lithium — 1 operation(s) for introspection api.
   name: Lithium Introspection Api API
   slug: lithium-introspection-api-api
-- description: The Khorosapi API from Lithium — 1 operation(s) for khorosapi.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Khorosapi API from Lithium — 1 operation(s) for khorosapi.
   name: Lithium Khorosapi API
   slug: lithium-khorosapi-api
-- description: The Labels API from Lithium — 1 operation(s) for labels.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Labels API from Lithium — 1 operation(s) for labels.
   name: Lithium Labels API
   slug: lithium-labels-api
-- description: The Labelsets Api API from Lithium — 1 operation(s) for labelsets api.
+- baseURL: https://api.spredfast.com/v2/labelsets
+  baseurl_source: declared
+  description: The Labelsets Api API from Lithium — 1 operation(s) for labelsets api.
   name: Lithium Labelsets Api API
   slug: lithium-labelsets-api-api
-- description: The List API from Lithium — 2 operation(s) for list.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The List API from Lithium — 2 operation(s) for list.
   name: Lithium List API
   slug: lithium-list-api
-- description: The Me API from Lithium — 2 operation(s) for me.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Me API from Lithium — 2 operation(s) for me.
   name: Lithium Me API
   slug: lithium-me-api
-- description: The Messages API from Lithium — 10 operation(s) for messages.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Messages API from Lithium — 10 operation(s) for messages.
   name: Lithium Messages API
   slug: lithium-messages-api
-- description: The Meta API from Lithium — 1 operation(s) for meta.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Meta API from Lithium — 1 operation(s) for meta.
   name: Lithium Meta API
   slug: lithium-meta-api
-- description: The Meta.json?activity API from Lithium — 1 operation(s) for meta.json?activity.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?activity API from Lithium — 1 operation(s) for meta.json?activity.
   name: Lithium Meta.json?activity API
   slug: lithium-meta-json-activity-api
-- description: The Meta.json?all Topics API from Lithium — 1 operation(s) for meta.json?all topics.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?all Topics API from Lithium — 1 operation(s) for meta.json?all topics.
   name: Lithium Meta.json?all Topics API
   slug: lithium-meta-json-all-topics-api
-- description: The Meta.json API from Lithium — 1 operation(s) for meta.json.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json API from Lithium — 1 operation(s) for meta.json.
   name: Lithium Meta.json API
   slug: lithium-meta-json-api
-- description: The Meta.json?disregard API from Lithium — 1 operation(s) for meta.json?disregard.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?disregard API from Lithium — 1 operation(s) for meta.json?disregard.
   name: Lithium Meta.json?disregard API
   slug: lithium-meta-json-disregard-api
-- description: The Meta.json?finish API from Lithium — 1 operation(s) for meta.json?finish.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?finish API from Lithium — 1 operation(s) for meta.json?finish.
   name: Lithium Meta.json?finish API
   slug: lithium-meta-json-finish-api
-- description: The Meta.json? Networks API from Lithium — 1 operation(s) for meta.json? networks.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json? Networks API from Lithium — 1 operation(s) for meta.json? networks.
   name: Lithium Meta.json? Networks API
   slug: lithium-meta-json-networks-api
-- description: The Meta.json?num Contributors API from Lithium — 1 operation(s) for meta.json?num contributors.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Contributors API from Lithium — 1 operation(s) for meta.json?num contributors.
   name: Lithium Meta.json?num Contributors API
   slug: lithium-meta-json-num-contributors-api
-- description: The Meta.json?num Days API from Lithium — 1 operation(s) for meta.json?num days.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Days API from Lithium — 1 operation(s) for meta.json?num days.
   name: Lithium Meta.json?num Days API
   slug: lithium-meta-json-num-days-api
-- description: The Meta.json?num Hashtags API from Lithium — 1 operation(s) for meta.json?num hashtags.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Hashtags API from Lithium — 1 operation(s) for meta.json?num hashtags.
   name: Lithium Meta.json?num Hashtags API
   slug: lithium-meta-json-num-hashtags-api
-- description: The Meta.json?num Hours API from Lithium — 1 operation(s) for meta.json?num hours.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Hours API from Lithium — 1 operation(s) for meta.json?num hours.
   name: Lithium Meta.json?num Hours API
   slug: lithium-meta-json-num-hours-api
-- description: The Meta.json?num Minutes API from Lithium — 1 operation(s) for meta.json?num minutes.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Minutes API from Lithium — 1 operation(s) for meta.json?num minutes.
   name: Lithium Meta.json?num Minutes API
   slug: lithium-meta-json-num-minutes-api
-- description: The Meta.json?num Trends API from Lithium — 1 operation(s) for meta.json?num trends.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?num Trends API from Lithium — 1 operation(s) for meta.json?num trends.
   name: Lithium Meta.json?num Trends API
   slug: lithium-meta-json-num-trends-api
-- description: The Meta.json?percent API from Lithium — 1 operation(s) for meta.json?percent.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?percent API from Lithium — 1 operation(s) for meta.json?percent.
   name: Lithium Meta.json?percent API
   slug: lithium-meta-json-percent-api
-- description: The Meta.json?precision API from Lithium — 1 operation(s) for meta.json?precision.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?precision API from Lithium — 1 operation(s) for meta.json?precision.
   name: Lithium Meta.json?precision API
   slug: lithium-meta-json-precision-api
-- description: The Meta.json?sort API from Lithium — 1 operation(s) for meta.json?sort.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?sort API from Lithium — 1 operation(s) for meta.json?sort.
   name: Lithium Meta.json?sort API
   slug: lithium-meta-json-sort-api
-- description: The Meta.json?top Count API from Lithium — 1 operation(s) for meta.json?top count.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?top Count API from Lithium — 1 operation(s) for meta.json?top count.
   name: Lithium Meta.json?top Count API
   slug: lithium-meta-json-top-count-api
-- description: The Meta.json?top Periods API from Lithium — 1 operation(s) for meta.json?top periods.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?top Periods API from Lithium — 1 operation(s) for meta.json?top periods.
   name: Lithium Meta.json?top Periods API
   slug: lithium-meta-json-top-periods-api
-- description: The Meta.json?top Periods Relative API from Lithium — 1 operation(s) for meta.json?top periods relative.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Meta.json?top Periods Relative API from Lithium — 1 operation(s) for meta.json?top periods relative.
   name: Lithium Meta.json?top Periods Relative API
   slug: lithium-meta-json-top-periods-relative-api
-- description: The MultiChannelMessages API from Lithium — 1 operation(s) for multichannelmessages.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The MultiChannelMessages API from Lithium — 1 operation(s) for multichannelmessages.
   name: Lithium MultiChannelMessages API
   slug: lithium-multichannelmessages-api
-- description: The Networks API from Lithium — 16 operation(s) for networks.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Networks API from Lithium — 16 operation(s) for networks.
   name: Lithium Networks API
   slug: lithium-networks-api
-- description: The Note API from Lithium — 1 operation(s) for note.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Note API from Lithium — 1 operation(s) for note.
   name: Lithium Note API
   slug: lithium-note-api
-- description: The Pause API from Lithium — 1 operation(s) for pause.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Pause API from Lithium — 1 operation(s) for pause.
   name: Lithium Pause API
   slug: lithium-pause-api
-- description: The Permissions API from Lithium — 1 operation(s) for permissions.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Permissions API from Lithium — 1 operation(s) for permissions.
   name: Lithium Permissions API
   slug: lithium-permissions-api
-- description: The Plans API from Lithium — 1 operation(s) for plans.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Plans API from Lithium — 1 operation(s) for plans.
   name: Lithium Plans API
   slug: lithium-plans-api
-- description: The Priority API from Lithium — 1 operation(s) for priority.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Priority API from Lithium — 1 operation(s) for priority.
   name: Lithium Priority API
   slug: lithium-priority-api
-- description: The Projects API from Lithium — 1 operation(s) for projects.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Projects API from Lithium — 1 operation(s) for projects.
   name: Lithium Projects API
   slug: lithium-projects-api
-- description: The Registrations API from Lithium — 4 operation(s) for registrations.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Registrations API from Lithium — 4 operation(s) for registrations.
   name: Lithium Registrations API
   slug: lithium-registrations-api
-- description: The Report API from Lithium — 1 operation(s) for report.
+- baseURL: https://analytics-api.app.lithium.com/api/public
+  baseurl_source: declared
+  description: The Report API from Lithium — 1 operation(s) for report.
   name: Lithium Report API
   slug: lithium-report-api
-- description: The Reports API from Lithium — 16 operation(s) for reports.
+- baseURL: https://analytics-api.app.lithium.com/api/public
+  baseurl_source: declared
+  description: The Reports API from Lithium — 16 operation(s) for reports.
   name: Lithium Reports API
   slug: lithium-reports-api
-- description: The Request API from Lithium — 2 operation(s) for request.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Request API from Lithium — 2 operation(s) for request.
   name: Lithium Request API
   slug: lithium-request-api
-- description: The Requests API from Lithium — 2 operation(s) for requests.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Requests API from Lithium — 2 operation(s) for requests.
   name: Lithium Requests API
   slug: lithium-requests-api
-- description: The Resolve API from Lithium — 2 operation(s) for resolve.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Resolve API from Lithium — 2 operation(s) for resolve.
   name: Lithium Resolve API
   slug: lithium-resolve-api
-- description: The Respond API from Lithium — 1 operation(s) for respond.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Respond API from Lithium — 1 operation(s) for respond.
   name: Lithium Respond API
   slug: lithium-respond-api
-- description: The Smart Views Api V2 API from Lithium — 1 operation(s) for smart views api v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Smart Views Api V2 API from Lithium — 1 operation(s) for smart views api v2.
   name: Lithium Smart Views Api V2 API
   slug: lithium-smart-views-api-v2-api
-- description: The SsoId API from Lithium — 1 operation(s) for ssoid.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The SsoId API from Lithium — 1 operation(s) for ssoid.
   name: Lithium SsoId API
   slug: lithium-ssoid-api
-- description: The Stream Api API from Lithium — 25 operation(s) for stream api.
+- baseURL: https://api.massrelevance.com
+  baseurl_source: declared
+  description: The Stream Api API from Lithium — 25 operation(s) for stream api.
   name: Lithium Stream Api API
   slug: lithium-stream-api-api
-- description: The Streams API from Lithium — 1 operation(s) for streams.
+- baseURL: https://api.spredfast.com/v2/analytics
+  baseurl_source: declared
+  description: The Streams API from Lithium — 1 operation(s) for streams.
   name: Lithium Streams API
   slug: lithium-streams-api
-- description: The Subscription API from Lithium — 3 operation(s) for subscription.
+- baseURL: https://api.spredfast.com/v2/events
+  baseurl_source: declared
+  description: The Subscription API from Lithium — 3 operation(s) for subscription.
   name: Lithium Subscription API
   slug: lithium-subscription-api
-- description: The Surveys API from Lithium — 1 operation(s) for surveys.
+- baseURL: https://api.spredfast.com/v2/analytics
+  baseurl_source: declared
+  description: The Surveys API from Lithium — 1 operation(s) for surveys.
   name: Lithium Surveys API
   slug: lithium-surveys-api
-- description: The Tag API from Lithium — 2 operation(s) for tag.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Tag API from Lithium — 2 operation(s) for tag.
   name: Lithium Tag API
   slug: lithium-tag-api
-- description: The Tag Api V2 API from Lithium — 1 operation(s) for tag api v2.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Tag Api V2 API from Lithium — 1 operation(s) for tag api v2.
   name: Lithium Tag Api V2 API
   slug: lithium-tag-api-v2-api
-- description: The Teams API from Lithium — 1 operation(s) for teams.
+- baseURL: https://analytics-api.app.lithium.com/api/public
+  baseurl_source: declared
+  description: The Teams API from Lithium — 1 operation(s) for teams.
   name: Lithium Teams API
   slug: lithium-teams-api
-- description: The Threads API from Lithium — 1 operation(s) for threads.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Threads API from Lithium — 1 operation(s) for threads.
   name: Lithium Threads API
   slug: lithium-threads-api
-- description: The Tokens API from Lithium — 1 operation(s) for tokens.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Tokens API from Lithium — 1 operation(s) for tokens.
   name: Lithium Tokens API
   slug: lithium-tokens-api
-- description: The Trigger API from Lithium — 1 operation(s) for trigger.
+- baseURL: https://api.flow.ai/rest/v1
+  baseurl_source: declared
+  description: The Trigger API from Lithium — 1 operation(s) for trigger.
   name: Lithium Trigger API
   slug: lithium-trigger-api
-- description: The Users API from Lithium — 1 operation(s) for users.
+- baseURL: https://api.spredfast.com
+  baseurl_source: declared
+  description: The Users API from Lithium — 1 operation(s) for users.
   name: Lithium Users API
   slug: lithium-users-api
-- description: The Uuid API from Lithium — 1 operation(s) for uuid.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Uuid API from Lithium — 1 operation(s) for uuid.
   name: Lithium Uuid API
   slug: lithium-uuid-api
-- description: The Workqueue API from Lithium — 1 operation(s) for workqueue.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Workqueue API from Lithium — 1 operation(s) for workqueue.
   name: Lithium Workqueue API
   slug: lithium-workqueue-api
-- description: The Workqueues API from Lithium — 1 operation(s) for workqueues.
+- baseURL: https://api.app.lithium.com
+  baseurl_source: declared
+  description: The Workqueues API from Lithium — 1 operation(s) for workqueues.
   name: Lithium Workqueues API
   slug: lithium-workqueues-api
 artifact_total: 209
@@ -873,7 +1071,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -883,7 +1081,7 @@ score:
     discoverability: 77.8
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 57.8
+  previous_composite: 57.6
   provenance:
     conformance: first-party
     contracts:
@@ -894,7 +1092,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

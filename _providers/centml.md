@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: The Chat API from CentML — 1 operation(s) for chat.
+- baseURL: https://api.centml.com/openai/v1
+  baseurl_source: declared
+  description: The Chat API from CentML — 1 operation(s) for chat.
   name: CentML Chat API
   slug: centml-chat-api
-- description: The Clusters API from CentML — 2 operation(s) for clusters.
+- baseURL: https://api.centml.com/openai/v1
+  baseurl_source: declared
+  description: The Clusters API from CentML — 2 operation(s) for clusters.
   name: CentML Clusters API
   slug: centml-clusters-api
-- description: The Completions API from CentML — 1 operation(s) for completions.
+- baseURL: https://api.centml.com/openai/v1
+  baseurl_source: declared
+  description: The Completions API from CentML — 1 operation(s) for completions.
   name: CentML Completions API
   slug: centml-completions-api
-- description: The Deployments API from CentML — 6 operation(s) for deployments.
+- baseURL: https://api.centml.com/openai/v1
+  baseurl_source: declared
+  description: The Deployments API from CentML — 6 operation(s) for deployments.
   name: CentML Deployments API
   slug: centml-deployments-api
-- description: The Models API from CentML — 2 operation(s) for models.
+- baseURL: https://api.centml.com/openai/v1
+  baseurl_source: declared
+  description: The Models API from CentML — 2 operation(s) for models.
   name: CentML Models API
   slug: centml-models-api
 artifact_total: 20
@@ -179,7 +189,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -189,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.5
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/screenshots/centml-2026-07-25T204927.png
 security:

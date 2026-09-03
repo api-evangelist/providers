@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 60
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 112 operations · 68 acting · 60 human-in-the-loop
 api_count: 2
 apis:
-- description: The Audiences API from DevCycle — 3 operation(s) for audiences.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Audiences API from DevCycle — 3 operation(s) for audiences.
   name: DevCycle Audiences API
   slug: devcycle-audiences-api
-- description: The Audit Log API from DevCycle — 1 operation(s) for audit log.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Audit Log API from DevCycle — 1 operation(s) for audit log.
   name: DevCycle Audit Log API
   slug: devcycle-audit-log-api
-- description: The [Beta] Semantic Patch API from DevCycle — 1 operation(s) for [beta] semantic patch.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The [Beta] Semantic Patch API from DevCycle — 1 operation(s) for [beta] semantic patch.
   name: DevCycle [Beta] Semantic Patch API
   slug: devcycle-beta-semantic-patch-api
-- description: The Bucketing API API from DevCycle — 4 operation(s) for bucketing api.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Bucketing API API from DevCycle — 4 operation(s) for bucketing api.
   name: DevCycle Bucketing API API
   slug: devcycle-bucketing-api-api
-- description: The Custom Properties API from DevCycle — 2 operation(s) for custom properties.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Custom Properties API from DevCycle — 2 operation(s) for custom properties.
   name: DevCycle Custom Properties API
   slug: devcycle-custom-properties-api
-- description: The [Deprecated] Features v1 API from DevCycle — 7 operation(s) for [deprecated] features v1.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The [Deprecated] Features v1 API from DevCycle — 7 operation(s) for [deprecated] features v1.
   name: DevCycle [Deprecated] Features v1 API
   slug: devcycle-deprecated-features-v1-api
-- description: The EdgeDB API from DevCycle — 1 operation(s) for edgedb.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The EdgeDB API from DevCycle — 1 operation(s) for edgedb.
   name: DevCycle EdgeDB API
   slug: devcycle-edgedb-api
-- description: The Environments API from DevCycle — 4 operation(s) for environments.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Environments API from DevCycle — 4 operation(s) for environments.
   name: DevCycle Environments API
   slug: devcycle-environments-api
-- description: The Feature Change Requests API from DevCycle — 7 operation(s) for feature change requests.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Feature Change Requests API from DevCycle — 7 operation(s) for feature change requests.
   name: DevCycle Feature Change Requests API
   slug: devcycle-feature-change-requests-api
-- description: The Feature Configurations API from DevCycle — 1 operation(s) for feature configurations.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Feature Configurations API from DevCycle — 1 operation(s) for feature configurations.
   name: DevCycle Feature Configurations API
   slug: devcycle-feature-configurations-api
-- description: The Feature Opt-in API from DevCycle — 2 operation(s) for feature opt-in.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Feature Opt-in API from DevCycle — 2 operation(s) for feature opt-in.
   name: DevCycle Feature Opt-in API
   slug: devcycle-feature-opt-in-api
-- description: The Features v2 API from DevCycle — 6 operation(s) for features v2.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Features v2 API from DevCycle — 6 operation(s) for features v2.
   name: DevCycle Features v2 API
   slug: devcycle-features-v2-api
-- description: 'The Integrations: Dynatrace API from DevCycle — 2 operation(s) for integrations: dynatrace.'
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: 'The Integrations: Dynatrace API from DevCycle — 2 operation(s) for integrations: dynatrace.'
   name: 'DevCycle Integrations: Dynatrace API'
   slug: devcycle-integrations-dynatrace-api
-- description: 'The Integrations: Jira API from DevCycle — 3 operation(s) for integrations: jira.'
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: 'The Integrations: Jira API from DevCycle — 3 operation(s) for integrations: jira.'
   name: 'DevCycle Integrations: Jira API'
   slug: devcycle-integrations-jira-api
-- description: The Metric Associations API from DevCycle — 1 operation(s) for metric associations.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Metric Associations API from DevCycle — 1 operation(s) for metric associations.
   name: DevCycle Metric Associations API
   slug: devcycle-metric-associations-api
-- description: The Metrics API from DevCycle — 4 operation(s) for metrics.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Metrics API from DevCycle — 4 operation(s) for metrics.
   name: DevCycle Metrics API
   slug: devcycle-metrics-api
-- description: 'See the OpenFeature documentation for more information: https://github.com/open-feature/protocol'
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: 'See the OpenFeature documentation for more information: https://github.com/open-feature/protocol'
   name: DevCycle OpenFeature Remote Evaluation API (OFREP) API
   slug: devcycle-openfeature-remote-evaluation-api-ofrep-api
-- description: The Overrides API from DevCycle — 3 operation(s) for overrides.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Overrides API from DevCycle — 3 operation(s) for overrides.
   name: DevCycle Overrides API
   slug: devcycle-overrides-api
-- description: The Project Change Requests API from DevCycle — 1 operation(s) for project change requests.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Project Change Requests API from DevCycle — 1 operation(s) for project change requests.
   name: DevCycle Project Change Requests API
   slug: devcycle-project-change-requests-api
-- description: The Projects API from DevCycle — 5 operation(s) for projects.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Projects API from DevCycle — 5 operation(s) for projects.
   name: DevCycle Projects API
   slug: devcycle-projects-api
-- description: The Results API from DevCycle — 3 operation(s) for results.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Results API from DevCycle — 3 operation(s) for results.
   name: DevCycle Results API
   slug: devcycle-results-api
-- description: The User Profiles API from DevCycle — 1 operation(s) for user profiles.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The User Profiles API from DevCycle — 1 operation(s) for user profiles.
   name: DevCycle User Profiles API
   slug: devcycle-user-profiles-api
-- description: The Variables API from DevCycle — 3 operation(s) for variables.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Variables API from DevCycle — 3 operation(s) for variables.
   name: DevCycle Variables API
   slug: devcycle-variables-api
-- description: The Variations API from DevCycle — 2 operation(s) for variations.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Variations API from DevCycle — 2 operation(s) for variations.
   name: DevCycle Variations API
   slug: devcycle-variations-api
-- description: The Webhooks API from DevCycle — 2 operation(s) for webhooks.
+- baseURL: https://api.devcycle.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from DevCycle — 2 operation(s) for webhooks.
   name: DevCycle Webhooks API
   slug: devcycle-webhooks-api
 arazzos:
@@ -474,7 +524,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -484,7 +534,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 58.5
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -496,7 +546,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devcycle/refs/heads/main/screenshots/devcycle-2026-07-25T211810.png
 security:

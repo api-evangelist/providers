@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Jobs API from Apache Pig — 3 operation(s) for jobs.
+- baseURL_template: https://{host}/pig
+  baseurl_source: spec_template
+  description: The Jobs API from Apache Pig — 3 operation(s) for jobs.
   name: Apache Pig Jobs API
   slug: apache-pig-jobs-api
-- description: The Scripts API from Apache Pig — 1 operation(s) for scripts.
+- baseURL_template: https://{host}/pig
+  baseurl_source: spec_template
+  description: The Scripts API from Apache Pig — 1 operation(s) for scripts.
   name: Apache Pig Scripts API
   slug: apache-pig-scripts-api
 artifact_total: 50
@@ -265,7 +269,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png
 security:

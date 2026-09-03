@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -61,22 +61,34 @@ apis:
 - description: YARN Queue Manager exposes a REST API for managing capacity scheduler queues, ACLs, and resource allocations on a CDP cluster.
   name: YARN Queue Manager API
   slug: yarn-queue-manager
-- description: The DataEngineering API from Cloudera — 1 operation(s) for dataengineering.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The DataEngineering API from Cloudera — 1 operation(s) for dataengineering.
   name: Cloudera DataEngineering API
   slug: cloudera-dataengineering-api
-- description: The Datahub API from Cloudera — 2 operation(s) for datahub.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The Datahub API from Cloudera — 2 operation(s) for datahub.
   name: Cloudera Datahub API
   slug: cloudera-datahub-api
-- description: The Datalake API from Cloudera — 2 operation(s) for datalake.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The Datalake API from Cloudera — 2 operation(s) for datalake.
   name: Cloudera Datalake API
   slug: cloudera-datalake-api
-- description: The Environments API from Cloudera — 3 operation(s) for environments.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The Environments API from Cloudera — 3 operation(s) for environments.
   name: Cloudera Environments API
   slug: cloudera-environments-api
-- description: The IAM API from Cloudera — 2 operation(s) for iam.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The IAM API from Cloudera — 2 operation(s) for iam.
   name: Cloudera IAM API
   slug: cloudera-iam-api
-- description: The ML API from Cloudera — 1 operation(s) for ml.
+- baseURL: https://api.us-west-1.cdp.cloudera.com
+  baseurl_source: spec
+  description: The ML API from Cloudera — 1 operation(s) for ml.
   name: Cloudera ML API
   slug: cloudera-ml-api
 artifact_total: 26
@@ -214,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudera/refs/heads/main/screenshots/cloudera-2026-06-20T174548.png
 security:

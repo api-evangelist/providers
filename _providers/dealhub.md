@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,196 +36,322 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 21
 apis:
-- description: Start, track, inspect and retry asynchronous imports of buyer accounts and contacts from a tenant's connected CRM into DealHub, with per-id lookup and aggregate success/failure counts.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Start, track, inspect and retry asynchronous imports of buyer accounts and contacts from a tenant's connected CRM into DealHub, with per-id lookup and aggregate success/failure counts.
   name: DealHub CRM Import API
   slug: dealhub-crm-import-api
-- description: The Account API from DealHub — 6 operation(s) for account.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Account API from DealHub — 6 operation(s) for account.
   name: DealHub Account API
   slug: dealhub-account-api
-- description: The Accounting API from DealHub — 7 operation(s) for accounting.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Accounting API from DealHub — 7 operation(s) for accounting.
   name: DealHub Accounting API
   slug: dealhub-accounting-api
-- description: The Accounts API from DealHub — 10 operation(s) for accounts.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Accounts API from DealHub — 10 operation(s) for accounts.
   name: DealHub Accounts API
   slug: dealhub-accounts-api
-- description: The AI Agent API from DealHub — 7 operation(s) for ai agent.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The AI Agent API from DealHub — 7 operation(s) for ai agent.
   name: DealHub AI Agent API
   slug: dealhub-ai-agent-api
-- description: The AI Summary API from DealHub — 3 operation(s) for ai summary.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The AI Summary API from DealHub — 3 operation(s) for ai summary.
   name: DealHub AI Summary API
   slug: dealhub-ai-summary-api
-- description: The Approvals API from DealHub — 13 operation(s) for approvals.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Approvals API from DealHub — 13 operation(s) for approvals.
   name: DealHub Approvals API
   slug: dealhub-approvals-api
-- description: Endpoints for tracking the status of asynchronous requests.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for tracking the status of asynchronous requests.
   name: DealHub Asynchronous Operations API
   slug: dealhub-asynchronous-operations-api
-- description: The Attachments API from DealHub — 4 operation(s) for attachments.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Attachments API from DealHub — 4 operation(s) for attachments.
   name: DealHub Attachments API
   slug: dealhub-attachments-api
-- description: The Authentication API from DealHub — 5 operation(s) for authentication.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Authentication API from DealHub — 5 operation(s) for authentication.
   name: DealHub Authentication API
   slug: dealhub-authentication-api
-- description: The BankTransactions API from DealHub — 3 operation(s) for banktransactions.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The BankTransactions API from DealHub — 3 operation(s) for banktransactions.
   name: DealHub Bank Transactions API
   slug: dealhub-banktransactions-api
-- description: The Billing API from DealHub — 38 operation(s) for billing.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Billing API from DealHub — 38 operation(s) for billing.
   name: DealHub Billing API
   slug: dealhub-billing-api
-- description: The Callouts API from DealHub — 1 operation(s) for callouts.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Callouts API from DealHub — 1 operation(s) for callouts.
   name: DealHub Callouts API
   slug: dealhub-callouts-api
-- description: The Credit Memo API from DealHub — 8 operation(s) for credit memo.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Credit Memo API from DealHub — 8 operation(s) for credit memo.
   name: DealHub Credit Memo API
   slug: dealhub-credit-memo-api
-- description: The CRM field mapping API from DealHub — 6 operation(s) for crm field mapping.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The CRM field mapping API from DealHub — 6 operation(s) for crm field mapping.
   name: DealHub CRM field mapping API
   slug: dealhub-crm-field-mapping-api
-- description: Endpoints for integrating external CRM systems with DealHub.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for integrating external CRM systems with DealHub.
   name: DealHub CRM Integration API
   slug: dealhub-crm-integration-api
-- description: The Custom Field API from DealHub — 7 operation(s) for custom field.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Custom Field API from DealHub — 7 operation(s) for custom field.
   name: DealHub Custom Field API
   slug: dealhub-custom-field-api
-- description: The Customization API from DealHub — 2 operation(s) for customization.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Customization API from DealHub — 2 operation(s) for customization.
   name: DealHub Customization API
   slug: dealhub-customization-api
-- description: The Deal Pulse API from DealHub — 3 operation(s) for deal pulse.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Deal Pulse API from DealHub — 3 operation(s) for deal pulse.
   name: DealHub Deal Pulse API
   slug: dealhub-deal-pulse-api
-- description: The Discounts API from DealHub — 3 operation(s) for discounts.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Discounts API from DealHub — 3 operation(s) for discounts.
   name: DealHub Discounts API
   slug: dealhub-discounts-api
-- description: The Documents API from DealHub — 5 operation(s) for documents.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Documents API from DealHub — 5 operation(s) for documents.
   name: DealHub Documents API
   slug: dealhub-documents-api
-- description: The Email API from DealHub — 1 operation(s) for email.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Email API from DealHub — 1 operation(s) for email.
   name: DealHub Email API
   slug: dealhub-email-api
-- description: The Entities API from DealHub — 3 operation(s) for entities.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Entities API from DealHub — 3 operation(s) for entities.
   name: DealHub Entities API
   slug: dealhub-entities-api
-- description: The ERP API from DealHub — 9 operation(s) for erp.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The ERP API from DealHub — 9 operation(s) for erp.
   name: DealHub ERP API
   slug: dealhub-erp-api
-- description: The Experimental API from DealHub — 17 operation(s) for experimental.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Experimental API from DealHub — 17 operation(s) for experimental.
   name: DealHub Experimental API
   slug: dealhub-experimental-api
-- description: The External Query API from DealHub — 1 operation(s) for external query.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The External Query API from DealHub — 1 operation(s) for external query.
   name: DealHub External Query API
   slug: dealhub-external-query-api
-- description: The Foreign Exchange API from DealHub — 4 operation(s) for foreign exchange.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Foreign Exchange API from DealHub — 4 operation(s) for foreign exchange.
   name: DealHub Foreign Exchange API
   slug: dealhub-foreign-exchange-api
-- description: The Get Products Information API from DealHub — 2 operation(s) for get products information.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Get Products Information API from DealHub — 2 operation(s) for get products information.
   name: DealHub Get Products Information API
   slug: dealhub-get-products-information-api
-- description: Endpoints for programmatic quote simulation, generation, and lifecycle actions.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for programmatic quote simulation, generation, and lifecycle actions.
   name: DealHub Headless Quoting API
   slug: dealhub-headless-quoting-api
-- description: The Health API from DealHub — 1 operation(s) for health.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Health API from DealHub — 1 operation(s) for health.
   name: DealHub Health API
   slug: dealhub-health-api
-- description: The Import API from DealHub — 10 operation(s) for import.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Import API from DealHub — 10 operation(s) for import.
   name: DealHub Import API
   slug: dealhub-import-api
-- description: The Integrations API from DealHub — 35 operation(s) for integrations.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Integrations API from DealHub — 35 operation(s) for integrations.
   name: DealHub Integrations API
   slug: dealhub-integrations-api
-- description: The Intelligent Sales Room API from DealHub — 41 operation(s) for intelligent sales room.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Intelligent Sales Room API from DealHub — 41 operation(s) for intelligent sales room.
   name: DealHub Intelligent Sales Room API
   slug: dealhub-intelligent-sales-room-api
-- description: The Invoice API from DealHub — 1 operation(s) for invoice.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Invoice API from DealHub — 1 operation(s) for invoice.
   name: DealHub Invoice API
   slug: dealhub-invoice-api
-- description: The Jobs API from DealHub — 4 operation(s) for jobs.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Jobs API from DealHub — 4 operation(s) for jobs.
   name: DealHub Jobs API
   slug: dealhub-jobs-api
-- description: The MetricsReporting API from DealHub — 3 operation(s) for metricsreporting.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The MetricsReporting API from DealHub — 3 operation(s) for metricsreporting.
   name: DealHub Metrics Reporting API
   slug: dealhub-metricsreporting-api
-- description: The Notifications API from DealHub — 3 operation(s) for notifications.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Notifications API from DealHub — 3 operation(s) for notifications.
   name: DealHub Notifications API
   slug: dealhub-notifications-api
-- description: The Opportunity API from DealHub — 4 operation(s) for opportunity.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Opportunity API from DealHub — 4 operation(s) for opportunity.
   name: DealHub Opportunity API
   slug: dealhub-opportunity-api
-- description: The Order API from DealHub — 3 operation(s) for order.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Order API from DealHub — 3 operation(s) for order.
   name: DealHub Order API
   slug: dealhub-order-api
-- description: The Orders API from DealHub — 22 operation(s) for orders.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Orders API from DealHub — 22 operation(s) for orders.
   name: DealHub Orders API
   slug: dealhub-orders-api
-- description: Endpoints for integrating Partner Relationship Management (PRM) systems.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for integrating Partner Relationship Management (PRM) systems.
   name: DealHub Partner Integration API
   slug: dealhub-partner-integration-api
-- description: The Payments API from DealHub — 17 operation(s) for payments.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Payments API from DealHub — 17 operation(s) for payments.
   name: DealHub Payments API
   slug: dealhub-payments-api
-- description: The Platform Feature API from DealHub — 1 operation(s) for platform feature.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Platform Feature API from DealHub — 1 operation(s) for platform feature.
   name: DealHub Platform Feature API
   slug: dealhub-platform-feature-api
-- description: Endpoints for exporting Playbook configuration and data in JSON format, and for generating a Generate Quote API request template based on the Playbook structure.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for exporting Playbook configuration and data in JSON format, and for generating a Generate Quote API request template based on the Playbook structure.
   name: DealHub Playbook API
   slug: dealhub-playbook-api
-- description: The Prismatic API from DealHub — 6 operation(s) for prismatic.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Prismatic API from DealHub — 6 operation(s) for prismatic.
   name: DealHub Prismatic API
   slug: dealhub-prismatic-api
-- description: The Product Catalog API from DealHub — 29 operation(s) for product catalog.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Product Catalog API from DealHub — 29 operation(s) for product catalog.
   name: DealHub Product Catalog API
   slug: dealhub-product-catalog-api
-- description: The Product Hierarchy (Beta) API from DealHub — 1 operation(s) for product hierarchy (beta).
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Product Hierarchy (Beta) API from DealHub — 1 operation(s) for product hierarchy (beta).
   name: DealHub Product Hierarchy (Beta) API
   slug: dealhub-product-hierarchy-beta-api
-- description: The Product Provisioning API from DealHub — 1 operation(s) for product provisioning.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Product Provisioning API from DealHub — 1 operation(s) for product provisioning.
   name: DealHub Product Provisioning API
   slug: dealhub-product-provisioning-api
-- description: Endpoints for retrieving and managing quotes, opportunities, and related documents.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing quotes, opportunities, and related documents.
   name: DealHub Quote Management API
   slug: dealhub-quote-management-api
-- description: The RateCard API from DealHub — 5 operation(s) for ratecard.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The RateCard API from DealHub — 5 operation(s) for ratecard.
   name: DealHub Rate Card API
   slug: dealhub-ratecard-api
-- description: The Refunds API from DealHub — 2 operation(s) for refunds.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Refunds API from DealHub — 2 operation(s) for refunds.
   name: DealHub Refunds API
   slug: dealhub-refunds-api
-- description: The Reports API from DealHub — 4 operation(s) for reports.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Reports API from DealHub — 4 operation(s) for reports.
   name: DealHub Reports API
   slug: dealhub-reports-api
-- description: The Revenue Enablement API from DealHub — 8 operation(s) for revenue enablement.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Revenue Enablement API from DealHub — 8 operation(s) for revenue enablement.
   name: DealHub Revenue Enablement API
   slug: dealhub-revenue-enablement-api
-- description: The Revenue Recognition API from DealHub — 9 operation(s) for revenue recognition.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Revenue Recognition API from DealHub — 9 operation(s) for revenue recognition.
   name: DealHub Revenue Recognition API
   slug: dealhub-revenue-recognition-api
-- description: The Search API from DealHub — 1 operation(s) for search.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Search API from DealHub — 1 operation(s) for search.
   name: DealHub Search API
   slug: dealhub-search-api
-- description: The Settings API from DealHub — 22 operation(s) for settings.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Settings API from DealHub — 22 operation(s) for settings.
   name: DealHub Settings API
   slug: dealhub-settings-api
-- description: The Subscriptions API from DealHub — 20 operation(s) for subscriptions.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Subscriptions API from DealHub — 20 operation(s) for subscriptions.
   name: DealHub Subscriptions API
   slug: dealhub-subscriptions-api
-- description: The TemplateScript API from DealHub — 1 operation(s) for templatescript.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The TemplateScript API from DealHub — 1 operation(s) for templatescript.
   name: DealHub Template Script API
   slug: dealhub-templatescript-api
-- description: The Tenant API from DealHub — 1 operation(s) for tenant.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Tenant API from DealHub — 1 operation(s) for tenant.
   name: DealHub Tenant API
   slug: dealhub-tenant-api
-- description: The Usage API from DealHub — 11 operation(s) for usage.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Usage API from DealHub — 11 operation(s) for usage.
   name: DealHub Usage API
   slug: dealhub-usage-api
-- description: Endpoints for retrieving and managing user data.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for retrieving and managing user data.
   name: DealHub User Management API
   slug: dealhub-user-management-api
-- description: The Users API from DealHub — 10 operation(s) for users.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: The Users API from DealHub — 10 operation(s) for users.
   name: DealHub Users API
   slug: dealhub-users-api
-- description: Endpoints for retrieving, creating, and managing versions.
+- baseURL: https://api.dealhub.io
+  baseurl_source: declared
+  description: Endpoints for retrieving, creating, and managing versions.
   name: DealHub Version Management API
   slug: dealhub-version-management-api
 artifact_total: 82
@@ -461,7 +599,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -471,7 +609,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 47.2
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -482,7 +620,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 36 operations · 14 acting
 api_count: 1
 apis:
-- description: Billing profiles, invoices, and customer overrides.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Billing profiles, invoices, and customer overrides.
   name: OpenMeter Billing API
   slug: openmeter-billing-api
-- description: Customers used for entitlements, subscriptions, and billing.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Customers used for entitlements, subscriptions, and billing.
   name: OpenMeter Customers API
   slug: openmeter-customers-api
-- description: Metered, boolean, and static entitlements that gate access.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Metered, boolean, and static entitlements that gate access.
   name: OpenMeter Entitlements API
   slug: openmeter-entitlements-api
-- description: Ingest usage events as CloudEvents and list ingested events.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Ingest usage events as CloudEvents and list ingested events.
   name: OpenMeter Events API
   slug: openmeter-events-api
-- description: Features that entitlements are attached to.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Features that entitlements are attached to.
   name: OpenMeter Features API
   slug: openmeter-features-api
-- description: Usage grants that top up metered entitlement balances.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Usage grants that top up metered entitlement balances.
   name: OpenMeter Grants API
   slug: openmeter-grants-api
-- description: Define meters that aggregate events and query usage.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Define meters that aggregate events and query usage.
   name: OpenMeter Meters API
   slug: openmeter-meters-api
-- description: Notification channels, rules, and events for usage-driven alerts.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Notification channels, rules, and events for usage-driven alerts.
   name: OpenMeter Notifications API
   slug: openmeter-notifications-api
-- description: Product catalog plans for subscriptions.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Product catalog plans for subscriptions.
   name: OpenMeter Plans API
   slug: openmeter-plans-api
-- description: Subjects that usage is metered against.
+- baseURL: https://openmeter.cloud/api/v1
+  baseurl_source: declared
+  description: Subjects that usage is metered against.
   name: OpenMeter Subjects API
   slug: openmeter-subjects-api
 artifact_total: 29
@@ -209,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmeter/refs/heads/main/screenshots/openmeter-2026-08-07T190632.png
 security:

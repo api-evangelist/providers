@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 15
 apis:
-- description: 'The core Zype content API: videos, playlists, categories, subtitles and subtitle playlists, transcriptions and translations, AI metadata suggestions, segments, program guides, video imports and source'
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: 'The core Zype content API: videos, playlists, categories, subtitles and subtitle playlists, transcriptions and translations, AI metadata suggestions, segments, program guides, video imports and source'
   name: Zype Platform API
   slug: platform
-- description: 'Cloud playout for FAST and linear channels: channels, HLS/UDP/RTMP delivery profiles, destinations and connectors, draft and published schedule versions, revertible timeline operations, assets (blocks'
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: 'Cloud playout for FAST and linear channels: channels, HLS/UDP/RTMP delivery profiles, destinations and connectors, draft and published schedule versions, revertible timeline operations, assets (blocks'
   name: Zype Playout Scheduler API
   slug: playout-scheduler
-- description: Subscriptions with a reversible cancel/reactivate pair, plans and tiered plan-to-playlist binding, transactions carrying Stripe/Braintree/Recurly references, redemption codes with bulk minting and red
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Subscriptions with a reversible cancel/reactivate pair, plans and tiered plan-to-playlist binding, transactions carrying Stripe/Braintree/Recurly references, redemption codes with bulk minting and red
   name: Zype Monetization API
   slug: monetization
-- description: 'The end-viewer surface: consumer records, password reset flows, parental access codes, device pin linking, and video, playlist and subscription entitlements. 24 operations.'
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: 'The end-viewer surface: consumer records, password reset flows, parental access codes, device pin linking, and video, playlist and subscription entitlements. 24 operations.'
   name: Zype Consumers API
   slug: consumers
-- description: 'Live streaming V3: encoder lifecycle including start, stop and sync, and live events with start, stop and archive. 16 operations. Supersedes the legacy /live/encoders surface still carried in the Plat'
+- baseURL: https://api.zype.com
+  baseurl_source: declared
+  description: 'Live streaming V3: encoder lifecycle including start, stop and sync, and live events with start, stop and archive. 16 operations. Supersedes the legacy /live/encoders surface still carried in the Plat'
   name: Zype Live API (V3)
   slug: live-3
-- description: 'Zype''s custom-metadata model: Zobject Types define a schema (actor, director, team, season) and Zobjects are instances, attachable to videos and playlists in both directions. 16 operations.'
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: 'Zype''s custom-metadata model: Zobject Types define a schema (actor, director, team, season) and Zobjects are instances, attachable to videos and playlists in both directions. 16 operations.'
   name: Zype Zobjects API
   slug: zobjects
-- description: 'Current analytics surface across three families: engagement (plays, viewers, hours watched, view time), revenue (new subscriptions, subscription events, subscription revenue, new transactions) and pla'
+- baseURL: https://analytics.zype.com
+  baseurl_source: declared
+  description: 'Current analytics surface across three families: engagement (plays, viewers, hours watched, view time), revenue (new subscriptions, subscription events, subscription revenue, new transactions) and pla'
   name: Zype Analytics API (V3)
   slug: analytics-v3
-- description: 'Legacy V2 analytics surface — stream hours, player requests, engagement, site counts, consumers, subscriptions, subscription events, subscription revenue and transactions. 9 operations. Superseded by '
+- baseURL: https://analytics.zype.com
+  baseurl_source: declared
+  description: 'Legacy V2 analytics surface — stream hours, player requests, engagement, site counts, consumers, subscriptions, subscription events, subscription revenue and transactions. 9 operations. Superseded by '
   name: Zype Analytics API (V2)
   slug: analytics
-- description: Site-scoped custom regions and global content regions, the geographic building blocks used by content rules. 7 operations.
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Site-scoped custom regions and global content regions, the geographic building blocks used by content rules. 7 operations.
   name: Zype Custom Regions API
   slug: content-regions
-- description: Site-scoped and global content rule groups — reusable bundles of rules applied to content availability. 7 operations.
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Site-scoped and global content rule groups — reusable bundles of rules applied to content availability. 7 operations.
   name: Zype Content Rule Groups API
   slug: content-rule-groups
-- description: Content rule profiles plus the country/state/city lookups they are built from — geo-blocking and availability windows. 7 operations.
+- baseURL: https://api.zype.com/
+  baseurl_source: declared
+  description: Content rule profiles plus the country/state/city lookups they are built from — geo-blocking and availability windows. 7 operations.
   name: Zype Content Rule Profiles API
   slug: content-rules
-- description: 'TV Everywhere / MVPD authentication implemented against the Adobe Primetime device-session flow: register a device session, create a Zype consumer, validate a session token, retrieve preauthorized res'
+- baseURL: https://tve.zype.com/
+  baseurl_source: declared
+  description: 'TV Everywhere / MVPD authentication implemented against the Adobe Primetime device-session flow: register a device session, create a Zype consumer, validate a session token, retrieve preauthorized res'
   name: Zype TVE API
   slug: tve
-- description: 'Consumer-facing OAuth 2.0: retrieve an access token, read token status and revoke a token. 3 operations. login.zype.com serves its own RFC 8414 authorization server metadata document alongside the one'
+- baseURL: https://login.zype.com
+  baseurl_source: declared
+  description: 'Consumer-facing OAuth 2.0: retrieve an access token, read token status and revoke a token. 3 operations. login.zype.com serves its own RFC 8414 authorization server metadata document alongside the one'
   name: Zype Consumer Authentication API
   slug: login
-- description: Retrieves the embeddable player for a video in html, js or json form — the json form returns metadata plus the Widevine, FairPlay and PlayReady DRM objects and m3u8 references — and the playlist carou
+- baseURL: https://player.zype.com
+  baseurl_source: declared
+  description: Retrieves the embeddable player for a video in html, js or json form — the json form returns metadata plus the Widevine, FairPlay and PlayReady DRM objects and m3u8 references — and the playlist carou
   name: Zype Player API
   slug: player
-- description: Creates an upload for direct ingest of a source file into the Zype library. 1 operation.
+- baseURL: https://uploads.zype.com/
+  baseurl_source: declared
+  description: Creates an upload for direct ingest of a source file into the Zype library. 1 operation.
   name: Zype Uploads API
   slug: uploads
 artifact_total: 24
@@ -283,23 +313,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.0
+  composite: 58.8
   coverage:
     artifact_dirs: 23
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.6
+  delta: 0.8
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
-    contract_quality: 49.3
+    contract_quality: 52.7
     developer_ergonomics: 57.7
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 53.4
+  previous_composite: 58.0
   provenance:
     conformance: first-party
     contracts:
@@ -310,7 +340,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zype/refs/heads/main/screenshots/zype-2026-06-20T202013.png
 security:

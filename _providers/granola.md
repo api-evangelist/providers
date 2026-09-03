@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: Zapier integration for event-style automation connecting Granola to 8,000+ apps. Useful for webhook-like patterns until Granola ships native webhooks.
   name: Granola Zapier Integration
   slug: zapier
-- description: The Notes API from Granola — 2 operation(s) for notes.
+- baseURL: https://www.granola.ai
+  baseurl_source: declared
+  description: The Notes API from Granola — 2 operation(s) for notes.
   name: Granola Notes API
   slug: granola-notes-api
 artifact_total: 15
@@ -172,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/granola/refs/heads/main/screenshots/granola-2026-06-20T182324.png
 security:

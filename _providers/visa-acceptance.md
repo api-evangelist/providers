@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 9 acting
 api_count: 1
 apis:
-- description: Capture previously authorized payments
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Capture previously authorized payments
   name: Visa Acceptance Captures API
   slug: visa-acceptance-captures-api
-- description: Create and manage invoices for payment collection
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Create and manage invoices for payment collection
   name: Visa Acceptance Invoices API
   slug: visa-acceptance-invoices-api
-- description: Generate and manage payment links
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Generate and manage payment links
   name: Visa Acceptance Pay by Link API
   slug: visa-acceptance-pay-by-link-api
-- description: Payment authorization, capture, sale, and reversal
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Payment authorization, capture, sale, and reversal
   name: Visa Acceptance Payments API
   slug: visa-acceptance-payments-api
-- description: Refund and credit operations
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Refund and credit operations
   name: Visa Acceptance Refunds API
   slug: visa-acceptance-refunds-api
-- description: Void authorized, captured, or credited transactions
+- baseURL: https://api.visaacceptance.com
+  baseurl_source: spec
+  description: Void authorized, captured, or credited transactions
   name: Visa Acceptance Voids API
   slug: visa-acceptance-voids-api
 artifact_total: 30
@@ -261,7 +273,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/screenshots/visa-acceptance-2026-06-20T201047.png
 security:

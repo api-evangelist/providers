@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -53,37 +53,59 @@ apis:
 - description: 'The Utility Cloud API provides enterprise-grade access to Arcadia''s full energy data warehouse, enabling clients to extract structured data on business entities at scale. It supports integration with '
   name: Arcadia Utility Cloud API
   slug: arcadia-utility-cloud-api
-- description: The Auth API from Arcadia — 4 operation(s) for auth.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Auth API from Arcadia — 4 operation(s) for auth.
   name: Arcadia Auth API
   slug: arcadia-auth-api
-- description: The Bundle (Beta) API from Arcadia — 8 operation(s) for bundle (beta).
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Bundle (Beta) API from Arcadia — 8 operation(s) for bundle (beta).
   name: Arcadia Bundle (Beta) API
   slug: arcadia-bundle-beta-api
-- description: The Plug API from Arcadia — 5 operation(s) for plug.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Plug API from Arcadia — 5 operation(s) for plug.
   name: Arcadia Plug API
   slug: arcadia-plug-api
-- description: The Spark API from Arcadia — 8 operation(s) for spark.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Spark API from Arcadia — 8 operation(s) for spark.
   name: Arcadia Spark API
   slug: arcadia-spark-api
-- description: The Users API from Arcadia — 2 operation(s) for users.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Users API from Arcadia — 2 operation(s) for users.
   name: Arcadia Users API
   slug: arcadia-users-api
-- description: The Utility Accounts API from Arcadia — 2 operation(s) for utility accounts.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Utility Accounts API from Arcadia — 2 operation(s) for utility accounts.
   name: Arcadia Utility Accounts API
   slug: arcadia-utility-accounts-api
-- description: The Utility Credentials API from Arcadia — 3 operation(s) for utility credentials.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Utility Credentials API from Arcadia — 3 operation(s) for utility credentials.
   name: Arcadia Utility Credentials API
   slug: arcadia-utility-credentials-api
-- description: The Utility Meters (Beta) API from Arcadia — 2 operation(s) for utility meters (beta).
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Utility Meters (Beta) API from Arcadia — 2 operation(s) for utility meters (beta).
   name: Arcadia Utility Meters (Beta) API
   slug: arcadia-utility-meters-beta-api
-- description: The Webhooks API from Arcadia — 8 operation(s) for webhooks.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Webhooks API from Arcadia — 8 operation(s) for webhooks.
   name: Arcadia Webhooks API
   slug: arcadia-webhooks-api
-- description: The Bundle Webhook Events API from Arcadia — 0 operation(s) for bundle webhook events.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Bundle Webhook Events API from Arcadia — 0 operation(s) for bundle webhook events.
   name: Arcadia Bundle Webhook Events API
   slug: arcadia-bundle-webhook-events-api
-- description: The Webhook Events API from Arcadia — 0 operation(s) for webhook events.
+- baseURL: https://api.arcadia.com
+  baseurl_source: declared
+  description: The Webhook Events API from Arcadia — 0 operation(s) for webhook events.
   name: Arcadia Webhook Events API
   slug: arcadia-webhook-events-api
 artifact_total: 60
@@ -340,7 +362,7 @@ score:
     regime_id: energy_utilities
     score: 37.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/screenshots/arcadia-2026-06-20T172358.png
 security:

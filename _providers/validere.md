@@ -33,172 +33,282 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Activity Log
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Activity Log
   name: Validere activities API
   slug: validere-activities-api
-- description: Asset Groups
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Asset Groups
   name: Validere asset_groups API
   slug: validere-asset-groups-api
-- description: Assets
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Assets
   name: Validere assets API
   slug: validere-assets-api
-- description: Calculator Results
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Calculator Results
   name: Validere calculator_results API
   slug: validere-calculator-results-api
-- description: Charts
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Charts
   name: Validere charts API
   slug: validere-charts-api
-- description: Comments
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Comments
   name: Validere comments API
   slug: validere-comments-api
-- description: Company
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Company
   name: Validere company API
   slug: validere-company-api
-- description: Company <> Equipment Type Groups
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Company <> Equipment Type Groups
   name: Validere company_equipment_type_groups API
   slug: validere-company-equipment-type-groups-api
-- description: Company Feature Flags
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Company Feature Flags
   name: Validere company_feature_flags API
   slug: validere-company-feature-flags-api
-- description: Company Unit Configuration
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Company Unit Configuration
   name: Validere company_unit_config API
   slug: validere-company-unit-config-api
-- description: Credit Owners
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Credit Owners
   name: Validere credit_owner API
   slug: validere-credit-owner-api
-- description: Manage Custom Attribute Definitions
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Custom Attribute Definitions
   name: Validere custom_attribute_definition API
   slug: validere-custom-attribute-definition-api
-- description: Dashboards
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Dashboards
   name: Validere dashboards API
   slug: validere-dashboards-api
-- description: The data API from Validere — 2 operation(s) for data.
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: The data API from Validere — 2 operation(s) for data.
   name: Validere data API
   slug: validere-data-api
-- description: Default Record Value Configurations
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Default Record Value Configurations
   name: Validere default_record_value_configuration API
   slug: validere-default-record-value-configuration-api
-- description: Manage Device Types
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Device Types
   name: Validere device_types API
   slug: validere-device-types-api
-- description: Manage Devices
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Devices
   name: Validere devices API
   slug: validere-devices-api
-- description: Emission Calculator
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Emission Calculator
   name: Validere emissions_calculator API
   slug: validere-emissions-calculator-api
-- description: Manage Equipment
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Equipment
   name: Validere equipment API
   slug: validere-equipment-api
-- description: Manage Equipment Types
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Equipment Types
   name: Validere equipment_types API
   slug: validere-equipment-types-api
-- description: Estimation Methods
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Estimation Methods
   name: Validere estimation_methods API
   slug: validere-estimation-methods-api
-- description: Estimation Methods Default Records
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Estimation Methods Default Records
   name: Validere estimation_methods_default_records API
   slug: validere-estimation-methods-default-records-api
-- description: Event Categories
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Event Categories
   name: Validere event_categories API
   slug: validere-event-categories-api
-- description: Event Schemas
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Event Schemas
   name: Validere event_schemas API
   slug: validere-event-schemas-api
-- description: Emission Events
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Emission Events
   name: Validere events API
   slug: validere-events-api
-- description: Manage Facilities
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Facilities
   name: Validere facilities API
   slug: validere-facilities-api
-- description: Feature Flags
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Feature Flags
   name: Validere feature_flags API
   slug: validere-feature-flags-api
-- description: Manage Flows
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Flows
   name: Validere flows API
   slug: validere-flows-api
-- description: Form Categories
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Form Categories
   name: Validere form_categories API
   slug: validere-form-categories-api
-- description: Form Schemas
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Form Schemas
   name: Validere form_schemas API
   slug: validere-form-schemas-api
-- description: Form Submissions
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Form Submissions
   name: Validere form_submissions API
   slug: validere-form-submissions-api
-- description: Manage Group Categories
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Group Categories
   name: Validere group_categories API
   slug: validere-group-categories-api
-- description: Bulk Job status
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Bulk Job status
   name: Validere job API
   slug: validere-job-api
-- description: Ledger
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Ledger
   name: Validere ledger API
   slug: validere-ledger-api
-- description: Manage Measurement series
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Measurement series
   name: Validere measurement_series API
   slug: validere-measurement-series-api
-- description: Manage Measurement Types
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Measurement Types
   name: Validere measurement_types API
   slug: validere-measurement-types-api
-- description: Manage Measurements
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Measurements
   name: Validere measurements API
   slug: validere-measurements-api
-- description: Manage Networks
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Networks
   name: Validere networks API
   slug: validere-networks-api
-- description: Permission
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Permission
   name: Validere permissions API
   slug: validere-permissions-api
-- description: Project Groups
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Project Groups
   name: Validere project_group API
   slug: validere-project-group-api
-- description: Manage Records
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage Records
   name: Validere records API
   slug: validere-records-api
-- description: Reporting Groups
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Reporting Groups
   name: Validere reporting_groups API
   slug: validere-reporting-groups-api
-- description: Reports
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Reports
   name: Validere reports API
   slug: validere-reports-api
-- description: Roles
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Roles
   name: Validere roles API
   slug: validere-roles-api
-- description: Templated Configurations
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Templated Configurations
   name: Validere templated_configurations API
   slug: validere-templated-configurations-api
-- description: The transactions API from Validere — 7 operation(s) for transactions.
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: The transactions API from Validere — 7 operation(s) for transactions.
   name: Validere transactions API
   slug: validere-transactions-api
-- description: Types used across the APIs
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Types used across the APIs
   name: Validere type_metadata API
   slug: validere-type-metadata-api
-- description: The TypeMetadata API from Validere — 4 operation(s) for typemetadata.
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: The TypeMetadata API from Validere — 4 operation(s) for typemetadata.
   name: Validere TypeMetadata API
   slug: validere-typemetadata-api
-- description: Manage User Groups
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Manage User Groups
   name: Validere user_groups API
   slug: validere-user-groups-api
-- description: User Unit Configuration
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: User Unit Configuration
   name: Validere user_unit_config API
   slug: validere-user-unit-config-api
-- description: User
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: User
   name: Validere users API
   slug: validere-users-api
-- description: Workflow Categories
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Workflow Categories
   name: Validere workflow_categories API
   slug: validere-workflow-categories-api
-- description: Workflow Tasks
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Workflow Tasks
   name: Validere workflow_tasks API
   slug: validere-workflow-tasks-api
-- description: Workflow Templates
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Workflow Templates
   name: Validere workflow_templates API
   slug: validere-workflow-templates-api
-- description: Workflow
+- baseURL: https://api.validere.io/app
+  baseurl_source: declared
+  description: Workflow
   name: Validere workflows API
   slug: validere-workflows-api
 artifact_total: 115
@@ -524,7 +634,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validere/refs/heads/main/screenshots/validere-2026-08-17T082707.png
 security:

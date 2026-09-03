@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: Access and manipulate Visio files stored in OneDrive and SharePoint through Microsoft Graph. While direct Visio-specific REST endpoints are limited, Microsoft Graph provides file management capabiliti
   name: Microsoft Graph Visio API
   slug: microsoft-graph-visio-api
-- description: Operations for controlling the Visio application host settings
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for controlling the Visio application host settings
   name: Microsoft Visio API Application API
   slug: visio-application-api
-- description: Operations for reading and managing shape comments
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for reading and managing shape comments
   name: Microsoft Visio API Comments API
   slug: visio-comments-api
-- description: Operations for accessing and managing Visio document properties and views
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for accessing and managing Visio document properties and views
   name: Microsoft Visio API Documents API
   slug: visio-documents-api
-- description: Operations for accessing hyperlinks attached to shapes
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for accessing hyperlinks attached to shapes
   name: Microsoft Visio API Hyperlinks API
   slug: visio-hyperlinks-api
-- description: Operations for listing and managing pages within a Visio document
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for listing and managing pages within a Visio document
   name: Microsoft Visio API Pages API
   slug: visio-pages-api
-- description: Operations for reading structured data associated with shapes
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for reading structured data associated with shapes
   name: Microsoft Visio API Shape Data API
   slug: visio-shape-data-api
-- description: Operations for accessing and managing shapes on a Visio page
+- baseURL: https://appsforoffice.microsoft.com/embedded/1.0
+  baseurl_source: declared
+  description: Operations for accessing and managing shapes on a Visio page
   name: Microsoft Visio API Shapes API
   slug: visio-shapes-api
 artifact_total: 39
@@ -295,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/screenshots/visio-2026-06-20T201052.png
 security:

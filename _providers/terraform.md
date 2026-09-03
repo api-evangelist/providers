@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 48 operations · 23 acting
 api_count: 2
 apis:
-- description: Browse and search Terraform modules in the public registry
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Browse and search Terraform modules in the public registry
   name: Terraform Modules API
   slug: terraform-modules-api
-- description: Manage HCP Terraform organizations
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage HCP Terraform organizations
   name: Terraform Organizations API
   slug: terraform-organizations-api
-- description: Manage Sentinel and OPA policies
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage Sentinel and OPA policies
   name: Terraform Policies API
   slug: terraform-policies-api
-- description: Manage projects within organizations
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage projects within organizations
   name: Terraform Projects API
   slug: terraform-projects-api
-- description: Manage Terraform runs and plan/apply lifecycle
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage Terraform runs and plan/apply lifecycle
   name: Terraform Runs API
   slug: terraform-runs-api
-- description: Manage workspace state versions
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage workspace state versions
   name: Terraform State Versions API
   slug: terraform-state-versions-api
-- description: Manage teams and memberships
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage teams and memberships
   name: Terraform Teams API
   slug: terraform-teams-api
-- description: Manage workspace and variable sets
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage workspace and variable sets
   name: Terraform Variables API
   slug: terraform-variables-api
-- description: Manage infrastructure workspaces
+- baseURL: https://app.terraform.io/api/v2
+  baseurl_source: declared
+  description: Manage infrastructure workspaces
   name: Terraform Workspaces API
   slug: terraform-workspaces-api
 arazzos:
@@ -420,7 +438,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

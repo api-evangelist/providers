@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Market order creation and execution
+- baseURL: https://router-gateway-v3-production.up.railway.app
+  baseurl_source: declared
+  description: Market order creation and execution
   name: Rift Orders API
   slug: rift-orders-api
-- description: Best-price quoting across routing venues
+- baseURL: https://router-gateway-v3-production.up.railway.app
+  baseurl_source: declared
+  description: Best-price quoting across routing venues
   name: Rift Quotes API
   slug: rift-quotes-api
-- description: Service and execution-provider health
+- baseURL: https://router-gateway-v3-production.up.railway.app
+  baseurl_source: declared
+  description: Service and execution-provider health
   name: Rift Status API
   slug: rift-status-api
 artifact_total: 10
@@ -157,7 +163,7 @@ score:
   band: thin
   composite: 30.3
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -188,8 +194,9 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/rift/refs/heads/main/screenshots/rift-2026-09-02T153815.png
 security:
 - kind: authentication
   name: Rift Authentication

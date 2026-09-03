@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The Androidpublisher API from Google Play Developer — 4 operation(s) for androidpublisher.
+- baseURL: https://androidpublisher.googleapis.com
+  baseurl_source: declared
+  description: The Androidpublisher API from Google Play Developer — 4 operation(s) for androidpublisher.
   name: Google Play Developer Androidpublisher API
   slug: google-play-androidpublisher-api
 artifact_total: 13
@@ -170,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/screenshots/google-play-2026-06-20T182225.png
 security:

@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: OAuth access keys are created in Merchant Dashboard and can be exchanged for bearer tokens. Use the `/access-keys/token` endpoint to mint a bearer token from a valid `client_id` and `client_secret`.
   name: Resolve Access Keys API
   slug: resolve-access-keys-api
-- description: A charge represents an agreement by the customer to accept credit terms for a transaction. It consists of a charge amount, term length (i.e. 30, 60, 90), and reference to the merchant's original order
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: A charge represents an agreement by the customer to accept credit terms for a transaction. It consists of a charge amount, term length (i.e. 30, 60, 90), and reference to the merchant's original order
   name: Resolve Charges API
   slug: resolve-charges-api
-- description: Credit Notes are issued to customers to reduce the amount they owe.
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: Credit Notes are issued to customers to reduce the amount they owe.
   name: Resolve Credit Notes API
   slug: resolve-credit-notes-api
-- description: A customer represents a company that you do business with. For larger companies, there may be several users with access to the customer account that can make purchases with their credit line. For smal
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: A customer represents a company that you do business with. For larger companies, there may be several users with access to the customer account that can make purchases with their credit line. For smal
   name: Resolve Customers API
   slug: resolve-customers-api
-- description: 'The invoice represents the business transaction between you and your customer. In Resolve, an invoice must be tied to a customer and an advance can be taken on the invoice. For an advance to be taken '
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: 'The invoice represents the business transaction between you and your customer. In Resolve, an invoice must be tied to a customer and an advance can be taken on the invoice. For an advance to be taken '
   name: Resolve Invoices API
   slug: resolve-invoices-api
-- description: Merchant-scoped operations for managing sub-merchant resources. The merchant document upload endpoint creates a document record and starts transfer into Resolve-managed storage for validation.
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: Merchant-scoped operations for managing sub-merchant resources. The merchant document upload endpoint creates a document record and starts transfer into Resolve-managed storage for validation.
   name: Resolve Merchants API
   slug: resolve-merchants-api
-- description: An order represents an authorization of credit for a customer transaction. Once authorized, an order can be partially or fully captured as goods or services are fulfilled, or canceled if the transacti
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: An order represents an authorization of credit for a customer transaction. Once authorized, an order can be partially or fully captured as goods or services are fulfilled, or canceled if the transacti
   name: Resolve Orders API
   slug: resolve-orders-api
-- description: A payment represents a transaction where a customer pays towards their invoices. When a payment is made to Resolve, the customer's available credit balance is increased by the amount of the payment. P
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: A payment represents a transaction where a customer pays towards their invoices. When a payment is made to Resolve, the customer's available credit balance is increased by the amount of the payment. P
   name: Resolve Payments API
   slug: resolve-payments-api
-- description: Payout Transactions are the individual transactions like customer payments, Resolve advances, forwarded payments, etc. that are rolled into a Payout. Each Payout is the sum of one or more transactions
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: Payout Transactions are the individual transactions like customer payments, Resolve advances, forwarded payments, etc. that are rolled into a Payout. Each Payout is the sum of one or more transactions
   name: Resolve Payout Transactions API
   slug: resolve-payout-transactions-api
-- description: A Payout is a transfer of money between the Merchant and Resolve.
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: A Payout is a transfer of money between the Merchant and Resolve.
   name: Resolve Payouts API
   slug: resolve-payouts-api
-- description: A shipment represents the fulfillment of goods or services for an invoice. Track shipments to monitor delivery status and fulfillment progress. Shipments can be fulfilled through various methods inclu
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: A shipment represents the fulfillment of goods or services for an invoice. Track shipments to monitor delivery status and fulfillment progress. Shipments can be fulfilled through various methods inclu
   name: Resolve Shipments API
   slug: resolve-shipments-api
-- description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
+- baseURL: https://app.resolvepay.com/api
+  baseurl_source: declared
+  description: Webhooks allow you to receive real-time notifications about events in your Resolve account. When an event occurs, Resolve sends an HTTP POST request to your configured webhook endpoint with details ab
   name: Resolve Webhooks API
   slug: resolve-webhooks-api
 artifact_total: 43
@@ -331,7 +355,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -341,7 +365,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 56.1
+  previous_composite: 55.9
   provenance:
     conformance: derived
     contracts:
@@ -358,7 +382,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resolve/refs/heads/main/screenshots/resolve-2026-08-17T081532.png
 security:

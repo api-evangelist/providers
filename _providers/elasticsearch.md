@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,19 +45,29 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 1
 apis:
-- description: The Cat API from Elasticsearch — 3 operation(s) for cat.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Cat API from Elasticsearch — 3 operation(s) for cat.
   name: Elasticsearch Cat API
   slug: elasticsearch-cat-api
-- description: The Cluster API from Elasticsearch — 3 operation(s) for cluster.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Cluster API from Elasticsearch — 3 operation(s) for cluster.
   name: Elasticsearch Cluster API
   slug: elasticsearch-cluster-api
-- description: The Document API from Elasticsearch — 3 operation(s) for document.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Document API from Elasticsearch — 3 operation(s) for document.
   name: Elasticsearch Document API
   slug: elasticsearch-document-api
-- description: The Index API from Elasticsearch — 1 operation(s) for index.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Index API from Elasticsearch — 1 operation(s) for index.
   name: Elasticsearch Index API
   slug: elasticsearch-index-api
-- description: The Search API from Elasticsearch — 1 operation(s) for search.
+- baseURL: https://localhost:9200
+  baseurl_source: declared
+  description: The Search API from Elasticsearch — 1 operation(s) for search.
   name: Elasticsearch Search API
   slug: elasticsearch-search-api
 arazzos:
@@ -331,7 +341,7 @@ score:
       total: 5
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

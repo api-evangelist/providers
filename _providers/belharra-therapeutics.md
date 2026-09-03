@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,31 +34,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Belharra's three custom post types — press-release (4 items), company-news (21 items) and multimedia-file (10 items).
   name: Belharra Therapeutics Custom Types API
   slug: belharra-therapeutics-custom-types-api
-- description: Route, type, taxonomy, status and author discovery documents.
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy, status and author discovery documents.
   name: Belharra Therapeutics Discovery API
   slug: belharra-therapeutics-discovery-api
-- description: Media library (430 attachments at harvest time).
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Media library (430 attachments at harvest time).
   name: Belharra Therapeutics Media API
   slug: belharra-therapeutics-media-api
-- description: oEmbed 1.0 provider endpoint for belharratx.com URLs.
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for belharratx.com URLs.
   name: Belharra Therapeutics Oembed API
   slug: belharra-therapeutics-oembed-api
-- description: Corporate pages (29 published at harvest time).
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages (29 published at harvest time).
   name: Belharra Therapeutics Pages API
   slug: belharra-therapeutics-pages-api
-- description: Blog/news archive (10 published at harvest time), categorised as Company News or Press Releases.
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Blog/news archive (10 published at harvest time), categorised as Company News or Press Releases.
   name: Belharra Therapeutics Posts API
   slug: belharra-therapeutics-posts-api
-- description: Cross-content search across published objects (74 searchable records at harvest time).
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects (74 searchable records at harvest time).
   name: Belharra Therapeutics Search API
   slug: belharra-therapeutics-search-api
-- description: Categories and tags. Two categories are registered (Company News, Press Releases); the post_tag taxonomy is registered but empty.
+- baseURL: https://belharratx.com/wp-json
+  baseurl_source: declared
+  description: Categories and tags. Two categories are registered (Company News, Press Releases); the post_tag taxonomy is registered but empty.
   name: Belharra Therapeutics Taxonomy API
   slug: belharra-therapeutics-taxonomy-api
 artifact_total: 19
@@ -248,7 +275,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belharra-therapeutics/refs/heads/main/screenshots/belharra-therapeutics-2026-08-07T162258.png
 security:

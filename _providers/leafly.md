@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Order (Reservations) API that lets any cannabis POS provider integrate Leafly online orders into its own system, taking ownership of the order integration rather than relying on a bespoke Leafly-built
   name: Leafly Order API
   slug: leafly-order-api
-- description: The Menu API from Leafly — 2 operation(s) for menu.
+- baseURL: https://api.leafly.com/v2/menu_integration
+  baseurl_source: declared
+  description: The Menu API from Leafly — 2 operation(s) for menu.
   name: Leafly Menu API
   slug: leafly-menu-api
-- description: The Status API from Leafly — 1 operation(s) for status.
+- baseURL: https://api.leafly.com/v2/menu_integration
+  baseurl_source: declared
+  description: The Status API from Leafly — 1 operation(s) for status.
   name: Leafly Status API
   slug: leafly-status-api
 artifact_total: 13
@@ -178,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/screenshots/leafly-2026-07-25T224732.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -44,106 +44,174 @@ agentic_access:
   summary_line: 457 operations · 255 acting · 14 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Aiven — 23 operation(s) for account.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Account API from Aiven — 23 operation(s) for account.
   name: Aiven Account API
   slug: aiven-account-api
-- description: The Application_Users API from Aiven — 4 operation(s) for application_users.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Application_Users API from Aiven — 4 operation(s) for application_users.
   name: Aiven Application_Users API
   slug: aiven-application-users-api
-- description: The Authentication_Methods API from Aiven — 2 operation(s) for authentication_methods.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Authentication_Methods API from Aiven — 2 operation(s) for authentication_methods.
   name: Aiven Authentication_Methods API
   slug: aiven-authentication-methods-api
-- description: The Billing API from Aiven — 4 operation(s) for billing.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Billing API from Aiven — 4 operation(s) for billing.
   name: Aiven Billing API
   slug: aiven-billing-api
-- description: The BillingGroup API from Aiven — 12 operation(s) for billinggroup.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The BillingGroup API from Aiven — 12 operation(s) for billinggroup.
   name: Aiven BillingGroup API
   slug: aiven-billinggroup-api
-- description: The Cloud_platforms API from Aiven — 4 operation(s) for cloud_platforms.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Cloud_platforms API from Aiven — 4 operation(s) for cloud_platforms.
   name: Aiven Cloud_platforms API
   slug: aiven-cloud-platforms-api
-- description: The Custom_Cloud API from Aiven — 4 operation(s) for custom_cloud.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Custom_Cloud API from Aiven — 4 operation(s) for custom_cloud.
   name: Aiven Custom_Cloud API
   slug: aiven-custom-cloud-api
-- description: The Domains API from Aiven — 3 operation(s) for domains.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Domains API from Aiven — 3 operation(s) for domains.
   name: Aiven Domains API
   slug: aiven-domains-api
-- description: The Groups API from Aiven — 3 operation(s) for groups.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Groups API from Aiven — 3 operation(s) for groups.
   name: Aiven Groups API
   slug: aiven-groups-api
-- description: The Organization_Vpc API from Aiven — 9 operation(s) for organization_vpc.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Organization_Vpc API from Aiven — 9 operation(s) for organization_vpc.
   name: Aiven Organization_Vpc API
   slug: aiven-organization-vpc-api
-- description: The OrganizationBillingGroup API from Aiven — 10 operation(s) for organizationbillinggroup.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The OrganizationBillingGroup API from Aiven — 10 operation(s) for organizationbillinggroup.
   name: Aiven OrganizationBillingGroup API
   slug: aiven-organizationbillinggroup-api
-- description: The OrganizationEmissions API from Aiven — 1 operation(s) for organizationemissions.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The OrganizationEmissions API from Aiven — 1 operation(s) for organizationemissions.
   name: Aiven OrganizationEmissions API
   slug: aiven-organizationemissions-api
-- description: The OrganizationPaymentMethod API from Aiven — 7 operation(s) for organizationpaymentmethod.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The OrganizationPaymentMethod API from Aiven — 7 operation(s) for organizationpaymentmethod.
   name: Aiven OrganizationPaymentMethod API
   slug: aiven-organizationpaymentmethod-api
-- description: The Organizations API from Aiven — 12 operation(s) for organizations.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Organizations API from Aiven — 12 operation(s) for organizations.
   name: Aiven Organizations API
   slug: aiven-organizations-api
-- description: The Payment API from Aiven — 2 operation(s) for payment.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Payment API from Aiven — 2 operation(s) for payment.
   name: Aiven Payment API
   slug: aiven-payment-api
-- description: The Permissions API from Aiven — 1 operation(s) for permissions.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Permissions API from Aiven — 1 operation(s) for permissions.
   name: Aiven Permissions API
   slug: aiven-permissions-api
-- description: The Project API from Aiven — 27 operation(s) for project.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Project API from Aiven — 27 operation(s) for project.
   name: Aiven Project API
   slug: aiven-project-api
-- description: The Project_Billing API from Aiven — 3 operation(s) for project_billing.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Project_Billing API from Aiven — 3 operation(s) for project_billing.
   name: Aiven Project_Billing API
   slug: aiven-project-billing-api
-- description: The Project_Key_Management API from Aiven — 1 operation(s) for project_key_management.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Project_Key_Management API from Aiven — 1 operation(s) for project_key_management.
   name: Aiven Project_Key_Management API
   slug: aiven-project-key-management-api
-- description: The Secrets API from Aiven — 5 operation(s) for secrets.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Secrets API from Aiven — 5 operation(s) for secrets.
   name: Aiven Secrets API
   slug: aiven-secrets-api
-- description: The Service API from Aiven — 34 operation(s) for service.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service API from Aiven — 34 operation(s) for service.
   name: Aiven Service API
   slug: aiven-service-api
-- description: The Service:_ClickHouse API from Aiven — 8 operation(s) for service:_clickhouse.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_ClickHouse API from Aiven — 8 operation(s) for service:_clickhouse.
   name: Aiven Service:_ClickHouse API
   slug: aiven-service-clickhouse-api
-- description: The Service:_Flink API from Aiven — 20 operation(s) for service:_flink.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_Flink API from Aiven — 20 operation(s) for service:_flink.
   name: Aiven Service:_Flink API
   slug: aiven-service-flink-api
-- description: The Service_Integrations API from Aiven — 7 operation(s) for service_integrations.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service_Integrations API from Aiven — 7 operation(s) for service_integrations.
   name: Aiven Service_Integrations API
   slug: aiven-service-integrations-api
-- description: The Service:_Kafka API from Aiven — 34 operation(s) for service:_kafka.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_Kafka API from Aiven — 34 operation(s) for service:_kafka.
   name: Aiven Service:_Kafka API
   slug: aiven-service-kafka-api
-- description: The Service:_Kafka_MirrorMaker API from Aiven — 2 operation(s) for service:_kafka_mirrormaker.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_Kafka_MirrorMaker API from Aiven — 2 operation(s) for service:_kafka_mirrormaker.
   name: Aiven Service:_Kafka_MirrorMaker API
   slug: aiven-service-kafka-mirrormaker-api
-- description: The Service:_MySQL API from Aiven — 5 operation(s) for service:_mysql.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_MySQL API from Aiven — 5 operation(s) for service:_mysql.
   name: Aiven Service:_MySQL API
   slug: aiven-service-mysql-api
-- description: The Service:_OpenSearch API from Aiven — 19 operation(s) for service:_opensearch.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_OpenSearch API from Aiven — 19 operation(s) for service:_opensearch.
   name: Aiven Service:_OpenSearch API
   slug: aiven-service-opensearch-api
-- description: The Service:_PostgreSQL API from Aiven — 9 operation(s) for service:_postgresql.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_PostgreSQL API from Aiven — 9 operation(s) for service:_postgresql.
   name: Aiven Service:_PostgreSQL API
   slug: aiven-service-postgresql-api
-- description: The Service:_Thanos API from Aiven — 1 operation(s) for service:_thanos.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Service:_Thanos API from Aiven — 1 operation(s) for service:_thanos.
   name: Aiven Service:_Thanos API
   slug: aiven-service-thanos-api
-- description: The StaticIP API from Aiven — 4 operation(s) for staticip.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The StaticIP API from Aiven — 4 operation(s) for staticip.
   name: Aiven StaticIP API
   slug: aiven-staticip-api
-- description: The Ticket_[deprecated] API from Aiven — 3 operation(s) for ticket_[deprecated].
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Ticket_[deprecated] API from Aiven — 3 operation(s) for ticket_[deprecated].
   name: Aiven Ticket_[deprecated] API
   slug: aiven-ticket-deprecated-api
-- description: The Upgrade_pipeline API from Aiven — 3 operation(s) for upgrade_pipeline.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Upgrade_pipeline API from Aiven — 3 operation(s) for upgrade_pipeline.
   name: Aiven Upgrade_pipeline API
   slug: aiven-upgrade-pipeline-api
-- description: The Users API from Aiven — 31 operation(s) for users.
+- baseURL: https://api.aiven.io/v1
+  baseurl_source: declared
+  description: The Users API from Aiven — 31 operation(s) for users.
   name: Aiven Users API
   slug: aiven-users-api
 artifact_total: 92
@@ -456,7 +524,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:

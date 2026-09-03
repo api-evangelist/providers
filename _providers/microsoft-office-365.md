@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -68,16 +68,24 @@ apis:
 - description: Platform for building solutions that extend Office applications including Excel, Outlook, Word, PowerPoint, and OneNote using web technologies and the Office JavaScript API.
   name: Office Add-ins Platform
   slug: office-add-ins-platform
-- description: Access and manage Outlook calendar events, calendars, and calendar groups. Supports scheduling, meeting management, and free/busy lookups.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access and manage Outlook calendar events, calendars, and calendar groups. Supports scheduling, meeting management, and free/busy lookups.
   name: Microsoft Office 365 Calendar API
   slug: microsoft-office-365-calendar-api
-- description: Manage Microsoft 365 groups and security groups. Groups provide shared access to resources such as SharePoint sites, shared mailboxes, Planner plans, OneNote notebooks, and conversations.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage Microsoft 365 groups and security groups. Groups provide shared access to resources such as SharePoint sites, shared mailboxes, Planner plans, OneNote notebooks, and conversations.
   name: Microsoft Office 365 Groups API
   slug: microsoft-office-365-groups-api
-- description: Access and manage Outlook mail messages, mail folders, and message attachments. Supports reading, creating, sending, replying, forwarding, and organizing email.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Access and manage Outlook mail messages, mail folders, and message attachments. Supports reading, creating, sending, replying, forwarding, and organizing email.
   name: Microsoft Office 365 Mail API
   slug: microsoft-office-365-mail-api
-- description: Manage users in Azure Active Directory. Users are the core identity resource representing a person, including their profile, organizational relationships, and access to services.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: Manage users in Azure Active Directory. Users are the core identity resource representing a person, including their profile, organizational relationships, and access to services.
   name: Microsoft Office 365 Users API
   slug: microsoft-office-365-users-api
 arazzos:
@@ -1021,7 +1029,7 @@ score:
     catalog_gap: 62.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -1031,7 +1039,7 @@ score:
     discoverability: 53.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 56.4
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1040,7 +1048,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:

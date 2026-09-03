@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 68 operations · 44 acting
 api_count: 1
 apis:
-- description: Customer accounts.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Customer accounts.
   name: Pylon Accounts API
   slug: pylon-accounts-api
-- description: Individual contacts (end customers).
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Individual contacts (end customers).
   name: Pylon Contacts API
   slug: pylon-contacts-api
-- description: Custom field definitions.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Custom field definitions.
   name: Pylon Custom Fields API
   slug: pylon-custom-fields-api
-- description: Support issues (tickets).
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Support issues (tickets).
   name: Pylon Issues API
   slug: pylon-issues-api
-- description: Knowledge bases, collections, and articles.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Knowledge bases, collections, and articles.
   name: Pylon Knowledge Base API
   slug: pylon-knowledge-base-api
-- description: Tags used across issues, accounts, and contacts.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Tags used across issues, accounts, and contacts.
   name: Pylon Tags API
   slug: pylon-tags-api
-- description: Tasks, projects, and milestones.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Tasks, projects, and milestones.
   name: Pylon Tasks API
   slug: pylon-tasks-api
-- description: Support teams.
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Support teams.
   name: Pylon Teams API
   slug: pylon-teams-api
-- description: Internal Pylon users (agents).
+- baseURL: https://api.usepylon.com
+  baseurl_source: declared
+  description: Internal Pylon users (agents).
   name: Pylon Users API
   slug: pylon-users-api
 artifact_total: 27
@@ -203,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pylon/refs/heads/main/screenshots/pylon-2026-06-20T192331.png
 security:

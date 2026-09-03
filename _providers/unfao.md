@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: API for bulk downloading complete datasets for any FAOSTAT domain as zipped CSV files. The catalog endpoint lists all available datasets with download URLs and last-updated dates.
   name: FAOSTAT Bulk Download API
   slug: faostat-bulk-download-api
-- description: Browse available bulk datasets
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Browse available bulk datasets
   name: FAO FAOSTAT Catalog API
   slug: unfao-catalog-api
-- description: Operations for retrieving FAOSTAT statistical data
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Operations for retrieving FAOSTAT statistical data
   name: FAO FAOSTAT Data API
   slug: unfao-data-api
-- description: Operations for querying dimension members (areas, items, elements, years, flags)
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Operations for querying dimension members (areas, items, elements, years, flags)
   name: FAO FAOSTAT Dimensions API
   slug: unfao-dimensions-api
-- description: Operations for browsing available FAOSTAT domains and groups
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Operations for browsing available FAOSTAT domains and groups
   name: FAO FAOSTAT Domains API
   slug: unfao-domains-api
-- description: Download complete domain datasets as ZIP archives
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Download complete domain datasets as ZIP archives
   name: FAO FAOSTAT Downloads API
   slug: unfao-downloads-api
-- description: Operations for retrieving dataset and indicator metadata
+- baseURL: https://fenixservices.fao.org/faostat/api/v1
+  baseurl_source: declared
+  description: Operations for retrieving dataset and indicator metadata
   name: FAO FAOSTAT Metadata API
   slug: unfao-metadata-api
 artifact_total: 26
@@ -188,7 +200,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/screenshots/unfao-2026-06-20T200026.png
 security:

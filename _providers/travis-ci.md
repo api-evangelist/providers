@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: Legacy v2/v2.1 REST API; superseded by v3 but still in use. Builds, jobs, branches, logs, env vars, caches, SSH keys, requests. Authenticated via Bearer access tokens exchanged with GitHub.
   name: Travis CI REST API v2.1 (deprecated)
   slug: v2
-- description: The Builds API from Travis CI — 3 operation(s) for builds.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Builds API from Travis CI — 3 operation(s) for builds.
   name: Travis CI Builds API
   slug: travis-ci-builds-api
-- description: The Jobs API from Travis CI — 4 operation(s) for jobs.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Jobs API from Travis CI — 4 operation(s) for jobs.
   name: Travis CI Jobs API
   slug: travis-ci-jobs-api
-- description: The Logs API from Travis CI — 1 operation(s) for logs.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Logs API from Travis CI — 1 operation(s) for logs.
   name: Travis CI Logs API
   slug: travis-ci-logs-api
-- description: The Organizations API from Travis CI — 4 operation(s) for organizations.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Organizations API from Travis CI — 4 operation(s) for organizations.
   name: Travis CI Organizations API
   slug: travis-ci-organizations-api
-- description: The Repositories API from Travis CI — 6 operation(s) for repositories.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Repositories API from Travis CI — 6 operation(s) for repositories.
   name: Travis CI Repositories API
   slug: travis-ci-repositories-api
-- description: The Users API from Travis CI — 4 operation(s) for users.
+- baseURL: https://api.travis-ci.com
+  baseurl_source: declared
+  description: The Users API from Travis CI — 4 operation(s) for users.
   name: Travis CI Users API
   slug: travis-ci-users-api
 artifact_total: 22
@@ -199,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travis-ci/refs/heads/main/screenshots/travis-ci-2026-06-20T195637.png
 security:

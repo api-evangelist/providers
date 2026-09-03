@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: 'Process large volumes of requests asynchronously. Batch processing is ideal when you: - Have many requests that don''t need immediate responses - Want to process data in bulk (e.g., embeddings for a do'
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: 'Process large volumes of requests asynchronously. Batch processing is ideal when you: - Have many requests that don''t need immediate responses - Want to process data in bulk (e.g., embeddings for a do'
   name: .txt batches API
   slug: txt-batches-api
-- description: 'Create model responses for chat conversations. Supports: - **Multi-turn dialogue** with conversation history - **System prompts** to control model behavior - **Tool calling** for function execution an'
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: 'Create model responses for chat conversations. Supports: - **Multi-turn dialogue** with conversation history - **System prompts** to control model behavior - **Tool calling** for function execution an'
   name: .txt chat API
   slug: txt-chat-api
-- description: 'Generate vector representations of text. Use embeddings for: - **Semantic search** - find content by meaning, not just keywords - **Clustering** - group similar documents together - **Classification**'
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: 'Generate vector representations of text. Use embeddings for: - **Semantic search** - find content by meaning, not just keywords - **Clustering** - group similar documents together - **Classification**'
   name: .txt embeddings API
   slug: txt-embeddings-api
-- description: 'Upload and manage JSONL files for batch processing. Each line in the file should be a JSON object with: - `custom_id` - your identifier for tracking the request - `method` - HTTP method (POST) - `url`'
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: 'Upload and manage JSONL files for batch processing. Each line in the file should be a JSON object with: - `custom_id` - your identifier for tracking the request - `method` - HTTP method (POST) - `url`'
   name: .txt files API
   slug: txt-files-api
-- description: List and retrieve information about available models. Use these endpoints to discover which models you have access to and their capabilities.
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: List and retrieve information about available models. Use these endpoints to discover which models you have access to and their capabilities.
   name: .txt models API
   slug: txt-models-api
-- description: 'Create model responses with enhanced capabilities. Open Responses compatible endpoint providing advanced features: - **Reasoning models** - Control computational effort with `reasoning` parameter - **'
+- baseURL: https://api.dottxt.ai/v1
+  baseurl_source: declared
+  description: 'Create model responses with enhanced capabilities. Open Responses compatible endpoint providing advanced features: - **Reasoning models** - Control computational effort with `reasoning` parameter - **'
   name: .txt responses-api API
   slug: txt-responses-api-api
 artifact_total: 17
@@ -236,7 +248,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/txt/refs/heads/main/screenshots/txt-2026-08-17T082608.png
 security:

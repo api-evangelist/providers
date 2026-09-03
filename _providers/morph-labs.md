@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Infinibranch microVM (Firecracker) sandbox infrastructure for agents - a user-scoped API for managing instances and snapshots with sub-250ms branch, snapshot, and restore, command exec (including SSE)
   name: Morph Cloud Sandboxes API
   slug: morph-cloud-sandboxes-api
-- description: The Apply API from Morph — 1 operation(s) for apply.
+- baseURL: https://api.morphllm.com/v1
+  baseurl_source: declared
+  description: The Apply API from Morph — 1 operation(s) for apply.
   name: Morph Apply API
   slug: morph-labs-apply-api
-- description: The Embeddings API from Morph — 1 operation(s) for embeddings.
+- baseURL: https://api.morphllm.com/v1
+  baseurl_source: declared
+  description: The Embeddings API from Morph — 1 operation(s) for embeddings.
   name: Morph Embeddings API
   slug: morph-labs-embeddings-api
-- description: The Rerank API from Morph — 1 operation(s) for rerank.
+- baseURL: https://api.morphllm.com/v1
+  baseurl_source: declared
+  description: The Rerank API from Morph — 1 operation(s) for rerank.
   name: Morph Rerank API
   slug: morph-labs-rerank-api
 artifact_total: 15
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morph-labs/refs/heads/main/screenshots/morph-labs-2026-06-20T185812.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +34,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Published pages and the site-wide search index.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: Published pages and the site-wide search index.
   name: Kartos Therapeutics Content API
   slug: kartos-therapeutics-content-api
-- description: The route index and namespace descriptors the site publishes about itself.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The route index and namespace descriptors the site publishes about itself.
   name: Kartos Therapeutics Discovery API
   slug: kartos-therapeutics-discovery-api
-- description: The media library — scientific figures, investor logos and presentation PDFs.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The media library — scientific figures, investor logos and presentation PDFs.
   name: Kartos Therapeutics Media API
   slug: kartos-therapeutics-media-api
-- description: The oEmbed 1.0 provider endpoint for kartosthera.com URLs.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The oEmbed 1.0 provider endpoint for kartosthera.com URLs.
   name: Kartos Therapeutics Oembed API
   slug: kartos-therapeutics-oembed-api
-- description: The leadership, board and advisor team custom post type.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The leadership, board and advisor team custom post type.
   name: Kartos Therapeutics People API
   slug: kartos-therapeutics-people-api
-- description: The navtemadlin congress presentations and publications custom post type.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: The navtemadlin congress presentations and publications custom post type.
   name: Kartos Therapeutics Science API
   slug: kartos-therapeutics-science-api
-- description: Registered post types, statuses, taxonomies and terms.
+- baseURL: https://kartosthera.com/wp-json
+  baseurl_source: declared
+  description: Registered post types, statuses, taxonomies and terms.
   name: Kartos Therapeutics Taxonomy API
   slug: kartos-therapeutics-taxonomy-api
 artifact_total: 17
@@ -210,7 +235,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:

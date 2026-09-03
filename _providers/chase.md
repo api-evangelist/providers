@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 23 operations · 11 acting · 2 human-in-the-loop
 api_count: 5
 apis:
-- description: API that allows merchant and partner systems to retrieve a Chase cardholder's current rewards points balance for use in loyalty experiences and Pay with Points checkouts.
+- baseURL: https://api.chase.com/loyalty/rewards-balance
+  baseurl_source: declared
+  description: API that allows merchant and partner systems to retrieve a Chase cardholder's current rewards points balance for use in loyalty experiences and Pay with Points checkouts.
   name: Chase Rewards Balance API
   slug: rewards-balance-api
-- description: The Accounts API from Chase — 2 operation(s) for accounts.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Accounts API from Chase — 2 operation(s) for accounts.
   name: Chase Accounts API
   slug: chase-accounts-api
-- description: The Consents API from Chase — 2 operation(s) for consents.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Consents API from Chase — 2 operation(s) for consents.
   name: Chase Consents API
   slug: chase-consents-api
-- description: The Customers API from Chase — 1 operation(s) for customers.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Customers API from Chase — 1 operation(s) for customers.
   name: Chase Customers API
   slug: chase-customers-api
-- description: The Enrollments API from Chase — 2 operation(s) for enrollments.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Enrollments API from Chase — 2 operation(s) for enrollments.
   name: Chase Enrollments API
   slug: chase-enrollments-api
-- description: The Merchants API from Chase — 2 operation(s) for merchants.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Merchants API from Chase — 2 operation(s) for merchants.
   name: Chase Merchants API
   slug: chase-merchants-api
-- description: The Orders API from Chase — 4 operation(s) for orders.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Orders API from Chase — 4 operation(s) for orders.
   name: Chase Orders API
   slug: chase-orders-api
-- description: The Refunds API from Chase — 1 operation(s) for refunds.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Refunds API from Chase — 1 operation(s) for refunds.
   name: Chase Refunds API
   slug: chase-refunds-api
-- description: The Statements API from Chase — 1 operation(s) for statements.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Statements API from Chase — 1 operation(s) for statements.
   name: Chase Statements API
   slug: chase-statements-api
-- description: The Tax Forms API from Chase — 1 operation(s) for tax forms.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Tax Forms API from Chase — 1 operation(s) for tax forms.
   name: Chase Tax Forms API
   slug: chase-tax-forms-api
-- description: The Transactions API from Chase — 1 operation(s) for transactions.
+- baseURL: https://api.chase.com/aggregation/fdx
+  baseurl_source: declared
+  description: The Transactions API from Chase — 1 operation(s) for transactions.
   name: Chase Transactions API
   slug: chase-transactions-api
 artifact_total: 40
@@ -304,7 +326,7 @@ score:
     regime_id: banking_open_finance
     score: 53.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: Open-source flat-file extraction layer that powers Substreams. Provides chain-specific gRPC streams of blocks and transactions.
   name: Firehose
   slug: firehose
-- description: The Subgraphs API from The Graph — 2 operation(s) for subgraphs.
+- baseURL: https://gateway.thegraph.com/api/{apiKey}/subgraphs/id/{subgraphId}
+  baseurl_source: declared
+  description: The Subgraphs API from The Graph — 2 operation(s) for subgraphs.
   name: The Graph Subgraphs API
   slug: the-graph-subgraphs-api
 artifact_total: 17
@@ -174,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/screenshots/the-graph-2026-06-20T195224.png
 security:

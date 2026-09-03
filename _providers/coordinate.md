@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Discussion entries on projects, tasks, and goals.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Discussion entries on projects, tasks, and goals.
   name: Coordinate Comments API
   slug: coordinate-comments-api
-- description: Cross-entity bulk export firehose.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Cross-entity bulk export firehose.
   name: Coordinate Entity API
   slug: coordinate-entity-api
-- description: Project goals / milestones with target dates.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Project goals / milestones with target dates.
   name: Coordinate Goals API
   slug: coordinate-goals-api
-- description: Task groups (internally "Milestone").
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Task groups (internally "Milestone").
   name: Coordinate Groups API
   slug: coordinate-groups-api
-- description: Customer organizations linking projects and stakeholders.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Customer organizations linking projects and stakeholders.
   name: Coordinate Organizations API
   slug: coordinate-organizations-api
-- description: Read-only progress reports on a project.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Read-only progress reports on a project.
   name: Coordinate Progress Reports API
   slug: coordinate-progress-reports-api
-- description: Rich-text pages attached to a project.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Rich-text pages attached to a project.
   name: Coordinate Project Pages API
   slug: coordinate-project-pages-api
-- description: Client projects (internally "Customer").
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Client projects (internally "Customer").
   name: Coordinate Projects API
   slug: coordinate-projects-api
-- description: Client-side collaborators on a project.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Client-side collaborators on a project.
   name: Coordinate Stakeholders API
   slug: coordinate-stakeholders-api
-- description: Per-vendor JSON scratch storage.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Per-vendor JSON scratch storage.
   name: Coordinate Storage API
   slug: coordinate-storage-api
-- description: Tasks within a project.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Tasks within a project.
   name: Coordinate Tasks API
   slug: coordinate-tasks-api
-- description: Vendor users.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Vendor users.
   name: Coordinate Users API
   slug: coordinate-users-api
-- description: Webhook subscription management.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: Webhook subscription management.
   name: Coordinate Webhooks API
   slug: coordinate-webhooks-api
-- description: The Coordinate REST API API from Coordinate — 0 operation(s) for coordinate rest api.
+- baseURL: https://app.coordinatehq.com/api/v1
+  baseurl_source: declared
+  description: The Coordinate REST API API from Coordinate — 0 operation(s) for coordinate rest api.
   name: Coordinate Coordinate REST API
   slug: coordinate-coordinate-rest-api-api
 artifact_total: 32
@@ -259,7 +287,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -269,7 +297,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.7
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -280,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png
 security:

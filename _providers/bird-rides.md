@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,25 +52,39 @@ apis:
 - description: 'The undocumented mobile-app backend that powers the Bird iOS and Android consumer apps. Hosts include api.birdapp.com, api-auth.prod.birdapp.com, and api-bird.prod.birdapp.com. The surface is email + '
   name: Bird Mobile App Backend (Unofficial)
   slug: bird-mobile-app-api
-- description: GBFS auto-discovery and version metadata
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: GBFS auto-discovery and version metadata
   name: Bird Discovery API
   slug: bird-rides-discovery-api
-- description: No-ride / no-parking polygon zones
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: No-ride / no-parking polygon zones
   name: Bird Geofencing API
   slug: bird-rides-geofencing-api
-- description: Rider-facing pricing plans
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: Rider-facing pricing plans
   name: Bird Pricing API
   slug: bird-rides-pricing-api
-- description: Real-time feeds with 60-second TTL
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: Real-time feeds with 60-second TTL
   name: Bird Realtime API
   slug: bird-rides-realtime-api
-- description: Docking-station information (mostly empty for free-floating Bird markets)
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: Docking-station information (mostly empty for free-floating Bird markets)
   name: Bird Stations API
   slug: bird-rides-stations-api
-- description: System-level information and regions
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: System-level information and regions
   name: Bird System API
   slug: bird-rides-system-api
-- description: Vehicle inventory and real-time availability
+- baseURL: https://mds.bird.co/gbfs/v2/public/{city}
+  baseurl_source: declared
+  description: Vehicle inventory and real-time availability
   name: Bird Vehicles API
   slug: bird-rides-vehicles-api
 artifact_total: 46
@@ -356,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/screenshots/bird-rides-2026-06-20T173255.png
 security:

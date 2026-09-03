@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -71,22 +71,34 @@ apis:
 - description: On-device AI APIs powered by Gemini Nano built into Chrome for text generation, summarization, translation, and more.
   name: Chrome Built-in AI APIs
   slug: chrome-built-in-ai-apis
-- description: Operations for retrieving information about Chrome apps, extensions, and Android apps available to managed devices.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for retrieving information about Chrome apps, extensions, and Android apps available to managed devices.
   name: Google Chrome App Details API
   slug: google-chrome-app-details-api
-- description: Operations for generating reports about browsers, devices, installed apps, extensions, and app usage within the enterprise.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for generating reports about browsers, devices, installed apps, extensions, and app usage within the enterprise.
   name: Google Chrome Reports API
   slug: google-chrome-reports-api
-- description: Operations for retrieving telemetry data from managed ChromeOS devices including hardware specs, OS version, CPU, memory, storage, and network information.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for retrieving telemetry data from managed ChromeOS devices including hardware specs, OS version, CPU, memory, storage, and network information.
   name: Google Chrome Telemetry Devices API
   slug: google-chrome-telemetry-devices-api
-- description: Operations for listing telemetry events from managed ChromeOS devices such as USB peripherals, audio, network state changes, and hardware status events.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for listing telemetry events from managed ChromeOS devices such as USB peripherals, audio, network state changes, and hardware status events.
   name: Google Chrome Telemetry Events API
   slug: google-chrome-telemetry-events-api
-- description: Operations for managing telemetry notification configurations that enable push notifications for telemetry events.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for managing telemetry notification configurations that enable push notifications for telemetry events.
   name: Google Chrome Telemetry Notification Configs API
   slug: google-chrome-telemetry-notification-configs-api
-- description: Operations for retrieving telemetry information associated with managed users on ChromeOS devices.
+- baseURL: https://chromemanagement.googleapis.com/v1
+  baseurl_source: spec
+  description: Operations for retrieving telemetry information associated with managed users on ChromeOS devices.
   name: Google Chrome Telemetry Users API
   slug: google-chrome-telemetry-users-api
 artifact_total: 95
@@ -422,7 +434,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/screenshots/google-chrome-2026-06-20T182034.png
 security:

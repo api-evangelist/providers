@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -44,172 +44,284 @@ agentic_access:
   summary_line: 253 operations · 136 acting
 api_count: 1
 apis:
-- description: The Accounts API from NationGraph — 8 operation(s) for accounts.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Accounts API from NationGraph — 8 operation(s) for accounts.
   name: NationGraph Accounts API
   slug: nationgraph-accounts-api
-- description: The Automations API from NationGraph — 12 operation(s) for automations.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Automations API from NationGraph — 12 operation(s) for automations.
   name: NationGraph Automations API
   slug: nationgraph-automations-api
-- description: The Budgets API from NationGraph — 2 operation(s) for budgets.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Budgets API from NationGraph — 2 operation(s) for budgets.
   name: NationGraph Budgets API
   slug: nationgraph-budgets-api
-- description: The Classifier API from NationGraph — 1 operation(s) for classifier.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Classifier API from NationGraph — 1 operation(s) for classifier.
   name: NationGraph Classifier API
   slug: nationgraph-classifier-api
-- description: The Classifiers API from NationGraph — 1 operation(s) for classifiers.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Classifiers API from NationGraph — 1 operation(s) for classifiers.
   name: NationGraph Classifiers API
   slug: nationgraph-classifiers-api
-- description: The Contacts API from NationGraph — 2 operation(s) for contacts.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Contacts API from NationGraph — 2 operation(s) for contacts.
   name: NationGraph Contacts API
   slug: nationgraph-contacts-api
-- description: The Contracts API from NationGraph — 2 operation(s) for contracts.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Contracts API from NationGraph — 2 operation(s) for contracts.
   name: NationGraph Contracts API
   slug: nationgraph-contracts-api
-- description: The CRM API from NationGraph — 14 operation(s) for crm.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM API from NationGraph — 14 operation(s) for crm.
   name: NationGraph CRM API
   slug: nationgraph-crm-api
-- description: The CRM Automation Push API from NationGraph — 12 operation(s) for crm automation push.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Automation Push API from NationGraph — 12 operation(s) for crm automation push.
   name: NationGraph CRM Automation Push API
   slug: nationgraph-crm-automation-push-api
-- description: The CRM Companies API from NationGraph — 7 operation(s) for crm companies.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Companies API from NationGraph — 7 operation(s) for crm companies.
   name: NationGraph CRM Companies API
   slug: nationgraph-crm-companies-api
-- description: The CRM Contacts API from NationGraph — 8 operation(s) for crm contacts.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Contacts API from NationGraph — 8 operation(s) for crm contacts.
   name: NationGraph CRM Contacts API
   slug: nationgraph-crm-contacts-api
-- description: The CRM History API from NationGraph — 1 operation(s) for crm history.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM History API from NationGraph — 1 operation(s) for crm history.
   name: NationGraph CRM History API
   slug: nationgraph-crm-history-api
-- description: The CRM Leads API from NationGraph — 4 operation(s) for crm leads.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Leads API from NationGraph — 4 operation(s) for crm leads.
   name: NationGraph CRM Leads API
   slug: nationgraph-crm-leads-api
-- description: The CRM Mappings API from NationGraph — 4 operation(s) for crm mappings.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Mappings API from NationGraph — 4 operation(s) for crm mappings.
   name: NationGraph CRM Mappings API
   slug: nationgraph-crm-mappings-api
-- description: The CRM Owners API from NationGraph — 2 operation(s) for crm owners.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The CRM Owners API from NationGraph — 2 operation(s) for crm owners.
   name: NationGraph CRM Owners API
   slug: nationgraph-crm-owners-api
-- description: The Default API from NationGraph — 2 operation(s) for default.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Default API from NationGraph — 2 operation(s) for default.
   name: NationGraph Default API
   slug: nationgraph-default-api
-- description: The Dev API from NationGraph — 2 operation(s) for dev.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Dev API from NationGraph — 2 operation(s) for dev.
   name: NationGraph Dev API
   slug: nationgraph-dev-api
-- description: The Document API from NationGraph — 1 operation(s) for document.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Document API from NationGraph — 1 operation(s) for document.
   name: NationGraph Document API
   slug: nationgraph-document-api
-- description: The Email Sequences API from NationGraph — 2 operation(s) for email sequences.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Email Sequences API from NationGraph — 2 operation(s) for email sequences.
   name: NationGraph Email Sequences API
   slug: nationgraph-email-sequences-api
-- description: The Email Templates API from NationGraph — 2 operation(s) for email templates.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Email Templates API from NationGraph — 2 operation(s) for email templates.
   name: NationGraph Email Templates API
   slug: nationgraph-email-templates-api
-- description: The Enrichments API from NationGraph — 2 operation(s) for enrichments.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Enrichments API from NationGraph — 2 operation(s) for enrichments.
   name: NationGraph Enrichments API
   slug: nationgraph-enrichments-api
-- description: The Export API from NationGraph — 6 operation(s) for export.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Export API from NationGraph — 6 operation(s) for export.
   name: NationGraph Export API
   slug: nationgraph-export-api
-- description: The FOIA API from NationGraph — 1 operation(s) for foia.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The FOIA API from NationGraph — 1 operation(s) for foia.
   name: NationGraph FOIA API
   slug: nationgraph-foia-api
-- description: The Grants API from NationGraph — 7 operation(s) for grants.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Grants API from NationGraph — 7 operation(s) for grants.
   name: NationGraph Grants API
   slug: nationgraph-grants-api
-- description: The Insights API from NationGraph — 1 operation(s) for insights.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Insights API from NationGraph — 1 operation(s) for insights.
   name: NationGraph Insights API
   slug: nationgraph-insights-api
-- description: The Institutions API from NationGraph — 6 operation(s) for institutions.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Institutions API from NationGraph — 6 operation(s) for institutions.
   name: NationGraph Institutions API
   slug: nationgraph-institutions-api
-- description: The Integrations API from NationGraph — 5 operation(s) for integrations.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Integrations API from NationGraph — 5 operation(s) for integrations.
   name: NationGraph Integrations API
   slug: nationgraph-integrations-api
-- description: The Intent API from NationGraph — 2 operation(s) for intent.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Intent API from NationGraph — 2 operation(s) for intent.
   name: NationGraph Intent API
   slug: nationgraph-intent-api
-- description: The Lists API from NationGraph — 4 operation(s) for lists.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Lists API from NationGraph — 4 operation(s) for lists.
   name: NationGraph Lists API
   slug: nationgraph-lists-api
-- description: The Meeting Minutes API from NationGraph — 2 operation(s) for meeting minutes.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Meeting Minutes API from NationGraph — 2 operation(s) for meeting minutes.
   name: NationGraph Meeting Minutes API
   slug: nationgraph-meeting-minutes-api
-- description: The Metadata API from NationGraph — 1 operation(s) for metadata.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Metadata API from NationGraph — 1 operation(s) for metadata.
   name: NationGraph Metadata API
   slug: nationgraph-metadata-api
-- description: The Notes API from NationGraph — 3 operation(s) for notes.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Notes API from NationGraph — 3 operation(s) for notes.
   name: NationGraph Notes API
   slug: nationgraph-notes-api
-- description: The Org Admin API from NationGraph — 2 operation(s) for org admin.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Org Admin API from NationGraph — 2 operation(s) for org admin.
   name: NationGraph Org Admin API
   slug: nationgraph-org-admin-api
-- description: The Organization API from NationGraph — 1 operation(s) for organization.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Organization API from NationGraph — 1 operation(s) for organization.
   name: NationGraph Organization API
   slug: nationgraph-organization-api
-- description: The Press Releases API from NationGraph — 3 operation(s) for press releases.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Press Releases API from NationGraph — 3 operation(s) for press releases.
   name: NationGraph Press Releases API
   slug: nationgraph-press-releases-api
-- description: The Procurement Guidelines API from NationGraph — 2 operation(s) for procurement guidelines.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Procurement Guidelines API from NationGraph — 2 operation(s) for procurement guidelines.
   name: NationGraph Procurement Guidelines API
   slug: nationgraph-procurement-guidelines-api
-- description: The Purchase Orders API from NationGraph — 2 operation(s) for purchase orders.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Purchase Orders API from NationGraph — 2 operation(s) for purchase orders.
   name: NationGraph Purchase Orders API
   slug: nationgraph-purchase-orders-api
-- description: The Queue API from NationGraph — 1 operation(s) for queue.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Queue API from NationGraph — 1 operation(s) for queue.
   name: NationGraph Queue API
   slug: nationgraph-queue-api
-- description: The RAG API from NationGraph — 3 operation(s) for rag.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The RAG API from NationGraph — 3 operation(s) for rag.
   name: NationGraph RAG API
   slug: nationgraph-rag-api
-- description: The RAG Files API from NationGraph — 1 operation(s) for rag files.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The RAG Files API from NationGraph — 1 operation(s) for rag files.
   name: NationGraph RAG Files API
   slug: nationgraph-rag-files-api
-- description: The RFPs API from NationGraph — 5 operation(s) for rfps.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The RFPs API from NationGraph — 5 operation(s) for rfps.
   name: NationGraph RFPs API
   slug: nationgraph-rfps-api
-- description: The Scheduling API from NationGraph — 3 operation(s) for scheduling.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Scheduling API from NationGraph — 3 operation(s) for scheduling.
   name: NationGraph Scheduling API
   slug: nationgraph-scheduling-api
-- description: The Signal Settings API from NationGraph — 5 operation(s) for signal settings.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Signal Settings API from NationGraph — 5 operation(s) for signal settings.
   name: NationGraph Signal Settings API
   slug: nationgraph-signal-settings-api
-- description: The Signals API from NationGraph — 11 operation(s) for signals.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Signals API from NationGraph — 11 operation(s) for signals.
   name: NationGraph Signals API
   slug: nationgraph-signals-api
-- description: The Smart Columns API from NationGraph — 8 operation(s) for smart columns.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Smart Columns API from NationGraph — 8 operation(s) for smart columns.
   name: NationGraph Smart Columns API
   slug: nationgraph-smart-columns-api
-- description: The Subscription API from NationGraph — 2 operation(s) for subscription.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Subscription API from NationGraph — 2 operation(s) for subscription.
   name: NationGraph Subscription API
   slug: nationgraph-subscription-api
-- description: The Summary API from NationGraph — 4 operation(s) for summary.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Summary API from NationGraph — 4 operation(s) for summary.
   name: NationGraph Summary API
   slug: nationgraph-summary-api
-- description: The Tags API from NationGraph — 4 operation(s) for tags.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Tags API from NationGraph — 4 operation(s) for tags.
   name: NationGraph Tags API
   slug: nationgraph-tags-api
-- description: The Territories API from NationGraph — 4 operation(s) for territories.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Territories API from NationGraph — 4 operation(s) for territories.
   name: NationGraph Territories API
   slug: nationgraph-territories-api
-- description: The User API from NationGraph — 7 operation(s) for user.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The User API from NationGraph — 7 operation(s) for user.
   name: NationGraph User API
   slug: nationgraph-user-api
-- description: The User Profile API from NationGraph — 3 operation(s) for user profile.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The User Profile API from NationGraph — 3 operation(s) for user profile.
   name: NationGraph User Profile API
   slug: nationgraph-user-profile-api
-- description: The VendorProducts API from NationGraph — 1 operation(s) for vendorproducts.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The VendorProducts API from NationGraph — 1 operation(s) for vendorproducts.
   name: NationGraph VendorProducts API
   slug: nationgraph-vendorproducts-api
-- description: The Views API from NationGraph — 2 operation(s) for views.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Views API from NationGraph — 2 operation(s) for views.
   name: NationGraph Views API
   slug: nationgraph-views-api
-- description: The Webhooks API from NationGraph — 1 operation(s) for webhooks.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Webhooks API from NationGraph — 1 operation(s) for webhooks.
   name: NationGraph Webhooks API
   slug: nationgraph-webhooks-api
-- description: The Workspaces API from NationGraph — 6 operation(s) for workspaces.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The Workspaces API from NationGraph — 6 operation(s) for workspaces.
   name: NationGraph Workspaces API
   slug: nationgraph-workspaces-api
-- description: The YouTube API from NationGraph — 2 operation(s) for youtube.
+- baseURL: https://api.nationgraph.com
+  baseurl_source: declared
+  description: The YouTube API from NationGraph — 2 operation(s) for youtube.
   name: NationGraph YouTube API
   slug: nationgraph-youtube-api
 artifact_total: 121
@@ -560,7 +672,7 @@ score:
     regime_id: government
     score: 74.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationgraph/refs/heads/main/screenshots/nationgraph-2026-08-07T184651.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 31 operations · 13 acting
 api_count: 1
 apis:
-- description: The Accounts API from Beyond Pricing — 3 operation(s) for accounts.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Beyond Pricing — 3 operation(s) for accounts.
   name: Beyond Pricing Accounts API
   slug: beyond-pricing-accounts-api
-- description: The Compsets API from Beyond Pricing — 2 operation(s) for compsets.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Compsets API from Beyond Pricing — 2 operation(s) for compsets.
   name: Beyond Pricing Compsets API
   slug: beyond-pricing-compsets-api
-- description: The Customizations API from Beyond Pricing — 6 operation(s) for customizations.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Customizations API from Beyond Pricing — 6 operation(s) for customizations.
   name: Beyond Pricing Customizations API
   slug: beyond-pricing-customizations-api
-- description: The Insights API from Beyond Pricing — 1 operation(s) for insights.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Insights API from Beyond Pricing — 1 operation(s) for insights.
   name: Beyond Pricing Insights API
   slug: beyond-pricing-insights-api
-- description: The Listings API from Beyond Pricing — 6 operation(s) for listings.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Listings API from Beyond Pricing — 6 operation(s) for listings.
   name: Beyond Pricing Listings API
   slug: beyond-pricing-listings-api
-- description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The OAuth2 API from Beyond Pricing — 1 operation(s) for oauth2.
   name: Beyond Pricing OAuth2 API
   slug: beyond-pricing-oauth2-api
-- description: The Users API from Beyond Pricing — 3 operation(s) for users.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Beyond Pricing — 3 operation(s) for users.
   name: Beyond Pricing Users API
   slug: beyond-pricing-users-api
-- description: The Webhooks API from Beyond Pricing — 0 operation(s) for webhooks.
+- baseURL: https://developers.beyondpricing.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Beyond Pricing — 0 operation(s) for webhooks.
   name: Beyond Pricing Webhooks API
   slug: beyond-pricing-webhooks-api
 artifact_total: 22
@@ -257,7 +273,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -267,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 46.6
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
 security:

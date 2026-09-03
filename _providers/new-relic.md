@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: NerdGraph is New Relic's primary GraphQL API for querying observability data, managing account configuration, and accessing the full breadth of New Relic platform capabilities. It is the recommended A
   name: New Relic NerdGraph API
   slug: new-relic-nerdgraph-api
-- description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: The New Relic Alerts REST API provides endpoints for programmatically managing alert policies, conditions, notification channels, and muting rules. New Relic recommends using NerdGraph for new alert m
   name: New Relic Alerts API
   slug: new-relic-alerts-api
 - description: The New Relic Synthetics API, available through NerdGraph, allows you to programmatically create, update, delete, and query synthetic monitors including ping monitors, scripted API monitors, browser m
@@ -80,25 +82,39 @@ apis:
 - description: The New Relic Mobile SDK provides iOS and Android APIs for extending mobile monitoring data collection beyond what the agent captures automatically. Developers can add custom attributes, record custom
   name: New Relic Mobile SDK
   slug: new-relic-mobile-sdk
-- description: The Alerts API from New Relic — 23 operation(s) for alerts.
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: The Alerts API from New Relic — 23 operation(s) for alerts.
   name: New Relic Alerts API
   slug: new-relic-alerts-api
-- description: The Applications API from New Relic — 18 operation(s) for applications.
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: The Applications API from New Relic — 18 operation(s) for applications.
   name: New Relic Applications API
   slug: new-relic-applications-api
-- description: Custom event ingestion endpoints
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: Custom event ingestion endpoints
   name: New Relic Events API
   slug: new-relic-events-api
-- description: The Get API from New Relic — 30 operation(s) for get.
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: The Get API from New Relic — 30 operation(s) for get.
   name: New Relic Get API
   slug: new-relic-get-api
-- description: Log data ingestion endpoints
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: Log data ingestion endpoints
   name: New Relic Logs API
   slug: new-relic-logs-api
-- description: Metric data ingestion endpoints
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: Metric data ingestion endpoints
   name: New Relic Metrics API
   slug: new-relic-metrics-api
-- description: Distributed trace span ingestion
+- baseURL: https://api.newrelic.com/v2/
+  baseurl_source: declared
+  description: Distributed trace span ingestion
   name: New Relic Traces API
   slug: new-relic-traces-api
 arazzos:
@@ -3248,7 +3264,7 @@ score:
     catalog_gap: 43.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -3261,7 +3277,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 69.7
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     contracts:
@@ -3270,7 +3286,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:

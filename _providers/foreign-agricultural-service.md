@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The USDA Foreign Agricultural Service Open Data API provides programmatic access to U.S. agricultural trade data, including the Global Agricultural Trade System (GATS), Export Sales Reporting (ESR), a
   name: USDA FAS Open Data API
   slug: fas-open-data
-- description: U.S. Weekly Export Sales of Agricultural Commodity Data
+- baseURL: https://apps.fas.usda.gov/OpenData
+  baseurl_source: spec
+  description: U.S. Weekly Export Sales of Agricultural Commodity Data
   name: Foreign Agricultural Service ESR API
   slug: foreign-agricultural-service-esr-api
-- description: Global Agricultural Trade System
+- baseURL: https://apps.fas.usda.gov/OpenData
+  baseurl_source: spec
+  description: Global Agricultural Trade System
   name: Foreign Agricultural Service GATS API
   slug: foreign-agricultural-service-gats-api
-- description: Production, Supply and Distribution
+- baseURL: https://apps.fas.usda.gov/OpenData
+  baseurl_source: spec
+  description: Production, Supply and Distribution
   name: Foreign Agricultural Service PSD API
   slug: foreign-agricultural-service-psd-api
 artifact_total: 15
@@ -152,7 +158,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/screenshots/foreign-agricultural-service-2026-06-20T181418.png
 security:

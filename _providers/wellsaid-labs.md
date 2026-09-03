@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Asynchronous clip creation, retrieval, and combination.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Asynchronous clip creation, retrieval, and combination.
   name: WellSaid Labs Clips API
   slug: wellsaid-labs-clips-api
-- description: Replacement libraries and respelling suggestions for pronunciation control.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Replacement libraries and respelling suggestions for pronunciation control.
   name: WellSaid Labs Pronunciation API
   slug: wellsaid-labs-pronunciation-api
-- description: Render text to speech, with streaming audio and word timing.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Render text to speech, with streaming audio and word timing.
   name: WellSaid Labs Text-to-Speech API
   slug: wellsaid-labs-text-to-speech-api
-- description: Catalog of available AI voice avatars and their metadata.
+- baseURL: https://api.wellsaidlabs.com/v1
+  baseurl_source: declared
+  description: Catalog of available AI voice avatars and their metadata.
   name: WellSaid Labs Voice Avatars API
   slug: wellsaid-labs-voice-avatars-api
 artifact_total: 17
@@ -146,7 +154,7 @@ score:
   band: thin
   composite: 28.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +177,9 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wellsaid-labs/refs/heads/main/screenshots/wellsaid-labs-2026-09-02T170609.png
 security:
 - kind: authentication
   name: Wellsaid Labs Authentication

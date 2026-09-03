@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for verifying email addresses in real time, bulk list validation, and deliverability scoring to reduce bounces and improve sender reputation.
   name: Mailgun Email Validation API
   slug: validate-api
-- description: The Domains API from Mailgun — 2 operation(s) for domains.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Domains API from Mailgun — 2 operation(s) for domains.
   name: Mailgun Domains API
   slug: mailgun-domains-api
-- description: The Events API from Mailgun — 1 operation(s) for events.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Events API from Mailgun — 1 operation(s) for events.
   name: Mailgun Events API
   slug: mailgun-events-api
-- description: The Mailing Lists API from Mailgun — 1 operation(s) for mailing lists.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Mailing Lists API from Mailgun — 1 operation(s) for mailing lists.
   name: Mailgun Mailing Lists API
   slug: mailgun-mailing-lists-api
-- description: The Messages API from Mailgun — 2 operation(s) for messages.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Messages API from Mailgun — 2 operation(s) for messages.
   name: Mailgun Messages API
   slug: mailgun-messages-api
-- description: The Routes API from Mailgun — 1 operation(s) for routes.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Routes API from Mailgun — 1 operation(s) for routes.
   name: Mailgun Routes API
   slug: mailgun-routes-api
-- description: The Suppressions API from Mailgun — 3 operation(s) for suppressions.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Suppressions API from Mailgun — 3 operation(s) for suppressions.
   name: Mailgun Suppressions API
   slug: mailgun-suppressions-api
-- description: The Webhooks API from Mailgun — 2 operation(s) for webhooks.
+- baseURL: https://api.mailgun.net
+  baseurl_source: declared
+  description: The Webhooks API from Mailgun — 2 operation(s) for webhooks.
   name: Mailgun Webhooks API
   slug: mailgun-webhooks-api
 artifact_total: 23
@@ -173,7 +187,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -183,7 +197,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.5
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -192,7 +206,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailgun/refs/heads/main/screenshots/mailgun-2026-06-20T184856.png
 security:

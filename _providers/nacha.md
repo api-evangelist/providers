@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,61 +44,99 @@ agentic_access:
   summary_line: 30 operations · 25 acting
 api_count: 24
 apis:
-- description: The Account Validation API from Nacha — 1 operation(s) for account validation.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Account Validation API from Nacha — 1 operation(s) for account validation.
   name: Nacha Account Validation API
   slug: nacha-account-validation-api
-- description: The Accounts API from Nacha — 4 operation(s) for accounts.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Accounts API from Nacha — 4 operation(s) for accounts.
   name: Nacha Accounts API
   slug: nacha-accounts-api
-- description: The ACH Payments API from Nacha — 2 operation(s) for ach payments.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The ACH Payments API from Nacha — 2 operation(s) for ach payments.
   name: Nacha ACH Payments API
   slug: nacha-ach-payments-api
-- description: The ACH Transaction Status API from Nacha — 4 operation(s) for ach transaction status.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The ACH Transaction Status API from Nacha — 4 operation(s) for ach transaction status.
   name: Nacha ACH Transaction Status API
   slug: nacha-ach-transaction-status-api
-- description: The Authorize to Pay API from Nacha — 1 operation(s) for authorize to pay.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Authorize to Pay API from Nacha — 1 operation(s) for authorize to pay.
   name: Nacha Authorize to Pay API
   slug: nacha-authorize-to-pay-api
-- description: The Banks API from Nacha — 1 operation(s) for banks.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Banks API from Nacha — 1 operation(s) for banks.
   name: Nacha Banks API
   slug: nacha-banks-api
-- description: The Expand Bank Contact V2 API from Nacha — 1 operation(s) for expand bank contact v2.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Expand Bank Contact V2 API from Nacha — 1 operation(s) for expand bank contact v2.
   name: Nacha Expand Bank Contact V2 API
   slug: nacha-expand-bank-contact-v2-api
-- description: The Get Corporate Account Balances API from Nacha — 1 operation(s) for get corporate account balances.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Get Corporate Account Balances API from Nacha — 1 operation(s) for get corporate account balances.
   name: Nacha Get Corporate Account Balances API
   slug: nacha-get-corporate-account-balances-api
-- description: The Get Corporate Transaction History API from Nacha — 2 operation(s) for get corporate transaction history.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Get Corporate Transaction History API from Nacha — 2 operation(s) for get corporate transaction history.
   name: Nacha Get Corporate Transaction History API
   slug: nacha-get-corporate-transaction-history-api
-- description: The Get Participants Profile API from Nacha — 1 operation(s) for get participants profile.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Get Participants Profile API from Nacha — 1 operation(s) for get participants profile.
   name: Nacha Get Participants Profile API
   slug: nacha-get-participants-profile-api
-- description: The Initiate Payment API from Nacha — 1 operation(s) for initiate payment.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Initiate Payment API from Nacha — 1 operation(s) for initiate payment.
   name: Nacha Initiate Payment API
   slug: nacha-initiate-payment-api
-- description: The Instant Payment API from Nacha — 1 operation(s) for instant payment.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Instant Payment API from Nacha — 1 operation(s) for instant payment.
   name: Nacha Instant Payment API
   slug: nacha-instant-payment-api
-- description: The Instant Payment Transfer API from Nacha — 1 operation(s) for instant payment transfer.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Instant Payment Transfer API from Nacha — 1 operation(s) for instant payment transfer.
   name: Nacha Instant Payment Transfer API
   slug: nacha-instant-payment-transfer-api
-- description: The International ACH Remittance (IAR) API from Nacha — 2 operation(s) for international ach remittance (iar).
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The International ACH Remittance (IAR) API from Nacha — 2 operation(s) for international ach remittance (iar).
   name: Nacha International ACH Remittance (IAR) API
   slug: nacha-international-ach-remittance-iar-api
-- description: The Proof of Authorization API from Nacha — 1 operation(s) for proof of authorization.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Proof of Authorization API from Nacha — 1 operation(s) for proof of authorization.
   name: Nacha Proof of Authorization API
   slug: nacha-proof-of-authorization-api
-- description: The Reporting ACH Return Payments API from Nacha — 1 operation(s) for reporting ach return payments.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Reporting ACH Return Payments API from Nacha — 1 operation(s) for reporting ach return payments.
   name: Nacha Reporting ACH Return Payments API
   slug: nacha-reporting-ach-return-payments-api
-- description: The Route Billing Information API from Nacha — 1 operation(s) for route billing information.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Route Billing Information API from Nacha — 1 operation(s) for route billing information.
   name: Nacha Route Billing Information API
   slug: nacha-route-billing-information-api
-- description: The Wire Transfer API from Nacha — 2 operation(s) for wire transfer.
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Wire Transfer API from Nacha — 2 operation(s) for wire transfer.
   name: Nacha Wire Transfer API
   slug: nacha-wire-transfer-api
-- description: The Written Statement of Unauthorized Debit (WSUD) API from Nacha — 1 operation(s) for written statement of unauthorized debit (wsud).
+- baseURL: https://api.asig.org/v1
+  baseurl_source: declared
+  description: The Written Statement of Unauthorized Debit (WSUD) API from Nacha — 1 operation(s) for written statement of unauthorized debit (wsud).
   name: Nacha Written Statement of Unauthorized Debit (WSUD) API
   slug: nacha-written-statement-of-unauthorized-debit-wsud-api
 artifact_total: 47
@@ -387,7 +436,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -397,7 +446,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,7 +464,7 @@ score:
     regime_id: payments
     score: 45.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

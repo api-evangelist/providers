@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Core API for interacting with Excel objects, workbooks, worksheets, ranges, and cells through VBA automation.
@@ -132,7 +132,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 25.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel-macros/refs/heads/main/screenshots/microsoft-excel-macros-2026-06-20T185500.png
 security:

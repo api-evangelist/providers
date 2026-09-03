@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,166 +44,274 @@ agentic_access:
   summary_line: 56 operations · 42 acting
 api_count: 1
 apis:
-- description: The CancelImageCreation API from Amazon EC2 Image Builder — 1 operation(s) for cancelimagecreation.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CancelImageCreation API from Amazon EC2 Image Builder — 1 operation(s) for cancelimagecreation.
   name: Amazon EC2 Image Builder CancelImageCreation API
   slug: amazon-ec2-image-builder-cancelimagecreation-api
-- description: The CreateComponent API from Amazon EC2 Image Builder — 1 operation(s) for createcomponent.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateComponent API from Amazon EC2 Image Builder — 1 operation(s) for createcomponent.
   name: Amazon EC2 Image Builder CreateComponent API
   slug: amazon-ec2-image-builder-createcomponent-api
-- description: The CreateContainerRecipe API from Amazon EC2 Image Builder — 1 operation(s) for createcontainerrecipe.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateContainerRecipe API from Amazon EC2 Image Builder — 1 operation(s) for createcontainerrecipe.
   name: Amazon EC2 Image Builder CreateContainerRecipe API
   slug: amazon-ec2-image-builder-createcontainerrecipe-api
-- description: The CreateDistributionConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for createdistributionconfiguration.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateDistributionConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for createdistributionconfiguration.
   name: Amazon EC2 Image Builder CreateDistributionConfiguration API
   slug: amazon-ec2-image-builder-createdistributionconfiguration-api
-- description: The CreateImage API from Amazon EC2 Image Builder — 1 operation(s) for createimage.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateImage API from Amazon EC2 Image Builder — 1 operation(s) for createimage.
   name: Amazon EC2 Image Builder CreateImage API
   slug: amazon-ec2-image-builder-createimage-api
-- description: The CreateImagePipeline API from Amazon EC2 Image Builder — 1 operation(s) for createimagepipeline.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateImagePipeline API from Amazon EC2 Image Builder — 1 operation(s) for createimagepipeline.
   name: Amazon EC2 Image Builder CreateImagePipeline API
   slug: amazon-ec2-image-builder-createimagepipeline-api
-- description: The CreateImageRecipe API from Amazon EC2 Image Builder — 1 operation(s) for createimagerecipe.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateImageRecipe API from Amazon EC2 Image Builder — 1 operation(s) for createimagerecipe.
   name: Amazon EC2 Image Builder CreateImageRecipe API
   slug: amazon-ec2-image-builder-createimagerecipe-api
-- description: The CreateInfrastructureConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for createinfrastructureconfiguration.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The CreateInfrastructureConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for createinfrastructureconfiguration.
   name: Amazon EC2 Image Builder CreateInfrastructureConfiguration API
   slug: amazon-ec2-image-builder-createinfrastructureconfiguration-api
-- description: The DeleteComponent#componentBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for deletecomponent#componentbuildversionarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteComponent#componentBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for deletecomponent#componentbuildversionarn.
   name: Amazon EC2 Image Builder DeleteComponent#componentBuildVersionArn API
   slug: amazon-ec2-image-builder-deletecomponent-componentbuildversionarn-api
-- description: The DeleteContainerRecipe#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for deletecontainerrecipe#containerrecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteContainerRecipe#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for deletecontainerrecipe#containerrecipearn.
   name: Amazon EC2 Image Builder DeleteContainerRecipe#containerRecipeArn API
   slug: amazon-ec2-image-builder-deletecontainerrecipe-containerrecipearn-api
-- description: The DeleteDistributionConfiguration#distributionConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for deletedistributionconfiguration#distributionconfigurationarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteDistributionConfiguration#distributionConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for deletedistributionconfiguration#distributionconfigurationarn.
   name: Amazon EC2 Image Builder DeleteDistributionConfiguration#distributionConfigurationArn API
   slug: amazon-ec2-image-builder-deletedistributionconfiguration-distributionconfigurationarn-api
-- description: The DeleteImage#imageBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimage#imagebuildversionarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteImage#imageBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimage#imagebuildversionarn.
   name: Amazon EC2 Image Builder DeleteImage#imageBuildVersionArn API
   slug: amazon-ec2-image-builder-deleteimage-imagebuildversionarn-api
-- description: The DeleteImagePipeline#imagePipelineArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimagepipeline#imagepipelinearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteImagePipeline#imagePipelineArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimagepipeline#imagepipelinearn.
   name: Amazon EC2 Image Builder DeleteImagePipeline#imagePipelineArn API
   slug: amazon-ec2-image-builder-deleteimagepipeline-imagepipelinearn-api
-- description: The DeleteImageRecipe#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimagerecipe#imagerecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteImageRecipe#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteimagerecipe#imagerecipearn.
   name: Amazon EC2 Image Builder DeleteImageRecipe#imageRecipeArn API
   slug: amazon-ec2-image-builder-deleteimagerecipe-imagerecipearn-api
-- description: The DeleteInfrastructureConfiguration#infrastructureConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteinfrastructureconfiguration#infrastructureconfigurationarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteInfrastructureConfiguration#infrastructureConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for deleteinfrastructureconfiguration#infrastructureconfigurationarn.
   name: Amazon EC2 Image Builder DeleteInfrastructureConfiguration#infrastructureConfigurationArn API
   slug: amazon-ec2-image-builder-deleteinfrastructureconfiguration-infrastructureconfigurationarn-api
-- description: The GetComponent#componentBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for getcomponent#componentbuildversionarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetComponent#componentBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for getcomponent#componentbuildversionarn.
   name: Amazon EC2 Image Builder GetComponent#componentBuildVersionArn API
   slug: amazon-ec2-image-builder-getcomponent-componentbuildversionarn-api
-- description: The GetComponentPolicy#componentArn API from Amazon EC2 Image Builder — 1 operation(s) for getcomponentpolicy#componentarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetComponentPolicy#componentArn API from Amazon EC2 Image Builder — 1 operation(s) for getcomponentpolicy#componentarn.
   name: Amazon EC2 Image Builder GetComponentPolicy#componentArn API
   slug: amazon-ec2-image-builder-getcomponentpolicy-componentarn-api
-- description: The GetContainerRecipe#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getcontainerrecipe#containerrecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetContainerRecipe#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getcontainerrecipe#containerrecipearn.
   name: Amazon EC2 Image Builder GetContainerRecipe#containerRecipeArn API
   slug: amazon-ec2-image-builder-getcontainerrecipe-containerrecipearn-api
-- description: The GetContainerRecipePolicy#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getcontainerrecipepolicy#containerrecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetContainerRecipePolicy#containerRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getcontainerrecipepolicy#containerrecipearn.
   name: Amazon EC2 Image Builder GetContainerRecipePolicy#containerRecipeArn API
   slug: amazon-ec2-image-builder-getcontainerrecipepolicy-containerrecipearn-api
-- description: The GetDistributionConfiguration#distributionConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for getdistributionconfiguration#distributionconfigurationarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetDistributionConfiguration#distributionConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for getdistributionconfiguration#distributionconfigurationarn.
   name: Amazon EC2 Image Builder GetDistributionConfiguration#distributionConfigurationArn API
   slug: amazon-ec2-image-builder-getdistributionconfiguration-distributionconfigurationarn-api
-- description: The GetImage#imageBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for getimage#imagebuildversionarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetImage#imageBuildVersionArn API from Amazon EC2 Image Builder — 1 operation(s) for getimage#imagebuildversionarn.
   name: Amazon EC2 Image Builder GetImage#imageBuildVersionArn API
   slug: amazon-ec2-image-builder-getimage-imagebuildversionarn-api
-- description: The GetImagePipeline#imagePipelineArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagepipeline#imagepipelinearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetImagePipeline#imagePipelineArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagepipeline#imagepipelinearn.
   name: Amazon EC2 Image Builder GetImagePipeline#imagePipelineArn API
   slug: amazon-ec2-image-builder-getimagepipeline-imagepipelinearn-api
-- description: The GetImagePolicy#imageArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagepolicy#imagearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetImagePolicy#imageArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagepolicy#imagearn.
   name: Amazon EC2 Image Builder GetImagePolicy#imageArn API
   slug: amazon-ec2-image-builder-getimagepolicy-imagearn-api
-- description: The GetImageRecipe#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagerecipe#imagerecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetImageRecipe#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagerecipe#imagerecipearn.
   name: Amazon EC2 Image Builder GetImageRecipe#imageRecipeArn API
   slug: amazon-ec2-image-builder-getimagerecipe-imagerecipearn-api
-- description: The GetImageRecipePolicy#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagerecipepolicy#imagerecipearn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetImageRecipePolicy#imageRecipeArn API from Amazon EC2 Image Builder — 1 operation(s) for getimagerecipepolicy#imagerecipearn.
   name: Amazon EC2 Image Builder GetImageRecipePolicy#imageRecipeArn API
   slug: amazon-ec2-image-builder-getimagerecipepolicy-imagerecipearn-api
-- description: The GetInfrastructureConfiguration#infrastructureConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for getinfrastructureconfiguration#infrastructureconfigurationarn.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetInfrastructureConfiguration#infrastructureConfigurationArn API from Amazon EC2 Image Builder — 1 operation(s) for getinfrastructureconfiguration#infrastructureconfigurationarn.
   name: Amazon EC2 Image Builder GetInfrastructureConfiguration#infrastructureConfigurationArn API
   slug: amazon-ec2-image-builder-getinfrastructureconfiguration-infrastructureconfigurationarn-api
-- description: The GetWorkflowExecution#workflowExecutionId API from Amazon EC2 Image Builder — 1 operation(s) for getworkflowexecution#workflowexecutionid.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetWorkflowExecution#workflowExecutionId API from Amazon EC2 Image Builder — 1 operation(s) for getworkflowexecution#workflowexecutionid.
   name: Amazon EC2 Image Builder GetWorkflowExecution#workflowExecutionId API
   slug: amazon-ec2-image-builder-getworkflowexecution-workflowexecutionid-api
-- description: The GetWorkflowStepExecution#stepExecutionId API from Amazon EC2 Image Builder — 1 operation(s) for getworkflowstepexecution#stepexecutionid.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The GetWorkflowStepExecution#stepExecutionId API from Amazon EC2 Image Builder — 1 operation(s) for getworkflowstepexecution#stepexecutionid.
   name: Amazon EC2 Image Builder GetWorkflowStepExecution#stepExecutionId API
   slug: amazon-ec2-image-builder-getworkflowstepexecution-stepexecutionid-api
-- description: The ImportComponent API from Amazon EC2 Image Builder — 1 operation(s) for importcomponent.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ImportComponent API from Amazon EC2 Image Builder — 1 operation(s) for importcomponent.
   name: Amazon EC2 Image Builder ImportComponent API
   slug: amazon-ec2-image-builder-importcomponent-api
-- description: The ImportVmImage API from Amazon EC2 Image Builder — 1 operation(s) for importvmimage.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ImportVmImage API from Amazon EC2 Image Builder — 1 operation(s) for importvmimage.
   name: Amazon EC2 Image Builder ImportVmImage API
   slug: amazon-ec2-image-builder-importvmimage-api
-- description: The ListComponentBuildVersions API from Amazon EC2 Image Builder — 1 operation(s) for listcomponentbuildversions.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListComponentBuildVersions API from Amazon EC2 Image Builder — 1 operation(s) for listcomponentbuildversions.
   name: Amazon EC2 Image Builder ListComponentBuildVersions API
   slug: amazon-ec2-image-builder-listcomponentbuildversions-api
-- description: The ListComponents API from Amazon EC2 Image Builder — 1 operation(s) for listcomponents.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListComponents API from Amazon EC2 Image Builder — 1 operation(s) for listcomponents.
   name: Amazon EC2 Image Builder ListComponents API
   slug: amazon-ec2-image-builder-listcomponents-api
-- description: The ListContainerRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listcontainerrecipes.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListContainerRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listcontainerrecipes.
   name: Amazon EC2 Image Builder ListContainerRecipes API
   slug: amazon-ec2-image-builder-listcontainerrecipes-api
-- description: The ListDistributionConfigurations API from Amazon EC2 Image Builder — 1 operation(s) for listdistributionconfigurations.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListDistributionConfigurations API from Amazon EC2 Image Builder — 1 operation(s) for listdistributionconfigurations.
   name: Amazon EC2 Image Builder ListDistributionConfigurations API
   slug: amazon-ec2-image-builder-listdistributionconfigurations-api
-- description: The ListImageBuildVersions API from Amazon EC2 Image Builder — 1 operation(s) for listimagebuildversions.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImageBuildVersions API from Amazon EC2 Image Builder — 1 operation(s) for listimagebuildversions.
   name: Amazon EC2 Image Builder ListImageBuildVersions API
   slug: amazon-ec2-image-builder-listimagebuildversions-api
-- description: The ListImagePackages API from Amazon EC2 Image Builder — 1 operation(s) for listimagepackages.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImagePackages API from Amazon EC2 Image Builder — 1 operation(s) for listimagepackages.
   name: Amazon EC2 Image Builder ListImagePackages API
   slug: amazon-ec2-image-builder-listimagepackages-api
-- description: The ListImagePipelineImages API from Amazon EC2 Image Builder — 1 operation(s) for listimagepipelineimages.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImagePipelineImages API from Amazon EC2 Image Builder — 1 operation(s) for listimagepipelineimages.
   name: Amazon EC2 Image Builder ListImagePipelineImages API
   slug: amazon-ec2-image-builder-listimagepipelineimages-api
-- description: The ListImagePipelines API from Amazon EC2 Image Builder — 1 operation(s) for listimagepipelines.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImagePipelines API from Amazon EC2 Image Builder — 1 operation(s) for listimagepipelines.
   name: Amazon EC2 Image Builder ListImagePipelines API
   slug: amazon-ec2-image-builder-listimagepipelines-api
-- description: The ListImageRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listimagerecipes.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImageRecipes API from Amazon EC2 Image Builder — 1 operation(s) for listimagerecipes.
   name: Amazon EC2 Image Builder ListImageRecipes API
   slug: amazon-ec2-image-builder-listimagerecipes-api
-- description: The ListImages API from Amazon EC2 Image Builder — 1 operation(s) for listimages.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImages API from Amazon EC2 Image Builder — 1 operation(s) for listimages.
   name: Amazon EC2 Image Builder ListImages API
   slug: amazon-ec2-image-builder-listimages-api
-- description: The ListImageScanFindingAggregations API from Amazon EC2 Image Builder — 1 operation(s) for listimagescanfindingaggregations.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImageScanFindingAggregations API from Amazon EC2 Image Builder — 1 operation(s) for listimagescanfindingaggregations.
   name: Amazon EC2 Image Builder ListImageScanFindingAggregations API
   slug: amazon-ec2-image-builder-listimagescanfindingaggregations-api
-- description: The ListImageScanFindings API from Amazon EC2 Image Builder — 1 operation(s) for listimagescanfindings.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListImageScanFindings API from Amazon EC2 Image Builder — 1 operation(s) for listimagescanfindings.
   name: Amazon EC2 Image Builder ListImageScanFindings API
   slug: amazon-ec2-image-builder-listimagescanfindings-api
-- description: The ListInfrastructureConfigurations API from Amazon EC2 Image Builder — 1 operation(s) for listinfrastructureconfigurations.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListInfrastructureConfigurations API from Amazon EC2 Image Builder — 1 operation(s) for listinfrastructureconfigurations.
   name: Amazon EC2 Image Builder ListInfrastructureConfigurations API
   slug: amazon-ec2-image-builder-listinfrastructureconfigurations-api
-- description: The ListWorkflowExecutions API from Amazon EC2 Image Builder — 1 operation(s) for listworkflowexecutions.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorkflowExecutions API from Amazon EC2 Image Builder — 1 operation(s) for listworkflowexecutions.
   name: Amazon EC2 Image Builder ListWorkflowExecutions API
   slug: amazon-ec2-image-builder-listworkflowexecutions-api
-- description: The ListWorkflowStepExecutions API from Amazon EC2 Image Builder — 1 operation(s) for listworkflowstepexecutions.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The ListWorkflowStepExecutions API from Amazon EC2 Image Builder — 1 operation(s) for listworkflowstepexecutions.
   name: Amazon EC2 Image Builder ListWorkflowStepExecutions API
   slug: amazon-ec2-image-builder-listworkflowstepexecutions-api
-- description: The PutComponentPolicy API from Amazon EC2 Image Builder — 1 operation(s) for putcomponentpolicy.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The PutComponentPolicy API from Amazon EC2 Image Builder — 1 operation(s) for putcomponentpolicy.
   name: Amazon EC2 Image Builder PutComponentPolicy API
   slug: amazon-ec2-image-builder-putcomponentpolicy-api
-- description: The PutContainerRecipePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putcontainerrecipepolicy.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The PutContainerRecipePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putcontainerrecipepolicy.
   name: Amazon EC2 Image Builder PutContainerRecipePolicy API
   slug: amazon-ec2-image-builder-putcontainerrecipepolicy-api
-- description: The PutImagePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putimagepolicy.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The PutImagePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putimagepolicy.
   name: Amazon EC2 Image Builder PutImagePolicy API
   slug: amazon-ec2-image-builder-putimagepolicy-api
-- description: The PutImageRecipePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putimagerecipepolicy.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The PutImageRecipePolicy API from Amazon EC2 Image Builder — 1 operation(s) for putimagerecipepolicy.
   name: Amazon EC2 Image Builder PutImageRecipePolicy API
   slug: amazon-ec2-image-builder-putimagerecipepolicy-api
-- description: The StartImagePipelineExecution API from Amazon EC2 Image Builder — 1 operation(s) for startimagepipelineexecution.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The StartImagePipelineExecution API from Amazon EC2 Image Builder — 1 operation(s) for startimagepipelineexecution.
   name: Amazon EC2 Image Builder StartImagePipelineExecution API
   slug: amazon-ec2-image-builder-startimagepipelineexecution-api
-- description: The Tags API from Amazon EC2 Image Builder — 2 operation(s) for tags.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon EC2 Image Builder — 2 operation(s) for tags.
   name: Amazon EC2 Image Builder Tags API
   slug: amazon-ec2-image-builder-tags-api
-- description: The UpdateDistributionConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for updatedistributionconfiguration.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateDistributionConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for updatedistributionconfiguration.
   name: Amazon EC2 Image Builder UpdateDistributionConfiguration API
   slug: amazon-ec2-image-builder-updatedistributionconfiguration-api
-- description: The UpdateImagePipeline API from Amazon EC2 Image Builder — 1 operation(s) for updateimagepipeline.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateImagePipeline API from Amazon EC2 Image Builder — 1 operation(s) for updateimagepipeline.
   name: Amazon EC2 Image Builder UpdateImagePipeline API
   slug: amazon-ec2-image-builder-updateimagepipeline-api
-- description: The UpdateInfrastructureConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for updateinfrastructureconfiguration.
+- baseURL: https://imagebuilder.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateInfrastructureConfiguration API from Amazon EC2 Image Builder — 1 operation(s) for updateinfrastructureconfiguration.
   name: Amazon EC2 Image Builder UpdateInfrastructureConfiguration API
   slug: amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 arazzos:
@@ -3873,7 +3981,7 @@ score:
       marker_coverage: 0.0
       total: 54
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:

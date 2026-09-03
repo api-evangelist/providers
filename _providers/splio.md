@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,61 +35,95 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
   name: Splio Referral API
   slug: splio-referral-api
-- description: The Blacklist API from Splio — 4 operation(s) for blacklist.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Blacklist API from Splio — 4 operation(s) for blacklist.
   name: Splio Blacklist API
   slug: splio-blacklist-api
-- description: The Contact API from Splio — 13 operation(s) for contact.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Contact API from Splio — 13 operation(s) for contact.
   name: Splio Contact API
   slug: splio-contact-api
-- description: The Coupon API from Splio — 1 operation(s) for coupon.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Coupon API from Splio — 1 operation(s) for coupon.
   name: Splio Coupon API
   slug: splio-coupon-api
-- description: The Export API from Splio — 1 operation(s) for export.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Export API from Splio — 1 operation(s) for export.
   name: Splio Export API
   slug: splio-export-api
-- description: The Fields API from Splio — 9 operation(s) for fields.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Fields API from Splio — 9 operation(s) for fields.
   name: Splio Fields API
   slug: splio-fields-api
-- description: The Filter API from Splio — 1 operation(s) for filter.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Filter API from Splio — 1 operation(s) for filter.
   name: Splio Filter API
   slug: splio-filter-api
-- description: The General API from Splio — 2 operation(s) for general.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The General API from Splio — 2 operation(s) for general.
   name: Splio General API
   slug: splio-general-api
-- description: The Group API from Splio — 5 operation(s) for group.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Group API from Splio — 5 operation(s) for group.
   name: Splio Group API
   slug: splio-group-api
-- description: The Loyalty API from Splio — 1 operation(s) for loyalty.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Loyalty API from Splio — 1 operation(s) for loyalty.
   name: Splio Loyalty API
   slug: splio-loyalty-api
-- description: The Members API from Splio — 6 operation(s) for members.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Members API from Splio — 6 operation(s) for members.
   name: Splio Members API
   slug: splio-members-api
-- description: The One Shot API from Splio — 3 operation(s) for one shot.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The One Shot API from Splio — 3 operation(s) for one shot.
   name: Splio One Shot API
   slug: splio-one-shot-api
-- description: The Points API from Splio — 2 operation(s) for points.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Points API from Splio — 2 operation(s) for points.
   name: Splio Points API
   slug: splio-points-api
-- description: The Programs API from Splio — 4 operation(s) for programs.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Programs API from Splio — 4 operation(s) for programs.
   name: Splio Programs API
   slug: splio-programs-api
-- description: The Reward API from Splio — 11 operation(s) for reward.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Reward API from Splio — 11 operation(s) for reward.
   name: Splio Reward API
   slug: splio-reward-api
-- description: The Reward stock and codes API from Splio — 1 operation(s) for reward stock and codes.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Reward stock and codes API from Splio — 1 operation(s) for reward stock and codes.
   name: Splio Reward stock and codes API
   slug: splio-reward-stock-and-codes-api
-- description: The Sales data API from Splio — 14 operation(s) for sales data.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Sales data API from Splio — 14 operation(s) for sales data.
   name: Splio Sales data API
   slug: splio-sales-data-api
-- description: The Universe API from Splio — 2 operation(s) for universe.
+- baseURL: https://api.splio.com
+  baseurl_source: declared
+  description: The Universe API from Splio — 2 operation(s) for universe.
   name: Splio Universe API
   slug: splio-universe-api
 artifact_total: 22
@@ -277,23 +323,23 @@ rate_limits:
   slug: splio-rate-limits
 score:
   band: developing
-  composite: 51.0
+  composite: 51.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.2
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
-    contract_quality: 52.7
+    contract_quality: 53.4
     developer_ergonomics: 51.8
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.3
+  previous_composite: 51.0
   provenance:
     conformance: first-party
     contracts:
@@ -314,8 +360,9 @@ score:
     regime_id: telecommunications
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png
 security:
 - kind: authentication
   name: Splio Authentication

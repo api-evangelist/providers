@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -54,67 +54,109 @@ apis:
 - description: REST endpoints for SPAs and front-end applications to retrieve JSON representations of available channels, pages, and documents from the Bloomreach headless CMS.
   name: Bloomreach Content Delivery API
   slug: bloomreach-content-delivery-api
-- description: The Autosuggest API v2 API from Bloomreach — 1 operation(s) for autosuggest api v2.
+- baseURL: https://suggest.dxpapi.com/api/v2/suggest
+  baseurl_source: declared
+  description: The Autosuggest API v2 API from Bloomreach — 1 operation(s) for autosuggest api v2.
   name: Bloomreach Autosuggest API v2 API
   slug: bloomreach-autosuggest-api-v2-api
-- description: The Bestseller API v1 API from Bloomreach — 1 operation(s) for bestseller api v1.
+- baseURL: https://core.dxpapi.com/api/v1/core
+  baseurl_source: declared
+  description: The Bestseller API v1 API from Bloomreach — 1 operation(s) for bestseller api v1.
   name: Bloomreach Bestseller API v1 API
   slug: bloomreach-bestseller-api-v1-api
-- description: The Catalog configuration API from Bloomreach — 3 operation(s) for catalog configuration.
+- baseURL: https://discovery.bloomreach.com/dataconnect/api/v3
+  baseurl_source: declared
+  description: The Catalog configuration API from Bloomreach — 3 operation(s) for catalog configuration.
   name: Bloomreach Catalog configuration API
   slug: bloomreach-catalog-configuration-api
-- description: The Category-based widget API from Bloomreach — 1 operation(s) for category-based widget.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Category-based widget API from Bloomreach — 1 operation(s) for category-based widget.
   name: Bloomreach Category-based widget API
   slug: bloomreach-category-based-widget-api
-- description: The Category-based Widget Products API from Bloomreach — 2 operation(s) for category-based widget products.
+- baseURL: https://pathways-email.dxpapi.com
+  baseurl_source: declared
+  description: The Category-based Widget Products API from Bloomreach — 2 operation(s) for category-based widget products.
   name: Bloomreach Category-based Widget Products API
   slug: bloomreach-category-based-widget-products-api
-- description: The Content Search API v1 API from Bloomreach — 1 operation(s) for content search api v1.
+- baseURL: https://core.dxpapi.com/api/v1/core
+  baseurl_source: declared
+  description: The Content Search API v1 API from Bloomreach — 1 operation(s) for content search api v1.
   name: Bloomreach Content Search API v1 API
   slug: bloomreach-content-search-api-v1-api
-- description: The Feed indexing API from Bloomreach — 1 operation(s) for feed indexing.
+- baseURL: https://discovery.bloomreach.com/dataconnect/api/v3
+  baseurl_source: declared
+  description: The Feed indexing API from Bloomreach — 1 operation(s) for feed indexing.
   name: Bloomreach Feed indexing API
   slug: bloomreach-feed-indexing-api
-- description: The Global Recommendation Widget Products API from Bloomreach — 2 operation(s) for global recommendation widget products.
+- baseURL: https://pathways-email.dxpapi.com
+  baseurl_source: declared
+  description: The Global Recommendation Widget Products API from Bloomreach — 2 operation(s) for global recommendation widget products.
   name: Bloomreach Global Recommendation Widget Products API
   slug: bloomreach-global-recommendation-widget-products-api
-- description: The Global recommendations widget API from Bloomreach — 1 operation(s) for global recommendations widget.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Global recommendations widget API from Bloomreach — 1 operation(s) for global recommendations widget.
   name: Bloomreach Global recommendations widget API
   slug: bloomreach-global-recommendations-widget-api
-- description: Operations for working with existing imports.
+- baseURL: https://api.bloomreach.com
+  baseurl_source: declared
+  description: Operations for working with existing imports.
   name: Bloomreach Imports API
   slug: bloomreach-imports-api
-- description: The Item-based recommendation widget API from Bloomreach — 1 operation(s) for item-based recommendation widget.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Item-based recommendation widget API from Bloomreach — 1 operation(s) for item-based recommendation widget.
   name: Bloomreach Item-based recommendation widget API
   slug: bloomreach-item-based-recommendation-widget-api
-- description: The Item-based Recommendation Widget Products API from Bloomreach — 2 operation(s) for item-based recommendation widget products.
+- baseURL: https://pathways-email.dxpapi.com
+  baseurl_source: declared
+  description: The Item-based Recommendation Widget Products API from Bloomreach — 2 operation(s) for item-based recommendation widget products.
   name: Bloomreach Item-based Recommendation Widget Products API
   slug: bloomreach-item-based-recommendation-widget-products-api
-- description: The Job processing API from Bloomreach — 2 operation(s) for job processing.
+- baseURL: https://discovery.bloomreach.com/dataconnect/api/v3
+  baseurl_source: declared
+  description: The Job processing API from Bloomreach — 2 operation(s) for job processing.
   name: Bloomreach Job processing API
   slug: bloomreach-job-processing-api
-- description: The Keyword-based widget API from Bloomreach — 1 operation(s) for keyword-based widget.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Keyword-based widget API from Bloomreach — 1 operation(s) for keyword-based widget.
   name: Bloomreach Keyword-based widget API
   slug: bloomreach-keyword-based-widget-api
-- description: The Keyword-based Widget Products API from Bloomreach — 2 operation(s) for keyword-based widget products.
+- baseURL: https://pathways-email.dxpapi.com
+  baseurl_source: declared
+  description: The Keyword-based Widget Products API from Bloomreach — 2 operation(s) for keyword-based widget products.
   name: Bloomreach Keyword-based Widget Products API
   slug: bloomreach-keyword-based-widget-products-api
-- description: The Manage feed records API from Bloomreach — 8 operation(s) for manage feed records.
+- baseURL: https://discovery.bloomreach.com/dataconnect/api/v3
+  baseurl_source: declared
+  description: The Manage feed records API from Bloomreach — 8 operation(s) for manage feed records.
   name: Bloomreach Manage feed records API
   slug: bloomreach-manage-feed-records-api
-- description: The Personalization-based Widget Products API from Bloomreach — 2 operation(s) for personalization-based widget products.
+- baseURL: https://pathways-email.dxpapi.com
+  baseurl_source: declared
+  description: The Personalization-based Widget Products API from Bloomreach — 2 operation(s) for personalization-based widget products.
   name: Bloomreach Personalization-based Widget Products API
   slug: bloomreach-personalization-based-widget-products-api
-- description: The Personalization-based widgets API from Bloomreach — 2 operation(s) for personalization-based widgets.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Personalization-based widgets API from Bloomreach — 2 operation(s) for personalization-based widgets.
   name: Bloomreach Personalization-based widgets API
   slug: bloomreach-personalization-based-widgets-api
-- description: The Product & Category Search API v1 API from Bloomreach — 1 operation(s) for product & category search api v1.
+- baseURL: https://core.dxpapi.com/api/v1/core
+  baseurl_source: declared
+  description: The Product & Category Search API v1 API from Bloomreach — 1 operation(s) for product & category search api v1.
   name: Bloomreach Product & Category Search API v1 API
   slug: bloomreach-product-category-search-api-v1-api
-- description: The View Catalogs data API from Bloomreach — 2 operation(s) for view catalogs data.
+- baseURL: https://discovery.bloomreach.com/dataconnect/api/v3
+  baseurl_source: declared
+  description: The View Catalogs data API from Bloomreach — 2 operation(s) for view catalogs data.
   name: Bloomreach View Catalogs data API
   slug: bloomreach-view-catalogs-data-api
-- description: The Visual search API from Bloomreach — 2 operation(s) for visual search.
+- baseURL: https://pathways.dxpapi.com/api/v2/widgets
+  baseurl_source: declared
+  description: The Visual search API from Bloomreach — 2 operation(s) for visual search.
   name: Bloomreach Visual search API
   slug: bloomreach-visual-search-api
 artifact_total: 65
@@ -470,7 +512,7 @@ score:
     catalog_gap: 26.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -480,7 +522,7 @@ score:
     discoverability: 66.7
     governance: 43.2
     operational_transparency: 81.6
-  previous_composite: 70.8
+  previous_composite: 70.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -492,7 +534,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomreach/refs/heads/main/screenshots/bloomreach-2026-08-17T083224.png
 security:

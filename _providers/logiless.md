@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 商品マスタ / 商品対応表 — product master and mapping
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 商品マスタ / 商品対応表 — product master and mapping
   name: Logiless Articles API
   slug: logiless-articles-api
-- description: 入荷予定伝票 — expected inbound shipments
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 入荷予定伝票 — expected inbound shipments
   name: Logiless Inbound Deliveries API
   slug: logiless-inbound-deliveries-api
-- description: 倉庫間移動伝票 — stock transfers between warehouses
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 倉庫間移動伝票 — stock transfers between warehouses
   name: Logiless Inter-Warehouse Transfers API
   slug: logiless-inter-warehouse-transfers-api
-- description: 在庫 / 保管状況 / 日次在庫表 / 在庫操作ログ / 倉庫別発注点 — inventory & storage summaries
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 在庫 / 保管状況 / 日次在庫表 / 在庫操作ログ / 倉庫別発注点 — inventory & storage summaries
   name: Logiless Inventory API
   slug: logiless-inventory-api
-- description: 店舗 / 倉庫 / ロケーション — stores, warehouses and locations
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 店舗 / 倉庫 / ロケーション — stores, warehouses and locations
   name: Logiless Locations API
   slug: logiless-locations-api
-- description: 出荷伝票 — shipment records
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 出荷伝票 — shipment records
   name: Logiless Outbound Deliveries API
   slug: logiless-outbound-deliveries-api
-- description: 受注伝票 — order intake, editing, confirmation and reversal
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 受注伝票 — order intake, editing, confirmation and reversal
   name: Logiless Sales Orders API
   slug: logiless-sales-orders-api
-- description: 売上返品 — returns
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 売上返品 — returns
   name: Logiless Sales Returns API
   slug: logiless-sales-returns-api
-- description: 仕入先マスタ — supplier master
+- baseURL: https://app2.logiless.com/api/v1
+  baseurl_source: declared
+  description: 仕入先マスタ — supplier master
   name: Logiless Suppliers API
   slug: logiless-suppliers-api
 artifact_total: 24
@@ -263,7 +281,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiless/refs/heads/main/screenshots/logiless-2026-07-25T225502.png
 security:

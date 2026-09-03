@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The copyright API from Flipp (Wishabi) — 1 operation(s) for copyright.
+- baseURL: https://api.flipp.com/flyerkit/v4.0
+  baseurl_source: declared
+  description: The copyright API from Flipp (Wishabi) — 1 operation(s) for copyright.
   name: Flipp (Wishabi) Copyright API
   slug: flipp-wishabi-copyright-api
-- description: The fsa API from Flipp (Wishabi) — 1 operation(s) for fsa.
+- baseURL: https://api.flipp.com/flyerkit/v4.0
+  baseurl_source: declared
+  description: The fsa API from Flipp (Wishabi) — 1 operation(s) for fsa.
   name: Flipp (Wishabi) Fsa API
   slug: flipp-wishabi-fsa-api
-- description: The products API from Flipp (Wishabi) — 4 operation(s) for products.
+- baseURL: https://api.flipp.com/flyerkit/v4.0
+  baseurl_source: declared
+  description: The products API from Flipp (Wishabi) — 4 operation(s) for products.
   name: Flipp (Wishabi) Products API
   slug: flipp-wishabi-products-api
-- description: The publications API from Flipp (Wishabi) — 5 operation(s) for publications.
+- baseURL: https://api.flipp.com/flyerkit/v4.0
+  baseurl_source: declared
+  description: The publications API from Flipp (Wishabi) — 5 operation(s) for publications.
   name: Flipp (Wishabi) Publications API
   slug: flipp-wishabi-publications-api
-- description: The stores API from Flipp (Wishabi) — 1 operation(s) for stores.
+- baseURL: https://api.flipp.com/flyerkit/v4.0
+  baseurl_source: declared
+  description: The stores API from Flipp (Wishabi) — 1 operation(s) for stores.
   name: Flipp (Wishabi) Stores API
   slug: flipp-wishabi-stores-api
 artifact_total: 10
@@ -216,7 +226,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
 security:

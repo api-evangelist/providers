@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 72 operations · 24 acting
 api_count: 2
 apis:
-- description: The auth API from TVmaze — 3 operation(s) for auth.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The auth API from TVmaze — 3 operation(s) for auth.
   name: TVmaze auth API
   slug: tvmaze-auth-api
-- description: Individual episode details including guest cast and crew.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Individual episode details including guest cast and crew.
   name: TVmaze Episodes API
   slug: tvmaze-episodes-api
-- description: The followed networks API from TVmaze — 2 operation(s) for followed networks.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The followed networks API from TVmaze — 2 operation(s) for followed networks.
   name: TVmaze followed networks API
   slug: tvmaze-followed-networks-api
-- description: The followed people API from TVmaze — 2 operation(s) for followed people.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The followed people API from TVmaze — 2 operation(s) for followed people.
   name: TVmaze followed people API
   slug: tvmaze-followed-people-api
-- description: The followed shows API from TVmaze — 2 operation(s) for followed shows.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The followed shows API from TVmaze — 2 operation(s) for followed shows.
   name: TVmaze followed shows API
   slug: tvmaze-followed-shows-api
-- description: The followed webchannels API from TVmaze — 2 operation(s) for followed webchannels.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The followed webchannels API from TVmaze — 2 operation(s) for followed webchannels.
   name: TVmaze followed webchannels API
   slug: tvmaze-followed-webchannels-api
-- description: The marked episodes API from TVmaze — 2 operation(s) for marked episodes.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The marked episodes API from TVmaze — 2 operation(s) for marked episodes.
   name: TVmaze marked episodes API
   slug: tvmaze-marked-episodes-api
-- description: Person profiles, cast credits, and crew credits.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Person profiles, cast credits, and crew credits.
   name: TVmaze People API
   slug: tvmaze-people-api
-- description: Daily and rolling TV and web/streaming schedules.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Daily and rolling TV and web/streaming schedules.
   name: TVmaze Schedule API
   slug: tvmaze-schedule-api
-- description: The scrobbling API from TVmaze — 4 operation(s) for scrobbling.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The scrobbling API from TVmaze — 4 operation(s) for scrobbling.
   name: TVmaze scrobbling API
   slug: tvmaze-scrobbling-api
-- description: Free-text search and lookup endpoints for shows and people.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Free-text search and lookup endpoints for shows and people.
   name: TVmaze Search API
   slug: tvmaze-search-api
-- description: Season-level metadata and episode listings.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Season-level metadata and episode listings.
   name: TVmaze Seasons API
   slug: tvmaze-seasons-api
-- description: Show metadata, episodes, seasons, cast, crew, images, and aliases.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Show metadata, episodes, seasons, cast, crew, images, and aliases.
   name: TVmaze Shows API
   slug: tvmaze-shows-api
-- description: The tagged shows API from TVmaze — 4 operation(s) for tagged shows.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The tagged shows API from TVmaze — 4 operation(s) for tagged shows.
   name: TVmaze tagged shows API
   slug: tvmaze-tagged-shows-api
-- description: Bulk timestamps useful for incremental sync of shows and people.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: Bulk timestamps useful for incremental sync of shows and people.
   name: TVmaze Updates API
   slug: tvmaze-updates-api
-- description: The voted episodes API from TVmaze — 2 operation(s) for voted episodes.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The voted episodes API from TVmaze — 2 operation(s) for voted episodes.
   name: TVmaze voted episodes API
   slug: tvmaze-voted-episodes-api
-- description: The voted shows API from TVmaze — 2 operation(s) for voted shows.
+- baseURL: https://api.tvmaze.com
+  baseurl_source: declared
+  description: The voted shows API from TVmaze — 2 operation(s) for voted shows.
   name: TVmaze voted shows API
   slug: tvmaze-voted-shows-api
 artifact_total: 170
@@ -684,7 +718,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

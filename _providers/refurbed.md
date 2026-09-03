@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The BuybackBidService API from Refurbed — 8 operation(s) for buybackbidservice.
   name: Refurbed BuybackBidService API
   slug: refurbed-buybackbidservice-api
-- description: The BuybackOrderItemService API from Refurbed — 6 operation(s) for buybackorderitemservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The BuybackOrderItemService API from Refurbed — 6 operation(s) for buybackorderitemservice.
   name: Refurbed BuybackOrderItemService API
   slug: refurbed-buybackorderitemservice-api
-- description: The BuybackOrderService API from Refurbed — 1 operation(s) for buybackorderservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The BuybackOrderService API from Refurbed — 1 operation(s) for buybackorderservice.
   name: Refurbed BuybackOrderService API
   slug: refurbed-buybackorderservice-api
-- description: The BuybackProductService API from Refurbed — 1 operation(s) for buybackproductservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The BuybackProductService API from Refurbed — 1 operation(s) for buybackproductservice.
   name: Refurbed BuybackProductService API
   slug: refurbed-buybackproductservice-api
-- description: The BuybackSupplyboxService API from Refurbed — 1 operation(s) for buybacksupplyboxservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The BuybackSupplyboxService API from Refurbed — 1 operation(s) for buybacksupplyboxservice.
   name: Refurbed BuybackSupplyboxService API
   slug: refurbed-buybacksupplyboxservice-api
-- description: The CatalogService API from Refurbed — 1 operation(s) for catalogservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The CatalogService API from Refurbed — 1 operation(s) for catalogservice.
   name: Refurbed CatalogService API
   slug: refurbed-catalogservice-api
-- description: The CurrencyService API from Refurbed — 2 operation(s) for currencyservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The CurrencyService API from Refurbed — 2 operation(s) for currencyservice.
   name: Refurbed CurrencyService API
   slug: refurbed-currencyservice-api
-- description: The InstanceService API from Refurbed — 4 operation(s) for instanceservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The InstanceService API from Refurbed — 4 operation(s) for instanceservice.
   name: Refurbed InstanceService API
   slug: refurbed-instanceservice-api
-- description: The MarketOfferService API from Refurbed — 10 operation(s) for marketofferservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The MarketOfferService API from Refurbed — 10 operation(s) for marketofferservice.
   name: Refurbed MarketOfferService API
   slug: refurbed-marketofferservice-api
-- description: The MarketService API from Refurbed — 4 operation(s) for marketservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The MarketService API from Refurbed — 4 operation(s) for marketservice.
   name: Refurbed MarketService API
   slug: refurbed-marketservice-api
-- description: The MerchantService API from Refurbed — 4 operation(s) for merchantservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The MerchantService API from Refurbed — 4 operation(s) for merchantservice.
   name: Refurbed MerchantService API
   slug: refurbed-merchantservice-api
-- description: The OfferService API from Refurbed — 9 operation(s) for offerservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The OfferService API from Refurbed — 9 operation(s) for offerservice.
   name: Refurbed OfferService API
   slug: refurbed-offerservice-api
-- description: The OrderItemReturnService API from Refurbed — 1 operation(s) for orderitemreturnservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The OrderItemReturnService API from Refurbed — 1 operation(s) for orderitemreturnservice.
   name: Refurbed OrderItemReturnService API
   slug: refurbed-orderitemreturnservice-api
-- description: The OrderItemService API from Refurbed — 8 operation(s) for orderitemservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The OrderItemService API from Refurbed — 8 operation(s) for orderitemservice.
   name: Refurbed OrderItemService API
   slug: refurbed-orderitemservice-api
-- description: The OrderService API from Refurbed — 13 operation(s) for orderservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The OrderService API from Refurbed — 13 operation(s) for orderservice.
   name: Refurbed OrderService API
   slug: refurbed-orderservice-api
-- description: The ProductService API from Refurbed — 2 operation(s) for productservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The ProductService API from Refurbed — 2 operation(s) for productservice.
   name: Refurbed ProductService API
   slug: refurbed-productservice-api
-- description: The ShippingProfileService API from Refurbed — 6 operation(s) for shippingprofileservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The ShippingProfileService API from Refurbed — 6 operation(s) for shippingprofileservice.
   name: Refurbed ShippingProfileService API
   slug: refurbed-shippingprofileservice-api
-- description: The TicketService API from Refurbed — 10 operation(s) for ticketservice.
+- baseURL: https://api.refurbed.com
+  baseurl_source: declared
+  description: The TicketService API from Refurbed — 10 operation(s) for ticketservice.
   name: Refurbed TicketService API
   slug: refurbed-ticketservice-api
 artifact_total: 41
@@ -267,7 +303,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -298,8 +334,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/refurbed/refs/heads/main/screenshots/refurbed-2026-09-02T153236.png
 security:
 - kind: authentication
   name: Refurbed Authentication

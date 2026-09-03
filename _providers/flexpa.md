@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 15 operations · 2 acting
 api_count: 1
 apis:
-- description: The Access Tokens API from Flexpa — 1 operation(s) for access tokens.
+- baseURL: https://api.flexpa.com
+  baseurl_source: declared
+  description: The Access Tokens API from Flexpa — 1 operation(s) for access tokens.
   name: Flexpa Access Tokens API
   slug: flexpa-access-tokens-api
-- description: The Claims Data API from Flexpa — 5 operation(s) for claims data.
+- baseURL: https://api.flexpa.com
+  baseurl_source: declared
+  description: The Claims Data API from Flexpa — 5 operation(s) for claims data.
   name: Flexpa Claims Data API
   slug: flexpa-claims-data-api
-- description: The FHIR API from Flexpa — 8 operation(s) for fhir.
+- baseURL: https://api.flexpa.com
+  baseurl_source: declared
+  description: The FHIR API from Flexpa — 8 operation(s) for fhir.
   name: Flexpa FHIR API
   slug: flexpa-fhir-api
-- description: The Link API from Flexpa — 1 operation(s) for link.
+- baseURL: https://api.flexpa.com
+  baseurl_source: declared
+  description: The Link API from Flexpa — 1 operation(s) for link.
   name: Flexpa Link API
   slug: flexpa-link-api
 artifact_total: 20
@@ -291,7 +299,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -301,7 +309,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 73.3
+  previous_composite: 73.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,7 +327,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png
 security:

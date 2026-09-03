@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: Official Helm charts for deploying Vector on Kubernetes as a DaemonSet (agent mode) or Deployment (aggregator mode).
   name: Vector Helm Charts
   slug: vector-helm
-- description: Health check endpoints for load balancers and Kubernetes probes.
+- baseURL: http://127.0.0.1:8686
+  baseurl_source: declared
+  description: Health check endpoints for load balancers and Kubernetes probes.
   name: Vector Health API
   slug: vector-health-api
 artifact_total: 40
@@ -259,7 +261,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vector/refs/heads/main/screenshots/vector-2026-06-20T200848.png
 security:

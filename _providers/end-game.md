@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 2
 apis:
-- description: The public Threads API from Endgame — 5 operations (create, get, list, rename, delete) rooted at /api/v1 on https://app.endgame.io, authenticated with a Bearer eak_ API key or a WorkOS M2M access toke
+- baseURL: https://app.endgame.io
+  baseurl_source: declared
+  description: The public Threads API from Endgame — 5 operations (create, get, list, rename, delete) rooted at /api/v1 on https://app.endgame.io, authenticated with a Bearer eak_ API key or a WorkOS M2M access toke
   name: Endgame Threads API
   slug: end-game-threads-api
-- description: The Internal API from Endgame — 3 operation(s) for internal.
+- baseURL: https://app.endgame.io
+  baseurl_source: declared
+  description: The Internal API from Endgame — 3 operation(s) for internal.
   name: Endgame Internal API
   slug: end-game-internal-api
-- description: The Protected Static API from Endgame — 2 operation(s) for protected static.
+- baseURL: https://app.endgame.io
+  baseurl_source: declared
+  description: The Protected Static API from Endgame — 2 operation(s) for protected static.
   name: Endgame Protected Static API
   slug: end-game-protected-static-api
 artifact_total: 14
@@ -302,7 +308,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/screenshots/end-game-2026-07-25T213310.png
 security:

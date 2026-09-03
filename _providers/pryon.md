@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -33,76 +44,124 @@ agentic_access:
   summary_line: 276 operations · 146 acting
 api_count: 22
 apis:
-- description: The Analytics API from Pryon — 8 operation(s) for analytics.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Analytics API from Pryon — 8 operation(s) for analytics.
   name: Pryon Analytics API
   slug: pryon-analytics-api
-- description: The ConnectorServiceExternal API from Pryon — 11 operation(s) for connectorserviceexternal.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The ConnectorServiceExternal API from Pryon — 11 operation(s) for connectorserviceexternal.
   name: Pryon Connector Service External API
   slug: pryon-connectorserviceexternal-api
-- description: The Content Service API from Pryon — 16 operation(s) for content service.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Content Service API from Pryon — 16 operation(s) for content service.
   name: Pryon Content Service API
   slug: pryon-content-service-api
-- description: The ContentService API from Pryon — 13 operation(s) for contentservice.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The ContentService API from Pryon — 13 operation(s) for contentservice.
   name: Pryon Content Service API
   slug: pryon-contentservice-api
-- description: The Exchange API from Pryon — 3 operation(s) for exchange.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Exchange API from Pryon — 3 operation(s) for exchange.
   name: Pryon Exchange API
   slug: pryon-exchange-api
-- description: The ExchangeEvent API from Pryon — 1 operation(s) for exchangeevent.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The ExchangeEvent API from Pryon — 1 operation(s) for exchangeevent.
   name: Pryon Exchange Event API
   slug: pryon-exchangeevent-api
-- description: The Feedback API from Pryon — 9 operation(s) for feedback.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Feedback API from Pryon — 9 operation(s) for feedback.
   name: Pryon Feedback API
   slug: pryon-feedback-api
-- description: The Generative API from Pryon — 6 operation(s) for generative.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Generative API from Pryon — 6 operation(s) for generative.
   name: Pryon Generative API
   slug: pryon-generative-api
-- description: The GenerativeExchange API from Pryon — 3 operation(s) for generativeexchange.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The GenerativeExchange API from Pryon — 3 operation(s) for generativeexchange.
   name: Pryon Generative Exchange API
   slug: pryon-generativeexchange-api
-- description: The GenerativeFeedback API from Pryon — 6 operation(s) for generativefeedback.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The GenerativeFeedback API from Pryon — 6 operation(s) for generativefeedback.
   name: Pryon Generative Feedback API
   slug: pryon-generativefeedback-api
-- description: The GenerativeRetrieval API from Pryon — 2 operation(s) for generativeretrieval.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The GenerativeRetrieval API from Pryon — 2 operation(s) for generativeretrieval.
   name: Pryon Generative Retrieval API
   slug: pryon-generativeretrieval-api
-- description: The GenerativeRetrievalFeedback API from Pryon — 6 operation(s) for generativeretrievalfeedback.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The GenerativeRetrievalFeedback API from Pryon — 6 operation(s) for generativeretrievalfeedback.
   name: Pryon Generative Retrieval Feedback API
   slug: pryon-generativeretrievalfeedback-api
-- description: The Knowledge Collection Service API from Pryon — 1 operation(s) for knowledge collection service.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Knowledge Collection Service API from Pryon — 1 operation(s) for knowledge collection service.
   name: Pryon Knowledge Collection Service API
   slug: pryon-knowledge-collection-service-api
-- description: The KnowledgeCollectionService API from Pryon — 11 operation(s) for knowledgecollectionservice.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The KnowledgeCollectionService API from Pryon — 11 operation(s) for knowledgecollectionservice.
   name: Pryon Knowledge Collection Service API
   slug: pryon-knowledgecollectionservice-api
-- description: The KnowledgeDomain API from Pryon — 17 operation(s) for knowledgedomain.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The KnowledgeDomain API from Pryon — 17 operation(s) for knowledgedomain.
   name: Pryon Knowledge Domain API
   slug: pryon-knowledgedomain-api
-- description: The List Knowledge Collections API from Pryon — 1 operation(s) for list knowledge collections.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The List Knowledge Collections API from Pryon — 1 operation(s) for list knowledge collections.
   name: Pryon List Knowledge Collections API
   slug: pryon-list-knowledge-collections-api
-- description: The Messages API from Pryon — 3 operation(s) for messages.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Messages API from Pryon — 3 operation(s) for messages.
   name: Pryon Messages API
   slug: pryon-messages-api
-- description: The OrganizationService API from Pryon — 23 operation(s) for organizationservice.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The OrganizationService API from Pryon — 23 operation(s) for organizationservice.
   name: Pryon Organization Service API
   slug: pryon-organizationservice-api
-- description: The RegressionTest API from Pryon — 7 operation(s) for regressiontest.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The RegressionTest API from Pryon — 7 operation(s) for regressiontest.
   name: Pryon Regression Test API
   slug: pryon-regressiontest-api
-- description: The Retrieval API from Pryon — 4 operation(s) for retrieval.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Retrieval API from Pryon — 4 operation(s) for retrieval.
   name: Pryon Retrieval API
   slug: pryon-retrieval-api
-- description: The RetrievalFeedback API from Pryon — 9 operation(s) for retrievalfeedback.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The RetrievalFeedback API from Pryon — 9 operation(s) for retrievalfeedback.
   name: Pryon Retrieval Feedback API
   slug: pryon-retrievalfeedback-api
-- description: The Subjects API from Pryon — 6 operation(s) for subjects.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The Subjects API from Pryon — 6 operation(s) for subjects.
   name: Pryon Subjects API
   slug: pryon-subjects-api
-- description: The TextToSpeech API from Pryon — 1 operation(s) for texttospeech.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The TextToSpeech API from Pryon — 1 operation(s) for texttospeech.
   name: Pryon Text To Speech API
   slug: pryon-texttospeech-api
-- description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
+- baseURL: https://api.pryon.net
+  baseurl_source: declared
+  description: The UserDefinedMetadata API from Pryon — 9 operation(s) for userdefinedmetadata.
   name: Pryon User Defined Metadata API
   slug: pryon-userdefinedmetadata-api
 artifact_total: 77
@@ -406,7 +465,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -416,7 +475,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 42.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -428,7 +487,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pryon/refs/heads/main/screenshots/pryon-2026-08-17T081359.png
 security:

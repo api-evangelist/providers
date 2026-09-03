@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 33 operations · 19 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Absence records (vacation, sickness, etc.).
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Absence records (vacation, sickness, etc.).
   name: Clockodo Absences API
   slug: clockodo-absences-api
-- description: Real-time stop-clock control.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Real-time stop-clock control.
   name: Clockodo Clock API
   slug: clockodo-clock-api
-- description: Customer records.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Customer records.
   name: Clockodo Customers API
   slug: clockodo-customers-api
-- description: Time-tracking entries.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Time-tracking entries.
   name: Clockodo Entries API
   slug: clockodo-entries-api
-- description: Per-user holiday quotas.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Per-user holiday quotas.
   name: Clockodo HolidaysQuota API
   slug: clockodo-holidaysquota-api
-- description: Lump-sum services for fixed-price billing.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Lump-sum services for fixed-price billing.
   name: Clockodo LumpSumServices API
   slug: clockodo-lumpsumservices-api
-- description: Projects under customers.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Projects under customers.
   name: Clockodo Projects API
   slug: clockodo-projects-api
-- description: Service catalog used for entries.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Service catalog used for entries.
   name: Clockodo Services API
   slug: clockodo-services-api
-- description: Co-workers/users in the account.
+- baseURL: https://my.clockodo.com/api
+  baseurl_source: declared
+  description: Co-workers/users in the account.
   name: Clockodo Users API
   slug: clockodo-users-api
 artifact_total: 30
@@ -249,7 +267,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/screenshots/clockodo-2026-06-20T174529.png
 security:

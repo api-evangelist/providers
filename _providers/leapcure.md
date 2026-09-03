@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The categories API from Leapcure — 2 operation(s) for categories.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The categories API from Leapcure — 2 operation(s) for categories.
   name: Leapcure categories API
   slug: leapcure-categories-api
-- description: The comments API from Leapcure — 2 operation(s) for comments.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The comments API from Leapcure — 2 operation(s) for comments.
   name: Leapcure comments API
   slug: leapcure-comments-api
-- description: The media API from Leapcure — 6 operation(s) for media.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The media API from Leapcure — 6 operation(s) for media.
   name: Leapcure media API
   slug: leapcure-media-api
-- description: The pages API from Leapcure — 6 operation(s) for pages.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The pages API from Leapcure — 6 operation(s) for pages.
   name: Leapcure pages API
   slug: leapcure-pages-api
-- description: The posts API from Leapcure — 6 operation(s) for posts.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The posts API from Leapcure — 6 operation(s) for posts.
   name: Leapcure posts API
   slug: leapcure-posts-api
-- description: The search API from Leapcure — 1 operation(s) for search.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The search API from Leapcure — 1 operation(s) for search.
   name: Leapcure search API
   slug: leapcure-search-api
-- description: The statuses API from Leapcure — 2 operation(s) for statuses.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The statuses API from Leapcure — 2 operation(s) for statuses.
   name: Leapcure statuses API
   slug: leapcure-statuses-api
-- description: The tags API from Leapcure — 2 operation(s) for tags.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The tags API from Leapcure — 2 operation(s) for tags.
   name: Leapcure tags API
   slug: leapcure-tags-api
-- description: The taxonomies API from Leapcure — 2 operation(s) for taxonomies.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The taxonomies API from Leapcure — 2 operation(s) for taxonomies.
   name: Leapcure taxonomies API
   slug: leapcure-taxonomies-api
-- description: The types API from Leapcure — 2 operation(s) for types.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The types API from Leapcure — 2 operation(s) for types.
   name: Leapcure types API
   slug: leapcure-types-api
-- description: The users API from Leapcure — 6 operation(s) for users.
+- baseURL: https://blog.leapcure.com/wp-json
+  baseurl_source: declared
+  description: The users API from Leapcure — 6 operation(s) for users.
   name: Leapcure users API
   slug: leapcure-users-api
 artifact_total: 26
@@ -224,7 +246,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:

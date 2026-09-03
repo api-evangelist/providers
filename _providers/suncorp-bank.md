@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: Suncorp Bank's merchant payment gateway, a Suncorp-branded instance of Mastercard Payment Gateway Services (MPGS). It offers merchants a REST/JSON (and NVP) API plus hosted checkout, hosted batch, and
   name: Suncorp Bank Gateway (Mastercard) Payments API
   slug: suncorp-bank-gateway-payments-api
-- description: Banking Account Balance endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Suncorp Bank Banking Account Balances API
   slug: suncorp-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Suncorp Bank Banking Account Direct Debits API
   slug: suncorp-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Suncorp Bank Banking Account Scheduled Payments API
   slug: suncorp-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Suncorp Bank Banking Account Transactions API
   slug: suncorp-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Suncorp Bank Banking Accounts API
   slug: suncorp-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Suncorp Bank Banking Payees API
   slug: suncorp-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://id-ob.suncorpbank.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Suncorp Bank Banking Products API
   slug: suncorp-bank-banking-products-api
 artifact_total: 21
@@ -260,7 +274,7 @@ score:
     regime_id: banking_open_finance
     score: 74.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

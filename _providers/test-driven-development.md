@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -56,7 +56,9 @@ apis:
 - description: REST API for Coveralls code coverage history and statistics service, tracking test coverage over time and integrating with GitHub for TDD feedback loops.
   name: Coveralls API
   slug: coveralls-api
-- description: The Repos API from Test-Driven Development — 7 operation(s) for repos.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Repos API from Test-Driven Development — 7 operation(s) for repos.
   name: Test-Driven Development Repos API
   slug: test-driven-development-repos-api
 artifact_total: 43
@@ -244,7 +246,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-driven-development/refs/heads/main/screenshots/test-driven-development-2026-06-20T195143.png
 security:

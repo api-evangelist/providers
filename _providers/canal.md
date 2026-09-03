@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The csv API from Canal — 3 operation(s) for csv.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The csv API from Canal — 3 operation(s) for csv.
   name: Canal csv API
   slug: canal-csv-api
-- description: The fulfillments API from Canal — 2 operation(s) for fulfillments.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The fulfillments API from Canal — 2 operation(s) for fulfillments.
   name: Canal fulfillments API
   slug: canal-fulfillments-api
-- description: The markets API from Canal — 1 operation(s) for markets.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The markets API from Canal — 1 operation(s) for markets.
   name: Canal markets API
   slug: canal-markets-api
-- description: The max-shipping-rates API from Canal — 1 operation(s) for max-shipping-rates.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The max-shipping-rates API from Canal — 1 operation(s) for max-shipping-rates.
   name: Canal max-shipping-rates API
   slug: canal-max-shipping-rates-api
-- description: The orders API from Canal — 6 operation(s) for orders.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The orders API from Canal — 6 operation(s) for orders.
   name: Canal orders API
   slug: canal-orders-api
-- description: The product_sets API from Canal — 2 operation(s) for product_sets.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The product_sets API from Canal — 2 operation(s) for product_sets.
   name: Canal product_sets API
   slug: canal-product-sets-api
-- description: The products API from Canal — 5 operation(s) for products.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The products API from Canal — 5 operation(s) for products.
   name: Canal products API
   slug: canal-products-api
-- description: The refunds API from Canal — 2 operation(s) for refunds.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The refunds API from Canal — 2 operation(s) for refunds.
   name: Canal refunds API
   slug: canal-refunds-api
-- description: The returns API from Canal — 4 operation(s) for returns.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The returns API from Canal — 4 operation(s) for returns.
   name: Canal returns API
   slug: canal-returns-api
-- description: The selection API from Canal — 1 operation(s) for selection.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The selection API from Canal — 1 operation(s) for selection.
   name: Canal selection API
   slug: canal-selection-api
-- description: The shipping API from Canal — 1 operation(s) for shipping.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The shipping API from Canal — 1 operation(s) for shipping.
   name: Canal shipping API
   slug: canal-shipping-api
-- description: The shipping-rates API from Canal — 1 operation(s) for shipping-rates.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The shipping-rates API from Canal — 1 operation(s) for shipping-rates.
   name: Canal shipping-rates API
   slug: canal-shipping-rates-api
-- description: The shops API from Canal — 2 operation(s) for shops.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The shops API from Canal — 2 operation(s) for shops.
   name: Canal shops API
   slug: canal-shops-api
-- description: The tax-and-shipping API from Canal — 2 operation(s) for tax-and-shipping.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The tax-and-shipping API from Canal — 2 operation(s) for tax-and-shipping.
   name: Canal tax-and-shipping API
   slug: canal-tax-and-shipping-api
-- description: The tax API from Canal — 1 operation(s) for tax.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The tax API from Canal — 1 operation(s) for tax.
   name: Canal tax API
   slug: canal-tax-api
-- description: The variants API from Canal — 2 operation(s) for variants.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The variants API from Canal — 2 operation(s) for variants.
   name: Canal variants API
   slug: canal-variants-api
-- description: The webhooks API from Canal — 2 operation(s) for webhooks.
+- baseURL: https://api.shopcanal.com/platform
+  baseurl_source: declared
+  description: The webhooks API from Canal — 2 operation(s) for webhooks.
   name: Canal webhooks API
   slug: canal-webhooks-api
 artifact_total: 39
@@ -284,7 +318,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -294,7 +328,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.6
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -305,7 +339,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:

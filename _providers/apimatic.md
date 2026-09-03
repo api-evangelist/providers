@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: APIMatic API Transformer converts API definition files between more than 15 supported API specification formats including OpenAPI, RAML, API Blueprint, WSDL, WADL, and Postman Collections.
   name: APIMatic API Transformer API
   slug: apimatic-api-transformer-api
-- description: The APIs API from APIMatic — 1 operation(s) for apis.
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The APIs API from APIMatic — 1 operation(s) for apis.
   name: APIMatic APIs API
   slug: apimatic-apis-api
-- description: The Portals API from APIMatic — 1 operation(s) for portals.
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The Portals API from APIMatic — 1 operation(s) for portals.
   name: APIMatic Portals API
   slug: apimatic-portals-api
-- description: The SDK Generation API from APIMatic — 1 operation(s) for sdk generation.
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The SDK Generation API from APIMatic — 1 operation(s) for sdk generation.
   name: APIMatic SDK Generation API
   slug: apimatic-sdk-generation-api
-- description: The Transformation API from APIMatic — 1 operation(s) for transformation.
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The Transformation API from APIMatic — 1 operation(s) for transformation.
   name: APIMatic Transformation API
   slug: apimatic-transformation-api
-- description: The Validation API from APIMatic — 1 operation(s) for validation.
+- baseURL: https://api.apimatic.io
+  baseurl_source: declared
+  description: The Validation API from APIMatic — 1 operation(s) for validation.
   name: APIMatic Validation API
   slug: apimatic-validation-api
 arazzos:
@@ -331,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Manage client accounts and their linked bank connections for tax payment processing.
+- baseURL: https://api.remitian.com
+  baseurl_source: declared
+  description: Manage client accounts and their linked bank connections for tax payment processing.
   name: Remitian Accounts API
   slug: remitian-accounts-api
-- description: Access bank-grade audit logs that track every payment from initiation to completion for compliance and reconciliation.
+- baseURL: https://api.remitian.com
+  baseurl_source: declared
+  description: Access bank-grade audit logs that track every payment from initiation to completion for compliance and reconciliation.
   name: Remitian Audit Logs API
   slug: remitian-audit-logs-api
-- description: Retrieve and manage supported tax jurisdictions and their associated payment requirements and routing rules.
+- baseURL: https://api.remitian.com
+  baseurl_source: declared
+  description: Retrieve and manage supported tax jurisdictions and their associated payment requirements and routing rules.
   name: Remitian Jurisdictions API
   slug: remitian-jurisdictions-api
-- description: Initiate, validate, and confirm tax payments across multiple jurisdictions through a single unified gateway.
+- baseURL: https://api.remitian.com
+  baseurl_source: declared
+  description: Initiate, validate, and confirm tax payments across multiple jurisdictions through a single unified gateway.
   name: Remitian Payments API
   slug: remitian-payments-api
-- description: Manage webhook subscriptions for real-time payment status updates and event notifications.
+- baseURL: https://api.remitian.com
+  baseurl_source: declared
+  description: Manage webhook subscriptions for real-time payment status updates and event notifications.
   name: Remitian Webhooks API
   slug: remitian-webhooks-api
 artifact_total: 28
@@ -218,7 +228,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -228,7 +238,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 33.2
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -243,7 +253,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/screenshots/remitian-2026-06-20T192840.png
 security:

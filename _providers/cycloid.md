@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 16 operations · 4 acting
 api_count: 1
 apis:
-- description: Cloud cost provider accounts, dashboards, and tag mappings.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Cloud cost provider accounts, dashboards, and tag mappings.
   name: Cycloid CloudCost API
   slug: cycloid-cloudcost-api
-- description: Git config repositories used by stacks and pipelines.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Git config repositories used by stacks and pipelines.
   name: Cycloid ConfigRepositories API
   slug: cycloid-configrepositories-api
-- description: Credential storage and rotation.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Credential storage and rotation.
   name: Cycloid Credentials API
   slug: cycloid-credentials-api
-- description: Inventory of cloud resources and state locking.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Inventory of cloud resources and state locking.
   name: Cycloid Inventory API
   slug: cycloid-inventory-api
-- description: Manage organizations, members, teams, and events.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Manage organizations, members, teams, and events.
   name: Cycloid Organizations API
   slug: cycloid-organizations-api
-- description: CI/CD pipelines, components, and build tracking.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: CI/CD pipelines, components, and build tracking.
   name: Cycloid Pipelines API
   slug: cycloid-pipelines-api
-- description: Projects and environments inside an organization.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Projects and environments inside an organization.
   name: Cycloid Projects API
   slug: cycloid-projects-api
-- description: Stacks (Service Catalog) and StackForms.
+- baseURL: https://http-api.cycloid.io
+  baseurl_source: declared
+  description: Stacks (Service Catalog) and StackForms.
   name: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
 artifact_total: 40
@@ -319,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:

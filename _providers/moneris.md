@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -33,49 +45,79 @@ agentic_access:
   summary_line: 54 operations · 33 acting
 api_count: 1
 apis:
-- description: Perform 3D Secure authentications against payment methods
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform 3D Secure authentications against payment methods
   name: Moneris 3D Secure API
   slug: moneris-3d-secure-api
-- description: Perform and Manage customers
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage customers
   name: Moneris Customers API
   slug: moneris-customers-api
-- description: Perform and Manage Disputes
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage Disputes
   name: Moneris Disputes API
   slug: moneris-disputes-api
-- description: Perform and Manage Installments
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage Installments
   name: Moneris Installments API
   slug: moneris-installments-api
-- description: Perform and Manage Kount risk assessment inquiries
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage Kount risk assessment inquiries
   name: Moneris Kount API
   slug: moneris-kount-api
-- description: Manage Merchants onboarding
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Manage Merchants onboarding
   name: Moneris Merchant Onboarding API
   slug: moneris-merchant-onboarding-api
-- description: Retrieve Multi-Currency Pricing Rate Lookups
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Retrieve Multi-Currency Pricing Rate Lookups
   name: Moneris Multi-Currency Pricing Rate Lookup API
   slug: moneris-multi-currency-pricing-rate-lookup-api
-- description: Create and Manage payment methods
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Create and Manage payment methods
   name: Moneris Payment Methods API
   slug: moneris-payment-methods-api
-- description: Perform and Manage payments
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage payments
   name: Moneris Payments API
   slug: moneris-payments-api
-- description: Product recommendations
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Product recommendations
   name: Moneris Products API
   slug: moneris-products-api
-- description: Perform and Manage payment refunds
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage payment refunds
   name: Moneris Refunds API
   slug: moneris-refunds-api
-- description: Perform and Manage Subscriptions
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage Subscriptions
   name: Moneris Subscriptions API
   slug: moneris-subscriptions-api
-- description: The Surcharge Lookup API from Moneris — 1 operation(s) for surcharge lookup.
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: The Surcharge Lookup API from Moneris — 1 operation(s) for surcharge lookup.
   name: Moneris Surcharge Lookup API
   slug: moneris-surcharge-lookup-api
-- description: Manage Moneris Terminal & Service Orders
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Manage Moneris Terminal & Service Orders
   name: Moneris Terminal & Service Orders API
   slug: moneris-terminal-service-orders-api
-- description: Perform and Manage card validations
+- baseURL: https://api.moneris.io
+  baseurl_source: declared
+  description: Perform and Manage card validations
   name: Moneris Validations API
   slug: moneris-validations-api
 artifact_total: 22
@@ -262,7 +304,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -272,7 +314,7 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +332,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png
 security:

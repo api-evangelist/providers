@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: The Matchingworkflows API from Amazon Entity Resolution — 5 operation(s) for matchingworkflows.
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Matchingworkflows API from Amazon Entity Resolution — 5 operation(s) for matchingworkflows.
   name: Amazon Entity Resolution Matchingworkflows API
   slug: amazon-entity-resolution-matchingworkflows-api
-- description: The Schemas API from Amazon Entity Resolution — 2 operation(s) for schemas.
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Schemas API from Amazon Entity Resolution — 2 operation(s) for schemas.
   name: Amazon Entity Resolution Schemas API
   slug: amazon-entity-resolution-schemas-api
-- description: The Tags API from Amazon Entity Resolution — 2 operation(s) for tags.
+- baseURL: https://entityresolution.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Entity Resolution — 2 operation(s) for tags.
   name: Amazon Entity Resolution Tags API
   slug: amazon-entity-resolution-tags-api
 arazzos:
@@ -1044,7 +1050,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/screenshots/amazon-entity-resolution-2026-06-20T171643.png
 security:

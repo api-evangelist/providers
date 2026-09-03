@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 2
 apis:
-- description: The Loyalty API from Restaurant Brands International — 1 operation(s) for loyalty.
+- baseURL: https://bk-partners.rbictg.com/api/v1
+  baseurl_source: declared
+  description: The Loyalty API from Restaurant Brands International — 1 operation(s) for loyalty.
   name: Restaurant Brands International Loyalty API
   slug: restaurant-brands-loyalty-api
-- description: The Menus API from Restaurant Brands International — 3 operation(s) for menus.
+- baseURL: https://bk-partners.rbictg.com/api/v1
+  baseurl_source: declared
+  description: The Menus API from Restaurant Brands International — 3 operation(s) for menus.
   name: Restaurant Brands International Menus API
   slug: restaurant-brands-menus-api
-- description: The Orders API from Restaurant Brands International — 5 operation(s) for orders.
+- baseURL: https://bk-partners.rbictg.com/api/v1
+  baseurl_source: declared
+  description: The Orders API from Restaurant Brands International — 5 operation(s) for orders.
   name: Restaurant Brands International Orders API
   slug: restaurant-brands-orders-api
-- description: The Stores API from Restaurant Brands International — 3 operation(s) for stores.
+- baseURL: https://bk-partners.rbictg.com/api/v1
+  baseurl_source: declared
+  description: The Stores API from Restaurant Brands International — 3 operation(s) for stores.
   name: Restaurant Brands International Stores API
   slug: restaurant-brands-stores-api
 artifact_total: 303
@@ -1112,7 +1120,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant-brands/refs/heads/main/screenshots/restaurant-brands-2026-08-17T081601.png
 security:

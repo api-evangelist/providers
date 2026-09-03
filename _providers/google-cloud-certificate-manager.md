@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Operations for managing certificate maps
+- baseURL: https://certificatemanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing certificate maps
   name: Google Cloud Certificate Manager CertificateMaps API
   slug: google-cloud-certificate-manager-certificatemaps-api
-- description: Operations for managing TLS certificates
+- baseURL: https://certificatemanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing TLS certificates
   name: Google Cloud Certificate Manager Certificates API
   slug: google-cloud-certificate-manager-certificates-api
-- description: Operations for managing DNS authorizations
+- baseURL: https://certificatemanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing DNS authorizations
   name: Google Cloud Certificate Manager DnsAuthorizations API
   slug: google-cloud-certificate-manager-dnsauthorizations-api
 artifact_total: 22
@@ -228,7 +234,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-certificate-manager/refs/heads/main/screenshots/google-cloud-certificate-manager-2026-06-20T182052.png
 security:

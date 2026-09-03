@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -44,376 +44,624 @@ agentic_access:
   summary_line: 124 operations · 124 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.addcustomattributes.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.addcustomattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-addcustomattributes-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminaddusertogroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminaddusertogroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminAddUserToGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminaddusertogroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminconfirmsignup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminconfirmsignup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminConfirmSignUp API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminconfirmsignup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminCreateUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admincreateuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminCreateUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admincreateuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminCreateUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admincreateuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindeleteuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindeleteuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admindeleteuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindeleteuserattributes.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindeleteuserattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminDeleteUserAttributes API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admindeleteuserattributes-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableProviderForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindisableproviderforuser'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableProviderForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindisableproviderforuser'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableProviderForUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admindisableproviderforuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindisableuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admindisableuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminDisableUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admindisableuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminEnableUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminenableuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminEnableUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminenableuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminEnableUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminenableuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminForgetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminforgetdevice.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminForgetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminforgetdevice.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminForgetDevice API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminforgetdevice-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminGetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admingetdevice.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminGetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admingetdevice.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminGetDevice API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admingetdevice-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminGetUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admingetuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminGetUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admingetuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminGetUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admingetuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminInitiateAuth API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admininitiateauth.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminInitiateAuth API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.admininitiateauth.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminInitiateAuth API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-admininitiateauth-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminLinkProviderForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlinkproviderforuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminLinkProviderForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlinkproviderforuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminLinkProviderForUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminlinkproviderforuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListDevices API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistdevices.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListDevices API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistdevices.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminListDevices API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistdevices-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListGroupsForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistgroupsforuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListGroupsForUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistgroupsforuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminListGroupsForUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistgroupsforuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListUserAuthEvents API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistuserauthevents.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminListUserAuthEvents API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminlistuserauthevents.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminListUserAuthEvents API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminlistuserauthevents-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminRemoveUserFromGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminremoveuserfromgroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminRemoveUserFromGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminremoveuserfromgroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminRemoveUserFromGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminremoveuserfromgroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminResetUserPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminresetuserpassword.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminResetUserPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminresetuserpassword.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminResetUserPassword API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminresetuserpassword-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminRespondToAuthChallenge API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminrespondtoauthchallenge'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminRespondToAuthChallenge API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminrespondtoauthchallenge'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminRespondToAuthChallenge API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminrespondtoauthchallenge-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserMFAPreference API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetusermfapreference.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserMFAPreference API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetusermfapreference.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserMFAPreference API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetusermfapreference-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetuserpassword.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetuserpassword.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserPassword API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetuserpassword-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserSettings API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetusersettings.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserSettings API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminsetusersettings.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminSetUserSettings API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminsetusersettings-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateAuthEventFeedback API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdateautheventfeedba'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateAuthEventFeedback API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdateautheventfeedba'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateAuthEventFeedback API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdateautheventfeedback-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateDeviceStatus API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdatedevicestatus.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateDeviceStatus API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdatedevicestatus.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateDeviceStatus API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdatedevicestatus-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdateuserattributes.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminupdateuserattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminUpdateUserAttributes API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminupdateuserattributes-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUserGlobalSignOut API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminuserglobalsignout.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AdminUserGlobalSignOut API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.adminuserglobalsignout.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AdminUserGlobalSignOut API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-adminuserglobalsignout-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AssociateSoftwareToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.associatesoftwaretoken.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AssociateSoftwareToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.associatesoftwaretoken.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AssociateSoftwareToken API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-associatesoftwaretoken-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ChangePassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.changepassword.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ChangePassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.changepassword.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ChangePassword API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-changepassword-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmdevice.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmdevice.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ConfirmDevice API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-confirmdevice-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmForgotPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmforgotpassword.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmForgotPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmforgotpassword.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ConfirmForgotPassword API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-confirmforgotpassword-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmSignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmsignup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ConfirmSignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.confirmsignup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ConfirmSignUp API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-confirmsignup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.creategroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.creategroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-creategroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createidentityprovider.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createidentityprovider.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateIdentityProvider API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createidentityprovider-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createresourceserver.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createresourceserver.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateResourceServer API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createresourceserver-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserimportjob.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserimportjob.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateUserImportJob API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createuserimportjob-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpoolclient.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpoolclient.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolClient API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpoolclient-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpooldomain.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.createuserpooldomain.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.CreateUserPoolDomain API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-createuserpooldomain-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deletegroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deletegroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deletegroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteidentityprovider.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteidentityprovider.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteIdentityProvider API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteidentityprovider-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteresourceserver.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteresourceserver.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteResourceServer API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteresourceserver-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserattributes.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserAttributes API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserattributes-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpoolclient.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpoolclient.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolClient API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpoolclient-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpooldomain.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.deleteuserpooldomain.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DeleteUserPoolDomain API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-deleteuserpooldomain-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeidentityprovider.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeidentityprovider.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeIdentityProvider API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeidentityprovider-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeresourceserver.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeresourceserver.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeResourceServer API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeresourceserver-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeRiskConfiguration API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeriskconfiguration.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeRiskConfiguration API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeriskconfiguration.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeRiskConfiguration API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeriskconfiguration-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserimportjob.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserimportjob.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserImportJob API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserimportjob-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpoolclient.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpoolclient.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolClient API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpoolclient-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpooldomain.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.describeuserpooldomain.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.DescribeUserPoolDomain API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-describeuserpooldomain-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ForgetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.forgetdevice.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ForgetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.forgetdevice.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ForgetDevice API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-forgetdevice-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ForgotPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.forgotpassword.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ForgotPassword API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.forgotpassword.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ForgotPassword API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-forgotpassword-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetCSVHeader API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getcsvheader.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetCSVHeader API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getcsvheader.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetCSVHeader API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getcsvheader-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getdevice.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetDevice API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getdevice.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetDevice API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getdevice-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getgroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getgroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getgroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetIdentityProviderByIdentifier API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getidentityproviderbyid'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetIdentityProviderByIdentifier API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getidentityproviderbyid'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetIdentityProviderByIdentifier API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getidentityproviderbyidentifier-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetSigningCertificate API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getsigningcertificate.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetSigningCertificate API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getsigningcertificate.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetSigningCertificate API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getsigningcertificate-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUICustomization API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuicustomization.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUICustomization API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuicustomization.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetUICustomization API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getuicustomization-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuser.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUser API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuser.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetUser API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getuser-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUserAttributeVerificationCode API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuserattributeverifi'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUserAttributeVerificationCode API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuserattributeverifi'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetUserAttributeVerificationCode API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getuserattributeverificationcode-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUserPoolMfaConfig API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuserpoolmfaconfig.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GetUserPoolMfaConfig API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.getuserpoolmfaconfig.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GetUserPoolMfaConfig API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-getuserpoolmfaconfig-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GlobalSignOut API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.globalsignout.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.GlobalSignOut API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.globalsignout.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.GlobalSignOut API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-globalsignout-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.InitiateAuth API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.initiateauth.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.InitiateAuth API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.initiateauth.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.InitiateAuth API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-initiateauth-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListDevices API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listdevices.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListDevices API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listdevices.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListDevices API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listdevices-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListGroups API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listgroups.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListGroups API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listgroups.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListGroups API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listgroups-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListIdentityProviders API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listidentityproviders.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListIdentityProviders API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listidentityproviders.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListIdentityProviders API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listidentityproviders-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListResourceServers API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listresourceservers.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListResourceServers API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listresourceservers.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListResourceServers API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listresourceservers-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListTagsForResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listtagsforresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListTagsForResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listtagsforresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListTagsForResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listtagsforresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserImportJobs API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserimportjobs.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserImportJobs API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserimportjobs.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListUserImportJobs API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listuserimportjobs-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserPoolClients API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserpoolclients.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserPoolClients API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserpoolclients.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListUserPoolClients API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listuserpoolclients-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserPools API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserpools.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUserPools API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listuserpools.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListUserPools API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listuserpools-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUsers API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listusers.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUsers API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listusers.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListUsers API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listusers-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUsersInGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listusersingroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ListUsersInGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.listusersingroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ListUsersInGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-listusersingroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ResendConfirmationCode API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.resendconfirmationcode.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.ResendConfirmationCode API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.resendconfirmationcode.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.ResendConfirmationCode API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-resendconfirmationcode-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.RespondToAuthChallenge API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.respondtoauthchallenge.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.RespondToAuthChallenge API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.respondtoauthchallenge.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.RespondToAuthChallenge API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-respondtoauthchallenge-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.RevokeToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.revoketoken.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.RevokeToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.revoketoken.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.RevokeToken API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-revoketoken-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetRiskConfiguration API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setriskconfiguration.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetRiskConfiguration API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setriskconfiguration.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SetRiskConfiguration API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-setriskconfiguration-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUICustomization API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setuicustomization.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUICustomization API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setuicustomization.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SetUICustomization API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-setuicustomization-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserMFAPreference API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setusermfapreference.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserMFAPreference API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setusermfapreference.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SetUserMFAPreference API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-setusermfapreference-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserPoolMfaConfig API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setuserpoolmfaconfig.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserPoolMfaConfig API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setuserpoolmfaconfig.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SetUserPoolMfaConfig API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-setuserpoolmfaconfig-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserSettings API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setusersettings.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SetUserSettings API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.setusersettings.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SetUserSettings API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-setusersettings-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.signup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.SignUp API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.signup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.SignUp API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-signup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.StartUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.startuserimportjob.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.StartUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.startuserimportjob.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.StartUserImportJob API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-startuserimportjob-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.StopUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.stopuserimportjob.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.StopUserImportJob API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.stopuserimportjob.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.StopUserImportJob API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-stopuserimportjob-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.TagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.tagresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.TagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.tagresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.TagResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-tagresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UntagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.untagresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UntagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.untagresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UntagResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-untagresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateAuthEventFeedback API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateautheventfeedback.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateAuthEventFeedback API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateautheventfeedback.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateAuthEventFeedback API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateautheventfeedback-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateDeviceStatus API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updatedevicestatus.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateDeviceStatus API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updatedevicestatus.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateDeviceStatus API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updatedevicestatus-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updategroup.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateGroup API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updategroup.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateGroup API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updategroup-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateidentityprovider.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateIdentityProvider API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateidentityprovider.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateIdentityProvider API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateidentityprovider-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateresourceserver.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateResourceServer API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateresourceserver.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateResourceServer API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateresourceserver-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserattributes.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserAttributes API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserattributes-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpoolclient.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolClient API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpoolclient.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolClient API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpoolclient-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpooldomain.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolDomain API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.updateuserpooldomain.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.UpdateUserPoolDomain API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-updateuserpooldomain-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.VerifySoftwareToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.verifysoftwaretoken.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.VerifySoftwareToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.verifysoftwaretoken.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.VerifySoftwareToken API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-verifysoftwaretoken-api
-- description: 'The #X Amz Target=AWSCognitoIdentityProviderService.VerifyUserAttribute API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.verifyuserattribute.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityProviderService.VerifyUserAttribute API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.verifyuserattribute.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.VerifyUserAttribute API'
   slug: aws-cognito-x-amz-target-awscognitoidentityproviderservice-verifyuserattribute-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.CreateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.createidentitypool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.CreateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.createidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.CreateIdentityPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-createidentitypool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.DeleteIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.deleteidentities.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.DeleteIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.deleteidentities.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.DeleteIdentities API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-deleteidentities-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.DeleteIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.deleteidentitypool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.DeleteIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.deleteidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.DeleteIdentityPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-deleteidentitypool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.DescribeIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.describeidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.DescribeIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.describeidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.DescribeIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-describeidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.DescribeIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.describeidentitypool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.DescribeIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.describeidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.DescribeIdentityPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-describeidentitypool-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetCredentialsForIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getcredentialsforidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetCredentialsForIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getcredentialsforidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetCredentialsForIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getcredentialsforidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetId API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getid.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetId API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getid.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetId API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getid-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetIdentityPoolRoles API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getidentitypoolroles.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetIdentityPoolRoles API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getidentitypoolroles.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetIdentityPoolRoles API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getidentitypoolroles-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetOpenIdToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getopenidtoken.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetOpenIdToken API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getopenidtoken.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetOpenIdToken API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getopenidtoken-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getopenidtokenfordeveloperidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getopenidtokenfordeveloperidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetOpenIdTokenForDeveloperIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getopenidtokenfordeveloperidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.GetPrincipalTagAttributeMap API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getprincipaltagattributemap.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.GetPrincipalTagAttributeMap API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.getprincipaltagattributemap.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.GetPrincipalTagAttributeMap API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-getprincipaltagattributemap-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.ListIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listidentities.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.ListIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listidentities.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.ListIdentities API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-listidentities-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.ListIdentityPools API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listidentitypools.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.ListIdentityPools API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listidentitypools.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.ListIdentityPools API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-listidentitypools-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.ListTagsForResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listtagsforresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.ListTagsForResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.listtagsforresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.ListTagsForResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-listtagsforresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.LookupDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.lookupdeveloperidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.LookupDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.lookupdeveloperidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.LookupDeveloperIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-lookupdeveloperidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.MergeDeveloperIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.mergedeveloperidentities.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.MergeDeveloperIdentities API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.mergedeveloperidentities.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.MergeDeveloperIdentities API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-mergedeveloperidentities-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.SetIdentityPoolRoles API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.setidentitypoolroles.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.SetIdentityPoolRoles API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.setidentitypoolroles.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.SetIdentityPoolRoles API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-setidentitypoolroles-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.SetPrincipalTagAttributeMap API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.setprincipaltagattributemap.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.SetPrincipalTagAttributeMap API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.setprincipaltagattributemap.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.SetPrincipalTagAttributeMap API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-setprincipaltagattributemap-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.TagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.tagresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.TagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.tagresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.TagResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-tagresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.UnlinkDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.unlinkdeveloperidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.UnlinkDeveloperIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.unlinkdeveloperidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UnlinkDeveloperIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-unlinkdeveloperidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.UnlinkIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.unlinkidentity.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.UnlinkIdentity API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.unlinkidentity.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UnlinkIdentity API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-unlinkidentity-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.UntagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.untagresource.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.UntagResource API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.untagresource.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UntagResource API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-untagresource-api
-- description: 'The #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.updateidentitypool.'
+- baseURL: https://cognito-idp.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityservice.updateidentitypool.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: aws-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
 artifact_total: 2002
@@ -6167,7 +6415,7 @@ score:
       marker_coverage: 0.0
       total: 124
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:

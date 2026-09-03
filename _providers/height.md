@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 22 operations · 10 acting
 api_count: 1
 apis:
-- description: Activities can be messages, status updates of the task or integration updates (i.e. GitHub).
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: Activities can be messages, status updates of the task or integration updates (i.e. GitHub).
   name: Height Activities API
   slug: height-activities-api
-- description: The Field Templates API from Height — 3 operation(s) for field templates.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Field Templates API from Height — 3 operation(s) for field templates.
   name: Height Field Templates API
   slug: height-field-templates-api
-- description: The Groups API from Height — 1 operation(s) for groups.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Groups API from Height — 1 operation(s) for groups.
   name: Height Groups API
   slug: height-groups-api
-- description: Tasks belong to one list. To create tasks, it's necessary to know in which list you want to create them.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: Tasks belong to one list. To create tasks, it's necessary to know in which list you want to create them.
   name: Height Lists API
   slug: height-lists-api
-- description: The Security Log Events API from Height — 1 operation(s) for security log events.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Security Log Events API from Height — 1 operation(s) for security log events.
   name: Height Security Log Events API
   slug: height-security-log-events-api
-- description: The Task Forms API from Height — 2 operation(s) for task forms.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Task Forms API from Height — 2 operation(s) for task forms.
   name: Height Task Forms API
   slug: height-task-forms-api
-- description: The Tasks API from Height — 3 operation(s) for tasks.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Tasks API from Height — 3 operation(s) for tasks.
   name: Height Tasks API
   slug: height-tasks-api
-- description: The Users API from Height — 3 operation(s) for users.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Users API from Height — 3 operation(s) for users.
   name: Height Users API
   slug: height-users-api
-- description: The Workspace API from Height — 1 operation(s) for workspace.
+- baseURL: https://api.height.app
+  baseurl_source: declared
+  description: The Workspace API from Height — 1 operation(s) for workspace.
   name: Height Workspace API
   slug: height-workspace-api
 artifact_total: 26
@@ -220,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/height/refs/heads/main/screenshots/height-2026-06-20T182618.png
 security:

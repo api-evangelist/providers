@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Content API from Smithsonian Institution — 1 operation(s) for content.
+- baseURL: https://edan.si.edu/openaccess
+  baseurl_source: declared
+  description: The Content API from Smithsonian Institution — 1 operation(s) for content.
   name: Smithsonian Institution Content API
   slug: smithsonian-institution-content-api
-- description: The Metrics API from Smithsonian Institution — 1 operation(s) for metrics.
+- baseURL: https://edan.si.edu/openaccess
+  baseurl_source: declared
+  description: The Metrics API from Smithsonian Institution — 1 operation(s) for metrics.
   name: Smithsonian Institution Metrics API
   slug: smithsonian-institution-metrics-api
-- description: The Search API from Smithsonian Institution — 3 operation(s) for search.
+- baseURL: https://edan.si.edu/openaccess
+  baseurl_source: declared
+  description: The Search API from Smithsonian Institution — 3 operation(s) for search.
   name: Smithsonian Institution Search API
   slug: smithsonian-institution-search-api
 artifact_total: 20
@@ -230,7 +236,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/screenshots/smithsonian-institution-2026-06-20T194059.png
 security:

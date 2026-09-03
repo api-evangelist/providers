@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -59,19 +59,29 @@ apis:
 - description: Stainless generates production-ready Terraform providers from an OpenAPI specification, enabling infrastructure-as-code access to any REST API without manual Terraform provider development.
   name: Stainless Terraform Providers
   slug: stainless-terraform
-- description: The Build Target Outputs API from Stainless — 1 operation(s) for build target outputs.
+- baseURL: https://api.stainless.com
+  baseurl_source: spec
+  description: The Build Target Outputs API from Stainless — 1 operation(s) for build target outputs.
   name: Stainless Build Target Outputs API
   slug: stainless-build-target-outputs-api
-- description: The Builds API from Stainless — 4 operation(s) for builds.
+- baseURL: https://api.stainless.com
+  baseurl_source: spec
+  description: The Builds API from Stainless — 4 operation(s) for builds.
   name: Stainless Builds API
   slug: stainless-builds-api
-- description: The Orgs API from Stainless — 2 operation(s) for orgs.
+- baseURL: https://api.stainless.com
+  baseurl_source: spec
+  description: The Orgs API from Stainless — 2 operation(s) for orgs.
   name: Stainless Orgs API
   slug: stainless-orgs-api
-- description: The Projects API from Stainless — 9 operation(s) for projects.
+- baseURL: https://api.stainless.com
+  baseurl_source: spec
+  description: The Projects API from Stainless — 9 operation(s) for projects.
   name: Stainless Projects API
   slug: stainless-projects-api
-- description: The User API from Stainless — 1 operation(s) for user.
+- baseURL: https://api.stainless.com
+  baseurl_source: spec
+  description: The User API from Stainless — 1 operation(s) for user.
   name: Stainless User API
   slug: stainless-user-api
 artifact_total: 26
@@ -222,7 +232,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/screenshots/stainless-2026-06-20T194453.png
 security:

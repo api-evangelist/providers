@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,7 +56,9 @@ apis:
 - description: REST API access to OpenAI models including GPT-4, DALL-E, and Whisper with enterprise security.
   name: Azure OpenAI Service API
   slug: openai
-- description: Analyze images for visual features
+- baseURL: https://westus.api.cognitive.microsoft.com/
+  baseurl_source: declared
+  description: Analyze images for visual features
   name: Microsoft Cognitive Services ImageAnalysis API
   slug: microsoft-cognitive-services-imageanalysis-api
 artifact_total: 15
@@ -176,7 +178,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-cognitive-services/refs/heads/main/screenshots/microsoft-cognitive-services-2026-06-20T185447.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 58 operations · 25 acting
 api_count: 1
 apis:
-- description: Artist profiles, uploads, favorites, followers, and pinned items.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Artist profiles, uploads, favorites, followers, and pinned items.
   name: Audiomack Artist API
   slug: audiomack-artist-api
-- description: Aggregate song, album, and playlist charts across timeframes and genres.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Aggregate song, album, and playlist charts across timeframes and genres.
   name: Audiomack Chart API
   slug: audiomack-chart-api
-- description: Songs, albums, streaming, favorites, reposts, and metrics.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Songs, albums, streaming, favorites, reposts, and metrics.
   name: Audiomack Music API
   slug: audiomack-music-api
-- description: OAuth 1.0a request-token and access-token exchanges.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: OAuth 1.0a request-token and access-token exchanges.
   name: Audiomack OAuth API
   slug: audiomack-oauth-api
-- description: Playlist creation, editing, favoriting, and discovery.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Playlist creation, editing, favoriting, and discovery.
   name: Audiomack Playlist API
   slug: audiomack-playlist-api
-- description: Free-text search and autosuggest across music, albums, and artists.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Free-text search and autosuggest across music, albums, and artists.
   name: Audiomack Search API
   slug: audiomack-search-api
-- description: Tokenised view and play event reporting.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Tokenised view and play event reporting.
   name: Audiomack Stats API
   slug: audiomack-stats-api
-- description: Authenticated user profile, feed, uploads, playlists, and notifications.
+- baseURL: https://api.audiomack.com/v1
+  baseurl_source: declared
+  description: Authenticated user profile, feed, uploads, playlists, and notifications.
   name: Audiomack User API
   slug: audiomack-user-api
 artifact_total: 37
@@ -277,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/screenshots/audiomack-2026-06-20T172548.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Pact Broker is a hypermedia HAL API for storing and retrieving consumer contracts created with the Pact contract testing framework. It enables teams to share, version, and verify pacts between consume
   name: Pact Broker API
   slug: pact-broker
-- description: The Index API from Pact — 1 operation(s) for index.
+- baseURL: https://pact-broker.example.com
+  baseurl_source: spec
+  description: The Index API from Pact — 1 operation(s) for index.
   name: Pact Index API
   slug: pact-index-api
-- description: The Pacticipants API from Pact — 3 operation(s) for pacticipants.
+- baseURL: https://pact-broker.example.com
+  baseurl_source: spec
+  description: The Pacticipants API from Pact — 3 operation(s) for pacticipants.
   name: Pact Pacticipants API
   slug: pact-pacticipants-api
-- description: The Pacts API from Pact — 2 operation(s) for pacts.
+- baseURL: https://pact-broker.example.com
+  baseurl_source: spec
+  description: The Pacts API from Pact — 2 operation(s) for pacts.
   name: Pact Pacts API
   slug: pact-pacts-api
-- description: The Verifications API from Pact — 1 operation(s) for verifications.
+- baseURL: https://pact-broker.example.com
+  baseurl_source: spec
+  description: The Verifications API from Pact — 1 operation(s) for verifications.
   name: Pact Verifications API
   slug: pact-verifications-api
-- description: The Webhooks API from Pact — 1 operation(s) for webhooks.
+- baseURL: https://pact-broker.example.com
+  baseurl_source: spec
+  description: The Webhooks API from Pact — 1 operation(s) for webhooks.
   name: Pact Webhooks API
   slug: pact-webhooks-api
 artifact_total: 19
@@ -179,7 +189,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -192,7 +202,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 33.3
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -201,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png
 security:

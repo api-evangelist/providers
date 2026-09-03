@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 78
 apis:
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
@@ -33,214 +47,354 @@ apis:
 - description: AppsFlyer's hosted Model Context Protocol server exposes AppsFlyer's unified marketing data to LLM clients and agents over an OAuth 2.1 authorization-code + PKCE flow with dynamic client registration,
   name: AppsFlyer MCP Server
   slug: appsflyer-mcp-server
-- description: The Account connections API from AppsFlyer — 1 operation(s) for account connections.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Account connections API from AppsFlyer — 1 operation(s) for account connections.
   name: AppsFlyer Account connections API
   slug: appsflyer-account-connections-api
-- description: The Account Integration API from AppsFlyer — 1 operation(s) for account integration.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Account Integration API from AppsFlyer — 1 operation(s) for account integration.
   name: AppsFlyer Account Integration API
   slug: appsflyer-account-integration-api
-- description: The Account splits API from AppsFlyer — 1 operation(s) for account splits.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Account splits API from AppsFlyer — 1 operation(s) for account splits.
   name: AppsFlyer Account splits API
   slug: appsflyer-account-splits-api
-- description: The Active audiences API from AppsFlyer — 1 operation(s) for active audiences.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Active audiences API from AppsFlyer — 1 operation(s) for active audiences.
   name: AppsFlyer Active audiences API
   slug: appsflyer-active-audiences-api
-- description: The Active integrations API from AppsFlyer — 2 operation(s) for active integrations.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Active integrations API from AppsFlyer — 2 operation(s) for active integrations.
   name: AppsFlyer Active integrations API
   slug: appsflyer-active-integrations-api
-- description: The Ad Revenue raw data API from AppsFlyer — 3 operation(s) for ad revenue raw data.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Ad Revenue raw data API from AppsFlyer — 3 operation(s) for ad revenue raw data.
   name: AppsFlyer Ad Revenue raw data API
   slug: appsflyer-ad-revenue-raw-data-api
-- description: The Add excluded app API from AppsFlyer — 1 operation(s) for add excluded app.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Add excluded app API from AppsFlyer — 1 operation(s) for add excluded app.
   name: AppsFlyer Add excluded app API
   slug: appsflyer-add-excluded-app-api
-- description: The Additional Identifiers Handling API from AppsFlyer — 1 operation(s) for additional identifiers handling.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Additional Identifiers Handling API from AppsFlyer — 1 operation(s) for additional identifiers handling.
   name: AppsFlyer Additional Identifiers Handling API
   slug: appsflyer-additional-identifiers-handling-api
-- description: The Aggregate (user acquisition and retargeting) API from AppsFlyer — 5 operation(s) for aggregate (user acquisition and retargeting).
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Aggregate (user acquisition and retargeting) API from AppsFlyer — 5 operation(s) for aggregate (user acquisition and retargeting).
   name: AppsFlyer Aggregate (user acquisition and retargeting) API
   slug: appsflyer-aggregate-user-acquisition-and-retargeting-api
-- description: The Allowed devices API from AppsFlyer — 2 operation(s) for allowed devices.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Allowed devices API from AppsFlyer — 2 operation(s) for allowed devices.
   name: AppsFlyer Allowed devices API
   slug: appsflyer-allowed-devices-api
-- description: The Android deep linking request API from AppsFlyer — 1 operation(s) for android deep linking request.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Android deep linking request API from AppsFlyer — 1 operation(s) for android deep linking request.
   name: AppsFlyer Android deep linking request API
   slug: appsflyer-android-deep-linking-request-api
-- description: The App management API from AppsFlyer — 2 operation(s) for app management.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The App management API from AppsFlyer — 2 operation(s) for app management.
   name: AppsFlyer App management API
   slug: appsflyer-app-management-api
-- description: The Audience connections API from AppsFlyer — 1 operation(s) for audience connections.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Audience connections API from AppsFlyer — 1 operation(s) for audience connections.
   name: AppsFlyer Audience connections API
   slug: appsflyer-audience-connections-api
-- description: The Audience split API from AppsFlyer — 1 operation(s) for audience split.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Audience split API from AppsFlyer — 1 operation(s) for audience split.
   name: AppsFlyer Audience split API
   slug: appsflyer-audience-split-api
-- description: The Audience upload API from AppsFlyer — 1 operation(s) for audience upload.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Audience upload API from AppsFlyer — 1 operation(s) for audience upload.
   name: AppsFlyer Audience upload API
   slug: appsflyer-audience-upload-api
-- description: The Audiences User Attribution Import API API from AppsFlyer — 1 operation(s) for audiences user attribution import api.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Audiences User Attribution Import API API from AppsFlyer — 1 operation(s) for audiences user attribution import api.
   name: AppsFlyer Audiences User Attribution Import API
   slug: appsflyer-audiences-user-attribution-import-api-api
-- description: The Audit logs API from AppsFlyer — 1 operation(s) for audit logs.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Audit logs API from AppsFlyer — 1 operation(s) for audit logs.
   name: AppsFlyer Audit logs API
   slug: appsflyer-audit-logs-api
-- description: The Authentication Token API from AppsFlyer — 1 operation(s) for authentication token.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Authentication Token API from AppsFlyer — 1 operation(s) for authentication token.
   name: AppsFlyer Authentication Token API
   slug: appsflyer-authentication-token-api
-- description: The Circuit breaker API from AppsFlyer — 1 operation(s) for circuit breaker.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Circuit breaker API from AppsFlyer — 1 operation(s) for circuit breaker.
   name: AppsFlyer Circuit breaker API
   slug: appsflyer-circuit-breaker-api
-- description: The Click Engagement API from AppsFlyer — 1 operation(s) for click engagement.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Click Engagement API from AppsFlyer — 1 operation(s) for click engagement.
   name: AppsFlyer Click Engagement API
   slug: appsflyer-click-engagement-api
-- description: The Cohort Report API from AppsFlyer — 1 operation(s) for cohort report.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Cohort Report API from AppsFlyer — 1 operation(s) for cohort report.
   name: AppsFlyer Cohort Report API
   slug: appsflyer-cohort-report-api
-- description: The Conversion Data for SDK attribution testing API from AppsFlyer — 1 operation(s) for conversion data for sdk attribution testing.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Conversion Data for SDK attribution testing API from AppsFlyer — 1 operation(s) for conversion data for sdk attribution testing.
   name: AppsFlyer Conversion Data for SDK attribution testing API
   slug: appsflyer-conversion-data-for-sdk-attribution-testing-api
-- description: The Conversion value (CV) schema API from AppsFlyer — 1 operation(s) for conversion value (cv) schema.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Conversion value (CV) schema API from AppsFlyer — 1 operation(s) for conversion value (cv) schema.
   name: AppsFlyer Conversion value (CV) schema API
   slug: appsflyer-conversion-value-cv-schema-api
-- description: The Create audience API from AppsFlyer — 1 operation(s) for create audience.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Create audience API from AppsFlyer — 1 operation(s) for create audience.
   name: AppsFlyer Create audience API
   slug: appsflyer-create-audience-api
-- description: The Download Events API from AppsFlyer — 1 operation(s) for download events.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Download Events API from AppsFlyer — 1 operation(s) for download events.
   name: AppsFlyer Download Events API
   slug: appsflyer-download-events-api
-- description: The Event Types API from AppsFlyer — 1 operation(s) for event types.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Event Types API from AppsFlyer — 1 operation(s) for event types.
   name: AppsFlyer Event Types API
   slug: appsflyer-event-types-api
-- description: The Events API from AppsFlyer — 1 operation(s) for events.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Events API from AppsFlyer — 1 operation(s) for events.
   name: AppsFlyer Events API
   slug: appsflyer-events-api
-- description: The Events management API from AppsFlyer — 2 operation(s) for events management.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Events management API from AppsFlyer — 2 operation(s) for events management.
   name: AppsFlyer Events management API
   slug: appsflyer-events-management-api
-- description: The Freshness Report API from AppsFlyer — 1 operation(s) for freshness report.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Freshness Report API from AppsFlyer — 1 operation(s) for freshness report.
   name: AppsFlyer Freshness Report API
   slug: appsflyer-freshness-report-api
-- description: The Generate secret key API from AppsFlyer — 1 operation(s) for generate secret key.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Generate secret key API from AppsFlyer — 1 operation(s) for generate secret key.
   name: AppsFlyer Generate secret key API
   slug: appsflyer-generate-secret-key-api
-- description: The Get app list API from AppsFlyer — 1 operation(s) for get app list.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Get app list API from AppsFlyer — 1 operation(s) for get app list.
   name: AppsFlyer Get app list API
   slug: appsflyer-get-app-list-api
-- description: The Get config API from AppsFlyer — 1 operation(s) for get config.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Get config API from AppsFlyer — 1 operation(s) for get config.
   name: AppsFlyer Get config API
   slug: appsflyer-get-config-api
-- description: The Google Play install referrer API from AppsFlyer — 1 operation(s) for google play install referrer.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Google Play install referrer API from AppsFlyer — 1 operation(s) for google play install referrer.
   name: AppsFlyer Google Play install referrer API
   slug: appsflyer-google-play-install-referrer-api
-- description: The Import audience API from AppsFlyer — 1 operation(s) for import audience.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Import audience API from AppsFlyer — 1 operation(s) for import audience.
   name: AppsFlyer Import audience API
   slug: appsflyer-import-audience-api
-- description: The Impression Engagement API from AppsFlyer — 1 operation(s) for impression engagement.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Impression Engagement API from AppsFlyer — 1 operation(s) for impression engagement.
   name: AppsFlyer Impression Engagement API
   slug: appsflyer-impression-engagement-api
-- description: The Inapp Events API from AppsFlyer — 1 operation(s) for inapp events.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Inapp Events API from AppsFlyer — 1 operation(s) for inapp events.
   name: AppsFlyer Inapp Events API
   slug: appsflyer-inapp-events-api
-- description: The InCost job status API from AppsFlyer — 1 operation(s) for incost job status.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The InCost job status API from AppsFlyer — 1 operation(s) for incost job status.
   name: AppsFlyer InCost job status API
   slug: appsflyer-incost-job-status-api
-- description: The InCost uploader API from AppsFlyer — 1 operation(s) for incost uploader.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The InCost uploader API from AppsFlyer — 1 operation(s) for incost uploader.
   name: AppsFlyer InCost uploader API
   slug: appsflyer-incost-uploader-api
-- description: The Integration settings API from AppsFlyer — 2 operation(s) for integration settings.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Integration settings API from AppsFlyer — 2 operation(s) for integration settings.
   name: AppsFlyer Integration settings API
   slug: appsflyer-integration-settings-api
-- description: The iOS deep linking request API from AppsFlyer — 1 operation(s) for ios deep linking request.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The iOS deep linking request API from AppsFlyer — 1 operation(s) for ios deep linking request.
   name: AppsFlyer iOS deep linking request API
   slug: appsflyer-ios-deep-linking-request-api
-- description: The Manage Push API configuration API from AppsFlyer — 1 operation(s) for manage push api configuration.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Manage Push API configuration API from AppsFlyer — 1 operation(s) for manage push api configuration.
   name: AppsFlyer Manage Push API configuration API
   slug: appsflyer-manage-push-api-configuration-api
-- description: The Managing roles API from AppsFlyer — 1 operation(s) for managing roles.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Managing roles API from AppsFlyer — 1 operation(s) for managing roles.
   name: AppsFlyer Managing roles API
   slug: appsflyer-managing-roles-api
-- description: The Managing users in bulk API from AppsFlyer — 2 operation(s) for managing users in bulk.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Managing users in bulk API from AppsFlyer — 2 operation(s) for managing users in bulk.
   name: AppsFlyer Managing users in bulk API
   slug: appsflyer-managing-users-in-bulk-api
-- description: The Master Report API from AppsFlyer — 1 operation(s) for master report.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Master Report API from AppsFlyer — 1 operation(s) for master report.
   name: AppsFlyer Master Report API
   slug: appsflyer-master-report-api
-- description: The Measure first app opens API from AppsFlyer — 1 operation(s) for measure first app opens.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Measure first app opens API from AppsFlyer — 1 operation(s) for measure first app opens.
   name: AppsFlyer Measure first app opens API
   slug: appsflyer-measure-first-app-opens-api
-- description: The Measure in-app events API from AppsFlyer — 1 operation(s) for measure in-app events.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Measure in-app events API from AppsFlyer — 1 operation(s) for measure in-app events.
   name: AppsFlyer Measure in-app events API
   slug: appsflyer-measure-in-app-events-api
-- description: The Measure sessions API from AppsFlyer — 1 operation(s) for measure sessions.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Measure sessions API from AppsFlyer — 1 operation(s) for measure sessions.
   name: AppsFlyer Measure sessions API
   slug: appsflyer-measure-sessions-api
-- description: The Message Fields API from AppsFlyer — 1 operation(s) for message fields.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Message Fields API from AppsFlyer — 1 operation(s) for message fields.
   name: AppsFlyer Message Fields API
   slug: appsflyer-message-fields-api
-- description: The OneLink REST API v2.0 API from AppsFlyer — 4 operation(s) for onelink rest api v2.0.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The OneLink REST API v2.0 API from AppsFlyer — 4 operation(s) for onelink rest api v2.0.
   name: AppsFlyer OneLink REST API v2.0 API
   slug: appsflyer-onelink-rest-api-v2-0-api
-- description: The Pauses audience API from AppsFlyer — 1 operation(s) for pauses audience.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Pauses audience API from AppsFlyer — 1 operation(s) for pauses audience.
   name: AppsFlyer Pauses audience API
   slug: appsflyer-pauses-audience-api
-- description: The Postbacks API from AppsFlyer — 4 operation(s) for postbacks.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Postbacks API from AppsFlyer — 4 operation(s) for postbacks.
   name: AppsFlyer Postbacks API
   slug: appsflyer-postbacks-api
-- description: The Production API from AppsFlyer — 7 operation(s) for production.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Production API from AppsFlyer — 7 operation(s) for production.
   name: AppsFlyer Production API
   slug: appsflyer-production-api
-- description: The Protect360 fraud API from AppsFlyer — 6 operation(s) for protect360 fraud.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Protect360 fraud API from AppsFlyer — 6 operation(s) for protect360 fraud.
   name: AppsFlyer Protect360 fraud API
   slug: appsflyer-protect360-fraud-api
-- description: The Raw data reports (non-organic) API from AppsFlyer — 4 operation(s) for raw data reports (non-organic).
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Raw data reports (non-organic) API from AppsFlyer — 4 operation(s) for raw data reports (non-organic).
   name: AppsFlyer Raw data reports (non-organic) API
   slug: appsflyer-raw-data-reports-non-organic-api
-- description: The Raw data reports (organic) API from AppsFlyer — 4 operation(s) for raw data reports (organic).
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Raw data reports (organic) API from AppsFlyer — 4 operation(s) for raw data reports (organic).
   name: AppsFlyer Raw data reports (organic) API
   slug: appsflyer-raw-data-reports-organic-api
-- description: The Remove excluded app API from AppsFlyer — 1 operation(s) for remove excluded app.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Remove excluded app API from AppsFlyer — 1 operation(s) for remove excluded app.
   name: AppsFlyer Remove excluded app API
   slug: appsflyer-remove-excluded-app-api
-- description: The Report API from AppsFlyer — 1 operation(s) for report.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Report API from AppsFlyer — 1 operation(s) for report.
   name: AppsFlyer Report API
   slug: appsflyer-report-api
-- description: The Retargeting API from AppsFlyer — 2 operation(s) for retargeting.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Retargeting API from AppsFlyer — 2 operation(s) for retargeting.
   name: AppsFlyer Retargeting API
   slug: appsflyer-retargeting-api
-- description: The Revoke secret key API from AppsFlyer — 1 operation(s) for revoke secret key.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Revoke secret key API from AppsFlyer — 1 operation(s) for revoke secret key.
   name: AppsFlyer Revoke secret key API
   slug: appsflyer-revoke-secret-key-api
-- description: The SKAN conversion studio API API from AppsFlyer — 1 operation(s) for skan conversion studio api.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The SKAN conversion studio API API from AppsFlyer — 1 operation(s) for skan conversion studio api.
   name: AppsFlyer SKAN conversion studio API
   slug: appsflyer-skan-conversion-studio-api-api
-- description: The SKAN CV schema API for ad networks API from AppsFlyer — 2 operation(s) for skan cv schema api for ad networks.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The SKAN CV schema API for ad networks API from AppsFlyer — 2 operation(s) for skan cv schema api for ad networks.
   name: AppsFlyer SKAN CV schema API for ad networks API
   slug: appsflyer-skan-cv-schema-api-for-ad-networks-api
-- description: The SKAN performance report API from AppsFlyer — 1 operation(s) for skan performance report.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The SKAN performance report API from AppsFlyer — 1 operation(s) for skan performance report.
   name: AppsFlyer SKAN performance report API
   slug: appsflyer-skan-performance-report-api
-- description: The SKAN postbacks API from AppsFlyer — 1 operation(s) for skan postbacks.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The SKAN postbacks API from AppsFlyer — 1 operation(s) for skan postbacks.
   name: AppsFlyer SKAN postbacks API
   slug: appsflyer-skan-postbacks-api
-- description: The Store commission rates API from AppsFlyer — 2 operation(s) for store commission rates.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Store commission rates API from AppsFlyer — 2 operation(s) for store commission rates.
   name: AppsFlyer Store commission rates API
   slug: appsflyer-store-commission-rates-api
-- description: The Stub & Testing API from AppsFlyer — 7 operation(s) for stub & testing.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Stub & Testing API from AppsFlyer — 7 operation(s) for stub & testing.
   name: AppsFlyer Stub & Testing API
   slug: appsflyer-stub-testing-api
-- description: The Tax rate rules API from AppsFlyer — 1 operation(s) for tax rate rules.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Tax rate rules API from AppsFlyer — 1 operation(s) for tax rate rules.
   name: AppsFlyer Tax rate rules API
   slug: appsflyer-tax-rate-rules-api
-- description: The Test API from AppsFlyer — 1 operation(s) for test.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Test API from AppsFlyer — 1 operation(s) for test.
   name: AppsFlyer Test API
   slug: appsflyer-test-api
-- description: The Unique partner integration parameters API from AppsFlyer — 1 operation(s) for unique partner integration parameters.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Unique partner integration parameters API from AppsFlyer — 1 operation(s) for unique partner integration parameters.
   name: AppsFlyer Unique partner integration parameters API
   slug: appsflyer-unique-partner-integration-parameters-api
-- description: The Update config API from AppsFlyer — 1 operation(s) for update config.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The Update config API from AppsFlyer — 1 operation(s) for update config.
   name: AppsFlyer Update config API
   slug: appsflyer-update-config-api
-- description: The URL Validation API from AppsFlyer — 1 operation(s) for url validation.
+- baseURL: https://hq1.appsflyer.com/api/
+  baseurl_source: declared
+  description: The URL Validation API from AppsFlyer — 1 operation(s) for url validation.
   name: AppsFlyer URL Validation API
   slug: appsflyer-url-validation-api
 artifact_total: 119
@@ -721,23 +875,23 @@ rate_limits:
   slug: appsflyer-rate-limits
 score:
   band: strong
-  composite: 62.2
+  composite: 64.0
   coverage:
     artifact_dirs: 24
-    catalog_gap: 64.0
+    catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 1.8
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 60.1
     developer_ergonomics: 58.9
-    discoverability: 68.5
+    discoverability: 87.0
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 62.4
+  previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
@@ -748,7 +902,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:

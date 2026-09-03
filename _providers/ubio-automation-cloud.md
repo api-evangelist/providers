@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for running automation jobs on the Automation Cloud. Clients create jobs against a service, supply initial and deferred inputs, poll job events, retrieve outputs, handle 3-D Secure challenges
@@ -145,7 +145,7 @@ score:
   band: emerging
   composite: 13.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -164,8 +164,9 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ubio-automation-cloud/refs/heads/main/screenshots/ubio-automation-cloud-2026-09-02T164916.png
 security:
 - kind: authentication
   name: Ubio Automation Cloud Authentication

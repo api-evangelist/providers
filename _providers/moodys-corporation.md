@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -68,31 +68,49 @@ apis:
 - description: APIs for the RMS Intelligent Risk Platform covering catastrophe modeling, exposure management, and event response across natural perils (hurricane, earthquake, flood, severe convective storm, wildfire
   name: Moody's RMS Intelligent Risk Platform (IRP) API
   slug: rms-irp-api
-- description: OAuth2 client-credentials token issuance and HMAC signing helpers
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance and HMAC signing helpers
   name: Moody's Corporation Authentication API
   slug: moodys-corporation-authentication-api
-- description: Operations for creating and managing collections of series requests
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Operations for creating and managing collections of series requests
   name: Moody's Corporation Baskets API
   slug: moodys-corporation-baskets-api
-- description: Discovery of available products, datasets, and entitlements
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Discovery of available products, datasets, and entitlements
   name: Moody's Corporation Catalog API
   slug: moodys-corporation-catalog-api
-- description: Platform availability and version metadata
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Platform availability and version metadata
   name: Moody's Corporation Health API
   slug: moodys-corporation-health-api
-- description: Asynchronous analysis-job submission, polling, and output retrieval
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Asynchronous analysis-job submission, polling, and output retrieval
   name: Moody's Corporation Jobs API
   slug: moodys-corporation-jobs-api
-- description: Operations for managing data generation orders from baskets
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Operations for managing data generation orders from baskets
   name: Moody's Corporation Orders API
   slug: moodys-corporation-orders-api
-- description: Operations for retrieving frequency, vintage, and file type metadata
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Operations for retrieving frequency, vintage, and file type metadata
   name: Moody's Corporation Reference API
   slug: moodys-corporation-reference-api
-- description: Operations for searching available datasets and series
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Operations for searching available datasets and series
   name: Moody's Corporation Search API
   slug: moodys-corporation-search-api
-- description: Operations for retrieving individual and multi-series time series data
+- baseURL: https://ratings.moodys.com/
+  baseurl_source: declared
+  description: Operations for retrieving individual and multi-series time series data
   name: Moody's Corporation Series API
   slug: moodys-corporation-series-api
 artifact_total: 51
@@ -311,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/screenshots/moodys-corporation-2026-08-17T081109.png
 security:

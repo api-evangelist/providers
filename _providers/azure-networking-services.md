@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 41 operations · 14 acting
 api_count: 2
 apis:
-- description: The LoadBalancers API from Azure Networking Services — 16 operation(s) for loadbalancers.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The LoadBalancers API from Azure Networking Services — 16 operation(s) for loadbalancers.
   name: Azure Networking Services LoadBalancers API
   slug: azure-networking-services-loadbalancers-api
-- description: The Subnets API from Azure Networking Services — 2 operation(s) for subnets.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Subnets API from Azure Networking Services — 2 operation(s) for subnets.
   name: Azure Networking Services Subnets API
   slug: azure-networking-services-subnets-api
-- description: The Subscriptions API from Azure Networking Services — 6 operation(s) for subscriptions.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Subscriptions API from Azure Networking Services — 6 operation(s) for subscriptions.
   name: Azure Networking Services Subscriptions API
   slug: azure-networking-services-subscriptions-api
-- description: The VirtualNetworkPeerings API from Azure Networking Services — 2 operation(s) for virtualnetworkpeerings.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The VirtualNetworkPeerings API from Azure Networking Services — 2 operation(s) for virtualnetworkpeerings.
   name: Azure Networking Services VirtualNetworkPeerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
-- description: The VirtualNetworks API from Azure Networking Services — 3 operation(s) for virtualnetworks.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The VirtualNetworks API from Azure Networking Services — 3 operation(s) for virtualnetworks.
   name: Azure Networking Services VirtualNetworks API
   slug: azure-networking-services-virtualnetworks-api
 artifact_total: 190
@@ -753,7 +763,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/screenshots/azure-networking-services-2026-06-20T172903.png
 security:

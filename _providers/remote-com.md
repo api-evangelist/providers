@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -44,124 +44,204 @@ agentic_access:
   summary_line: 121 operations · 51 acting · 1 human-in-the-loop
 api_count: 8
 apis:
-- description: Remote emits webhook events for every meaningful state change across companies, employments, contractors, payroll, billing, time off, timesheets, benefits, identity verification, and SSO. Webhooks are
+- baseURL: https://gateway.remote.com
+  baseurl_source: declared
+  description: Remote emits webhook events for every meaningful state change across companies, employments, contractors, payroll, billing, time off, timesheets, benefits, identity verification, and SSO. Webhooks are
   name: Remote Webhooks
   slug: remote-webhooks
-- description: Country and employment benefit offers
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Country and employment benefit offers
   name: Remote Benefit Offers API
   slug: remote-com-benefit-offers-api
-- description: Annual benefit-renewal requests
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Annual benefit-renewal requests
   name: Remote Benefit Renewals API
   slug: remote-com-benefit-renewals-api
-- description: Customer-facing invoices and statements
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Customer-facing invoices and statements
   name: Remote Billing Documents API
   slug: remote-com-billing-documents-api
-- description: Create, retrieve, and update company records
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, and update company records
   name: Remote Companies API
   slug: remote-com-companies-api
-- description: List currencies a company can be billed in
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: List currencies a company can be billed in
   name: Remote Company Currencies API
   slug: remote-com-company-currencies-api
-- description: Manage administrators and managers within a company
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Manage administrators and managers within a company
   name: Remote Company Managers API
   slug: remote-com-company-managers-api
-- description: Reporting hierarchy and structure nodes for employees
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Reporting hierarchy and structure nodes for employees
   name: Remote Company Structure API
   slug: remote-com-company-structure-api
-- description: Read compliance profiles and supported jurisdictions
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Read compliance profiles and supported jurisdictions
   name: Remote Compliance API
   slug: remote-com-compliance-api
-- description: Submit and track contract amendments
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Submit and track contract amendments
   name: Remote Contract Amendments API
   slug: remote-com-contract-amendments-api
-- description: Sign, retrieve, and manage employment contract documents
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Sign, retrieve, and manage employment contract documents
   name: Remote Contract Documents API
   slug: remote-com-contract-documents-api
-- description: Verify contractor-vs-employee classification
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Verify contractor-vs-employee classification
   name: Remote Contract Eligibility API
   slug: remote-com-contract-eligibility-api
-- description: List currencies available for contractor payments
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: List currencies available for contractor payments
   name: Remote Contractor Currencies API
   slug: remote-com-contractor-currencies-api
-- description: List and inspect contractor invoices
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: List and inspect contractor invoices
   name: Remote Contractor Invoices API
   slug: remote-com-contractor-invoices-api
-- description: Manage contractor plan subscriptions (Standard, Plus, COR)
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Manage contractor plan subscriptions (Standard, Plus, COR)
   name: Remote Contractor Subscriptions API
   slug: remote-com-contractor-subscriptions-api
-- description: Terminate Contractor-of-Record engagements
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Terminate Contractor-of-Record engagements
   name: Remote COR Termination API
   slug: remote-com-cor-termination-api
-- description: Estimate the loaded cost of hiring in a given country
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Estimate the loaded cost of hiring in a given country
   name: Remote Cost Calculator API
   slug: remote-com-cost-calculator-api
-- description: List of countries Remote supports
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: List of countries Remote supports
   name: Remote Countries API
   slug: remote-com-countries-api
-- description: Customer-defined fields on companies and employments
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Customer-defined fields on companies and employments
   name: Remote Custom Fields API
   slug: remote-com-custom-fields-api
-- description: Manage company-defined departments and org structure
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Manage company-defined departments and org structure
   name: Remote Departments API
   slug: remote-com-departments-api
-- description: View active and pending employment contracts
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: View active and pending employment contracts
   name: Remote Employment Contracts API
   slug: remote-com-employment-contracts-api
-- description: Create, read, update, and invite employment records
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Create, read, update, and invite employment records
   name: Remote Employments API
   slug: remote-com-employments-api
-- description: Employee expense reimbursements
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Employee expense reimbursements
   name: Remote Expenses API
   slug: remote-com-expenses-api
-- description: Document upload and retrieval
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Document upload and retrieval
   name: Remote Files API
   slug: remote-com-files-api
-- description: Inspect the identity of the current access token
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Inspect the identity of the current access token
   name: Remote Identity API
   slug: remote-com-identity-api
-- description: One-time bonuses and recurring incentives
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: One-time bonuses and recurring incentives
   name: Remote Incentives API
   slug: remote-com-incentives-api
-- description: Per-employee leave balances
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Per-employee leave balances
   name: Remote Leave Balances API
   slug: remote-com-leave-balances-api
-- description: Per-country leave policy definitions
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Per-country leave policy definitions
   name: Remote Leave Policies API
   slug: remote-com-leave-policies-api
-- description: Generate passwordless magic links for users and employees
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Generate passwordless magic links for users and employees
   name: Remote Magic Links API
   slug: remote-com-magic-links-api
-- description: OAuth 2.0 authorization endpoints
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints
   name: Remote OAuth API
   slug: remote-com-oauth-api
-- description: Drive employee offboarding flows
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Drive employee offboarding flows
   name: Remote Offboarding API
   slug: remote-com-offboarding-api
-- description: Drive employee onboarding flows
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Drive employee onboarding flows
   name: Remote Onboarding API
   slug: remote-com-onboarding-api
-- description: Inspect payroll calendars for company, EOR, and Global Payroll
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Inspect payroll calendars for company, EOR, and Global Payroll
   name: Remote Payroll Calendars API
   slug: remote-com-payroll-calendars-api
-- description: Released payslips for employees
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Released payslips for employees
   name: Remote Payslips API
   slug: remote-com-payslips-api
-- description: Schedule recurring contractor invoices
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Schedule recurring contractor invoices
   name: Remote Scheduled Invoices API
   slug: remote-com-scheduled-invoices-api
-- description: Configure SAML/OIDC single sign-on for a company
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Configure SAML/OIDC single sign-on for a company
   name: Remote SSO API
   slug: remote-com-sso-api
-- description: Time-off requests and approvals
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Time-off requests and approvals
   name: Remote Time Off API
   slug: remote-com-time-off-api
-- description: Hourly and salaried timesheets
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Hourly and salaried timesheets
   name: Remote Timesheets API
   slug: remote-com-timesheets-api
-- description: Travel letter requests for employees moving across borders
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Travel letter requests for employees moving across borders
   name: Remote Travel Letters API
   slug: remote-com-travel-letters-api
-- description: Work authorization (visa / right to work) requests
+- baseURL: https://gateway.remote.com/v1
+  baseurl_source: declared
+  description: Work authorization (visa / right to work) requests
   name: Remote Work Authorization API
   slug: remote-com-work-authorization-api
 arazzos:
@@ -767,7 +847,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -777,7 +857,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 68.4
-  previous_composite: 69.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -788,7 +868,7 @@ score:
       total: 39
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

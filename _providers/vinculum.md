@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: API to retrieve or manipulate ASN related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate ASN related information.
   name: Vinculum Advance Shipping Notice API
   slug: vinculum-advance-shipping-notice-api
-- description: API to retrieve or manipulate Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Order related information.
   name: Vinculum Authentication Process API
   slug: vinculum-authentication-process-api
-- description: API to facilitate Common Operations.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to facilitate Common Operations.
   name: Vinculum Common API
   slug: vinculum-common-api
-- description: API to retrieve or manipulate Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Order related information.
   name: Vinculum Courier Allocation Process API
   slug: vinculum-courier-allocation-process-api
-- description: API to retrieve or manipulate Inbound related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Inbound related information.
   name: Vinculum Inbounds API
   slug: vinculum-inbounds-api
-- description: API to retrieve or manipulate Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Order related information.
   name: Vinculum Listing Managment API
   slug: vinculum-listing-managment-api
-- description: API to create Manifest
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to create Manifest
   name: Vinculum Manifest API
   slug: vinculum-manifest-api
-- description: API to retrieve or manipulate Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Order related information.
   name: Vinculum Order Managment API
   slug: vinculum-order-managment-api
-- description: API to retrieve or create return for an order.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or create return for an order.
   name: Vinculum Order Returns API
   slug: vinculum-order-returns-api
-- description: API to retrieve or manipulate Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Order related information.
   name: Vinculum Orders API
   slug: vinculum-orders-api
-- description: API to retrieve or manipulate SKU related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate SKU related information.
   name: Vinculum Products API
   slug: vinculum-products-api
-- description: API to retrieve or manipulate Purchase Order related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Purchase Order related information.
   name: Vinculum Purchase Orders API
   slug: vinculum-purchase-orders-api
-- description: API to create putaway
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to create putaway
   name: Vinculum Putaway API
   slug: vinculum-putaway-api
-- description: API to retrieve or manipulate Return to Vendor related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Return to Vendor related information.
   name: Vinculum Return to Vendor API
   slug: vinculum-return-to-vendor-api
-- description: API to retrieve or manipulate Stock related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Stock related information.
   name: Vinculum Stock API
   slug: vinculum-stock-api
-- description: API to create Stock Transfer Order in Eretail
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to create Stock Transfer Order in Eretail
   name: Vinculum Transfers API
   slug: vinculum-transfers-api
-- description: API to retrieve or manipulate Vendor related information.
+- baseURL: https://erp.vineretail.com/RestWS/api/eretail
+  baseurl_source: declared
+  description: API to retrieve or manipulate Vendor related information.
   name: Vinculum Vendors API
   slug: vinculum-vendors-api
 artifact_total: 39
@@ -245,7 +279,7 @@ score:
   band: thin
   composite: 28.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -270,8 +304,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vinculum/refs/heads/main/screenshots/vinculum-2026-09-02T165926.png
 security:
 - kind: authentication
   name: Vinculum Authentication

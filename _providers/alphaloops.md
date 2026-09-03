@@ -35,22 +35,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
   name: AlphaLoops MCP Server
   slug: alphaloops-mcp-server
-- description: The Carriers API from AlphaLoops FMCSA Carrier Data API — 19 operation(s) for carriers.
+- baseURL: https://mcp-freight.runalphaloops.com
+  baseurl_source: declared
+  description: The Carriers API from AlphaLoops FMCSA Carrier Data API — 19 operation(s) for carriers.
   name: AlphaLoops FMCSA Carrier Data API Carriers API
   slug: alphaloops-carriers-api
-- description: The Contacts API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for contacts.
+- baseURL: https://mcp-freight.runalphaloops.com
+  baseurl_source: declared
+  description: The Contacts API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for contacts.
   name: AlphaLoops FMCSA Carrier Data API Contacts API
   slug: alphaloops-contacts-api
-- description: The Inspections API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for inspections.
+- baseURL: https://mcp-freight.runalphaloops.com
+  baseurl_source: declared
+  description: The Inspections API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for inspections.
   name: AlphaLoops FMCSA Carrier Data API Inspections API
   slug: alphaloops-inspections-api
-- description: The Vins API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for vins.
+- baseURL: https://mcp-freight.runalphaloops.com
+  baseurl_source: declared
+  description: The Vins API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for vins.
   name: AlphaLoops FMCSA Carrier Data API Vins API
   slug: alphaloops-vins-api
 artifact_total: 14
@@ -238,7 +246,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:

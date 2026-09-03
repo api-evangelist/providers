@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -44,160 +44,264 @@ agentic_access:
   summary_line: 151 operations · 67 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Absence management and leave tracking
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Absence management and leave tracking
   name: Oracle Fusion Cloud Applications Absences API
   slug: oracle-fusion-absences-api
-- description: Manage data access groups and rules
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage data access groups and rules
   name: Oracle Fusion Cloud Applications Access Groups API
   slug: oracle-fusion-access-groups-api
-- description: Manage customer and prospect accounts
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage customer and prospect accounts
   name: Oracle Fusion Cloud Applications Accounts API
   slug: oracle-fusion-accounts-api
-- description: Manage receivables transactions and receipts
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage receivables transactions and receipts
   name: Oracle Fusion Cloud Applications Accounts Receivable API
   slug: oracle-fusion-accounts-receivable-api
-- description: Manage tasks, appointments, and call logs
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage tasks, appointments, and call logs
   name: Oracle Fusion Cloud Applications Activities API
   slug: oracle-fusion-activities-api
-- description: Manage application announcements
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage application announcements
   name: Oracle Fusion Cloud Applications Announcements API
   slug: oracle-fusion-announcements-api
-- description: Manage EPM application metadata and dimensions
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage EPM application metadata and dimensions
   name: Oracle Fusion Cloud Applications Applications API
   slug: oracle-fusion-applications-api
-- description: Manage work assignments and employment details
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage work assignments and employment details
   name: Oracle Fusion Cloud Applications Assignments API
   slug: oracle-fusion-assignments-api
-- description: Audit trail and setup operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Audit trail and setup operations
   name: Oracle Fusion Cloud Applications Audit API
   slug: oracle-fusion-audit-api
-- description: Manage award budget versions and lines
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage award budget versions and lines
   name: Oracle Fusion Cloud Applications Award Budgets API
   slug: oracle-fusion-award-budgets-api
-- description: Manage grants and awards
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage grants and awards
   name: Oracle Fusion Cloud Applications Awards API
   slug: oracle-fusion-awards-api
-- description: Budget transactions and validation
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Budget transactions and validation
   name: Oracle Fusion Cloud Applications Budgetary Control API
   slug: oracle-fusion-budgetary-control-api
-- description: Bank accounts, transfers, and cash pools
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Bank accounts, transfers, and cash pools
   name: Oracle Fusion Cloud Applications Cash Management API
   slug: oracle-fusion-cash-management-api
-- description: Manage project change orders
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage project change orders
   name: Oracle Fusion Cloud Applications Change Orders API
   slug: oracle-fusion-change-orders-api
-- description: Manage lookup types and lookup codes
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage lookup types and lookup codes
   name: Oracle Fusion Cloud Applications Common Lookups API
   slug: oracle-fusion-common-lookups-api
-- description: Salary and compensation management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Salary and compensation management
   name: Oracle Fusion Cloud Applications Compensation API
   slug: oracle-fusion-compensation-api
-- description: Manage contact records associated with accounts
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage contact records associated with accounts
   name: Oracle Fusion Cloud Applications Contacts API
   slug: oracle-fusion-contacts-api
-- description: Currency rate management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Currency rate management
   name: Oracle Fusion Cloud Applications Currency Rates API
   slug: oracle-fusion-currency-rates-api
-- description: Data import, export, and integration operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Data import, export, and integration operations
   name: Oracle Fusion Cloud Applications Data Management API
   slug: oracle-fusion-data-management-api
-- description: Manage project deliverables
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage project deliverables
   name: Oracle Fusion Cloud Applications Deliverables API
   slug: oracle-fusion-deliverables-api
-- description: Bulk data import and export operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Bulk data import and export operations
   name: Oracle Fusion Cloud Applications ERP Integrations API
   slug: oracle-fusion-erp-integrations-api
-- description: Manage expenditure type definitions
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage expenditure type definitions
   name: Oracle Fusion Cloud Applications Expenditure Types API
   slug: oracle-fusion-expenditure-types-api
-- description: Create and manage employee expense reports
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Create and manage employee expense reports
   name: Oracle Fusion Cloud Applications Expense Reports API
   slug: oracle-fusion-expense-reports-api
-- description: Manage application features
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage application features
   name: Oracle Fusion Cloud Applications Features API
   slug: oracle-fusion-features-api
-- description: Manage financial plans, budgets, and forecasts
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage financial plans, budgets, and forecasts
   name: Oracle Fusion Cloud Applications Financial Project Plans API
   slug: oracle-fusion-financial-project-plans-api
-- description: General ledger journal and period operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: General ledger journal and period operations
   name: Oracle Fusion Cloud Applications General Ledger API
   slug: oracle-fusion-general-ledger-api
-- description: Inventory management and on-hand quantities
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Inventory management and on-hand quantities
   name: Oracle Fusion Cloud Applications Inventory API
   slug: oracle-fusion-inventory-api
-- description: Manage accounts payable invoices
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage accounts payable invoices
   name: Oracle Fusion Cloud Applications Invoices API
   slug: oracle-fusion-invoices-api
-- description: Product and item master management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Product and item master management
   name: Oracle Fusion Cloud Applications Items API
   slug: oracle-fusion-items-api
-- description: Manage EPM job execution and monitoring
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage EPM job execution and monitoring
   name: Oracle Fusion Cloud Applications Jobs API
   slug: oracle-fusion-jobs-api
-- description: Manage sales leads and qualification
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage sales leads and qualification
   name: Oracle Fusion Cloud Applications Leads API
   slug: oracle-fusion-leads-api
-- description: Learning records and course management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Learning records and course management
   name: Oracle Fusion Cloud Applications Learning API
   slug: oracle-fusion-learning-api
-- description: Manage BPM workflow tasks and approvals
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage BPM workflow tasks and approvals
   name: Oracle Fusion Cloud Applications Manage Tasks API
   slug: oracle-fusion-manage-tasks-api
-- description: Application migration and lifecycle management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Application migration and lifecycle management
   name: Oracle Fusion Cloud Applications Migration API
   slug: oracle-fusion-migration-api
-- description: Manage sales opportunities and pipeline
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage sales opportunities and pipeline
   name: Oracle Fusion Cloud Applications Opportunities API
   slug: oracle-fusion-opportunities-api
-- description: Manage payment processing
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage payment processing
   name: Oracle Fusion Cloud Applications Payments API
   slug: oracle-fusion-payments-api
-- description: Payroll processing and results
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Payroll processing and results
   name: Oracle Fusion Cloud Applications Payroll API
   slug: oracle-fusion-payroll-api
-- description: Manage person records
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage person records
   name: Oracle Fusion Cloud Applications Persons API
   slug: oracle-fusion-persons-api
-- description: Planning application data and metadata operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Planning application data and metadata operations
   name: Oracle Fusion Cloud Applications Planning API
   slug: oracle-fusion-planning-api
-- description: Manage project task hierarchies and assignments
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage project task hierarchies and assignments
   name: Oracle Fusion Cloud Applications Project Tasks API
   slug: oracle-fusion-project-tasks-api
-- description: Manage project definitions and attributes
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage project definitions and attributes
   name: Oracle Fusion Cloud Applications Projects API
   slug: oracle-fusion-projects-api
-- description: Manage purchase orders and procurement
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage purchase orders and procurement
   name: Oracle Fusion Cloud Applications Purchase Orders API
   slug: oracle-fusion-purchase-orders-api
-- description: Job requisitions and candidate management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Job requisitions and candidate management
   name: Oracle Fusion Cloud Applications Recruiting API
   slug: oracle-fusion-recruiting-api
-- description: Manage security roles
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage security roles
   name: Oracle Fusion Cloud Applications Roles API
   slug: oracle-fusion-roles-api
-- description: Manage sales orders and order lines
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage sales orders and order lines
   name: Oracle Fusion Cloud Applications Sales Orders API
   slug: oracle-fusion-sales-orders-api
-- description: Manage and monitor scheduled processes
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage and monitor scheduled processes
   name: Oracle Fusion Cloud Applications Scheduled Processes API
   slug: oracle-fusion-scheduled-processes-api
-- description: Manage customer service requests and cases
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage customer service requests and cases
   name: Oracle Fusion Cloud Applications Service Requests API
   slug: oracle-fusion-service-requests-api
-- description: Shipping and receiving operations
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Shipping and receiving operations
   name: Oracle Fusion Cloud Applications Shipments API
   slug: oracle-fusion-shipments-api
-- description: Supplier and vendor management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Supplier and vendor management
   name: Oracle Fusion Cloud Applications Suppliers API
   slug: oracle-fusion-suppliers-api
-- description: Talent profiles, skills, and competencies
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Talent profiles, skills, and competencies
   name: Oracle Fusion Cloud Applications Talent Profiles API
   slug: oracle-fusion-talent-profiles-api
-- description: Manufacturing work order management
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manufacturing work order management
   name: Oracle Fusion Cloud Applications Work Orders API
   slug: oracle-fusion-work-orders-api
-- description: Manage worker (employee and contingent worker) records
+- baseURL: https://{instance}.oraclecloud.com/fscmRestApi/
+  baseurl_source: declared
+  description: Manage worker (employee and contingent worker) records
   name: Oracle Fusion Cloud Applications Workers API
   slug: oracle-fusion-workers-api
 artifact_total: 283
@@ -1037,7 +1141,7 @@ score:
       marker_coverage: 0.0
       total: 52
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:

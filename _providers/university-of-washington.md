@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -43,16 +43,22 @@ agentic_access:
   summary_line: 56 operations · 5 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: The UW-IT Identity Registry REST API. V3 (28 paths) and V2 (13 paths) OpenAPI descriptions are published openly by UW at iam-tools.u.washington.edu and are saved here; the runtime listens on a non-sta
+- baseURL: https://mango.u.washington.edu:646/registry/v3
+  baseurl_source: declared
+  description: The UW-IT Identity Registry REST API. V3 (28 paths) and V2 (13 paths) OpenAPI descriptions are published openly by UW at iam-tools.u.washington.edu and are saved here; the runtime listens on a non-sta
   name: Identity Registration Web Service (IRWS)
   slug: identity-registry-web-service
 - description: Enterprise Web Services (EWS) is UW-IT's secure collection of REST/SOAP web services that let enterprise business applications access commonly shared source data in a scalable, real-time, highly avail
   name: UW-IT Enterprise Web Services Registry
   slug: enterprise-web-services
-- description: The University of Washington Group Service API — UW-IT's institution-operated group registry and membership service. UW publishes the OpenAPI itself, with an explicit termsOfService (washington.edu/on
+- baseURL: https://groups.uw.edu/group_sws/v3
+  baseurl_source: declared
+  description: The University of Washington Group Service API — UW-IT's institution-operated group registry and membership service. UW publishes the OpenAPI itself, with an explicit termsOfService (washington.edu/on
   name: UW Groups Web Service (GWS)
   slug: groups-web-service
-- description: UW-IT's Token Authentication Web Service V2 — the institution-operated issuer for the AccessToken credential that the Student and IdCard Web Services accept. Three paths; the OpenAPI is published by U
+- baseURL: https://taws.s.uw.edu:716/token/v2
+  baseurl_source: declared
+  description: UW-IT's Token Authentication Web Service V2 — the institution-operated issuer for the AccessToken credential that the Student and IdCard Web Services accept. Three paths; the OpenAPI is published by U
   name: UW Token Authentication Web Service (TAWS)
   slug: token-authentication-web-service
 - description: UW's Shibboleth identity provider publishes signed SAML 2.0 metadata at a stable URL — entityID urn:mace:incommon:washington.edu, scope washington.edu, InCommon registration ID INC20180221T195121. Mac
@@ -61,82 +67,134 @@ apis:
 - description: ResearchWorks is UW Libraries' institutional repository, running DSpace 9.2 on UW's own host. The DSpace REST root document is public (HTTP 200) and item retrieval is gated (HTTP 401), but the OAI-PMH
   name: ResearchWorks Repository (DSpace REST + OAI-PMH)
   slug: researchworks-dspace
-- description: Student Web Service (SWS) Campus API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Campus API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
   name: Student Web Service (SWS) Campus API
   slug: university-of-washington-campus-api
-- description: IdCard Web Service (IdCardWS) Card API — a resource of the UW-IT IdCard Web Service, split out per resource by the API Evangelist refine step from the institution-published IdCardWS v1 OpenAPI. Specif
+- baseURL: https://ws.admin.washington.edu/idcard
+  baseurl_source: declared
+  description: IdCard Web Service (IdCardWS) Card API — a resource of the UW-IT IdCard Web Service, split out per resource by the API Evangelist refine step from the institution-published IdCardWS v1 OpenAPI. Specif
   name: IdCard Web Service (IdCardWS) Card API
   slug: university-of-washington-card-api
-- description: Student Web Service (SWS) College API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) College API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
   name: Student Web Service (SWS) College API
   slug: university-of-washington-college-api
-- description: Student Web Service (SWS) Course API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Course API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
   name: Student Web Service (SWS) Course API
   slug: university-of-washington-course-api
-- description: Student Web Service (SWS) Curriculum API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Curriculum API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
   name: Student Web Service (SWS) Curriculum API
   slug: university-of-washington-curriculum-api
-- description: Student Web Service (SWS) Degree API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Degree API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
   name: Student Web Service (SWS) Degree API
   slug: university-of-washington-degree-api
-- description: Student Web Service (SWS) Degree Audit API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specif
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Degree Audit API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specif
   name: Student Web Service (SWS) Degree Audit API
   slug: university-of-washington-degreeaudit-api
-- description: Student Web Service (SWS) Degree Audit Exception API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenA
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Degree Audit Exception API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenA
   name: Student Web Service (SWS) Degree Audit Exception API
   slug: university-of-washington-degreeauditexception-api
-- description: Student Web Service (SWS) Degree Audit Program API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Degree Audit Program API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI
   name: Student Web Service (SWS) Degree Audit Program API
   slug: university-of-washington-degreeauditprogram-api
-- description: Student Web Service (SWS) Degree Audit Status API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI.
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Degree Audit Status API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI.
   name: Student Web Service (SWS) Degree Audit Status API
   slug: university-of-washington-degreeauditstatus-api
-- description: Student Web Service (SWS) Department API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Department API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
   name: Student Web Service (SWS) Department API
   slug: university-of-washington-department-api
-- description: Student Web Service (SWS) Enrollment API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Enrollment API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
   name: Student Web Service (SWS) Enrollment API
   slug: university-of-washington-enrollment-api
-- description: Student Web Service (SWS) Enrollment Major API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Sp
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Enrollment Major API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Sp
   name: Student Web Service (SWS) Enrollment Major API
   slug: university-of-washington-enrollmentmajor-api
-- description: Student Web Service (SWS) Major Students API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Spec
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Major Students API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Spec
   name: Student Web Service (SWS) Major Students API
   slug: university-of-washington-majorstudents-api
-- description: Student Web Service (SWS) Notice API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Notice API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
   name: Student Web Service (SWS) Notice API
   slug: university-of-washington-notice-api
-- description: Student Web Service (SWS) Person API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Person API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificatio
   name: Student Web Service (SWS) Person API
   slug: university-of-washington-person-api
-- description: 'Student Web Service (SWS) Personal Financial API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. '
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: 'Student Web Service (SWS) Personal Financial API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. '
   name: Student Web Service (SWS) Personal Financial API
   slug: university-of-washington-personalfinancial-api
-- description: IdCard Web Service (IdCardWS) Photo API — a resource of the UW-IT IdCard Web Service, split out per resource by the API Evangelist refine step from the institution-published IdCardWS v1 OpenAPI. Speci
+- baseURL: https://ws.admin.washington.edu/idcard
+  baseurl_source: declared
+  description: IdCard Web Service (IdCardWS) Photo API — a resource of the UW-IT IdCard Web Service, split out per resource by the API Evangelist refine step from the institution-published IdCardWS v1 OpenAPI. Speci
   name: IdCard Web Service (IdCardWS) Photo API
   slug: university-of-washington-photo-api
-- description: Student Web Service (SWS) Program API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Program API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
   name: Student Web Service (SWS) Program API
   slug: university-of-washington-program-api
-- description: Student Web Service (SWS) Registration API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specif
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Registration API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specif
   name: Student Web Service (SWS) Registration API
   slug: university-of-washington-registration-api
-- description: UW Enterprise Web Services Resource List API — a discovery resource published at the root of both the Student Web Service and the IdCard Web Service. Per-path servers[] in the specification record whi
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: UW Enterprise Web Services Resource List API — a discovery resource published at the root of both the Student Web Service and the IdCard Web Service. Per-path servers[] in the specification record whi
   name: UW Enterprise Web Services Resource List API
   slug: university-of-washington-resourcelist-api
-- description: Student Web Service (SWS) Schedule API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificat
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Schedule API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificat
   name: Student Web Service (SWS) Schedule API
   slug: university-of-washington-schedule-api
-- description: Student Web Service (SWS) Section API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Section API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specificati
   name: Student Web Service (SWS) Section API
   slug: university-of-washington-section-api
-- description: 'Student Web Service (SWS) Term API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specification '
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: 'Student Web Service (SWS) Term API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specification '
   name: Student Web Service (SWS) Term API
   slug: university-of-washington-term-api
-- description: Student Web Service (SWS) Test Score API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: Student Web Service (SWS) Test Score API — a resource of the UW-IT Student Web Service, split out per resource by the API Evangelist refine step from the institution-published SWS v5 OpenAPI. Specific
   name: Student Web Service (SWS) Test Score API
   slug: university-of-washington-testscore-api
-- description: UW Enterprise Web Services Version API — a discovery resource published at the root of both the Student Web Service and the IdCard Web Service. Per-path servers[] in the specification record which hos
+- baseURL: https://ws.admin.washington.edu/student
+  baseurl_source: declared
+  description: UW Enterprise Web Services Version API — a discovery resource published at the root of both the Student Web Service and the IdCard Web Service. Per-path servers[] in the specification record which hos
   name: UW Enterprise Web Services Version API
   slug: university-of-washington-version-api
 artifact_total: 74
@@ -473,7 +531,7 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -7.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -483,7 +541,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -499,8 +557,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:
 - kind: authentication

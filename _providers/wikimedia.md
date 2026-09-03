@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -47,61 +47,99 @@ apis:
 - description: The MediaWiki REST API provides a modern RESTful interface for reading and writing wiki content including pages, revisions, file metadata, search, and content transformation between wikitext and HTML.
   name: MediaWiki REST API
   slug: mediawiki-rest-api
-- description: On-demand API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: On-demand API
   name: Wikimedia articles API
   slug: wikimedia-articles-api
-- description: Realtime Batch API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Realtime Batch API
   name: Wikimedia batches API
   slug: wikimedia-batches-api
-- description: generation of citation data
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: generation of citation data
   name: Wikimedia Citation API
   slug: wikimedia-citation-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikimedia codes API
   slug: wikimedia-codes-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikimedia languages API
   slug: wikimedia-languages-api
-- description: formula rendering
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: formula rendering
   name: Wikimedia Math API
   slug: wikimedia-math-api
-- description: The Mobile API from Wikimedia — 3 operation(s) for mobile.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The Mobile API from Wikimedia — 3 operation(s) for mobile.
   name: Wikimedia Mobile API
   slug: wikimedia-mobile-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikimedia namespaces API
   slug: wikimedia-namespaces-api
-- description: The offline API from Wikimedia — 2 operation(s) for offline.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The offline API from Wikimedia — 2 operation(s) for offline.
   name: Wikimedia offline API
   slug: wikimedia-offline-api
-- description: page content in different formats
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: page content in different formats
   name: Wikimedia Page content API
   slug: wikimedia-page-content-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikimedia projects API
   slug: wikimedia-projects-api
-- description: Private lists of selected pages
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Private lists of selected pages
   name: Wikimedia Reading lists API
   slug: wikimedia-reading-lists-api
-- description: contribution recommendations
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: contribution recommendations
   name: Wikimedia Recommendation API
   slug: wikimedia-recommendation-api
-- description: Snapshot API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Snapshot API
   name: Wikimedia snapshots API
   slug: wikimedia-snapshots-api
-- description: (Beta) Structured Contents On-demand API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: (Beta) Structured Contents On-demand API
   name: Wikimedia structured-contents API
   slug: wikimedia-structured-contents-api
-- description: (BETA) Structured Contents Snapshot API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: (BETA) Structured Contents Snapshot API
   name: Wikimedia structured-snapshots API
   slug: wikimedia-structured-snapshots-api
-- description: The Talk pages API from Wikimedia — 2 operation(s) for talk pages.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The Talk pages API from Wikimedia — 2 operation(s) for talk pages.
   name: Wikimedia Talk pages API
   slug: wikimedia-talk-pages-api
-- description: convert content between HTML and Wikitext
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: convert content between HTML and Wikitext
   name: Wikimedia Transforms API
   slug: wikimedia-transforms-api
-- description: The wikidata API from Wikimedia — 3 operation(s) for wikidata.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The wikidata API from Wikimedia — 3 operation(s) for wikidata.
   name: Wikimedia wikidata API
   slug: wikimedia-wikidata-api
 artifact_total: 123
@@ -518,7 +556,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikimedia/refs/heads/main/screenshots/wikimedia-2026-06-20T201454.png
 security:

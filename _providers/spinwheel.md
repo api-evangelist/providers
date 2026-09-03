@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 24 acting
 api_count: 1
 apis:
-- description: Add and manage user bank accounts.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Add and manage user bank accounts.
   name: Spinwheel Bank Accounts API
   slug: spinwheel-bank-accounts-api
-- description: Order and retrieve Equifax-backed debt profiles and credit reports.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Order and retrieve Equifax-backed debt profiles and credit reports.
   name: Spinwheel Credit Data API
   slug: spinwheel-credit-data-api
-- description: Request, poll, and update liability data and refresh subscriptions.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Request, poll, and update liability data and refresh subscriptions.
   name: Spinwheel Liabilities API
   slug: spinwheel-liabilities-api
-- description: Manage payment requests, payers, and transactions.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Manage payment requests, payers, and transactions.
   name: Spinwheel Payments API
   slug: spinwheel-payments-api
-- description: Constants and vehicle reference data.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Constants and vehicle reference data.
   name: Spinwheel Reference API
   slug: spinwheel-reference-api
-- description: Connect and manage users via SMS, KBA, phone, profile, or network token.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Connect and manage users via SMS, KBA, phone, profile, or network token.
   name: Spinwheel Users API
   slug: spinwheel-users-api
-- description: Register and manage webhook endpoints.
+- baseURL: https://api.spinwheel.io/v1
+  baseurl_source: declared
+  description: Register and manage webhook endpoints.
   name: Spinwheel Webhooks API
   slug: spinwheel-webhooks-api
 artifact_total: 22
@@ -193,7 +207,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/screenshots/spinwheel-2026-06-20T194318.png
 security:

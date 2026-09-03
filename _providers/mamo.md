@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Business Details API from Mamo — 2 operation(s) for business details.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Business Details API from Mamo — 2 operation(s) for business details.
   name: Mamo Business Details API
   slug: mamo-business-details-api
-- description: The Cards API from Mamo — 5 operation(s) for cards.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Cards API from Mamo — 5 operation(s) for cards.
   name: Mamo Cards API
   slug: mamo-cards-api
-- description: The Expenses API from Mamo — 1 operation(s) for expenses.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Expenses API from Mamo — 1 operation(s) for expenses.
   name: Mamo Expenses API
   slug: mamo-expenses-api
-- description: The Getting Started API from Mamo — 1 operation(s) for getting started.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Getting Started API from Mamo — 1 operation(s) for getting started.
   name: Mamo Getting Started API
   slug: mamo-getting-started-api
-- description: The Invoices API from Mamo — 1 operation(s) for invoices.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Invoices API from Mamo — 1 operation(s) for invoices.
   name: Mamo Invoices API
   slug: mamo-invoices-api
-- description: The Payment Links API from Mamo — 2 operation(s) for payment links.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Payment Links API from Mamo — 2 operation(s) for payment links.
   name: Mamo Payment Links API
   slug: mamo-payment-links-api
-- description: The Payouts API from Mamo — 2 operation(s) for payouts.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Payouts API from Mamo — 2 operation(s) for payouts.
   name: Mamo Payouts API
   slug: mamo-payouts-api
-- description: The Receipts API from Mamo — 2 operation(s) for receipts.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Receipts API from Mamo — 2 operation(s) for receipts.
   name: Mamo Receipts API
   slug: mamo-receipts-api
-- description: The Recipients API from Mamo — 2 operation(s) for recipients.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Recipients API from Mamo — 2 operation(s) for recipients.
   name: Mamo Recipients API
   slug: mamo-recipients-api
-- description: The Subscriptions API from Mamo — 6 operation(s) for subscriptions.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Subscriptions API from Mamo — 6 operation(s) for subscriptions.
   name: Mamo Subscriptions API
   slug: mamo-subscriptions-api
-- description: The Transactions API from Mamo — 7 operation(s) for transactions.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Transactions API from Mamo — 7 operation(s) for transactions.
   name: Mamo Transactions API
   slug: mamo-transactions-api
-- description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
+- baseURL: https://business.mamopay.com/manage_api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Mamo — 2 operation(s) for webhooks.
   name: Mamo Webhooks API
   slug: mamo-webhooks-api
 artifact_total: 43
@@ -302,7 +326,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -312,7 +336,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 57.2
+  previous_composite: 57.0
   provenance:
     conformance: first-party
     contracts:
@@ -329,7 +353,7 @@ score:
     regime_id: payments
     score: 75.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:

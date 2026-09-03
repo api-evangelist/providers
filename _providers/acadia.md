@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 5
 apis:
-- description: Manage employee profiles and training records
+- baseURL: https://api.acadia-software.com/v1
+  baseurl_source: declared
+  description: Manage employee profiles and training records
   name: Acadia Employees API
   slug: acadia-employees-api
-- description: Manage quizzes and assessments
+- baseURL: https://api.acadia-software.com/v1
+  baseurl_source: declared
+  description: Manage quizzes and assessments
   name: Acadia Quizzes API
   slug: acadia-quizzes-api
-- description: Manage job roles and training requirements
+- baseURL: https://api.acadia-software.com/v1
+  baseurl_source: declared
+  description: Manage job roles and training requirements
   name: Acadia Roles API
   slug: acadia-roles-api
-- description: Manage employee skills and skills matrices
+- baseURL: https://api.acadia-software.com/v1
+  baseurl_source: declared
+  description: Manage employee skills and skills matrices
   name: Acadia Skills API
   slug: acadia-skills-api
-- description: Manage digital work instructions and task lists
+- baseURL: https://api.acadia-software.com/v1
+  baseurl_source: declared
+  description: Manage digital work instructions and task lists
   name: Acadia Work Instructions API
   slug: acadia-work-instructions-api
 artifact_total: 74
@@ -340,7 +350,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acadia/refs/heads/main/screenshots/acadia-2026-06-20T163529.png
 security:

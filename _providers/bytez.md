@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Models API from Bytez — 3 operation(s) for models.
+- baseURL: https://api.bytez.com
+  baseurl_source: declared
+  description: The Models API from Bytez — 3 operation(s) for models.
   name: Bytez Models API
   slug: bytez-models-api
 arazzos:
@@ -210,7 +212,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytez/refs/heads/main/screenshots/bytez-2026-07-25T204146.png
 security:

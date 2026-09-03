@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -50,52 +50,84 @@ apis:
 - description: JavaScript SDK and Twig-based theme engine for the storefront. Provides helper methods and REST proxies that let merchant themes and embedded components communicate with the Salla backend, plus a libr
   name: Salla Twilight SDK
   slug: twilight-sdk-api
-- description: The Branches API from Salla — 2 operation(s) for branches.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Branches API from Salla — 2 operation(s) for branches.
   name: Salla Branches API
   slug: salla-branches-api
-- description: The Brands API from Salla — 2 operation(s) for brands.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Brands API from Salla — 2 operation(s) for brands.
   name: Salla Brands API
   slug: salla-brands-api
-- description: The Carts API from Salla — 1 operation(s) for carts.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Carts API from Salla — 1 operation(s) for carts.
   name: Salla Carts API
   slug: salla-carts-api
-- description: The Categories API from Salla — 2 operation(s) for categories.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Categories API from Salla — 2 operation(s) for categories.
   name: Salla Categories API
   slug: salla-categories-api
-- description: The Coupons API from Salla — 1 operation(s) for coupons.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Coupons API from Salla — 1 operation(s) for coupons.
   name: Salla Coupons API
   slug: salla-coupons-api
-- description: The Customers API from Salla — 2 operation(s) for customers.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Customers API from Salla — 2 operation(s) for customers.
   name: Salla Customers API
   slug: salla-customers-api
-- description: The Financial API from Salla — 2 operation(s) for financial.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Financial API from Salla — 2 operation(s) for financial.
   name: Salla Financial API
   slug: salla-financial-api
-- description: The Localization API from Salla — 4 operation(s) for localization.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Localization API from Salla — 4 operation(s) for localization.
   name: Salla Localization API
   slug: salla-localization-api
-- description: The OAuth API from Salla — 3 operation(s) for oauth.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The OAuth API from Salla — 3 operation(s) for oauth.
   name: Salla OAuth API
   slug: salla-oauth-api
-- description: The Orders API from Salla — 6 operation(s) for orders.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Orders API from Salla — 6 operation(s) for orders.
   name: Salla Orders API
   slug: salla-orders-api
-- description: The Products API from Salla — 5 operation(s) for products.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Products API from Salla — 5 operation(s) for products.
   name: Salla Products API
   slug: salla-products-api
-- description: The Shipments API from Salla — 4 operation(s) for shipments.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Shipments API from Salla — 4 operation(s) for shipments.
   name: Salla Shipments API
   slug: salla-shipments-api
-- description: The Shipping API from Salla — 6 operation(s) for shipping.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Shipping API from Salla — 6 operation(s) for shipping.
   name: Salla Shipping API
   slug: salla-shipping-api
-- description: The Store API from Salla — 1 operation(s) for store.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Store API from Salla — 1 operation(s) for store.
   name: Salla Store API
   slug: salla-store-api
-- description: The Webhooks API from Salla — 3 operation(s) for webhooks.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Webhooks API from Salla — 3 operation(s) for webhooks.
   name: Salla Webhooks API
   slug: salla-webhooks-api
-- description: The Zones API from Salla — 2 operation(s) for zones.
+- baseURL: https://api.salla.dev/admin/v2
+  baseurl_source: declared
+  description: The Zones API from Salla — 2 operation(s) for zones.
   name: Salla Zones API
   slug: salla-zones-api
 arazzos:
@@ -541,7 +573,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -551,7 +583,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 73.7
+  previous_composite: 73.8
   provenance:
     agentic_access: derived
     contracts:
@@ -566,7 +598,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:

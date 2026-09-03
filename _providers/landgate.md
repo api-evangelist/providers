@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,31 +48,49 @@ apis:
 - description: Landgate's customer identity provider, running PingFederate. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-07-26) at /.well-known/openid-configuration and is saved verbat
   name: MyLandgate OpenID Connect / OAuth 2.0 (PingFederate)
   slug: mylandgate-openid-connect
-- description: Dataset (package) discovery and retrieval
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Dataset (package) discovery and retrieval
   name: Landgate Datasets API
   slug: landgate-datasets-api
-- description: Autocomplete, resource search and the DCAT catalog
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Autocomplete, resource search and the DCAT catalog
   name: Landgate Discovery API
   slug: landgate-discovery-api
-- description: Publishing organizations and groups
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Publishing organizations and groups
   name: Landgate Organizations API
   slug: landgate-organizations-api
-- description: Feature query, identify and image export
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Feature query, identify and image export
   name: Landgate Query API
   slug: landgate-query-api
-- description: Server-level information and the services directory
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Server-level information and the services directory
   name: Landgate Server API
   slug: landgate-server-api
-- description: Map service and layer metadata
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Map service and layer metadata
   name: Landgate Services API
   slug: landgate-services-api
-- description: Catalogue-level status and reference lists
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: Catalogue-level status and reference lists
   name: Landgate Site API
   slug: landgate-site-api
-- description: OGC Web Feature Service 2.0.0
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: OGC Web Feature Service 2.0.0
   name: Landgate WFS API
   slug: landgate-wfs-api
-- description: OGC Web Map Service 1.3.0
+- baseURL: https://public-services.slip.wa.gov.au/public/rest/services
+  baseurl_source: declared
+  description: OGC Web Map Service 1.3.0
   name: Landgate WMS API
   slug: landgate-wms-api
 artifact_total: 21
@@ -247,7 +277,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -257,7 +287,7 @@ score:
     discoverability: 85.2
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 49.4
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +305,8 @@ score:
     regime_id: government
     score: 79.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:
 - kind: authentication

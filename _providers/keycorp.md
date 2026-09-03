@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 4 operations
 api_count: 9
 apis:
-- description: The Account Information API from KeyCorp — 2 operation(s) for account information.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Account Information API from KeyCorp — 2 operation(s) for account information.
   name: KeyCorp Account Information API
   slug: keycorp-account-information-api
-- description: The Account Transactions API from KeyCorp — 2 operation(s) for account transactions.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Account Transactions API from KeyCorp — 2 operation(s) for account transactions.
   name: KeyCorp Account Transactions API
   slug: keycorp-account-transactions-api
-- description: The Accounts API from KeyCorp — 1 operation(s) for accounts.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Accounts API from KeyCorp — 1 operation(s) for accounts.
   name: KeyCorp Accounts API
   slug: keycorp-accounts-api
-- description: The ACH API from KeyCorp — 1 operation(s) for ach.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The ACH API from KeyCorp — 1 operation(s) for ach.
   name: KeyCorp ACH API
   slug: keycorp-ach-api
-- description: The ACH Payment Origination API from KeyCorp — 6 operation(s) for ach payment origination.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The ACH Payment Origination API from KeyCorp — 6 operation(s) for ach payment origination.
   name: KeyCorp ACH Payment Origination API
   slug: keycorp-ach-payment-origination-api
-- description: The ACH Payment Request Inquiry API from KeyCorp — 2 operation(s) for ach payment request inquiry.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The ACH Payment Request Inquiry API from KeyCorp — 2 operation(s) for ach payment request inquiry.
   name: KeyCorp ACH Payment Request Inquiry API
   slug: keycorp-ach-payment-request-inquiry-api
-- description: ACH Inquiry functions to list and retrieve ACH transaction details
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: ACH Inquiry functions to list and retrieve ACH transaction details
   name: KeyCorp ACH Transactions API
   slug: keycorp-ach-transactions-api
-- description: The HealthCheck API from KeyCorp — 7 operation(s) for healthcheck.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The HealthCheck API from KeyCorp — 7 operation(s) for healthcheck.
   name: KeyCorp Health Check API
   slug: keycorp-healthcheck-api
-- description: List check images
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: List check images
   name: KeyCorp Image Check API
   slug: keycorp-imagecheck-api
-- description: Send a payment.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: Send a payment.
   name: KeyCorp Initiate API
   slug: keycorp-initiate-api
-- description: Look up a RTP participating banks.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: Look up a RTP participating banks.
   name: KeyCorp Participant API
   slug: keycorp-participant-api
-- description: RTP functions to list and retrieve real-time payment details
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: RTP functions to list and retrieve real-time payment details
   name: KeyCorp RTP API
   slug: keycorp-rtp-api
-- description: Place new stop payments
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: Place new stop payments
   name: KeyCorp Stop Payments API
   slug: keycorp-stoppayments-api
-- description: The Undo ACH Payment Request API from KeyCorp — 1 operation(s) for undo ach payment request.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Undo ACH Payment Request API from KeyCorp — 1 operation(s) for undo ach payment request.
   name: KeyCorp Undo ACH Payment Request API
   slug: keycorp-undo-ach-payment-request-api
-- description: Perform validation checks for a payment transaction.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: Perform validation checks for a payment transaction.
   name: KeyCorp Validate API
   slug: keycorp-validate-api
-- description: Wire Inquiry functions to list wires and retrieve wire details
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: Wire Inquiry functions to list wires and retrieve wire details
   name: KeyCorp Wire API
   slug: keycorp-wire-api
-- description: The Wire/RTP v1 API from KeyCorp — 1 operation(s) for wire/rtp v1.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Wire/RTP v1 API from KeyCorp — 1 operation(s) for wire/rtp v1.
   name: KeyCorp Wire/RTP v1 API
   slug: keycorp-wire-rtp-v1-api
-- description: The Wire/RTP v2 API from KeyCorp — 1 operation(s) for wire/rtp v2.
+- baseURL: https://partner-api.key.com/commercial/accounts/v1
+  baseurl_source: declared
+  description: The Wire/RTP v2 API from KeyCorp — 1 operation(s) for wire/rtp v2.
   name: KeyCorp Wire/RTP v2 API
   slug: keycorp-wire-rtp-v2-api
 artifact_total: 36
@@ -299,7 +335,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -309,7 +345,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 44.5
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +363,7 @@ score:
     regime_id: banking_open_finance
     score: 34.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

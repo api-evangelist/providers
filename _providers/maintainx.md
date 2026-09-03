@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 169 operations · 113 acting
 api_count: 1
 apis:
-- description: Operations on Asset Criticalities
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Asset Criticalities
   name: MaintainX Asset Criticalities API
   slug: maintainx-asset-criticalities-api
-- description: Operations on Asset Custom Statuses
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Asset Custom Statuses
   name: MaintainX Asset Custom Statuses API
   slug: maintainx-asset-custom-statuses-api
-- description: Operations on Asset Statuses
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Asset Statuses
   name: MaintainX Asset Statuses API
   slug: maintainx-asset-statuses-api
-- description: Operations on Assets
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Assets
   name: MaintainX Assets API
   slug: maintainx-assets-api
-- description: Operations on Categories
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Categories
   name: MaintainX Categories API
   slug: maintainx-categories-api
-- description: Operations on Conversations
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Conversations
   name: MaintainX Conversations API
   slug: maintainx-conversations-api
-- description: Operations on Custom Fields
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Custom Fields
   name: MaintainX Custom Fields API
   slug: maintainx-custom-fields-api
-- description: Operations on Locations
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Locations
   name: MaintainX Locations API
   slug: maintainx-locations-api
-- description: Operations on Preventive Maintenance Plans
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Preventive Maintenance Plans
   name: MaintainX Maintenance Plans API
   slug: maintainx-maintenance-plans-api
-- description: Operations on Manufacturers and Models
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Manufacturers and Models
   name: MaintainX Manufacturers API
   slug: maintainx-manufacturers-api
-- description: Operations on Meter Readings
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Meter Readings
   name: MaintainX Meter Readings API
   slug: maintainx-meter-readings-api
-- description: Operations on Meter Triggers
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Meter Triggers
   name: MaintainX Meter Triggers API
   slug: maintainx-meter-triggers-api
-- description: Operations on Meters
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Meters
   name: MaintainX Meters API
   slug: maintainx-meters-api
-- description: OpenAPI Specification Documentation
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: OpenAPI Specification Documentation
   name: MaintainX OpenAPI Documentation API
   slug: maintainx-openapi-documentation-api
-- description: Operations on Organizations
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Organizations
   name: MaintainX Organizations API
   slug: maintainx-organizations-api
-- description: Operations on Part Transfer Requests
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Part Transfer Requests
   name: MaintainX Part Transfer Requests API
   slug: maintainx-part-transfer-requests-api
-- description: Operations on Parts
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Parts
   name: MaintainX Parts API
   slug: maintainx-parts-api
-- description: Operations on Procedure Template Rows
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Procedure Template Rows
   name: MaintainX Procedure Template Rows API
   slug: maintainx-procedure-template-rows-api
-- description: Operations on Procedure Templates
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Procedure Templates
   name: MaintainX Procedure Templates API
   slug: maintainx-procedure-templates-api
-- description: Operations on Purchase Orders
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Purchase Orders
   name: MaintainX Purchase Orders API
   slug: maintainx-purchase-orders-api
-- description: Operations on Root Cause Analysis Reports
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Root Cause Analysis Reports
   name: MaintainX Root Cause Analysis Reports API
   slug: maintainx-root-cause-analysis-reports-api
-- description: <h1>Webhooks in MaintainX</h1> <h2>What are Webhooks?</h2> <p>Webhooks are HTTP callbacks that allow different systems to communicate with each other in real-time. They're like automated messengers th
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: <h1>Webhooks in MaintainX</h1> <h2>What are Webhooks?</h2> <p>Webhooks are HTTP callbacks that allow different systems to communicate with each other in real-time. They're like automated messengers th
   name: MaintainX Subscriptions & Webhooks API
   slug: maintainx-subscriptions-webhooks-api
-- description: Operations on Teams
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Teams
   name: MaintainX Teams API
   slug: maintainx-teams-api
-- description: Operations on Users
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Users
   name: MaintainX Users API
   slug: maintainx-users-api
-- description: Operations on Vendors
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Vendors
   name: MaintainX Vendors API
   slug: maintainx-vendors-api
-- description: Operations on Work Orders
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Work Orders
   name: MaintainX Work Orders API
   slug: maintainx-work-orders-api
-- description: Operations for Work Permits
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations for Work Permits
   name: MaintainX Work Permits API
   slug: maintainx-work-permits-api
-- description: Operations on Work Request Portals
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Work Request Portals
   name: MaintainX Work Request Portals API
   slug: maintainx-work-request-portals-api
-- description: Operations on Work Requests
+- baseURL: https://api.getmaintainx.com/v1
+  baseurl_source: declared
+  description: Operations on Work Requests
   name: MaintainX Work Requests API
   slug: maintainx-work-requests-api
 artifact_total: 66
@@ -387,7 +445,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -397,7 +455,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 54.5
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -409,7 +467,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png
 security:

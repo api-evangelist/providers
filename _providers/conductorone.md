@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -43,142 +43,234 @@ agentic_access:
   summary_line: 243 operations · 164 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The Access Conflict API from ConductorOne — 2 operation(s) for access conflict.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Access Conflict API from ConductorOne — 2 operation(s) for access conflict.
   name: ConductorOne Access Conflict API
   slug: conductorone-access-conflict-api
-- description: The App API from ConductorOne — 3 operation(s) for app.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App API from ConductorOne — 3 operation(s) for app.
   name: ConductorOne App API
   slug: conductorone-app-api
-- description: The App Entitlement API from ConductorOne — 11 operation(s) for app entitlement.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement API from ConductorOne — 11 operation(s) for app entitlement.
   name: ConductorOne App Entitlement API
   slug: conductorone-app-entitlement-api
-- description: The App Entitlement Automation API from ConductorOne — 3 operation(s) for app entitlement automation.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement Automation API from ConductorOne — 3 operation(s) for app entitlement automation.
   name: ConductorOne App Entitlement Automation API
   slug: conductorone-app-entitlement-automation-api
-- description: The App Entitlement Automation Exclusion API from ConductorOne — 1 operation(s) for app entitlement automation exclusion.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement Automation Exclusion API from ConductorOne — 1 operation(s) for app entitlement automation exclusion.
   name: ConductorOne App Entitlement Automation Exclusion API
   slug: conductorone-app-entitlement-automation-exclusion-api
-- description: The App Entitlement Monitor Binding API from ConductorOne — 2 operation(s) for app entitlement monitor binding.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement Monitor Binding API from ConductorOne — 2 operation(s) for app entitlement monitor binding.
   name: ConductorOne App Entitlement Monitor Binding API
   slug: conductorone-app-entitlement-monitor-binding-api
-- description: The App Entitlement Owner API from ConductorOne — 3 operation(s) for app entitlement owner.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement Owner API from ConductorOne — 3 operation(s) for app entitlement owner.
   name: ConductorOne App Entitlement Owner API
   slug: conductorone-app-entitlement-owner-api
-- description: The App Entitlement Proxy Binding API from ConductorOne — 1 operation(s) for app entitlement proxy binding.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement Proxy Binding API from ConductorOne — 1 operation(s) for app entitlement proxy binding.
   name: ConductorOne App Entitlement Proxy Binding API
   slug: conductorone-app-entitlement-proxy-binding-api
-- description: The App Entitlement User Binding API from ConductorOne — 3 operation(s) for app entitlement user binding.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement User Binding API from ConductorOne — 3 operation(s) for app entitlement user binding.
   name: ConductorOne App Entitlement User Binding API
   slug: conductorone-app-entitlement-user-binding-api
-- description: The App Entitlement User Binding Feed API from ConductorOne — 1 operation(s) for app entitlement user binding feed.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement User Binding Feed API from ConductorOne — 1 operation(s) for app entitlement user binding feed.
   name: ConductorOne App Entitlement User Binding Feed API
   slug: conductorone-app-entitlement-user-binding-feed-api
-- description: The App Entitlement User Binding History API from ConductorOne — 1 operation(s) for app entitlement user binding history.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Entitlement User Binding History API from ConductorOne — 1 operation(s) for app entitlement user binding history.
   name: ConductorOne App Entitlement User Binding History API
   slug: conductorone-app-entitlement-user-binding-history-api
-- description: The App Owner API from ConductorOne — 3 operation(s) for app owner.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Owner API from ConductorOne — 3 operation(s) for app owner.
   name: ConductorOne App Owner API
   slug: conductorone-app-owner-api
-- description: The App Reports API from ConductorOne — 1 operation(s) for app reports.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Reports API from ConductorOne — 1 operation(s) for app reports.
   name: ConductorOne App Reports API
   slug: conductorone-app-reports-api
-- description: The App Resource API from ConductorOne — 4 operation(s) for app resource.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Resource API from ConductorOne — 4 operation(s) for app resource.
   name: ConductorOne App Resource API
   slug: conductorone-app-resource-api
-- description: The App Resource Owner API from ConductorOne — 2 operation(s) for app resource owner.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Resource Owner API from ConductorOne — 2 operation(s) for app resource owner.
   name: ConductorOne App Resource Owner API
   slug: conductorone-app-resource-owner-api
-- description: The App Resource Type API from ConductorOne — 2 operation(s) for app resource type.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Resource Type API from ConductorOne — 2 operation(s) for app resource type.
   name: ConductorOne App Resource Type API
   slug: conductorone-app-resource-type-api
-- description: The App Usage Controls API from ConductorOne — 1 operation(s) for app usage controls.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The App Usage Controls API from ConductorOne — 1 operation(s) for app usage controls.
   name: ConductorOne App Usage Controls API
   slug: conductorone-app-usage-controls-api
-- description: The AppAccessRequestDefaults API from ConductorOne — 2 operation(s) for appaccessrequestdefaults.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The AppAccessRequestDefaults API from ConductorOne — 2 operation(s) for appaccessrequestdefaults.
   name: ConductorOne AppAccessRequestDefaults API
   slug: conductorone-appaccessrequestdefaults-api
-- description: The AppUsers API from ConductorOne — 5 operation(s) for appusers.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The AppUsers API from ConductorOne — 5 operation(s) for appusers.
   name: ConductorOne AppUsers API
   slug: conductorone-appusers-api
-- description: The Attribute API from ConductorOne — 6 operation(s) for attribute.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Attribute API from ConductorOne — 6 operation(s) for attribute.
   name: ConductorOne Attribute API
   slug: conductorone-attribute-api
-- description: The Auth API from ConductorOne — 1 operation(s) for auth.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Auth API from ConductorOne — 1 operation(s) for auth.
   name: ConductorOne Auth API
   slug: conductorone-auth-api
-- description: The Automations API from ConductorOne — 9 operation(s) for automations.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Automations API from ConductorOne — 9 operation(s) for automations.
   name: ConductorOne Automations API
   slug: conductorone-automations-api
-- description: The AWS External ID Settings API from ConductorOne — 1 operation(s) for aws external id settings.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The AWS External ID Settings API from ConductorOne — 1 operation(s) for aws external id settings.
   name: ConductorOne AWS External ID Settings API
   slug: conductorone-aws-external-id-settings-api
-- description: The Compliance Framework API from ConductorOne — 2 operation(s) for compliance framework.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Compliance Framework API from ConductorOne — 2 operation(s) for compliance framework.
   name: ConductorOne Compliance Framework API
   slug: conductorone-compliance-framework-api
-- description: The Connector API from ConductorOne — 11 operation(s) for connector.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Connector API from ConductorOne — 11 operation(s) for connector.
   name: ConductorOne Connector API
   slug: conductorone-connector-api
-- description: The Connector Catalog API from ConductorOne — 1 operation(s) for connector catalog.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Connector Catalog API from ConductorOne — 1 operation(s) for connector catalog.
   name: ConductorOne Connector Catalog API
   slug: conductorone-connector-catalog-api
-- description: The Directory API from ConductorOne — 2 operation(s) for directory.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Directory API from ConductorOne — 2 operation(s) for directory.
   name: ConductorOne Directory API
   slug: conductorone-directory-api
-- description: The Function API from ConductorOne — 5 operation(s) for function.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Function API from ConductorOne — 5 operation(s) for function.
   name: ConductorOne Function API
   slug: conductorone-function-api
-- description: The Function Commit API from ConductorOne — 2 operation(s) for function commit.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Function Commit API from ConductorOne — 2 operation(s) for function commit.
   name: ConductorOne Function Commit API
   slug: conductorone-function-commit-api
-- description: The Function Tag API from ConductorOne — 1 operation(s) for function tag.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Function Tag API from ConductorOne — 1 operation(s) for function tag.
   name: ConductorOne Function Tag API
   slug: conductorone-function-tag-api
-- description: The Org Domain API from ConductorOne — 1 operation(s) for org domain.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Org Domain API from ConductorOne — 1 operation(s) for org domain.
   name: ConductorOne Org Domain API
   slug: conductorone-org-domain-api
-- description: The Personal Client API from ConductorOne — 3 operation(s) for personal client.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Personal Client API from ConductorOne — 3 operation(s) for personal client.
   name: ConductorOne Personal Client API
   slug: conductorone-personal-client-api
-- description: The Policy API from ConductorOne — 5 operation(s) for policy.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Policy API from ConductorOne — 5 operation(s) for policy.
   name: ConductorOne Policy API
   slug: conductorone-policy-api
-- description: The Request Catalog API from ConductorOne — 13 operation(s) for request catalog.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Request Catalog API from ConductorOne — 13 operation(s) for request catalog.
   name: ConductorOne Request Catalog API
   slug: conductorone-request-catalog-api
-- description: The Request Schema API from ConductorOne — 2 operation(s) for request schema.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Request Schema API from ConductorOne — 2 operation(s) for request schema.
   name: ConductorOne Request Schema API
   slug: conductorone-request-schema-api
-- description: The Request Schema Entitlement Binding API from ConductorOne — 1 operation(s) for request schema entitlement binding.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Request Schema Entitlement Binding API from ConductorOne — 1 operation(s) for request schema entitlement binding.
   name: ConductorOne Request Schema Entitlement Binding API
   slug: conductorone-request-schema-entitlement-binding-api
-- description: The Risk Level API from ConductorOne — 2 operation(s) for risk level.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Risk Level API from ConductorOne — 2 operation(s) for risk level.
   name: ConductorOne Risk Level API
   slug: conductorone-risk-level-api
-- description: The Role API from ConductorOne — 2 operation(s) for role.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Role API from ConductorOne — 2 operation(s) for role.
   name: ConductorOne Role API
   slug: conductorone-role-api
-- description: The Session Settings API from ConductorOne — 2 operation(s) for session settings.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Session Settings API from ConductorOne — 2 operation(s) for session settings.
   name: ConductorOne Session Settings API
   slug: conductorone-session-settings-api
-- description: The Step Up Authentication Providers API from ConductorOne — 5 operation(s) for step up authentication providers.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Step Up Authentication Providers API from ConductorOne — 5 operation(s) for step up authentication providers.
   name: ConductorOne Step Up Authentication Providers API
   slug: conductorone-step-up-authentication-providers-api
-- description: The Step Up Authentication Transactions API from ConductorOne — 2 operation(s) for step up authentication transactions.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Step Up Authentication Transactions API from ConductorOne — 2 operation(s) for step up authentication transactions.
   name: ConductorOne Step Up Authentication Transactions API
   slug: conductorone-step-up-authentication-transactions-api
-- description: The System Log API from ConductorOne — 1 operation(s) for system log.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The System Log API from ConductorOne — 1 operation(s) for system log.
   name: ConductorOne System Log API
   slug: conductorone-system-log-api
-- description: The System Log Exporter API from ConductorOne — 4 operation(s) for system log exporter.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The System Log Exporter API from ConductorOne — 4 operation(s) for system log exporter.
   name: ConductorOne System Log Exporter API
   slug: conductorone-system-log-exporter-api
-- description: The Task API from ConductorOne — 19 operation(s) for task.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Task API from ConductorOne — 19 operation(s) for task.
   name: ConductorOne Task API
   slug: conductorone-task-api
-- description: The User API from ConductorOne — 5 operation(s) for user.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The User API from ConductorOne — 5 operation(s) for user.
   name: ConductorOne User API
   slug: conductorone-user-api
-- description: The Webhook API from ConductorOne — 4 operation(s) for webhook.
+- baseURL: https://example.conductor.one
+  baseurl_source: declared
+  description: The Webhook API from ConductorOne — 4 operation(s) for webhook.
   name: ConductorOne Webhook API
   slug: conductorone-webhook-api
 artifact_total: 101
@@ -502,7 +594,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -512,7 +604,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -524,7 +616,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:

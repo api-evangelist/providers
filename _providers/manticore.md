@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 20 operations · 20 acting
 api_count: 2
 apis:
-- description: Operations regarding adding, updating or deleting documents
+- baseURL: http://127.0.0.1:9308/
+  baseurl_source: declared
+  description: Operations regarding adding, updating or deleting documents
   name: Manticore Search Index API
   slug: manticore-index-api
-- description: Operations about performing searches over tables
+- baseURL: http://127.0.0.1:9308/
+  baseurl_source: declared
+  description: Operations about performing searches over tables
   name: Manticore Search Search API
   slug: manticore-search-api
-- description: The utils API from Manticore Search — 1 operation(s) for utils.
+- baseURL: http://127.0.0.1:9308/
+  baseurl_source: declared
+  description: The utils API from Manticore Search — 1 operation(s) for utils.
   name: Manticore Search utils API
   slug: manticore-utils-api
 artifact_total: 69
@@ -353,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/screenshots/manticore-2026-06-20T184929.png
 security:

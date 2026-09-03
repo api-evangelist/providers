@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Full historical and live article database search.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Full historical and live article database search.
   name: The News API All News API
   slug: the-news-api-all-news-api
-- description: Retrieve specific articles by UUID.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Retrieve specific articles by UUID.
   name: The News API Articles API
   slug: the-news-api-articles-api
-- description: Latest headlines organized by category.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Latest headlines organized by category.
   name: The News API Headlines API
   slug: the-news-api-headlines-api
-- description: Articles similar to a given article.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Articles similar to a given article.
   name: The News API Similar News API
   slug: the-news-api-similar-news-api
-- description: Available news sources and their metadata.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Available news sources and their metadata.
   name: The News API Sources API
   slug: the-news-api-sources-api
-- description: Top stories filtered by keyword, category, and date.
+- baseURL: https://api.thenewsapi.com/v1
+  baseurl_source: declared
+  description: Top stories filtered by keyword, category, and date.
   name: The News API Top Stories API
   slug: the-news-api-top-stories-api
 artifact_total: 26
@@ -227,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/screenshots/the-news-api-2026-06-20T195226.png
 security:

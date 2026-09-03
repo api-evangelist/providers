@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST endpoint that returns the fully-resolved values behind a Sight Machine dashboard, panel by panel, so dashboard data can be consumed by external enterprise applications. Authenticated with a tenan
@@ -165,11 +177,11 @@ score:
   band: thin
   composite: 37.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -179,13 +191,14 @@ score:
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 37.6
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sight-machine/refs/heads/main/screenshots/sight-machine-2026-09-02T155420.png
 security:
 - kind: authentication
   name: Sight Machine Authentication

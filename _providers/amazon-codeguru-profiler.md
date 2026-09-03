@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 23 operations · 13 acting
 api_count: 1
 apis:
-- description: The Internal API from Amazon CodeGuru Profiler — 4 operation(s) for internal.
+- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Internal API from Amazon CodeGuru Profiler — 4 operation(s) for internal.
   name: Amazon CodeGuru Profiler Internal API
   slug: amazon-codeguru-profiler-internal-api
-- description: The ProfilingGroups API from Amazon CodeGuru Profiler — 12 operation(s) for profilinggroups.
+- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ProfilingGroups API from Amazon CodeGuru Profiler — 12 operation(s) for profilinggroups.
   name: Amazon CodeGuru Profiler ProfilingGroups API
   slug: amazon-codeguru-profiler-profilinggroups-api
-- description: The ProfilingGroups#clientToken API from Amazon CodeGuru Profiler — 1 operation(s) for profilinggroups#clienttoken.
+- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ProfilingGroups#clientToken API from Amazon CodeGuru Profiler — 1 operation(s) for profilinggroups#clienttoken.
   name: Amazon CodeGuru Profiler ProfilingGroups#clientToken API
   slug: amazon-codeguru-profiler-profilinggroups-clienttoken-api
-- description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
+- baseURL: https://codeguru-profiler.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon CodeGuru Profiler — 2 operation(s) for tags.
   name: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
 artifact_total: 345
@@ -1294,7 +1302,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 35.5
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -1304,7 +1312,7 @@ score:
     discoverability: 75.9
     governance: 47.0
     operational_transparency: 81.6
-  previous_composite: 31.1
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1316,8 +1324,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:
 - kind: authentication

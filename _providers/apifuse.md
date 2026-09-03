@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 5
 apis:
-- description: Integration usage analytics and monitoring.
+- baseURL: https://api.apifuse.io
+  baseurl_source: declared
+  description: Integration usage analytics and monitoring.
   name: Apifuse Analytics API
   slug: apifuse-analytics-api
-- description: Available connectors and their configurations.
+- baseURL: https://api.apifuse.io
+  baseurl_source: declared
+  description: Available connectors and their configurations.
   name: Apifuse Connectors API
   slug: apifuse-connectors-api
-- description: Manage and configure embedded integrations.
+- baseURL: https://api.apifuse.io
+  baseurl_source: declared
+  description: Manage and configure embedded integrations.
   name: Apifuse Integrations API
   slug: apifuse-integrations-api
-- description: User authentication and management.
+- baseURL: https://api.apifuse.io
+  baseurl_source: declared
+  description: User authentication and management.
   name: Apifuse Users API
   slug: apifuse-users-api
-- description: Create and manage integration workflows.
+- baseURL: https://api.apifuse.io
+  baseurl_source: declared
+  description: Create and manage integration workflows.
   name: Apifuse Workflows API
   slug: apifuse-workflows-api
 artifact_total: 51
@@ -283,7 +293,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/screenshots/apifuse-2026-06-20T172232.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: Manage DNS changes
+- baseURL: https://dns.googleapis.com
+  baseurl_source: declared
+  description: Manage DNS changes
   name: Google Cloud DNS Changes API
   slug: google-cloud-dns-changes-api
-- description: Manage DNS zones
+- baseURL: https://dns.googleapis.com
+  baseurl_source: declared
+  description: Manage DNS zones
   name: Google Cloud DNS ManagedZones API
   slug: google-cloud-dns-managedzones-api
-- description: Manage DNS policies
+- baseURL: https://dns.googleapis.com
+  baseurl_source: declared
+  description: Manage DNS policies
   name: Google Cloud DNS Policies API
   slug: google-cloud-dns-policies-api
-- description: Manage DNS resource record sets
+- baseURL: https://dns.googleapis.com
+  baseurl_source: declared
+  description: Manage DNS resource record sets
   name: Google Cloud DNS ResourceRecordSets API
   slug: google-cloud-dns-resourcerecordsets-api
 artifact_total: 25
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/screenshots/google-cloud-dns-2026-06-20T182106.png
 security:

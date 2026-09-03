@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 94 operations · 45 acting
 api_count: 1
 apis:
-- description: The Account API from Mode — 1 operation(s) for account.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Account API from Mode — 1 operation(s) for account.
   name: Mode Account API
   slug: mode-account-api
-- description: The Audit Logs API from Mode — 1 operation(s) for audit logs.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Audit Logs API from Mode — 1 operation(s) for audit logs.
   name: Mode Audit Logs API
   slug: mode-audit-logs-api
-- description: The Data Sources API from Mode — 6 operation(s) for data sources.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Data Sources API from Mode — 6 operation(s) for data sources.
   name: Mode Data Sources API
   slug: mode-data-sources-api
-- description: The Datasets API from Mode — 8 operation(s) for datasets.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Datasets API from Mode — 8 operation(s) for datasets.
   name: Mode Datasets API
   slug: mode-datasets-api
-- description: The Definitions API from Mode — 2 operation(s) for definitions.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Definitions API from Mode — 2 operation(s) for definitions.
   name: Mode Definitions API
   slug: mode-definitions-api
-- description: The Groups API from Mode — 4 operation(s) for groups.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Groups API from Mode — 4 operation(s) for groups.
   name: Mode Groups API
   slug: mode-groups-api
-- description: The Invites API from Mode — 1 operation(s) for invites.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Invites API from Mode — 1 operation(s) for invites.
   name: Mode Invites API
   slug: mode-invites-api
-- description: The Memberships API from Mode — 2 operation(s) for memberships.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Memberships API from Mode — 2 operation(s) for memberships.
   name: Mode Memberships API
   slug: mode-memberships-api
-- description: The Reports API from Mode — 27 operation(s) for reports.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Reports API from Mode — 27 operation(s) for reports.
   name: Mode Reports API
   slug: mode-reports-api
-- description: The Spaces API from Mode — 6 operation(s) for spaces.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Spaces API from Mode — 6 operation(s) for spaces.
   name: Mode Spaces API
   slug: mode-spaces-api
-- description: The Verify API from Mode — 1 operation(s) for verify.
+- baseURL: https://app.mode.com/api
+  baseurl_source: declared
+  description: The Verify API from Mode — 1 operation(s) for verify.
   name: Mode Verify API
   slug: mode-verify-api
 artifact_total: 27
@@ -266,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

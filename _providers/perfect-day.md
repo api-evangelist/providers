@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,55 +34,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 18
 apis:
-- description: WordPress REST `categories` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `categories` resource on perfectday.com.
   name: Perfect Day Categories API
   slug: perfect-day-categories-api
-- description: WordPress REST `comments` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `comments` resource on perfectday.com.
   name: Perfect Day Comments API
   slug: perfect-day-comments-api
-- description: WordPress REST `leader_category` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `leader_category` resource on perfectday.com.
   name: Perfect Day Leader Category API
   slug: perfect-day-leader-category-api
-- description: WordPress REST `media` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `media` resource on perfectday.com.
   name: Perfect Day Media API
   slug: perfect-day-media-api
-- description: WordPress REST `modal` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `modal` resource on perfectday.com.
   name: Perfect Day Modal API
   slug: perfect-day-modal-api
-- description: WordPress REST `news` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `news` resource on perfectday.com.
   name: Perfect Day News API
   slug: perfect-day-news-api
-- description: WordPress REST `news_category` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `news_category` resource on perfectday.com.
   name: Perfect Day News Category API
   slug: perfect-day-news-category-api
-- description: WordPress REST `pages` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `pages` resource on perfectday.com.
   name: Perfect Day Pages API
   slug: perfect-day-pages-api
-- description: WordPress REST `posts` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `posts` resource on perfectday.com.
   name: Perfect Day Posts API
   slug: perfect-day-posts-api
-- description: WordPress REST `search` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `search` resource on perfectday.com.
   name: Perfect Day Search API
   slug: perfect-day-search-api
-- description: WordPress REST `statuses` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `statuses` resource on perfectday.com.
   name: Perfect Day Statuses API
   slug: perfect-day-statuses-api
-- description: WordPress REST `success_story` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `success_story` resource on perfectday.com.
   name: Perfect Day Success Story API
   slug: perfect-day-success-story-api
-- description: WordPress REST `success_story_category` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `success_story_category` resource on perfectday.com.
   name: Perfect Day Success Story Category API
   slug: perfect-day-success-story-category-api
-- description: WordPress REST `tags` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `tags` resource on perfectday.com.
   name: Perfect Day Tags API
   slug: perfect-day-tags-api
-- description: WordPress REST `taxonomies` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `taxonomies` resource on perfectday.com.
   name: Perfect Day Taxonomies API
   slug: perfect-day-taxonomies-api
-- description: WordPress REST `types` resource on perfectday.com.
+- baseURL: https://perfectday.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `types` resource on perfectday.com.
   name: Perfect Day Types API
   slug: perfect-day-types-api
 artifact_total: 36
@@ -273,7 +316,7 @@ score:
   band: emerging
   composite: 24.8
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -298,8 +341,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/perfect-day/refs/heads/main/screenshots/perfect-day-2026-09-02T151042.png
 security:
 - kind: authentication
   name: Perfect Day Authentication

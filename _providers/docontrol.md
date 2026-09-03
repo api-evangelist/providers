@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: DoControl is a SaaS data security platform providing automated data access governance, DLP, and insider threat prevention for cloud applications.
   name: DoControl
   slug: docontrol
-- description: The Authentication API from DoControl — 1 operation(s) for authentication.
+- baseURL: https://apollo-gateway-v4-api.prod.docontrol.io
+  baseurl_source: spec
+  description: The Authentication API from DoControl — 1 operation(s) for authentication.
   name: DoControl Authentication API
   slug: docontrol-authentication-api
-- description: The GraphQL API from DoControl — 1 operation(s) for graphql.
+- baseURL: https://apollo-gateway-v4-api.prod.docontrol.io
+  baseurl_source: spec
+  description: The GraphQL API from DoControl — 1 operation(s) for graphql.
   name: DoControl GraphQL API
   slug: docontrol-graphql-api
 artifact_total: 14
@@ -152,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docontrol/refs/heads/main/screenshots/docontrol-2026-06-20T180108.png
 security:

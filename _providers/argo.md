@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 2
@@ -51,40 +51,64 @@ apis:
 - description: Kubernetes CRD-based API for Argo Rollouts progressive delivery controller. Provides Rollout and AnalysisTemplate resources for managing canary and blue-green deployment strategies with automated anal
   name: Argo Rollouts API
   slug: argo-rollouts-api
-- description: Operations for creating, querying, syncing, and deleting Argo CD GitOps applications.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for creating, querying, syncing, and deleting Argo CD GitOps applications.
   name: Argo Applications API
   slug: argo-applications-api
-- description: Operations for registering and managing target Kubernetes clusters for application deployment.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for registering and managing target Kubernetes clusters for application deployment.
   name: Argo Clusters API
   slug: argo-clusters-api
-- description: Operations for managing scheduled cron workflows
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for managing scheduled cron workflows
   name: Argo Cron Workflows API
   slug: argo-cron-workflows-api
-- description: Server information and version endpoints
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Server information and version endpoints
   name: Argo Info API
   slug: argo-info-api
-- description: Operations for managing Argo CD projects that provide governance and access control for applications.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for managing Argo CD projects that provide governance and access control for applications.
   name: Argo Projects API
   slug: argo-projects-api
-- description: Operations for registering and managing Git and Helm chart repositories used as application sources.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for registering and managing Git and Helm chart repositories used as application sources.
   name: Argo Repositories API
   slug: argo-repositories-api
-- description: Authentication operations for obtaining and invalidating bearer tokens.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Authentication operations for obtaining and invalidating bearer tokens.
   name: Argo Session API
   slug: argo-session-api
-- description: Operations for reading Argo CD server configuration and settings.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for reading Argo CD server configuration and settings.
   name: Argo Settings API
   slug: argo-settings-api
-- description: Server version information endpoint.
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Server version information endpoint.
   name: Argo Version API
   slug: argo-version-api
-- description: Operations for accessing archived workflow records
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for accessing archived workflow records
   name: Argo Workflow Archives API
   slug: argo-workflow-archives-api
-- description: Operations for managing reusable workflow templates
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for managing reusable workflow templates
   name: Argo Workflow Templates API
   slug: argo-workflow-templates-api
-- description: Operations for managing workflow executions
+- baseURL: https://localhost:2746/api/v1
+  baseurl_source: declared
+  description: Operations for managing workflow executions
   name: Argo Workflows API
   slug: argo-workflows-api
 artifact_total: 213
@@ -782,7 +806,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -795,7 +819,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 48.7
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -804,7 +828,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo/refs/heads/main/screenshots/argo-2026-06-20T172416.png
 security:

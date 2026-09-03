@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: Free geocoding, address normalisation and standardisation, census intersection and reverse geocoding from Texas A&M GeoServices. Version 5.0.0 returns up to 172 output fields; an API key from a free s
+- baseURL: https://geoservices.tamu.edu/Api/Geocode/V5/
+  baseurl_source: declared
+  description: Free geocoding, address normalisation and standardisation, census intersection and reverse geocoding from Texas A&M GeoServices. Version 5.0.0 returns up to 172 output fields; an API key from a free s
   name: Texas A&M GeoServices Geocoding API
   slug: geoservices-geocode
-- description: Read-only GeoJSON feed of Texas A&M campus dining locations with live open/closed state, status message, street address and an occupancy signal, served from the university's own Aggie Map backend. Ver
+- baseURL: https://api.aggiemap.tamu.edu
+  baseurl_source: declared
+  description: Read-only GeoJSON feed of Texas A&M campus dining locations with live open/closed state, status message, street address and an occupancy signal, served from the university's own Aggie Map backend. Ver
   name: Aggie Map Dining Locations API
   slug: aggiemap-dining
-- description: Live positions of shared micromobility vehicles on and around campus as GeoJSON, served from veoride.geoservices.tamu.edu inside Texas A&M's own geoservices estate. Verified 200 on 2026-09-01 returnin
+- baseURL: https://veoride.geoservices.tamu.edu
+  baseurl_source: declared
+  description: Live positions of shared micromobility vehicles on and around campus as GeoJSON, served from veoride.geoservices.tamu.edu inside Texas A&M's own geoservices estate. Verified 200 on 2026-09-01 returnin
   name: Campus Micromobility Vehicle Positions API
   slug: campus-micromobility
 - description: Public Esri ArcGIS Server operated by Texas A&M IT, serving campus base maps, ADA routes, construction, department search, transit lots, bike maps and event pedestrian/vehicle flow layers. The service
@@ -52,7 +58,9 @@ apis:
 - description: 'OAI-PMH 2.0 harvesting endpoint for OAKTrust, the Texas A&M University Libraries institutional repository. Verified 200 on 2026-09-01: repositoryName "OAKTrust", repositoryIdentifier oaktrust.library.'
   name: OAKTrust Institutional Repository — OAI-PMH
   slug: oaktrust-oaipmh
-- description: SAML 2.0 metadata for Texas A&M University's own Shibboleth Identity Provider, published unauthenticated from idp.tamu.edu. Verified 200 with content-type application/xml on 2026-09-01; the entityID s
+- baseURL: https://idp.tamu.edu/idp/shibboleth
+  baseurl_source: declared
+  description: SAML 2.0 metadata for Texas A&M University's own Shibboleth Identity Provider, published unauthenticated from idp.tamu.edu. Verified 200 with content-type application/xml on 2026-09-01; the entityID s
   name: Texas A&M Shibboleth Identity Provider Metadata
   slug: identity-federation
 - description: Texas A&M University's registration in the InCommon identity federation, resolvable through InCommon's per-entity Metadata Query service under entityID urn:mace:incommon:tamu.edu. Verified 200 as appl
@@ -249,7 +257,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 15.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -259,7 +267,7 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.9
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     contracts:
@@ -274,8 +282,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/texas-a-m-university/refs/heads/main/screenshots/texas-a-m-university-2026-06-20T195203.png
 security:
 - kind: authentication

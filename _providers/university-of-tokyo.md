@@ -33,25 +33,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: The University of Tokyo operates three SAML 2.0 entities registered in GakuNin, Japan's academic access federation — two Shibboleth Identity Providers (the central UTokyo IdP at gidp.adm.u-tokyo.ac.jp
   name: UTokyo Identity Federation (GakuNin SAML 2.0)
   slug: gakunin-identity-federation
-- description: IIIF Presentation and Image API endpoints.
+- baseURL: https://da.dl.itc.u-tokyo.ac.jp/portal
+  baseurl_source: declared
+  description: IIIF Presentation and Image API endpoints.
   name: University of Tokyo Iiif API
   slug: university-of-tokyo-iiif-api
-- description: Item representations in JSON-LD, CSV and refer/BibIX.
+- baseURL: https://da.dl.itc.u-tokyo.ac.jp/portal
+  baseurl_source: declared
+  description: Item representations in JSON-LD, CSV and refer/BibIX.
   name: University of Tokyo Items API
   slug: university-of-tokyo-items-api
-- description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+- baseURL: https://da.dl.itc.u-tokyo.ac.jp/portal
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
   name: University of Tokyo Oai Pmh API
   slug: university-of-tokyo-oai-pmh-api
-- description: Deposited items — theses, journal articles, departmental bulletins, research data.
+- baseURL: https://da.dl.itc.u-tokyo.ac.jp/portal
+  baseurl_source: declared
+  description: Deposited items — theses, journal articles, departmental bulletins, research data.
   name: University of Tokyo Records API
   slug: university-of-tokyo-records-api
-- description: OpenSearch-described search over the portal.
+- baseURL: https://da.dl.itc.u-tokyo.ac.jp/portal
+  baseurl_source: declared
+  description: OpenSearch-described search over the portal.
   name: University of Tokyo Search API
   slug: university-of-tokyo-search-api
 artifact_total: 21
@@ -281,7 +291,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.5
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -294,7 +304,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 43.6
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     contracts:
@@ -309,7 +319,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png
 security:

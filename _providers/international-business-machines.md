@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 42 operations · 20 acting
 api_count: 8
 apis:
-- description: Analyze text content.
+- baseURL: https://api.us-south.natural-language-understanding.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Analyze text content.
   name: International Business Machines Analyze API
   slug: international-business-machines-analyze-api
-- description: Manage storage buckets.
+- baseURL: https://s3.us-south.cloud-object-storage.appdomain.cloud
+  baseurl_source: spec
+  description: Manage storage buckets.
   name: International Business Machines Buckets API
   slug: international-business-machines-buckets-api
-- description: Manage Kubernetes clusters.
+- baseURL: https://containers.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage Kubernetes clusters.
   name: International Business Machines Clusters API
   slug: international-business-machines-clusters-api
-- description: Create and manage custom language models.
+- baseURL: https://api.us-south.speech-to-text.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Create and manage custom language models.
   name: International Business Machines Custom Language Models API
   slug: international-business-machines-custom-language-models-api
-- description: Generate text embeddings.
+- baseURL: https://us-south.ml.cloud.ibm.com
+  baseurl_source: spec
+  description: Generate text embeddings.
   name: International Business Machines Embeddings API
   slug: international-business-machines-embeddings-api
-- description: Manage assistant environments.
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage assistant environments.
   name: International Business Machines Environments API
   slug: international-business-machines-environments-api
-- description: Manage virtual server instances.
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage virtual server instances.
   name: International Business Machines Instances API
   slug: international-business-machines-instances-api
-- description: Send messages to an assistant.
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Send messages to an assistant.
   name: International Business Machines Messages API
   slug: international-business-machines-messages-api
-- description: Manage custom models.
+- baseURL: https://api.us-south.natural-language-understanding.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage custom models.
   name: International Business Machines Models API
   slug: international-business-machines-models-api
-- description: Manage objects within buckets.
+- baseURL: https://s3.us-south.cloud-object-storage.appdomain.cloud
+  baseurl_source: spec
+  description: Manage objects within buckets.
   name: International Business Machines Objects API
   slug: international-business-machines-objects-api
-- description: Get word pronunciations.
+- baseURL: https://api.us-south.text-to-speech.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Get word pronunciations.
   name: International Business Machines Pronunciation API
   slug: international-business-machines-pronunciation-api
-- description: Recognize and transcribe audio.
+- baseURL: https://api.us-south.speech-to-text.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Recognize and transcribe audio.
   name: International Business Machines Recognition API
   slug: international-business-machines-recognition-api
-- description: Manage security groups.
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage security groups.
   name: International Business Machines Security Groups API
   slug: international-business-machines-security-groups-api
-- description: Manage conversation sessions.
+- baseURL: https://api.us-south.assistant.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage conversation sessions.
   name: International Business Machines Sessions API
   slug: international-business-machines-sessions-api
-- description: Manage subnets.
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage subnets.
   name: International Business Machines Subnets API
   slug: international-business-machines-subnets-api
-- description: Synthesize text to audio.
+- baseURL: https://api.us-south.text-to-speech.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Synthesize text to audio.
   name: International Business Machines Synthesis API
   slug: international-business-machines-synthesis-api
-- description: Generate text using foundation models.
+- baseURL: https://us-south.ml.cloud.ibm.com
+  baseurl_source: spec
+  description: Generate text using foundation models.
   name: International Business Machines Text Generation API
   slug: international-business-machines-text-generation-api
-- description: Manage available voices.
+- baseURL: https://api.us-south.text-to-speech.watson.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage available voices.
   name: International Business Machines Voices API
   slug: international-business-machines-voices-api
-- description: Manage block storage volumes.
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage block storage volumes.
   name: International Business Machines Volumes API
   slug: international-business-machines-volumes-api
-- description: Manage Virtual Private Clouds.
+- baseURL: https://us-south.iaas.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage Virtual Private Clouds.
   name: International Business Machines VPCs API
   slug: international-business-machines-vpcs-api
-- description: Manage worker nodes.
+- baseURL: https://containers.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage worker nodes.
   name: International Business Machines Worker Nodes API
   slug: international-business-machines-worker-nodes-api
-- description: Manage worker pools.
+- baseURL: https://containers.cloud.ibm.com
+  baseurl_source: spec
+  description: Manage worker pools.
   name: International Business Machines Worker Pools API
   slug: international-business-machines-worker-pools-api
 artifact_total: 73
@@ -350,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/screenshots/international-business-machines-2026-06-20T183455.png
 security:

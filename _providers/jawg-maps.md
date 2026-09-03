@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
-- description: The Isochrone API from Jawg Maps — 1 operation(s) for isochrone.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Isochrone API from Jawg Maps — 1 operation(s) for isochrone.
   name: Jawg Maps Isochrone API
   slug: jawg-maps-isochrone-api
-- description: The Matrix API from Jawg Maps — 1 operation(s) for matrix.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Matrix API from Jawg Maps — 1 operation(s) for matrix.
   name: Jawg Maps Matrix API
   slug: jawg-maps-matrix-api
-- description: The Places API from Jawg Maps — 4 operation(s) for places.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Places API from Jawg Maps — 4 operation(s) for places.
   name: Jawg Maps Places API
   slug: jawg-maps-places-api
-- description: The Routing API from Jawg Maps — 2 operation(s) for routing.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Routing API from Jawg Maps — 2 operation(s) for routing.
   name: Jawg Maps Routing API
   slug: jawg-maps-routing-api
-- description: The Static Maps API from Jawg Maps — 1 operation(s) for static maps.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Static Maps API from Jawg Maps — 1 operation(s) for static maps.
   name: Jawg Maps Static Maps API
   slug: jawg-maps-static-maps-api
-- description: The Styles API from Jawg Maps — 2 operation(s) for styles.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Styles API from Jawg Maps — 2 operation(s) for styles.
   name: Jawg Maps Styles API
   slug: jawg-maps-styles-api
-- description: The Tiles API from Jawg Maps — 2 operation(s) for tiles.
+- baseURL: https://tile.jawg.io
+  baseurl_source: declared
+  description: The Tiles API from Jawg Maps — 2 operation(s) for tiles.
   name: Jawg Maps Tiles API
   slug: jawg-maps-tiles-api
 artifact_total: 22
@@ -191,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/screenshots/jawg-maps-2026-07-25T223104.png
 security:

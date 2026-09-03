@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 58 operations · 38 acting
 api_count: 1
 apis:
-- description: The BrowserSettings API from Amazon WorkSpaces Web — 2 operation(s) for browsersettings.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The BrowserSettings API from Amazon WorkSpaces Web — 2 operation(s) for browsersettings.
   name: Amazon WorkSpaces Web BrowserSettings API
   slug: amazon-workspaces-web-browsersettings-api
-- description: The IdentityProviders API from Amazon WorkSpaces Web — 2 operation(s) for identityproviders.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The IdentityProviders API from Amazon WorkSpaces Web — 2 operation(s) for identityproviders.
   name: Amazon WorkSpaces Web IdentityProviders API
   slug: amazon-workspaces-web-identityproviders-api
-- description: The IpAccessSettings API from Amazon WorkSpaces Web — 2 operation(s) for ipaccesssettings.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The IpAccessSettings API from Amazon WorkSpaces Web — 2 operation(s) for ipaccesssettings.
   name: Amazon WorkSpaces Web IpAccessSettings API
   slug: amazon-workspaces-web-ipaccesssettings-api
-- description: The NetworkSettings API from Amazon WorkSpaces Web — 2 operation(s) for networksettings.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The NetworkSettings API from Amazon WorkSpaces Web — 2 operation(s) for networksettings.
   name: Amazon WorkSpaces Web NetworkSettings API
   slug: amazon-workspaces-web-networksettings-api
-- description: The PortalIdp API from Amazon WorkSpaces Web — 1 operation(s) for portalidp.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The PortalIdp API from Amazon WorkSpaces Web — 1 operation(s) for portalidp.
   name: Amazon WorkSpaces Web PortalIdp API
   slug: amazon-workspaces-web-portalidp-api
-- description: The Portals API from Amazon WorkSpaces Web — 15 operation(s) for portals.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The Portals API from Amazon WorkSpaces Web — 15 operation(s) for portals.
   name: Amazon WorkSpaces Web Portals API
   slug: amazon-workspaces-web-portals-api
-- description: The Tags API from Amazon WorkSpaces Web — 2 operation(s) for tags.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon WorkSpaces Web — 2 operation(s) for tags.
   name: Amazon WorkSpaces Web Tags API
   slug: amazon-workspaces-web-tags-api
-- description: The TrustStores API from Amazon WorkSpaces Web — 4 operation(s) for truststores.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The TrustStores API from Amazon WorkSpaces Web — 4 operation(s) for truststores.
   name: Amazon WorkSpaces Web TrustStores API
   slug: amazon-workspaces-web-truststores-api
-- description: The UserAccessLoggingSettings API from Amazon WorkSpaces Web — 2 operation(s) for useraccessloggingsettings.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The UserAccessLoggingSettings API from Amazon WorkSpaces Web — 2 operation(s) for useraccessloggingsettings.
   name: Amazon WorkSpaces Web UserAccessLoggingSettings API
   slug: amazon-workspaces-web-useraccessloggingsettings-api
-- description: The UserSettings API from Amazon WorkSpaces Web — 2 operation(s) for usersettings.
+- baseURL: https://workspaces-web.amazonaws.com
+  baseurl_source: declared
+  description: The UserSettings API from Amazon WorkSpaces Web — 2 operation(s) for usersettings.
   name: Amazon WorkSpaces Web UserSettings API
   slug: amazon-workspaces-web-usersettings-api
 artifact_total: 524
@@ -1729,7 +1749,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/screenshots/amazon-workspaces-web-2026-06-20T171850.png
 security:

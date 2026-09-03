@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 18 operations · 5 acting
 api_count: 1
 apis:
-- description: Authenticated user account and API token operations.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Authenticated user account and API token operations.
   name: Codacy Account API
   slug: codacy-account-api
-- description: Code coverage for pull requests and files.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Code coverage for pull requests and files.
   name: Codacy Coverage API
   slug: codacy-coverage-api
-- description: Static analysis issues for a repository.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Static analysis issues for a repository.
   name: Codacy Issues API
   slug: codacy-issues-api
-- description: Git provider organizations the account belongs to.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Git provider organizations the account belongs to.
   name: Codacy Organizations API
   slug: codacy-organizations-api
-- description: Pull request analysis, files, issues, and AI review.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Pull request analysis, files, issues, and AI review.
   name: Codacy Pull Requests API
   slug: codacy-pull-requests-api
-- description: Quality and security gating settings for commits and pull requests.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Quality and security gating settings for commits and pull requests.
   name: Codacy Quality Settings API
   slug: codacy-quality-settings-api
-- description: Repository management and analysis state.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Repository management and analysis state.
   name: Codacy Repositories API
   slug: codacy-repositories-api
-- description: Repository SSH key administration.
+- baseURL: https://api.codacy.com/api/v3
+  baseurl_source: declared
+  description: Repository SSH key administration.
   name: Codacy Security API
   slug: codacy-security-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codacy/refs/heads/main/screenshots/codacy-2026-07-25T205855.png
 security:

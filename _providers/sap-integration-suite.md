@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -59,37 +59,59 @@ apis:
 - description: The SAP Integration Suite Advanced Event Mesh (AEM) REST API provides management capabilities for event brokers, message queues, topic subscriptions, and event broker services. It enables programmatic
   name: SAP Integration Suite Advanced Event Mesh API
   slug: sap-integration-suite-advanced-event-mesh
-- description: Manage API products bundling multiple APIs
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage API products bundling multiple APIs
   name: SAP Integration Suite API Products API
   slug: sap-integration-suite-api-products-api
-- description: Manage API proxy configurations
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage API proxy configurations
   name: SAP Integration Suite API Proxies API
   slug: sap-integration-suite-api-proxies-api
-- description: Manage developer applications and credentials
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage developer applications and credentials
   name: SAP Integration Suite Applications API
   slug: sap-integration-suite-applications-api
-- description: Manage developer accounts
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage developer accounts
   name: SAP Integration Suite Developers API
   slug: sap-integration-suite-developers-api
-- description: Deploy and manage integration flow artifacts
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Deploy and manage integration flow artifacts
   name: SAP Integration Suite Integration Flows API
   slug: sap-integration-suite-integration-flows-api
-- description: Manage integration packages and their content
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage integration packages and their content
   name: SAP Integration Suite Integration Packages API
   slug: sap-integration-suite-integration-packages-api
-- description: Manage key-value map configurations
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage key-value map configurations
   name: SAP Integration Suite Key Value Maps API
   slug: sap-integration-suite-key-value-maps-api
-- description: Retrieve message processing logs and audit information
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Retrieve message processing logs and audit information
   name: SAP Integration Suite Message Processing Logs API
   slug: sap-integration-suite-message-processing-logs-api
-- description: Manage deployed runtime artifacts
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage deployed runtime artifacts
   name: SAP Integration Suite Runtime Artifacts API
   slug: sap-integration-suite-runtime-artifacts-api
-- description: Discover and manage service endpoints
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Discover and manage service endpoints
   name: SAP Integration Suite Service Endpoints API
   slug: sap-integration-suite-service-endpoints-api
-- description: Manage global and local variables
+- baseURL: https://{host}/api/v1
+  baseurl_source: declared
+  description: Manage global and local variables
   name: SAP Integration Suite Variables API
   slug: sap-integration-suite-variables-api
 arazzos:
@@ -475,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-integration-suite/refs/heads/main/screenshots/sap-integration-suite-2026-06-20T193428.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Waste Connections MyAccount customer portal provides online access to account management, service scheduling, pickup notifications, billing, and payment services for residential and commercial cus
@@ -138,7 +138,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waste-connections/refs/heads/main/screenshots/waste-connections-2026-06-20T201242.png
 security:

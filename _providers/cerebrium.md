@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: Surfaces app logs, metrics, and platform status through the CLI (cerebrium logs, cerebrium status), the app dashboard, and the public status page.
   name: Cerebrium Logs / Status API
   slug: cerebrium-logs-status-api
-- description: The Inference API from Cerebrium — 1 operation(s) for inference.
+- baseURL: https://api.aws.us-east-1.cerebrium.ai/v4
+  baseurl_source: declared
+  description: The Inference API from Cerebrium — 1 operation(s) for inference.
   name: Cerebrium Inference API
   slug: cerebrium-inference-api
-- description: The OpenAI Compatible API from Cerebrium — 2 operation(s) for openai compatible.
+- baseURL: https://api.aws.us-east-1.cerebrium.ai/v4
+  baseurl_source: declared
+  description: The OpenAI Compatible API from Cerebrium — 2 operation(s) for openai compatible.
   name: Cerebrium OpenAI Compatible API
   slug: cerebrium-openai-compatible-api
 artifact_total: 13
@@ -160,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

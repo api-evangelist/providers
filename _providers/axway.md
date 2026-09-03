@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 2
@@ -83,64 +83,104 @@ apis:
 - description: Axway Open Banking provides prebuilt APIs for regulatory compliance and ecosystem engagement, supporting PSD2 and open banking standards. It enables financial institutions to expose and manage banking
   name: Axway Open Banking
   slug: axway-open-banking
-- description: The aca API from Axway — 2 operation(s) for aca.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The aca API from Axway — 2 operation(s) for aca.
   name: Axway aca API
   slug: axway-aca-api
-- description: The activity API from Axway — 2 operation(s) for activity.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The activity API from Axway — 2 operation(s) for activity.
   name: Axway activity API
   slug: axway-activity-api
-- description: The analytics API from Axway — 6 operation(s) for analytics.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The analytics API from Axway — 6 operation(s) for analytics.
   name: Axway analytics API
   slug: axway-analytics-api
-- description: The app API from Axway — 2 operation(s) for app.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The app API from Axway — 2 operation(s) for app.
   name: Axway app API
   slug: axway-app-api
-- description: The auth API from Axway — 26 operation(s) for auth.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The auth API from Axway — 26 operation(s) for auth.
   name: Axway auth API
   slug: axway-auth-api
-- description: The client API from Axway — 3 operation(s) for client.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The client API from Axway — 3 operation(s) for client.
   name: Axway client API
   slug: axway-client-api
-- description: The domain API from Axway — 8 operation(s) for domain.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The domain API from Axway — 8 operation(s) for domain.
   name: Axway domain API
   slug: axway-domain-api
-- description: The entitlement API from Axway — 1 operation(s) for entitlement.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The entitlement API from Axway — 1 operation(s) for entitlement.
   name: Axway entitlement API
   slug: axway-entitlement-api
-- description: The env API from Axway — 2 operation(s) for env.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The env API from Axway — 2 operation(s) for env.
   name: Axway env API
   slug: axway-env-api
-- description: The export API from Axway — 3 operation(s) for export.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The export API from Axway — 3 operation(s) for export.
   name: Axway export API
   slug: axway-export-api
-- description: The idp API from Axway — 10 operation(s) for idp.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The idp API from Axway — 10 operation(s) for idp.
   name: Axway idp API
   slug: axway-idp-api
-- description: The org API from Axway — 6 operation(s) for org.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The org API from Axway — 6 operation(s) for org.
   name: Axway org API
   slug: axway-org-api
-- description: The provider API from Axway — 13 operation(s) for provider.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The provider API from Axway — 13 operation(s) for provider.
   name: Axway provider API
   slug: axway-provider-api
-- description: The role API from Axway — 2 operation(s) for role.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The role API from Axway — 2 operation(s) for role.
   name: Axway role API
   slug: axway-role-api
-- description: The session API from Axway — 3 operation(s) for session.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The session API from Axway — 3 operation(s) for session.
   name: Axway session API
   slug: axway-session-api
-- description: The subscription API from Axway — 2 operation(s) for subscription.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The subscription API from Axway — 2 operation(s) for subscription.
   name: Axway subscription API
   slug: axway-subscription-api
-- description: The team API from Axway — 4 operation(s) for team.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The team API from Axway — 4 operation(s) for team.
   name: Axway team API
   slug: axway-team-api
-- description: The telemetry API from Axway — 1 operation(s) for telemetry.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The telemetry API from Axway — 1 operation(s) for telemetry.
   name: Axway telemetry API
   slug: axway-telemetry-api
-- description: The usage API from Axway — 4 operation(s) for usage.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The usage API from Axway — 4 operation(s) for usage.
   name: Axway usage API
   slug: axway-usage-api
-- description: The user API from Axway — 7 operation(s) for user.
+- baseURL: https://platform.axway.com/api/v1
+  baseurl_source: declared
+  description: The user API from Axway — 7 operation(s) for user.
   name: Axway user API
   slug: axway-user-api
 artifact_total: 895
@@ -2858,7 +2898,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axway/refs/heads/main/screenshots/axway-2026-06-20T172828.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,22 +36,32 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The API Keys API from Tether — 2 operation(s) for api keys.
+- baseURL: https://wdk-api.tether.io
+  baseurl_source: declared
+  description: The API Keys API from Tether — 2 operation(s) for api keys.
   name: Tether API Keys API
   slug: tether-api-keys-api
-- description: Supported blockchains and token discovery
+- baseURL: https://wdk-api.tether.io
+  baseurl_source: declared
+  description: Supported blockchains and token discovery
   name: Tether Chains API
   slug: tether-chains-api
-- description: Server health and status checks
+- baseURL: https://wdk-api.tether.io
+  baseurl_source: declared
+  description: Server health and status checks
   name: Tether Health API
   slug: tether-health-api
-- description: Query current token balances for addresses
+- baseURL: https://wdk-api.tether.io
+  baseurl_source: declared
+  description: Query current token balances for addresses
   name: Tether Token Balances API
   slug: tether-token-balances-api
-- description: Query token transfer history for addresses
+- baseURL: https://wdk-api.tether.io
+  baseurl_source: declared
+  description: Query token transfer history for addresses
   name: Tether Token Transfers API
   slug: tether-token-transfers-api
 artifact_total: 16
@@ -227,7 +250,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -237,7 +260,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 54.5
+  previous_composite: 54.6
   provenance:
     conformance: derived
     contracts:
@@ -254,7 +277,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tether/refs/heads/main/screenshots/tether-2026-08-17T082328.png
 security:

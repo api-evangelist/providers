@@ -33,91 +33,145 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Mobile Measurement Partner API enabling mobile app attribution tracking, install measurement, event tracking, and audience analytics for iOS, Android, and cross-platform mobile applications.
   name: Affise MMP API
   slug: affise-mmp-api
-- description: Ad cost reporting
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Ad cost reporting
   name: Affise Admin Adcosts API
   slug: affise-admin-adcosts-api
-- description: Admin operations on advertisers
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin operations on advertisers
   name: Affise Admin Advertisers API
   slug: affise-admin-advertisers-api
-- description: Admin operations on affiliates (partners)
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin operations on affiliates (partners)
   name: Affise Admin Affiliates API
   slug: affise-admin-affiliates-api
-- description: KPI and block-logs automation
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: KPI and block-logs automation
   name: Affise Admin Automation API
   slug: affise-admin-automation-api
-- description: Advertiser invoice management
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Advertiser invoice management
   name: Affise Admin Billing API
   slug: affise-admin-billing-api
-- description: Admin conversion editing and import
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin conversion editing and import
   name: Affise Admin Conversions API
   slug: affise-admin-conversions-api
-- description: Admin offer management — create, edit, delete, mass-update, categories, sources, creatives
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin offer management — create, edit, delete, mass-update, categories, sources, creatives
   name: Affise Admin Offers API
   slug: affise-admin-offers-api
-- description: Other admin endpoints — domains, currencies, custom fields, payment systems
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Other admin endpoints — domains, currencies, custom fields, payment systems
   name: Affise Admin Other API
   slug: affise-admin-other-api
-- description: Affiliate payments API. Available for Expand, Custom and Trial plans.
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate payments API. Available for Expand, Custom and Trial plans.
   name: Affise Admin Payments API
   slug: affise-admin-payments-api
-- description: Admin presets management
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin presets management
   name: Affise Admin Presets API
   slug: affise-admin-presets-api
-- description: Admin smartlinks — categories management
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin smartlinks — categories management
   name: Affise Admin Smartlinks API
   slug: affise-admin-smartlinks-api
-- description: Statistics endpoints available to admin (includes admin-only and multi-role)
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Statistics endpoints available to admin (includes admin-only and multi-role)
   name: Affise Admin Stats API
   slug: affise-admin-stats-api
-- description: Ticket management — list, view, approve/reject affiliate connections to offers and SmartLinks
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Ticket management — list, view, approve/reject affiliate connections to offers and SmartLinks
   name: Affise Admin Tickets API
   slug: affise-admin-tickets-api
-- description: Admin user management
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Admin user management
   name: Affise Admin Users API
   slug: affise-admin-users-api
-- description: Advertiser registration and login
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Advertiser registration and login
   name: Affise Advertiser Auth API
   slug: affise-advertiser-auth-api
-- description: Advertiser offer listing
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Advertiser offer listing
   name: Affise Advertiser Offers API
   slug: affise-advertiser-offers-api
-- description: Statistics endpoints available to advertiser (multi-role only)
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Statistics endpoints available to advertiser (multi-role only)
   name: Affise Advertiser Stats API
   slug: affise-advertiser-stats-api
-- description: Affiliate conversion import
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate conversion import
   name: Affise Affiliate Conversions API
   slug: affise-affiliate-conversions-api
-- description: Affiliate news feed
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate news feed
   name: Affise Affiliate News API
   slug: affise-affiliate-news-api
-- description: Affiliate offer listing, live offers, activation
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate offer listing, live offers, activation
   name: Affise Affiliate Offers API
   slug: affise-affiliate-offers-api
-- description: Affiliate balance, product feeds
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate balance, product feeds
   name: Affise Affiliate Other API
   slug: affise-affiliate-other-api
-- description: Affiliate tracking pixels
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate tracking pixels
   name: Affise Affiliate Pixels API
   slug: affise-affiliate-pixels-api
-- description: Affiliate postback management
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate postback management
   name: Affise Affiliate Postbacks API
   slug: affise-affiliate-postbacks-api
-- description: Affiliate profile, API key
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate profile, API key
   name: Affise Affiliate Profile API
   slug: affise-affiliate-profile-api
-- description: Affiliate smartlinks, referrals
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Affiliate smartlinks, referrals
   name: Affise Affiliate Smartlinks API
   slug: affise-affiliate-smartlinks-api
-- description: Statistics endpoints available to affiliate (multi-role + affiliate-only)
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Statistics endpoints available to affiliate (multi-role + affiliate-only)
   name: Affise Affiliate Stats API
   slug: affise-affiliate-stats-api
-- description: Public lookup data — countries, regions, ISPs, OSes, goals, browsers, cities, etc.
+- baseURL: https://api.affise.com
+  baseurl_source: declared
+  description: Public lookup data — countries, regions, ISPs, OSes, goals, browsers, cities, etc.
   name: Affise Resources API
   slug: affise-resources-api
 artifact_total: 38
@@ -335,7 +389,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -345,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 62.5
+  previous_composite: 62.3
   provenance:
     conformance: first-party
     contracts:
@@ -356,7 +410,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affise/refs/heads/main/screenshots/affise-2026-06-20T165649.png
 security:

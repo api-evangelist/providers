@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: Cluster information and management endpoints.
+- baseURL: http://localhost:5701/hazelcast/rest
+  baseurl_source: declared
+  description: Cluster information and management endpoints.
   name: Hazelcast Cluster API
   slug: hazelcast-cluster-api
-- description: Runtime configuration management.
+- baseURL: http://localhost:5701/hazelcast/rest
+  baseurl_source: declared
+  description: Runtime configuration management.
   name: Hazelcast Configuration API
   slug: hazelcast-configuration-api
-- description: Liveness and readiness checks.
+- baseURL: http://localhost:5701/hazelcast/rest
+  baseurl_source: declared
+  description: Liveness and readiness checks.
   name: Hazelcast Health API
   slug: hazelcast-health-api
-- description: Distributed map operations under /hazelcast/rest/maps.
+- baseURL: http://localhost:5701/hazelcast/rest
+  baseurl_source: declared
+  description: Distributed map operations under /hazelcast/rest/maps.
   name: Hazelcast Maps API
   slug: hazelcast-maps-api
-- description: Distributed queue operations under /hazelcast/rest/queues.
+- baseURL: http://localhost:5701/hazelcast/rest
+  baseurl_source: declared
+  description: Distributed queue operations under /hazelcast/rest/queues.
   name: Hazelcast Queues API
   slug: hazelcast-queues-api
 artifact_total: 17
@@ -178,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hazelcast/refs/heads/main/screenshots/hazelcast-2026-06-20T182545.png
 security:

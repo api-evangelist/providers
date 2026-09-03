@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -43,97 +43,159 @@ agentic_access:
   summary_line: 197 operations · 34 acting
 api_count: 1
 apis:
-- description: The Alliance API from CCP Games — 4 operation(s) for alliance.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Alliance API from CCP Games — 4 operation(s) for alliance.
   name: CCP Games Alliance API
   slug: ccp-games-alliance-api
-- description: The Assets API from CCP Games — 6 operation(s) for assets.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Assets API from CCP Games — 6 operation(s) for assets.
   name: CCP Games Assets API
   slug: ccp-games-assets-api
-- description: The Calendar API from CCP Games — 3 operation(s) for calendar.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Calendar API from CCP Games — 3 operation(s) for calendar.
   name: CCP Games Calendar API
   slug: ccp-games-calendar-api
-- description: The Character API from CCP Games — 14 operation(s) for character.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Character API from CCP Games — 14 operation(s) for character.
   name: CCP Games Character API
   slug: ccp-games-character-api
-- description: The Clones API from CCP Games — 2 operation(s) for clones.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Clones API from CCP Games — 2 operation(s) for clones.
   name: CCP Games Clones API
   slug: ccp-games-clones-api
-- description: The Contacts API from CCP Games — 6 operation(s) for contacts.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Contacts API from CCP Games — 6 operation(s) for contacts.
   name: CCP Games Contacts API
   slug: ccp-games-contacts-api
-- description: The Contracts API from CCP Games — 9 operation(s) for contracts.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Contracts API from CCP Games — 9 operation(s) for contracts.
   name: CCP Games Contracts API
   slug: ccp-games-contracts-api
-- description: The Corporation API from CCP Games — 22 operation(s) for corporation.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Corporation API from CCP Games — 22 operation(s) for corporation.
   name: CCP Games Corporation API
   slug: ccp-games-corporation-api
-- description: The Dogma API from CCP Games — 5 operation(s) for dogma.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Dogma API from CCP Games — 5 operation(s) for dogma.
   name: CCP Games Dogma API
   slug: ccp-games-dogma-api
-- description: The Faction Warfare API from CCP Games — 8 operation(s) for faction warfare.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Faction Warfare API from CCP Games — 8 operation(s) for faction warfare.
   name: CCP Games Faction Warfare API
   slug: ccp-games-faction-warfare-api
-- description: The Fittings API from CCP Games — 2 operation(s) for fittings.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Fittings API from CCP Games — 2 operation(s) for fittings.
   name: CCP Games Fittings API
   slug: ccp-games-fittings-api
-- description: The Fleets API from CCP Games — 8 operation(s) for fleets.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Fleets API from CCP Games — 8 operation(s) for fleets.
   name: CCP Games Fleets API
   slug: ccp-games-fleets-api
-- description: The Incursions API from CCP Games — 1 operation(s) for incursions.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Incursions API from CCP Games — 1 operation(s) for incursions.
   name: CCP Games Incursions API
   slug: ccp-games-incursions-api
-- description: The Industry API from CCP Games — 8 operation(s) for industry.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Industry API from CCP Games — 8 operation(s) for industry.
   name: CCP Games Industry API
   slug: ccp-games-industry-api
-- description: The Insurance API from CCP Games — 1 operation(s) for insurance.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Insurance API from CCP Games — 1 operation(s) for insurance.
   name: CCP Games Insurance API
   slug: ccp-games-insurance-api
-- description: The Killmails API from CCP Games — 3 operation(s) for killmails.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Killmails API from CCP Games — 3 operation(s) for killmails.
   name: CCP Games Killmails API
   slug: ccp-games-killmails-api
-- description: The Location API from CCP Games — 3 operation(s) for location.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Location API from CCP Games — 3 operation(s) for location.
   name: CCP Games Location API
   slug: ccp-games-location-api
-- description: The Loyalty API from CCP Games — 2 operation(s) for loyalty.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Loyalty API from CCP Games — 2 operation(s) for loyalty.
   name: CCP Games Loyalty API
   slug: ccp-games-loyalty-api
-- description: The Mail API from CCP Games — 5 operation(s) for mail.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Mail API from CCP Games — 5 operation(s) for mail.
   name: CCP Games Mail API
   slug: ccp-games-mail-api
-- description: The Market API from CCP Games — 11 operation(s) for market.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Market API from CCP Games — 11 operation(s) for market.
   name: CCP Games Market API
   slug: ccp-games-market-api
-- description: The Meta API from CCP Games — 2 operation(s) for meta.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Meta API from CCP Games — 2 operation(s) for meta.
   name: CCP Games Meta API
   slug: ccp-games-meta-api
-- description: The Planetary Interaction API from CCP Games — 4 operation(s) for planetary interaction.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Planetary Interaction API from CCP Games — 4 operation(s) for planetary interaction.
   name: CCP Games Planetary Interaction API
   slug: ccp-games-planetary-interaction-api
-- description: The Routes API from CCP Games — 1 operation(s) for routes.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Routes API from CCP Games — 1 operation(s) for routes.
   name: CCP Games Routes API
   slug: ccp-games-routes-api
-- description: The Search API from CCP Games — 1 operation(s) for search.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Search API from CCP Games — 1 operation(s) for search.
   name: CCP Games Search API
   slug: ccp-games-search-api
-- description: The Skills API from CCP Games — 3 operation(s) for skills.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Skills API from CCP Games — 3 operation(s) for skills.
   name: CCP Games Skills API
   slug: ccp-games-skills-api
-- description: The Sovereignty API from CCP Games — 3 operation(s) for sovereignty.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Sovereignty API from CCP Games — 3 operation(s) for sovereignty.
   name: CCP Games Sovereignty API
   slug: ccp-games-sovereignty-api
-- description: The Status API from CCP Games — 1 operation(s) for status.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Status API from CCP Games — 1 operation(s) for status.
   name: CCP Games Status API
   slug: ccp-games-status-api
-- description: The Universe API from CCP Games — 30 operation(s) for universe.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Universe API from CCP Games — 30 operation(s) for universe.
   name: CCP Games Universe API
   slug: ccp-games-universe-api
-- description: The User Interface API from CCP Games — 5 operation(s) for user interface.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The User Interface API from CCP Games — 5 operation(s) for user interface.
   name: CCP Games User Interface API
   slug: ccp-games-user-interface-api
-- description: The Wallet API from CCP Games — 6 operation(s) for wallet.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Wallet API from CCP Games — 6 operation(s) for wallet.
   name: CCP Games Wallet API
   slug: ccp-games-wallet-api
-- description: The Wars API from CCP Games — 3 operation(s) for wars.
+- baseURL: https://esi.evetech.net
+  baseurl_source: declared
+  description: The Wars API from CCP Games — 3 operation(s) for wars.
   name: CCP Games Wars API
   slug: ccp-games-wars-api
 artifact_total: 69
@@ -399,7 +461,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccp-games/refs/heads/main/screenshots/ccp-games-2026-07-25T204826.png
 security:

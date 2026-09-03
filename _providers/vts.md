@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,100 +43,164 @@ agentic_access:
   summary_line: 91 operations · 6 acting
 api_count: 1
 apis:
-- description: The Account Admin API from VTS — 11 operation(s) for account admin.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Account Admin API from VTS — 11 operation(s) for account admin.
   name: VTS Account Admin API
   slug: vts-account-admin-api
-- description: The Appraisals API from VTS — 2 operation(s) for appraisals.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Appraisals API from VTS — 2 operation(s) for appraisals.
   name: VTS Appraisals API
   slug: vts-appraisals-api
-- description: The Approvals API from VTS — 3 operation(s) for approvals.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Approvals API from VTS — 3 operation(s) for approvals.
   name: VTS Approvals API
   slug: vts-approvals-api
-- description: The Assets API from VTS — 3 operation(s) for assets.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Assets API from VTS — 3 operation(s) for assets.
   name: VTS Assets API
   slug: vts-assets-api
-- description: The Auth2.0 Access Token API from VTS — 1 operation(s) for auth2.0 access token.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Auth2.0 Access Token API from VTS — 1 operation(s) for auth2.0 access token.
   name: VTS Auth2.0 Access Token API
   slug: vts-auth2-0-access-token-api
-- description: The Blended Budgets API from VTS — 2 operation(s) for blended budgets.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Blended Budgets API from VTS — 2 operation(s) for blended budgets.
   name: VTS Blended Budgets API
   slug: vts-blended-budgets-api
-- description: The Broker API from VTS — 6 operation(s) for broker.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Broker API from VTS — 6 operation(s) for broker.
   name: VTS Broker API
   slug: vts-broker-api
-- description: The Budgets API from VTS — 2 operation(s) for budgets.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Budgets API from VTS — 2 operation(s) for budgets.
   name: VTS Budgets API
   slug: vts-budgets-api
-- description: The Coordination Projects API from VTS — 6 operation(s) for coordination projects.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Coordination Projects API from VTS — 6 operation(s) for coordination projects.
   name: VTS Coordination Projects API
   slug: vts-coordination-projects-api
-- description: The Deal Comments API from VTS — 3 operation(s) for deal comments.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Comments API from VTS — 3 operation(s) for deal comments.
   name: VTS Deal Comments API
   slug: vts-deal-comments-api
-- description: The Deal Iterations API from VTS — 3 operation(s) for deal iterations.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Iterations API from VTS — 3 operation(s) for deal iterations.
   name: VTS Deal Iterations API
   slug: vts-deal-iterations-api
-- description: The Deal Snapshots API from VTS — 1 operation(s) for deal snapshots.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Snapshots API from VTS — 1 operation(s) for deal snapshots.
   name: VTS Deal Snapshots API
   slug: vts-deal-snapshots-api
-- description: The Deal Tasks API from VTS — 3 operation(s) for deal tasks.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Tasks API from VTS — 3 operation(s) for deal tasks.
   name: VTS Deal Tasks API
   slug: vts-deal-tasks-api
-- description: The Deal Terms API from VTS — 2 operation(s) for deal terms.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Terms API from VTS — 2 operation(s) for deal terms.
   name: VTS Deal Terms API
   slug: vts-deal-terms-api
-- description: The Deal Tours API from VTS — 1 operation(s) for deal tours.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deal Tours API from VTS — 1 operation(s) for deal tours.
   name: VTS Deal Tours API
   slug: vts-deal-tours-api
-- description: The Deals API from VTS — 2 operation(s) for deals.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Deals API from VTS — 2 operation(s) for deals.
   name: VTS Deals API
   slug: vts-deals-api
-- description: The Delinquencies API from VTS — 4 operation(s) for delinquencies.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Delinquencies API from VTS — 4 operation(s) for delinquencies.
   name: VTS Delinquencies API
   slug: vts-delinquencies-api
-- description: The Download Links API from VTS — 1 operation(s) for download links.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Download Links API from VTS — 1 operation(s) for download links.
   name: VTS Download Links API
   slug: vts-download-links-api
-- description: The Financials API from VTS — 3 operation(s) for financials.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Financials API from VTS — 3 operation(s) for financials.
   name: VTS Financials API
   slug: vts-financials-api
-- description: The Global Tenants API from VTS — 2 operation(s) for global tenants.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Global Tenants API from VTS — 2 operation(s) for global tenants.
   name: VTS Global Tenants API
   slug: vts-global-tenants-api
-- description: The Lease Terms API from VTS — 2 operation(s) for lease terms.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Lease Terms API from VTS — 2 operation(s) for lease terms.
   name: VTS Lease Terms API
   slug: vts-lease-terms-api
-- description: The Leases API from VTS — 2 operation(s) for leases.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Leases API from VTS — 2 operation(s) for leases.
   name: VTS Leases API
   slug: vts-leases-api
-- description: The Leasing Availability API from VTS — 3 operation(s) for leasing availability.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Leasing Availability API from VTS — 3 operation(s) for leasing availability.
   name: VTS Leasing Availability API
   slug: vts-leasing-availability-api
-- description: The Options API from VTS — 4 operation(s) for options.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Options API from VTS — 4 operation(s) for options.
   name: VTS Options API
   slug: vts-options-api
-- description: The Proposals API from VTS — 3 operation(s) for proposals.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Proposals API from VTS — 3 operation(s) for proposals.
   name: VTS Proposals API
   slug: vts-proposals-api
-- description: The Retail Sales API from VTS — 1 operation(s) for retail sales.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Retail Sales API from VTS — 1 operation(s) for retail sales.
   name: VTS Retail Sales API
   slug: vts-retail-sales-api
-- description: The Spaces API from VTS — 2 operation(s) for spaces.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Spaces API from VTS — 2 operation(s) for spaces.
   name: VTS Spaces API
   slug: vts-spaces-api
-- description: The Tenant Contacts API from VTS — 3 operation(s) for tenant contacts.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Tenant Contacts API from VTS — 3 operation(s) for tenant contacts.
   name: VTS Tenant Contacts API
   slug: vts-tenant-contacts-api
-- description: The Tenant Industries API from VTS — 2 operation(s) for tenant industries.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Tenant Industries API from VTS — 2 operation(s) for tenant industries.
   name: VTS Tenant Industries API
   slug: vts-tenant-industries-api
-- description: The Tenant Updates API from VTS — 1 operation(s) for tenant updates.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Tenant Updates API from VTS — 1 operation(s) for tenant updates.
   name: VTS Tenant Updates API
   slug: vts-tenant-updates-api
-- description: The Tenants API from VTS — 2 operation(s) for tenants.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Tenants API from VTS — 2 operation(s) for tenants.
   name: VTS Tenants API
   slug: vts-tenants-api
-- description: The Users API from VTS — 2 operation(s) for users.
+- baseURL: https://api.vts.com/api/connect/v1
+  baseurl_source: declared
+  description: The Users API from VTS — 2 operation(s) for users.
   name: VTS Users API
   slug: vts-users-api
 artifact_total: 70
@@ -413,7 +477,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/screenshots/vts-2026-08-17T082832.png
 security:

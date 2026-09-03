@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -47,25 +47,39 @@ apis:
 - description: The Devin API is a REST interface for creating and managing autonomous engineering sessions, knowledge, playbooks, secrets, and analytics across an organization or enterprise. It lets developers progr
   name: Devin API
   slug: devin-api
-- description: Operations for file uploads
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for file uploads
   name: Cognition AI Attachments API
   slug: cognition-attachments-api
-- description: Operations for managing audit logs
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for managing audit logs
   name: Cognition AI AuditLogs API
   slug: cognition-auditlogs-api
-- description: Operations for enterprise-specific features and reporting
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for enterprise-specific features and reporting
   name: Cognition AI Enterprise API
   slug: cognition-enterprise-api
-- description: Operations for managing knowledge
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for managing knowledge
   name: Cognition AI Knowledge API
   slug: cognition-knowledge-api
-- description: Operations for managing playbooks
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for managing playbooks
   name: Cognition AI Playbooks API
   slug: cognition-playbooks-api
-- description: Operations for managing secrets and credentials
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for managing secrets and credentials
   name: Cognition AI Secrets API
   slug: cognition-secrets-api
-- description: Operations for creating and managing Devin sessions
+- baseURL: https://api.devin.ai/v3
+  baseurl_source: declared
+  description: Operations for creating and managing Devin sessions
   name: Cognition AI Sessions API
   slug: cognition-sessions-api
 artifact_total: 25
@@ -222,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/screenshots/cognition-2026-06-20T174713.png
 security:

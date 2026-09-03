@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -43,202 +54,334 @@ apis:
 - description: Official open-source Model Context Protocol server published by ALTR, exposing 156 tools across 13 domains (databases, tags, policies, classification, access management, access requests, audits, audit
   name: ALTR MCP Server
   slug: altr-mcp-server
-- description: The access_request API from ALTR — 5 operation(s) for access_request.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The access_request API from ALTR — 5 operation(s) for access_request.
   name: ALTR Access Request API
   slug: altr-access-request-api
-- description: Operations about administrators
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about administrators
   name: ALTR Administrators API
   slug: altr-administrators-api
-- description: The Agent API from ALTR — 2 operation(s) for agent.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Agent API from ALTR — 2 operation(s) for agent.
   name: ALTR Agent API
   slug: altr-agent-api
-- description: The Agent Tasks API from ALTR — 2 operation(s) for agent tasks.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Agent Tasks API from ALTR — 2 operation(s) for agent tasks.
   name: ALTR Agent Tasks API
   slug: altr-agent-tasks-api
-- description: The Agents API from ALTR — 2 operation(s) for agents.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Agents API from ALTR — 2 operation(s) for agents.
   name: ALTR Agents API
   slug: altr-agents-api
-- description: The Alerts API from ALTR — 4 operation(s) for alerts.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Alerts API from ALTR — 4 operation(s) for alerts.
   name: ALTR Alerts API
   slug: altr-alerts-api
-- description: The ALTR Managed Collections API from ALTR — 8 operation(s) for altr managed collections.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The ALTR Managed Collections API from ALTR — 8 operation(s) for altr managed collections.
   name: ALTR ALTR Managed Collections API
   slug: altr-altr-managed-collections-api
-- description: Operations about anomalies
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about anomalies
   name: ALTR Anomalies API
   slug: altr-anomalies-api
-- description: Operations about ApiKeys
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about ApiKeys
   name: ALTR Apikeys API
   slug: altr-apikeys-api
-- description: Operations about applications
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about applications
   name: ALTR Applications API
   slug: altr-applications-api
-- description: The Auth API from ALTR — 3 operation(s) for auth.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Auth API from ALTR — 3 operation(s) for auth.
   name: ALTR Auth API
   slug: altr-auth-api
-- description: The Auto Tagging API API from ALTR — 10 operation(s) for auto tagging api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Auto Tagging API API from ALTR — 10 operation(s) for auto tagging api.
   name: ALTR Auto Tagging API API
   slug: altr-auto-tagging-api-api
-- description: The batch API from ALTR — 3 operation(s) for batch.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The batch API from ALTR — 3 operation(s) for batch.
   name: ALTR Batch API
   slug: altr-batch-api
-- description: Operations about data classification
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about data classification
   name: ALTR Classification API
   slug: altr-classification-api
-- description: The Classification Jobs API from ALTR — 21 operation(s) for classification jobs.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Classification Jobs API from ALTR — 21 operation(s) for classification jobs.
   name: ALTR Classification Jobs API
   slug: altr-classification-jobs-api
-- description: The Classifiers API from ALTR — 5 operation(s) for classifiers.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Classifiers API from ALTR — 5 operation(s) for classifiers.
   name: ALTR Classifiers API
   slug: altr-classifiers-api
-- description: The Collections API from ALTR — 5 operation(s) for collections.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Collections API from ALTR — 5 operation(s) for collections.
   name: ALTR Collections API
   slug: altr-collections-api
-- description: The Comments API from ALTR — 3 operation(s) for comments.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Comments API from ALTR — 3 operation(s) for comments.
   name: ALTR Comments API
   slug: altr-comments-api
-- description: Configuration information for the ALTRNet
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Configuration information for the ALTRNet
   name: ALTR Configuration API
   slug: altr-configuration-api
-- description: The Control Plane API from ALTR — 1 operation(s) for control plane.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Control Plane API from ALTR — 1 operation(s) for control plane.
   name: ALTR Control Plane API
   slug: altr-control-plane-api
-- description: Protected, Governed, Tokenized, and FPE Columns Endpoints
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Protected, Governed, Tokenized, and FPE Columns Endpoints
   name: ALTR Data API
   slug: altr-data-api
-- description: Data Classification/Tagging job endpoints
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Data Classification/Tagging job endpoints
   name: ALTR Data Discovery API
   slug: altr-data-discovery-api
-- description: Access to column info around available masking types
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Access to column info around available masking types
   name: ALTR Data Masking API
   slug: altr-data-masking-api
-- description: Information around tagged columns
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Information around tagged columns
   name: ALTR Data Tagging API
   slug: altr-data-tagging-api
-- description: Operations about data sources
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about data sources
   name: ALTR Databases API
   slug: altr-databases-api
-- description: Operations related to applying tag-based governance policies to Databricks
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to applying tag-based governance policies to Databricks
   name: ALTR Databricks Tag Policy API
   slug: altr-databricks-tag-policy-api
-- description: The Definitions API from ALTR — 4 operation(s) for definitions.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Definitions API from ALTR — 4 operation(s) for definitions.
   name: ALTR Definitions API
   slug: altr-definitions-api
-- description: The Instances API from ALTR — 3 operation(s) for instances.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Instances API from ALTR — 3 operation(s) for instances.
   name: ALTR Instances API
   slug: altr-instances-api
-- description: The Integrations API from ALTR — 3 operation(s) for integrations.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Integrations API from ALTR — 3 operation(s) for integrations.
   name: ALTR Integrations API
   slug: altr-integrations-api
-- description: Operations related to masking policies
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to masking policies
   name: ALTR Maskingpolicies API
   slug: altr-maskingpolicies-api
-- description: Operations related to the currently logged in administrator
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to the currently logged in administrator
   name: ALTR Me API
   slug: altr-me-api
-- description: Operations related to the currently logged in users metadata and current organizations metadata.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to the currently logged in users metadata and current organizations metadata.
   name: ALTR Metadata API
   slug: altr-metadata-api
-- description: Operations about organization
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about organization
   name: ALTR Organization API
   slug: altr-organization-api
-- description: Operations related to the features the organization has
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to the features the organization has
   name: ALTR Plan API
   slug: altr-plan-api
-- description: The policy API from ALTR — 13 operation(s) for policy.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The policy API from ALTR — 13 operation(s) for policy.
   name: ALTR Policy API
   slug: altr-policy-api
-- description: The Query Audits API API from ALTR — 2 operation(s) for query audits api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Query Audits API API from ALTR — 2 operation(s) for query audits api.
   name: ALTR Query Audits API API
   slug: altr-query-audits-api-api
-- description: The Query Dashboard API API from ALTR — 2 operation(s) for query dashboard api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Query Dashboard API API from ALTR — 2 operation(s) for query dashboard api.
   name: ALTR Query Dashboard API API
   slug: altr-query-dashboard-api-api
-- description: The RBAC API API from ALTR — 11 operation(s) for rbac api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The RBAC API API from ALTR — 11 operation(s) for rbac api.
   name: ALTR RBAC API API
   slug: altr-rbac-api-api
-- description: The Refresh Tag Value Job API from ALTR — 2 operation(s) for refresh tag value job.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Refresh Tag Value Job API from ALTR — 2 operation(s) for refresh tag value job.
   name: ALTR Refresh Tag Value Job API
   slug: altr-refresh-tag-value-job-api
-- description: The Repo Users API from ALTR — 2 operation(s) for repo users.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Repo Users API from ALTR — 2 operation(s) for repo users.
   name: ALTR Repo Users API
   slug: altr-repo-users-api
-- description: The Repos API from ALTR — 2 operation(s) for repos.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Repos API from ALTR — 2 operation(s) for repos.
   name: ALTR Repos API
   slug: altr-repos-api
-- description: Operations related to row access policy
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to row access policy
   name: ALTR Rowaccess API
   slug: altr-rowaccess-api
-- description: The Rules API from ALTR — 6 operation(s) for rules.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Rules API from ALTR — 6 operation(s) for rules.
   name: ALTR Rules API
   slug: altr-rules-api
-- description: Operations related to SCIM
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to SCIM
   name: ALTR SCIM API
   slug: altr-scim-api
-- description: The Service Users API from ALTR — 3 operation(s) for service users.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Service Users API from ALTR — 3 operation(s) for service users.
   name: ALTR Service Users API
   slug: altr-service-users-api
-- description: Operations about the setup-guide
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about the setup-guide
   name: ALTR Setup Guide API
   slug: altr-setup-guide-api
-- description: The Sidecar API from ALTR — 2 operation(s) for sidecar.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sidecar API from ALTR — 2 operation(s) for sidecar.
   name: ALTR Sidecar API
   slug: altr-sidecar-api
-- description: The Sidecar Audit API API from ALTR — 2 operation(s) for sidecar audit api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sidecar Audit API API from ALTR — 2 operation(s) for sidecar audit api.
   name: ALTR Sidecar Audit API API
   slug: altr-sidecar-audit-api-api
-- description: The Sidecar Listener Port and Repo bindings API from ALTR — 3 operation(s) for sidecar listener port and repo bindings.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sidecar Listener Port and Repo bindings API from ALTR — 3 operation(s) for sidecar listener port and repo bindings.
   name: ALTR Sidecar Listener Port and Repo bindings API
   slug: altr-sidecar-listener-port-and-repo-bindings-api
-- description: The Sidecar Listeners API from ALTR — 2 operation(s) for sidecar listeners.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sidecar Listeners API from ALTR — 2 operation(s) for sidecar listeners.
   name: ALTR Sidecar Listeners API
   slug: altr-sidecar-listeners-api
-- description: The Sidecars API from ALTR — 2 operation(s) for sidecars.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sidecars API from ALTR — 2 operation(s) for sidecars.
   name: ALTR Sidecars API
   slug: altr-sidecars-api
-- description: The Sign-Off API from ALTR — 2 operation(s) for sign-off.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Sign-Off API from ALTR — 2 operation(s) for sign-off.
   name: ALTR Sign Off API
   slug: altr-sign-off-api
-- description: The Snowflake Metadata API API from ALTR — 13 operation(s) for snowflake metadata api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Snowflake Metadata API API from ALTR — 13 operation(s) for snowflake metadata api.
   name: ALTR Snowflake Metadata API API
   slug: altr-snowflake-metadata-api-api
-- description: Operations related to Single Sign-On
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to Single Sign-On
   name: ALTR SSO API
   slug: altr-sso-api
-- description: The Subscriptions API from ALTR — 3 operation(s) for subscriptions.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Subscriptions API from ALTR — 3 operation(s) for subscriptions.
   name: ALTR Subscriptions API
   slug: altr-subscriptions-api
-- description: Operations related to system audits
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to system audits
   name: ALTR Systemaudits API
   slug: altr-systemaudits-api
-- description: Operations related to asynchronously querying system audits
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to asynchronously querying system audits
   name: ALTR Systemaudits/query API
   slug: altr-systemaudits-query-api
-- description: The Tag Masking API API from ALTR — 3 operation(s) for tag masking api.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Tag Masking API API from ALTR — 3 operation(s) for tag masking api.
   name: ALTR Tag Masking API API
   slug: altr-tag-masking-api-api
-- description: Operations related to tags
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to tags
   name: ALTR Tags API
   slug: altr-tags-api
-- description: The Task API from ALTR — 2 operation(s) for task.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Task API from ALTR — 2 operation(s) for task.
   name: ALTR Task API
   slug: altr-task-api
-- description: The Tasks API from ALTR — 3 operation(s) for tasks.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Tasks API from ALTR — 3 operation(s) for tasks.
   name: ALTR Tasks API
   slug: altr-tasks-api
-- description: Operations about thresholds
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations about thresholds
   name: ALTR Thresholds API
   slug: altr-thresholds-api
-- description: The Unsubscribe API from ALTR — 1 operation(s) for unsubscribe.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Unsubscribe API from ALTR — 1 operation(s) for unsubscribe.
   name: ALTR Unsubscribe API
   slug: altr-unsubscribe-api
-- description: Operations related to user groups
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Operations related to user groups
   name: ALTR Usergroups API
   slug: altr-usergroups-api
-- description: The Users API from ALTR — 3 operation(s) for users.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: The Users API from ALTR — 3 operation(s) for users.
   name: ALTR Users API
   slug: altr-users-api
-- description: Access DIS job and third party import information.
+- baseURL: https://altrnet.live.altr.com/api
+  baseurl_source: declared
+  description: Access DIS job and third party import information.
   name: ALTR Utility API
   slug: altr-utility-api
 artifact_total: 143
@@ -637,7 +780,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -647,7 +790,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 54.5
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -659,7 +802,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:

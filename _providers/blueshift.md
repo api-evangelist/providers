@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,73 +38,115 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
   name: Blueshift MCP Server
   slug: blueshift-mcp-server
-- description: Adapters are entities that provide integration to various services with Blueshift. For example, we provide adapters for various services such as Mailgun, Sendgrid, and Sparkpost for sending emails, an
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Adapters are entities that provide integration to various services with Blueshift. For example, we provide adapters for various services such as Mailgun, Sendgrid, and Sparkpost for sending emails, an
   name: Blueshift Adapters API
   slug: blueshift-adapters-api
-- description: Manage your campaigns in Blueshift.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Manage your campaigns in Blueshift.
   name: Blueshift Campaigns API
   slug: blueshift-campaigns-api
-- description: A catalog is a list of items which may include content or products.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: A catalog is a list of items which may include content or products.
   name: Blueshift Catalog API
   slug: blueshift-catalog-api
-- description: A custom user list contains information about the users of your site such as name, email, phone number, and location. You can use this list as a segment and run campaigns for them.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: A custom user list contains information about the users of your site such as name, email, phone number, and location. You can use this list as a segment and run campaigns for them.
   name: Blueshift Custom user lists API
   slug: blueshift-custom-user-lists-api
-- description: Blueshift hosts 360 degree customer profile for each of your users to represent all of their demographic, behavioral and engagement activity.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Blueshift hosts 360 degree customer profile for each of your users to represent all of their demographic, behavioral and engagement activity.
   name: Blueshift Customer API
   slug: blueshift-customer-api
-- description: Customer groups link multiple customer profiles to a common parent entity with shared attributes. Use these endpoints to delete a group or remove a user from a group.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Customer groups link multiple customer profiles to a common parent entity with shared attributes. Use these endpoints to delete a group or remove a user from a group.
   name: Blueshift Customer groups API
   slug: blueshift-customer-groups-api
-- description: Email template lifecycle management
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Email template lifecycle management
   name: Blueshift Email template API
   slug: blueshift-email-template-api
-- description: Validate single or bulk email addresses to assess deliverability and risk.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Validate single or bulk email addresses to assess deliverability and risk.
   name: Blueshift Email validation API
   slug: blueshift-email-validation-api
-- description: Use the event APIs to send events from your servers.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Use the event APIs to send events from your servers.
   name: Blueshift Event API
   slug: blueshift-event-api
-- description: External fetch is a Blueshift capability that lets you include dynamic content from external servers that is fetched “just in time” before sending a message.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: External fetch is a Blueshift capability that lets you include dynamic content from external servers that is fetched “just in time” before sending a message.
   name: Blueshift External fetch API
   slug: blueshift-external-fetch-api
-- description: Interest alerts store information about users' interests. When an event occurs in an area or topic in which multiple users are interested, you can trigger a single API call to send a notification to a
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Interest alerts store information about users' interests. When an event occurs in an area or topic in which multiple users are interested, you can trigger a single API call to send a notification to a
   name: Blueshift Interest alerts API
   slug: blueshift-interest-alerts-api
-- description: The Live Activities API from Blueshift — 2 operation(s) for live activities.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: The Live Activities API from Blueshift — 2 operation(s) for live activities.
   name: Blueshift Live Activities API
   slug: blueshift-live-activities-api
-- description: Use the Live content API endpoint to insert content recommendations in your website and mobile apps.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Use the Live content API endpoint to insert content recommendations in your website and mobile apps.
   name: Blueshift Live content API
   slug: blueshift-live-content-api
-- description: Promotions allows you to manage promo codes that you may wish to send to your customers through Blueshift Campaigns
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Promotions allows you to manage promo codes that you may wish to send to your customers through Blueshift Campaigns
   name: Blueshift Promotions API
   slug: blueshift-promotions-api
-- description: Push template lifecycle management
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Push template lifecycle management
   name: Blueshift Push template API
   slug: blueshift-push-template-api
-- description: You can use the `customer_search` API to search for events associated with a customer.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: You can use the `customer_search` API to search for events associated with a customer.
   name: Blueshift Search API
   slug: blueshift-search-api
-- description: A segment is a list of users that satisfy a criteria. For example, you can create a segment for users who are located in the San Francisco area and run campaigns for them.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: A segment is a list of users that satisfy a criteria. For example, you can create a segment for users who are located in the San Francisco area and run campaigns for them.
   name: Blueshift Segments API
   slug: blueshift-segments-api
-- description: Manage reusable assets such as HTML, rich text, subject lines, and visual editor content.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Manage reusable assets such as HTML, rich text, subject lines, and visual editor content.
   name: Blueshift Shared assets API
   slug: blueshift-shared-assets-api
-- description: SMS template lifecycle management
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: SMS template lifecycle management
   name: Blueshift SMS template API
   slug: blueshift-sms-template-api
-- description: Retrieve subscription groups and view detailed information for each subscription group.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Retrieve subscription groups and view detailed information for each subscription group.
   name: Blueshift Subscription groups API
   slug: blueshift-subscription-groups-api
-- description: Tags are folder-based entities that you can use to organize your resources. Each tag folder contains its own isolated set of tags.
+- baseURL: https://api.getblueshift.com
+  baseurl_source: declared
+  description: Tags are folder-based entities that you can use to organize your resources. Each tag folder contains its own isolated set of tags.
   name: Blueshift Tags API
   slug: blueshift-tags-api
 artifact_total: 31
@@ -263,7 +320,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -273,7 +330,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 68.7
+  previous_composite: 68.5
   provenance:
     conformance: first-party
     contracts:
@@ -290,7 +347,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
 security:

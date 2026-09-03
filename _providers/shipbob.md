@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 72 operations · 30 acting
 api_count: 1
 apis:
-- description: The subpackage_billing API from ShipBob — 4 operation(s) for subpackage_billing.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_billing API from ShipBob — 4 operation(s) for subpackage_billing.
   name: ShipBob subpackage_billing API
   slug: shipbob-subpackage-billing-api
-- description: The subpackage_channels API from ShipBob — 1 operation(s) for subpackage_channels.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_channels API from ShipBob — 1 operation(s) for subpackage_channels.
   name: ShipBob subpackage_channels API
   slug: shipbob-subpackage-channels-api
-- description: The subpackage_inventory API from ShipBob — 9 operation(s) for subpackage_inventory.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_inventory API from ShipBob — 9 operation(s) for subpackage_inventory.
   name: ShipBob subpackage_inventory API
   slug: shipbob-subpackage-inventory-api
-- description: The subpackage_locations API from ShipBob — 1 operation(s) for subpackage_locations.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_locations API from ShipBob — 1 operation(s) for subpackage_locations.
   name: ShipBob subpackage_locations API
   slug: shipbob-subpackage-locations-api
-- description: The subpackage_orders API from ShipBob — 21 operation(s) for subpackage_orders.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_orders API from ShipBob — 21 operation(s) for subpackage_orders.
   name: ShipBob subpackage_orders API
   slug: shipbob-subpackage-orders-api
-- description: The subpackage_products API from ShipBob — 11 operation(s) for subpackage_products.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_products API from ShipBob — 11 operation(s) for subpackage_products.
   name: ShipBob subpackage_products API
   slug: shipbob-subpackage-products-api
-- description: The subpackage_receiving API from ShipBob — 8 operation(s) for subpackage_receiving.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_receiving API from ShipBob — 8 operation(s) for subpackage_receiving.
   name: ShipBob subpackage_receiving API
   slug: shipbob-subpackage-receiving-api
-- description: The subpackage_returns API from ShipBob — 3 operation(s) for subpackage_returns.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_returns API from ShipBob — 3 operation(s) for subpackage_returns.
   name: ShipBob subpackage_returns API
   slug: shipbob-subpackage-returns-api
-- description: The subpackage_simulations API from ShipBob — 2 operation(s) for subpackage_simulations.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_simulations API from ShipBob — 2 operation(s) for subpackage_simulations.
   name: ShipBob subpackage_simulations API
   slug: shipbob-subpackage-simulations-api
-- description: The subpackage_webhooks API from ShipBob — 2 operation(s) for subpackage_webhooks.
+- baseURL: https://api.shipbob.com
+  baseurl_source: declared
+  description: The subpackage_webhooks API from ShipBob — 2 operation(s) for subpackage_webhooks.
   name: ShipBob subpackage_webhooks API
   slug: shipbob-subpackage-webhooks-api
 artifact_total: 32
@@ -237,7 +257,7 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -247,7 +267,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/screenshots/shipbob-2026-06-20T193812.png
 security:

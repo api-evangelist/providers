@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 5
 apis:
-- description: Retrieve and manage RocketReach API account details, generate new API keys, and inspect plan, lookup credit balance, export credit balance, and Universal Credits usage. Provides both legacy account en
+- baseURL: https://api.rocketreach.co/api/v2
+  baseurl_source: declared
+  description: Retrieve and manage RocketReach API account details, generate new API keys, and inspect plan, lookup credit balance, export credit balance, and Universal Credits usage. Provides both legacy account en
   name: RocketReach Account API
   slug: rocketreach-account-api
-- description: The Company Data API API from RocketReach — 5 operation(s) for company data api.
+- baseURL: https://api.rocketreach.co/api/v2
+  baseurl_source: declared
+  description: The Company Data API API from RocketReach — 5 operation(s) for company data api.
   name: RocketReach Company Data API API
   slug: rocketreach-company-data-api-api
-- description: The People Data API API from RocketReach — 9 operation(s) for people data api.
+- baseURL: https://api.rocketreach.co/api/v2
+  baseurl_source: declared
+  description: The People Data API API from RocketReach — 9 operation(s) for people data api.
   name: RocketReach People Data API API
   slug: rocketreach-people-data-api-api
 artifact_total: 33
@@ -357,7 +363,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -367,7 +373,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 40.8
-  previous_composite: 60.7
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,7 +385,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocketreach/refs/heads/main/screenshots/rocketreach-2026-06-20T193159.png
 security:

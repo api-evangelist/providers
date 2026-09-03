@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -43,70 +43,114 @@ agentic_access:
   summary_line: 103 operations · 61 acting
 api_count: 1
 apis:
-- description: '`AccountingAccount` represents an account in the company''s chart of accounts. `accountingCode` is the unique identifier of an account and is used as its ID; it also determines the account''s default cl'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`AccountingAccount` represents an account in the company''s chart of accounts. `accountingCode` is the unique identifier of an account and is used as its ID; it also determines the account''s default cl'
   name: Embat AccountingAccounts API
   slug: embat-accountingaccounts-api
-- description: '`AccountingEntry` represents a single line of a company''s general accounting journal — an outflow (`assetAmount`) or inflow (`liabilityAmount`) movement posted to a ledger account (`accountingCode`). '
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`AccountingEntry` represents a single line of a company''s general accounting journal — an outflow (`assetAmount`) or inflow (`liabilityAmount`) movement posted to a ledger account (`accountingCode`). '
   name: Embat AccountingEntries API
   slug: embat-accountingentries-api
-- description: '`Attribute` represents a custom field that you can define once and then use to tag records across Embat, such as an ERP dimension, a cost center or any other analytic field you want available as a fil'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Attribute` represents a custom field that you can define once and then use to tag records across Embat, such as an ERP dimension, a cost center or any other analytic field you want available as a fil'
   name: Embat Attributes API
   slug: embat-attributes-api
-- description: '`Authentication` provides the credentials Embat issues to access the rest of the public API. Every other endpoint requires a JWT `idToken` in the `Authorization: Bearer <idToken>` header; requests wit'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Authentication` provides the credentials Embat issues to access the rest of the public API. Every other endpoint requires a JWT `idToken` in the `Authorization: Bearer <idToken>` header; requests wit'
   name: Embat Authentication API
   slug: embat-authentication-api
-- description: '`Balance` represents the end-of-day balance of a bank product (account) for a given calendar day. Embat records one balance per product per day, expressed both in the product''s own currency (`balance`'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Balance` represents the end-of-day balance of a bank product (account) for a given calendar day. Embat records one balance per product per day, expressed both in the product''s own currency (`balance`'
   name: Embat Balances API
   slug: embat-balances-api
-- description: '`Bank` represents a banking relationship connected to your company in Embat — for example, an aggregated connection to a specific banking entity. Each bank relationship groups the `bankProducts` (chec'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Bank` represents a banking relationship connected to your company in Embat — for example, an aggregated connection to a specific banking entity. Each bank relationship groups the `bankProducts` (chec'
   name: Embat Banks API
   slug: embat-banks-api
-- description: '`Category` represents a treasury or cashflow classification in Embat, used to group transactions, forecasts and operations for reporting (e.g. "Providers", "Payroll", "Subscriptions"). Categories are '
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Category` represents a treasury or cashflow classification in Embat, used to group transactions, forecasts and operations for reporting (e.g. "Providers", "Payroll", "Subscriptions"). Categories are '
   name: Embat Categories API
   slug: embat-categories-api
-- description: 'A `Company` represents a legal entity configured in your Embat workspace. Its `id` is the `companyId` used throughout this API: almost every other endpoint is scoped by `companyId` and requires it as '
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: 'A `Company` represents a legal entity configured in your Embat workspace. Its `id` is the `companyId` used throughout this API: almost every other endpoint is scoped by `companyId` and requires it as '
   name: Embat Companies API
   slug: embat-companies-api
-- description: '`Contact` represents a client or supplier your company transacts with. `customId` is the unique identifier of a contact: set your own value to use as your ERP contact ID, or let Embat auto-generate on'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Contact` represents a client or supplier your company transacts with. `customId` is the unique identifier of a contact: set your own value to use as your ERP contact ID, or let Embat auto-generate on'
   name: Embat Contacts API
   slug: embat-contacts-api
-- description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
   name: Embat DebtScheduleConfigs API
   slug: embat-debtscheduleconfigs-api
-- description: '`File` represents a banking file exchanged between Embat and a bank: either a file **received** from a bank (a reception, e.g. an account statement or a confirmation file) or a file **submitted** to a'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`File` represents a banking file exchanged between Embat and a bank: either a file **received** from a bank (a reception, e.g. an account statement or a confirmation file) or a file **submitted** to a'
   name: Embat Files API
   slug: embat-files-api
-- description: '`Forecast` represents a treasury cash flow projection generated by Embat for a given date, classified under a `Category` and grouped into a `Scenario` (e.g. a base case or a stress scenario). Each sce'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Forecast` represents a treasury cash flow projection generated by Embat for a given date, classified under a `Category` and grouped into a `Scenario` (e.g. a base case or a stress scenario). Each sce'
   name: Embat Forecasts API
   slug: embat-forecasts-api
-- description: '`ForeignExchangeRate` records the daily exchange rates Embat uses to convert amounts between currencies for accounting purposes. Each record captures the rates observed on a given `date` for a set of '
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`ForeignExchangeRate` records the daily exchange rates Embat uses to convert amounts between currencies for accounting purposes. Each record captures the rates observed on a given `date` for a set of '
   name: Embat ForeignExchangeRates API
   slug: embat-foreignexchangerates-api
-- description: '`Logs` let your integration report execution events, warnings or errors observed while interacting with the Embat API, so Embat''s support team can diagnose integration issues. Logs are write-only: the'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Logs` let your integration report execution events, warnings or errors observed while interacting with the Embat API, so Embat''s support team can diagnose integration issues. Logs are write-only: the'
   name: Embat Logs API
   slug: embat-logs-api
-- description: '`Operation` represents an accounting operation with a pending amount to settle — typically an invoice or bill due from or to a `Contact` (client or supplier). An invoice with several due dates is mode'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Operation` represents an accounting operation with a pending amount to settle — typically an invoice or bill due from or to a `Contact` (client or supplier). An invoice with several due dates is mode'
   name: Embat Operations API
   slug: embat-operations-api
-- description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
   name: Embat PaymentOrders API
   slug: embat-paymentorders-api
-- description: '`Payment` represents money moving between a bank transaction and the operations (invoices, bills) or accounting entries it settles. `customId` is the unique identifier of a payment: set your own value'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Payment` represents money moving between a bank transaction and the operations (invoices, bills) or accounting entries it settles. `customId` is the unique identifier of a payment: set your own value'
   name: Embat Payments API
   slug: embat-payments-api
-- description: '`Product` represents a bank account, credit line, card or wallet held by the company — either aggregated automatically from a bank connection, or added manually in Embat. A product can optionally be l'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Product` represents a bank account, credit line, card or wallet held by the company — either aggregated automatically from a bank connection, or added manually in Embat. A product can optionally be l'
   name: Embat Products API
   slug: embat-products-api
-- description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
   name: Embat ReconcilingItems API
   slug: embat-reconcilingitems-api
-- description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '<div style="background-color:#fff3cd; color:#856404; padding: 10px; border-left: 6px solid #ffeeba;"> <strong>⚠️ Warning:</strong> This API section is in BETA. It might undergo significant changes and'
   name: Embat ReconcilingSources API
   slug: embat-reconcilingsources-api
-- description: 'A `Scenario` represents a forecasting hypothesis in Embat''s treasury forecast: a named, currency-denominated projection covering a defined horizon (`startPeriod` to `endPeriod`) at a given time granul'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: 'A `Scenario` represents a forecasting hypothesis in Embat''s treasury forecast: a named, currency-denominated projection covering a defined horizon (`startPeriod` to `endPeriod`) at a given time granul'
   name: Embat Scenarios API
   slug: embat-scenarios-api
-- description: '`Transaction` represents a movement recorded on one of your bank accounts (`Product`). Each transaction reports the balance of its product immediately after the movement, and can carry a classificatio'
+- baseURL: https://api.embat.io
+  baseurl_source: declared
+  description: '`Transaction` represents a movement recorded on one of your bank accounts (`Product`). Each transaction reports the balance of its product immediately after the movement, and can carry a classificatio'
   name: Embat Transactions API
   slug: embat-transactions-api
 artifact_total: 49
@@ -306,7 +350,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embat/refs/heads/main/screenshots/embat-2026-07-25T213227.png
 security:

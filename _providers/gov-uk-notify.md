@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: Official Ruby client library for the GOV.UK Notify API for sending government notifications via email, SMS, and letters from Ruby and Ruby on Rails applications.
   name: GOV.UK Notify Ruby Client
   slug: ruby-client
-- description: Send and retrieve notifications (email, SMS, letters)
+- baseURL: https://api.notifications.service.gov.uk
+  baseurl_source: declared
+  description: Send and retrieve notifications (email, SMS, letters)
   name: GOV.UK Notify Notifications API
   slug: gov-uk-notify-notifications-api
-- description: Retrieve inbound text messages
+- baseURL: https://api.notifications.service.gov.uk
+  baseurl_source: declared
+  description: Retrieve inbound text messages
   name: GOV.UK Notify Received Text Messages API
   slug: gov-uk-notify-received-text-messages-api
-- description: Retrieve and preview notification templates
+- baseURL: https://api.notifications.service.gov.uk
+  baseurl_source: declared
+  description: Retrieve and preview notification templates
   name: GOV.UK Notify Templates API
   slug: gov-uk-notify-templates-api
 artifact_total: 27
@@ -234,7 +240,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-notify/refs/heads/main/screenshots/gov-uk-notify-2026-06-20T182256.png
 security:

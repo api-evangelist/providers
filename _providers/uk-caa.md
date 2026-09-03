@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +44,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Citizen Space (Delib) public consultation API deployed on the CAA's consultations domain. Two documented methods — json_search_results and json_consultation_details — return published CAA consulta
+- baseURL: https://consultations.caa.co.uk/api/2.4
+  baseurl_source: declared
+  description: The Citizen Space (Delib) public consultation API deployed on the CAA's consultations domain. Two documented methods — json_search_results and json_consultation_details — return published CAA consulta
   name: CAA Consultations API
   slug: caa-consultations-api
 arazzos:
@@ -265,7 +278,7 @@ score:
   band: developing
   composite: 47.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 66.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -297,8 +310,9 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/uk-caa/refs/heads/main/screenshots/uk-caa-2026-09-02T164750.png
 security:
 - kind: authentication
   name: Uk Caa Authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 1
 apis:
-- description: The Files API from Google Drive — 4 operation(s) for files.
+- baseURL: https://www.googleapis.com/drive/v3
+  baseurl_source: declared
+  description: The Files API from Google Drive — 4 operation(s) for files.
   name: Google Drive Files API
   slug: google-drive-files-api
 arazzos:
@@ -322,7 +324,7 @@ score:
       total: 1
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:

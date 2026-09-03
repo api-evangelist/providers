@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,100 +35,160 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
   name: zerohash Private WebSocket API
   slug: zerohash-private-websocket-api
-- description: Create and Manage Accounts
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Create and Manage Accounts
   name: Zero Hash Accounts API
   slug: zero-hash-accounts-api
-- description: View available assets
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: View available assets
   name: Zero Hash Assets API
   slug: zero-hash-assets-api
-- description: Awards Distribution Service
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Awards Distribution Service
   name: Zero Hash Awards API
   slug: zero-hash-awards-api
-- description: Central Limit Order Book
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Central Limit Order Book
   name: Zero Hash CLOB API
   slug: zero-hash-clob-api
-- description: Convert and Withdraw Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Convert and Withdraw Services
   name: Zero Hash Convert and Withdraw API
   slug: zero-hash-convert-and-withdraw-api
-- description: Create and Manage Customer Accounts (MTA)
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Create and Manage Customer Accounts (MTA)
   name: Zero Hash Customer Accounts (MTA) API
   slug: zero-hash-customer-accounts-mta-api
-- description: Create deposit addressed and monitor deposits to accounts
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Create deposit addressed and monitor deposits to accounts
   name: Zero Hash Deposits API
   slug: zero-hash-deposits-api
-- description: Create and Manage Entity Participants
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Create and Manage Entity Participants
   name: Zero Hash Entity Participants API
   slug: zero-hash-entity-participants-api
-- description: Fund Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Fund Services
   name: Zero Hash Fund API
   slug: zero-hash-fund-api
-- description: Obtain the index price on an instrument
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Obtain the index price on an instrument
   name: Zero Hash Index API
   slug: zero-hash-index-api
-- description: Create and Manage Individual Participants
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Create and Manage Individual Participants
   name: Zero Hash Individual Participants API
   slug: zero-hash-individual-participants-api
-- description: Request For Quote and Execution Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Request For Quote and Execution Services
   name: Zero Hash Liquidity API
   slug: zero-hash-liquidity-api
-- description: Market Data Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Market Data Services
   name: Zero Hash Market Data API
   slug: zero-hash-market-data-api
-- description: The Movements API from Zero Hash — 1 operation(s) for movements.
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: The Movements API from Zero Hash — 1 operation(s) for movements.
   name: Zero Hash Movements API
   slug: zero-hash-movements-api
-- description: The Organization Token API from Zero Hash — 1 operation(s) for organization token.
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: The Organization Token API from Zero Hash — 1 operation(s) for organization token.
   name: Zero Hash Organization Token API
   slug: zero-hash-organization-token-api
-- description: Participant jurisdiction endpoints
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Participant jurisdiction endpoints
   name: Zero Hash Participant Jurisdictions API
   slug: zero-hash-participant-jurisdictions-api
-- description: Power your checkout with crypto and stablecoins
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Power your checkout with crypto and stablecoins
   name: Zero Hash Payins API
   slug: zero-hash-payins-api
-- description: Payment Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Payment Services
   name: Zero Hash Payments API
   slug: zero-hash-payments-api
-- description: Crypto payouts
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Crypto payouts
   name: Zero Hash Payouts API
   slug: zero-hash-payouts-api
-- description: Positions and Balances monitoring
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Positions and Balances monitoring
   name: Zero Hash Positions API
   slug: zero-hash-positions-api
-- description: Basic API Endpoints
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Basic API Endpoints
   name: Zero Hash Public API
   slug: zero-hash-public-api
-- description: Generic Participant management endpoints
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Generic Participant management endpoints
   name: Zero Hash Query Participants API
   slug: zero-hash-query-participants-api
-- description: Rewards Distribution Service
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Rewards Distribution Service
   name: Zero Hash Rewards API
   slug: zero-hash-rewards-api
-- description: SDK Authorization Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: SDK Authorization Services
   name: Zero Hash SDK Authorization API
   slug: zero-hash-sdk-authorization-api
-- description: Staking, Unstaking and associated Rewards Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Staking, Unstaking and associated Rewards Services
   name: Zero Hash Staking API
   slug: zero-hash-staking-api
-- description: The Trade Strategy API from Zero Hash — 13 operation(s) for trade strategy.
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: The Trade Strategy API from Zero Hash — 13 operation(s) for trade strategy.
   name: Zero Hash Trade Strategy API
   slug: zero-hash-trade-strategy-api
-- description: Trade Settlement Services
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Trade Settlement Services
   name: Zero Hash Trades API
   slug: zero-hash-trades-api
-- description: Initiate and monitor transfers between accounts
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Initiate and monitor transfers between accounts
   name: Zero Hash Transfers API
   slug: zero-hash-transfers-api
-- description: The User Token API from Zero Hash — 1 operation(s) for user token.
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: The User Token API from Zero Hash — 1 operation(s) for user token.
   name: Zero Hash User Token API
   slug: zero-hash-user-token-api
-- description: Initiate and monitor withdrawals from accounts
+- baseURL: https://api.zerohash.com
+  baseurl_source: declared
+  description: Initiate and monitor withdrawals from accounts
   name: Zero Hash Withdrawals API
   slug: zero-hash-withdrawals-api
 artifact_total: 69
@@ -413,7 +485,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -423,7 +495,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 58.5
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -440,7 +512,7 @@ score:
     regime_id: payments
     score: 65.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
 security:

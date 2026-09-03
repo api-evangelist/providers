@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: TypeScript-based automation for Excel on the web, enabling Power Automate integration for business process automation.
   name: Office Scripts API
   slug: office-scripts-api
-- description: Operations for managing charts within worksheets.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing charts within worksheets.
   name: Microsoft Excel Charts API
   slug: microsoft-excel-charts-api
-- description: Workbook function operations.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Workbook function operations.
   name: Microsoft Excel Functions API
   slug: microsoft-excel-functions-api
-- description: Operations for managing named ranges and values.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing named ranges and values.
   name: Microsoft Excel Named Items API
   slug: microsoft-excel-named-items-api
-- description: Operations for reading and writing cell ranges.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for reading and writing cell ranges.
   name: Microsoft Excel Ranges API
   slug: microsoft-excel-ranges-api
-- description: Workbook session management operations.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Workbook session management operations.
   name: Microsoft Excel Sessions API
   slug: microsoft-excel-sessions-api
-- description: Operations for managing table columns.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing table columns.
   name: Microsoft Excel Table Columns API
   slug: microsoft-excel-table-columns-api
-- description: Operations for managing table row data.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing table row data.
   name: Microsoft Excel Table Rows API
   slug: microsoft-excel-table-rows-api
-- description: Operations for managing tables within worksheets.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing tables within worksheets.
   name: Microsoft Excel Tables API
   slug: microsoft-excel-tables-api
-- description: Operations for managing worksheets within a workbook.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: Operations for managing worksheets within a workbook.
   name: Microsoft Excel Worksheets API
   slug: microsoft-excel-worksheets-api
 arazzos:
@@ -514,7 +532,7 @@ score:
       total: 10
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:

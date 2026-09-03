@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The university's own open data portal. It is not CKAN, Socrata or a data.json endpoint — all three 404 — but a DCAT-AP_IT catalogue serialised as RDF Turtle at /opendata_polimi.ttl, declaring 25 datas
+- baseURL: https://www.opendata.polimi.it
+  baseurl_source: declared
+  description: The university's own open data portal. It is not CKAN, Socrata or a data.json endpoint — all three 404 — but a DCAT-AP_IT catalogue serialised as RDF Turtle at /opendata_polimi.ttl, declaring 25 datas
   name: Politecnico di Milano Open Data
   slug: open-data
-- description: OAI-PMH 2.0 harvesting endpoint for IRIS Re.Public@Polimi, the institutional research product catalogue. Live Identify returns repositoryName "IRIS - POLIMI - prod", earliest datestamp 2015-06-10, del
+- baseURL: https://re.public.polimi.it/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 harvesting endpoint for IRIS Re.Public@Polimi, the institutional research product catalogue. Live Identify returns repositoryName "IRIS - POLIMI - prod", earliest datestamp 2015-06-10, del
   name: Re.Public@Polimi OAI-PMH
   slug: iris-oai-pmh
-- description: A second, separate OAI-PMH 2.0 endpoint — the POLITESI archive of Politecnico di Milano theses and dissertations, handle prefix 10589, earliest datestamp 2010-08-24. It offers a wider metadata set tha
+- baseURL: https://www.politesi.polimi.it/oai/request
+  baseurl_source: declared
+  description: A second, separate OAI-PMH 2.0 endpoint — the POLITESI archive of Politecnico di Milano theses and dissertations, handle prefix 10589, earliest datestamp 2010-08-24. It offers a wider metadata set tha
   name: POLITESI OAI-PMH
   slug: politesi-oai-pmh
-- description: The university's own Shibboleth identity provider, publishing its SAML 2.0 EntityDescriptor at https://shibidp.polimi.it/idp/shibboleth over unauthenticated HTTPS. The IDPSSODescriptor advertises Shib
+- baseURL: https://shibidp.polimi.it/idp/shibboleth
+  baseurl_source: declared
+  description: The university's own Shibboleth identity provider, publishing its SAML 2.0 EntityDescriptor at https://shibidp.polimi.it/idp/shibboleth over unauthenticated HTTPS. The IDPSSODescriptor advertises Shib
   name: Politecnico di Milano Shibboleth Identity Provider
   slug: shibboleth-idp
 - description: 'Politecnico di Milano''s membership of IDEM, the Italian academic identity federation run by GARR. The federation aggregate at md.idem.garr.it carries the university''s own IdP entity plus three of its '
@@ -241,7 +249,7 @@ score:
     catalog_gap: 18.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 20.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -251,7 +259,7 @@ score:
     discoverability: 74.1
     governance: 60.6
     operational_transparency: 21.1
-  previous_composite: 22.5
+  previous_composite: 42.9
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +274,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png
 security:
 - kind: authentication

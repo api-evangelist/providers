@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Annual and monthly passport issuance statistics published by the Bureau of Consular Affairs, available as downloadable datasets through the CA data catalog.
   name: Passport Issuance Statistics
   slug: passport-issuance-statistics
-- description: Datastore queries over tabular resources.
+- baseURL: https://cadatacatalog.state.gov/api/3/action
+  baseurl_source: declared
+  description: Datastore queries over tabular resources.
   name: Bureau of Consular Affairs Datastore API
   slug: bureau-of-consular-affairs-datastore-api
-- description: Read-only discovery actions (packages, groups, organizations, tags).
+- baseURL: https://cadatacatalog.state.gov/api/3/action
+  baseurl_source: declared
+  description: Read-only discovery actions (packages, groups, organizations, tags).
   name: Bureau of Consular Affairs Discovery API
   slug: bureau-of-consular-affairs-discovery-api
-- description: Write actions (require API token).
+- baseURL: https://cadatacatalog.state.gov/api/3/action
+  baseurl_source: declared
+  description: Write actions (require API token).
   name: Bureau of Consular Affairs Write API
   slug: bureau-of-consular-affairs-write-api
 artifact_total: 17
@@ -174,7 +180,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/screenshots/bureau-of-consular-affairs-2026-06-20T173807.png
 security:

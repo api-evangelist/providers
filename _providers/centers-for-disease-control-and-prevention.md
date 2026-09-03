@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: 'The National Notifiable Diseases Surveillance System (NNDSS) and Morbidity and Mortality Weekly Report (MMWR) tables are published as Socrata datasets on data.cdc.gov, providing weekly and historical '
   name: CDC NNDSS / MMWR Socrata Data
   slug: cdc-tb-nndss-socrata
-- description: Stable Socrata Open Data API used for the majority of data.cdc.gov queries.
+- baseURL: https://data.cdc.gov/resource/
+  baseurl_source: declared
+  description: Stable Socrata Open Data API used for the majority of data.cdc.gov queries.
   name: Centers for Disease Control and Prevention SODA v2.1 API
   slug: centers-for-disease-control-and-prevention-soda-v2-1-api
-- description: Next-generation query and export endpoints.
+- baseURL: https://data.cdc.gov/resource/
+  baseurl_source: declared
+  description: Next-generation query and export endpoints.
   name: Centers for Disease Control and Prevention SODA v3 API
   slug: centers-for-disease-control-and-prevention-soda-v3-api
 artifact_total: 19
@@ -200,7 +204,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/screenshots/centers-for-disease-control-and-prevention-2026-06-20T174125.png
 security:

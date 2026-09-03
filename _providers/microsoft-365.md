@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: Beta endpoint of the Microsoft Graph API offering preview features and resources before they are promoted to v1.0, including additional insights, reporting, and management capabilities.
   name: Microsoft Graph Beta API
   slug: graph-beta-api
-- description: The Calendar API from Microsoft 365 — 1 operation(s) for calendar.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Calendar API from Microsoft 365 — 1 operation(s) for calendar.
   name: Microsoft 365 Calendar API
   slug: microsoft-365-calendar-api
-- description: The Files API from Microsoft 365 — 1 operation(s) for files.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Files API from Microsoft 365 — 1 operation(s) for files.
   name: Microsoft 365 Files API
   slug: microsoft-365-files-api
-- description: The Groups API from Microsoft 365 — 3 operation(s) for groups.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Groups API from Microsoft 365 — 3 operation(s) for groups.
   name: Microsoft 365 Groups API
   slug: microsoft-365-groups-api
-- description: The Mail API from Microsoft 365 — 1 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Mail API from Microsoft 365 — 1 operation(s) for mail.
   name: Microsoft 365 Mail API
   slug: microsoft-365-mail-api
-- description: The Me API from Microsoft 365 — 3 operation(s) for me.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Me API from Microsoft 365 — 3 operation(s) for me.
   name: Microsoft 365 Me API
   slug: microsoft-365-me-api
-- description: The Teams API from Microsoft 365 — 2 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams API from Microsoft 365 — 2 operation(s) for teams.
   name: Microsoft 365 Teams API
   slug: microsoft-365-teams-api
-- description: The Users API from Microsoft 365 — 2 operation(s) for users.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Users API from Microsoft 365 — 2 operation(s) for users.
   name: Microsoft 365 Users API
   slug: microsoft-365-users-api
 artifact_total: 25
@@ -213,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:

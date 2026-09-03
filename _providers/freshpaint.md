@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Destinations are the marketing, analytics, advertising, and data-warehouse tools Freshpaint forwards collected events to. Destinations are configured in the Freshpaint app; per-event routing is contro
   name: Freshpaint Destinations
   slug: freshpaint-destinations
-- description: The Events API from Freshpaint — 1 operation(s) for events.
+- baseURL: https://api.perfalytics.com
+  baseurl_source: declared
+  description: The Events API from Freshpaint — 1 operation(s) for events.
   name: Freshpaint Events API
   slug: freshpaint-events-api
 artifact_total: 12
@@ -247,7 +249,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png
 security:

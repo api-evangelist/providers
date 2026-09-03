@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: Cloudinary fires HTTP webhook notifications for upload completion, eager transformation completion, AI moderation outcomes, asset deletion, and backup events. Notifications include signatures for veri
   name: Cloudinary Notifications and Webhooks
   slug: notifications
-- description: Backup retrieval operations.
+- baseURL: https://api.cloudinary.com/v1_1
+  baseurl_source: declared
+  description: Backup retrieval operations.
   name: Cloudinary Backup API
   slug: cloudinary-backup-api
-- description: Apply transformations to existing assets.
+- baseURL: https://api.cloudinary.com/v1_1
+  baseurl_source: declared
+  description: Apply transformations to existing assets.
   name: Cloudinary Transformation API
   slug: cloudinary-transformation-api
-- description: Asset upload and management.
+- baseURL: https://api.cloudinary.com/v1_1
+  baseurl_source: declared
+  description: Asset upload and management.
   name: Cloudinary Upload API
   slug: cloudinary-upload-api
 artifact_total: 45
@@ -249,7 +255,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -259,7 +265,7 @@ score:
     discoverability: 72.2
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 49.5
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     contracts:
@@ -268,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/screenshots/cloudinary-2026-06-20T174606.png
 security:

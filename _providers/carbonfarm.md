@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,25 +35,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Image typed files can be dynamically resized and transformed to fit any need.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: Image typed files can be dynamically resized and transformed to fit any need.
   name: CarbonFarm Assets API
   slug: carbonfarm-assets-api
-- description: All data within the platform is private by default. The public role can be configured to expose data without authentication, or you can pass an access token to the API to access private data.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: All data within the platform is private by default. The public role can be configured to expose data without authentication, or you can pass an access token to the API to access private data.
   name: CarbonFarm Authentication API
   slug: carbonfarm-authentication-api
-- description: Files can be saved in any given location. Directus has a powerful assets endpoint that can be used to generate thumbnails for images on the fly.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: Files can be saved in any given location. Directus has a powerful assets endpoint that can be used to generate thumbnails for images on the fly.
   name: CarbonFarm Files API
   slug: carbonfarm-files-api
-- description: The Items API from CarbonFarm — 2 operation(s) for items.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: The Items API from CarbonFarm — 2 operation(s) for items.
   name: CarbonFarm Items API
   slug: carbonfarm-items-api
-- description: The ItemsPost API from CarbonFarm — 2 operation(s) for itemspost.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: The ItemsPost API from CarbonFarm — 2 operation(s) for itemspost.
   name: CarbonFarm Items Post API
   slug: carbonfarm-itemspost-api
-- description: Access to where Directus runs. Allows you to make sure your server has everything needed to run the platform, and check what kind of latency we're dealing with.
+- baseURL: https://cms.int.carbonfarm.app
+  baseurl_source: declared
+  description: Access to where Directus runs. Allows you to make sure your server has everything needed to run the platform, and check what kind of latency we're dealing with.
   name: CarbonFarm Server API
   slug: carbonfarm-server-api
 artifact_total: 11
@@ -156,11 +180,11 @@ score:
   band: thin
   composite: 29.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -170,7 +194,7 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 28.5
+  previous_composite: 29.3
   provenance:
     conformance: first-party
     contracts:
@@ -181,8 +205,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carbonfarm/refs/heads/main/screenshots/carbonfarm-2026-09-02T145013.png
 security:
 - kind: authentication
   name: Carbonfarm Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 56 operations · 26 acting
 api_count: 3
 apis:
-- description: Image uploads.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Image uploads.
   name: Ghost Admin - Images API
   slug: ghost-org-admin-images-api
-- description: Read-write member labels.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write member labels.
   name: Ghost Admin - Labels API
   slug: ghost-org-admin-labels-api
-- description: Read-write members.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write members.
   name: Ghost Admin - Members API
   slug: ghost-org-admin-members-api
-- description: Read-write newsletters.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write newsletters.
   name: Ghost Admin - Newsletters API
   slug: ghost-org-admin-newsletters-api
-- description: Read-write promotional offers.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write promotional offers.
   name: Ghost Admin - Offers API
   slug: ghost-org-admin-offers-api
-- description: Read-write pages.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write pages.
   name: Ghost Admin - Pages API
   slug: ghost-org-admin-pages-api
-- description: Read-write posts.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write posts.
   name: Ghost Admin - Posts API
   slug: ghost-org-admin-posts-api
-- description: Read-only public site metadata.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-only public site metadata.
   name: Ghost Admin - Site API
   slug: ghost-org-admin-site-api
-- description: Read-write tags.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write tags.
   name: Ghost Admin - Tags API
   slug: ghost-org-admin-tags-api
-- description: Theme upload and activation.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Theme upload and activation.
   name: Ghost Admin - Themes API
   slug: ghost-org-admin-themes-api
-- description: Read-write subscription tiers.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-write subscription tiers.
   name: Ghost Admin - Tiers API
   slug: ghost-org-admin-tiers-api
-- description: Read-only staff users.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read-only staff users.
   name: Ghost Admin - Users API
   slug: ghost-org-admin-users-api
-- description: Outbound webhook management.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Outbound webhook management.
   name: Ghost Admin - Webhooks API
   slug: ghost-org-admin-webhooks-api
-- description: Read-only authors.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only authors.
   name: Ghost Content - Authors API
   slug: ghost-org-content-authors-api
-- description: Read-only published pages.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only published pages.
   name: Ghost Content - Pages API
   slug: ghost-org-content-pages-api
-- description: Read-only published posts.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only published posts.
   name: Ghost Content - Posts API
   slug: ghost-org-content-posts-api
-- description: Read-only public site settings.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only public site settings.
   name: Ghost Content - Settings API
   slug: ghost-org-content-settings-api
-- description: Read-only tags.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only tags.
   name: Ghost Content - Tags API
   slug: ghost-org-content-tags-api
-- description: Read-only public subscription tiers.
+- baseURL: https://{admin_domain}/ghost/api/content
+  baseurl_source: declared
+  description: Read-only public subscription tiers.
   name: Ghost Content - Tiers API
   slug: ghost-org-content-tiers-api
-- description: Authors represent the staff users who create content in a Ghost publication.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Authors represent the staff users who create content in a Ghost publication.
   name: Ghost Authors API
   slug: ghost-org-authors-api
-- description: Upload images to the Ghost publication for use in posts, pages, and settings.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Upload images to the Ghost publication for use in posts, pages, and settings.
   name: Ghost Images API
   slug: ghost-org-images-api
-- description: Manage publication members including creating, reading, updating, and deleting member records. Members are people who have signed up for the publication.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Manage publication members including creating, reading, updating, and deleting member records. Members are people who have signed up for the publication.
   name: Ghost Members API
   slug: ghost-org-members-api
-- description: Manage email newsletters that members can subscribe to. Each newsletter has its own design, sender details, and subscription list.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Manage email newsletters that members can subscribe to. Each newsletter has its own design, sender details, and subscription list.
   name: Ghost Newsletters API
   slug: ghost-org-newsletters-api
-- description: Manage promotional offers for paid membership tiers, including discounts and trial periods.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Manage promotional offers for paid membership tiers, including discounts and trial periods.
   name: Ghost Offers API
   slug: ghost-org-offers-api
-- description: Create, read, update, and delete pages. Pages share the same structure as posts but are used for static content.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Create, read, update, and delete pages. Pages share the same structure as posts but are used for static content.
   name: Ghost Pages API
   slug: ghost-org-pages-api
-- description: Create, read, update, and delete posts. Posts are the primary content resource in Ghost and support rich content via the Lexical editor format.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Create, read, update, and delete posts. Posts are the primary content resource in Ghost and support rich content via the Lexical editor format.
   name: Ghost Posts API
   slug: ghost-org-posts-api
-- description: Settings provide access to global publication settings including title, description, navigation, and other configuration values.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Settings provide access to global publication settings including title, description, navigation, and other configuration values.
   name: Ghost Settings API
   slug: ghost-org-settings-api
-- description: Read basic information about the Ghost site.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read basic information about the Ghost site.
   name: Ghost Site API
   slug: ghost-org-site-api
-- description: The Tags API from Ghost — 3 operation(s) for tags.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: The Tags API from Ghost — 3 operation(s) for tags.
   name: Ghost Tags API
   slug: ghost-org-tags-api
-- description: Upload, activate, and manage themes that control the front-end appearance of the Ghost publication.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Upload, activate, and manage themes that control the front-end appearance of the Ghost publication.
   name: Ghost Themes API
   slug: ghost-org-themes-api
-- description: Manage membership tiers including creating, reading, and updating tier configurations with pricing and benefits.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Manage membership tiers including creating, reading, and updating tier configurations with pricing and benefits.
   name: Ghost Tiers API
   slug: ghost-org-tiers-api
-- description: Read staff user accounts for the Ghost publication.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Read staff user accounts for the Ghost publication.
   name: Ghost Users API
   slug: ghost-org-users-api
-- description: Create, update, and delete webhooks that send HTTP POST notifications when events occur within the publication.
+- baseURL: https://{admin_domain}/ghost/api/admin
+  baseurl_source: declared
+  description: Create, update, and delete webhooks that send HTTP POST notifications when events occur within the publication.
   name: Ghost Webhooks API
   slug: ghost-org-webhooks-api
 artifact_total: 109
@@ -636,7 +702,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -649,7 +715,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 75.1
+  previous_composite: 75.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -661,7 +727,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:

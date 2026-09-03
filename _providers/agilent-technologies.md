@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: The VWorks API provides a Component Object Model (COM) application programming interface for VWorks laboratory automation software (version 14.0 and later). It enables programmatic control of laborato
   name: Agilent VWorks Automation API
   slug: agilent-vworks-automation-api
-- description: Core facility resources — the root resource of the API
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Core facility resources — the root resource of the API
   name: agilent-technologies Cores API
   slug: agilent-technologies-cores-api
-- description: Billing invoices and financial records
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Billing invoices and financial records
   name: agilent-technologies Invoices API
   slug: agilent-technologies-invoices-api
-- description: Core facility membership and user management
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Core facility membership and user management
   name: agilent-technologies Members API
   slug: agilent-technologies-members-api
-- description: Research projects and cost accounts
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Research projects and cost accounts
   name: agilent-technologies Projects API
   slug: agilent-technologies-projects-api
-- description: Equipment reservations and scheduling
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Equipment reservations and scheduling
   name: agilent-technologies Reservations API
   slug: agilent-technologies-reservations-api
-- description: Service request submissions and management
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Service request submissions and management
   name: agilent-technologies Service Requests API
   slug: agilent-technologies-service-requests-api
-- description: Services and price lists offered by a core facility
+- baseURL: https://api.ilabsolutions.com/v1
+  baseurl_source: declared
+  description: Services and price lists offered by a core facility
   name: agilent-technologies Services API
   slug: agilent-technologies-services-api
 artifact_total: 103
@@ -454,7 +468,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

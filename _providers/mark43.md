@@ -33,52 +33,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
   name: Mark43 Associated Records API
   slug: mark43-associated-records-api
-- description: The Attachments API from Mark43 — 5 operation(s) for attachments.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Attachments API from Mark43 — 5 operation(s) for attachments.
   name: Mark43 Attachments API
   slug: mark43-attachments-api
-- description: The CAD Configuration API from Mark43 — 4 operation(s) for cad configuration.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The CAD Configuration API from Mark43 — 4 operation(s) for cad configuration.
   name: Mark43 CAD Configuration API
   slug: mark43-cad-configuration-api
-- description: The CAD Events API from Mark43 — 10 operation(s) for cad events.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The CAD Events API from Mark43 — 10 operation(s) for cad events.
   name: Mark43 CAD Events API
   slug: mark43-cad-events-api
-- description: The CAD Tickets API from Mark43 — 1 operation(s) for cad tickets.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The CAD Tickets API from Mark43 — 1 operation(s) for cad tickets.
   name: Mark43 CAD Tickets API
   slug: mark43-cad-tickets-api
-- description: The Cases API from Mark43 — 3 operation(s) for cases.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Cases API from Mark43 — 3 operation(s) for cases.
   name: Mark43 Cases API
   slug: mark43-cases-api
-- description: The E911 API from Mark43 — 2 operation(s) for e911.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The E911 API from Mark43 — 2 operation(s) for e911.
   name: Mark43 E911 API
   slug: mark43-e911-api
-- description: The Evidence API from Mark43 — 5 operation(s) for evidence.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Evidence API from Mark43 — 5 operation(s) for evidence.
   name: Mark43 Evidence API
   slug: mark43-evidence-api
-- description: The GPS API from Mark43 — 1 operation(s) for gps.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The GPS API from Mark43 — 1 operation(s) for gps.
   name: Mark43 GPS API
   slug: mark43-gps-api
-- description: The Persons API from Mark43 — 8 operation(s) for persons.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Persons API from Mark43 — 8 operation(s) for persons.
   name: Mark43 Persons API
   slug: mark43-persons-api
-- description: The Reports API from Mark43 — 38 operation(s) for reports.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Reports API from Mark43 — 38 operation(s) for reports.
   name: Mark43 Reports API
   slug: mark43-reports-api
-- description: The Tasks API from Mark43 — 1 operation(s) for tasks.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Tasks API from Mark43 — 1 operation(s) for tasks.
   name: Mark43 Tasks API
   slug: mark43-tasks-api
-- description: The Users API from Mark43 — 7 operation(s) for users.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Users API from Mark43 — 7 operation(s) for users.
   name: Mark43 Users API
   slug: mark43-users-api
-- description: The Vehicles API from Mark43 — 1 operation(s) for vehicles.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Vehicles API from Mark43 — 1 operation(s) for vehicles.
   name: Mark43 Vehicles API
   slug: mark43-vehicles-api
-- description: The Warrants API from Mark43 — 5 operation(s) for warrants.
+- baseURL: https://department.mark43.com/partnerships/api
+  baseurl_source: declared
+  description: The Warrants API from Mark43 — 5 operation(s) for warrants.
   name: Mark43 Warrants API
   slug: mark43-warrants-api
 artifact_total: 35
@@ -252,7 +282,7 @@ score:
     regime_id: government
     score: 44.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

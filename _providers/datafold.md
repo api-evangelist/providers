@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 52 operations · 29 acting
 api_count: 1
 apis:
-- description: The Audit Logs API from Datafold — 1 operation(s) for audit logs.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The Audit Logs API from Datafold — 1 operation(s) for audit logs.
   name: Datafold Audit Logs API
   slug: datafold-audit-logs-api
-- description: The bi_added API from Datafold — 6 operation(s) for bi_added.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The bi_added API from Datafold — 6 operation(s) for bi_added.
   name: Datafold bi_added API
   slug: datafold-bi-added-api
-- description: The BI API from Datafold — 15 operation(s) for bi.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The BI API from Datafold — 15 operation(s) for bi.
   name: Datafold BI API
   slug: datafold-bi-api
-- description: The bi_deleted API from Datafold — 1 operation(s) for bi_deleted.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The bi_deleted API from Datafold — 1 operation(s) for bi_deleted.
   name: Datafold bi_deleted API
   slug: datafold-bi-deleted-api
-- description: The bi_modified API from Datafold — 6 operation(s) for bi_modified.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The bi_modified API from Datafold — 6 operation(s) for bi_modified.
   name: Datafold bi_modified API
   slug: datafold-bi-modified-api
-- description: The bolt API from Datafold — 1 operation(s) for bolt.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The bolt API from Datafold — 1 operation(s) for bolt.
   name: Datafold bolt API
   slug: datafold-bolt-api
-- description: The CI API from Datafold — 3 operation(s) for ci.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The CI API from Datafold — 3 operation(s) for ci.
   name: Datafold CI API
   slug: datafold-ci-api
-- description: The Data diffs API from Datafold — 5 operation(s) for data diffs.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The Data diffs API from Datafold — 5 operation(s) for data diffs.
   name: Datafold Data diffs API
   slug: datafold-data-diffs-api
-- description: The data_source_added API from Datafold — 1 operation(s) for data_source_added.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The data_source_added API from Datafold — 1 operation(s) for data_source_added.
   name: Datafold data_source_added API
   slug: datafold-data-source-added-api
-- description: The Data sources API from Datafold — 7 operation(s) for data sources.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The Data sources API from Datafold — 7 operation(s) for data sources.
   name: Datafold Data sources API
   slug: datafold-data-sources-api
-- description: The diff_created API from Datafold — 1 operation(s) for diff_created.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The diff_created API from Datafold — 1 operation(s) for diff_created.
   name: Datafold diff_created API
   slug: datafold-diff-created-api
-- description: The Explore API from Datafold — 4 operation(s) for explore.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The Explore API from Datafold — 4 operation(s) for explore.
   name: Datafold Explore API
   slug: datafold-explore-api
-- description: The Monitors API from Datafold — 11 operation(s) for monitors.
+- baseURL: https://app.datafold.com/api/v1/
+  baseurl_source: declared
+  description: The Monitors API from Datafold — 11 operation(s) for monitors.
   name: Datafold Monitors API
   slug: datafold-monitors-api
 artifact_total: 38
@@ -267,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datafold/refs/heads/main/screenshots/datafold-2026-06-20T175639.png
 security:

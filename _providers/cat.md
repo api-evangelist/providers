@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The CAT Caterpillar Telematics API API from CAT — 1 operation(s) for cat caterpillar telematics api.
+- baseURL: https://services.cat.com/telematics/iso15143
+  baseurl_source: spec
+  description: The CAT Caterpillar Telematics API API from CAT — 1 operation(s) for cat caterpillar telematics api.
   name: CAT CAT Caterpillar Telematics API API
   slug: cat-cat-caterpillar-telematics-api-api
-- description: The Equipment API from CAT — 5 operation(s) for equipment.
+- baseURL: https://services.cat.com/telematics/iso15143
+  baseurl_source: spec
+  description: The Equipment API from CAT — 5 operation(s) for equipment.
   name: CAT Equipment API
   slug: cat-equipment-api
 artifact_total: 29
@@ -189,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/screenshots/cat-2026-06-20T174039.png
 security:

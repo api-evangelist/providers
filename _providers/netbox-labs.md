@@ -33,46 +33,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The authentication-check API from NetBox Labs — 1 operation(s) for authentication-check.
   name: NetBox Labs authentication-check API
   slug: netbox-labs-authentication-check-api
-- description: The circuits API from NetBox Labs — 24 operation(s) for circuits.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The circuits API from NetBox Labs — 24 operation(s) for circuits.
   name: NetBox Labs circuits API
   slug: netbox-labs-circuits-api
-- description: The core API from NetBox Labs — 21 operation(s) for core.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The core API from NetBox Labs — 21 operation(s) for core.
   name: NetBox Labs core API
   slug: netbox-labs-core-api
-- description: The dcim API from NetBox Labs — 103 operation(s) for dcim.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The dcim API from NetBox Labs — 103 operation(s) for dcim.
   name: NetBox Labs dcim API
   slug: netbox-labs-dcim-api
-- description: The extras API from NetBox Labs — 49 operation(s) for extras.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The extras API from NetBox Labs — 49 operation(s) for extras.
   name: NetBox Labs extras API
   slug: netbox-labs-extras-api
-- description: The ipam API from NetBox Labs — 41 operation(s) for ipam.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The ipam API from NetBox Labs — 41 operation(s) for ipam.
   name: NetBox Labs ipam API
   slug: netbox-labs-ipam-api
-- description: The schema API from NetBox Labs — 1 operation(s) for schema.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The schema API from NetBox Labs — 1 operation(s) for schema.
   name: NetBox Labs schema API
   slug: netbox-labs-schema-api
-- description: The status API from NetBox Labs — 1 operation(s) for status.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The status API from NetBox Labs — 1 operation(s) for status.
   name: NetBox Labs status API
   slug: netbox-labs-status-api
-- description: The tenancy API from NetBox Labs — 12 operation(s) for tenancy.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The tenancy API from NetBox Labs — 12 operation(s) for tenancy.
   name: NetBox Labs tenancy API
   slug: netbox-labs-tenancy-api
-- description: The users API from NetBox Labs — 14 operation(s) for users.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The users API from NetBox Labs — 14 operation(s) for users.
   name: NetBox Labs users API
   slug: netbox-labs-users-api
-- description: The virtualization API from NetBox Labs — 15 operation(s) for virtualization.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The virtualization API from NetBox Labs — 15 operation(s) for virtualization.
   name: NetBox Labs virtualization API
   slug: netbox-labs-virtualization-api
-- description: The vpn API from NetBox Labs — 20 operation(s) for vpn.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The vpn API from NetBox Labs — 20 operation(s) for vpn.
   name: NetBox Labs vpn API
   slug: netbox-labs-vpn-api
-- description: The wireless API from NetBox Labs — 6 operation(s) for wireless.
+- baseURL: https://demo.netbox.dev/api/
+  baseurl_source: declared
+  description: The wireless API from NetBox Labs — 6 operation(s) for wireless.
   name: NetBox Labs wireless API
   slug: netbox-labs-wireless-api
 artifact_total: 32
@@ -278,7 +304,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netbox-labs/refs/heads/main/screenshots/netbox-labs-2026-08-07T184929.png
 security:

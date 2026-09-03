@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'hapi is a rich, configuration-centric framework for building web applications and APIs in Node.js. It provides a powerful plugin system, built-in input validation with Joi, authentication strategies, '
@@ -158,7 +158,7 @@ score:
     score: 65.0
   previous_composite: 21.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hapi/refs/heads/main/screenshots/hapi-2026-06-20T182508.png
 security:

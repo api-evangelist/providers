@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Booking management operations
+- baseURL: https://developer.aa.com/api
+  baseurl_source: declared
+  description: Booking management operations
   name: American Airlines Bookings API
   slug: american-airlines-bookings-api
-- description: Flight information and status operations
+- baseURL: https://developer.aa.com/api
+  baseurl_source: declared
+  description: Flight information and status operations
   name: American Airlines Flights API
   slug: american-airlines-flights-api
 artifact_total: 44
@@ -284,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

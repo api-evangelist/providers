@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -54,223 +54,369 @@ apis:
 - description: Identity and authorization product line for AI agents. Bundles Token Vault (delegated API credentials for Google/GitHub/Slack etc.), asynchronous authorization (human-in-the-loop), Fine-Grained Author
   name: Auth0 for AI Agents
   slug: auth0-for-ai-agents
-- description: The actions API from Auth0 — 16 operation(s) for actions.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The actions API from Auth0 — 16 operation(s) for actions.
   name: Auth0 actions API
   slug: auth0-actions-api
-- description: The anomaly API from Auth0 — 1 operation(s) for anomaly.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The anomaly API from Auth0 — 1 operation(s) for anomaly.
   name: Auth0 anomaly API
   slug: auth0-anomaly-api
-- description: The Assertions API from Auth0 — 1 operation(s) for assertions.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Assertions API from Auth0 — 1 operation(s) for assertions.
   name: Auth0 Assertions API
   slug: auth0-assertions-api
-- description: The attack-protection API from Auth0 — 5 operation(s) for attack-protection.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The attack-protection API from Auth0 — 5 operation(s) for attack-protection.
   name: Auth0 attack-protection API
   slug: auth0-attack-protection-api
-- description: The Authorization Models API from Auth0 — 2 operation(s) for authorization models.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Authorization Models API from Auth0 — 2 operation(s) for authorization models.
   name: Auth0 Authorization Models API
   slug: auth0-authorization-models-api
-- description: The Authorize User API from Auth0 — 1 operation(s) for authorize user.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Authorize User API from Auth0 — 1 operation(s) for authorize user.
   name: Auth0 Authorize User API
   slug: auth0-authorize-user-api
-- description: The AuthZenService API from Auth0 — 6 operation(s) for authzenservice.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The AuthZenService API from Auth0 — 6 operation(s) for authzenservice.
   name: Auth0 AuthZenService API
   slug: auth0-authzenservice-api
-- description: The branding API from Auth0 — 12 operation(s) for branding.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The branding API from Auth0 — 12 operation(s) for branding.
   name: Auth0 branding API
   slug: auth0-branding-api
-- description: The client-grants API from Auth0 — 3 operation(s) for client-grants.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The client-grants API from Auth0 — 3 operation(s) for client-grants.
   name: Auth0 client-grants API
   slug: auth0-client-grants-api
-- description: The clients API from Auth0 — 8 operation(s) for clients.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The clients API from Auth0 — 8 operation(s) for clients.
   name: Auth0 clients API
   slug: auth0-clients-api
-- description: The connection-profiles API from Auth0 — 4 operation(s) for connection-profiles.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The connection-profiles API from Auth0 — 4 operation(s) for connection-profiles.
   name: Auth0 connection-profiles API
   slug: auth0-connection-profiles-api
-- description: The connections API from Auth0 — 15 operation(s) for connections.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The connections API from Auth0 — 15 operation(s) for connections.
   name: Auth0 connections API
   slug: auth0-connections-api
-- description: The connections-directory-provisionings API from Auth0 — 1 operation(s) for connections-directory-provisionings.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The connections-directory-provisionings API from Auth0 — 1 operation(s) for connections-directory-provisionings.
   name: Auth0 connections-directory-provisionings API
   slug: auth0-connections-directory-provisionings-api
-- description: The connections-scim-configurations API from Auth0 — 1 operation(s) for connections-scim-configurations.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The connections-scim-configurations API from Auth0 — 1 operation(s) for connections-scim-configurations.
   name: Auth0 connections-scim-configurations API
   slug: auth0-connections-scim-configurations-api
-- description: The custom-domains API from Auth0 — 5 operation(s) for custom-domains.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The custom-domains API from Auth0 — 5 operation(s) for custom-domains.
   name: Auth0 custom-domains API
   slug: auth0-custom-domains-api
-- description: The DB Connections API from Auth0 — 1 operation(s) for db connections.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The DB Connections API from Auth0 — 1 operation(s) for db connections.
   name: Auth0 DB Connections API
   slug: auth0-db-connections-api
-- description: The DbConnections API from Auth0 — 1 operation(s) for dbconnections.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The DbConnections API from Auth0 — 1 operation(s) for dbconnections.
   name: Auth0 DbConnections API
   slug: auth0-dbconnections-api
-- description: The Deprecated > Authenticate API from Auth0 — 2 operation(s) for deprecated > authenticate.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Deprecated > Authenticate API from Auth0 — 2 operation(s) for deprecated > authenticate.
   name: Auth0 Deprecated > Authenticate API
   slug: auth0-deprecated-authenticate-api
-- description: The Deprecated > Delegated Authentication API from Auth0 — 1 operation(s) for deprecated > delegated authentication.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Deprecated > Delegated Authentication API from Auth0 — 1 operation(s) for deprecated > delegated authentication.
   name: Auth0 Deprecated > Delegated Authentication API
   slug: auth0-deprecated-delegated-authentication-api
-- description: The Deprecated > Impersonation API from Auth0 — 1 operation(s) for deprecated > impersonation.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Deprecated > Impersonation API from Auth0 — 1 operation(s) for deprecated > impersonation.
   name: Auth0 Deprecated > Impersonation API
   slug: auth0-deprecated-impersonation-api
-- description: The Deprecated > Link Accounts API from Auth0 — 1 operation(s) for deprecated > link accounts.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Deprecated > Link Accounts API from Auth0 — 1 operation(s) for deprecated > link accounts.
   name: Auth0 Deprecated > Link Accounts API
   slug: auth0-deprecated-link-accounts-api
-- description: The Deprecated > Passwordless API from Auth0 — 2 operation(s) for deprecated > passwordless.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Deprecated > Passwordless API from Auth0 — 2 operation(s) for deprecated > passwordless.
   name: Auth0 Deprecated > Passwordless API
   slug: auth0-deprecated-passwordless-api
-- description: The device-credentials API from Auth0 — 2 operation(s) for device-credentials.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The device-credentials API from Auth0 — 2 operation(s) for device-credentials.
   name: Auth0 device-credentials API
   slug: auth0-device-credentials-api
-- description: The Device Flow API from Auth0 — 1 operation(s) for device flow.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Device Flow API from Auth0 — 1 operation(s) for device flow.
   name: Auth0 Device Flow API
   slug: auth0-device-flow-api
-- description: The email-templates API from Auth0 — 2 operation(s) for email-templates.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The email-templates API from Auth0 — 2 operation(s) for email-templates.
   name: Auth0 email-templates API
   slug: auth0-email-templates-api
-- description: The emails API from Auth0 — 1 operation(s) for emails.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The emails API from Auth0 — 1 operation(s) for emails.
   name: Auth0 emails API
   slug: auth0-emails-api
-- description: The event-streams API from Auth0 — 7 operation(s) for event-streams.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The event-streams API from Auth0 — 7 operation(s) for event-streams.
   name: Auth0 event-streams API
   slug: auth0-event-streams-api
-- description: The events API from Auth0 — 1 operation(s) for events.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The events API from Auth0 — 1 operation(s) for events.
   name: Auth0 events API
   slug: auth0-events-api
-- description: The flows API from Auth0 — 6 operation(s) for flows.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The flows API from Auth0 — 6 operation(s) for flows.
   name: Auth0 flows API
   slug: auth0-flows-api
-- description: The forms API from Auth0 — 2 operation(s) for forms.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The forms API from Auth0 — 2 operation(s) for forms.
   name: Auth0 forms API
   slug: auth0-forms-api
-- description: The grants API from Auth0 — 2 operation(s) for grants.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The grants API from Auth0 — 2 operation(s) for grants.
   name: Auth0 grants API
   slug: auth0-grants-api
-- description: The groups API from Auth0 — 3 operation(s) for groups.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The groups API from Auth0 — 3 operation(s) for groups.
   name: Auth0 groups API
   slug: auth0-groups-api
-- description: The guardian API from Auth0 — 18 operation(s) for guardian.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The guardian API from Auth0 — 18 operation(s) for guardian.
   name: Auth0 guardian API
   slug: auth0-guardian-api
-- description: The hooks API from Auth0 — 3 operation(s) for hooks.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The hooks API from Auth0 — 3 operation(s) for hooks.
   name: Auth0 hooks API
   slug: auth0-hooks-api
-- description: The jobs API from Auth0 — 5 operation(s) for jobs.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The jobs API from Auth0 — 5 operation(s) for jobs.
   name: Auth0 jobs API
   slug: auth0-jobs-api
-- description: The keys API from Auth0 — 9 operation(s) for keys.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The keys API from Auth0 — 9 operation(s) for keys.
   name: Auth0 keys API
   slug: auth0-keys-api
-- description: The log-streams API from Auth0 — 2 operation(s) for log-streams.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The log-streams API from Auth0 — 2 operation(s) for log-streams.
   name: Auth0 log-streams API
   slug: auth0-log-streams-api
-- description: The Logout API from Auth0 — 3 operation(s) for logout.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Logout API from Auth0 — 3 operation(s) for logout.
   name: Auth0 Logout API
   slug: auth0-logout-api
-- description: The logs API from Auth0 — 2 operation(s) for logs.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The logs API from Auth0 — 2 operation(s) for logs.
   name: Auth0 logs API
   slug: auth0-logs-api
-- description: The MFA API from Auth0 — 4 operation(s) for mfa.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The MFA API from Auth0 — 4 operation(s) for mfa.
   name: Auth0 MFA API
   slug: auth0-mfa-api
-- description: The network-acls API from Auth0 — 2 operation(s) for network-acls.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The network-acls API from Auth0 — 2 operation(s) for network-acls.
   name: Auth0 network-acls API
   slug: auth0-network-acls-api
-- description: The OAuth Token API from Auth0 — 1 operation(s) for oauth token.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The OAuth Token API from Auth0 — 1 operation(s) for oauth token.
   name: Auth0 OAuth Token API
   slug: auth0-oauth-token-api
-- description: The OIDC API from Auth0 — 1 operation(s) for oidc.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The OIDC API from Auth0 — 1 operation(s) for oidc.
   name: Auth0 OIDC API
   slug: auth0-oidc-api
-- description: The organizations API from Auth0 — 16 operation(s) for organizations.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The organizations API from Auth0 — 16 operation(s) for organizations.
   name: Auth0 organizations API
   slug: auth0-organizations-api
-- description: The Passwordless API from Auth0 — 1 operation(s) for passwordless.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Passwordless API from Auth0 — 1 operation(s) for passwordless.
   name: Auth0 Passwordless API
   slug: auth0-passwordless-api
-- description: The prompts API from Auth0 — 5 operation(s) for prompts.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The prompts API from Auth0 — 5 operation(s) for prompts.
   name: Auth0 prompts API
   slug: auth0-prompts-api
-- description: The refresh-tokens API from Auth0 — 3 operation(s) for refresh-tokens.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The refresh-tokens API from Auth0 — 3 operation(s) for refresh-tokens.
   name: Auth0 refresh-tokens API
   slug: auth0-refresh-tokens-api
-- description: The Relationship Queries API from Auth0 — 6 operation(s) for relationship queries.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Relationship Queries API from Auth0 — 6 operation(s) for relationship queries.
   name: Auth0 Relationship Queries API
   slug: auth0-relationship-queries-api
-- description: The Relationship Tuples API from Auth0 — 3 operation(s) for relationship tuples.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Relationship Tuples API from Auth0 — 3 operation(s) for relationship tuples.
   name: Auth0 Relationship Tuples API
   slug: auth0-relationship-tuples-api
-- description: The resource-servers API from Auth0 — 2 operation(s) for resource-servers.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The resource-servers API from Auth0 — 2 operation(s) for resource-servers.
   name: Auth0 resource-servers API
   slug: auth0-resource-servers-api
-- description: The Revoke Refresh Token API from Auth0 — 1 operation(s) for revoke refresh token.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Revoke Refresh Token API from Auth0 — 1 operation(s) for revoke refresh token.
   name: Auth0 Revoke Refresh Token API
   slug: auth0-revoke-refresh-token-api
-- description: The risk-assessments API from Auth0 — 2 operation(s) for risk-assessments.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The risk-assessments API from Auth0 — 2 operation(s) for risk-assessments.
   name: Auth0 risk-assessments API
   slug: auth0-risk-assessments-api
-- description: The roles API from Auth0 — 4 operation(s) for roles.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The roles API from Auth0 — 4 operation(s) for roles.
   name: Auth0 roles API
   slug: auth0-roles-api
-- description: The rules API from Auth0 — 2 operation(s) for rules.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The rules API from Auth0 — 2 operation(s) for rules.
   name: Auth0 rules API
   slug: auth0-rules-api
-- description: The rules-configs API from Auth0 — 2 operation(s) for rules-configs.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The rules-configs API from Auth0 — 2 operation(s) for rules-configs.
   name: Auth0 rules-configs API
   slug: auth0-rules-configs-api
-- description: The SAML API from Auth0 — 2 operation(s) for saml.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The SAML API from Auth0 — 2 operation(s) for saml.
   name: Auth0 SAML API
   slug: auth0-saml-api
-- description: The self-service-profiles API from Auth0 — 5 operation(s) for self-service-profiles.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The self-service-profiles API from Auth0 — 5 operation(s) for self-service-profiles.
   name: Auth0 self-service-profiles API
   slug: auth0-self-service-profiles-api
-- description: The sessions API from Auth0 — 2 operation(s) for sessions.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The sessions API from Auth0 — 2 operation(s) for sessions.
   name: Auth0 sessions API
   slug: auth0-sessions-api
-- description: The SSO API from Auth0 — 1 operation(s) for sso.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The SSO API from Auth0 — 1 operation(s) for sso.
   name: Auth0 SSO API
   slug: auth0-sso-api
-- description: The stats API from Auth0 — 2 operation(s) for stats.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The stats API from Auth0 — 2 operation(s) for stats.
   name: Auth0 stats API
   slug: auth0-stats-api
-- description: The Stores API from Auth0 — 2 operation(s) for stores.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The Stores API from Auth0 — 2 operation(s) for stores.
   name: Auth0 Stores API
   slug: auth0-stores-api
-- description: The supplemental-signals API from Auth0 — 1 operation(s) for supplemental-signals.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The supplemental-signals API from Auth0 — 1 operation(s) for supplemental-signals.
   name: Auth0 supplemental-signals API
   slug: auth0-supplemental-signals-api
-- description: The tenants API from Auth0 — 1 operation(s) for tenants.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The tenants API from Auth0 — 1 operation(s) for tenants.
   name: Auth0 tenants API
   slug: auth0-tenants-api
-- description: The tickets API from Auth0 — 2 operation(s) for tickets.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The tickets API from Auth0 — 2 operation(s) for tickets.
   name: Auth0 tickets API
   slug: auth0-tickets-api
-- description: The token-exchange-profiles API from Auth0 — 2 operation(s) for token-exchange-profiles.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The token-exchange-profiles API from Auth0 — 2 operation(s) for token-exchange-profiles.
   name: Auth0 token-exchange-profiles API
   slug: auth0-token-exchange-profiles-api
-- description: The user-attribute-profiles API from Auth0 — 4 operation(s) for user-attribute-profiles.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The user-attribute-profiles API from Auth0 — 4 operation(s) for user-attribute-profiles.
   name: Auth0 user-attribute-profiles API
   slug: auth0-user-attribute-profiles-api
-- description: The user-blocks API from Auth0 — 2 operation(s) for user-blocks.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The user-blocks API from Auth0 — 2 operation(s) for user-blocks.
   name: Auth0 user-blocks API
   slug: auth0-user-blocks-api
-- description: The User Profile API from Auth0 — 1 operation(s) for user profile.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The User Profile API from Auth0 — 1 operation(s) for user profile.
   name: Auth0 User Profile API
   slug: auth0-user-profile-api
-- description: The users API from Auth0 — 23 operation(s) for users.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The users API from Auth0 — 23 operation(s) for users.
   name: Auth0 users API
   slug: auth0-users-api
-- description: The users-by-email API from Auth0 — 1 operation(s) for users-by-email.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The users-by-email API from Auth0 — 1 operation(s) for users-by-email.
   name: Auth0 users-by-email API
   slug: auth0-users-by-email-api
-- description: The verifiable-credentials API from Auth0 — 2 operation(s) for verifiable-credentials.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The verifiable-credentials API from Auth0 — 2 operation(s) for verifiable-credentials.
   name: Auth0 verifiable-credentials API
   slug: auth0-verifiable-credentials-api
-- description: The WS-Fed API from Auth0 — 1 operation(s) for ws-fed.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The WS-Fed API from Auth0 — 1 operation(s) for ws-fed.
   name: Auth0 WS-Fed API
   slug: auth0-ws-fed-api
-- description: The WS-Federation API from Auth0 — 1 operation(s) for ws-federation.
+- baseURL: https://your-tenant.auth0.com/api/v2
+  baseurl_source: declared
+  description: The WS-Federation API from Auth0 — 1 operation(s) for ws-federation.
   name: Auth0 WS-Federation API
   slug: auth0-ws-federation-api
 arazzos:
@@ -8653,7 +8799,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -8666,7 +8812,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 56.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -8675,7 +8821,7 @@ score:
       marker_coverage: 0.0
       total: 73
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:

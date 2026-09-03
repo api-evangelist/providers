@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 14 operations · 11 acting
 api_count: 2
 apis:
-- description: Create and send marketing campaigns.
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Create and send marketing campaigns.
   name: Plunk Campaigns API
   slug: plunk-campaigns-api
-- description: Manage contacts and their subscription state.
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Manage contacts and their subscription state.
   name: Plunk Contacts API
   slug: plunk-contacts-api
-- description: Track contact events that drive automations.
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Track contact events that drive automations.
   name: Plunk Events API
   slug: plunk-events-api
-- description: Send transactional email.
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Send transactional email.
   name: Plunk Transactional API
   slug: plunk-transactional-api
-- description: Public API endpoints for sending emails and tracking events
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Public API endpoints for sending emails and tracking events
   name: Plunk Public API
   slug: plunk-public-api-api
-- description: Audience segmentation
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Audience segmentation
   name: Plunk Segments API
   slug: plunk-segments-api
-- description: Email template management
+- baseURL: https://api.useplunk.com/v1
+  baseurl_source: declared
+  description: Email template management
   name: Plunk Templates API
   slug: plunk-templates-api
 artifact_total: 20
@@ -264,23 +278,23 @@ rate_limits:
   slug: plunk-rate-limits
 score:
   band: exemplar
-  composite: 68.8
+  composite: 68.9
   coverage:
     artifact_dirs: 22
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 69.2
+    contract_quality: 69.5
     developer_ergonomics: 68.5
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 69.0
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,7 +306,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
 security:

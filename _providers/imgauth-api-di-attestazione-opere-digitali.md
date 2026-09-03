@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,52 +36,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
   name: imgauth Remote MCP Server
   slug: imgauth-remote-mcp-server
-- description: The Agent API from imgauth — API di attestazione opere digitali — 4 operation(s) for agent.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Agent API from imgauth — API di attestazione opere digitali — 4 operation(s) for agent.
   name: imgauth — API di attestazione opere digitali Agent API
   slug: imgauth-api-di-attestazione-opere-digitali-agent-api
-- description: The Badge API from imgauth — API di attestazione opere digitali — 2 operation(s) for badge.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Badge API from imgauth — API di attestazione opere digitali — 2 operation(s) for badge.
   name: imgauth — API di attestazione opere digitali Badge API
   slug: imgauth-api-di-attestazione-opere-digitali-badge-api
-- description: The C API from imgauth — API di attestazione opere digitali — 1 operation(s) for c.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The C API from imgauth — API di attestazione opere digitali — 1 operation(s) for c.
   name: imgauth — API di attestazione opere digitali C API
   slug: imgauth-api-di-attestazione-opere-digitali-c-api
-- description: The Cert API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Cert API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert.
   name: imgauth — API di attestazione opere digitali Cert API
   slug: imgauth-api-di-attestazione-opere-digitali-cert-api
-- description: The Cert Pdf API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert pdf.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Cert Pdf API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert pdf.
   name: imgauth — API di attestazione opere digitali Cert Pdf API
   slug: imgauth-api-di-attestazione-opere-digitali-cert-pdf-api
-- description: The Hash API from imgauth — API di attestazione opere digitali — 1 operation(s) for hash.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Hash API from imgauth — API di attestazione opere digitali — 1 operation(s) for hash.
   name: imgauth — API di attestazione opere digitali Hash API
   slug: imgauth-api-di-attestazione-opere-digitali-hash-api
-- description: The Health Log API from imgauth — API di attestazione opere digitali — 1 operation(s) for health log.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Health Log API from imgauth — API di attestazione opere digitali — 1 operation(s) for health log.
   name: imgauth — API di attestazione opere digitali Health Log API
   slug: imgauth-api-di-attestazione-opere-digitali-health-log-api
-- description: The Integrations API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrations.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Integrations API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrations.
   name: imgauth — API di attestazione opere digitali Integrations API
   slug: imgauth-api-di-attestazione-opere-digitali-integrations-api
-- description: The Integrazioni API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrazioni.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Integrazioni API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrazioni.
   name: imgauth — API di attestazione opere digitali Integrazioni API
   slug: imgauth-api-di-attestazione-opere-digitali-integrazioni-api
-- description: The Ots API from imgauth — API di attestazione opere digitali — 1 operation(s) for ots.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Ots API from imgauth — API di attestazione opere digitali — 1 operation(s) for ots.
   name: imgauth — API di attestazione opere digitali Ots API
   slug: imgauth-api-di-attestazione-opere-digitali-ots-api
-- description: The Ping API from imgauth — API di attestazione opere digitali — 1 operation(s) for ping.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Ping API from imgauth — API di attestazione opere digitali — 1 operation(s) for ping.
   name: imgauth — API di attestazione opere digitali Ping API
   slug: imgauth-api-di-attestazione-opere-digitali-ping-api
-- description: The Status API from imgauth — API di attestazione opere digitali — 1 operation(s) for status.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Status API from imgauth — API di attestazione opere digitali — 1 operation(s) for status.
   name: imgauth — API di attestazione opere digitali Status API
   slug: imgauth-api-di-attestazione-opere-digitali-status-api
-- description: The Status History API from imgauth — API di attestazione opere digitali — 1 operation(s) for status history.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Status History API from imgauth — API di attestazione opere digitali — 1 operation(s) for status history.
   name: imgauth — API di attestazione opere digitali Status History API
   slug: imgauth-api-di-attestazione-opere-digitali-status-history-api
-- description: The Verify API from imgauth — API di attestazione opere digitali — 1 operation(s) for verify.
+- baseURL: https://imgauth.spaziogenesi.org
+  baseurl_source: declared
+  description: The Verify API from imgauth — API di attestazione opere digitali — 1 operation(s) for verify.
   name: imgauth — API di attestazione opere digitali Verify API
   slug: imgauth-api-di-attestazione-opere-digitali-verify-api
 artifact_total: 24
@@ -283,7 +324,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:

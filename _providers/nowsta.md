@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: Bulk publication of clients referenced by events.
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of clients referenced by events.
   name: Nowsta Clients API
   slug: nowsta-clients-api
-- description: Bulk publication of events and their nested shifts.
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of events and their nested shifts.
   name: Nowsta Events API
   slug: nowsta-events-api
-- description: Bulk publication of positions referenced by shifts.
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of positions referenced by shifts.
   name: Nowsta Positions API
   slug: nowsta-positions-api
-- description: Bulk publication of uniforms referenced by events.
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of uniforms referenced by events.
   name: Nowsta Uniforms API
   slug: nowsta-uniforms-api
-- description: Bulk publication of venues referenced by events.
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of venues referenced by events.
   name: Nowsta Venues API
   slug: nowsta-venues-api
-- description: Bulk publication of company users (workers).
+- baseURL: https://api.nowsta.com
+  baseurl_source: declared
+  description: Bulk publication of company users (workers).
   name: Nowsta Workers API
   slug: nowsta-workers-api
 artifact_total: 11
@@ -217,7 +241,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:

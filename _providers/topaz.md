@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 8 acting
 api_count: 1
 apis:
-- description: Policy-driven decisions - is, decisiontree, and query - evaluated by the OPA engine.
+- baseURL: https://localhost:8383
+  baseurl_source: declared
+  description: Policy-driven decisions - is, decisiontree, and query - evaluated by the OPA engine.
   name: Topaz Authorizer API
   slug: topaz-authorizer-api
-- description: Graph-based check and graph-expansion queries over the directory.
+- baseURL: https://localhost:8383
+  baseurl_source: declared
+  description: Graph-based check and graph-expansion queries over the directory.
   name: Topaz Directory Checks API
   slug: topaz-directory-checks-api
-- description: Objects in the Zanzibar-style directory - users, groups, resources, and other entities.
+- baseURL: https://localhost:8383
+  baseurl_source: declared
+  description: Objects in the Zanzibar-style directory - users, groups, resources, and other entities.
   name: Topaz Directory Objects API
   slug: topaz-directory-objects-api
-- description: Relations (tuples) connecting subjects to objects in the directory graph.
+- baseURL: https://localhost:8383
+  baseurl_source: declared
+  description: Relations (tuples) connecting subjects to objects in the directory graph.
   name: Topaz Directory Relations API
   slug: topaz-directory-relations-api
-- description: OPA policy modules loaded into the authorizer.
+- baseURL: https://localhost:8383
+  baseurl_source: declared
+  description: OPA policy modules loaded into the authorizer.
   name: Topaz Policies API
   slug: topaz-policies-api
 artifact_total: 16
@@ -171,7 +181,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_gap: 60.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +213,9 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/topaz/refs/heads/main/screenshots/topaz-2026-09-02T163918.png
 slug: topaz
 tags:
 - Access Control

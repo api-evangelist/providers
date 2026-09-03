@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -56,40 +56,64 @@ apis:
 - description: 'Official TypeScript client SDK for the Safe Transaction Service API. Wraps all Transaction Service endpoints with typed methods for proposing transactions, confirming signatures, fetching pending and '
   name: Safe API Kit (TypeScript SDK)
   slug: api-kit
-- description: The 4337 API from Safe (Gnosis Safe) — 5 operation(s) for 4337.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The 4337 API from Safe (Gnosis Safe) — 5 operation(s) for 4337.
   name: Safe (Gnosis Safe) 4337 API
   slug: gnosis-safe-4337-api
-- description: The about API from Safe (Gnosis Safe) — 6 operation(s) for about.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The about API from Safe (Gnosis Safe) — 6 operation(s) for about.
   name: Safe (Gnosis Safe) about API
   slug: gnosis-safe-about-api
-- description: The analytics API from Safe (Gnosis Safe) — 1 operation(s) for analytics.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The analytics API from Safe (Gnosis Safe) — 1 operation(s) for analytics.
   name: Safe (Gnosis Safe) analytics API
   slug: gnosis-safe-analytics-api
-- description: The contracts API from Safe (Gnosis Safe) — 2 operation(s) for contracts.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The contracts API from Safe (Gnosis Safe) — 2 operation(s) for contracts.
   name: Safe (Gnosis Safe) contracts API
   slug: gnosis-safe-contracts-api
-- description: The data-decoder API from Safe (Gnosis Safe) — 1 operation(s) for data-decoder.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The data-decoder API from Safe (Gnosis Safe) — 1 operation(s) for data-decoder.
   name: Safe (Gnosis Safe) data-decoder API
   slug: gnosis-safe-data-decoder-api
-- description: The delegates API from Safe (Gnosis Safe) — 5 operation(s) for delegates.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The delegates API from Safe (Gnosis Safe) — 5 operation(s) for delegates.
   name: Safe (Gnosis Safe) delegates API
   slug: gnosis-safe-delegates-api
-- description: The messages API from Safe (Gnosis Safe) — 3 operation(s) for messages.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The messages API from Safe (Gnosis Safe) — 3 operation(s) for messages.
   name: Safe (Gnosis Safe) messages API
   slug: gnosis-safe-messages-api
-- description: The modules API from Safe (Gnosis Safe) — 2 operation(s) for modules.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The modules API from Safe (Gnosis Safe) — 2 operation(s) for modules.
   name: Safe (Gnosis Safe) modules API
   slug: gnosis-safe-modules-api
-- description: The owners API from Safe (Gnosis Safe) — 2 operation(s) for owners.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The owners API from Safe (Gnosis Safe) — 2 operation(s) for owners.
   name: Safe (Gnosis Safe) owners API
   slug: gnosis-safe-owners-api
-- description: The safes API from Safe (Gnosis Safe) — 6 operation(s) for safes.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The safes API from Safe (Gnosis Safe) — 6 operation(s) for safes.
   name: Safe (Gnosis Safe) safes API
   slug: gnosis-safe-safes-api
-- description: The tokens API from Safe (Gnosis Safe) — 3 operation(s) for tokens.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The tokens API from Safe (Gnosis Safe) — 3 operation(s) for tokens.
   name: Safe (Gnosis Safe) tokens API
   slug: gnosis-safe-tokens-api
-- description: The transactions API from Safe (Gnosis Safe) — 13 operation(s) for transactions.
+- baseURL: https://api.safe.global/tx-service/eth/api/v1
+  baseurl_source: declared
+  description: The transactions API from Safe (Gnosis Safe) — 13 operation(s) for transactions.
   name: Safe (Gnosis Safe) transactions API
   slug: gnosis-safe-transactions-api
 artifact_total: 163
@@ -667,7 +691,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/screenshots/gnosis-safe-2026-06-20T181937.png
 security:

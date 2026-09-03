@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 5 acting
 api_count: 1
 apis:
-- description: Anthropic-compatible endpoints. Use with the Anthropic SDK by setting base_url=https://api.pioneer.ai.
+- baseURL: https://api.pioneer.ai
+  baseurl_source: declared
+  description: Anthropic-compatible endpoints. Use with the Anthropic SDK by setting base_url=https://api.pioneer.ai.
   name: Fastino Labs anthropic-compat API
   slug: fastino-labs-anthropic-compat-api
-- description: Pioneer-native inference endpoint (encoder NER/classification/extraction and decoder text generation).
+- baseURL: https://api.pioneer.ai
+  baseurl_source: declared
+  description: Pioneer-native inference endpoint (encoder NER/classification/extraction and decoder text generation).
   name: Fastino Labs inference API
   slug: fastino-labs-inference-api
-- description: List and retrieve past inference records.
+- baseURL: https://api.pioneer.ai
+  baseurl_source: declared
+  description: List and retrieve past inference records.
   name: Fastino Labs inference-history API
   slug: fastino-labs-inference-history-api
-- description: OpenAI-compatible endpoints. Use with the OpenAI SDK by setting base_url=https://api.pioneer.ai/v1.
+- baseURL: https://api.pioneer.ai
+  baseurl_source: declared
+  description: OpenAI-compatible endpoints. Use with the OpenAI SDK by setting base_url=https://api.pioneer.ai/v1.
   name: Fastino Labs openai-compat API
   slug: fastino-labs-openai-compat-api
 artifact_total: 16
@@ -262,7 +270,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/screenshots/fastino-labs-2026-07-25T214244.png
 security:

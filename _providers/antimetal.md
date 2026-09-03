@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 54.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -40,13 +52,19 @@ apis:
 - description: Public protobuf/Connect definitions for the Antimetal system agent — the component that connects customer infrastructure to the Antimetal platform. Covers agent config and instance, hardware and Linux
   name: Antimetal Agent APIs (Protobuf)
   slug: antimetal-agent-apis
-- description: The Artifacts API from Antimetal — 1 operation(s) for artifacts.
+- baseURL: https://bff.antimetal.com/api/v2
+  baseurl_source: declared
+  description: The Artifacts API from Antimetal — 1 operation(s) for artifacts.
   name: Antimetal Artifacts API
   slug: antimetal-artifacts-api
-- description: The Issues API from Antimetal — 4 operation(s) for issues.
+- baseURL: https://bff.antimetal.com/api/v2
+  baseurl_source: declared
+  description: The Issues API from Antimetal — 4 operation(s) for issues.
   name: Antimetal Issues API
   slug: antimetal-issues-api
-- description: The Query API from Antimetal — 1 operation(s) for query.
+- baseURL: https://bff.antimetal.com/api/v2
+  baseurl_source: declared
+  description: The Query API from Antimetal — 1 operation(s) for query.
   name: Antimetal Query API
   slug: antimetal-query-api
 artifact_total: 16
@@ -261,7 +279,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antimetal/refs/heads/main/screenshots/antimetal-2026-08-07T161424.png
 security:

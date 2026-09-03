@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Manage and track orders.
+- baseURL: https://developer.pg.com
+  baseurl_source: declared
+  description: Manage and track orders.
   name: Procter & Gamble Orders API
   slug: procter-and-gamble-orders-api
-- description: Access P&G product catalog and data.
+- baseURL: https://developer.pg.com
+  baseurl_source: declared
+  description: Access P&G product catalog and data.
   name: Procter & Gamble Products API
   slug: procter-and-gamble-products-api
-- description: Integration with P&G supply chain operations.
+- baseURL: https://developer.pg.com
+  baseurl_source: declared
+  description: Integration with P&G supply chain operations.
   name: Procter & Gamble Supply Chain API
   slug: procter-and-gamble-supply-chain-api
 artifact_total: 15
@@ -163,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png
 security:

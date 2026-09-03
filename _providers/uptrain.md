@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: The Auth API from UpTrain — 1 operation(s) for auth.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Auth API from UpTrain — 1 operation(s) for auth.
   name: UpTrain Auth API
   slug: uptrain-auth-api
-- description: The Checksets API from UpTrain — 1 operation(s) for checksets.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Checksets API from UpTrain — 1 operation(s) for checksets.
   name: UpTrain Checksets API
   slug: uptrain-checksets-api
-- description: The Datasets API from UpTrain — 1 operation(s) for datasets.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Datasets API from UpTrain — 1 operation(s) for datasets.
   name: UpTrain Datasets API
   slug: uptrain-datasets-api
-- description: The Evaluation API from UpTrain — 3 operation(s) for evaluation.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Evaluation API from UpTrain — 3 operation(s) for evaluation.
   name: UpTrain Evaluation API
   slug: uptrain-evaluation-api
-- description: The Root Cause Analysis API from UpTrain — 1 operation(s) for root cause analysis.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Root Cause Analysis API from UpTrain — 1 operation(s) for root cause analysis.
   name: UpTrain Root Cause Analysis API
   slug: uptrain-root-cause-analysis-api
-- description: The Runs API from UpTrain — 3 operation(s) for runs.
+- baseURL: https://demo.uptrain.ai/api/public
+  baseurl_source: declared
+  description: The Runs API from UpTrain — 3 operation(s) for runs.
   name: UpTrain Runs API
   slug: uptrain-runs-api
 artifact_total: 20
@@ -181,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/screenshots/uptrain-2026-06-20T200550.png
 security:

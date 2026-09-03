@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The SST framework is an open source CLI and component library distributed via npm (`sst`) and as a Go-based CLI. Developers describe their full-stack application in a single `sst.config.ts` file using
@@ -155,7 +155,7 @@ score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -174,8 +174,9 @@ score:
     score: 0.0
   previous_composite: 22.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sst-dev/refs/heads/main/screenshots/sst-dev-2026-09-02T160650.png
 security:
 - kind: domain-security
   name: Sst Dev Domain Security

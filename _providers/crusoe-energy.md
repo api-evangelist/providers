@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -46,145 +46,239 @@ apis:
 - description: The Crusoe Cloud API is the primary control plane for provisioning and managing GPU compute, storage, networking, Kubernetes clusters, identity, and billing on Crusoe's vertically integrated AI cloud.
   name: Crusoe Cloud API
   slug: cloud-api
-- description: The Audit Logs API from Crusoe — 1 operation(s) for audit logs.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Audit Logs API from Crusoe — 1 operation(s) for audit logs.
   name: Crusoe Audit Logs API
   slug: crusoe-energy-audit-logs-api
-- description: The AutoCluster Operations API from Crusoe — 1 operation(s) for autocluster operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The AutoCluster Operations API from Crusoe — 1 operation(s) for autocluster operations.
   name: Crusoe AutoCluster Operations API
   slug: crusoe-energy-autocluster-operations-api
-- description: The AutoClusters API from Crusoe — 2 operation(s) for autoclusters.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The AutoClusters API from Crusoe — 2 operation(s) for autoclusters.
   name: Crusoe AutoClusters API
   slug: crusoe-energy-autoclusters-api
-- description: The Billing API from Crusoe — 3 operation(s) for billing.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Billing API from Crusoe — 3 operation(s) for billing.
   name: Crusoe Billing API
   slug: crusoe-energy-billing-api
-- description: The Capacities API from Crusoe — 1 operation(s) for capacities.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Capacities API from Crusoe — 1 operation(s) for capacities.
   name: Crusoe Capacities API
   slug: crusoe-energy-capacities-api
-- description: The Custom Image Operations API from Crusoe — 2 operation(s) for custom image operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Custom Image Operations API from Crusoe — 2 operation(s) for custom image operations.
   name: Crusoe Custom Image Operations API
   slug: crusoe-energy-custom-image-operations-api
-- description: The Custom Images API from Crusoe — 3 operation(s) for custom images.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Custom Images API from Crusoe — 3 operation(s) for custom images.
   name: Crusoe Custom Images API
   slug: crusoe-energy-custom-images-api
-- description: The Disk Operations API from Crusoe — 2 operation(s) for disk operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Disk Operations API from Crusoe — 2 operation(s) for disk operations.
   name: Crusoe Disk Operations API
   slug: crusoe-energy-disk-operations-api
-- description: The Disks API from Crusoe — 2 operation(s) for disks.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Disks API from Crusoe — 2 operation(s) for disks.
   name: Crusoe Disks API
   slug: crusoe-energy-disks-api
-- description: The Entities API from Crusoe — 1 operation(s) for entities.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Entities API from Crusoe — 1 operation(s) for entities.
   name: Crusoe Entities API
   slug: crusoe-energy-entities-api
-- description: The Feature Flags API from Crusoe — 1 operation(s) for feature flags.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Feature Flags API from Crusoe — 1 operation(s) for feature flags.
   name: Crusoe Feature Flags API
   slug: crusoe-energy-feature-flags-api
-- description: The IB Networks API from Crusoe — 2 operation(s) for ib networks.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The IB Networks API from Crusoe — 2 operation(s) for ib networks.
   name: Crusoe IB Networks API
   slug: crusoe-energy-ib-networks-api
-- description: The IB Partitions API from Crusoe — 2 operation(s) for ib partitions.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The IB Partitions API from Crusoe — 2 operation(s) for ib partitions.
   name: Crusoe IB Partitions API
   slug: crusoe-energy-ib-partitions-api
-- description: The Identities API from Crusoe — 1 operation(s) for identities.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Identities API from Crusoe — 1 operation(s) for identities.
   name: Crusoe Identities API
   slug: crusoe-energy-identities-api
-- description: The Images API from Crusoe — 2 operation(s) for images.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Images API from Crusoe — 2 operation(s) for images.
   name: Crusoe Images API
   slug: crusoe-energy-images-api
-- description: The InferenceAPIKey API from Crusoe — 1 operation(s) for inferenceapikey.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The InferenceAPIKey API from Crusoe — 1 operation(s) for inferenceapikey.
   name: Crusoe InferenceAPIKey API
   slug: crusoe-energy-inferenceapikey-api
-- description: The Instance Groups API from Crusoe — 2 operation(s) for instance groups.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Instance Groups API from Crusoe — 2 operation(s) for instance groups.
   name: Crusoe Instance Groups API
   slug: crusoe-energy-instance-groups-api
-- description: The Instance Templates API from Crusoe — 2 operation(s) for instance templates.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Instance Templates API from Crusoe — 2 operation(s) for instance templates.
   name: Crusoe Instance Templates API
   slug: crusoe-energy-instance-templates-api
-- description: The Internal Load Balancer Operations API from Crusoe — 2 operation(s) for internal load balancer operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Internal Load Balancer Operations API from Crusoe — 2 operation(s) for internal load balancer operations.
   name: Crusoe Internal Load Balancer Operations API
   slug: crusoe-energy-internal-load-balancer-operations-api
-- description: The Internal Load Balancers API from Crusoe — 2 operation(s) for internal load balancers.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Internal Load Balancers API from Crusoe — 2 operation(s) for internal load balancers.
   name: Crusoe Internal Load Balancers API
   slug: crusoe-energy-internal-load-balancers-api
-- description: The Kubernetes Cluster Operations API from Crusoe — 2 operation(s) for kubernetes cluster operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Kubernetes Cluster Operations API from Crusoe — 2 operation(s) for kubernetes cluster operations.
   name: Crusoe Kubernetes Cluster Operations API
   slug: crusoe-energy-kubernetes-cluster-operations-api
-- description: The Kubernetes Clusters API from Crusoe — 3 operation(s) for kubernetes clusters.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Kubernetes Clusters API from Crusoe — 3 operation(s) for kubernetes clusters.
   name: Crusoe Kubernetes Clusters API
   slug: crusoe-energy-kubernetes-clusters-api
-- description: The Kubernetes Node Pool Operations API from Crusoe — 2 operation(s) for kubernetes node pool operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Kubernetes Node Pool Operations API from Crusoe — 2 operation(s) for kubernetes node pool operations.
   name: Crusoe Kubernetes Node Pool Operations API
   slug: crusoe-energy-kubernetes-node-pool-operations-api
-- description: The Kubernetes Node Pools API from Crusoe — 4 operation(s) for kubernetes node pools.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Kubernetes Node Pools API from Crusoe — 4 operation(s) for kubernetes node pools.
   name: Crusoe Kubernetes Node Pools API
   slug: crusoe-energy-kubernetes-node-pools-api
-- description: The Kubernetes Versions API from Crusoe — 1 operation(s) for kubernetes versions.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Kubernetes Versions API from Crusoe — 1 operation(s) for kubernetes versions.
   name: Crusoe Kubernetes Versions API
   slug: crusoe-energy-kubernetes-versions-api
-- description: The Load Balancer Operations API from Crusoe — 2 operation(s) for load balancer operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Load Balancer Operations API from Crusoe — 2 operation(s) for load balancer operations.
   name: Crusoe Load Balancer Operations API
   slug: crusoe-energy-load-balancer-operations-api
-- description: The Load Balancers API from Crusoe — 2 operation(s) for load balancers.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Load Balancers API from Crusoe — 2 operation(s) for load balancers.
   name: Crusoe Load Balancers API
   slug: crusoe-energy-load-balancers-api
-- description: The Locations API from Crusoe — 1 operation(s) for locations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Locations API from Crusoe — 1 operation(s) for locations.
   name: Crusoe Locations API
   slug: crusoe-energy-locations-api
-- description: The Projects API from Crusoe — 2 operation(s) for projects.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Projects API from Crusoe — 2 operation(s) for projects.
   name: Crusoe Projects API
   slug: crusoe-energy-projects-api
-- description: The Quotas API from Crusoe — 2 operation(s) for quotas.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Quotas API from Crusoe — 2 operation(s) for quotas.
   name: Crusoe Quotas API
   slug: crusoe-energy-quotas-api
-- description: The Reservations API from Crusoe — 3 operation(s) for reservations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Reservations API from Crusoe — 3 operation(s) for reservations.
   name: Crusoe Reservations API
   slug: crusoe-energy-reservations-api
-- description: The Roles API from Crusoe — 3 operation(s) for roles.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Roles API from Crusoe — 3 operation(s) for roles.
   name: Crusoe Roles API
   slug: crusoe-energy-roles-api
-- description: The Slurm Clusters API from Crusoe — 2 operation(s) for slurm clusters.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Slurm Clusters API from Crusoe — 2 operation(s) for slurm clusters.
   name: Crusoe Slurm Clusters API
   slug: crusoe-energy-slurm-clusters-api
-- description: The Slurm Node Pools API from Crusoe — 2 operation(s) for slurm node pools.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Slurm Node Pools API from Crusoe — 2 operation(s) for slurm node pools.
   name: Crusoe Slurm Node Pools API
   slug: crusoe-energy-slurm-node-pools-api
-- description: The Snapshot Operations API from Crusoe — 2 operation(s) for snapshot operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Snapshot Operations API from Crusoe — 2 operation(s) for snapshot operations.
   name: Crusoe Snapshot Operations API
   slug: crusoe-energy-snapshot-operations-api
-- description: The Snapshots API from Crusoe — 2 operation(s) for snapshots.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Snapshots API from Crusoe — 2 operation(s) for snapshots.
   name: Crusoe Snapshots API
   slug: crusoe-energy-snapshots-api
-- description: The SSH Keys API from Crusoe — 1 operation(s) for ssh keys.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The SSH Keys API from Crusoe — 1 operation(s) for ssh keys.
   name: Crusoe SSH Keys API
   slug: crusoe-energy-ssh-keys-api
-- description: The Tokens API from Crusoe — 1 operation(s) for tokens.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Tokens API from Crusoe — 1 operation(s) for tokens.
   name: Crusoe Tokens API
   slug: crusoe-energy-tokens-api
-- description: The Usage API from Crusoe — 3 operation(s) for usage.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The Usage API from Crusoe — 3 operation(s) for usage.
   name: Crusoe Usage API
   slug: crusoe-energy-usage-api
-- description: The VM Operations API from Crusoe — 2 operation(s) for vm operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VM Operations API from Crusoe — 2 operation(s) for vm operations.
   name: Crusoe VM Operations API
   slug: crusoe-energy-vm-operations-api
-- description: The VMs API from Crusoe — 6 operation(s) for vms.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VMs API from Crusoe — 6 operation(s) for vms.
   name: Crusoe VMs API
   slug: crusoe-energy-vms-api
-- description: The VPC Firewall Rule Operations API from Crusoe — 2 operation(s) for vpc firewall rule operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Firewall Rule Operations API from Crusoe — 2 operation(s) for vpc firewall rule operations.
   name: Crusoe VPC Firewall Rule Operations API
   slug: crusoe-energy-vpc-firewall-rule-operations-api
-- description: The VPC Firewall Rules API from Crusoe — 2 operation(s) for vpc firewall rules.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Firewall Rules API from Crusoe — 2 operation(s) for vpc firewall rules.
   name: Crusoe VPC Firewall Rules API
   slug: crusoe-energy-vpc-firewall-rules-api
-- description: The VPC Network Operations API from Crusoe — 2 operation(s) for vpc network operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Network Operations API from Crusoe — 2 operation(s) for vpc network operations.
   name: Crusoe VPC Network Operations API
   slug: crusoe-energy-vpc-network-operations-api
-- description: The VPC Networks API from Crusoe — 2 operation(s) for vpc networks.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Networks API from Crusoe — 2 operation(s) for vpc networks.
   name: Crusoe VPC Networks API
   slug: crusoe-energy-vpc-networks-api
-- description: The VPC Subnet Operations API from Crusoe — 2 operation(s) for vpc subnet operations.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Subnet Operations API from Crusoe — 2 operation(s) for vpc subnet operations.
   name: Crusoe VPC Subnet Operations API
   slug: crusoe-energy-vpc-subnet-operations-api
-- description: The VPC Subnets API from Crusoe — 2 operation(s) for vpc subnets.
+- baseURL: https://api.crusoecloud.com/v1alpha5
+  baseurl_source: declared
+  description: The VPC Subnets API from Crusoe — 2 operation(s) for vpc subnets.
   name: Crusoe VPC Subnets API
   slug: crusoe-energy-vpc-subnets-api
 artifact_total: 103
@@ -467,7 +561,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe-energy/refs/heads/main/screenshots/crusoe-energy-2026-06-20T175307.png
 security:

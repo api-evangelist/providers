@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -33,49 +44,79 @@ agentic_access:
   summary_line: 51 operations · 27 acting
 api_count: 1
 apis:
-- description: This group of endpoints allows you to manage GL codes (accounting codes) for your business. GL codes are used to classify expenses for bookkeeping export. Businesses with a connected accounting integr
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to manage GL codes (accounting codes) for your business. GL codes are used to classify expenses for bookkeeping export. Businesses with a connected accounting integr
   name: Weel Accounting Codes API
   slug: weel-accounting-codes-api
-- description: This group of endpoints allows you to retrieve and manage budget member data, including listing budget members and fetching individual budget member details.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and manage budget member data, including listing budget members and fetching individual budget member details.
   name: Weel Budget Members API
   slug: weel-budget-members-api
-- description: This group of endpoints allows you to retrieve and manage budget owners. A budget owner is a user (or pending invite) who can approve spend, top up, and otherwise manage the budget. A budget must alwa
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and manage budget owners. A budget owner is a user (or pending invite) who can approve spend, top up, and otherwise manage the budget. A budget must alwa
   name: Weel Budget Owners API
   slug: weel-budget-owners-api
-- description: This group of endpoints allows you to retrieve and create budget topups. Topups are used to increase or decrease the available amount of a budget or budget member. Topups will be automatically approve
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and create budget topups. Topups are used to increase or decrease the available amount of a budget or budget member. Topups will be automatically approve
   name: Weel Budget Topups API
   slug: weel-budget-topups-api
-- description: This group of endpoints allows you to retrieve and manage budget data, including listing budgets and fetching individual budget details. Budgets are organised in a hierarchy where a budget can have mu
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and manage budget data, including listing budgets and fetching individual budget details. Budgets are organised in a hierarchy where a budget can have mu
   name: Weel Budgets API
   slug: weel-budgets-api
-- description: 'This group of endpoints allow you to manage expense categories for your business. Categories classify transactions. System-defined categories (`custom: false`) can only have their `enabled` state togg'
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: 'This group of endpoints allow you to manage expense categories for your business. Categories classify transactions. System-defined categories (`custom: false`) can only have their `enabled` state togg'
   name: Weel Categories API
   slug: weel-categories-api
-- description: This group of endpoints allows you to link custom fields to budgets, controlling which budgets have a custom field assigned.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to link custom fields to budgets, controlling which budgets have a custom field assigned.
   name: Weel Custom Field Budgets API
   slug: weel-custom-field-budgets-api
-- description: This group of endpoints allows you to manage the list options for a `LIST` type custom field. Options created via the Public API can be disabled or deleted.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to manage the list options for a `LIST` type custom field. Options created via the Public API can be disabled or deleted.
   name: Weel Custom Field Options API
   slug: weel-custom-field-options-api
-- description: 'This group of endpoints allows you to create and manage custom fields (dimensions/cost centres) for your business. Custom fields can be of type `LIST` (with predefined options) or `FREE_TEXT`. Custom '
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: 'This group of endpoints allows you to create and manage custom fields (dimensions/cost centres) for your business. Custom fields can be of type `LIST` (with predefined options) or `FREE_TEXT`. Custom '
   name: Weel Custom Fields API
   slug: weel-custom-fields-api
-- description: This group of endpoints allows you to create, list, and cancel pending user invitations. An invite exists until the recipient accepts it, at which point they appear as a user in the Users endpoints.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to create, list, and cancel pending user invitations. An invite exists until the recipient accepts it, at which point they appear as a user in the Users endpoints.
   name: Weel Invites API
   slug: weel-invites-api
-- description: This group of endpoints allows you to retrieve the roles available within a business and the permissions assigned to each role.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve the roles available within a business and the permissions assigned to each role.
   name: Weel Roles API
   slug: weel-roles-api
-- description: This group of endpoints allows you to retrieve a list of balances for the required period for a given business.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve a list of balances for the required period for a given business.
   name: Weel Statements API
   slug: weel-statements-api
-- description: This group of endpoints allows you to retrieve the tax rates configured for your business. Tax rates are read-only via the Public API. For businesses with a connected accounting integration (Xero, MYO
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve the tax rates configured for your business. Tax rates are read-only via the Public API. For businesses with a connected accounting integration (Xero, MYO
   name: Weel Tax Rates API
   slug: weel-tax-rates-api
-- description: This group of endpoints allows you to retrieve and manage transaction data, including listing transactions with various filters and fetching individual transaction details.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and manage transaction data, including listing transactions with various filters and fetching individual transaction details.
   name: Weel Transactions API
   slug: weel-transactions-api
-- description: This group of endpoints allows you to retrieve and manage user data, including listing users and fetching individual user details.
+- baseURL: https://public.letsweel.com
+  baseurl_source: declared
+  description: This group of endpoints allows you to retrieve and manage user data, including listing users and fetching individual user details.
   name: Weel Users API
   slug: weel-users-api
 artifact_total: 22
@@ -242,7 +283,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png
 security:

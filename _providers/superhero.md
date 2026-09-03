@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 8 operations
 api_count: 1
 apis:
-- description: Retrieve full or partial character data by numeric ID.
+- baseURL: https://superheroapi.com/api.php
+  baseurl_source: declared
+  description: Retrieve full or partial character data by numeric ID.
   name: Superhero API Characters API
   slug: superhero-characters-api
-- description: Search for characters by name.
+- baseURL: https://superheroapi.com/api.php
+  baseurl_source: declared
+  description: Search for characters by name.
   name: Superhero API Search API
   slug: superhero-search-api
 artifact_total: 16
@@ -204,7 +208,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/screenshots/superhero-2026-06-20T194712.png
 security:

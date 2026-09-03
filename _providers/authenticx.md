@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -34,58 +48,94 @@ agentic_access:
   summary_line: 46 operations · 18 acting
 api_count: 3
 apis:
-- description: The Agent API from Authenticx — 3 operation(s) for agent.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Agent API from Authenticx — 3 operation(s) for agent.
   name: Authenticx Agent API
   slug: authenticx-agent-api
-- description: The Conversations API from Authenticx — 4 operation(s) for conversations.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Conversations API from Authenticx — 4 operation(s) for conversations.
   name: Authenticx Conversations API
   slug: authenticx-conversations-api
-- description: The Evaluations API from Authenticx — 2 operation(s) for evaluations.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Evaluations API from Authenticx — 2 operation(s) for evaluations.
   name: Authenticx Evaluations API
   slug: authenticx-evaluations-api
-- description: The Hierarchy API from Authenticx — 3 operation(s) for hierarchy.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Hierarchy API from Authenticx — 3 operation(s) for hierarchy.
   name: Authenticx Hierarchy API
   slug: authenticx-hierarchy-api
-- description: The Interactions API from Authenticx — 2 operation(s) for interactions.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Interactions API from Authenticx — 2 operation(s) for interactions.
   name: Authenticx Interactions API
   slug: authenticx-interactions-api
-- description: The Media API from Authenticx — 1 operation(s) for media.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Media API from Authenticx — 1 operation(s) for media.
   name: Authenticx Media API
   slug: authenticx-media-api
-- description: The Metadata API from Authenticx — 2 operation(s) for metadata.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Metadata API from Authenticx — 2 operation(s) for metadata.
   name: Authenticx Metadata API
   slug: authenticx-metadata-api
-- description: The ModelResults API from Authenticx — 2 operation(s) for modelresults.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The ModelResults API from Authenticx — 2 operation(s) for modelresults.
   name: Authenticx Model Results API
   slug: authenticx-modelresults-api
-- description: The Receipts API from Authenticx — 1 operation(s) for receipts.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Receipts API from Authenticx — 1 operation(s) for receipts.
   name: Authenticx Receipts API
   slug: authenticx-receipts-api
-- description: The Roles API from Authenticx — 1 operation(s) for roles.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Roles API from Authenticx — 1 operation(s) for roles.
   name: Authenticx Roles API
   slug: authenticx-roles-api
-- description: The (Scim) ResourceTypes API from Authenticx — 2 operation(s) for (scim) resourcetypes.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The (Scim) ResourceTypes API from Authenticx — 2 operation(s) for (scim) resourcetypes.
   name: Authenticx (Scim) ResourceTypes API
   slug: authenticx-scim-resourcetypes-api
-- description: The (Scim) Schemas API from Authenticx — 2 operation(s) for (scim) schemas.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The (Scim) Schemas API from Authenticx — 2 operation(s) for (scim) schemas.
   name: Authenticx (Scim) Schemas API
   slug: authenticx-scim-schemas-api
-- description: The (Scim) ServiceProviderConfig API from Authenticx — 1 operation(s) for (scim) serviceproviderconfig.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The (Scim) ServiceProviderConfig API from Authenticx — 1 operation(s) for (scim) serviceproviderconfig.
   name: Authenticx (Scim) ServiceProviderConfig API
   slug: authenticx-scim-serviceproviderconfig-api
-- description: The (Scim) Users API from Authenticx — 2 operation(s) for (scim) users.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The (Scim) Users API from Authenticx — 2 operation(s) for (scim) users.
   name: Authenticx (Scim) Users API
   slug: authenticx-scim-users-api
-- description: The TextMedia API from Authenticx — 1 operation(s) for textmedia.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The TextMedia API from Authenticx — 1 operation(s) for textmedia.
   name: Authenticx Text Media API
   slug: authenticx-textmedia-api
-- description: The User API from Authenticx — 3 operation(s) for user.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The User API from Authenticx — 3 operation(s) for user.
   name: Authenticx User API
   slug: authenticx-user-api
-- description: The UserHierarchy API from Authenticx — 2 operation(s) for userhierarchy.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The UserHierarchy API from Authenticx — 2 operation(s) for userhierarchy.
   name: Authenticx User Hierarchy API
   slug: authenticx-userhierarchy-api
-- description: The Workflows API from Authenticx — 1 operation(s) for workflows.
+- baseURL: https://api.beauthenticx.com
+  baseurl_source: declared
+  description: The Workflows API from Authenticx — 1 operation(s) for workflows.
   name: Authenticx Workflows API
   slug: authenticx-workflows-api
 artifact_total: 46
@@ -325,7 +375,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -335,7 +385,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 52.2
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,7 +403,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:

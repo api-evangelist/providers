@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Batch processing
+- baseURL: https://api.gptzero.me/v2
+  baseurl_source: declared
+  description: Batch processing
   name: GPTZero Batch API
   slug: gptzero-batch-api
-- description: AI content detection
+- baseURL: https://api.gptzero.me/v2
+  baseurl_source: declared
+  description: AI content detection
   name: GPTZero Detection API
   slug: gptzero-detection-api
-- description: Document analysis
+- baseURL: https://api.gptzero.me/v2
+  baseurl_source: declared
+  description: Document analysis
   name: GPTZero Documents API
   slug: gptzero-documents-api
 artifact_total: 13
@@ -249,7 +255,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:

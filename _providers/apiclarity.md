@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 27 operations · 8 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Captured API traffic events.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: Captured API traffic events.
   name: APIClarity API Events API
   slug: apiclarity-api-events-api
-- description: Discovered APIs and their reconstructed specifications.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: Discovered APIs and their reconstructed specifications.
   name: APIClarity API Inventory API
   slug: apiclarity-api-inventory-api
-- description: Control-plane endpoints for trace sources and discovered APIs.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: Control-plane endpoints for trace sources and discovered APIs.
   name: APIClarity Control API
   slug: apiclarity-control-api
-- description: Enabled features in the deployment.
+- baseURL: http://localhost:8080/api
+  baseurl_source: spec
+  description: Enabled features in the deployment.
   name: APIClarity Features API
   slug: apiclarity-features-api
 artifact_total: 28
@@ -188,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiclarity/refs/heads/main/screenshots/apiclarity-2026-06-20T172238.png
 security:

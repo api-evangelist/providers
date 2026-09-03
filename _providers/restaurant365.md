@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 20 operations · 4 acting
 api_count: 2
 apis:
-- description: Create accounts payable invoices in the customer database
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Create accounts payable invoices in the customer database
   name: Restaurant365 AP Invoices API
   slug: restaurant365-ap-invoices-api
-- description: Deleted entity tracking
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Deleted entity tracking
   name: Restaurant365 Audit API
   slug: restaurant365-audit-api
-- description: Obtain a bearer token for subsequent requests
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Obtain a bearer token for subsequent requests
   name: Restaurant365 Authentication API
   slug: restaurant365-authentication-api
-- description: Create AP invoices by GL account and journal entries
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Create AP invoices by GL account and journal entries
   name: Restaurant365 General Ledger API
   slug: restaurant365-general-ledger-api
-- description: Employees, labor detail, payroll, and POS employees
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Employees, labor detail, payroll, and POS employees
   name: Restaurant365 Labor API
   slug: restaurant365-labor-api
-- description: OData service metadata
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: OData service metadata
   name: Restaurant365 Metadata API
   slug: restaurant365-metadata-api
-- description: Companies, locations, GL accounts, items, and job titles
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Companies, locations, GL accounts, items, and job titles
   name: Restaurant365 Reference Data API
   slug: restaurant365-reference-data-api
-- description: Sales ticket headers, detail, and payments
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Sales ticket headers, detail, and payments
   name: Restaurant365 Sales API
   slug: restaurant365-sales-api
-- description: Financial transactions and transaction detail
+- baseURL: https://yourcompany.restaurant365.com
+  baseurl_source: declared
+  description: Financial transactions and transaction detail
   name: Restaurant365 Transactions API
   slug: restaurant365-transactions-api
 artifact_total: 59
@@ -320,7 +338,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restaurant365/refs/heads/main/screenshots/restaurant365-2026-06-20T193014.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Invite or instantly screen applicants and list applications (HR and PM surfaces).
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Invite or instantly screen applicants and list applications (HR and PM surfaces).
   name: Certn Applications API
   slug: certn-applications-api
-- description: Individual check types requested and returned within an application.
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Individual check types requested and returned within an application.
   name: Certn Checks API
   slug: certn-checks-api
-- description: Predefined bundles of checks and application upgrades.
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Predefined bundles of checks and application upgrades.
   name: Certn Packages API
   slug: certn-packages-api
-- description: Consolidated applicant screening reports and results.
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Consolidated applicant screening reports and results.
   name: Certn Reports API
   slug: certn-reports-api
-- description: Organizational hierarchy - Superteams, Teams, Users, reference templates.
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Organizational hierarchy - Superteams, Teams, Users, reference templates.
   name: Certn Teams and Users API
   slug: certn-teams-and-users-api
-- description: Signed server-to-server callbacks for screening status updates.
+- baseURL: https://api.certn.co/api/v1
+  baseurl_source: declared
+  description: Signed server-to-server callbacks for screening status updates.
   name: Certn Webhooks API
   slug: certn-webhooks-api
 artifact_total: 21
@@ -189,7 +201,7 @@ score:
       marker_coverage: 33.3
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/screenshots/certn-2026-07-25T205011.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Benefits (entitlements) attached to products.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Benefits (entitlements) attached to products.
   name: Polar benefits API
   slug: polar-sh-benefits-api
-- description: Hosted checkout sessions and reusable checkout links.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Hosted checkout sessions and reusable checkout links.
   name: Polar checkouts API
   slug: polar-sh-checkouts-api
-- description: Customer-facing portal endpoints (Customer Session token).
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Customer-facing portal endpoints (Customer Session token).
   name: Polar customer_portal API
   slug: polar-sh-customer-portal-api
-- description: Customers, external IDs, and aggregated customer state.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Customers, external IDs, and aggregated customer state.
   name: Polar customers API
   slug: polar-sh-customers-api
-- description: Usage event ingestion for metered billing.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Usage event ingestion for metered billing.
   name: Polar events API
   slug: polar-sh-events-api
-- description: License key issuance, validation, and activation.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: License key issuance, validation, and activation.
   name: Polar license_keys API
   slug: polar-sh-license-keys-api
-- description: Usage meters aggregating ingested events.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Usage meters aggregating ingested events.
   name: Polar meters API
   slug: polar-sh-meters-api
-- description: Orders, invoices, and receipts.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Orders, invoices, and receipts.
   name: Polar orders API
   slug: polar-sh-orders-api
-- description: Product catalog and embedded pricing.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Product catalog and embedded pricing.
   name: Polar products API
   slug: polar-sh-products-api
-- description: Recurring subscriptions.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Recurring subscriptions.
   name: Polar subscriptions API
   slug: polar-sh-subscriptions-api
-- description: Webhook endpoint management and deliveries.
+- baseURL: https://api.polar.sh/v1
+  baseurl_source: declared
+  description: Webhook endpoint management and deliveries.
   name: Polar webhooks API
   slug: polar-sh-webhooks-api
 artifact_total: 30
@@ -192,7 +214,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +243,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/screenshots/polar-sh-2026-09-02T151641.png
 security:
 - kind: authentication
   name: Polar Sh Authentication

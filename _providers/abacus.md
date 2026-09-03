@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 3
 apis:
-- description: OAuth 2.0 authentication operations
+- baseURL: https://api.abacus.com
+  baseurl_source: declared
+  description: OAuth 2.0 authentication operations
   name: Abacus Authentication API
   slug: abacus-authentication-api
-- description: Expense report management and operations
+- baseURL: https://api.abacus.com
+  baseurl_source: declared
+  description: Expense report management and operations
   name: Abacus Expenses API
   slug: abacus-expenses-api
-- description: Member management operations for inviting and managing expense users
+- baseURL: https://api.abacus.com
+  baseurl_source: declared
+  description: Member management operations for inviting and managing expense users
   name: Abacus Members API
   slug: abacus-members-api
 artifact_total: 57
@@ -304,7 +310,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/screenshots/abacus-2026-06-20T163056.png
 security:

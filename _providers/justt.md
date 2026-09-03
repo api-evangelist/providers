@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -34,31 +48,49 @@ agentic_access:
   summary_line: 23 operations · 13 acting · 13 human-in-the-loop
 api_count: 2
 apis:
-- description: The Chargebacks API from Justt — 4 operation(s) for chargebacks.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Chargebacks API from Justt — 4 operation(s) for chargebacks.
   name: Justt Chargebacks API
   slug: justt-chargebacks-api
-- description: The Data Subjects API from Justt — 1 operation(s) for data subjects.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Data Subjects API from Justt — 1 operation(s) for data subjects.
   name: Justt Data Subjects API
   slug: justt-data-subjects-api
-- description: The Evidence API from Justt — 2 operation(s) for evidence.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Evidence API from Justt — 2 operation(s) for evidence.
   name: Justt Evidence API
   slug: justt-evidence-api
-- description: The Files API from Justt — 1 operation(s) for files.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Files API from Justt — 1 operation(s) for files.
   name: Justt Files API
   slug: justt-files-api
-- description: The Integrations API from Justt — 2 operation(s) for integrations.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Integrations API from Justt — 2 operation(s) for integrations.
   name: Justt Integrations API
   slug: justt-integrations-api
-- description: The Merchants API from Justt — 2 operation(s) for merchants.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Merchants API from Justt — 2 operation(s) for merchants.
   name: Justt Merchants API
   slug: justt-merchants-api
-- description: The Pre-chargeback Alerts API from Justt — 3 operation(s) for pre-chargeback alerts.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Pre-chargeback Alerts API from Justt — 3 operation(s) for pre-chargeback alerts.
   name: Justt Pre-chargeback Alerts API
   slug: justt-pre-chargeback-alerts-api
-- description: The Sandbox API from Justt — 1 operation(s) for sandbox.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Sandbox API from Justt — 1 operation(s) for sandbox.
   name: Justt Sandbox API
   slug: justt-sandbox-api
-- description: The Transactions API from Justt — 1 operation(s) for transactions.
+- baseURL: https://api.justt.ai/v1
+  baseurl_source: declared
+  description: The Transactions API from Justt — 1 operation(s) for transactions.
   name: Justt Transactions API
   slug: justt-transactions-api
 arazzos:
@@ -261,11 +293,11 @@ score:
   band: strong
   composite: 54.6
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -275,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 54.0
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,8 +325,9 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/justt/refs/heads/main/screenshots/justt-2026-09-02T150010.png
 security:
 - kind: authentication
   name: Justt Authentication

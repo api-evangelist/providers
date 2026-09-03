@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 19 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Cluster API from Debezium — 1 operation(s) for cluster.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Cluster API from Debezium — 1 operation(s) for cluster.
   name: Debezium Cluster API
   slug: debezium-cluster-api
-- description: The Connectors API from Debezium — 7 operation(s) for connectors.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Connectors API from Debezium — 7 operation(s) for connectors.
   name: Debezium Connectors API
   slug: debezium-connectors-api
-- description: The Offsets API from Debezium — 1 operation(s) for offsets.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Offsets API from Debezium — 1 operation(s) for offsets.
   name: Debezium Offsets API
   slug: debezium-offsets-api
-- description: The Plugins API from Debezium — 2 operation(s) for plugins.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Plugins API from Debezium — 2 operation(s) for plugins.
   name: Debezium Plugins API
   slug: debezium-plugins-api
-- description: The Tasks API from Debezium — 3 operation(s) for tasks.
+- baseURL: http://localhost:8083
+  baseurl_source: declared
+  description: The Tasks API from Debezium — 3 operation(s) for tasks.
   name: Debezium Tasks API
   slug: debezium-tasks-api
 artifact_total: 21
@@ -216,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:

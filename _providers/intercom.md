@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 1
 apis:
-- description: Workspace teammates and admin information.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Workspace teammates and admin information.
   name: Intercom Admins API
   slug: intercom-admins-api
-- description: Manage Help Center articles.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Manage Help Center articles.
   name: Intercom Articles API
   slug: intercom-articles-api
-- description: Manage company records associated with contacts.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Manage company records associated with contacts.
   name: Intercom Companies API
   slug: intercom-companies-api
-- description: Manage users and leads in your Intercom workspace.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Manage users and leads in your Intercom workspace.
   name: Intercom Contacts API
   slug: intercom-contacts-api
-- description: Manage conversations between contacts and admins.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Manage conversations between contacts and admins.
   name: Intercom Conversations API
   slug: intercom-conversations-api
-- description: Submit and retrieve user activity events.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Submit and retrieve user activity events.
   name: Intercom Data Events API
   slug: intercom-data-events-api
-- description: Send outbound messages from Intercom to contacts.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Send outbound messages from Intercom to contacts.
   name: Intercom Messages API
   slug: intercom-messages-api
-- description: Manage news items in the Help Desk.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Manage news items in the Help Desk.
   name: Intercom News API
   slug: intercom-news-api
-- description: Access user and company segments.
+- baseURL: https://api.intercom.io
+  baseurl_source: declared
+  description: Access user and company segments.
   name: Intercom Segments API
   slug: intercom-segments-api
 artifact_total: 57
@@ -278,7 +296,7 @@ score:
     catalog_gap: 69.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -288,7 +306,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 39.3
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercom/refs/heads/main/screenshots/intercom-2026-06-20T183440.png
 security:

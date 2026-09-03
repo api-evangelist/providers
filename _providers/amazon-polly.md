@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 2
 apis:
-- description: The Lexicons API from Amazon Polly — 2 operation(s) for lexicons.
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: The Lexicons API from Amazon Polly — 2 operation(s) for lexicons.
   name: Amazon Polly Lexicons API
   slug: amazon-polly-lexicons-api
-- description: The Speech API from Amazon Polly — 1 operation(s) for speech.
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: The Speech API from Amazon Polly — 1 operation(s) for speech.
   name: Amazon Polly Speech API
   slug: amazon-polly-speech-api
-- description: Operations for synthesizing speech from text
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: Operations for synthesizing speech from text
   name: Amazon Polly Speech Synthesis API
   slug: amazon-polly-speech-synthesis-api
-- description: The SynthesisTasks API from Amazon Polly — 2 operation(s) for synthesistasks.
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: The SynthesisTasks API from Amazon Polly — 2 operation(s) for synthesistasks.
   name: Amazon Polly SynthesisTasks API
   slug: amazon-polly-synthesistasks-api
-- description: The Voices API from Amazon Polly — 1 operation(s) for voices.
+- baseURL: https://polly.amazonaws.com
+  baseurl_source: declared
+  description: The Voices API from Amazon Polly — 1 operation(s) for voices.
   name: Amazon Polly Voices API
   slug: amazon-polly-voices-api
 arazzos:
@@ -829,7 +839,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:

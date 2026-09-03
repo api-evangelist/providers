@@ -35,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
+- baseURL: https://api.openapi-generator.tech
+  baseurl_source: declared
+  description: The clients API from OpenAPI Generator — 3 operation(s) for clients.
   name: OpenAPI Generator Clients API
   slug: openapi-generator-clients-api
-- description: The servers API from OpenAPI Generator — 3 operation(s) for servers.
+- baseURL: https://api.openapi-generator.tech
+  baseurl_source: declared
+  description: The servers API from OpenAPI Generator — 3 operation(s) for servers.
   name: OpenAPI Generator Servers API
   slug: openapi-generator-servers-api
 artifact_total: 11
@@ -241,7 +245,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-generator/refs/heads/main/screenshots/openapi-generator-2026-06-20T190908.png
 security:

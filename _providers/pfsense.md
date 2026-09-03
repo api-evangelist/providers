@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Community-maintained REST and GraphQL API package for pfSense CE and pfSense Plus exposing 200+ endpoints under /api/v2 for firewall, interface, service, user, and system management. Authentication su
   name: pfSense REST API (pfSense-pkg-RESTAPI)
   slug: rest-api-package
-- description: Obtain JWT bearer tokens.
+- baseURL: https://pfsense.local/api/v2
+  baseurl_source: declared
+  description: Obtain JWT bearer tokens.
   name: pfSense Authentication API
   slug: pfsense-authentication-api
-- description: Manage firewall aliases.
+- baseURL: https://pfsense.local/api/v2
+  baseurl_source: declared
+  description: Manage firewall aliases.
   name: pfSense Firewall Aliases API
   slug: pfsense-firewall-aliases-api
-- description: Apply pending firewall changes.
+- baseURL: https://pfsense.local/api/v2
+  baseurl_source: declared
+  description: Apply pending firewall changes.
   name: pfSense Firewall Apply API
   slug: pfsense-firewall-apply-api
-- description: Manage firewall rules.
+- baseURL: https://pfsense.local/api/v2
+  baseurl_source: declared
+  description: Manage firewall rules.
   name: pfSense Firewall Rules API
   slug: pfsense-firewall-rules-api
 artifact_total: 16
@@ -186,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pfsense/refs/heads/main/screenshots/pfsense-2026-06-20T191628.png
 security:

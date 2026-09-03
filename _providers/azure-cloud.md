@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -68,19 +68,29 @@ apis:
 - description: REST APIs for Azure IoT services including IoT Hub, IoT Central, IoT Edge, and Azure Digital Twins for connecting, monitoring, and managing IoT devices at scale.
   name: Azure IoT API
   slug: azure-iot-api
-- description: Availability sets
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Availability sets
   name: Microsoft Azure Cloud Availability Sets API
   slug: azure-cloud-availability-sets-api
-- description: Managed disks
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Managed disks
   name: Microsoft Azure Cloud Disks API
   slug: azure-cloud-disks-api
-- description: Managed disk snapshots
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Managed disk snapshots
   name: Microsoft Azure Cloud Snapshots API
   slug: azure-cloud-snapshots-api
-- description: VMSS lifecycle operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: VMSS lifecycle operations
   name: Microsoft Azure Cloud Virtual Machine Scale Sets API
   slug: azure-cloud-virtual-machine-scale-sets-api
-- description: VM lifecycle operations
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: VM lifecycle operations
   name: Microsoft Azure Cloud Virtual Machines API
   slug: azure-cloud-virtual-machines-api
 artifact_total: 49
@@ -280,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cloud/refs/heads/main/screenshots/azure-cloud-2026-06-20T172840.png
 security:

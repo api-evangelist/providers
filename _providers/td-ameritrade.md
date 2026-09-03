@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,46 +47,72 @@ apis:
 - description: Provides REST endpoints for accessing real-time and historical market data. Includes current quotes for single and multiple symbols, historical price history for equities and ETFs, options chains with
   name: TD Ameritrade Market Data API
   slug: td-ameritrade-market-data-api
-- description: Provides REST endpoints for searching and retrieving instrument details by symbol or CUSIP. Supports searching by symbol or description and retrieving fundamental data including financial ratios, earn
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Provides REST endpoints for searching and retrieving instrument details by symbol or CUSIP. Supports searching by symbol or description and retrieving fundamental data including financial ratios, earn
   name: TD Ameritrade Instruments API
   slug: td-ameritrade-instruments-api
-- description: Implements OAuth 2.0 token-based authentication as described in RFC6749 section 1.3.1. Applications registered on the TD Ameritrade Developer Portal receive a Consumer Key (client_id). Access tokens a
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: Implements OAuth 2.0 token-based authentication as described in RFC6749 section 1.3.1. Applications registered on the TD Ameritrade Developer Portal receive a Consumer Key (client_id). Access tokens a
   name: TD Ameritrade Authentication API
   slug: td-ameritrade-authentication-api
 - description: Provides a WebSocket-based streaming API that delivers up-to-the-second market data including real-time Level 1 and Level 2 quotes, time and sales data for equities, options, and futures, as well as o
   name: TD Ameritrade Streaming Market Data API
   slug: td-ameritrade-streaming-market-data-api
-- description: The Accounts and Trading API from TD Ameritrade — 7 operation(s) for accounts and trading.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Accounts and Trading API from TD Ameritrade — 7 operation(s) for accounts and trading.
   name: TD Ameritrade Accounts and Trading API
   slug: td-ameritrade-accounts-and-trading-api
-- description: The Authentication API from TD Ameritrade — 1 operation(s) for authentication.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Authentication API from TD Ameritrade — 1 operation(s) for authentication.
   name: TD Ameritrade Authentication API
   slug: td-ameritrade-authentication-api
-- description: The Instruments API from TD Ameritrade — 2 operation(s) for instruments.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Instruments API from TD Ameritrade — 2 operation(s) for instruments.
   name: TD Ameritrade Instruments API
   slug: td-ameritrade-instruments-api
-- description: The Market Hours API from TD Ameritrade — 2 operation(s) for market hours.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Market Hours API from TD Ameritrade — 2 operation(s) for market hours.
   name: TD Ameritrade Market Hours API
   slug: td-ameritrade-market-hours-api
-- description: The Movers API from TD Ameritrade — 1 operation(s) for movers.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Movers API from TD Ameritrade — 1 operation(s) for movers.
   name: TD Ameritrade Movers API
   slug: td-ameritrade-movers-api
-- description: The Option Chains API from TD Ameritrade — 1 operation(s) for option chains.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Option Chains API from TD Ameritrade — 1 operation(s) for option chains.
   name: TD Ameritrade Option Chains API
   slug: td-ameritrade-option-chains-api
-- description: The Price History API from TD Ameritrade — 1 operation(s) for price history.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Price History API from TD Ameritrade — 1 operation(s) for price history.
   name: TD Ameritrade Price History API
   slug: td-ameritrade-price-history-api
-- description: The Quotes API from TD Ameritrade — 2 operation(s) for quotes.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Quotes API from TD Ameritrade — 2 operation(s) for quotes.
   name: TD Ameritrade Quotes API
   slug: td-ameritrade-quotes-api
-- description: The Transaction History API from TD Ameritrade — 2 operation(s) for transaction history.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Transaction History API from TD Ameritrade — 2 operation(s) for transaction history.
   name: TD Ameritrade Transaction History API
   slug: td-ameritrade-transaction-history-api
-- description: The User Info & Preferences API from TD Ameritrade — 3 operation(s) for user info & preferences.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The User Info & Preferences API from TD Ameritrade — 3 operation(s) for user info & preferences.
   name: TD Ameritrade User Info & Preferences API
   slug: td-ameritrade-user-info-preferences-api
-- description: The Watchlist API from TD Ameritrade — 3 operation(s) for watchlist.
+- baseURL: https://api.tdameritrade.com/v1
+  baseurl_source: declared
+  description: The Watchlist API from TD Ameritrade — 3 operation(s) for watchlist.
   name: TD Ameritrade Watchlist API
   slug: td-ameritrade-watchlist-api
 artifact_total: 38
@@ -277,7 +303,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

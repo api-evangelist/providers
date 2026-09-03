@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -49,22 +49,34 @@ apis:
 - description: The Kareo Clinical Open API provides REST-based access to EHR clinical data, exposing patient clinical records, MACRA/MIPS reporting data, and related healthcare information. The API is documented wit
   name: Kareo Clinical Open API
   slug: kareo-clinical-open-api
-- description: Vendor registration, throttles, and configuration
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Vendor registration, throttles, and configuration
   name: Kareo Administrative API
   slug: kareo-administrative-api
-- description: Appointment scheduling and management
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Appointment scheduling and management
   name: Kareo Appointments API
   slug: kareo-appointments-api
-- description: Charges, payments, and transactions
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Charges, payments, and transactions
   name: Kareo Billing API
   slug: kareo-billing-api
-- description: Clinical encounter and document management
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Clinical encounter and document management
   name: Kareo Encounters API
   slug: kareo-encounters-api
-- description: Patient demographic and record management
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Patient demographic and record management
   name: Kareo Patients API
   slug: kareo-patients-api
-- description: Provider and practice administration
+- baseURL: https://webservice.kareo.com/services/soap/2.1/KareoServices.svc
+  baseurl_source: declared
+  description: Provider and practice administration
   name: Kareo Providers API
   slug: kareo-providers-api
 artifact_total: 29
@@ -244,7 +256,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/screenshots/kareo-2026-06-20T183920.png
 security:

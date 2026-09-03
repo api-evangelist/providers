@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 22 operations · 12 acting
 api_count: 1
 apis:
-- description: Manage container app authentication
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Manage container app authentication
   name: Azure Container Apps Authentication API
   slug: azure-container-apps-authentication-api
-- description: Manage container apps
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Manage container apps
   name: Azure Container Apps Container Apps API
   slug: azure-container-apps-container-apps-api
-- description: Manage container app jobs
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Manage container app jobs
   name: Azure Container Apps Jobs API
   slug: azure-container-apps-jobs-api
-- description: Manage container app environments
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Manage container app environments
   name: Azure Container Apps Managed Environments API
   slug: azure-container-apps-managed-environments-api
-- description: Manage container app revisions
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Manage container app revisions
   name: Azure Container Apps Revisions API
   slug: azure-container-apps-revisions-api
 arazzos:
@@ -531,7 +541,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
 security:

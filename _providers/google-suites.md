@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Manage video conferencing.
   name: Google Meet API
   slug: google-meet-api
-- description: The Calendar API from Google Workspace APIs — 3 operation(s) for calendar.
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Calendar API from Google Workspace APIs — 3 operation(s) for calendar.
   name: Google Workspace APIs Calendar API
   slug: google-suites-calendar-api
-- description: The Drive API from Google Workspace APIs — 2 operation(s) for drive.
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Drive API from Google Workspace APIs — 2 operation(s) for drive.
   name: Google Workspace APIs Drive API
   slug: google-suites-drive-api
-- description: The Gmail API from Google Workspace APIs — 4 operation(s) for gmail.
+- baseURL: https://gmail.googleapis.com
+  baseurl_source: declared
+  description: The Gmail API from Google Workspace APIs — 4 operation(s) for gmail.
   name: Google Workspace APIs Gmail API
   slug: google-suites-gmail-api
 artifact_total: 17
@@ -187,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-suites/refs/heads/main/screenshots/google-suites-2026-06-20T182240.png
 security:

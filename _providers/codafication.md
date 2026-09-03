@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -169,7 +181,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -179,7 +191,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 36.0
+  previous_composite: 35.7
   provenance:
     conformance: first-party
   regulatory:
@@ -189,7 +201,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:

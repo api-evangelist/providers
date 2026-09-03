@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -56,25 +56,39 @@ apis:
 - description: Zitadel provides SAML 2.0 single sign-on support, enabling enterprises to integrate with Zitadel using SAML identity federation. Accessible at /saml/v2/.
   name: Zitadel SAML API
   slug: saml-api
-- description: Manage OIDC, SAML, and API applications
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage OIDC, SAML, and API applications
   name: Zitadel Applications API
   slug: zitadel-applications-api
-- description: Manage external identity provider configurations
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage external identity provider configurations
   name: Zitadel Identity Providers API
   slug: zitadel-identity-providers-api
-- description: Manage organizations and organizational domains
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage organizations and organizational domains
   name: Zitadel Organizations API
   slug: zitadel-organizations-api
-- description: Manage login, password, and notification policies
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage login, password, and notification policies
   name: Zitadel Policies API
   slug: zitadel-policies-api
-- description: Manage projects and project grants
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage projects and project grants
   name: Zitadel Projects API
   slug: zitadel-projects-api
-- description: Manage project roles and role grants
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage project roles and role grants
   name: Zitadel Roles API
   slug: zitadel-roles-api
-- description: Manage human and machine users
+- baseURL_template: https://{instance}.zitadel.cloud
+  baseurl_source: spec_template
+  description: Manage human and machine users
   name: Zitadel Users API
   slug: zitadel-users-api
 artifact_total: 101
@@ -494,7 +508,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:

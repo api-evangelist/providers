@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,187 +45,309 @@ agentic_access:
   summary_line: 560 operations · 2 acting
 api_count: 61
 apis:
-- description: The single /index.php dispatch entrypoint through which every Matomo Reporting API method is invoked, by supplying module=API and method=Module.Action. This entry documents the entrypoint contract its
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The single /index.php dispatch entrypoint through which every Matomo Reporting API method is invoked, by supplying module=API and method=Module.Action. This entry documents the entrypoint contract its
   name: Matomo Reporting API (index.php entrypoint)
   slug: matomo-index-php-api
-- description: The Matomo Tracking API — the server-side ingest entrypoint at /matomo.php that records pageviews, events, goals, ecommerce orders, site searches and content interactions. It is the counterpart to the
+- baseURL: https://{matomo_host}/matomo.php
+  baseurl_source: declared
+  description: The Matomo Tracking API — the server-side ingest entrypoint at /matomo.php that records pageviews, events, goals, ecommerce orders, site searches and content interactions. It is the counterpart to the
   name: Matomo Tracking API (matomo.php entrypoint)
   slug: matomo-matomo-php-api
-- description: Exposes the AbTesting API for managing experiments, embedding experiment scripts, and reading experiment reports.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the AbTesting API for managing experiments, embedding experiment scripts, and reading experiment reports.
   name: Matomo Ab Testing API
   slug: matomo-abtesting-api
-- description: 'The Actions API lets you request reports for all your Visitor Actions: Page URLs, Page titles, Events, Content Tracking, File Downloads and Clicks on external websites. For example, "getPageTitles" wi'
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'The Actions API lets you request reports for all your Visitor Actions: Page URLs, Page titles, Events, Content Tracking, File Downloads and Clicks on external websites. For example, "getPageTitles" wi'
   name: Matomo Actions API
   slug: matomo-actions-api
-- description: Exposes Activity Log API endpoints for listing activity entries, counting matches, and resolving the permitted date range for the current caller.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Activity Log API endpoints for listing activity entries, counting matches, and resolving the permitted date range for the current caller.
   name: Matomo Activity Log API
   slug: matomo-activitylog-api
-- description: Exposes API endpoints for managing advertising conversion export configurations. These methods let users list, inspect, create, update, and delete configured exports and access tokens.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes API endpoints for managing advertising conversion export configurations. These methods let users list, inspect, create, update, and delete configured exports and access tokens.
   name: Matomo Advertising Conversion Export API
   slug: matomo-advertisingconversionexport-api
-- description: Provides API methods to create, update, delete, and query annotations.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods to create, update, delete, and query annotations.
   name: Matomo Annotations API
   slug: matomo-annotations-api
-- description: 'This API is the <a href=''https://matomo.org/docs/analytics-api/metadata/'' rel=''noreferrer'' target=''_blank''>Metadata API</a>: it gives information about all other available APIs methods, as well as pro'
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'This API is the <a href=''https://matomo.org/docs/analytics-api/metadata/'' rel=''noreferrer'' target=''_blank''>Metadata API</a>: it gives information about all other available APIs methods, as well as pro'
   name: Matomo API
   slug: matomo-api-api
-- description: 'Provides Reporting API endpoints for reading OpenAPI plugin configuration and specifications. Exposes endpoints to return the effective plugin list for spec generation, read pre-generated spec files, '
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'Provides Reporting API endpoints for reading OpenAPI plugin configuration and specifications. Exposes endpoints to return the effective plugin list for spec generation, read pre-generated spec files, '
   name: Matomo API Reference API
   slug: matomo-apireference-api
-- description: Exposes reporting API endpoints for aggregated bandwidth metrics.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes reporting API endpoints for aggregated bandwidth metrics.
   name: Matomo Bandwidth API
   slug: matomo-bandwidth-api
-- description: Exposes cohort reports grouped by the period of a visitor's first visit. These endpoints transform archived first-visit cohort data into table and chart responses for the Cohorts plugin.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes cohort reports grouped by the period of a visitor's first visit. These endpoints transform archived first-visit cohort data into table and chart responses for the Cohorts plugin.
   name: Matomo Cohorts API
   slug: matomo-cohorts-api
-- description: The Contents API exposes content tracking reports grouped by content name and content piece.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Contents API exposes content tracking reports grouped by content name and content piece.
   name: Matomo Contents API
   slug: matomo-contents-api
-- description: Provides administrative API methods for scheduling, archiving, tracking failures, and opt-out code generation.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides administrative API methods for scheduling, archiving, tracking failures, and opt-out code generation.
   name: Matomo Core Admin Home API
   slug: matomo-coreadminhome-api
-- description: Exposes Crash Analytics endpoints for managing tracked crashes and querying crash reports. Includes summary, drill-down, historical, and realtime reporting APIs for a single site.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Crash Analytics endpoints for managing tracked crashes and querying crash reports. Includes summary, drill-down, historical, and realtime reporting APIs for a single site.
   name: Matomo Crash Analytics API
   slug: matomo-crashanalytics-api
-- description: Exposes Custom Alerts API endpoints for managing alert definitions and reading triggered alert data. These methods let callers create, update, fetch, delete, and evaluate alerts for one or more sites.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Custom Alerts API endpoints for managing alert definitions and reading triggered alert data. These methods let callers create, update, fetch, delete, and evaluate alerts for one or more sites.
   name: Matomo Custom Alerts API
   slug: matomo-customalerts-api
-- description: The Custom Dimensions API lets you manage and access reports for your configured Custom Dimensions.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Custom Dimensions API lets you manage and access reports for your configured Custom Dimensions.
   name: Matomo Custom Dimensions API
   slug: matomo-customdimensions-api
-- description: Provides API methods for custom JavaScript tracker configuration.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for custom JavaScript tracker configuration.
   name: Matomo Custom Js Tracker API
   slug: matomo-customjstracker-api
-- description: Exposes Custom Reports configuration and reporting endpoints. Use it to create, duplicate, manage, and query custom report definitions and their archived data.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Custom Reports configuration and reporting endpoints. Use it to create, duplicate, manage, and query custom report definitions and their archived data.
   name: Matomo Custom Reports API
   slug: matomo-customreports-api
-- description: The Dashboard API lets you manage user dashboards and retrieve their widget configurations.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Dashboard API lets you manage user dashboards and retrieve their widget configurations.
   name: Matomo Dashboard API
   slug: matomo-dashboard-api
-- description: The DevicePlugins API lets you access reports about device plugins such as browser plugins.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The DevicePlugins API lets you access reports about device plugins such as browser plugins.
   name: Matomo Device Plugins API
   slug: matomo-deviceplugins-api
-- description: The DevicesDetection API lets you access reports about your visitors' device types, brands, models, operating systems, and browsers.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The DevicesDetection API lets you access reports about your visitors' device types, brands, models, operating systems, and browsers.
   name: Matomo Devices Detection API
   slug: matomo-devicesdetection-api
-- description: The Events API lets you request reports about your users' Custom Events. Events are tracked using the Javascript Tracker trackEvent() function, or using the [Tracking HTTP API](https://developer.matom
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Events API lets you request reports about your users' Custom Events. Events are tracked using the Javascript Tracker trackEvent() function, or using the [Tracking HTTP API](https://developer.matom
   name: Matomo Events API
   slug: matomo-events-api
-- description: Provides API methods for submitting product feedback and managing feedback reminders.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for submitting product feedback and managing feedback reminders.
   name: Matomo Feedback API
   slug: matomo-feedback-api
-- description: Exposes the Form Analytics API for managing tracked forms and retrieving form performance reports. Use these endpoints to create, update, archive, and delete configured forms, inspect form metadata, a
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the Form Analytics API for managing tracked forms and retrieving form performance reports. Use these endpoints to create, update, archive, and delete configured forms, inspect form metadata, a
   name: Matomo Form Analytics API
   slug: matomo-formanalytics-api
-- description: Exposes the Funnels reporting and management API for funnel analytics configuration. Includes endpoints for funnel reports, funnel definitions, and pattern validation helpers.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the Funnels reporting and management API for funnel analytics configuration. Includes endpoints for funnel reports, funnel definitions, and pattern validation helpers.
   name: Matomo Funnels API
   slug: matomo-funnels-api
-- description: Goals API lets you Manage existing goals, via "updateGoal" and "deleteGoal", create new Goals via "addGoal", or list existing Goals for one or several websites via "getGoals" If you are <a href='https
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Goals API lets you Manage existing goals, via "updateGoal" and "deleteGoal", create new Goals via "addGoal", or list existing Goals for one or several websites via "getGoals" If you are <a href='https
   name: Matomo Goals API
   slug: matomo-goals-api
-- description: 'Exposes the Heatmap & Session Recording API endpoints for managing configurations and retrieving recorded activity. Heatmap coordinates use relative values: X and Y positions range from 0 to 2000, whe'
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'Exposes the Heatmap & Session Recording API endpoints for managing configurations and retrieving recorded activity. Heatmap coordinates use relative values: X and Y positions range from 0 to 2000, whe'
   name: Matomo Heatmap Session Recording API
   slug: matomo-heatmapsessionrecording-api
-- description: 'The ImageGraph.get API call lets you generate beautiful static PNG Graphs for any existing Matomo report. Supported graph types are: line plot, 2D/3D pie chart and vertical bar chart. A few notes abou'
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'The ImageGraph.get API call lets you generate beautiful static PNG Graphs for any existing Matomo report. Supported graph types are: line plot, 2D/3D pie chart and vertical bar chart. A few notes abou'
   name: Matomo Image Graph API
   slug: matomo-imagegraph-api
-- description: Provides API methods for insight and mover/shaker comparisons between report periods.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for insight and mover/shaker comparisons between report periods.
   name: Matomo Insights API
   slug: matomo-insights-api
-- description: The LanguagesManager API lets you access existing Matomo translations, and change Users languages preferences. "getTranslationsForLanguage" will return all translation strings for a given language, so
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The LanguagesManager API lets you access existing Matomo translations, and change Users languages preferences. "getTranslationsForLanguage" will return all translation strings for a given language, so
   name: Matomo Languages Manager API
   slug: matomo-languagesmanager-api
-- description: The Live! API lets you access complete visit level information about your visitors. Combined with the power of <a href='https://matomo.org/docs/analytics-api/segmentation/' target='_blank'>Segmentatio
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Live! API lets you access complete visit level information about your visitors. Combined with the power of <a href='https://matomo.org/docs/analytics-api/segmentation/' target='_blank'>Segmentatio
   name: Matomo Live API
   slug: matomo-live-api
-- description: Provides API methods for login-related administration tasks.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for login-related administration tasks.
   name: Matomo Login API
   slug: matomo-login-api
-- description: Exposes reporting API endpoints for marketing campaign dimensions and drill-down reports. Includes campaign IDs, names, keywords, source and medium dimensions, and hierarchical subtables.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes reporting API endpoints for marketing campaign dimensions and drill-down reports. Includes campaign IDs, names, keywords, source and medium dimensions, and hierarchical subtables.
   name: Matomo Marketing Campaigns Reporting API
   slug: matomo-marketingcampaignsreporting-api
-- description: The Marketplace API lets you manage your license key so you can download & install in one-click <a target="_blank" rel="noreferrer" href="https://matomo.org/recommends/premium-plugins/">paid premium p
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Marketplace API lets you manage your license key so you can download & install in one-click <a target="_blank" rel="noreferrer" href="https://matomo.org/recommends/premium-plugins/">paid premium p
   name: Matomo Marketplace API
   slug: matomo-marketplace-api
-- description: Exposes Media Analytics reports for video and audio plays, engagement, resources, and player usage. Includes real-time endpoints for recent activity and archive-backed endpoints for aggregated media r
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes Media Analytics reports for video and audio plays, engagement, resources, and player usage. Includes real-time endpoints for recent activity and archive-backed endpoints for aggregated media r
   name: Matomo Media Analytics API
   slug: matomo-mediaanalytics-api
-- description: The MobileMessaging API lets you manage SMS credentials, phone number verification, and SMS account settings.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The MobileMessaging API lets you manage SMS credentials, phone number verification, and SMS account settings.
   name: Matomo Mobile Messaging API
   slug: matomo-mobilemessaging-api
-- description: The MultiSites API lets you request the key metrics (visits, page views, revenue) for all Websites in Matomo.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The MultiSites API lets you request the key metrics (visits, page views, revenue) for all Websites in Matomo.
   name: Matomo Multi Sites API
   slug: matomo-multisites-api
-- description: Exposes super-user OAuth2 client management endpoints for Matomo. This API lists configured scopes and lets administrators create, inspect, update, rotate, activate, and delete OAuth2 clients.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes super-user OAuth2 client management endpoints for Matomo. This API lists configured scopes and lets administrators create, inspect, update, rotate, activate, and delete OAuth2 clients.
   name: Matomo O Auth2 API
   slug: matomo-oauth2-api
-- description: The Overlay API exposes translation data and overlay-specific page transition reports.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Overlay API exposes translation data and overlay-specific page transition reports.
   name: Matomo Overlay API
   slug: matomo-overlay-api
-- description: Provides reporting API methods for aggregated page performance metrics.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides reporting API methods for aggregated page performance metrics.
   name: Matomo Page Performance API
   slug: matomo-pageperformance-api
-- description: The PrivacyManager API lets you manage GDPR workflows, anonymization settings, and privacy compliance controls.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The PrivacyManager API lets you manage GDPR workflows, anonymization settings, and privacy compliance controls.
   name: Matomo Privacy Manager API
   slug: matomo-privacymanager-api
-- description: The Referrers API lets you access reports about websites, search engines, keywords, social networks, AI assistants, and campaigns used to access your website. For example, "getKeywords" returns all se
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The Referrers API lets you access reports about websites, search engines, keywords, social networks, AI assistants, and campaigns used to access your website. For example, "getKeywords" returns all se
   name: Matomo Referrers API
   slug: matomo-referrers-api
-- description: Provides API methods for screen resolution and device configuration reports.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for screen resolution and device configuration reports.
   name: Matomo Resolution API
   slug: matomo-resolution-api
-- description: Provides API endpoints for managing roll-up websites and their source site assignments. Use these methods to create roll-ups, update their configuration, and list the configured roll-up sites with the
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API endpoints for managing roll-up websites and their source site assignments. Use these methods to create roll-ups, update their configuration, and list the configured roll-up sites with the
   name: Matomo Roll Up Reporting API
   slug: matomo-rollupreporting-api
-- description: The ScheduledReports API lets you manage Scheduled Email reports, as well as generate, download or email any existing report. "generateReport" will generate the requested report (for a specific date r
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The ScheduledReports API lets you manage Scheduled Email reports, as well as generate, download or email any existing report. "generateReport" will generate the requested report (for a specific date r
   name: Matomo Scheduled Reports API
   slug: matomo-scheduledreports-api
-- description: Provides SearchEngineKeywordsPerformance API endpoints for imported keyword and crawl-performance reports. Exposes combined and provider-specific reports for Google, Bing, and Yandex search data. \Plu
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides SearchEngineKeywordsPerformance API endpoints for imported keyword and crawl-performance reports. Exposes combined and provider-specific reports for Google, Bing, and Yandex search data. \Plu
   name: Matomo Search Engine Keywords Performance API
   slug: matomo-searchenginekeywordsperformance-api
-- description: The SegmentEditor API lets you add, update, delete custom Segments, and list saved segments.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The SegmentEditor API lets you add, update, delete custom Segments, and list saved segments.
   name: Matomo Segment Editor API
   slug: matomo-segmenteditor-api
-- description: 'The SEO API lets you access a list of SEO metrics for the specified URL: Bing indexed pages and age of the Domain name.'
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'The SEO API lets you access a list of SEO metrics for the specified URL: Bing indexed pages and age of the Domain name.'
   name: Matomo SEO API
   slug: matomo-seo-api
-- description: 'The SitesManager API gives you full control on Websites in Matomo (create, update and delete), and many methods to retrieve websites based on various attributes. This API lets you create websites via '
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: 'The SitesManager API gives you full control on Websites in Matomo (create, update and delete), and many methods to retrieve websites based on various attributes. This API lets you create websites via '
   name: Matomo Sites Manager API
   slug: matomo-sitesmanager-api
-- description: Exposes the Tag Manager API for managing containers, versions, tags, triggers, and variables. The endpoints also provide installation metadata, publishing workflows, preview controls, and import/expor
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Exposes the Tag Manager API for managing containers, versions, tags, triggers, and variables. The endpoints also provide installation metadata, publishing workflows, preview controls, and import/expor
   name: Matomo Tag Manager API
   slug: matomo-tagmanager-api
-- description: Provides API methods for Tour challenges and engagement levels.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for Tour challenges and engagement levels.
   name: Matomo Tour API
   slug: matomo-tour-api
-- description: Provides API methods for transition reports around a specific page action.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for transition reports around a specific page action.
   name: Matomo Transitions API
   slug: matomo-transitions-api
-- description: Provides API methods for managing two-factor authentication.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for managing two-factor authentication.
   name: Matomo Two Factor Auth API
   slug: matomo-twofactorauth-api
-- description: The UserCountry API lets you access reports about your visitors' Countries and Continents.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The UserCountry API lets you access reports about your visitors' Countries and Continents.
   name: Matomo User Country API
   slug: matomo-usercountry-api
-- description: Provides API methods for User ID reports.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: Provides API methods for User ID reports.
   name: Matomo User ID API
   slug: matomo-userid-api
-- description: The UserLanguage API lets you access reports about your Visitors language setting
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The UserLanguage API lets you access reports about your Visitors language setting
   name: Matomo User Language API
   slug: matomo-userlanguage-api
-- description: The UsersManager API lets you Manage Users and their permissions to access specific websites. You can create users via "addUser", update existing users via "updateUser" and delete users via "deleteUse
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: The UsersManager API lets you Manage Users and their permissions to access specific websites. You can create users via "addUser", update existing users via "updateUser" and delete users via "deleteUse
   name: Matomo Users Manager API
   slug: matomo-usersmanager-api
-- description: VisitFrequency API lets you access a list of metrics related to Returning Visitors.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: VisitFrequency API lets you access a list of metrics related to Returning Visitors.
   name: Matomo Visit Frequency API
   slug: matomo-visitfrequency-api
-- description: VisitorInterest API lets you access visitor engagement distribution reports, including visits by pages viewed, visit duration, days since last visit, and visit count.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: VisitorInterest API lets you access visitor engagement distribution reports, including visits by pages viewed, visit duration, days since last visit, and visit count.
   name: Matomo Visitor Interest API
   slug: matomo-visitorinterest-api
-- description: VisitsSummary API lets you access the core web analytics metrics (visits, unique visitors, count of actions (page views & downloads & clicks on outlinks), time on site, bounces and converted visits.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: VisitsSummary API lets you access the core web analytics metrics (visits, unique visitors, count of actions (page views & downloads & clicks on outlinks), time on site, bounces and converted visits.
   name: Matomo Visits Summary API
   slug: matomo-visitssummary-api
-- description: VisitTime API lets you access reports by Hour (Server time), and by Hour Local Time of your visitors.
+- baseURL: https://{matomo_host}/index.php
+  baseurl_source: declared
+  description: VisitTime API lets you access reports by Hour (Server time), and by Hour Local Time of your visitors.
   name: Matomo Visit Time API
   slug: matomo-visittime-api
 artifact_total: 76
@@ -728,7 +850,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -738,7 +860,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 66.6
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -750,7 +872,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/screenshots/matomo-2026-06-20T185037.png
 security:

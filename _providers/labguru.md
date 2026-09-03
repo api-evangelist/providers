@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -43,211 +43,349 @@ agentic_access:
   summary_line: 277 operations · 143 acting
 api_count: 2
 apis:
-- description: The Antibodies API from Labguru — 2 operation(s) for antibodies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Antibodies API from Labguru — 2 operation(s) for antibodies.
   name: Labguru Antibodies API
   slug: labguru-antibodies-api
-- description: The Attachments API from Labguru — 2 operation(s) for attachments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Attachments API from Labguru — 2 operation(s) for attachments.
   name: Labguru Attachments API
   slug: labguru-attachments-api
-- description: The Authentication API from Labguru — 1 operation(s) for authentication.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Labguru — 1 operation(s) for authentication.
   name: Labguru Authentication API
   slug: labguru-authentication-api
-- description: The Bacteria API from Labguru — 2 operation(s) for bacteria.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Bacteria API from Labguru — 2 operation(s) for bacteria.
   name: Labguru Bacteria API
   slug: labguru-bacteria-api
-- description: The Boxes API from Labguru — 2 operation(s) for boxes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Boxes API from Labguru — 2 operation(s) for boxes.
   name: Labguru Boxes API
   slug: labguru-boxes-api
-- description: The Cell lines API from Labguru — 2 operation(s) for cell lines.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Cell lines API from Labguru — 2 operation(s) for cell lines.
   name: Labguru Cell lines API
   slug: labguru-cell-lines-api
-- description: The Comments API from Labguru — 2 operation(s) for comments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Comments API from Labguru — 2 operation(s) for comments.
   name: Labguru Comments API
   slug: labguru-comments-api
-- description: The Companies API from Labguru — 2 operation(s) for companies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Companies API from Labguru — 2 operation(s) for companies.
   name: Labguru Companies API
   slug: labguru-companies-api
-- description: The Compound Parent Structures API from Labguru — 3 operation(s) for compound parent structures.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Compound Parent Structures API from Labguru — 3 operation(s) for compound parent structures.
   name: Labguru Compound Parent Structures API
   slug: labguru-compound-parent-structures-api
-- description: The Compounds API from Labguru — 2 operation(s) for compounds.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Compounds API from Labguru — 2 operation(s) for compounds.
   name: Labguru Compounds API
   slug: labguru-compounds-api
-- description: The Consumables API from Labguru — 2 operation(s) for consumables.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Consumables API from Labguru — 2 operation(s) for consumables.
   name: Labguru Consumables API
   slug: labguru-consumables-api
-- description: The Datasets API from Labguru — 2 operation(s) for datasets.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Datasets API from Labguru — 2 operation(s) for datasets.
   name: Labguru Datasets API
   slug: labguru-datasets-api
-- description: The Documents API from Labguru — 2 operation(s) for documents.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Documents API from Labguru — 2 operation(s) for documents.
   name: Labguru Documents API
   slug: labguru-documents-api
-- description: The Elements API from Labguru — 3 operation(s) for elements.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Elements API from Labguru — 3 operation(s) for elements.
   name: Labguru Elements API
   slug: labguru-elements-api
-- description: The Equipment API from Labguru — 3 operation(s) for equipment.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Equipment API from Labguru — 3 operation(s) for equipment.
   name: Labguru Equipment API
   slug: labguru-equipment-api
-- description: The Events API from Labguru — 2 operation(s) for events.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Events API from Labguru — 2 operation(s) for events.
   name: Labguru Events API
   slug: labguru-events-api
-- description: The Experiments API from Labguru — 6 operation(s) for experiments.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Experiments API from Labguru — 6 operation(s) for experiments.
   name: Labguru Experiments API
   slug: labguru-experiments-api
-- description: The Filters API from Labguru — 3 operation(s) for filters.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Filters API from Labguru — 3 operation(s) for filters.
   name: Labguru Filters API
   slug: labguru-filters-api
-- description: The Flags API from Labguru — 2 operation(s) for flags.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Flags API from Labguru — 2 operation(s) for flags.
   name: Labguru Flags API
   slug: labguru-flags-api
-- description: The Flies API from Labguru — 2 operation(s) for flies.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Flies API from Labguru — 2 operation(s) for flies.
   name: Labguru Flies API
   slug: labguru-flies-api
-- description: The Folders API from Labguru — 2 operation(s) for folders.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Folders API from Labguru — 2 operation(s) for folders.
   name: Labguru Folders API
   slug: labguru-folders-api
-- description: The Fungi API from Labguru — 2 operation(s) for fungi.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Fungi API from Labguru — 2 operation(s) for fungi.
   name: Labguru Fungi API
   slug: labguru-fungi-api
-- description: The Generic Items API from Labguru — 2 operation(s) for generic items.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Generic Items API from Labguru — 2 operation(s) for generic items.
   name: Labguru Generic Items API
   slug: labguru-generic-items-api
-- description: The Genes API from Labguru — 2 operation(s) for genes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Genes API from Labguru — 2 operation(s) for genes.
   name: Labguru Genes API
   slug: labguru-genes-api
-- description: The Links API from Labguru — 2 operation(s) for links.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Links API from Labguru — 2 operation(s) for links.
   name: Labguru Links API
   slug: labguru-links-api
-- description: The Lipids API from Labguru — 2 operation(s) for lipids.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Lipids API from Labguru — 2 operation(s) for lipids.
   name: Labguru Lipids API
   slug: labguru-lipids-api
-- description: The Maintenance event API from Labguru — 2 operation(s) for maintenance event.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance event API from Labguru — 2 operation(s) for maintenance event.
   name: Labguru Maintenance event API
   slug: labguru-maintenance-event-api
-- description: The Maintenance template API from Labguru — 2 operation(s) for maintenance template.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance template API from Labguru — 2 operation(s) for maintenance template.
   name: Labguru Maintenance template API
   slug: labguru-maintenance-template-api
-- description: The Maintenance types API from Labguru — 2 operation(s) for maintenance types.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenance types API from Labguru — 2 operation(s) for maintenance types.
   name: Labguru Maintenance types API
   slug: labguru-maintenance-types-api
-- description: The Maintenances API from Labguru — 2 operation(s) for maintenances.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Maintenances API from Labguru — 2 operation(s) for maintenances.
   name: Labguru Maintenances API
   slug: labguru-maintenances-api
-- description: The Manifest API from Labguru — 1 operation(s) for manifest.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Manifest API from Labguru — 1 operation(s) for manifest.
   name: Labguru Manifest API
   slug: labguru-manifest-api
-- description: The Measurements API from Labguru — 1 operation(s) for measurements.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Measurements API from Labguru — 1 operation(s) for measurements.
   name: Labguru Measurements API
   slug: labguru-measurements-api
-- description: The Members API from Labguru — 1 operation(s) for members.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Members API from Labguru — 1 operation(s) for members.
   name: Labguru Members API
   slug: labguru-members-api
-- description: The Notes API from Labguru — 2 operation(s) for notes.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Notes API from Labguru — 2 operation(s) for notes.
   name: Labguru Notes API
   slug: labguru-notes-api
-- description: The Papers API from Labguru — 2 operation(s) for papers.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Papers API from Labguru — 2 operation(s) for papers.
   name: Labguru Papers API
   slug: labguru-papers-api
-- description: The Plants API from Labguru — 2 operation(s) for plants.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plants API from Labguru — 2 operation(s) for plants.
   name: Labguru Plants API
   slug: labguru-plants-api
-- description: The Plasmids API from Labguru — 2 operation(s) for plasmids.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plasmids API from Labguru — 2 operation(s) for plasmids.
   name: Labguru Plasmids API
   slug: labguru-plasmids-api
-- description: The Plates API from Labguru — 4 operation(s) for plates.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Plates API from Labguru — 4 operation(s) for plates.
   name: Labguru Plates API
   slug: labguru-plates-api
-- description: The Primers API from Labguru — 2 operation(s) for primers.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Primers API from Labguru — 2 operation(s) for primers.
   name: Labguru Primers API
   slug: labguru-primers-api
-- description: The Projects API from Labguru — 2 operation(s) for projects.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Projects API from Labguru — 2 operation(s) for projects.
   name: Labguru Projects API
   slug: labguru-projects-api
-- description: The Proteins API from Labguru — 2 operation(s) for proteins.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Proteins API from Labguru — 2 operation(s) for proteins.
   name: Labguru Proteins API
   slug: labguru-proteins-api
-- description: The Protocols API from Labguru — 2 operation(s) for protocols.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Protocols API from Labguru — 2 operation(s) for protocols.
   name: Labguru Protocols API
   slug: labguru-protocols-api
-- description: The Reports API from Labguru — 5 operation(s) for reports.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Reports API from Labguru — 5 operation(s) for reports.
   name: Labguru Reports API
   slug: labguru-reports-api
-- description: The Request templates API from Labguru — 2 operation(s) for request templates.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Request templates API from Labguru — 2 operation(s) for request templates.
   name: Labguru Request templates API
   slug: labguru-request-templates-api
-- description: The Requests API from Labguru — 9 operation(s) for requests.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Requests API from Labguru — 9 operation(s) for requests.
   name: Labguru Requests API
   slug: labguru-requests-api
-- description: The Rodent cages API from Labguru — 3 operation(s) for rodent cages.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent cages API from Labguru — 3 operation(s) for rodent cages.
   name: Labguru Rodent cages API
   slug: labguru-rodent-cages-api
-- description: The Rodent Specimens API from Labguru — 2 operation(s) for rodent specimens.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent Specimens API from Labguru — 2 operation(s) for rodent specimens.
   name: Labguru Rodent Specimens API
   slug: labguru-rodent-specimens-api
-- description: The Rodent Strains API from Labguru — 2 operation(s) for rodent strains.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Rodent Strains API from Labguru — 2 operation(s) for rodent strains.
   name: Labguru Rodent Strains API
   slug: labguru-rodent-strains-api
-- description: The Sample Pooling API from Labguru — 1 operation(s) for sample pooling.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sample Pooling API from Labguru — 1 operation(s) for sample pooling.
   name: Labguru Sample Pooling API
   slug: labguru-sample-pooling-api
-- description: The Search API from Labguru — 1 operation(s) for search.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Search API from Labguru — 1 operation(s) for search.
   name: Labguru Search API
   slug: labguru-search-api
-- description: The Sections API from Labguru — 3 operation(s) for sections.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sections API from Labguru — 3 operation(s) for sections.
   name: Labguru Sections API
   slug: labguru-sections-api
-- description: The Seeds API from Labguru — 2 operation(s) for seeds.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Seeds API from Labguru — 2 operation(s) for seeds.
   name: Labguru Seeds API
   slug: labguru-seeds-api
-- description: The Sequences API from Labguru — 2 operation(s) for sequences.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Sequences API from Labguru — 2 operation(s) for sequences.
   name: Labguru Sequences API
   slug: labguru-sequences-api
-- description: The Shopping list API from Labguru — 6 operation(s) for shopping list.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Shopping list API from Labguru — 6 operation(s) for shopping list.
   name: Labguru Shopping list API
   slug: labguru-shopping-list-api
-- description: The SOPs API from Labguru — 2 operation(s) for sops.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The SOPs API from Labguru — 2 operation(s) for sops.
   name: Labguru SOPs API
   slug: labguru-sops-api
-- description: The Stocks API from Labguru — 7 operation(s) for stocks.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Stocks API from Labguru — 7 operation(s) for stocks.
   name: Labguru Stocks API
   slug: labguru-stocks-api
-- description: The Storages API from Labguru — 2 operation(s) for storages.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Storages API from Labguru — 2 operation(s) for storages.
   name: Labguru Storages API
   slug: labguru-storages-api
-- description: The Submodules API from Labguru — 7 operation(s) for submodules.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Submodules API from Labguru — 7 operation(s) for submodules.
   name: Labguru Submodules API
   slug: labguru-submodules-api
-- description: The Tags API from Labguru — 2 operation(s) for tags.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Tags API from Labguru — 2 operation(s) for tags.
   name: Labguru Tags API
   slug: labguru-tags-api
-- description: The Teams API from Labguru — 2 operation(s) for teams.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Teams API from Labguru — 2 operation(s) for teams.
   name: Labguru Teams API
   slug: labguru-teams-api
-- description: The Tissue API from Labguru — 2 operation(s) for tissue.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Tissue API from Labguru — 2 operation(s) for tissue.
   name: Labguru Tissue API
   slug: labguru-tissue-api
-- description: The Units API from Labguru — 2 operation(s) for units.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Units API from Labguru — 2 operation(s) for units.
   name: Labguru Units API
   slug: labguru-units-api
-- description: The Vectors API from Labguru — 2 operation(s) for vectors.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Vectors API from Labguru — 2 operation(s) for vectors.
   name: Labguru Vectors API
   slug: labguru-vectors-api
-- description: The Viruses API from Labguru — 2 operation(s) for viruses.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Viruses API from Labguru — 2 operation(s) for viruses.
   name: Labguru Viruses API
   slug: labguru-viruses-api
-- description: The Visualizations API from Labguru — 2 operation(s) for visualizations.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Visualizations API from Labguru — 2 operation(s) for visualizations.
   name: Labguru Visualizations API
   slug: labguru-visualizations-api
-- description: The Webhooks API from Labguru — 3 operation(s) for webhooks.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Labguru — 3 operation(s) for webhooks.
   name: Labguru Webhooks API
   slug: labguru-webhooks-api
-- description: The Workflows API from Labguru — 2 operation(s) for workflows.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Labguru — 2 operation(s) for workflows.
   name: Labguru Workflows API
   slug: labguru-workflows-api
-- description: The Worms API from Labguru — 2 operation(s) for worms.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Worms API from Labguru — 2 operation(s) for worms.
   name: Labguru Worms API
   slug: labguru-worms-api
-- description: The Yeasts API from Labguru — 2 operation(s) for yeasts.
+- baseURL: https://my.labguru.com/api/v1
+  baseurl_source: declared
+  description: The Yeasts API from Labguru — 2 operation(s) for yeasts.
   name: Labguru Yeasts API
   slug: labguru-yeasts-api
 artifact_total: 329
@@ -1145,7 +1283,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png
 security:

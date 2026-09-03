@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 35 operations · 22 acting
 api_count: 1
 apis:
-- description: The Authentication API from DocSpring — 1 operation(s) for authentication.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from DocSpring — 1 operation(s) for authentication.
   name: DocSpring Authentication API
   slug: docspring-authentication-api
-- description: The Combine PDFs API from DocSpring — 2 operation(s) for combine pdfs.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Combine PDFs API from DocSpring — 2 operation(s) for combine pdfs.
   name: DocSpring Combine PDFs API
   slug: docspring-combine-pdfs-api
-- description: The Custom Files API from DocSpring — 2 operation(s) for custom files.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Custom Files API from DocSpring — 2 operation(s) for custom files.
   name: DocSpring Custom Files API
   slug: docspring-custom-files-api
-- description: The Data Requests API from DocSpring — 3 operation(s) for data requests.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Data Requests API from DocSpring — 3 operation(s) for data requests.
   name: DocSpring Data Requests API
   slug: docspring-data-requests-api
-- description: The Folders API from DocSpring — 4 operation(s) for folders.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Folders API from DocSpring — 4 operation(s) for folders.
   name: DocSpring Folders API
   slug: docspring-folders-api
-- description: The PDF Submissions API from DocSpring — 4 operation(s) for pdf submissions.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The PDF Submissions API from DocSpring — 4 operation(s) for pdf submissions.
   name: DocSpring PDF Submissions API
   slug: docspring-pdf-submissions-api
-- description: The Submission Batches API from DocSpring — 2 operation(s) for submission batches.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Submission Batches API from DocSpring — 2 operation(s) for submission batches.
   name: DocSpring Submission Batches API
   slug: docspring-submission-batches-api
-- description: The Templates API from DocSpring — 8 operation(s) for templates.
+- baseURL: https://sync.api.docspring.com/api/v1
+  baseurl_source: declared
+  description: The Templates API from DocSpring — 8 operation(s) for templates.
   name: DocSpring Templates API
   slug: docspring-templates-api
 artifact_total: 59
@@ -331,7 +347,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/screenshots/docspring-2026-06-20T180114.png
 security:

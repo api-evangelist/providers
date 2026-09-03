@@ -22,14 +22,14 @@
    "slug": "500-global",
    "name": "500 Global",
    "description": "500 Global (formerly 500 Startups) is a global venture capital firm and startup accelerator founded in 2010 by Dave McClure and Christine Tsai and headquartered in Palo Alto / Silicon Valley, California. The firm invests from pre-seed to pre-IPO in globally ambitious technology founders, built on th",
-   "strength": 367,
-   "rating": 30.2,
+   "strength": 370,
+   "rating": 30.3,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 2108,
    "portfolio_on_network": 2107,
-   "top_tier": 39,
-   "agent_tier": 129,
+   "top_tier": 40,
+   "agent_tier": 130,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/500-global/refs/heads/main/screenshots/500-global-2026-07-25T181209.png",
    "rank": 2
   },
@@ -45,6 +45,7 @@
    "portfolio_on_network": 838,
    "top_tier": 43,
    "agent_tier": 120,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/y-combinator/refs/heads/main/screenshots/y-combinator-2026-09-02T171212.png",
    "rank": 3
   },
   {
@@ -66,13 +67,13 @@
    "slug": "accel",
    "name": "Accel",
    "description": "Accel is one of the world's leading venture capital firms, founded in 1983 by Arthur Patterson and Jim Swartz and headquartered in Palo Alto, California, with additional offices in San Francisco, London, and Bangalore, India. Accel describes itself as \"the first partner to exceptional teams everywhe",
-   "strength": 334,
+   "strength": 335,
    "rating": 32.6,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 764,
    "portfolio_on_network": 764,
-   "top_tier": 44,
+   "top_tier": 45,
    "agent_tier": 102,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/accel/refs/heads/main/screenshots/accel-2026-07-25T181425.png",
    "rank": 5
@@ -104,6 +105,7 @@
    "portfolio_on_network": 972,
    "top_tier": 23,
    "agent_tier": 81,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/techstars/refs/heads/main/screenshots/techstars-2026-09-02T162708.png",
    "rank": 7
   },
   {
@@ -155,14 +157,14 @@
    "slug": "gv",
    "name": "GV",
    "description": "GV (formerly Google Ventures) is the venture capital arm of Alphabet, founded in 2009 by Bill Maris and headquartered in the San Francisco Bay Area with additional offices in New York, Cambridge, and London. With Alphabet as its sole limited partner, GV operates with the reliability of a single LP,",
-   "strength": 181,
-   "rating": 31.6,
+   "strength": 183,
+   "rating": 31.7,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 657,
    "portfolio_on_network": 655,
    "top_tier": 25,
-   "agent_tier": 53,
+   "agent_tier": 54,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/gv/refs/heads/main/screenshots/gv-2026-07-25T220447.png",
    "rank": 11
   },
@@ -208,19 +210,20 @@
    "portfolio_on_network": 333,
    "top_tier": 17,
    "agent_tier": 46,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/softbank-vision-fund/refs/heads/main/screenshots/softbank-vision-fund-2026-09-02T160056.png",
    "rank": 14
   },
   {
    "slug": "bain-capital-ventures",
    "name": "Bain Capital Ventures",
    "description": "Bain Capital Ventures (BCV) is the venture capital arm of Bain Capital, a multi-stage, domain-focused venture business founded in 2001 with roughly $9.4B in assets under management (as of June 30, 2025). BCV incubates ideas, leads seed rounds, and scales growth-stage companies, investing from about",
-   "strength": 143,
-   "rating": 34.2,
+   "strength": 144,
+   "rating": 34.3,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 272,
    "portfolio_on_network": 271,
-   "top_tier": 22,
+   "top_tier": 23,
    "agent_tier": 44,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/bain-capital-ventures/refs/heads/main/screenshots/bain-capital-ventures-2026-07-25T202253.png",
    "rank": 15
@@ -259,14 +262,14 @@
    "slug": "norwest-venture-partners",
    "name": "Norwest Venture Partners",
    "description": "Norwest Venture Partners is a multi-stage venture capital and growth equity investment firm founded in 1961 and headquartered in Menlo Park, California, with additional presence in San Francisco and subsidiaries in Mumbai, India and Tel Aviv, Israel. As of its 2024 NVP XVII fund ($3B), the firm mana",
-   "strength": 134,
+   "strength": 136,
    "rating": 30.1,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 427,
    "portfolio_on_network": 426,
    "top_tier": 18,
-   "agent_tier": 43,
+   "agent_tier": 44,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/norwest-venture-partners/refs/heads/main/screenshots/norwest-venture-partners-2026-08-07T185534.png",
    "rank": 18
   },
@@ -297,6 +300,7 @@
    "portfolio_on_network": 140,
    "top_tier": 24,
    "agent_tier": 36,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/sv-angel/refs/heads/main/screenshots/sv-angel-2026-09-02T161328.png",
    "rank": 20
   },
   {
@@ -334,27 +338,28 @@
    "name": "Speedinvest",
    "description": "Speedinvest is one of Europe's most active early-stage venture capital firms, founded in 2011 by Oliver Holle and headquartered in Vienna, Austria, with additional offices in Berlin, London, Munich, and Paris across EMEA. The firm invests from pre-seed and seed through selective growth stages, writi",
    "strength": 104,
-   "rating": 31.5,
+   "rating": 31.6,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 288,
    "portfolio_on_network": 288,
    "top_tier": 9,
    "agent_tier": 36,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/speedinvest/refs/heads/main/screenshots/speedinvest-2026-09-02T160408.png",
    "rank": 23
   },
   {
    "slug": "kleiner-perkins",
    "name": "Kleiner Perkins",
    "description": "Kleiner Perkins is one of Silicon Valley's oldest and most storied venture capital firms, founded in 1972 by Eugene Kleiner and Tom Perkins and headquartered on Sand Hill Road in Menlo Park, California, with additional offices in San Francisco and Shanghai. Across more than five decades and 21 ventu",
-   "strength": 101,
+   "strength": 103,
    "rating": 33.6,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 230,
    "portfolio_on_network": 230,
    "top_tier": 16,
-   "agent_tier": 31,
+   "agent_tier": 32,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/kleiner-perkins/refs/heads/main/screenshots/kleiner-perkins-2026-07-25T223947.png",
    "rank": 24
   },
@@ -449,11 +454,26 @@
    "rank": 30
   },
   {
+   "slug": "ggv-capital",
+   "name": "GGV Capital",
+   "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterpri",
+   "strength": 82,
+   "rating": 33.2,
+   "band": "thin",
+   "band_label": "Thin",
+   "portfolio_total": 118,
+   "portfolio_on_network": 118,
+   "top_tier": 16,
+   "agent_tier": 25,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/screenshots/ggv-capital-2026-07-25T215753.png",
+   "rank": 31
+  },
+  {
    "slug": "serena",
    "name": "Serena",
    "description": "Serena is a Paris-based European venture capital firm founded in 2008 by Xavier Lorphelin, Marc Fournier and Philippe Hayat, investing in Europe-based founders from pre-seed through Series A with initial tickets ranging from EUR 100K to EUR 15M. The firm closed its EUR 200M Fund IV in 2026, bringing",
    "strength": 82,
-   "rating": 34.5,
+   "rating": 34.4,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 113,
@@ -461,7 +481,7 @@
    "top_tier": 11,
    "agent_tier": 29,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/serena/refs/heads/main/screenshots/serena-2026-09-02T154942.png",
-   "rank": 31
+   "rank": 32
   },
   {
    "slug": "initialized-capital",
@@ -476,7 +496,7 @@
    "top_tier": 9,
    "agent_tier": 24,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/initialized-capital/refs/heads/main/screenshots/initialized-capital-2026-07-25T222438.png",
-   "rank": 32
+   "rank": 33
   },
   {
    "slug": "pantera-capital",
@@ -491,14 +511,14 @@
    "top_tier": 9,
    "agent_tier": 29,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/pantera-capital/refs/heads/main/screenshots/pantera-capital-2026-08-07T191336.png",
-   "rank": 33
+   "rank": 34
   },
   {
    "slug": "point-nine",
    "name": "Point Nine Capital",
    "description": "Point Nine Capital is a thesis-driven, early-stage venture capital firm founded in 2011 and headquartered in Berlin, Germany. It is one of Europe's best-known seed investors, specializing in B2B SaaS, B2B marketplaces, developer tools and infrastructure, fintech, digital health, and increasingly AI",
    "strength": 81,
-   "rating": 33.2,
+   "rating": 33.3,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 174,
@@ -506,21 +526,6 @@
    "top_tier": 11,
    "agent_tier": 19,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/point-nine/refs/heads/main/screenshots/point-nine-2026-09-02T151621.png",
-   "rank": 34
-  },
-  {
-   "slug": "ggv-capital",
-   "name": "GGV Capital",
-   "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterpri",
-   "strength": 79,
-   "rating": 32.8,
-   "band": "thin",
-   "band_label": "Thin",
-   "portfolio_total": 118,
-   "portfolio_on_network": 118,
-   "top_tier": 15,
-   "agent_tier": 24,
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/screenshots/ggv-capital-2026-07-25T215753.png",
    "rank": 35
   },
   {
@@ -535,19 +540,20 @@
    "portfolio_on_network": 174,
    "top_tier": 10,
    "agent_tier": 24,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncork-capital/refs/heads/main/screenshots/uncork-capital-2026-09-02T164843.png",
    "rank": 36
   },
   {
    "slug": "balderton-capital",
    "name": "Balderton Capital",
    "description": "Balderton Capital is a London-headquartered venture capital firm focused exclusively on backing European-founded technology companies. Founded in 2000 as Benchmark Capital Europe and fully independent since 2007, Balderton is one of Europe's largest and most established venture firms, with over $7 b",
-   "strength": 74,
-   "rating": 33.9,
+   "strength": 75,
+   "rating": 34.0,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 193,
    "portfolio_on_network": 193,
-   "top_tier": 6,
+   "top_tier": 7,
    "agent_tier": 24,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/balderton-capital/refs/heads/main/screenshots/balderton-capital-2026-08-07T162116.png",
    "rank": 37
@@ -624,6 +630,7 @@
    "portfolio_on_network": 203,
    "top_tier": 8,
    "agent_tier": 21,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/union-square-ventures/refs/heads/main/screenshots/union-square-ventures-2026-09-02T164904.png",
    "rank": 42
   },
   {
@@ -645,14 +652,14 @@
    "slug": "bloomberg-beta",
    "name": "Bloomberg Beta",
    "description": "Bloomberg Beta is an early-stage venture capital firm that invests in companies making business work better, with a particular focus on the future of work, machine intelligence, and technologies reshaping how companies operate. Founded in 2013 and capitalized entirely by Bloomberg L.P. (though it in",
-   "strength": 66,
-   "rating": 30.3,
+   "strength": 68,
+   "rating": 30.6,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 257,
    "portfolio_on_network": 254,
    "top_tier": 11,
-   "agent_tier": 18,
+   "agent_tier": 19,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg-beta/refs/heads/main/screenshots/bloomberg-beta-2026-07-25T203356.png",
    "rank": 44
   },
@@ -732,6 +739,21 @@
    "rank": 49
   },
   {
+   "slug": "qed-investors",
+   "name": "QED Investors",
+   "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the",
+   "strength": 57,
+   "rating": 30.7,
+   "band": "thin",
+   "band_label": "Thin",
+   "portfolio_total": 160,
+   "portfolio_on_network": 160,
+   "top_tier": 9,
+   "agent_tier": 17,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/qed-investors/refs/heads/main/screenshots/qed-investors-2026-09-02T152423.png",
+   "rank": 50
+  },
+  {
    "slug": "hv-capital",
    "name": "HV Capital",
    "description": "HV Capital is one of Europe's leading early-stage and growth venture capital firms, headquartered in Munich with an office in Berlin. Founded in 2000 as Holtzbrinck Ventures (the venture arm associated with Verlagsgruppe Georg von Holtzbrinck), the partnership completed a management buyout and rebra",
@@ -743,22 +765,22 @@
    "portfolio_on_network": 141,
    "top_tier": 5,
    "agent_tier": 20,
-   "rank": 50
+   "rank": 51
   },
   {
-   "slug": "qed-investors",
-   "name": "QED Investors",
-   "description": "QED Investors is a global venture capital firm founded in 2007 by Nigel Morris and Frank Rotman, both early leaders at Capital One, and headquartered in Alexandria, Virginia. QED invests exclusively in fintech and financial-services technology, backing what it calls \"pragmatic disruptors who are the",
-   "strength": 56,
-   "rating": 30.6,
+   "slug": "homebrew",
+   "name": "Homebrew",
+   "description": "Homebrew is a San Francisco-based seed-stage venture capital firm founded in 2013 by Hunter Walk (a former product leader at Google and YouTube) and Satya Patel (a former VP of Product at Twitter, partner at Battery Ventures, and product leader at Google). Named after the Homebrew Computer Club, the",
+   "strength": 53,
+   "rating": 34.7,
    "band": "thin",
    "band_label": "Thin",
-   "portfolio_total": 160,
-   "portfolio_on_network": 160,
-   "top_tier": 8,
-   "agent_tier": 17,
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/qed-investors/refs/heads/main/screenshots/qed-investors-2026-09-02T152423.png",
-   "rank": 51
+   "portfolio_total": 103,
+   "portfolio_on_network": 103,
+   "top_tier": 5,
+   "agent_tier": 20,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/homebrew/refs/heads/main/screenshots/homebrew-2026-07-25T221336.png",
+   "rank": 52
   },
   {
    "slug": "dragoneer",
@@ -772,7 +794,7 @@
    "portfolio_on_network": 41,
    "top_tier": 11,
    "agent_tier": 15,
-   "rank": 52
+   "rank": 53
   },
   {
    "slug": "benchmark",
@@ -787,21 +809,6 @@
    "top_tier": 9,
    "agent_tier": 17,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark/refs/heads/main/screenshots/benchmark-2026-07-25T202736.png",
-   "rank": 53
-  },
-  {
-   "slug": "homebrew",
-   "name": "Homebrew",
-   "description": "Homebrew is a San Francisco-based seed-stage venture capital firm founded in 2013 by Hunter Walk (a former product leader at Google and YouTube) and Satya Patel (a former VP of Product at Twitter, partner at Battery Ventures, and product leader at Google). Named after the Homebrew Computer Club, the",
-   "strength": 51,
-   "rating": 34.1,
-   "band": "thin",
-   "band_label": "Thin",
-   "portfolio_total": 103,
-   "portfolio_on_network": 103,
-   "top_tier": 5,
-   "agent_tier": 19,
-   "screenshot": "https://raw.githubusercontent.com/api-evangelist/homebrew/refs/heads/main/screenshots/homebrew-2026-07-25T221336.png",
    "rank": 54
   },
   {
@@ -954,6 +961,21 @@
    "rank": 64
   },
   {
+   "slug": "threshold-ventures",
+   "name": "Threshold Ventures",
+   "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partner",
+   "strength": 41,
+   "rating": 32.5,
+   "band": "thin",
+   "band_label": "Thin",
+   "portfolio_total": 86,
+   "portfolio_on_network": 86,
+   "top_tier": 6,
+   "agent_tier": 11,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/threshold-ventures/refs/heads/main/screenshots/threshold-ventures-2026-09-02T163624.png",
+   "rank": 65
+  },
+  {
    "slug": "thrive-capital",
    "name": "Thrive Capital",
    "description": "Thrive Capital is a venture capital firm founded in 2009 by Joshua Kushner and headquartered in the Puck Building in New York City. The firm builds and invests in internet, software, and technology-enabled companies across the full lifecycle, from early-stage seed bets through growth and late-stage",
@@ -965,7 +987,7 @@
    "portfolio_on_network": 45,
    "top_tier": 9,
    "agent_tier": 10,
-   "rank": 65
+   "rank": 66
   },
   {
    "slug": "anthemis",
@@ -980,7 +1002,22 @@
    "top_tier": 4,
    "agent_tier": 15,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/anthemis/refs/heads/main/screenshots/anthemis-2026-07-25T200409.png",
-   "rank": 66
+   "rank": 67
+  },
+  {
+   "slug": "version-one-ventures",
+   "name": "Version One Ventures",
+   "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven found",
+   "strength": 40,
+   "rating": 33.7,
+   "band": "thin",
+   "band_label": "Thin",
+   "portfolio_total": 83,
+   "portfolio_on_network": 83,
+   "top_tier": 5,
+   "agent_tier": 10,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/version-one-ventures/refs/heads/main/screenshots/version-one-ventures-2026-09-02T165751.png",
+   "rank": 68
   },
   {
    "slug": "wing-venture-capital",
@@ -994,7 +1031,8 @@
    "portfolio_on_network": 105,
    "top_tier": 5,
    "agent_tier": 12,
-   "rank": 67
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/wing-venture-capital/refs/heads/main/screenshots/wing-venture-capital-2026-09-02T170809.png",
+   "rank": 69
   },
   {
    "slug": "altimeter-capital",
@@ -1009,7 +1047,7 @@
    "top_tier": 10,
    "agent_tier": 10,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/altimeter-capital/refs/heads/main/screenshots/altimeter-capital-2026-07-25T195839.png",
-   "rank": 68
+   "rank": 70
   },
   {
    "slug": "electric-capital",
@@ -1024,21 +1062,7 @@
    "top_tier": 2,
    "agent_tier": 13,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/electric-capital/refs/heads/main/screenshots/electric-capital-2026-07-25T213107.png",
-   "rank": 69
-  },
-  {
-   "slug": "threshold-ventures",
-   "name": "Threshold Ventures",
-   "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partner",
-   "strength": 39,
-   "rating": 31.8,
-   "band": "thin",
-   "band_label": "Thin",
-   "portfolio_total": 86,
-   "portfolio_on_network": 86,
-   "top_tier": 6,
-   "agent_tier": 10,
-   "rank": 70
+   "rank": 71
   },
   {
    "slug": "kindred-ventures",
@@ -1053,7 +1077,7 @@
    "top_tier": 5,
    "agent_tier": 9,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/kindred-ventures/refs/heads/main/screenshots/kindred-ventures-2026-07-25T223809.png",
-   "rank": 71
+   "rank": 72
   },
   {
    "slug": "tiger-global",
@@ -1067,20 +1091,6 @@
    "portfolio_on_network": 32,
    "top_tier": 8,
    "agent_tier": 11,
-   "rank": 72
-  },
-  {
-   "slug": "version-one-ventures",
-   "name": "Version One Ventures",
-   "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven found",
-   "strength": 38,
-   "rating": 33.0,
-   "band": "thin",
-   "band_label": "Thin",
-   "portfolio_total": 83,
-   "portfolio_on_network": 83,
-   "top_tier": 5,
-   "agent_tier": 9,
    "rank": 73
   },
   {
@@ -1095,6 +1105,7 @@
    "portfolio_on_network": 143,
    "top_tier": 4,
    "agent_tier": 13,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/slow-ventures/refs/heads/main/screenshots/slow-ventures-2026-09-02T155856.png",
    "rank": 74
   },
   {
@@ -1102,13 +1113,14 @@
    "name": "Spark Capital",
    "description": "Spark Capital is a multi-stage venture capital firm founded in 2005 by Paul Conway, Santo Politi, Todd Dagres, and Bijan Sabet, with offices in San Francisco, New York, and Boston. Spark is a generalist firm that partners with founders from seed through growth across consumer internet, enterprise so",
    "strength": 35,
-   "rating": 32.8,
+   "rating": 32.9,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 48,
    "portfolio_on_network": 48,
    "top_tier": 8,
    "agent_tier": 10,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/spark-capital/refs/heads/main/screenshots/spark-capital-2026-09-02T160326.png",
    "rank": 75
   },
   {
@@ -1116,7 +1128,7 @@
    "name": "Atomico",
    "description": "Atomico is a London-headquartered European venture capital firm founded in 2006 by Niklas Zennstrom, co-founder of Skype and Kazaa. Atomico partners with Europe's most ambitious technology founders from the earliest stages to pre-IPO across two dedicated teams: a Venture team that invests predominan",
    "strength": 33,
-   "rating": 34.6,
+   "rating": 34.7,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 35,
@@ -1167,6 +1179,7 @@
    "portfolio_on_network": 111,
    "top_tier": 5,
    "agent_tier": 10,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-ventures/refs/heads/main/screenshots/trinity-ventures-2026-09-02T164232.png",
    "rank": 79
   },
   {
@@ -1174,7 +1187,7 @@
    "name": "New Enterprise Associates",
    "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full",
    "strength": 31,
-   "rating": 34.7,
+   "rating": 34.8,
    "band": "thin",
    "band_label": "Thin",
    "portfolio_total": 30,
@@ -1275,6 +1288,21 @@
    "rank": 86
   },
   {
+   "slug": "true-ventures",
+   "name": "True Ventures",
+   "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage",
+   "strength": 24,
+   "rating": 31.2,
+   "band": "thin",
+   "band_label": "Thin",
+   "portfolio_total": 50,
+   "portfolio_on_network": 50,
+   "top_tier": 3,
+   "agent_tier": 9,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/true-ventures/refs/heads/main/screenshots/true-ventures-2026-09-02T164334.png",
+   "rank": 87
+  },
+  {
    "slug": "prosus-ventures",
    "name": "Prosus Ventures",
    "description": "Prosus Ventures is the venture-capital arm of Prosus, the Amsterdam-headquartered global consumer-internet and technology group (part of the Naspers group), founded in 2015 to make early-stage and growth-stage technology investments in high-growth markets outside the United States and China. The fir",
@@ -1287,20 +1315,6 @@
    "top_tier": 3,
    "agent_tier": 7,
    "screenshot": "https://raw.githubusercontent.com/api-evangelist/prosus-ventures/refs/heads/main/screenshots/prosus-ventures-2026-09-02T152220.png",
-   "rank": 87
-  },
-  {
-   "slug": "true-ventures",
-   "name": "True Ventures",
-   "description": "True Ventures is an early-stage venture capital firm founded in 2006 by Jon Callaghan and Phil Black and headquartered in Palo Alto / San Francisco, California. Operating under a \"first to believe\" thesis, True writes the initial institutional check and stays invested through every subsequent stage",
-   "strength": 21,
-   "rating": 30.0,
-   "band": "thin",
-   "band_label": "Thin",
-   "portfolio_total": 50,
-   "portfolio_on_network": 50,
-   "top_tier": 2,
-   "agent_tier": 8,
    "rank": 88
   },
   {
@@ -1405,6 +1419,7 @@
    "portfolio_on_network": 21,
    "top_tier": 2,
    "agent_tier": 3,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/social-capital/refs/heads/main/screenshots/social-capital-2026-09-02T160033.png",
    "rank": 95
   },
   {
@@ -1434,6 +1449,7 @@
    "portfolio_on_network": 21,
    "top_tier": 1,
    "agent_tier": 2,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/susa-ventures/refs/heads/main/screenshots/susa-ventures-2026-09-02T161324.png",
    "rank": 97
   },
   {
@@ -1492,6 +1508,7 @@
    "portfolio_on_network": 23,
    "top_tier": 0,
    "agent_tier": 2,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/starting-line-vc/refs/heads/main/screenshots/starting-line-vc-2026-09-02T160817.png",
    "rank": 101
   },
   {
@@ -1529,7 +1546,7 @@
    "name": "Lemnos Labs",
    "description": "Lemnos Labs, Inc. is an early-stage deeptech venture capital firm that invests at the earliest phases of hardware company formation, helping founders better understand their customer, anticipate problems, and leverage their assets. Lemnos contributes engineering, manufacturing, marketing, and financ",
    "strength": 2,
-   "rating": 18.1,
+   "rating": 18.2,
    "band": "emerging",
    "band_label": "Emerging",
    "portfolio_total": 19,
@@ -1581,6 +1598,7 @@
    "portfolio_on_network": 3,
    "top_tier": 0,
    "agent_tier": 0,
+   "screenshot": "https://raw.githubusercontent.com/api-evangelist/stellation/refs/heads/main/screenshots/stellation-2026-09-02T160839.png",
    "rank": 107
   }
  ]

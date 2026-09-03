@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 6
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 160 operations · 93 acting · 6 human-in-the-loop
 api_count: 30
 apis:
-- description: The AzureADOnlyAuthentications API from Azure Synapse Analytics — 2 operation(s) for azureadonlyauthentications.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The AzureADOnlyAuthentications API from Azure Synapse Analytics — 2 operation(s) for azureadonlyauthentications.
   name: Azure Synapse Analytics AzureADOnlyAuthentications API
   slug: microsoft-azure-synapse-analytics-azureadonlyauthentications-api
-- description: The BigDataPools API from Azure Synapse Analytics — 2 operation(s) for bigdatapools.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The BigDataPools API from Azure Synapse Analytics — 2 operation(s) for bigdatapools.
   name: Azure Synapse Analytics BigDataPools API
   slug: microsoft-azure-synapse-analytics-bigdatapools-api
-- description: The Credential API from Azure Synapse Analytics — 3 operation(s) for credential.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Credential API from Azure Synapse Analytics — 3 operation(s) for credential.
   name: Azure Synapse Analytics Credential API
   slug: microsoft-azure-synapse-analytics-credential-api
-- description: The DataFlow API from Azure Synapse Analytics — 3 operation(s) for dataflow.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DataFlow API from Azure Synapse Analytics — 3 operation(s) for dataflow.
   name: Azure Synapse Analytics DataFlow API
   slug: microsoft-azure-synapse-analytics-dataflow-api
-- description: The DataFlowDebugSession API from Azure Synapse Analytics — 5 operation(s) for dataflowdebugsession.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The DataFlowDebugSession API from Azure Synapse Analytics — 5 operation(s) for dataflowdebugsession.
   name: Azure Synapse Analytics DataFlowDebugSession API
   slug: microsoft-azure-synapse-analytics-dataflowdebugsession-api
-- description: The Dataset API from Azure Synapse Analytics — 3 operation(s) for dataset.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Dataset API from Azure Synapse Analytics — 3 operation(s) for dataset.
   name: Azure Synapse Analytics Dataset API
   slug: microsoft-azure-synapse-analytics-dataset-api
-- description: The GitIntegration API from Azure Synapse Analytics — 1 operation(s) for gitintegration.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The GitIntegration API from Azure Synapse Analytics — 1 operation(s) for gitintegration.
   name: Azure Synapse Analytics GitIntegration API
   slug: microsoft-azure-synapse-analytics-gitintegration-api
-- description: The IntegrationRuntimes API from Azure Synapse Analytics — 2 operation(s) for integrationruntimes.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IntegrationRuntimes API from Azure Synapse Analytics — 2 operation(s) for integrationruntimes.
   name: Azure Synapse Analytics IntegrationRuntimes API
   slug: microsoft-azure-synapse-analytics-integrationruntimes-api
-- description: The IpFirewallRules API from Azure Synapse Analytics — 3 operation(s) for ipfirewallrules.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The IpFirewallRules API from Azure Synapse Analytics — 3 operation(s) for ipfirewallrules.
   name: Azure Synapse Analytics IpFirewallRules API
   slug: microsoft-azure-synapse-analytics-ipfirewallrules-api
-- description: The Keys API from Azure Synapse Analytics — 2 operation(s) for keys.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Keys API from Azure Synapse Analytics — 2 operation(s) for keys.
   name: Azure Synapse Analytics Keys API
   slug: microsoft-azure-synapse-analytics-keys-api
-- description: The KqlScripts API from Azure Synapse Analytics — 3 operation(s) for kqlscripts.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The KqlScripts API from Azure Synapse Analytics — 3 operation(s) for kqlscripts.
   name: Azure Synapse Analytics KqlScripts API
   slug: microsoft-azure-synapse-analytics-kqlscripts-api
-- description: The KustoPools API from Azure Synapse Analytics — 2 operation(s) for kustopools.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The KustoPools API from Azure Synapse Analytics — 2 operation(s) for kustopools.
   name: Azure Synapse Analytics KustoPools API
   slug: microsoft-azure-synapse-analytics-kustopools-api
-- description: The Library API from Azure Synapse Analytics — 3 operation(s) for library.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Library API from Azure Synapse Analytics — 3 operation(s) for library.
   name: Azure Synapse Analytics Library API
   slug: microsoft-azure-synapse-analytics-library-api
-- description: The LinkConnection API from Azure Synapse Analytics — 6 operation(s) for linkconnection.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The LinkConnection API from Azure Synapse Analytics — 6 operation(s) for linkconnection.
   name: Azure Synapse Analytics LinkConnection API
   slug: microsoft-azure-synapse-analytics-linkconnection-api
-- description: The LinkedService API from Azure Synapse Analytics — 3 operation(s) for linkedservice.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The LinkedService API from Azure Synapse Analytics — 3 operation(s) for linkedservice.
   name: Azure Synapse Analytics LinkedService API
   slug: microsoft-azure-synapse-analytics-linkedservice-api
-- description: The ManagedPrivateEndpoints API from Azure Synapse Analytics — 2 operation(s) for managedprivateendpoints.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The ManagedPrivateEndpoints API from Azure Synapse Analytics — 2 operation(s) for managedprivateendpoints.
   name: Azure Synapse Analytics ManagedPrivateEndpoints API
   slug: microsoft-azure-synapse-analytics-managedprivateendpoints-api
-- description: The Monitoring API from Azure Synapse Analytics — 2 operation(s) for monitoring.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Monitoring API from Azure Synapse Analytics — 2 operation(s) for monitoring.
   name: Azure Synapse Analytics Monitoring API
   slug: microsoft-azure-synapse-analytics-monitoring-api
-- description: The Notebook API from Azure Synapse Analytics — 4 operation(s) for notebook.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Notebook API from Azure Synapse Analytics — 4 operation(s) for notebook.
   name: Azure Synapse Analytics Notebook API
   slug: microsoft-azure-synapse-analytics-notebook-api
-- description: The Pipeline API from Azure Synapse Analytics — 4 operation(s) for pipeline.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Pipeline API from Azure Synapse Analytics — 4 operation(s) for pipeline.
   name: Azure Synapse Analytics Pipeline API
   slug: microsoft-azure-synapse-analytics-pipeline-api
-- description: The PrivateEndpointConnections API from Azure Synapse Analytics — 2 operation(s) for privateendpointconnections.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PrivateEndpointConnections API from Azure Synapse Analytics — 2 operation(s) for privateendpointconnections.
   name: Azure Synapse Analytics PrivateEndpointConnections API
   slug: microsoft-azure-synapse-analytics-privateendpointconnections-api
-- description: The PrivateLinkHubs API from Azure Synapse Analytics — 3 operation(s) for privatelinkhubs.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The PrivateLinkHubs API from Azure Synapse Analytics — 3 operation(s) for privatelinkhubs.
   name: Azure Synapse Analytics PrivateLinkHubs API
   slug: microsoft-azure-synapse-analytics-privatelinkhubs-api
-- description: The RoleAssignments API from Azure Synapse Analytics — 2 operation(s) for roleassignments.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The RoleAssignments API from Azure Synapse Analytics — 2 operation(s) for roleassignments.
   name: Azure Synapse Analytics RoleAssignments API
   slug: microsoft-azure-synapse-analytics-roleassignments-api
-- description: The SparkBatch API from Azure Synapse Analytics — 2 operation(s) for sparkbatch.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SparkBatch API from Azure Synapse Analytics — 2 operation(s) for sparkbatch.
   name: Azure Synapse Analytics SparkBatch API
   slug: microsoft-azure-synapse-analytics-sparkbatch-api
-- description: The SparkConfiguration API from Azure Synapse Analytics — 3 operation(s) for sparkconfiguration.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SparkConfiguration API from Azure Synapse Analytics — 3 operation(s) for sparkconfiguration.
   name: Azure Synapse Analytics SparkConfiguration API
   slug: microsoft-azure-synapse-analytics-sparkconfiguration-api
-- description: The SparkJobDefinition API from Azure Synapse Analytics — 5 operation(s) for sparkjobdefinition.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SparkJobDefinition API from Azure Synapse Analytics — 5 operation(s) for sparkjobdefinition.
   name: Azure Synapse Analytics SparkJobDefinition API
   slug: microsoft-azure-synapse-analytics-sparkjobdefinition-api
-- description: The SparkSession API from Azure Synapse Analytics — 4 operation(s) for sparksession.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SparkSession API from Azure Synapse Analytics — 4 operation(s) for sparksession.
   name: Azure Synapse Analytics SparkSession API
   slug: microsoft-azure-synapse-analytics-sparksession-api
-- description: The SqlPoolRestorePoints API from Azure Synapse Analytics — 1 operation(s) for sqlpoolrestorepoints.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SqlPoolRestorePoints API from Azure Synapse Analytics — 1 operation(s) for sqlpoolrestorepoints.
   name: Azure Synapse Analytics SqlPoolRestorePoints API
   slug: microsoft-azure-synapse-analytics-sqlpoolrestorepoints-api
-- description: The SqlPools API from Azure Synapse Analytics — 4 operation(s) for sqlpools.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SqlPools API from Azure Synapse Analytics — 4 operation(s) for sqlpools.
   name: Azure Synapse Analytics SqlPools API
   slug: microsoft-azure-synapse-analytics-sqlpools-api
-- description: The SqlPoolTransparentDataEncryption API from Azure Synapse Analytics — 1 operation(s) for sqlpooltransparentdataencryption.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SqlPoolTransparentDataEncryption API from Azure Synapse Analytics — 1 operation(s) for sqlpooltransparentdataencryption.
   name: Azure Synapse Analytics SqlPoolTransparentDataEncryption API
   slug: microsoft-azure-synapse-analytics-sqlpooltransparentdataencryption-api
-- description: The SqlScript API from Azure Synapse Analytics — 3 operation(s) for sqlscript.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SqlScript API from Azure Synapse Analytics — 3 operation(s) for sqlscript.
   name: Azure Synapse Analytics SqlScript API
   slug: microsoft-azure-synapse-analytics-sqlscript-api
-- description: The SynapseLink API from Azure Synapse Analytics — 1 operation(s) for synapselink.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The SynapseLink API from Azure Synapse Analytics — 1 operation(s) for synapselink.
   name: Azure Synapse Analytics SynapseLink API
   slug: microsoft-azure-synapse-analytics-synapselink-api
-- description: The Trigger API from Azure Synapse Analytics — 7 operation(s) for trigger.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Trigger API from Azure Synapse Analytics — 7 operation(s) for trigger.
   name: Azure Synapse Analytics Trigger API
   slug: microsoft-azure-synapse-analytics-trigger-api
-- description: The WorkspaceAadAdmins API from Azure Synapse Analytics — 1 operation(s) for workspaceaadadmins.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkspaceAadAdmins API from Azure Synapse Analytics — 1 operation(s) for workspaceaadadmins.
   name: Azure Synapse Analytics WorkspaceAadAdmins API
   slug: microsoft-azure-synapse-analytics-workspaceaadadmins-api
-- description: The WorkspaceManagedIdentity API from Azure Synapse Analytics — 1 operation(s) for workspacemanagedidentity.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The WorkspaceManagedIdentity API from Azure Synapse Analytics — 1 operation(s) for workspacemanagedidentity.
   name: Azure Synapse Analytics WorkspaceManagedIdentity API
   slug: microsoft-azure-synapse-analytics-workspacemanagedidentity-api
-- description: The Workspaces API from Azure Synapse Analytics — 3 operation(s) for workspaces.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: The Workspaces API from Azure Synapse Analytics — 3 operation(s) for workspaces.
   name: Azure Synapse Analytics Workspaces API
   slug: microsoft-azure-synapse-analytics-workspaces-api
 arazzos:
@@ -1127,7 +1197,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/screenshots/microsoft-azure-synapse-analytics-2026-06-20T185441.png
 security:

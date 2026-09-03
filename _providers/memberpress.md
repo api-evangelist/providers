@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,43 +36,65 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: WordPress MCP server shipped by the MemberPress AI Foundation add-on. It exposes membership, subscription, transaction, coupon, access-rule and reporting tools — MemberPress states 41 tools on a stand
   name: MemberPress AI Foundation MCP Server
   slug: ai-foundation-mcp
-- description: Verify the API key and inspect permissions.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Verify the API key and inspect permissions.
   name: MemberPress Authentication API
   slug: memberpress-authentication-api
-- description: Discount codes applied at checkout.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Discount codes applied at checkout.
   name: MemberPress Coupons API
   slug: memberpress-coupons-api
-- description: The MemberPress event log.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: The MemberPress event log.
   name: MemberPress Events API
   slug: memberpress-events-api
-- description: Groups of memberships, used for pricing pages and upgrade paths.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Groups of memberships, used for pricing pages and upgrade paths.
   name: MemberPress Groups API
   slug: memberpress-groups-api
-- description: Members are the WordPress users MemberPress tracks.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Members are the WordPress users MemberPress tracks.
   name: MemberPress Members API
   slug: memberpress-members-api
-- description: Memberships are the products members buy.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Memberships are the products members buy.
   name: MemberPress Memberships API
   slug: memberpress-memberships-api
-- description: Scheduled member emails triggered by events.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Scheduled member emails triggered by events.
   name: MemberPress Reminders API
   slug: memberpress-reminders-api
-- description: Smart Rules that protect content and drip access.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Smart Rules that protect content and drip access.
   name: MemberPress Rules API
   slug: memberpress-rules-api
-- description: Recurring billing agreements.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Recurring billing agreements.
   name: MemberPress Subscriptions API
   slug: memberpress-subscriptions-api
-- description: One-time and recurring payment records.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: One-time and recurring payment records.
   name: MemberPress Transactions API
   slug: memberpress-transactions-api
-- description: Subscribe callback URLs to MemberPress events.
+- baseURL: https://{site}/wp-json/mp/v1
+  baseurl_source: declared
+  description: Subscribe callback URLs to MemberPress events.
   name: MemberPress Webhooks API
   slug: memberpress-webhooks-api
 artifact_total: 19
@@ -267,7 +302,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/screenshots/memberpress-2026-08-17T081042.png
 security:

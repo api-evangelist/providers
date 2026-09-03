@@ -34,16 +34,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Candidate invitations
+- baseURL: https://www.litmushiring.com/api/v1
+  baseurl_source: declared
+  description: Candidate invitations
   name: Litmus Hiring Invites API
   slug: litmus-hiring-invites-api
-- description: Open roles within your organization
+- baseURL: https://www.litmushiring.com/api/v1
+  baseurl_source: declared
+  description: Open roles within your organization
   name: Litmus Hiring Roles API
   slug: litmus-hiring-roles-api
-- description: Candidate assessment submissions
+- baseURL: https://www.litmushiring.com/api/v1
+  baseurl_source: declared
+  description: Candidate assessment submissions
   name: Litmus Hiring Submissions API
   slug: litmus-hiring-submissions-api
 artifact_total: 11
@@ -196,7 +202,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus-hiring/refs/heads/main/screenshots/litmus-hiring-2026-07-25T225341.png
 security:

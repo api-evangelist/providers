@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Account API from Vincario — 1 operation(s) for account.
+- baseURL: https://api.vindecoder.eu/3.2
+  baseurl_source: declared
+  description: The Account API from Vincario — 1 operation(s) for account.
   name: Vincario Account API
   slug: vincario-account-api
-- description: The Decode API from Vincario — 1 operation(s) for decode.
+- baseURL: https://api.vindecoder.eu/3.2
+  baseurl_source: declared
+  description: The Decode API from Vincario — 1 operation(s) for decode.
   name: Vincario Decode API
   slug: vincario-decode-api
-- description: The Market Value API from Vincario — 1 operation(s) for market value.
+- baseURL: https://api.vindecoder.eu/3.2
+  baseurl_source: declared
+  description: The Market Value API from Vincario — 1 operation(s) for market value.
   name: Vincario Market Value API
   slug: vincario-market-value-api
-- description: The Stolen Check API from Vincario — 1 operation(s) for stolen check.
+- baseURL: https://api.vindecoder.eu/3.2
+  baseurl_source: declared
+  description: The Stolen Check API from Vincario — 1 operation(s) for stolen check.
   name: Vincario Stolen Check API
   slug: vincario-stolen-check-api
-- description: The Vehicle Info API from Vincario — 1 operation(s) for vehicle info.
+- baseURL: https://api.vindecoder.eu/3.2
+  baseurl_source: declared
+  description: The Vehicle Info API from Vincario — 1 operation(s) for vehicle info.
   name: Vincario Vehicle Info API
   slug: vincario-vehicle-info-api
 artifact_total: 19
@@ -156,7 +166,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vincario/refs/heads/main/screenshots/vincario-2026-09-02T165927.png
 security:
 - kind: authentication
   name: Vincario Authentication

@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent pricing with direct-to-farm delivery. Delive
+- baseURL: https://www.fbn.com
+  baseurl_source: spec
+  description: FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent pricing with direct-to-farm delivery. Delive
   name: FBN Direct Inputs Marketplace
   slug: fbn-direct-inputs-marketplace
-- description: 'FBN Insights and seed analytics deliver personalized benchmarking, seed performance analysis, and crowdsourced agronomic data from the network. Delivered as a member-facing product surface; no public '
+- baseURL: https://www.fbn.com
+  baseurl_source: spec
+  description: 'FBN Insights and seed analytics deliver personalized benchmarking, seed performance analysis, and crowdsourced agronomic data from the network. Delivered as a member-facing product surface; no public '
   name: FBN Analytics and Insights
   slug: fbn-analytics
-- description: FBN Crop Marketing lets members review local bids, manage contracts, track scale tickets, and receive payments through a technology platform. Delivered as a member-facing product surface; no public de
+- baseURL: https://www.fbn.com
+  baseurl_source: spec
+  description: FBN Crop Marketing lets members review local bids, manage contracts, track scale tickets, and receive payments through a technology platform. Delivered as a member-facing product surface; no public de
   name: FBN Crop Marketing
   slug: fbn-crop-marketing
-- description: FBN Finance offers agricultural operating lines, equipment and land loans, refinancing, and crop insurance to member farms. Delivered as a member-facing product surface; no public developer API is doc
+- baseURL: https://www.fbn.com
+  baseurl_source: spec
+  description: FBN Finance offers agricultural operating lines, equipment and land loans, refinancing, and crop insurance to member farms. Delivered as a member-facing product surface; no public developer API is doc
   name: FBN Finance
   slug: fbn-finance
-- description: 'Norm is FBN''s LLM-based AI agronomy advisor, answering members'' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered '
+- baseURL: https://www.fbn.com
+  baseurl_source: spec
+  description: 'Norm is FBN''s LLM-based AI agronomy advisor, answering members'' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered '
   name: Norm AI Advisor
   slug: norm-ai-advisor
 artifact_total: 11
@@ -133,7 +143,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

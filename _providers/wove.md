@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 85 operations · 49 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: OAuth 2.0 authentication endpoints
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: OAuth 2.0 authentication endpoints
   name: Wove Authentication API
   slug: wove-authentication-api
-- description: Document management within shipments
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Document management within shipments
   name: Wove Documents API
   slug: wove-documents-api
-- description: Query Bank management - add/remove sources from your rate query pool
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Query Bank management - add/remove sources from your rate query pool
   name: Wove Query Bank API
   slug: wove-query-bank-api
-- description: Query freight rates from your Query Bank
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Query freight rates from your Query Bank
   name: Wove Rates API
   slug: wove-rates-api
-- description: Shipment management operations
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Shipment management operations
   name: Wove Shipments API
   slug: wove-shipments-api
-- description: Rate sheet source management - upload, process, and query status
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Rate sheet source management - upload, process, and query status
   name: Wove Sources API
   slug: wove-sources-api
-- description: Duty and tariff rate lookup by HS code with customer-specific overrides
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Duty and tariff rate lookup by HS code with customer-specific overrides
   name: Wove Tariffs API
   slug: wove-tariffs-api
-- description: Test endpoints for API validation
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Test endpoints for API validation
   name: Wove Testing API
   slug: wove-testing-api
-- description: TMS organization management - CRUD and bulk JSONL import
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: TMS organization management - CRUD and bulk JSONL import
   name: Wove TMS Organizations API
   slug: wove-tms-organizations-api
-- description: Webhook management for async notifications
+- baseURL: https://api.wove.com
+  baseurl_source: spec
+  description: Webhook management for async notifications
   name: Wove Webhooks API
   slug: wove-webhooks-api
 artifact_total: 28
@@ -159,7 +179,7 @@ score:
   band: emerging
   composite: 25.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 90.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -182,8 +202,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/screenshots/wove-2026-09-02T171001.png
 security:
 - kind: authentication
   name: Wove Authentication

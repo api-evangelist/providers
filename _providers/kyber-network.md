@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The General API from Kyber Network — 2 operation(s) for general.
+- baseURL: https://aggregator-api.kyberswap.com
+  baseurl_source: declared
+  description: The General API from Kyber Network — 2 operation(s) for general.
   name: Kyber Network General API
   slug: kyber-network-general-api
-- description: The Maker API from Kyber Network — 8 operation(s) for maker.
+- baseURL: https://aggregator-api.kyberswap.com
+  baseurl_source: declared
+  description: The Maker API from Kyber Network — 8 operation(s) for maker.
   name: Kyber Network Maker API
   slug: kyber-network-maker-api
-- description: The Service API from Kyber Network — 3 operation(s) for service.
+- baseURL: https://aggregator-api.kyberswap.com
+  baseurl_source: declared
+  description: The Service API from Kyber Network — 3 operation(s) for service.
   name: Kyber Network Service API
   slug: kyber-network-service-api
-- description: The swap API from Kyber Network — 3 operation(s) for swap.
+- baseURL: https://aggregator-api.kyberswap.com
+  baseurl_source: declared
+  description: The swap API from Kyber Network — 3 operation(s) for swap.
   name: Kyber Network swap API
   slug: kyber-network-swap-api
-- description: The Taker API from Kyber Network — 4 operation(s) for taker.
+- baseURL: https://aggregator-api.kyberswap.com
+  baseurl_source: declared
+  description: The Taker API from Kyber Network — 4 operation(s) for taker.
   name: Kyber Network Taker API
   slug: kyber-network-taker-api
 artifact_total: 15
@@ -253,7 +263,7 @@ score:
     regime_id: securities_market_data
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 14 operations · 1 human-in-the-loop
 api_count: 11
 apis:
-- description: OpenAI-compatible generative-AI gateway built and run by EDINA at the University of Edinburgh, described by its own metadata as delivering generative AI to UK tertiary education. /api/v1/models and /a
+- baseURL: https://elm.edina.ac.uk/api/v1
+  baseurl_source: declared
+  description: OpenAI-compatible generative-AI gateway built and run by EDINA at the University of Edinburgh, described by its own metadata as delivering generative AI to UK tertiary education. /api/v1/models and /a
   name: ELM — Edinburgh Language Models API
   slug: elm-api
 - description: 'Shibboleth Identity Provider publishing SAML 2.0 entity metadata unauthenticated at a stable URL, entityID https://idp.ed.ac.uk/shibboleth. Advertises the full SAML 2.0 binding set for SSO and Single '
@@ -58,13 +60,19 @@ apis:
 - description: DiscoverEd is the University Library's discovery layer, an Ex Libris Primo tenancy on an Edinburgh subdomain. The holdings are Edinburgh's; the search API is Ex Libris's product and is not saved under
   name: DiscoverEd Library Discovery (Ex Libris Primo) — tenant
   slug: discovered-primo
-- description: Read actions on the EIDF Data Catalogue
+- baseURL: https://datashare.ed.ac.uk/server/api
+  baseurl_source: declared
+  description: Read actions on the EIDF Data Catalogue
   name: University of Edinburgh Catalogue API
   slug: university-of-edinburgh-catalogue-api
-- description: OAI-PMH 2.0 metadata harvesting for Edinburgh DataShare
+- baseURL: https://datashare.ed.ac.uk/server/api
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata harvesting for Edinburgh DataShare
   name: University of Edinburgh OAI PMH API
   slug: university-of-edinburgh-oai-pmh-api
-- description: Service root, communities, collections and discovery for Edinburgh DataShare
+- baseURL: https://datashare.ed.ac.uk/server/api
+  baseurl_source: declared
+  description: Service root, communities, collections and discovery for Edinburgh DataShare
   name: University of Edinburgh Repository API
   slug: university-of-edinburgh-repository-api
 artifact_total: 26
@@ -284,7 +292,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -4.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -294,7 +302,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +318,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
 security:

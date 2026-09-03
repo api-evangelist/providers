@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 36 operations · 10 acting
 api_count: 1
 apis:
-- description: Authentication operations
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Authentication operations
   name: Itch.io Auth API
   slug: itch-io-auth-api
-- description: Operations related to wharf builds
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to wharf builds
   name: Itch.io Builds API
   slug: itch-io-builds-api
-- description: Operations related to game bundles
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to game bundles
   name: Itch.io Bundles API
   slug: itch-io-bundles-api
-- description: Operations related to user game collections
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to user game collections
   name: Itch.io Collections API
   slug: itch-io-collections-api
-- description: The Downloads API from Itch.io — 1 operation(s) for downloads.
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: The Downloads API from Itch.io — 1 operation(s) for downloads.
   name: Itch.io Downloads API
   slug: itch-io-downloads-api
-- description: Operations related to itch.io game pages
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to itch.io game pages
   name: Itch.io Games API
   slug: itch-io-games-api
-- description: Operations related to the authenticated user's profile
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to the authenticated user's profile
   name: Itch.io Profile API
   slug: itch-io-profile-api
-- description: Search operations
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Search operations
   name: Itch.io Search API
   slug: itch-io-search-api
-- description: Operations related to game uploads and downloads
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Operations related to game uploads and downloads
   name: Itch.io Uploads API
   slug: itch-io-uploads-api
-- description: User lookup operations
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: User lookup operations
   name: Itch.io Users API
   slug: itch-io-users-api
-- description: Wharf build infrastructure operations (butler/CI integration)
+- baseURL: https://api.itch.io
+  baseurl_source: declared
+  description: Wharf build infrastructure operations (butler/CI integration)
   name: Itch.io Wharf API
   slug: itch-io-wharf-api
 artifact_total: 38
@@ -264,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itch-io/refs/heads/main/screenshots/itch-io-2026-08-17T123919.png
 security:

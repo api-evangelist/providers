@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: AVAP BRUNIX is an AI copilot integrated into the AVAP framework, providing intelligent assistance for API development, code generation, testing automation, and API lifecycle management.
@@ -106,7 +106,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 14.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avap-brunix/refs/heads/main/screenshots/avap-brunix-2026-06-20T172724.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -43,103 +43,169 @@ agentic_access:
   summary_line: 189 operations · 88 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin Settings API from Armada — 1 operation(s) for admin settings.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Admin Settings API from Armada — 1 operation(s) for admin settings.
   name: Armada Admin Settings API
   slug: armada-admin-settings-api
-- description: The App Catalog API from Armada — 2 operation(s) for app catalog.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The App Catalog API from Armada — 2 operation(s) for app catalog.
   name: Armada App Catalog API
   slug: armada-app-catalog-api
-- description: The Catalog API from Armada — 5 operation(s) for catalog.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Catalog API from Armada — 5 operation(s) for catalog.
   name: Armada Catalog API
   slug: armada-catalog-api
-- description: The Clusters API from Armada — 11 operation(s) for clusters.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Clusters API from Armada — 11 operation(s) for clusters.
   name: Armada Clusters API
   slug: armada-clusters-api
-- description: The CMS API from Armada — 3 operation(s) for cms.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The CMS API from Armada — 3 operation(s) for cms.
   name: Armada CMS API
   slug: armada-cms-api
-- description: The Dashboard API from Armada — 1 operation(s) for dashboard.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Dashboard API from Armada — 1 operation(s) for dashboard.
   name: Armada Dashboard API
   slug: armada-dashboard-api
-- description: The Data Volumes API from Armada — 2 operation(s) for data volumes.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Data Volumes API from Armada — 2 operation(s) for data volumes.
   name: Armada Data Volumes API
   slug: armada-data-volumes-api
-- description: The Datasets API from Armada — 2 operation(s) for datasets.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Datasets API from Armada — 2 operation(s) for datasets.
   name: Armada Datasets API
   slug: armada-datasets-api
-- description: The Device Discovery API from Armada — 3 operation(s) for device discovery.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Device Discovery API from Armada — 3 operation(s) for device discovery.
   name: Armada Device Discovery API
   slug: armada-device-discovery-api
-- description: The Endpoints API from Armada — 3 operation(s) for endpoints.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Endpoints API from Armada — 3 operation(s) for endpoints.
   name: Armada Endpoints API
   slug: armada-endpoints-api
-- description: The Features API from Armada — 1 operation(s) for features.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Features API from Armada — 1 operation(s) for features.
   name: Armada Features API
   slug: armada-features-api
-- description: The Health & Debug API from Armada — 2 operation(s) for health & debug.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Health & Debug API from Armada — 2 operation(s) for health & debug.
   name: Armada Health & Debug API
   slug: armada-health-debug-api
-- description: The Infra Import API from Armada — 7 operation(s) for infra import.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Infra Import API from Armada — 7 operation(s) for infra import.
   name: Armada Infra Import API
   slug: armada-infra-import-api
-- description: The Load Balancers API from Armada — 2 operation(s) for load balancers.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Load Balancers API from Armada — 2 operation(s) for load balancers.
   name: Armada Load Balancers API
   slug: armada-load-balancers-api
-- description: The Log Level API from Armada — 3 operation(s) for log level.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Log Level API from Armada — 3 operation(s) for log level.
   name: Armada Log Level API
   slug: armada-log-level-api
-- description: The Metal API from Armada — 8 operation(s) for metal.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Metal API from Armada — 8 operation(s) for metal.
   name: Armada Metal API
   slug: armada-metal-api
-- description: The Models API from Armada — 3 operation(s) for models.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Models API from Armada — 3 operation(s) for models.
   name: Armada Models API
   slug: armada-models-api
-- description: The Monetize API from Armada — 3 operation(s) for monetize.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Monetize API from Armada — 3 operation(s) for monetize.
   name: Armada Monetize API
   slug: armada-monetize-api
-- description: The NetQ API from Armada — 6 operation(s) for netq.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The NetQ API from Armada — 6 operation(s) for netq.
   name: Armada NetQ API
   slug: armada-netq-api
-- description: The Network API from Armada — 8 operation(s) for network.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Network API from Armada — 8 operation(s) for network.
   name: Armada Network API
   slug: armada-network-api
-- description: The PaaS API from Armada — 3 operation(s) for paas.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The PaaS API from Armada — 3 operation(s) for paas.
   name: Armada PaaS API
   slug: armada-paas-api
-- description: The Quotas API from Armada — 9 operation(s) for quotas.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Quotas API from Armada — 9 operation(s) for quotas.
   name: Armada Quotas API
   slug: armada-quotas-api
-- description: The S3 API from Armada — 5 operation(s) for s3.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The S3 API from Armada — 5 operation(s) for s3.
   name: Armada S3 API
   slug: armada-s3-api
-- description: The Security Groups API from Armada — 2 operation(s) for security groups.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Security Groups API from Armada — 2 operation(s) for security groups.
   name: Armada Security Groups API
   slug: armada-security-groups-api
-- description: The Servers API from Armada — 2 operation(s) for servers.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Servers API from Armada — 2 operation(s) for servers.
   name: Armada Servers API
   slug: armada-servers-api
-- description: The Slurm API from Armada — 2 operation(s) for slurm.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Slurm API from Armada — 2 operation(s) for slurm.
   name: Armada Slurm API
   slug: armada-slurm-api
-- description: The Storage API from Armada — 6 operation(s) for storage.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Storage API from Armada — 6 operation(s) for storage.
   name: Armada Storage API
   slug: armada-storage-api
-- description: The Storage Classes API from Armada — 2 operation(s) for storage classes.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Storage Classes API from Armada — 2 operation(s) for storage classes.
   name: Armada Storage Classes API
   slug: armada-storage-classes-api
-- description: The Templates API from Armada — 2 operation(s) for templates.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Templates API from Armada — 2 operation(s) for templates.
   name: Armada Templates API
   slug: armada-templates-api
-- description: The Tenant Common Storage API from Armada — 2 operation(s) for tenant common storage.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Tenant Common Storage API from Armada — 2 operation(s) for tenant common storage.
   name: Armada Tenant Common Storage API
   slug: armada-tenant-common-storage-api
-- description: The Tenants API from Armada — 2 operation(s) for tenants.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The Tenants API from Armada — 2 operation(s) for tenants.
   name: Armada Tenants API
   slug: armada-tenants-api
-- description: The VMs API from Armada — 11 operation(s) for vms.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The VMs API from Armada — 11 operation(s) for vms.
   name: Armada VMs API
   slug: armada-vms-api
-- description: The VPC API from Armada — 4 operation(s) for vpc.
+- baseURL: https://console.armada.ai
+  baseurl_source: declared
+  description: The VPC API from Armada — 4 operation(s) for vpc.
   name: Armada VPC API
   slug: armada-vpc-api
 artifact_total: 71
@@ -378,7 +444,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/screenshots/armada-2026-07-25T201219.png
 security:

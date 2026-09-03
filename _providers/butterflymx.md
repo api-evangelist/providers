@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,49 +36,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
   name: ButterflyMX Access groups API
   slug: butterflymx-access-groups-api
-- description: The Access Logs API from ButterflyMX — 2 operation(s) for access logs.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Access Logs API from ButterflyMX — 2 operation(s) for access logs.
   name: ButterflyMX Access Logs API
   slug: butterflymx-access-logs-api
-- description: The Access Points API from ButterflyMX — 3 operation(s) for access points.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Access Points API from ButterflyMX — 3 operation(s) for access points.
   name: ButterflyMX Access Points API
   slug: butterflymx-access-points-api
-- description: The Access Tools API from ButterflyMX — 5 operation(s) for access tools.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Access Tools API from ButterflyMX — 5 operation(s) for access tools.
   name: ButterflyMX Access Tools API
   slug: butterflymx-access-tools-api
-- description: The Building Integrations API from ButterflyMX — 2 operation(s) for building integrations.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Building Integrations API from ButterflyMX — 2 operation(s) for building integrations.
   name: ButterflyMX Building Integrations API
   slug: butterflymx-building-integrations-api
-- description: The Buildings API from ButterflyMX — 3 operation(s) for buildings.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Buildings API from ButterflyMX — 3 operation(s) for buildings.
   name: ButterflyMX Buildings API
   slug: butterflymx-buildings-api
-- description: The Calls API from ButterflyMX — 2 operation(s) for calls.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Calls API from ButterflyMX — 2 operation(s) for calls.
   name: ButterflyMX Calls API
   slug: butterflymx-calls-api
-- description: The Devices API from ButterflyMX — 2 operation(s) for devices.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Devices API from ButterflyMX — 2 operation(s) for devices.
   name: ButterflyMX Devices API
   slug: butterflymx-devices-api
-- description: The Door Release Requests API from ButterflyMX — 1 operation(s) for door release requests.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Door Release Requests API from ButterflyMX — 1 operation(s) for door release requests.
   name: ButterflyMX Door Release Requests API
   slug: butterflymx-door-release-requests-api
-- description: The Keychains API from ButterflyMX — 6 operation(s) for keychains.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Keychains API from ButterflyMX — 6 operation(s) for keychains.
   name: ButterflyMX Keychains API
   slug: butterflymx-keychains-api
-- description: The Tenant Integrations API from ButterflyMX — 2 operation(s) for tenant integrations.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Tenant Integrations API from ButterflyMX — 2 operation(s) for tenant integrations.
   name: ButterflyMX Tenant Integrations API
   slug: butterflymx-tenant-integrations-api
-- description: The Tenants API from ButterflyMX — 3 operation(s) for tenants.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Tenants API from ButterflyMX — 3 operation(s) for tenants.
   name: ButterflyMX Tenants API
   slug: butterflymx-tenants-api
-- description: The Units API from ButterflyMX — 4 operation(s) for units.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Units API from ButterflyMX — 4 operation(s) for units.
   name: ButterflyMX Units API
   slug: butterflymx-units-api
-- description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
+- baseURL: https://api.butterflymx.com
+  baseurl_source: declared
+  description: The Virtual Keys API from ButterflyMX — 2 operation(s) for virtual keys.
   name: ButterflyMX Virtual Keys API
   slug: butterflymx-virtual-keys-api
 artifact_total: 35
@@ -294,7 +335,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -304,7 +345,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 38.4
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -315,7 +356,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,22 +42,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: The Free Bike Status API from Lime — 1 operation(s) for free bike status.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The Free Bike Status API from Lime — 1 operation(s) for free bike status.
   name: Lime Free Bike Status API
   slug: lime-free-bike-status-api
-- description: The Gbfs.json API from Lime — 1 operation(s) for gbfs.json.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The Gbfs.json API from Lime — 1 operation(s) for gbfs.json.
   name: Lime Gbfs.json API
   slug: lime-gbfs-json-api
-- description: The Station Information API from Lime — 1 operation(s) for station information.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The Station Information API from Lime — 1 operation(s) for station information.
   name: Lime Station Information API
   slug: lime-station-information-api
-- description: The Station Status API from Lime — 1 operation(s) for station status.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The Station Status API from Lime — 1 operation(s) for station status.
   name: Lime Station Status API
   slug: lime-station-status-api
-- description: The System Information API from Lime — 1 operation(s) for system information.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The System Information API from Lime — 1 operation(s) for system information.
   name: Lime System Information API
   slug: lime-system-information-api
-- description: The Vehicle Types API from Lime — 1 operation(s) for vehicle types.
+- baseURL_template: https://data.lime.bike/api/partners/v2/gbfs/{city}
+  baseurl_source: spec_template
+  description: The Vehicle Types API from Lime — 1 operation(s) for vehicle types.
   name: Lime Vehicle Types API
   slug: lime-vehicle-types-api
 artifact_total: 17
@@ -208,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/screenshots/lime-2026-06-20T184529.png
 security:

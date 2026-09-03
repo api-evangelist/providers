@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: The State Farm B2B Insurance Inquiry API provides home and auto lenders with a programmatic way to verify that borrowers maintain adequate insurance coverage on financed properties and vehicles. Lende
   name: B2B Insurance Inquiry API
   slug: b2b-insurance-inquiry-api
-- description: Coverage options and details
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Coverage options and details
   name: State Farm Insurance Coverage API
   slug: state-farm-insurance-coverage-api
-- description: Renters insurance policy operations
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance policy operations
   name: State Farm Insurance Policies API
   slug: state-farm-insurance-policies-api
-- description: Renters insurance quote operations
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance quote operations
   name: State Farm Insurance Quotes API
   slug: state-farm-insurance-quotes-api
 artifact_total: 25
@@ -266,7 +272,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/screenshots/state-farm-insurance-2026-06-20T194522.png
 security:

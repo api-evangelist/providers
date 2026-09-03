@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Community's Data Export API allows programmatic retrieval of account data in CSV or JSON formats, including member detail, campaign performance, link click performance, subscription state changes, and
   name: Community Data Export API
   slug: community-data-export-api
-- description: The member-data API from Community — 4 operation(s) for member-data.
+- baseURL: https://api.community.com/webhooks/v1/community
+  baseurl_source: declared
+  description: The member-data API from Community — 4 operation(s) for member-data.
   name: Community member-data API
   slug: community-member-data-api
-- description: The messaging API from Community — 1 operation(s) for messaging.
+- baseURL: https://api.community.com/webhooks/v1/community
+  baseurl_source: declared
+  description: The messaging API from Community — 1 operation(s) for messaging.
   name: Community messaging API
   slug: community-messaging-api
-- description: The tags API from Community — 4 operation(s) for tags.
+- baseURL: https://api.community.com/webhooks/v1/community
+  baseurl_source: declared
+  description: The tags API from Community — 4 operation(s) for tags.
   name: Community tags API
   slug: community-tags-api
 artifact_total: 17
@@ -243,7 +249,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -253,7 +259,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,7 +277,7 @@ score:
     regime_id: telecommunications
     score: 65.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:

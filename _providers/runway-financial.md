@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 4 operations
 api_count: 1
 apis:
-- description: 'Limited, read-only REST API to programmatically export Runway model pages (submodels) and database pages as CSV, optionally within a proposal (scenario) layer. Bearer-authenticated with an API secret '
+- baseURL: https://runway-api.cfo.ai
+  baseurl_source: declared
+  description: 'Limited, read-only REST API to programmatically export Runway model pages (submodels) and database pages as CSV, optionally within a proposal (scenario) layer. Bearer-authenticated with an API secret '
   name: Runway Export API
   slug: runway-export-api
 artifact_total: 10
@@ -210,7 +212,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/screenshots/runway-financial-2026-08-17T081657.png
 security:

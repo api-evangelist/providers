@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +35,27 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: The accounts API from Virtuosis Voice Biomarker API — 1 operation(s) for accounts.
+- baseURL: https://api.virtuosis.ai/v1.3
+  baseurl_source: declared
+  description: The accounts API from Virtuosis Voice Biomarker API — 1 operation(s) for accounts.
   name: Virtuosis Voice Biomarker API Accounts API
   slug: virtuosis-voice-biomarker-api-accounts-api
-- description: The Voice Biomarker Api Default API from Virtuosis Voice Biomarker API — 1 operation(s) for voice biomarker api default.
+- baseURL: https://api.virtuosis.ai/v1.3
+  baseurl_source: declared
+  description: The Voice Biomarker Api Default API from Virtuosis Voice Biomarker API — 1 operation(s) for voice biomarker api default.
   name: Virtuosis Voice Biomarker API Voice Biomarker Api Default API
   slug: virtuosis-voice-biomarker-api-default-api
-- description: The recordings API from Virtuosis Voice Biomarker API — 2 operation(s) for recordings.
+- baseURL: https://api.virtuosis.ai/v1.3
+  baseurl_source: declared
+  description: The recordings API from Virtuosis Voice Biomarker API — 2 operation(s) for recordings.
   name: Virtuosis Voice Biomarker API Recordings API
   slug: virtuosis-voice-biomarker-api-recordings-api
-- description: The usage API from Virtuosis Voice Biomarker API — 1 operation(s) for usage.
+- baseURL: https://api.virtuosis.ai/v1.3
+  baseurl_source: declared
+  description: The usage API from Virtuosis Voice Biomarker API — 1 operation(s) for usage.
   name: Virtuosis Voice Biomarker API Usage API
   slug: virtuosis-voice-biomarker-api-usage-api
 artifact_total: 10
@@ -196,7 +216,7 @@ score:
   band: developing
   composite: 46.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +247,9 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/virtuosis-voice-biomarker-api/refs/heads/main/screenshots/virtuosis-voice-biomarker-api-2026-09-02T170023.png
 security:
 - kind: authentication
   name: Virtuosis Voice Biomarker Api Authentication

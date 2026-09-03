@@ -34,40 +34,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
-- description: The Account Services API from Return Path — 13 operation(s) for account services.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Account Services API from Return Path — 13 operation(s) for account services.
   name: Return Path Account Services API
   slug: return-path-account-services-api
-- description: The Apps & Integrations API from Return Path — 12 operation(s) for apps & integrations.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Apps & Integrations API from Return Path — 12 operation(s) for apps & integrations.
   name: Return Path Apps & Integrations API
   slug: return-path-apps-integrations-api
-- description: The Certification API from Return Path — 2 operation(s) for certification.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Certification API from Return Path — 2 operation(s) for certification.
   name: Return Path Certification API
   slug: return-path-certification-api
-- description: The Competitive Intel API from Return Path — 7 operation(s) for competitive intel.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Competitive Intel API from Return Path — 7 operation(s) for competitive intel.
   name: Return Path Competitive Intel API
   slug: return-path-competitive-intel-api
-- description: The Engagement API from Return Path — 35 operation(s) for engagement.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Engagement API from Return Path — 35 operation(s) for engagement.
   name: Return Path Engagement API
   slug: return-path-engagement-api
-- description: The Inbox Placement API from Return Path — 17 operation(s) for inbox placement.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Inbox Placement API from Return Path — 17 operation(s) for inbox placement.
   name: Return Path Inbox Placement API
   slug: return-path-inbox-placement-api
-- description: The Infrastructure (DMARC) API from Return Path — 10 operation(s) for infrastructure (dmarc).
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Infrastructure (DMARC) API from Return Path — 10 operation(s) for infrastructure (dmarc).
   name: Return Path Infrastructure (DMARC) API
   slug: return-path-infrastructure-dmarc-api
-- description: The Legacy API (1.0) API from Return Path — 6 operation(s) for legacy api (1.0).
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Legacy API (1.0) API from Return Path — 6 operation(s) for legacy api (1.0).
   name: Return Path Legacy API (1.0) API
   slug: return-path-legacy-api-1-0-api
-- description: The List Validation API from Return Path — 6 operation(s) for list validation.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The List Validation API from Return Path — 6 operation(s) for list validation.
   name: Return Path List Validation API
   slug: return-path-list-validation-api
-- description: The Reputation API from Return Path — 18 operation(s) for reputation.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The Reputation API from Return Path — 18 operation(s) for reputation.
   name: Return Path Reputation API
   slug: return-path-reputation-api
-- description: The View Time Optimization API from Return Path — 4 operation(s) for view time optimization.
+- baseURL: https://api.everest.validity.com/api
+  baseurl_source: declared
+  description: The View Time Optimization API from Return Path — 4 operation(s) for view time optimization.
   name: Return Path View Time Optimization API
   slug: return-path-view-time-optimization-api
 artifact_total: 18
@@ -245,7 +267,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -255,7 +277,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 40.7
+  previous_composite: 40.6
   provenance:
     conformance: derived
     contracts:
@@ -266,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/screenshots/return-path-2026-08-17T081538.png
 security:

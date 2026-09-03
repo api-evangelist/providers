@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,31 +44,49 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: The Comments API from HouseSigma — 2 operation(s) for comments.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Comments API from HouseSigma — 2 operation(s) for comments.
   name: HouseSigma Comments API
   slug: housesigma-comments-api
-- description: The Media API from HouseSigma — 2 operation(s) for media.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Media API from HouseSigma — 2 operation(s) for media.
   name: HouseSigma Media API
   slug: housesigma-media-api
-- description: The oEmbed API from HouseSigma — 1 operation(s) for oembed.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The oEmbed API from HouseSigma — 1 operation(s) for oembed.
   name: HouseSigma O Embed API
   slug: housesigma-oembed-api
-- description: The Pages API from HouseSigma — 2 operation(s) for pages.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Pages API from HouseSigma — 2 operation(s) for pages.
   name: HouseSigma Pages API
   slug: housesigma-pages-api
-- description: The Posts API from HouseSigma — 2 operation(s) for posts.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Posts API from HouseSigma — 2 operation(s) for posts.
   name: HouseSigma Posts API
   slug: housesigma-posts-api
-- description: The Search API from HouseSigma — 1 operation(s) for search.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Search API from HouseSigma — 1 operation(s) for search.
   name: HouseSigma Search API
   slug: housesigma-search-api
-- description: The Taxonomies API from HouseSigma — 4 operation(s) for taxonomies.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Taxonomies API from HouseSigma — 4 operation(s) for taxonomies.
   name: HouseSigma Taxonomies API
   slug: housesigma-taxonomies-api
-- description: The Types API from HouseSigma — 6 operation(s) for types.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Types API from HouseSigma — 6 operation(s) for types.
   name: HouseSigma Types API
   slug: housesigma-types-api
-- description: The Users API from HouseSigma — 2 operation(s) for users.
+- baseURL: https://housesigma.com/blog-en/wp-json
+  baseurl_source: declared
+  description: The Users API from HouseSigma — 2 operation(s) for users.
   name: HouseSigma Users API
   slug: housesigma-users-api
 artifact_total: 19
@@ -251,7 +280,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png
 security:

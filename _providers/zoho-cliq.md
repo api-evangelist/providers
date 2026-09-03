@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 158 operations · 117 acting
 api_count: 22
 apis:
-- description: The Bots API from Zoho Cliq — 9 operation(s) for bots.
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: The Bots API from Zoho Cliq — 9 operation(s) for bots.
   name: Zoho Cliq Bots API
   slug: zoho-cliq-bots-api
-- description: Buttons Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Buttons Module
   name: Zoho Cliq buttons API
   slug: zoho-cliq-buttons-api
-- description: Chats Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Chats Module
   name: Zoho Cliq chats API
   slug: zoho-cliq-chats-api
-- description: DND Settings Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: DND Settings Module
   name: Zoho Cliq dndsettings API
   slug: zoho-cliq-dndsettings-api
-- description: Extensions Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Extensions Module
   name: Zoho Cliq Extensions API
   slug: zoho-cliq-extensions-api
-- description: Functions Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Functions Module
   name: Zoho Cliq Functions API
   slug: zoho-cliq-functions-api
-- description: Keyboard Shortcuts Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Keyboard Shortcuts Module
   name: Zoho Cliq keyboardshortcuts API
   slug: zoho-cliq-keyboardshortcuts-api
-- description: Mentions Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Mentions Module
   name: Zoho Cliq mentions API
   slug: zoho-cliq-mentions-api
-- description: Message Actions Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Message Actions Module
   name: Zoho Cliq messageactions API
   slug: zoho-cliq-messageactions-api
-- description: APIs for sending structured interactive message cards (Poll, Modern Inline, and Prompt) inside Zoho Cliq conversations.
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: APIs for sending structured interactive message cards (Poll, Modern Inline, and Prompt) inside Zoho Cliq conversations.
   name: Zoho Cliq messagecards API
   slug: zoho-cliq-messagecards-api
-- description: Message Format Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Message Format Module
   name: Zoho Cliq messageformat API
   slug: zoho-cliq-messageformat-api
-- description: Messages Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Messages Module
   name: Zoho Cliq messages API
   slug: zoho-cliq-messages-api
-- description: Mobile Settings Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Mobile Settings Module
   name: Zoho Cliq mobilesettings API
   slug: zoho-cliq-mobilesettings-api
-- description: My Pins and Chat Folders Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: My Pins and Chat Folders Module
   name: Zoho Cliq mypins API
   slug: zoho-cliq-mypins-api
-- description: Pin Messages Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Pin Messages Module
   name: Zoho Cliq pinmessages API
   slug: zoho-cliq-pinmessages-api
-- description: 'Manage Cliq Datastores - structured, schema-defined storage tables scoped to an organisation or extension. Datastores allow platform components to persist and query structured data across executions. '
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: 'Manage Cliq Datastores - structured, schema-defined storage tables scoped to an organisation or extension. Datastores allow platform components to persist and query structured data across executions. '
   name: Zoho Cliq Platform_storage API
   slug: zoho-cliq-platform-storage-api
-- description: Reminders Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Reminders Module
   name: Zoho Cliq reminders API
   slug: zoho-cliq-reminders-api
-- description: Scheduled Messages Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Scheduled Messages Module
   name: Zoho Cliq scheduledmessages API
   slug: zoho-cliq-scheduledmessages-api
-- description: Slash Commands Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Slash Commands Module
   name: Zoho Cliq slashcommands API
   slug: zoho-cliq-slashcommands-api
-- description: The Stars API from Zoho Cliq — 2 operation(s) for stars.
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: The Stars API from Zoho Cliq — 2 operation(s) for stars.
   name: Zoho Cliq Stars API
   slug: zoho-cliq-stars-api
-- description: Threads Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: Threads Module
   name: Zoho Cliq threads API
   slug: zoho-cliq-threads-api
-- description: User Preferences Module
+- baseURL: https://cliq.zoho.com/api/v3
+  baseurl_source: declared
+  description: User Preferences Module
   name: Zoho Cliq userpreferences API
   slug: zoho-cliq-userpreferences-api
 artifact_total: 97
@@ -450,7 +494,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/screenshots/zoho-cliq-2026-06-20T201935.png
 security:

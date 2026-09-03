@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Fraud case retrieval and updates.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: Fraud case retrieval and updates.
   name: UrbanFox Cases API
   slug: urbanfox-cases-api
-- description: End-user account retrieval, creation, updates, and deletion.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: End-user account retrieval, creation, updates, and deletion.
   name: UrbanFox End User Accounts API
   slug: urbanfox-end-user-accounts-api
-- description: Aggregated tenant metrics and time-series reporting.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: Aggregated tenant metrics and time-series reporting.
   name: UrbanFox Metrics API
   slug: urbanfox-metrics-api
-- description: OAuth token generation for machine-to-machine authentication.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: OAuth token generation for machine-to-machine authentication.
   name: UrbanFox OAuth API
   slug: urbanfox-oauth-api
-- description: Tenant integration snippet retrieval.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: Tenant integration snippet retrieval.
   name: UrbanFox Snippet API
   slug: urbanfox-snippet-api
-- description: Tenant details and tenant authentication credentials.
+- baseURL: https://api.demo-retail.urbanfox.io
+  baseurl_source: declared
+  description: Tenant details and tenant authentication credentials.
   name: UrbanFox Tenants API
   slug: urbanfox-tenants-api
 artifact_total: 18
@@ -239,7 +251,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/screenshots/urbanfox-2026-08-17T082646.png
 security:

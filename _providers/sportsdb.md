@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: The Events API from TheSportsDB — 5 operation(s) for events.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Events API from TheSportsDB — 5 operation(s) for events.
   name: TheSportsDB Events API
   slug: sportsdb-events-api
-- description: The Leagues API from TheSportsDB — 5 operation(s) for leagues.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Leagues API from TheSportsDB — 5 operation(s) for leagues.
   name: TheSportsDB Leagues API
   slug: sportsdb-leagues-api
-- description: The Livescores API from TheSportsDB — 1 operation(s) for livescores.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Livescores API from TheSportsDB — 1 operation(s) for livescores.
   name: TheSportsDB Livescores API
   slug: sportsdb-livescores-api
-- description: The Lookup API from TheSportsDB — 5 operation(s) for lookup.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Lookup API from TheSportsDB — 5 operation(s) for lookup.
   name: TheSportsDB Lookup API
   slug: sportsdb-lookup-api
-- description: The Players API from TheSportsDB — 1 operation(s) for players.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Players API from TheSportsDB — 1 operation(s) for players.
   name: TheSportsDB Players API
   slug: sportsdb-players-api
-- description: The Search API from TheSportsDB — 4 operation(s) for search.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Search API from TheSportsDB — 4 operation(s) for search.
   name: TheSportsDB Search API
   slug: sportsdb-search-api
-- description: The Teams API from TheSportsDB — 1 operation(s) for teams.
+- baseURL: https://www.thesportsdb.com/api/v1/json
+  baseurl_source: declared
+  description: The Teams API from TheSportsDB — 1 operation(s) for teams.
   name: TheSportsDB Teams API
   slug: sportsdb-teams-api
 artifact_total: 22
@@ -160,7 +174,7 @@ score:
   band: thin
   composite: 36.0
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -183,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/screenshots/sportsdb-2026-09-02T160548.png
 security:
 - kind: authentication
   name: Sportsdb Authentication

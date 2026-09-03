@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: Run ML link forecasts on live fleet context.
+- baseURL: https://api.constellation.space
+  baseurl_source: declared
+  description: Run ML link forecasts on live fleet context.
   name: Constellation Space Predictions API
   slug: constellation-space-predictions-api
-- description: Ingest ground telemetry metrics aligned to the fleet graph.
+- baseURL: https://api.constellation.space
+  baseurl_source: declared
+  description: Ingest ground telemetry metrics aligned to the fleet graph.
   name: Constellation Space Telemetry API
   slug: constellation-space-telemetry-api
-- description: Read the fleet graph — nodes, links, health scores, and routing state.
+- baseURL: https://api.constellation.space
+  baseurl_source: declared
+  description: Read the fleet graph — nodes, links, health scores, and routing state.
   name: Constellation Space Topology API
   slug: constellation-space-topology-api
 artifact_total: 14
@@ -243,7 +249,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/screenshots/constellation-space-2026-08-17T083213.png
 security:

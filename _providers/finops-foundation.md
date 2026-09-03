@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 1
 apis:
-- description: Endpoints for querying contract commitment data, a supplemental dataset introduced in FOCUS v1.3 that isolates contract terms from cost and usage rows.
+- baseURL: https://api.example.com/focus/v1
+  baseurl_source: spec
+  description: Endpoints for querying contract commitment data, a supplemental dataset introduced in FOCUS v1.3 that isolates contract terms from cost and usage rows.
   name: FinOps Foundation Contract Commitments API
   slug: finops-foundation-contract-commitments-api
-- description: Endpoints for querying FOCUS-compliant cost and usage data, the primary dataset defined by the FOCUS specification.
+- baseURL: https://api.example.com/focus/v1
+  baseurl_source: spec
+  description: Endpoints for querying FOCUS-compliant cost and usage data, the primary dataset defined by the FOCUS specification.
   name: FinOps Foundation Cost and Usage API
   slug: finops-foundation-cost-and-usage-api
-- description: Endpoints for retrieving metadata about the FOCUS dataset schema, including column definitions, data types, and version information.
+- baseURL: https://api.example.com/focus/v1
+  baseurl_source: spec
+  description: Endpoints for retrieving metadata about the FOCUS dataset schema, including column definitions, data types, and version information.
   name: FinOps Foundation Schema Metadata API
   slug: finops-foundation-schema-metadata-api
 artifact_total: 18
@@ -196,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/screenshots/finops-foundation-2026-06-20T181221.png
 security:

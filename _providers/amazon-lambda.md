@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 11 operations · 7 acting
 api_count: 1
 apis:
-- description: Lambda event source mapping management
+- baseURL: https://lambda.amazonaws.com
+  baseurl_source: declared
+  description: Lambda event source mapping management
   name: Amazon Lambda Event Source Mappings API
   slug: amazon-lambda-event-source-mappings-api
-- description: Lambda function management
+- baseURL: https://lambda.amazonaws.com
+  baseurl_source: declared
+  description: Lambda function management
   name: Amazon Lambda Functions API
   slug: amazon-lambda-functions-api
 arazzos:
@@ -364,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/screenshots/amazon-lambda-2026-06-20T171722.png
 security:

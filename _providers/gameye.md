@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Artifacts API from Gameye — 1 operation(s) for artifacts.
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Artifacts API from Gameye — 1 operation(s) for artifacts.
   name: Gameye Artifacts API
   slug: gameye-artifacts-api
-- description: The Available Location API from Gameye — 1 operation(s) for available location.
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Available Location API from Gameye — 1 operation(s) for available location.
   name: Gameye Available Location API
   slug: gameye-available-location-api
-- description: The Logs API from Gameye — 1 operation(s) for logs.
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Logs API from Gameye — 1 operation(s) for logs.
   name: Gameye Logs API
   slug: gameye-logs-api
-- description: The Session API from Gameye — 4 operation(s) for session.
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Session API from Gameye — 4 operation(s) for session.
   name: Gameye Session API
   slug: gameye-session-api
-- description: The Tag API from Gameye — 1 operation(s) for tag.
+- baseURL: https://api.production-gameye.gameye.net
+  baseurl_source: declared
+  description: The Tag API from Gameye — 1 operation(s) for tag.
   name: Gameye Tag API
   slug: gameye-tag-api
 arazzos:
@@ -280,7 +290,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameye/refs/heads/main/screenshots/gameye-2026-07-25T215424.png
 security:

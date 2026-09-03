@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: Approved indie web and small web index sites.
+- baseURL: https://theindex.fyi/api
+  baseurl_source: declared
+  description: Approved indie web and small web index sites.
   name: The Index Indexes API
   slug: the-index-fyi-indexes-api
 artifact_total: 9
@@ -152,7 +154,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-index-fyi/refs/heads/main/screenshots/the-index-fyi-2026-06-20T195220.png
 security:

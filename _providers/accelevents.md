@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 4 acting
 api_count: 1
 apis:
-- description: Event attendees and people.
+- baseURL: https://api.accelevents.com/rest
+  baseurl_source: declared
+  description: Event attendees and people.
   name: Accelevents Attendees API
   slug: accelevents-attendees-api
-- description: Event details and configuration.
+- baseURL: https://api.accelevents.com/rest
+  baseurl_source: declared
+  description: Event details and configuration.
   name: Accelevents Events API
   slug: accelevents-events-api
-- description: Ticketing orders and sales.
+- baseURL: https://api.accelevents.com/rest
+  baseurl_source: declared
+  description: Ticketing orders and sales.
   name: Accelevents Orders API
   slug: accelevents-orders-api
-- description: Agenda sessions, tracks, and speakers.
+- baseURL: https://api.accelevents.com/rest
+  baseurl_source: declared
+  description: Agenda sessions, tracks, and speakers.
   name: Accelevents Sessions API
   slug: accelevents-sessions-api
-- description: Ticket holders and ticket types.
+- baseURL: https://api.accelevents.com/rest
+  baseurl_source: declared
+  description: Ticket holders and ticket types.
   name: Accelevents Tickets API
   slug: accelevents-tickets-api
 artifact_total: 19
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/screenshots/accelevents-2026-07-25T181429.png
 security:

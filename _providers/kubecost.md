@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 18 operations · 3 acting
 api_count: 6
 apis:
-- description: The Model API from Kubecost — 15 operation(s) for model.
+- baseURL_template: http://{kubecost-address}
+  baseurl_source: spec_template
+  description: The Model API from Kubecost — 15 operation(s) for model.
   name: Kubecost Model API
   slug: kubecost-model-api
 artifact_total: 31
@@ -208,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/screenshots/kubecost-2026-06-20T184207.png
 security:

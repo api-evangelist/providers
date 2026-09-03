@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 4
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 256 operations · 256 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The v2 API from Akeyless — 256 operation(s) for v2.
+- baseURL: https://api.akeyless.io
+  baseurl_source: declared
+  description: The v2 API from Akeyless — 256 operation(s) for v2.
   name: Akeyless v2 API
   slug: akeyless-v2-api
 artifact_total: 18
@@ -205,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeyless/refs/heads/main/screenshots/akeyless-2026-06-20T171453.png
 security:

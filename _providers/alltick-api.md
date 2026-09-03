@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,19 +37,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Token-authenticated WebSocket streaming API for real-time market data. Two endpoints — wss://quote.alltick.co/quote-stock-b-ws-api for equities and wss://quote.alltick.co/quote-b-ws-api for forex, cry
   name: AllTick WebSocket Streaming API
   slug: alltick-websocket-streaming-api
-- description: The Quote B Api API from AllTick API — 4 operation(s) for quote b api.
+- baseURL: https://quote.alltick.co
+  baseurl_source: declared
+  description: The Quote B Api API from AllTick API — 4 operation(s) for quote b api.
   name: AllTick API Quote B API
   slug: alltick-api-quote-b-api-api
-- description: The Quote Stock B Api API from AllTick API — 5 operation(s) for quote stock b api.
+- baseURL: https://quote.alltick.co
+  baseurl_source: declared
+  description: The Quote Stock B Api API from AllTick API — 5 operation(s) for quote stock b api.
   name: AllTick API Quote Stock B API
   slug: alltick-api-quote-stock-b-api-api
-- description: The Suspension API from AllTick API — 3 operation(s) for suspension.
+- baseURL: https://quote.alltick.co
+  baseurl_source: declared
+  description: The Suspension API from AllTick API — 3 operation(s) for suspension.
   name: AllTick API Suspension API
   slug: alltick-api-suspension-api
 artifact_total: 10
@@ -196,11 +216,11 @@ score:
   band: strong
   composite: 57.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -210,7 +230,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 57.9
+  previous_composite: 57.7
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +241,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/screenshots/alltick-api-2026-09-02T144121.png
 security:
 - kind: authentication
   name: Alltick Api Authentication

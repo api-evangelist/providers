@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 74.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -36,115 +50,189 @@ apis:
 - description: Official DoiT Model Context Protocol server. A remote Streamable HTTP endpoint at https://mcp.doit.com/mcp authenticated with OAuth 2.0 against console.doit.com, plus a local stdio server published to
   name: DoiT MCP Server
   slug: doit-mcp-server
-- description: Find DoiT account managers assigned to your organization.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Find DoiT account managers assigned to your organization.
   name: DoiT Account Team API
   slug: doit-accountteam-api
-- description: Notifications triggered when cloud costs exceed defined thresholds or meet specific conditions.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Notifications triggered when cloud costs exceed defined thresholds or meet specific conditions.
   name: DoiT Alerts API
   slug: doit-alerts-api
-- description: Define how costs are distributed across your organization.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Define how costs are distributed across your organization.
   name: DoiT Allocations API
   slug: doit-allocations-api
-- description: Custom notes added to cost data to provide contextual information.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Custom notes added to cost data to provide contextual information.
   name: DoiT Annotations API
   slug: doit-annotations-api
-- description: Monitor cost spikes in your cloud environment.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Monitor cost spikes in your cloud environment.
   name: DoiT Anomalies API
   slug: doit-anomalies-api
-- description: Manage cloud resources or services in your cloud environment.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage cloud resources or services in your cloud environment.
   name: DoiT Assets API
   slug: doit-assets-api
-- description: User authentication.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: User authentication.
   name: DoiT Auth API
   slug: doit-auth-api
-- description: Interact with Ava, DoiT's AI-powered cloud assistant.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Interact with Ava, DoiT's AI-powered cloud assistant.
   name: DoiT Ava API
   slug: doit-ava-api
-- description: Manage AWS billing-transfer mappings between distributors and resellers and between resellers and end customers, and list program management accounts.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage AWS billing-transfer mappings between distributors and resellers and between resellers and end customers, and list program management accounts.
   name: DoiT Billing Transfer API
   slug: doit-billing-transfer-api
-- description: AI-generated budget recommendations you can accept (link to a budget you created) or dismiss.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: AI-generated budget recommendations you can accept (link to a budget you created) or dismiss.
   name: DoiT Budget Suggestions API
   slug: doit-budget-suggestions-api
-- description: Track actual cloud spend against planned spend.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Track actual cloud spend against planned spend.
   name: DoiT Budgets API
   slug: doit-budgets-api
-- description: Manage cloud provider connections and check feature availability for connected accounts.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage cloud provider connections and check feature availability for connected accounts.
   name: DoiT Cloud Connect API
   slug: doit-cloud-connect-api
-- description: Cloud Diagrams visualize your cloud infrastructure and resource relationships.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Cloud Diagrams visualize your cloud infrastructure and resource relationships.
   name: DoiT Cloud Diagrams API
   slug: doit-cloud-diagrams-api
-- description: Service disruptions and outages from cloud providers.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Service disruptions and outages from cloud providers.
   name: DoiT Cloud Incidents API
   slug: doit-cloud-incidents-api
-- description: Manage CloudFlow.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage CloudFlow.
   name: DoiT Cloud Flow API
   slug: doit-cloudflow-api
-- description: View and manage commitment contracts with DoiT.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: View and manage commitment contracts with DoiT.
   name: DoiT Commitment Manager API
   slug: doit-commitment-manager-api
-- description: Manage cloud provider connections used in CloudFlow workflows (AWS and GCP).
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage cloud provider connections used in CloudFlow workflows (AWS and GCP).
   name: DoiT Connections API
   slug: doit-connections-api
-- description: Manage contract templates for PartnerOps resellers (T1/T2).
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage contract templates for PartnerOps resellers (T1/T2).
   name: DoiT Contract Templates API
   slug: doit-contract-templates-api
-- description: List and manage tenant-scoped contracts as a T1/T2 PartnerOps caller.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: List and manage tenant-scoped contracts as a T1/T2 PartnerOps caller.
   name: DoiT Contracts API
   slug: doit-contracts-api
-- description: Ingest third-party cost, usage, and metric-based data for analysis.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Ingest third-party cost, usage, and metric-based data for analysis.
   name: DoiT Data Hub API
   slug: doit-datahub-api
-- description: View available dimensions for analysis.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: View available dimensions for analysis.
   name: DoiT Dimensions API
   slug: doit-dimensions-api
-- description: Organize Cloud Analytics resources (reports, allocations) into folders.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Organize Cloud Analytics resources (reports, allocations) into folders.
   name: DoiT Folders API
   slug: doit-folders-api
-- description: Manage cloud insights representing recommendations and findings for cloud resources.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage cloud insights representing recommendations and findings for cloud resources.
   name: DoiT Insights API
   slug: doit-insights-api
-- description: Access your current and historical billing documents.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Access your current and historical billing documents.
   name: DoiT Invoices API
   slug: doit-invoices-api
-- description: Create and manage labels to organize and categorize your cloud resources.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Create and manage labels to organize and categorize your cloud resources.
   name: DoiT Labels API
   slug: doit-labels-api
-- description: Organizations help you segment data by your company or team structure.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Organizations help you segment data by your company or team structure.
   name: DoiT Organizations API
   slug: doit-organizations-api
-- description: PerfectScale for Commitments (AWS) — commitment inventory, recommendations, and planned purchases.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: PerfectScale for Commitments (AWS) — commitment inventory, recommendations, and planned purchases.
   name: DoiT PerfectScale for Commitments AWS API
   slug: doit-perfectscale-for-commitments-aws-api
-- description: Metadata about supported cloud providers.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Metadata about supported cloud providers.
   name: DoiT Platforms API
   slug: doit-platforms-api
-- description: Metadata about cloud services and offerings.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Metadata about cloud services and offerings.
   name: DoiT Products API
   slug: doit-products-api
-- description: Manage Cloud Analytics reports and get reports data in JSON format.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage Cloud Analytics reports and get reports data in JSON format.
   name: DoiT Reports API
   slug: doit-reports-api
-- description: Manage user permissions and access levels in your organization.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage user permissions and access levels in your organization.
   name: DoiT Roles API
   slug: doit-roles-api
-- description: Monitor cloud service quota usage across connected accounts and projects.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Monitor cloud service quota usage across connected accounts and projects.
   name: DoiT Service Quotas API
   slug: doit-service-quotas-api
-- description: The Settings API from DoiT — 3 operation(s) for settings.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: The Settings API from DoiT — 3 operation(s) for settings.
   name: DoiT Settings API
   slug: doit-settings-api
-- description: Manage permissions associated with specified Cloud Analytics resources.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage permissions associated with specified Cloud Analytics resources.
   name: DoiT Sharing API
   slug: doit-sharing-api
-- description: Create and manage support tickets with DoiT.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Create and manage support tickets with DoiT.
   name: DoiT Support Requests API
   slug: doit-support-requests-api
-- description: Browse the catalogue of read-only CloudFlow templates (blueprints) used to create flows.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Browse the catalogue of read-only CloudFlow templates (blueprints) used to create flows.
   name: DoiT Templates API
   slug: doit-templates-api
-- description: Manage users who have access to the DoiT platform.
+- baseURL: https://api.doit.com
+  baseurl_source: declared
+  description: Manage users who have access to the DoiT platform.
   name: DoiT Users API
   slug: doit-users-api
 artifact_total: 48
@@ -406,7 +494,7 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -416,7 +504,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 69.7
-  previous_composite: 61.3
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -428,7 +516,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/screenshots/doit-2026-08-17T080051.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 14 operations · 14 acting
 api_count: 1
 apis:
-- description: Create invoices and payment links.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Create invoices and payment links.
   name: MyFatoorah Invoicing API
   slug: myfatoorah-invoicing-api
-- description: Inquire on invoice and transaction status.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Inquire on invoice and transaction status.
   name: MyFatoorah Payment Status API
   slug: myfatoorah-payment-status-api
-- description: Discover payment methods and execute payments against a gateway.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Discover payment methods and execute payments against a gateway.
   name: MyFatoorah Payments API
   slug: myfatoorah-payments-api
-- description: Recurring card payment management.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Recurring card payment management.
   name: MyFatoorah Recurring API
   slug: myfatoorah-recurring-api
-- description: Full and partial refunds.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Full and partial refunds.
   name: MyFatoorah Refunds API
   slug: myfatoorah-refunds-api
-- description: Embedded card-entry sessions and saved-card tokens.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Embedded card-entry sessions and saved-card tokens.
   name: MyFatoorah Sessions API
   slug: myfatoorah-sessions-api
-- description: Shipping lookups, charges, and pickups.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Shipping lookups, charges, and pickups.
   name: MyFatoorah Shipping API
   slug: myfatoorah-shipping-api
-- description: Marketplace supplier onboarding and split settlement.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Marketplace supplier onboarding and split settlement.
   name: MyFatoorah Suppliers API
   slug: myfatoorah-suppliers-api
-- description: Retrieve webhook events triggered by MyFatoorah.
+- baseURL: https://api.myfatoorah.com/v2
+  baseurl_source: declared
+  description: Retrieve webhook events triggered by MyFatoorah.
   name: MyFatoorah Webhooks API
   slug: myfatoorah-webhooks-api
 artifact_total: 26
@@ -205,7 +223,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/screenshots/myfatoorah-2026-08-07T184520.png
 security:

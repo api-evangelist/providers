@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: 'REST API for Drip exposing subscribers, tags, custom fields, broadcasts, email campaigns, events, conversions, workflows, shopper activity (orders, carts, products), purchases, and webhooks. Supports '
   name: Drip REST API
   slug: drip-api
-- description: The Accounts API from Drip — 2 operation(s) for accounts.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Accounts API from Drip — 2 operation(s) for accounts.
   name: Drip Accounts API
   slug: drip-accounts-api
-- description: The Broadcasts API from Drip — 2 operation(s) for broadcasts.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Broadcasts API from Drip — 2 operation(s) for broadcasts.
   name: Drip Broadcasts API
   slug: drip-broadcasts-api
-- description: The Campaigns API from Drip — 5 operation(s) for campaigns.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Campaigns API from Drip — 5 operation(s) for campaigns.
   name: Drip Campaigns API
   slug: drip-campaigns-api
-- description: The Conversions API from Drip — 1 operation(s) for conversions.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Conversions API from Drip — 1 operation(s) for conversions.
   name: Drip Conversions API
   slug: drip-conversions-api
-- description: The Custom Fields API from Drip — 1 operation(s) for custom fields.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Custom Fields API from Drip — 1 operation(s) for custom fields.
   name: Drip Custom Fields API
   slug: drip-custom-fields-api
-- description: The Events API from Drip — 3 operation(s) for events.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Events API from Drip — 3 operation(s) for events.
   name: Drip Events API
   slug: drip-events-api
-- description: The Forms API from Drip — 1 operation(s) for forms.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Forms API from Drip — 1 operation(s) for forms.
   name: Drip Forms API
   slug: drip-forms-api
-- description: The Orders API from Drip — 1 operation(s) for orders.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Orders API from Drip — 1 operation(s) for orders.
   name: Drip Orders API
   slug: drip-orders-api
-- description: The Shopper Activity API from Drip — 3 operation(s) for shopper activity.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Shopper Activity API from Drip — 3 operation(s) for shopper activity.
   name: Drip Shopper Activity API
   slug: drip-shopper-activity-api
-- description: The Subscribers API from Drip — 2 operation(s) for subscribers.
+- baseURL: https://api.getdrip.com/v2
+  baseurl_source: declared
+  description: The Subscribers API from Drip — 2 operation(s) for subscribers.
   name: Drip Subscribers API
   slug: drip-subscribers-api
 - description: Drip operates a remote Model Context Protocol server at https://api.getdrip.com/mcp, protected by its OAuth 2.0 authorization server and discoverable through RFC 9728 protected-resource metadata. Prob
@@ -308,7 +328,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -318,7 +338,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 51.8
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -330,7 +350,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/screenshots/drip-2026-06-20T180233.png
 security:

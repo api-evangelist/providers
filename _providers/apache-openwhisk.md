@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 6
 apis:
-- description: The Actions API from Apache OpenWhisk — 2 operation(s) for actions.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Actions API from Apache OpenWhisk — 2 operation(s) for actions.
   name: Apache OpenWhisk Actions API
   slug: apache-openwhisk-actions-api
-- description: The Activations API from Apache OpenWhisk — 2 operation(s) for activations.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Activations API from Apache OpenWhisk — 2 operation(s) for activations.
   name: Apache OpenWhisk Activations API
   slug: apache-openwhisk-activations-api
-- description: The Namespaces API from Apache OpenWhisk — 3 operation(s) for namespaces.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Namespaces API from Apache OpenWhisk — 3 operation(s) for namespaces.
   name: Apache OpenWhisk Namespaces API
   slug: apache-openwhisk-namespaces-api
-- description: The Packages API from Apache OpenWhisk — 2 operation(s) for packages.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Packages API from Apache OpenWhisk — 2 operation(s) for packages.
   name: Apache OpenWhisk Packages API
   slug: apache-openwhisk-packages-api
-- description: The Rules API from Apache OpenWhisk — 2 operation(s) for rules.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Rules API from Apache OpenWhisk — 2 operation(s) for rules.
   name: Apache OpenWhisk Rules API
   slug: apache-openwhisk-rules-api
-- description: The Triggers API from Apache OpenWhisk — 2 operation(s) for triggers.
+- baseURL_template: https://{host}/api/v1
+  baseurl_source: spec_template
+  description: The Triggers API from Apache OpenWhisk — 2 operation(s) for triggers.
   name: Apache OpenWhisk Triggers API
   slug: apache-openwhisk-triggers-api
 artifact_total: 95
@@ -397,7 +409,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:

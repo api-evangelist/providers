@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
+- baseURL: wss://fills.mngo.cloud
+  baseurl_source: declared
+  description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
   name: Mango v4 Fills Feed
   slug: fills-feed
-- description: Low-latency WebSocket feed (service-mango-orderbook) that parses Mango V4 Perp and Openbook spot bookside accounts and emits L2 (price / quantity) and L3 (per-order) checkpoints and per-side delta upd
+- baseURL: wss://orderbook.mngo.cloud
+  baseurl_source: declared
+  description: Low-latency WebSocket feed (service-mango-orderbook) that parses Mango V4 Perp and Openbook spot bookside accounts and emits L2 (price / quantity) and L3 (per-order) checkpoints and per-side delta upd
   name: Mango v4 Orderbook Feed
   slug: orderbook-feed
 artifact_total: 4
@@ -107,7 +111,7 @@ score:
     catalog_gap: 73.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -117,7 +121,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 16.5
+  previous_composite: 16.3
   regulatory:
     applies: true
     matched_via: tags
@@ -125,7 +129,7 @@ score:
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: mango-markets
 tags:

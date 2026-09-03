@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 25 operations
 api_count: 1
 apis:
-- description: Operations for managing IAM access keys
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing IAM access keys
   name: Amazon IAM Access Keys API
   slug: amazon-iam-access-keys-api
-- description: Operations for managing IAM groups
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing IAM groups
   name: Amazon IAM Groups API
   slug: amazon-iam-groups-api
-- description: Operations for managing IAM policies
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing IAM policies
   name: Amazon IAM Policies API
   slug: amazon-iam-policies-api
-- description: Operations for managing IAM roles
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing IAM roles
   name: Amazon IAM Roles API
   slug: amazon-iam-roles-api
-- description: Operations for managing IAM users
+- baseURL: https://iam.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing IAM users
   name: Amazon IAM Users API
   slug: amazon-iam-users-api
 artifact_total: 100
@@ -474,7 +484,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/screenshots/amazon-iam-2026-06-20T171703.png
 security:

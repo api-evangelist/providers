@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations
 api_count: 1
 apis:
-- description: Access verified identities, their resources and resource files.
+- baseURL: https://api.passbase.com/verification/v2
+  baseurl_source: declared
+  description: Access verified identities, their resources and resource files.
   name: Passbase Identity API
   slug: passbase-identity-api
-- description: Read project settings and verification configuration.
+- baseURL: https://api.passbase.com/verification/v2
+  baseurl_source: declared
+  description: Read project settings and verification configuration.
   name: Passbase Project API
   slug: passbase-project-api
 artifact_total: 10
@@ -161,7 +165,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -171,7 +175,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 29.1
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -183,7 +187,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/screenshots/passbase-2026-08-07T191532.png
 security:

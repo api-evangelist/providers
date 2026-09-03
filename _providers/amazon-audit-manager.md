@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 22 operations · 12 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations for creating and managing compliance assessments
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing compliance assessments
   name: Amazon Audit Manager Assessments API
   slug: amazon-audit-manager-assessments-api
-- description: Operations for managing compliance controls
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing compliance controls
   name: Amazon Audit Manager Controls API
   slug: amazon-audit-manager-controls-api
-- description: Operations for managing audit evidence
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing audit evidence
   name: Amazon Audit Manager Evidence API
   slug: amazon-audit-manager-evidence-api
-- description: Operations for managing compliance frameworks
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing compliance frameworks
   name: Amazon Audit Manager Frameworks API
   slug: amazon-audit-manager-frameworks-api
-- description: Operations for generating assessment reports
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for generating assessment reports
   name: Amazon Audit Manager Reports API
   slug: amazon-audit-manager-reports-api
-- description: Operations for configuring Audit Manager settings
+- baseURL: https://auditmanager.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for configuring Audit Manager settings
   name: Amazon Audit Manager Settings API
   slug: amazon-audit-manager-settings-api
 artifact_total: 233
@@ -776,7 +788,7 @@ score:
       total: 6
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/screenshots/amazon-audit-manager-2026-07-25T195931.png
 security:

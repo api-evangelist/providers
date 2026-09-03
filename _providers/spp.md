@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'SPP''s officially documented programmatic interface to its public data. The SPP Public Data Access guide (v3.0, July 2023) names FTP as the programmatic access path for Integrated Marketplace, Western '
@@ -53,22 +53,34 @@ apis:
 - description: The SOAP web and notification services market participants use to submit offers and bids and retrieve results from the SPP Integrated Marketplace, with WEIS Markets Web Service as the western equivale
   name: SPP Integrated Marketplace Markets Web Service
   slug: spp-integrated-marketplace-web-services
-- description: The Forecasting API operations define the exchange of forecasted ratings, including the 240-hour-ahead forecasted AAR data exchange required by FERC Order 881. The operations support submitting rating
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: The Forecasting API operations define the exchange of forecasted ratings, including the 240-hour-ahead forecasted AAR data exchange required by FERC Order 881. The operations support submitting rating
   name: Southwest Power Pool Forecasting API
   slug: spp-forecasting-api
-- description: '[Monitoring Sets](https://trolie.energy/concepts#monitoring-sets) are named sets of power system resources that may be used to filter ratings and limits returned by queries against these APIs. How Mon'
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: '[Monitoring Sets](https://trolie.energy/concepts#monitoring-sets) are named sets of power system resources that may be used to filter ratings and limits returned by queries against these APIs. How Mon'
   name: Southwest Power Pool Monitoring Sets API
   slug: spp-monitoring-sets-api
-- description: If permitted by the Clearinghouse Provider, its Ratings Providers can use these functions to exchange real-time ratings, supplementing or replacing traditional telemetry protocols like ICCP. These rat
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: If permitted by the Clearinghouse Provider, its Ratings Providers can use these functions to exchange real-time ratings, supplementing or replacing traditional telemetry protocols like ICCP. These rat
   name: Southwest Power Pool Real Time API
   slug: spp-real-time-api
-- description: Seasonal ratings are static ratings associated with extended durations, typically months. These are typically used in both planning and operations. Power system resources that are exempt from providin
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: Seasonal ratings are static ratings associated with extended durations, typically months. These are typically used in both planning and operations. Power system resources that are exempt from providin
   name: Southwest Power Pool Seasonal API
   slug: spp-seasonal-api
-- description: A Seasonal Override instructs the system to use a temporary static rating instead of any concurrent Seasonal Rating for a resource. A typical use case is a so-called 'de-rate' due to a temporary clear
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: A Seasonal Override instructs the system to use a temporary static rating instead of any concurrent Seasonal Rating for a resource. A typical use case is a so-called 'de-rate' due to a temporary clear
   name: Southwest Power Pool Seasonal Overrides API
   slug: spp-seasonal-overrides-api
-- description: A [Temporary AAR Exception](https://trolie.energy/concepts#temporary-aar-exception) is provided by the Ratings Provider when a Ratings Obligation cannot be fulfilled, due to some temporary operating c
+- baseURL: ftp://pubftp.spp.org
+  baseurl_source: declared
+  description: A [Temporary AAR Exception](https://trolie.energy/concepts#temporary-aar-exception) is provided by the Ratings Provider when a Ratings Obligation cannot be fulfilled, due to some temporary operating c
   name: Southwest Power Pool Temporary AAR Exceptions API
   slug: spp-temporary-aar-exceptions-api
 artifact_total: 19
@@ -264,7 +276,7 @@ score:
     regime_id: energy_utilities
     score: 63.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spp/refs/heads/main/screenshots/spp-2026-08-17T082042.png
 security:

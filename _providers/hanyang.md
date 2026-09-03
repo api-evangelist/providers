@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hanyang University's own Open API platform, built and run by the university rather than bought from a vendor. REST endpoints under https://api.hanyang.ac.kr/rs/ return XML or JSON, selected by file ex
   name: Hanyang University Open API Developer Center
   slug: developer-center
-- description: OAI-PMH 2.0 metadata-harvesting interface on Hanyang's institutional DSpace repository, plus an OpenSearch 1.1 descriptor and RSS/Atom feeds. Twelve metadata formats are advertised (oai_dc, qdc, mods,
+- baseURL: https://repository.hanyang.ac.kr/oai/request
+  baseurl_source: declared
+  description: OAI-PMH 2.0 metadata-harvesting interface on Hanyang's institutional DSpace repository, plus an OpenSearch 1.1 descriptor and RSS/Atom feeds. Twelve metadata formats are advertised (oai_dc, qdc, mods,
   name: Repository at Hanyang University — OAI-PMH
   slug: repository-oai-pmh
 - description: Software development kits published by the Hanyang University Developer Center for building against the Open APIs — Android and iOS SDKs and server-side sample integrations (ASP) that handle the OAuth
@@ -198,7 +200,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.8
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -208,7 +210,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.6
+  previous_composite: 31.4
   provenance:
     conformance: derived
     contracts:
@@ -223,7 +225,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/screenshots/hanyang-2026-06-20T182515.png
 security:

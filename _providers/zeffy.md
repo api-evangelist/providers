@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Outbound webhooks configured under Settings then Integrations. When a payment is completed, Zeffy sends an HTTP POST with the full payment details to the organization's configured URL, enabling thank-
   name: Zeffy Webhooks
   slug: zeffy-webhooks
-- description: Donation forms, events, and other campaign types.
+- baseURL: https://api.zeffy.com/api/v1
+  baseurl_source: declared
+  description: Donation forms, events, and other campaign types.
   name: Zeffy Campaigns API
   slug: zeffy-campaigns-api
-- description: An organization's donors and supporters.
+- baseURL: https://api.zeffy.com/api/v1
+  baseurl_source: declared
+  description: An organization's donors and supporters.
   name: Zeffy Contacts API
   slug: zeffy-contacts-api
-- description: An organization's transactions and donations.
+- baseURL: https://api.zeffy.com/api/v1
+  baseurl_source: declared
+  description: An organization's transactions and donations.
   name: Zeffy Payments API
   slug: zeffy-payments-api
 artifact_total: 14
@@ -140,7 +146,7 @@ score:
   band: emerging
   composite: 22.5
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +175,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/screenshots/zeffy-2026-09-02T171544.png
 security:
 - kind: authentication
   name: Zeffy Authentication

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,40 +44,64 @@ agentic_access:
   summary_line: 30 operations
 api_count: 1
 apis:
-- description: Job postings.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Job postings.
   name: Abcuro Careers API
   slug: abcuro-careers-api
-- description: Comment records.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Comment records.
   name: Abcuro Comments API
   slug: abcuro-comments-api
-- description: Route, type, taxonomy, status and oEmbed discovery.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Route, type, taxonomy, status and oEmbed discovery.
   name: Abcuro Discovery API
   slug: abcuro-discovery-api
-- description: Investor records.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Investor records.
   name: Abcuro Investors API
   slug: abcuro-investors-api
-- description: Media library assets including clinical presentation PDFs.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Media library assets including clinical presentation PDFs.
   name: Abcuro Media API
   slug: abcuro-media-api
-- description: Static site pages.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Static site pages.
   name: Abcuro Pages API
   slug: abcuro-pages-api
-- description: Leadership, team and board-of-directors records.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Leadership, team and board-of-directors records.
   name: Abcuro People API
   slug: abcuro-people-api
-- description: Abcuro corporate and clinical press releases.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Abcuro corporate and clinical press releases.
   name: Abcuro Press Releases API
   slug: abcuro-press-releases-api
-- description: Scientific publications.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Scientific publications.
   name: Abcuro Publications API
   slug: abcuro-publications-api
-- description: Cross-type site search.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Cross-type site search.
   name: Abcuro Search API
   slug: abcuro-search-api
-- description: Categories, tags and the person_role taxonomy.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Categories, tags and the person_role taxonomy.
   name: Abcuro Taxonomy API
   slug: abcuro-taxonomy-api
-- description: Site author accounts.
+- baseURL: https://abcuro.com/wp-json/
+  baseurl_source: declared
+  description: Site author accounts.
   name: Abcuro Users API
   slug: abcuro-users-api
 artifact_total: 29
@@ -268,7 +303,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abcuro/refs/heads/main/screenshots/abcuro-2026-08-07T160734.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 30 operations · 17 acting
 api_count: 12
 apis:
-- description: Check-based point accrual, reward computation, and posting.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Check-based point accrual, reward computation, and posting.
   name: Paytronix Check API
   slug: paytronix-check-api
-- description: Card creation, activation, registration, and demographic editing.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Card creation, activation, registration, and demographic editing.
   name: Paytronix Enrollment API
   slug: paytronix-enrollment-api
-- description: Gift card sale, reload, balance, redeem, and exchange.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Gift card sale, reload, balance, redeem, and exchange.
   name: Paytronix Gift API
   slug: paytronix-gift-api
-- description: Guest account and user information lookup and management.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Guest account and user information lookup and management.
   name: Paytronix Guest API
   slug: paytronix-guest-api
-- description: Menu item retrieval.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Menu item retrieval.
   name: Paytronix Menu Items API
   slug: paytronix-menu-items-api
-- description: Guest authentication and token issuance.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Guest authentication and token issuance.
   name: Paytronix OAuth API
   slug: paytronix-oauth-api
-- description: Order creation, retrieval, and submission.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Order creation, retrieval, and submission.
   name: Paytronix Orders API
   slug: paytronix-orders-api
-- description: Stored-value recharge, saved payment methods, and auto recharge.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Stored-value recharge, saved payment methods, and auto recharge.
   name: Paytronix Payment API
   slug: paytronix-payment-api
-- description: Restaurant and location discovery.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Restaurant and location discovery.
   name: Paytronix Restaurants API
   slug: paytronix-restaurants-api
-- description: Geospatial and full-text search across restaurants and menu items.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Geospatial and full-text search across restaurants and menu items.
   name: Paytronix Search API
   slug: paytronix-search-api
-- description: Store and location lookup and management.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Store and location lookup and management.
   name: Paytronix Store API
   slug: paytronix-store-api
-- description: Loyalty and stored-value transaction processing at the POS.
+- baseURL: https://m{merchantId}.api.paytronix.com/rest/26.6
+  baseurl_source: declared
+  description: Loyalty and stored-value transaction processing at the POS.
   name: Paytronix Transaction API
   slug: paytronix-transaction-api
 artifact_total: 187
@@ -716,7 +740,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paytronix/refs/heads/main/screenshots/paytronix-2026-06-20T191510.png
 security:

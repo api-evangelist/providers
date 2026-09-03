@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
+- baseURL: https://www.switchfly.com
+  baseurl_source: declared
+  description: Describes authentication required (`client_credentials` OAuth 2) and refund requests performed by Switchfly application to 3rd party service to cancel redemption components.
   name: Switchfly Machine to Machine (OAuth2 & Refund) API
   slug: switchfly-machine-to-machine-oauth2-refund-api
-- description: Switchfly OAuth 2 SSO request to 3rd party
+- baseURL: https://www.switchfly.com
+  baseurl_source: declared
+  description: Switchfly OAuth 2 SSO request to 3rd party
   name: Switchfly OAuth 2 - SSO Authorize API
   slug: switchfly-oauth-2-sso-authorize-api
-- description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
+- baseURL: https://www.switchfly.com
+  baseurl_source: declared
+  description: Information about requests performed by Switchfly system to 3rd party service to fetch Loyalty profile data and redeem points from the customer account.
   name: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
 artifact_total: 10
@@ -161,7 +167,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +192,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/screenshots/switchfly-2026-09-02T161418.png
 security:
 - kind: authentication
   name: Switchfly Authentication

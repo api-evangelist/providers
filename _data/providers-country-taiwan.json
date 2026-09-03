@@ -29,7 +29,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -131,12 +131,12 @@
      "slug": "nycu",
      "description": "National Yang Ming Chiao Tung University (NYCU) is a public research university in Hsinchu and Taipei, Taiwan, formed in 2021 from the merger of National Yang-Ming University and National Chiao Tung University. Its programmable footprint is small but genuinely its own in one place: the NYCU OAuth service at id.nycu.edu.tw, an OAuth 2.0 (RFC 6749) authorization server run by the university's Information Technology Service Center that lets approved applications authenticate NYCU single sign-on users and read three consented identity attributes. It is documented publicly, in Chinese and English, with its own terms of service and issue tracker, and it is the only contract in this repo NYCU actually engineered. Everything else is a relationship rather than an interface the university wrote. NYCU self-hosts a Dataverse research-data repository and a DSpace institutional repository on its own network, and both expose an anonymous OAI-PMH 2.0 harvesting endpoint that is institution-operated — but the REST contracts underneath them belong to the Dataverse Project and DSpace, not to NYCU. Library discovery is an Ex Libris Primo tenancy. NYCU is a DataCite direct member in its own name, minting DOIs on prefix 10.57770 through its \"NYCU Research Data Service\" repository, and is registered in ROR. There is no central developer portal, no open-data portal, no course or timetable API, no OpenID Connect discovery document, and no publicly discoverable Shibboleth or SAML identity provider. The course registration and timetable systems are human web applications behind institutional login.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png",
-     "score": 43.7,
+     "score": 43.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 24.9,
+      "contract_quality": 23.8,
       "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 26.3,
@@ -144,7 +144,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -207,7 +207,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -259,7 +259,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -297,6 +297,7 @@
      "name": "TG3D Studio",
      "slug": "tg3d-studio",
      "description": "TG3D Studio Inc. is a 3D fashion technology company (founded 2016, headquartered in Taiwan) whose Scanatic platform digitizes the body, materials, and clothing for made-to-measure and custom fashion. Its products include the Scanatic 360 Body Scanner (roughly 250 body measurements captured in seconds), Scanatic Studio 3D product-visualization and digital-sampling software, the Cloudzet mobile body-scan app, and the BESPOKE-N virtual try-on app. For developers and partners, TG3D exposes two RESTful API libraries: ScanAPI — offered free to partners for integrating Cloudzet scan-user registration and building custom UI that controls the Scanatic 360 Body Scanner — and APIConnect, which manipulates data across the Scanatic Body, Nuno3D, and StyleBook services. API access is key-based and issued from the Scanatic for Fashion Developer Console; all HTTPS traffic is 256-bit encrypted and each Scanatic Body Service includes up to 1,500 free API requests per month.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tg3d-studio/refs/heads/main/screenshots/tg3d-studio-2026-09-02T163310.png",
      "score": 28.5,
      "band": "thin",
      "band_label": "Thin",
@@ -310,7 +311,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -365,7 +366,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -410,7 +411,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -462,7 +463,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -514,7 +515,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -569,7 +570,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -620,7 +621,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -671,7 +672,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -716,7 +717,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -761,7 +762,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -806,7 +807,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -837,6 +838,7 @@
      "name": "TryTry (穿穿)",
      "slug": "trytrytw",
      "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trytrytw/refs/heads/main/screenshots/trytrytw-2026-09-02T164448.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -850,7 +852,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -881,6 +883,7 @@
      "name": "WeGrow asia CO., LTD.",
      "slug": "wegrow-asia-co-ltd",
      "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/screenshots/wegrow-asia-co-ltd-2026-09-02T170556.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -894,7 +897,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -938,7 +941,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -969,6 +972,7 @@
      "name": "XING Mobility",
      "slug": "xing-mobility",
      "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xing-mobility/refs/heads/main/screenshots/xing-mobility-2026-09-02T171152.png",
      "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -982,7 +986,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1034,7 +1038,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1085,7 +1089,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1137,7 +1141,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

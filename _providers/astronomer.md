@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 2
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 75 operations · 43 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The AgentToken API from Astronomer — 2 operation(s) for agenttoken.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The AgentToken API from Astronomer — 2 operation(s) for agenttoken.
   name: Astronomer AgentToken API
   slug: astronomer-agenttoken-api
-- description: The AllowedIpAddressRange API from Astronomer — 4 operation(s) for allowedipaddressrange.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The AllowedIpAddressRange API from Astronomer — 4 operation(s) for allowedipaddressrange.
   name: Astronomer AllowedIpAddressRange API
   slug: astronomer-allowedipaddressrange-api
-- description: The `apitoken` object represents a single API token within your Organization. API tokens are used to authenticate automated tools and processes to your Organization. They have varying levels of access
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The `apitoken` object represents a single API token within your Organization. API tokens are used to authenticate automated tools and processes to your Organization. They have varying levels of access
   name: Astronomer ApiToken API
   slug: astronomer-apitoken-api
-- description: The Authorization API from Astronomer — 1 operation(s) for authorization.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Authorization API from Astronomer — 1 operation(s) for authorization.
   name: Astronomer Authorization API
   slug: astronomer-authorization-api
-- description: A `cluster` object represents an Astro cluster, which is a Kubernetes cluster that hosts the infrastructure required to run Deployments. Make requests to `cluster` endpoints to manage your standard an
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: A `cluster` object represents an Astro cluster, which is a Kubernetes cluster that hosts the infrastructure required to run Deployments. Make requests to `cluster` endpoints to manage your standard an
   name: Astronomer Cluster API
   slug: astronomer-cluster-api
-- description: The Deploy API from Astronomer — 4 operation(s) for deploy.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Deploy API from Astronomer — 4 operation(s) for deploy.
   name: Astronomer Deploy API
   slug: astronomer-deploy-api
-- description: The `deployment` object represents an Astro Deployment, which is a hosted Airflow environment that is powered by all core Airflow components, including schedulers and workers. Make requests to the `de
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The `deployment` object represents an Astro Deployment, which is a hosted Airflow environment that is powered by all core Airflow components, including schedulers and workers. Make requests to the `de
   name: Astronomer Deployment API
   slug: astronomer-deployment-api
-- description: The Environment API from Astronomer — 3 operation(s) for environment.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Environment API from Astronomer — 3 operation(s) for environment.
   name: Astronomer Environment API
   slug: astronomer-environment-api
-- description: The Invite API from Astronomer — 2 operation(s) for invite.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Invite API from Astronomer — 2 operation(s) for invite.
   name: Astronomer Invite API
   slug: astronomer-invite-api
-- description: The Options API from Astronomer — 2 operation(s) for options.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Options API from Astronomer — 2 operation(s) for options.
   name: Astronomer Options API
   slug: astronomer-options-api
-- description: The `organization` object contains the metadata and configurations of an Astro Organization. It does not include objects within the Organization, such as users and clusters. Make requests to `organiza
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The `organization` object contains the metadata and configurations of an Astro Organization. It does not include objects within the Organization, such as users and clusters. Make requests to `organiza
   name: Astronomer Organization API
   slug: astronomer-organization-api
-- description: The Role API from Astronomer — 4 operation(s) for role.
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The Role API from Astronomer — 4 operation(s) for role.
   name: Astronomer Role API
   slug: astronomer-role-api
-- description: 'The `team` object represents an Astro Team, which is a group of users that share the same permissions across your Organization and Workspaces. Make requests to `team` endpoints to create, update, and '
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: 'The `team` object represents an Astro Team, which is a group of users that share the same permissions across your Organization and Workspaces. Make requests to `team` endpoints to create, update, and '
   name: Astronomer Team API
   slug: astronomer-team-api
-- description: The `user` object represents a user account in your Astro Organization. Astro creates a new `user` object whenever you invite a user by email or add a user to Astro through an identity provider. The o
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The `user` object represents a user account in your Astro Organization. Astro creates a new `user` object whenever you invite a user by email or add a user to Astro through an identity provider. The o
   name: Astronomer User API
   slug: astronomer-user-api
-- description: The `workspace` object represents an Astro Workspace, which is a collection of Deployments that can be accessed by a specific group of users. It contains metadata about a Workspace, but does not conta
+- baseURL: https://api.astronomer.io/v1
+  baseurl_source: declared
+  description: The `workspace` object represents an Astro Workspace, which is a collection of Deployments that can be accessed by a specific group of users. It contains metadata about a Workspace, but does not conta
   name: Astronomer Workspace API
   slug: astronomer-workspace-api
 artifact_total: 37
@@ -306,7 +336,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astronomer/refs/heads/main/screenshots/astronomer-2026-07-25T201511.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 5
 apis:
-- description: Buy/sell order execution signals
+- baseURL: https://api.veli.io/v1
+  baseurl_source: spec
+  description: Buy/sell order execution signals
   name: Veli Orders API
   slug: veli-orders-api
-- description: Portfolio performance and returns
+- baseURL: https://api.veli.io/v1
+  baseurl_source: spec
+  description: Portfolio performance and returns
   name: Veli Performance API
   slug: veli-performance-api
-- description: User portfolio creation and management
+- baseURL: https://api.veli.io/v1
+  baseurl_source: spec
+  description: User portfolio creation and management
   name: Veli Portfolios API
   slug: veli-portfolios-api
-- description: Portfolio holdings and allocations
+- baseURL: https://api.veli.io/v1
+  baseurl_source: spec
+  description: Portfolio holdings and allocations
   name: Veli Positions API
   slug: veli-positions-api
-- description: Investment strategy catalog and configuration
+- baseURL: https://api.veli.io/v1
+  baseurl_source: spec
+  description: Investment strategy catalog and configuration
   name: Veli Strategies API
   slug: veli-strategies-api
 artifact_total: 53
@@ -280,7 +290,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veli/refs/heads/main/screenshots/veli-2026-06-20T200905.png
 security:

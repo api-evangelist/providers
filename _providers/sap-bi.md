@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -50,67 +50,109 @@ apis:
 - description: APIs for embedding and automating SAP Crystal Reports in applications.
   name: SAP Crystal Reports API
   slug: sap-crystal-reports-api
-- description: Browse the Datasphere data catalog
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Browse the Datasphere data catalog
   name: SAP Business Intelligence Catalog API
   slug: sap-bi-catalog-api
-- description: Manage data source connections
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage data source connections
   name: SAP Business Intelligence Connections API
   slug: sap-bi-connections-api
-- description: Manage data replication and transformation flows
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage data replication and transformation flows
   name: SAP Business Intelligence Data Flows API
   slug: sap-bi-data-flows-api
-- description: Import data into models
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Import data into models
   name: SAP Business Intelligence Data Import API
   slug: sap-bi-data-import-api
-- description: Manage advanced data store objects (aDSO)
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage advanced data store objects (aDSO)
   name: SAP Business Intelligence Data Store Objects API
   slug: sap-bi-data-store-objects-api
-- description: Manage content folders
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage content folders
   name: SAP Business Intelligence Folders API
   slug: sap-bi-folders-api
-- description: Manage BI platform content objects
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage BI platform content objects
   name: SAP Business Intelligence InfoObjects API
   slug: sap-bi-infoobjects-api
-- description: Access InfoProvider metadata and data
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Access InfoProvider metadata and data
   name: SAP Business Intelligence InfoProviders API
   slug: sap-bi-infoproviders-api
-- description: Manage scheduled report instances
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage scheduled report instances
   name: SAP Business Intelligence Instances API
   slug: sap-bi-instances-api
-- description: Authentication and session management
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Authentication and session management
   name: SAP Business Intelligence Logon API
   slug: sap-bi-logon-api
-- description: Browse BW/4HANA metadata catalog
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Browse BW/4HANA metadata catalog
   name: SAP Business Intelligence Metadata API
   slug: sap-bi-metadata-api
-- description: Manage data models and dimensions
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage data models and dimensions
   name: SAP Business Intelligence Models API
   slug: sap-bi-models-api
-- description: Monitor and manage process chains
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Monitor and manage process chains
   name: SAP Business Intelligence Process Chains API
   slug: sap-bi-process-chains-api
-- description: Execute and manage BW queries
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Execute and manage BW queries
   name: SAP Business Intelligence Queries API
   slug: sap-bi-queries-api
-- description: Manage and schedule reports
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage and schedule reports
   name: SAP Business Intelligence Reports API
   slug: sap-bi-reports-api
-- description: Monitor and manage BI Platform servers
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Monitor and manage BI Platform servers
   name: SAP Business Intelligence Servers API
   slug: sap-bi-servers-api
-- description: Manage Datasphere spaces
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage Datasphere spaces
   name: SAP Business Intelligence Spaces API
   slug: sap-bi-spaces-api
-- description: Manage analytics stories and dashboards
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage analytics stories and dashboards
   name: SAP Business Intelligence Stories API
   slug: sap-bi-stories-api
-- description: Manage and monitor task execution
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage and monitor task execution
   name: SAP Business Intelligence Tasks API
   slug: sap-bi-tasks-api
-- description: Manage users and teams
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage users and teams
   name: SAP Business Intelligence Users API
   slug: sap-bi-users-api
-- description: Manage analytical and relational views
+- baseURL: https://[tenant].sapanalytics.cloud/api/v1
+  baseurl_source: declared
+  description: Manage analytical and relational views
   name: SAP Business Intelligence Views API
   slug: sap-bi-views-api
 artifact_total: 139
@@ -601,7 +643,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -611,7 +653,7 @@ score:
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 42.8
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -620,7 +662,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/screenshots/sap-bi-2026-06-20T193416.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 86 operations · 38 acting
 api_count: 1
 apis:
-- description: The Connection API from PropertyMe — 1 operation(s) for connection.
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: The Connection API from PropertyMe — 1 operation(s) for connection.
   name: PropertyMe Connection API
   slug: propertyme-connection-api
-- description: 'The Scope: Activities API from PropertyMe — 43 operation(s) for scope: activities.'
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: 'The Scope: Activities API from PropertyMe — 43 operation(s) for scope: activities.'
   name: 'PropertyMe Scope: Activities API'
   slug: propertyme-scope-activities-api
-- description: 'The Scope: Bills API from PropertyMe — 2 operation(s) for scope: bills.'
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: 'The Scope: Bills API from PropertyMe — 2 operation(s) for scope: bills.'
   name: 'PropertyMe Scope: Bills API'
   slug: propertyme-scope-bills-api
-- description: 'The Scope: Contacts API from PropertyMe — 11 operation(s) for scope: contacts.'
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: 'The Scope: Contacts API from PropertyMe — 11 operation(s) for scope: contacts.'
   name: 'PropertyMe Scope: Contacts API'
   slug: propertyme-scope-contacts-api
-- description: 'The Scope: Messages API from PropertyMe — 1 operation(s) for scope: messages.'
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: 'The Scope: Messages API from PropertyMe — 1 operation(s) for scope: messages.'
   name: 'PropertyMe Scope: Messages API'
   slug: propertyme-scope-messages-api
-- description: 'The Scope: Properties API from PropertyMe — 17 operation(s) for scope: properties.'
+- baseURL: https://app.propertyme.com/api
+  baseurl_source: declared
+  description: 'The Scope: Properties API from PropertyMe — 17 operation(s) for scope: properties.'
   name: 'PropertyMe Scope: Properties API'
   slug: propertyme-scope-properties-api
 arazzos:
@@ -263,7 +287,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -273,7 +297,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 44.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +315,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:

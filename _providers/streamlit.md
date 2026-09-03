@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: 'The Streamlit Python library API provides a rich set of functions for building interactive data applications. Organized by activity type: display data (st.write, st.dataframe, st.table), input widgets'
   name: Streamlit Python API
   slug: streamlit-python-api
-- description: Manage Streamlit applications deployed on Community Cloud. Deploy, list, restart, and delete apps connected to GitHub repositories.
+- baseURL: https://api.streamlit.io/v1
+  baseurl_source: declared
+  description: Manage Streamlit applications deployed on Community Cloud. Deploy, list, restart, and delete apps connected to GitHub repositories.
   name: Streamlit Apps API
   slug: streamlit-apps-api
-- description: Manage secrets for Streamlit applications. Secrets are environment variables securely injected into the application at runtime via st.secrets.
+- baseURL: https://api.streamlit.io/v1
+  baseurl_source: declared
+  description: Manage secrets for Streamlit applications. Secrets are environment variables securely injected into the application at runtime via st.secrets.
   name: Streamlit Secrets API
   slug: streamlit-secrets-api
-- description: Manage Streamlit Community Cloud workspaces and their settings.
+- baseURL: https://api.streamlit.io/v1
+  baseurl_source: declared
+  description: Manage Streamlit Community Cloud workspaces and their settings.
   name: Streamlit Workspaces API
   slug: streamlit-workspaces-api
 artifact_total: 23
@@ -251,7 +257,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streamlit/refs/heads/main/screenshots/streamlit-2026-06-20T194618.png
 security:

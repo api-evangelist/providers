@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -83,10 +83,14 @@ apis:
 - description: SIM management and device monitoring for IoT deployments across Orange's global cellular footprint.
   name: IoT Managed Global Connectivity API
   slug: iot
-- description: The Device Phone Number API from Orange — 1 operation(s) for device phone number.
+- baseURL: https://api.orange.com/camara/number-verification/v2
+  baseurl_source: spec
+  description: The Device Phone Number API from Orange — 1 operation(s) for device phone number.
   name: Orange Device Phone Number API
   slug: orange-device-phone-number-api
-- description: The Verify API from Orange — 1 operation(s) for verify.
+- baseURL: https://api.orange.com/camara/number-verification/v2
+  baseurl_source: spec
+  description: The Verify API from Orange — 1 operation(s) for verify.
   name: Orange Verify API
   slug: orange-verify-api
 artifact_total: 26
@@ -222,7 +226,7 @@ score:
     regime_id: telecommunications
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/screenshots/orange-2026-06-20T191151.png
 security:

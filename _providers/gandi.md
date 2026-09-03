@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -62,37 +62,59 @@ apis:
 - description: The GandiCloud VPS API allows you to manage virtual private servers.
   name: Gandi Cloud VPS API
   slug: gandicloud
-- description: Manage domain authorization codes.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage domain authorization codes.
   name: Gandi Authorization API
   slug: gandi-authorization-api
-- description: Check domain name availability and pricing.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Check domain name availability and pricing.
   name: Gandi Availability API
   slug: gandi-availability-api
-- description: Manage DNSSEC keys for a domain.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage DNSSEC keys for a domain.
   name: Gandi DNSSEC API
   slug: gandi-dnssec-api
-- description: Manage domains.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage domains.
   name: Gandi Domains API
   slug: gandi-domains-api
-- description: Domain ownership changes.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Domain ownership changes.
   name: Gandi Ownership API
   slug: gandi-ownership-api
-- description: Manage DNS records for a domain.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage DNS records for a domain.
   name: Gandi Records API
   slug: gandi-records-api
-- description: Manage automatic renewal.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage automatic renewal.
   name: Gandi Renewal API
   slug: gandi-renewal-api
-- description: Trademark claim information.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Trademark claim information.
   name: Gandi Trademark API
   slug: gandi-trademark-api
-- description: Manage TSIG keys for zone transfers.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage TSIG keys for zone transfers.
   name: Gandi TSIG API
   slug: gandi-tsig-api
-- description: Utility endpoints for record types.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Utility endpoints for record types.
   name: Gandi Utilities API
   slug: gandi-utilities-api
-- description: Manage AXFR zone transfer settings.
+- baseURL: https://api.gandi.net/v5/domain
+  baseurl_source: declared
+  description: Manage AXFR zone transfer settings.
   name: Gandi Zone Transfers API
   slug: gandi-zone-transfers-api
 artifact_total: 37
@@ -236,7 +258,7 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/screenshots/gandi-2026-06-20T181644.png
 security:

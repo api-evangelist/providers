@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Alarm and routine reads and control (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Alarm and routine reads and control (unofficial).
   name: Eight Sleep Alarms API
   slug: eight-sleep-alarms-api
-- description: OAuth2 password-grant token issuance (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: OAuth2 password-grant token issuance (unofficial).
   name: Eight Sleep Authentication API
   slug: eight-sleep-authentication-api
-- description: Adjustable Base position control (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Adjustable Base position control (unofficial).
   name: Eight Sleep Base API
   slug: eight-sleep-base-api
-- description: Pod device state and side assignment reads (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Pod device state and side assignment reads (unofficial).
   name: Eight Sleep Device API
   slug: eight-sleep-device-api
-- description: Heating level and away-mode control (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Heating level and away-mode control (unofficial).
   name: Eight Sleep Temperature API
   slug: eight-sleep-temperature-api
-- description: Per-night sleep and biometric trend reads (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Per-night sleep and biometric trend reads (unofficial).
   name: Eight Sleep Trends API
   slug: eight-sleep-trends-api
-- description: Current and individual user profile reads (unofficial).
+- baseURL: https://auth-api.8slp.net/v1
+  baseurl_source: declared
+  description: Current and individual user profile reads (unofficial).
   name: Eight Sleep User API
   slug: eight-sleep-user-api
 artifact_total: 22
@@ -193,7 +207,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/screenshots/eight-sleep-2026-06-20T180520.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: REST API for retrieving submissions and managing forms. Endpoints under /api/0/forms/<hashid>/. Bearer auth using a public read-only API key or a Master API key (paid plans only). Supports since/limit
   name: Formspree Forms API
   slug: forms-api
-- description: The Forms API from Formspree — 1 operation(s) for forms.
+- baseURL: https://formspree.io/f/<hashid>
+  baseurl_source: declared
+  description: The Forms API from Formspree — 1 operation(s) for forms.
   name: Formspree Forms API
   slug: formspree-forms-api
 artifact_total: 14
@@ -177,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formspree/refs/heads/main/screenshots/formspree-2026-06-20T181435.png
 security:

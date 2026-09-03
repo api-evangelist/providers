@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 17 operations · 16 acting
 api_count: 1
 apis:
-- description: Application and scope management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Application and scope management
   name: Wallarm Applications API
   slug: wallarm-applications-api
-- description: Attack and incident data management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Attack and incident data management
   name: Wallarm Attacks API
   slug: wallarm-attacks-api
-- description: Third-party integrations (SIEM, notifications, etc.)
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Third-party integrations (SIEM, notifications, etc.)
   name: Wallarm Integrations API
   slug: wallarm-integrations-api
-- description: IP allowlist, denylist, and graylist management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: IP allowlist, denylist, and graylist management
   name: Wallarm IP Lists API
   slug: wallarm-ip-lists-api
-- description: Wallarm filter node management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Wallarm filter node management
   name: Wallarm Nodes API
   slug: wallarm-nodes-api
-- description: Security rules and virtual patch management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Security rules and virtual patch management
   name: Wallarm Rules API
   slug: wallarm-rules-api
-- description: Automated trigger and alert management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Automated trigger and alert management
   name: Wallarm Triggers API
   slug: wallarm-triggers-api
-- description: User account and authentication management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: User account and authentication management
   name: Wallarm User API
   slug: wallarm-user-api
-- description: Vulnerability detection and management
+- baseURL: https://us1.api.wallarm.com
+  baseurl_source: declared
+  description: Vulnerability detection and management
   name: Wallarm Vulnerabilities API
   slug: wallarm-vulnerabilities-api
 artifact_total: 35
@@ -290,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/screenshots/wallarm-2026-06-20T201213.png
 security:

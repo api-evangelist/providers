@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Global vessel-position data feed launched September 2025 (replacing MarineTraffic AIS and the acquired Spire Maritime feeds) combining terrestrial, satellite, and roaming AIS from a 9,000+ station net
   name: Kpler AIS Data Feed
   slug: kpler-ais-data-feed
-- description: Flows and other aggregated series.
+- baseURL: https://api.kpler.com
+  baseurl_source: declared
+  description: Flows and other aggregated series.
   name: Kpler Aggregations API
   slug: kpler-aggregations-api
-- description: The Authentication API from Kpler — 1 operation(s) for authentication.
+- baseURL: https://api.kpler.com
+  baseurl_source: declared
+  description: The Authentication API from Kpler — 1 operation(s) for authentication.
   name: Kpler Authentication API
   slug: kpler-authentication-api
-- description: Trades, vessels, and other observed fact data.
+- baseURL: https://api.kpler.com
+  baseurl_source: declared
+  description: Trades, vessels, and other observed fact data.
   name: Kpler Facts API
   slug: kpler-facts-api
 artifact_total: 16
@@ -179,7 +185,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png
 security:

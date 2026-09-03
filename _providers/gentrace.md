@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: The Datasets API from Gentrace — 2 operation(s) for datasets.
+- baseURL: https://gentrace.ai/api
+  baseurl_source: declared
+  description: The Datasets API from Gentrace — 2 operation(s) for datasets.
   name: Gentrace Datasets API
   slug: gentrace-datasets-api
-- description: The Experiments API from Gentrace — 2 operation(s) for experiments.
+- baseURL: https://gentrace.ai/api
+  baseurl_source: declared
+  description: The Experiments API from Gentrace — 2 operation(s) for experiments.
   name: Gentrace Experiments API
   slug: gentrace-experiments-api
-- description: The Pipelines API from Gentrace — 2 operation(s) for pipelines.
+- baseURL: https://gentrace.ai/api
+  baseurl_source: declared
+  description: The Pipelines API from Gentrace — 2 operation(s) for pipelines.
   name: Gentrace Pipelines API
   slug: gentrace-pipelines-api
-- description: The TestCases API from Gentrace — 2 operation(s) for testcases.
+- baseURL: https://gentrace.ai/api
+  baseurl_source: declared
+  description: The TestCases API from Gentrace — 2 operation(s) for testcases.
   name: Gentrace TestCases API
   slug: gentrace-testcases-api
 artifact_total: 13
@@ -192,7 +200,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/screenshots/gentrace-2026-07-25T215644.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 8 operations · 8 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The Analytics API from Saviynt — 8 operation(s) for analytics.
+- baseURL: https://{tenant}.saviyntcloud.com/ECM/api
+  baseurl_source: declared
+  description: The Analytics API from Saviynt — 8 operation(s) for analytics.
   name: Saviynt Analytics API
   slug: saviynt-analytics-api
 artifact_total: 26
@@ -229,7 +231,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saviynt/refs/heads/main/screenshots/saviynt-2026-06-20T193458.png
 security:

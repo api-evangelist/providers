@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -45,31 +45,49 @@ agentic_access:
   summary_line: 20 operations · 12 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: The Accounting API from bexio — 4 operation(s) for accounting.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Accounting API from bexio — 4 operation(s) for accounting.
   name: bexio Accounting API
   slug: bexio-accounting-api
-- description: The Banking API from bexio — 1 operation(s) for banking.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Banking API from bexio — 1 operation(s) for banking.
   name: bexio Banking API
   slug: bexio-banking-api
-- description: The Contacts API from bexio — 2 operation(s) for contacts.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Contacts API from bexio — 2 operation(s) for contacts.
   name: bexio Contacts API
   slug: bexio-contacts-api
-- description: The Files API from bexio — 1 operation(s) for files.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Files API from bexio — 1 operation(s) for files.
   name: bexio Files API
   slug: bexio-files-api
-- description: The Items API from bexio — 1 operation(s) for items.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Items API from bexio — 1 operation(s) for items.
   name: bexio Items API
   slug: bexio-items-api
-- description: The Payroll API from bexio — 2 operation(s) for payroll.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Payroll API from bexio — 2 operation(s) for payroll.
   name: bexio Payroll API
   slug: bexio-payroll-api
-- description: The Projects API from bexio — 2 operation(s) for projects.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Projects API from bexio — 2 operation(s) for projects.
   name: bexio Projects API
   slug: bexio-projects-api
-- description: The Purchase API from bexio — 2 operation(s) for purchase.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Purchase API from bexio — 2 operation(s) for purchase.
   name: bexio Purchase API
   slug: bexio-purchase-api
-- description: The Sales Orders API from bexio — 5 operation(s) for sales orders.
+- baseURL: https://api.bexio.com/2.0
+  baseurl_source: declared
+  description: The Sales Orders API from bexio — 5 operation(s) for sales orders.
   name: bexio Sales Orders API
   slug: bexio-sales-orders-api
 artifact_total: 38
@@ -360,7 +378,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:

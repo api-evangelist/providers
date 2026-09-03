@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 50 operations · 25 acting
 api_count: 4
 apis:
-- description: Rollbar supports outbound webhook notifications for real-time event-driven integrations. Webhooks deliver payload data when errors occur, items are resolved, or deployment events happen, enabling inte
+- baseURL: https://api.rollbar.com
+  baseurl_source: declared
+  description: Rollbar supports outbound webhook notifications for real-time event-driven integrations. Webhooks deliver payload data when errors occur, items are resolved, or deployment events happen, enabling inte
   name: Rollbar Webhooks
   slug: rollbar-webhooks
-- description: Manage project access tokens used for authentication and authorization when interacting with the API.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage project access tokens used for authentication and authorization when interacting with the API.
   name: Rollbar Access Tokens API
   slug: rollbar-access-tokens-api
-- description: Manage deployment records in Rollbar. Report new deploys, update their status, and retrieve deployment history for a project.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage deployment records in Rollbar. Report new deploys, update their status, and retrieve deployment history for a project.
   name: Rollbar Deploys API
   slug: rollbar-deploys-api
-- description: Manage invitations to join teams within a Rollbar account.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage invitations to join teams within a Rollbar account.
   name: Rollbar Invites API
   slug: rollbar-invites-api
-- description: Manage error and message items tracked by Rollbar. Items represent unique errors or messages grouped by fingerprint.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage error and message items tracked by Rollbar. Items represent unique errors or messages grouped by fingerprint.
   name: Rollbar Items API
   slug: rollbar-items-api
-- description: Query metrics for specific items including occurrence counts and aggregate statistics.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Query metrics for specific items including occurrence counts and aggregate statistics.
   name: Rollbar Items Metrics API
   slug: rollbar-items-metrics-api
-- description: Manage webhook notification rules and configuration for a project.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage webhook notification rules and configuration for a project.
   name: Rollbar Notifications API
   slug: rollbar-notifications-api
-- description: Retrieve individual occurrences of errors and messages. Each occurrence represents a single instance of an item happening.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Retrieve individual occurrences of errors and messages. Each occurrence represents a single instance of an item happening.
   name: Rollbar Occurrences API
   slug: rollbar-occurrences-api
-- description: Query occurrence count metrics over time with filtering, grouping, and aggregation capabilities.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Query occurrence count metrics over time with filtering, grouping, and aggregation capabilities.
   name: Rollbar Occurrences Metrics API
   slug: rollbar-occurrences-metrics-api
-- description: Manage projects within a Rollbar account. Projects are the top-level organizational unit for error tracking.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage projects within a Rollbar account. Projects are the top-level organizational unit for error tracking.
   name: Rollbar Projects API
   slug: rollbar-projects-api
-- description: Query time-to-resolution metrics for projects, filterable by environment, level, and framework.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Query time-to-resolution metrics for projects, filterable by environment, level, and framework.
   name: Rollbar Resolution Time Metrics API
   slug: rollbar-resolution-time-metrics-api
-- description: Submit, list, and retrieve results for RQL (Rollbar Query Language) jobs. RQL provides a SQL-like interface for querying error and deployment data.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Submit, list, and retrieve results for RQL (Rollbar Query Language) jobs. RQL provides a SQL-like interface for querying error and deployment data.
   name: Rollbar RQL Jobs API
   slug: rollbar-rql-jobs-api
-- description: Upload JavaScript source maps to enable readable stack traces for minified code.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Upload JavaScript source maps to enable readable stack traces for minified code.
   name: Rollbar Source Maps API
   slug: rollbar-source-maps-api
-- description: Manage teams and team membership within a Rollbar account. Teams control access to projects.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Manage teams and team membership within a Rollbar account. Teams control access to projects.
   name: Rollbar Teams API
   slug: rollbar-teams-api
-- description: Retrieve user information within a Rollbar account.
+- baseURL: https://api.rollbar.com/api/1
+  baseurl_source: declared
+  description: Retrieve user information within a Rollbar account.
   name: Rollbar Users API
   slug: rollbar-users-api
 artifact_total: 83
@@ -422,7 +452,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -432,7 +462,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 45.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -441,7 +471,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:

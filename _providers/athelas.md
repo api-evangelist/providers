@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: ONC (g)(10)-certified, US Core 6.1.0-compliant FHIR R4B server exposing patient health data from Air to authorized third-party apps. Secured with SMART on FHIR v2 / OAuth2 (AWS Cognito), supporting st
   name: Commure EHR FHIR API
   slug: commure-ehr-fhir-api
-- description: The Auth API from Athelas — 1 operation(s) for auth.
+- baseURL: https://api.athelas.com/enterprise/v1
+  baseurl_source: declared
+  description: The Auth API from Athelas — 1 operation(s) for auth.
   name: Athelas Auth API
   slug: athelas-auth-api
-- description: The Patients API from Athelas — 8 operation(s) for patients.
+- baseURL: https://api.athelas.com/enterprise/v1
+  baseurl_source: declared
+  description: The Patients API from Athelas — 8 operation(s) for patients.
   name: Athelas Patients API
   slug: athelas-patients-api
-- description: The Prescribers API from Athelas — 3 operation(s) for prescribers.
+- baseURL: https://api.athelas.com/enterprise/v1
+  baseurl_source: declared
+  description: The Prescribers API from Athelas — 3 operation(s) for prescribers.
   name: Athelas Prescribers API
   slug: athelas-prescribers-api
-- description: The Sites API from Athelas — 5 operation(s) for sites.
+- baseURL: https://api.athelas.com/enterprise/v1
+  baseurl_source: declared
+  description: The Sites API from Athelas — 5 operation(s) for sites.
   name: Athelas Sites API
   slug: athelas-sites-api
-- description: The Test Types API from Athelas — 1 operation(s) for test types.
+- baseURL: https://api.athelas.com/enterprise/v1
+  baseurl_source: declared
+  description: The Test Types API from Athelas — 1 operation(s) for test types.
   name: Athelas Test Types API
   slug: athelas-test-types-api
 artifact_total: 18
@@ -235,7 +245,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -245,7 +255,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 54.5
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,7 +277,7 @@ score:
     regime_id: health
     score: 87.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

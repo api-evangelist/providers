@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Express Gateway is an API gateway built on Express.js for managing and securing microservices and APIs.
   name: Express Gateway
   slug: express-gateway
-- description: The Apps API from Express Gateway — 3 operation(s) for apps.
+- baseURL: http://localhost:9876
+  baseurl_source: spec
+  description: The Apps API from Express Gateway — 3 operation(s) for apps.
   name: Express Gateway Apps API
   slug: express-gateway-apps-api
-- description: The Credentials API from Express Gateway — 6 operation(s) for credentials.
+- baseURL: http://localhost:9876
+  baseurl_source: spec
+  description: The Credentials API from Express Gateway — 6 operation(s) for credentials.
   name: Express Gateway Credentials API
   slug: express-gateway-credentials-api
-- description: The Scopes API from Express Gateway — 2 operation(s) for scopes.
+- baseURL: http://localhost:9876
+  baseurl_source: spec
+  description: The Scopes API from Express Gateway — 2 operation(s) for scopes.
   name: Express Gateway Scopes API
   slug: express-gateway-scopes-api
-- description: The Users API from Express Gateway — 3 operation(s) for users.
+- baseURL: http://localhost:9876
+  baseurl_source: spec
+  description: The Users API from Express Gateway — 3 operation(s) for users.
   name: Express Gateway Users API
   slug: express-gateway-users-api
 artifact_total: 17
@@ -156,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/express-gateway/refs/heads/main/screenshots/express-gateway-2026-06-20T180941.png
 security:

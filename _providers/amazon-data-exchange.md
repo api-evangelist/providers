@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 27 operations · 16 acting
 api_count: 1
 apis:
-- description: Operations for managing data assets within revisions
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data assets within revisions
   name: Amazon Data Exchange Assets API
   slug: amazon-data-exchange-assets-api
-- description: Operations for managing data sets
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data sets
   name: Amazon Data Exchange Data Sets API
   slug: amazon-data-exchange-data-sets-api
-- description: Operations for managing event-driven actions
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing event-driven actions
   name: Amazon Data Exchange Event Actions API
   slug: amazon-data-exchange-event-actions-api
-- description: Operations for import/export jobs
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for import/export jobs
   name: Amazon Data Exchange Jobs API
   slug: amazon-data-exchange-jobs-api
-- description: Operations for managing data set revisions
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data set revisions
   name: Amazon Data Exchange Revisions API
   slug: amazon-data-exchange-revisions-api
-- description: Operations for managing resource tags
+- baseURL: https://dataexchange.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing resource tags
   name: Amazon Data Exchange Tags API
   slug: amazon-data-exchange-tags-api
 arazzos:
@@ -573,7 +585,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 5 acting
 api_count: 1
 apis:
-- description: 'The SOAX Web Data API extracts fully rendered HTML, screenshots, XHR responses, and structured data from any public website. It handles JavaScript rendering, CAPTCHA solving, fingerprinting, headless '
+- baseURL: https://partner.api.soax.com
+  baseurl_source: spec
+  description: 'The SOAX Web Data API extracts fully rendered HTML, screenshots, XHR responses, and structured data from any public website. It handles JavaScript rendering, CAPTCHA solving, fingerprinting, headless '
   name: SOAX Web Data API
   slug: soax-web-data-api
-- description: E-commerce pricing and inventory data
+- baseURL: https://partner.api.soax.com
+  baseurl_source: spec
+  description: E-commerce pricing and inventory data
   name: SOAX Ecommerce Data API
   slug: soax-ecommerce-data-api
-- description: Retrieve available cities, regions, carriers, and ISPs for proxy targeting
+- baseURL: https://partner.api.soax.com
+  baseurl_source: spec
+  description: Retrieve available cities, regions, carriers, and ISPs for proxy targeting
   name: SOAX Geo Targeting API
   slug: soax-geo-targeting-api
-- description: Manage whitelisted IP addresses for proxy authentication
+- baseURL: https://partner.api.soax.com
+  baseurl_source: spec
+  description: Manage whitelisted IP addresses for proxy authentication
   name: SOAX IP Whitelist API
   slug: soax-ip-whitelist-api
-- description: Search engine result page extraction
+- baseURL: https://partner.api.soax.com
+  baseurl_source: spec
+  description: Search engine result page extraction
   name: SOAX SERP Data API
   slug: soax-serp-data-api
 artifact_total: 25
@@ -237,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/screenshots/soax-2026-06-20T194119.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: RESTful API providing access to characters, locations, and episodes from the Rick and Morty animated series. Returns paginated JSON responses with up to 20 results per page.
@@ -156,7 +156,7 @@ score:
     score: 40.0
   previous_composite: 29.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rickandmorty/refs/heads/main/screenshots/rickandmorty-2026-06-20T193112.png
 security:

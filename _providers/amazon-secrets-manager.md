@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 12 acting
 api_count: 1
 apis:
-- description: Operations for generating passwords.
+- baseURL: https://secretsmanager.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for generating passwords.
   name: Amazon Secrets Manager Passwords API
   slug: amazon-secrets-manager-passwords-api
-- description: Operations for rotating secrets.
+- baseURL: https://secretsmanager.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for rotating secrets.
   name: Amazon Secrets Manager Rotation API
   slug: amazon-secrets-manager-rotation-api
-- description: Operations for managing secrets.
+- baseURL: https://secretsmanager.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing secrets.
   name: Amazon Secrets Manager Secrets API
   slug: amazon-secrets-manager-secrets-api
-- description: 'The #TagResource API from Amazon Secrets Manager — 1 operation(s) for #tagresource.'
+- baseURL: https://secretsmanager.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #TagResource API from Amazon Secrets Manager — 1 operation(s) for #tagresource.'
   name: 'Amazon Secrets Manager #TagResource API'
   slug: amazon-secrets-manager-tagresource-api
-- description: 'The #UntagResource API from Amazon Secrets Manager — 1 operation(s) for #untagresource.'
+- baseURL: https://secretsmanager.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #UntagResource API from Amazon Secrets Manager — 1 operation(s) for #untagresource.'
   name: 'Amazon Secrets Manager #UntagResource API'
   slug: amazon-secrets-manager-untagresource-api
 arazzos:
@@ -533,7 +543,7 @@ score:
       total: 5
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

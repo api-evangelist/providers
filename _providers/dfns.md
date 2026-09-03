@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 49 operations · 26 acting
 api_count: 1
 apis:
-- description: Approval workflow driven by the policy engine.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Approval workflow driven by the policy engine.
   name: Dfns Approvals API
   slug: dfns-approvals-api
-- description: Login, User Action Signing, users, and credentials.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Login, User Action Signing, users, and credentials.
   name: Dfns Auth API
   slug: dfns-auth-api
-- description: Standalone MPC keys and delegated signing.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Standalone MPC keys and delegated signing.
   name: Dfns Keys API
   slug: dfns-keys-api
-- description: Network fee estimates and read-only blockchain calls.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Network fee estimates and read-only blockchain calls.
   name: Dfns Networks API
   slug: dfns-networks-api
-- description: Permissions and their assignments to identities.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Permissions and their assignments to identities.
   name: Dfns Permissions API
   slug: dfns-permissions-api
-- description: Policy engine rules and approval decisions.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Policy engine rules and approval decisions.
   name: Dfns Policies API
   slug: dfns-policies-api
-- description: Machine identities and their access tokens.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Machine identities and their access tokens.
   name: Dfns ServiceAccounts API
   slug: dfns-serviceaccounts-api
-- description: Raw signature generation from keys.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Raw signature generation from keys.
   name: Dfns Signatures API
   slug: dfns-signatures-api
-- description: Sign-and-broadcast of caller-supplied transactions from a wallet.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Sign-and-broadcast of caller-supplied transactions from a wallet.
   name: Dfns Transactions API
   slug: dfns-transactions-api
-- description: Asset transfers built, signed, and broadcast from a wallet.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Asset transfers built, signed, and broadcast from a wallet.
   name: Dfns Transfers API
   slug: dfns-transfers-api
-- description: Programmable non-custodial wallets, balances, NFTs, and history.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Programmable non-custodial wallets, balances, NFTs, and history.
   name: Dfns Wallets API
   slug: dfns-wallets-api
-- description: Event webhooks and delivery logs.
+- baseURL: https://api.dfns.io
+  baseurl_source: declared
+  description: Event webhooks and delivery logs.
   name: Dfns Webhooks API
   slug: dfns-webhooks-api
 artifact_total: 32
@@ -223,7 +247,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/screenshots/dfns-2026-07-25T212051.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -52,13 +52,19 @@ apis:
 - description: Webhooks API for subscribing to events such as time entry creation, updates, deletions, and project changes within a workspace.
   name: Toggl Track Webhooks API
   slug: webhooks-api
-- description: The Me API from Toggl Track — 1 operation(s) for me.
+- baseURL: https://api.track.toggl.com/api/v9
+  baseurl_source: declared
+  description: The Me API from Toggl Track — 1 operation(s) for me.
   name: Toggl Track Me API
   slug: toggl-me-api
-- description: The Reports API from Toggl Track — 3 operation(s) for reports.
+- baseURL: https://api.track.toggl.com/api/v9
+  baseurl_source: declared
+  description: The Reports API from Toggl Track — 3 operation(s) for reports.
   name: Toggl Track Reports API
   slug: toggl-reports-api
-- description: The Time Entries API from Toggl Track — 5 operation(s) for time entries.
+- baseURL: https://api.track.toggl.com/api/v9
+  baseurl_source: declared
+  description: The Time Entries API from Toggl Track — 5 operation(s) for time entries.
   name: Toggl Track Time Entries API
   slug: toggl-time-entries-api
 artifact_total: 14
@@ -179,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/screenshots/toggl-2026-06-20T195434.png
 security:

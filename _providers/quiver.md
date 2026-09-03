@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: The Quiver Quantitative API provides REST access to alternative financial datasets including Congressional and Senate stock trading, insider transactions, lobbying disclosures, government contracts, c
   name: Quiver Quantitative API
   slug: quiver
-- description: The Beta API from Quiver Quantitative — 6 operation(s) for beta.
+- baseURL: https://api.quiverquant.com
+  baseurl_source: declared
+  description: The Beta API from Quiver Quantitative — 6 operation(s) for beta.
   name: Quiver Quantitative Beta API
   slug: quiver-beta-api
 artifact_total: 11
@@ -164,7 +166,7 @@ score:
     regime_id: securities_market_data
     score: 30.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/screenshots/quiver-2026-06-20T192443.png
 security:

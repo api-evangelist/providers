@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Current and forecast weather data for a given location
+- baseURL: https://api.darksky.net
+  baseurl_source: declared
+  description: Current and forecast weather data for a given location
   name: Dark Sky Forecast API
   slug: dark-sky-forecast-api
-- description: Historical or future weather data for a specific point in time
+- baseURL: https://api.darksky.net
+  baseurl_source: declared
+  description: Historical or future weather data for a specific point in time
   name: Dark Sky Time Machine API
   slug: dark-sky-time-machine-api
 artifact_total: 16
@@ -200,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/screenshots/dark-sky-2026-06-20T175456.png
 security:

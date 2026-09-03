@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -46,52 +46,84 @@ apis:
 - description: REST API for managing SysAid service records (incidents, requests, problems, changes), users, assets, and SLAs. Authentication uses Client Credentials to mint short-lived application access tokens (de
   name: SysAid REST API
   slug: rest-api
-- description: The ActionItems API from SysAid — 4 operation(s) for actionitems.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The ActionItems API from SysAid — 4 operation(s) for actionitems.
   name: SysAid ActionItems API
   slug: sysaid-actionitems-api
-- description: The Activities API from SysAid — 4 operation(s) for activities.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Activities API from SysAid — 4 operation(s) for activities.
   name: SysAid Activities API
   slug: sysaid-activities-api
-- description: The Agents API from SysAid — 8 operation(s) for agents.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Agents API from SysAid — 8 operation(s) for agents.
   name: SysAid Agents API
   slug: sysaid-agents-api
-- description: The Assets API from SysAid — 5 operation(s) for assets.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Assets API from SysAid — 5 operation(s) for assets.
   name: SysAid Assets API
   slug: sysaid-assets-api
-- description: The Attachments API from SysAid — 2 operation(s) for attachments.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Attachments API from SysAid — 2 operation(s) for attachments.
   name: SysAid Attachments API
   slug: sysaid-attachments-api
-- description: The Auth API from SysAid — 4 operation(s) for auth.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Auth API from SysAid — 4 operation(s) for auth.
   name: SysAid Auth API
   slug: sysaid-auth-api
-- description: The CIs API from SysAid — 9 operation(s) for cis.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The CIs API from SysAid — 9 operation(s) for cis.
   name: SysAid CIs API
   slug: sysaid-cis-api
-- description: The Companies API from SysAid — 5 operation(s) for companies.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Companies API from SysAid — 5 operation(s) for companies.
   name: SysAid Companies API
   slug: sysaid-companies-api
-- description: The EndUsers API from SysAid — 8 operation(s) for endusers.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The EndUsers API from SysAid — 8 operation(s) for endusers.
   name: SysAid EndUsers API
   slug: sysaid-endusers-api
-- description: The Groups API from SysAid — 4 operation(s) for groups.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Groups API from SysAid — 4 operation(s) for groups.
   name: SysAid Groups API
   slug: sysaid-groups-api
-- description: The LicenseManager API from SysAid — 2 operation(s) for licensemanager.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The LicenseManager API from SysAid — 2 operation(s) for licensemanager.
   name: SysAid LicenseManager API
   slug: sysaid-licensemanager-api
-- description: The RelatedItems API from SysAid — 3 operation(s) for relateditems.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The RelatedItems API from SysAid — 3 operation(s) for relateditems.
   name: SysAid RelatedItems API
   slug: sysaid-relateditems-api
-- description: The ServiceRecords API from SysAid — 6 operation(s) for servicerecords.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The ServiceRecords API from SysAid — 6 operation(s) for servicerecords.
   name: SysAid ServiceRecords API
   slug: sysaid-servicerecords-api
-- description: The Templates API from SysAid — 3 operation(s) for templates.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Templates API from SysAid — 3 operation(s) for templates.
   name: SysAid Templates API
   slug: sysaid-templates-api
-- description: The Utilities API from SysAid — 3 operation(s) for utilities.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Utilities API from SysAid — 3 operation(s) for utilities.
   name: SysAid Utilities API
   slug: sysaid-utilities-api
-- description: The Webhooks API from SysAid — 5 operation(s) for webhooks.
+- baseURL: https://your-account.sysaidit.com
+  baseurl_source: declared
+  description: The Webhooks API from SysAid — 5 operation(s) for webhooks.
   name: SysAid Webhooks API
   slug: sysaid-webhooks-api
 artifact_total: 39
@@ -243,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysaid/refs/heads/main/screenshots/sysaid-2026-06-20T194835.png
 security:

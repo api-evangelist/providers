@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 4 acting
 api_count: 3
 apis:
-- description: Property eligibility checks
+- baseURL: https://api.homeward.com
+  baseurl_source: declared
+  description: Property eligibility checks
   name: Homeward Buybox API
   slug: homeward-buybox-api
-- description: Finalize a lead in the Homeward application
+- baseURL: https://api.homeward.com
+  baseurl_source: declared
+  description: Finalize a lead in the Homeward application
   name: Homeward Finalization API
   slug: homeward-finalization-api
-- description: Create, read, and update partner offer requests
+- baseURL: https://api.homeward.com
+  baseurl_source: declared
+  description: Create, read, and update partner offer requests
   name: Homeward Offer Requests API
   slug: homeward-offer-requests-api
 arazzos:
@@ -192,7 +198,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -202,7 +208,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.9
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +220,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/screenshots/homeward-2026-07-25T221350.png
 security:
 - kind: authentication

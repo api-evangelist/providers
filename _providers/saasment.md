@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 1
 apis:
-- description: Security alert and notification management
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: Security alert and notification management
   name: Saasment Alerts API
   slug: saasment-alerts-api
-- description: Compliance assessment and reporting
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: Compliance assessment and reporting
   name: Saasment Compliance API
   slug: saasment-compliance-api
-- description: Cloud cost analysis and optimization recommendations
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: Cloud cost analysis and optimization recommendations
   name: Saasment Cost Optimization API
   slug: saasment-cost-optimization-api
-- description: SaaS application integration management
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: SaaS application integration management
   name: Saasment Integrations API
   slug: saasment-integrations-api
-- description: Misconfiguration detection and remediation
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: Misconfiguration detection and remediation
   name: Saasment Misconfigurations API
   slug: saasment-misconfigurations-api
-- description: SaaS security posture assessment and monitoring
+- baseURL: https://api.saasment.com/v1
+  baseurl_source: spec
+  description: SaaS security posture assessment and monitoring
   name: Saasment Security Posture API
   slug: saasment-security-posture-api
 artifact_total: 30
@@ -259,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saasment/refs/heads/main/screenshots/saasment-2026-06-20T193313.png
 security:

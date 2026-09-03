@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: Request-for-Quote swap API for the Clipper DEX. Aggregators retrieve pool state (price feeds, k factor), request firm quotes, and sign quotes to obtain the EIP-2098 signature/calldata needed to execut
@@ -133,7 +133,7 @@ score:
   band: thin
   composite: 33.2
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -157,8 +157,9 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shipyard-software/refs/heads/main/screenshots/shipyard-software-2026-09-02T155237.png
 security:
 - kind: authentication
   name: Shipyard Software Authentication

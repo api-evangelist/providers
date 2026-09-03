@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -65,7 +65,9 @@ apis:
 - description: API providing access to Datastream content, the world's leading time series database, via SOAP/XML and REST/JSON protocols. Enables strategists, economists, and research communities to access comprehe
   name: Datastream Web Service API
   slug: datastream-web-service-api
-- description: Standards-based WebSocket API for real-time pricing streaming using JSON message formats. Connects to Real-Time Distribution Systems and Real-Time Optimized cloud solutions for data consumption, contr
+- baseURL: wss://api.refinitiv.com
+  baseurl_source: declared
+  description: Standards-based WebSocket API for real-time pricing streaming using JSON message formats. Connects to Real-Time Distribution Systems and Real-Time Optimized cloud solutions for data consumption, contr
   name: LSEG WebSocket API
   slug: lseg-websocket-api
 - description: Java SDK encompassing the Enterprise Message API (EMA) and Enterprise Transport API (ETA) for building high-performance real-time data applications. Provides consumer, provider, and publisher features
@@ -143,46 +145,74 @@ apis:
 - description: .NET APIs for building custom standalone applications that access Refinitiv Eikon data including real-time market data, news, fundamentals, and time series. Requires the Eikon application running with
   name: Eikon .NET APIs
   slug: eikon-net-apis
-- description: OAuth 2.0 token management for API access
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: OAuth 2.0 token management for API access
   name: Refinitiv Eikon Authentication API
   slug: refinitiv-eikon-authentication-api
-- description: Environmental, Social, and Governance data and scores
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Environmental, Social, and Governance data and scores
   name: Refinitiv Eikon ESG API
   slug: refinitiv-eikon-esg-api
-- description: On-demand and managed data extractions
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: On-demand and managed data extractions
   name: Refinitiv Eikon Extractions API
   slug: refinitiv-eikon-extractions-api
-- description: Extracted file management and download
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Extracted file management and download
   name: Refinitiv Eikon Files API
   slug: refinitiv-eikon-files-api
-- description: Historical price data including interday and intraday summaries
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Historical price data including interday and intraday summaries
   name: Refinitiv Eikon Historical Pricing API
   slug: refinitiv-eikon-historical-pricing-api
-- description: Management of instrument lists for extractions
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Management of instrument lists for extractions
   name: Refinitiv Eikon Instrument Lists API
   slug: refinitiv-eikon-instrument-lists-api
-- description: Extraction job management and status monitoring
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Extraction job management and status monitoring
   name: Refinitiv Eikon Jobs API
   slug: refinitiv-eikon-jobs-api
-- description: Financial news headlines and stories from Reuters and other sources
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Financial news headlines and stories from Reuters and other sources
   name: Refinitiv Eikon News API
   slug: refinitiv-eikon-news-api
-- description: Immediate tick data extraction requests
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Immediate tick data extraction requests
   name: Refinitiv Eikon On-Demand Extractions API
   slug: refinitiv-eikon-on-demand-extractions-api
-- description: Configuration of extraction report templates
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Configuration of extraction report templates
   name: Refinitiv Eikon Report Templates API
   slug: refinitiv-eikon-report-templates-api
-- description: Scheduled extraction management
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Scheduled extraction management
   name: Refinitiv Eikon Schedules API
   slug: refinitiv-eikon-schedules-api
-- description: Search across organizations, instruments, quotes, and indicators
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Search across organizations, instruments, quotes, and indicators
   name: Refinitiv Eikon Search API
   slug: refinitiv-eikon-search-api
-- description: Snapshot and streaming price data for financial instruments
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Snapshot and streaming price data for financial instruments
   name: Refinitiv Eikon Streaming Pricing API
   slug: refinitiv-eikon-streaming-pricing-api
-- description: Instrument identifier concordance and navigation
+- baseURL: https://api.refinitiv.com
+  baseurl_source: declared
+  description: Instrument identifier concordance and navigation
   name: Refinitiv Eikon Symbology API
   slug: refinitiv-eikon-symbology-api
 arazzos:
@@ -637,7 +667,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
@@ -650,7 +680,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 48.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -665,7 +695,7 @@ score:
     regime_id: securities_market_data
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 7
 apis:
-- description: Shipment cancellation.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Shipment cancellation.
   name: ClickPost Cancellation API
   slug: clickpost-cancellation-api
-- description: Shipping labels.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Shipping labels.
   name: ClickPost Label API
   slug: clickpost-label-api
-- description: Order creation and lookup.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Order creation and lookup.
   name: ClickPost Order API
   slug: clickpost-order-api
-- description: Pickup scheduling.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Pickup scheduling.
   name: ClickPost Pickup API
   slug: clickpost-pickup-api
-- description: Carrier recommendation operations.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Carrier recommendation operations.
   name: ClickPost Recommendation API
   slug: clickpost-recommendation-api
-- description: Pincode and zone serviceability.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Pincode and zone serviceability.
   name: ClickPost Serviceability API
   slug: clickpost-serviceability-api
-- description: Shipment tracking.
+- baseURL: https://www.clickpost.in/api/v1
+  baseurl_source: spec
+  description: Shipment tracking.
   name: ClickPost Tracking API
   slug: clickpost-tracking-api
 artifact_total: 25
@@ -237,7 +251,7 @@ score:
     regime_id: telecommunications
     score: 43.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/screenshots/clickpost-2026-06-20T174515.png
 security:

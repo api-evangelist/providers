@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: The legacy Affinity V1 API provides comprehensive read and write access to core CRM data including persons, organizations, opportunities, lists, notes, interactions, reminders, and webhooks. It uses H
   name: Affinity API V1
   slug: affinity-api-v1
-- description: Operations about auths
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about auths
   name: Affinity auth API
   slug: affinity-auth-api
-- description: Operations about companies
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about companies
   name: Affinity companies API
   slug: affinity-companies-api
-- description: Operations about company merges
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about company merges
   name: Affinity companyMerges API
   slug: affinity-companymerges-api
-- description: Operations about emails
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about emails
   name: Affinity emails API
   slug: affinity-emails-api
-- description: Operations about lists
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about lists
   name: Affinity lists API
   slug: affinity-lists-api
-- description: Operations about meetings
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about meetings
   name: Affinity meetings API
   slug: affinity-meetings-api
-- description: Operations about notes
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about notes
   name: Affinity notes API
   slug: affinity-notes-api
-- description: Operations about opportunities
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about opportunities
   name: Affinity opportunities API
   slug: affinity-opportunities-api
-- description: Operations about person merges
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about person merges
   name: Affinity personMerges API
   slug: affinity-personmerges-api
-- description: Operations about persons
+- baseURL: https://api.affinity.co
+  baseurl_source: declared
+  description: Operations about persons
   name: Affinity persons API
   slug: affinity-persons-api
 artifact_total: 46
@@ -299,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/screenshots/affinity-2026-06-20T165626.png
 security:

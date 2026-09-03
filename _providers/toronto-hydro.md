@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +34,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Toronto Hydro's Green Button Download My Data (DMD) implementation, also required by O. Reg. 633/21 and built to NAESB REQ.21 ESPI v3.3. A Toronto Hydro customer signs in to their own account and down
   name: Toronto Hydro Green Button Download My Data
   slug: toronto-hydro-green-button-download-my-data
-- description: Application Information endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Application Information endpoints
   name: Toronto Hydro Application Information API
   slug: toronto-hydro-applicationinformation-api
-- description: Authorization endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Authorization endpoints
   name: Toronto Hydro Authorization API
   slug: toronto-hydro-authorization-api
-- description: Batch data transfer endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Batch data transfer endpoints
   name: Toronto Hydro Batch API
   slug: toronto-hydro-batch-api
-- description: Usage Point endpoints
+- baseURL: https://sandbox.greenbuttonalliance.org:8443/DataCustodian
+  baseurl_source: spec
+  description: Usage Point endpoints
   name: Toronto Hydro Usage Point API
   slug: toronto-hydro-usagepoint-api
 artifact_total: 9
@@ -202,7 +221,7 @@ score:
   band: thin
   composite: 30.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -232,8 +251,9 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/toronto-hydro/refs/heads/main/screenshots/toronto-hydro-2026-09-02T163937.png
 security:
 - kind: authentication
   name: Toronto Hydro Authentication

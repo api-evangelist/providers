@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'REST API for the DISCO eDiscovery platform providing access to datasets and metrics covering data-usage change events, review database sizes, and organizational data. Used for invoice reconciliation, '
@@ -146,7 +146,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 35.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disco/refs/heads/main/screenshots/disco-2026-06-20T180034.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -44,19 +44,27 @@ agentic_access:
   summary_line: 6 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Pub/sub channels over WebSocket (client) and HTTP (server publish). Public, private, and presence channels supported. WebSocket endpoint at ws-{cluster}.pusher.com. Cluster hostnames include eu, us2, '
+- baseURL: https://api-{cluster}.pusher.com/apps/{app_id}
+  baseurl_source: declared
+  description: 'Pub/sub channels over WebSocket (client) and HTTP (server publish). Public, private, and presence channels supported. WebSocket endpoint at ws-{cluster}.pusher.com. Cluster hostnames include eu, us2, '
   name: Pusher Channels API
   slug: channels-api
 - description: Server API for sending iOS, Android, and Web push notifications via FCM, APNs, and Web Push.
   name: Pusher Beams API
   slug: beams-api
-- description: The Channels API from Pusher — 3 operation(s) for channels.
+- baseURL: https://api-{cluster}.pusher.com/apps/{app_id}
+  baseurl_source: declared
+  description: The Channels API from Pusher — 3 operation(s) for channels.
   name: Pusher Channels API
   slug: pusher-channels-api
-- description: The Events API from Pusher — 2 operation(s) for events.
+- baseURL: https://api-{cluster}.pusher.com/apps/{app_id}
+  baseurl_source: declared
+  description: The Events API from Pusher — 2 operation(s) for events.
   name: Pusher Events API
   slug: pusher-events-api
-- description: The Users API from Pusher — 1 operation(s) for users.
+- baseURL: https://api-{cluster}.pusher.com/apps/{app_id}
+  baseurl_source: declared
+  description: The Users API from Pusher — 1 operation(s) for users.
   name: Pusher Users API
   slug: pusher-users-api
 artifact_total: 21
@@ -193,7 +201,7 @@ score:
     catalog_gap: 65.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -203,7 +211,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 28.9
-  previous_composite: 41.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -212,7 +220,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/screenshots/pusher-2026-06-20T192318.png
 security:

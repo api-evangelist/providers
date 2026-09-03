@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Teads DSP REST Campaign Management API, formerly the Zemanta One API. It lets Teads DSP clients programmatically create and manage accounts, campaigns, budgets, campaign goals, ad groups, ad group
@@ -169,7 +169,7 @@ score:
   band: emerging
   composite: 25.0
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +187,9 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zemanta/refs/heads/main/screenshots/zemanta-2026-09-02T171553.png
 security:
 - kind: authentication
   name: Zemanta Authentication

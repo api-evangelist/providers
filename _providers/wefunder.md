@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 3
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 48 operations · 24 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Activity API from Wefunder — 3 operation(s) for activity.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Activity API from Wefunder — 3 operation(s) for activity.
   name: Wefunder Activity API
   slug: wefunder-activity-api
-- description: The Attribution API from Wefunder — 2 operation(s) for attribution.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Attribution API from Wefunder — 2 operation(s) for attribution.
   name: Wefunder Attribution API
   slug: wefunder-attribution-api
-- description: The Attribution Partners API from Wefunder — 5 operation(s) for attribution partners.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Attribution Partners API from Wefunder — 5 operation(s) for attribution partners.
   name: Wefunder Attribution Partners API
   slug: wefunder-attribution-partners-api
-- description: The Attribution Webhooks API from Wefunder — 5 operation(s) for attribution webhooks.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Attribution Webhooks API from Wefunder — 5 operation(s) for attribution webhooks.
   name: Wefunder Attribution Webhooks API
   slug: wefunder-attribution-webhooks-api
-- description: The Campaigns API from Wefunder — 1 operation(s) for campaigns.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Campaigns API from Wefunder — 1 operation(s) for campaigns.
   name: Wefunder Campaigns API
   slug: wefunder-campaigns-api
-- description: The Explore API from Wefunder — 2 operation(s) for explore.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Explore API from Wefunder — 2 operation(s) for explore.
   name: Wefunder Explore API
   slug: wefunder-explore-api
-- description: The Intents API from Wefunder — 2 operation(s) for intents.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Intents API from Wefunder — 2 operation(s) for intents.
   name: Wefunder Intents API
   slug: wefunder-intents-api
-- description: The Investments API from Wefunder — 1 operation(s) for investments.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Investments API from Wefunder — 1 operation(s) for investments.
   name: Wefunder Investments API
   slug: wefunder-investments-api
-- description: The Syndicate Deals API from Wefunder — 5 operation(s) for syndicate deals.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Syndicate Deals API from Wefunder — 5 operation(s) for syndicate deals.
   name: Wefunder Syndicate Deals API
   slug: wefunder-syndicate-deals-api
-- description: The Syndicate Members API from Wefunder — 12 operation(s) for syndicate members.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Syndicate Members API from Wefunder — 12 operation(s) for syndicate members.
   name: Wefunder Syndicate Members API
   slug: wefunder-syndicate-members-api
-- description: The Syndicate Statistics API from Wefunder — 1 operation(s) for syndicate statistics.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Syndicate Statistics API from Wefunder — 1 operation(s) for syndicate statistics.
   name: Wefunder Syndicate Statistics API
   slug: wefunder-syndicate-statistics-api
-- description: The Syndicates API from Wefunder — 2 operation(s) for syndicates.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Syndicates API from Wefunder — 2 operation(s) for syndicates.
   name: Wefunder Syndicates API
   slug: wefunder-syndicates-api
-- description: The Users API from Wefunder — 1 operation(s) for users.
+- baseURL: https://api.wefunder.com
+  baseurl_source: declared
+  description: The Users API from Wefunder — 1 operation(s) for users.
   name: Wefunder Users API
   slug: wefunder-users-api
 artifact_total: 33
@@ -284,7 +310,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -294,7 +320,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +338,7 @@ score:
     regime_id: insurance
     score: 63.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wefunder/refs/heads/main/screenshots/wefunder-2026-08-17T082859.png
 security:

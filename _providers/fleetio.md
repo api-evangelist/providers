@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 40 operations · 19 acting
 api_count: 1
 apis:
-- description: The Contacts API from Fleetio — 2 operation(s) for contacts.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Contacts API from Fleetio — 2 operation(s) for contacts.
   name: Fleetio Contacts API
   slug: fleetio-contacts-api
-- description: The Fuel Entries API from Fleetio — 2 operation(s) for fuel entries.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Fuel Entries API from Fleetio — 2 operation(s) for fuel entries.
   name: Fleetio Fuel Entries API
   slug: fleetio-fuel-entries-api
-- description: The Inspections API from Fleetio — 2 operation(s) for inspections.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Inspections API from Fleetio — 2 operation(s) for inspections.
   name: Fleetio Inspections API
   slug: fleetio-inspections-api
-- description: The Inventory Journal Entries API from Fleetio — 1 operation(s) for inventory journal entries.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Inventory Journal Entries API from Fleetio — 1 operation(s) for inventory journal entries.
   name: Fleetio Inventory Journal Entries API
   slug: fleetio-inventory-journal-entries-api
-- description: The Issues API from Fleetio — 2 operation(s) for issues.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Issues API from Fleetio — 2 operation(s) for issues.
   name: Fleetio Issues API
   slug: fleetio-issues-api
-- description: The Parts API from Fleetio — 2 operation(s) for parts.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Parts API from Fleetio — 2 operation(s) for parts.
   name: Fleetio Parts API
   slug: fleetio-parts-api
-- description: The Service Entries API from Fleetio — 2 operation(s) for service entries.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Service Entries API from Fleetio — 2 operation(s) for service entries.
   name: Fleetio Service Entries API
   slug: fleetio-service-entries-api
-- description: The Service Reminders API from Fleetio — 2 operation(s) for service reminders.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Service Reminders API from Fleetio — 2 operation(s) for service reminders.
   name: Fleetio Service Reminders API
   slug: fleetio-service-reminders-api
-- description: The Vehicles API from Fleetio — 2 operation(s) for vehicles.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Vehicles API from Fleetio — 2 operation(s) for vehicles.
   name: Fleetio Vehicles API
   slug: fleetio-vehicles-api
-- description: The Webhooks API from Fleetio — 2 operation(s) for webhooks.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Fleetio — 2 operation(s) for webhooks.
   name: Fleetio Webhooks API
   slug: fleetio-webhooks-api
-- description: The Work Orders API from Fleetio — 2 operation(s) for work orders.
+- baseURL: https://secure.fleetio.com/api/v1
+  baseurl_source: declared
+  description: The Work Orders API from Fleetio — 2 operation(s) for work orders.
   name: Fleetio Work Orders API
   slug: fleetio-work-orders-api
 artifact_total: 31
@@ -215,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetio/refs/heads/main/screenshots/fleetio-2026-07-25T214735.png
 security:

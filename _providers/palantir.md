@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: Palantir Foundry API provides programmatic access to data integration, transformation, and analysis workflows within the Palantir Foundry platform. The v2 API uses OAuth 2.0 and JSON, with endpoints o
   name: Palantir Foundry API
   slug: palantir-foundry-api
-- description: The Admin - Groups API from Palantir — 1 operation(s) for admin - groups.
+- baseURL_template: https://{hostname}/api/v2
+  baseurl_source: spec_template
+  description: The Admin - Groups API from Palantir — 1 operation(s) for admin - groups.
   name: Palantir Admin - Groups API
   slug: palantir-admin-groups-api
-- description: The Admin - Users API from Palantir — 1 operation(s) for admin - users.
+- baseURL_template: https://{hostname}/api/v2
+  baseurl_source: spec_template
+  description: The Admin - Users API from Palantir — 1 operation(s) for admin - users.
   name: Palantir Admin - Users API
   slug: palantir-admin-users-api
-- description: The Datasets API from Palantir — 1 operation(s) for datasets.
+- baseURL_template: https://{hostname}/api/v2
+  baseurl_source: spec_template
+  description: The Datasets API from Palantir — 1 operation(s) for datasets.
   name: Palantir Datasets API
   slug: palantir-datasets-api
 artifact_total: 16
@@ -180,7 +186,7 @@ score:
     regime_id: government
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png
 security:

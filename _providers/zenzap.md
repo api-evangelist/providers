@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 28 operations · 19 acting
 api_count: 1
 apis:
-- description: Endpoints for AI agents to programmatically set up Zenzap organizations. Use `POST /v2/agentic/organization/create` to create an organization, install a bot, and invite a human user in a single reques
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Endpoints for AI agents to programmatically set up Zenzap organizations. Use `POST /v2/agentic/organization/create` to create an organization, install a bot, and invite a human user in a single reques
   name: ZenZap Agentic API
   slug: zenzap-agentic-api
-- description: 'Long polling allows your integration to fetch outbound events instead of receiving webhooks. Use `GET /v2/updates` with: - `offset`: value returned as `nextOffset` from the previous response - `limit`'
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: 'Long polling allows your integration to fetch outbound events instead of receiving webhooks. Use `GET /v2/updates` with: - `offset`: value returned as `nextOffset` from the previous response - `limit`'
   name: ZenZap Long Polling API
   slug: zenzap-long-polling-api
-- description: Operations for retrieving organization members
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Operations for retrieving organization members
   name: ZenZap Members API
   slug: zenzap-members-api
-- description: Operations for sending messages
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Operations for sending messages
   name: ZenZap Messages API
   slug: zenzap-messages-api
-- description: 'OAuth 2.0 `client_credentials` grant. Used by API-key bots that were created with `credentialType: oauth` to mint short-lived bearer access tokens. **In a nutshell:** 1. Get a `clientId` and `clientSe'
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: 'OAuth 2.0 `client_credentials` grant. Used by API-key bots that were created with `credentialType: oauth` to mint short-lived bearer access tokens. **In a nutshell:** 1. Get a `clientId` and `clientSe'
   name: ZenZap OAuth API
   slug: zenzap-oauth-api
-- description: Operations for creating polls, recording votes, and retracting votes. Polls are posted as messages in a topic. When you create a poll, each option is assigned a server-generated 6-character ID — use t
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Operations for creating polls, recording votes, and retracting votes. Polls are posted as messages in a topic. When you create a poll, each option is assigned a server-generated 6-character ID — use t
   name: ZenZap Polls API
   slug: zenzap-polls-api
-- description: Operations for managing tasks
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Operations for managing tasks
   name: ZenZap Tasks API
   slug: zenzap-tasks-api
-- description: Operations for managing topics (group chats/channels/conversations)
+- baseURL: https://api.zenzap.co
+  baseurl_source: declared
+  description: Operations for managing topics (group chats/channels/conversations)
   name: ZenZap Topics (group chats/channels/conversations) API
   slug: zenzap-topics-group-chats-channels-conversations-api
 artifact_total: 24
@@ -254,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -264,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 50.5
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenzap/refs/heads/main/screenshots/zenzap-2026-08-17T083047.png
 security:

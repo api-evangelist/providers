@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Operations for managing and inspecting workflow run instances
+- baseURL: https://api.relay.app
+  baseurl_source: declared
+  description: Operations for managing and inspecting workflow run instances
   name: Relay App Runs API
   slug: relay-app-runs-api
-- description: Webhook trigger endpoints for initiating workflow runs
+- baseURL: https://api.relay.app
+  baseurl_source: declared
+  description: Webhook trigger endpoints for initiating workflow runs
   name: Relay App Webhooks API
   slug: relay-app-webhooks-api
-- description: Operations for managing and triggering workflow runs
+- baseURL: https://api.relay.app
+  baseurl_source: declared
+  description: Operations for managing and triggering workflow runs
   name: Relay App Workflows API
   slug: relay-app-workflows-api
 artifact_total: 22
@@ -215,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/screenshots/relay-app-2026-06-20T192825.png
 security:

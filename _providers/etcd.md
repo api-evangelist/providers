@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 4
@@ -56,22 +56,34 @@ apis:
 - description: The original etcd v2 API exposed a RESTful HTTP interface for key-value operations using a hierarchical directory structure. This API has been deprecated in favor of the v3 gRPC API and was removed fr
   name: etcd v2 HTTP API
   slug: etcd-v2-api
-- description: Authentication and authorization management for users and roles
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Authentication and authorization management for users and roles
   name: Etcd Auth API
   slug: etcd-auth-api
-- description: Cluster membership management including member add, remove, and list
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Cluster membership management including member add, remove, and list
   name: Etcd Cluster API
   slug: etcd-cluster-api
-- description: Key-value store operations including put, get, delete, and range queries
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Key-value store operations including put, get, delete, and range queries
   name: Etcd KV API
   slug: etcd-kv-api
-- description: Lease management for TTL-based key expiration
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Lease management for TTL-based key expiration
   name: Etcd Lease API
   slug: etcd-lease-api
-- description: Maintenance operations including snapshots, defragmentation, and status
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Maintenance operations including snapshots, defragmentation, and status
   name: Etcd Maintenance API
   slug: etcd-maintenance-api
-- description: Watch operations for streaming key change notifications
+- baseURL_template: http://{host}:{port}/v3
+  baseurl_source: spec_template
+  description: Watch operations for streaming key change notifications
   name: Etcd Watch API
   slug: etcd-watch-api
 artifact_total: 103
@@ -496,7 +508,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/screenshots/etcd-2026-06-20T180830.png
 security:

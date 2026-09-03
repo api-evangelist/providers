@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: The Electronic Consent Based SSN Verification (eCBSV) Service allows financial institutions to verify that a provided Social Security Number, name, and date of birth match SSA records, with consent fr
   name: SSA eCBSV Verification API
   slug: ecbsv-api
-- description: Query SSA Field Office locations and hours
+- baseURL: https://services6.arcgis.com/zFiipv75rloRP5N4/ArcGIS/rest/services/Office_Points/FeatureServer
+  baseurl_source: spec
+  description: Query SSA Field Office locations and hours
   name: Social Security Administration Field Offices API
   slug: social-security-administration-field-offices-api
-- description: Query SSA Resident Station locations and hours
+- baseURL: https://services6.arcgis.com/zFiipv75rloRP5N4/ArcGIS/rest/services/Office_Points/FeatureServer
+  baseurl_source: spec
+  description: Query SSA Resident Station locations and hours
   name: Social Security Administration Resident Stations API
   slug: social-security-administration-resident-stations-api
 artifact_total: 21
@@ -232,7 +236,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/screenshots/social-security-administration-2026-06-20T194118.png
 security:

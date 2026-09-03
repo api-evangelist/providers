@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 11 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: SNAP B2B / B2B2C access-token issuance.
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: SNAP B2B / B2B2C access-token issuance.
   name: DOKU Access Token API
   slug: doku-access-token-api
-- description: DOKU-hosted checkout page (non-SNAP).
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: DOKU-hosted checkout page (non-SNAP).
   name: DOKU Checkout API
   slug: doku-checkout-api
-- description: SNAP account binding and host-to-host debit for e-wallets and bank direct debit.
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: SNAP account binding and host-to-host debit for e-wallets and bank direct debit.
   name: DOKU Direct Debit & e-Wallet API
   slug: doku-direct-debit-e-wallet-api
-- description: Kirim DOKU disbursement to bank accounts.
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: Kirim DOKU disbursement to bank accounts.
   name: DOKU Payout API
   slug: doku-payout-api
-- description: SNAP QRIS Merchant-Presented Mode.
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: SNAP QRIS Merchant-Presented Mode.
   name: DOKU QRIS API
   slug: doku-qris-api
-- description: SNAP BI-SNAP Virtual Account lifecycle.
+- baseURL: https://api.doku.com
+  baseurl_source: declared
+  description: SNAP BI-SNAP Virtual Account lifecycle.
   name: DOKU Virtual Account API
   slug: doku-virtual-account-api
 artifact_total: 29
@@ -300,7 +312,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -310,7 +322,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 70.3
+  previous_composite: 70.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -328,7 +340,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:

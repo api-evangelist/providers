@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,25 +47,39 @@ apis:
 - description: The Green Button energy-data service EPCOR operates for its three Ontario service areas (Aylmer-area natural gas, Collingwood-area and Kincardine-area electricity) to satisfy Ontario's O. Reg. 633/21.
   name: EPCOR Ontario Green Button (Download My Data / Connect My Data)
   slug: epcor-ontario-green-button
-- description: Municipal boundary reference layers.
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: Municipal boundary reference layers.
   name: EPCOR Boundaries API
   slug: epcor-boundaries-api
-- description: Service directory.
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: Service directory.
   name: EPCOR Catalog API
   slug: epcor-catalog-api
-- description: Water infrastructure construction projects.
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: Water infrastructure construction projects.
   name: EPCOR Infrastructure API
   slug: epcor-infrastructure-api
-- description: Edmonton electricity distribution outages (active, planned and point features).
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: Edmonton electricity distribution outages (active, planned and point features).
   name: EPCOR Power Outages API
   slug: epcor-power-outages-api
-- description: EPCOR Water USA service area boundaries.
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: EPCOR Water USA service area boundaries.
   name: EPCOR Service Areas API
   slug: epcor-service-areas-api
-- description: EPCOR Water USA district outage points (Arizona and New Mexico).
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: EPCOR Water USA district outage points (Arizona and New Mexico).
   name: EPCOR Us Water Outages API
   slug: epcor-us-water-outages-api
-- description: Canadian water outages, main breaks and field events.
+- baseURL: https://services6.arcgis.com/Ji2rusuWXDFSqNsP/ArcGIS/rest/services
+  baseurl_source: declared
+  description: Canadian water outages, main breaks and field events.
   name: EPCOR Water Outages API
   slug: epcor-water-outages-api
 artifact_total: 19
@@ -248,7 +273,7 @@ score:
     regime_id: energy_utilities
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:

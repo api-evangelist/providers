@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 13 operations · 3 acting
 api_count: 6
 apis:
-- description: Monitor and manage Actor run executions.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: Monitor and manage Actor run executions.
   name: Apify Actor Runs API
   slug: apify-actor-runs-api
-- description: Manage and run Apify Actors.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: Manage and run Apify Actors.
   name: Apify Actors API
   slug: apify-actors-api
-- description: Manage structured data storage from Actor runs.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: Manage structured data storage from Actor runs.
   name: Apify Datasets API
   slug: apify-datasets-api
-- description: Manage persistent key-value storage.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: Manage persistent key-value storage.
   name: Apify Key-Value Stores API
   slug: apify-key-value-stores-api
-- description: Manage URL queues for web crawling.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: Manage URL queues for web crawling.
   name: Apify Request Queues API
   slug: apify-request-queues-api
-- description: User and account management.
+- baseURL: https://api.apify.com/v2
+  baseurl_source: declared
+  description: User and account management.
   name: Apify Users API
   slug: apify-users-api
 artifact_total: 60
@@ -326,7 +338,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/screenshots/apify-2026-06-20T172249.png
 security:

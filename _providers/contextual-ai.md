@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 25 operations · 16 acting
 api_count: 1
 apis:
-- description: Create, configure, and manage RAG agents.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Create, configure, and manage RAG agents.
   name: Contextual AI Agents API
   slug: contextual-ai-agents-api
-- description: Query agents for grounded responses, retrievals, metrics, and feedback.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Query agents for grounded responses, retrievals, metrics, and feedback.
   name: Contextual AI Agents Query API
   slug: contextual-ai-agents-query-api
-- description: Create and manage datastores that hold ingested knowledge.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Create and manage datastores that hold ingested knowledge.
   name: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
-- description: Ingest and manage documents within a datastore.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Ingest and manage documents within a datastore.
   name: Contextual AI Documents API
   slug: contextual-ai-documents-api
-- description: Grounded generation with the Grounded Language Model (GLM).
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Grounded generation with the Grounded Language Model (GLM).
   name: Contextual AI Generate API
   slug: contextual-ai-generate-api
-- description: Evaluate model responses with natural-language unit tests.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Evaluate model responses with natural-language unit tests.
   name: Contextual AI LMUnit API
   slug: contextual-ai-lmunit-api
-- description: Parse documents into structured, AI-ready markdown.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Parse documents into structured, AI-ready markdown.
   name: Contextual AI Parse API
   slug: contextual-ai-parse-api
-- description: Instruction-following reranking of retrieved passages.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Instruction-following reranking of retrieved passages.
   name: Contextual AI Rerank API
   slug: contextual-ai-rerank-api
-- description: Manage workspace users.
+- baseURL: https://api.contextual.ai/v1
+  baseurl_source: declared
+  description: Manage workspace users.
   name: Contextual AI Users API
   slug: contextual-ai-users-api
 artifact_total: 30
@@ -211,7 +229,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -221,7 +239,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -230,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/screenshots/contextual-ai-2026-06-20T174932.png
 security:

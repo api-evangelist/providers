@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -53,46 +53,74 @@ apis:
 - description: Flutter plugin for integrating Polygon ID wallet capabilities into mobile applications. Provides identity creation, credential storage, ZK proof generation, and protocol communication for both Android
   name: Polygon ID Wallet SDK (Flutter)
   slug: polygon-id-wallet-sdk-flutter
-- description: Collection of endpoints related to Mobile
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Collection of endpoints related to Mobile
   name: Polygon ID Agent API
   slug: polygon-id-agent-api
-- description: The Auth API from Polygon ID — 3 operation(s) for auth.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Auth API from Polygon ID — 3 operation(s) for auth.
   name: Polygon ID Auth API
   slug: polygon-id-auth-api
-- description: The Config API from Polygon ID — 2 operation(s) for config.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Config API from Polygon ID — 2 operation(s) for config.
   name: Polygon ID Config API
   slug: polygon-id-config-api
-- description: The Connection API from Polygon ID — 5 operation(s) for connection.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Connection API from Polygon ID — 5 operation(s) for connection.
   name: Polygon ID Connection API
   slug: polygon-id-connection-api
-- description: Collection of endpoints related to Credentials
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Collection of endpoints related to Credentials
   name: Polygon ID Credentials API
   slug: polygon-id-credentials-api
-- description: The Display Methods API from Polygon ID — 2 operation(s) for display methods.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Display Methods API from Polygon ID — 2 operation(s) for display methods.
   name: Polygon ID Display Methods API
   slug: polygon-id-display-methods-api
-- description: Collection of endpoints related to Identity
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Collection of endpoints related to Identity
   name: Polygon ID Identity API
   slug: polygon-id-identity-api
-- description: Internal endpoints
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Internal endpoints
   name: Polygon ID Internal API
   slug: polygon-id-internal-api
-- description: Collection of endpoints related to Key Management
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Collection of endpoints related to Key Management
   name: Polygon ID Key Management API
   slug: polygon-id-key-management-api
-- description: The Links API from Polygon ID — 4 operation(s) for links.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Links API from Polygon ID — 4 operation(s) for links.
   name: Polygon ID Links API
   slug: polygon-id-links-api
-- description: The Payment API from Polygon ID — 6 operation(s) for payment.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Payment API from Polygon ID — 6 operation(s) for payment.
   name: Polygon ID Payment API
   slug: polygon-id-payment-api
-- description: Public endpoints for integrators
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: Public endpoints for integrators
   name: Polygon ID Public API
   slug: polygon-id-public-api
-- description: The QR Store API from Polygon ID — 1 operation(s) for qr store.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The QR Store API from Polygon ID — 1 operation(s) for qr store.
   name: Polygon ID QR Store API
   slug: polygon-id-qr-store-api
-- description: The Schemas API from Polygon ID — 2 operation(s) for schemas.
+- baseURL: https://issuer-node-core-api-testing.privado.id
+  baseurl_source: declared
+  description: The Schemas API from Polygon ID — 2 operation(s) for schemas.
   name: Polygon ID Schemas API
   slug: polygon-id-schemas-api
 artifact_total: 144
@@ -590,7 +618,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/screenshots/polygon-id-2026-06-20T191901.png
 security:

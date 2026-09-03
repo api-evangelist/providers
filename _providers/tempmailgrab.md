@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +37,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Versioned v1 REST API for creating private disposable inboxes, reading parsed messages with extracted OTPs and verification links, managing webhooks, and registering custom domains. Machine-readable O
+- baseURL: https://tempmailgrab.com/api/v1
+  baseurl_source: declared
+  description: Versioned v1 REST API for creating private disposable inboxes, reading parsed messages with extracted OTPs and verification links, managing webhooks, and registering custom domains. Machine-readable O
   name: TempMailGrab REST API
   slug: tempmailgrab-rest-api
 artifact_total: 7
@@ -199,10 +215,11 @@ score:
   band: strong
   composite: 63.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -212,6 +229,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 86.8
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -222,7 +240,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tempmailgrab/refs/heads/main/screenshots/tempmailgrab-2026-09-02T163054.png
 security:
 - kind: authentication
   name: Tempmailgrab Authentication

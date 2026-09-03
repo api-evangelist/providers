@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: Astronomy Picture of the Day endpoints
+- baseURL: https://api.nasa.gov
+  baseurl_source: declared
+  description: Astronomy Picture of the Day endpoints
   name: NASA APOD APOD API
   slug: nasa-apod-apod-api
 artifact_total: 14
@@ -196,7 +198,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-apod/refs/heads/main/screenshots/nasa-apod-2026-06-20T185946.png
 security:

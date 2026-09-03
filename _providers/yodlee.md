@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -49,67 +49,109 @@ apis:
 - description: FastLink 4 is Yodlee's white-label account aggregation widget that enables users to securely link their financial accounts. Provides a customizable embedded UI for account login, MFA, account selectio
   name: Yodlee FastLink
   slug: yodlee-fastlink
-- description: Account verification customers looking to integrate with one of our payment partners can use the Account Token endpoints. These APIs allow creating a secure processor token for your user's verified fi
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Account verification customers looking to integrate with one of our payment partners can use the Account Token endpoints. These APIs allow creating a secure processor token for your user's verified fi
   name: Yodlee Account Token API
   slug: yodlee-account-token-api
-- description: Accounts API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Accounts API
   name: Yodlee Accounts API
   slug: yodlee-accounts-api
-- description: Auth API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Auth API
   name: Yodlee Auth API
   slug: yodlee-auth-api
-- description: Cobrand API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Cobrand API
   name: Yodlee Cobrand API
   slug: yodlee-cobrand-api
-- description: Configs API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Configs API
   name: Yodlee Configs API
   slug: yodlee-configs-api
-- description: Consents API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Consents API
   name: Yodlee Consents API
   slug: yodlee-consents-api
-- description: DataExtracts API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: DataExtracts API
   name: Yodlee DataExtracts API
   slug: yodlee-dataextracts-api
-- description: Derived API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Derived API
   name: Yodlee Derived API
   slug: yodlee-derived-api
-- description: Documents API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Documents API
   name: Yodlee Documents API
   slug: yodlee-documents-api
-- description: Holdings API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Holdings API
   name: Yodlee Holdings API
   slug: yodlee-holdings-api
-- description: Institutions API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Institutions API
   name: Yodlee Institutions API
   slug: yodlee-institutions-api
-- description: 'Yodlee''s payment processor partners can use the Payment Processor endpoints to access verified account details using the <code>processorToken</code> created and shared by mutual customers. These APIs '
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: 'Yodlee''s payment processor partners can use the Payment Processor endpoints to access verified account details using the <code>processorToken</code> created and shared by mutual customers. These APIs '
   name: Yodlee Payment Processor API
   slug: yodlee-payment-processor-api
-- description: Provider Accounts API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Provider Accounts API
   name: Yodlee ProviderAccounts API
   slug: yodlee-provideraccounts-api
-- description: Providers API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Providers API
   name: Yodlee Providers API
   slug: yodlee-providers-api
-- description: Risk Analytics API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Risk Analytics API
   name: Yodlee Risk Analytics API
   slug: yodlee-risk-analytics-api
-- description: Statements API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Statements API
   name: Yodlee Statements API
   slug: yodlee-statements-api
-- description: Transactions API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Transactions API
   name: Yodlee Transactions API
   slug: yodlee-transactions-api
-- description: Users API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Users API
   name: Yodlee User API
   slug: yodlee-user-api
-- description: User Documents API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: User Documents API
   name: Yodlee User Documents API
   slug: yodlee-user-documents-api
-- description: Verification API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Verification API
   name: Yodlee Verification API
   slug: yodlee-verification-api
-- description: Verify Account API
+- baseURL: https://production.api.yodlee.com/ysl
+  baseurl_source: declared
+  description: Verify Account API
   name: Yodlee Verify Account API
   slug: yodlee-verify-account-api
 artifact_total: 53
@@ -306,7 +348,7 @@ score:
     regime_id: banking_open_finance
     score: 19.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

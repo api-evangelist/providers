@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: REST API for object/watermark/blemish removal via mask-based inpainting. POST multipart/form-data with image_file, mask_file, and optional mode (fast/quality) to https://clipdrop-api.co/cleanup/v1. De
   name: Cleanup.pictures Inpainting API
   slug: cleanup
-- description: The Cleanup API from Cleanup.pictures — 1 operation(s) for cleanup.
+- baseURL: https://clipdrop-api.co/cleanup/v1
+  baseurl_source: declared
+  description: The Cleanup API from Cleanup.pictures — 1 operation(s) for cleanup.
   name: Cleanup.pictures Cleanup API
   slug: cleanup-pictures-cleanup-api
 artifact_total: 11
@@ -154,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cleanup-pictures/refs/heads/main/screenshots/cleanup-pictures-2026-06-20T174452.png
 security:

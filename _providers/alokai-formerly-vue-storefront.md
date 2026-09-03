@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
   name: Alokai (formerly Vue Storefront) cdn API
   slug: alokai-formerly-vue-storefront-cdn-api
-- description: The deploy_check API from Alokai (formerly Vue Storefront) — 1 operation(s) for deploy_check.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The deploy_check API from Alokai (formerly Vue Storefront) — 1 operation(s) for deploy_check.
   name: Alokai (formerly Vue Storefront) deploy_check API
   slug: alokai-formerly-vue-storefront-deploy-check-api
-- description: The flush_cache API from Alokai (formerly Vue Storefront) — 1 operation(s) for flush_cache.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The flush_cache API from Alokai (formerly Vue Storefront) — 1 operation(s) for flush_cache.
   name: Alokai (formerly Vue Storefront) flush_cache API
   slug: alokai-formerly-vue-storefront-flush-cache-api
-- description: The Healthz API from Alokai (formerly Vue Storefront) — 1 operation(s) for healthz.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The Healthz API from Alokai (formerly Vue Storefront) — 1 operation(s) for healthz.
   name: Alokai (formerly Vue Storefront) Healthz API
   slug: alokai-formerly-vue-storefront-healthz-api
-- description: The Instance API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The Instance API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance.
   name: Alokai (formerly Vue Storefront) Instance API
   slug: alokai-formerly-vue-storefront-instance-api
-- description: The instance/{namespace} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}.
   name: Alokai (formerly Vue Storefront) instance/{namespace} API
   slug: alokai-formerly-vue-storefront-instance-namespace-api
-- description: The instance/{namespace}/exists API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/exists.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/exists API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/exists.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/exists API
   slug: alokai-formerly-vue-storefront-instance-namespace-exists-api
-- description: The instance/{namespace}/ingresses API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/ingresses.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/ingresses API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/ingresses.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/ingresses API
   slug: alokai-formerly-vue-storefront-instance-namespace-ingresses-api
-- description: The instance/{namespace}/kube_config API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/kube_config.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/kube_config API from Alokai (formerly Vue Storefront) — 2 operation(s) for instance/{namespace}/kube_config.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/kube_config API
   slug: alokai-formerly-vue-storefront-instance-namespace-kube-config-api
-- description: The instance/{namespace}/pod API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/pod API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/pod API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-api
-- description: The instance/{namespace}/pod/{pod} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/pod/{pod} API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod} API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-api
-- description: The instance/{namespace}/pod/{pod}/log API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}/log.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The instance/{namespace}/pod/{pod}/log API from Alokai (formerly Vue Storefront) — 1 operation(s) for instance/{namespace}/pod/{pod}/log.
   name: Alokai (formerly Vue Storefront) instance/{namespace}/pod/{pod}/log API
   slug: alokai-formerly-vue-storefront-instance-namespace-pod-pod-log-api
-- description: The v2.2/admin/instance API from Alokai (formerly Vue Storefront) — 2 operation(s) for v2.2/admin/instance.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/admin/instance API from Alokai (formerly Vue Storefront) — 2 operation(s) for v2.2/admin/instance.
   name: Alokai (formerly Vue Storefront) v2.2/admin/instance API
   slug: alokai-formerly-vue-storefront-v2-2-admin-instance-api
-- description: The v2.2/instance/additional_application API from Alokai (formerly Vue Storefront) — 2 operation(s) for v2.2/instance/additional_application.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/instance/additional_application API from Alokai (formerly Vue Storefront) — 2 operation(s) for v2.2/instance/additional_application.
   name: Alokai (formerly Vue Storefront) v2.2/instance/additional_application API
   slug: alokai-formerly-vue-storefront-v2-2-instance-additional-application-api
-- description: The v2.2/instance API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/instance API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance.
   name: Alokai (formerly Vue Storefront) v2.2/instance API
   slug: alokai-formerly-vue-storefront-v2-2-instance-api
-- description: The v2.2/instance/{namespace}/env_vars API from Alokai (formerly Vue Storefront) — 4 operation(s) for v2.2/instance/{namespace}/env_vars.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/instance/{namespace}/env_vars API from Alokai (formerly Vue Storefront) — 4 operation(s) for v2.2/instance/{namespace}/env_vars.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/env_vars API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-env-vars-api
-- description: The v2.2/instance/{namespace}/pod/{pod} API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pod/{pod}.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/instance/{namespace}/pod/{pod} API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pod/{pod}.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pod/{pod} API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pod-pod-api
-- description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
+- baseURL: https://farmer.vuestorefront.cloud
+  baseurl_source: declared
+  description: The v2.2/instance/{namespace}/pods API from Alokai (formerly Vue Storefront) — 1 operation(s) for v2.2/instance/{namespace}/pods.
   name: Alokai (formerly Vue Storefront) v2.2/instance/{namespace}/pods API
   slug: alokai-formerly-vue-storefront-v2-2-instance-namespace-pods-api
 artifact_total: 40
@@ -308,7 +344,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:

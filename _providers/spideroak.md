@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
@@ -188,7 +201,7 @@ score:
   band: developing
   composite: 42.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -207,8 +220,9 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spideroak/refs/heads/main/screenshots/spideroak-2026-09-02T160426.png
 security:
 - kind: authentication
   name: Spideroak Authentication

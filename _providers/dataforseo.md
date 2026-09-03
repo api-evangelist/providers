@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 2
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 475 operations · 198 acting · 2 human-in-the-loop
 api_count: 12
 apis:
-- description: The AiOptimization API from DataForSEO — 44 operation(s) for aioptimization.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The AiOptimization API from DataForSEO — 44 operation(s) for aioptimization.
   name: DataForSEO AiOptimization API
   slug: dataforseo-aioptimization-api
-- description: The AppData API from DataForSEO — 42 operation(s) for appdata.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The AppData API from DataForSEO — 42 operation(s) for appdata.
   name: DataForSEO AppData API
   slug: dataforseo-appdata-api
-- description: The Appendix API from DataForSEO — 4 operation(s) for appendix.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The Appendix API from DataForSEO — 4 operation(s) for appendix.
   name: DataForSEO Appendix API
   slug: dataforseo-appendix-api
-- description: The Backlinks API from DataForSEO — 24 operation(s) for backlinks.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The Backlinks API from DataForSEO — 24 operation(s) for backlinks.
   name: DataForSEO Backlinks API
   slug: dataforseo-backlinks-api
-- description: The BusinessData API from DataForSEO — 55 operation(s) for businessdata.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The BusinessData API from DataForSEO — 55 operation(s) for businessdata.
   name: DataForSEO BusinessData API
   slug: dataforseo-businessdata-api
-- description: The ContentAnalysis API from DataForSEO — 11 operation(s) for contentanalysis.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The ContentAnalysis API from DataForSEO — 11 operation(s) for contentanalysis.
   name: DataForSEO ContentAnalysis API
   slug: dataforseo-contentanalysis-api
-- description: The DataforseoLabs API from DataForSEO — 47 operation(s) for dataforseolabs.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The DataforseoLabs API from DataForSEO — 47 operation(s) for dataforseolabs.
   name: DataForSEO DataforseoLabs API
   slug: dataforseo-dataforseolabs-api
-- description: The DomainAnalytics API from DataForSEO — 14 operation(s) for domainanalytics.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The DomainAnalytics API from DataForSEO — 14 operation(s) for domainanalytics.
   name: DataForSEO DomainAnalytics API
   slug: dataforseo-domainanalytics-api
-- description: The KeywordsData API from DataForSEO — 70 operation(s) for keywordsdata.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The KeywordsData API from DataForSEO — 70 operation(s) for keywordsdata.
   name: DataForSEO KeywordsData API
   slug: dataforseo-keywordsdata-api
-- description: The Merchant API from DataForSEO — 32 operation(s) for merchant.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The Merchant API from DataForSEO — 32 operation(s) for merchant.
   name: DataForSEO Merchant API
   slug: dataforseo-merchant-api
-- description: The OnPage API from DataForSEO — 30 operation(s) for onpage.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The OnPage API from DataForSEO — 30 operation(s) for onpage.
   name: DataForSEO OnPage API
   slug: dataforseo-onpage-api
-- description: The Serp API from DataForSEO — 181 operation(s) for serp.
+- baseURL: https://api.dataforseo.com
+  baseurl_source: declared
+  description: The Serp API from DataForSEO — 181 operation(s) for serp.
   name: DataForSEO Serp API
   slug: dataforseo-serp-api
 artifact_total: 48
@@ -412,7 +436,7 @@ score:
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -422,7 +446,7 @@ score:
     discoverability: 81.5
     governance: 43.2
     operational_transparency: 26.3
-  previous_composite: 64.5
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,7 +458,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/screenshots/dataforseo-2026-06-20T175648.png
 security:

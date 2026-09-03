@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 99 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Assets API from Keka HR — 5 operation(s) for assets.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Assets API from Keka HR — 5 operation(s) for assets.
   name: Keka HR Assets API
   slug: keka-assets-api
-- description: The Attendance API from Keka HR — 7 operation(s) for attendance.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Attendance API from Keka HR — 7 operation(s) for attendance.
   name: Keka HR Attendance API
   slug: keka-attendance-api
-- description: The Authentication API from Keka HR — 1 operation(s) for authentication.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Authentication API from Keka HR — 1 operation(s) for authentication.
   name: Keka HR Authentication API
   slug: keka-authentication-api
-- description: The BGV APIs API from Keka HR — 2 operation(s) for bgv apis.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The BGV APIs API from Keka HR — 2 operation(s) for bgv apis.
   name: Keka HR BGV APIs API
   slug: keka-bgv-apis-api
-- description: The Core HR API from Keka HR — 14 operation(s) for core hr.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Core HR API from Keka HR — 14 operation(s) for core hr.
   name: Keka HR Core HR API
   slug: keka-core-hr-api
-- description: The Documents API from Keka HR — 3 operation(s) for documents.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Documents API from Keka HR — 3 operation(s) for documents.
   name: Keka HR Documents API
   slug: keka-documents-api
-- description: The Expense API from Keka HR — 3 operation(s) for expense.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Expense API from Keka HR — 3 operation(s) for expense.
   name: Keka HR Expense API
   slug: keka-expense-api
-- description: The Hire API from Keka HR — 12 operation(s) for hire.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Hire API from Keka HR — 12 operation(s) for hire.
   name: Keka HR Hire API
   slug: keka-hire-api
-- description: The Leave API from Keka HR — 4 operation(s) for leave.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Leave API from Keka HR — 4 operation(s) for leave.
   name: Keka HR Leave API
   slug: keka-leave-api
-- description: The Payroll API from Keka HR — 11 operation(s) for payroll.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Payroll API from Keka HR — 11 operation(s) for payroll.
   name: Keka HR Payroll API
   slug: keka-payroll-api
-- description: The PMS API from Keka HR — 8 operation(s) for pms.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The PMS API from Keka HR — 8 operation(s) for pms.
   name: Keka HR PMS API
   slug: keka-pms-api
-- description: The PSA API from Keka HR — 15 operation(s) for psa.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The PSA API from Keka HR — 15 operation(s) for psa.
   name: Keka HR PSA API
   slug: keka-psa-api
-- description: The Requisitions API from Keka HR — 1 operation(s) for requisitions.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Requisitions API from Keka HR — 1 operation(s) for requisitions.
   name: Keka HR Requisitions API
   slug: keka-requisitions-api
-- description: The Skills API from Keka HR — 2 operation(s) for skills.
+- baseURL: https://{tenant}.keka.com/api/v1
+  baseurl_source: declared
+  description: The Skills API from Keka HR — 2 operation(s) for skills.
   name: Keka HR Skills API
   slug: keka-skills-api
 artifact_total: 39
@@ -254,7 +282,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -264,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 30.3
-  previous_composite: 38.1
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -273,7 +301,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keka/refs/heads/main/screenshots/keka-2026-06-20T183947.png
 security:

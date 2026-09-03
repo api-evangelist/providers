@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 31 operations · 12 acting
 api_count: 1
 apis:
-- description: Pull campaign, share, click, conversion, and reward analytics.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Pull campaign, share, click, conversion, and reward analytics.
   name: Friendbuy Analytics API
   slug: friendbuy-analytics-api
-- description: Exchange account key and secret for a Bearer token.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Exchange account key and secret for a Bearer token.
   name: Friendbuy Authorization API
   slug: friendbuy-authorization-api
-- description: Create and retrieve customer records and manage customer data requests.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Create and retrieve customer records and manage customer data requests.
   name: Friendbuy Customers API
   slug: friendbuy-customers-api
-- description: Track purchase, sign-up, and custom conversion events.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Track purchase, sign-up, and custom conversion events.
   name: Friendbuy Events API
   slug: friendbuy-events-api
-- description: Block users from campaigns.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Block users from campaigns.
   name: Friendbuy Management API
   slug: friendbuy-management-api
-- description: Generate personal referral links and check referral status.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Generate personal referral links and check referral status.
   name: Friendbuy Referrals API
   slug: friendbuy-referrals-api
-- description: Manage loyalty ledger balances, adjustments, redemptions, and coupons.
+- baseURL: https://mapi.fbot.me/v1
+  baseurl_source: declared
+  description: Manage loyalty ledger balances, adjustments, redemptions, and coupons.
   name: Friendbuy Rewards & Loyalty API
   slug: friendbuy-rewards-loyalty-api
 artifact_total: 23
@@ -259,7 +273,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -269,7 +283,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 48.5
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -281,7 +295,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/screenshots/friendbuy-2026-07-25T215215.png
 security:

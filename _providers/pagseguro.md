@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -107,40 +107,64 @@ apis:
 - description: Official PrestaShop transparent-checkout integration module for PagSeguro / PagBank.
   name: PagSeguro PrestaShop Module
   slug: prestashop
-- description: The Accounts API from PagSeguro / PagBank — 2 operation(s) for accounts.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Accounts API from PagSeguro / PagBank — 2 operation(s) for accounts.
   name: PagSeguro / PagBank Accounts API
   slug: pagseguro-accounts-api
-- description: The Charges API from PagSeguro / PagBank — 4 operation(s) for charges.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Charges API from PagSeguro / PagBank — 4 operation(s) for charges.
   name: PagSeguro / PagBank Charges API
   slug: pagseguro-charges-api
-- description: The Checkout API from PagSeguro / PagBank — 4 operation(s) for checkout.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Checkout API from PagSeguro / PagBank — 4 operation(s) for checkout.
   name: PagSeguro / PagBank Checkout API
   slug: pagseguro-checkout-api
-- description: The Connect API from PagSeguro / PagBank — 6 operation(s) for connect.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Connect API from PagSeguro / PagBank — 6 operation(s) for connect.
   name: PagSeguro / PagBank Connect API
   slug: pagseguro-connect-api
-- description: The Coupons API from PagSeguro / PagBank — 2 operation(s) for coupons.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Coupons API from PagSeguro / PagBank — 2 operation(s) for coupons.
   name: PagSeguro / PagBank Coupons API
   slug: pagseguro-coupons-api
-- description: The Invoices API from PagSeguro / PagBank — 2 operation(s) for invoices.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Invoices API from PagSeguro / PagBank — 2 operation(s) for invoices.
   name: PagSeguro / PagBank Invoices API
   slug: pagseguro-invoices-api
-- description: The Orders API from PagSeguro / PagBank — 2 operation(s) for orders.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Orders API from PagSeguro / PagBank — 2 operation(s) for orders.
   name: PagSeguro / PagBank Orders API
   slug: pagseguro-orders-api
-- description: The Plans API from PagSeguro / PagBank — 4 operation(s) for plans.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Plans API from PagSeguro / PagBank — 4 operation(s) for plans.
   name: PagSeguro / PagBank Plans API
   slug: pagseguro-plans-api
-- description: The PublicKeys API from PagSeguro / PagBank — 2 operation(s) for publickeys.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The PublicKeys API from PagSeguro / PagBank — 2 operation(s) for publickeys.
   name: PagSeguro / PagBank PublicKeys API
   slug: pagseguro-publickeys-api
-- description: The Refunds API from PagSeguro / PagBank — 2 operation(s) for refunds.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Refunds API from PagSeguro / PagBank — 2 operation(s) for refunds.
   name: PagSeguro / PagBank Refunds API
   slug: pagseguro-refunds-api
-- description: The Subscribers API from PagSeguro / PagBank — 3 operation(s) for subscribers.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Subscribers API from PagSeguro / PagBank — 3 operation(s) for subscribers.
   name: PagSeguro / PagBank Subscribers API
   slug: pagseguro-subscribers-api
-- description: The Subscriptions API from PagSeguro / PagBank — 5 operation(s) for subscriptions.
+- baseURL: https://api.pagseguro.com
+  baseurl_source: declared
+  description: The Subscriptions API from PagSeguro / PagBank — 5 operation(s) for subscriptions.
   name: PagSeguro / PagBank Subscriptions API
   slug: pagseguro-subscriptions-api
 artifact_total: 53
@@ -297,7 +321,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -310,7 +334,7 @@ score:
   open_source:
     applies: true
     score: 60.0
-  previous_composite: 37.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -325,7 +349,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:

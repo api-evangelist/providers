@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,16 +52,24 @@ apis:
 - description: Hosted Model Context Protocol endpoint that connects Claude and other MCP-compatible clients to the user's Limitless memory.
   name: Limitless MCP Server
   slug: mcp-server
-- description: The Chats API from Limitless — 2 operation(s) for chats.
+- baseURL: https://www.limitless.ai
+  baseurl_source: declared
+  description: The Chats API from Limitless — 2 operation(s) for chats.
   name: Limitless Chats API
   slug: limitless-ai-chats-api
-- description: The Download Audio API from Limitless — 1 operation(s) for download audio.
+- baseURL: https://www.limitless.ai
+  baseurl_source: declared
+  description: The Download Audio API from Limitless — 1 operation(s) for download audio.
   name: Limitless Download Audio API
   slug: limitless-ai-download-audio-api
-- description: The Lifelogs API from Limitless — 2 operation(s) for lifelogs.
+- baseURL: https://www.limitless.ai
+  baseurl_source: declared
+  description: The Lifelogs API from Limitless — 2 operation(s) for lifelogs.
   name: Limitless Lifelogs API
   slug: limitless-ai-lifelogs-api
-- description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
+- baseURL: https://www.limitless.ai
+  baseurl_source: declared
+  description: The Limitless Developer API API from Limitless — 1 operation(s) for limitless developer api.
   name: Limitless Limitless Developer API API
   slug: limitless-ai-limitless-developer-api-api
 artifact_total: 21
@@ -309,7 +317,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/screenshots/limitless-ai-2026-07-25T225205.png
 security:

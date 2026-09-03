@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -47,43 +47,69 @@ apis:
 - description: Appcues Public API exposes flows, mobile experiences, pins, launchpads, banners, checklists, embeds, NPS, segments, users, groups, events, jobs, and SDK key management. US and EU regions are supported
   name: Appcues Public API
   slug: appcues-public-api
-- description: The Banners API from Appcues — 4 operation(s) for banners.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Banners API from Appcues — 4 operation(s) for banners.
   name: Appcues Banners API
   slug: appcues-banners-api
-- description: The Events API from Appcues — 1 operation(s) for events.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Events API from Appcues — 1 operation(s) for events.
   name: Appcues Events API
   slug: appcues-events-api
-- description: The Exports API from Appcues — 1 operation(s) for exports.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Exports API from Appcues — 1 operation(s) for exports.
   name: Appcues Exports API
   slug: appcues-exports-api
-- description: The Flows API from Appcues — 4 operation(s) for flows.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Flows API from Appcues — 4 operation(s) for flows.
   name: Appcues Flows API
   slug: appcues-flows-api
-- description: The Groups API from Appcues — 2 operation(s) for groups.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Groups API from Appcues — 2 operation(s) for groups.
   name: Appcues Groups API
   slug: appcues-groups-api
-- description: The Imports API from Appcues — 3 operation(s) for imports.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Imports API from Appcues — 3 operation(s) for imports.
   name: Appcues Imports API
   slug: appcues-imports-api
-- description: The Jobs API from Appcues — 2 operation(s) for jobs.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Jobs API from Appcues — 2 operation(s) for jobs.
   name: Appcues Jobs API
   slug: appcues-jobs-api
-- description: The Launchpads API from Appcues — 4 operation(s) for launchpads.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Launchpads API from Appcues — 4 operation(s) for launchpads.
   name: Appcues Launchpads API
   slug: appcues-launchpads-api
-- description: The Mobile API from Appcues — 4 operation(s) for mobile.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Mobile API from Appcues — 4 operation(s) for mobile.
   name: Appcues Mobile API
   slug: appcues-mobile-api
-- description: The Pins API from Appcues — 4 operation(s) for pins.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Pins API from Appcues — 4 operation(s) for pins.
   name: Appcues Pins API
   slug: appcues-pins-api
-- description: The Segments API from Appcues — 5 operation(s) for segments.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Segments API from Appcues — 5 operation(s) for segments.
   name: Appcues Segments API
   slug: appcues-segments-api
-- description: The Tags API from Appcues — 2 operation(s) for tags.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Tags API from Appcues — 2 operation(s) for tags.
   name: Appcues Tags API
   slug: appcues-tags-api
-- description: The Users API from Appcues — 1 operation(s) for users.
+- baseURL: https://api.appcues.com
+  baseurl_source: declared
+  description: The Users API from Appcues — 1 operation(s) for users.
   name: Appcues Users API
   slug: appcues-users-api
 artifact_total: 36
@@ -234,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appcues/refs/heads/main/screenshots/appcues-2026-06-20T172312.png
 security:

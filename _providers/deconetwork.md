@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: The Inventory API from DecoNetwork — 2 operation(s) for inventory.
+- baseURL: https://www.deconetwork.com/api/json/manage_orders
+  baseurl_source: declared
+  description: The Inventory API from DecoNetwork — 2 operation(s) for inventory.
   name: DecoNetwork Inventory API
   slug: deconetwork-inventory-api
-- description: The Orders API from DecoNetwork — 2 operation(s) for orders.
+- baseURL: https://www.deconetwork.com/api/json/manage_orders
+  baseurl_source: declared
+  description: The Orders API from DecoNetwork — 2 operation(s) for orders.
   name: DecoNetwork Orders API
   slug: deconetwork-orders-api
-- description: The Products API from DecoNetwork — 2 operation(s) for products.
+- baseURL: https://www.deconetwork.com/api/json/manage_orders
+  baseurl_source: declared
+  description: The Products API from DecoNetwork — 2 operation(s) for products.
   name: DecoNetwork Products API
   slug: deconetwork-products-api
-- description: The Purchase Orders API from DecoNetwork — 2 operation(s) for purchase orders.
+- baseURL: https://www.deconetwork.com/api/json/manage_orders
+  baseurl_source: declared
+  description: The Purchase Orders API from DecoNetwork — 2 operation(s) for purchase orders.
   name: DecoNetwork Purchase Orders API
   slug: deconetwork-purchase-orders-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/screenshots/deconetwork-2026-07-25T211529.png
 security:

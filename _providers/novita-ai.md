@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - plans
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -36,7 +47,9 @@ apis:
 - description: On-demand GPU instance management and templates plus serverless GPU endpoints. Create, start, stop, and delete instances; list products and templates; query usage-based and fixed-term billing.
   name: Novita AI GPU API
   slug: gpu
-- description: The Openai API from Novita AI — 4 operation(s) for openai.
+- baseURL: https://api.novita.ai
+  baseurl_source: declared
+  description: The Openai API from Novita AI — 4 operation(s) for openai.
   name: Novita AI Openai API
   slug: novita-ai-openai-api
 artifact_total: 13
@@ -215,7 +228,7 @@ score:
     catalog_gap: 67.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -225,7 +238,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 46.6
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -234,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
 security:

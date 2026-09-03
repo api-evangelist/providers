@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: The Arrow Electronics Order API enables automated order placement for electronic components at Arrow.com and Verical.com, and allows programmatic retrieval of order status information for existing ord
   name: Arrow Electronics Order API
   slug: order-api
-- description: The En API from Arrow Electronics — 4 operation(s) for en.
+- baseURL: https://api.arrow.com/itemservice/v4
+  baseurl_source: declared
+  description: The En API from Arrow Electronics — 4 operation(s) for en.
   name: Arrow Electronics En API
   slug: arrow-electronics-en-api
 artifact_total: 21
@@ -185,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arrow-electronics/refs/heads/main/screenshots/arrow-electronics-2026-06-20T172438.png
 security:

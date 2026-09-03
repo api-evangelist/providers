@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,31 +54,49 @@ apis:
 - description: TSB's OBIE Read/Write Confirmation of Funds (CBPII) API, allowing authorised card-based payment instrument issuers to confirm whether funds are available on a customer account. FAPI-secured with OAuth
   name: TSB Confirmation of Funds API (CBPII)
   slug: tsb-confirmation-of-funds-api
-- description: Endpoint for getting ATM data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: TSB Bank ATM API
   slug: tsb-bank-atm-api
-- description: The Authorization Server APIs API from TSB Bank — 9 operation(s) for authorization server apis.
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: The Authorization Server APIs API from TSB Bank — 9 operation(s) for authorization server apis.
   name: TSB Bank Authorization Server APIs API
   slug: tsb-bank-authorization-server-apis-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: TSB Bank BCA API
   slug: tsb-bank-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: TSB Bank Branch API
   slug: tsb-bank-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: TSB Bank CCC API
   slug: tsb-bank-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: TSB Bank PCA API
   slug: tsb-bank-pca-api
-- description: The Resource Server APIs API from TSB Bank — 2 operation(s) for resource server apis.
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: The Resource Server APIs API from TSB Bank — 2 operation(s) for resource server apis.
   name: TSB Bank Resource Server APIs API
   slug: tsb-bank-resource-server-apis-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: TSB Bank SME API
   slug: tsb-bank-sme-api
-- description: The Token Server APIs API from TSB Bank — 3 operation(s) for token server apis.
+- baseURL: https://apis.tsb.co.uk
+  baseurl_source: declared
+  description: The Token Server APIs API from TSB Bank — 3 operation(s) for token server apis.
   name: TSB Bank Token Server APIs API
   slug: tsb-bank-token-server-apis-api
 artifact_total: 20
@@ -217,7 +247,7 @@ score:
   band: developing
   composite: 40.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -253,8 +283,9 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tsb-bank/refs/heads/main/screenshots/tsb-bank-2026-09-02T164446.png
 security:
 - kind: authentication
   name: Tsb Bank Authentication

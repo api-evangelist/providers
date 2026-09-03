@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 26 operations
 api_count: 1
 apis:
-- description: Operations for creating and managing Amazon Machine Images
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing Amazon Machine Images
   name: Amazon EC2 AMIs API
   slug: amazon-ec2-amis-api
-- description: Operations for allocating and managing static IP addresses
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for allocating and managing static IP addresses
   name: Amazon EC2 Elastic IPs API
   slug: amazon-ec2-elastic-ips-api
-- description: Operations for launching, managing, and terminating EC2 instances
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for launching, managing, and terminating EC2 instances
   name: Amazon EC2 Instances API
   slug: amazon-ec2-instances-api
-- description: Operations for managing SSH key pairs used for instance access
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing SSH key pairs used for instance access
   name: Amazon EC2 Key Pairs API
   slug: amazon-ec2-key-pairs-api
-- description: Operations for managing reusable instance launch configurations
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing reusable instance launch configurations
   name: Amazon EC2 Launch Templates API
   slug: amazon-ec2-launch-templates-api
-- description: Operations for describing AWS regions and availability zones
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for describing AWS regions and availability zones
   name: Amazon EC2 Regions API
   slug: amazon-ec2-regions-api
-- description: Operations for managing security group rules and firewall settings
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing security group rules and firewall settings
   name: Amazon EC2 Security Groups API
   slug: amazon-ec2-security-groups-api
-- description: Operations for requesting and managing Spot Instances
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: Operations for requesting and managing Spot Instances
   name: Amazon EC2 Spot Instances API
   slug: amazon-ec2-spot-instances-api
 arazzos:
@@ -498,7 +514,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/screenshots/amazon-ec2-2026-06-20T171637.png
 security:

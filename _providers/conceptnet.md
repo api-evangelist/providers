@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: The ConceptNet REST API exposes the full ConceptNet 5 knowledge graph via JSON-LD endpoints. Consumers can look up concept nodes by language and term, query edges by relation type, retrieve semantical
   name: ConceptNet REST API
   slug: conceptnet-rest-api
-- description: Look up concept nodes in the knowledge graph
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Look up concept nodes in the knowledge graph
   name: ConceptNet Concepts API
   slug: conceptnet-concepts-api
-- description: Access individual edge (assertion) records
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Access individual edge (assertion) records
   name: ConceptNet Edges API
   slug: conceptnet-edges-api
-- description: Complex multi-parameter edge queries
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Complex multi-parameter edge queries
   name: ConceptNet Query API
   slug: conceptnet-query-api
-- description: Browse edges grouped by relation type
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Browse edges grouped by relation type
   name: ConceptNet Relations API
   slug: conceptnet-relations-api
-- description: Semantic similarity and relatedness using Numberbatch embeddings
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Semantic similarity and relatedness using Numberbatch embeddings
   name: ConceptNet Similarity API
   slug: conceptnet-similarity-api
-- description: Access provenance and source information
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: Access provenance and source information
   name: ConceptNet Sources API
   slug: conceptnet-sources-api
-- description: URI normalization and text standardization
+- baseURL: https://api.conceptnet.io
+  baseurl_source: declared
+  description: URI normalization and text standardization
   name: ConceptNet Utilities API
   slug: conceptnet-utilities-api
 artifact_total: 30
@@ -252,7 +266,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/screenshots/conceptnet-2026-06-20T174840.png
 security:

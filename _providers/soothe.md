@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,10 +35,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The auto-generated OpenAPI 3.1.0 schema published by the FastAPI application Soothe runs at help.soothe.com to serve a self-hosted mirror of its Document360 help centre. It describes the mirror servic
+- baseURL: https://help.soothe.com
+  baseurl_source: declared
+  description: The auto-generated OpenAPI 3.1.0 schema published by the FastAPI application Soothe runs at help.soothe.com to serve a self-hosted mirror of its Document360 help centre. It describes the mirror servic
   name: Soothe Help Center Mirror
   slug: soothe-help-center-mirror
 artifact_total: 5
@@ -149,11 +163,11 @@ score:
   band: thin
   composite: 32.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -163,7 +177,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.7
+  previous_composite: 32.0
   provenance:
     conformance: derived
     mcp: derived
@@ -175,8 +189,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/soothe/refs/heads/main/screenshots/soothe-2026-09-02T160236.png
 security:
 - kind: authentication
   name: Soothe Authentication

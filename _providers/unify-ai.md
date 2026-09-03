@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 48 operations · 33 acting
 api_count: 1
 apis:
-- description: Send messages to and retrieve messages from assistants
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Send messages to and retrieve messages from assistants
   name: Unify Agent API
   slug: unify-ai-agent-api
-- description: Create and manage AI assistants within your workspace
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Create and manage AI assistants within your workspace
   name: Unify Assistants API
   slug: unify-ai-assistants-api
-- description: Named sub-collections of logs within a project
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Named sub-collections of logs within a project
   name: Unify Contexts API
   slug: unify-ai-contexts-api
-- description: Structured logging — create, query, derive, and manage log entries
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Structured logging — create, query, derive, and manage log entries
   name: Unify Logs API
   slug: unify-ai-logs-api
-- description: Multi-user organization management
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Multi-user organization management
   name: Unify Organizations API
   slug: unify-ai-organizations-api
-- description: Platform-level utilities including credits and user info
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Platform-level utilities including credits and user info
   name: Unify Platform API
   slug: unify-ai-platform-api
-- description: Create and manage projects for organizing logs and contexts
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Create and manage projects for organizing logs and contexts
   name: Unify Projects API
   slug: unify-ai-projects-api
-- description: Collaboration spaces for grouping assistants
+- baseURL: https://api.unify.ai/v0
+  baseurl_source: declared
+  description: Collaboration spaces for grouping assistants
   name: Unify Spaces API
   slug: unify-ai-spaces-api
 artifact_total: 39
@@ -283,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:

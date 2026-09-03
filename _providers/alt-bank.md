@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -45,7 +45,9 @@ apis:
 - description: Identity verification / KYC SDK and API for onboarding and verifying applicants as part of the alt.bank credit and card flows.
   name: SDK KYC API
   slug: sdk-kyc-api
-- description: Credit underwriting and risk scoring for partner card issuance.
+- baseURL: https://guard.altbank.ai
+  baseurl_source: declared
+  description: Credit underwriting and risk scoring for partner card issuance.
   name: Alt Bank Underwriting API
   slug: alt-bank-underwriting-api
 artifact_total: 10
@@ -157,7 +159,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -167,7 +169,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.3
+  previous_composite: 25.1
   provenance:
     contracts:
       callable: 100.0
@@ -183,7 +185,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
 security:

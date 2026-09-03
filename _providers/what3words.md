@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,19 +89,29 @@ apis:
 - description: Public repository hosting the OpenAPI specification, LLM files, and reference material for the what3words Public API.
   name: what3words API Docs and OpenAPI Repository
   slug: api-docs-repo
-- description: The Autosuggest API from what3words — 1 operation(s) for autosuggest.
+- baseURL: https://api.what3words.com/v3
+  baseurl_source: declared
+  description: The Autosuggest API from what3words — 1 operation(s) for autosuggest.
   name: what3words Autosuggest API
   slug: what3words-autosuggest-api
-- description: The Available Languages API from what3words — 1 operation(s) for available languages.
+- baseURL: https://api.what3words.com/v3
+  baseurl_source: declared
+  description: The Available Languages API from what3words — 1 operation(s) for available languages.
   name: what3words Available Languages API
   slug: what3words-available-languages-api
-- description: The Convert To 3wa API from what3words — 1 operation(s) for convert to 3wa.
+- baseURL: https://api.what3words.com/v3
+  baseurl_source: declared
+  description: The Convert To 3wa API from what3words — 1 operation(s) for convert to 3wa.
   name: what3words Convert To 3wa API
   slug: what3words-convert-to-3wa-api
-- description: The Convert To Coordinates API from what3words — 1 operation(s) for convert to coordinates.
+- baseURL: https://api.what3words.com/v3
+  baseurl_source: declared
+  description: The Convert To Coordinates API from what3words — 1 operation(s) for convert to coordinates.
   name: what3words Convert To Coordinates API
   slug: what3words-convert-to-coordinates-api
-- description: The Grid Section API from what3words — 1 operation(s) for grid section.
+- baseURL: https://api.what3words.com/v3
+  baseurl_source: declared
+  description: The Grid Section API from what3words — 1 operation(s) for grid section.
   name: what3words Grid Section API
   slug: what3words-grid-section-api
 artifact_total: 33
@@ -227,7 +237,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/what3words/refs/heads/main/screenshots/what3words-2026-06-20T201420.png
 security:

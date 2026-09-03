@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,37 +35,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
-- description: News archive — company press releases, media coverage, peer-reviewed publications and conference presentations (32 published at harvest time, spanning April 2020 through August 2026).
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: News archive — company press releases, media coverage, peer-reviewed publications and conference presentations (32 published at harvest time, spanning April 2020 through August 2026).
   name: MOMA Therapeutics Content Posts API
   slug: moma-therapeutics-posts-api
-- description: Corporate pages — Science, Pipeline, MOMA, Team, Join Us, News Feed, Privacy Policy and Terms (9 published at harvest time). The acf.modules flexible-content array carries the page-builder blocks that
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Corporate pages — Science, Pipeline, MOMA, Team, Join Us, News Feed, Privacy Policy and Terms (9 published at harvest time). The acf.modules flexible-content array carries the page-builder blocks that
   name: MOMA Therapeutics Content Pages API
   slug: moma-therapeutics-pages-api
-- description: The team custom post type — leadership, board of directors, scientific advisory board and founders (59 published records at harvest time), classified by the MOMA-specific team_types taxonomy and carry
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: The team custom post type — leadership, board of directors, scientific advisory board and founders (59 published records at harvest time), classified by the MOMA-specific team_types taxonomy and carry
   name: MOMA Therapeutics Team API
   slug: moma-therapeutics-team-api
-- description: Media library — AACR conference posters, publication PDFs, headshots, logos and site imagery (211 attachments at harvest time).
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Media library — AACR conference posters, publication PDFs, headshots, logos and site imagery (211 attachments at harvest time).
   name: MOMA Therapeutics Media API
   slug: moma-therapeutics-media-api
-- description: Term collections for the three registered taxonomies — category (4 terms including Blog and Press Release), post_tag (registered but empty) and the MOMA-specific team_types (3 terms including Founders
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Term collections for the three registered taxonomies — category (4 terms including Blog and Press Release), post_tag (registered but empty) and the MOMA-specific team_types (3 terms including Founders
   name: MOMA Therapeutics Taxonomy API
   slug: moma-therapeutics-taxonomy-api
-- description: Self-describing metadata — the 219-route index across 12 namespaces, plus registered post types, taxonomies and statuses. This is the only machine-readable contract the company serves.
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Self-describing metadata — the 219-route index across 12 namespaces, plus registered post types, taxonomies and statuses. This is the only machine-readable contract the company serves.
   name: MOMA Therapeutics Discovery API
   slug: moma-therapeutics-discovery-api
-- description: Cross-content search over every published object — posts, pages and team records. An unfiltered query returned 42 results at harvest time.
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search over every published object — posts, pages and team records. An unfiltered query returned 42 results at harvest time.
   name: MOMA Therapeutics Search API
   slug: moma-therapeutics-search-api
-- description: Comment collection. Registered and anonymously reachable, but empty — no object on this deployment carries comments.
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Comment collection. Registered and anonymously reachable, but empty — no object on this deployment carries comments.
   name: MOMA Therapeutics Comments API
   slug: moma-therapeutics-comments-api
-- description: oEmbed 1.0 provider endpoint for momatx.com URLs, returning rich embeddable responses.
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for momatx.com URLs, returning rich embeddable responses.
   name: MOMA Therapeutics oEmbed API
   slug: moma-therapeutics-oembed-api
-- description: Advanced Custom Fields options-page payload, anonymously readable at /acf/v3/options/options. It carries site-wide configuration — logo, footer contact block, social profile URLs, copyright line and v
+- baseURL: https://momatx.com/wp-json
+  baseurl_source: declared
+  description: Advanced Custom Fields options-page payload, anonymously readable at /acf/v3/options/options. It carries site-wide configuration — logo, footer contact block, social profile URLs, copyright line and v
   name: MOMA Therapeutics Site Options API
   slug: moma-therapeutics-options-api
 artifact_total: 14
@@ -196,7 +228,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +259,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/moma-therapeutics/refs/heads/main/screenshots/moma-therapeutics-2026-09-02T150619.png
 security:
 - kind: authentication
   name: Moma Therapeutics Authentication

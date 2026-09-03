@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 43 operations · 18 acting
 api_count: 1
 apis:
-- description: Operations for retrieving API request logs useful for debugging and auditing integration activity.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for retrieving API request logs useful for debugging and auditing integration activity.
   name: PandaDoc API Logs API
   slug: pandadoc-api-logs-api
-- description: Operations for managing the PandaDoc contacts directory, including creating, reading, updating, and deleting contact records.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing the PandaDoc contacts directory, including creating, reading, updating, and deleting contact records.
   name: PandaDoc Contacts API
   slug: pandadoc-contacts-api
-- description: Operations for managing file attachments associated with a document, including uploading and downloading attachment files.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing file attachments associated with a document, including uploading and downloading attachment files.
   name: PandaDoc Document Attachments API
   slug: pandadoc-document-attachments-api
-- description: Operations for retrieving and updating field values within a document, such as text fields, checkboxes, signatures, and date fields.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for retrieving and updating field values within a document, such as text fields, checkboxes, signatures, and date fields.
   name: PandaDoc Document Fields API
   slug: pandadoc-document-fields-api
-- description: Operations for managing links between PandaDoc documents and external CRM entities such as contacts, deals, or accounts.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing links between PandaDoc documents and external CRM entities such as contacts, deals, or accounts.
   name: PandaDoc Document Link to CRM API
   slug: pandadoc-document-link-to-crm-api
-- description: Operations for managing recipients within documents, including adding, editing, reassigning, and deleting recipients.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing recipients within documents, including adding, editing, reassigning, and deleting recipients.
   name: PandaDoc Document Recipients API
   slug: pandadoc-document-recipients-api
-- description: Operations for configuring automatic reminders sent to document recipients who have not yet completed their actions.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for configuring automatic reminders sent to document recipients who have not yet completed their actions.
   name: PandaDoc Document Reminders API
   slug: pandadoc-document-reminders-api
-- description: Operations for creating, retrieving, sending, and managing the full lifecycle of documents including drafting, sending for signature, downloading, and deleting.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for creating, retrieving, sending, and managing the full lifecycle of documents including drafting, sending for signature, downloading, and deleting.
   name: PandaDoc Documents API
   slug: pandadoc-documents-api
-- description: Operations for organizing documents and templates into folders, including creating, renaming, and listing folder contents.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for organizing documents and templates into folders, including creating, renaming, and listing folder contents.
   name: PandaDoc Folders API
   slug: pandadoc-folders-api
-- description: Operations for retrieving and managing forms, which are publicly shareable document templates that can be filled and signed without a predefined recipient list.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for retrieving and managing forms, which are publicly shareable document templates that can be filled and signed without a predefined recipient list.
   name: PandaDoc Forms API
   slug: pandadoc-forms-api
-- description: Operations for managing and retrieving details about workspace members, including listing members and generating member API tokens.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing and retrieving details about workspace members, including listing members and generating member API tokens.
   name: PandaDoc Members API
   slug: pandadoc-members-api
-- description: Operations for managing document templates, including listing available templates, retrieving template details, creating templates from file upload, and deleting templates.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing document templates, including listing available templates, retrieving template details, creating templates from file upload, and deleting templates.
   name: PandaDoc Templates API
   slug: pandadoc-templates-api
-- description: Operations for querying the log of webhook events that have been dispatched, including filtering by type and delivery status.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for querying the log of webhook events that have been dispatched, including filtering by type and delivery status.
   name: PandaDoc Webhook Events API
   slug: pandadoc-webhook-events-api
-- description: Operations for managing webhook subscriptions that deliver real-time event notifications for document lifecycle and other platform events.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing webhook subscriptions that deliver real-time event notifications for document lifecycle and other platform events.
   name: PandaDoc Webhook Subscriptions API
   slug: pandadoc-webhook-subscriptions-api
-- description: Operations for managing organization workspaces, including listing, creating, and deactivating workspaces.
+- baseURL: https://api.pandadoc.com/public/v1
+  baseurl_source: declared
+  description: Operations for managing organization workspaces, including listing, creating, and deactivating workspaces.
   name: PandaDoc Workspaces API
   slug: pandadoc-workspaces-api
 artifact_total: 128
@@ -518,7 +548,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -528,7 +558,7 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 44.6
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -537,7 +567,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandadoc/refs/heads/main/screenshots/pandadoc-2026-06-20T191334.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: oauth2-proxy is an open-source reverse proxy that provides authentication with Google, Azure, OpenID Connect, and many more identity providers.
   name: Oauth2-Proxy
   slug: oauth2-proxy
-- description: The Metrics API from Oauth2-Proxy — 1 operation(s) for metrics.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Metrics API from Oauth2-Proxy — 1 operation(s) for metrics.
   name: Oauth2-Proxy Metrics API
   slug: oauth2-proxy-metrics-api
-- description: The Oauth2 API from Oauth2-Proxy — 7 operation(s) for oauth2.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Oauth2 API from Oauth2-Proxy — 7 operation(s) for oauth2.
   name: Oauth2-Proxy Oauth2 API
   slug: oauth2-proxy-oauth2-api
-- description: The OAuth2 Proxy Endpoints API from Oauth2-Proxy — 1 operation(s) for oauth2 proxy endpoints.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The OAuth2 Proxy Endpoints API from Oauth2-Proxy — 1 operation(s) for oauth2 proxy endpoints.
   name: Oauth2-Proxy OAuth2 Proxy Endpoints API
   slug: oauth2-proxy-oauth2-proxy-endpoints-api
-- description: The Ping API from Oauth2-Proxy — 1 operation(s) for ping.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Ping API from Oauth2-Proxy — 1 operation(s) for ping.
   name: Oauth2-Proxy Ping API
   slug: oauth2-proxy-ping-api
-- description: The Ready API from Oauth2-Proxy — 1 operation(s) for ready.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Ready API from Oauth2-Proxy — 1 operation(s) for ready.
   name: Oauth2-Proxy Ready API
   slug: oauth2-proxy-ready-api
-- description: The Robots.txt API from Oauth2-Proxy — 1 operation(s) for robots.txt.
+- baseURL: http://localhost:4180
+  baseurl_source: spec
+  description: The Robots.txt API from Oauth2-Proxy — 1 operation(s) for robots.txt.
   name: Oauth2-Proxy Robots.txt API
   slug: oauth2-proxy-robots-txt-api
 artifact_total: 20
@@ -164,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oauth2-proxy/refs/heads/main/screenshots/oauth2-proxy-2026-06-20T190551.png
 security:

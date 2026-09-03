@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,25 +48,39 @@ apis:
 - description: 'Legacy statistics endpoint at api.nhle.com (and the older statsapi.web.nhl.com) used by community projects and analytics tools. Hosts deeper historical records, play-by-play, and shift data. Like the '
   name: NHL Stats API (Legacy)
   slug: nhl-stats-api
-- description: The Game Center API from National Hockey League — 2 operation(s) for game center.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Game Center API from National Hockey League — 2 operation(s) for game center.
   name: National Hockey League Game Center API
   slug: national-hockey-league-game-center-api
-- description: The Players API from National Hockey League — 2 operation(s) for players.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Players API from National Hockey League — 2 operation(s) for players.
   name: National Hockey League Players API
   slug: national-hockey-league-players-api
-- description: The Schedule API from National Hockey League — 1 operation(s) for schedule.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Schedule API from National Hockey League — 1 operation(s) for schedule.
   name: National Hockey League Schedule API
   slug: national-hockey-league-schedule-api
-- description: The Scores API from National Hockey League — 2 operation(s) for scores.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Scores API from National Hockey League — 2 operation(s) for scores.
   name: National Hockey League Scores API
   slug: national-hockey-league-scores-api
-- description: The Standings API from National Hockey League — 2 operation(s) for standings.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Standings API from National Hockey League — 2 operation(s) for standings.
   name: National Hockey League Standings API
   slug: national-hockey-league-standings-api
-- description: The Stats API from National Hockey League — 2 operation(s) for stats.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Stats API from National Hockey League — 2 operation(s) for stats.
   name: National Hockey League Stats API
   slug: national-hockey-league-stats-api
-- description: The Teams API from National Hockey League — 4 operation(s) for teams.
+- baseURL: https://api-web.nhle.com/
+  baseurl_source: declared
+  description: The Teams API from National Hockey League — 4 operation(s) for teams.
   name: National Hockey League Teams API
   slug: national-hockey-league-teams-api
 artifact_total: 20
@@ -160,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png
 security:

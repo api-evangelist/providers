@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 50
@@ -44,154 +44,254 @@ agentic_access:
   summary_line: 50 operations · 50 acting · 50 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.associatevehiclefleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.associatevehiclefleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.AssociateVehicleFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-associatevehiclefleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.BatchCreateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.batchcreatevehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.BatchCreateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.batchcreatevehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.BatchCreateVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-batchcreatevehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.BatchUpdateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.batchupdatevehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.BatchUpdateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.batchupdatevehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.BatchUpdateVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-batchupdatevehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createcampaign.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createcampaign.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateCampaign API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createcampaign-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createdecodermanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createdecodermanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateDecoderManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createdecodermanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createfleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createfleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createfleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createmodelmanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createmodelmanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateModelManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createmodelmanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createsignalcatalog.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createsignalcatalog.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateSignalCatalog API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createsignalcatalog-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createvehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.CreateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.createvehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.CreateVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-createvehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletecampaign.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletecampaign.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteCampaign API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletecampaign-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletedecodermanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletedecodermanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteDecoderManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletedecodermanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletefleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletefleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletefleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletemodelmanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletemodelmanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteModelManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletemodelmanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletesignalcatalog.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletesignalcatalog.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteSignalCatalog API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletesignalcatalog-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletevehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DeleteVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.deletevehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DeleteVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-deletevehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.DisassociateVehicleFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.disassociatevehiclefleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.DisassociateVehicleFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.disassociatevehiclefleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.DisassociateVehicleFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-disassociatevehiclefleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getcampaign.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getcampaign.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetCampaign API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getcampaign-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getdecodermanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getdecodermanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetDecoderManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getdecodermanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getfleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getfleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getfleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetLoggingOptions API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getloggingoptions.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetLoggingOptions API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getloggingoptions.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetLoggingOptions API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getloggingoptions-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getmodelmanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getmodelmanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetModelManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getmodelmanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetRegisterAccountStatus API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getregisteraccountstatus.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetRegisterAccountStatus API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getregisteraccountstatus.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetRegisterAccountStatus API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getregisteraccountstatus-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getsignalcatalog.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getsignalcatalog.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetSignalCatalog API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getsignalcatalog-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getvehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getvehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getvehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.GetVehicleStatus API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getvehiclestatus.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.GetVehicleStatus API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.getvehiclestatus.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.GetVehicleStatus API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-getvehiclestatus-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ImportDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.importdecodermanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ImportDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.importdecodermanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ImportDecoderManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-importdecodermanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ImportSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.importsignalcatalog.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ImportSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.importsignalcatalog.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ImportSignalCatalog API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-importsignalcatalog-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListCampaigns API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listcampaigns.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListCampaigns API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listcampaigns.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListCampaigns API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listcampaigns-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestNetworkInterfaces API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifestnetworkinterf'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestNetworkInterfaces API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifestnetworkinterf'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestNetworkInterfaces API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifestnetworkinterfaces-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifests API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifests.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifests API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifests.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifests API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifests-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestSignals API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifestsignals.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestSignals API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listdecodermanifestsignals.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListDecoderManifestSignals API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listdecodermanifestsignals-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListFleets API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listfleets.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListFleets API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listfleets.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListFleets API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listfleets-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListFleetsForVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listfleetsforvehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListFleetsForVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listfleetsforvehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListFleetsForVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listfleetsforvehicle-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListModelManifestNodes API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listmodelmanifestnodes.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListModelManifestNodes API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listmodelmanifestnodes.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListModelManifestNodes API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listmodelmanifestnodes-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListModelManifests API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listmodelmanifests.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListModelManifests API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listmodelmanifests.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListModelManifests API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listmodelmanifests-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogNodes API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listsignalcatalognodes.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogNodes API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listsignalcatalognodes.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogNodes API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listsignalcatalognodes-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogs API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listsignalcatalogs.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogs API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listsignalcatalogs.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListSignalCatalogs API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listsignalcatalogs-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListTagsForResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listtagsforresource.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListTagsForResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listtagsforresource.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListTagsForResource API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listtagsforresource-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListVehicles API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listvehicles.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListVehicles API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listvehicles.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListVehicles API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listvehicles-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.ListVehiclesInFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listvehiclesinfleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.ListVehiclesInFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.listvehiclesinfleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.ListVehiclesInFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-listvehiclesinfleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.PutLoggingOptions API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.putloggingoptions.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.PutLoggingOptions API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.putloggingoptions.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.PutLoggingOptions API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-putloggingoptions-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.RegisterAccount API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.registeraccount.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.RegisterAccount API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.registeraccount.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.RegisterAccount API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-registeraccount-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.TagResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.tagresource.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.TagResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.tagresource.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.TagResource API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-tagresource-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UntagResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.untagresource.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UntagResource API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.untagresource.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UntagResource API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-untagresource-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatecampaign.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateCampaign API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatecampaign.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateCampaign API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatecampaign-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatedecodermanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateDecoderManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatedecodermanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateDecoderManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatedecodermanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatefleet.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateFleet API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatefleet.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateFleet API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatefleet-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatemodelmanifest.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateModelManifest API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatemodelmanifest.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateModelManifest API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatemodelmanifest-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatesignalcatalog.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateSignalCatalog API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatesignalcatalog.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateSignalCatalog API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatesignalcatalog-api
-- description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatevehicle.'
+- baseURL: https://iotfleetwise.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API from Amazon IoT FleetWise — 1 operation(s) for #x amz target=iotautobahncontrolplane.updatevehicle.'
   name: 'Amazon IoT FleetWise #X Amz Target=IoTAutobahnControlPlane.UpdateVehicle API'
   slug: amazon-iot-fleetwise-x-amz-target-iotautobahncontrolplane-updatevehicle-api
 artifact_total: 719
@@ -2336,7 +2436,7 @@ score:
       marker_coverage: 0.0
       total: 50
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/screenshots/amazon-iot-fleetwise-2026-06-20T171710.png
 security:

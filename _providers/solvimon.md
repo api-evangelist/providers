@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -43,196 +43,324 @@ agentic_access:
   summary_line: 438 operations · 287 acting · 4 human-in-the-loop
 api_count: 4
 apis:
-- description: The alertRules API from Solvimon — 2 operation(s) for alertrules.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The alertRules API from Solvimon — 2 operation(s) for alertrules.
   name: Solvimon alertRules API
   slug: solvimon-alertrules-api
-- description: The alerts API from Solvimon — 2 operation(s) for alerts.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The alerts API from Solvimon — 2 operation(s) for alerts.
   name: Solvimon alerts API
   slug: solvimon-alerts-api
-- description: The apiKeys API from Solvimon — 4 operation(s) for apikeys.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The apiKeys API from Solvimon — 4 operation(s) for apikeys.
   name: Solvimon apiKeys API
   slug: solvimon-apikeys-api
-- description: The approvalPolicy API from Solvimon — 5 operation(s) for approvalpolicy.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The approvalPolicy API from Solvimon — 5 operation(s) for approvalpolicy.
   name: Solvimon approvalPolicy API
   slug: solvimon-approvalpolicy-api
-- description: The approvalRequest API from Solvimon — 5 operation(s) for approvalrequest.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The approvalRequest API from Solvimon — 5 operation(s) for approvalrequest.
   name: Solvimon approvalRequest API
   slug: solvimon-approvalrequest-api
-- description: The attachments API from Solvimon — 2 operation(s) for attachments.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The attachments API from Solvimon — 2 operation(s) for attachments.
   name: Solvimon attachments API
   slug: solvimon-attachments-api
-- description: The auditRecords API from Solvimon — 2 operation(s) for auditrecords.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The auditRecords API from Solvimon — 2 operation(s) for auditrecords.
   name: Solvimon auditRecords API
   slug: solvimon-auditrecords-api
-- description: The authentication API from Solvimon — 9 operation(s) for authentication.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The authentication API from Solvimon — 9 operation(s) for authentication.
   name: Solvimon authentication API
   slug: solvimon-authentication-api
-- description: The authenticationProviders API from Solvimon — 3 operation(s) for authenticationproviders.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The authenticationProviders API from Solvimon — 3 operation(s) for authenticationproviders.
   name: Solvimon authenticationProviders API
   slug: solvimon-authenticationproviders-api
-- description: The billingEntities API from Solvimon — 2 operation(s) for billingentities.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The billingEntities API from Solvimon — 2 operation(s) for billingentities.
   name: Solvimon billingEntities API
   slug: solvimon-billingentities-api
-- description: The bulkActions API from Solvimon — 5 operation(s) for bulkactions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The bulkActions API from Solvimon — 5 operation(s) for bulkactions.
   name: Solvimon bulkActions API
   slug: solvimon-bulkactions-api
-- description: The contacts API from Solvimon — 2 operation(s) for contacts.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The contacts API from Solvimon — 2 operation(s) for contacts.
   name: Solvimon contacts API
   slug: solvimon-contacts-api
-- description: The coupons API from Solvimon — 7 operation(s) for coupons.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The coupons API from Solvimon — 7 operation(s) for coupons.
   name: Solvimon coupons API
   slug: solvimon-coupons-api
-- description: The creditTypes API from Solvimon — 6 operation(s) for credittypes.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The creditTypes API from Solvimon — 6 operation(s) for credittypes.
   name: Solvimon creditTypes API
   slug: solvimon-credittypes-api
-- description: The customers API from Solvimon — 10 operation(s) for customers.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The customers API from Solvimon — 10 operation(s) for customers.
   name: Solvimon customers API
   slug: solvimon-customers-api
-- description: The customFields API from Solvimon — 2 operation(s) for customfields.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The customFields API from Solvimon — 2 operation(s) for customfields.
   name: Solvimon customFields API
   slug: solvimon-customfields-api
-- description: The documents API from Solvimon — 3 operation(s) for documents.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The documents API from Solvimon — 3 operation(s) for documents.
   name: Solvimon documents API
   slug: solvimon-documents-api
-- description: The features API from Solvimon — 2 operation(s) for features.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The features API from Solvimon — 2 operation(s) for features.
   name: Solvimon features API
   slug: solvimon-features-api
-- description: The fileProcessingSettings API from Solvimon — 2 operation(s) for fileprocessingsettings.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The fileProcessingSettings API from Solvimon — 2 operation(s) for fileprocessingsettings.
   name: Solvimon fileProcessingSettings API
   slug: solvimon-fileprocessingsettings-api
-- description: The files API from Solvimon — 3 operation(s) for files.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The files API from Solvimon — 3 operation(s) for files.
   name: Solvimon files API
   slug: solvimon-files-api
-- description: The ingest API from Solvimon — 15 operation(s) for ingest.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The ingest API from Solvimon — 15 operation(s) for ingest.
   name: Solvimon ingest API
   slug: solvimon-ingest-api
-- description: The integrations API from Solvimon — 7 operation(s) for integrations.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The integrations API from Solvimon — 7 operation(s) for integrations.
   name: Solvimon integrations API
   slug: solvimon-integrations-api
-- description: The invoices API from Solvimon — 26 operation(s) for invoices.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The invoices API from Solvimon — 26 operation(s) for invoices.
   name: Solvimon invoices API
   slug: solvimon-invoices-api
-- description: The meterProperties API from Solvimon — 2 operation(s) for meterproperties.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The meterProperties API from Solvimon — 2 operation(s) for meterproperties.
   name: Solvimon meterProperties API
   slug: solvimon-meterproperties-api
-- description: The meters API from Solvimon — 3 operation(s) for meters.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The meters API from Solvimon — 3 operation(s) for meters.
   name: Solvimon meters API
   slug: solvimon-meters-api
-- description: The meterValueCalculations API from Solvimon — 2 operation(s) for metervaluecalculations.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The meterValueCalculations API from Solvimon — 2 operation(s) for metervaluecalculations.
   name: Solvimon meterValueCalculations API
   slug: solvimon-metervaluecalculations-api
-- description: The meterValues API from Solvimon — 2 operation(s) for metervalues.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The meterValues API from Solvimon — 2 operation(s) for metervalues.
   name: Solvimon meterValues API
   slug: solvimon-metervalues-api
-- description: The paymentAcceptors API from Solvimon — 3 operation(s) for paymentacceptors.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The paymentAcceptors API from Solvimon — 3 operation(s) for paymentacceptors.
   name: Solvimon paymentAcceptors API
   slug: solvimon-paymentacceptors-api
-- description: The paymentMethods API from Solvimon — 4 operation(s) for paymentmethods.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The paymentMethods API from Solvimon — 4 operation(s) for paymentmethods.
   name: Solvimon paymentMethods API
   slug: solvimon-paymentmethods-api
-- description: The payments API from Solvimon — 8 operation(s) for payments.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The payments API from Solvimon — 8 operation(s) for payments.
   name: Solvimon payments API
   slug: solvimon-payments-api
-- description: The paymentSchedules API from Solvimon — 6 operation(s) for paymentschedules.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The paymentSchedules API from Solvimon — 6 operation(s) for paymentschedules.
   name: Solvimon paymentSchedules API
   slug: solvimon-paymentschedules-api
-- description: The platforms API from Solvimon — 4 operation(s) for platforms.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The platforms API from Solvimon — 4 operation(s) for platforms.
   name: Solvimon platforms API
   slug: solvimon-platforms-api
-- description: The portalUrls API from Solvimon — 3 operation(s) for portalurls.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The portalUrls API from Solvimon — 3 operation(s) for portalurls.
   name: Solvimon portalUrls API
   slug: solvimon-portalurls-api
-- description: The pricingGroups API from Solvimon — 2 operation(s) for pricinggroups.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingGroups API from Solvimon — 2 operation(s) for pricinggroups.
   name: Solvimon pricingGroups API
   slug: solvimon-pricinggroups-api
-- description: The pricingPlans API from Solvimon — 3 operation(s) for pricingplans.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingPlans API from Solvimon — 3 operation(s) for pricingplans.
   name: Solvimon pricingPlans API
   slug: solvimon-pricingplans-api
-- description: The pricingPlanSchedules API from Solvimon — 5 operation(s) for pricingplanschedules.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingPlanSchedules API from Solvimon — 5 operation(s) for pricingplanschedules.
   name: Solvimon pricingPlanSchedules API
   slug: solvimon-pricingplanschedules-api
-- description: The pricingPlanSubscriptionGroups API from Solvimon — 2 operation(s) for pricingplansubscriptiongroups.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingPlanSubscriptionGroups API from Solvimon — 2 operation(s) for pricingplansubscriptiongroups.
   name: Solvimon pricingPlanSubscriptionGroups API
   slug: solvimon-pricingplansubscriptiongroups-api
-- description: The pricingPlanSubscriptions API from Solvimon — 9 operation(s) for pricingplansubscriptions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingPlanSubscriptions API from Solvimon — 9 operation(s) for pricingplansubscriptions.
   name: Solvimon pricingPlanSubscriptions API
   slug: solvimon-pricingplansubscriptions-api
-- description: The pricingPlanVersions API from Solvimon — 2 operation(s) for pricingplanversions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricingPlanVersions API from Solvimon — 2 operation(s) for pricingplanversions.
   name: Solvimon pricingPlanVersions API
   slug: solvimon-pricingplanversions-api
-- description: The pricings API from Solvimon — 2 operation(s) for pricings.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The pricings API from Solvimon — 2 operation(s) for pricings.
   name: Solvimon pricings API
   slug: solvimon-pricings-api
-- description: The productCategories API from Solvimon — 3 operation(s) for productcategories.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The productCategories API from Solvimon — 3 operation(s) for productcategories.
   name: Solvimon productCategories API
   slug: solvimon-productcategories-api
-- description: The productItems API from Solvimon — 6 operation(s) for productitems.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The productItems API from Solvimon — 6 operation(s) for productitems.
   name: Solvimon productItems API
   slug: solvimon-productitems-api
-- description: The products API from Solvimon — 6 operation(s) for products.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The products API from Solvimon — 6 operation(s) for products.
   name: Solvimon products API
   slug: solvimon-products-api
-- description: The promotionCodes API from Solvimon — 7 operation(s) for promotioncodes.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The promotionCodes API from Solvimon — 7 operation(s) for promotioncodes.
   name: Solvimon promotionCodes API
   slug: solvimon-promotioncodes-api
-- description: The quotes API from Solvimon — 5 operation(s) for quotes.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The quotes API from Solvimon — 5 operation(s) for quotes.
   name: Solvimon quotes API
   slug: solvimon-quotes-api
-- description: The quoteTemplates API from Solvimon — 4 operation(s) for quotetemplates.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The quoteTemplates API from Solvimon — 4 operation(s) for quotetemplates.
   name: Solvimon quoteTemplates API
   slug: solvimon-quotetemplates-api
-- description: The quoteVersions API from Solvimon — 9 operation(s) for quoteversions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The quoteVersions API from Solvimon — 9 operation(s) for quoteversions.
   name: Solvimon quoteVersions API
   slug: solvimon-quoteversions-api
-- description: The reportConfigurations API from Solvimon — 2 operation(s) for reportconfigurations.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The reportConfigurations API from Solvimon — 2 operation(s) for reportconfigurations.
   name: Solvimon reportConfigurations API
   slug: solvimon-reportconfigurations-api
-- description: The reportDefinitions API from Solvimon — 1 operation(s) for reportdefinitions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The reportDefinitions API from Solvimon — 1 operation(s) for reportdefinitions.
   name: Solvimon reportDefinitions API
   slug: solvimon-reportdefinitions-api
-- description: The reports API from Solvimon — 11 operation(s) for reports.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The reports API from Solvimon — 11 operation(s) for reports.
   name: Solvimon reports API
   slug: solvimon-reports-api
-- description: The reportSubscriptions API from Solvimon — 3 operation(s) for reportsubscriptions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The reportSubscriptions API from Solvimon — 3 operation(s) for reportsubscriptions.
   name: Solvimon reportSubscriptions API
   slug: solvimon-reportsubscriptions-api
-- description: The reprocess API from Solvimon — 2 operation(s) for reprocess.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The reprocess API from Solvimon — 2 operation(s) for reprocess.
   name: Solvimon reprocess API
   slug: solvimon-reprocess-api
-- description: The roles API from Solvimon — 2 operation(s) for roles.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The roles API from Solvimon — 2 operation(s) for roles.
   name: Solvimon roles API
   slug: solvimon-roles-api
-- description: The signatureRequests API from Solvimon — 3 operation(s) for signaturerequests.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The signatureRequests API from Solvimon — 3 operation(s) for signaturerequests.
   name: Solvimon signatureRequests API
   slug: solvimon-signaturerequests-api
-- description: The taxIdTypes API from Solvimon — 1 operation(s) for taxidtypes.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The taxIdTypes API from Solvimon — 1 operation(s) for taxidtypes.
   name: Solvimon taxIdTypes API
   slug: solvimon-taxidtypes-api
-- description: The teams API from Solvimon — 3 operation(s) for teams.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The teams API from Solvimon — 3 operation(s) for teams.
   name: Solvimon teams API
   slug: solvimon-teams-api
-- description: The users API from Solvimon — 8 operation(s) for users.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The users API from Solvimon — 8 operation(s) for users.
   name: Solvimon users API
   slug: solvimon-users-api
-- description: The walletGrants API from Solvimon — 2 operation(s) for walletgrants.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The walletGrants API from Solvimon — 2 operation(s) for walletgrants.
   name: Solvimon walletGrants API
   slug: solvimon-walletgrants-api
-- description: The wallets API from Solvimon — 7 operation(s) for wallets.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The wallets API from Solvimon — 7 operation(s) for wallets.
   name: Solvimon wallets API
   slug: solvimon-wallets-api
-- description: The walletTypes API from Solvimon — 6 operation(s) for wallettypes.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The walletTypes API from Solvimon — 6 operation(s) for wallettypes.
   name: Solvimon walletTypes API
   slug: solvimon-wallettypes-api
-- description: The webhooks API from Solvimon — 7 operation(s) for webhooks.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The webhooks API from Solvimon — 7 operation(s) for webhooks.
   name: Solvimon webhooks API
   slug: solvimon-webhooks-api
-- description: The workflowActions API from Solvimon — 2 operation(s) for workflowactions.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The workflowActions API from Solvimon — 2 operation(s) for workflowactions.
   name: Solvimon workflowActions API
   slug: solvimon-workflowactions-api
-- description: The workflows API from Solvimon — 6 operation(s) for workflows.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The workflows API from Solvimon — 6 operation(s) for workflows.
   name: Solvimon workflows API
   slug: solvimon-workflows-api
-- description: The workflowTriggers API from Solvimon — 3 operation(s) for workflowtriggers.
+- baseURL: https://api.solvimon.com
+  baseurl_source: declared
+  description: The workflowTriggers API from Solvimon — 3 operation(s) for workflowtriggers.
   name: Solvimon workflowTriggers API
   slug: solvimon-workflowtriggers-api
 artifact_total: 134
@@ -598,7 +726,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -608,7 +736,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -626,7 +754,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/screenshots/solvimon-2026-08-17T082000.png
 security:

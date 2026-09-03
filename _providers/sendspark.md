@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 23 operations · 14 acting
 api_count: 1
 apis:
-- description: The DVM Bundles API from Sendspark — 3 operation(s) for dvm bundles.
+- baseURL: https://api-gw.sendspark.com
+  baseurl_source: declared
+  description: The DVM Bundles API from Sendspark — 3 operation(s) for dvm bundles.
   name: Sendspark DVM Bundles API
   slug: sendspark-dvm-bundles-api
-- description: The Dynamics Campaign API from Sendspark — 12 operation(s) for dynamics campaign.
+- baseURL: https://api-gw.sendspark.com
+  baseurl_source: declared
+  description: The Dynamics Campaign API from Sendspark — 12 operation(s) for dynamics campaign.
   name: Sendspark Dynamics Campaign API
   slug: sendspark-dynamics-campaign-api
-- description: The Webhook API from Sendspark — 2 operation(s) for webhook.
+- baseURL: https://api-gw.sendspark.com
+  baseurl_source: declared
+  description: The Webhook API from Sendspark — 2 operation(s) for webhook.
   name: Sendspark Webhook API
   slug: sendspark-webhook-api
-- description: The Workspace API from Sendspark — 2 operation(s) for workspace.
+- baseURL: https://api-gw.sendspark.com
+  baseurl_source: declared
+  description: The Workspace API from Sendspark — 2 operation(s) for workspace.
   name: Sendspark Workspace API
   slug: sendspark-workspace-api
 artifact_total: 18
@@ -267,7 +275,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -277,7 +285,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 58.9
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,7 +297,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/screenshots/sendspark-2026-08-17T081802.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -52,28 +52,44 @@ apis:
 - description: The Eventbrite Python SDK is an open-source client library maintained by Eventbrite that provides idiomatic Python access to the Eventbrite Platform API for managing events, orders, attendees, and rel
   name: Eventbrite Python SDK
   slug: python-sdk
-- description: The Attendees API from Eventbrite — 1 operation(s) for attendees.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Attendees API from Eventbrite — 1 operation(s) for attendees.
   name: Eventbrite Attendees API
   slug: eventbrite-attendees-api
-- description: The Categories API from Eventbrite — 1 operation(s) for categories.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Categories API from Eventbrite — 1 operation(s) for categories.
   name: Eventbrite Categories API
   slug: eventbrite-categories-api
-- description: The Events API from Eventbrite — 2 operation(s) for events.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Events API from Eventbrite — 2 operation(s) for events.
   name: Eventbrite Events API
   slug: eventbrite-events-api
-- description: The Orders API from Eventbrite — 2 operation(s) for orders.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Orders API from Eventbrite — 2 operation(s) for orders.
   name: Eventbrite Orders API
   slug: eventbrite-orders-api
-- description: The Organizations API from Eventbrite — 1 operation(s) for organizations.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Organizations API from Eventbrite — 1 operation(s) for organizations.
   name: Eventbrite Organizations API
   slug: eventbrite-organizations-api
-- description: The Ticket Classes API from Eventbrite — 1 operation(s) for ticket classes.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Ticket Classes API from Eventbrite — 1 operation(s) for ticket classes.
   name: Eventbrite Ticket Classes API
   slug: eventbrite-ticket-classes-api
-- description: The Users API from Eventbrite — 1 operation(s) for users.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Users API from Eventbrite — 1 operation(s) for users.
   name: Eventbrite Users API
   slug: eventbrite-users-api
-- description: The Venues API from Eventbrite — 2 operation(s) for venues.
+- baseURL: https://www.eventbriteapi.com/v3
+  baseurl_source: declared
+  description: The Venues API from Eventbrite — 2 operation(s) for venues.
   name: Eventbrite Venues API
   slug: eventbrite-venues-api
 artifact_total: 26
@@ -232,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventbrite/refs/heads/main/screenshots/eventbrite-2026-06-20T180900.png
 security:

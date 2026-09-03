@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 71 operations · 39 acting
 api_count: 1
 apis:
-- description: The Account API from Due — 4 operation(s) for account.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Account API from Due — 4 operation(s) for account.
   name: Due Account API
   slug: due-account-api
-- description: The Account Wallets API from Due — 1 operation(s) for account wallets.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Account Wallets API from Due — 1 operation(s) for account wallets.
   name: Due Account Wallets API
   slug: due-account-wallets-api
-- description: The Blockchain Transfers API from Due — 5 operation(s) for blockchain transfers.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Blockchain Transfers API from Due — 5 operation(s) for blockchain transfers.
   name: Due Blockchain Transfers API
   slug: due-blockchain-transfers-api
-- description: The Channels API from Due — 1 operation(s) for channels.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Channels API from Due — 1 operation(s) for channels.
   name: Due Channels API
   slug: due-channels-api
-- description: The Financial Institutions API from Due — 2 operation(s) for financial institutions.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Financial Institutions API from Due — 2 operation(s) for financial institutions.
   name: Due Financial Institutions API
   slug: due-financial-institutions-api
-- description: The KYC API from Due — 15 operation(s) for kyc.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The KYC API from Due — 15 operation(s) for kyc.
   name: Due KYC API
   slug: due-kyc-api
-- description: The Markets API from Due — 3 operation(s) for markets.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Markets API from Due — 3 operation(s) for markets.
   name: Due Markets API
   slug: due-markets-api
-- description: The Quote API from Due — 1 operation(s) for quote.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Quote API from Due — 1 operation(s) for quote.
   name: Due Quote API
   slug: due-quote-api
-- description: The Recipients API from Due — 2 operation(s) for recipients.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Recipients API from Due — 2 operation(s) for recipients.
   name: Due Recipients API
   slug: due-recipients-api
-- description: The Simulate pay-in API from Due — 1 operation(s) for simulate pay-in.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Simulate pay-in API from Due — 1 operation(s) for simulate pay-in.
   name: Due Simulate pay-in API
   slug: due-simulate-pay-in-api
-- description: The TOS API from Due — 1 operation(s) for tos.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The TOS API from Due — 1 operation(s) for tos.
   name: Due TOS API
   slug: due-tos-api
-- description: The Transfers API from Due — 6 operation(s) for transfers.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Transfers API from Due — 6 operation(s) for transfers.
   name: Due Transfers API
   slug: due-transfers-api
-- description: The Usage API from Due — 1 operation(s) for usage.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Usage API from Due — 1 operation(s) for usage.
   name: Due Usage API
   slug: due-usage-api
-- description: The Vaults API from Due — 6 operation(s) for vaults.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Vaults API from Due — 6 operation(s) for vaults.
   name: Due Vaults API
   slug: due-vaults-api
-- description: The Virtual Accounts API from Due — 3 operation(s) for virtual accounts.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Virtual Accounts API from Due — 3 operation(s) for virtual accounts.
   name: Due Virtual Accounts API
   slug: due-virtual-accounts-api
-- description: The Wallets API from Due — 1 operation(s) for wallets.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Wallets API from Due — 1 operation(s) for wallets.
   name: Due Wallets API
   slug: due-wallets-api
-- description: The Webhook Endpoints API from Due — 3 operation(s) for webhook endpoints.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Webhook Endpoints API from Due — 3 operation(s) for webhook endpoints.
   name: Due Webhook Endpoints API
   slug: due-webhook-endpoints-api
-- description: The Webhooks API from Due — 3 operation(s) for webhooks.
+- baseURL: https://api.due.network
+  baseurl_source: declared
+  description: The Webhooks API from Due — 3 operation(s) for webhooks.
   name: Due Webhooks API
   slug: due-webhooks-api
 arazzos:
@@ -316,7 +352,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -326,7 +362,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.0
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,7 +380,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/due/refs/heads/main/screenshots/due-2026-07-25T212452.png
 security:

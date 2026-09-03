@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Autocomplete suggestions with spelling correction and semantic fallback.
+- baseURL: https://api.datamuse.com
+  baseurl_source: declared
+  description: Autocomplete suggestions with spelling correction and semantic fallback.
   name: Datamuse Suggestions API
   slug: datamuse-suggestions-api
-- description: Word-finding queries combining semantic, phonetic, orthographic, and vocabulary constraints.
+- baseURL: https://api.datamuse.com
+  baseurl_source: declared
+  description: Word-finding queries combining semantic, phonetic, orthographic, and vocabulary constraints.
   name: Datamuse Words API
   slug: datamuse-words-api
 artifact_total: 54
@@ -331,7 +335,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/screenshots/datamuse-2026-08-17T083151.png
 security:

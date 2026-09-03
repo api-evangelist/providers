@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -33,10 +46,14 @@ agentic_access:
   summary_line: 15 operations · 4 acting
 api_count: 3
 apis:
-- description: 'REST API to create and read identity verifications: send a hosted scan link by SMS or email, read overall risk, per-verifier checks, risk scores, scanned documents and the devices seen during the veri'
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: 'REST API to create and read identity verifications: send a hosted scan link by SMS or email, read overall risk, per-verifier checks, risk scores, scanned documents and the devices seen during the veri'
   name: Trusona ATO Protect Verification API
   slug: trusona-ato-protect-verification-api
-- description: REST API that submits supplied identity data for asynchronous driver-license verification against State DMV records over AAMVA and against mobile network operator (MNO) records, returning per-field ma
+- baseURL: https://authcloud.trusona.net
+  baseurl_source: declared
+  description: REST API that submits supplied identity data for asynchronous driver-license verification against State DMV records over AAMVA and against mobile network operator (MNO) records, returning per-field ma
   name: Trusona Driver License Verification API (IDV API)
   slug: trusona-driver-license-verification-api-idv-api
 - description: 'Legacy AAMVA identity-document proofing REST surface documented on the Trusona site rather than as an OpenAPI: barcode verifications, verifications, a verification lookup by transaction locator id, a '
@@ -196,10 +213,11 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -209,6 +227,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 28.9
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,7 +239,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/screenshots/trusona-2026-09-02T164411.png
 security:
 - kind: authentication
   name: Trusona Authentication

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -33,82 +46,134 @@ agentic_access:
   summary_line: 100 operations · 57 acting
 api_count: 27
 apis:
-- description: The Activities API from Dotfile — 1 operation(s) for activities.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Activities API from Dotfile — 1 operation(s) for activities.
   name: Dotfile Activities API
   slug: dotfile-activities-api
-- description: The AML check API from Dotfile — 5 operation(s) for aml check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The AML check API from Dotfile — 5 operation(s) for aml check.
   name: Dotfile AML check API
   slug: dotfile-aml-check-api
-- description: The Cases API from Dotfile — 10 operation(s) for cases.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Cases API from Dotfile — 10 operation(s) for cases.
   name: Dotfile Cases API
   slug: dotfile-cases-api
-- description: The Checks API from Dotfile — 2 operation(s) for checks.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Checks API from Dotfile — 2 operation(s) for checks.
   name: Dotfile Checks API
   slug: dotfile-checks-api
-- description: The Client portal API from Dotfile — 3 operation(s) for client portal.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Client portal API from Dotfile — 3 operation(s) for client portal.
   name: Dotfile Client portal API
   slug: dotfile-client-portal-api
-- description: The Companies API from Dotfile — 4 operation(s) for companies.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Companies API from Dotfile — 4 operation(s) for companies.
   name: Dotfile Companies API
   slug: dotfile-companies-api
-- description: The Company data API from Dotfile — 6 operation(s) for company data.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Company data API from Dotfile — 6 operation(s) for company data.
   name: Dotfile Company data API
   slug: dotfile-company-data-api
-- description: The Company Monitoring check API from Dotfile — 1 operation(s) for company monitoring check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Company Monitoring check API from Dotfile — 1 operation(s) for company monitoring check.
   name: Dotfile Company Monitoring check API
   slug: dotfile-company-monitoring-check-api
-- description: The Custom properties API from Dotfile — 2 operation(s) for custom properties.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Custom properties API from Dotfile — 2 operation(s) for custom properties.
   name: Dotfile Custom properties API
   slug: dotfile-custom-properties-api
-- description: The Document check API from Dotfile — 6 operation(s) for document check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Document check API from Dotfile — 6 operation(s) for document check.
   name: Dotfile Document check API
   slug: dotfile-document-check-api
-- description: The eKYC check API from Dotfile — 3 operation(s) for ekyc check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The eKYC check API from Dotfile — 3 operation(s) for ekyc check.
   name: Dotfile eKYC check API
   slug: dotfile-ekyc-check-api
-- description: The Electronic Signature check API from Dotfile — 3 operation(s) for electronic signature check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Electronic Signature check API from Dotfile — 3 operation(s) for electronic signature check.
   name: Dotfile Electronic Signature check API
   slug: dotfile-electronic-signature-check-api
-- description: The Files API from Dotfile — 2 operation(s) for files.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Files API from Dotfile — 2 operation(s) for files.
   name: Dotfile Files API
   slug: dotfile-files-api
-- description: The Fraud database check API from Dotfile — 3 operation(s) for fraud database check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Fraud database check API from Dotfile — 3 operation(s) for fraud database check.
   name: Dotfile Fraud database check API
   slug: dotfile-fraud-database-check-api
-- description: The ID Document check API from Dotfile — 4 operation(s) for id document check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The ID Document check API from Dotfile — 4 operation(s) for id document check.
   name: Dotfile ID Document check API
   slug: dotfile-id-document-check-api
-- description: The ID Verification check API from Dotfile — 4 operation(s) for id verification check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The ID Verification check API from Dotfile — 4 operation(s) for id verification check.
   name: Dotfile ID Verification check API
   slug: dotfile-id-verification-check-api
-- description: The Individuals API from Dotfile — 3 operation(s) for individuals.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Individuals API from Dotfile — 3 operation(s) for individuals.
   name: Dotfile Individuals API
   slug: dotfile-individuals-api
-- description: The Notes API from Dotfile — 2 operation(s) for notes.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Notes API from Dotfile — 2 operation(s) for notes.
   name: Dotfile Notes API
   slug: dotfile-notes-api
-- description: The Online Reputation check API from Dotfile — 3 operation(s) for online reputation check.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Online Reputation check API from Dotfile — 3 operation(s) for online reputation check.
   name: Dotfile Online Reputation check API
   slug: dotfile-online-reputation-check-api
-- description: The Ping API from Dotfile — 1 operation(s) for ping.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Ping API from Dotfile — 1 operation(s) for ping.
   name: Dotfile Ping API
   slug: dotfile-ping-api
-- description: The Routines API from Dotfile — 1 operation(s) for routines.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Routines API from Dotfile — 1 operation(s) for routines.
   name: Dotfile Routines API
   slug: dotfile-routines-api
-- description: The Tables API from Dotfile — 2 operation(s) for tables.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Tables API from Dotfile — 2 operation(s) for tables.
   name: Dotfile Tables API
   slug: dotfile-tables-api
-- description: The Tags API from Dotfile — 3 operation(s) for tags.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Tags API from Dotfile — 3 operation(s) for tags.
   name: Dotfile Tags API
   slug: dotfile-tags-api
-- description: The Templates API from Dotfile — 3 operation(s) for templates.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Templates API from Dotfile — 3 operation(s) for templates.
   name: Dotfile Templates API
   slug: dotfile-templates-api
-- description: The Users API from Dotfile — 2 operation(s) for users.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Users API from Dotfile — 2 operation(s) for users.
   name: Dotfile Users API
   slug: dotfile-users-api
-- description: The Webhooks API from Dotfile — 3 operation(s) for webhooks.
+- baseURL: https://api.dotfile.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Dotfile — 3 operation(s) for webhooks.
   name: Dotfile Webhooks API
   slug: dotfile-webhooks-api
 artifact_total: 33
@@ -277,11 +342,11 @@ score:
   band: developing
   composite: 48.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -291,7 +356,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 51.3
-  previous_composite: 48.8
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +368,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dotfile/refs/heads/main/screenshots/dotfile-2026-09-02T145309.png
 security:
 - kind: authentication
   name: Dotfile Authentication

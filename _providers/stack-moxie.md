@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 43 operations · 23 acting
 api_count: 2
 apis:
-- description: Use these calls to provision Organizations (e.g. for your own clients/customers), and automatically grant them (or your own team members) access.
+- baseURL: https://app.stackmoxie.com/api/
+  baseurl_source: declared
+  description: Use these calls to provision Organizations (e.g. for your own clients/customers), and automatically grant them (or your own team members) access.
   name: 'Stack Moxie How To: Administer API'
   slug: stack-moxie-how-to-administer-api
-- description: Use these calls to Schedule Scenario runs.
+- baseURL: https://app.stackmoxie.com/api/
+  baseurl_source: declared
+  description: Use these calls to Schedule Scenario runs.
   name: 'Stack Moxie How To: Automate API'
   slug: stack-moxie-how-to-automate-api
-- description: Use these calls to connect an Organization with Marketing/Sales technologies supported by Stack Moxie.
+- baseURL: https://app.stackmoxie.com/api/
+  baseurl_source: declared
+  description: Use these calls to connect an Organization with Marketing/Sales technologies supported by Stack Moxie.
   name: 'Stack Moxie How To: Integrate API'
   slug: stack-moxie-how-to-integrate-api
-- description: Use these calls to organize your test Scenarios into Folders.
+- baseURL: https://app.stackmoxie.com/api/
+  baseurl_source: declared
+  description: Use these calls to organize your test Scenarios into Folders.
   name: 'Stack Moxie How To: Organize API'
   slug: stack-moxie-how-to-organize-api
-- description: Use these calls to define test Scenarios, Run them, and retrieve their results.
+- baseURL: https://app.stackmoxie.com/api/
+  baseurl_source: declared
+  description: Use these calls to define test Scenarios, Run them, and retrieve their results.
   name: 'Stack Moxie How To: Test API'
   slug: stack-moxie-how-to-test-api
 artifact_total: 12
@@ -268,7 +278,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/screenshots/stack-moxie-2026-08-17T082056.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -45,55 +45,89 @@ agentic_access:
   summary_line: 55 operations · 16 acting
 api_count: 1
 apis:
-- description: Manage agent pools
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage agent pools
   name: TeamCity Agent Pools API
   slug: teamcity-agent-pools-api
-- description: Manage build agents
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage build agents
   name: TeamCity Agents API
   slug: teamcity-agents-api
-- description: Query audit log entries
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Query audit log entries
   name: TeamCity Audit API
   slug: teamcity-audit-api
-- description: Manage build configurations (build types)
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage build configurations (build types)
   name: TeamCity Build Configurations API
   slug: teamcity-build-configurations-api
-- description: Manage the build queue
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage the build queue
   name: TeamCity Build Queue API
   slug: teamcity-build-queue-api
-- description: Trigger, query, and manage builds
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Trigger, query, and manage builds
   name: TeamCity Builds API
   slug: teamcity-builds-api
-- description: Query VCS changes
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Query VCS changes
   name: TeamCity Changes API
   slug: teamcity-changes-api
-- description: Manage cloud profiles and instances
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage cloud profiles and instances
   name: TeamCity Cloud API
   slug: teamcity-cloud-api
-- description: Manage build and test investigations
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage build and test investigations
   name: TeamCity Investigations API
   slug: teamcity-investigations-api
-- description: Manage test mutes
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage test mutes
   name: TeamCity Mutes API
   slug: teamcity-mutes-api
-- description: Query build problems
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Query build problems
   name: TeamCity Problems API
   slug: teamcity-problems-api
-- description: Manage TeamCity projects
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage TeamCity projects
   name: TeamCity Projects API
   slug: teamcity-projects-api
-- description: Server information and configuration
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Server information and configuration
   name: TeamCity Server API
   slug: teamcity-server-api
-- description: Query test results
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Query test results
   name: TeamCity Tests API
   slug: teamcity-tests-api
-- description: Manage user groups
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage user groups
   name: TeamCity User Groups API
   slug: teamcity-user-groups-api
-- description: Manage users and user groups
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage users and user groups
   name: TeamCity Users API
   slug: teamcity-users-api
-- description: Manage version control system roots
+- baseURL: https://teamcity.example.com/app/rest
+  baseurl_source: declared
+  description: Manage version control system roots
   name: TeamCity VCS Roots API
   slug: teamcity-vcs-roots-api
 artifact_total: 100
@@ -439,7 +473,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/screenshots/teamcity-2026-06-20T194957.png
 security:

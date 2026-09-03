@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,37 +36,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Geo-targeting reference data - the countries, states, cities and ASNs available for each proxy product. Read this before setting a country, state or city on any collection call or in a proxy username,
+- baseURL: https://openapi.thordata.com/api/locations
+  baseurl_source: declared
+  description: Geo-targeting reference data - the countries, states, cities and ASNs available for each proxy product. Read this before setting a country, state or city on any collection call or in a proxy username,
   name: Thordata Locations API
   slug: thordata-locations-api
-- description: Pull a batch of proxy endpoints as host:port pairs for the residential or unlimited product, filtered by country, state, city, protocol and session time, returned as plain text or JSON. Used to hand a
+- baseURL: https://get-ip.thordata.net
+  baseurl_source: declared
+  description: Pull a batch of proxy endpoints as host:port pairs for the residential or unlimited product, filtered by country, state, city, protocol and session time, returned as plain text or JSON. Used to hand a
   name: Thordata Proxy IP Extract API
   slug: thordata-proxy-ip-extract-api
-- description: Balances and usage statistics
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Balances and usage statistics
   name: Thordata Account API
   slug: thordata-account-api
-- description: Purchased proxy inventory
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Purchased proxy inventory
   name: Thordata Proxy API
   slug: thordata-proxy-api
-- description: Proxy sub-user lifecycle and per-user usage
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Proxy sub-user lifecycle and per-user usage
   name: Thordata Proxy Users API
   slug: thordata-proxy-users-api
-- description: Real-time search engine results
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Real-time search engine results
   name: Thordata SERP API
   slug: thordata-serp-api-api
-- description: Task lifecycle for the Web Scraper API
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Task lifecycle for the Web Scraper API
   name: Thordata Tasks API
   slug: thordata-tasks-api
-- description: Fetch any URL through Thordata's unblocking layer
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Fetch any URL through Thordata's unblocking layer
   name: Thordata Universal Scraping API
   slug: thordata-universal-scraping-api-api
-- description: Pre-built site scrapers launched as asynchronous tasks
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: Pre-built site scrapers launched as asynchronous tasks
   name: Thordata Web Scraper API
   slug: thordata-web-scraper-api-api
-- description: IP whitelisting for password-free proxy authentication
+- baseURL: https://scraperapi.thordata.com
+  baseurl_source: declared
+  description: IP whitelisting for password-free proxy authentication
   name: Thordata Whitelist API
   slug: thordata-whitelist-api
 artifact_total: 22
@@ -274,7 +307,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -284,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 37.2
+  previous_composite: 37.1
   provenance:
     conformance: derived
     contracts:
@@ -295,7 +328,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/screenshots/thordata-2026-08-17T082346.png
 security:

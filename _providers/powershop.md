@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -33,31 +45,49 @@ agentic_access:
   summary_line: 27 operations · 5 acting
 api_count: 2
 apis:
-- description: Data Holder Customer endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Customer endpoints
   name: Powershop Data Holder Customers API
   slug: powershop-data-holder-customers-api
-- description: Data Holder Operations endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Data Holder Operations endpoints
   name: Powershop Data Holder Operations API
   slug: powershop-data-holder-operations-api
-- description: Distributed Energy Resource endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Distributed Energy Resource endpoints
   name: Powershop Distributed Energy Resources API
   slug: powershop-distributed-energy-resources-api
-- description: Electricity Service Point endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Service Point endpoints
   name: Powershop Electricity Service Points API
   slug: powershop-electricity-service-points-api
-- description: Electricity Usage endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Electricity Usage endpoints
   name: Powershop Electricity Usage API
   slug: powershop-electricity-usage-api
-- description: Energy Account Balance endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Balance endpoints
   name: Powershop Energy Account Balances API
   slug: powershop-energy-account-balances-api
-- description: Energy Account Billing endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account Billing endpoints
   name: Powershop Energy Account Billing API
   slug: powershop-energy-account-billing-api
-- description: Energy Account endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Energy Account endpoints
   name: Powershop Energy Accounts API
   slug: powershop-energy-accounts-api
-- description: Energy Plan endpoints
+- baseURL: https://cdr.energymadeeasy.gov.au/powershop/cds-au/v1
+  baseurl_source: declared
+  description: Energy Plan endpoints
   name: Powershop Energy Plans API
   slug: powershop-energy-plans-api
 artifact_total: 16
@@ -272,7 +302,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/screenshots/powershop-2026-08-17T124837.png
 security:

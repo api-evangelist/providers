@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 41 operations · 17 acting
 api_count: 1
 apis:
-- description: Real-time availability for units, unit groups, and services.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Real-time availability for units, unit groups, and services.
   name: apaleo Availability API
   slug: apaleo-availability-api
-- description: Bookings, reservations, blocks, groups, and offers.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Bookings, reservations, blocks, groups, and offers.
   name: apaleo Booking API
   slug: apaleo-booking-api
-- description: Folios, payments, refunds, invoices, and accounts.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Folios, payments, refunds, invoices, and accounts.
   name: apaleo Finance API
   slug: apaleo-finance-api
-- description: Properties, units, unit groups, and unit attributes.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Properties, units, unit groups, and unit attributes.
   name: apaleo Inventory API
   slug: apaleo-inventory-api
-- description: Rate plans, rates, services, and policies.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Rate plans, rates, services, and policies.
   name: apaleo Rate Plan API
   slug: apaleo-rate-plan-api
-- description: Account- and property-level configuration.
+- baseURL: https://api.apaleo.com/booking/v1
+  baseurl_source: declared
+  description: Account- and property-level configuration.
   name: apaleo Settings API
   slug: apaleo-settings-api
 artifact_total: 21
@@ -198,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/screenshots/apaleo-2026-07-25T200530.png
 security:

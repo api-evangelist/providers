@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,37 +36,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: 'Two Model Context Protocol endpoints advertised in the scimar.ca WordPress REST route index under the "mcp" namespace — /wp-json/mcp/mcp-oauth-server and /wp-json/mcp/mcp-adapter-default-server. Both '
   name: Scimar MCP Server (WordPress MCP Adapter)
   slug: mcp
-- description: The Comments API from Scimar — 2 operation(s) for comments.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Comments API from Scimar — 2 operation(s) for comments.
   name: Scimar Comments API
   slug: scimar-comments-api
-- description: The Discovery API from Scimar — 4 operation(s) for discovery.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Discovery API from Scimar — 4 operation(s) for discovery.
   name: Scimar Discovery API
   slug: scimar-discovery-api
-- description: The Media API from Scimar — 4 operation(s) for media.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Media API from Scimar — 4 operation(s) for media.
   name: Scimar Media API
   slug: scimar-media-api
-- description: The Pages API from Scimar — 6 operation(s) for pages.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Pages API from Scimar — 6 operation(s) for pages.
   name: Scimar Pages API
   slug: scimar-pages-api
-- description: The Posts API from Scimar — 6 operation(s) for posts.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Posts API from Scimar — 6 operation(s) for posts.
   name: Scimar Posts API
   slug: scimar-posts-api
-- description: The Search API from Scimar — 1 operation(s) for search.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Search API from Scimar — 1 operation(s) for search.
   name: Scimar Search API
   slug: scimar-search-api
-- description: The Settings API from Scimar — 1 operation(s) for settings.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Settings API from Scimar — 1 operation(s) for settings.
   name: Scimar Settings API
   slug: scimar-settings-api
-- description: The Taxonomy API from Scimar — 6 operation(s) for taxonomy.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Taxonomy API from Scimar — 6 operation(s) for taxonomy.
   name: Scimar Taxonomy API
   slug: scimar-taxonomy-api
-- description: The Users API from Scimar — 6 operation(s) for users.
+- baseURL: https://scimar.ca/wp-json
+  baseurl_source: declared
+  description: The Users API from Scimar — 6 operation(s) for users.
   name: Scimar Users API
   slug: scimar-users-api
 artifact_total: 16
@@ -218,19 +249,19 @@ scopes:
   slug: scimar-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.4
+  band: thin
+  composite: 26.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 13.2
+    contract_quality: 16.6
     developer_ergonomics: 20.8
     discoverability: 81.5
     governance: 4.5
@@ -252,8 +283,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png
 security:
 - kind: authentication
   name: Scimar Authentication

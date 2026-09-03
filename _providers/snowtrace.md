@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,28 +71,44 @@ apis:
 - description: Retrieve address labels and nametags applied to known wallets, contracts, and entities indexed by Routescan across all supported EVM chains.
   name: Routescan Nametags API
   slug: routescan-nametags-api
-- description: Address balance and transaction history endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Address balance and transaction history endpoints.
   name: Routescan (Snowtrace) Accounts API
   slug: snowtrace-accounts-api
-- description: Block rewards and countdown endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Block rewards and countdown endpoints.
   name: Routescan (Snowtrace) Blocks API
   slug: snowtrace-blocks-api
-- description: Smart contract ABI, source code, and verification endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Smart contract ABI, source code, and verification endpoints.
   name: Routescan (Snowtrace) Contracts API
   slug: snowtrace-contracts-api
-- description: Smart contract event log query endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Smart contract event log query endpoints.
   name: Routescan (Snowtrace) Logs API
   slug: snowtrace-logs-api
-- description: Ethereum JSON-RPC compatible proxy endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Ethereum JSON-RPC compatible proxy endpoints.
   name: Routescan (Snowtrace) Proxy API
   slug: snowtrace-proxy-api
-- description: Network statistics including token supply and prices.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Network statistics including token supply and prices.
   name: Routescan (Snowtrace) Stats API
   slug: snowtrace-stats-api
-- description: ERC-20 token supply and holder endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: ERC-20 token supply and holder endpoints.
   name: Routescan (Snowtrace) Tokens API
   slug: snowtrace-tokens-api
-- description: Transaction execution and receipt status endpoints.
+- baseURL: https://api.routescan.io/v2/network/mainnet/evm/{chainId}/etherscan/api
+  baseurl_source: declared
+  description: Transaction execution and receipt status endpoints.
   name: Routescan (Snowtrace) Transactions API
   slug: snowtrace-transactions-api
 artifact_total: 42
@@ -278,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/screenshots/snowtrace-2026-08-17T125325.png
 security:

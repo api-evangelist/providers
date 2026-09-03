@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -43,136 +43,224 @@ agentic_access:
   summary_line: 271 operations · 127 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Admin Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Controller
   name: WinCL Admin API
   slug: wincl-admin-api
-- description: Admin Auth Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Auth Controller
   name: WinCL Admin Auth API
   slug: wincl-admin-auth-api
-- description: Admin Faq Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Faq Controller
   name: WinCL Admin FAQ API
   slug: wincl-admin-faq-api
-- description: Admin Hedera Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Hedera Controller
   name: WinCL Admin Hedera API
   slug: wincl-admin-hedera-api
-- description: Admin Info Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Info Controller
   name: WinCL Admin Info API
   slug: wincl-admin-info-api
-- description: Admin News Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin News Controller
   name: WinCL Admin News API
   slug: wincl-admin-news-api
-- description: Admin Notice Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Notice Controller
   name: WinCL Admin Notice API
   slug: wincl-admin-notice-api
-- description: Admin Order Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Order Controller
   name: WinCL Admin Order API
   slug: wincl-admin-order-api
-- description: 결제 완료된 건을 관리자가 환불
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: 결제 완료된 건을 관리자가 환불
   name: WinCL Admin Payment API
   slug: wincl-admin-payment-api
-- description: Admin Product Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Product Controller
   name: WinCL Admin Product API
   slug: wincl-admin-product-api
-- description: Admin Project Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Project Controller
   name: WinCL Admin Project API
   slug: wincl-admin-project-api
-- description: Admin Qna Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Qna Controller
   name: WinCL Admin QnA API
   slug: wincl-admin-qna-api
-- description: Admin Reward Program Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Reward Program Controller
   name: WinCL Admin Reward API
   slug: wincl-admin-reward-api
-- description: Admin Smart Contract Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Smart Contract Controller
   name: WinCL Admin Smart Contract API
   slug: wincl-admin-smart-contract-api
-- description: 가입자 목록 조회
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: 가입자 목록 조회
   name: WinCL Admin User API
   slug: wincl-admin-user-api
-- description: Admin Utils Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Utils Controller
   name: WinCL Admin Utils API
   slug: wincl-admin-utils-api
-- description: Admin Wallet Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Admin Wallet Controller
   name: WinCL Admin Wallet API
   slug: wincl-admin-wallet-api
-- description: B 2 B Store Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: B 2 B Store Controller
   name: WinCL APIs for the B2B service (ex. Bespin) API
   slug: wincl-apis-for-the-b2b-service-ex-bespin-api
-- description: Auth Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Auth Controller
   name: WinCL Auth API
   slug: wincl-auth-api
-- description: Certificate Box Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Certificate Box Controller
   name: WinCL CertificateBox API
   slug: wincl-certificatebox-api
-- description: Coupon Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Coupon Controller
   name: WinCL Coupon API
   slug: wincl-coupon-api
-- description: Credit Box Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Credit Box Controller
   name: WinCL CreditBox API
   slug: wincl-creditbox-api
-- description: Dashboard Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Dashboard Controller
   name: WinCL Dashboard API
   slug: wincl-dashboard-api
-- description: Faq Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Faq Controller
   name: WinCL FAQ API
   slug: wincl-faq-api
-- description: Health Check Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Health Check Controller
   name: WinCL health-check-controller API
   slug: wincl-health-check-controller-api
-- description: Hedera Contract Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Hedera Contract Controller
   name: WinCL Hedera Contract Info API
   slug: wincl-hedera-contract-info-api
-- description: Info Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Info Controller
   name: WinCL Info API
   slug: wincl-info-api
-- description: Internal Reward Company Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Internal Reward Company Controller
   name: WinCL Internal Reward API
   slug: wincl-internal-reward-api
-- description: News Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: News Controller
   name: WinCL News API
   slug: wincl-news-api
-- description: Notice Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Notice Controller
   name: WinCL Notice API
   slug: wincl-notice-api
-- description: 결제 전 주문 단계
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: 결제 전 주문 단계
   name: WinCL Order API
   slug: wincl-order-api
-- description: Partner Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Partner Controller
   name: WinCL Partner API
   slug: wincl-partner-api
-- description: 주문 후 PG사 결제 단계 (Payco)
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: 주문 후 PG사 결제 단계 (Payco)
   name: WinCL Payment API
   slug: wincl-payment-api
-- description: Product Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Product Controller
   name: WinCL Product API
   slug: wincl-product-api
-- description: Project Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Project Controller
   name: WinCL Project API
   slug: wincl-project-api
-- description: Qna Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Qna Controller
   name: WinCL QnA API
   slug: wincl-qna-api
-- description: Rank Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Rank Controller
   name: WinCL Ranking API
   slug: wincl-ranking-api
-- description: Reward Company Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Reward Company Controller
   name: WinCL Reward API
   slug: wincl-reward-api
-- description: Shopping Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Shopping Controller
   name: WinCL Shopping API
   slug: wincl-shopping-api
-- description: Store Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Store Controller
   name: WinCL Store API
   slug: wincl-store-api
-- description: User Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: User Controller
   name: WinCL User API
   slug: wincl-user-api
-- description: Utils Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Utils Controller
   name: WinCL Utils API
   slug: wincl-utils-api
-- description: Wallet Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Wallet Controller
   name: WinCL Wallet API
   slug: wincl-wallet-api
-- description: Webhook Controller
+- baseURL: https://api.wincl.io
+  baseurl_source: declared
+  description: Webhook Controller
   name: WinCL Webhook API
   slug: wincl-webhook-api
 artifact_total: 93
@@ -398,11 +486,11 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -412,7 +500,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 23.6
+  previous_composite: 23.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -430,8 +518,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png
 security:
 - kind: authentication
   name: Wincl Authentication

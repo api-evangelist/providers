@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 31 operations · 15 acting
 api_count: 1
 apis:
-- description: Content delivery network resources, rules, origin groups, and purge.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Content delivery network resources, rules, origin groups, and purge.
   name: Gcore CDN API
   slug: gcore-cdn-api
-- description: Virtual machine instances, networks, and volumes.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Virtual machine instances, networks, and volumes.
   name: Gcore Cloud API
   slug: gcore-cloud-api
-- description: Managed authoritative DNS zones and RRSets.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Managed authoritative DNS zones and RRSets.
   name: Gcore DNS API
   slug: gcore-dns-api
-- description: Serverless edge functions and applications.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Serverless edge functions and applications.
   name: Gcore FastEdge API
   slug: gcore-fastedge-api
-- description: Everywhere Inference edge AI model deployments.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Everywhere Inference edge AI model deployments.
   name: Gcore Inference API
   slug: gcore-inference-api
-- description: S3-compatible and SFTP object storage.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: S3-compatible and SFTP object storage.
   name: Gcore Storage API
   slug: gcore-storage-api
-- description: Video hosting (VOD) and live streaming.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Video hosting (VOD) and live streaming.
   name: Gcore Streaming API
   slug: gcore-streaming-api
-- description: Web Application and API Protection domains.
+- baseURL: https://api.gcore.com/cdn
+  baseurl_source: declared
+  description: Web Application and API Protection domains.
   name: Gcore WAAP API
   slug: gcore-waap-api
 artifact_total: 24
@@ -197,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcore/refs/heads/main/screenshots/gcore-2026-06-20T181710.png
 security:

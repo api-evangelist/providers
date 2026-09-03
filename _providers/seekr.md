@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -36,106 +47,174 @@ apis:
 - description: A hosted, anonymous, read-only MCP server that gives an AI assistant direct access to the SeekrFlow documentation and the four SeekrFlow OpenAPI specs, so the assistant can generate working authentica
   name: Seekr Documentation MCP Server
   slug: seekr-documentation-mcp-server
-- description: The Agents API from Seekr — 9 operation(s) for agents.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Agents API from Seekr — 9 operation(s) for agents.
   name: Seekr Agents API
   slug: seekr-agents-api
-- description: The Agents v1 - legacy API from Seekr — 8 operation(s) for agents v1 - legacy.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Agents v1 - legacy API from Seekr — 8 operation(s) for agents v1 - legacy.
   name: Seekr Agents v1 - legacy API
   slug: seekr-agents-v1-legacy-api
-- description: The Alignment API from Seekr — 8 operation(s) for alignment.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Alignment API from Seekr — 8 operation(s) for alignment.
   name: Seekr Alignment API
   slug: seekr-alignment-api
-- description: The Batches API from Seekr — 2 operation(s) for batches.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Batches API from Seekr — 2 operation(s) for batches.
   name: Seekr Batches API
   slug: seekr-batches-api
-- description: The Data jobs API from Seekr — 8 operation(s) for data jobs.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Data jobs API from Seekr — 8 operation(s) for data jobs.
   name: Seekr Data jobs API
   slug: seekr-data-jobs-api
-- description: The Deployments API from Seekr — 8 operation(s) for deployments.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Deployments API from Seekr — 8 operation(s) for deployments.
   name: Seekr Deployments API
   slug: seekr-deployments-api
-- description: The Engines API from Seekr — 1 operation(s) for engines.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Engines API from Seekr — 1 operation(s) for engines.
   name: Seekr Engines API
   slug: seekr-engines-api
-- description: The Evals API from Seekr — 2 operation(s) for evals.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Evals API from Seekr — 2 operation(s) for evals.
   name: Seekr Evals API
   slug: seekr-evals-api
-- description: The Explainability API from Seekr — 10 operation(s) for explainability.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Explainability API from Seekr — 10 operation(s) for explainability.
   name: Seekr Explainability API
   slug: seekr-explainability-api
-- description: The Feedback API from Seekr — 4 operation(s) for feedback.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Feedback API from Seekr — 4 operation(s) for feedback.
   name: Seekr Feedback API
   slug: seekr-feedback-api
-- description: The Files API from Seekr — 14 operation(s) for files.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Files API from Seekr — 14 operation(s) for files.
   name: Seekr Files API
   slug: seekr-files-api
-- description: The Fine-tuning API from Seekr — 12 operation(s) for fine-tuning.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Fine-tuning API from Seekr — 12 operation(s) for fine-tuning.
   name: Seekr Fine Tuning API
   slug: seekr-fine-tuning-api
-- description: The Functions API from Seekr — 4 operation(s) for functions.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Functions API from Seekr — 4 operation(s) for functions.
   name: Seekr Functions API
   slug: seekr-functions-api
-- description: The Health API from Seekr — 6 operation(s) for health.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Health API from Seekr — 6 operation(s) for health.
   name: Seekr Health API
   slug: seekr-health-api
-- description: The Images API from Seekr — 3 operation(s) for images.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Images API from Seekr — 3 operation(s) for images.
   name: Seekr Images API
   slug: seekr-images-api
-- description: The Inference API from Seekr — 12 operation(s) for inference.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Inference API from Seekr — 12 operation(s) for inference.
   name: Seekr Inference API
   slug: seekr-inference-api
-- description: The Ingestion API from Seekr — 2 operation(s) for ingestion.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Ingestion API from Seekr — 2 operation(s) for ingestion.
   name: Seekr Ingestion API
   slug: seekr-ingestion-api
-- description: The Insights API from Seekr — 1 operation(s) for insights.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Insights API from Seekr — 1 operation(s) for insights.
   name: Seekr Insights API
   slug: seekr-insights-api
-- description: The Internal API from Seekr — 39 operation(s) for internal.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Internal API from Seekr — 39 operation(s) for internal.
   name: Seekr Internal API
   slug: seekr-internal-api
-- description: The Is Sleeping API from Seekr — 1 operation(s) for is sleeping.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Is Sleeping API from Seekr — 1 operation(s) for is sleeping.
   name: Seekr Is Sleeping API
   slug: seekr-is-sleeping-api
-- description: The Metrics API from Seekr — 1 operation(s) for metrics.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Metrics API from Seekr — 1 operation(s) for metrics.
   name: Seekr Metrics API
   slug: seekr-metrics-api
-- description: The Models API from Seekr — 8 operation(s) for models.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Models API from Seekr — 8 operation(s) for models.
   name: Seekr Models API
   slug: seekr-models-api
-- description: The Observability API from Seekr — 2 operation(s) for observability.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Observability API from Seekr — 2 operation(s) for observability.
   name: Seekr Observability API
   slug: seekr-observability-api
-- description: The Pricing API from Seekr — 3 operation(s) for pricing.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Pricing API from Seekr — 3 operation(s) for pricing.
   name: Seekr Pricing API
   slug: seekr-pricing-api
-- description: The Rerank API from Seekr — 1 operation(s) for rerank.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Rerank API from Seekr — 1 operation(s) for rerank.
   name: Seekr Rerank API
   slug: seekr-rerank-api
-- description: The Runs API from Seekr — 7 operation(s) for runs.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Runs API from Seekr — 7 operation(s) for runs.
   name: Seekr Runs API
   slug: seekr-runs-api
-- description: The Score API from Seekr — 1 operation(s) for score.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Score API from Seekr — 1 operation(s) for score.
   name: Seekr Score API
   slug: seekr-score-api
-- description: The Sleep API from Seekr — 1 operation(s) for sleep.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Sleep API from Seekr — 1 operation(s) for sleep.
   name: Seekr Sleep API
   slug: seekr-sleep-api
-- description: The Threads API from Seekr — 4 operation(s) for threads.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Threads API from Seekr — 4 operation(s) for threads.
   name: Seekr Threads API
   slug: seekr-threads-api
-- description: The Tools API from Seekr — 7 operation(s) for tools.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Tools API from Seekr — 7 operation(s) for tools.
   name: Seekr Tools API
   slug: seekr-tools-api
-- description: The Vector database API from Seekr — 11 operation(s) for vector database.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Vector database API from Seekr — 11 operation(s) for vector database.
   name: Seekr Vector database API
   slug: seekr-vector-database-api
-- description: The Version API from Seekr — 1 operation(s) for version.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Version API from Seekr — 1 operation(s) for version.
   name: Seekr Version API
   slug: seekr-version-api
-- description: The Versions API from Seekr — 1 operation(s) for versions.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Versions API from Seekr — 1 operation(s) for versions.
   name: Seekr Versions API
   slug: seekr-versions-api
-- description: The Wake Up API from Seekr — 1 operation(s) for wake up.
+- baseURL: https://flow.seekr.com/v1
+  baseurl_source: declared
+  description: The Wake Up API from Seekr — 1 operation(s) for wake up.
   name: Seekr Wake Up API
   slug: seekr-wake-up-api
 artifact_total: 75
@@ -471,7 +550,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:

@@ -33,31 +33,47 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Account management
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Account management
   name: Sigma360 Account API
   slug: sigma-ratings-account-api
-- description: Informational endpoints
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Informational endpoints
   name: Sigma360 Informational API
   slug: sigma-ratings-informational-api
-- description: Creating new 'My Entities'
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Creating new 'My Entities'
   name: 'Sigma360 Monitoring: Entity Creation API'
   slug: sigma-ratings-monitoring-entity-creation-api
-- description: Browsing and retrieving monitored entities
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Browsing and retrieving monitored entities
   name: 'Sigma360 Monitoring: Entity Management API'
   slug: sigma-ratings-monitoring-entity-management-api
-- description: Retrieving monitoring history
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Retrieving monitoring history
   name: 'Sigma360 Monitoring: History API'
   slug: sigma-ratings-monitoring-history-api
-- description: Screening against Sigma360's risk data
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Screening against Sigma360's risk data
   name: Sigma360 One-Off Screening API
   slug: sigma-ratings-one-off-screening-api
-- description: General utilities
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: General utilities
   name: Sigma360 Utilities API
   slug: sigma-ratings-utilities-api
-- description: Webhooks that notify you of important events
+- baseURL: https://api.sigma360.com/external/v2
+  baseurl_source: declared
+  description: Webhooks that notify you of important events
   name: Sigma360 Webhooks API
   slug: sigma-ratings-webhooks-api
 artifact_total: 23
@@ -234,7 +250,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -244,7 +260,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -255,7 +271,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-ratings/refs/heads/main/screenshots/sigma-ratings-2026-08-17T081849.png
 security:

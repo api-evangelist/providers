@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: REST API for sending enrichment data batches into Contentsquare, enabling teams to merge first-party data with captured session data. Uses the same OAuth 2.0 client credentials authentication and dyna
   name: Contentsquare Enrichment API
   slug: enrichment-api
-- description: The Authentication API from Contentsquare — 1 operation(s) for authentication.
+- baseURL: https://api.eu-west-1.production.contentsquare.com
+  baseurl_source: declared
+  description: The Authentication API from Contentsquare — 1 operation(s) for authentication.
   name: Contentsquare Authentication API
   slug: contentsquare-authentication-api
-- description: The Exports API from Contentsquare — 2 operation(s) for exports.
+- baseURL: https://api.eu-west-1.production.contentsquare.com
+  baseurl_source: declared
+  description: The Exports API from Contentsquare — 2 operation(s) for exports.
   name: Contentsquare Exports API
   slug: contentsquare-exports-api
-- description: The Fields API from Contentsquare — 3 operation(s) for fields.
+- baseURL: https://api.eu-west-1.production.contentsquare.com
+  baseurl_source: declared
+  description: The Fields API from Contentsquare — 3 operation(s) for fields.
   name: Contentsquare Fields API
   slug: contentsquare-fields-api
-- description: The Runs API from Contentsquare — 3 operation(s) for runs.
+- baseURL: https://api.eu-west-1.production.contentsquare.com
+  baseurl_source: declared
+  description: The Runs API from Contentsquare — 3 operation(s) for runs.
   name: Contentsquare Runs API
   slug: contentsquare-runs-api
 artifact_total: 18
@@ -174,7 +182,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentsquare/refs/heads/main/screenshots/contentsquare-2026-06-20T175028.png
 security:

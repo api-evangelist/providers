@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -81,76 +81,124 @@ apis:
 - description: Provides an oEmbed-compliant endpoint that returns embed code and metadata for YouTube videos in JSON or XML format, enabling easy embedding of YouTube content on external websites.
   name: YouTube oEmbed API
   slug: youtube-oembed-api
-- description: Operations for managing analytics group definitions
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing analytics group definitions
   name: Youtube Analytics Groups API
   slug: youtube-analytics-groups-api
-- description: Operations for retrieving YouTube Analytics reports and metrics
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for retrieving YouTube Analytics reports and metrics
   name: Youtube Analytics Reports API
   slug: youtube-analytics-reports-api
-- description: Operations related to YouTube video caption tracks
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube video caption tracks
   name: Youtube Captions API
   slug: youtube-captions-api
-- description: Operations related to YouTube channel resources
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube channel resources
   name: Youtube Channels API
   slug: youtube-channels-api
-- description: Operations related to individual YouTube comments
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to individual YouTube comments
   name: Youtube Comments API
   slug: youtube-comments-api
-- description: Operations related to YouTube comment threads
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube comment threads
   name: Youtube CommentThreads API
   slug: youtube-commentthreads-api
-- description: Operations for managing items within analytics groups
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing items within analytics groups
   name: Youtube Group Items API
   slug: youtube-group-items-api
-- description: Operations for managing items within YouTube Analytics groups
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing items within YouTube Analytics groups
   name: Youtube GroupItems API
   slug: youtube-groupitems-api
-- description: Operations for managing YouTube Analytics groups
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing YouTube Analytics groups
   name: Youtube Groups API
   slug: youtube-groups-api
-- description: Operations related to internationalization resources
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to internationalization resources
   name: Youtube I18n API
   slug: youtube-i18n-api
-- description: Operations for managing YouTube reporting jobs
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing YouTube reporting jobs
   name: Youtube Jobs API
   slug: youtube-jobs-api
-- description: Operations for managing YouTube live broadcast events
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing YouTube live broadcast events
   name: Youtube LiveBroadcasts API
   slug: youtube-livebroadcasts-api
-- description: Operations for managing messages in YouTube live chat
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing messages in YouTube live chat
   name: Youtube LiveChatMessages API
   slug: youtube-livechatmessages-api
-- description: Operations for managing moderators in YouTube live chat
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing moderators in YouTube live chat
   name: Youtube LiveChatModerators API
   slug: youtube-livechatmoderators-api
-- description: Operations for managing YouTube live video streams
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing YouTube live video streams
   name: Youtube LiveStreams API
   slug: youtube-livestreams-api
-- description: Operations for managing items within playlists
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for managing items within playlists
   name: Youtube Playlist Items API
   slug: youtube-playlist-items-api
-- description: Operations related to items within YouTube playlists
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to items within YouTube playlists
   name: Youtube PlaylistItems API
   slug: youtube-playlistitems-api
-- description: Operations related to YouTube playlist resources
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube playlist resources
   name: Youtube Playlists API
   slug: youtube-playlists-api
-- description: Operations for querying YouTube Analytics report data
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for querying YouTube Analytics report data
   name: Youtube Reports API
   slug: youtube-reports-api
-- description: Operations for listing available report types
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for listing available report types
   name: Youtube ReportTypes API
   slug: youtube-reporttypes-api
-- description: Operations for searching YouTube content
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations for searching YouTube content
   name: Youtube Search API
   slug: youtube-search-api
-- description: Operations related to YouTube channel subscriptions
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube channel subscriptions
   name: Youtube Subscriptions API
   slug: youtube-subscriptions-api
-- description: Operations related to YouTube video categories
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube video categories
   name: Youtube VideoCategories API
   slug: youtube-videocategories-api
-- description: Operations related to YouTube video resources
+- baseURL: https://www.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: Operations related to YouTube video resources
   name: Youtube Videos API
   slug: youtube-videos-api
 arazzos:
@@ -1701,7 +1749,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -1711,7 +1759,7 @@ score:
     discoverability: 50.0
     governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 59.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1722,7 +1770,7 @@ score:
       total: 25
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

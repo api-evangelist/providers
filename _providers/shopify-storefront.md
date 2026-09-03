@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Shopify JavaScript Buy SDK is a lightweight library that enables developers to integrate Shopify's storefront capabilities into any website or application. The SDK wraps the Storefront API and pro
   name: Shopify Buy SDK
   slug: shopify-buy-sdk
-- description: The GraphQL API from Shopify Storefront API — 1 operation(s) for graphql.
+- baseURL: https://{store_name}.myshopify.com/api/2024-10/graphql.json
+  baseurl_source: declared
+  description: The GraphQL API from Shopify Storefront API — 1 operation(s) for graphql.
   name: Shopify Storefront API GraphQL API
   slug: shopify-storefront-graphql-api
 artifact_total: 21
@@ -195,7 +197,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/screenshots/shopify-storefront-2026-06-20T193831.png
 security:

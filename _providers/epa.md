@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -70,388 +70,644 @@ apis:
 - description: Chemical, hazard, bioactivity, and exposure data covering tens of thousands of chemicals. Includes Chemical, Bioactivity, Hazard, Exposure, and ToxRefDB endpoints.
   name: CTX — Center for Computational Toxicology and Exposure APIs
   slug: ctx-center-for-computational-toxicology-and-exposure-apis
-- description: The Account Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for account type codes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Account Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for account type codes.
   name: EPA — U.S. Environmental Protection Agency Account Type Codes API
   slug: epa-account-type-codes-api
-- description: The Accounts API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for accounts.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Accounts API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for accounts.
   name: EPA — U.S. Environmental Protection Agency Accounts API
   slug: epa-accounts-api
-- description: The Air Emission Testing API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for air emission testing.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Air Emission Testing API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for air emission testing.
   name: EPA — U.S. Environmental Protection Agency Air Emission Testing API
   slug: epa-air-emission-testing-api
-- description: The Allowance Compliance API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance compliance.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Allowance Compliance API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance compliance.
   name: EPA — U.S. Environmental Protection Agency Allowance Compliance API
   slug: epa-allowance-compliance-api
-- description: The Allowance Holdings API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance holdings.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Allowance Holdings API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance holdings.
   name: EPA — U.S. Environmental Protection Agency Allowance Holdings API
   slug: epa-allowance-holdings-api
-- description: The Allowance Transactions API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance transactions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Allowance Transactions API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for allowance transactions.
   name: EPA — U.S. Environmental Protection Agency Allowance Transactions API
   slug: epa-allowance-transactions-api
-- description: The Analysis Services API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for analysis services.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Analysis Services API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for analysis services.
   name: EPA — U.S. Environmental Protection Agency Analysis Services API
   slug: epa-analysis-services-api
-- description: The Analyzer Ranges API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for analyzer ranges.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Analyzer Ranges API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for analyzer ranges.
   name: EPA — U.S. Environmental Protection Agency Analyzer Ranges API
   slug: epa-analyzer-ranges-api
-- description: Annual aggregated values.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Annual aggregated values.
   name: EPA — U.S. Environmental Protection Agency Annual Data API
   slug: epa-annual-data-api
-- description: The Appendix E Correlation Test Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e correlation test run.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Appendix E Correlation Test Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e correlation test run.
   name: EPA — U.S. Environmental Protection Agency Appendix E Correlation Test Run API
   slug: epa-appendix-e-correlation-test-run-api
-- description: The Appendix E Correlation Test Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e correlation test summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Appendix E Correlation Test Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e correlation test summary.
   name: EPA — U.S. Environmental Protection Agency Appendix E Correlation Test Summary API
   slug: epa-appendix-e-correlation-test-summary-api
-- description: The Appendix E Heat Input From Gas API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e heat input from gas.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Appendix E Heat Input From Gas API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e heat input from gas.
   name: EPA — U.S. Environmental Protection Agency Appendix E Heat Input From Gas API
   slug: epa-appendix-e-heat-input-from-gas-api
-- description: The Appendix E Heat Input From Oil API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e heat input from oil.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Appendix E Heat Input From Oil API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for appendix e heat input from oil.
   name: EPA — U.S. Environmental Protection Agency Appendix E Heat Input From Oil API
   slug: epa-appendix-e-heat-input-from-oil-api
-- description: The Apportioned Annual Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned annual emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Annual Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned annual emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Annual Emissions API
   slug: epa-apportioned-annual-emissions-api
-- description: The Apportioned Daily Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned daily emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Daily Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned daily emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Daily Emissions API
   slug: epa-apportioned-daily-emissions-api
-- description: The Apportioned Emissions API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for apportioned emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Emissions API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for apportioned emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Emissions API
   slug: epa-apportioned-emissions-api
-- description: The Apportioned Hourly Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned hourly emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Hourly Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned hourly emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Hourly Emissions API
   slug: epa-apportioned-hourly-emissions-api
-- description: The Apportioned Hourly MATS Emissions API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for apportioned hourly mats emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Hourly MATS Emissions API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for apportioned hourly mats emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Hourly MATS Emissions API
   slug: epa-apportioned-hourly-mats-emissions-api
-- description: The Apportioned MATS Emissions API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for apportioned mats emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned MATS Emissions API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for apportioned mats emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned MATS Emissions API
   slug: epa-apportioned-mats-emissions-api
-- description: The Apportioned Monthly Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned monthly emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Monthly Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned monthly emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Monthly Emissions API
   slug: epa-apportioned-monthly-emissions-api
-- description: The Apportioned Ozone Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned ozone emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Ozone Emissions API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for apportioned ozone emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Ozone Emissions API
   slug: epa-apportioned-ozone-emissions-api
-- description: The Apportioned Quarterly Emissions API from EPA — U.S. Environmental Protection Agency — 9 operation(s) for apportioned quarterly emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Apportioned Quarterly Emissions API from EPA — U.S. Environmental Protection Agency — 9 operation(s) for apportioned quarterly emissions.
   name: EPA — U.S. Environmental Protection Agency Apportioned Quarterly Emissions API
   slug: epa-apportioned-quarterly-emissions-api
-- description: The Attributes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for attributes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Attributes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for attributes.
   name: EPA — U.S. Environmental Protection Agency Attributes API
   slug: epa-attributes-api
-- description: The Bap API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for bap.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Bap API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for bap.
   name: EPA — U.S. Environmental Protection Agency Bap API
   slug: epa-bap-api
-- description: The Bulk Files API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for bulk files.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Bulk Files API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for bulk files.
   name: EPA — U.S. Environmental Protection Agency Bulk Files API
   slug: epa-bulk-files-api
-- description: The Calibration Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for calibration injection.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Calibration Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for calibration injection.
   name: EPA — U.S. Environmental Protection Agency Calibration Injection API
   slug: epa-calibration-injection-api
-- description: The Case Enforcement API from EPA — U.S. Environmental Protection Agency — 9 operation(s) for case enforcement.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Case Enforcement API from EPA — U.S. Environmental Protection Agency — 9 operation(s) for case enforcement.
   name: EPA — U.S. Environmental Protection Agency Case Enforcement API
   slug: epa-case-enforcement-api
-- description: The CIP Indexing Services API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for cip indexing services.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The CIP Indexing Services API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for cip indexing services.
   name: EPA — U.S. Environmental Protection Agency CIP Indexing Services API
   slug: epa-cip-indexing-services-api
-- description: The Codes & Descriptions API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for codes & descriptions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Codes & Descriptions API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for codes & descriptions.
   name: EPA — U.S. Environmental Protection Agency Codes & Descriptions API
   slug: epa-codes-descriptions-api
-- description: The Comments API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for comments.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Comments API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for comments.
   name: EPA — U.S. Environmental Protection Agency Comments API
   slug: epa-comments-api
-- description: The Components API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for components.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Components API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for components.
   name: EPA — U.S. Environmental Protection Agency Components API
   slug: epa-components-api
-- description: The Config API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for config.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Config API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for config.
   name: EPA — U.S. Environmental Protection Agency Config API
   slug: epa-config-api
-- description: The Configurations API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for configurations.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Configurations API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for configurations.
   name: EPA — U.S. Environmental Protection Agency Configurations API
   slug: epa-configurations-api
-- description: The Contact API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for contact.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Contact API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for contact.
   name: EPA — U.S. Environmental Protection Agency Contact API
   slug: epa-contact-api
-- description: The Control Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for control codes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Control Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for control codes.
   name: EPA — U.S. Environmental Protection Agency Control Codes API
   slug: epa-control-codes-api
-- description: The Custom Search API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for custom search.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Custom Search API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for custom search.
   name: EPA — U.S. Environmental Protection Agency Custom Search API
   slug: epa-custom-search-api
-- description: The Cycle Time Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for cycle time injection.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Cycle Time Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for cycle time injection.
   name: EPA — U.S. Environmental Protection Agency Cycle Time Injection API
   slug: epa-cycle-time-injection-api
-- description: The Cycle Time Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for cycle time summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Cycle Time Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for cycle time summary.
   name: EPA — U.S. Environmental Protection Agency Cycle Time Summary API
   slug: epa-cycle-time-summary-api
-- description: Daily aggregated values.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Daily aggregated values.
   name: EPA — U.S. Environmental Protection Agency Daily Data API
   slug: epa-daily-data-api
-- description: Generic Envirofacts REST data service supporting any program.table.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Generic Envirofacts REST data service supporting any program.table.
   name: EPA — U.S. Environmental Protection Agency Data Service API
   slug: epa-data-service-api
-- description: The Defaults API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for defaults.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Defaults API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for defaults.
   name: EPA — U.S. Environmental Protection Agency Defaults API
   slug: epa-defaults-api
-- description: The Detailed Facility Report API from EPA — U.S. Environmental Protection Agency — 47 operation(s) for detailed facility report.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Detailed Facility Report API from EPA — U.S. Environmental Protection Agency — 47 operation(s) for detailed facility report.
   name: EPA — U.S. Environmental Protection Agency Detailed Facility Report API
   slug: epa-detailed-facility-report-api
-- description: The Effluent Charts API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for effluent charts.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Effluent Charts API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for effluent charts.
   name: EPA — U.S. Environmental Protection Agency Effluent Charts API
   slug: epa-effluent-charts-api
-- description: The Emissions API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for emissions.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Emissions API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for emissions.
   name: EPA — U.S. Environmental Protection Agency Emissions API
   slug: epa-emissions-api
-- description: The Emissions Compliance API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for emissions compliance.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Emissions Compliance API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for emissions compliance.
   name: EPA — U.S. Environmental Protection Agency Emissions Compliance API
   slug: epa-emissions-compliance-api
-- description: The Emissions Views API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for emissions views.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Emissions Views API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for emissions views.
   name: EPA — U.S. Environmental Protection Agency Emissions Views API
   slug: epa-emissions-views-api
-- description: The Facilities API from EPA — U.S. Environmental Protection Agency — 12 operation(s) for facilities.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Facilities API from EPA — U.S. Environmental Protection Agency — 12 operation(s) for facilities.
   name: EPA — U.S. Environmental Protection Agency Facilities API
   slug: epa-facilities-api
-- description: The Facility Info API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for facility info.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Facility Info API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for facility info.
   name: EPA — U.S. Environmental Protection Agency Facility Info API
   slug: epa-facility-info-api
-- description: The Facility Information API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for facility information.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Facility Information API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for facility information.
   name: EPA — U.S. Environmental Protection Agency Facility Information API
   slug: epa-facility-information-api
-- description: The Flow Rata Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow rata run.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Flow Rata Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow rata run.
   name: EPA — U.S. Environmental Protection Agency Flow Rata Run API
   slug: epa-flow-rata-run-api
-- description: The Flow To Load Check API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow to load check.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Flow To Load Check API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow to load check.
   name: EPA — U.S. Environmental Protection Agency Flow To Load Check API
   slug: epa-flow-to-load-check-api
-- description: The Flow To Load Reference API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow to load reference.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Flow To Load Reference API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for flow to load reference.
   name: EPA — U.S. Environmental Protection Agency Flow To Load Reference API
   slug: epa-flow-to-load-reference-api
-- description: The Formio API from EPA — U.S. Environmental Protection Agency — 43 operation(s) for formio.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Formio API from EPA — U.S. Environmental Protection Agency — 43 operation(s) for formio.
   name: EPA — U.S. Environmental Protection Agency Formio API
   slug: epa-formio-api
-- description: The Formulas API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for formulas.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Formulas API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for formulas.
   name: EPA — U.S. Environmental Protection Agency Formulas API
   slug: epa-formulas-api
-- description: The Fuel Flow To Load Baseline API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flow to load baseline.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Fuel Flow To Load Baseline API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flow to load baseline.
   name: EPA — U.S. Environmental Protection Agency Fuel Flow To Load Baseline API
   slug: epa-fuel-flow-to-load-baseline-api
-- description: The Fuel Flow To Load Test API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flow to load test.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Fuel Flow To Load Test API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flow to load test.
   name: EPA — U.S. Environmental Protection Agency Fuel Flow To Load Test API
   slug: epa-fuel-flow-to-load-test-api
-- description: The Fuel Flowmeter Accuracy API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flowmeter accuracy.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Fuel Flowmeter Accuracy API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for fuel flowmeter accuracy.
   name: EPA — U.S. Environmental Protection Agency Fuel Flowmeter Accuracy API
   slug: epa-fuel-flowmeter-accuracy-api
-- description: The Fuel Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for fuel type codes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Fuel Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for fuel type codes.
   name: EPA — U.S. Environmental Protection Agency Fuel Type Codes API
   slug: epa-fuel-type-codes-api
-- description: The Glossary API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for glossary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Glossary API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for glossary.
   name: EPA — U.S. Environmental Protection Agency Glossary API
   slug: epa-glossary-api
-- description: GraphQL endpoint for complex queries beyond REST capabilities.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: GraphQL endpoint for complex queries beyond REST capabilities.
   name: EPA — U.S. Environmental Protection Agency GraphQL API
   slug: epa-graphql-api
-- description: The Health API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for health.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Health API from EPA — U.S. Environmental Protection Agency — 8 operation(s) for health.
   name: EPA — U.S. Environmental Protection Agency Health API
   slug: epa-health-api
-- description: The Help API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for help.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Help API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for help.
   name: EPA — U.S. Environmental Protection Agency Help API
   slug: epa-help-api
-- description: The Hg Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for hg injection.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Hg Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for hg injection.
   name: EPA — U.S. Environmental Protection Agency Hg Injection API
   slug: epa-hg-injection-api
-- description: The Hg Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for hg summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Hg Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for hg summary.
   name: EPA — U.S. Environmental Protection Agency Hg Summary API
   slug: epa-hg-summary-api
-- description: The How's My Waterway API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for how's my waterway.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The How's My Waterway API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for how's my waterway.
   name: EPA — U.S. Environmental Protection Agency How's My Waterway API
   slug: epa-how-s-my-waterway-api
-- description: The LEE Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for lee qualifications.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The LEE Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for lee qualifications.
   name: EPA — U.S. Environmental Protection Agency LEE Qualifications API
   slug: epa-lee-qualifications-api
-- description: The Linearity Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for linearity injection.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Linearity Injection API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for linearity injection.
   name: EPA — U.S. Environmental Protection Agency Linearity Injection API
   slug: epa-linearity-injection-api
-- description: The Linearity Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for linearity summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Linearity Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for linearity summary.
   name: EPA — U.S. Environmental Protection Agency Linearity Summary API
   slug: epa-linearity-summary-api
-- description: Reference lookups (states, counties, sites, CBSAs, parameter classes, agencies).
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Reference lookups (states, counties, sites, CBSAs, parameter classes, agencies).
   name: EPA — U.S. Environmental Protection Agency Lists API
   slug: epa-lists-api
-- description: The LME Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for lme qualifications.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The LME Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for lme qualifications.
   name: EPA — U.S. Environmental Protection Agency LME Qualifications API
   slug: epa-lme-qualifications-api
-- description: The Loads API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for loads.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Loads API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for loads.
   name: EPA — U.S. Environmental Protection Agency Loads API
   slug: epa-loads-api
-- description: The Locations API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for locations.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Locations API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for locations.
   name: EPA — U.S. Environmental Protection Agency Locations API
   slug: epa-locations-api
-- description: The Login API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for login.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Login API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for login.
   name: EPA — U.S. Environmental Protection Agency Login API
   slug: epa-login-api
-- description: The Logout API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for logout.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Logout API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for logout.
   name: EPA — U.S. Environmental Protection Agency Logout API
   slug: epa-logout-api
-- description: The Lookups API from EPA — U.S. Environmental Protection Agency — 10 operation(s) for lookups.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Lookups API from EPA — U.S. Environmental Protection Agency — 10 operation(s) for lookups.
   name: EPA — U.S. Environmental Protection Agency Lookups API
   slug: epa-lookups-api
-- description: The MATS Methods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for mats methods.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The MATS Methods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for mats methods.
   name: EPA — U.S. Environmental Protection Agency MATS Methods API
   slug: epa-mats-methods-api
-- description: API availability, change history, field definitions, known issues.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: API availability, change history, field definitions, known issues.
   name: EPA — U.S. Environmental Protection Agency Meta Data API
   slug: epa-meta-data-api
-- description: The Metadata API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for metadata.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Metadata API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for metadata.
   name: EPA — U.S. Environmental Protection Agency Metadata API
   slug: epa-metadata-api
-- description: The Methods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for methods.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Methods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for methods.
   name: EPA — U.S. Environmental Protection Agency Methods API
   slug: epa-methods-api
-- description: Monitor metadata filtered by site, county, state, bounding box, or CBSA.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Monitor metadata filtered by site, county, state, bounding box, or CBSA.
   name: EPA — U.S. Environmental Protection Agency Monitors API
   slug: epa-monitors-api
-- description: The Online Offline Calibration API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for online offline calibration.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Online Offline Calibration API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for online offline calibration.
   name: EPA — U.S. Environmental Protection Agency Online Offline Calibration API
   slug: epa-online-offline-calibration-api
-- description: The PCT Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for pct qualifications.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The PCT Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for pct qualifications.
   name: EPA — U.S. Environmental Protection Agency PCT Qualifications API
   slug: epa-pct-qualifications-api
-- description: The Plans API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for plans.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Plans API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for plans.
   name: EPA — U.S. Environmental Protection Agency Plans API
   slug: epa-plans-api
-- description: The Point Source Categories API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for point source categories.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Point Source Categories API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for point source categories.
   name: EPA — U.S. Environmental Protection Agency Point Source Categories API
   slug: epa-point-source-categories-api
-- description: The Pollutants API from EPA — U.S. Environmental Protection Agency — 6 operation(s) for pollutants.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Pollutants API from EPA — U.S. Environmental Protection Agency — 6 operation(s) for pollutants.
   name: EPA — U.S. Environmental Protection Agency Pollutants API
   slug: epa-pollutants-api
-- description: The Program Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for program codes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Program Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for program codes.
   name: EPA — U.S. Environmental Protection Agency Program Codes API
   slug: epa-program-codes-api
-- description: The Protocol Gas API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for protocol gas.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Protocol Gas API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for protocol gas.
   name: EPA — U.S. Environmental Protection Agency Protocol Gas API
   slug: epa-protocol-gas-api
-- description: The QA Certification API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for qa certification.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The QA Certification API from EPA — U.S. Environmental Protection Agency — 4 operation(s) for qa certification.
   name: EPA — U.S. Environmental Protection Agency QA Certification API
   slug: epa-qa-certification-api
-- description: The QA Certification Event API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for qa certification event.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The QA Certification Event API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for qa certification event.
   name: EPA — U.S. Environmental Protection Agency QA Certification Event API
   slug: epa-qa-certification-event-api
-- description: The Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for qualifications.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Qualifications API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for qualifications.
   name: EPA — U.S. Environmental Protection Agency Qualifications API
   slug: epa-qualifications-api
-- description: QA performance evaluations, blanks, audits, collocated assessments.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: QA performance evaluations, blanks, audits, collocated assessments.
   name: EPA — U.S. Environmental Protection Agency Quality Assurance API
   slug: epa-quality-assurance-api
-- description: Quarterly aggregated values.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Quarterly aggregated values.
   name: EPA — U.S. Environmental Protection Agency Quarterly Data API
   slug: epa-quarterly-data-api
-- description: The Rata API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Rata API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata.
   name: EPA — U.S. Environmental Protection Agency Rata API
   slug: epa-rata-api
-- description: The Rata Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata run.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Rata Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata run.
   name: EPA — U.S. Environmental Protection Agency Rata Run API
   slug: epa-rata-run-api
-- description: The Rata Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Rata Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata summary.
   name: EPA — U.S. Environmental Protection Agency Rata Summary API
   slug: epa-rata-summary-api
-- description: The Rata Traverse API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata traverse.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Rata Traverse API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for rata traverse.
   name: EPA — U.S. Environmental Protection Agency Rata Traverse API
   slug: epa-rata-traverse-api
-- description: The Rectangular Duct WAF API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for rectangular duct waf.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Rectangular Duct WAF API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for rectangular duct waf.
   name: EPA — U.S. Environmental Protection Agency Rectangular Duct WAF API
   slug: epa-rectangular-duct-waf-api
-- description: The Relationships API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for relationships.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Relationships API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for relationships.
   name: EPA — U.S. Environmental Protection Agency Relationships API
   slug: epa-relationships-api
-- description: The Reporting Frequencies API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for reporting frequencies.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Reporting Frequencies API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for reporting frequencies.
   name: EPA — U.S. Environmental Protection Agency Reporting Frequencies API
   slug: epa-reporting-frequencies-api
-- description: The Reporting Periods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for reporting periods.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Reporting Periods API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for reporting periods.
   name: EPA — U.S. Environmental Protection Agency Reporting Periods API
   slug: epa-reporting-periods-api
-- description: The Reports API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for reports.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Reports API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for reports.
   name: EPA — U.S. Environmental Protection Agency Reports API
   slug: epa-reports-api
-- description: The Resource Conservation and Recovery Act API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for resource conservation and recovery act.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Resource Conservation and Recovery Act API from EPA — U.S. Environmental Protection Agency — 7 operation(s) for resource conservation and recovery act.
   name: EPA — U.S. Environmental Protection Agency Resource Conservation and Recovery Act API
   slug: epa-resource-conservation-and-recovery-act-api
-- description: The Safe Drinking Water API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for safe drinking water.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Safe Drinking Water API from EPA — U.S. Environmental Protection Agency — 3 operation(s) for safe drinking water.
   name: EPA — U.S. Environmental Protection Agency Safe Drinking Water API
   slug: epa-safe-drinking-water-api
-- description: Raw sample observations.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Raw sample observations.
   name: EPA — U.S. Environmental Protection Agency Sample Data API
   slug: epa-sample-data-api
-- description: Account registration.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Account registration.
   name: EPA — U.S. Environmental Protection Agency Sign Up API
   slug: epa-sign-up-api
-- description: The Spans API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for spans.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Spans API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for spans.
   name: EPA — U.S. Environmental Protection Agency Spans API
   slug: epa-spans-api
-- description: The Status API from EPA — U.S. Environmental Protection Agency — 12 operation(s) for status.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Status API from EPA — U.S. Environmental Protection Agency — 12 operation(s) for status.
   name: EPA — U.S. Environmental Protection Agency Status API
   slug: epa-status-api
-- description: The Support API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for support.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Support API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for support.
   name: EPA — U.S. Environmental Protection Agency Support API
   slug: epa-support-api
-- description: The System Components API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for system components.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The System Components API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for system components.
   name: EPA — U.S. Environmental Protection Agency System Components API
   slug: epa-system-components-api
-- description: The System Fuel Flows API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for system fuel flows.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The System Fuel Flows API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for system fuel flows.
   name: EPA — U.S. Environmental Protection Agency System Fuel Flows API
   slug: epa-system-fuel-flows-api
-- description: The Systems API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for systems.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Systems API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for systems.
   name: EPA — U.S. Environmental Protection Agency Systems API
   slug: epa-systems-api
-- description: The Test Extension Exemption API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test extension exemption.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Test Extension Exemption API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test extension exemption.
   name: EPA — U.S. Environmental Protection Agency Test Extension Exemption API
   slug: epa-test-extension-exemption-api
-- description: The Test Qualification API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test qualification.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Test Qualification API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test qualification.
   name: EPA — U.S. Environmental Protection Agency Test Qualification API
   slug: epa-test-qualification-api
-- description: The Test Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test summary.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Test Summary API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for test summary.
   name: EPA — U.S. Environmental Protection Agency Test Summary API
   slug: epa-test-summary-api
-- description: Raw transaction-format exports.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: Raw transaction-format exports.
   name: EPA — U.S. Environmental Protection Agency Transactions API
   slug: epa-transactions-api
-- description: The Transmitter Transducer Accuracy API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for transmitter transducer accuracy.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Transmitter Transducer Accuracy API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for transmitter transducer accuracy.
   name: EPA — U.S. Environmental Protection Agency Transmitter Transducer Accuracy API
   slug: epa-transmitter-transducer-accuracy-api
-- description: The Treatment Technologies API from EPA — U.S. Environmental Protection Agency — 6 operation(s) for treatment technologies.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Treatment Technologies API from EPA — U.S. Environmental Protection Agency — 6 operation(s) for treatment technologies.
   name: EPA — U.S. Environmental Protection Agency Treatment Technologies API
   slug: epa-treatment-technologies-api
-- description: The Unit Capacities API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit capacities.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Capacities API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit capacities.
   name: EPA — U.S. Environmental Protection Agency Unit Capacities API
   slug: epa-unit-capacities-api
-- description: The Unit Controls API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit controls.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Controls API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit controls.
   name: EPA — U.S. Environmental Protection Agency Unit Controls API
   slug: epa-unit-controls-api
-- description: The Unit Default Test API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for unit default test.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Default Test API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for unit default test.
   name: EPA — U.S. Environmental Protection Agency Unit Default Test API
   slug: epa-unit-default-test-api
-- description: The Unit Default Test Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for unit default test run.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Default Test Run API from EPA — U.S. Environmental Protection Agency — 2 operation(s) for unit default test run.
   name: EPA — U.S. Environmental Protection Agency Unit Default Test Run API
   slug: epa-unit-default-test-run-api
-- description: The Unit Fuels API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit fuels.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Fuels API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit fuels.
   name: EPA — U.S. Environmental Protection Agency Unit Fuels API
   slug: epa-unit-fuels-api
-- description: The Unit Programs API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit programs.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Programs API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit programs.
   name: EPA — U.S. Environmental Protection Agency Unit Programs API
   slug: epa-unit-programs-api
-- description: The Unit Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit type codes.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Unit Type Codes API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for unit type codes.
   name: EPA — U.S. Environmental Protection Agency Unit Type Codes API
   slug: epa-unit-type-codes-api
-- description: The Units API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for units.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Units API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for units.
   name: EPA — U.S. Environmental Protection Agency Units API
   slug: epa-units-api
-- description: The User API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for user.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The User API from EPA — U.S. Environmental Protection Agency — 1 operation(s) for user.
   name: EPA — U.S. Environmental Protection Agency User API
   slug: epa-user-api
-- description: The Utility Services API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for utility services.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: The Utility Services API from EPA — U.S. Environmental Protection Agency — 5 operation(s) for utility services.
   name: EPA — U.S. Environmental Protection Agency Utility Services API
   slug: epa-utility-services-api
-- description: UV index hourly and daily forecast endpoints.
+- baseURL: https://aqs.epa.gov/data/api
+  baseurl_source: declared
+  description: UV index hourly and daily forecast endpoints.
   name: EPA — U.S. Environmental Protection Agency UV Index API
   slug: epa-uv-index-api
 artifact_total: 2289
@@ -7044,7 +7300,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -7054,7 +7310,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 60.8
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -7069,7 +7325,7 @@ score:
     regime_id: government
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,82 +43,134 @@ agentic_access:
   summary_line: 26 operations · 26 acting
 api_count: 26
 apis:
-- description: The AttachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for attachverifiedaccesstrustprovider.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The AttachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for attachverifiedaccesstrustprovider.
   name: Amazon Verified Access AttachVerifiedAccessTrustProvider API
   slug: amazon-verified-access-attachverifiedaccesstrustprovider-api
-- description: The CreateVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for createverifiedaccessendpoint.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The CreateVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for createverifiedaccessendpoint.
   name: Amazon Verified Access CreateVerifiedAccessEndpoint API
   slug: amazon-verified-access-createverifiedaccessendpoint-api
-- description: The CreateVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for createverifiedaccessgroup.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The CreateVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for createverifiedaccessgroup.
   name: Amazon Verified Access CreateVerifiedAccessGroup API
   slug: amazon-verified-access-createverifiedaccessgroup-api
-- description: The CreateVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for createverifiedaccessinstance.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The CreateVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for createverifiedaccessinstance.
   name: Amazon Verified Access CreateVerifiedAccessInstance API
   slug: amazon-verified-access-createverifiedaccessinstance-api
-- description: The CreateVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for createverifiedaccesstrustprovider.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The CreateVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for createverifiedaccesstrustprovider.
   name: Amazon Verified Access CreateVerifiedAccessTrustProvider API
   slug: amazon-verified-access-createverifiedaccesstrustprovider-api
-- description: The DeleteVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessendpoint.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessendpoint.
   name: Amazon Verified Access DeleteVerifiedAccessEndpoint API
   slug: amazon-verified-access-deleteverifiedaccessendpoint-api
-- description: The DeleteVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessgroup.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessgroup.
   name: Amazon Verified Access DeleteVerifiedAccessGroup API
   slug: amazon-verified-access-deleteverifiedaccessgroup-api
-- description: The DeleteVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessinstance.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccessinstance.
   name: Amazon Verified Access DeleteVerifiedAccessInstance API
   slug: amazon-verified-access-deleteverifiedaccessinstance-api
-- description: The DeleteVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccesstrustprovider.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for deleteverifiedaccesstrustprovider.
   name: Amazon Verified Access DeleteVerifiedAccessTrustProvider API
   slug: amazon-verified-access-deleteverifiedaccesstrustprovider-api
-- description: The DescribeVerifiedAccessEndpoints API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessendpoints.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeVerifiedAccessEndpoints API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessendpoints.
   name: Amazon Verified Access DescribeVerifiedAccessEndpoints API
   slug: amazon-verified-access-describeverifiedaccessendpoints-api
-- description: The DescribeVerifiedAccessGroups API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessgroups.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeVerifiedAccessGroups API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessgroups.
   name: Amazon Verified Access DescribeVerifiedAccessGroups API
   slug: amazon-verified-access-describeverifiedaccessgroups-api
-- description: The DescribeVerifiedAccessInstanceLoggingConfigurations API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessinstanceloggingconfigurations.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeVerifiedAccessInstanceLoggingConfigurations API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessinstanceloggingconfigurations.
   name: Amazon Verified Access DescribeVerifiedAccessInstanceLoggingConfigurations API
   slug: amazon-verified-access-describeverifiedaccessinstanceloggingconfigurations-api
-- description: The DescribeVerifiedAccessInstances API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessinstances.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeVerifiedAccessInstances API from Amazon Verified Access — 1 operation(s) for describeverifiedaccessinstances.
   name: Amazon Verified Access DescribeVerifiedAccessInstances API
   slug: amazon-verified-access-describeverifiedaccessinstances-api
-- description: The DescribeVerifiedAccessTrustProviders API from Amazon Verified Access — 1 operation(s) for describeverifiedaccesstrustproviders.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeVerifiedAccessTrustProviders API from Amazon Verified Access — 1 operation(s) for describeverifiedaccesstrustproviders.
   name: Amazon Verified Access DescribeVerifiedAccessTrustProviders API
   slug: amazon-verified-access-describeverifiedaccesstrustproviders-api
-- description: The DetachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for detachverifiedaccesstrustprovider.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The DetachVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for detachverifiedaccesstrustprovider.
   name: Amazon Verified Access DetachVerifiedAccessTrustProvider API
   slug: amazon-verified-access-detachverifiedaccesstrustprovider-api
-- description: The ExportVerifiedAccessInstanceClientConfiguration API from Amazon Verified Access — 1 operation(s) for exportverifiedaccessinstanceclientconfiguration.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ExportVerifiedAccessInstanceClientConfiguration API from Amazon Verified Access — 1 operation(s) for exportverifiedaccessinstanceclientconfiguration.
   name: Amazon Verified Access ExportVerifiedAccessInstanceClientConfiguration API
   slug: amazon-verified-access-exportverifiedaccessinstanceclientconfiguration-api
-- description: The GetVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointpolicy.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The GetVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointpolicy.
   name: Amazon Verified Access GetVerifiedAccessEndpointPolicy API
   slug: amazon-verified-access-getverifiedaccessendpointpolicy-api
-- description: The GetVerifiedAccessEndpointTargets API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointtargets.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The GetVerifiedAccessEndpointTargets API from Amazon Verified Access — 1 operation(s) for getverifiedaccessendpointtargets.
   name: Amazon Verified Access GetVerifiedAccessEndpointTargets API
   slug: amazon-verified-access-getverifiedaccessendpointtargets-api
-- description: The GetVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessgrouppolicy.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The GetVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for getverifiedaccessgrouppolicy.
   name: Amazon Verified Access GetVerifiedAccessGroupPolicy API
   slug: amazon-verified-access-getverifiedaccessgrouppolicy-api
-- description: The ModifyVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpoint.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessEndpoint API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpoint.
   name: Amazon Verified Access ModifyVerifiedAccessEndpoint API
   slug: amazon-verified-access-modifyverifiedaccessendpoint-api
-- description: The ModifyVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpointpolicy.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessEndpointPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessendpointpolicy.
   name: Amazon Verified Access ModifyVerifiedAccessEndpointPolicy API
   slug: amazon-verified-access-modifyverifiedaccessendpointpolicy-api
-- description: The ModifyVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgroup.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessGroup API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgroup.
   name: Amazon Verified Access ModifyVerifiedAccessGroup API
   slug: amazon-verified-access-modifyverifiedaccessgroup-api
-- description: The ModifyVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgrouppolicy.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessGroupPolicy API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessgrouppolicy.
   name: Amazon Verified Access ModifyVerifiedAccessGroupPolicy API
   slug: amazon-verified-access-modifyverifiedaccessgrouppolicy-api
-- description: The ModifyVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessinstance.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessInstance API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessinstance.
   name: Amazon Verified Access ModifyVerifiedAccessInstance API
   slug: amazon-verified-access-modifyverifiedaccessinstance-api
-- description: The ModifyVerifiedAccessInstanceLoggingConfiguration API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessinstanceloggingconfiguration.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessInstanceLoggingConfiguration API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccessinstanceloggingconfiguration.
   name: Amazon Verified Access ModifyVerifiedAccessInstanceLoggingConfiguration API
   slug: amazon-verified-access-modifyverifiedaccessinstanceloggingconfiguration-api
-- description: The ModifyVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccesstrustprovider.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The ModifyVerifiedAccessTrustProvider API from Amazon Verified Access — 1 operation(s) for modifyverifiedaccesstrustprovider.
   name: Amazon Verified Access ModifyVerifiedAccessTrustProvider API
   slug: amazon-verified-access-modifyverifiedaccesstrustprovider-api
 artifact_total: 67
@@ -357,7 +409,7 @@ score:
       marker_coverage: 0.0
       total: 27
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-access/refs/heads/main/screenshots/amazon-verified-access-2026-06-20T171841.png
 security:

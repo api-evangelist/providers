@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
   name: TabaPay 3D Secure API
   slug: tabapay-3d-secure-api
-- description: This resource represents a Client's Account.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's Account.
   name: TabaPay Account API
   slug: tabapay-account-api
-- description: This resource represents a Bank.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Bank.
   name: TabaPay Bank API
   slug: tabapay-bank-api
-- description: This resource represents a Payment Card (Debit Card, PrePaid Card, or Credit Card).
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Payment Card (Debit Card, PrePaid Card, or Credit Card).
   name: TabaPay Card API
   slug: tabapay-card-api
-- description: This resource represents a Client.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client.
   name: TabaPay Client API
   slug: tabapay-client-api
-- description: This resource represents an FX Rate.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents an FX Rate.
   name: TabaPay FXRate API
   slug: tabapay-fxrate-api
-- description: The Health API from TabaPay — 2 operation(s) for health.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: The Health API from TabaPay — 2 operation(s) for health.
   name: TabaPay Health API
   slug: tabapay-health-api
-- description: This resource represents an RSA Encryption Key.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents an RSA Encryption Key.
   name: TabaPay Key API
   slug: tabapay-key-api
-- description: This resource represents a Client's Ledger.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's Ledger.
   name: TabaPay Ledger API
   slug: tabapay-ledger-api
-- description: This resource represents a Name on the OFAC Sanctions List.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Name on the OFAC Sanctions List.
   name: TabaPay OFAC API
   slug: tabapay-ofac-api
-- description: This resource represents a Client's SubClient.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's SubClient.
   name: TabaPay SubClient API
   slug: tabapay-subclient-api
-- description: The Tag API from TabaPay — 1 operation(s) for tag.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: The Tag API from TabaPay — 1 operation(s) for tag.
   name: TabaPay Tag API
   slug: tabapay-tag-api
-- description: This resource represents a Client's Transaction.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's Transaction.
   name: TabaPay Transaction API
   slug: tabapay-transaction-api
-- description: This resource represents a TransactionRequest One-time Payment Portal (<<glossary:OTPP>>)
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a TransactionRequest One-time Payment Portal (<<glossary:OTPP>>)
   name: TabaPay TransactionRequest API
   slug: tabapay-transactionrequest-api
-- description: This resource represents a Client's User.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's User.
   name: TabaPay User API
   slug: tabapay-user-api
-- description: This resource represents a Client's Verification.
+- baseURL: https://api.tabapay.com
+  baseurl_source: declared
+  description: This resource represents a Client's Verification.
   name: TabaPay Verification API
   slug: tabapay-verification-api
 artifact_total: 37
@@ -334,7 +366,7 @@ score:
     regime_id: payments
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabapay/refs/heads/main/screenshots/tabapay-2026-08-17T082233.png
 security:

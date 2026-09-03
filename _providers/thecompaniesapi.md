@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 44 operations · 15 acting
 api_count: 1
 apis:
-- description: The actions API from The Companies API — 2 operation(s) for actions.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The actions API from The Companies API — 2 operation(s) for actions.
   name: The Companies API actions API
   slug: thecompaniesapi-actions-api
-- description: The analytics API from The Companies API — 2 operation(s) for analytics.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The analytics API from The Companies API — 2 operation(s) for analytics.
   name: The Companies API analytics API
   slug: thecompaniesapi-analytics-api
-- description: The companies API from The Companies API — 13 operation(s) for companies.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The companies API from The Companies API — 13 operation(s) for companies.
   name: The Companies API companies API
   slug: thecompaniesapi-companies-api
-- description: The industries API from The Companies API — 2 operation(s) for industries.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The industries API from The Companies API — 2 operation(s) for industries.
   name: The Companies API industries API
   slug: thecompaniesapi-industries-api
-- description: The job-titles API from The Companies API — 1 operation(s) for job-titles.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The job-titles API from The Companies API — 1 operation(s) for job-titles.
   name: The Companies API job-titles API
   slug: thecompaniesapi-job-titles-api
-- description: The lists API from The Companies API — 5 operation(s) for lists.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The lists API from The Companies API — 5 operation(s) for lists.
   name: The Companies API lists API
   slug: thecompaniesapi-lists-api
-- description: The locations API from The Companies API — 5 operation(s) for locations.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The locations API from The Companies API — 5 operation(s) for locations.
   name: The Companies API locations API
   slug: thecompaniesapi-locations-api
-- description: The prompts API from The Companies API — 4 operation(s) for prompts.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The prompts API from The Companies API — 4 operation(s) for prompts.
   name: The Companies API prompts API
   slug: thecompaniesapi-prompts-api
-- description: The teams API from The Companies API — 1 operation(s) for teams.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The teams API from The Companies API — 1 operation(s) for teams.
   name: The Companies API teams API
   slug: thecompaniesapi-teams-api
-- description: The technologies API from The Companies API — 1 operation(s) for technologies.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The technologies API from The Companies API — 1 operation(s) for technologies.
   name: The Companies API technologies API
   slug: thecompaniesapi-technologies-api
-- description: The users API from The Companies API — 1 operation(s) for users.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The users API from The Companies API — 1 operation(s) for users.
   name: The Companies API users API
   slug: thecompaniesapi-users-api
-- description: The utilities API from The Companies API — 2 operation(s) for utilities.
+- baseURL: https://api.thecompaniesapi.com/v2
+  baseurl_source: declared
+  description: The utilities API from The Companies API — 2 operation(s) for utilities.
   name: The Companies API utilities API
   slug: thecompaniesapi-utilities-api
 artifact_total: 33
@@ -297,7 +321,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -307,7 +331,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 62.4
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,7 +343,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/screenshots/thecompaniesapi-2026-08-17T080431.png
 security:

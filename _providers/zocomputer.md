@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The AI API from Zocomputer — 3 operation(s) for ai.
+- baseURL: https://api.zo.computer
+  baseurl_source: spec
+  description: The AI API from Zocomputer — 3 operation(s) for ai.
   name: Zocomputer AI API
   slug: zocomputer-ai-api
-- description: The Personas API from Zocomputer — 1 operation(s) for personas.
+- baseURL: https://api.zo.computer
+  baseurl_source: spec
+  description: The Personas API from Zocomputer — 1 operation(s) for personas.
   name: Zocomputer Personas API
   slug: zocomputer-personas-api
 artifact_total: 7
@@ -103,7 +107,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

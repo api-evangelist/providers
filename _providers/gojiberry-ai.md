@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 9
@@ -45,28 +45,44 @@ agentic_access:
   summary_line: 28 operations · 9 acting · 9 human-in-the-loop
 api_count: 1
 apis:
-- description: The AppExternal API from Gojiberry AI — 2 operation(s) for appexternal.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The AppExternal API from Gojiberry AI — 2 operation(s) for appexternal.
   name: Gojiberry AI AppExternal API
   slug: gojiberry-ai-appexternal-api
-- description: The Campaigns API from Gojiberry AI — 2 operation(s) for campaigns.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Campaigns API from Gojiberry AI — 2 operation(s) for campaigns.
   name: Gojiberry AI Campaigns API
   slug: gojiberry-ai-campaigns-api
-- description: The Contacts API from Gojiberry AI — 5 operation(s) for contacts.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Contacts API from Gojiberry AI — 5 operation(s) for contacts.
   name: Gojiberry AI Contacts API
   slug: gojiberry-ai-contacts-api
-- description: The Lead source agents API from Gojiberry AI — 3 operation(s) for lead source agents.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Lead source agents API from Gojiberry AI — 3 operation(s) for lead source agents.
   name: Gojiberry AI Lead source agents API
   slug: gojiberry-ai-lead-source-agents-api
-- description: The Lists API from Gojiberry AI — 2 operation(s) for lists.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Lists API from Gojiberry AI — 2 operation(s) for lists.
   name: Gojiberry AI Lists API
   slug: gojiberry-ai-lists-api
-- description: The Organization API from Gojiberry AI — 2 operation(s) for organization.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Organization API from Gojiberry AI — 2 operation(s) for organization.
   name: Gojiberry AI Organization API
   slug: gojiberry-ai-organization-api
-- description: The Unibox API from Gojiberry AI — 4 operation(s) for unibox.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The Unibox API from Gojiberry AI — 4 operation(s) for unibox.
   name: Gojiberry AI Unibox API
   slug: gojiberry-ai-unibox-api
-- description: The User API from Gojiberry AI — 2 operation(s) for user.
+- baseURL: https://ext.gojiberry.ai
+  baseurl_source: declared
+  description: The User API from Gojiberry AI — 2 operation(s) for user.
   name: Gojiberry AI User API
   slug: gojiberry-ai-user-api
 artifact_total: 25
@@ -280,7 +296,7 @@ score:
     catalog_gap: 62.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -290,7 +306,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,7 +318,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:

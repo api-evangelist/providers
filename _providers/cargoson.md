@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Cargoson can deliver real-time event notifications (shipment status updates, booking confirmations, shipment changes) to a customer-configured endpoint URL, set up under Settings > Integrations > Webh
   name: Cargoson Webhooks
   slug: webhooks
-- description: List carrier services available on the account.
+- baseURL: https://www.cargoson.com/api/v1
+  baseurl_source: declared
+  description: List carrier services available on the account.
   name: Cargoson Carriers API
   slug: cargoson-carriers-api
-- description: Retrieve live freight rate quotes across activated carriers.
+- baseURL: https://www.cargoson.com/api/v1
+  baseurl_source: declared
+  description: Retrieve live freight rate quotes across activated carriers.
   name: Cargoson Price Requests API
   slug: cargoson-price-requests-api
-- description: Create shipment queries and direct bookings, retrieve labels.
+- baseURL: https://www.cargoson.com/api/v1
+  baseurl_source: declared
+  description: Create shipment queries and direct bookings, retrieve labels.
   name: Cargoson Shipments API
   slug: cargoson-shipments-api
-- description: Retrieve booking, transport, and tracking details.
+- baseURL: https://www.cargoson.com/api/v1
+  baseurl_source: declared
+  description: Retrieve booking, transport, and tracking details.
   name: Cargoson Transports & Tracking API
   slug: cargoson-transports-tracking-api
 artifact_total: 18
@@ -186,7 +194,7 @@ score:
     regime_id: telecommunications
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoson/refs/heads/main/screenshots/cargoson-2026-07-25T204610.png
 security:

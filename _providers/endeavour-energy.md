@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +47,14 @@ agentic_access:
   summary_line: 32 operations
 api_count: 2
 apis:
-- description: API to enumerate datasets
+- baseURL: https://data.endeavourenergy.com.au/api/explore/v2.1
+  baseurl_source: declared
+  description: API to enumerate datasets
   name: Endeavour Energy Catalog API
   slug: endeavour-energy-catalog-api
-- description: API to work on records
+- baseURL: https://data.endeavourenergy.com.au/api/explore/v2.1
+  baseurl_source: declared
+  description: API to work on records
   name: Endeavour Energy Dataset API
   slug: endeavour-energy-dataset-api
 artifact_total: 11
@@ -247,7 +265,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.5
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -257,7 +275,7 @@ score:
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 51.8
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,7 +293,7 @@ score:
     regime_id: energy_utilities
     score: 70.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

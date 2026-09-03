@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 26 operations
 api_count: 13
 apis:
-- description: The Coverage API from Clever Care — 2 operation(s) for coverage.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Coverage API from Clever Care — 2 operation(s) for coverage.
   name: Clever Care Coverage API
   slug: clever-care-coverage-api
-- description: The Endpoint API from Clever Care — 2 operation(s) for endpoint.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Endpoint API from Clever Care — 2 operation(s) for endpoint.
   name: Clever Care Endpoint API
   slug: clever-care-endpoint-api
-- description: The ExplanationOfBenefit API from Clever Care — 2 operation(s) for explanationofbenefit.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The ExplanationOfBenefit API from Clever Care — 2 operation(s) for explanationofbenefit.
   name: Clever Care ExplanationOfBenefit API
   slug: clever-care-explanationofbenefit-api
-- description: The HealthcareService API from Clever Care — 2 operation(s) for healthcareservice.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The HealthcareService API from Clever Care — 2 operation(s) for healthcareservice.
   name: Clever Care HealthcareService API
   slug: clever-care-healthcareservice-api
-- description: The InsurancePlan API from Clever Care — 2 operation(s) for insuranceplan.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The InsurancePlan API from Clever Care — 2 operation(s) for insuranceplan.
   name: Clever Care InsurancePlan API
   slug: clever-care-insuranceplan-api
-- description: The List API from Clever Care — 2 operation(s) for list.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The List API from Clever Care — 2 operation(s) for list.
   name: Clever Care List API
   slug: clever-care-list-api
-- description: The Location API from Clever Care — 2 operation(s) for location.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Location API from Clever Care — 2 operation(s) for location.
   name: Clever Care Location API
   slug: clever-care-location-api
-- description: The MedicationKnowledge API from Clever Care — 2 operation(s) for medicationknowledge.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The MedicationKnowledge API from Clever Care — 2 operation(s) for medicationknowledge.
   name: Clever Care MedicationKnowledge API
   slug: clever-care-medicationknowledge-api
-- description: The Organization API from Clever Care — 2 operation(s) for organization.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Organization API from Clever Care — 2 operation(s) for organization.
   name: Clever Care Organization API
   slug: clever-care-organization-api
-- description: The OrganizationAffiliation API from Clever Care — 2 operation(s) for organizationaffiliation.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The OrganizationAffiliation API from Clever Care — 2 operation(s) for organizationaffiliation.
   name: Clever Care OrganizationAffiliation API
   slug: clever-care-organizationaffiliation-api
-- description: The Patient API from Clever Care — 2 operation(s) for patient.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Patient API from Clever Care — 2 operation(s) for patient.
   name: Clever Care Patient API
   slug: clever-care-patient-api
-- description: The Practitioner API from Clever Care — 2 operation(s) for practitioner.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The Practitioner API from Clever Care — 2 operation(s) for practitioner.
   name: Clever Care Practitioner API
   slug: clever-care-practitioner-api
-- description: The PractitionerRole API from Clever Care — 2 operation(s) for practitionerrole.
+- baseURL: https://fhir.clevercarehealthplan.com/r4/Coverage
+  baseurl_source: declared
+  description: The PractitionerRole API from Clever Care — 2 operation(s) for practitionerrole.
   name: Clever Care PractitionerRole API
   slug: clever-care-practitionerrole-api
 artifact_total: 32
@@ -285,7 +311,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever-care/refs/heads/main/screenshots/clever-care-2026-07-25T205602.png
 security:

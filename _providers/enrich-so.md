@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -45,58 +45,94 @@ agentic_access:
   summary_line: 53 operations · 23 acting
 api_count: 7
 apis:
-- description: Find a professional email from a first name, last name and company domain, single or in batches of up to 500,000 leads.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Find a professional email from a first name, last name and company domain, single or in batches of up to 500,000 leads.
   name: Enrich Email Finder API
   slug: enrich-so-email-finder-api
-- description: Search, count, reveal, enrich, unlock and export leads across people and organizations, with saved searches and asynchronous reveal and export jobs.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Search, count, reveal, enrich, unlock and export leads across people and organizations, with saved searches and asynchronous reveal and export jobs.
   name: Enrich Lead Finder API
   slug: enrich-so-lead-finder-api
-- description: Find phone and mobile numbers for a person from an email address or profile URL, single or in bulk.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Find phone and mobile numbers for a person from an email address or profile URL, single or in bulk.
   name: Enrich Phone Finder API
   slug: enrich-so-phone-finder-api
-- description: List team members and manage pending team invitations for the organization behind the API key.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: List team members and manage pending team invitations for the organization behind the API key.
   name: Enrich Teams API
   slug: enrich-so-teams-api
-- description: Find employees at a company and run cascading ICP (ideal customer profile) people searches.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Find employees at a company and run cascading ICP (ideal customer profile) people searches.
   name: Enrich People Search API
   slug: enrich-so-people-search-api
-- description: The Authentication API from Enrich — 1 operation(s) for authentication.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Authentication API from Enrich — 1 operation(s) for authentication.
   name: Enrich Authentication API
   slug: enrich-so-authentication-api
-- description: The Company Followers API from Enrich — 7 operation(s) for company followers.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Company Followers API from Enrich — 7 operation(s) for company followers.
   name: Enrich Company Followers API
   slug: enrich-so-company-followers-api
-- description: The Company Followers/Count Estimation API from Enrich — 2 operation(s) for company followers/count estimation.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Company Followers/Count Estimation API from Enrich — 2 operation(s) for company followers/count estimation.
   name: Enrich Company Followers/Count Estimation API
   slug: enrich-so-company-followers-count-estimation-api
-- description: The Email Validation API from Enrich — 4 operation(s) for email validation.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Email Validation API from Enrich — 4 operation(s) for email validation.
   name: Enrich Email Validation API
   slug: enrich-so-email-validation-api
-- description: The Enrich API from Enrich — 1 operation(s) for enrich.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Enrich API from Enrich — 1 operation(s) for enrich.
   name: Enrich Enrich API
   slug: enrich-so-enrich-api
-- description: The IP to Company API from Enrich — 4 operation(s) for ip to company.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The IP to Company API from Enrich — 4 operation(s) for ip to company.
   name: Enrich IP to Company API
   slug: enrich-so-ip-to-company-api
-- description: The Reverse Email Lookup API from Enrich — 4 operation(s) for reverse email lookup.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Reverse Email Lookup API from Enrich — 4 operation(s) for reverse email lookup.
   name: Enrich Reverse Email Lookup API
   slug: enrich-so-reverse-email-lookup-api
-- description: The Wallets API from Enrich — 2 operation(s) for wallets.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Wallets API from Enrich — 2 operation(s) for wallets.
   name: Enrich Wallets API
   slug: enrich-so-wallets-api
-- description: Credit balance and transaction history.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Credit balance and transaction history.
   name: Enrich Account API
   slug: enrich-so-account-api
-- description: IP-to-company resolution and LinkedIn company-follower scraping.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: IP-to-company resolution and LinkedIn company-follower scraping.
   name: Enrich Company Intelligence API
   slug: enrich-so-company-intelligence-api
-- description: Validate email addresses for deliverability.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Validate email addresses for deliverability.
   name: Enrich Email Verification API
   slug: enrich-so-email-verification-api
-- description: Reverse email lookup returning a person's professional profile.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: Reverse email lookup returning a person's professional profile.
   name: Enrich Person Enrichment API
   slug: enrich-so-person-enrichment-api
-- description: The Webhooks API from Enrich — 0 operation(s) for webhooks.
+- baseURL: https://dev.enrich.so/api/v3
+  baseurl_source: declared
+  description: The Webhooks API from Enrich — 0 operation(s) for webhooks.
   name: Enrich Webhooks API
   slug: enrich-so-webhooks-api
 artifact_total: 38
@@ -349,7 +385,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -359,7 +395,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 64.8
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,7 +407,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/screenshots/enrich-so-2026-07-25T213424.png
 security:

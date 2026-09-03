@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,22 +70,34 @@ apis:
 - description: FCA Service Metrics API for Business Current Accounts (BCA), publishing the service availability and performance metrics AIB Group (UK) is required to report under FCA rules.
   name: AIB Group (UK) FCA Service Metrics (BCA) API
   slug: aib-group-uk-fca-service-metrics-bca-api
-- description: Endpoint for getting ATM data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: AIB Group (UK) ATM API
   slug: aib-group-uk-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: AIB Group (UK) BCA API
   slug: aib-group-uk-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: AIB Group (UK) Branch API
   slug: aib-group-uk-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: AIB Group (UK) CCC API
   slug: aib-group-uk-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: AIB Group (UK) PCA API
   slug: aib-group-uk-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://openapi.aibgb.co.uk/open-banking/v2.2
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: AIB Group (UK) SME API
   slug: aib-group-uk-sme-api
 artifact_total: 19
@@ -243,7 +255,7 @@ score:
     regime_id: banking_open_finance
     score: 54.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
 security:

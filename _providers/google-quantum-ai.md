@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -71,22 +71,34 @@ apis:
 - description: Unitary is an API library for adding quantum behaviours (superposition, entanglement, measurement) into classical games and interactive software, used in Google Quantum AI's educational outreach work.
   name: Unitary
   slug: unitary
-- description: Periodic device performance snapshots.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Periodic device performance snapshots.
   name: Google Quantum AI Calibrations API
   slug: google-quantum-ai-calibrations-api
-- description: Executions of a program against a processor or simulator backend.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Executions of a program against a processor or simulator backend.
   name: Google Quantum AI Jobs API
   slug: google-quantum-ai-jobs-api
-- description: Quantum processing units (Willow, Sycamore-class) available to the project.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Quantum processing units (Willow, Sycamore-class) available to the project.
   name: Google Quantum AI Processors API
   slug: google-quantum-ai-processors-api
-- description: Hardware-compatible circuits uploaded to a Google Cloud project.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Hardware-compatible circuits uploaded to a Google Cloud project.
   name: Google Quantum AI Programs API
   slug: google-quantum-ai-programs-api
-- description: Processor time-slot reservations and budgets.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Processor time-slot reservations and budgets.
   name: Google Quantum AI Reservations API
   slug: google-quantum-ai-reservations-api
-- description: Measurement results returned by completed jobs.
+- baseURL: https://quantum.googleapis.com
+  baseurl_source: declared
+  description: Measurement results returned by completed jobs.
   name: Google Quantum AI Results API
   slug: google-quantum-ai-results-api
 artifact_total: 61
@@ -476,7 +488,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-quantum-ai/refs/heads/main/screenshots/google-quantum-ai-2026-06-20T182227.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Software alternatives discovery
+- baseURL: https://www.saashub.com/api
+  baseurl_source: declared
+  description: Software alternatives discovery
   name: SaaSHub Alternatives API
   slug: saashub-alternatives-api
-- description: Software product lookup
+- baseURL: https://www.saashub.com/api
+  baseurl_source: declared
+  description: Software product lookup
   name: SaaSHub Products API
   slug: saashub-products-api
 artifact_total: 17
@@ -206,7 +210,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: domain-security

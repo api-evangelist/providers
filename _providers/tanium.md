@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -47,67 +47,109 @@ apis:
 - description: The Tanium API Gateway is a GraphQL interface for querying data and taking action in Tanium. It is the preferred method for integrating with Tanium, supporting asset queries, endpoint actions, and dat
   name: Tanium API Gateway
   slug: api-gateway
-- description: Deploy and manage actions on endpoints
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Deploy and manage actions on endpoints
   name: Tanium Actions API
   slug: tanium-actions-api
-- description: Manage threat alerts
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage threat alerts
   name: Tanium Alerts API
   slug: tanium-alerts-api
-- description: Session and token management
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Session and token management
   name: Tanium Authentication API
   slug: tanium-authentication-api
-- description: Manage data delivery connections
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage data delivery connections
   name: Tanium Connections API
   slug: tanium-connections-api
-- description: Manage connection destinations
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage connection destinations
   name: Tanium Destinations API
   slug: tanium-destinations-api
-- description: Retrieve Recorder events from endpoints
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Retrieve Recorder events from endpoints
   name: Tanium Events API
   slug: tanium-events-api
-- description: Collect and manage investigation evidence
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Collect and manage investigation evidence
   name: Tanium Evidence API
   slug: tanium-evidence-api
-- description: Download and manage files from endpoints
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Download and manage files from endpoints
   name: Tanium File Downloads API
   slug: tanium-file-downloads-api
-- description: Browse and manage files on connected endpoints
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Browse and manage files on connected endpoints
   name: Tanium File Operations API
   slug: tanium-file-operations-api
-- description: Manage computer and action groups
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage computer and action groups
   name: Tanium Groups API
   slug: tanium-groups-api
-- description: Manage threat intelligence documents
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage threat intelligence documents
   name: Tanium Intel Documents API
   slug: tanium-intel-documents-api
-- description: Manage classification labels for intel documents
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage classification labels for intel documents
   name: Tanium Labels API
   slug: tanium-labels-api
-- description: Manage deployment packages
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage deployment packages
   name: Tanium Packages API
   slug: tanium-packages-api
-- description: Inspect endpoint processes and process trees
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Inspect endpoint processes and process trees
   name: Tanium Processes API
   slug: tanium-processes-api
-- description: Ask and retrieve questions from endpoints
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Ask and retrieve questions from endpoints
   name: Tanium Questions API
   slug: tanium-questions-api
-- description: Manage saved questions
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage saved questions
   name: Tanium Saved Questions API
   slug: tanium-saved-questions-api
-- description: Manage connection schedules
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage connection schedules
   name: Tanium Schedules API
   slug: tanium-schedules-api
-- description: Manage endpoint sensors
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage endpoint sensors
   name: Tanium Sensors API
   slug: tanium-sensors-api
-- description: Capture and manage endpoint memory snapshots
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Capture and manage endpoint memory snapshots
   name: Tanium Snapshots API
   slug: tanium-snapshots-api
-- description: Manage connection data sources
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Manage connection data sources
   name: Tanium Sources API
   slug: tanium-sources-api
-- description: Connect service status and logs
+- baseURL_template: https://{tanium_server}
+  baseurl_source: spec_template
+  description: Connect service status and logs
   name: Tanium Status API
   slug: tanium-status-api
 arazzos:
@@ -512,7 +554,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tanium/refs/heads/main/screenshots/tanium-2026-06-20T194916.png
 security:

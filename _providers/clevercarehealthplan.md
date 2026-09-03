@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 27 operations
 api_count: 1
 apis:
-- description: Public (rate limited) drug formulary resources
+- baseURL: https://fhir.clevercarehealthplan.com/r4
+  baseurl_source: declared
+  description: Public (rate limited) drug formulary resources
   name: Clever Care Health Plan Drug Formulary API
   slug: clevercarehealthplan-drug-formulary-api
-- description: Secured (OpenID Connect / OAuth 2.0) member data resources
+- baseURL: https://fhir.clevercarehealthplan.com/r4
+  baseurl_source: declared
+  description: Secured (OpenID Connect / OAuth 2.0) member data resources
   name: Clever Care Health Plan Patient Access API
   slug: clevercarehealthplan-patient-access-api
-- description: Public (rate limited) provider directory resources
+- baseURL: https://fhir.clevercarehealthplan.com/r4
+  baseurl_source: declared
+  description: Public (rate limited) provider directory resources
   name: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
 artifact_total: 12
@@ -227,7 +233,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

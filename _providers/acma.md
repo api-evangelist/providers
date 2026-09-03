@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium
+  onboarding: unknown
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,25 +49,39 @@ apis:
 - description: The Do Not Call Register is operated by the ACMA under the Do Not Call Register Act 2006. Telemarketers and fax marketers must check ("wash") their contact lists against the register before calling. A
   name: Do Not Call Register Real Time Access (RTA) Washing Service
   slug: do-not-call-register-washing
-- description: Spectrum licence access areas.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Spectrum licence access areas.
   name: ACMA Access areas API
   slug: acma-access-areas-api
-- description: The ACMA antenna register.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: The ACMA antenna register.
   name: ACMA Antennas API
   slug: acma-antennas-api
-- description: Licensees - the people and organisations that hold licences.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Licensees - the people and organisations that hold licences.
   name: ACMA Clients API
   slug: acma-clients-api
-- description: Licence types and the categories beneath them.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Licence types and the categories beneath them.
   name: ACMA Licence categories API
   slug: acma-licence-categories-api
-- description: Radiocommunications and 400 MHz band spectrum licence records.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Radiocommunications and 400 MHz band spectrum licence records.
   name: ACMA Licences API
   slug: acma-licences-api
-- description: Device registrations and frequency assignments.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Device registrations and frequency assignments.
   name: ACMA Registrations API
   slug: acma-registrations-api
-- description: Transmitter sites, including proximity search by latitude/longitude.
+- baseURL: https://api.acma.gov.au/SpectrumLicensingAPIOuterService/OuterService.svc
+  baseurl_source: declared
+  description: Transmitter sites, including proximity search by latitude/longitude.
   name: ACMA Sites API
   slug: acma-sites-api
 arazzos:
@@ -290,7 +317,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
 security:

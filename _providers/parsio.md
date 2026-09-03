@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 27 operations · 16 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Upload, parse, list, and retrieve documents and their parsed data.
+- baseURL: https://api.parsio.io
+  baseurl_source: declared
+  description: Upload, parse, list, and retrieve documents and their parsed data.
   name: Parsio Documents API
   slug: parsio-documents-api
-- description: Create and manage mailboxes (parsers) and their table fields.
+- baseURL: https://api.parsio.io
+  baseurl_source: declared
+  description: Create and manage mailboxes (parsers) and their table fields.
   name: Parsio Mailboxes API
   slug: parsio-mailboxes-api
-- description: Manage parsing templates attached to a mailbox.
+- baseURL: https://api.parsio.io
+  baseurl_source: declared
+  description: Manage parsing templates attached to a mailbox.
   name: Parsio Templates API
   slug: parsio-templates-api
-- description: Manage webhooks for real-time parsed-data delivery.
+- baseURL: https://api.parsio.io
+  baseurl_source: declared
+  description: Manage webhooks for real-time parsed-data delivery.
   name: Parsio Webhooks API
   slug: parsio-webhooks-api
 artifact_total: 17
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsio/refs/heads/main/screenshots/parsio-2026-08-07T191457.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 12 operations
 api_count: 2
 apis:
-- description: The Agent API from Exponential — 4 operation(s) for agent.
+- baseURL: https://api.yo.xyz
+  baseurl_source: declared
+  description: The Agent API from Exponential — 4 operation(s) for agent.
   name: Exponential Agent API
   slug: exponential-agent-api
-- description: The History API from Exponential — 1 operation(s) for history.
+- baseURL: https://api.yo.xyz
+  baseurl_source: declared
+  description: The History API from Exponential — 1 operation(s) for history.
   name: Exponential History API
   slug: exponential-history-api
-- description: The Performance API from Exponential — 1 operation(s) for performance.
+- baseURL: https://api.yo.xyz
+  baseurl_source: declared
+  description: The Performance API from Exponential — 1 operation(s) for performance.
   name: Exponential Performance API
   slug: exponential-performance-api
-- description: The Public API from Exponential — 1 operation(s) for public.
+- baseURL: https://api.yo.xyz
+  baseurl_source: declared
+  description: The Public API from Exponential — 1 operation(s) for public.
   name: Exponential Public API
   slug: exponential-public-api
-- description: The Vault API from Exponential — 5 operation(s) for vault.
+- baseURL: https://api.yo.xyz
+  baseurl_source: declared
+  description: The Vault API from Exponential — 5 operation(s) for vault.
   name: Exponential Vault API
   slug: exponential-vault-api
 arazzos:
@@ -253,7 +263,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exponential/refs/heads/main/screenshots/exponential-2026-07-25T213934.png
 security:

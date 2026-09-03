@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,127 +35,207 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: WordPress REST `block-directory` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `block-directory` resource on www.neuehouse.com.
   name: NeueHouse Block Directory API
   slug: neuehouse-block-directory-api
-- description: WordPress REST `block-patterns` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `block-patterns` resource on www.neuehouse.com.
   name: NeueHouse Block Patterns API
   slug: neuehouse-block-patterns-api
-- description: WordPress REST `block-renderer` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `block-renderer` resource on www.neuehouse.com.
   name: NeueHouse Block Renderer API
   slug: neuehouse-block-renderer-api
-- description: WordPress REST `block-types` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `block-types` resource on www.neuehouse.com.
   name: NeueHouse Block Types API
   slug: neuehouse-block-types-api
-- description: WordPress REST `blocks` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `blocks` resource on www.neuehouse.com.
   name: NeueHouse Blocks API
   slug: neuehouse-blocks-api
-- description: WordPress REST `categories` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `categories` resource on www.neuehouse.com.
   name: NeueHouse Categories API
   slug: neuehouse-categories-api
-- description: WordPress REST `comments` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `comments` resource on www.neuehouse.com.
   name: NeueHouse Comments API
   slug: neuehouse-comments-api
-- description: WordPress REST `event` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `event` resource on www.neuehouse.com.
   name: NeueHouse Event API
   slug: neuehouse-event-api
-- description: WordPress REST `font-collections` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `font-collections` resource on www.neuehouse.com.
   name: NeueHouse Font Collections API
   slug: neuehouse-font-collections-api
-- description: WordPress REST `font-families` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `font-families` resource on www.neuehouse.com.
   name: NeueHouse Font Families API
   slug: neuehouse-font-families-api
-- description: WordPress REST `global-styles` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `global-styles` resource on www.neuehouse.com.
   name: NeueHouse Global Styles API
   slug: neuehouse-global-styles-api
-- description: WordPress REST `icons` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `icons` resource on www.neuehouse.com.
   name: NeueHouse Icons API
   slug: neuehouse-icons-api
-- description: WordPress REST `location` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `location` resource on www.neuehouse.com.
   name: NeueHouse Location API
   slug: neuehouse-location-api
-- description: WordPress REST `media` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `media` resource on www.neuehouse.com.
   name: NeueHouse Media API
   slug: neuehouse-media-api
-- description: WordPress REST `menu-items` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `menu-items` resource on www.neuehouse.com.
   name: NeueHouse Menu Items API
   slug: neuehouse-menu-items-api
-- description: WordPress REST `menu-locations` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `menu-locations` resource on www.neuehouse.com.
   name: NeueHouse Menu Locations API
   slug: neuehouse-menu-locations-api
-- description: WordPress REST `menus` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `menus` resource on www.neuehouse.com.
   name: NeueHouse Menus API
   slug: neuehouse-menus-api
-- description: WordPress REST `navigation` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `navigation` resource on www.neuehouse.com.
   name: NeueHouse Navigation API
   slug: neuehouse-navigation-api
-- description: WordPress REST `neuejournal` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `neuejournal` resource on www.neuehouse.com.
   name: NeueHouse Neuejournal API
   slug: neuehouse-neuejournal-api
-- description: WordPress REST `oembed` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `oembed` resource on www.neuehouse.com.
   name: NeueHouse Oembed API
   slug: neuehouse-oembed-api
-- description: WordPress REST `pages` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `pages` resource on www.neuehouse.com.
   name: NeueHouse Pages API
   slug: neuehouse-pages-api
-- description: WordPress REST `pattern-directory` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `pattern-directory` resource on www.neuehouse.com.
   name: NeueHouse Pattern Directory API
   slug: neuehouse-pattern-directory-api
-- description: WordPress REST `plugins` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `plugins` resource on www.neuehouse.com.
   name: NeueHouse Plugins API
   slug: neuehouse-plugins-api
-- description: WordPress REST `posts` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `posts` resource on www.neuehouse.com.
   name: NeueHouse Posts API
   slug: neuehouse-posts-api
-- description: WordPress REST `press` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `press` resource on www.neuehouse.com.
   name: NeueHouse Press API
   slug: neuehouse-press-api
-- description: WordPress REST `search` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `search` resource on www.neuehouse.com.
   name: NeueHouse Search API
   slug: neuehouse-search-api
-- description: WordPress REST `settings` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `settings` resource on www.neuehouse.com.
   name: NeueHouse Settings API
   slug: neuehouse-settings-api
-- description: WordPress REST `sidebars` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `sidebars` resource on www.neuehouse.com.
   name: NeueHouse Sidebars API
   slug: neuehouse-sidebars-api
-- description: WordPress REST `statuses` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `statuses` resource on www.neuehouse.com.
   name: NeueHouse Statuses API
   slug: neuehouse-statuses-api
-- description: WordPress REST `tags` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `tags` resource on www.neuehouse.com.
   name: NeueHouse Tags API
   slug: neuehouse-tags-api
-- description: WordPress REST `taxonomies` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `taxonomies` resource on www.neuehouse.com.
   name: NeueHouse Taxonomies API
   slug: neuehouse-taxonomies-api
-- description: WordPress REST `template-parts` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `template-parts` resource on www.neuehouse.com.
   name: NeueHouse Template Parts API
   slug: neuehouse-template-parts-api
-- description: WordPress REST `templates` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `templates` resource on www.neuehouse.com.
   name: NeueHouse Templates API
   slug: neuehouse-templates-api
-- description: WordPress REST `themes` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `themes` resource on www.neuehouse.com.
   name: NeueHouse Themes API
   slug: neuehouse-themes-api
-- description: WordPress REST `types` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `types` resource on www.neuehouse.com.
   name: NeueHouse Types API
   slug: neuehouse-types-api
-- description: WordPress REST `users` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `users` resource on www.neuehouse.com.
   name: NeueHouse Users API
   slug: neuehouse-users-api
-- description: WordPress REST `widget-types` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `widget-types` resource on www.neuehouse.com.
   name: NeueHouse Widget Types API
   slug: neuehouse-widget-types-api
-- description: WordPress REST `widgets` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `widgets` resource on www.neuehouse.com.
   name: NeueHouse Widgets API
   slug: neuehouse-widgets-api
-- description: WordPress REST `wp` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `wp` resource on www.neuehouse.com.
   name: NeueHouse Wp API
   slug: neuehouse-wp-api
-- description: WordPress REST `wp_pattern_category` resource on www.neuehouse.com.
+- baseURL: https://www.neuehouse.com/wp-json
+  baseurl_source: declared
+  description: WordPress REST `wp_pattern_category` resource on www.neuehouse.com.
   name: NeueHouse Wp Pattern Category API
   slug: neuehouse-wp-pattern-category-api
 artifact_total: 45
@@ -292,23 +384,23 @@ rate_limits:
   slug: neuehouse-rate-limits
 score:
   band: emerging
-  composite: 24.2
+  composite: 25.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.6
+  delta: 0.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 14.1
+    contract_quality: 17.5
     developer_ergonomics: 35.1
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.8
+  previous_composite: 24.2
   provenance:
     conformance: derived
     contracts:
@@ -319,8 +411,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/neuehouse/refs/heads/main/screenshots/neuehouse-2026-09-02T150735.png
 security:
 - kind: authentication
   name: Neuehouse Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The BMS Medical Information portal provides US healthcare providers with access to product medical information, clinical data, and scientific resources for BMS medicines across oncology, immunology, a
@@ -136,7 +136,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png
 security:

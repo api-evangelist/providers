@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -53,22 +53,34 @@ apis:
 - description: Upload and manage application files (APK, IPA, ZIP) and other test artifacts in the Sauce Labs file storage service. Supports uploading apps, listing stored files, and deleting files used in test runs
   name: Sauce Labs Storage API
   slug: storage
-- description: The Devices API from Sauce Labs — 2 operation(s) for devices.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Devices API from Sauce Labs — 2 operation(s) for devices.
   name: Sauce Labs Devices API
   slug: sauce-labs-devices-api
-- description: The Job Assets API from Sauce Labs — 1 operation(s) for job assets.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Job Assets API from Sauce Labs — 1 operation(s) for job assets.
   name: Sauce Labs Job Assets API
   slug: sauce-labs-job-assets-api
-- description: The Jobs API from Sauce Labs — 3 operation(s) for jobs.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Jobs API from Sauce Labs — 3 operation(s) for jobs.
   name: Sauce Labs Jobs API
   slug: sauce-labs-jobs-api
-- description: The Platform API from Sauce Labs — 2 operation(s) for platform.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Platform API from Sauce Labs — 2 operation(s) for platform.
   name: Sauce Labs Platform API
   slug: sauce-labs-platform-api
-- description: The Sessions API from Sauce Labs — 5 operation(s) for sessions.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Sessions API from Sauce Labs — 5 operation(s) for sessions.
   name: Sauce Labs Sessions API
   slug: sauce-labs-sessions-api
-- description: The Users API from Sauce Labs — 1 operation(s) for users.
+- baseURL: https://api.us-west-1.saucelabs.com
+  baseurl_source: declared
+  description: The Users API from Sauce Labs — 1 operation(s) for users.
   name: Sauce Labs Users API
   slug: sauce-labs-users-api
 artifact_total: 35
@@ -281,7 +293,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

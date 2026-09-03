@@ -34,40 +34,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Ad Groups API from StreetMetrics — 7 operation(s) for ad groups.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Ad Groups API from StreetMetrics — 7 operation(s) for ad groups.
   name: StreetMetrics Ad Groups API
   slug: streetmetrics-ad-groups-api
-- description: The Assets API from StreetMetrics — 5 operation(s) for assets.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Assets API from StreetMetrics — 5 operation(s) for assets.
   name: StreetMetrics Assets API
   slug: streetmetrics-assets-api
-- description: The Attribution Studies API from StreetMetrics — 6 operation(s) for attribution studies.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Attribution Studies API from StreetMetrics — 6 operation(s) for attribution studies.
   name: StreetMetrics Attribution Studies API
   slug: streetmetrics-attribution-studies-api
-- description: The Authentication API from StreetMetrics — 1 operation(s) for authentication.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Authentication API from StreetMetrics — 1 operation(s) for authentication.
   name: StreetMetrics Authentication API
   slug: streetmetrics-authentication-api
-- description: The Campaigns API from StreetMetrics — 2 operation(s) for campaigns.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Campaigns API from StreetMetrics — 2 operation(s) for campaigns.
   name: StreetMetrics Campaigns API
   slug: streetmetrics-campaigns-api
-- description: The Creatives API from StreetMetrics — 2 operation(s) for creatives.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Creatives API from StreetMetrics — 2 operation(s) for creatives.
   name: StreetMetrics Creatives API
   slug: streetmetrics-creatives-api
-- description: The Frames API from StreetMetrics — 2 operation(s) for frames.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Frames API from StreetMetrics — 2 operation(s) for frames.
   name: StreetMetrics Frames API
   slug: streetmetrics-frames-api
-- description: The Markets API from StreetMetrics — 1 operation(s) for markets.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Markets API from StreetMetrics — 1 operation(s) for markets.
   name: StreetMetrics Markets API
   slug: streetmetrics-markets-api
-- description: The Media API from StreetMetrics — 2 operation(s) for media.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Media API from StreetMetrics — 2 operation(s) for media.
   name: StreetMetrics Media API
   slug: streetmetrics-media-api
-- description: The Pixels API from StreetMetrics — 4 operation(s) for pixels.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Pixels API from StreetMetrics — 4 operation(s) for pixels.
   name: StreetMetrics Pixels API
   slug: streetmetrics-pixels-api
-- description: The Reporting API from StreetMetrics — 8 operation(s) for reporting.
+- baseURL: https://dashboard.streetmetrics.io/v3/public/
+  baseurl_source: declared
+  description: The Reporting API from StreetMetrics — 8 operation(s) for reporting.
   name: StreetMetrics Reporting API
   slug: streetmetrics-reporting-api
 artifact_total: 18
@@ -258,7 +280,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/screenshots/streetmetrics-2026-08-17T082138.png
 security:

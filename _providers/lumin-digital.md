@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Lumin Digital's platform API and SDK surface, used by financial institutions and by ecosystem partners to integrate third-party products into the digital banking experience and to move data between th
@@ -178,7 +189,7 @@ score:
   band: emerging
   composite: 18.9
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +214,9 @@ score:
     regime_id: banking_open_finance
     score: 31.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lumin-digital/refs/heads/main/screenshots/lumin-digital-2026-09-02T150347.png
 security:
 - kind: domain-security
   name: Lumin Digital Domain Security

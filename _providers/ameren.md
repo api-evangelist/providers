@@ -10,17 +10,17 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-01'
+  score: 17.6
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -42,7 +42,7 @@ apis:
 - description: 'The Ameren Renewables Portal enables generation owners to manage community solar and collectively owned generation facilities, track subscriber accounts, and manage billing usage credits in Illinois. '
   name: Ameren Renewables Portal API
   slug: renewables-portal-api
-artifact_total: 19
+artifact_total: 21
 common:
 - group: auth
   title: ''
@@ -56,6 +56,82 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/AmerenCorp
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ameren-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/ameren-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/ameren-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ameren-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/ameren-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ameren-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ameren-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ameren-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ameren-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ameren-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ameren-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ameren-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/ameren-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.ameren.com/partners/account-and-data/share-my-usage
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ameren.com/customer-service
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ameren.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ameren.com/privacy
+- group: start
+  title: ''
+  type: SignUp
+  url: https://gp.ameren.com/third-party-registration/instructions
+- group: start
+  title: ''
+  type: Login
+  url: https://login.eiam.ece.ameren.com/am/XUI/
 - group: company
   title: ''
   type: LinkedIn
@@ -94,17 +170,17 @@ integrations:
 - description: Energy Services Provider Interface standard from NAESB for energy usage data exchange in XML format via authenticated API.
   name: ESPI Standard
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Ameren
 nav: Providers
 network: true
 overview: 'Ameren publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Utility, Energy, Electric, Natural Gas, and Smart Grid.
 
 
-  Ameren''s developer surface includes developer portal and 5 more developer resources.'
+  Ameren''s developer surface includes authentication, documentation, support, signup flow, developer portal, and 20 more developer resources.'
 plans:
 - name: Ameren Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: ameren-plans-pricing
 press:
 - date: '2026-05-25'
@@ -124,39 +200,51 @@ press:
   url: https://www.amereninvestors.com/investors/financial-releases/financial-releases-details/2026/Ameren-Announces-2025-Results-Affirms-Guidance-for-2026-Earnings-and-Issues-Long-Term-Growth-Guidance/default.aspx
 random_paper: 2
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Ameren Rate Limits
   slug: ameren-rate-limits
+scopes:
+- name: Ameren Scopes
+  scope_count: 0
+  slug: ameren-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 17.5
+  band: thin
+  composite: 34.6
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 71.0
+    artifact_dirs: 17
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 17.1
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 47.6
+    discoverability: 59.3
+    governance: 18.2
+    operational_transparency: 13.2
   previous_composite: 17.5
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 24.3
+    score: 64.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ameren/refs/heads/main/screenshots/ameren-2026-08-07T174227.png
 security:
+- kind: authentication
+  name: Ameren Authentication
+  slug: ameren-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Ameren Domain Security
   slug: ameren-domain-security

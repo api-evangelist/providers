@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -53,16 +53,24 @@ apis:
 - description: Our AI-powered, all-in-one generative integration platform unifies your data and streamlines workflows to transform your business.
   name: SnapLogic
   slug: snaplogic
-- description: Control project access, permissions, and asset management including project creation, renaming, deletion, and ACL management.
+- baseURL_template: https://{org}.snaplogic.com/api/1
+  baseurl_source: spec_template
+  description: Control project access, permissions, and asset management including project creation, renaming, deletion, and ACL management.
   name: SnapLogic Asset Management API
   slug: snaplogic-asset-management-api
-- description: Monitor and control pipeline execution state, performance metrics, and concurrent execution statistics.
+- baseURL_template: https://{org}.snaplogic.com/api/1
+  baseurl_source: spec_template
+  description: Monitor and control pipeline execution state, performance metrics, and concurrent execution statistics.
   name: SnapLogic Runtime API
   slug: snaplogic-runtime-api
-- description: Enable, disable, and manage task configuration for triggered and scheduled pipeline tasks.
+- baseURL_template: https://{org}.snaplogic.com/api/1
+  baseurl_source: spec_template
+  description: Enable, disable, and manage task configuration for triggered and scheduled pipeline tasks.
   name: SnapLogic Tasks API
   slug: snaplogic-tasks-api
-- description: Manage user accounts, groups, and membership for SnapLogic organizations.
+- baseURL_template: https://{org}.snaplogic.com/api/1
+  baseurl_source: spec_template
+  description: Manage user accounts, groups, and membership for SnapLogic organizations.
   name: SnapLogic Users and Groups API
   slug: snaplogic-users-and-groups-api
 artifact_total: 122
@@ -360,7 +368,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/screenshots/snaplogic-2026-06-20T194106.png
 security:

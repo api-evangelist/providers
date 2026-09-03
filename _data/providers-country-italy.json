@@ -1,6 +1,6 @@
 {
- "total": 44,
- "shown": 44,
+ "total": 45,
+ "shown": 45,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -133,7 +133,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -185,7 +185,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -248,7 +248,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -300,7 +300,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -352,7 +352,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -415,7 +415,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -460,7 +460,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -512,7 +512,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -564,7 +564,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -616,7 +616,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -668,7 +668,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -720,7 +720,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -772,7 +772,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -824,7 +824,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -869,7 +869,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -914,7 +914,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -959,7 +959,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1011,7 +1011,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1063,7 +1063,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1115,7 +1115,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1167,7 +1167,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1219,7 +1219,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1260,9 +1260,60 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 20,
-   "shown": 20,
+   "count": 21,
+   "shown": 21,
    "providers": [
+    {
+     "name": "Alkimiya",
+     "slug": "alkimiya",
+     "description": "Alkimiya SRL is an Italian digital-health startup headquartered in Rome that builds and distributes clinical decision support systems grounded in Evidence Based Medicine. It is the exclusive Italian distributor of EBMEDS, a third-generation CDSS owned by Duodecim Publication Company of Finland carrying more than 1,000 clinical algorithms for drug interaction, contraindication, dosage and medication-reconciliation checking. Alkimiya is also developing SmartCare, its own Digital Clinical Decision Pathway platform for the proactive support of post-discharge and chronic patients, combining an evidence-based knowledge base, a rules engine and an integration API meant to make telemedicine systems and electronic health records act on clinical guidance. Continuum of Care packages the same pathway engine as cloud SaaS with patient-facing mobile apps. The company markets the SmartCare API but publishes no developer portal, reference or machine-readable contract.",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
+    },
     {
      "name": "Istante",
      "slug": "istante",
@@ -1281,7 +1332,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1306,7 +1357,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "LAMMA Toscana Open Data",
@@ -1326,7 +1377,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1358,7 +1409,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Involve Space",
@@ -1378,7 +1429,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1403,7 +1454,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "TIM",
@@ -1423,7 +1474,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1455,7 +1506,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Lecce Open Data",
@@ -1475,59 +1526,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Umbria Region Open Data",
-     "slug": "dati-regione-umbria-it",
-     "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
-     "score": 8.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1562,11 +1561,11 @@
      "rank": 30
     },
     {
-     "name": "Consip Open Data",
-     "slug": "dati-consip-it",
-     "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
-     "score": 7.8,
+     "name": "Umbria Region Open Data",
+     "slug": "dati-regione-umbria-it",
+     "description": "Umbria Region Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 457 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-regione-umbria-it/refs/heads/main/screenshots/dati-regione-umbria-it-2026-06-20T175707.png",
+     "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1575,11 +1574,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "developer_ergonomics": 11.9,
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1614,10 +1613,10 @@
      "rank": 31
     },
     {
-     "name": "Genoa Open Data",
-     "slug": "dati-comune-genova-it",
-     "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
+     "name": "Consip Open Data",
+     "slug": "dati-consip-it",
+     "description": "Consip Open Data is a government agency open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 16 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-consip-it/refs/heads/main/screenshots/dati-consip-it-2026-06-20T175659.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1631,7 +1630,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1666,10 +1665,10 @@
      "rank": 32
     },
     {
-     "name": "Maggioli Cloud Open Data",
-     "slug": "opendata-maggioli-cloud",
-     "description": "Maggioli Cloud Open Data is a organization open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 6,061 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-maggioli-cloud/refs/heads/main/screenshots/opendata-maggioli-cloud-2026-06-20T190943.png",
+     "name": "Genoa Open Data",
+     "slug": "dati-comune-genova-it",
+     "description": "Genoa Open Data is a municipal government open-data portal for Italy running CKAN (~163 datasets).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-genova-it/refs/heads/main/screenshots/dati-comune-genova-it-2026-06-20T175653.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1683,7 +1682,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1718,10 +1717,10 @@
      "rank": 33
     },
     {
-     "name": "Rimini Open Data",
-     "slug": "dati-comune-rimini-it",
-     "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
+     "name": "Maggioli Cloud Open Data",
+     "slug": "opendata-maggioli-cloud",
+     "description": "Maggioli Cloud Open Data is a organization open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 6,061 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-maggioli-cloud/refs/heads/main/screenshots/opendata-maggioli-cloud-2026-06-20T190943.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1735,7 +1734,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1770,10 +1769,10 @@
      "rank": 34
     },
     {
-     "name": "Rome Open Data",
-     "slug": "dati-comune-roma-it",
-     "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
+     "name": "Rimini Open Data",
+     "slug": "dati-comune-rimini-it",
+     "description": "Rimini Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 72 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-rimini-it/refs/heads/main/screenshots/dati-comune-rimini-it-2026-06-20T175658.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1787,7 +1786,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1822,10 +1821,10 @@
      "rank": 35
     },
     {
-     "name": "South Tyrol Civis Open Data",
-     "slug": "data-civis-bz-it",
-     "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
+     "name": "Rome Open Data",
+     "slug": "dati-comune-roma-it",
+     "description": "Rome Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 365 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-comune-roma-it/refs/heads/main/screenshots/dati-comune-roma-it-2026-06-20T175657.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1839,7 +1838,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1874,10 +1873,10 @@
      "rank": 36
     },
     {
-     "name": "South Tyrol Retecivica Data",
-     "slug": "dati-retecivica-bz-it",
-     "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
+     "name": "South Tyrol Civis Open Data",
+     "slug": "data-civis-bz-it",
+     "description": "South Tyrol Civis Open Data is a regional government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 938 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-civis-bz-it/refs/heads/main/screenshots/data-civis-bz-it-2026-06-20T175518.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1891,7 +1890,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1926,10 +1925,10 @@
      "rank": 37
     },
     {
-     "name": "Trento Open Data",
-     "slug": "opendata-comune-trento-it",
-     "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
+     "name": "South Tyrol Retecivica Data",
+     "slug": "dati-retecivica-bz-it",
+     "description": "South Tyrol Retecivica Data is a regional government open-data portal for Italy running CKAN (~938 datasets).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dati-retecivica-bz-it/refs/heads/main/screenshots/dati-retecivica-bz-it-2026-06-20T175704.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1943,7 +1942,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1978,10 +1977,10 @@
      "rank": 38
     },
     {
-     "name": "Turin Open Data",
-     "slug": "aperto-comune-torino-it",
-     "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
+     "name": "Trento Open Data",
+     "slug": "opendata-comune-trento-it",
+     "description": "Trento Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 0 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/screenshots/opendata-comune-trento-it-2026-06-20T190933.png",
      "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1995,7 +1994,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2030,6 +2029,58 @@
      "rank": 39
     },
     {
+     "name": "Turin Open Data",
+     "slug": "aperto-comune-torino-it",
+     "description": "Turin Open Data is a municipal government open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 2,076 datasets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aperto-comune-torino-it/refs/heads/main/screenshots/aperto-comune-torino-it-2026-06-20T172202.png",
+     "score": 7.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
      "name": "University of Bologna Open Data",
      "slug": "dati-unibo-it",
      "description": "University of Bologna Open Data is a university open-data portal for Italy running CKAN. It exposes the CKAN catalog API over approximately 34 datasets.",
@@ -2047,7 +2098,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2079,7 +2130,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Alba Robot",
@@ -2099,7 +2150,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2124,7 +2175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Nouscom",
@@ -2144,7 +2195,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2176,12 +2227,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Tutornow",
      "slug": "tutornow",
      "description": "Tutornow (tutornow.it) is an Italian online tutoring platform (\"ripetizioni\") that connects students from elementary school through university with qualified tutors across 150+ subjects, including math, physics, chemistry, and languages. It offers individual and group online lessons starting around €15/hour, homework help, exam and university preparation, academic-recovery programs, and specialized support for students with learning differences (DSA/BES), with 250,000+ lesson hours delivered and 20,000+ tutors across major Italian cities. Tutornow is a consumer (B2C) education service and publishes no public developer API, API documentation, or developer portal — this profile is maintained as a company record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tutornow/refs/heads/main/screenshots/tutornow-2026-09-02T164556.png",
      "score": 0.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2195,59 +2247,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "Scuola Normale Superiore di Pisa",
-     "slug": "scuola-normale-superiore-pisa",
-     "description": "Scuola Normale Superiore di Pisa is a higher-education institution in Italy. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scuola-normale-superiore-pisa/refs/heads/main/screenshots/scuola-normale-superiore-pisa-2026-09-02T154621.png",
-     "score": 0.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2280,6 +2280,58 @@
       "agentic_commerce": false
      },
      "rank": 44
+    },
+    {
+     "name": "Scuola Normale Superiore di Pisa",
+     "slug": "scuola-normale-superiore-pisa",
+     "description": "Scuola Normale Superiore di Pisa is a higher-education institution in Italy. This profile is a STUB: it records the institution's identity only. No claim is made about its programmable surface -- what it operates, what a vendor operates on its behalf, and what it publishes have not yet been established. Run the university pipeline (all/0-working/pipeline-university.md) to profile it.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scuola-normale-superiore-pisa/refs/heads/main/screenshots/scuola-normale-superiore-pisa-2026-09-02T154621.png",
+     "score": 0.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 46.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 0.0,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
     }
    ]
   }

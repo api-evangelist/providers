@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 9 operations · 5 acting
 api_count: 1
 apis:
-- description: The tickets API from Harmony — 6 operation(s) for tickets.
+- baseURL: https://api.harmony.io/service-desk
+  baseurl_source: declared
+  description: The tickets API from Harmony — 6 operation(s) for tickets.
   name: Harmony tickets API
   slug: harmony-tickets-api
 arazzos:
@@ -190,7 +192,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:

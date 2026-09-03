@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 80 operations · 46 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: User account, email verification, and authentication operations.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: User account, email verification, and authentication operations.
   name: Plandex Accounts API
   slug: plandex-accounts-api
-- description: Per-plan branches for parallel exploration and diffing.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Per-plan branches for parallel exploration and diffing.
   name: Plandex Branches API
   slug: plandex-branches-api
-- description: Files, directory trees, URLs, notes, and images loaded into a plan.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Files, directory trees, URLs, notes, and images loaded into a plan.
   name: Plandex Context API
   slug: plandex-context-api
-- description: Prompts, responses, and rewind history within a plan branch.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Prompts, responses, and rewind history within a plan branch.
   name: Plandex Conversation API
   slug: plandex-conversation-api
-- description: Per-file pending changes, apply, and reject operations.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Per-file pending changes, apply, and reject operations.
   name: Plandex Diffs API
   slug: plandex-diffs-api
-- description: Streaming connect, build, tell, and stop endpoints for plan execution.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Streaming connect, build, tell, and stop endpoints for plan execution.
   name: Plandex Execution API
   slug: plandex-execution-api
-- description: Tree-sitter project map generation and cached map loading.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Tree-sitter project map generation and cached map loading.
   name: Plandex FileMap API
   slug: plandex-filemap-api
-- description: Operational health and version endpoints.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Operational health and version endpoints.
   name: Plandex Health API
   slug: plandex-health-api
-- description: Invite users into an org and manage pending invites.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Invite users into an org and manage pending invites.
   name: Plandex Invites API
   slug: plandex-invites-api
-- description: Model packs, custom models, custom providers, default settings.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Model packs, custom models, custom providers, default settings.
   name: Plandex Models API
   slug: plandex-models-api
-- description: Organization and role membership management.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Organization and role membership management.
   name: Plandex Orgs API
   slug: plandex-orgs-api
-- description: Long-running, branchable units of AI coding work over loaded context.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Long-running, branchable units of AI coding work over loaded context.
   name: Plandex Plans API
   slug: plandex-plans-api
-- description: Project containers that group plans, mapped to a working directory.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Project containers that group plans, mapped to a working directory.
   name: Plandex Projects API
   slug: plandex-projects-api
-- description: Per-plan model settings, default settings, and org/user config.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: Per-plan model settings, default settings, and org/user config.
   name: Plandex Settings API
   slug: plandex-settings-api
-- description: User listing and removal within an org.
+- baseURL: http://localhost:8099
+  baseurl_source: declared
+  description: User listing and removal within an org.
   name: Plandex Users API
   slug: plandex-users-api
 artifact_total: 118
@@ -539,7 +569,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

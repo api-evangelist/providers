@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Endpoints dealing with authenticating to the API
+- baseURL: https://api.cargomatic.com
+  baseurl_source: declared
+  description: Endpoints dealing with authenticating to the API
   name: Cargomatic Authorization API
   slug: cargomatic-authorization-api
-- description: Endpoints for Cargomatic Carriers and Drivers
+- baseURL: https://api.cargomatic.com
+  baseurl_source: declared
+  description: Endpoints for Cargomatic Carriers and Drivers
   name: Cargomatic Carrier API
   slug: cargomatic-carrier-api
-- description: The Document API from Cargomatic — 2 operation(s) for document.
+- baseURL: https://api.cargomatic.com
+  baseurl_source: declared
+  description: The Document API from Cargomatic — 2 operation(s) for document.
   name: Cargomatic Document API
   slug: cargomatic-document-api
-- description: Endpoints for Cargomatic Shippers
+- baseURL: https://api.cargomatic.com
+  baseurl_source: declared
+  description: Endpoints for Cargomatic Shippers
   name: Cargomatic Shipper API
   slug: cargomatic-shipper-api
-- description: Endpoints for managing shipment stops
+- baseURL: https://api.cargomatic.com
+  baseurl_source: declared
+  description: Endpoints for managing shipment stops
   name: Cargomatic Stops API
   slug: cargomatic-stops-api
 artifact_total: 14
@@ -234,7 +244,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png
 security:

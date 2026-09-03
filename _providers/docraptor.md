@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,10 +47,14 @@ apis:
 - description: REST API for generating PDF, XLS, XLSX from HTML/CSS or URL. HTTP Basic auth using API key as username. Sync POST /docs and async POST /async_docs with status polling. Test documents are unlimited and
   name: DocRaptor REST API
   slug: rest
-- description: The Async Documents API from DocRaptor — 2 operation(s) for async documents.
+- baseURL: https://api.docraptor.com
+  baseurl_source: declared
+  description: The Async Documents API from DocRaptor — 2 operation(s) for async documents.
   name: DocRaptor Async Documents API
   slug: docraptor-async-documents-api
-- description: The Documents API from DocRaptor — 2 operation(s) for documents.
+- baseURL: https://api.docraptor.com
+  baseurl_source: declared
+  description: The Documents API from DocRaptor — 2 operation(s) for documents.
   name: DocRaptor Documents API
   slug: docraptor-documents-api
 artifact_total: 13
@@ -164,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/screenshots/docraptor-2026-06-20T180113.png
 security:

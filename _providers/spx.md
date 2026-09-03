@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 1
 apis:
-- description: Save and load custom JSON data
+- baseURL: http://localhost:5656
+  baseurl_source: spec
+  description: Save and load custom JSON data
   name: SPX Graphics Data API
   slug: spx-data-api
-- description: Invoke functions in custom SPX extensions
+- baseURL: http://localhost:5656
+  baseurl_source: spec
+  description: Invoke functions in custom SPX extensions
   name: SPX Graphics Extensions API
   slug: spx-extensions-api
-- description: File listing from the ASSETS folder
+- baseURL: http://localhost:5656
+  baseurl_source: spec
+  description: File listing from the ASSETS folder
   name: SPX Graphics Files API
   slug: spx-files-api
-- description: Control individual rundown items (play, stop, continue, update)
+- baseURL: http://localhost:5656
+  baseurl_source: spec
+  description: Control individual rundown items (play, stop, continue, update)
   name: SPX Graphics Item API
   slug: spx-item-api
-- description: Control rundown focus and item playback
+- baseURL: http://localhost:5656
+  baseurl_source: spec
+  description: Control rundown focus and item playback
   name: SPX Graphics Rundown API
   slug: spx-rundown-api
 artifact_total: 24
@@ -231,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/screenshots/spx-2026-06-20T194423.png
 security:

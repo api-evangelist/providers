@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 86 operations · 25 acting
 api_count: 4
 apis:
-- description: The Activity API from Magic Eden — 1 operation(s) for activity.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Activity API from Magic Eden — 1 operation(s) for activity.
   name: Magic Eden Activity API
   slug: magic-eden-activity-api
-- description: The Assets API from Magic Eden — 2 operation(s) for assets.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Assets API from Magic Eden — 2 operation(s) for assets.
   name: Magic Eden Assets API
   slug: magic-eden-assets-api
-- description: The Blocks API from Magic Eden — 1 operation(s) for blocks.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Blocks API from Magic Eden — 1 operation(s) for blocks.
   name: Magic Eden Blocks API
   slug: magic-eden-blocks-api
-- description: The Collections API from Magic Eden — 13 operation(s) for collections.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Collections API from Magic Eden — 13 operation(s) for collections.
   name: Magic Eden Collections API
   slug: magic-eden-collections-api
-- description: Get instructions for the blockchain
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Get instructions for the blockchain
   name: Magic Eden instructions API
   slug: magic-eden-instructions-api
-- description: The Ixs API from Magic Eden — 9 operation(s) for ixs.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Ixs API from Magic Eden — 9 operation(s) for ixs.
   name: Magic Eden Ixs API
   slug: magic-eden-ixs-api
-- description: Get launchpad information
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Get launchpad information
   name: Magic Eden launchpad API
   slug: magic-eden-launchpad-api
-- description: The magic-ticket API from Magic Eden — 1 operation(s) for magic-ticket.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The magic-ticket API from Magic Eden — 1 operation(s) for magic-ticket.
   name: Magic Eden magic-ticket API
   slug: magic-eden-magic-ticket-api
-- description: Get information about Magic Eden's marketplace!
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Get information about Magic Eden's marketplace!
   name: Magic Eden marketplace API
   slug: magic-eden-marketplace-api
-- description: Get AMM information
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Get AMM information
   name: Magic Eden mmm API
   slug: magic-eden-mmm-api
-- description: The Orders API from Magic Eden — 2 operation(s) for orders.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Orders API from Magic Eden — 2 operation(s) for orders.
   name: Magic Eden Orders API
   slug: magic-eden-orders-api
-- description: The Rare Sats API from Magic Eden — 4 operation(s) for rare sats.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Rare Sats API from Magic Eden — 4 operation(s) for rare sats.
   name: Magic Eden Rare Sats API
   slug: magic-eden-rare-sats-api
-- description: The Runes Info API from Magic Eden — 7 operation(s) for runes info.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Runes Info API from Magic Eden — 7 operation(s) for runes info.
   name: Magic Eden Runes Info API
   slug: magic-eden-runes-info-api
-- description: The Runes Listing API from Magic Eden — 4 operation(s) for runes listing.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Runes Listing API from Magic Eden — 4 operation(s) for runes listing.
   name: Magic Eden Runes Listing API
   slug: magic-eden-runes-listing-api
-- description: The Runes Market Sell API from Magic Eden — 2 operation(s) for runes market sell.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Runes Market Sell API from Magic Eden — 2 operation(s) for runes market sell.
   name: Magic Eden Runes Market Sell API
   slug: magic-eden-runes-market-sell-api
-- description: The Runes Swap API from Magic Eden — 3 operation(s) for runes swap.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Runes Swap API from Magic Eden — 3 operation(s) for runes swap.
   name: Magic Eden Runes Swap API
   slug: magic-eden-runes-swap-api
-- description: The Runes Sweeping API from Magic Eden — 2 operation(s) for runes sweeping.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Runes Sweeping API from Magic Eden — 2 operation(s) for runes sweeping.
   name: Magic Eden Runes Sweeping API
   slug: magic-eden-runes-sweeping-api
-- description: The Tokens API from Magic Eden — 5 operation(s) for tokens.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The Tokens API from Magic Eden — 5 operation(s) for tokens.
   name: Magic Eden Tokens API
   slug: magic-eden-tokens-api
-- description: Get information of a wallet
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Get information of a wallet
   name: Magic Eden wallets API
   slug: magic-eden-wallets-api
-- description: Endpoints related to Bitcoin blockchain
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Endpoints related to Bitcoin blockchain
   name: Magic Eden Bitcoin API
   slug: magic-eden-bitcoin-api
-- description: Endpoints related to Ethereum, Polygon and Base blockchain
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Endpoints related to Ethereum, Polygon and Base blockchain
   name: Magic Eden EVM API
   slug: magic-eden-evm-api
-- description: The General API from Magic Eden — 1 operation(s) for general.
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: The General API from Magic Eden — 1 operation(s) for general.
   name: Magic Eden General API
   slug: magic-eden-general-api
-- description: Check Diamond Rewards Eligibility
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Check Diamond Rewards Eligibility
   name: Magic Eden Rewards API
   slug: magic-eden-rewards-api
-- description: Endpoints related to Solana blockchain
+- baseURL: https://api-mainnet.magiceden.dev/v2
+  baseurl_source: declared
+  description: Endpoints related to Solana blockchain
   name: Magic Eden Solana API
   slug: magic-eden-solana-api
 artifact_total: 85
@@ -438,7 +486,7 @@ score:
       marker_coverage: 0.0
       total: 24
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
 security:

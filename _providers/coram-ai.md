@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The alerts API from Coram Ai — 5 operation(s) for alerts.
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: The alerts API from Coram Ai — 5 operation(s) for alerts.
   name: Coram Ai alerts API
   slug: coram-ai-alerts-api
-- description: Organize cameras into logical collections for easier management. Camera groups allow you to categorize cameras by location, purpose, or any custom criteria. Use these endpoints to create, update, list
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Organize cameras into logical collections for easier management. Camera groups allow you to categorize cameras by location, purpose, or any custom criteria. Use these endpoints to create, update, list
   name: Coram Ai camera-groups API
   slug: coram-ai-camera-groups-api
-- description: Manage individual cameras within your organization. Use these endpoints to register new cameras, update camera settings, retrieve camera information and status, move cameras between locations, and del
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Manage individual cameras within your organization. Use these endpoints to register new cameras, update camera settings, retrieve camera information and status, move cameras between locations, and del
   name: Coram Ai cameras API
   slug: coram-ai-cameras-api
-- description: List access control doors and trigger momentary remote unlocks. The same per-door permission checks the in-app unlock flow runs apply here — a key whose creator cannot unlock a door in the UI cannot u
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: List access control doors and trigger momentary remote unlocks. The same per-door permission checks the in-app unlock flow runs apply here — a key whose creator cannot unlock a door in the UI cannot u
   name: Coram Ai doors API
   slug: coram-ai-doors-api
-- description: Query access control device events (card scans, REX presses, forced-open / held-open alarms, battery alerts, …) and fetch the MP4 video clip recorded by the door's primary camera around an event's tim
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Query access control device events (card scans, REX presses, forced-open / held-open alarms, battery alerts, …) and fetch the MP4 video clip recorded by the door's primary camera around an event's tim
   name: Coram Ai events API
   slug: coram-ai-events-api
-- description: Manage physical site configurations where cameras and NVRs are deployed. Locations represent your facilities, buildings, or areas. Use these endpoints to create, update, list, and delete locations.
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Manage physical site configurations where cameras and NVRs are deployed. Locations represent your facilities, buildings, or areas. Use these endpoints to create, update, list, and delete locations.
   name: Coram Ai locations API
   slug: coram-ai-locations-api
-- description: Control and monitor Network Video Recorders (NVRs) in your infrastructure. NVRs are hardware devices that record and store video from connected cameras. Use these endpoints to register NVRs, update th
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Control and monitor Network Video Recorders (NVRs) in your infrastructure. NVRs are hardware devices that record and store video from connected cameras. Use these endpoints to register NVRs, update th
   name: Coram Ai nvrs API
   slug: coram-ai-nvrs-api
-- description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
+- baseURL: https://api.coram.ai/developer-api
+  baseurl_source: declared
+  description: Bulk-import your school reunification roster — schools, students (with guardians), teachers, staff, and class sections — programmatically, the API equivalent of the in-app CSV upload. Each import is a
   name: Coram Ai reunification API
   slug: coram-ai-reunification-api
 artifact_total: 21
@@ -240,7 +256,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/screenshots/coram-ai-2026-07-25T210425.png
 security:

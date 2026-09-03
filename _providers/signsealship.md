@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Create and track orders that combine e-signature, remote online notarization and tracked delivery. 35 documented paths across Onboarding, Orders, Sandbox, Closing Rooms, Closing Passports, Proof Passp
@@ -181,10 +195,11 @@ score:
   band: strong
   composite: 61.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 57.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -194,6 +209,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 86.8
+  previous_composite: 61.5
   provenance:
     conformance: derived
     contracts:
@@ -204,7 +220,9 @@ score:
     mcp: first-party
     skills: unknown
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/screenshots/signsealship-2026-09-02T155438.png
 security:
 - kind: authentication
   name: Signsealship Authentication

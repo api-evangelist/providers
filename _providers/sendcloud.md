@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -34,82 +46,134 @@ agentic_access:
   summary_line: 94 operations · 42 acting
 api_count: 20
 apis:
-- description: The Address API from Sendcloud — 1 operation(s) for address.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Address API from Sendcloud — 1 operation(s) for address.
   name: Sendcloud Address API
   slug: sendcloud-address-api
-- description: The Analytics API from Sendcloud — 2 operation(s) for analytics.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Analytics API from Sendcloud — 2 operation(s) for analytics.
   name: Sendcloud Analytics API
   slug: sendcloud-analytics-api
-- description: The Broadcast API from Sendcloud — 1 operation(s) for broadcast.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Broadcast API from Sendcloud — 1 operation(s) for broadcast.
   name: Sendcloud Broadcast API
   slug: sendcloud-broadcast-api
-- description: The Connections API from Sendcloud — 2 operation(s) for connections.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Connections API from Sendcloud — 2 operation(s) for connections.
   name: Sendcloud Connections API
   slug: sendcloud-connections-api
-- description: The Customs Documents Download API from Sendcloud — 2 operation(s) for customs documents download.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Customs Documents Download API from Sendcloud — 2 operation(s) for customs documents download.
   name: Sendcloud Customs Documents Download API
   slug: sendcloud-customs-documents-download-api
-- description: Integration exception logs API
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Integration exception logs API
   name: Sendcloud Exception logs API
   slug: sendcloud-exception-logs-api
-- description: The Integrations API from Sendcloud — 6 operation(s) for integrations.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Integrations API from Sendcloud — 6 operation(s) for integrations.
   name: Sendcloud Integrations API
   slug: sendcloud-integrations-api
-- description: The Label Download API from Sendcloud — 4 operation(s) for label download.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Label Download API from Sendcloud — 4 operation(s) for label download.
   name: Sendcloud Label Download API
   slug: sendcloud-label-download-api
-- description: The Labels API from Sendcloud — 2 operation(s) for labels.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Labels API from Sendcloud — 2 operation(s) for labels.
   name: Sendcloud Labels API
   slug: sendcloud-labels-api
-- description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The OAuth2 API from Sendcloud — 1 operation(s) for oauth2.
   name: Sendcloud OAuth2 API
   slug: sendcloud-oauth2-api
-- description: OrderAPI
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: OrderAPI
   name: Sendcloud Orders API
   slug: sendcloud-orders-api
-- description: The Parcel Documents API from Sendcloud — 2 operation(s) for parcel documents.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Parcel Documents API from Sendcloud — 2 operation(s) for parcel documents.
   name: Sendcloud Parcel Documents API
   slug: sendcloud-parcel-documents-api
-- description: The Parcel Tracking API from Sendcloud — 2 operation(s) for parcel tracking.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Parcel Tracking API from Sendcloud — 2 operation(s) for parcel tracking.
   name: Sendcloud Parcel Tracking API
   slug: sendcloud-parcel-tracking-api
-- description: Get insights about parcels
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Get insights about parcels
   name: Sendcloud Parcels API
   slug: sendcloud-parcels-api
-- description: Get insights about products
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Get insights about products
   name: Sendcloud Products API
   slug: sendcloud-products-api
-- description: Generate data exports and reports.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Generate data exports and reports.
   name: Sendcloud Reporting API
   slug: sendcloud-reporting-api
-- description: The Returns API from Sendcloud — 6 operation(s) for returns.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Returns API from Sendcloud — 6 operation(s) for returns.
   name: Sendcloud Returns API
   slug: sendcloud-returns-api
-- description: Service Points API
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Service Points API
   name: Sendcloud Service Points API
   slug: sendcloud-service-points-api
-- description: OrderLabelAPI
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: OrderLabelAPI
   name: Sendcloud Ship an Order API
   slug: sendcloud-ship-an-order-api
-- description: Shipments API
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Shipments API
   name: Sendcloud Shipments API
   slug: sendcloud-shipments-api
-- description: The Subscriptions API from Sendcloud — 2 operation(s) for subscriptions.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Subscriptions API from Sendcloud — 2 operation(s) for subscriptions.
   name: Sendcloud Subscriptions API
   slug: sendcloud-subscriptions-api
-- description: The Tracking API from Sendcloud — 1 operation(s) for tracking.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Tracking API from Sendcloud — 1 operation(s) for tracking.
   name: Sendcloud Tracking API
   slug: sendcloud-tracking-api
-- description: Get insights about average transit times per carriers and shipping methods
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Get insights about average transit times per carriers and shipping methods
   name: Sendcloud Transit times API
   slug: sendcloud-transit-times-api
-- description: Get list of carriers and shipping methods a user ever used
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: Get list of carriers and shipping methods a user ever used
   name: Sendcloud User Carriers and Shipping Methods API
   slug: sendcloud-user-carriers-and-shipping-methods-api
-- description: The Events API from Sendcloud — 0 operation(s) for events.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Events API from Sendcloud — 0 operation(s) for events.
   name: Sendcloud Events API
   slug: sendcloud-events-api
-- description: The Webhooks API from Sendcloud — 0 operation(s) for webhooks.
+- baseURL: https://panel.sendcloud.sc/api/v3
+  baseurl_source: declared
+  description: The Webhooks API from Sendcloud — 0 operation(s) for webhooks.
   name: Sendcloud Webhooks API
   slug: sendcloud-webhooks-api
 arazzos:
@@ -716,7 +780,7 @@ score:
     regime_id: telecommunications
     score: 54.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:

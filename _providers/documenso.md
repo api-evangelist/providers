@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: 'Outbound webhook events covering the full document lifecycle - created, sent, opened, signed, completed, rejected, cancelled - plus template events. Payloads are verified with a shared secret sent in '
   name: Documenso Webhooks
   slug: webhooks
-- description: Create, upload, send, retrieve, download, and delete documents.
+- baseURL: https://app.documenso.com/api/v1
+  baseurl_source: declared
+  description: Create, upload, send, retrieve, download, and delete documents.
   name: Documenso Documents API
   slug: documenso-documents-api
-- description: Add and configure signature and form fields on a document.
+- baseURL: https://app.documenso.com/api/v1
+  baseurl_source: declared
+  description: Add and configure signature and form fields on a document.
   name: Documenso Fields API
   slug: documenso-fields-api
-- description: Manage the recipients (signers, approvers, viewers) of a document.
+- baseURL: https://app.documenso.com/api/v1
+  baseurl_source: declared
+  description: Manage the recipients (signers, approvers, viewers) of a document.
   name: Documenso Recipients API
   slug: documenso-recipients-api
-- description: Manage reusable templates and generate documents from them.
+- baseURL: https://app.documenso.com/api/v1
+  baseurl_source: declared
+  description: Manage reusable templates and generate documents from them.
   name: Documenso Templates API
   slug: documenso-templates-api
 artifact_total: 18
@@ -180,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/screenshots/documenso-2026-06-20T180120.png
 security:

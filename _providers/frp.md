@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -45,31 +45,49 @@ agentic_access:
   summary_line: 28 operations · 9 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Connected client inventory
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Connected client inventory
   name: frp Clients API
   slug: frp-clients-api
-- description: Read and replace the in-memory frpc configuration
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Read and replace the in-memory frpc configuration
   name: frp Configuration API
   slug: frp-configuration-api
-- description: Liveness probe
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Liveness probe
   name: frp Health API
   slug: frp-health-api
-- description: Reload and stop the running frpc process
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Reload and stop the running frpc process
   name: frp Lifecycle API
   slug: frp-lifecycle-api
-- description: Prometheus metrics endpoint
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Prometheus metrics endpoint
   name: frp Metrics API
   slug: frp-metrics-api
-- description: Active proxy inventory and traffic stats
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Active proxy inventory and traffic stats
   name: frp Proxies API
   slug: frp-proxies-api
-- description: Server runtime information
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Server runtime information
   name: frp Server API
   slug: frp-server-api
-- description: Runtime status of proxies and visitors
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Runtime status of proxies and visitors
   name: frp Status API
   slug: frp-status-api
-- description: Persistent configuration store for proxies and visitors
+- baseURL: http://localhost:7500
+  baseurl_source: declared
+  description: Persistent configuration store for proxies and visitors
   name: frp Store API
   slug: frp-store-api
 artifact_total: 27
@@ -203,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/screenshots/frp-2026-06-20T181558.png
 security:

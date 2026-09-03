@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,52 +37,80 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 24
 apis:
-- description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
+- baseURL: https://localhost:8081/mec_service_mgmt/v1
+  baseurl_source: spec
+  description: The Mp1 reference point between MEC applications and the MEC platform, standardised in ETSI GS MEC 011. Covers MEC service registration, deregistration, discovery and event notification (MecServiceMgm
   name: ETSI MEC 011 Edge Platform Application Enablement API
   slug: mec-011-edge-platform-application-enablement
-- description: The Radio Network Information Service (RNIS) defined in ETSI GS MEC 012, exposing up-to-date radio network conditions, measurement reports, cell change and carrier aggregation information from the RAN
+- baseURL: https://localhost/rni/v2
+  baseurl_source: spec
+  description: The Radio Network Information Service (RNIS) defined in ETSI GS MEC 012, exposing up-to-date radio network conditions, measurement reports, cell change and carrier aggregation information from the RAN
   name: ETSI MEC 012 Radio Network Information API
   slug: mec-012-radio-network-information
-- description: The MEC Location Service defined in ETSI GS MEC 013, providing network-derived location of user equipment and of radio nodes, zone and access-point occupancy, distance calculation, area and periodic l
+- baseURL: https://localhost/location/v2
+  baseurl_source: spec
+  description: The MEC Location Service defined in ETSI GS MEC 013, providing network-derived location of user equipment and of radio nodes, zone and access-point occupancy, distance calculation, area and periodic l
   name: ETSI MEC 013 Location API
   slug: mec-013-location
-- description: The UE Identity API from ETSI GS MEC 014, which lets a MEC application register a UE identity tag with the MEC platform so that traffic filtering rules can be applied to a specific device.
+- baseURL: https://localhost:8081/ui/v1
+  baseurl_source: spec
+  description: The UE Identity API from ETSI GS MEC 014, which lets a MEC application register a UE identity tag with the MEC platform so that traffic filtering rules can be applied to a specific device.
   name: ETSI MEC 014 UE Identity API
   slug: mec-014-ue-identity
-- description: 'The two traffic-management APIs of ETSI GS MEC 015: Bandwidth Management, which lets applications register bandwidth requirements and priorities with the MEC platform, and Multi-access Traffic Steerin'
+- baseURL: https://localhost/bwm/v1
+  baseurl_source: spec
+  description: 'The two traffic-management APIs of ETSI GS MEC 015: Bandwidth Management, which lets applications register bandwidth requirements and priorities with the MEC platform, and Multi-access Traffic Steerin'
   name: ETSI MEC 015 Traffic Management APIs
   slug: mec-015-traffic-management
-- description: The Mx2 reference point from ETSI GS MEC 016, used by a device-side application to discover which MEC applications are available in the system and to request instantiation or termination of a user app
+- baseURL: https://localhost/dev_app/v1
+  baseurl_source: spec
+  description: The Mx2 reference point from ETSI GS MEC 016, used by a device-side application to discover which MEC applications are available in the system and to request instantiation or termination of a user app
   name: ETSI MEC 016 UE Application Interface API
   slug: mec-016-ue-application-interface
-- description: ETSI GS MEC 010-2 Part 2 application package management, application lifecycle management and application grant APIs, used by an operations support system to onboard, instantiate, operate and terminat
+- baseURL: https://localhost/app_pkgm/v1
+  baseurl_source: spec
+  description: ETSI GS MEC 010-2 Part 2 application package management, application lifecycle management and application grant APIs, used by an operations support system to onboard, instantiate, operate and terminat
   name: ETSI MEC 010-2 Application Package and Lifecycle Management APIs
   slug: mec-010-2-application-lifecycle-management
-- description: The Application Mobility Service defined in ETSI GS MEC 021, which coordinates the relocation of a running application instance and its user context between MEC hosts as a device moves across the netw
+- baseURL: https://localhost/amsi/v1
+  baseurl_source: spec
+  description: The Application Mobility Service defined in ETSI GS MEC 021, which coordinates the relocation of a running application instance and its user context between MEC hosts as a device moves across the netw
   name: ETSI MEC 021 Application Mobility Service API
   slug: mec-021-application-mobility
-- description: The WLAN Access Information Service from ETSI GS MEC 028, exposing access-point, station and measurement information from Wi-Fi networks to edge applications alongside the cellular information service
+- baseURL: https://localhost/wai/v2
+  baseurl_source: spec
+  description: The WLAN Access Information Service from ETSI GS MEC 028, exposing access-point, station and measurement information from Wi-Fi networks to edge applications alongside the cellular information service
   name: ETSI MEC 028 WLAN Information API
   slug: mec-028-wlan-information
-- description: The Fixed Access Information Service from ETSI GS MEC 029, extending MEC information exposure beyond mobile to fixed broadband access networks including PON and cable, so edge applications can read fi
+- baseURL: https://localhost/fai/v1
+  baseurl_source: spec
+  description: The Fixed Access Information Service from ETSI GS MEC 029, extending MEC information exposure beyond mobile to fixed broadband access networks including PON and cable, so edge applications can read fi
   name: ETSI MEC 029 Fixed Access Information API
   slug: mec-029-fixed-access-information
-- description: 'The V2X Information Service defined in ETSI GS MEC 030, providing predicted quality of service, provisioning information and multi-operator V2X message distribution for connected-vehicle applications '
+- baseURL: https://localhost/vis/v2
+  baseurl_source: spec
+  description: 'The V2X Information Service defined in ETSI GS MEC 030, providing predicted quality of service, provisioning information and multi-operator V2X message distribution for connected-vehicle applications '
   name: ETSI MEC 030 V2X Information Services API
   slug: mec-030-v2x-information-services
-- description: 'The IoT API from ETSI GS MEC 033, defining how IoT device registration, IoT platform selection and device-to-platform association are managed by a MEC system so that IoT traffic can be terminated and '
+- baseURL: https://localhost/amsi/v1
+  baseurl_source: spec
+  description: 'The IoT API from ETSI GS MEC 033, defining how IoT device registration, IoT platform selection and device-to-platform association are managed by a MEC system so that IoT traffic can be terminated and '
   name: ETSI MEC 033 IoT API
   slug: mec-033-iot
-- description: The MEC Federation enablement API from ETSI GS MEC 040, which lets edge systems operated by different providers discover one another, exchange availability zone and system information, and federate so
+- baseURL: https://localhost/fed_enablement/v1
+  baseurl_source: spec
+  description: The MEC Federation enablement API from ETSI GS MEC 040, which lets edge systems operated by different providers discover one another, exchange availability zone and system information, and federate so
   name: ETSI MEC 040 MEC Federation Enablement API
   slug: mec-040-federation-enablement
 - description: 'The RESTful protocols and data models of ETSI GS NFV-SOL 002 (Ve-Vnfm reference point, between a VNF and its VNF manager) and ETSI GS NFV-SOL 003 (Or-Vnfm reference point, between an NFV orchestrator '
   name: ETSI NFV SOL002 / SOL003 VNF Lifecycle, Fault, Performance and Package Management APIs
   slug: nfv-sol002-sol003
-- description: The RESTful protocols and data models of ETSI GS NFV-SOL 005 on the Os-Ma-nfvo reference point, between an OSS/BSS and an NFV orchestrator. Covers network service descriptor management, network servic
+- baseURL: http://127.0.0.1/
+  baseurl_source: spec
+  description: The RESTful protocols and data models of ETSI GS NFV-SOL 005 on the Os-Ma-nfvo reference point, between an OSS/BSS and an NFV orchestrator. Covers network service descriptor management, network servic
   name: ETSI NFV SOL005 Os-Ma-nfvo Network Service Management APIs
   slug: nfv-sol005
 - description: The RESTful protocols and data models of ETSI GS NFV-SOL 009 for managing the NFV management-and-orchestration functions themselves, covering NFV-MANO configuration and information management, fault m
@@ -81,19 +122,29 @@ apis:
 - description: The RESTful protocol and data model of ETSI GS NFV-SOL 012 for policy management across NFV management and orchestration, covering policy transfer, activation, deactivation, deletion and the associate
   name: ETSI NFV SOL012 Policy Management API
   slug: nfv-sol012
-- description: The NGSI-LD API standardised by ETSI ISG CIM in GS CIM 009, a JSON-LD context information management API for entities, attributes, relationships, subscriptions, temporal queries, entity types, context
+- baseURL_template: '{protocol}://{hostname}:{port}/ngsi-ld/v1'
+  baseurl_source: spec_template
+  description: The NGSI-LD API standardised by ETSI ISG CIM in GS CIM 009, a JSON-LD context information management API for entities, attributes, relationships, subscriptions, temporal queries, entity types, context
   name: ETSI NGSI-LD API (ISG CIM)
   slug: ngsi-ld
-- description: The ETSI Software Development Group implementation of the 3GPP Common API Framework, TS 29.222. Harvested here are the API Invoker Management, API Provider Management, Access Control Policy and Auditi
+- baseURL_template: '{apiRoot}/access-control-policy/v1'
+  baseurl_source: spec_template
+  description: The ETSI Software Development Group implementation of the 3GPP Common API Framework, TS 29.222. Harvested here are the API Invoker Management, API Provider Management, Access Control Policy and Auditi
   name: ETSI OpenCAPIF (3GPP CAPIF TS 29.222) APIs
   slug: opencapif
-- description: A CAMARA Quality on Demand (QoD) Provisioning API implementation shipped as an add-on to ETSI OpenSlice. It wraps a running TM Forum service inventory entry so an operator can expose an existing 5G co
+- baseURL_template: '{apiRoot}/qod-provisioning/v0.1'
+  baseurl_source: spec_template
+  description: A CAMARA Quality on Demand (QoD) Provisioning API implementation shipped as an add-on to ETSI OpenSlice. It wraps a running TM Forum service inventory entry so an operator can expose an existing 5G co
   name: ETSI OpenSlice CAMARA-as-a-Service QoD Provisioning API
   slug: openslice-camara-qod-provisioning
-- description: The Open Exposure Gateway of the ETSI Operator Platform SDG, implementing the Open Exposure Gateway role defined by the GSMA Operator Platform Group. It exposes northbound CAMARA APIs to application p
+- baseURL: http://vitrualserver:8080/oeg/1.0.0
+  baseurl_source: spec
+  description: The Open Exposure Gateway of the ETSI Operator Platform SDG, implementing the Open Exposure Gateway role defined by the GSMA Operator Platform Group. It exposes northbound CAMARA APIs to application p
   name: ETSI Operator Platform Open Exposure Gateway API
   slug: operator-platform-open-exposure-gateway
-- description: ETSI SDG OpenSlice is an open-source service-based OSS delivering Network as a Service, and it exposes its catalog, ordering and inventory surface as TM Forum Open APIs. The documentation lists more t
+- baseURL: https://portal.openslice.eu/tmf-api
+  baseurl_source: declared
+  description: ETSI SDG OpenSlice is an open-source service-based OSS delivering Network as a Service, and it exposes its catalog, ordering and inventory surface as TM Forum Open APIs. The documentation lists more t
   name: ETSI OpenSlice TM Forum Open APIs
   slug: openslice-tmforum-open-apis
 - description: 'A hosted, free interactive environment where developers exercise live ETSI MEC service APIs against emulated 4G, 5G and Wi-Fi network scenarios with moving user equipment. It serves MEC 011, MEC 012, '
@@ -367,7 +418,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -377,7 +428,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     conformance: derived
     contracts:
@@ -394,7 +445,7 @@ score:
     regime_id: telecommunications
     score: 81.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png
 security:

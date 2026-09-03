@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 1
 apis:
-- description: The Authentication API from Boost Insurance — 1 operation(s) for authentication.
+- baseURL: https://api.insurtech.dev
+  baseurl_source: declared
+  description: The Authentication API from Boost Insurance — 1 operation(s) for authentication.
   name: Boost Insurance Authentication API
   slug: boost-insurance-authentication-api
-- description: The Claims API from Boost Insurance — 1 operation(s) for claims.
+- baseURL: https://api.insurtech.dev
+  baseurl_source: declared
+  description: The Claims API from Boost Insurance — 1 operation(s) for claims.
   name: Boost Insurance Claims API
   slug: boost-insurance-claims-api
-- description: The Policies API from Boost Insurance — 1 operation(s) for policies.
+- baseURL: https://api.insurtech.dev
+  baseurl_source: declared
+  description: The Policies API from Boost Insurance — 1 operation(s) for policies.
   name: Boost Insurance Policies API
   slug: boost-insurance-policies-api
-- description: The Quotes API from Boost Insurance — 1 operation(s) for quotes.
+- baseURL: https://api.insurtech.dev
+  baseurl_source: declared
+  description: The Quotes API from Boost Insurance — 1 operation(s) for quotes.
   name: Boost Insurance Quotes API
   slug: boost-insurance-quotes-api
 artifact_total: 17
@@ -184,7 +192,7 @@ score:
     regime_id: insurance
     score: 43.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,25 +35,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The domain API from Cyble — 8 operation(s) for domain.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The domain API from Cyble — 8 operation(s) for domain.
   name: Cyble Domain API
   slug: cyble-domain-api
-- description: The ExposedBuckets API from Cyble — 3 operation(s) for exposedbuckets.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The ExposedBuckets API from Cyble — 3 operation(s) for exposedbuckets.
   name: Cyble Exposed Buckets API
   slug: cyble-exposedbuckets-api
-- description: The ExposedFiles API from Cyble — 3 operation(s) for exposedfiles.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The ExposedFiles API from Cyble — 3 operation(s) for exposedfiles.
   name: Cyble Exposed Files API
   slug: cyble-exposedfiles-api
-- description: The Fields API from Cyble — 3 operation(s) for fields.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The Fields API from Cyble — 3 operation(s) for fields.
   name: Cyble Fields API
   slug: cyble-fields-api
-- description: The Health API from Cyble — 1 operation(s) for health.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The Health API from Cyble — 1 operation(s) for health.
   name: Cyble Health API
   slug: cyble-health-api
-- description: The Hosts API from Cyble — 9 operation(s) for hosts.
+- baseURL: https://api.odin.io/
+  baseurl_source: declared
+  description: The Hosts API from Cyble — 9 operation(s) for hosts.
   name: Cyble Hosts API
   slug: cyble-hosts-api
 artifact_total: 13
@@ -248,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/screenshots/cyble-2026-08-17T080843.png
 security:

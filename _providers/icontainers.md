@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,19 +46,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 2
 apis:
-- description: Bookings
+- baseURL: https://brutus.icontainers.com
+  baseurl_source: declared
+  description: Bookings
   name: iContainers Bookings API
   slug: icontainers-bookings-api
-- description: Documents
+- baseURL: https://brutus.icontainers.com
+  baseurl_source: declared
+  description: Documents
   name: iContainers Documents API
   slug: icontainers-documents-api
-- description: Places
+- baseURL: https://brutus.icontainers.com
+  baseurl_source: declared
+  description: Places
   name: iContainers Places API
   slug: icontainers-places-api
-- description: Quotes
+- baseURL: https://brutus.icontainers.com
+  baseurl_source: declared
+  description: Quotes
   name: iContainers Quotes API
   slug: icontainers-quotes-api
-- description: Rates
+- baseURL: https://brutus.icontainers.com
+  baseurl_source: declared
+  description: Rates
   name: iContainers Rates API
   slug: icontainers-rates-api
 artifact_total: 10
@@ -183,7 +206,7 @@ score:
   band: developing
   composite: 42.0
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -209,8 +232,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/screenshots/icontainers-2026-09-02T145831.png
 security:
 - kind: authentication
   name: Icontainers Authentication

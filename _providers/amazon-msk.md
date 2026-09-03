@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 36 operations · 20 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The Clusters API from Amazon MSK — 18 operation(s) for clusters.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Clusters API from Amazon MSK — 18 operation(s) for clusters.
   name: Amazon MSK Clusters API
   slug: amazon-msk-clusters-api
-- description: The Compatible Kafka Versions API from Amazon MSK — 1 operation(s) for compatible kafka versions.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Compatible Kafka Versions API from Amazon MSK — 1 operation(s) for compatible kafka versions.
   name: Amazon MSK Compatible Kafka Versions API
   slug: amazon-msk-compatible-kafka-versions-api
-- description: The Configurations API from Amazon MSK — 4 operation(s) for configurations.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Configurations API from Amazon MSK — 4 operation(s) for configurations.
   name: Amazon MSK Configurations API
   slug: amazon-msk-configurations-api
-- description: The Kafka Versions API from Amazon MSK — 1 operation(s) for kafka versions.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Kafka Versions API from Amazon MSK — 1 operation(s) for kafka versions.
   name: Amazon MSK Kafka Versions API
   slug: amazon-msk-kafka-versions-api
-- description: The Operations API from Amazon MSK — 1 operation(s) for operations.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Operations API from Amazon MSK — 1 operation(s) for operations.
   name: Amazon MSK Operations API
   slug: amazon-msk-operations-api
-- description: The Tags API from Amazon MSK — 2 operation(s) for tags.
+- baseURL: http://kafka.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon MSK — 2 operation(s) for tags.
   name: Amazon MSK Tags API
   slug: amazon-msk-tags-api
 artifact_total: 446
@@ -1504,7 +1516,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/screenshots/amazon-msk-2026-06-20T171749.png
 security:

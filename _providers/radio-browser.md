@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 29 operations · 1 acting
 api_count: 1
 apis:
-- description: Aggregated counts of countries, languages, tags, codecs, and states.
+- baseURL: https://de1.api.radio-browser.info
+  baseurl_source: declared
+  description: Aggregated counts of countries, languages, tags, codecs, and states.
   name: Radio Browser Categories API
   slug: radio-browser-categories-api
-- description: Click counting, voting, and station submission.
+- baseURL: https://de1.api.radio-browser.info
+  baseurl_source: declared
+  description: Click counting, voting, and station submission.
   name: Radio Browser Interactions API
   slug: radio-browser-interactions-api
-- description: Server stats, mirror discovery, and configuration.
+- baseURL: https://de1.api.radio-browser.info
+  baseurl_source: declared
+  description: Server stats, mirror discovery, and configuration.
   name: Radio Browser Service API
   slug: radio-browser-service-api
-- description: Browse, search, and list radio stations.
+- baseURL: https://de1.api.radio-browser.info
+  baseurl_source: declared
+  description: Browse, search, and list radio stations.
   name: Radio Browser Stations API
   slug: radio-browser-stations-api
 artifact_total: 45
@@ -316,7 +324,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 25 operations · 9 acting
 api_count: 1
 apis:
-- description: Dataset operations
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Dataset operations
   name: Dryad datasets API
   slug: dryad-datasets-api
-- description: Operations on individual files of a dataset
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Operations on individual files of a dataset
   name: Dryad files API
   slug: dryad-files-api
-- description: Internal APIs not of general interest to the public
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Internal APIs not of general interest to the public
   name: Dryad internal API
   slug: dryad-internal-api
-- description: Reports on content in Dryad
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Reports on content in Dryad
   name: Dryad reports API
   slug: dryad-reports-api
-- description: Root-level API calls
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Root-level API calls
   name: Dryad root API
   slug: dryad-root-api
-- description: Searching datasets
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Searching datasets
   name: Dryad search API
   slug: dryad-search-api
-- description: Operations on individual versions of a dataset
+- baseURL: https://datadryad.org/api/v2
+  baseurl_source: declared
+  description: Operations on individual versions of a dataset
   name: Dryad versions API
   slug: dryad-versions-api
 artifact_total: 74
@@ -382,7 +396,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/screenshots/dryad-2026-06-20T180256.png
 security:

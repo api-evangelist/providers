@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 108 operations · 63 acting
 api_count: 1
 apis:
-- description: Detect anomalies in datasets using Isolation Forest
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Detect anomalies in datasets using Isolation Forest
   name: BigML Anomaly Detection API
   slug: bigml-anomaly-detection-api
-- description: Run predictions, centroid assignments, and anomaly scoring on full datasets
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Run predictions, centroid assignments, and anomaly scoring on full datasets
   name: BigML Batch Operations API
   slug: bigml-batch-operations-api
-- description: Create unsupervised cluster models and assign centroids
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Create unsupervised cluster models and assign centroids
   name: BigML Clustering API
   slug: bigml-clustering-api
-- description: Connect to external databases and data sources
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Connect to external databases and data sources
   name: BigML Data Connectors API
   slug: bigml-data-connectors-api
-- description: Create and manage training datasets from sources
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Create and manage training datasets from sources
   name: BigML Datasets API
   slug: bigml-datasets-api
-- description: Train and manage ensemble models (random forests, gradient boosted trees)
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Train and manage ensemble models (random forests, gradient boosted trees)
   name: BigML Ensembles API
   slug: bigml-ensembles-api
-- description: Evaluate model performance against a test dataset
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Evaluate model performance against a test dataset
   name: BigML Evaluations API
   slug: bigml-evaluations-api
-- description: Train and manage decision tree models
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Train and manage decision tree models
   name: BigML Models API
   slug: bigml-models-api
-- description: Generate individual predictions from trained models
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Generate individual predictions from trained models
   name: BigML Predictions API
   slug: bigml-predictions-api
-- description: Organize resources into projects
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Organize resources into projects
   name: BigML Projects API
   slug: bigml-projects-api
-- description: Upload and manage raw data sources (CSV, JSON, Excel, etc.)
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Upload and manage raw data sources (CSV, JSON, Excel, etc.)
   name: BigML Sources API
   slug: bigml-sources-api
-- description: Logistic regression, linear regression, and deep neural network models
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Logistic regression, linear regression, and deep neural network models
   name: BigML Supervised Learning API
   slug: bigml-supervised-learning-api
-- description: Time series forecasting models and forecasts
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Time series forecasting models and forecasts
   name: BigML Time Series API
   slug: bigml-time-series-api
-- description: Topic models, association rules, and PCA
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Topic models, association rules, and PCA
   name: BigML Unsupervised Learning API
   slug: bigml-unsupervised-learning-api
-- description: Automate ML workflows with WhizzML scripts and executions
+- baseURL: https://bigml.io
+  baseurl_source: declared
+  description: Automate ML workflows with WhizzML scripts and executions
   name: BigML WhizzML Scripting API
   slug: bigml-whizzml-scripting-api
 artifact_total: 46
@@ -290,7 +320,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/screenshots/bigml-2026-06-20T173236.png
 security:

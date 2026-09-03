@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: 'RESTful endpoints implementing the FDX Consent API Behavioral Specification for managing user permissions and consent events. Enables data recipients to initiate consent, query active consent grants, '
   name: FDX Consent API
   slug: fdx-consent-api
-- description: Search and view customer accounts
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and view customer accounts
   name: Financial Data Exchange (FDX) Account Information API
   slug: fdx-account-information-api
-- description: Search and retrieve account statements
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and retrieve account statements
   name: Financial Data Exchange (FDX) Account Statements API
   slug: fdx-account-statements-api
-- description: Search and view account transactions
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and view account transactions
   name: Financial Data Exchange (FDX) Account Transactions API
   slug: fdx-account-transactions-api
-- description: Search and view asset transfer networks networks
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and view asset transfer networks networks
   name: Financial Data Exchange (FDX) Asset Transfer Networks Information API
   slug: fdx-asset-transfer-networks-information-api
-- description: Search and view account payment networks
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and view account payment networks
   name: Financial Data Exchange (FDX) Payment Networks Information API
   slug: fdx-payment-networks-information-api
-- description: Search and view customer or customers
+- baseURL: https://api.financialdataexchange.org
+  baseurl_source: declared
+  description: Search and view customer or customers
   name: Financial Data Exchange (FDX) Personal Information API
   slug: fdx-personal-information-api
 artifact_total: 112
@@ -532,7 +544,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png
 security:

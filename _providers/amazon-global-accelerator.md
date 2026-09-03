@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -44,151 +44,249 @@ agentic_access:
   summary_line: 49 operations · 49 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.addcustomroutingendpoints.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.addcustomroutingendpoints.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddCustomRoutingEndpoints API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-addcustomroutingendpoints-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.AddEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.addendpoints.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.AddEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.addendpoints.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AddEndpoints API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-addendpoints-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.AdvertiseByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.advertisebyoipcidr.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.AdvertiseByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.advertisebyoipcidr.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AdvertiseByoipCidr API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-advertisebyoipcidr-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.AllowCustomRoutingTraffic API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.allowcustomroutingtraffic.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.AllowCustomRoutingTraffic API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.allowcustomroutingtraffic.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.AllowCustomRoutingTraffic API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-allowcustomroutingtraffic-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createaccelerator.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createaccelerator.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutingaccele'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutingaccele'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutingaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutingendp'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutingendp'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutingendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutinglistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createcustomroutinglistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateCustomRoutingListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createcustomroutinglistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createendpointgroup.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createendpointgroup.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createlistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.CreateListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.createlistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.CreateListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-createlistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deleteaccelerator.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deleteaccelerator.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deleteaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutingaccele'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutingaccele'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutingaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutingendp'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutingendp'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutingendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutinglistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletecustomroutinglistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteCustomRoutingListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletecustomroutinglistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deleteendpointgroup.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deleteendpointgroup.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deleteendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletelistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeleteListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deletelistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeleteListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deletelistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DenyCustomRoutingTraffic API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.denycustomroutingtraffic.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DenyCustomRoutingTraffic API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.denycustomroutingtraffic.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DenyCustomRoutingTraffic API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-denycustomroutingtraffic-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DeprovisionByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deprovisionbyoipcidr.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DeprovisionByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.deprovisionbyoipcidr.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DeprovisionByoipCidr API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-deprovisionbyoipcidr-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeaccelerator.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeaccelerator.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeacceleratorattribu'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeacceleratorattribu'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeAcceleratorAttributes API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeacceleratorattributes-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomroutingac'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomroutingac'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecusto'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecusto'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingAcceleratorAttributes API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingacceleratorattributes-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomrouting'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomrouting'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutingendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomroutingliste'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describecustomroutingliste'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeCustomRoutingListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describecustomroutinglistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeendpointgroup.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describeendpointgroup.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describeendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describelistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.DescribeListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.describelistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.DescribeListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-describelistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListAccelerators API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listaccelerators.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListAccelerators API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listaccelerators.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListAccelerators API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listaccelerators-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListByoipCidrs API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listbyoipcidrs.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListByoipCidrs API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listbyoipcidrs.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListByoipCidrs API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listbyoipcidrs-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingAccelerators API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingaccelerat'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingAccelerators API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingaccelerat'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingAccelerators API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingaccelerators-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingEndpointGroups API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingendpoin'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingEndpointGroups API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingendpoin'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingEndpointGroups API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingendpointgroups-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingListeners API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutinglisteners.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingListeners API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutinglisteners.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingListeners API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutinglisteners-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappings API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingportmappi'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappings API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomroutingportmappi'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappings API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingportmappings-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappingsByDestination API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomrou'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappingsByDestination API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listcustomrou'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListCustomRoutingPortMappingsByDestination API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listcustomroutingportmappingsbydestination-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListEndpointGroups API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listendpointgroups.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListEndpointGroups API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listendpointgroups.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListEndpointGroups API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listendpointgroups-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListListeners API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listlisteners.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListListeners API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listlisteners.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListListeners API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listlisteners-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ListTagsForResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listtagsforresource.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ListTagsForResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.listtagsforresource.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ListTagsForResource API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-listtagsforresource-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.ProvisionByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.provisionbyoipcidr.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.ProvisionByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.provisionbyoipcidr.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.ProvisionByoipCidr API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-provisionbyoipcidr-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.RemoveCustomRoutingEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.removecustomroutingendpoint'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.RemoveCustomRoutingEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.removecustomroutingendpoint'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.RemoveCustomRoutingEndpoints API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-removecustomroutingendpoints-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.RemoveEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.removeendpoints.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.RemoveEndpoints API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.removeendpoints.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.RemoveEndpoints API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-removeendpoints-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.TagResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.tagresource.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.TagResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.tagresource.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.TagResource API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-tagresource-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UntagResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.untagresource.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UntagResource API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.untagresource.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UntagResource API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-untagresource-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateaccelerator.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateaccelerator.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateacceleratorattributes.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateacceleratorattributes.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateAcceleratorAttributes API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateacceleratorattributes-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomroutingaccele'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAccelerator API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomroutingaccele'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAccelerator API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutingaccelerator-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomrou'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAcceleratorAttributes API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomrou'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingAcceleratorAttributes API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutingacceleratorattributes-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomroutinglistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatecustomroutinglistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateCustomRoutingListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatecustomroutinglistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateendpointgroup.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateEndpointGroup API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updateendpointgroup.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateEndpointGroup API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updateendpointgroup-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatelistener.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.UpdateListener API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.updatelistener.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.UpdateListener API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-updatelistener-api
-- description: 'The #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.withdrawbyoipcidr.'
+- baseURL: https://globalaccelerator.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API from Amazon Global Accelerator — 1 operation(s) for #x amz target=globalaccelerator v20180706.withdrawbyoipcidr.'
   name: 'Amazon Global Accelerator #X Amz Target=GlobalAccelerator V20180706.WithdrawByoipCidr API'
   slug: amazon-global-accelerator-x-amz-target-globalaccelerator-v20180706-withdrawbyoipcidr-api
 artifact_total: 671
@@ -2174,7 +2272,7 @@ score:
       marker_coverage: 0.0
       total: 49
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/screenshots/amazon-global-accelerator-2026-06-20T171653.png
 security:

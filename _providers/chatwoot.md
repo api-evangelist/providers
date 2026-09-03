@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -50,118 +50,194 @@ apis:
 - description: The Platform API is used to manage Chatwoot installations at the super admin level, including managing accounts, users, and installation-wide settings. Requires Platform App access tokens from the Sup
   name: Chatwoot Platform API
   slug: platform-api
-- description: Account-specific Agent Bots
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Account-specific Agent Bots
   name: Chatwoot Account AgentBots API
   slug: chatwoot-account-agentbots-api
-- description: The Account API from Chatwoot — 1 operation(s) for account.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: The Account API from Chatwoot — 1 operation(s) for account.
   name: Chatwoot Account API
   slug: chatwoot-account-api
-- description: Account user management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Account user management APIs
   name: Chatwoot Account Users API
   slug: chatwoot-account-users-api
-- description: Account management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Account management APIs
   name: Chatwoot Accounts API
   slug: chatwoot-accounts-api
-- description: Bot integrations
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Bot integrations
   name: Chatwoot AgentBots API
   slug: chatwoot-agentbots-api
-- description: Agent management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Agent management APIs
   name: Chatwoot Agents API
   slug: chatwoot-agents-api
-- description: The Audit Logs API from Chatwoot — 1 operation(s) for audit logs.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: The Audit Logs API from Chatwoot — 1 operation(s) for audit logs.
   name: Chatwoot Audit Logs API
   slug: chatwoot-audit-logs-api
-- description: Workflow automation rules
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Workflow automation rules
   name: Chatwoot Automation Rule API
   slug: chatwoot-automation-rule-api
-- description: Pre-defined responses for common queries
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Pre-defined responses for common queries
   name: Chatwoot Canned Responses API
   slug: chatwoot-canned-responses-api
-- description: Manage contact labels
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Manage contact labels
   name: Chatwoot Contact Labels API
   slug: chatwoot-contact-labels-api
-- description: Public contact APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Public contact APIs
   name: Chatwoot Contacts API API
   slug: chatwoot-contacts-api-api
-- description: Contact management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Contact management APIs
   name: Chatwoot Contacts API
   slug: chatwoot-contacts-api
-- description: The Conversation API from Chatwoot — 1 operation(s) for conversation.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: The Conversation API from Chatwoot — 1 operation(s) for conversation.
   name: Chatwoot Conversation API
   slug: chatwoot-conversation-api
-- description: Manage conversation assignments
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Manage conversation assignments
   name: Chatwoot Conversation Assignments API
   slug: chatwoot-conversation-assignments-api
-- description: Public conversation APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Public conversation APIs
   name: Chatwoot Conversations API API
   slug: chatwoot-conversations-api-api
-- description: Conversation management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Conversation management APIs
   name: Chatwoot Conversations API
   slug: chatwoot-conversations-api
-- description: Customer satisfaction survey
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Customer satisfaction survey
   name: Chatwoot CSAT Survey Page API
   slug: chatwoot-csat-survey-page-api
-- description: Custom fields for contacts and conversations
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Custom fields for contacts and conversations
   name: Chatwoot Custom Attributes API
   slug: chatwoot-custom-attributes-api
-- description: Saved filters for conversations
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Saved filters for conversations
   name: Chatwoot Custom Filters API
   slug: chatwoot-custom-filters-api
-- description: Knowledge base management
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Knowledge base management
   name: Chatwoot Help Center API
   slug: chatwoot-help-center-api
-- description: The Inbox API API from Chatwoot — 1 operation(s) for inbox api.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: The Inbox API API from Chatwoot — 1 operation(s) for inbox api.
   name: Chatwoot Inbox API API
   slug: chatwoot-inbox-api-api
-- description: Communication channels setup
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Communication channels setup
   name: Chatwoot Inboxes API
   slug: chatwoot-inboxes-api
-- description: Third-party integrations
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Third-party integrations
   name: Chatwoot Integrations API
   slug: chatwoot-integrations-api
-- description: Account label management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Account label management APIs
   name: Chatwoot Labels API
   slug: chatwoot-labels-api
-- description: Public message APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Public message APIs
   name: Chatwoot Messages API API
   slug: chatwoot-messages-api-api
-- description: Message management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Message management APIs
   name: Chatwoot Messages API
   slug: chatwoot-messages-api
-- description: User profile APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: User profile APIs
   name: Chatwoot Profile API
   slug: chatwoot-profile-api
-- description: Analytics and reporting APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Analytics and reporting APIs
   name: Chatwoot Reports API
   slug: chatwoot-reports-api
-- description: Team management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Team management APIs
   name: Chatwoot Teams API
   slug: chatwoot-teams-api
-- description: User management APIs
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: User management APIs
   name: Chatwoot Users API
   slug: chatwoot-users-api
-- description: Event notification webhooks
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Event notification webhooks
   name: Chatwoot Webhooks API
   slug: chatwoot-webhooks-api
-- description: Application API - manage automation rules.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Application API - manage automation rules.
   name: Chatwoot Automation Rules API
   slug: chatwoot-automation-rules-api
-- description: Client API - end-user contact management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Client API - end-user contact management.
   name: Chatwoot Client Contacts API
   slug: chatwoot-client-contacts-api
-- description: Client API - end-user conversation management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Client API - end-user conversation management.
   name: Chatwoot Client Conversations API
   slug: chatwoot-client-conversations-api
-- description: Client API - end-user message management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Client API - end-user message management.
   name: Chatwoot Client Messages API
   slug: chatwoot-client-messages-api
-- description: Platform API - super-admin account management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Platform API - super-admin account management.
   name: Chatwoot Platform Accounts API
   slug: chatwoot-platform-accounts-api
-- description: Platform API - super-admin agent bot management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Platform API - super-admin agent bot management.
   name: Chatwoot Platform Agent Bots API
   slug: chatwoot-platform-agent-bots-api
-- description: Platform API - super-admin user management.
+- baseURL: https://app.chatwoot.com
+  baseurl_source: declared
+  description: Platform API - super-admin user management.
   name: Chatwoot Platform Users API
   slug: chatwoot-platform-users-api
 artifact_total: 110
@@ -491,7 +567,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-07-25T205121.png
 security:

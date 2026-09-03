@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: 'Read-only Model Context Protocol server served over HTTP at the Pixeltable apex host. Protocol version 2025-06-18, JSON-RPC 2.0 (initialize, tools/list, tools/call). Exposes two tools: search_docs, wh'
@@ -219,7 +233,7 @@ score:
   band: developing
   composite: 51.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -239,8 +253,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pixeltable/refs/heads/main/screenshots/pixeltable-2026-09-02T151335.png
 security:
 - kind: authentication
   name: Pixeltable Authentication

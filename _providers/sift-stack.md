@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The gRPC contract that is Sift's primary API — 51 services and 330 RPCs defined across 66 proto3 files published under MIT in the sift-stack/sift monorepo, including the bidirectional streaming ingest
@@ -32,139 +44,229 @@ apis:
 - description: Two Model Context Protocol servers. A public, anonymous remote server at https://docs.siftstack.com/mcp exposing search and a virtualized read-only docs filesystem, advertised at /.well-known/mcp.json
   name: Sift MCP Server
   slug: sift-mcp-server
-- description: Service to programmatically interact with [annotation logs](/glossary#annotation).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [annotation logs](/glossary#annotation).
   name: Sift Stack Annotation Log Service API
   slug: sift-stack-annotationlogservice-api
-- description: Service to programmatically interact with annotations.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with annotations.
   name: Sift Stack Annotation Service API
   slug: sift-stack-annotationservice-api
-- description: The ApiKeyService API from Sift Stack — 3 operation(s) for apikeyservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The ApiKeyService API from Sift Stack — 3 operation(s) for apikeyservice.
   name: Sift Stack API Key Service API
   slug: sift-stack-apikeyservice-api
-- description: Service to programmatically interact with [assets](/glossary#asset).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [assets](/glossary#asset).
   name: Sift Stack Asset Service API
   slug: sift-stack-assetservice-api
-- description: The AutomationService API from Sift Stack — 3 operation(s) for automationservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The AutomationService API from Sift Stack — 3 operation(s) for automationservice.
   name: Sift Stack Automation Service API
   slug: sift-stack-automationservice-api
-- description: The CalculatedChannelService API from Sift Stack — 10 operation(s) for calculatedchannelservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The CalculatedChannelService API from Sift Stack — 10 operation(s) for calculatedchannelservice.
   name: Sift Stack Calculated Channel Service API
   slug: sift-stack-calculatedchannelservice-api
-- description: Service to programmatically interact with calculated channels.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with calculated channels.
   name: Sift Stack Calculated Channels Service API
   slug: sift-stack-calculatedchannelsservice-api
-- description: The CampaignService API from Sift Stack — 5 operation(s) for campaignservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The CampaignService API from Sift Stack — 5 operation(s) for campaignservice.
   name: Sift Stack Campaign Service API
   slug: sift-stack-campaignservice-api
-- description: Service to programmatically interact with channel schemas
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with channel schemas
   name: Sift Stack Channel Schema Service API
   slug: sift-stack-channelschemaservice-api
-- description: Service to programmatically interact with [channels](/glossary#channel).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [channels](/glossary#channel).
   name: Sift Stack Channel Service API
   slug: sift-stack-channelservice-api
-- description: Service to programmatically interact with comments attached to resources in the platform.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with comments attached to resources in the platform.
   name: Sift Stack Comment Service API
   slug: sift-stack-commentservice-api
-- description: The DataImportService API from Sift Stack — 6 operation(s) for dataimportservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The DataImportService API from Sift Stack — 6 operation(s) for dataimportservice.
   name: Sift Stack Data Import Service API
   slug: sift-stack-dataimportservice-api
-- description: Service to query data
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to query data
   name: Sift Stack Data Service API
   slug: sift-stack-dataservice-api
-- description: The DlqErrorsService API from Sift Stack — 1 operation(s) for dlqerrorsservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The DlqErrorsService API from Sift Stack — 1 operation(s) for dlqerrorsservice.
   name: Sift Stack Dlq Errors Service API
   slug: sift-stack-dlqerrorsservice-api
-- description: The DocsService API from Sift Stack — 2 operation(s) for docsservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The DocsService API from Sift Stack — 2 operation(s) for docsservice.
   name: Sift Stack Docs Service API
   slug: sift-stack-docsservice-api
-- description: The ExportService API from Sift Stack — 2 operation(s) for exportservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The ExportService API from Sift Stack — 2 operation(s) for exportservice.
   name: Sift Stack Export Service API
   slug: sift-stack-exportservice-api
-- description: The ExternalSyncService API from Sift Stack — 6 operation(s) for externalsyncservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The ExternalSyncService API from Sift Stack — 6 operation(s) for externalsyncservice.
   name: Sift Stack External Sync Service API
   slug: sift-stack-externalsyncservice-api
-- description: Service to programmatically interact with family configurations.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with family configurations.
   name: Sift Stack Family Service API
   slug: sift-stack-familyservice-api
-- description: Service to programmatically interact with [ingestion configs](/glossary#ingestion-config).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [ingestion configs](/glossary#ingestion-config).
   name: Sift Stack Ingestion Config Service API
   slug: sift-stack-ingestionconfigservice-api
-- description: The JobService API from Sift Stack — 3 operation(s) for jobservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The JobService API from Sift Stack — 3 operation(s) for jobservice.
   name: Sift Stack Job Service API
   slug: sift-stack-jobservice-api
-- description: The MeService API from Sift Stack — 1 operation(s) for meservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The MeService API from Sift Stack — 1 operation(s) for meservice.
   name: Sift Stack Me Service API
   slug: sift-stack-meservice-api
-- description: The MetadataService API from Sift Stack — 9 operation(s) for metadataservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The MetadataService API from Sift Stack — 9 operation(s) for metadataservice.
   name: Sift Stack Metadata Service API
   slug: sift-stack-metadataservice-api
-- description: Service to programmatically interact with in-app notifications.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with in-app notifications.
   name: Sift Stack Notification Service API
   slug: sift-stack-notificationservice-api
-- description: Service to programmatically interact with panel configurations.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with panel configurations.
   name: Sift Stack Panel Configuration Service API
   slug: sift-stack-panelconfigurationservice-api
-- description: The PingService API from Sift Stack — 1 operation(s) for pingservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The PingService API from Sift Stack — 1 operation(s) for pingservice.
   name: Sift Stack Ping Service API
   slug: sift-stack-pingservice-api
-- description: Service to manage ABAC policies.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to manage ABAC policies.
   name: Sift Stack Policy Service API
   slug: sift-stack-policyservice-api
-- description: Service to manage ABAC principal attributes.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to manage ABAC principal attributes.
   name: Sift Stack Principal Attribute Service API
   slug: sift-stack-principalattributeservice-api
-- description: Service to programmatically interact with protobuf descriptors used for protobuf ingestion.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with protobuf descriptors used for protobuf ingestion.
   name: Sift Stack Protobuf Descriptor Service API
   slug: sift-stack-protobufdescriptorservice-api
-- description: The RemoteFileService API from Sift Stack — 4 operation(s) for remotefileservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The RemoteFileService API from Sift Stack — 4 operation(s) for remotefileservice.
   name: Sift Stack Remote File Service API
   slug: sift-stack-remotefileservice-api
-- description: The ReportService API from Sift Stack — 7 operation(s) for reportservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The ReportService API from Sift Stack — 7 operation(s) for reportservice.
   name: Sift Stack Report Service API
   slug: sift-stack-reportservice-api
-- description: The ReportTemplateService API from Sift Stack — 3 operation(s) for reporttemplateservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The ReportTemplateService API from Sift Stack — 3 operation(s) for reporttemplateservice.
   name: Sift Stack Report Template Service API
   slug: sift-stack-reporttemplateservice-api
-- description: Service to manage ABAC resource attributes (entity attributes).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to manage ABAC resource attributes (entity attributes).
   name: Sift Stack Resource Attribute Service API
   slug: sift-stack-resourceattributeservice-api
-- description: The RoleService API from Sift Stack — 1 operation(s) for roleservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The RoleService API from Sift Stack — 1 operation(s) for roleservice.
   name: Sift Stack Role Service API
   slug: sift-stack-roleservice-api
-- description: Service to evaluate rules.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to evaluate rules.
   name: Sift Stack Rule Evaluation Service API
   slug: sift-stack-ruleevaluationservice-api
-- description: Service to programmatically interact with rules.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with rules.
   name: Sift Stack Rule Service API
   slug: sift-stack-ruleservice-api
-- description: Service to programmatically interact with [runs](/glossary#run).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [runs](/glossary#run).
   name: Sift Stack Run Service API
   slug: sift-stack-runservice-api
-- description: The SavedSearchService API from Sift Stack — 3 operation(s) for savedsearchservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The SavedSearchService API from Sift Stack — 3 operation(s) for savedsearchservice.
   name: Sift Stack Saved Search Service API
   slug: sift-stack-savedsearchservice-api
-- description: Service to programmatically interact with [tags](/glossary#tag).
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with [tags](/glossary#tag).
   name: Sift Stack Tag Service API
   slug: sift-stack-tagservice-api
-- description: Service to manage test reports
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to manage test reports
   name: Sift Stack Test Report Service API
   slug: sift-stack-testreportservice-api
-- description: The UnitService API from Sift Stack — 1 operation(s) for unitservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The UnitService API from Sift Stack — 1 operation(s) for unitservice.
   name: Sift Stack Unit Service API
   slug: sift-stack-unitservice-api
-- description: The UserDefinedFunctionService API from Sift Stack — 8 operation(s) for userdefinedfunctionservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The UserDefinedFunctionService API from Sift Stack — 8 operation(s) for userdefinedfunctionservice.
   name: Sift Stack User Defined Function Service API
   slug: sift-stack-userdefinedfunctionservice-api
-- description: The UserGroupService API from Sift Stack — 7 operation(s) for usergroupservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The UserGroupService API from Sift Stack — 7 operation(s) for usergroupservice.
   name: Sift Stack User Group Service API
   slug: sift-stack-usergroupservice-api
-- description: Service to programmatically interact with user objects.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with user objects.
   name: Sift Stack User Service API
   slug: sift-stack-userservice-api
-- description: Service to programmatically interact with views.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: Service to programmatically interact with views.
   name: Sift Stack View Service API
   slug: sift-stack-viewservice-api
-- description: The WebhookService API from Sift Stack — 6 operation(s) for webhookservice.
+- baseURL: https://api.siftstack.com
+  baseurl_source: declared
+  description: The WebhookService API from Sift Stack — 6 operation(s) for webhookservice.
   name: Sift Stack Webhook Service API
   slug: sift-stack-webhookservice-api
 artifact_total: 55
@@ -340,23 +442,23 @@ rate_limits:
   slug: sift-stack-rate-limits
 score:
   band: strong
-  composite: 57.0
+  composite: 59.1
   coverage:
-    artifact_dirs: 23
-    catalog_gap: 91.0
+    artifact_dirs: 24
+    catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.7
+  delta: 2.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 59.2
+    contract_quality: 60.3
     developer_ergonomics: 73.8
-    discoverability: 51.9
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 55.3
+  previous_composite: 57.0
   provenance:
     conformance: first-party
     contracts:
@@ -373,8 +475,9 @@ score:
     regime_id: energy_utilities
     score: 55.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sift-stack/refs/heads/main/screenshots/sift-stack-2026-09-02T155415.png
 security:
 - kind: authentication
   name: Sift Stack Authentication

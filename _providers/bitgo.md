@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: The Addresses API from BitGo — 1 operation(s) for addresses.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Addresses API from BitGo — 1 operation(s) for addresses.
   name: BitGo Addresses API
   slug: bitgo-addresses-api
-- description: The Enterprise API from BitGo — 1 operation(s) for enterprise.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Enterprise API from BitGo — 1 operation(s) for enterprise.
   name: BitGo Enterprise API
   slug: bitgo-enterprise-api
-- description: The Keychains API from BitGo — 1 operation(s) for keychains.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Keychains API from BitGo — 1 operation(s) for keychains.
   name: BitGo Keychains API
   slug: bitgo-keychains-api
-- description: The Policies API from BitGo — 1 operation(s) for policies.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Policies API from BitGo — 1 operation(s) for policies.
   name: BitGo Policies API
   slug: bitgo-policies-api
-- description: The Staking API from BitGo — 1 operation(s) for staking.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Staking API from BitGo — 1 operation(s) for staking.
   name: BitGo Staking API
   slug: bitgo-staking-api
-- description: The Trading API from BitGo — 1 operation(s) for trading.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Trading API from BitGo — 1 operation(s) for trading.
   name: BitGo Trading API
   slug: bitgo-trading-api
-- description: The Transactions API from BitGo — 2 operation(s) for transactions.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Transactions API from BitGo — 2 operation(s) for transactions.
   name: BitGo Transactions API
   slug: bitgo-transactions-api
-- description: The Transfers API from BitGo — 2 operation(s) for transfers.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Transfers API from BitGo — 2 operation(s) for transfers.
   name: BitGo Transfers API
   slug: bitgo-transfers-api
-- description: The User API from BitGo — 1 operation(s) for user.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The User API from BitGo — 1 operation(s) for user.
   name: BitGo User API
   slug: bitgo-user-api
-- description: The Wallets API from BitGo — 2 operation(s) for wallets.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Wallets API from BitGo — 2 operation(s) for wallets.
   name: BitGo Wallets API
   slug: bitgo-wallets-api
-- description: The Webhooks API from BitGo — 1 operation(s) for webhooks.
+- baseURL: https://app.bitgo.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from BitGo — 1 operation(s) for webhooks.
   name: BitGo Webhooks API
   slug: bitgo-webhooks-api
 artifact_total: 31
@@ -225,7 +247,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitgo/refs/heads/main/screenshots/bitgo-2026-07-25T203154.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The StoneX Developer Storefront provides access to all StoneX API products with subscription keys, documentation, and developer resources for integrating with StoneX financial services.
   name: StoneX Developer Portal
   slug: stonex-developer-portal
-- description: Account information and management.
+- baseURL: https://api.clearing.stonex.com
+  baseurl_source: spec
+  description: Account information and management.
   name: StoneX Accounts API
   slug: stonex-accounts-api
-- description: OAuth 2.0 token management.
+- baseURL: https://api.clearing.stonex.com
+  baseurl_source: spec
+  description: OAuth 2.0 token management.
   name: StoneX Authentication API
   slug: stonex-authentication-api
-- description: Document retrieval and management.
+- baseURL: https://api.clearing.stonex.com
+  baseurl_source: spec
+  description: Document retrieval and management.
   name: StoneX Documents API
   slug: stonex-documents-api
-- description: Foreign exchange rate queries.
+- baseURL: https://fx-api.payments.stonex.com
+  baseurl_source: spec
+  description: Foreign exchange rate queries.
   name: StoneX FX Rates API
   slug: stonex-fx-rates-api
-- description: Payment execution and management.
+- baseURL: https://fx-api.payments.stonex.com
+  baseurl_source: spec
+  description: Payment execution and management.
   name: StoneX Payments API
   slug: stonex-payments-api
-- description: Trade submission and management.
+- baseURL: https://api.clearing.stonex.com
+  baseurl_source: spec
+  description: Trade submission and management.
   name: StoneX Trading API
   slug: stonex-trading-api
 artifact_total: 31
@@ -245,7 +257,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/screenshots/stonex-2026-06-20T194558.png
 security:

@@ -33,34 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The accounts API from Laka — 6 operation(s) for accounts.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The accounts API from Laka — 6 operation(s) for accounts.
   name: Laka accounts API
   slug: laka-accounts-api
-- description: Claims API
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: Claims API
   name: Laka claims API
   slug: laka-claims-api
-- description: The deeplinks API from Laka — 1 operation(s) for deeplinks.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The deeplinks API from Laka — 1 operation(s) for deeplinks.
   name: Laka deeplinks API
   slug: laka-deeplinks-api
-- description: The fleets API from Laka — 1 operation(s) for fleets.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The fleets API from Laka — 1 operation(s) for fleets.
   name: Laka fleets API
   slug: laka-fleets-api
-- description: The policies API from Laka — 14 operation(s) for policies.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The policies API from Laka — 14 operation(s) for policies.
   name: Laka policies API
   slug: laka-policies-api
-- description: The quote service gets quotes.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The quote service gets quotes.
   name: Laka quote API
   slug: laka-quote-api
-- description: The quotes API from Laka — 1 operation(s) for quotes.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The quotes API from Laka — 1 operation(s) for quotes.
   name: Laka quotes API
   slug: laka-quotes-api
-- description: The reporting API from Laka — 3 operation(s) for reporting.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The reporting API from Laka — 3 operation(s) for reporting.
   name: Laka reporting API
   slug: laka-reporting-api
-- description: The tasks API from Laka — 1 operation(s) for tasks.
+- baseURL: https://api-gb.app.laka.co
+  baseurl_source: declared
+  description: The tasks API from Laka — 1 operation(s) for tasks.
   name: Laka tasks API
   slug: laka-tasks-api
 artifact_total: 22
@@ -257,7 +275,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laka/refs/heads/main/screenshots/laka-2026-07-25T224431.png
 security:

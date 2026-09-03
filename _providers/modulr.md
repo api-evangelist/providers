@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -33,82 +46,134 @@ agentic_access:
   summary_line: 207 operations · 136 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations on Access Group
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Access Group
   name: Modulr Access Group API
   slug: modulr-access-group-api
-- description: Operations on Accounts
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Accounts
   name: Modulr Accounts API
   slug: modulr-accounts-api
-- description: Asynchronous card task operations
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Asynchronous card task operations
   name: Modulr Async API
   slug: modulr-async-api
-- description: Operations on Beneficiaries
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Beneficiaries
   name: Modulr Beneficiaries API
   slug: modulr-beneficiaries-api
-- description: Cards Simulator API
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Cards Simulator API
   name: Modulr Card Simulator API
   slug: modulr-card-simulator-api
-- description: Cards API
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Cards API
   name: Modulr Cards API
   slug: modulr-cards-api
-- description: The Cards Bulk Operations API from Modulr — 3 operation(s) for cards bulk operations.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Cards Bulk Operations API from Modulr — 3 operation(s) for cards bulk operations.
   name: Modulr Cards Bulk Operations API
   slug: modulr-cards-bulk-operations-api
-- description: The Channel Manager Card API from Modulr — 9 operation(s) for channel manager card.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Channel Manager Card API from Modulr — 9 operation(s) for channel manager card.
   name: Modulr Channel Manager Card API
   slug: modulr-channel-manager-card-api
-- description: The Channel Manager Webhook Notifications API from Modulr — 3 operation(s) for channel manager webhook notifications.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Channel Manager Webhook Notifications API from Modulr — 3 operation(s) for channel manager webhook notifications.
   name: Modulr Channel Manager Webhook Notifications API
   slug: modulr-channel-manager-webhook-notifications-api
-- description: Account Name Checks
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Account Name Checks
   name: Modulr Confirmation of Payee API
   slug: modulr-confirmation-of-payee-api
-- description: Operations on Customers
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Customers
   name: Modulr Customers API
   slug: modulr-customers-api
-- description: The Direct Debit Outbound Mandate Operations API from Modulr — 3 operation(s) for direct debit outbound mandate operations.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Direct Debit Outbound Mandate Operations API from Modulr — 3 operation(s) for direct debit outbound mandate operations.
   name: Modulr Direct Debit Outbound Mandate Operations API
   slug: modulr-direct-debit-outbound-mandate-operations-api
-- description: Direct Debit operations
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Direct Debit operations
   name: Modulr Direct Debits API
   slug: modulr-direct-debits-api
-- description: Operations on Documents
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Documents
   name: Modulr Document API
   slug: modulr-document-api
-- description: Upload payment files
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Upload payment files
   name: Modulr File Upload API
   slug: modulr-file-upload-api
-- description: Inbound payments
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Inbound payments
   name: Modulr Inbound Payments API
   slug: modulr-inbound-payments-api
-- description: The Integration Notification API from Modulr — 3 operation(s) for integration notification.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Integration Notification API from Modulr — 3 operation(s) for integration notification.
   name: Modulr Integration Notification API
   slug: modulr-integration-notification-api
-- description: Operations on Notifications
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Notifications
   name: Modulr Notification API
   slug: modulr-notification-api
-- description: The Payment Initiations API from Modulr — 5 operation(s) for payment initiations.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Payment Initiations API from Modulr — 5 operation(s) for payment initiations.
   name: Modulr Payment Initiations API
   slug: modulr-payment-initiations-api
-- description: Operations on Payments
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Payments
   name: Modulr Payments API
   slug: modulr-payments-api
-- description: Restricted access API calls
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Restricted access API calls
   name: Modulr Restricted API
   slug: modulr-restricted-api
-- description: Rules
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Rules
   name: Modulr Rules API
   slug: modulr-rules-api
-- description: Share secure card details operations
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Share secure card details operations
   name: Modulr Share secure card details API
   slug: modulr-share-secure-card-details-api
-- description: Operations on Transactions
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: Operations on Transactions
   name: Modulr Transactions API
   slug: modulr-transactions-api
-- description: The Variable Recurring Payments API from Modulr — 5 operation(s) for variable recurring payments.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Variable Recurring Payments API from Modulr — 5 operation(s) for variable recurring payments.
   name: Modulr Variable Recurring Payments API
   slug: modulr-variable-recurring-payments-api
-- description: The Verification of Payee API from Modulr — 1 operation(s) for verification of payee.
+- baseURL: https://api.modulrfinance.com
+  baseurl_source: declared
+  description: The Verification of Payee API from Modulr — 1 operation(s) for verification of payee.
   name: Modulr Verification of Payee API
   slug: modulr-verification-of-payee-api
 artifact_total: 33
@@ -302,7 +367,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -312,7 +377,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 47.2
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -330,7 +395,7 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations
 api_count: 4
 apis:
-- description: Station data retrieval
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Station data retrieval
   name: United States Department of Agriculture Data API
   slug: united-states-department-of-agriculture-data-api
-- description: Food search and retrieval operations
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Food search and retrieval operations
   name: United States Department of Agriculture Foods API
   slug: united-states-department-of-agriculture-foods-api
-- description: Water supply forecasts
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Water supply forecasts
   name: United States Department of Agriculture Forecasts API
   slug: united-states-department-of-agriculture-forecasts-api
-- description: Available years, states, reports, and variables
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Available years, states, reports, and variables
   name: United States Department of Agriculture Metadata API
   slug: united-states-department-of-agriculture-metadata-api
-- description: Nutrient data and lists
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Nutrient data and lists
   name: United States Department of Agriculture Nutrients API
   slug: united-states-department-of-agriculture-nutrients-api
-- description: Monitoring station metadata and discovery
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Monitoring station metadata and discovery
   name: United States Department of Agriculture Stations API
   slug: united-states-department-of-agriculture-stations-api
-- description: Agricultural statistics query and retrieval
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Agricultural statistics query and retrieval
   name: United States Department of Agriculture Statistics API
   slug: united-states-department-of-agriculture-statistics-api
-- description: Farm survey data retrieval
+- baseURL: https://api.nal.usda.gov/fdc/v1
+  baseurl_source: declared
+  description: Farm survey data retrieval
   name: United States Department of Agriculture Survey Data API
   slug: united-states-department-of-agriculture-survey-data-api
 artifact_total: 36
@@ -238,7 +254,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-department-of-agriculture/refs/heads/main/screenshots/united-states-department-of-agriculture-2026-06-20T200058.png
 security:

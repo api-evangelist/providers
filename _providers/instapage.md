@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 23 acting
 api_count: 11
 apis:
-- description: Create, read, rename and delete Instapage workspaces — the top-level tenant container that holds a customer's landing pages, integrations, domains and assets.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Create, read, rename and delete Instapage workspaces — the top-level tenant container that holds a customer's landing pages, integrations, domains and assets.
   name: Instapage Workspaces API
   slug: instapage-workspaces-api
-- description: Bulk visit, conversion and lead statistics for pages and experiences.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Bulk visit, conversion and lead statistics for pages and experiences.
   name: Instapage Analytics API
   slug: instapage-analytics-api
-- description: Image asset folders and images inside a workspace.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Image asset folders and images inside a workspace.
   name: Instapage Assets API
   slug: instapage-assets-api
-- description: Collections are groups of pages sharing one template with placeholder-driven content, plus the individual collection pages inside them.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Collections are groups of pages sharing one template with placeholder-driven content, plus the individual collection pages inside them.
   name: Instapage Collections API
   slug: instapage-collections-api
-- description: Custom domains connected to a workspace.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Custom domains connected to a workspace.
   name: Instapage Domains API
   slug: instapage-domains-api
-- description: A/B and AI experiments running against landing pages.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: A/B and AI experiments running against landing pages.
   name: Instapage Experiments API
   slug: instapage-experiments-api
-- description: Retrieve and delete the lead data captured by landing page forms.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Retrieve and delete the lead data captured by landing page forms.
   name: Instapage Form Submissions API
   slug: instapage-form-submissions-api
-- description: Groups (folders) organise landing pages inside a workspace.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Groups (folders) organise landing pages inside a workspace.
   name: Instapage Groups API
   slug: instapage-groups-api
-- description: Create, retrieve, update, publish, export and delete Instapage landing pages.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Create, retrieve, update, publish, export and delete Instapage landing pages.
   name: Instapage Pages API
   slug: instapage-pages-api
-- description: Personalized experiences attached to a landing page.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Personalized experiences attached to a landing page.
   name: Instapage Personalizations API
   slug: instapage-personalizations-api
-- description: Manage the people who have access to a workspace and their access levels.
+- baseURL: https://api.instapage.com/v1
+  baseurl_source: declared
+  description: Manage the people who have access to a workspace and their access levels.
   name: Instapage Team Members API
   slug: instapage-team-members-api
 artifact_total: 31
@@ -354,7 +376,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/screenshots/instapage-2026-06-20T183418.png
 security:

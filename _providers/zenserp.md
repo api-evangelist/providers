@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 2 acting
 api_count: 1
 apis:
-- description: 'Asynchronous batch endpoint for very large SERP datasets. Jobs are submitted together and results are POSTed back to a caller-supplied webhook_url, or polled by batch id. Available on the Medium plan '
+- baseURL: https://app.zenserp.com/api/v1
+  baseurl_source: declared
+  description: 'Asynchronous batch endpoint for very large SERP datasets. Jobs are submitted together and results are POSTed back to a caller-supplied webhook_url, or polled by batch id. Available on the Medium plan '
   name: Zenserp Batch API
   slug: zenserp-batch-api
-- description: 'Reference list endpoints publishing the enumerations the Search API parameters must draw from: supported interface languages (hl), countries (gl), canonical Google geo-targeting locations, and search-'
+- baseURL: https://app.zenserp.com/api/v2
+  baseurl_source: declared
+  description: 'Reference list endpoints publishing the enumerations the Search API parameters must draw from: supported interface languages (hl), countries (gl), canonical Google geo-targeting locations, and search-'
   name: Zenserp Lists API
   slug: zenserp-lists-api
-- description: Core search endpoint. One GET operation returns Google web, image, video, news, shopping and maps results (selected with tbm) plus Bing, Yandex, DuckDuckGo and YouTube results (selected with search_en
+- baseURL: https://app.zenserp.com/api/v2
+  baseurl_source: declared
+  description: Core search endpoint. One GET operation returns Google web, image, video, news, shopping and maps results (selected with tbm) plus Bing, Yandex, DuckDuckGo and YouTube results (selected with search_en
   name: Zenserp Search API
   slug: zenserp-search-api
-- description: Google Shopping product page endpoint, resolving a single product variant by product_id or a full product cluster across all merchants by gpc_id. Product ids are obtained from a shopping search. Serve
+- baseURL: https://app.zenserp.com/api/v1
+  baseurl_source: declared
+  description: Google Shopping product page endpoint, resolving a single product variant by product_id or a full product cluster across all merchants by gpc_id. Product ids are obtained from a shopping search. Serve
   name: Zenserp Shopping Product Page API
   slug: zenserp-shopping-api
-- description: Google Trends endpoints exposing keyword interest over time for one or more keywords, and the currently trending searches for a category, language and region. Served from the v1 base, not v2.
+- baseURL: https://app.zenserp.com/api/v1
+  baseurl_source: declared
+  description: Google Trends endpoints exposing keyword interest over time for one or more keywords, and the currently trending searches for a category, language and region. Served from the v1 base, not v2.
   name: Zenserp Trends API
   slug: zenserp-trends-api
 artifact_total: 24
@@ -290,7 +300,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -300,7 +310,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 42.1
-  previous_composite: 58.4
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -312,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png
 security:

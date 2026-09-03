@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -43,136 +43,224 @@ agentic_access:
   summary_line: 128 operations · 55 acting
 api_count: 2
 apis:
-- description: Attribute data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Attribute data for accounts
   name: MethodFi Account Attributes API
   slug: methodfi-account-attributes-api
-- description: Balance data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Balance data for accounts
   name: MethodFi Account Balances API
   slug: methodfi-account-balances-api
-- description: Card brand information for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Card brand information for accounts
   name: MethodFi Account Card Brands API
   slug: methodfi-account-card-brands-api
-- description: Consent management for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Consent management for accounts
   name: MethodFi Account Consent API
   slug: methodfi-account-consent-api
-- description: Payment instruments for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Payment instruments for accounts
   name: MethodFi Account Payment Instruments API
   slug: methodfi-account-payment-instruments-api
-- description: Payoff data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Payoff data for accounts
   name: MethodFi Account Payoffs API
   slug: methodfi-account-payoffs-api
-- description: Products associated with accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Products associated with accounts
   name: MethodFi Account Products API
   slug: methodfi-account-products-api
-- description: Sensitive data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sensitive data for accounts
   name: MethodFi Account Sensitive API
   slug: methodfi-account-sensitive-api
-- description: Subscriptions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Subscriptions for accounts
   name: MethodFi Account Subscriptions API
   slug: methodfi-account-subscriptions-api
-- description: Transactions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Transactions for accounts
   name: MethodFi Account Transactions API
   slug: methodfi-account-transactions-api
-- description: Update records for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Update records for accounts
   name: MethodFi Account Updates API
   slug: methodfi-account-updates-api
-- description: Verification sessions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Verification sessions for accounts
   name: MethodFi Account Verification Sessions API
   slug: methodfi-account-verification-sessions-api
-- description: Financial accounts (ACH, liability, clearing, debit card)
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Financial accounts (ACH, liability, clearing, debit card)
   name: MethodFi Accounts API
   slug: methodfi-accounts-api
-- description: Card product definitions
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Card product definitions
   name: MethodFi Card Products API
   slug: methodfi-card-products-api
-- description: Client-side Element endpoints
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Client-side Element endpoints
   name: MethodFi Elements API
   slug: methodfi-elements-api
-- description: Individuals, corporations, and receive-only entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Individuals, corporations, and receive-only entities
   name: MethodFi Entities API
   slug: methodfi-entities-api
-- description: Attribute data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Attribute data for entities
   name: MethodFi Entity Attributes API
   slug: methodfi-entity-attributes-api
-- description: Account connection sessions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Account connection sessions for entities
   name: MethodFi Entity Connects API
   slug: methodfi-entity-connects-api
-- description: Consent management for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Consent management for entities
   name: MethodFi Entity Consent API
   slug: methodfi-entity-consent-api
-- description: Credit score data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Credit score data for entities
   name: MethodFi Entity Credit Scores API
   slug: methodfi-entity-credit-scores-api
-- description: Identity verification data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Identity verification data for entities
   name: MethodFi Entity Identities API
   slug: methodfi-entity-identities-api
-- description: Products associated with entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Products associated with entities
   name: MethodFi Entity Products API
   slug: methodfi-entity-products-api
-- description: Subscriptions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Subscriptions for entities
   name: MethodFi Entity Subscriptions API
   slug: methodfi-entity-subscriptions-api
-- description: Vehicle data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Vehicle data for entities
   name: MethodFi Entity Vehicles API
   slug: methodfi-entity-vehicles-api
-- description: Verification sessions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Verification sessions for entities
   name: MethodFi Entity Verification Sessions API
   slug: methodfi-entity-verification-sessions-api
-- description: Webhook event log
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Webhook event log
   name: MethodFi Events API
   slug: methodfi-events-api
-- description: Request forwarding with sensitive data injection
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Request forwarding with sensitive data injection
   name: MethodFi Forwarding Requests API
   slug: methodfi-forwarding-requests-api
-- description: Method-managed accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Method-managed accounts
   name: MethodFi Managed Accounts API
   slug: methodfi-managed-accounts-api
-- description: Merchant directory
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Merchant directory
   name: MethodFi Merchants API
   slug: methodfi-merchants-api
-- description: Opal client-side session and token management
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Opal client-side session and token management
   name: MethodFi Opal API
   slug: methodfi-opal-api
-- description: Reversals for payments
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Reversals for payments
   name: MethodFi Payment Reversals API
   slug: methodfi-payment-reversals-api
-- description: ACH and clearing payments
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: ACH and clearing payments
   name: MethodFi Payments API
   slug: methodfi-payments-api
-- description: Health check endpoint
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Health check endpoint
   name: MethodFi Ping API
   slug: methodfi-ping-api
-- description: Public key discovery endpoints for Message-Level Encryption.
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Public key discovery endpoints for Message-Level Encryption.
   name: MethodFi Public Keys API
   slug: methodfi-public-keys-api
-- description: Downloadable reports
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Downloadable reports
   name: MethodFi Reports API
   slug: methodfi-reports-api
-- description: Secure secret storage
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Secure secret storage
   name: MethodFi Secrets API
   slug: methodfi-secrets-api
-- description: Sandbox account simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox account simulation
   name: MethodFi Simulate Accounts API
   slug: methodfi-simulate-accounts-api
-- description: Sandbox entity simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox entity simulation
   name: MethodFi Simulate Entities API
   slug: methodfi-simulate-entities-api
-- description: Sandbox event simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox event simulation
   name: MethodFi Simulate Events API
   slug: methodfi-simulate-events-api
-- description: Sandbox payment simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox payment simulation
   name: MethodFi Simulate Payments API
   slug: methodfi-simulate-payments-api
-- description: Team and API key management
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Team and API key management
   name: MethodFi Teams API
   slug: methodfi-teams-api
-- description: Webhook subscriptions
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Webhook subscriptions
   name: MethodFi Webhooks API
   slug: methodfi-webhooks-api
-- description: Liability discovery across Method's institution network.
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Liability discovery across Method's institution network.
   name: MethodFi Connect API
   slug: methodfi-connect-api
-- description: Transaction history for an account.
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Transaction history for an account.
   name: MethodFi Transactions API
   slug: methodfi-transactions-api
 artifact_total: 141
@@ -650,7 +738,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -660,7 +748,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 69.0
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -678,7 +766,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/methodfi/refs/heads/main/screenshots/methodfi-2026-08-07T172708.png
 security:

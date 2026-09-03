@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 2
 apis:
-- description: Minute-by-minute precipitation forecasting operations
+- baseURL: https://api.rainbow.ai/v1
+  baseurl_source: declared
+  description: Minute-by-minute precipitation forecasting operations
   name: Rainbow.AI Nowcast API
   slug: rainbow-ai-nowcast-api
-- description: Real-time radar data operations
+- baseURL: https://api.rainbow.ai/v1
+  baseurl_source: declared
+  description: Real-time radar data operations
   name: Rainbow.AI Radar API
   slug: rainbow-ai-radar-api
-- description: Map snapshot and static image operations
+- baseURL: https://api.rainbow.ai/v1
+  baseurl_source: declared
+  description: Map snapshot and static image operations
   name: Rainbow.AI Snapshots API
   slug: rainbow-ai-snapshots-api
-- description: Weather map tile retrieval operations
+- baseURL: https://api.rainbow.ai/v1
+  baseurl_source: declared
+  description: Weather map tile retrieval operations
   name: Rainbow.AI Tiles API
   slug: rainbow-ai-tiles-api
 artifact_total: 29
@@ -252,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/screenshots/rainbow-ai-2026-06-20T192610.png
 security:

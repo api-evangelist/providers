@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -50,28 +50,44 @@ apis:
 - description: HIPAA-compliant variant of the Jotform API for healthcare customers on Gold/Enterprise tiers.
   name: Jotform REST API (HIPAA)
   slug: rest-hipaa
-- description: The Folder API from Jotform — 3 operation(s) for folder.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Folder API from Jotform — 3 operation(s) for folder.
   name: Jotform Folder API
   slug: jotform-folder-api
-- description: The Form API from Jotform — 10 operation(s) for form.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Form API from Jotform — 10 operation(s) for form.
   name: Jotform Form API
   slug: jotform-form-api
-- description: The Label API from Jotform — 4 operation(s) for label.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Label API from Jotform — 4 operation(s) for label.
   name: Jotform Label API
   slug: jotform-label-api
-- description: The Report API from Jotform — 3 operation(s) for report.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Report API from Jotform — 3 operation(s) for report.
   name: Jotform Report API
   slug: jotform-report-api
-- description: The Submission API from Jotform — 3 operation(s) for submission.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Submission API from Jotform — 3 operation(s) for submission.
   name: Jotform Submission API
   slug: jotform-submission-api
-- description: The System API from Jotform — 1 operation(s) for system.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The System API from Jotform — 1 operation(s) for system.
   name: Jotform System API
   slug: jotform-system-api
-- description: The User API from Jotform — 13 operation(s) for user.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The User API from Jotform — 13 operation(s) for user.
   name: Jotform User API
   slug: jotform-user-api
-- description: The Webhook API from Jotform — 2 operation(s) for webhook.
+- baseURL: https://api.jotform.com
+  baseurl_source: declared
+  description: The Webhook API from Jotform — 2 operation(s) for webhook.
   name: Jotform Webhook API
   slug: jotform-webhook-api
 artifact_total: 29
@@ -215,7 +231,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -225,7 +241,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 38.3
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -234,7 +250,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:

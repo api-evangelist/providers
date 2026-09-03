@@ -33,16 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Advanced routes for customisation
+- baseURL: https://api.typingdna.com
+  baseurl_source: declared
+  description: Advanced routes for customisation
   name: TypingDNA advanced API
   slug: typingdna-advanced-api
-- description: Optional routes
+- baseURL: https://api.typingdna.com
+  baseurl_source: declared
+  description: Optional routes
   name: TypingDNA optional API
   slug: typingdna-optional-api
-- description: Main routes
+- baseURL: https://api.typingdna.com
+  baseurl_source: declared
+  description: Main routes
   name: TypingDNA standard API
   slug: typingdna-standard-api
 artifact_total: 12
@@ -255,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typingdna/refs/heads/main/screenshots/typingdna-2026-08-17T082510.png
 security:

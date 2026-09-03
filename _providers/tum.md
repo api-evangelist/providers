@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 19 operations · 4 acting
 api_count: 4
 apis:
-- description: Search and navigation API for TUM rooms, buildings and places — a Rust service over MeiliSearch, fully unauthenticated, documented with an OpenAPI 3 contract served live at https://nav.tum.de/api/open
+- baseURL: https://nav.tum.de/api
+  baseurl_source: declared
+  description: Search and navigation API for TUM rooms, buildings and places — a Rust service over MeiliSearch, fully unauthenticated, documented with an OpenAPI 3 contract served live at https://nav.tum.de/api/open
   name: NavigaTUM
   slug: navigatum
 - description: 'OAI-PMH 2.0 harvesting interface over TUM''s institutional repository. Verified verbs Identify, ListMetadataFormats and ListSets all answer 200. Metadata prefixes: oai_dc, epicur and xMetaDissPlus (the'
@@ -55,10 +57,14 @@ apis:
 - description: 'TUM''s student information system of record, running CAMPUSonline. Two machine-readable surfaces were verified live and unauthenticated on 2026-08-19: a hypermedia course catalog REST endpoint at /tumo'
   name: TUMonline (CAMPUSonline) — Course Catalog and Identity
   slug: tumonline
-- description: 'Static JSON API for Munich student canteen menus, prices, dish labels and opening hours, regenerated on a schedule and served as flat files from GitHub Pages. Two OpenAPI files below are one contract '
+- baseURL: https://tum-dev.github.io/eat-api
+  baseurl_source: declared
+  description: 'Static JSON API for Munich student canteen menus, prices, dish labels and opening hours, regenerated on a schedule and served as flat files from GitHub Pages. Two OpenAPI files below are one contract '
   name: eat-api — Munich Student Canteen Menus
   slug: eat-api
-- description: The Campus API from Technical University of Munich — 19 operation(s) for campus.
+- baseURL: https://api.tum.app/v1
+  baseurl_source: declared
+  description: The Campus API from Technical University of Munich — 19 operation(s) for campus.
   name: Technical University of Munich Campus API
   slug: tum-campus-api
 artifact_total: 33
@@ -299,7 +305,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -309,7 +315,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 36.3
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -325,7 +331,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/screenshots/tum-2026-06-20T195827.png
 security:

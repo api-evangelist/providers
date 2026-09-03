@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 6
 apis:
-- description: Historical NDVI vegetation index data
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: Historical NDVI vegetation index data
   name: Agromonitoring NDVI History API
   slug: agromonitoring-ndvi-history-api
-- description: Create and manage field polygon definitions
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: Create and manage field polygon definitions
   name: Agromonitoring Polygons API
   slug: agromonitoring-polygons-api
-- description: Access satellite imagery and vegetation index data
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: Access satellite imagery and vegetation index data
   name: Agromonitoring Satellite Imagery API
   slug: agromonitoring-satellite-imagery-api
-- description: Soil temperature and moisture data
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: Soil temperature and moisture data
   name: Agromonitoring Soil API
   slug: agromonitoring-soil-api
-- description: UV radiation index data
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: UV radiation index data
   name: Agromonitoring UV Index API
   slug: agromonitoring-uv-index-api
-- description: Current, forecast, and historical weather data
+- baseURL: https://api.agromonitoring.com/agro/1.0
+  baseurl_source: spec
+  description: Current, forecast, and historical weather data
   name: Agromonitoring Weather API
   slug: agromonitoring-weather-api
 artifact_total: 78
@@ -373,7 +385,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/screenshots/agromonitoring-2026-06-20T170453.png
 security:

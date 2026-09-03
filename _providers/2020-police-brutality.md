@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Police brutality incident records from the 2020 George Floyd protests
+- baseURL: https://raw.githubusercontent.com/2020PB/police-brutality/data_build
+  baseurl_source: declared
+  description: Police brutality incident records from the 2020 George Floyd protests
   name: 2020 Police Brutality Incidents API
   slug: 2020-police-brutality-incidents-api
 artifact_total: 29
@@ -223,7 +225,7 @@ score:
     regime_id: government
     score: 9.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png
 slug: 2020-police-brutality

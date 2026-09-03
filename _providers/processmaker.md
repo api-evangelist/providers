@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 64 operations · 38 acting
 api_count: 1
 apis:
-- description: Environment variable management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Environment variable management
   name: ProcessMaker Environment Variables API
   slug: processmaker-environment-variables-api
-- description: File and media management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: File and media management
   name: ProcessMaker Files API
   slug: processmaker-files-api
-- description: Group and membership management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Group and membership management
   name: ProcessMaker Groups API
   slug: processmaker-groups-api
-- description: Notification management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Notification management
   name: ProcessMaker Notifications API
   slug: processmaker-notifications-api
-- description: BPMN 2.0 process design and management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: BPMN 2.0 process design and management
   name: ProcessMaker Processes API
   slug: processmaker-processes-api
-- description: Process request (case) management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Process request (case) management
   name: ProcessMaker Requests API
   slug: processmaker-requests-api
-- description: Form screen design and management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Form screen design and management
   name: ProcessMaker Screens API
   slug: processmaker-screens-api
-- description: System settings management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: System settings management
   name: ProcessMaker Settings API
   slug: processmaker-settings-api
-- description: Task and token management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: Task and token management
   name: ProcessMaker Tasks API
   slug: processmaker-tasks-api
-- description: User account management
+- baseURL: https://{organization}.processmaker.net/api
+  baseurl_source: declared
+  description: User account management
   name: ProcessMaker Users API
   slug: processmaker-users-api
 artifact_total: 35
@@ -284,7 +304,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/processmaker/refs/heads/main/screenshots/processmaker-2026-06-20T192125.png
 security:

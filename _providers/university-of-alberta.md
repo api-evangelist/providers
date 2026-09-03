@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: The university's own SAML 2.0 identity provider metadata document, served from its own domain. It declares entityID https://login.ualberta.ca/saml2/idp/metadata.php, an IDPSSODescriptor with SingleSig
@@ -212,7 +212,7 @@ score:
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.8
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -222,7 +222,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 29.3
   provenance:
     conformance: first-party
   regulatory:
@@ -232,8 +232,8 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 security:
 - kind: domain-security
   name: University Of Alberta Domain Security

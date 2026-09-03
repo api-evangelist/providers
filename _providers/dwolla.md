@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 164 operations · 68 acting
 api_count: 19
 apis:
-- description: Operations related to Accounts
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Accounts
   name: Dwolla Accounts API
   slug: dwolla-accounts-api
-- description: Operations related to Beneficial Owners
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Beneficial Owners
   name: Dwolla beneficial owners API
   slug: dwolla-beneficial-owners-api
-- description: Operations related to Client Tokens
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Client Tokens
   name: Dwolla client tokens API
   slug: dwolla-client-tokens-api
-- description: Operations related to Customers
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Customers
   name: Dwolla Customers API
   slug: dwolla-customers-api
-- description: Operations related to Documents
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Documents
   name: Dwolla Documents API
   slug: dwolla-documents-api
-- description: Operations related to Events
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Events
   name: Dwolla Events API
   slug: dwolla-events-api
-- description: Operations related to Exchange Sessions
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Exchange Sessions
   name: Dwolla exchange sessions API
   slug: dwolla-exchange-sessions-api
-- description: Operations related to Exchanges
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Exchanges
   name: Dwolla Exchanges API
   slug: dwolla-exchanges-api
-- description: Operations related to Funding Sources
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Funding Sources
   name: Dwolla funding sources API
   slug: dwolla-funding-sources-api
-- description: Operations related to Knowledge-Based Authentication
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Knowledge-Based Authentication
   name: Dwolla Kba API
   slug: dwolla-kba-api
-- description: Operations related to Labels
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Labels
   name: Dwolla Labels API
   slug: dwolla-labels-api
-- description: Operations related to Mass Payments
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Mass Payments
   name: Dwolla mass payments API
   slug: dwolla-mass-payments-api
-- description: Root API operations
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Root API operations
   name: Dwolla Root API
   slug: dwolla-root-api
-- description: Sandbox-only operations for simulating processing of bank transfers
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Sandbox-only operations for simulating processing of bank transfers
   name: Dwolla sandbox simulations API
   slug: dwolla-sandbox-simulations-api
-- description: Operations related to Application Access Tokens
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Application Access Tokens
   name: Dwolla Tokens API
   slug: dwolla-tokens-api
-- description: Operations related to Transfers
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Transfers
   name: Dwolla Transfers API
   slug: dwolla-transfers-api
-- description: Operations related to Webhook Subscriptions
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Webhook Subscriptions
   name: Dwolla webhook subscriptions API
   slug: dwolla-webhook-subscriptions-api
-- description: Operations related to Webhooks
+- baseURL: https://api.dwolla.com
+  baseurl_source: declared
+  description: Operations related to Webhooks
   name: Dwolla Webhooks API
   slug: dwolla-webhooks-api
 artifact_total: 62
@@ -443,7 +479,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -453,7 +489,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 61.8
+  previous_composite: 61.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -471,7 +507,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -33,19 +45,29 @@ agentic_access:
   summary_line: 379 operations · 214 acting
 api_count: 5
 apis:
-- description: 'WordPress core content API of the corporate website (posts, pages, media, taxonomies, users, settings) plus this company''s own custom post types: the CCM clinic/provider locator, the Optimizer technic'
+- baseURL: https://impulse-dynamics.com/wp-json/
+  baseurl_source: declared
+  description: 'WordPress core content API of the corporate website (posts, pages, media, taxonomies, users, settings) plus this company''s own custom post types: the CCM clinic/provider locator, the Optimizer technic'
   name: Impulse Dynamics wp/v2 API
   slug: impulse-dynamics-wp-v2-api
-- description: Two Model Context Protocol servers exposed by the WordPress MCP Adapter plugin on the corporate host. Both reject anonymous JSON-RPC with HTTP 401, and the host publishes no RFC 8414 or RFC 9728 metad
+- baseURL: https://impulse-dynamics.com/wp-json/
+  baseurl_source: declared
+  description: Two Model Context Protocol servers exposed by the WordPress MCP Adapter plugin on the corporate host. Both reject anonymous JSON-RPC with HTTP 401, and the host publishes no RFC 8414 or RFC 9728 metad
   name: Impulse Dynamics MCP API
   slug: impulse-dynamics-mcp-api
-- description: 'WordPress Abilities API — the registry of named abilities the MCP adapter draws its tools from. Capability-gated: HTTP 401 rest_forbidden anonymously.'
+- baseURL: https://impulse-dynamics.com/wp-json/
+  baseurl_source: declared
+  description: 'WordPress Abilities API — the registry of named abilities the MCP adapter draws its tools from. Capability-gated: HTTP 401 rest_forbidden anonymously.'
   name: Impulse Dynamics wp-abilities/v1 API
   slug: impulse-dynamics-wp-abilities-v1-api
-- description: oEmbed discovery and proxy endpoints.
+- baseURL: https://impulse-dynamics.com/wp-json/
+  baseurl_source: declared
+  description: oEmbed discovery and proxy endpoints.
   name: Impulse Dynamics oEmbed/1.0 API
   slug: impulse-dynamics-oembed-1-0-api
-- description: REST API index / namespace discovery — the anonymous route-discovery document this whole profile was derived from.
+- baseURL: https://impulse-dynamics.com/wp-json/
+  baseurl_source: declared
+  description: REST API index / namespace discovery — the anonymous route-discovery document this whole profile was derived from.
   name: Impulse Dynamics Root API
   slug: impulse-dynamics-root-api
 artifact_total: 12
@@ -194,18 +216,18 @@ rate_limits:
   slug: impulse-dynamics-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 17.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 13.2
+    contract_quality: 16.6
     developer_ergonomics: 16.1
     discoverability: 81.5
     governance: 4.5
@@ -228,8 +250,9 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/impulse-dynamics/refs/heads/main/screenshots/impulse-dynamics-2026-09-02T145845.png
 security:
 - kind: authentication
   name: Impulse Dynamics Authentication

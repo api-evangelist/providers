@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: REST API for managing invoicing, contacts, products, accounting, projects, employees, and CRM records inside the Holded business management platform. Authentication uses an API key passed via the `key
   name: Holded REST API
   slug: rest-api
-- description: The Accounting API from Holded — 1 operation(s) for accounting.
+- baseURL: https://api.holded.com/api
+  baseurl_source: declared
+  description: The Accounting API from Holded — 1 operation(s) for accounting.
   name: Holded Accounting API
   slug: holded-accounting-api
-- description: The Crm API from Holded — 2 operation(s) for crm.
+- baseURL: https://api.holded.com/api
+  baseurl_source: declared
+  description: The Crm API from Holded — 2 operation(s) for crm.
   name: Holded Crm API
   slug: holded-crm-api
-- description: The Invoicing API from Holded — 15 operation(s) for invoicing.
+- baseURL: https://api.holded.com/api
+  baseurl_source: declared
+  description: The Invoicing API from Holded — 15 operation(s) for invoicing.
   name: Holded Invoicing API
   slug: holded-invoicing-api
-- description: The Projects API from Holded — 2 operation(s) for projects.
+- baseURL: https://api.holded.com/api
+  baseurl_source: declared
+  description: The Projects API from Holded — 2 operation(s) for projects.
   name: Holded Projects API
   slug: holded-projects-api
-- description: The Team API from Holded — 2 operation(s) for team.
+- baseURL: https://api.holded.com/api
+  baseurl_source: declared
+  description: The Team API from Holded — 2 operation(s) for team.
   name: Holded Team API
   slug: holded-team-api
 artifact_total: 16
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png
 security:

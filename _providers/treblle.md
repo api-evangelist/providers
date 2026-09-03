@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -71,22 +71,34 @@ apis:
 - description: Aspen is Treblle's intelligent API testing application for macOS featuring AI-powered capabilities through Alfred AI, the ability to organize API requests through Collections, automatic code generatio
   name: Treblle Aspen API Testing
   slug: aspen
-- description: Retrieve performance metrics, usage statistics, error rates, and geographic distribution data for monitored APIs.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: Retrieve performance metrics, usage statistics, error rates, and geographic distribution data for monitored APIs.
   name: Treblle Analytics API
   slug: treblle-analytics-api
-- description: View auto-discovered endpoints detected by Treblle from live traffic, including documentation and schema data.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: View auto-discovered endpoints detected by Treblle from live traffic, including documentation and schema data.
   name: Treblle Endpoints API
   slug: treblle-endpoints-api
-- description: Run automated API governance checks against OpenAPI specifications, scoring APIs on design, security, and performance dimensions.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: Run automated API governance checks against OpenAPI specifications, scoring APIs on design, security, and performance dimensions.
   name: Treblle Governance API
   slug: treblle-governance-api
-- description: Manage project team members and access permissions.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: Manage project team members and access permissions.
   name: Treblle Members API
   slug: treblle-members-api
-- description: Create and manage Treblle API projects. Each project corresponds to a monitored API and generates an API ID and SDK token.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: Create and manage Treblle API projects. Each project corresponds to a monitored API and generates an API ID and SDK token.
   name: Treblle Projects API
   slug: treblle-projects-api
-- description: Access real-time API request and response logs captured by Treblle SDK instrumentation across all monitored APIs.
+- baseURL: https://app.treblle.com/api/v1
+  baseurl_source: declared
+  description: Access real-time API request and response logs captured by Treblle SDK instrumentation across all monitored APIs.
   name: Treblle Requests API
   slug: treblle-requests-api
 arazzos:
@@ -403,7 +415,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treblle/refs/heads/main/screenshots/treblle-2026-06-20T195643.png
 security:

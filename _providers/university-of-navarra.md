@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Live OAI-PMH 2.0 metadata harvesting interface over the university press''s journal portfolio, running on a self-hosted Open Journal Systems 3.4.0.8 instance. Verified 2026-09-01: 100 sets (one per jou'
+- baseURL: https://revistas.unav.edu/index.php/index/oai
+  baseurl_source: declared
+  description: 'Live OAI-PMH 2.0 metadata harvesting interface over the university press''s journal portfolio, running on a self-hosted Open Journal Systems 3.4.0.8 instance. Verified 2026-09-01: 100 sets (one per jou'
   name: Revistas Cientificas OAI-PMH (Servicio de Publicaciones)
   slug: revistas-oai-pmh
 - description: The university's own Shibboleth/SAML identity provider, published through RedIRIS's SIR2 national identity federation and interfederated into eduGAIN. This is the institution's strongest institution-o
@@ -180,7 +182,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 12.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -190,7 +192,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 17.0
+  previous_composite: 29.5
   provenance:
     conformance: first-party
     contracts:
@@ -205,8 +207,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-navarra/refs/heads/main/screenshots/university-of-navarra-2026-06-20T200213.png
 security:
 - kind: authentication

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Integration API from Flash App — 1 operation(s) for integration.
+- baseURL: https://qa.expenseon.com/api
+  baseurl_source: declared
+  description: The Integration API from Flash App — 1 operation(s) for integration.
   name: Flash App Integration API
   slug: flash-app-integration-api
-- description: The Login API from Flash App — 1 operation(s) for login.
+- baseURL: https://qa.expenseon.com/api
+  baseurl_source: declared
+  description: The Login API from Flash App — 1 operation(s) for login.
   name: Flash App Login API
   slug: flash-app-login-api
 artifact_total: 8
@@ -222,7 +226,7 @@ score:
     regime_id: payments
     score: 40.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flash-app/refs/heads/main/screenshots/flash-app-2026-07-25T214715.png
 security:

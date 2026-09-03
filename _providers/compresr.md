@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -44,85 +44,139 @@ agentic_access:
   summary_line: 142 operations · 63 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Admin API from Compresr — 18 operation(s) for admin.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Admin API from Compresr — 18 operation(s) for admin.
   name: Compresr Admin API
   slug: compresr-admin-api
-- description: The Admin - Whitelist API from Compresr — 4 operation(s) for admin - whitelist.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Admin - Whitelist API from Compresr — 4 operation(s) for admin - whitelist.
   name: Compresr Admin - Whitelist API
   slug: compresr-admin-whitelist-api
-- description: The API Keys API from Compresr — 4 operation(s) for api keys.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The API Keys API from Compresr — 4 operation(s) for api keys.
   name: Compresr API Keys API
   slug: compresr-api-keys-api
-- description: The Auth API from Compresr — 1 operation(s) for auth.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Auth API from Compresr — 1 operation(s) for auth.
   name: Compresr Auth API
   slug: compresr-auth-api
-- description: The Billing API from Compresr — 10 operation(s) for billing.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Billing API from Compresr — 10 operation(s) for billing.
   name: Compresr Billing API
   slug: compresr-billing-api
-- description: The Careers API from Compresr — 12 operation(s) for careers.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Careers API from Compresr — 12 operation(s) for careers.
   name: Compresr Careers API
   slug: compresr-careers-api
-- description: The Compresr Platform API API from Compresr — 1 operation(s) for compresr platform api.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Compresr Platform API API from Compresr — 1 operation(s) for compresr platform api.
   name: Compresr Compresr Platform API API
   slug: compresr-compresr-platform-api-api
-- description: The Compression-Agentic API from Compresr — 18 operation(s) for compression-agentic.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Compression-Agentic API from Compresr — 18 operation(s) for compression-agentic.
   name: Compresr Compression-Agentic API
   slug: compresr-compression-agentic-api
-- description: The Compression API from Compresr — 6 operation(s) for compression.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Compression API from Compresr — 6 operation(s) for compression.
   name: Compresr Compression API
   slug: compresr-compression-api
-- description: The Compression-Demo API from Compresr — 5 operation(s) for compression-demo.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Compression-Demo API from Compresr — 5 operation(s) for compression-demo.
   name: Compresr Compression-Demo API
   slug: compresr-compression-demo-api
-- description: The Compression-Models API from Compresr — 2 operation(s) for compression-models.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Compression-Models API from Compresr — 2 operation(s) for compression-models.
   name: Compresr Compression-Models API
   slug: compresr-compression-models-api
-- description: The Dashboard API from Compresr — 1 operation(s) for dashboard.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Dashboard API from Compresr — 1 operation(s) for dashboard.
   name: Compresr Dashboard API
   slug: compresr-dashboard-api
-- description: The Feature Requests API from Compresr — 3 operation(s) for feature requests.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Feature Requests API from Compresr — 3 operation(s) for feature requests.
   name: Compresr Feature Requests API
   slug: compresr-feature-requests-api
-- description: The Gateway API from Compresr — 5 operation(s) for gateway.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Gateway API from Compresr — 5 operation(s) for gateway.
   name: Compresr Gateway API
   slug: compresr-gateway-api
-- description: The Health API from Compresr — 3 operation(s) for health.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Health API from Compresr — 3 operation(s) for health.
   name: Compresr Health API
   slug: compresr-health-api
-- description: The Inference API from Compresr — 1 operation(s) for inference.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Inference API from Compresr — 1 operation(s) for inference.
   name: Compresr Inference API
   slug: compresr-inference-api
-- description: The Logs API from Compresr — 1 operation(s) for logs.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Logs API from Compresr — 1 operation(s) for logs.
   name: Compresr Logs API
   slug: compresr-logs-api
-- description: The Metrics API from Compresr — 2 operation(s) for metrics.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Metrics API from Compresr — 2 operation(s) for metrics.
   name: Compresr Metrics API
   slug: compresr-metrics-api
-- description: The Newsletter API from Compresr — 4 operation(s) for newsletter.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Newsletter API from Compresr — 4 operation(s) for newsletter.
   name: Compresr Newsletter API
   slug: compresr-newsletter-api
-- description: The OAuth API from Compresr — 6 operation(s) for oauth.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The OAuth API from Compresr — 6 operation(s) for oauth.
   name: Compresr OAuth API
   slug: compresr-oauth-api
-- description: The OAuth Authorization API from Compresr — 3 operation(s) for oauth authorization.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The OAuth Authorization API from Compresr — 3 operation(s) for oauth authorization.
   name: Compresr OAuth Authorization API
   slug: compresr-oauth-authorization-api
-- description: The On-Prem API from Compresr — 1 operation(s) for on-prem.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The On-Prem API from Compresr — 1 operation(s) for on-prem.
   name: Compresr On-Prem API
   slug: compresr-on-prem-api
-- description: The On-Prem Telemetry API from Compresr — 3 operation(s) for on-prem telemetry.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The On-Prem Telemetry API from Compresr — 3 operation(s) for on-prem telemetry.
   name: Compresr On-Prem Telemetry API
   slug: compresr-on-prem-telemetry-api
-- description: The Pricing API from Compresr — 2 operation(s) for pricing.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Pricing API from Compresr — 2 operation(s) for pricing.
   name: Compresr Pricing API
   slug: compresr-pricing-api
-- description: The Profile API from Compresr — 6 operation(s) for profile.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Profile API from Compresr — 6 operation(s) for profile.
   name: Compresr Profile API
   slug: compresr-profile-api
-- description: The Ready API from Compresr — 1 operation(s) for ready.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Ready API from Compresr — 1 operation(s) for ready.
   name: Compresr Ready API
   slug: compresr-ready-api
-- description: The Usage API from Compresr — 1 operation(s) for usage.
+- baseURL: https://api.compresr.ai
+  baseurl_source: declared
+  description: The Usage API from Compresr — 1 operation(s) for usage.
   name: Compresr Usage API
   slug: compresr-usage-api
 artifact_total: 62
@@ -403,7 +457,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:

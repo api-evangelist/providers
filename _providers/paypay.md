@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
-- description: Everything involved in the payment life cycle
+- baseURL: https://apigw.paypay.ne.jp
+  baseurl_source: declared
+  description: Everything involved in the payment life cycle
   name: PayPay Payment API
   slug: paypay-payment-api
-- description: The Payments API from PayPay — 1 operation(s) for payments.
+- baseURL: https://apigw.paypay.ne.jp
+  baseurl_source: declared
+  description: The Payments API from PayPay — 1 operation(s) for payments.
   name: PayPay Payments API
   slug: paypay-payments-api
 artifact_total: 10
@@ -205,7 +209,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -215,7 +219,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 35.2
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,7 +237,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paypay/refs/heads/main/screenshots/paypay-2026-08-07T191649.png
 security:

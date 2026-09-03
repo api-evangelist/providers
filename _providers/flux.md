@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 7 acting
 api_count: 2
 apis:
-- description: Endpoints for submitting image editing requests using FLUX.1 Kontext models. Accepts an input image and a text instruction to produce a transformed output image.
+- baseURL: https://api.bfl.ai/v1
+  baseurl_source: declared
+  description: Endpoints for submitting image editing requests using FLUX.1 Kontext models. Accepts an input image and a text instruction to produce a transformed output image.
   name: Flux Editing API
   slug: flux-editing-api
-- description: Endpoints for submitting image generation requests using FLUX models. Each endpoint targets a specific model variant and returns a task ID for polling.
+- baseURL: https://api.bfl.ai/v1
+  baseurl_source: declared
+  description: Endpoints for submitting image generation requests using FLUX models. Each endpoint targets a specific model variant and returns a task ID for polling.
   name: Flux Generation API
   slug: flux-generation-api
-- description: Endpoints for polling the status and retrieving completed image editing results.
+- baseURL: https://api.bfl.ai/v1
+  baseurl_source: declared
+  description: Endpoints for polling the status and retrieving completed image editing results.
   name: Flux Results API
   slug: flux-results-api
 artifact_total: 22
@@ -238,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:

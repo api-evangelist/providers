@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Authentication API from VOA Health — 1 operation(s) for authentication.
+- baseURL: https://integration.voa.health/v1
+  baseurl_source: declared
+  description: The Authentication API from VOA Health — 1 operation(s) for authentication.
   name: VOA Health Authentication API
   slug: voa-health-authentication-api
-- description: Submit, query, replace, and delete clinical records on the RNDS national bus.
+- baseURL: https://integration.voa.health/v1
+  baseurl_source: declared
+  description: Submit, query, replace, and delete clinical records on the RNDS national bus.
   name: VOA Health RNDS API
   slug: voa-health-rnds-api
 artifact_total: 8
@@ -171,7 +175,7 @@ score:
   band: thin
   composite: 32.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -206,8 +210,9 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voa-health/refs/heads/main/screenshots/voa-health-2026-09-02T170203.png
 security:
 - kind: authentication
   name: Voa Health Authentication

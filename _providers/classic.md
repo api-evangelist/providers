@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Affiliate API from Classic — 5 operation(s) for affiliate.
+- baseURL: https://api.shapeshift.com
+  baseurl_source: declared
+  description: The Affiliate API from Classic — 5 operation(s) for affiliate.
   name: Classic Affiliate API
   slug: classic-affiliate-api
-- description: The Auth API from Classic — 2 operation(s) for auth.
+- baseURL: https://api.shapeshift.com
+  baseurl_source: declared
+  description: The Auth API from Classic — 2 operation(s) for auth.
   name: Classic Auth API
   slug: classic-auth-api
-- description: The Supported Assets API from Classic — 3 operation(s) for supported assets.
+- baseURL: https://api.shapeshift.com
+  baseurl_source: declared
+  description: The Supported Assets API from Classic — 3 operation(s) for supported assets.
   name: Classic Supported Assets API
   slug: classic-supported-assets-api
-- description: The Supported Chains API from Classic — 2 operation(s) for supported chains.
+- baseURL: https://api.shapeshift.com
+  baseurl_source: declared
+  description: The Supported Chains API from Classic — 2 operation(s) for supported chains.
   name: Classic Supported Chains API
   slug: classic-supported-chains-api
-- description: The Swaps API from Classic — 3 operation(s) for swaps.
+- baseURL: https://api.shapeshift.com
+  baseurl_source: declared
+  description: The Swaps API from Classic — 3 operation(s) for swaps.
   name: Classic Swaps API
   slug: classic-swaps-api
 artifact_total: 14
@@ -220,7 +230,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classic/refs/heads/main/screenshots/classic-2026-07-25T205521.png
 security:

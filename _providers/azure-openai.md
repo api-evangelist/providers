@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: Azure Resource Manager (ARM) REST API for creating and managing Azure OpenAI accounts, model deployments, network rules, and other resource configuration.
   name: Azure OpenAI Control Plane API
   slug: control-plane
-- description: Audio transcription and translation (Whisper)
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Audio transcription and translation (Whisper)
   name: Azure OpenAI Service Audio API
   slug: azure-openai-audio-api
-- description: Chat-formatted text generation
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Chat-formatted text generation
   name: Azure OpenAI Service Chat Completions API
   slug: azure-openai-chat-completions-api
-- description: Plain text completions
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Plain text completions
   name: Azure OpenAI Service Completions API
   slug: azure-openai-completions-api
-- description: Vector embeddings
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Vector embeddings
   name: Azure OpenAI Service Embeddings API
   slug: azure-openai-embeddings-api
-- description: Image generation (DALL-E)
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Image generation (DALL-E)
   name: Azure OpenAI Service Images API
   slug: azure-openai-images-api
 artifact_total: 23
@@ -200,7 +210,7 @@ score:
     catalog_gap: 74.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -210,7 +220,7 @@ score:
     discoverability: 75.9
     governance: 11.4
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/screenshots/azure-openai-2026-06-20T172911.png
 security:

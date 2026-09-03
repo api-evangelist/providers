@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 86 operations · 49 acting
 api_count: 1
 apis:
-- description: The Accounts API from Ascend — 2 operation(s) for accounts.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: The Accounts API from Ascend — 2 operation(s) for accounts.
   name: Ascend Accounts API
   slug: ascend-accounts-api
-- description: Represents a file that is associated with a program.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents a file that is associated with a program.
   name: Ascend Attachments API
   slug: ascend-attachments-api
-- description: Represents an insurance quote or endorsement to be billed to the insured.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents an insurance quote or endorsement to be billed to the insured.
   name: Ascend Billables API
   slug: ascend-billables-api
-- description: Represents the cancelation of an insurance quote
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents the cancelation of an insurance quote
   name: Ascend CancelationReturns API
   slug: ascend-cancelationreturns-api
-- description: Represents the carriers Ascend supports for quote creation.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents the carriers Ascend supports for quote creation.
   name: Ascend Carriers API
   slug: ascend-carriers-api
-- description: Represents the contacts that may be associated with an Insured account.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents the contacts that may be associated with an Insured account.
   name: Ascend Contacts API
   slug: ascend-contacts-api
-- description: Represents the coverage types Ascend supports for quote creation.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents the coverage types Ascend supports for quote creation.
   name: Ascend CoverageTypes API
   slug: ascend-coveragetypes-api
-- description: Estimated financing terms.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Estimated financing terms.
   name: Ascend FinanceEstimate API
   slug: ascend-financeestimate-api
-- description: A payment plan broken down over a seriies of regular installments
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: A payment plan broken down over a seriies of regular installments
   name: Ascend InstallmentPlans API
   slug: ascend-installmentplans-api
-- description: An single installment on a installment plan
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: An single installment on a installment plan
   name: Ascend Installments API
   slug: ascend-installments-api
-- description: Represents the person or business entity that is purchasing the collection of insurance quotes.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents the person or business entity that is purchasing the collection of insurance quotes.
   name: Ascend Insureds API
   slug: ascend-insureds-api
-- description: Represents records of a transaction between the insured and Ascend.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents records of a transaction between the insured and Ascend.
   name: Ascend Invoices API
   slug: ascend-invoices-api
-- description: Loan details for a financed program
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Loan details for a financed program
   name: Ascend Loans API
   slug: ascend-loans-api
-- description: Represents records of a transaction between an insured and an agency or MGA.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents records of a transaction between an insured and an agency or MGA.
   name: Ascend OneTimePayments API
   slug: ascend-onetimepayments-api
-- description: The Organization Account Users API from Ascend — 2 operation(s) for organization account users.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: The Organization Account Users API from Ascend — 2 operation(s) for organization account users.
   name: Ascend Organization Account Users API
   slug: ascend-organization-account-users-api
-- description: The PaymentProposals API from Ascend — 1 operation(s) for paymentproposals.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: The PaymentProposals API from Ascend — 1 operation(s) for paymentproposals.
   name: Ascend PaymentProposals API
   slug: ascend-paymentproposals-api
-- description: Money transfers between accounts triggered after an insured pays a quote.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Money transfers between accounts triggered after an insured pays a quote.
   name: Ascend Payouts API
   slug: ascend-payouts-api
-- description: Represents a premium reducing endorsement for an insurance quote.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represents a premium reducing endorsement for an insurance quote.
   name: Ascend PremiumReducingEndorsements (Beta) API
   slug: ascend-premiumreducingendorsements-beta-api
-- description: A collection of insurance quotes pooled to produce 1 checkout link.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: A collection of insurance quotes pooled to produce 1 checkout link.
   name: Ascend Programs API
   slug: ascend-programs-api
-- description: A collection of refunds to the insured.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: A collection of refunds to the insured.
   name: Ascend Refunds API
   slug: ascend-refunds-api
-- description: A collection of returns on one time payments or installment plans.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: A collection of returns on one time payments or installment plans.
   name: Ascend Returns API
   slug: ascend-returns-api
-- description: Represent users that manage programs. They can be analysts, producers, support & admins.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: Represent users that manage programs. They can be analysts, producers, support & admins.
   name: Ascend Users API
   slug: ascend-users-api
-- description: The Wholesalers API from Ascend — 1 operation(s) for wholesalers.
+- baseURL: https://api.useascend.com
+  baseurl_source: declared
+  description: The Wholesalers API from Ascend — 1 operation(s) for wholesalers.
   name: Ascend Wholesalers API
   slug: ascend-wholesalers-api
 artifact_total: 53
@@ -331,7 +377,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -341,7 +387,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,7 +405,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:

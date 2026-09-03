@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 158 operations · 65 acting
 api_count: 1
 apis:
-- description: Endpoints for managing Accounts-related resources, such as users.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing Accounts-related resources, such as users.
   name: Cint Accounts API
   slug: cint-accounts-api
-- description: Create, update, delete and list global and account Allocation templates. Templates allow you to store and automate your policy towards suppliers on the Exchange.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, update, delete and list global and account Allocation templates. Templates allow you to store and automate your policy towards suppliers on the Exchange.
   name: Cint Allocation Templates Admin API
   slug: cint-allocation-templates-admin-api
-- description: Platform-wide definitions endpoints.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Platform-wide definitions endpoints.
   name: Cint Definitions API
   slug: cint-definitions-api
-- description: For more information, if you need functionality in this section, please contact your account manager
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: For more information, if you need functionality in this section, please contact your account manager
   name: Cint Exclusive Endpoints API
   slug: cint-exclusive-endpoints-api
-- description: Understand the success of the Target Groups you want to run, have already saved or are in field by providing a Target Group ID or details.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Understand the success of the Target Groups you want to run, have already saved or are in field by providing a Target Group ID or details.
   name: Cint Feasibility API
   slug: cint-feasibility-api
-- description: Create, update and obtain Target Group Fielding runs and Fielding Assistant assignments. This is critical for launching, scheduling and completing Target Groups.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, update and obtain Target Group Fielding runs and Fielding Assistant assignments. This is critical for launching, scheduling and completing Target Groups.
   name: Cint Fielding API
   slug: cint-fielding-api
-- description: Get, update Target Group Fielding Assistant assignments. Fielding Assistant provides optional modules to automate common workflows and optimise your Target Group.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Get, update Target Group Fielding Assistant assignments. Fielding Assistant provides optional modules to automate common workflows and optimise your Target Group.
   name: Cint Fielding Assistant API
   slug: cint-fielding-assistant-api
-- description: Asynchronously update Target Group Fielding Runs in batches.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Asynchronously update Target Group Fielding Runs in batches.
   name: Cint Fielding (Batch) API
   slug: cint-fielding-batch-api
-- description: ':::info Fulfillment endpoints are for S2S enabled clients only. ::: Endpoints for managing respondent statuses while a target group is fielding.'
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: ':::info Fulfillment endpoints are for S2S enabled clients only. ::: Endpoints for managing respondent statuses while a target group is fielding.'
   name: Cint Fulfillment API
   slug: cint-fulfillment-api
-- description: Select the best times for launching your Target Groups. Use before feasibility to optimise fill and time in field.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Select the best times for launching your Target Groups. Use before feasibility to optimise fill and time in field.
   name: Cint Intelligent Calendar API
   slug: cint-intelligent-calendar-api
-- description: Management of Target Group profiles after launch—including creating, updating, retrieving, and deleting profile configurations, along with their conditions, quotas, and interlock settings.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Management of Target Group profiles after launch—including creating, updating, retrieving, and deleting profile configurations, along with their conditions, quotas, and interlock settings.
   name: Cint Manage Profiles for Launched Target Groups API
   slug: cint-manage-profiles-for-launched-target-groups-api
-- description: Endpoints for managing your Notifications Webhooks.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Endpoints for managing your Notifications Webhooks.
   name: Cint Notifications Webhooks API
   slug: cint-notifications-webhooks-api
-- description: Helps by generating different profile configurations, including interlocked profiles for draft.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Helps by generating different profile configurations, including interlocked profiles for draft.
   name: Cint Profiling Helper API
   slug: cint-profiling-helper-api
-- description: List all profiling questions including account specific questions with translations and categories. Profiling questions allow you to target and filter respondents based on their characteristics.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: List all profiling questions including account specific questions with translations and categories. Profiling questions allow you to target and filter respondents based on their characteristics.
   name: Cint Profiling Library API
   slug: cint-profiling-library-api
-- description: Get the distribution of available respondents for Target Group profiles, including retrieving supplier distribution per quota.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Get the distribution of available respondents for Target Group profiles, including retrieving supplier distribution per quota.
   name: Cint Profiling Quotas By Supplier API
   slug: cint-profiling-quotas-by-supplier-api
-- description: Create, manage and reuse audience descriptions and templates to allow for efficient and automated targeting workflows on the Cint Exchange.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, manage and reuse audience descriptions and templates to allow for efficient and automated targeting workflows on the Cint Exchange.
   name: Cint Profiling Templates API
   slug: cint-profiling-templates-api
-- description: Create, list and update projects. Projects are a flexible container for Target Groups and enable basic aggregation and automation.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, list and update projects. Projects are a flexible container for Target Groups and enable basic aggregation and automation.
   name: Cint Projects API
   slug: cint-projects-api
-- description: Validate, Submit and check reconciliations for one or more target groups.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Validate, Submit and check reconciliations for one or more target groups.
   name: Cint Reconciliations API
   slug: cint-reconciliations-api
-- description: Create, update, list and delete recontacts for a target group. Recontacts allow only specific respondents to enter your survey and are part of a larger workflow that needs specific configurations acro
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, update, list and delete recontacts for a target group. Recontacts allow only specific respondents to enter your survey and are part of a larger workflow that needs specific configurations acro
   name: Cint Recontacts API
   slug: cint-recontacts-api
-- description: Aggregate reports that roll statistics up on an _Account_, _Business Unit_, _Project_ and _Target Group_ level.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Aggregate reports that roll statistics up on an _Account_, _Business Unit_, _Project_ and _Target Group_ level.
   name: Cint Reports API
   slug: cint-reports-api
-- description: The Respondent Exclusions API from Cint — 17 operation(s) for respondent exclusions.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: The Respondent Exclusions API from Cint — 17 operation(s) for respondent exclusions.
   name: Cint Respondent Exclusions API
   slug: cint-respondent-exclusions-api
-- description: Allows you to insert respondent unique code(s) into the survey URL for each respondent entering the session.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Allows you to insert respondent unique code(s) into the survey URL for each respondent entering the session.
   name: Cint Respondent Unique Codes API
   slug: cint-respondent-unique-codes-api
-- description: Create, update, list supplier allocations for a target group. Allocations allow filtering and limiting of the available suppliers on the Exchange.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, update, list supplier allocations for a target group. Allocations allow filtering and limiting of the available suppliers on the Exchange.
   name: Cint Target Group Allocations API
   slug: cint-target-group-allocations-api
-- description: Create, update, list and other operations on Target Groups. A Target Group is the main unit of work in the Exchange.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Create, update, list and other operations on Target Groups. A Target Group is the main unit of work in the Exchange.
   name: Cint Target Groups API
   slug: cint-target-groups-api
-- description: Asynchronously create, update and delete Target Groups in batches.
+- baseURL: https://api.cint.com/v1
+  baseurl_source: declared
+  description: Asynchronously create, update and delete Target Groups in batches.
   name: Cint Target Groups (Batch) API
   slug: cint-target-groups-batch-api
 arazzos:
@@ -347,7 +397,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -357,7 +407,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,7 +419,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cint/refs/heads/main/screenshots/cint-2026-07-25T205351.png
 security:

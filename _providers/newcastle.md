@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 6 operations
 api_count: 2
 apis:
-- description: A single point-of-truth interface for searching, browsing and displaying the digitised objects held in Newcastle University Library's Special Collections. Eighteen operations across collections, digit
+- baseURL: https://api-dor.ncl.ac.uk
+  baseurl_source: declared
+  description: A single point-of-truth interface for searching, browsing and displaying the digitised objects held in Newcastle University Library's Special Collections. Eighteen operations across collections, digit
   name: Digitised Objects Repository Search and Data API
   slug: digitised-objects
 - description: A GraphQL API over the Eighteenth-Century Political Participation and Electoral Culture research dataset — historical British elections, constituencies, candidates, poll books, voters, votes, occupati
@@ -56,16 +58,24 @@ apis:
 - description: 'Newcastle University''s institutional research data repository, operated for the university by Figshare on a Newcastle-branded custom domain. Programmatic access exists but runs entirely on Figshare''s '
   name: data.ncl Research Data Repository (Figshare tenancy)
   slug: data-ncl
-- description: 'An entity ordinarily describes a spatial location, such as a room in a building or a pole in the street. In some circumstances an entity may be a mobile piece of equipment, in which case the location '
+- baseURL: https://api.usb.urbanobservatory.ac.uk/api/v2.0a
+  baseurl_source: declared
+  description: 'An entity ordinarily describes a spatial location, such as a room in a building or a pole in the street. In some circumstances an entity may be a mobile piece of equipment, in which case the location '
   name: Urban Observatory API (Urban Sciences Building) — Entity
   slug: urban-observatory-entity
-- description: A feed is a representation of a measurement or parametrisation, usually a metric, for example the observed temperature.
+- baseURL: https://api.usb.urbanobservatory.ac.uk/api/v2.0a
+  baseurl_source: declared
+  description: A feed is a representation of a measurement or parametrisation, usually a metric, for example the observed temperature.
   name: Urban Observatory API (Urban Sciences Building) — Feed
   slug: urban-observatory-feed
-- description: A compact summary view over Urban Sciences Building entities and the feeds attached to them.
+- baseURL: https://api.usb.urbanobservatory.ac.uk/api/v2.0a
+  baseurl_source: declared
+  description: A compact summary view over Urban Sciences Building entities and the feeds attached to them.
   name: Urban Observatory API (Urban Sciences Building) — Summary
   slug: urban-observatory-summary
-- description: There may be more than one timeseries associated with a feed. Ordinarily there will be a plain timeseries representing raw data from the device; in some cases there may be additional timeseries repres
+- baseURL: https://api.usb.urbanobservatory.ac.uk/api/v2.0a
+  baseurl_source: declared
+  description: There may be more than one timeseries associated with a feed. Ordinarily there will be a plain timeseries representing raw data from the device; in some cases there may be additional timeseries repres
   name: Urban Observatory API (Urban Sciences Building) — Timeseries
   slug: urban-observatory-timeseries
 artifact_total: 42
@@ -294,7 +304,7 @@ score:
     catalog_gap: 57.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -13.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -304,7 +314,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 41.1
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,8 +330,8 @@ score:
     regime_id: education
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png
 security:
 - kind: authentication

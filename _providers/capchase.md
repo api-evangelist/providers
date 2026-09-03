@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 9 operations · 5 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Pay API from Capchase — 8 operation(s) for pay.
+- baseURL: https://universe.capchase.com/api/v2
+  baseurl_source: declared
+  description: The Pay API from Capchase — 8 operation(s) for pay.
   name: Capchase Pay API
   slug: capchase-pay-api
 arazzos:
@@ -204,7 +206,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:

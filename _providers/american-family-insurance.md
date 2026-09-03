@@ -26,15 +26,15 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-01'
+  score: 2.5
+  scored_at: '2026-09-02'
 api_count: 0
-artifact_total: 16
+artifact_total: 18
 common:
 - group: auth
   title: ''
@@ -44,14 +44,69 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/american-family-insurance
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.amfam.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.amfam.com/privacy-security
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.amfam.com/contact
+- group: start
+  title: ''
+  type: Login
+  url: https://myaccount.amfam.com/login
+- group: company
+  title: ''
+  type: Blog
+  url: https://newsroom.amfam.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://newsroom.amfam.com/feed/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/american-family-insurance-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/american-family-insurance-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/american-family-insurance-rate-limits.yml
 - group: company
   title: ''
   type: Website
   url: https://www.amfam.com
 - group: start
   title: ''
-  type: Portal
-  url: https://b2b.amfam.com
+  type: PartnerPortal
+  url: https://b2b.amfam.com/lender
+coverage:
+  checked: '2026-09-02'
+  detail: American Family Insurance runs no developer program of any kind — developer.amfam.com, developers.amfam.com and apis.amfam.com do not resolve, the amfamlabs GitHub org has zero public repositories, and the only non-consumer surface is b2b.amfam.com/lender, a SiteMinder login for mortgage servicers with no API behind it.
+  evidence:
+  - detail: HTML single-page-app shell, not a spec — www.amfam.com answers 200 with the same 143KB shell for every unknown path
+    status: 200
+    url: https://www.amfam.com/openapi.json
+  - status: 404
+    url: https://b2b.amfam.com/openapi.json
+  - status: 404
+    url: https://b2b.amfam.com/.well-known/agent-card.json
+  - detail: organization exists with public_repos 0
+    status: 200
+    url: https://api.github.com/orgs/amfamlabs
+  - detail: host resolves (165.200.238.15) and accepts TCP but returned nothing within a 10s ceiling; one attempt, not retried
+    status: <no response>
+    url: https://api.amfam.com/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2024-11-15'
 description: American Family Insurance is a private mutual company that offers auto, homeowners, life, renters, umbrella, business, and farm/ranch insurance throughout the United States. The company serves customers through a network of exclusive agents, digital tools including the MyAmFam mobile app, and online self-service capabilities. American Family is headquartered in Madison, Wisconsin, and is one of the largest property-casualty insurers in the country.
 features:
@@ -78,14 +133,18 @@ integrations:
 - description: Integration with exclusive agent tools for policy quoting, binding, and customer management across all lines of business.
   name: Agent Management Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: American Family Insurance
 nav: Providers
 network: true
 overview: 'American Family Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Property Casualty.
 
 
-  American Family Insurance''s developer surface includes developer portal and 3 more developer resources.'
+  American Family Insurance''s developer surface includes support, engineering blog, and 11 more developer resources.'
+plans:
+- name: American Family Insurance Plans Pricing
+  plan_count: 0
+  slug: american-family-insurance-plans-pricing
 press:
 - date: '2026-05-25'
   title: Creative Destruction Lab announces a new program ...
@@ -103,21 +162,25 @@ press:
   title: American Family Insurance and AWS Team Up to Drive ...
   url: https://www.businesswire.com/news/home/20221201005413/en/American-Family-Insurance-and-AWS-Team-Up-to-Drive-Innovation-in-the-Insurance-Industry
 random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: American Family Insurance Rate Limits
+  slug: american-family-insurance-rate-limits
 score:
-  band: minimal
-  composite: 4.2
+  band: emerging
+  composite: 12.4
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 9
     catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 8.2
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -127,10 +190,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
+    score: 21.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: flat
+  scored_at: '2026-09-02'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-family-insurance/refs/heads/main/screenshots/american-family-insurance-2026-06-20T171911.png
 security:
 - kind: domain-security

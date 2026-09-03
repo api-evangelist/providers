@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 1
 apis:
-- description: Manage container packages owned by an organization
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage container packages owned by an organization
   name: GitHub Container Registry Organization Packages API
   slug: github-container-registry-organization-packages-api
-- description: View packages owned by a user
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: View packages owned by a user
   name: GitHub Container Registry User Namespace Packages API
   slug: github-container-registry-user-namespace-packages-api
-- description: Manage container packages owned by the authenticated user
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage container packages owned by the authenticated user
   name: GitHub Container Registry User Packages API
   slug: github-container-registry-user-packages-api
 artifact_total: 14
@@ -181,7 +187,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/screenshots/github-container-registry-2026-06-20T181838.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -33,55 +46,89 @@ agentic_access:
   summary_line: 56 operations · 27 acting
 api_count: 10
 apis:
-- description: The Connect API from Pinch Payments — 1 operation(s) for connect.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Connect API from Pinch Payments — 1 operation(s) for connect.
   name: Pinch Payments Connect API
   slug: pinch-payments-connect-api
-- description: The Contacts API from Pinch Payments — 2 operation(s) for contacts.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Contacts API from Pinch Payments — 2 operation(s) for contacts.
   name: Pinch Payments Contacts API
   slug: pinch-payments-contacts-api
-- description: The Events API from Pinch Payments — 2 operation(s) for events.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Events API from Pinch Payments — 2 operation(s) for events.
   name: Pinch Payments Events API
   slug: pinch-payments-events-api
-- description: The Fees API from Pinch Payments — 2 operation(s) for fees.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Fees API from Pinch Payments — 2 operation(s) for fees.
   name: Pinch Payments Fees API
   slug: pinch-payments-fees-api
-- description: The Health API from Pinch Payments — 1 operation(s) for health.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Health API from Pinch Payments — 1 operation(s) for health.
   name: Pinch Payments Health API
   slug: pinch-payments-health-api
-- description: The Merchant Financial Data API from Pinch Payments — 2 operation(s) for merchant financial data.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Merchant Financial Data API from Pinch Payments — 2 operation(s) for merchant financial data.
   name: Pinch Payments Merchant Financial Data API
   slug: pinch-payments-merchant-financial-data-api
-- description: The Merchants API from Pinch Payments — 3 operation(s) for merchants.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Merchants API from Pinch Payments — 3 operation(s) for merchants.
   name: Pinch Payments Merchants API
   slug: pinch-payments-merchants-api
-- description: The Payers API from Pinch Payments — 4 operation(s) for payers.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Payers API from Pinch Payments — 4 operation(s) for payers.
   name: Pinch Payments Payers API
   slug: pinch-payments-payers-api
-- description: The Payment Links API from Pinch Payments — 3 operation(s) for payment links.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Payment Links API from Pinch Payments — 3 operation(s) for payment links.
   name: Pinch Payments Payment Links API
   slug: pinch-payments-payment-links-api
-- description: The Payments API from Pinch Payments — 7 operation(s) for payments.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Payments API from Pinch Payments — 7 operation(s) for payments.
   name: Pinch Payments Payments API
   slug: pinch-payments-payments-api
-- description: The Plans API from Pinch Payments — 3 operation(s) for plans.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Plans API from Pinch Payments — 3 operation(s) for plans.
   name: Pinch Payments Plans API
   slug: pinch-payments-plans-api
-- description: The Refund API from Pinch Payments — 1 operation(s) for refund.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Refund API from Pinch Payments — 1 operation(s) for refund.
   name: Pinch Payments Refund API
   slug: pinch-payments-refund-api
-- description: The Refunds API from Pinch Payments — 2 operation(s) for refunds.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Refunds API from Pinch Payments — 2 operation(s) for refunds.
   name: Pinch Payments Refunds API
   slug: pinch-payments-refunds-api
-- description: The Subscriptions API from Pinch Payments — 2 operation(s) for subscriptions.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Subscriptions API from Pinch Payments — 2 operation(s) for subscriptions.
   name: Pinch Payments Subscriptions API
   slug: pinch-payments-subscriptions-api
-- description: The Tokens API from Pinch Payments — 1 operation(s) for tokens.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Tokens API from Pinch Payments — 1 operation(s) for tokens.
   name: Pinch Payments Tokens API
   slug: pinch-payments-tokens-api
-- description: The Transfers API from Pinch Payments — 3 operation(s) for transfers.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Transfers API from Pinch Payments — 3 operation(s) for transfers.
   name: Pinch Payments Transfers API
   slug: pinch-payments-transfers-api
-- description: The Webhooks API from Pinch Payments — 2 operation(s) for webhooks.
+- baseURL: https://api.getpinch.com.au
+  baseurl_source: declared
+  description: The Webhooks API from Pinch Payments — 2 operation(s) for webhooks.
   name: Pinch Payments Webhooks API
   slug: pinch-payments-webhooks-api
 artifact_total: 43
@@ -337,7 +384,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -347,7 +394,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 46.1
-  previous_composite: 53.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -365,7 +412,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/screenshots/pinch-payments-2026-08-17T081230.png
 security:

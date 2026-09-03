@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 86 operations · 40 acting
 api_count: 1
 apis:
-- description: You can upload already signed documents to the document archive to make them searchable and use in your contract management process.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: You can upload already signed documents to the document archive to make them searchable and use in your contract management process.
   name: GetAccept Archive API
   slug: getaccept-archive-api
-- description: You can upload an attachment and reuse it in many documents.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: You can upload an attachment and reuse it in many documents.
   name: GetAccept Attachments API
   slug: getaccept-attachments-api
-- description: Authentication with the GetAccept API can be made using JWT tokens (JSON Web Tokens) or OAuth 2.0 Authorization Framework http://oauth.net/2/ All requests must be made via HTTPS. All configuration URL
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Authentication with the GetAccept API can be made using JWT tokens (JSON Web Tokens) or OAuth 2.0 Authorization Framework http://oauth.net/2/ All requests must be made via HTTPS. All configuration URL
   name: GetAccept Authentication API
   slug: getaccept-authentication-api
-- description: Communication templates allow you to customize email and SMS messages sent to recipients.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Communication templates allow you to customize email and SMS messages sent to recipients.
   name: GetAccept Communication Templates API
   slug: getaccept-communication-templates-api
-- description: Everything related to contacts
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Everything related to contacts
   name: GetAccept Contacts API
   slug: getaccept-contacts-api
-- description: Custom Data enables you to define and use your own document properties as a complement to the default properties.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Custom Data enables you to define and use your own document properties as a complement to the default properties.
   name: GetAccept Custom Data API
   slug: getaccept-custom-data-api
-- description: Everything related to documents
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Everything related to documents
   name: GetAccept Documents API
   slug: getaccept-documents-api
-- description: Additional endpoints used in various integrations.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: Additional endpoints used in various integrations.
   name: GetAccept Others API
   slug: getaccept-others-api
-- description: 'To simplify the process of checking a documents status and make it more efficient in an integrated application, you can enable API Webhooks. Enable webhooks as a user with administrator privileges in '
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: 'To simplify the process of checking a documents status and make it more efficient in an integrated application, you can enable API Webhooks. Enable webhooks as a user with administrator privileges in '
   name: GetAccept Subscriptions API
   slug: getaccept-subscriptions-api
-- description: GetAccept has extensive support for creating templates in different formats. You can use form fields to receive input data from a recipient or word files to merge custom data into a document.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: GetAccept has extensive support for creating templates in different formats. You can use form fields to receive input data from a recipient or word files to merge custom data into a document.
   name: GetAccept Templates API
   slug: getaccept-templates-api
-- description: General user methods for creating, listing of users, single user details and statistics and managing existing users.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: General user methods for creating, listing of users, single user details and statistics and managing existing users.
   name: GetAccept Users API
   slug: getaccept-users-api
-- description: You can upload videos and reuse it in many documents.
+- baseURL: https://api.getaccept.com/v1
+  baseurl_source: declared
+  description: You can upload videos and reuse it in many documents.
   name: GetAccept Videos API
   slug: getaccept-videos-api
 artifact_total: 34
@@ -314,7 +338,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -324,7 +348,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 59.1
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,7 +360,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/screenshots/getaccept-2026-07-25T215711.png
 security:

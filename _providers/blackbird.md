@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 25 operations · 5 acting
 api_count: 1
 apis:
-- description: The App API from Blackbird — 1 operation(s) for app.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: The App API from Blackbird — 1 operation(s) for app.
   name: Blackbird App API
   slug: blackbird-app-api
-- description: The Challenges API from Blackbird — 1 operation(s) for challenges.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: The Challenges API from Blackbird — 1 operation(s) for challenges.
   name: Blackbird Challenges API
   slug: blackbird-challenges-api
-- description: Filtered visit records.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: Filtered visit records.
   name: Blackbird Check-ins API
   slug: blackbird-check-ins-api
-- description: Physical venues and open hours.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: Physical venues and open hours.
   name: Blackbird Locations API
   slug: blackbird-locations-api
-- description: Per-(member, restaurant) loyalty records carrying check-in counts and tiers.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: Per-(member, restaurant) loyalty records carrying check-in counts and tiers.
   name: Blackbird Memberships API
   slug: blackbird-memberships-api
-- description: Payment Intents for FLY-funded payments.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: Payment Intents for FLY-funded payments.
   name: Blackbird Payments API
   slug: blackbird-payments-api
-- description: Brand-level restaurant discovery.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: Brand-level restaurant discovery.
   name: Blackbird Restaurants API
   slug: blackbird-restaurants-api
-- description: The Rewards API from Blackbird — 2 operation(s) for rewards.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: The Rewards API from Blackbird — 2 operation(s) for rewards.
   name: Blackbird Rewards API
   slug: blackbird-rewards-api
-- description: The Specials API from Blackbird — 1 operation(s) for specials.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: The Specials API from Blackbird — 1 operation(s) for specials.
   name: Blackbird Specials API
   slug: blackbird-specials-api
-- description: The authenticated member — profile, status, wallets, tags, and check-in history. Subject resolved from the token.
+- baseURL: https://api.blackbird.xyz/flynet/v1
+  baseurl_source: declared
+  description: The authenticated member — profile, status, wallets, tags, and check-in history. Subject resolved from the token.
   name: Blackbird Users API
   slug: blackbird-users-api
 artifact_total: 26
@@ -275,7 +295,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

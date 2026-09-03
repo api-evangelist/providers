@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Vrije Universiteit Amsterdam Repository, served from the institution's own domain and administered by the VU University Library (adminEmail pure.ub@vu
@@ -211,7 +211,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -221,7 +221,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 30.7
+  previous_composite: 30.1
   provenance:
     conformance: first-party
   regulatory:
@@ -231,7 +231,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:

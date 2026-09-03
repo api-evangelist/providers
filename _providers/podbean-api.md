@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: This is for third-party apps to connect to Podbean in order to manage a user's podcast. To manage your own podcast via API, please use Client Credentials and Get Multiple Podcasts Tokens. Provides OAu
   name: Podbean API
   slug: podbean-api
-- description: Per-podcast analytics and report downloads.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Per-podcast analytics and report downloads.
   name: Podbean API Analytics API
   slug: podbean-api-analytics-api
-- description: List and inspect episodes.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: List and inspect episodes.
   name: Podbean API Episodes API
   slug: podbean-api-episodes-api
-- description: Token issuance endpoints.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Token issuance endpoints.
   name: Podbean API OAuth API
   slug: podbean-api-oauth-api
-- description: List podcasts in the account.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: List podcasts in the account.
   name: Podbean API Podcasts API
   slug: podbean-api-podcasts-api
-- description: Manage private podcast members.
+- baseURL: https://api.podbean.com/v1
+  baseurl_source: declared
+  description: Manage private podcast members.
   name: Podbean API PrivateMembers API
   slug: podbean-api-privatemembers-api
 artifact_total: 20
@@ -179,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podbean-api/refs/heads/main/screenshots/podbean-api-2026-06-20T191831.png
 security:

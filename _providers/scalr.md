@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 182
   human_in_the_loop: 3
@@ -46,79 +46,129 @@ apis:
 - description: The Scalr IaC Management API (TFC-compatible) provides programmatic control over workspaces, environments, runs, state, variables, policies, and provider configurations. Fully compatible with Terrafor
   name: Scalr IaC Management API
   slug: scalr-iac-api
-- description: The Acl Roles API from Scalr — 1 operation(s) for acl roles.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Acl Roles API from Scalr — 1 operation(s) for acl roles.
   name: Scalr Acl Roles API
   slug: scalr-acl-roles-api
-- description: The Ansible Tower API from Scalr — 6 operation(s) for ansible tower.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Ansible Tower API from Scalr — 6 operation(s) for ansible tower.
   name: Scalr Ansible Tower API
   slug: scalr-ansible-tower-api
-- description: The Cloud Credentials API from Scalr — 4 operation(s) for cloud credentials.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Cloud Credentials API from Scalr — 4 operation(s) for cloud credentials.
   name: Scalr Cloud Credentials API
   slug: scalr-cloud-credentials-api
-- description: The Clouds API from Scalr — 2 operation(s) for clouds.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Clouds API from Scalr — 2 operation(s) for clouds.
   name: Scalr Clouds API
   slug: scalr-clouds-api
-- description: The Cost Centers API from Scalr — 3 operation(s) for cost centers.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Cost Centers API from Scalr — 3 operation(s) for cost centers.
   name: Scalr Cost Centers API
   slug: scalr-cost-centers-api
-- description: The Environments API from Scalr — 6 operation(s) for environments.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Environments API from Scalr — 6 operation(s) for environments.
   name: Scalr Environments API
   slug: scalr-environments-api
-- description: The Event Logs API from Scalr — 2 operation(s) for event logs.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Event Logs API from Scalr — 2 operation(s) for event logs.
   name: Scalr Event Logs API
   slug: scalr-event-logs-api
-- description: The Events API from Scalr — 5 operation(s) for events.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Events API from Scalr — 5 operation(s) for events.
   name: Scalr Events API
   slug: scalr-events-api
-- description: The Farm Roles API from Scalr — 13 operation(s) for farm roles.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Farm Roles API from Scalr — 13 operation(s) for farm roles.
   name: Scalr Farm Roles API
   slug: scalr-farm-roles-api
-- description: The Farms API from Scalr — 16 operation(s) for farms.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Farms API from Scalr — 16 operation(s) for farms.
   name: Scalr Farms API
   slug: scalr-farms-api
-- description: The Global Variables API from Scalr — 6 operation(s) for global variables.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Global Variables API from Scalr — 6 operation(s) for global variables.
   name: Scalr Global Variables API
   slug: scalr-global-variables-api
-- description: The Images API from Scalr — 12 operation(s) for images.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Images API from Scalr — 12 operation(s) for images.
   name: Scalr Images API
   slug: scalr-images-api
-- description: The Orchestration Logs API from Scalr — 2 operation(s) for orchestration logs.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Orchestration Logs API from Scalr — 2 operation(s) for orchestration logs.
   name: Scalr Orchestration Logs API
   slug: scalr-orchestration-logs-api
-- description: The Orchestration Rules API from Scalr — 4 operation(s) for orchestration rules.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Orchestration Rules API from Scalr — 4 operation(s) for orchestration rules.
   name: Scalr Orchestration Rules API
   slug: scalr-orchestration-rules-api
-- description: The Os API from Scalr — 6 operation(s) for os.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Os API from Scalr — 6 operation(s) for os.
   name: Scalr Os API
   slug: scalr-os-api
-- description: The Projects API from Scalr — 4 operation(s) for projects.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Projects API from Scalr — 4 operation(s) for projects.
   name: Scalr Projects API
   slug: scalr-projects-api
-- description: The Role Categories API from Scalr — 6 operation(s) for role categories.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Role Categories API from Scalr — 6 operation(s) for role categories.
   name: Scalr Role Categories API
   slug: scalr-role-categories-api
-- description: The Roles API from Scalr — 33 operation(s) for roles.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Roles API from Scalr — 33 operation(s) for roles.
   name: Scalr Roles API
   slug: scalr-roles-api
-- description: The Scaling Metrics API from Scalr — 4 operation(s) for scaling metrics.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Scaling Metrics API from Scalr — 4 operation(s) for scaling metrics.
   name: Scalr Scaling Metrics API
   slug: scalr-scaling-metrics-api
-- description: The Script Executions API from Scalr — 1 operation(s) for script executions.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Script Executions API from Scalr — 1 operation(s) for script executions.
   name: Scalr Script Executions API
   slug: scalr-script-executions-api
-- description: The Scripts API from Scalr — 10 operation(s) for scripts.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Scripts API from Scalr — 10 operation(s) for scripts.
   name: Scalr Scripts API
   slug: scalr-scripts-api
-- description: The Servers API from Scalr — 9 operation(s) for servers.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Servers API from Scalr — 9 operation(s) for servers.
   name: Scalr Servers API
   slug: scalr-servers-api
-- description: The Teams API from Scalr — 2 operation(s) for teams.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Teams API from Scalr — 2 operation(s) for teams.
   name: Scalr Teams API
   slug: scalr-teams-api
-- description: The Users API from Scalr — 2 operation(s) for users.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Users API from Scalr — 2 operation(s) for users.
   name: Scalr Users API
   slug: scalr-users-api
-- description: The Webhook Endpoints API from Scalr — 2 operation(s) for webhook endpoints.
+- baseURL: /api/v1beta0/account
+  baseurl_source: spec
+  description: The Webhook Endpoints API from Scalr — 2 operation(s) for webhook endpoints.
   name: Scalr Webhook Endpoints API
   slug: scalr-webhook-endpoints-api
 artifact_total: 68
@@ -363,7 +413,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -373,7 +423,7 @@ score:
     discoverability: 72.2
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -388,7 +438,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalr/refs/heads/main/screenshots/scalr-2026-06-20T193608.png
 security:

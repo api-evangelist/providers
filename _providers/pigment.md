@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 19 operations · 11 acting
 api_count: 1
 apis:
-- description: The ApplicationApi API from Pigment — 1 operation(s) for applicationapi.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ApplicationApi API from Pigment — 1 operation(s) for applicationapi.
   name: Pigment ApplicationApi API
   slug: pigment-applicationapi-api
-- description: The BlocksApi API from Pigment — 1 operation(s) for blocksapi.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The BlocksApi API from Pigment — 1 operation(s) for blocksapi.
   name: Pigment BlocksApi API
   slug: pigment-blocksapi-api
-- description: The Export API from Pigment — 4 operation(s) for export.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The Export API from Pigment — 4 operation(s) for export.
   name: Pigment Export API
   slug: pigment-export-api
-- description: The ExportV1 API from Pigment — 4 operation(s) for exportv1.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ExportV1 API from Pigment — 4 operation(s) for exportv1.
   name: Pigment ExportV1 API
   slug: pigment-exportv1-api
-- description: The ImportApi API from Pigment — 3 operation(s) for importapi.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ImportApi API from Pigment — 3 operation(s) for importapi.
   name: Pigment ImportApi API
   slug: pigment-importapi-api
-- description: The ImportConfigurationApi API from Pigment — 1 operation(s) for importconfigurationapi.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ImportConfigurationApi API from Pigment — 1 operation(s) for importconfigurationapi.
   name: Pigment ImportConfigurationApi API
   slug: pigment-importconfigurationapi-api
-- description: The ImportV1 API from Pigment — 4 operation(s) for importv1.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ImportV1 API from Pigment — 4 operation(s) for importv1.
   name: Pigment ImportV1 API
   slug: pigment-importv1-api
-- description: The ViewApi API from Pigment — 1 operation(s) for viewapi.
+- baseURL: https://pigment.app/api
+  baseurl_source: declared
+  description: The ViewApi API from Pigment — 1 operation(s) for viewapi.
   name: Pigment ViewApi API
   slug: pigment-viewapi-api
 artifact_total: 24
@@ -268,7 +284,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pigment/refs/heads/main/screenshots/pigment-2026-08-17T081227.png
 security:

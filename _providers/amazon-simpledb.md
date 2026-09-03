@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: 'The #Action=BatchDeleteAttributes API from Amazon SimpleDB — 1 operation(s) for #action=batchdeleteattributes.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchDeleteAttributes API from Amazon SimpleDB — 1 operation(s) for #action=batchdeleteattributes.'
   name: 'Amazon SimpleDB #Action=BatchDeleteAttributes API'
   slug: amazon-simpledb-action-batchdeleteattributes-api
-- description: 'The #Action=BatchPutAttributes API from Amazon SimpleDB — 1 operation(s) for #action=batchputattributes.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=BatchPutAttributes API from Amazon SimpleDB — 1 operation(s) for #action=batchputattributes.'
   name: 'Amazon SimpleDB #Action=BatchPutAttributes API'
   slug: amazon-simpledb-action-batchputattributes-api
-- description: 'The #Action=CreateDomain API from Amazon SimpleDB — 1 operation(s) for #action=createdomain.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=CreateDomain API from Amazon SimpleDB — 1 operation(s) for #action=createdomain.'
   name: 'Amazon SimpleDB #Action=CreateDomain API'
   slug: amazon-simpledb-action-createdomain-api
-- description: 'The #Action=DeleteAttributes API from Amazon SimpleDB — 1 operation(s) for #action=deleteattributes.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteAttributes API from Amazon SimpleDB — 1 operation(s) for #action=deleteattributes.'
   name: 'Amazon SimpleDB #Action=DeleteAttributes API'
   slug: amazon-simpledb-action-deleteattributes-api
-- description: 'The #Action=DeleteDomain API from Amazon SimpleDB — 1 operation(s) for #action=deletedomain.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DeleteDomain API from Amazon SimpleDB — 1 operation(s) for #action=deletedomain.'
   name: 'Amazon SimpleDB #Action=DeleteDomain API'
   slug: amazon-simpledb-action-deletedomain-api
-- description: 'The #Action=DomainMetadata API from Amazon SimpleDB — 1 operation(s) for #action=domainmetadata.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=DomainMetadata API from Amazon SimpleDB — 1 operation(s) for #action=domainmetadata.'
   name: 'Amazon SimpleDB #Action=DomainMetadata API'
   slug: amazon-simpledb-action-domainmetadata-api
-- description: 'The #Action=GetAttributes API from Amazon SimpleDB — 1 operation(s) for #action=getattributes.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=GetAttributes API from Amazon SimpleDB — 1 operation(s) for #action=getattributes.'
   name: 'Amazon SimpleDB #Action=GetAttributes API'
   slug: amazon-simpledb-action-getattributes-api
-- description: 'The #Action=ListDomains API from Amazon SimpleDB — 1 operation(s) for #action=listdomains.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=ListDomains API from Amazon SimpleDB — 1 operation(s) for #action=listdomains.'
   name: 'Amazon SimpleDB #Action=ListDomains API'
   slug: amazon-simpledb-action-listdomains-api
-- description: 'The #Action=PutAttributes API from Amazon SimpleDB — 1 operation(s) for #action=putattributes.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=PutAttributes API from Amazon SimpleDB — 1 operation(s) for #action=putattributes.'
   name: 'Amazon SimpleDB #Action=PutAttributes API'
   slug: amazon-simpledb-action-putattributes-api
-- description: 'The #Action=Select API from Amazon SimpleDB — 1 operation(s) for #action=select.'
+- baseURL: https://sdb.amazonaws.com
+  baseurl_source: declared
+  description: 'The #Action=Select API from Amazon SimpleDB — 1 operation(s) for #action=select.'
   name: 'Amazon SimpleDB #Action=Select API'
   slug: amazon-simpledb-action-select-api
 artifact_total: 163
@@ -656,7 +676,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/screenshots/amazon-simpledb-2026-06-20T171823.png
 security:

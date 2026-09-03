@@ -33,70 +33,112 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Applications API from Ankorstore — 1 operation(s) for applications.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Applications API from Ankorstore — 1 operation(s) for applications.
   name: Ankorstore Applications API
   slug: ankorstore-applications-api
-- description: The Brands API from Ankorstore — 8 operation(s) for brands.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Brands API from Ankorstore — 8 operation(s) for brands.
   name: Ankorstore Brands API
   slug: ankorstore-brands-api
-- description: 'ℹ️ This section describes the API endpoints that you can use to manage your catalog resources, such as products, product variants etc. ## 💡 Working with Products Here you will find information about t'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ This section describes the API endpoints that you can use to manage your catalog resources, such as products, product variants etc. ## 💡 Working with Products Here you will find information about t'
   name: Ankorstore Catalog API
   slug: ankorstore-catalog-api
-- description: The Catalog Exchange API from Ankorstore — 3 operation(s) for catalog exchange.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Catalog Exchange API from Ankorstore — 3 operation(s) for catalog exchange.
   name: Ankorstore Catalog Exchange API
   slug: ankorstore-catalog-exchange-api
-- description: '## 👋 Getting Started The catalogue integration process relies on the concept of operations. An operation is a batch of records representing the products to create, update or delete. The completion sta'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: '## 👋 Getting Started The catalogue integration process relies on the concept of operations. An operation is a batch of records representing the products to create, update or delete. The completion sta'
   name: Ankorstore Catalog Integrations API
   slug: ankorstore-catalog-integrations-api
-- description: ℹ️ Here you can find the endpoints which are currently deprecated and will be removed in the future versions of the API. We strongly encourage you to migrate away from these endpoints in order to prev
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: ℹ️ Here you can find the endpoints which are currently deprecated and will be removed in the future versions of the API. We strongly encourage you to migrate away from these endpoints in order to prev
   name: Ankorstore Deprecated API
   slug: ankorstore-deprecated-api
-- description: 'ℹ️ Here you can find the information and endpoint specification related to fulfillment of the orders. ## 💡 About Fulfillment _Fulfillment_ is the process of preparing and shipping orders to customers '
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ Here you can find the information and endpoint specification related to fulfillment of the orders. ## 💡 About Fulfillment _Fulfillment_ is the process of preparing and shipping orders to customers '
   name: Ankorstore Fulfillment API
   slug: ankorstore-fulfillment-api
-- description: 'ℹ️ This section contains general-purpose endpoints that are transversal to the system. These endpoints provide reference data useful across different integration scenarios. ## 💡 Currency Rates The cur'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ This section contains general-purpose endpoints that are transversal to the system. These endpoints provide reference data useful across different integration scenarios. ## 💡 Currency Rates The cur'
   name: Ankorstore General API
   slug: ankorstore-general-api
-- description: The Integration API from Ankorstore — 1 operation(s) for integration.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Integration API from Ankorstore — 1 operation(s) for integration.
   name: Ankorstore Integration API
   slug: ankorstore-integration-api
-- description: The Locations API from Ankorstore — 1 operation(s) for locations.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Locations API from Ankorstore — 1 operation(s) for locations.
   name: Ankorstore Locations API
   slug: ankorstore-locations-api
-- description: Operations for documents linked to fulfillment requests
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: Operations for documents linked to fulfillment requests
   name: Ankorstore Media API
   slug: ankorstore-media-api
-- description: The Movements API from Ankorstore — 2 operation(s) for movements.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Movements API from Ankorstore — 2 operation(s) for movements.
   name: Ankorstore Movements API
   slug: ankorstore-movements-api
-- description: ℹ️ This section of API allows to manage different types of orders in the system. Depending on the order type, there are different endpoints available to manage them. Before starting to work with the A
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: ℹ️ This section of API allows to manage different types of orders in the system. Depending on the order type, there are different endpoints available to manage them. Before starting to work with the A
   name: Ankorstore Ordering API
   slug: ankorstore-ordering-api
-- description: ℹ️ This section describes the API endpoints for managing _OrderPay_ orders and customers. OrderPay allows brands to create and manage orders for their own customers, handle payments, and track order l
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: ℹ️ This section describes the API endpoints for managing _OrderPay_ orders and customers. OrderPay allows brands to create and manage orders for their own customers, handle payments, and track order l
   name: Ankorstore OrderPay API
   slug: ankorstore-orderpay-api
-- description: ℹ️ Here your can find endpoints related to different types of shipping, available on the platform. <div class="warning"> Please note, that shipping information described here is only available for _In
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: ℹ️ Here your can find endpoints related to different types of shipping, available on the platform. <div class="warning"> Please note, that shipping information described here is only available for _In
   name: Ankorstore Shipping API
   slug: ankorstore-shipping-api
-- description: The State API from Ankorstore — 1 operation(s) for state.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The State API from Ankorstore — 1 operation(s) for state.
   name: Ankorstore State API
   slug: ankorstore-state-api
-- description: The Stock Management API from Ankorstore — 1 operation(s) for stock management.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Stock Management API from Ankorstore — 1 operation(s) for stock management.
   name: Ankorstore Stock Management API
   slug: ankorstore-stock-management-api
-- description: 'ℹ️ This section is dedicated to the testing API during development process. The listed endpoints are **not available** on production environment. ### Creating Test Orders When using the public sandbox'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ This section is dedicated to the testing API during development process. The listed endpoints are **not available** on production environment. ### Creating Test Orders When using the public sandbox'
   name: Ankorstore Testing API
   slug: ankorstore-testing-api
-- description: 'ℹ️ This section describes the API endpoints for retrieving user and platform configuration. ## 💡 User Configuration The user configuration endpoints return locale and currency settings for the authent'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ This section describes the API endpoints for retrieving user and platform configuration. ## 💡 User Configuration The user configuration endpoints return locale and currency settings for the authent'
   name: Ankorstore User API
   slug: ankorstore-user-api
-- description: The Users API from Ankorstore — 1 operation(s) for users.
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: The Users API from Ankorstore — 1 operation(s) for users.
   name: Ankorstore Users API
   slug: ankorstore-users-api
-- description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
+- baseURL: https://www.ankorstore.com
+  baseurl_source: declared
+  description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
   name: Ankorstore Webhooks API
   slug: ankorstore-webhooks-api
 artifact_total: 47
@@ -308,7 +350,7 @@ score:
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -318,7 +360,7 @@ score:
     discoverability: 63.0
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 41.1
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -329,7 +371,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:

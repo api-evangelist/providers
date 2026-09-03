@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -36,55 +49,89 @@ apis:
 - description: The Quantum API — a GraphQL query surface over the Quantum digital twin graph, letting clients query buildings, floors, zones, surfaces, equipment, components, properties and time-series data from the
   name: Quantum GraphQL API
   slug: quantum-graphql-api
-- description: Routes related to user account management.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to user account management.
   name: PassiveLogic Account API
   slug: passivelogic-account-api
-- description: The api API from PassiveLogic — 2 operation(s) for api.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: The api API from PassiveLogic — 2 operation(s) for api.
   name: PassiveLogic API
   slug: passivelogic-api-api
-- description: The app API from PassiveLogic — 20 operation(s) for app.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: The app API from PassiveLogic — 20 operation(s) for app.
   name: PassiveLogic App API
   slug: passivelogic-app-api
-- description: Routes related to AuthGroup management.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to AuthGroup management.
   name: PassiveLogic Auth Groups API
   slug: passivelogic-auth-groups-api
-- description: Routes related to user auth
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to user auth
   name: PassiveLogic Authentication API
   slug: passivelogic-authentication-api
-- description: Routes related to Binding management.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to Binding management.
   name: PassiveLogic Bindings API
   slug: passivelogic-bindings-api
-- description: The Default API from PassiveLogic — 1 operation(s) for default.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: The Default API from PassiveLogic — 1 operation(s) for default.
   name: PassiveLogic Default API
   slug: passivelogic-default-api
-- description: Routes related to exporting objects and history
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to exporting objects and history
   name: PassiveLogic Export API
   slug: passivelogic-export-api
-- description: Routes related to the GraphQL API
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to the GraphQL API
   name: PassiveLogic Graph QL API
   slug: passivelogic-graphql-api
-- description: Routes related to server health checks
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to server health checks
   name: PassiveLogic Health API
   slug: passivelogic-health-api
-- description: Routes related to Image management
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to Image management
   name: PassiveLogic Images API
   slug: passivelogic-images-api
-- description: Routes related to organization management
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to organization management
   name: PassiveLogic Organization API
   slug: passivelogic-organization-api
-- description: Routes related to PassiveLogic devices
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to PassiveLogic devices
   name: PassiveLogic PassiveLogic Device API
   slug: passivelogic-passivelogic-device-api
-- description: Routes related to quantum sync
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to quantum sync
   name: PassiveLogic Quantum Sync API
   slug: passivelogic-quantum-sync-api
-- description: Routes related to site objects
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to site objects
   name: PassiveLogic Site API
   slug: passivelogic-site-api
-- description: The tunnel API from PassiveLogic — 2 operation(s) for tunnel.
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: The tunnel API from PassiveLogic — 2 operation(s) for tunnel.
   name: PassiveLogic Tunnel API
   slug: passivelogic-tunnel-api
-- description: Routes related to server metadata/utility
+- baseURL: https://passivelogic.com/api/
+  baseurl_source: declared
+  description: Routes related to server metadata/utility
   name: PassiveLogic Utility API
   slug: passivelogic-utility-api
 artifact_total: 42
@@ -288,7 +335,7 @@ score:
     catalog_gap: 76.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -298,7 +345,7 @@ score:
     discoverability: 68.5
     governance: 8.3
     operational_transparency: 18.4
-  previous_composite: 39.5
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,7 +362,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:

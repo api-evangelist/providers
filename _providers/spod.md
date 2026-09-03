@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 23 operations · 12 acting
 api_count: 1
 apis:
-- description: The Articles API from SPOD — 2 operation(s) for articles.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Articles API from SPOD — 2 operation(s) for articles.
   name: SPOD Articles API
   slug: spod-articles-api
-- description: The Common API from SPOD — 1 operation(s) for common.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Common API from SPOD — 1 operation(s) for common.
   name: SPOD Common API
   slug: spod-common-api
-- description: The Orders API from SPOD — 4 operation(s) for orders.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Orders API from SPOD — 4 operation(s) for orders.
   name: SPOD Orders API
   slug: spod-orders-api
-- description: The Product Types API from SPOD — 2 operation(s) for product types.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Product Types API from SPOD — 2 operation(s) for product types.
   name: SPOD Product Types API
   slug: spod-product-types-api
-- description: The Shipping API from SPOD — 3 operation(s) for shipping.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Shipping API from SPOD — 3 operation(s) for shipping.
   name: SPOD Shipping API
   slug: spod-shipping-api
-- description: The Stock API from SPOD — 2 operation(s) for stock.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Stock API from SPOD — 2 operation(s) for stock.
   name: SPOD Stock API
   slug: spod-stock-api
-- description: The Subscriptions API from SPOD — 5 operation(s) for subscriptions.
+- baseURL: https://rest.spod.com
+  baseurl_source: declared
+  description: The Subscriptions API from SPOD — 5 operation(s) for subscriptions.
   name: SPOD Subscriptions API
   slug: spod-subscriptions-api
 artifact_total: 23
@@ -172,7 +186,7 @@ score:
   band: thin
   composite: 35.3
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spod/refs/heads/main/screenshots/spod-2026-09-02T160535.png
 security:
 - kind: authentication
   name: Spod Authentication

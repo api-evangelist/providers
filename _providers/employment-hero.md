@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,34 +49,54 @@ apis:
 - description: Employment Hero Payroll (formerly KeyPay) REST API for managing businesses, employees, pay runs, leave, timesheets, super, tax, and reporting across the AU, UK, NZ, and SG payroll regions.
   name: Employment Hero Payroll API (KeyPay)
   slug: payroll-api
-- description: The Bank Accounts API from Employment Hero — 1 operation(s) for bank accounts.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Bank Accounts API from Employment Hero — 1 operation(s) for bank accounts.
   name: Employment Hero Bank Accounts API
   slug: employment-hero-bank-accounts-api
-- description: The Certifications API from Employment Hero — 5 operation(s) for certifications.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Certifications API from Employment Hero — 5 operation(s) for certifications.
   name: Employment Hero Certifications API
   slug: employment-hero-certifications-api
-- description: The Cost Centres API from Employment Hero — 1 operation(s) for cost centres.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Cost Centres API from Employment Hero — 1 operation(s) for cost centres.
   name: Employment Hero Cost Centres API
   slug: employment-hero-cost-centres-api
-- description: The Custom Fields API from Employment Hero — 1 operation(s) for custom fields.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Custom Fields API from Employment Hero — 1 operation(s) for custom fields.
   name: Employment Hero Custom Fields API
   slug: employment-hero-custom-fields-api
-- description: The Departments API from Employment Hero — 2 operation(s) for departments.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Departments API from Employment Hero — 2 operation(s) for departments.
   name: Employment Hero Departments API
   slug: employment-hero-departments-api
-- description: The Documents API from Employment Hero — 1 operation(s) for documents.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Documents API from Employment Hero — 1 operation(s) for documents.
   name: Employment Hero Documents API
   slug: employment-hero-documents-api
-- description: The Emergency Contacts API from Employment Hero — 1 operation(s) for emergency contacts.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Emergency Contacts API from Employment Hero — 1 operation(s) for emergency contacts.
   name: Employment Hero Emergency Contacts API
   slug: employment-hero-emergency-contacts-api
-- description: The Employees API from Employment Hero — 3 operation(s) for employees.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Employees API from Employment Hero — 3 operation(s) for employees.
   name: Employment Hero Employees API
   slug: employment-hero-employees-api
-- description: The Forms API from Employment Hero — 4 operation(s) for forms.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Forms API from Employment Hero — 4 operation(s) for forms.
   name: Employment Hero Forms API
   slug: employment-hero-forms-api
-- description: The Job Histories API from Employment Hero — 1 operation(s) for job histories.
+- baseURL: https://api.employmenthero.com/api/v1
+  baseurl_source: declared
+  description: The Job Histories API from Employment Hero — 1 operation(s) for job histories.
   name: Employment Hero Job Histories API
   slug: employment-hero-job-histories-api
 artifact_total: 29
@@ -219,7 +239,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/employment-hero/refs/heads/main/screenshots/employment-hero-2026-06-20T180642.png
 security:

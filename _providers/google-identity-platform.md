@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The OAuth Configuration API allows developers to programmatically manage OAuth identity provider configurations for Identity Platform projects. It supports configuring Google, Facebook, Apple, Microso
   name: Identity Platform OAuth Configuration API
   slug: identity-platform-oauth-configuration-api
-- description: User account operations
+- baseURL: https://identitytoolkit.googleapis.com
+  baseurl_source: declared
+  description: User account operations
   name: Google Identity Platform Accounts API
   slug: google-identity-platform-accounts-api
 artifact_total: 16
@@ -188,7 +190,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-identity-platform/refs/heads/main/screenshots/google-identity-platform-2026-06-20T182213.png
 security:

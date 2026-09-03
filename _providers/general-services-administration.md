@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 31
 apis:
 - description: Provides programmatic access to acquisition gateway listings. Currently a placeholder; APIs are not yet available.
@@ -202,7 +202,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/screenshots/general-services-administration-2026-06-20T181728.png
 security:

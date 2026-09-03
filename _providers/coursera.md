@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: API for affiliate marketing partners to retrieve catalog data and tracking links.
   name: Coursera Affiliate API
   slug: affiliate-api
-- description: Public catalog browsing
+- baseURL: https://api.coursera.org
+  baseurl_source: declared
+  description: Public catalog browsing
   name: Coursera Catalog API
   slug: coursera-catalog-api
 artifact_total: 12
@@ -170,7 +172,7 @@ score:
     regime_id: education
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/screenshots/coursera-2026-06-20T175124.png
 security:

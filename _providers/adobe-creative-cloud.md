@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -59,7 +59,9 @@ apis:
 - description: A REST API for creating and managing electronic signature workflows programmatically. The API supports document upload, agreement creation with configurable signing flows, real-time status tracking vi
   name: Acrobat Sign API
   slug: acrobat-sign-api
-- description: Adobe I/O Events provides an event-driven webhook infrastructure for subscribing to changes across Adobe services. Developers register webhook endpoints to receive real-time HTTP POST notifications wh
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Adobe I/O Events provides an event-driven webhook infrastructure for subscribing to changes across Adobe services. Developers register webhook endpoints to receive real-time HTTP POST notifications wh
   name: Adobe I/O Events
   slug: io-events
 - description: A serverless computing platform built on Apache OpenWhisk that enables developers to deploy and execute custom code on Adobe's cloud infrastructure. I/O Runtime supports event-driven and HTTP-triggere
@@ -83,37 +85,59 @@ apis:
 - description: 'The Adobe Developer Distribution portal for publishing and managing plugins and extensions in the Creative Cloud Marketplace and Adobe Exchange. Supports UXP plugins, CEP extensions (ZXP format), and '
   name: Adobe Developer Distribution
   slug: developer-distribution
-- description: Upload and manage document assets.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Upload and manage document assets.
   name: Adobe Creative Cloud Assets API
   slug: adobe-creative-cloud-assets-api
-- description: Operations on library elements (assets).
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Operations on library elements (assets).
   name: Adobe Creative Cloud Elements API
   slug: adobe-creative-cloud-elements-api
-- description: Extract content from PDF documents.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Extract content from PDF documents.
   name: Adobe Creative Cloud Extraction API
   slug: adobe-creative-cloud-extraction-api
-- description: Generative fill, expand, and editing operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Generative fill, expand, and editing operations.
   name: Adobe Creative Cloud Image Editing API
   slug: adobe-creative-cloud-image-editing-api
-- description: Text-to-image and image generation operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Text-to-image and image generation operations.
   name: Adobe Creative Cloud Image Generation API
   slug: adobe-creative-cloud-image-generation-api
-- description: Operations on Creative Cloud Libraries.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Operations on Creative Cloud Libraries.
   name: Adobe Creative Cloud Libraries API
   slug: adobe-creative-cloud-libraries-api
-- description: Asset licensing and download operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Asset licensing and download operations.
   name: Adobe Creative Cloud Licensing API
   slug: adobe-creative-cloud-licensing-api
-- description: Member profile and license history operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Member profile and license history operations.
   name: Adobe Creative Cloud Member API
   slug: adobe-creative-cloud-member-api
-- description: Create, convert, and manipulate PDF documents.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Create, convert, and manipulate PDF documents.
   name: Adobe Creative Cloud PDF Operations API
   slug: adobe-creative-cloud-pdf-operations-api
-- description: Asset search and discovery operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Asset search and discovery operations.
   name: Adobe Creative Cloud Search API
   slug: adobe-creative-cloud-search-api
-- description: Upload and utility operations.
+- baseURL: https://firefly-api.adobe.io/v2
+  baseurl_source: declared
+  description: Upload and utility operations.
   name: Adobe Creative Cloud Utilities API
   slug: adobe-creative-cloud-utilities-api
 arazzos:
@@ -701,7 +725,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -714,7 +738,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 53.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -723,7 +747,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/screenshots/adobe-creative-cloud-2026-07-25T181653.png
 security:

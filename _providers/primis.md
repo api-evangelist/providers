@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 42 operations · 25 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Auth API from PRIMIS — 6 operation(s) for auth.
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: The Auth API from PRIMIS — 6 operation(s) for auth.
   name: PRIMIS Auth API
   slug: primis-auth-api
-- description: Billing API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Billing API
   name: PRIMIS Billing API
   slug: primis-billing-api
-- description: Campaign API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Campaign API
   name: PRIMIS Campaign API
   slug: primis-campaign-api
-- description: Documents API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Documents API
   name: PRIMIS Document API
   slug: primis-document-api
-- description: FAQ API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: FAQ API
   name: PRIMIS FAQ API
   slug: primis-faq-api
-- description: Index API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Index API
   name: PRIMIS Index API
   slug: primis-index-api
-- description: The Invitation API from PRIMIS — 3 operation(s) for invitation.
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: The Invitation API from PRIMIS — 3 operation(s) for invitation.
   name: PRIMIS Invitation API
   slug: primis-invitation-api
-- description: Order API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Order API
   name: PRIMIS Order API
   slug: primis-order-api
-- description: Product API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Product API
   name: PRIMIS Product API
   slug: primis-product-api
-- description: Retailer API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Retailer API
   name: PRIMIS Retailer API
   slug: primis-retailer-api
-- description: Tracking Context API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: Tracking Context API
   name: PRIMIS Tracking API
   slug: primis-tracking-api
-- description: User API
+- baseURL: https://api.primis.cx
+  baseurl_source: declared
+  description: User API
   name: PRIMIS User API
   slug: primis-user-api
 artifact_total: 29
@@ -206,7 +230,7 @@ score:
   band: thin
   composite: 35.7
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -231,8 +255,9 @@ score:
       total: 12
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/primis/refs/heads/main/screenshots/primis-2026-09-02T152023.png
 security:
 - kind: authentication
   name: Primis Authentication

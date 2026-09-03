@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 38 operations · 16 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: The controller API from ZeroTier — 6 operation(s) for controller.
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: The controller API from ZeroTier — 6 operation(s) for controller.
   name: ZeroTier controller API
   slug: zerotier-controller-api
-- description: Network operations
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: Network operations
   name: ZeroTier network API
   slug: zerotier-network-api
-- description: Network member operations
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: Network member operations
   name: ZeroTier network-member API
   slug: zerotier-network-member-api
-- description: 'Organization management. Note: Organizations require a paid account and cannot be created via the API'
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: 'Organization management. Note: Organizations require a paid account and cannot be created via the API'
   name: ZeroTier organizations API
   slug: zerotier-organizations-api
-- description: peer status
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: peer status
   name: ZeroTier peer API
   slug: zerotier-peer-api
-- description: status
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: status
   name: ZeroTier status API
   slug: zerotier-status-api
-- description: User management operations
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: User management operations
   name: ZeroTier user API
   slug: zerotier-user-api
-- description: Utility endpoints
+- baseURL: https://api.zerotier.com/api/v1
+  baseurl_source: declared
+  description: Utility endpoints
   name: ZeroTier util API
   slug: zerotier-util-api
 artifact_total: 32
@@ -325,7 +341,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -335,7 +351,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,7 +363,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/screenshots/zerotier-2026-08-17T083100.png
 security:

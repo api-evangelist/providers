@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -48,25 +48,39 @@ apis:
 - description: MailerSend API v1 provides RESTful endpoints for sending emails (single, bulk, scheduled), templates, domains, recipients, suppression lists, webhooks, analytics, SMS, and inbound routing.
   name: MailerSend API
   slug: mailersend-api
-- description: The Bulk Email API from MailerSend — 2 operation(s) for bulk email.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Bulk Email API from MailerSend — 2 operation(s) for bulk email.
   name: MailerSend Bulk Email API
   slug: mailersend-bulk-email-api
-- description: The Domains API from MailerSend — 2 operation(s) for domains.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Domains API from MailerSend — 2 operation(s) for domains.
   name: MailerSend Domains API
   slug: mailersend-domains-api
-- description: The Email API from MailerSend — 1 operation(s) for email.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Email API from MailerSend — 1 operation(s) for email.
   name: MailerSend Email API
   slug: mailersend-email-api
-- description: The Messages API from MailerSend — 2 operation(s) for messages.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Messages API from MailerSend — 2 operation(s) for messages.
   name: MailerSend Messages API
   slug: mailersend-messages-api
-- description: The Sender Identities API from MailerSend — 1 operation(s) for sender identities.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Sender Identities API from MailerSend — 1 operation(s) for sender identities.
   name: MailerSend Sender Identities API
   slug: mailersend-sender-identities-api
-- description: The Templates API from MailerSend — 2 operation(s) for templates.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Templates API from MailerSend — 2 operation(s) for templates.
   name: MailerSend Templates API
   slug: mailersend-templates-api
-- description: The Webhooks API from MailerSend — 2 operation(s) for webhooks.
+- baseURL: https://api.mailersend.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from MailerSend — 2 operation(s) for webhooks.
   name: MailerSend Webhooks API
   slug: mailersend-webhooks-api
 artifact_total: 27
@@ -280,7 +294,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -290,7 +304,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 61.5
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,7 +322,7 @@ score:
     regime_id: telecommunications
     score: 52.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/screenshots/mailersend-2026-06-20T184858.png
 security:

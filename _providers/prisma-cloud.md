@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Prisma Cloud by Palo Alto Networks provides comprehensive cloud native security across the full application lifecycle, including vulnerability management, compliance, runtime protection, and cloud sec
   name: Prisma Cloud
   slug: prisma-cloud
-- description: Login and JWT token lifecycle for Prisma Cloud CSPM.
+- baseURL_template: https://{stack}.prismacloud.io
+  baseurl_source: spec_template
+  description: Login and JWT token lifecycle for Prisma Cloud CSPM.
   name: Prisma Cloud Authentication API
   slug: prisma-cloud-authentication-api
 artifact_total: 12
@@ -166,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/screenshots/prisma-cloud-2026-06-20T192110.png
 security:

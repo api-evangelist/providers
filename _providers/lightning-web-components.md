@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Core JavaScript APIs for building Lightning Web Components including decorators, wire service, and component lifecycle methods.
@@ -231,7 +231,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-web-components/refs/heads/main/screenshots/lightning-web-components-2026-06-20T184521.png
 security:

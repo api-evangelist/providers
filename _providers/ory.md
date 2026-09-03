@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -47,7 +47,9 @@ apis:
 - description: The api API from Ory — 4 operation(s) for api.
   name: Ory api API
   slug: ory-api-api
-- description: APIs for managing email and SMS message delivery.
+- baseURL_template: https://{project-slug}.projects.oryapis.com
+  baseurl_source: spec_template
+  description: APIs for managing email and SMS message delivery.
   name: Ory courier API
   slug: ory-courier-api
 - description: Endpoints used by frontend applications (e.g. Single-Page-App, Native Apps, Server Apps, ...) to manage a user's own profile.
@@ -77,37 +79,59 @@ apis:
 - description: Well-Known Endpoints
   name: Ory wellknown API
   slug: ory-wellknown-api
-- description: Ory Network workspace / project subscriptions.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Ory Network workspace / project subscriptions.
   name: Ory Billing API
   slug: ory-billing-api
-- description: Ory Network event stream configuration.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Ory Network event stream configuration.
   name: Ory Event Streams API
   slug: ory-event-streams-api
-- description: Privileged Kratos identity and session management.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Privileged Kratos identity and session management.
   name: Ory Identity (Admin) API
   slug: ory-identity-admin-api
-- description: Public Kratos flows for login, registration, recovery, verification, settings, logout, and sessions.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Public Kratos flows for login, registration, recovery, verification, settings, logout, and sessions.
   name: Ory Identity (Self-Service) API
   slug: ory-identity-self-service-api
-- description: Privileged Hydra client, token, consent, and key management.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Privileged Hydra client, token, consent, and key management.
   name: Ory OAuth2 (Admin) API
   slug: ory-oauth2-admin-api
-- description: Public OAuth2 / OpenID Connect provider endpoints (Hydra).
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Public OAuth2 / OpenID Connect provider endpoints (Hydra).
   name: Ory OAuth2 (Public) API
   slug: ory-oauth2-public-api
-- description: B2B organization management for SSO.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: B2B organization management for SSO.
   name: Ory Organizations API
   slug: ory-organizations-api
-- description: Keto permission checks, expand, and namespace reads.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Keto permission checks, expand, and namespace reads.
   name: Ory Permissions API
   slug: ory-permissions-api
-- description: Ory Network project API token management.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Ory Network project API token management.
   name: Ory Project Tokens API
   slug: ory-project-tokens-api
-- description: Ory Network Console project management.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Ory Network Console project management.
   name: Ory Projects API
   slug: ory-projects-api
-- description: Keto relationship-tuple writes and OPL syntax checks.
+- baseURL: https://{project-slug}.projects.oryapis.com
+  baseurl_source: declared
+  description: Keto relationship-tuple writes and OPL syntax checks.
   name: Ory Relationships API
   slug: ory-relationships-api
 artifact_total: 61
@@ -308,18 +332,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.4
+  composite: 41.6
   coverage:
     artifact_dirs: 11
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 49.1
+    contract_quality: 50.1
     developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 0.0
@@ -336,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:

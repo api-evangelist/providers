@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Realtime text-to-speech API supporting streaming HTTP, WebSocket, and SSE delivery for Arcana and Mist models. Authentication via API key. Audio formats include MP3, mu-law, OGG, and WAV. List voice a
   name: Rime TTS API
   slug: tts
-- description: The Plants API from Rime — 2 operation(s) for plants.
+- baseURL: https://users.rime.ai
+  baseurl_source: declared
+  description: The Plants API from Rime — 2 operation(s) for plants.
   name: Rime Plants API
   slug: rime-ai-plants-api
 artifact_total: 11
@@ -154,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rime-ai/refs/heads/main/screenshots/rime-ai-2026-06-20T193201.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 141 operations · 90 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Assignment operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Assignment operations
   name: iSpring Learn assignments API
   slug: ispring-assignments-api
-- description: Certificate operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Certificate operations
   name: iSpring Learn certificate API
   slug: ispring-certificate-api
-- description: Content operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Content operations
   name: iSpring Learn content API
   slug: ispring-content-api
-- description: Department operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Department operations
   name: iSpring Learn department API
   slug: ispring-department-api
-- description: The departments API from iSpring Learn — 1 operation(s) for departments.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The departments API from iSpring Learn — 1 operation(s) for departments.
   name: iSpring Learn departments API
   slug: ispring-departments-api
-- description: Enrollment operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Enrollment operations
   name: iSpring Learn enrollment API
   slug: ispring-enrollment-api
-- description: Gamification operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Gamification operations
   name: iSpring Learn gamification API
   slug: ispring-gamification-api
-- description: Group operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Group operations
   name: iSpring Learn group API
   slug: ispring-group-api
-- description: The jobtraining API from iSpring Learn — 4 operation(s) for jobtraining.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The jobtraining API from iSpring Learn — 4 operation(s) for jobtraining.
   name: iSpring Learn jobtraining API
   slug: ispring-jobtraining-api
-- description: Learning track operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Learning track operations
   name: iSpring Learn learning_track API
   slug: ispring-learning-track-api
-- description: The performance-management API from iSpring Learn — 37 operation(s) for performance-management.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The performance-management API from iSpring Learn — 37 operation(s) for performance-management.
   name: iSpring Learn performance-management API
   slug: ispring-performance-management-api
-- description: The quizzes API from iSpring Learn — 2 operation(s) for quizzes.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The quizzes API from iSpring Learn — 2 operation(s) for quizzes.
   name: iSpring Learn quizzes API
   slug: ispring-quizzes-api
-- description: The report API from iSpring Learn — 2 operation(s) for report.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The report API from iSpring Learn — 2 operation(s) for report.
   name: iSpring Learn report API
   slug: ispring-report-api
-- description: User result data operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: User result data operations
   name: iSpring Learn results API
   slug: ispring-results-api
-- description: The statistics API from iSpring Learn — 2 operation(s) for statistics.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The statistics API from iSpring Learn — 2 operation(s) for statistics.
   name: iSpring Learn statistics API
   slug: ispring-statistics-api
-- description: Async method operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Async method operations
   name: iSpring Learn task API
   slug: ispring-task-api
-- description: Retrieve access tokens
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Retrieve access tokens
   name: iSpring Learn token API
   slug: ispring-token-api
-- description: Training operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: Training operations
   name: iSpring Learn training API
   slug: ispring-training-api
-- description: User operations
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: User operations
   name: iSpring Learn user API
   slug: ispring-user-api
-- description: The webhook API from iSpring Learn — 11 operation(s) for webhook.
+- baseURL: https://api-learn.ispringlearn.com
+  baseurl_source: declared
+  description: The webhook API from iSpring Learn — 11 operation(s) for webhook.
   name: iSpring Learn webhook API
   slug: ispring-webhook-api
 artifact_total: 242
@@ -872,7 +912,7 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -882,7 +922,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 51.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -897,7 +937,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:

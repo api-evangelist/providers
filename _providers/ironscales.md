@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,37 +36,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
   name: IRONSCALES MCP Server
   slug: ironscales-mcp-server
-- description: The Authorization API from IRONSCALES — 1 operation(s) for authorization.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Authorization API from IRONSCALES — 1 operation(s) for authorization.
   name: IRONSCALES Authorization API
   slug: ironscales-authorization-api
-- description: The Campaigns API from IRONSCALES — 3 operation(s) for campaigns.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Campaigns API from IRONSCALES — 3 operation(s) for campaigns.
   name: IRONSCALES Campaigns API
   slug: ironscales-campaigns-api
-- description: The Deepfake API from IRONSCALES — 1 operation(s) for deepfake.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Deepfake API from IRONSCALES — 1 operation(s) for deepfake.
   name: IRONSCALES Deepfake API
   slug: ironscales-deepfake-api
-- description: The Emails API from IRONSCALES — 1 operation(s) for emails.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Emails API from IRONSCALES — 1 operation(s) for emails.
   name: IRONSCALES Emails API
   slug: ironscales-emails-api
-- description: The Incident API from IRONSCALES — 10 operation(s) for incident.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Incident API from IRONSCALES — 10 operation(s) for incident.
   name: IRONSCALES Incident API
   slug: ironscales-incident-api
-- description: The Mailboxes API from IRONSCALES — 3 operation(s) for mailboxes.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Mailboxes API from IRONSCALES — 3 operation(s) for mailboxes.
   name: IRONSCALES Mailboxes API
   slug: ironscales-mailboxes-api
-- description: The Mitigation API from IRONSCALES — 8 operation(s) for mitigation.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Mitigation API from IRONSCALES — 8 operation(s) for mitigation.
   name: IRONSCALES Mitigation API
   slug: ironscales-mitigation-api
-- description: The SAT API from IRONSCALES — 15 operation(s) for sat.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The SAT API from IRONSCALES — 15 operation(s) for sat.
   name: IRONSCALES SAT API
   slug: ironscales-sat-api
-- description: The Settings API from IRONSCALES — 4 operation(s) for settings.
+- baseURL: https://appapi.ironscales.com/appapi
+  baseurl_source: declared
+  description: The Settings API from IRONSCALES — 4 operation(s) for settings.
   name: IRONSCALES Settings API
   slug: ironscales-settings-api
 artifact_total: 27
@@ -284,7 +314,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 35 operations · 24 acting · 24 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Luxury Presence — 5 operation(s) for agents.
+- baseURL: https://api.luxurypresence.com
+  baseurl_source: declared
+  description: The Agents API from Luxury Presence — 5 operation(s) for agents.
   name: Luxury Presence Agents API
   slug: luxury-presence-agents-api
-- description: The Media API from Luxury Presence — 1 operation(s) for media.
+- baseURL: https://api.luxurypresence.com
+  baseurl_source: declared
+  description: The Media API from Luxury Presence — 1 operation(s) for media.
   name: Luxury Presence Media API
   slug: luxury-presence-media-api
-- description: The Offices API from Luxury Presence — 5 operation(s) for offices.
+- baseURL: https://api.luxurypresence.com
+  baseurl_source: declared
+  description: The Offices API from Luxury Presence — 5 operation(s) for offices.
   name: Luxury Presence Offices API
   slug: luxury-presence-offices-api
-- description: The Teams API from Luxury Presence — 5 operation(s) for teams.
+- baseURL: https://api.luxurypresence.com
+  baseurl_source: declared
+  description: The Teams API from Luxury Presence — 5 operation(s) for teams.
   name: Luxury Presence Teams API
   slug: luxury-presence-teams-api
-- description: The Webhooks API from Luxury Presence — 3 operation(s) for webhooks.
+- baseURL: https://api.luxurypresence.com
+  baseurl_source: declared
+  description: The Webhooks API from Luxury Presence — 3 operation(s) for webhooks.
   name: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
 artifact_total: 16
@@ -215,7 +225,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -225,7 +235,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 40.7
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +247,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:

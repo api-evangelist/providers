@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 9 acting
 api_count: 1
 apis:
-- description: Manage heartbeat monitors for cron jobs and background workers
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage heartbeat monitors for cron jobs and background workers
   name: Better Uptime Heartbeats API
   slug: betteruptime-heartbeats-api
-- description: View and manage incidents triggered by monitors
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: View and manage incidents triggered by monitors
   name: Better Uptime Incidents API
   slug: betteruptime-incidents-api
-- description: Manage uptime monitors for websites and services
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage uptime monitors for websites and services
   name: Better Uptime Monitors API
   slug: betteruptime-monitors-api
-- description: Manage public status pages for communicating service health
+- baseURL: https://uptime.betterstack.com/api/v2
+  baseurl_source: declared
+  description: Manage public status pages for communicating service health
   name: Better Uptime Status Pages API
   slug: betteruptime-status-pages-api
 artifact_total: 27
@@ -247,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betteruptime/refs/heads/main/screenshots/betteruptime-2026-06-20T173208.png
 security:

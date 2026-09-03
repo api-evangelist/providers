@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -50,145 +50,239 @@ apis:
 - description: 'The RWTH IT Center operates the central Single Sign-On at sso.rwth-aachen.de, offering OAuth2 and OpenID Connect for web and mobile application authorization (Device, Implicit, and Refresh grants) as '
   name: RWTH Single Sign-On (OAuth2 / OpenID Connect / Shibboleth)
   slug: sso
-- description: Endpoints for admin functionality.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for admin functionality.
   name: RWTH Aachen University Admin API
   slug: rwth-aachen-university-admin-api
-- description: Endpoints for the applications profiles.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the applications profiles.
   name: RWTH Aachen University ApplicationProfile API
   slug: rwth-aachen-university-applicationprofile-api
-- description: Endpoints for the Binary Large Objects (BLOBs).
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the Binary Large Objects (BLOBs).
   name: RWTH Aachen University Blob API
   slug: rwth-aachen-university-blob-api
-- description: Controller for generating and downloading project-related reports.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Controller for generating and downloading project-related reports.
   name: RWTH Aachen University DataHamsterReport API
   slug: rwth-aachen-university-datahamsterreport-api
-- description: Endpoints for the disciplines.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the disciplines.
   name: RWTH Aachen University Discipline API
   slug: rwth-aachen-university-discipline-api
-- description: Controller for managing storage operations for project resources.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Controller for managing storage operations for project resources.
   name: RWTH Aachen University Graph API
   slug: rwth-aachen-university-graph-api
-- description: Controller for managing metadata version history and retrieval for project resources and graph nodes.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Controller for managing metadata version history and retrieval for project resources and graph nodes.
   name: RWTH Aachen University GraphMetadata API
   slug: rwth-aachen-university-graphmetadata-api
-- description: Controller responsible for accessing and managing RDF metadata content associated with specific graph nodes of a project resource.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Controller responsible for accessing and managing RDF metadata content associated with specific graph nodes of a project resource.
   name: RWTH Aachen University GraphMetadataContent API
   slug: rwth-aachen-university-graphmetadatacontent-api
-- description: Endpoints for the handles.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the handles.
   name: RWTH Aachen University Handle API
   slug: rwth-aachen-university-handle-api
-- description: Endpoints for the languages.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the languages.
   name: RWTH Aachen University Language API
   slug: rwth-aachen-university-language-api
-- description: Endpoints for the licenses.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the licenses.
   name: RWTH Aachen University License API
   slug: rwth-aachen-university-license-api
-- description: Endpoints for the maintenances.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the maintenances.
   name: RWTH Aachen University Maintenance API
   slug: rwth-aachen-university-maintenance-api
-- description: Endpoints for the notifications.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the notifications.
   name: RWTH Aachen University Notification API
   slug: rwth-aachen-university-notification-api
-- description: Endpoints for the organizations.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the organizations.
   name: RWTH Aachen University Organization API
   slug: rwth-aachen-university-organization-api
-- description: Endpoints for the pids.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the pids.
   name: RWTH Aachen University Pid API
   slug: rwth-aachen-university-pid-api
-- description: Endpoints for the projects.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the projects.
   name: RWTH Aachen University Project API
   slug: rwth-aachen-university-project-api
-- description: Endpoints for the graphs of projects.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the graphs of projects.
   name: RWTH Aachen University ProjectGraphContent API
   slug: rwth-aachen-university-projectgraphcontent-api
-- description: Endpoints for the project invitations.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the project invitations.
   name: RWTH Aachen University ProjectInvitation API
   slug: rwth-aachen-university-projectinvitation-api
-- description: Endpoints for the project members.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the project members.
   name: RWTH Aachen University ProjectMember API
   slug: rwth-aachen-university-projectmember-api
-- description: Endpoints for the projects.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the projects.
   name: RWTH Aachen University ProjectPublicationRequest API
   slug: rwth-aachen-university-projectpublicationrequest-api
-- description: Endpoints for the project quotas.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the project quotas.
   name: RWTH Aachen University ProjectQuota API
   slug: rwth-aachen-university-projectquota-api
-- description: Endpoints for the project resources.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the project resources.
   name: RWTH Aachen University ProjectResource API
   slug: rwth-aachen-university-projectresource-api
-- description: Endpoints for the resource quotas.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the resource quotas.
   name: RWTH Aachen University ProjectResourceQuota API
   slug: rwth-aachen-university-projectresourcequota-api
-- description: Endpoints for the resource types.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the resource types.
   name: RWTH Aachen University ProjectResourceType API
   slug: rwth-aachen-university-projectresourcetype-api
-- description: Endpoints for the sub-projects.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the sub-projects.
   name: RWTH Aachen University ProjectSubProjects API
   slug: rwth-aachen-university-projectsubprojects-api
-- description: Endpoints for the provenance information.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the provenance information.
   name: RWTH Aachen University Provenance API
   slug: rwth-aachen-university-provenance-api
-- description: Endpoints for the publication services.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the publication services.
   name: RWTH Aachen University PublicationAdvisoryService API
   slug: rwth-aachen-university-publicationadvisoryservice-api
-- description: Controller for generating and downloading project-related reports.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Controller for generating and downloading project-related reports.
   name: RWTH Aachen University Report API
   slug: rwth-aachen-university-report-api
-- description: Endpoints for the resources.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the resources.
   name: RWTH Aachen University Resource API
   slug: rwth-aachen-university-resource-api
-- description: Endpoints for the graphs of resources.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the graphs of resources.
   name: RWTH Aachen University ResourceGraphContent API
   slug: rwth-aachen-university-resourcegraphcontent-api
-- description: Endpoints for the resource types.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the resource types.
   name: RWTH Aachen University ResourceType API
   slug: rwth-aachen-university-resourcetype-api
-- description: Endpoints for the gitlab resource types.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the gitlab resource types.
   name: RWTH Aachen University ResourceTypeGitLab API
   slug: rwth-aachen-university-resourcetypegitlab-api
-- description: Endpoints for the roles.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the roles.
   name: RWTH Aachen University Role API
   slug: rwth-aachen-university-role-api
-- description: Endpoints for search.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for search.
   name: RWTH Aachen University Search API
   slug: rwth-aachen-university-search-api
-- description: Endpoints for the current authenticated user.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the current authenticated user.
   name: RWTH Aachen University Self API
   slug: rwth-aachen-university-self-api
-- description: Endpoints for the api tokens of a user.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the api tokens of a user.
   name: RWTH Aachen University SelfApiToken API
   slug: rwth-aachen-university-selfapitoken-api
-- description: Endpoints for the current current session.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the current current session.
   name: RWTH Aachen University SelfSession API
   slug: rwth-aachen-university-selfsession-api
-- description: Provides endpoints for managing blob storage operations for project resources, such as checking existence and deleting files or folders.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Provides endpoints for managing blob storage operations for project resources, such as checking existence and deleting files or folders.
   name: RWTH Aachen University Storage API
   slug: rwth-aachen-university-storage-api
-- description: Provides endpoints for managing raw file content in blob storage for project resources, including downloading, uploading, and updating files.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Provides endpoints for managing raw file content in blob storage for project resources, including downloading, uploading, and updating files.
   name: RWTH Aachen University StorageContent API
   slug: rwth-aachen-university-storagecontent-api
-- description: Endpoints for system status messages.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for system status messages.
   name: RWTH Aachen University SystemStatus API
   slug: rwth-aachen-university-systemstatus-api
-- description: Endpoints for the titles.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the titles.
   name: RWTH Aachen University Title API
   slug: rwth-aachen-university-title-api
-- description: Endpoints for the terms of services (tos).
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the terms of services (tos).
   name: RWTH Aachen University Tos API
   slug: rwth-aachen-university-tos-api
-- description: Endpoints for the file and metadata trees.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the file and metadata trees.
   name: RWTH Aachen University Tree API
   slug: rwth-aachen-university-tree-api
-- description: Endpoints for the users.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the users.
   name: RWTH Aachen University User API
   slug: rwth-aachen-university-user-api
-- description: Endpoints for the user notification opt outs.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the user notification opt outs.
   name: RWTH Aachen University UserNotificationOptOut API
   slug: rwth-aachen-university-usernotificationoptout-api
-- description: Endpoints for the visibilities.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the visibilities.
   name: RWTH Aachen University Visibility API
   slug: rwth-aachen-university-visibility-api
-- description: Endpoints for the Endpoints for the vocabularies.
+- baseURL: https://coscine.rwth-aachen.de/coscine/api/
+  baseurl_source: declared
+  description: Endpoints for the Endpoints for the vocabularies.
   name: RWTH Aachen University Vocabulary API
   slug: rwth-aachen-university-vocabulary-api
 - description: The RWTH IT Center self-hosts a GitLab instance at git.rwth-aachen.de used across the university's institutes, and it is also where Coscine itself is developed. The GitLab REST API v4 is reachable and
@@ -524,7 +618,7 @@ score:
     catalog_gap: 50.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -534,7 +628,7 @@ score:
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 48.8
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -550,7 +644,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png
 security:

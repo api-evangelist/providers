@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 26 operations · 16 acting
 api_count: 8
 apis:
-- description: The Account API from Verisoul — 3 operation(s) for account.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Account API from Verisoul — 3 operation(s) for account.
   name: Verisoul Account API
   slug: verisoul-account-api
-- description: The Email API from Verisoul — 1 operation(s) for email.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Email API from Verisoul — 1 operation(s) for email.
   name: Verisoul Email API
   slug: verisoul-email-api
-- description: The Enrollment API from Verisoul — 1 operation(s) for enrollment.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Enrollment API from Verisoul — 1 operation(s) for enrollment.
   name: Verisoul Enrollment API
   slug: verisoul-enrollment-api
-- description: The List API from Verisoul — 3 operation(s) for list.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The List API from Verisoul — 3 operation(s) for list.
   name: Verisoul List API
   slug: verisoul-list-api
-- description: The Phone API from Verisoul — 1 operation(s) for phone.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Phone API from Verisoul — 1 operation(s) for phone.
   name: Verisoul Phone API
   slug: verisoul-phone-api
-- description: The Public API from Verisoul — 1 operation(s) for public.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Public API from Verisoul — 1 operation(s) for public.
   name: Verisoul Public API
   slug: verisoul-public-api
-- description: The Session API from Verisoul — 4 operation(s) for session.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Session API from Verisoul — 4 operation(s) for session.
   name: Verisoul Session API
   slug: verisoul-session-api
-- description: The Verification API from Verisoul — 3 operation(s) for verification.
+- baseURL: https://api.prod.verisoul.ai
+  baseurl_source: declared
+  description: The Verification API from Verisoul — 3 operation(s) for verification.
   name: Verisoul Verification API
   slug: verisoul-verification-api
 artifact_total: 24
@@ -277,7 +293,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -287,7 +303,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 49.5
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,7 +315,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/screenshots/verisoul-2026-08-17T082730.png
 security:

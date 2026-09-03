@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 3
 apis:
-- description: Collections operations
+- baseURL: https://{account}.documents.azure.com/
+  baseurl_source: declared
+  description: Collections operations
   name: microsoft-azure-cosmos-db Collections API
   slug: microsoft-azure-cosmos-db-collections-api
-- description: Databases operations
+- baseURL: https://{account}.documents.azure.com/
+  baseurl_source: declared
+  description: Databases operations
   name: microsoft-azure-cosmos-db Databases API
   slug: microsoft-azure-cosmos-db-databases-api
-- description: Documents operations
+- baseURL: https://{account}.documents.azure.com/
+  baseurl_source: declared
+  description: Documents operations
   name: microsoft-azure-cosmos-db Documents API
   slug: microsoft-azure-cosmos-db-documents-api
 artifact_total: 14
@@ -167,10 +173,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/screenshots/microsoft-azure-cosmos-db-2026-06-20T185408.png
 security:

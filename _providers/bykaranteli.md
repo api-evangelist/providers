@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,7 +46,9 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: Per-call priced history and depth endpoints, settled in USDC over the x402 protocol on Solana and Base mainnet through the Coinbase CDP facilitator. 13 priced endpoints plus the free catalog at /api/x
+- baseURL: https://bykaranteli.com
+  baseurl_source: declared
+  description: Per-call priced history and depth endpoints, settled in USDC over the x402 protocol on Solana and Base mainnet through the Coinbase CDP facilitator. 13 priced endpoints plus the free catalog at /api/x
   name: ByKaranteli X402 API
   slug: bykaranteli-x402-api
 - description: 'The free, no-key public REST surface — 10 endpoints under /api/v1/public/ described by the provider''s own self-describing manifest, plus the /api/public/ index endpoints. Verified 2026-08-11: unauthen'
@@ -236,7 +251,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bykaranteli/refs/heads/main/screenshots/bykaranteli-2026-08-17T080800.png
 security:

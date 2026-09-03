@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: Reddit's OAuth 2.0 authorization system provides authentication for all Reddit API access. Developers register applications at reddit.com/prefs/apps to obtain client credentials. Supported grant types
   name: Reddit OAuth 2.0 Authorization
   slug: oauth
-- description: Endpoints related to the authenticated user account, including identity, preferences, karma, trophies, and friend management.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints related to the authenticated user account, including identity, preferences, karma, trophies, and friend management.
   name: Reddit Account API
   slug: reddit-account-api
-- description: Endpoints for managing user and link flair within subreddits, including flair templates, assignments, and configuration.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for managing user and link flair within subreddits, including flair templates, assignments, and configuration.
   name: Reddit Flair API
   slug: reddit-flair-api
-- description: Endpoints for interacting with submissions (links) and comments, including voting, saving, hiding, reporting, and submitting content.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for interacting with submissions (links) and comments, including voting, saving, hiding, reporting, and submitting content.
   name: Reddit Links & Comments API
   slug: reddit-links-comments-api
-- description: Endpoints for retrieving sorted listings of content from subreddits, including hot, new, rising, top, and controversial posts.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for retrieving sorted listings of content from subreddits, including hot, new, rising, top, and controversial posts.
   name: Reddit Listings API
   slug: reddit-listings-api
-- description: Endpoints for managing private messages, including inbox, sent, unread messages, composing, and message actions.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for managing private messages, including inbox, sent, unread messages, composing, and message actions.
   name: Reddit Messages API
   slug: reddit-messages-api
-- description: Endpoints for subreddit moderation tasks, including approving and removing content, managing bans, moderation logs, and modqueue.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for subreddit moderation tasks, including approving and removing content, managing bans, moderation logs, and modqueue.
   name: Reddit Moderation API
   slug: reddit-moderation-api
-- description: Endpoints implementing the oEmbed protocol for embedding Reddit content in external websites and applications.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints implementing the oEmbed protocol for embedding Reddit content in external websites and applications.
   name: Reddit oEmbed API
   slug: reddit-oembed-api
-- description: Endpoints for searching Reddit content including submissions, subreddits, and users across the platform.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for searching Reddit content including submissions, subreddits, and users across the platform.
   name: Reddit Search API
   slug: reddit-search-api
-- description: Endpoints for managing and retrieving information about subreddits, including subscription, creation, rules, and settings.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for managing and retrieving information about subreddits, including subscription, creation, rules, and settings.
   name: Reddit Subreddits API
   slug: reddit-subreddits-api
-- description: Endpoints for retrieving information about Reddit users, including profiles, post history, comment history, and trophies.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for retrieving information about Reddit users, including profiles, post history, comment history, and trophies.
   name: Reddit Users API
   slug: reddit-users-api
-- description: Endpoints for managing subreddit wikis, including reading and editing wiki pages, revision history, and permissions.
+- baseURL: https://oauth.reddit.com
+  baseurl_source: declared
+  description: Endpoints for managing subreddit wikis, including reading and editing wiki pages, revision history, and permissions.
   name: Reddit Wiki API
   slug: reddit-wiki-api
 artifact_total: 53
@@ -372,7 +394,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/screenshots/reddit-2026-08-17T081506.png
 security:

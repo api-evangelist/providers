@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -46,106 +46,174 @@ apis:
 - description: The Automation API enables you to build custom cloud interfaces for your technical end users. Build self-service developer portals, CLIs, frameworks, and more, programmatically driving Pulumi from Go,
   name: Pulumi Automation API
   slug: automation-api
-- description: The AccessTokens API from Pulumi — 4 operation(s) for accesstokens.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The AccessTokens API from Pulumi — 4 operation(s) for accesstokens.
   name: Pulumi AccessTokens API
   slug: pulumi-accesstokens-api
-- description: The AI Agents API from Pulumi — 5 operation(s) for ai agents.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The AI Agents API from Pulumi — 5 operation(s) for ai agents.
   name: Pulumi AI Agents API
   slug: pulumi-ai-agents-api
-- description: The AI API from Pulumi — 1 operation(s) for ai.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The AI API from Pulumi — 1 operation(s) for ai.
   name: Pulumi AI API
   slug: pulumi-ai-api
-- description: The AuditLogs API from Pulumi — 8 operation(s) for auditlogs.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The AuditLogs API from Pulumi — 8 operation(s) for auditlogs.
   name: Pulumi AuditLogs API
   slug: pulumi-auditlogs-api
-- description: The CloudSetup API from Pulumi — 10 operation(s) for cloudsetup.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The CloudSetup API from Pulumi — 10 operation(s) for cloudsetup.
   name: Pulumi CloudSetup API
   slug: pulumi-cloudsetup-api
-- description: The DataExport API from Pulumi — 1 operation(s) for dataexport.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The DataExport API from Pulumi — 1 operation(s) for dataexport.
   name: Pulumi DataExport API
   slug: pulumi-dataexport-api
-- description: The DeploymentRunners API from Pulumi — 2 operation(s) for deploymentrunners.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The DeploymentRunners API from Pulumi — 2 operation(s) for deploymentrunners.
   name: Pulumi DeploymentRunners API
   slug: pulumi-deploymentrunners-api
-- description: The Deployments API from Pulumi — 33 operation(s) for deployments.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Deployments API from Pulumi — 33 operation(s) for deployments.
   name: Pulumi Deployments API
   slug: pulumi-deployments-api
-- description: The Environments API from Pulumi — 86 operation(s) for environments.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Environments API from Pulumi — 86 operation(s) for environments.
   name: Pulumi Environments API
   slug: pulumi-environments-api
-- description: The Insights API from Pulumi — 36 operation(s) for insights.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Insights API from Pulumi — 36 operation(s) for insights.
   name: Pulumi Insights API
   slug: pulumi-insights-api
-- description: The InsightsAccounts API from Pulumi — 35 operation(s) for insightsaccounts.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The InsightsAccounts API from Pulumi — 35 operation(s) for insightsaccounts.
   name: Pulumi InsightsAccounts API
   slug: pulumi-insightsaccounts-api
-- description: The Miscellaneous API from Pulumi — 4 operation(s) for miscellaneous.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Miscellaneous API from Pulumi — 4 operation(s) for miscellaneous.
   name: Pulumi Miscellaneous API
   slug: pulumi-miscellaneous-api
-- description: The Neo API from Pulumi — 4 operation(s) for neo.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Neo API from Pulumi — 4 operation(s) for neo.
   name: Pulumi Neo API
   slug: pulumi-neo-api
-- description: The OAuthTokenExchange API from Pulumi — 1 operation(s) for oauthtokenexchange.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The OAuthTokenExchange API from Pulumi — 1 operation(s) for oauthtokenexchange.
   name: Pulumi OAuthTokenExchange API
   slug: pulumi-oauthtokenexchange-api
-- description: The OidcIssuers API from Pulumi — 4 operation(s) for oidcissuers.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The OidcIssuers API from Pulumi — 4 operation(s) for oidcissuers.
   name: Pulumi OidcIssuers API
   slug: pulumi-oidcissuers-api
-- description: The Organizations API from Pulumi — 107 operation(s) for organizations.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Organizations API from Pulumi — 107 operation(s) for organizations.
   name: Pulumi Organizations API
   slug: pulumi-organizations-api
-- description: The PolicyGroups API from Pulumi — 4 operation(s) for policygroups.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The PolicyGroups API from Pulumi — 4 operation(s) for policygroups.
   name: Pulumi PolicyGroups API
   slug: pulumi-policygroups-api
-- description: The PolicyPacks API from Pulumi — 11 operation(s) for policypacks.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The PolicyPacks API from Pulumi — 11 operation(s) for policypacks.
   name: Pulumi PolicyPacks API
   slug: pulumi-policypacks-api
-- description: The PolicyResults API from Pulumi — 8 operation(s) for policyresults.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The PolicyResults API from Pulumi — 8 operation(s) for policyresults.
   name: Pulumi PolicyResults API
   slug: pulumi-policyresults-api
-- description: The Registry API from Pulumi — 12 operation(s) for registry.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Registry API from Pulumi — 12 operation(s) for registry.
   name: Pulumi Registry API
   slug: pulumi-registry-api
-- description: The RegistryPreview API from Pulumi — 13 operation(s) for registrypreview.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The RegistryPreview API from Pulumi — 13 operation(s) for registrypreview.
   name: Pulumi RegistryPreview API
   slug: pulumi-registrypreview-api
-- description: The ResourceSearch API from Pulumi — 4 operation(s) for resourcesearch.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The ResourceSearch API from Pulumi — 4 operation(s) for resourcesearch.
   name: Pulumi ResourceSearch API
   slug: pulumi-resourcesearch-api
-- description: The ResourcesUnderManagement API from Pulumi — 2 operation(s) for resourcesundermanagement.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The ResourcesUnderManagement API from Pulumi — 2 operation(s) for resourcesundermanagement.
   name: Pulumi ResourcesUnderManagement API
   slug: pulumi-resourcesundermanagement-api
-- description: The Schedules API from Pulumi — 9 operation(s) for schedules.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Schedules API from Pulumi — 9 operation(s) for schedules.
   name: Pulumi Schedules API
   slug: pulumi-schedules-api
-- description: The Services API from Pulumi — 4 operation(s) for services.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Services API from Pulumi — 4 operation(s) for services.
   name: Pulumi Services API
   slug: pulumi-services-api
-- description: The StackConfig API from Pulumi — 1 operation(s) for stackconfig.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The StackConfig API from Pulumi — 1 operation(s) for stackconfig.
   name: Pulumi StackConfig API
   slug: pulumi-stackconfig-api
-- description: The StackPolicy API from Pulumi — 2 operation(s) for stackpolicy.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The StackPolicy API from Pulumi — 2 operation(s) for stackpolicy.
   name: Pulumi StackPolicy API
   slug: pulumi-stackpolicy-api
-- description: The Stacks API from Pulumi — 98 operation(s) for stacks.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Stacks API from Pulumi — 98 operation(s) for stacks.
   name: Pulumi Stacks API
   slug: pulumi-stacks-api
-- description: The StackTags API from Pulumi — 2 operation(s) for stacktags.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The StackTags API from Pulumi — 2 operation(s) for stacktags.
   name: Pulumi StackTags API
   slug: pulumi-stacktags-api
-- description: The StackUpdates API from Pulumi — 4 operation(s) for stackupdates.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The StackUpdates API from Pulumi — 4 operation(s) for stackupdates.
   name: Pulumi StackUpdates API
   slug: pulumi-stackupdates-api
-- description: The Users API from Pulumi — 14 operation(s) for users.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Users API from Pulumi — 14 operation(s) for users.
   name: Pulumi Users API
   slug: pulumi-users-api
-- description: The VCS Integrations API from Pulumi — 25 operation(s) for vcs integrations.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The VCS Integrations API from Pulumi — 25 operation(s) for vcs integrations.
   name: Pulumi VCS Integrations API
   slug: pulumi-vcs-integrations-api
-- description: The Webhooks API from Pulumi — 10 operation(s) for webhooks.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Webhooks API from Pulumi — 10 operation(s) for webhooks.
   name: Pulumi Webhooks API
   slug: pulumi-webhooks-api
-- description: The Workflows API from Pulumi — 2 operation(s) for workflows.
+- baseURL: https://api.pulumi.com
+  baseurl_source: declared
+  description: The Workflows API from Pulumi — 2 operation(s) for workflows.
   name: Pulumi Workflows API
   slug: pulumi-workflows-api
 artifact_total: 89
@@ -382,7 +450,7 @@ score:
     regime_id: insurance
     score: 39.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:

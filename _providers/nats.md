@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,37 +55,59 @@ apis:
 - description: The NATS Object Store API is a JetStream-backed abstraction for storing and retrieving arbitrarily large binary objects using a chunking mechanism. Objects are identified by a bucket and a name, and t
   name: NATS Object Store API
   slug: nats-object-store-api
-- description: The Accounts API from NATS — 1 operation(s) for accounts.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Accounts API from NATS — 1 operation(s) for accounts.
   name: NATS Accounts API
   slug: nats-accounts-api
-- description: Cluster, gateway, and leaf node endpoints
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: Cluster, gateway, and leaf node endpoints
   name: NATS Clustering API
   slug: nats-clustering-api
-- description: The Connections API from NATS — 1 operation(s) for connections.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Connections API from NATS — 1 operation(s) for connections.
   name: NATS Connections API
   slug: nats-connections-api
-- description: The Gateways API from NATS — 1 operation(s) for gateways.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Gateways API from NATS — 1 operation(s) for gateways.
   name: NATS Gateways API
   slug: nats-gateways-api
-- description: The Health API from NATS — 1 operation(s) for health.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Health API from NATS — 1 operation(s) for health.
   name: NATS Health API
   slug: nats-health-api
-- description: The JetStream API from NATS — 1 operation(s) for jetstream.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The JetStream API from NATS — 1 operation(s) for jetstream.
   name: NATS JetStream API
   slug: nats-jetstream-api
-- description: The Leaf Nodes API from NATS — 1 operation(s) for leaf nodes.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Leaf Nodes API from NATS — 1 operation(s) for leaf nodes.
   name: NATS Leaf Nodes API
   slug: nats-leaf-nodes-api
-- description: The Routes API from NATS — 1 operation(s) for routes.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Routes API from NATS — 1 operation(s) for routes.
   name: NATS Routes API
   slug: nats-routes-api
-- description: The Server API from NATS — 2 operation(s) for server.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Server API from NATS — 2 operation(s) for server.
   name: NATS Server API
   slug: nats-server-api
-- description: The Subscriptions API from NATS — 1 operation(s) for subscriptions.
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: The Subscriptions API from NATS — 1 operation(s) for subscriptions.
   name: NATS Subscriptions API
   slug: nats-subscriptions-api
-- description: Server monitoring and status endpoints
+- baseURL: http://localhost:8222
+  baseurl_source: declared
+  description: Server monitoring and status endpoints
   name: NATS Monitoring API
   slug: nats-monitoring-api
 artifact_total: 37
@@ -292,7 +314,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -302,7 +324,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 42.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -311,7 +333,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: The Apps API from Amazon App Studio — 2 operation(s) for apps.
+- baseURL: https://appstudio.amazonaws.com
+  baseurl_source: declared
+  description: The Apps API from Amazon App Studio — 2 operation(s) for apps.
   name: Amazon App Studio Apps API
   slug: amazon-app-studio-apps-api
 artifact_total: 34
@@ -285,7 +287,7 @@ score:
       total: 1
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/screenshots/amazon-app-studio-2026-07-25T195916.png
 security:

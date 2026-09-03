@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The accounts API from Upward Financial — 2 operation(s) for accounts.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The accounts API from Upward Financial — 2 operation(s) for accounts.
   name: Upward Financial accounts API
   slug: upward-financial-accounts-api
-- description: The auth API from Upward Financial — 2 operation(s) for auth.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The auth API from Upward Financial — 2 operation(s) for auth.
   name: Upward Financial auth API
   slug: upward-financial-auth-api
-- description: The billPayments API from Upward Financial — 4 operation(s) for billpayments.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The billPayments API from Upward Financial — 4 operation(s) for billpayments.
   name: Upward Financial billPayments API
   slug: upward-financial-billpayments-api
-- description: The billReporting API from Upward Financial — 9 operation(s) for billreporting.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The billReporting API from Upward Financial — 9 operation(s) for billreporting.
   name: Upward Financial billReporting API
   slug: upward-financial-billreporting-api
-- description: The billSwitch API from Upward Financial — 2 operation(s) for billswitch.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The billSwitch API from Upward Financial — 2 operation(s) for billswitch.
   name: Upward Financial billSwitch API
   slug: upward-financial-billswitch-api
-- description: The cbaas API from Upward Financial — 5 operation(s) for cbaas.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The cbaas API from Upward Financial — 5 operation(s) for cbaas.
   name: Upward Financial cbaas API
   slug: upward-financial-cbaas-api
-- description: The consumers API from Upward Financial — 13 operation(s) for consumers.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The consumers API from Upward Financial — 13 operation(s) for consumers.
   name: Upward Financial consumers API
   slug: upward-financial-consumers-api
-- description: The creditInsights API from Upward Financial — 1 operation(s) for creditinsights.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The creditInsights API from Upward Financial — 1 operation(s) for creditinsights.
   name: Upward Financial creditInsights API
   slug: upward-financial-creditinsights-api
-- description: The onboarding API from Upward Financial — 11 operation(s) for onboarding.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The onboarding API from Upward Financial — 11 operation(s) for onboarding.
   name: Upward Financial onboarding API
   slug: upward-financial-onboarding-api
-- description: The partners API from Upward Financial — 5 operation(s) for partners.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The partners API from Upward Financial — 5 operation(s) for partners.
   name: Upward Financial partners API
   slug: upward-financial-partners-api
-- description: The paymentCards API from Upward Financial — 10 operation(s) for paymentcards.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The paymentCards API from Upward Financial — 10 operation(s) for paymentcards.
   name: Upward Financial paymentCards API
   slug: upward-financial-paymentcards-api
-- description: The payments API from Upward Financial — 12 operation(s) for payments.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The payments API from Upward Financial — 12 operation(s) for payments.
   name: Upward Financial payments API
   slug: upward-financial-payments-api
-- description: The plaid API from Upward Financial — 2 operation(s) for plaid.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The plaid API from Upward Financial — 2 operation(s) for plaid.
   name: Upward Financial plaid API
   slug: upward-financial-plaid-api
-- description: The rewards API from Upward Financial — 4 operation(s) for rewards.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The rewards API from Upward Financial — 4 operation(s) for rewards.
   name: Upward Financial rewards API
   slug: upward-financial-rewards-api
-- description: The simulations API from Upward Financial — 3 operation(s) for simulations.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The simulations API from Upward Financial — 3 operation(s) for simulations.
   name: Upward Financial simulations API
   slug: upward-financial-simulations-api
-- description: The statements API from Upward Financial — 3 operation(s) for statements.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The statements API from Upward Financial — 3 operation(s) for statements.
   name: Upward Financial statements API
   slug: upward-financial-statements-api
-- description: The webhooks API from Upward Financial — 3 operation(s) for webhooks.
+- baseURL: https://api.upwardli.com/v2
+  baseurl_source: declared
+  description: The webhooks API from Upward Financial — 3 operation(s) for webhooks.
   name: Upward Financial webhooks API
   slug: upward-financial-webhooks-api
 artifact_total: 40
@@ -293,7 +327,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -303,7 +337,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -320,7 +354,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/screenshots/upward-financial-2026-08-17T082644.png
 security:

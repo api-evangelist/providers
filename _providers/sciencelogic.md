@@ -34,13 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: The ScienceLogic AI Platform (Skylar) — AIOps, IT infrastructure and application observability, service management, network configuration compliance, and automated remediation.
   name: ScienceLogic
   slug: sciencelogic
-- description: The REST API for Skylar Compliance (formerly Restorepoint) — ScienceLogic's network configuration and change management product. 314 operations across 193 paths covering devices, configuration backups
+- baseURL: https://{appliance}/api/v2
+  baseurl_source: declared
+  description: The REST API for Skylar Compliance (formerly Restorepoint) — ScienceLogic's network configuration and change management product. 314 operations across 193 paths covering devices, configuration backups
   name: Skylar Compliance API
   slug: skylar-compliance-api
 - description: 'The GraphQL API for Skylar One (formerly SL1). ScienceLogic''s forward-looking interface — the default AP2 user interface uses it exclusively and makes no REST calls, and performance and log data held '
@@ -241,23 +243,23 @@ rate_limits:
   slug: sciencelogic-rate-limits
 score:
   band: strong
-  composite: 58.2
+  composite: 59.1
   coverage:
     artifact_dirs: 21
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.4
+  delta: 0.9
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 0.0
-    contract_quality: 59.2
+    contract_quality: 62.5
     developer_ergonomics: 58.9
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 54.8
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     contracts:
@@ -268,7 +270,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sciencelogic/refs/heads/main/screenshots/sciencelogic-2026-06-20T193537.png
 security:

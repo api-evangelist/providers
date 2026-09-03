@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -125,19 +125,29 @@ apis:
 - description: Provides access to the configured attendee types within SAP Concur, allowing retrieval and management of attendee type resources used for categorizing attendees in expense reports.
   name: Concur Expense Attendee Types API
   slug: concur-expense-attendee-types-api
-- description: Operations for retrieving and updating expense allocations, which distribute expense amounts across cost centers or accounts.
+- baseURL: https://www.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Operations for retrieving and updating expense allocations, which distribute expense amounts across cost centers or accounts.
   name: SAP Concur Allocations API
   slug: sap-concur-allocations-api
-- description: Operations for creating, retrieving, updating, and deleting comments at the report header or individual expense level.
+- baseURL: https://www.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting comments at the report header or individual expense level.
   name: SAP Concur Comments API
   slug: sap-concur-comments-api
-- description: Operations for retrieving, updating, and deleting expense entries (line items) on a report, and retrieving itemizations.
+- baseURL: https://www.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Operations for retrieving, updating, and deleting expense entries (line items) on a report, and retrieving itemizations.
   name: SAP Concur Expenses API
   slug: sap-concur-expenses-api
-- description: Operations for creating, retrieving, updating, and deleting expense reports, as well as retrieving reports pending approval.
+- baseURL: https://www.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting expense reports, as well as retrieving reports pending approval.
   name: SAP Concur Reports API
   slug: sap-concur-reports-api
-- description: Operations for submitting, approving, recalling, and sending back expense reports through the approval workflow.
+- baseURL: https://www.concursolutions.com/api/v3.0
+  baseurl_source: declared
+  description: Operations for submitting, approving, recalling, and sending back expense reports through the approval workflow.
   name: SAP Concur Workflows API
   slug: sap-concur-workflows-api
 artifact_total: 211
@@ -793,7 +803,7 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -806,7 +816,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 44.1
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -815,7 +825,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png
 security:

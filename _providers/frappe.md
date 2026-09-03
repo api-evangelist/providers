@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 2
 apis:
-- description: The Method API from Frappe — 4 operation(s) for method.
+- baseURL_template: https://{site}
+  baseurl_source: spec_template
+  description: The Method API from Frappe — 4 operation(s) for method.
   name: Frappe Method API
   slug: frappe-method-api
-- description: The Resource API from Frappe — 2 operation(s) for resource.
+- baseURL_template: https://{site}
+  baseurl_source: spec_template
+  description: The Resource API from Frappe — 2 operation(s) for resource.
   name: Frappe Resource API
   slug: frappe-resource-api
 artifact_total: 15
@@ -210,7 +214,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/screenshots/frappe-2026-06-20T181510.png
 security:

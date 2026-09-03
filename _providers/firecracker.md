@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 38 operations · 29 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Actions API from Firecracker — 1 operation(s) for actions.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Actions API from Firecracker — 1 operation(s) for actions.
   name: Firecracker Actions API
   slug: firecracker-actions-api
-- description: The Balloon API from Firecracker — 5 operation(s) for balloon.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Balloon API from Firecracker — 5 operation(s) for balloon.
   name: Firecracker Balloon API
   slug: firecracker-balloon-api
-- description: The Boot Source API from Firecracker — 1 operation(s) for boot source.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Boot Source API from Firecracker — 1 operation(s) for boot source.
   name: Firecracker Boot Source API
   slug: firecracker-boot-source-api
-- description: The Cpu Config API from Firecracker — 1 operation(s) for cpu config.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Cpu Config API from Firecracker — 1 operation(s) for cpu config.
   name: Firecracker Cpu Config API
   slug: firecracker-cpu-config-api
-- description: The Drives API from Firecracker — 1 operation(s) for drives.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Drives API from Firecracker — 1 operation(s) for drives.
   name: Firecracker Drives API
   slug: firecracker-drives-api
-- description: The Entropy API from Firecracker — 1 operation(s) for entropy.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Entropy API from Firecracker — 1 operation(s) for entropy.
   name: Firecracker Entropy API
   slug: firecracker-entropy-api
-- description: The Firecracker API API from Firecracker — 1 operation(s) for firecracker api.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Firecracker API API from Firecracker — 1 operation(s) for firecracker api.
   name: Firecracker Firecracker API API
   slug: firecracker-firecracker-api-api
-- description: The Hotplug API from Firecracker — 1 operation(s) for hotplug.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Hotplug API from Firecracker — 1 operation(s) for hotplug.
   name: Firecracker Hotplug API
   slug: firecracker-hotplug-api
-- description: The Logger API from Firecracker — 1 operation(s) for logger.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Logger API from Firecracker — 1 operation(s) for logger.
   name: Firecracker Logger API
   slug: firecracker-logger-api
-- description: The Machine Config API from Firecracker — 1 operation(s) for machine config.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Machine Config API from Firecracker — 1 operation(s) for machine config.
   name: Firecracker Machine Config API
   slug: firecracker-machine-config-api
-- description: The Metrics API from Firecracker — 1 operation(s) for metrics.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Metrics API from Firecracker — 1 operation(s) for metrics.
   name: Firecracker Metrics API
   slug: firecracker-metrics-api
-- description: The Mmds API from Firecracker — 2 operation(s) for mmds.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Mmds API from Firecracker — 2 operation(s) for mmds.
   name: Firecracker Mmds API
   slug: firecracker-mmds-api
-- description: The Network Interfaces API from Firecracker — 1 operation(s) for network interfaces.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Network Interfaces API from Firecracker — 1 operation(s) for network interfaces.
   name: Firecracker Network Interfaces API
   slug: firecracker-network-interfaces-api
-- description: The Pmem API from Firecracker — 1 operation(s) for pmem.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Pmem API from Firecracker — 1 operation(s) for pmem.
   name: Firecracker Pmem API
   slug: firecracker-pmem-api
-- description: The Serial API from Firecracker — 1 operation(s) for serial.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Serial API from Firecracker — 1 operation(s) for serial.
   name: Firecracker Serial API
   slug: firecracker-serial-api
-- description: The Snapshot API from Firecracker — 2 operation(s) for snapshot.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Snapshot API from Firecracker — 2 operation(s) for snapshot.
   name: Firecracker Snapshot API
   slug: firecracker-snapshot-api
-- description: The Version API from Firecracker — 1 operation(s) for version.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Version API from Firecracker — 1 operation(s) for version.
   name: Firecracker Version API
   slug: firecracker-version-api
-- description: The Vm API from Firecracker — 2 operation(s) for vm.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Vm API from Firecracker — 2 operation(s) for vm.
   name: Firecracker Vm API
   slug: firecracker-vm-api
-- description: The Vsock API from Firecracker — 1 operation(s) for vsock.
+- baseURL: http://localhost/
+  baseurl_source: declared
+  description: The Vsock API from Firecracker — 1 operation(s) for vsock.
   name: Firecracker Vsock API
   slug: firecracker-vsock-api
 artifact_total: 43
@@ -286,7 +324,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/screenshots/firecracker-2026-06-20T181228.png
 slug: firecracker

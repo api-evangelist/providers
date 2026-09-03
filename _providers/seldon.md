@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -53,79 +53,129 @@ apis:
 - description: Seldon provides a dedicated /explain REST endpoint alongside each deployed model, powered by the Alibi explainability library. The endpoint supports multiple explanation algorithms including SHAP, int
   name: Seldon Explainability API
   slug: seldon-explainability-api
-- description: The AlertingService API from Seldon — 2 operation(s) for alertingservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The AlertingService API from Seldon — 2 operation(s) for alertingservice.
   name: Seldon AlertingService API
   slug: seldon-alertingservice-api
-- description: ApplicationLogs APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: ApplicationLogs APIs for Seldon Deploy
   name: Seldon ApplicationLogs API
   slug: seldon-applicationlogs-api
-- description: Batch Jobs APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Batch Jobs APIs for Seldon Deploy
   name: Seldon BatchJobs API
   slug: seldon-batchjobs-api
-- description: Drift Detector APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Drift Detector APIs for Seldon Deploy
   name: Seldon DriftDetector API
   slug: seldon-driftdetector-api
-- description: Environment APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Environment APIs for Seldon Deploy
   name: Seldon Environment API
   slug: seldon-environment-api
-- description: Seldon Core Experiment APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Seldon Core Experiment APIs for Seldon Deploy
   name: Seldon Experiments API
   slug: seldon-experiments-api
-- description: Explanation APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Explanation APIs for Seldon Deploy
   name: Seldon Explain API
   slug: seldon-explain-api
-- description: GitOps APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: GitOps APIs for Seldon Deploy
   name: Seldon GitOps API
   slug: seldon-gitops-api
-- description: The health API from Seldon — 4 operation(s) for health.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The health API from Seldon — 4 operation(s) for health.
   name: Seldon health API
   slug: seldon-health-api
-- description: The HealthcheckService API from Seldon — 1 operation(s) for healthcheckservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The HealthcheckService API from Seldon — 1 operation(s) for healthcheckservice.
   name: Seldon HealthcheckService API
   slug: seldon-healthcheckservice-api
-- description: The InferenceLogsService API from Seldon — 4 operation(s) for inferencelogsservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The InferenceLogsService API from Seldon — 4 operation(s) for inferencelogsservice.
   name: Seldon InferenceLogsService API
   slug: seldon-inferencelogsservice-api
-- description: The Internal API from Seldon — 6 operation(s) for internal.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The Internal API from Seldon — 6 operation(s) for internal.
   name: Seldon Internal API
   slug: seldon-internal-api
-- description: KubernetesResources APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: KubernetesResources APIs for Seldon Deploy
   name: Seldon KubernetesResources API
   slug: seldon-kubernetesresources-api
-- description: Loadtest Jobs APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Loadtest Jobs APIs for Seldon Deploy
   name: Seldon LoadtestJobs API
   slug: seldon-loadtestjobs-api
-- description: The metadata API from Seldon — 3 operation(s) for metadata.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The metadata API from Seldon — 3 operation(s) for metadata.
   name: Seldon metadata API
   slug: seldon-metadata-api
-- description: Metrics Server APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Metrics Server APIs for Seldon Deploy
   name: Seldon MetricsServer API
   slug: seldon-metricsserver-api
-- description: The ModelMetadataService API from Seldon — 2 operation(s) for modelmetadataservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The ModelMetadataService API from Seldon — 2 operation(s) for modelmetadataservice.
   name: Seldon ModelMetadataService API
   slug: seldon-modelmetadataservice-api
-- description: Seldon Core Model APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Seldon Core Model APIs for Seldon Deploy
   name: Seldon Models API
   slug: seldon-models-api
-- description: The Monitor API from Seldon — 4 operation(s) for monitor.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The Monitor API from Seldon — 4 operation(s) for monitor.
   name: Seldon Monitor API
   slug: seldon-monitor-api
-- description: Outlier Detector APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Outlier Detector APIs for Seldon Deploy
   name: Seldon OutlierDetector API
   slug: seldon-outlierdetector-api
-- description: The PermissionManagementService API from Seldon — 11 operation(s) for permissionmanagementservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The PermissionManagementService API from Seldon — 11 operation(s) for permissionmanagementservice.
   name: Seldon PermissionManagementService API
   slug: seldon-permissionmanagementservice-api
-- description: Seldon Core Pipeline APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Seldon Core Pipeline APIs for Seldon Deploy
   name: Seldon Pipelines API
   slug: seldon-pipelines-api
-- description: Prediction APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: Prediction APIs for Seldon Deploy
   name: Seldon Predict API
   slug: seldon-predict-api
-- description: The SecretsService API from Seldon — 6 operation(s) for secretsservice.
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: The SecretsService API from Seldon — 6 operation(s) for secretsservice.
   name: Seldon SecretsService API
   slug: seldon-secretsservice-api
-- description: SeldonDeployments APIs for Seldon Deploy
+- baseURL: https://docs.seldon.ai
+  baseurl_source: declared
+  description: SeldonDeployments APIs for Seldon Deploy
   name: Seldon SeldonDeployments API
   slug: seldon-seldondeployments-api
 artifact_total: 74
@@ -420,7 +470,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:

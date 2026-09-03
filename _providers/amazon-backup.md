@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 7 operations · 2 acting
 api_count: 1
 apis:
-- description: Operations for starting and monitoring backup jobs
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for starting and monitoring backup jobs
   name: Amazon Backup Backup Jobs API
   slug: amazon-backup-backup-jobs-api
-- description: Operations for creating and managing backup plans
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing backup plans
   name: Amazon Backup Backup Plans API
   slug: amazon-backup-backup-plans-api
-- description: Operations for creating and managing backup vaults
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing backup vaults
   name: Amazon Backup Backup Vaults API
   slug: amazon-backup-backup-vaults-api
-- description: Operations for restoring backed-up resources
+- baseURL: https://backup.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for restoring backed-up resources
   name: Amazon Backup Restore Jobs API
   slug: amazon-backup-restore-jobs-api
 artifact_total: 20
@@ -256,7 +264,7 @@ score:
       total: 4
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-backup/refs/heads/main/screenshots/amazon-backup-2026-07-25T195935.png
 security:

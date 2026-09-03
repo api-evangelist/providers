@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 45 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Signed URL retrieval for execution data inputs and outputs.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Signed URL retrieval for execution data inputs and outputs.
   name: Flyte DataProxy API
   slug: flyte-dataproxy-api
-- description: Workflow, node, and task execution events.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Workflow, node, and task execution events.
   name: Flyte Events API
   slug: flyte-events-api
-- description: Workflow execution creation, listing, retrieval, and termination.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Workflow execution creation, listing, retrieval, and termination.
   name: Flyte Executions API
   slug: flyte-executions-api
-- description: Launch plan registration, listing, retrieval, and activation.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Launch plan registration, listing, retrieval, and activation.
   name: Flyte LaunchPlans API
   slug: flyte-launchplans-api
-- description: Matchable attribute configuration at project, domain, and workflow levels.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Matchable attribute configuration at project, domain, and workflow levels.
   name: Flyte MatchableAttributes API
   slug: flyte-matchableattributes-api
-- description: Named entity metadata for tasks, workflows, and launch plans.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Named entity metadata for tasks, workflows, and launch plans.
   name: Flyte NamedEntities API
   slug: flyte-namedentities-api
-- description: Node execution listing and retrieval.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Node execution listing and retrieval.
   name: Flyte NodeExecutions API
   slug: flyte-nodeexecutions-api
-- description: Project registration and listing.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Project registration and listing.
   name: Flyte Projects API
   slug: flyte-projects-api
-- description: Task execution listing and retrieval.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Task execution listing and retrieval.
   name: Flyte TaskExecutions API
   slug: flyte-taskexecutions-api
-- description: Task entity registration, listing, and retrieval.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Task entity registration, listing, and retrieval.
   name: Flyte Tasks API
   slug: flyte-tasks-api
-- description: Admin server version information.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Admin server version information.
   name: Flyte Version API
   slug: flyte-version-api
-- description: Workflow entity registration, listing, and retrieval.
+- baseURL: http://localhost:30080
+  baseurl_source: declared
+  description: Workflow entity registration, listing, and retrieval.
   name: Flyte Workflows API
   slug: flyte-workflows-api
 artifact_total: 31
@@ -235,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/screenshots/flyte-2026-06-20T181349.png
 security:

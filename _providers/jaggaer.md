@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 50 operations · 20 acting
 api_count: 3
 apis:
-- description: Asynchronous process status operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Asynchronous process status operations
   name: JAGGAER Async API
   slug: jaggaer-async-api
-- description: Event attribute management
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event attribute management
   name: JAGGAER Attributes API
   slug: jaggaer-attributes-api
-- description: Award scenario retrieval
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Award scenario retrieval
   name: JAGGAER Awards API
   slug: jaggaer-awards-api
-- description: Bid submission retrieval
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Bid submission retrieval
   name: JAGGAER Bids API
   slug: jaggaer-bids-api
-- description: Event contact management
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event contact management
   name: JAGGAER Contacts API
   slug: jaggaer-contacts-api
-- description: Customer host management operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Customer host management operations
   name: JAGGAER Customer Hosts API
   slug: jaggaer-customer-hosts-api
-- description: Sourcing event operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Sourcing event operations
   name: JAGGAER Events API
   slug: jaggaer-events-api
-- description: Event item management
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event item management
   name: JAGGAER Items API
   slug: jaggaer-items-api
-- description: Optimization job management operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Optimization job management operations
   name: JAGGAER Jobs API
   slug: jaggaer-jobs-api
-- description: Location and rate structure operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Location and rate structure operations
   name: JAGGAER Locations API
   slug: jaggaer-locations-api
-- description: Event rate retrieval
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event rate retrieval
   name: JAGGAER Rates API
   slug: jaggaer-rates-api
-- description: Event scenario retrieval
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event scenario retrieval
   name: JAGGAER Scenarios API
   slug: jaggaer-scenarios-api
-- description: Event supplier management
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Event supplier management
   name: JAGGAER Suppliers API
   slug: jaggaer-suppliers-api
-- description: Template management operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Template management operations
   name: JAGGAER Templates API
   slug: jaggaer-templates-api
-- description: Entity upload URL generation
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: Entity upload URL generation
   name: JAGGAER Uploads API
   slug: jaggaer-uploads-api
-- description: User administration operations
+- baseURL: https://ches.aso-api.jaggaer.com/
+  baseurl_source: declared
+  description: User administration operations
   name: JAGGAER Users API
   slug: jaggaer-users-api
 artifact_total: 49
@@ -300,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/screenshots/jaggaer-2026-06-20T183653.png
 security:

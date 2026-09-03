@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: SpaceIQ's (SiQ) GraphQL API. A single endpoint at https://api.spaceiq.com/queries accepts POST requests with a JSON query body and an access-token bearer header. Read operations cover companies, build
@@ -166,7 +166,7 @@ score:
   band: thin
   composite: 32.8
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -186,8 +186,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/spaceiq/refs/heads/main/screenshots/spaceiq-2026-09-02T160308.png
 security:
 - kind: authentication
   name: Spaceiq Authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: Joke category metadata.
+- baseURL: https://api.chucknorris.io
+  baseurl_source: declared
+  description: Joke category metadata.
   name: chucknorris.io Categories API
   slug: chucknorris-io-categories-api
-- description: Chuck Norris jokes (facts) endpoints.
+- baseURL: https://api.chucknorris.io
+  baseurl_source: declared
+  description: Chuck Norris jokes (facts) endpoints.
   name: chucknorris.io Jokes API
   slug: chucknorris-io-jokes-api
-- description: Full-text search across the joke corpus.
+- baseURL: https://api.chucknorris.io
+  baseurl_source: declared
+  description: Full-text search across the joke corpus.
   name: chucknorris.io Search API
   slug: chucknorris-io-search-api
 artifact_total: 52
@@ -334,7 +340,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chucknorris-io/refs/heads/main/screenshots/chucknorris-io-2026-06-20T174333.png
 security:

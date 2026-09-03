@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Continuous integration triggers and pipeline gating
+- baseURL: https://app.qawolf.com
+  baseurl_source: declared
+  description: Continuous integration triggers and pipeline gating
   name: QA Wolf CI API
   slug: qa-wolf-ci-api
-- description: Deployment and environment lifecycle notifications to QA Wolf
+- baseURL: https://app.qawolf.com
+  baseurl_source: declared
+  description: Deployment and environment lifecycle notifications to QA Wolf
   name: QA Wolf Webhooks API
   slug: qa-wolf-webhooks-api
 artifact_total: 10
@@ -231,7 +235,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:

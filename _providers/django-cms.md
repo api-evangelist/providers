@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 23 operations
 api_count: 1
 apis:
-- description: Page breadcrumb trails
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Page breadcrumb trails
   name: Django CMS Breadcrumbs API
   slug: django-cms-breadcrumbs-api
-- description: Health check endpoint for monitoring
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Health check endpoint for monitoring
   name: Django CMS Health API
   slug: django-cms-health-api
-- description: Site language configuration
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Site language configuration
   name: Django CMS Languages API
   slug: django-cms-languages-api
-- description: Navigation menu structures
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Navigation menu structures
   name: Django CMS Menus API
   slug: django-cms-menus-api
-- description: CMS page content and tree structure
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: CMS page content and tree structure
   name: Django CMS Pages API
   slug: django-cms-pages-api
-- description: Placeholder content with nested plugin data
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Placeholder content with nested plugin data
   name: Django CMS Placeholders API
   slug: django-cms-placeholders-api
-- description: Plugin type definitions and schema
+- baseURL: https://example.com/api/
+  baseurl_source: declared
+  description: Plugin type definitions and schema
   name: Django CMS Plugins API
   slug: django-cms-plugins-api
 artifact_total: 23
@@ -233,7 +247,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/screenshots/django-cms-2026-06-20T180058.png
 security:

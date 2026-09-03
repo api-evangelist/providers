@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 39 operations · 17 acting
 api_count: 1
 apis:
-- description: Address search and suggestions for jurisdiction assignment.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Address search and suggestions for jurisdiction assignment.
   name: Kintsugi Address Validation API
   slug: kintsugi-address-validation-api
-- description: Customer records and their transactions.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Customer records and their transactions.
   name: Kintsugi Customers API
   slug: kintsugi-customers-api
-- description: Customer tax exemptions and certificates.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Customer tax exemptions and certificates.
   name: Kintsugi Exemptions API
   slug: kintsugi-exemptions-api
-- description: Prepared and submitted sales tax returns.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Prepared and submitted sales tax returns.
   name: Kintsugi Filings API
   slug: kintsugi-filings-api
-- description: Physical and economic nexus tracking.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Physical and economic nexus tracking.
   name: Kintsugi Nexus API
   slug: kintsugi-nexus-api
-- description: Product records and taxability classification.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Product records and taxability classification.
   name: Kintsugi Products API
   slug: kintsugi-products-api
-- description: State tax registrations.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: State tax registrations.
   name: Kintsugi Registrations API
   slug: kintsugi-registrations-api
-- description: Real-time sales tax, VAT, and GST estimation.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Real-time sales tax, VAT, and GST estimation.
   name: Kintsugi Tax Estimation API
   slug: kintsugi-tax-estimation-api
-- description: Committed sales transactions and credit notes.
+- baseURL: https://api.trykintsugi.com/v1
+  baseurl_source: declared
+  description: Committed sales transactions and credit notes.
   name: Kintsugi Transactions API
   slug: kintsugi-transactions-api
 artifact_total: 26
@@ -199,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kintsugi/refs/heads/main/screenshots/kintsugi-2026-07-25T223847.png
 security:

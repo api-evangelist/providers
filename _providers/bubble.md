@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
-- description: Server-side and client-side action functions invoked by Bubble workflows.
+- baseURL: https://{appname}.bubbleapps.io/api/1.1
+  baseurl_source: declared
+  description: Server-side and client-side action functions invoked by Bubble workflows.
   name: Bubble Action API
   slug: bubble-action-api
-- description: Helpers exposed on the runtime context object.
+- baseURL: https://{appname}.bubbleapps.io/api/1.1
+  baseurl_source: declared
+  description: Helpers exposed on the runtime context object.
   name: Bubble Context API
   slug: bubble-context-api
-- description: Visual element lifecycle hooks invoked by the Bubble page renderer.
+- baseURL: https://{appname}.bubbleapps.io/api/1.1
+  baseurl_source: declared
+  description: Visual element lifecycle hooks invoked by the Bubble page renderer.
   name: Bubble Element API
   slug: bubble-element-api
-- description: Database object accessors exposed to plugin code.
+- baseURL: https://{appname}.bubbleapps.io/api/1.1
+  baseurl_source: declared
+  description: Database object accessors exposed to plugin code.
   name: Bubble Thing API
   slug: bubble-thing-api
 arazzos:
@@ -477,7 +485,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -487,7 +495,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 76.3
-  previous_composite: 59.8
+  previous_composite: 59.2
   provenance:
     agentic_access: derived
     contracts:
@@ -496,7 +504,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:

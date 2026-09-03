@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 60 operations · 40 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Delivery Attempt related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Delivery Attempt related APIs
   name: Convoy Delivery Attempts API
   slug: convoy-delivery-attempts-api
-- description: Endpoint related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Endpoint related APIs
   name: Convoy Endpoints API
   slug: convoy-endpoints-api
-- description: EventDelivery related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: EventDelivery related APIs
   name: Convoy Event Deliveries API
   slug: convoy-event-deliveries-api
-- description: Event related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Event related APIs
   name: Convoy Events API
   slug: convoy-events-api
-- description: Event Types related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Event Types related APIs
   name: Convoy EventTypes API
   slug: convoy-eventtypes-api
-- description: Filters related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Filters related APIs
   name: Convoy Filters API
   slug: convoy-filters-api
-- description: Meta Events related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Meta Events related APIs
   name: Convoy Meta Events API
   slug: convoy-meta-events-api
-- description: Onboard related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Onboard related APIs
   name: Convoy Onboard API
   slug: convoy-onboard-api
-- description: Portal Links related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Portal Links related APIs
   name: Convoy Portal Links API
   slug: convoy-portal-links-api
-- description: Source related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Source related APIs
   name: Convoy Sources API
   slug: convoy-sources-api
-- description: Subscription related APIs
+- baseURL: https://us.getconvoy.cloud/api
+  baseurl_source: declared
+  description: Subscription related APIs
   name: Convoy Subscriptions API
   slug: convoy-subscriptions-api
 arazzos:
@@ -713,7 +735,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:

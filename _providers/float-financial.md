@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,76 +37,122 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Account Transactions API from Float Financial — 2 operation(s) for account transactions.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Account Transactions API from Float Financial — 2 operation(s) for account transactions.
   name: Float Financial Account Transactions API
   slug: float-financial-account-transactions-api
-- description: The Accounting Connections API from Float Financial — 2 operation(s) for accounting connections.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Accounting Connections API from Float Financial — 2 operation(s) for accounting connections.
   name: Float Financial Accounting Connections API
   slug: float-financial-accounting-connections-api
-- description: The Accounts API from Float Financial — 2 operation(s) for accounts.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Accounts API from Float Financial — 2 operation(s) for accounts.
   name: Float Financial Accounts API
   slug: float-financial-accounts-api
-- description: The Approval Policies API from Float Financial — 2 operation(s) for approval policies.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Approval Policies API from Float Financial — 2 operation(s) for approval policies.
   name: Float Financial Approval Policies API
   slug: float-financial-approval-policies-api
-- description: The Bill Attachments API from Float Financial — 2 operation(s) for bill attachments.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Bill Attachments API from Float Financial — 2 operation(s) for bill attachments.
   name: Float Financial Bill Attachments API
   slug: float-financial-bill-attachments-api
-- description: The Bills API from Float Financial — 3 operation(s) for bills.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Bills API from Float Financial — 3 operation(s) for bills.
   name: Float Financial Bills API
   slug: float-financial-bills-api
-- description: The Card Limits API from Float Financial — 2 operation(s) for card limits.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Card Limits API from Float Financial — 2 operation(s) for card limits.
   name: Float Financial Card Limits API
   slug: float-financial-card-limits-api
-- description: The Card Transactions API from Float Financial — 2 operation(s) for card transactions.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Card Transactions API from Float Financial — 2 operation(s) for card transactions.
   name: Float Financial Card Transactions API
   slug: float-financial-card-transactions-api
-- description: The Cards API from Float Financial — 2 operation(s) for cards.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Cards API from Float Financial — 2 operation(s) for cards.
   name: Float Financial Cards API
   slug: float-financial-cards-api
-- description: The Custom Fields API from Float Financial — 4 operation(s) for custom fields.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Custom Fields API from Float Financial — 4 operation(s) for custom fields.
   name: Float Financial Custom Fields API
   slug: float-financial-custom-fields-api
-- description: The GL Codes API from Float Financial — 2 operation(s) for gl codes.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The GL Codes API from Float Financial — 2 operation(s) for gl codes.
   name: Float Financial GL Codes API
   slug: float-financial-gl-codes-api
-- description: The Meta API from Float Financial — 1 operation(s) for meta.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Meta API from Float Financial — 1 operation(s) for meta.
   name: Float Financial Meta API
   slug: float-financial-meta-api
-- description: The Payments API from Float Financial — 2 operation(s) for payments.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Payments API from Float Financial — 2 operation(s) for payments.
   name: Float Financial Payments API
   slug: float-financial-payments-api
-- description: The Receipts API from Float Financial — 2 operation(s) for receipts.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Receipts API from Float Financial — 2 operation(s) for receipts.
   name: Float Financial Receipts API
   slug: float-financial-receipts-api
-- description: The Reimbursements API from Float Financial — 3 operation(s) for reimbursements.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Reimbursements API from Float Financial — 3 operation(s) for reimbursements.
   name: Float Financial Reimbursements API
   slug: float-financial-reimbursements-api
-- description: The Submission Policies API from Float Financial — 2 operation(s) for submission policies.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Submission Policies API from Float Financial — 2 operation(s) for submission policies.
   name: Float Financial Submission Policies API
   slug: float-financial-submission-policies-api
-- description: The Subsidiaries API from Float Financial — 2 operation(s) for subsidiaries.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Subsidiaries API from Float Financial — 2 operation(s) for subsidiaries.
   name: Float Financial Subsidiaries API
   slug: float-financial-subsidiaries-api
-- description: The Tax Codes API from Float Financial — 2 operation(s) for tax codes.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Tax Codes API from Float Financial — 2 operation(s) for tax codes.
   name: Float Financial Tax Codes API
   slug: float-financial-tax-codes-api
-- description: The Tax Components API from Float Financial — 1 operation(s) for tax components.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Tax Components API from Float Financial — 1 operation(s) for tax components.
   name: Float Financial Tax Components API
   slug: float-financial-tax-components-api
-- description: The Teams API from Float Financial — 2 operation(s) for teams.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Teams API from Float Financial — 2 operation(s) for teams.
   name: Float Financial Teams API
   slug: float-financial-teams-api
-- description: The Users API from Float Financial — 2 operation(s) for users.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Users API from Float Financial — 2 operation(s) for users.
   name: Float Financial Users API
   slug: float-financial-users-api
-- description: The Vendors API from Float Financial — 2 operation(s) for vendors.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Vendors API from Float Financial — 2 operation(s) for vendors.
   name: Float Financial Vendors API
   slug: float-financial-vendors-api
-- description: The Webhooks API from Float Financial — 1 operation(s) for webhooks.
+- baseURL: https://api.floatfinancial.com
+  baseurl_source: declared
+  description: The Webhooks API from Float Financial — 1 operation(s) for webhooks.
   name: Float Financial Webhooks API
   slug: float-financial-webhooks-api
 artifact_total: 30
@@ -265,7 +325,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -275,7 +335,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 60.2
+  previous_composite: 60.0
   provenance:
     conformance: first-party
     contracts:
@@ -292,7 +352,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:

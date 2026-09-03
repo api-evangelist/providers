@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -33,37 +44,59 @@ agentic_access:
   summary_line: 39 operations · 11 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Authentication operations
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: Authentication operations
   name: Reposit Power Auth API
   slug: reposit-power-auth-api
-- description: The battery API from Reposit Power — 1 operation(s) for battery.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: The battery API from Reposit Power — 1 operation(s) for battery.
   name: Reposit Power Battery API
   slug: reposit-power-battery-api
-- description: API end-points related to export curtailments.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: API end-points related to export curtailments.
   name: Reposit Power Curtailment API
   slug: reposit-power-curtailment-api
-- description: Deployment operations
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: Deployment operations
   name: Reposit Power Deployment API
   slug: reposit-power-deployment-api
-- description: API end-points related to export dispatches.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: API end-points related to export dispatches.
   name: Reposit Power Dispatch API
   slug: reposit-power-dispatch-api
-- description: The inverter API from Reposit Power — 1 operation(s) for inverter.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: The inverter API from Reposit Power — 1 operation(s) for inverter.
   name: Reposit Power Inverter API
   slug: reposit-power-inverter-api
-- description: Indicates this API end-point is available to network organisations.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: Indicates this API end-point is available to network organisations.
   name: Reposit Power Network API
   slug: reposit-power-network-api
-- description: API end-points related to deployments.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: API end-points related to deployments.
   name: Reposit Power Node API
   slug: reposit-power-node-api
-- description: API end-points related to powerstations.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: API end-points related to powerstations.
   name: Reposit Power Power Station API
   slug: reposit-power-power-station-api
-- description: The solar API from Reposit Power — 2 operation(s) for solar.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: The solar API from Reposit Power — 2 operation(s) for solar.
   name: Reposit Power Solar API
   slug: reposit-power-solar-api
-- description: End-points relating to the management of your Reposit Fleet and marketapi users.
+- baseURL: https://api.repositpower.com/
+  baseurl_source: declared
+  description: End-points relating to the management of your Reposit Fleet and marketapi users.
   name: Reposit Power Users API
   slug: reposit-power-users-api
 artifact_total: 17
@@ -258,7 +291,7 @@ score:
     regime_id: energy_utilities
     score: 60.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/screenshots/reposit-power-2026-08-17T081528.png
 security:

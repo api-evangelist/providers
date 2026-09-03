@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 153 operations · 66 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Manage virtual "buckets" for grouping and aggregating transactions by their underlying categories. Use this for retrieving financial data for customers of the Assess Dashboard (where the `bucket_id` i
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Manage virtual "buckets" for grouping and aggregating transactions by their underlying categories. Use this for retrieving financial data for customers of the Assess Dashboard (where the `bucket_id` i
   name: Bud Financial Aggregation Buckets API
   slug: bud-co-aggregation-buckets-api
-- description: Manipulate Transactions held on the Bud platform by finding similar transactions and submitting corrections.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Manipulate Transactions held on the Bud platform by finding similar transactions and submitting corrections.
   name: Bud Financial Correct Financial Data API
   slug: bud-co-correct-financial-data-api
-- description: 'Create a new connection to an Open Banking provider by using either: (i) Bud''s configurable frontend UI (__Bud Connect__), built to maximise conversion; or (ii) Bud''s individual API endpoints to help '
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: 'Create a new connection to an Open Banking provider by using either: (i) Bud''s configurable frontend UI (__Bud Connect__), built to maximise conversion; or (ii) Bud''s individual API endpoints to help '
   name: Bud Financial Create a Connection API
   slug: bud-co-create-a-connection-api
-- description: Understand and target messaging to your customers more effectively by defining your own custom insights.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Understand and target messaging to your customers more effectively by defining your own custom insights.
   name: Bud Financial Custom Insights API
   slug: bud-co-custom-insights-api
-- description: Create a link for a customer to follow, which will allow them to connect their bank accounts and submit their financial data for the application.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Create a link for a customer to follow, which will allow them to connect their bank accounts and submit their financial data for the application.
   name: Bud Financial Customer Application Links API
   slug: bud-co-customer-application-links-api
-- description: Create, retrieve and manage financial applications for customers using the Assess product. Applications created on this platform can be viewed using the Assess Dashboard to observe application statuse
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Create, retrieve and manage financial applications for customers using the Assess product. Applications created on this platform can be viewed using the Assess Dashboard to observe application statuse
   name: Bud Financial Customer Applications API
   slug: bud-co-customer-applications-api
-- description: Find information regarding your customer's debts.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information regarding your customer's debts.
   name: Bud Financial Debt Collection Finder API
   slug: bud-co-debt-collection-finder-api
-- description: Obtain greater context to Bud's enrichment services.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Obtain greater context to Bud's enrichment services.
   name: Bud Financial Enrichment Resources API
   slug: bud-co-enrichment-resources-api
-- description: Breakdown your customer's income and expenditure based on Bud's enrichments to help orientate their financial world.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Breakdown your customer's income and expenditure based on Bud's enrichments to help orientate their financial world.
   name: Bud Financial Enrichment Totals API
   slug: bud-co-enrichment-totals-api
-- description: A collection of frontend widgets representing customer financial data.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: A collection of frontend widgets representing customer financial data.
   name: Bud Financial Frontend Widgets API
   slug: bud-co-frontend-widgets-api
-- description: Find information regarding your customer's income.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information regarding your customer's income.
   name: Bud Financial Income Finder API
   slug: bud-co-income-finder-api
-- description: Initiate the asynchronous process of pushing a customer's account information (i.e. first party data) onto the Bud platform. These asynchronous requests create a task to store the given accounts or tr
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Initiate the asynchronous process of pushing a customer's account information (i.e. first party data) onto the Bud platform. These asynchronous requests create a task to store the given accounts or tr
   name: Bud Financial Ingest First Party Data API
   slug: bud-co-ingest-first-party-data-api
-- description: Authenticates and securely creates a new payment from a customer’s chosen account(s) using Bud's regulatory licence as a [Third Party Provider (TPP)](https://www.openbanking.org.uk/providers/third-par
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Authenticates and securely creates a new payment from a customer’s chosen account(s) using Bud's regulatory licence as a [Third Party Provider (TPP)](https://www.openbanking.org.uk/providers/third-par
   name: Bud Financial Initiate Payment - Bud license API
   slug: bud-co-initiate-payment-bud-license-api
-- description: Authenticates and securely creates a new payment from a customer’s chosen account(s) using your organisation's regulatory permission as a Payment Initiation Service Provider (PISP).
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Authenticates and securely creates a new payment from a customer’s chosen account(s) using your organisation's regulatory permission as a Payment Initiation Service Provider (PISP).
   name: Bud Financial Initiate Payment - Client license API
   slug: bud-co-initiate-payment-client-license-api
-- description: Find information regarding your customer's loans.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information regarding your customer's loans.
   name: Bud Financial Loan Finder API
   slug: bud-co-loan-finder-api
-- description: 'Different endpoints that allow to to manage an existing customer connection. This includes the ability to: (i) Refresh the data associated with a given connection, pulling in the latest account inform'
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: 'Different endpoints that allow to to manage an existing customer connection. This includes the ability to: (i) Refresh the data associated with a given connection, pulling in the latest account inform'
   name: Bud Financial Manage a Connection API
   slug: bud-co-manage-a-connection-api
-- description: Manage the number of customers registered onto the Bud platform.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Manage the number of customers registered onto the Bud platform.
   name: Bud Financial Manage Customers API
   slug: bud-co-manage-customers-api
-- description: Manipulate Transactions held on the Bud platform by removing data, submitting corrections, or adding tags through different rulesets.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Manipulate Transactions held on the Bud platform by removing data, submitting corrections, or adding tags through different rulesets.
   name: Bud Financial Manage Financial Data API
   slug: bud-co-manage-financial-data-api
-- description: Manage payments to initiated through Bud's Payments API
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Manage payments to initiated through Bud's Payments API
   name: Bud Financial Manage Payments API
   slug: bud-co-manage-payments-api
-- description: Retrieve and manage access and refresh tokens to authenticate to the Bud platform via OAuth2 protocol.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve and manage access and refresh tokens to authenticate to the Bud platform via OAuth2 protocol.
   name: Bud Financial OAuth2 API
   slug: bud-co-oauth2-api
-- description: Find information regarding your customer's financial products.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information regarding your customer's financial products.
   name: Bud Financial Product Finder API
   slug: bud-co-product-finder-api
-- description: Find information relating to any regularity found across certain groups of transactions within your customer's accounts.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information relating to any regularity found across certain groups of transactions within your customer's accounts.
   name: Bud Financial Regular Payments Finder API
   slug: bud-co-regular-payments-finder-api
-- description: Retrieve a customer's actionable insights generated from their financial data.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve a customer's actionable insights generated from their financial data.
   name: Bud Financial Retrieve Actionable Insights API
   slug: bud-co-retrieve-actionable-insights-api
-- description: Breakdown your customer's transactions by fixed/flexible spend and discretionary vs non discretionary high-level totals.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Breakdown your customer's transactions by fixed/flexible spend and discretionary vs non discretionary high-level totals.
   name: Bud Financial Retrieve Affordability Report API
   slug: bud-co-retrieve-affordability-report-api
-- description: 'Breakdown your customer''s transactions by fixed/flexible spend and discretionary vs non discretionary high-level totals. Retrieve Affordability Report V2 endpoints are designed to closely reflect the '
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: 'Breakdown your customer''s transactions by fixed/flexible spend and discretionary vs non discretionary high-level totals. Retrieve Affordability Report V2 endpoints are designed to closely reflect the '
   name: Bud Financial Retrieve Affordability Report V2 API
   slug: bud-co-retrieve-affordability-report-v2-api
-- description: Retrieve a customer's report insights generated from their financial data. In contrast to the alert style actionable insights, these insights should be used more as a summary.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve a customer's report insights generated from their financial data. In contrast to the alert style actionable insights, these insights should be used more as a summary.
   name: Bud Financial Retrieve Affordability Risk Insights API
   slug: bud-co-retrieve-affordability-risk-insights-api
-- description: Retrieve Characteristics associated with an individual Customer based on their financial data.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve Characteristics associated with an individual Customer based on their financial data.
   name: Bud Financial Retrieve Customer Characteristics API
   slug: bud-co-retrieve-customer-characteristics-api
-- description: Retrieve a customer's financial data from a range of sources.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Retrieve a customer's financial data from a range of sources.
   name: Bud Financial Retrieve Financial Data API
   slug: bud-co-retrieve-financial-data-api
-- description: Savings goals management API V2.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Savings goals management API V2.
   name: Bud Financial Savings Goals V2 API
   slug: bud-co-savings-goals-v2-api
-- description: Spending budgets management API.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Spending budgets management API.
   name: Bud Financial Spending Budgets API
   slug: bud-co-spending-budgets-api
-- description: Find information regarding your customer's subscriptions.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Find information regarding your customer's subscriptions.
   name: Bud Financial Subscription Finder API
   slug: bud-co-subscription-finder-api
-- description: Allows customers to search & ask questions about their financial transactions.
+- baseURL: https://api-sandbox.thisisbud.com
+  baseurl_source: declared
+  description: Allows customers to search & ask questions about their financial transactions.
   name: Bud Financial Transaction Search API
   slug: bud-co-transaction-search-api
 artifact_total: 80
@@ -400,7 +464,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png
 security:

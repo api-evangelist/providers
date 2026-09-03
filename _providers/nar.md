@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -33,76 +46,124 @@ agentic_access:
   summary_line: 88 operations · 59 acting
 api_count: 1
 apis:
-- description: The Association API from National Association of REALTORS — 3 operation(s) for association.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The Association API from National Association of REALTORS — 3 operation(s) for association.
   name: National Association of REALTORS Association API
   slug: nar-association-api
-- description: The DataExtractRequest API from National Association of REALTORS — 4 operation(s) for dataextractrequest.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The DataExtractRequest API from National Association of REALTORS — 4 operation(s) for dataextractrequest.
   name: National Association of REALTORS Data Extract Request API
   slug: nar-dataextractrequest-api
-- description: The DataExtractSchedule API from National Association of REALTORS — 4 operation(s) for dataextractschedule.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The DataExtractSchedule API from National Association of REALTORS — 4 operation(s) for dataextractschedule.
   name: National Association of REALTORS Data Extract Schedule API
   slug: nar-dataextractschedule-api
-- description: The Member API from National Association of REALTORS — 11 operation(s) for member.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The Member API from National Association of REALTORS — 11 operation(s) for member.
   name: National Association of REALTORS Member API
   slug: nar-member-api
-- description: The MemberAddress API from National Association of REALTORS — 2 operation(s) for memberaddress.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberAddress API from National Association of REALTORS — 2 operation(s) for memberaddress.
   name: National Association of REALTORS Member Address API
   slug: nar-memberaddress-api
-- description: The MemberCertification API from National Association of REALTORS — 2 operation(s) for membercertification.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberCertification API from National Association of REALTORS — 2 operation(s) for membercertification.
   name: National Association of REALTORS Member Certification API
   slug: nar-membercertification-api
-- description: The MemberCoe API from National Association of REALTORS — 2 operation(s) for membercoe.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberCoe API from National Association of REALTORS — 2 operation(s) for membercoe.
   name: National Association of REALTORS Member Coe API
   slug: nar-membercoe-api
-- description: The MemberDemographic API from National Association of REALTORS — 2 operation(s) for memberdemographic.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberDemographic API from National Association of REALTORS — 2 operation(s) for memberdemographic.
   name: National Association of REALTORS Member Demographic API
   slug: nar-memberdemographic-api
-- description: The MemberDesignation API from National Association of REALTORS — 2 operation(s) for memberdesignation.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberDesignation API from National Association of REALTORS — 2 operation(s) for memberdesignation.
   name: National Association of REALTORS Member Designation API
   slug: nar-memberdesignation-api
-- description: The MemberDuesPayment API from National Association of REALTORS — 2 operation(s) for memberduespayment.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberDuesPayment API from National Association of REALTORS — 2 operation(s) for memberduespayment.
   name: National Association of REALTORS Member Dues Payment API
   slug: nar-memberduespayment-api
-- description: The MemberEducation API from National Association of REALTORS — 2 operation(s) for membereducation.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberEducation API from National Association of REALTORS — 2 operation(s) for membereducation.
   name: National Association of REALTORS Member Education API
   slug: nar-membereducation-api
-- description: The MemberEducationLevel API from National Association of REALTORS — 2 operation(s) for membereducationlevel.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberEducationLevel API from National Association of REALTORS — 2 operation(s) for membereducationlevel.
   name: National Association of REALTORS Member Education Level API
   slug: nar-membereducationlevel-api
-- description: The MemberEmail API from National Association of REALTORS — 2 operation(s) for memberemail.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberEmail API from National Association of REALTORS — 2 operation(s) for memberemail.
   name: National Association of REALTORS Member Email API
   slug: nar-memberemail-api
-- description: The MemberFairHousing API from National Association of REALTORS — 2 operation(s) for memberfairhousing.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberFairHousing API from National Association of REALTORS — 2 operation(s) for memberfairhousing.
   name: National Association of REALTORS Member Fair Housing API
   slug: nar-memberfairhousing-api
-- description: The MemberFieldOfBusiness API from National Association of REALTORS — 2 operation(s) for memberfieldofbusiness.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberFieldOfBusiness API from National Association of REALTORS — 2 operation(s) for memberfieldofbusiness.
   name: National Association of REALTORS Member Field Of Business API
   slug: nar-memberfieldofbusiness-api
-- description: The MemberIscAffiliation API from National Association of REALTORS — 2 operation(s) for memberiscaffiliation.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberIscAffiliation API from National Association of REALTORS — 2 operation(s) for memberiscaffiliation.
   name: National Association of REALTORS Member Isc Affiliation API
   slug: nar-memberiscaffiliation-api
-- description: The MemberLanguage API from National Association of REALTORS — 2 operation(s) for memberlanguage.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberLanguage API from National Association of REALTORS — 2 operation(s) for memberlanguage.
   name: National Association of REALTORS Member Language API
   slug: nar-memberlanguage-api
-- description: The MemberMilitaryService API from National Association of REALTORS — 2 operation(s) for membermilitaryservice.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberMilitaryService API from National Association of REALTORS — 2 operation(s) for membermilitaryservice.
   name: National Association of REALTORS Member Military Service API
   slug: nar-membermilitaryservice-api
-- description: The MemberMLS API from National Association of REALTORS — 2 operation(s) for membermls.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberMLS API from National Association of REALTORS — 2 operation(s) for membermls.
   name: National Association of REALTORS Member MLS API
   slug: nar-membermls-api
-- description: The MemberPhone API from National Association of REALTORS — 2 operation(s) for memberphone.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberPhone API from National Association of REALTORS — 2 operation(s) for memberphone.
   name: National Association of REALTORS Member Phone API
   slug: nar-memberphone-api
-- description: The MemberSecondary API from National Association of REALTORS — 2 operation(s) for membersecondary.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberSecondary API from National Association of REALTORS — 2 operation(s) for membersecondary.
   name: National Association of REALTORS Member Secondary API
   slug: nar-membersecondary-api
-- description: The MemberSingleOwnedMLS API from National Association of REALTORS — 1 operation(s) for membersingleownedmls.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The MemberSingleOwnedMLS API from National Association of REALTORS — 1 operation(s) for membersingleownedmls.
   name: National Association of REALTORS Member Single Owned MLS API
   slug: nar-membersingleownedmls-api
-- description: The Office API from National Association of REALTORS — 5 operation(s) for office.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The Office API from National Association of REALTORS — 5 operation(s) for office.
   name: National Association of REALTORS Office API
   slug: nar-office-api
-- description: The OfficeSecondary API from National Association of REALTORS — 2 operation(s) for officesecondary.
+- baseURL: https://m1gateway.realtor
+  baseurl_source: declared
+  description: The OfficeSecondary API from National Association of REALTORS — 2 operation(s) for officesecondary.
   name: National Association of REALTORS Office Secondary API
   slug: nar-officesecondary-api
 artifact_total: 30
@@ -271,7 +332,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nar/refs/heads/main/screenshots/nar-2026-08-07T184628.png
 security:

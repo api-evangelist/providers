@@ -23,16 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Server-to-server conversion postback.
+- baseURL: https://atlas.hellosafe.com/api/v1/travel
+  baseurl_source: declared
+  description: Server-to-server conversion postback.
   name: HelloSafe Conversion API
   slug: hellosafe-conversion-api
-- description: Turn a chosen offer into a tracked, attributed subscription link.
+- baseURL: https://atlas.hellosafe.com/api/v1/travel
+  baseurl_source: declared
+  description: Turn a chosen offer into a tracked, attributed subscription link.
   name: HelloSafe Links API
   slug: hellosafe-links-api
-- description: Price a trip and read the catalogue vocabulary.
+- baseURL: https://atlas.hellosafe.com/api/v1/travel
+  baseurl_source: declared
+  description: Price a trip and read the catalogue vocabulary.
   name: HelloSafe Quotes API
   slug: hellosafe-quotes-api
 artifact_total: 3
@@ -74,7 +80,7 @@ score:
   band: thin
   composite: 30.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -102,8 +108,9 @@ score:
     regime_id: insurance
     score: 12.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hellosafe/refs/heads/main/screenshots/hellosafe-2026-09-02T145720.png
 slug: hellosafe
 tags:
 - Travel Insurance

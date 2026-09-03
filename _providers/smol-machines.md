@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 5
@@ -43,61 +43,99 @@ agentic_access:
   summary_line: 83 operations · 49 acting · 5 human-in-the-loop
 api_count: 2
 apis:
-- description: API key management
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: API key management
   name: Smol Machines apikeys API
   slug: smol-machines-apikeys-api
-- description: Long-running app deployments
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Long-running app deployments
   name: Smol Machines apps API
   slug: smol-machines-apps-api
-- description: Self-service account and metering
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Self-service account and metering
   name: Smol Machines billing API
   slug: smol-machines-billing-api
-- description: Container management within sandboxes
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Container management within sandboxes
   name: Smol Machines Containers API
   slug: smol-machines-containers-api
-- description: Command execution in sandboxes
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Command execution in sandboxes
   name: Smol Machines Execution API
   slug: smol-machines-execution-api
-- description: Health, probes, and metrics
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Health, probes, and metrics
   name: Smol Machines health API
   slug: smol-machines-health-api
-- description: OCI image management
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: OCI image management
   name: Smol Machines Images API
   slug: smol-machines-images-api
-- description: Log streaming
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Log streaming
   name: Smol Machines Logs API
   slug: smol-machines-logs-api
-- description: First-class machine lifecycle and exec
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: First-class machine lifecycle and exec
   name: Smol Machines machines API
   slug: smol-machines-machines-api
-- description: Persistent microVM management
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Persistent microVM management
   name: Smol Machines MicroVMs API
   slug: smol-machines-microvms-api
-- description: Cluster node enrollment and status
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Cluster node enrollment and status
   name: Smol Machines nodes API
   slug: smol-machines-nodes-api
-- description: Async operations
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Async operations
   name: Smol Machines operations API
   slug: smol-machines-operations-api
-- description: Quota + rate + budget plans
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Quota + rate + budget plans
   name: Smol Machines plans API
   slug: smol-machines-plans-api
-- description: Warm machine pools
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Warm machine pools
   name: Smol Machines pools API
   slug: smol-machines-pools-api
-- description: Sandbox lifecycle management
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Sandbox lifecycle management
   name: Smol Machines Sandboxes API
   slug: smol-machines-sandboxes-api
-- description: Customer accounts (product-backend)
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Customer accounts (product-backend)
   name: Smol Machines tenants API
   slug: smol-machines-tenants-api
-- description: Node join tokens
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Node join tokens
   name: Smol Machines tokens API
   slug: smol-machines-tokens-api
-- description: Usage and billing
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Usage and billing
   name: Smol Machines usage API
   slug: smol-machines-usage-api
-- description: Persistent volumes
+- baseURL: https://api.smolmachines.com
+  baseurl_source: declared
+  description: Persistent volumes
   name: Smol Machines volumes API
   slug: smol-machines-volumes-api
 artifact_total: 43
@@ -342,7 +380,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/screenshots/smol-machines-2026-08-17T081934.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -74,28 +74,44 @@ apis:
 - description: Homebrew tap that publishes the `sideko` CLI binary (`brew install sideko-inc/tap/sideko`).
   name: Sideko Homebrew Tap
   slug: homebrew-tap
-- description: Manage API projects within the Sideko platform. Projects organize OpenAPI specifications and the tooling generated from them.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Manage API projects within the Sideko platform. Projects organize OpenAPI specifications and the tooling generated from them.
   name: Sideko API Projects API
   slug: sideko-api-projects-api
-- description: Manage versioned OpenAPI specifications inside an API project. Each version is the source of truth that drives SDK, MCP, mock-server, and documentation generation.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Manage versioned OpenAPI specifications inside an API project. Each version is the source of truth that drives SDK, MCP, mock-server, and documentation generation.
   name: Sideko API Versions API
   slug: sideko-api-versions-api
-- description: Manage API keys and authentication for the Sideko platform.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Manage API keys and authentication for the Sideko platform.
   name: Sideko Authentication API
   slug: sideko-authentication-api
-- description: Publish and manage API documentation sites generated from OpenAPI specifications, including on-brand themes, custom domains, and AI-ready MCP documentation surfaces.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Publish and manage API documentation sites generated from OpenAPI specifications, including on-brand themes, custom domains, and AI-ready MCP documentation surfaces.
   name: Sideko Documentation API
   slug: sideko-documentation-api
-- description: Lint OpenAPI specifications against Sideko's generation-readiness rules and surface errors before SDK, MCP, or mock generation.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Lint OpenAPI specifications against Sideko's generation-readiness rules and surface errors before SDK, MCP, or mock generation.
   name: Sideko Linting API
   slug: sideko-linting-api
-- description: Generate and manage Model Context Protocol (MCP) servers from an OpenAPI specification so AI agents can call the API through structured MCP tools.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Generate and manage Model Context Protocol (MCP) servers from an OpenAPI specification so AI agents can call the API through structured MCP tools.
   name: Sideko MCP Generation API
   slug: sideko-mcp-generation-api
-- description: Deploy and manage mock server instances that simulate API behavior based on OpenAPI specs.
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Deploy and manage mock server instances that simulate API behavior based on OpenAPI specs.
   name: Sideko Mock Servers API
   slug: sideko-mock-servers-api
-- description: Trigger and manage SDK generation jobs for the six supported languages Python, TypeScript, Java, Go, C#, and Rust, with optional GitHub Actions and LLM coding-assistant rule files (Claude Code, Cursor
+- baseURL: https://api.sideko.dev/v1
+  baseurl_source: declared
+  description: Trigger and manage SDK generation jobs for the six supported languages Python, TypeScript, Java, Go, C#, and Rust, with optional GitHub Actions and LLM coding-assistant rule files (Claude Code, Cursor
   name: Sideko SDK Generation API
   slug: sideko-sdk-generation-api
 artifact_total: 53
@@ -320,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
 security:

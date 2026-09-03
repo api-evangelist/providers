@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,10 +65,14 @@ apis:
 - description: REST API for off-chain virtual account ledger with deposit address allocation, transfers, and reconciliation.
   name: Tatum Virtual Accounts (Ledger)
   slug: virtual-accounts
-- description: The Data API from Tatum — 4 operation(s) for data.
+- baseURL: https://api.tatum.io/v3/blockchain/node/{chain}/{apiKey}
+  baseurl_source: declared
+  description: The Data API from Tatum — 4 operation(s) for data.
   name: Tatum Data API
   slug: tatum-data-api
-- description: The Rates API from Tatum — 1 operation(s) for rates.
+- baseURL: https://api.tatum.io/v3/blockchain/node/{chain}/{apiKey}
+  baseurl_source: declared
+  description: The Rates API from Tatum — 1 operation(s) for rates.
   name: Tatum Rates API
   slug: tatum-rates-api
 artifact_total: 20
@@ -192,7 +196,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/screenshots/tatum-2026-06-20T194929.png
 security:

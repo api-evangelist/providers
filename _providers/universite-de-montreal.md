@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Université de Montréal''s own read-only research API, and the one genuinely institution-engineered contract in this profile. Five services: reference-value exposure (faculties, departments, administrat'
+- baseURL: https://www.recherche.umontreal.ca/vitrine/rest/api/1.8/umontreal
+  baseurl_source: declared
+  description: 'Université de Montréal''s own read-only research API, and the one genuinely institution-engineered contract in this profile. Five services: reference-value exposure (faculties, departments, administrat'
   name: SADVR REST API (Vitrine-Recherche)
   slug: sadvr
 - description: 'Université de Montréal''s campus single sign-on, published as machine-readable SAML 2.0 entity metadata. The document declares an IDPSSODescriptor supporting SAML 2.0, SAML 1.1 and the legacy urn:mace:'
@@ -224,23 +226,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.3
+  composite: 43.9
   coverage:
     artifact_dirs: 18
     catalog_gap: 28.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -6.3
+  delta: -0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 45.5
-    contract_quality: 32.1
+    contract_quality: 30.6
     developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 23.7
-  previous_composite: 50.6
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     contracts:
@@ -255,8 +257,8 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png
 security:
 - kind: authentication

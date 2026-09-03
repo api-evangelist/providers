@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -57,52 +57,84 @@ apis:
 - description: OAI-PMH 2.0 harvesting service over IRIS, Politecnico di Torino's institutional research repository, reachable at https://iris.polito.it/oai/request. Verified live on 2026-08-30 across Identify, ListM
   name: IRIS PoliTO OAI-PMH Metadata Service (CINECA deployment)
   slug: iris-oai
-- description: Announcements resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in Ty
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Announcements resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in Ty
   name: Politecnico di Torino Announcements API
   slug: politecnico-di-torino-announcements-api
-- description: Auth resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Auth resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
   name: Politecnico di Torino Auth API
   slug: politecnico-di-torino-auth-api
-- description: Bookings resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Bookings resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Bookings API
   slug: politecnico-di-torino-bookings-api
-- description: Courses resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Courses resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec
   name: Politecnico di Torino Courses API
   slug: politecnico-di-torino-courses-api
-- description: Esc resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Esc resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
   name: Politecnico di Torino Esc API
   slug: politecnico-di-torino-esc-api
-- description: 'Exams resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: 'Exams resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
   name: Politecnico di Torino Exams API
   slug: politecnico-di-torino-exams-api
-- description: Job Offers resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in Type
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Job Offers resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in Type
   name: Politecnico di Torino Job offers API
   slug: politecnico-di-torino-job-offers-api
-- description: Lectures resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Lectures resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Lectures API
   slug: politecnico-di-torino-lectures-api
-- description: News resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: News resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec an
   name: Politecnico di Torino News API
   slug: politecnico-di-torino-news-api
-- description: Offering resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSp
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Offering resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSp
   name: Politecnico di Torino Offering API
   slug: politecnico-di-torino-offering-api
-- description: 'People resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: 'People resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
   name: Politecnico di Torino People API
   slug: politecnico-di-torino-people-api
-- description: 'Places resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: 'Places resources of the Polito Faculty API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpec '
   name: Politecnico di Torino Places API
   slug: politecnico-di-torino-places-api
-- description: Student resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Student resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Student API
   slug: politecnico-di-torino-student-api
-- description: Surveys resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Surveys resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Surveys API
   slug: politecnico-di-torino-surveys-api
-- description: Tickets resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
+- baseURL: https://app.didattica.polito.it/api
+  baseurl_source: declared
+  description: Tickets resources of the Polito Students API, split per tag from openapi/_original/. Operated by Politecnico di Torino on app.didattica.polito.it; the contract is authored by the university in TypeSpe
   name: Politecnico di Torino Tickets API
   slug: politecnico-di-torino-tickets-api
-- description: Four keyless JSON web services operated by Politecnico di Torino on its own hosts, found on 2026-08-30 in the client JavaScript behind https://www.polito.it/en/search and probed live. search_people.as
+- baseURL: https://mypoli.polito.it/dotnet/ws_anagrafe
+  baseurl_source: declared
+  description: Four keyless JSON web services operated by Politecnico di Torino on its own hosts, found on 2026-08-30 in the client JavaScript behind https://www.polito.it/en/search and probed live. search_people.as
   name: PoliTO Public Search Web Services (people, departments, teachings, rooms)
   slug: public-search-services
 artifact_total: 54
@@ -367,7 +399,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -380,7 +412,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 47.0
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,7 +428,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-torino/refs/heads/main/screenshots/politecnico-di-torino-2026-06-20T191855.png
 security:

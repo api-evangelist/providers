@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 24 operations · 12 acting
 api_count: 2
 apis:
-- description: The Cronitor Telemetry API API from Cronitor — 1 operation(s) for cronitor telemetry api.
+- baseURL: https://cronitor.io/api/monitors
+  baseurl_source: declared
+  description: The Cronitor Telemetry API API from Cronitor — 1 operation(s) for cronitor telemetry api.
   name: Cronitor Cronitor Telemetry API API
   slug: cronitor-cronitor-telemetry-api-api
-- description: The Groups API from Cronitor — 3 operation(s) for groups.
+- baseURL: https://cronitor.io/api/monitors
+  baseurl_source: declared
+  description: The Groups API from Cronitor — 3 operation(s) for groups.
   name: Cronitor Groups API
   slug: cronitor-groups-api
-- description: The Notifications API from Cronitor — 2 operation(s) for notifications.
+- baseURL: https://cronitor.io/api/monitors
+  baseurl_source: declared
+  description: The Notifications API from Cronitor — 2 operation(s) for notifications.
   name: Cronitor Notifications API
   slug: cronitor-notifications-api
-- description: The P API from Cronitor — 1 operation(s) for p.
+- baseURL: https://cronitor.io/api/monitors
+  baseurl_source: declared
+  description: The P API from Cronitor — 1 operation(s) for p.
   name: Cronitor P API
   slug: cronitor-p-api
 artifact_total: 25
@@ -247,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/screenshots/cronitor-2026-06-20T175236.png
 security:

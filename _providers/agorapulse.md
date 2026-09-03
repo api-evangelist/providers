@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,85 +45,139 @@ agentic_access:
   summary_line: 22 operations · 7 acting
 api_count: 2
 apis:
-- description: Publishing calendar notes management
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Publishing calendar notes management
   name: Agorapulse Calendar Notes API
   slug: agorapulse-calendar-notes-api
-- description: The webhook surface of the Agorapulse API — the OpenAPI 3.1 top-level webhooks object carrying the PUBLISHING_POST and INBOX_ITEM events, their payload schemas and the X-Hook-Signature HMAC scheme. Ca
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The webhook surface of the Agorapulse API — the OpenAPI 3.1 top-level webhooks object carrying the PUBLISHING_POST and INBOX_ITEM events, their payload schemas and the X-Hook-Signature HMAC scheme. Ca
   name: Agorapulse Webhooks API
   slug: agorapulse-agorapulse-api-api
-- description: The Competitor API from Agorapulse — 2 operation(s) for competitor.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Competitor API from Agorapulse — 2 operation(s) for competitor.
   name: Agorapulse Competitor API
   slug: agorapulse-competitor-api
-- description: Read conversation threads from your social inbox.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Read conversation threads from your social inbox.
   name: Agorapulse Conversations API
   slug: agorapulse-conversations-api
-- description: Create draft posts for review and approval.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Create draft posts for review and approval.
   name: Agorapulse Drafts API
   slug: agorapulse-drafts-api
-- description: Folders that organize a workspace's social profiles, with the profiles each contains.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Folders that organize a workspace's social profiles, with the profiles each contains.
   name: Agorapulse Groups API
   slug: agorapulse-groups-api
-- description: Service health and status checks.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Service health and status checks.
   name: Agorapulse Health API
   slug: agorapulse-health-api
-- description: List inbox items (comments, messages, reviews).
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: List inbox items (comments, messages, reviews).
   name: Agorapulse Items API
   slug: agorapulse-items-api
-- description: Upload media assets to your content library.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Upload media assets to your content library.
   name: Agorapulse Media API
   slug: agorapulse-media-api
-- description: List and access the organizations you belong to.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: List and access the organizations you belong to.
   name: Agorapulse Organizations API
   slug: agorapulse-organizations-api
-- description: List a Pinterest profile's boards to obtain the board id a pin requires.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: List a Pinterest profile's boards to obtain the board id a pin requires.
   name: Agorapulse Pinterest boards API
   slug: agorapulse-pinterest-boards-api
-- description: The connected social profiles within a workspace.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The connected social profiles within a workspace.
   name: Agorapulse Profiles API
   slug: agorapulse-profiles-api
-- description: Reply to inbox items.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Reply to inbox items.
   name: Agorapulse Replies API
   slug: agorapulse-replies-api
-- description: Pull audience, content and community-management insights.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Pull audience, content and community-management insights.
   name: Agorapulse Reports API
   slug: agorapulse-reports-api
-- description: Workspaces group the social profiles you manage inside an organization.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Workspaces group the social profiles you manage inside an organization.
   name: Agorapulse Workspaces API
   slug: agorapulse-workspaces-api
-- description: The Inbox conversations API from Agorapulse — 1 operation(s) for inbox conversations.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Inbox conversations API from Agorapulse — 1 operation(s) for inbox conversations.
   name: Agorapulse Inbox conversations API
   slug: agorapulse-inbox-conversations-api
-- description: The Inbox items API from Agorapulse — 1 operation(s) for inbox items.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Inbox items API from Agorapulse — 1 operation(s) for inbox items.
   name: Agorapulse Inbox items API
   slug: agorapulse-inbox-items-api
-- description: The Inbox reply API from Agorapulse — 1 operation(s) for inbox reply.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Inbox reply API from Agorapulse — 1 operation(s) for inbox reply.
   name: Agorapulse Inbox reply API
   slug: agorapulse-inbox-reply-api
-- description: The Open API API from Agorapulse — 0 operation(s) for open api.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Open API API from Agorapulse — 0 operation(s) for open api.
   name: Agorapulse Open API
   slug: agorapulse-open-api-api
-- description: The OpenAPI API from Agorapulse — 1 operation(s) for openapi.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The OpenAPI API from Agorapulse — 1 operation(s) for openapi.
   name: Agorapulse Open API
   slug: agorapulse-openapi-api
-- description: The Organization API from Agorapulse — 1 operation(s) for organization.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Organization API from Agorapulse — 1 operation(s) for organization.
   name: Agorapulse Organization API
   slug: agorapulse-organization-api
-- description: The Profile API from Agorapulse — 1 operation(s) for profile.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Profile API from Agorapulse — 1 operation(s) for profile.
   name: Agorapulse Profile API
   slug: agorapulse-profile-api
-- description: The Report API from Agorapulse — 3 operation(s) for report.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Report API from Agorapulse — 3 operation(s) for report.
   name: Agorapulse Report API
   slug: agorapulse-report-api
-- description: Publishing simple drafts management
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Publishing simple drafts management
   name: Agorapulse Simple Drafts API
   slug: agorapulse-simple-drafts-api
-- description: Publishing simple scheduled and immediate posts management
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Publishing simple scheduled and immediate posts management
   name: Agorapulse Simple Scheduling API
   slug: agorapulse-simple-scheduling-api
-- description: Studio media upload management
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: Studio media upload management
   name: Agorapulse Studio Media API
   slug: agorapulse-studio-media-api
-- description: The Workspace API from Agorapulse — 1 operation(s) for workspace.
+- baseURL: https://api.agorapulse.com
+  baseurl_source: declared
+  description: The Workspace API from Agorapulse — 1 operation(s) for workspace.
   name: Agorapulse Workspace API
   slug: agorapulse-workspace-api
 artifact_total: 161
@@ -723,7 +777,7 @@ score:
     catalog_gap: 40.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -733,7 +787,7 @@ score:
     discoverability: 75.9
     governance: 14.4
     operational_transparency: 76.3
-  previous_composite: 67.7
+  previous_composite: 67.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -745,7 +799,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png
 security:

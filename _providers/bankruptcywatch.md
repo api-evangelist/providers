@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Cases API from BankruptcyWatch — 2 operation(s) for cases.
+- baseURL: https://api.bankruptcywatch.com/v1
+  baseurl_source: declared
+  description: The Cases API from BankruptcyWatch — 2 operation(s) for cases.
   name: BankruptcyWatch Cases API
   slug: bankruptcywatch-cases-api
-- description: The Claims API from BankruptcyWatch — 1 operation(s) for claims.
+- baseURL: https://api.bankruptcywatch.com/v1
+  baseurl_source: declared
+  description: The Claims API from BankruptcyWatch — 1 operation(s) for claims.
   name: BankruptcyWatch Claims API
   slug: bankruptcywatch-claims-api
-- description: The Docket API from BankruptcyWatch — 1 operation(s) for docket.
+- baseURL: https://api.bankruptcywatch.com/v1
+  baseurl_source: declared
+  description: The Docket API from BankruptcyWatch — 1 operation(s) for docket.
   name: BankruptcyWatch Docket API
   slug: bankruptcywatch-docket-api
-- description: The Monitoring API from BankruptcyWatch — 2 operation(s) for monitoring.
+- baseURL: https://api.bankruptcywatch.com/v1
+  baseurl_source: declared
+  description: The Monitoring API from BankruptcyWatch — 2 operation(s) for monitoring.
   name: BankruptcyWatch Monitoring API
   slug: bankruptcywatch-monitoring-api
 artifact_total: 73
@@ -340,7 +348,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/screenshots/bankruptcywatch-2026-06-20T172956.png
 security:

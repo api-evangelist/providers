@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -45,10 +45,14 @@ agentic_access:
   summary_line: 79 operations · 12 acting
 api_count: 1
 apis:
-- description: Everything related to alerts
+- baseURL: http://localhost:19999
+  baseurl_source: declared
+  description: Everything related to alerts
   name: Netdata alerts API
   slug: netdata-alerts-api
-- description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
+- baseURL: http://localhost:19999
+  baseurl_source: declared
+  description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
   name: Netdata charts API
   slug: netdata-charts-api
 artifact_total: 59
@@ -347,7 +351,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
 security:

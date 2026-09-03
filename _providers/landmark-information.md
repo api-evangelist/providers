@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -51,28 +51,44 @@ apis:
 - description: On-demand raster mapping tile service delivered against the Open Geospatial Consortium Web Map Tile Service (OGC WMTS) standard, with 20 zoom levels spanning Ordnance Survey MasterMap through national
   name: Landmark Geodata Web Map Tile Service (WMTS)
   slug: landmark-geodata-web-map-tile-service
-- description: Read a vault's audit history.
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Read a vault's audit history.
   name: Landmark Information Group Activities API
   slug: landmark-information-activities-api
-- description: 'Once you instruct a quote it becomes a case. If you''re the conveyancer, these are the cases assigned to you: you work them through to completion and post updates as you go. If you''re the introducer, t'
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: 'Once you instruct a quote it becomes a case. If you''re the conveyancer, these are the cases assigned to you: you work them through to completion and post updates as you go. If you''re the introducer, t'
   name: Landmark Information Group Cases API
   slug: landmark-information-cases-api
-- description: Create a vault and manage its details and recipients.
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Create a vault and manage its details and recipients.
   name: Landmark Information Group Document Vaults API
   slug: landmark-information-document-vaults-api
-- description: Add and remove the files held in a vault.
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Add and remove the files held in a vault.
   name: Landmark Information Group Documents API
   slug: landmark-information-documents-api
-- description: Operations to manage callback configurations for transaction milestone notifications
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Operations to manage callback configurations for transaction milestone notifications
   name: Landmark Information Group Milestones API
   slug: landmark-information-milestones-api
-- description: Operations to create and receive order results.
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Operations to create and receive order results.
   name: Landmark Information Group Order Experience API
   slug: landmark-information-order-experience-api-api
-- description: Quotes are where a job begins. You build a quote for your client's transaction, get back the panel conveyancers available to you with their pricing, and instruct one of them to turn the quote into a l
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: Quotes are where a job begins. You build a quote for your client's transaction, get back the panel conveyancers available to you with their pricing, and instruct one of them to turn the quote into a l
   name: Landmark Information Group Quotes API
   slug: landmark-information-quotes-api
-- description: APIs for tracking asynchronous request status
+- baseURL: https://api.landmarkcloudservices.com/connect
+  baseurl_source: declared
+  description: APIs for tracking asynchronous request status
   name: Landmark Information Group Transaction Requests API
   slug: landmark-information-transaction-requests-api
 arazzos:
@@ -329,7 +345,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -339,7 +355,7 @@ score:
     discoverability: 64.8
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 49.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,7 +367,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:

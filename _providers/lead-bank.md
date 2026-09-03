@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -62,52 +62,84 @@ apis:
 - description: Outbound webhook events covering account, payment, card, and lending lifecycle changes. Endpoints configured per partner program.
   name: Lead Bank Webhooks
   slug: webhooks
-- description: The Account Number API from Lead Bank — 7 operation(s) for account number.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Account Number API from Lead Bank — 7 operation(s) for account number.
   name: Lead Bank Account Number API
   slug: lead-bank-account-number-api
-- description: The ACH API from Lead Bank — 5 operation(s) for ach.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The ACH API from Lead Bank — 5 operation(s) for ach.
   name: Lead Bank ACH API
   slug: lead-bank-ach-api
-- description: The Blockchain Payment API from Lead Bank — 2 operation(s) for blockchain payment.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Blockchain Payment API from Lead Bank — 2 operation(s) for blockchain payment.
   name: Lead Bank Blockchain Payment API
   slug: lead-bank-blockchain-payment-api
-- description: The Compliance API from Lead Bank — 11 operation(s) for compliance.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Compliance API from Lead Bank — 11 operation(s) for compliance.
   name: Lead Bank Compliance API
   slug: lead-bank-compliance-api
-- description: The Entity API from Lead Bank — 2 operation(s) for entity.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Entity API from Lead Bank — 2 operation(s) for entity.
   name: Lead Bank Entity API
   slug: lead-bank-entity-api
-- description: The Events API from Lead Bank — 2 operation(s) for events.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Events API from Lead Bank — 2 operation(s) for events.
   name: Lead Bank Events API
   slug: lead-bank-events-api
-- description: The Funding API from Lead Bank — 3 operation(s) for funding.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Funding API from Lead Bank — 3 operation(s) for funding.
   name: Lead Bank Funding API
   slug: lead-bank-funding-api
-- description: The Instant Payments API from Lead Bank — 7 operation(s) for instant payments.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Instant Payments API from Lead Bank — 7 operation(s) for instant payments.
   name: Lead Bank Instant Payments API
   slug: lead-bank-instant-payments-api
-- description: The Internal Transfer API from Lead Bank — 2 operation(s) for internal transfer.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Internal Transfer API from Lead Bank — 2 operation(s) for internal transfer.
   name: Lead Bank Internal Transfer API
   slug: lead-bank-internal-transfer-api
-- description: The Lending API from Lead Bank — 3 operation(s) for lending.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Lending API from Lead Bank — 3 operation(s) for lending.
   name: Lead Bank Lending API
   slug: lead-bank-lending-api
-- description: The Lending Simulation API from Lead Bank — 1 operation(s) for lending simulation.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Lending Simulation API from Lead Bank — 1 operation(s) for lending simulation.
   name: Lead Bank Lending Simulation API
   slug: lead-bank-lending-simulation-api
-- description: The OAuth API from Lead Bank — 1 operation(s) for oauth.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The OAuth API from Lead Bank — 1 operation(s) for oauth.
   name: Lead Bank OAuth API
   slug: lead-bank-oauth-api
-- description: The Originator API from Lead Bank — 5 operation(s) for originator.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Originator API from Lead Bank — 5 operation(s) for originator.
   name: Lead Bank Originator API
   slug: lead-bank-originator-api
-- description: The Simulation API from Lead Bank — 11 operation(s) for simulation.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Simulation API from Lead Bank — 11 operation(s) for simulation.
   name: Lead Bank Simulation API
   slug: lead-bank-simulation-api
-- description: The Subledger Balances API from Lead Bank — 2 operation(s) for subledger balances.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Subledger Balances API from Lead Bank — 2 operation(s) for subledger balances.
   name: Lead Bank Subledger Balances API
   slug: lead-bank-subledger-balances-api
-- description: The Wire API from Lead Bank — 4 operation(s) for wire.
+- baseURL: gated-partner-access
+  baseurl_source: declared
+  description: The Wire API from Lead Bank — 4 operation(s) for wire.
   name: Lead Bank Wire API
   slug: lead-bank-wire-api
 artifact_total: 46
@@ -269,7 +301,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/screenshots/lead-bank-2026-06-20T184345.png
 security:

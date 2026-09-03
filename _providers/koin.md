@@ -33,55 +33,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The Access API from Koin — 1 operation(s) for access.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Access API from Koin — 1 operation(s) for access.
   name: Koin Access API
   slug: koin-access-api
-- description: The Account Take Over Services API from Koin — 2 operation(s) for account take over services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Account Take Over Services API from Koin — 2 operation(s) for account take over services.
   name: Koin Account Take Over Services API
   slug: koin-account-take-over-services-api
-- description: The Availability Services API from Koin — 1 operation(s) for availability services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Availability Services API from Koin — 1 operation(s) for availability services.
   name: Koin Availability Services API
   slug: koin-availability-services-api
-- description: The Communication Services API from Koin — 1 operation(s) for communication services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Communication Services API from Koin — 1 operation(s) for communication services.
   name: Koin Communication Services API
   slug: koin-communication-services-api
-- description: The Ecommerce API from Koin — 2 operation(s) for ecommerce.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Ecommerce API from Koin — 2 operation(s) for ecommerce.
   name: Koin Ecommerce API
   slug: koin-ecommerce-api
-- description: The Notification Services Sales API from Koin — 1 operation(s) for notification services sales.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Notification Services Sales API from Koin — 1 operation(s) for notification services sales.
   name: Koin Notification Services Sales API
   slug: koin-notification-services-sales-api
-- description: Onboarding Service
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: Onboarding Service
   name: Koin Onboarding Services API
   slug: koin-onboarding-services-api
-- description: The Payment Service Provider API from Koin — 1 operation(s) for payment service provider.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Payment Service Provider API from Koin — 1 operation(s) for payment service provider.
   name: Koin Payment Service Provider API
   slug: koin-payment-service-provider-api
-- description: The Payment Services API from Koin — 5 operation(s) for payment services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Payment Services API from Koin — 5 operation(s) for payment services.
   name: Koin Payment Services API
   slug: koin-payment-services-api
-- description: The PaymentRequest API from Koin — 2 operation(s) for paymentrequest.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The PaymentRequest API from Koin — 2 operation(s) for paymentrequest.
   name: Koin PaymentRequest API
   slug: koin-paymentrequest-api
-- description: The Payout Services API from Koin — 4 operation(s) for payout services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Payout Services API from Koin — 4 operation(s) for payout services.
   name: Koin Payout Services API
   slug: koin-payout-services-api
-- description: The Recipient Services Account API from Koin — 1 operation(s) for recipient services account.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Recipient Services Account API from Koin — 1 operation(s) for recipient services account.
   name: Koin Recipient Services Account API
   slug: koin-recipient-services-account-api
-- description: The Refund Services API from Koin — 2 operation(s) for refund services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Refund Services API from Koin — 2 operation(s) for refund services.
   name: Koin Refund Services API
   slug: koin-refund-services-api
-- description: The Support Services API from Koin — 3 operation(s) for support services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Support Services API from Koin — 3 operation(s) for support services.
   name: Koin Support Services API
   slug: koin-support-services-api
-- description: The Tokenize Services API from Koin — 1 operation(s) for tokenize services.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The Tokenize Services API from Koin — 1 operation(s) for tokenize services.
   name: Koin Tokenize Services API
   slug: koin-tokenize-services-api
-- description: The WireTransfer API from Koin — 1 operation(s) for wiretransfer.
+- baseURL: https://api-sandbox.koin.com.br
+  baseurl_source: declared
+  description: The WireTransfer API from Koin — 1 operation(s) for wiretransfer.
   name: Koin WireTransfer API
   slug: koin-wiretransfer-api
 artifact_total: 37
@@ -310,7 +342,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -320,7 +352,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 52.4
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -337,7 +369,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

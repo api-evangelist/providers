@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 155 operations · 80 acting
 api_count: 2
 apis:
-- description: The accounts API from Coperniq — 3 operation(s) for accounts.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The accounts API from Coperniq — 3 operation(s) for accounts.
   name: Coperniq accounts API
   slug: coperniq-accounts-api
-- description: The ahJs API from Coperniq — 2 operation(s) for ahjs.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The ahJs API from Coperniq — 2 operation(s) for ahjs.
   name: Coperniq ahJs API
   slug: coperniq-ahjs-api
-- description: The appointments API from Coperniq — 2 operation(s) for appointments.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The appointments API from Coperniq — 2 operation(s) for appointments.
   name: Coperniq appointments API
   slug: coperniq-appointments-api
-- description: The assets API from Coperniq — 2 operation(s) for assets.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The assets API from Coperniq — 2 operation(s) for assets.
   name: Coperniq assets API
   slug: coperniq-assets-api
-- description: The authentication API from Coperniq — 1 operation(s) for authentication.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The authentication API from Coperniq — 1 operation(s) for authentication.
   name: Coperniq authentication API
   slug: coperniq-authentication-api
-- description: The bills API from Coperniq — 3 operation(s) for bills.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The bills API from Coperniq — 3 operation(s) for bills.
   name: Coperniq bills API
   slug: coperniq-bills-api
-- description: The calls API from Coperniq — 3 operation(s) for calls.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The calls API from Coperniq — 3 operation(s) for calls.
   name: Coperniq calls API
   slug: coperniq-calls-api
-- description: The catalogItems API from Coperniq — 2 operation(s) for catalogitems.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The catalogItems API from Coperniq — 2 operation(s) for catalogitems.
   name: Coperniq catalogItems API
   slug: coperniq-catalogitems-api
-- description: The contacts API from Coperniq — 2 operation(s) for contacts.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The contacts API from Coperniq — 2 operation(s) for contacts.
   name: Coperniq contacts API
   slug: coperniq-contacts-api
-- description: The files API from Coperniq — 6 operation(s) for files.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The files API from Coperniq — 6 operation(s) for files.
   name: Coperniq files API
   slug: coperniq-files-api
-- description: The forms API from Coperniq — 4 operation(s) for forms.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The forms API from Coperniq — 4 operation(s) for forms.
   name: Coperniq forms API
   slug: coperniq-forms-api
-- description: The formTemplates API from Coperniq — 2 operation(s) for formtemplates.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The formTemplates API from Coperniq — 2 operation(s) for formtemplates.
   name: Coperniq formTemplates API
   slug: coperniq-formtemplates-api
-- description: The invoices API from Coperniq — 4 operation(s) for invoices.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The invoices API from Coperniq — 4 operation(s) for invoices.
   name: Coperniq invoices API
   slug: coperniq-invoices-api
-- description: The labels API from Coperniq — 2 operation(s) for labels.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The labels API from Coperniq — 2 operation(s) for labels.
   name: Coperniq labels API
   slug: coperniq-labels-api
-- description: The lineItems API from Coperniq — 2 operation(s) for lineitems.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The lineItems API from Coperniq — 2 operation(s) for lineitems.
   name: Coperniq lineItems API
   slug: coperniq-lineitems-api
-- description: The notes API from Coperniq — 5 operation(s) for notes.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The notes API from Coperniq — 5 operation(s) for notes.
   name: Coperniq notes API
   slug: coperniq-notes-api
-- description: The opportunities API from Coperniq — 3 operation(s) for opportunities.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The opportunities API from Coperniq — 3 operation(s) for opportunities.
   name: Coperniq opportunities API
   slug: coperniq-opportunities-api
-- description: The payments API from Coperniq — 4 operation(s) for payments.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The payments API from Coperniq — 4 operation(s) for payments.
   name: Coperniq payments API
   slug: coperniq-payments-api
-- description: The projects API from Coperniq — 3 operation(s) for projects.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The projects API from Coperniq — 3 operation(s) for projects.
   name: Coperniq projects API
   slug: coperniq-projects-api
-- description: The properties API from Coperniq — 1 operation(s) for properties.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The properties API from Coperniq — 1 operation(s) for properties.
   name: Coperniq properties API
   slug: coperniq-properties-api
-- description: The quotes API from Coperniq — 5 operation(s) for quotes.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The quotes API from Coperniq — 5 operation(s) for quotes.
   name: Coperniq quotes API
   slug: coperniq-quotes-api
-- description: The reminders API from Coperniq — 4 operation(s) for reminders.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The reminders API from Coperniq — 4 operation(s) for reminders.
   name: Coperniq reminders API
   slug: coperniq-reminders-api
-- description: The sites API from Coperniq — 3 operation(s) for sites.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The sites API from Coperniq — 3 operation(s) for sites.
   name: Coperniq sites API
   slug: coperniq-sites-api
-- description: The taxes API from Coperniq — 1 operation(s) for taxes.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The taxes API from Coperniq — 1 operation(s) for taxes.
   name: Coperniq taxes API
   slug: coperniq-taxes-api
-- description: The users API from Coperniq — 3 operation(s) for users.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The users API from Coperniq — 3 operation(s) for users.
   name: Coperniq users API
   slug: coperniq-users-api
-- description: The vendors API from Coperniq — 4 operation(s) for vendors.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The vendors API from Coperniq — 4 operation(s) for vendors.
   name: Coperniq vendors API
   slug: coperniq-vendors-api
-- description: The workflows API from Coperniq — 2 operation(s) for workflows.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The workflows API from Coperniq — 2 operation(s) for workflows.
   name: Coperniq workflows API
   slug: coperniq-workflows-api
-- description: The workOrders API from Coperniq — 9 operation(s) for workorders.
+- baseURL: https://api.coperniq.io/v1
+  baseurl_source: declared
+  description: The workOrders API from Coperniq — 9 operation(s) for workorders.
   name: Coperniq workOrders API
   slug: coperniq-workorders-api
 artifact_total: 63
@@ -389,7 +445,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -399,7 +455,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 54.9
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -417,7 +473,7 @@ score:
     regime_id: energy_utilities
     score: 33.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coperniq/refs/heads/main/screenshots/coperniq-2026-07-25T210410.png
 security:

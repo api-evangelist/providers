@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +36,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Analyze an image and report whether it is AI-generated.
+- baseURL: https://imagedetector.online/v1
+  baseurl_source: declared
+  description: Analyze an image and report whether it is AI-generated.
   name: AnyImageDetector Detection API
   slug: anyimagedetector-detection-api
 artifact_total: 7
@@ -190,7 +205,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:

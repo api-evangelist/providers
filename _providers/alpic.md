@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 24 operations · 11 acting
 api_count: 1
 apis:
-- description: The analytics API from Alpic — 1 operation(s) for analytics.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The analytics API from Alpic — 1 operation(s) for analytics.
   name: Alpic analytics API
   slug: alpic-analytics-api
-- description: The beacon API from Alpic — 2 operation(s) for beacon.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The beacon API from Alpic — 2 operation(s) for beacon.
   name: Alpic beacon API
   slug: alpic-beacon-api
-- description: The deployments API from Alpic — 1 operation(s) for deployments.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The deployments API from Alpic — 1 operation(s) for deployments.
   name: Alpic deployments API
   slug: alpic-deployments-api
-- description: The distribution API from Alpic — 2 operation(s) for distribution.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The distribution API from Alpic — 2 operation(s) for distribution.
   name: Alpic distribution API
   slug: alpic-distribution-api
-- description: The environments API from Alpic — 8 operation(s) for environments.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The environments API from Alpic — 8 operation(s) for environments.
   name: Alpic environments API
   slug: alpic-environments-api
-- description: The projects API from Alpic — 2 operation(s) for projects.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The projects API from Alpic — 2 operation(s) for projects.
   name: Alpic projects API
   slug: alpic-projects-api
-- description: The teams API from Alpic — 1 operation(s) for teams.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The teams API from Alpic — 1 operation(s) for teams.
   name: Alpic teams API
   slug: alpic-teams-api
-- description: The tunnels API from Alpic — 1 operation(s) for tunnels.
+- baseURL: https://api.alpic.ai
+  baseurl_source: declared
+  description: The tunnels API from Alpic — 1 operation(s) for tunnels.
   name: Alpic tunnels API
   slug: alpic-tunnels-api
 artifact_total: 23
@@ -245,7 +261,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/screenshots/alpic-2026-07-25T195808.png
 security:

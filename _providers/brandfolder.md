@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 73 operations · 38 acting
 api_count: 1
 apis:
-- description: Assets are the core resource of Brandfolder. They act like containers that hold all of your digital resources and files, which we call Attachments. They belong to a Section in a Brandfolder and can al
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Assets are the core resource of Brandfolder. They act like containers that hold all of your digital resources and files, which we call Attachments. They belong to a Section in a Brandfolder and can al
   name: Brandfolder Assets API
   slug: brandfolder-assets-api
-- description: Attachments are the representation of digital assets in Brandfolder. Generally speaking, they are actual files but can also be colors, fonts, links to embedded/external media, etc. They belong to an A
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Attachments are the representation of digital assets in Brandfolder. Generally speaking, they are actual files but can also be colors, fonts, links to embedded/external media, etc. They belong to an A
   name: Brandfolder Attachments API
   slug: brandfolder-attachments-api
-- description: 'Brandfolder''s Binary Upload service allows for authenticated users to upload locally stored files into Brandfolder via our API. Binary Upload is a multi-step process: 1. [Get an upload URL](/api/brand'
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: 'Brandfolder''s Binary Upload service allows for authenticated users to upload locally stored files into Brandfolder via our API. Binary Upload is a multi-step process: 1. [Get an upload URL](/api/brand'
   name: Brandfolder Binary Upload API
   slug: brandfolder-binary-upload-api
-- description: Brandfolders are nested directly underneath an Organization in the overall heirarchy. They can have many Collections, Sections, and Assets.
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Brandfolders are nested directly underneath an Organization in the overall heirarchy. They can have many Collections, Sections, and Assets.
   name: Brandfolder Brandfolders API
   slug: brandfolder-brandfolders-api
-- description: Collections are nested under a Brandfolder and contain many Assets. They are mainly used as an additional way to organize, manage, share, and restrict access to a subset of Assets within your Brandfol
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Collections are nested under a Brandfolder and contain many Assets. They are mainly used as an additional way to organize, manage, share, and restrict access to a subset of Assets within your Brandfol
   name: Brandfolder Collections API
   slug: brandfolder-collections-api
-- description: Custom Fields can be assigned to Assets and are generally helpful for organizing and searching Assets within a Brandfolder, as well as for understanding more details about each Asset. Each Custom Fiel
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Custom Fields can be assigned to Assets and are generally helpful for organizing and searching Assets within a Brandfolder, as well as for understanding more details about each Asset. Each Custom Fiel
   name: Brandfolder Custom Fields API
   slug: brandfolder-custom-fields-api
-- description: Invitations are exactly what they sound like and can be created to invite Users to join your Organization, Brandfolder, or Collection as a `guest`, `collaborator`, `admin`, or (when inviting someone t
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Invitations are exactly what they sound like and can be created to invite Users to join your Organization, Brandfolder, or Collection as a `guest`, `collaborator`, `admin`, or (when inviting someone t
   name: Brandfolder Invitations API
   slug: brandfolder-invitations-api
-- description: Brandfolder's Labels are an enhanced organization and findability feature meant to provide the peace of mind that comes with an organization's existing folder structure. Think of Labels like your musi
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: Brandfolder's Labels are an enhanced organization and findability feature meant to provide the peace of mind that comes with an organization's existing folder structure. Think of Labels like your musi
   name: Brandfolder Labels API
   slug: brandfolder-labels-api
-- description: An Organization is the top level resource of all objects in Brandfolder. It can have many Brandfolders nested beneath it.
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: An Organization is the top level resource of all objects in Brandfolder. It can have many Brandfolders nested beneath it.
   name: Brandfolder Organizations API
   slug: brandfolder-organizations-api
-- description: 'Sections are nested under a Brandfolder and contain many Assets. They exist to help keep Assets organized within a Brandfolder. They also determine which type of digital assets can be uploaded within '
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: 'Sections are nested under a Brandfolder and contain many Assets. They exist to help keep Assets organized within a Brandfolder. They also determine which type of digital assets can be uploaded within '
   name: Brandfolder Sections API
   slug: brandfolder-sections-api
-- description: 'Tags can be assigned to Assets and are generally helpful for organizing and searching Assets within a Brandfolder. Each Tag is essentially a keyword associated with exactly one Asset. For example, if '
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: 'Tags can be assigned to Assets and are generally helpful for organizing and searching Assets within a Brandfolder. Each Tag is essentially a keyword associated with exactly one Asset. For example, if '
   name: Brandfolder Tags API
   slug: brandfolder-tags-api
-- description: User permissions describe relationships between Organizations, Brandfolders, Collections, Portals or Brandguides and the users that have access to them. Learn more about permissioning in our Knowledge
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: User permissions describe relationships between Organizations, Brandfolders, Collections, Portals or Brandguides and the users that have access to them. Learn more about permissioning in our Knowledge
   name: Brandfolder User Permissions API
   slug: brandfolder-user-permissions-api
-- description: The Brandfolder Webhooks service allows you to subscribe to event-based notifications (callbacks) when a qualifying event is triggered within Brandfolder. Asset data will then be sent to the user-prov
+- baseURL: https://brandfolder.com/api/v4
+  baseurl_source: declared
+  description: The Brandfolder Webhooks service allows you to subscribe to event-based notifications (callbacks) when a qualifying event is triggered within Brandfolder. Asset data will then be sent to the user-prov
   name: Brandfolder Webhooks API
   slug: brandfolder-webhooks-api
 artifact_total: 24
@@ -281,7 +307,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -291,7 +317,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 55.8
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,7 +329,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
 security:

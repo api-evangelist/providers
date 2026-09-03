@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,7 +70,9 @@ apis:
 - description: Blockscout-powered open-source block explorer for Base with REST and GraphQL APIs.
   name: Base Blockscout Block Explorer
   slug: blockscout-explorer
-- description: Ethereum JSON-RPC 2.0 endpoint
+- baseURL: https://mainnet.base.org
+  baseurl_source: declared
+  description: Ethereum JSON-RPC 2.0 endpoint
   name: Base JSON-RPC API
   slug: base-l2-json-rpc-api
 artifact_total: 19
@@ -214,7 +216,7 @@ score:
     regime_id: payments
     score: 9.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/screenshots/base-l2-2026-06-20T173043.png
 security:

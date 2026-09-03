@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -71,28 +71,44 @@ apis:
 - description: REST API to feed third-party transactions into Galileo program ledgers for unified reporting.
   name: Galileo External Transactions API
   slug: external-transactions-api
-- description: The Config API from Galileo Financial Technologies — 1 operation(s) for config.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Config API from Galileo Financial Technologies — 1 operation(s) for config.
   name: Galileo Financial Technologies Config API
   slug: galileo-fs-config-api
-- description: The Dispute API from Galileo Financial Technologies — 3 operation(s) for dispute.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Dispute API from Galileo Financial Technologies — 3 operation(s) for dispute.
   name: Galileo Financial Technologies Dispute API
   slug: galileo-fs-dispute-api
-- description: The Events API from Galileo Financial Technologies — 1 operation(s) for events.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Events API from Galileo Financial Technologies — 1 operation(s) for events.
   name: Galileo Financial Technologies Events API
   slug: galileo-fs-events-api
-- description: The ExternalTransactions API from Galileo Financial Technologies — 1 operation(s) for externaltransactions.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The ExternalTransactions API from Galileo Financial Technologies — 1 operation(s) for externaltransactions.
   name: Galileo Financial Technologies ExternalTransactions API
   slug: galileo-fs-externaltransactions-api
-- description: The Loan API from Galileo Financial Technologies — 3 operation(s) for loan.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Loan API from Galileo Financial Technologies — 3 operation(s) for loan.
   name: Galileo Financial Technologies Loan API
   slug: galileo-fs-loan-api
-- description: The PaymentHub API from Galileo Financial Technologies — 3 operation(s) for paymenthub.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The PaymentHub API from Galileo Financial Technologies — 3 operation(s) for paymenthub.
   name: Galileo Financial Technologies PaymentHub API
   slug: galileo-fs-paymenthub-api
-- description: The Program API from Galileo Financial Technologies — 6 operation(s) for program.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Program API from Galileo Financial Technologies — 6 operation(s) for program.
   name: Galileo Financial Technologies Program API
   slug: galileo-fs-program-api
-- description: The Risk API from Galileo Financial Technologies — 1 operation(s) for risk.
+- baseURL: https://api-sandbox.cv.gpsrv.com
+  baseurl_source: declared
+  description: The Risk API from Galileo Financial Technologies — 1 operation(s) for risk.
   name: Galileo Financial Technologies Risk API
   slug: galileo-fs-risk-api
 artifact_total: 33
@@ -226,7 +242,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations · 2 acting
 api_count: 2
 apis:
-- description: Contribute, retrieve, and look up scam reports.
+- baseURL: https://api.trmlabs.com
+  baseurl_source: declared
+  description: Contribute, retrieve, and look up scam reports.
   name: TRM Labs Reports API
   slug: trm-labs-reports-api
-- description: Check whether an address is sanctioned.
+- baseURL: https://api.trmlabs.com
+  baseurl_source: declared
+  description: Check whether an address is sanctioned.
   name: TRM Labs Sanctions API
   slug: trm-labs-sanctions-api
-- description: The Sanctions Screening API from TRM Labs — 1 operation(s) for sanctions screening.
+- baseURL: https://api.trmlabs.com
+  baseurl_source: declared
+  description: The Sanctions Screening API from TRM Labs — 1 operation(s) for sanctions screening.
   name: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
 artifact_total: 14
@@ -226,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/screenshots/trm-labs-2026-08-17T082443.png
 security:

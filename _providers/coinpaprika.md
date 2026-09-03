@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,16 +42,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The coins API from CoinPaprika — 1 operation(s) for coins.
+- baseURL: https://api.coinpaprika.com/v1
+  baseurl_source: declared
+  description: The coins API from CoinPaprika — 1 operation(s) for coins.
   name: CoinPaprika coins API
   slug: coinpaprika-coins-api
-- description: The global API from CoinPaprika — 1 operation(s) for global.
+- baseURL: https://api.coinpaprika.com/v1
+  baseurl_source: declared
+  description: The global API from CoinPaprika — 1 operation(s) for global.
   name: CoinPaprika global API
   slug: coinpaprika-global-api
-- description: The search API from CoinPaprika — 1 operation(s) for search.
+- baseURL: https://api.coinpaprika.com/v1
+  baseurl_source: declared
+  description: The search API from CoinPaprika — 1 operation(s) for search.
   name: CoinPaprika search API
   slug: coinpaprika-search-api
-- description: The ticker API from CoinPaprika — 2 operation(s) for ticker.
+- baseURL: https://api.coinpaprika.com/v1
+  baseurl_source: declared
+  description: The ticker API from CoinPaprika — 2 operation(s) for ticker.
   name: CoinPaprika ticker API
   slug: coinpaprika-ticker-api
 artifact_total: 21
@@ -214,7 +222,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/screenshots/coinpaprika-2026-06-20T174741.png
 security:

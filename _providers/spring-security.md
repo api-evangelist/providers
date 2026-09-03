@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -56,28 +56,44 @@ apis:
 - description: Reactive security for Spring WebFlux applications. Provides non-blocking authentication, authorization, OAuth2 reactive client support, and CSRF protection for reactive web stacks.
   name: Spring Security WebFlux
   slug: spring-security-webflux
-- description: The Authorization API from Spring Security — 1 operation(s) for authorization.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Authorization API from Spring Security — 1 operation(s) for authorization.
   name: Spring Security Authorization API
   slug: spring-security-authorization-api
-- description: The Client Management API from Spring Security — 1 operation(s) for client management.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Client Management API from Spring Security — 1 operation(s) for client management.
   name: Spring Security Client Management API
   slug: spring-security-client-management-api
-- description: The Device API from Spring Security — 1 operation(s) for device.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Device API from Spring Security — 1 operation(s) for device.
   name: Spring Security Device API
   slug: spring-security-device-api
-- description: The Discovery API from Spring Security — 2 operation(s) for discovery.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Discovery API from Spring Security — 2 operation(s) for discovery.
   name: Spring Security Discovery API
   slug: spring-security-discovery-api
-- description: The Keys API from Spring Security — 1 operation(s) for keys.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Keys API from Spring Security — 1 operation(s) for keys.
   name: Spring Security Keys API
   slug: spring-security-keys-api
-- description: The OpenID Connect API from Spring Security — 2 operation(s) for openid connect.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The OpenID Connect API from Spring Security — 2 operation(s) for openid connect.
   name: Spring Security OpenID Connect API
   slug: spring-security-openid-connect-api
-- description: The Session API from Spring Security — 2 operation(s) for session.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Session API from Spring Security — 2 operation(s) for session.
   name: Spring Security Session API
   slug: spring-security-session-api
-- description: The Token API from Spring Security — 3 operation(s) for token.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Token API from Spring Security — 3 operation(s) for token.
   name: Spring Security Token API
   slug: spring-security-token-api
 artifact_total: 36
@@ -273,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
 security:

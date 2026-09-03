@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 3
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 90 operations · 48 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: Create, list, retrieve, edit, ping, and delete DAM asset webhooks.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create, list, retrieve, edit, ping, and delete DAM asset webhooks.
   name: Widen Acquia-DAM-Webhooks API
   slug: widen-acquia-dam-webhooks-api
-- description: Asset download, share, and view analytics endpoints.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Asset download, share, and view analytics endpoints.
   name: Widen Analytics API
   slug: widen-analytics-api
-- description: Create, retrieve, update, delete, and search digital assets.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create, retrieve, update, delete, and search digital assets.
   name: Widen Assets API
   slug: widen-assets-api
-- description: List product attributes and controlled vocabulary values.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: List product attributes and controlled vocabulary values.
   name: Widen Attributes API
   slug: widen-attributes-api
-- description: Manage asset categories and category trees.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Manage asset categories and category trees.
   name: Widen Categories API
   slug: widen-categories-api
-- description: List product channels.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: List product channels.
   name: Widen Channels API
   slug: widen-channels-api
-- description: Create and list asset collections.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create and list asset collections.
   name: Widen Collections API
   slug: widen-collections-api
-- description: List recognized file formats.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: List recognized file formats.
   name: Widen File-Formats API
   slug: widen-file-formats-api
-- description: Register and remove integration links on assets.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Register and remove integration links on assets.
   name: Widen Integration-Links API
   slug: widen-integration-links-api
-- description: Manage metadata fields and controlled vocabulary values.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Manage metadata fields and controlled vocabulary values.
   name: Widen Metadata API
   slug: widen-metadata-api
-- description: Create and manage asset orders and conversions.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create and manage asset orders and conversions.
   name: Widen Orders API
   slug: widen-orders-api
-- description: Create, retrieve, update, and search products (Acquia Entries).
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create, retrieve, update, and search products (Acquia Entries).
   name: Widen Products API
   slug: widen-products-api
-- description: Instant Search Connector integration URL.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Instant Search Connector integration URL.
   name: Widen Search-Connector API
   slug: widen-search-connector-api
-- description: API usage summary.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: API usage summary.
   name: Widen Usage API
   slug: widen-usage-api
-- description: Retrieve user and contact information.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Retrieve user and contact information.
   name: Widen Users API
   slug: widen-users-api
-- description: Manage workflow projects and deliverables.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Manage workflow projects and deliverables.
   name: Widen Workflow-App-Projects API
   slug: widen-workflow-app-projects-api
-- description: Create, list, and delete workflow webhooks.
+- baseURL: https://api.widencollective.com/v2
+  baseurl_source: declared
+  description: Create, list, and delete workflow webhooks.
   name: Widen Workflow-Webhooks API
   slug: widen-workflow-webhooks-api
 artifact_total: 43
@@ -272,7 +306,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png
 security:

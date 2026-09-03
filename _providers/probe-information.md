@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The Probe42 API provides programmatic access to curated intelligence on Indian companies — company profiles, financials, directors, and charges — for embedding due-diligence and business-intelligence '
@@ -97,7 +97,7 @@ score:
   band: emerging
   composite: 15.6
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -119,8 +119,9 @@ score:
     regime_id: banking_open_finance
     score: 17.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/probe-information/refs/heads/main/screenshots/probe-information-2026-09-02T152104.png
 security:
 - kind: domain-security
   name: Probe Information Domain Security

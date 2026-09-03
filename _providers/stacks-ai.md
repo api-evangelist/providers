@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: The analytics API from Stacks Ai — 2 operation(s) for analytics.
+- baseURL: https://api.stack-ai.com
+  baseurl_source: declared
+  description: The analytics API from Stacks Ai — 2 operation(s) for analytics.
   name: Stacks Ai analytics API
   slug: stacks-ai-analytics-api
-- description: The Knowledge Base Resources API from Stacks Ai — 2 operation(s) for knowledge base resources.
+- baseURL: https://api.stack-ai.com
+  baseurl_source: declared
+  description: The Knowledge Base Resources API from Stacks Ai — 2 operation(s) for knowledge base resources.
   name: Stacks Ai Knowledge Base Resources API
   slug: stacks-ai-knowledge-base-resources-api
-- description: The Knowledge Base Sync API from Stacks Ai — 1 operation(s) for knowledge base sync.
+- baseURL: https://api.stack-ai.com
+  baseurl_source: declared
+  description: The Knowledge Base Sync API from Stacks Ai — 1 operation(s) for knowledge base sync.
   name: Stacks Ai Knowledge Base Sync API
   slug: stacks-ai-knowledge-base-sync-api
-- description: The Knowledge Bases API from Stacks Ai — 5 operation(s) for knowledge bases.
+- baseURL: https://api.stack-ai.com
+  baseurl_source: declared
+  description: The Knowledge Bases API from Stacks Ai — 5 operation(s) for knowledge bases.
   name: Stacks Ai Knowledge Bases API
   slug: stacks-ai-knowledge-bases-api
-- description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
+- baseURL: https://api.stack-ai.com
+  baseurl_source: declared
+  description: The Run Flow API from Stacks Ai — 1 operation(s) for run flow.
   name: Stacks Ai Run Flow API
   slug: stacks-ai-run-flow-api
 artifact_total: 17
@@ -211,7 +221,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stacks-ai/refs/heads/main/screenshots/stacks-ai-2026-08-17T082059.png
 security:

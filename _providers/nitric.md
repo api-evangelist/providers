@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: SDK resource for declaring HTTP APIs and routes in code. Nitric provisions the API gateway (e.g. AWS API Gateway, GCP API Gateway, Azure API Management) and wires routes to your handlers. This is a fr
+- baseURL: https://nitric.io/docs/apis
+  baseurl_source: declared
+  description: SDK resource for declaring HTTP APIs and routes in code. Nitric provisions the API gateway (e.g. AWS API Gateway, GCP API Gateway, Azure API Management) and wires routes to your handlers. This is a fr
   name: Nitric API Resource
   slug: nitric-api-resource
-- description: SDK resource for declaring time-based and cron schedules in code. Nitric provisions the underlying scheduler in your target cloud and triggers your handler on the defined cadence. Framework primitive,
+- baseURL: https://nitric.io/docs/schedules
+  baseurl_source: declared
+  description: SDK resource for declaring time-based and cron schedules in code. Nitric provisions the underlying scheduler in your target cloud and triggers your handler on the defined cadence. Framework primitive,
   name: Nitric Schedule Resource
   slug: nitric-schedule-resource
-- description: SDK resource for declaring durable message queues for batch and deferred processing. Nitric maps it to a cloud queue service (e.g. AWS SQS) with enqueue and dequeue semantics. Framework primitive, not
+- baseURL: https://nitric.io/docs/queues
+  baseurl_source: declared
+  description: SDK resource for declaring durable message queues for batch and deferred processing. Nitric maps it to a cloud queue service (e.g. AWS SQS) with enqueue and dequeue semantics. Framework primitive, not
   name: Nitric Queue Resource
   slug: nitric-queue-resource
-- description: SDK resource for declaring publish/subscribe topics for event-driven architectures. Nitric provisions the cloud pub/sub service (e.g. AWS SNS, GCP Pub/Sub) and wires subscribers to handlers. Framework
+- baseURL: https://nitric.io/docs/messaging
+  baseurl_source: declared
+  description: SDK resource for declaring publish/subscribe topics for event-driven architectures. Nitric provisions the cloud pub/sub service (e.g. AWS SNS, GCP Pub/Sub) and wires subscribers to handlers. Framework
   name: Nitric Topic Resource
   slug: nitric-topic-resource
-- description: SDK resource for declaring object/file storage buckets with read, write, delete, signed URLs, and bucket-event triggers. Nitric maps it to cloud storage (e.g. AWS S3, GCS, Azure Blob). Framework primi
+- baseURL: https://nitric.io/docs/storage
+  baseurl_source: declared
+  description: SDK resource for declaring object/file storage buckets with read, write, delete, signed URLs, and bucket-event triggers. Nitric maps it to cloud storage (e.g. AWS S3, GCS, Azure Blob). Framework primi
   name: Nitric Bucket Resource
   slug: nitric-bucket-resource
-- description: SDK resource for declaring key-value stores with get, set, delete, and query operations. Nitric maps it to a cloud key-value service (e.g. AWS DynamoDB). Framework primitive, not a hosted API.
+- baseURL: https://nitric.io/docs/keyvalue
+  baseurl_source: declared
+  description: SDK resource for declaring key-value stores with get, set, delete, and query operations. Nitric maps it to a cloud key-value service (e.g. AWS DynamoDB). Framework primitive, not a hosted API.
   name: Nitric Key-Value Resource
   slug: nitric-keyvalue-resource
-- description: SDK resource for declaring and accessing secrets with versioning. Nitric maps it to a cloud secrets manager (e.g. AWS Secrets Manager). Framework primitive, not a hosted API.
+- baseURL: https://nitric.io/docs/secrets
+  baseurl_source: declared
+  description: SDK resource for declaring and accessing secrets with versioning. Nitric maps it to a cloud secrets manager (e.g. AWS Secrets Manager). Framework primitive, not a hosted API.
   name: Nitric Secret Resource
   slug: nitric-secret-resource
-- description: SDK resource for declaring realtime bidirectional websocket endpoints with connect, disconnect, and message handlers. Nitric provisions the cloud websocket service. Framework primitive, not a hosted A
+- baseURL: https://nitric.io/docs/websockets
+  baseurl_source: declared
+  description: SDK resource for declaring realtime bidirectional websocket endpoints with connect, disconnect, and message handlers. Nitric provisions the cloud websocket service. Framework primitive, not a hosted A
   name: Nitric Websocket Resource
   slug: nitric-websocket-resource
-- description: SDK resource for declaring managed relational (Postgres) databases with migrations. Nitric provisions the cloud database (e.g. AWS RDS, GCP Cloud SQL). Framework primitive, not a hosted API.
+- baseURL: https://nitric.io/docs/sql
+  baseurl_source: declared
+  description: SDK resource for declaring managed relational (Postgres) databases with migrations. Nitric provisions the cloud database (e.g. AWS RDS, GCP Cloud SQL). Framework primitive, not a hosted API.
   name: Nitric SQL Database Resource
   slug: nitric-sql-resource
-- description: The Nitric command-line tool (nitric new, nitric start, nitric stack new, nitric up, nitric down) that scaffolds projects, runs local emulation with a dashboard, and deploys or tears down infrastructu
+- baseURL: https://nitric.io/docs/reference/cli
+  baseurl_source: declared
+  description: The Nitric command-line tool (nitric new, nitric start, nitric stack new, nitric up, nitric down) that scaffolds projects, runs local emulation with a dashboard, and deploys or tears down infrastructu
   name: Nitric CLI
   slug: nitric-cli
-- description: Pluggable provider implementations that translate declared Nitric resources into cloud infrastructure on AWS, Google Cloud, or Azure using Pulumi (direct deploy) or Terraform (generated config). Custo
+- baseURL: https://nitric.io/docs/providers
+  baseurl_source: declared
+  description: Pluggable provider implementations that translate declared Nitric resources into cloud infrastructure on AWS, Google Cloud, or Azure using Pulumi (direct deploy) or Terraform (generated config). Custo
   name: Nitric Provider Plugins
   slug: nitric-provider-plugins
 artifact_total: 17
@@ -155,7 +177,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitric/refs/heads/main/screenshots/nitric-2026-06-20T190332.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 19 operations · 10 acting · 10 human-in-the-loop
 api_count: 1
 apis:
-- description: A company in our system includes Payees, Debtors, and Factoring companies. Companies records are available globally in our ecosystem and shared by other clients.
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: A company in our system includes Payees, Debtors, and Factoring companies. Companies records are available globally in our ecosystem and shared by other clients.
   name: Denim Companies API
   slug: denim-companies-api
-- description: A debtor is your customer or shipper. They are the entity that will be paying the invoices. Debtors are a type of Company in our ecosystem and are associated to our shared client through Client-Debtor
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: A debtor is your customer or shipper. They are the entity that will be paying the invoices. Debtors are a type of Company in our ecosystem and are associated to our shared client through Client-Debtor
   name: Denim Debtors API
   slug: denim-debtors-api
-- description: A job is a collection of obligations (payables, receivables, and fees) associated with an invoice or purchase order.
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: A job is a collection of obligations (payables, receivables, and fees) associated with an invoice or purchase order.
   name: Denim Jobs API
   slug: denim-jobs-api
-- description: Version 2. A job is a collection of obligations (payables, receivables, and fees) associated with an invoice or purchase order.
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: Version 2. A job is a collection of obligations (payables, receivables, and fees) associated with an invoice or purchase order.
   name: Denim Jobs V2 API
   slug: denim-jobs-v2-api
-- description: A payee is your contractor or carrier. They are the entity that needs to be paid for services. Payees are a type of Company in our ecosystem and are associated to our shared client through Client-Paye
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: A payee is your contractor or carrier. They are the entity that needs to be paid for services. Payees are a type of Company in our ecosystem and are associated to our shared client through Client-Paye
   name: Denim Payees API
   slug: denim-payees-api
-- description: Transactions are payments incoming, outgoing, netting, and adjustments. Transactions are are generally applied towards obligations.
+- baseURL: https://app.denim.com/api
+  baseurl_source: declared
+  description: Transactions are payments incoming, outgoing, netting, and adjustments. Transactions are are generally applied towards obligations.
   name: Denim Transactions API
   slug: denim-transactions-api
 artifact_total: 17
@@ -246,7 +258,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/screenshots/denim-2026-07-25T211718.png
 security:

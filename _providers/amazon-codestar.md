@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 18 operations · 18 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=CodeStar 20170419.AssociateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.associateteammember.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.AssociateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.associateteammember.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.AssociateTeamMember API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-associateteammember-api
-- description: 'The #X Amz Target=CodeStar 20170419.CreateProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.createproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.CreateProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.createproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.CreateProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-createproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.CreateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.createuserprofile.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.CreateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.createuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.CreateUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-createuserprofile-api
-- description: 'The #X Amz Target=CodeStar 20170419.DeleteProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.deleteproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.DeleteProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.deleteproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.DeleteProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-deleteproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.DeleteUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.deleteuserprofile.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.DeleteUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.deleteuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.DeleteUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-deleteuserprofile-api
-- description: 'The #X Amz Target=CodeStar 20170419.DescribeProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.describeproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.DescribeProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.describeproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.DescribeProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-describeproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.DescribeUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.describeuserprofile.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.DescribeUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.describeuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.DescribeUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-describeuserprofile-api
-- description: 'The #X Amz Target=CodeStar 20170419.DisassociateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.disassociateteammember.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.DisassociateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.disassociateteammember.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.DisassociateTeamMember API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-disassociateteammember-api
-- description: 'The #X Amz Target=CodeStar 20170419.ListProjects API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listprojects.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.ListProjects API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listprojects.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.ListProjects API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-listprojects-api
-- description: 'The #X Amz Target=CodeStar 20170419.ListResources API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listresources.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.ListResources API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listresources.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.ListResources API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-listresources-api
-- description: 'The #X Amz Target=CodeStar 20170419.ListTagsForProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listtagsforproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.ListTagsForProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listtagsforproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.ListTagsForProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-listtagsforproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.ListTeamMembers API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listteammembers.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.ListTeamMembers API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listteammembers.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.ListTeamMembers API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-listteammembers-api
-- description: 'The #X Amz Target=CodeStar 20170419.ListUserProfiles API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listuserprofiles.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.ListUserProfiles API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.listuserprofiles.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.ListUserProfiles API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-listuserprofiles-api
-- description: 'The #X Amz Target=CodeStar 20170419.TagProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.tagproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.TagProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.tagproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.TagProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-tagproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.UntagProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.untagproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.UntagProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.untagproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UntagProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-untagproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.UpdateProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateproject.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.UpdateProject API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateproject.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateProject API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateproject-api
-- description: 'The #X Amz Target=CodeStar 20170419.UpdateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateteammember.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.UpdateTeamMember API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateteammember.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateTeamMember API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateteammember-api
-- description: 'The #X Amz Target=CodeStar 20170419.UpdateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateuserprofile.'
+- baseURL: https://codestar.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=CodeStar 20170419.UpdateUserProfile API from Amazon CodeStar — 1 operation(s) for #x amz target=codestar 20170419.updateuserprofile.'
   name: 'Amazon CodeStar #X Amz Target=CodeStar 20170419.UpdateUserProfile API'
   slug: amazon-codestar-x-amz-target-codestar-20170419-updateuserprofile-api
 artifact_total: 297
@@ -1059,7 +1095,7 @@ score:
       total: 18
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:

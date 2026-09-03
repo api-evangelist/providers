@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 98 operations · 58 acting
 api_count: 1
 apis:
-- description: Schedule, search, confirm, cancel, and update appointments.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Schedule, search, confirm, cancel, and update appointments.
   name: Shopmonkey Appointments API
   slug: shopmonkey-appointments-api
-- description: Create, update, search, and manage customer records, emails, and phone numbers.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Create, update, search, and manage customer records, emails, and phone numbers.
   name: Shopmonkey Customers API
   slug: shopmonkey-customers-api
-- description: Manage Shopmonkey users (employees), roles, and the authenticated user's own profile.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Manage Shopmonkey users (employees), roles, and the authenticated user's own profile.
   name: Shopmonkey Employees API
   slug: shopmonkey-employees-api
-- description: Search the parts catalog, find compatible parts, and manage line-item assignments of parts/tires/labor.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Search the parts catalog, find compatible parts, and manage line-item assignments of parts/tires/labor.
   name: Shopmonkey Inventory & Parts API
   slug: shopmonkey-inventory-parts-api
-- description: Shared (customer-facing) invoices/PDFs on an order, and manual payment and refund entries.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Shared (customer-facing) invoices/PDFs on an order, and manual payment and refund entries.
   name: Shopmonkey Invoices & Payments API
   slug: shopmonkey-invoices-payments-api
-- description: Manage shop location details for a multi-location company.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Manage shop location details for a multi-location company.
   name: Shopmonkey Locations API
   slug: shopmonkey-locations-api
-- description: Create, update, and look up vehicles, VIN/plate validation, year/make/model data, mileage, and tire-pressure logs.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Create, update, and look up vehicles, VIN/plate validation, year/make/model data, mileage, and tire-pressure logs.
   name: Shopmonkey Vehicles API
   slug: shopmonkey-vehicles-api
-- description: Register and manage webhook subscriptions for Shopmonkey events.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Register and manage webhook subscriptions for Shopmonkey events.
   name: Shopmonkey Webhooks API
   slug: shopmonkey-webhooks-api
-- description: Create and manage repair orders, order line items (services, parts, labor, fees, tires, subcontracts), authorizations, files, and PDFs.
+- baseURL: https://api.shopmonkey.cloud/v3
+  baseurl_source: declared
+  description: Create and manage repair orders, order line items (services, parts, labor, fees, tires, subcontracts), authorizations, files, and PDFs.
   name: Shopmonkey Work Orders API
   slug: shopmonkey-work-orders-api
 artifact_total: 26
@@ -176,7 +194,7 @@ score:
   band: thin
   composite: 32.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +217,9 @@ score:
       marker_coverage: 44.4
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/screenshots/shopmonkey-2026-09-02T155302.png
 security:
 - kind: authentication
   name: Shopmonkey Authentication

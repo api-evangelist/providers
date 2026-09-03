@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Public REST API for managing incidents, services, on-call schedules, escalation policies, users, and teams in Squadcast. Authentication uses HTTP Bearer access tokens exchanged from a refresh token at
   name: Squadcast Public API
   slug: public-api
-- description: Token exchange endpoints
+- baseURL: https://api.squadcast.com
+  baseurl_source: declared
+  description: Token exchange endpoints
   name: Squadcast Authentication API
   slug: squadcast-authentication-api
-- description: Incident lifecycle and bulk operations
+- baseURL: https://api.squadcast.com
+  baseurl_source: declared
+  description: Incident lifecycle and bulk operations
   name: Squadcast Incidents API
   slug: squadcast-incidents-api
-- description: Incident creation request status
+- baseURL: https://api.squadcast.com
+  baseurl_source: declared
+  description: Incident creation request status
   name: Squadcast Requests API
   slug: squadcast-requests-api
 artifact_total: 12
@@ -153,7 +159,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/screenshots/squadcast-2026-06-20T194432.png
 security:

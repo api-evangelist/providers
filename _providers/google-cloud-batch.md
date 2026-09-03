@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage batch jobs
+- baseURL: https://batch.googleapis.com
+  baseurl_source: declared
+  description: Manage batch jobs
   name: Google Cloud Batch Jobs API
   slug: google-cloud-batch-jobs-api
-- description: View tasks within a job
+- baseURL: https://batch.googleapis.com
+  baseurl_source: declared
+  description: View tasks within a job
   name: Google Cloud Batch Tasks API
   slug: google-cloud-batch-tasks-api
 artifact_total: 19
@@ -223,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-batch/refs/heads/main/screenshots/google-cloud-batch-2026-06-20T182044.png
 security:

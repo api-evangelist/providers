@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -53,181 +53,299 @@ apis:
 - description: API for creating, listing, retrieving, and deleting API tokens used to authenticate with BentoCloud services. Supports scoped tokens with granular permissions including API access, organization read/w
   name: BentoCloud API Token Management
   slug: bentocloud-token-api
-- description: admin api v1
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: admin api v1
   name: BentoML admin api v1 API
   slug: bentoml-admin-api-v1-api
-- description: admin deployment resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: admin deployment resource
   name: BentoML admin deployment resource API
   slug: bentoml-admin-deployment-resource-api
-- description: api token resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: api token resource
   name: BentoML api token resource API
   slug: bentoml-api-token-resource-api
-- description: api tokens
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: api tokens
   name: BentoML api tokens API
   slug: bentoml-api-tokens-api
-- description: api v1
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: api v1
   name: BentoML api v1 API
   slug: bentoml-api-v1-api
-- description: auth api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: auth api
   name: BentoML auth API
   slug: bentoml-auth-api
-- description: bento repositories
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: bento repositories
   name: BentoML bento repositories API
   slug: bentoml-bento-repositories-api
-- description: bento repositories statistics
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: bento repositories statistics
   name: BentoML bento repositories statistics API
   slug: bentoml-bento-repositories-statistics-api
-- description: bento repository resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: bento repository resource
   name: BentoML bento repository resource API
   slug: bentoml-bento-repository-resource-api
-- description: bento resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: bento resource
   name: BentoML bento resource API
   slug: bentoml-bento-resource-api
-- description: bentos
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: bentos
   name: BentoML bentos API
   slug: bentoml-bentos-api
-- description: certified bento repositories
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: certified bento repositories
   name: BentoML certified bento repositories API
   slug: bentoml-certified-bento-repositories-api
-- description: cluster deployments
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: cluster deployments
   name: BentoML cluster deployments API
   slug: bentoml-cluster-deployments-api
-- description: cluster resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: cluster resource
   name: BentoML cluster resource API
   slug: bentoml-cluster-resource-api
-- description: cluster resource for admin panel
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: cluster resource for admin panel
   name: BentoML cluster resource for admin panel API
   slug: bentoml-cluster-resource-for-admin-panel-api
-- description: clusters
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: clusters
   name: BentoML clusters API
   slug: bentoml-clusters-api
-- description: clusters for admin panel
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: clusters for admin panel
   name: BentoML clusters for admin panel API
   slug: bentoml-clusters-for-admin-panel-api
-- description: current organization resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: current organization resource
   name: BentoML current organization resource API
   slug: bentoml-current-organization-resource-api
-- description: customer resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: customer resource
   name: BentoML customer resource API
   slug: bentoml-customer-resource-api
-- description: customers api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: customers api
   name: BentoML customers API
   slug: bentoml-customers-api
-- description: deployment resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: deployment resource
   name: BentoML deployment resource API
   slug: bentoml-deployment-resource-api
-- description: deployment revision resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: deployment revision resource
   name: BentoML deployment revision resource API
   slug: bentoml-deployment-revision-resource-api
-- description: deployment revisions
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: deployment revisions
   name: BentoML deployment revisions API
   slug: bentoml-deployment-revisions-api
-- description: deployment revision resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: deployment revision resource
   name: BentoML deployment v2 revision resource API
   slug: bentoml-deployment-v2-revision-resource-api
-- description: deployment revisions
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: deployment revisions
   name: BentoML deployment v2 revisions API
   slug: bentoml-deployment-v2-revisions-api
-- description: endpoint resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: endpoint resource
   name: BentoML endpoint resource API
   slug: bentoml-endpoint-resource-api
-- description: gpu config resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: gpu config resource
   name: BentoML gpu config resource API
   slug: bentoml-gpu-config-resource-api
-- description: gpu configs
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: gpu configs
   name: BentoML gpu configs API
   slug: bentoml-gpu-configs-api
-- description: host cluster resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: host cluster resource
   name: BentoML host cluster resource API
   slug: bentoml-host-cluster-resource-api
-- description: host_clusters
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: host_clusters
   name: BentoML host_clusters API
   slug: bentoml-host-clusters-api
-- description: instance_types
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: instance_types
   name: BentoML instance_types API
   slug: bentoml-instance-types-api
-- description: labels
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: labels
   name: BentoML labels API
   slug: bentoml-labels-api
-- description: lago billable metrics api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: lago billable metrics api
   name: BentoML lago billable metrics API
   slug: bentoml-lago-billable-metrics-api
-- description: lago customer api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: lago customer api
   name: BentoML lago customer API
   slug: bentoml-lago-customer-api
-- description: lago plan api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: lago plan api
   name: BentoML lago plan API
   slug: bentoml-lago-plan-api
-- description: limit group resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: limit group resource
   name: BentoML limit group resource API
   slug: bentoml-limit-group-resource-api
-- description: limit groups
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: limit groups
   name: BentoML limit groups API
   slug: bentoml-limit-groups-api
-- description: model repositories
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: model repositories
   name: BentoML model repositories API
   slug: bentoml-model-repositories-api
-- description: model repository resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: model repository resource
   name: BentoML model repository resource API
   slug: bentoml-model-repository-resource-api
-- description: model resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: model resource
   name: BentoML model resource API
   slug: bentoml-model-resource-api
-- description: models
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: models
   name: BentoML models API
   slug: bentoml-models-api
-- description: org resource for admin panel
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: org resource for admin panel
   name: BentoML org resource for admin panel API
   slug: bentoml-org-resource-for-admin-panel-api
-- description: organization resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: organization resource
   name: BentoML organization resource API
   slug: bentoml-organization-resource-api
-- description: organization secrets
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: organization secrets
   name: BentoML organization secrets API
   slug: bentoml-organization-secrets-api
-- description: organization secrets with check message
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: organization secrets with check message
   name: BentoML organization secrets with check message API
   slug: bentoml-organization-secrets-with-check-message-api
-- description: organization secrets with template
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: organization secrets with template
   name: BentoML organization secrets with template API
   slug: bentoml-organization-secrets-with-template-api
-- description: plans
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: plans
   name: BentoML plans API
   slug: bentoml-plans-api
-- description: request quota
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: request quota
   name: BentoML request quota API
   slug: bentoml-request-quota-api
-- description: resource instance resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: resource instance resource
   name: BentoML resource instance resource API
   slug: bentoml-resource-instance-resource-api
-- description: resource instances
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: resource instances
   name: BentoML resource instances API
   slug: bentoml-resource-instances-api
-- description: secret names
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: secret names
   name: BentoML secret names API
   slug: bentoml-secret-names-api
-- description: slim bento repositories
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: slim bento repositories
   name: BentoML slim bento repositories API
   slug: bentoml-slim-bento-repositories-api
-- description: terminal record resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: terminal record resource
   name: BentoML terminal record resource API
   slug: bentoml-terminal-record-resource-api
-- description: usage resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: usage resource
   name: BentoML usage API
   slug: bentoml-usage-api
-- description: user resource
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: user resource
   name: BentoML user resource API
   slug: bentoml-user-resource-api
-- description: users api
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: users api
   name: BentoML users API
   slug: bentoml-users-api
-- description: websocket v1
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: websocket v1
   name: BentoML websocket v1 API
   slug: bentoml-websocket-v1-api
-- description: websocket v2
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: websocket v2
   name: BentoML websocket v2 API
   slug: bentoml-websocket-v2-api
-- description: yatai components
+- baseURL: https://cloud.bentoml.com
+  baseurl_source: declared
+  description: yatai components
   name: BentoML yatai components API
   slug: bentoml-yatai-components-api
 artifact_total: 131
@@ -568,7 +686,7 @@ score:
       marker_coverage: 0.0
       total: 59
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:

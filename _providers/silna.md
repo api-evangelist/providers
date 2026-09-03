@@ -33,133 +33,217 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The OldV1PriorAuthorizationResource API from Silna — 1 operation(s) for oldv1priorauthorizationresource.
   name: Silna OldV1PriorAuthorizationResource API
   slug: silna-oldv1priorauthorizationresource-api
-- description: The V1BenefitsCheckReportResource API from Silna — 1 operation(s) for v1benefitscheckreportresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1BenefitsCheckReportResource API from Silna — 1 operation(s) for v1benefitscheckreportresource.
   name: Silna V1BenefitsCheckReportResource API
   slug: silna-v1benefitscheckreportresource-api
-- description: The V1BenefitsCheckResource API from Silna — 2 operation(s) for v1benefitscheckresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1BenefitsCheckResource API from Silna — 2 operation(s) for v1benefitscheckresource.
   name: Silna V1BenefitsCheckResource API
   slug: silna-v1benefitscheckresource-api
-- description: The V1BenefitsCheckTemplatesResource API from Silna — 1 operation(s) for v1benefitschecktemplatesresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1BenefitsCheckTemplatesResource API from Silna — 1 operation(s) for v1benefitschecktemplatesresource.
   name: Silna V1BenefitsCheckTemplatesResource API
   slug: silna-v1benefitschecktemplatesresource-api
-- description: The V1BulkExportResource API from Silna — 2 operation(s) for v1bulkexportresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1BulkExportResource API from Silna — 2 operation(s) for v1bulkexportresource.
   name: Silna V1BulkExportResource API
   slug: silna-v1bulkexportresource-api
-- description: The V1CliniciansResource API from Silna — 1 operation(s) for v1cliniciansresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1CliniciansResource API from Silna — 1 operation(s) for v1cliniciansresource.
   name: Silna V1CliniciansResource API
   slug: silna-v1cliniciansresource-api
-- description: The V1ContractResource API from Silna — 1 operation(s) for v1contractresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ContractResource API from Silna — 1 operation(s) for v1contractresource.
   name: Silna V1ContractResource API
   slug: silna-v1contractresource-api
-- description: The V1ContractsResource API from Silna — 1 operation(s) for v1contractsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ContractsResource API from Silna — 1 operation(s) for v1contractsresource.
   name: Silna V1ContractsResource API
   slug: silna-v1contractsresource-api
-- description: The V1DocumentValidationBatchDocumentValidationsResource API from Silna — 1 operation(s) for v1documentvalidationbatchdocumentvalidationsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1DocumentValidationBatchDocumentValidationsResource API from Silna — 1 operation(s) for v1documentvalidationbatchdocumentvalidationsresource.
   name: Silna V1DocumentValidationBatchDocumentValidationsResource API
   slug: silna-v1documentvalidationbatchdocumentvalidationsresource-api
-- description: The V1DocumentValidationBatchResource API from Silna — 1 operation(s) for v1documentvalidationbatchresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1DocumentValidationBatchResource API from Silna — 1 operation(s) for v1documentvalidationbatchresource.
   name: Silna V1DocumentValidationBatchResource API
   slug: silna-v1documentvalidationbatchresource-api
-- description: The V1DocumentValidationResource API from Silna — 1 operation(s) for v1documentvalidationresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1DocumentValidationResource API from Silna — 1 operation(s) for v1documentvalidationresource.
   name: Silna V1DocumentValidationResource API
   slug: silna-v1documentvalidationresource-api
-- description: The V1EscalationsResource API from Silna — 1 operation(s) for v1escalationsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1EscalationsResource API from Silna — 1 operation(s) for v1escalationsresource.
   name: Silna V1EscalationsResource API
   slug: silna-v1escalationsresource-api
-- description: The V1FileResource API from Silna — 2 operation(s) for v1fileresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1FileResource API from Silna — 2 operation(s) for v1fileresource.
   name: Silna V1FileResource API
   slug: silna-v1fileresource-api
-- description: The V1GetPayorResource API from Silna — 1 operation(s) for v1getpayorresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1GetPayorResource API from Silna — 1 operation(s) for v1getpayorresource.
   name: Silna V1GetPayorResource API
   slug: silna-v1getpayorresource-api
-- description: The V1PatientDiagnosisResource API from Silna — 2 operation(s) for v1patientdiagnosisresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientDiagnosisResource API from Silna — 2 operation(s) for v1patientdiagnosisresource.
   name: Silna V1PatientDiagnosisResource API
   slug: silna-v1patientdiagnosisresource-api
-- description: The V1PatientNotesResource API from Silna — 1 operation(s) for v1patientnotesresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientNotesResource API from Silna — 1 operation(s) for v1patientnotesresource.
   name: Silna V1PatientNotesResource API
   slug: silna-v1patientnotesresource-api
-- description: The V1PatientPlaceOfServicesResource API from Silna — 2 operation(s) for v1patientplaceofservicesresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientPlaceOfServicesResource API from Silna — 2 operation(s) for v1patientplaceofservicesresource.
   name: Silna V1PatientPlaceOfServicesResource API
   slug: silna-v1patientplaceofservicesresource-api
-- description: The V1PatientPlanBenefitsChecksResource API from Silna — 1 operation(s) for v1patientplanbenefitschecksresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientPlanBenefitsChecksResource API from Silna — 1 operation(s) for v1patientplanbenefitschecksresource.
   name: Silna V1PatientPlanBenefitsChecksResource API
   slug: silna-v1patientplanbenefitschecksresource-api
-- description: The V1PatientPlanPriorAuthorizationsResource API from Silna — 1 operation(s) for v1patientplanpriorauthorizationsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientPlanPriorAuthorizationsResource API from Silna — 1 operation(s) for v1patientplanpriorauthorizationsresource.
   name: Silna V1PatientPlanPriorAuthorizationsResource API
   slug: silna-v1patientplanpriorauthorizationsresource-api
-- description: The V1PatientPlanResource API from Silna — 2 operation(s) for v1patientplanresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientPlanResource API from Silna — 2 operation(s) for v1patientplanresource.
   name: Silna V1PatientPlanResource API
   slug: silna-v1patientplanresource-api
-- description: The V1PatientPlansResource API from Silna — 1 operation(s) for v1patientplansresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientPlansResource API from Silna — 1 operation(s) for v1patientplansresource.
   name: Silna V1PatientPlansResource API
   slug: silna-v1patientplansresource-api
-- description: The V1PatientResource API from Silna — 1 operation(s) for v1patientresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientResource API from Silna — 1 operation(s) for v1patientresource.
   name: Silna V1PatientResource API
   slug: silna-v1patientresource-api
-- description: The V1PatientsResource API from Silna — 1 operation(s) for v1patientsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PatientsResource API from Silna — 1 operation(s) for v1patientsresource.
   name: Silna V1PatientsResource API
   slug: silna-v1patientsresource-api
-- description: The V1PayorDetectionRunResource API from Silna — 2 operation(s) for v1payordetectionrunresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PayorDetectionRunResource API from Silna — 2 operation(s) for v1payordetectionrunresource.
   name: Silna V1PayorDetectionRunResource API
   slug: silna-v1payordetectionrunresource-api
-- description: The V1PayorInferenceResource API from Silna — 2 operation(s) for v1payorinferenceresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PayorInferenceResource API from Silna — 2 operation(s) for v1payorinferenceresource.
   name: Silna V1PayorInferenceResource API
   slug: silna-v1payorinferenceresource-api
-- description: The V1PayorPlansResource API from Silna — 1 operation(s) for v1payorplansresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PayorPlansResource API from Silna — 1 operation(s) for v1payorplansresource.
   name: Silna V1PayorPlansResource API
   slug: silna-v1payorplansresource-api
-- description: The V1PayorsResource API from Silna — 1 operation(s) for v1payorsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PayorsResource API from Silna — 1 operation(s) for v1payorsresource.
   name: Silna V1PayorsResource API
   slug: silna-v1payorsresource-api
-- description: The V1PriorAuthorizationCompletedResource API from Silna — 1 operation(s) for v1priorauthorizationcompletedresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PriorAuthorizationCompletedResource API from Silna — 1 operation(s) for v1priorauthorizationcompletedresource.
   name: Silna V1PriorAuthorizationCompletedResource API
   slug: silna-v1priorauthorizationcompletedresource-api
-- description: The V1PriorAuthorizationCompleteRequestResource API from Silna — 1 operation(s) for v1priorauthorizationcompleterequestresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PriorAuthorizationCompleteRequestResource API from Silna — 1 operation(s) for v1priorauthorizationcompleterequestresource.
   name: Silna V1PriorAuthorizationCompleteRequestResource API
   slug: silna-v1priorauthorizationcompleterequestresource-api
-- description: The V1PriorAuthorizationRecordApprovalResource API from Silna — 1 operation(s) for v1priorauthorizationrecordapprovalresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PriorAuthorizationRecordApprovalResource API from Silna — 1 operation(s) for v1priorauthorizationrecordapprovalresource.
   name: Silna V1PriorAuthorizationRecordApprovalResource API
   slug: silna-v1priorauthorizationrecordapprovalresource-api
-- description: The V1PriorAuthorizationResource API from Silna — 2 operation(s) for v1priorauthorizationresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1PriorAuthorizationResource API from Silna — 2 operation(s) for v1priorauthorizationresource.
   name: Silna V1PriorAuthorizationResource API
   slug: silna-v1priorauthorizationresource-api
-- description: The V1ProviderGroupResource API from Silna — 1 operation(s) for v1providergroupresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderGroupResource API from Silna — 1 operation(s) for v1providergroupresource.
   name: Silna V1ProviderGroupResource API
   slug: silna-v1providergroupresource-api
-- description: The V1ProviderGroupsResource API from Silna — 1 operation(s) for v1providergroupsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderGroupsResource API from Silna — 1 operation(s) for v1providergroupsresource.
   name: Silna V1ProviderGroupsResource API
   slug: silna-v1providergroupsresource-api
-- description: The V1ProviderPayorsResource API from Silna — 1 operation(s) for v1providerpayorsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderPayorsResource API from Silna — 1 operation(s) for v1providerpayorsresource.
   name: Silna V1ProviderPayorsResource API
   slug: silna-v1providerpayorsresource-api
-- description: The V1ProviderPlaceOfServicesResource API from Silna — 1 operation(s) for v1providerplaceofservicesresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderPlaceOfServicesResource API from Silna — 1 operation(s) for v1providerplaceofservicesresource.
   name: Silna V1ProviderPlaceOfServicesResource API
   slug: silna-v1providerplaceofservicesresource-api
-- description: The V1ProviderResource API from Silna — 1 operation(s) for v1providerresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderResource API from Silna — 1 operation(s) for v1providerresource.
   name: Silna V1ProviderResource API
   slug: silna-v1providerresource-api
-- description: The V1ProviderServiceLocationsResource API from Silna — 1 operation(s) for v1providerservicelocationsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProviderServiceLocationsResource API from Silna — 1 operation(s) for v1providerservicelocationsresource.
   name: Silna V1ProviderServiceLocationsResource API
   slug: silna-v1providerservicelocationsresource-api
-- description: The V1ProvidersResource API from Silna — 1 operation(s) for v1providersresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ProvidersResource API from Silna — 1 operation(s) for v1providersresource.
   name: Silna V1ProvidersResource API
   slug: silna-v1providersresource-api
-- description: The V1ServiceLocationByIdResource API from Silna — 1 operation(s) for v1servicelocationbyidresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ServiceLocationByIdResource API from Silna — 1 operation(s) for v1servicelocationbyidresource.
   name: Silna V1ServiceLocationByIdResource API
   slug: silna-v1servicelocationbyidresource-api
-- description: The V1ServiceLocationProviderPlaceOfServicesResource API from Silna — 1 operation(s) for v1servicelocationproviderplaceofservicesresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ServiceLocationProviderPlaceOfServicesResource API from Silna — 1 operation(s) for v1servicelocationproviderplaceofservicesresource.
   name: Silna V1ServiceLocationProviderPlaceOfServicesResource API
   slug: silna-v1servicelocationproviderplaceofservicesresource-api
-- description: The V1ServiceLocationsResource API from Silna — 1 operation(s) for v1servicelocationsresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V1ServiceLocationsResource API from Silna — 1 operation(s) for v1servicelocationsresource.
   name: Silna V1ServiceLocationsResource API
   slug: silna-v1servicelocationsresource-api
-- description: The V2BenefitsCheckResource API from Silna — 1 operation(s) for v2benefitscheckresource.
+- baseURL: https://app.silnahealth.com/api
+  baseurl_source: declared
+  description: The V2BenefitsCheckResource API from Silna — 1 operation(s) for v2benefitscheckresource.
   name: Silna V2BenefitsCheckResource API
   slug: silna-v2benefitscheckresource-api
 artifact_total: 90
@@ -482,7 +566,7 @@ score:
     regime_id: insurance
     score: 53.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silna/refs/heads/main/screenshots/silna-2026-08-17T081856.png
 security:

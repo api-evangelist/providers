@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -53,19 +53,29 @@ apis:
 - description: Legacy REST API for Azure Active Directory (being replaced by Microsoft Graph).
   name: Azure AD Graph API (Deprecated)
   slug: azure-ad-graph-api-deprecated
-- description: The Applications API from Microsoft Active Directory — 2 operation(s) for applications.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Applications API from Microsoft Active Directory — 2 operation(s) for applications.
   name: Microsoft Active Directory Applications API
   slug: microsoft-active-directory-applications-api
-- description: The Directory Roles API from Microsoft Active Directory — 2 operation(s) for directory roles.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Directory Roles API from Microsoft Active Directory — 2 operation(s) for directory roles.
   name: Microsoft Active Directory Directory Roles API
   slug: microsoft-active-directory-directory-roles-api
-- description: The Groups API from Microsoft Active Directory — 4 operation(s) for groups.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Groups API from Microsoft Active Directory — 4 operation(s) for groups.
   name: Microsoft Active Directory Groups API
   slug: microsoft-active-directory-groups-api
-- description: The Service Principals API from Microsoft Active Directory — 2 operation(s) for service principals.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Service Principals API from Microsoft Active Directory — 2 operation(s) for service principals.
   name: Microsoft Active Directory Service Principals API
   slug: microsoft-active-directory-service-principals-api
-- description: The Users API from Microsoft Active Directory — 3 operation(s) for users.
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Users API from Microsoft Active Directory — 3 operation(s) for users.
   name: Microsoft Active Directory Users API
   slug: microsoft-active-directory-users-api
 artifact_total: 23
@@ -193,7 +203,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-active-directory/refs/heads/main/screenshots/microsoft-active-directory-2026-06-20T185347.png
 security:

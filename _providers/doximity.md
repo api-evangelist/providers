@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 10 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: OAuth 2.0 authorization and token endpoints
+- baseURL: https://auth.doximity.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization and token endpoints
   name: Doximity OAuth API
   slug: doximity-oauth-api
-- description: Identity and discovery endpoints
+- baseURL: https://auth.doximity.com
+  baseurl_source: declared
+  description: Identity and discovery endpoints
   name: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
 artifact_total: 13
@@ -252,7 +256,7 @@ score:
     regime_id: health
     score: 72.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 29 operations · 11 acting
 api_count: 1
 apis:
-- description: The Appointments API API from Thriva — 2 operation(s) for appointments api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Appointments API API from Thriva — 2 operation(s) for appointments api.
   name: Thriva Appointments API API
   slug: thriva-appointments-api-api
-- description: The Auth API API from Thriva — 1 operation(s) for auth api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Auth API API from Thriva — 1 operation(s) for auth api.
   name: Thriva Auth API API
   slug: thriva-auth-api-api
-- description: The Biomarkers API API from Thriva — 1 operation(s) for biomarkers api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Biomarkers API API from Thriva — 1 operation(s) for biomarkers api.
   name: Thriva Biomarkers API API
   slug: thriva-biomarkers-api-api
-- description: The Bulk Orders API API from Thriva — 4 operation(s) for bulk orders api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Bulk Orders API API from Thriva — 4 operation(s) for bulk orders api.
   name: Thriva Bulk Orders API API
   slug: thriva-bulk-orders-api-api
-- description: The Escalations API API from Thriva — 1 operation(s) for escalations api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Escalations API API from Thriva — 1 operation(s) for escalations api.
   name: Thriva Escalations API API
   slug: thriva-escalations-api-api
-- description: The Orders API API from Thriva — 7 operation(s) for orders api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Orders API API from Thriva — 7 operation(s) for orders api.
   name: Thriva Orders API API
   slug: thriva-orders-api-api
-- description: The Result attachments API API from Thriva — 2 operation(s) for result attachments api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Result attachments API API from Thriva — 2 operation(s) for result attachments api.
   name: Thriva Result attachments API API
   slug: thriva-result-attachments-api-api
-- description: The Results API API from Thriva — 2 operation(s) for results api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Results API API from Thriva — 2 operation(s) for results api.
   name: Thriva Results API API
   slug: thriva-results-api-api
-- description: The Tracking API API from Thriva — 1 operation(s) for tracking api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Tracking API API from Thriva — 1 operation(s) for tracking api.
   name: Thriva Tracking API API
   slug: thriva-tracking-api-api
-- description: The Users API API from Thriva — 3 operation(s) for users api.
+- baseURL: https://api.thriva.io
+  baseurl_source: declared
+  description: The Users API API from Thriva — 3 operation(s) for users api.
   name: Thriva Users API API
   slug: thriva-users-api-api
 artifact_total: 27
@@ -262,7 +282,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -272,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 43.0
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,7 +310,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:

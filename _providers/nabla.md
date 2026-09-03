@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: The User API enables client-side applications to act on behalf of an individual user by exchanging server-issued access and refresh tokens to autonomously call the Nabla Core API. Includes WebSocket t
   name: Nabla Copilot User API
   slug: nabla-copilot-user-api
-- description: OAuth and JWT token endpoints.
+- baseURL: https://api.nabla.com
+  baseurl_source: declared
+  description: OAuth and JWT token endpoints.
   name: Nabla Authentication API
   slug: nabla-authentication-api
-- description: Medical-grade speech-to-text endpoints.
+- baseURL: https://api.nabla.com
+  baseurl_source: declared
+  description: Medical-grade speech-to-text endpoints.
   name: Nabla Transcription API
   slug: nabla-transcription-api
 artifact_total: 38
@@ -268,7 +272,7 @@ score:
     regime_id: health
     score: 28.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/screenshots/nabla-2026-06-20T185922.png
 security:

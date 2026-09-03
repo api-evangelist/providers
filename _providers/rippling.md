@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 29 operations · 10 acting
 api_count: 1
 apis:
-- description: The Rippling Platform API exposes core HRIS resources — companies, employees, departments, work locations, custom fields, employment types, and compensation history — for partners building HR-data int
+- baseURL: https://api.rippling.com
+  baseurl_source: spec
+  description: The Rippling Platform API exposes core HRIS resources — companies, employees, departments, work locations, custom fields, employment types, and compensation history — for partners building HR-data int
   name: Rippling Platform API
   slug: rippling-platform-api
 - description: Read and write employee records — personal information, employment details, manager hierarchy, work email, work location, and custom employee fields — for active and terminated workers.
@@ -107,7 +109,9 @@ apis:
 - description: Subscribe to Rippling events (employee created/updated/terminated, time-off approved, payroll finalized, device assigned) for near real-time downstream integration.
   name: Rippling Webhooks API
   slug: rippling-webhooks-api
-- description: The Platform API from Rippling — 24 operation(s) for platform.
+- baseURL: https://api.rippling.com
+  baseurl_source: spec
+  description: The Platform API from Rippling — 24 operation(s) for platform.
   name: Rippling Platform API
   slug: rippling-platform-api
 artifact_total: 43
@@ -264,7 +268,7 @@ score:
     catalog_gap: 80.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -274,7 +278,7 @@ score:
     discoverability: 48.1
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 36.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -283,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/screenshots/rippling-2026-06-20T193125.png
 security:

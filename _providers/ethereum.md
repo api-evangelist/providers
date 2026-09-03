@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Ethereum JSON RPC API API from Ethereum — 1 operation(s) for ethereum json rpc api.
+- baseURL: http://localhost:8545
+  baseurl_source: spec
+  description: The Ethereum JSON RPC API API from Ethereum — 1 operation(s) for ethereum json rpc api.
   name: Ethereum Ethereum JSON RPC API API
   slug: ethereum-ethereum-json-rpc-api-api
 artifact_total: 13
@@ -181,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethereum/refs/heads/main/screenshots/ethereum-2026-06-20T180835.png
 security:

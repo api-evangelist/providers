@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: Manage event ticket classes and objects
+- baseURL: https://walletobjects.googleapis.com/walletobjects/v1
+  baseurl_source: declared
+  description: Manage event ticket classes and objects
   name: Google Wallet Event Tickets API
   slug: google-wallet-event-tickets-api
-- description: Manage generic pass classes and objects
+- baseURL: https://walletobjects.googleapis.com/walletobjects/v1
+  baseurl_source: declared
+  description: Manage generic pass classes and objects
   name: Google Wallet Generic Passes API
   slug: google-wallet-generic-passes-api
-- description: Manage wallet issuers
+- baseURL: https://walletobjects.googleapis.com/walletobjects/v1
+  baseurl_source: declared
+  description: Manage wallet issuers
   name: Google Wallet Issuers API
   slug: google-wallet-issuers-api
-- description: Create save-to-wallet JWTs
+- baseURL: https://walletobjects.googleapis.com/walletobjects/v1
+  baseurl_source: declared
+  description: Create save-to-wallet JWTs
   name: Google Wallet JWT API
   slug: google-wallet-jwt-api
-- description: Manage loyalty card classes and objects
+- baseURL: https://walletobjects.googleapis.com/walletobjects/v1
+  baseurl_source: declared
+  description: Manage loyalty card classes and objects
   name: Google Wallet Loyalty Cards API
   slug: google-wallet-loyalty-cards-api
 artifact_total: 26
@@ -234,7 +244,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/screenshots/google-wallet-2026-06-20T182248.png
 security:

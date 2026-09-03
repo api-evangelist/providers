@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: Community-maintained GraphQL gateways over the SpaceX REST data, providing typed schema access and nested-field selection across launches, rockets, missions, payloads, ships, and crew. Multiple commun
   name: SpaceX GraphQL API (community)
   slug: graphql-api
-- description: Detailed info for serialized Dragon capsules.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info for serialized Dragon capsules.
   name: SpaceX (Community API) Capsules API
   slug: spacex-capsules-api
-- description: Detailed info about SpaceX as a company (single document).
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about SpaceX as a company (single document).
   name: SpaceX (Community API) Company API
   slug: spacex-company-api
-- description: Detailed info for serialized first-stage cores.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info for serialized first-stage cores.
   name: SpaceX (Community API) Cores API
   slug: spacex-cores-api
-- description: Detailed info on Dragon crew members.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info on Dragon crew members.
   name: SpaceX (Community API) Crew API
   slug: spacex-crew-api
-- description: Detailed info about Dragon capsule versions.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about Dragon capsule versions.
   name: SpaceX (Community API) Dragons API
   slug: spacex-dragons-api
-- description: Detailed info on SpaceX historical events.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info on SpaceX historical events.
   name: SpaceX (Community API) History API
   slug: spacex-history-api
-- description: Detailed info about landing pads and droneships.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about landing pads and droneships.
   name: SpaceX (Community API) Landpads API
   slug: spacex-landpads-api
-- description: Detailed info about SpaceX launches (v4 and v5).
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about SpaceX launches (v4 and v5).
   name: SpaceX (Community API) Launches API
   slug: spacex-launches-api
-- description: Detailed info about launchpads.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about launchpads.
   name: SpaceX (Community API) Launchpads API
   slug: spacex-launchpads-api
-- description: Detailed info about launch payloads.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about launch payloads.
   name: SpaceX (Community API) Payloads API
   slug: spacex-payloads-api
-- description: Detailed info about Elon Musk's Tesla Roadster ephemeris.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about Elon Musk's Tesla Roadster ephemeris.
   name: SpaceX (Community API) Roadster API
   slug: spacex-roadster-api
-- description: Detailed info about rocket versions.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about rocket versions.
   name: SpaceX (Community API) Rockets API
   slug: spacex-rockets-api
-- description: Detailed info about ships in the SpaceX fleet.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about ships in the SpaceX fleet.
   name: SpaceX (Community API) Ships API
   slug: spacex-ships-api
-- description: Detailed info about Starlink satellites and orbits.
+- baseURL: https://api.spacexdata.com
+  baseurl_source: declared
+  description: Detailed info about Starlink satellites and orbits.
   name: SpaceX (Community API) Starlink API
   slug: spacex-starlink-api
 artifact_total: 83
@@ -476,7 +504,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

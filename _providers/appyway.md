@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -44,94 +44,154 @@ agentic_access:
   summary_line: 88 operations · 69 acting
 api_count: 7
 apis:
-- description: The ActivityTypes API from AppyWay — 1 operation(s) for activitytypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The ActivityTypes API from AppyWay — 1 operation(s) for activitytypes.
   name: AppyWay ActivityTypes API
   slug: appyway-activitytypes-api
-- description: The Authorities API from AppyWay — 7 operation(s) for authorities.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Authorities API from AppyWay — 7 operation(s) for authorities.
   name: AppyWay Authorities API
   slug: appyway-authorities-api
-- description: The AuthorityTypes API from AppyWay — 1 operation(s) for authoritytypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The AuthorityTypes API from AppyWay — 1 operation(s) for authoritytypes.
   name: AppyWay AuthorityTypes API
   slug: appyway-authoritytypes-api
-- description: The Availability API from AppyWay — 1 operation(s) for availability.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Availability API from AppyWay — 1 operation(s) for availability.
   name: AppyWay Availability API
   slug: appyway-availability-api
-- description: The BaseMaps API from AppyWay — 1 operation(s) for basemaps.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The BaseMaps API from AppyWay — 1 operation(s) for basemaps.
   name: AppyWay BaseMaps API
   slug: appyway-basemaps-api
-- description: The Bulk API from AppyWay — 1 operation(s) for bulk.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Bulk API from AppyWay — 1 operation(s) for bulk.
   name: AppyWay Bulk API
   slug: appyway-bulk-api
-- description: The Countries API from AppyWay — 3 operation(s) for countries.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Countries API from AppyWay — 3 operation(s) for countries.
   name: AppyWay Countries API
   slug: appyway-countries-api
-- description: The EntitlementTypes API from AppyWay — 1 operation(s) for entitlementtypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The EntitlementTypes API from AppyWay — 1 operation(s) for entitlementtypes.
   name: AppyWay EntitlementTypes API
   slug: appyway-entitlementtypes-api
-- description: The ExceptionTypes API from AppyWay — 1 operation(s) for exceptiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The ExceptionTypes API from AppyWay — 1 operation(s) for exceptiontypes.
   name: AppyWay ExceptionTypes API
   slug: appyway-exceptiontypes-api
-- description: The ExemptionTimeTypes API from AppyWay — 1 operation(s) for exemptiontimetypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The ExemptionTimeTypes API from AppyWay — 1 operation(s) for exemptiontimetypes.
   name: AppyWay ExemptionTimeTypes API
   slug: appyway-exemptiontimetypes-api
-- description: The ExemptionTypes API from AppyWay — 1 operation(s) for exemptiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The ExemptionTypes API from AppyWay — 1 operation(s) for exemptiontypes.
   name: AppyWay ExemptionTypes API
   slug: appyway-exemptiontypes-api
-- description: The FacilityTypes API from AppyWay — 1 operation(s) for facilitytypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The FacilityTypes API from AppyWay — 1 operation(s) for facilitytypes.
   name: AppyWay FacilityTypes API
   slug: appyway-facilitytypes-api
-- description: The FuelTypes API from AppyWay — 1 operation(s) for fueltypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The FuelTypes API from AppyWay — 1 operation(s) for fueltypes.
   name: AppyWay FuelTypes API
   slug: appyway-fueltypes-api
-- description: The GIS API from AppyWay — 4 operation(s) for gis.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The GIS API from AppyWay — 4 operation(s) for gis.
   name: AppyWay GIS API
   slug: appyway-gis-api
-- description: The MovingExceptionTypes API from AppyWay — 1 operation(s) for movingexceptiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The MovingExceptionTypes API from AppyWay — 1 operation(s) for movingexceptiontypes.
   name: AppyWay MovingExceptionTypes API
   slug: appyway-movingexceptiontypes-api
-- description: The MovingRestrictionTypes API from AppyWay — 1 operation(s) for movingrestrictiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The MovingRestrictionTypes API from AppyWay — 1 operation(s) for movingrestrictiontypes.
   name: AppyWay MovingRestrictionTypes API
   slug: appyway-movingrestrictiontypes-api
-- description: The NoteVisibilityTypes API from AppyWay — 1 operation(s) for notevisibilitytypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The NoteVisibilityTypes API from AppyWay — 1 operation(s) for notevisibilitytypes.
   name: AppyWay NoteVisibilityTypes API
   slug: appyway-notevisibilitytypes-api
-- description: The OffStreetRestrictionTypes API from AppyWay — 1 operation(s) for offstreetrestrictiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The OffStreetRestrictionTypes API from AppyWay — 1 operation(s) for offstreetrestrictiontypes.
   name: AppyWay OffStreetRestrictionTypes API
   slug: appyway-offstreetrestrictiontypes-api
-- description: The OnStreetParkingTypes API from AppyWay — 1 operation(s) for onstreetparkingtypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The OnStreetParkingTypes API from AppyWay — 1 operation(s) for onstreetparkingtypes.
   name: AppyWay OnStreetParkingTypes API
   slug: appyway-onstreetparkingtypes-api
-- description: The Parking API from AppyWay — 11 operation(s) for parking.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Parking API from AppyWay — 11 operation(s) for parking.
   name: AppyWay Parking API
   slug: appyway-parking-api
-- description: The PaymentMethods API from AppyWay — 1 operation(s) for paymentmethods.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The PaymentMethods API from AppyWay — 1 operation(s) for paymentmethods.
   name: AppyWay PaymentMethods API
   slug: appyway-paymentmethods-api
-- description: The PaymentProviders API from AppyWay — 1 operation(s) for paymentproviders.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The PaymentProviders API from AppyWay — 1 operation(s) for paymentproviders.
   name: AppyWay PaymentProviders API
   slug: appyway-paymentproviders-api
-- description: The PermittedVehicles API from AppyWay — 1 operation(s) for permittedvehicles.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The PermittedVehicles API from AppyWay — 1 operation(s) for permittedvehicles.
   name: AppyWay PermittedVehicles API
   slug: appyway-permittedvehicles-api
-- description: The PermitTypes API from AppyWay — 1 operation(s) for permittypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The PermitTypes API from AppyWay — 1 operation(s) for permittypes.
   name: AppyWay PermitTypes API
   slug: appyway-permittypes-api
-- description: The Regions API from AppyWay — 3 operation(s) for regions.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Regions API from AppyWay — 3 operation(s) for regions.
   name: AppyWay Regions API
   slug: appyway-regions-api
-- description: The RestrictionTypes API from AppyWay — 1 operation(s) for restrictiontypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The RestrictionTypes API from AppyWay — 1 operation(s) for restrictiontypes.
   name: AppyWay RestrictionTypes API
   slug: appyway-restrictiontypes-api
-- description: The Status API from AppyWay — 1 operation(s) for status.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Status API from AppyWay — 1 operation(s) for status.
   name: AppyWay Status API
   slug: appyway-status-api
-- description: The VehicleTypes API from AppyWay — 1 operation(s) for vehicletypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The VehicleTypes API from AppyWay — 1 operation(s) for vehicletypes.
   name: AppyWay VehicleTypes API
   slug: appyway-vehicletypes-api
-- description: The Zones API from AppyWay — 3 operation(s) for zones.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The Zones API from AppyWay — 3 operation(s) for zones.
   name: AppyWay Zones API
   slug: appyway-zones-api
-- description: The ZoneTypes API from AppyWay — 1 operation(s) for zonetypes.
+- baseURL: https://api.appyway.com/v1/availability-realtime
+  baseurl_source: spec
+  description: The ZoneTypes API from AppyWay — 1 operation(s) for zonetypes.
   name: AppyWay ZoneTypes API
   slug: appyway-zonetypes-api
 artifact_total: 81
@@ -420,7 +480,7 @@ score:
     regime_id: energy_utilities
     score: 45.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

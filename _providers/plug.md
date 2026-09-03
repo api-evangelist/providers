@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -46,58 +46,94 @@ apis:
 - description: GraphQL API for querying processed payment data (charges, cards, authorization rates).
   name: Malga Analytics API
   slug: malga-analytics-api
-- description: The 3DS2 Malga API from Malga — 1 operation(s) for 3ds2 malga.
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: The 3DS2 Malga API from Malga — 1 operation(s) for 3ds2 malga.
   name: Malga 3DS2 Malga API
   slug: plug-3ds2-malga-api
-- description: '**Dados básicos de um objeto cartão** <SchemaDefinition schemaRef="#/components/schemas/Card" />'
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: '**Dados básicos de um objeto cartão** <SchemaDefinition schemaRef="#/components/schemas/Card" />'
   name: Malga Cards API
   slug: plug-cards-api
-- description: Para realizar uma cobrança deve criar um objeto `charge`. É possível recuperar detalhes de transações individuais ou listar todas as cobranças realizadas em um determinado `merchant`. Os `charges` são
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Para realizar uma cobrança deve criar um objeto `charge`. É possível recuperar detalhes de transações individuais ou listar todas as cobranças realizadas em um determinado `merchant`. Os `charges` são
   name: Malga Charges API
   slug: plug-charges-api
-- description: É possível criar chaves públicas de acesso temporária a API com escopo e tempo de expiração limitados. Recomendamos o uso deste tipo de chave quando você tiver que expor a chave em uma aplicação clien
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: É possível criar chaves públicas de acesso temporária a API com escopo e tempo de expiração limitados. Recomendamos o uso deste tipo de chave quando você tiver que expor a chave em uma aplicação clien
   name: Malga Client-token API
   slug: plug-client-token-api
-- description: Através da API de `customers` é possível realizar a criação, edição, listagem e exclusão de dados de compradores para uso nos serviços de tokenização de cartões, cobrança por PIX, Boleto, uso em análi
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através da API de `customers` é possível realizar a criação, edição, listagem e exclusão de dados de compradores para uso nos serviços de tokenização de cartões, cobrança por PIX, Boleto, uso em análi
   name: Malga Customers API
   slug: plug-customers-api
-- description: Através da API de `flows` é possível recuperar detalhes de um Fluxo ou listar todas os Fluxos cadastrados em determinado `clientId`. Os fluxos inteligentes são um recurso disponibilizado pela Malga pa
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através da API de `flows` é possível recuperar detalhes de um Fluxo ou listar todas os Fluxos cadastrados em determinado `clientId`. Os fluxos inteligentes são um recurso disponibilizado pela Malga pa
   name: Malga Flows API
   slug: plug-flows-api
-- description: Através das APIs de `merchants` é possível realizar a criação e configuração de sub contas na Malga. Uma sub conta, ou um `merchant`, é um cadastro de estabelecimento comercial que você tenha junto há
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através das APIs de `merchants` é possível realizar a criação e configuração de sub contas na Malga. Uma sub conta, ou um `merchant`, é um cadastro de estabelecimento comercial que você tenha junto há
   name: Malga Merchants API
   slug: plug-merchants-api
-- description: 'Através das APIs de `payouts` é possível consultar o saldo disponível, listar repasses e visualizar as ordens de pagamento liquidadas para um cliente. Esses endpoints são read-only e atendem a fluxos '
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: 'Através das APIs de `payouts` é possível consultar o saldo disponível, listar repasses e visualizar as ordens de pagamento liquidadas para um cliente. Esses endpoints são read-only e atendem a fluxos '
   name: Malga Payouts API
   slug: plug-payouts-api
-- description: '> **🚧 Beta** — esta API está em fase Beta. Já está disponível para clientes habilitados, mas detalhes do contrato e do fluxo podem evoluir nas próximas versões. **Antecipação avulsa de recebíveis.** P'
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: '> **🚧 Beta** — esta API está em fase Beta. Já está disponível para clientes habilitados, mas detalhes do contrato e do fluxo podem evoluir nas próximas versões. **Antecipação avulsa de recebíveis.** P'
   name: Malga Prepayment API
   slug: plug-prepayment-api
-- description: Através das APIs de Providers você pode realizar a edição e atualização dos provedores vinculados a um merchant já cadastrado na Malga. Essas operações permitem que você mantenha seus dados sempre atu
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através das APIs de Providers você pode realizar a edição e atualização dos provedores vinculados a um merchant já cadastrado na Malga. Essas operações permitem que você mantenha seus dados sempre atu
   name: Malga Providers API
   slug: plug-providers-api
-- description: The Seller Documents API from Malga — 2 operation(s) for seller documents.
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: The Seller Documents API from Malga — 2 operation(s) for seller documents.
   name: Malga Seller Documents API
   slug: plug-seller-documents-api
-- description: Para realizar uma cobrança com Split, antes é necessário criar um `seller`. Os `sellers` são identificados a partir de um id único. Através das APIs de `sellers` é possível realizar a criação e config
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Para realizar uma cobrança com Split, antes é necessário criar um `seller`. Os `sellers` são identificados a partir de um id único. Através das APIs de `sellers` é possível realizar a criação e config
   name: Malga Sellers API
   slug: plug-sellers-api
-- description: 'Através da API de sessões é possível criar um pedido, composto por itens, métodos de pagamento e outros atributos, que pode ser pago através de um endpoint ou integrado ao MalgaCheckout. # Fluxo de cr'
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: 'Através da API de sessões é possível criar um pedido, composto por itens, métodos de pagamento e outros atributos, que pode ser pago através de um endpoint ou integrado ao MalgaCheckout. # Fluxo de cr'
   name: Malga Sessions API
   slug: plug-sessions-api
-- description: Através da API de `settings` é possível recuperar, criar e atualizar configurações de personalização de link de pagamento de um determinado `clientId`. É possível também configurar branding específico
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através da API de `settings` é possível recuperar, criar e atualizar configurações de personalização de link de pagamento de um determinado `clientId`. É possível também configurar branding específico
   name: Malga Settings API
   slug: plug-settings-api
-- description: Através da API de `subscriptions` é possível realizar a criação, edição, listagem e exclusão de assinaturas. **Dados básicos de um objeto do tipo subscription** <SchemaDefinition schemaRef="#/componen
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: Através da API de `subscriptions` é possível realizar a criação, edição, listagem e exclusão de assinaturas. **Dados básicos de um objeto do tipo subscription** <SchemaDefinition schemaRef="#/componen
   name: Malga Subscriptions API
   slug: plug-subscriptions-api
-- description: '**Dados básicos de uma requisição de criação de card token** <SchemaDefinition schemaRef="#/components/schemas/TokenRequest" />'
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: '**Dados básicos de uma requisição de criação de card token** <SchemaDefinition schemaRef="#/components/schemas/TokenRequest" />'
   name: Malga Tokens API
   slug: plug-tokens-api
-- description: The Vendors API from Malga — 2 operation(s) for vendors.
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: The Vendors API from Malga — 2 operation(s) for vendors.
   name: Malga Vendors API
   slug: plug-vendors-api
-- description: A Malga utiliza o serviço de webhooks para notificar o seu sistema sobre os eventos ocorridos na nossa plataforma. Através de webhooks você consegue atualizar seu sistema sempre que um evento importan
+- baseURL: https://api.malga.io
+  baseurl_source: declared
+  description: A Malga utiliza o serviço de webhooks para notificar o seu sistema sobre os eventos ocorridos na nossa plataforma. Através de webhooks você consegue atualizar seu sistema sempre que um evento importan
   name: Malga Webhooks API
   slug: plug-webhooks-api
 artifact_total: 43
@@ -336,7 +372,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -346,7 +382,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 50.6
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -364,7 +400,7 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plug/refs/heads/main/screenshots/plug-2026-08-17T081311.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Profile's compliance packages management proxy endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Profile's compliance packages management proxy endpoints
   name: Credentially Compliance-packages API
   slug: credentially-compliance-packages-api
-- description: DBS check lookup and refresh endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: DBS check lookup and refresh endpoints
   name: Credentially DBS API
   slug: credentially-dbs-api
-- description: Dictionary lookup endpoints for custom profile field values
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Dictionary lookup endpoints for custom profile field values
   name: Credentially Dictionary API
   slug: credentially-dictionary-api
-- description: Automated document data extraction and validation endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Automated document data extraction and validation endpoints
   name: Credentially Document Auto-fill API
   slug: credentially-document-auto-fill-api
-- description: Document management proxy endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Document management proxy endpoints
   name: Credentially Documents API
   slug: credentially-documents-api
-- description: Placement data scoped to a specific employee.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Placement data scoped to a specific employee.
   name: Credentially Employee Placements API
   slug: credentially-employee-placements-api
-- description: Org-scoped jurisdictions a placement can reference (read-only).
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Org-scoped jurisdictions a placement can reference (read-only).
   name: Credentially Jurisdictions API
   slug: credentially-jurisdictions-api
-- description: Org-scoped classifications for placement locations (read-only).
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Org-scoped classifications for placement locations (read-only).
   name: Credentially Location Types API
   slug: credentially-location-types-api
-- description: Facilities / sites where placements occur. Each belongs to one jurisdiction.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Facilities / sites where placements occur. Each belongs to one jurisdiction.
   name: Credentially Locations API
   slug: credentially-locations-api
-- description: API for fetching metadata
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: API for fetching metadata
   name: Credentially Meta API
   slug: credentially-meta-api
-- description: Organisation group member management endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Organisation group member management endpoints
   name: Credentially Organisation Groups API
   slug: credentially-organisation-groups-api
-- description: Notes attached to a placement — free-text annotations.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Notes attached to a placement — free-text annotations.
   name: Credentially Placement Notes API
   slug: credentially-placement-notes-api
-- description: Org-scoped roles a placement can reference (e.g. Band 6 RN).
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Org-scoped roles a placement can reference (e.g. Band 6 RN).
   name: Credentially Placement Roles API
   slug: credentially-placement-roles-api
-- description: Placement lifecycle proxy endpoints — assignment of an employee to a location + role within the organisation.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Placement lifecycle proxy endpoints — assignment of an employee to a location + role within the organisation.
   name: Credentially Placements API
   slug: credentially-placements-api
-- description: Organisation groups proxy endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Organisation groups proxy endpoints
   name: Credentially Profile Groups API
   slug: credentially-profile-groups-api
-- description: Profile management proxy endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Profile management proxy endpoints
   name: Credentially Profiles API
   slug: credentially-profiles-api
-- description: Profile reference status lookup endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Profile reference status lookup endpoints
   name: Credentially References API
   slug: credentially-references-api
-- description: Right to work status lookup endpoints
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Right to work status lookup endpoints
   name: Credentially Right to Work API
   slug: credentially-right-to-work-api
-- description: Placements scoped to a Kanban stage — board column reads + bulk-move.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Placements scoped to a Kanban stage — board column reads + bulk-move.
   name: Credentially Stage Placements API
   slug: credentially-stage-placements-api
-- description: Kanban placement stages — per-org column definitions for the placements board.
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: Kanban placement stages — per-org column definitions for the placements board.
   name: Credentially Stages API
   slug: credentially-stages-api
-- description: API for managing webhook callback subscriptions
+- baseURL: https://app.credentially.io/gateway
+  baseurl_source: declared
+  description: API for managing webhook callback subscriptions
   name: Credentially Subscriptions API
   slug: credentially-subscriptions-api
 artifact_total: 49
@@ -331,7 +373,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -341,7 +383,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 55.6
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,7 +405,7 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -74,10 +74,14 @@ apis:
 - description: Native audio generation text-to-speech capabilities through the Gemini API, supporting single and multi-speaker speech synthesis with natural language control over style, accent, pace, and tone.
   name: Gemini Text-to-Speech API
   slug: gemini-text-to-speech-api
-- description: API for uploading and managing media files for use with Gemini models, supporting images, audio, video, and documents up to 2 GB per file with 20 GB per project storage.
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: API for uploading and managing media files for use with Gemini models, supporting images, audio, video, and documents up to 2 GB per file with 20 GB per project storage.
   name: Gemini Files API
   slug: gemini-files-api
-- description: Text embedding capabilities through the Gemini API, generating vector representations for semantic search, classification, clustering, and retrieval augmented generation (RAG) applications.
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: Text embedding capabilities through the Gemini API, generating vector representations for semantic search, classification, clustering, and retrieval augmented generation (RAG) applications.
   name: Gemini Embeddings API
   slug: gemini-embeddings-api
 - description: Asynchronous batch processing API for submitting large volumes of Gemini API requests at 50 percent of the standard cost, with support for content generation, embeddings, and OpenAI compatibility.
@@ -89,19 +93,29 @@ apis:
 - description: REST and WebSocket APIs for the Gemini cryptocurrency exchange, providing market data, order management, account balances, clearing, earn/staking, and institutional capital account operations.
   name: Gemini Exchange API
   slug: gemini-exchange-api
-- description: Create embeddings for text
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: Create embeddings for text
   name: Gemini Embeddings API
   slug: gemini-embeddings-api
-- description: Upload and manage files used as model input
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: Upload and manage files used as model input
   name: Gemini Files API
   slug: gemini-files-api
-- description: Generate content from prompts
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: Generate content from prompts
   name: Gemini Generation API
   slug: gemini-generation-api
-- description: List and inspect available Gemini models
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: List and inspect available Gemini models
   name: Gemini Models API
   slug: gemini-models-api
-- description: Token counting and other helpers
+- baseURL: https://generativelanguage.googleapis.com
+  baseurl_source: declared
+  description: Token counting and other helpers
   name: Gemini Utility API
   slug: gemini-utility-api
 artifact_total: 56
@@ -298,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini/refs/heads/main/screenshots/gemini-2026-06-20T181714.png
 security:

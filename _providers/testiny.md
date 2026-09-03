@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 43 operations · 28 acting
 api_count: 1
 apis:
-- description: Automated test cases and test runs submitted from CI/CD.
+- baseURL: https://app.testiny.io/api/v1
+  baseurl_source: declared
+  description: Automated test cases and test runs submitted from CI/CD.
   name: Testiny Automation API
   slug: testiny-automation-api
-- description: Top-level containers for test cases, plans, and runs.
+- baseURL: https://app.testiny.io/api/v1
+  baseurl_source: declared
+  description: Top-level containers for test cases, plans, and runs.
   name: Testiny Projects API
   slug: testiny-projects-api
-- description: Manual and automated test cases, folders, and saved queries.
+- baseURL: https://app.testiny.io/api/v1
+  baseurl_source: declared
+  description: Manual and automated test cases, folders, and saved queries.
   name: Testiny Test Cases API
   slug: testiny-test-cases-api
-- description: Curated selections of test cases executed as runs.
+- baseURL: https://app.testiny.io/api/v1
+  baseurl_source: declared
+  description: Curated selections of test cases executed as runs.
   name: Testiny Test Plans API
   slug: testiny-test-plans-api
-- description: Executions of test cases with recorded results.
+- baseURL: https://app.testiny.io/api/v1
+  baseurl_source: declared
+  description: Executions of test cases with recorded results.
   name: Testiny Test Runs API
   slug: testiny-test-runs-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/screenshots/testiny-2026-09-02T163228.png
 security:
 - kind: authentication
   name: Testiny Authentication

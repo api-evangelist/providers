@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 8 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Retrieve the authenticated account profile.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Retrieve the authenticated account profile.
   name: Ziina Account API
   slug: ziina-account-api
-- description: Service status.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Service status.
   name: Ziina HealthCheck API
   slug: ziina-healthcheck-api
-- description: The Log API from Ziina — 1 operation(s) for log.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: The Log API from Ziina — 1 operation(s) for log.
   name: Ziina Log API
   slug: ziina-log-api
-- description: Create and retrieve payment intents (hosted/embedded checkout).
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Create and retrieve payment intents (hosted/embedded checkout).
   name: Ziina PaymentIntent API
   slug: ziina-paymentintent-api
-- description: Issue and retrieve refunds against a payment intent.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Issue and retrieve refunds against a payment intent.
   name: Ziina Refund API
   slug: ziina-refund-api
-- description: Initiate and retrieve peer transfers between Ziina accounts.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Initiate and retrieve peer transfers between Ziina accounts.
   name: Ziina Transfer API
   slug: ziina-transfer-api
-- description: Register or delete a webhook endpoint for payment events.
+- baseURL: https://api-v2.ziina.com/api
+  baseurl_source: declared
+  description: Register or delete a webhook endpoint for payment events.
   name: Ziina Webhook API
   slug: ziina-webhook-api
 arazzos:
@@ -333,7 +347,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -343,7 +357,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 67.2
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,7 +375,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ziina/refs/heads/main/screenshots/ziina-2026-08-17T083107.png
 security:

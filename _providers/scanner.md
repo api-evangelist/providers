@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 25 operations · 13 acting
 api_count: 1
 apis:
-- description: Run asynchronous or blocking full-text queries over indexed logs.
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: Run asynchronous or blocking full-text queries over indexed logs.
   name: Scanner Ad Hoc Queries API
   slug: scanner-ad-hoc-queries-api
-- description: Create, list, update, and delete streaming detection rules.
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: Create, list, update, and delete streaming detection rules.
   name: Scanner Detection Rules API
   slug: scanner-detection-rules-api
-- description: Manage alert destinations (Slack, Webhook, PagerDuty).
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: Manage alert destinations (Slack, Webhook, PagerDuty).
   name: Scanner Event Sinks API
   slug: scanner-event-sinks-api
-- description: List and retrieve searchable indexes for a tenant.
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: List and retrieve searchable indexes for a tenant.
   name: Scanner Indexes API
   slug: scanner-indexes-api
-- description: Account and query-capacity metrics.
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: Account and query-capacity metrics.
   name: Scanner Info API
   slug: scanner-info-api
-- description: Upload, manage, and download lookup table files for enrichment.
+- baseURL: https://app.scanner.dev
+  baseurl_source: declared
+  description: Upload, manage, and download lookup table files for enrichment.
   name: Scanner Lookup Tables API
   slug: scanner-lookup-tables-api
 artifact_total: 19
@@ -237,7 +249,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -247,7 +259,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 38.8
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,7 +271,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scanner/refs/heads/main/screenshots/scanner-2026-08-17T081732.png
 security:

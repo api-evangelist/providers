@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 7 operations · 5 acting
 api_count: 1
 apis:
-- description: The Amazon EBS Amazon Elastic Block Store (EBS) API API from Amazon EBS — 1 operation(s) for amazon ebs amazon elastic block store (ebs) api.
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon EBS Amazon Elastic Block Store (EBS) API API from Amazon EBS — 1 operation(s) for amazon ebs amazon elastic block store (ebs) api.
   name: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API API
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
-- description: 'The #AttachVolume API from Amazon EBS — 1 operation(s) for #attachvolume.'
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: 'The #AttachVolume API from Amazon EBS — 1 operation(s) for #attachvolume.'
   name: 'Amazon EBS #AttachVolume API'
   slug: amazon-ebs-attachvolume-api
-- description: 'The #CreateSnapshot API from Amazon EBS — 1 operation(s) for #createsnapshot.'
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateSnapshot API from Amazon EBS — 1 operation(s) for #createsnapshot.'
   name: 'Amazon EBS #CreateSnapshot API'
   slug: amazon-ebs-createsnapshot-api
-- description: 'The #DeleteVolume API from Amazon EBS — 1 operation(s) for #deletevolume.'
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DeleteVolume API from Amazon EBS — 1 operation(s) for #deletevolume.'
   name: 'Amazon EBS #DeleteVolume API'
   slug: amazon-ebs-deletevolume-api
-- description: 'The #DescribeSnapshots API from Amazon EBS — 1 operation(s) for #describesnapshots.'
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeSnapshots API from Amazon EBS — 1 operation(s) for #describesnapshots.'
   name: 'Amazon EBS #DescribeSnapshots API'
   slug: amazon-ebs-describesnapshots-api
-- description: 'The #DetachVolume API from Amazon EBS — 1 operation(s) for #detachvolume.'
+- baseURL: https://ec2.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DetachVolume API from Amazon EBS — 1 operation(s) for #detachvolume.'
   name: 'Amazon EBS #DetachVolume API'
   slug: amazon-ebs-detachvolume-api
 arazzos:
@@ -364,7 +376,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/screenshots/amazon-ebs-2026-06-20T171636.png
 security:

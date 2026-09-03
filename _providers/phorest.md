@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 62 operations · 23 acting
 api_count: 1
 apis:
-- description: Appointment lifecycle - list, retrieve, update, cancel, confirm, check in.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Appointment lifecycle - list, retrieve, update, cancel, confirm, check in.
   name: Phorest Appointments API
   slug: phorest-appointments-api
-- description: Booking creation and lifecycle, plus real-time availability checks.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Booking creation and lifecycle, plus real-time availability checks.
   name: Phorest Bookings API
   slug: phorest-bookings-api
-- description: Branches (locations), rooms, machines, and tax rates.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Branches (locations), rooms, machines, and tax rates.
   name: Phorest Branches API
   slug: phorest-branches-api
-- description: Client (customer) records and client categories.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Client (customer) records and client categories.
   name: Phorest Clients API
   slug: phorest-clients-api
-- description: Course templates and a client's purchased course sessions.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Course templates and a client's purchased course sessions.
   name: Phorest Courses API
   slug: phorest-courses-api
-- description: Marketing leads and lead statistics.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Marketing leads and lead statistics.
   name: Phorest Leads API
   slug: phorest-leads-api
-- description: Client loyalty point adjustments.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Client loyalty point adjustments.
   name: Phorest Loyalty API
   slug: phorest-loyalty-api
-- description: Retail products and inventory.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Retail products and inventory.
   name: Phorest Products API
   slug: phorest-products-api
-- description: Point-of-sale purchases, stock adjustments, and till balances.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Point-of-sale purchases, stock adjustments, and till balances.
   name: Phorest Purchases API
   slug: phorest-purchases-api
-- description: Asynchronous CSV export jobs for sale-level reporting.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Asynchronous CSV export jobs for sale-level reporting.
   name: Phorest Reporting API
   slug: phorest-reporting-api
-- description: Client reviews for syndication to external review platforms.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Client reviews for syndication to external review platforms.
   name: Phorest Reviews API
   slug: phorest-reviews-api
-- description: Services, service categories, packages, and special offers.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Services, service categories, packages, and special offers.
   name: Phorest Services API
   slug: phorest-services-api
-- description: Staff records, rota/work-time tables, and staff breaks.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Staff records, rota/work-time tables, and staff breaks.
   name: Phorest Staff API
   slug: phorest-staff-api
-- description: Gift voucher creation, lookup, and balance updates.
+- baseURL: https://api-gateway-eu.phorest.com/third-party-api-server/api/business
+  baseurl_source: declared
+  description: Gift voucher creation, lookup, and balance updates.
   name: Phorest Vouchers API
   slug: phorest-vouchers-api
 artifact_total: 37
@@ -215,7 +243,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -238,8 +266,9 @@ score:
       marker_coverage: 7.1
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/phorest/refs/heads/main/screenshots/phorest-2026-09-02T151153.png
 security:
 - kind: authentication
   name: Phorest Authentication

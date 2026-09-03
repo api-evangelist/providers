@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 16 operations · 7 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: CLI and device authentication.
+- baseURL: https://archal.ai
+  baseurl_source: declared
+  description: CLI and device authentication.
   name: Archal Auth API
   slug: archal-auth-api
-- description: Clone and scenario discovery.
+- baseURL: https://archal.ai
+  baseurl_source: declared
+  description: Clone and scenario discovery.
   name: Archal Catalog API
   slug: archal-catalog-api
-- description: Run, trace, and test-result reporting.
+- baseURL: https://archal.ai
+  baseurl_source: declared
+  description: Run, trace, and test-result reporting.
   name: Archal Results API
   slug: archal-results-api
-- description: Direct calls into a running clone.
+- baseURL: https://archal.ai
+  baseurl_source: declared
+  description: Direct calls into a running clone.
   name: Archal Runtime API
   slug: archal-runtime-api
-- description: Hosted clone session lifecycle.
+- baseURL: https://archal.ai
+  baseurl_source: declared
+  description: Hosted clone session lifecycle.
   name: Archal Sessions API
   slug: archal-sessions-api
 arazzos:
@@ -222,7 +232,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archal/refs/heads/main/screenshots/archal-2026-07-25T201020.png
 security:

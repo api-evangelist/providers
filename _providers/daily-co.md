@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -50,43 +50,69 @@ apis:
 - description: REST API and SDKs for deploying and managing voice AI agents built with the open-source Pipecat framework on Daily's infrastructure.
   name: Pipecat Cloud (Daily Bots) API
   slug: pipecat-cloud
-- description: The CallTransfer API from Daily — 2 operation(s) for calltransfer.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The CallTransfer API from Daily — 2 operation(s) for calltransfer.
   name: Daily CallTransfer API
   slug: daily-co-calltransfer-api
-- description: The DialIn API from Daily — 1 operation(s) for dialin.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The DialIn API from Daily — 1 operation(s) for dialin.
   name: Daily DialIn API
   slug: daily-co-dialin-api
-- description: The DialOut API from Daily — 3 operation(s) for dialout.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The DialOut API from Daily — 3 operation(s) for dialout.
   name: Daily DialOut API
   slug: daily-co-dialout-api
-- description: The Domain API from Daily — 1 operation(s) for domain.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Domain API from Daily — 1 operation(s) for domain.
   name: Daily Domain API
   slug: daily-co-domain-api
-- description: The LiveStreaming API from Daily — 3 operation(s) for livestreaming.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The LiveStreaming API from Daily — 3 operation(s) for livestreaming.
   name: Daily LiveStreaming API
   slug: daily-co-livestreaming-api
-- description: The Meetings API from Daily — 3 operation(s) for meetings.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Meetings API from Daily — 3 operation(s) for meetings.
   name: Daily Meetings API
   slug: daily-co-meetings-api
-- description: The MeetingTokens API from Daily — 2 operation(s) for meetingtokens.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The MeetingTokens API from Daily — 2 operation(s) for meetingtokens.
   name: Daily MeetingTokens API
   slug: daily-co-meetingtokens-api
-- description: The PhoneNumbers API from Daily — 4 operation(s) for phonenumbers.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The PhoneNumbers API from Daily — 4 operation(s) for phonenumbers.
   name: Daily PhoneNumbers API
   slug: daily-co-phonenumbers-api
-- description: The Presence API from Daily — 1 operation(s) for presence.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Presence API from Daily — 1 operation(s) for presence.
   name: Daily Presence API
   slug: daily-co-presence-api
-- description: The Recordings API from Daily — 6 operation(s) for recordings.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Recordings API from Daily — 6 operation(s) for recordings.
   name: Daily Recordings API
   slug: daily-co-recordings-api
-- description: The Rooms API from Daily — 9 operation(s) for rooms.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Rooms API from Daily — 9 operation(s) for rooms.
   name: Daily Rooms API
   slug: daily-co-rooms-api
-- description: The Transcription API from Daily — 6 operation(s) for transcription.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Transcription API from Daily — 6 operation(s) for transcription.
   name: Daily Transcription API
   slug: daily-co-transcription-api
-- description: The Webhooks API from Daily — 2 operation(s) for webhooks.
+- baseURL: https://api.daily.co/v1
+  baseurl_source: declared
+  description: The Webhooks API from Daily — 2 operation(s) for webhooks.
   name: Daily Webhooks API
   slug: daily-co-webhooks-api
 artifact_total: 39
@@ -261,7 +287,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -274,7 +300,7 @@ score:
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 47.6
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -283,7 +309,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

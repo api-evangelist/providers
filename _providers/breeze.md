@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 89 operations · 45 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Administrative operations
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Administrative operations
   name: Breeze Admin API
   slug: breeze-admin-api
-- description: Deposit operations
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Deposit operations
   name: Breeze Deposits API
   slug: breeze-deposits-api
-- description: The fund API from Breeze — 1 operation(s) for fund.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The fund API from Breeze — 1 operation(s) for fund.
   name: Breeze fund API
   slug: breeze-fund-api
-- description: Fund management operations
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Fund management operations
   name: Breeze Funds API
   slug: breeze-funds-api
-- description: Global configuration and supported assets
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Global configuration and supported assets
   name: Breeze Global Config API
   slug: breeze-global-config-api
-- description: Organization API key management
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Organization API key management
   name: Breeze Organization API Keys API
   slug: breeze-organization-api-keys-api
-- description: Organization onboarding and status
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Organization onboarding and status
   name: Breeze Organization API
   slug: breeze-organization-api
-- description: The Organization Funds API from Breeze — 1 operation(s) for organization funds.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The Organization Funds API from Breeze — 1 operation(s) for organization funds.
   name: Breeze Organization Funds API
   slug: breeze-organization-funds-api
-- description: The Organization Settings API from Breeze — 1 operation(s) for organization settings.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The Organization Settings API from Breeze — 1 operation(s) for organization settings.
   name: Breeze Organization Settings API
   slug: breeze-organization-settings-api
-- description: The Selective Yield Sources API from Breeze — 1 operation(s) for selective yield sources.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The Selective Yield Sources API from Breeze — 1 operation(s) for selective yield sources.
   name: Breeze Selective Yield Sources API
   slug: breeze-selective-yield-sources-api
-- description: The Strategies API from Breeze — 14 operation(s) for strategies.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The Strategies API from Breeze — 14 operation(s) for strategies.
   name: Breeze Strategies API
   slug: breeze-strategies-api
-- description: The Strategy API from Breeze — 1 operation(s) for strategy.
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: The Strategy API from Breeze — 1 operation(s) for strategy.
   name: Breeze Strategy API
   slug: breeze-strategy-api
-- description: User balance and yield data
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: User balance and yield data
   name: Breeze User Data API
   slug: breeze-user-data-api
-- description: Withdrawal operations
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Withdrawal operations
   name: Breeze Withdrawals API
   slug: breeze-withdrawals-api
-- description: Yield source information and statistics
+- baseURL: https://api.breeze.baby
+  baseurl_source: declared
+  description: Yield source information and statistics
   name: Breeze Yield Sources API
   slug: breeze-yield-sources-api
 artifact_total: 35
@@ -288,7 +318,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/screenshots/breeze-2026-07-25T203743.png
 security:

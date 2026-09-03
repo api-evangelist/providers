@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,97 +44,159 @@ agentic_access:
   summary_line: 47 operations · 8 acting
 api_count: 1
 apis:
-- description: Read employee absence records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee absence records.
   name: HR Partner Absences API
   slug: hr-partner-absences-api
-- description: List employee address records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: List employee address records.
   name: HR Partner Addresses API
   slug: hr-partner-addresses-api
-- description: Read, create, and update job applicants.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read, create, and update job applicants.
   name: HR Partner Applicants API
   slug: hr-partner-applicants-api
-- description: Read application stage history and tracking data.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read application stage history and tracking data.
   name: HR Partner Application Stage Tracking API
   slug: hr-partner-application-stage-tracking-api
-- description: Read, create, and update job applications and stage data.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read, create, and update job applications and stage data.
   name: HR Partner Applications API
   slug: hr-partner-applications-api
-- description: Read company assets issued to employees.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read company assets issued to employees.
   name: HR Partner Assets API
   slug: hr-partner-assets-api
-- description: Read attachments stored against any HR Partner module.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read attachments stored against any HR Partner module.
   name: HR Partner Attachments API
   slug: hr-partner-attachments-api
-- description: Read employee benefit assignments.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee benefit assignments.
   name: HR Partner Benefits API
   slug: hr-partner-benefits-api
-- description: Read onboarding and offboarding checklists.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read onboarding and offboarding checklists.
   name: HR Partner Checklists API
   slug: hr-partner-checklists-api
-- description: Retrieve company-level information for the HR Partner account.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Retrieve company-level information for the HR Partner account.
   name: HR Partner Company API
   slug: hr-partner-company-api
-- description: List employee contact details (phone, email, emergency).
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: List employee contact details (phone, email, emergency).
   name: HR Partner Contacts API
   slug: hr-partner-contacts-api
-- description: Read employee dependent records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee dependent records.
   name: HR Partner Dependents API
   slug: hr-partner-dependents-api
-- description: Read employee education and qualification records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee education and qualification records.
   name: HR Partner Education API
   slug: hr-partner-education-api
-- description: Read, create, and update employee records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read, create, and update employee records.
   name: HR Partner Employees API
   slug: hr-partner-employees-api
-- description: Read employee expense claims.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee expense claims.
   name: HR Partner Expenses API
   slug: hr-partner-expenses-api
-- description: Read performance and development goals.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read performance and development goals.
   name: HR Partner Goals API
   slug: hr-partner-goals-api
-- description: Read employee grievance records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee grievance records.
   name: HR Partner Grievances API
   slug: hr-partner-grievances-api
-- description: Read open job listings published by the organization.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read open job listings published by the organization.
   name: HR Partner Job Listings API
   slug: hr-partner-job-listings-api
-- description: Read leave entitlement balances and accruals.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read leave entitlement balances and accruals.
   name: HR Partner Leave Balances API
   slug: hr-partner-leave-balances-api
-- description: Read leave and PTO requests submitted by employees.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read leave and PTO requests submitted by employees.
   name: HR Partner Leave Requests API
   slug: hr-partner-leave-requests-api
-- description: Read document library files and categories.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read document library files and categories.
   name: HR Partner Library API
   slug: hr-partner-library-api
-- description: Read system lookup definitions for configurable fields.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read system lookup definitions for configurable fields.
   name: HR Partner Lookups API
   slug: hr-partner-lookups-api
-- description: Retrieve internal HR notes attached to employees.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Retrieve internal HR notes attached to employees.
   name: HR Partner Notes API
   slug: hr-partner-notes-api
-- description: Read employee position history and remuneration.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee position history and remuneration.
   name: HR Partner Positions API
   slug: hr-partner-positions-api
-- description: Read projects and activities used by timesheets.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read projects and activities used by timesheets.
   name: HR Partner Projects API
   slug: hr-partner-projects-api
-- description: Read, update, and delete user reminders.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read, update, and delete user reminders.
   name: HR Partner Reminders API
   slug: hr-partner-reminders-api
-- description: Read renewable items such as certifications and licenses.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read renewable items such as certifications and licenses.
   name: HR Partner Renewables API
   slug: hr-partner-renewables-api
-- description: Read performance reviews and scoring.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read performance reviews and scoring.
   name: HR Partner Reviews API
   slug: hr-partner-reviews-api
-- description: Read employee skills and competency ratings.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee skills and competency ratings.
   name: HR Partner Skills API
   slug: hr-partner-skills-api
-- description: Read and create timesheets and timeclock entries.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read and create timesheets and timeclock entries.
   name: HR Partner Timesheets API
   slug: hr-partner-timesheets-api
-- description: Read employee training and course completion records.
+- baseURL: https://api.hrpartner.io
+  baseurl_source: declared
+  description: Read employee training and course completion records.
   name: HR Partner Training API
   slug: hr-partner-training-api
 artifact_total: 152
@@ -646,7 +708,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hr-partner/refs/heads/main/screenshots/hr-partner-2026-06-20T182858.png
 security:

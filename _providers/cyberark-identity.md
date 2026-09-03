@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: REST API for CyberArk Identity covering authentication, authorization, OAuth 2.0 token endpoints, user and role management, directory services, application provisioning, and policy operations. Support
   name: CyberArk Identity API
   slug: identity-api
-- description: The Authentication API from CyberArk Identity — 3 operation(s) for authentication.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The Authentication API from CyberArk Identity — 3 operation(s) for authentication.
   name: CyberArk Identity Authentication API
   slug: cyberark-identity-authentication-api
-- description: The CDirectoryService API from CyberArk Identity — 3 operation(s) for cdirectoryservice.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The CDirectoryService API from CyberArk Identity — 3 operation(s) for cdirectoryservice.
   name: CyberArk Identity CDirectoryService API
   slug: cyberark-identity-cdirectoryservice-api
-- description: The ExtData API from CyberArk Identity — 1 operation(s) for extdata.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The ExtData API from CyberArk Identity — 1 operation(s) for extdata.
   name: CyberArk Identity ExtData API
   slug: cyberark-identity-extdata-api
-- description: The OAuth API from CyberArk Identity — 1 operation(s) for oauth.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The OAuth API from CyberArk Identity — 1 operation(s) for oauth.
   name: CyberArk Identity OAuth API
   slug: cyberark-identity-oauth-api
-- description: The Org API from CyberArk Identity — 2 operation(s) for org.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The Org API from CyberArk Identity — 2 operation(s) for org.
   name: CyberArk Identity Org API
   slug: cyberark-identity-org-api
-- description: The SCIM API from CyberArk Identity — 4 operation(s) for scim.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The SCIM API from CyberArk Identity — 4 operation(s) for scim.
   name: CyberArk Identity SCIM API
   slug: cyberark-identity-scim-api
-- description: The UserMgmt API from CyberArk Identity — 5 operation(s) for usermgmt.
+- baseURL: https://<tenant>.id.cyberark.cloud
+  baseurl_source: declared
+  description: The UserMgmt API from CyberArk Identity — 5 operation(s) for usermgmt.
   name: CyberArk Identity UserMgmt API
   slug: cyberark-identity-usermgmt-api
 artifact_total: 21
@@ -177,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark-identity/refs/heads/main/screenshots/cyberark-identity-2026-06-20T175406.png
 security:

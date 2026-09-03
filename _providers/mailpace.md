@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -47,13 +47,19 @@ apis:
 - description: Delivers outbound, Ed25519-signed event callbacks (email.queued, email.delivered, email.deferred, email.bounced, email.spam) to your endpoints. Configured per domain in the MailPace dashboard; the pub
   name: MailPace Webhooks API
   slug: mailpace-webhooks-api
-- description: Manage per-domain API tokens.
+- baseURL: https://app.mailpace.com/api/v1
+  baseurl_source: declared
+  description: Manage per-domain API tokens.
   name: MailPace API Tokens API
   slug: mailpace-api-tokens-api
-- description: Manage sending domains and DKIM verification.
+- baseURL: https://app.mailpace.com/api/v1
+  baseurl_source: declared
+  description: Manage sending domains and DKIM verification.
   name: MailPace Domains API
   slug: mailpace-domains-api
-- description: Send transactional email.
+- baseURL: https://app.mailpace.com/api/v1
+  baseurl_source: declared
+  description: Send transactional email.
   name: MailPace Send API
   slug: mailpace-send-api
 artifact_total: 15
@@ -166,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailpace/refs/heads/main/screenshots/mailpace-2026-06-20T184903.png
 security:

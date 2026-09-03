@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 97 operations · 97 acting
 api_count: 1
 apis:
-- description: Account balance, history, representative, and frontier queries
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Account balance, history, representative, and frontier queries
   name: Nano Accounts API
   slug: nano-accounts-api
-- description: Block creation, processing, signing, and querying operations
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Block creation, processing, signing, and querying operations
   name: Nano Blocks API
   slug: nano-blocks-api
-- description: Cryptographic key generation and derivation
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Cryptographic key generation and derivation
   name: Nano Keys API
   slug: nano-keys-api
-- description: Ledger-level queries for supply, frontiers, and account data
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Ledger-level queries for supply, frontiers, and account data
   name: Nano Ledger API
   slug: nano-ledger-api
-- description: Node diagnostics, bootstrapping, peers, and confirmation management
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Node diagnostics, bootstrapping, peers, and confirmation management
   name: Nano Node API
   slug: nano-node-api
-- description: Conversion between Nano and raw unit denominations
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Conversion between Nano and raw unit denominations
   name: Nano Unit Conversion API
   slug: nano-unit-conversion-api
-- description: Local wallet management for development and testing
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Local wallet management for development and testing
   name: Nano Wallets API
   slug: nano-wallets-api
-- description: Proof-of-work generation, validation, and caching
+- baseURL: http://localhost:7076
+  baseurl_source: declared
+  description: Proof-of-work generation, validation, and caching
   name: Nano Work API
   slug: nano-work-api
 artifact_total: 30
@@ -238,7 +254,7 @@ score:
     regime_id: payments
     score: 17.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/screenshots/nano-2026-06-20T185939.png
 security:

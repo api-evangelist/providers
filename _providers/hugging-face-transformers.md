@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 2
@@ -57,73 +57,119 @@ apis:
 - description: High-performance inference server for large language models with continuous batching, token streaming, tensor parallelism, and OpenAI-compatible chat completions endpoints.
   name: Text Generation Inference (TGI)
   slug: text-generation-inference
-- description: The following endpoints are for use with Agentic Provisioning Protocol.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints are for use with Agentic Provisioning Protocol.
   name: Hugging Face Transformers agentic-provisioning API
   slug: hugging-face-transformers-agentic-provisioning-api
-- description: The following endpoints get information about your currently used user based on the passed token.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints get information about your currently used user based on the passed token.
   name: Hugging Face Transformers auth API
   slug: hugging-face-transformers-auth-api
-- description: Git-free storage buckets for files, powered by Xet. Buckets provide simple file storage without git versioning.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Git-free storage buckets for files, powered by Xet. Buckets provide simple file storage without git versioning.
   name: Hugging Face Transformers buckets API
   slug: hugging-face-transformers-buckets-api
-- description: Use Collections to group repositories from the Hub (Models, Datasets, Spaces and Papers) on a dedicated page. You can learn more about it in the Collections [guide](https://huggingface.co/docs/hub/col
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Use Collections to group repositories from the Hub (Models, Datasets, Spaces and Papers) on a dedicated page. You can learn more about it in the Collections [guide](https://huggingface.co/docs/hub/col
   name: Hugging Face Transformers collections API
   slug: hugging-face-transformers-collections-api
-- description: Get information from all datasets on the Hub.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Get information from all datasets on the Hub.
   name: Hugging Face Transformers datasets API
   slug: hugging-face-transformers-datasets-api
-- description: The following endpoints manage discussions.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints manage discussions.
   name: Hugging Face Transformers discussions API
   slug: hugging-face-transformers-discussions-api
-- description: The following endpoints are for interacting with the Hub's documentation.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints are for interacting with the Hub's documentation.
   name: Hugging Face Transformers docs API
   slug: hugging-face-transformers-docs-api
-- description: Manage inference endpoints.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Manage inference endpoints.
   name: Hugging Face Transformers inference-endpoints API
   slug: hugging-face-transformers-inference-endpoints-api
-- description: The following endpoints manage jobs.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints manage jobs.
   name: Hugging Face Transformers jobs API
   slug: hugging-face-transformers-jobs-api
-- description: Get information from all kernels on the Hub.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Get information from all kernels on the Hub.
   name: Hugging Face Transformers kernels API
   slug: hugging-face-transformers-kernels-api
-- description: Get information from all models on the Hub.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Get information from all models on the Hub.
   name: Hugging Face Transformers models API
   slug: hugging-face-transformers-models-api
-- description: The following endpoints fetch Hub notifications.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints fetch Hub notifications.
   name: Hugging Face Transformers notifications API
   slug: hugging-face-transformers-notifications-api
-- description: The following endpoints are for use with OAuth.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints are for use with OAuth.
   name: Hugging Face Transformers oauth API
   slug: hugging-face-transformers-oauth-api
-- description: The following endpoints let you interact with Hub Organizations and their members.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints let you interact with Hub Organizations and their members.
   name: Hugging Face Transformers orgs API
   slug: hugging-face-transformers-orgs-api
-- description: The following endpoint gets information about papers.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoint gets information about papers.
   name: Hugging Face Transformers papers API
   slug: hugging-face-transformers-papers-api
-- description: The following endpoints help get information about models, datasets, and Spaces stored on the Hub.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints help get information about models, datasets, and Spaces stored on the Hub.
   name: Hugging Face Transformers repo-search API
   slug: hugging-face-transformers-repo-search-api
-- description: The following endpoints manage repository settings like creating and deleting a repository.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints manage repository settings like creating and deleting a repository.
   name: Hugging Face Transformers repos API
   slug: hugging-face-transformers-repos-api
-- description: The following endpoints manage resource groups. Resource groups are a Team or Enterprise feature.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints manage resource groups. Resource groups are a Team or Enterprise feature.
   name: Hugging Face Transformers resource-groups API
   slug: hugging-face-transformers-resource-groups-api
-- description: 'Use the SCIM API to control and manage your hub Enterprise organization manage members'' access. ## Authentication - Must be organization owner - Use Access token with write permission on organization '
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: 'Use the SCIM API to control and manage your hub Enterprise organization manage members'' access. ## Authentication - Must be organization owner - Use Access token with write permission on organization '
   name: Hugging Face Transformers scim API
   slug: hugging-face-transformers-scim-api
-- description: Get information from all Spaces on the Hub.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Get information from all Spaces on the Hub.
   name: Hugging Face Transformers spaces API
   slug: hugging-face-transformers-spaces-api
-- description: Get information from SQL Console embeds from a dataset.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Get information from SQL Console embeds from a dataset.
   name: Hugging Face Transformers sql-console API
   slug: hugging-face-transformers-sql-console-api
-- description: User accounts are the base authoring entity on the Hub
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: User accounts are the base authoring entity on the Hub
   name: Hugging Face Transformers users API
   slug: hugging-face-transformers-users-api
-- description: The following endpoints are for use with webhooks.
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: The following endpoints are for use with webhooks.
   name: Hugging Face Transformers webhooks API
   slug: hugging-face-transformers-webhooks-api
 artifact_total: 62
@@ -418,7 +464,7 @@ score:
       total: 23
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/screenshots/hugging-face-transformers-2026-06-20T182926.png
 security:

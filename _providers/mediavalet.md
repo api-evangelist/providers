@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 312 operations · 165 acting · 1 human-in-the-loop
 api_count: 11
 apis:
-- description: Core digital asset objects, their media files, renditions, versions, comments, history, faces and video clips. The centre of the MediaValet data model. 54 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Core digital asset objects, their media files, renditions, versions, comments, history, faces and video clips. The centre of the MediaValet data model. 54 operations.
   name: MediaValet Assets API
   slug: mediavalet-assets-api
-- description: Hierarchical categories (folders) that organize assets and carry the permission sets granted to user groups. 18 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Hierarchical categories (folders) that organize assets and carry the permission sets granted to user groups. 18 operations.
   name: MediaValet Categories API
   slug: mediavalet-categories-api
-- description: Users, their profiles, permissions, entitlements and public self-registration. 18 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Users, their profiles, permissions, entitlements and public self-registration. 18 operations.
   name: MediaValet Users API
   slug: mediavalet-users-api
-- description: Lightboxes — user-curated collections of assets that can be shared by share code. 15 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Lightboxes — user-curated collections of assets that can be shared by share code. 15 operations.
   name: MediaValet Lightbox API
   slug: mediavalet-lightbox-api
-- description: Third-party integration registration — apps, allowed origins for iframe embedding, subscriptions, users and entitlements. 12 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Third-party integration registration — apps, allowed origins for iframe embedding, subscriptions, users and entitlements. 12 operations.
   name: MediaValet Integrations API
   slug: mediavalet-integrations-api
-- description: Chunked ingest of new files and new asset versions into a library, via MediaValet-issued Azure blob upload URLs. 11 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Chunked ingest of new files and new asset versions into a library, via MediaValet-issued Azure blob upload URLs. 11 operations.
   name: MediaValet Uploads API
   slug: mediavalet-uploads-api
-- description: Custom metadata attribute definitions, their data types (including the Status type added in API version 1.1) and embedded-data mappings. 10 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Custom metadata attribute definitions, their data types (including the Status type added in API version 1.1) and embedded-data mappings. 10 operations.
   name: MediaValet Attributes API
   slug: mediavalet-attributes-api
-- description: Usage and activity reporting across the library. 10 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Usage and activity reporting across the library. 10 operations.
   name: MediaValet Reports API
   slug: mediavalet-reports-api
-- description: Asset download requests, packaged downloads and download presets. 9 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Asset download requests, packaged downloads and download presets. 9 operations.
   name: MediaValet Downloads API
   slug: mediavalet-downloads-api
-- description: In-product notifications and notification preferences. 9 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: In-product notifications and notification preferences. 9 operations.
   name: MediaValet Notification API
   slug: mediavalet-notification-api
-- description: Sharing of assets and lightboxes with external recipients by share code. 9 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Sharing of assets and lightboxes with external recipients by share code. 9 operations.
   name: MediaValet Sharing API
   slug: mediavalet-sharing-api
-- description: Server-side cropping of image assets, including reusable crop templates. 8 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Server-side cropping of image assets, including reusable crop templates. 8 operations.
   name: MediaValet Crop API
   slug: mediavalet-crop-api
-- description: Person and face recognition records used to tag the people appearing in assets. 8 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Person and face recognition records used to tag the people appearing in assets. 8 operations.
   name: MediaValet Persons API
   slug: mediavalet-persons-api
-- description: SkyHOOK webhook and Azure Event Grid subscription management for MediaValet events. 5 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: SkyHOOK webhook and Azure Event Grid subscription management for MediaValet events. 5 operations.
   name: MediaValet Webhooks API
   slug: mediavalet-webhooks-api
-- description: Authorization and permission checks for the calling user. 3 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Authorization and permission checks for the calling user. 3 operations.
   name: MediaValet Authorization API
   slug: mediavalet-authorization-api
-- description: The controlled keyword vocabulary and per-asset tagging, with keyword approval workflow. 3 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: The controlled keyword vocabulary and per-asset tagging, with keyword approval workflow. 3 operations.
   name: MediaValet Keywords API
   slug: mediavalet-keywords-api
-- description: Search across the library, including the filter and facet grammar. 3 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Search across the library, including the filter and facet grammar. 3 operations.
   name: MediaValet Searches API
   slug: mediavalet-searches-api
-- description: Library and account configuration. 2 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Library and account configuration. 2 operations.
   name: MediaValet Config API
   slug: mediavalet-config-api
-- description: The hypermedia entry point and the bulk batching endpoint. 2 operations.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: The hypermedia entry point and the bulk batching endpoint. 2 operations.
   name: MediaValet Home API
   slug: mediavalet-home-api
-- description: Groupings of custom metadata attributes.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Groupings of custom metadata attributes.
   name: MediaValet Attribute Groups API
   slug: mediavalet-attributegroups-api
-- description: Branded Portals — externally shareable, branded views onto a subset of the library.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Branded Portals — externally shareable, branded views onto a subset of the library.
   name: MediaValet Branded Portals API
   slug: mediavalet-brandedportals-api
-- description: Direct/CDN links to assets and renditions for external distribution.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Direct/CDN links to assets and renditions for external distribution.
   name: MediaValet Direct Links API
   slug: mediavalet-directlinks-api
-- description: Introductory and help resources served by the API.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Introductory and help resources served by the API.
   name: MediaValet Introduction And Help API
   slug: mediavalet-introductionandhelp-api
-- description: Groupings of controlled-vocabulary keywords.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Groupings of controlled-vocabulary keywords.
   name: MediaValet Keyword Groups API
   slug: mediavalet-keywordgroups-api
-- description: Organizational units (libraries) and their configuration.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Organizational units (libraries) and their configuration.
   name: MediaValet Org Unit API
   slug: mediavalet-orgunit-api
-- description: Version 2 of the usage and activity reporting surface.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Version 2 of the usage and activity reporting surface.
   name: MediaValet Reports V2 API
   slug: mediavalet-reportsv2-api
-- description: Saved searches and their execution.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Saved searches and their execution.
   name: MediaValet Saved Searches API
   slug: mediavalet-savedsearches-api
-- description: Terms and conditions acceptance.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: Terms and conditions acceptance.
   name: MediaValet Terms And Conditions API
   slug: mediavalet-termsandconditions-api
-- description: User groups and group membership.
+- baseURL: https://api.mediavalet.com
+  baseurl_source: declared
+  description: User groups and group membership.
   name: MediaValet User Groups API
   slug: mediavalet-usergroups-api
 artifact_total: 69
@@ -450,7 +508,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -460,7 +518,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 61.5
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,7 +530,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png
 security:

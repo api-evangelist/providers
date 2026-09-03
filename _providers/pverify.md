@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,43 +45,69 @@ agentic_access:
   summary_line: 10 operations · 7 acting
 api_count: 1
 apis:
-- description: OAuth2 client-credentials token endpoint. POST /Token exchanges Client_Id + Client_Secret for a bearer access_token used on every other pVerify call, alongside the case-sensitive Client-API-Id header.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: OAuth2 client-credentials token endpoint. POST /Token exchanges Client_Id + Client_Secret for a bearer access_token used on every other pVerify call, alongside the case-sensitive Client-API-Id header.
   name: pVerify Authentication API
   slug: pverify-authentication-api
-- description: Real-time X12 270/271 insurance eligibility verification. Submit an EligibilitySummary inquiry, poll the pending queue, retrieve the parsed benefit summary or the raw 271, pull a PDF report, and cance
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Real-time X12 270/271 insurance eligibility verification. Submit an EligibilitySummary inquiry, poll the pending queue, retrieve the parsed benefit summary or the raw 271, pull a PDF report, and cance
   name: pVerify Eligibility API
   slug: pverify-eligibility-api
-- description: Dental insurance eligibility and benefit verification, including the only version-prefixed path in the pVerify surface (/api/v2/DentalEligibilitySummary) alongside the unversioned v1 endpoints.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Dental insurance eligibility and benefit verification, including the only version-prefixed path in the pVerify surface (/api/v2/DentalEligibilitySummary) alongside the unversioned v1 endpoints.
   name: pVerify Dental Eligibility API
   slug: pverify-dental-eligibility-api
-- description: Find unknown or unreported active insurance coverage for a patient presenting as self-pay, returning candidate payers and member IDs plus a hosted details URL and PDF report.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Find unknown or unreported active insurance coverage for a patient presenting as self-pay, returning candidate payers and member IDs plus a hosted details URL and PDF report.
   name: pVerify Insurance Discovery API
   slug: pverify-insurance-discovery-api
-- description: Look up a Medicare Beneficiary Identifier for a patient from demographic data, for providers who need the MBI before they can run Medicare eligibility.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Look up a Medicare Beneficiary Identifier for a patient from demographic data, for providers who need the MBI before they can run Medicare eligibility.
   name: pVerify MBI Lookup API
   slug: pverify-mbi-lookup-api
-- description: Validate and complete patient demographic data (pDV) — name, date of birth, gender and address — so that downstream eligibility and discovery inquiries match on identity.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Validate and complete patient demographic data (pDV) — name, date of birth, gender and address — so that downstream eligibility and discovery inquiries match on identity.
   name: pVerify Patient Demographic Validator API
   slug: pverify-patient-demographic-validator-api
-- description: X12 276/277 claim status inquiry. Ask a payer what happened to a submitted claim and retrieve the 277 response by RequestID. Not every payer supports 276/277 electronically.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: X12 276/277 claim status inquiry. Ask a payer what happened to a submitted claim and retrieve the 277 response by RequestID. Not every payer supports 276/277 electronically.
   name: pVerify Claim Status API
   slug: pverify-claim-status-api
-- description: Estimate patient financial responsibility for a planned service from the payer benefit data, for point-of-service collection.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Estimate patient financial responsibility for a planned service from the payer benefit data, for point-of-service collection.
   name: pVerify Patient Cost Estimator API
   slug: pverify-estimation-api
-- description: 'The payer network surface: the full supported-payer catalog, live per-payer up/down status (the only pVerify operation requiring no authentication), and recent per-payer rejection statistics.'
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: 'The payer network surface: the full supported-payer catalog, live per-payer up/down status (the only pVerify operation requiring no authentication), and recent per-payer rejection statistics.'
   name: pVerify Payers API
   slug: pverify-payers-api
-- description: Provision and drive the embeddable eligibility-and-estimates widget. Setup runs against the premium portal host; CGXInquiry returns a combined estimate plus eligibility result for the widget to render
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Provision and drive the embeddable eligibility-and-estimates widget. Setup runs against the premium portal host; CGXInquiry returns a combined estimate plus eligibility result for the widget to render
   name: pVerify CGX Widget API
   slug: pverify-cgx-widget-api
-- description: Medicare same-or-similar DME history check. pVerify labels this product "(Discontinued)" in its own documentation while continuing to document it in full; every operation is marked deprecated in the s
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Medicare same-or-similar DME history check. pVerify labels this product "(Discontinued)" in its own documentation while continuing to document it in full; every operation is marked deprecated in the s
   name: pVerify Same or Similar API (discontinued)
   slug: pverify-same-or-similar-api
-- description: Certificate of Medical Necessity lookup. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Certificate of Medical Necessity lookup. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
   name: pVerify CMN API (discontinued)
   slug: pverify-cmn-api
-- description: Skilled Nursing Facility stay verification. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
+- baseURL: https://api.pverify.com
+  baseurl_source: declared
+  description: Skilled Nursing Facility stay verification. Labelled "(Discontinued)" by pVerify; every operation is marked deprecated in the spec.
   name: pVerify SNF API (discontinued)
   slug: pverify-snf-api
 artifact_total: 29
@@ -303,7 +329,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -313,7 +339,7 @@ score:
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 34.2
-  previous_composite: 55.2
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,7 +357,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
 security:

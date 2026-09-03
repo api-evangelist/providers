@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -46,196 +46,324 @@ apis:
 - description: Akamai provides a comprehensive set of REST APIs for managing and configuring their platform services, including API security, CDN, edge computing, and security products. The APIs use the Akamai EdgeG
   name: Akamai APIs
   slug: akamai-apis
-- description: Get the activation history for a configuration.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get the activation history for a configuration.
   name: Akamai API Security Activation history API
   slug: akamai-api-security-activation-history-api
-- description: Get status information about your activations and activation requests.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get status information about your activations and activation requests.
   name: Akamai API Security Activation status API
   slug: akamai-api-security-activation-status-api
-- description: Manage your security configuration activations.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your security configuration activations.
   name: Akamai API Security Activations API
   slug: akamai-api-security-activations-api
-- description: Get the list of API endpoints associated with a security policy.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get the list of API endpoints associated with a security policy.
   name: Akamai API Security API endpoints API
   slug: akamai-api-security-api-endpoints-api
-- description: Manage API request limits and the actions to take when those limits are met.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage API request limits and the actions to take when those limits are met.
   name: Akamai API Security API request constraints API
   slug: akamai-api-security-api-request-constraints-api
-- description: Manage the attack payload log settings for your security configurations.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the attack payload log settings for your security configurations.
   name: Akamai API Security Attack payload logs API
   slug: akamai-api-security-attack-payload-logs-api
-- description: List all hostnames for a given contract and group.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: List all hostnames for a given contract and group.
   name: Akamai API Security Available hostnames API
   slug: akamai-api-security-available-hostnames-api
-- description: Manage the bypass network lists used with your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the bypass network lists used with your security policies.
   name: Akamai API Security Bypass network lists API
   slug: akamai-api-security-bypass-network-lists-api
-- description: Manage your client reputation profiles.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your client reputation profiles.
   name: Akamai API Security Client reputation API
   slug: akamai-api-security-client-reputation-api
-- description: The Client-Side Protections & Compliance API from Akamai API Security — 1 operation(s) for client-side protections & compliance.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: The Client-Side Protections & Compliance API from Akamai API Security — 1 operation(s) for client-side protections & compliance.
   name: Akamai API Security Client-Side Protections & Compliance API
   slug: akamai-api-security-client-side-protections-compliance-api
-- description: Manage hostnames you're currently evaluating for a configuration version. If using Web Application Protector, manage hostnames currently in evaluation mode. This mode lets you to see how your configur
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage hostnames you're currently evaluating for a configuration version. If using Web Application Protector, manage hostnames currently in evaluation mode. This mode lets you to see how your configur
   name: 'Akamai API Security Configuration: Evaluation hostnames API'
   slug: akamai-api-security-configuration-evaluation-hostnames-api
-- description: The Configuration version diff API from Akamai API Security — 1 operation(s) for configuration version diff.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: The Configuration version diff API from Akamai API Security — 1 operation(s) for configuration version diff.
   name: Akamai API Security Configuration version diff API
   slug: akamai-api-security-configuration-version-diff-api
-- description: Get comprehensive details about a security configuration version.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get comprehensive details about a security configuration version.
   name: Akamai API Security Configuration version export API
   slug: akamai-api-security-configuration-version-export-api
-- description: List the contracts and groups for your account.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: List the contracts and groups for your account.
   name: Akamai API Security Contracts and groups API
   slug: akamai-api-security-contracts-and-groups-api
-- description: The Cookie Settings API from Akamai API Security — 1 operation(s) for cookie settings.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: The Cookie Settings API from Akamai API Security — 1 operation(s) for cookie settings.
   name: Akamai API Security Cookie Settings API
   slug: akamai-api-security-cookie-settings-api
-- description: Manage the actions contained in your custom rules. Use custom rules to handle scenarios not covered by the included standard rules or to quickly patch new website vulnerabilities.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the actions contained in your custom rules. Use custom rules to handle scenarios not covered by the included standard rules or to quickly patch new website vulnerabilities.
   name: Akamai API Security Custom rule actions API
   slug: akamai-api-security-custom-rule-actions-api
-- description: See which CVEs are covered by App & API Protector. The catalog contains only CVEs that the Akamai Threat Research team is aware of. App & API Protector can identify and block attacks related to the ac
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: See which CVEs are covered by App & API Protector. The catalog contains only CVEs that the Akamai Threat Research team is aware of. App & API Protector can identify and block attacks related to the ac
   name: Akamai API Security CVE Protections lookup API
   slug: akamai-api-security-cve-protections-lookup-api
-- description: Get information about APIs discovered in your traffic that are new or not yet protected under API protections.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get information about APIs discovered in your traffic that are new or not yet protected under API protections.
   name: Akamai API Security Discovered APIs API
   slug: akamai-api-security-discovered-apis-api
-- description: Manage the API endpoints associated with a security policy.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the API endpoints associated with a security policy.
   name: Akamai API Security Endpoints API
   slug: akamai-api-security-endpoints-api
-- description: Manage the evasive path match for your security configurations.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the evasive path match for your security configurations.
   name: Akamai API Security Evasive path match API
   slug: akamai-api-security-evasive-path-match-api
-- description: Get a list of the failover hostnames in a security configuration.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get a list of the failover hostnames in a security configuration.
   name: Akamai API Security Failover hostnames API
   slug: akamai-api-security-failover-hostnames-api
-- description: Manage security configurations and their versions.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage security configurations and their versions.
   name: Akamai API Security General configuration settings API
   slug: akamai-api-security-general-configuration-settings-api
-- description: Manage security policies and their versions.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage security policies and their versions.
   name: Akamai API Security General policy settings API
   slug: akamai-api-security-general-policy-settings-api
-- description: Get the list of hostnames in an account with their current protections, activation statuses, and other summary information.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Get the list of hostnames in an account with their current protections, activation statuses, and other summary information.
   name: Akamai API Security Hostname coverage API
   slug: akamai-api-security-hostname-coverage-api
-- description: Manage the hostnames in your configuration settings.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the hostnames in your configuration settings.
   name: Akamai API Security Hostnames API
   slug: akamai-api-security-hostnames-api
-- description: Manage the HTTP header log settings for security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the HTTP header log settings for security policies.
   name: Akamai API Security HTTP header logs API
   slug: akamai-api-security-http-header-logs-api
-- description: Manage which network lists are used in the IP/Geo Firewall settings. If you want to add or remove IP addresses from the network lists, use the Network Lists API.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage which network lists are used in the IP/Geo Firewall settings. If you want to add or remove IP addresses from the network lists, use the Network Lists API.
   name: Akamai API Security IP/Geo Firewall settings API
   slug: akamai-api-security-ip-geo-firewall-settings-api
-- description: Manage the actions taken by your malware policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the actions taken by your malware policies.
   name: Akamai API Security Malware policy actions API
   slug: akamai-api-security-malware-policy-actions-api
-- description: Manage your match targets, which define which security policy applies to an API, hostname, or path.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your match targets, which define which security policy applies to an API, hostname, or path.
   name: Akamai API Security Match targets API
   slug: akamai-api-security-match-targets-api
-- description: Manage your onboardings' activations, and the activation history for each onboarding.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your onboardings' activations, and the activation history for each onboarding.
   name: 'Akamai API Security Onboarding: Activations and status API'
   slug: akamai-api-security-onboarding-activations-and-status-api
-- description: Manage onboardings and their settings.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage onboardings and their settings.
   name: 'Akamai API Security Onboarding: Creation and settings API'
   slug: akamai-api-security-onboarding-creation-and-settings-api
-- description: Manage your post activations validations and cname your hostnames to akamai in order to go live.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your post activations validations and cname your hostnames to akamai in order to go live.
   name: 'Akamai API Security Onboarding: Post-activation validation API'
   slug: akamai-api-security-onboarding-post-activation-validation-api
-- description: Manage settings for Personally Identifiable Information (PII) learning. With this feature, the network discovers PII on your behalf.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage settings for Personally Identifiable Information (PII) learning. With this feature, the network discovers PII on your behalf.
   name: Akamai API Security PII learning API
   slug: akamai-api-security-pii-learning-api
-- description: Manage the Pragma header settings for your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the Pragma header settings for your security policies.
   name: Akamai API Security Pragma settings API
   slug: akamai-api-security-pragma-settings-api
-- description: Manage your prefetch request protections. When enabled, your application firewall rules inspect internal requests, which are those between your origin and Akamai's servers, for the file types you spec
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your prefetch request protections. When enabled, your application firewall rules inspect internal requests, which are those between your origin and Akamai's servers, for the file types you spec
   name: Akamai API Security Prefetch requests API
   slug: akamai-api-security-prefetch-requests-api
-- description: 'Manage various security policy protections. These settings enable or disable each protection on your policy. However, you set the protections themselves in their corresponding operations available in '
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: 'Manage various security policy protections. These settings enable or disable each protection on your policy. However, you set the protections themselves in their corresponding operations available in '
   name: Akamai API Security Protections API
   slug: akamai-api-security-protections-api
-- description: Manage rate policy actions, which are the actions each policy takes when conditions are met.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage rate policy actions, which are the actions each policy takes when conditions are met.
   name: Akamai API Security Rate policy actions API
   slug: akamai-api-security-rate-policy-actions-api
-- description: If using Kona Site Defender, manage the reputation analysis settings.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: If using Kona Site Defender, manage the reputation analysis settings.
   name: Akamai API Security Reputation analysis API
   slug: akamai-api-security-reputation-analysis-api
-- description: Manage limits for the maximum request body size allowed.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage limits for the maximum request body size allowed.
   name: Akamai API Security Request body inspection limits API
   slug: akamai-api-security-request-body-inspection-limits-api
-- description: Manage a security configuration's inspection limit settings for request bodies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage a security configuration's inspection limit settings for request bodies.
   name: Akamai API Security Request body size API
   slug: akamai-api-security-request-body-size-api
-- description: Manage the attack groups and rules that you're currently evaluating for your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the attack groups and rules that you're currently evaluating for your security policies.
   name: 'Akamai API Security Security policy: Conditions and exceptions API'
   slug: akamai-api-security-security-policy-conditions-and-exceptions-api
-- description: Manage the attack groups that you're evaluating for your security configurations and policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the attack groups that you're evaluating for your security configurations and policies.
   name: 'Akamai API Security Security policy: Evaluation attack groups API'
   slug: akamai-api-security-security-policy-evaluation-attack-groups-api
-- description: Manage hostnames you're currently evaluating for security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage hostnames you're currently evaluating for security policies.
   name: 'Akamai API Security Security policy: Evaluation hostnames API'
   slug: akamai-api-security-security-policy-evaluation-hostnames-api
-- description: Set the evaluation mode for your security policies. This mode runs concurrently with your existing Web Application Firewall Rule settings and records how the rules would respond if applied to live tra
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Set the evaluation mode for your security policies. This mode runs concurrently with your existing Web Application Firewall Rule settings and records how the rules would respond if applied to live tra
   name: 'Akamai API Security Security policy: Evaluation mode API'
   slug: akamai-api-security-security-policy-evaluation-mode-api
-- description: Manage the penalty box settings that you're evaluating for your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the penalty box settings that you're evaluating for your security policies.
   name: 'Akamai API Security Security policy: Evaluation penalty box API'
   slug: akamai-api-security-security-policy-evaluation-penalty-box-api
-- description: Manage the rules you're currently evaluating for security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the rules you're currently evaluating for security policies.
   name: 'Akamai API Security Security policy: Evaluation rules API'
   slug: akamai-api-security-security-policy-evaluation-rules-api
-- description: Manage your custom deny actions for security configurations and policies. Custom deny actions let you serve error messages, pages, and responses that meet your organization's unique needs.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your custom deny actions for security configurations and policies. Custom deny actions let you serve error messages, pages, and responses that meet your organization's unique needs.
   name: 'Akamai API Security Shared resources: Custom deny actions API'
   slug: akamai-api-security-shared-resources-custom-deny-actions-api
-- description: Manage your custom rules for security configurations and policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your custom rules for security configurations and policies.
   name: 'Akamai API Security Shared resources: Custom rules API'
   slug: akamai-api-security-shared-resources-custom-rules-api
-- description: Manage your malware policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your malware policies.
   name: 'Akamai API Security Shared resources: Malware policies API'
   slug: akamai-api-security-shared-resources-malware-policies-api
-- description: Manage rate policies for security configurations.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage rate policies for security configurations.
   name: 'Akamai API Security Shared resources: Rate policies API'
   slug: akamai-api-security-shared-resources-rate-policies-api
-- description: Manage your reputation profiles. Reputation protections identify potentially malicious IP addresses, scoring them based on prior interactions with other Akamai customers.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your reputation profiles. Reputation protections identify potentially malicious IP addresses, scoring them based on prior interactions with other Akamai customers.
   name: 'Akamai API Security Shared resources: Reputation profiles API'
   slug: akamai-api-security-shared-resources-reputation-profiles-api
-- description: Manage SIEM settings for your security configurations.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage SIEM settings for your security configurations.
   name: Akamai API Security SIEM settings API
   slug: akamai-api-security-siem-settings-api
-- description: Manage your slow POST protection settings for your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your slow POST protection settings for your security policies.
   name: Akamai API Security Slow POST protections API
   slug: akamai-api-security-slow-post-protections-api
-- description: Manage the email subscriptions for features within a specific security configuration.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the email subscriptions for features within a specific security configuration.
   name: Akamai API Security Subscriptions API
   slug: akamai-api-security-subscriptions-api
-- description: Manage your URL protection policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your URL protection policies.
   name: Akamai API Security URL protection policies API
   slug: akamai-api-security-url-protection-policies-api
-- description: Manage your URL protection settings for your security policies.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your URL protection settings for your security policies.
   name: Akamai API Security URL protection policy actions API
   slug: akamai-api-security-url-protection-policy-actions-api
-- description: Manage your WAF attack groups.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your WAF attack groups.
   name: 'Akamai API Security WAF rules: Attack groups API'
   slug: akamai-api-security-waf-rules-attack-groups-api
-- description: Manage the penalty box condition settings for your firewall rules.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the penalty box condition settings for your firewall rules.
   name: 'Akamai API Security WAF rules: Evaluation Penalty box conditions API'
   slug: akamai-api-security-waf-rules-evaluation-penalty-box-conditions-api
-- description: Manage your Web Application Firewall (WAF) rules and rule sets.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage your Web Application Firewall (WAF) rules and rule sets.
   name: 'Akamai API Security WAF rules: General settings API'
   slug: akamai-api-security-waf-rules-general-settings-api
-- description: Manage the penalty box settings for your Web Application Firewall implementation.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the penalty box settings for your Web Application Firewall implementation.
   name: 'Akamai API Security WAF rules: Penalty box API'
   slug: akamai-api-security-waf-rules-penalty-box-api
-- description: Manage the conditions used with your Web Application Firewall's penalty box.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the conditions used with your Web Application Firewall's penalty box.
   name: 'Akamai API Security WAF rules: Penalty box conditions API'
   slug: akamai-api-security-waf-rules-penalty-box-conditions-api
-- description: Quickly manage and mitigate risks resulting from the most recent high-profile, critical vulnerabilities. __Note__. Rapid rules are rules you can apply while we are still testing and perfecting them. O
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Quickly manage and mitigate risks resulting from the most recent high-profile, critical vulnerabilities. __Note__. Rapid rules are rules you can apply while we are still testing and perfecting them. O
   name: 'Akamai API Security WAF rules: Rapid rules API'
   slug: akamai-api-security-waf-rules-rapid-rules-api
-- description: Manage the tuning recommendations for your WAF attack groups.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the tuning recommendations for your WAF attack groups.
   name: 'Akamai API Security WAF rules: Tuning recommendations API'
   slug: akamai-api-security-waf-rules-tuning-recommendations-api
-- description: Manage the mode used with your WAF rules. Your mode you set determines how your rule sets are updated.
+- baseURL_template: https://{hostname}/appsec/v1
+  baseurl_source: spec_template
+  description: Manage the mode used with your WAF rules. Your mode you set determines how your rule sets are updated.
   name: 'Akamai API Security WAF rules: Update mode API'
   slug: akamai-api-security-waf-rules-update-mode-api
 artifact_total: 368
@@ -1251,7 +1379,7 @@ score:
       marker_coverage: 0.0
       total: 64
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/screenshots/akamai-api-security-2026-06-20T171447.png
 security:

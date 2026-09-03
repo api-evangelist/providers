@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -47,10 +47,14 @@ apis:
 - description: REST API for virtual currency, inventory, and in-game store management. Provides endpoints for granting, spending, and querying player currencies, managing item inventories, configuring store catalogs
   name: Beamable Game Economy API
   slug: game-economy
-- description: The Basic API from Beamable — 43 operation(s) for basic.
+- baseURL: https://api.beamable.com
+  baseurl_source: declared
+  description: The Basic API from Beamable — 43 operation(s) for basic.
   name: Beamable Basic API
   slug: beamable-basic-api
-- description: The Object API from Beamable — 4 operation(s) for object.
+- baseURL: https://api.beamable.com
+  baseurl_source: declared
+  description: The Object API from Beamable — 4 operation(s) for object.
   name: Beamable Object API
   slug: beamable-object-api
 artifact_total: 21
@@ -236,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beamable/refs/heads/main/screenshots/beamable-2026-06-20T173103.png
 security:

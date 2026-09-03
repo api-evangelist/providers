@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Manage VLAN attachments for interconnects
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage VLAN attachments for interconnects
   name: Google Cloud Interconnect InterconnectAttachments API
   slug: google-cloud-interconnect-interconnectattachments-api
-- description: Query available interconnect locations
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Query available interconnect locations
   name: Google Cloud Interconnect InterconnectLocations API
   slug: google-cloud-interconnect-interconnectlocations-api
-- description: Manage interconnect connections
+- baseURL: https://compute.googleapis.com/compute/v1
+  baseurl_source: declared
+  description: Manage interconnect connections
   name: Google Cloud Interconnect Interconnects API
   slug: google-cloud-interconnect-interconnects-api
 artifact_total: 20
@@ -223,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/screenshots/google-cloud-interconnect-2026-06-20T182115.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 7
@@ -56,19 +56,29 @@ apis:
 - description: Official React frontend SDK for rendering pricing tables, entitlement gates, and usage meters in React applications.
   name: Stigg React SDK
   slug: stigg-react-sdk
-- description: Coupon retrieval.
+- baseURL: https://api.stigg.io
+  baseurl_source: spec
+  description: Coupon retrieval.
   name: Stigg Coupons API
   slug: stigg-coupons-api
-- description: Customer provisioning and management.
+- baseURL: https://api.stigg.io
+  baseurl_source: spec
+  description: Customer provisioning and management.
   name: Stigg Customers API
   slug: stigg-customers-api
-- description: Feature access and entitlement checks.
+- baseURL: https://api.stigg.io
+  baseurl_source: spec
+  description: Feature access and entitlement checks.
   name: Stigg Entitlements API
   slug: stigg-entitlements-api
-- description: Subscription lifecycle management.
+- baseURL: https://api.stigg.io
+  baseurl_source: spec
+  description: Subscription lifecycle management.
   name: Stigg Subscriptions API
   slug: stigg-subscriptions-api
-- description: Usage reporting and metering.
+- baseURL: https://api.stigg.io
+  baseurl_source: spec
+  description: Usage reporting and metering.
   name: Stigg Usage API
   slug: stigg-usage-api
 artifact_total: 55
@@ -311,7 +321,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/screenshots/stigg-2026-06-20T194550.png
 security:

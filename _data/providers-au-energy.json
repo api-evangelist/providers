@@ -29,7 +29,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -69,11 +69,11 @@
      "slug": "aemo",
      "description": "AEMO, the Australian Energy Market Operator, is the independent system and market operator for Australia's electricity and gas systems — it dispatches and prices the National Electricity Market across Queensland, New South Wales, Victoria, South Australia and Tasmania every five minutes, runs the Wholesale Electricity Market and the Gas Bulletin Board in Western Australia, operates the Victorian gas declared wholesale market and the Gas Supply Hubs, maintains the MSATS metering registry and the national Distributed Energy Resources register, and publishes the Integrated System Plan. It sits at the centre of the value chain: it does not generate, network or retail energy, it clears the market and holds the settlement-grade metering data that every other participant depends on. Under the Consumer Data Right extended to energy, AEMO is the designated SECONDARY data holder and gateway — retailers are the primary data holders, and AEMO serves NMI standing data, distributed energy resource records and up to twenty-four months of interval meter data through mandated Consumer Data Standards endpoints. Its API posture splits cleanly in two, and the split is the whole story: the market-data half is genuinely, radically open — 103 live NEMWeb report directories plus 68 archive directories of dispatch, price, demand, bidding, constraint and settlement data downloadable by anyone with no key, no account and no licence, alongside anonymous JSON endpoints behind the public NEM dashboard; the participant and consumer half is completely closed — a public developer portal at dev.aemo.com.au catalogues 74 APIs and 771 operations that anyone may read, but every one of them requires registration as an AEMO market participant, a Participant ID, MSATS user rights and an AEMO-signed mutual-TLS client certificate, and the OpenAPI documents the portal exports publicly are empty shells that declare zero paths and point at internal hostnames.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png",
-     "score": 56.9,
+     "score": 57.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 68.5,
       "contract_quality": 55.7,
       "governance": 19.7,
       "contract_governance": 19.7,
@@ -82,7 +82,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -134,7 +134,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -187,7 +187,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -251,7 +251,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +304,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -357,7 +357,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -410,7 +410,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -463,7 +463,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -516,7 +516,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -568,7 +568,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -621,7 +621,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -674,7 +674,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -713,6 +713,7 @@
      "name": "Wattwatchers",
      "slug": "wattwatchers",
      "description": "Wattwatchers is an Australian digital energy company (founded 2007, headquartered in Sydney, NSW) that designs and manufactures the Auditor family of DIN-rail electricity monitoring and switching devices, and operates the cloud platform behind them. It sits behind the meter rather than at it — Auditors clamp onto individual circuits and report real-time, circuit-level energy data over 4G or WiFi to Wattwatchers' hosted platform, which resells that data to solar installers, energy retailers, energy services companies, EV and DER programs, schools and research trials. Its API posture is genuinely open at the documentation layer and closed at the data layer — the full REST API v3 (Mercury) reference, a live Swagger UI and a downloadable OpenAPI 3.0 contract are all served anonymously from docs.wattwatchers.com.au, but no key is self-serve: Wattwatchers issues bearer tokens by hand and scopes each one to the specific devices you own or manage, so the API returns your fleet's data and nothing else. Consumer usage data is therefore available through a documented API, while no open grid or market data is published at all. Wattwatchers is not a designated Consumer Data Right energy data holder and does not appear as an accredited data recipient — the CDR energy mandate applies to retailers and AEMO, not to behind-the-meter hardware vendors, so this platform carries no CDR obligation and implements no CDR or Green Button data standard. Wattwatchers entered voluntary administration in October 2025 and was acquired by EPX Limited (ASX:EPX, formerly EP&T Global); the Wattwatchers knowledge base now redirects to support.epx.tech, while the developer documentation, the API host and the OpenAPI contract all remain live and unchanged.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/screenshots/wattwatchers-2026-09-02T170454.png",
      "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
@@ -726,7 +727,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -779,7 +780,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -831,7 +832,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -881,6 +882,7 @@
      "name": "Western Power",
      "slug": "western-power",
      "description": "Western Power is the Western Australian state-owned statutory corporation that owns and operates the electricity transmission and distribution network — the poles, wires, substations and streetlights — across the South West Interconnected System (SWIS), from Kalbarri in the north to Albany in the south and east to Kalgoorlie, across more than 103,000 km of powerlines, 825,788 poles and towers, 276,000 streetlights and 154 transmission substations. It is a regulated network distributor (DNO/DSO), not a retailer and not a generator; Synergy is the SWIS retailer for residential and small-business customers and AEMO operates the WA Wholesale Electricity Market. Its API posture is honestly minimal — there is no developer portal, no published API program, no developer documentation and no published OpenAPI anywhere on westernpower.com.au (developer./api./docs./data. subdomains all fail to resolve; /developers, /docs and /openapi.json all return 404). It is nonetheless not API-less. Three anonymous machine-readable surfaces were verified on 2026-07-27 — an undocumented first-party JSON API at westernpower.com.au/api/corp/outage/* that backs the public outage tracker and returns every current and upcoming outage, one outage with hazard flags and update history, and a per-suburb rollup; an Esri ArcGIS Online feature service serving the same outages as polygons with SQL, spatial and statistical query; and the corporate site's own search, news and vacancy endpoints. All are internal endpoints of Western Power's web applications — robots.txt disallows /api/ — with no reference, no terms of use, no versioning, no SLA and no support channel. Consumer energy data is real but not programmatic — a third party must register a business with Western Power and collect verifiable customer consent, after which up to two years of interval and accumulated metering data is delivered by email or a web portal, never an API. Australia's Consumer Data Right, the mandate that forced identical banking APIs and was then transplanted into energy, does not reach this organisation at all — CDR energy covers National Electricity Market retailers, and Western Australia sits outside the NEM while distributors were never designated data holders in any state. Its 36 network asset and capacity datasets are published through the WA Government DataWA/SLIP portals as \"open data subject to registering for access\" under Western Power's own data licence — WFS, WMS and ArcGIS REST endpoints that return HTTP 401 to an anonymous caller.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-power/refs/heads/main/screenshots/western-power-2026-09-02T170733.png",
      "score": 33.2,
      "band": "thin",
      "band_label": "Thin",
@@ -894,7 +896,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -946,7 +948,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -999,7 +1001,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1052,7 +1054,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1115,7 +1117,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1168,7 +1170,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1221,7 +1223,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1274,7 +1276,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

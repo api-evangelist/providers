@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,52 +56,84 @@ apis:
 - description: The CarAPI Power Sports API provides vehicle specifications for power sports categories such as motorcycles, ATVs, UTVs, and similar motor vehicles, following the same REST/JSON conventions as the mai
   name: CarAPI Power Sports API
   slug: power-sports-api
-- description: The Account API from Car API (carapi.app) — 2 operation(s) for account.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Account API from Car API (carapi.app) — 2 operation(s) for account.
   name: Car API (carapi.app) Account API
   slug: car-api-account-api
-- description: The Auth API from Car API (carapi.app) — 1 operation(s) for auth.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Auth API from Car API (carapi.app) — 1 operation(s) for auth.
   name: Car API (carapi.app) Auth API
   slug: car-api-auth-api
-- description: The Bodies API from Car API (carapi.app) — 1 operation(s) for bodies.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Bodies API from Car API (carapi.app) — 1 operation(s) for bodies.
   name: Car API (carapi.app) Bodies API
   slug: car-api-bodies-api
-- description: The Colors (Exterior) API from Car API (carapi.app) — 1 operation(s) for colors (exterior).
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Colors (Exterior) API from Car API (carapi.app) — 1 operation(s) for colors (exterior).
   name: Car API (carapi.app) Colors (Exterior) API
   slug: car-api-colors-exterior-api
-- description: The Colors (Interior) API from Car API (carapi.app) — 1 operation(s) for colors (interior).
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Colors (Interior) API from Car API (carapi.app) — 1 operation(s) for colors (interior).
   name: Car API (carapi.app) Colors (Interior) API
   slug: car-api-colors-interior-api
-- description: The Data Feeds API from Car API (carapi.app) — 2 operation(s) for data feeds.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Data Feeds API from Car API (carapi.app) — 2 operation(s) for data feeds.
   name: Car API (carapi.app) Data Feeds API
   slug: car-api-data-feeds-api
-- description: The Engines API from Car API (carapi.app) — 1 operation(s) for engines.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Engines API from Car API (carapi.app) — 1 operation(s) for engines.
   name: Car API (carapi.app) Engines API
   slug: car-api-engines-api
-- description: The Makes API from Car API (carapi.app) — 1 operation(s) for makes.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Makes API from Car API (carapi.app) — 1 operation(s) for makes.
   name: Car API (carapi.app) Makes API
   slug: car-api-makes-api
-- description: The Mileages API from Car API (carapi.app) — 1 operation(s) for mileages.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Mileages API from Car API (carapi.app) — 1 operation(s) for mileages.
   name: Car API (carapi.app) Mileages API
   slug: car-api-mileages-api
-- description: The Models API from Car API (carapi.app) — 1 operation(s) for models.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Models API from Car API (carapi.app) — 1 operation(s) for models.
   name: Car API (carapi.app) Models API
   slug: car-api-models-api
-- description: The Trims API from Car API (carapi.app) — 2 operation(s) for trims.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Trims API from Car API (carapi.app) — 2 operation(s) for trims.
   name: Car API (carapi.app) Trims API
   slug: car-api-trims-api
-- description: The Vehicle Attributes API from Car API (carapi.app) — 1 operation(s) for vehicle attributes.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Vehicle Attributes API from Car API (carapi.app) — 1 operation(s) for vehicle attributes.
   name: Car API (carapi.app) Vehicle Attributes API
   slug: car-api-vehicle-attributes-api
-- description: The Vin Decoder API from Car API (carapi.app) — 1 operation(s) for vin decoder.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Vin Decoder API from Car API (carapi.app) — 1 operation(s) for vin decoder.
   name: Car API (carapi.app) Vin Decoder API
   slug: car-api-vin-decoder-api
-- description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
   name: Car API (carapi.app) Years API
   slug: car-api-years-api
-- description: Endpoints for obtaining a JWT token for API access.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: Endpoints for obtaining a JWT token for API access.
   name: Car API (carapi.app) Authentication API
   slug: car-api-authentication-api
-- description: Operations for retrieving vehicle models, trims, and attributes.
+- baseURL: https://carapi.app/api
+  baseurl_source: declared
+  description: Operations for retrieving vehicle models, trims, and attributes.
   name: Car API (carapi.app) Vehicles API
   slug: car-api-vehicles-api
 artifact_total: 57
@@ -335,7 +367,7 @@ score:
     regime_id: energy_utilities
     score: 27.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,37 +44,57 @@ agentic_access:
   summary_line: 94 operations · 27 acting
 api_count: 2
 apis:
-- description: List the branded short domains (BSDs) available to the authenticated account. 1 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: List the branded short domains (BSDs) available to the authenticated account. 1 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly BSDs API
   slug: bitly-bsds-api
-- description: Create, expand, update, archive and delete Bitlinks, list them by group, and read per-link click, engagement, country, city, device and referrer metrics. 21 operation(s), extracted verbatim from the O
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Create, expand, update, archive and delete Bitlinks, list them by group, and read per-link click, engagement, country, city, device and referrer metrics. 21 operation(s), extracted verbatim from the O
   name: Bitly Bitlinks API
   slug: bitly-bitlinks-api
-- description: Manage marketing campaigns and the channels inside them, grouping Bitlinks for attribution. 8 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Manage marketing campaigns and the channels inside them, grouping Bitlinks for attribution. 8 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Campaigns API
   slug: bitly-campaigns-api
-- description: Create and update custom back-halves on existing Bitlinks and read clicks by destination for A/B rotations. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Create and update custom back-halves on existing Bitlinks and read clicks by destination for A/B rotations. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com
   name: Bitly Custom Bitlinks API
   slug: bitly-custom-bitlinks-api
-- description: Manage groups (workspaces) — preferences, tags, shorten counts, exports, feature usage and historical usage — plus the full group-level click, scan and engagement analytics surface. 28 operation(s), e
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Manage groups (workspaces) — preferences, tags, shorten counts, exports, feature usage and historical usage — plus the full group-level click, scan and engagement analytics surface. 28 operation(s), e
   name: Bitly Groups API
   slug: bitly-groups-api
-- description: Read organizations, their plan limits, and shorten counts overall and by group. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Read organizations, their plan limits, and shorten counts overall and by group. 5 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Organizations API
   slug: bitly-organizations-api
-- description: Create dynamic and static QR Codes, customize their render, fetch the image, upgrade a code to a Bitlink, and read scan metrics by browser, city, country and device OS. 16 operation(s), extracted verb
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Create dynamic and static QR Codes, customize their render, fetch the image, upgrade a code to a Bitlink, and read scan metrics by browser, city, country and device OS. 16 operation(s), extracted verb
   name: Bitly QR Codes API
   slug: bitly-qr-codes-api
-- description: Read and update the authenticated user profile and read the platform limits applied to the account. 3 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.j
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Read and update the authenticated user profile and read the platform limits applied to the account. 3 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.j
   name: Bitly User API
   slug: bitly-user-api
-- description: Create, read, update, delete and verify webhook endpoints that receive Bitly engagement events. 6 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: Create, read, update, delete and verify webhook endpoints that receive Bitly engagement events. 6 operation(s), extracted verbatim from the OpenAPI Bitly publishes at https://dev.bitly.com/v4/v4.json.
   name: Bitly Webhooks API
   slug: bitly-webhooks-api
 - description: Bitly's official remote Model Context Protocol server, exposing 25 tools for link creation, QR Codes, analytics, groups, custom domains and bulk upload. Hosted by Bitly at https://api-ssl.bitly.com/v4
   name: Bitly MCP Server
   slug: bitly-mcp-server
-- description: The Apps API from Bitly — 1 operation(s) for apps.
+- baseURL: https://api-ssl.bitly.com/v4
+  baseurl_source: declared
+  description: The Apps API from Bitly — 1 operation(s) for apps.
   name: Bitly Apps API
   slug: bitly-apps-api
 artifact_total: 33
@@ -361,7 +381,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -371,7 +391,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 69.2
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -383,7 +403,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitly/refs/heads/main/screenshots/bitly-2026-06-20T173312.png
 security:

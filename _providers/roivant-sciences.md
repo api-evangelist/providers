@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,43 +53,69 @@ apis:
 - description: Datavant Connect is the customer-facing portal that brokers access to Datavant's linkage, privacy, and retrieval solutions. Access is invite-only and requires portal-administrator credentials; the por
   name: Datavant Connect Customer Portal
   slug: datavant-connect-portal
-- description: Recorded patient allergies.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Recorded patient allergies.
   name: Roivant Sciences Allergies API
   slug: roivant-sciences-allergies-api
-- description: Appointment and scheduling data.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Appointment and scheduling data.
   name: Roivant Sciences Appointments API
   slug: roivant-sciences-appointments-api
-- description: Clinical diagnoses and problem list.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Clinical diagnoses and problem list.
   name: Roivant Sciences Diagnoses API
   slug: roivant-sciences-diagnoses-api
-- description: Unstructured clinical notes and document extraction.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Unstructured clinical notes and document extraction.
   name: Roivant Sciences Documents API
   slug: roivant-sciences-documents-api
-- description: Clinical encounters and visits.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Clinical encounters and visits.
   name: Roivant Sciences Encounters API
   slug: roivant-sciences-encounters-api
-- description: Immunization history.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Immunization history.
   name: Roivant Sciences Immunizations API
   slug: roivant-sciences-immunizations-api
-- description: Laboratory orders and results.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Laboratory orders and results.
   name: Roivant Sciences Labs API
   slug: roivant-sciences-labs-api
-- description: Prescribed and administered medications.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Prescribed and administered medications.
   name: Roivant Sciences Medications API
   slug: roivant-sciences-medications-api
-- description: Patient demographics and identifiers.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Patient demographics and identifiers.
   name: Roivant Sciences Patients API
   slug: roivant-sciences-patients-api
-- description: Connected EHR practice metadata.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Connected EHR practice metadata.
   name: Roivant Sciences Practices API
   slug: roivant-sciences-practices-api
-- description: Procedures performed.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Procedures performed.
   name: Roivant Sciences Procedures API
   slug: roivant-sciences-procedures-api
-- description: Provider directory and identifiers.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Provider directory and identifiers.
   name: Roivant Sciences Providers API
   slug: roivant-sciences-providers-api
-- description: Vital signs measurements.
+- baseURL: https://api.healthjump.com
+  baseurl_source: declared
+  description: Vital signs measurements.
   name: Roivant Sciences Vitals API
   slug: roivant-sciences-vitals-api
 artifact_total: 48
@@ -325,7 +351,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:

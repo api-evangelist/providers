@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -43,130 +43,214 @@ agentic_access:
   summary_line: 296 operations · 169 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Cube Planning — 7 operation(s) for agents.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Agents API from Cube Planning — 7 operation(s) for agents.
   name: Cube Planning Agents API
   slug: cube-planning-agents-api
-- description: Attributes are additional metadata that can be applied to values in the cube. They show up as additional columns in drilldowns, for instance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Attributes are additional metadata that can be applied to values in the cube. They show up as additional columns in drilldowns, for instance.
   name: Cube Planning Attributes API
   slug: cube-planning-attributes-api
-- description: The audit trail tracks the changes of values within the cube and helps with governance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The audit trail tracks the changes of values within the cube and helps with governance.
   name: Cube Planning Audit Trail API
   slug: cube-planning-audit-trail-api
-- description: The Auth API from Cube Planning — 3 operation(s) for auth.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Auth API from Cube Planning — 3 operation(s) for auth.
   name: Cube Planning Auth API
   slug: cube-planning-auth-api
-- description: The Cube API supports user authentication via OAuth2 using the OAuth2 Authorization Code Flow. To authenticate via OAuth2, an application must first be registered.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Cube API supports user authentication via OAuth2 using the OAuth2 Authorization Code Flow. To authenticate via OAuth2, an application must first be registered.
   name: Cube Planning Authentication API
   slug: cube-planning-authentication-api
-- description: The Canvases API from Cube Planning — 10 operation(s) for canvases.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Canvases API from Cube Planning — 10 operation(s) for canvases.
   name: Cube Planning Canvases API
   slug: cube-planning-canvases-api
-- description: The ChatMessages API from Cube Planning — 2 operation(s) for chatmessages.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatMessages API from Cube Planning — 2 operation(s) for chatmessages.
   name: Cube Planning ChatMessages API
   slug: cube-planning-chatmessages-api
-- description: The ChatSessions API from Cube Planning — 2 operation(s) for chatsessions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatSessions API from Cube Planning — 2 operation(s) for chatsessions.
   name: Cube Planning ChatSessions API
   slug: cube-planning-chatsessions-api
-- description: The ChatSettings API from Cube Planning — 1 operation(s) for chatsettings.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ChatSettings API from Cube Planning — 1 operation(s) for chatsettings.
   name: Cube Planning ChatSettings API
   slug: cube-planning-chatsettings-api
-- description: The Comments API from Cube Planning — 2 operation(s) for comments.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Comments API from Cube Planning — 2 operation(s) for comments.
   name: Cube Planning Comments API
   slug: cube-planning-comments-api
-- description: A user in Cube belongs to one or more companies. Companies are how various teams of employees manage their data (dimensions, etc) and permissions (users, etc).
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: A user in Cube belongs to one or more companies. Companies are how various teams of employees manage their data (dimensions, etc) and permissions (users, etc).
   name: Cube Planning Companies API
   slug: cube-planning-companies-api
-- description: The Company Groups API from Cube Planning — 4 operation(s) for company groups.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Company Groups API from Cube Planning — 4 operation(s) for company groups.
   name: Cube Planning Company Groups API
   slug: cube-planning-company-groups-api
-- description: The compliance API from Cube Planning — 1 operation(s) for compliance.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The compliance API from Cube Planning — 1 operation(s) for compliance.
   name: Cube Planning compliance API
   slug: cube-planning-compliance-api
-- description: Connections to external source systems allow Cube to automatically import source dimensions and transaction data.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Connections to external source systems allow Cube to automatically import source dimensions and transaction data.
   name: Cube Planning Connections API
   slug: cube-planning-connections-api
-- description: The ContentType API from Cube Planning — 2 operation(s) for contenttype.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ContentType API from Cube Planning — 2 operation(s) for contenttype.
   name: Cube Planning ContentType API
   slug: cube-planning-contenttype-api
-- description: The cube API from Cube Planning — 2 operation(s) for cube.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The cube API from Cube Planning — 2 operation(s) for cube.
   name: Cube Planning cube API
   slug: cube-planning-cube-api
-- description: The data stored in a cube for a company, organized by their dimensions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The data stored in a cube for a company, organized by their dimensions.
   name: Cube Planning Cube Data API
   slug: cube-planning-cube-data-api
-- description: The Cube Value Range API from Cube Planning — 4 operation(s) for cube value range.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Cube Value Range API from Cube Planning — 4 operation(s) for cube value range.
   name: Cube Planning Cube Value Range API
   slug: cube-planning-cube-value-range-api
-- description: The Currencies API from Cube Planning — 13 operation(s) for currencies.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Currencies API from Cube Planning — 13 operation(s) for currencies.
   name: Cube Planning Currencies API
   slug: cube-planning-currencies-api
-- description: Access the underlying Dashboards of Cube
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Access the underlying Dashboards of Cube
   name: Cube Planning Dashboard API
   slug: cube-planning-dashboard-api
-- description: Cube often uses uploads as a way to load in transaction data for a given data table or connection. You can use the API to create new uploads, send files, and track the status of an upload.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Cube often uses uploads as a way to load in transaction data for a given data table or connection. You can use the API to create new uploads, send files, and track the status of an upload.
   name: Cube Planning Data Table Uploads API
   slug: cube-planning-data-table-uploads-api
-- description: Data Tables are a generic way to organize the source dimensions, mappings, uploads, and imports from an outside source into Cube (e.g. ERP connections, imported flat files, spreadsheet updates, employ
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Data Tables are a generic way to organize the source dimensions, mappings, uploads, and imports from an outside source into Cube (e.g. ERP connections, imported flat files, spreadsheet updates, employ
   name: Cube Planning Data Tables API
   slug: cube-planning-data-tables-api
-- description: 'Dimensions store the organizational hierarchy for a company and outline how their data is structured. All companies have top level dimensions called Account, Scenario, Department, and Time. They also '
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: 'Dimensions store the organizational hierarchy for a company and outline how their data is structured. All companies have top level dimensions called Account, Scenario, Department, and Time. They also '
   name: Cube Planning Dimensions API
   slug: cube-planning-dimensions-api
-- description: The Drilldown API from Cube Planning — 1 operation(s) for drilldown.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Drilldown API from Cube Planning — 1 operation(s) for drilldown.
   name: Cube Planning Drilldown API
   slug: cube-planning-drilldown-api
-- description: The ERP API from Cube Planning — 4 operation(s) for erp.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The ERP API from Cube Planning — 4 operation(s) for erp.
   name: Cube Planning ERP API
   slug: cube-planning-erp-api
-- description: This endpoint can be used to track generic events completed by users.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: This endpoint can be used to track generic events completed by users.
   name: Cube Planning Events API
   slug: cube-planning-events-api
-- description: 'Cube uses formulas to calculate values for a dimension, based on other dimensions. Examples: - Gross Margin = "Revenue" - "Cost of Goods Sold" - Net Income = "Gross Margin" - "Expense" You can use for'
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: 'Cube uses formulas to calculate values for a dimension, based on other dimensions. Examples: - Gross Margin = "Revenue" - "Cost of Goods Sold" - Net Income = "Gross Margin" - "Expense" You can use for'
   name: Cube Planning Formulas API
   slug: cube-planning-formulas-api
-- description: The Integrations API from Cube Planning — 7 operation(s) for integrations.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Integrations API from Cube Planning — 7 operation(s) for integrations.
   name: Cube Planning Integrations API
   slug: cube-planning-integrations-api
-- description: The Invitations API from Cube Planning — 3 operation(s) for invitations.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Invitations API from Cube Planning — 3 operation(s) for invitations.
   name: Cube Planning Invitations API
   slug: cube-planning-invitations-api
-- description: The Library API from Cube Planning — 12 operation(s) for library.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Library API from Cube Planning — 12 operation(s) for library.
   name: Cube Planning Library API
   slug: cube-planning-library-api
-- description: The Notifications API from Cube Planning — 2 operation(s) for notifications.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Notifications API from Cube Planning — 2 operation(s) for notifications.
   name: Cube Planning Notifications API
   slug: cube-planning-notifications-api
-- description: The Permissions API from Cube Planning — 2 operation(s) for permissions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Permissions API from Cube Planning — 2 operation(s) for permissions.
   name: Cube Planning Permissions API
   slug: cube-planning-permissions-api
-- description: The permissionsets API from Cube Planning — 2 operation(s) for permissionsets.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The permissionsets API from Cube Planning — 2 operation(s) for permissionsets.
   name: Cube Planning permissionsets API
   slug: cube-planning-permissionsets-api
-- description: The PlanModeSessions API from Cube Planning — 1 operation(s) for planmodesessions.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The PlanModeSessions API from Cube Planning — 1 operation(s) for planmodesessions.
   name: Cube Planning PlanModeSessions API
   slug: cube-planning-planmodesessions-api
-- description: The Planning Table API from Cube Planning — 4 operation(s) for planning table.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Planning Table API from Cube Planning — 4 operation(s) for planning table.
   name: Cube Planning Planning Table API
   slug: cube-planning-planning-table-api
-- description: The Scenarios API from Cube Planning — 1 operation(s) for scenarios.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Scenarios API from Cube Planning — 1 operation(s) for scenarios.
   name: Cube Planning Scenarios API
   slug: cube-planning-scenarios-api
-- description: Alternative hierarchies & grouping of dimensions in Cube
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: Alternative hierarchies & grouping of dimensions in Cube
   name: Cube Planning Tags API
   slug: cube-planning-tags-api
-- description: The Taskflow API from Cube Planning — 11 operation(s) for taskflow.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Taskflow API from Cube Planning — 11 operation(s) for taskflow.
   name: Cube Planning Taskflow API
   slug: cube-planning-taskflow-api
-- description: The Team API from Cube Planning — 1 operation(s) for team.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Team API from Cube Planning — 1 operation(s) for team.
   name: Cube Planning Team API
   slug: cube-planning-team-api
-- description: User endpoints allow for various functionality tied to users.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: User endpoints allow for various functionality tied to users.
   name: Cube Planning User API
   slug: cube-planning-user-api
-- description: The UserCompanies API from Cube Planning — 3 operation(s) for usercompanies.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The UserCompanies API from Cube Planning — 3 operation(s) for usercompanies.
   name: Cube Planning UserCompanies API
   slug: cube-planning-usercompanies-api
-- description: The Workflow API from Cube Planning — 5 operation(s) for workflow.
+- baseURL: https://api.cubesoftware.com
+  baseurl_source: declared
+  description: The Workflow API from Cube Planning — 5 operation(s) for workflow.
   name: Cube Planning Workflow API
   slug: cube-planning-workflow-api
 artifact_total: 91
@@ -457,7 +541,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 27 operations · 14 acting
 api_count: 1
 apis:
-- description: Hosted invoices with a Moyasar-hosted checkout URL.
+- baseURL: https://api.moyasar.com/v1
+  baseurl_source: declared
+  description: Hosted invoices with a Moyasar-hosted checkout URL.
   name: Moyasar Invoices API
   slug: moyasar-invoices-api
-- description: Create and manage card and wallet payments.
+- baseURL: https://api.moyasar.com/v1
+  baseurl_source: declared
+  description: Create and manage card and wallet payments.
   name: Moyasar Payments API
   slug: moyasar-payments-api
-- description: Payout accounts and payouts / disbursements.
+- baseURL: https://api.moyasar.com/v1
+  baseurl_source: declared
+  description: Payout accounts and payouts / disbursements.
   name: Moyasar Payouts API
   slug: moyasar-payouts-api
-- description: Client-side card tokenization using a publishable key.
+- baseURL: https://api.moyasar.com/v1
+  baseurl_source: declared
+  description: Client-side card tokenization using a publishable key.
   name: Moyasar Tokens API
   slug: moyasar-tokens-api
-- description: Server-to-server event notifications over HTTP POST.
+- baseURL: https://api.moyasar.com/v1
+  baseurl_source: declared
+  description: Server-to-server event notifications over HTTP POST.
   name: Moyasar Webhooks API
   slug: moyasar-webhooks-api
 artifact_total: 18
@@ -181,7 +191,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moyasar/refs/heads/main/screenshots/moyasar-2026-08-07T184409.png
 security:

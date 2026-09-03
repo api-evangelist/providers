@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: Available handwriting styles
+- baseURL: https://api.handwrite.io/v1
+  baseurl_source: declared
+  description: Available handwriting styles
   name: Handwrite IO Handwriting API
   slug: handwrite-io-handwriting-api
-- description: Order tracking and status
+- baseURL: https://api.handwrite.io/v1
+  baseurl_source: declared
+  description: Order tracking and status
   name: Handwrite IO Orders API
   slug: handwrite-io-orders-api
-- description: Send handwritten notes
+- baseURL: https://api.handwrite.io/v1
+  baseurl_source: declared
+  description: Send handwritten notes
   name: Handwrite IO Send API
   slug: handwrite-io-send-api
-- description: Available stationery and cards
+- baseURL: https://api.handwrite.io/v1
+  baseurl_source: declared
+  description: Available stationery and cards
   name: Handwrite IO Stationery API
   slug: handwrite-io-stationery-api
 artifact_total: 17
@@ -267,7 +275,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/screenshots/handwrite-io-2026-06-20T182501.png
 security:

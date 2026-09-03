@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -71,28 +71,44 @@ apis:
 - description: OAuth 2.0 authorization server used to authenticate API clients and issue access tokens for the Formstack REST API.
   name: Formstack OAuth 2.0
   slug: oauth2
-- description: The Confirmations API from Formstack — 2 operation(s) for confirmations.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Confirmations API from Formstack — 2 operation(s) for confirmations.
   name: Formstack Confirmations API
   slug: formstack-confirmations-api
-- description: The Fields API from Formstack — 2 operation(s) for fields.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Fields API from Formstack — 2 operation(s) for fields.
   name: Formstack Fields API
   slug: formstack-fields-api
-- description: The Folders API from Formstack — 2 operation(s) for folders.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Folders API from Formstack — 2 operation(s) for folders.
   name: Formstack Folders API
   slug: formstack-folders-api
-- description: The Forms API from Formstack — 5 operation(s) for forms.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Forms API from Formstack — 5 operation(s) for forms.
   name: Formstack Forms API
   slug: formstack-forms-api
-- description: The Notifications API from Formstack — 2 operation(s) for notifications.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Notifications API from Formstack — 2 operation(s) for notifications.
   name: Formstack Notifications API
   slug: formstack-notifications-api
-- description: The Subaccounts API from Formstack — 1 operation(s) for subaccounts.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Subaccounts API from Formstack — 1 operation(s) for subaccounts.
   name: Formstack Subaccounts API
   slug: formstack-subaccounts-api
-- description: The Submissions API from Formstack — 2 operation(s) for submissions.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Submissions API from Formstack — 2 operation(s) for submissions.
   name: Formstack Submissions API
   slug: formstack-submissions-api
-- description: The Webhooks API from Formstack — 2 operation(s) for webhooks.
+- baseURL: https://www.formstack.com/api/v2
+  baseurl_source: declared
+  description: The Webhooks API from Formstack — 2 operation(s) for webhooks.
   name: Formstack Webhooks API
   slug: formstack-webhooks-api
 artifact_total: 37
@@ -244,7 +260,7 @@ score:
       marker_coverage: 88.9
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/screenshots/formstack-2026-06-20T181438.png
 security:

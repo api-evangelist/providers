@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 1
 apis:
-- description: Bank account management
+- baseURL: https://api.teller.io
+  baseurl_source: declared
+  description: Bank account management
   name: Teller Accounts API
   slug: teller-accounts-api
-- description: Account holder identity information
+- baseURL: https://api.teller.io
+  baseurl_source: declared
+  description: Account holder identity information
   name: Teller Identity API
   slug: teller-identity-api
-- description: Supported financial institutions
+- baseURL: https://api.teller.io
+  baseurl_source: declared
+  description: Supported financial institutions
   name: Teller Institutions API
   slug: teller-institutions-api
-- description: Account transaction history
+- baseURL: https://api.teller.io
+  baseurl_source: declared
+  description: Account transaction history
   name: Teller Transactions API
   slug: teller-transactions-api
 artifact_total: 27
@@ -230,7 +238,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -240,7 +248,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 40.7
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -255,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

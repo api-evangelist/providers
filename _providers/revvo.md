@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 15 operations · 10 acting
 api_count: 1
 apis:
-- description: Api key management (requires admin access)
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: Api key management (requires admin access)
   name: Revvo Api-keys API
   slug: revvo-api-keys-api
-- description: Get authorization token using an API key
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: Get authorization token using an API key
   name: Revvo Auth API
   slug: revvo-auth-api
-- description: The Device API
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: The Device API
   name: Revvo Device API
   slug: revvo-device-api
-- description: The Event API
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: The Event API
   name: Revvo Event API
   slug: revvo-event-api
-- description: The Fleet API
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: The Fleet API
   name: Revvo Fleet API
   slug: revvo-fleet-api
-- description: The Tire Operation API
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: The Tire Operation API
   name: Revvo Tire Operation API
   slug: revvo-tire-operation-api
-- description: The Vehicle API
+- baseURL: https://api.revvo.ai/v0
+  baseurl_source: declared
+  description: The Vehicle API
   name: Revvo Vehicle API
   slug: revvo-vehicle-api
 arazzos:
@@ -223,7 +237,7 @@ score:
   band: thin
   composite: 37.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -249,8 +263,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/revvo/refs/heads/main/screenshots/revvo-2026-09-02T153731.png
 security:
 - kind: authentication
   name: Revvo Authentication

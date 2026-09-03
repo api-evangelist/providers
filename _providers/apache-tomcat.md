@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: The Tomcat JMX API exposes management and monitoring beans for Connectors, Engines, Hosts, Contexts, Sessions, DataSources, thread pools, and memory via Java Management Extensions. JMX can be accessed
   name: Apache Tomcat JMX API
   slug: apache-tomcat-jmx-api
-- description: Manage deployed web applications
+- baseURL_template: http://{host}:{port}/manager/text
+  baseurl_source: spec_template
+  description: Manage deployed web applications
   name: Apache Tomcat applications API
   slug: apache-tomcat-applications-api
-- description: Server, JVM, and SSL/TLS information
+- baseURL_template: http://{host}:{port}/manager/text
+  baseurl_source: spec_template
+  description: Server, JVM, and SSL/TLS information
   name: Apache Tomcat server API
   slug: apache-tomcat-server-api
-- description: Inspect and expire HTTP sessions
+- baseURL_template: http://{host}:{port}/manager/text
+  baseurl_source: spec_template
+  description: Inspect and expire HTTP sessions
   name: Apache Tomcat sessions API
   slug: apache-tomcat-sessions-api
 artifact_total: 33
@@ -218,7 +224,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tomcat/refs/heads/main/screenshots/apache-tomcat-2026-06-20T172155.png
 security:

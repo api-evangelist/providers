@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 99 operations · 24 acting
 api_count: 1
 apis:
-- description: The Ingredients API from Spoonacular — 9 operation(s) for ingredients.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Ingredients API from Spoonacular — 9 operation(s) for ingredients.
   name: Spoonacular Ingredients API
   slug: spoonacular-ingredients-api
-- description: The Meal Planning API from Spoonacular — 12 operation(s) for meal planning.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Meal Planning API from Spoonacular — 12 operation(s) for meal planning.
   name: Spoonacular Meal Planning API
   slug: spoonacular-meal-planning-api
-- description: The Menu Items API from Spoonacular — 8 operation(s) for menu items.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Menu Items API from Spoonacular — 8 operation(s) for menu items.
   name: Spoonacular Menu Items API
   slug: spoonacular-menu-items-api
-- description: The Misc API from Spoonacular — 11 operation(s) for misc.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Misc API from Spoonacular — 11 operation(s) for misc.
   name: Spoonacular Misc API
   slug: spoonacular-misc-api
-- description: The Products API from Spoonacular — 11 operation(s) for products.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Products API from Spoonacular — 11 operation(s) for products.
   name: Spoonacular Products API
   slug: spoonacular-products-api
-- description: The Recipes API from Spoonacular — 42 operation(s) for recipes.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Recipes API from Spoonacular — 42 operation(s) for recipes.
   name: Spoonacular Recipes API
   slug: spoonacular-recipes-api
-- description: The Wine API from Spoonacular — 4 operation(s) for wine.
+- baseURL: https://api.spoonacular.com
+  baseurl_source: declared
+  description: The Wine API from Spoonacular — 4 operation(s) for wine.
   name: Spoonacular Wine API
   slug: spoonacular-wine-api
 artifact_total: 71
@@ -404,7 +418,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:

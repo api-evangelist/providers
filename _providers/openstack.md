@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -68,46 +68,74 @@ apis:
 - description: Trove is the OpenStack Database-as-a-Service that provisions and manages database instances (MySQL, PostgreSQL, MongoDB, Redis, MariaDB, Cassandra, etc.) on top of OpenStack.
   name: OpenStack Database (Trove) API
   slug: trove
-- description: Domain management for multi-tenancy.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Domain management for multi-tenancy.
   name: OpenStack Domains API
   slug: openstack-domains-api
-- description: Service endpoint URLs per region and interface.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Service endpoint URLs per region and interface.
   name: OpenStack Endpoints API
   slug: openstack-endpoints-api
-- description: Compute instance flavors.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Compute instance flavors.
   name: OpenStack Flavors API
   slug: openstack-flavors-api
-- description: Group management.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Group management.
   name: OpenStack Groups API
   slug: openstack-groups-api
-- description: Image references.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Image references.
   name: OpenStack Images API
   slug: openstack-images-api
-- description: SSH key pair management.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: SSH key pair management.
   name: OpenStack Keypairs API
   slug: openstack-keypairs-api
-- description: Project (tenant) management.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Project (tenant) management.
   name: OpenStack Projects API
   slug: openstack-projects-api
-- description: Role definitions and assignments.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Role definitions and assignments.
   name: OpenStack Roles API
   slug: openstack-roles-api
-- description: Lifecycle actions on servers.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Lifecycle actions on servers.
   name: OpenStack Server Actions API
   slug: openstack-server-actions-api
-- description: Compute instance management.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Compute instance management.
   name: OpenStack Servers API
   slug: openstack-servers-api
-- description: Service catalog entries.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Service catalog entries.
   name: OpenStack Services API
   slug: openstack-services-api
-- description: Issue and validate authentication tokens.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: Issue and validate authentication tokens.
   name: OpenStack Tokens API
   slug: openstack-tokens-api
-- description: User management.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: User management.
   name: OpenStack Users API
   slug: openstack-users-api
-- description: API version discovery.
+- baseURL: https://{keystone-host}:5000/v3
+  baseurl_source: declared
+  description: API version discovery.
   name: OpenStack Versions API
   slug: openstack-versions-api
 artifact_total: 48
@@ -299,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
 security:

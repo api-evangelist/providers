@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -45,28 +45,44 @@ apis:
 - description: Model Context Protocol servers published under @transcend-io/* so AI agents can manage Transcend privacy operations. Includes per-domain servers for admin, assessments, consent, data discovery, DSR, i
   name: Transcend MCP Servers
   slug: transcend-mcp
-- description: Client-side consent sync used by the Consent Manager.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Client-side consent sync used by the Consent Manager.
   name: Transcend Consent API
   slug: transcend-io-consent-api
-- description: Stream files, push datapoints, and respond to access, erasure, opt-in, and opt-out requests.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Stream files, push datapoints, and respond to access, erasure, opt-in, and opt-out requests.
   name: Transcend Custom Integration API
   slug: transcend-io-custom-integration-api
-- description: Submit, poll, and download data subject requests.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Submit, poll, and download data subject requests.
   name: Transcend Data Subject Request API
   slug: transcend-io-data-subject-request-api
-- description: Text classification and Named Entity Recognition for unstructured data discovery.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Text classification and Named Entity Recognition for unstructured data discovery.
   name: Transcend LLM Classifier API
   slug: transcend-io-llm-classifier-api
-- description: Server-side preference store CRUD and query operations.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Server-side preference store CRUD and query operations.
   name: Transcend Preferences API
   slug: transcend-io-preferences-api
-- description: Enrich identifiers before downstream DSR processing.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Enrich identifiers before downstream DSR processing.
   name: Transcend Preflight API
   slug: transcend-io-preflight-api
-- description: Public JWT signing keys exposed by the Sombra gateway.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: Public JWT signing keys exposed by the Sombra gateway.
   name: Transcend Public Keys API
   slug: transcend-io-public-keys-api
-- description: The Transcend API API from Transcend — 0 operation(s) for transcend api.
+- baseURL: https://api.transcend.io
+  baseurl_source: declared
+  description: The Transcend API API from Transcend — 0 operation(s) for transcend api.
   name: Transcend Transcend API API
   slug: transcend-io-transcend-api-api
 artifact_total: 44
@@ -323,7 +339,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -336,7 +352,7 @@ score:
   open_source:
     applies: true
     score: 0.0
-  previous_composite: 47.5
+  previous_composite: 47.3
   provenance:
     contracts:
       callable: 100.0
@@ -344,7 +360,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transcend-io/refs/heads/main/screenshots/transcend-io-2026-06-20T195548.png
 security:

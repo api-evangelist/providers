@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Public GraphQL subgraph that indexes useful state about the Goldfinch Protocol (senior pool, tranched pools, backers, borrowers, staked positions, membership) for use by the Goldfinch Interface and an
@@ -121,7 +121,7 @@ score:
   band: emerging
   composite: 23.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -140,8 +140,9 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/warblerlabs/refs/heads/main/screenshots/warblerlabs-2026-09-02T170433.png
 security:
 - kind: domain-security
   name: Warblerlabs Domain Security

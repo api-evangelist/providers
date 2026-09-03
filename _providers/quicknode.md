@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -33,7 +45,9 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 3
 apis:
-- description: Multi-chain JSON-RPC, REST, and gRPC endpoints across 77+ blockchains (Ethereum, Solana, Polygon, Arbitrum, Optimism, Base, Bitcoin, Aptos, Avalanche, BNB, etc.).
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Multi-chain JSON-RPC, REST, and gRPC endpoints across 77+ blockchains (Ethereum, Solana, Polygon, Arbitrum, Optimism, Base, Bitcoin, Aptos, Avalanche, BNB, etc.).
   name: QuickNode Core RPC API
   slug: core-rpc
 - description: Event-driven webhook subscriptions with custom filtering for blockchain events.
@@ -45,28 +59,44 @@ apis:
 - description: Serverless on-chain logic runtime for executing custom code triggered by Streams or HTTP.
   name: QuickNode Functions
   slug: functions
-- description: Fetch account usage information including bandwidth and storage metrics.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Fetch account usage information including bandwidth and storage metrics.
   name: QuickNode Account API
   slug: quicknode-account-api
-- description: Bulk-load operations against a database.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Bulk-load operations against a database.
   name: QuickNode Batch API
   slug: quicknode-batch-api
-- description: Manage key-value namespaces (databases).
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Manage key-value namespaces (databases).
   name: QuickNode Database API
   slug: quicknode-database-api
-- description: Create and manage gateways for retrieving content from the IPFS network.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Create and manage gateways for retrieving content from the IPFS network.
   name: QuickNode Gateway API
   slug: quicknode-gateway-api
-- description: Read, write, and delete keys within a database.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Read, write, and delete keys within a database.
   name: QuickNode Keys API
   slug: quicknode-keys-api
-- description: Inspect Stream execution logs.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Inspect Stream execution logs.
   name: QuickNode Logs API
   slug: quicknode-logs-api
-- description: Pin, view, and manage pinned content to ensure its availability on the IPFS network.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Pin, view, and manage pinned content to ensure its availability on the IPFS network.
   name: QuickNode Pinning API
   slug: quicknode-pinning-api
-- description: Manage Streams definitions and lifecycle.
+- baseURL: https://{endpoint-name}.{network}.quiknode.pro/{token}
+  baseurl_source: declared
+  description: Manage Streams definitions and lifecycle.
   name: QuickNode Streams API
   slug: quicknode-streams-api
 artifact_total: 40
@@ -237,7 +267,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -247,7 +277,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -256,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quicknode/refs/heads/main/screenshots/quicknode-2026-06-20T192434.png
 security:

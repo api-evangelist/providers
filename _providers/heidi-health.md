@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,34 +47,54 @@ apis:
 - description: 'Embeddable JavaScript widget for dropping Heidi''s ambient documentation experience directly into a web-based EHR or clinical workflow with minimal engineering, with documented initialisation options, '
   name: Heidi Widget SDK
   slug: heidi-widget-sdk
-- description: Streamed AI-assistant responses scoped to a session.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Streamed AI-assistant responses scoped to a session.
   name: Heidi Health Ask Heidi API
   slug: heidi-health-ask-heidi-api
-- description: Token exchange.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Token exchange.
   name: Heidi Health Authentication API
   slug: heidi-health-authentication-api
-- description: ICD/SNOMED/CPT and related code generation.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: ICD/SNOMED/CPT and related code generation.
   name: Heidi Health Clinical Coding API
   slug: heidi-health-clinical-coding-api
-- description: Streamed consult-note generation.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Streamed consult-note generation.
   name: Heidi Health Consult Notes API
   slug: heidi-health-consult-notes-api
-- description: Auxiliary template-driven documents.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Auxiliary template-driven documents.
   name: Heidi Health Documents API
   slug: heidi-health-documents-api
-- description: Longitudinal patient records.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Longitudinal patient records.
   name: Heidi Health Patient Profiles API
   slug: heidi-health-patient-profiles-api
-- description: Notes, linked sessions, and context document attachments.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Notes, linked sessions, and context document attachments.
   name: Heidi Health Session Context API
   slug: heidi-health-session-context-api
-- description: Clinical session lifecycle.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Clinical session lifecycle.
   name: Heidi Health Sessions API
   slug: heidi-health-sessions-api
-- description: Consult-note templates.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Consult-note templates.
   name: Heidi Health Templates API
   slug: heidi-health-templates-api
-- description: Audio upload and transcript retrieval.
+- baseURL: https://registrar.api.heidihealth.com/api/v2/ml-scribe/open-api
+  baseurl_source: spec
+  description: Audio upload and transcript retrieval.
   name: Heidi Health Transcription API
   slug: heidi-health-transcription-api
 artifact_total: 74
@@ -468,7 +488,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 7
@@ -49,46 +49,74 @@ apis:
 - description: The Go implementation of Apache Dubbo, providing the same RPC framework capabilities including service discovery, traffic management, and Triple protocol support for Go-based microservices.
   name: Apache Dubbo Go SDK
   slug: apache-dubbo-go
-- description: The ConditionRule API from Apache Dubbo — 4 operation(s) for conditionrule.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The ConditionRule API from Apache Dubbo — 4 operation(s) for conditionrule.
   name: Apache Dubbo ConditionRule API
   slug: apache-dubbo-conditionrule-api
-- description: The metrics API from Apache Dubbo — 4 operation(s) for metrics.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The metrics API from Apache Dubbo — 4 operation(s) for metrics.
   name: Apache Dubbo metrics API
   slug: apache-dubbo-metrics-api
-- description: The MockRules API from Apache Dubbo — 2 operation(s) for mockrules.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The MockRules API from Apache Dubbo — 2 operation(s) for mockrules.
   name: Apache Dubbo MockRules API
   slug: apache-dubbo-mockrules-api
-- description: The OverrideRule API from Apache Dubbo — 4 operation(s) for overriderule.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The OverrideRule API from Apache Dubbo — 4 operation(s) for overriderule.
   name: Apache Dubbo OverrideRule API
   slug: apache-dubbo-overriderule-api
-- description: The Services API from Apache Dubbo — 5 operation(s) for services.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The Services API from Apache Dubbo — 5 operation(s) for services.
   name: Apache Dubbo Services API
   slug: apache-dubbo-services-api
-- description: The TagRule API from Apache Dubbo — 4 operation(s) for tagrule.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TagRule API from Apache Dubbo — 4 operation(s) for tagrule.
   name: Apache Dubbo TagRule API
   slug: apache-dubbo-tagrule-api
-- description: The TrafficAccesslog API from Apache Dubbo — 1 operation(s) for trafficaccesslog.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficAccesslog API from Apache Dubbo — 1 operation(s) for trafficaccesslog.
   name: Apache Dubbo TrafficAccesslog API
   slug: apache-dubbo-trafficaccesslog-api
-- description: The TrafficArgument API from Apache Dubbo — 1 operation(s) for trafficargument.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficArgument API from Apache Dubbo — 1 operation(s) for trafficargument.
   name: Apache Dubbo TrafficArgument API
   slug: apache-dubbo-trafficargument-api
-- description: The TrafficGray API from Apache Dubbo — 1 operation(s) for trafficgray.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficGray API from Apache Dubbo — 1 operation(s) for trafficgray.
   name: Apache Dubbo TrafficGray API
   slug: apache-dubbo-trafficgray-api
-- description: The TrafficMock API from Apache Dubbo — 1 operation(s) for trafficmock.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficMock API from Apache Dubbo — 1 operation(s) for trafficmock.
   name: Apache Dubbo TrafficMock API
   slug: apache-dubbo-trafficmock-api
-- description: The TrafficRegion API from Apache Dubbo — 1 operation(s) for trafficregion.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficRegion API from Apache Dubbo — 1 operation(s) for trafficregion.
   name: Apache Dubbo TrafficRegion API
   slug: apache-dubbo-trafficregion-api
-- description: The TrafficRetry API from Apache Dubbo — 1 operation(s) for trafficretry.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficRetry API from Apache Dubbo — 1 operation(s) for trafficretry.
   name: Apache Dubbo TrafficRetry API
   slug: apache-dubbo-trafficretry-api
-- description: The TrafficTimeout API from Apache Dubbo — 1 operation(s) for traffictimeout.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficTimeout API from Apache Dubbo — 1 operation(s) for traffictimeout.
   name: Apache Dubbo TrafficTimeout API
   slug: apache-dubbo-traffictimeout-api
-- description: The TrafficWeight API from Apache Dubbo — 1 operation(s) for trafficweight.
+- baseURL: https://127.0.0.1:38080/
+  baseurl_source: spec
+  description: The TrafficWeight API from Apache Dubbo — 1 operation(s) for trafficweight.
   name: Apache Dubbo TrafficWeight API
   slug: apache-dubbo-trafficweight-api
 artifact_total: 163
@@ -636,7 +664,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/screenshots/apache-dubbo-2026-06-20T172058.png
 security:

@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -36,28 +47,44 @@ apis:
 - description: The on-robot gRPC service for direct local control of a Bear robot, used where the cloud is not in the path. 23 RPCs covering drive/twist commands, odometry, battery and robot status, missions, settin
   name: Bear Base API
   slug: bear-base-api
-- description: Carti-specific operations
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Carti-specific operations
   name: Bear Robotics Carti API
   slug: bear-robotics-carti-api
-- description: Fleet-level operations
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Fleet-level operations
   name: Bear Robotics Fleet Management API
   slug: bear-robotics-fleet-management-api
-- description: Low-level endpoints for robot pose and localization
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Low-level endpoints for robot pose and localization
   name: Bear Robotics Localization & Navigation API
   slug: bear-robotics-localization-navigation-api
-- description: Operations for fetching and setting location and map settings
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Operations for fetching and setting location and map settings
   name: Bear Robotics Locations & Maps API
   slug: bear-robotics-locations-maps-api
-- description: Basic mission-related operations
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Basic mission-related operations
   name: Bear Robotics Mission API
   slug: bear-robotics-mission-api
-- description: Queries for real-time robot status data
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Queries for real-time robot status data
   name: Bear Robotics Robot Status API
   slug: bear-robotics-robot-status-api
-- description: System-level operations and Queries for static robot configurations
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: System-level operations and Queries for static robot configurations
   name: Bear Robotics Robot System API
   slug: bear-robotics-robot-system-api
-- description: Servi-specific operations
+- baseURL: https://api.bearrobotics.ai
+  baseurl_source: declared
+  description: Servi-specific operations
   name: Bear Robotics Servi API
   slug: bear-robotics-servi-api
 artifact_total: 24
@@ -242,7 +269,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -252,7 +279,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.1
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,7 +291,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png
 security:

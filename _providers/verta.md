@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 264 operations · 179 acting
 api_count: 12
 apis:
-- description: The AuthzService API from Verta — 4 operation(s) for authzservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The AuthzService API from Verta — 4 operation(s) for authzservice.
   name: Verta AuthzService API
   slug: verta-authzservice-api
-- description: The DatasetService API from Verta — 17 operation(s) for datasetservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The DatasetService API from Verta — 17 operation(s) for datasetservice.
   name: Verta DatasetService API
   slug: verta-datasetservice-api
-- description: The ExperimentRunService API from Verta — 60 operation(s) for experimentrunservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The ExperimentRunService API from Verta — 60 operation(s) for experimentrunservice.
   name: Verta ExperimentRunService API
   slug: verta-experimentrunservice-api
-- description: The ExperimentService API from Verta — 25 operation(s) for experimentservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The ExperimentService API from Verta — 25 operation(s) for experimentservice.
   name: Verta ExperimentService API
   slug: verta-experimentservice-api
-- description: The MonitoredEntityService API from Verta — 4 operation(s) for monitoredentityservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The MonitoredEntityService API from Verta — 4 operation(s) for monitoredentityservice.
   name: Verta MonitoredEntityService API
   slug: verta-monitoredentityservice-api
-- description: The ProjectService API from Verta — 32 operation(s) for projectservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The ProjectService API from Verta — 32 operation(s) for projectservice.
   name: Verta ProjectService API
   slug: verta-projectservice-api
-- description: The RegistryService API from Verta — 31 operation(s) for registryservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The RegistryService API from Verta — 31 operation(s) for registryservice.
   name: Verta RegistryService API
   slug: verta-registryservice-api
-- description: The SCIMConfigurationService API from Verta — 1 operation(s) for scimconfigurationservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The SCIMConfigurationService API from Verta — 1 operation(s) for scimconfigurationservice.
   name: Verta SCIMConfigurationService API
   slug: verta-scimconfigurationservice-api
-- description: The StageService API from Verta — 9 operation(s) for stageservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The StageService API from Verta — 9 operation(s) for stageservice.
   name: Verta StageService API
   slug: verta-stageservice-api
-- description: The UACService API from Verta — 13 operation(s) for uacservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The UACService API from Verta — 13 operation(s) for uacservice.
   name: Verta UACService API
   slug: verta-uacservice-api
-- description: The VersioningService API from Verta — 40 operation(s) for versioningservice.
+- baseURL: https://docs.verta.ai/
+  baseurl_source: declared
+  description: The VersioningService API from Verta — 40 operation(s) for versioningservice.
   name: Verta VersioningService API
   slug: verta-versioningservice-api
 artifact_total: 26
@@ -216,7 +238,7 @@ score:
   band: emerging
   composite: 23.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -245,8 +267,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/screenshots/verta-2026-09-02T165805.png
 security:
 - kind: authentication
   name: Verta Authentication

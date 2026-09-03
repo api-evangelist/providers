@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 6 operations · 2 acting
 api_count: 1
 apis:
-- description: Operations allowing export of survey data
+- baseURL: https://api.sprig.com
+  baseurl_source: declared
+  description: Operations allowing export of survey data
   name: Sprig V1 API
   slug: sprig-v1-api
-- description: The V2 API from Sprig — 3 operation(s) for v2.
+- baseURL: https://api.sprig.com
+  baseurl_source: declared
+  description: The V2 API from Sprig — 3 operation(s) for v2.
   name: Sprig V2 API
   slug: sprig-v2-api
 artifact_total: 11
@@ -215,7 +219,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -225,7 +229,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 49.6
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,7 +241,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprig/refs/heads/main/screenshots/sprig-2026-08-17T082046.png
 security:

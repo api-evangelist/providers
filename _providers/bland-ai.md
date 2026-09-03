@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -47,7 +47,9 @@ apis:
 - description: REST API for sending and managing AI phone calls, pathways (conversation flows), voices and voice clones, personas, tools, knowledge bases, transfer lists, and analytics. Auth is bearer token; base UR
   name: Bland AI Platform API
   slug: platform
-- description: Send, list, retrieve, and stop AI phone calls.
+- baseURL: https://api.bland.ai
+  baseurl_source: declared
+  description: Send, list, retrieve, and stop AI phone calls.
   name: Bland AI Calls API
   slug: bland-ai-calls-api
 artifact_total: 12
@@ -162,7 +164,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bland-ai/refs/heads/main/screenshots/bland-ai-2026-06-20T173346.png
 security:

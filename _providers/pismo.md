@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 22 operations · 9 acting
 api_count: 1
 apis:
-- description: Core-banking account lifecycle and balances.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Core-banking account lifecycle and balances.
   name: Pismo Accounts API
   slug: pismo-accounts-api
-- description: Card-network authorizations and simulation.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Card-network authorizations and simulation.
   name: Pismo Authorizations API
   slug: pismo-authorizations-api
-- description: Card issuing and lifecycle.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Card issuing and lifecycle.
   name: Pismo Cards API
   slug: pismo-cards-api
-- description: Customer registration and customer-account relationships.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Customer registration and customer-account relationships.
   name: Pismo Customers API
   slug: pismo-customers-api
-- description: Client webhook registration for the Pismo event stream.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Client webhook registration for the Pismo event stream.
   name: Pismo Events API
   slug: pismo-events-api
-- description: Product program configuration.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Product program configuration.
   name: Pismo Programs API
   slug: pismo-programs-api
-- description: Account statements and statement transactions.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Account statements and statement transactions.
   name: Pismo Statements API
   slug: pismo-statements-api
-- description: Posted transactions and transaction shifts.
+- baseURL: https://api.pismo.io
+  baseurl_source: declared
+  description: Posted transactions and transaction shifts.
   name: Pismo Transactions API
   slug: pismo-transactions-api
 artifact_total: 26
@@ -187,7 +203,7 @@ score:
   band: thin
   composite: 36.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -216,8 +232,9 @@ score:
     regime_id: payments
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pismo/refs/heads/main/screenshots/pismo-2026-09-02T151328.png
 security:
 - kind: authentication
   name: Pismo Authentication

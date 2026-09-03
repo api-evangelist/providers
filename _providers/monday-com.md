@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: An expressive GraphQL API to interact with monday.com workflows, boards, items, users, and updates - automate processes, power integrations, and more.
   name: Monday.com API
   slug: monday-com
-- description: The Monday.com Platform GraphQL API API from Monday.com — 1 operation(s) for monday.com platform graphql api.
+- baseURL: https://api.monday.com/v2
+  baseurl_source: declared
+  description: The Monday.com Platform GraphQL API API from Monday.com — 1 operation(s) for monday.com platform graphql api.
   name: Monday.com Monday.com Platform GraphQL API API
   slug: monday-com-monday-com-platform-graphql-api-api
 artifact_total: 32
@@ -176,7 +178,7 @@ score:
     catalog_gap: 74.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -186,7 +188,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 14.5
-  previous_composite: 33.0
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -195,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png
 security:

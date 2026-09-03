@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Collection of REST and GraphQL APIs for AEM as a Cloud Service covering Content Fragment delivery and management, Sites authoring, Dynamic Media asset delivery, Forms, and infrastructure. Authenticati
   name: Adobe Experience Manager APIs
   slug: apis
-- description: AEM Launches for Content Fragments (experimental)
+- baseURL: https://author-<tenant>.adobeaemcloud.com
+  baseurl_source: declared
+  description: AEM Launches for Content Fragments (experimental)
   name: Adobe Experience Manager Launches API
   slug: adobe-experience-manager-launches-api
 artifact_total: 11
@@ -154,7 +156,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/screenshots/adobe-experience-manager-2026-06-20T164924.png
 security:

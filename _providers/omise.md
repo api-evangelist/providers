@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 52 operations · 25 acting
 api_count: 1
 apis:
-- description: Account profile and balance.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Account profile and balance.
   name: Omise Account API
   slug: omise-account-api
-- description: Cards saved against a customer.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Cards saved against a customer.
   name: Omise Cards API
   slug: omise-cards-api
-- description: Core payment object - authorize, capture, reverse, expire.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Core payment object - authorize, capture, reverse, expire.
   name: Omise Charges API
   slug: omise-charges-api
-- description: Saved customers and their reusable cards.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Saved customers and their reusable cards.
   name: Omise Customers API
   slug: omise-customers-api
-- description: Cardholder chargebacks and evidence.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Cardholder chargebacks and evidence.
   name: Omise Disputes API
   slug: omise-disputes-api
-- description: Account events backing webhooks.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Account events backing webhooks.
   name: Omise Events API
   slug: omise-events-api
-- description: Shareable payment links.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Shareable payment links.
   name: Omise Links API
   slug: omise-links-api
-- description: Bank-account recipients that transfers pay out to.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Bank-account recipients that transfers pay out to.
   name: Omise Recipients API
   slug: omise-recipients-api
-- description: Full or partial refunds against a charge.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Full or partial refunds against a charge.
   name: Omise Refunds API
   slug: omise-refunds-api
-- description: Recurring charges and transfers.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Recurring charges and transfers.
   name: Omise Schedules API
   slug: omise-schedules-api
-- description: Non-card / local payment method sources.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Non-card / local payment method sources.
   name: Omise Sources API
   slug: omise-sources-api
-- description: Single-use card tokenization on the vault host.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Single-use card tokenization on the vault host.
   name: Omise Tokens API
   slug: omise-tokens-api
-- description: Payouts from your balance to a recipient bank account.
+- baseURL: https://api.omise.co
+  baseurl_source: declared
+  description: Payouts from your balance to a recipient bank account.
   name: Omise Transfers API
   slug: omise-transfers-api
 artifact_total: 34
@@ -233,7 +259,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omise/refs/heads/main/screenshots/omise-2026-08-07T190141.png
 security:

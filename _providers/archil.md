@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
+- baseURL: https://control.green.us-east-1.aws.prod.archil.com
+  baseurl_source: declared
+  description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
   name: Archil API Tokens API
   slug: archil-api-tokens-api
-- description: Manage authorized users on disks
+- baseURL: https://control.green.us-east-1.aws.prod.archil.com
+  baseurl_source: declared
+  description: Manage authorized users on disks
   name: Archil Disk Users API
   slug: archil-disk-users-api
-- description: Create, read, update, and delete disks
+- baseURL: https://control.green.us-east-1.aws.prod.archil.com
+  baseurl_source: declared
+  description: Create, read, update, and delete disks
   name: Archil Disks API
   slug: archil-disks-api
-- description: Run commands on a disk without provisioning compute
+- baseURL: https://control.green.us-east-1.aws.prod.archil.com
+  baseurl_source: declared
+  description: Run commands on a disk without provisioning compute
   name: Archil Serverless Execution API
   slug: archil-serverless-execution-api
 artifact_total: 18
@@ -245,7 +253,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/screenshots/archil-2026-07-25T201028.png
 security:

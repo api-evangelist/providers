@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -47,28 +47,44 @@ apis:
 - description: The union and pyflyte command-line tools plus the Flytekit and Union Python SDKs - the primary, fully-documented clients that register entities and drive the FlyteAdmin control plane (including Actors
   name: Union CLI & SDK
   slug: union-cli-sdk
-- description: The Domains API from Union.ai — 1 operation(s) for domains.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Domains API from Union.ai — 1 operation(s) for domains.
   name: Union.ai Domains API
   slug: unionai-domains-api
-- description: The Executions API from Union.ai — 6 operation(s) for executions.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Executions API from Union.ai — 6 operation(s) for executions.
   name: Union.ai Executions API
   slug: unionai-executions-api
-- description: The Launch Plans API from Union.ai — 5 operation(s) for launch plans.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Launch Plans API from Union.ai — 5 operation(s) for launch plans.
   name: Union.ai Launch Plans API
   slug: unionai-launch-plans-api
-- description: The Node Executions API from Union.ai — 1 operation(s) for node executions.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Node Executions API from Union.ai — 1 operation(s) for node executions.
   name: Union.ai Node Executions API
   slug: unionai-node-executions-api
-- description: The Projects API from Union.ai — 2 operation(s) for projects.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Projects API from Union.ai — 2 operation(s) for projects.
   name: Union.ai Projects API
   slug: unionai-projects-api
-- description: The Tasks API from Union.ai — 4 operation(s) for tasks.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Tasks API from Union.ai — 4 operation(s) for tasks.
   name: Union.ai Tasks API
   slug: unionai-tasks-api
-- description: The Version API from Union.ai — 1 operation(s) for version.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Version API from Union.ai — 1 operation(s) for version.
   name: Union.ai Version API
   slug: unionai-version-api
-- description: The Workflows API from Union.ai — 4 operation(s) for workflows.
+- baseURL: https://<your-org>.app.union.ai/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Union.ai — 4 operation(s) for workflows.
   name: Union.ai Workflows API
   slug: unionai-workflows-api
 artifact_total: 27
@@ -213,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unionai/refs/heads/main/screenshots/unionai-2026-06-20T200031.png
 security:

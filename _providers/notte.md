@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 33 operations · 18 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Run autonomous web agents from natural-language tasks.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Run autonomous web agents from natural-language tasks.
   name: Notte Agents API
   slug: notte-agents-api
-- description: Service health check.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Service health check.
   name: Notte Health API
   slug: notte-health-api
-- description: Perception layer - observe, step (execute), and scrape a live session page.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Perception layer - observe, step (execute), and scrape a live session page.
   name: Notte Page API
   slug: notte-page-api
-- description: Disposable digital identities with email, phone, and 2FA.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Disposable digital identities with email, phone, and 2FA.
   name: Notte Personas API
   slug: notte-personas-api
-- description: One-shot scraping of a URL or raw HTML, plus AI web search.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: One-shot scraping of a URL or raw HTML, plus AI web search.
   name: Notte Scraping API
   slug: notte-scraping-api
-- description: Create and manage remote cloud browser sessions.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Create and manage remote cloud browser sessions.
   name: Notte Sessions API
   slug: notte-sessions-api
-- description: Secure credential and credit-card storage injected into runs.
+- baseURL: https://api.notte.cc
+  baseurl_source: declared
+  description: Secure credential and credit-card storage injected into runs.
   name: Notte Vaults API
   slug: notte-vaults-api
 artifact_total: 22
@@ -187,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/screenshots/notte-2026-06-20T190427.png
 security:

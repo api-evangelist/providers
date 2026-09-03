@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -50,58 +50,94 @@ apis:
 - description: REST API for the HyperExecute AI-native test orchestration platform. Provides endpoints for triggering distributed test jobs, monitoring job status, fetching artifacts, and retrieving execution analyt
   name: LambdaTest HyperExecute API
   slug: hyperexecute-api
-- description: The Autoheal Command Logs API from LambdaTest — 1 operation(s) for autoheal command logs.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Autoheal Command Logs API from LambdaTest — 1 operation(s) for autoheal command logs.
   name: LambdaTest Autoheal Command Logs API
   slug: lambdatest-autoheal-command-logs-api
-- description: The Build API from LambdaTest — 3 operation(s) for build.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Build API from LambdaTest — 3 operation(s) for build.
   name: LambdaTest Build API
   slug: lambdatest-build-api
-- description: The extensions API from LambdaTest — 2 operation(s) for extensions.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The extensions API from LambdaTest — 2 operation(s) for extensions.
   name: LambdaTest extensions API
   slug: lambdatest-extensions-api
-- description: The Fetch Build Screenshots API from LambdaTest — 1 operation(s) for fetch build screenshots.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Fetch Build Screenshots API from LambdaTest — 1 operation(s) for fetch build screenshots.
   name: LambdaTest Fetch Build Screenshots API
   slug: lambdatest-fetch-build-screenshots-api
-- description: The Geolocation API from LambdaTest — 1 operation(s) for geolocation.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Geolocation API from LambdaTest — 1 operation(s) for geolocation.
   name: LambdaTest Geolocation API
   slug: lambdatest-geolocation-api
-- description: The Get Build Status API from LambdaTest — 1 operation(s) for get build status.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Get Build Status API from LambdaTest — 1 operation(s) for get build status.
   name: LambdaTest Get Build Status API
   slug: lambdatest-get-build-status-api
-- description: The Get Screenshot Status API from LambdaTest — 1 operation(s) for get screenshot status.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Get Screenshot Status API from LambdaTest — 1 operation(s) for get screenshot status.
   name: LambdaTest Get Screenshot Status API
   slug: lambdatest-get-screenshot-status-api
-- description: The Lighthouse API from LambdaTest — 1 operation(s) for lighthouse.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Lighthouse API from LambdaTest — 1 operation(s) for lighthouse.
   name: LambdaTest Lighthouse API
   slug: lambdatest-lighthouse-api
-- description: The Organisation API from LambdaTest — 1 operation(s) for organisation.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Organisation API from LambdaTest — 1 operation(s) for organisation.
   name: LambdaTest Organisation API
   slug: lambdatest-organisation-api
-- description: The platforms API from LambdaTest — 1 operation(s) for platforms.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The platforms API from LambdaTest — 1 operation(s) for platforms.
   name: LambdaTest platforms API
   slug: lambdatest-platforms-api
-- description: The prerun API from LambdaTest — 4 operation(s) for prerun.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The prerun API from LambdaTest — 4 operation(s) for prerun.
   name: LambdaTest prerun API
   slug: lambdatest-prerun-api
-- description: The Resolution API from LambdaTest — 1 operation(s) for resolution.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Resolution API from LambdaTest — 1 operation(s) for resolution.
   name: LambdaTest Resolution API
   slug: lambdatest-resolution-api
-- description: The Session API from LambdaTest — 13 operation(s) for session.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Session API from LambdaTest — 13 operation(s) for session.
   name: LambdaTest Session API
   slug: lambdatest-session-api
-- description: The Session Logs (V2) API from LambdaTest — 6 operation(s) for session logs (v2).
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Session Logs (V2) API from LambdaTest — 6 operation(s) for session logs (v2).
   name: LambdaTest Session Logs (V2) API
   slug: lambdatest-session-logs-v2-api
-- description: The Test API from LambdaTest — 2 operation(s) for test.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Test API from LambdaTest — 2 operation(s) for test.
   name: LambdaTest Test API
   slug: lambdatest-test-api
-- description: The tunnel API from LambdaTest — 2 operation(s) for tunnel.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The tunnel API from LambdaTest — 2 operation(s) for tunnel.
   name: LambdaTest tunnel API
   slug: lambdatest-tunnel-api
-- description: The Upload Screenshots API from LambdaTest — 1 operation(s) for upload screenshots.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The Upload Screenshots API from LambdaTest — 1 operation(s) for upload screenshots.
   name: LambdaTest Upload Screenshots API
   slug: lambdatest-upload-screenshots-api
-- description: The user-files API from LambdaTest — 3 operation(s) for user-files.
+- baseURL: https://api.lambdatest.com
+  baseurl_source: declared
+  description: The user-files API from LambdaTest — 3 operation(s) for user-files.
   name: LambdaTest user-files API
   slug: lambdatest-user-files-api
 artifact_total: 78
@@ -319,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambdatest/refs/heads/main/screenshots/lambdatest-2026-06-20T184255.png
 security:

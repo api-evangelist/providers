@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: Server-side Twirp API for managing rooms, participants, tracks, mute/unmute, and metadata.
@@ -48,7 +48,9 @@ apis:
 - description: SIP integration for inbound and outbound PSTN calls bridged into LiveKit rooms.
   name: LiveKit SIP (Telephony) API
   slug: sip-api
-- description: Bi-directional WebSocket signaling protocol used by LiveKit clients to coordinate WebRTC sessions with the SFU. Clients send `SignalRequest` protobuf messages and receive `SignalResponse` protobuf mes
+- baseURL: wss://your-project.livekit.cloud/rtc
+  baseurl_source: declared
+  description: Bi-directional WebSocket signaling protocol used by LiveKit clients to coordinate WebRTC sessions with the SFU. Clients send `SignalRequest` protobuf messages and receive `SignalResponse` protobuf mes
   name: LiveKit Signaling Protocol (WebSocket)
   slug: signaling-api
 - description: Framework and runtime for voice / multimodal AI agents that join LiveKit rooms; integrates with LLM, STT, and TTS providers.
@@ -164,7 +166,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -174,9 +176,9 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 32.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livekit/refs/heads/main/screenshots/livekit-2026-06-20T184644.png
 security:

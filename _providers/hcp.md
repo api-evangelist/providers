@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: The HCP Waypoint API enables programmatic management of application templates, add-ons, and deployment workflows for delivering golden patterns to developer teams.
   name: HCP Waypoint API
   slug: hcp-waypoint
-- description: HCP Vault Secrets applications
+- baseURL: https://api.cloud.hashicorp.com
+  baseurl_source: declared
+  description: HCP Vault Secrets applications
   name: HashiCorp Cloud Platform Apps API
   slug: hcp-apps-api
-- description: Gateway pools
+- baseURL: https://api.cloud.hashicorp.com
+  baseurl_source: declared
+  description: Gateway pools
   name: HashiCorp Cloud Platform Gateway API
   slug: hcp-gateway-api
-- description: External integrations
+- baseURL: https://api.cloud.hashicorp.com
+  baseurl_source: declared
+  description: External integrations
   name: HashiCorp Cloud Platform Integrations API
   slug: hcp-integrations-api
-- description: Static and rotating secrets
+- baseURL: https://api.cloud.hashicorp.com
+  baseurl_source: declared
+  description: Static and rotating secrets
   name: HashiCorp Cloud Platform Secrets API
   slug: hcp-secrets-api
-- description: Secret synchronization
+- baseURL: https://api.cloud.hashicorp.com
+  baseurl_source: declared
+  description: Secret synchronization
   name: HashiCorp Cloud Platform Sync API
   slug: hcp-sync-api
 artifact_total: 22
@@ -203,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/screenshots/hcp-2026-06-20T182554.png
 security:

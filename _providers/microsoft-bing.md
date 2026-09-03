@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -71,31 +71,49 @@ apis:
 - description: The Bing Local Business Search API returns information about local businesses based on search queries and location.
   name: Bing Local Business Search API
   slug: local-business-search
-- description: The Autosuggest API from Microsoft Bing — 1 operation(s) for autosuggest.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The Autosuggest API from Microsoft Bing — 1 operation(s) for autosuggest.
   name: Microsoft Bing Autosuggest API
   slug: microsoft-bing-autosuggest-api
-- description: The CustomSearch API from Microsoft Bing — 1 operation(s) for customsearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The CustomSearch API from Microsoft Bing — 1 operation(s) for customsearch.
   name: Microsoft Bing CustomSearch API
   slug: microsoft-bing-customsearch-api
-- description: The EntitySearch API from Microsoft Bing — 1 operation(s) for entitysearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The EntitySearch API from Microsoft Bing — 1 operation(s) for entitysearch.
   name: Microsoft Bing EntitySearch API
   slug: microsoft-bing-entitysearch-api
-- description: The ImageSearch API from Microsoft Bing — 1 operation(s) for imagesearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The ImageSearch API from Microsoft Bing — 1 operation(s) for imagesearch.
   name: Microsoft Bing ImageSearch API
   slug: microsoft-bing-imagesearch-api
-- description: The NewsSearch API from Microsoft Bing — 2 operation(s) for newssearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The NewsSearch API from Microsoft Bing — 2 operation(s) for newssearch.
   name: Microsoft Bing NewsSearch API
   slug: microsoft-bing-newssearch-api
-- description: The SpellCheck API from Microsoft Bing — 1 operation(s) for spellcheck.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The SpellCheck API from Microsoft Bing — 1 operation(s) for spellcheck.
   name: Microsoft Bing SpellCheck API
   slug: microsoft-bing-spellcheck-api
-- description: The VideoSearch API from Microsoft Bing — 1 operation(s) for videosearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The VideoSearch API from Microsoft Bing — 1 operation(s) for videosearch.
   name: Microsoft Bing VideoSearch API
   slug: microsoft-bing-videosearch-api
-- description: The VisualSearch API from Microsoft Bing — 1 operation(s) for visualsearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The VisualSearch API from Microsoft Bing — 1 operation(s) for visualsearch.
   name: Microsoft Bing VisualSearch API
   slug: microsoft-bing-visualsearch-api
-- description: The WebSearch API from Microsoft Bing — 1 operation(s) for websearch.
+- baseURL: https://api.bing.microsoft.com/
+  baseurl_source: declared
+  description: The WebSearch API from Microsoft Bing — 1 operation(s) for websearch.
   name: Microsoft Bing WebSearch API
   slug: microsoft-bing-websearch-api
 artifact_total: 35
@@ -238,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bing/refs/heads/main/screenshots/microsoft-bing-2026-06-20T185445.png
 security:

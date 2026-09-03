@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 178
   human_in_the_loop: 2
@@ -44,118 +44,194 @@ agentic_access:
   summary_line: 337 operations · 178 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The PagerDuty Events API is a system for triggering, acknowledging, and resolving alerts from monitoring tools and other data sources.
+- baseURL: https://events.pagerduty.com
+  baseurl_source: declared
+  description: The PagerDuty Events API is a system for triggering, acknowledging, and resolving alerts from monitoring tools and other data sources.
   name: PagerDuty Events API
   slug: pagerduty-events-api
-- description: This describes your account's abilities by feature name. For example `"teams"`. An ability may be available to your account based on things like your pricing plan or account state.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: This describes your account's abilities by feature name. For example `"teams"`. An ability may be available to your account based on things like your pricing plan or account state.
   name: PagerDuty Abilities API
   slug: pagerduty-abilities-api
-- description: Developers can write their own functionality to insert into PagerDuty's UI.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Developers can write their own functionality to insert into PagerDuty's UI.
   name: PagerDuty Add-Ons API
   slug: pagerduty-add-ons-api
-- description: Alert Grouping Settings allow you to configure how alerts in services are grouped together into incidents.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Alert Grouping Settings allow you to configure how alerts in services are grouped together into incidents.
   name: PagerDuty Alert Grouping Settings API
   slug: pagerduty-alert-grouping-settings-api
-- description: Provides enriched incident data.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Provides enriched incident data.
   name: PagerDuty Analytics API
   slug: pagerduty-analytics-api
-- description: Provides audit record data.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Provides audit record data.
   name: PagerDuty Audit API
   slug: pagerduty-audit-api
-- description: Automation Actions invoke jobs that are staged in Runbook Automation or Process Automation.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Automation Actions invoke jobs that are staged in Runbook Automation or Process Automation.
   name: PagerDuty Automation Actions API
   slug: pagerduty-automation-actions-api
-- description: Business services model capabilities that span multiple technical services and that may be owned by several different teams.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Business services model capabilities that span multiple technical services and that may be owned by several different teams.
   name: PagerDuty Business Services API
   slug: pagerduty-business-services-api
-- description: Change Events enable you to send informational events about recent changes such as code deploys and system config changes from any system that can make an outbound HTTP connection. These events do not
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Change Events enable you to send informational events about recent changes such as code deploys and system config changes from any system that can make an outbound HTTP connection. These events do not
   name: PagerDuty Change Events API
   slug: pagerduty-change-events-api
-- description: The Change Tags API from PagerDuty — 1 operation(s) for change tags.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: The Change Tags API from PagerDuty — 1 operation(s) for change tags.
   name: PagerDuty Change Tags API
   slug: pagerduty-change-tags-api
-- description: Custom fields allow you to enrich PagerDuty incidents with critical and helpful metadata throughout the incident lifecycle.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Custom fields allow you to enrich PagerDuty incidents with critical and helpful metadata throughout the incident lifecycle.
   name: PagerDuty Custom Fields API
   slug: pagerduty-custom-fields-api
-- description: Escalation policies define which user should be alerted at which time.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Escalation policies define which user should be alerted at which time.
   name: PagerDuty Escalation Policies API
   slug: pagerduty-escalation-policies-api
-- description: Event Orchestrations allow you to route events to an endpoint and create collections of Event Orchestrations, which define sets of actions to take based on event content.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Event Orchestrations allow you to route events to an endpoint and create collections of Event Orchestrations, which define sets of actions to take based on event content.
   name: PagerDuty Event Orchestrations API
   slug: pagerduty-event-orchestrations-api
-- description: A PagerDuty extension vendor represents a specific type of outbound extension such as Generic Webhook, Slack, ServiceNow.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A PagerDuty extension vendor represents a specific type of outbound extension such as Generic Webhook, Slack, ServiceNow.
   name: PagerDuty Extension Schemas API
   slug: pagerduty-extension-schemas-api
-- description: Extensions are representations of Extension Schema objects that are attached to Services.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Extensions are representations of Extension Schema objects that are attached to Services.
   name: PagerDuty Extensions API
   slug: pagerduty-extensions-api
-- description: An Incident Workflow is a sequence of configurable Steps and associated Triggers that can execute automated Actions for a given Incident.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: An Incident Workflow is a sequence of configurable Steps and associated Triggers that can execute automated Actions for a given Incident.
   name: PagerDuty Incident Workflows API
   slug: pagerduty-incident-workflows-api
-- description: An incident represents a problem or an issue that needs to be addressed and resolved. Incidents trigger on a service, which prompts notifications to go out to on-call responders per the service's esca
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: An incident represents a problem or an issue that needs to be addressed and resolved. Incidents trigger on a service, which prompts notifications to go out to on-call responders per the service's esca
   name: PagerDuty Incidents API
   slug: pagerduty-incidents-api
-- description: Licenses are allocated to Users to allow for per-User access to PagerDuty functionality within an Account.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Licenses are allocated to Users to allow for per-User access to PagerDuty functionality within an Account.
   name: PagerDuty Licenses API
   slug: pagerduty-licenses-api
-- description: A log of all the events that happen to an Incident, and these are exposed as Log Entries.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A log of all the events that happen to an Incident, and these are exposed as Log Entries.
   name: PagerDuty Log Entries API
   slug: pagerduty-log-entries-api
-- description: A Maintenance Window is used to temporarily disable one or more Services for a set period of time.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A Maintenance Window is used to temporarily disable one or more Services for a set period of time.
   name: PagerDuty Maintenance Windows API
   slug: pagerduty-maintenance-windows-api
-- description: A Notification is created when an Incident is triggered or escalated.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A Notification is created when an Incident is triggered or escalated.
   name: PagerDuty Notifications API
   slug: pagerduty-notifications-api
-- description: An on-call represents a contiguous unit of time for which a User will be on call for a given Escalation Policy and Escalation Rules
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: An on-call represents a contiguous unit of time for which a User will be on call for a given Escalation Policy and Escalation Rules
   name: PagerDuty On-Calls API
   slug: pagerduty-on-calls-api
-- description: Provides paused Incident reporting data on services and accounts that have paused Alerts.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Provides paused Incident reporting data on services and accounts that have paused Alerts.
   name: PagerDuty Paused Incident Reports API
   slug: pagerduty-paused-incident-reports-api
-- description: A priority is a label representing the importance and impact of an incident. This feature is only available on Standard and Enterprise plans.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A priority is a label representing the importance and impact of an incident. This feature is only available on Standard and Enterprise plans.
   name: PagerDuty Priorities API
   slug: pagerduty-priorities-api
-- description: Response Plays are a package of Incident Actions that can be applied during an Incident's life cycle.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Response Plays are a package of Incident Actions that can be applied during an Incident's life cycle.
   name: PagerDuty Response Plays API
   slug: pagerduty-response-plays-api
-- description: Rulesets allow you to route events to an endpoint and create collections of Event Rules, which define sets of actions to take based on event content.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Rulesets allow you to route events to an endpoint and create collections of Event Rules, which define sets of actions to take based on event content.
   name: PagerDuty Rulesets API
   slug: pagerduty-rulesets-api
-- description: A Schedule determines the time periods that users are On-Call.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A Schedule determines the time periods that users are On-Call.
   name: PagerDuty Schedules API
   slug: pagerduty-schedules-api
-- description: Services are categorized into technical and business services. Dependencies can be created via any combination of these services.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Services are categorized into technical and business services. Dependencies can be created via any combination of these services.
   name: PagerDuty Service Dependencies API
   slug: pagerduty-service-dependencies-api
-- description: The Services API from PagerDuty — 8 operation(s) for services.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: The Services API from PagerDuty — 8 operation(s) for services.
   name: PagerDuty Services API
   slug: pagerduty-services-api
-- description: Standards help provide a clear understanding of what a good service configuration looks like, allowing to share and enforce organization guidelines across services to ensure adherence to best practice
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Standards help provide a clear understanding of what a good service configuration looks like, allowing to share and enforce organization guidelines across services to ensure adherence to best practice
   name: PagerDuty Standards API
   slug: pagerduty-standards-api
-- description: Status Dashboards represent user-defined views for the Status Dashboard product that are limited to specific Business Services rather than the whole set of top-level Business Services (those with no d
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Status Dashboards represent user-defined views for the Status Dashboard product that are limited to specific Business Services rather than the whole set of top-level Business Services (those with no d
   name: PagerDuty Status Dashboards API
   slug: pagerduty-status-dashboards-api
-- description: Status Pages can be public or private read-only pages, that display the status of some predefined set of services, to be shared with customers or internal stakeholders.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Status Pages can be public or private read-only pages, that display the status of some predefined set of services, to be shared with customers or internal stakeholders.
   name: PagerDuty Status Pages API
   slug: pagerduty-status-pages-api
-- description: The Tags API from PagerDuty — 4 operation(s) for tags.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: The Tags API from PagerDuty — 4 operation(s) for tags.
   name: PagerDuty Tags API
   slug: pagerduty-tags-api
-- description: A team is a collection of Users and Escalation Policies that represent a group of people within an organization.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A team is a collection of Users and Escalation Policies that represent a group of people within an organization.
   name: PagerDuty Teams API
   slug: pagerduty-teams-api
-- description: Templates is a new feature which will allow customers to create message templates to be leveraged by (but not limited to) status updates. The API will be secured to customers with the status updates e
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Templates is a new feature which will allow customers to create message templates to be leveraged by (but not limited to) status updates. The API will be secured to customers with the status updates e
   name: PagerDuty Templates API
   slug: pagerduty-templates-api
-- description: Users are members of a PagerDuty account that have the ability to interact with Incidents and other data on the account.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: Users are members of a PagerDuty account that have the ability to interact with Incidents and other data on the account.
   name: PagerDuty Users API
   slug: pagerduty-users-api
-- description: A PagerDuty Vendor represents a specific type of integration. AWS Cloudwatch, Splunk, Datadog are all examples of vendors
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A PagerDuty Vendor represents a specific type of integration. AWS Cloudwatch, Splunk, Datadog are all examples of vendors
   name: PagerDuty Vendors API
   slug: pagerduty-vendors-api
-- description: A webhook is a way to receive events that occur on the PagerDuty platform via an HTTP POST request. V3 webhooks are set up by creating a webhook subscription.
+- baseURL: https://api.pagerduty.com
+  baseurl_source: declared
+  description: A webhook is a way to receive events that occur on the PagerDuty platform via an HTTP POST request. V3 webhooks are set up by creating a webhook subscription.
   name: PagerDuty Webhooks API
   slug: pagerduty-webhooks-api
 artifact_total: 138
@@ -550,7 +626,7 @@ score:
     catalog_gap: 78.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -560,7 +636,7 @@ score:
     discoverability: 51.9
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 38.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -569,7 +645,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagerduty/refs/heads/main/screenshots/pagerduty-2026-06-20T191325.png
 security:

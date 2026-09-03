@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'An OGC-standard GeoServer at geo.ec.gc.ca. Probed anonymously on 2026-08-20: the WMS 1.3.0 GetCapabilities request returned HTTP 200 with a valid WMS_Capabilities document titled "ECCC Web Map Service'
@@ -51,7 +51,7 @@ score:
   band: minimal
   composite: 7.8
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -67,8 +67,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/environment-and-climate-change-canada/refs/heads/main/screenshots/environment-and-climate-change-canada-2026-09-02T145404.png
 slug: environment-and-climate-change-canada
 tags:
 - Geospatial

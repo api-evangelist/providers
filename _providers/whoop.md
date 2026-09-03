@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 21 operations · 6 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Utility endpoints for activity ID mapping
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: Utility endpoints for activity ID mapping
   name: WHOOP Activity ID Mapping API
   slug: whoop-activity-id-mapping-api
-- description: The Cycle API from WHOOP — 3 operation(s) for cycle.
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: The Cycle API from WHOOP — 3 operation(s) for cycle.
   name: WHOOP Cycle API
   slug: whoop-cycle-api
-- description: Endpoints for trusted WHOOP partner operations
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: Endpoints for trusted WHOOP partner operations
   name: WHOOP Partner API
   slug: whoop-partner-api
-- description: The Recovery API from WHOOP — 2 operation(s) for recovery.
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: The Recovery API from WHOOP — 2 operation(s) for recovery.
   name: WHOOP Recovery API
   slug: whoop-recovery-api
-- description: The Sleep API from WHOOP — 3 operation(s) for sleep.
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: The Sleep API from WHOOP — 3 operation(s) for sleep.
   name: WHOOP Sleep API
   slug: whoop-sleep-api
-- description: Endpoints for retrieving user profile and measurement data.
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: Endpoints for retrieving user profile and measurement data.
   name: WHOOP User API
   slug: whoop-user-api
-- description: The Workout API from WHOOP — 2 operation(s) for workout.
+- baseURL: https://api.prod.whoop.com
+  baseurl_source: declared
+  description: The Workout API from WHOOP — 2 operation(s) for workout.
   name: WHOOP Workout API
   slug: whoop-workout-api
 artifact_total: 98
@@ -549,7 +563,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -559,7 +573,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 59.8
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -574,7 +588,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop/refs/heads/main/screenshots/whoop-2026-06-20T201453.png
 security:

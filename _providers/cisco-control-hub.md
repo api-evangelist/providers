@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
-- description: The AdminAuditEvents API from Cisco Control Hub — 1 operation(s) for adminauditevents.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The AdminAuditEvents API from Cisco Control Hub — 1 operation(s) for adminauditevents.
   name: Cisco Control Hub AdminAuditEvents API
   slug: cisco-control-hub-adminauditevents-api
-- description: The Devices API from Cisco Control Hub — 1 operation(s) for devices.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Devices API from Cisco Control Hub — 1 operation(s) for devices.
   name: Cisco Control Hub Devices API
   slug: cisco-control-hub-devices-api
-- description: The Licenses API from Cisco Control Hub — 2 operation(s) for licenses.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Licenses API from Cisco Control Hub — 2 operation(s) for licenses.
   name: Cisco Control Hub Licenses API
   slug: cisco-control-hub-licenses-api
-- description: The Locations API from Cisco Control Hub — 2 operation(s) for locations.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Locations API from Cisco Control Hub — 2 operation(s) for locations.
   name: Cisco Control Hub Locations API
   slug: cisco-control-hub-locations-api
-- description: The Organizations API from Cisco Control Hub — 2 operation(s) for organizations.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Cisco Control Hub — 2 operation(s) for organizations.
   name: Cisco Control Hub Organizations API
   slug: cisco-control-hub-organizations-api
-- description: The People API from Cisco Control Hub — 2 operation(s) for people.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The People API from Cisco Control Hub — 2 operation(s) for people.
   name: Cisco Control Hub People API
   slug: cisco-control-hub-people-api
-- description: The Workspaces API from Cisco Control Hub — 1 operation(s) for workspaces.
+- baseURL: https://webexapis.com/v1
+  baseurl_source: declared
+  description: The Workspaces API from Cisco Control Hub — 1 operation(s) for workspaces.
   name: Cisco Control Hub Workspaces API
   slug: cisco-control-hub-workspaces-api
 artifact_total: 24
@@ -187,7 +201,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/screenshots/cisco-control-hub-2026-06-20T174357.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 34 operations
 api_count: 1
 apis:
-- description: Metro agencies and supported transit types.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Metro agencies and supported transit types.
   name: Moovit General API
   slug: moovit-general-api
-- description: GTFS-RT feeds for vehicles, trip updates, and service alerts.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: GTFS-RT feeds for vehicles, trip updates, and service alerts.
   name: Moovit GTFSRealtime API
   slug: moovit-gtfsrealtime-api
-- description: Line metadata, stops, geometry, schedules, and alerts.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Line metadata, stops, geometry, schedules, and alerts.
   name: Moovit Lines API
   slug: moovit-lines-api
-- description: Locate stops, bikes, and scooters near a coordinate.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Locate stops, bikes, and scooters near a coordinate.
   name: Moovit Nearby API
   slug: moovit-nearby-api
-- description: Live arrival predictions for stops and lines.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Live arrival predictions for stops and lines.
   name: Moovit RealTime API
   slug: moovit-realtime-api
-- description: Search stops and lines by name or number.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Search stops and lines by name or number.
   name: Moovit Search API
   slug: moovit-search-api
-- description: Metro service alerts and details.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Metro service alerts and details.
   name: Moovit ServiceAlerts API
   slug: moovit-servicealerts-api
-- description: Stop metadata, lines served, reviews, and photos.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Stop metadata, lines served, reviews, and photos.
   name: Moovit Stops API
   slug: moovit-stops-api
-- description: Multimodal trip planning and itinerary details.
+- baseURL: https://app5.moovitapp.com/services-app/services/
+  baseurl_source: declared
+  description: Multimodal trip planning and itinerary details.
   name: Moovit TripPlan API
   slug: moovit-tripplan-api
 artifact_total: 39
@@ -311,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moovit/refs/heads/main/screenshots/moovit-2026-06-20T185803.png
 security:

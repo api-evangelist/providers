@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Generate Token API from Kuru — 1 operation(s) for generate token.
+- baseURL: https://ws.kuru.io
+  baseurl_source: declared
+  description: The Generate Token API from Kuru — 1 operation(s) for generate token.
   name: Kuru Generate Token API
   slug: kuru-generate-token-api
-- description: The Quote API from Kuru — 1 operation(s) for quote.
+- baseURL: https://ws.kuru.io
+  baseurl_source: declared
+  description: The Quote API from Kuru — 1 operation(s) for quote.
   name: Kuru Quote API
   slug: kuru-quote-api
 artifact_total: 9
@@ -222,7 +226,7 @@ score:
     regime_id: securities_market_data
     score: 35.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuru/refs/heads/main/screenshots/kuru-2026-07-25T224337.png
 security:

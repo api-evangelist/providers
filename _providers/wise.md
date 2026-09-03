@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -45,148 +45,244 @@ agentic_access:
   summary_line: 238 operations · 147 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: To manage certain aspects of the 3D Secure (3DS) authentication, you will need to integrate with the following APIs.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: To manage certain aspects of the 3D Secure (3DS) authentication, you will need to integrate with the following APIs.
   name: Wise 3ds API
   slug: wise-3ds-api
-- description: Activity represents a snapshot of a performed action for a profile.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Activity represents a snapshot of a performed action for a profile.
   name: Wise activity API
   slug: wise-activity-api
-- description: Manage physical addresses associated with user profiles. Address requirements vary by country — use the address requirements endpoints to dynamically discover which fields are needed before creating a
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Manage physical addresses associated with user profiles. Address requirements vary by country — use the address requirements endpoints to dynamically discover which fields are needed before creating a
   name: Wise address API
   slug: wise-address-api
-- description: 'Create and manage balance accounts within a multi-currency account. Each profile can hold multiple balance accounts in different currencies. A `STANDARD` balance is limited to one per currency, while '
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Create and manage balance accounts within a multi-currency account. Each profile can hold multiple balance accounts in different currencies. A `STANDARD` balance is limited to one per currency, while '
   name: Wise balance API
   slug: wise-balance-api
-- description: Balance statements contain transactional activities on a Wise Multi-Currency Account, including deposits, withdrawals, conversions, card transactions, and fees. Statements can be retrieved in multiple
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Balance statements contain transactional activities on a Wise Multi-Currency Account, including deposits, withdrawals, conversions, card transactions, and fees. Statements can be retrieved in multiple
   name: Wise balance-statement API
   slug: wise-balance-statement-api
-- description: 'Bank account details allow users to receive money into their Wise Multi-Currency Account. Each currency balance can have local bank details (for domestic payments) and international bank details (for '
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Bank account details allow users to receive money into their Wise Multi-Currency Account. Each currency balance can have local bank details (for domestic payments) and international bank details (for '
   name: Wise bank-account-details API
   slug: wise-bank-account-details-api
-- description: A batch group is a named collection of up to 1000 transfers that can be managed as a single unit. Batch groups are primarily used for funding multiple transfers with a single payment. **Workflow:** 1.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: A batch group is a named collection of up to 1000 transfers that can be managed as a single unit. Batch groups are primarily used for funding multiple transfers with a single payment. **Workflow:** 1.
   name: Wise batch-group API
   slug: wise-batch-group-api
-- description: Bulk settlement allows partners to settle multiple transfers in a single bank transfer at the end of a settlement period. This model splits transfer creation/funding from final settlement, allowing Wi
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Bulk settlement allows partners to settle multiple transfers in a single bank transfer at the end of a settlement period. This model splits transfer creation/funding from final settlement, allowing Wi
   name: Wise bulk-settlement API
   slug: wise-bulk-settlement-api
-- description: Manage your customers' cards programmatically. These APIs allow you to list cards, retrieve card details, control card status, and manage spending permissions. **Key capabilities:** - List and retriev
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Manage your customers' cards programmatically. These APIs allow you to list cards, retrieve card details, control card status, and manage spending permissions. **Key capabilities:** - List and retriev
   name: Wise card API
   slug: wise-card-api
-- description: These APIs are designed to allow you to print and encrypt your card directly from a kiosk machine. The card information will be sent to our card manufacturer to configure and print the card on-site on
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: These APIs are designed to allow you to print and encrypt your card directly from a kiosk machine. The card information will be sent to our card manufacturer to configure and print the card on-site on
   name: Wise card-kiosk-collection API
   slug: wise-card-kiosk-collection-api
-- description: With this set of APIs, you will be able to create cards for your customers. You can also retrieve and view the status of your current card orders, as well as the list of available card programs for th
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: With this set of APIs, you will be able to create cards for your customers. You can also retrieve and view the status of your current card orders, as well as the list of available card programs for th
   name: Wise card-order API
   slug: wise-card-order-api
-- description: Wise is a PCI DSS compliant provider and stores all card data securely. The scope for PCI compliance depends on your use case and will impact how you integrate. For all sensitive card details endpoint
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Wise is a PCI DSS compliant provider and stores all card data securely. The scope for PCI compliance depends on your use case and will impact how you integrate. For all sensitive card details endpoint
   name: Wise card-sensitive-details API
   slug: wise-card-sensitive-details-api
-- description: 'Retrieve information on transactions made on your users'' cards. Transaction types {% #card-transaction-type .title-3 .m-t-5 %} The possible `type` values are: - `ACCOUNT_CREDIT` - Receiving money on t'
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Retrieve information on transactions made on your users'' cards. Transaction types {% #card-transaction-type .title-3 .m-t-5 %} The possible `type` values are: - `ACCOUNT_CREDIT` - Receiving money on t'
   name: Wise card-transaction API
   slug: wise-card-transaction-api
-- description: 'Partner Cases are part of the Partner Support API, allowing partners to open, retrieve and respond to support and operations queries. The endpoints described here allow partners to directly integrate '
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Partner Cases are part of the Partner Support API, allowing partners to open, retrieve and respond to support and operations queries. The endpoints described here allow partners to directly integrate '
   name: Wise case API
   slug: wise-case-api
-- description: Allow a customer to take ownership of an account [created on their behalf](/api-reference/user/usercreate). Generate a short-lived `claim_account_code` and use it when [redirecting the customer to Wis
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Allow a customer to take ownership of an account [created on their behalf](/api-reference/user/usercreate). Generate a short-lived `claim_account_code` and use it when [redirecting the customer to Wis
   name: Wise claim-account API
   slug: wise-claim-account-api
-- description: 'The comparison API can be used to request price and speed information about various money transfer providers. This includes not only Wise but other providers in the market. Price Estimation {% #compar'
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'The comparison API can be used to request price and speed information about various money transfer providers. This includes not only Wise but other providers in the market. Price Estimation {% #compar'
   name: Wise comparison API
   slug: wise-comparison-api
-- description: Find discoverable Wise profiles and add them to your recipient list using an identifier — such as a Wisetag, email, or phone number — without needing bank details. Creating a transfer with a contact {
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Find discoverable Wise profiles and add them to your recipient list using an identifier — such as a Wisetag, email, or phone number — without needing bank details. Creating a transfer with a contact {
   name: Wise contact API
   slug: wise-contact-api
-- description: Retrieve the list of currencies supported for transfers, including currency codes and display names.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Retrieve the list of currencies supported for transfers, including currency codes and display names.
   name: Wise currencies API
   slug: wise-currencies-api
-- description: Get the estimated delivery time for a transfer, showing when funds are expected to arrive in the recipient's bank account.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Get the estimated delivery time for a transfer, showing when funds are expected to arrive in the recipient's bank account.
   name: Wise delivery-estimate API
   slug: wise-delivery-estimate-api
-- description: These APIs provide encrypted cardholder information needed to implement push provisioning (Apple Pay, Google Pay) in your own mobile app.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: These APIs provide encrypted cardholder information needed to implement push provisioning (Apple Pay, Google Pay) in your own mobile app.
   name: Wise digital-wallet API
   slug: wise-digital-wallet-api
-- description: Register and retrieve external bank accounts used to fund batch transfers via ACH (USD) or EFT (CAD) direct debit.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Register and retrieve external bank accounts used to fund batch transfers via ACH (USD) or EFT (CAD) direct debit.
   name: Wise direct-debit-account API
   slug: wise-direct-debit-account-api
-- description: 'Raise and manage card transaction disputes, including submission via Dynamic Flow or direct API, file uploads, and dispute lifecycle tracking. For implementation details, see: - [Disputes via Dynamic '
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Raise and manage card transaction disputes, including submission via Dynamic Flow or direct API, file uploads, and dispute lifecycle tracking. For implementation details, see: - [Disputes via Dynamic '
   name: Wise disputes API
   slug: wise-disputes-api
-- description: Wise leverages [FaceTec's](https://www.facetec.com/) facial biometric technology for authentication. Use this endpoint to retrieve the public key needed for exporting 3D FaceMaps.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Wise leverages [FaceTec's](https://www.facetec.com/) facial biometric technology for authentication. Use this endpoint to retrieve the public key needed for exporting 3D FaceMaps.
   name: Wise facetec API
   slug: wise-facetec-api
-- description: Wise uses the [JOSE framework](https://jose.readthedocs.io/en/latest/) to accept and respond with signed and encrypted payloads. These endpoints allow you to manage keys and test your signing and encr
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Wise uses the [JOSE framework](https://jose.readthedocs.io/en/latest/) to accept and respond with signed and encrypted payloads. These endpoints allow you to manage keys and test your signing and encr
   name: Wise jose API
   slug: wise-jose-api
-- description: 'KYC Review API provides endpoints to view, update and submit information related to the KYC flow. There are two ways to collect KYC requirements from your customers: - **Hosted KYC** — redirect your c'
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'KYC Review API provides endpoints to view, update and submit information related to the KYC flow. There are two ways to collect KYC requirements from your customers: - **Hosted KYC** — redirect your c'
   name: Wise kyc-review API
   slug: wise-kyc-review-api
-- description: The Wise multi-currency account (MCA) enables users to hold, convert, and fund transfers (single or batches) with balances in up to 56 currencies. Of the 50+ currency balances supported, 10+ come with
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: The Wise multi-currency account (MCA) enables users to hold, convert, and fund transfers (single or batches) with balances in up to 56 currencies. Of the 50+ currency balances supported, 10+ come with
   name: Wise multi-currency-account API
   slug: wise-multi-currency-account-api
-- description: 'Exchange client credentials or authorisation grants for OAuth 2.0 access tokens. All grant types use `POST /oauth/token` with basic authentication (your `client_id` and `client_secret`). Depending on '
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: 'Exchange client credentials or authorisation grants for OAuth 2.0 access tokens. All grant types use `POST /oauth/token` with basic authentication (your `client_id` and `client_secret`). Depending on '
   name: Wise oauth-token API
   slug: wise-oauth-token-api
-- description: The payin deposit details API allows you to get the bank details for the account that the customer should send funds to when paying for a Wise transfer via a bank transfer. These details will be provi
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: The payin deposit details API allows you to get the bank details for the account that the customer should send funds to when paying for a Wise transfer via a bank transfer. These details will be provi
   name: Wise payin-deposit-detail API
   slug: wise-payin-deposit-detail-api
-- description: The payin APIs allow you to fund the MCA or transfers with local payment rails, by retrieving or creating the relevant details to send to for funding a payment. These details will be provided in the l
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: The payin APIs allow you to fund the MCA or transfers with local payment rails, by retrieving or creating the relevant details to send to for funding a payment. These details will be provided in the l
   name: Wise payins API
   slug: wise-payins-api
-- description: A profile represents an identity that can send and receive money through Wise — either a personal profile (an individual) or a business profile (a company). Most API endpoints require a `profileId` pa
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: A profile represents an identity that can send and receive money through Wise — either a personal profile (an individual) or a business profile (a company). Most API endpoints require a `profileId` pa
   name: Wise profile API
   slug: wise-profile-api
-- description: The quote resource defines the basic information required for a Wise transfer - the currencies to send between, the amount to send and the profile who is sending the money. The profile _must_ be inclu
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: The quote resource defines the basic information required for a Wise transfer - the currencies to send between, the amount to send and the profile who is sending the money. The profile _must_ be inclu
   name: Wise quote API
   slug: wise-quote-api
-- description: Current and historical exchange rates by currency routes.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Current and historical exchange rates by currency routes.
   name: Wise rate API
   slug: wise-rate-api
-- description: Recipient or beneficiary is the one who will receive the funds. Recipient account endpoints use a mixture of our v1 and v2 APIs. Please ensure you address the right version to get the expected results
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Recipient or beneficiary is the one who will receive the funds. Recipient account endpoints use a mixture of our v1 and v2 APIs. Please ensure you address the right version to get the expected results
   name: Wise recipient API
   slug: wise-recipient-api
-- description: Device fingerprints are possession-based SCA challenge factors. They allow you to verify that a user is accessing the API from a recognized device. A profile can have up to 3 device fingerprints regis
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Device fingerprints are possession-based SCA challenge factors. They allow you to verify that a user is accessing the API from a recognized device. A profile can have up to 3 device fingerprints regis
   name: Wise sca-device-fingerprints API
   slug: wise-sca-device-fingerprints-api
-- description: Facemaps are inherence-based (biometric) SCA challenge factors that use FaceTec's 3D face recognition technology. Facemaps should be exported from your FaceTec server using their SDK's export API. Use
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Facemaps are inherence-based (biometric) SCA challenge factors that use FaceTec's 3D face recognition technology. Facemaps should be exported from your FaceTec server using their SDK's export API. Use
   name: Wise sca-facemaps API
   slug: wise-sca-facemaps-api
-- description: For phone-based OTP (one-time password) authentication — where an OTP is a single-use 6-digit code sent to verify the identity of a user — Wise supports multiple delivery methods, including SMS, Whats
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: For phone-based OTP (one-time password) authentication — where an OTP is a single-use 6-digit code sent to verify the identity of a user — Wise supports multiple delivery methods, including SMS, Whats
   name: Wise sca-otp API
   slug: wise-sca-otp-api
-- description: One-time tokens are temporary authentication sessions used to track SCA challenges. When an SCA-protected endpoint is called, a one-time token is returned containing the challenges that must be comple
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: One-time tokens are temporary authentication sessions used to track SCA challenges. When an SCA-protected endpoint is called, a one-time token is returned containing the challenges that must be comple
   name: Wise sca-ott API
   slug: wise-sca-ott-api
-- description: PIN (Personal Identification Number) is a knowledge-based SCA challenge factor. Users create a 4-digit PIN that can be used to verify their identity when accessing SCA-protected endpoints. All PIN cre
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: PIN (Personal Identification Number) is a knowledge-based SCA challenge factor. Users create a 4-digit PIN that can be used to verify their identity when accessing SCA-protected endpoints. All PIN cre
   name: Wise sca-pin API
   slug: wise-sca-pin-api
-- description: SCA sessions allow you to manually trigger Strong Customer Authentication, returning a one-time token along with a list of associated challenges. These challenges can be cleared using the verify endpo
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: SCA sessions allow you to manually trigger Strong Customer Authentication, returning a one-time token along with a list of associated challenges. These challenges can be cleared using the verify endpo
   name: Wise sca-sessions API
   slug: wise-sca-sessions-api
-- description: Use these endpoints to simulate key actions in the sandbox environment, including transfer state changes, balance top-ups, card transactions, KYC reviews, and incoming payments. {% admonition type="in
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Use these endpoints to simulate key actions in the sandbox environment, including transfer state changes, balance top-ups, card transactions, KYC reviews, and incoming payments. {% admonition type="in
   name: Wise simulation API
   slug: wise-simulation-api
-- description: Control which card transactions are permitted by creating rules based on merchant category code (MCC) or transaction currency. An authorisation rule dictates whether transactions should be declined or
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Control which card transactions are permitted by creating rules based on merchant category code (MCC) or transaction currency. An authorisation rule dictates whether transactions should be declined or
   name: Wise spend-controls API
   slug: wise-spend-controls-api
-- description: Manage spending limits applied to profiles and cards. Profile limits are shared across all cards under the same profile, while card limits apply to individual cards. For more details on how profile an
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Manage spending limits applied to profiles and cards. Profile limits are shared across all cards under the same profile, while card limits apply to individual cards. For more details on how profile an
   name: Wise spend-limits API
   slug: wise-spend-limits-api
-- description: A transfer is a payment order to a [recipient account](/api-reference/recipient) based on a [quote](/api-reference/quote). Once created, a transfer usually needs to be funded within fourteen days. Oth
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: A transfer is a payment order to a [recipient account](/api-reference/recipient) based on a [quote](/api-reference/quote). Once created, a transfer usually needs to be funded within fourteen days. Oth
   name: Wise transfer API
   slug: wise-transfer-api
-- description: A User serves as the primary entity and can possess multiple Profiles to represent different contexts or settings. A User can have one personal Profile and multiple business Profiles. Each [Profile](/
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: A User serves as the primary entity and can possess multiple Profiles to represent different contexts or settings. A User can have one personal Profile and multiple business Profiles. Each [Profile](/
   name: Wise user API
   slug: wise-user-api
-- description: '{% admonition type="warning" %} These endpoints are deprecated. Please refer to [PIN](/api-reference/sca-pin), [Facemaps](/api-reference/sca-facemaps), and [Device Fingerprints](/api-reference/sca-dev'
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: '{% admonition type="warning" %} These endpoints are deprecated. Please refer to [PIN](/api-reference/sca-pin), [Facemaps](/api-reference/sca-facemaps), and [Device Fingerprints](/api-reference/sca-dev'
   name: Wise user-security API
   slug: wise-user-security-api
-- description: In certain situations, additional evidence is required to verify customers and ensure we’re compliant with the KYC regulations. Additional Verification APIs support a list of evidences that can be fou
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: In certain situations, additional evidence is required to verify customers and ensure we’re compliant with the KYC regulations. Additional Verification APIs support a list of evidences that can be fou
   name: Wise verification API
   slug: wise-verification-api
-- description: Manage webhook subscriptions at both the application and profile level. Create, list, retrieve, and delete subscriptions, as well as test your webhook endpoints. For more information on creating and m
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Manage webhook subscriptions at both the application and profile level. Create, list, retrieve, and delete subscriptions, as well as test your webhook endpoints. For more information on creating and m
   name: Wise webhook API
   slug: wise-webhook-api
-- description: Webhook events are notifications sent by Wise to your server when specific actions occur. Subscribe to events using the [Webhook](/api-reference/webhook) endpoints at the application or profile level.
+- baseURL: https://api.wise.com/v2
+  baseurl_source: declared
+  description: Webhook events are notifications sent by Wise to your server when specific actions occur. Subscribe to events using the [Webhook](/api-reference/webhook) endpoints at the application or profile level.
   name: Wise Webhook Event API
   slug: wise-webhook-event-api
 artifact_total: 107
@@ -468,7 +564,7 @@ score:
     catalog_gap: 78.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -478,7 +574,7 @@ score:
     discoverability: 51.9
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 35.3
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -493,7 +589,7 @@ score:
     regime_id: banking_open_finance
     score: 29.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

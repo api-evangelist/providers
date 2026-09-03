@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 6 operations
 api_count: 6
 apis:
-- description: Organization hierarchy and location management
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Organization hierarchy and location management
   name: Aramark Organization API
   slug: aramark-organization-api
-- description: Point of sale transaction data
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Point of sale transaction data
   name: Aramark Point of Sale API
   slug: aramark-point-of-sale-api
-- description: Product and menu catalog data
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Product and menu catalog data
   name: Aramark Product API
   slug: aramark-product-api
-- description: Profit center and financial unit management
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Profit center and financial unit management
   name: Aramark Profit Centers API
   slug: aramark-profit-centers-api
-- description: Revenue snapshot and financial analytics
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Revenue snapshot and financial analytics
   name: Aramark Revenue API
   slug: aramark-revenue-api
-- description: Service management and tracking
+- baseURL: https://www.marko.aramark.net/v1
+  baseurl_source: declared
+  description: Service management and tracking
   name: Aramark Service API
   slug: aramark-service-api
 artifact_total: 77
@@ -377,7 +389,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png
 security:

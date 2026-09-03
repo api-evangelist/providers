@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -52,22 +52,34 @@ apis:
 - description: Contour's ContourConfiguration Custom Resource Definition (v1alpha1) that provides cluster-scoped configuration of a Contour instance, including ingress settings, TLS defaults, timeouts, and feature g
   name: Contour Configuration API
   slug: contour-configuration-api
-- description: Namespace-scoped resources that describe network infrastructure instances that route traffic. Each Gateway is associated with a GatewayClass and defines listeners for inbound traffic.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Namespace-scoped resources that describe network infrastructure instances that route traffic. Each Gateway is associated with a GatewayClass and defines listeners for inbound traffic.
   name: Contour Gateway API
   slug: contour-gateway-api
-- description: Cluster-scoped resources that define the controller responsible for managing Gateways of a particular class. GatewayClass is analogous to IngressClass in the legacy Ingress API.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Cluster-scoped resources that define the controller responsible for managing Gateways of a particular class. GatewayClass is analogous to IngressClass in the legacy Ingress API.
   name: Contour GatewayClass API
   slug: contour-gatewayclass-api
-- description: Operations for managing Contour HTTPProxy custom resources in a Kubernetes cluster. HTTPProxy resources define ingress routing rules for HTTP and HTTPS traffic.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Operations for managing Contour HTTPProxy custom resources in a Kubernetes cluster. HTTPProxy resources define ingress routing rules for HTTP and HTTPS traffic.
   name: Contour HTTPProxy API
   slug: contour-httpproxy-api
-- description: Namespace-scoped resources that define HTTP routing rules, mapping HTTP/HTTPS requests to backend Kubernetes services based on host, path, headers, and other criteria.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Namespace-scoped resources that define HTTP routing rules, mapping HTTP/HTTPS requests to backend Kubernetes services based on host, path, headers, and other criteria.
   name: Contour HTTPRoute API
   slug: contour-httproute-api
-- description: Operations for managing TLSCertificateDelegation resources that allow certificates in one namespace to be used by HTTPProxy resources in other namespaces.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Operations for managing TLSCertificateDelegation resources that allow certificates in one namespace to be used by HTTPProxy resources in other namespaces.
   name: Contour TLSCertificateDelegation API
   slug: contour-tlscertificatedelegation-api
-- description: Namespace-scoped resources that define TLS routing rules for routing TLS connections based on SNI hostname to backend services.
+- baseURL: https://projectcontour.io
+  baseurl_source: declared
+  description: Namespace-scoped resources that define TLS routing rules for routing TLS connections based on SNI hostname to backend services.
   name: Contour TLSRoute API
   slug: contour-tlsroute-api
 artifact_total: 71
@@ -422,7 +434,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 7
@@ -44,100 +44,164 @@ agentic_access:
   summary_line: 237 operations · 129 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: Authenticate against Portainer HTTP API
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Authenticate against Portainer HTTP API
   name: Portainer auth API
   slug: portainer-auth-api
-- description: Manage backups
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage backups
   name: Portainer backup API
   slug: portainer-backup-api
-- description: Manage Custom Templates
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Custom Templates
   name: Portainer custom_templates API
   slug: portainer-custom-templates-api
-- description: Manage Docker resources
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Docker resources
   name: Portainer docker API
   slug: portainer-docker-api
-- description: Manage Edge related environment(endpoint) settings
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Edge related environment(endpoint) settings
   name: Portainer edge API
   slug: portainer-edge-api
-- description: Manage Edge Groups
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Edge Groups
   name: Portainer edge_groups API
   slug: portainer-edge-groups-api
-- description: Manage Edge Jobs
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Edge Jobs
   name: Portainer edge_jobs API
   slug: portainer-edge-jobs-api
-- description: Manage Edge Stacks
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Edge Stacks
   name: Portainer edge_stacks API
   slug: portainer-edge-stacks-api
-- description: Manage environment(endpoint) groups
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage environment(endpoint) groups
   name: Portainer endpoint_groups API
   slug: portainer-endpoint-groups-api
-- description: Manage Docker environments(endpoints)
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Docker environments(endpoints)
   name: Portainer endpoints API
   slug: portainer-endpoints-api
-- description: Operate git repository
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Operate git repository
   name: Portainer gitops API
   slug: portainer-gitops-api
-- description: Manage Helm charts
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Helm charts
   name: Portainer helm API
   slug: portainer-helm-api
-- description: Manage Intel AMT settings
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Intel AMT settings
   name: Portainer intel API
   slug: portainer-intel-api
-- description: Manage Kubernetes cluster
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Kubernetes cluster
   name: Portainer kubernetes API
   slug: portainer-kubernetes-api
-- description: Manage LDAP settings
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage LDAP settings
   name: Portainer ldap API
   slug: portainer-ldap-api
-- description: Fetch the message of the day
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Fetch the message of the day
   name: Portainer motd API
   slug: portainer-motd-api
-- description: Manage Docker registries
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Docker registries
   name: Portainer registries API
   slug: portainer-registries-api
-- description: Manage access control on Docker resources
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage access control on Docker resources
   name: Portainer resource_controls API
   slug: portainer-resource-controls-api
-- description: Manage roles
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage roles
   name: Portainer roles API
   slug: portainer-roles-api
-- description: Manage Portainer settings
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Portainer settings
   name: Portainer settings API
   slug: portainer-settings-api
-- description: Manage ssl settings
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage ssl settings
   name: Portainer ssl API
   slug: portainer-ssl-api
-- description: Manage stacks
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage stacks
   name: Portainer stacks API
   slug: portainer-stacks-api
-- description: Information about the Portainer instance
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Information about the Portainer instance
   name: Portainer status API
   slug: portainer-status-api
-- description: Manage Portainer system
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage Portainer system
   name: Portainer system API
   slug: portainer-system-api
-- description: Manage tags
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage tags
   name: Portainer tags API
   slug: portainer-tags-api
-- description: Manage team memberships
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage team memberships
   name: Portainer team_memberships API
   slug: portainer-team-memberships-api
-- description: Manage teams
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage teams
   name: Portainer teams API
   slug: portainer-teams-api
-- description: Manage App Templates
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage App Templates
   name: Portainer templates API
   slug: portainer-templates-api
-- description: Upload files
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Upload files
   name: Portainer upload API
   slug: portainer-upload-api
-- description: Manage users
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage users
   name: Portainer users API
   slug: portainer-users-api
-- description: Manage webhooks
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Manage webhooks
   name: Portainer webhooks API
   slug: portainer-webhooks-api
-- description: Create exec sessions using websockets
+- baseURL: https://api-docs.portainer.io
+  baseurl_source: declared
+  description: Create exec sessions using websockets
   name: Portainer websocket API
   slug: portainer-websocket-api
 artifact_total: 72
@@ -358,7 +422,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -371,7 +435,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 43.9
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -380,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portainer/refs/heads/main/screenshots/portainer-2026-06-20T191931.png
 security:

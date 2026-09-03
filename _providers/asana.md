@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 316 operations · 169 acting
 api_count: 3
 apis:
-- description: The Asana Allocations API is a tool that allows users to manage and allocate resources within their Asana project management system. With this API, users can easily assign tasks and track the progress
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Allocations API is a tool that allows users to manage and allocate resources within their Asana project management system. With this API, users can easily assign tasks and track the progress
   name: Asana Allocations  API
   slug: asana-allocations-api
-- description: The Asana Attachments API allows developers to interact with and manage file attachments within the Asana project management platform. This API enables users to upload, download, and delete attachment
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Attachments API allows developers to interact with and manage file attachments within the Asana project management platform. This API enables users to upload, download, and delete attachment
   name: Asana Attachments  API
   slug: asana-attachments-api
-- description: The Asana Custom Fields API allows developers to create and manage custom fields within Asana, a popular project management tool. With this API, users can define custom fields that are specific to the
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Custom Fields API allows developers to create and manage custom fields within Asana, a popular project management tool. With this API, users can define custom fields that are specific to the
   name: Asana Custom Fields  API
   slug: asana-custom-fields-api
-- description: The Asana Enum Options API is a tool that allows users to retrieve and manage information about enum options within their Asana projects. Enum options are pre-defined choices that users can select fro
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Enum Options API is a tool that allows users to retrieve and manage information about enum options within their Asana projects. Enum options are pre-defined choices that users can select fro
   name: Asana Enum Options  API
   slug: asana-enum-options-api
-- description: The Asana Events API is a tool that allows users to track and interact with events happening within their Asana workspace. Through this API, users can receive real-time updates on changes to tasks, pr
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Events API is a tool that allows users to track and interact with events happening within their Asana workspace. Through this API, users can receive real-time updates on changes to tasks, pr
   name: Asana Events  API
   slug: asana-events-api
-- description: The Asana Goal Relationships API allows users to create and manage relationships between different goals within their Asana workspace. This API enables users to define dependencies between goals, trac
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Goal Relationships API allows users to create and manage relationships between different goals within their Asana workspace. This API enables users to define dependencies between goals, trac
   name: Asana Goal Relationships  API
   slug: asana-goal-relationships-api
-- description: The Asana Goals API is a powerful tool that allows developers to programmatically interact with and manipulate goals within the Asana platform. By utilizing the API, users can create, update, and trac
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Goals API is a powerful tool that allows developers to programmatically interact with and manipulate goals within the Asana platform. By utilizing the API, users can create, update, and trac
   name: Asana Goals  API
   slug: asana-goals-api
-- description: Asana Jobs API is an application programming interface that allows developers to access and interact with job-related data and functionality within the Asana platform. This API enables users to progra
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana Jobs API is an application programming interface that allows developers to access and interact with job-related data and functionality within the Asana platform. This API enables users to progra
   name: Asana Jobs  API
   slug: asana-jobs-api
-- description: 'The Asana Memberships API is a tool that allows developers to integrate Asana''s membership features into their own applications. This API allows users to access and manage information related to team '
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: 'The Asana Memberships API is a tool that allows developers to integrate Asana''s membership features into their own applications. This API allows users to access and manage information related to team '
   name: Asana Memberships  API
   slug: asana-memberships-api
-- description: The Asana Organization Exports API is a tool that allows users to extract and download data from their Asana organization for external use. This API enables business owners and project managers to exp
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Organization Exports API is a tool that allows users to extract and download data from their Asana organization for external use. This API enables business owners and project managers to exp
   name: Asana Organization Exports  API
   slug: asana-organization-exports-api
-- description: Asana Portfolios API allows developers to access and manage portfolios in the Asana platform programmatically. With this API, users can create, update, and delete portfolios, as well as add projects a
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana Portfolios API allows developers to access and manage portfolios in the Asana platform programmatically. With this API, users can create, update, and delete portfolios, as well as add projects a
   name: Asana Portfolios  API
   slug: asana-portfolios-api
-- description: The Asana Project Templates API is a tool that allows users to access and utilize pre-designed project templates within the Asana platform. With this API, users can easily create and customize project
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Project Templates API is a tool that allows users to access and utilize pre-designed project templates within the Asana platform. With this API, users can easily create and customize project
   name: Asana Project Templates  API
   slug: asana-project-templates-api
-- description: The Asana Projects API is a tool that allows users to programmatically interact with Asana projects, enabling them to create, update, and manage tasks and projects within the Asana platform. By levera
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Projects API is a tool that allows users to programmatically interact with Asana projects, enabling them to create, update, and manage tasks and projects within the Asana platform. By levera
   name: Asana Projects  API
   slug: asana-projects-api
-- description: The Asana Sections API provides developers with the ability to programmatically interact with and manage sections within Asana projects. This API allows users to create, update, and delete sections as
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Sections API provides developers with the ability to programmatically interact with and manage sections within Asana projects. This API allows users to create, update, and delete sections as
   name: Asana Sections  API
   slug: asana-sections-api
-- description: The Asana Status Updates API allows users to retrieve and update the status of tasks and projects within the Asana platform. This API enables developers to programmatically interact with the status up
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Status Updates API allows users to retrieve and update the status of tasks and projects within the Asana platform. This API enables developers to programmatically interact with the status up
   name: Asana Status Updates  API
   slug: asana-status-updates-api
-- description: The Asana Tags API allows developers to programmatically create, read, update, and delete tags within the Asana project management tool. Tags are customizable labels that can be applied to tasks to he
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Tags API allows developers to programmatically create, read, update, and delete tags within the Asana project management tool. Tags are customizable labels that can be applied to tasks to he
   name: Asana Tags  API
   slug: asana-tags-api
-- description: The Asana Task Templates API allows users to create, manage, and customize task templates within the Asana platform. This API enables developers to programmatically interact with task templates, allow
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Task Templates API allows users to create, manage, and customize task templates within the Asana platform. This API enables developers to programmatically interact with task templates, allow
   name: Asana Task Templates  API
   slug: asana-task-templates-api
-- description: The Asana Tasks API is a powerful tool that allows developers to programmatically manage tasks and projects within the Asana platform. With this API, users can create, update, and delete tasks, as wel
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Tasks API is a powerful tool that allows developers to programmatically manage tasks and projects within the Asana platform. With this API, users can create, update, and delete tasks, as wel
   name: Asana Tasks  API
   slug: asana-tasks-api
-- description: Asana Teams API is a powerful tool that allows users to automate and streamline their team's workflow within the Asana platform. By utilizing this API, developers can create custom integrations and ap
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana Teams API is a powerful tool that allows users to automate and streamline their team's workflow within the Asana platform. By utilizing this API, developers can create custom integrations and ap
   name: Asana Teams  API
   slug: asana-teams-api
-- description: The Asana Time Periods API is a tool that allows users to access and manage time periods within the Asana project management platform. This API enables developers to create, update, and delete time pe
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Time Periods API is a tool that allows users to access and manage time periods within the Asana project management platform. This API enables developers to create, update, and delete time pe
   name: Asana Time Periods  API
   slug: asana-time-periods-api
-- description: The Asana Time Tracking Entries API is a tool that allows users to record and track time spent on tasks and projects within the Asana platform. This API enables developers to create custom time tracki
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Time Tracking Entries API is a tool that allows users to record and track time spent on tasks and projects within the Asana platform. This API enables developers to create custom time tracki
   name: Asana Time Tracking Entries  API
   slug: asana-time-tracking-entries-api
-- description: Asana User Task Lists API is a tool that allows users to create, update, and manage task lists within the Asana platform. By using this API, users can access their task lists, view all the tasks withi
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana User Task Lists API is a tool that allows users to create, update, and manage task lists within the Asana platform. By using this API, users can access their task lists, view all the tasks withi
   name: Asana User Task Lists  API
   slug: asana-user-task-lists-api
-- description: Asana Users API allows developers to interact with user data within the Asana project management platform. This API enables users to retrieve information about individual users, such as their names, e
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana Users API allows developers to interact with user data within the Asana project management platform. This API enables users to retrieve information about individual users, such as their names, e
   name: Asana Users  API
   slug: asana-users-api
-- description: Asana Webhooks API allows developers to receive real-time updates about changes and events happening within Asana. By setting up webhooks, users can subscribe to specific events such as task creation,
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana Webhooks API allows developers to receive real-time updates about changes and events happening within Asana. By setting up webhooks, users can subscribe to specific events such as task creation,
   name: Asana Webhooks  API
   slug: asana-webhooks-api
-- description: 'The Asana Workspaces API allows users to access and manipulate data within their Asana workspaces programmatically. With this API, developers can create custom integrations, automate tasks, and build '
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: 'The Asana Workspaces API allows users to access and manipulate data within their Asana workspaces programmatically. With this API, developers can create custom integrations, automate tasks, and build '
   name: Asana Workspaces  API
   slug: asana-workspaces-api
 - description: The Asana Access Requests API allows users to manage access requests for resources such as projects and portfolios. With this API, users can retrieve pending access requests, create new access request
@@ -128,7 +178,9 @@ apis:
 - description: The Asana Budgets API allows developers to manage budget resources for projects. A budget object represents a budget for a specific parent resource such as a project and tracks values in either time o
   name: Asana Budgets API
   slug: asana-budgets-api
-- description: The Asana Custom Field Settings API manages the association between custom fields and projects, portfolios, teams, and goals. Custom fields are attached to a particular project with the custom field s
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Custom Field Settings API manages the association between custom fields and projects, portfolios, teams, and goals. Custom fields are attached to a particular project with the custom field s
   name: Asana Custom Field Settings API
   slug: asana-custom-field-settings-api
 - description: The Asana Custom Types API allows developers to retrieve custom type resources associated with objects in Asana. A custom type includes properties such as name and status options, where each status op
@@ -137,16 +189,24 @@ apis:
 - description: The Asana Exports API provides graph export and resource export functionality for extracting data from Asana. Exports are generated in gzipped JSONL format with presigned S3 URLs that expire in one ho
   name: Asana Exports API
   slug: asana-exports-api
-- description: The Asana Portfolio Memberships API allows developers to retrieve portfolio membership information. A portfolio membership represents the relationship between a user and a portfolio, including their a
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Portfolio Memberships API allows developers to retrieve portfolio membership information. A portfolio membership represents the relationship between a user and a portfolio, including their a
   name: Asana Portfolio Memberships API
   slug: asana-portfolio-memberships-api
-- description: The Asana Project Briefs API allows developers to manage rich text documents that describe projects. A project brief includes a title, rich text content, and a permalink URL. The API supports creating
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Project Briefs API allows developers to manage rich text documents that describe projects. A project brief includes a title, rich text content, and a permalink URL. The API supports creating
   name: Asana Project Briefs API
   slug: asana-project-briefs-api
-- description: The Asana Project Memberships API provides endpoints for retrieving project membership records. These endpoints enable developers to query membership information for projects, including setting member
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Project Memberships API provides endpoints for retrieving project membership records. These endpoints enable developers to query membership information for projects, including setting member
   name: Asana Project Memberships API
   slug: asana-project-memberships-api
-- description: The Asana Project Statuses API allows developers to manage progress updates on projects. A project status includes descriptive text and color codes indicating the project state such as green for on tr
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Project Statuses API allows developers to manage progress updates on projects. A project status includes descriptive text and color codes indicating the project state such as green for on tr
   name: Asana Project Statuses API
   slug: asana-project-statuses-api
 - description: The Asana Rates API allows developers to manage rate resources within projects. A rate represents a monetary value associated with a user for a specific project, tracking values in designated currency
@@ -158,55 +218,89 @@ apis:
 - description: 'The Asana Roles API allows developers to programmatically manage Role-Based Access Control (RBAC) at the domain level. The API supports creating, retrieving, updating, and deleting roles. Read access '
   name: Asana Roles API
   slug: asana-roles-api
-- description: The Asana Rules API allows developers to automate common patterns and workflows by combining triggers with automatic actions. The API supports triggering rules via incoming web requests, enabling exte
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Rules API allows developers to automate common patterns and workflows by combining triggers with automatic actions. The API supports triggering rules via incoming web requests, enabling exte
   name: Asana Rules API
   slug: asana-rules-api
-- description: The Asana Stories API allows developers to manage stories, which are records of activity associated with objects in the Asana system. Stories are generated by the system when users take actions such a
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Stories API allows developers to manage stories, which are records of activity associated with objects in the Asana system. Stories are generated by the system when users take actions such a
   name: Asana Stories API
   slug: asana-stories-api
-- description: The Asana Team Memberships API allows developers to retrieve team membership records. A team membership represents the relationship between a user and a team, including flags for guest status, limited
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Team Memberships API allows developers to retrieve team membership records. A team membership represents the relationship between a user and a team, including flags for guest status, limited
   name: Asana Team Memberships API
   slug: asana-team-memberships-api
-- description: The Asana Typeahead API provides search functionality for objects within a single workspace. This API enables developers to build autocomplete and search-as-you-type features by retrieving Asana objec
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Typeahead API provides search functionality for objects within a single workspace. This API enables developers to build autocomplete and search-as-you-type features by retrieving Asana objec
   name: Asana Typeahead API
   slug: asana-typeahead-api
-- description: The Asana Workspace Memberships API allows developers to determine if a user is a member of a workspace and retrieve membership details. The API provides endpoints to get a specific workspace membersh
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The Asana Workspace Memberships API allows developers to determine if a user is a member of a workspace and retrieve membership details. The API provides endpoints to get a specific workspace membersh
   name: Asana Workspace Memberships API
   slug: asana-workspace-memberships-api
-- description: Asana's audit log is an immutable log of [important events](/docs/audit-log-events#supported-audit-log-events) in your organization's Asana instance. The audit log API allows you to monitor and act up
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Asana's audit log is an immutable log of [important events](/docs/audit-log-events#supported-audit-log-events) in your organization's Asana instance. The audit log API allows you to monitor and act up
   name: Asana Audit Log API API
   slug: asana-audit-log-api-api
-- description: Perform multiple operations in a single HTTP request.
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Perform multiple operations in a single HTTP request.
   name: Asana Batch API API
   slug: asana-batch-api-api
-- description: Custom fields are attached to a particular project with the custom field settings resource. This resource both represents the many-to-many join of the custom field and project as well as stores inform
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: Custom fields are attached to a particular project with the custom field settings resource. This resource both represents the many-to-many join of the custom field and project as well as stores inform
   name: Asana Custom Field Settings API
   slug: asana-custom-field-settings-api
-- description: This object determines if a user is a member of a portfolio.
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: This object determines if a user is a member of a portfolio.
   name: Asana Portfolio Memberships API
   slug: asana-portfolio-memberships-api
-- description: A project brief object represents a rich text document that describes a project. Please note that this API is in *preview*, and is expected to change. This API is to be used for development and testin
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: A project brief object represents a rich text document that describes a project. Please note that this API is in *preview*, and is expected to change. This API is to be used for development and testin
   name: Asana Project Briefs API
   slug: asana-project-briefs-api
-- description: With the introduction of “comment-only” projects in Asana, a user’s membership in a project comes with associated permissions. These permissions (i.e., whether a user has full access to the project or
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: With the introduction of “comment-only” projects in Asana, a user’s membership in a project comes with associated permissions. These permissions (i.e., whether a user has full access to the project or
   name: Asana Project Memberships API
   slug: asana-project-memberships-api
-- description: '*Deprecated: new integrations should prefer using [status updates](/reference/status-updates)* A project status is an update on the progress of a particular project, and is sent out to all project fol'
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: '*Deprecated: new integrations should prefer using [status updates](/reference/status-updates)* A project status is an update on the progress of a particular project, and is sent out to all project fol'
   name: Asana Project Statuses API
   slug: asana-project-statuses-api
-- description: '[Asana rules](https://help.asana.com/s/article/rules?language=en_US) allow you to automate common patterns and workflows in Asana. Rules comprise triggers that will automatically perform actions. For '
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: '[Asana rules](https://help.asana.com/s/article/rules?language=en_US) allow you to automate common patterns and workflows in Asana. Rules comprise triggers that will automatically perform actions. For '
   name: Asana Rules API
   slug: asana-rules-api
-- description: '*See [our forum post](https://forum.asana.com/t/no-more-parsing-story-text-new-fields-on-stories/42924) for more info on when conditional fields are returned.* A story represents an activity associate'
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: '*See [our forum post](https://forum.asana.com/t/no-more-parsing-story-text-new-fields-on-stories/42924) for more info on when conditional fields are returned.* A story represents an activity associate'
   name: Asana Stories API
   slug: asana-stories-api
-- description: This object determines if a user is a member of a team.
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: This object determines if a user is a member of a team.
   name: Asana Team Memberships API
   slug: asana-team-memberships-api
-- description: The typeahead search API provides search for objects from a single workspace.
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: The typeahead search API provides search for objects from a single workspace.
   name: Asana Typeahead API
   slug: asana-typeahead-api
-- description: This object determines if a user is a member of a workspace.
+- baseURL: https://app.asana.com/api/1.0
+  baseurl_source: spec
+  description: This object determines if a user is a member of a workspace.
   name: Asana Workspace Memberships API
   slug: asana-workspace-memberships-api
 arazzos:
@@ -1522,7 +1616,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1532,7 +1626,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 71.1
-  previous_composite: 66.5
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1541,7 +1635,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:

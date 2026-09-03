@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: Demographic statistics
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Demographic statistics
   name: Federal Deposit Insurance Corporation Demographics API
   slug: federal-deposit-insurance-corporation-demographics-api
-- description: Summary of deposits
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Summary of deposits
   name: Federal Deposit Insurance Corporation Deposits API
   slug: federal-deposit-insurance-corporation-deposits-api
-- description: Failed bank information
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Failed bank information
   name: Federal Deposit Insurance Corporation Failures API
   slug: federal-deposit-insurance-corporation-failures-api
-- description: Financial reports and metrics
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Financial reports and metrics
   name: Federal Deposit Insurance Corporation Financials API
   slug: federal-deposit-insurance-corporation-financials-api
-- description: Institution historical events
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Institution historical events
   name: Federal Deposit Insurance Corporation History API
   slug: federal-deposit-insurance-corporation-history-api
-- description: FDIC-insured institution data
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: FDIC-insured institution data
   name: Federal Deposit Insurance Corporation Institutions API
   slug: federal-deposit-insurance-corporation-institutions-api
-- description: Branch and office locations
+- baseURL: https://banks.data.fdic.gov/api
+  baseurl_source: declared
+  description: Branch and office locations
   name: Federal Deposit Insurance Corporation Locations API
   slug: federal-deposit-insurance-corporation-locations-api
 artifact_total: 23
@@ -190,7 +204,7 @@ score:
     regime_id: insurance
     score: 9.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-deposit-insurance-corporation/refs/heads/main/screenshots/federal-deposit-insurance-corporation-2026-06-20T181118.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,49 +35,75 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
-- description: News and blog posts published on habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behi
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: News and blog posts published on habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behi
   name: Habiteo Site Content API — Posts API
   slug: posts-api
-- description: Marketing and product pages of habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: Marketing and product pages of habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind
   name: Habiteo Site Content API — Pages API
   slug: pages-api
-- description: The WordPress media library behind habiteo.com — images and documents. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API b
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The WordPress media library behind habiteo.com — images and documents. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API b
   name: Habiteo Site Content API — Media API
   slug: media-api
-- description: The `portfolio` custom post type used for Habiteo client and project showcases. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS cont
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The `portfolio` custom post type used for Habiteo client and project showcases. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS cont
   name: Habiteo Site Content API — Portfolio API
   slug: portfolio-api
-- description: The `uncodeblock` custom post type from the Uncode theme — reusable page blocks. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS con
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The `uncodeblock` custom post type from the Uncode theme — reusable page blocks. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS con
   name: Habiteo Site Content API — Blocks API
   slug: blocks-api
-- description: Categories, tags, portfolio categories and the taxonomy registry. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags, portfolio categories and the taxonomy registry. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind
   name: Habiteo Site Content API — Taxonomy API
   slug: taxonomy-api
-- description: The wp-json route index and the registered post types and statuses — the route-discovery surface this profile was derived from. DERIVED by API Evangelist from the WordPress REST route index at https:/
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The wp-json route index and the registered post types and statuses — the route-discovery surface this profile was derived from. DERIVED by API Evangelist from the WordPress REST route index at https:/
   name: Habiteo Site Content API — Discovery API
   slug: discovery-api
-- description: 'Post authors exposed by the WordPress users route. Read-only for anonymous callers. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS '
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: 'Post authors exposed by the WordPress users route. Read-only for anonymous callers. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS '
   name: Habiteo Site Content API — Users API
   slug: users-api
-- description: Site comments. The comment collection is anonymously readable. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind th
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: Site comments. The comment collection is anonymously readable. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind th
   name: Habiteo Site Content API — Comments API
   slug: comments-api
-- description: Site settings. Anonymous calls return HTTP 403 rest_forbidden — recorded as a gated route, not a readable one. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: Site settings. Anonymous calls return HTTP 403 rest_forbidden — recorded as a gated route, not a readable one. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/
   name: Habiteo Site Content API — Settings API
   slug: settings-api
-- description: 'The WordPress oEmbed provider endpoint for habiteo.com URLs. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind the '
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: 'The WordPress oEmbed provider endpoint for habiteo.com URLs. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind the '
   name: Habiteo Site Content API — oEmbed API
   slug: oembed-api
 - description: A second, older JSON surface on www.habiteo.com, served by the WordPress "JSON API" plugin at /api/. GET https://www.habiteo.com/api/ returns {"status":"ok","json_api_version":"1.1.1","controllers":["
   name: Habiteo Site JSON API (WordPress JSON API plugin)
   slug: json-api-plugin
-- description: The ContactForms API from Habiteo — 5 operation(s) for contactforms.
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The ContactForms API from Habiteo — 5 operation(s) for contactforms.
   name: Habiteo Contact Forms API
   slug: habiteo-contactforms-api
-- description: The SiteTools API from Habiteo — 7 operation(s) for sitetools.
+- baseURL: https://www.habiteo.com/wp-json
+  baseurl_source: declared
+  description: The SiteTools API from Habiteo — 7 operation(s) for sitetools.
   name: Habiteo Site Tools API
   slug: habiteo-sitetools-api
 artifact_total: 18
@@ -188,7 +226,7 @@ score:
   band: emerging
   composite: 21.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -213,8 +251,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png
 security:
 - kind: authentication
   name: Habiteo Authentication

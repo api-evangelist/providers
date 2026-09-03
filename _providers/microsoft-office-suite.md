@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,13 +65,19 @@ apis:
 - description: API for building apps and bots integrated with Microsoft Teams.
   name: Microsoft Teams API
   slug: microsoft-teams-api
-- description: The Drive API from Microsoft Office Suite — 4 operation(s) for drive.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Drive API from Microsoft Office Suite — 4 operation(s) for drive.
   name: Microsoft Office Suite Drive API
   slug: microsoft-office-suite-drive-api
-- description: The Mail API from Microsoft Office Suite — 4 operation(s) for mail.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Mail API from Microsoft Office Suite — 4 operation(s) for mail.
   name: Microsoft Office Suite Mail API
   slug: microsoft-office-suite-mail-api
-- description: The Teams API from Microsoft Office Suite — 4 operation(s) for teams.
+- baseURL: https://graph.microsoft.com/v1.0
+  baseurl_source: declared
+  description: The Teams API from Microsoft Office Suite — 4 operation(s) for teams.
   name: Microsoft Office Suite Teams API
   slug: microsoft-office-suite-teams-api
 artifact_total: 23
@@ -193,7 +199,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/screenshots/microsoft-office-suite-2026-06-20T185516.png
 security:

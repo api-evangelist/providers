@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: The Amazon Redshift Serverless API for managing serverless data warehouse workgroups, namespaces, and capacity without provisioning clusters.
   name: Amazon Redshift Serverless API
   slug: amazon-redshift-serverless-api
-- description: List databases, schemas, and tables in a Redshift data warehouse
+- baseURL: https://redshift.amazonaws.com
+  baseurl_source: declared
+  description: List databases, schemas, and tables in a Redshift data warehouse
   name: Amazon Redshift Metadata API
   slug: amazon-redshift-metadata-api
-- description: Retrieve results from completed SQL statement executions
+- baseURL: https://redshift.amazonaws.com
+  baseurl_source: declared
+  description: Retrieve results from completed SQL statement executions
   name: Amazon Redshift Result Retrieval API
   slug: amazon-redshift-result-retrieval-api
-- description: Execute SQL statements against Amazon Redshift clusters or serverless workgroups
+- baseURL: https://redshift.amazonaws.com
+  baseurl_source: declared
+  description: Execute SQL statements against Amazon Redshift clusters or serverless workgroups
   name: Amazon Redshift Statement Execution API
   slug: amazon-redshift-statement-execution-api
-- description: Describe, list, and cancel SQL statement executions
+- baseURL: https://redshift.amazonaws.com
+  baseurl_source: declared
+  description: Describe, list, and cancel SQL statement executions
   name: Amazon Redshift Statement Management API
   slug: amazon-redshift-statement-management-api
 artifact_total: 129
@@ -531,7 +539,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/screenshots/amazon-redshift-2026-06-20T171811.png
 security:

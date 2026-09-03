@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 32 operations · 21 acting
 api_count: 2
 apis:
-- description: File attachment operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: File attachment operations
   name: NocoDB Attachments API
   slug: nocodb-attachments-api
-- description: Authentication and token management
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Authentication and token management
   name: NocoDB Auth API
   slug: nocodb-auth-api
-- description: Base (database) management operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Base (database) management operations
   name: NocoDB Bases API
   slug: nocodb-bases-api
-- description: Field/column management operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Field/column management operations
   name: NocoDB Fields API
   slug: nocodb-fields-api
-- description: Webhook management operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Webhook management operations
   name: NocoDB Hooks API
   slug: nocodb-hooks-api
-- description: Link relationship operations between records
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Link relationship operations between records
   name: NocoDB Links API
   slug: nocodb-links-api
-- description: CRUD operations on table rows/records
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: CRUD operations on table rows/records
   name: NocoDB Records API
   slug: nocodb-records-api
-- description: Table management operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: Table management operations
   name: NocoDB Tables API
   slug: nocodb-tables-api
-- description: View management operations
+- baseURL: https://app.nocodb.com/api/v3
+  baseurl_source: declared
+  description: View management operations
   name: NocoDB Views API
   slug: nocodb-views-api
 artifact_total: 40
@@ -304,7 +322,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/screenshots/nocodb-2026-06-20T190347.png
 security:

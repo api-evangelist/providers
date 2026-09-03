@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 95 operations · 60 acting
 api_count: 1
 apis:
-- description: This is an object representing your Karrio shipping address. You can retrieve all addresses related to your Karrio account. Address objects are linked to your shipment history, and can be used for rec
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio shipping address. You can retrieve all addresses related to your Karrio account. Address objects are linked to your shipment history, and can be used for rec
   name: Karrio Addresses API
   slug: karrio-addresses-api
-- description: API instance metadata resources.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: API instance metadata resources.
   name: Karrio API
   slug: karrio-api-api
-- description: API authentication resources.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: API authentication resources.
   name: Karrio Auth API
   slug: karrio-auth-api
-- description: This is an object representing your Karrio batch operation. You can retrieve all batch operations historically for your Karrio account.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio batch operation. You can retrieve all batch operations historically for your Karrio account.
   name: Karrio Batches API
   slug: karrio-batches-api
-- description: This is an object representing your Karrio carrier extension. You can retrieve all supported carrier extensions available.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio carrier extension. You can retrieve all supported carrier extensions available.
   name: Karrio Carriers API
   slug: karrio-carriers-api
-- description: This is an object representing your Karrio carrier connections. You can retrieve all carrier connections available to your account. The `carrier_id` is a friendly name you assign to your connection.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio carrier connections. You can retrieve all carrier connections available to your account. The `carrier_id` is a friendly name you assign to your connection.
   name: Karrio Connections API
   slug: karrio-connections-api
-- description: This is an object representing your Karrio document upload record. A Document upload record keep traces of shipping trade documents uploaded to carriers to fast track customs and border processing.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio document upload record. A Document upload record keep traces of shipping trade documents uploaded to carriers to fast track customs and border processing.
   name: Karrio Documents API
   slug: karrio-documents-api
-- description: 'This is an object representing your Karrio manifest details. Some carriers require manifests to be created after labels are generated. A manifest is a summary of all the shipments that are being sent '
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: 'This is an object representing your Karrio manifest details. Some carriers require manifests to be created after labels are generated. A manifest is a summary of all the shipments that are being sent '
   name: Karrio Manifests API
   slug: karrio-manifests-api
-- description: This is an object representing your Karrio order. You can create Karrio orders to organize your shipments and ship line items separately.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio order. You can create Karrio orders to organize your shipments and ship line items separately.
   name: Karrio Orders API
   slug: karrio-orders-api
-- description: This is an object representing your Karrio shipping parcel. Parcel objects are linked to your shipment history, and can be used for recurring shipping using the same packaging.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio shipping parcel. Parcel objects are linked to your shipment history, and can be used for recurring shipping using the same packaging.
   name: Karrio Parcels API
   slug: karrio-parcels-api
-- description: This is an object representing your Karrio pickup booking. You can retrieve all pickup booked historically for your Karrio account shipments.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio pickup booking. You can retrieve all pickup booked historically for your Karrio account shipments.
   name: Karrio Pickups API
   slug: karrio-pickups-api
-- description: This is an object representing your Karrio product template. Product templates are reusable commodity definitions that can be used in customs declarations and shipment items for recurring shipments of
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio product template. Product templates are reusable commodity definitions that can be used in customs declarations and shipment items for recurring shipments of
   name: Karrio Products API
   slug: karrio-products-api
-- description: In some scenarios, all we need is to send request to a carrier using the Karrio unified API. The Proxy API comes handy for that as it turn Karrio into a simple middleware that converts and validate yo
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: In some scenarios, all we need is to send request to a carrier using the Karrio unified API. The Proxy API comes handy for that as it turn Karrio into a simple middleware that converts and validate yo
   name: Karrio Proxy API
   slug: karrio-proxy-api
-- description: This is an object representing your Karrio shipment. A Shipment guides you through process of preparing and purchasing a label for an order. A Shipment transitions through multiple statuses throughout
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio shipment. A Shipment guides you through process of preparing and purchasing a label for an order. A Shipment transitions through multiple statuses throughout
   name: Karrio Shipments API
   slug: karrio-shipments-api
-- description: This is an object representing your Karrio shipment tracker. A shipment tracker is an object attached to a shipment by it's tracking number. The tracker provide the latest tracking status and events a
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio shipment tracker. A shipment tracker is an object attached to a shipment by it's tracking number. The tracker provide the latest tracking status and events a
   name: Karrio Trackers API
   slug: karrio-trackers-api
-- description: This is an object representing your Karrio webhook. You can configure webhook endpoints via the API to be notified about events happen in your Karrio account.
+- baseURL: https://{karrio-instance-host}/
+  baseurl_source: declared
+  description: This is an object representing your Karrio webhook. You can configure webhook endpoints via the API to be notified about events happen in your Karrio account.
   name: Karrio Webhooks API
   slug: karrio-webhooks-api
 artifact_total: 26
@@ -293,23 +325,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 58.9
   coverage:
     artifact_dirs: 29
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.2
+  delta: -0.1
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 4.5
-    contract_quality: 60.9
+    contract_quality: 60.5
     developer_ergonomics: 58.9
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 56.8
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +359,7 @@ score:
     regime_id: telecommunications
     score: 66.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/screenshots/karrio-2026-06-20T183922.png
 security:

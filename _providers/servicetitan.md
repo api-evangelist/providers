@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -89,124 +89,204 @@ apis:
 - description: Manage webhook subscriptions for customer, job, appointment, invoice, payment, and membership lifecycle events. V1 is closed to new subscriptions; V2 webhooks are in development. Polling-based change-
   name: ServiceTitan Webhooks API
   slug: servicetitan-webhooks-api
-- description: The Adjustments API from ServiceTitan — 1 operation(s) for adjustments.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Adjustments API from ServiceTitan — 1 operation(s) for adjustments.
   name: ServiceTitan Adjustments API
   slug: servicetitan-adjustments-api
-- description: The Appointment Assignments API from ServiceTitan — 3 operation(s) for appointment assignments.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Appointment Assignments API from ServiceTitan — 3 operation(s) for appointment assignments.
   name: ServiceTitan Appointment Assignments API
   slug: servicetitan-appointment-assignments-api
-- description: Job appointments and visits
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Job appointments and visits
   name: ServiceTitan Appointments API
   slug: servicetitan-appointments-api
-- description: The Attachments API from ServiceTitan — 1 operation(s) for attachments.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Attachments API from ServiceTitan — 1 operation(s) for attachments.
   name: ServiceTitan Attachments API
   slug: servicetitan-attachments-api
-- description: Customer-initiated booking requests
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Customer-initiated booking requests
   name: ServiceTitan Bookings API
   slug: servicetitan-bookings-api
-- description: The Business Hours API from ServiceTitan — 1 operation(s) for business hours.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Business Hours API from ServiceTitan — 1 operation(s) for business hours.
   name: ServiceTitan Business Hours API
   slug: servicetitan-business-hours-api
-- description: The Business Units API from ServiceTitan — 2 operation(s) for business units.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Business Units API from ServiceTitan — 2 operation(s) for business units.
   name: ServiceTitan Business Units API
   slug: servicetitan-business-units-api
-- description: The Capacity API from ServiceTitan — 1 operation(s) for capacity.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Capacity API from ServiceTitan — 1 operation(s) for capacity.
   name: ServiceTitan Capacity API
   slug: servicetitan-capacity-api
-- description: The Categories API from ServiceTitan — 1 operation(s) for categories.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Categories API from ServiceTitan — 1 operation(s) for categories.
   name: ServiceTitan Categories API
   slug: servicetitan-categories-api
-- description: Customer contact methods (phone, email)
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Customer contact methods (phone, email)
   name: ServiceTitan Contacts API
   slug: servicetitan-contacts-api
-- description: Customer-of-record records
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Customer-of-record records
   name: ServiceTitan Customers API
   slug: servicetitan-customers-api
-- description: The Discounts And Fees API from ServiceTitan — 1 operation(s) for discounts and fees.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Discounts And Fees API from ServiceTitan — 1 operation(s) for discounts and fees.
   name: ServiceTitan Discounts And Fees API
   slug: servicetitan-discounts-and-fees-api
-- description: The Employees API from ServiceTitan — 1 operation(s) for employees.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Employees API from ServiceTitan — 1 operation(s) for employees.
   name: ServiceTitan Employees API
   slug: servicetitan-employees-api
-- description: The Equipment API from ServiceTitan — 2 operation(s) for equipment.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Equipment API from ServiceTitan — 2 operation(s) for equipment.
   name: ServiceTitan Equipment API
   slug: servicetitan-equipment-api
-- description: The GL Accounts API from ServiceTitan — 1 operation(s) for gl accounts.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The GL Accounts API from ServiceTitan — 1 operation(s) for gl accounts.
   name: ServiceTitan GL Accounts API
   slug: servicetitan-gl-accounts-api
-- description: The GPS API from ServiceTitan — 1 operation(s) for gps.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The GPS API from ServiceTitan — 1 operation(s) for gps.
   name: ServiceTitan GPS API
   slug: servicetitan-gps-api
-- description: The Installed Equipment API from ServiceTitan — 2 operation(s) for installed equipment.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Installed Equipment API from ServiceTitan — 2 operation(s) for installed equipment.
   name: ServiceTitan Installed Equipment API
   slug: servicetitan-installed-equipment-api
-- description: The Invoices API from ServiceTitan — 3 operation(s) for invoices.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Invoices API from ServiceTitan — 3 operation(s) for invoices.
   name: ServiceTitan Invoices API
   slug: servicetitan-invoices-api
-- description: Job type definitions
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Job type definitions
   name: ServiceTitan Job Types API
   slug: servicetitan-job-types-api
-- description: Service jobs (work orders)
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Service jobs (work orders)
   name: ServiceTitan Jobs API
   slug: servicetitan-jobs-api
-- description: The Journal Entries API from ServiceTitan — 1 operation(s) for journal entries.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Journal Entries API from ServiceTitan — 1 operation(s) for journal entries.
   name: ServiceTitan Journal Entries API
   slug: servicetitan-journal-entries-api
-- description: Pre-customer lead records
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Pre-customer lead records
   name: ServiceTitan Leads API
   slug: servicetitan-leads-api
-- description: Customer service locations and addresses
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Customer service locations and addresses
   name: ServiceTitan Locations API
   slug: servicetitan-locations-api
-- description: The Materials API from ServiceTitan — 2 operation(s) for materials.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Materials API from ServiceTitan — 2 operation(s) for materials.
   name: ServiceTitan Materials API
   slug: servicetitan-materials-api
-- description: The Payments API from ServiceTitan — 3 operation(s) for payments.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Payments API from ServiceTitan — 3 operation(s) for payments.
   name: ServiceTitan Payments API
   slug: servicetitan-payments-api
-- description: Multi-job projects
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Multi-job projects
   name: ServiceTitan Projects API
   slug: servicetitan-projects-api
-- description: The Purchase Orders API from ServiceTitan — 2 operation(s) for purchase orders.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Purchase Orders API from ServiceTitan — 2 operation(s) for purchase orders.
   name: ServiceTitan Purchase Orders API
   slug: servicetitan-purchase-orders-api
-- description: The Receipts API from ServiceTitan — 1 operation(s) for receipts.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Receipts API from ServiceTitan — 1 operation(s) for receipts.
   name: ServiceTitan Receipts API
   slug: servicetitan-receipts-api
-- description: The Services API from ServiceTitan — 2 operation(s) for services.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Services API from ServiceTitan — 2 operation(s) for services.
   name: ServiceTitan Services API
   slug: servicetitan-services-api
-- description: The Tag Types API from ServiceTitan — 1 operation(s) for tag types.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Tag Types API from ServiceTitan — 1 operation(s) for tag types.
   name: ServiceTitan Tag Types API
   slug: servicetitan-tag-types-api
-- description: Tag types and customer tagging
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: Tag types and customer tagging
   name: ServiceTitan Tags API
   slug: servicetitan-tags-api
-- description: The Tax Zones API from ServiceTitan — 1 operation(s) for tax zones.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Tax Zones API from ServiceTitan — 1 operation(s) for tax zones.
   name: ServiceTitan Tax Zones API
   slug: servicetitan-tax-zones-api
-- description: The Technician Shifts API from ServiceTitan — 1 operation(s) for technician shifts.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Technician Shifts API from ServiceTitan — 1 operation(s) for technician shifts.
   name: ServiceTitan Technician Shifts API
   slug: servicetitan-technician-shifts-api
-- description: The Technicians API from ServiceTitan — 2 operation(s) for technicians.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Technicians API from ServiceTitan — 2 operation(s) for technicians.
   name: ServiceTitan Technicians API
   slug: servicetitan-technicians-api
-- description: The Transfers API from ServiceTitan — 1 operation(s) for transfers.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Transfers API from ServiceTitan — 1 operation(s) for transfers.
   name: ServiceTitan Transfers API
   slug: servicetitan-transfers-api
-- description: The Trucks API from ServiceTitan — 1 operation(s) for trucks.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Trucks API from ServiceTitan — 1 operation(s) for trucks.
   name: ServiceTitan Trucks API
   slug: servicetitan-trucks-api
-- description: The User Roles API from ServiceTitan — 1 operation(s) for user roles.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The User Roles API from ServiceTitan — 1 operation(s) for user roles.
   name: ServiceTitan User Roles API
   slug: servicetitan-user-roles-api
-- description: The Vendors API from ServiceTitan — 1 operation(s) for vendors.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Vendors API from ServiceTitan — 1 operation(s) for vendors.
   name: ServiceTitan Vendors API
   slug: servicetitan-vendors-api
-- description: The Warehouses API from ServiceTitan — 1 operation(s) for warehouses.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Warehouses API from ServiceTitan — 1 operation(s) for warehouses.
   name: ServiceTitan Warehouses API
   slug: servicetitan-warehouses-api
-- description: The Zones API from ServiceTitan — 1 operation(s) for zones.
+- baseURL: https://api.servicetitan.io/crm/v2/{tenant}/
+  baseurl_source: declared
+  description: The Zones API from ServiceTitan — 1 operation(s) for zones.
   name: ServiceTitan Zones API
   slug: servicetitan-zones-api
 artifact_total: 176
@@ -798,7 +878,7 @@ score:
       marker_coverage: 0.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:

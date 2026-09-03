@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Consent API from Inth — 1 operation(s) for consent.
+- baseURL: https://your-instance.c15t.dev
+  baseurl_source: declared
+  description: The Consent API from Inth — 1 operation(s) for consent.
   name: Inth Consent API
   slug: inth-consent-api
-- description: The Init API from Inth — 1 operation(s) for init.
+- baseURL: https://your-instance.c15t.dev
+  baseurl_source: declared
+  description: The Init API from Inth — 1 operation(s) for init.
   name: Inth Init API
   slug: inth-init-api
-- description: The Legal Documents API from Inth — 1 operation(s) for legal documents.
+- baseURL: https://your-instance.c15t.dev
+  baseurl_source: declared
+  description: The Legal Documents API from Inth — 1 operation(s) for legal documents.
   name: Inth Legal Documents API
   slug: inth-legal-documents-api
-- description: The Status API from Inth — 2 operation(s) for status.
+- baseURL: https://your-instance.c15t.dev
+  baseurl_source: declared
+  description: The Status API from Inth — 2 operation(s) for status.
   name: Inth Status API
   slug: inth-status-api
-- description: The Subjects API from Inth — 2 operation(s) for subjects.
+- baseURL: https://your-instance.c15t.dev
+  baseurl_source: declared
+  description: The Subjects API from Inth — 2 operation(s) for subjects.
   name: Inth Subjects API
   slug: inth-subjects-api
 artifact_total: 14
@@ -246,7 +256,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inth/refs/heads/main/screenshots/inth-2026-07-25T222721.png
 security:

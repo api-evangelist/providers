@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -46,58 +46,94 @@ apis:
 - description: The Polar BLE SDK enables iOS and Android applications to stream live data from Polar sensors over Bluetooth Low Energy. Supports H10, H9, Verity Sense, OH1, Ignite 3, Polar 360/Loop, Vantage V3, Vant
   name: Polar BLE SDK
   slug: polar-ble-sdk
-- description: Cardio load is based on training impulse calculation (TRIMP), a commonly accepted and scientifically proven method to quantify training load. Your Cardio load value tells you how much strain your trai
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Cardio load is based on training impulse calculation (TRIMP), a commonly accepted and scientifically proven method to quantify training load. Your Cardio load value tells you how much strain your trai
   name: Polar Cardio load API
   slug: polar-cardio-load-api
-- description: 'This resource allows partners to access their users'' continuous heart rate data. Continuous heart rate is recorded with supported devices when the heart rate tracking is turned on in device settings. '
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: 'This resource allows partners to access their users'' continuous heart rate data. Continuous heart rate is recorded with supported devices when the heart rate tracking is turned on in device settings. '
   name: Polar Continuous Heart Rate API
   slug: polar-continuous-heart-rate-api
-- description: This resource allows partners to access their users' daily activity data. Webhooks are used to notify partners when new data is available.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' daily activity data. Webhooks are used to notify partners when new data is available.
   name: Polar Daily activity API
   slug: polar-daily-activity-api
-- description: This resource allows partners to access their users' daily activity data. During the transfer, the activity data is copied also into the AccessLink database so the end-users cannot change the data tha
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' daily activity data. During the transfer, the activity data is copied also into the AccessLink database so the end-users cannot change the data tha
   name: Polar Daily activity (deprecated) API
   slug: polar-daily-activity-deprecated-api
-- description: This resource allows partners to access their users' Elixir&trade; Biosensing data. All time values are UTC times. Elixir&trade; Biosensing data consists of body temperature data, sleep skin temperatu
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' Elixir&trade; Biosensing data. All time values are UTC times. Elixir&trade; Biosensing data consists of body temperature data, sleep skin temperatu
   name: Polar Elixir&trade; Biosensing API
   slug: polar-elixir-trade-biosensing-api
-- description: Resources for getting information about exercise. These endpoints do not require an active transaction, but they use hashed id.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Resources for getting information about exercise. These endpoints do not require an active transaction, but they use hashed id.
   name: Polar Exercises API
   slug: polar-exercises-api
-- description: 'This resource allows partners to access their users'' training data. All time values are UTC except start-time. Start-time is the time set on the training computer. Each transaction will consist of at '
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: 'This resource allows partners to access their users'' training data. All time values are UTC except start-time. Start-time is the time set on the training computer. Each transaction will consist of at '
   name: Polar Exercises (deprecated) API
   slug: polar-exercises-deprecated-api
-- description: 'Nightly Recharge&trade; is a recovery measurement that shows how well your body recovers from daily training and stress. It is based on heart rate variability (HRV) and overnight heart rate data. The '
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: 'Nightly Recharge&trade; is a recovery measurement that shows how well your body recovers from daily training and stress. It is based on heart rate variability (HRV) and overnight heart rate data. The '
   name: Polar Nightly Recharge API
   slug: polar-nightly-recharge-api
-- description: This resource allows partners to access their users' physical information.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' physical information.
   name: Polar Physical info API
   slug: polar-physical-info-api
-- description: This resource allows partners to access their users' physical information. Whenever some user's physical information changes, new entry containing full physical info is stored to AccessLink. Pull noti
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' physical information. Whenever some user's physical information changes, new entry containing full physical info is stored to AccessLink. Pull noti
   name: Polar Physical info (deprecated) API
   slug: polar-physical-info-deprecated-api
-- description: Endpoints for getting players training session and details. <aside class='notice'> Only training sessions that are done during time the player has been linked to team roster will be visible here. </as
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Endpoints for getting players training session and details. <aside class='notice'> Only training sessions that are done during time the player has been linked to team roster will be visible here. </as
   name: Polar Player training sessions API
   slug: polar-player-training-sessions-api
-- description: This resource allows partners to check if their users have available data for downloading. Use client credentials authentication. Returns object holding list of available data objects.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to check if their users have available data for downloading. Use client credentials authentication. Returns object holding list of available data objects.
   name: Polar Pull notifications API
   slug: polar-pull-notifications-api
-- description: Sleep endpoints support [Polar Sleep Plus&trade;](https://www.polar.com/en/smart-coaching/polar-sleep-plus) and [Sleep Plus Stages&trade;](https://www.polar.com/en/smart-coaching/sleep-plus-stages). A
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Sleep endpoints support [Polar Sleep Plus&trade;](https://www.polar.com/en/smart-coaching/polar-sleep-plus) and [Sleep Plus Stages&trade;](https://www.polar.com/en/smart-coaching/sleep-plus-stages). A
   name: Polar Sleep API
   slug: polar-sleep-api
-- description: This resource allows partners to access their users' SleepWise&trade; data. All time values are UTC times. SleepWise&trade; data is calculated for [SleepWise&trade;](https://support.polar.com/en/polar
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource allows partners to access their users' SleepWise&trade; data. All time values are UTC times. SleepWise&trade; data is calculated for [SleepWise&trade;](https://support.polar.com/en/polar
   name: Polar SleepWise&trade; API
   slug: polar-sleepwise-trade-api
-- description: Endpoints for getting teams and team details.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Endpoints for getting teams and team details.
   name: Polar Team API
   slug: polar-team-api
-- description: Endpoints for getting team training sessions and details.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Endpoints for getting team training sessions and details.
   name: Polar Team training sessions API
   slug: polar-team-training-sessions-api
-- description: This resource provides all the necessary functions to manage users.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: This resource provides all the necessary functions to manage users.
   name: Polar Users API
   slug: polar-users-api
-- description: Webhook resources provides endpoints for creating, modifying and deleting webhooks.
+- baseURL: https://www.polaraccesslink.com/
+  baseurl_source: declared
+  description: Webhook resources provides endpoints for creating, modifying and deleting webhooks.
   name: Polar Webhooks API
   slug: polar-webhooks-api
 artifact_total: 64
@@ -341,7 +377,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -351,7 +387,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 42.8
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -366,7 +402,7 @@ score:
     regime_id: health
     score: 53.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 17 operations · 9 acting
 api_count: 1
 apis:
-- description: Your user profile and API quota.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Your user profile and API quota.
   name: Matter Account API
   slug: matter-account-api
-- description: Highlights and notes on items.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Highlights and notes on items.
   name: Matter Annotations API
   slug: matter-annotations-api
-- description: Articles, podcasts, videos, PDFs, and tweets in your library.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Articles, podcasts, videos, PDFs, and tweets in your library.
   name: Matter Items API
   slug: matter-items-api
-- description: Reading time history.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Reading time history.
   name: Matter Reading Sessions API
   slug: matter-reading-sessions-api
-- description: Full-text search across Matter.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Full-text search across Matter.
   name: Matter Search API
   slug: matter-search-api
-- description: Labels for organizing items.
+- baseURL: https://api.getmatter.com/public/v1
+  baseurl_source: declared
+  description: Labels for organizing items.
   name: Matter Tags API
   slug: matter-tags-api
 artifact_total: 19
@@ -260,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matter/refs/heads/main/screenshots/matter-2026-07-25T230422.png
 security:

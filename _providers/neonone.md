@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 137 operations · 77 acting
 api_count: 1
 apis:
-- description: Individual and organization constituent records, contacts, and addresses.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Individual and organization constituent records, contacts, and addresses.
   name: Neon One Accounts API
   slug: neonone-accounts-api
-- description: Fundraising campaigns that transactions are attributed to.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Fundraising campaigns that transactions are attributed to.
   name: Neon One Campaigns API
   slug: neonone-campaigns-api
-- description: Standard custom fields and the Custom Objects framework.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Standard custom fields and the Custom Objects framework.
   name: Neon One Custom Fields API
   slug: neonone-custom-fields-api
-- description: Donations, pledges, pledge payments, recurring donations, and soft credits.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Donations, pledges, pledge payments, recurring donations, and soft credits.
   name: Neon One Donations API
   slug: neonone-donations-api
-- description: Events, tickets, and event registrations.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Events, tickets, and event registrations.
   name: Neon One Events API
   slug: neonone-events-api
-- description: Grouping of individual accounts into households with relation types.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Grouping of individual accounts into households with relation types.
   name: Neon One Households API
   slug: neonone-households-api
-- description: Membership levels and terms held by an account.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Membership levels and terms held by an account.
   name: Neon One Memberships API
   slug: neonone-memberships-api
-- description: Orders grouping donations, memberships, and store purchases.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Orders grouping donations, memberships, and store purchases.
   name: Neon One Orders API
   slug: neonone-orders-api
-- description: Reference and lookup data used across other resources.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Reference and lookup data used across other resources.
   name: Neon One Properties API
   slug: neonone-properties-api
-- description: Online store products, catalogs, and categories.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Online store products, catalogs, and categories.
   name: Neon One Store API
   slug: neonone-store-api
-- description: Volunteers, groups, opportunities, roles, shifts, and time sheets.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Volunteers, groups, opportunities, roles, shifts, and time sheets.
   name: Neon One Volunteers API
   slug: neonone-volunteers-api
-- description: Outbound webhook subscriptions.
+- baseURL: https://api.neoncrm.com/v2
+  baseurl_source: declared
+  description: Outbound webhook subscriptions.
   name: Neon One Webhooks API
   slug: neonone-webhooks-api
 artifact_total: 33
@@ -221,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/screenshots/neonone-2026-08-07T184850.png
 security:

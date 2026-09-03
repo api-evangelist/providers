@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The only publicly documented HTTP endpoints Chatsimple (now Expertise AI) publishes. Documented on the Zapier integration page of docs.expertise.ai as four operations under the base URL https://api.ex
@@ -200,7 +200,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -210,12 +210,12 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 52.3
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatsimple/refs/heads/main/screenshots/chatsimple-2026-07-25T205118.png
 security:

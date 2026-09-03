@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: Payroll deductions track the costs of plan premiums to employees.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Payroll deductions track the costs of plan premiums to employees.
   name: Thatch Deductions API
   slug: thatch-deductions-api
-- description: Employees work for employers, both of which are managed by partners. Employees enrolled in plans are also represented in Thatch as member objects.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Employees work for employers, both of which are managed by partners. Employees enrolled in plans are also represented in Thatch as member objects.
   name: Thatch Employees API
   slug: thatch-employees-api
-- description: Employers onboard into a platform through employer onboarding sessions. After creating a session, provide the claim_url to the onboarding iframe in your app.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Employers onboard into a platform through employer onboarding sessions. After creating a session, provide the claim_url to the onboarding iframe in your app.
   name: Thatch Employer onboarding sessions API
   slug: thatch-employer-onboarding-sessions-api
-- description: Platforms onboard employers into Thatch, and have employees enrolled in plans.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Platforms onboard employers into Thatch, and have employees enrolled in plans.
   name: Thatch Employers API
   slug: thatch-employers-api
-- description: Enrollments use member objects to track employee coverage status.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Enrollments use member objects to track employee coverage status.
   name: Thatch Enrollments API
   slug: thatch-enrollments-api
-- description: Members represent employees enrolled in plans.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Members represent employees enrolled in plans.
   name: Thatch Members API
   slug: thatch-members-api
-- description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
+- baseURL: https://partners.thatchcloud.com/api/partners/v1
+  baseurl_source: declared
+  description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Pay Schedules API
   slug: thatch-pay-schedules-api
 artifact_total: 20
@@ -256,7 +270,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/screenshots/thatch-2026-08-17T082332.png
 security:

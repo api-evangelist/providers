@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -62,13 +62,19 @@ apis:
 - description: Vespa exposes a family of metrics endpoints (/metrics/v1, /metrics/v2, /prometheus/v1) that publish Vespa engine and application metrics in JSON or Prometheus exposition format for scraping by Prometh
   name: Vespa Metrics API
   slug: vespa-metrics-api
-- description: The Query API from Vespa — 1 operation(s) for query.
+- baseURL: http://localhost:8080
+  baseurl_source: spec
+  description: The Query API from Vespa — 1 operation(s) for query.
   name: Vespa Query API
   slug: vespa-ai-query-api
-- description: Single-document GET, POST, PUT, DELETE operations
+- baseURL_template: http://{vespa_endpoint}/document/v1
+  baseurl_source: spec_template
+  description: Single-document GET, POST, PUT, DELETE operations
   name: Vespa Documents API
   slug: vespa-ai-documents-api
-- description: Bulk visit (iteration) operations
+- baseURL_template: http://{vespa_endpoint}/document/v1
+  baseurl_source: spec_template
+  description: Bulk visit (iteration) operations
   name: Vespa Visit API
   slug: vespa-ai-visit-api
 artifact_total: 69
@@ -396,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:

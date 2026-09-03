@@ -34,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Public, keyless JSON API behind HKUST Path Advisor, the university''s campus wayfinding service. Serves the campus spatial model: 7 buildings, 43 calibrated floor plans with metres-per-pixel and origin'
+- baseURL: https://pathadvisor.ust.hk/api
+  baseurl_source: declared
+  description: 'Public, keyless JSON API behind HKUST Path Advisor, the university''s campus wayfinding service. Serves the campus spatial model: 7 buildings, 43 calibrated floor plans with metres-per-pixel and origin'
   name: HKUST Path Advisor API
   slug: path-advisor
 - description: HKUST's Azure API Management tenant, operated by the IT Services Office. The gateway is live and callable at hkust.azure-api.net and returns the Azure APIM 401 "missing subscription key" on the two pr
@@ -234,7 +236,7 @@ score:
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.5
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -247,7 +249,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 52.4
+  previous_composite: 51.9
   provenance:
     conformance: first-party
     contracts:
@@ -262,7 +264,7 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:

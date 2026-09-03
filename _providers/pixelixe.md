@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: The Authentication API from Pixelixe — 1 operation(s) for authentication.
+- baseURL: https://studio.pixelixe.com/api
+  baseurl_source: declared
+  description: The Authentication API from Pixelixe — 1 operation(s) for authentication.
   name: Pixelixe Authentication API
   slug: pixelixe-authentication-api
-- description: The Document API from Pixelixe — 2 operation(s) for document.
+- baseURL: https://studio.pixelixe.com/api
+  baseurl_source: declared
+  description: The Document API from Pixelixe — 2 operation(s) for document.
   name: Pixelixe Document API
   slug: pixelixe-document-api
-- description: The Graphic API from Pixelixe — 1 operation(s) for graphic.
+- baseURL: https://studio.pixelixe.com/api
+  baseurl_source: declared
+  description: The Graphic API from Pixelixe — 1 operation(s) for graphic.
   name: Pixelixe Graphic API
   slug: pixelixe-graphic-api
 artifact_total: 14
@@ -147,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/screenshots/pixelixe-2026-06-20T191739.png
 security:

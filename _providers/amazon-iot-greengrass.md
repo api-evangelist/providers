@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 29 operations · 14 acting
 api_count: 1
 apis:
-- description: The Greengrass API from Amazon IoT Greengrass — 19 operation(s) for greengrass.
+- baseURL: https://greengrass.amazonaws.com
+  baseurl_source: declared
+  description: The Greengrass API from Amazon IoT Greengrass — 19 operation(s) for greengrass.
   name: Amazon IoT Greengrass Greengrass API
   slug: amazon-iot-greengrass-greengrass-api
-- description: The Tags API from Amazon IoT Greengrass — 2 operation(s) for tags.
+- baseURL: https://greengrass.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon IoT Greengrass — 2 operation(s) for tags.
   name: Amazon IoT Greengrass Tags API
   slug: amazon-iot-greengrass-tags-api
 artifact_total: 445
@@ -1509,7 +1513,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/screenshots/amazon-iot-greengrass-2026-06-20T171714.png
 security:

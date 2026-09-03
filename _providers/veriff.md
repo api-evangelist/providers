@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -71,22 +71,34 @@ apis:
 - description: Native Android SDK for capture and media upload. Initialised with a session URL from the Sessions API.
   name: Veriff Android SDK
   slug: android-sdk
-- description: The Attempts API from Veriff — 2 operation(s) for attempts.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Attempts API from Veriff — 2 operation(s) for attempts.
   name: Veriff Attempts API
   slug: veriff-attempts-api
-- description: The Decisions API from Veriff — 1 operation(s) for decisions.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Decisions API from Veriff — 1 operation(s) for decisions.
   name: Veriff Decisions API
   slug: veriff-decisions-api
-- description: The Media API from Veriff — 2 operation(s) for media.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Media API from Veriff — 2 operation(s) for media.
   name: Veriff Media API
   slug: veriff-media-api
-- description: The Persons API from Veriff — 1 operation(s) for persons.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Persons API from Veriff — 1 operation(s) for persons.
   name: Veriff Persons API
   slug: veriff-persons-api
-- description: The Sessions API from Veriff — 4 operation(s) for sessions.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Sessions API from Veriff — 4 operation(s) for sessions.
   name: Veriff Sessions API
   slug: veriff-sessions-api
-- description: The Watchlist API from Veriff — 1 operation(s) for watchlist.
+- baseURL: https://stationapi.veriff.com/v1
+  baseurl_source: declared
+  description: The Watchlist API from Veriff — 1 operation(s) for watchlist.
   name: Veriff Watchlist API
   slug: veriff-watchlist-api
 artifact_total: 30
@@ -216,7 +228,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veriff/refs/heads/main/screenshots/veriff-2026-06-20T200925.png
 security:

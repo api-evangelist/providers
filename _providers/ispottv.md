@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: REST API for accessing iSpot.tv TV and video ad measurement data — airing occurrence, estimated spend, household and person-level impressions, attention metrics, OTT/streaming impressions, TV conversi
@@ -202,7 +202,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -54,37 +54,59 @@ apis:
 - description: Enables QPP participants to submit quality performance data and receive real-time performance scoring feedback. Supports Merit-based Incentive Payment System (MIPS) and Advanced Alternative Payment Mo
   name: CMS Quality Payment Program (QPP) Submissions API
   slug: cms-quality-payment-program-qpp-submissions-api
-- description: Information about the state of Marketplace API.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Information about the state of Marketplace API.
   name: Centers for Medicare and Medicaid Services API Reference API
   slug: cms-api-reference-api
-- description: Information about the bulk data json files maintained by Marketplace API.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Information about the bulk data json files maintained by Marketplace API.
   name: Centers for Medicare and Medicaid Services Bulk Data API
   slug: cms-bulk-data-api
-- description: Search CPT/HCPCS codes by procedure codes or terms describing medical procedures. Get code details for a given procedure code.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Search CPT/HCPCS codes by procedure codes or terms describing medical procedures. Get code details for a given procedure code.
   name: Centers for Medicare and Medicaid Services Code Search API
   slug: cms-code-search-api
-- description: For a given procedure code or entire set of codes, get national averages for the amount Medicare pays hospitals or surgical centers, and the national average copay amounts.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: For a given procedure code or entire set of codes, get national averages for the amount Medicare pays hospitals or surgical centers, and the national average copay amounts.
   name: Centers for Medicare and Medicaid Services Cost Search API
   slug: cms-cost-search-api
-- description: Enrollment grouping validation and information.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Enrollment grouping validation and information.
   name: Centers for Medicare and Medicaid Services Enrollments API
   slug: cms-enrollments-api
-- description: Geographic data, including information on states, counties, and zipcodes.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Geographic data, including information on states, counties, and zipcodes.
   name: Centers for Medicare and Medicaid Services Geography API
   slug: cms-geography-api
-- description: Household specific calculations, including eligibility information, out of pocket costs, poverty levels, and cost benchmarks.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Household specific calculations, including eligibility information, out of pocket costs, poverty levels, and cost benchmarks.
   name: Centers for Medicare and Medicaid Services Households & Eligibility API
   slug: cms-households-eligibility-api
-- description: Data related to health insurance issuers on the marketplace.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Data related to health insurance issuers on the marketplace.
   name: Centers for Medicare and Medicaid Services Insurance Issuers API
   slug: cms-insurance-issuers-api
-- description: Data on both health and dental insurance plans.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Data on both health and dental insurance plans.
   name: Centers for Medicare and Medicaid Services Insurance Plans API
   slug: cms-insurance-plans-api
-- description: The Plans API from Centers for Medicare and Medicaid Services — 1 operation(s) for plans.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: The Plans API from Centers for Medicare and Medicaid Services — 1 operation(s) for plans.
   name: Centers for Medicare and Medicaid Services Plans API
   slug: cms-plans-api
-- description: Lookup information on providers, drugs, and what is covered under what plans.
+- baseURL: https://marketplace.api.healthcare.gov/api/v1
+  baseurl_source: declared
+  description: Lookup information on providers, drugs, and what is covered under what plans.
   name: Centers for Medicare and Medicaid Services Provider & Drug Coverage API
   slug: cms-provider-drug-coverage-api
 - description: data.cms.gov hosts hundreds of CMS datasets including Medicare Fee-for-Service utilization and payment data, Provider of Services files, Medicare Part B/D Prescriber summaries, Marketplace open enroll
@@ -105,67 +127,109 @@ apis:
 - description: The Medicare Coverage Database publishes National Coverage Determinations (NCDs), Local Coverage Determinations (LCDs), articles, and coding guidance used to determine Medicare coverage and reimbursem
   name: Medicare Coverage Database (MCD) API
   slug: medicare-coverage-database
-- description: FHIR server capability statements and metadata.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir/
+  baseurl_source: declared
+  description: FHIR server capability statements and metadata.
   name: Centers for Medicare and Medicaid Services Capability API
   slug: centers-for-medicare-and-medicaid-services-capability-api
-- description: Beneficiary coverage records.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir/
+  baseurl_source: declared
+  description: Beneficiary coverage records.
   name: Centers for Medicare and Medicaid Services Coverage API
   slug: centers-for-medicare-and-medicaid-services-coverage-api
-- description: Medicare claims expressed as ExplanationOfBenefit resources.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir/
+  baseurl_source: declared
+  description: Medicare claims expressed as ExplanationOfBenefit resources.
   name: Centers for Medicare and Medicaid Services ExplanationOfBenefit API
   slug: centers-for-medicare-and-medicaid-services-explanationofbenefit-api
-- description: Beneficiary (Patient) resources.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir/
+  baseurl_source: declared
+  description: Beneficiary (Patient) resources.
   name: Centers for Medicare and Medicaid Services Patient API
   slug: centers-for-medicare-and-medicaid-services-patient-api
-- description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
   name: Centers for Medicare and Medicaid Services 1. Export API
   slug: cms-1-export-api
-- description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
   name: Centers for Medicare and Medicaid Services 2. Status API
   slug: cms-2-status-api
-- description: After creating a job, the API to download the generated bulk download files
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: After creating a job, the API to download the generated bulk download files
   name: Centers for Medicare and Medicaid Services 3. Download API
   slug: cms-3-download-api
-- description: Provide the standard required FHIR capability statement
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: Provide the standard required FHIR capability statement
   name: Centers for Medicare and Medicaid Services 4. Capabilities API
   slug: cms-4-capabilities-api
-- description: The admin-api API from Centers for Medicare and Medicaid Services — 5 operation(s) for admin-api.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The admin-api API from Centers for Medicare and Medicaid Services — 5 operation(s) for admin-api.
   name: Centers for Medicare and Medicaid Services Admin API
   slug: cms-admin-api-api
-- description: The attribution API from Centers for Medicare and Medicaid Services — 2 operation(s) for attribution.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The attribution API from Centers for Medicare and Medicaid Services — 2 operation(s) for attribution.
   name: Centers for Medicare and Medicaid Services Attribution API
   slug: cms-attribution-api
-- description: The auth API from Centers for Medicare and Medicaid Services — 3 operation(s) for auth.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The auth API from Centers for Medicare and Medicaid Services — 3 operation(s) for auth.
   name: Centers for Medicare and Medicaid Services Auth API
   slug: cms-auth-api
-- description: Provide the standard required FHIR capability statement
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: Provide the standard required FHIR capability statement
   name: Centers for Medicare and Medicaid Services Capabilities API
   slug: cms-capabilities-api
-- description: The data API from Centers for Medicare and Medicaid Services — 1 operation(s) for data.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The data API from Centers for Medicare and Medicaid Services — 1 operation(s) for data.
   name: Centers for Medicare and Medicaid Services Data API
   slug: cms-data-api
-- description: After creating a job, the API to download the generated bulk download files
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: After creating a job, the API to download the generated bulk download files
   name: Centers for Medicare and Medicaid Services Download API
   slug: cms-download-api
-- description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
   name: Centers for Medicare and Medicaid Services Export API
   slug: cms-export-api
-- description: The group API from Centers for Medicare and Medicaid Services — 2 operation(s) for group.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The group API from Centers for Medicare and Medicaid Services — 2 operation(s) for group.
   name: Centers for Medicare and Medicaid Services Group API
   slug: cms-group-api
-- description: The health-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for health-api.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The health-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for health-api.
   name: Centers for Medicare and Medicaid Services Health API
   slug: cms-health-api-api
-- description: The job API from Centers for Medicare and Medicaid Services — 4 operation(s) for job.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The job API from Centers for Medicare and Medicaid Services — 4 operation(s) for job.
   name: Centers for Medicare and Medicaid Services Job API
   slug: cms-job-api
-- description: The maintenance-mode-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for maintenance-mode-api.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The maintenance-mode-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for maintenance-mode-api.
   name: Centers for Medicare and Medicaid Services Maintenance Mode API
   slug: cms-maintenance-mode-api-api
-- description: The metadata API from Centers for Medicare and Medicaid Services — 3 operation(s) for metadata.
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: The metadata API from Centers for Medicare and Medicaid Services — 3 operation(s) for metadata.
   name: Centers for Medicare and Medicaid Services Metadata API
   slug: cms-metadata-api
-- description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+- baseURL: https://bcda.cms.gov
+  baseurl_source: declared
+  description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
   name: Centers for Medicare and Medicaid Services Status API
   slug: cms-status-api
 artifact_total: 177
@@ -923,7 +987,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
@@ -936,7 +1000,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 85.5
+  previous_composite: 85.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -954,7 +1018,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

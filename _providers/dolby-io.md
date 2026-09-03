@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -56,46 +56,74 @@ apis:
 - description: Cross-platform video player (formerly THEOplayer) with SDKs for Web, Android, iOS & tvOS, React Native, Flutter, Chromecast, and Roku. Supports HLS, MPEG-DASH, DRM, advertising integration, low-latenc
   name: Dolby OptiView Player SDK (THEOplayer)
   slug: dolby-optiview-player-sdk
-- description: The ABR Ladders API from Dolby.io — 1 operation(s) for abr ladders.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The ABR Ladders API from Dolby.io — 1 operation(s) for abr ladders.
   name: Dolby.io ABR Ladders API
   slug: dolby-io-abr-ladders-api
-- description: Account-level usage, tracking, and advanced reporting.
+- baseURL: https://api.millicast.com/api
+  baseurl_source: spec
+  description: Account-level usage, tracking, and advanced reporting.
   name: Dolby.io Analytics API
   slug: dolby-io-analytics-api
-- description: The Channels API from Dolby.io — 20 operation(s) for channels.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Channels API from Dolby.io — 20 operation(s) for channels.
   name: Dolby.io Channels API
   slug: dolby-io-channels-api
-- description: Cluster discovery for region-specific publish/subscribe URLs.
+- baseURL: https://api.millicast.com/api
+  baseurl_source: spec
+  description: Cluster discovery for region-specific publish/subscribe URLs.
   name: Dolby.io Cluster API
   slug: dolby-io-cluster-api
-- description: The Custom Endpoint Providers API from Dolby.io — 1 operation(s) for custom endpoint providers.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Custom Endpoint Providers API from Dolby.io — 1 operation(s) for custom endpoint providers.
   name: Dolby.io Custom Endpoint Providers API
   slug: dolby-io-custom-endpoint-providers-api
-- description: The Custom Endpoints API from Dolby.io — 2 operation(s) for custom endpoints.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Custom Endpoints API from Dolby.io — 2 operation(s) for custom endpoints.
   name: Dolby.io Custom Endpoints API
   slug: dolby-io-custom-endpoints-api
-- description: The Distributions API from Dolby.io — 13 operation(s) for distributions.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Distributions API from Dolby.io — 13 operation(s) for distributions.
   name: Dolby.io Distributions API
   slug: dolby-io-distributions-api
-- description: The Engines API from Dolby.io — 6 operation(s) for engines.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Engines API from Dolby.io — 6 operation(s) for engines.
   name: Dolby.io Engines API
   slug: dolby-io-engines-api
-- description: The Ingests API from Dolby.io — 3 operation(s) for ingests.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Ingests API from Dolby.io — 3 operation(s) for ingests.
   name: Dolby.io Ingests API
   slug: dolby-io-ingests-api
-- description: Create and manage publish (broadcaster) tokens.
+- baseURL: https://api.millicast.com/api
+  baseurl_source: spec
+  description: Create and manage publish (broadcaster) tokens.
   name: Dolby.io PublishToken API
   slug: dolby-io-publishtoken-api
-- description: The Regions API from Dolby.io — 1 operation(s) for regions.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Regions API from Dolby.io — 1 operation(s) for regions.
   name: Dolby.io Regions API
   slug: dolby-io-regions-api
-- description: Create and manage subscribe (viewer) tokens.
+- baseURL: https://api.millicast.com/api
+  baseurl_source: spec
+  description: Create and manage subscribe (viewer) tokens.
   name: Dolby.io SubscribeToken API
   slug: dolby-io-subscribetoken-api
-- description: Register and manage event-driven webhooks for feeds, recordings, thumbnails, transcoders, and viewer connections.
+- baseURL: https://api.millicast.com/api
+  baseurl_source: spec
+  description: Register and manage event-driven webhooks for feeds, recordings, thumbnails, transcoders, and viewer connections.
   name: Dolby.io Webhook API
   slug: dolby-io-webhook-api
-- description: The Webhooks API from Dolby.io — 4 operation(s) for webhooks.
+- baseURL: https://api.theo.live/v2
+  baseurl_source: spec
+  description: The Webhooks API from Dolby.io — 4 operation(s) for webhooks.
   name: Dolby.io Webhooks API
   slug: dolby-io-webhooks-api
 arazzos:
@@ -540,7 +568,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -550,7 +578,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 61.9
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -561,7 +589,7 @@ score:
       total: 14
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:

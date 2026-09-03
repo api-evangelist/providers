@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server that connects an AI coding assistant to the Kotzilla Platform. Fifteen tools covering app registration, SDK onboarding, telemetry, issue detection and conte
@@ -201,7 +216,7 @@ score:
   band: thin
   composite: 32.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -220,8 +235,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kotzilla/refs/heads/main/screenshots/kotzilla-2026-09-02T150159.png
 security:
 - kind: authentication
   name: Kotzilla Authentication

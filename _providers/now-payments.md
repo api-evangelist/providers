@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Fund custody management API enabling limitless off-chain operations, sub-account creation, and controlled fund management for B2B flows and platform operators managing multiple merchant wallets.
   name: NOWPayments Custody API
   slug: nowpayments-custody-api
-- description: JWT authentication for mass payouts
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: JWT authentication for mass payouts
   name: NOWPayments Authentication API
   slug: now-payments-authentication-api
-- description: Supported cryptocurrency listings
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: Supported cryptocurrency listings
   name: NOWPayments Currencies API
   slug: now-payments-currencies-api
-- description: Price estimation and minimum amounts
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: Price estimation and minimum amounts
   name: NOWPayments Estimates API
   slug: now-payments-estimates-api
-- description: Invoice creation for crypto payments
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: Invoice creation for crypto payments
   name: NOWPayments Invoices API
   slug: now-payments-invoices-api
-- description: Payment creation and management
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: Payment creation and management
   name: NOWPayments Payments API
   slug: now-payments-payments-api
-- description: Mass payouts and balance management
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: Mass payouts and balance management
   name: NOWPayments Payouts API
   slug: now-payments-payouts-api
-- description: API health and availability
+- baseURL: https://api.nowpayments.io/v1
+  baseurl_source: declared
+  description: API health and availability
   name: NOWPayments Status API
   slug: now-payments-status-api
 artifact_total: 31
@@ -257,7 +271,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/screenshots/now-payments-2026-06-20T190442.png
 security:

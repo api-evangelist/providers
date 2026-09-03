@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Scripted API from ELSA — 1 operation(s) for scripted.
+- baseURL: https://api.elsanow.io/api/v2
+  baseurl_source: declared
+  description: The Scripted API from ELSA — 1 operation(s) for scripted.
   name: ELSA Scripted API
   slug: elsa-scripted-api
-- description: The Unscripted API from ELSA — 1 operation(s) for unscripted.
+- baseURL: https://api.elsanow.io/api/v2
+  baseurl_source: declared
+  description: The Unscripted API from ELSA — 1 operation(s) for unscripted.
   name: ELSA Unscripted API
   slug: elsa-unscripted-api
 artifact_total: 13
@@ -161,7 +165,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsa/refs/heads/main/screenshots/elsa-2026-07-25T213209.png
 security:

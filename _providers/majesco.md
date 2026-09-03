@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 1
 apis:
-- description: Premium billing and payment operations
+- baseURL: https://api.majesco.example.com
+  baseurl_source: declared
+  description: Premium billing and payment operations
   name: majesco Billing API
   slug: majesco-billing-api
-- description: Claims intake and management
+- baseURL: https://api.majesco.example.com
+  baseurl_source: declared
+  description: Claims intake and management
   name: majesco Claims API
   slug: majesco-claims-api
-- description: Quote and bind operations for distribution channels
+- baseURL: https://api.majesco.example.com
+  baseurl_source: declared
+  description: Quote and bind operations for distribution channels
   name: majesco Distribution API
   slug: majesco-distribution-api
-- description: Insurance policy lifecycle management
+- baseURL: https://api.majesco.example.com
+  baseurl_source: declared
+  description: Insurance policy lifecycle management
   name: majesco Policies API
   slug: majesco-policies-api
 artifact_total: 22
@@ -143,16 +151,16 @@ jsonld:
   slug: majesco-context
 layout: provider
 modified: '2026-05-19'
-name: majesco
+name: Majesco
 nav: Providers
 network: true
-overview: 'majesco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, Distribution API, and 1 more.
+overview: 'Majesco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, Distribution API, and 1 more.
 
 
-  The majesco catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Majesco catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  majesco''s developer surface includes authentication, developer portal, and 9 more developer resources.'
+  Majesco''s developer surface includes authentication, developer portal, and 9 more developer resources.'
 plans:
 - name: Majesco Plans Pricing
   plan_count: 3
@@ -165,7 +173,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: majesco API Rules
+  name: Majesco API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -206,10 +214,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png
 security:

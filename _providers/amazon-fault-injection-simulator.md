@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 8 acting · 2 human-in-the-loop
 api_count: 6
 apis:
-- description: Discover available FIS fault injection actions
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Discover available FIS fault injection actions
   name: Amazon Fault Injection Simulator Actions API
   slug: amazon-fault-injection-simulator-actions-api
-- description: Create and manage fault injection experiment templates
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Create and manage fault injection experiment templates
   name: Amazon Fault Injection Simulator Experiment Templates API
   slug: amazon-fault-injection-simulator-experiment-templates-api
-- description: Start, stop, and monitor fault injection experiments
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Start, stop, and monitor fault injection experiments
   name: Amazon Fault Injection Simulator Experiments API
   slug: amazon-fault-injection-simulator-experiments-api
-- description: Manage safety levers for experiment control
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Manage safety levers for experiment control
   name: Amazon Fault Injection Simulator Safety Levers API
   slug: amazon-fault-injection-simulator-safety-levers-api
-- description: Manage tags on FIS resources
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Manage tags on FIS resources
   name: Amazon Fault Injection Simulator Tagging API
   slug: amazon-fault-injection-simulator-tagging-api
-- description: Discover available target resource types
+- baseURL: https://fis.amazonaws.com
+  baseurl_source: declared
+  description: Discover available target resource types
   name: Amazon Fault Injection Simulator Target Resource Types API
   slug: amazon-fault-injection-simulator-target-resource-types-api
 arazzos:
@@ -432,7 +444,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/screenshots/amazon-fault-injection-simulator-2026-06-20T171648.png
 security:

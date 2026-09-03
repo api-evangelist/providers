@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 18 operations · 2 acting
 api_count: 1
 apis:
-- description: Endpoints for retrieving boards and kits.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving boards and kits.
   name: Renesas Board & Kit API
   slug: renesas-board-kit-api
-- description: Endpoint for retrieving documents.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoint for retrieving documents.
   name: Renesas Document API
   slug: renesas-document-api
-- description: Endpoints for retrieving packages.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving packages.
   name: Renesas Package API
   slug: renesas-package-api
-- description: Endpoints for retrieving products.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving products.
   name: Renesas Product API
   slug: renesas-product-api
-- description: Endpoints for retrieving product parts.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving product parts.
   name: Renesas Product Part API
   slug: renesas-product-part-api
-- description: Endpoints for retrieving software tools.
+- baseURL: https://api.renesas.com/web-data/v1
+  baseurl_source: declared
+  description: Endpoints for retrieving software tools.
   name: Renesas Software Tool API
   slug: renesas-software-tool-api
 artifact_total: 17
@@ -249,7 +261,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/screenshots/renesas-2026-08-17T081518.png
 security:

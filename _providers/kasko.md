@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -157,7 +157,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -167,7 +167,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 42.9
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -182,7 +182,7 @@ score:
     regime_id: insurance
     score: 45.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
 security:

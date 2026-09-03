@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -39,25 +50,39 @@ apis:
 - description: Terminal Connect is Till Payments' in-person integration surface for connecting point-of-sale software to Till payment terminals, documented via getting-started and integration guides on the Till deve
   name: Till Payments Terminal Connect API
   slug: till-payments-terminal-connect
-- description: The continue-dcc API from Till Payments — 1 operation(s) for continue-dcc.
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: The continue-dcc API from Till Payments — 1 operation(s) for continue-dcc.
   name: Till Payments Continue Dcc API
   slug: till-payments-continue-dcc-api
-- description: The Dispute API from Till Payments — 4 operation(s) for dispute.
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: The Dispute API from Till Payments — 4 operation(s) for dispute.
   name: Till Payments Dispute API
   slug: till-payments-dispute-api
-- description: Retrieve a list of options
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: Retrieve a list of options
   name: Till Payments Options API
   slug: till-payments-options-api
-- description: Prepare Transactions
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: Prepare Transactions
   name: Till Payments Prepare Transaction API
   slug: till-payments-prepare-transaction-api
-- description: Set and manage transaction schedules
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: Set and manage transaction schedules
   name: Till Payments Schedule API
   slug: till-payments-schedule-api
-- description: Retrieve the status of transactions
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: Retrieve the status of transactions
   name: Till Payments Status API
   slug: till-payments-status-api
-- description: Process transactions
+- baseURL: https://gateway.tillpayments.com/api/v3
+  baseurl_source: declared
+  description: Process transactions
   name: Till Payments Transaction API
   slug: till-payments-transaction-api
 arazzos:
@@ -224,7 +249,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -234,7 +259,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 35.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,7 +281,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/screenshots/till-payments-2026-08-17T082354.png
 security:

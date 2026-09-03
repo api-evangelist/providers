@@ -33,109 +33,177 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Brands API from VSCO — 2 operation(s) for brands.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Brands API from VSCO — 2 operation(s) for brands.
   name: VSCO Brands API
   slug: vsco-brands-api
-- description: The Contacts API from VSCO — 2 operation(s) for contacts.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Contacts API from VSCO — 2 operation(s) for contacts.
   name: VSCO Contacts API
   slug: vsco-contacts-api
-- description: The Custom Fields API from VSCO — 2 operation(s) for custom fields.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Custom Fields API from VSCO — 2 operation(s) for custom fields.
   name: VSCO Custom Fields API
   slug: vsco-custom-fields-api
-- description: The Discount Types API from VSCO — 2 operation(s) for discount types.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Discount Types API from VSCO — 2 operation(s) for discount types.
   name: VSCO Discount Types API
   slug: vsco-discount-types-api
-- description: The Discounts API from VSCO — 2 operation(s) for discounts.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Discounts API from VSCO — 2 operation(s) for discounts.
   name: VSCO Discounts API
   slug: vsco-discounts-api
-- description: The Event Types API from VSCO — 2 operation(s) for event types.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Event Types API from VSCO — 2 operation(s) for event types.
   name: VSCO Event Types API
   slug: vsco-event-types-api
-- description: The Events API from VSCO — 2 operation(s) for events.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Events API from VSCO — 2 operation(s) for events.
   name: VSCO Events API
   slug: vsco-events-api
-- description: The File Types API from VSCO — 2 operation(s) for file types.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The File Types API from VSCO — 2 operation(s) for file types.
   name: VSCO File Types API
   slug: vsco-file-types-api
-- description: The Files API from VSCO — 2 operation(s) for files.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Files API from VSCO — 2 operation(s) for files.
   name: VSCO Files API
   slug: vsco-files-api
-- description: The Galleries API from VSCO — 2 operation(s) for galleries.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Galleries API from VSCO — 2 operation(s) for galleries.
   name: VSCO Galleries API
   slug: vsco-galleries-api
-- description: The Job Closed Reasons API from VSCO — 2 operation(s) for job closed reasons.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Closed Reasons API from VSCO — 2 operation(s) for job closed reasons.
   name: VSCO Job Closed Reasons API
   slug: vsco-job-closed-reasons-api
-- description: The Job Contacts API from VSCO — 2 operation(s) for job contacts.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Contacts API from VSCO — 2 operation(s) for job contacts.
   name: VSCO Job Contacts API
   slug: vsco-job-contacts-api
-- description: The Job Payment API from VSCO — 1 operation(s) for job payment.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Payment API from VSCO — 1 operation(s) for job payment.
   name: VSCO Job Payment API
   slug: vsco-job-payment-api
-- description: The Job Roles API from VSCO — 2 operation(s) for job roles.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Roles API from VSCO — 2 operation(s) for job roles.
   name: VSCO Job Roles API
   slug: vsco-job-roles-api
-- description: The Job Types API from VSCO — 2 operation(s) for job types.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Types API from VSCO — 2 operation(s) for job types.
   name: VSCO Job Types API
   slug: vsco-job-types-api
-- description: The Job Worksheets API from VSCO — 2 operation(s) for job worksheets.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Job Worksheets API from VSCO — 2 operation(s) for job worksheets.
   name: VSCO Job Worksheets API
   slug: vsco-job-worksheets-api
-- description: The Jobs API from VSCO — 3 operation(s) for jobs.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Jobs API from VSCO — 3 operation(s) for jobs.
   name: VSCO Jobs API
   slug: vsco-jobs-api
-- description: The Lead Sources API from VSCO — 2 operation(s) for lead sources.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Lead Sources API from VSCO — 2 operation(s) for lead sources.
   name: VSCO Lead Sources API
   slug: vsco-lead-sources-api
-- description: The Lead Statuses API from VSCO — 2 operation(s) for lead statuses.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Lead Statuses API from VSCO — 2 operation(s) for lead statuses.
   name: VSCO Lead Statuses API
   slug: vsco-lead-statuses-api
-- description: The Notes API from VSCO — 2 operation(s) for notes.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Notes API from VSCO — 2 operation(s) for notes.
   name: VSCO Notes API
   slug: vsco-notes-api
-- description: The Orders API from VSCO — 3 operation(s) for orders.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Orders API from VSCO — 3 operation(s) for orders.
   name: VSCO Orders API
   slug: vsco-orders-api
-- description: The Payment Methods API from VSCO — 2 operation(s) for payment methods.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Payment Methods API from VSCO — 2 operation(s) for payment methods.
   name: VSCO Payment Methods API
   slug: vsco-payment-methods-api
-- description: The Payments API from VSCO — 3 operation(s) for payments.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Payments API from VSCO — 3 operation(s) for payments.
   name: VSCO Payments API
   slug: vsco-payments-api
-- description: The Product Types API from VSCO — 2 operation(s) for product types.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Product Types API from VSCO — 2 operation(s) for product types.
   name: VSCO Product Types API
   slug: vsco-product-types-api
-- description: The Products API from VSCO — 2 operation(s) for products.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Products API from VSCO — 2 operation(s) for products.
   name: VSCO Products API
   slug: vsco-products-api
-- description: The Profit Centers API from VSCO — 2 operation(s) for profit centers.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Profit Centers API from VSCO — 2 operation(s) for profit centers.
   name: VSCO Profit Centers API
   slug: vsco-profit-centers-api
-- description: The Quotes API from VSCO — 2 operation(s) for quotes.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Quotes API from VSCO — 2 operation(s) for quotes.
   name: VSCO Quotes API
   slug: vsco-quotes-api
-- description: Webhooks based on <a href="https://zapier.com/engineering/introducing-resthooksorg/" target="_blank">Zapier's now-deprecated REST Hooks specification</a>.<br> <br> You can use these to receive a postb
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: Webhooks based on <a href="https://zapier.com/engineering/introducing-resthooksorg/" target="_blank">Zapier's now-deprecated REST Hooks specification</a>.<br> <br> You can use these to receive a postb
   name: VSCO Rest Hooks API
   slug: vsco-rest-hooks-api
-- description: The Schedulers - Client Access API from VSCO — 1 operation(s) for schedulers - client access.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Schedulers - Client Access API from VSCO — 1 operation(s) for schedulers - client access.
   name: VSCO Schedulers - Client Access API
   slug: vsco-schedulers-client-access-api
-- description: The Studio API from VSCO — 2 operation(s) for studio.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Studio API from VSCO — 2 operation(s) for studio.
   name: VSCO Studio API
   slug: vsco-studio-api
-- description: The Tax Groups API from VSCO — 2 operation(s) for tax groups.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Tax Groups API from VSCO — 2 operation(s) for tax groups.
   name: VSCO Tax Groups API
   slug: vsco-tax-groups-api
-- description: The Tax Rates API from VSCO — 2 operation(s) for tax rates.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Tax Rates API from VSCO — 2 operation(s) for tax rates.
   name: VSCO Tax Rates API
   slug: vsco-tax-rates-api
-- description: The Timezones API from VSCO — 2 operation(s) for timezones.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Timezones API from VSCO — 2 operation(s) for timezones.
   name: VSCO Timezones API
   slug: vsco-timezones-api
-- description: The Users API from VSCO — 2 operation(s) for users.
+- baseURL: https://workspace.vsco.co/api/v2
+  baseurl_source: declared
+  description: The Users API from VSCO — 2 operation(s) for users.
   name: VSCO Users API
   slug: vsco-users-api
 artifact_total: 73
@@ -362,11 +430,11 @@ score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -376,7 +444,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -387,8 +455,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/screenshots/vsco-2026-09-02T170317.png
 security:
 - kind: authentication
   name: Vsco Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -46,40 +46,64 @@ apis:
 - description: The Tika Java API provides the AutoDetectParser for automatic format detection and parsing, Metadata class for reading extracted metadata fields, ContentHandler for streaming SAX-based text extraction
   name: Apache Tika Java API
   slug: apache-tika-java-api
-- description: The Apache Tika Server REST API API from Apache Tika — 1 operation(s) for apache tika server rest api.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Apache Tika Server REST API API from Apache Tika — 1 operation(s) for apache tika server rest api.
   name: Apache Tika Apache Tika Server REST API API
   slug: apache-tika-apache-tika-server-rest-api-api
-- description: The Detect API from Apache Tika — 1 operation(s) for detect.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Detect API from Apache Tika — 1 operation(s) for detect.
   name: Apache Tika Detect API
   slug: apache-tika-detect-api
-- description: The Detectors API from Apache Tika — 1 operation(s) for detectors.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Detectors API from Apache Tika — 1 operation(s) for detectors.
   name: Apache Tika Detectors API
   slug: apache-tika-detectors-api
-- description: The Language API from Apache Tika — 2 operation(s) for language.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Language API from Apache Tika — 2 operation(s) for language.
   name: Apache Tika Language API
   slug: apache-tika-language-api
-- description: The Meta API from Apache Tika — 3 operation(s) for meta.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Meta API from Apache Tika — 3 operation(s) for meta.
   name: Apache Tika Meta API
   slug: apache-tika-meta-api
-- description: The Mime Types API from Apache Tika — 1 operation(s) for mime types.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Mime Types API from Apache Tika — 1 operation(s) for mime types.
   name: Apache Tika Mime Types API
   slug: apache-tika-mime-types-api
-- description: The Parsers API from Apache Tika — 2 operation(s) for parsers.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Parsers API from Apache Tika — 2 operation(s) for parsers.
   name: Apache Tika Parsers API
   slug: apache-tika-parsers-api
-- description: The Rmeta API from Apache Tika — 5 operation(s) for rmeta.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Rmeta API from Apache Tika — 5 operation(s) for rmeta.
   name: Apache Tika Rmeta API
   slug: apache-tika-rmeta-api
-- description: The Status API from Apache Tika — 1 operation(s) for status.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Status API from Apache Tika — 1 operation(s) for status.
   name: Apache Tika Status API
   slug: apache-tika-status-api
-- description: The Tika API from Apache Tika — 4 operation(s) for tika.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Tika API from Apache Tika — 4 operation(s) for tika.
   name: Apache Tika Tika API
   slug: apache-tika-tika-api
-- description: The Translate API from Apache Tika — 2 operation(s) for translate.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Translate API from Apache Tika — 2 operation(s) for translate.
   name: Apache Tika Translate API
   slug: apache-tika-translate-api
-- description: The Unpack API from Apache Tika — 2 operation(s) for unpack.
+- baseURL: http://localhost:9998
+  baseurl_source: spec
+  description: The Unpack API from Apache Tika — 2 operation(s) for unpack.
   name: Apache Tika Unpack API
   slug: apache-tika-unpack-api
 artifact_total: 49
@@ -268,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/screenshots/apache-tika-2026-06-20T172153.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The Tempo product itself - a hosted AI app builder where users prompt, generate, edit, and preview React / Next.js applications in the browser. Combines a visual canvas, AI-generated code, and live pr
@@ -105,7 +105,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/screenshots/tempo-labs-2026-06-20T195100.png
 security:

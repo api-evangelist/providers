@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 67 operations · 37 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: Actions API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Actions API.
   name: Lightrun Actions API
   slug: lightrun-actions-api
-- description: Agent Pools API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Agent Pools API.
   name: Lightrun Agent Pools API
   slug: lightrun-agent-pools-api
-- description: Agents API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Agents API.
   name: Lightrun Agents API
   slug: lightrun-agents-api
-- description: Custom sources API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Custom sources API.
   name: Lightrun Custom sources API
   slug: lightrun-custom-sources-api
-- description: Debug Cases API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Debug Cases API.
   name: Lightrun Debug Cases API
   slug: lightrun-debug-cases-api
-- description: The Debug Runbook methods API from Lightrun — 1 operation(s) for debug runbook methods.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: The Debug Runbook methods API from Lightrun — 1 operation(s) for debug runbook methods.
   name: Lightrun Debug Runbook methods API
   slug: lightrun-debug-runbook-methods-api
-- description: Debug Runbooks API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Debug Runbooks API.
   name: Lightrun Debug Runbooks API
   slug: lightrun-debug-runbooks-api
-- description: Debug Runbooks Configuration API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Debug Runbooks Configuration API.
   name: Lightrun Debug Runbooks Configuration API
   slug: lightrun-debug-runbooks-configuration-api
-- description: Dynamic SBOM API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Dynamic SBOM API.
   name: Lightrun Dynamic SBOM API
   slug: lightrun-dynamic-sbom-api
-- description: Identity Management (IdM) configuration API
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Identity Management (IdM) configuration API
   name: Lightrun Identity Management (IdM) configuration API
   slug: lightrun-identity-management-idm-configuration-api
-- description: Just-In-Time Access API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Just-In-Time Access API.
   name: Lightrun Just-In-Time Access API
   slug: lightrun-just-in-time-access-api
-- description: Company License API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Company License API.
   name: Lightrun License API
   slug: lightrun-license-api
-- description: Lightrun feature flags status API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Lightrun feature flags status API.
   name: Lightrun Lightrun feature flags status API
   slug: lightrun-lightrun-feature-flags-status-api
-- description: Loaded packages API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Loaded packages API.
   name: Lightrun Loaded packages API
   slug: lightrun-loaded-packages-api
-- description: SMTP connectivity configuration API
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: SMTP connectivity configuration API
   name: Lightrun SMTP connectivity configuration API
   slug: lightrun-smtp-connectivity-configuration-api
-- description: System access API key management API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: System access API key management API.
   name: Lightrun System access API key API
   slug: lightrun-system-access-api-key-api
-- description: Tags API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Tags API.
   name: Lightrun Tags API
   slug: lightrun-tags-api
-- description: User Groups API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: User Groups API.
   name: Lightrun User Groups API
   slug: lightrun-user-groups-api
-- description: Users API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Users API.
   name: Lightrun Users API
   slug: lightrun-users-api
-- description: Watched packages API.
+- baseURL: https://app.lightrun.com/api/v1
+  baseurl_source: declared
+  description: Watched packages API.
   name: Lightrun Watched packages API
   slug: lightrun-watched-packages-api
 artifact_total: 48
@@ -347,7 +387,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -357,7 +397,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 54.1
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -369,7 +409,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightrun/refs/heads/main/screenshots/lightrun-2026-07-25T225125.png
 security:

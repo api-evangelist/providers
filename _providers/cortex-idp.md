@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 47 operations · 25 acting
 api_count: 1
 apis:
-- description: Software catalog entities - services, resources, domains, and custom types.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Software catalog entities - services, resources, domains, and custom types.
   name: Cortex Catalog API
   slug: cortex-idp-catalog-api
-- description: Arbitrary key/value metadata attached to catalog entities.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Arbitrary key/value metadata attached to catalog entities.
   name: Cortex Custom Data API
   slug: cortex-idp-custom-data-api
-- description: Deployment events recorded per catalog entity.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Deployment events recorded per catalog entity.
   name: Cortex Deploys API
   slug: cortex-idp-deploys-api
-- description: Time-boxed improvement campaigns driving entities toward a Scorecard target.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Time-boxed improvement campaigns driving entities toward a Scorecard target.
   name: Cortex Initiatives API
   slug: cortex-idp-initiatives-api
-- description: Third-party integration configurations that hydrate the catalog.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Third-party integration configurations that hydrate the catalog.
   name: Cortex Integrations API
   slug: cortex-idp-integrations-api
-- description: Standards that measure catalog entities, with scores and exemptions.
+- baseURL: https://api.getcortexapp.com/api/v1
+  baseurl_source: declared
+  description: Standards that measure catalog entities, with scores and exemptions.
   name: Cortex Scorecards API
   slug: cortex-idp-scorecards-api
 artifact_total: 19
@@ -177,7 +189,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/screenshots/cortex-idp-2026-07-25T210650.png
 security:

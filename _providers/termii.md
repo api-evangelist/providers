@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 24 operations · 16 acting
 api_count: 1
 apis:
-- description: Send, list, and manage SMS campaigns.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Send, list, and manage SMS campaigns.
   name: Termii Campaigns API
   slug: termii-campaigns-api
-- description: Manage phonebooks and the contacts within them.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Manage phonebooks and the contacts within them.
   name: Termii Contacts API
   slug: termii-contacts-api
-- description: Account balance, message history, and number status.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Account balance, message history, and number status.
   name: Termii Insights API
   slug: termii-insights-api
-- description: Send single, bulk, and number-based messages.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Send single, bulk, and number-based messages.
   name: Termii Messaging API
   slug: termii-messaging-api
-- description: Fetch and request alphanumeric sender IDs.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Fetch and request alphanumeric sender IDs.
   name: Termii Sender IDs API
   slug: termii-sender-ids-api
-- description: Generate, deliver, and verify one-time passwords.
+- baseURL: https://api.ng.termii.com/api
+  baseurl_source: declared
+  description: Generate, deliver, and verify one-time passwords.
   name: Termii Token API
   slug: termii-token-api
 artifact_total: 20
@@ -183,7 +195,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termii/refs/heads/main/screenshots/termii-2026-06-20T195127.png
 security:

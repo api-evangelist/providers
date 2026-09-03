@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -47,52 +47,84 @@ apis:
 - description: WebSocket channels for Hyperliquid markets including l2Book (wire-equal to the public feed), l2BookDiff (GoldRush-exclusive differential updates), and l4Book (order-level GoldRush-exclusive channel) p
   name: GoldRush Hyperliquid WebSocket API
   slug: goldrush-hyperliquid-websocket-api
-- description: Manage ABI definitions used for log and function decoding.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Manage ABI definitions used for log and function decoding.
   name: Covalent ABI API
   slug: covalent-abi-api
-- description: Native, ERC20, ERC721, ERC1155, and historical token balances.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Native, ERC20, ERC721, ERC1155, and historical token balances.
   name: Covalent Balances API
   slug: covalent-balances-api
-- description: Blocks, gas prices, log events, address resolution, chain status.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Blocks, gas prices, log events, address resolution, chain status.
   name: Covalent Base API
   slug: covalent-base-api
-- description: Bitcoin balance and transaction lookups (HD and non-HD).
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Bitcoin balance and transaction lookups (HD and non-HD).
   name: Covalent Bitcoin API
   slug: covalent-bitcoin-api
-- description: Discover an address's activity across all supported chains.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Discover an address's activity across all supported chains.
   name: Covalent Cross-Chain API
   slug: covalent-cross-chain-api
-- description: x402-priced data endpoints.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: x402-priced data endpoints.
   name: Covalent Data API
   slug: covalent-data-api
-- description: Manage destination connections (ClickHouse, Kafka, S3/GCS/R2, Postgres, SQS, Webhook).
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Manage destination connections (ClickHouse, Kafka, S3/GCS/R2, Postgres, SQS, Webhook).
   name: Covalent Destinations API
   slug: covalent-destinations-api
-- description: List and search x402 endpoints exposed by GoldRush.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: List and search x402 endpoints exposed by GoldRush.
   name: Covalent Discovery API
   slug: covalent-discovery-api
-- description: Single GraphQL endpoint serving queries and subscriptions.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Single GraphQL endpoint serving queries and subscriptions.
   name: Covalent GraphQL API
   slug: covalent-graphql-api
-- description: Dispatching POST endpoint for Hyperliquid info types.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Dispatching POST endpoint for Hyperliquid info types.
   name: Covalent Info API
   slug: covalent-info-api
-- description: NFTs held by an address and collection ownership checks.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: NFTs held by an address and collection ownership checks.
   name: Covalent NFT API
   slug: covalent-nft-api
-- description: Create, list, update, and delete data pipelines.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Create, list, update, and delete data pipelines.
   name: Covalent Pipelines API
   slug: covalent-pipelines-api
-- description: Historical token prices and pool spot prices.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Historical token prices and pool spot prices.
   name: Covalent Pricing API
   slug: covalent-pricing-api
-- description: Token approvals across ERC20 and NFT contracts.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Token approvals across ERC20 and NFT contracts.
   name: Covalent Security API
   slug: covalent-security-api
-- description: Transaction lookups by address, block, and time bucket.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Transaction lookups by address, block, and time bucket.
   name: Covalent Transactions API
   slug: covalent-transactions-api
-- description: Manage SQL transforms applied to decoded events before delivery.
+- baseURL: https://api.covalenthq.com
+  baseurl_source: declared
+  description: Manage SQL transforms applied to decoded events before delivery.
   name: Covalent Transforms API
   slug: covalent-transforms-api
 artifact_total: 73
@@ -484,7 +516,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -494,7 +526,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 63.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     contracts:
@@ -503,7 +535,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

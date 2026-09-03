@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: REST API for asynchronous image generation across the Flux model family. Submit a generation request, then poll the returned polling_url for the result. Global endpoint at https://api.bfl.ai with regi
   name: Flux Image Generation API
   slug: flux
-- description: Image editing tools (fill, expand, erase).
+- baseURL: https://api.bfl.ai
+  baseurl_source: declared
+  description: Image editing tools (fill, expand, erase).
   name: Black Forest Labs Editing API
   slug: black-forest-labs-editing-api
-- description: Image generation endpoints.
+- baseURL: https://api.bfl.ai
+  baseurl_source: declared
+  description: Image generation endpoints.
   name: Black Forest Labs Generation API
   slug: black-forest-labs-generation-api
-- description: Result polling, credits, fine-tune management.
+- baseURL: https://api.bfl.ai
+  baseurl_source: declared
+  description: Result polling, credits, fine-tune management.
   name: Black Forest Labs Utility API
   slug: black-forest-labs-utility-api
 artifact_total: 15
@@ -170,7 +176,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/screenshots/black-forest-labs-2026-06-20T173409.png
 security:

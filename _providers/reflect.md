@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Execution API from Reflect — 1 operation(s) for execution.
+- baseURL: https://api.reflect.run/v1
+  baseurl_source: declared
+  description: The Execution API from Reflect — 1 operation(s) for execution.
   name: Reflect Execution API
   slug: reflect-execution-api
-- description: The Executions API from Reflect — 2 operation(s) for executions.
+- baseURL: https://api.reflect.run/v1
+  baseurl_source: declared
+  description: The Executions API from Reflect — 2 operation(s) for executions.
   name: Reflect Executions API
   slug: reflect-executions-api
-- description: The Tests API from Reflect — 2 operation(s) for tests.
+- baseURL: https://api.reflect.run/v1
+  baseurl_source: declared
+  description: The Tests API from Reflect — 2 operation(s) for tests.
   name: Reflect Tests API
   slug: reflect-tests-api
 artifact_total: 22
@@ -263,7 +269,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reflect/refs/heads/main/screenshots/reflect-2026-06-20T192747.png
 security:

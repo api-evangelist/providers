@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -36,76 +49,124 @@ apis:
 - description: Hosted Model Context Protocol server served from Figment's own documentation host at docs.figment.io/mcp, exposing the Figment documentation and API reference to MCP clients. The endpoint is OAuth-pro
   name: Figment Documentation MCP Server
   slug: figment-documentation-mcp-server
-- description: The Addresses API from Figment — 1 operation(s) for addresses.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Addresses API from Figment — 1 operation(s) for addresses.
   name: Figment Addresses API
   slug: figment-addresses-api
-- description: The Aptos API from Figment — 1 operation(s) for aptos.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Aptos API from Figment — 1 operation(s) for aptos.
   name: Figment Aptos API
   slug: figment-aptos-api
-- description: The Avalanche API from Figment — 5 operation(s) for avalanche.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Avalanche API from Figment — 5 operation(s) for avalanche.
   name: Figment Avalanche API
   slug: figment-avalanche-api
-- description: The Blockfrost Projects API from Figment — 2 operation(s) for blockfrost projects.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Blockfrost Projects API from Figment — 2 operation(s) for blockfrost projects.
   name: Figment Blockfrost Projects API
   slug: figment-blockfrost-projects-api
-- description: The Cardano API from Figment — 12 operation(s) for cardano.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Cardano API from Figment — 12 operation(s) for cardano.
   name: Figment Cardano API
   slug: figment-cardano-api
-- description: The Cosmos API from Figment — 6 operation(s) for cosmos.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Cosmos API from Figment — 6 operation(s) for cosmos.
   name: Figment Cosmos API
   slug: figment-cosmos-api
-- description: The Ethereum API from Figment — 20 operation(s) for ethereum.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Ethereum API from Figment — 20 operation(s) for ethereum.
   name: Figment Ethereum API
   slug: figment-ethereum-api
-- description: The NEAR API from Figment — 6 operation(s) for near.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The NEAR API from Figment — 6 operation(s) for near.
   name: Figment NEAR API
   slug: figment-near-api
-- description: The Osmosis API from Figment — 3 operation(s) for osmosis.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Osmosis API from Figment — 3 operation(s) for osmosis.
   name: Figment Osmosis API
   slug: figment-osmosis-api
-- description: The Partners - Ethereum API from Figment — 1 operation(s) for partners - ethereum.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Partners - Ethereum API from Figment — 1 operation(s) for partners - ethereum.
   name: Figment Partners - Ethereum API
   slug: figment-partners-ethereum-api
-- description: The Polkadot API from Figment — 4 operation(s) for polkadot.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Polkadot API from Figment — 4 operation(s) for polkadot.
   name: Figment Polkadot API
   slug: figment-polkadot-api
-- description: The Polygon API from Figment — 1 operation(s) for polygon.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Polygon API from Figment — 1 operation(s) for polygon.
   name: Figment Polygon API
   slug: figment-polygon-api
-- description: The Portfolio API from Figment — 1 operation(s) for portfolio.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Portfolio API from Figment — 1 operation(s) for portfolio.
   name: Figment Portfolio API
   slug: figment-portfolio-api
-- description: The Rewards API from Figment — 6 operation(s) for rewards.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Rewards API from Figment — 6 operation(s) for rewards.
   name: Figment Rewards API
   slug: figment-rewards-api
-- description: The Solana API from Figment — 12 operation(s) for solana.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Solana API from Figment — 12 operation(s) for solana.
   name: Figment Solana API
   slug: figment-solana-api
-- description: The Stablecoins API from Figment — 6 operation(s) for stablecoins.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Stablecoins API from Figment — 6 operation(s) for stablecoins.
   name: Figment Stablecoins API
   slug: figment-stablecoins-api
-- description: The Staking Flows API from Figment — 3 operation(s) for staking flows.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Staking Flows API from Figment — 3 operation(s) for staking flows.
   name: Figment Staking Flows API
   slug: figment-staking-flows-api
-- description: The Statements API from Figment — 1 operation(s) for statements.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Statements API from Figment — 1 operation(s) for statements.
   name: Figment Statements API
   slug: figment-statements-api
-- description: The Sui API from Figment — 4 operation(s) for sui.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Sui API from Figment — 4 operation(s) for sui.
   name: Figment Sui API
   slug: figment-sui-api
-- description: The Transactions API from Figment — 1 operation(s) for transactions.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Transactions API from Figment — 1 operation(s) for transactions.
   name: Figment Transactions API
   slug: figment-transactions-api
-- description: The Validators API from Figment — 1 operation(s) for validators.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Validators API from Figment — 1 operation(s) for validators.
   name: Figment Validators API
   slug: figment-validators-api
-- description: The Vaulta API from Figment — 5 operation(s) for vaulta.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Vaulta API from Figment — 5 operation(s) for vaulta.
   name: Figment Vaulta API
   slug: figment-vaulta-api
-- description: The Vaults API from Figment — 19 operation(s) for vaults.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The Vaults API from Figment — 19 operation(s) for vaults.
   name: Figment Vaults API
   slug: figment-vaults-api
-- description: The x402 API from Figment — 5 operation(s) for x402.
+- baseURL: https://api.figment.io
+  baseurl_source: declared
+  description: The x402 API from Figment — 5 operation(s) for x402.
   name: Figment X402 API
   slug: figment-x402-api
 artifact_total: 57
@@ -402,7 +463,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:

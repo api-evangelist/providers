@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -36,163 +48,269 @@ apis:
 - description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   name: Apideck
   slug: apideck
-- description: The Activity resource represents a logged event or task, such as a meeting, call, or email, including details like type, date, duration, and associations with contacts, companies, or opportunities.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Activity resource represents a logged event or task, such as a meeting, call, or email, including details like type, date, duration, and associations with contacts, companies, or opportunities.
   name: Apideck Activities API
   slug: apideck-activities-api
-- description: Aged Creditors is a report showing amounts owed to suppliers, grouped by aging periods (current, 30, 60, 90+ days) with supplier details.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Aged Creditors is a report showing amounts owed to suppliers, grouped by aging periods (current, 30, 60, 90+ days) with supplier details.
   name: Apideck Aged Creditors API
   slug: apideck-aged-creditors-api
-- description: Aged Debtors is a report showing amounts owed by customers, grouped by aging periods (current, 30, 60, 90+ days) with customer details.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Aged Debtors is a report showing amounts owed by customers, grouped by aging periods (current, 30, 60, 90+ days) with customer details.
   name: Apideck Aged Debtors API
   slug: apideck-aged-debtors-api
-- description: An Attachment represents a file linked to an accounting document, including file name, URL, content type, and the parent record reference.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Attachment represents a file linked to an accounting document, including file name, URL, content type, and the parent record reference.
   name: Apideck Attachments API
   slug: apideck-attachments-api
-- description: A Balance Sheet report shows the financial position at a point in time, including totals for assets, liabilities, and equity accounts.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Balance Sheet report shows the financial position at a point in time, including totals for assets, liabilities, and equity accounts.
   name: Apideck Balance Sheet API
   slug: apideck-balance-sheet-api
-- description: A Bank Account represents a financial account, including account name, number, type (checking, savings, credit card), currency, and balance.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Bank Account represents a financial account, including account name, number, type (checking, savings, credit card), currency, and balance.
   name: Apideck Bank Accounts API
   slug: apideck-bank-accounts-api
-- description: A Bank Feed Account represents a connected financial institution account, including account details and connection status for transaction imports.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Bank Feed Account represents a connected financial institution account, including account details and connection status for transaction imports.
   name: Apideck Bank Feed Accounts API
   slug: apideck-bank-feed-accounts-api
-- description: A Bank Feed Statement contains imported transaction data from a connected bank account, including statement period and transaction details.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Bank Feed Statement contains imported transaction data from a connected bank account, including statement period and transaction details.
   name: Apideck Bank Feed Statements API
   slug: apideck-bank-feed-statements-api
-- description: A Bill Payment represents money paid to a supplier, including amount, date, payment method, and allocation to one or more bills.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Bill Payment represents money paid to a supplier, including amount, date, payment method, and allocation to one or more bills.
   name: Apideck Bill Payments API
   slug: apideck-bill-payments-api
-- description: A Bill represents an invoice from a supplier, including line items, amounts, due date, payment status, and linked supplier.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Bill represents an invoice from a supplier, including line items, amounts, due date, payment status, and linked supplier.
   name: Apideck Bills API
   slug: apideck-bills-api
-- description: A Category represents a product or service grouping, including name and type for organizing invoice and bill line items.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Category represents a product or service grouping, including name and type for organizing invoice and bill line items.
   name: Apideck Categories API
   slug: apideck-categories-api
-- description: List companies accessible through the current connection. Only available for multi-company connectors.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: List companies accessible through the current connection. Only available for multi-company connectors.
   name: Apideck Companies API
   slug: apideck-companies-api
-- description: Company Info contains the organization's profile data including legal name, addresses, tax identifiers, currency, and fiscal year settings.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Company Info contains the organization's profile data including legal name, addresses, tax identifiers, currency, and fiscal year settings.
   name: Apideck Company Info API
   slug: apideck-company-info-api
-- description: The Contact resource represents individuals, including details such as name, contact information, associated company, and activity history.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Contact resource represents individuals, including details such as name, contact information, associated company, and activity history.
   name: Apideck Contacts API
   slug: apideck-contacts-api
-- description: A Credit Note represents a reduction in the amount owed by a customer, including line items, amounts, and the linked customer or invoice.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Credit Note represents a reduction in the amount owed by a customer, including line items, amounts, and the linked customer or invoice.
   name: Apideck Credit Notes API
   slug: apideck-credit-notes-api
-- description: The Custom Object Schema resource represents the schema of a custom object.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Custom Object Schema resource represents the schema of a custom object.
   name: Apideck Custom Object Schemas API
   slug: apideck-custom-object-schemas-api
-- description: The Custom Object resource represents user-defined data structures in Salesforce, allowing storage of custom records with specific fields, relationships, and business logic tailored to unique organiza
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Custom Object resource represents user-defined data structures in Salesforce, allowing storage of custom records with specific fields, relationships, and business logic tailored to unique organiza
   name: Apideck Custom Objects API
   slug: apideck-custom-objects-api
-- description: A Customer represents a buyer or client, including contact details, billing and shipping addresses, tax information, and payment terms.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Customer represents a buyer or client, including contact details, billing and shipping addresses, tax information, and payment terms.
   name: Apideck Customers API
   slug: apideck-customers-api
-- description: A Department represents an organizational unit, including name, code, and parent department for hierarchical structures.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Department represents an organizational unit, including name, code, and parent department for hierarchical structures.
   name: Apideck Departments API
   slug: apideck-departments-api
-- description: Drive Groups resource represents the groups of drives in the cloud storage service. It provides methods for managing and accessing the drive groups, such as creating, deleting, and listing drive group
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Drive Groups resource represents the groups of drives in the cloud storage service. It provides methods for managing and accessing the drive groups, such as creating, deleting, and listing drive group
   name: Apideck Drive Groups API
   slug: apideck-drive-groups-api
-- description: Drives resource represents logical containers for storing folders and files in the cloud storage service. It provides methods for managing and accessing the drives, such as creating, deleting, and lis
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Drives resource represents logical containers for storing folders and files in the cloud storage service. It provides methods for managing and accessing the drives, such as creating, deleting, and lis
   name: Apideck Drives API
   slug: apideck-drives-api
-- description: An Employee Payroll represents an individual's pay details for a period, including gross pay, deductions, taxes, and net pay.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Employee Payroll represents an individual's pay details for a period, including gross pay, deductions, taxes, and net pay.
   name: Apideck Employee Payrolls API
   slug: apideck-employee-payrolls-api
-- description: An Employee Schedule represents work time assignments, including schedule entries with start time, end time, and work location.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Employee Schedule represents work time assignments, including schedule entries with start time, end time, and work location.
   name: Apideck Employee Schedules API
   slug: apideck-employee-schedules-api
-- description: An Employee represents an individual within the organization for accounting purposes, including name, department, hire date, and employment status.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Employee represents an individual within the organization for accounting purposes, including name, department, hire date, and employment status.
   name: Apideck Employees API
   slug: apideck-employees-api
-- description: An Expense Category classifies types of expenses within the organization, such as travel, meals, or office supplies. Used to categorize expense report line items.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Expense Category classifies types of expenses within the organization, such as travel, meals, or office supplies. Used to categorize expense report line items.
   name: Apideck Expense Categories API
   slug: apideck-expense-categories-api
-- description: An Expense Report is a collection of expense line items submitted by an employee for reimbursement, including amounts, categories, and approval status.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Expense Report is a collection of expense line items submitted by an employee for reimbursement, including amounts, categories, and approval status.
   name: Apideck Expense Reports API
   slug: apideck-expense-reports-api
-- description: An Expense represents a business expenditure, including amount, date, category, payment method, merchant, and account allocation.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Expense represents a business expenditure, including amount, date, category, payment method, merchant, and account allocation.
   name: Apideck Expenses API
   slug: apideck-expenses-api
-- description: Files resource represents files stored in the cloud storage services. It provides methods for managing and accessing the files, such as uploading, downloading, and deleting files. For more information
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Files resource represents files stored in the cloud storage services. It provides methods for managing and accessing the files, such as uploading, downloading, and deleting files. For more information
   name: Apideck Files API
   slug: apideck-files-api
-- description: Folders resource represents the folders within a drive in the cloud storage service. It provides methods for managing and accessing the folders, such as creating, deleting, and listing files & folders
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Folders resource represents the folders within a drive in the cloud storage service. It provides methods for managing and accessing the folders, such as creating, deleting, and listing files & folders
   name: Apideck Folders API
   slug: apideck-folders-api
-- description: An Invoice Item represents a reusable product or service that can be added to invoices, including name, description, price, and tax settings.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Invoice Item represents a reusable product or service that can be added to invoices, including name, description, price, and tax settings.
   name: Apideck Invoice Items API
   slug: apideck-invoice-items-api
-- description: An Invoice represents a sales document sent to customers, including line items, taxes, discounts, totals, due date, and payment status.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: An Invoice represents a sales document sent to customers, including line items, taxes, discounts, totals, due date, and payment status.
   name: Apideck Invoices API
   slug: apideck-invoices-api
-- description: A Journal Entry represents a manual accounting entry with debit and credit line items, memo, posting date, and status.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Journal Entry represents a manual accounting entry with debit and credit line items, memo, posting date, and status.
   name: Apideck Journal Entries API
   slug: apideck-journal-entries-api
-- description: The Lead resource represents individuals or businesses that have shown interest in a company's products or services, including contact information and potential deal opportunities.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Lead resource represents individuals or businesses that have shown interest in a company's products or services, including contact information and potential deal opportunities.
   name: Apideck Leads API
   slug: apideck-leads-api
-- description: A Ledger Account represents an entry in the chart of accounts, including name, code, type (asset, liability, equity, revenue, expense), and balance.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Ledger Account represents an entry in the chart of accounts, including name, code, type (asset, liability, equity, revenue, expense), and balance.
   name: Apideck Ledger Accounts API
   slug: apideck-ledger-accounts-api
-- description: A Location represents a physical business site, including name, address, and status for multi-location tracking.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Location represents a physical business site, including name, address, and status for multi-location tracking.
   name: Apideck Locations API
   slug: apideck-locations-api
-- description: The Note resource represents textual records, such as comments or messages, associated with various entities like contacts, opportunities, or activities.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Note resource represents textual records, such as comments or messages, associated with various entities like contacts, opportunities, or activities.
   name: Apideck Notes API
   slug: apideck-notes-api
-- description: The Opportunity resource represents potential business deals, including details such as title, value, status, close date, and associated contacts or companies.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Opportunity resource represents potential business deals, including details such as title, value, status, close date, and associated contacts or companies.
   name: Apideck Opportunities API
   slug: apideck-opportunities-api
-- description: A Payment represents money received from a customer, including amount, date, payment method, and allocation to one or more invoices.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Payment represents money received from a customer, including amount, date, payment method, and allocation to one or more invoices.
   name: Apideck Payments API
   slug: apideck-payments-api
-- description: A Payroll represents a pay run, including pay period dates, total amounts, status, and linked company.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Payroll represents a pay run, including pay period dates, total amounts, status, and linked company.
   name: Apideck Payrolls API
   slug: apideck-payrolls-api
-- description: The Pipeline resource represents a structured process for managing sales opportunities, including stages and associated activities.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: The Pipeline resource represents a structured process for managing sales opportunities, including stages and associated activities.
   name: Apideck Pipelines API
   slug: apideck-pipelines-api
-- description: A Profit and Loss report shows financial performance over a period, including revenue, cost of sales, expenses, and net income.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Profit and Loss report shows financial performance over a period, including revenue, cost of sales, expenses, and net income.
   name: Apideck Profit and Loss API
   slug: apideck-profit-and-loss-api
-- description: A Project represents a job or engagement, including name, customer, budget amounts, budget hours, billing method, status, and profitability data.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Project represents a job or engagement, including name, customer, budget amounts, budget hours, billing method, status, and profitability data.
   name: Apideck Projects API
   slug: apideck-projects-api
-- description: A Purchase Order represents a request to buy goods or services from a supplier, including line items, amounts, delivery date, and status.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Purchase Order represents a request to buy goods or services from a supplier, including line items, amounts, delivery date, and status.
   name: Apideck Purchase Orders API
   slug: apideck-purchase-orders-api
-- description: A Quote represents a sales estimate sent to customers, including line items, amounts, expiry date, and status before conversion to invoice.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Quote represents a sales estimate sent to customers, including line items, amounts, expiry date, and status before conversion to invoice.
   name: Apideck Quotes API
   slug: apideck-quotes-api
-- description: A Refund represents money returned to a customer, supporting both itemized refunds (with line items) and allocation-based refunds (applied to invoices, credit notes, or overpayments).
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Refund represents money returned to a customer, supporting both itemized refunds (with line items) and allocation-based refunds (applied to invoices, credit notes, or overpayments).
   name: Apideck Refunds API
   slug: apideck-refunds-api
-- description: Shared links resource represents the links to files and folders in the cloud storage service that have been shared with other users. It provides methods for managing and accessing the shared links, su
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Shared links resource represents the links to files and folders in the cloud storage service that have been shared with other users. It provides methods for managing and accessing the shared links, su
   name: Apideck Shared Links API
   slug: apideck-shared-links-api
-- description: A Subsidiary represents a child company within an organization, including name, status, and parent company relationship.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Subsidiary represents a child company within an organization, including name, status, and parent company relationship.
   name: Apideck Subsidiaries API
   slug: apideck-subsidiaries-api
-- description: A Supplier represents a vendor or service provider, including contact information, addresses, tax details, and payment terms.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Supplier represents a vendor or service provider, including contact information, addresses, tax details, and payment terms.
   name: Apideck Suppliers API
   slug: apideck-suppliers-api
-- description: A Tax Rate defines a tax percentage applied to transactions, including name, rate, tax type, and applicable regions or conditions.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Tax Rate defines a tax percentage applied to transactions, including name, rate, tax type, and applicable regions or conditions.
   name: Apideck Tax Rates API
   slug: apideck-tax-rates-api
-- description: A Time Off Request represents an absence request, including type (vacation, sick), dates, status, and approval information.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Time Off Request represents an absence request, including type (vacation, sick), dates, status, and approval information.
   name: Apideck Time Off Requests API
   slug: apideck-time-off-requests-api
-- description: A Tracking Category represents a classification dimension for reporting, including name, code, status, and parent category for hierarchies.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A Tracking Category represents a classification dimension for reporting, including name, code, status, and parent category for hierarchies.
   name: Apideck Tracking Categories API
   slug: apideck-tracking-categories-api
-- description: Upload sessions resource represents the sessions used for uploading files to the cloud storage service. It provides methods for managing and accessing the upload sessions, such as creating and resumin
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: Upload sessions resource represents the sessions used for uploading files to the cloud storage service. It provides methods for managing and accessing the upload sessions, such as creating and resumin
   name: Apideck Upload Sessions API
   slug: apideck-upload-sessions-api
-- description: A User represents a CRM team member, including name, email, role, status, and associated permissions within the system.
+- baseURL: https://unify.apideck.com
+  baseurl_source: declared
+  description: A User represents a CRM team member, including name, email, role, status, and associated permissions within the system.
   name: Apideck Users API
   slug: apideck-users-api
 artifact_total: 957
@@ -2706,7 +2824,7 @@ score:
       marker_coverage: 0.0
       total: 53
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:

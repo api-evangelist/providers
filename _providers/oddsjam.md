@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 38 operations · 3 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Fixtures API from OddsJam — 11 operation(s) for fixtures.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Fixtures API from OddsJam — 11 operation(s) for fixtures.
   name: OddsJam Fixtures API
   slug: oddsjam-fixtures-api
-- description: The Futures API from OddsJam — 2 operation(s) for futures.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Futures API from OddsJam — 2 operation(s) for futures.
   name: OddsJam Futures API
   slug: oddsjam-futures-api
-- description: The Grader API from OddsJam — 3 operation(s) for grader.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Grader API from OddsJam — 3 operation(s) for grader.
   name: OddsJam Grader API
   slug: oddsjam-grader-api
-- description: The Injuries API from OddsJam — 2 operation(s) for injuries.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Injuries API from OddsJam — 2 operation(s) for injuries.
   name: OddsJam Injuries API
   slug: oddsjam-injuries-api
-- description: The Leagues API from OddsJam — 2 operation(s) for leagues.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Leagues API from OddsJam — 2 operation(s) for leagues.
   name: OddsJam Leagues API
   slug: oddsjam-leagues-api
-- description: The Markets API from OddsJam — 4 operation(s) for markets.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Markets API from OddsJam — 4 operation(s) for markets.
   name: OddsJam Markets API
   slug: oddsjam-markets-api
-- description: The Players API from OddsJam — 1 operation(s) for players.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Players API from OddsJam — 1 operation(s) for players.
   name: OddsJam Players API
   slug: oddsjam-players-api
-- description: The Sports API from OddsJam — 2 operation(s) for sports.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Sports API from OddsJam — 2 operation(s) for sports.
   name: OddsJam Sports API
   slug: oddsjam-sports-api
-- description: The Sportsbooks API from OddsJam — 3 operation(s) for sportsbooks.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Sportsbooks API from OddsJam — 3 operation(s) for sportsbooks.
   name: OddsJam Sportsbooks API
   slug: oddsjam-sportsbooks-api
-- description: The Streaming API from OddsJam — 3 operation(s) for streaming.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Streaming API from OddsJam — 3 operation(s) for streaming.
   name: OddsJam Streaming API
   slug: oddsjam-streaming-api
-- description: The Teams API from OddsJam — 3 operation(s) for teams.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Teams API from OddsJam — 3 operation(s) for teams.
   name: OddsJam Teams API
   slug: oddsjam-teams-api
-- description: The Tournaments API from OddsJam — 2 operation(s) for tournaments.
+- baseURL: https://api.opticodds.com/api/v3
+  baseurl_source: spec
+  description: The Tournaments API from OddsJam — 2 operation(s) for tournaments.
   name: OddsJam Tournaments API
   slug: oddsjam-tournaments-api
 artifact_total: 35
@@ -209,7 +233,7 @@ score:
     catalog_gap: 75.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -219,7 +243,7 @@ score:
     discoverability: 57.4
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 28.4
+  previous_composite: 28.2
   provenance:
     agentic_access: derived
     contracts:
@@ -228,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/screenshots/oddsjam-2026-06-20T190620.png
 security:

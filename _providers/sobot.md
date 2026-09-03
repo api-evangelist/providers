@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Agent API from Sobot — 1 operation(s) for agent.
+- baseURL: https://sg.sobot.io
+  baseurl_source: declared
+  description: The Agent API from Sobot — 1 operation(s) for agent.
   name: Sobot Agent API
   slug: sobot-agent-api
-- description: The basic-public/service/坐席信息管理 API from Sobot — 6 operation(s) for basic-public/service/坐席信息管理.
+- baseURL: https://sg.sobot.io
+  baseurl_source: declared
+  description: The basic-public/service/坐席信息管理 API from Sobot — 6 operation(s) for basic-public/service/坐席信息管理.
   name: Sobot basic-public/service/坐席信息管理 API
   slug: sobot-basic-public-service-api
-- description: The Exts API from Sobot — 15 operation(s) for exts.
+- baseURL: https://sg.sobot.io
+  baseurl_source: declared
+  description: The Exts API from Sobot — 15 operation(s) for exts.
   name: Sobot Exts API
   slug: sobot-exts-api
-- description: The User API from Sobot — 16 operation(s) for user.
+- baseURL: https://sg.sobot.io
+  baseurl_source: declared
+  description: The User API from Sobot — 16 operation(s) for user.
   name: Sobot User API
   slug: sobot-user-api
-- description: The OpenAPI Plant Store API from Sobot — 0 operation(s) for openapi plant store.
+- baseURL: https://sg.sobot.io
+  baseurl_source: declared
+  description: The OpenAPI Plant Store API from Sobot — 0 operation(s) for openapi plant store.
   name: Sobot OpenAPI Plant Store API
   slug: sobot-openapi-plant-store-api
 artifact_total: 14
@@ -217,7 +227,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -227,7 +237,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 36.7
+  previous_composite: 36.5
   provenance:
     conformance: derived
     contracts:
@@ -238,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sobot/refs/heads/main/screenshots/sobot-2026-08-17T082001.png
 security:

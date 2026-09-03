@@ -33,253 +33,417 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The activity-center API from Tessell — 2 operation(s) for activity-center.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The activity-center API from Tessell — 2 operation(s) for activity-center.
   name: Tessell activity-center API
   slug: tessell-activity-center-api
-- description: The Ad Domain API from Tessell — 2 operation(s) for ad domain.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Ad Domain API from Tessell — 2 operation(s) for ad domain.
   name: Tessell Ad Domain API
   slug: tessell-ad-domain-api
-- description: The Ad Domain Governance API from Tessell — 4 operation(s) for ad domain governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Ad Domain Governance API from Tessell — 4 operation(s) for ad domain governance.
   name: Tessell Ad Domain Governance API
   slug: tessell-ad-domain-governance-api
-- description: The agentController API from Tessell — 2 operation(s) for agentcontroller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The agentController API from Tessell — 2 operation(s) for agentcontroller.
   name: Tessell agentController API
   slug: tessell-agentcontroller-api
-- description: The alert-controller API from Tessell — 10 operation(s) for alert-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The alert-controller API from Tessell — 10 operation(s) for alert-controller.
   name: Tessell alert-controller API
   slug: tessell-alert-controller-api
-- description: The Authorization API from Tessell — 3 operation(s) for authorization.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Authorization API from Tessell — 3 operation(s) for authorization.
   name: Tessell Authorization API
   slug: tessell-authorization-api
-- description: The Availability Machine API from Tessell — 10 operation(s) for availability machine.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Availability Machine API from Tessell — 10 operation(s) for availability machine.
   name: Tessell Availability Machine API
   slug: tessell-availability-machine-api
-- description: The azure-netapp-admin-controller API from Tessell — 11 operation(s) for azure-netapp-admin-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The azure-netapp-admin-controller API from Tessell — 11 operation(s) for azure-netapp-admin-controller.
   name: Tessell azure-netapp-admin-controller API
   slug: tessell-azure-netapp-admin-controller-api
-- description: The azure-netapp-service-controller API from Tessell — 1 operation(s) for azure-netapp-service-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The azure-netapp-service-controller API from Tessell — 1 operation(s) for azure-netapp-service-controller.
   name: Tessell azure-netapp-service-controller API
   slug: tessell-azure-netapp-service-controller-api
-- description: The cloud-resource API from Tessell — 3 operation(s) for cloud-resource.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The cloud-resource API from Tessell — 3 operation(s) for cloud-resource.
   name: Tessell cloud-resource API
   slug: tessell-cloud-resource-api
-- description: The Compute API from Tessell — 2 operation(s) for compute.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Compute API from Tessell — 2 operation(s) for compute.
   name: Tessell Compute API
   slug: tessell-compute-api
-- description: The Compute Governance API from Tessell — 3 operation(s) for compute governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Compute Governance API from Tessell — 3 operation(s) for compute governance.
   name: Tessell Compute Governance API
   slug: tessell-compute-governance-api
-- description: The Compute Resource API from Tessell — 13 operation(s) for compute resource.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Compute Resource API from Tessell — 13 operation(s) for compute resource.
   name: Tessell Compute Resource API
   slug: tessell-compute-resource-api
-- description: The Conversation API from Tessell — 3 operation(s) for conversation.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Conversation API from Tessell — 3 operation(s) for conversation.
   name: Tessell Conversation API
   slug: tessell-conversation-api
-- description: The conversationControllerDeprecated API from Tessell — 3 operation(s) for conversationcontrollerdeprecated.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The conversationControllerDeprecated API from Tessell — 3 operation(s) for conversationcontrollerdeprecated.
   name: Tessell conversationControllerDeprecated API
   slug: tessell-conversationcontrollerdeprecated-api
-- description: The Data Access Policy API from Tessell — 4 operation(s) for data access policy.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Data Access Policy API from Tessell — 4 operation(s) for data access policy.
   name: Tessell Data Access Policy API
   slug: tessell-data-access-policy-api
-- description: The data-pipeline API from Tessell — 14 operation(s) for data-pipeline.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The data-pipeline API from Tessell — 14 operation(s) for data-pipeline.
   name: Tessell data-pipeline API
   slug: tessell-data-pipeline-api
-- description: The Data Sanitization API from Tessell — 2 operation(s) for data sanitization.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Data Sanitization API from Tessell — 2 operation(s) for data sanitization.
   name: Tessell Data Sanitization API
   slug: tessell-data-sanitization-api
-- description: The Data Script API from Tessell — 8 operation(s) for data script.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Data Script API from Tessell — 8 operation(s) for data script.
   name: Tessell Data Script API
   slug: tessell-data-script-api
-- description: The Database API from Tessell — 6 operation(s) for database.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Database API from Tessell — 6 operation(s) for database.
   name: Tessell Database API
   slug: tessell-database-api
-- description: The dataflix-controller API from Tessell — 5 operation(s) for dataflix-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The dataflix-controller API from Tessell — 5 operation(s) for dataflix-controller.
   name: Tessell dataflix-controller API
   slug: tessell-dataflix-controller-api
-- description: The DB Collection API from Tessell — 6 operation(s) for db collection.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Collection API from Tessell — 6 operation(s) for db collection.
   name: Tessell DB Collection API
   slug: tessell-db-collection-api
-- description: The DB Connection Pool API from Tessell — 2 operation(s) for db connection pool.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Connection Pool API from Tessell — 2 operation(s) for db connection pool.
   name: Tessell DB Connection Pool API
   slug: tessell-db-connection-pool-api
-- description: The DB Profile ACLs API from Tessell — 6 operation(s) for db profile acls.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Profile ACLs API from Tessell — 6 operation(s) for db profile acls.
   name: Tessell DB Profile ACLs API
   slug: tessell-db-profile-acls-api
-- description: The DB Profile API from Tessell — 7 operation(s) for db profile.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Profile API from Tessell — 7 operation(s) for db profile.
   name: Tessell DB Profile API
   slug: tessell-db-profile-api
-- description: The db-schema-controller API from Tessell — 1 operation(s) for db-schema-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The db-schema-controller API from Tessell — 1 operation(s) for db-schema-controller.
   name: Tessell db-schema-controller API
   slug: tessell-db-schema-controller-api
-- description: The DB Service ACL API from Tessell — 2 operation(s) for db service acl.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Service ACL API from Tessell — 2 operation(s) for db service acl.
   name: Tessell DB Service ACL API
   slug: tessell-db-service-acl-api
-- description: The DB Service API from Tessell — 20 operation(s) for db service.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Service API from Tessell — 20 operation(s) for db service.
   name: Tessell DB Service API
   slug: tessell-db-service-api
-- description: The DB Service Benchmark API from Tessell — 4 operation(s) for db service benchmark.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Service Benchmark API from Tessell — 4 operation(s) for db service benchmark.
   name: Tessell DB Service Benchmark API
   slug: tessell-db-service-benchmark-api
-- description: The DB Service Instance API from Tessell — 4 operation(s) for db service instance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Service Instance API from Tessell — 4 operation(s) for db service instance.
   name: Tessell DB Service Instance API
   slug: tessell-db-service-instance-api
-- description: The DB Service Schedule API from Tessell — 6 operation(s) for db service schedule.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The DB Service Schedule API from Tessell — 6 operation(s) for db service schedule.
   name: Tessell DB Service Schedule API
   slug: tessell-db-service-schedule-api
-- description: The Encryption Key API from Tessell — 10 operation(s) for encryption key.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Encryption Key API from Tessell — 10 operation(s) for encryption key.
   name: Tessell Encryption Key API
   slug: tessell-encryption-key-api
-- description: The EncryptionKeysAdminView API from Tessell — 3 operation(s) for encryptionkeysadminview.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The EncryptionKeysAdminView API from Tessell — 3 operation(s) for encryptionkeysadminview.
   name: Tessell EncryptionKeysAdminView API
   slug: tessell-encryptionkeysadminview-api
-- description: The Event API from Tessell — 3 operation(s) for event.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Event API from Tessell — 3 operation(s) for event.
   name: Tessell Event API
   slug: tessell-event-api
-- description: The exadata-infrastructure API from Tessell — 10 operation(s) for exadata-infrastructure.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The exadata-infrastructure API from Tessell — 10 operation(s) for exadata-infrastructure.
   name: Tessell exadata-infrastructure API
   slug: tessell-exadata-infrastructure-api
-- description: The fsx-netapp-admin-controller API from Tessell — 13 operation(s) for fsx-netapp-admin-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The fsx-netapp-admin-controller API from Tessell — 13 operation(s) for fsx-netapp-admin-controller.
   name: Tessell fsx-netapp-admin-controller API
   slug: tessell-fsx-netapp-admin-controller-api
-- description: The fsx-netapp-service-controller API from Tessell — 1 operation(s) for fsx-netapp-service-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The fsx-netapp-service-controller API from Tessell — 1 operation(s) for fsx-netapp-service-controller.
   name: Tessell fsx-netapp-service-controller API
   slug: tessell-fsx-netapp-service-controller-api
-- description: The Genie API from Tessell — 7 operation(s) for genie.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Genie API from Tessell — 7 operation(s) for genie.
   name: Tessell Genie API
   slug: tessell-genie-api
-- description: The Identity Providers API from Tessell — 3 operation(s) for identity providers.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Identity Providers API from Tessell — 3 operation(s) for identity providers.
   name: Tessell Identity Providers API
   slug: tessell-identity-providers-api
-- description: The infra-deployment API from Tessell — 1 operation(s) for infra-deployment.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The infra-deployment API from Tessell — 1 operation(s) for infra-deployment.
   name: Tessell infra-deployment API
   slug: tessell-infra-deployment-api
-- description: The Integration Governance API from Tessell — 9 operation(s) for integration governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Integration Governance API from Tessell — 9 operation(s) for integration governance.
   name: Tessell Integration Governance API
   slug: tessell-integration-governance-api
-- description: The License Governance API from Tessell — 2 operation(s) for license governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The License Governance API from Tessell — 2 operation(s) for license governance.
   name: Tessell License Governance API
   slug: tessell-license-governance-api
-- description: The Logs API from Tessell — 11 operation(s) for logs.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Logs API from Tessell — 11 operation(s) for logs.
   name: Tessell Logs API
   slug: tessell-logs-api
-- description: The maintenance-window API from Tessell — 3 operation(s) for maintenance-window.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The maintenance-window API from Tessell — 3 operation(s) for maintenance-window.
   name: Tessell maintenance-window API
   slug: tessell-maintenance-window-api
-- description: The Metering API from Tessell — 8 operation(s) for metering.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Metering API from Tessell — 8 operation(s) for metering.
   name: Tessell Metering API
   slug: tessell-metering-api
-- description: The Monitoring API from Tessell — 12 operation(s) for monitoring.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Monitoring API from Tessell — 12 operation(s) for monitoring.
   name: Tessell Monitoring API
   slug: tessell-monitoring-api
-- description: The Notification API from Tessell — 4 operation(s) for notification.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Notification API from Tessell — 4 operation(s) for notification.
   name: Tessell Notification API
   slug: tessell-notification-api
-- description: The Parameter Profile API from Tessell — 10 operation(s) for parameter profile.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Parameter Profile API from Tessell — 10 operation(s) for parameter profile.
   name: Tessell Parameter Profile API
   slug: tessell-parameter-profile-api
-- description: The Password Policy API from Tessell — 1 operation(s) for password policy.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Password Policy API from Tessell — 1 operation(s) for password policy.
   name: Tessell Password Policy API
   slug: tessell-password-policy-api
-- description: The Payment API from Tessell — 5 operation(s) for payment.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Payment API from Tessell — 5 operation(s) for payment.
   name: Tessell Payment API
   slug: tessell-payment-api
-- description: The Personas API from Tessell — 3 operation(s) for personas.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Personas API from Tessell — 3 operation(s) for personas.
   name: Tessell Personas API
   slug: tessell-personas-api
-- description: The Privileges API from Tessell — 2 operation(s) for privileges.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Privileges API from Tessell — 2 operation(s) for privileges.
   name: Tessell Privileges API
   slug: tessell-privileges-api
-- description: The Roles API from Tessell — 1 operation(s) for roles.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Roles API from Tessell — 1 operation(s) for roles.
   name: Tessell Roles API
   slug: tessell-roles-api
-- description: The rpo-policy API from Tessell — 6 operation(s) for rpo-policy.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The rpo-policy API from Tessell — 6 operation(s) for rpo-policy.
   name: Tessell rpo-policy API
   slug: tessell-rpo-policy-api
-- description: The Sample Dataset API from Tessell — 3 operation(s) for sample dataset.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Sample Dataset API from Tessell — 3 operation(s) for sample dataset.
   name: Tessell Sample Dataset API
   slug: tessell-sample-dataset-api
-- description: The security-profiles-acls API from Tessell — 2 operation(s) for security-profiles-acls.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The security-profiles-acls API from Tessell — 2 operation(s) for security-profiles-acls.
   name: Tessell security-profiles-acls API
   slug: tessell-security-profiles-acls-api
-- description: The security-profiles API from Tessell — 9 operation(s) for security-profiles.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The security-profiles API from Tessell — 9 operation(s) for security-profiles.
   name: Tessell security-profiles API
   slug: tessell-security-profiles-api
-- description: The Service Plan API from Tessell — 1 operation(s) for service plan.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Service Plan API from Tessell — 1 operation(s) for service plan.
   name: Tessell Service Plan API
   slug: tessell-service-plan-api
-- description: The service-refresh-controller API from Tessell — 4 operation(s) for service-refresh-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The service-refresh-controller API from Tessell — 4 operation(s) for service-refresh-controller.
   name: Tessell service-refresh-controller API
   slug: tessell-service-refresh-controller-api
-- description: The SLA Policy API from Tessell — 3 operation(s) for sla policy.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The SLA Policy API from Tessell — 3 operation(s) for sla policy.
   name: Tessell SLA Policy API
   slug: tessell-sla-policy-api
-- description: The Snapshot and Backup API from Tessell — 8 operation(s) for snapshot and backup.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Snapshot and Backup API from Tessell — 8 operation(s) for snapshot and backup.
   name: Tessell Snapshot and Backup API
   slug: tessell-snapshot-and-backup-api
-- description: The Software Library API from Tessell — 2 operation(s) for software library.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Software Library API from Tessell — 2 operation(s) for software library.
   name: Tessell Software Library API
   slug: tessell-software-library-api
-- description: The Software Library Governance API from Tessell — 6 operation(s) for software library governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Software Library Governance API from Tessell — 6 operation(s) for software library governance.
   name: Tessell Software Library Governance API
   slug: tessell-software-library-governance-api
-- description: The SSO API from Tessell — 1 operation(s) for sso.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The SSO API from Tessell — 1 operation(s) for sso.
   name: Tessell SSO API
   slug: tessell-sso-api
-- description: The Subscription API from Tessell — 22 operation(s) for subscription.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Subscription API from Tessell — 22 operation(s) for subscription.
   name: Tessell Subscription API
   slug: tessell-subscription-api
-- description: The Tessell App API from Tessell — 1 operation(s) for tessell app.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Tessell App API from Tessell — 1 operation(s) for tessell app.
   name: Tessell Tessell App API
   slug: tessell-tessell-app-api
-- description: The tessell-cloud-controller API from Tessell — 1 operation(s) for tessell-cloud-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-cloud-controller API from Tessell — 1 operation(s) for tessell-cloud-controller.
   name: Tessell tessell-cloud-controller API
   slug: tessell-tessell-cloud-controller-api
-- description: The tessell-compute-resource-acl-controller API from Tessell — 4 operation(s) for tessell-compute-resource-acl-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-compute-resource-acl-controller API from Tessell — 4 operation(s) for tessell-compute-resource-acl-controller.
   name: Tessell tessell-compute-resource-acl-controller API
   slug: tessell-tessell-compute-resource-acl-controller-api
-- description: The tessell-database-security-config API from Tessell — 2 operation(s) for tessell-database-security-config.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-database-security-config API from Tessell — 2 operation(s) for tessell-database-security-config.
   name: Tessell tessell-database-security-config API
   slug: tessell-tessell-database-security-config-api
-- description: The tessell-maintenance-center-controller API from Tessell — 14 operation(s) for tessell-maintenance-center-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-maintenance-center-controller API from Tessell — 14 operation(s) for tessell-maintenance-center-controller.
   name: Tessell tessell-maintenance-center-controller API
   slug: tessell-tessell-maintenance-center-controller-api
-- description: The tessell-notification-channel-controller API from Tessell — 2 operation(s) for tessell-notification-channel-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-notification-channel-controller API from Tessell — 2 operation(s) for tessell-notification-channel-controller.
   name: Tessell tessell-notification-channel-controller API
   slug: tessell-tessell-notification-channel-controller-api
-- description: The tessell-notification-profile-controller API from Tessell — 4 operation(s) for tessell-notification-profile-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-notification-profile-controller API from Tessell — 4 operation(s) for tessell-notification-profile-controller.
   name: Tessell tessell-notification-profile-controller API
   slug: tessell-tessell-notification-profile-controller-api
-- description: The tessell-service-option-profile API from Tessell — 2 operation(s) for tessell-service-option-profile.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-service-option-profile API from Tessell — 2 operation(s) for tessell-service-option-profile.
   name: Tessell tessell-service-option-profile API
   slug: tessell-tessell-service-option-profile-api
-- description: The tessell-service-precheck-controller API from Tessell — 6 operation(s) for tessell-service-precheck-controller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessell-service-precheck-controller API from Tessell — 6 operation(s) for tessell-service-precheck-controller.
   name: Tessell tessell-service-precheck-controller API
   slug: tessell-tessell-service-precheck-controller-api
-- description: The tessellGatewayServiceController API from Tessell — 1 operation(s) for tessellgatewayservicecontroller.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The tessellGatewayServiceController API from Tessell — 1 operation(s) for tessellgatewayservicecontroller.
   name: Tessell tessellGatewayServiceController API
   slug: tessell-tessellgatewayservicecontroller-api
-- description: The Ticket API from Tessell — 4 operation(s) for ticket.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Ticket API from Tessell — 4 operation(s) for ticket.
   name: Tessell Ticket API
   slug: tessell-ticket-api
-- description: The ticketControllerDeprecated API from Tessell — 5 operation(s) for ticketcontrollerdeprecated.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The ticketControllerDeprecated API from Tessell — 5 operation(s) for ticketcontrollerdeprecated.
   name: Tessell ticketControllerDeprecated API
   slug: tessell-ticketcontrollerdeprecated-api
-- description: The Userpool API from Tessell — 2 operation(s) for userpool.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Userpool API from Tessell — 2 operation(s) for userpool.
   name: Tessell Userpool API
   slug: tessell-userpool-api
-- description: The Users API from Tessell — 17 operation(s) for users.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The Users API from Tessell — 17 operation(s) for users.
   name: Tessell Users API
   slug: tessell-users-api
-- description: The VPC API from Tessell — 3 operation(s) for vpc.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The VPC API from Tessell — 3 operation(s) for vpc.
   name: Tessell VPC API
   slug: tessell-vpc-api
-- description: The VPC Governance API from Tessell — 17 operation(s) for vpc governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The VPC Governance API from Tessell — 17 operation(s) for vpc governance.
   name: Tessell VPC Governance API
   slug: tessell-vpc-governance-api
-- description: The VPC Peering Governance API from Tessell — 4 operation(s) for vpc peering governance.
+- baseURL: https://api.console.tessell.com
+  baseurl_source: declared
+  description: The VPC Peering Governance API from Tessell — 4 operation(s) for vpc peering governance.
   name: Tessell VPC Peering Governance API
   slug: tessell-vpc-peering-governance-api
 artifact_total: 170
@@ -710,7 +874,7 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -720,7 +884,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.8
+  previous_composite: 40.6
   provenance:
     conformance: derived
     contracts:
@@ -731,7 +895,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:

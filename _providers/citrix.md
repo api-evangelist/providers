@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -59,70 +59,114 @@ apis:
 - description: SDK for building custom authentication methods for Citrix StoreFront, allowing integration with third-party identity providers and custom authentication workflows.
   name: Citrix StoreFront Authentication SDK
   slug: citrix-storefront-authentication-sdk
-- description: Manage zero trust access policies
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage zero trust access policies
   name: Citrix Access Policies API
   slug: citrix-access-policies-api
-- description: Manage application domain configurations
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage application domain configurations
   name: Citrix Application Domains API
   slug: citrix-application-domains-api
-- description: Manage published applications
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage published applications
   name: Citrix Applications API
   slug: citrix-applications-api
-- description: Login and session management
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Login and session management
   name: Citrix Authentication API
   slug: citrix-authentication-api
-- description: Manage application certificates
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage application certificates
   name: Citrix Certificates API
   slug: citrix-certificates-api
-- description: Content switching virtual servers and policies
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Content switching virtual servers and policies
   name: Citrix Content Switching API
   slug: citrix-content-switching-api
-- description: Manage delivery groups for resource assignment
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage delivery groups for resource assignment
   name: Citrix Delivery Groups API
   slug: citrix-delivery-groups-api
-- description: Device enrollment and lifecycle management
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Device enrollment and lifecycle management
   name: Citrix Devices API
   slug: citrix-devices-api
-- description: Manage hypervisor connections
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage hypervisor connections
   name: Citrix Hypervisors API
   slug: citrix-hypervisors-api
-- description: Launch applications and desktops
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Launch applications and desktops
   name: Citrix Launch API
   slug: citrix-launch-api
-- description: Load balancing virtual servers and services
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Load balancing virtual servers and services
   name: Citrix Load Balancing API
   slug: citrix-load-balancing-api
-- description: Manage machine catalogs and provisioning
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage machine catalogs and provisioning
   name: Citrix Machine Catalogs API
   slug: citrix-machine-catalogs-api
-- description: Manage individual machines in catalogs
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage individual machines in catalogs
   name: Citrix Machines API
   slug: citrix-machines-api
-- description: Manage platform notifications
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage platform notifications
   name: Citrix Notifications API
   slug: citrix-notifications-api
-- description: Device and app policy management
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Device and app policy management
   name: Citrix Policies API
   slug: citrix-policies-api
-- description: Manage resource locations within a customer
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage resource locations within a customer
   name: Citrix Resource Locations API
   slug: citrix-resource-locations-api
-- description: Enumerate available applications and desktops
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Enumerate available applications and desktops
   name: Citrix Resources API
   slug: citrix-resources-api
-- description: Manage service principals for API automation
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage service principals for API automation
   name: Citrix Service Principals API
   slug: citrix-service-principals-api
-- description: Manage and monitor active sessions
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: Manage and monitor active sessions
   name: Citrix Sessions API
   slug: citrix-sessions-api
-- description: SSL certificates and configuration
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: SSL certificates and configuration
   name: Citrix SSL API
   slug: citrix-ssl-api
-- description: System configuration and statistics
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: System configuration and statistics
   name: Citrix System API
   slug: citrix-system-api
-- description: User and group management
+- baseURL: https://{customer-id}.xendesktop.net
+  baseurl_source: declared
+  description: User and group management
   name: Citrix Users API
   slug: citrix-users-api
 artifact_total: 133
@@ -592,7 +636,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -602,7 +646,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -611,7 +655,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/screenshots/citrix-2026-06-20T174413.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ apis:
 - description: HTTPS-only REST API for managing contacts, companies, deals, campaigns, tasks, notes, and tickets in Agile CRM. Authentication uses HTTP Basic auth with the account email as username and the REST clie
   name: Agile CRM REST API
   slug: rest-api
-- description: The Campaigns API from Agile CRM — 2 operation(s) for campaigns.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Campaigns API from Agile CRM — 2 operation(s) for campaigns.
   name: Agile CRM Campaigns API
   slug: agile-crm-campaigns-api
-- description: The Companies API from Agile CRM — 1 operation(s) for companies.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Companies API from Agile CRM — 1 operation(s) for companies.
   name: Agile CRM Companies API
   slug: agile-crm-companies-api
-- description: The Contacts API from Agile CRM — 18 operation(s) for contacts.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Contacts API from Agile CRM — 18 operation(s) for contacts.
   name: Agile CRM Contacts API
   slug: agile-crm-contacts-api
-- description: The Deals API from Agile CRM — 11 operation(s) for deals.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Deals API from Agile CRM — 11 operation(s) for deals.
   name: Agile CRM Deals API
   slug: agile-crm-deals-api
-- description: The Documents API from Agile CRM — 2 operation(s) for documents.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Documents API from Agile CRM — 2 operation(s) for documents.
   name: Agile CRM Documents API
   slug: agile-crm-documents-api
-- description: The Events API from Agile CRM — 3 operation(s) for events.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Events API from Agile CRM — 3 operation(s) for events.
   name: Agile CRM Events API
   slug: agile-crm-events-api
-- description: The HelpDesk API from Agile CRM — 5 operation(s) for helpdesk.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The HelpDesk API from Agile CRM — 5 operation(s) for helpdesk.
   name: Agile CRM HelpDesk API
   slug: agile-crm-helpdesk-api
-- description: The Notes API from Agile CRM — 7 operation(s) for notes.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Notes API from Agile CRM — 7 operation(s) for notes.
   name: Agile CRM Notes API
   slug: agile-crm-notes-api
-- description: The Tasks API from Agile CRM — 6 operation(s) for tasks.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Tasks API from Agile CRM — 6 operation(s) for tasks.
   name: Agile CRM Tasks API
   slug: agile-crm-tasks-api
-- description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
+- baseURL: https://{domain}.agilecrm.com/dev
+  baseurl_source: declared
+  description: The Tracks API from Agile CRM — 2 operation(s) for tracks.
   name: Agile CRM Tracks API
   slug: agile-crm-tracks-api
 artifact_total: 30
@@ -283,7 +303,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -293,7 +313,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 50.8
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -305,7 +325,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/screenshots/agile-crm-2026-06-20T170154.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: List and run third-party tools (actions) for AI agents.
+- baseURL: https://api.useparagon.com
+  baseurl_source: declared
+  description: List and run third-party tools (actions) for AI agents.
   name: Paragon ActionKit API
   slug: paragon-api-actionkit-api
-- description: Project and integration metadata, Connected User, and credentials.
+- baseURL: https://api.useparagon.com
+  baseurl_source: declared
+  description: Project and integration metadata, Connected User, and credentials.
   name: Paragon Connect API
   slug: paragon-api-connect-api
-- description: Forward requests to third-party providers on behalf of a Connected User.
+- baseURL: https://api.useparagon.com
+  baseurl_source: declared
+  description: Forward requests to third-party providers on behalf of a Connected User.
   name: Paragon Proxy API
   slug: paragon-api-proxy-api
-- description: Enable, disable, and trigger Workflows and send App Events.
+- baseURL: https://api.useparagon.com
+  baseurl_source: declared
+  description: Enable, disable, and trigger Workflows and send App Events.
   name: Paragon Workflows API
   slug: paragon-api-workflows-api
 artifact_total: 16
@@ -165,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon-api/refs/heads/main/screenshots/paragon-api-2026-08-07T191416.png
 security:

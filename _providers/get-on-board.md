@@ -33,73 +33,117 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Job applications management
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Job applications management
   name: Get On Board Applications API
   slug: get-on-board-applications-api
-- description: Token-based authentication
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Token-based authentication
   name: Get On Board Authentication API
   slug: get-on-board-authentication-api
-- description: Private board integration
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Private board integration
   name: Get On Board Board+ API
   slug: get-on-board-board-api
-- description: Job categories
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Job categories
   name: Get On Board Categories API
   slug: get-on-board-categories-api
-- description: Company profiles and their jobs
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Company profiles and their jobs
   name: Get On Board Companies API
   slug: get-on-board-companies-api
-- description: Post jobs under your client companies' brands from a single account. A company shell is a lightweight public company profile (name, logo, description, its own `/companies/<slug>` page) owned by your p
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Post jobs under your client companies' brands from a single account. A company shell is a lightweight public company profile (name, logo, description, its own `/companies/<slug>` page) owned by your p
   name: Get On Board Company shells API
   slug: get-on-board-company-shells-api
-- description: Available countries
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Available countries
   name: Get On Board Countries API
   slug: get-on-board-countries-api
-- description: Company headcount ranges
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Company headcount ranges
   name: Get On Board Headcounts API
   slug: get-on-board-headcounts-api
-- description: Industry classifications
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Industry classifications
   name: Get On Board Industries API
   slug: get-on-board-industries-api
-- description: Market insights and analytics
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Market insights and analytics
   name: Get On Board Insights API
   slug: get-on-board-insights-api
-- description: Job posting CRUD operations
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Job posting CRUD operations
   name: Get On Board Jobs API
   slug: get-on-board-jobs-api
-- description: Job matching for professionals
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Job matching for professionals
   name: Get On Board Matching API
   slug: get-on-board-matching-api
-- description: Employment modality reference data (full-time, part-time, freelance, etc.)
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Employment modality reference data (full-time, part-time, freelance, etc.)
   name: Get On Board Modalities API
   slug: get-on-board-modalities-api
-- description: Job perks and benefits
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Job perks and benefits
   name: Get On Board Perks API
   slug: get-on-board-perks-api
-- description: Hiring process management
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Hiring process management
   name: Get On Board Processes API
   slug: get-on-board-processes-api
-- description: Professional profiles within processes
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Professional profiles within processes
   name: Get On Board Professionals API
   slug: get-on-board-professionals-api
-- description: Geographic regions
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Geographic regions
   name: Get On Board Regions API
   slug: get-on-board-regions-api
-- description: Full-text job search
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Full-text job search
   name: Get On Board Search API
   slug: get-on-board-search-api
-- description: Seniority levels
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Seniority levels
   name: Get On Board Seniorities API
   slug: get-on-board-seniorities-api
-- description: Skill and technology tags
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Skill and technology tags
   name: Get On Board Tags API
   slug: get-on-board-tags-api
-- description: Cities with active job markets
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Cities with active job markets
   name: Get On Board Tenant Cities API
   slug: get-on-board-tenant-cities-api
-- description: Webhook endpoints and events
+- baseURL: https://www.getonbrd.com/api/v0/
+  baseurl_source: declared
+  description: Webhook endpoints and events
   name: Get On Board Webhooks API
   slug: get-on-board-webhooks-api
 artifact_total: 50
@@ -322,7 +366,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -332,7 +376,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 44.7
+  previous_composite: 44.5
   provenance:
     conformance: derived
     contracts:
@@ -343,7 +387,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/get-on-board/refs/heads/main/screenshots/get-on-board-2026-07-25T215711.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 33 operations · 15 acting
 api_count: 1
 apis:
-- description: The Activities API from Orbit — 5 operation(s) for activities.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Activities API from Orbit — 5 operation(s) for activities.
   name: Orbit Activities API
   slug: orbit-activities-api
-- description: The Activity Types API from Orbit — 1 operation(s) for activity types.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Activity Types API from Orbit — 1 operation(s) for activity types.
   name: Orbit Activity Types API
   slug: orbit-activity-types-api
-- description: The Members API from Orbit — 5 operation(s) for members.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Members API from Orbit — 5 operation(s) for members.
   name: Orbit Members API
   slug: orbit-members-api
-- description: The Notes API from Orbit — 2 operation(s) for notes.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Notes API from Orbit — 2 operation(s) for notes.
   name: Orbit Notes API
   slug: orbit-notes-api
-- description: The Organizations API from Orbit — 2 operation(s) for organizations.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Orbit — 2 operation(s) for organizations.
   name: Orbit Organizations API
   slug: orbit-organizations-api
-- description: The Reports API from Orbit — 1 operation(s) for reports.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Reports API from Orbit — 1 operation(s) for reports.
   name: Orbit Reports API
   slug: orbit-reports-api
-- description: The Users API from Orbit — 1 operation(s) for users.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Users API from Orbit — 1 operation(s) for users.
   name: Orbit Users API
   slug: orbit-users-api
-- description: The Webhooks API from Orbit — 2 operation(s) for webhooks.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Webhooks API from Orbit — 2 operation(s) for webhooks.
   name: Orbit Webhooks API
   slug: orbit-webhooks-api
-- description: The Workspaces API from Orbit — 2 operation(s) for workspaces.
+- baseURL: https://app.orbit.love/api/v1
+  baseurl_source: declared
+  description: The Workspaces API from Orbit — 2 operation(s) for workspaces.
   name: Orbit Workspaces API
   slug: orbit-workspaces-api
 artifact_total: 65
@@ -348,7 +366,7 @@ score:
     catalog_gap: 40.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -361,7 +379,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 42.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -370,7 +388,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/screenshots/orbit-2026-08-17T124255.png
 security:

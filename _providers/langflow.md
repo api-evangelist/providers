@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 95 operations · 53 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Base API from Langflow — 6 operation(s) for base.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Base API from Langflow — 6 operation(s) for base.
   name: Langflow Base API
   slug: langflow-base-api
-- description: The Chat API from Langflow — 6 operation(s) for chat.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Chat API from Langflow — 6 operation(s) for chat.
   name: Langflow Chat API
   slug: langflow-chat-api
-- description: The Files API from Langflow — 11 operation(s) for files.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Files API from Langflow — 11 operation(s) for files.
   name: Langflow Files API
   slug: langflow-files-api
-- description: The Flow Events API from Langflow — 1 operation(s) for flow events.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Flow Events API from Langflow — 1 operation(s) for flow events.
   name: Langflow Flow Events API
   slug: langflow-flow-events-api
-- description: The Flows API from Langflow — 8 operation(s) for flows.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Flows API from Langflow — 8 operation(s) for flows.
   name: Langflow Flows API
   slug: langflow-flows-api
-- description: The Health Check API from Langflow — 2 operation(s) for health check.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Health Check API from Langflow — 2 operation(s) for health check.
   name: Langflow Health Check API
   slug: langflow-health-check-api
-- description: The Log API from Langflow — 2 operation(s) for log.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Log API from Langflow — 2 operation(s) for log.
   name: Langflow Log API
   slug: langflow-log-api
-- description: The MCP API from Langflow — 2 operation(s) for mcp.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The MCP API from Langflow — 2 operation(s) for mcp.
   name: Langflow MCP API
   slug: langflow-mcp-api
-- description: The mcp_projects API from Langflow — 4 operation(s) for mcp_projects.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The mcp_projects API from Langflow — 4 operation(s) for mcp_projects.
   name: Langflow mcp_projects API
   slug: langflow-mcp-projects-api
-- description: The Monitor API from Langflow — 12 operation(s) for monitor.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Monitor API from Langflow — 12 operation(s) for monitor.
   name: Langflow Monitor API
   slug: langflow-monitor-api
-- description: The OpenAI Responses API API from Langflow — 1 operation(s) for openai responses api.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The OpenAI Responses API API from Langflow — 1 operation(s) for openai responses api.
   name: Langflow OpenAI Responses API API
   slug: langflow-openai-responses-api-api
-- description: The Projects API from Langflow — 4 operation(s) for projects.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Projects API from Langflow — 4 operation(s) for projects.
   name: Langflow Projects API
   slug: langflow-projects-api
-- description: The Traces API from Langflow — 2 operation(s) for traces.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Traces API from Langflow — 2 operation(s) for traces.
   name: Langflow Traces API
   slug: langflow-traces-api
-- description: The Users API from Langflow — 4 operation(s) for users.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Users API from Langflow — 4 operation(s) for users.
   name: Langflow Users API
   slug: langflow-users-api
-- description: The Workflow API from Langflow — 2 operation(s) for workflow.
+- baseURL: http://localhost:7860/api
+  baseurl_source: declared
+  description: The Workflow API from Langflow — 2 operation(s) for workflow.
   name: Langflow Workflow API
   slug: langflow-workflow-api
 artifact_total: 71
@@ -477,7 +507,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:

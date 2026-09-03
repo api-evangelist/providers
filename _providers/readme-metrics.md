@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: ReadMe Metrics captures and analyzes API request and response data to provide usage analytics, error tracking, and developer activity insights. It helps API providers understand how their APIs are bei
   name: ReadMe Metrics
   slug: readme-metrics
-- description: The Api Registry API from ReadMe Metrics — 1 operation(s) for api registry.
+- baseURL: https://dash.readme.com/api/v1
+  baseurl_source: spec
+  description: The Api Registry API from ReadMe Metrics — 1 operation(s) for api registry.
   name: ReadMe Metrics Api Registry API
   slug: readme-metrics-api-registry-api
-- description: The Api Specification API from ReadMe Metrics — 1 operation(s) for api specification.
+- baseURL: https://dash.readme.com/api/v1
+  baseurl_source: spec
+  description: The Api Specification API from ReadMe Metrics — 1 operation(s) for api specification.
   name: ReadMe Metrics Api Specification API
   slug: readme-metrics-api-specification-api
-- description: The Changelogs API from ReadMe Metrics — 1 operation(s) for changelogs.
+- baseURL: https://dash.readme.com/api/v1
+  baseurl_source: spec
+  description: The Changelogs API from ReadMe Metrics — 1 operation(s) for changelogs.
   name: ReadMe Metrics Changelogs API
   slug: readme-metrics-changelogs-api
-- description: The Docs API from ReadMe Metrics — 1 operation(s) for docs.
+- baseURL: https://dash.readme.com/api/v1
+  baseurl_source: spec
+  description: The Docs API from ReadMe Metrics — 1 operation(s) for docs.
   name: ReadMe Metrics Docs API
   slug: readme-metrics-docs-api
 artifact_total: 17
@@ -196,7 +204,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/screenshots/readme-metrics-2026-06-20T192740.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,19 +59,29 @@ apis:
 - description: Search for HUD-approved housing counseling agencies by name, city, state, or geographic coordinates. Returns agency contact information and services offered. No API key required.
   name: HUD Housing Counselor Search API
   slug: hud-housing-counselor-search-api
-- description: Comprehensive Housing Affordability Strategy data
+- baseURL: https://www.huduser.gov/hudapi/public/fmr
+  baseurl_source: declared
+  description: Comprehensive Housing Affordability Strategy data
   name: HUD - US Department of Housing and Urban Development CHAS API
   slug: hud-chas-api
-- description: Fair Market Rent data by geography
+- baseURL: https://www.huduser.gov/hudapi/public/fmr
+  baseurl_source: declared
+  description: Fair Market Rent data by geography
   name: HUD - US Department of Housing and Urban Development Fair Market Rents API
   slug: hud-fair-market-rents-api
-- description: HUD-approved housing counseling agency search
+- baseURL: https://www.huduser.gov/hudapi/public/fmr
+  baseurl_source: declared
+  description: HUD-approved housing counseling agency search
   name: HUD - US Department of Housing and Urban Development Housing Counseling API
   slug: hud-housing-counseling-api
-- description: Area Median Income limits by geography
+- baseURL: https://www.huduser.gov/hudapi/public/fmr
+  baseurl_source: declared
+  description: Area Median Income limits by geography
   name: HUD - US Department of Housing and Urban Development Income Limits API
   slug: hud-income-limits-api
-- description: ZIP code to geographic area crosswalk queries
+- baseURL: https://www.huduser.gov/hudapi/public/fmr
+  baseurl_source: declared
+  description: ZIP code to geographic area crosswalk queries
   name: HUD - US Department of Housing and Urban Development ZIP Code Crosswalk API
   slug: hud-zip-code-crosswalk-api
 artifact_total: 30
@@ -248,7 +258,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,28 +47,44 @@ apis:
 - description: 'Publish/subscribe streaming API hosted on SPAN Panel using the Electrification Bus (eBus) integration framework and the Homie Convention. SPAN Panel hosts an MQTT broker accessible over MQTTS (8883), '
   name: SPAN eBus MQTT API
   slug: span-ebus-mqtt-api
-- description: The Auth API from SPAN — 3 operation(s) for auth.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Auth API from SPAN — 3 operation(s) for auth.
   name: SPAN Auth API
   slug: span-io-auth-api
-- description: The Circuits API from SPAN — 2 operation(s) for circuits.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Circuits API from SPAN — 2 operation(s) for circuits.
   name: SPAN Circuits API
   slug: span-io-circuits-api
-- description: The Islanding State API from SPAN — 1 operation(s) for islanding state.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Islanding State API from SPAN — 1 operation(s) for islanding state.
   name: SPAN Islanding State API
   slug: span-io-islanding-state-api
-- description: The Panel API from SPAN — 5 operation(s) for panel.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Panel API from SPAN — 5 operation(s) for panel.
   name: SPAN Panel API
   slug: span-io-panel-api
-- description: The Spaces API from SPAN — 2 operation(s) for spaces.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Spaces API from SPAN — 2 operation(s) for spaces.
   name: SPAN Spaces API
   slug: span-io-spaces-api
-- description: The Status API from SPAN — 1 operation(s) for status.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Status API from SPAN — 1 operation(s) for status.
   name: SPAN Status API
   slug: span-io-status-api
-- description: The Storage API from SPAN — 2 operation(s) for storage.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Storage API from SPAN — 2 operation(s) for storage.
   name: SPAN Storage API
   slug: span-io-storage-api
-- description: The Wifi API from SPAN — 2 operation(s) for wifi.
+- baseURL: http://span-{serial-number}.local/api/v1
+  baseurl_source: declared
+  description: The Wifi API from SPAN — 2 operation(s) for wifi.
   name: SPAN Wifi API
   slug: span-io-wifi-api
 artifact_total: 48
@@ -345,7 +361,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -358,7 +374,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -373,7 +389,7 @@ score:
     regime_id: energy_utilities
     score: 36.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/screenshots/span-io-2026-06-20T194242.png
 security:

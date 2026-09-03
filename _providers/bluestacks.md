@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +36,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: OAuth 2.0 identity API for now.gg Login. Publishers exchange an authorization code for a token and refresh_token, verify id_token/token server-side, and read user profile and session information for t
   name: now.gg User Account Service API
   slug: nowgg-user-account-service-api
-- description: Server-to-server in-app purchase API for publishers using now.gg Payments. Backends verify a purchase token (verifyPurchase), mark a consumable as consumed (consumePurchase) and acknowledge a subscrip
+- baseURL: https://payments-api.now.gg
+  baseurl_source: declared
+  description: Server-to-server in-app purchase API for publishers using now.gg Payments. Backends verify a purchase token (verifyPurchase), mark a consumable as consumed (consumePurchase) and acknowledge a subscrip
   name: now.gg Payments Server API
   slug: nowgg-payments-server-api
 artifact_total: 8
@@ -199,7 +214,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -209,7 +224,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 49.1
+  previous_composite: 48.8
   provenance:
     conformance: first-party
   regulatory:
@@ -219,7 +234,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluestacks/refs/heads/main/screenshots/bluestacks-2026-08-17T080648.png
 security:

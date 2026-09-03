@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,43 +56,69 @@ apis:
 - description: Spring AI provides a Spring-friendly API and abstractions for building AI-powered applications. It offers a unified ChatClient API for interacting with AI models (OpenAI, Anthropic, Google Gemini, Oll
   name: Spring AI API
   slug: spring-ai-api
-- description: Spring application context beans
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Spring application context beans
   name: Spring Framework Beans API
   slug: spring-beans-api
-- description: Environment properties and configuration
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Environment properties and configuration
   name: Spring Framework Environment API
   slug: spring-environment-api
-- description: Application health status and component health details
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Application health status and component health details
   name: Spring Framework Health API
   slug: spring-health-api
-- description: Application information and build metadata
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Application information and build metadata
   name: Spring Framework Info API
   slug: spring-info-api
-- description: Application logger configuration
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Application logger configuration
   name: Spring Framework Loggers API
   slug: spring-loggers-api
-- description: HTTP request handler mappings
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: HTTP request handler mappings
   name: Spring Framework Mappings API
   slug: spring-mappings-api
-- description: Discover available project options and capabilities
+- baseURL: https://start.spring.io
+  baseurl_source: spec
+  description: Discover available project options and capabilities
   name: Spring Framework Metadata API
   slug: spring-metadata-api
-- description: Application performance and operational metrics
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Application performance and operational metrics
   name: Spring Framework Metrics API
   slug: spring-metrics-api
-- description: Generate new Spring Boot project archives
+- baseURL: https://start.spring.io
+  baseurl_source: spec
+  description: Generate new Spring Boot project archives
   name: Spring Framework Project Generation API
   slug: spring-project-generation-api
-- description: Thread dump and virtual thread information
+- baseURL: http://localhost:8080/actuator
+  baseurl_source: spec
+  description: Thread dump and virtual thread information
   name: Spring Framework Threads API
   slug: spring-threads-api
-- description: The Filters API from Spring Framework — 2 operation(s) for filters.
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: spec
+  description: The Filters API from Spring Framework — 2 operation(s) for filters.
   name: Spring Framework Filters API
   slug: spring-filters-api
-- description: The Predicates API from Spring Framework — 1 operation(s) for predicates.
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: spec
+  description: The Predicates API from Spring Framework — 1 operation(s) for predicates.
   name: Spring Framework Predicates API
   slug: spring-predicates-api
-- description: The Routes API from Spring Framework — 3 operation(s) for routes.
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: spec
+  description: The Routes API from Spring Framework — 3 operation(s) for routes.
   name: Spring Framework Routes API
   slug: spring-routes-api
 artifact_total: 55
@@ -319,7 +345,7 @@ score:
     catalog_gap: 39.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -329,7 +355,7 @@ score:
     discoverability: 59.3
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 46.4
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -338,7 +364,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 100 operations · 57 acting
 api_count: 1
 apis:
-- description: Physical or logical farm assets (land, animals, equipment, plants, etc.)
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Physical or logical farm assets (land, animals, equipment, plants, etc.)
   name: farmOS Assets API
   slug: farmos-assets-api
-- description: Farm activity records (activities, observations, inputs, harvests, etc.)
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Farm activity records (activities, observations, inputs, harvests, etc.)
   name: farmOS Logs API
   slug: farmos-logs-api
-- description: Farm planning records
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Farm planning records
   name: farmOS Plans API
   slug: farmos-plans-api
-- description: Measurement quantities associated with logs
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Measurement quantities associated with logs
   name: farmOS Quantities API
   slug: farmos-quantities-api
-- description: Server metadata and available resource types
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Server metadata and available resource types
   name: farmOS Server Info API
   slug: farmos-server-info-api
-- description: Taxonomy term resources (categories, types, units)
+- baseURL: https://{farmOS-host}/api
+  baseurl_source: declared
+  description: Taxonomy term resources (categories, types, units)
   name: farmOS Taxonomy API
   slug: farmos-taxonomy-api
 artifact_total: 28
@@ -273,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/screenshots/farmos-2026-06-20T181044.png
 security:

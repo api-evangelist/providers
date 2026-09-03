@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 62 operations · 32 acting
 api_count: 1
 apis:
-- description: The Checklists API from CompanyCam — 1 operation(s) for checklists.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Checklists API from CompanyCam — 1 operation(s) for checklists.
   name: CompanyCam Checklists API
   slug: companycam-checklists-api
-- description: The Company API from CompanyCam — 1 operation(s) for company.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Company API from CompanyCam — 1 operation(s) for company.
   name: CompanyCam Company API
   slug: companycam-company-api
-- description: The Groups API from CompanyCam — 2 operation(s) for groups.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Groups API from CompanyCam — 2 operation(s) for groups.
   name: CompanyCam Groups API
   slug: companycam-groups-api
-- description: The Photos API from CompanyCam — 5 operation(s) for photos.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Photos API from CompanyCam — 5 operation(s) for photos.
   name: CompanyCam Photos API
   slug: companycam-photos-api
-- description: The Projects API from CompanyCam — 17 operation(s) for projects.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Projects API from CompanyCam — 17 operation(s) for projects.
   name: CompanyCam Projects API
   slug: companycam-projects-api
-- description: The Tags API from CompanyCam — 2 operation(s) for tags.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Tags API from CompanyCam — 2 operation(s) for tags.
   name: CompanyCam Tags API
   slug: companycam-tags-api
-- description: The Templates API from CompanyCam — 1 operation(s) for templates.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Templates API from CompanyCam — 1 operation(s) for templates.
   name: CompanyCam Templates API
   slug: companycam-templates-api
-- description: The Users API from CompanyCam — 3 operation(s) for users.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Users API from CompanyCam — 3 operation(s) for users.
   name: CompanyCam Users API
   slug: companycam-users-api
-- description: The Videos API from CompanyCam — 2 operation(s) for videos.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Videos API from CompanyCam — 2 operation(s) for videos.
   name: CompanyCam Videos API
   slug: companycam-videos-api
-- description: The Webhooks API from CompanyCam — 2 operation(s) for webhooks.
+- baseURL: https://api.companycam.com/v2
+  baseurl_source: declared
+  description: The Webhooks API from CompanyCam — 2 operation(s) for webhooks.
   name: CompanyCam Webhooks API
   slug: companycam-webhooks-api
 artifact_total: 30
@@ -301,7 +321,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -311,7 +331,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 55.1
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -323,7 +343,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/screenshots/companycam-2026-07-25T210145.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The credits API from World Labs — 1 operation(s) for credits.
+- baseURL: https://api.worldlabs.ai
+  baseurl_source: spec
+  description: The credits API from World Labs — 1 operation(s) for credits.
   name: World Labs credits API
   slug: world-labs-credits-api
-- description: The Marble API from World Labs — 8 operation(s) for marble.
+- baseURL: https://api.worldlabs.ai
+  baseurl_source: spec
+  description: The Marble API from World Labs — 8 operation(s) for marble.
   name: World Labs Marble API
   slug: world-labs-marble-api
 artifact_total: 9
@@ -127,7 +131,7 @@ score:
       total: 2
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

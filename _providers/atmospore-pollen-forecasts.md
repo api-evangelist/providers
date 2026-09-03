@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,16 +50,24 @@ apis:
 - description: Hosted Model Context Protocol server exposing the Atmospore pollen forecast capability as four agent tools (get_pollen, get_top_species, get_area_average, list_supported_species) plus an atmospore://h
   name: Atmospore MCP Server
   slug: atmospore-mcp-server
-- description: The Pollen API from Atmospore Pollen Forecasts — 1 operation(s) for pollen.
+- baseURL: https://pollenapi.com
+  baseurl_source: declared
+  description: The Pollen API from Atmospore Pollen Forecasts — 1 operation(s) for pollen.
   name: Atmospore Pollen Forecasts Pollen API
   slug: atmospore-pollen-forecasts-pollen-api
-- description: The Pollen Area API from Atmospore Pollen Forecasts — 1 operation(s) for pollen area.
+- baseURL: https://pollenapi.com
+  baseurl_source: declared
+  description: The Pollen Area API from Atmospore Pollen Forecasts — 1 operation(s) for pollen area.
   name: Atmospore Pollen Forecasts Pollen Area API
   slug: atmospore-pollen-forecasts-pollen-area-api
-- description: The Pollen Top API from Atmospore Pollen Forecasts — 1 operation(s) for pollen top.
+- baseURL: https://pollenapi.com
+  baseurl_source: declared
+  description: The Pollen Top API from Atmospore Pollen Forecasts — 1 operation(s) for pollen top.
   name: Atmospore Pollen Forecasts Pollen Top API
   slug: atmospore-pollen-forecasts-pollen-top-api
-- description: The Species API from Atmospore Pollen Forecasts — 1 operation(s) for species.
+- baseURL: https://pollenapi.com
+  baseurl_source: declared
+  description: The Species API from Atmospore Pollen Forecasts — 1 operation(s) for species.
   name: Atmospore Pollen Forecasts Species API
   slug: atmospore-pollen-forecasts-species-api
 arazzos:
@@ -280,7 +302,7 @@ score:
     regime_id: health
     score: 50.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atmospore-pollen-forecasts/refs/heads/main/screenshots/atmospore-pollen-forecasts-2026-08-17T080606.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 1
 apis:
-- description: Fetch detailed information about a particular app.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Fetch detailed information about a particular app.
   name: Productiv App Details API
   slug: productiv-app-details-api
-- description: Query the list of apps in your company portfolio.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Query the list of apps in your company portfolio.
   name: Productiv App Summaries API
   slug: productiv-app-summaries-api
-- description: Set up and manage custom applications within Productiv.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Set up and manage custom applications within Productiv.
   name: Productiv Applications API
   slug: productiv-applications-api
-- description: Fetch audit events for activities performed on the Productiv platform.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Fetch audit events for activities performed on the Productiv platform.
   name: Productiv Audit Events API
   slug: productiv-audit-events-api
-- description: OAuth2 token endpoint for obtaining access tokens.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: OAuth2 token endpoint for obtaining access tokens.
   name: Productiv Authentication API
   slug: productiv-authentication-api
-- description: Upload files in batch for applications.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Upload files in batch for applications.
   name: Productiv Batch Upload API
   slug: productiv-batch-upload-api
-- description: Publish organizational chart data.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Publish organizational chart data.
   name: Productiv Org Chart API
   slug: productiv-org-chart-api
-- description: Manage users provisioned to custom integrations.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Manage users provisioned to custom integrations.
   name: Productiv Provisioned Users API
   slug: productiv-provisioned-users-api
-- description: Fetch provisioning workflows and execution details.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Fetch provisioning workflows and execution details.
   name: Productiv Provisioning Workflows API
   slug: productiv-provisioning-workflows-api
-- description: Publish spend data for applications.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Publish spend data for applications.
   name: Productiv Spend Data API
   slug: productiv-spend-data-api
-- description: Publish usage events for applications.
+- baseURL: https://public-api.productiv.com
+  baseurl_source: declared
+  description: Publish usage events for applications.
   name: Productiv Usage Events API
   slug: productiv-usage-events-api
 artifact_total: 83
@@ -356,7 +378,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/screenshots/productiv-2026-06-20T192136.png
 security:

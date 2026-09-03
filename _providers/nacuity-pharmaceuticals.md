@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,34 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Route, type, taxonomy and status discovery documents.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy and status discovery documents.
   name: Nacuity Pharmaceuticals Discovery API
   slug: nacuity-pharmaceuticals-discovery-api
-- description: Media library (140 attachments at harvest time).
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Media library (140 attachments at harvest time).
   name: Nacuity Pharmaceuticals Media API
   slug: nacuity-pharmaceuticals-media-api
-- description: oEmbed 1.0 provider endpoint for nacuity.com URLs.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: oEmbed 1.0 provider endpoint for nacuity.com URLs.
   name: Nacuity Pharmaceuticals Oembed API
   slug: nacuity-pharmaceuticals-oembed-api
-- description: Corporate, clinical-programme and press-release pages (29 published at harvest time). Nacuity authors its news items as pages, not as posts.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Corporate, clinical-programme and press-release pages (29 published at harvest time). Nacuity authors its news items as pages, not as posts.
   name: Nacuity Pharmaceuticals Pages API
   slug: nacuity-pharmaceuticals-pages-api
-- description: The `portfolio` custom post type registered by the site theme and used for leadership entries. Registered and reachable, but empty (X-WP-Total 0).
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: The `portfolio` custom post type registered by the site theme and used for leadership entries. Registered and reachable, but empty (X-WP-Total 0).
   name: Nacuity Pharmaceuticals Portfolio API
   slug: nacuity-pharmaceuticals-portfolio-api
-- description: Blog/news post collection. Registered and reachable, but empty (X-WP-Total 0) — every press release is a page under /news/.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Blog/news post collection. Registered and reachable, but empty (X-WP-Total 0) — every press release is a page under /news/.
   name: Nacuity Pharmaceuticals Posts API
   slug: nacuity-pharmaceuticals-posts-api
-- description: Cross-content search across published objects.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Cross-content search across published objects.
   name: Nacuity Pharmaceuticals Search API
   slug: nacuity-pharmaceuticals-search-api
-- description: Yoast SEO head-tag rendering for a nacuity.com URL — the only anonymously readable operation in the yoast/v1 namespace.
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Yoast SEO head-tag rendering for a nacuity.com URL — the only anonymously readable operation in the yoast/v1 namespace.
   name: Nacuity Pharmaceuticals Seo API
   slug: nacuity-pharmaceuticals-seo-api
-- description: Categories, tags and the `portfolio-types` custom taxonomy. Categories holds one term (Uncategorized, count 0); tags is empty; portfolio-types holds one term (leadership, count 0).
+- baseURL: https://www.nacuity.com/wp-json
+  baseurl_source: declared
+  description: Categories, tags and the `portfolio-types` custom taxonomy. Categories holds one term (Uncategorized, count 0); tags is empty; portfolio-types holds one term (leadership, count 0).
   name: Nacuity Pharmaceuticals Taxonomy API
   slug: nacuity-pharmaceuticals-taxonomy-api
 artifact_total: 22
@@ -270,7 +299,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacuity-pharmaceuticals/refs/heads/main/screenshots/nacuity-pharmaceuticals-2026-08-07T184606.png
 security:

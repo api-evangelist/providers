@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: Outbound webhooks that POST subscription lifecycle events (trial start, subscription started, renewed, billing issue, refund, access-level granted/revoked) to your endpoint in near real time for downs
   name: Adapty Webhooks
   slug: adapty-webhooks
-- description: Grant and revoke access levels (entitlements) directly.
+- baseURL: https://api.adapty.io/api/v2/server-side-api
+  baseurl_source: declared
+  description: Grant and revoke access levels (entitlements) directly.
   name: Adapty Access Levels API
   slug: adapty-access-levels-api
-- description: Attach third-party integration identifiers to a profile.
+- baseURL: https://api.adapty.io/api/v2/server-side-api
+  baseurl_source: declared
+  description: Attach third-party integration identifiers to a profile.
   name: Adapty Integrations API
   slug: adapty-integrations-api
-- description: Read and update paywalls and their products.
+- baseURL: https://api.adapty.io/api/v2/server-side-api
+  baseurl_source: declared
+  description: Read and update paywalls and their products.
   name: Adapty Paywalls API
   slug: adapty-paywalls-api
-- description: Get, create, update, and delete end-user profiles.
+- baseURL: https://api.adapty.io/api/v2/server-side-api
+  baseurl_source: declared
+  description: Get, create, update, and delete end-user profiles.
   name: Adapty Profiles API
   slug: adapty-profiles-api
-- description: Set transactions and validate store/Stripe purchases.
+- baseURL: https://api.adapty.io/api/v2/server-side-api
+  baseurl_source: declared
+  description: Set transactions and validate store/Stripe purchases.
   name: Adapty Purchases API
   slug: adapty-purchases-api
 artifact_total: 19
@@ -182,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapty/refs/heads/main/screenshots/adapty-2026-07-25T181605.png
 security:

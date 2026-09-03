@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST/JSON API for single-product (ASIN) extraction, search results, and async batch scraping across 20 Amazon marketplaces. API key auth via ?api_key= query parameter; only HTTP 2xx responses are bill
@@ -65,7 +65,7 @@ score:
       reason: never_enriched
   previous_composite: 7.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/screenshots/amazon-scraper-api-2026-07-25T200010.png
 slug: amazon-scraper-api

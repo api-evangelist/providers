@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -33,181 +44,299 @@ agentic_access:
   summary_line: 520 operations · 350 acting · 61 human-in-the-loop
 api_count: 3
 apis:
-- description: Address standardization and validation preview (CP-28784)
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Address standardization and validation preview (CP-28784)
   name: Certifyos Address Standardization API
   slug: certifyos-addressstandardization-api
-- description: Authentication endpoints
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Authentication endpoints
   name: Certifyos Auth API
   slug: certifyos-auth-api
-- description: The Auth Resource API from Certifyos — 1 operation(s) for auth resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Auth Resource API from Certifyos — 1 operation(s) for auth resource.
   name: Certifyos Auth Resource API
   slug: certifyos-auth-resource-api
-- description: The auth-tokens API from Certifyos — 1 operation(s) for auth-tokens.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The auth-tokens API from Certifyos — 1 operation(s) for auth-tokens.
   name: Certifyos Auth Tokens API
   slug: certifyos-auth-tokens-api
-- description: APIs for managing contracts entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing contracts entities
   name: Certifyos Contracts API
   slug: certifyos-contracts-api
-- description: The Credentialing Outreach Resource API from Certifyos — 5 operation(s) for credentialing outreach resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Credentialing Outreach Resource API from Certifyos — 5 operation(s) for credentialing outreach resource.
   name: Certifyos Credentialing Outreach Resource API
   slug: certifyos-credentialing-outreach-resource-api
-- description: The credentialing-workflows API from Certifyos — 5 operation(s) for credentialing-workflows.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The credentialing-workflows API from Certifyos — 5 operation(s) for credentialing-workflows.
   name: Certifyos Credentialing Workflows API
   slug: certifyos-credentialing-workflows-api
-- description: APIs for managing credentialing workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing credentialing workflows
   name: Certifyos Credentialing Workflow API
   slug: certifyos-credentialingworkflow-api
-- description: The Dal Reactive Test Resource API from Certifyos — 1 operation(s) for dal reactive test resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Dal Reactive Test Resource API from Certifyos — 1 operation(s) for dal reactive test resource.
   name: Certifyos Dal Reactive Test Resource API
   slug: certifyos-dal-reactive-test-resource-api
-- description: APIs for directory operations
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for directory operations
   name: Certifyos Directory API
   slug: certifyos-directory-api
-- description: Operations for managing egress template configurations
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Operations for managing egress template configurations
   name: Certifyos Egress Template API
   slug: certifyos-egresstemplate-api
-- description: Manage event email notification settings
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Manage event email notification settings
   name: Certifyos Event Email Settings API
   slug: certifyos-event-email-settings-api
-- description: APIs for managing facility entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing facility entities
   name: Certifyos Facility API
   slug: certifyos-facility-api
-- description: The Facility Credentialing Outreach Resource API from Certifyos — 4 operation(s) for facility credentialing outreach resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Facility Credentialing Outreach Resource API from Certifyos — 4 operation(s) for facility credentialing outreach resource.
   name: Certifyos Facility Credentialing Outreach Resource API
   slug: certifyos-facility-credentialing-outreach-resource-api
-- description: APIs for managing notes in facility credentialing workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing notes in facility credentialing workflows
   name: Certifyos Facility Note API
   slug: certifyos-facility-note-api
-- description: APIs for managing facility credentialing workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing facility credentialing workflows
   name: Certifyos Facility Credentialing Workflow API
   slug: certifyos-facilitycredentialingworkflow-api
-- description: The File Storage Resource API from Certifyos — 3 operation(s) for file storage resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The File Storage Resource API from Certifyos — 3 operation(s) for file storage resource.
   name: Certifyos File Storage Resource API
   slug: certifyos-file-storage-resource-api
-- description: APIs for managing flag entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing flag entities
   name: Certifyos Flag API
   slug: certifyos-flag-api
-- description: APIs for calculating and managing flags for monitoring workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for calculating and managing flags for monitoring workflows
   name: Certifyos Flag Calculator API
   slug: certifyos-flagcalculator-api
-- description: The flags API from Certifyos — 10 operation(s) for flags.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The flags API from Certifyos — 10 operation(s) for flags.
   name: Certifyos Flags API
   slug: certifyos-flags-api
-- description: APIs for managing form submissions
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing form submissions
   name: Certifyos Form Submissions API
   slug: certifyos-form-submissions-api
-- description: The forms API from Certifyos — 2 operation(s) for forms.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The forms API from Certifyos — 2 operation(s) for forms.
   name: Certifyos Forms API
   slug: certifyos-forms-api
-- description: APIs for managing group entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing group entities
   name: Certifyos Group API
   slug: certifyos-group-api
-- description: Endpoints for managing locations.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing locations.
   name: Certifyos Locations API
   slug: certifyos-locations-api
-- description: APIs for managing monitoring runs
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing monitoring runs
   name: Certifyos Monitoring Run API
   slug: certifyos-monitoringrun-api
-- description: APIs for managing monitoring workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing monitoring workflows
   name: Certifyos Monitoring Workflow API
   slug: certifyos-monitoringworkflow-api
-- description: APIs for managing notes in monitoring workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing notes in monitoring workflows
   name: Certifyos Monitoring Workflow Note API
   slug: certifyos-monitoringworkflownote-api
-- description: APIs for managing network entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing network entities
   name: Certifyos Network API
   slug: certifyos-network-api
-- description: APIs for managing notes in credentialing workflows
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing notes in credentialing workflows
   name: Certifyos Note API
   slug: certifyos-note-api
-- description: NPI validation operations
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: NPI validation operations
   name: Certifyos Npi Validation API
   slug: certifyos-npivalidation-api
-- description: The Organization Outreach Settings Resource API from Certifyos — 4 operation(s) for organization outreach settings resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Organization Outreach Settings Resource API from Certifyos — 4 operation(s) for organization outreach settings resource.
   name: Certifyos Organization Outreach Settings Resource API
   slug: certifyos-organization-outreach-settings-resource-api
-- description: This resource represents a payer in the healthcare system. A payer refers to an entity that finances or reimburses the cost of health services. Use it to get, create, and update payers.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: This resource represents a payer in the healthcare system. A payer refers to an entity that finances or reimburses the cost of health services. Use it to get, create, and update payers.
   name: Certifyos Payers API
   slug: certifyos-payers-api
-- description: APIs for managing permissions
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing permissions
   name: Certifyos Permission API
   slug: certifyos-permission-api
-- description: APIs for managing plan entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing plan entities
   name: Certifyos Plan API
   slug: certifyos-plan-api
-- description: Endpoints for managing practitioner information and associations.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing practitioner information and associations.
   name: Certifyos Practitioner API
   slug: certifyos-practitioner-api
-- description: The providers API from Certifyos — 4 operation(s) for providers.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The providers API from Certifyos — 4 operation(s) for providers.
   name: Certifyos Providers API
   slug: certifyos-providers-api
-- description: Endpoints for managing roles.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing roles.
   name: Certifyos Role API
   slug: certifyos-role-api
-- description: The Role Resource API from Certifyos — 1 operation(s) for role resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Role Resource API from Certifyos — 1 operation(s) for role resource.
   name: Certifyos Role Resource API
   slug: certifyos-role-resource-api
-- description: APIs for managing roster file uploads and processing
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing roster file uploads and processing
   name: Certifyos Roster API
   slug: certifyos-roster-api
-- description: APIs for roster upload file column mappings
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for roster upload file column mappings
   name: Certifyos Roster upload API
   slug: certifyos-roster-upload-api
-- description: APIs for managing individual roster record entries
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing individual roster record entries
   name: Certifyos Roster Record API
   slug: certifyos-rosterrecord-api
-- description: The Send Grid Webhook Resource API from Certifyos — 2 operation(s) for send grid webhook resource.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The Send Grid Webhook Resource API from Certifyos — 2 operation(s) for send grid webhook resource.
   name: Certifyos Send Grid Webhook Resource API
   slug: certifyos-send-grid-webhook-resource-api
-- description: Endpoints for managing medical specialties.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing medical specialties.
   name: Certifyos Specialty API
   slug: certifyos-specialty-api
-- description: Cloud storage operations and file access management
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Cloud storage operations and file access management
   name: Certifyos Storage API
   slug: certifyos-storage-api
-- description: APIs for managing roster templates and configurations
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing roster templates and configurations
   name: Certifyos Template API
   slug: certifyos-template-api
-- description: Endpoints for managing tenant configurations.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing tenant configurations.
   name: Certifyos Tenant Configuration API
   slug: certifyos-tenant-configuration-api
-- description: Endpoints for managing tenant-specific specialties.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing tenant-specific specialties.
   name: Certifyos Tenant Specialty API
   slug: certifyos-tenant-specialty-api
-- description: Endpoints for managing UDF schemas.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing UDF schemas.
   name: Certifyos UDF Schema API
   slug: certifyos-udf-schema-api
-- description: Endpoints for managing users.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: Endpoints for managing users.
   name: Certifyos User API
   slug: certifyos-user-api
-- description: The v2/credentialing-workflows API from Certifyos — 5 operation(s) for v2/credentialing-workflows.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/credentialing-workflows API from Certifyos — 5 operation(s) for v2/credentialing-workflows.
   name: Certifyos V2/credentialing Workflows API
   slug: certifyos-v2-credentialing-workflows-api
-- description: The v2/facilities API from Certifyos — 8 operation(s) for v2/facilities.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/facilities API from Certifyos — 8 operation(s) for v2/facilities.
   name: Certifyos V2/facilities API
   slug: certifyos-v2-facilities-api
-- description: The v2/facility-credentialing-workflows API from Certifyos — 3 operation(s) for v2/facility-credentialing-workflows.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/facility-credentialing-workflows API from Certifyos — 3 operation(s) for v2/facility-credentialing-workflows.
   name: Certifyos V2/facility Credentialing Workflows API
   slug: certifyos-v2-facility-credentialing-workflows-api
-- description: The v2/flags API from Certifyos — 4 operation(s) for v2/flags.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/flags API from Certifyos — 4 operation(s) for v2/flags.
   name: Certifyos V2/flags API
   slug: certifyos-v2-flags-api
-- description: The v2/groups API from Certifyos — 1 operation(s) for v2/groups.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/groups API from Certifyos — 1 operation(s) for v2/groups.
   name: Certifyos V2/groups API
   slug: certifyos-v2-groups-api
-- description: The v2/provider API from Certifyos — 14 operation(s) for v2/provider.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/provider API from Certifyos — 14 operation(s) for v2/provider.
   name: Certifyos V2/provider API
   slug: certifyos-v2-provider-api
-- description: The v2/provider-with-groups API from Certifyos — 1 operation(s) for v2/provider-with-groups.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/provider-with-groups API from Certifyos — 1 operation(s) for v2/provider-with-groups.
   name: Certifyos V2/provider With Groups API
   slug: certifyos-v2-provider-with-groups-api
-- description: The v2/providers API from Certifyos — 7 operation(s) for v2/providers.
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: The v2/providers API from Certifyos — 7 operation(s) for v2/providers.
   name: Certifyos V2/providers API
   slug: certifyos-v2-providers-api
-- description: APIs for managing webhook entities
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing webhook entities
   name: Certifyos Webhook API
   slug: certifyos-webhook-api
-- description: APIs for managing webhooks
+- baseURL: https://api-service.certifyos.com
+  baseurl_source: declared
+  description: APIs for managing webhooks
   name: Certifyos Webhooks API
   slug: certifyos-webhooks-api
 artifact_total: 124
@@ -542,7 +671,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -552,7 +681,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.5
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -570,7 +699,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:

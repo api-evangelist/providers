@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: CKAN Action API for data.sa.gov.au South Australia, a consistent JSON-over-HTTP interface over a catalog of 1,916 datasets. Standard actions include package_search, package_show, package_list, organiz
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-sa-gov-au/refs/heads/main/screenshots/data-sa-gov-au-2026-06-20T175614.png
 security:

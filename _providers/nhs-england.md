@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,61 +54,99 @@ apis:
 - description: 'National service for sending electronic prescriptions from prescribers to dispensers (pharmacies), exposed as an HL7 FHIR R4 API. Sandbox FHIR endpoint confirmed live (returns a FHIR OperationOutcome '
   name: Electronic Prescription Service (EPS) - FHIR API
   slug: nhs-electronic-prescription-service-fhir
-- description: The Booking API from NHS England — 2 operation(s) for booking.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Booking API from NHS England — 2 operation(s) for booking.
   name: NHS England Booking API
   slug: nhs-england-booking-api
-- description: The Callbacks API from NHS England — 3 operation(s) for callbacks.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Callbacks API from NHS England — 3 operation(s) for callbacks.
   name: NHS England Callbacks API
   slug: nhs-england-callbacks-api
-- description: The Channels API from NHS England — 1 operation(s) for channels.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Channels API from NHS England — 1 operation(s) for channels.
   name: NHS England Channels API
   slug: nhs-england-channels-api
-- description: The CodeSystem API from NHS England — 1 operation(s) for codesystem.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The CodeSystem API from NHS England — 1 operation(s) for codesystem.
   name: NHS England Code System API
   slug: nhs-england-codesystem-api
-- description: The communication API from NHS England — 4 operation(s) for communication.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The communication API from NHS England — 4 operation(s) for communication.
   name: NHS England Communication API
   slug: nhs-england-communication-api
-- description: The Immunization API from NHS England — 1 operation(s) for immunization.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Immunization API from NHS England — 1 operation(s) for immunization.
   name: NHS England Immunization API
   slug: nhs-england-immunization-api
-- description: The List{id} API from NHS England — 1 operation(s) for list{id}.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The List{id} API from NHS England — 1 operation(s) for list{id}.
   name: NHS England List{id} API
   slug: nhs-england-list-id-api
-- description: The Message API from NHS England — 1 operation(s) for message.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Message API from NHS England — 1 operation(s) for message.
   name: NHS England Message API
   slug: nhs-england-message-api
-- description: The Message Batches API from NHS England — 1 operation(s) for message batches.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Message Batches API from NHS England — 1 operation(s) for message batches.
   name: NHS England Message Batches API
   slug: nhs-england-message-batches-api
-- description: The Messages API from NHS England — 2 operation(s) for messages.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Messages API from NHS England — 2 operation(s) for messages.
   name: NHS England Messages API
   slug: nhs-england-messages-api
-- description: The Metadata API from NHS England — 2 operation(s) for metadata.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Metadata API from NHS England — 2 operation(s) for metadata.
   name: NHS England Metadata API
   slug: nhs-england-metadata-api
-- description: The Organisation API from NHS England — 1 operation(s) for organisation.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Organisation API from NHS England — 1 operation(s) for organisation.
   name: NHS England Organisation API
   slug: nhs-england-organisation-api
-- description: The Organization API from NHS England — 2 operation(s) for organization.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Organization API from NHS England — 2 operation(s) for organization.
   name: NHS England Organization API
   slug: nhs-england-organization-api
-- description: The OrganizationAffiliation API from NHS England — 2 operation(s) for organizationaffiliation.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The OrganizationAffiliation API from NHS England — 2 operation(s) for organizationaffiliation.
   name: NHS England Organization Affiliation API
   slug: nhs-england-organizationaffiliation-api
-- description: The R4 API from NHS England — 6 operation(s) for r4.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The R4 API from NHS England — 6 operation(s) for r4.
   name: NHS England R4 API
   slug: nhs-england-r4-api
-- description: The Referral API from NHS England — 2 operation(s) for referral.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Referral API from NHS England — 2 operation(s) for referral.
   name: NHS England Referral API
   slug: nhs-england-referral-api
-- description: The Slots API from NHS England — 1 operation(s) for slots.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The Slots API from NHS England — 1 operation(s) for slots.
   name: NHS England Slots API
   slug: nhs-england-slots-api
-- description: The STU3 API from NHS England — 32 operation(s) for stu3.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The STU3 API from NHS England — 32 operation(s) for stu3.
   name: NHS England STU3 API
   slug: nhs-england-stu3-api
-- description: The ValueSet API from NHS England — 1 operation(s) for valueset.
+- baseURL: https://api.service.nhs.uk/personal-demographics/FHIR/R4
+  baseurl_source: declared
+  description: The ValueSet API from NHS England — 1 operation(s) for valueset.
   name: NHS England Value Set API
   slug: nhs-england-valueset-api
 artifact_total: 28
@@ -298,7 +348,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -311,7 +361,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 55.5
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -329,7 +379,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:

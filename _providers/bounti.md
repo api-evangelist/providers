@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Llms Full.txt API from Bounti — 1 operation(s) for llms full.txt.
+- baseURL: https://bounti.ai
+  baseurl_source: declared
+  description: The Llms Full.txt API from Bounti — 1 operation(s) for llms full.txt.
   name: Bounti Llms Full.txt API
   slug: bounti-llms-full-txt-api
-- description: The Llms.txt API from Bounti — 1 operation(s) for llms.txt.
+- baseURL: https://bounti.ai
+  baseurl_source: declared
+  description: The Llms.txt API from Bounti — 1 operation(s) for llms.txt.
   name: Bounti Llms.txt API
   slug: bounti-llms-txt-api
 artifact_total: 11
@@ -220,7 +224,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/screenshots/bounti-2026-07-25T203646.png
 security:

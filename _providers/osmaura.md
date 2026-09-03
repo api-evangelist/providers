@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 4 operations
 api_count: 2
 apis:
-- description: The Prospect Editions API from Osmaura — 1 operation(s) for prospect editions.
+- baseURL: https://dashboard.osmaura.com
+  baseurl_source: declared
+  description: The Prospect Editions API from Osmaura — 1 operation(s) for prospect editions.
   name: Osmaura Prospect Editions API
   slug: osmaura-prospect-editions-api
-- description: The Prospects API from Osmaura — 1 operation(s) for prospects.
+- baseURL: https://dashboard.osmaura.com
+  baseurl_source: declared
+  description: The Prospects API from Osmaura — 1 operation(s) for prospects.
   name: Osmaura Prospects API
   slug: osmaura-prospects-api
-- description: The Signal Editions API from Osmaura — 1 operation(s) for signal editions.
+- baseURL: https://dashboard.osmaura.com
+  baseurl_source: declared
+  description: The Signal Editions API from Osmaura — 1 operation(s) for signal editions.
   name: Osmaura Signal Editions API
   slug: osmaura-signal-editions-api
-- description: The Signals API from Osmaura — 1 operation(s) for signals.
+- baseURL: https://dashboard.osmaura.com
+  baseurl_source: declared
+  description: The Signals API from Osmaura — 1 operation(s) for signals.
   name: Osmaura Signals API
   slug: osmaura-signals-api
 artifact_total: 9
@@ -209,7 +217,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osmaura/refs/heads/main/screenshots/osmaura-2026-08-07T191010.png
 security:

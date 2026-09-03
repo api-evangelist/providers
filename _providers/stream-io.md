@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -47,19 +47,29 @@ apis:
 - description: Server-side REST API for activity feeds — flat, aggregated, notification and ranked feeds, follow graph, reactions and personalisation. Powered by Stream's original feed engine.
   name: Stream Activity Feeds API
   slug: feeds
-- description: The product:chat API from Stream — 194 operation(s) for product:chat.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:chat API from Stream — 194 operation(s) for product:chat.
   name: Stream product:chat API
   slug: stream-io-product-chat-api
-- description: The product:common API from Stream — 54 operation(s) for product:common.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:common API from Stream — 54 operation(s) for product:common.
   name: Stream product:common API
   slug: stream-io-product-common-api
-- description: The product:feeds API from Stream — 69 operation(s) for product:feeds.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:feeds API from Stream — 69 operation(s) for product:feeds.
   name: Stream product:feeds API
   slug: stream-io-product-feeds-api
-- description: The product:moderation API from Stream — 56 operation(s) for product:moderation.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:moderation API from Stream — 56 operation(s) for product:moderation.
   name: Stream product:moderation API
   slug: stream-io-product-moderation-api
-- description: The product:video API from Stream — 121 operation(s) for product:video.
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:video API from Stream — 121 operation(s) for product:video.
   name: Stream product:video API
   slug: stream-io-product-video-api
 artifact_total: 26
@@ -211,7 +221,7 @@ score:
     catalog_gap: 63.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -221,7 +231,7 @@ score:
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -230,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:

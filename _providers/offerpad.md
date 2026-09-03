@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -46,127 +46,209 @@ apis:
 - description: Offerpad's real transaction API, and it is closed. Discovered on 2026-07-26 as the API_URL constant compiled into the Offerpad Connect single-page-app bundle at https://connect.offerpad.com/bundle.js,
   name: Offerpad Helix API (private customer backend)
   slug: offerpad-helix-api
-- description: WordPress block-directory resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-directory resource routes.
   name: Offerpad Block Directory API
   slug: offerpad-block-directory-api
-- description: WordPress block-patterns resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-patterns resource routes.
   name: Offerpad Block Patterns API
   slug: offerpad-block-patterns-api
-- description: WordPress block-renderer resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-renderer resource routes.
   name: Offerpad Block Renderer API
   slug: offerpad-block-renderer-api
-- description: WordPress block-types resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress block-types resource routes.
   name: Offerpad Block Types API
   slug: offerpad-block-types-api
-- description: WordPress blocks resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress blocks resource routes.
   name: Offerpad Blocks API
   slug: offerpad-blocks-api
-- description: WordPress categories resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress categories resource routes.
   name: Offerpad Categories API
   slug: offerpad-categories-api
-- description: WordPress comments resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress comments resource routes.
   name: Offerpad Comments API
   slug: offerpad-comments-api
-- description: WordPress e-floating-buttons resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress e-floating-buttons resource routes.
   name: Offerpad E Floating Buttons API
   slug: offerpad-e-floating-buttons-api
-- description: WordPress elementor_library resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress elementor_library resource routes.
   name: Offerpad Elementor Library API
   slug: offerpad-elementor-library-api
-- description: WordPress elementor_snippet resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress elementor_snippet resource routes.
   name: Offerpad Elementor Snippet API
   slug: offerpad-elementor-snippet-api
-- description: WordPress font-collections resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress font-collections resource routes.
   name: Offerpad Font Collections API
   slug: offerpad-font-collections-api
-- description: WordPress font-families resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress font-families resource routes.
   name: Offerpad Font Families API
   slug: offerpad-font-families-api
-- description: WordPress global-styles resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress global-styles resource routes.
   name: Offerpad Global Styles API
   slug: offerpad-global-styles-api
-- description: WordPress icons resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress icons resource routes.
   name: Offerpad Icons API
   slug: offerpad-icons-api
-- description: WordPress index resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress index resource routes.
   name: Offerpad Index API
   slug: offerpad-index-api
-- description: WordPress locations resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress locations resource routes.
   name: Offerpad Locations API
   slug: offerpad-locations-api
-- description: WordPress media resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress media resource routes.
   name: Offerpad Media API
   slug: offerpad-media-api
-- description: WordPress menu-items resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress menu-items resource routes.
   name: Offerpad Menu Items API
   slug: offerpad-menu-items-api
-- description: WordPress menu-locations resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress menu-locations resource routes.
   name: Offerpad Menu Locations API
   slug: offerpad-menu-locations-api
-- description: WordPress menus resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress menus resource routes.
   name: Offerpad Menus API
   slug: offerpad-menus-api
-- description: WordPress navigation resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress navigation resource routes.
   name: Offerpad Navigation API
   slug: offerpad-navigation-api
-- description: WordPress pages resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress pages resource routes.
   name: Offerpad Pages API
   slug: offerpad-pages-api
-- description: WordPress pattern-directory resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress pattern-directory resource routes.
   name: Offerpad Pattern Directory API
   slug: offerpad-pattern-directory-api
-- description: WordPress plugins resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress plugins resource routes.
   name: Offerpad Plugins API
   slug: offerpad-plugins-api
-- description: WordPress posts resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress posts resource routes.
   name: Offerpad Posts API
   slug: offerpad-posts-api
-- description: WordPress review resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress review resource routes.
   name: Offerpad Review API
   slug: offerpad-review-api
-- description: WordPress search resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress search resource routes.
   name: Offerpad Search API
   slug: offerpad-search-api
-- description: WordPress settings resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress settings resource routes.
   name: Offerpad Settings API
   slug: offerpad-settings-api
-- description: WordPress sidebars resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress sidebars resource routes.
   name: Offerpad Sidebars API
   slug: offerpad-sidebars-api
-- description: WordPress states resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress states resource routes.
   name: Offerpad States API
   slug: offerpad-states-api
-- description: WordPress statuses resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress statuses resource routes.
   name: Offerpad Statuses API
   slug: offerpad-statuses-api
-- description: WordPress tags resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress tags resource routes.
   name: Offerpad Tags API
   slug: offerpad-tags-api
-- description: WordPress taxonomies resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress taxonomies resource routes.
   name: Offerpad Taxonomies API
   slug: offerpad-taxonomies-api
-- description: WordPress template-parts resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress template-parts resource routes.
   name: Offerpad Template Parts API
   slug: offerpad-template-parts-api
-- description: WordPress templates resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress templates resource routes.
   name: Offerpad Templates API
   slug: offerpad-templates-api
-- description: WordPress themes resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress themes resource routes.
   name: Offerpad Themes API
   slug: offerpad-themes-api
-- description: WordPress types resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress types resource routes.
   name: Offerpad Types API
   slug: offerpad-types-api
-- description: WordPress users resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress users resource routes.
   name: Offerpad Users API
   slug: offerpad-users-api
-- description: WordPress widget-types resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress widget-types resource routes.
   name: Offerpad Widget Types API
   slug: offerpad-widget-types-api
-- description: WordPress widgets resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress widgets resource routes.
   name: Offerpad Widgets API
   slug: offerpad-widgets-api
-- description: WordPress wp_pattern_category resource routes.
+- baseURL: https://www.offerpad.com/wp-json
+  baseurl_source: declared
+  description: WordPress wp_pattern_category resource routes.
   name: Offerpad Wp Pattern Category API
   slug: offerpad-wp-pattern-category-api
 artifact_total: 50
@@ -405,7 +487,7 @@ score:
     regime_id: securities_market_data
     score: 68.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offerpad/refs/heads/main/screenshots/offerpad-2026-08-17T124240.png
 security:

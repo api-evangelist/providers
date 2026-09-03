@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 1
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 82 operations · 53 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Resources for ACH return functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for ACH return functions.
   name: Rainforest ACH Returns API
   slug: rainforest-ach-returns-api
-- description: Resources for api key functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for api key functions.
   name: Rainforest API Keys API
   slug: rainforest-api-keys-api
-- description: Resources for billing profile functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for billing profile functions.
   name: Rainforest Billing Profiles API
   slug: rainforest-billing-profiles-api
-- description: Resources for BIN lookup functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for BIN lookup functions.
   name: Rainforest BIN Lookups API
   slug: rainforest-bin-lookups-api
-- description: Resources for chargeback functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for chargeback functions.
   name: Rainforest Chargebacks API
   slug: rainforest-chargebacks-api
-- description: Resources for deposit method config functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for deposit method config functions.
   name: Rainforest Deposit Method Configs API
   slug: rainforest-deposit-method-configs-api
-- description: Resources for deposit method functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for deposit method functions.
   name: Rainforest Deposit Methods API
   slug: rainforest-deposit-methods-api
-- description: Resources for deposit functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for deposit functions.
   name: Rainforest Deposits API
   slug: rainforest-deposits-api
-- description: Resources for device functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for device functions.
   name: Rainforest Devices API
   slug: rainforest-devices-api
-- description: Resources for file upload config functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for file upload config functions.
   name: Rainforest File Upload Configs API
   slug: rainforest-file-upload-configs-api
-- description: Resources for file upload functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for file upload functions.
   name: Rainforest File Uploads API
   slug: rainforest-file-uploads-api
-- description: Resources for forwarding sensitive data to 3rd parties.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for forwarding sensitive data to 3rd parties.
   name: Rainforest Forward Requests API
   slug: rainforest-forward-requests-api
-- description: Resources for health functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for health functions.
   name: Rainforest Health API
   slug: rainforest-health-api
-- description: Resources for merchant application functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for merchant application functions.
   name: Rainforest Merchant Applications API
   slug: rainforest-merchant-applications-api
-- description: Resources for merchant functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for merchant functions.
   name: Rainforest Merchants API
   slug: rainforest-merchants-api
-- description: Resources for payin configs functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payin configs functions.
   name: Rainforest Payin Configs API
   slug: rainforest-payin-configs-api
-- description: Resources for payin functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payin functions.
   name: Rainforest Payins API
   slug: rainforest-payins-api
-- description: Resources for payment method configs functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payment method configs functions.
   name: Rainforest Payment Method Configs API
   slug: rainforest-payment-method-configs-api
-- description: Resources for payment method domain functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payment method domain functions.
   name: Rainforest Payment Method Domains API
   slug: rainforest-payment-method-domains-api
-- description: Resources for payment method functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payment method functions.
   name: Rainforest Payment Methods API
   slug: rainforest-payment-methods-api
-- description: Resources for payment functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for payment functions.
   name: Rainforest Payments API
   slug: rainforest-payments-api
-- description: Resources for refund functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for refund functions.
   name: Rainforest Refunds API
   slug: rainforest-refunds-api
-- description: Resources for session functions.
+- baseURL: https://api.rainforestpay.com
+  baseurl_source: declared
+  description: Resources for session functions.
   name: Rainforest Sessions API
   slug: rainforest-sessions-api
 arazzos:
@@ -451,7 +497,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -461,7 +507,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 46.1
-  previous_composite: 56.8
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -479,7 +525,7 @@ score:
     regime_id: payments
     score: 59.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainforest/refs/heads/main/screenshots/rainforest-2026-08-17T081441.png
 security:

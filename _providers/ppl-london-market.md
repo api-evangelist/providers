@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -33,43 +46,69 @@ agentic_access:
   summary_line: 67 operations · 29 acting
 api_count: 5
 apis:
-- description: Enables the creation and management of Contract structured data.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the creation and management of Contract structured data.
   name: PPL Contract API
   slug: ppl-london-market-contract-api
-- description: The document API from PPL — 6 operation(s) for document.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The document API from PPL — 6 operation(s) for document.
   name: PPL Document API
   slug: ppl-london-market-document-api
-- description: The health API from PPL — 1 operation(s) for health.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The health API from PPL — 1 operation(s) for health.
   name: PPL Health API
   slug: ppl-london-market-health-api
-- description: 'Enables the creation and management of the flow of negotiations from a Broker to an Underwriter. Negotiations shown will be those which (1) have been formally communicated to the Underwriter; and (2) '
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: 'Enables the creation and management of the flow of negotiations from a Broker to an Underwriter. Negotiations shown will be those which (1) have been formally communicated to the Underwriter; and (2) '
   name: PPL Negotiation API
   slug: ppl-london-market-negotiation-api
-- description: The notification API from PPL — 3 operation(s) for notification.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The notification API from PPL — 3 operation(s) for notification.
   name: PPL Notification API
   slug: ppl-london-market-notification-api
-- description: The organisation API from PPL — 5 operation(s) for organisation.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The organisation API from PPL — 5 operation(s) for organisation.
   name: PPL Organisation API
   slug: ppl-london-market-organisation-api
-- description: Enables the creation, management and processing of Open Market Underwriters and Facility Panel Underwriters that are willing to participate in the underwriting of an insured's asset or liability, repr
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the creation, management and processing of Open Market Underwriters and Facility Panel Underwriters that are willing to participate in the underwriting of an insured's asset or liability, repr
   name: PPL Participation API
   slug: ppl-london-market-participation-api
-- description: Enables the creation and management of the Placement structure that comprises of Programmes and Contracts.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the creation and management of the Placement structure that comprises of Programmes and Contracts.
   name: PPL Placement API
   slug: ppl-london-market-placement-api
-- description: Enables the creation and management of Programme structures within a Placement. This also includes the capability to add existing Contracts into a programme.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the creation and management of Programme structures within a Placement. This also includes the capability to add existing Contracts into a programme.
   name: PPL Programme API
   slug: ppl-london-market-programme-api
-- description: Enables the creation and management of Contract sections, as structured data. Each Section represents of a specific partition of the overall risk to be insured. A section can be based upon the cover t
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the creation and management of Contract sections, as structured data. Each Section represents of a specific partition of the overall risk to be insured. A section can be based upon the cover t
   name: PPL Section API
   slug: ppl-london-market-section-api
-- description: Enables the retrieval of Submissions for Underwriters.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: Enables the retrieval of Submissions for Underwriters.
   name: PPL Submission API
   slug: ppl-london-market-submission-api
-- description: The transaction API from PPL — 2 operation(s) for transaction.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The transaction API from PPL — 2 operation(s) for transaction.
   name: PPL Transaction API
   slug: ppl-london-market-transaction-api
-- description: The version API from PPL — 1 operation(s) for version.
+- baseURL: https://api.londonmarketgroup.co.uk/ppl/nextgen/placements/v1
+  baseurl_source: declared
+  description: The version API from PPL — 1 operation(s) for version.
   name: PPL Version API
   slug: ppl-london-market-version-api
 artifact_total: 23
@@ -291,20 +330,20 @@ scopes:
   summary_line: 1 scope · authorizationCode/onBehalfOf/clientCredentials
 score:
   band: developing
-  composite: 48.8
+  composite: 47.0
   coverage:
     artifact_dirs: 21
-    catalog_gap: 78.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: -1.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 49.6
     developer_ergonomics: 70.8
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 5.3
   previous_composite: 48.8
@@ -325,7 +364,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ppl-london-market/refs/heads/main/screenshots/ppl-london-market-2026-08-17T081327.png
 security:

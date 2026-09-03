@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Plugin API that allows configuring PxL scripts to export observability data from Pixie at regularly scheduled intervals to external systems. Supports integrations including a Grafana datasource plugin
   name: Pixie Plugin System API
   slug: pixie-plugin-api
-- description: Operations for listing and inspecting Pixie-instrumented Kubernetes clusters connected to the Pixie Cloud.
+- baseURL: https://work.withpixie.ai
+  baseurl_source: spec
+  description: Operations for listing and inspecting Pixie-instrumented Kubernetes clusters connected to the Pixie Cloud.
   name: Pixie Clusters API
   slug: pixie-clusters-api
-- description: Health and status endpoints for the Pixie service.
+- baseURL: https://work.withpixie.ai
+  baseurl_source: spec
+  description: Health and status endpoints for the Pixie service.
   name: Pixie Health API
   slug: pixie-health-api
-- description: Operations for executing PxL scripts against a cluster and retrieving telemetry query results.
+- baseURL: https://work.withpixie.ai
+  baseurl_source: spec
+  description: Operations for executing PxL scripts against a cluster and retrieving telemetry query results.
   name: Pixie Scripts API
   slug: pixie-scripts-api
 artifact_total: 20
@@ -242,7 +248,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/screenshots/pixie-2026-06-20T191740.png
 security:

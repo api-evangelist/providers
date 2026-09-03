@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,13 +39,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
   name: Lili MCP Server
   slug: lili-mcp-server
-- description: The Lili API from Lili — 8 operation(s) for lili.
+- baseURL: https://prod.lili.co
+  baseurl_source: declared
+  description: The Lili API from Lili — 8 operation(s) for lili.
   name: Lili Lili API
   slug: lili-lili-api
 artifact_total: 10
@@ -227,11 +244,11 @@ score:
   band: strong
   composite: 65.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -241,7 +258,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 65.4
+  previous_composite: 65.2
   provenance:
     conformance: first-party
     contracts:
@@ -258,8 +275,9 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/screenshots/lili-2026-09-02T150252.png
 security:
 - kind: authentication
   name: Lili Authentication

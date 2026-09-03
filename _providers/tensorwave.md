@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Queue-backed batch inference and worker coordination.
+- baseURL: https://gpt-oss.cray-lm.com
+  baseurl_source: declared
+  description: Queue-backed batch inference and worker coordination.
   name: TensorWave Generate API
   slug: tensorwave-generate-api
-- description: Health checks, service logs and metrics.
+- baseURL: https://gpt-oss.cray-lm.com
+  baseurl_source: declared
+  description: Health checks, service logs and metrics.
   name: TensorWave Health API
   slug: tensorwave-health-api
-- description: OpenAI-compatible inference endpoints proxied to vLLM.
+- baseURL: https://gpt-oss.cray-lm.com
+  baseurl_source: declared
+  description: OpenAI-compatible inference endpoints proxied to vLLM.
   name: TensorWave Open AI API
   slug: tensorwave-openai-api
-- description: Slurm scheduler status and job control.
+- baseURL: https://gpt-oss.cray-lm.com
+  baseurl_source: declared
+  description: Slurm scheduler status and job control.
   name: TensorWave Slurm API
   slug: tensorwave-slurm-api
-- description: Megatron-LM training jobs, chunked dataset upload, checkpoints and Hugging Face publishing.
+- baseURL: https://gpt-oss.cray-lm.com
+  baseurl_source: declared
+  description: Megatron-LM training jobs, chunked dataset upload, checkpoints and Hugging Face publishing.
   name: TensorWave Training API
   slug: tensorwave-training-api
 artifact_total: 16
@@ -227,7 +248,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorwave/refs/heads/main/screenshots/tensorwave-2026-08-17T082314.png
 security:

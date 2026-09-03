@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 7 acting
 api_count: 1
 apis:
-- description: A build logically groups the test sessions and snapshots of a run.
+- baseURL: https://percy.io/api/v1
+  baseurl_source: declared
+  description: A build logically groups the test sessions and snapshots of a run.
   name: Percy Builds API
   slug: percy-builds-api
-- description: A project logically groups builds on Percy.
+- baseURL: https://percy.io/api/v1
+  baseurl_source: declared
+  description: A project logically groups builds on Percy.
   name: Percy Projects API
   slug: percy-projects-api
-- description: Snapshots are the individual visual comparisons within a build.
+- baseURL: https://percy.io/api/v1
+  baseurl_source: declared
+  description: Snapshots are the individual visual comparisons within a build.
   name: Percy Snapshots API
   slug: percy-snapshots-api
-- description: Branchline sync and merge of approved snapshots across branch lines.
+- baseURL: https://percy.io/api/v1
+  baseurl_source: declared
+  description: Branchline sync and merge of approved snapshots across branch lines.
   name: Percy Visual Git API
   slug: percy-visual-git-api
 artifact_total: 15
@@ -146,7 +154,7 @@ score:
   band: thin
   composite: 29.9
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +177,9 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/percy/refs/heads/main/screenshots/percy-2026-09-02T151040.png
 security:
 - kind: authentication
   name: Percy Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,13 +58,19 @@ apis:
 - description: The Contract Awards API provides access to federal contract award information from SAM.gov, including award details, vendor information, award amounts, and performance period data.
   name: SAM.gov Contract Awards API
   slug: contract-awards-api
-- description: City lookup and validation
+- baseURL: https://api.sam.gov
+  baseurl_source: spec
+  description: City lookup and validation
   name: SAM.gov Cities API
   slug: sam.gov-cities-api
-- description: State and province lookup
+- baseURL: https://api.sam.gov
+  baseurl_source: spec
+  description: State and province lookup
   name: SAM.gov States API
   slug: sam.gov-states-api
-- description: ZIP code validation
+- baseURL: https://api.sam.gov
+  baseurl_source: spec
+  description: ZIP code validation
   name: SAM.gov ZIP Codes API
   slug: sam.gov-zip-codes-api
 artifact_total: 28
@@ -233,7 +239,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/screenshots/sam.gov-2026-06-20T193356.png
 security:

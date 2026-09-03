@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: The Agencies API from Office of the Federal Register — 2 operation(s) for agencies.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Agencies API from Office of the Federal Register — 2 operation(s) for agencies.
   name: Office of the Federal Register Agencies API
   slug: office-of-the-federal-register-agencies-api
-- description: The Documents API from Office of the Federal Register — 3 operation(s) for documents.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Documents API from Office of the Federal Register — 3 operation(s) for documents.
   name: Office of the Federal Register Documents API
   slug: office-of-the-federal-register-documents-api
-- description: The Documents.json API from Office of the Federal Register — 1 operation(s) for documents.json.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Documents.json API from Office of the Federal Register — 1 operation(s) for documents.json.
   name: Office of the Federal Register Documents.json API
   slug: office-of-the-federal-register-documents-json-api
-- description: The Images API from Office of the Federal Register — 1 operation(s) for images.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Images API from Office of the Federal Register — 1 operation(s) for images.
   name: Office of the Federal Register Images API
   slug: office-of-the-federal-register-images-api
-- description: The Issues API from Office of the Federal Register — 1 operation(s) for issues.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Issues API from Office of the Federal Register — 1 operation(s) for issues.
   name: Office of the Federal Register Issues API
   slug: office-of-the-federal-register-issues-api
-- description: The Public Inspection Documents API from Office of the Federal Register — 2 operation(s) for public inspection documents.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Public Inspection Documents API from Office of the Federal Register — 2 operation(s) for public inspection documents.
   name: Office of the Federal Register Public Inspection Documents API
   slug: office-of-the-federal-register-public-inspection-documents-api
-- description: The Public Inspection Documents.json API from Office of the Federal Register — 1 operation(s) for public inspection documents.json.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Public Inspection Documents.json API from Office of the Federal Register — 1 operation(s) for public inspection documents.json.
   name: Office of the Federal Register Public Inspection Documents.json API
   slug: office-of-the-federal-register-public-inspection-documents-json-api
-- description: The Suggested Searches API from Office of the Federal Register — 2 operation(s) for suggested searches.
+- baseURL: https://www.federalregister.gov/api/v1
+  baseurl_source: declared
+  description: The Suggested Searches API from Office of the Federal Register — 2 operation(s) for suggested searches.
   name: Office of the Federal Register Suggested Searches API
   slug: office-of-the-federal-register-suggested-searches-api
 artifact_total: 24
@@ -183,7 +199,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/screenshots/office-of-the-federal-register-2026-06-20T190639.png
 security:

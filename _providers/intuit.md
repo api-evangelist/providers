@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -65,16 +65,24 @@ apis:
 - description: The QuickBooks Sales Tax API is a premium API that provides programmatic access to the automated sales tax calculation capabilities within QuickBooks Online. It enables developers to leverage QuickBoo
   name: QuickBooks Sales Tax API
   slug: quickbooks-sales-tax
-- description: A Customer object represents a consumer of the service or product that the business offers. The Customer entity allows you to categorize customers into jobs and sub-customers.
+- baseURL_template: https://quickbooks.api.intuit.com/v3/company/{realmId}
+  baseurl_source: spec_template
+  description: A Customer object represents a consumer of the service or product that the business offers. The Customer entity allows you to categorize customers into jobs and sub-customers.
   name: Intuit Customers API
   slug: intuit-customers-api
-- description: An Invoice represents a sales form where the customer pays for a product or service later. QuickBooks records an accounts receivable transaction for each invoice.
+- baseURL_template: https://quickbooks.api.intuit.com/v3/company/{realmId}
+  baseurl_source: spec_template
+  description: An Invoice represents a sales form where the customer pays for a product or service later. QuickBooks records an accounts receivable transaction for each invoice.
   name: Intuit Invoices API
   slug: intuit-invoices-api
-- description: An Item represents a product or service that a company buys, sells, or re-sells, such as products, shipping charges, discount, and sales tax (if applicable). Items are used in line items on invoices a
+- baseURL_template: https://quickbooks.api.intuit.com/v3/company/{realmId}
+  baseurl_source: spec_template
+  description: An Item represents a product or service that a company buys, sells, or re-sells, such as products, shipping charges, discount, and sales tax (if applicable). Items are used in line items on invoices a
   name: Intuit Items API
   slug: intuit-items-api
-- description: A Payment object records a payment received from a customer against one or more invoices or credit memos. Payments can be applied to specific invoices or left as unapplied credits.
+- baseURL_template: https://quickbooks.api.intuit.com/v3/company/{realmId}
+  baseurl_source: spec_template
+  description: A Payment object records a payment received from a customer against one or more invoices or credit memos. Payments can be applied to specific invoices or left as unapplied credits.
   name: Intuit Payments API
   slug: intuit-payments-api
 arazzos:
@@ -687,7 +695,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -697,7 +705,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 64.3
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     contracts:
@@ -712,7 +720,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:

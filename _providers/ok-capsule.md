@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,136 +39,220 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
   name: OK Capsule MCP Server
   slug: ok-capsule-mcp-server
-- description: Routes to manage assemblies (formerly packs)
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage assemblies (formerly packs)
   name: OK Capsule Assemblies API
   slug: ok-capsule-assemblies-api
-- description: OK Capsule API uses **Oauth2.0 with OpenID Connect**. It issues **access**, **id**, and **refresh** tokens. **Access** tokens is used to authenticate API requests and are short lived (1 day). *Id toke
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: OK Capsule API uses **Oauth2.0 with OpenID Connect**. It issues **access**, **id**, and **refresh** tokens. **Access** tokens is used to authenticate API requests and are short lived (1 day). *Id toke
   name: OK Capsule Authentication API
   slug: ok-capsule-authentication-api
-- description: Routes to manage batches
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage batches
   name: OK Capsule Batches API
   slug: ok-capsule-batches-api
-- description: Routes to manage billing
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage billing
   name: OK Capsule Billings API
   slug: ok-capsule-billings-api
-- description: The Categories API from OK Capsule — 4 operation(s) for categories.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Categories API from OK Capsule — 4 operation(s) for categories.
   name: OK Capsule Categories API
   slug: ok-capsule-categories-api
-- description: Routes to manage client addresses
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage client addresses
   name: OK Capsule Client Addresses API
   slug: ok-capsule-client-addresses-api
-- description: The Client Printer Settings API from OK Capsule — 4 operation(s) for client printer settings.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Client Printer Settings API from OK Capsule — 4 operation(s) for client printer settings.
   name: OK Capsule Client Printer Settings API
   slug: ok-capsule-client-printer-settings-api
-- description: Routes to manage clients
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage clients
   name: OK Capsule Clients API
   slug: ok-capsule-clients-api
-- description: Routes to manage consumer addresses
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage consumer addresses
   name: OK Capsule Consumer Addresses API
   slug: ok-capsule-consumer-addresses-api
-- description: Routes to manage consumers
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage consumers
   name: OK Capsule Consumers API
   slug: ok-capsule-consumers-api
-- description: Routes to manage contact addresses
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage contact addresses
   name: OK Capsule Contact Addresses API
   slug: ok-capsule-contact-addresses-api
-- description: Routes to manage contacts
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage contacts
   name: OK Capsule Contacts API
   slug: ok-capsule-contacts-api
-- description: The Destination Products API from OK Capsule — 1 operation(s) for destination products.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Destination Products API from OK Capsule — 1 operation(s) for destination products.
   name: OK Capsule Destination Products API
   slug: ok-capsule-destination-products-api
-- description: Routes to manage fulfillments
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage fulfillments
   name: OK Capsule Fulfillments API
   slug: ok-capsule-fulfillments-api
-- description: The Integrations Orders API from OK Capsule — 2 operation(s) for integrations orders.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Integrations Orders API from OK Capsule — 2 operation(s) for integrations orders.
   name: OK Capsule Integrations Orders API
   slug: ok-capsule-integrations-orders-api
-- description: Routes to manage OK Capsule products
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage OK Capsule products
   name: OK Capsule OKC Products API
   slug: ok-capsule-okc-products-api
-- description: The Onboarding API from OK Capsule — 1 operation(s) for onboarding.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Onboarding API from OK Capsule — 1 operation(s) for onboarding.
   name: OK Capsule Onboarding API
   slug: ok-capsule-onboarding-api
-- description: The Onboarding (Public) API from OK Capsule — 3 operation(s) for onboarding (public).
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Onboarding (Public) API from OK Capsule — 3 operation(s) for onboarding (public).
   name: OK Capsule Onboarding (Public) API
   slug: ok-capsule-onboarding-public-api
-- description: Routes to manage order lines
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage order lines
   name: OK Capsule Order Lines API
   slug: ok-capsule-order-lines-api
-- description: The Order transaction logs API from OK Capsule — 2 operation(s) for order transaction logs.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Order transaction logs API from OK Capsule — 2 operation(s) for order transaction logs.
   name: OK Capsule Order transaction logs API
   slug: ok-capsule-order-transaction-logs-api
-- description: Routes to manage orders
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage orders
   name: OK Capsule Orders API
   slug: ok-capsule-orders-api
-- description: The Pack Builder API from OK Capsule — 6 operation(s) for pack builder.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder API from OK Capsule — 6 operation(s) for pack builder.
   name: OK Capsule Pack Builder API
   slug: ok-capsule-pack-builder-api
-- description: The Pack Builder Cart API from OK Capsule — 2 operation(s) for pack builder cart.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Cart API from OK Capsule — 2 operation(s) for pack builder cart.
   name: OK Capsule Pack Builder Cart API
   slug: ok-capsule-pack-builder-cart-api
-- description: The Pack Builder Categories API from OK Capsule — 2 operation(s) for pack builder categories.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Categories API from OK Capsule — 2 operation(s) for pack builder categories.
   name: OK Capsule Pack Builder Categories API
   slug: ok-capsule-pack-builder-categories-api
-- description: The Pack Builder Categories Products API from OK Capsule — 4 operation(s) for pack builder categories products.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Categories Products API from OK Capsule — 4 operation(s) for pack builder categories products.
   name: OK Capsule Pack Builder Categories Products API
   slug: ok-capsule-pack-builder-categories-products-api
-- description: The Pack Builder Client Products API from OK Capsule — 3 operation(s) for pack builder client products.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Client Products API from OK Capsule — 3 operation(s) for pack builder client products.
   name: OK Capsule Pack Builder Client Products API
   slug: ok-capsule-pack-builder-client-products-api
-- description: The Pack Builder Integration Settings (Private) API from OK Capsule — 3 operation(s) for pack builder integration settings (private).
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Integration Settings (Private) API from OK Capsule — 3 operation(s) for pack builder integration settings (private).
   name: OK Capsule Pack Builder Integration Settings (Private) API
   slug: ok-capsule-pack-builder-integration-settings-private-api
-- description: The Pack Builder mapped products API from OK Capsule — 2 operation(s) for pack builder mapped products.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder mapped products API from OK Capsule — 2 operation(s) for pack builder mapped products.
   name: OK Capsule Pack Builder mapped products API
   slug: ok-capsule-pack-builder-mapped-products-api
-- description: The Pack Builder Settings API from OK Capsule — 1 operation(s) for pack builder settings.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Settings API from OK Capsule — 1 operation(s) for pack builder settings.
   name: OK Capsule Pack Builder Settings API
   slug: ok-capsule-pack-builder-settings-api
-- description: The Pack Builder Shipping Profiles API from OK Capsule — 1 operation(s) for pack builder shipping profiles.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Shipping Profiles API from OK Capsule — 1 operation(s) for pack builder shipping profiles.
   name: OK Capsule Pack Builder Shipping Profiles API
   slug: ok-capsule-pack-builder-shipping-profiles-api
-- description: The Pack Builder Types (Private) API from OK Capsule — 2 operation(s) for pack builder types (private).
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Types (Private) API from OK Capsule — 2 operation(s) for pack builder types (private).
   name: OK Capsule Pack Builder Types (Private) API
   slug: ok-capsule-pack-builder-types-private-api
-- description: The Pack Builder Widget API from OK Capsule — 5 operation(s) for pack builder widget.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Pack Builder Widget API from OK Capsule — 5 operation(s) for pack builder widget.
   name: OK Capsule Pack Builder Widget API
   slug: ok-capsule-pack-builder-widget-api
-- description: The Packaging Asset Groups API from OK Capsule — 3 operation(s) for packaging asset groups.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Packaging Asset Groups API from OK Capsule — 3 operation(s) for packaging asset groups.
   name: OK Capsule Packaging Asset Groups API
   slug: ok-capsule-packaging-asset-groups-api
-- description: Routes to manage pamphlets
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage pamphlets
   name: OK Capsule Pamphlets API
   slug: ok-capsule-pamphlets-api
-- description: Routes to manage product lines (formerly brands).
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage product lines (formerly brands).
   name: OK Capsule Product Lines API
   slug: ok-capsule-product-lines-api
-- description: Routes to manage client product sets (a set is a client product composed of other client products)
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage client product sets (a set is a client product composed of other client products)
   name: OK Capsule Product Sets API
   slug: ok-capsule-product-sets-api
-- description: Routes to manage client products
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage client products
   name: OK Capsule Products API
   slug: ok-capsule-products-api
-- description: List of statuses for resources
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: List of statuses for resources
   name: OK Capsule Statuses API
   slug: ok-capsule-statuses-api
-- description: The Sync Processes API from OK Capsule — 2 operation(s) for sync processes.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Sync Processes API from OK Capsule — 2 operation(s) for sync processes.
   name: OK Capsule Sync Processes API
   slug: ok-capsule-sync-processes-api
-- description: The Telemetry API from OK Capsule — 2 operation(s) for telemetry.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The Telemetry API from OK Capsule — 2 operation(s) for telemetry.
   name: OK Capsule Telemetry API
   slug: ok-capsule-telemetry-api
-- description: The UPC Codes API from OK Capsule — 3 operation(s) for upc codes.
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: The UPC Codes API from OK Capsule — 3 operation(s) for upc codes.
   name: OK Capsule UPC Codes API
   slug: ok-capsule-upc-codes-api
-- description: Routes to manage client users
+- baseURL: https://na1-prod.okcapsule.app
+  baseurl_source: declared
+  description: Routes to manage client users
   name: OK Capsule Users API
   slug: ok-capsule-users-api
 artifact_total: 50
@@ -329,18 +428,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.6
+  composite: 61.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 18.2
-    contract_quality: 55.5
+    contract_quality: 58.9
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
@@ -362,8 +461,9 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/screenshots/ok-capsule-2026-09-02T150831.png
 security:
 - kind: authentication
   name: Ok Capsule Authentication

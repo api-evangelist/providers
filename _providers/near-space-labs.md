@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +35,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Oauth API from Near Space Labs — 1 operation(s) for oauth.
+- baseURL: https://api.nearspacelabs.net
+  baseurl_source: declared
+  description: The Oauth API from Near Space Labs — 1 operation(s) for oauth.
   name: Near Space Labs OAUTH API
   slug: near-space-labs-oauth-api
-- description: The Tile API from Near Space Labs — 19 operation(s) for tile.
+- baseURL: https://api.nearspacelabs.net
+  baseurl_source: declared
+  description: The Tile API from Near Space Labs — 19 operation(s) for tile.
   name: Near Space Labs Tile API
   slug: near-space-labs-tile-api
 artifact_total: 12
@@ -190,7 +206,7 @@ score:
   band: thin
   composite: 39.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -221,8 +237,9 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/screenshots/near-space-labs-2026-09-02T150728.png
 security:
 - kind: authentication
   name: Near Space Labs Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: FHIR R4-compliant API surface for provider directory information, including Patient, Practitioner, PractitionerRole, Organization, Location, and DocumentReference resources.
   name: Humana FHIR Provider Directory API
   slug: humana-fhir-provider-directory-api
-- description: Clinical FHIR resources
+- baseURL: https://fhir.humana.com/api
+  baseurl_source: declared
+  description: Clinical FHIR resources
   name: Humana Clinical API
   slug: humana-clinical-api
-- description: Coverage and insurance FHIR resources
+- baseURL: https://fhir.humana.com/api
+  baseurl_source: declared
+  description: Coverage and insurance FHIR resources
   name: Humana Coverage API
   slug: humana-coverage-api
-- description: Patient and provider demographic FHIR resources
+- baseURL: https://fhir.humana.com/api
+  baseurl_source: declared
+  description: Patient and provider demographic FHIR resources
   name: Humana Demographic API
   slug: humana-demographic-api
-- description: Medication FHIR resources
+- baseURL: https://fhir.humana.com/api
+  baseurl_source: declared
+  description: Medication FHIR resources
   name: Humana Medications API
   slug: humana-medications-api
 artifact_total: 20
@@ -208,7 +216,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humana/refs/heads/main/screenshots/humana-2026-06-20T182931.png
 security:

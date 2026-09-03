@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,52 +48,84 @@ apis:
 - description: EIA's bulk data distribution surface, served from the same api.eia.gov host as APIv2 but requiring no API key whatsoever. A single manifest at /bulk/manifest.txt returns a JSON catalog of every bulk d
   name: EIA Bulk Download Facility
   slug: eia-bulk-download-facility
-- description: Access to Annual Energy Outlook Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Annual Energy Outlook Data
   name: EIA AEO API
   slug: eia-aeo-api
-- description: Access to Coal Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Coal Data
   name: EIA COAL API
   slug: eia-coal-api
-- description: Access to Crude Oil Imports Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Crude Oil Imports Data
   name: EIA CRUD IMPORTS API
   slug: eia-crud-imports-api
-- description: Access to Densified Biomass Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Densified Biomass Data
   name: EIA DBF API
   slug: eia-dbf-api
-- description: Access to Electricity Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Electricity Data
   name: EIA ELEC API
   slug: eia-elec-api
-- description: Access to CO2 Emissions Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to CO2 Emissions Data
   name: EIA EMISS API
   slug: eia-emiss-api
-- description: Access to International Energy Outlook Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to International Energy Outlook Data
   name: EIA IEO API
   slug: eia-ieo-api
-- description: Access to International Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to International Data
   name: EIA INTL API
   slug: eia-intl-api
-- description: Access to Natural Gas Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Natural Gas Data
   name: EIA NG API
   slug: eia-ng-api
-- description: Access to Nuclear Outages Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Nuclear Outages Data
   name: EIA NUC STATUS API
   slug: eia-nuc-status-api
-- description: Available EIA API Datasets
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Available EIA API Datasets
   name: EIA Root API
   slug: eia-root-api
-- description: Access to Daily Electricity Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Daily Electricity Data
   name: EIA RTO API
   slug: eia-rto-api
-- description: Access to State Energy Data Systems (SEDS) Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to State Energy Data Systems (SEDS) Data
   name: EIA SEDS API
   slug: eia-seds-api
-- description: Access to State Electricity Profiles
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to State Electricity Profiles
   name: EIA SEP API
   slug: eia-sep-api
-- description: Access to Short Term Energy Outlook Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Short Term Energy Outlook Data
   name: EIA STEO API
   slug: eia-steo-api
-- description: Access to Total Energy Data
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: Access to Total Energy Data
   name: EIA TOTAL API
   slug: eia-total-api
 artifact_total: 24
@@ -325,7 +369,7 @@ score:
     regime_id: energy_utilities
     score: 41.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/screenshots/eia-2026-08-07T164749.png
 security:

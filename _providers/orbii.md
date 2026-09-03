@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 161 operations · 29 acting
 api_count: 3
 apis:
-- description: The Business Category Assignment API from Orbii — 1 operation(s) for business category assignment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Business Category Assignment API from Orbii — 1 operation(s) for business category assignment.
   name: Orbii Business Category Assignment API
   slug: orbii-business-category-assignment-api
-- description: The Categories API from Orbii — 1 operation(s) for categories.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Categories API from Orbii — 1 operation(s) for categories.
   name: Orbii Categories API
   slug: orbii-categories-api
-- description: The Clients API from Orbii — 2 operation(s) for clients.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Clients API from Orbii — 2 operation(s) for clients.
   name: Orbii Clients API
   slug: orbii-clients-api
-- description: The Company Management API from Orbii — 1 operation(s) for company management.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Company Management API from Orbii — 1 operation(s) for company management.
   name: Orbii Company Management API
   slug: orbii-company-management-api
-- description: The Data Check API from Orbii — 1 operation(s) for data check.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Data Check API from Orbii — 1 operation(s) for data check.
   name: Orbii Data Check API
   slug: orbii-data-check-api
-- description: The General API from Orbii — 1 operation(s) for general.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The General API from Orbii — 1 operation(s) for general.
   name: Orbii General API
   slug: orbii-general-api
-- description: The IBANs API from Orbii — 1 operation(s) for ibans.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The IBANs API from Orbii — 1 operation(s) for ibans.
   name: Orbii IBANs API
   slug: orbii-ibans-api
-- description: The Invoices API from Orbii — 11 operation(s) for invoices.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Invoices API from Orbii — 11 operation(s) for invoices.
   name: Orbii Invoices API
   slug: orbii-invoices-api
-- description: The KPIs API from Orbii — 6 operation(s) for kpis.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The KPIs API from Orbii — 6 operation(s) for kpis.
   name: Orbii KPIs API
   slug: orbii-kpis-api
-- description: The Lending Actions API from Orbii — 1 operation(s) for lending actions.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Lending Actions API from Orbii — 1 operation(s) for lending actions.
   name: Orbii Lending Actions API
   slug: orbii-lending-actions-api
-- description: The Merchants API from Orbii — 8 operation(s) for merchants.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Merchants API from Orbii — 8 operation(s) for merchants.
   name: Orbii Merchants API
   slug: orbii-merchants-api
-- description: The PDFs API from Orbii — 4 operation(s) for pdfs.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The PDFs API from Orbii — 4 operation(s) for pdfs.
   name: Orbii PDFs API
   slug: orbii-pdfs-api
-- description: The Risk Assessment API from Orbii — 5 operation(s) for risk assessment.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Risk Assessment API from Orbii — 5 operation(s) for risk assessment.
   name: Orbii Risk Assessment API
   slug: orbii-risk-assessment-api
-- description: The Subcategories API from Orbii — 1 operation(s) for subcategories.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Subcategories API from Orbii — 1 operation(s) for subcategories.
   name: Orbii Subcategories API
   slug: orbii-subcategories-api
-- description: The Transactions API from Orbii — 16 operation(s) for transactions.
+- baseURL: https://api.orbii.ai
+  baseurl_source: declared
+  description: The Transactions API from Orbii — 16 operation(s) for transactions.
   name: Orbii Transactions API
   slug: orbii-transactions-api
 artifact_total: 35
@@ -280,7 +310,7 @@ score:
     regime_id: insurance
     score: 25.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:

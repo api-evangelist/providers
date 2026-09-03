@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 176 operations · 93 acting · 7 human-in-the-loop
 api_count: 4
 apis:
-- description: These APIs helps you get,add and delete (CRUD) a list of additional (custom) permissions for your Dashboard users. You can use the created additional permissions with Open Policy Agent (OPA). <br/> On
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: These APIs helps you get,add and delete (CRUD) a list of additional (custom) permissions for your Dashboard users. You can use the created additional permissions with Open Policy Agent (OPA). <br/> On
   name: Tyk Additional Permissions API
   slug: tyk-additional-permissions-api
-- description: The Tyk Dashboard provides a full set of analytics functions and graphs that you can use to segment and view your API traffic and activity.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Tyk Dashboard provides a full set of analytics functions and graphs that you can use to segment and view your API traffic and activity.
   name: Tyk Analytics API
   slug: tyk-analytics-api
-- description: Use the endpoints under this tags to update,add ,delete and fetch the classic APIs.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints under this tags to update,add ,delete and fetch the classic APIs.
   name: Tyk APIs API
   slug: tyk-apis-api
-- description: An API template is an asset managed by Tyk Dashboard that is used as the starting point - a blueprint - from which you can create a new Tyk OAS API definition. <br/> Templates are used only during the
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: An API template is an asset managed by Tyk Dashboard that is used as the starting point - a blueprint - from which you can create a new Tyk OAS API definition. <br/> Templates are used only during the
   name: Tyk Assets API
   slug: tyk-assets-api
-- description: The AuditLogs API from Tyk — 1 operation(s) for auditlogs.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The AuditLogs API from Tyk — 1 operation(s) for auditlogs.
   name: Tyk AuditLogs API
   slug: tyk-auditlogs-api
-- description: An API request made using Basic Authentication will have an Authorization header that contains the API key. The value of the Authorization header will be in the form:</br> `Basic base64Encode(username
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: An API request made using Basic Authentication will have an Authorization header that contains the API key. The value of the Authorization header will be in the form:</br> `Basic base64Encode(username
   name: Tyk Basic Authentication API
   slug: tyk-basic-authentication-api
-- description: Tyk supports batch requests, so a client makes a single request to the API but gets a compound response object back. This is especially handy if clients have complex requests that have multiple synchr
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Tyk supports batch requests, so a client makes a single request to the API but gets a compound response object back. This is especially handy if clients have complex requests that have multiple synchr
   name: Tyk Batch Requests API
   slug: tyk-batch-requests-api
-- description: Sometimes a cache might contain stale data, or it may just need to be cleared because of an invalid configuration. This call will purge all keys associated with a cache on an API-by-API basis.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Sometimes a cache might contain stale data, or it may just need to be cleared because of an invalid configuration. This call will purge all keys associated with a cache on an API-by-API basis.
   name: Tyk Cache Invalidation API
   slug: tyk-cache-invalidation-api
-- description: Use the endpoints under this tag to manage your certificates. You can add, delete and list certificates using these endpoints.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints under this tag to manage your certificates. You can add, delete and list certificates using these endpoints.
   name: Tyk Certificates API
   slug: tyk-certificates-api
-- description: Use the endpoints under this tag to manage your certificates. You can add, delete and list certificates using these endpoints.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints under this tag to manage your certificates. You can add, delete and list certificates using these endpoints.
   name: Tyk Certs API
   slug: tyk-certs-api
-- description: The CertsTag API from Tyk — 1 operation(s) for certstag.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The CertsTag API from Tyk — 1 operation(s) for certstag.
   name: Tyk CertsTag API
   slug: tyk-certstag-api
-- description: The Config API from Tyk — 1 operation(s) for config.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Config API from Tyk — 1 operation(s) for config.
   name: Tyk Config API
   slug: tyk-config-api
-- description: Since the Dashboard can have multiple URLs associated with it. It is possible to force a URL reload by calling an API endpoint of the Dashboard API.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Since the Dashboard can have multiple URLs associated with it. It is possible to force a URL reload by calling an API endpoint of the Dashboard API.
   name: Tyk Dashboard URL Reload API
   slug: tyk-dashboard-url-reload-api
-- description: The Dataplanes API from Tyk — 1 operation(s) for dataplanes.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Dataplanes API from Tyk — 1 operation(s) for dataplanes.
   name: Tyk Dataplanes API
   slug: tyk-dataplanes-api
-- description: The Debug API from Tyk — 3 operation(s) for debug.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Debug API from Tyk — 3 operation(s) for debug.
   name: Tyk Debug API
   slug: tyk-debug-api
-- description: The Env API from Tyk — 1 operation(s) for env.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Env API from Tyk — 1 operation(s) for env.
   name: Tyk Env API
   slug: tyk-env-api
-- description: To make Tyk installations more portable, the Export API enables you to export key configuration objects required to back-up and re-deploy a basic Tyk Pro installation.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: To make Tyk installations more portable, the Export API enables you to export key configuration objects required to back-up and re-deploy a basic Tyk Pro installation.
   name: Tyk Export API
   slug: tyk-export-api
-- description: The Health API from Tyk — 1 operation(s) for health.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Health API from Tyk — 1 operation(s) for health.
   name: Tyk Health API
   slug: tyk-health-api
-- description: Check health status of the Tyk Gateway and loaded APIs.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Check health status of the Tyk Gateway and loaded APIs.
   name: Tyk Health Checking API
   slug: tyk-health-checking-api
-- description: Force restart of the Gateway or whole cluster.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Force restart of the Gateway or whole cluster.
   name: Tyk Hot Reload API
   slug: tyk-hot-reload-api
-- description: The import API enables you to add Organisations, APIs and Policies back into a Tyk installation while retaining their base IDs so that they work together.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The import API enables you to add Organisations, APIs and Policies back into a Tyk installation while retaining their base IDs so that they work together.
   name: Tyk Import API
   slug: tyk-import-api
-- description: All keys that are used to access services via Tyk correspond to a session object that informs Tyk about the context of this particular token, like access rules and rate/quota allowance.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: All keys that are used to access services via Tyk correspond to a session object that informs Tyk about the context of this particular token, like access rules and rate/quota allowance.
   name: Tyk Keys API
   slug: tyk-keys-api
-- description: The Liveness API from Tyk — 1 operation(s) for liveness.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Liveness API from Tyk — 1 operation(s) for liveness.
   name: Tyk Liveness API
   slug: tyk-liveness-api
-- description: Tyk allows you to work with APIs that you ve designed with the OpenAPI Specification version 3.0.x, making it even easier to get your API up and running. Use the endpoints in this tag to create,delete
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Tyk allows you to work with APIs that you ve designed with the OpenAPI Specification version 3.0.x, making it even easier to get your API up and running. Use the endpoints in this tag to create,delete
   name: Tyk OAS APIs API
   slug: tyk-oas-apis-api
-- description: Use the endpoints in this tag to manage OAuth flow.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Use the endpoints in this tag to manage OAuth flow.
   name: Tyk Oauth API
   slug: tyk-oauth-api
-- description: 'The Tyk Dashboard permission system can be extended by writing custom rules using an Open Policy Agent (OPA). The rules engine works on top of your Dashboard API, which means you can control not only '
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: 'The Tyk Dashboard permission system can be extended by writing custom rules using an Open Policy Agent (OPA). The rules engine works on top of your Dashboard API, which means you can control not only '
   name: Tyk Open Policy Agent API
   slug: tyk-open-policy-agent-api
-- description: It is possible to force API quota and rate limit across all keys that belong to a specific organisation ID. Rate limiting at an organisation level is useful for creating tiered access levels and trial
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: It is possible to force API quota and rate limit across all keys that belong to a specific organisation ID. Rate limiting at an organisation level is useful for creating tiered access levels and trial
   name: Tyk Organisation Quotas API
   slug: tyk-organisation-quotas-api
-- description: The organisations API gives the ability to manage your Tyk organisation(s).
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The organisations API gives the ability to manage your Tyk organisation(s).
   name: Tyk Organisations API
   slug: tyk-organisations-api
-- description: 'Policies are a template that enable you to create access rules, usage quota and rate limits that can be applied to multiple keys. They are a useful way to manage large groups of users, and to enforce '
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: 'Policies are a template that enable you to create access rules, usage quota and rate limits that can be applied to multiple keys. They are a useful way to manage large groups of users, and to enforce '
   name: Tyk Policies API
   slug: tyk-policies-api
-- description: The Readiness API from Tyk — 1 operation(s) for readiness.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Readiness API from Tyk — 1 operation(s) for readiness.
   name: Tyk Readiness API
   slug: tyk-readiness-api
-- description: Get OAS schema.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Get OAS schema.
   name: Tyk Schema API
   slug: tyk-schema-api
-- description: The Dashboard SSO API allows you to implement custom authentication schemes for the Dashboard and Portal. Our Tyk Identity Broker (TIB) internally also uses this API.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Dashboard SSO API allows you to implement custom authentication schemes for the Dashboard and Portal. Our Tyk Identity Broker (TIB) internally also uses this API.
   name: Tyk Single Sign On API
   slug: tyk-single-sign-on-api
-- description: The Streams APIs API from Tyk — 2 operation(s) for streams apis.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Streams APIs API from Tyk — 2 operation(s) for streams apis.
   name: Tyk Streams APIs API
   slug: tyk-streams-apis-api
-- description: System API.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: System API.
   name: Tyk System API
   slug: tyk-system-api
-- description: The Tyk API from Tyk — 3 operation(s) for tyk.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The Tyk API from Tyk — 3 operation(s) for tyk.
   name: Tyk Tyk API
   slug: tyk-tyk-api
-- description: '**Note: Applies only to Tyk Gateway Community Edition** <br/>'
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: '**Note: Applies only to Tyk Gateway Community Edition** <br/>'
   name: Tyk Tyk OAS APIs API
   slug: tyk-tyk-oas-apis-api
-- description: 'When you have a large number of users and teams with different access requirements, instead of setting permissions per user, you can create a user group and configure the permissions for all users in '
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: 'When you have a large number of users and teams with different access requirements, instead of setting permissions per user, you can create a user group and configure the permissions for all users in '
   name: Tyk UserGroup API
   slug: tyk-usergroup-api
-- description: The admin portion of the users API gives you the ability to manage password reset policies for your Dashboard users.
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: The admin portion of the users API gives you the ability to manage password reset policies for your Dashboard users.
   name: Tyk Users API
   slug: tyk-users-api
-- description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
+- baseURL: https://tyk.io/
+  baseurl_source: declared
+  description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
   name: Tyk Webhooks API
   slug: tyk-webhooks-api
 artifact_total: 801
@@ -2584,7 +2662,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -2597,7 +2675,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 57.8
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2606,7 +2684,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

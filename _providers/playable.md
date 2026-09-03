@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
@@ -33,16 +47,24 @@ apis:
 - description: Browser-side JavaScript SDK (`@playable-marketing/campaign-sdk`) that exposes a promise-based `window.sdk` object plus an event stream so a host page can listen to campaign events and read campaign co
   name: Playable Campaign SDK
   slug: playable-campaign-sdk
-- description: Campaigns
+- baseURL: https://api.playable.com
+  baseurl_source: declared
+  description: Campaigns
   name: Playable Campaigns API
   slug: playable-campaigns-api
-- description: The media API from Playable — 1 operation(s) for media.
+- baseURL: https://api.playable.com
+  baseurl_source: declared
+  description: The media API from Playable — 1 operation(s) for media.
   name: Playable Media API
   slug: playable-media-api
-- description: OAuth
+- baseURL: https://api.playable.com
+  baseurl_source: declared
+  description: OAuth
   name: Playable OAUTH API
   slug: playable-oauth-api
-- description: The user API from Playable — 1 operation(s) for user.
+- baseURL: https://api.playable.com
+  baseurl_source: declared
+  description: The user API from Playable — 1 operation(s) for user.
   name: Playable User API
   slug: playable-user-api
 artifact_total: 16
@@ -247,7 +269,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -257,7 +279,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 61.1
+  previous_composite: 60.9
   provenance:
     conformance: derived
     contracts:
@@ -268,7 +290,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:

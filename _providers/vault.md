@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -48,28 +48,44 @@ apis:
 - description: The complete Vault HTTP API gives full access to all Vault operations via REST. Includes authentication method APIs (AppRole, LDAP, JWT, Kubernetes, AWS, Azure), secrets engine APIs (Database, AWS, PK
   name: Vault HTTP API
   slug: vault-api
-- description: Enable, disable, list, and configure authentication methods.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Enable, disable, list, and configure authentication methods.
   name: HashiCorp Vault Auth Methods API
   slug: vault-auth-methods-api
-- description: Check Vault health and initialization status.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Check Vault health and initialization status.
   name: HashiCorp Vault Health API
   slug: vault-health-api
-- description: Look up, renew, and revoke leases for secrets and tokens.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Look up, renew, and revoke leases for secrets and tokens.
   name: HashiCorp Vault Leases API
   slug: vault-leases-api
-- description: Create, read, update, delete, and list ACL policies.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Create, read, update, delete, and list ACL policies.
   name: HashiCorp Vault Policies API
   slug: vault-policies-api
-- description: Configure KV v2 engine settings such as max versions and CAS required.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Configure KV v2 engine settings such as max versions and CAS required.
   name: HashiCorp Vault Secrets Config API
   slug: vault-secrets-config-api
-- description: Read, write, patch, and delete secret data versions in the KV v2 engine.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Read, write, patch, and delete secret data versions in the KV v2 engine.
   name: HashiCorp Vault Secrets Data API
   slug: vault-secrets-data-api
-- description: Mount, unmount, list, and configure secrets engines.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Mount, unmount, list, and configure secrets engines.
   name: HashiCorp Vault Secrets Engines API
   slug: vault-secrets-engines-api
-- description: Manage metadata and version history for KV v2 secrets.
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Manage metadata and version history for KV v2 secrets.
   name: HashiCorp Vault Secrets Metadata API
   slug: vault-secrets-metadata-api
 artifact_total: 132
@@ -549,7 +565,7 @@ score:
       marker_coverage: 100.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:

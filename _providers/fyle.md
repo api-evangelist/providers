@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 40 operations · 25 acting
 api_count: 1
 apis:
-- description: Advance requests raised by employees.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Advance requests raised by employees.
   name: Fyle Advances API
   slug: fyle-advances-api
-- description: Expense categories, usually synced from a chart of accounts.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Expense categories, usually synced from a chart of accounts.
   name: Fyle Categories API
   slug: fyle-categories-api
-- description: Enrolled corporate cards and their real-time transactions.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Enrolled corporate cards and their real-time transactions.
   name: Fyle Corporate Cards API
   slug: fyle-corporate-cards-api
-- description: Cost centers mapping spend to departments or business units.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Cost centers mapping spend to departments or business units.
   name: Fyle Cost Centers API
   slug: fyle-cost-centers-api
-- description: Employee/user records, usually synced from an HRMS.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Employee/user records, usually synced from an HRMS.
   name: Fyle Employees API
   slug: fyle-employees-api
-- description: Expenses across the organization (admin) or for the signed-in spender.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Expenses across the organization (admin) or for the signed-in spender.
   name: Fyle Expenses API
   slug: fyle-expenses-api
-- description: File records and pre-signed URLs for receipts and attachments.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: File records and pre-signed URLs for receipts and attachments.
   name: Fyle Files API
   slug: fyle-files-api
-- description: Merchant/vendor values available to spenders.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Merchant/vendor values available to spenders.
   name: Fyle Merchants API
   slug: fyle-merchants-api
-- description: Projects used to tag and allocate spend.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Projects used to tag and allocate spend.
   name: Fyle Projects API
   slug: fyle-projects-api
-- description: Expense reports submitted for approval and reimbursement.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Expense reports submitted for approval and reimbursement.
   name: Fyle Reports API
   slug: fyle-reports-api
-- description: Webhook subscriptions and scheduled callbacks.
+- baseURL: https://api.fylehq.com/platform/v1/admin
+  baseurl_source: declared
+  description: Webhook subscriptions and scheduled callbacks.
   name: Fyle Webhooks API
   slug: fyle-webhooks-api
 artifact_total: 30
@@ -221,7 +243,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fyle/refs/heads/main/screenshots/fyle-2026-07-25T215342.png
 security:

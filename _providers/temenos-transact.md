@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,34 +53,54 @@ apis:
 - description: APIs built on the near real-time Operational Data Store from Temenos Transact Data Hub, presenting data in specific formats for operational and API use cases utilizing real-time data streams and ETL t
   name: Temenos Operational Data Store APIs
   slug: temenos-operational-data-store-apis
-- description: Manage customer accounts created using the Arrangement Architecture including current accounts, savings accounts, corporate accounts, Islamic accounts, non-resident and minor accounts.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Manage customer accounts created using the Arrangement Architecture including current accounts, savings accounts, corporate accounts, Islamic accounts, non-resident and minor accounts.
   name: Temenos Transact Accounts API
   slug: temenos-transact-accounts-api
-- description: Manage payment beneficiaries including domestic and international beneficiary registration, validation, and maintenance.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Manage payment beneficiaries including domestic and international beneficiary registration, validation, and maintenance.
   name: Temenos Transact Beneficiaries API
   slug: temenos-transact-beneficiaries-api
-- description: Manage debit and credit card operations including card issuance, activation, blocking, and limit management.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Manage debit and credit card operations including card issuance, activation, blocking, and limit management.
   name: Temenos Transact Cards API
   slug: temenos-transact-cards-api
-- description: Create, update, and manage customer profiles, contact details, KYC documentation, compliance records, communication preferences, and party relationships.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Create, update, and manage customer profiles, contact details, KYC documentation, compliance records, communication preferences, and party relationships.
   name: Temenos Transact Customers API
   slug: temenos-transact-customers-api
-- description: Manage deposit arrangements including term deposits, savings deposits, and fixed deposit products with maturity tracking and renewal capabilities.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Manage deposit arrangements including term deposits, savings deposits, and fixed deposit products with maturity tracking and renewal capabilities.
   name: Temenos Transact Deposits API
   slug: temenos-transact-deposits-api
-- description: Create and manage loan arrangements, credit facilities, repayment schedules, drawdowns, and loan lifecycle operations.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Create and manage loan arrangements, credit facilities, repayment schedules, drawdowns, and loan lifecycle operations.
   name: Temenos Transact Loans API
   slug: temenos-transact-loans-api
-- description: Process fund transfers, standing orders, direct debits, payment orders, sweeps, and cross-border payments. Includes payment validation, cost calculation, status tracking, and cancellation.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Process fund transfers, standing orders, direct debits, payment orders, sweeps, and cross-border payments. Includes payment validation, cost calculation, status tracking, and cancellation.
   name: Temenos Transact Payments API
   slug: temenos-transact-payments-api
-- description: Browse the product catalog and retrieve product conditions, eligibility criteria, and arrangement details.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Browse the product catalog and retrieve product conditions, eligibility criteria, and arrangement details.
   name: Temenos Transact Products API
   slug: temenos-transact-products-api
-- description: Access system-wide lookup and configuration data including currencies, countries, IBAN/BIC validation, interest rate tables, and balance type definitions.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Access system-wide lookup and configuration data including currencies, countries, IBAN/BIC validation, interest rate tables, and balance type definitions.
   name: Temenos Transact Reference Data API
   slug: temenos-transact-reference-data-api
-- description: Retrieve transaction history, statement details, and account activity records for all account types and arrangements.
+- baseURL: https://api.temenos.com/transact/v1
+  baseurl_source: declared
+  description: Retrieve transaction history, statement details, and account activity records for all account types and arrangements.
   name: Temenos Transact Transactions API
   slug: temenos-transact-transactions-api
 artifact_total: 189
@@ -731,7 +751,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: 'REST API for creating and managing SEO tracking projects programmatically, including keyword monitoring, competitor tracking, website audits, backlink management, and account administration. Consumes '
   name: SE Ranking Project API
   slug: project-api
-- description: This collection contains endpoints for retrieving information about your account status, subscription details, and current credit and API unit balances. Use these requests to monitor your usage and pl
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: This collection contains endpoints for retrieving information about your account status, subscription details, and current credit and API unit balances. Use these requests to monitor your usage and pl
   name: SE Ranking Account & system API
   slug: se-ranking-account-system-api
-- description: 'This collection of endpoints allows you to analyze a domain or brand''s visibility and performance within various Large Language Model (LLM) results, such as ChatGPT, Gemini, and Perplexity. Use these '
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: 'This collection of endpoints allows you to analyze a domain or brand''s visibility and performance within various Large Language Model (LLM) results, such as ChatGPT, Gemini, and Perplexity. Use these '
   name: SE Ranking AI search API
   slug: se-ranking-ai-search-api
-- description: '# Backlinks API This collection of requests allows you to conduct a comprehensive analysis of the backlink profile for any given target, whether it''s a root domain, a specific host (subdomain), or a p'
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: '# Backlinks API This collection of requests allows you to conduct a comprehensive analysis of the backlink profile for any given target, whether it''s a root domain, a specific host (subdomain), or a p'
   name: SE Ranking backlinks API
   slug: se-ranking-backlinks-api
-- description: This collection of endpoints allows you to perform in-depth competitive analysis on any domain. Use these requests to uncover keyword strategies, traffic trends, and competitor performance in both org
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: This collection of endpoints allows you to perform in-depth competitive analysis on any domain. Use these requests to uncover keyword strategies, traffic trends, and competitor performance in both org
   name: SE Ranking Domain Analysis API
   slug: se-ranking-domain-analysis-api
-- description: This collection of endpoints is designed for comprehensive keyword analysis and discovery. Use these requests to retrieve performance metrics for large lists of keywords or to generate new keyword ide
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: This collection of endpoints is designed for comprehensive keyword analysis and discovery. Use these requests to retrieve performance metrics for large lists of keywords or to generate new keyword ide
   name: SE Ranking Keyword Research API
   slug: se-ranking-keyword-research-api
-- description: The SERP Results > classic API from SE Ranking — 4 operation(s) for serp results > classic.
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: The SERP Results > classic API from SE Ranking — 4 operation(s) for serp results > classic.
   name: SE Ranking SERP Results > classic API
   slug: se-ranking-serp-results-classic-api
-- description: 'This collection of endpoints provides a comprehensive suite of tools to programmatically manage the full lifecycle of your technical SEO audits. These requests allow you to launch new crawls, monitor '
+- baseURL: https://api.seranking.com
+  baseurl_source: declared
+  description: 'This collection of endpoints provides a comprehensive suite of tools to programmatically manage the full lifecycle of your technical SEO audits. These requests allow you to launch new crawls, monitor '
   name: SE Ranking Website Audit API
   slug: se-ranking-website-audit-api
 - description: 'Hosted remote Model Context Protocol server exposing 217 tools and 5 prompts across three SE Ranking surfaces: the credit-billed Data API (66 DATA_* tools, backed 1:1 by the published OpenAPI), the Pr'
@@ -369,7 +383,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:

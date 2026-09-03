@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Aramex API from Mile — 3 operation(s) for aramex.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Aramex API from Mile — 3 operation(s) for aramex.
   name: Mile Aramex API
   slug: mile-aramex-api
-- description: The Customers API from Mile — 2 operation(s) for customers.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Customers API from Mile — 2 operation(s) for customers.
   name: Mile Customers API
   slug: mile-customers-api
-- description: The Debug API from Mile — 1 operation(s) for debug.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Debug API from Mile — 1 operation(s) for debug.
   name: Mile Debug API
   slug: mile-debug-api
-- description: The Drivers API from Mile — 1 operation(s) for drivers.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Drivers API from Mile — 1 operation(s) for drivers.
   name: Mile Drivers API
   slug: mile-drivers-api
-- description: The Export API from Mile — 4 operation(s) for export.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Export API from Mile — 4 operation(s) for export.
   name: Mile Export API
   slug: mile-export-api
-- description: The Login API from Mile — 2 operation(s) for login.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Login API from Mile — 2 operation(s) for login.
   name: Mile Login API
   slug: mile-login-api
-- description: The Order API from Mile — 6 operation(s) for order.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Order API from Mile — 6 operation(s) for order.
   name: Mile Order API
   slug: mile-order-api
-- description: The Order Optimization API from Mile — 1 operation(s) for order optimization.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Order Optimization API from Mile — 1 operation(s) for order optimization.
   name: Mile Order Optimization API
   slug: mile-order-optimization-api
-- description: The Order Webhook API from Mile — 3 operation(s) for order webhook.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Order Webhook API from Mile — 3 operation(s) for order webhook.
   name: Mile Order Webhook API
   slug: mile-order-webhook-api
-- description: The Order With Dynamic Merchant API from Mile — 1 operation(s) for order with dynamic merchant.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Order With Dynamic Merchant API from Mile — 1 operation(s) for order with dynamic merchant.
   name: Mile Order With Dynamic Merchant API
   slug: mile-order-with-dynamic-merchant-api
-- description: The Payment Terms API from Mile — 1 operation(s) for payment terms.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Payment Terms API from Mile — 1 operation(s) for payment terms.
   name: Mile Payment Terms API
   slug: mile-payment-terms-api
-- description: The Products API from Mile — 8 operation(s) for products.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Products API from Mile — 8 operation(s) for products.
   name: Mile Products API
   slug: mile-products-api
-- description: The Promotion Bundle API from Mile — 2 operation(s) for promotion bundle.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Promotion Bundle API from Mile — 2 operation(s) for promotion bundle.
   name: Mile Promotion Bundle API
   slug: mile-promotion-bundle-api
-- description: The Routes API from Mile — 1 operation(s) for routes.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Routes API from Mile — 1 operation(s) for routes.
   name: Mile Routes API
   slug: mile-routes-api
-- description: The Settlement Webhook API from Mile — 2 operation(s) for settlement webhook.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Settlement Webhook API from Mile — 2 operation(s) for settlement webhook.
   name: Mile Settlement Webhook API
   slug: mile-settlement-webhook-api
-- description: The Vehicles API from Mile — 1 operation(s) for vehicles.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Vehicles API from Mile — 1 operation(s) for vehicles.
   name: Mile Vehicles API
   slug: mile-vehicles-api
-- description: The Warehouse Inbound Orders API from Mile — 1 operation(s) for warehouse inbound orders.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Warehouse Inbound Orders API from Mile — 1 operation(s) for warehouse inbound orders.
   name: Mile Warehouse Inbound Orders API
   slug: mile-warehouse-inbound-orders-api
-- description: The Webhooks API from Mile — 5 operation(s) for webhooks.
+- baseURL: https://lastmile.milenow.com/index.php
+  baseurl_source: declared
+  description: The Webhooks API from Mile — 5 operation(s) for webhooks.
   name: Mile Webhooks API
   slug: mile-webhooks-api
 artifact_total: 41
@@ -266,7 +302,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -276,7 +312,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 39.8
+  previous_composite: 39.6
   provenance:
     conformance: derived
     contracts:
@@ -287,7 +323,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mile/refs/heads/main/screenshots/mile-2026-08-07T172910.png
 security:

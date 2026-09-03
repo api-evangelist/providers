@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -56,28 +56,44 @@ apis:
 - description: The Vertiv Avocent ACS800/8000 Advanced Console System native RESTful API provides programmatic access to serial console server management. The API supports device configuration, port management, user
   name: Vertiv Avocent ACS800/8000 REST API
   slug: avocent-acs-api
-- description: The Alarms API from Vertiv — 1 operation(s) for alarms.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Alarms API from Vertiv — 1 operation(s) for alarms.
   name: Vertiv Alarms API
   slug: vertiv-alarms-api
-- description: The Assets API from Vertiv — 1 operation(s) for assets.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Assets API from Vertiv — 1 operation(s) for assets.
   name: Vertiv Assets API
   slug: vertiv-assets-api
-- description: The Authentication API from Vertiv — 1 operation(s) for authentication.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Authentication API from Vertiv — 1 operation(s) for authentication.
   name: Vertiv Authentication API
   slug: vertiv-authentication-api
-- description: The Circuits API from Vertiv — 1 operation(s) for circuits.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Circuits API from Vertiv — 1 operation(s) for circuits.
   name: Vertiv Circuits API
   slug: vertiv-circuits-api
-- description: The Data Sets API from Vertiv — 2 operation(s) for data sets.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Data Sets API from Vertiv — 2 operation(s) for data sets.
   name: Vertiv Data Sets API
   slug: vertiv-data-sets-api
-- description: The Devices API from Vertiv — 2 operation(s) for devices.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Devices API from Vertiv — 2 operation(s) for devices.
   name: Vertiv Devices API
   slug: vertiv-devices-api
-- description: The Racks API from Vertiv — 1 operation(s) for racks.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Racks API from Vertiv — 1 operation(s) for racks.
   name: Vertiv Racks API
   slug: vertiv-racks-api
-- description: The Sensors API from Vertiv — 1 operation(s) for sensors.
+- baseURL_template: https://{environet-host}/api
+  baseurl_source: spec_template
+  description: The Sensors API from Vertiv — 1 operation(s) for sensors.
   name: Vertiv Sensors API
   slug: vertiv-sensors-api
 artifact_total: 47
@@ -300,7 +316,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,10 +49,14 @@ apis:
 - description: Amber's Consumer Data Right energy data-holder surface, mandated by the Australian CDR regime extended from banking into energy and administered by the ACCC with standards set by the Data Standards Bo
   name: Amber Electric Consumer Data Right Energy API
   slug: amber-electric-cdr-energy-api
-- description: The Sites API from Amber Electric — 4 operation(s) for sites.
+- baseURL: https://api.amber.com.au/v1
+  baseurl_source: declared
+  description: The Sites API from Amber Electric — 4 operation(s) for sites.
   name: Amber Electric Sites API
   slug: amber-electric-sites-api
-- description: The State API from Amber Electric — 1 operation(s) for state.
+- baseURL: https://api.amber.com.au/v1
+  baseurl_source: declared
+  description: The State API from Amber Electric — 1 operation(s) for state.
   name: Amber Electric State API
   slug: amber-electric-state-api
 artifact_total: 10
@@ -251,7 +268,7 @@ score:
     regime_id: energy_utilities
     score: 74.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:

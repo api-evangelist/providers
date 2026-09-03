@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The general API from Hourone — 3 operation(s) for general.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The general API from Hourone — 3 operation(s) for general.
   name: Hourone general API
   slug: hourone-general-api
-- description: The keys API from Hourone — 2 operation(s) for keys.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The keys API from Hourone — 2 operation(s) for keys.
   name: Hourone keys API
   slug: hourone-keys-api
-- description: The playground API from Hourone — 4 operation(s) for playground.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The playground API from Hourone — 4 operation(s) for playground.
   name: Hourone playground API
   slug: hourone-playground-api
-- description: The videos API from Hourone — 4 operation(s) for videos.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The videos API from Hourone — 4 operation(s) for videos.
   name: Hourone videos API
   slug: hourone-videos-api
-- description: The voice-preview API from Hourone — 2 operation(s) for voice-preview.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The voice-preview API from Hourone — 2 operation(s) for voice-preview.
   name: Hourone voice-preview API
   slug: hourone-voice-preview-api
-- description: The webhook API from Hourone — 5 operation(s) for webhook.
+- baseURL: https://api.makereals.com/api/v1
+  baseurl_source: declared
+  description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone webhook API
   slug: hourone-webhook-api
 artifact_total: 17
@@ -209,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -219,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.1
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,7 +243,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -48,25 +48,39 @@ apis:
 - description: The Apache Tomcat JMX Proxy Servlet provides HTTP-based access to JMX MBeans for querying, getting, setting, and invoking operations on server management beans. Useful for server diagnostics, performa
   name: Apache Tomcat JMX Proxy API
   slug: tomcat-jmx-proxy-api
-- description: Web application deployment and lifecycle management
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: Web application deployment and lifecycle management
   name: Apache Tomcat Applications API
   slug: tomcat-applications-api
-- description: Server configuration management
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: Server configuration management
   name: Apache Tomcat Configuration API
   slug: tomcat-configuration-api
-- description: Server diagnostics and thread management
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: Server diagnostics and thread management
   name: Apache Tomcat Diagnostics API
   slug: tomcat-diagnostics-api
-- description: JMX proxy operations for MBean access
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: JMX proxy operations for MBean access
   name: Apache Tomcat JMX API
   slug: tomcat-jmx-api
-- description: Session management and statistics
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: Session management and statistics
   name: Apache Tomcat Sessions API
   slug: tomcat-sessions-api
-- description: SSL/TLS certificate and cipher management
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: SSL/TLS certificate and cipher management
   name: Apache Tomcat SSL API
   slug: tomcat-ssl-api
-- description: Server status and metrics
+- baseURL: http://localhost:8080/manager
+  baseurl_source: declared
+  description: Server status and metrics
   name: Apache Tomcat Status API
   slug: tomcat-status-api
 artifact_total: 29
@@ -257,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/screenshots/tomcat-2026-06-20T195439.png
 security:

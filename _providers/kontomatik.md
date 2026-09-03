@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 30 operations · 13 acting
 api_count: 4
 apis:
-- description: Cross-source aggregation
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Cross-source aggregation
   name: Kontomatik Aggregation API
   slug: kontomatik-aggregation-api
-- description: Bank coverage catalog
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Bank coverage catalog
   name: Kontomatik Catalog API
   slug: kontomatik-catalog-api
-- description: Background import commands and consent management
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Background import commands and consent management
   name: Kontomatik Command API
   slug: kontomatik-command-api
-- description: Transaction confirmation PDF parsing
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Transaction confirmation PDF parsing
   name: Kontomatik Confirmations API
   slug: kontomatik-confirmations-api
-- description: Owner-level financial metrics
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Owner-level financial metrics
   name: Kontomatik Features API
   slug: kontomatik-features-api
-- description: Income confirmation
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Income confirmation
   name: Kontomatik Income API
   slug: kontomatik-income-api
-- description: Transaction categorization
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Transaction categorization
   name: Kontomatik Labeling API
   slug: kontomatik-labeling-api
-- description: Test session generation against KontoBank
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Test session generation against KontoBank
   name: Kontomatik Mock API
   slug: kontomatik-mock-api
-- description: Owner data lifecycle
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Owner data lifecycle
   name: Kontomatik Owner API
   slug: kontomatik-owner-api
-- description: Behavioral profiling (beta)
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Behavioral profiling (beta)
   name: Kontomatik Profile API
   slug: kontomatik-profile-api
-- description: Report token lifecycle
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Report token lifecycle
   name: Kontomatik Reports API
   slug: kontomatik-reports-api
-- description: ML credit scoring
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: ML credit scoring
   name: Kontomatik Score API
   slug: kontomatik-score-api
-- description: Redirection-based bank authentication flow
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Redirection-based bank authentication flow
   name: Kontomatik SignIn API
   slug: kontomatik-signin-api
-- description: Bank statement PDF parsing
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Bank statement PDF parsing
   name: Kontomatik Statements API
   slug: kontomatik-statements-api
-- description: Aggregated financial summaries
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Aggregated financial summaries
   name: Kontomatik Summary API
   slug: kontomatik-summary-api
-- description: Vendor / counterparty recognition (beta)
+- baseURL: https://api.kontomatik.com/v1
+  baseurl_source: spec
+  description: Vendor / counterparty recognition (beta)
   name: Kontomatik Vendors API
   slug: kontomatik-vendors-api
 artifact_total: 70
@@ -399,7 +431,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/screenshots/kontomatik-2026-06-20T184134.png
 security:

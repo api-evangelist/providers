@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 13 operations · 5 acting
 api_count: 1
 apis:
-- description: The Agent Sessions API from supernormal — 2 operation(s) for agent sessions.
+- baseURL: https://api.supernormal.com/api/v1
+  baseurl_source: declared
+  description: The Agent Sessions API from supernormal — 2 operation(s) for agent sessions.
   name: supernormal Agent Sessions API
   slug: supernormal-agent-sessions-api
-- description: Operations about agents
+- baseURL: https://api.supernormal.com/api/v1
+  baseurl_source: declared
+  description: Operations about agents
   name: supernormal Agents API
   slug: supernormal-agents-api
-- description: Operations about calendar
+- baseURL: https://api.supernormal.com/api/v1
+  baseurl_source: declared
+  description: Operations about calendar
   name: supernormal Calendar Events API
   slug: supernormal-calendar-events-api
-- description: Operations about user
+- baseURL: https://api.supernormal.com/api/v1
+  baseurl_source: declared
+  description: Operations about user
   name: supernormal Current User API
   slug: supernormal-current-user-api
-- description: Operations about posts
+- baseURL: https://api.supernormal.com/api/v1
+  baseurl_source: declared
+  description: Operations about posts
   name: supernormal Posts API
   slug: supernormal-posts-api
 artifact_total: 16
@@ -202,7 +212,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -228,8 +238,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/screenshots/supernormal-2026-09-02T161245.png
 security:
 - kind: authentication
   name: Supernormal Authentication

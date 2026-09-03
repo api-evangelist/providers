@@ -1,4 +1,19 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,16 +38,22 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
-- description: The administrative REST API for a Strivacity instance — accounts and identity stores, applications and clients, adaptive access and MFA policies, journeys, branding, consents, claims and dialects, gro
+- baseURL: https://{tenant}.strivacity.com/admin/api/v1
+  baseurl_source: declared
+  description: The administrative REST API for a Strivacity instance — accounts and identity stores, applications and clients, adaptive access and MFA policies, journeys, branding, consents, claims and dialects, gro
   name: Strivacity Admin API
   slug: strivacity-admin-api
-- description: The end-customer self-service REST API behind the Strivacity My Account portal — authenticator (MFA) management, consent opt-in and opt-out, personal-data export and account deletion, and self-managem
+- baseURL: https://{tenant}.strivacity.com/myaccount/api/v1
+  baseurl_source: declared
+  description: The end-customer self-service REST API behind the Strivacity My Account portal — authenticator (MFA) management, consent opt-in and opt-out, personal-data export and account deletion, and self-managem
   name: Strivacity MyAccount API
   slug: strivacity-myaccount-api
-- description: The Native Journey (Journey Flow) API used by native and single-page applications to render Strivacity login, registration, MFA, passkey, password-reset and account-activation journeys in their own UI
+- baseURL: https://{tenant}.strivacity.com/flow/api
+  baseurl_source: declared
+  description: The Native Journey (Journey Flow) API used by native and single-page applications to render Strivacity login, registration, MFA, passkey, password-reset and account-activation journeys in their own UI
   name: Strivacity Journey Flow API
   slug: strivacity-journey-flow-api
 artifact_total: 11
@@ -224,23 +245,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.5
+  composite: 66.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.9
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 18.2
-    contract_quality: 61.8
+    contract_quality: 65.2
     developer_ergonomics: 54.2
     discoverability: 92.6
     governance: 18.2
     operational_transparency: 88.2
-  previous_composite: 66.8
+  previous_composite: 65.5
   provenance:
     conformance: first-party
     contracts:
@@ -251,8 +272,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/strivacity/refs/heads/main/screenshots/strivacity-2026-09-02T161018.png
 security:
 - kind: authentication
   name: Strivacity Authentication

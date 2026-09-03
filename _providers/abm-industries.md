@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: ABM Connect is a data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data into a real-time, action-focused view. It aggregates data from front-line team m
@@ -210,7 +210,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/screenshots/abm-industries-2026-06-20T163238.png
 security:

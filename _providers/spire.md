@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: The SPIRE Server exposes a gRPC API used by administrators and the SPIRE Agent to manage registration entries, node attestation, bundle federation, and server health. It allows creating and managing w
   name: SPIRE Server API
   slug: spire-server-api
-- description: OpenID Connect discovery document endpoint that describes the OIDC provider configuration and supported capabilities.
+- baseURL_template: https://{domain}
+  baseurl_source: spec_template
+  description: OpenID Connect discovery document endpoint that describes the OIDC provider configuration and supported capabilities.
   name: SPIRE Discovery API
   slug: spire-discovery-api
-- description: Liveness and readiness health check endpoints for SPIRE Server and SPIRE Agent components, suitable for use as Kubernetes probes.
+- baseURL_template: http://{bind_address}:{bind_port}
+  baseurl_source: spec_template
+  description: Liveness and readiness health check endpoints for SPIRE Server and SPIRE Agent components, suitable for use as Kubernetes probes.
   name: SPIRE Health API
   slug: spire-health-api
-- description: JSON Web Key Set endpoint that exposes public keys used to verify JWT-SVIDs issued by SPIRE.
+- baseURL_template: https://{domain}
+  baseurl_source: spec_template
+  description: JSON Web Key Set endpoint that exposes public keys used to verify JWT-SVIDs issued by SPIRE.
   name: SPIRE Keys API
   slug: spire-keys-api
 artifact_total: 30
@@ -288,7 +294,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -301,7 +307,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 43.9
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -310,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spire/refs/heads/main/screenshots/spire-2026-06-20T194318.png
 security:

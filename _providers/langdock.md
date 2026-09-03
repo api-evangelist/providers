@@ -34,52 +34,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Agent API from Langdock — 2 operation(s) for agent.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Agent API from Langdock — 2 operation(s) for agent.
   name: Langdock Agent API
   slug: langdock-agent-api
-- description: The Agent Build API from Langdock — 4 operation(s) for agent build.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Agent Build API from Langdock — 4 operation(s) for agent build.
   name: Langdock Agent Build API
   slug: langdock-agent-build-api
-- description: The Assistant API from Langdock — 2 operation(s) for assistant.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Assistant API from Langdock — 2 operation(s) for assistant.
   name: Langdock Assistant API
   slug: langdock-assistant-api
-- description: The Assistant Build API from Langdock — 3 operation(s) for assistant build.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Assistant Build API from Langdock — 3 operation(s) for assistant build.
   name: Langdock Assistant Build API
   slug: langdock-assistant-build-api
-- description: The Attachments API from Langdock — 2 operation(s) for attachments.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Attachments API from Langdock — 2 operation(s) for attachments.
   name: Langdock Attachments API
   slug: langdock-attachments-api
-- description: The Audit Logs API from Langdock — 1 operation(s) for audit logs.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Audit Logs API from Langdock — 1 operation(s) for audit logs.
   name: Langdock Audit Logs API
   slug: langdock-audit-logs-api
-- description: The Chat API from Langdock — 1 operation(s) for chat.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Chat API from Langdock — 1 operation(s) for chat.
   name: Langdock Chat API
   slug: langdock-chat-api
-- description: The Embeddings API from Langdock — 1 operation(s) for embeddings.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Embeddings API from Langdock — 1 operation(s) for embeddings.
   name: Langdock Embeddings API
   slug: langdock-embeddings-api
-- description: The fim API from Langdock — 1 operation(s) for fim.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The fim API from Langdock — 1 operation(s) for fim.
   name: Langdock fim API
   slug: langdock-fim-api
-- description: The Google API from Langdock — 1 operation(s) for google.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Google API from Langdock — 1 operation(s) for google.
   name: Langdock Google API
   slug: langdock-google-api
-- description: The Knowledge API from Langdock — 4 operation(s) for knowledge.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Knowledge API from Langdock — 4 operation(s) for knowledge.
   name: Langdock Knowledge API
   slug: langdock-knowledge-api
-- description: The Messages API from Langdock — 1 operation(s) for messages.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Messages API from Langdock — 1 operation(s) for messages.
   name: Langdock Messages API
   slug: langdock-messages-api
-- description: The Skills API from Langdock — 3 operation(s) for skills.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Skills API from Langdock — 3 operation(s) for skills.
   name: Langdock Skills API
   slug: langdock-skills-api
-- description: The Usage Export API from Langdock — 5 operation(s) for usage export.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The Usage Export API from Langdock — 5 operation(s) for usage export.
   name: Langdock Usage Export API
   slug: langdock-usage-export-api
-- description: The User Management API from Langdock — 2 operation(s) for user management.
+- baseURL: https://api.langdock.com
+  baseurl_source: declared
+  description: The User Management API from Langdock — 2 operation(s) for user management.
   name: Langdock User Management API
   slug: langdock-user-management-api
 artifact_total: 53
@@ -358,7 +388,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -368,7 +398,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 46.7
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -379,7 +409,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langdock/refs/heads/main/screenshots/langdock-2026-07-25T224521.png
 security:

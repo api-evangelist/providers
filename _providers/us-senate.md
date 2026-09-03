@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 14 operations
 api_count: 1
 apis:
-- description: Clients on whose behalf lobbying is conducted
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Clients on whose behalf lobbying is conducted
   name: US Senate Clients API
   slug: us-senate-clients-api
-- description: Reference data — filing types, issue codes, government entities, etc.
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Reference data — filing types, issue codes, government entities, etc.
   name: US Senate Constants API
   slug: us-senate-constants-api
-- description: Semi-annual campaign contribution reports (LD-203)
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Semi-annual campaign contribution reports (LD-203)
   name: US Senate Contributions API
   slug: us-senate-contributions-api
-- description: Lobbying disclosure filings (LD-1, LD-2, LD-203)
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Lobbying disclosure filings (LD-1, LD-2, LD-203)
   name: US Senate Filings API
   slug: us-senate-filings-api
-- description: Individual lobbyist records
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Individual lobbyist records
   name: US Senate Lobbyists API
   slug: us-senate-lobbyists-api
-- description: Lobbying firm and self-employed lobbyist registrations
+- baseURL: https://lda.senate.gov/api/v1
+  baseurl_source: spec
+  description: Lobbying firm and self-employed lobbyist registrations
   name: US Senate Registrants API
   slug: us-senate-registrants-api
 artifact_total: 27
@@ -208,7 +220,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-senate/refs/heads/main/screenshots/us-senate-2026-06-20T200626.png
 security:

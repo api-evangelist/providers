@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: 'Certified-partner API gateway for WideOrbit.io providing real-time, object-level interaction with WideOrbit Traffic, Network, and Omni systems. Access is restricted to authorized, WideOrbit-certified '
@@ -187,11 +187,11 @@ score:
   band: thin
   composite: 37.2
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -201,12 +201,13 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 37.5
+  previous_composite: 37.2
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/wideorbit/refs/heads/main/screenshots/wideorbit-2026-09-02T170733.png
 security:
 - kind: authentication
   name: Wideorbit Authentication

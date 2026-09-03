@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 56 operations · 28 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: 'Security advisories for a package, split out of package detail. The draft contract gates these behind a dedicated read:advisories scope; until Auth0 issues it, the implementation reuses read:packages '
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: 'Security advisories for a package, split out of package detail. The draft contract gates these behind a dedicated read:advisories scope; until Auth0 issues it, the implementation reuses read:packages '
   name: Crowd.dev Advisories API
   slug: crowddev-advisories-api
-- description: Bulk contributor affiliation lookups by GitHub handle.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Bulk contributor affiliation lookups by GitHub handle.
   name: Crowd.dev Affiliations API
   slug: crowddev-affiliations-api
-- description: 'Security contacts for a package — includes contact PII (e.g. reporter emails). The contract gates these behind a dedicated cdp:maintainers:read scope and forbids reaching them via the packages scope; '
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: 'Security contacts for a package — includes contact PII (e.g. reporter emails). The contract gates these behind a dedicated cdp:maintainers:read scope and forbids reaching them via the packages scope; '
   name: Crowd.dev Contacts API
   slug: crowddev-contacts-api
-- description: KPI bar metrics and activity feed.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: KPI bar metrics and activity feed.
   name: Crowd.dev Dashboard API
   slug: crowddev-dashboard-api
-- description: Retrieve maintainer roles for a member.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Retrieve maintainer roles for a member.
   name: Crowd.dev Maintainer Roles API
   slug: crowddev-maintainer-roles-api
-- description: API endpoints for managing project affiliations, including listing and bulk updating affiliation relationships within a profile.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: API endpoints for managing project affiliations, including listing and bulk updating affiliation relationships within a profile.
   name: Crowd.dev Member Affiliations API API
   slug: crowddev-member-affiliations-api-api
-- description: Manage and verify member identities across platforms.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Manage and verify member identities across platforms.
   name: Crowd.dev Member Identities API
   slug: crowddev-member-identities-api
-- description: API endpoints for managing work history organizations, including creating, reading, updating, and deleting organization relationships for profiles.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: API endpoints for managing work history organizations, including creating, reading, updating, and deleting organization relationships for profiles.
   name: Crowd.dev Member Organizations API API
   slug: crowddev-member-organizations-api-api
-- description: Resolve member profiles by identity.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Resolve member profiles by identity.
   name: Crowd.dev Members API
   slug: crowddev-members-api
-- description: Look up and create organizations.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Look up and create organizations.
   name: Crowd.dev Organizations API
   slug: crowddev-organizations-api
-- description: Package detail — requires read:packages and read:stewardships (see TODO above).
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Package detail — requires read:packages and read:stewardships (see TODO above).
   name: Crowd.dev Packages API
   slug: crowddev-packages-api
-- description: View and override per-project affiliation data for a member.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: View and override per-project affiliation data for a member.
   name: Crowd.dev Project Affiliations API
   slug: crowddev-project-affiliations-api
-- description: Admin-initiated stewardship mutations.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Admin-initiated stewardship mutations.
   name: Crowd.dev Stewardship Actions API
   slug: crowddev-stewardship-actions-api
-- description: Stewardship state — individual and batch.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Stewardship state — individual and batch.
   name: Crowd.dev Stewardship API
   slug: crowddev-stewardship-api
-- description: Open, assign, escalate, and update stewardship status.
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Open, assign, escalate, and update stewardship status.
   name: Crowd.dev Stewardships API
   slug: crowddev-stewardships-api
-- description: Manage and verify member work experiences (organization affiliations).
+- baseURL: https://cm.lfx.dev/api/v1
+  baseurl_source: declared
+  description: Manage and verify member work experiences (organization affiliations).
   name: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
 artifact_total: 40
@@ -353,7 +385,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:

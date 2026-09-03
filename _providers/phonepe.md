@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -98,13 +98,19 @@ apis:
 - description: PhonePe's Indus AppStore is an India-first native Android app marketplace with a developer console for app submission, listings, releases, and analytics, positioning itself as a local alternative to G
   name: Indus AppStore Developer Platform
   slug: indus-appstore
-- description: Create payment orders.
+- baseURL: https://api.phonepe.com/apis/pg
+  baseurl_source: declared
+  description: Create payment orders.
   name: PhonePe Checkout API
   slug: phonepe-checkout-api
-- description: Retrieve the status of a payment order.
+- baseURL: https://api.phonepe.com/apis/pg
+  baseurl_source: declared
+  description: Retrieve the status of a payment order.
   name: PhonePe Order Status API
   slug: phonepe-order-status-api
-- description: Initiate and track refunds.
+- baseURL: https://api.phonepe.com/apis/pg
+  baseurl_source: declared
+  description: Initiate and track refunds.
   name: PhonePe Refunds API
   slug: phonepe-refunds-api
 artifact_total: 33
@@ -219,7 +225,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Real-time type-ahead geocoding for user input
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: Real-time type-ahead geocoding for user input
   name: Pelias Autocomplete API
   slug: pelias-autocomplete-api
-- description: Convert text or addresses into geographic coordinates
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: Convert text or addresses into geographic coordinates
   name: Pelias Forward Geocoding API
   slug: pelias-forward-geocoding-api
-- description: Retrieve details for a known place by ID
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: Retrieve details for a known place by ID
   name: Pelias Place Lookup API
   slug: pelias-place-lookup-api
-- description: Convert geographic coordinates into places and addresses
+- baseURL: https://api.geocode.earth/v1
+  baseurl_source: declared
+  description: Convert geographic coordinates into places and addresses
   name: Pelias Reverse Geocoding API
   slug: pelias-reverse-geocoding-api
 artifact_total: 20
@@ -203,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API to generate accurate body measurements and a 3D avatar from a person's stats, and (with two photos) body composition and posture data. Requests use a secret API key in the Authorization heade
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/original/refs/heads/main/screenshots/original-2026-08-07T190948.png
 security:

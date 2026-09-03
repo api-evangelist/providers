@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Annual comprehensive blood testing across 100+ biomarkers in 21 categories (hormones, longevity, immune, inflammation, nutrients, toxins) collected via Quest Diagnostics locations or at-home phlebotom
+- baseURL: https://superpower.com
+  baseurl_source: declared
+  description: Annual comprehensive blood testing across 100+ biomarkers in 21 categories (hormones, longevity, immune, inflammation, nutrients, toxins) collected via Quest Diagnostics locations or at-home phlebotom
   name: Superpower Biomarker Testing
   slug: superpower-health-biomarker-testing
-- description: Result interpretation surfaced as 17 health scores plus a biological age calculation derived from measured biomarkers and computed ratios/indices. Exposed only inside the member app; no documented pub
+- baseURL: https://superpower.com
+  baseurl_source: declared
+  description: Result interpretation surfaced as 17 health scores plus a biological age calculation derived from measured biomarkers and computed ratios/indices. Exposed only inside the member app; no documented pub
   name: Superpower Results & Health Scores
   slug: superpower-health-results-scores
-- description: SuperpowerAI chat assistant that lets members explore their lab data and protocols with clinical context. A consumer feature only; no public chat or completion API is documented.
+- baseURL: https://superpower.com
+  baseurl_source: declared
+  description: SuperpowerAI chat assistant that lets members explore their lab data and protocols with clinical context. A consumer feature only; no public chat or completion API is documented.
   name: Superpower AI Health Chat
   slug: superpower-health-ai-chat
-- description: Personalized diet, lifestyle, and supplement action plans generated from a member's biomarkers and goals. In-app only; no documented public API for retrieving or managing plans.
+- baseURL: https://superpower.com
+  baseurl_source: declared
+  description: Personalized diet, lifestyle, and supplement action plans generated from a member's biomarkers and goals. In-app only; no documented public API for retrieving or managing plans.
   name: Superpower Action Plans
   slug: superpower-health-action-plans
-- description: Inbound sync of wearable and health-app data (Oura, Whoop, Apple Health) plus uploaded past lab results and medical records. Superpower is reported to use the third-party Vital aggregator to ingest th
+- baseURL: https://superpower.com
+  baseurl_source: declared
+  description: Inbound sync of wearable and health-app data (Oura, Whoop, Apple Health) plus uploaded past lab results and medical records. Superpower is reported to use the third-party Vital aggregator to ingest th
   name: Superpower Wearable & Records Sync
   slug: superpower-health-wearable-sync
 artifact_total: 11
@@ -119,7 +129,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superpower-health/refs/heads/main/screenshots/superpower-health-2026-06-20T194727.png
 security:

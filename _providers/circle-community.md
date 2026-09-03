@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 69 operations · 38 acting
 api_count: 1
 apis:
-- description: Beta ActionCable (Rails) WebSocket surface for realtime chat and notifications, connected at wss://app.circle.so/cable with a member Bearer access token and a whitelisted Origin header. Exposes a Noti
+- baseURL: wss://app.circle.so/cable
+  baseurl_source: declared
+  description: Beta ActionCable (Rails) WebSocket surface for realtime chat and notifications, connected at wss://app.circle.so/cable with a member Bearer access token and a whitelisted Origin header. Exposes a Noti
   name: Circle Realtime WebSocket API
   slug: circle-community-realtime-websocket-api
-- description: Course sections, lessons, and progress.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Course sections, lessons, and progress.
   name: Circle Admin - Courses API
   slug: circle-community-admin-courses-api
-- description: Events and event attendees.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Events and event attendees.
   name: Circle Admin - Events API
   slug: circle-community-admin-events-api
-- description: Admin-authenticated community member management.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Admin-authenticated community member management.
   name: Circle Admin - Members API
   slug: circle-community-admin-members-api
-- description: Posts, comments, and topics.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Posts, comments, and topics.
   name: Circle Admin - Posts API
   slug: circle-community-admin-posts-api
-- description: Spaces, space groups, and their memberships.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Spaces, space groups, and their memberships.
   name: Circle Admin - Spaces API
   slug: circle-community-admin-spaces-api
-- description: Member JWT token exchange for the Headless Member API.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Member JWT token exchange for the Headless Member API.
   name: Circle Headless - Auth API
   slug: circle-community-headless-auth-api
-- description: Member-authenticated experience endpoints.
+- baseURL: https://app.circle.so/api/admin/v2
+  baseurl_source: declared
+  description: Member-authenticated experience endpoints.
   name: Circle Headless - Member API
   slug: circle-community-headless-member-api
 artifact_total: 25
@@ -186,7 +202,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -196,7 +212,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 41.6
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -205,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

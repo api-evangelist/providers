@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: SOAP-based API for enterprise integration and complex service cloud operations.
   name: Salesforce Service Cloud SOAP API
   slug: salesforce-service-cloud-soap-api
-- description: Real-time streaming API for push notifications and event-driven architecture.
+- baseURL: https://yourInstance.salesforce.com/cometd/59.0/
+  baseurl_source: declared
+  description: Real-time streaming API for push notifications and event-driven architecture.
   name: Service Cloud Streaming API
   slug: service-cloud-streaming-api
 - description: API for managing knowledge base articles and content.
@@ -68,34 +70,54 @@ apis:
 - description: REST API for building and deploying AI-powered service agents using Agentforce, enabling headless agent interactions, session management, and seamless escalation from AI agents to human service repres
   name: Agentforce Service Agent API
   slug: agentforce-service-agent-api
-- description: Operations for managing account records
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Operations for managing account records
   name: Salesforce Service Cloud Accounts API
   slug: salesforce-service-cloud-accounts-api
-- description: Agent availability and routing
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Agent availability and routing
   name: Salesforce Service Cloud Availability API
   slug: salesforce-service-cloud-availability-api
-- description: Operations for managing customer service cases
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Operations for managing customer service cases
   name: Salesforce Service Cloud Cases API
   slug: salesforce-service-cloud-cases-api
-- description: Operations for managing contact records
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Operations for managing contact records
   name: Salesforce Service Cloud Contacts API
   slug: salesforce-service-cloud-contacts-api
-- description: Operations for managing knowledge articles
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Operations for managing knowledge articles
   name: Salesforce Service Cloud Knowledge API
   slug: salesforce-service-cloud-knowledge-api
-- description: Chat message operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Chat message operations
   name: Salesforce Service Cloud Messages API
   slug: salesforce-service-cloud-messages-api
-- description: SOQL query operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: SOQL query operations
   name: Salesforce Service Cloud Query API
   slug: salesforce-service-cloud-query-api
-- description: SOSL search operations
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: SOSL search operations
   name: Salesforce Service Cloud Search API
   slug: salesforce-service-cloud-search-api
-- description: Chat session lifecycle management
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Chat session lifecycle management
   name: Salesforce Service Cloud Sessions API
   slug: salesforce-service-cloud-sessions-api
-- description: Chat deployment settings
+- baseURL: https://yourInstance.salesforce.com/services/data/v59.0/
+  baseurl_source: declared
+  description: Chat deployment settings
   name: Salesforce Service Cloud Settings API
   slug: salesforce-service-cloud-settings-api
 artifact_total: 58
@@ -387,7 +409,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -397,7 +419,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 50.4
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -406,7 +428,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

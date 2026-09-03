@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -36,25 +49,39 @@ apis:
 - description: Hosted remote Model Context Protocol server exposing 19 documented read tools over Clozd win-loss data — programs, deals, responses, response summaries, transcripts, decision drivers and categories, d
   name: Clozd MCP Server
   slug: clozd-mcp-server
-- description: The /programs API from Clozd — 1 operation(s) for /programs.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs API from Clozd — 1 operation(s) for /programs.
   name: Clozd /programs API
   slug: clozd-programs-api
-- description: The /programs/:program_id/competitors API from Clozd — 1 operation(s) for /programs/:program_id/competitors.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/competitors API from Clozd — 1 operation(s) for /programs/:program_id/competitors.
   name: Clozd /programs/:program Id/competitors API
   slug: clozd-programs-program-id-competitors-api
-- description: The /programs/:program_id/deals API from Clozd — 1 operation(s) for /programs/:program_id/deals.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/deals API from Clozd — 1 operation(s) for /programs/:program_id/deals.
   name: Clozd /programs/:program Id/deals API
   slug: clozd-programs-program-id-deals-api
-- description: The /programs/:program_id/deals/:deal_id API from Clozd — 1 operation(s) for /programs/:program_id/deals/:deal_id.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/deals/:deal_id API from Clozd — 1 operation(s) for /programs/:program_id/deals/:deal_id.
   name: Clozd /programs/:program Id/deals/:deal ID API
   slug: clozd-programs-program-id-deals-deal-id-api
-- description: The /programs/:program_id/deals/import API from Clozd — 1 operation(s) for /programs/:program_id/deals/import.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/deals/import API from Clozd — 1 operation(s) for /programs/:program_id/deals/import.
   name: Clozd /programs/:program Id/deals/import API
   slug: clozd-programs-program-id-deals-import-api
-- description: The /programs/:program_id/touchpoints API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/touchpoints API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints.
   name: Clozd /programs/:program Id/touchpoints API
   slug: clozd-programs-program-id-touchpoints-api
-- description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
+- baseURL: https://app.clozd.com/public-api/v3
+  baseurl_source: declared
+  description: The /programs/:program_id/touchpoints/:touchpoint_id API from Clozd — 1 operation(s) for /programs/:program_id/touchpoints/:touchpoint_id.
   name: Clozd /programs/:program Id/touchpoints/:touchpoint ID API
   slug: clozd-programs-program-id-touchpoints-touchpoint-id-api
 artifact_total: 26
@@ -299,7 +326,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:

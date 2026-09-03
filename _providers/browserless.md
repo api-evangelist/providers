@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 76 operations · 43 acting
 api_count: 1
 apis:
-- description: The Browser REST APIs API from Browserless — 41 operation(s) for browser rest apis.
+- baseURL: https://production-sfo.browserless.io
+  baseurl_source: declared
+  description: The Browser REST APIs API from Browserless — 41 operation(s) for browser rest apis.
   name: Browserless Browser REST APIs API
   slug: browserless-browser-rest-apis-api
-- description: The Browser WebSocket APIs API from Browserless — 23 operation(s) for browser websocket apis.
+- baseURL: https://production-sfo.browserless.io
+  baseurl_source: declared
+  description: The Browser WebSocket APIs API from Browserless — 23 operation(s) for browser websocket apis.
   name: Browserless Browser WebSocket APIs API
   slug: browserless-browser-websocket-apis-api
-- description: The Management REST APIs API from Browserless — 13 operation(s) for management rest apis.
+- baseURL: https://production-sfo.browserless.io
+  baseurl_source: declared
+  description: The Management REST APIs API from Browserless — 13 operation(s) for management rest apis.
   name: Browserless Management REST APIs API
   slug: browserless-management-rest-apis-api
 arazzos:
@@ -336,7 +342,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:

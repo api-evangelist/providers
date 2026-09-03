@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -56,31 +56,49 @@ apis:
 - description: 'REST API for storing, retrieving, updating, and exporting identity verification records with audit trails. Supports GDPR-compliant data lifecycle management including file attachments and transaction '
   name: ID Analyzer Transaction Vault API
   slug: transaction-vault-api
-- description: Account profile and usage
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Account profile and usage
   name: ID Analyzer Account API
   slug: idanalyzer-account-api
-- description: Anti-Money Laundering and sanctions screening
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Anti-Money Laundering and sanctions screening
   name: ID Analyzer AML API
   slug: idanalyzer-aml-api
-- description: Face matching and liveness detection
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Face matching and liveness detection
   name: ID Analyzer Biometric API
   slug: idanalyzer-biometric-api
-- description: Contract template management and document generation
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Contract template management and document generation
   name: ID Analyzer Contract API
   slug: idanalyzer-contract-api
-- description: Hosted KYC verification sessions
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Hosted KYC verification sessions
   name: ID Analyzer Docupass API
   slug: idanalyzer-docupass-api
-- description: KYC profile management
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: KYC profile management
   name: ID Analyzer Profile API
   slug: idanalyzer-profile-api
-- description: Document scanning and OCR operations
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Document scanning and OCR operations
   name: ID Analyzer Scanner API
   slug: idanalyzer-scanner-api
-- description: Transaction record management and export
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Transaction record management and export
   name: ID Analyzer Transaction API
   slug: idanalyzer-transaction-api
-- description: Webhook delivery log management
+- baseURL: https://api2.idanalyzer.com
+  baseurl_source: declared
+  description: Webhook delivery log management
   name: ID Analyzer Webhook API
   slug: idanalyzer-webhook-api
 artifact_total: 38
@@ -267,7 +285,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idanalyzer/refs/heads/main/screenshots/idanalyzer-2026-06-20T183201.png
 security:

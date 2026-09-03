@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -33,25 +46,39 @@ agentic_access:
   summary_line: 94 operations · 29 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: A separately published OpenAPI document carrying the 15 operations Bullish has deprecated or decommissioned — the v1 order create/cancel/get surface, v1 AMM instructions, v1 spot account reads and the
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: A separately published OpenAPI document carrying the 15 operations Bullish has deprecated or decommissioned — the v1 order create/cancel/get surface, v1 AMM instructions, v1 spot account reads and the
   name: Bullish Deprecated Features and APIs
   slug: deprecated-api
-- description: AsyncAPI 3.0.0 document for simultaneous subscriptions to multiple L1 and L2 order books across different Bullish markets over WebSocket.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for simultaneous subscriptions to multiple L1 and L2 order books across different Bullish markets over WebSocket.
   name: Bullish WebSocket Multi-Order Book API
   slug: ws-orderbook
-- description: AsyncAPI 3.0.0 document for batched anonymous trade subscriptions across multiple Bullish markets over WebSocket.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for batched anonymous trade subscriptions across multiple Bullish markets over WebSocket.
   name: Bullish WebSocket Anonymous Trades API
   slug: ws-trades
-- description: AsyncAPI 3.0.0 document for simultaneous tick subscriptions across multiple Bullish markets over WebSocket.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for simultaneous tick subscriptions across multiple Bullish markets over WebSocket.
   name: Bullish WebSocket Anonymous Ticks API
   slug: ws-ticks
-- description: AsyncAPI 3.0.0 document for the real-time auction feed, delivering phase and order-imbalance data for Bullish markets with auctions enabled.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for the real-time auction feed, delivering phase and order-imbalance data for Bullish markets with auctions enabled.
   name: Bullish WebSocket Auction Feed API
   slug: ws-auction
-- description: AsyncAPI 3.0.0 document for streaming Bullish index prices, with the subscribed asset set controlled by subscription-message parameters.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for streaming Bullish index prices, with the subscribed asset set controlled by subscription-message parameters.
   name: Bullish WebSocket Index Data API
   slug: ws-index-data
-- description: AsyncAPI 3.0.0 document for the authenticated private stream — real-time orders, trades, asset accounts, trading accounts, derivatives positions, AMM instructions and market-maker-protection triggers.
+- baseURL: wss://api.exchange.bullish.com
+  baseurl_source: declared
+  description: AsyncAPI 3.0.0 document for the authenticated private stream — real-time orders, trades, asset accounts, trading accounts, derivatives positions, AMM instructions and market-maker-protection triggers.
   name: Bullish WebSocket Private Data API
   slug: ws-private-data
 - description: The Bullish FIX order-entry, drop-copy, reference-data and trading-status surface for institutional and high-frequency clients, with session management and component definitions documented. Rejections
@@ -60,73 +87,119 @@ apis:
 - description: A small non-authenticated REST surface publishing aggregated public market data — tickers with 24-hour rolling statistics, order books, and the last 100 trades, each optionally filtered by market type
   name: Bullish Aggregator API
   slug: aggregator-api
-- description: Authenticated APIs for reading account data
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated APIs for reading account data
   name: Bullish Account Assets API
   slug: bullish-account-assets-api
-- description: Authenticated APIs that allow users to Create, View and Terminate AMM instructions. Please refer to the [AMM instruction Overview Doc](https://github.com/bullish-exchange/api-docs/wiki/Automated-Marke
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated APIs that allow users to Create, View and Terminate AMM instructions. Please refer to the [AMM instruction Overview Doc](https://github.com/bullish-exchange/api-docs/wiki/Automated-Marke
   name: Bullish Amm Instructions API
   slug: bullish-amm-instructions-api
-- description: Non-authenticated APIs for accessing general asset data information
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Non-authenticated APIs for accessing general asset data information
   name: Bullish Asset Data API
   slug: bullish-asset-data-api
-- description: The auction-public API from Bullish — 2 operation(s) for auction-public.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The auction-public API from Bullish — 2 operation(s) for auction-public.
   name: Bullish Auction Public API
   slug: bullish-auction-public-api
-- description: Authenticated API for submitting commands into the exchange.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated API for submitting commands into the exchange.
   name: Bullish command entry API
   slug: bullish-command-entry-api
-- description: Authenticated APIs for custody, [Custody Basic Examples](https://github.com/bullish-exchange/api-examples/blob/master/bullish/rest/custody_basics.py) Custody APIs have a limit of 40 requests per IP, p
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated APIs for custody, [Custody Basic Examples](https://github.com/bullish-exchange/api-examples/blob/master/bullish/rest/custody_basics.py) Custody APIs have a limit of 40 requests per IP, p
   name: Bullish Custody API
   slug: bullish-custody-api
-- description: List of deprecated APIs that will be removed towards the end of Q3 2024.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: List of deprecated APIs that will be removed towards the end of Q3 2024.
   name: Bullish deprecated - q3 2024 API
   slug: bullish-deprecated-q3-2024-api
-- description: The derivatives API from Bullish — 1 operation(s) for derivatives.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The derivatives API from Bullish — 1 operation(s) for derivatives.
   name: Bullish Derivatives API
   slug: bullish-derivatives-api
-- description: The derivatives-public API from Bullish — 3 operation(s) for derivatives-public.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The derivatives-public API from Bullish — 3 operation(s) for derivatives-public.
   name: Bullish Derivatives Public API
   slug: bullish-derivatives-public-api
-- description: The general API from Bullish — 2 operation(s) for general.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The general API from Bullish — 2 operation(s) for general.
   name: Bullish General API
   slug: bullish-general-api
-- description: The history API from Bullish — 5 operation(s) for history.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The history API from Bullish — 5 operation(s) for history.
   name: Bullish History API
   slug: bullish-history-api
-- description: The Inter-dealer Broker (IDB) API is available to authorized inter-dealer brokers to book OTC trades on Bullish on behalf of their respective end customers.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The Inter-dealer Broker (IDB) API is available to authorized inter-dealer brokers to book OTC trades on Bullish on behalf of their respective end customers.
   name: Bullish Idb API
   slug: bullish-idb-api
-- description: The index-price-data API from Bullish — 2 operation(s) for index-price-data.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The index-price-data API from Bullish — 2 operation(s) for index-price-data.
   name: Bullish Index Price Data API
   slug: bullish-index-price-data-api
-- description: Non-authenticated APIs for accessing general market data information
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Non-authenticated APIs for accessing general market data information
   name: Bullish Market Data API
   slug: bullish-market-data-api
-- description: The market-history-data API from Bullish — 4 operation(s) for market-history-data.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The market-history-data API from Bullish — 4 operation(s) for market-history-data.
   name: Bullish Market History Data API
   slug: bullish-market-history-data-api
-- description: The market-maker-protection API from Bullish — 1 operation(s) for market-maker-protection.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The market-maker-protection API from Bullish — 1 operation(s) for market-maker-protection.
   name: Bullish Market Maker Protection API
   slug: bullish-market-maker-protection-api
-- description: Authenticated APIs for interacting with orders
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated APIs for interacting with orders
   name: Bullish Orders API
   slug: bullish-orders-api
-- description: The OTC Clearing Facility API (OTC API) is available to customers to book trades negotiated outside of the Bullish Exchange order book to Bullish's clearing and settlement platform. Customers may agre
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The OTC Clearing Facility API (OTC API) is available to customers to book trades negotiated outside of the Bullish Exchange order book to Bullish's clearing and settlement platform. Customers may agre
   name: Bullish Otc API
   slug: bullish-otc-api
-- description: The portfolio-margin-simulator API from Bullish — 2 operation(s) for portfolio-margin-simulator.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The portfolio-margin-simulator API from Bullish — 2 operation(s) for portfolio-margin-simulator.
   name: Bullish Portfolio Margin Simulator API
   slug: bullish-portfolio-margin-simulator-api
-- description: The session-management API from Bullish — 3 operation(s) for session-management.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The session-management API from Bullish — 3 operation(s) for session-management.
   name: Bullish Session Management API
   slug: bullish-session-management-api
-- description: Authenticated APIs for reading trade data
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated APIs for reading trade data
   name: Bullish Trades API
   slug: bullish-trades-api
-- description: The trading-accounts API from Bullish — 2 operation(s) for trading-accounts.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: The trading-accounts API from Bullish — 2 operation(s) for trading-accounts.
   name: Bullish Trading Accounts API
   slug: bullish-trading-accounts-api
-- description: Authenticated API for initiating asset transfers between trading accounts.
+- baseURL: https://api.exchange.bullish.com/trading-api
+  baseurl_source: declared
+  description: Authenticated API for initiating asset transfers between trading accounts.
   name: Bullish Transfer API
   slug: bullish-transfer-api
 artifact_total: 70
@@ -419,7 +492,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -429,7 +502,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 66.0
+  previous_composite: 65.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -447,7 +520,7 @@ score:
     regime_id: securities_market_data
     score: 73.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/screenshots/bullish-2026-08-17T080736.png
 security:

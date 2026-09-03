@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,37 +43,59 @@ agentic_access:
   summary_line: 26 operations · 1 acting
 api_count: 1
 apis:
-- description: SpaceX Dragon capsule data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX Dragon capsule data
   name: SpaceX API Capsules API
   slug: spacex-api-capsules-api
-- description: SpaceX first stage booster core data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX first stage booster core data
   name: SpaceX API Cores API
   slug: spacex-api-cores-api
-- description: SpaceX astronaut crew data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX astronaut crew data
   name: SpaceX API Crew API
   slug: spacex-api-crew-api
-- description: SpaceX landing pad data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX landing pad data
   name: SpaceX API Landing Pads API
   slug: spacex-api-landing-pads-api
-- description: SpaceX mission launch data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX mission launch data
   name: SpaceX API Launches API
   slug: spacex-api-launches-api
-- description: SpaceX launch site data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX launch site data
   name: SpaceX API Launchpads API
   slug: spacex-api-launchpads-api
-- description: SpaceX payload data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX payload data
   name: SpaceX API Payloads API
   slug: spacex-api-payloads-api
-- description: SpaceX Roadster tracking data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX Roadster tracking data
   name: SpaceX API Roadster API
   slug: spacex-api-roadster-api
-- description: SpaceX rocket vehicle data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX rocket vehicle data
   name: SpaceX API Rockets API
   slug: spacex-api-rockets-api
-- description: SpaceX fleet ship data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX fleet ship data
   name: SpaceX API Ships API
   slug: spacex-api-ships-api
-- description: SpaceX Starlink satellite data
+- baseURL: https://api.spacexdata.com/v5
+  baseurl_source: declared
+  description: SpaceX Starlink satellite data
   name: SpaceX API Starlink API
   slug: spacex-api-starlink-api
 artifact_total: 36
@@ -254,7 +276,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/screenshots/spacex-api-2026-06-20T194252.png
 security:

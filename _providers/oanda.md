@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -58,22 +58,32 @@ apis:
 - description: 'Access full transaction history for an OANDA trading account with time-based and ID-range queries. Includes a streaming endpoint for real-time transaction notifications from the moment the request is '
   name: OANDA Transaction API
   slug: oanda-transaction-api
-- description: Retrieve real-time bid/ask pricing, stream live price updates at up to 4 per second, and access historical OHLC candlestick data for any tradeable instrument. Historical data is available from 2005 on
+- baseURL: /v3
+  baseurl_source: spec
+  description: Retrieve real-time bid/ask pricing, stream live price updates at up to 4 per second, and access historical OHLC candlestick data for any tradeable instrument. Historical data is available from 2005 on
   name: OANDA Pricing API
   slug: oanda-pricing-api
 - description: Institutional-grade foreign exchange data service covering 200+ currencies and 38,000+ currency pairs. Provides daily average rates, period averages, ECB and national bank rates, forward rates, stream
   name: OANDA Exchange Rates API
   slug: oanda-exchange-rates-api
-- description: The Accounts API from OANDA — 29 operation(s) for accounts.
+- baseURL: /v3
+  baseurl_source: spec
+  description: The Accounts API from OANDA — 29 operation(s) for accounts.
   name: OANDA Accounts API
   slug: oanda-accounts-api
-- description: The Instruments API from OANDA — 5 operation(s) for instruments.
+- baseURL: /v3
+  baseurl_source: spec
+  description: The Instruments API from OANDA — 5 operation(s) for instruments.
   name: OANDA Instruments API
   slug: oanda-instruments-api
-- description: The Pricing API from OANDA — 2 operation(s) for pricing.
+- baseURL: /v3
+  baseurl_source: spec
+  description: The Pricing API from OANDA — 2 operation(s) for pricing.
   name: OANDA Pricing API
   slug: oanda-pricing-api
-- description: The Users API from OANDA — 2 operation(s) for users.
+- baseURL: /v3
+  baseurl_source: spec
+  description: The Users API from OANDA — 2 operation(s) for users.
   name: OANDA Users API
   slug: oanda-users-api
 artifact_total: 234
@@ -851,7 +861,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:

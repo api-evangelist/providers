@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,16 +68,24 @@ apis:
 - description: Industry-standard OAuth 2.0 Client Credentials authentication protecting access to all USPS APIs. Returns Bearer Tokens used in the Authorization header for all USPS API calls.
   name: USPS OAuth API
   slug: usps-oauth-api
-- description: Address validation and standardization operations
+- baseURL: https://apis.usps.com
+  baseurl_source: declared
+  description: Address validation and standardization operations
   name: United States Postal Service Addresses API
   slug: united-states-postal-service-addresses-api
-- description: Schedule and manage USPS carrier pickup requests
+- baseURL: https://apis.usps.com
+  baseurl_source: declared
+  description: Schedule and manage USPS carrier pickup requests
   name: United States Postal Service Carrier Pickup API
   slug: united-states-postal-service-carrier-pickup-api
-- description: Domestic postage pricing and rate calculation operations
+- baseURL: https://apis.usps.com
+  baseurl_source: declared
+  description: Domestic postage pricing and rate calculation operations
   name: United States Postal Service Domestic Prices API
   slug: united-states-postal-service-domestic-prices-api
-- description: Package tracking status and event operations
+- baseURL: https://apis.usps.com
+  baseurl_source: declared
+  description: Package tracking status and event operations
   name: United States Postal Service Tracking API
   slug: united-states-postal-service-tracking-api
 artifact_total: 109
@@ -461,7 +469,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:

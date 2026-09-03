@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: Bank of Queensland Banking Account Balances API
   slug: bank-of-queensland-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: Bank of Queensland Banking Account Direct Debits API
   slug: bank-of-queensland-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: Bank of Queensland Banking Account Scheduled Payments API
   slug: bank-of-queensland-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: Bank of Queensland Banking Account Transactions API
   slug: bank-of-queensland-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: Bank of Queensland Banking Accounts API
   slug: bank-of-queensland-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: Bank of Queensland Banking Payees API
   slug: bank-of-queensland-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://secure.api.boq.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: Bank of Queensland Banking Products API
   slug: bank-of-queensland-banking-products-api
 artifact_total: 20
@@ -237,7 +251,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png
 security:

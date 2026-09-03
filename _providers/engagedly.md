@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 34 operations · 19 acting
 api_count: 1
 apis:
-- description: Access praise and recognition activities
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Access praise and recognition activities
   name: Engagedly Activities API
   slug: engagedly-activities-api
-- description: Handle business unit operations
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Handle business unit operations
   name: Engagedly Businesses API
   slug: engagedly-businesses-api
-- description: Create and manage organizational departments
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Create and manage organizational departments
   name: Engagedly Departments API
   slug: engagedly-departments-api
-- description: Define and manage job roles
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Define and manage job roles
   name: Engagedly Job Titles API
   slug: engagedly-job-titles-api
-- description: Manage office locations and addresses
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Manage office locations and addresses
   name: Engagedly Locations API
   slug: engagedly-locations-api
-- description: List available permission roles
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: List available permission roles
   name: Engagedly Permissions API
   slug: engagedly-permissions-api
-- description: Retrieve system and custom user attribute definitions
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Retrieve system and custom user attribute definitions
   name: Engagedly User Attributes API
   slug: engagedly-user-attributes-api
-- description: Manage user profiles, permissions, and activation status
+- baseURL: https://api.engagedly.com/beta/
+  baseurl_source: declared
+  description: Manage user profiles, permissions, and activation status
   name: Engagedly Users API
   slug: engagedly-users-api
 artifact_total: 29
@@ -245,7 +261,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/screenshots/engagedly-2026-06-20T180715.png
 security:

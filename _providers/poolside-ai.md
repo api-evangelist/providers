@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: SCIM 2.0 provisioning endpoint (/scim) for connecting an external identity provider (Okta, Entra ID, etc.) to automatically provision and deprovision Poolside users on a deployment.
   name: Poolside SCIM API
   slug: poolside-scim-api
-- description: The chat API from Poolside — 2 operation(s) for chat.
+- baseURL: https://<api-domain>/openai/v1
+  baseurl_source: declared
+  description: The chat API from Poolside — 2 operation(s) for chat.
   name: Poolside chat API
   slug: poolside-ai-chat-api
-- description: The models API from Poolside — 1 operation(s) for models.
+- baseURL: https://<api-domain>/openai/v1
+  baseurl_source: declared
+  description: The models API from Poolside — 1 operation(s) for models.
   name: Poolside models API
   slug: poolside-ai-models-api
 artifact_total: 14
@@ -168,7 +172,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 18 operations · 12 acting
 api_count: 1
 apis:
-- description: OAuth 2.0-authenticated REST API for managing leads, contacts, deals, accounts, notes, tasks, calls, sources, stages, pipelines, and custom fields in Zendesk Sell. Bearer access tokens are passed in t
+- baseURL: https://api.getbase.com
+  baseurl_source: declared
+  description: OAuth 2.0-authenticated REST API for managing leads, contacts, deals, accounts, notes, tasks, calls, sources, stages, pipelines, and custom fields in Zendesk Sell. Bearer access tokens are passed in t
   name: Zendesk Sell (Sales CRM) API
   slug: sales-crm-api
-- description: Individual people and organizations.
+- baseURL: https://api.getbase.com
+  baseurl_source: declared
+  description: Individual people and organizations.
   name: Zendesk Sell Contacts API
   slug: zendesk-sell-contacts-api
-- description: Sales opportunities moving through pipeline stages.
+- baseURL: https://api.getbase.com
+  baseurl_source: declared
+  description: Sales opportunities moving through pipeline stages.
   name: Zendesk Sell Deals API
   slug: zendesk-sell-deals-api
-- description: Pre-qualified sales prospects.
+- baseURL: https://api.getbase.com
+  baseurl_source: declared
+  description: Pre-qualified sales prospects.
   name: Zendesk Sell Leads API
   slug: zendesk-sell-leads-api
 artifact_total: 19
@@ -297,7 +305,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/screenshots/zendesk-sell-2026-06-20T201812.png
 security:

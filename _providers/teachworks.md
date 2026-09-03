@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 75 operations · 25 acting
 api_count: 1
 apis:
-- description: Employee availability windows.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Employee availability windows.
   name: Teachworks Availabilities API
   slug: teachworks-availabilities-api
-- description: Cost premiums applied on top of base service rates.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Cost premiums applied on top of base service rates.
   name: Teachworks Cost Premiums API
   slug: teachworks-cost-premiums-api
-- description: Allocations of credit notes to invoices.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Allocations of credit notes to invoices.
   name: Teachworks Credit Note Allocations API
   slug: teachworks-credit-note-allocations-api
-- description: Billing accounts - families and independent students.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Billing accounts - families and independent students.
   name: Teachworks Customers API
   slug: teachworks-customers-api
-- description: Teachers and staff, their status, earnings, and lesson totals.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Teachers and staff, their status, earnings, and lesson totals.
   name: Teachworks Employees API
   slug: teachworks-employees-api
-- description: Customer invoices.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Customer invoices.
   name: Teachworks Invoices API
   slug: teachworks-invoices-api
-- description: Per-student rows attached to a lesson.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Per-student rows attached to a lesson.
   name: Teachworks Lesson Participants API
   slug: teachworks-lesson-participants-api
-- description: Scheduled lessons, participants, and completion.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Scheduled lessons, participants, and completion.
   name: Teachworks Lessons API
   slug: teachworks-lessons-api
-- description: Physical or virtual locations where lessons are delivered.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Physical or virtual locations where lessons are delivered.
   name: Teachworks Locations API
   slug: teachworks-locations-api
-- description: Employee compensation outside of lesson wages.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Employee compensation outside of lesson wages.
   name: Teachworks Other Compensation API
   slug: teachworks-other-compensation-api
-- description: Non-teaching calendar events.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Non-teaching calendar events.
   name: Teachworks Other Events API
   slug: teachworks-other-events-api
-- description: Allocations of payments to invoices.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Allocations of payments to invoices.
   name: Teachworks Payment Allocations API
   slug: teachworks-payment-allocations-api
-- description: Customer payments.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Customer payments.
   name: Teachworks Payments API
   slug: teachworks-payments-api
-- description: Repertoire items (e.g. for music lessons).
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Repertoire items (e.g. for music lessons).
   name: Teachworks Repertoires API
   slug: teachworks-repertoires-api
-- description: Groupings of student results.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Groupings of student results.
   name: Teachworks Result Groups API
   slug: teachworks-result-groups-api
-- description: Student progress results.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Student progress results.
   name: Teachworks Results API
   slug: teachworks-results-api
-- description: The billable services (lesson types) offered.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: The billable services (lesson types) offered.
   name: Teachworks Services API
   slug: teachworks-services-api
-- description: Groups of students for group lessons.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Groups of students for group lessons.
   name: Teachworks Student Groups API
   slug: teachworks-student-groups-api
-- description: Child and independent students and their lesson totals.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Child and independent students and their lesson totals.
   name: Teachworks Students API
   slug: teachworks-students-api
-- description: Subjects taught.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Subjects taught.
   name: Teachworks Subjects API
   slug: teachworks-subjects-api
-- description: Employee unavailability windows.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Employee unavailability windows.
   name: Teachworks Unavailabilities API
   slug: teachworks-unavailabilities-api
-- description: Wage payments to employees.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Wage payments to employees.
   name: Teachworks Wage Payments API
   slug: teachworks-wage-payments-api
-- description: Teacher wage tiers used to calculate pay.
+- baseURL: https://api.teachworks.com/v1
+  baseurl_source: declared
+  description: Teacher wage tiers used to calculate pay.
   name: Teachworks Wage Tiers API
   slug: teachworks-wage-tiers-api
 artifact_total: 55
@@ -268,7 +314,7 @@ score:
   band: developing
   composite: 39.3
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -297,8 +343,9 @@ score:
     regime_id: education
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/teachworks/refs/heads/main/screenshots/teachworks-2026-09-02T162640.png
 security:
 - kind: authentication
   name: Teachworks Authentication

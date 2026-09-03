@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,28 +47,40 @@ apis:
 - description: The balenaCloud REST API is the primary interface to the balena platform. It exposes resources for devices, fleets (applications), releases, environment variables, organizations, and user accounts wit
   name: Balena Cloud API
   slug: balena-cloud-api
-- description: Provision, inspect, configure, and remove devices in balenaCloud, including environment variables, tags, status, and OS information.
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: Provision, inspect, configure, and remove devices in balenaCloud, including environment variables, tags, status, and OS information.
   name: Balena Devices API
   slug: balena-devices-api
 - description: Manage balena fleets, formerly known as applications, that group devices and releases for deployment.
   name: Balena Fleets (Applications) API
   slug: balena-fleets-api
-- description: Manage container-based releases and their assets, pinning, and rollout across a fleet.
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: Manage container-based releases and their assets, pinning, and rollout across a fleet.
   name: Balena Releases API
   slug: balena-releases-api
 - description: On-device REST API exposed by balena Supervisor for local control of containers, application state, host configuration, reboot, shutdown, and update checks.
   name: Balena Supervisor API
   slug: balena-supervisor-api
-- description: Fleets (applications)
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: Fleets (applications)
   name: Balena Applications API
   slug: balena-applications-api
-- description: Tags associated with devices
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: Tags associated with devices
   name: Balena Device Tags API
   slug: balena-device-tags-api
-- description: IoT devices managed by balena
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: IoT devices managed by balena
   name: Balena Devices API
   slug: balena-devices-api
-- description: Container image releases
+- baseURL: https://api.balena-cloud.com/v7
+  baseurl_source: declared
+  description: Container image releases
   name: Balena Releases API
   slug: balena-releases-api
 artifact_total: 23
@@ -228,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/balena/refs/heads/main/screenshots/balena-2026-06-20T172927.png
 security:

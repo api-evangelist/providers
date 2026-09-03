@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -44,31 +44,47 @@ agentic_access:
   summary_line: 37 operations · 24 acting · 1 human-in-the-loop
 api_count: 9
 apis:
-- description: The Fly.io Machines API is a low-level REST interface for provisioning and managing Fly Machines, which are fast-booting virtual machines that run on Fly.io's global edge infrastructure. It provides e
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: The Fly.io Machines API is a low-level REST interface for provisioning and managing Fly Machines, which are fast-booting virtual machines that run on Fly.io's global edge infrastructure. It provides e
   name: Fly.io Machines API
   slug: machines-api
 - description: The Fly.io GraphQL API provides a programmatic interface for managing Fly.io platform resources including applications, IP address allocations, organizations, and networking configuration. The endpoin
   name: Fly.io GraphQL API
   slug: graphql-api
-- description: The Fly.io Extensions API is a provider-facing HTTP interface that enables third-party services to integrate with the Fly.io platform as extension providers. When a Fly.io user provisions an extension
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: The Fly.io Extensions API is a provider-facing HTTP interface that enables third-party services to integrate with the Fly.io platform as extension providers. When a Fly.io user provisions an extension
   name: Fly.io Extensions API
   slug: extensions-api
-- description: Operations for creating, listing, and deleting Fly Apps. Every Fly Machine belongs to a Fly App, which groups related Machines together.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Operations for creating, listing, and deleting Fly Apps. Every Fly Machine belongs to a Fly App, which groups related Machines together.
   name: fly-io Apps API
   slug: fly-io-apps-api
-- description: Fly.io platform OAuth endpoints used during the single sign-on flow to authorize users and exchange tokens.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Fly.io platform OAuth endpoints used during the single sign-on flow to authorize users and exchange tokens.
   name: fly-io OAuth API
   slug: fly-io-oauth-api
-- description: Single sign-on operations allowing Fly.io users to access provider dashboards using their Fly.io credentials via OAuth.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Single sign-on operations allowing Fly.io users to access provider dashboards using their Fly.io credentials via OAuth.
   name: fly-io SSO API
   slug: fly-io-sso-api
-- description: Operations for requesting OpenID Connect (OIDC) tokens from third-party services, enabling Fly Machines to authenticate to external systems using workload identity.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Operations for requesting OpenID Connect (OIDC) tokens from third-party services, enabling Fly Machines to authenticate to external systems using workload identity.
   name: fly-io Tokens API
   slug: fly-io-tokens-api
-- description: Operations for managing persistent storage volumes that can be attached to Fly Machines. Volumes provide durable block storage that persists across Machine restarts.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Operations for managing persistent storage volumes that can be attached to Fly Machines. Volumes provide durable block storage that persists across Machine restarts.
   name: fly-io Volumes API
   slug: fly-io-volumes-api
-- description: Webhook endpoints for bidirectional event delivery between Fly.io and extension providers. Both sides sign their webhook payloads using HMAC-SHA256 for verification.
+- baseURL: https://api.machines.dev
+  baseurl_source: declared
+  description: Webhook endpoints for bidirectional event delivery between Fly.io and extension providers. Both sides sign their webhook payloads using HMAC-SHA256 for verification.
   name: fly-io Webhooks API
   slug: fly-io-webhooks-api
 artifact_total: 73
@@ -263,16 +279,16 @@ jsonld:
   slug: fly-io-context
 layout: provider
 modified: '2026-05-19'
-name: fly-io
+name: Fly Io
 nav: Providers
 network: true
-overview: 'fly-io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, Apps API, and 5 more.
+overview: 'Fly Io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Fly.io Machines API, Fly.io Extensions API, fly-io Apps API, and 5 more.
 
 
-  The fly-io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Fly Io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  fly-io''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Fly Io''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Fly Io Plans Pricing
   plan_count: 8
@@ -286,7 +302,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: fly-io API Rules
+  name: Fly Io API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -296,7 +312,7 @@ rules:
   slug: fly-io-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: fly-io API Rules
+  name: Fly Io API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -312,7 +328,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -322,7 +338,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -332,10 +348,10 @@ score:
       total: 8
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fly-io/refs/heads/main/screenshots/fly-io-2026-06-20T181357.png
 security:

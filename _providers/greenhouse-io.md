@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -50,79 +50,129 @@ apis:
 - description: 'Event-driven webhooks from Greenhouse Onboarding (currently in beta and gated by customer approval). Each event posts event_type, id, and payload to the customer''s HTTPS endpoint; signatures use HMAC '
   name: Greenhouse Onboarding Webhooks
   slug: greenhouse-onboarding-webhooks
-- description: Per-candidate timeline of activity events.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Per-candidate timeline of activity events.
   name: Greenhouse ActivityFeed API
   slug: greenhouse-io-activityfeed-api
-- description: Candidate applications to specific jobs, including stage advancement, transfers, hires, rejections, and attachments.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Candidate applications to specific jobs, including stage advancement, transfers, hires, rejections, and attachments.
   name: Greenhouse Applications API
   slug: greenhouse-io-applications-api
-- description: Approval flows for jobs and offers.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Approval flows for jobs and offers.
   name: Greenhouse Approvals API
   slug: greenhouse-io-approvals-api
-- description: JWT access token issuance.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: JWT access token issuance.
   name: Greenhouse Auth API
   slug: greenhouse-io-auth-api
-- description: Create or retrieve candidates / prospects in the customer's Greenhouse account.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Create or retrieve candidates / prospects in the customer's Greenhouse account.
   name: Greenhouse Candidates API
   slug: greenhouse-io-candidates-api
-- description: Org-defined custom fields and their options.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Org-defined custom fields and their options.
   name: Greenhouse CustomFields API
   slug: greenhouse-io-customfields-api
-- description: Organizational departments.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Organizational departments.
   name: Greenhouse Departments API
   slug: greenhouse-io-departments-api
-- description: Audit log events.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Audit log events.
   name: Greenhouse Events API
   slug: greenhouse-io-events-api
-- description: Single GraphQL endpoint for all Onboarding operations.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Single GraphQL endpoint for all Onboarding operations.
   name: Greenhouse GraphQL API
   slug: greenhouse-io-graphql-api
-- description: Individual openings under a Job.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Individual openings under a Job.
   name: Greenhouse JobOpenings API
   slug: greenhouse-io-jobopenings-api
-- description: Public-facing job postings and their statuses.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Public-facing job postings and their statuses.
   name: Greenhouse JobPosts API
   slug: greenhouse-io-jobposts-api
-- description: List jobs visible to the integrated user.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: List jobs visible to the integrated user.
   name: Greenhouse Jobs API
   slug: greenhouse-io-jobs-api
-- description: The interview/pipeline stages a job uses.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: The interview/pipeline stages a job uses.
   name: Greenhouse JobStages API
   slug: greenhouse-io-jobstages-api
-- description: Offers extended to candidates.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Offers extended to candidates.
   name: Greenhouse Offers API
   slug: greenhouse-io-offers-api
-- description: Office locations.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Office locations.
   name: Greenhouse Offices API
   slug: greenhouse-io-offices-api
-- description: Read configured prospect pools and their stages.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Read configured prospect pools and their stages.
   name: Greenhouse ProspectPools API
   slug: greenhouse-io-prospectpools-api
-- description: Configured rejection reasons.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Configured rejection reasons.
   name: Greenhouse RejectionReasons API
   slug: greenhouse-io-rejectionreasons-api
-- description: Scheduled interview events on the calendar.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Scheduled interview events on the calendar.
   name: Greenhouse ScheduledInterviews API
   slug: greenhouse-io-scheduledinterviews-api
-- description: Interview scorecards captured by interviewers.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Interview scorecards captured by interviewers.
   name: Greenhouse Scorecards API
   slug: greenhouse-io-scorecards-api
-- description: Candidate-source taxonomy (where the candidate came from).
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Candidate-source taxonomy (where the candidate came from).
   name: Greenhouse Sources API
   slug: greenhouse-io-sources-api
-- description: Candidate tags.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Candidate tags.
   name: Greenhouse Tags API
   slug: greenhouse-io-tags-api
-- description: Sending tests to candidates and reporting status.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Sending tests to candidates and reporting status.
   name: Greenhouse TestDelivery API
   slug: greenhouse-io-testdelivery-api
-- description: Available tests offered by the partner.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Available tests offered by the partner.
   name: Greenhouse Tests API
   slug: greenhouse-io-tests-api
-- description: Generate branded tracking links for sourcing campaigns.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Generate branded tracking links for sourcing campaigns.
   name: Greenhouse TrackingLinks API
   slug: greenhouse-io-trackinglinks-api
-- description: Inspect the current authenticated user.
+- baseURL: https://harvest.greenhouse.io/v1
+  baseurl_source: declared
+  description: Inspect the current authenticated user.
   name: Greenhouse Users API
   slug: greenhouse-io-users-api
 artifact_total: 119
@@ -533,7 +583,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -543,7 +593,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 50.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -552,7 +602,7 @@ score:
       marker_coverage: 0.0
       total: 25
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:

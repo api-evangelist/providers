@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 7 acting
 api_count: 1
 apis:
-- description: Detect and review unusual cost patterns and anomalies.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: Detect and review unusual cost patterns and anomalies.
   name: Harness Cloud Cost Management Anomalies API
   slug: harness-cloud-cost-anomalies-api
-- description: Define and monitor cloud spending budgets with alerts.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: Define and monitor cloud spending budgets with alerts.
   name: Harness Cloud Cost Management Budgets API
   slug: harness-cloud-cost-budgets-api
-- description: Manage cloud provider and Kubernetes connectors for cost ingestion.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: Manage cloud provider and Kubernetes connectors for cost ingestion.
   name: Harness Cloud Cost Management Connectors API
   slug: harness-cloud-cost-connectors-api
-- description: Allocate and chargeback cloud costs by business units.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: Allocate and chargeback cloud costs by business units.
   name: Harness Cloud Cost Management Cost Categories API
   slug: harness-cloud-cost-cost-categories-api
-- description: Group and analyze cloud cost data through customizable views.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: Group and analyze cloud cost data through customizable views.
   name: Harness Cloud Cost Management Perspectives API
   slug: harness-cloud-cost-perspectives-api
-- description: AI-driven recommendations for cloud cost optimization.
+- baseURL: https://app.harness.io
+  baseurl_source: declared
+  description: AI-driven recommendations for cloud cost optimization.
   name: Harness Cloud Cost Management Recommendations API
   slug: harness-cloud-cost-recommendations-api
 artifact_total: 23
@@ -207,7 +219,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/screenshots/harness-cloud-cost-2026-06-20T182521.png
 security:

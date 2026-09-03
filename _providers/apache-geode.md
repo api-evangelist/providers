@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -46,16 +46,24 @@ apis:
 - description: Java API for cache operations, continuous queries, function execution, and data serialization in Apache Geode clusters.
   name: Apache Geode Java Client API
   slug: apache-geode-java-api
-- description: The Administration API from Apache Geode — 2 operation(s) for administration.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Administration API from Apache Geode — 2 operation(s) for administration.
   name: Apache Geode Administration API
   slug: apache-geode-administration-api
-- description: The Functions API from Apache Geode — 2 operation(s) for functions.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Functions API from Apache Geode — 2 operation(s) for functions.
   name: Apache Geode Functions API
   slug: apache-geode-functions-api
-- description: The Queries API from Apache Geode — 2 operation(s) for queries.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Queries API from Apache Geode — 2 operation(s) for queries.
   name: Apache Geode Queries API
   slug: apache-geode-queries-api
-- description: The Regions API from Apache Geode — 4 operation(s) for regions.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Regions API from Apache Geode — 4 operation(s) for regions.
   name: Apache Geode Regions API
   slug: apache-geode-regions-api
 artifact_total: 69
@@ -345,7 +353,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/screenshots/apache-geode-2026-06-20T172059.png
 security:

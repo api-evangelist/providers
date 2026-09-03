@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 4
 apis:
-- description: Inventory tracking and management operations
+- baseURL: https://steeltrack.ussteel.com/api
+  baseurl_source: declared
+  description: Inventory tracking and management operations
   name: United States Steel Inventory API
   slug: united-states-steel-inventory-api
-- description: Order status and summary reporting operations
+- baseURL: https://steeltrack.ussteel.com/api
+  baseurl_source: declared
+  description: Order status and summary reporting operations
   name: United States Steel Orders API
   slug: united-states-steel-orders-api
-- description: Shipment history and tracking operations
+- baseURL: https://steeltrack.ussteel.com/api
+  baseurl_source: declared
+  description: Shipment history and tracking operations
   name: United States Steel Shipments API
   slug: united-states-steel-shipments-api
-- description: Physical, mechanical, and chemical test report operations
+- baseURL: https://steeltrack.ussteel.com/api
+  baseurl_source: declared
+  description: Physical, mechanical, and chemical test report operations
   name: United States Steel Test Reports API
   slug: united-states-steel-test-reports-api
 artifact_total: 60
@@ -315,7 +323,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png
 security:

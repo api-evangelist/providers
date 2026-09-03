@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 9 operations
 api_count: 2
 apis:
-- description: The Details API from bioRxiv — 2 operation(s) for details.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Details API from bioRxiv — 2 operation(s) for details.
   name: bioRxiv Details API
   slug: biorxiv-details-api
-- description: The Funder API from bioRxiv — 1 operation(s) for funder.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Funder API from bioRxiv — 1 operation(s) for funder.
   name: bioRxiv Funder API
   slug: biorxiv-funder-api
-- description: The Pub API from bioRxiv — 1 operation(s) for pub.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Pub API from bioRxiv — 1 operation(s) for pub.
   name: bioRxiv Pub API
   slug: biorxiv-pub-api
-- description: The Publisher API from bioRxiv — 1 operation(s) for publisher.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Publisher API from bioRxiv — 1 operation(s) for publisher.
   name: bioRxiv Publisher API
   slug: biorxiv-publisher-api
-- description: The Pubs API from bioRxiv — 2 operation(s) for pubs.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Pubs API from bioRxiv — 2 operation(s) for pubs.
   name: bioRxiv Pubs API
   slug: biorxiv-pubs-api
-- description: The Sum API from bioRxiv — 1 operation(s) for sum.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Sum API from bioRxiv — 1 operation(s) for sum.
   name: bioRxiv Sum API
   slug: biorxiv-sum-api
-- description: The Usage API from bioRxiv — 1 operation(s) for usage.
+- baseURL: https://api.biorxiv.org
+  baseurl_source: declared
+  description: The Usage API from bioRxiv — 1 operation(s) for usage.
   name: bioRxiv Usage API
   slug: biorxiv-usage-api
 artifact_total: 29
@@ -208,7 +222,7 @@ score:
     regime_id: health
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/screenshots/biorxiv-2026-06-20T173251.png
 security:

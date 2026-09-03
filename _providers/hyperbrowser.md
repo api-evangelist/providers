@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 12
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 108 operations · 52 acting · 12 human-in-the-loop
 api_count: 1
 apis:
-- description: 'Manage cloud Chromium browser sessions: create, list, inspect, update, and stop sessions; retrieve recording, video, and downloads URLs; and run manual CAPTCHA evaluation. Sessions expose a WebSocket '
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: 'Manage cloud Chromium browser sessions: create, list, inspect, update, and stop sessions; retrieve recording, video, and downloads URLs; and run manual CAPTCHA evaluation. Sessions expose a WebSocket '
   name: Hyperbrowser Sessions API
   slug: sessions-api
-- description: Create, list, fetch, and delete persistent browser profiles that retain cookies, local storage, and authenticated state across sessions.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Create, list, fetch, and delete persistent browser profiles that retain cookies, local storage, and authenticated state across sessions.
   name: Hyperbrowser Profiles API
   slug: profiles-api
-- description: Single-page and batch scrape jobs returning HTML, Markdown, links, and screenshots with asynchronous status polling.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Single-page and batch scrape jobs returning HTML, Markdown, links, and screenshots with asynchronous status polling.
   name: Hyperbrowser Scrape API
   slug: scrape-api
-- description: Recursive crawl jobs across many pages with structured page-by-page results and status polling.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Recursive crawl jobs across many pages with structured page-by-page results and status polling.
   name: Hyperbrowser Crawl API
   slug: crawl-api
-- description: Structured data extraction jobs that pull typed records from one or more pages using prompts and JSON schemas.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Structured data extraction jobs that pull typed records from one or more pages using prompts and JSON schemas.
   name: Hyperbrowser Extract API
   slug: extract-api
-- description: Start, stop, and monitor agentic browser tasks across HyperAgent, Browser-Use, Claude Computer Use, Gemini Computer Use, and OpenAI's CUA. Each task runs inside a stealth Hyperbrowser session with liv
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Start, stop, and monitor agentic browser tasks across HyperAgent, Browser-Use, Claude Computer Use, Gemini Computer Use, and OpenAI's CUA. Each task runs inside a stealth Hyperbrowser session with liv
   name: Hyperbrowser Agents API
   slug: agents-api
-- description: Upload and list custom Chrome extensions that can be attached to browser sessions for advanced automation, custom UI, or workflow tooling.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: Upload and list custom Chrome extensions that can be attached to browser sessions for advanced automation, custom UI, or workflow tooling.
   name: Hyperbrowser Extensions API
   slug: extensions-api
-- description: 'Stateless web utilities: fetch a single page, run a web search, or start a crawl. Includes `/x402` micropayment-gated variants of fetch and search for permissionless, pay-per-call usage.'
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: 'Stateless web utilities: fetch a single page, run a web search, or start a crawl. Includes `/x402` micropayment-gated variants of fetch and search for permissionless, pay-per-call usage.'
   name: Hyperbrowser Web API
   slug: web-api
-- description: The Profile API from Hyperbrowser — 2 operation(s) for profile.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: The Profile API from Hyperbrowser — 2 operation(s) for profile.
   name: Hyperbrowser Profile API
   slug: hyperbrowser-profile-api
-- description: The Session API from Hyperbrowser — 8 operation(s) for session.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: The Session API from Hyperbrowser — 8 operation(s) for session.
   name: Hyperbrowser Session API
   slug: hyperbrowser-session-api
-- description: The Task API from Hyperbrowser — 20 operation(s) for task.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: The Task API from Hyperbrowser — 20 operation(s) for task.
   name: Hyperbrowser Task API
   slug: hyperbrowser-task-api
-- description: The X402 API from Hyperbrowser — 2 operation(s) for x402.
+- baseURL: https://api.hyperbrowser.ai
+  baseurl_source: declared
+  description: The X402 API from Hyperbrowser — 2 operation(s) for x402.
   name: Hyperbrowser X402 API
   slug: hyperbrowser-x402-api
 arazzos:
@@ -469,7 +493,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png
 security:

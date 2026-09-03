@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
   name: Instock Articles API
   slug: instock-articles-api
-- description: Inventory resource returns data on the current quantity of article(s) that your organization has uploaded, use it to track articles that are low in stock or out-of-stock and require replenishment in s
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: Inventory resource returns data on the current quantity of article(s) that your organization has uploaded, use it to track articles that are low in stock or out-of-stock and require replenishment in s
   name: Instock Inventory API
   slug: instock-inventory-api
-- description: 'Moves allow to retrieve data on article(s) flow in and out of of a particular site owned by your organization. List moves of all articles or retrieve them for a single article. **Note**: Refine your s'
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: 'Moves allow to retrieve data on article(s) flow in and out of of a particular site owned by your organization. List moves of all articles or retrieve them for a single article. **Note**: Refine your s'
   name: Instock Moves API
   slug: instock-moves-api
-- description: 'Intentions of users of Instock ASRS are represented by `orders` structure. Orders resource allows: * create/update/retrieve records for picking of goods from the ASRS (`customer` orders) * retrieve-on'
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: 'Intentions of users of Instock ASRS are represented by `orders` structure. Orders resource allows: * create/update/retrieve records for picking of goods from the ASRS (`customer` orders) * retrieve-on'
   name: Instock Orders API
   slug: instock-orders-api
-- description: Fulfillment of orders by associates and ASRS is split into chunks called `ordertasks`. An `ordertask` can represent a picking of several lines of customer order, for example. Each ordertask correspond
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: Fulfillment of orders by associates and ASRS is split into chunks called `ordertasks`. An `ordertask` can represent a picking of several lines of customer order, for example. Each ordertask correspond
   name: Instock Ordertasks API
   slug: instock-ordertasks-api
-- description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
+- baseURL: https://api.instock.com/v1
+  baseurl_source: declared
+  description: Each Instock site (or just site) represents a single instance of Instock ASRS. Such instance can represent either physical installation of ASRS or a simulation in sandbox environment. Organization may
   name: Instock Sites API
   slug: instock-sites-api
 artifact_total: 16
@@ -220,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

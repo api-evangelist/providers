@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Predict the age of a person based on their first name. Returns an estimated age, data count used for the prediction, and optionally a country-localized estimate. Supports single name and batch request
   name: Agify.io Predict Age API
   slug: predict-age-api
-- description: Predict a person's age from their first name
+- baseURL: https://api.agify.io
+  baseurl_source: declared
+  description: Predict a person's age from their first name
   name: Agify.io Age Prediction API
   slug: agify-io-age-prediction-api
 artifact_total: 25
@@ -185,7 +187,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:

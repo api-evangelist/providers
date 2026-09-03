@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,43 +47,67 @@ agentic_access:
   summary_line: 37 operations
 api_count: 1
 apis:
-- description: WebSocket streaming API for live market data, described by an AsyncAPI 3.0 contract. Also offers a documented FIX API.
+- baseURL: wss://stream.sifting.io/ws/v1
+  baseurl_source: declared
+  description: WebSocket streaming API for live market data, described by an AsyncAPI 3.0 contract. Also offers a documented FIX API.
   name: SiftingIO Live Stream
   slug: siftingio-live-stream
 - description: LOCALLY-RUN MCP server, not a hosted endpoint. The client launches it (`npx -y siftingio-mcp`, or the Python package) and it runs on the user's own machine, reading the key from SIFTING_API_KEY. 36 to
   name: SiftingIO MCP Server
   slug: siftingio-mcp-server
-- description: Historical OHLC bars for commodities (metals, energy, industrials).
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Historical OHLC bars for commodities (metals, energy, industrials).
   name: SiftingIO Commodities API
   slug: siftingio-commodities-api
-- description: Live currency and token conversion across forex and crypto.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Live currency and token conversion across forex and crypto.
   name: SiftingIO Convert API
   slug: siftingio-convert-api
-- description: Historical OHLCV bars for crypto symbols.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Historical OHLCV bars for crypto symbols.
   name: SiftingIO Crypto API
   slug: siftingio-crypto-api
-- description: On-chain wallet portfolios and historical DEX bars.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: On-chain wallet portfolios and historical DEX bars.
   name: SiftingIO DEX API
   slug: siftingio-dex-api
-- description: US macro economic events.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: US macro economic events.
   name: SiftingIO Economic Calendar API
   slug: siftingio-economiccalendar-api
-- description: 13F institutional holdings.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: 13F institutional holdings.
   name: SiftingIO Filers API
   slug: siftingio-filers-api
-- description: Historical OHLC bars for FX pairs.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Historical OHLC bars for FX pairs.
   name: SiftingIO Forex API
   slug: siftingio-forex-api
-- description: Live market data read from the engine's latest snapshot.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Live market data read from the engine's latest snapshot.
   name: SiftingIO Live API
   slug: siftingio-live-api
-- description: Market catalog, status, hours, and holiday calendars.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Market catalog, status, hours, and holiday calendars.
   name: SiftingIO Markets API
   slug: siftingio-markets-api
-- description: Technical-analysis signals (live and historical) across stocks, forex, crypto, and commodities.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: Technical-analysis signals (live and historical) across stocks, forex, crypto, and commodities.
   name: SiftingIO Signals API
   slug: siftingio-signals-api
-- description: US-equity fundamentals (SEC) and historical bars.
+- baseURL: https://api.sifting.io
+  baseurl_source: declared
+  description: US-equity fundamentals (SEC) and historical bars.
   name: SiftingIO Stocks API
   slug: siftingio-stocks-api
 artifact_total: 21
@@ -321,11 +359,11 @@ score:
   band: strong
   composite: 63.9
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -335,7 +373,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 64.1
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,8 +391,9 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/siftingio/refs/heads/main/screenshots/siftingio-2026-09-02T155422.png
 security:
 - kind: authentication
   name: Siftingio Authentication

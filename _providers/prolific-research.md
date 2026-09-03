@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 49 operations · 25 acting
 api_count: 1
 apis:
-- description: Bulk bonus payments to participants.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Bulk bonus payments to participants.
   name: Prolific Bonuses API
   slug: prolific-research-bonuses-api
-- description: Demographic and screening requirements and eligibility counts.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Demographic and screening requirements and eligibility counts.
   name: Prolific Filters API
   slug: prolific-research-filters-api
-- description: Event webhook subscriptions and signing secrets.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Event webhook subscriptions and signing secrets.
   name: Prolific Hooks API
   slug: prolific-research-hooks-api
-- description: Communicate with participants.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Communicate with participants.
   name: Prolific Messages API
   slug: prolific-research-messages-api
-- description: Saved, dynamic groups of participant IDs used as allowlist/blocklist filters.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Saved, dynamic groups of participant IDs used as allowlist/blocklist filters.
   name: Prolific Participant Groups API
   slug: prolific-research-participant-groups-api
-- description: Organize studies within a workspace.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Organize studies within a workspace.
   name: Prolific Projects API
   slug: prolific-research-projects-api
-- description: Create, publish, and manage research studies.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Create, publish, and manage research studies.
   name: Prolific Studies API
   slug: prolific-research-studies-api
-- description: Review, approve, reject, and return participant submissions.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Review, approve, reject, and return participant submissions.
   name: Prolific Submissions API
   slug: prolific-research-submissions-api
-- description: Authenticated account and user identity.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Authenticated account and user identity.
   name: Prolific Users API
   slug: prolific-research-users-api
-- description: Top-level containers that hold projects, fund studies, and scope teams.
+- baseURL: https://api.prolific.com/api/v1
+  baseurl_source: declared
+  description: Top-level containers that hold projects, fund studies, and scope teams.
   name: Prolific Workspaces API
   slug: prolific-research-workspaces-api
 artifact_total: 28
@@ -190,7 +210,7 @@ score:
   band: developing
   composite: 40.2
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -213,8 +233,9 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/prolific-research/refs/heads/main/screenshots/prolific-research-2026-09-02T152134.png
 security:
 - kind: authentication
   name: Prolific Research Authentication

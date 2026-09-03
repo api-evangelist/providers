@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 92 operations · 37 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Operations about Accounts
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Accounts
   name: Huntress Accounts API
   slug: huntress-accounts-api
-- description: Operations about Actors
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Actors
   name: Huntress Actor API
   slug: huntress-actor-api
-- description: Operations about Agents
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Agents
   name: Huntress Agents API
   slug: huntress-agents-api
-- description: Operations about Escalations
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Escalations
   name: Huntress Escalations API
   slug: huntress-escalations-api
-- description: Operations about External Recons
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about External Recons
   name: Huntress External Recon API
   slug: huntress-external-recon-api
-- description: Operations about Identities
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Identities
   name: Huntress Identities API
   slug: huntress-identities-api
-- description: Operations about Incident Reports
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Incident Reports
   name: Huntress Incident Reports API
   slug: huntress-incident-reports-api
-- description: Operations about Invoices
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Invoices
   name: Huntress Invoices API
   slug: huntress-invoices-api
-- description: Operations about Known VPNs
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Known VPNs
   name: Huntress Known VPNs API
   slug: huntress-known-vpns-api
-- description: Operations about Organizations
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Organizations
   name: Huntress Organizations API
   slug: huntress-organizations-api
-- description: Operations about Platform Actions
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Platform Actions
   name: Huntress Platform Actions API
   slug: huntress-platform-actions-api
-- description: Operations for Reseller-level API credentials. These are mostly the same endpoints available in the rest of the API. However, the account ID is included in the URL, so that you can specify which accou
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations for Reseller-level API credentials. These are mostly the same endpoints available in the rest of the API. However, the account ID is included in the URL, so that you can specify which accou
   name: Huntress Reseller API
   slug: huntress-reseller-api
-- description: Query your SIEM logs programmatically using <a href="https://support.huntress.io/hc/en-us/articles/30113222043155-Searching-Logs-ESQL">ES|QL (Elasticsearch Query Language)</a>.
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Query your SIEM logs programmatically using <a href="https://support.huntress.io/hc/en-us/articles/30113222043155-Searching-Logs-ESQL">ES|QL (Elasticsearch Query Language)</a>.
   name: Huntress SIEM API
   slug: huntress-siem-api
-- description: Operations about Signals
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Signals
   name: Huntress Signals API
   slug: huntress-signals-api
-- description: Operations about Summary Reports
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Summary Reports
   name: Huntress Summary Reports API
   slug: huntress-summary-reports-api
-- description: Operations about Unwanted Access Rules
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Unwanted Access Rules
   name: Huntress Unwanted Access Rules API
   slug: huntress-unwanted-access-rules-api
-- description: Operations about Users
+- baseURL: https://api.huntress.io/v1
+  baseurl_source: declared
+  description: Operations about Users
   name: Huntress Users API
   slug: huntress-users-api
 artifact_total: 44
@@ -324,7 +358,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -334,7 +368,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 51.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,7 +380,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/screenshots/huntress-2026-07-25T221735.png
 security:

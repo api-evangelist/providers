@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,97 +37,155 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 36
 apis:
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
   name: Feedly Threat Graph MCP Server
   slug: feedly-threat-graph-mcp-server
-- description: The Alerts API API from Feedly — 1 operation(s) for alerts api.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Alerts API API from Feedly — 1 operation(s) for alerts api.
   name: Feedly Alerts API
   slug: feedly-alerts-api-api
-- description: The Annotations API API from Feedly — 1 operation(s) for annotations api.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Annotations API API from Feedly — 1 operation(s) for annotations api.
   name: Feedly Annotations API
   slug: feedly-annotations-api-api
-- description: The Contents API from Feedly — 2 operation(s) for contents.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Contents API from Feedly — 2 operation(s) for contents.
   name: Feedly Contents API
   slug: feedly-contents-api
-- description: '> 🚧 Alpha: Custom Agents is a new capability and still under active development. Endpoints, fields, and behavior may change without notice. Custom Agents let enterprise teams stand up their own tables'
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: '> 🚧 Alpha: Custom Agents is a new capability and still under active development. Endpoints, fields, and behavior may change without notice. Custom Agents let enterprise teams stand up their own tables'
   name: Feedly Custom Agents API
   slug: feedly-custom-agents-api
-- description: The CVEs API from Feedly — 2 operation(s) for cves.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The CVEs API from Feedly — 2 operation(s) for cves.
   name: Feedly CV Es API
   slug: feedly-cves-api
-- description: The Detection Rules API from Feedly — 1 operation(s) for detection rules.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Detection Rules API from Feedly — 1 operation(s) for detection rules.
   name: Feedly Detection Rules API
   slug: feedly-detection-rules-api
-- description: The Entities API API from Feedly — 5 operation(s) for entities api.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Entities API API from Feedly — 5 operation(s) for entities api.
   name: Feedly Entities API
   slug: feedly-entities-api-api
-- description: The Entities API from Feedly — 2 operation(s) for entities.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Entities API from Feedly — 2 operation(s) for entities.
   name: Feedly Entities API
   slug: feedly-entities-api
-- description: Manage and retrieve enterprise entity lists
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: Manage and retrieve enterprise entity lists
   name: Feedly Entity Lists API
   slug: feedly-entity-lists-api
-- description: The Entries API from Feedly — 1 operation(s) for entries.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Entries API from Feedly — 1 operation(s) for entries.
   name: Feedly Entries API
   slug: feedly-entries-api
-- description: The Folders API from Feedly — 1 operation(s) for folders.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Folders API from Feedly — 1 operation(s) for folders.
   name: Feedly Folders API
   slug: feedly-folders-api
-- description: The Insight Cards API from Feedly — 1 operation(s) for insight cards.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Insight Cards API from Feedly — 1 operation(s) for insight cards.
   name: Feedly Insight Cards API
   slug: feedly-insight-cards-api
-- description: The Ioc? API from Feedly — 1 operation(s) for ioc?.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Ioc? API from Feedly — 1 operation(s) for ioc?.
   name: Feedly Ioc? API
   slug: feedly-ioc-api
-- description: The Memes API from Feedly — 2 operation(s) for memes.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Memes API from Feedly — 2 operation(s) for memes.
   name: Feedly Memes API
   slug: feedly-memes-api
-- description: The .mget API from Feedly — 1 operation(s) for .mget.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The .mget API from Feedly — 1 operation(s) for .mget.
   name: Feedly .mget API
   slug: feedly-mget-api
-- description: The Ner Gazetteer API from Feedly — 1 operation(s) for ner gazetteer.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Ner Gazetteer API from Feedly — 1 operation(s) for ner gazetteer.
   name: Feedly Ner Gazetteer API
   slug: feedly-ner-gazetteer-api
-- description: The New Malwares API from Feedly — 1 operation(s) for new malwares.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The New Malwares API from Feedly — 1 operation(s) for new malwares.
   name: Feedly New Malwares API
   slug: feedly-new-malwares-api
-- description: The Prediction API from Feedly — 1 operation(s) for prediction.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Prediction API from Feedly — 1 operation(s) for prediction.
   name: Feedly Prediction API
   slug: feedly-prediction-api
-- description: The Rag API from Feedly — 1 operation(s) for rag.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Rag API from Feedly — 1 operation(s) for rag.
   name: Feedly Rag API
   slug: feedly-rag-api
-- description: The Relationships API from Feedly — 5 operation(s) for relationships.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Relationships API from Feedly — 5 operation(s) for relationships.
   name: Feedly Relationships API
   slug: feedly-relationships-api
-- description: The Tags API API from Feedly — 2 operation(s) for tags api.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Tags API API from Feedly — 2 operation(s) for tags api.
   name: Feedly Tags API
   slug: feedly-tags-api-api
-- description: The Tags API from Feedly — 1 operation(s) for tags.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Tags API from Feedly — 1 operation(s) for tags.
   name: Feedly Tags API
   slug: feedly-tags-api
-- description: The Threat Actors API from Feedly — 1 operation(s) for threat actors.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Threat Actors API from Feedly — 1 operation(s) for threat actors.
   name: Feedly Threat Actors API
   slug: feedly-threat-actors-api
-- description: The Threats API from Feedly — 1 operation(s) for threats.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Threats API from Feedly — 1 operation(s) for threats.
   name: Feedly Threats API
   slug: feedly-threats-api
-- description: The Trend Discovery API from Feedly — 1 operation(s) for trend discovery.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Trend Discovery API from Feedly — 1 operation(s) for trend discovery.
   name: Feedly Trend Discovery API
   slug: feedly-trend-discovery-api
-- description: The Triggers API from Feedly — 2 operation(s) for triggers.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Triggers API from Feedly — 2 operation(s) for triggers.
   name: Feedly Triggers API
   slug: feedly-triggers-api
-- description: The Ttp Dashboard API from Feedly — 2 operation(s) for ttp dashboard.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Ttp Dashboard API from Feedly — 2 operation(s) for ttp dashboard.
   name: Feedly Ttp Dashboard API
   slug: feedly-ttp-dashboard-api
-- description: The Users API from Feedly — 1 operation(s) for users.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Users API from Feedly — 1 operation(s) for users.
   name: Feedly Users API
   slug: feedly-users-api
-- description: The Vulnerabilities API from Feedly — 1 operation(s) for vulnerabilities.
+- baseURL: https://api.feedly.com/v3
+  baseurl_source: declared
+  description: The Vulnerabilities API from Feedly — 1 operation(s) for vulnerabilities.
   name: Feedly Vulnerabilities API
   slug: feedly-vulnerabilities-api
 artifact_total: 55
@@ -431,7 +502,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -441,7 +512,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 57.1
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -452,7 +523,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:

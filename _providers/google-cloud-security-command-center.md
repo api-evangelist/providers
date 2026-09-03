@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: Operations for listing and managing cloud assets
+- baseURL: https://securitycenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for listing and managing cloud assets
   name: Google Cloud Security Command Center Assets API
   slug: google-cloud-security-command-center-assets-api
-- description: Operations for managing security findings
+- baseURL: https://securitycenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing security findings
   name: Google Cloud Security Command Center Findings API
   slug: google-cloud-security-command-center-findings-api
-- description: Operations for managing notification configurations
+- baseURL: https://securitycenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing notification configurations
   name: Google Cloud Security Command Center NotificationConfigs API
   slug: google-cloud-security-command-center-notificationconfigs-api
-- description: Operations for managing security sources
+- baseURL: https://securitycenter.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing security sources
   name: Google Cloud Security Command Center Sources API
   slug: google-cloud-security-command-center-sources-api
 artifact_total: 25
@@ -241,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/screenshots/google-cloud-security-command-center-2026-06-20T182136.png
 security:

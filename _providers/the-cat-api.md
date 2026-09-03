@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
-- description: List, search, and retrieve cat breed information.
+- baseURL: https://api.thecatapi.com/v1
+  baseurl_source: declared
+  description: List, search, and retrieve cat breed information.
   name: The Cat API Breeds API
   slug: the-cat-api-breeds-api
-- description: Retrieve available image categories.
+- baseURL: https://api.thecatapi.com/v1
+  baseurl_source: declared
+  description: Retrieve available image categories.
   name: The Cat API Categories API
   slug: the-cat-api-categories-api
-- description: Manage user favourite cat images.
+- baseURL: https://api.thecatapi.com/v1
+  baseurl_source: declared
+  description: Manage user favourite cat images.
   name: The Cat API Favourites API
   slug: the-cat-api-favourites-api
-- description: Search, upload, retrieve, and delete cat images.
+- baseURL: https://api.thecatapi.com/v1
+  baseurl_source: declared
+  description: Search, upload, retrieve, and delete cat images.
   name: The Cat API Images API
   slug: the-cat-api-images-api
-- description: Cast and manage votes on cat images.
+- baseURL: https://api.thecatapi.com/v1
+  baseurl_source: declared
+  description: Cast and manage votes on cat images.
   name: The Cat API Votes API
   slug: the-cat-api-votes-api
 artifact_total: 27
@@ -222,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
 security:

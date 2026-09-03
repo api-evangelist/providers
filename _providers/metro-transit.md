@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 24 operations · 6 acting
 api_count: 4
 apis:
-- description: The Alerts API from Metro Transit — 3 operation(s) for alerts.
+- baseURL: https://svc.metrotransit.org/nextripv2
+  baseurl_source: declared
+  description: The Alerts API from Metro Transit — 3 operation(s) for alerts.
   name: Metro Transit Alerts API
   slug: metro-transit-alerts-api
-- description: The NexTrip API from Metro Transit — 8 operation(s) for nextrip.
+- baseURL: https://svc.metrotransit.org/nextripv2
+  baseurl_source: declared
+  description: The NexTrip API from Metro Transit — 8 operation(s) for nextrip.
   name: Metro Transit NexTrip API
   slug: metro-transit-nextrip-api
-- description: The Planner API from Metro Transit — 8 operation(s) for planner.
+- baseURL: https://svc.metrotransit.org/nextripv2
+  baseurl_source: declared
+  description: The Planner API from Metro Transit — 8 operation(s) for planner.
   name: Metro Transit Planner API
   slug: metro-transit-planner-api
-- description: The Schedule API from Metro Transit — 5 operation(s) for schedule.
+- baseURL: https://svc.metrotransit.org/nextripv2
+  baseurl_source: declared
+  description: The Schedule API from Metro Transit — 5 operation(s) for schedule.
   name: Metro Transit Schedule API
   slug: metro-transit-schedule-api
 artifact_total: 19
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/screenshots/metro-transit-2026-06-20T185302.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,61 +35,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The Assistant API from Metabolon — 2 operation(s) for assistant.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Assistant API from Metabolon — 2 operation(s) for assistant.
   name: Metabolon Assistant API
   slug: metabolon-assistant-api
-- description: The Auth API from Metabolon — 10 operation(s) for auth.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Auth API from Metabolon — 10 operation(s) for auth.
   name: Metabolon Auth API
   slug: metabolon-auth-api
-- description: The Decentralization API from Metabolon — 4 operation(s) for decentralization.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Decentralization API from Metabolon — 4 operation(s) for decentralization.
   name: Metabolon Decentralization API
   slug: metabolon-decentralization-api
-- description: The Eula API from Metabolon — 12 operation(s) for eula.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Eula API from Metabolon — 12 operation(s) for eula.
   name: Metabolon Eula API
   slug: metabolon-eula-api
-- description: The Files API from Metabolon — 34 operation(s) for files.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Files API from Metabolon — 34 operation(s) for files.
   name: Metabolon Files API
   slug: metabolon-files-api
-- description: The Health API from Metabolon — 10 operation(s) for health.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Health API from Metabolon — 10 operation(s) for health.
   name: Metabolon Health API
   slug: metabolon-health-api
-- description: The LabVantageFiles API from Metabolon — 6 operation(s) for labvantagefiles.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The LabVantageFiles API from Metabolon — 6 operation(s) for labvantagefiles.
   name: Metabolon Lab Vantage Files API
   slug: metabolon-labvantagefiles-api
-- description: The PipelineStatus API from Metabolon — 8 operation(s) for pipelinestatus.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The PipelineStatus API from Metabolon — 8 operation(s) for pipelinestatus.
   name: Metabolon Pipeline Status API
   slug: metabolon-pipelinestatus-api
-- description: The Projects API from Metabolon — 18 operation(s) for projects.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Projects API from Metabolon — 18 operation(s) for projects.
   name: Metabolon Projects API
   slug: metabolon-projects-api
-- description: The Reports API from Metabolon — 1 operation(s) for reports.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Reports API from Metabolon — 1 operation(s) for reports.
   name: Metabolon Reports API
   slug: metabolon-reports-api
-- description: The SampleSets API from Metabolon — 2 operation(s) for samplesets.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The SampleSets API from Metabolon — 2 operation(s) for samplesets.
   name: Metabolon Sample Sets API
   slug: metabolon-samplesets-api
-- description: The SampleSetsInfo API from Metabolon — 6 operation(s) for samplesetsinfo.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The SampleSetsInfo API from Metabolon — 6 operation(s) for samplesetsinfo.
   name: Metabolon Sample Sets Info API
   slug: metabolon-samplesetsinfo-api
-- description: The Search API from Metabolon — 1 operation(s) for search.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Search API from Metabolon — 1 operation(s) for search.
   name: Metabolon Search API
   slug: metabolon-search-api
-- description: The SharedFile API from Metabolon — 12 operation(s) for sharedfile.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The SharedFile API from Metabolon — 12 operation(s) for sharedfile.
   name: Metabolon Shared File API
   slug: metabolon-sharedfile-api
-- description: The SpectralData API from Metabolon — 4 operation(s) for spectraldata.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The SpectralData API from Metabolon — 4 operation(s) for spectraldata.
   name: Metabolon Spectral Data API
   slug: metabolon-spectraldata-api
-- description: The Status API from Metabolon — 16 operation(s) for status.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Status API from Metabolon — 16 operation(s) for status.
   name: Metabolon Status API
   slug: metabolon-status-api
-- description: The StudyBuilder API from Metabolon — 6 operation(s) for studybuilder.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The StudyBuilder API from Metabolon — 6 operation(s) for studybuilder.
   name: Metabolon Study Builder API
   slug: metabolon-studybuilder-api
-- description: The Users API from Metabolon — 90 operation(s) for users.
+- baseURL: https://portal-api.prod.metabolon.com
+  baseurl_source: declared
+  description: The Users API from Metabolon — 90 operation(s) for users.
   name: Metabolon Users API
   slug: metabolon-users-api
 artifact_total: 23
@@ -220,7 +268,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -251,8 +299,9 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/metabolon/refs/heads/main/screenshots/metabolon-2026-09-02T150526.png
 security:
 - kind: authentication
   name: Metabolon Authentication

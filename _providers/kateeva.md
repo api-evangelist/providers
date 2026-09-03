@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,28 +45,44 @@ agentic_access:
   summary_line: 21 operations
 api_count: 8
 apis:
-- description: Public, unauthenticated read access to the Kateeva newsroom archive via the WordPress core REST API — press releases, in-the-news coverage, event notices and the Kateeva Blog. Verified live at 152 pub
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the Kateeva newsroom archive via the WordPress core REST API — press releases, in-the-news coverage, event notices and the Kateeva Blog. Verified live at 152 pub
   name: Kateeva Posts API
   slug: kateeva-posts-api
-- description: Public, unauthenticated read access to the static pages of kateeva.com — Company, About, Leadership, History & Awards, Regions, Sustainability, Solutions, Technology, YIELDjet Platform, Products, Appl
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static pages of kateeva.com — Company, About, Leadership, History & Awards, Regions, Sustainability, Solutions, Technology, YIELDjet Platform, Products, Appl
   name: Kateeva Pages API
   slug: kateeva-pages-api
-- description: 'Public, unauthenticated read access to the media library behind kateeva.com — YIELDjet product photography, facility and event imagery, leadership headshots and press assets with their generated size '
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the media library behind kateeva.com — YIELDjet product photography, facility and event imagery, leadership headshots and press assets with their generated size '
   name: Kateeva Media API
   slug: kateeva-media-api
-- description: Public, unauthenticated read access to the classification vocabularies behind the kateeva.com newsroom — the eight post categories (Press releases, In the news, Kateeva Blog, Spotlight on People, Spot
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the classification vocabularies behind the kateeva.com newsroom — the eight post categories (Press releases, In the news, Kateeva Blog, Spotlight on People, Spot
   name: Kateeva Taxonomy API
   slug: kateeva-taxonomy-api
-- description: Public, unauthenticated cross-content search over kateeva.com — the newsroom archive and the static pages — returning lightweight id / title / url / type / subtype records. Verified live at 181 search
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over kateeva.com — the newsroom archive and the static pages — returning lightweight id / title / url / type / subtype records. Verified live at 181 search
   name: Kateeva Search API
   slug: kateeva-search-api
-- description: 'Public, unauthenticated discovery metadata for kateeva.com — the self-describing route index (271 routes across 17 namespaces at capture), the registered content types and taxonomies, the publication '
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated discovery metadata for kateeva.com — the self-describing route index (271 routes across 17 namespaces at capture), the registered content types and taxonomies, the publication '
   name: Kateeva Discovery API
   slug: kateeva-discovery-api
-- description: Public oEmbed 1.0 provider endpoint for kateeva.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any post or page on the site.
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for kateeva.com URLs, returning embeddable rich metadata — title, author, provider, thumbnail and iframe HTML — for any post or page on the site.
   name: Kateeva oEmbed API
   slug: kateeva-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any kateeva.com URL — a structured-data view of every page without scraping the HTML. Th
+- baseURL: https://kateeva.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any kateeva.com URL — a structured-data view of every page without scraping the HTML. Th
   name: Kateeva SEO Metadata API
   slug: kateeva-seo-api
 artifact_total: 13
@@ -237,11 +265,11 @@ score:
   band: emerging
   composite: 20.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -251,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.1
+  previous_composite: 20.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +291,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kateeva/refs/heads/main/screenshots/kateeva-2026-09-02T150024.png
 security:
 - kind: authentication
   name: Kateeva Authentication

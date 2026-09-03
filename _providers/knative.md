@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -50,37 +50,59 @@ apis:
 - description: The Knative CLI (kn) provides a command-line interface for creating and managing Knative resources including Services, Revisions, Routes, event sources, and Brokers. It simplifies tasks like traffic s
   name: Knative CLI (kn)
   slug: knative-cli
-- description: The Apis API from Knative — 2 operation(s) for apis.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: The Apis API from Knative — 2 operation(s) for apis.
   name: Knative Apis API
   slug: knative-apis-api
-- description: Knative Broker resources collect pools of events that can be consumed using Triggers. Brokers provide event routing with filtering, guaranteed delivery, and dead-letter sink support. The default broke
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Broker resources collect pools of events that can be consumed using Triggers. Brokers provide event routing with filtering, guaranteed delivery, and dead-letter sink support. The default broke
   name: Knative Brokers API
   slug: knative-brokers-api
-- description: Knative Channel resources represent a generic pub/sub messaging channel. Channels receive events and fan them out to all Subscriptions. The default channel implementation uses an in-memory channel.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Channel resources represent a generic pub/sub messaging channel. Channels receive events and fan them out to all Subscriptions. The default channel implementation uses an in-memory channel.
   name: Knative Channels API
   slug: knative-channels-api
-- description: Knative Configuration resources maintain the desired state for a deployment by capturing container templates. Each update to a Configuration creates a new immutable Revision.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Configuration resources maintain the desired state for a deployment by capturing container templates. Each update to a Configuration creates a new immutable Revision.
   name: Knative Configurations API
   slug: knative-configurations-api
-- description: Knative DomainMapping resources map a custom domain name to a Knative Service, enabling services to be served under custom hostnames with automatic TLS certificate provisioning.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative DomainMapping resources map a custom domain name to a Knative Service, enabling services to be served under custom hostnames with automatic TLS certificate provisioning.
   name: Knative DomainMappings API
   slug: knative-domainmappings-api
-- description: Knative event source resources connect external event producers to the eventing mesh. Built-in sources include ApiServerSource for Kubernetes API events, PingSource for scheduled events, and SinkBindi
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative event source resources connect external event producers to the eventing mesh. Built-in sources include ApiServerSource for Kubernetes API events, PingSource for scheduled events, and SinkBindi
   name: Knative EventSources API
   slug: knative-eventsources-api
-- description: Knative EventType resources maintain a catalog of event types that can be consumed from Brokers. EventTypes help consumers discover what events are available without inspecting Broker contents directl
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative EventType resources maintain a catalog of event types that can be consumed from Brokers. EventTypes help consumers discover what events are available without inspecting Broker contents directl
   name: Knative EventTypes API
   slug: knative-eventtypes-api
-- description: Knative Revision resources are immutable snapshots of application code and configuration at a point in time. Revisions are created by Configuration updates and are the actual units that are scaled.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Revision resources are immutable snapshots of application code and configuration at a point in time. Revisions are created by Configuration updates and are the actual units that are scaled.
   name: Knative Revisions API
   slug: knative-revisions-api
-- description: Knative Route resources manage the network endpoints and traffic distribution across Revisions. Routes support percentage-based traffic splitting for canary deployments and named route targets.
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Route resources manage the network endpoints and traffic distribution across Revisions. Routes support percentage-based traffic splitting for canary deployments and named route targets.
   name: Knative Routes API
   slug: knative-routes-api
-- description: Knative Subscription resources define a delivery destination for events sent to a Channel. Each Subscription routes events from a Channel to a subscriber destination with optional reply and dead-lette
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: Knative Subscription resources define a delivery destination for events sent to a Channel. Each Subscription routes events from a Channel to a subscriber destination with optional reply and dead-lette
   name: Knative Subscriptions API
   slug: knative-subscriptions-api
-- description: 'Knative Trigger resources define filtered delivery options for events arriving at a Broker. A Trigger selects events by attribute filters and routes matching events to a destination such as a Knative '
+- baseURL: https://kubernetes.default.svc
+  baseurl_source: spec
+  description: 'Knative Trigger resources define filtered delivery options for events arriving at a Broker. A Trigger selects events by attribute filters and routes matching events to a destination such as a Knative '
   name: Knative Triggers API
   slug: knative-triggers-api
 artifact_total: 50
@@ -315,7 +337,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -328,7 +350,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 51.5
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     contracts:
@@ -337,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knative/refs/heads/main/screenshots/knative-2026-06-20T184106.png
 security:

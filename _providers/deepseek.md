@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 4
 apis:
-- description: The Chat API from DeepSeek — 1 operation(s) for chat.
+- baseURL: https://api.deepseek.com
+  baseurl_source: declared
+  description: The Chat API from DeepSeek — 1 operation(s) for chat.
   name: DeepSeek Chat API
   slug: deepseek-chat-api
-- description: The Completions API from DeepSeek — 1 operation(s) for completions.
+- baseURL: https://api.deepseek.com
+  baseurl_source: declared
+  description: The Completions API from DeepSeek — 1 operation(s) for completions.
   name: DeepSeek Completions API
   slug: deepseek-completions-api
-- description: The Models API from DeepSeek — 1 operation(s) for models.
+- baseURL: https://api.deepseek.com
+  baseurl_source: declared
+  description: The Models API from DeepSeek — 1 operation(s) for models.
   name: DeepSeek Models API
   slug: deepseek-models-api
-- description: The User API from DeepSeek — 1 operation(s) for user.
+- baseURL: https://api.deepseek.com
+  baseurl_source: declared
+  description: The User API from DeepSeek — 1 operation(s) for user.
   name: DeepSeek User API
   slug: deepseek-user-api
 artifact_total: 26
@@ -259,7 +267,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -269,7 +277,7 @@ score:
     discoverability: 74.1
     governance: 26.5
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -278,7 +286,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/screenshots/deepseek-2026-06-20T175812.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -43,130 +43,214 @@ agentic_access:
   summary_line: 1302 operations · 759 acting · 29 human-in-the-loop
 api_count: 2
 apis:
-- description: The activations API from Spectro Cloud — 1 operation(s) for activations.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The activations API from Spectro Cloud — 1 operation(s) for activations.
   name: Spectro Cloud activations API
   slug: spectro-cloud-activations-api
-- description: The apiKeys API from Spectro Cloud — 3 operation(s) for apikeys.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The apiKeys API from Spectro Cloud — 3 operation(s) for apikeys.
   name: Spectro Cloud apiKeys API
   slug: spectro-cloud-apikeys-api
-- description: The appDeployments API from Spectro Cloud — 9 operation(s) for appdeployments.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The appDeployments API from Spectro Cloud — 9 operation(s) for appdeployments.
   name: Spectro Cloud appDeployments API
   slug: spectro-cloud-appdeployments-api
-- description: The appProfiles API from Spectro Cloud — 11 operation(s) for appprofiles.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The appProfiles API from Spectro Cloud — 11 operation(s) for appprofiles.
   name: Spectro Cloud appProfiles API
   slug: spectro-cloud-appprofiles-api
-- description: The audits API from Spectro Cloud — 4 operation(s) for audits.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The audits API from Spectro Cloud — 4 operation(s) for audits.
   name: Spectro Cloud audits API
   slug: spectro-cloud-audits-api
-- description: The auth API from Spectro Cloud — 17 operation(s) for auth.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The auth API from Spectro Cloud — 17 operation(s) for auth.
   name: Spectro Cloud auth API
   slug: spectro-cloud-auth-api
-- description: The cloudaccounts API from Spectro Cloud — 32 operation(s) for cloudaccounts.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The cloudaccounts API from Spectro Cloud — 32 operation(s) for cloudaccounts.
   name: Spectro Cloud cloudaccounts API
   slug: spectro-cloud-cloudaccounts-api
-- description: The cloudconfigs API from Spectro Cloud — 87 operation(s) for cloudconfigs.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The cloudconfigs API from Spectro Cloud — 87 operation(s) for cloudconfigs.
   name: Spectro Cloud cloudconfigs API
   slug: spectro-cloud-cloudconfigs-api
-- description: The clouds API from Spectro Cloud — 95 operation(s) for clouds.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The clouds API from Spectro Cloud — 95 operation(s) for clouds.
   name: Spectro Cloud clouds API
   slug: spectro-cloud-clouds-api
-- description: The clustergroups API from Spectro Cloud — 10 operation(s) for clustergroups.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The clustergroups API from Spectro Cloud — 10 operation(s) for clustergroups.
   name: Spectro Cloud clustergroups API
   slug: spectro-cloud-clustergroups-api
-- description: The clusterprofiles API from Spectro Cloud — 26 operation(s) for clusterprofiles.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The clusterprofiles API from Spectro Cloud — 26 operation(s) for clusterprofiles.
   name: Spectro Cloud clusterprofiles API
   slug: spectro-cloud-clusterprofiles-api
-- description: The clusterTemplates API from Spectro Cloud — 11 operation(s) for clustertemplates.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The clusterTemplates API from Spectro Cloud — 11 operation(s) for clustertemplates.
   name: Spectro Cloud clusterTemplates API
   slug: spectro-cloud-clustertemplates-api
-- description: The dashboard API from Spectro Cloud — 61 operation(s) for dashboard.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The dashboard API from Spectro Cloud — 61 operation(s) for dashboard.
   name: Spectro Cloud dashboard API
   slug: spectro-cloud-dashboard-api
-- description: The datasinks API from Spectro Cloud — 1 operation(s) for datasinks.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The datasinks API from Spectro Cloud — 1 operation(s) for datasinks.
   name: Spectro Cloud datasinks API
   slug: spectro-cloud-datasinks-api
-- description: The edge-mgmt API from Spectro Cloud — 64 operation(s) for edge-mgmt.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The edge-mgmt API from Spectro Cloud — 64 operation(s) for edge-mgmt.
   name: Spectro Cloud edge-mgmt API
   slug: spectro-cloud-edge-mgmt-api
-- description: The edgehosts API from Spectro Cloud — 22 operation(s) for edgehosts.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The edgehosts API from Spectro Cloud — 22 operation(s) for edgehosts.
   name: Spectro Cloud edgehosts API
   slug: spectro-cloud-edgehosts-api
-- description: The events API from Spectro Cloud — 3 operation(s) for events.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The events API from Spectro Cloud — 3 operation(s) for events.
   name: Spectro Cloud events API
   slug: spectro-cloud-events-api
-- description: The features API from Spectro Cloud — 2 operation(s) for features.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The features API from Spectro Cloud — 2 operation(s) for features.
   name: Spectro Cloud features API
   slug: spectro-cloud-features-api
-- description: The filters API from Spectro Cloud — 4 operation(s) for filters.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The filters API from Spectro Cloud — 4 operation(s) for filters.
   name: Spectro Cloud filters API
   slug: spectro-cloud-filters-api
-- description: The grpc API from Spectro Cloud — 1 operation(s) for grpc.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The grpc API from Spectro Cloud — 1 operation(s) for grpc.
   name: Spectro Cloud grpc API
   slug: spectro-cloud-grpc-api
-- description: The health API from Spectro Cloud — 2 operation(s) for health.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The health API from Spectro Cloud — 2 operation(s) for health.
   name: Spectro Cloud health API
   slug: spectro-cloud-health-api
-- description: The installers API from Spectro Cloud — 1 operation(s) for installers.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The installers API from Spectro Cloud — 1 operation(s) for installers.
   name: Spectro Cloud installers API
   slug: spectro-cloud-installers-api
-- description: The metrics API from Spectro Cloud — 2 operation(s) for metrics.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The metrics API from Spectro Cloud — 2 operation(s) for metrics.
   name: Spectro Cloud metrics API
   slug: spectro-cloud-metrics-api
-- description: The notifications API from Spectro Cloud — 5 operation(s) for notifications.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The notifications API from Spectro Cloud — 5 operation(s) for notifications.
   name: Spectro Cloud notifications API
   slug: spectro-cloud-notifications-api
-- description: The overlords API from Spectro Cloud — 29 operation(s) for overlords.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The overlords API from Spectro Cloud — 29 operation(s) for overlords.
   name: Spectro Cloud overlords API
   slug: spectro-cloud-overlords-api
-- description: The packs API from Spectro Cloud — 6 operation(s) for packs.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The packs API from Spectro Cloud — 6 operation(s) for packs.
   name: Spectro Cloud packs API
   slug: spectro-cloud-packs-api
-- description: The pcg API from Spectro Cloud — 4 operation(s) for pcg.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The pcg API from Spectro Cloud — 4 operation(s) for pcg.
   name: Spectro Cloud pcg API
   slug: spectro-cloud-pcg-api
-- description: The permissions API from Spectro Cloud — 1 operation(s) for permissions.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The permissions API from Spectro Cloud — 1 operation(s) for permissions.
   name: Spectro Cloud permissions API
   slug: spectro-cloud-permissions-api
-- description: The ping API from Spectro Cloud — 1 operation(s) for ping.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The ping API from Spectro Cloud — 1 operation(s) for ping.
   name: Spectro Cloud ping API
   slug: spectro-cloud-ping-api
-- description: The plans API from Spectro Cloud — 9 operation(s) for plans.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The plans API from Spectro Cloud — 9 operation(s) for plans.
   name: Spectro Cloud plans API
   slug: spectro-cloud-plans-api
-- description: The projects API from Spectro Cloud — 12 operation(s) for projects.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The projects API from Spectro Cloud — 12 operation(s) for projects.
   name: Spectro Cloud projects API
   slug: spectro-cloud-projects-api
-- description: The registries API from Spectro Cloud — 28 operation(s) for registries.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The registries API from Spectro Cloud — 28 operation(s) for registries.
   name: Spectro Cloud registries API
   slug: spectro-cloud-registries-api
-- description: The roles API from Spectro Cloud — 3 operation(s) for roles.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The roles API from Spectro Cloud — 3 operation(s) for roles.
   name: Spectro Cloud roles API
   slug: spectro-cloud-roles-api
-- description: The services API from Spectro Cloud — 2 operation(s) for services.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The services API from Spectro Cloud — 2 operation(s) for services.
   name: Spectro Cloud services API
   slug: spectro-cloud-services-api
-- description: The spcPolicies API from Spectro Cloud — 5 operation(s) for spcpolicies.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The spcPolicies API from Spectro Cloud — 5 operation(s) for spcpolicies.
   name: Spectro Cloud spcPolicies API
   slug: spectro-cloud-spcpolicies-api
-- description: The spectroclusters API from Spectro Cloud — 158 operation(s) for spectroclusters.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The spectroclusters API from Spectro Cloud — 158 operation(s) for spectroclusters.
   name: Spectro Cloud spectroclusters API
   slug: spectro-cloud-spectroclusters-api
-- description: The system API from Spectro Cloud — 95 operation(s) for system.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The system API from Spectro Cloud — 95 operation(s) for system.
   name: Spectro Cloud system API
   slug: spectro-cloud-system-api
-- description: The teams API from Spectro Cloud — 7 operation(s) for teams.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The teams API from Spectro Cloud — 7 operation(s) for teams.
   name: Spectro Cloud teams API
   slug: spectro-cloud-teams-api
-- description: The tenants API from Spectro Cloud — 51 operation(s) for tenants.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The tenants API from Spectro Cloud — 51 operation(s) for tenants.
   name: Spectro Cloud tenants API
   slug: spectro-cloud-tenants-api
-- description: The tunnel API from Spectro Cloud — 1 operation(s) for tunnel.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The tunnel API from Spectro Cloud — 1 operation(s) for tunnel.
   name: Spectro Cloud tunnel API
   slug: spectro-cloud-tunnel-api
-- description: The users API from Spectro Cloud — 44 operation(s) for users.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The users API from Spectro Cloud — 44 operation(s) for users.
   name: Spectro Cloud users API
   slug: spectro-cloud-users-api
-- description: The workspaces API from Spectro Cloud — 14 operation(s) for workspaces.
+- baseURL: https://api.spectrocloud.com
+  baseurl_source: declared
+  description: The workspaces API from Spectro Cloud — 14 operation(s) for workspaces.
   name: Spectro Cloud workspaces API
   slug: spectro-cloud-workspaces-api
 artifact_total: 91
@@ -492,7 +576,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/screenshots/spectro-cloud-2026-08-17T082021.png
 security:

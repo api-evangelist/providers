@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -44,289 +44,479 @@ agentic_access:
   summary_line: 95 operations · 95 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: The Amazon Storage Gateway REST API API from Amazon Storage Gateway — 1 operation(s) for amazon storage gateway rest api.
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon Storage Gateway REST API API from Amazon Storage Gateway — 1 operation(s) for amazon storage gateway rest api.
   name: Amazon Storage Gateway Amazon Storage Gateway REST API API
   slug: amazon-storage-gateway-amazon-storage-gateway-rest-api-api
-- description: 'The #CreateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #createnfsfileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #CreateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #createnfsfileshare.'
   name: 'Amazon Storage Gateway #CreateNFSFileShare API'
   slug: amazon-storage-gateway-createnfsfileshare-api
-- description: 'The #DescribeGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #describegatewayinformation.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #DescribeGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #describegatewayinformation.'
   name: 'Amazon Storage Gateway #DescribeGatewayInformation API'
   slug: amazon-storage-gateway-describegatewayinformation-api
-- description: 'The #ListGateways API from Amazon Storage Gateway — 1 operation(s) for #listgateways.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListGateways API from Amazon Storage Gateway — 1 operation(s) for #listgateways.'
   name: 'Amazon Storage Gateway #ListGateways API'
   slug: amazon-storage-gateway-listgateways-api
-- description: 'The #ListVolumes API from Amazon Storage Gateway — 1 operation(s) for #listvolumes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListVolumes API from Amazon Storage Gateway — 1 operation(s) for #listvolumes.'
   name: 'Amazon Storage Gateway #ListVolumes API'
   slug: amazon-storage-gateway-listvolumes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ActivateGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.activategateway.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ActivateGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.activategateway.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ActivateGateway API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-activategateway-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AddCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addcache.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AddCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addcache.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AddCache API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-addcache-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AddTagsToResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addtagstoresource.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AddTagsToResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addtagstoresource.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AddTagsToResource API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-addtagstoresource-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AddUploadBuffer API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.adduploadbuffer.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AddUploadBuffer API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.adduploadbuffer.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AddUploadBuffer API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-adduploadbuffer-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AddWorkingStorage API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addworkingstorage.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AddWorkingStorage API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.addworkingstorage.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AddWorkingStorage API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-addworkingstorage-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AssignTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.assigntapepool.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AssignTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.assigntapepool.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AssignTapePool API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-assigntapepool-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AssociateFileSystem API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.associatefilesystem.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AssociateFileSystem API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.associatefilesystem.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AssociateFileSystem API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-associatefilesystem-api
-- description: 'The #X Amz Target=StorageGateway 20130630.AttachVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.attachvolume.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.AttachVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.attachvolume.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.AttachVolume API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-attachvolume-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CancelArchival API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.cancelarchival.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CancelArchival API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.cancelarchival.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CancelArchival API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelarchival-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CancelRetrieval API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.cancelretrieval.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CancelRetrieval API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.cancelretrieval.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CancelRetrieval API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-cancelretrieval-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateCachediSCSIVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createcachediscsivolume.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateCachediSCSIVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createcachediscsivolume.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateCachediSCSIVolume API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createcachediscsivolume-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createnfsfileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createnfsfileshare.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateNFSFileShare API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createnfsfileshare-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateSMBFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsmbfileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateSMBFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsmbfileshare.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateSMBFileShare API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsmbfileshare-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateSnapshot API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsnapshot.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateSnapshot API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsnapshot.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateSnapshot API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshot-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateSnapshotFromVolumeRecoveryPoint API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsnapshotfromvolumerecov'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateSnapshotFromVolumeRecoveryPoint API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createsnapshotfromvolumerecov'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateSnapshotFromVolumeRecoveryPoint API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createsnapshotfromvolumerecoverypoint-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateStorediSCSIVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createstorediscsivolume.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateStorediSCSIVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createstorediscsivolume.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateStorediSCSIVolume API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createstorediscsivolume-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapepool.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapepool.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateTapePool API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapepool-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateTapes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.CreateTapeWithBarcode API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapewithbarcode.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.CreateTapeWithBarcode API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.createtapewithbarcode.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.CreateTapeWithBarcode API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-createtapewithbarcode-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteAutomaticTapeCreationPolicy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deleteautomatictapecreationpolicy'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteAutomaticTapeCreationPolicy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deleteautomatictapecreationpolicy'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteAutomaticTapeCreationPolicy API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deleteautomatictapecreationpolicy-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletebandwidthratelimit.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletebandwidthratelimit.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteBandwidthRateLimit API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletebandwidthratelimit-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletechapcredentials.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletechapcredentials.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteChapCredentials API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletechapcredentials-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletefileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletefileshare.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteFileShare API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletefileshare-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletegateway.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletegateway.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteGateway API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletegateway-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletesnapshotschedule.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletesnapshotschedule.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteSnapshotSchedule API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletesnapshotschedule-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteTape API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetape.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteTape API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetape.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteTape API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetape-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteTapeArchive API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetapearchive.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteTapeArchive API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetapearchive.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteTapeArchive API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapearchive-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetapepool.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteTapePool API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletetapepool.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteTapePool API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletetapepool-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DeleteVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletevolume.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DeleteVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.deletevolume.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DeleteVolume API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-deletevolume-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeAvailabilityMonitorTest API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeavailabilitymonitortest.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeAvailabilityMonitorTest API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeavailabilitymonitortest.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeAvailabilityMonitorTest API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeavailabilitymonitortest-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describebandwidthratelimit.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describebandwidthratelimit.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimit API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimit-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimitSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describebandwidthratelimitschedu'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimitSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describebandwidthratelimitschedu'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeBandwidthRateLimitSchedule API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describebandwidthratelimitschedule-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describecache.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describecache.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeCache API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecache-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeCachediSCSIVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describecachediscsivolumes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeCachediSCSIVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describecachediscsivolumes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeCachediSCSIVolumes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describecachediscsivolumes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describechapcredentials.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describechapcredentials.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeChapCredentials API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describechapcredentials-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeFileSystemAssociations API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describefilesystemassociations.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeFileSystemAssociations API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describefilesystemassociations.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeFileSystemAssociations API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describefilesystemassociations-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describegatewayinformation.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describegatewayinformation.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeGatewayInformation API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describegatewayinformation-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeMaintenanceStartTime API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describemaintenancestarttime.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeMaintenanceStartTime API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describemaintenancestarttime.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeMaintenanceStartTime API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describemaintenancestarttime-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeNFSFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describenfsfileshares.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeNFSFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describenfsfileshares.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeNFSFileShares API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describenfsfileshares-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeSMBFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesmbfileshares.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeSMBFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesmbfileshares.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeSMBFileShares API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbfileshares-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeSMBSettings API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesmbsettings.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeSMBSettings API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesmbsettings.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeSMBSettings API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesmbsettings-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesnapshotschedule.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describesnapshotschedule.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeSnapshotSchedule API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describesnapshotschedule-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeStorediSCSIVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describestorediscsivolumes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeStorediSCSIVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describestorediscsivolumes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeStorediSCSIVolumes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describestorediscsivolumes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapeArchives API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetapearchives.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapeArchives API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetapearchives.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeTapeArchives API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapearchives-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapeRecoveryPoints API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetaperecoverypoints.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapeRecoveryPoints API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetaperecoverypoints.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeTapeRecoveryPoints API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetaperecoverypoints-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetapes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describetapes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeTapes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describetapes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeUploadBuffer API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeuploadbuffer.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeUploadBuffer API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeuploadbuffer.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeUploadBuffer API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeuploadbuffer-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeVTLDevices API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describevtldevices.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeVTLDevices API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describevtldevices.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeVTLDevices API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describevtldevices-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DescribeWorkingStorage API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeworkingstorage.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DescribeWorkingStorage API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.describeworkingstorage.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DescribeWorkingStorage API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-describeworkingstorage-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DetachVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.detachvolume.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DetachVolume API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.detachvolume.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DetachVolume API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-detachvolume-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DisableGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.disablegateway.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DisableGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.disablegateway.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DisableGateway API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-disablegateway-api
-- description: 'The #X Amz Target=StorageGateway 20130630.DisassociateFileSystem API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.disassociatefilesystem.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.DisassociateFileSystem API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.disassociatefilesystem.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.DisassociateFileSystem API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-disassociatefilesystem-api
-- description: 'The #X Amz Target=StorageGateway 20130630.JoinDomain API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.joindomain.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.JoinDomain API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.joindomain.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.JoinDomain API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-joindomain-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListAutomaticTapeCreationPolicies API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listautomatictapecreationpolicies'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListAutomaticTapeCreationPolicies API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listautomatictapecreationpolicies'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListAutomaticTapeCreationPolicies API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listautomatictapecreationpolicies-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listfileshares.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListFileShares API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listfileshares.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListFileShares API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfileshares-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListFileSystemAssociations API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listfilesystemassociations.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListFileSystemAssociations API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listfilesystemassociations.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListFileSystemAssociations API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listfilesystemassociations-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListGateways API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listgateways.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListGateways API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listgateways.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListGateways API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listgateways-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListLocalDisks API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listlocaldisks.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListLocalDisks API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listlocaldisks.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListLocalDisks API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listlocaldisks-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListTagsForResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtagsforresource.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListTagsForResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtagsforresource.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListTagsForResource API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtagsforresource-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListTapePools API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtapepools.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListTapePools API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtapepools.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListTapePools API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapepools-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtapes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListTapes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listtapes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListTapes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listtapes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListVolumeInitiators API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumeinitiators.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListVolumeInitiators API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumeinitiators.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListVolumeInitiators API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumeinitiators-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListVolumeRecoveryPoints API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumerecoverypoints.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListVolumeRecoveryPoints API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumerecoverypoints.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListVolumeRecoveryPoints API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumerecoverypoints-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ListVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumes.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ListVolumes API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.listvolumes.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ListVolumes API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-listvolumes-api
-- description: 'The #X Amz Target=StorageGateway 20130630.NotifyWhenUploaded API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.notifywhenuploaded.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.NotifyWhenUploaded API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.notifywhenuploaded.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.NotifyWhenUploaded API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-notifywhenuploaded-api
-- description: 'The #X Amz Target=StorageGateway 20130630.RefreshCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.refreshcache.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.RefreshCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.refreshcache.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.RefreshCache API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-refreshcache-api
-- description: 'The #X Amz Target=StorageGateway 20130630.RemoveTagsFromResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.removetagsfromresource.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.RemoveTagsFromResource API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.removetagsfromresource.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.RemoveTagsFromResource API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-removetagsfromresource-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ResetCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.resetcache.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ResetCache API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.resetcache.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ResetCache API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-resetcache-api
-- description: 'The #X Amz Target=StorageGateway 20130630.RetrieveTapeArchive API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.retrievetapearchive.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.RetrieveTapeArchive API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.retrievetapearchive.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.RetrieveTapeArchive API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetapearchive-api
-- description: 'The #X Amz Target=StorageGateway 20130630.RetrieveTapeRecoveryPoint API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.retrievetaperecoverypoint.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.RetrieveTapeRecoveryPoint API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.retrievetaperecoverypoint.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.RetrieveTapeRecoveryPoint API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-retrievetaperecoverypoint-api
-- description: 'The #X Amz Target=StorageGateway 20130630.SetLocalConsolePassword API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.setlocalconsolepassword.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.SetLocalConsolePassword API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.setlocalconsolepassword.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.SetLocalConsolePassword API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-setlocalconsolepassword-api
-- description: 'The #X Amz Target=StorageGateway 20130630.SetSMBGuestPassword API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.setsmbguestpassword.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.SetSMBGuestPassword API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.setsmbguestpassword.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.SetSMBGuestPassword API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-setsmbguestpassword-api
-- description: 'The #X Amz Target=StorageGateway 20130630.ShutdownGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.shutdowngateway.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.ShutdownGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.shutdowngateway.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.ShutdownGateway API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-shutdowngateway-api
-- description: 'The #X Amz Target=StorageGateway 20130630.StartAvailabilityMonitorTest API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.startavailabilitymonitortest.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.StartAvailabilityMonitorTest API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.startavailabilitymonitortest.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.StartAvailabilityMonitorTest API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-startavailabilitymonitortest-api
-- description: 'The #X Amz Target=StorageGateway 20130630.StartGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.startgateway.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.StartGateway API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.startgateway.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.StartGateway API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-startgateway-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateAutomaticTapeCreationPolicy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updateautomatictapecreationpolicy'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateAutomaticTapeCreationPolicy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updateautomatictapecreationpolicy'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateAutomaticTapeCreationPolicy API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updateautomatictapecreationpolicy-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatebandwidthratelimit.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimit API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatebandwidthratelimit.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimit API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimit-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimitSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatebandwidthratelimitschedule.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimitSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatebandwidthratelimitschedule.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateBandwidthRateLimitSchedule API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatebandwidthratelimitschedule-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatechapcredentials.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateChapCredentials API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatechapcredentials.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateChapCredentials API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatechapcredentials-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateFileSystemAssociation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatefilesystemassociation.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateFileSystemAssociation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatefilesystemassociation.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateFileSystemAssociation API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatefilesystemassociation-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updategatewayinformation.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateGatewayInformation API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updategatewayinformation.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateGatewayInformation API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewayinformation-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateGatewaySoftwareNow API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updategatewaysoftwarenow.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateGatewaySoftwareNow API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updategatewaysoftwarenow.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateGatewaySoftwareNow API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updategatewaysoftwarenow-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateMaintenanceStartTime API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatemaintenancestarttime.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateMaintenanceStartTime API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatemaintenancestarttime.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateMaintenanceStartTime API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatemaintenancestarttime-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatenfsfileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateNFSFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatenfsfileshare.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateNFSFileShare API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatenfsfileshare-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbfileshare.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBFileShare API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbfileshare.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateSMBFileShare API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfileshare-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBFileShareVisibility API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbfilesharevisibility.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBFileShareVisibility API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbfilesharevisibility.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateSMBFileShareVisibility API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbfilesharevisibility-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBLocalGroups API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmblocalgroups.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBLocalGroups API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmblocalgroups.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateSMBLocalGroups API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmblocalgroups-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBSecurityStrategy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbsecuritystrategy.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateSMBSecurityStrategy API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesmbsecuritystrategy.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateSMBSecurityStrategy API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesmbsecuritystrategy-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesnapshotschedule.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateSnapshotSchedule API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatesnapshotschedule.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateSnapshotSchedule API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatesnapshotschedule-api
-- description: 'The #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatevtldevicetype.'
+- baseURL: https://storagegateway.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API from Amazon Storage Gateway — 1 operation(s) for #x amz target=storagegateway 20130630.updatevtldevicetype.'
   name: 'Amazon Storage Gateway #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 artifact_total: 962
@@ -3053,7 +3243,7 @@ score:
       marker_coverage: 0.0
       total: 95
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

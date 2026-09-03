@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 78 operations · 43 acting
 api_count: 21
 apis:
-- description: Postman is the single platform for collaborative API development used by 35+ million developers. It covers the entire API lifecycle - design, build, test, document, mock, monitor, and govern - and now
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Postman is the single platform for collaborative API development used by 35+ million developers. It covers the entire API lifecycle - design, build, test, document, mock, monitor, and govern - and now
   name: Postman
   slug: postman
-- description: The Collections API lets you programmatically create, read, update, and delete Postman Collections including requests, folders, scripts, and environments. Powers CI/CD integration, sync, and collectio
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Collections API lets you programmatically create, read, update, and delete Postman Collections including requests, folders, scripts, and environments. Powers CI/CD integration, sync, and collectio
   name: Postman Collections API
   slug: collections-api
-- description: Manage personal, team, partner, public, and private workspaces. Control visibility, membership, roles, and the elements (collections, environments, mocks, monitors, APIs) attached to each workspace.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Manage personal, team, partner, public, and private workspaces. Control visibility, membership, roles, and the elements (collections, environments, mocks, monitors, APIs) attached to each workspace.
   name: Postman Workspaces API
   slug: workspaces-api
-- description: The Environments API enables programmatic management of Postman environments and global variables, including secret variables stored in the Postman Vault, so you can scope work to dev/staging/prod env
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Environments API enables programmatic management of Postman environments and global variables, including secret variables stored in the Postman Vault, so you can scope work to dev/staging/prod env
   name: Postman Environments API
   slug: environments-api
-- description: 'The Monitors API runs Postman Collections on a recurring schedule to validate API health, performance, and contract conformance. Surfaces metrics, test results, and notification webhooks for incident '
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: 'The Monitors API runs Postman Collections on a recurring schedule to validate API health, performance, and contract conformance. Surfaces metrics, test results, and notification webhooks for incident '
   name: Postman Monitors API
   slug: monitors-api
-- description: The Webhooks API creates webhooks that trigger collection runs with custom payloads, integrating Postman with external systems (GitHub, Slack, custom triggers) for event-driven automation.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Webhooks API creates webhooks that trigger collection runs with custom payloads, integrating Postman with external systems (GitHub, Slack, custom triggers) for event-driven automation.
   name: Postman Webhooks API
   slug: webhooks-api
-- description: The Tags API manages tags applied to APIs, collections, and workspaces for organization, governance reporting, and discoverability across the Private and Public API Networks.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Tags API manages tags applied to APIs, collections, and workspaces for organization, governance reporting, and discoverability across the Private and Public API Networks.
   name: Postman Tags API
   slug: tags-api
 - description: The Billing API exposes account billing information, seat allocation, and resource usage so finance and FinOps teams can integrate Postman consumption into chargeback / showback reporting.
@@ -78,124 +92,204 @@ apis:
 - description: Postman Flows is a visual workflow builder that chains API calls, transformations, and conditional logic. Flows are executable, debuggable, and cloneable documentation that powers AI agent orchestrati
   name: Postman Flows
   slug: flows-api
-- description: Operations for creating and managing mock servers.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for creating and managing mock servers.
   name: Postman Mocks API
   slug: postman-mocks-api
-- description: The analytics API from Postman — 2 operation(s) for analytics.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The analytics API from Postman — 2 operation(s) for analytics.
   name: Postman analytics API
   slug: postman-analytics-api
-- description: The api API from Postman — 16 operation(s) for api.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The api API from Postman — 16 operation(s) for api.
   name: Postman api API
   slug: postman-api-api
-- description: The apiCatalog API from Postman — 11 operation(s) for apicatalog.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The apiCatalog API from Postman — 11 operation(s) for apicatalog.
   name: Postman apiCatalog API
   slug: postman-apicatalog-api
-- description: The apiSecurity API from Postman — 1 operation(s) for apisecurity.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The apiSecurity API from Postman — 1 operation(s) for apisecurity.
   name: Postman apiSecurity API
   slug: postman-apisecurity-api
-- description: The auditLogs API from Postman — 2 operation(s) for auditlogs.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The auditLogs API from Postman — 2 operation(s) for auditlogs.
   name: Postman auditLogs API
   slug: postman-auditlogs-api
-- description: The billing API from Postman — 2 operation(s) for billing.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The billing API from Postman — 2 operation(s) for billing.
   name: Postman billing API
   slug: postman-billing-api
-- description: The collectionAccessKeys API from Postman — 2 operation(s) for collectionaccesskeys.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The collectionAccessKeys API from Postman — 2 operation(s) for collectionaccesskeys.
   name: Postman collectionAccessKeys API
   slug: postman-collectionaccesskeys-api
-- description: The collectionFolders API from Postman — 2 operation(s) for collectionfolders.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The collectionFolders API from Postman — 2 operation(s) for collectionfolders.
   name: Postman collectionFolders API
   slug: postman-collectionfolders-api
-- description: The collectionItems API from Postman — 6 operation(s) for collectionitems.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The collectionItems API from Postman — 6 operation(s) for collectionitems.
   name: Postman collectionItems API
   slug: postman-collectionitems-api
-- description: The collectionRequests API from Postman — 2 operation(s) for collectionrequests.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The collectionRequests API from Postman — 2 operation(s) for collectionrequests.
   name: Postman collectionRequests API
   slug: postman-collectionrequests-api
-- description: The collectionResponses API from Postman — 2 operation(s) for collectionresponses.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The collectionResponses API from Postman — 2 operation(s) for collectionresponses.
   name: Postman collectionResponses API
   slug: postman-collectionresponses-api
-- description: The comments API from Postman — 1 operation(s) for comments.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The comments API from Postman — 1 operation(s) for comments.
   name: Postman comments API
   slug: postman-comments-api
-- description: The components API from Postman — 5 operation(s) for components.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The components API from Postman — 5 operation(s) for components.
   name: Postman components API
   slug: postman-components-api
-- description: The groups API from Postman — 2 operation(s) for groups.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The groups API from Postman — 2 operation(s) for groups.
   name: Postman groups API
   slug: postman-groups-api
-- description: The import API from Postman — 1 operation(s) for import.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The import API from Postman — 1 operation(s) for import.
   name: Postman import API
   slug: postman-import-api
-- description: The oAuth20 API from Postman — 2 operation(s) for oauth20.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The oAuth20 API from Postman — 2 operation(s) for oauth20.
   name: Postman oAuth20 API
   slug: postman-oauth20-api
-- description: The postbot API from Postman — 1 operation(s) for postbot.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The postbot API from Postman — 1 operation(s) for postbot.
   name: Postman postbot API
   slug: postman-postbot-api
-- description: The privateApiNetwork API from Postman — 4 operation(s) for privateapinetwork.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The privateApiNetwork API from Postman — 4 operation(s) for privateapinetwork.
   name: Postman privateApiNetwork API
   slug: postman-privateapinetwork-api
-- description: The pullRequests API from Postman — 2 operation(s) for pullrequests.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The pullRequests API from Postman — 2 operation(s) for pullrequests.
   name: Postman pullRequests API
   slug: postman-pullrequests-api
-- description: The scim API from Postman — 6 operation(s) for scim.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The scim API from Postman — 6 operation(s) for scim.
   name: Postman scim API
   slug: postman-scim-api
-- description: The sdKs API from Postman — 6 operation(s) for sdks.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The sdKs API from Postman — 6 operation(s) for sdks.
   name: Postman sdKs API
   slug: postman-sdks-api
-- description: The search API from Postman — 1 operation(s) for search.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The search API from Postman — 1 operation(s) for search.
   name: Postman search API
   slug: postman-search-api
-- description: The secretScanner API from Postman — 4 operation(s) for secretscanner.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The secretScanner API from Postman — 4 operation(s) for secretscanner.
   name: Postman secretScanner API
   slug: postman-secretscanner-api
-- description: The serviceAccounts API from Postman — 1 operation(s) for serviceaccounts.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The serviceAccounts API from Postman — 1 operation(s) for serviceaccounts.
   name: Postman serviceAccounts API
   slug: postman-serviceaccounts-api
-- description: The specs API from Postman — 14 operation(s) for specs.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The specs API from Postman — 14 operation(s) for specs.
   name: Postman specs API
   slug: postman-specs-api
-- description: The teams API from Postman — 6 operation(s) for teams.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The teams API from Postman — 6 operation(s) for teams.
   name: Postman teams API
   slug: postman-teams-api
-- description: The users API from Postman — 3 operation(s) for users.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The users API from Postman — 3 operation(s) for users.
   name: Postman users API
   slug: postman-users-api
-- description: Operations for managing comments on APIs.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing comments on APIs.
   name: Postman API Comments API
   slug: postman-api-comments-api
-- description: Operations for managing API schemas and specifications.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing API schemas and specifications.
   name: Postman API Schemas API
   slug: postman-api-schemas-api
-- description: Operations for managing API versions.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing API versions.
   name: Postman API Versions API
   slug: postman-api-versions-api
-- description: The Apis API from Postman — 2 operation(s) for apis.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: The Apis API from Postman — 2 operation(s) for apis.
   name: Postman APIS API
   slug: postman-apis-api
-- description: Operations for accessing team audit logs.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for accessing team audit logs.
   name: Postman Audit Logs API
   slug: postman-audit-logs-api
-- description: Operations for running collections and retrieving results.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for running collections and retrieving results.
   name: Postman Collection Runs API
   slug: postman-collection-runs-api
-- description: Operations for managing elements (APIs, collections, workspaces) in the network.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing elements (APIs, collections, workspaces) in the network.
   name: Postman Network Elements API
   slug: postman-network-elements-api
-- description: Operations for managing folders in the private API network.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing folders in the private API network.
   name: Postman Network Folders API
   slug: postman-network-folders-api
-- description: Operations for managing requests to add elements to the network.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing requests to add elements to the network.
   name: Postman Network Requests API
   slug: postman-network-requests-api
-- description: Operations for managing the private API network catalog.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing the private API network catalog.
   name: Postman Private API Network API
   slug: postman-private-api-network-api
-- description: Operations for managing detected secrets and leaked credentials.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing detected secrets and leaked credentials.
   name: Postman Secret Scanner API
   slug: postman-secret-scanner-api
-- description: Operations for managing mock server responses and examples.
+- baseURL: https://api.getpostman.com
+  baseurl_source: declared
+  description: Operations for managing mock server responses and examples.
   name: Postman Server Responses API
   slug: postman-server-responses-api
 arazzos:
@@ -969,23 +1063,23 @@ rules:
   slug: postman-rules
 score:
   band: exemplar
-  composite: 67.0
+  composite: 67.1
   coverage:
     artifact_dirs: 24
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 72.0
+    contract_quality: 72.5
     developer_ergonomics: 73.8
     discoverability: 83.3
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 67.2
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -994,7 +1088,7 @@ score:
       marker_coverage: 58.7
       total: 46
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

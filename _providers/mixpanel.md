@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 54 operations · 30 acting
 api_count: 10
 apis:
-- description: Outbound webhook surfaces delivered by Mixpanel to customer-hosted HTTPS endpoints, covering Custom Alert notifications (fired from reports configured in Project Settings) and Cohort Sync Custom Webho
+- baseURL: https://example.com/mixpanel/webhook
+  baseurl_source: declared
+  description: Outbound webhook surfaces delivered by Mixpanel to customer-hosted HTTPS endpoints, covering Custom Alert notifications (fired from reports configured in Project Settings) and Cohort Sync Custom Webho
   name: Mixpanel Webhooks
   slug: mixpanel-webhooks
-- description: Manage chart annotations for time-based markers
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage chart annotations for time-based markers
   name: Mixpanel Annotations API
   slug: mixpanel-annotations-api
-- description: Manage and query user cohorts
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage and query user cohorts
   name: Mixpanel Cohorts API
   slug: mixpanel-cohorts-api
-- description: Manage warehouse data connections
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage warehouse data connections
   name: Mixpanel Connectors API
   slug: mixpanel-connectors-api
-- description: Submit and check data deletion requests
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Submit and check data deletion requests
   name: Mixpanel Deletion API
   slug: mixpanel-deletion-api
-- description: Track and import event data
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Track and import event data
   name: Mixpanel Events API
   slug: mixpanel-events-api
-- description: Export raw event data
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Export raw event data
   name: Mixpanel Export API
   slug: mixpanel-export-api
-- description: Analyze conversion funnels
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Analyze conversion funnels
   name: Mixpanel Funnels API
   slug: mixpanel-funnels-api
-- description: Manage group analytics profiles
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage group analytics profiles
   name: Mixpanel Group Profiles API
   slug: mixpanel-group-profiles-api
-- description: Manage user identity resolution and merging
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage user identity resolution and merging
   name: Mixpanel Identity API
   slug: mixpanel-identity-api
-- description: Manage and trigger warehouse import runs
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage and trigger warehouse import runs
   name: Mixpanel Imports API
   slug: mixpanel-imports-api
-- description: Query event data with aggregation and breakdowns
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Query event data with aggregation and breakdowns
   name: Mixpanel Insights API
   slug: mixpanel-insights-api
-- description: Manage lookup tables for data enrichment
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage lookup tables for data enrichment
   name: Mixpanel Lookup Tables API
   slug: mixpanel-lookup-tables-api
-- description: Monitor and manage pipeline execution runs
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Monitor and manage pipeline execution runs
   name: Mixpanel Pipeline Runs API
   slug: mixpanel-pipeline-runs-api
-- description: Create and manage data export pipelines
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Create and manage data export pipelines
   name: Mixpanel Pipelines API
   slug: mixpanel-pipelines-api
-- description: Manage service account project access
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage service account project access
   name: Mixpanel Project Memberships API
   slug: mixpanel-project-memberships-api
-- description: Query retention analysis data
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Query retention analysis data
   name: Mixpanel Retention API
   slug: mixpanel-retention-api
-- description: Submit and check data retrieval requests
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Submit and check data retrieval requests
   name: Mixpanel Retrieval API
   slug: mixpanel-retrieval-api
-- description: Manage Lexicon schema definitions
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage Lexicon schema definitions
   name: Mixpanel Schemas API
   slug: mixpanel-schemas-api
-- description: Query event segmentation data over time
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Query event segmentation data over time
   name: Mixpanel Segmentation API
   slug: mixpanel-segmentation-api
-- description: Manage service accounts for API access
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage service accounts for API access
   name: Mixpanel Service Accounts API
   slug: mixpanel-service-accounts-api
-- description: Manage user profile properties
+- baseURL: https://api.mixpanel.com
+  baseurl_source: declared
+  description: Manage user profile properties
   name: Mixpanel User Profiles API
   slug: mixpanel-user-profiles-api
 arazzos:
@@ -680,7 +724,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -690,7 +734,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -699,7 +743,7 @@ score:
       marker_coverage: 0.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:

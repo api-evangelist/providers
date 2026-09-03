@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,9 @@ apis:
 - description: Generate isolines to represent reachable areas.
   name: Isoline API
   slug: isoline
-- description: The Geocode API from Geoapify — 1 operation(s) for geocode.
+- baseURL: https://maps.geoapify.com/maptiles
+  baseurl_source: declared
+  description: The Geocode API from Geoapify — 1 operation(s) for geocode.
   name: Geoapify Geocode API
   slug: geoapify-geocode-api
 artifact_total: 36
@@ -214,7 +216,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/screenshots/geoapify-2026-06-20T181748.png
 security:

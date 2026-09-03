@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 27 operations · 13 acting
 api_count: 1
 apis:
-- description: The Assets API from Synthesia — 3 operation(s) for assets.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Assets API from Synthesia — 3 operation(s) for assets.
   name: Synthesia Assets API
   slug: synthesia-assets-api
-- description: The AuditLogs API from Synthesia — 3 operation(s) for auditlogs.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The AuditLogs API from Synthesia — 3 operation(s) for auditlogs.
   name: Synthesia AuditLogs API
   slug: synthesia-auditlogs-api
-- description: The Dubbing API from Synthesia — 3 operation(s) for dubbing.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Dubbing API from Synthesia — 3 operation(s) for dubbing.
   name: Synthesia Dubbing API
   slug: synthesia-dubbing-api
-- description: The Templates API from Synthesia — 3 operation(s) for templates.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Templates API from Synthesia — 3 operation(s) for templates.
   name: Synthesia Templates API
   slug: synthesia-templates-api
-- description: The Translations API from Synthesia — 4 operation(s) for translations.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Translations API from Synthesia — 4 operation(s) for translations.
   name: Synthesia Translations API
   slug: synthesia-translations-api
-- description: The Videos API from Synthesia — 5 operation(s) for videos.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Videos API from Synthesia — 5 operation(s) for videos.
   name: Synthesia Videos API
   slug: synthesia-videos-api
-- description: The Webhooks API from Synthesia — 2 operation(s) for webhooks.
+- baseURL: https://api.synthesia.io/v2
+  baseurl_source: declared
+  description: The Webhooks API from Synthesia — 2 operation(s) for webhooks.
   name: Synthesia Webhooks API
   slug: synthesia-webhooks-api
 artifact_total: 22
@@ -195,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthesia/refs/heads/main/screenshots/synthesia-2026-06-20T194840.png
 security:

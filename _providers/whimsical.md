@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: Whimsical exposes SCIM 2.0 (and only SCIM) for programmatic user provisioning; there is no separate REST endpoint for user management. Available on plans with SCIM support (Enterprise).
   name: Whimsical SCIM 2.0 API
   slug: whimsical-scim
-- description: The Comments.list API from Whimsical — 1 operation(s) for comments.list.
+- baseURL: https://whimsical.com/api
+  baseurl_source: declared
+  description: The Comments.list API from Whimsical — 1 operation(s) for comments.list.
   name: Whimsical Comments.list API
   slug: whimsical-comments-list-api
-- description: The Files.get API from Whimsical — 1 operation(s) for files.get.
+- baseURL: https://whimsical.com/api
+  baseurl_source: declared
+  description: The Files.get API from Whimsical — 1 operation(s) for files.get.
   name: Whimsical Files.get API
   slug: whimsical-files-get-api
-- description: The Files.list API from Whimsical — 1 operation(s) for files.list.
+- baseURL: https://whimsical.com/api
+  baseurl_source: declared
+  description: The Files.list API from Whimsical — 1 operation(s) for files.list.
   name: Whimsical Files.list API
   slug: whimsical-files-list-api
-- description: The Teams.list API from Whimsical — 1 operation(s) for teams.list.
+- baseURL: https://whimsical.com/api
+  baseurl_source: declared
+  description: The Teams.list API from Whimsical — 1 operation(s) for teams.list.
   name: Whimsical Teams.list API
   slug: whimsical-teams-list-api
-- description: The Users.get API from Whimsical — 1 operation(s) for users.get.
+- baseURL: https://whimsical.com/api
+  baseurl_source: declared
+  description: The Users.get API from Whimsical — 1 operation(s) for users.get.
   name: Whimsical Users.get API
   slug: whimsical-users-get-api
 artifact_total: 22
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whimsical/refs/heads/main/screenshots/whimsical-2026-06-20T201434.png
 security:

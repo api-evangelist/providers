@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -50,73 +50,119 @@ apis:
 - description: Public corporate website for AmeriHealth Caritas, hosting the family-of-plans health plan finder, solutions overview, careers, member and provider portals for the federated state plans, and pointers t
   name: AmeriHealth Caritas Corporate Website
   slug: website
-- description: The AllergyIntolerance FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The AllergyIntolerance FHIR resource type
   name: AmeriHealth Caritas AllergyIntolerance API
   slug: amerihealth-caritas-allergyintolerance-api
-- description: The Claim FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Claim FHIR resource type
   name: AmeriHealth Caritas Claim API
   slug: amerihealth-caritas-claim-api
-- description: The Condition FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Condition FHIR resource type
   name: AmeriHealth Caritas Condition API
   slug: amerihealth-caritas-condition-api
-- description: The Coverage FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Coverage FHIR resource type
   name: AmeriHealth Caritas Coverage API
   slug: amerihealth-caritas-coverage-api
-- description: The Encounter FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Encounter FHIR resource type
   name: AmeriHealth Caritas Encounter API
   slug: amerihealth-caritas-encounter-api
-- description: The ExplanationOfBenefit FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The ExplanationOfBenefit FHIR resource type
   name: AmeriHealth Caritas ExplanationOfBenefit API
   slug: amerihealth-caritas-explanationofbenefit-api
-- description: The HealthcareService FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The HealthcareService FHIR resource type
   name: AmeriHealth Caritas HealthcareService API
   slug: amerihealth-caritas-healthcareservice-api
-- description: The Immunization FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Immunization FHIR resource type
   name: AmeriHealth Caritas Immunization API
   slug: amerihealth-caritas-immunization-api
-- description: The InsurancePlan FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The InsurancePlan FHIR resource type
   name: AmeriHealth Caritas InsurancePlan API
   slug: amerihealth-caritas-insuranceplan-api
-- description: The List FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The List FHIR resource type
   name: AmeriHealth Caritas List API
   slug: amerihealth-caritas-list-api
-- description: The Location FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Location FHIR resource type
   name: AmeriHealth Caritas Location API
   slug: amerihealth-caritas-location-api
-- description: The Medication FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Medication FHIR resource type
   name: AmeriHealth Caritas Medication API
   slug: amerihealth-caritas-medication-api
-- description: The MedicationDispense FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The MedicationDispense FHIR resource type
   name: AmeriHealth Caritas MedicationDispense API
   slug: amerihealth-caritas-medicationdispense-api
-- description: The MedicationKnowledge FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The MedicationKnowledge FHIR resource type
   name: AmeriHealth Caritas MedicationKnowledge API
   slug: amerihealth-caritas-medicationknowledge-api
-- description: The MedicationRequest FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The MedicationRequest FHIR resource type
   name: AmeriHealth Caritas MedicationRequest API
   slug: amerihealth-caritas-medicationrequest-api
-- description: The Observation FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Observation FHIR resource type
   name: AmeriHealth Caritas Observation API
   slug: amerihealth-caritas-observation-api
-- description: The Organization FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Organization FHIR resource type
   name: AmeriHealth Caritas Organization API
   slug: amerihealth-caritas-organization-api
-- description: The OrganizationAffiliation FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The OrganizationAffiliation FHIR resource type
   name: AmeriHealth Caritas OrganizationAffiliation API
   slug: amerihealth-caritas-organizationaffiliation-api
-- description: The Patient FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Patient FHIR resource type
   name: AmeriHealth Caritas Patient API
   slug: amerihealth-caritas-patient-api
-- description: The Practitioner FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Practitioner FHIR resource type
   name: AmeriHealth Caritas Practitioner API
   slug: amerihealth-caritas-practitioner-api
-- description: The PractitionerRole FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The PractitionerRole FHIR resource type
   name: AmeriHealth Caritas PractitionerRole API
   slug: amerihealth-caritas-practitionerrole-api
-- description: The Procedure FHIR resource type
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: The Procedure FHIR resource type
   name: AmeriHealth Caritas Procedure API
   slug: amerihealth-caritas-procedure-api
-- description: Server-level operations
+- baseURL: https://api-ext.amerihealthcaritas.com/0500/patient-api
+  baseurl_source: declared
+  description: Server-level operations
   name: AmeriHealth Caritas System Level Operations API
   slug: amerihealth-caritas-system-level-operations-api
 artifact_total: 102
@@ -461,7 +507,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:

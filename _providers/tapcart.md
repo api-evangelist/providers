@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Insights (Insights Pro) Metrics API returns aggregated analytics for a Tapcart app from a single POST endpoint whose response shape varies by the requested metricType — push explorer, sessions, re
@@ -32,19 +44,29 @@ apis:
 - description: Tapcart's clickstream webhook delivers realtime shopper behavioral events from the mobile app to an HTTPS endpoint the merchant configures in the Tapcart dashboard. Fifteen event types are eligible fo
   name: Tapcart Clickstream Webhook
   slug: clickstream-webhook
-- description: The Development API - Block Templates API from Tapcart — 4 operation(s) for development api - block templates.
+- baseURL: https://api.tapcart.com
+  baseurl_source: declared
+  description: The Development API - Block Templates API from Tapcart — 4 operation(s) for development api - block templates.
   name: Tapcart Development API - Block Templates API
   slug: tapcart-development-api-block-templates-api
-- description: The Development API - Blocks API from Tapcart — 1 operation(s) for development api - blocks.
+- baseURL: https://api.tapcart.com
+  baseurl_source: declared
+  description: The Development API - Blocks API from Tapcart — 1 operation(s) for development api - blocks.
   name: Tapcart Development API - Blocks API
   slug: tapcart-development-api-blocks-api
-- description: The Development API - Components API from Tapcart — 5 operation(s) for development api - components.
+- baseURL: https://api.tapcart.com
+  baseurl_source: declared
+  description: The Development API - Components API from Tapcart — 5 operation(s) for development api - components.
   name: Tapcart Development API - Components API
   slug: tapcart-development-api-components-api
-- description: The Development API - Dependencies API from Tapcart — 1 operation(s) for development api - dependencies.
+- baseURL: https://api.tapcart.com
+  baseurl_source: declared
+  description: The Development API - Dependencies API from Tapcart — 1 operation(s) for development api - dependencies.
   name: Tapcart Development API - Dependencies API
   slug: tapcart-development-api-dependencies-api
-- description: The Development API - Layouts API from Tapcart — 1 operation(s) for development api - layouts.
+- baseURL: https://api.tapcart.com
+  baseurl_source: declared
+  description: The Development API - Layouts API from Tapcart — 1 operation(s) for development api - layouts.
   name: Tapcart Development API - Layouts API
   slug: tapcart-development-api-layouts-api
 artifact_total: 18
@@ -248,7 +270,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -258,7 +280,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 51.6
+  previous_composite: 51.4
   provenance:
     conformance: derived
     contracts:
@@ -269,7 +291,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/screenshots/tapcart-2026-08-17T082251.png
 security:

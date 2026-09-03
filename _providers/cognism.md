@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,22 +45,34 @@ agentic_access:
   summary_line: 25 operations · 1 acting
 api_count: 6
 apis:
-- description: Opt-out list lookups for GDPR/CCPA suppression.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Opt-out list lookups for GDPR/CCPA suppression.
   name: Cognism Compliance API
   slug: cognism-compliance-api
-- description: Match a record you already hold to a Cognism record.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Match a record you already hold to a Cognism record.
   name: Cognism Enrich API
   slug: cognism-enrich-api
-- description: Read which fields your organisation is licensed for.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Read which fields your organisation is licensed for.
   name: Cognism Entitlement API
   slug: cognism-entitlement-api
-- description: Reference lists of values the search filters accept.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Reference lists of values the search filters accept.
   name: Cognism Filter API
   slug: cognism-filter-api
-- description: Exchange a redeem ID for the full record.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Exchange a redeem ID for the full record.
   name: Cognism Redeem API
   slug: cognism-redeem-api
-- description: Find contacts and companies matching a filter set.
+- baseURL: https://app.cognism.com
+  baseurl_source: declared
+  description: Find contacts and companies matching a filter set.
   name: Cognism Search API
   slug: cognism-search-api
 artifact_total: 48
@@ -336,7 +348,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/screenshots/cognism-2026-06-20T174713.png
 security:

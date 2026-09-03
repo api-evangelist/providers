@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 5
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 66 operations · 43 acting · 5 human-in-the-loop
 api_count: 4
 apis:
-- description: The Statsig Events API handles the ingestion of event data from both client and server SDKs. It receives exposure events, custom events, and diagnostic data at the events.statsigapi.net endpoint. This
+- baseURL: https://events.statsigapi.net
+  baseurl_source: declared
+  description: The Statsig Events API handles the ingestion of event data from both client and server SDKs. It receives exposure events, custom events, and diagnostic data at the events.statsigapi.net endpoint. This
   name: Statsig Events API
   slug: events-api
-- description: Access audit log entries tracking changes made to project configuration through the console or API.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Access audit log entries tracking changes made to project configuration through the console or API.
   name: statsig Audit Logs API
   slug: statsig-audit-logs-api
-- description: Manage autotune configurations that automatically optimize parameter values based on a target metric.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage autotune configurations that automatically optimize parameter values based on a target metric.
   name: statsig Autotunes API
   slug: statsig-autotunes-api
-- description: Endpoints for downloading full project configuration specs for server-side local evaluation.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Endpoints for downloading full project configuration specs for server-side local evaluation.
   name: statsig Configuration API
   slug: statsig-configuration-api
-- description: Manage dynamic configurations with full CRUD operations for server-driven configuration values.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage dynamic configurations with full CRUD operations for server-driven configuration values.
   name: statsig Dynamic Configs API
   slug: statsig-dynamic-configs-api
-- description: Manage A/B test experiments including creation, configuration, starting, resetting, and analysis.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage A/B test experiments including creation, configuration, starting, resetting, and analysis.
   name: statsig Experiments API
   slug: statsig-experiments-api
-- description: Endpoints for evaluating feature gates for users, returning boolean pass/fail values along with rule identification.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Endpoints for evaluating feature gates for users, returning boolean pass/fail values along with rule identification.
   name: statsig Feature Gates API
   slug: statsig-feature-gates-api
-- description: Manage feature gates including creation, updates, rules, overrides, enabling, disabling, launching, and archiving.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage feature gates including creation, updates, rules, overrides, enabling, disabling, launching, and archiving.
   name: statsig Gates API
   slug: statsig-gates-api
-- description: Manage holdout groups that exclude users from receiving specific features for measuring long-term impact.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage holdout groups that exclude users from receiving specific features for measuring long-term impact.
   name: statsig Holdouts API
   slug: statsig-holdouts-api
-- description: Endpoints for initializing client SDKs with all evaluated feature gates, configs, experiments, and layers for a given user.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Endpoints for initializing client SDKs with all evaluated feature gates, configs, experiments, and layers for a given user.
   name: statsig Initialization API
   slug: statsig-initialization-api
-- description: Manage API keys for the project including server secret keys, client SDK keys, and console API keys.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage API keys for the project including server secret keys, client SDK keys, and console API keys.
   name: statsig Keys API
   slug: statsig-keys-api
-- description: Manage layers that enable sharing parameters across multiple experiments while maintaining mutual exclusivity.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage layers that enable sharing parameters across multiple experiments while maintaining mutual exclusivity.
   name: statsig Layers API
   slug: statsig-layers-api
-- description: Access and manage metric definitions and metric sources used in experiment analysis.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Access and manage metric definitions and metric sources used in experiment analysis.
   name: statsig Metrics API
   slug: statsig-metrics-api
-- description: Manage user segments for targeting rules across gates, configs, and experiments.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage user segments for targeting rules across gates, configs, and experiments.
   name: statsig Segments API
   slug: statsig-segments-api
-- description: The Tags API from statsig — 1 operation(s) for tags.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: The Tags API from statsig — 1 operation(s) for tags.
   name: statsig Tags API
   slug: statsig-tags-api
-- description: Manage target application definitions that scope feature configurations to specific applications.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage target application definitions that scope feature configurations to specific applications.
   name: statsig Target Apps API
   slug: statsig-target-apps-api
-- description: Manage user data and lookup user properties within the Statsig project.
+- baseURL: https://api.statsig.com
+  baseurl_source: declared
+  description: Manage user data and lookup user properties within the Statsig project.
   name: statsig Users API
   slug: statsig-users-api
 artifact_total: 63
@@ -284,16 +318,16 @@ jsonld:
   slug: statsig-context
 layout: provider
 modified: '2026-05-19'
-name: statsig
+name: Statsig
 nav: Providers
 network: true
-overview: 'statsig publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Events API, Audit Logs API, Autotunes API, and 14 more.
+overview: 'Statsig publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Events API, Audit Logs API, Autotunes API, and 14 more.
 
 
-  The statsig catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Statsig catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  statsig''s developer surface includes authentication and 15 more developer resources.'
+  Statsig''s developer surface includes authentication and 15 more developer resources.'
 plans:
 - name: Statsig Plans Pricing
   plan_count: 3
@@ -307,7 +341,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: statsig API Rules
+  name: Statsig API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -317,7 +351,7 @@ rules:
   slug: statsig-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: statsig API Rules
+  name: Statsig API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -328,7 +362,7 @@ rules:
 - effective_rule_count: 51
   extends:
   - spectral:oas
-  name: statsig API Rules
+  name: Statsig API Rules
   rule_count: 10
   severity_counts:
     error: 2
@@ -344,17 +378,17 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 72.5
+    contract_quality: 72.6
     developer_ergonomics: 21.4
     discoverability: 57.4
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -364,10 +398,10 @@ score:
       total: 18
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/screenshots/statsig-2026-06-20T194528.png
 security:

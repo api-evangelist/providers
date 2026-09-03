@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 19 operations · 8 acting
 api_count: 1
 apis:
-- description: Properties / listings in the Smoobu account.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: Properties / listings in the Smoobu account.
   name: Smoobu Apartments API
   slug: smoobu-apartments-api
-- description: Guest contact records.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: Guest contact records.
   name: Smoobu Guests API
   slug: smoobu-guests-api
-- description: Reservation messages and unified inbox threads.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: Reservation messages and unified inbox threads.
   name: Smoobu Messaging API
   slug: smoobu-messaging-api
-- description: Daily rates, prices, availability, and booking availability checks.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: Daily rates, prices, availability, and booking availability checks.
   name: Smoobu Rates and Availability API
   slug: smoobu-rates-and-availability-api
-- description: Bookings across all connected channels and their price elements.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: Bookings across all connected channels and their price elements.
   name: Smoobu Reservations API
   slug: smoobu-reservations-api
-- description: The authenticated Smoobu account.
+- baseURL: https://login.smoobu.com/api
+  baseurl_source: declared
+  description: The authenticated Smoobu account.
   name: Smoobu User API
   slug: smoobu-user-api
 artifact_total: 20
@@ -162,7 +174,7 @@ score:
   band: developing
   composite: 39.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -185,8 +197,9 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/screenshots/smoobu-2026-09-02T155950.png
 security:
 - kind: authentication
   name: Smoobu Authentication

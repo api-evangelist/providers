@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The Documents API from Scribe — 2 operation(s) for documents.
+- baseURL: https://public-api.scribehow.com
+  baseurl_source: declared
+  description: The Documents API from Scribe — 2 operation(s) for documents.
   name: Scribe Documents API
   slug: scribe-documents-api
-- description: The Search API from Scribe — 1 operation(s) for search.
+- baseURL: https://public-api.scribehow.com
+  baseurl_source: declared
+  description: The Search API from Scribe — 1 operation(s) for search.
   name: Scribe Search API
   slug: scribe-search-api
-- description: The Teams API from Scribe — 1 operation(s) for teams.
+- baseURL: https://public-api.scribehow.com
+  baseurl_source: declared
+  description: The Teams API from Scribe — 1 operation(s) for teams.
   name: Scribe Teams API
   slug: scribe-teams-api
 artifact_total: 13
@@ -226,7 +232,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/screenshots/scribe-2026-08-17T081843.png
 security:

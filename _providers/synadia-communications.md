@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,13 +37,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The REST control-plane API behind Synadia Cloud and the self-hosted Synadia Control Plane. 245 operations across 158 paths manage systems, accounts, teams, NATS users, JetStream streams, consumers, ke
+- baseURL: https://cloud.synadia.com/api
+  baseurl_source: declared
+  description: The REST control-plane API behind Synadia Cloud and the self-hosted Synadia Control Plane. 245 operations across 158 paths manage systems, accounts, teams, NATS users, JetStream streams, consumers, ke
   name: Synadia Control Plane / Synadia Cloud API
   slug: synadia-communications-control-plane
-- description: A first-class RESTful HTTP interface to NATS, hosted by Synadia Cloud at api.ngs.global. 30 operations expose the NATS key-value store and its management surface, the object store and its management s
+- baseURL: https://api.ngs.global/v1
+  baseurl_source: declared
+  description: A first-class RESTful HTTP interface to NATS, hosted by Synadia Cloud at api.ngs.global. 30 operations expose the NATS key-value store and its management surface, the object store and its management s
   name: Synadia Cloud NATS HTTP Gateway
   slug: synadia-communications-http-gateway
 artifact_total: 10
@@ -209,23 +227,23 @@ rate_limits:
   slug: synadia-communications-rate-limits
 score:
   band: strong
-  composite: 63.1
+  composite: 64.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.9
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 56.1
+    contract_quality: 59.5
     developer_ergonomics: 85.7
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 62.9
+  previous_composite: 63.1
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +254,9 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/screenshots/synadia-communications-2026-09-02T161447.png
 security:
 - kind: authentication
   name: Synadia Communications Authentication

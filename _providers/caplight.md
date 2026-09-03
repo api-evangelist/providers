@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -36,52 +48,84 @@ apis:
 - description: Hosted, remote MCP server that connects Claude.ai and Claude Desktop to the Caplight dataset. Caplight documents 15 tools spanning live MarketPrice quotes and price history, the secondary order book a
   name: Caplight MCP Server
   slug: caplight-mcp-server
-- description: The Companies API from Caplight — 1 operation(s) for companies.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Companies API from Caplight — 1 operation(s) for companies.
   name: Caplight Companies API
   slug: caplight-companies-api
-- description: The Company API from Caplight — 3 operation(s) for company.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Company API from Caplight — 3 operation(s) for company.
   name: Caplight Company API
   slug: caplight-company-api
-- description: 'Canonical Company resource: identity (name, legal name, location), descriptions, and the latest LLM-generated firmographic tags (sectors / verticals / keywords with attribution).'
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: 'Canonical Company resource: identity (name, legal name, location), descriptions, and the latest LLM-generated firmographic tags (sectors / verticals / keywords with attribution).'
   name: Caplight Company Details API
   slug: caplight-company-details-api
-- description: COI (Certificate of Incorporation) filings and related company documents
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: COI (Certificate of Incorporation) filings and related company documents
   name: Caplight Company Filings API
   slug: caplight-company-filings-api
-- description: Resolves company domains, PitchBook IDs and v1 company IDs to v2 company IDs, in batches.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Resolves company domains, PitchBook IDs and v1 company IDs to v2 company IDs, in batches.
   name: Caplight Company Lookup API
   slug: caplight-company-lookup-api
-- description: The Composite Index API from Caplight — 3 operation(s) for composite index.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Composite Index API from Caplight — 3 operation(s) for composite index.
   name: Caplight Composite Index API
   slug: caplight-composite-index-api
-- description: LLM-discovered comparable companies with an overall similarity score, a per-dimension breakdown, a classification, and a short rationale.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: LLM-discovered comparable companies with an overall similarity score, a per-dimension breakdown, a classification, and a short rationale.
   name: Caplight Comps API
   slug: caplight-comps-api
-- description: Mutual fund mark-to-market valuations from SEC filings
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Mutual fund mark-to-market valuations from SEC filings
   name: Caplight Fund Marks API
   slug: caplight-fund-marks-api
-- description: Funding round data including amounts, valuations, participants, and citations
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Funding round data including amounts, valuations, participants, and citations
   name: Caplight Funding Rounds API
   slug: caplight-funding-rounds-api
-- description: Investor participation data for companies
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Investor participation data for companies
   name: Caplight Investors API
   slug: caplight-investors-api
-- description: The Live Orderbook API from Caplight — 1 operation(s) for live orderbook.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Live Orderbook API from Caplight — 1 operation(s) for live orderbook.
   name: Caplight Live Orderbook API
   slug: caplight-live-orderbook-api
-- description: Caplight's proprietary MarketPrice estimate, calculated using executed trades, company primary rounds, bids/offers, fund marks, 409a valuations, and comps performance.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Caplight's proprietary MarketPrice estimate, calculated using executed trades, company primary rounds, bids/offers, fund marks, 409a valuations, and comps performance.
   name: Caplight Market Price API
   slug: caplight-marketprice-api
-- description: Company news articles with sentiment analysis
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: Company news articles with sentiment analysis
   name: Caplight News API
   slug: caplight-news-api
-- description: The Order History API from Caplight — 1 operation(s) for order history.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Order History API from Caplight — 1 operation(s) for order history.
   name: Caplight Order History API
   slug: caplight-order-history-api
-- description: The Stock Splits API from Caplight — 1 operation(s) for stock splits.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Stock Splits API from Caplight — 1 operation(s) for stock splits.
   name: Caplight Stock Splits API
   slug: caplight-stock-splits-api
-- description: The Trade History API from Caplight — 1 operation(s) for trade history.
+- baseURL: https://us-central1-caplight-prod.cloudfunctions.net/api/public
+  baseurl_source: declared
+  description: The Trade History API from Caplight — 1 operation(s) for trade history.
   name: Caplight Trade History API
   slug: caplight-trade-history-api
 artifact_total: 39
@@ -306,7 +350,7 @@ score:
     regime_id: securities_market_data
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png
 security:

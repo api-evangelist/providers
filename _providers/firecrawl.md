@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 31 operations · 17 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Firecrawl — 1 operation(s) for account.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Account API from Firecrawl — 1 operation(s) for account.
   name: Firecrawl Account API
   slug: firecrawl-account-api
-- description: The Agent API from Firecrawl — 2 operation(s) for agent.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Agent API from Firecrawl — 2 operation(s) for agent.
   name: Firecrawl Agent API
   slug: firecrawl-agent-api
-- description: The Billing API from Firecrawl — 4 operation(s) for billing.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Billing API from Firecrawl — 4 operation(s) for billing.
   name: Firecrawl Billing API
   slug: firecrawl-billing-api
-- description: The Browser API from Firecrawl — 3 operation(s) for browser.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Browser API from Firecrawl — 3 operation(s) for browser.
   name: Firecrawl Browser API
   slug: firecrawl-browser-api
-- description: The Crawling API from Firecrawl — 5 operation(s) for crawling.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Crawling API from Firecrawl — 5 operation(s) for crawling.
   name: Firecrawl Crawling API
   slug: firecrawl-crawling-api
-- description: The Extraction API from Firecrawl — 2 operation(s) for extraction.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Extraction API from Firecrawl — 2 operation(s) for extraction.
   name: Firecrawl Extraction API
   slug: firecrawl-extraction-api
-- description: The Mapping API from Firecrawl — 1 operation(s) for mapping.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Mapping API from Firecrawl — 1 operation(s) for mapping.
   name: Firecrawl Mapping API
   slug: firecrawl-mapping-api
-- description: The Miscellaneous API from Firecrawl — 1 operation(s) for miscellaneous.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Miscellaneous API from Firecrawl — 1 operation(s) for miscellaneous.
   name: Firecrawl Miscellaneous API
   slug: firecrawl-miscellaneous-api
-- description: The Scraping API from Firecrawl — 6 operation(s) for scraping.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Scraping API from Firecrawl — 6 operation(s) for scraping.
   name: Firecrawl Scraping API
   slug: firecrawl-scraping-api
-- description: The Search API from Firecrawl — 1 operation(s) for search.
+- baseURL: https://api.firecrawl.dev/v2
+  baseurl_source: declared
+  description: The Search API from Firecrawl — 1 operation(s) for search.
   name: Firecrawl Search API
   slug: firecrawl-search-api
 artifact_total: 29
@@ -245,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firecrawl/refs/heads/main/screenshots/firecrawl-2026-06-20T181259.png
 security:

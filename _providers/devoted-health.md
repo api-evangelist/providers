@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 6 operations
 api_count: 3
 apis:
-- description: The CodeSystem FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The CodeSystem FHIR resource type
   name: Devoted Health CodeSystem API
   slug: devoted-health-codesystem-api
-- description: The Condition API from Devoted Health — 1 operation(s) for condition.
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Condition API from Devoted Health — 1 operation(s) for condition.
   name: Devoted Health Condition API
   slug: devoted-health-condition-api
-- description: The Encounter API from Devoted Health — 1 operation(s) for encounter.
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Encounter API from Devoted Health — 1 operation(s) for encounter.
   name: Devoted Health Encounter API
   slug: devoted-health-encounter-api
-- description: The ExplanationOfBenefit API from Devoted Health — 1 operation(s) for explanationofbenefit.
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The ExplanationOfBenefit API from Devoted Health — 1 operation(s) for explanationofbenefit.
   name: Devoted Health ExplanationOfBenefit API
   slug: devoted-health-explanationofbenefit-api
-- description: The HealthcareService FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The HealthcareService FHIR resource type
   name: Devoted Health HealthcareService API
   slug: devoted-health-healthcareservice-api
-- description: The InsurancePlan FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The InsurancePlan FHIR resource type
   name: Devoted Health InsurancePlan API
   slug: devoted-health-insuranceplan-api
-- description: The List FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The List FHIR resource type
   name: Devoted Health List API
   slug: devoted-health-list-api
-- description: The Location FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Location FHIR resource type
   name: Devoted Health Location API
   slug: devoted-health-location-api
-- description: The Medication API from Devoted Health — 1 operation(s) for medication.
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Medication API from Devoted Health — 1 operation(s) for medication.
   name: Devoted Health Medication API
   slug: devoted-health-medication-api
-- description: The MedicationKnowledge FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The MedicationKnowledge FHIR resource type
   name: Devoted Health MedicationKnowledge API
   slug: devoted-health-medicationknowledge-api
-- description: The OperationDefinition FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The OperationDefinition FHIR resource type
   name: Devoted Health OperationDefinition API
   slug: devoted-health-operationdefinition-api
-- description: The Organization FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Organization FHIR resource type
   name: Devoted Health Organization API
   slug: devoted-health-organization-api
-- description: The OrganizationAffiliation FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The OrganizationAffiliation FHIR resource type
   name: Devoted Health OrganizationAffiliation API
   slug: devoted-health-organizationaffiliation-api
-- description: The Patient API from Devoted Health — 2 operation(s) for patient.
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Patient API from Devoted Health — 2 operation(s) for patient.
   name: Devoted Health Patient API
   slug: devoted-health-patient-api
-- description: The Practitioner FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Practitioner FHIR resource type
   name: Devoted Health Practitioner API
   slug: devoted-health-practitioner-api
-- description: The PractitionerRole FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The PractitionerRole FHIR resource type
   name: Devoted Health PractitionerRole API
   slug: devoted-health-practitionerrole-api
-- description: The SearchParameter FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The SearchParameter FHIR resource type
   name: Devoted Health SearchParameter API
   slug: devoted-health-searchparameter-api
-- description: The StructureDefinition FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The StructureDefinition FHIR resource type
   name: Devoted Health StructureDefinition API
   slug: devoted-health-structuredefinition-api
-- description: The Subscription FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The Subscription FHIR resource type
   name: Devoted Health Subscription API
   slug: devoted-health-subscription-api
-- description: Server-level operations
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: Server-level operations
   name: Devoted Health System Level Operations API
   slug: devoted-health-system-level-operations-api
-- description: The ValueSet FHIR resource type
+- baseURL: https://api.prod.devoted.com/fhir
+  baseurl_source: declared
+  description: The ValueSet FHIR resource type
   name: Devoted Health ValueSet API
   slug: devoted-health-valueset-api
 - description: Public FHIR R4 API for in-network providers, facilities, and pharmacies, based on the Da Vinci PDEX Plan-Net reference implementation.
@@ -448,7 +490,7 @@ score:
     regime_id: health
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devoted-health/refs/heads/main/screenshots/devoted-health-2026-07-25T211822.png
 security:

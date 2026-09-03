@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Solar and lunar astronomical data including sunrise, sunset, moon phases
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Solar and lunar astronomical data including sunrise, sunset, moon phases
   name: Stormglass Astronomy API
   slug: stormglass-astronomy-api
-- description: Biological and oceanographic data including chlorophyll and nutrients
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Biological and oceanographic data including chlorophyll and nutrients
   name: Stormglass Bio API
   slug: stormglass-bio-api
-- description: Global elevation and bathymetry data
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Global elevation and bathymetry data
   name: Stormglass Elevation API
   slug: stormglass-elevation-api
-- description: Marine environment data including waves, currents, and water temperature
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Marine environment data including waves, currents, and water temperature
   name: Stormglass Marine API
   slug: stormglass-marine-api
-- description: Solar radiation and UV index data
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Solar radiation and UV index data
   name: Stormglass Solar API
   slug: stormglass-solar-api
-- description: Tidal data including extremes, sea level, and tide station listings
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Tidal data including extremes, sea level, and tide station listings
   name: Stormglass Tides API
   slug: stormglass-tides-api
-- description: Point weather forecasts and historical weather data
+- baseURL: https://api.stormglass.io/v2
+  baseurl_source: declared
+  description: Point weather forecasts and historical weather data
   name: Stormglass Weather API
   slug: stormglass-weather-api
 artifact_total: 38
@@ -275,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/screenshots/stormglass-2026-06-20T194607.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Blend's platform API for home lending, consumer lending, deposit account opening, documents and disclosures, e-signature packages, electronic and remote online notary (RON) closings, verification of i
@@ -141,7 +141,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -151,7 +151,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 43.4
-  previous_composite: 38.0
+  previous_composite: 37.7
   provenance:
     conformance: first-party
     mcp: derived
@@ -162,7 +162,7 @@ score:
     regime_id: banking_open_finance
     score: 21.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-labs/refs/heads/main/screenshots/blend-labs-2026-07-25T203310.png
 security:

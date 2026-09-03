@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,55 +35,87 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Authorize API from Sun Life — 1 operation(s) for authorize.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Authorize API from Sun Life — 1 operation(s) for authorize.
   name: Sun Life Authorize API
   slug: sun-life-authorize-api
-- description: The Callback API from Sun Life — 1 operation(s) for callback.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Callback API from Sun Life — 1 operation(s) for callback.
   name: Sun Life Callback API
   slug: sun-life-callback-api
-- description: The Coverage API from Sun Life — 5 operation(s) for coverage.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Coverage API from Sun Life — 5 operation(s) for coverage.
   name: Sun Life Coverage API
   slug: sun-life-coverage-api
-- description: The Endpoint API from Sun Life — 5 operation(s) for endpoint.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Endpoint API from Sun Life — 5 operation(s) for endpoint.
   name: Sun Life Endpoint API
   slug: sun-life-endpoint-api
-- description: The HealthcareService API from Sun Life — 5 operation(s) for healthcareservice.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The HealthcareService API from Sun Life — 5 operation(s) for healthcareservice.
   name: Sun Life Healthcare Service API
   slug: sun-life-healthcareservice-api
-- description: The InsurancePlan API from Sun Life — 5 operation(s) for insuranceplan.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The InsurancePlan API from Sun Life — 5 operation(s) for insuranceplan.
   name: Sun Life Insurance Plan API
   slug: sun-life-insuranceplan-api
-- description: The Location API from Sun Life — 5 operation(s) for location.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Location API from Sun Life — 5 operation(s) for location.
   name: Sun Life Location API
   slug: sun-life-location-api
-- description: The Metadata API from Sun Life — 1 operation(s) for metadata.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Metadata API from Sun Life — 1 operation(s) for metadata.
   name: Sun Life Metadata API
   slug: sun-life-metadata-api
-- description: The Organization API from Sun Life — 5 operation(s) for organization.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Organization API from Sun Life — 5 operation(s) for organization.
   name: Sun Life Organization API
   slug: sun-life-organization-api
-- description: The Patient API from Sun Life — 5 operation(s) for patient.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Patient API from Sun Life — 5 operation(s) for patient.
   name: Sun Life Patient API
   slug: sun-life-patient-api
-- description: The Practitioner API from Sun Life — 5 operation(s) for practitioner.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Practitioner API from Sun Life — 5 operation(s) for practitioner.
   name: Sun Life Practitioner API
   slug: sun-life-practitioner-api
-- description: The PractitionerRole API from Sun Life — 5 operation(s) for practitionerrole.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The PractitionerRole API from Sun Life — 5 operation(s) for practitionerrole.
   name: Sun Life Practitioner Role API
   slug: sun-life-practitionerrole-api
-- description: The RelatedPerson API from Sun Life — 5 operation(s) for relatedperson.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The RelatedPerson API from Sun Life — 5 operation(s) for relatedperson.
   name: Sun Life Related Person API
   slug: sun-life-relatedperson-api
-- description: The Token API from Sun Life — 1 operation(s) for token.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Token API from Sun Life — 1 operation(s) for token.
   name: Sun Life Token API
   slug: sun-life-token-api
-- description: The Tokenhook API from Sun Life — 1 operation(s) for tokenhook.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The Tokenhook API from Sun Life — 1 operation(s) for tokenhook.
   name: Sun Life Tokenhook API
   slug: sun-life-tokenhook-api
-- description: The .well Known API from Sun Life — 1 operation(s) for .well known.
+- baseURL: https://api.dentaquest.com/FhirPatientAccess/v1
+  baseurl_source: declared
+  description: The .well Known API from Sun Life — 1 operation(s) for .well known.
   name: Sun Life .well Known API
   slug: sun-life-well-known-api
 artifact_total: 23
@@ -320,7 +364,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/screenshots/sun-life-2026-08-17T082154.png
 security:

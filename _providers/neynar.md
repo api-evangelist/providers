@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 200 operations · 71 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Securely communicate and perform actions on behalf of users across different apps
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Securely communicate and perform actions on behalf of users across different apps
   name: Neynar Action API
   slug: neynar-action-api
-- description: Operations for building AI agents
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations for building AI agents
   name: Neynar Agents API
   slug: neynar-agents-api
-- description: Operations related to mini app host notifications
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to mini app host notifications
   name: Neynar App Host API
   slug: neynar-app-host-api
-- description: The AuthAddress API from Neynar — 2 operation(s) for authaddress.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The AuthAddress API from Neynar — 2 operation(s) for authaddress.
   name: Neynar AuthAddress API
   slug: neynar-authaddress-api
-- description: Operations related to a ban
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to a ban
   name: Neynar Ban API
   slug: neynar-ban-api
-- description: Operations related to a block
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to a block
   name: Neynar Block API
   slug: neynar-block-api
-- description: Operations related to cast
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to cast
   name: Neynar Cast API
   slug: neynar-cast-api
-- description: Operations related to casts.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to casts.
   name: Neynar Casts API
   slug: neynar-casts-api
-- description: Operations related to channels
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to channels
   name: Neynar Channel API
   slug: neynar-channel-api
-- description: Operations related to feed
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to feed
   name: Neynar Feed API
   slug: neynar-feed-api
-- description: Operations related to FIDs.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to FIDs.
   name: Neynar Fids API
   slug: neynar-fids-api
-- description: Operations related to fname
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to fname
   name: Neynar fname API
   slug: neynar-fname-api
-- description: Operations related to follows
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to follows
   name: Neynar Follows API
   slug: neynar-follows-api
-- description: Operations related to mini apps
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to mini apps
   name: Neynar Frame API
   slug: neynar-frame-api
-- description: Operations related to hub events.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to hub events.
   name: Neynar HubEvents API
   slug: neynar-hubevents-api
-- description: Operations related to hub information.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to hub information.
   name: Neynar Info API
   slug: neynar-info-api
-- description: Operations related to links.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to links.
   name: Neynar Links API
   slug: neynar-links-api
-- description: Operations related to login
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to login
   name: Neynar Login API
   slug: neynar-login-api
-- description: Operations related to messages.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to messages.
   name: Neynar Message API
   slug: neynar-message-api
-- description: Operations related to retrieving metrics
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to retrieving metrics
   name: Neynar Metrics API
   slug: neynar-metrics-api
-- description: Operations related to a mute
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to a mute
   name: Neynar Mute API
   slug: neynar-mute-api
-- description: Operations related to notifications
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to notifications
   name: Neynar Notifications API
   slug: neynar-notifications-api
-- description: Operations related to onchain data
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to onchain data
   name: Neynar Onchain API
   slug: neynar-onchain-api
-- description: Operations related to on-chain events.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to on-chain events.
   name: Neynar OnChainEvents API
   slug: neynar-onchainevents-api
-- description: The organization API from Neynar — 1 operation(s) for organization.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The organization API from Neynar — 1 operation(s) for organization.
   name: Neynar organization API
   slug: neynar-organization-api
-- description: The portal API from Neynar — 3 operation(s) for portal.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The portal API from Neynar — 3 operation(s) for portal.
   name: Neynar portal API
   slug: neynar-portal-api
-- description: Operations related to reaction
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to reaction
   name: Neynar Reaction API
   slug: neynar-reaction-api
-- description: Operations related to reactions.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to reactions.
   name: Neynar Reactions API
   slug: neynar-reactions-api
-- description: Operations related to signer
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to signer
   name: Neynar Signer API
   slug: neynar-signer-api
-- description: Operations related to storage
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to storage
   name: Neynar Storage API
   slug: neynar-storage-api
-- description: The studio API from Neynar — 32 operation(s) for studio.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The studio API from Neynar — 32 operation(s) for studio.
   name: Neynar studio API
   slug: neynar-studio-api
-- description: Operations related to a subscriptions
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to a subscriptions
   name: Neynar Subscribers API
   slug: neynar-subscribers-api
-- description: The subscription API from Neynar — 2 operation(s) for subscription.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The subscription API from Neynar — 2 operation(s) for subscription.
   name: Neynar subscription API
   slug: neynar-subscription-api
-- description: The Topic API from Neynar — 1 operation(s) for topic.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: The Topic API from Neynar — 1 operation(s) for topic.
   name: Neynar Topic API
   slug: neynar-topic-api
-- description: Operations related to user
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to user
   name: Neynar User API
   slug: neynar-user-api
-- description: Operations related to user data.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to user data.
   name: Neynar UserData API
   slug: neynar-userdata-api
-- description: Operations related to usernames.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to usernames.
   name: Neynar Usernames API
   slug: neynar-usernames-api
-- description: Operations related to verifications.
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to verifications.
   name: Neynar Verifications API
   slug: neynar-verifications-api
-- description: Operations related to a webhook
+- baseURL: https://api.neynar.com
+  baseurl_source: declared
+  description: Operations related to a webhook
   name: Neynar Webhook API
   slug: neynar-webhook-api
 artifact_total: 595
@@ -1891,7 +1969,7 @@ score:
     catalog_gap: 64.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -1901,7 +1979,7 @@ score:
     discoverability: 51.9
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 38.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1910,7 +1988,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png
 security:

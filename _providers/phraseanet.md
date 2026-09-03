@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 34 operations · 14 acting
 api_count: 1
 apis:
-- description: The authenticated user (me) and access rights.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: The authenticated user (me) and access rights.
   name: Phraseanet Account API
   slug: phraseanet-account-api
-- description: User-curated working sets of records.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: User-curated working sets of records.
   name: Phraseanet Baskets API
   slug: phraseanet-baskets-api
-- description: Databoxes, their collections, status structure, and metadata structure.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Databoxes, their collections, status structure, and metadata structure.
   name: Phraseanet Databoxes API
   slug: phraseanet-databoxes-api
-- description: Published feeds and their entries.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Published feeds and their entries.
   name: Phraseanet Feeds API
   slug: phraseanet-feeds-api
-- description: Record captions, metadata values, and status flags.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Record captions, metadata values, and status flags.
   name: Phraseanet Metadata API
   slug: phraseanet-metadata-api
-- description: Items awaiting validation before entering a collection.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Items awaiting validation before entering a collection.
   name: Phraseanet Quarantine API
   slug: phraseanet-quarantine-api
-- description: Individual media records (assets) within a databox.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Individual media records (assets) within a databox.
   name: Phraseanet Records API
   slug: phraseanet-records-api
-- description: Elasticsearch-backed search across records and stories.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Elasticsearch-backed search across records and stories.
   name: Phraseanet Search API
   slug: phraseanet-search-api
-- description: Records that group other records.
+- baseURL: https://your-phraseanet-instance/api/v1
+  baseurl_source: declared
+  description: Records that group other records.
   name: Phraseanet Stories API
   slug: phraseanet-stories-api
 artifact_total: 27
@@ -201,7 +219,7 @@ score:
   band: thin
   composite: 37.9
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -227,8 +245,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/phraseanet/refs/heads/main/screenshots/phraseanet-2026-09-02T151203.png
 security:
 - kind: authentication
   name: Phraseanet Authentication

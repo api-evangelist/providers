@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 7
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 219 operations · 134 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: The Actions API from OpenObserve — 5 operation(s) for actions.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Actions API from OpenObserve — 5 operation(s) for actions.
   name: OpenObserve Actions API
   slug: openobserve-actions-api
-- description: Alerts retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Alerts retrieval & management operations
   name: OpenObserve Alerts API
   slug: openobserve-alerts-api
-- description: Super cluster operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Super cluster operations
   name: OpenObserve Clusters API
   slug: openobserve-clusters-api
-- description: Dashboard operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Dashboard operations
   name: OpenObserve Dashboards API
   slug: openobserve-dashboards-api
-- description: The Folders API from OpenObserve — 6 operation(s) for folders.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Folders API from OpenObserve — 6 operation(s) for folders.
   name: OpenObserve Folders API
   slug: openobserve-folders-api
-- description: Functions retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Functions retrieval & management operations
   name: OpenObserve Functions API
   slug: openobserve-functions-api
-- description: The Groups API from OpenObserve — 2 operation(s) for groups.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Groups API from OpenObserve — 2 operation(s) for groups.
   name: OpenObserve Groups API
   slug: openobserve-groups-api
-- description: Alert incident correlation & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Alert incident correlation & management operations
   name: OpenObserve Incidents API
   slug: openobserve-incidents-api
-- description: The Key API from OpenObserve — 2 operation(s) for key.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Key API from OpenObserve — 2 operation(s) for key.
   name: OpenObserve Key API
   slug: openobserve-key-api
-- description: The Keys API from OpenObserve — 1 operation(s) for keys.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Keys API from OpenObserve — 1 operation(s) for keys.
   name: OpenObserve Keys API
   slug: openobserve-keys-api
-- description: Key Value retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Key Value retrieval & management operations
   name: OpenObserve KV API
   slug: openobserve-kv-api
-- description: Logs data ingestion operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Logs data ingestion operations
   name: OpenObserve Logs API
   slug: openobserve-logs-api
-- description: The MCP API from OpenObserve — 2 operation(s) for mcp.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The MCP API from OpenObserve — 2 operation(s) for mcp.
   name: OpenObserve MCP API
   slug: openobserve-mcp-api
-- description: Meta details about the OpenObserve state itself. e.g. healthz
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Meta details about the OpenObserve state itself. e.g. healthz
   name: OpenObserve Meta API
   slug: openobserve-meta-api
-- description: Metrics data ingestion operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Metrics data ingestion operations
   name: OpenObserve Metrics API
   slug: openobserve-metrics-api
-- description: Organizations retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Organizations retrieval & management operations
   name: OpenObserve Organizations API
   slug: openobserve-organizations-api
-- description: Log pattern extraction operations (enterprise)
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Log pattern extraction operations (enterprise)
   name: OpenObserve Patterns API
   slug: openobserve-patterns-api
-- description: The Pipelines API from OpenObserve — 10 operation(s) for pipelines.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Pipelines API from OpenObserve — 10 operation(s) for pipelines.
   name: OpenObserve Pipelines API
   slug: openobserve-pipelines-api
-- description: Ratelimit operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Ratelimit operations
   name: OpenObserve Ratelimit API
   slug: openobserve-ratelimit-api
-- description: The Report API from OpenObserve — 1 operation(s) for report.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Report API from OpenObserve — 1 operation(s) for report.
   name: OpenObserve Report API
   slug: openobserve-report-api
-- description: The Reports API from OpenObserve — 9 operation(s) for reports.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Reports API from OpenObserve — 9 operation(s) for reports.
   name: OpenObserve Reports API
   slug: openobserve-reports-api
-- description: The Roles API from OpenObserve — 4 operation(s) for roles.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Roles API from OpenObserve — 4 operation(s) for roles.
   name: OpenObserve Roles API
   slug: openobserve-roles-api
-- description: The Rum API from OpenObserve — 3 operation(s) for rum.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Rum API from OpenObserve — 3 operation(s) for rum.
   name: OpenObserve Rum API
   slug: openobserve-rum-api
-- description: Collection of saved search views for easy retrieval
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Collection of saved search views for easy retrieval
   name: OpenObserve Saved Views API
   slug: openobserve-saved-views-api
-- description: Search/Query operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Search/Query operations
   name: OpenObserve Search API
   slug: openobserve-search-api
-- description: The Search Jobs API from OpenObserve — 5 operation(s) for search jobs.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Search Jobs API from OpenObserve — 5 operation(s) for search jobs.
   name: OpenObserve Search Jobs API
   slug: openobserve-search-jobs-api
-- description: Multi-signal correlation across logs, traces, and metrics (enterprise)
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Multi-signal correlation across logs, traces, and metrics (enterprise)
   name: OpenObserve Service Streams API
   slug: openobserve-service-streams-api
-- description: The ServiceAccounts API from OpenObserve — 2 operation(s) for serviceaccounts.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The ServiceAccounts API from OpenObserve — 2 operation(s) for serviceaccounts.
   name: OpenObserve ServiceAccounts API
   slug: openobserve-serviceaccounts-api
-- description: Short Url Service
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Short Url Service
   name: OpenObserve Short Url API
   slug: openobserve-short-url-api
-- description: Stream retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Stream retrieval & management operations
   name: OpenObserve Streams API
   slug: openobserve-streams-api
-- description: The Templates API from OpenObserve — 3 operation(s) for templates.
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: The Templates API from OpenObserve — 3 operation(s) for templates.
   name: OpenObserve Templates API
   slug: openobserve-templates-api
-- description: Traces data ingestion operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Traces data ingestion operations
   name: OpenObserve Traces API
   slug: openobserve-traces-api
-- description: Users retrieval & management operations
+- baseURL: https://api.openobserve.ai
+  baseurl_source: declared
+  description: Users retrieval & management operations
   name: OpenObserve Users API
   slug: openobserve-users-api
 artifact_total: 75
@@ -370,7 +436,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openobserve/refs/heads/main/screenshots/openobserve-2026-06-20T191019.png
 security:

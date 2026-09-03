@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -55,22 +55,34 @@ apis:
 - description: SuperRare ERC-721 NFT asset contracts including shared minting contracts (SuperRareV1, SuperRareV2), creator-owned Sovereign minting contracts (Series), and curator-managed Space contracts. The Approv
   name: SuperRare Smart Contracts - Assets (ERC-721)
   slug: superrare-smart-contracts-assets-erc-721
-- description: List, retrieve, and import NFT collections
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: List, retrieve, and import NFT collections
   name: SuperRare Collections API
   slug: superrare-collections-api
-- description: Upload and process NFT media assets to IPFS
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: Upload and process NFT media assets to IPFS
   name: SuperRare Media API
   slug: superrare-media-api
-- description: Generate and manage Merkle roots and proofs for batch operations
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: Generate and manage Merkle roots and proofs for batch operations
   name: SuperRare Merkle Roots API
   slug: superrare-merkle-roots-api
-- description: Search, retrieve, and manage NFT tokens and metadata
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: Search, retrieve, and manage NFT tokens and metadata
   name: SuperRare NFTs API
   slug: superrare-nfts-api
-- description: Retrieve token price data
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: Retrieve token price data
   name: SuperRare Tokens API
   slug: superrare-tokens-api
-- description: Retrieve user profile information
+- baseURL: https://api.superrare.com
+  baseurl_source: declared
+  description: Retrieve user profile information
   name: SuperRare Users API
   slug: superrare-users-api
 artifact_total: 23
@@ -232,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superrare/refs/heads/main/screenshots/superrare-2026-06-20T194728.png
 security:

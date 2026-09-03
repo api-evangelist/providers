@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 17 operations · 14 acting
 api_count: 1
 apis:
-- description: The Cancel API from Reducto — 1 operation(s) for cancel.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Cancel API from Reducto — 1 operation(s) for cancel.
   name: Reducto Cancel API
   slug: reducto-cancel-api
-- description: The Classify API from Reducto — 1 operation(s) for classify.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Classify API from Reducto — 1 operation(s) for classify.
   name: Reducto Classify API
   slug: reducto-classify-api
-- description: The Configure Webhook API from Reducto — 1 operation(s) for configure webhook.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Configure Webhook API from Reducto — 1 operation(s) for configure webhook.
   name: Reducto Configure Webhook API
   slug: reducto-configure-webhook-api
-- description: The Edit API from Reducto — 1 operation(s) for edit.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Edit API from Reducto — 1 operation(s) for edit.
   name: Reducto Edit API
   slug: reducto-edit-api
-- description: The Edit Async API from Reducto — 1 operation(s) for edit async.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Edit Async API from Reducto — 1 operation(s) for edit async.
   name: Reducto Edit Async API
   slug: reducto-edit-async-api
-- description: The Extract API from Reducto — 1 operation(s) for extract.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Extract API from Reducto — 1 operation(s) for extract.
   name: Reducto Extract API
   slug: reducto-extract-api
-- description: The Extract Async API from Reducto — 1 operation(s) for extract async.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Extract Async API from Reducto — 1 operation(s) for extract async.
   name: Reducto Extract Async API
   slug: reducto-extract-async-api
-- description: The Job API from Reducto — 1 operation(s) for job.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Job API from Reducto — 1 operation(s) for job.
   name: Reducto Job API
   slug: reducto-job-api
-- description: The Jobs API from Reducto — 1 operation(s) for jobs.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Jobs API from Reducto — 1 operation(s) for jobs.
   name: Reducto Jobs API
   slug: reducto-jobs-api
-- description: The Parse API from Reducto — 1 operation(s) for parse.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Parse API from Reducto — 1 operation(s) for parse.
   name: Reducto Parse API
   slug: reducto-parse-api
-- description: The Parse Async API from Reducto — 1 operation(s) for parse async.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Parse Async API from Reducto — 1 operation(s) for parse async.
   name: Reducto Parse Async API
   slug: reducto-parse-async-api
-- description: The Pipeline API from Reducto — 1 operation(s) for pipeline.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Pipeline API from Reducto — 1 operation(s) for pipeline.
   name: Reducto Pipeline API
   slug: reducto-pipeline-api
-- description: The Pipeline Async API from Reducto — 1 operation(s) for pipeline async.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Pipeline Async API from Reducto — 1 operation(s) for pipeline async.
   name: Reducto Pipeline Async API
   slug: reducto-pipeline-async-api
-- description: The Split API from Reducto — 1 operation(s) for split.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Split API from Reducto — 1 operation(s) for split.
   name: Reducto Split API
   slug: reducto-split-api
-- description: The Split Async API from Reducto — 1 operation(s) for split async.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Split Async API from Reducto — 1 operation(s) for split async.
   name: Reducto Split Async API
   slug: reducto-split-async-api
-- description: The Upload API from Reducto — 1 operation(s) for upload.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Upload API from Reducto — 1 operation(s) for upload.
   name: Reducto Upload API
   slug: reducto-upload-api
-- description: The Version API from Reducto — 1 operation(s) for version.
+- baseURL: https://api.reductoai.com
+  baseurl_source: declared
+  description: The Version API from Reducto — 1 operation(s) for version.
   name: Reducto Version API
   slug: reducto-version-api
 artifact_total: 82
@@ -439,7 +473,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto/refs/heads/main/screenshots/reducto-2026-06-20T192736.png
 security:

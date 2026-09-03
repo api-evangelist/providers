@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -56,22 +56,34 @@ apis:
 - description: PostgreSQL wire-protocol compatibility for queries via psql, JDBC and any Postgres-compatible client. Default port 8812. Supports a subset of Postgres features sufficient for SQL analytics on QuestDB.
   name: QuestDB PostgreSQL Wire Interface
   slug: postgres-wire
-- description: The Chk API from QuestDB — 1 operation(s) for chk.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Chk API from QuestDB — 1 operation(s) for chk.
   name: QuestDB Chk API
   slug: questdb-chk-api
-- description: The Exec API from QuestDB — 1 operation(s) for exec.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Exec API from QuestDB — 1 operation(s) for exec.
   name: QuestDB Exec API
   slug: questdb-exec-api
-- description: The Exp API from QuestDB — 1 operation(s) for exp.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Exp API from QuestDB — 1 operation(s) for exp.
   name: QuestDB Exp API
   slug: questdb-exp-api
-- description: The Imp API from QuestDB — 1 operation(s) for imp.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Imp API from QuestDB — 1 operation(s) for imp.
   name: QuestDB Imp API
   slug: questdb-imp-api
-- description: The Settings API from QuestDB — 1 operation(s) for settings.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Settings API from QuestDB — 1 operation(s) for settings.
   name: QuestDB Settings API
   slug: questdb-settings-api
-- description: The Write API from QuestDB — 1 operation(s) for write.
+- baseURL: http://<host>:9000
+  baseurl_source: declared
+  description: The Write API from QuestDB — 1 operation(s) for write.
   name: QuestDB Write API
   slug: questdb-write-api
 artifact_total: 24
@@ -209,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/screenshots/questdb-2026-06-20T192429.png
 security:

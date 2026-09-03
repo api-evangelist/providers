@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 7
@@ -58,112 +58,184 @@ apis:
 - description: ICTS Data Services API exposing an individual's personal timetable. Protected by OAuth 2.0 (authorization code grant) with SAML as a fallback; OAuth client credentials are issued by KU Leuven on reque
   name: KU Leuven Individual Timetable (Uurrooster) API
   slug: timetable
-- description: The Access API from KU Leuven — 23 operation(s) for access.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Access API from KU Leuven — 23 operation(s) for access.
   name: KU Leuven Access API
   slug: ku-leuven-access-api
-- description: Uploads a set of files to a dataset
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Uploads a set of files to a dataset
   name: KU Leuven addFilesToDataset API
   slug: ku-leuven-addfilestodataset-api
-- description: Uploads a file for a dataset
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Uploads a file for a dataset
   name: KU Leuven addFileToDataset API
   slug: ku-leuven-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Uploads a Globus file for a dataset
   name: KU Leuven addGlobusFilesToDataset API
   slug: ku-leuven-addglobusfilestodataset-api
-- description: The Admin API from KU Leuven — 131 operation(s) for admin.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Admin API from KU Leuven — 131 operation(s) for admin.
   name: KU Leuven Admin API
   slug: ku-leuven-admin-api
-- description: The Batch API from KU Leuven — 3 operation(s) for batch.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Batch API from KU Leuven — 3 operation(s) for batch.
   name: KU Leuven Batch API
   slug: ku-leuven-batch-api
-- description: The Builtin Users API from KU Leuven — 4 operation(s) for builtin users.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Builtin Users API from KU Leuven — 4 operation(s) for builtin users.
   name: KU Leuven Builtin Users API
   slug: ku-leuven-builtin-users-api
-- description: The Datasetfields API from KU Leuven — 1 operation(s) for datasetfields.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Datasetfields API from KU Leuven — 1 operation(s) for datasetfields.
   name: KU Leuven Datasetfields API
   slug: ku-leuven-datasetfields-api
-- description: The Datasets API from KU Leuven — 92 operation(s) for datasets.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Datasets API from KU Leuven — 92 operation(s) for datasets.
   name: KU Leuven Datasets API
   slug: ku-leuven-datasets-api
-- description: The Datatags API from KU Leuven — 1 operation(s) for datatags.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Datatags API from KU Leuven — 1 operation(s) for datatags.
   name: KU Leuven Datatags API
   slug: ku-leuven-datatags-api
-- description: The DataverseFeaturedItems API from KU Leuven — 1 operation(s) for dataversefeatureditems.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The DataverseFeaturedItems API from KU Leuven — 1 operation(s) for dataversefeatureditems.
   name: KU Leuven DataverseFeaturedItems API
   slug: ku-leuven-dataversefeatureditems-api
-- description: The Dataverses API from KU Leuven — 39 operation(s) for dataverses.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Dataverses API from KU Leuven — 39 operation(s) for dataverses.
   name: KU Leuven Dataverses API
   slug: ku-leuven-dataverses-api
-- description: The Edit API from KU Leuven — 1 operation(s) for edit.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Edit API from KU Leuven — 1 operation(s) for edit.
   name: KU Leuven Edit API
   slug: ku-leuven-edit-api
-- description: The ExternalTools API from KU Leuven — 2 operation(s) for externaltools.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The ExternalTools API from KU Leuven — 2 operation(s) for externaltools.
   name: KU Leuven ExternalTools API
   slug: ku-leuven-externaltools-api
-- description: The Files API from KU Leuven — 20 operation(s) for files.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Files API from KU Leuven — 20 operation(s) for files.
   name: KU Leuven Files API
   slug: ku-leuven-files-api
-- description: The Harvest API from KU Leuven — 7 operation(s) for harvest.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Harvest API from KU Leuven — 7 operation(s) for harvest.
   name: KU Leuven Harvest API
   slug: ku-leuven-harvest-api
-- description: The Inbox API from KU Leuven — 1 operation(s) for inbox.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Inbox API from KU Leuven — 1 operation(s) for inbox.
   name: KU Leuven Inbox API
   slug: ku-leuven-inbox-api
-- description: The Info API from KU Leuven — 49 operation(s) for info.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Info API from KU Leuven — 49 operation(s) for info.
   name: KU Leuven Info API
   slug: ku-leuven-info-api
-- description: The Ingest API from KU Leuven — 1 operation(s) for ingest.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Ingest API from KU Leuven — 1 operation(s) for ingest.
   name: KU Leuven Ingest API
   slug: ku-leuven-ingest-api
-- description: The Licenses API from KU Leuven — 6 operation(s) for licenses.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Licenses API from KU Leuven — 6 operation(s) for licenses.
   name: KU Leuven Licenses API
   slug: ku-leuven-licenses-api
-- description: The Localcontexts API from KU Leuven — 2 operation(s) for localcontexts.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Localcontexts API from KU Leuven — 2 operation(s) for localcontexts.
   name: KU Leuven Localcontexts API
   slug: ku-leuven-localcontexts-api
-- description: The Logout API from KU Leuven — 1 operation(s) for logout.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Logout API from KU Leuven — 1 operation(s) for logout.
   name: KU Leuven Logout API
   slug: ku-leuven-logout-api
-- description: The Mail API from KU Leuven — 1 operation(s) for mail.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Mail API from KU Leuven — 1 operation(s) for mail.
   name: KU Leuven Mail API
   slug: ku-leuven-mail-api
-- description: The Meta API from KU Leuven — 2 operation(s) for meta.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Meta API from KU Leuven — 2 operation(s) for meta.
   name: KU Leuven Meta API
   slug: ku-leuven-meta-api
-- description: The Metadatablocks API from KU Leuven — 2 operation(s) for metadatablocks.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Metadatablocks API from KU Leuven — 2 operation(s) for metadatablocks.
   name: KU Leuven Metadatablocks API
   slug: ku-leuven-metadatablocks-api
-- description: The Mydata API from KU Leuven — 1 operation(s) for mydata.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Mydata API from KU Leuven — 1 operation(s) for mydata.
   name: KU Leuven Mydata API
   slug: ku-leuven-mydata-api
-- description: The Notifications API from KU Leuven — 6 operation(s) for notifications.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Notifications API from KU Leuven — 6 operation(s) for notifications.
   name: KU Leuven Notifications API
   slug: ku-leuven-notifications-api
-- description: The Pids API from KU Leuven — 6 operation(s) for pids.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Pids API from KU Leuven — 6 operation(s) for pids.
   name: KU Leuven Pids API
   slug: ku-leuven-pids-api
-- description: Replace a file to a dataset
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Replace a file to a dataset
   name: KU Leuven replaceFilesInDataset API
   slug: ku-leuven-replacefilesindataset-api
-- description: The Roles API from KU Leuven — 3 operation(s) for roles.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Roles API from KU Leuven — 3 operation(s) for roles.
   name: KU Leuven Roles API
   slug: ku-leuven-roles-api
-- description: Save Auxiliary File With Version
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Save Auxiliary File With Version
   name: KU Leuven saveAuxiliaryFileWithVersion API
   slug: ku-leuven-saveauxiliaryfilewithversion-api
-- description: The Search API from KU Leuven — 2 operation(s) for search.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Search API from KU Leuven — 2 operation(s) for search.
   name: KU Leuven Search API
   slug: ku-leuven-search-api
-- description: The Sendfeedback API from KU Leuven — 1 operation(s) for sendfeedback.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Sendfeedback API from KU Leuven — 1 operation(s) for sendfeedback.
   name: KU Leuven Sendfeedback API
   slug: ku-leuven-sendfeedback-api
-- description: Uploads a logo for a dataset
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: Uploads a logo for a dataset
   name: KU Leuven uploadDatasetLogo API
   slug: ku-leuven-uploaddatasetlogo-api
-- description: The Users API from KU Leuven — 10 operation(s) for users.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Users API from KU Leuven — 10 operation(s) for users.
   name: KU Leuven Users API
   slug: ku-leuven-users-api
-- description: The Workflows API from KU Leuven — 1 operation(s) for workflows.
+- baseURL: https://rdr.kuleuven.be/api
+  baseurl_source: declared
+  description: The Workflows API from KU Leuven — 1 operation(s) for workflows.
   name: KU Leuven Workflows API
   slug: ku-leuven-workflows-api
 - description: ICTS Data Services index of academic curriculum and CV records — discipline codes, research topics and the researcher's ORCID iD in the `orcId` field. Confirmed live 2026-08-19. This is the surface th
@@ -187,28 +259,44 @@ apis:
 - description: KU Leuven serves its own SAML 2.0 federation metadata from idp.kuleuven.be, which resolves to 134.58.64.219 inside the university's own address space — institution-operated, not a hosted IdP tenant. e
   name: KU Leuven Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: identity-federation
-- description: Academic curriculum and CV information, including ORCID identifiers.
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Academic curriculum and CV information, including ORCID identifiers.
   name: KU Leuven Curriculum API
   slug: ku-leuven-curriculum-api
-- description: Institutional organisational chart units.
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Institutional organisational chart units.
   name: KU Leuven Organigram API
   slug: ku-leuven-organigram-api
-- description: Public staff / who-is-who person information (wie-is-wie).
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Public staff / who-is-who person information (wie-is-wie).
   name: KU Leuven Person API
   slug: ku-leuven-person-api
-- description: Educational offering — degree programmes in the programme guide (onderwijsaanbod).
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Educational offering — degree programmes in the programme guide (onderwijsaanbod).
   name: KU Leuven Programs API
   slug: ku-leuven-programs-api
-- description: Research infrastructure and core facilities from the research database.
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Research infrastructure and core facilities from the research database.
   name: KU Leuven Research Infrastructure API
   slug: ku-leuven-researchinfrastructure-api
-- description: Research projects from the KU Leuven research database (onderzoeksdatabank).
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Research projects from the KU Leuven research database (onderzoeksdatabank).
   name: KU Leuven Research Projects API
   slug: ku-leuven-researchprojects-api
-- description: Research teams / groups from the research database.
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Research teams / groups from the research database.
   name: KU Leuven Research Teams API
   slug: ku-leuven-researchteams-api
-- description: Public job vacancies published on the KU Leuven job site.
+- baseURL: https://dataservice.kuleuven.be/employee
+  baseurl_source: declared
+  description: Public job vacancies published on the KU Leuven job site.
   name: KU Leuven Vacancies API
   slug: ku-leuven-vacancies-api
 artifact_total: 117
@@ -584,7 +672,7 @@ score:
     catalog_gap: 55.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -594,7 +682,7 @@ score:
     discoverability: 61.1
     governance: 17.4
     operational_transparency: 34.2
-  previous_composite: 50.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -610,7 +698,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/screenshots/ku-leuven-2026-06-20T184201.png
 security:

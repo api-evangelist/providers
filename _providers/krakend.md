@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -49,13 +49,19 @@ apis:
 - description: 'The KrakenD Async Agent enables event-driven API consumption by connecting KrakenD to message brokers and event queues such as AMQP, Kafka, and NATS. It allows KrakenD to consume messages from topics '
   name: KrakenD Async Agent
   slug: krakend-async-agent
-- description: The Debug API from KrakenD — 2 operation(s) for debug.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Debug API from KrakenD — 2 operation(s) for debug.
   name: KrakenD Debug API
   slug: krakend-debug-api
-- description: The Health API from KrakenD — 1 operation(s) for health.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Health API from KrakenD — 1 operation(s) for health.
   name: KrakenD Health API
   slug: krakend-health-api
-- description: The Metrics API from KrakenD — 1 operation(s) for metrics.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Metrics API from KrakenD — 1 operation(s) for metrics.
   name: KrakenD Metrics API
   slug: krakend-metrics-api
 artifact_total: 24
@@ -257,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png
 security:

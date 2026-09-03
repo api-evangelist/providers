@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 50 operations · 26 acting
 api_count: 3
 apis:
-- description: The Allocations API from Canoe Intelligence — 2 operation(s) for allocations.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Allocations API from Canoe Intelligence — 2 operation(s) for allocations.
   name: Canoe Intelligence Allocations API
   slug: canoe-intelligence-allocations-api
-- description: The Authentication API from Canoe Intelligence — 4 operation(s) for authentication.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Authentication API from Canoe Intelligence — 4 operation(s) for authentication.
   name: Canoe Intelligence Authentication API
   slug: canoe-intelligence-authentication-api
-- description: The Custom Fields API from Canoe Intelligence — 1 operation(s) for custom fields.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Custom Fields API from Canoe Intelligence — 1 operation(s) for custom fields.
   name: Canoe Intelligence Custom Fields API
   slug: canoe-intelligence-custom-fields-api
-- description: The Documents API from Canoe Intelligence — 10 operation(s) for documents.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Documents API from Canoe Intelligence — 10 operation(s) for documents.
   name: Canoe Intelligence Documents API
   slug: canoe-intelligence-documents-api
-- description: The Funds API from Canoe Intelligence — 6 operation(s) for funds.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Funds API from Canoe Intelligence — 6 operation(s) for funds.
   name: Canoe Intelligence Funds API
   slug: canoe-intelligence-funds-api
-- description: The Organizations API from Canoe Intelligence — 9 operation(s) for organizations.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Organizations API from Canoe Intelligence — 9 operation(s) for organizations.
   name: Canoe Intelligence Organizations API
   slug: canoe-intelligence-organizations-api
-- description: The Password Grant Tokens API from Canoe Intelligence — 1 operation(s) for password grant tokens.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Password Grant Tokens API from Canoe Intelligence — 1 operation(s) for password grant tokens.
   name: Canoe Intelligence Password Grant Tokens API
   slug: canoe-intelligence-password-grant-tokens-api
-- description: The Terms API from Canoe Intelligence — 2 operation(s) for terms.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Terms API from Canoe Intelligence — 2 operation(s) for terms.
   name: Canoe Intelligence Terms API
   slug: canoe-intelligence-terms-api
-- description: The User API from Canoe Intelligence — 4 operation(s) for user.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The User API from Canoe Intelligence — 4 operation(s) for user.
   name: Canoe Intelligence User API
   slug: canoe-intelligence-user-api
-- description: The Introduction API from Canoe Intelligence — 2 operation(s) for introduction.
+- baseURL: https://api.canoesoftware.com
+  baseurl_source: declared
+  description: The Introduction API from Canoe Intelligence — 2 operation(s) for introduction.
   name: Canoe Intelligence Introduction API
   slug: canoe-intelligence-introduction-api
 artifact_total: 26
@@ -239,23 +259,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.5
+  composite: 37.2
   coverage:
     artifact_dirs: 19
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: -0.3
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 4.5
-    contract_quality: 49.2
+    contract_quality: 48.0
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 37.6
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/screenshots/canoe-intelligence-2026-08-17T080804.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 7 acting
 api_count: 3
 apis:
-- description: Search available numbers
+- baseURL: https://api.telefoon.com/v1/voice
+  baseurl_source: declared
+  description: Search available numbers
   name: Telefoon Available Numbers API
   slug: telefoon-available-numbers-api
-- description: Make and manage voice calls
+- baseURL: https://api.telefoon.com/v1/voice
+  baseurl_source: declared
+  description: Make and manage voice calls
   name: Telefoon Calls API
   slug: telefoon-calls-api
-- description: Multi-party conferencing
+- baseURL: https://api.telefoon.com/v1/voice
+  baseurl_source: declared
+  description: Multi-party conferencing
   name: Telefoon Conferences API
   slug: telefoon-conferences-api
-- description: Send and receive SMS messages
+- baseURL: https://api.telefoon.com/v1/voice
+  baseurl_source: declared
+  description: Send and receive SMS messages
   name: Telefoon Messages API
   slug: telefoon-messages-api
-- description: Manage owned numbers
+- baseURL: https://api.telefoon.com/v1/voice
+  baseurl_source: declared
+  description: Manage owned numbers
   name: Telefoon Owned Numbers API
   slug: telefoon-owned-numbers-api
 artifact_total: 27
@@ -248,7 +258,7 @@ score:
     regime_id: telecommunications
     score: 29.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

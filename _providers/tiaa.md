@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,31 +50,49 @@ apis:
 - description: TIAA Payroll360 enables direct API connections between HR and payroll systems and TIAA's plan administration platform, automating deductions management, employer onboarding, and payroll data integrity
   name: TIAA Payroll360 API
   slug: tiaa-payroll360-api
-- description: Customer account information and balances
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Customer account information and balances
   name: TIAA Accounts API
   slug: tiaa-accounts-api
-- description: Contribution and allocation management
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Contribution and allocation management
   name: TIAA Contributions API
   slug: tiaa-contributions-api
-- description: Customer profile and identity
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Customer profile and identity
   name: TIAA Customer API
   slug: tiaa-customer-api
-- description: Investment positions and holdings
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Investment positions and holdings
   name: TIAA Investments API
   slug: tiaa-investments-api
-- description: Participant account management
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Participant account management
   name: TIAA Participants API
   slug: tiaa-participants-api
-- description: Plan configuration and eligibility
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Plan configuration and eligibility
   name: TIAA Plans API
   slug: tiaa-plans-api
-- description: Income projections and illustrations
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Income projections and illustrations
   name: TIAA Projections API
   slug: tiaa-projections-api
-- description: Tax document and income data
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Tax document and income data
   name: TIAA Tax API
   slug: tiaa-tax-api
-- description: Account transaction history
+- baseURL: https://api.tiaa.org/fdx/v6
+  baseurl_source: declared
+  description: Account transaction history
   name: TIAA Transactions API
   slug: tiaa-transactions-api
 artifact_total: 40
@@ -293,7 +311,7 @@ score:
     regime_id: insurance
     score: 57.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png
 security:

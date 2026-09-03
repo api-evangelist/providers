@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: Provides shipment status information for ODFL freight movements. Used to integrate real-time and historical freight tracking data into shipper and partner systems.
   name: ODFL Tracking API
   slug: tracking-api
-- description: Retrieve PDF shipping documents associated with ODFL PRO numbers.
+- baseURL: https://www.odfl.com
+  baseurl_source: declared
+  description: Retrieve PDF shipping documents associated with ODFL PRO numbers.
   name: Old Dominion Freight Line Documents API
   slug: old-dominion-freight-line-documents-api
 artifact_total: 16
@@ -181,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
 security:

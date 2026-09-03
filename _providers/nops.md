@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 12 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Endpoints for managing the nOps Essentials scheduler, which automates resource management tasks like starting and stopping non-production workloads to reduce costs.
+- baseURL: https://app.nops.io
+  baseurl_source: declared
+  description: Endpoints for managing the nOps Essentials scheduler, which automates resource management tasks like starting and stopping non-production workloads to reduce costs.
   name: nOps Essentials Scheduler API
   slug: nops-essentials-scheduler-api
-- description: Endpoints for managing and retrieving information about AWS Migration Acceleration Program (MAP) migration projects, including projects, products, and resources.
+- baseURL: https://app.nops.io
+  baseurl_source: declared
+  description: Endpoints for managing and retrieving information about AWS Migration Acceleration Program (MAP) migration projects, including projects, products, and resources.
   name: nOps MAP Migration API
   slug: nops-map-migration-api
 artifact_total: 47
@@ -273,7 +277,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/screenshots/nops-2026-06-20T190405.png
 security:

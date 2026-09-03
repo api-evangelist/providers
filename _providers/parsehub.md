@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: The Projects API from ParseHub — 4 operation(s) for projects.
+- baseURL: https://www.parsehub.com/api/v2
+  baseurl_source: declared
+  description: The Projects API from ParseHub — 4 operation(s) for projects.
   name: ParseHub Projects API
   slug: parsehub-projects-api
-- description: The Runs API from ParseHub — 3 operation(s) for runs.
+- baseURL: https://www.parsehub.com/api/v2
+  baseurl_source: declared
+  description: The Runs API from ParseHub — 3 operation(s) for runs.
   name: ParseHub Runs API
   slug: parsehub-runs-api
 artifact_total: 12
@@ -149,7 +153,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/screenshots/parsehub-2026-06-20T191423.png
 security:

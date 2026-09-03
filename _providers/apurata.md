@@ -33,19 +33,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Financing configuration and limits
+- baseURL: https://apurata.com
+  baseurl_source: declared
+  description: Financing configuration and limits
   name: Apurata config API
   slug: apurata-config-api
-- description: Order lifecycle (create, read, confirm, cancel)
+- baseURL: https://apurata.com
+  baseurl_source: declared
+  description: Order lifecycle (create, read, confirm, cancel)
   name: Apurata orders API
   slug: apurata-orders-api
-- description: Total and partial refunds
+- baseURL: https://apurata.com
+  baseurl_source: declared
+  description: Total and partial refunds
   name: Apurata refunds API
   slug: apurata-refunds-api
-- description: Embeddable checkout widgets (HTML)
+- baseURL: https://apurata.com
+  baseurl_source: declared
+  description: Embeddable checkout widgets (HTML)
   name: Apurata widgets API
   slug: apurata-widgets-api
 artifact_total: 15
@@ -260,7 +268,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/screenshots/apurata-2026-07-25T200944.png
 security:

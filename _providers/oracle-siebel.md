@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
@@ -54,34 +54,54 @@ apis:
 - description: Event-driven integration framework enabling real-time communication between Siebel CRM and external systems using Apache Kafka. The Event Pub/Sub API supports publishing events from Siebel to Kafka to
   name: Oracle Siebel Event Pub/Sub API
   slug: oracle-siebel-event-pubsub-api
-- description: Operations on Account business objects including customer and prospect organizations with associated contacts, opportunities, and addresses
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Account business objects including customer and prospect organizations with associated contacts, opportunities, and addresses
   name: Oracle Siebel Accounts API
   slug: oracle-siebel-accounts-api
-- description: Operations on Activity business objects for managing tasks, appointments, call logs, and other scheduled items
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Activity business objects for managing tasks, appointments, call logs, and other scheduled items
   name: Oracle Siebel Activities API
   slug: oracle-siebel-activities-api
-- description: Invocation of Siebel business services and their methods for executing server-side business logic including integration object operations
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Invocation of Siebel business services and their methods for executing server-side business logic including integration object operations
   name: Oracle Siebel Business Services API
   slug: oracle-siebel-business-services-api
-- description: Operations on Contact business objects representing individual people associated with accounts and organizations
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Contact business objects representing individual people associated with accounts and organizations
   name: Oracle Siebel Contacts API
   slug: oracle-siebel-contacts-api
-- description: Discovery endpoints that return OpenAPI-compatible metadata describing available resources, fields, and operations
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Discovery endpoints that return OpenAPI-compatible metadata describing available resources, fields, and operations
   name: Oracle Siebel Metadata API
   slug: oracle-siebel-metadata-api
-- description: Operations on Opportunity business objects for managing sales pipeline, deals, and revenue forecasting
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Opportunity business objects for managing sales pipeline, deals, and revenue forecasting
   name: Oracle Siebel Opportunities API
   slug: oracle-siebel-opportunities-api
-- description: Operations on Order business objects for managing sales orders, order line items, and order fulfillment
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Order business objects for managing sales orders, order line items, and order fulfillment
   name: Oracle Siebel Orders API
   slug: oracle-siebel-orders-api
-- description: Operations on Product business objects for product catalog management including pricing and product hierarchies
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Product business objects for product catalog management including pricing and product hierarchies
   name: Oracle Siebel Products API
   slug: oracle-siebel-products-api
-- description: Access to Siebel repository objects including applets, views, business components, and other metadata through workspace-based paths
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Access to Siebel repository objects including applets, views, business components, and other metadata through workspace-based paths
   name: Oracle Siebel Repository API
   slug: oracle-siebel-repository-api
-- description: Operations on Service Request business objects for customer service case management and issue tracking
+- baseURL: https://{siebel-server}/siebel/v1.0
+  baseurl_source: declared
+  description: Operations on Service Request business objects for customer service case management and issue tracking
   name: Oracle Siebel Service Requests API
   slug: oracle-siebel-service-requests-api
 artifact_total: 41
@@ -386,7 +406,7 @@ score:
     catalog_gap: 54.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -399,7 +419,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 61.7
+  previous_composite: 61.6
   provenance:
     conformance: derived
     contracts:
@@ -410,7 +430,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:

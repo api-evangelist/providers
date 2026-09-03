@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  trial: false
+  try_now: false
 agent_readiness:
   band: human-only
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'The gRPC interface to the Apparatus (Topl) blockchain: NodeRpc on the Bifrost full node for submitting transactions, reading blocks and following the chain tip, and the Genus indexer''s BlockService, T'
@@ -117,11 +128,11 @@ score:
   band: emerging
   composite: 16.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.7
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -131,13 +142,14 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 18.6
+  previous_composite: 16.9
   provenance:
     conformance: derived
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/topl/refs/heads/main/screenshots/topl-2026-09-02T163927.png
 security:
 - kind: authentication
   name: Topl Authentication

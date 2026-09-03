@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 421 operations · 179 acting · 5 human-in-the-loop
 api_count: 10
 apis:
-- description: The AppProfileService API from Zededa — 5 operation(s) for appprofileservice.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The AppProfileService API from Zededa — 5 operation(s) for appprofileservice.
   name: Zededa AppProfileService API
   slug: zededa-appprofileservice-api
-- description: The ArtifactManager API from Zededa — 4 operation(s) for artifactmanager.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ArtifactManager API from Zededa — 4 operation(s) for artifactmanager.
   name: Zededa ArtifactManager API
   slug: zededa-artifactmanager-api
-- description: The AssetGroupService API from Zededa — 3 operation(s) for assetgroupservice.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The AssetGroupService API from Zededa — 3 operation(s) for assetgroupservice.
   name: Zededa AssetGroupService API
   slug: zededa-assetgroupservice-api
-- description: The BulkJobOps API from Zededa — 14 operation(s) for bulkjobops.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The BulkJobOps API from Zededa — 14 operation(s) for bulkjobops.
   name: Zededa BulkJobOps API
   slug: zededa-bulkjobops-api
-- description: The CertificateEnrollmentProfileConfiguration API from Zededa — 3 operation(s) for certificateenrollmentprofileconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The CertificateEnrollmentProfileConfiguration API from Zededa — 3 operation(s) for certificateenrollmentprofileconfiguration.
   name: Zededa CertificateEnrollmentProfileConfiguration API
   slug: zededa-certificateenrollmentprofileconfiguration-api
-- description: The CloudDiagnostics API from Zededa — 8 operation(s) for clouddiagnostics.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The CloudDiagnostics API from Zededa — 8 operation(s) for clouddiagnostics.
   name: Zededa CloudDiagnostics API
   slug: zededa-clouddiagnostics-api
-- description: APIs for managing cluster groups including creation, deletion, status monitoring, and manifest generation
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing cluster groups including creation, deletion, status monitoring, and manifest generation
   name: Zededa ClusterGroups API
   slug: zededa-clustergroups-api
-- description: The ClusterStatus API from Zededa — 3 operation(s) for clusterstatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ClusterStatus API from Zededa — 3 operation(s) for clusterstatus.
   name: Zededa ClusterStatus API
   slug: zededa-clusterstatus-api
-- description: The DatastoreConfiguration API from Zededa — 4 operation(s) for datastoreconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The DatastoreConfiguration API from Zededa — 4 operation(s) for datastoreconfiguration.
   name: Zededa DatastoreConfiguration API
   slug: zededa-datastoreconfiguration-api
-- description: The EdgeApplicationConfiguration API from Zededa — 8 operation(s) for edgeapplicationconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeApplicationConfiguration API from Zededa — 8 operation(s) for edgeapplicationconfiguration.
   name: Zededa EdgeApplicationConfiguration API
   slug: zededa-edgeapplicationconfiguration-api
-- description: The EdgeApplicationInstanceConfiguration API from Zededa — 20 operation(s) for edgeapplicationinstanceconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeApplicationInstanceConfiguration API from Zededa — 20 operation(s) for edgeapplicationinstanceconfiguration.
   name: Zededa EdgeApplicationInstanceConfiguration API
   slug: zededa-edgeapplicationinstanceconfiguration-api
-- description: The EdgeApplicationInstanceStatus API from Zededa — 35 operation(s) for edgeapplicationinstancestatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeApplicationInstanceStatus API from Zededa — 35 operation(s) for edgeapplicationinstancestatus.
   name: Zededa EdgeApplicationInstanceStatus API
   slug: zededa-edgeapplicationinstancestatus-api
-- description: The EdgeDiagnostics API from Zededa — 12 operation(s) for edgediagnostics.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeDiagnostics API from Zededa — 12 operation(s) for edgediagnostics.
   name: Zededa EdgeDiagnostics API
   slug: zededa-edgediagnostics-api
-- description: The EdgeNetworkConfiguration API from Zededa — 4 operation(s) for edgenetworkconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNetworkConfiguration API from Zededa — 4 operation(s) for edgenetworkconfiguration.
   name: Zededa EdgeNetworkConfiguration API
   slug: zededa-edgenetworkconfiguration-api
-- description: The EdgeNetworkInstanceConfiguration API from Zededa — 3 operation(s) for edgenetworkinstanceconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNetworkInstanceConfiguration API from Zededa — 3 operation(s) for edgenetworkinstanceconfiguration.
   name: Zededa EdgeNetworkInstanceConfiguration API
   slug: zededa-edgenetworkinstanceconfiguration-api
-- description: The EdgeNetworkInstanceStatus API from Zededa — 5 operation(s) for edgenetworkinstancestatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNetworkInstanceStatus API from Zededa — 5 operation(s) for edgenetworkinstancestatus.
   name: Zededa EdgeNetworkInstanceStatus API
   slug: zededa-edgenetworkinstancestatus-api
-- description: The EdgeNodeClusterConfiguration API from Zededa — 7 operation(s) for edgenodeclusterconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNodeClusterConfiguration API from Zededa — 7 operation(s) for edgenodeclusterconfiguration.
   name: Zededa EdgeNodeClusterConfiguration API
   slug: zededa-edgenodeclusterconfiguration-api
-- description: The EdgeNodeConfiguration API from Zededa — 23 operation(s) for edgenodeconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNodeConfiguration API from Zededa — 23 operation(s) for edgenodeconfiguration.
   name: Zededa EdgeNodeConfiguration API
   slug: zededa-edgenodeconfiguration-api
-- description: The EdgeNodeStatus API from Zededa — 13 operation(s) for edgenodestatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EdgeNodeStatus API from Zededa — 13 operation(s) for edgenodestatus.
   name: Zededa EdgeNodeStatus API
   slug: zededa-edgenodestatus-api
-- description: The EnterpriseEntitlementsReport API from Zededa — 8 operation(s) for enterpriseentitlementsreport.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The EnterpriseEntitlementsReport API from Zededa — 8 operation(s) for enterpriseentitlementsreport.
   name: Zededa EnterpriseEntitlementsReport API
   slug: zededa-enterpriseentitlementsreport-api
-- description: The HardwareModel API from Zededa — 20 operation(s) for hardwaremodel.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The HardwareModel API from Zededa — 20 operation(s) for hardwaremodel.
   name: Zededa HardwareModel API
   slug: zededa-hardwaremodel-api
-- description: APIs for managing Helm charts in Kubernetes clusters. Provides operations for importing, creating, updating, deleting, and retrieving Helm charts from both global and enterprise-specific repositories.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing Helm charts in Kubernetes clusters. Provides operations for importing, creating, updating, deleting, and retrieving Helm charts from both global and enterprise-specific repositories.
   name: Zededa HelmChartManagement API
   slug: zededa-helmchartmanagement-api
-- description: The IdentityAccessManagement API from Zededa — 38 operation(s) for identityaccessmanagement.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The IdentityAccessManagement API from Zededa — 38 operation(s) for identityaccessmanagement.
   name: Zededa IdentityAccessManagement API
   slug: zededa-identityaccessmanagement-api
-- description: The ImageConfiguration API from Zededa — 9 operation(s) for imageconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ImageConfiguration API from Zededa — 9 operation(s) for imageconfiguration.
   name: Zededa ImageConfiguration API
   slug: zededa-imageconfiguration-api
-- description: APIs for managing Kubernetes deployments
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing Kubernetes deployments
   name: Zededa KubernetesDeployments API
   slug: zededa-kubernetesdeployments-api
-- description: APIs for managing GitOps configurations and continuous deployment from Git repositories to Kubernetes clusters
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing GitOps configurations and continuous deployment from Git repositories to Kubernetes clusters
   name: Zededa KubernetesGitOps API
   slug: zededa-kubernetesgitops-api
-- description: APIs for managing Kubernetes secrets including SSH keys, basic authentication credentials, and other sensitive data. Supports create, read, and list operations.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing Kubernetes secrets including SSH keys, basic authentication credentials, and other sensitive data. Supports create, read, and list operations.
   name: Zededa KubernetesSecrets API
   slug: zededa-kubernetessecrets-api
-- description: The PatchEnvelopeConfiguration API from Zededa — 4 operation(s) for patchenvelopeconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The PatchEnvelopeConfiguration API from Zededa — 4 operation(s) for patchenvelopeconfiguration.
   name: Zededa PatchEnvelopeConfiguration API
   slug: zededa-patchenvelopeconfiguration-api
-- description: APIs for managing private Helm repositories and their authentication configurations
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing private Helm repositories and their authentication configurations
   name: Zededa PrivateHelmRepositories API
   slug: zededa-privatehelmrepositories-api
-- description: The ProfileDeploymentService API from Zededa — 4 operation(s) for profiledeploymentservice.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ProfileDeploymentService API from Zededa — 4 operation(s) for profiledeploymentservice.
   name: Zededa ProfileDeploymentService API
   slug: zededa-profiledeploymentservice-api
-- description: The ResourceGroup API from Zededa — 11 operation(s) for resourcegroup.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ResourceGroup API from Zededa — 11 operation(s) for resourcegroup.
   name: Zededa ResourceGroup API
   slug: zededa-resourcegroup-api
-- description: The ResourceGroupStatus API from Zededa — 4 operation(s) for resourcegroupstatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The ResourceGroupStatus API from Zededa — 4 operation(s) for resourcegroupstatus.
   name: Zededa ResourceGroupStatus API
   slug: zededa-resourcegroupstatus-api
-- description: The VolumeInstanceConfiguration API from Zededa — 3 operation(s) for volumeinstanceconfiguration.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The VolumeInstanceConfiguration API from Zededa — 3 operation(s) for volumeinstanceconfiguration.
   name: Zededa VolumeInstanceConfiguration API
   slug: zededa-volumeinstanceconfiguration-api
-- description: The VolumeInstanceStatus API from Zededa — 6 operation(s) for volumeinstancestatus.
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: The VolumeInstanceStatus API from Zededa — 6 operation(s) for volumeinstancestatus.
   name: Zededa VolumeInstanceStatus API
   slug: zededa-volumeinstancestatus-api
-- description: APIs for managing ZKS (ZEDEDA Kubernetes Service) cluster instances including creation, management, node operations, and status monitoring
+- baseURL: https://zedcontrol.zededa.net/api
+  baseurl_source: declared
+  description: APIs for managing ZKS (ZEDEDA Kubernetes Service) cluster instances including creation, management, node operations, and status monitoring
   name: Zededa ZKSClusterInstances API
   slug: zededa-zksclusterinstances-api
 artifact_total: 76
@@ -418,7 +488,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/screenshots/zededa-2026-08-17T083041.png
 security:

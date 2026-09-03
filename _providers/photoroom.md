@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 7 operations · 3 acting
 api_count: 1
 apis:
-- description: The Account API from Photoroom — 2 operation(s) for account.
+- baseURL: https://image-api.photoroom.com
+  baseurl_source: declared
+  description: The Account API from Photoroom — 2 operation(s) for account.
   name: Photoroom Account API
   slug: photoroom-account-api
-- description: The Edit API from Photoroom — 1 operation(s) for edit.
+- baseURL: https://image-api.photoroom.com
+  baseurl_source: declared
+  description: The Edit API from Photoroom — 1 operation(s) for edit.
   name: Photoroom Edit API
   slug: photoroom-edit-api
-- description: The Render API from Photoroom — 1 operation(s) for render.
+- baseURL: https://image-api.photoroom.com
+  baseurl_source: declared
+  description: The Render API from Photoroom — 1 operation(s) for render.
   name: Photoroom Render API
   slug: photoroom-render-api
-- description: The Segment API from Photoroom — 1 operation(s) for segment.
+- baseURL: https://image-api.photoroom.com
+  baseurl_source: declared
+  description: The Segment API from Photoroom — 1 operation(s) for segment.
   name: Photoroom Segment API
   slug: photoroom-segment-api
 artifact_total: 16
@@ -177,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/screenshots/photoroom-2026-06-20T191651.png
 security:

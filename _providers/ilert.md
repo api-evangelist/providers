@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 180 operations · 102 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Alert Actions API from ilert — 3 operation(s) for alert actions.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Alert Actions API from ilert — 3 operation(s) for alert actions.
   name: ilert Alert Actions API
   slug: ilert-alert-actions-api
-- description: The Alert Sources API from ilert — 2 operation(s) for alert sources.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Alert Sources API from ilert — 2 operation(s) for alert sources.
   name: ilert Alert Sources API
   slug: ilert-alert-sources-api
-- description: The Alerts API from ilert — 11 operation(s) for alerts.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Alerts API from ilert — 11 operation(s) for alerts.
   name: ilert Alerts API
   slug: ilert-alerts-api
-- description: The Call Flow Numbers API from ilert — 2 operation(s) for call flow numbers.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Call Flow Numbers API from ilert — 2 operation(s) for call flow numbers.
   name: ilert Call Flow Numbers API
   slug: ilert-call-flow-numbers-api
-- description: The Call Flows API from ilert — 2 operation(s) for call flows.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Call Flows API from ilert — 2 operation(s) for call flows.
   name: ilert Call Flows API
   slug: ilert-call-flows-api
-- description: The Connectors API from ilert — 2 operation(s) for connectors.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Connectors API from ilert — 2 operation(s) for connectors.
   name: ilert Connectors API
   slug: ilert-connectors-api
-- description: The Contacts API from ilert — 4 operation(s) for contacts.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Contacts API from ilert — 4 operation(s) for contacts.
   name: ilert Contacts API
   slug: ilert-contacts-api
-- description: The Deployment Events API from ilert — 1 operation(s) for deployment events.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Deployment Events API from ilert — 1 operation(s) for deployment events.
   name: ilert Deployment Events API
   slug: ilert-deployment-events-api
-- description: The Deployment Pipelines API from ilert — 2 operation(s) for deployment pipelines.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Deployment Pipelines API from ilert — 2 operation(s) for deployment pipelines.
   name: ilert Deployment Pipelines API
   slug: ilert-deployment-pipelines-api
-- description: The Escalation Policies API from ilert — 4 operation(s) for escalation policies.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Escalation Policies API from ilert — 4 operation(s) for escalation policies.
   name: ilert Escalation Policies API
   slug: ilert-escalation-policies-api
-- description: The Event Flows API from ilert — 2 operation(s) for event flows.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Event Flows API from ilert — 2 operation(s) for event flows.
   name: ilert Event Flows API
   slug: ilert-event-flows-api
-- description: The Events API from ilert — 1 operation(s) for events.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Events API from ilert — 1 operation(s) for events.
   name: ilert Events API
   slug: ilert-events-api
-- description: The Heartbeat Monitors API from ilert — 2 operation(s) for heartbeat monitors.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Heartbeat Monitors API from ilert — 2 operation(s) for heartbeat monitors.
   name: ilert Heartbeat Monitors API
   slug: ilert-heartbeat-monitors-api
-- description: The Incident Templates API from ilert — 2 operation(s) for incident templates.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Incident Templates API from ilert — 2 operation(s) for incident templates.
   name: ilert Incident Templates API
   slug: ilert-incident-templates-api
-- description: The Incidents API from ilert — 4 operation(s) for incidents.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Incidents API from ilert — 4 operation(s) for incidents.
   name: ilert Incidents API
   slug: ilert-incidents-api
-- description: The Integrations API from ilert — 1 operation(s) for integrations.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Integrations API from ilert — 1 operation(s) for integrations.
   name: ilert Integrations API
   slug: ilert-integrations-api
-- description: The Log-Entries API from ilert — 1 operation(s) for log-entries.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Log-Entries API from ilert — 1 operation(s) for log-entries.
   name: ilert Log-Entries API
   slug: ilert-log-entries-api
-- description: The Maintenance Windows API from ilert — 2 operation(s) for maintenance windows.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Maintenance Windows API from ilert — 2 operation(s) for maintenance windows.
   name: ilert Maintenance Windows API
   slug: ilert-maintenance-windows-api
-- description: The Metric Data Sources API from ilert — 2 operation(s) for metric data sources.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Metric Data Sources API from ilert — 2 operation(s) for metric data sources.
   name: ilert Metric Data Sources API
   slug: ilert-metric-data-sources-api
-- description: The Metrics API from ilert — 2 operation(s) for metrics.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Metrics API from ilert — 2 operation(s) for metrics.
   name: ilert Metrics API
   slug: ilert-metrics-api
-- description: The Notification Preferences API from ilert — 8 operation(s) for notification preferences.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Notification Preferences API from ilert — 8 operation(s) for notification preferences.
   name: ilert Notification Preferences API
   slug: ilert-notification-preferences-api
-- description: The Notifications API from ilert — 1 operation(s) for notifications.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Notifications API from ilert — 1 operation(s) for notifications.
   name: ilert Notifications API
   slug: ilert-notifications-api
-- description: The Numbers API from ilert — 1 operation(s) for numbers.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Numbers API from ilert — 1 operation(s) for numbers.
   name: ilert Numbers API
   slug: ilert-numbers-api
-- description: The On-Calls API from ilert — 1 operation(s) for on-calls.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The On-Calls API from ilert — 1 operation(s) for on-calls.
   name: ilert On-Calls API
   slug: ilert-on-calls-api
-- description: The Reports API from ilert — 3 operation(s) for reports.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Reports API from ilert — 3 operation(s) for reports.
   name: ilert Reports API
   slug: ilert-reports-api
-- description: The Schedules API from ilert — 5 operation(s) for schedules.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Schedules API from ilert — 5 operation(s) for schedules.
   name: ilert Schedules API
   slug: ilert-schedules-api
-- description: The Series API from ilert — 1 operation(s) for series.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Series API from ilert — 1 operation(s) for series.
   name: ilert Series API
   slug: ilert-series-api
-- description: The Service Outages API from ilert — 3 operation(s) for service outages.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Service Outages API from ilert — 3 operation(s) for service outages.
   name: ilert Service Outages API
   slug: ilert-service-outages-api
-- description: The Services API from ilert — 3 operation(s) for services.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Services API from ilert — 3 operation(s) for services.
   name: ilert Services API
   slug: ilert-services-api
-- description: The Status Pages API from ilert — 6 operation(s) for status pages.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Status Pages API from ilert — 6 operation(s) for status pages.
   name: ilert Status Pages API
   slug: ilert-status-pages-api
-- description: The Support Hours API from ilert — 2 operation(s) for support hours.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Support Hours API from ilert — 2 operation(s) for support hours.
   name: ilert Support Hours API
   slug: ilert-support-hours-api
-- description: The Teams API from ilert — 4 operation(s) for teams.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Teams API from ilert — 4 operation(s) for teams.
   name: ilert Teams API
   slug: ilert-teams-api
-- description: The Users API from ilert — 4 operation(s) for users.
+- baseURL: https://api.ilert.com
+  baseurl_source: declared
+  description: The Users API from ilert — 4 operation(s) for users.
   name: ilert Users API
   slug: ilert-users-api
 artifact_total: 472
@@ -1573,7 +1639,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ilert/refs/heads/main/screenshots/ilert-2026-06-20T183235.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,115 +43,189 @@ agentic_access:
   summary_line: 49 operations · 6 acting
 api_count: 1
 apis:
-- description: Delivers basic static data for a vessel.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers basic static data for a vessel.
   name: FleetMon Basic Vessel Data API
   slug: fleetmon-basic-vessel-data-api
-- description: Returns current info for lat/lon (and timestamp).
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns current info for lat/lon (and timestamp).
   name: FleetMon Current API
   slug: fleetmon-current-api
-- description: Returns the high level summary of a route to port, only including distance, costs, and the count of edges from the routing graph.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns the high level summary of a route to port, only including distance, costs, and the count of edges from the routing graph.
   name: FleetMon Distance To Port API
   slug: fleetmon-distance-to-port-api
-- description: This API returns an estimated laytime for a vessel in all terminals of a port.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: This API returns an estimated laytime for a vessel in all terminals of a port.
   name: FleetMon Estimated Laytime - Specific Vessel API
   slug: fleetmon-estimated-laytime-specific-vessel-api
-- description: Lists vessels heading for a specific port, matched by AIS destination.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Lists vessels heading for a specific port, matched by AIS destination.
   name: FleetMon Expected Port Arrivals API
   slug: fleetmon-expected-port-arrivals-api
-- description: Tracking of current positions for a modifiable list of vessels.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Tracking of current positions for a modifiable list of vessels.
   name: FleetMon Fleet Tracker API
   slug: fleetmon-fleet-tracker-api
-- description: Delivers AIS messages of type 5, 19 & 24 for a specified MMSI number.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers AIS messages of type 5, 19 & 24 for a specified MMSI number.
   name: FleetMon Historical AIS Static Messages API
   slug: fleetmon-historical-ais-static-messages-api
-- description: Returns historical AIS position reports with fixed period and rate, by MMSI.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns historical AIS position reports with fixed period and rate, by MMSI.
   name: FleetMon Historical Track API API
   slug: fleetmon-historical-track-api-api
-- description: Generate new Login Tokens with Token Keys
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Generate new Login Tokens with Token Keys
   name: FleetMon Login Token API
   slug: fleetmon-login-token-api
-- description: Delivers information about the vessels current state and the next port it is heading for.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers information about the vessels current state and the next port it is heading for.
   name: FleetMon Logistics API
   slug: fleetmon-logistics-api
-- description: Delivers your MyFleet or a single vessel of it.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers your MyFleet or a single vessel of it.
   name: FleetMon My Fleet Positions API
   slug: fleetmon-my-fleet-positions-api
-- description: Delivers information about the next port, provided by the vessel itself via AIS destination.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers information about the next port, provided by the vessel itself via AIS destination.
   name: FleetMon Next Port / ETA Calculation API
   slug: fleetmon-next-port-eta-calculation-api
-- description: Delivers owner, manager, DWT, GT and a photo-URL for a vessel, if it's available.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers owner, manager, DWT, GT and a photo-URL for a vessel, if it's available.
   name: FleetMon Non AIS Vessel Particulars API
   slug: fleetmon-non-ais-vessel-particulars-api
-- description: Delivers portcalls for a port.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers portcalls for a port.
   name: FleetMon Port Calls per Port API
   slug: fleetmon-port-calls-per-port-api
-- description: Delivers portcalls for a vessel.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers portcalls for a vessel.
   name: FleetMon Port Calls per Vessel API
   slug: fleetmon-port-calls-per-vessel-api
-- description: Allows lookup of ports by UN/LOCODE, name and/or country.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Allows lookup of ports by UN/LOCODE, name and/or country.
   name: FleetMon Port Search API
   slug: fleetmon-port-search-api
-- description: delivers AIS informations for a predefined bounding box
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: delivers AIS informations for a predefined bounding box
   name: FleetMon Regional AIS API
   slug: fleetmon-regional-ais-api
-- description: This API deliver the enter and left event of the RoRo-Ferry-Terminal Rostock. It is no API key necessary. The look back is 48h. It will be provides information about the Terminal Call itself, informat
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: This API deliver the enter and left event of the RoRo-Ferry-Terminal Rostock. It is no API key necessary. The look back is 48h. It will be provides information about the Terminal Call itself, informat
   name: FleetMon RoRo Ferry Terminal Demo API
   slug: fleetmon-roro-ferry-terminal-demo-api
-- description: Delivers change events for vessels.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers change events for vessels.
   name: FleetMon Vessel Change Events API
   slug: fleetmon-vessel-change-events-api
-- description: Live Dynamic AIS data from requested vessel
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Live Dynamic AIS data from requested vessel
   name: FleetMon Vessel Dynamic AIS API
   slug: fleetmon-vessel-dynamic-ais-api
-- description: Delivers ETA & Destination Change for vessels.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers ETA & Destination Change for vessels.
   name: FleetMon Vessel ETA & Destination Change Events API
   slug: fleetmon-vessel-eta-destination-change-events-api
-- description: Returns the identifying attributes of the provided vessel.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns the identifying attributes of the provided vessel.
   name: FleetMon Vessel Identity API
   slug: fleetmon-vessel-identity-api
-- description: Delivers the URL to the main photo for a vessel. Look-up can be done by Vessel ID or IMO-number.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers the URL to the main photo for a vessel. Look-up can be done by Vessel ID or IMO-number.
   name: FleetMon Vessel Photo API
   slug: fleetmon-vessel-photo-api
-- description: Returns the latest received position.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns the latest received position.
   name: FleetMon Vessel Positions Only API
   slug: fleetmon-vessel-positions-only-api
-- description: Delivers position and extended detailed information for a single vessel.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers position and extended detailed information for a single vessel.
   name: FleetMon Vessel Positions with Extended Vessel Data API
   slug: fleetmon-vessel-positions-with-extended-vessel-data-api
-- description: Returns the actual route from last port to latest position.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns the actual route from last port to latest position.
   name: FleetMon Vessel Route From Last Port API
   slug: fleetmon-vessel-route-from-last-port-api
-- description: Returns the route to the next port of a vessel (using ObjectID).
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns the route to the next port of a vessel (using ObjectID).
   name: FleetMon Vessel Route To Next Port API
   slug: fleetmon-vessel-route-to-next-port-api
-- description: This endpoint provides schedules for vessels, e.g. container schedules.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: This endpoint provides schedules for vessels, e.g. container schedules.
   name: FleetMon Vessel Schedule API
   slug: fleetmon-vessel-schedule-api
-- description: Allows searching over the FleetMon vessel database by name, IMO-number, MMSI-number and/or callsign.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Allows searching over the FleetMon vessel database by name, IMO-number, MMSI-number and/or callsign.
   name: FleetMon Vessel Search API
   slug: fleetmon-vessel-search-api
-- description: Lists vessels detected in port for the specified LOCODE.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Lists vessels detected in port for the specified LOCODE.
   name: FleetMon Vessels in Port API
   slug: fleetmon-vessels-in-port-api
-- description: Vessels near requested position
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Vessels near requested position
   name: FleetMon Vessels Near Position API
   slug: fleetmon-vessels-near-position-api
-- description: Vessels nearby requested vessel
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Vessels nearby requested vessel
   name: FleetMon Vessels Nearby API
   slug: fleetmon-vessels-nearby-api
-- description: Delivers ETA & distance estimations for a route with multiple ports specified by LOCODE.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers ETA & distance estimations for a route with multiple ports specified by LOCODE.
   name: FleetMon Voyage Planning API
   slug: fleetmon-voyage-planning-api
-- description: Returns wave info for lat/lon (and timestamp).
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns wave info for lat/lon (and timestamp).
   name: FleetMon Water API
   slug: fleetmon-water-api
-- description: Returns weather info for lat/lon (and timestamp).
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Returns weather info for lat/lon (and timestamp).
   name: FleetMon Weather API
   slug: fleetmon-weather-api
-- description: Zone Call API
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Zone Call API
   name: FleetMon Zone Call API
   slug: fleetmon-zone-call-api
-- description: Delivers an overview of your geo-zones.
+- baseURL: https://apiv2.fleetmon.com
+  baseurl_source: declared
+  description: Delivers an overview of your geo-zones.
   name: FleetMon Zone Information API
   slug: fleetmon-zone-information-api
 artifact_total: 78
@@ -367,7 +441,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/screenshots/fleetmon-2026-07-25T214742.png
 security:

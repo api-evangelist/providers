@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 17 operations · 15 acting
 api_count: 2
 apis:
-- description: The CTP Switch API from QBE Insurance — 2 operation(s) for ctp switch.
+- baseURL: https://gateway.api-au.qbe.com/x-digital-brokers-qbe-anzo/api
+  baseurl_source: declared
+  description: The CTP Switch API from QBE Insurance — 2 operation(s) for ctp switch.
   name: QBE Insurance CTP Switch API
   slug: qbe-ctp-switch-api
-- description: The Digital Brokers API from QBE Insurance — 15 operation(s) for digital brokers.
+- baseURL: https://gateway.api-au.qbe.com/x-digital-brokers-qbe-anzo/api
+  baseurl_source: declared
+  description: The Digital Brokers API from QBE Insurance — 15 operation(s) for digital brokers.
   name: QBE Insurance Digital Brokers API
   slug: qbe-digital-brokers-api
 arazzos:
@@ -212,7 +228,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 76.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -244,8 +260,9 @@ score:
     regime_id: insurance
     score: 47.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qbe/refs/heads/main/screenshots/qbe-2026-09-02T152422.png
 security:
 - kind: authentication
   name: Qbe Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 20 operations · 20 acting · 20 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.createalias.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.createalias.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateAlias API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createalias-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.CreateKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.createkey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.CreateKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.createkey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.CreateKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-createkey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.deletealias.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.deletealias.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteAlias API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletealias-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.deletekey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.deletekey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.DeleteKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-deletekey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.ExportKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.exportkey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.ExportKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.exportkey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ExportKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-exportkey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getalias.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getalias.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetAlias API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getalias-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getkey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getkey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getkey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getparametersforexport.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getparametersforexport.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForExport API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforexport-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getparametersforimport.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getparametersforimport.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetParametersForImport API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getparametersforimport-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getpublickeycertificat'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.getpublickeycertificat'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.GetPublicKeyCertificate API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-getpublickeycertificate-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.ImportKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.importkey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.ImportKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.importkey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ImportKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-importkey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListAliases API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listaliases.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListAliases API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listaliases.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListAliases API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listaliases-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListKeys API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listkeys.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListKeys API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listkeys.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListKeys API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listkeys-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listtagsforresource.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.listtagsforresource.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.ListTagsForResource API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-listtagsforresource-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.restorekey.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.restorekey.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.RestoreKey API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-restorekey-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.startkeyusage.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.startkeyusage.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StartKeyUsage API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-startkeyusage-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.stopkeyusage.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.stopkeyusage.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.StopKeyUsage API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-stopkeyusage-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.TagResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.tagresource.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.TagResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.tagresource.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.TagResource API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-tagresource-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.UntagResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.untagresource.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.UntagResource API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.untagresource.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UntagResource API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-untagresource-api
-- description: 'The #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.updatealias.'
+- baseURL: https://controlplane.payment-cryptography.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API from Amazon Payment Cryptography — 1 operation(s) for #x amz target=paymentcryptographycontrolplane.updatealias.'
   name: 'Amazon Payment Cryptography #X Amz Target=PaymentCryptographyControlPlane.UpdateAlias API'
   slug: amazon-payment-cryptography-x-amz-target-paymentcryptographycontrolplane-updatealias-api
 artifact_total: 357
@@ -1284,7 +1324,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/screenshots/amazon-payment-cryptography-2026-06-20T171758.png
 security:

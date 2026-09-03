@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,25 +45,39 @@ agentic_access:
   summary_line: 16 operations · 3 acting
 api_count: 1
 apis:
-- description: A clip represents a consumer's intent to redeem an offer.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: A clip represents a consumer's intent to redeem an offer.
   name: BYBE Clips API
   slug: bybe-clips-api
-- description: A consumer purchases products and clips/redeems offers.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: A consumer purchases products and clips/redeems offers.
   name: BYBE Consumers API
   slug: bybe-consumers-api
-- description: A manufacturer represents a company or organization that produces alcoholic beverages.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: A manufacturer represents a company or organization that produces alcoholic beverages.
   name: BYBE Manufacturers API
   slug: bybe-manufacturers-api
-- description: An offer is created and funded by a manufacturer (brand).
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: An offer is created and funded by a manufacturer (brand).
   name: BYBE Offers API
   slug: bybe-offers-api
-- description: A product is produced by a manufacturer and is featured in offers.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: A product is produced by a manufacturer and is featured in offers.
   name: BYBE Products API
   slug: bybe-products-api
-- description: Redemptions are created to disburse money to a consumer for their specific purchases.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: Redemptions are created to disburse money to a consumer for their specific purchases.
   name: BYBE Redemptions API
   slug: bybe-redemptions-api
-- description: A store represents a specific retail location of a retailer.
+- baseURL: https://api.bybe.io
+  baseurl_source: declared
+  description: A store represents a specific retail location of a retailer.
   name: BYBE Stores API
   slug: bybe-stores-api
 artifact_total: 12
@@ -241,7 +255,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/screenshots/bybe-2026-07-25T204132.png
 security:

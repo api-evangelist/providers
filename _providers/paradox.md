@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 59 operations · 34 acting
 api_count: 1
 apis:
-- description: OAuth 2.0 token and JWT verification endpoints
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: OAuth 2.0 token and JWT verification endpoints
   name: Paradox Authentication API
   slug: paradox-authentication-api
-- description: Manage custom candidate attribute data
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage custom candidate attribute data
   name: Paradox Candidate Attributes API
   slug: paradox-candidate-attributes-api
-- description: Manage candidates including creating, retrieving, updating, deleting, messaging, and unsubscribing
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage candidates including creating, retrieving, updating, deleting, messaging, and unsubscribing
   name: Paradox Candidates API
   slug: paradox-candidates-api
-- description: Access company-level data including conversations, groups, schools, areas, and AI assistant
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Access company-level data including conversations, groups, schools, areas, and AI assistant
   name: Paradox Company API
   slug: paradox-company-api
-- description: Manage location areas
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage location areas
   name: Paradox Location Areas API
   slug: paradox-location-areas-api
-- description: Manage location rooms
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage location rooms
   name: Paradox Location Rooms API
   slug: paradox-location-rooms-api
-- description: Manage locations including creating, retrieving, updating, deleting, and lookup by job location code
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage locations including creating, retrieving, updating, deleting, and lookup by job location code
   name: Paradox Locations API
   slug: paradox-locations-api
-- description: Access and generate reports
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Access and generate reports
   name: Paradox Reporting API
   slug: paradox-reporting-api
-- description: Manage interview scheduling, interviewers, settings, rooms, alerts, and history
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage interview scheduling, interviewers, settings, rooms, alerts, and history
   name: Paradox Scheduling API
   slug: paradox-scheduling-api
-- description: Manage user location permissions
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage user location permissions
   name: Paradox User Permissions API
   slug: paradox-user-permissions-api
-- description: Manage users including creating, retrieving, updating, deleting, deactivating, and reactivating
+- baseURL: https://api.paradox.ai
+  baseurl_source: declared
+  description: Manage users including creating, retrieving, updating, deleting, deactivating, and reactivating
   name: Paradox Users API
   slug: paradox-users-api
 artifact_total: 69
@@ -407,7 +429,7 @@ score:
     regime_id: telecommunications
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:

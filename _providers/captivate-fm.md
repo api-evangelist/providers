@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 28 operations · 10 acting
 api_count: 1
 apis:
-- description: Podcast and episode listening analytics (insights).
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: Podcast and episode listening analytics (insights).
   name: Captivate Analytics API
   slug: captivate-fm-analytics-api
-- description: Exchange a user ID and API token for a Bearer token.
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: Exchange a user ID and API token for a Bearer token.
   name: Captivate Authentication API
   slug: captivate-fm-authentication-api
-- description: List, read, create, and update episodes.
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: List, read, create, and update episodes.
   name: Captivate Episodes API
   slug: captivate-fm-episodes-api
-- description: Upload, read, list, and search a show's audio media.
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: Upload, read, list, and search a show's audio media.
   name: Captivate Media API
   slug: captivate-fm-media-api
-- description: Read and update shows, upload artwork, get the RSS feed URL.
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: Read and update shows, upload artwork, get the RSS feed URL.
   name: Captivate Shows API
   slug: captivate-fm-shows-api
-- description: Read a user and list the shows they can access or manage.
+- baseURL: https://api.captivate.fm
+  baseurl_source: declared
+  description: Read a user and list the shows they can access or manage.
   name: Captivate Users API
   slug: captivate-fm-users-api
 artifact_total: 20
@@ -189,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/screenshots/captivate-fm-2026-07-25T204454.png
 security:

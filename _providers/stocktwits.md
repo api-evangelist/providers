@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 31 operations · 11 acting
 api_count: 1
 apis:
-- description: Account management endpoints for verifying and updating user profiles.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Account management endpoints for verifying and updating user profiles.
   name: StockTwits Account API
   slug: stocktwits-account-api
-- description: Deletion tracking endpoints for finding messages and users that have been removed.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Deletion tracking endpoints for finding messages and users that have been removed.
   name: StockTwits Deletions API
   slug: stocktwits-deletions-api
-- description: Friendship management endpoints for following and unfollowing users.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Friendship management endpoints for following and unfollowing users.
   name: StockTwits Friendships API
   slug: stocktwits-friendships-api
-- description: Social graph endpoints for viewing followers and following lists.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Social graph endpoints for viewing followers and following lists.
   name: StockTwits Graph (Social) API
   slug: stocktwits-graph-social-api
-- description: Message endpoints for creating, viewing, liking, and managing individual messages (twits).
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Message endpoints for creating, viewing, liking, and managing individual messages (twits).
   name: StockTwits Messages API
   slug: stocktwits-messages-api
-- description: Search endpoints for finding symbols and users on StockTwits.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Search endpoints for finding symbols and users on StockTwits.
   name: StockTwits Search API
   slug: stocktwits-search-api
-- description: Stream endpoints return collections of messages (twits). Streams can be filtered by symbol, user, trending, etc.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Stream endpoints return collections of messages (twits). Streams can be filtered by symbol, user, trending, etc.
   name: StockTwits Streams API
   slug: stocktwits-streams-api
-- description: Trending endpoints return currently popular symbols based on message volume.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Trending endpoints return currently popular symbols based on message volume.
   name: StockTwits Trending API
   slug: stocktwits-trending-api
-- description: Watchlist management endpoints for creating and managing symbol watchlists.
+- baseURL: https://api.stocktwits.com/api/2
+  baseurl_source: declared
+  description: Watchlist management endpoints for creating and managing symbol watchlists.
   name: StockTwits Watchlists API
   slug: stocktwits-watchlists-api
 artifact_total: 24
@@ -277,7 +295,7 @@ score:
     regime_id: securities_market_data
     score: 58.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stocktwits/refs/heads/main/screenshots/stocktwits-2026-08-17T082118.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 83 operations · 19 acting · 17 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agents API from Accept — 1 operation(s) for agents.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Agents API from Accept — 1 operation(s) for agents.
   name: Accept Agents API
   slug: accept-agents-api
-- description: The Aisystems API from Accept — 5 operation(s) for aisystems.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Aisystems API from Accept — 5 operation(s) for aisystems.
   name: Accept Aisystems API
   slug: accept-aisystems-api
-- description: The Businessservices API from Accept — 3 operation(s) for businessservices.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Businessservices API from Accept — 3 operation(s) for businessservices.
   name: Accept Businessservices API
   slug: accept-businessservices-api
-- description: The Capabilities API from Accept — 5 operation(s) for capabilities.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Capabilities API from Accept — 5 operation(s) for capabilities.
   name: Accept Capabilities API
   slug: accept-capabilities-api
-- description: The Controlplane API from Accept — 18 operation(s) for controlplane.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Controlplane API from Accept — 18 operation(s) for controlplane.
   name: Accept Controlplane API
   slug: accept-controlplane-api
-- description: The Coverage API from Accept — 1 operation(s) for coverage.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Coverage API from Accept — 1 operation(s) for coverage.
   name: Accept Coverage API
   slug: accept-coverage-api
-- description: The Decisions API from Accept — 1 operation(s) for decisions.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Decisions API from Accept — 1 operation(s) for decisions.
   name: Accept Decisions API
   slug: accept-decisions-api
-- description: The Drift API from Accept — 15 operation(s) for drift.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Drift API from Accept — 15 operation(s) for drift.
   name: Accept Drift API
   slug: accept-drift-api
-- description: The Envelopes API from Accept — 2 operation(s) for envelopes.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Envelopes API from Accept — 2 operation(s) for envelopes.
   name: Accept Envelopes API
   slug: accept-envelopes-api
-- description: The Escalation Targets API from Accept — 4 operation(s) for escalation targets.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Escalation Targets API from Accept — 4 operation(s) for escalation targets.
   name: Accept Escalation Targets API
   slug: accept-escalation-targets-api
-- description: The Escalations API from Accept — 1 operation(s) for escalations.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Escalations API from Accept — 1 operation(s) for escalations.
   name: Accept Escalations API
   slug: accept-escalations-api
-- description: The Evaluate API from Accept — 1 operation(s) for evaluate.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Evaluate API from Accept — 1 operation(s) for evaluate.
   name: Accept Evaluate API
   slug: accept-evaluate-api
-- description: The Evidence API from Accept — 4 operation(s) for evidence.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Evidence API from Accept — 4 operation(s) for evidence.
   name: Accept Evidence API
   slug: accept-evidence-api
-- description: The Fail Mode Policies API from Accept — 3 operation(s) for fail mode policies.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Fail Mode Policies API from Accept — 3 operation(s) for fail mode policies.
   name: Accept Fail Mode Policies API
   slug: accept-fail-mode-policies-api
-- description: The Grants API from Accept — 2 operation(s) for grants.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Grants API from Accept — 2 operation(s) for grants.
   name: Accept Grants API
   slug: accept-grants-api
-- description: The Graphs API from Accept — 2 operation(s) for graphs.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Graphs API from Accept — 2 operation(s) for graphs.
   name: Accept Graphs API
   slug: accept-graphs-api
-- description: The Healthz API from Accept — 1 operation(s) for healthz.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Healthz API from Accept — 1 operation(s) for healthz.
   name: Accept Healthz API
   slug: accept-healthz-api
-- description: The Platform API from Accept — 1 operation(s) for platform.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Platform API from Accept — 1 operation(s) for platform.
   name: Accept Platform API
   slug: accept-platform-api
-- description: The Processes API from Accept — 3 operation(s) for processes.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Processes API from Accept — 3 operation(s) for processes.
   name: Accept Processes API
   slug: accept-processes-api
-- description: The Profiles API from Accept — 4 operation(s) for profiles.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Profiles API from Accept — 4 operation(s) for profiles.
   name: Accept Profiles API
   slug: accept-profiles-api
-- description: The Readyz API from Accept — 1 operation(s) for readyz.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Readyz API from Accept — 1 operation(s) for readyz.
   name: Accept Readyz API
   slug: accept-readyz-api
-- description: The Reviews API from Accept — 1 operation(s) for reviews.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Reviews API from Accept — 1 operation(s) for reviews.
   name: Accept Reviews API
   slug: accept-reviews-api
-- description: The Surfaces API from Accept — 4 operation(s) for surfaces.
+- baseURL: https://midas.accept.io
+  baseurl_source: declared
+  description: The Surfaces API from Accept — 4 operation(s) for surfaces.
   name: Accept Surfaces API
   slug: accept-surfaces-api
 artifact_total: 52
@@ -360,7 +406,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -373,7 +419,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 47.8
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,7 +431,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:

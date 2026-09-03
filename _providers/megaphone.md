@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 7 acting
 api_count: 1
 apis:
-- description: Legacy Direct Sales campaigns scoped to an organization.
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Legacy Direct Sales campaigns scoped to an organization.
   name: Megaphone Campaigns API
   slug: megaphone-campaigns-api
-- description: v2 advertisers, campaigns, orders, assets, advertisements, and targeting (modeled).
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: v2 advertisers, campaigns, orders, assets, advertisements, and targeting (modeled).
   name: Megaphone Direct Sales v2 API
   slug: megaphone-direct-sales-v2-api
-- description: Episodes within a podcast, including dynamic ad insertion.
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Episodes within a podcast, including dynamic ad insertion.
   name: Megaphone Episodes API
   slug: megaphone-episodes-api
-- description: Metrics Export Service and Impressions Export Service (modeled).
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Metrics Export Service and Impressions Export Service (modeled).
   name: Megaphone Exports API
   slug: megaphone-exports-api
-- description: Top-level account containers that scope podcasts and episodes.
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Top-level account containers that scope podcasts and episodes.
   name: Megaphone Networks API
   slug: megaphone-networks-api
-- description: Legacy Direct Sales campaign and promo orders and their advertisements.
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Legacy Direct Sales campaign and promo orders and their advertisements.
   name: Megaphone Orders API
   slug: megaphone-orders-api
-- description: Shows within a network, including feed and monetization settings.
+- baseURL: https://cms.megaphone.fm/api
+  baseurl_source: declared
+  description: Shows within a network, including feed and monetization settings.
   name: Megaphone Podcasts API
   slug: megaphone-podcasts-api
 artifact_total: 23
@@ -195,7 +209,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/megaphone/refs/heads/main/screenshots/megaphone-2026-08-07T172429.png
 security:

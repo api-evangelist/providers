@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -68,19 +68,29 @@ apis:
 - description: Retrieves real-time quotes, delayed quotes, and time series market data for US, Canadian, and global companies. Supports lookups by Dow Jones Ticker, Factiva Code, CUSIP, DUNS, or ISIN to retrieve mar
   name: Factiva Market Data API
   slug: factiva-market-data-api
-- description: The Content API from Factiva — 15 operation(s) for content.
+- baseURL: https://api.dowjones.com/factiva/snapshots/v1
+  baseurl_source: declared
+  description: The Content API from Factiva — 15 operation(s) for content.
   name: Factiva Content API
   slug: factiva-content-api
-- description: The Content Search API from Factiva — 1 operation(s) for content search.
+- baseURL: https://api.dowjones.com/factiva/snapshots/v1
+  baseurl_source: declared
+  description: The Content Search API from Factiva — 1 operation(s) for content search.
   name: Factiva Content Search API
   slug: factiva-content-search-api
-- description: Default section
+- baseURL: https://api.dowjones.com/factiva/snapshots/v1
+  baseurl_source: declared
+  description: Default section
   name: Factiva Default API
   slug: factiva-default-api
-- description: The Editions API from Factiva — 2 operation(s) for editions.
+- baseURL: https://api.dowjones.com/factiva/snapshots/v1
+  baseurl_source: declared
+  description: The Editions API from Factiva — 2 operation(s) for editions.
   name: Factiva Editions API
   slug: factiva-editions-api
-- description: The Newsletters API from Factiva — 2 operation(s) for newsletters.
+- baseURL: https://api.dowjones.com/factiva/snapshots/v1
+  baseurl_source: declared
+  description: The Newsletters API from Factiva — 2 operation(s) for newsletters.
   name: Factiva Newsletters API
   slug: factiva-newsletters-api
 artifact_total: 23
@@ -334,7 +344,7 @@ score:
     catalog_gap: 72.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -344,7 +354,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 58.8
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,7 +372,7 @@ score:
     regime_id: securities_market_data
     score: 86.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -47,301 +47,499 @@ apis:
 - description: 'Amazon Managed Service for Apache Flink (formerly Amazon Kinesis Data Analytics for Apache Flink) is a fully managed service for processing and analyzing streaming data using Apache Flink. Developers '
   name: Amazon Managed Service for Apache Flink API
   slug: managed-flink-api
-- description: The CreateSignalingChannel API from AWS Kinesis — 1 operation(s) for createsignalingchannel.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The CreateSignalingChannel API from AWS Kinesis — 1 operation(s) for createsignalingchannel.
   name: AWS Kinesis CreateSignalingChannel API
   slug: kinesis-createsignalingchannel-api
-- description: The CreateStream API from AWS Kinesis — 1 operation(s) for createstream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The CreateStream API from AWS Kinesis — 1 operation(s) for createstream.
   name: AWS Kinesis CreateStream API
   slug: kinesis-createstream-api
-- description: The DeleteSignalingChannel API from AWS Kinesis — 1 operation(s) for deletesignalingchannel.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteSignalingChannel API from AWS Kinesis — 1 operation(s) for deletesignalingchannel.
   name: AWS Kinesis DeleteSignalingChannel API
   slug: kinesis-deletesignalingchannel-api
-- description: The DeleteStream API from AWS Kinesis — 1 operation(s) for deletestream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DeleteStream API from AWS Kinesis — 1 operation(s) for deletestream.
   name: AWS Kinesis DeleteStream API
   slug: kinesis-deletestream-api
-- description: The DescribeEdgeConfiguration API from AWS Kinesis — 1 operation(s) for describeedgeconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeEdgeConfiguration API from AWS Kinesis — 1 operation(s) for describeedgeconfiguration.
   name: AWS Kinesis DescribeEdgeConfiguration API
   slug: kinesis-describeedgeconfiguration-api
-- description: The DescribeImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for describeimagegenerationconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for describeimagegenerationconfiguration.
   name: AWS Kinesis DescribeImageGenerationConfiguration API
   slug: kinesis-describeimagegenerationconfiguration-api
-- description: The DescribeMappedResourceConfiguration API from AWS Kinesis — 1 operation(s) for describemappedresourceconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeMappedResourceConfiguration API from AWS Kinesis — 1 operation(s) for describemappedresourceconfiguration.
   name: AWS Kinesis DescribeMappedResourceConfiguration API
   slug: kinesis-describemappedresourceconfiguration-api
-- description: The DescribeMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for describemediastorageconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for describemediastorageconfiguration.
   name: AWS Kinesis DescribeMediaStorageConfiguration API
   slug: kinesis-describemediastorageconfiguration-api
-- description: The DescribeNotificationConfiguration API from AWS Kinesis — 1 operation(s) for describenotificationconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeNotificationConfiguration API from AWS Kinesis — 1 operation(s) for describenotificationconfiguration.
   name: AWS Kinesis DescribeNotificationConfiguration API
   slug: kinesis-describenotificationconfiguration-api
-- description: The DescribeSignalingChannel API from AWS Kinesis — 1 operation(s) for describesignalingchannel.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeSignalingChannel API from AWS Kinesis — 1 operation(s) for describesignalingchannel.
   name: AWS Kinesis DescribeSignalingChannel API
   slug: kinesis-describesignalingchannel-api
-- description: The DescribeStream API from AWS Kinesis — 1 operation(s) for describestream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The DescribeStream API from AWS Kinesis — 1 operation(s) for describestream.
   name: AWS Kinesis DescribeStream API
   slug: kinesis-describestream-api
-- description: The GetDataEndpoint API from AWS Kinesis — 1 operation(s) for getdataendpoint.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The GetDataEndpoint API from AWS Kinesis — 1 operation(s) for getdataendpoint.
   name: AWS Kinesis GetDataEndpoint API
   slug: kinesis-getdataendpoint-api
-- description: The GetSignalingChannelEndpoint API from AWS Kinesis — 1 operation(s) for getsignalingchannelendpoint.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The GetSignalingChannelEndpoint API from AWS Kinesis — 1 operation(s) for getsignalingchannelendpoint.
   name: AWS Kinesis GetSignalingChannelEndpoint API
   slug: kinesis-getsignalingchannelendpoint-api
-- description: The ListSignalingChannels API from AWS Kinesis — 1 operation(s) for listsignalingchannels.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ListSignalingChannels API from AWS Kinesis — 1 operation(s) for listsignalingchannels.
   name: AWS Kinesis ListSignalingChannels API
   slug: kinesis-listsignalingchannels-api
-- description: The ListStreams API from AWS Kinesis — 1 operation(s) for liststreams.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ListStreams API from AWS Kinesis — 1 operation(s) for liststreams.
   name: AWS Kinesis ListStreams API
   slug: kinesis-liststreams-api
-- description: The ListTagsForResource API from AWS Kinesis — 1 operation(s) for listtagsforresource.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForResource API from AWS Kinesis — 1 operation(s) for listtagsforresource.
   name: AWS Kinesis ListTagsForResource API
   slug: kinesis-listtagsforresource-api
-- description: The ListTagsForStream API from AWS Kinesis — 1 operation(s) for listtagsforstream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The ListTagsForStream API from AWS Kinesis — 1 operation(s) for listtagsforstream.
   name: AWS Kinesis ListTagsForStream API
   slug: kinesis-listtagsforstream-api
-- description: The StartEdgeConfigurationUpdate API from AWS Kinesis — 1 operation(s) for startedgeconfigurationupdate.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The StartEdgeConfigurationUpdate API from AWS Kinesis — 1 operation(s) for startedgeconfigurationupdate.
   name: AWS Kinesis StartEdgeConfigurationUpdate API
   slug: kinesis-startedgeconfigurationupdate-api
-- description: The TagResource API from AWS Kinesis — 1 operation(s) for tagresource.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The TagResource API from AWS Kinesis — 1 operation(s) for tagresource.
   name: AWS Kinesis TagResource API
   slug: kinesis-tagresource-api
-- description: The TagStream API from AWS Kinesis — 1 operation(s) for tagstream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The TagStream API from AWS Kinesis — 1 operation(s) for tagstream.
   name: AWS Kinesis TagStream API
   slug: kinesis-tagstream-api
-- description: The UntagResource API from AWS Kinesis — 1 operation(s) for untagresource.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UntagResource API from AWS Kinesis — 1 operation(s) for untagresource.
   name: AWS Kinesis UntagResource API
   slug: kinesis-untagresource-api
-- description: The UntagStream API from AWS Kinesis — 1 operation(s) for untagstream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UntagStream API from AWS Kinesis — 1 operation(s) for untagstream.
   name: AWS Kinesis UntagStream API
   slug: kinesis-untagstream-api
-- description: The UpdateDataRetention API from AWS Kinesis — 1 operation(s) for updatedataretention.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateDataRetention API from AWS Kinesis — 1 operation(s) for updatedataretention.
   name: AWS Kinesis UpdateDataRetention API
   slug: kinesis-updatedataretention-api
-- description: The UpdateImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for updateimagegenerationconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateImageGenerationConfiguration API from AWS Kinesis — 1 operation(s) for updateimagegenerationconfiguration.
   name: AWS Kinesis UpdateImageGenerationConfiguration API
   slug: kinesis-updateimagegenerationconfiguration-api
-- description: The UpdateMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for updatemediastorageconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateMediaStorageConfiguration API from AWS Kinesis — 1 operation(s) for updatemediastorageconfiguration.
   name: AWS Kinesis UpdateMediaStorageConfiguration API
   slug: kinesis-updatemediastorageconfiguration-api
-- description: The UpdateNotificationConfiguration API from AWS Kinesis — 1 operation(s) for updatenotificationconfiguration.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateNotificationConfiguration API from AWS Kinesis — 1 operation(s) for updatenotificationconfiguration.
   name: AWS Kinesis UpdateNotificationConfiguration API
   slug: kinesis-updatenotificationconfiguration-api
-- description: The UpdateSignalingChannel API from AWS Kinesis — 1 operation(s) for updatesignalingchannel.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateSignalingChannel API from AWS Kinesis — 1 operation(s) for updatesignalingchannel.
   name: AWS Kinesis UpdateSignalingChannel API
   slug: kinesis-updatesignalingchannel-api
-- description: The UpdateStream API from AWS Kinesis — 1 operation(s) for updatestream.
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateStream API from AWS Kinesis — 1 operation(s) for updatestream.
   name: AWS Kinesis UpdateStream API
   slug: kinesis-updatestream-api
-- description: 'The #X Amz Target=Firehose 20150804.CreateDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.createdeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.CreateDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.createdeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.CreateDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-createdeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.DeleteDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.deletedeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.DeleteDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.deletedeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.DeleteDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-deletedeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.DescribeDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.describedeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.DescribeDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.describedeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.DescribeDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-describedeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.ListDeliveryStreams API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.listdeliverystreams.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.ListDeliveryStreams API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.listdeliverystreams.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.ListDeliveryStreams API'
   slug: kinesis-x-amz-target-firehose-20150804-listdeliverystreams-api
-- description: 'The #X Amz Target=Firehose 20150804.ListTagsForDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.listtagsfordeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.ListTagsForDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.listtagsfordeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.ListTagsForDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-listtagsfordeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.PutRecord API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.putrecord.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.PutRecord API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.putrecord.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.PutRecord API'
   slug: kinesis-x-amz-target-firehose-20150804-putrecord-api
-- description: 'The #X Amz Target=Firehose 20150804.PutRecordBatch API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.putrecordbatch.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.PutRecordBatch API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.putrecordbatch.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.PutRecordBatch API'
   slug: kinesis-x-amz-target-firehose-20150804-putrecordbatch-api
-- description: 'The #X Amz Target=Firehose 20150804.StartDeliveryStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.startdeliverystreamencryption.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.StartDeliveryStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.startdeliverystreamencryption.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.StartDeliveryStreamEncryption API'
   slug: kinesis-x-amz-target-firehose-20150804-startdeliverystreamencryption-api
-- description: 'The #X Amz Target=Firehose 20150804.StopDeliveryStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.stopdeliverystreamencryption.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.StopDeliveryStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.stopdeliverystreamencryption.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.StopDeliveryStreamEncryption API'
   slug: kinesis-x-amz-target-firehose-20150804-stopdeliverystreamencryption-api
-- description: 'The #X Amz Target=Firehose 20150804.TagDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.tagdeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.TagDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.tagdeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.TagDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-tagdeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.UntagDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.untagdeliverystream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.UntagDeliveryStream API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.untagdeliverystream.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.UntagDeliveryStream API'
   slug: kinesis-x-amz-target-firehose-20150804-untagdeliverystream-api
-- description: 'The #X Amz Target=Firehose 20150804.UpdateDestination API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.updatedestination.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Firehose 20150804.UpdateDestination API from AWS Kinesis — 1 operation(s) for #x amz target=firehose 20150804.updatedestination.'
   name: 'AWS Kinesis #X Amz Target=Firehose 20150804.UpdateDestination API'
   slug: kinesis-x-amz-target-firehose-20150804-updatedestination-api
-- description: 'The #X Amz Target=Kinesis 20131202.AddTagsToStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.addtagstostream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.AddTagsToStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.addtagstostream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.AddTagsToStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-addtagstostream-api
-- description: 'The #X Amz Target=Kinesis 20131202.CreateStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.createstream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.CreateStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.createstream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.CreateStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-createstream-api
-- description: 'The #X Amz Target=Kinesis 20131202.DecreaseStreamRetentionPeriod API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.decreasestreamretentionperiod.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DecreaseStreamRetentionPeriod API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.decreasestreamretentionperiod.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DecreaseStreamRetentionPeriod API'
   slug: kinesis-x-amz-target-kinesis-20131202-decreasestreamretentionperiod-api
-- description: 'The #X Amz Target=Kinesis 20131202.DeleteStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.deletestream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DeleteStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.deletestream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DeleteStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-deletestream-api
-- description: 'The #X Amz Target=Kinesis 20131202.DeregisterStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.deregisterstreamconsumer.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DeregisterStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.deregisterstreamconsumer.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DeregisterStreamConsumer API'
   slug: kinesis-x-amz-target-kinesis-20131202-deregisterstreamconsumer-api
-- description: 'The #X Amz Target=Kinesis 20131202.DescribeLimits API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describelimits.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DescribeLimits API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describelimits.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DescribeLimits API'
   slug: kinesis-x-amz-target-kinesis-20131202-describelimits-api
-- description: 'The #X Amz Target=Kinesis 20131202.DescribeStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DescribeStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DescribeStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-describestream-api
-- description: 'The #X Amz Target=Kinesis 20131202.DescribeStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestreamconsumer.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DescribeStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestreamconsumer.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DescribeStreamConsumer API'
   slug: kinesis-x-amz-target-kinesis-20131202-describestreamconsumer-api
-- description: 'The #X Amz Target=Kinesis 20131202.DescribeStreamSummary API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestreamsummary.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DescribeStreamSummary API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.describestreamsummary.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DescribeStreamSummary API'
   slug: kinesis-x-amz-target-kinesis-20131202-describestreamsummary-api
-- description: 'The #X Amz Target=Kinesis 20131202.DisableEnhancedMonitoring API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.disableenhancedmonitoring.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.DisableEnhancedMonitoring API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.disableenhancedmonitoring.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.DisableEnhancedMonitoring API'
   slug: kinesis-x-amz-target-kinesis-20131202-disableenhancedmonitoring-api
-- description: 'The #X Amz Target=Kinesis 20131202.EnableEnhancedMonitoring API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.enableenhancedmonitoring.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.EnableEnhancedMonitoring API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.enableenhancedmonitoring.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.EnableEnhancedMonitoring API'
   slug: kinesis-x-amz-target-kinesis-20131202-enableenhancedmonitoring-api
-- description: 'The #X Amz Target=Kinesis 20131202.GetRecords API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.getrecords.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.GetRecords API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.getrecords.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.GetRecords API'
   slug: kinesis-x-amz-target-kinesis-20131202-getrecords-api
-- description: 'The #X Amz Target=Kinesis 20131202.GetShardIterator API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.getsharditerator.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.GetShardIterator API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.getsharditerator.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.GetShardIterator API'
   slug: kinesis-x-amz-target-kinesis-20131202-getsharditerator-api
-- description: 'The #X Amz Target=Kinesis 20131202.IncreaseStreamRetentionPeriod API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.increasestreamretentionperiod.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.IncreaseStreamRetentionPeriod API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.increasestreamretentionperiod.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.IncreaseStreamRetentionPeriod API'
   slug: kinesis-x-amz-target-kinesis-20131202-increasestreamretentionperiod-api
-- description: 'The #X Amz Target=Kinesis 20131202.ListShards API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listshards.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.ListShards API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listshards.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.ListShards API'
   slug: kinesis-x-amz-target-kinesis-20131202-listshards-api
-- description: 'The #X Amz Target=Kinesis 20131202.ListStreamConsumers API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.liststreamconsumers.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.ListStreamConsumers API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.liststreamconsumers.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.ListStreamConsumers API'
   slug: kinesis-x-amz-target-kinesis-20131202-liststreamconsumers-api
-- description: 'The #X Amz Target=Kinesis 20131202.ListStreams API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.liststreams.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.ListStreams API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.liststreams.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.ListStreams API'
   slug: kinesis-x-amz-target-kinesis-20131202-liststreams-api
-- description: 'The #X Amz Target=Kinesis 20131202.ListTagsForStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listtagsforstream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.ListTagsForStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.listtagsforstream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.ListTagsForStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-listtagsforstream-api
-- description: 'The #X Amz Target=Kinesis 20131202.MergeShards API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.mergeshards.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.MergeShards API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.mergeshards.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.MergeShards API'
   slug: kinesis-x-amz-target-kinesis-20131202-mergeshards-api
-- description: 'The #X Amz Target=Kinesis 20131202.PutRecord API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.putrecord.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.PutRecord API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.putrecord.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.PutRecord API'
   slug: kinesis-x-amz-target-kinesis-20131202-putrecord-api
-- description: 'The #X Amz Target=Kinesis 20131202.PutRecords API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.putrecords.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.PutRecords API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.putrecords.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.PutRecords API'
   slug: kinesis-x-amz-target-kinesis-20131202-putrecords-api
-- description: 'The #X Amz Target=Kinesis 20131202.RegisterStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.registerstreamconsumer.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.RegisterStreamConsumer API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.registerstreamconsumer.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.RegisterStreamConsumer API'
   slug: kinesis-x-amz-target-kinesis-20131202-registerstreamconsumer-api
-- description: 'The #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.removetagsfromstream.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.removetagsfromstream.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.RemoveTagsFromStream API'
   slug: kinesis-x-amz-target-kinesis-20131202-removetagsfromstream-api
-- description: 'The #X Amz Target=Kinesis 20131202.SplitShard API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.splitshard.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.SplitShard API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.splitshard.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.SplitShard API'
   slug: kinesis-x-amz-target-kinesis-20131202-splitshard-api
-- description: 'The #X Amz Target=Kinesis 20131202.StartStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.startstreamencryption.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.StartStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.startstreamencryption.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.StartStreamEncryption API'
   slug: kinesis-x-amz-target-kinesis-20131202-startstreamencryption-api
-- description: 'The #X Amz Target=Kinesis 20131202.StopStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.stopstreamencryption.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.StopStreamEncryption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.stopstreamencryption.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.StopStreamEncryption API'
   slug: kinesis-x-amz-target-kinesis-20131202-stopstreamencryption-api
-- description: 'The #X Amz Target=Kinesis 20131202.UpdateShardCount API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.updateshardcount.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.UpdateShardCount API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.updateshardcount.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.UpdateShardCount API'
   slug: kinesis-x-amz-target-kinesis-20131202-updateshardcount-api
-- description: 'The #X Amz Target=Kinesis 20131202.UpdateStreamMode API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.updatestreammode.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=Kinesis 20131202.UpdateStreamMode API from AWS Kinesis — 1 operation(s) for #x amz target=kinesis 20131202.updatestreammode.'
   name: 'AWS Kinesis #X Amz Target=Kinesis 20131202.UpdateStreamMode API'
   slug: kinesis-x-amz-target-kinesis-20131202-updatestreammode-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationcloudwatchloggingoptio'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationcloudwatchloggingoptio'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationCloudWatchLoggingOption API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationcloudwatchloggingoption-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinput.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinput.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationInput API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationinput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinputprocessingco'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationinputprocessingco'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationInputProcessingConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationinputprocessingconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationoutput.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationoutput.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationOutput API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationoutput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationreferencedatasource.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationreferencedatasource.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationReferenceDataSource API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationreferencedatasource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationvpcconfiguration.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.addapplicationvpcconfiguration.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.AddApplicationVpcConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-addapplicationvpcconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.CreateApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-createapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationpresignedurl.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationpresignedurl.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.CreateApplicationPresignedUrl API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-createapplicationpresignedurl-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationsnapshot.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.createapplicationsnapshot.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.CreateApplicationSnapshot API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-createapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationcloudwatchloggin'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationcloudwatchloggin'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationCloudWatchLoggingOption API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationcloudwatchloggingoption-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationinputproces'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationinputproces'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationInputProcessingConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationinputprocessingconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationoutput.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationoutput.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationOutput API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationoutput-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationreferencedatasource.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationreferencedatasource.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationReferenceDataSource API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationreferencedatasource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationsnapshot.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationsnapshot.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationSnapshot API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationvpcconfiguration.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.deleteapplicationvpcconfiguration.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DeleteApplicationVpcConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-deleteapplicationvpcconfiguration-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DescribeApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-describeapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicationsnapshot.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicationsnapshot.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationSnapshot API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-describeapplicationsnapshot-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicationversion.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.describeapplicationversion.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DescribeApplicationVersion API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-describeapplicationversion-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.discoverinputschema.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.discoverinputschema.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.DiscoverInputSchema API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-discoverinputschema-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplications API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplications.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplications API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplications.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.ListApplications API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-listapplications-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationsnapshots.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationsnapshots.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.ListApplicationSnapshots API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-listapplicationsnapshots-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationversions.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listapplicationversions.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.ListApplicationVersions API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-listapplicationversions-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listtagsforresource.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.listtagsforresource.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.ListTagsForResource API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-listtagsforresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.rollbackapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.rollbackapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.RollbackApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-rollbackapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.StartApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.startapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.StartApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.startapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.StartApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-startapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.StopApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.stopapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.StopApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.stopapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.StopApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-stopapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.TagResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.tagresource.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.TagResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.tagresource.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.TagResource API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-tagresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UntagResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.untagresource.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UntagResource API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.untagresource.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.UntagResource API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-untagresource-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplication.'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplication.'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.UpdateApplication API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplication-api
-- description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplicationmaintenanceconf'
+- baseURL: https://kinesis.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API from AWS Kinesis — 1 operation(s) for #x amz target=kinesisanalytics 20180523.updateapplicationmaintenanceconf'
   name: 'AWS Kinesis #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 artifact_total: 944
@@ -2988,7 +3186,7 @@ score:
       marker_coverage: 0.0
       total: 99
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:

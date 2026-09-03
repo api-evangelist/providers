@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 139 operations · 82 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The access API from Scott Ai — 1 operation(s) for access.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The access API from Scott Ai — 1 operation(s) for access.
   name: Scott Ai access API
   slug: scott-ai-access-api
-- description: The agent-counsel API from Scott Ai — 4 operation(s) for agent-counsel.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The agent-counsel API from Scott Ai — 4 operation(s) for agent-counsel.
   name: Scott Ai agent-counsel API
   slug: scott-ai-agent-counsel-api
-- description: The agent-counsel-internal API from Scott Ai — 3 operation(s) for agent-counsel-internal.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The agent-counsel-internal API from Scott Ai — 3 operation(s) for agent-counsel-internal.
   name: Scott Ai agent-counsel-internal API
   slug: scott-ai-agent-counsel-internal-api
-- description: The agent-loop API from Scott Ai — 16 operation(s) for agent-loop.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The agent-loop API from Scott Ai — 16 operation(s) for agent-loop.
   name: Scott Ai agent-loop API
   slug: scott-ai-agent-loop-api
-- description: The agent-loop-internal API from Scott Ai — 3 operation(s) for agent-loop-internal.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The agent-loop-internal API from Scott Ai — 3 operation(s) for agent-loop-internal.
   name: Scott Ai agent-loop-internal API
   slug: scott-ai-agent-loop-internal-api
-- description: The artifacts API from Scott Ai — 1 operation(s) for artifacts.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The artifacts API from Scott Ai — 1 operation(s) for artifacts.
   name: Scott Ai artifacts API
   slug: scott-ai-artifacts-api
-- description: The auth API from Scott Ai — 1 operation(s) for auth.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The auth API from Scott Ai — 1 operation(s) for auth.
   name: Scott Ai auth API
   slug: scott-ai-auth-api
-- description: The billing API from Scott Ai — 5 operation(s) for billing.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The billing API from Scott Ai — 5 operation(s) for billing.
   name: Scott Ai billing API
   slug: scott-ai-billing-api
-- description: The cli-version API from Scott Ai — 1 operation(s) for cli-version.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The cli-version API from Scott Ai — 1 operation(s) for cli-version.
   name: Scott Ai cli-version API
   slug: scott-ai-cli-version-api
-- description: The connected-sources API from Scott Ai — 6 operation(s) for connected-sources.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The connected-sources API from Scott Ai — 6 operation(s) for connected-sources.
   name: Scott Ai connected-sources API
   slug: scott-ai-connected-sources-api
-- description: The conversations API from Scott Ai — 9 operation(s) for conversations.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The conversations API from Scott Ai — 9 operation(s) for conversations.
   name: Scott Ai conversations API
   slug: scott-ai-conversations-api
-- description: The documents API from Scott Ai — 9 operation(s) for documents.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The documents API from Scott Ai — 9 operation(s) for documents.
   name: Scott Ai documents API
   slug: scott-ai-documents-api
-- description: The e2b API from Scott Ai — 2 operation(s) for e2b.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The e2b API from Scott Ai — 2 operation(s) for e2b.
   name: Scott Ai e2b API
   slug: scott-ai-e2b-api
-- description: The github API from Scott Ai — 1 operation(s) for github.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The github API from Scott Ai — 1 operation(s) for github.
   name: Scott Ai github API
   slug: scott-ai-github-api
-- description: The github-links API from Scott Ai — 3 operation(s) for github-links.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The github-links API from Scott Ai — 3 operation(s) for github-links.
   name: Scott Ai github-links API
   slug: scott-ai-github-links-api
-- description: The Health API from Scott Ai — 2 operation(s) for health.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The Health API from Scott Ai — 2 operation(s) for health.
   name: Scott Ai Health API
   slug: scott-ai-health-api
-- description: The integrations API from Scott Ai — 1 operation(s) for integrations.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The integrations API from Scott Ai — 1 operation(s) for integrations.
   name: Scott Ai integrations API
   slug: scott-ai-integrations-api
-- description: The invites API from Scott Ai — 6 operation(s) for invites.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The invites API from Scott Ai — 6 operation(s) for invites.
   name: Scott Ai invites API
   slug: scott-ai-invites-api
-- description: The issues API from Scott Ai — 1 operation(s) for issues.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The issues API from Scott Ai — 1 operation(s) for issues.
   name: Scott Ai issues API
   slug: scott-ai-issues-api
-- description: The notifications API from Scott Ai — 5 operation(s) for notifications.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The notifications API from Scott Ai — 5 operation(s) for notifications.
   name: Scott Ai notifications API
   slug: scott-ai-notifications-api
-- description: The One Shot API API from Scott Ai — 1 operation(s) for one shot api.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The One Shot API API from Scott Ai — 1 operation(s) for one shot api.
   name: Scott Ai One Shot API API
   slug: scott-ai-one-shot-api-api
-- description: The orgs API from Scott Ai — 1 operation(s) for orgs.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The orgs API from Scott Ai — 1 operation(s) for orgs.
   name: Scott Ai orgs API
   slug: scott-ai-orgs-api
-- description: The probes API from Scott Ai — 3 operation(s) for probes.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The probes API from Scott Ai — 3 operation(s) for probes.
   name: Scott Ai probes API
   slug: scott-ai-probes-api
-- description: The reviews API from Scott Ai — 9 operation(s) for reviews.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The reviews API from Scott Ai — 9 operation(s) for reviews.
   name: Scott Ai reviews API
   slug: scott-ai-reviews-api
-- description: The snapshots API from Scott Ai — 7 operation(s) for snapshots.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The snapshots API from Scott Ai — 7 operation(s) for snapshots.
   name: Scott Ai snapshots API
   slug: scott-ai-snapshots-api
-- description: The sync-chat API from Scott Ai — 8 operation(s) for sync-chat.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The sync-chat API from Scott Ai — 8 operation(s) for sync-chat.
   name: Scott Ai sync-chat API
   slug: scott-ai-sync-chat-api
-- description: The users API from Scott Ai — 8 operation(s) for users.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The users API from Scott Ai — 8 operation(s) for users.
   name: Scott Ai users API
   slug: scott-ai-users-api
-- description: The waitlist API from Scott Ai — 1 operation(s) for waitlist.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The waitlist API from Scott Ai — 1 operation(s) for waitlist.
   name: Scott Ai waitlist API
   slug: scott-ai-waitlist-api
-- description: The walkthroughs API from Scott Ai — 3 operation(s) for walkthroughs.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The walkthroughs API from Scott Ai — 3 operation(s) for walkthroughs.
   name: Scott Ai walkthroughs API
   slug: scott-ai-walkthroughs-api
-- description: The .well Known API from Scott Ai — 1 operation(s) for .well known.
+- baseURL: https://api.tryscott.ai
+  baseurl_source: declared
+  description: The .well Known API from Scott Ai — 1 operation(s) for .well known.
   name: Scott Ai .well Known API
   slug: scott-ai-well-known-api
 artifact_total: 66
@@ -393,7 +453,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scott-ai/refs/heads/main/screenshots/scott-ai-2026-08-17T081735.png
 security:

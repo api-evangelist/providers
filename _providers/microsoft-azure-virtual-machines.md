@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -71,7 +71,9 @@ apis:
 - description: REST API for creating and managing Capacity Reservations, which allow you to reserve compute capacity in an Azure region or availability zone. Ensures that allocated capacity is available when you nee
   name: Azure Capacity Reservations REST API
   slug: azure-capacity-reservations-rest-api
-- description: Operations for creating, updating, deleting, and managing the lifecycle of Azure Virtual Machines including power operations, patching, and diagnostics.
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and managing the lifecycle of Azure Virtual Machines including power operations, patching, and diagnostics.
   name: Azure Virtual Machines Virtual Machines API
   slug: microsoft-azure-virtual-machines-virtual-machines-api
 artifact_total: 60
@@ -400,7 +402,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/screenshots/microsoft-azure-virtual-machines-2026-06-20T185443.png
 security:

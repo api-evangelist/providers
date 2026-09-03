@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 19 operations · 7 acting
 api_count: 1
 apis:
-- description: Manage applications discovered and tracked in your organization.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Manage applications discovered and tracked in your organization.
   name: Torii Apps API
   slug: torii-apps-api
-- description: Retrieve admin audit log entries.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Retrieve admin audit log entries.
   name: Torii Audit API
   slug: torii-audit-api
-- description: Manage SaaS contracts and renewal information.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Manage SaaS contracts and renewal information.
   name: Torii Contracts API
   slug: torii-contracts-api
-- description: Upload and manage files.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Upload and manage files.
   name: Torii Files API
   slug: torii-files-api
-- description: Retrieve field metadata for apps, users, and contracts.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Retrieve field metadata for apps, users, and contracts.
   name: Torii Metadata API
   slug: torii-metadata-api
-- description: Manage file parsing and column mapping.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Manage file parsing and column mapping.
   name: Torii Parsings API
   slug: torii-parsings-api
-- description: SCIM 2.0 user provisioning endpoints.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: SCIM 2.0 user provisioning endpoints.
   name: Torii SCIM API
   slug: torii-scim-api
-- description: The Services API from Torii — 1 operation(s) for services.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: The Services API from Torii — 1 operation(s) for services.
   name: Torii Services API
   slug: torii-services-api
-- description: Manage users in your organization.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: Manage users in your organization.
   name: Torii Users API
   slug: torii-users-api
-- description: The Workflows API from Torii — 1 operation(s) for workflows.
+- baseURL: https://api.toriihq.com/v1.0
+  baseurl_source: spec
+  description: The Workflows API from Torii — 1 operation(s) for workflows.
   name: Torii Workflows API
   slug: torii-workflows-api
 artifact_total: 91
@@ -380,7 +400,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/screenshots/torii-2026-06-20T195457.png
 security:

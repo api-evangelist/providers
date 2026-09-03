@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: low
+  label: Unknown
+  onboarding: unknown
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,37 +35,57 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The MQTT publish/subscribe surface of the COSMOPlat IoT development platform, documented in 数据流转引擎 (data flow engine). Devices publish telemetry to iot.cosmoplat.com:1883 on v1/devices/me/telemetry; t
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The MQTT publish/subscribe surface of the COSMOPlat IoT development platform, documented in 数据流转引擎 (data flow engine). Devices publish telemetry to iot.cosmoplat.com:1883 on v1/devices/me/telemetry; t
   name: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
-- description: The Alarm Records API from Cosmoplat — 2 operation(s) for alarm records.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Alarm Records API from Cosmoplat — 2 operation(s) for alarm records.
   name: Cosmoplat Alarm Records API
   slug: cosmoplat-alarm-records-api
-- description: The Alarm Rules API from Cosmoplat — 3 operation(s) for alarm rules.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Alarm Rules API from Cosmoplat — 3 operation(s) for alarm rules.
   name: Cosmoplat Alarm Rules API
   slug: cosmoplat-alarm-rules-api
-- description: The Attribute Data API from Cosmoplat — 1 operation(s) for attribute data.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Attribute Data API from Cosmoplat — 1 operation(s) for attribute data.
   name: Cosmoplat Attribute Data API
   slug: cosmoplat-attribute-data-api
-- description: The Device Management API from Cosmoplat — 4 operation(s) for device management.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Device Management API from Cosmoplat — 4 operation(s) for device management.
   name: Cosmoplat Device Management API
   slug: cosmoplat-device-management-api
-- description: The Device RPC API from Cosmoplat — 2 operation(s) for device rpc.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Device RPC API from Cosmoplat — 2 operation(s) for device rpc.
   name: Cosmoplat Device RPC API
   slug: cosmoplat-device-rpc-api
-- description: The Product Management API from Cosmoplat — 3 operation(s) for product management.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Product Management API from Cosmoplat — 3 operation(s) for product management.
   name: Cosmoplat Product Management API
   slug: cosmoplat-product-management-api
-- description: The Rule Chains API from Cosmoplat — 3 operation(s) for rule chains.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Rule Chains API from Cosmoplat — 3 operation(s) for rule chains.
   name: Cosmoplat Rule Chains API
   slug: cosmoplat-rule-chains-api
-- description: The Thing Model (Telemetry Profile) API from Cosmoplat — 6 operation(s) for thing model (telemetry profile).
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Thing Model (Telemetry Profile) API from Cosmoplat — 6 operation(s) for thing model (telemetry profile).
   name: Cosmoplat Thing Model (Telemetry Profile) API
   slug: cosmoplat-thing-model-telemetry-profile-api
-- description: The Time-series Data API from Cosmoplat — 1 operation(s) for time-series data.
+- baseURL: mqtt://iot-mqtt.cosmoplat.com:11883
+  baseurl_source: declared
+  description: The Time-series Data API from Cosmoplat — 1 operation(s) for time-series data.
   name: Cosmoplat Time-series Data API
   slug: cosmoplat-time-series-data-api
 artifact_total: 17
@@ -214,7 +246,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -224,7 +256,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 28.5
+  previous_composite: 28.4
   provenance:
     conformance: derived
     contracts:
@@ -235,7 +267,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/screenshots/cosmoplat-2026-08-17T123144.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 7 acting
 api_count: 1
 apis:
-- description: Track air cargo using Master Air Waybill (MAWB) numbers
+- baseURL: https://api.trackingmore.com/v4
+  baseurl_source: spec
+  description: Track air cargo using Master Air Waybill (MAWB) numbers
   name: TrackingMore Air Waybills API
   slug: trackingmore-air-waybills-api
-- description: List available couriers and detect carrier from tracking number
+- baseURL: https://api.trackingmore.com/v4
+  baseurl_source: spec
+  description: List available couriers and detect carrier from tracking number
   name: TrackingMore Couriers API
   slug: trackingmore-couriers-api
-- description: Create, retrieve, update, and delete shipment trackings
+- baseURL: https://api.trackingmore.com/v4
+  baseurl_source: spec
+  description: Create, retrieve, update, and delete shipment trackings
   name: TrackingMore Trackings API
   slug: trackingmore-trackings-api
 artifact_total: 42
@@ -230,7 +236,7 @@ score:
     catalog_gap: 56.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -240,7 +246,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -249,7 +255,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/screenshots/trackingmore-2026-06-20T195521.png
 security:

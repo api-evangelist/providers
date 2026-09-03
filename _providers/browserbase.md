@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
-- description: The Contexts API from Browserbase — 2 operation(s) for contexts.
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Contexts API from Browserbase — 2 operation(s) for contexts.
   name: Browserbase Contexts API
   slug: browserbase-contexts-api
-- description: The Extensions API from Browserbase — 2 operation(s) for extensions.
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Extensions API from Browserbase — 2 operation(s) for extensions.
   name: Browserbase Extensions API
   slug: browserbase-extensions-api
-- description: The Projects API from Browserbase — 3 operation(s) for projects.
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Projects API from Browserbase — 3 operation(s) for projects.
   name: Browserbase Projects API
   slug: browserbase-projects-api
-- description: The Sessions API from Browserbase — 6 operation(s) for sessions.
+- baseURL: https://api.browserbase.com
+  baseurl_source: declared
+  description: The Sessions API from Browserbase — 6 operation(s) for sessions.
   name: Browserbase Sessions API
   slug: browserbase-sessions-api
 artifact_total: 31
@@ -282,7 +290,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png
 security:

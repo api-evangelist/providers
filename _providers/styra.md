@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 6 operations · 4 acting
 api_count: 1
 apis:
-- description: The Batch API from Styra — 1 operation(s) for batch.
+- baseURL: http://localhost:8181
+  baseurl_source: declared
+  description: The Batch API from Styra — 1 operation(s) for batch.
   name: Styra Batch API
   slug: styra-batch-api
-- description: The Compile API from Styra — 1 operation(s) for compile.
+- baseURL: http://localhost:8181
+  baseurl_source: declared
+  description: The Compile API from Styra — 1 operation(s) for compile.
   name: Styra Compile API
   slug: styra-compile-api
-- description: The Data API from Styra — 1 operation(s) for data.
+- baseURL: http://localhost:8181
+  baseurl_source: declared
+  description: The Data API from Styra — 1 operation(s) for data.
   name: Styra Data API
   slug: styra-data-api
-- description: The Enterprise OPA REST API API from Styra — 1 operation(s) for enterprise opa rest api.
+- baseURL: http://localhost:8181
+  baseurl_source: declared
+  description: The Enterprise OPA REST API API from Styra — 1 operation(s) for enterprise opa rest api.
   name: Styra Enterprise OPA REST API API
   slug: styra-enterprise-opa-rest-api-api
-- description: The Health API from Styra — 1 operation(s) for health.
+- baseURL: http://localhost:8181
+  baseurl_source: declared
+  description: The Health API from Styra — 1 operation(s) for health.
   name: Styra Health API
   slug: styra-health-api
 artifact_total: 14
@@ -192,7 +202,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -224,8 +234,9 @@ score:
     regime_id: insurance
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/styra/refs/heads/main/screenshots/styra-2026-09-02T161055.png
 security:
 - kind: authentication
   name: Styra Authentication

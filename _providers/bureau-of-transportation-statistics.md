@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: The Freight Analysis Framework integrates data from multiple sources to create a comprehensive picture of freight flows to, from, within, and through the United States. Includes volume, value, and mod
   name: BTS Freight Analysis Framework (FAF)
   slug: bts-freight-data
-- description: Dataset and view metadata
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: Dataset and view metadata
   name: Bureau of Transportation Statistics Metadata API
   slug: bureau-of-transportation-statistics-metadata-api
-- description: Dataset resource queries via SoQL
+- baseURL: https://data.bts.gov/resource/
+  baseurl_source: declared
+  description: Dataset resource queries via SoQL
   name: Bureau of Transportation Statistics Resource API
   slug: bureau-of-transportation-statistics-resource-api
 artifact_total: 15
@@ -172,7 +176,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/screenshots/bureau-of-transportation-statistics-2026-06-20T173820.png
 security:

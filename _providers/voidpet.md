@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Discovery API from Voidpet — 1 operation(s) for discovery.
+- baseURL: https://voidpet.com
+  baseurl_source: declared
+  description: The Discovery API from Voidpet — 1 operation(s) for discovery.
   name: Voidpet Discovery API
   slug: voidpet-discovery-api
-- description: The Health API from Voidpet — 1 operation(s) for health.
+- baseURL: https://voidpet.com
+  baseurl_source: declared
+  description: The Health API from Voidpet — 1 operation(s) for health.
   name: Voidpet Health API
   slug: voidpet-health-api
 artifact_total: 8
@@ -131,7 +135,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -162,8 +166,9 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/screenshots/voidpet-2026-09-02T170212.png
 security:
 - kind: authentication
   name: Voidpet Authentication

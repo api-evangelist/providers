@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -44,133 +44,219 @@ agentic_access:
   summary_line: 71 operations · 37 acting · 3 human-in-the-loop
 api_count: 6
 apis:
-- description: Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API supports text, images, tool use, extended th
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API supports text, images, tool use, extended th
   name: Anthropic Messages API
   slug: anthropic-messages-api
-- description: List and inspect Claude models including Opus 4.7, Sonnet 4.6, and Haiku 4.5. The response includes max_input_tokens, max_tokens, and a capabilities object for every model so clients can discover mode
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: List and inspect Claude models including Opus 4.7, Sonnet 4.6, and Haiku 4.5. The response includes max_input_tokens, max_tokens, and a capabilities object for every model so clients can discover mode
   name: Anthropic Models API
   slug: anthropic-models-api
-- description: 'The Files API lets you upload and manage files for reuse across Messages, Batches, code execution, and Managed Agents without re-uploading content. 500 MB request limit; supports PDFs, images, Office '
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: 'The Files API lets you upload and manage files for reuse across Messages, Batches, code execution, and Managed Agents without re-uploading content. 500 MB request limit; supports PDFs, images, Office '
   name: Anthropic Files API
   slug: anthropic-files-api
-- description: Create and manage custom Agent Skills. Skills are filesystem-based directories of instructions, scripts, and resources that Claude loads on demand via progressive disclosure. Workspace-wide sharing. T
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Create and manage custom Agent Skills. Skills are filesystem-based directories of instructions, scripts, and resources that Claude loads on demand via progressive disclosure. Workspace-wide sharing. T
   name: Anthropic Skills API
   slug: anthropic-skills-api
-- description: Reusable, versioned agent configurations
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Reusable, versioned agent configurations
   name: Anthropic Agents API
   slug: anthropic-agents-api
-- description: Monitor and manage API keys
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Monitor and manage API keys
   name: Anthropic Api Keys API
   slug: anthropic-api-keys-api
-- description: Service-level cost reporting
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Service-level cost reporting
   name: Anthropic Cost API
   slug: anthropic-cost-api
-- description: Container configuration for agent sessions
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Container configuration for agent sessions
   name: Anthropic Environments API
   slug: anthropic-environments-api
-- description: User messages and tool results sent to a session
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: User messages and tool results sent to a session
   name: Anthropic Events API
   slug: anthropic-events-api
-- description: Retrieve organization information and settings
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Retrieve organization information and settings
   name: Anthropic Organization API
   slug: anthropic-organization-api
-- description: Create and manage organization invitations
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Create and manage organization invitations
   name: Anthropic Organization Invites API
   slug: anthropic-organization-invites-api
-- description: Manage organization members and their roles
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Manage organization members and their roles
   name: Anthropic Organization Members API
   slug: anthropic-organization-members-api
-- description: APIs for generating well-written prompts for specified tasks
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: APIs for generating well-written prompts for specified tasks
   name: Anthropic Prompt Generation API
   slug: anthropic-prompt-generation-api
-- description: APIs for enhancing existing prompts with feedback
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: APIs for enhancing existing prompts with feedback
   name: Anthropic Prompt Improvement API
   slug: anthropic-prompt-improvement-api
-- description: APIs for converting prompts into reusable templates with variables
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: APIs for converting prompts into reusable templates with variables
   name: Anthropic Prompt Templatization API
   slug: anthropic-prompt-templatization-api
-- description: Stateful agent execution instances
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Stateful agent execution instances
   name: Anthropic Sessions API
   slug: anthropic-sessions-api
-- description: Token usage and consumption reporting
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Token usage and consumption reporting
   name: Anthropic Usage API
   slug: anthropic-usage-api
-- description: Manage workspace membership and roles
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Manage workspace membership and roles
   name: Anthropic Workspace Members API
   slug: anthropic-workspace-members-api
-- description: Create and manage workspaces within an organization
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: Create and manage workspaces within an organization
   name: Anthropic Workspaces API
   slug: anthropic-workspaces-api
-- description: The Agents?beta=true API from Anthropic — 1 operation(s) for agents?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Agents?beta=true API from Anthropic — 1 operation(s) for agents?beta=true.
   name: Anthropic Agents?beta=true API
   slug: anthropic-agents-beta-true-api
-- description: The Anthropic API API from Anthropic — 0 operation(s) for anthropic api.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Anthropic API API from Anthropic — 0 operation(s) for anthropic api.
   name: Anthropic Anthropic API
   slug: anthropic-anthropic-api-api
-- description: The Complete API from Anthropic — 1 operation(s) for complete.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Complete API from Anthropic — 1 operation(s) for complete.
   name: Anthropic Complete API
   slug: anthropic-complete-api
-- description: The Deployment Runs API from Anthropic — 1 operation(s) for deployment runs.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Deployment Runs API from Anthropic — 1 operation(s) for deployment runs.
   name: Anthropic Deployment Runs API
   slug: anthropic-deployment-runs-api
-- description: The Deployment Runs?beta=true API from Anthropic — 1 operation(s) for deployment runs?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Deployment Runs?beta=true API from Anthropic — 1 operation(s) for deployment runs?beta=true.
   name: Anthropic Deployment Runs?beta=true API
   slug: anthropic-deployment-runs-beta-true-api
-- description: The Deployments API from Anthropic — 5 operation(s) for deployments.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Deployments API from Anthropic — 5 operation(s) for deployments.
   name: Anthropic Deployments API
   slug: anthropic-deployments-api
-- description: The Deployments?beta=true API from Anthropic — 1 operation(s) for deployments?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Deployments?beta=true API from Anthropic — 1 operation(s) for deployments?beta=true.
   name: Anthropic Deployments?beta=true API
   slug: anthropic-deployments-beta-true-api
-- description: The Dreams API from Anthropic — 3 operation(s) for dreams.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Dreams API from Anthropic — 3 operation(s) for dreams.
   name: Anthropic Dreams API
   slug: anthropic-dreams-api
-- description: The Dreams?beta=true API from Anthropic — 1 operation(s) for dreams?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Dreams?beta=true API from Anthropic — 1 operation(s) for dreams?beta=true.
   name: Anthropic Dreams?beta=true API
   slug: anthropic-dreams-beta-true-api
-- description: The Environments?beta=true API from Anthropic — 1 operation(s) for environments?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Environments?beta=true API from Anthropic — 1 operation(s) for environments?beta=true.
   name: Anthropic Environments?beta=true API
   slug: anthropic-environments-beta-true-api
-- description: The Files?beta=true API from Anthropic — 1 operation(s) for files?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Files?beta=true API from Anthropic — 1 operation(s) for files?beta=true.
   name: Anthropic Files?beta=true API
   slug: anthropic-files-beta-true-api
-- description: The Memory Stores API from Anthropic — 7 operation(s) for memory stores.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Memory Stores API from Anthropic — 7 operation(s) for memory stores.
   name: Anthropic Memory Stores API
   slug: anthropic-memory-stores-api
-- description: The Memory Stores?beta=true API from Anthropic — 1 operation(s) for memory stores?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Memory Stores?beta=true API from Anthropic — 1 operation(s) for memory stores?beta=true.
   name: Anthropic Memory Stores?beta=true API
   slug: anthropic-memory-stores-beta-true-api
-- description: The Messages?beta=true API from Anthropic — 1 operation(s) for messages?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Messages?beta=true API from Anthropic — 1 operation(s) for messages?beta=true.
   name: Anthropic Messages?beta=true API
   slug: anthropic-messages-beta-true-api
-- description: The Models?beta=true API from Anthropic — 1 operation(s) for models?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Models?beta=true API from Anthropic — 1 operation(s) for models?beta=true.
   name: Anthropic Models?beta=true API
   slug: anthropic-models-beta-true-api
-- description: The Organizations API from Anthropic — 43 operation(s) for organizations.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Organizations API from Anthropic — 43 operation(s) for organizations.
   name: Anthropic Organizations API
   slug: anthropic-organizations-api
-- description: The Sessions?beta=true API from Anthropic — 1 operation(s) for sessions?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Sessions?beta=true API from Anthropic — 1 operation(s) for sessions?beta=true.
   name: Anthropic Sessions?beta=true API
   slug: anthropic-sessions-beta-true-api
-- description: The Skills?beta=true API from Anthropic — 1 operation(s) for skills?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Skills?beta=true API from Anthropic — 1 operation(s) for skills?beta=true.
   name: Anthropic Skills?beta=true API
   slug: anthropic-skills-beta-true-api
-- description: The Tunnels API from Anthropic — 7 operation(s) for tunnels.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Tunnels API from Anthropic — 7 operation(s) for tunnels.
   name: Anthropic Tunnels API
   slug: anthropic-tunnels-api
-- description: The Tunnels?beta=true API from Anthropic — 1 operation(s) for tunnels?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Tunnels?beta=true API from Anthropic — 1 operation(s) for tunnels?beta=true.
   name: Anthropic Tunnels?beta=true API
   slug: anthropic-tunnels-beta-true-api
-- description: The User Profiles API from Anthropic — 2 operation(s) for user profiles.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The User Profiles API from Anthropic — 2 operation(s) for user profiles.
   name: Anthropic User Profiles API
   slug: anthropic-user-profiles-api
-- description: The User Profiles?beta=true API from Anthropic — 1 operation(s) for user profiles?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The User Profiles?beta=true API from Anthropic — 1 operation(s) for user profiles?beta=true.
   name: Anthropic User Profiles?beta=true API
   slug: anthropic-user-profiles-beta-true-api
-- description: The Vaults API from Anthropic — 6 operation(s) for vaults.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Vaults API from Anthropic — 6 operation(s) for vaults.
   name: Anthropic Vaults API
   slug: anthropic-vaults-api
-- description: The Vaults?beta=true API from Anthropic — 1 operation(s) for vaults?beta=true.
+- baseURL: https://api.anthropic.com/v1
+  baseurl_source: declared
+  description: The Vaults?beta=true API from Anthropic — 1 operation(s) for vaults?beta=true.
   name: Anthropic Vaults?beta=true API
   slug: anthropic-vaults-beta-true-api
 arazzos:
@@ -988,23 +1074,23 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.4
+  composite: 75.3
   coverage:
     artifact_dirs: 32
     catalog_gap: 46.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.4
+  delta: -0.1
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 31.8
-    contract_quality: 78.0
+    contract_quality: 77.6
     developer_ergonomics: 100.0
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 71.1
-  previous_composite: 74.0
+  previous_composite: 75.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1016,7 +1102,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

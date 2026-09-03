@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 108 operations · 42 acting
 api_count: 2
 apis:
-- description: The agent_sessions API from DEV Community — 2 operation(s) for agent_sessions.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The agent_sessions API from DEV Community — 2 operation(s) for agent_sessions.
   name: DEV Community agent_sessions API
   slug: devto-agent-sessions-api
-- description: The articles API from DEV Community — 22 operation(s) for articles.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The articles API from DEV Community — 22 operation(s) for articles.
   name: DEV Community articles API
   slug: devto-articles-api
-- description: The billboards API from DEV Community — 3 operation(s) for billboards.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The billboards API from DEV Community — 3 operation(s) for billboards.
   name: DEV Community billboards API
   slug: devto-billboards-api
-- description: The comments API from DEV Community — 4 operation(s) for comments.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The comments API from DEV Community — 4 operation(s) for comments.
   name: DEV Community comments API
   slug: devto-comments-api
-- description: The display ads API from DEV Community — 3 operation(s) for display ads.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The display ads API from DEV Community — 3 operation(s) for display ads.
   name: DEV Community display ads API
   slug: devto-display-ads-api
-- description: The followed_tags API from DEV Community — 2 operation(s) for followed_tags.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The followed_tags API from DEV Community — 2 operation(s) for followed_tags.
   name: DEV Community followed_tags API
   slug: devto-followed-tags-api
-- description: The followers API from DEV Community — 2 operation(s) for followers.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The followers API from DEV Community — 2 operation(s) for followers.
   name: DEV Community followers API
   slug: devto-followers-api
-- description: The organizations API from DEV Community — 8 operation(s) for organizations.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The organizations API from DEV Community — 8 operation(s) for organizations.
   name: DEV Community organizations API
   slug: devto-organizations-api
-- description: The pages API from DEV Community — 4 operation(s) for pages.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The pages API from DEV Community — 4 operation(s) for pages.
   name: DEV Community pages API
   slug: devto-pages-api
-- description: The podcast_episodes API from DEV Community — 2 operation(s) for podcast_episodes.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The podcast_episodes API from DEV Community — 2 operation(s) for podcast_episodes.
   name: DEV Community podcast_episodes API
   slug: devto-podcast-episodes-api
-- description: The profile images API from DEV Community — 2 operation(s) for profile images.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The profile images API from DEV Community — 2 operation(s) for profile images.
   name: DEV Community profile images API
   slug: devto-profile-images-api
-- description: The reactions API from DEV Community — 4 operation(s) for reactions.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The reactions API from DEV Community — 4 operation(s) for reactions.
   name: DEV Community reactions API
   slug: devto-reactions-api
-- description: The readinglist API from DEV Community — 2 operation(s) for readinglist.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The readinglist API from DEV Community — 2 operation(s) for readinglist.
   name: DEV Community readinglist API
   slug: devto-readinglist-api
-- description: The segments API from DEV Community — 5 operation(s) for segments.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The segments API from DEV Community — 5 operation(s) for segments.
   name: DEV Community segments API
   slug: devto-segments-api
-- description: The surveys API from DEV Community — 4 operation(s) for surveys.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The surveys API from DEV Community — 4 operation(s) for surveys.
   name: DEV Community surveys API
   slug: devto-surveys-api
-- description: The tags API from DEV Community — 4 operation(s) for tags.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The tags API from DEV Community — 4 operation(s) for tags.
   name: DEV Community tags API
   slug: devto-tags-api
-- description: The trends API from DEV Community — 3 operation(s) for trends.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The trends API from DEV Community — 3 operation(s) for trends.
   name: DEV Community trends API
   slug: devto-trends-api
-- description: The users API from DEV Community — 23 operation(s) for users.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The users API from DEV Community — 23 operation(s) for users.
   name: DEV Community users API
   slug: devto-users-api
-- description: The videos API from DEV Community — 2 operation(s) for videos.
+- baseURL: https://dev.to/api
+  baseurl_source: declared
+  description: The videos API from DEV Community — 2 operation(s) for videos.
   name: DEV Community videos API
   slug: devto-videos-api
 artifact_total: 221
@@ -814,7 +852,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/devto/refs/heads/main/screenshots/devto-2026-06-20T175951.png
 security:

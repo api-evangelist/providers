@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,13 +44,17 @@ agentic_access:
   summary_line: 10 operations · 8 acting
 api_count: 1
 apis:
-- description: The Fauna Event Streaming API enables real-time change data capture by maintaining an open connection to the Fauna database and pushing events to clients as they occur. Developers can subscribe to doc
+- baseURL: https://db.fauna.com
+  baseurl_source: declared
+  description: The Fauna Event Streaming API enables real-time change data capture by maintaining an open connection to the Fauna database and pushing events to clients as they occur. Developers can subscribe to doc
   name: Fauna Event Streaming API
   slug: event-streaming-api
 - description: The Fauna Event Feeds API provides a polling-based approach to change data capture, complementing the real-time Event Streaming API. Event feeds allow developers to retrieve batches of change events a
   name: Fauna Event Feeds API
   slug: event-feeds-api
-- description: 'The Fauna GraphQL API allows developers to interact with their Fauna databases using standard GraphQL queries and mutations. By uploading a GraphQL schema, Fauna automatically generates the necessary '
+- baseURL: https://graphql.fauna.com
+  baseurl_source: declared
+  description: 'The Fauna GraphQL API allows developers to interact with their Fauna databases using standard GraphQL queries and mutations. By uploading a GraphQL schema, Fauna automatically generates the necessary '
   name: Fauna GraphQL API
   slug: graphql-api
 - description: The Fauna JavaScript Driver is the official client SDK for interacting with Fauna from JavaScript and TypeScript applications. It provides template-based FQL query interpolation with type safety and a
@@ -62,13 +66,19 @@ apis:
 - description: The Fauna .NET Driver is the official client SDK for interacting with Fauna from C# and .NET applications. It is designed for use with FQL v10 and provides strongly-typed query construction and respon
   name: Fauna .NET Driver
   slug: dotnet-driver
-- description: Poll-based change data capture using event feeds. Retrieve batches of change events at your own pace for scheduled synchronization and batch processing workflows.
+- baseURL: https://db.fauna.com
+  baseurl_source: declared
+  description: Poll-based change data capture using event feeds. Retrieve batches of change events at your own pace for scheduled synchronization and batch processing workflows.
   name: fauna EventFeeds API
   slug: fauna-eventfeeds-api
-- description: Execute Fauna Query Language (FQL) queries against a Fauna database.
+- baseURL: https://db.fauna.com
+  baseurl_source: declared
+  description: Execute Fauna Query Language (FQL) queries against a Fauna database.
   name: fauna Query API
   slug: fauna-query-api
-- description: Fetch, update, validate, and manage a database's schema as FSL files. Supports staged schema changes with status checking, committing, and abandoning.
+- baseURL: https://db.fauna.com
+  baseurl_source: declared
+  description: Fetch, update, validate, and manage a database's schema as FSL files. Supports staged schema changes with status checking, committing, and abandoning.
   name: fauna Schema API
   slug: fauna-schema-api
 artifact_total: 48
@@ -213,16 +223,16 @@ jsonld:
   slug: fauna-context
 layout: provider
 modified: '2026-05-19'
-name: fauna
+name: Fauna
 nav: Providers
 network: true
-overview: 'fauna publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Streaming API, GraphQL API, EventFeeds API, and 2 more.
+overview: 'Fauna publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Event Streaming API, GraphQL API, EventFeeds API, and 2 more.
 
 
-  The fauna catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Fauna catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  fauna''s developer surface includes authentication and 7 more developer resources.'
+  Fauna''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Fauna Plans Pricing
   plan_count: 4
@@ -236,7 +246,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: fauna API Rules
+  name: Fauna API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -246,7 +256,7 @@ rules:
   slug: fauna-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: fauna API Rules
+  name: Fauna API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -262,7 +272,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -272,7 +282,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 30.1
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     contracts:
@@ -282,10 +292,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/screenshots/fauna-2026-06-20T181057.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 5
@@ -44,94 +44,154 @@ agentic_access:
   summary_line: 104 operations · 71 acting · 5 human-in-the-loop
 api_count: 30
 apis:
-- description: Accounts operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Accounts operations for the Deliverect Channel API.
   name: Deliverect Accounts API
   slug: deliverect-accounts-api
-- description: Allergens operations for the Deliverect Store API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Allergens operations for the Deliverect Store API.
   name: Deliverect Allergens API
   slug: deliverect-allergens-api
-- description: Authentication operations for the Deliverect Loyalty API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Authentication operations for the Deliverect Loyalty API.
   name: Deliverect Authentication API
   slug: deliverect-authentication-api
-- description: Baskets operations for the Deliverect Commerce API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Baskets operations for the Deliverect Commerce API.
   name: Deliverect Baskets API
   slug: deliverect-baskets-api
-- description: Channel Links operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Channel Links operations for the Deliverect Channel API.
   name: Deliverect Channel Links API
   slug: deliverect-channel-links-api
-- description: Checkout operations for the Deliverect Commerce API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Checkout operations for the Deliverect Commerce API.
   name: Deliverect Checkout API
   slug: deliverect-checkout-api
-- description: Compensation Cards operations for the Deliverect Loyalty API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Compensation Cards operations for the Deliverect Loyalty API.
   name: Deliverect Compensation Cards API
   slug: deliverect-compensation-cards-api
-- description: Configuration operations for the Deliverect Loyalty API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Configuration operations for the Deliverect Loyalty API.
   name: Deliverect Configuration API
   slug: deliverect-configuration-api
-- description: Coupons operations for the Deliverect Commerce API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Coupons operations for the Deliverect Commerce API.
   name: Deliverect Coupons API
   slug: deliverect-coupons-api
-- description: Couriers operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Couriers operations for the Deliverect Channel API.
   name: Deliverect Couriers API
   slug: deliverect-couriers-api
-- description: Customers operations for the Deliverect CRM API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Customers operations for the Deliverect CRM API.
   name: Deliverect Customers API
   slug: deliverect-customers-api
-- description: Floors operations for the Deliverect POS API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Floors operations for the Deliverect POS API.
   name: Deliverect Floors API
   slug: deliverect-floors-api
-- description: Fulfillment operations for the Deliverect Dispatch API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Fulfillment operations for the Deliverect Dispatch API.
   name: Deliverect Fulfillment API
   slug: deliverect-fulfillment-api
-- description: Gateways operations for the Deliverect Pay API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Gateways operations for the Deliverect Pay API.
   name: Deliverect Gateways API
   slug: deliverect-gateways-api
-- description: Gift Cards operations for the Deliverect Gift Cards API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Gift Cards operations for the Deliverect Gift Cards API.
   name: Deliverect Gift Cards API
   slug: deliverect-gift-cards-api
-- description: Inventory operations for the Deliverect POS API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Inventory operations for the Deliverect POS API.
   name: Deliverect Inventory API
   slug: deliverect-inventory-api
-- description: Jobs operations for the Deliverect Dispatch API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Jobs operations for the Deliverect Dispatch API.
   name: Deliverect Jobs API
   slug: deliverect-jobs-api
-- description: Locations operations for the Deliverect Store API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Locations operations for the Deliverect Store API.
   name: Deliverect Locations API
   slug: deliverect-locations-api
-- description: Menus operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Menus operations for the Deliverect Channel API.
   name: Deliverect Menus API
   slug: deliverect-menus-api
-- description: Opening Hours operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Opening Hours operations for the Deliverect Channel API.
   name: Deliverect Opening Hours API
   slug: deliverect-opening-hours-api
-- description: Orders operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Orders operations for the Deliverect Channel API.
   name: Deliverect Orders API
   slug: deliverect-orders-api
-- description: Payments operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Payments operations for the Deliverect Channel API.
   name: Deliverect Payments API
   slug: deliverect-payments-api
-- description: Products operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Products operations for the Deliverect Channel API.
   name: Deliverect Products API
   slug: deliverect-products-api
-- description: Profiles operations for the Deliverect Gift Cards API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Profiles operations for the Deliverect Gift Cards API.
   name: Deliverect Profiles API
   slug: deliverect-profiles-api
-- description: Programs operations for the Deliverect Loyalty API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Programs operations for the Deliverect Loyalty API.
   name: Deliverect Programs API
   slug: deliverect-programs-api
-- description: Registration operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Registration operations for the Deliverect Channel API.
   name: Deliverect Registration API
   slug: deliverect-registration-api
-- description: Store Status operations for the Deliverect Channel API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Store Status operations for the Deliverect Channel API.
   name: Deliverect Store Status API
   slug: deliverect-store-status-api
-- description: Stores operations for the Deliverect Commerce API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Stores operations for the Deliverect Commerce API.
   name: Deliverect Stores API
   slug: deliverect-stores-api
-- description: Tables operations for the Deliverect POS API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Tables operations for the Deliverect POS API.
   name: Deliverect Tables API
   slug: deliverect-tables-api
-- description: Upsell operations for the Deliverect Commerce API.
+- baseURL: https://api.deliverect.com
+  baseurl_source: declared
+  description: Upsell operations for the Deliverect Commerce API.
   name: Deliverect Upsell API
   slug: deliverect-upsell-api
 artifact_total: 218
@@ -903,7 +963,7 @@ score:
       marker_coverage: 100.0
       total: 40
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverect/refs/heads/main/screenshots/deliverect-2026-06-20T175855.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,13 +42,19 @@ agentic_access:
   summary_line: 6 operations · 1 acting
 api_count: 1
 apis:
-- description: Category collections of clues.
+- baseURL: http://jservice.io
+  baseurl_source: declared
+  description: Category collections of clues.
   name: jService Categories API
   slug: jservice-categories-api
-- description: Jeopardy! questions, answers, and metadata.
+- baseURL: http://jservice.io
+  baseurl_source: declared
+  description: Jeopardy! questions, answers, and metadata.
   name: jService Clues API
   slug: jservice-clues-api
-- description: User-driven reporting of invalid clues.
+- baseURL: http://jservice.io
+  baseurl_source: declared
+  description: User-driven reporting of invalid clues.
   name: jService Moderation API
   slug: jservice-moderation-api
 artifact_total: 23
@@ -201,7 +207,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:

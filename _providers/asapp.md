@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 137 operations · 93 acting · 2 human-in-the-loop
 api_count: 13
 apis:
-- description: Improve agent productivity with AutoCompose API
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Improve agent productivity with AutoCompose API
   name: ASAPP AutoCompose API
   slug: asapp-autocompose-api
-- description: Endpoints for summarizing conversations and retrieving structured data
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Endpoints for summarizing conversations and retrieving structured data
   name: ASAPP AutoSummary API
   slug: asapp-autosummary-api
-- description: Get streaming URL to transcribe audio
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Get streaming URL to transcribe audio
   name: ASAPP AutoTranscribe API
   slug: asapp-autotranscribe-api
-- description: Operations for controlling AutoTranscribe Media Gateway transcription and streaming
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Operations for controlling AutoTranscribe Media Gateway transcription and streaming
   name: ASAPP AutoTranscribe Media Gateway API
   slug: asapp-autotranscribe-media-gateway-api
-- description: Operations to manage ASAPP configurations
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Operations to manage ASAPP configurations
   name: ASAPP Configuration API
   slug: asapp-configuration-api
-- description: Operations to send conversational inputs to ASAPP AI services
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Operations to send conversational inputs to ASAPP AI services
   name: ASAPP Conversations API
   slug: asapp-conversations-api
-- description: end the connection of a call with GenAgent
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: end the connection of a call with GenAgent
   name: ASAPP Disengage API
   slug: asapp-disengage-api
-- description: establish the connection of a call with GenAgent
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: establish the connection of a call with GenAgent
   name: ASAPP Engage API
   slug: asapp-engage-api
-- description: API to get client exports
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: API to get client exports
   name: ASAPP File Exporter API
   slug: asapp-file-exporter-api
-- description: Operations to send messages and trigger GenerativeAgent to respond or query the current state
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Operations to send messages and trigger GenerativeAgent to respond or query the current state
   name: ASAPP GenerativeAgent API
   slug: asapp-generativeagent-api
-- description: Operations to ensure that ASAPP APIs are up and running.
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: Operations to ensure that ASAPP APIs are up and running.
   name: ASAPP Health Check API
   slug: asapp-health-check-api
-- description: The Knowledge Base API from ASAPP — 3 operation(s) for knowledge base.
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: The Knowledge Base API from ASAPP — 3 operation(s) for knowledge base.
   name: ASAPP Knowledge Base API
   slug: asapp-knowledge-base-api
-- description: API to submit entity's attributes to ASAPP
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: API to submit entity's attributes to ASAPP
   name: ASAPP Metadata API
   slug: asapp-metadata-api
-- description: The Twilio Media Stream API from ASAPP — 1 operation(s) for twilio media stream.
+- baseURL: https://api.asapp.com
+  baseurl_source: declared
+  description: The Twilio Media Stream API from ASAPP — 1 operation(s) for twilio media stream.
   name: ASAPP Twilio Media Stream API
   slug: asapp-twilio-media-stream-api
 artifact_total: 36
@@ -297,7 +325,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -307,7 +335,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 54.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,7 +347,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

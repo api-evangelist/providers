@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Open access
+  onboarding: open
+  pricing: paid
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,13 +36,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Files API from QC Ware — 4 operation(s) for files.
+- baseURL: https://api.promethium.qcware.com
+  baseurl_source: declared
+  description: The Files API from QC Ware — 4 operation(s) for files.
   name: QC Ware Files API
   slug: qc-ware-files-api
-- description: The Workflows API from QC Ware — 5 operation(s) for workflows.
+- baseURL: https://api.promethium.qcware.com
+  baseurl_source: declared
+  description: The Workflows API from QC Ware — 5 operation(s) for workflows.
   name: QC Ware Workflows API
   slug: qc-ware-workflows-api
 artifact_total: 9
@@ -183,18 +200,18 @@ rate_limits:
   slug: qc-ware-rate-limits
 score:
   band: strong
-  composite: 55.5
+  composite: 56.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 4.5
-    contract_quality: 50.3
+    contract_quality: 53.7
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
@@ -216,8 +233,9 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/qc-ware/refs/heads/main/screenshots/qc-ware-2026-09-02T152422.png
 security:
 - kind: authentication
   name: Qc Ware Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -46,25 +46,39 @@ apis:
 - description: HTTP/REST API for Apache Solr providing endpoints for querying, indexing, schema management, collections administration, and core administration. The v2 API uses RESTful resource paths under /api whil
   name: Apache Solr REST API
   slug: rest-api
-- description: Cluster-level collection management
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Cluster-level collection management
   name: Apache Solr Collections API
   slug: solr-collections-api
-- description: Legacy Collections admin handler endpoints
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Legacy Collections admin handler endpoints
   name: Apache Solr CollectionsAdminHandler API
   slug: solr-collectionsadminhandler-api
-- description: Per-collection configuration operations
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Per-collection configuration operations
   name: Apache Solr Config API
   slug: solr-config-api
-- description: Node-level core administration
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Node-level core administration
   name: Apache Solr Cores API
   slug: solr-cores-api
-- description: Per-collection schema operations
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Per-collection schema operations
   name: Apache Solr Schema API
   slug: solr-schema-api
-- description: Shard management for collections
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Shard management for collections
   name: Apache Solr Shards API
   slug: solr-shards-api
-- description: Per-collection document update operations
+- baseURL: http://localhost:8983/api
+  baseurl_source: declared
+  description: Per-collection document update operations
   name: Apache Solr Update API
   slug: solr-update-api
 artifact_total: 21
@@ -177,7 +191,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solr/refs/heads/main/screenshots/solr-2026-06-20T194151.png
 security:

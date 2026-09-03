@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Public API from OpenTopography API — 3 operation(s) for public.
+- baseURL: /API
+  baseurl_source: spec
+  description: The Public API from OpenTopography API — 3 operation(s) for public.
   name: OpenTopography API Public API
   slug: opentopography-api-public-api
 artifact_total: 8
@@ -146,7 +148,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentopography-api/refs/heads/main/screenshots/opentopography-api-2026-06-20T191044.png
 security:

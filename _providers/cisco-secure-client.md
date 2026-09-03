@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -59,22 +59,34 @@ apis:
 - description: The Cisco Secure Access API is the management interface for Cisco's converged SSE platform that Secure Client connects to as a SASE endpoint agent. Endpoints cover network tunnels, ZTNA application de
   name: Cisco Secure Access API
   slug: secure-access-api
-- description: The AccessPolicies API from Cisco Secure Client — 1 operation(s) for accesspolicies.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The AccessPolicies API from Cisco Secure Client — 1 operation(s) for accesspolicies.
   name: Cisco Secure Client AccessPolicies API
   slug: cisco-secure-client-accesspolicies-api
-- description: The AccessRules API from Cisco Secure Client — 1 operation(s) for accessrules.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The AccessRules API from Cisco Secure Client — 1 operation(s) for accessrules.
   name: Cisco Secure Client AccessRules API
   slug: cisco-secure-client-accessrules-api
-- description: The Authentication API from Cisco Secure Client — 2 operation(s) for authentication.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The Authentication API from Cisco Secure Client — 2 operation(s) for authentication.
   name: Cisco Secure Client Authentication API
   slug: cisco-secure-client-authentication-api
-- description: The Devices API from Cisco Secure Client — 2 operation(s) for devices.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The Devices API from Cisco Secure Client — 2 operation(s) for devices.
   name: Cisco Secure Client Devices API
   slug: cisco-secure-client-devices-api
-- description: The Hosts API from Cisco Secure Client — 1 operation(s) for hosts.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The Hosts API from Cisco Secure Client — 1 operation(s) for hosts.
   name: Cisco Secure Client Hosts API
   slug: cisco-secure-client-hosts-api
-- description: The NetworkObjects API from Cisco Secure Client — 1 operation(s) for networkobjects.
+- baseURL: https://api.umbrella.com
+  baseurl_source: declared
+  description: The NetworkObjects API from Cisco Secure Client — 1 operation(s) for networkobjects.
   name: Cisco Secure Client NetworkObjects API
   slug: cisco-secure-client-networkobjects-api
 artifact_total: 28
@@ -244,7 +256,7 @@ score:
       marker_coverage: 100.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/screenshots/cisco-secure-client-2026-06-20T174400.png
 security:

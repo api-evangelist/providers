@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: Account details and balance for a linked account.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: Account details and balance for a linked account.
   name: Mono Account Information API
   slug: mono-co-account-information-api
-- description: Initiate Connect account linking and exchange a code for an account id.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: Initiate Connect account linking and exchange a code for an account id.
   name: Mono Account Linking API
   slug: mono-co-account-linking-api
-- description: Customers, mandates, balance inquiry, and recurring debits.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: Customers, mandates, balance inquiry, and recurring debits.
   name: Mono Direct Debit API
   slug: mono-co-direct-debit-api
-- description: One-time bank-to-bank payments.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: One-time bank-to-bank payments.
   name: Mono DirectPay API
   slug: mono-co-directpay-api
-- description: Identity verification and income signals for a linked account.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: Identity verification and income signals for a linked account.
   name: Mono Identity and Income API
   slug: mono-co-identity-and-income-api
-- description: Transactions and bank statements for a linked account.
+- baseURL: https://api.withmono.com
+  baseurl_source: declared
+  description: Transactions and bank statements for a linked account.
   name: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
 artifact_total: 20
@@ -195,7 +207,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/screenshots/mono-co-2026-08-07T184212.png
 security:

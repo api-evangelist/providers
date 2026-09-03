@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -56,19 +56,29 @@ apis:
 - description: Outbound webhook system for the BreadPay Platform that notifies merchant systems of transaction lifecycle events. Documented under the BreadPay developer site with setup, concepts, validation, and cli
   name: Bread Webhooks
   slug: bread-webhooks
-- description: Manage buyer records and look up personalized payment options.
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Manage buyer records and look up personalized payment options.
   name: Alliance Data Systems (Bread Financial Holdings) Buyers API
   slug: alliance-data-systems-buyers-api
-- description: Manage Bread shopping carts that initiate the BNPL checkout flow.
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Manage Bread shopping carts that initiate the BNPL checkout flow.
   name: Alliance Data Systems (Bread Financial Holdings) Carts API
   slug: alliance-data-systems-carts-api
-- description: Retrieve buyer-personalized payment option pricing and terms.
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Retrieve buyer-personalized payment option pricing and terms.
   name: Alliance Data Systems (Bread Financial Holdings) Payment Options API
   slug: alliance-data-systems-payment-options-api
-- description: Attach carrier and tracking-number information to a transaction.
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Attach carrier and tracking-number information to a transaction.
   name: Alliance Data Systems (Bread Financial Holdings) Shipping API
   slug: alliance-data-systems-shipping-api
-- description: Manage completed Bread Pay transactions.
+- baseURL: https://api.platform.breadpayments.com/api
+  baseurl_source: declared
+  description: Manage completed Bread Pay transactions.
   name: Alliance Data Systems (Bread Financial Holdings) Transactions API
   slug: alliance-data-systems-transactions-api
 artifact_total: 48
@@ -374,7 +384,7 @@ score:
     catalog_gap: 34.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.5
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -384,7 +394,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 47.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -399,7 +409,7 @@ score:
     regime_id: banking_open_finance
     score: 43.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -182,7 +182,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png
 security:

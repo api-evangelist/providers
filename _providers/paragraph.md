@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -46,34 +46,54 @@ agentic_access:
   summary_line: 45 operations · 14 acting
 api_count: 1
 apis:
-- description: The analytics API from Paragraph — 2 operation(s) for analytics.
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: The analytics API from Paragraph — 2 operation(s) for analytics.
   name: Paragraph analytics API
   slug: paragraph-analytics-api
-- description: The auth API from Paragraph — 2 operation(s) for auth.
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: The auth API from Paragraph — 2 operation(s) for auth.
   name: Paragraph auth API
   slug: paragraph-auth-api
-- description: Operations related to tokenized content
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: Operations related to tokenized content
   name: Paragraph coins API
   slug: paragraph-coins-api
-- description: The discover API from Paragraph — 3 operation(s) for discover.
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: The discover API from Paragraph — 3 operation(s) for discover.
   name: Paragraph discover API
   slug: paragraph-discover-api
-- description: The emails API from Paragraph — 1 operation(s) for emails.
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: The emails API from Paragraph — 1 operation(s) for emails.
   name: Paragraph emails API
   slug: paragraph-emails-api
-- description: The me API from Paragraph — 1 operation(s) for me.
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: The me API from Paragraph — 1 operation(s) for me.
   name: Paragraph me API
   slug: paragraph-me-api
-- description: Operations related to posts and content
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: Operations related to posts and content
   name: Paragraph posts API
   slug: paragraph-posts-api
-- description: Operations related to publications
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: Operations related to publications
   name: Paragraph publications API
   slug: paragraph-publications-api
-- description: Operations related to subscriber management (requires API key)
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: Operations related to subscriber management (requires API key)
   name: Paragraph subscribers API
   slug: paragraph-subscribers-api
-- description: Operations related to users and authors
+- baseURL: https://public.api.paragraph.com/api
+  baseurl_source: declared
+  description: Operations related to users and authors
   name: Paragraph users API
   slug: paragraph-users-api
 artifact_total: 28
@@ -312,7 +332,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/screenshots/paragraph-2026-08-07T191412.png
 security:

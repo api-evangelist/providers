@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,100 +37,162 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The activity API from PixieBrix — 23 operation(s) for activity.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The activity API from PixieBrix — 23 operation(s) for activity.
   name: PixieBrix Activity API
   slug: pixiebrix-activity-api
-- description: The audit API from PixieBrix — 3 operation(s) for audit.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The audit API from PixieBrix — 3 operation(s) for audit.
   name: PixieBrix Audit API
   slug: pixiebrix-audit-api
-- description: The bricks API from PixieBrix — 6 operation(s) for bricks.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The bricks API from PixieBrix — 6 operation(s) for bricks.
   name: PixieBrix Bricks API
   slug: pixiebrix-bricks-api
-- description: The campaigns API from PixieBrix — 4 operation(s) for campaigns.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The campaigns API from PixieBrix — 4 operation(s) for campaigns.
   name: PixieBrix Campaigns API
   slug: pixiebrix-campaigns-api
-- description: The config API from PixieBrix — 1 operation(s) for config.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The config API from PixieBrix — 1 operation(s) for config.
   name: PixieBrix Config API
   slug: pixiebrix-config-api
-- description: The control-rooms API from PixieBrix — 3 operation(s) for control-rooms.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The control-rooms API from PixieBrix — 3 operation(s) for control-rooms.
   name: PixieBrix Control Rooms API
   slug: pixiebrix-control-rooms-api
-- description: The copilot API from PixieBrix — 10 operation(s) for copilot.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The copilot API from PixieBrix — 10 operation(s) for copilot.
   name: PixieBrix Copilot API
   slug: pixiebrix-copilot-api
-- description: The databases API from PixieBrix — 12 operation(s) for databases.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The databases API from PixieBrix — 12 operation(s) for databases.
   name: PixieBrix Databases API
   slug: pixiebrix-databases-api
-- description: The deployments API from PixieBrix — 19 operation(s) for deployments.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The deployments API from PixieBrix — 19 operation(s) for deployments.
   name: PixieBrix Deployments API
   slug: pixiebrix-deployments-api
-- description: The events API from PixieBrix — 1 operation(s) for events.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The events API from PixieBrix — 1 operation(s) for events.
   name: PixieBrix Events API
   slug: pixiebrix-events-api
-- description: The groups API from PixieBrix — 9 operation(s) for groups.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The groups API from PixieBrix — 9 operation(s) for groups.
   name: PixieBrix Groups API
   slug: pixiebrix-groups-api
-- description: The health API from PixieBrix — 1 operation(s) for health.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The health API from PixieBrix — 1 operation(s) for health.
   name: PixieBrix Health API
   slug: pixiebrix-health-api
-- description: The identify API from PixieBrix — 1 operation(s) for identify.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The identify API from PixieBrix — 1 operation(s) for identify.
   name: PixieBrix Identify API
   slug: pixiebrix-identify-api
-- description: The invitations API from PixieBrix — 3 operation(s) for invitations.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The invitations API from PixieBrix — 3 operation(s) for invitations.
   name: PixieBrix Invitations API
   slug: pixiebrix-invitations-api
-- description: The magic-link API from PixieBrix — 1 operation(s) for magic-link.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The magic-link API from PixieBrix — 1 operation(s) for magic-link.
   name: PixieBrix Magic Link API
   slug: pixiebrix-magic-link-api
-- description: The marketplace API from PixieBrix — 3 operation(s) for marketplace.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The marketplace API from PixieBrix — 3 operation(s) for marketplace.
   name: PixieBrix Marketplace API
   slug: pixiebrix-marketplace-api
-- description: The me API from PixieBrix — 7 operation(s) for me.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The me API from PixieBrix — 7 operation(s) for me.
   name: PixieBrix Me API
   slug: pixiebrix-me-api
-- description: The memberships API from PixieBrix — 1 operation(s) for memberships.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The memberships API from PixieBrix — 1 operation(s) for memberships.
   name: PixieBrix Memberships API
   slug: pixiebrix-memberships-api
-- description: The onboarding API from PixieBrix — 1 operation(s) for onboarding.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The onboarding API from PixieBrix — 1 operation(s) for onboarding.
   name: PixieBrix Onboarding API
   slug: pixiebrix-onboarding-api
-- description: The organizations API from PixieBrix — 42 operation(s) for organizations.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The organizations API from PixieBrix — 42 operation(s) for organizations.
   name: PixieBrix Organizations API
   slug: pixiebrix-organizations-api
-- description: The permissions API from PixieBrix — 1 operation(s) for permissions.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The permissions API from PixieBrix — 1 operation(s) for permissions.
   name: PixieBrix Permissions API
   slug: pixiebrix-permissions-api
-- description: The pipelines API from PixieBrix — 2 operation(s) for pipelines.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The pipelines API from PixieBrix — 2 operation(s) for pipelines.
   name: PixieBrix Pipelines API
   slug: pixiebrix-pipelines-api
-- description: The platforms API from PixieBrix — 1 operation(s) for platforms.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The platforms API from PixieBrix — 1 operation(s) for platforms.
   name: PixieBrix Platforms API
   slug: pixiebrix-platforms-api
-- description: The proxy API from PixieBrix — 1 operation(s) for proxy.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The proxy API from PixieBrix — 1 operation(s) for proxy.
   name: PixieBrix Proxy API
   slug: pixiebrix-proxy-api
-- description: The registry API from PixieBrix — 2 operation(s) for registry.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The registry API from PixieBrix — 2 operation(s) for registry.
   name: PixieBrix Registry API
   slug: pixiebrix-registry-api
-- description: The services API from PixieBrix — 3 operation(s) for services.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The services API from PixieBrix — 3 operation(s) for services.
   name: PixieBrix Services API
   slug: pixiebrix-services-api
-- description: The settings API from PixieBrix — 1 operation(s) for settings.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The settings API from PixieBrix — 1 operation(s) for settings.
   name: PixieBrix Settings API
   slug: pixiebrix-settings-api
-- description: The support API from PixieBrix — 29 operation(s) for support.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The support API from PixieBrix — 29 operation(s) for support.
   name: PixieBrix Support API
   slug: pixiebrix-support-api
-- description: The telemetry API from PixieBrix — 4 operation(s) for telemetry.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The telemetry API from PixieBrix — 4 operation(s) for telemetry.
   name: PixieBrix Telemetry API
   slug: pixiebrix-telemetry-api
-- description: The tests API from PixieBrix — 2 operation(s) for tests.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The tests API from PixieBrix — 2 operation(s) for tests.
   name: PixieBrix Tests API
   slug: pixiebrix-tests-api
-- description: The tours API from PixieBrix — 3 operation(s) for tours.
+- baseURL: https://app.pixiebrix.com/api/
+  baseurl_source: declared
+  description: The tours API from PixieBrix — 3 operation(s) for tours.
   name: PixieBrix Tours API
   slug: pixiebrix-tours-api
 artifact_total: 37
@@ -268,18 +344,18 @@ rate_limits:
   slug: pixiebrix-rate-limits
 score:
   band: strong
-  composite: 59.0
+  composite: 59.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 18.2
-    contract_quality: 42.5
+    contract_quality: 45.1
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 18.2
@@ -295,8 +371,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pixiebrix/refs/heads/main/screenshots/pixiebrix-2026-09-02T151345.png
 security:
 - kind: authentication
   name: Pixiebrix Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 26 operations · 17 acting
 api_count: 1
 apis:
-- description: Operations for managing data source connectors
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing data source connectors
   name: Amazon Kendra Data Sources API
   slug: amazon-kendra-data-sources-api
-- description: Operations for managing documents in the index
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing documents in the index
   name: Amazon Kendra Documents API
   slug: amazon-kendra-documents-api
-- description: Operations for managing search experiences
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing search experiences
   name: Amazon Kendra Experience API
   slug: amazon-kendra-experience-api
-- description: Operations for managing FAQ entries
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing FAQ entries
   name: Amazon Kendra FAQs API
   slug: amazon-kendra-faqs-api
-- description: Operations for creating and managing search indexes
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing search indexes
   name: Amazon Kendra Indexes API
   slug: amazon-kendra-indexes-api
-- description: Operations for querying the search index
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for querying the search index
   name: Amazon Kendra Queries API
   slug: amazon-kendra-queries-api
-- description: Operations for query autocompletion
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for query autocompletion
   name: Amazon Kendra Query Suggestions API
   slug: amazon-kendra-query-suggestions-api
-- description: Operations for managing custom synonyms
+- baseURL: https://kendra.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing custom synonyms
   name: Amazon Kendra Thesaurus API
   slug: amazon-kendra-thesaurus-api
 arazzos:
@@ -423,7 +439,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
 security:

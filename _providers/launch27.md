@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations · 9 acting
 api_count: 1
 apis:
-- description: Account/tenant settings and configuration.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Account/tenant settings and configuration.
   name: Launch27 Account API
   slug: launch27-account-api
-- description: Login and JWT bearer token issuance.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Login and JWT bearer token issuance.
   name: Launch27 Authentication API
   slug: launch27-authentication-api
-- description: Supporting data for building and pricing a booking form.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Supporting data for building and pricing a booking form.
   name: Launch27 Booking Helpers API
   slug: launch27-booking-helpers-api
-- description: Authenticated customer-portal booking CRUD.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Authenticated customer-portal booking CRUD.
   name: Launch27 Customer Bookings API
   slug: launch27-customer-bookings-api
-- description: Booking creation for non-logged-in customers.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Booking creation for non-logged-in customers.
   name: Launch27 Guest Booking API
   slug: launch27-guest-booking-api
-- description: Booking, reschedule, cancellation, and location policies.
+- baseURL: https://{tenant}.launch27.com/v1
+  baseurl_source: declared
+  description: Booking, reschedule, cancellation, and location policies.
   name: Launch27 Policy API
   slug: launch27-policy-api
 artifact_total: 23
@@ -190,7 +202,7 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -200,7 +212,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 42.5
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -209,7 +221,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 31 operations · 9 acting
 api_count: 1
 apis:
-- description: Bank question management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Bank question management
   name: RingCentral Events Bank Questions API
   slug: hopin-bank-questions-api
-- description: Booth management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Booth management
   name: RingCentral Events Booths API
   slug: hopin-booths-api
-- description: Data subscription webhooks
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Data subscription webhooks
   name: RingCentral Events Data Subscriptions API
   slug: hopin-data-subscriptions-api
-- description: Event management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event management
   name: RingCentral Events Events API
   slug: hopin-events-api
-- description: Health check endpoints
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Health check endpoints
   name: RingCentral Events Health API
   slug: hopin-health-api
-- description: Magic link management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Magic link management
   name: RingCentral Events Magic Links API
   slug: hopin-magic-links-api
-- description: Organization management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Organization management
   name: RingCentral Events Organizations API
   slug: hopin-organizations-api
-- description: Event registration management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event registration management
   name: RingCentral Events Registrations API
   slug: hopin-registrations-api
-- description: Event reporting
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event reporting
   name: RingCentral Events Reports API
   slug: hopin-reports-api
-- description: Event schedule management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event schedule management
   name: RingCentral Events Schedule Items API
   slug: hopin-schedule-items-api
-- description: Event session management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event session management
   name: RingCentral Events Sessions API
   slug: hopin-sessions-api
-- description: Event stage management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event stage management
   name: RingCentral Events Stages API
   slug: hopin-stages-api
-- description: Event template management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Event template management
   name: RingCentral Events Templates API
   slug: hopin-templates-api
-- description: Ticket management
+- baseURL: https://api.events.ringcentral.com
+  baseurl_source: declared
+  description: Ticket management
   name: RingCentral Events Tickets API
   slug: hopin-tickets-api
 artifact_total: 44
@@ -291,7 +319,7 @@ score:
       marker_coverage: 0.0
       total: 14
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopin/refs/heads/main/screenshots/hopin-2026-06-20T182829.png
 security:

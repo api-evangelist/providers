@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: 'REST API for creating, updating, and managing incidents in TaskCall. Authentication uses API keys passed in the Authorization header as "Authorization: token <api_key>", with optional IP allowlisting '
   name: TaskCall Incidents API
   slug: incidents-api
-- description: The Components API from TaskCall — 1 operation(s) for components.
+- baseURL: https://incidents-api.taskcallapp.com
+  baseurl_source: declared
+  description: The Components API from TaskCall — 1 operation(s) for components.
   name: TaskCall Components API
   slug: taskcall-components-api
-- description: The Incidents API from TaskCall — 23 operation(s) for incidents.
+- baseURL: https://incidents-api.taskcallapp.com
+  baseurl_source: declared
+  description: The Incidents API from TaskCall — 23 operation(s) for incidents.
   name: TaskCall Incidents API
   slug: taskcall-incidents-api
 artifact_total: 11
@@ -151,7 +155,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/screenshots/taskcall-2026-06-20T194924.png
 security:

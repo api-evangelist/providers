@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -55,25 +55,39 @@ apis:
 - description: Access original stock vehicle images by make, model, year, and trim. Beta API providing clean, professional car images retrieved by VIN or year/make/model/trim.
   name: VINaudit Vehicle Image API
   slug: vinaudit-vehicle-image-api
-- description: The Getownershipcost.php API from VINaudit — 1 operation(s) for getownershipcost.php.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Getownershipcost.php API from VINaudit — 1 operation(s) for getownershipcost.php.
   name: VINaudit Getownershipcost.php API
   slug: vinaudit-getownershipcost-php-api
-- description: The Marketvalue API from VINaudit — 1 operation(s) for marketvalue.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Marketvalue API from VINaudit — 1 operation(s) for marketvalue.
   name: VINaudit Marketvalue API
   slug: vinaudit-marketvalue-api
-- description: The Pullreport API from VINaudit — 1 operation(s) for pullreport.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Pullreport API from VINaudit — 1 operation(s) for pullreport.
   name: VINaudit Pullreport API
   slug: vinaudit-pullreport-api
-- description: The Query API from VINaudit — 1 operation(s) for query.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Query API from VINaudit — 1 operation(s) for query.
   name: VINaudit Query API
   slug: vinaudit-query-api
-- description: The Report API from VINaudit — 1 operation(s) for report.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Report API from VINaudit — 1 operation(s) for report.
   name: VINaudit Report API
   slug: vinaudit-report-api
-- description: The Selections API from VINaudit — 1 operation(s) for selections.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Selections API from VINaudit — 1 operation(s) for selections.
   name: VINaudit Selections API
   slug: vinaudit-selections-api
-- description: The Specifications API from VINaudit — 1 operation(s) for specifications.
+- baseURL: https://api.vinaudit.com
+  baseurl_source: declared
+  description: The Specifications API from VINaudit — 1 operation(s) for specifications.
   name: VINaudit Specifications API
   slug: vinaudit-specifications-api
 artifact_total: 33
@@ -249,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/screenshots/vinaudit-2026-06-20T201030.png
 security:

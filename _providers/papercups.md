@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,22 +47,32 @@ apis:
 - description: Outbound event subscriptions delivered as webhooks (message:created, conversation:created, conversation:updated, and a webhook:verify challenge handshake) notifying external systems of activity.
   name: Papercups Notifications & Webhooks API
   slug: notifications
-- description: Bidirectional realtime live chat over Phoenix WebSocket channels. Clients join conversation, conversation-lobby, and account-room channels and exchange shout (message), messages:seen, and presence eve
+- baseURL: wss://app.papercups.io/socket/websocket
+  baseurl_source: declared
+  description: Bidirectional realtime live chat over Phoenix WebSocket channels. Clients join conversation, conversation-lobby, and account-room channels and exchange shout (message), messages:seen, and presence eve
   name: Papercups Realtime Chat API (WebSocket / Phoenix Channels)
   slug: realtime-chat
 - description: Register external HTTPS endpoints to receive Papercups events as POSTed JSON payloads of shape { event, payload }, with a verify-challenge handshake on registration.
   name: Papercups Webhooks
   slug: webhooks
-- description: Threads of messages between customers and agents.
+- baseURL: https://app.papercups.io/api/v1
+  baseurl_source: declared
+  description: Threads of messages between customers and agents.
   name: Papercups Conversations API
   slug: papercups-conversations-api
-- description: Customer records (users, leads, or contacts).
+- baseURL: https://app.papercups.io/api/v1
+  baseurl_source: declared
+  description: Customer records (users, leads, or contacts).
   name: Papercups Customers API
   slug: papercups-customers-api
-- description: Individual messages within conversations.
+- baseURL: https://app.papercups.io/api/v1
+  baseurl_source: declared
+  description: Individual messages within conversations.
   name: Papercups Messages API
   slug: papercups-messages-api
-- description: Authenticated user and team members.
+- baseURL: https://app.papercups.io/api/v1
+  baseurl_source: declared
+  description: Authenticated user and team members.
   name: Papercups Users API
   slug: papercups-users-api
 artifact_total: 21
@@ -178,7 +188,7 @@ score:
     catalog_gap: 51.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -188,7 +198,7 @@ score:
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 38.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -197,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papercups/refs/heads/main/screenshots/papercups-2026-06-20T191348.png
 security:

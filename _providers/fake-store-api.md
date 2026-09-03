@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 22 operations · 13 acting
 api_count: 1
 apis:
-- description: Authentication operations.
+- baseURL: https://fakestoreapi.com
+  baseurl_source: declared
+  description: Authentication operations.
   name: Fake Store API Auth API
   slug: fake-store-api-auth-api
-- description: Shopping cart operations.
+- baseURL: https://fakestoreapi.com
+  baseurl_source: declared
+  description: Shopping cart operations.
   name: Fake Store API Carts API
   slug: fake-store-api-carts-api
-- description: Product catalog operations.
+- baseURL: https://fakestoreapi.com
+  baseurl_source: declared
+  description: Product catalog operations.
   name: Fake Store API Products API
   slug: fake-store-api-products-api
-- description: User account operations.
+- baseURL: https://fakestoreapi.com
+  baseurl_source: declared
+  description: User account operations.
   name: Fake Store API Users API
   slug: fake-store-api-users-api
 artifact_total: 15
@@ -160,7 +168,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:

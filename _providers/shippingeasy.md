@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: Order create, look up, status update, and cancellation.
+- baseURL: https://app.shippingeasy.com/api
+  baseurl_source: declared
+  description: Order create, look up, status update, and cancellation.
   name: ShippingEasy Orders API
   slug: shippingeasy-orders-api
-- description: API-enabled stores configured in the ShippingEasy account.
+- baseURL: https://app.shippingeasy.com/api
+  baseurl_source: declared
+  description: API-enabled stores configured in the ShippingEasy account.
   name: ShippingEasy Stores API
   slug: shippingeasy-stores-api
 artifact_total: 9
@@ -198,7 +202,7 @@ score:
     regime_id: telecommunications
     score: 22.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/screenshots/shippingeasy-2026-06-20T193821.png
 security:

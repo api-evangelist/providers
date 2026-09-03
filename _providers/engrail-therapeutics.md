@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,40 +35,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 11
 apis:
 - description: Two live Model Context Protocol servers registered under the `mcp` REST namespace on engrail.com, fronted by RFC 8414 and RFC 9728 OAuth discovery documents at the apex. Both are OAuth-protected — ano
   name: Engrail Therapeutics MCP Servers
   slug: mcp
-- description: The Categories API from Engrail Therapeutics — 2 operation(s) for categories.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Categories API from Engrail Therapeutics — 2 operation(s) for categories.
   name: Engrail Therapeutics Categories API
   slug: engrail-therapeutics-categories-api
-- description: The Comments API from Engrail Therapeutics — 2 operation(s) for comments.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Comments API from Engrail Therapeutics — 2 operation(s) for comments.
   name: Engrail Therapeutics Comments API
   slug: engrail-therapeutics-comments-api
-- description: The Media API from Engrail Therapeutics — 2 operation(s) for media.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Media API from Engrail Therapeutics — 2 operation(s) for media.
   name: Engrail Therapeutics Media API
   slug: engrail-therapeutics-media-api
-- description: The Pages API from Engrail Therapeutics — 2 operation(s) for pages.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Pages API from Engrail Therapeutics — 2 operation(s) for pages.
   name: Engrail Therapeutics Pages API
   slug: engrail-therapeutics-pages-api
-- description: The Posts API from Engrail Therapeutics — 2 operation(s) for posts.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Posts API from Engrail Therapeutics — 2 operation(s) for posts.
   name: Engrail Therapeutics Posts API
   slug: engrail-therapeutics-posts-api
-- description: The Search API from Engrail Therapeutics — 1 operation(s) for search.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Search API from Engrail Therapeutics — 1 operation(s) for search.
   name: Engrail Therapeutics Search API
   slug: engrail-therapeutics-search-api
-- description: The Statuses API from Engrail Therapeutics — 1 operation(s) for statuses.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Statuses API from Engrail Therapeutics — 1 operation(s) for statuses.
   name: Engrail Therapeutics Statuses API
   slug: engrail-therapeutics-statuses-api
-- description: The Tags API from Engrail Therapeutics — 2 operation(s) for tags.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Tags API from Engrail Therapeutics — 2 operation(s) for tags.
   name: Engrail Therapeutics Tags API
   slug: engrail-therapeutics-tags-api
-- description: The Taxonomies API from Engrail Therapeutics — 1 operation(s) for taxonomies.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Taxonomies API from Engrail Therapeutics — 1 operation(s) for taxonomies.
   name: Engrail Therapeutics Taxonomies API
   slug: engrail-therapeutics-taxonomies-api
-- description: The Types API from Engrail Therapeutics — 1 operation(s) for types.
+- baseURL: https://www.engrail.com/wp-json
+  baseurl_source: declared
+  description: The Types API from Engrail Therapeutics — 1 operation(s) for types.
   name: Engrail Therapeutics Types API
   slug: engrail-therapeutics-types-api
 artifact_total: 16
@@ -188,7 +220,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -198,7 +230,7 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 26.5
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +247,8 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:
 - kind: authentication

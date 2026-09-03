@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Daily federal cash and debt operations.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Daily federal cash and debt operations.
   name: U.S. Treasury Fiscal Data Daily Treasury Statement API
   slug: fiscaldata-daily-treasury-statement-api
-- description: National debt outstanding and interest expense on the debt.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: National debt outstanding and interest expense on the debt.
   name: U.S. Treasury Fiscal Data Debt API
   slug: fiscaldata-debt-api
-- description: Treasury reporting rates of exchange for foreign currencies.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Treasury reporting rates of exchange for foreign currencies.
   name: U.S. Treasury Fiscal Data Exchange Rates API
   slug: fiscaldata-exchange-rates-api
-- description: Average interest rates on U.S. Treasury securities.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Average interest rates on U.S. Treasury securities.
   name: U.S. Treasury Fiscal Data Interest Rates API
   slug: fiscaldata-interest-rates-api
-- description: Monthly federal receipts, outlays, and the budget deficit.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Monthly federal receipts, outlays, and the budget deficit.
   name: U.S. Treasury Fiscal Data Monthly Treasury Statement API
   slug: fiscaldata-monthly-treasury-statement-api
-- description: Treasury securities auction results.
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Treasury securities auction results.
   name: U.S. Treasury Fiscal Data Securities API
   slug: fiscaldata-securities-api
 artifact_total: 18
@@ -182,7 +194,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/screenshots/fiscaldata-2026-07-25T214629.png
 slug: fiscaldata

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: 'United Surgical Partners International (USPI) integration APIs for ambulatory surgery center scheduling, patient registration, procedure management, and clinical data exchange. USPI operates over 600 '
   name: USPI Ambulatory Surgery Center API
   slug: uspi-ambulatory-surgery-center-api
-- description: Healthcare appointment scheduling and management (FHIR Appointment resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Healthcare appointment scheduling and management (FHIR Appointment resource)
   name: Tenet Healthcare Appointments API
   slug: tenet-healthcare-appointments-api
-- description: Patient diagnoses, problems, and health concerns (FHIR Condition resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Patient diagnoses, problems, and health concerns (FHIR Condition resource)
   name: Tenet Healthcare Conditions API
   slug: tenet-healthcare-conditions-api
-- description: Clinical document references and summaries (FHIR DocumentReference resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Clinical document references and summaries (FHIR DocumentReference resource)
   name: Tenet Healthcare Documents API
   slug: tenet-healthcare-documents-api
-- description: Medication prescriptions and administration records (FHIR MedicationRequest resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Medication prescriptions and administration records (FHIR MedicationRequest resource)
   name: Tenet Healthcare Medications API
   slug: tenet-healthcare-medications-api
-- description: Clinical observations including vital signs, lab results, and assessments (FHIR Observation resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Clinical observations including vital signs, lab results, and assessments (FHIR Observation resource)
   name: Tenet Healthcare Observations API
   slug: tenet-healthcare-observations-api
-- description: Patient demographic and administrative information (FHIR Patient resource)
+- baseURL: https://api.coniferhealth.com
+  baseurl_source: declared
+  description: Patient demographic and administrative information (FHIR Patient resource)
   name: Tenet Healthcare Patients API
   slug: tenet-healthcare-patients-api
 artifact_total: 31
@@ -294,7 +306,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
 security:

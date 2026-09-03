@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: REST API for SoundCloud covering tracks (upload, metadata, stream), users (/me, profiles), playlists (CRUD), search (title/username/description), social (follow, like, comment), and audio playback. OA
   name: SoundCloud API
   slug: platform
-- description: Playlist CRUD
+- baseURL: https://api.soundcloud.com
+  baseurl_source: declared
+  description: Playlist CRUD
   name: SoundCloud Playlists API
   slug: soundcloud-playlists-api
-- description: Search and resolution
+- baseURL: https://api.soundcloud.com
+  baseurl_source: declared
+  description: Search and resolution
   name: SoundCloud Search API
   slug: soundcloud-search-api
-- description: Follow and like actions
+- baseURL: https://api.soundcloud.com
+  baseurl_source: declared
+  description: Follow and like actions
   name: SoundCloud Social API
   slug: soundcloud-social-api
-- description: Track CRUD, streaming, and comments
+- baseURL: https://api.soundcloud.com
+  baseurl_source: declared
+  description: Track CRUD, streaming, and comments
   name: SoundCloud Tracks API
   slug: soundcloud-tracks-api
-- description: Authenticated user and profile actions
+- baseURL: https://api.soundcloud.com
+  baseurl_source: declared
+  description: Authenticated user and profile actions
   name: SoundCloud Users API
   slug: soundcloud-users-api
 artifact_total: 22
@@ -203,7 +213,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/screenshots/soundcloud-2026-06-20T194220.png
 security:

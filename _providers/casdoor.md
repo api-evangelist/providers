@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -68,25 +68,39 @@ apis:
 - description: Outbound webhook events that notify external systems of identity events such as user signup, login, logout, profile changes, password resets, and MFA enrollments.
   name: Casdoor Webhooks
   slug: casdoor-webhooks
-- description: OAuth/OIDC client applications
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: OAuth/OIDC client applications
   name: Casdoor Applications API
   slug: casdoor-applications-api
-- description: Login, callback, and device authorization
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: Login, callback, and device authorization
   name: Casdoor Authentication API
   slug: casdoor-authentication-api
-- description: OpenID Connect discovery and JWKS endpoints
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: OpenID Connect discovery and JWKS endpoints
   name: Casdoor OIDC API
   slug: casdoor-oidc-api
-- description: Multi-tenant organization management
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: Multi-tenant organization management
   name: Casdoor Organizations API
   slug: casdoor-organizations-api
-- description: Casbin policy enforcement
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: Casbin policy enforcement
   name: Casdoor Permissions API
   slug: casdoor-permissions-api
-- description: Role-based access control
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: Role-based access control
   name: Casdoor Roles API
   slug: casdoor-roles-api
-- description: User CRUD and credential operations
+- baseURL: https://door.casdoor.com
+  baseurl_source: declared
+  description: User CRUD and credential operations
   name: Casdoor Users API
   slug: casdoor-users-api
 artifact_total: 75
@@ -306,7 +320,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

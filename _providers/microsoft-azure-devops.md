@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -134,100 +134,164 @@ apis:
 - description: API for managing work item tracking process customizations in Azure DevOps. Enables programmatic management of inherited processes, work item types, fields, states, rules, behaviors, layouts, and pick
   name: Azure DevOps Work Item Tracking Process API
   slug: azure-devops-work-item-tracking-process-api
-- description: Operations for work item attachments
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for work item attachments
   name: Azure DevOps Attachments API
   slug: microsoft-azure-devops-attachments-api
-- description: Operations for accessing build artifacts
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for accessing build artifacts
   name: Azure DevOps Build Artifacts API
   slug: microsoft-azure-devops-build-artifacts-api
-- description: Operations for managing build pipeline definitions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing build pipeline definitions
   name: Azure DevOps Build Definitions API
   slug: microsoft-azure-devops-build-definitions-api
-- description: Operations for accessing build logs and timelines
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for accessing build logs and timelines
   name: Azure DevOps Build Logs API
   slug: microsoft-azure-devops-build-logs-api
-- description: Operations for managing and queuing builds
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing and queuing builds
   name: Azure DevOps Builds API
   slug: microsoft-azure-devops-builds-api
-- description: Operations for work item comments
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for work item comments
   name: Azure DevOps Comments API
   slug: microsoft-azure-devops-comments-api
-- description: Operations for accessing commits and commit history
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for accessing commits and commit history
   name: Azure DevOps Commits API
   slug: microsoft-azure-devops-commits-api
-- description: Operations for listing consumers (webhook, service bus, etc.)
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for listing consumers (webhook, service bus, etc.)
   name: Azure DevOps Consumers API
   slug: microsoft-azure-devops-consumers-api
-- description: Operations for managing and monitoring deployments to environments
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing and monitoring deployments to environments
   name: Azure DevOps Deployments API
   slug: microsoft-azure-devops-deployments-api
-- description: Operations for managing artifact feeds
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing artifact feeds
   name: Azure DevOps Feeds API
   slug: microsoft-azure-devops-feeds-api
-- description: Operations for sending test notifications
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for sending test notifications
   name: Azure DevOps Notifications API
   slug: microsoft-azure-devops-notifications-api
-- description: Operations for managing specific package versions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing specific package versions
   name: Azure DevOps Package Versions API
   slug: microsoft-azure-devops-package-versions-api
-- description: Operations for listing and managing packages within feeds
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for listing and managing packages within feeds
   name: Azure DevOps Packages API
   slug: microsoft-azure-devops-packages-api
-- description: Operations for accessing artifacts from pipeline runs
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for accessing artifacts from pipeline runs
   name: Azure DevOps Pipeline Artifacts API
   slug: microsoft-azure-devops-pipeline-artifacts-api
-- description: Operations for triggering and monitoring pipeline runs
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for triggering and monitoring pipeline runs
   name: Azure DevOps Pipeline Runs API
   slug: microsoft-azure-devops-pipeline-runs-api
-- description: Operations for managing pipeline definitions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing pipeline definitions
   name: Azure DevOps Pipelines API
   slug: microsoft-azure-devops-pipelines-api
-- description: Operations for listing event publishers and their event types
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for listing event publishers and their event types
   name: Azure DevOps Publishers API
   slug: microsoft-azure-devops-publishers-api
-- description: Operations for creating and managing pull requests
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for creating and managing pull requests
   name: Azure DevOps Pull Requests API
   slug: microsoft-azure-devops-pull-requests-api
-- description: Operations for managing pushes and commits
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing pushes and commits
   name: Azure DevOps Pushes API
   slug: microsoft-azure-devops-pushes-api
-- description: Operations for managing branches and tags (refs)
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing branches and tags (refs)
   name: Azure DevOps Refs API
   slug: microsoft-azure-devops-refs-api
-- description: Operations for managing release pipeline definitions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing release pipeline definitions
   name: Azure DevOps Release Definitions API
   slug: microsoft-azure-devops-release-definitions-api
-- description: Operations for managing release instances
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing release instances
   name: Azure DevOps Releases API
   slug: microsoft-azure-devops-releases-api
-- description: Operations for managing Git repositories
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing Git repositories
   name: Azure DevOps Repositories API
   slug: microsoft-azure-devops-repositories-api
-- description: Operations for managing service hook subscriptions
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing service hook subscriptions
   name: Azure DevOps Subscriptions API
   slug: microsoft-azure-devops-subscriptions-api
-- description: Operations for managing test cases within test suites
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing test cases within test suites
   name: Azure DevOps Test Cases API
   slug: microsoft-azure-devops-test-cases-api
-- description: Operations for managing test plans
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing test plans
   name: Azure DevOps Test Plans API
   slug: microsoft-azure-devops-test-plans-api
-- description: Operations for managing test suites within test plans
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing test suites within test plans
   name: Azure DevOps Test Suites API
   slug: microsoft-azure-devops-test-suites-api
-- description: Operations for managing wiki page content
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing wiki page content
   name: Azure DevOps Wiki Pages API
   slug: microsoft-azure-devops-wiki-pages-api
-- description: Operations for managing wiki instances
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing wiki instances
   name: Azure DevOps Wikis API
   slug: microsoft-azure-devops-wikis-api
-- description: Operations for querying and tracking work items using WIQL
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for querying and tracking work items using WIQL
   name: Azure DevOps Work Item Tracking API
   slug: microsoft-azure-devops-work-item-tracking-api
-- description: Operations for work item type definitions and fields
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for work item type definitions and fields
   name: Azure DevOps Work Item Types API
   slug: microsoft-azure-devops-work-item-types-api
-- description: Operations for managing work items (Bugs, Tasks, User Stories, etc.)
+- baseURL: https://dev.azure.com/{organization}
+  baseurl_source: declared
+  description: Operations for managing work items (Bugs, Tasks, User Stories, etc.)
   name: Azure DevOps Work Items API
   slug: microsoft-azure-devops-work-items-api
 arazzos:
@@ -1047,7 +1111,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1060,7 +1124,7 @@ score:
   open_source:
     applies: true
     score: 75.0
-  previous_composite: 62.1
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1069,7 +1133,7 @@ score:
       marker_coverage: 0.0
       total: 32
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

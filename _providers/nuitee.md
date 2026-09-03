@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 20 operations · 7 acting
 api_count: 1
 apis:
-- description: Prebook, book, retrieve, list, and cancel reservations.
+- baseURL: https://api.liteapi.travel/v3.0
+  baseurl_source: declared
+  description: Prebook, book, retrieve, list, and cancel reservations.
   name: Nuitée (LiteAPI) Booking API
   slug: nuitee-booking-api
-- description: Static hotel content, reviews, and reference data.
+- baseURL: https://api.liteapi.travel/v3.0
+  baseurl_source: declared
+  description: Static hotel content, reviews, and reference data.
   name: Nuitée (LiteAPI) Hotel Data API
   slug: nuitee-hotel-data-api
-- description: Loyalty program configuration, points, and vouchers.
+- baseURL: https://api.liteapi.travel/v3.0
+  baseurl_source: declared
+  description: Loyalty program configuration, points, and vouchers.
   name: Nuitée (LiteAPI) Loyalty API
   slug: nuitee-loyalty-api
-- description: Real-time room rates and availability search.
+- baseURL: https://api.liteapi.travel/v3.0
+  baseurl_source: declared
+  description: Real-time room rates and availability search.
   name: Nuitée (LiteAPI) Rates API
   slug: nuitee-rates-api
 artifact_total: 16
@@ -173,7 +181,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/screenshots/nuitee-2026-08-07T185721.png
 security:

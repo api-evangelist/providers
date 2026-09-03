@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 93 operations · 54 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Everything about Add-on collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Add-on collection
   name: Lago Add_ons API
   slug: lago-add-ons-api
-- description: Everything about Analytics
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Analytics
   name: Lago Analytics API
   slug: lago-analytics-api
-- description: Everything about Billable metric collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Billable metric collection
   name: Lago Billable_metrics API
   slug: lago-billable-metrics-api
-- description: Everything about Coupon collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Coupon collection
   name: Lago Coupons API
   slug: lago-coupons-api
-- description: Everything about Credit notes collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Credit notes collection
   name: Lago Credit_notes API
   slug: lago-credit-notes-api
-- description: Everything about Customer collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Customer collection
   name: Lago Customers API
   slug: lago-customers-api
-- description: Everything about Event collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Event collection
   name: Lago Events API
   slug: lago-events-api
-- description: Everything about Fees
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Fees
   name: Lago Fees API
   slug: lago-fees-api
-- description: Everything about Invoice collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Invoice collection
   name: Lago Invoices API
   slug: lago-invoices-api
-- description: Everything about Organization collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Organization collection
   name: Lago Organizations API
   slug: lago-organizations-api
-- description: Everything about PaymentRequests
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about PaymentRequests
   name: Lago Payment_requests API
   slug: lago-payment-requests-api
-- description: Everything about Plan collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Plan collection
   name: Lago Plans API
   slug: lago-plans-api
-- description: Everything about Subscription collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Subscription collection
   name: Lago Subscriptions API
   slug: lago-subscriptions-api
-- description: Everything about Tax collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Tax collection
   name: Lago Taxes API
   slug: lago-taxes-api
-- description: Everything about Wallet collection
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Wallet collection
   name: Lago Wallets API
   slug: lago-wallets-api
-- description: Everything about Webhook Endpoints
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Webhook Endpoints
   name: Lago Webhook_endpoints API
   slug: lago-webhook-endpoints-api
-- description: Everything about Webhooks
+- baseURL: https://api.getlago.com/api/v1
+  baseurl_source: spec
+  description: Everything about Webhooks
   name: Lago Webhooks API
   slug: lago-webhooks-api
 artifact_total: 44
@@ -255,7 +289,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lago/refs/heads/main/screenshots/lago-2026-06-20T184248.png
 security:

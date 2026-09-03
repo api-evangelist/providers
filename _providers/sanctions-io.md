@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 29 operations · 12 acting
 api_count: 1
 apis:
-- description: API tokens, company and webhook configuration, users, plans, and usage.
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: API tokens, company and webhook configuration, users, plans, and usage.
   name: sanctions.io Account Management API
   slug: sanctions-io-account-management-api
-- description: Keyword search of news articles for adverse media screening (requires Accept version=3.0).
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: Keyword search of news articles for adverse media screening (requires Accept version=3.0).
   name: sanctions.io Adverse Media API
   slug: sanctions-io-adverse-media-api
-- description: Screen up to 10,000 names in a single request.
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: Screen up to 10,000 names in a single request.
   name: sanctions.io Batch Screening API
   slug: sanctions-io-batch-screening-api
-- description: Sanctions and watchlist sources available for screening, and database export.
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: Sanctions and watchlist sources available for screening, and database export.
   name: sanctions.io Data Sources API
   slug: sanctions-io-data-sources-api
-- description: Continuous monitoring entries, alerts, and result review.
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: Continuous monitoring entries, alerts, and result review.
   name: sanctions.io Monitoring API
   slug: sanctions-io-monitoring-api
-- description: Real-time single screening against sanctions, PEP, and criminal watchlists.
+- baseURL: https://api.sanctions.io
+  baseurl_source: declared
+  description: Real-time single screening against sanctions, PEP, and criminal watchlists.
   name: sanctions.io Screening API
   slug: sanctions-io-screening-api
 artifact_total: 20
@@ -193,7 +205,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/screenshots/sanctions-io-2026-08-17T081724.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -43,73 +43,119 @@ agentic_access:
   summary_line: 92 operations · 52 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Organisation Companies API from Capmo — 2 operation(s) for organisation companies.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Organisation Companies API from Capmo — 2 operation(s) for organisation companies.
   name: Capmo Organisation Companies API
   slug: capmo-organisation-companies-api
-- description: The Organisation Memberships API from Capmo — 2 operation(s) for organisation memberships.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Organisation Memberships API from Capmo — 2 operation(s) for organisation memberships.
   name: Capmo Organisation Memberships API
   slug: capmo-organisation-memberships-api
-- description: The Organisation People API from Capmo — 2 operation(s) for organisation people.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Organisation People API from Capmo — 2 operation(s) for organisation people.
   name: Capmo Organisation People API
   slug: capmo-organisation-people-api
-- description: The Organisation Projects API from Capmo — 2 operation(s) for organisation projects.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Organisation Projects API from Capmo — 2 operation(s) for organisation projects.
   name: Capmo Organisation Projects API
   slug: capmo-organisation-projects-api
-- description: The Other API from Capmo — 1 operation(s) for other.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Other API from Capmo — 1 operation(s) for other.
   name: Capmo Other API
   slug: capmo-other-api
-- description: The Project Change Orders API from Capmo — 3 operation(s) for project change orders.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Change Orders API from Capmo — 3 operation(s) for project change orders.
   name: Capmo Project Change Orders API
   slug: capmo-project-change-orders-api
-- description: The Project Companies API from Capmo — 3 operation(s) for project companies.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Companies API from Capmo — 3 operation(s) for project companies.
   name: Capmo Project Companies API
   slug: capmo-project-companies-api
-- description: The Project Documents API from Capmo — 4 operation(s) for project documents.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Documents API from Capmo — 4 operation(s) for project documents.
   name: Capmo Project Documents API
   slug: capmo-project-documents-api
-- description: The Project Memberships API from Capmo — 2 operation(s) for project memberships.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Memberships API from Capmo — 2 operation(s) for project memberships.
   name: Capmo Project Memberships API
   slug: capmo-project-memberships-api
-- description: The Project People API from Capmo — 3 operation(s) for project people.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project People API from Capmo — 3 operation(s) for project people.
   name: Capmo Project People API
   slug: capmo-project-people-api
-- description: The Project Permission Sets API from Capmo — 1 operation(s) for project permission sets.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Permission Sets API from Capmo — 1 operation(s) for project permission sets.
   name: Capmo Project Permission Sets API
   slug: capmo-project-permission-sets-api
-- description: The Project Plans API from Capmo — 4 operation(s) for project plans.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Plans API from Capmo — 4 operation(s) for project plans.
   name: Capmo Project Plans API
   slug: capmo-project-plans-api
-- description: The Project Room Listings API from Capmo — 1 operation(s) for project room listings.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Room Listings API from Capmo — 1 operation(s) for project room listings.
   name: Capmo Project Room Listings API
   slug: capmo-project-room-listings-api
-- description: The Project Site Journals API from Capmo — 2 operation(s) for project site journals.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Site Journals API from Capmo — 2 operation(s) for project site journals.
   name: Capmo Project Site Journals API
   slug: capmo-project-site-journals-api
-- description: The Project Templates API from Capmo — 2 operation(s) for project templates.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Templates API from Capmo — 2 operation(s) for project templates.
   name: Capmo Project Templates API
   slug: capmo-project-templates-api
-- description: The Project Ticket Attachments API from Capmo — 2 operation(s) for project ticket attachments.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Ticket Attachments API from Capmo — 2 operation(s) for project ticket attachments.
   name: Capmo Project Ticket Attachments API
   slug: capmo-project-ticket-attachments-api
-- description: The Project Ticket Categories API from Capmo — 1 operation(s) for project ticket categories.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Ticket Categories API from Capmo — 1 operation(s) for project ticket categories.
   name: Capmo Project Ticket Categories API
   slug: capmo-project-ticket-categories-api
-- description: The Project Ticket Comments API from Capmo — 1 operation(s) for project ticket comments.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Ticket Comments API from Capmo — 1 operation(s) for project ticket comments.
   name: Capmo Project Ticket Comments API
   slug: capmo-project-ticket-comments-api
-- description: The Project Ticket Tags API from Capmo — 1 operation(s) for project ticket tags.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Ticket Tags API from Capmo — 1 operation(s) for project ticket tags.
   name: Capmo Project Ticket Tags API
   slug: capmo-project-ticket-tags-api
-- description: The Project Ticket Types API from Capmo — 1 operation(s) for project ticket types.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Ticket Types API from Capmo — 1 operation(s) for project ticket types.
   name: Capmo Project Ticket Types API
   slug: capmo-project-ticket-types-api
-- description: The Project Tickets API from Capmo — 2 operation(s) for project tickets.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Project Tickets API from Capmo — 2 operation(s) for project tickets.
   name: Capmo Project Tickets API
   slug: capmo-project-tickets-api
-- description: The Projects API from Capmo — 3 operation(s) for projects.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Projects API from Capmo — 3 operation(s) for projects.
   name: Capmo Projects API
   slug: capmo-projects-api
-- description: The Uploads API from Capmo — 3 operation(s) for uploads.
+- baseURL: https://api.capmo.de/api/v1
+  baseurl_source: declared
+  description: The Uploads API from Capmo — 3 operation(s) for uploads.
   name: Capmo Uploads API
   slug: capmo-uploads-api
 artifact_total: 52
@@ -335,7 +381,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -345,7 +391,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 41.9
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,7 +403,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 53 operations · 19 acting
 api_count: 3
 apis:
-- description: Retrieve the original device configuration before Declarative Onboarding modifications were applied.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Retrieve the original device configuration before Declarative Onboarding modifications were applied.
   name: F5 Load Balancer Config API
   slug: f5-load-balancer-config-api
-- description: Manage internal and external data groups used for address, string, and integer lookups in traffic processing decisions.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage internal and external data groups used for address, string, and integer lookups in traffic processing decisions.
   name: F5 Load Balancer Data Groups API
   slug: f5-load-balancer-data-groups-api
-- description: Submit, retrieve, and manage AS3 declarations that describe the desired application services configuration state on the BIG-IP system.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Submit, retrieve, and manage AS3 declarations that describe the desired application services configuration state on the BIG-IP system.
   name: F5 Load Balancer Declarations API
   slug: f5-load-balancer-declarations-api
-- description: Retrieve version and capability information about the installed AS3 extension.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Retrieve version and capability information about the installed AS3 extension.
   name: F5 Load Balancer Info API
   slug: f5-load-balancer-info-api
-- description: Inspect the current state of BIG-IP configuration classes known to Declarative Onboarding.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Inspect the current state of BIG-IP configuration classes known to Declarative Onboarding.
   name: F5 Load Balancer Inspect API
   slug: f5-load-balancer-inspect-api
-- description: Manage iRules for custom traffic management logic using the F5 Tcl-based scripting language.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage iRules for custom traffic management logic using the F5 Tcl-based scripting language.
   name: F5 Load Balancer iRules API
   slug: f5-load-balancer-irules-api
-- description: Configure health monitors that verify the availability and performance of nodes, pool members, and services.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Configure health monitors that verify the availability and performance of nodes, pool members, and services.
   name: F5 Load Balancer Monitors API
   slug: f5-load-balancer-monitors-api
-- description: Manage backend server nodes identified by IP address or FQDN that serve as the foundation for pool member definitions.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage backend server nodes identified by IP address or FQDN that serve as the foundation for pool member definitions.
   name: F5 Load Balancer Nodes API
   slug: f5-load-balancer-nodes-api
-- description: Manage local traffic policies that provide rule-based traffic steering and content manipulation capabilities.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage local traffic policies that provide rule-based traffic steering and content manipulation capabilities.
   name: F5 Load Balancer Policies API
   slug: f5-load-balancer-policies-api
-- description: Manage individual server members within load balancing pools including their state, ratio, priority group, and connection limits.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage individual server members within load balancing pools including their state, ratio, priority group, and connection limits.
   name: F5 Load Balancer Pool Members API
   slug: f5-load-balancer-pool-members-api
-- description: Manage pools of backend servers for load distribution and health monitoring.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage pools of backend servers for load distribution and health monitoring.
   name: F5 Load Balancer Pools API
   slug: f5-load-balancer-pools-api
-- description: Manage traffic profiles that define how the BIG-IP processes different types of network traffic including HTTP, TCP, SSL, and persistence.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage traffic profiles that define how the BIG-IP processes different types of network traffic including HTTP, TCP, SSL, and persistence.
   name: F5 Load Balancer Profiles API
   slug: f5-load-balancer-profiles-api
-- description: Manage SNAT (Secure Network Address Translation) pools that define translation addresses for outbound connections.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage SNAT (Secure Network Address Translation) pools that define translation addresses for outbound connections.
   name: F5 Load Balancer SNAT Pools API
   slug: f5-load-balancer-snat-pools-api
-- description: Manage SSL certificates and keys used for TLS/SSL termination and re-encryption on virtual servers.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage SSL certificates and keys used for TLS/SSL termination and re-encryption on virtual servers.
   name: F5 Load Balancer SSL Certificates API
   slug: f5-load-balancer-ssl-certificates-api
-- description: Access system-level information and configuration including device status, software versions, and global settings.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Access system-level information and configuration including device status, software versions, and global settings.
   name: F5 Load Balancer System API
   slug: f5-load-balancer-system-api
-- description: Monitor the status of asynchronous declaration processing tasks.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Monitor the status of asynchronous declaration processing tasks.
   name: F5 Load Balancer Tasks API
   slug: f5-load-balancer-tasks-api
-- description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
+- baseURL: https://bigip-host/mgmt/tm
+  baseurl_source: declared
+  description: Manage virtual servers that direct client traffic to appropriate server pools based on configured rules and profiles.
   name: F5 Load Balancer Virtual Servers API
   slug: f5-load-balancer-virtual-servers-api
 artifact_total: 45
@@ -265,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/screenshots/f5-load-balancer-2026-06-20T180957.png
 security:

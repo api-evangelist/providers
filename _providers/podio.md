@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: REST API providing complete programmatic access to Podio apps, items, workspaces, organizations, users, tasks, files, comments, and webhooks. Authentication uses OAuth2 with several supported flows (s
   name: Podio REST API
   slug: rest-api
-- description: Podio application definitions.
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: Podio application definitions.
   name: Podio Applications API
   slug: podio-applications-api
-- description: Webhooks.
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: Webhooks.
   name: Podio Hooks API
   slug: podio-hooks-api
-- description: Items (records) inside Podio applications.
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: Items (records) inside Podio applications.
   name: Podio Items API
   slug: podio-items-api
-- description: OAuth 2.0 authorization endpoints.
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: OAuth 2.0 authorization endpoints.
   name: Podio OAuth API
   slug: podio-oauth-api
-- description: Work tasks.
+- baseURL: https://api.podio.com
+  baseurl_source: declared
+  description: Work tasks.
   name: Podio Tasks API
   slug: podio-tasks-api
 artifact_total: 18
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/screenshots/podio-2026-06-20T191835.png
 security:

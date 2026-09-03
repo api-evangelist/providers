@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 6 operations · 3 acting
 api_count: 1
 apis:
-- description: Operations for recording cache usage analytics
+- baseURL_template: '{protocol}://{host}'
+  baseurl_source: spec_template
+  description: Operations for recording cache usage analytics
   name: Turborepo analytics API
   slug: turborepo-analytics-api
-- description: Operations for managing cache artifacts
+- baseURL_template: '{protocol}://{host}'
+  baseurl_source: spec_template
+  description: Operations for managing cache artifacts
   name: Turborepo artifacts API
   slug: turborepo-artifacts-api
 artifact_total: 31
@@ -262,7 +266,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/screenshots/turborepo-2026-06-20T195834.png
 security:

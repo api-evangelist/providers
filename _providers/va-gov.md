@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -58,94 +58,154 @@ apis:
 - description: Insurance-coordination API for VA's Consolidated Patient Account Center (CPAC) — submit and update third-party health insurance coverage on a Veteran's record so VA can correctly bill private insurers
   name: Health Care Costs Coverage API
   slug: health-care-costs-coverage-api
-- description: Allows authenticated and authorized users to file a 5103 Notice Response on a claim.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Allows authenticated and authorized users to file a 5103 Notice Response on a claim.
   name: VA Lighthouse 5103 Waiver API
   slug: va-gov-5103-waiver-api
-- description: The ACA Coverage API from VA Lighthouse — 1 operation(s) for aca coverage.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The ACA Coverage API from VA Lighthouse — 1 operation(s) for aca coverage.
   name: VA Lighthouse ACA Coverage API
   slug: va-gov-aca-coverage-api
-- description: Address Standardization and Validation endpoints
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Address Standardization and Validation endpoints
   name: VA Lighthouse AddressValidation-v3 API
   slug: va-gov-addressvalidation-v3-api
-- description: The Appealable Issues API from VA Lighthouse — 1 operation(s) for appealable issues.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Appealable Issues API from VA Lighthouse — 1 operation(s) for appealable issues.
   name: VA Lighthouse Appealable Issues API
   slug: va-gov-appealable-issues-api
-- description: Caseflow appeals status API
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Caseflow appeals status API
   name: VA Lighthouse Appeals Status API
   slug: va-gov-appeals-status-api
-- description: Allows authenticated and authorized users to access claims data for a single claim by ID, or for all claims based on claimant data. No data is returned if the user is not authenticated and authorized.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Allows authenticated and authorized users to access claims data for a single claim by ID, or for all claims based on claimant data. No data is returned if the user is not authenticated and authorized.
   name: VA Lighthouse Claims API
   slug: va-gov-claims-api
-- description: The DirectDeposit API from VA Lighthouse — 1 operation(s) for directdeposit.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The DirectDeposit API from VA Lighthouse — 1 operation(s) for directdeposit.
   name: VA Lighthouse DirectDeposit API
   slug: va-gov-directdeposit-api
-- description: Used for 526 claims.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Used for 526 claims.
   name: VA Lighthouse Disability API
   slug: va-gov-disability-api
-- description: Allows authenticated and authorized users to automatically establish a Disability Compensation Claim (21-526EZ) in VBMS
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Allows authenticated and authorized users to automatically establish a Disability Compensation Claim (21-526EZ) in VBMS
   name: VA Lighthouse Disability Compensation Claims API
   slug: va-gov-disability-compensation-claims-api
-- description: The Disability Rating API from VA Lighthouse — 4 operation(s) for disability rating.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Disability Rating API from VA Lighthouse — 4 operation(s) for disability rating.
   name: VA Lighthouse Disability Rating API
   slug: va-gov-disability-rating-api
-- description: The Documents Service API from VA Lighthouse — 9 operation(s) for documents service.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Documents Service API from VA Lighthouse — 9 operation(s) for documents service.
   name: VA Lighthouse Documents Service API
   slug: va-gov-documents-service-api
-- description: The Enrolled Benefits API from VA Lighthouse — 1 operation(s) for enrolled benefits.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Enrolled Benefits API from VA Lighthouse — 1 operation(s) for enrolled benefits.
   name: VA Lighthouse Enrolled Benefits API
   slug: va-gov-enrolled-benefits-api
-- description: VA Facilities API
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: VA Facilities API
   name: VA Lighthouse facilities API
   slug: va-gov-facilities-api
-- description: The Flashes API from VA Lighthouse — 1 operation(s) for flashes.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Flashes API from VA Lighthouse — 1 operation(s) for flashes.
   name: VA Lighthouse Flashes API
   slug: va-gov-flashes-api
-- description: The Forms API from VA Lighthouse — 2 operation(s) for forms.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Forms API from VA Lighthouse — 2 operation(s) for forms.
   name: VA Lighthouse Forms API
   slug: va-gov-forms-api
-- description: Used for 0966 submissions.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Used for 0966 submissions.
   name: VA Lighthouse Intent to File API
   slug: va-gov-intent-to-file-api
-- description: The JWS Validation API from VA Lighthouse — 1 operation(s) for jws validation.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The JWS Validation API from VA Lighthouse — 1 operation(s) for jws validation.
   name: VA Lighthouse JWS Validation API
   slug: va-gov-jws-validation-api
-- description: The Legacy Appeals API from VA Lighthouse — 1 operation(s) for legacy appeals.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Legacy Appeals API from VA Lighthouse — 1 operation(s) for legacy appeals.
   name: VA Lighthouse Legacy Appeals API
   slug: va-gov-legacy-appeals-api
-- description: The Letters API from VA Lighthouse — 3 operation(s) for letters.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Letters API from VA Lighthouse — 3 operation(s) for letters.
   name: VA Lighthouse Letters API
   slug: va-gov-letters-api
-- description: Loan Review Public Resource
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Loan Review Public Resource
   name: VA Lighthouse loanReviewPublic API
   slug: va-gov-loanreviewpublic-api
-- description: The Path API from VA Lighthouse — 1 operation(s) for path.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Path API from VA Lighthouse — 1 operation(s) for path.
   name: VA Lighthouse Path API
   slug: va-gov-path-api
-- description: The Permanent And Total Disability API from VA Lighthouse — 2 operation(s) for permanent and total disability.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Permanent And Total Disability API from VA Lighthouse — 2 operation(s) for permanent and total disability.
   name: VA Lighthouse Permanent And Total Disability API
   slug: va-gov-permanent-and-total-disability-api
-- description: Used for 21-22 and 21-22a form submissions.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Used for 21-22 and 21-22a form submissions.
   name: VA Lighthouse Power of Attorney API
   slug: va-gov-power-of-attorney-api
-- description: The Reference Data API from VA Lighthouse — 9 operation(s) for reference data.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Reference Data API from VA Lighthouse — 9 operation(s) for reference data.
   name: VA Lighthouse Reference Data API
   slug: va-gov-reference-data-api
-- description: The Search API from VA Lighthouse — 1 operation(s) for search.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Search API from VA Lighthouse — 1 operation(s) for search.
   name: VA Lighthouse Search API
   slug: va-gov-search-api
-- description: The Service History API from VA Lighthouse — 1 operation(s) for service history.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Service History API from VA Lighthouse — 1 operation(s) for service history.
   name: VA Lighthouse Service History API
   slug: va-gov-service-history-api
-- description: The Status API from VA Lighthouse — 2 operation(s) for status.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Status API from VA Lighthouse — 2 operation(s) for status.
   name: VA Lighthouse Status API
   slug: va-gov-status-api
-- description: The Uploads API from VA Lighthouse — 5 operation(s) for uploads.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Uploads API from VA Lighthouse — 5 operation(s) for uploads.
   name: VA Lighthouse Uploads API
   slug: va-gov-uploads-api
-- description: Veteran Confirmation - Veteran Status
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: Veteran Confirmation - Veteran Status
   name: VA Lighthouse veteran_confirmation_status API
   slug: va-gov-veteran-confirmation-status-api
-- description: The Veteran Verification API from VA Lighthouse — 3 operation(s) for veteran verification.
+- baseURL: https://api.va.gov/services/va_facilities/v1
+  baseurl_source: declared
+  description: The Veteran Verification API from VA Lighthouse — 3 operation(s) for veteran verification.
   name: VA Lighthouse Veteran Verification API
   slug: va-gov-veteran-verification-api
 artifact_total: 115
@@ -556,7 +616,7 @@ score:
     regime_id: government
     score: 68.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

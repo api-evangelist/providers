@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Browser SDK exposing window.blinkSDK. Provides Login with Blink (getAuthorizationCode), subscription entitlement checks (isSubscribed, getSubscription, onSubscriptionChange), single-article charging (
@@ -42,13 +42,19 @@ apis:
 - description: 'Outbound webhook stream delivering signed JSON notifications for subscription, payment and donation lifecycle events. Every payload is signed with ed25519 over the canonicalized event object, with an '
   name: Blink Notifications (Webhooks)
   slug: blink-ledger-systems-notifications
-- description: Client account login and bearer token issuance.
+- baseURL: https://api.blink.net
+  baseurl_source: declared
+  description: Client account login and bearer token issuance.
   name: Blink Ledger Systems Authentication API
   slug: blink-ledger-systems-authentication-api
-- description: Registration and retrieval of OAuth application credentials.
+- baseURL: https://api.blink.net
+  baseurl_source: declared
+  description: Registration and retrieval of OAuth application credentials.
   name: Blink Ledger Systems OAuth Applications API
   slug: blink-ledger-systems-oauth-applications-api
-- description: Blink user profile exchange.
+- baseURL: https://api.blink.net
+  baseurl_source: declared
+  description: Blink user profile exchange.
   name: Blink Ledger Systems Users API
   slug: blink-ledger-systems-users-api
 artifact_total: 13
@@ -206,7 +212,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -216,7 +222,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 27.9
+  previous_composite: 27.8
   provenance:
     conformance: derived
     contracts:
@@ -233,7 +239,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink-ledger-systems/refs/heads/main/screenshots/blink-ledger-systems-2026-07-25T203322.png
 security:

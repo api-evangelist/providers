@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -55,13 +55,19 @@ apis:
 - description: Command-line interface for interacting with Wormhole protocol operations including token transfers, NTT deployments, and cross-chain messaging tasks.
   name: Wormhole CLI
   slug: wormhole-cli
-- description: The Guardian API from Wormhole — 8 operation(s) for guardian.
+- baseURL: https://api.wormholescan.io/api/v1
+  baseurl_source: declared
+  description: The Guardian API from Wormhole — 8 operation(s) for guardian.
   name: Wormhole Guardian API
   slug: wormhole-guardian-api
-- description: The wormhole API from Wormhole — 1 operation(s) for wormhole.
+- baseURL: https://api.wormholescan.io/api/v1
+  baseurl_source: declared
+  description: The wormhole API from Wormhole — 1 operation(s) for wormhole.
   name: Wormhole wormhole API
   slug: wormhole-wormhole-api
-- description: The wormholescan API from Wormhole — 64 operation(s) for wormholescan.
+- baseURL: https://api.wormholescan.io/api/v1
+  baseurl_source: declared
+  description: The wormholescan API from Wormhole — 64 operation(s) for wormholescan.
   name: Wormhole wormholescan API
   slug: wormhole-wormholescan-api
 artifact_total: 204
@@ -767,7 +773,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/screenshots/wormhole-2026-06-20T201625.png
 security:

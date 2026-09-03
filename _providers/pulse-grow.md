@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 19 operations
 api_count: 1
 apis:
-- description: A collection of API operations related to devices.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to devices.
   name: Pulse Grow AllDevices API
   slug: pulse-grow-alldevices-api
-- description: A collection of API operations related to devices.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to devices.
   name: Pulse Grow Devices API
   slug: pulse-grow-devices-api
-- description: A collection of API operations related to users.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to users.
   name: Pulse Grow Hub API
   slug: pulse-grow-hub-api
-- description: A collection of API operations related to inviting users.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to inviting users.
   name: Pulse Grow Invitation API
   slug: pulse-grow-invitation-api
-- description: A collection of API operations related to light readings.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to light readings.
   name: Pulse Grow ProLightReading API
   slug: pulse-grow-prolightreading-api
-- description: A collection of API operations related to devices.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to devices.
   name: Pulse Grow Sensors API
   slug: pulse-grow-sensors-api
-- description: A collection of API operations related to timeline events.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to timeline events.
   name: Pulse Grow TimeLineEvent API
   slug: pulse-grow-timelineevent-api
-- description: A collection of API operations related to timeline events.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to timeline events.
   name: Pulse Grow TriggeredThreshold API
   slug: pulse-grow-triggeredthreshold-api
-- description: A collection of API operations related to users.
+- baseURL: https://api.pulsegrow.com
+  baseurl_source: declared
+  description: A collection of API operations related to users.
   name: Pulse Grow User API
   slug: pulse-grow-user-api
 artifact_total: 25
@@ -167,7 +185,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/screenshots/pulse-grow-2026-06-20T192255.png
 security:

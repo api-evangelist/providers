@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations · 3 acting
 api_count: 3
 apis:
-- description: Consume approved UGC media from albums (with filters/sorts and pagination), ingest new content from a URL or file, and add or update products. API key in query plus HMAC-SHA1 signature for writes; res
+- baseURL: https://distillery.pixlee.co/api/v2
+  baseurl_source: declared
+  description: Consume approved UGC media from albums (with filters/sorts and pagination), ingest new content from a URL or file, and add or update products. API key in query plus HMAC-SHA1 signature for writes; res
   name: Pixlee Content API
   slug: pixlee-content-api
-- description: Create albums and add or update products
+- baseURL: https://distillery.pixlee.co/api/v2
+  baseurl_source: declared
+  description: Create albums and add or update products
   name: Pixlee Albums API
   slug: pixlee-albums-api
-- description: Upload new content from a URL or a file
+- baseURL: https://distillery.pixlee.co/api/v2
+  baseurl_source: declared
+  description: Upload new content from a URL or a file
   name: Pixlee Media API
   slug: pixlee-media-api
 artifact_total: 11
@@ -234,7 +240,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/screenshots/pixlee-2026-08-17T081245.png
 security:

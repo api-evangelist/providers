@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 4 operations · 1 acting
 api_count: 1
 apis:
-- description: The Assets API from Extensis — 2 operation(s) for assets.
+- baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
+  baseurl_source: declared
+  description: The Assets API from Extensis — 2 operation(s) for assets.
   name: Extensis Assets API
   slug: extensis-assets-api
-- description: The Catalogs API from Extensis — 1 operation(s) for catalogs.
+- baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
+  baseurl_source: declared
+  description: The Catalogs API from Extensis — 1 operation(s) for catalogs.
   name: Extensis Catalogs API
   slug: extensis-catalogs-api
-- description: The Search API from Extensis — 1 operation(s) for search.
+- baseURL: https://doc.extensis.com/api/portfolio/rest/index.html
+  baseurl_source: declared
+  description: The Search API from Extensis — 1 operation(s) for search.
   name: Extensis Search API
   slug: extensis-search-api
 artifact_total: 23
@@ -234,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extensis/refs/heads/main/screenshots/extensis-2026-06-20T180946.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 47 operations · 27 acting
 api_count: 1
 apis:
-- description: The Administration API from Shuffle — 1 operation(s) for administration.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Administration API from Shuffle — 1 operation(s) for administration.
   name: Shuffle Administration API
   slug: shuffle-administration-api
-- description: The Apps API from Shuffle — 8 operation(s) for apps.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Apps API from Shuffle — 8 operation(s) for apps.
   name: Shuffle Apps API
   slug: shuffle-apps-api
-- description: The Datastore API from Shuffle — 4 operation(s) for datastore.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Datastore API from Shuffle — 4 operation(s) for datastore.
   name: Shuffle Datastore API
   slug: shuffle-datastore-api
-- description: The Files API from Shuffle — 5 operation(s) for files.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Files API from Shuffle — 5 operation(s) for files.
   name: Shuffle Files API
   slug: shuffle-files-api
-- description: The Notifications API from Shuffle — 3 operation(s) for notifications.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Notifications API from Shuffle — 3 operation(s) for notifications.
   name: Shuffle Notifications API
   slug: shuffle-notifications-api
-- description: The Organizations API from Shuffle — 3 operation(s) for organizations.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Organizations API from Shuffle — 3 operation(s) for organizations.
   name: Shuffle Organizations API
   slug: shuffle-organizations-api
-- description: The Triggers API from Shuffle — 2 operation(s) for triggers.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Triggers API from Shuffle — 2 operation(s) for triggers.
   name: Shuffle Triggers API
   slug: shuffle-triggers-api
-- description: The Users API from Shuffle — 5 operation(s) for users.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Users API from Shuffle — 5 operation(s) for users.
   name: Shuffle Users API
   slug: shuffle-users-api
-- description: The Workflows API from Shuffle — 9 operation(s) for workflows.
+- baseURL: https://shuffler.io/api/v1
+  baseurl_source: declared
+  description: The Workflows API from Shuffle — 9 operation(s) for workflows.
   name: Shuffle Workflows API
   slug: shuffle-workflows-api
 artifact_total: 35
@@ -231,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/screenshots/shuffle-2026-06-20T193850.png
 security:

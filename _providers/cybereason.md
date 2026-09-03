@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The Cybereason REST API is a gated, region-scoped API hosted at api.<region>.cybereason.net that allows customers and integration partners to query MalOps, retrieve sensor inventory and status, run th
   name: Cybereason REST API
   slug: cybereason-rest-api
-- description: The Authentication API from Cybereason — 2 operation(s) for authentication.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The Authentication API from Cybereason — 2 operation(s) for authentication.
   name: Cybereason Authentication API
   slug: cybereason-authentication-api
-- description: The CustomDetectionRules API from Cybereason — 3 operation(s) for customdetectionrules.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The CustomDetectionRules API from Cybereason — 3 operation(s) for customdetectionrules.
   name: Cybereason CustomDetectionRules API
   slug: cybereason-customdetectionrules-api
-- description: The IsolationRules API from Cybereason — 2 operation(s) for isolationrules.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The IsolationRules API from Cybereason — 2 operation(s) for isolationrules.
   name: Cybereason IsolationRules API
   slug: cybereason-isolationrules-api
-- description: The Malops API from Cybereason — 2 operation(s) for malops.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The Malops API from Cybereason — 2 operation(s) for malops.
   name: Cybereason Malops API
   slug: cybereason-malops-api
-- description: The Remediation API from Cybereason — 3 operation(s) for remediation.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The Remediation API from Cybereason — 3 operation(s) for remediation.
   name: Cybereason Remediation API
   slug: cybereason-remediation-api
-- description: The Reputation API from Cybereason — 1 operation(s) for reputation.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The Reputation API from Cybereason — 1 operation(s) for reputation.
   name: Cybereason Reputation API
   slug: cybereason-reputation-api
-- description: The Sensors API from Cybereason — 6 operation(s) for sensors.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The Sensors API from Cybereason — 6 operation(s) for sensors.
   name: Cybereason Sensors API
   slug: cybereason-sensors-api
-- description: The ThreatIntel API from Cybereason — 3 operation(s) for threatintel.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The ThreatIntel API from Cybereason — 3 operation(s) for threatintel.
   name: Cybereason ThreatIntel API
   slug: cybereason-threatintel-api
-- description: The VisualSearch API from Cybereason — 1 operation(s) for visualsearch.
+- baseURL: https://api.cybereason.net
+  baseurl_source: declared
+  description: The VisualSearch API from Cybereason — 1 operation(s) for visualsearch.
   name: Cybereason VisualSearch API
   slug: cybereason-visualsearch-api
 artifact_total: 48
@@ -252,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/screenshots/cybereason-2026-06-20T175410.png
 security:

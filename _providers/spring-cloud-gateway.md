@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,13 +46,19 @@ apis:
 - description: Core routing and filtering capabilities including predicate factories (Path, Host, Method, Header, Query, Cookie, Weight, RemoteAddr), gateway filter factories (AddRequestHeader, RewritePath, RequestR
   name: Spring Cloud Gateway Core
   slug: spring-cloud-gateway-core
-- description: Manage global and route filter factories
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: declared
+  description: Manage global and route filter factories
   name: Spring Cloud Gateway Filters API
   slug: spring-cloud-gateway-filters-api
-- description: Query available route predicate factories
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: declared
+  description: Query available route predicate factories
   name: Spring Cloud Gateway Predicates API
   slug: spring-cloud-gateway-predicates-api
-- description: Manage gateway route definitions at runtime
+- baseURL: http://localhost:8080/actuator/gateway
+  baseurl_source: declared
+  description: Manage gateway route definitions at runtime
   name: Spring Cloud Gateway Routes API
   slug: spring-cloud-gateway-routes-api
 artifact_total: 22
@@ -234,7 +240,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/screenshots/spring-cloud-gateway-2026-06-20T194410.png
 security:

@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The default API from Salad Transcription API — 2 operation(s) for default.
+- baseURL_template: http://{{api url}}
+  baseurl_source: spec_template
+  description: The default API from Salad Transcription API — 2 operation(s) for default.
   name: Salad Transcription API default API
   slug: salad-transcription-api-default-api
 artifact_total: 15
@@ -196,7 +198,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salad-transcription-api/refs/heads/main/screenshots/salad-transcription-api-2026-06-20T193339.png
 security:

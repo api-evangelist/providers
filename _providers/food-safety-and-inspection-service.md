@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 1 operation
 api_count: 1
 apis:
-- description: FSIS recall and public health alert records.
+- baseURL: https://www.fsis.usda.gov/fsis/api
+  baseurl_source: declared
+  description: FSIS recall and public health alert records.
   name: Food Safety and Inspection Service Recalls API
   slug: food-safety-and-inspection-service-recalls-api
 artifact_total: 10
@@ -154,7 +156,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/food-safety-and-inspection-service/refs/heads/main/screenshots/food-safety-and-inspection-service-2026-06-20T181357.png
 security:

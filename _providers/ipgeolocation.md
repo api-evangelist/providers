@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 13 operations · 4 acting
 api_count: 7
 apis:
-- description: API endpoint for retrieving Autonomous System Number (ASN) information associated with IPv4 addresses, IPv6 addresses, or specific ASN numbers. The response includes ASN metadata such as the ASN numbe
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: API endpoint for retrieving Autonomous System Number (ASN) information associated with IPv4 addresses, IPv6 addresses, or specific ASN numbers. The response includes ASN metadata such as the ASN numbe
   name: IPGeolocation.io ASN Lookup API
   slug: ipgeolocation-asn-lookup-api
-- description: API endpoints for retrieving astronomical information for a given location, including sunrise and sunset times, moonrise and moonset times, twilight phases, golden hour and blue hour windows, solar no
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: API endpoints for retrieving astronomical information for a given location, including sunrise and sunset times, moonrise and moonset times, twilight phases, golden hour and blue hour windows, solar no
   name: IPGeolocation.io Astronomy API
   slug: ipgeolocation-astronomy-api
-- description: 'API endpoint for retrieving abuse contact information associated with IPv4 and IPv6 addresses. The response contains registry-based contact details for reporting malicious or abusive network activity '
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: 'API endpoint for retrieving abuse contact information associated with IPv4 and IPv6 addresses. The response contains registry-based contact details for reporting malicious or abusive network activity '
   name: IPGeolocation.io IP Abuse Contact API
   slug: ipgeolocation-ip-abuse-contact-api
-- description: IP geolocation API endpoints for looking up geographic location, network routing, ASN ownership, company attribution, timezone, currency, security threat intelligence, abuse contact, and User-Agent da
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: IP geolocation API endpoints for looking up geographic location, network routing, ASN ownership, company attribution, timezone, currency, security threat intelligence, abuse contact, and User-Agent da
   name: IPGeolocation.io IP Geolocation API
   slug: ipgeolocation-ip-geolocation-api
-- description: IP security intelligence endpoints used to detect VPNs, proxies, Tor exit nodes, relay networks, bot activity, spam activity, cloud providers, and other anonymization technologies associated with IP a
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: IP security intelligence endpoints used to detect VPNs, proxies, Tor exit nodes, relay networks, bot activity, spam activity, cloud providers, and other anonymization technologies associated with IP a
   name: IPGeolocation.io IP Security API
   slug: ipgeolocation-ip-security-api
-- description: API endpoints for retrieving current date, time, and timezone information for a given input such as an IANA timezone identifier, geographic coordinates, location address, IPv4 or IPv6 address, airport
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: API endpoints for retrieving current date, time, and timezone information for a given input such as an IANA timezone identifier, geographic coordinates, location address, IPv4 or IPv6 address, airport
   name: IPGeolocation.io Timezone API
   slug: ipgeolocation-timezone-api
-- description: API endpoints for parsing user agent strings into browser, device, layout engine, and operating system details. Supports single lookups via request header, custom string lookups via JSON body, and bul
+- baseURL: https://api.ipgeolocation.io
+  baseurl_source: declared
+  description: API endpoints for parsing user agent strings into browser, device, layout engine, and operating system details. Supports single lookups via request header, custom string lookups via JSON body, and bul
   name: IPGeolocation.io User Agent API
   slug: ipgeolocation-user-agent-api
 artifact_total: 177
@@ -750,7 +764,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipgeolocation/refs/heads/main/screenshots/ipgeolocation-2026-06-20T183555.png
 security:

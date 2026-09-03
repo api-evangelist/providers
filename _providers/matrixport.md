@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 39 operations · 10 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Matrixport — 9 operation(s) for account.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The Account API from Matrixport — 9 operation(s) for account.
   name: Matrixport Account API
   slug: matrixport-account-api
-- description: The Batch Orders API from Matrixport — 2 operation(s) for batch orders.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The Batch Orders API from Matrixport — 2 operation(s) for batch orders.
   name: Matrixport Batch Orders API
   slug: matrixport-batch-orders-api
-- description: The Block Trade API from Matrixport — 2 operation(s) for block trade.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The Block Trade API from Matrixport — 2 operation(s) for block trade.
   name: Matrixport Block Trade API
   slug: matrixport-block-trade-api
-- description: The Market API from Matrixport — 11 operation(s) for market.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The Market API from Matrixport — 11 operation(s) for market.
   name: Matrixport Market API
   slug: matrixport-market-api
-- description: The Order API from Matrixport — 8 operation(s) for order.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The Order API from Matrixport — 8 operation(s) for order.
   name: Matrixport Order API
   slug: matrixport-order-api
-- description: The System API from Matrixport — 3 operation(s) for system.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The System API from Matrixport — 3 operation(s) for system.
   name: Matrixport System API
   slug: matrixport-system-api
-- description: The WebSocket API from Matrixport — 1 operation(s) for websocket.
+- baseURL: https://api.bit.com
+  baseurl_source: declared
+  description: The WebSocket API from Matrixport — 1 operation(s) for websocket.
   name: Matrixport WebSocket API
   slug: matrixport-websocket-api
 artifact_total: 20
@@ -207,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -217,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 31.5
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,7 +249,7 @@ score:
     regime_id: securities_market_data
     score: 28.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/screenshots/matrixport-2026-07-25T230424.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: The Cerebras Inference API exposes ultra-low-latency inference for open-weight large language models including Llama 3.1, Llama 4, Qwen, and other frontier open models. The API is OpenAI-compatible at
   name: Cerebras Inference API
   slug: cerebras-inference-api
-- description: OpenAI-compatible chat completions.
+- baseURL: https://api.cerebras.ai/v1
+  baseurl_source: declared
+  description: OpenAI-compatible chat completions.
   name: Cerebras Chat API
   slug: cerebras-chat-api
-- description: Text completions.
+- baseURL: https://api.cerebras.ai/v1
+  baseurl_source: declared
+  description: Text completions.
   name: Cerebras Completions API
   slug: cerebras-completions-api
-- description: Discover available models.
+- baseURL: https://api.cerebras.ai/v1
+  baseurl_source: declared
+  description: Discover available models.
   name: Cerebras Models API
   slug: cerebras-models-api
 artifact_total: 16
@@ -190,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras/refs/heads/main/screenshots/cerebras-2026-06-20T174140.png
 security:

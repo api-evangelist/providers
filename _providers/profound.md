@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -48,49 +48,79 @@ apis:
 - description: The inbound log-ingestion endpoint for Profound Agent Analytics. Customers POST batches of up to 1,000 web-request log entries as JSON (timestamp, method, host, path, status_code, ip, user_agent, plus
   name: Profound Agent Analytics Ingestion API
   slug: profound-agent-analytics-ingestion-api
-- description: The Agents API from Profound — 8 operation(s) for agents.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Agents API from Profound — 8 operation(s) for agents.
   name: Profound Agents API
   slug: profound-agents-api
-- description: The beta API from Profound — 2 operation(s) for beta.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The beta API from Profound — 2 operation(s) for beta.
   name: Profound Beta API
   slug: profound-beta-api
-- description: The Bot Traffic Reports API from Profound — 2 operation(s) for bot traffic reports.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Bot Traffic Reports API from Profound — 2 operation(s) for bot traffic reports.
   name: Profound Bot Traffic Reports API
   slug: profound-bot-traffic-reports-api
-- description: The Categories API from Profound — 10 operation(s) for categories.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Categories API from Profound — 10 operation(s) for categories.
   name: Profound Categories API
   slug: profound-categories-api
-- description: The Content API from Profound — 2 operation(s) for content.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Content API from Profound — 2 operation(s) for content.
   name: Profound Content API
   slug: profound-content-api
-- description: The Content optimization API from Profound — 2 operation(s) for content optimization.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Content optimization API from Profound — 2 operation(s) for content optimization.
   name: Profound Content optimization API
   slug: profound-content-optimization-api
-- description: The Documents API from Profound — 3 operation(s) for documents.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Documents API from Profound — 3 operation(s) for documents.
   name: Profound Documents API
   slug: profound-documents-api
-- description: The Human Referrals API from Profound — 2 operation(s) for human referrals.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Human Referrals API from Profound — 2 operation(s) for human referrals.
   name: Profound Human Referrals API
   slug: profound-human-referrals-api
-- description: The Integrations API from Profound — 1 operation(s) for integrations.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Integrations API from Profound — 1 operation(s) for integrations.
   name: Profound Integrations API
   slug: profound-integrations-api
-- description: The Knowledge bases API from Profound — 4 operation(s) for knowledge bases.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Knowledge bases API from Profound — 4 operation(s) for knowledge bases.
   name: Profound Knowledge bases API
   slug: profound-knowledge-bases-api
-- description: The OpenAI Ads API from Profound — 1 operation(s) for openai ads.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The OpenAI Ads API from Profound — 1 operation(s) for openai ads.
   name: Profound OpenAI Ads API
   slug: profound-openai-ads-api
-- description: The Organization API from Profound — 16 operation(s) for organization.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Organization API from Profound — 16 operation(s) for organization.
   name: Profound Organization API
   slug: profound-organization-api
-- description: The Projects API from Profound — 10 operation(s) for projects.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Projects API from Profound — 10 operation(s) for projects.
   name: Profound Projects API
   slug: profound-projects-api
-- description: The Prompts API from Profound — 3 operation(s) for prompts.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Prompts API from Profound — 3 operation(s) for prompts.
   name: Profound Prompts API
   slug: profound-prompts-api
-- description: The Reports API from Profound — 62 operation(s) for reports.
+- baseURL: https://api.tryprofound.com
+  baseurl_source: declared
+  description: The Reports API from Profound — 62 operation(s) for reports.
   name: Profound Reports API
   slug: profound-reports-api
 artifact_total: 25
@@ -305,7 +335,7 @@ score:
     catalog_gap: 58.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.8
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
@@ -315,7 +345,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 59.7
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,7 +357,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/profound/refs/heads/main/screenshots/profound-2026-08-17T080414.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 26 operations · 11 acting
 api_count: 1
 apis:
-- description: RFID cards and vehicle MAC IDs used to authorize charging.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: RFID cards and vehicle MAC IDs used to authorize charging.
   name: Flipturn Access IDs API
   slug: flipturn-access-ids-api
-- description: Alerts raised by the platform.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Alerts raised by the platform.
   name: Flipturn Alerts API
   slug: flipturn-alerts-api
-- description: Uptime, error, and utilization statistics.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Uptime, error, and utilization statistics.
   name: Flipturn Charger Health API
   slug: flipturn-charger-health-api
-- description: Individual charger detail lookups.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Individual charger detail lookups.
   name: Flipturn Chargers API
   slug: flipturn-chargers-api
-- description: Historical and in-progress charging sessions.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Historical and in-progress charging sessions.
   name: Flipturn Charging Sessions API
   slug: flipturn-charging-sessions-api
-- description: Scheduled vehicle departure times synced from a TMS.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Scheduled vehicle departure times synced from a TMS.
   name: Flipturn Departure Times API
   slug: flipturn-departure-times-api
-- description: Charger error records.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Charger error records.
   name: Flipturn Errors API
   slug: flipturn-errors-api
-- description: Scheduled maintenance windows for chargers.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Scheduled maintenance windows for chargers.
   name: Flipturn Maintenance Windows API
   slug: flipturn-maintenance-windows-api
-- description: Raw OCPP protocol messages for a charger.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Raw OCPP protocol messages for a charger.
   name: Flipturn OCPP Messages API
   slug: flipturn-ocpp-messages-api
-- description: OCPP ReserveNow / CancelReservation port reservations.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: OCPP ReserveNow / CancelReservation port reservations.
   name: Flipturn Reservations API
   slug: flipturn-reservations-api
-- description: Cost and capacity power limits for a site.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Cost and capacity power limits for a site.
   name: Flipturn Site Power Limits API
   slug: flipturn-site-power-limits-api
-- description: Sites, their chargers and ports, and current status.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Sites, their chargers and ports, and current status.
   name: Flipturn Sites API
   slug: flipturn-sites-api
-- description: Electric vehicles and their associated access IDs.
+- baseURL: https://api.getflipturn.com/api
+  baseurl_source: declared
+  description: Electric vehicles and their associated access IDs.
   name: Flipturn Vehicles API
   slug: flipturn-vehicles-api
 artifact_total: 33
@@ -292,7 +318,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:

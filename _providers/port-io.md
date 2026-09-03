@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -86,10 +86,14 @@ apis:
 - description: Open-source framework used to build Port integrations that ingest data from third-party systems into the catalog. Maintained at github.com/port-labs/ocean.
   name: Port Ocean Integration Framework
   slug: ocean
-- description: Manage blueprint definitions in the software catalog.
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: Manage blueprint definitions in the software catalog.
   name: Port Blueprints API
   slug: port-io-blueprints-api
-- description: Manage catalog entities created from blueprints.
+- baseURL: https://api.port.io
+  baseurl_source: declared
+  description: Manage catalog entities created from blueprints.
   name: Port Entities API
   slug: port-io-entities-api
 artifact_total: 28
@@ -234,7 +238,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port-io/refs/heads/main/screenshots/port-io-2026-06-20T191928.png
 security:

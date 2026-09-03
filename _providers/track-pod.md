@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 73 operations · 44 acting
 api_count: 1
 apis:
-- description: The Address API from Track-POD — 1 operation(s) for address.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Address API from Track-POD — 1 operation(s) for address.
   name: Track-POD Address API
   slug: track-pod-address-api
-- description: The Driver API from Track-POD — 3 operation(s) for driver.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Driver API from Track-POD — 3 operation(s) for driver.
   name: Track-POD Driver API
   slug: track-pod-driver-api
-- description: The Order API from Track-POD — 23 operation(s) for order.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Order API from Track-POD — 23 operation(s) for order.
   name: Track-POD Order API
   slug: track-pod-order-api
-- description: The RejectReason API from Track-POD — 1 operation(s) for rejectreason.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The RejectReason API from Track-POD — 1 operation(s) for rejectreason.
   name: Track-POD RejectReason API
   slug: track-pod-rejectreason-api
-- description: The Route API from Track-POD — 24 operation(s) for route.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Route API from Track-POD — 24 operation(s) for route.
   name: Track-POD Route API
   slug: track-pod-route-api
-- description: The Test API from Track-POD — 1 operation(s) for test.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Test API from Track-POD — 1 operation(s) for test.
   name: Track-POD Test API
   slug: track-pod-test-api
-- description: The Vehicle API from Track-POD — 2 operation(s) for vehicle.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The Vehicle API from Track-POD — 2 operation(s) for vehicle.
   name: Track-POD Vehicle API
   slug: track-pod-vehicle-api
-- description: The VehicleCheck API from Track-POD — 3 operation(s) for vehiclecheck.
+- baseURL: https://api.track-pod.com
+  baseurl_source: declared
+  description: The VehicleCheck API from Track-POD — 3 operation(s) for vehiclecheck.
   name: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
 artifact_total: 60
@@ -342,7 +358,7 @@ score:
     catalog_gap: 26.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -352,7 +368,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 56.9
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -361,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/screenshots/track-pod-2026-06-20T195516.png
 security:

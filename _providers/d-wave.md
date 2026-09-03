@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 5 acting
 api_count: 4
 apis:
-- description: The Account API from D-Wave — 3 operation(s) for account.
+- baseURL: https://cloud.dwavesys.com/sapi/v2
+  baseurl_source: declared
+  description: The Account API from D-Wave — 3 operation(s) for account.
   name: D-Wave Account API
   slug: d-wave-account-api
-- description: The Hybrid API from D-Wave — 1 operation(s) for hybrid.
+- baseURL: https://cloud.dwavesys.com/sapi/v2
+  baseurl_source: declared
+  description: The Hybrid API from D-Wave — 1 operation(s) for hybrid.
   name: D-Wave Hybrid API
   slug: d-wave-hybrid-api
-- description: The QPU API from D-Wave — 1 operation(s) for qpu.
+- baseURL: https://cloud.dwavesys.com/sapi/v2
+  baseurl_source: declared
+  description: The QPU API from D-Wave — 1 operation(s) for qpu.
   name: D-Wave QPU API
   slug: d-wave-qpu-api
-- description: The Regions API from D-Wave — 2 operation(s) for regions.
+- baseURL: https://cloud.dwavesys.com/sapi/v2
+  baseurl_source: declared
+  description: The Regions API from D-Wave — 2 operation(s) for regions.
   name: D-Wave Regions API
   slug: d-wave-regions-api
 artifact_total: 76
@@ -553,7 +561,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:

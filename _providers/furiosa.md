@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,22 +36,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The HTTP server started by `furiosa-llm serve <ARTIFACT_PATH>`. It hosts a single model on RNGD NPUs and exposes an OpenAI-compatible surface - /v1/completions, /v1/chat/completions, /v1/responses (Op
   name: Furiosa-LLM OpenAI-Compatible Server
   slug: furiosa-llm-openai-server
-- description: The Health API from FuriosaAI — 2 operation(s) for health.
+- baseURL: http://{furiosa_llm_host}:8000/v1
+  baseurl_source: declared
+  description: The Health API from FuriosaAI — 2 operation(s) for health.
   name: FuriosaAI Health API
   slug: furiosa-health-api
-- description: The Models API from FuriosaAI — 3 operation(s) for models.
+- baseURL: http://{furiosa_llm_host}:8000/v1
+  baseurl_source: declared
+  description: The Models API from FuriosaAI — 3 operation(s) for models.
   name: FuriosaAI Models API
   slug: furiosa-models-api
-- description: The Predict API API from FuriosaAI — 1 operation(s) for predict api.
+- baseURL: http://{furiosa_llm_host}:8000/v1
+  baseurl_source: declared
+  description: The Predict API API from FuriosaAI — 1 operation(s) for predict api.
   name: FuriosaAI Predict API
   slug: furiosa-predict-api-api
-- description: The Repository API from FuriosaAI — 3 operation(s) for repository.
+- baseURL: http://{furiosa_llm_host}:8000/v1
+  baseurl_source: declared
+  description: The Repository API from FuriosaAI — 3 operation(s) for repository.
   name: FuriosaAI Repository API
   slug: furiosa-repository-api
 artifact_total: 9
@@ -229,7 +250,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/screenshots/furiosa-2026-08-17T080944.png
 security:

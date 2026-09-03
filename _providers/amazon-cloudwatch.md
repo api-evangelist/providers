@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 10 operations
 api_count: 1
 apis:
-- description: Operations for creating, describing, and deleting metric alarms
+- baseURL: https://monitoring.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, and deleting metric alarms
   name: Amazon CloudWatch Alarms API
   slug: amazon-cloudwatch-alarms-api
-- description: Operations for creating, retrieving, and listing CloudWatch dashboards
+- baseURL: https://monitoring.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, and listing CloudWatch dashboards
   name: Amazon CloudWatch Dashboards API
   slug: amazon-cloudwatch-dashboards-api
-- description: Operations for publishing, retrieving, and listing CloudWatch metrics
+- baseURL: https://monitoring.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for publishing, retrieving, and listing CloudWatch metrics
   name: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
 artifact_total: 65
@@ -392,7 +398,7 @@ score:
       total: 3
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:

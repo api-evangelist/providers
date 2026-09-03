@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: PriceSmart is a membership warehouse club operating in Latin Americ
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pricesmart.png
 layout: provider
 modified: '2026-04-28'
-name: pricesmart
+name: Pricesmart
 nav: Providers
 network: true
-overview: pricesmart is profiled on the [APIs.io](https://apis.io/) network.
+overview: Pricesmart is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: PriceSmart, Inc. to Streamline Pricing and Promotion ...
@@ -98,10 +98,10 @@ score:
   previous_composite: 2.9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricesmart/refs/heads/main/screenshots/pricesmart-2026-06-20T192101.png
 security:

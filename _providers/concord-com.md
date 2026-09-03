@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: Concord sends outbound HTTP POST webhooks to a URL you configure in the Automations > Integrations UI, firing on agreement lifecycle events - document fully approved, document fully signed, document e
   name: Concord Webhooks (Outbound Events)
   slug: concord-com-webhooks-api
-- description: Agreements (contracts), their attachments, and members.
+- baseURL: https://api.concordnow.com/api/rest/1
+  baseurl_source: declared
+  description: Agreements (contracts), their attachments, and members.
   name: Concord Agreements API
   slug: concord-com-agreements-api
-- description: Organization-level resources - reports, groups, and tags.
+- baseURL: https://api.concordnow.com/api/rest/1
+  baseurl_source: declared
+  description: Organization-level resources - reports, groups, and tags.
   name: Concord Organizations API
   slug: concord-com-organizations-api
-- description: Document generation from automated templates (modeled/unconfirmed).
+- baseURL: https://api.concordnow.com/api/rest/1
+  baseurl_source: declared
+  description: Document generation from automated templates (modeled/unconfirmed).
   name: Concord Templates API
   slug: concord-com-templates-api
-- description: The authenticated user and their organization memberships.
+- baseURL: https://api.concordnow.com/api/rest/1
+  baseurl_source: declared
+  description: The authenticated user and their organization memberships.
   name: Concord Users API
   slug: concord-com-users-api
 artifact_total: 17
@@ -168,7 +176,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/concord-com/refs/heads/main/screenshots/concord-com-2026-07-25T210223.png
 security:

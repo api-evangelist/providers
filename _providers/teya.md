@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,52 +43,84 @@ agentic_access:
   summary_line: 42 operations · 29 acting
 api_count: 4
 apis:
-- description: Operations related to capturing pre-authorised transactions.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: Operations related to capturing pre-authorised transactions.
   name: Teya Captures API
   slug: teya-captures-api
-- description: Operations related to dynamic currency conversion
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: Operations related to dynamic currency conversion
   name: Teya DCC API
   slug: teya-dcc-api
-- description: The ePOS Registration API from Teya — 1 operation(s) for epos registration.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The ePOS Registration API from Teya — 1 operation(s) for epos registration.
   name: Teya ePOS Registration API
   slug: teya-epos-registration-api
-- description: APIs exposed for session management
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: APIs exposed for session management
   name: Teya Hosted Checkout API
   slug: teya-hosted-checkout-api
-- description: The '@internal' API from Teya — 2 operation(s) for '@internal'.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The '@internal' API from Teya — 2 operation(s) for '@internal'.
   name: Teya '@internal' API
   slug: teya-internal-api
-- description: The Pay at Table API from Teya — 9 operation(s) for pay at table.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Pay at Table API from Teya — 9 operation(s) for pay at table.
   name: Teya Pay at Table API
   slug: teya-pay-at-table-api
-- description: APIs exposed for pay by link customers
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: APIs exposed for pay by link customers
   name: Teya PayByLink API
   slug: teya-paybylink-api
-- description: The Payment Requests API from Teya — 4 operation(s) for payment requests.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Payment Requests API from Teya — 4 operation(s) for payment requests.
   name: Teya Payment Requests API
   slug: teya-payment-requests-api
-- description: Create a receipt print job and fetch its status/events
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: Create a receipt print job and fetch its status/events
   name: Teya Print Receipts (ePOS) API
   slug: teya-print-receipts-epos-api
-- description: The '@public' API from Teya — 4 operation(s) for '@public'.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The '@public' API from Teya — 4 operation(s) for '@public'.
   name: Teya '@public' API
   slug: teya-public-api
-- description: The Refunds API from Teya — 2 operation(s) for refunds.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Refunds API from Teya — 2 operation(s) for refunds.
   name: Teya Refunds API
   slug: teya-refunds-api
-- description: The Reversals API from Teya — 1 operation(s) for reversals.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Reversals API from Teya — 1 operation(s) for reversals.
   name: Teya Reversals API
   slug: teya-reversals-api
-- description: The Stores API from Teya — 3 operation(s) for stores.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Stores API from Teya — 3 operation(s) for stores.
   name: Teya Stores API
   slug: teya-stores-api
-- description: The Terminals API from Teya — 1 operation(s) for terminals.
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: The Terminals API from Teya — 1 operation(s) for terminals.
   name: Teya Terminals API
   slug: teya-terminals-api
-- description: Token management for saved payment methods
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: Token management for saved payment methods
   name: Teya Tokens API
   slug: teya-tokens-api
-- description: Transactions
+- baseURL: https://api.teya.com
+  baseurl_source: declared
+  description: Transactions
   name: Teya Transactions API
   slug: teya-transactions-api
 artifact_total: 38
@@ -327,7 +359,7 @@ score:
     regime_id: payments
     score: 67.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teya/refs/heads/main/screenshots/teya-2026-08-17T082330.png
 security:

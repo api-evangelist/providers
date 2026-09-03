@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 9 operations · 5 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: Portfolio management operations
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: Portfolio management operations
   name: Amazon Service Catalog Portfolios API
   slug: amazon-service-catalog-portfolios-api
-- description: Product management operations
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: Product management operations
   name: Amazon Service Catalog Products API
   slug: amazon-service-catalog-products-api
-- description: Provisioned product management
+- baseURL: https://servicecatalog.amazonaws.com
+  baseurl_source: declared
+  description: Provisioned product management
   name: Amazon Service Catalog Provisioned Products API
   slug: amazon-service-catalog-provisioned-products-api
 artifact_total: 31
@@ -312,7 +318,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-service-catalog/refs/heads/main/screenshots/amazon-service-catalog-2026-06-20T171823.png
 security:

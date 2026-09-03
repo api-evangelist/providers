@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The REST and SOAP surface the Sepasoft Web Services module exposes. Endpoints are authored by the operator in the Ignition Designer and served from the customer's own Ignition Gateway, mounted beneath
@@ -175,11 +175,11 @@ score:
   band: developing
   composite: 44.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 39.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 6.8
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
@@ -189,12 +189,13 @@ score:
     discoverability: 75.9
     governance: 15.2
     operational_transparency: 36.8
-  previous_composite: 38.0
+  previous_composite: 44.8
   provenance:
     conformance: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/screenshots/sepasoft-2026-09-02T154933.png
 security:
 - kind: authentication
   name: Sepasoft Authentication

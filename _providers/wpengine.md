@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 60 operations · 29 acting
 api_count: 1
 apis:
-- description: The Account API from WP Engine — 3 operation(s) for account.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Account API from WP Engine — 3 operation(s) for account.
   name: WP Engine Account API
   slug: wpengine-account-api
-- description: The Account User API from WP Engine — 2 operation(s) for account user.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Account User API from WP Engine — 2 operation(s) for account user.
   name: WP Engine Account User API
   slug: wpengine-account-user-api
-- description: The Archive API from WP Engine — 1 operation(s) for archive.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Archive API from WP Engine — 1 operation(s) for archive.
   name: WP Engine Archive API
   slug: wpengine-archive-api
-- description: The Backup API from WP Engine — 3 operation(s) for backup.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Backup API from WP Engine — 3 operation(s) for backup.
   name: WP Engine Backup API
   slug: wpengine-backup-api
-- description: The Cache API from WP Engine — 1 operation(s) for cache.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Cache API from WP Engine — 1 operation(s) for cache.
   name: WP Engine Cache API
   slug: wpengine-cache-api
-- description: The Certificates API from WP Engine — 3 operation(s) for certificates.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Certificates API from WP Engine — 3 operation(s) for certificates.
   name: WP Engine Certificates API
   slug: wpengine-certificates-api
-- description: The Domain API from WP Engine — 6 operation(s) for domain.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Domain API from WP Engine — 6 operation(s) for domain.
   name: WP Engine Domain API
   slug: wpengine-domain-api
-- description: The Install API from WP Engine — 3 operation(s) for install.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Install API from WP Engine — 3 operation(s) for install.
   name: WP Engine Install API
   slug: wpengine-install-api
-- description: The Offload Settings API from WP Engine — 2 operation(s) for offload settings.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Offload Settings API from WP Engine — 2 operation(s) for offload settings.
   name: WP Engine Offload Settings API
   slug: wpengine-offload-settings-api
-- description: The Site API from WP Engine — 2 operation(s) for site.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Site API from WP Engine — 2 operation(s) for site.
   name: WP Engine Site API
   slug: wpengine-site-api
-- description: The Site Reports API from WP Engine — 1 operation(s) for site reports.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Site Reports API from WP Engine — 1 operation(s) for site reports.
   name: WP Engine Site Reports API
   slug: wpengine-site-reports-api
-- description: The Site Transfer API from WP Engine — 3 operation(s) for site transfer.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Site Transfer API from WP Engine — 3 operation(s) for site transfer.
   name: WP Engine Site Transfer API
   slug: wpengine-site-transfer-api
-- description: The SSH Key API from WP Engine — 2 operation(s) for ssh key.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The SSH Key API from WP Engine — 2 operation(s) for ssh key.
   name: WP Engine SSH Key API
   slug: wpengine-ssh-key-api
-- description: The Status API from WP Engine — 1 operation(s) for status.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Status API from WP Engine — 1 operation(s) for status.
   name: WP Engine Status API
   slug: wpengine-status-api
-- description: The Swagger API from WP Engine — 1 operation(s) for swagger.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Swagger API from WP Engine — 1 operation(s) for swagger.
   name: WP Engine Swagger API
   slug: wpengine-swagger-api
-- description: The Usage API from WP Engine — 6 operation(s) for usage.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The Usage API from WP Engine — 6 operation(s) for usage.
   name: WP Engine Usage API
   slug: wpengine-usage-api
-- description: The User API from WP Engine — 1 operation(s) for user.
+- baseURL: https://api.wpengineapi.com/v1
+  baseurl_source: declared
+  description: The User API from WP Engine — 1 operation(s) for user.
   name: WP Engine User API
   slug: wpengine-user-api
 artifact_total: 155
@@ -616,7 +650,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:

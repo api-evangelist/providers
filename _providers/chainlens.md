@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -43,118 +43,194 @@ agentic_access:
   summary_line: 81 operations · 8 acting · 8 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account-Controller API from Chainlens — 2 operation(s) for account-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Account-Controller API from Chainlens — 2 operation(s) for account-controller.
   name: Chainlens Account-Controller API
   slug: chainlens-account-controller-api
-- description: The Account-Mapping-Controller API from Chainlens — 2 operation(s) for account-mapping-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Account-Mapping-Controller API from Chainlens — 2 operation(s) for account-mapping-controller.
   name: Chainlens Account-Mapping-Controller API
   slug: chainlens-account-mapping-controller-api
-- description: The Account-Tokens-Controller API from Chainlens — 3 operation(s) for account-tokens-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Account-Tokens-Controller API from Chainlens — 3 operation(s) for account-tokens-controller.
   name: Chainlens Account-Tokens-Controller API
   slug: chainlens-account-tokens-controller-api
-- description: The Account-Transactions-Controller API from Chainlens — 1 operation(s) for account-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Account-Transactions-Controller API from Chainlens — 1 operation(s) for account-transactions-controller.
   name: Chainlens Account-Transactions-Controller API
   slug: chainlens-account-transactions-controller-api
-- description: The Block-Controller API from Chainlens — 2 operation(s) for block-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Block-Controller API from Chainlens — 2 operation(s) for block-controller.
   name: Chainlens Block-Controller API
   slug: chainlens-block-controller-api
-- description: The Block-Transactions-Controller API from Chainlens — 1 operation(s) for block-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Block-Transactions-Controller API from Chainlens — 1 operation(s) for block-transactions-controller.
   name: Chainlens Block-Transactions-Controller API
   slug: chainlens-block-transactions-controller-api
-- description: The Configuration-Controller API from Chainlens — 1 operation(s) for configuration-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Configuration-Controller API from Chainlens — 1 operation(s) for configuration-controller.
   name: Chainlens Configuration-Controller API
   slug: chainlens-configuration-controller-api
-- description: The Contract-Bytecode-Controller API from Chainlens — 1 operation(s) for contract-bytecode-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Contract-Bytecode-Controller API from Chainlens — 1 operation(s) for contract-bytecode-controller.
   name: Chainlens Contract-Bytecode-Controller API
   slug: chainlens-contract-bytecode-controller-api
-- description: The Contract-Controller API from Chainlens — 2 operation(s) for contract-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Contract-Controller API from Chainlens — 2 operation(s) for contract-controller.
   name: Chainlens Contract-Controller API
   slug: chainlens-contract-controller-api
-- description: The Contract-Events-Controller API from Chainlens — 1 operation(s) for contract-events-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Contract-Events-Controller API from Chainlens — 1 operation(s) for contract-events-controller.
   name: Chainlens Contract-Events-Controller API
   slug: chainlens-contract-events-controller-api
-- description: The Contract-Internal-Transactions-Controller API from Chainlens — 1 operation(s) for contract-internal-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Contract-Internal-Transactions-Controller API from Chainlens — 1 operation(s) for contract-internal-transactions-controller.
   name: Chainlens Contract-Internal-Transactions-Controller API
   slug: chainlens-contract-internal-transactions-controller-api
-- description: The Contract-Transactions-Controller API from Chainlens — 1 operation(s) for contract-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Contract-Transactions-Controller API from Chainlens — 1 operation(s) for contract-transactions-controller.
   name: Chainlens Contract-Transactions-Controller API
   slug: chainlens-contract-transactions-controller-api
-- description: The Dashboard-Tokens-Totals-Controller API from Chainlens — 1 operation(s) for dashboard-tokens-totals-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Dashboard-Tokens-Totals-Controller API from Chainlens — 1 operation(s) for dashboard-tokens-totals-controller.
   name: Chainlens Dashboard-Tokens-Totals-Controller API
   slug: chainlens-dashboard-tokens-totals-controller-api
-- description: The Dashboard-Totals-Controller API from Chainlens — 1 operation(s) for dashboard-totals-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Dashboard-Totals-Controller API from Chainlens — 1 operation(s) for dashboard-totals-controller.
   name: Chainlens Dashboard-Totals-Controller API
   slug: chainlens-dashboard-totals-controller-api
-- description: The Dashboard-Transactions-Totals-Controller API from Chainlens — 2 operation(s) for dashboard-transactions-totals-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Dashboard-Transactions-Totals-Controller API from Chainlens — 2 operation(s) for dashboard-transactions-totals-controller.
   name: Chainlens Dashboard-Transactions-Totals-Controller API
   slug: chainlens-dashboard-transactions-totals-controller-api
-- description: The Download-Abi-Controller API from Chainlens — 1 operation(s) for download-abi-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Download-Abi-Controller API from Chainlens — 1 operation(s) for download-abi-controller.
   name: Chainlens Download-Abi-Controller API
   slug: chainlens-download-abi-controller-api
-- description: The Eip-3091-Controller API from Chainlens — 6 operation(s) for eip-3091-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Eip-3091-Controller API from Chainlens — 6 operation(s) for eip-3091-controller.
   name: Chainlens Eip-3091-Controller API
   slug: chainlens-eip-3091-controller-api
-- description: The Erc-1155-Transfers-Controller API from Chainlens — 2 operation(s) for erc-1155-transfers-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Erc-1155-Transfers-Controller API from Chainlens — 2 operation(s) for erc-1155-transfers-controller.
   name: Chainlens Erc-1155-Transfers-Controller API
   slug: chainlens-erc-1155-transfers-controller-api
-- description: The Erc-20-Transfers-Controller API from Chainlens — 1 operation(s) for erc-20-transfers-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Erc-20-Transfers-Controller API from Chainlens — 1 operation(s) for erc-20-transfers-controller.
   name: Chainlens Erc-20-Transfers-Controller API
   slug: chainlens-erc-20-transfers-controller-api
-- description: The Erc-223-Transfers-Controller API from Chainlens — 1 operation(s) for erc-223-transfers-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Erc-223-Transfers-Controller API from Chainlens — 1 operation(s) for erc-223-transfers-controller.
   name: Chainlens Erc-223-Transfers-Controller API
   slug: chainlens-erc-223-transfers-controller-api
-- description: The Erc-721-Transfers-Controller API from Chainlens — 2 operation(s) for erc-721-transfers-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Erc-721-Transfers-Controller API from Chainlens — 2 operation(s) for erc-721-transfers-controller.
   name: Chainlens Erc-721-Transfers-Controller API
   slug: chainlens-erc-721-transfers-controller-api
-- description: The Erc-777-Transfers-Controller API from Chainlens — 1 operation(s) for erc-777-transfers-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Erc-777-Transfers-Controller API from Chainlens — 1 operation(s) for erc-777-transfers-controller.
   name: Chainlens Erc-777-Transfers-Controller API
   slug: chainlens-erc-777-transfers-controller-api
-- description: The Events-Controller API from Chainlens — 1 operation(s) for events-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Events-Controller API from Chainlens — 1 operation(s) for events-controller.
   name: Chainlens Events-Controller API
   slug: chainlens-events-controller-api
-- description: The Gas-Oracle-Controller API from Chainlens — 1 operation(s) for gas-oracle-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Gas-Oracle-Controller API from Chainlens — 1 operation(s) for gas-oracle-controller.
   name: Chainlens Gas-Oracle-Controller API
   slug: chainlens-gas-oracle-controller-api
-- description: The Internal-Transactions-Controller API from Chainlens — 2 operation(s) for internal-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Internal-Transactions-Controller API from Chainlens — 2 operation(s) for internal-transactions-controller.
   name: Chainlens Internal-Transactions-Controller API
   slug: chainlens-internal-transactions-controller-api
-- description: The Media-Type-Controller API from Chainlens — 1 operation(s) for media-type-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Media-Type-Controller API from Chainlens — 1 operation(s) for media-type-controller.
   name: Chainlens Media-Type-Controller API
   slug: chainlens-media-type-controller-api
-- description: The Metadata-Controller API from Chainlens — 2 operation(s) for metadata-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Metadata-Controller API from Chainlens — 2 operation(s) for metadata-controller.
   name: Chainlens Metadata-Controller API
   slug: chainlens-metadata-controller-api
-- description: The Nft-Controller API from Chainlens — 8 operation(s) for nft-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Nft-Controller API from Chainlens — 8 operation(s) for nft-controller.
   name: Chainlens Nft-Controller API
   slug: chainlens-nft-controller-api
-- description: The Node-Controller API from Chainlens — 1 operation(s) for node-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Node-Controller API from Chainlens — 1 operation(s) for node-controller.
   name: Chainlens Node-Controller API
   slug: chainlens-node-controller-api
-- description: The Projects-Controller API from Chainlens — 1 operation(s) for projects-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Projects-Controller API from Chainlens — 1 operation(s) for projects-controller.
   name: Chainlens Projects-Controller API
   slug: chainlens-projects-controller-api
-- description: The Rwa-Controller API from Chainlens — 5 operation(s) for rwa-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Rwa-Controller API from Chainlens — 5 operation(s) for rwa-controller.
   name: Chainlens Rwa-Controller API
   slug: chainlens-rwa-controller-api
-- description: The Search-Controller API from Chainlens — 2 operation(s) for search-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Search-Controller API from Chainlens — 2 operation(s) for search-controller.
   name: Chainlens Search-Controller API
   slug: chainlens-search-controller-api
-- description: The Token-Controller API from Chainlens — 3 operation(s) for token-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Token-Controller API from Chainlens — 3 operation(s) for token-controller.
   name: Chainlens Token-Controller API
   slug: chainlens-token-controller-api
-- description: The Token-Events-Controller API from Chainlens — 1 operation(s) for token-events-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Token-Events-Controller API from Chainlens — 1 operation(s) for token-events-controller.
   name: Chainlens Token-Events-Controller API
   slug: chainlens-token-events-controller-api
-- description: The Token-Holders-Controller API from Chainlens — 1 operation(s) for token-holders-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Token-Holders-Controller API from Chainlens — 1 operation(s) for token-holders-controller.
   name: Chainlens Token-Holders-Controller API
   slug: chainlens-token-holders-controller-api
-- description: The Token-Transactions-Controller API from Chainlens — 1 operation(s) for token-transactions-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Token-Transactions-Controller API from Chainlens — 1 operation(s) for token-transactions-controller.
   name: Chainlens Token-Transactions-Controller API
   slug: chainlens-token-transactions-controller-api
-- description: The Transaction-Controller API from Chainlens — 2 operation(s) for transaction-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Transaction-Controller API from Chainlens — 2 operation(s) for transaction-controller.
   name: Chainlens Transaction-Controller API
   slug: chainlens-transaction-controller-api
-- description: The Transaction-Events-Controller API from Chainlens — 1 operation(s) for transaction-events-controller.
+- baseURL: https://api.chainlens.com
+  baseurl_source: declared
+  description: The Transaction-Events-Controller API from Chainlens — 1 operation(s) for transaction-events-controller.
   name: Chainlens Transaction-Events-Controller API
   slug: chainlens-transaction-events-controller-api
 artifact_total: 112
@@ -421,7 +497,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainlens/refs/heads/main/screenshots/chainlens-2026-06-20T174159.png
 security:

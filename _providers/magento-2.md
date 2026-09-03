@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,22 +49,34 @@ apis:
 - description: GraphQL API for headless storefront use cases in Magento 2 / Adobe Commerce, providing single-request access to catalog, cart, checkout, and customer data. Mutations require customer token authenticat
   name: Adobe Commerce GraphQL API
   slug: graphql-api
-- description: The Auth API from Magento 2 (Adobe Commerce) — 2 operation(s) for auth.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Auth API from Magento 2 (Adobe Commerce) — 2 operation(s) for auth.
   name: Magento 2 (Adobe Commerce) Auth API
   slug: magento-2-auth-api
-- description: The Carts API from Magento 2 (Adobe Commerce) — 2 operation(s) for carts.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Carts API from Magento 2 (Adobe Commerce) — 2 operation(s) for carts.
   name: Magento 2 (Adobe Commerce) Carts API
   slug: magento-2-carts-api
-- description: The Categories API from Magento 2 (Adobe Commerce) — 2 operation(s) for categories.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Categories API from Magento 2 (Adobe Commerce) — 2 operation(s) for categories.
   name: Magento 2 (Adobe Commerce) Categories API
   slug: magento-2-categories-api
-- description: The Customers API from Magento 2 (Adobe Commerce) — 3 operation(s) for customers.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Customers API from Magento 2 (Adobe Commerce) — 3 operation(s) for customers.
   name: Magento 2 (Adobe Commerce) Customers API
   slug: magento-2-customers-api
-- description: The Orders API from Magento 2 (Adobe Commerce) — 2 operation(s) for orders.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Orders API from Magento 2 (Adobe Commerce) — 2 operation(s) for orders.
   name: Magento 2 (Adobe Commerce) Orders API
   slug: magento-2-orders-api
-- description: The Products API from Magento 2 (Adobe Commerce) — 2 operation(s) for products.
+- baseURL: https://{host}/rest/{storeCode}/V1
+  baseurl_source: declared
+  description: The Products API from Magento 2 (Adobe Commerce) — 2 operation(s) for products.
   name: Magento 2 (Adobe Commerce) Products API
   slug: magento-2-products-api
 artifact_total: 21
@@ -182,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento-2/refs/heads/main/screenshots/magento-2-2026-06-20T184840.png
 security:

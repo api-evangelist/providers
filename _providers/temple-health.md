@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: 'The legacy Temple Health DSTU2 FHIR endpoint listed in Epic''s public DSTU2 endpoint registry under the organization "TempleHealth". It remains available for backward compatibility with older SMART on '
   name: Temple Health FHIR DSTU2 API
   slug: temple-health-fhir-dstu2-api
-- description: Risk of harmful or undesirable physiological response to a substance.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: Risk of harmful or undesirable physiological response to a substance.
   name: Temple Health Allergy Intolerance API
   slug: temple-health-allergy-intolerance-api
-- description: HL7 FHIR Bulk Data Access Group-level export.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: HL7 FHIR Bulk Data Access Group-level export.
   name: Temple Health Bulk Data API
   slug: temple-health-bulk-data-api
-- description: Detailed information about conditions, problems, or diagnoses.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: Detailed information about conditions, problems, or diagnoses.
   name: Temple Health Condition API
   slug: temple-health-condition-api
-- description: A reference to a document, often a CCDA or clinical note.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: A reference to a document, often a CCDA or clinical note.
   name: Temple Health Document Reference API
   slug: temple-health-document-reference-api
-- description: An interaction between a patient and healthcare provider(s).
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: An interaction between a patient and healthcare provider(s).
   name: Temple Health Encounter API
   slug: temple-health-encounter-api
-- description: An order or request for both supply of the medication and the instructions for administration.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: An order or request for both supply of the medication and the instructions for administration.
   name: Temple Health Medication Request API
   slug: temple-health-medication-request-api
-- description: FHIR conformance and SMART configuration discovery.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: FHIR conformance and SMART configuration discovery.
   name: Temple Health Metadata API
   slug: temple-health-metadata-api
-- description: Measurements and simple assertions made about a patient.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: Measurements and simple assertions made about a patient.
   name: Temple Health Observation API
   slug: temple-health-observation-api
-- description: Demographics and other administrative information about an individual receiving care.
+- baseURL: https://epicaccess.templehealth.org/FhirProxyPrd/api/FHIR/R4
+  baseurl_source: declared
+  description: Demographics and other administrative information about an individual receiving care.
   name: Temple Health Patient API
   slug: temple-health-patient-api
 artifact_total: 39
@@ -430,7 +448,7 @@ score:
     regime_id: health
     score: 76.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:

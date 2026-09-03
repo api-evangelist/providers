@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -44,52 +44,82 @@ agentic_access:
   summary_line: 32 operations · 7 acting · 2 human-in-the-loop
 api_count: 8
 apis:
-- description: FDX v6.2 Transactions endpoint that returns posted and pending transaction data for a consented account — amounts, dates, descriptions, merchant fields, status — with support for pagination, date-rang
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: FDX v6.2 Transactions endpoint that returns posted and pending transaction data for a consented account — amounts, dates, descriptions, merchant fields, status — with support for pagination, date-rang
   name: TD Bank Transactions API
   slug: transactions-api
-- description: FDX v6.2 Statements endpoint that lists available statement periods for a consented account and lets consumers retrieve the statement PDF. Supports the standard FDX statement metadata model.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: FDX v6.2 Statements endpoint that lists available statement periods for a consented account and lets consumers retrieve the statement PDF. Supports the standard FDX statement metadata model.
   name: TD Bank Statements API
   slug: statements-api
-- description: FDX v6.2 Tax Forms endpoint that lists tax forms (e.g. 1099-INT, 1099-DIV) issued for a consented TD account in a given year and lets consumers retrieve the form PDF.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: FDX v6.2 Tax Forms endpoint that lists tax forms (e.g. 1099-INT, 1099-DIV) issued for a consented TD account in a given year and lets consumers retrieve the form PDF.
   name: TD Bank Tax Forms API
   slug: tax-forms-api
-- description: 'TD Open Banking Rewards API v1.0.0 returns reward program and membership information for the currently authenticated user — designed to track rewards participation across travel, retail, and merchant '
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: 'TD Open Banking Rewards API v1.0.0 returns reward program and membership information for the currently authenticated user — designed to track rewards participation across travel, retail, and merchant '
   name: TD Bank Rewards API
   slug: rewards-api
-- description: Notifications API — retrieves alerts about significant changes on the TD/Akoya network, including planned/unplanned maintenance outages and consent events (revoked or modified consumer consents). Lets
+- baseURL: https://api.openbanking.amcb.developer.td.com/notifications/v1
+  baseurl_source: declared
+  description: Notifications API — retrieves alerts about significant changes on the TD/Akoya network, including planned/unplanned maintenance outages and consent events (revoked or modified consumer consents). Lets
   name: TD Bank Notifications API
   slug: notifications-api
 - description: TD Merchant Solutions Recurring Payment API (Worldline-backed gateway) — lets merchants schedule and process recurring membership / subscription card payments. Supports API Passcode, Username/Password
   name: TD Online Mart Recurring Payment API
   slug: td-online-mart-recurring-payment-api
-- description: The Accounts API from TD Bank — 3 operation(s) for accounts.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Accounts API from TD Bank — 3 operation(s) for accounts.
   name: TD Bank Accounts API
   slug: td-bank-accounts-api
-- description: The Apps API from TD Bank — 2 operation(s) for apps.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Apps API from TD Bank — 2 operation(s) for apps.
   name: TD Bank Apps API
   slug: td-bank-apps-api
-- description: The Bill Payments API from TD Bank — 1 operation(s) for bill payments.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Bill Payments API from TD Bank — 1 operation(s) for bill payments.
   name: TD Bank Bill Payments API
   slug: td-bank-bill-payments-api
-- description: The Clusters API from TD Bank — 2 operation(s) for clusters.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Clusters API from TD Bank — 2 operation(s) for clusters.
   name: TD Bank Clusters API
   slug: td-bank-clusters-api
-- description: The Consents API from TD Bank — 2 operation(s) for consents.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Consents API from TD Bank — 2 operation(s) for consents.
   name: TD Bank Consents API
   slug: td-bank-consents-api
-- description: The Customers API from TD Bank — 2 operation(s) for customers.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Customers API from TD Bank — 2 operation(s) for customers.
   name: TD Bank Customers API
   slug: td-bank-customers-api
-- description: The Payees API from TD Bank — 1 operation(s) for payees.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Payees API from TD Bank — 1 operation(s) for payees.
   name: TD Bank Payees API
   slug: td-bank-payees-api
-- description: The Service Tokens API from TD Bank — 1 operation(s) for service tokens.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Service Tokens API from TD Bank — 1 operation(s) for service tokens.
   name: TD Bank Service Tokens API
   slug: td-bank-service-tokens-api
-- description: The Subscriptions API from TD Bank — 1 operation(s) for subscriptions.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Subscriptions API from TD Bank — 1 operation(s) for subscriptions.
   name: TD Bank Subscriptions API
   slug: td-bank-subscriptions-api
-- description: The Tokens API from TD Bank — 3 operation(s) for tokens.
+- baseURL: https://api.openbanking.amcb.developer.td.com/fdx/v6
+  baseurl_source: declared
+  description: The Tokens API from TD Bank — 3 operation(s) for tokens.
   name: TD Bank Tokens API
   slug: td-bank-tokens-api
 artifact_total: 61
@@ -416,7 +446,7 @@ score:
     regime_id: banking_open_finance
     score: 48.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/screenshots/td-bank-2026-08-17T082254.png
 security:

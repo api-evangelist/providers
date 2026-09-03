@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -50,25 +50,39 @@ apis:
 - description: OAuth 2.0 client credentials flow used to obtain a short-lived JWT for calling the Vectara REST API.
   name: Vectara OAuth 2.0 Token API
   slug: vectara-oauth2-api
-- description: Build and operate agents over Vectara corpora.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Build and operate agents over Vectara corpora.
   name: Vectara Agents API
   slug: vectara-agents-api
-- description: OAuth 2.0 client credentials flow for obtaining JWT tokens.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: OAuth 2.0 client credentials flow for obtaining JWT tokens.
   name: Vectara Authentication API
   slug: vectara-authentication-api
-- description: Create, list, update, and delete corpora that hold indexed documents.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Create, list, update, and delete corpora that hold indexed documents.
   name: Vectara Corpora API
   slug: vectara-corpora-api
-- description: Upload, index, retrieve, update, and delete documents in a corpus.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Upload, index, retrieve, update, and delete documents in a corpus.
   name: Vectara Documents API
   slug: vectara-documents-api
-- description: Manage pipelines and inspect pipeline runs.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Manage pipelines and inspect pipeline runs.
   name: Vectara Pipelines API
   slug: vectara-pipelines-api
-- description: Semantic, keyword, and hybrid queries with optional grounded generation.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Semantic, keyword, and hybrid queries with optional grounded generation.
   name: Vectara Query API
   slug: vectara-query-api
-- description: Manage tools and tool servers used by agents.
+- baseURL: https://api.vectara.io/v2
+  baseurl_source: declared
+  description: Manage tools and tool servers used by agents.
   name: Vectara Tools API
   slug: vectara-tools-api
 artifact_total: 45
@@ -411,7 +425,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:

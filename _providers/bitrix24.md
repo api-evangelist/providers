@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1570
   human_in_the_loop: 37
@@ -46,109 +46,179 @@ apis:
 - description: Tenant-scoped REST API for managing CRM entities, deals, leads, tasks, calendars, telephony, disk files, users, and marketplace apps. Each request targets the customer's portal URL of the form https:/
   name: Bitrix24 REST API
   slug: rest-api
-- description: The BIconnector API from Bitrix24 — 19 operation(s) for biconnector.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The BIconnector API from Bitrix24 — 19 operation(s) for biconnector.
   name: Bitrix24 BIconnector API
   slug: bitrix24-biconnector-api
-- description: The Business Processes API from Bitrix24 — 21 operation(s) for business processes.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Business Processes API from Bitrix24 — 21 operation(s) for business processes.
   name: Bitrix24 Business Processes API
   slug: bitrix24-business-processes-api
-- description: The Calendar API from Bitrix24 — 21 operation(s) for calendar.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Calendar API from Bitrix24 — 21 operation(s) for calendar.
   name: Bitrix24 Calendar API
   slug: bitrix24-calendar-api
-- description: The Chatbots API from Bitrix24 — 66 operation(s) for chatbots.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Chatbots API from Bitrix24 — 66 operation(s) for chatbots.
   name: Bitrix24 Chatbots API
   slug: bitrix24-chatbots-api
-- description: The Chats API from Bitrix24 — 67 operation(s) for chats.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Chats API from Bitrix24 — 67 operation(s) for chats.
   name: Bitrix24 Chats API
   slug: bitrix24-chats-api
-- description: The Company Structure API from Bitrix24 — 5 operation(s) for company structure.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Company Structure API from Bitrix24 — 5 operation(s) for company structure.
   name: Bitrix24 Company Structure API
   slug: bitrix24-company-structure-api
-- description: The CoPilot / AI API from Bitrix24 — 3 operation(s) for copilot / ai.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The CoPilot / AI API from Bitrix24 — 3 operation(s) for copilot / ai.
   name: Bitrix24 CoPilot / AI API
   slug: bitrix24-copilot-ai-api
-- description: The CRM API from Bitrix24 — 421 operation(s) for crm.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The CRM API from Bitrix24 — 421 operation(s) for crm.
   name: Bitrix24 CRM API
   slug: bitrix24-crm-api
-- description: The Data Storage API from Bitrix24 — 17 operation(s) for data storage.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Data Storage API from Bitrix24 — 17 operation(s) for data storage.
   name: Bitrix24 Data Storage API
   slug: bitrix24-data-storage-api
-- description: The Deprecated Methods API from Bitrix24 — 30 operation(s) for deprecated methods.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Deprecated Methods API from Bitrix24 — 30 operation(s) for deprecated methods.
   name: Bitrix24 Deprecated Methods API
   slug: bitrix24-deprecated-methods-api
-- description: The Document Generator API from Bitrix24 — 29 operation(s) for document generator.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Document Generator API from Bitrix24 — 29 operation(s) for document generator.
   name: Bitrix24 Document Generator API
   slug: bitrix24-document-generator-api
-- description: The Drive API from Bitrix24 — 37 operation(s) for drive.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Drive API from Bitrix24 — 37 operation(s) for drive.
   name: Bitrix24 Drive API
   slug: bitrix24-drive-api
-- description: The E-Commerce API from Bitrix24 — 139 operation(s) for e-commerce.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The E-Commerce API from Bitrix24 — 139 operation(s) for e-commerce.
   name: Bitrix24 E-Commerce API
   slug: bitrix24-e-commerce-api
-- description: The Events API from Bitrix24 — 8 operation(s) for events.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Events API from Bitrix24 — 8 operation(s) for events.
   name: Bitrix24 Events API
   slug: bitrix24-events-api
-- description: The General Methods API from Bitrix24 — 15 operation(s) for general methods.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The General Methods API from Bitrix24 — 15 operation(s) for general methods.
   name: Bitrix24 General Methods API
   slug: bitrix24-general-methods-api
-- description: The Mail Services API from Bitrix24 — 6 operation(s) for mail services.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Mail Services API from Bitrix24 — 6 operation(s) for mail services.
   name: Bitrix24 Mail Services API
   slug: bitrix24-mail-services-api
-- description: The Message Providers API from Bitrix24 — 5 operation(s) for message providers.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Message Providers API from Bitrix24 — 5 operation(s) for message providers.
   name: Bitrix24 Message Providers API
   slug: bitrix24-message-providers-api
-- description: The News Feed API from Bitrix24 — 9 operation(s) for news feed.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The News Feed API from Bitrix24 — 9 operation(s) for news feed.
   name: Bitrix24 News Feed API
   slug: bitrix24-news-feed-api
-- description: The Online Booking API from Bitrix24 — 38 operation(s) for online booking.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Online Booking API from Bitrix24 — 38 operation(s) for online booking.
   name: Bitrix24 Online Booking API
   slug: bitrix24-online-booking-api
-- description: The Open Lines API from Bitrix24 — 50 operation(s) for open lines.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Open Lines API from Bitrix24 — 50 operation(s) for open lines.
   name: Bitrix24 Open Lines API
   slug: bitrix24-open-lines-api
-- description: The Payment Systems API from Bitrix24 — 14 operation(s) for payment systems.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Payment Systems API from Bitrix24 — 14 operation(s) for payment systems.
   name: Bitrix24 Payment Systems API
   slug: bitrix24-payment-systems-api
-- description: The Polls API from Bitrix24 — 10 operation(s) for polls.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Polls API from Bitrix24 — 10 operation(s) for polls.
   name: Bitrix24 Polls API
   slug: bitrix24-polls-api
-- description: The REST v3 API from Bitrix24 — 25 operation(s) for rest v3.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The REST v3 API from Bitrix24 — 25 operation(s) for rest v3.
   name: Bitrix24 REST v3 API
   slug: bitrix24-rest-v3-api
-- description: The Signature API from Bitrix24 — 5 operation(s) for signature.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Signature API from Bitrix24 — 5 operation(s) for signature.
   name: Bitrix24 Signature API
   slug: bitrix24-signature-api
-- description: The Sites API from Bitrix24 — 99 operation(s) for sites.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Sites API from Bitrix24 — 99 operation(s) for sites.
   name: Bitrix24 Sites API
   slug: bitrix24-sites-api
-- description: The Tasks API from Bitrix24 — 114 operation(s) for tasks.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Tasks API from Bitrix24 — 114 operation(s) for tasks.
   name: Bitrix24 Tasks API
   slug: bitrix24-tasks-api
-- description: The Telephony API from Bitrix24 — 30 operation(s) for telephony.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Telephony API from Bitrix24 — 30 operation(s) for telephony.
   name: Bitrix24 Telephony API
   slug: bitrix24-telephony-api
-- description: The Time Management API from Bitrix24 — 15 operation(s) for time management.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Time Management API from Bitrix24 — 15 operation(s) for time management.
   name: Bitrix24 Time Management API
   slug: bitrix24-time-management-api
-- description: The Trade Catalog API from Bitrix24 — 167 operation(s) for trade catalog.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Trade Catalog API from Bitrix24 — 167 operation(s) for trade catalog.
   name: Bitrix24 Trade Catalog API
   slug: bitrix24-trade-catalog-api
-- description: The Universal Lists API from Bitrix24 — 19 operation(s) for universal lists.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Universal Lists API from Bitrix24 — 19 operation(s) for universal lists.
   name: Bitrix24 Universal Lists API
   slug: bitrix24-universal-lists-api
-- description: The User Consent API from Bitrix24 — 3 operation(s) for user consent.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The User Consent API from Bitrix24 — 3 operation(s) for user consent.
   name: Bitrix24 User Consent API
   slug: bitrix24-user-consent-api
-- description: The Users API from Bitrix24 — 8 operation(s) for users.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Users API from Bitrix24 — 8 operation(s) for users.
   name: Bitrix24 Users API
   slug: bitrix24-users-api
-- description: The Vibe API from Bitrix24 — 4 operation(s) for vibe.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Vibe API from Bitrix24 — 4 operation(s) for vibe.
   name: Bitrix24 Vibe API
   slug: bitrix24-vibe-api
-- description: The Widgets API from Bitrix24 — 12 operation(s) for widgets.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Widgets API from Bitrix24 — 12 operation(s) for widgets.
   name: Bitrix24 Widgets API
   slug: bitrix24-widgets-api
-- description: The Workgroups API from Bitrix24 — 39 operation(s) for workgroups.
+- baseURL: https://{installation}.bitrix24.com/rest/
+  baseurl_source: declared
+  description: The Workgroups API from Bitrix24 — 39 operation(s) for workgroups.
   name: Bitrix24 Workgroups API
   slug: bitrix24-workgroups-api
 artifact_total: 78
@@ -355,7 +425,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -365,7 +435,7 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -374,7 +444,7 @@ score:
       marker_coverage: 0.0
       total: 35
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitrix24/refs/heads/main/screenshots/bitrix24-2026-06-20T173320.png
 security:

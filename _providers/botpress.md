@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Webhook-based REST API for sending and receiving chat messages with deployed Botpress bots. Endpoint pattern is https://chat.botpress.cloud/{webhookUrl}/messages.
   name: Botpress Chat API
   slug: chat
-- description: The Admin API from Botpress — 3 operation(s) for admin.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Admin API from Botpress — 3 operation(s) for admin.
   name: Botpress Admin API
   slug: botpress-admin-api
-- description: The Conversations API from Botpress — 3 operation(s) for conversations.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Conversations API from Botpress — 3 operation(s) for conversations.
   name: Botpress Conversations API
   slug: botpress-conversations-api
-- description: The Files API from Botpress — 3 operation(s) for files.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Files API from Botpress — 3 operation(s) for files.
   name: Botpress Files API
   slug: botpress-files-api
-- description: The Messages API from Botpress — 2 operation(s) for messages.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Messages API from Botpress — 2 operation(s) for messages.
   name: Botpress Messages API
   slug: botpress-messages-api
-- description: The Tables API from Botpress — 3 operation(s) for tables.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Tables API from Botpress — 3 operation(s) for tables.
   name: Botpress Tables API
   slug: botpress-tables-api
-- description: The Users API from Botpress — 2 operation(s) for users.
+- baseURL: https://api.botpress.cloud
+  baseurl_source: declared
+  description: The Users API from Botpress — 2 operation(s) for users.
   name: Botpress Users API
   slug: botpress-users-api
 - description: REST API for managing bots, integrations, conversations, users, and analytics on Botpress Cloud. Authentication via personal access tokens or workspace API keys.
@@ -195,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/screenshots/botpress-2026-06-20T173622.png
 security:

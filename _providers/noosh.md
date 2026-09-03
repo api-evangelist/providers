@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -45,79 +45,129 @@ agentic_access:
   summary_line: 107 operations · 29 acting
 api_count: 2
 apis:
-- description: The Contact API from Noosh — 3 operation(s) for contact.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Contact API from Noosh — 3 operation(s) for contact.
   name: Noosh Contact API
   slug: noosh-contact-api
-- description: The Country API from Noosh — 1 operation(s) for country.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Country API from Noosh — 1 operation(s) for country.
   name: Noosh Country API
   slug: noosh-country-api
-- description: The Deactivation Reason API from Noosh — 1 operation(s) for deactivation reason.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Deactivation Reason API from Noosh — 1 operation(s) for deactivation reason.
   name: Noosh Deactivation Reason API
   slug: noosh-deactivation-reason-api
-- description: The Estimate API from Noosh — 2 operation(s) for estimate.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Estimate API from Noosh — 2 operation(s) for estimate.
   name: Noosh Estimate API
   slug: noosh-estimate-api
-- description: The Exchange Rate API from Noosh — 1 operation(s) for exchange rate.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Exchange Rate API from Noosh — 1 operation(s) for exchange rate.
   name: Noosh Exchange Rate API
   slug: noosh-exchange-rate-api
-- description: The File API from Noosh — 7 operation(s) for file.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The File API from Noosh — 7 operation(s) for file.
   name: Noosh File API
   slug: noosh-file-api
-- description: The Invoice API from Noosh — 3 operation(s) for invoice.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Invoice API from Noosh — 3 operation(s) for invoice.
   name: Noosh Invoice API
   slug: noosh-invoice-api
-- description: The My Info API from Noosh — 4 operation(s) for my info.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The My Info API from Noosh — 4 operation(s) for my info.
   name: Noosh My Info API
   slug: noosh-my-info-api
-- description: The Order API from Noosh — 9 operation(s) for order.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Order API from Noosh — 9 operation(s) for order.
   name: Noosh Order API
   slug: noosh-order-api
-- description: The Project API from Noosh — 3 operation(s) for project.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Project API from Noosh — 3 operation(s) for project.
   name: Noosh Project API
   slug: noosh-project-api
-- description: The Project Category API from Noosh — 2 operation(s) for project category.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Project Category API from Noosh — 2 operation(s) for project category.
   name: Noosh Project Category API
   slug: noosh-project-category-api
-- description: The Project Status API from Noosh — 2 operation(s) for project status.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Project Status API from Noosh — 2 operation(s) for project status.
   name: Noosh Project Status API
   slug: noosh-project-status-api
-- description: The Quote API from Noosh — 4 operation(s) for quote.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Quote API from Noosh — 4 operation(s) for quote.
   name: Noosh Quote API
   slug: noosh-quote-api
-- description: The RFE API from Noosh — 2 operation(s) for rfe.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The RFE API from Noosh — 2 operation(s) for rfe.
   name: Noosh RFE API
   slug: noosh-rfe-api
-- description: The Rfq API from Noosh — 2 operation(s) for rfq.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Rfq API from Noosh — 2 operation(s) for rfq.
   name: Noosh Rfq API
   slug: noosh-rfq-api
-- description: The Shipment API from Noosh — 3 operation(s) for shipment.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Shipment API from Noosh — 3 operation(s) for shipment.
   name: Noosh Shipment API
   slug: noosh-shipment-api
-- description: The Spec API from Noosh — 7 operation(s) for spec.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Spec API from Noosh — 7 operation(s) for spec.
   name: Noosh Spec API
   slug: noosh-spec-api
-- description: The Spec Template API from Noosh — 2 operation(s) for spec template.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Spec Template API from Noosh — 2 operation(s) for spec template.
   name: Noosh Spec Template API
   slug: noosh-spec-template-api
-- description: The Task API from Noosh — 9 operation(s) for task.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Task API from Noosh — 9 operation(s) for task.
   name: Noosh Task API
   slug: noosh-task-api
-- description: The Team Member API from Noosh — 4 operation(s) for team member.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Team Member API from Noosh — 4 operation(s) for team member.
   name: Noosh Team Member API
   slug: noosh-team-member-api
-- description: The Team Member Role API from Noosh — 1 operation(s) for team member role.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Team Member Role API from Noosh — 1 operation(s) for team member role.
   name: Noosh Team Member Role API
   slug: noosh-team-member-role-api
-- description: The Time Card API from Noosh — 4 operation(s) for time card.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Time Card API from Noosh — 4 operation(s) for time card.
   name: Noosh Time Card API
   slug: noosh-time-card-api
-- description: The User Fields API from Noosh — 2 operation(s) for user fields.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The User Fields API from Noosh — 2 operation(s) for user fields.
   name: Noosh User Fields API
   slug: noosh-user-fields-api
-- description: The Workgroup API from Noosh — 6 operation(s) for workgroup.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Workgroup API from Noosh — 6 operation(s) for workgroup.
   name: Noosh Workgroup API
   slug: noosh-workgroup-api
-- description: The Workgroup Members API from Noosh — 2 operation(s) for workgroup members.
+- baseURL: https://api.noosh.com
+  baseurl_source: declared
+  description: The Workgroup Members API from Noosh — 2 operation(s) for workgroup members.
   name: Noosh Workgroup Members API
   slug: noosh-workgroup-members-api
 artifact_total: 30
@@ -278,7 +328,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/screenshots/noosh-2026-08-07T185512.png
 security:

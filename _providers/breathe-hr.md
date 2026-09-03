@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,19 +46,29 @@ apis:
 - description: JSON REST API for managing employees, absences, holidays, sick leaves, accounts, and related HR records inside Breathe. Calls require an X-API-KEY header containing the account-level token generated f
   name: Breathe HR REST API
   slug: rest-api
-- description: The Absences API from Breathe HR — 2 operation(s) for absences.
+- baseURL: https://api.breathehr.com/v1
+  baseurl_source: declared
+  description: The Absences API from Breathe HR — 2 operation(s) for absences.
   name: Breathe HR Absences API
   slug: breathe-hr-absences-api
-- description: The Account API from Breathe HR — 1 operation(s) for account.
+- baseURL: https://api.breathehr.com/v1
+  baseurl_source: declared
+  description: The Account API from Breathe HR — 1 operation(s) for account.
   name: Breathe HR Account API
   slug: breathe-hr-account-api
-- description: The Employees API from Breathe HR — 2 operation(s) for employees.
+- baseURL: https://api.breathehr.com/v1
+  baseurl_source: declared
+  description: The Employees API from Breathe HR — 2 operation(s) for employees.
   name: Breathe HR Employees API
   slug: breathe-hr-employees-api
-- description: The Holidays API from Breathe HR — 2 operation(s) for holidays.
+- baseURL: https://api.breathehr.com/v1
+  baseurl_source: declared
+  description: The Holidays API from Breathe HR — 2 operation(s) for holidays.
   name: Breathe HR Holidays API
   slug: breathe-hr-holidays-api
-- description: The Sicknesses API from Breathe HR — 2 operation(s) for sicknesses.
+- baseURL: https://api.breathehr.com/v1
+  baseurl_source: declared
+  description: The Sicknesses API from Breathe HR — 2 operation(s) for sicknesses.
   name: Breathe HR Sicknesses API
   slug: breathe-hr-sicknesses-api
 artifact_total: 16
@@ -169,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/screenshots/breathe-hr-2026-06-20T173649.png
 security:

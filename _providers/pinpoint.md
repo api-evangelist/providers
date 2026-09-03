@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 16 operations · 8 acting
 api_count: 1
 apis:
-- description: Candidate (applicant) records.
+- baseURL: https://{subdomain}.pinpointhq.com/api/v1
+  baseurl_source: declared
+  description: Candidate (applicant) records.
   name: Pinpoint Applicants API
   slug: pinpoint-applicants-api
-- description: Candidate applications moving through hiring workflows.
+- baseURL: https://{subdomain}.pinpointhq.com/api/v1
+  baseurl_source: declared
+  description: Candidate applications moving through hiring workflows.
   name: Pinpoint Applications API
   slug: pinpoint-applications-api
-- description: Comments on applications.
+- baseURL: https://{subdomain}.pinpointhq.com/api/v1
+  baseurl_source: declared
+  description: Comments on applications.
   name: Pinpoint Comments API
   slug: pinpoint-comments-api
-- description: Job postings and requisitions.
+- baseURL: https://{subdomain}.pinpointhq.com/api/v1
+  baseurl_source: declared
+  description: Job postings and requisitions.
   name: Pinpoint Jobs API
   slug: pinpoint-jobs-api
 artifact_total: 16
@@ -142,7 +150,7 @@ score:
   band: thin
   composite: 35.8
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -165,8 +173,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/screenshots/pinpoint-2026-09-02T151506.png
 security:
 - kind: authentication
   name: Pinpoint Authentication

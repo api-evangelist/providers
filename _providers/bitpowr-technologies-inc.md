@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 55 operations · 22 acting
 api_count: 1
 apis:
-- description: The Account API from BitPowr Technologies, Inc. — 12 operation(s) for account.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Account API from BitPowr Technologies, Inc. — 12 operation(s) for account.
   name: BitPowr Technologies, Inc. Account API
   slug: bitpowr-technologies-inc-account-api
-- description: The Address API from BitPowr Technologies, Inc. — 9 operation(s) for address.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Address API from BitPowr Technologies, Inc. — 9 operation(s) for address.
   name: BitPowr Technologies, Inc. Address API
   slug: bitpowr-technologies-inc-address-api
-- description: The Assets API from BitPowr Technologies, Inc. — 5 operation(s) for assets.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Assets API from BitPowr Technologies, Inc. — 5 operation(s) for assets.
   name: BitPowr Technologies, Inc. Assets API
   slug: bitpowr-technologies-inc-assets-api
-- description: The Customer API from BitPowr Technologies, Inc. — 3 operation(s) for customer.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Customer API from BitPowr Technologies, Inc. — 3 operation(s) for customer.
   name: BitPowr Technologies, Inc. Customer API
   slug: bitpowr-technologies-inc-customer-api
-- description: The Market API from BitPowr Technologies, Inc. — 3 operation(s) for market.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Market API from BitPowr Technologies, Inc. — 3 operation(s) for market.
   name: BitPowr Technologies, Inc. Market API
   slug: bitpowr-technologies-inc-market-api
-- description: The Others API from BitPowr Technologies, Inc. — 2 operation(s) for others.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Others API from BitPowr Technologies, Inc. — 2 operation(s) for others.
   name: BitPowr Technologies, Inc. Others API
   slug: bitpowr-technologies-inc-others-api
-- description: The Staking API from BitPowr Technologies, Inc. — 1 operation(s) for staking.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Staking API from BitPowr Technologies, Inc. — 1 operation(s) for staking.
   name: BitPowr Technologies, Inc. Staking API
   slug: bitpowr-technologies-inc-staking-api
-- description: The Swap API from BitPowr Technologies, Inc. — 3 operation(s) for swap.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Swap API from BitPowr Technologies, Inc. — 3 operation(s) for swap.
   name: BitPowr Technologies, Inc. Swap API
   slug: bitpowr-technologies-inc-swap-api
-- description: The Transaction API from BitPowr Technologies, Inc. — 4 operation(s) for transaction.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Transaction API from BitPowr Technologies, Inc. — 4 operation(s) for transaction.
   name: BitPowr Technologies, Inc. Transaction API
   slug: bitpowr-technologies-inc-transaction-api
-- description: The Utils API from BitPowr Technologies, Inc. — 4 operation(s) for utils.
+- baseURL: https://developers.bitpowr.com/api/v1
+  baseurl_source: declared
+  description: The Utils API from BitPowr Technologies, Inc. — 4 operation(s) for utils.
   name: BitPowr Technologies, Inc. Utils API
   slug: bitpowr-technologies-inc-utils-api
 artifact_total: 26
@@ -269,7 +289,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

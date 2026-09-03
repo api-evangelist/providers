@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 55 operations · 32 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Authenticate yourself with the Axle API
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Authenticate yourself with the Axle API
   name: Axle Energy 1. Authentication API
   slug: axle-energy-1-authentication-api
-- description: Find key info about your sites
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Find key info about your sites
   name: Axle Energy 2. Meters API
   slug: axle-energy-2-meters-api
-- description: Register your sites with Axle; configure market participation
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Register your sites with Axle; configure market participation
   name: Axle Energy 3. Sites API
   slug: axle-energy-3-sites-api
-- description: Register your assets with Axle
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Register your assets with Axle
   name: Axle Energy 4. Assets API
   slug: axle-energy-4-assets-api
-- description: Send asset metrics to Axle, for analysis and optimisation purposes
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Send asset metrics to Axle, for analysis and optimisation purposes
   name: Axle Energy 5. Data API
   slug: axle-energy-5-data-api
-- description: Determine how much your users have earned by participating with Axle; allow balance withdrawal
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Determine how much your users have earned by participating with Axle; allow balance withdrawal
   name: Axle Energy 6. Rewards API
   slug: axle-energy-6-rewards-api
-- description: Validate structured data against Axle's rules
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Validate structured data against Axle's rules
   name: Axle Energy 7. Validation API
   slug: axle-energy-7-validation-api
-- description: Get example data for testing
+- baseURL: https://api.axle.energy
+  baseurl_source: declared
+  description: Get example data for testing
   name: Axle Energy 8. Examples API
   slug: axle-energy-8-examples-api
 artifact_total: 22
@@ -217,7 +233,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -227,7 +243,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,7 +261,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axle-energy/refs/heads/main/screenshots/axle-energy-2026-07-25T202055.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -44,46 +44,74 @@ agentic_access:
   summary_line: 28 operations · 28 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: API for capturing and processing change data from DynamoDB tables in near real-time, providing time-ordered sequences of item-level modifications.
+- baseURL: https://streams.dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: API for capturing and processing change data from DynamoDB tables in near real-time, providing time-ordered sequences of item-level modifications.
   name: Amazon DynamoDB Streams API
   slug: amazon-dynamodb-streams-api
-- description: Operations for creating, describing, listing, and deleting on-demand backups
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, listing, and deleting on-demand backups
   name: Amazon DynamoDB Backups API
   slug: dynamodb-backups-api
-- description: Operations for reading and writing multiple items in batch
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for reading and writing multiple items in batch
   name: Amazon DynamoDB Batch Operations API
   slug: dynamodb-batch-operations-api
-- description: Operations for exporting table data to Amazon S3
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for exporting table data to Amazon S3
   name: Amazon DynamoDB Exports API
   slug: dynamodb-exports-api
-- description: Operations for importing data from Amazon S3 into DynamoDB tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for importing data from Amazon S3 into DynamoDB tables
   name: Amazon DynamoDB Imports API
   slug: dynamodb-imports-api
-- description: Operations for reading and writing individual items in DynamoDB tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for reading and writing individual items in DynamoDB tables
   name: Amazon DynamoDB Items API
   slug: dynamodb-items-api
-- description: 'The #ListTagsOfResource API from Amazon DynamoDB — 1 operation(s) for #listtagsofresource.'
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #ListTagsOfResource API from Amazon DynamoDB — 1 operation(s) for #listtagsofresource.'
   name: 'Amazon DynamoDB #ListTagsOfResource API'
   slug: dynamodb-listtagsofresource-api
-- description: Execute SQL-compatible PartiQL statements against DynamoDB tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Execute SQL-compatible PartiQL statements against DynamoDB tables
   name: Amazon DynamoDB PartiQL API
   slug: dynamodb-partiql-api
-- description: Operations for querying and scanning items in DynamoDB tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for querying and scanning items in DynamoDB tables
   name: Amazon DynamoDB Queries API
   slug: dynamodb-queries-api
-- description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, describing, updating, listing, and deleting DynamoDB tables
   name: Amazon DynamoDB Tables API
   slug: dynamodb-tables-api
-- description: 'The #TagResource API from Amazon DynamoDB — 1 operation(s) for #tagresource.'
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #TagResource API from Amazon DynamoDB — 1 operation(s) for #tagresource.'
   name: 'Amazon DynamoDB #TagResource API'
   slug: dynamodb-tagresource-api
-- description: Transactional read and write operations across multiple items and tables
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Transactional read and write operations across multiple items and tables
   name: Amazon DynamoDB Transactions API
   slug: dynamodb-transactions-api
-- description: Time to Live configuration for automatic item expiration
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: Time to Live configuration for automatic item expiration
   name: Amazon DynamoDB TTL API
   slug: dynamodb-ttl-api
-- description: 'The #UntagResource API from Amazon DynamoDB — 1 operation(s) for #untagresource.'
+- baseURL: https://dynamodb.{region}.amazonaws.com
+  baseurl_source: declared
+  description: 'The #UntagResource API from Amazon DynamoDB — 1 operation(s) for #untagresource.'
   name: 'Amazon DynamoDB #UntagResource API'
   slug: dynamodb-untagresource-api
 artifact_total: 261
@@ -906,7 +934,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -916,7 +944,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 56.1
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -925,7 +953,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/screenshots/dynamodb-2026-06-20T180405.png
 security:

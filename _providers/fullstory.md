@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 19 operations · 9 acting
 api_count: 3
 apis:
-- description: FullStory Sessions API for retrieving session metadata, replay URLs, and session-level details.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: FullStory Sessions API for retrieving session metadata, replay URLs, and session-level details.
   name: FullStory Sessions API
   slug: fullstory-sessions-api
-- description: Import large volumes of users and events asynchronously using batch import jobs that support up to 50,000 records per request.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Import large volumes of users and events asynchronously using batch import jobs that support up to 50,000 records per request.
   name: FullStory Batch Import API
   slug: fullstory-batch-import-api
-- description: Create, retrieve, update, and delete webhook endpoints that receive real-time notifications from FullStory. Each endpoint has a destination URL, configured event types, signing secret, and enabled sta
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete webhook endpoints that receive real-time notifications from FullStory. Each endpoint has a destination URL, configured event types, signing secret, and enabled sta
   name: FullStory Endpoints API
   slug: fullstory-endpoints-api
-- description: List available webhook event types that can be configured for endpoints. Some event types require subcategories and may be limited by plan.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: List available webhook event types that can be configured for endpoints. Some event types require subcategories and may be limited by plan.
   name: FullStory Event Types API
   slug: fullstory-event-types-api
-- description: Send custom server-side events to FullStory. Events can be associated with sessions and users, and include custom properties for behavioral analysis.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Send custom server-side events to FullStory. Events can be associated with sessions and users, and include custom properties for behavioral analysis.
   name: FullStory Events API
   slug: fullstory-events-api
-- description: Create and manage asynchronous export jobs for segment data, including both individual and event exports.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Create and manage asynchronous export jobs for segment data, including both individual and event exports.
   name: FullStory Exports API
   slug: fullstory-exports-api
-- description: Query the status of long-running asynchronous operations such as segment exports, and retrieve results when complete.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Query the status of long-running asynchronous operations such as segment exports, and retrieve results when complete.
   name: FullStory Operations API
   slug: fullstory-operations-api
-- description: Retrieve segment metadata including name, creator, and creation time.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Retrieve segment metadata including name, creator, and creation time.
   name: FullStory Segments API
   slug: fullstory-segments-api
-- description: Retrieve the full set of captured events for a specific session, including page views, clicks, and custom events.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Retrieve the full set of captured events for a specific session, including page views, clicks, and custom events.
   name: FullStory Session Events API
   slug: fullstory-session-events-api
-- description: Generate AI-powered summaries of sessions using configurable prompt profiles. Summaries can be customized with pre and post prompts, response schemas, and session slicing options.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Generate AI-powered summaries of sessions using configurable prompt profiles. Summaries can be customized with pre and post prompts, response schemas, and session slicing options.
   name: FullStory Session Summaries API
   slug: fullstory-session-summaries-api
-- description: Create, retrieve, update, and delete users in FullStory. Users can be anonymous or identified with a uid. Custom properties can be attached to enrich user profiles.
+- baseURL: https://api.fullstory.com
+  baseurl_source: declared
+  description: Create, retrieve, update, and delete users in FullStory. Users can be anonymous or identified with a uid. Custom properties can be attached to enrich user profiles.
   name: FullStory Users API
   slug: fullstory-users-api
 artifact_total: 65
@@ -328,7 +350,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -338,7 +360,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -347,7 +369,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/screenshots/fullstory-2026-06-20T181612.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 18 operations · 8 acting
 api_count: 1
 apis:
-- description: The Applications API from Herald — 2 operation(s) for applications.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Applications API from Herald — 2 operation(s) for applications.
   name: Herald Applications API
   slug: herald-applications-api
-- description: The Authentication API from Herald — 1 operation(s) for authentication.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Authentication API from Herald — 1 operation(s) for authentication.
   name: Herald Authentication API
   slug: herald-authentication-api
-- description: The Classifications API from Herald — 1 operation(s) for classifications.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Classifications API from Herald — 1 operation(s) for classifications.
   name: Herald Classifications API
   slug: herald-classifications-api
-- description: The Distributors API from Herald — 1 operation(s) for distributors.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Distributors API from Herald — 1 operation(s) for distributors.
   name: Herald Distributors API
   slug: herald-distributors-api
-- description: The Files API from Herald — 1 operation(s) for files.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Files API from Herald — 1 operation(s) for files.
   name: Herald Files API
   slug: herald-files-api
-- description: The Producers API from Herald — 1 operation(s) for producers.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Producers API from Herald — 1 operation(s) for producers.
   name: Herald Producers API
   slug: herald-producers-api
-- description: The Products API from Herald — 2 operation(s) for products.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Products API from Herald — 2 operation(s) for products.
   name: Herald Products API
   slug: herald-products-api
-- description: The Quotes API from Herald — 1 operation(s) for quotes.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Quotes API from Herald — 1 operation(s) for quotes.
   name: Herald Quotes API
   slug: herald-quotes-api
-- description: The Submissions API from Herald — 2 operation(s) for submissions.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Submissions API from Herald — 2 operation(s) for submissions.
   name: Herald Submissions API
   slug: herald-submissions-api
-- description: The Webhooks API from Herald — 2 operation(s) for webhooks.
+- baseURL: https://api.heraldapi.com
+  baseurl_source: declared
+  description: The Webhooks API from Herald — 2 operation(s) for webhooks.
   name: Herald Webhooks API
   slug: herald-webhooks-api
 artifact_total: 28
@@ -211,7 +231,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/screenshots/herald-2026-07-25T221009.png
 security:

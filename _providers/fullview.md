@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Bug Report API from Fullview — 2 operation(s) for bug report.
+- baseURL: https://api.eu1.fullview.io
+  baseurl_source: declared
+  description: The Bug Report API from Fullview — 2 operation(s) for bug report.
   name: Fullview Bug Report API
   slug: fullview-bug-report-api
 artifact_total: 9
@@ -215,7 +217,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullview/refs/heads/main/screenshots/fullview-2026-07-25T215258.png
 security:

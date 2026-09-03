@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 3 acting
 api_count: 1
 apis:
-- description: Reference data
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: Reference data
   name: iStock Countries API
   slug: istock-countries-api
-- description: License and download assets
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: License and download assets
   name: iStock Downloads API
   slug: istock-downloads-api
-- description: Image metadata retrieval
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: Image metadata retrieval
   name: iStock Images API
   slug: istock-images-api
-- description: OAuth 2.0 token acquisition
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: OAuth 2.0 token acquisition
   name: iStock OAuth API
   slug: istock-oauth-api
-- description: Search creative and editorial assets
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: Search creative and editorial assets
   name: iStock Search API
   slug: istock-search-api
-- description: Video metadata retrieval
+- baseURL: https://api.gettyimages.com/v3
+  baseurl_source: declared
+  description: Video metadata retrieval
   name: iStock Videos API
   slug: istock-videos-api
 artifact_total: 21
@@ -181,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istock/refs/heads/main/screenshots/istock-2026-06-20T183628.png
 security:

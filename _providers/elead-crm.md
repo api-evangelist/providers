@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 1
 apis:
-- description: Sales activities, appointments, and activity history. Endpoints modeled.
+- baseURL: https://api.fortellis.io/sales/v1/elead
+  baseurl_source: declared
+  description: Sales activities, appointments, and activity history. Endpoints modeled.
   name: Elead Activities API
   slug: elead-crm-activities-api
-- description: Prospect and customer records and their owned vehicles.
+- baseURL: https://api.fortellis.io/sales/v1/elead
+  baseurl_source: declared
+  description: Prospect and customer records and their owned vehicles.
   name: Elead Customers API
   slug: elead-crm-customers-api
-- description: Sales opportunities (leads), vehicles of interest, trade-ins, sales team, emails.
+- baseURL: https://api.fortellis.io/sales/v1/elead
+  baseurl_source: declared
+  description: Sales opportunities (leads), vehicles of interest, trade-ins, sales team, emails.
   name: Elead Opportunities API
   slug: elead-crm-opportunities-api
-- description: Lookup data supporting the other Vehicle Sales APIs.
+- baseURL: https://api.fortellis.io/sales/v1/elead
+  baseurl_source: declared
+  description: Lookup data supporting the other Vehicle Sales APIs.
   name: Elead Reference Data API
   slug: elead-crm-reference-data-api
 artifact_total: 15
@@ -166,7 +174,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/screenshots/elead-crm-2026-07-25T213057.png
 security:

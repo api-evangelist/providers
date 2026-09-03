@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Activities API from Hang — 2 operation(s) for activities.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Activities API from Hang — 2 operation(s) for activities.
   name: Hang Activities API
   slug: hang-activities-api
-- description: The Loot Box Reward Choices API from Hang — 2 operation(s) for loot box reward choices.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Loot Box Reward Choices API from Hang — 2 operation(s) for loot box reward choices.
   name: Hang Loot Box Reward Choices API
   slug: hang-loot-box-reward-choices-api
-- description: The Loot box reward probabilities API from Hang — 2 operation(s) for loot box reward probabilities.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Loot box reward probabilities API from Hang — 2 operation(s) for loot box reward probabilities.
   name: Hang Loot box reward probabilities API
   slug: hang-loot-box-reward-probabilities-api
-- description: The Loot Boxes API from Hang — 4 operation(s) for loot boxes.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Loot Boxes API from Hang — 4 operation(s) for loot boxes.
   name: Hang Loot Boxes API
   slug: hang-loot-boxes-api
-- description: The Member Actions API from Hang — 3 operation(s) for member actions.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Member Actions API from Hang — 3 operation(s) for member actions.
   name: Hang Member Actions API
   slug: hang-member-actions-api
-- description: The Memberships API from Hang — 10 operation(s) for memberships.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Memberships API from Hang — 10 operation(s) for memberships.
   name: Hang Memberships API
   slug: hang-memberships-api
-- description: The Program memberships API from Hang — 3 operation(s) for program memberships.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Program memberships API from Hang — 3 operation(s) for program memberships.
   name: Hang Program memberships API
   slug: hang-program-memberships-api
-- description: The Program Tiers API from Hang — 1 operation(s) for program tiers.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Program Tiers API from Hang — 1 operation(s) for program tiers.
   name: Hang Program Tiers API
   slug: hang-program-tiers-api
-- description: The ProgramMembershipPuzzles API from Hang — 3 operation(s) for programmembershippuzzles.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The ProgramMembershipPuzzles API from Hang — 3 operation(s) for programmembershippuzzles.
   name: Hang ProgramMembershipPuzzles API
   slug: hang-programmembershippuzzles-api
-- description: The Programs API from Hang — 2 operation(s) for programs.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Programs API from Hang — 2 operation(s) for programs.
   name: Hang Programs API
   slug: hang-programs-api
-- description: The Puzzles API from Hang — 4 operation(s) for puzzles.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Puzzles API from Hang — 4 operation(s) for puzzles.
   name: Hang Puzzles API
   slug: hang-puzzles-api
-- description: The Quests API from Hang — 9 operation(s) for quests.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Quests API from Hang — 9 operation(s) for quests.
   name: Hang Quests API
   slug: hang-quests-api
-- description: The Redemptions API from Hang — 4 operation(s) for redemptions.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Redemptions API from Hang — 4 operation(s) for redemptions.
   name: Hang Redemptions API
   slug: hang-redemptions-api
-- description: The Rewards API from Hang — 5 operation(s) for rewards.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Rewards API from Hang — 5 operation(s) for rewards.
   name: Hang Rewards API
   slug: hang-rewards-api
-- description: The TokenizedRewards API from Hang — 2 operation(s) for tokenizedrewards.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The TokenizedRewards API from Hang — 2 operation(s) for tokenizedrewards.
   name: Hang TokenizedRewards API
   slug: hang-tokenizedrewards-api
-- description: The Tokens API from Hang — 7 operation(s) for tokens.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Tokens API from Hang — 7 operation(s) for tokens.
   name: Hang Tokens API
   slug: hang-tokens-api
-- description: The Users API from Hang — 1 operation(s) for users.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Users API from Hang — 1 operation(s) for users.
   name: Hang Users API
   slug: hang-users-api
-- description: The Wallet Integration API from Hang — 2 operation(s) for wallet integration.
+- baseURL: https://loyalty.hang.xyz/partner-api
+  baseurl_source: declared
+  description: The Wallet Integration API from Hang — 2 operation(s) for wallet integration.
   name: Hang Wallet Integration API
   slug: hang-wallet-integration-api
 artifact_total: 43
@@ -294,7 +330,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -304,7 +340,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 47.6
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     contracts:
@@ -315,7 +351,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hang/refs/heads/main/screenshots/hang-2026-07-25T220618.png
 security:

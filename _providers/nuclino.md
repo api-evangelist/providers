@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 1
 apis:
-- description: Groups/folders of items
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: Groups/folders of items
   name: Nuclino Collections API
   slug: nuclino-collections-api
-- description: File management
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: File management
   name: Nuclino Files API
   slug: nuclino-files-api
-- description: Wiki pages and documents
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: Wiki pages and documents
   name: Nuclino Items API
   slug: nuclino-items-api
-- description: Team management
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: Team management
   name: Nuclino Teams API
   slug: nuclino-teams-api
-- description: User management
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: User management
   name: Nuclino Users API
   slug: nuclino-users-api
-- description: Workspace management
+- baseURL: https://api.nuclino.com/v0
+  baseurl_source: declared
+  description: Workspace management
   name: Nuclino Workspaces API
   slug: nuclino-workspaces-api
 artifact_total: 29
@@ -244,7 +256,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/screenshots/nuclino-2026-06-20T190507.png
 security:

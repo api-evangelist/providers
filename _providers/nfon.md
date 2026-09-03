@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -43,160 +43,264 @@ agentic_access:
   summary_line: 496 operations · 226 acting · 20 human-in-the-loop
 api_count: 3
 apis:
-- description: Legacy PBX configuration API (Basic Auth / API key) for viewing and modifying PBX-related configuration. Being deprecated in favour of the PBX Configuration API; maintained only for critical fixes. Pu
+- baseURL: https://portal-api.nfon.net:8090/api
+  baseurl_source: declared
+  description: Legacy PBX configuration API (Basic Auth / API key) for viewing and modifying PBX-related configuration. Being deprecated in favour of the PBX Configuration API; maintained only for critical fixes. Pu
   name: NFON Service Portal API (legacy)
   slug: nfon-service-portal-api-legacy
-- description: The Accounts API from Nfon — 4 operation(s) for accounts.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Accounts API from Nfon — 4 operation(s) for accounts.
   name: Nfon Accounts API
   slug: nfon-accounts-api
-- description: The address API from Nfon — 1 operation(s) for address.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The address API from Nfon — 1 operation(s) for address.
   name: Nfon address API
   slug: nfon-address-api
-- description: Everything about authentication
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Everything about authentication
   name: Nfon authentication API
   slug: nfon-authentication-api
-- description: Blacklist profile management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Blacklist profile management
   name: Nfon Blacklist Profiles API
   slug: nfon-blacklist-profiles-api
-- description: CLIP screened prefix management for SIPTrunk customers
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: CLIP screened prefix management for SIPTrunk customers
   name: Nfon clip-screened-prefixes API
   slug: nfon-clip-screened-prefixes-api
-- description: The Contract Types API from Nfon — 2 operation(s) for contract types.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Contract Types API from Nfon — 2 operation(s) for contract types.
   name: Nfon Contract Types API
   slug: nfon-contract-types-api
-- description: The Customer Announcements API from Nfon — 2 operation(s) for customer announcements.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Announcements API from Nfon — 2 operation(s) for customer announcements.
   name: Nfon Customer Announcements API
   slug: nfon-customer-announcements-api
-- description: The Customer Conference API from Nfon — 4 operation(s) for customer conference.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Conference API from Nfon — 4 operation(s) for customer conference.
   name: Nfon Customer Conference API
   slug: nfon-customer-conference-api
-- description: The Customer Contracts API from Nfon — 2 operation(s) for customer contracts.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Contracts API from Nfon — 2 operation(s) for customer contracts.
   name: Nfon Customer Contracts API
   slug: nfon-customer-contracts-api
-- description: The Customer Device Types API from Nfon — 4 operation(s) for customer device types.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Device Types API from Nfon — 4 operation(s) for customer device types.
   name: Nfon Customer Device Types API
   slug: nfon-customer-device-types-api
-- description: The Customer Devices API from Nfon — 20 operation(s) for customer devices.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Devices API from Nfon — 20 operation(s) for customer devices.
   name: Nfon Customer Devices API
   slug: nfon-customer-devices-api
-- description: The Customer DIDs API from Nfon — 4 operation(s) for customer dids.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer DIDs API from Nfon — 4 operation(s) for customer dids.
   name: Nfon Customer DIDs API
   slug: nfon-customer-dids-api
-- description: The Customer Extensions API from Nfon — 38 operation(s) for customer extensions.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Extensions API from Nfon — 38 operation(s) for customer extensions.
   name: Nfon Customer Extensions API
   slug: nfon-customer-extensions-api
-- description: The Customer Frontdesk API from Nfon — 6 operation(s) for customer frontdesk.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Frontdesk API from Nfon — 6 operation(s) for customer frontdesk.
   name: Nfon Customer Frontdesk API
   slug: nfon-customer-frontdesk-api
-- description: The Customer Groups API from Nfon — 8 operation(s) for customer groups.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Groups API from Nfon — 8 operation(s) for customer groups.
   name: Nfon Customer Groups API
   slug: nfon-customer-groups-api
-- description: The Customer IP Whitelist API from Nfon — 2 operation(s) for customer ip whitelist.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer IP Whitelist API from Nfon — 2 operation(s) for customer ip whitelist.
   name: Nfon Customer IP Whitelist API
   slug: nfon-customer-ip-whitelist-api
-- description: The Customer IVR API from Nfon — 11 operation(s) for customer ivr.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer IVR API from Nfon — 11 operation(s) for customer ivr.
   name: Nfon Customer IVR API
   slug: nfon-customer-ivr-api
-- description: The Customer Lync API from Nfon — 5 operation(s) for customer lync.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Lync API from Nfon — 5 operation(s) for customer lync.
   name: Nfon Customer Lync API
   slug: nfon-customer-lync-api
-- description: The Customer Phone Books API from Nfon — 5 operation(s) for customer phone books.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Phone Books API from Nfon — 5 operation(s) for customer phone books.
   name: Nfon Customer Phone Books API
   slug: nfon-customer-phone-books-api
-- description: The Customer Queues API from Nfon — 12 operation(s) for customer queues.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Queues API from Nfon — 12 operation(s) for customer queues.
   name: Nfon Customer Queues API
   slug: nfon-customer-queues-api
-- description: The Customer Routers API from Nfon — 2 operation(s) for customer routers.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Routers API from Nfon — 2 operation(s) for customer routers.
   name: Nfon Customer Routers API
   slug: nfon-customer-routers-api
-- description: The Customer Sites API from Nfon — 3 operation(s) for customer sites.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Sites API from Nfon — 3 operation(s) for customer sites.
   name: Nfon Customer Sites API
   slug: nfon-customer-sites-api
-- description: The Customer Skills API from Nfon — 12 operation(s) for customer skills.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Skills API from Nfon — 12 operation(s) for customer skills.
   name: Nfon Customer Skills API
   slug: nfon-customer-skills-api
-- description: The Customer Speed Dials API from Nfon — 2 operation(s) for customer speed dials.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Speed Dials API from Nfon — 2 operation(s) for customer speed dials.
   name: Nfon Customer Speed Dials API
   slug: nfon-customer-speed-dials-api
-- description: The Customer Targets API from Nfon — 29 operation(s) for customer targets.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Targets API from Nfon — 29 operation(s) for customer targets.
   name: Nfon Customer Targets API
   slug: nfon-customer-targets-api
-- description: The Customer Time Controls API from Nfon — 5 operation(s) for customer time controls.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Time Controls API from Nfon — 5 operation(s) for customer time controls.
   name: Nfon Customer Time Controls API
   slug: nfon-customer-time-controls-api
-- description: The Customer Trunks API from Nfon — 4 operation(s) for customer trunks.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Trunks API from Nfon — 4 operation(s) for customer trunks.
   name: Nfon Customer Trunks API
   slug: nfon-customer-trunks-api
-- description: The Customer Voice Recording API from Nfon — 2 operation(s) for customer voice recording.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Customer Voice Recording API from Nfon — 2 operation(s) for customer voice recording.
   name: Nfon Customer Voice Recording API
   slug: nfon-customer-voice-recording-api
-- description: Customer management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Customer management
   name: Nfon Customers API
   slug: nfon-customers-api
-- description: The Device IDs API from Nfon — 1 operation(s) for device ids.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Device IDs API from Nfon — 1 operation(s) for device ids.
   name: Nfon Device IDs API
   slug: nfon-device-ids-api
-- description: The Device Types API from Nfon — 4 operation(s) for device types.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Device Types API from Nfon — 4 operation(s) for device types.
   name: Nfon Device Types API
   slug: nfon-device-types-api
-- description: The Devices API from Nfon — 5 operation(s) for devices.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Devices API from Nfon — 5 operation(s) for devices.
   name: Nfon Devices API
   slug: nfon-devices-api
-- description: The Direct Calls API from Nfon — 2 operation(s) for direct calls.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Direct Calls API from Nfon — 2 operation(s) for direct calls.
   name: Nfon Direct Calls API
   slug: nfon-direct-calls-api
-- description: Bulk import and export operations
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Bulk import and export operations
   name: Nfon import-export API
   slug: nfon-import-export-api
-- description: The Integration Types API from Nfon — 2 operation(s) for integration types.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Integration Types API from Nfon — 2 operation(s) for integration types.
   name: Nfon Integration Types API
   slug: nfon-integration-types-api
-- description: Unified license management operations
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Unified license management operations
   name: Nfon licenses API
   slug: nfon-licenses-api
-- description: Operator management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Operator management
   name: Nfon Operators API
   slug: nfon-operators-api
-- description: PBX group management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: PBX group management
   name: Nfon PBX Groups API
   slug: nfon-pbx-groups-api
-- description: Data for phone extensions
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Data for phone extensions
   name: Nfon phone extensions API
   slug: nfon-phone-extensions-api
-- description: The queue-profiles API from Nfon — 5 operation(s) for queue-profiles.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The queue-profiles API from Nfon — 5 operation(s) for queue-profiles.
   name: Nfon queue-profiles API
   slug: nfon-queue-profiles-api
-- description: Rating profile management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Rating profile management
   name: Nfon Rating Profiles API
   slug: nfon-rating-profiles-api
-- description: Call Records Management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Call Records Management
   name: Nfon records API
   slug: nfon-records-api
-- description: Find references to identifiers (extensions and service codes)
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Find references to identifiers (extensions and service codes)
   name: Nfon references API
   slug: nfon-references-api
-- description: Manage SIP server infrastructure
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Manage SIP server infrastructure
   name: Nfon SIP Servers API
   slug: nfon-sip-servers-api
-- description: Site management operations
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Site management operations
   name: Nfon sites API
   slug: nfon-sites-api
-- description: Softswitch management
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Softswitch management
   name: Nfon Softswitches API
   slug: nfon-softswitches-api
-- description: The System Integrators API from Nfon — 3 operation(s) for system integrators.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The System Integrators API from Nfon — 3 operation(s) for system integrators.
   name: Nfon System Integrators API
   slug: nfon-system-integrators-api
-- description: The Tenants API from Nfon — 9 operation(s) for tenants.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Tenants API from Nfon — 9 operation(s) for tenants.
   name: Nfon Tenants API
   slug: nfon-tenants-api
-- description: The Timezones API from Nfon — 2 operation(s) for timezones.
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: The Timezones API from Nfon — 2 operation(s) for timezones.
   name: Nfon Timezones API
   slug: nfon-timezones-api
-- description: Trial template operations
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Trial template operations
   name: Nfon trial-templates API
   slug: nfon-trial-templates-api
-- description: Trunk management operations
+- baseURL: https://api.nfon.net/configuration/v1
+  baseurl_source: declared
+  description: Trunk management operations
   name: Nfon trunks API
   slug: nfon-trunks-api
 artifact_total: 109
@@ -518,7 +622,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -528,7 +632,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 50.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -550,7 +654,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

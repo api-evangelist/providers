@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: Legacy GraphQL API providing access to Open States legislative data. This API has been deprecated in favour of API v3. Existing integrations should migrate to the REST v3 API.
   name: Open States GraphQL API (v2 - Deprecated)
   slug: openstates-graphql-api
-- description: The bills API from Open States — 3 operation(s) for bills.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The bills API from Open States — 3 operation(s) for bills.
   name: Open States bills API
   slug: openstates-bills-api
-- description: The committees API from Open States — 2 operation(s) for committees.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The committees API from Open States — 2 operation(s) for committees.
   name: Open States committees API
   slug: openstates-committees-api
-- description: The events API from Open States — 2 operation(s) for events.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The events API from Open States — 2 operation(s) for events.
   name: Open States events API
   slug: openstates-events-api
-- description: The jurisdictions API from Open States — 2 operation(s) for jurisdictions.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The jurisdictions API from Open States — 2 operation(s) for jurisdictions.
   name: Open States jurisdictions API
   slug: openstates-jurisdictions-api
-- description: The Metrics API from Open States — 1 operation(s) for metrics.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The Metrics API from Open States — 1 operation(s) for metrics.
   name: Open States Metrics API
   slug: openstates-metrics-api
-- description: The people API from Open States — 2 operation(s) for people.
+- baseURL: https://v3.openstates.org/
+  baseurl_source: declared
+  description: The people API from Open States — 2 operation(s) for people.
   name: Open States people API
   slug: openstates-people-api
 artifact_total: 28
@@ -248,7 +260,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png
 security:

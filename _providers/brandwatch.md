@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
@@ -54,25 +54,39 @@ apis:
 - description: Consolidate conversations from social media inboxes with customer inquiries across platforms. Enables integration of Brandwatch's engagement tools with CRM and customer service systems for unified con
   name: Brandwatch Engage API
   slug: engage-api
-- description: The Client API from Brandwatch — 1 operation(s) for client.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Client API from Brandwatch — 1 operation(s) for client.
   name: Brandwatch Client API
   slug: brandwatch-client-api
-- description: The Data API from Brandwatch — 2 operation(s) for data.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Data API from Brandwatch — 2 operation(s) for data.
   name: Brandwatch Data API
   slug: brandwatch-data-api
-- description: The Me API from Brandwatch — 1 operation(s) for me.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Me API from Brandwatch — 1 operation(s) for me.
   name: Brandwatch Me API
   slug: brandwatch-me-api
-- description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
   name: Brandwatch OAUTH API
   slug: brandwatch-oauth-api
-- description: The Project API from Brandwatch — 1 operation(s) for project.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Project API from Brandwatch — 1 operation(s) for project.
   name: Brandwatch Project API
   slug: brandwatch-project-api
-- description: The Projects API from Brandwatch — 26 operation(s) for projects.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The Projects API from Brandwatch — 26 operation(s) for projects.
   name: Brandwatch Projects API
   slug: brandwatch-projects-api
-- description: The User API from Brandwatch — 1 operation(s) for user.
+- baseURL: https://api.brandwatch.com
+  baseurl_source: declared
+  description: The User API from Brandwatch — 1 operation(s) for user.
   name: Brandwatch User API
   slug: brandwatch-user-api
 artifact_total: 23
@@ -319,7 +333,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
 security:

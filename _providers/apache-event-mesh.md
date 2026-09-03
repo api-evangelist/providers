@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -46,22 +46,34 @@ apis:
 - description: Event-driven messaging via TCP, HTTP, and gRPC protocols. Events follow the CloudEvents specification. Supports pub-sub, request-reply, and broadcast messaging patterns.
   name: Apache EventMesh Messaging API
   slug: eventmesh-messaging-api
-- description: The Client API from Apache EventMesh — 1 operation(s) for client.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Client API from Apache EventMesh — 1 operation(s) for client.
   name: Apache EventMesh Client API
   slug: apache-event-mesh-client-api
-- description: The Event API from Apache EventMesh — 2 operation(s) for event.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Event API from Apache EventMesh — 2 operation(s) for event.
   name: Apache EventMesh Event API
   slug: apache-event-mesh-event-api
-- description: The Monitoring API from Apache EventMesh — 2 operation(s) for monitoring.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Monitoring API from Apache EventMesh — 2 operation(s) for monitoring.
   name: Apache EventMesh Monitoring API
   slug: apache-event-mesh-monitoring-api
-- description: The Registry API from Apache EventMesh — 1 operation(s) for registry.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Registry API from Apache EventMesh — 1 operation(s) for registry.
   name: Apache EventMesh Registry API
   slug: apache-event-mesh-registry-api
-- description: The Subscription API from Apache EventMesh — 1 operation(s) for subscription.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Subscription API from Apache EventMesh — 1 operation(s) for subscription.
   name: Apache EventMesh Subscription API
   slug: apache-event-mesh-subscription-api
-- description: The Topic API from Apache EventMesh — 3 operation(s) for topic.
+- baseURL: http://localhost:10106
+  baseurl_source: declared
+  description: The Topic API from Apache EventMesh — 3 operation(s) for topic.
   name: Apache EventMesh Topic API
   slug: apache-event-mesh-topic-api
 artifact_total: 54
@@ -295,7 +307,7 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -308,7 +320,7 @@ score:
   open_source:
     applies: true
     score: 40.0
-  previous_composite: 34.5
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -317,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/screenshots/apache-event-mesh-2026-06-20T172059.png
 security:

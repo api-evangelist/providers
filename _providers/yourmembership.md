@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 12 operations · 2 acting
 api_count: 1
 apis:
-- description: OAuth authentication for the YM REST API.
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: OAuth authentication for the YM REST API.
   name: YourMembership Authentication API
   slug: yourmembership-authentication-api
-- description: Member certifications, credentials, and continuing-education credits. Modeled.
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: Member certifications, credentials, and continuing-education credits. Modeled.
   name: YourMembership Certifications API
   slug: yourmembership-certifications-api
-- description: YM Store orders, transactions, dues, and donation exports. Modeled.
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: YM Store orders, transactions, dues, and donation exports. Modeled.
   name: YourMembership Commerce and Sales API
   slug: yourmembership-commerce-and-sales-api
-- description: Groups, messaging, journals, and community content. Modeled.
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: Groups, messaging, journals, and community content. Modeled.
   name: YourMembership Content and Community API
   slug: yourmembership-content-and-community-api
-- description: Events, event details, and registrations (YM Events module). Modeled.
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: Events, event details, and registrations (YM Events module). Modeled.
   name: YourMembership Events API
   slug: yourmembership-events-api
-- description: Member and contact records, profiles, and custom fields (confirmed MemberProfile / People endpoints).
+- baseURL: https://ws.yourmembership.com
+  baseurl_source: declared
+  description: Member and contact records, profiles, and custom fields (confirmed MemberProfile / People endpoints).
   name: YourMembership Members API
   slug: yourmembership-members-api
 artifact_total: 21
@@ -164,7 +176,7 @@ score:
   band: thin
   composite: 34.1
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -187,8 +199,9 @@ score:
       marker_coverage: 33.3
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/yourmembership/refs/heads/main/screenshots/yourmembership-2026-09-02T171341.png
 security:
 - kind: authentication
   name: Yourmembership Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: The Hotjar JavaScript SDK (@hotjar/browser) is an npm package that provides a programmatic interface for integrating Hotjar directly into JavaScript applications. It allows developers to initialize Ho
   name: Hotjar JavaScript SDK
   slug: javascript-sdk
-- description: OAuth 2.0 client credentials authentication endpoints for obtaining access tokens.
+- baseURL: https://api.hotjar.com
+  baseurl_source: declared
+  description: OAuth 2.0 client credentials authentication endpoints for obtaining access tokens.
   name: hotjar Authentication API
   slug: hotjar-authentication-api
-- description: Endpoints for exporting and listing survey response data with cursor-based pagination.
+- baseURL: https://api.hotjar.com
+  baseurl_source: declared
+  description: Endpoints for exporting and listing survey response data with cursor-based pagination.
   name: hotjar Survey Responses API
   slug: hotjar-survey-responses-api
-- description: Endpoints for listing surveys and retrieving survey details for a specific site.
+- baseURL: https://api.hotjar.com
+  baseurl_source: declared
+  description: Endpoints for listing surveys and retrieving survey details for a specific site.
   name: hotjar Surveys API
   slug: hotjar-surveys-api
-- description: Endpoints for looking up user data and submitting deletion requests for GDPR compliance.
+- baseURL: https://api.hotjar.com
+  baseurl_source: declared
+  description: Endpoints for looking up user data and submitting deletion requests for GDPR compliance.
   name: hotjar User Lookup API
   slug: hotjar-user-lookup-api
 artifact_total: 51
@@ -192,16 +200,16 @@ jsonld:
   slug: hotjar-context
 layout: provider
 modified: '2026-05-19'
-name: hotjar
+name: Hotjar
 nav: Providers
 network: true
-overview: 'hotjar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Survey Responses API, Surveys API, and 1 more.
+overview: 'Hotjar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Survey Responses API, Surveys API, and 1 more.
 
 
-  The hotjar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Hotjar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  hotjar''s developer surface includes authentication and 7 more developer resources.'
+  Hotjar''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Hotjar Plans Pricing
   plan_count: 6
@@ -214,7 +222,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: hotjar API Rules
+  name: Hotjar API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -250,10 +258,10 @@ score:
       total: 4
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hotjar/refs/heads/main/screenshots/hotjar-2026-06-20T182845.png
 security:

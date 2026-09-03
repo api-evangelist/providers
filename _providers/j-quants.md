@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,31 +47,49 @@ apis:
 - description: The J-Quants API (V2) is a data distribution service operated by Japan Exchange Group (JPX) that makes it easy to obtain cleansed financial data such as Japanese stock prices and financials in histori
   name: J-Quants API
   slug: j-quants-api
-- description: The Derivatives API from J-Quants — 2 operation(s) for derivatives.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Derivatives API from J-Quants — 2 operation(s) for derivatives.
   name: J-Quants Derivatives API
   slug: j-quants-derivatives-api
-- description: The Equities API from J-Quants — 1 operation(s) for equities.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Equities API from J-Quants — 1 operation(s) for equities.
   name: J-Quants Equities API
   slug: j-quants-equities-api
-- description: The Fins API from J-Quants — 4 operation(s) for fins.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Fins API from J-Quants — 4 operation(s) for fins.
   name: J-Quants Fins API
   slug: j-quants-fins-api
-- description: The Indices API from J-Quants — 1 operation(s) for indices.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Indices API from J-Quants — 1 operation(s) for indices.
   name: J-Quants Indices API
   slug: j-quants-indices-api
-- description: The Listed API from J-Quants — 1 operation(s) for listed.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Listed API from J-Quants — 1 operation(s) for listed.
   name: J-Quants Listed API
   slug: j-quants-listed-api
-- description: The Markets API from J-Quants — 7 operation(s) for markets.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Markets API from J-Quants — 7 operation(s) for markets.
   name: J-Quants Markets API
   slug: j-quants-markets-api
-- description: The Option API from J-Quants — 1 operation(s) for option.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Option API from J-Quants — 1 operation(s) for option.
   name: J-Quants Option API
   slug: j-quants-option-api
-- description: The Prices API from J-Quants — 2 operation(s) for prices.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Prices API from J-Quants — 2 operation(s) for prices.
   name: J-Quants Prices API
   slug: j-quants-prices-api
-- description: The Token API from J-Quants — 2 operation(s) for token.
+- baseURL: https://api.jquants.com/
+  baseurl_source: declared
+  description: The Token API from J-Quants — 2 operation(s) for token.
   name: J-Quants Token API
   slug: j-quants-token-api
 artifact_total: 27
@@ -190,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/screenshots/j-quants-2026-06-20T183644.png
 security:

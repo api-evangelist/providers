@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Operations for managing CloudFormation change sets
+- baseURL: https://cloudformation.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing CloudFormation change sets
   name: Amazon CloudFormation Change Sets API
   slug: amazon-cloudformation-change-sets-api
-- description: Operations for managing stack resources
+- baseURL: https://cloudformation.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing stack resources
   name: Amazon CloudFormation Resources API
   slug: amazon-cloudformation-resources-api
-- description: Operations for managing CloudFormation stacks
+- baseURL: https://cloudformation.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing CloudFormation stacks
   name: Amazon CloudFormation Stacks API
   slug: amazon-cloudformation-stacks-api
-- description: Operations for working with CloudFormation templates
+- baseURL: https://cloudformation.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Operations for working with CloudFormation templates
   name: Amazon CloudFormation Templates API
   slug: amazon-cloudformation-templates-api
 artifact_total: 78
@@ -416,7 +424,7 @@ score:
       total: 4
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:

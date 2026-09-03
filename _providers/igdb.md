@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 17 operations · 17 acting
 api_count: 1
 apis:
-- description: Companies and developers/publishers in the gaming industry.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Companies and developers/publishers in the gaming industry.
   name: IGDB Companies API
   slug: igdb-companies-api
-- description: Video game records and related metadata.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Video game records and related metadata.
   name: IGDB Games API
   slug: igdb-games-api
-- description: Game genres and themes.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Game genres and themes.
   name: IGDB Genres API
   slug: igdb-genres-api
-- description: Covers, screenshots, artworks, and other media.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Covers, screenshots, artworks, and other media.
   name: IGDB Media API
   slug: igdb-media-api
-- description: Gaming platforms and hardware.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Gaming platforms and hardware.
   name: IGDB Platforms API
   slug: igdb-platforms-api
-- description: Reference data such as keywords, collections, and franchises.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Reference data such as keywords, collections, and franchises.
   name: IGDB Reference API
   slug: igdb-reference-api
-- description: Release dates and regional releases.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Release dates and regional releases.
   name: IGDB Releases API
   slug: igdb-releases-api
-- description: Cross-entity search.
+- baseURL: https://api.igdb.com/v4
+  baseurl_source: declared
+  description: Cross-entity search.
   name: IGDB Search API
   slug: igdb-search-api
 artifact_total: 25
@@ -195,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/igdb/refs/heads/main/screenshots/igdb-2026-06-20T183218.png
 security:

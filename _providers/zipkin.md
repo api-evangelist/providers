@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,22 +43,34 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: Autocomplete tag key and value lookups
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Autocomplete tag key and value lookups
   name: Zipkin Autocomplete API
   slug: zipkin-autocomplete-api
-- description: Query service dependency links
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Query service dependency links
   name: Zipkin Dependencies API
   slug: zipkin-dependencies-api
-- description: Server health check
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Server health check
   name: Zipkin Health API
   slug: zipkin-health-api
-- description: Query registered service names
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Query registered service names
   name: Zipkin Services API
   slug: zipkin-services-api
-- description: Submit and query span names
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Submit and query span names
   name: Zipkin Spans API
   slug: zipkin-spans-api
-- description: Search and retrieve distributed traces
+- baseURL: http://localhost:9411
+  baseurl_source: spec
+  description: Search and retrieve distributed traces
   name: Zipkin Traces API
   slug: zipkin-traces-api
 artifact_total: 49
@@ -304,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/screenshots/zipkin-2026-06-20T201916.png
 security:

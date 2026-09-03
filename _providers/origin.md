@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: The Trades API from Origin — 3 operation(s) for trades.
+- baseURL: https://airbrush.originmarkets.com/v3
+  baseurl_source: declared
+  description: The Trades API from Origin — 3 operation(s) for trades.
   name: Origin Trades API
   slug: origin-trades-api
 artifact_total: 10
@@ -208,7 +210,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -44,94 +44,154 @@ agentic_access:
   summary_line: 136 operations · 100 acting
 api_count: 3
 apis:
-- description: The Administration API from Bringg — 1 operation(s) for administration.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Administration API from Bringg — 1 operation(s) for administration.
   name: Bringg Administration API
   slug: bringg-administration-api
-- description: The Analytics API from Bringg — 2 operation(s) for analytics.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Analytics API from Bringg — 2 operation(s) for analytics.
   name: Bringg Analytics API
   slug: bringg-analytics-api
-- description: The Authentication API from Bringg — 2 operation(s) for authentication.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Authentication API from Bringg — 2 operation(s) for authentication.
   name: Bringg Authentication API
   slug: bringg-authentication-api
-- description: The Blackouts API from Bringg — 4 operation(s) for blackouts.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Blackouts API from Bringg — 4 operation(s) for blackouts.
   name: Bringg Blackouts API
   slug: bringg-blackouts-api
-- description: The Bulk API from Bringg — 3 operation(s) for bulk.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Bulk API from Bringg — 3 operation(s) for bulk.
   name: Bringg Bulk API
   slug: bringg-bulk-api
-- description: The Customers API from Bringg — 5 operation(s) for customers.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Customers API from Bringg — 5 operation(s) for customers.
   name: Bringg Customers API
   slug: bringg-customers-api
-- description: The Delivery Blocks API from Bringg — 8 operation(s) for delivery blocks.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Delivery Blocks API from Bringg — 8 operation(s) for delivery blocks.
   name: Bringg Delivery Blocks API
   slug: bringg-delivery-blocks-api
-- description: The Delivery Slots API from Bringg — 2 operation(s) for delivery slots.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Delivery Slots API from Bringg — 2 operation(s) for delivery slots.
   name: Bringg Delivery Slots API
   slug: bringg-delivery-slots-api
-- description: The Drivers API from Bringg — 15 operation(s) for drivers.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Drivers API from Bringg — 15 operation(s) for drivers.
   name: Bringg Drivers API
   slug: bringg-drivers-api
-- description: The Floating Inventory API from Bringg — 4 operation(s) for floating inventory.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Floating Inventory API from Bringg — 4 operation(s) for floating inventory.
   name: Bringg Floating Inventory API
   slug: bringg-floating-inventory-api
-- description: The Inventory API from Bringg — 2 operation(s) for inventory.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Inventory API from Bringg — 2 operation(s) for inventory.
   name: Bringg Inventory API
   slug: bringg-inventory-api
-- description: The Notes API from Bringg — 3 operation(s) for notes.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Notes API from Bringg — 3 operation(s) for notes.
   name: Bringg Notes API
   slug: bringg-notes-api
-- description: The Operations API from Bringg — 1 operation(s) for operations.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Operations API from Bringg — 1 operation(s) for operations.
   name: Bringg Operations API
   slug: bringg-operations-api
-- description: The Order Configurations API from Bringg — 2 operation(s) for order configurations.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Order Configurations API from Bringg — 2 operation(s) for order configurations.
   name: Bringg Order Configurations API
   slug: bringg-order-configurations-api
-- description: The Orders API from Bringg — 22 operation(s) for orders.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Orders API from Bringg — 22 operation(s) for orders.
   name: Bringg Orders API
   slug: bringg-orders-api
-- description: The Packages API from Bringg — 6 operation(s) for packages.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Packages API from Bringg — 6 operation(s) for packages.
   name: Bringg Packages API
   slug: bringg-packages-api
-- description: The Parking Spots API from Bringg — 5 operation(s) for parking spots.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Parking Spots API from Bringg — 5 operation(s) for parking spots.
   name: Bringg Parking Spots API
   slug: bringg-parking-spots-api
-- description: The Planned Routes API from Bringg — 2 operation(s) for planned routes.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Planned Routes API from Bringg — 2 operation(s) for planned routes.
   name: Bringg Planned Routes API
   slug: bringg-planned-routes-api
-- description: The Quotes API from Bringg — 1 operation(s) for quotes.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Quotes API from Bringg — 1 operation(s) for quotes.
   name: Bringg Quotes API
   slug: bringg-quotes-api
-- description: The Recurring Orders API from Bringg — 3 operation(s) for recurring orders.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Recurring Orders API from Bringg — 3 operation(s) for recurring orders.
   name: Bringg Recurring Orders API
   slug: bringg-recurring-orders-api
-- description: The Routes API from Bringg — 4 operation(s) for routes.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Routes API from Bringg — 4 operation(s) for routes.
   name: Bringg Routes API
   slug: bringg-routes-api
-- description: The Service Areas API from Bringg — 8 operation(s) for service areas.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Service Areas API from Bringg — 8 operation(s) for service areas.
   name: Bringg Service Areas API
   slug: bringg-service-areas-api
-- description: The Service Plans API from Bringg — 4 operation(s) for service plans.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Service Plans API from Bringg — 4 operation(s) for service plans.
   name: Bringg Service Plans API
   slug: bringg-service-plans-api
-- description: The Shifts API from Bringg — 2 operation(s) for shifts.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Shifts API from Bringg — 2 operation(s) for shifts.
   name: Bringg Shifts API
   slug: bringg-shifts-api
-- description: The Teams API from Bringg — 8 operation(s) for teams.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Teams API from Bringg — 8 operation(s) for teams.
   name: Bringg Teams API
   slug: bringg-teams-api
-- description: The Users API from Bringg — 6 operation(s) for users.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Users API from Bringg — 6 operation(s) for users.
   name: Bringg Users API
   slug: bringg-users-api
-- description: The Vehicle Profiles API from Bringg — 5 operation(s) for vehicle profiles.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Vehicle Profiles API from Bringg — 5 operation(s) for vehicle profiles.
   name: Bringg Vehicle Profiles API
   slug: bringg-vehicle-profiles-api
-- description: The Vehicles API from Bringg — 8 operation(s) for vehicles.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Vehicles API from Bringg — 8 operation(s) for vehicles.
   name: Bringg Vehicles API
   slug: bringg-vehicles-api
-- description: The Waypoints API from Bringg — 6 operation(s) for waypoints.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Waypoints API from Bringg — 6 operation(s) for waypoints.
   name: Bringg Waypoints API
   slug: bringg-waypoints-api
-- description: The Webhooks API from Bringg — 7 operation(s) for webhooks.
+- baseURL: https://us2-admin-api.bringg.com
+  baseurl_source: declared
+  description: The Webhooks API from Bringg — 7 operation(s) for webhooks.
   name: Bringg Webhooks API
   slug: bringg-webhooks-api
 artifact_total: 141
@@ -627,7 +687,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -637,7 +697,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 61.8
-  previous_composite: 59.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -652,7 +712,7 @@ score:
     regime_id: telecommunications
     score: 56.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

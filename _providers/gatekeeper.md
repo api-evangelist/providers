@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API for the Gatekeeper contract and vendor management platform. Exposes vendors, contracts, employees, custom data, files, events, and workflows. The base URL and interactive docume
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gatekeeper/refs/heads/main/screenshots/gatekeeper-2026-06-20T181653.png
 security:

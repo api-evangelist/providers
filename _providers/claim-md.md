@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 15 operations · 15 acting
 api_count: 1
 apis:
-- description: Claim status responses, modifications, and notes.
+- baseURL: https://svc.claim.md/services
+  baseurl_source: declared
+  description: Claim status responses, modifications, and notes.
   name: Claim.MD Claim Status API
   slug: claim-md-claim-status-api
-- description: Claim file upload and reconciliation.
+- baseURL: https://svc.claim.md/services
+  baseurl_source: declared
+  description: Claim file upload and reconciliation.
   name: Claim.MD Claims API
   slug: claim-md-claims-api
-- description: Real-time eligibility and benefit verification (270/271).
+- baseURL: https://svc.claim.md/services
+  baseurl_source: declared
+  description: Real-time eligibility and benefit verification (270/271).
   name: Claim.MD Eligibility API
   slug: claim-md-eligibility-api
-- description: Electronic remittance advice (835) listing and retrieval.
+- baseURL: https://svc.claim.md/services
+  baseurl_source: declared
+  description: Electronic remittance advice (835) listing and retrieval.
   name: Claim.MD ERA API
   slug: claim-md-era-api
-- description: Payer directory, enrollment, appeals, and webhooks.
+- baseURL: https://svc.claim.md/services
+  baseurl_source: declared
+  description: Payer directory, enrollment, appeals, and webhooks.
   name: Claim.MD Reference API
   slug: claim-md-reference-api
 artifact_total: 18
@@ -185,7 +195,7 @@ score:
     regime_id: health
     score: 15.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/claim-md/refs/heads/main/screenshots/claim-md-2026-07-25T205451.png
 security:

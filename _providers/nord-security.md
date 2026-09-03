@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: Remote MCP server that lets any MCP-compatible assistant query the NordStellar platform in natural language. Clients connect through the open-source nordstellar-mcp auth proxy (PyPI, run via uvx, or a
@@ -42,94 +54,154 @@ apis:
 - description: 'Unauthenticated JSON API that NordVPN''s own clients and the open-source Linux client use to enumerate the server estate — servers, countries, cities, groups and technologies. It is publicly reachable '
   name: NordVPN Public Server API
   slug: nordvpn-public-server-api
-- description: Endpoints for administering API keys, and web hook settings. These operations enable administrators to list and manage API keys, update webhook configuration.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for administering API keys, and web hook settings. These operations enable administrators to list and manage API keys, update webhook configuration.
   name: Nord Security API User Management API
   slug: nord-security-api-user-management-api
-- description: The Applications API from Nord Security — 1 operation(s) for applications.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Applications API from Nord Security — 1 operation(s) for applications.
   name: Nord Security Applications API
   slug: nord-security-applications-api
-- description: The AUC API from Nord Security — 2 operation(s) for auc.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The AUC API from Nord Security — 2 operation(s) for auc.
   name: Nord Security AUC API
   slug: nord-security-auc-api
-- description: Endpoints for retrieving detailed metadata about breach origins, including databases. These operations provide comprehensive context about database breach incidents, affected platforms, and exposure s
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for retrieving detailed metadata about breach origins, including databases. These operations provide comprehensive context about database breach incidents, affected platforms, and exposure s
   name: Nord Security Breached Databases API
   slug: nord-security-breached-databases-api
-- description: The Company Details API from Nord Security — 4 operation(s) for company details.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Company Details API from Nord Security — 4 operation(s) for company details.
   name: Nord Security Company Details API
   slug: nord-security-company-details-api
-- description: Endpoints for comprehensive cookie data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust cookie security protection and exposure assessment.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for comprehensive cookie data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust cookie security protection and exposure assessment.
   name: Nord Security Cookie Intelligence API
   slug: nord-security-cookie-intelligence-api
-- description: The Cookies API from Nord Security — 1 operation(s) for cookies.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Cookies API from Nord Security — 1 operation(s) for cookies.
   name: Nord Security Cookies API
   slug: nord-security-cookies-api
-- description: 'Endpoints for retrieving detailed metadata about breach origins, including credential lists. These operations provide comprehensive context about credential list breach incidents, affected platforms, '
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: 'Endpoints for retrieving detailed metadata about breach origins, including credential lists. These operations provide comprehensive context about credential list breach incidents, affected platforms, '
   name: Nord Security Credential Lists API
   slug: nord-security-credential-lists-api
-- description: Endpoints for comprehensive credit card data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust credit card security protection and exposure asse
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for comprehensive credit card data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust credit card security protection and exposure asse
   name: Nord Security Credit Card Intelligence API
   slug: nord-security-credit-card-intelligence-api
-- description: The Crypto Addresses API from Nord Security — 1 operation(s) for crypto addresses.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Crypto Addresses API from Nord Security — 1 operation(s) for crypto addresses.
   name: Nord Security Crypto Addresses API
   slug: nord-security-crypto-addresses-api
-- description: Endpoints for searching scraped content from the dark web
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for searching scraped content from the dark web
   name: Nord Security Dark Web Intelligence API
   slug: nord-security-dark-web-intelligence-api
-- description: Endpoints for investigating domain exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against domain hijacking, phishing atta
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for investigating domain exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against domain hijacking, phishing atta
   name: Nord Security Domain Intelligence API
   slug: nord-security-domain-intelligence-api
-- description: Endpoints for comprehensive email address monitoring in data breaches, including detailed breach information, password exposure, and statistical analysis. These operations enable robust email security
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for comprehensive email address monitoring in data breaches, including detailed breach information, password exposure, and statistical analysis. These operations enable robust email security
   name: Nord Security Email Intelligence API
   slug: nord-security-email-intelligence-api
-- description: The Events API from Nord Security — 36 operation(s) for events.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Events API from Nord Security — 36 operation(s) for events.
   name: Nord Security Events API
   slug: nord-security-events-api
-- description: The Files API from Nord Security — 8 operation(s) for files.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Files API from Nord Security — 8 operation(s) for files.
   name: Nord Security Files API
   slug: nord-security-files-api
-- description: The Lists API from Nord Security — 3 operation(s) for lists.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Lists API from Nord Security — 3 operation(s) for lists.
   name: Nord Security Lists API
   slug: nord-security-lists-api
-- description: Endpoints for retrieving detailed metadata about breach origins, including malware logs. These operations provide comprehensive context about malware logs breach incidents, affected platforms, and exp
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for retrieving detailed metadata about breach origins, including malware logs. These operations provide comprehensive context about malware logs breach incidents, affected platforms, and exp
   name: Nord Security Malware Logs Intelligence API
   slug: nord-security-malware-logs-intelligence-api
-- description: The ML Models API from Nord Security — 2 operation(s) for ml models.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The ML Models API from Nord Security — 2 operation(s) for ml models.
   name: Nord Security ML Models API
   slug: nord-security-ml-models-api
-- description: Endpoints for comprehensive national identification number data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust national identification number
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for comprehensive national identification number data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust national identification number
   name: Nord Security National Identification Number Intelligence API
   slug: nord-security-national-identification-number-intelligence-api
-- description: The Partners API from Nord Security — 4 operation(s) for partners.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Partners API from Nord Security — 4 operation(s) for partners.
   name: Nord Security Partners API
   slug: nord-security-partners-api
-- description: Endpoints for comprehensive password data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust password security protection and exposure assessment
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for comprehensive password data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust password security protection and exposure assessment
   name: Nord Security Password Intelligence API
   slug: nord-security-password-intelligence-api
-- description: Endpoints for investigating phone number exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against SIM swapping, phone-based
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for investigating phone number exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against SIM swapping, phone-based
   name: Nord Security Phone Intelligence API
   slug: nord-security-phone-intelligence-api
-- description: Endpoints for generating OSINT-based profiling reports on email addresses and phone numbers. Reports aggregate data from external intelligence sources, enrich it with internal breach data, and produce
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for generating OSINT-based profiling reports on email addresses and phone numbers. Reports aggregate data from external intelligence sources, enrich it with internal breach data, and produce
   name: Nord Security Profiling API
   slug: nord-security-profiling-api
-- description: The Projects API from Nord Security — 6 operation(s) for projects.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Projects API from Nord Security — 6 operation(s) for projects.
   name: Nord Security Projects API
   slug: nord-security-projects-api
-- description: The Results API from Nord Security — 8 operation(s) for results.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Results API from Nord Security — 8 operation(s) for results.
   name: Nord Security Results API
   slug: nord-security-results-api
-- description: The Scanning API from Nord Security — 2 operation(s) for scanning.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Scanning API from Nord Security — 2 operation(s) for scanning.
   name: Nord Security Scanning API
   slug: nord-security-scanning-api
-- description: Endpoints for managing user subscriptions to data breach monitoring services. These operations enable administrators to create, update, and delete subscriptions for email addresses, phone numbers, dom
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Endpoints for managing user subscriptions to data breach monitoring services. These operations enable administrators to create, update, and delete subscriptions for email addresses, phone numbers, dom
   name: Nord Security Subscription Management API
   slug: nord-security-subscription-management-api
-- description: The URL scanner API from Nord Security — 1 operation(s) for url scanner.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The URL scanner API from Nord Security — 1 operation(s) for url scanner.
   name: Nord Security URL scanner API
   slug: nord-security-url-scanner-api
-- description: The Urls API from Nord Security — 4 operation(s) for urls.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: The Urls API from Nord Security — 4 operation(s) for urls.
   name: Nord Security URLS API
   slug: nord-security-urls-api
-- description: Utility endpoints for supporting zero-knowledge functionalities, such as retrieving salts. These operations are essential for the proper functioning of zero-knowledge security features.
+- baseURL: https://enterprise-data-api.nordstellar.com
+  baseurl_source: declared
+  description: Utility endpoints for supporting zero-knowledge functionalities, such as retrieving salts. These operations are essential for the proper functioning of zero-knowledge security features.
   name: Nord Security Utility Endpoints API
   slug: nord-security-utility-endpoints-api
 artifact_total: 49
@@ -392,7 +464,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -405,7 +477,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 54.4
+  previous_composite: 54.5
   provenance:
     conformance: derived
     contracts:
@@ -416,7 +488,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:

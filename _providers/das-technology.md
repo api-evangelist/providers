@@ -34,88 +34,142 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
-- description: The Account API from DAS Technology — 30 operation(s) for account.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Account API from DAS Technology — 30 operation(s) for account.
   name: DAS Technology Account API
   slug: das-technology-account-api
-- description: The AccountV2 API from DAS Technology — 11 operation(s) for accountv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The AccountV2 API from DAS Technology — 11 operation(s) for accountv2.
   name: DAS Technology Account V2 API
   slug: das-technology-accountv2-api
-- description: The Client API from DAS Technology — 2 operation(s) for client.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Client API from DAS Technology — 2 operation(s) for client.
   name: DAS Technology Client API
   slug: das-technology-client-api
-- description: The Configuration API from DAS Technology — 2 operation(s) for configuration.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Configuration API from DAS Technology — 2 operation(s) for configuration.
   name: DAS Technology Configuration API
   slug: das-technology-configuration-api
-- description: The Employee API from DAS Technology — 1 operation(s) for employee.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Employee API from DAS Technology — 1 operation(s) for employee.
   name: DAS Technology Employee API
   slug: das-technology-employee-api
-- description: The HierarchyV2 API from DAS Technology — 1 operation(s) for hierarchyv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The HierarchyV2 API from DAS Technology — 1 operation(s) for hierarchyv2.
   name: DAS Technology Hierarchy V2 API
   slug: das-technology-hierarchyv2-api
-- description: The Incentives API from DAS Technology — 2 operation(s) for incentives.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Incentives API from DAS Technology — 2 operation(s) for incentives.
   name: DAS Technology Incentives API
   slug: das-technology-incentives-api
-- description: The Mail API from DAS Technology — 4 operation(s) for mail.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Mail API from DAS Technology — 4 operation(s) for mail.
   name: DAS Technology Mail API
   slug: das-technology-mail-api
-- description: The Media API from DAS Technology — 2 operation(s) for media.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Media API from DAS Technology — 2 operation(s) for media.
   name: DAS Technology Media API
   slug: das-technology-media-api
-- description: The Notification API from DAS Technology — 2 operation(s) for notification.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Notification API from DAS Technology — 2 operation(s) for notification.
   name: DAS Technology Notification API
   slug: das-technology-notification-api
-- description: The Promotions API from DAS Technology — 1 operation(s) for promotions.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Promotions API from DAS Technology — 1 operation(s) for promotions.
   name: DAS Technology Promotions API
   slug: das-technology-promotions-api
-- description: The Review API from DAS Technology — 9 operation(s) for review.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Review API from DAS Technology — 9 operation(s) for review.
   name: DAS Technology Review API
   slug: das-technology-review-api
-- description: The RLCustomer API from DAS Technology — 1 operation(s) for rlcustomer.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The RLCustomer API from DAS Technology — 1 operation(s) for rlcustomer.
   name: DAS Technology RL Customer API
   slug: das-technology-rlcustomer-api
-- description: The Site API from DAS Technology — 2 operation(s) for site.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Site API from DAS Technology — 2 operation(s) for site.
   name: DAS Technology Site API
   slug: das-technology-site-api
-- description: The SmartFacts API from DAS Technology — 1 operation(s) for smartfacts.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The SmartFacts API from DAS Technology — 1 operation(s) for smartfacts.
   name: DAS Technology Smart Facts API
   slug: das-technology-smartfacts-api
-- description: The SOCi API from DAS Technology — 2 operation(s) for soci.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The SOCi API from DAS Technology — 2 operation(s) for soci.
   name: DAS Technology SO Ci API
   slug: das-technology-soci-api
-- description: The SociV2 API from DAS Technology — 2 operation(s) for sociv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The SociV2 API from DAS Technology — 2 operation(s) for sociv2.
   name: DAS Technology Soci V2 API
   slug: das-technology-sociv2-api
-- description: The Stats API from DAS Technology — 5 operation(s) for stats.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Stats API from DAS Technology — 5 operation(s) for stats.
   name: DAS Technology Stats API
   slug: das-technology-stats-api
-- description: The StatsV2 API from DAS Technology — 8 operation(s) for statsv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The StatsV2 API from DAS Technology — 8 operation(s) for statsv2.
   name: DAS Technology Stats V2 API
   slug: das-technology-statsv2-api
-- description: The Survey API from DAS Technology — 7 operation(s) for survey.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Survey API from DAS Technology — 7 operation(s) for survey.
   name: DAS Technology Survey API
   slug: das-technology-survey-api
-- description: The SurveyResponse API from DAS Technology — 5 operation(s) for surveyresponse.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The SurveyResponse API from DAS Technology — 5 operation(s) for surveyresponse.
   name: DAS Technology Survey Response API
   slug: das-technology-surveyresponse-api
-- description: The SurveysV2 API from DAS Technology — 2 operation(s) for surveysv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The SurveysV2 API from DAS Technology — 2 operation(s) for surveysv2.
   name: DAS Technology Surveys V2 API
   slug: das-technology-surveysv2-api
-- description: The Transaction API from DAS Technology — 1 operation(s) for transaction.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Transaction API from DAS Technology — 1 operation(s) for transaction.
   name: DAS Technology Transaction API
   slug: das-technology-transaction-api
-- description: The User API from DAS Technology — 23 operation(s) for user.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The User API from DAS Technology — 23 operation(s) for user.
   name: DAS Technology User API
   slug: das-technology-user-api
-- description: The UserV2 API from DAS Technology — 2 operation(s) for userv2.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The UserV2 API from DAS Technology — 2 operation(s) for userv2.
   name: DAS Technology User V2 API
   slug: das-technology-userv2-api
-- description: The Vehicle API from DAS Technology — 2 operation(s) for vehicle.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Vehicle API from DAS Technology — 2 operation(s) for vehicle.
   name: DAS Technology Vehicle API
   slug: das-technology-vehicle-api
-- description: The Zuora API from DAS Technology — 1 operation(s) for zuora.
+- baseURL: https://api.digitalairstrike.com
+  baseurl_source: declared
+  description: The Zuora API from DAS Technology — 1 operation(s) for zuora.
   name: DAS Technology Zuora API
   slug: das-technology-zuora-api
 artifact_total: 34
@@ -238,7 +292,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/das-technology/refs/heads/main/screenshots/das-technology-2026-07-25T211222.png
 security:

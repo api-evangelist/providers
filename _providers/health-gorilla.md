@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 22 operations · 4 acting
 api_count: 1
 apis:
-- description: Raw clinical document content.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Raw clinical document content.
   name: Health Gorilla Binary API
   slug: health-gorilla-binary-api
-- description: FHIR server capability discovery.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: FHIR server capability discovery.
   name: Health Gorilla CapabilityStatement API
   slug: health-gorilla-capabilitystatement-api
-- description: Patient insurance coverage / eligibility.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Patient insurance coverage / eligibility.
   name: Health Gorilla Coverage API
   slug: health-gorilla-coverage-api
-- description: Structured lab and radiology results.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Structured lab and radiology results.
   name: Health Gorilla DiagnosticReport API
   slug: health-gorilla-diagnosticreport-api
-- description: Clinical document metadata.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Clinical document metadata.
   name: Health Gorilla DocumentReference API
   slug: health-gorilla-documentreference-api
-- description: Individual result observations.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Individual result observations.
   name: Health Gorilla Observation API
   slug: health-gorilla-observation-api
-- description: Patient demographics and patient-scoped record retrieval.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Patient demographics and patient-scoped record retrieval.
   name: Health Gorilla Patient API
   slug: health-gorilla-patient-api
-- description: Ordering and rendering providers.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Ordering and rendering providers.
   name: Health Gorilla Practitioner API
   slug: health-gorilla-practitioner-api
-- description: Parent diagnostic orders nesting individual ServiceRequest tests.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Parent diagnostic orders nesting individual ServiceRequest tests.
   name: Health Gorilla RequestGroup API
   slug: health-gorilla-requestgroup-api
-- description: Diagnostic (lab and radiology) order requests.
+- baseURL: https://api.healthgorilla.com/fhir/R4
+  baseurl_source: declared
+  description: Diagnostic (lab and radiology) order requests.
   name: Health Gorilla ServiceRequest API
   slug: health-gorilla-servicerequest-api
 arazzos:
@@ -355,7 +375,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
@@ -365,7 +385,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 69.8
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,7 +403,7 @@ score:
     regime_id: health
     score: 83.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/screenshots/health-gorilla-2026-07-25T220828.png
 security:

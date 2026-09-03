@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -53,10 +53,14 @@ apis:
 - description: Real-time multichain wallet, token, and transaction data across EVM and SVM chains via Sim by Dune.
   name: Dune Echo (Sim) Multichain API
   slug: echo-api
-- description: The Execution API from Dune Analytics — 3 operation(s) for execution.
+- baseURL: https://api.dune.com/api/v1
+  baseurl_source: declared
+  description: The Execution API from Dune Analytics — 3 operation(s) for execution.
   name: Dune Analytics Execution API
   slug: dune-analytics-execution-api
-- description: The Query API from Dune Analytics — 2 operation(s) for query.
+- baseURL: https://api.dune.com/api/v1
+  baseurl_source: declared
+  description: The Query API from Dune Analytics — 2 operation(s) for query.
   name: Dune Analytics Query API
   slug: dune-analytics-query-api
 artifact_total: 16
@@ -182,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dune-analytics/refs/heads/main/screenshots/dune-analytics-2026-06-20T180421.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pactum/refs/heads/main/screenshots/pactum-2026-08-07T191250.png
 security:

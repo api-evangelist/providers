@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 138 operations · 73 acting · 8 human-in-the-loop
 api_count: 18
 apis:
-- description: Deposit and credit accounts.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Deposit and credit accounts.
   name: Unit Accounts API
   slug: unit-co-accounts-api
-- description: Org-level and customer-level authentication tokens.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Org-level and customer-level authentication tokens.
   name: Unit API Tokens API
   slug: unit-co-api-tokens-api
-- description: Individual and business application onboarding (KYC/KYB).
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Individual and business application onboarding (KYC/KYB).
   name: Unit Applications API
   slug: unit-co-applications-api
-- description: Completed card authorizations and real-time authorization requests.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Completed card authorizations and real-time authorization requests.
   name: Unit Authorizations API
   slug: unit-co-authorizations-api
-- description: Debit and credit card issuance and management.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Debit and credit card issuance and management.
   name: Unit Cards API
   slug: unit-co-cards-api
-- description: Check deposits and outbound check payments.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Check deposits and outbound check payments.
   name: Unit Checks API
   slug: unit-co-checks-api
-- description: External bank accounts and routing-number institution lookups.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: External bank accounts and routing-number institution lookups.
   name: Unit Counterparties API
   slug: unit-co-counterparties-api
-- description: Repayments on credit accounts and receivables.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Repayments on credit accounts and receivables.
   name: Unit Credit and Repayments API
   slug: unit-co-credit-and-repayments-api
-- description: Customer profiles created from approved applications.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Customer profiles created from approved applications.
   name: Unit Customers API
   slug: unit-co-customers-api
-- description: Platform activity log.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Platform activity log.
   name: Unit Events API
   slug: unit-co-events-api
-- description: Ad hoc fees and cashback-style rewards.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Ad hoc fees and cashback-style rewards.
   name: Unit Fees and Rewards API
   slug: unit-co-fees-and-rewards-api
-- description: Book, ACH, wire, recurring, and cash-deposit payments.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Book, ACH, wire, recurring, and cash-deposit payments.
   name: Unit Payments API
   slug: unit-co-payments-api
-- description: Stop payments and card/ACH disputes.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Stop payments and card/ACH disputes.
   name: Unit Risk and Fraud API
   slug: unit-co-risk-and-fraud-api
-- description: Monthly account statements.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Monthly account statements.
   name: Unit Statements API
   slug: unit-co-statements-api
-- description: Annual tax documents.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Annual tax documents.
   name: Unit Tax Forms API
   slug: unit-co-tax-forms-api
-- description: Posted, immutable ledger entries.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Posted, immutable ledger entries.
   name: Unit Transactions API
   slug: unit-co-transactions-api
-- description: Subscriptions that deliver events as signed HTTP callbacks.
+- baseURL: https://api.s.unit.sh
+  baseurl_source: declared
+  description: Subscriptions that deliver events as signed HTTP callbacks.
   name: Unit Webhooks API
   slug: unit-co-webhooks-api
 artifact_total: 80
@@ -475,7 +509,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -485,7 +519,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 71.8
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -503,7 +537,7 @@ score:
     regime_id: payments
     score: 84.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:

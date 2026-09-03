@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -44,91 +44,149 @@ agentic_access:
   summary_line: 161 operations · 88 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The alerts API from SigNoz — 1 operation(s) for alerts.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The alerts API from SigNoz — 1 operation(s) for alerts.
   name: SigNoz alerts API
   slug: signoz-alerts-api
-- description: The authdomains API from SigNoz — 2 operation(s) for authdomains.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The authdomains API from SigNoz — 2 operation(s) for authdomains.
   name: SigNoz authdomains API
   slug: signoz-authdomains-api
-- description: The authz API from SigNoz — 2 operation(s) for authz.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The authz API from SigNoz — 2 operation(s) for authz.
   name: SigNoz authz API
   slug: signoz-authz-api
-- description: The channels API from SigNoz — 4 operation(s) for channels.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The channels API from SigNoz — 4 operation(s) for channels.
   name: SigNoz channels API
   slug: signoz-channels-api
-- description: The cloudintegration API from SigNoz — 8 operation(s) for cloudintegration.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The cloudintegration API from SigNoz — 8 operation(s) for cloudintegration.
   name: SigNoz cloudintegration API
   slug: signoz-cloudintegration-api
-- description: The dashboard API from SigNoz — 3 operation(s) for dashboard.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The dashboard API from SigNoz — 3 operation(s) for dashboard.
   name: SigNoz dashboard API
   slug: signoz-dashboard-api
-- description: The downtimeschedules API from SigNoz — 2 operation(s) for downtimeschedules.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The downtimeschedules API from SigNoz — 2 operation(s) for downtimeschedules.
   name: SigNoz downtimeschedules API
   slug: signoz-downtimeschedules-api
-- description: The features API from SigNoz — 1 operation(s) for features.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The features API from SigNoz — 1 operation(s) for features.
   name: SigNoz features API
   slug: signoz-features-api
-- description: The fields API from SigNoz — 2 operation(s) for fields.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The fields API from SigNoz — 2 operation(s) for fields.
   name: SigNoz fields API
   slug: signoz-fields-api
-- description: The gateway API from SigNoz — 5 operation(s) for gateway.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The gateway API from SigNoz — 5 operation(s) for gateway.
   name: SigNoz gateway API
   slug: signoz-gateway-api
-- description: The global API from SigNoz — 1 operation(s) for global.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The global API from SigNoz — 1 operation(s) for global.
   name: SigNoz global API
   slug: signoz-global-api
-- description: The health API from SigNoz — 3 operation(s) for health.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The health API from SigNoz — 3 operation(s) for health.
   name: SigNoz health API
   slug: signoz-health-api
-- description: The inframonitoring API from SigNoz — 2 operation(s) for inframonitoring.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The inframonitoring API from SigNoz — 2 operation(s) for inframonitoring.
   name: SigNoz inframonitoring API
   slug: signoz-inframonitoring-api
-- description: The llmpricingrules API from SigNoz — 2 operation(s) for llmpricingrules.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The llmpricingrules API from SigNoz — 2 operation(s) for llmpricingrules.
   name: SigNoz llmpricingrules API
   slug: signoz-llmpricingrules-api
-- description: The logs API from SigNoz — 2 operation(s) for logs.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The logs API from SigNoz — 2 operation(s) for logs.
   name: SigNoz logs API
   slug: signoz-logs-api
-- description: The metrics API from SigNoz — 10 operation(s) for metrics.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The metrics API from SigNoz — 10 operation(s) for metrics.
   name: SigNoz metrics API
   slug: signoz-metrics-api
-- description: The orgs API from SigNoz — 1 operation(s) for orgs.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The orgs API from SigNoz — 1 operation(s) for orgs.
   name: SigNoz orgs API
   slug: signoz-orgs-api
-- description: The preferences API from SigNoz — 4 operation(s) for preferences.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The preferences API from SigNoz — 4 operation(s) for preferences.
   name: SigNoz preferences API
   slug: signoz-preferences-api
-- description: The querier API from SigNoz — 2 operation(s) for querier.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The querier API from SigNoz — 2 operation(s) for querier.
   name: SigNoz querier API
   slug: signoz-querier-api
-- description: The role API from SigNoz — 3 operation(s) for role.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The role API from SigNoz — 3 operation(s) for role.
   name: SigNoz role API
   slug: signoz-role-api
-- description: The routepolicies API from SigNoz — 2 operation(s) for routepolicies.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The routepolicies API from SigNoz — 2 operation(s) for routepolicies.
   name: SigNoz routepolicies API
   slug: signoz-routepolicies-api
-- description: The rules API from SigNoz — 9 operation(s) for rules.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The rules API from SigNoz — 9 operation(s) for rules.
   name: SigNoz rules API
   slug: signoz-rules-api
-- description: The serviceaccount API from SigNoz — 7 operation(s) for serviceaccount.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The serviceaccount API from SigNoz — 7 operation(s) for serviceaccount.
   name: SigNoz serviceaccount API
   slug: signoz-serviceaccount-api
-- description: The sessions API from SigNoz — 7 operation(s) for sessions.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The sessions API from SigNoz — 7 operation(s) for sessions.
   name: SigNoz sessions API
   slug: signoz-sessions-api
-- description: The spanmapper API from SigNoz — 4 operation(s) for spanmapper.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The spanmapper API from SigNoz — 4 operation(s) for spanmapper.
   name: SigNoz spanmapper API
   slug: signoz-spanmapper-api
-- description: The tracedetail API from SigNoz — 1 operation(s) for tracedetail.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The tracedetail API from SigNoz — 1 operation(s) for tracedetail.
   name: SigNoz tracedetail API
   slug: signoz-tracedetail-api
-- description: The traces API from SigNoz — 1 operation(s) for traces.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The traces API from SigNoz — 1 operation(s) for traces.
   name: SigNoz traces API
   slug: signoz-traces-api
-- description: The users API from SigNoz — 16 operation(s) for users.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The users API from SigNoz — 16 operation(s) for users.
   name: SigNoz users API
   slug: signoz-users-api
-- description: The zeus API from SigNoz — 2 operation(s) for zeus.
+- baseURL: https://{host}:{port}
+  baseurl_source: declared
+  description: The zeus API from SigNoz — 2 operation(s) for zeus.
   name: SigNoz zeus API
   slug: signoz-zeus-api
 artifact_total: 118
@@ -526,7 +584,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:

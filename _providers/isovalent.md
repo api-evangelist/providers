@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: The gRPC Hubble Observer, Relay, and Peer APIs that stream real-time network flow, service-map, and connectivity observability events from Cilium's eBPF dataplane.
   name: Hubble Observer API
   slug: hubble-observer-api
-- description: The bgp API from Isovalent — 3 operation(s) for bgp.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The bgp API from Isovalent — 3 operation(s) for bgp.
   name: Isovalent bgp API
   slug: isovalent-bgp-api
-- description: The connectivity API from Isovalent — 2 operation(s) for connectivity.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The connectivity API from Isovalent — 2 operation(s) for connectivity.
   name: Isovalent connectivity API
   slug: isovalent-connectivity-api
-- description: The daemon API from Isovalent — 9 operation(s) for daemon.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The daemon API from Isovalent — 9 operation(s) for daemon.
   name: Isovalent daemon API
   slug: isovalent-daemon-api
-- description: The endpoint API from Isovalent — 6 operation(s) for endpoint.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The endpoint API from Isovalent — 6 operation(s) for endpoint.
   name: Isovalent endpoint API
   slug: isovalent-endpoint-api
-- description: The Healthz API from Isovalent — 1 operation(s) for healthz.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The Healthz API from Isovalent — 1 operation(s) for healthz.
   name: Isovalent Healthz API
   slug: isovalent-healthz-api
-- description: The ipam API from Isovalent — 2 operation(s) for ipam.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The ipam API from Isovalent — 2 operation(s) for ipam.
   name: Isovalent ipam API
   slug: isovalent-ipam-api
-- description: The policy API from Isovalent — 10 operation(s) for policy.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The policy API from Isovalent — 10 operation(s) for policy.
   name: Isovalent policy API
   slug: isovalent-policy-api
-- description: The prefilter API from Isovalent — 1 operation(s) for prefilter.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The prefilter API from Isovalent — 1 operation(s) for prefilter.
   name: Isovalent prefilter API
   slug: isovalent-prefilter-api
-- description: The service API from Isovalent — 2 operation(s) for service.
+- baseURL: unix:///var/run/cilium/cilium.sock
+  baseurl_source: declared
+  description: The service API from Isovalent — 2 operation(s) for service.
   name: Isovalent service API
   slug: isovalent-service-api
 artifact_total: 25
@@ -302,7 +320,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isovalent/refs/heads/main/screenshots/isovalent-2026-07-25T222948.png
 security:

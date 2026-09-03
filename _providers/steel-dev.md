@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 17 operations · 12 acting
 api_count: 1
 apis:
-- description: Manage files inside a session's browser context.
+- baseURL: https://api.steel.dev/v1
+  baseurl_source: declared
+  description: Manage files inside a session's browser context.
   name: Steel Files API
   slug: steel-dev-files-api
-- description: Stateless one-off scrape, screenshot, PDF, and search.
+- baseURL: https://api.steel.dev/v1
+  baseurl_source: declared
+  description: Stateless one-off scrape, screenshot, PDF, and search.
   name: Steel Quick Actions API
   slug: steel-dev-quick-actions-api
-- description: Scrape, screenshot, and PDF the page in a running session.
+- baseURL: https://api.steel.dev/v1
+  baseurl_source: declared
+  description: Scrape, screenshot, and PDF the page in a running session.
   name: Steel Session Actions API
   slug: steel-dev-session-actions-api
-- description: Launch, inspect, and release cloud browser sessions.
+- baseURL: https://api.steel.dev/v1
+  baseurl_source: declared
+  description: Launch, inspect, and release cloud browser sessions.
   name: Steel Sessions API
   slug: steel-dev-sessions-api
 artifact_total: 16
@@ -169,7 +177,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

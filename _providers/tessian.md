@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 13 operations · 5 acting
 api_count: 1
 apis:
-- description: The Beta Endpoints API from Tessian — 1 operation(s) for beta endpoints.
+- baseURL: https://your-domain.tessian-platform.com
+  baseurl_source: declared
+  description: The Beta Endpoints API from Tessian — 1 operation(s) for beta endpoints.
   name: Tessian Beta Endpoints API
   slug: tessian-beta-endpoints-api
-- description: The Endpoints API from Tessian — 9 operation(s) for endpoints.
+- baseURL: https://your-domain.tessian-platform.com
+  baseurl_source: declared
+  description: The Endpoints API from Tessian — 9 operation(s) for endpoints.
   name: Tessian Endpoints API
   slug: tessian-endpoints-api
 artifact_total: 17
@@ -182,7 +186,7 @@ score:
   band: thin
   composite: 32.4
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -208,8 +212,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tessian/refs/heads/main/screenshots/tessian-2026-09-02T163217.png
 security:
 - kind: authentication
   name: Tessian Authentication

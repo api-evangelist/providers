@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -50,91 +50,149 @@ apis:
 - description: Unified authentication API supporting OAuth 2 OpenID with 140+ identity provider integrations for adding user logins and signups.
   name: Unified.to Authentication API
   slug: auth-api
-- description: The accounting API from Unified.to — 38 operation(s) for accounting.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The accounting API from Unified.to — 38 operation(s) for accounting.
   name: Unified.to accounting API
   slug: unified-to-accounting-api
-- description: The ads API from Unified.to — 17 operation(s) for ads.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The ads API from Unified.to — 17 operation(s) for ads.
   name: Unified.to ads API
   slug: unified-to-ads-api
-- description: The assessment API from Unified.to — 3 operation(s) for assessment.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The assessment API from Unified.to — 3 operation(s) for assessment.
   name: Unified.to assessment API
   slug: unified-to-assessment-api
-- description: The ats API from Unified.to — 17 operation(s) for ats.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The ats API from Unified.to — 17 operation(s) for ats.
   name: Unified.to ats API
   slug: unified-to-ats-api
-- description: The auth API from Unified.to — 2 operation(s) for auth.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The auth API from Unified.to — 2 operation(s) for auth.
   name: Unified.to auth API
   slug: unified-to-auth-api
-- description: The calendar API from Unified.to — 11 operation(s) for calendar.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The calendar API from Unified.to — 11 operation(s) for calendar.
   name: Unified.to calendar API
   slug: unified-to-calendar-api
-- description: The commerce API from Unified.to — 17 operation(s) for commerce.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The commerce API from Unified.to — 17 operation(s) for commerce.
   name: Unified.to commerce API
   slug: unified-to-commerce-api
-- description: The crm API from Unified.to — 12 operation(s) for crm.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The crm API from Unified.to — 12 operation(s) for crm.
   name: Unified.to crm API
   slug: unified-to-crm-api
-- description: The enrich API from Unified.to — 2 operation(s) for enrich.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The enrich API from Unified.to — 2 operation(s) for enrich.
   name: Unified.to enrich API
   slug: unified-to-enrich-api
-- description: The forms API from Unified.to — 4 operation(s) for forms.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The forms API from Unified.to — 4 operation(s) for forms.
   name: Unified.to forms API
   slug: unified-to-forms-api
-- description: The genai API from Unified.to — 4 operation(s) for genai.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The genai API from Unified.to — 4 operation(s) for genai.
   name: Unified.to genai API
   slug: unified-to-genai-api
-- description: The hris API from Unified.to — 22 operation(s) for hris.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The hris API from Unified.to — 22 operation(s) for hris.
   name: Unified.to hris API
   slug: unified-to-hris-api
-- description: The kms API from Unified.to — 6 operation(s) for kms.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The kms API from Unified.to — 6 operation(s) for kms.
   name: Unified.to kms API
   slug: unified-to-kms-api
-- description: The lms API from Unified.to — 14 operation(s) for lms.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The lms API from Unified.to — 14 operation(s) for lms.
   name: Unified.to lms API
   slug: unified-to-lms-api
-- description: The martech API from Unified.to — 7 operation(s) for martech.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The martech API from Unified.to — 7 operation(s) for martech.
   name: Unified.to martech API
   slug: unified-to-martech-api
-- description: The messaging API from Unified.to — 5 operation(s) for messaging.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The messaging API from Unified.to — 5 operation(s) for messaging.
   name: Unified.to messaging API
   slug: unified-to-messaging-api
-- description: The metadata API from Unified.to — 2 operation(s) for metadata.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The metadata API from Unified.to — 2 operation(s) for metadata.
   name: Unified.to metadata API
   slug: unified-to-metadata-api
-- description: The passthrough API from Unified.to — 1 operation(s) for passthrough.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The passthrough API from Unified.to — 1 operation(s) for passthrough.
   name: Unified.to passthrough API
   slug: unified-to-passthrough-api
-- description: The payment API from Unified.to — 10 operation(s) for payment.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The payment API from Unified.to — 10 operation(s) for payment.
   name: Unified.to payment API
   slug: unified-to-payment-api
-- description: The repo API from Unified.to — 10 operation(s) for repo.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The repo API from Unified.to — 10 operation(s) for repo.
   name: Unified.to repo API
   slug: unified-to-repo-api
-- description: The scim API from Unified.to — 4 operation(s) for scim.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The scim API from Unified.to — 4 operation(s) for scim.
   name: Unified.to scim API
   slug: unified-to-scim-api
-- description: The shipping API from Unified.to — 8 operation(s) for shipping.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The shipping API from Unified.to — 8 operation(s) for shipping.
   name: Unified.to shipping API
   slug: unified-to-shipping-api
-- description: The signing API from Unified.to — 6 operation(s) for signing.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The signing API from Unified.to — 6 operation(s) for signing.
   name: Unified.to signing API
   slug: unified-to-signing-api
-- description: The storage API from Unified.to — 2 operation(s) for storage.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The storage API from Unified.to — 2 operation(s) for storage.
   name: Unified.to storage API
   slug: unified-to-storage-api
-- description: The task API from Unified.to — 8 operation(s) for task.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The task API from Unified.to — 8 operation(s) for task.
   name: Unified.to task API
   slug: unified-to-task-api
-- description: The ticketing API from Unified.to — 8 operation(s) for ticketing.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The ticketing API from Unified.to — 8 operation(s) for ticketing.
   name: Unified.to ticketing API
   slug: unified-to-ticketing-api
-- description: The uc API from Unified.to — 8 operation(s) for uc.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The uc API from Unified.to — 8 operation(s) for uc.
   name: Unified.to uc API
   slug: unified-to-uc-api
-- description: The unified API from Unified.to — 14 operation(s) for unified.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The unified API from Unified.to — 14 operation(s) for unified.
   name: Unified.to unified API
   slug: unified-to-unified-api
-- description: The verification API from Unified.to — 4 operation(s) for verification.
+- baseURL: https://api.unified.to
+  baseurl_source: spec
+  description: The verification API from Unified.to — 4 operation(s) for verification.
   name: Unified.to verification API
   slug: unified-to-verification-api
 arazzos:
@@ -4660,7 +4718,7 @@ score:
       marker_coverage: 0.0
       total: 29
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

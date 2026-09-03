@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 8 operations · 5 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Account API from Counter — 4 operation(s) for account.
+- baseURL: https://t.counter.dev
+  baseurl_source: declared
+  description: The Account API from Counter — 4 operation(s) for account.
   name: Counter Account API
   slug: counter-dev-account-api
-- description: The Stats API from Counter — 2 operation(s) for stats.
+- baseURL: https://t.counter.dev
+  baseurl_source: declared
+  description: The Stats API from Counter — 2 operation(s) for stats.
   name: Counter Stats API
   slug: counter-dev-stats-api
-- description: The Tracking API from Counter — 2 operation(s) for tracking.
+- baseURL: https://t.counter.dev
+  baseurl_source: declared
+  description: The Tracking API from Counter — 2 operation(s) for tracking.
   name: Counter Tracking API
   slug: counter-dev-tracking-api
 artifact_total: 15
@@ -227,7 +233,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -237,7 +243,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 50.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,7 +255,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/screenshots/counter-dev-2026-07-25T210507.png
 security:

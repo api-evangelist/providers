@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -49,16 +49,24 @@ apis:
 - description: The Allianz Global API Portal provides enterprise insurance APIs for registered business partners. The portal uses Apigee Edge for API key management and OAuth2 for authentication. Most API documentat
   name: Allianz Global API
   slug: allianz-global-api
-- description: Operations for retrieving insurance certificates of currency
+- baseURL: https://api.allianz.com.au
+  baseurl_source: declared
+  description: Operations for retrieving insurance certificates of currency
   name: Allianz Certificates API
   slug: allianz-docs-certificates-api
-- description: Operations for submitting insurance leads to the Allianz sales team
+- baseURL: https://api.allianz.com.au
+  baseurl_source: declared
+  description: Operations for submitting insurance leads to the Allianz sales team
   name: Allianz Leads API
   slug: allianz-docs-leads-api
-- description: Operations for retrieving and completing insurance policy details
+- baseURL: https://api.allianz.com.au
+  baseurl_source: declared
+  description: Operations for retrieving and completing insurance policy details
   name: Allianz Policy Details API
   slug: allianz-docs-policy-details-api
-- description: Operations for generating and retrieving insurance price estimates and quotes
+- baseURL: https://api.allianz.com.au
+  baseurl_source: declared
+  description: Operations for generating and retrieving insurance price estimates and quotes
   name: Allianz Price Estimates API
   slug: allianz-docs-price-estimates-api
 artifact_total: 86
@@ -407,7 +415,7 @@ score:
     regime_id: insurance
     score: 51.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
 security:

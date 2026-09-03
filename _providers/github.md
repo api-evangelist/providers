@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -45,34 +45,54 @@ agentic_access:
   summary_line: 2431 operations · 1203 acting · 31 human-in-the-loop
 api_count: 38
 apis:
-- description: The GitHub Gists API lets you programmatically manage gistslightweight code snippets and notesover HTTP. You can create gists (public or secret/unlisted), read individual gists, list public gists, you
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Gists API lets you programmatically manage gistslightweight code snippets and notesover HTTP. You can create gists (public or secret/unlisted), read individual gists, list public gists, you
   name: GitHub Gists API
   slug: github-gists-api
-- description: The GitHub Issues API lets you programmatically manage issue tracking on GitHub, enabling you to list and filter issues across repositories, create and edit issues, change their state (open/closed), a
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Issues API lets you programmatically manage issue tracking on GitHub, enabling you to list and filter issues across repositories, create and edit issues, change their state (open/closed), a
   name: GitHub Issues API
   slug: github-issues-api
-- description: The GitHub Licenses API lets you programmatically discover and retrieve open source license information across GitHub. It provides endpoints to list the common licenses GitHub supports, get detailed m
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Licenses API lets you programmatically discover and retrieve open source license information across GitHub. It provides endpoints to list the common licenses GitHub supports, get detailed m
   name: GitHub Licenses API
   slug: github-licenses-api
-- description: The GitHub Markdown API is a REST service that converts Markdownespecially GitHub Flavored Markdowninto the same HTML GitHub renders in READMEs, issues, and pull requests, so external apps can display
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Markdown API is a REST service that converts Markdownespecially GitHub Flavored Markdowninto the same HTML GitHub renders in READMEs, issues, and pull requests, so external apps can display
   name: GitHub Markdown API
   slug: github-markdown-api
-- description: Use the REST API to get meta information about GitHub, including the IP addresses of GitHub services.
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: Use the REST API to get meta information about GitHub, including the IP addresses of GitHub services.
   name: GitHub Meta API
   slug: github-meta-api
-- description: The GitHub Projects API enables developers to programmatically create and manage GitHub Projects, which are flexible tools for planning and tracking work using customizable boards, tables, and roadmap
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Projects API enables developers to programmatically create and manage GitHub Projects, which are flexible tools for planning and tracking work using customizable boards, tables, and roadmap
   name: GitHub Projects API
   slug: github-projects-api
-- description: The GitHub Repos API is a set of REST endpoints that let you programmatically create, read, update, and delete repositories and their resources, giving you control over a repos lifecycle and configura
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Repos API is a set of REST endpoints that let you programmatically create, read, update, and delete repositories and their resources, giving you control over a repos lifecycle and configura
   name: GitHub Repos API
   slug: github-repos-api
-- description: The GitHub Search API lets you programmatically find and filter content across GitHubincluding repositories, code, issues and pull requests, commits, users, topics, and labelsusing a powerful query la
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Search API lets you programmatically find and filter content across GitHubincluding repositories, code, issues and pull requests, commits, users, topics, and labelsusing a powerful query la
   name: GitHub Search API
   slug: github-search-api
-- description: The GitHub Users API (part of the REST API) lets applications read and, for the authenticated account, manage user-related data on GitHub. It can fetch public profiles for any user or the authenticate
+- baseURL: https://api.github.com/
+  baseurl_source: declared
+  description: The GitHub Users API (part of the REST API) lets applications read and, for the authenticated account, manage user-related data on GitHub. It can fetch public profiles for any user or the authenticate
   name: GitHub User API
   slug: github-user-api
-- description: 'The GitHub Checks API lets you create and manage check runs and check suites that report detailed status, annotations, and results for commits. It enables CI/CD tools and integrations to report build '
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: 'The GitHub Checks API lets you create and manage check runs and check suites that report detailed status, annotations, and results for commits. It enables CI/CD tools and integrations to report build '
   name: GitHub Checks API
   slug: github-checks-api
 - description: 'The GitHub Deployments API lets you create and manage deployments and deployment statuses for repositories. Deployments are requests to deploy a specific ref (branch, SHA, tag) to an environment, and '
@@ -84,7 +104,9 @@ apis:
 - description: The GitHub Pages API lets you manage GitHub Pages sites for repositories, including creating, updating, and deleting sites, configuring custom domains and HTTPS enforcement, and triggering and monitor
   name: GitHub Pages API
   slug: github-pages-api
-- description: The GitHub Packages API lets you manage packages and package versions in GitHub Packages, a software package hosting service that supports npm, Maven, Gradle, RubyGems, NuGet, Docker, and other packag
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub Packages API lets you manage packages and package versions in GitHub Packages, a software package hosting service that supports npm, Maven, Gradle, RubyGems, NuGet, Docker, and other packag
   name: GitHub Packages API
   slug: github-packages-api
 - description: The GitHub Git Database API provides low-level access to Git objects (blobs, commits, refs, tags, and trees) in a repository. It lets you read and write raw Git data directly, enabling operations like
@@ -96,13 +118,19 @@ apis:
 - description: The GitHub Copilot API lets organization and enterprise owners manage GitHub Copilot seat assignments, retrieve usage metrics and billing information, and configure Copilot policies. It provides endpo
   name: GitHub Copilot API
   slug: github-copilot-api
-- description: The GitHub Billing API lets you view billing and usage information for organizations and enterprises, including Actions minutes, Packages storage and data transfer, Codespaces usage, and shared storag
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub Billing API lets you view billing and usage information for organizations and enterprises, including Actions minutes, Packages storage and data transfer, Codespaces usage, and shared storag
   name: GitHub Billing API
   slug: github-billing-api
-- description: The GitHub Migrations API lets you migrate data to and from GitHub. It supports organization migrations that export repositories and metadata as downloadable archives, source imports that convert repo
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub Migrations API lets you migrate data to and from GitHub. It supports organization migrations that export repositories and metadata as downloadable archives, source imports that convert repo
   name: GitHub Migrations API
   slug: github-migrations-api
-- description: The GitHub Secret Scanning API lets you retrieve and manage secret scanning alerts for repositories, organizations, and enterprises. Secret scanning detects tokens, keys, and other credentials acciden
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub Secret Scanning API lets you retrieve and manage secret scanning alerts for repositories, organizations, and enterprises. Secret scanning detects tokens, keys, and other credentials acciden
   name: GitHub Secret Scanning API
   slug: github-secret-scanning-api
 - description: The GitHub Security Advisories API lets you view and manage security advisories for repositories and access the GitHub Advisory Database. It provides endpoints to create, update, and list repository s
@@ -111,13 +139,17 @@ apis:
 - description: The GitHub Commits API lets you list, retrieve, and compare commits in a repository, as well as manage commit comments and commit statuses. It provides endpoints for viewing commit details, listing pu
   name: GitHub Commits API
   slug: github-commits-api
-- description: 'The GitHub Reactions API lets you create, list, and delete emoji reactions on issues, pull requests, issue comments, pull request review comments, commit comments, release assets, and team discussion '
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: 'The GitHub Reactions API lets you create, list, and delete emoji reactions on issues, pull requests, issue comments, pull request review comments, commit comments, release assets, and team discussion '
   name: GitHub Reactions API
   slug: github-reactions-api
 - description: The GitHub Deploy Keys API lets you manage deploy keys for repositories. Deploy keys are SSH keys that grant read-only or read-write access to a single repository, commonly used for automated deployme
   name: GitHub Deploy Keys API
   slug: github-deploy-keys-api
-- description: The GitHub Dependency Graph API lets you view and submit dependency information for a repository. It provides endpoints to export the software bill of materials (SBOM) for a repository and to submit d
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub Dependency Graph API lets you view and submit dependency information for a repository. It provides endpoints to export the software bill of materials (SBOM) for a repository and to submit d
   name: GitHub Dependency Graph API
   slug: github-dependency-graph-api
 - description: The GitHub Metrics API lets you access community profile and repository statistics, including contributor activity, commit frequency, code frequency, participation data, punch card data, and community
@@ -156,79 +188,129 @@ apis:
 - description: The GitHub Watching API lets you subscribe to notifications for activity in a repository. It provides endpoints to list watchers of a repository, get and set a repository subscription, delete a subscr
   name: GitHub Watching API
   slug: github-watching-api
-- description: Endpoints to manage GitHub Actions using the REST API.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Endpoints to manage GitHub Actions using the REST API.
   name: GitHub Actions API
   slug: github-actions-api
-- description: The Activity API from GitHub — 25 operation(s) for activity.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Activity API from GitHub — 25 operation(s) for activity.
   name: GitHub Activity API
   slug: github-activity-api
-- description: The Apps API from GitHub — 23 operation(s) for apps.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Apps API from GitHub — 23 operation(s) for apps.
   name: GitHub Apps API
   slug: github-apps-api
-- description: Monitor charges and usage from Actions and Packages.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Monitor charges and usage from Actions and Packages.
   name: GitHub Billing API
   slug: github-billing-api
-- description: The Checks API from GitHub — 28 operation(s) for checks.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Checks API from GitHub — 28 operation(s) for checks.
   name: GitHub Checks API
   slug: github-checks-api
-- description: Retrieve code scanning alerts from a repository.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Retrieve code scanning alerts from a repository.
   name: GitHub Code-Scanning API
   slug: github-code-scanning-api
-- description: The Codes-Of-Conduct API from GitHub — 2 operation(s) for codes-of-conduct.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Codes-Of-Conduct API from GitHub — 2 operation(s) for codes-of-conduct.
   name: GitHub Codes-Of-Conduct API
   slug: github-codes-of-conduct-api
-- description: Endpoints to manage Dependabot.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Endpoints to manage Dependabot.
   name: GitHub Dependabot API
   slug: github-dependabot-api
-- description: Endpoints to access Dependency Graph features.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Endpoints to access Dependency Graph features.
   name: GitHub Dependency-Graph API
   slug: github-dependency-graph-api
-- description: The Emojis API from GitHub — 1 operation(s) for emojis.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Emojis API from GitHub — 1 operation(s) for emojis.
   name: GitHub Emojis API
   slug: github-emojis-api
-- description: Enterprise Administration
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Enterprise Administration
   name: GitHub Enterprise-Admin API
   slug: github-enterprise-admin-api
-- description: The Enterprise-Admin - Scim API from GitHub — 1 operation(s) for enterprise-admin - scim.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Enterprise-Admin - Scim API from GitHub — 1 operation(s) for enterprise-admin - scim.
   name: GitHub Enterprise-Admin - Scim API
   slug: github-enterprise-admin-scim-api
-- description: Raw Git functionality.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Raw Git functionality.
   name: GitHub Git API
   slug: github-git-api
-- description: The Gitignore API from GitHub — 2 operation(s) for gitignore.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Gitignore API from GitHub — 2 operation(s) for gitignore.
   name: GitHub Gitignore API
   slug: github-gitignore-api
-- description: Move projects to or from GitHub.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Move projects to or from GitHub.
   name: GitHub Migrations API
   slug: github-migrations-api
-- description: OAuth Authorizations API
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: OAuth Authorizations API
   name: GitHub Oauth-Authorizations API
   slug: github-oauth-authorizations-api
-- description: The Oidc API from GitHub — 1 operation(s) for oidc.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Oidc API from GitHub — 1 operation(s) for oidc.
   name: GitHub Oidc API
   slug: github-oidc-api
-- description: The Orgs API from GitHub — 30 operation(s) for orgs.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Orgs API from GitHub — 30 operation(s) for orgs.
   name: GitHub Orgs API
   slug: github-orgs-api
-- description: Manage packages for authenticated users and organizations.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage packages for authenticated users and organizations.
   name: GitHub Packages API
   slug: github-packages-api
-- description: Interact with GitHub Pull Requests.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Interact with GitHub Pull Requests.
   name: GitHub Pulls API
   slug: github-pulls-api
-- description: Check your current rate limit status
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Check your current rate limit status
   name: GitHub Rate-Limit API
   slug: github-rate-limit-api
-- description: The Reactions API from GitHub — 16 operation(s) for reactions.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The Reactions API from GitHub — 16 operation(s) for reactions.
   name: GitHub Reactions API
   slug: github-reactions-api
-- description: Retrieve secret scanning alerts from a repository.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Retrieve secret scanning alerts from a repository.
   name: GitHub Secret-Scanning API
   slug: github-secret-scanning-api
-- description: Interact with GitHub Teams.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Interact with GitHub Teams.
   name: GitHub Teams API
   slug: github-teams-api
-- description: The GitHub V3 REST API API from GitHub — 0 operation(s) for github v3 rest api.
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: The GitHub V3 REST API API from GitHub — 0 operation(s) for github v3 rest api.
   name: GitHub GitHub V3 REST API API
   slug: github-github-v3-rest-api-api
 arazzos:
@@ -4175,7 +4257,7 @@ score:
       marker_coverage: 0.0
       total: 34
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:

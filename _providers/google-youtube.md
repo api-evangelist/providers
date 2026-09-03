@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 9 operations · 1 acting
 api_count: 1
 apis:
-- description: The Activities API from YouTube Data — 1 operation(s) for activities.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Activities API from YouTube Data — 1 operation(s) for activities.
   name: YouTube Data Activities API
   slug: google-youtube-activities-api
-- description: The Channels API from YouTube Data — 1 operation(s) for channels.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Channels API from YouTube Data — 1 operation(s) for channels.
   name: YouTube Data Channels API
   slug: google-youtube-channels-api
-- description: The CommentThreads API from YouTube Data — 1 operation(s) for commentthreads.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The CommentThreads API from YouTube Data — 1 operation(s) for commentthreads.
   name: YouTube Data CommentThreads API
   slug: google-youtube-commentthreads-api
-- description: The PlaylistItems API from YouTube Data — 1 operation(s) for playlistitems.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The PlaylistItems API from YouTube Data — 1 operation(s) for playlistitems.
   name: YouTube Data PlaylistItems API
   slug: google-youtube-playlistitems-api
-- description: The Playlists API from YouTube Data — 1 operation(s) for playlists.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Playlists API from YouTube Data — 1 operation(s) for playlists.
   name: YouTube Data Playlists API
   slug: google-youtube-playlists-api
-- description: The Search API from YouTube Data — 1 operation(s) for search.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Search API from YouTube Data — 1 operation(s) for search.
   name: YouTube Data Search API
   slug: google-youtube-search-api
-- description: The Subscriptions API from YouTube Data — 1 operation(s) for subscriptions.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Subscriptions API from YouTube Data — 1 operation(s) for subscriptions.
   name: YouTube Data Subscriptions API
   slug: google-youtube-subscriptions-api
-- description: The Videos API from YouTube Data — 1 operation(s) for videos.
+- baseURL: https://youtube.googleapis.com/youtube/v3
+  baseurl_source: declared
+  description: The Videos API from YouTube Data — 1 operation(s) for videos.
   name: YouTube Data Videos API
   slug: google-youtube-videos-api
 artifact_total: 37
@@ -281,7 +297,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-youtube/refs/heads/main/screenshots/google-youtube-2026-06-20T182249.png
 security:

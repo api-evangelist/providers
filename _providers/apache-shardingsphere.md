@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Cluster API from Apache ShardingSphere — 1 operation(s) for cluster.
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The Cluster API from Apache ShardingSphere — 1 operation(s) for cluster.
   name: Apache ShardingSphere Cluster API
   slug: apache-shardingsphere-cluster-api
-- description: The Databases API from Apache ShardingSphere — 2 operation(s) for databases.
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The Databases API from Apache ShardingSphere — 2 operation(s) for databases.
   name: Apache ShardingSphere Databases API
   slug: apache-shardingsphere-databases-api
-- description: The DataSources API from Apache ShardingSphere — 1 operation(s) for datasources.
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The DataSources API from Apache ShardingSphere — 1 operation(s) for datasources.
   name: Apache ShardingSphere DataSources API
   slug: apache-shardingsphere-datasources-api
-- description: The ReadwriteSplitting API from Apache ShardingSphere — 1 operation(s) for readwritesplitting.
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The ReadwriteSplitting API from Apache ShardingSphere — 1 operation(s) for readwritesplitting.
   name: Apache ShardingSphere ReadwriteSplitting API
   slug: apache-shardingsphere-readwritesplitting-api
-- description: The ShardingRules API from Apache ShardingSphere — 1 operation(s) for shardingrules.
+- baseURL: https://shardingsphere.example.com/api
+  baseurl_source: spec
+  description: The ShardingRules API from Apache ShardingSphere — 1 operation(s) for shardingrules.
   name: Apache ShardingSphere ShardingRules API
   slug: apache-shardingsphere-shardingrules-api
 artifact_total: 78
@@ -352,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/screenshots/apache-shardingsphere-2026-06-20T172141.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,25 +53,39 @@ apis:
 - description: Uppsala University runs its own Shibboleth Identity Provider and publishes its SAML 2.0 federation metadata as a machine-readable EntityDescriptor. It is registered in SWAMID, the Swedish identity fed
   name: Uppsala University SAML 2.0 Identity Provider Metadata
   slug: idp-saml
-- description: The BattleDeaths API from Uppsala University — 1 operation(s) for battledeaths.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The BattleDeaths API from Uppsala University — 1 operation(s) for battledeaths.
   name: Uppsala University BattleDeaths API
   slug: uppsala-battledeaths-api
-- description: The Dyadic API from Uppsala University — 1 operation(s) for dyadic.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The Dyadic API from Uppsala University — 1 operation(s) for dyadic.
   name: Uppsala University Dyadic API
   slug: uppsala-dyadic-api
-- description: The GEDEvents API from Uppsala University — 1 operation(s) for gedevents.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The GEDEvents API from Uppsala University — 1 operation(s) for gedevents.
   name: Uppsala University GEDEvents API
   slug: uppsala-gedevents-api
-- description: The NonState API from Uppsala University — 1 operation(s) for nonstate.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The NonState API from Uppsala University — 1 operation(s) for nonstate.
   name: Uppsala University NonState API
   slug: uppsala-nonstate-api
-- description: The OneSided API from Uppsala University — 1 operation(s) for onesided.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The OneSided API from Uppsala University — 1 operation(s) for onesided.
   name: Uppsala University OneSided API
   slug: uppsala-onesided-api
-- description: The OrganizedViolenceCY API from Uppsala University — 1 operation(s) for organizedviolencecy.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The OrganizedViolenceCY API from Uppsala University — 1 operation(s) for organizedviolencecy.
   name: Uppsala University OrganizedViolenceCY API
   slug: uppsala-organizedviolencecy-api
-- description: The UcdpPrioConflict API from Uppsala University — 1 operation(s) for ucdpprioconflict.
+- baseURL: https://ucdpapi.pcr.uu.se/api/
+  baseurl_source: declared
+  description: The UcdpPrioConflict API from Uppsala University — 1 operation(s) for ucdpprioconflict.
   name: Uppsala University UcdpPrioConflict API
   slug: uppsala-ucdpprioconflict-api
 artifact_total: 36
@@ -284,7 +298,7 @@ score:
     catalog_gap: 31.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.9
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -294,7 +308,7 @@ score:
     discoverability: 68.5
     governance: 35.6
     operational_transparency: 34.2
-  previous_composite: 53.4
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,7 +324,7 @@ score:
     regime_id: education
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png
 security:

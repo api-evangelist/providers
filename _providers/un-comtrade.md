@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,22 +45,34 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: Premium endpoints for bulk file downloads (up to 2.5M records via async processing).
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Premium endpoints for bulk file downloads (up to 2.5M records via async processing).
   name: UN Comtrade Bulk Download API
   slug: un-comtrade-bulk-download-api
-- description: Endpoints for discovering which countries/periods have submitted data.
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Endpoints for discovering which countries/periods have submitted data.
   name: UN Comtrade Data Availability API
   slug: un-comtrade-data-availability-api
-- description: Authenticated endpoints for full final trade data extraction (up to 250,000 records per call).
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Authenticated endpoints for full final trade data extraction (up to 250,000 records per call).
   name: UN Comtrade Final Trade Data API
   slug: un-comtrade-final-trade-data-api
-- description: Public endpoints requiring no authentication — limited to 500 records.
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Public endpoints requiring no authentication — limited to 500 records.
   name: UN Comtrade Public Preview API
   slug: un-comtrade-public-preview-api
-- description: Public reference data including country groups.
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Public reference data including country groups.
   name: UN Comtrade Reference Data API
   slug: un-comtrade-reference-data-api
-- description: Tariffline-level trade data with 6-digit or national commodity code detail.
+- baseURL: https://comtradeapi.un.org
+  baseurl_source: declared
+  description: Tariffline-level trade data with 6-digit or national commodity code detail.
   name: UN Comtrade Tariffline Data API
   slug: un-comtrade-tariffline-data-api
 artifact_total: 24
@@ -156,7 +180,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/screenshots/un-comtrade-2026-06-20T200015.png
 security:

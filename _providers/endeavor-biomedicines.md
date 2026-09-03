@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,28 +36,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: 'An MCP (Model Context Protocol) server exposed by the WordPress MCP adapter at /wp-json/mcp/mcp-oauth-server on endeavorbiomedicines.com. The endpoint is live but authentication-gated: an anonymous in'
   name: Endeavor BioMedicines WordPress MCP Server
   slug: endeavor-biomedicines-wordpress-mcp-server
-- description: The mcp API from Endeavor BioMedicines — 3 operation(s) for mcp.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The mcp API from Endeavor BioMedicines — 3 operation(s) for mcp.
   name: Endeavor BioMedicines MCP API
   slug: endeavor-biomedicines-mcp-api
-- description: The oembed/1.0 API from Endeavor BioMedicines — 3 operation(s) for oembed/1.0.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The oembed/1.0 API from Endeavor BioMedicines — 3 operation(s) for oembed/1.0.
   name: Endeavor BioMedicines Oembed/1.0 API
   slug: endeavor-biomedicines-oembed-1-0-api
-- description: The wp-abilities/v1 API from Endeavor BioMedicines — 6 operation(s) for wp-abilities/v1.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The wp-abilities/v1 API from Endeavor BioMedicines — 6 operation(s) for wp-abilities/v1.
   name: Endeavor BioMedicines Wp Abilities/v1 API
   slug: endeavor-biomedicines-wp-abilities-v1-api
-- description: The wp-block-editor/v1 API from Endeavor BioMedicines — 4 operation(s) for wp-block-editor/v1.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The wp-block-editor/v1 API from Endeavor BioMedicines — 4 operation(s) for wp-block-editor/v1.
   name: Endeavor BioMedicines Wp Block Editor/v1 API
   slug: endeavor-biomedicines-wp-block-editor-v1-api
-- description: The wp-site-health/v1 API from Endeavor BioMedicines — 8 operation(s) for wp-site-health/v1.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The wp-site-health/v1 API from Endeavor BioMedicines — 8 operation(s) for wp-site-health/v1.
   name: Endeavor BioMedicines Wp Site Health/v1 API
   slug: endeavor-biomedicines-wp-site-health-v1-api
-- description: The wp/v2 API from Endeavor BioMedicines — 122 operation(s) for wp/v2.
+- baseURL: https://endeavorbiomedicines.com/wp-json
+  baseurl_source: declared
+  description: The wp/v2 API from Endeavor BioMedicines — 122 operation(s) for wp/v2.
   name: Endeavor BioMedicines Wp/v2 API
   slug: endeavor-biomedicines-wp-v2-api
 artifact_total: 14
@@ -159,11 +184,11 @@ score:
   band: thin
   composite: 26.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -173,7 +198,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 36.1
+  previous_composite: 26.5
   provenance:
     conformance: first-party
     contracts:
@@ -190,8 +215,9 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/endeavor-biomedicines/refs/heads/main/screenshots/endeavor-biomedicines-2026-09-02T145356.png
 security:
 - kind: authentication
   name: Endeavor Biomedicines Authentication

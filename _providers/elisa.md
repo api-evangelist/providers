@@ -33,28 +33,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: BASIL — "The FuSa Spice" — is ELISA's own software quality management tool. It decomposes a software component specification into snippets, maps work items (software requirements, test specifications,
   name: BASIL REST API
   slug: elisa-basil-api
-- description: The Categories API from ELISA — 2 operation(s) for categories.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Categories API from ELISA — 2 operation(s) for categories.
   name: ELISA Categories API
   slug: elisa-categories-api
-- description: The Doc API from ELISA — 1 operation(s) for doc.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Doc API from ELISA — 1 operation(s) for doc.
   name: ELISA Doc API
   slug: elisa-doc-api
-- description: The Events API from ELISA — 3 operation(s) for events.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Events API from ELISA — 3 operation(s) for events.
   name: ELISA Events API
   slug: elisa-events-api
-- description: The Organizers API from ELISA — 3 operation(s) for organizers.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Organizers API from ELISA — 3 operation(s) for organizers.
   name: ELISA Organizers API
   slug: elisa-organizers-api
-- description: The Tags API from ELISA — 2 operation(s) for tags.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Tags API from ELISA — 2 operation(s) for tags.
   name: ELISA Tags API
   slug: elisa-tags-api
-- description: The Venues API from ELISA — 3 operation(s) for venues.
+- baseURL: https://elisa.tech/wp-json/tribe/events/v1/
+  baseurl_source: declared
+  description: The Venues API from ELISA — 3 operation(s) for venues.
   name: ELISA Venues API
   slug: elisa-venues-api
 artifact_total: 12
@@ -228,7 +240,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.9
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -238,7 +250,7 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.9
+  previous_composite: 49.8
   provenance:
     conformance: derived
     contracts:
@@ -255,7 +267,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elisa/refs/heads/main/screenshots/elisa-2026-06-20T180611.png
 security:

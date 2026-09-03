@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
-- description: The Bank API from NALA — 1 operation(s) for bank.
+- baseURL: https://rest.prod.rafiki-api.com/v1
+  baseurl_source: declared
+  description: The Bank API from NALA — 1 operation(s) for bank.
   name: NALA Bank API
   slug: nala-bank-api
-- description: The Lookup API from NALA — 1 operation(s) for lookup.
+- baseURL: https://rest.prod.rafiki-api.com/v1
+  baseurl_source: declared
+  description: The Lookup API from NALA — 1 operation(s) for lookup.
   name: NALA Lookup API
   slug: nala-lookup-api
-- description: The Payment Account API from NALA — 1 operation(s) for payment account.
+- baseURL: https://rest.prod.rafiki-api.com/v1
+  baseurl_source: declared
+  description: The Payment Account API from NALA — 1 operation(s) for payment account.
   name: NALA Payment Account API
   slug: nala-payment-account-api
-- description: The Payout API from NALA — 2 operation(s) for payout.
+- baseURL: https://rest.prod.rafiki-api.com/v1
+  baseurl_source: declared
+  description: The Payout API from NALA — 2 operation(s) for payout.
   name: NALA Payout API
   slug: nala-payout-api
-- description: The Wallet API from NALA — 1 operation(s) for wallet.
+- baseURL: https://rest.prod.rafiki-api.com/v1
+  baseurl_source: declared
+  description: The Wallet API from NALA — 1 operation(s) for wallet.
   name: NALA Wallet API
   slug: nala-wallet-api
 artifact_total: 17
@@ -248,7 +258,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -258,7 +268,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.9
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,7 +286,7 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nala/refs/heads/main/screenshots/nala-2026-08-07T184612.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 69 operations · 33 acting
 api_count: 5
 apis:
-- description: Register and manage merchant customers, attach their bank accounts, and run identity verifications. Persisted customer records pre-fill payment fields and accelerate repeat checkouts; verifications co
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Register and manage merchant customers, attach their bank accounts, and run identity verifications. Persisted customer records pre-fill payment fields and accelerate repeat checkouts; verifications co
   name: Fintecture Customers API
   slug: fintecture-customers-api
-- description: Issues access tokens via authorization_code and client_credentials grants. Distinct scopes for PIS, AIS, Customers, E-Mandates, and OAC (Organisation Access Credentials, beta). Access tokens are valid
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Issues access tokens via authorization_code and client_credentials grants. Distinct scopes for PIS, AIS, Customers, E-Mandates, and OAC (Organisation Access Credentials, beta). Access tokens are valid
   name: Fintecture OAuth and Tokens API
   slug: fintecture-oauth-api
-- description: Inspect transactions and settlements. Settlements represent outgoing disbursements from the merchant's Local Acquiring account to their own bank account. Sandbox includes a transaction simulator endpo
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Inspect transactions and settlements. Settlements represent outgoing disbursements from the merchant's Local Acquiring account to their own bank account. Sandbox includes a transaction simulator endpo
   name: Fintecture Transactions and Settlements API
   slug: fintecture-transactions-api
-- description: Bank accounts, balances, and holders
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Bank accounts, balances, and holders
   name: Fintecture Accounts API
   slug: fintecture-accounts-api
-- description: The Applications API from Fintecture — 3 operation(s) for applications.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Applications API from Fintecture — 3 operation(s) for applications.
   name: Fintecture Applications API
   slug: fintecture-applications-api
-- description: PSU bank authentication
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: PSU bank authentication
   name: Fintecture Authentication API
   slug: fintecture-authentication-api
-- description: Customer bank accounts
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Customer bank accounts
   name: Fintecture Bank Accounts API
   slug: fintecture-bank-accounts-api
-- description: The Companies API from Fintecture — 2 operation(s) for companies.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Companies API from Fintecture — 2 operation(s) for companies.
   name: Fintecture Companies API
   slug: fintecture-companies-api
-- description: Customer e-mandates
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Customer e-mandates
   name: Fintecture E-Mandates API
   slug: fintecture-e-mandates-api
-- description: The Memberships API from Fintecture — 2 operation(s) for memberships.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Memberships API from Fintecture — 2 operation(s) for memberships.
   name: Fintecture Memberships API
   slug: fintecture-memberships-api
-- description: The Organisation Nodes API from Fintecture — 4 operation(s) for organisation nodes.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Organisation Nodes API from Fintecture — 4 operation(s) for organisation nodes.
   name: Fintecture Organisation Nodes API
   slug: fintecture-organisation-nodes-api
-- description: Create and inspect payment sessions
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Create and inspect payment sessions
   name: Fintecture Payments API
   slug: fintecture-payments-api
-- description: Verified payouts and request-for-payout
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Verified payouts and request-for-payout
   name: Fintecture Payouts API
   slug: fintecture-payouts-api
-- description: Bank providers / coverage
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Bank providers / coverage
   name: Fintecture Providers API
   slug: fintecture-providers-api
-- description: Initiate immediate refunds
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Initiate immediate refunds
   name: Fintecture Refunds API
   slug: fintecture-refunds-api
-- description: Generate Fintecture payment links
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Generate Fintecture payment links
   name: Fintecture Request To Pay API
   slug: fintecture-request-to-pay-api
-- description: The Sandbox API from Fintecture — 1 operation(s) for sandbox.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Sandbox API from Fintecture — 1 operation(s) for sandbox.
   name: Fintecture Sandbox API
   slug: fintecture-sandbox-api
-- description: Local Acquiring disbursements
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Local Acquiring disbursements
   name: Fintecture Settlements API
   slug: fintecture-settlements-api
-- description: Sandbox test accounts
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Sandbox test accounts
   name: Fintecture Test Accounts API
   slug: fintecture-test-accounts-api
-- description: The Users API from Fintecture — 2 operation(s) for users.
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: The Users API from Fintecture — 2 operation(s) for users.
   name: Fintecture Users API
   slug: fintecture-users-api
-- description: AIS-based identity verification
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: AIS-based identity verification
   name: Fintecture Verification API
   slug: fintecture-verification-api
-- description: Customer identity verifications
+- baseURL: https://api.fintecture.com
+  baseurl_source: spec
+  description: Customer identity verifications
   name: Fintecture Verifications API
   slug: fintecture-verifications-api
 arazzos:
@@ -592,7 +636,7 @@ score:
     regime_id: banking_open_finance
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png
 security:

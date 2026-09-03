@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -50,13 +50,19 @@ apis:
 - description: Language server implementation for Bicep providing IntelliSense and validation.
   name: Bicep Language Server
   slug: bicep-language-server
-- description: Create, validate, and manage ARM/Bicep template deployments
+- baseURL: https://github.com/Azure/bicep
+  baseurl_source: declared
+  description: Create, validate, and manage ARM/Bicep template deployments
   name: Microsoft Bicep Deployments API
   slug: microsoft-bicep-deployments-api
-- description: Manage versions of Template Spec resources
+- baseURL: https://github.com/Azure/bicep
+  baseurl_source: declared
+  description: Manage versions of Template Spec resources
   name: Microsoft Bicep Template Spec Versions API
   slug: microsoft-bicep-template-spec-versions-api
-- description: Manage Template Spec resources for reusable Bicep templates
+- baseURL: https://github.com/Azure/bicep
+  baseurl_source: declared
+  description: Manage Template Spec resources for reusable Bicep templates
   name: Microsoft Bicep Template Specs API
   slug: microsoft-bicep-template-specs-api
 artifact_total: 23
@@ -238,7 +244,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:

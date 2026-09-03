@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -46,19 +46,29 @@ apis:
 - description: The database itself is accessed via the PostgreSQL wire protocol (port 5432), with TimescaleDB SQL functions for hypertable management, compression, continuous aggregates and hyperfunctions. Not a RES
   name: TimescaleDB PostgreSQL Wire Interface
   slug: postgres-wire
-- description: Track analytics events.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Track analytics events.
   name: TimescaleDB / Tiger Data Analytics API
   slug: timescaledb-analytics-api
-- description: Authentication and authorization information.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Authentication and authorization information.
   name: TimescaleDB / Tiger Data Auth API
   slug: timescaledb-auth-api
-- description: The Read Replica Sets API from TimescaleDB / Tiger Data — 6 operation(s) for read replica sets.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: The Read Replica Sets API from TimescaleDB / Tiger Data — 6 operation(s) for read replica sets.
   name: TimescaleDB / Tiger Data Read Replica Sets API
   slug: timescaledb-read-replica-sets-api
-- description: Manage services, read replicas, and their associated actions.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Manage services, read replicas, and their associated actions.
   name: TimescaleDB / Tiger Data Services API
   slug: timescaledb-services-api
-- description: Manage VPCs and their peering connections.
+- baseURL: https://console.cloud.tigerdata.com/public/api/v1
+  baseurl_source: declared
+  description: Manage VPCs and their peering connections.
   name: TimescaleDB / Tiger Data VPCs API
   slug: timescaledb-vpcs-api
 artifact_total: 49
@@ -316,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/screenshots/timescaledb-2026-06-20T195406.png
 security:

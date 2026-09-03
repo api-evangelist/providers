@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -64,13 +64,19 @@ apis:
 - description: Jito-Solana — the Jito Foundation MEV-enabled fork of the Solana validator client. Adds the Block Engine / Relayer integration that makes the bundle auction possible at the validator layer. Ships alon
   name: Jito-Solana Validator Client
   slug: jito-solana
-- description: Submit and inspect atomic Solana transaction bundles.
+- baseURL: https://mainnet.block-engine.jito.wtf/api/v1/bundles
+  baseurl_source: declared
+  description: Submit and inspect atomic Solana transaction bundles.
   name: Jito Labs Bundles API
   slug: jito-bundles-api
-- description: Bundle tip pricing data.
+- baseURL: https://mainnet.block-engine.jito.wtf/api/v1/bundles
+  baseurl_source: declared
+  description: Bundle tip pricing data.
   name: Jito Labs Tips API
   slug: jito-tips-api
-- description: Direct sendTransaction proxy to validator leaders.
+- baseURL: https://mainnet.block-engine.jito.wtf/api/v1/bundles
+  baseurl_source: declared
+  description: Direct sendTransaction proxy to validator leaders.
   name: Jito Labs Transactions API
   slug: jito-transactions-api
 artifact_total: 80
@@ -410,7 +416,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -420,7 +426,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 47.0
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -429,7 +435,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -208,7 +208,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -218,7 +218,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -236,7 +236,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/screenshots/swap-2026-08-17T082210.png
 security:

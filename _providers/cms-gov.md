@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -43,79 +43,129 @@ agentic_access:
   summary_line: 71 operations · 14 acting
 api_count: 10
 apis:
-- description: The Articles API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for articles.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Articles API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for articles.
   name: CMS — Centers for Medicare & Medicaid Services Articles API
   slug: cms-gov-articles-api
-- description: The Auth API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for auth.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Auth API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for auth.
   name: CMS — Centers for Medicare & Medicaid Services Auth API
   slug: cms-gov-auth-api
-- description: The Benchmarks API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for benchmarks.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Benchmarks API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for benchmarks.
   name: CMS — Centers for Medicare & Medicaid Services Benchmarks API
   slug: cms-gov-benchmarks-api
-- description: The Bulk Export API from CMS — Centers for Medicare & Medicaid Services — 10 operation(s) for bulk export.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Bulk Export API from CMS — Centers for Medicare & Medicaid Services — 10 operation(s) for bulk export.
   name: CMS — Centers for Medicare & Medicaid Services Bulk Export API
   slug: cms-gov-bulk-export-api
-- description: The Catalog API from CMS — Centers for Medicare & Medicaid Services — 4 operation(s) for catalog.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Catalog API from CMS — Centers for Medicare & Medicaid Services — 4 operation(s) for catalog.
   name: CMS — Centers for Medicare & Medicaid Services Catalog API
   slug: cms-gov-catalog-api
-- description: The Coverage API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for coverage.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Coverage API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for coverage.
   name: CMS — Centers for Medicare & Medicaid Services Coverage API
   slug: cms-gov-coverage-api
-- description: The Data API from CMS — Centers for Medicare & Medicaid Services — 4 operation(s) for data.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Data API from CMS — Centers for Medicare & Medicaid Services — 4 operation(s) for data.
   name: CMS — Centers for Medicare & Medicaid Services Data API
   slug: cms-gov-data-api
-- description: The Drugs API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for drugs.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Drugs API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for drugs.
   name: CMS — Centers for Medicare & Medicaid Services Drugs API
   slug: cms-gov-drugs-api
-- description: The Eligibility API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for eligibility.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Eligibility API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for eligibility.
   name: CMS — Centers for Medicare & Medicaid Services Eligibility API
   slug: cms-gov-eligibility-api
-- description: The ExplanationOfBenefit API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for explanationofbenefit.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The ExplanationOfBenefit API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for explanationofbenefit.
   name: CMS — Centers for Medicare & Medicaid Services ExplanationOfBenefit API
   slug: cms-gov-explanationofbenefit-api
-- description: The Geography API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for geography.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Geography API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for geography.
   name: CMS — Centers for Medicare & Medicaid Services Geography API
   slug: cms-gov-geography-api
-- description: The Group API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for group.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Group API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for group.
   name: CMS — Centers for Medicare & Medicaid Services Group API
   slug: cms-gov-group-api
-- description: The Issuers API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for issuers.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Issuers API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for issuers.
   name: CMS — Centers for Medicare & Medicaid Services Issuers API
   slug: cms-gov-issuers-api
-- description: The LCD API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for lcd.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The LCD API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for lcd.
   name: CMS — Centers for Medicare & Medicaid Services LCD API
   slug: cms-gov-lcd-api
-- description: The Measurements API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for measurements.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Measurements API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for measurements.
   name: CMS — Centers for Medicare & Medicaid Services Measurements API
   slug: cms-gov-measurements-api
-- description: The MEDCAC API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for medcac.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The MEDCAC API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for medcac.
   name: CMS — Centers for Medicare & Medicaid Services MEDCAC API
   slug: cms-gov-medcac-api
-- description: The Metadata API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for metadata.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Metadata API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for metadata.
   name: CMS — Centers for Medicare & Medicaid Services Metadata API
   slug: cms-gov-metadata-api
-- description: The NCD API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for ncd.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The NCD API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for ncd.
   name: CMS — Centers for Medicare & Medicaid Services NCD API
   slug: cms-gov-ncd-api
-- description: The Organization API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for organization.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Organization API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for organization.
   name: CMS — Centers for Medicare & Medicaid Services Organization API
   slug: cms-gov-organization-api
-- description: The Patient API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for patient.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Patient API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for patient.
   name: CMS — Centers for Medicare & Medicaid Services Patient API
   slug: cms-gov-patient-api
-- description: The Plans API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for plans.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Plans API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for plans.
   name: CMS — Centers for Medicare & Medicaid Services Plans API
   slug: cms-gov-plans-api
-- description: The Practitioner API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for practitioner.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Practitioner API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for practitioner.
   name: CMS — Centers for Medicare & Medicaid Services Practitioner API
   slug: cms-gov-practitioner-api
-- description: The Providers API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for providers.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Providers API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for providers.
   name: CMS — Centers for Medicare & Medicaid Services Providers API
   slug: cms-gov-providers-api
-- description: The Scoring API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for scoring.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Scoring API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for scoring.
   name: CMS — Centers for Medicare & Medicaid Services Scoring API
   slug: cms-gov-scoring-api
-- description: The Submissions API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for submissions.
+- baseURL: https://api.bluebutton.cms.gov/v2/fhir
+  baseurl_source: declared
+  description: The Submissions API from CMS — Centers for Medicare & Medicaid Services — 2 operation(s) for submissions.
   name: CMS — Centers for Medicare & Medicaid Services Submissions API
   slug: cms-gov-submissions-api
 artifact_total: 76
@@ -476,7 +526,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png
 security:

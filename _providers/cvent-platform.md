@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: Passkey RegLink APIs are RESTful JSON APIs (with legacy URL-based and SOAP options) connecting Cvent with external registration and reservation applications. Primary functions include streamlining the
   name: Cvent Passkey RegLink API
   slug: passkey-reglink
-- description: Event registrations and attendees
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event registrations and attendees
   name: Cvent Platform Attendees API
   slug: cvent-platform-attendees-api
-- description: Contact/address book
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Contact/address book
   name: Cvent Platform Contacts API
   slug: cvent-platform-contacts-api
-- description: Event lifecycle and configuration
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Event lifecycle and configuration
   name: Cvent Platform Events API
   slug: cvent-platform-events-api
-- description: Exhibitor management
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Exhibitor management
   name: Cvent Platform Exhibitors API
   slug: cvent-platform-exhibitors-api
-- description: OAuth 2.0 token issuance
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: OAuth 2.0 token issuance
   name: Cvent Platform OAuth API
   slug: cvent-platform-oauth-api
-- description: Agenda sessions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Agenda sessions
   name: Cvent Platform Sessions API
   slug: cvent-platform-sessions-api
-- description: Webhook subscriptions
+- baseURL: https://api-platform.cvent.com
+  baseurl_source: declared
+  description: Webhook subscriptions
   name: Cvent Platform Webhooks API
   slug: cvent-platform-webhooks-api
 artifact_total: 26
@@ -238,7 +252,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-platform/refs/heads/main/screenshots/cvent-platform-2026-06-20T175402.png
 security:

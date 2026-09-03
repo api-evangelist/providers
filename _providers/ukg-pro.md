@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: Unified data fabric API that exposes consolidated person, employment, and workforce data across UKG Pro and connected systems for analytics and integration use cases.
   name: UKG People Fabric API
   slug: people-fabric-api
-- description: Benefits enrollment and election data
+- baseURL: https://<<tenantHostName>>/api
+  baseurl_source: declared
+  description: Benefits enrollment and election data
   name: UKG Pro Benefits API
   slug: ukg-pro-benefits-api
-- description: Employment history and changes
+- baseURL: https://<<tenantHostName>>/api
+  baseurl_source: declared
+  description: Employment history and changes
   name: UKG Pro Employment API
   slug: ukg-pro-employment-api
-- description: Pay statements, earnings, and payroll data
+- baseURL: https://<<tenantHostName>>/api
+  baseurl_source: declared
+  description: Pay statements, earnings, and payroll data
   name: UKG Pro Pay API
   slug: ukg-pro-pay-api
-- description: Personnel and employee records
+- baseURL: https://<<tenantHostName>>/api
+  baseurl_source: declared
+  description: Personnel and employee records
   name: UKG Pro People API
   slug: ukg-pro-people-api
-- description: Recruiting and applicant tracking
+- baseURL: https://<<tenantHostName>>/api
+  baseurl_source: declared
+  description: Recruiting and applicant tracking
   name: UKG Pro Recruiting API
   slug: ukg-pro-recruiting-api
 artifact_total: 18
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg-pro/refs/heads/main/screenshots/ukg-pro-2026-06-20T200008.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 22 operations · 9 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Billing Details API from Cariqa — 1 operation(s) for billing details.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Billing Details API from Cariqa — 1 operation(s) for billing details.
   name: Cariqa Billing Details API
   slug: cariqa-billing-details-api
-- description: The Charging Sessions API from Cariqa — 4 operation(s) for charging sessions.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Charging Sessions API from Cariqa — 4 operation(s) for charging sessions.
   name: Cariqa Charging Sessions API
   slug: cariqa-charging-sessions-api
-- description: The Debts API from Cariqa — 1 operation(s) for debts.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Debts API from Cariqa — 1 operation(s) for debts.
   name: Cariqa Debts API
   slug: cariqa-debts-api
-- description: The Invoices API from Cariqa — 1 operation(s) for invoices.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Invoices API from Cariqa — 1 operation(s) for invoices.
   name: Cariqa Invoices API
   slug: cariqa-invoices-api
-- description: The Payments API from Cariqa — 4 operation(s) for payments.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Payments API from Cariqa — 4 operation(s) for payments.
   name: Cariqa Payments API
   slug: cariqa-payments-api
-- description: The Stations API from Cariqa — 4 operation(s) for stations.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Stations API from Cariqa — 4 operation(s) for stations.
   name: Cariqa Stations API
   slug: cariqa-stations-api
-- description: The Users API from Cariqa — 2 operation(s) for users.
+- baseURL: https://connect.cariqa.com
+  baseurl_source: declared
+  description: The Users API from Cariqa — 2 operation(s) for users.
   name: Cariqa Users API
   slug: cariqa-users-api
 artifact_total: 19
@@ -260,7 +274,7 @@ score:
     regime_id: energy_utilities
     score: 40.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cariqa/refs/heads/main/screenshots/cariqa-2026-07-25T204619.png
 security:

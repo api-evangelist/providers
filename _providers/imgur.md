@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
   name: Imgur Account API
   slug: imgur-account-api
-- description: Album creation, retrieval, and image-management operations.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Album creation, retrieval, and image-management operations.
   name: Imgur Album API
   slug: imgur-album-api
-- description: OAuth2 token issuance and refresh.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: OAuth2 token issuance and refresh.
   name: Imgur Auth API
   slug: imgur-auth-api
-- description: Comments on gallery items.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Comments on gallery items.
   name: Imgur Comment API
   slug: imgur-comment-api
-- description: Public gallery listing, voting, sharing, and reporting.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Public gallery listing, voting, sharing, and reporting.
   name: Imgur Gallery API
   slug: imgur-gallery-api
-- description: Image upload, retrieval, deletion, favorite, and update operations.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Image upload, retrieval, deletion, favorite, and update operations.
   name: Imgur Image API
   slug: imgur-image-api
-- description: Meme generation and meme defaults.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Meme generation and meme defaults.
   name: Imgur Memegen API
   slug: imgur-memegen-api
-- description: User notification retrieval and dismissal.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: User notification retrieval and dismissal.
   name: Imgur Notification API
   slug: imgur-notification-api
-- description: Tag-based gallery browsing and tagging of gallery items.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Tag-based gallery browsing and tagging of gallery items.
   name: Imgur Tags API
   slug: imgur-tags-api
-- description: Topic listings and topic galleries.
+- baseURL: https://api.imgur.com/3/
+  baseurl_source: declared
+  description: Topic listings and topic galleries.
   name: Imgur Topic API
   slug: imgur-topic-api
 artifact_total: 69
@@ -350,7 +370,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:

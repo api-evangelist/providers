@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -53,31 +53,49 @@ apis:
 - description: On-router Python SDK and toolchain (the "SDK" / "Router SDK") for building and deploying custom applications onto Cradlepoint routers running NetCloud OS. Lets developers write Python apps that read r
   name: Cradlepoint NetCloud Router SDK
   slug: netcloud-router-sdk
-- description: Account and subaccount management
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Account and subaccount management
   name: Cradlepoint Accounts API
   slug: cradlepoint-accounts-api
-- description: Audit / activity logs across accounts
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Audit / activity logs across accounts
   name: Cradlepoint ActivityLogs API
   slug: cradlepoint-activitylogs-api
-- description: Outbound webhook destinations for alert delivery
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Outbound webhook destinations for alert delivery
   name: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
-- description: Alert monitoring rule configuration
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Alert monitoring rule configuration
   name: Cradlepoint AlertRules API
   slug: cradlepoint-alertrules-api
-- description: Generated alerts
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Generated alerts
   name: Cradlepoint Alerts API
   slug: cradlepoint-alerts-api
-- description: Logical device groupings
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Logical device groupings
   name: Cradlepoint Groups API
   slug: cradlepoint-groups-api
-- description: Current and historical router location
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Current and historical router location
   name: Cradlepoint Locations API
   slug: cradlepoint-locations-api
-- description: Modems, WAN devices, and network interfaces on routers
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Modems, WAN devices, and network interfaces on routers
   name: Cradlepoint NetDevices API
   slug: cradlepoint-netdevices-api
-- description: Router (edge device) management
+- baseURL: https://www.cradlepointecm.com/api/v2/
+  baseurl_source: declared
+  description: Router (edge device) management
   name: Cradlepoint Routers API
   slug: cradlepoint-routers-api
 artifact_total: 37
@@ -337,7 +355,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/screenshots/cradlepoint-2026-06-20T175202.png
 security:

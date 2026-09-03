@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Self-serve signup
+  onboarding: self-serve
+  pricing: free
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,46 +37,72 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: Lakekeeper's data-plane API served under /lakekeeper/v1, cataloging non-Iceberg table formats — Lance, Delta, CSV, Parquet — alongside Iceberg tables in the same Warehouse and Namespace, with the same
+- baseURL: '{scheme}://{host}/lakekeeper/v1'
+  baseurl_source: declared
+  description: Lakekeeper's data-plane API served under /lakekeeper/v1, cataloging non-Iceberg table formats — Lance, Delta, CSV, Parquet — alongside Iceberg tables in the same Warehouse and Namespace, with the same
   name: Lakekeeper Generic Table (Data) API
   slug: lakekeeper-generic-table-data-api
-- description: The authorization API from Lakekeeper — 1 operation(s) for authorization.
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: The authorization API from Lakekeeper — 1 operation(s) for authorization.
   name: Lakekeeper Authorization API
   slug: lakekeeper-authorization-api
-- description: The Catalog API API from Lakekeeper — 16 operation(s) for catalog api.
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: The Catalog API API from Lakekeeper — 16 operation(s) for catalog api.
   name: Lakekeeper Catalog API
   slug: lakekeeper-catalog-api-api
-- description: The Configuration API API from Lakekeeper — 1 operation(s) for configuration api.
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: The Configuration API API from Lakekeeper — 1 operation(s) for configuration api.
   name: Lakekeeper Configuration API
   slug: lakekeeper-configuration-api-api
-- description: The OAuth2 API API from Lakekeeper — 1 operation(s) for oauth2 api.
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: The OAuth2 API API from Lakekeeper — 1 operation(s) for oauth2 api.
   name: Lakekeeper OAuth2 API
   slug: lakekeeper-oauth2-api-api
-- description: Cedar Authorization Management. Only available if Cedar authorization is enabled.
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Cedar Authorization Management. Only available if Cedar authorization is enabled.
   name: Lakekeeper Permissions Cedar API
   slug: lakekeeper-permissions-cedar-api
-- description: Authorization and permissions management using OpenFGA
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Authorization and permissions management using OpenFGA
   name: Lakekeeper Permissions Openfga API
   slug: lakekeeper-permissions-openfga-api
-- description: Manage Projects
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Manage Projects
   name: Lakekeeper Project API
   slug: lakekeeper-project-api
-- description: Manage Roles
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Manage Roles
   name: Lakekeeper Role API
   slug: lakekeeper-role-api
-- description: Manage Server
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Manage Server
   name: Lakekeeper Server API
   slug: lakekeeper-server-api
-- description: View & Manage Tasks
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: View & Manage Tasks
   name: Lakekeeper Tasks API
   slug: lakekeeper-tasks-api
-- description: Manage Users
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Manage Users
   name: Lakekeeper User API
   slug: lakekeeper-user-api
-- description: Manage Warehouses
+- baseURL: '{scheme}://{host}/management/v1'
+  baseurl_source: declared
+  description: Manage Warehouses
   name: Lakekeeper Warehouse API
   slug: lakekeeper-warehouse-api
 artifact_total: 19
@@ -227,23 +267,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.9
+  composite: 54.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.3
+  delta: 0.3
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
-    contract_quality: 58.4
+    contract_quality: 59.5
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 55.2
+  previous_composite: 53.9
   provenance:
     conformance: first-party
     contracts:
@@ -254,8 +294,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lakekeeper/refs/heads/main/screenshots/lakekeeper-2026-09-02T150205.png
 security:
 - kind: authentication
   name: Lakekeeper Authentication

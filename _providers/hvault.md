@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 5
@@ -45,88 +45,144 @@ agentic_access:
   summary_line: 116 operations · 76 acting · 5 human-in-the-loop
 api_count: 4
 apis:
-- description: AppRole auth method for machine-to-machine authentication
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: AppRole auth method for machine-to-machine authentication
   name: HashiCorp Vault AppRole API
   slug: hvault-approle-api
-- description: Audit device management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Audit device management
   name: HashiCorp Vault Audit API
   slug: hvault-audit-api
-- description: Auth method management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Auth method management
   name: HashiCorp Vault Auth API
   slug: hvault-auth-api
-- description: AWS dynamic credentials secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: AWS dynamic credentials secrets engine
   name: HashiCorp Vault AWS API
   slug: hvault-aws-api
-- description: General Vault configuration
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: General Vault configuration
   name: HashiCorp Vault Configuration API
   slug: hvault-configuration-api
-- description: Database dynamic credentials secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Database dynamic credentials secrets engine
   name: HashiCorp Vault Database API
   slug: hvault-database-api
-- description: Identity entity alias management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Identity entity alias management
   name: HashiCorp Vault Entity Alias API
   slug: hvault-entity-alias-api
-- description: Identity entity management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Identity entity management
   name: HashiCorp Vault Entity API
   slug: hvault-entity-api
-- description: GitHub auth method for organization-based authentication
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: GitHub auth method for organization-based authentication
   name: HashiCorp Vault GitHub API
   slug: hvault-github-api
-- description: Identity group alias management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Identity group alias management
   name: HashiCorp Vault Group Alias API
   slug: hvault-group-alias-api
-- description: Identity group management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Identity group management
   name: HashiCorp Vault Group API
   slug: hvault-group-api
-- description: Health and status endpoints
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Health and status endpoints
   name: HashiCorp Vault Health API
   slug: hvault-health-api
-- description: Vault initialization
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Vault initialization
   name: HashiCorp Vault Init API
   slug: hvault-init-api
-- description: JWT/OIDC auth method for identity provider authentication
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: JWT/OIDC auth method for identity provider authentication
   name: HashiCorp Vault JWT/OIDC API
   slug: hvault-jwt-oidc-api
-- description: Kubernetes auth method for pod authentication
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Kubernetes auth method for pod authentication
   name: HashiCorp Vault Kubernetes API
   slug: hvault-kubernetes-api
-- description: Key/Value version 2 secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Key/Value version 2 secrets engine
   name: HashiCorp Vault KV V2 API
   slug: hvault-kv-v2-api
-- description: LDAP auth method for directory-based authentication
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: LDAP auth method for directory-based authentication
   name: HashiCorp Vault LDAP API
   slug: hvault-ldap-api
-- description: HA leader status
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: HA leader status
   name: HashiCorp Vault Leader API
   slug: hvault-leader-api
-- description: Identity lookup operations
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Identity lookup operations
   name: HashiCorp Vault Lookup API
   slug: hvault-lookup-api
-- description: Secrets engine mount management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Secrets engine mount management
   name: HashiCorp Vault Mounts API
   slug: hvault-mounts-api
-- description: OIDC identity provider operations
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: OIDC identity provider operations
   name: HashiCorp Vault OIDC API
   slug: hvault-oidc-api
-- description: PKI certificate management secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: PKI certificate management secrets engine
   name: HashiCorp Vault PKI API
   slug: hvault-pki-api
-- description: Policy management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Policy management
   name: HashiCorp Vault Policy API
   slug: hvault-policy-api
-- description: Seal and unseal operations
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Seal and unseal operations
   name: HashiCorp Vault Seal API
   slug: hvault-seal-api
-- description: SSH certificate signing secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: SSH certificate signing secrets engine
   name: HashiCorp Vault SSH API
   slug: hvault-ssh-api
-- description: Token auth method for token lifecycle management
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Token auth method for token lifecycle management
   name: HashiCorp Vault Token API
   slug: hvault-token-api
-- description: Transit encryption-as-a-service secrets engine
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Transit encryption-as-a-service secrets engine
   name: HashiCorp Vault Transit API
   slug: hvault-transit-api
-- description: Username and password auth method
+- baseURL: https://vault.example.com/v1/sys
+  baseurl_source: declared
+  description: Username and password auth method
   name: HashiCorp Vault Userpass API
   slug: hvault-userpass-api
 artifact_total: 75
@@ -409,7 +465,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

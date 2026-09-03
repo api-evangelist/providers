@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -49,25 +49,39 @@ apis:
 - description: Administration Center REST API for managing Business Central environments, tenants, telemetry, update settings, and notifications programmatically for ISVs and delegated administrators.
   name: Business Central Administration Center API
   slug: admin-center-api
-- description: Business Central company entities
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Business Central company entities
   name: Microsoft Dynamics 365 Business Central Companies API
   slug: microsoft-dynamics-365-business-central-companies-api
-- description: Customer master data
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Customer master data
   name: Microsoft Dynamics 365 Business Central Customers API
   slug: microsoft-dynamics-365-business-central-customers-api
-- description: Item master data
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Item master data
   name: Microsoft Dynamics 365 Business Central Items API
   slug: microsoft-dynamics-365-business-central-items-api
-- description: Purchase order documents
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Purchase order documents
   name: Microsoft Dynamics 365 Business Central PurchaseOrders API
   slug: microsoft-dynamics-365-business-central-purchaseorders-api
-- description: Sales invoice documents
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Sales invoice documents
   name: Microsoft Dynamics 365 Business Central SalesInvoices API
   slug: microsoft-dynamics-365-business-central-salesinvoices-api
-- description: Sales order documents
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Sales order documents
   name: Microsoft Dynamics 365 Business Central SalesOrders API
   slug: microsoft-dynamics-365-business-central-salesorders-api
-- description: Vendor master data
+- baseURL: https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0
+  baseurl_source: declared
+  description: Vendor master data
   name: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
 artifact_total: 24
@@ -197,7 +211,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/screenshots/microsoft-dynamics-365-business-central-2026-06-20T185459.png
 security:

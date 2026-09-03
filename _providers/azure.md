@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 5 operations · 1 acting
 api_count: 3
 apis:
-- description: Manage Azure resource groups
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Azure resource groups
   name: Microsoft Azure Resource Groups API
   slug: azure-resource-groups-api
-- description: Manage Azure resources
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Azure resources
   name: Microsoft Azure Resources API
   slug: azure-resources-api
-- description: Manage Azure subscriptions
+- baseURL: https://management.azure.com
+  baseurl_source: declared
+  description: Manage Azure subscriptions
   name: Microsoft Azure Subscriptions API
   slug: azure-subscriptions-api
 artifact_total: 49
@@ -305,7 +311,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:

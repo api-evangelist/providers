@@ -23,22 +23,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
   name: Loa Healthcare Pricing MCP Server
   slug: loa-healthcare-pricing-mcp-server
-- description: The Entities API from Loa Healthcare Pricing API — 3 operation(s) for entities.
+- baseURL: https://www.loacare.com/api/v1
+  baseurl_source: declared
+  description: The Entities API from Loa Healthcare Pricing API — 3 operation(s) for entities.
   name: Loa Healthcare Pricing API Entities API
   slug: loa-healthcare-pricing-api-entities-api
-- description: The Entity Analytics API from Loa Healthcare Pricing API — 1 operation(s) for entity analytics.
+- baseURL: https://www.loacare.com/api/v1
+  baseurl_source: declared
+  description: The Entity Analytics API from Loa Healthcare Pricing API — 1 operation(s) for entity analytics.
   name: Loa Healthcare Pricing API Entity Analytics API
   slug: loa-healthcare-pricing-api-entity-analytics-api
-- description: The Entity Updates API from Loa Healthcare Pricing API — 1 operation(s) for entity updates.
+- baseURL: https://www.loacare.com/api/v1
+  baseurl_source: declared
+  description: The Entity Updates API from Loa Healthcare Pricing API — 1 operation(s) for entity updates.
   name: Loa Healthcare Pricing API Entity Updates API
   slug: loa-healthcare-pricing-api-entity-updates-api
-- description: The Prices API from Loa Healthcare Pricing API — 1 operation(s) for prices.
+- baseURL: https://www.loacare.com/api/v1
+  baseurl_source: declared
+  description: The Prices API from Loa Healthcare Pricing API — 1 operation(s) for prices.
   name: Loa Healthcare Pricing API Prices API
   slug: loa-healthcare-pricing-api-prices-api
 artifact_total: 11
@@ -103,7 +111,7 @@ score:
     regime_id: health
     score: 0.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 slug: loa-healthcare-pricing-api

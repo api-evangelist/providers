@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +45,14 @@ agentic_access:
   summary_line: 36 operations
 api_count: 1
 apis:
-- description: Public machine-readable resources for AI assistants, crawlers, and agents.
+- baseURL: https://nas.com
+  baseurl_source: spec
+  description: Public machine-readable resources for AI assistants, crawlers, and agents.
   name: Nas Academy AI discovery API
   slug: nas-academy-ai-discovery-api
-- description: Public developer and integration guidance without private API contracts.
+- baseURL: https://nas.com
+  baseurl_source: spec
+  description: Public developer and integration guidance without private API contracts.
   name: Nas Academy Developer discovery API
   slug: nas-academy-developer-discovery-api
 artifact_total: 10
@@ -115,7 +131,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nas-academy/refs/heads/main/screenshots/nas-academy-2026-08-07T184637.png
 security:

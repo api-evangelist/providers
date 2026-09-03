@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for the University of Warsaw Research Data Repository (Dataverse). The repository identifies itself as the "Dane Badawcze UW Dataverse OAI Archive" and support
   name: Dane Badawcze UW OAI-PMH Endpoint
   slug: rdr-oai-pmh
-- description: Machine-readable method reference
+- baseURL: https://usosapps.uw.edu.pl/services/
+  baseurl_source: declared
+  description: Machine-readable method reference
   name: University of Warsaw apiref API
   slug: university-of-warsaw-apiref-api
-- description: USOS API server information and time
+- baseURL: https://usosapps.uw.edu.pl/services/
+  baseurl_source: declared
+  description: USOS API server information and time
   name: University of Warsaw apisrv API
   slug: university-of-warsaw-apisrv-api
-- description: Academic calendar events
+- baseURL: https://usosapps.uw.edu.pl/services/
+  baseurl_source: declared
+  description: Academic calendar events
   name: University of Warsaw calendar API
   slug: university-of-warsaw-calendar-api
-- description: Courses and course editions
+- baseURL: https://usosapps.uw.edu.pl/services/
+  baseurl_source: declared
+  description: Courses and course editions
   name: University of Warsaw courses API
   slug: university-of-warsaw-courses-api
-- description: Faculties and organizational units
+- baseURL: https://usosapps.uw.edu.pl/services/
+  baseurl_source: declared
+  description: Faculties and organizational units
   name: University of Warsaw fac API
   slug: university-of-warsaw-fac-api
-- description: Jaskier is the University of Warsaw's central institutional data and services API — the backend behind MyUW and the university's in-house applications, built and operated by the university's own IT de
+- baseURL: https://api.jaskier.uw.edu.pl
+  baseurl_source: declared
+  description: Jaskier is the University of Warsaw's central institutional data and services API — the backend behind MyUW and the university's in-house applications, built and operated by the university's own IT de
   name: Jaskier API
   slug: jaskier-api
-- description: The REST API behind the Student Portal 4EU+, the shared student services portal of the 4EU+ European University Alliance, built and operated by the University of Warsaw. It publishes its own springdoc
+- baseURL: https://api.sp4eu.uw.edu.pl
+  baseurl_source: declared
+  description: The REST API behind the Student Portal 4EU+, the shared student services portal of the 4EU+ European University Alliance, built and operated by the University of Warsaw. It publishes its own springdoc
   name: Student Portal 4EU+ API
   slug: sp4eu-api
 - description: The Institutional Repository of the University of Warsaw (ReIn UW, Repozytorium Instytucjonalne Uniwersytetu Warszawskiego) runs DSpace-CRIS 8.1 (cris-2024.02.01) on the university's own host and expo
@@ -313,23 +327,23 @@ rules:
   slug: university-of-warsaw-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 53.6
   coverage:
     artifact_dirs: 19
     catalog_gap: 34.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 9.6
+  delta: 0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 14.4
-    contract_quality: 67.3
+    contract_quality: 70.2
     developer_ergonomics: 45.2
     discoverability: 74.1
     governance: 14.4
     operational_transparency: 26.3
-  previous_composite: 43.3
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,8 +359,8 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png
 security:
 - kind: authentication

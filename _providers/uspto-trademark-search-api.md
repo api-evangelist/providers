@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Database freshness and update information
+- baseURL: https://uspto-trademark.p.rapidapi.com
+  baseurl_source: declared
+  description: Database freshness and update information
   name: USPTO Trademark Search API Database Status API
   slug: uspto-trademark-search-api-database-status-api
-- description: Search trademarks by owner name
+- baseURL: https://uspto-trademark.p.rapidapi.com
+  baseurl_source: declared
+  description: Search trademarks by owner name
   name: USPTO Trademark Search API Owner Search API
   slug: uspto-trademark-search-api-owner-search-api
-- description: Check if a trademark is available for registration
+- baseURL: https://uspto-trademark.p.rapidapi.com
+  baseurl_source: declared
+  description: Check if a trademark is available for registration
   name: USPTO Trademark Search API Trademark Availability API
   slug: uspto-trademark-search-api-trademark-availability-api
-- description: Retrieve trademark details by serial number
+- baseURL: https://uspto-trademark.p.rapidapi.com
+  baseurl_source: declared
+  description: Retrieve trademark details by serial number
   name: USPTO Trademark Search API Trademark Lookup API
   slug: uspto-trademark-search-api-trademark-lookup-api
-- description: Search trademarks by keyword or phrase
+- baseURL: https://uspto-trademark.p.rapidapi.com
+  baseurl_source: declared
+  description: Search trademarks by keyword or phrase
   name: USPTO Trademark Search API Trademark Search API
   slug: uspto-trademark-search-api-trademark-search-api
 artifact_total: 32
@@ -279,7 +289,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

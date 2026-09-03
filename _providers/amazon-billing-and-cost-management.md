@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: The AWS Price List API allows programmatic querying of AWS service pricing information in JSON or CSV format. Retrieve price lists for all AWS services, filter by region and attributes, and stay curre
   name: AWS Price List API
   slug: aws-price-list-api
-- description: Detect and manage cost anomalies
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Detect and manage cost anomalies
   name: Amazon Billing And Cost Management Anomaly Detection API
   slug: amazon-billing-and-cost-management-anomaly-detection-api
-- description: Automated actions when budget thresholds are exceeded
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Automated actions when budget thresholds are exceeded
   name: Amazon Billing And Cost Management Budget Actions API
   slug: amazon-billing-and-cost-management-budget-actions-api
-- description: Create and manage cost budgets
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Create and manage cost budgets
   name: Amazon Billing And Cost Management Budgets API
   slug: amazon-billing-and-cost-management-budgets-api
-- description: Query cost and usage data
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Query cost and usage data
   name: Amazon Billing And Cost Management Cost And Usage API
   slug: amazon-billing-and-cost-management-cost-and-usage-api
-- description: Organize costs with custom categories
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Organize costs with custom categories
   name: Amazon Billing And Cost Management Cost Categories API
   slug: amazon-billing-and-cost-management-cost-categories-api
-- description: Generate cost and usage forecasts
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Generate cost and usage forecasts
   name: Amazon Billing And Cost Management Forecasting API
   slug: amazon-billing-and-cost-management-forecasting-api
-- description: Manage budget alert notifications
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage budget alert notifications
   name: Amazon Billing And Cost Management Notifications API
   slug: amazon-billing-and-cost-management-notifications-api
-- description: Cost optimization recommendations
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Cost optimization recommendations
   name: Amazon Billing And Cost Management Recommendations API
   slug: amazon-billing-and-cost-management-recommendations-api
-- description: Manage cost allocation tags
+- baseURL: https://ce.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: Manage cost allocation tags
   name: Amazon Billing And Cost Management Tags API
   slug: amazon-billing-and-cost-management-tags-api
 artifact_total: 33
@@ -289,7 +307,7 @@ score:
       total: 9
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/screenshots/amazon-billing-and-cost-management-2026-07-25T195936.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 36 operations · 17 acting
 api_count: 1
 apis:
-- description: User accounts, vehicles, and payment methods.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: User accounts, vehicles, and payment methods.
   name: ParkWhiz Accounts & Vehicles API
   slug: parkwhiz-accounts-vehicles-api
-- description: Create and manage parking reservations and parking passes.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Create and manage parking reservations and parking passes.
   name: ParkWhiz Bookings API
   slug: parkwhiz-bookings-api
-- description: Recurring monthly parking bookings.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Recurring monthly parking bookings.
   name: ParkWhiz Monthly Parking API
   slug: parkwhiz-monthly-parking-api
-- description: Token issuance for partner and user authorization.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Token issuance for partner and user authorization.
   name: ParkWhiz OAuth API
   slug: parkwhiz-oauth-api
-- description: Search bookable availability and pricing, and parking location details.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Search bookable availability and pricing, and parking location details.
   name: ParkWhiz Quotes & Locations API
   slug: parkwhiz-quotes-locations-api
-- description: Drive-up parking transactions, violations, and payment.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Drive-up parking transactions, violations, and payment.
   name: ParkWhiz Tickets API
   slug: parkwhiz-tickets-api
-- description: Venue and event lookup for event parking.
+- baseURL: https://api.parkwhiz.com/v4
+  baseurl_source: declared
+  description: Venue and event lookup for event parking.
   name: ParkWhiz Venues & Events API
   slug: parkwhiz-venues-events-api
 artifact_total: 23
@@ -212,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/screenshots/parkwhiz-2026-08-07T191441.png
 security:

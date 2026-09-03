@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 11 operations
 api_count: 4
 apis:
-- description: The Company API from Nubela — 6 operation(s) for company.
+- baseURL: https://nubela.co/proxycurl/api/
+  baseurl_source: declared
+  description: The Company API from Nubela — 6 operation(s) for company.
   name: Nubela Company API
   slug: nubela-company-api
-- description: The Competitor API from Nubela — 1 operation(s) for competitor.
+- baseURL: https://nubela.co/proxycurl/api/
+  baseurl_source: declared
+  description: The Competitor API from Nubela — 1 operation(s) for competitor.
   name: Nubela Competitor API
   slug: nubela-competitor-api
-- description: The Customer API from Nubela — 1 operation(s) for customer.
+- baseURL: https://nubela.co/proxycurl/api/
+  baseurl_source: declared
+  description: The Customer API from Nubela — 1 operation(s) for customer.
   name: Nubela Customer API
   slug: nubela-customer-api
-- description: The Employee API from Nubela — 3 operation(s) for employee.
+- baseURL: https://nubela.co/proxycurl/api/
+  baseurl_source: declared
+  description: The Employee API from Nubela — 3 operation(s) for employee.
   name: Nubela Employee API
   slug: nubela-employee-api
 artifact_total: 16
@@ -161,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/screenshots/nubela-2026-06-20T190506.png
 security:

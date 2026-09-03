@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -43,31 +43,49 @@ agentic_access:
   summary_line: 25 operations · 12 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Cluster health
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Cluster health
   name: Restate cluster_health API
   slug: restate-cluster-health-api
-- description: Service Deployment management
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Service Deployment management
   name: Restate deployment API
   slug: restate-deployment-api
-- description: Admin API health
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Admin API health
   name: Restate health API
   slug: restate-health-api
-- description: Invocation management
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Invocation management
   name: Restate invocation API
   slug: restate-invocation-api
-- description: The openapi API from Restate — 1 operation(s) for openapi.
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: The openapi API from Restate — 1 operation(s) for openapi.
   name: Restate openapi API
   slug: restate-openapi-api
-- description: Service management
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Service management
   name: Restate service API
   slug: restate-service-api
-- description: Service handlers metadata
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Service handlers metadata
   name: Restate service_handler API
   slug: restate-service-handler-api
-- description: Subscription management
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: Subscription management
   name: Restate subscription API
   slug: restate-subscription-api
-- description: API Version
+- baseURL: http://localhost:9070
+  baseurl_source: declared
+  description: API Version
   name: Restate version API
   slug: restate-version-api
 artifact_total: 36
@@ -298,7 +316,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/screenshots/restate-2026-06-20T193014.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 44 operations · 44 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Business accounts, reporting, photos, groups, and referrals.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Business accounts, reporting, photos, groups, and referrals.
   name: CleanCloud Business and Reporting API
   slug: drycleancloud-business-and-reporting-api
-- description: Customer accounts, authentication, and password reset.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Customer accounts, authentication, and password reset.
   name: CleanCloud Customers API
   slug: drycleancloud-customers-api
-- description: Customer/store messaging and push notification tokens.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Customer/store messaging and push notification tokens.
   name: CleanCloud Messaging API
   slug: drycleancloud-messaging-api
-- description: Orders and the garments within them.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Orders and the garments within them.
   name: CleanCloud Orders API
   slug: drycleancloud-orders-api
-- description: Payments, cards, subscriptions, invoices, promotions, and loyalty.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Payments, cards, subscriptions, invoices, promotions, and loyalty.
   name: CleanCloud Payments API
   slug: drycleancloud-payments-api
-- description: Recurring pickups, routing, scheduling, and driver location.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Recurring pickups, routing, scheduling, and driver location.
   name: CleanCloud Pickup and Delivery API
   slug: drycleancloud-pickup-and-delivery-api
-- description: Products, price lists, and inventory.
+- baseURL: https://cleancloudapp.com/api
+  baseurl_source: declared
+  description: Products, price lists, and inventory.
   name: CleanCloud Products API
   slug: drycleancloud-products-api
 artifact_total: 21
@@ -182,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/screenshots/drycleancloud-2026-07-25T212430.png
 security:

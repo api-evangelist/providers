@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Analytics API from Base Operations — 2 operation(s) for analytics.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Analytics API from Base Operations — 2 operation(s) for analytics.
   name: Base Operations Analytics API
   slug: base-operations-analytics-api
-- description: The Base Score API from Base Operations — 9 operation(s) for base score.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Base Score API from Base Operations — 9 operation(s) for base score.
   name: Base Operations Base Score API
   slug: base-operations-base-score-api
-- description: The Change Detection API from Base Operations — 13 operation(s) for change detection.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Change Detection API from Base Operations — 13 operation(s) for change detection.
   name: Base Operations Change Detection API
   slug: base-operations-change-detection-api
-- description: The Key Takeaways API from Base Operations — 4 operation(s) for key takeaways.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Key Takeaways API from Base Operations — 4 operation(s) for key takeaways.
   name: Base Operations Key Takeaways API
   slug: base-operations-key-takeaways-api
-- description: The Public Charts API from Base Operations — 4 operation(s) for public charts.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Public Charts API from Base Operations — 4 operation(s) for public charts.
   name: Base Operations Public Charts API
   slug: base-operations-public-charts-api
-- description: The Radius Charts API from Base Operations — 9 operation(s) for radius charts.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Radius Charts API from Base Operations — 9 operation(s) for radius charts.
   name: Base Operations Radius Charts API
   slug: base-operations-radius-charts-api
-- description: The Saved Location Charts API from Base Operations — 10 operation(s) for saved location charts.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Saved Location Charts API from Base Operations — 10 operation(s) for saved location charts.
   name: Base Operations Saved Location Charts API
   slug: base-operations-saved-location-charts-api
-- description: The Saved Location Radius Charts API from Base Operations — 6 operation(s) for saved location radius charts.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Saved Location Radius Charts API from Base Operations — 6 operation(s) for saved location radius charts.
   name: Base Operations Saved Location Radius Charts API
   slug: base-operations-saved-location-radius-charts-api
-- description: The Saved Locations API from Base Operations — 4 operation(s) for saved locations.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Saved Locations API from Base Operations — 4 operation(s) for saved locations.
   name: Base Operations Saved Locations API
   slug: base-operations-saved-locations-api
-- description: The Source Categories API from Base Operations — 2 operation(s) for source categories.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Source Categories API from Base Operations — 2 operation(s) for source categories.
   name: Base Operations Source Categories API
   slug: base-operations-source-categories-api
-- description: The Threat Categories API from Base Operations — 2 operation(s) for threat categories.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Threat Categories API from Base Operations — 2 operation(s) for threat categories.
   name: Base Operations Threat Categories API
   slug: base-operations-threat-categories-api
-- description: The Threats API from Base Operations — 6 operation(s) for threats.
+- baseURL: https://api.baseoperationsenterprise.com/
+  baseurl_source: declared
+  description: The Threats API from Base Operations — 6 operation(s) for threats.
   name: Base Operations Threats API
   slug: base-operations-threats-api
 artifact_total: 29
@@ -260,7 +284,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-operations/refs/heads/main/screenshots/base-operations-2026-07-25T202413.png
 security:

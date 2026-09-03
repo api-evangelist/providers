@@ -33,37 +33,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
   name: miso.ai Ask APIs API
   slug: misoai-ask-apis-api
-- description: The Bulk API provides an efficient interface for making multiple Search / Recommendations / Q&A requests in one API call. These requests will be executed concurrently at the Miso side, and returned at
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: The Bulk API provides an efficient interface for making multiple Search / Recommendations / Q&A requests in one API call. These requests will be executed concurrently at the Miso side, and returned at
   name: miso.ai Bulk API API
   slug: misoai-bulk-api-api
-- description: 'Miso''s experiment APIs let you do the A/B testing of your current result with Miso. ### Start an experiment in Dojo. Login to the [dojo](https://dojo.askmiso.com) platform. Create an experiment event '
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: 'Miso''s experiment APIs let you do the A/B testing of your current result with Miso. ### Start an experiment in Dojo. Login to the [dojo](https://dojo.askmiso.com) platform. Create an experiment event '
   name: miso.ai Experiment APIs API
   slug: misoai-experiment-apis-api
-- description: 'Miso’s Interaction APIs let you manage your Interaction records stored with Miso. ### Interaction records Your Interaction records tell Miso about user interactions with products and content on your s'
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: 'Miso’s Interaction APIs let you manage your Interaction records stored with Miso. ### Interaction records Your Interaction records tell Miso about user interactions with products and content on your s'
   name: miso.ai Interaction APIs API
   slug: misoai-interaction-apis-api
-- description: 'Miso''s Product / Content APIs let you upload, read, and delete Product / Content records that represent your site''s catalog. ### Product / Content records Miso analyzes your Product / Content records '
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: 'Miso''s Product / Content APIs let you upload, read, and delete Product / Content records that represent your site''s catalog. ### Product / Content records Miso analyzes your Product / Content records '
   name: miso.ai Product / Content APIs API
   slug: misoai-product-content-apis-api
-- description: APIs for recommending related products based on a given product.
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: APIs for recommending related products based on a given product.
   name: miso.ai Product Recommendations API
   slug: misoai-product-recommendations-api
-- description: The Q&A APIs API from miso.ai — 3 operation(s) for q&a apis.
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: The Q&A APIs API from miso.ai — 3 operation(s) for q&a apis.
   name: miso.ai Q&A APIs API
   slug: misoai-q-a-apis-api
-- description: The Search APIs API from miso.ai — 3 operation(s) for search apis.
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: The Search APIs API from miso.ai — 3 operation(s) for search apis.
   name: miso.ai Search APIs API
   slug: misoai-search-apis-api
-- description: 'Miso’s User APIs let you upload, read, and delete User records that tell Miso about your site’s unique users and visitors. ### User records User records specify relatively static attributes for a give'
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: 'Miso’s User APIs let you upload, read, and delete User records that tell Miso about your site’s unique users and visitors. ### User records User records specify relatively static attributes for a give'
   name: miso.ai User APIs API
   slug: misoai-user-apis-api
-- description: APIs for recommending products and content to users based on their interests.
+- baseURL: https://api.askmiso.com
+  baseurl_source: declared
+  description: APIs for recommending products and content to users based on their interests.
   name: miso.ai User Recommendations API
   slug: misoai-user-recommendations-api
 artifact_total: 24
@@ -268,7 +288,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:

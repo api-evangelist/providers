@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -59,10 +59,14 @@ apis:
 - description: Third-party sportsbook integration starting with BCBetting, providing bet retrieval, bonus management, and player-specific bonus operations.
   name: BetSolutions Third-Party Integration API
   slug: third-party-api
-- description: Player information and game data retrieval
+- baseURL: https://api.betsolutions.com/v1
+  baseurl_source: spec
+  description: Player information and game data retrieval
   name: BetSolutions Player API
   slug: betsolutions-player-api
-- description: BetSolutions-managed wallet operations for transfer mode integration
+- baseURL: https://api.betsolutions.com/v1
+  baseurl_source: spec
+  description: BetSolutions-managed wallet operations for transfer mode integration
   name: BetSolutions Transfer Wallet API
   slug: betsolutions-transfer-wallet-api
 artifact_total: 95
@@ -407,7 +411,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/screenshots/betsolutions-2026-06-20T173201.png
 security:

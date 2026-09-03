@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 22 operations · 15 acting
 api_count: 1
 apis:
-- description: Signature requests can be initiated with Submissions API. Submissions can contain one submitter if signed by a single party or multiple submitters if the document template form contains signatures and
+- baseURL: https://api.docuseal.com
+  baseurl_source: declared
+  description: Signature requests can be initiated with Submissions API. Submissions can contain one submitter if signed by a single party or multiple submitters if the document template form contains signatures and
   name: DocuSeal Submissions API
   slug: docuseal-submissions-api
-- description: Submitters API allows you to load all details provided by the signer of the document.
+- baseURL: https://api.docuseal.com
+  baseurl_source: declared
+  description: Submitters API allows you to load all details provided by the signer of the document.
   name: DocuSeal Submitters API
   slug: docuseal-submitters-api
-- description: Templates represent reusable document signing forms with fields and signatures to be collected. It's possible to create unique template forms with fields and signatures using HTML or with tagged PDFs.
+- baseURL: https://api.docuseal.com
+  baseurl_source: declared
+  description: Templates represent reusable document signing forms with fields and signatures to be collected. It's possible to create unique template forms with fields and signatures using HTML or with tagged PDFs.
   name: DocuSeal Templates API
   slug: docuseal-templates-api
 artifact_total: 24
@@ -267,7 +273,7 @@ score:
     catalog_gap: 46.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -277,7 +283,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -286,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/screenshots/docuseal-2026-06-20T180122.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 69 operations · 35 acting · 1 human-in-the-loop
 api_count: 4
 apis:
-- description: Execute AQL queries to search for artifacts, builds, and entries
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Execute AQL queries to search for artifacts, builds, and entries
   name: JFrog Artifactory AQL Search API
   slug: artifactory-aql-search-api
-- description: Artifactory-specific Docker API extensions
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Artifactory-specific Docker API extensions
   name: JFrog Artifactory Artifactory Extensions API
   slug: artifactory-artifactory-extensions-api
-- description: Deploy, retrieve, copy, move, and delete artifacts
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Deploy, retrieve, copy, move, and delete artifacts
   name: JFrog Artifactory Artifacts & Storage API
   slug: artifactory-artifacts-storage-api
-- description: API version check and health
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: API version check and health
   name: JFrog Artifactory Base API
   slug: artifactory-base-api
-- description: Push and pull image layers (blobs)
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Push and pull image layers (blobs)
   name: JFrog Artifactory Blobs API
   slug: artifactory-blobs-api
-- description: Compare build versions
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Compare build versions
   name: JFrog Artifactory Build Diff API
   slug: artifactory-build-diff-api
-- description: Publish and retrieve build information
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Publish and retrieve build information
   name: JFrog Artifactory Build Info API
   slug: artifactory-build-info-api
-- description: List, delete, and manage builds
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: List, delete, and manage builds
   name: JFrog Artifactory Build Management API
   slug: artifactory-build-management-api
-- description: Promote builds between repositories
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Promote builds between repositories
   name: JFrog Artifactory Build Promotion API
   slug: artifactory-build-promotion-api
-- description: List available repositories
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: List available repositories
   name: JFrog Artifactory Catalog API
   slug: artifactory-catalog-api
-- description: Push and pull image manifests
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Push and pull image manifests
   name: JFrog Artifactory Manifests API
   slug: artifactory-manifests-api
-- description: Repository replication configuration and management
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Repository replication configuration and management
   name: JFrog Artifactory Replication API
   slug: artifactory-replication-api
-- description: Create, read, update, and delete repositories
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Create, read, update, and delete repositories
   name: JFrog Artifactory Repositories API
   slug: artifactory-repositories-api
-- description: Search for artifacts using various criteria
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Search for artifacts using various criteria
   name: JFrog Artifactory Search API
   slug: artifactory-search-api
-- description: Users, groups, permissions, and tokens
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: Users, groups, permissions, and tokens
   name: JFrog Artifactory Security API
   slug: artifactory-security-api
-- description: System health, version, and configuration management
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: System health, version, and configuration management
   name: JFrog Artifactory System & Configuration API
   slug: artifactory-system-configuration-api
-- description: The Tags API from JFrog Artifactory — 1 operation(s) for tags.
+- baseURL: https://artifactory.example.com/artifactory/api
+  baseurl_source: declared
+  description: The Tags API from JFrog Artifactory — 1 operation(s) for tags.
   name: JFrog Artifactory Tags API
   slug: artifactory-tags-api
 arazzos:
@@ -555,7 +589,7 @@ score:
       total: 17
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:

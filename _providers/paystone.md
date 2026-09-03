@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -33,46 +44,74 @@ agentic_access:
   summary_line: 38 operations · 11 acting
 api_count: 1
 apis:
-- description: The Balance Portal API from Paystone — 1 operation(s) for balance portal.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Balance Portal API from Paystone — 1 operation(s) for balance portal.
   name: Paystone Balance Portal API
   slug: paystone-balance-portal-api
-- description: The Client Management API from Paystone — 3 operation(s) for client management.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Client Management API from Paystone — 3 operation(s) for client management.
   name: Paystone Client Management API
   slug: paystone-client-management-api
-- description: Resource 'Contact' operations.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: Resource 'Contact' operations.
   name: Paystone Contact API
   slug: paystone-contact-api
-- description: The Gift Account Type API from Paystone — 2 operation(s) for gift account type.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Gift Account Type API from Paystone — 2 operation(s) for gift account type.
   name: Paystone Gift Account Type API
   slug: paystone-gift-account-type-api
-- description: Resource 'Item' operations.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: Resource 'Item' operations.
   name: Paystone Item API
   slug: paystone-item-api
-- description: The Loyalty Account Type API from Paystone — 2 operation(s) for loyalty account type.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Loyalty Account Type API from Paystone — 2 operation(s) for loyalty account type.
   name: Paystone Loyalty Account Type API
   slug: paystone-loyalty-account-type-api
-- description: The Loyalty Transaction API from Paystone — 2 operation(s) for loyalty transaction.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Loyalty Transaction API from Paystone — 2 operation(s) for loyalty transaction.
   name: Paystone Loyalty Transaction API
   slug: paystone-loyalty-transaction-api
-- description: The Member Portal API from Paystone — 1 operation(s) for member portal.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Member Portal API from Paystone — 1 operation(s) for member portal.
   name: Paystone Member Portal API
   slug: paystone-member-portal-api
-- description: The Merchant Management API from Paystone — 5 operation(s) for merchant management.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Merchant Management API from Paystone — 5 operation(s) for merchant management.
   name: Paystone Merchant Management API
   slug: paystone-merchant-management-api
-- description: The Prepaid Transaction API from Paystone — 2 operation(s) for prepaid transaction.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Prepaid Transaction API from Paystone — 2 operation(s) for prepaid transaction.
   name: Paystone Prepaid Transaction API
   slug: paystone-prepaid-transaction-api
-- description: The Promo Account Type API from Paystone — 2 operation(s) for promo account type.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Promo Account Type API from Paystone — 2 operation(s) for promo account type.
   name: Paystone Promo Account Type API
   slug: paystone-promo-account-type-api
-- description: Resource 'Reward' operations.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: Resource 'Reward' operations.
   name: Paystone Reward API
   slug: paystone-reward-api
-- description: The User Management API from Paystone — 2 operation(s) for user management.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The User Management API from Paystone — 2 operation(s) for user management.
   name: Paystone User Management API
   slug: paystone-user-management-api
-- description: The Webhook Management API from Paystone — 2 operation(s) for webhook management.
+- baseURL: https://api.paystone.com
+  baseurl_source: declared
+  description: The Webhook Management API from Paystone — 2 operation(s) for webhook management.
   name: Paystone Webhook Management API
   slug: paystone-webhook-management-api
 artifact_total: 19
@@ -214,7 +253,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -224,7 +263,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 44.8
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,7 +281,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystone/refs/heads/main/screenshots/paystone-2026-08-07T191657.png
 security:

@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -51,88 +64,144 @@ apis:
 - description: First-party OAuth2 authorisation endpoint that generates and refreshes the access tokens authorising calls to the Investec Programmable Banking APIs.
   name: Investec Authorisation API (OAuth)
   slug: investec-authorisation-api
-- description: The Account Access Consents API from Investec — 2 operation(s) for account access consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Account Access Consents API from Investec — 2 operation(s) for account access consents.
   name: Investec Account Access Consents API
   slug: investec-account-access-consents-api
-- description: The Accounts API from Investec — 2 operation(s) for accounts.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Accounts API from Investec — 2 operation(s) for accounts.
   name: Investec Accounts API
   slug: investec-accounts-api
-- description: The Balances API from Investec — 2 operation(s) for balances.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Balances API from Investec — 2 operation(s) for balances.
   name: Investec Balances API
   slug: investec-balances-api
-- description: The Beneficiaries API from Investec — 2 operation(s) for beneficiaries.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Beneficiaries API from Investec — 2 operation(s) for beneficiaries.
   name: Investec Beneficiaries API
   slug: investec-beneficiaries-api
-- description: The Direct Debits API from Investec — 2 operation(s) for direct debits.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Direct Debits API from Investec — 2 operation(s) for direct debits.
   name: Investec Direct Debits API
   slug: investec-direct-debits-api
-- description: The Domestic Payment Consents API from Investec — 3 operation(s) for domestic payment consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Investec — 3 operation(s) for domestic payment consents.
   name: Investec Domestic Payment Consents API
   slug: investec-domestic-payment-consents-api
-- description: The Domestic Payments API from Investec — 3 operation(s) for domestic payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Payments API from Investec — 3 operation(s) for domestic payments.
   name: Investec Domestic Payments API
   slug: investec-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Investec — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Investec — 2 operation(s) for domestic scheduled payment consents.
   name: Investec Domestic Scheduled Payment Consents API
   slug: investec-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Investec — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Investec — 3 operation(s) for domestic scheduled payments.
   name: Investec Domestic Scheduled Payments API
   slug: investec-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Investec — 2 operation(s) for domestic standing order consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Investec — 2 operation(s) for domestic standing order consents.
   name: Investec Domestic Standing Order Consents API
   slug: investec-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Investec — 3 operation(s) for domestic standing orders.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Investec — 3 operation(s) for domestic standing orders.
   name: Investec Domestic Standing Orders API
   slug: investec-domestic-standing-orders-api
-- description: The File Payment Consents API from Investec — 3 operation(s) for file payment consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The File Payment Consents API from Investec — 3 operation(s) for file payment consents.
   name: Investec File Payment Consents API
   slug: investec-file-payment-consents-api
-- description: The File Payments API from Investec — 4 operation(s) for file payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The File Payments API from Investec — 4 operation(s) for file payments.
   name: Investec File Payments API
   slug: investec-file-payments-api
-- description: The Funds Confirmation Consents API from Investec — 2 operation(s) for funds confirmation consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Investec — 2 operation(s) for funds confirmation consents.
   name: Investec Funds Confirmation Consents API
   slug: investec-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Investec — 1 operation(s) for funds confirmations.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Funds Confirmations API from Investec — 1 operation(s) for funds confirmations.
   name: Investec Funds Confirmations API
   slug: investec-funds-confirmations-api
-- description: The International Payment Consents API from Investec — 3 operation(s) for international payment consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Payment Consents API from Investec — 3 operation(s) for international payment consents.
   name: Investec International Payment Consents API
   slug: investec-international-payment-consents-api
-- description: The International Payments API from Investec — 3 operation(s) for international payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Payments API from Investec — 3 operation(s) for international payments.
   name: Investec International Payments API
   slug: investec-international-payments-api
-- description: The International Scheduled Payments API from Investec — 3 operation(s) for international scheduled payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Investec — 3 operation(s) for international scheduled payments.
   name: Investec International Scheduled Payments API
   slug: investec-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Investec — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Investec — 3 operation(s) for international scheduled payments consents.
   name: Investec International Scheduled Payments Consents API
   slug: investec-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Investec — 3 operation(s) for international standing orders.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Standing Orders API from Investec — 3 operation(s) for international standing orders.
   name: Investec International Standing Orders API
   slug: investec-international-standing-orders-api
-- description: The International Standing Orders Consents API from Investec — 2 operation(s) for international standing orders consents.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Investec — 2 operation(s) for international standing orders consents.
   name: Investec International Standing Orders Consents API
   slug: investec-international-standing-orders-consents-api
-- description: The Offers API from Investec — 2 operation(s) for offers.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Offers API from Investec — 2 operation(s) for offers.
   name: Investec Offers API
   slug: investec-offers-api
-- description: The Parties API from Investec — 3 operation(s) for parties.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Parties API from Investec — 3 operation(s) for parties.
   name: Investec Parties API
   slug: investec-parties-api
-- description: The Products API from Investec — 2 operation(s) for products.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Products API from Investec — 2 operation(s) for products.
   name: Investec Products API
   slug: investec-products-api
-- description: The Scheduled Payments API from Investec — 2 operation(s) for scheduled payments.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Scheduled Payments API from Investec — 2 operation(s) for scheduled payments.
   name: Investec Scheduled Payments API
   slug: investec-scheduled-payments-api
-- description: The Standing Orders API from Investec — 2 operation(s) for standing orders.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Standing Orders API from Investec — 2 operation(s) for standing orders.
   name: Investec Standing Orders API
   slug: investec-standing-orders-api
-- description: The Statements API from Investec — 5 operation(s) for statements.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Statements API from Investec — 5 operation(s) for statements.
   name: Investec Statements API
   slug: investec-statements-api
-- description: The Transactions API from Investec — 2 operation(s) for transactions.
+- baseURL: https://openapi.investec.com
+  baseurl_source: declared
+  description: The Transactions API from Investec — 2 operation(s) for transactions.
   name: Investec Transactions API
   slug: investec-transactions-api
 artifact_total: 38
@@ -319,7 +388,7 @@ score:
     regime_id: banking_open_finance
     score: 60.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:

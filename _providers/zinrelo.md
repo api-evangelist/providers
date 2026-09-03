@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 22 operations · 9 acting
 api_count: 1
 apis:
-- description: Retrieve webhook event details by event ID.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Retrieve webhook event details by event ID.
   name: Zinrelo Events API
   slug: zinrelo-events-api
-- description: Enroll, retrieve, update, block, and manage loyalty program members.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Enroll, retrieve, update, block, and manage loyalty program members.
   name: Zinrelo Members API
   slug: zinrelo-members-api
-- description: Award, deduct, and manage member point balances.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Award, deduct, and manage member point balances.
   name: Zinrelo Points API
   slug: zinrelo-points-api
-- description: Redeem points for rewards and list a member's redemptions.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Redeem points for rewards and list a member's redemptions.
   name: Zinrelo Redemptions API
   slug: zinrelo-redemptions-api
-- description: List and retrieve the rewards a program offers.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: List and retrieve the rewards a program offers.
   name: Zinrelo Rewards API
   slug: zinrelo-rewards-api
-- description: Retrieve loyalty tier configuration and a member's next tier.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Retrieve loyalty tier configuration and a member's next tier.
   name: Zinrelo Tiers API
   slug: zinrelo-tiers-api
-- description: Record purchases and returns and list loyalty transactions.
+- baseURL: https://api.zinrelo.com
+  baseurl_source: declared
+  description: Record purchases and returns and list loyalty transactions.
   name: Zinrelo Transactions API
   slug: zinrelo-transactions-api
 artifact_total: 23
@@ -168,7 +182,7 @@ score:
   band: thin
   composite: 28.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -191,8 +205,9 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/screenshots/zinrelo-2026-09-02T171754.png
 security:
 - kind: authentication
   name: Zinrelo Authentication

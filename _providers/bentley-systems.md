@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -47,262 +47,434 @@ apis:
 - description: Server-side visualization service for rendering iTwins in web browsers without client compute. Supports interactive viewers and image generation.
   name: iTwin Visualization API
   slug: itwin-visualization-api
-- description: Access resources for the iTwin Reality Management API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Access resources for the iTwin Reality Management API.
   name: Bentley Systems Access API
   slug: bentley-systems-access-api
-- description: Animations resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Animations resources for the iTwin Schedules API.
   name: Bentley Systems Animations API
   slug: bentley-systems-animations-api
-- description: Attachments resources for the iTwin Forms API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Attachments resources for the iTwin Forms API.
   name: Bentley Systems Attachments API
   slug: bentley-systems-attachments-api
-- description: Audit Trail resources for the iTwin Issues API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Audit Trail resources for the iTwin Issues API.
   name: Bentley Systems Audit Trail API
   slug: bentley-systems-audit-trail-api
-- description: Authorization resources for the iTwin Synchronization API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Authorization resources for the iTwin Synchronization API.
   name: Bentley Systems Authorization API
   slug: bentley-systems-authorization-api
-- description: Manage iModel baseline files.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Manage iModel baseline files.
   name: Bentley Systems Baselines API
   slug: bentley-systems-baselines-api
-- description: Acquire and release briefcases for iModel authoring sessions.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Acquire and release briefcases for iModel authoring sessions.
   name: Bentley Systems Briefcases API
   slug: bentley-systems-briefcases-api
-- description: Calendars resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Calendars resources for the iTwin Schedules API.
   name: Bentley Systems Calendars API
   slug: bentley-systems-calendars-api
-- description: Catalog resources for the iTwin Library API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Catalog resources for the iTwin Library API.
   name: Bentley Systems Catalog API
   slug: bentley-systems-catalog-api
-- description: Categories resources for the iTwin Library API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Categories resources for the iTwin Library API.
   name: Bentley Systems Categories API
   slug: bentley-systems-categories-api
-- description: Cesium resources for the iTwin Cesium Curated Content API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Cesium resources for the iTwin Cesium Curated Content API.
   name: Bentley Systems Cesium API
   slug: bentley-systems-cesium-api
-- description: Change Tracking resources for the iTwin Changed Elements API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Change Tracking resources for the iTwin Changed Elements API.
   name: Bentley Systems Change Tracking API
   slug: bentley-systems-change-tracking-api
-- description: Manage changesets that record modifications to an iModel.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Manage changesets that record modifications to an iModel.
   name: Bentley Systems Changesets API
   slug: bentley-systems-changesets-api
-- description: Comments resources for the iTwin Issues API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Comments resources for the iTwin Issues API.
   name: Bentley Systems Comments API
   slug: bentley-systems-comments-api
-- description: Comparisons resources for the iTwin Changed Elements API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Comparisons resources for the iTwin Changed Elements API.
   name: Bentley Systems Comparisons API
   slug: bentley-systems-comparisons-api
-- description: Components resources for the iTwin Library API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Components resources for the iTwin Library API.
   name: Bentley Systems Components API
   slug: bentley-systems-components-api
-- description: Configurations resources for the iTwin Carbon Calculation API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Configurations resources for the iTwin Carbon Calculation API.
   name: Bentley Systems Configurations API
   slug: bentley-systems-configurations-api
-- description: Connections resources for the iTwin Synchronization API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Connections resources for the iTwin Synchronization API.
   name: Bentley Systems Connections API
   slug: bentley-systems-connections-api
-- description: Connectors resources for the iTwin Synchronization API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Connectors resources for the iTwin Synchronization API.
   name: Bentley Systems Connectors API
   slug: bentley-systems-connectors-api
-- description: Content resources for the iTwin Storage API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Content resources for the iTwin Storage API.
   name: Bentley Systems Content API
   slug: bentley-systems-content-api
-- description: Detectors resources for the iTwin Reality Analysis API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Detectors resources for the iTwin Reality Analysis API.
   name: Bentley Systems Detectors API
   slug: bentley-systems-detectors-api
-- description: Devices resources for the iTwin Sensor Data API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Devices resources for the iTwin Sensor Data API.
   name: Bentley Systems Devices API
   slug: bentley-systems-devices-api
-- description: Events resources for the iTwin Webhooks API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Events resources for the iTwin Webhooks API.
   name: Bentley Systems Events API
   slug: bentley-systems-events-api
-- description: Export resources for the iTwin Export API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Export resources for the iTwin Export API.
   name: Bentley Systems Export API
   slug: bentley-systems-export-api
-- description: Exports resources for the iTwins API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Exports resources for the iTwins API.
   name: Bentley Systems Exports API
   slug: bentley-systems-exports-api
-- description: Extensions resources for the iTwin Scenes API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Extensions resources for the iTwin Scenes API.
   name: Bentley Systems Extensions API
   slug: bentley-systems-extensions-api
-- description: Extractions resources for the iTwin Grouping and Mapping API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Extractions resources for the iTwin Grouping and Mapping API.
   name: Bentley Systems Extractions API
   slug: bentley-systems-extractions-api
-- description: Features resources for the iTwin Geospatial Features API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Features resources for the iTwin Geospatial Features API.
   name: Bentley Systems Features API
   slug: bentley-systems-features-api
-- description: Files resources for the iTwin Storage API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Files resources for the iTwin Storage API.
   name: Bentley Systems Files API
   slug: bentley-systems-files-api
-- description: Folders resources for the iTwin Storage API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Folders resources for the iTwin Storage API.
   name: Bentley Systems Folders API
   slug: bentley-systems-folders-api
-- description: Forms resources for the iTwin Issues API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Forms resources for the iTwin Issues API.
   name: Bentley Systems Forms API
   slug: bentley-systems-forms-api
-- description: Groups resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Groups resources for the iTwin Access Control API.
   name: Bentley Systems Groups API
   slug: bentley-systems-groups-api
-- description: Images resources for the iTwin Saved Views API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Images resources for the iTwin Saved Views API.
   name: Bentley Systems Images API
   slug: bentley-systems-images-api
-- description: Create, query, clone, fork, and delete iModels.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Create, query, clone, fork, and delete iModels.
   name: Bentley Systems iModels API
   slug: bentley-systems-imodels-api
-- description: Instances resources for the iTwin Forms API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Instances resources for the iTwin Forms API.
   name: Bentley Systems Instances API
   slug: bentley-systems-instances-api
-- description: Invitations resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Invitations resources for the iTwin Access Control API.
   name: Bentley Systems Invitations API
   slug: bentley-systems-invitations-api
-- description: Issues resources for the iTwin Issues API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Issues resources for the iTwin Issues API.
   name: Bentley Systems Issues API
   slug: bentley-systems-issues-api
-- description: iTwins resources for the iTwins API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: iTwins resources for the iTwins API.
   name: Bentley Systems iTwins API
   slug: bentley-systems-itwins-api
-- description: Jobs resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Jobs resources for the iTwin Access Control API.
   name: Bentley Systems Jobs API
   slug: bentley-systems-jobs-api
-- description: Layers resources for the iTwin Scenes API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Layers resources for the iTwin Scenes API.
   name: Bentley Systems Layers API
   slug: bentley-systems-layers-api
-- description: Acquire and release element-level locks during authoring.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Acquire and release element-level locks during authoring.
   name: Bentley Systems Locks API
   slug: bentley-systems-locks-api
-- description: Mappings resources for the iTwin Grouping and Mapping API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Mappings resources for the iTwin Grouping and Mapping API.
   name: Bentley Systems Mappings API
   slug: bentley-systems-mappings-api
-- description: Materials resources for the iTwin Carbon Calculation API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Materials resources for the iTwin Carbon Calculation API.
   name: Bentley Systems Materials API
   slug: bentley-systems-materials-api
-- description: Me resources for the iTwin Users API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Me resources for the iTwin Users API.
   name: Bentley Systems Me API
   slug: bentley-systems-me-api
-- description: Members resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Members resources for the iTwin Access Control API.
   name: Bentley Systems Members API
   slug: bentley-systems-members-api
-- description: Mesh Export resources for the iTwin Mesh Export API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Mesh Export resources for the iTwin Mesh Export API.
   name: Bentley Systems Mesh Export API
   slug: bentley-systems-mesh-export-api
-- description: Models resources for the iTwin P&ID to iTwin API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Models resources for the iTwin P&ID to iTwin API.
   name: Bentley Systems Models API
   slug: bentley-systems-models-api
-- description: Named Groups resources for the iTwin Named Groups API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Named Groups resources for the iTwin Named Groups API.
   name: Bentley Systems Named Groups API
   slug: bentley-systems-named-groups-api
-- description: Create and query named versions that pin a point in an iModel's history.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Create and query named versions that pin a point in an iModel's history.
   name: Bentley Systems Named Versions API
   slug: bentley-systems-named-versions-api
-- description: Observations resources for the iTwin Sensor Data API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Observations resources for the iTwin Sensor Data API.
   name: Bentley Systems Observations API
   slug: bentley-systems-observations-api
-- description: ODATA resources for the iTwin Insights API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: ODATA resources for the iTwin Insights API.
   name: Bentley Systems ODATA API
   slug: bentley-systems-odata-api
-- description: Parameters resources for the iTwin Library API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Parameters resources for the iTwin Library API.
   name: Bentley Systems Parameters API
   slug: bentley-systems-parameters-api
-- description: Permissions resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Permissions resources for the iTwin Access Control API.
   name: Bentley Systems Permissions API
   slug: bentley-systems-permissions-api
-- description: Policies resources for the Enterprise Data Federation Service (EDFS) API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Policies resources for the Enterprise Data Federation Service (EDFS) API.
   name: Bentley Systems Policies API
   slug: bentley-systems-policies-api
-- description: Properties resources for the iTwin Grouping and Mapping API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Properties resources for the iTwin Grouping and Mapping API.
   name: Bentley Systems Properties API
   slug: bentley-systems-properties-api
-- description: Queries resources for the Enterprise Data Federation Service (EDFS) API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Queries resources for the Enterprise Data Federation Service (EDFS) API.
   name: Bentley Systems Queries API
   slug: bentley-systems-queries-api
-- description: Reality Data resources for the iTwin Reality Management API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Reality Data resources for the iTwin Reality Management API.
   name: Bentley Systems Reality Data API
   slug: bentley-systems-reality-data-api
-- description: Recents resources for the iTwins API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Recents resources for the iTwins API.
   name: Bentley Systems Recents API
   slug: bentley-systems-recents-api
-- description: Reports resources for the iTwin Carbon Calculation API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Reports resources for the iTwin Carbon Calculation API.
   name: Bentley Systems Reports API
   slug: bentley-systems-reports-api
-- description: Repositories resources for the iTwins API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Repositories resources for the iTwins API.
   name: Bentley Systems Repositories API
   slug: bentley-systems-repositories-api
-- description: Resources resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Resources resources for the iTwin Schedules API.
   name: Bentley Systems Resources API
   slug: bentley-systems-resources-api
-- description: Roles resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Roles resources for the iTwin Access Control API.
   name: Bentley Systems Roles API
   slug: bentley-systems-roles-api
-- description: Runs resources for the iTwin Clash Detection API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Runs resources for the iTwin Clash Detection API.
   name: Bentley Systems Runs API
   slug: bentley-systems-runs-api
-- description: Saved Views resources for the iTwin Saved Views API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Saved Views resources for the iTwin Saved Views API.
   name: Bentley Systems Saved Views API
   slug: bentley-systems-saved-views-api
-- description: Scenes resources for the iTwin Scenes API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Scenes resources for the iTwin Scenes API.
   name: Bentley Systems Scenes API
   slug: bentley-systems-scenes-api
-- description: Schedules resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Schedules resources for the iTwin Schedules API.
   name: Bentley Systems Schedules API
   slug: bentley-systems-schedules-api
-- description: Schemas resources for the Enterprise Data Federation Service (EDFS) API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Schemas resources for the Enterprise Data Federation Service (EDFS) API.
   name: Bentley Systems Schemas API
   slug: bentley-systems-schemas-api
-- description: Sensors resources for the iTwin Sensor Data API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Sensors resources for the iTwin Sensor Data API.
   name: Bentley Systems Sensors API
   slug: bentley-systems-sensors-api
-- description: Shares resources for the iTwin Access Control API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Shares resources for the iTwin Access Control API.
   name: Bentley Systems Shares API
   slug: bentley-systems-shares-api
-- description: Source Files resources for the iTwin Synchronization API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Source Files resources for the iTwin Synchronization API.
   name: Bentley Systems Source Files API
   slug: bentley-systems-source-files-api
-- description: Sources resources for the Enterprise Data Federation Service (EDFS) API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Sources resources for the Enterprise Data Federation Service (EDFS) API.
   name: Bentley Systems Sources API
   slug: bentley-systems-sources-api
-- description: Suppression Rules resources for the iTwin Clash Detection API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Suppression Rules resources for the iTwin Clash Detection API.
   name: Bentley Systems Suppression Rules API
   slug: bentley-systems-suppression-rules-api
-- description: Symbols resources for the iTwin P&ID to iTwin API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Symbols resources for the iTwin P&ID to iTwin API.
   name: Bentley Systems Symbols API
   slug: bentley-systems-symbols-api
-- description: Tags resources for the iTwin Library API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Tags resources for the iTwin Library API.
   name: Bentley Systems Tags API
   slug: bentley-systems-tags-api
-- description: Tasks resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Tasks resources for the iTwin Schedules API.
   name: Bentley Systems Tasks API
   slug: bentley-systems-tasks-api
-- description: Templates resources for the iTwin Carbon Calculation API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Templates resources for the iTwin Carbon Calculation API.
   name: Bentley Systems Templates API
   slug: bentley-systems-templates-api
-- description: Tests resources for the iTwin Clash Detection API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Tests resources for the iTwin Clash Detection API.
   name: Bentley Systems Tests API
   slug: bentley-systems-tests-api
-- description: Retrieve iModel preview thumbnails.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Retrieve iModel preview thumbnails.
   name: Bentley Systems Thumbnails API
   slug: bentley-systems-thumbnails-api
-- description: Transformations resources for the iTwin Transformations API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Transformations resources for the iTwin Transformations API.
   name: Bentley Systems Transformations API
   slug: bentley-systems-transformations-api
-- description: Trash resources for the iTwin Storage API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Trash resources for the iTwin Storage API.
   name: Bentley Systems Trash API
   slug: bentley-systems-trash-api
-- description: Manage user access and statistics for iModels.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Manage user access and statistics for iModels.
   name: Bentley Systems Users API
   slug: bentley-systems-users-api
-- description: Versions resources for the iTwin Storage API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Versions resources for the iTwin Storage API.
   name: Bentley Systems Versions API
   slug: bentley-systems-versions-api
-- description: Webhooks resources for the iTwin Webhooks API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Webhooks resources for the iTwin Webhooks API.
   name: Bentley Systems Webhooks API
   slug: bentley-systems-webhooks-api
-- description: Work Breakdown resources for the iTwin Schedules API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Work Breakdown resources for the iTwin Schedules API.
   name: Bentley Systems Work Breakdown API
   slug: bentley-systems-work-breakdown-api
-- description: Workflow resources for the iTwin Issues API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Workflow resources for the iTwin Issues API.
   name: Bentley Systems Workflow API
   slug: bentley-systems-workflow-api
-- description: Workspaces resources for the iTwin Reality Modeling API.
+- baseURL: https://api.bentley.com/accesscontrol
+  baseurl_source: declared
+  description: Workspaces resources for the iTwin Reality Modeling API.
   name: Bentley Systems Workspaces API
   slug: bentley-systems-workspaces-api
 arazzos:
@@ -1184,7 +1356,7 @@ score:
       marker_coverage: 0.0
       total: 86
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:

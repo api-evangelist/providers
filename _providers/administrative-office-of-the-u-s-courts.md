@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 4 operations · 4 acting
 api_count: 2
 apis:
-- description: The Cases API from Administrative Office of the U.S. Courts — 1 operation(s) for cases.
+- baseURL: https://qa-pcl.uscourts.gov/pcl-public-api/rest
+  baseurl_source: spec
+  description: The Cases API from Administrative Office of the U.S. Courts — 1 operation(s) for cases.
   name: Administrative Office of the U.S. Courts Cases API
   slug: administrative-office-of-the-u-s-courts-cases-api
-- description: The Parties API from Administrative Office of the U.S. Courts — 1 operation(s) for parties.
+- baseURL: https://qa-pcl.uscourts.gov/pcl-public-api/rest
+  baseurl_source: spec
+  description: The Parties API from Administrative Office of the U.S. Courts — 1 operation(s) for parties.
   name: Administrative Office of the U.S. Courts Parties API
   slug: administrative-office-of-the-u-s-courts-parties-api
-- description: The Services API from Administrative Office of the U.S. Courts — 2 operation(s) for services.
+- baseURL_template: https://{environment}.uscourts.gov
+  baseurl_source: spec_template
+  description: The Services API from Administrative Office of the U.S. Courts — 2 operation(s) for services.
   name: Administrative Office of the U.S. Courts Services API
   slug: administrative-office-of-the-u-s-courts-services-api
 artifact_total: 28
@@ -191,7 +197,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/screenshots/administrative-office-of-the-u-s-courts-2026-06-20T164757.png
 security:

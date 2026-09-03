@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -36,70 +47,114 @@ apis:
 - description: 'Armory Continuous Deployment ships the Spinnaker Gate API as its programmatic interface. Armory documents how to expose it for automation clients on a second Gate port (8085) secured with x509 client '
   name: Armory Continuous Deployment API (Spinnaker Gate)
   slug: armory-cd-gate-api
-- description: The agent-accounts-controller API from Armory — 2 operation(s) for agent-accounts-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The agent-accounts-controller API from Armory — 2 operation(s) for agent-accounts-controller.
   name: Armory Agent Accounts Controller API
   slug: armory-agent-accounts-controller-api
-- description: The applications-controller API from Armory — 2 operation(s) for applications-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The applications-controller API from Armory — 2 operation(s) for applications-controller.
   name: Armory Applications Controller API
   slug: armory-applications-controller-api
-- description: The artifact-controller API from Armory — 1 operation(s) for artifact-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The artifact-controller API from Armory — 1 operation(s) for artifact-controller.
   name: Armory Artifact Controller API
   slug: armory-artifact-controller-api
-- description: The cache-controller API from Armory — 2 operation(s) for cache-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The cache-controller API from Armory — 2 operation(s) for cache-controller.
   name: Armory Cache Controller API
   slug: armory-cache-controller-api
-- description: The cluster-controller API from Armory — 8 operation(s) for cluster-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The cluster-controller API from Armory — 8 operation(s) for cluster-controller.
   name: Armory Cluster Controller API
   slug: armory-cluster-controller-api
-- description: The credentials-controller API from Armory — 4 operation(s) for credentials-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The credentials-controller API from Armory — 4 operation(s) for credentials-controller.
   name: Armory Credentials Controller API
   slug: armory-credentials-controller-api
-- description: The elastic-ip-controller API from Armory — 1 operation(s) for elastic-ip-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The elastic-ip-controller API from Armory — 1 operation(s) for elastic-ip-controller.
   name: Armory Elastic Ip Controller API
   slug: armory-elastic-ip-controller-api
-- description: The function-controller API from Armory — 1 operation(s) for function-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The function-controller API from Armory — 1 operation(s) for function-controller.
   name: Armory Function Controller API
   slug: armory-function-controller-api
-- description: The instance-controller API from Armory — 2 operation(s) for instance-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The instance-controller API from Armory — 2 operation(s) for instance-controller.
   name: Armory Instance Controller API
   slug: armory-instance-controller-api
-- description: The instance-type-controller API from Armory — 1 operation(s) for instance-type-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The instance-type-controller API from Armory — 1 operation(s) for instance-type-controller.
   name: Armory Instance Type Controller API
   slug: armory-instance-type-controller-api
-- description: The job-controller API from Armory — 2 operation(s) for job-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The job-controller API from Armory — 2 operation(s) for job-controller.
   name: Armory Job Controller API
   slug: armory-job-controller-api
-- description: The load-balancer-controller API from Armory — 1 operation(s) for load-balancer-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The load-balancer-controller API from Armory — 1 operation(s) for load-balancer-controller.
   name: Armory Load Balancer Controller API
   slug: armory-load-balancer-controller-api
-- description: The network-controller API from Armory — 2 operation(s) for network-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The network-controller API from Armory — 2 operation(s) for network-controller.
   name: Armory Network Controller API
   slug: armory-network-controller-api
-- description: The operations-controller API from Armory — 7 operation(s) for operations-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The operations-controller API from Armory — 7 operation(s) for operations-controller.
   name: Armory Operations Controller API
   slug: armory-operations-controller-api
-- description: The raw-resource-controller API from Armory — 1 operation(s) for raw-resource-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The raw-resource-controller API from Armory — 1 operation(s) for raw-resource-controller.
   name: Armory Raw Resource Controller API
   slug: armory-raw-resource-controller-api
-- description: The reservation-report-controller API from Armory — 2 operation(s) for reservation-report-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The reservation-report-controller API from Armory — 2 operation(s) for reservation-report-controller.
   name: Armory Reservation Report Controller API
   slug: armory-reservation-report-controller-api
-- description: The search-controller API from Armory — 1 operation(s) for search-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The search-controller API from Armory — 1 operation(s) for search-controller.
   name: Armory Search Controller API
   slug: armory-search-controller-api
-- description: The security-group-controller API from Armory — 5 operation(s) for security-group-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The security-group-controller API from Armory — 5 operation(s) for security-group-controller.
   name: Armory Security Group Controller API
   slug: armory-security-group-controller-api
-- description: The server-group-controller API from Armory — 2 operation(s) for server-group-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The server-group-controller API from Armory — 2 operation(s) for server-group-controller.
   name: Armory Server Group Controller API
   slug: armory-server-group-controller-api
-- description: The server-group-manager-controller API from Armory — 1 operation(s) for server-group-manager-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The server-group-manager-controller API from Armory — 1 operation(s) for server-group-manager-controller.
   name: Armory Server Group Manager Controller API
   slug: armory-server-group-manager-controller-api
-- description: The subnet-controller API from Armory — 2 operation(s) for subnet-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The subnet-controller API from Armory — 2 operation(s) for subnet-controller.
   name: Armory Subnet Controller API
   slug: armory-subnet-controller-api
-- description: The vpc-controller API from Armory — 1 operation(s) for vpc-controller.
+- baseURL: /
+  baseurl_source: spec
+  description: The vpc-controller API from Armory — 1 operation(s) for vpc-controller.
   name: Armory Vpc Controller API
   slug: armory-vpc-controller-api
 artifact_total: 50
@@ -354,7 +409,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -367,7 +422,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 37.2
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,7 +434,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armory/refs/heads/main/screenshots/armory-2026-08-07T161731.png
 security:

@@ -33,13 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
   name: sFOX REST API
   slug: sfox-rest-api
-- description: Real-time streaming API for market data (order book, trades, ticker) and private account data (open orders, trades, balances, post-trade settlement). Authenticate then subscribe to feeds.
+- baseURL: https://ws.sfox.com
+  baseurl_source: declared
+  description: Real-time streaming API for market data (order book, trades, ticker) and private account data (open orders, trades, balances, post-trade settlement). Authenticate then subscribe to feeds.
   name: sFOX WebSocket API
   slug: sfox-websocket-api
 - description: 'White-label REST + WebSocket API for businesses: end-user management, KYC/KYB and Enhanced Due Diligence, bank-account linking (Plaid), ACH (Dwolla) and wire payments, withdrawals, transfers, monetiza'
@@ -183,7 +185,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -193,7 +195,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 44.2
+  previous_composite: 44.0
   provenance:
     conformance: derived
     mcp: derived
@@ -204,7 +206,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
 security:

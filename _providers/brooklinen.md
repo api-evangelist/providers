@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,25 +35,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
   name: Brooklinen UCP / MCP Agentic Commerce API
   slug: brooklinen-ucp-mcp-agentic-commerce-api
-- description: Read-only view of the current session cart.
+- baseURL: https://www.brooklinen.com/api/ucp/mcp
+  baseurl_source: declared
+  description: Read-only view of the current session cart.
   name: Brooklinen Cart API
   slug: brooklinen-cart-api
-- description: Products grouped into merchandising collections.
+- baseURL: https://www.brooklinen.com/api/ucp/mcp
+  baseurl_source: declared
+  description: Products grouped into merchandising collections.
   name: Brooklinen Collections API
   slug: brooklinen-collections-api
-- description: Sitemaps and agent discovery documents.
+- baseURL: https://www.brooklinen.com/api/ucp/mcp
+  baseurl_source: declared
+  description: Sitemaps and agent discovery documents.
   name: Brooklinen Discovery API
   slug: brooklinen-discovery-api
-- description: Product catalog listing and detail.
+- baseURL: https://www.brooklinen.com/api/ucp/mcp
+  baseurl_source: declared
+  description: Product catalog listing and detail.
   name: Brooklinen Products API
   slug: brooklinen-products-api
-- description: Predictive storefront search.
+- baseURL: https://www.brooklinen.com/api/ucp/mcp
+  baseurl_source: declared
+  description: Predictive storefront search.
   name: Brooklinen Search API
   slug: brooklinen-search-api
 artifact_total: 17
@@ -215,7 +237,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.0
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -225,7 +247,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 45.1
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     contracts:
@@ -242,8 +264,8 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
 - kind: authentication

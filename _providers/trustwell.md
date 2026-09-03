@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The Trustwell Genesis Supplements API provides formulation and regulatory compliance capabilities for dietary supplement manufacturers. Built on the same Genesis Foods GraphQL endpoint, it supports Su
   name: Trustwell Genesis Supplements API
   slug: trustwell-genesis-supplements-api
-- description: Compliance documentation and requirements
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Compliance documentation and requirements
   name: Trustwell Compliance API
   slug: trustwell-compliance-api
-- description: Product specification management
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Product specification management
   name: Trustwell Products API
   slug: trustwell-products-api
-- description: Quality incident management
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Quality incident management
   name: Trustwell Quality API
   slug: trustwell-quality-api
-- description: Recall and withdrawal management
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Recall and withdrawal management
   name: Trustwell Recalls API
   slug: trustwell-recalls-api
-- description: Supplier relationship management
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Supplier relationship management
   name: Trustwell Suppliers API
   slug: trustwell-suppliers-api
-- description: Farm-to-fork traceability (FSMA 204)
+- baseURL: https://api.trustwell.com/genesis
+  baseurl_source: declared
+  description: Farm-to-fork traceability (FSMA 204)
   name: Trustwell Traceability API
   slug: trustwell-traceability-api
 artifact_total: 36
@@ -275,7 +287,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustwell/refs/heads/main/screenshots/trustwell-2026-06-20T195809.png
 security:

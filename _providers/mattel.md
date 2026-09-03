@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: We empower the next generation to explore the wonder of childhood a
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattel.png
 layout: provider
 modified: '2026-04-28'
-name: mattel
+name: Mattel
 nav: Providers
 network: true
-overview: mattel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: Mattel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
 - date: '2026-05-25'
   title: Mattel and OpenAI Announce Strategic Collaboration
@@ -97,7 +97,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 2.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattel/refs/heads/main/screenshots/mattel-2026-06-20T185040.png
 security:

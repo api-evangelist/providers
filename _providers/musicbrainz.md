@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 36 operations · 6 acting
 api_count: 16
 apis:
-- description: Lookup, browse, and search for geographic areas (countries, cities, etc.).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for geographic areas (countries, cities, etc.).
   name: MusicBrainz Areas API
   slug: musicbrainz-areas-api
-- description: Lookup, browse, and search for artists (people, bands, orchestras).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for artists (people, bands, orchestras).
   name: MusicBrainz Artists API
   slug: musicbrainz-artists-api
-- description: Authenticated user collections of entities.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Authenticated user collections of entities.
   name: MusicBrainz Collections API
   slug: musicbrainz-collections-api
-- description: Lookup, browse, and search for music events (concerts, festivals, etc.).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for music events (concerts, festivals, etc.).
   name: MusicBrainz Events API
   slug: musicbrainz-events-api
-- description: List the curated genre taxonomy.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: List the curated genre taxonomy.
   name: MusicBrainz Genres API
   slug: musicbrainz-genres-api
-- description: Non-MBID lookups by ISRC, ISWC, and DiscID.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Non-MBID lookups by ISRC, ISWC, and DiscID.
   name: MusicBrainz Identifiers API
   slug: musicbrainz-identifiers-api
-- description: Lookup and search for instruments used in recordings.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup and search for instruments used in recordings.
   name: MusicBrainz Instruments API
   slug: musicbrainz-instruments-api
-- description: Lookup, browse, and search for record labels.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for record labels.
   name: MusicBrainz Labels API
   slug: musicbrainz-labels-api
-- description: Lookup, browse, and search for places (venues, studios, etc.).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for places (venues, studios, etc.).
   name: MusicBrainz Places API
   slug: musicbrainz-places-api
-- description: Lookup, browse, and search for recordings (distinct audio captures of a performance).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for recordings (distinct audio captures of a performance).
   name: MusicBrainz Recordings API
   slug: musicbrainz-recordings-api
-- description: Lookup, browse, and search for release groups (logical grouping of releases).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for release groups (logical grouping of releases).
   name: MusicBrainz Release Groups API
   slug: musicbrainz-release-groups-api
-- description: Lookup, browse, and search for releases (specific issues of an album).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for releases (specific issues of an album).
   name: MusicBrainz Releases API
   slug: musicbrainz-releases-api
-- description: Lookup, browse, and search for series (ordered groups of entities).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for series (ordered groups of entities).
   name: MusicBrainz Series API
   slug: musicbrainz-series-api
-- description: Authenticated submission of tags, ratings, barcodes, and ISRCs.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Authenticated submission of tags, ratings, barcodes, and ISRCs.
   name: MusicBrainz Submission API
   slug: musicbrainz-submission-api
-- description: Lookup URLs linked to other MusicBrainz entities.
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup URLs linked to other MusicBrainz entities.
   name: MusicBrainz URLs API
   slug: musicbrainz-urls-api
-- description: Lookup, browse, and search for musical works (abstract compositions).
+- baseURL: https://musicbrainz.org/ws/2
+  baseurl_source: declared
+  description: Lookup, browse, and search for musical works (abstract compositions).
   name: MusicBrainz Works API
   slug: musicbrainz-works-api
 artifact_total: 69
@@ -495,7 +527,7 @@ score:
     regime_id: government
     score: 64.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/musicbrainz/refs/heads/main/screenshots/musicbrainz-2026-06-20T185906.png
 security:

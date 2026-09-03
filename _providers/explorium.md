@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -48,67 +48,109 @@ apis:
 - description: 'Native remote Model Context Protocol server exposing the AgentSource data as 11 agent tools - match-business, fetch-businesses, fetch-businesses- statistics, fetch-businesses-events, enrich-business, '
   name: Explorium AgentSource MCP Server
   slug: explorium-agentsource-mcp-server
-- description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium business dataset (v1).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium business dataset (v1).
   name: Explorium Businesses API
   slug: explorium-businesses-api
-- description: Inspect the shared credit pool that meters all Explorium API usage, including the credit menu and consumption aggregation (v1).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Inspect the shared credit pool that meters all Explorium API usage, including the credit menu and consumption aggregation (v1).
   name: Explorium Credits API
   slug: explorium-credits-api
-- description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium prospect dataset (v1).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Match, fetch, stat, autocomplete, and event/enrollment operations over the Explorium prospect dataset (v1).
   name: Explorium Prospects API
   slug: explorium-prospects-api
-- description: Register, retrieve, delete, and connectivity-test the webhook endpoints that receive Explorium business and prospect event notifications (v1).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Register, retrieve, delete, and connectivity-test the webhook endpoints that receive Explorium business and prospect event notifications (v1).
   name: Explorium Webhooks API
   slug: explorium-webhooks-api
-- description: Submit any v2 company or people enrichment — plus AI research — as an asynchronous job over an uploaded entity-ID dataset.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Submit any v2 company or people enrichment — plus AI research — as an asynchronous job over an uploaded entity-ID dataset.
   name: Explorium Async Enrichment Jobs API
   slug: explorium-asyncenrichmentjobs-api
-- description: List, poll, and cancel the asynchronous enrichment jobs that back batch runs of up to 10,000 records (v2).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: List, poll, and cancel the asynchronous enrichment jobs that back batch runs of up to 10,000 records (v2).
   name: Explorium Async Jobs API
   slug: explorium-asyncjobs-api
-- description: Bulk (multi-record) versions of every v1 company enrichment, processing up to 50 business IDs per request.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Bulk (multi-record) versions of every v1 company enrichment, processing up to 50 business IDs per request.
   name: Explorium Bulk Business Enrichments API
   slug: explorium-bulkbusinessenrichments-api
-- description: 'Single-record company enrichments (v1): firmographics, technographics, webstack, website traffic and changes, financial indicators, funding and acquisition, workforce trends, company hierarchies, rati'
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: 'Single-record company enrichments (v1): firmographics, technographics, webstack, website traffic and changes, financial indicators, funding and acquisition, workforce trends, company hierarchies, rati'
   name: Explorium Business Enrichments API
   slug: explorium-businessenrichments-api
-- description: Run a customer-specific custom enrichment, single-record or in bulk, by custom enrichment ID.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Run a customer-specific custom enrichment, single-record or in bulk, by custom enrichment ID.
   name: Explorium Custom Enrichments API
   slug: explorium-customenrichments-api
-- description: Upload an entity-ID dataset that asynchronous v2 enrichment jobs run against.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Upload an entity-ID dataset that asynchronous v2 enrichment jobs run against.
   name: Explorium Entity ID Datasets API
   slug: explorium-entityiddatasets-api
-- description: Liveness and payload-size health probes for the Explorium AgentSource service.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Liveness and payload-size health probes for the Explorium AgentSource service.
   name: Explorium Healthcheck API
   slug: explorium-healthcheck-api
-- description: Bulk (multi-record) versions of the v1 people enrichments, processing up to 50 prospect IDs per request.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Bulk (multi-record) versions of the v1 people enrichments, processing up to 50 prospect IDs per request.
   name: Explorium Prospects Bulk Enrichments API
   slug: explorium-prospectsbulkenrichments-api
-- description: 'Single-record people enrichments (v1): contact information, professional profiles, and LinkedIn posts for a matched prospect.'
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: 'Single-record people enrichments (v1): contact information, professional profiles, and LinkedIn posts for a matched prospect.'
   name: Explorium Prospects Enrichments API
   slug: explorium-prospectsenrichments-api
-- description: Resolve free-text input to the standardized filter values the v2 search API accepts.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Resolve free-text input to the standardized filter values the v2 search API accepts.
   name: Explorium V2 Autocomplete API
   slug: explorium-v2autocomplete-api
-- description: Synchronous v2 company enrichments — the same seventeen attribute families as v1, on the unified v2 request shape.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Synchronous v2 company enrichments — the same seventeen attribute families as v1, on the unified v2 request shape.
   name: Explorium V2 Business Enrichments API
   slug: explorium-v2businessenrichments-api
-- description: Match, fetch, and stat over the company dataset on the v2 (beta) surface, where bulk and single input share one endpoint.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Match, fetch, and stat over the company dataset on the v2 (beta) surface, where bulk and single input share one endpoint.
   name: Explorium V2 Businesses API
   slug: explorium-v2businesses-api
-- description: Credit balance and consumption aggregation on the v2 (beta) surface.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Credit balance and consumption aggregation on the v2 (beta) surface.
   name: Explorium V2 Credits API
   slug: explorium-v2credits-api
-- description: 'Synchronous v2 people enrichments: contact information, professional profiles, and LinkedIn posts.'
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: 'Synchronous v2 people enrichments: contact information, professional profiles, and LinkedIn posts.'
   name: Explorium V2 Prospect Enrichments API
   slug: explorium-v2prospectenrichments-api
-- description: Match, fetch, and stat over the people dataset on the v2 (beta) surface.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Match, fetch, and stat over the people dataset on the v2 (beta) surface.
   name: Explorium V2 Prospects API
   slug: explorium-v2prospects-api
-- description: Run a custom, AI-powered research task over a list of businesses or prospects using a natural-language query or prompt template, grounded in real-time web data (beta).
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Run a custom, AI-powered research task over a list of businesses or prospects using a natural-language query or prompt template, grounded in real-time web data (beta).
   name: Explorium V2 Research API
   slug: explorium-v2research-api
-- description: Report the deployed version of the Explorium AgentSource service.
+- baseURL: https://api.explorium.ai
+  baseurl_source: declared
+  description: Report the deployed version of the Explorium AgentSource service.
   name: Explorium Version API
   slug: explorium-version-api
 artifact_total: 42
@@ -361,7 +403,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -371,7 +413,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 66.8
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,7 +425,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/screenshots/explorium-2026-07-25T213931.png
 security:

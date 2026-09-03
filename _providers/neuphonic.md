@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -53,16 +53,24 @@ apis:
 - description: REST API for creating and managing conversational AI voice agents. Agents combine Neuphonic TTS with GPT-4o for interactive voice applications and support Model Context Protocol (MCP) server integrati
   name: Neuphonic Agent API
   slug: neuphonic-agent-api
-- description: The Agents API from Neuphonic — 3 operation(s) for agents.
+- baseURL: https://api.neuphonic.com
+  baseurl_source: declared
+  description: The Agents API from Neuphonic — 3 operation(s) for agents.
   name: Neuphonic Agents API
   slug: neuphonic-agents-api
-- description: The Ping API from Neuphonic — 1 operation(s) for ping.
+- baseURL: https://api.neuphonic.com
+  baseurl_source: declared
+  description: The Ping API from Neuphonic — 1 operation(s) for ping.
   name: Neuphonic Ping API
   slug: neuphonic-ping-api
-- description: The Sse API from Neuphonic — 2 operation(s) for sse.
+- baseURL: https://api.neuphonic.com
+  baseurl_source: declared
+  description: The Sse API from Neuphonic — 2 operation(s) for sse.
   name: Neuphonic Sse API
   slug: neuphonic-sse-api
-- description: The Voices API from Neuphonic — 2 operation(s) for voices.
+- baseURL: https://api.neuphonic.com
+  baseurl_source: declared
+  description: The Voices API from Neuphonic — 2 operation(s) for voices.
   name: Neuphonic Voices API
   slug: neuphonic-voices-api
 artifact_total: 27
@@ -237,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/screenshots/neuphonic-2026-06-20T190223.png
 security:

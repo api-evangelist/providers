@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -33,127 +45,209 @@ agentic_access:
   summary_line: 176 operations · 98 acting
 api_count: 1
 apis:
-- description: 'Operations related to agent configuration. When a user interacts with the Syllable system, they do so by communicating with an agent. An agent is linked to a prompt, a custom message, and one or more '
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: 'Operations related to agent configuration. When a user interacts with the Syllable system, they do so by communicating with an agent. An agent is linked to a prompt, a custom message, and one or more '
   name: Syllable Agents API
   slug: syllable-agents-api
-- description: Operations for testing agents with live text. These endpoints allow sending messages to an agent and receiving its responses.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations for testing agents with live text. These endpoints allow sending messages to an agent and receiving its responses.
   name: Syllable Agents.test API
   slug: syllable-agents-test-api
-- description: The bridge_phrases API from Syllable — 2 operation(s) for bridge_phrases.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The bridge_phrases API from Syllable — 2 operation(s) for bridge_phrases.
   name: Syllable Bridge Phrases API
   slug: syllable-bridge-phrases-api
-- description: Operations related to channel configuration. A channel is an organization-level point of communication, like a phone number or a web chat. A channel can be associated with an agent by creating a chann
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to channel configuration. A channel is an organization-level point of communication, like a phone number or a web chat. A channel can be associated with an agent by creating a chann
   name: Syllable Channels API
   slug: syllable-channels-api
-- description: 'Operations related to channel target configuration. A channel target links a channel to an agent, allowing users to communicate with the agent through that channel. For more information, see [Console '
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: 'Operations related to channel target configuration. A channel target links a channel to an agent, allowing users to communicate with the agent through that channel. For more information, see [Console '
   name: Syllable Channels.targets API
   slug: syllable-channels-targets-api
-- description: Operations related to Twilio channel configuration.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to Twilio channel configuration.
   name: Syllable Channels.twilio API
   slug: syllable-channels-twilio-api
-- description: Operations related to setting up phone numbers in Twilio for use in channels.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to setting up phone numbers in Twilio for use in channels.
   name: Syllable Channels.twilio.numbers API
   slug: syllable-channels-twilio-numbers-api
-- description: The conversation-config API from Syllable — 1 operation(s) for conversation-config.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The conversation-config API from Syllable — 1 operation(s) for conversation-config.
   name: Syllable Conversation Config API
   slug: syllable-conversation-config-api
-- description: Operations related to conversations. A conversation is a record of messages between a user and an agent, and is composed of one or more sessions.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to conversations. A conversation is a record of messages between a user and an agent, and is composed of one or more sessions.
   name: Syllable Conversations API
   slug: syllable-conversations-api
-- description: Operations related to custom message configuration. A custom message is a pre-configured message delivered by an agent as a greeting at the beginning of a conversation. Multiple agents can use the sam
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to custom message configuration. A custom message is a pre-configured message delivered by an agent as a greeting at the beginning of a conversation. Multiple agents can use the sam
   name: Syllable Custom Messages API
   slug: syllable-custom-messages-api
-- description: Operations related to dashboards. Currently the API/SDK only supports fetching basic information about dashboards.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to dashboards. Currently the API/SDK only supports fetching basic information about dashboards.
   name: Syllable Dashboards API
   slug: syllable-dashboards-api
-- description: 'Operations related to data sources. A data source is a blob of text that can be made available to an agent''s general info tools to provide more context to the agent when generating its responses. For '
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: 'Operations related to data sources. A data source is a blob of text that can be made available to an agent''s general info tools to provide more context to the agent when generating its responses. For '
   name: Syllable Data Sources API
   slug: syllable-data-sources-api
-- description: Operations related to directory
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to directory
   name: Syllable Directory API
   slug: syllable-directory-api
-- description: Operations related to events. An event represents a specific occurrence during a session. Currently the API/SDK only supports fetching logged events.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to events. An event represents a specific occurrence during a session. Currently the API/SDK only supports fetching logged events.
   name: Syllable Events API
   slug: syllable-events-api
-- description: Operations related to incidents.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to incidents.
   name: Syllable Incidents API
   slug: syllable-incidents-api
-- description: Operations related to insights results. An insight is a tool that processes conversation data to extract information and generate reports.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to insights results. An insight is a tool that processes conversation data to extract information and generate reports.
   name: Syllable Insights API
   slug: syllable-insights-api
-- description: Operations related to insights upload folders. An insight folder is used to upload call recordings for insight workflow analysis.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to insights upload folders. An insight folder is used to upload call recordings for insight workflow analysis.
   name: Syllable Insights.folders API
   slug: syllable-insights-folders-api
-- description: Operations related to insights tool configurationss. An insight is a tool that processes conversation data to extract information and generate reports.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to insights tool configurationss. An insight is a tool that processes conversation data to extract information and generate reports.
   name: Syllable Insights.tools API
   slug: syllable-insights-tools-api
-- description: Operations related to insights workflows. An workflow is series of tool invocations that processes conversation data to extract information and generate reports.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to insights workflows. An workflow is series of tool invocations that processes conversation data to extract information and generate reports.
   name: Syllable Insights.workflows API
   slug: syllable-insights-workflows-api
-- description: Operations related to language groups. A language group is a collection of language, voice, and DTMF configuration that can be linked to an agent to define the languages and voices it supports. For mo
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to language groups. A language group is a collection of language, voice, and DTMF configuration that can be linked to an agent to define the languages and voices it supports. For mo
   name: Syllable Language Groups API
   slug: syllable-language-groups-api
-- description: Operations related to organizations.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to organizations.
   name: Syllable Organizations API
   slug: syllable-organizations-api
-- description: The organizations.sip_ip_ranges API from Syllable — 2 operation(s) for organizations.sip_ip_ranges.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The organizations.sip_ip_ranges API from Syllable — 2 operation(s) for organizations.sip_ip_ranges.
   name: Syllable Organizations.sip Ip Ranges API
   slug: syllable-organizations-sip-ip-ranges-api
-- description: Operations related to outbound campaign batches
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to outbound campaign batches
   name: Syllable Outbound.batches API
   slug: syllable-outbound-batches-api
-- description: Operations related to outbound message campaigns
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to outbound message campaigns
   name: Syllable Outbound.campaigns API
   slug: syllable-outbound-campaigns-api
-- description: Operations related to permissions. A permission is a specific capability or access level granted to a user within the Syllable system. Permissions are used to control access to various features and fu
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to permissions. A permission is a specific capability or access level granted to a user within the Syllable system. Permissions are used to control access to various features and fu
   name: Syllable Permissions API
   slug: syllable-permissions-api
-- description: Operations related to prompts. A prompt defines the behavior of an agent by delivering instructions to the LLM about how the agent should behave. A prompt can be linked to one or more agents. A prompt
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to prompts. A prompt defines the behavior of an agent by delivering instructions to the LLM about how the agent should behave. A prompt can be linked to one or more agents. A prompt
   name: Syllable Prompts API
   slug: syllable-prompts-api
-- description: The pronunciations API from Syllable — 3 operation(s) for pronunciations.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The pronunciations API from Syllable — 3 operation(s) for pronunciations.
   name: Syllable Pronunciations API
   slug: syllable-pronunciations-api
-- description: Operations related to roles. A role is a collection of permissions that can be assigned to users to control their access to various features within the Syllable system.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to roles. A role is a collection of permissions that can be assigned to users to control their access to various features within the Syllable system.
   name: Syllable Roles API
   slug: syllable-roles-api
-- description: Operations related to service configuration. A service is a collection of tools. You can specify an authentication method and values on a service, and any linked tools will use that auth information t
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to service configuration. A service is a collection of tools. You can specify an authentication method and values on a service, and any linked tools will use that auth information t
   name: Syllable Services API
   slug: syllable-services-api
-- description: The session_debug API from Syllable — 3 operation(s) for session_debug.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The session_debug API from Syllable — 3 operation(s) for session_debug.
   name: Syllable Session Debug API
   slug: syllable-session-debug-api
-- description: Operations related to labeling sessions with evaluations of quality and descriptions of issues the user encountered or other details. For more information, see [Console docs](https://docs.syllable.ai/
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to labeling sessions with evaluations of quality and descriptions of issues the user encountered or other details. For more information, see [Console docs](https://docs.syllable.ai/
   name: Syllable Session Labels API
   slug: syllable-session-labels-api
-- description: Operations related to sessions. A session is a building block of a conversation. For more information, see [Console docs](https://docs.syllable.ai/workspaces/Sessions).
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: Operations related to sessions. A session is a building block of a conversation. For more information, see [Console docs](https://docs.syllable.ai/workspaces/Sessions).
   name: Syllable Sessions API
   slug: syllable-sessions-api
-- description: The sessions.full-summary API from Syllable — 1 operation(s) for sessions.full-summary.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The sessions.full-summary API from Syllable — 1 operation(s) for sessions.full-summary.
   name: Syllable Sessions.full Summary API
   slug: syllable-sessions-full-summary-api
-- description: The sessions.latency API from Syllable — 1 operation(s) for sessions.latency.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The sessions.latency API from Syllable — 1 operation(s) for sessions.latency.
   name: Syllable Sessions.latency API
   slug: syllable-sessions-latency-api
-- description: The sessions.timeline API from Syllable — 1 operation(s) for sessions.timeline.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The sessions.timeline API from Syllable — 1 operation(s) for sessions.timeline.
   name: Syllable Sessions.timeline API
   slug: syllable-sessions-timeline-api
-- description: The sessions.transcript API from Syllable — 1 operation(s) for sessions.transcript.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The sessions.transcript API from Syllable — 1 operation(s) for sessions.transcript.
   name: Syllable Sessions.transcript API
   slug: syllable-sessions-transcript-api
-- description: The takeouts API from Syllable — 3 operation(s) for takeouts.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The takeouts API from Syllable — 3 operation(s) for takeouts.
   name: Syllable Takeouts API
   slug: syllable-takeouts-api
-- description: 'Operations related to tool configuration. A tool is a function that an agent can call to perform actions like accessing databases, making API calls, or processing data. For an agent to have access to '
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: 'Operations related to tool configuration. A tool is a function that an agent can call to perform actions like accessing databases, making API calls, or processing data. For an agent to have access to '
   name: Syllable Tools API
   slug: syllable-tools-api
-- description: The users API from Syllable — 4 operation(s) for users.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The users API from Syllable — 4 operation(s) for users.
   name: Syllable Users API
   slug: syllable-users-api
-- description: The V1 API from Syllable — 4 operation(s) for v1.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The V1 API from Syllable — 4 operation(s) for v1.
   name: Syllable V1 API
   slug: syllable-v1-api
-- description: The voice_groups API from Syllable — 3 operation(s) for voice_groups.
+- baseURL: https://api.syllable.cloud
+  baseurl_source: declared
+  description: The voice_groups API from Syllable — 3 operation(s) for voice_groups.
   name: Syllable Voice Groups API
   slug: syllable-voice-groups-api
 artifact_total: 89
@@ -473,7 +567,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -483,7 +577,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 62.8
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -501,7 +595,7 @@ score:
     regime_id: telecommunications
     score: 41.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/screenshots/syllable-2026-08-17T082225.png
 security:

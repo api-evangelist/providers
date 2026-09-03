@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: The Domains API from Architecture Pattern — 1 operation(s) for domains.
+- baseURL: https://api.apievangelist.com/v1/architecture-patterns
+  baseurl_source: spec
+  description: The Domains API from Architecture Pattern — 1 operation(s) for domains.
   name: Architecture Pattern Domains API
   slug: architecture-pattern-domains-api
-- description: The Patterns API from Architecture Pattern — 3 operation(s) for patterns.
+- baseURL: https://api.apievangelist.com/v1/architecture-patterns
+  baseurl_source: spec
+  description: The Patterns API from Architecture Pattern — 3 operation(s) for patterns.
   name: Architecture Pattern Patterns API
   slug: architecture-pattern-patterns-api
-- description: The Trade-offs API from Architecture Pattern — 1 operation(s) for trade-offs.
+- baseURL: https://api.apievangelist.com/v1/architecture-patterns
+  baseurl_source: spec
+  description: The Trade-offs API from Architecture Pattern — 1 operation(s) for trade-offs.
   name: Architecture Pattern Trade-offs API
   slug: architecture-pattern-trade-offs-api
 artifact_total: 42
@@ -253,7 +259,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/screenshots/architecture-pattern-2026-06-20T172407.png
 security:

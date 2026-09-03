@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations
 api_count: 4
 apis:
-- description: Filter meals by attributes
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Filter meals by attributes
   name: TheMealDB Filter API
   slug: themealdb-filter-api
-- description: List available categories, areas, and ingredients
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: List available categories, areas, and ingredients
   name: TheMealDB List API
   slug: themealdb-list-api
-- description: Retrieve details by ID or random meal
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Retrieve details by ID or random meal
   name: TheMealDB Lookup API
   slug: themealdb-lookup-api
-- description: Search for meals and ingredients
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Search for meals and ingredients
   name: TheMealDB Search API
   slug: themealdb-search-api
 artifact_total: 44
@@ -254,7 +262,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/screenshots/themealdb-2026-06-20T195246.png
 security:

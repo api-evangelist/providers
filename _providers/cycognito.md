@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 43 operations · 31 acting
 api_count: 1
 apis:
-- description: The Assets API from CyCognito — 6 operation(s) for assets.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Assets API from CyCognito — 6 operation(s) for assets.
   name: CyCognito Assets API
   slug: cycognito-assets-api
-- description: The Audit Logs API from CyCognito — 1 operation(s) for audit logs.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Audit Logs API from CyCognito — 1 operation(s) for audit logs.
   name: CyCognito Audit Logs API
   slug: cycognito-audit-logs-api
-- description: The Cloud Connectors API from CyCognito — 4 operation(s) for cloud connectors.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Cloud Connectors API from CyCognito — 4 operation(s) for cloud connectors.
   name: CyCognito Cloud Connectors API
   slug: cycognito-cloud-connectors-api
-- description: The Export Data API from CyCognito — 6 operation(s) for export data.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Export Data API from CyCognito — 6 operation(s) for export data.
   name: CyCognito Export Data API
   slug: cycognito-export-data-api
-- description: The Issues API from CyCognito — 9 operation(s) for issues.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Issues API from CyCognito — 9 operation(s) for issues.
   name: CyCognito Issues API
   slug: cycognito-issues-api
-- description: The Organizations API from CyCognito — 2 operation(s) for organizations.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Organizations API from CyCognito — 2 operation(s) for organizations.
   name: CyCognito Organizations API
   slug: cycognito-organizations-api
-- description: The Realm API from CyCognito — 2 operation(s) for realm.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Realm API from CyCognito — 2 operation(s) for realm.
   name: CyCognito Realm API
   slug: cycognito-realm-api
-- description: The Reports API from CyCognito — 2 operation(s) for reports.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Reports API from CyCognito — 2 operation(s) for reports.
   name: CyCognito Reports API
   slug: cycognito-reports-api
-- description: The Revalidation API from CyCognito — 1 operation(s) for revalidation.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Revalidation API from CyCognito — 1 operation(s) for revalidation.
   name: CyCognito Revalidation API
   slug: cycognito-revalidation-api
-- description: The Scope Management API from CyCognito — 1 operation(s) for scope management.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Scope Management API from CyCognito — 1 operation(s) for scope management.
   name: CyCognito Scope Management API
   slug: cycognito-scope-management-api
-- description: The Users API from CyCognito — 2 operation(s) for users.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Users API from CyCognito — 2 operation(s) for users.
   name: CyCognito Users API
   slug: cycognito-users-api
-- description: The Verify IPs API from CyCognito — 1 operation(s) for verify ips.
+- baseURL: https://api.platform.cycognito.com
+  baseurl_source: declared
+  description: The Verify IPs API from CyCognito — 1 operation(s) for verify ips.
   name: CyCognito Verify IPs API
   slug: cycognito-verify-ips-api
 artifact_total: 31
@@ -289,7 +313,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycognito/refs/heads/main/screenshots/cycognito-2026-07-25T211040.png
 security:

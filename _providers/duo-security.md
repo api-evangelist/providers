@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 32 operations · 19 acting
 api_count: 1
 apis:
-- description: Batched operations
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: Batched operations
   name: Duo Security Bulk API
   slug: duo-security-bulk-api
-- description: Bypass code generation and listing
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: Bypass code generation and listing
   name: Duo Security Bypass Codes API
   slug: duo-security-bypass-codes-api
-- description: Group management and membership
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: Group management and membership
   name: Duo Security Groups API
   slug: duo-security-groups-api
-- description: Phone device management
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: Phone device management
   name: Duo Security Phones API
   slug: duo-security-phones-api
-- description: Hardware token management
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: Hardware token management
   name: Duo Security Tokens API
   slug: duo-security-tokens-api
-- description: User account management
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: User account management
   name: Duo Security Users API
   slug: duo-security-users-api
-- description: WebAuthn credential management
+- baseURL: https://api-XXXXXXXX.duosecurity.com
+  baseurl_source: declared
+  description: WebAuthn credential management
   name: Duo Security WebAuthn API
   slug: duo-security-webauthn-api
 artifact_total: 24
@@ -191,7 +205,7 @@ score:
       marker_coverage: 100.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duo-security/refs/heads/main/screenshots/duo-security-2026-06-20T180323.png
 security:

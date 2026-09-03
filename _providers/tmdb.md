@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
+- baseURL: https://api.themoviedb.org
+  baseurl_source: declared
+  description: The full TMDB REST API surface (v3). Covers movies, TV series, seasons, episodes, people, credits, images, collections, companies, networks, keywords, genres, reviews, lists, certifications, find, tre
   name: TMDB API
   slug: tmdb-api
 artifact_total: 455
@@ -1596,7 +1598,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 54.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmdb/refs/heads/main/screenshots/tmdb-2026-06-20T195425.png
 security:

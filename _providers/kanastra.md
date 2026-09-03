@@ -33,67 +33,107 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Accounts API from Kanastra — 3 operation(s) for accounts.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Accounts API from Kanastra — 3 operation(s) for accounts.
   name: Kanastra Accounts API
   slug: kanastra-accounts-api
-- description: The Amendment API from Kanastra — 1 operation(s) for amendment.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Amendment API from Kanastra — 1 operation(s) for amendment.
   name: Kanastra Amendment API
   slug: kanastra-amendment-api
-- description: The Authentication API from Kanastra — 2 operation(s) for authentication.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Authentication API from Kanastra — 2 operation(s) for authentication.
   name: Kanastra Authentication API
   slug: kanastra-authentication-api
-- description: The Balance API from Kanastra — 1 operation(s) for balance.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Balance API from Kanastra — 1 operation(s) for balance.
   name: Kanastra Balance API
   slug: kanastra-balance-api
-- description: The Bank Account Beneficiary API from Kanastra — 2 operation(s) for bank account beneficiary.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Bank Account Beneficiary API from Kanastra — 2 operation(s) for bank account beneficiary.
   name: Kanastra Bank Account Beneficiary API
   slug: kanastra-bank-account-beneficiary-api
-- description: The Bank Slip (Boleto) API from Kanastra — 5 operation(s) for bank slip (boleto).
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Bank Slip (Boleto) API from Kanastra — 5 operation(s) for bank slip (boleto).
   name: Kanastra Bank Slip (Boleto) API
   slug: kanastra-bank-slip-boleto-api
-- description: The CNAB API from Kanastra — 2 operation(s) for cnab.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The CNAB API from Kanastra — 2 operation(s) for cnab.
   name: Kanastra CNAB API
   slug: kanastra-cnab-api
-- description: The Commercial Note API from Kanastra — 4 operation(s) for commercial note.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Commercial Note API from Kanastra — 4 operation(s) for commercial note.
   name: Kanastra Commercial Note API
   slug: kanastra-commercial-note-api
-- description: The Create API from Kanastra — 1 operation(s) for create.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Create API from Kanastra — 1 operation(s) for create.
   name: Kanastra Create API
   slug: kanastra-create-api
-- description: The File Return API from Kanastra — 5 operation(s) for file return.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The File Return API from Kanastra — 5 operation(s) for file return.
   name: Kanastra File Return API
   slug: kanastra-file-return-api
-- description: The Guarantees API from Kanastra — 6 operation(s) for guarantees.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Guarantees API from Kanastra — 6 operation(s) for guarantees.
   name: Kanastra Guarantees API
   slug: kanastra-guarantees-api
-- description: The Issuers API from Kanastra — 2 operation(s) for issuers.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Issuers API from Kanastra — 2 operation(s) for issuers.
   name: Kanastra Issuers API
   slug: kanastra-issuers-api
-- description: The Pagamentos API from Kanastra — 1 operation(s) for pagamentos.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Pagamentos API from Kanastra — 1 operation(s) for pagamentos.
   name: Kanastra Pagamentos API
   slug: kanastra-pagamentos-api
-- description: The PIX Deposit API from Kanastra — 2 operation(s) for pix deposit.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The PIX Deposit API from Kanastra — 2 operation(s) for pix deposit.
   name: Kanastra PIX Deposit API
   slug: kanastra-pix-deposit-api
-- description: The PIX Keys API from Kanastra — 5 operation(s) for pix keys.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The PIX Keys API from Kanastra — 5 operation(s) for pix keys.
   name: Kanastra PIX Keys API
   slug: kanastra-pix-keys-api
-- description: The PIX Transfer API from Kanastra — 1 operation(s) for pix transfer.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The PIX Transfer API from Kanastra — 1 operation(s) for pix transfer.
   name: Kanastra PIX Transfer API
   slug: kanastra-pix-transfer-api
-- description: The QRCodes API from Kanastra — 3 operation(s) for qrcodes.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The QRCodes API from Kanastra — 3 operation(s) for qrcodes.
   name: Kanastra QRCodes API
   slug: kanastra-qrcodes-api
-- description: The TED Transfer API from Kanastra — 3 operation(s) for ted transfer.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The TED Transfer API from Kanastra — 3 operation(s) for ted transfer.
   name: Kanastra TED Transfer API
   slug: kanastra-ted-transfer-api
-- description: The Transactions API from Kanastra — 1 operation(s) for transactions.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Transactions API from Kanastra — 1 operation(s) for transactions.
   name: Kanastra Transactions API
   slug: kanastra-transactions-api
-- description: The Wallet API from Kanastra — 2 operation(s) for wallet.
+- baseURL: https://banking.kanastra.com.br
+  baseurl_source: declared
+  description: The Wallet API from Kanastra — 2 operation(s) for wallet.
   name: Kanastra Wallet API
   slug: kanastra-wallet-api
 artifact_total: 47
@@ -246,7 +286,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -256,7 +296,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 39.9
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     contracts:
@@ -273,7 +313,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png
 security:

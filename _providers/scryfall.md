@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Large daily exports of the entire Scryfall card database.
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: Large daily exports of the entire Scryfall card database.
   name: Scryfall Bulk Data API
   slug: scryfall-bulk-data-api
-- description: Look up, search, and fetch Magic card objects in many ways.
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: Look up, search, and fetch Magic card objects in many ways.
   name: Scryfall Cards API
   slug: scryfall-cards-api
-- description: Convenience lists of Magic data points (card names, types, supertypes, etc.).
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: Convenience lists of Magic data points (card names, types, supertypes, etc.).
   name: Scryfall Catalogs API
   slug: scryfall-catalogs-api
-- description: Records of card-object migrations and merges.
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: Records of card-object migrations and merges.
   name: Scryfall Migrations API
   slug: scryfall-migrations-api
-- description: Oracle rulings, WotC release notes, and Scryfall notes for a card.
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: Oracle rulings, WotC release notes, and Scryfall notes for a card.
   name: Scryfall Rulings API
   slug: scryfall-rulings-api
-- description: 'List and retrieve Magic: The Gathering set metadata.'
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: 'List and retrieve Magic: The Gathering set metadata.'
   name: Scryfall Sets API
   slug: scryfall-sets-api
-- description: All card symbols and their semantics.
+- baseURL: https://api.scryfall.com
+  baseurl_source: declared
+  description: All card symbols and their semantics.
   name: Scryfall Symbology API
   slug: scryfall-symbology-api
 artifact_total: 82
@@ -466,7 +480,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

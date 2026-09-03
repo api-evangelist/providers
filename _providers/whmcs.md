@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 19 operations · 19 acting
 api_count: 1
 apis:
-- description: OAuth and SSO authentication operations
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: OAuth and SSO authentication operations
   name: WHMCS Authentication API
   slug: whmcs-authentication-api
-- description: Invoice, payment, and transaction management
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: Invoice, payment, and transaction management
   name: WHMCS Billing API
   slug: whmcs-billing-api
-- description: Client account management operations
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: Client account management operations
   name: WHMCS Clients API
   slug: whmcs-clients-api
-- description: Domain registration and management
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: Domain registration and management
   name: WHMCS Domains API
   slug: whmcs-domains-api
-- description: Order and quote management operations
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: Order and quote management operations
   name: WHMCS Orders API
   slug: whmcs-orders-api
-- description: Ticket and announcement management
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: Ticket and announcement management
   name: WHMCS Support API
   slug: whmcs-support-api
-- description: System administration and configuration
+- baseURL: https://{your-domain}/includes/api.php
+  baseurl_source: declared
+  description: System administration and configuration
   name: WHMCS System API
   slug: whmcs-system-api
 artifact_total: 34
@@ -256,7 +270,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/screenshots/whmcs-2026-06-20T201446.png
 security:

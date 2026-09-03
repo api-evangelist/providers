@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 45 operations · 26 acting
 api_count: 1
 apis:
-- description: The Devices API from Tailscale — 12 operation(s) for devices.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Devices API from Tailscale — 12 operation(s) for devices.
   name: Tailscale Devices API
   slug: tailscale-devices-api
-- description: The DNS API from Tailscale — 3 operation(s) for dns.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The DNS API from Tailscale — 3 operation(s) for dns.
   name: Tailscale DNS API
   slug: tailscale-dns-api
-- description: The Invites API from Tailscale — 7 operation(s) for invites.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Invites API from Tailscale — 7 operation(s) for invites.
   name: Tailscale Invites API
   slug: tailscale-invites-api
-- description: The Keys API from Tailscale — 2 operation(s) for keys.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Keys API from Tailscale — 2 operation(s) for keys.
   name: Tailscale Keys API
   slug: tailscale-keys-api
-- description: The Logging API from Tailscale — 4 operation(s) for logging.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Logging API from Tailscale — 4 operation(s) for logging.
   name: Tailscale Logging API
   slug: tailscale-logging-api
-- description: The Policy API from Tailscale — 2 operation(s) for policy.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Policy API from Tailscale — 2 operation(s) for policy.
   name: Tailscale Policy API
   slug: tailscale-policy-api
-- description: The Tailnet API from Tailscale — 2 operation(s) for tailnet.
+- baseURL: https://api.tailscale.com/api/v2
+  baseurl_source: declared
+  description: The Tailnet API from Tailscale — 2 operation(s) for tailnet.
   name: Tailscale Tailnet API
   slug: tailscale-tailnet-api
 artifact_total: 21
@@ -186,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/screenshots/tailscale-2026-06-20T194858.png
 security:

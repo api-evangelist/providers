@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,106 +44,174 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The Account Access Consents API from Coventry Building Society — 2 operation(s) for account access consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Account Access Consents API from Coventry Building Society — 2 operation(s) for account access consents.
   name: Coventry Building Society Account Access Consents API
   slug: coventry-building-society-account-access-consents-api
-- description: The Accounts API from Coventry Building Society — 2 operation(s) for accounts.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Accounts API from Coventry Building Society — 2 operation(s) for accounts.
   name: Coventry Building Society Accounts API
   slug: coventry-building-society-accounts-api
-- description: Endpoint for getting ATM data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Coventry Building Society ATM API
   slug: coventry-building-society-atm-api
-- description: The Balances API from Coventry Building Society — 2 operation(s) for balances.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Balances API from Coventry Building Society — 2 operation(s) for balances.
   name: Coventry Building Society Balances API
   slug: coventry-building-society-balances-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Coventry Building Society BCA API
   slug: coventry-building-society-bca-api
-- description: The Beneficiaries API from Coventry Building Society — 2 operation(s) for beneficiaries.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Beneficiaries API from Coventry Building Society — 2 operation(s) for beneficiaries.
   name: Coventry Building Society Beneficiaries API
   slug: coventry-building-society-beneficiaries-api
-- description: Endpoint for getting Branch data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Coventry Building Society Branch API
   slug: coventry-building-society-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Coventry Building Society CCC API
   slug: coventry-building-society-ccc-api
-- description: The Direct Debits API from Coventry Building Society — 2 operation(s) for direct debits.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Direct Debits API from Coventry Building Society — 2 operation(s) for direct debits.
   name: Coventry Building Society Direct Debits API
   slug: coventry-building-society-direct-debits-api
-- description: The Domestic Payment Consents API from Coventry Building Society — 3 operation(s) for domestic payment consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Payment Consents API from Coventry Building Society — 3 operation(s) for domestic payment consents.
   name: Coventry Building Society Domestic Payment Consents API
   slug: coventry-building-society-domestic-payment-consents-api
-- description: The Domestic Payments API from Coventry Building Society — 3 operation(s) for domestic payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Payments API from Coventry Building Society — 3 operation(s) for domestic payments.
   name: Coventry Building Society Domestic Payments API
   slug: coventry-building-society-domestic-payments-api
-- description: The Domestic Scheduled Payment Consents API from Coventry Building Society — 2 operation(s) for domestic scheduled payment consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Scheduled Payment Consents API from Coventry Building Society — 2 operation(s) for domestic scheduled payment consents.
   name: Coventry Building Society Domestic Scheduled Payment Consents API
   slug: coventry-building-society-domestic-scheduled-payment-consents-api
-- description: The Domestic Scheduled Payments API from Coventry Building Society — 3 operation(s) for domestic scheduled payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Coventry Building Society — 3 operation(s) for domestic scheduled payments.
   name: Coventry Building Society Domestic Scheduled Payments API
   slug: coventry-building-society-domestic-scheduled-payments-api
-- description: The Domestic Standing Order Consents API from Coventry Building Society — 2 operation(s) for domestic standing order consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Standing Order Consents API from Coventry Building Society — 2 operation(s) for domestic standing order consents.
   name: Coventry Building Society Domestic Standing Order Consents API
   slug: coventry-building-society-domestic-standing-order-consents-api
-- description: The Domestic Standing Orders API from Coventry Building Society — 3 operation(s) for domestic standing orders.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Domestic Standing Orders API from Coventry Building Society — 3 operation(s) for domestic standing orders.
   name: Coventry Building Society Domestic Standing Orders API
   slug: coventry-building-society-domestic-standing-orders-api
-- description: The File Payment Consents API from Coventry Building Society — 3 operation(s) for file payment consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The File Payment Consents API from Coventry Building Society — 3 operation(s) for file payment consents.
   name: Coventry Building Society File Payment Consents API
   slug: coventry-building-society-file-payment-consents-api
-- description: The File Payments API from Coventry Building Society — 4 operation(s) for file payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The File Payments API from Coventry Building Society — 4 operation(s) for file payments.
   name: Coventry Building Society File Payments API
   slug: coventry-building-society-file-payments-api
-- description: The Funds Confirmation Consents API from Coventry Building Society — 2 operation(s) for funds confirmation consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Funds Confirmation Consents API from Coventry Building Society — 2 operation(s) for funds confirmation consents.
   name: Coventry Building Society Funds Confirmation Consents API
   slug: coventry-building-society-funds-confirmation-consents-api
-- description: The Funds Confirmations API from Coventry Building Society — 1 operation(s) for funds confirmations.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Funds Confirmations API from Coventry Building Society — 1 operation(s) for funds confirmations.
   name: Coventry Building Society Funds Confirmations API
   slug: coventry-building-society-funds-confirmations-api
-- description: The International Payment Consents API from Coventry Building Society — 3 operation(s) for international payment consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Payment Consents API from Coventry Building Society — 3 operation(s) for international payment consents.
   name: Coventry Building Society International Payment Consents API
   slug: coventry-building-society-international-payment-consents-api
-- description: The International Payments API from Coventry Building Society — 3 operation(s) for international payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Payments API from Coventry Building Society — 3 operation(s) for international payments.
   name: Coventry Building Society International Payments API
   slug: coventry-building-society-international-payments-api
-- description: The International Scheduled Payments API from Coventry Building Society — 3 operation(s) for international scheduled payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Coventry Building Society — 3 operation(s) for international scheduled payments.
   name: Coventry Building Society International Scheduled Payments API
   slug: coventry-building-society-international-scheduled-payments-api
-- description: The International Scheduled Payments Consents API from Coventry Building Society — 3 operation(s) for international scheduled payments consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Scheduled Payments Consents API from Coventry Building Society — 3 operation(s) for international scheduled payments consents.
   name: Coventry Building Society International Scheduled Payments Consents API
   slug: coventry-building-society-international-scheduled-payments-consents-api
-- description: The International Standing Orders API from Coventry Building Society — 3 operation(s) for international standing orders.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Standing Orders API from Coventry Building Society — 3 operation(s) for international standing orders.
   name: Coventry Building Society International Standing Orders API
   slug: coventry-building-society-international-standing-orders-api
-- description: The International Standing Orders Consents API from Coventry Building Society — 2 operation(s) for international standing orders consents.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The International Standing Orders Consents API from Coventry Building Society — 2 operation(s) for international standing orders consents.
   name: Coventry Building Society International Standing Orders Consents API
   slug: coventry-building-society-international-standing-orders-consents-api
-- description: The Offers API from Coventry Building Society — 2 operation(s) for offers.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Offers API from Coventry Building Society — 2 operation(s) for offers.
   name: Coventry Building Society Offers API
   slug: coventry-building-society-offers-api
-- description: The Parties API from Coventry Building Society — 3 operation(s) for parties.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Parties API from Coventry Building Society — 3 operation(s) for parties.
   name: Coventry Building Society Parties API
   slug: coventry-building-society-parties-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Coventry Building Society PCA API
   slug: coventry-building-society-pca-api
-- description: The Products API from Coventry Building Society — 2 operation(s) for products.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Products API from Coventry Building Society — 2 operation(s) for products.
   name: Coventry Building Society Products API
   slug: coventry-building-society-products-api
-- description: The Scheduled Payments API from Coventry Building Society — 2 operation(s) for scheduled payments.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Scheduled Payments API from Coventry Building Society — 2 operation(s) for scheduled payments.
   name: Coventry Building Society Scheduled Payments API
   slug: coventry-building-society-scheduled-payments-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Coventry Building Society SME API
   slug: coventry-building-society-sme-api
-- description: The Standing Orders API from Coventry Building Society — 2 operation(s) for standing orders.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Standing Orders API from Coventry Building Society — 2 operation(s) for standing orders.
   name: Coventry Building Society Standing Orders API
   slug: coventry-building-society-standing-orders-api
-- description: The Statements API from Coventry Building Society — 5 operation(s) for statements.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Statements API from Coventry Building Society — 5 operation(s) for statements.
   name: Coventry Building Society Statements API
   slug: coventry-building-society-statements-api
-- description: The Transactions API from Coventry Building Society — 2 operation(s) for transactions.
+- baseURL: https://connect.coventrybuildingsociety.co.uk/pd/digital/open-banking/v1.0
+  baseurl_source: declared
+  description: The Transactions API from Coventry Building Society — 2 operation(s) for transactions.
   name: Coventry Building Society Transactions API
   slug: coventry-building-society-transactions-api
 artifact_total: 40
@@ -318,7 +397,7 @@ score:
     regime_id: banking_open_finance
     score: 77.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

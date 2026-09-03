@@ -34,43 +34,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
   name: Upwind Security access-management API
   slug: upwind-security-access-management-api
-- description: The API Security resource offers methods for retrieving API catalog endpoints and their security information.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The API Security resource offers methods for retrieving API catalog endpoints and their security information.
   name: Upwind Security api-security API
   slug: upwind-security-api-security-api
-- description: The Cloud Accounts resource offers methods for creating, updating, and deleting cloud accounts for monitoring and security analysis.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Cloud Accounts resource offers methods for creating, updating, and deleting cloud accounts for monitoring and security analysis.
   name: Upwind Security cloud-accounts API
   slug: upwind-security-cloud-accounts-api
-- description: The Configurations resource offers a range of methods for listing, retrieving, and deleting configuration findings and rules.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Configurations resource offers a range of methods for listing, retrieving, and deleting configuration findings and rules.
   name: Upwind Security configurations API
   slug: upwind-security-configurations-api
-- description: The Events resource offers a range of methods for listing, retrieving, and deleting events.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Events resource offers a range of methods for listing, retrieving, and deleting events.
   name: Upwind Security events API
   slug: upwind-security-events-api
-- description: The Integrations resource offers methods for managing various integrations with external systems, including integration webhooks.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Integrations resource offers methods for managing various integrations with external systems, including integration webhooks.
   name: Upwind Security integrations API
   slug: upwind-security-integrations-api
-- description: The Inventory resource offers a range of methods for listing and retrieving inventory assets.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Inventory resource offers a range of methods for listing and retrieving inventory assets.
   name: Upwind Security inventory API
   slug: upwind-security-inventory-api
-- description: The Packages resource offers methods for retrieving Software Bill of Materials (SBOM) package details.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Packages resource offers methods for retrieving Software Bill of Materials (SBOM) package details.
   name: Upwind Security packages API
   slug: upwind-security-packages-api
-- description: The ShiftLeft resource offers methods for retrieving ShiftLeft related information
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The ShiftLeft resource offers methods for retrieving ShiftLeft related information
   name: Upwind Security shiftleft API
   slug: upwind-security-shiftleft-api
-- description: The Threats resource offers a range of methods for listing, retrieving, and deleting threat detections.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Threats resource offers a range of methods for listing, retrieving, and deleting threat detections.
   name: Upwind Security threats API
   slug: upwind-security-threats-api
-- description: The Vulnerabilities resource offers a range of methods for listing, retrieving, and deleting vulnerability findings.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Vulnerabilities resource offers a range of methods for listing, retrieving, and deleting vulnerability findings.
   name: Upwind Security vulnerabilities API
   slug: upwind-security-vulnerabilities-api
-- description: The Workflows resource offers a range of methods for listing, retrieving, and deleting workflows.
+- baseURL: https://api.upwind.io
+  baseurl_source: declared
+  description: The Workflows resource offers a range of methods for listing, retrieving, and deleting workflows.
   name: Upwind Security workflows API
   slug: upwind-security-workflows-api
 artifact_total: 31
@@ -268,7 +292,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -278,7 +302,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 43.9
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     contracts:
@@ -289,7 +313,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwind-security/refs/heads/main/screenshots/upwind-security-2026-08-17T082645.png
 security:

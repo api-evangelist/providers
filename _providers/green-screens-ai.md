@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -46,31 +46,49 @@ apis:
 - description: Predictive freight rate and capacity intelligence for transportation and logistics. Provides real-time market rate predictions, lane pricing, and capacity insights.
   name: Green Screens AI Prediction API
   slug: prediction-api
-- description: Analytics service v1 <a href="/analytics/v1/redoc/" target="_blank">View separately</a> <a href="/analytics/v1/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Analytics service v1 <a href="/analytics/v1/redoc/" target="_blank">View separately</a> <a href="/analytics/v1/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI Analytics API
   slug: green-screens-ai-analytics-api
-- description: Authentication service
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Authentication service
   name: Green Screens AI Auth API
   slug: green-screens-ai-auth-api
-- description: Carrier bids service v1 <a href="/bids/v1/redoc/" target="_blank">View separately</a> <a href="/bids/v1/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Carrier bids service v1 <a href="/bids/v1/redoc/" target="_blank">View separately</a> <a href="/bids/v1/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI Bids API
   slug: green-screens-ai-bids-api
-- description: Historical rate data and similar lanes analysis v1 <a href="/history/v1/redoc/" target="_blank">View separately</a> <a href="/history/v1/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Historical rate data and similar lanes analysis v1 <a href="/history/v1/redoc/" target="_blank">View separately</a> <a href="/history/v1/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI History API
   slug: green-screens-ai-history-api
-- description: Market Intelligence service v1 <a href="/marketintelligence/v1/redoc/" target="_blank">View separately</a> <a href="/marketintelligence/v1/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Market Intelligence service v1 <a href="/marketintelligence/v1/redoc/" target="_blank">View separately</a> <a href="/marketintelligence/v1/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI MarketIntelligence API
   slug: green-screens-ai-marketintelligence-api
-- description: Prediction service v3 <a href="/prediction/v3/redoc/" target="_blank">View separately</a> <a href="/prediction/v3/swagger/index.html" target="_blank">Try it in swagger</a> Older version of this api ex
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Prediction service v3 <a href="/prediction/v3/redoc/" target="_blank">View separately</a> <a href="/prediction/v3/swagger/index.html" target="_blank">Try it in swagger</a> Older version of this api ex
   name: Green Screens AI Prediction API
   slug: green-screens-ai-prediction-api
-- description: Pricing service v1 <a href="/pricing/v1/redoc/" target="_blank">View separately</a> <a href="/pricing/v1/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Pricing service v1 <a href="/pricing/v1/redoc/" target="_blank">View separately</a> <a href="/pricing/v1/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI Pricing API
   slug: green-screens-ai-pricing-api
-- description: Quotes service v2 <a href="/quotes/v2/redoc/" target="_blank">View separately</a> <a href="/quotes/v2/swagger/index.html" target="_blank">Try it in swagger</a> Older version of this api exists. <a hre
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: Quotes service v2 <a href="/quotes/v2/redoc/" target="_blank">View separately</a> <a href="/quotes/v2/swagger/index.html" target="_blank">Try it in swagger</a> Older version of this api exists. <a hre
   name: Green Screens AI Quotes API
   slug: green-screens-ai-quotes-api
-- description: TmsConnector service v2 <a href="/tmsconnector/v2/redoc/" target="_blank">View separately</a> <a href="/tmsconnector/v2/swagger/index.html" target="_blank">Try it in swagger</a>
+- baseURL: https://connect.greenscreens.ai/prediction/v3
+  baseurl_source: declared
+  description: TmsConnector service v2 <a href="/tmsconnector/v2/redoc/" target="_blank">View separately</a> <a href="/tmsconnector/v2/swagger/index.html" target="_blank">Try it in swagger</a>
   name: Green Screens AI TMS API
   slug: green-screens-ai-tms-api
 artifact_total: 26
@@ -189,7 +207,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/screenshots/green-screens-ai-2026-06-20T182355.png
 security:

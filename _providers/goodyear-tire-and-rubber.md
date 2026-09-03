@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -52,19 +52,29 @@ apis:
 - description: The Goodyear Service Ticket API provides management of service tickets for commercial truck tire services.
   name: Goodyear Service Ticket API
   slug: service-ticket-api
-- description: The Catalog API from Goodyear Tire & Rubber — 1 operation(s) for catalog.
+- baseURL: https://developer.goodyearsightline.com
+  baseurl_source: declared
+  description: The Catalog API from Goodyear Tire & Rubber — 1 operation(s) for catalog.
   name: Goodyear Tire & Rubber Catalog API
   slug: goodyear-tire-and-rubber-catalog-api
-- description: The Friction API from Goodyear Tire & Rubber — 1 operation(s) for friction.
+- baseURL: https://developer.goodyearsightline.com
+  baseurl_source: declared
+  description: The Friction API from Goodyear Tire & Rubber — 1 operation(s) for friction.
   name: Goodyear Tire & Rubber Friction API
   slug: goodyear-tire-and-rubber-friction-api
-- description: The Service Tickets API from Goodyear Tire & Rubber — 1 operation(s) for service tickets.
+- baseURL: https://developer.goodyearsightline.com
+  baseurl_source: declared
+  description: The Service Tickets API from Goodyear Tire & Rubber — 1 operation(s) for service tickets.
   name: Goodyear Tire & Rubber Service Tickets API
   slug: goodyear-tire-and-rubber-service-tickets-api
-- description: The Tires API from Goodyear Tire & Rubber — 1 operation(s) for tires.
+- baseURL: https://developer.goodyearsightline.com
+  baseurl_source: declared
+  description: The Tires API from Goodyear Tire & Rubber — 1 operation(s) for tires.
   name: Goodyear Tire & Rubber Tires API
   slug: goodyear-tire-and-rubber-tires-api
-- description: The Work Orders API from Goodyear Tire & Rubber — 1 operation(s) for work orders.
+- baseURL: https://developer.goodyearsightline.com
+  baseurl_source: declared
+  description: The Work Orders API from Goodyear Tire & Rubber — 1 operation(s) for work orders.
   name: Goodyear Tire & Rubber Work Orders API
   slug: goodyear-tire-and-rubber-work-orders-api
 artifact_total: 22
@@ -179,7 +189,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -189,7 +199,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.8
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     contracts:
@@ -198,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png
 security:

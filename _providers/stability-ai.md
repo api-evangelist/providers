@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -44,58 +44,94 @@ agentic_access:
   summary_line: 20 operations · 18 acting · 3 human-in-the-loop
 api_count: 6
 apis:
-- description: Generate textured 3D mesh assets from single input images using the Stable Fast 3D model.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate textured 3D mesh assets from single input images using the Stable Fast 3D model.
   name: Stability AI 3D Generation API
   slug: stability-ai-3d-generation-api
-- description: Increase image resolution while closely preserving the original image details and composition with minimal creative additions.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Increase image resolution while closely preserving the original image details and composition with minimal creative additions.
   name: Stability AI Conservative Upscale API
   slug: stability-ai-conservative-upscale-api
-- description: Increase image resolution while enhancing details and adding creative improvements guided by an optional text prompt. This is an asynchronous endpoint that returns a generation ID for polling.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Increase image resolution while enhancing details and adding creative improvements guided by an optional text prompt. This is an asynchronous endpoint that returns a generation ID for polling.
   name: Stability AI Creative Upscale API
   slug: stability-ai-creative-upscale-api
-- description: Remove objects from an image by masking the area to erase and letting the AI fill in the background naturally.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Remove objects from an image by masking the area to erase and letting the AI fill in the background naturally.
   name: Stability AI Erase API
   slug: stability-ai-erase-api
-- description: Quickly increase image resolution with minimal processing time while maintaining image quality.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Quickly increase image resolution with minimal processing time while maintaining image quality.
   name: Stability AI Fast Upscale API
   slug: stability-ai-fast-upscale-api
-- description: Generate images using Stable Image Core, a fast and affordable model for high-quality image generation.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images using Stable Image Core, a fast and affordable model for high-quality image generation.
   name: Stability AI Generate Core API
   slug: stability-ai-generate-core-api
-- description: Generate images using Stable Diffusion 3 and 3.5 models with advanced text-to-image and image-to-image capabilities.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images using Stable Diffusion 3 and 3.5 models with advanced text-to-image and image-to-image capabilities.
   name: Stability AI Generate SD3 API
   slug: stability-ai-generate-sd3-api
-- description: Generate images using Stable Image Ultra, the highest quality model for state-of-the-art photorealistic and artistic image generation.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images using Stable Image Ultra, the highest quality model for state-of-the-art photorealistic and artistic image generation.
   name: Stability AI Generate Ultra API
   slug: stability-ai-generate-ultra-api
-- description: Generate short video clips from a single input image using the Stable Video Diffusion model. The API uses an asynchronous start-and-poll pattern.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate short video clips from a single input image using the Stable Video Diffusion model. The API uses an asynchronous start-and-poll pattern.
   name: Stability AI Image to Video API
   slug: stability-ai-image-to-video-api
-- description: Fill in masked regions of an image using AI-guided inpainting with text prompts to control what appears in the filled area.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Fill in masked regions of an image using AI-guided inpainting with text prompts to control what appears in the filled area.
   name: Stability AI Inpaint API
   slug: stability-ai-inpaint-api
-- description: Extend the boundaries of an image by generating new content that seamlessly continues the existing scene in any direction.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Extend the boundaries of an image by generating new content that seamlessly continues the existing scene in any direction.
   name: Stability AI Outpaint API
   slug: stability-ai-outpaint-api
-- description: Automatically detect and remove the background from an image, isolating the foreground subject.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Automatically detect and remove the background from an image, isolating the foreground subject.
   name: Stability AI Remove Background API
   slug: stability-ai-remove-background-api
-- description: Replace the background of an image and adjust lighting conditions using AI-powered scene understanding.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Replace the background of an image and adjust lighting conditions using AI-powered scene understanding.
   name: Stability AI Replace Background and Relight API
   slug: stability-ai-replace-background-and-relight-api
-- description: Find specific objects within an image and recolor them using text descriptions of the target object and desired color.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Find specific objects within an image and recolor them using text descriptions of the target object and desired color.
   name: Stability AI Search and Recolor API
   slug: stability-ai-search-and-recolor-api
-- description: Find and replace specific objects within an image using text descriptions of what to search for and what to replace it with.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Find and replace specific objects within an image using text descriptions of what to search for and what to replace it with.
   name: Stability AI Search and Replace API
   slug: stability-ai-search-and-replace-api
-- description: Generate images from hand-drawn sketches or line drawings, guided by a text prompt to fill in details, colors, and textures.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images from hand-drawn sketches or line drawings, guided by a text prompt to fill in details, colors, and textures.
   name: Stability AI Sketch API
   slug: stability-ai-sketch-api
-- description: Generate images guided by the structural composition of a reference image, preserving edges and layout while applying new content from a text prompt.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images guided by the structural composition of a reference image, preserving edges and layout while applying new content from a text prompt.
   name: Stability AI Structure API
   slug: stability-ai-structure-api
-- description: Generate images that adopt the visual style of a reference image while following a text prompt for content direction.
+- baseURL: https://api.stability.ai
+  baseurl_source: declared
+  description: Generate images that adopt the visual style of a reference image while following a text prompt for content direction.
   name: Stability AI Style API
   slug: stability-ai-style-api
 artifact_total: 117
@@ -498,7 +534,7 @@ score:
       marker_coverage: 0.0
       total: 18
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png
 security:

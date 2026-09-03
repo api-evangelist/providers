@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -44,37 +44,59 @@ agentic_access:
   summary_line: 82 operations · 39 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Download and manage workflow run artifacts
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Download and manage workflow run artifacts
   name: GitHub Actions Artifacts API
   slug: github-actions-artifacts-api
-- description: Manage workflow dependency caches
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage workflow dependency caches
   name: GitHub Actions Cache API
   slug: github-actions-cache-api
-- description: Access information about workflow jobs
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Access information about workflow jobs
   name: GitHub Actions Jobs API
   slug: github-actions-jobs-api
-- description: Manage OIDC subject claim customization
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage OIDC subject claim customization
   name: GitHub Actions OIDC API
   slug: github-actions-oidc-api
-- description: Control Actions enablement and permissions
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Control Actions enablement and permissions
   name: GitHub Actions Permissions API
   slug: github-actions-permissions-api
-- description: Manage encrypted secrets for Actions
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage encrypted secrets for Actions
   name: GitHub Actions Secrets API
   slug: github-actions-secrets-api
-- description: Manage runner groups for organizations
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage runner groups for organizations
   name: GitHub Actions Self-Hosted Runner Groups API
   slug: github-actions-self-hosted-runner-groups-api
-- description: Manage self-hosted runners for workflows
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage self-hosted runners for workflows
   name: GitHub Actions Self-Hosted Runners API
   slug: github-actions-self-hosted-runners-api
-- description: Create and manage workflow variables
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Create and manage workflow variables
   name: GitHub Actions Variables API
   slug: github-actions-variables-api
-- description: Manage and monitor workflow run executions
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage and monitor workflow run executions
   name: GitHub Actions Workflow Runs API
   slug: github-actions-workflow-runs-api
-- description: Manage workflow files and workflow runs
+- baseURL: https://api.github.com
+  baseurl_source: declared
+  description: Manage workflow files and workflow runs
   name: GitHub Actions Workflows API
   slug: github-actions-workflows-api
 arazzos:
@@ -825,10 +847,10 @@ score:
     mcp: first-party
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/screenshots/github-actions-2026-06-20T181837.png
 security:

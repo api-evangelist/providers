@@ -34,298 +34,492 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Action Log API from Lokki — 3 operation(s) for action log.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Action Log API from Lokki — 3 operation(s) for action log.
   name: Lokki Action Log API
   slug: lokki-action-log-api
-- description: The Admin API from Lokki — 70 operation(s) for admin.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Admin API from Lokki — 70 operation(s) for admin.
   name: Lokki Admin API
   slug: lokki-admin-api
-- description: The ahrefs API from Lokki — 1 operation(s) for ahrefs.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The ahrefs API from Lokki — 1 operation(s) for ahrefs.
   name: Lokki Ahrefs API
   slug: lokki-ahrefs-api
-- description: The Ancv API from Lokki — 3 operation(s) for ancv.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Ancv API from Lokki — 3 operation(s) for ancv.
   name: Lokki Ancv API
   slug: lokki-ancv-api
-- description: The Api Key API from Lokki — 5 operation(s) for api key.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Api Key API from Lokki — 5 operation(s) for api key.
   name: Lokki Api Key API
   slug: lokki-api-key-api
-- description: The Api Key V2 API from Lokki — 2 operation(s) for api key v2.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Api Key V2 API from Lokki — 2 operation(s) for api key v2.
   name: Lokki Api Key V2 API
   slug: lokki-api-key-v2-api
-- description: The Auth API from Lokki — 1 operation(s) for auth.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Auth API from Lokki — 1 operation(s) for auth.
   name: Lokki Auth API
   slug: lokki-auth-api
-- description: The Aws S3 API from Lokki — 2 operation(s) for aws s3.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Aws S3 API from Lokki — 2 operation(s) for aws s3.
   name: Lokki Aws S3 API
   slug: lokki-aws-s3-api
-- description: The Bookings API from Lokki — 10 operation(s) for bookings.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Bookings API from Lokki — 10 operation(s) for bookings.
   name: Lokki Bookings API
   slug: lokki-bookings-api
-- description: The Business Registry API from Lokki — 1 operation(s) for business registry.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Business Registry API from Lokki — 1 operation(s) for business registry.
   name: Lokki Business Registry API
   slug: lokki-business-registry-api
-- description: The Cart Suggestion API from Lokki — 4 operation(s) for cart suggestion.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Cart Suggestion API from Lokki — 4 operation(s) for cart suggestion.
   name: Lokki Cart Suggestion API
   slug: lokki-cart-suggestion-api
-- description: The Catalogue API from Lokki — 5 operation(s) for catalogue.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Catalogue API from Lokki — 5 operation(s) for catalogue.
   name: Lokki Catalogue API
   slug: lokki-catalogue-api
-- description: The Chaos API from Lokki — 6 operation(s) for chaos.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Chaos API from Lokki — 6 operation(s) for chaos.
   name: Lokki Chaos API
   slug: lokki-chaos-api
-- description: The Company API from Lokki — 104 operation(s) for company.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Company API from Lokki — 104 operation(s) for company.
   name: Lokki Company API
   slug: lokki-company-api
-- description: The Company Payout API from Lokki — 1 operation(s) for company payout.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Company Payout API from Lokki — 1 operation(s) for company payout.
   name: Lokki Company Payout API
   slug: lokki-company-payout-api
-- description: The Company Redirect API from Lokki — 1 operation(s) for company redirect.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Company Redirect API from Lokki — 1 operation(s) for company redirect.
   name: Lokki Company Redirect API
   slug: lokki-company-redirect-api
-- description: The Company Signatures API from Lokki — 1 operation(s) for company signatures.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Company Signatures API from Lokki — 1 operation(s) for company signatures.
   name: Lokki Company Signatures API
   slug: lokki-company-signatures-api
-- description: The Customer API from Lokki — 8 operation(s) for customer.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Customer API from Lokki — 8 operation(s) for customer.
   name: Lokki Customer API
   slug: lokki-customer-api
-- description: The Customer Model API from Lokki — 3 operation(s) for customer model.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Customer Model API from Lokki — 3 operation(s) for customer model.
   name: Lokki Customer Model API
   slug: lokki-customer-model-api
-- description: The Delivery API from Lokki — 13 operation(s) for delivery.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Delivery API from Lokki — 13 operation(s) for delivery.
   name: Lokki Delivery API
   slug: lokki-delivery-api
-- description: The Document API from Lokki — 4 operation(s) for document.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Document API from Lokki — 4 operation(s) for document.
   name: Lokki Document API
   slug: lokki-document-api
-- description: The Document Model API from Lokki — 3 operation(s) for document model.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Document Model API from Lokki — 3 operation(s) for document model.
   name: Lokki Document Model API
   slug: lokki-document-model-api
-- description: The Document State API from Lokki — 2 operation(s) for document state.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Document State API from Lokki — 2 operation(s) for document state.
   name: Lokki Document State API
   slug: lokki-document-state-api
-- description: The Editorial API from Lokki — 3 operation(s) for editorial.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Editorial API from Lokki — 3 operation(s) for editorial.
   name: Lokki Editorial API
   slug: lokki-editorial-api
-- description: The Email Template API from Lokki — 4 operation(s) for email template.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Email Template API from Lokki — 4 operation(s) for email template.
   name: Lokki Email Template API
   slug: lokki-email-template-api
-- description: The Employee API from Lokki — 7 operation(s) for employee.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Employee API from Lokki — 7 operation(s) for employee.
   name: Lokki Employee API
   slug: lokki-employee-api
-- description: The Export Csv API from Lokki — 2 operation(s) for export csv.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Export Csv API from Lokki — 2 operation(s) for export csv.
   name: Lokki Export Csv API
   slug: lokki-export-csv-api
-- description: The External API from Lokki — 7 operation(s) for external.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The External API from Lokki — 7 operation(s) for external.
   name: Lokki External API
   slug: lokki-external-api
-- description: The External Companies API from Lokki — 11 operation(s) for external companies.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The External Companies API from Lokki — 11 operation(s) for external companies.
   name: Lokki External Companies API
   slug: lokki-external-companies-api
-- description: The Fathom API from Lokki — 8 operation(s) for fathom.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Fathom API from Lokki — 8 operation(s) for fathom.
   name: Lokki Fathom API
   slug: lokki-fathom-api
-- description: The G8 Api API from Lokki — 2 operation(s) for g8 api.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The G8 Api API from Lokki — 2 operation(s) for g8 api.
   name: Lokki G8 API
   slug: lokki-g8-api-api
-- description: The Harvestr API from Lokki — 1 operation(s) for harvestr.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Harvestr API from Lokki — 1 operation(s) for harvestr.
   name: Lokki Harvestr API
   slug: lokki-harvestr-api
-- description: The Health API from Lokki — 1 operation(s) for health.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Health API from Lokki — 1 operation(s) for health.
   name: Lokki Health API
   slug: lokki-health-api
-- description: The Invoice API from Lokki — 2 operation(s) for invoice.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Invoice API from Lokki — 2 operation(s) for invoice.
   name: Lokki Invoice API
   slug: lokki-invoice-api
-- description: The Login API from Lokki — 22 operation(s) for login.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Login API from Lokki — 22 operation(s) for login.
   name: Lokki Login API
   slug: lokki-login-api
-- description: The Lokkit API from Lokki — 3 operation(s) for lokkit.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Lokkit API from Lokki — 3 operation(s) for lokkit.
   name: Lokki Lokkit API
   slug: lokki-lokkit-api
-- description: The Magic Schedule API from Lokki — 2 operation(s) for magic schedule.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Magic Schedule API from Lokki — 2 operation(s) for magic schedule.
   name: Lokki Magic Schedule API
   slug: lokki-magic-schedule-api
-- description: The Mail API from Lokki — 7 operation(s) for mail.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Mail API from Lokki — 7 operation(s) for mail.
   name: Lokki Mail API
   slug: lokki-mail-api
-- description: The Mail V2 API from Lokki — 1 operation(s) for mail v2.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Mail V2 API from Lokki — 1 operation(s) for mail v2.
   name: Lokki Mail V2 API
   slug: lokki-mail-v2-api
-- description: The Maps API from Lokki — 2 operation(s) for maps.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Maps API from Lokki — 2 operation(s) for maps.
   name: Lokki Maps API
   slug: lokki-maps-api
-- description: The Marketing API from Lokki — 3 operation(s) for marketing.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Marketing API from Lokki — 3 operation(s) for marketing.
   name: Lokki Marketing API
   slug: lokki-marketing-api
-- description: The Multi Order API from Lokki — 3 operation(s) for multi order.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Multi Order API from Lokki — 3 operation(s) for multi order.
   name: Lokki Multi Order API
   slug: lokki-multi-order-api
-- description: The Offline API from Lokki — 1 operation(s) for offline.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Offline API from Lokki — 1 operation(s) for offline.
   name: Lokki Offline API
   slug: lokki-offline-api
-- description: The On Boarding API from Lokki — 4 operation(s) for on boarding.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The On Boarding API from Lokki — 4 operation(s) for on boarding.
   name: Lokki On Boarding API
   slug: lokki-on-boarding-api
-- description: The Online Store API from Lokki — 34 operation(s) for online store.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Online Store API from Lokki — 34 operation(s) for online store.
   name: Lokki Online Store API
   slug: lokki-online-store-api
-- description: The Online Store Text API from Lokki — 1 operation(s) for online store text.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Online Store Text API from Lokki — 1 operation(s) for online store text.
   name: Lokki Online Store Text API
   slug: lokki-online-store-text-api
-- description: The Order API from Lokki — 48 operation(s) for order.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order API from Lokki — 48 operation(s) for order.
   name: Lokki Order API
   slug: lokki-order-api
-- description: The Order Deliveries API from Lokki — 1 operation(s) for order deliveries.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order Deliveries API from Lokki — 1 operation(s) for order deliveries.
   name: Lokki Order Deliveries API
   slug: lokki-order-deliveries-api
-- description: The Order Event API from Lokki — 54 operation(s) for order event.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order Event API from Lokki — 54 operation(s) for order event.
   name: Lokki Order Event API
   slug: lokki-order-event-api
-- description: The Order Lld API from Lokki — 36 operation(s) for order lld.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order Lld API from Lokki — 36 operation(s) for order lld.
   name: Lokki Order Lld API
   slug: lokki-order-lld-api
-- description: The Order Refusal API from Lokki — 1 operation(s) for order refusal.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order Refusal API from Lokki — 1 operation(s) for order refusal.
   name: Lokki Order Refusal API
   slug: lokki-order-refusal-api
-- description: The Order Waiting List API from Lokki — 2 operation(s) for order waiting list.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Order Waiting List API from Lokki — 2 operation(s) for order waiting list.
   name: Lokki Order Waiting List API
   slug: lokki-order-waiting-list-api
-- description: The Pack API from Lokki — 10 operation(s) for pack.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Pack API from Lokki — 10 operation(s) for pack.
   name: Lokki Pack API
   slug: lokki-pack-api
-- description: The Password Recovery API from Lokki — 2 operation(s) for password recovery.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Password Recovery API from Lokki — 2 operation(s) for password recovery.
   name: Lokki Password Recovery API
   slug: lokki-password-recovery-api
-- description: The Payment API from Lokki — 9 operation(s) for payment.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Payment API from Lokki — 9 operation(s) for payment.
   name: Lokki Payment API
   slug: lokki-payment-api
-- description: The Payment V2 API from Lokki — 17 operation(s) for payment v2.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Payment V2 API from Lokki — 17 operation(s) for payment v2.
   name: Lokki Payment V2 API
   slug: lokki-payment-v2-api
-- description: The Price Rules API from Lokki — 2 operation(s) for price rules.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Price Rules API from Lokki — 2 operation(s) for price rules.
   name: Lokki Price Rules API
   slug: lokki-price-rules-api
-- description: The Price Template API from Lokki — 3 operation(s) for price template.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Price Template API from Lokki — 3 operation(s) for price template.
   name: Lokki Price Template API
   slug: lokki-price-template-api
-- description: The Product Availability API from Lokki — 5 operation(s) for product availability.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Product Availability API from Lokki — 5 operation(s) for product availability.
   name: Lokki Product Availability API
   slug: lokki-product-availability-api
-- description: The Product History API from Lokki — 5 operation(s) for product history.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Product History API from Lokki — 5 operation(s) for product history.
   name: Lokki Product History API
   slug: lokki-product-history-api
-- description: The Product State Model API from Lokki — 2 operation(s) for product state model.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Product State Model API from Lokki — 2 operation(s) for product state model.
   name: Lokki Product State Model API
   slug: lokki-product-state-model-api
-- description: The Product Surveys API from Lokki — 2 operation(s) for product surveys.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Product Surveys API from Lokki — 2 operation(s) for product surveys.
   name: Lokki Product Surveys API
   slug: lokki-product-surveys-api
-- description: The Product Verticale Category API from Lokki — 8 operation(s) for product verticale category.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Product Verticale Category API from Lokki — 8 operation(s) for product verticale category.
   name: Lokki Product Verticale Category API
   slug: lokki-product-verticale-category-api
-- description: The Products API from Lokki — 34 operation(s) for products.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Products API from Lokki — 34 operation(s) for products.
   name: Lokki Products API
   slug: lokki-products-api
-- description: The Promo Code API from Lokki — 5 operation(s) for promo code.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Promo Code API from Lokki — 5 operation(s) for promo code.
   name: Lokki Promo Code API
   slug: lokki-promo-code-api
-- description: The Quote Request API from Lokki — 4 operation(s) for quote request.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Quote Request API from Lokki — 4 operation(s) for quote request.
   name: Lokki Quote Request API
   slug: lokki-quote-request-api
-- description: The Reconditioning API from Lokki — 11 operation(s) for reconditioning.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Reconditioning API from Lokki — 11 operation(s) for reconditioning.
   name: Lokki Reconditioning API
   slug: lokki-reconditioning-api
-- description: The Rental Place API from Lokki — 10 operation(s) for rental place.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Rental Place API from Lokki — 10 operation(s) for rental place.
   name: Lokki Rental Place API
   slug: lokki-rental-place-api
-- description: The Rental Place B2b API from Lokki — 7 operation(s) for rental place b2b.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Rental Place B2b API from Lokki — 7 operation(s) for rental place b2b.
   name: Lokki Rental Place B2b API
   slug: lokki-rental-place-b2b-api
-- description: The Rental Place Cart API from Lokki — 5 operation(s) for rental place cart.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Rental Place Cart API from Lokki — 5 operation(s) for rental place cart.
   name: Lokki Rental Place Cart API
   slug: lokki-rental-place-cart-api
-- description: The Rental Place User API from Lokki — 13 operation(s) for rental place user.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Rental Place User API from Lokki — 13 operation(s) for rental place user.
   name: Lokki Rental Place User API
   slug: lokki-rental-place-user-api
-- description: The Search Engine API from Lokki — 4 operation(s) for search engine.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Search Engine API from Lokki — 4 operation(s) for search engine.
   name: Lokki Search Engine API
   slug: lokki-search-engine-api
-- description: The Self Test API from Lokki — 2 operation(s) for self test.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Self Test API from Lokki — 2 operation(s) for self test.
   name: Lokki Self Test API
   slug: lokki-self-test-api
-- description: The Service API from Lokki — 11 operation(s) for service.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Service API from Lokki — 11 operation(s) for service.
   name: Lokki Service API
   slug: lokki-service-api
-- description: The Session Event API from Lokki — 20 operation(s) for session event.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Session Event API from Lokki — 20 operation(s) for session event.
   name: Lokki Session Event API
   slug: lokki-session-event-api
-- description: The Shifter Api API from Lokki — 2 operation(s) for shifter api.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Shifter Api API from Lokki — 2 operation(s) for shifter api.
   name: Lokki Shifter API
   slug: lokki-shifter-api-api
-- description: The Shop API from Lokki — 19 operation(s) for shop.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Shop API from Lokki — 19 operation(s) for shop.
   name: Lokki Shop API
   slug: lokki-shop-api
-- description: The Skiset API from Lokki — 3 operation(s) for skiset.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Skiset API from Lokki — 3 operation(s) for skiset.
   name: Lokki Skiset API
   slug: lokki-skiset-api
-- description: The Statistics V3 API from Lokki — 1 operation(s) for statistics v3.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Statistics V3 API from Lokki — 1 operation(s) for statistics v3.
   name: Lokki Statistics V3 API
   slug: lokki-statistics-v3-api
-- description: The Status Model API from Lokki — 4 operation(s) for status model.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Status Model API from Lokki — 4 operation(s) for status model.
   name: Lokki Status Model API
   slug: lokki-status-model-api
-- description: The Strapi API from Lokki — 11 operation(s) for strapi.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Strapi API from Lokki — 11 operation(s) for strapi.
   name: Lokki Strapi API
   slug: lokki-strapi-api
-- description: The Stripe Connect API from Lokki — 5 operation(s) for stripe connect.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Stripe Connect API from Lokki — 5 operation(s) for stripe connect.
   name: Lokki Stripe Connect API
   slug: lokki-stripe-connect-api
-- description: The Sub Products API from Lokki — 2 operation(s) for sub products.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Sub Products API from Lokki — 2 operation(s) for sub products.
   name: Lokki Sub Products API
   slug: lokki-sub-products-api
-- description: The Theme API from Lokki — 1 operation(s) for theme.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Theme API from Lokki — 1 operation(s) for theme.
   name: Lokki Theme API
   slug: lokki-theme-api
-- description: The Trustpilot API from Lokki — 1 operation(s) for trustpilot.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Trustpilot API from Lokki — 1 operation(s) for trustpilot.
   name: Lokki Trustpilot API
   slug: lokki-trustpilot-api
-- description: The Tulip V2 API from Lokki — 1 operation(s) for tulip v2.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Tulip V2 API from Lokki — 1 operation(s) for tulip v2.
   name: Lokki Tulip V2 API
   slug: lokki-tulip-v2-api
-- description: The Universe API from Lokki — 3 operation(s) for universe.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Universe API from Lokki — 3 operation(s) for universe.
   name: Lokki Universe API
   slug: lokki-universe-api
-- description: The User API from Lokki — 7 operation(s) for user.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The User API from Lokki — 7 operation(s) for user.
   name: Lokki User API
   slug: lokki-user-api
-- description: The Visibility API from Lokki — 12 operation(s) for visibility.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Visibility API from Lokki — 12 operation(s) for visibility.
   name: Lokki Visibility API
   slug: lokki-visibility-api
-- description: The Webhook API from Lokki — 1 operation(s) for webhook.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Webhook API from Lokki — 1 operation(s) for webhook.
   name: Lokki Webhook API
   slug: lokki-webhook-api
-- description: The Workshop API from Lokki — 11 operation(s) for workshop.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Workshop API from Lokki — 11 operation(s) for workshop.
   name: Lokki Workshop API
   slug: lokki-workshop-api
-- description: The Workshop Intervention API from Lokki — 2 operation(s) for workshop intervention.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Workshop Intervention API from Lokki — 2 operation(s) for workshop intervention.
   name: Lokki Workshop Intervention API
   slug: lokki-workshop-intervention-api
-- description: The Workshop Order API from Lokki — 5 operation(s) for workshop order.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Workshop Order API from Lokki — 5 operation(s) for workshop order.
   name: Lokki Workshop Order API
   slug: lokki-workshop-order-api
-- description: The Workshop Payment API from Lokki — 8 operation(s) for workshop payment.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Workshop Payment API from Lokki — 8 operation(s) for workshop payment.
   name: Lokki Workshop Payment API
   slug: lokki-workshop-payment-api
-- description: The Workshop Statistics API from Lokki — 1 operation(s) for workshop statistics.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Workshop Statistics API from Lokki — 1 operation(s) for workshop statistics.
   name: Lokki Workshop Statistics API
   slug: lokki-workshop-statistics-api
-- description: The Your Order API from Lokki — 9 operation(s) for your order.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Your Order API from Lokki — 9 operation(s) for your order.
   name: Lokki Your Order API
   slug: lokki-your-order-api
-- description: The Your Order Event API from Lokki — 8 operation(s) for your order event.
+- baseURL: https://prod.api.eu-west-3.lokki.rent
+  baseurl_source: declared
+  description: The Your Order Event API from Lokki — 8 operation(s) for your order event.
   name: Lokki Your Order Event API
   slug: lokki-your-order-event-api
 artifact_total: 102
@@ -496,11 +690,11 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 21
     catalog_gap: 73.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.7
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -510,7 +704,7 @@ score:
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 47.2
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -521,8 +715,9 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png
 security:
 - kind: authentication
   name: Lokki Authentication

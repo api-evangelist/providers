@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 77 operations · 46 acting
 api_count: 1
 apis:
-- description: The Access token API from WeTravel — 1 operation(s) for access token.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Access token API from WeTravel — 1 operation(s) for access token.
   name: WeTravel Access token API
   slug: wetravel-access-token-api
-- description: The Add-ons API from WeTravel — 2 operation(s) for add-ons.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Add-ons API from WeTravel — 2 operation(s) for add-ons.
   name: WeTravel Add-ons API
   slug: wetravel-add-ons-api
-- description: The Discounts API from WeTravel — 2 operation(s) for discounts.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Discounts API from WeTravel — 2 operation(s) for discounts.
   name: WeTravel Discounts API
   slug: wetravel-discounts-api
-- description: The Images API from WeTravel — 2 operation(s) for images.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Images API from WeTravel — 2 operation(s) for images.
   name: WeTravel Images API
   slug: wetravel-images-api
-- description: The Included items API from WeTravel — 2 operation(s) for included items.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Included items API from WeTravel — 2 operation(s) for included items.
   name: WeTravel Included items API
   slug: wetravel-included-items-api
-- description: The Leads API from WeTravel — 2 operation(s) for leads.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Leads API from WeTravel — 2 operation(s) for leads.
   name: WeTravel Leads API
   slug: wetravel-leads-api
-- description: The Not Included items API from WeTravel — 2 operation(s) for not included items.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Not Included items API from WeTravel — 2 operation(s) for not included items.
   name: WeTravel Not Included items API
   slug: wetravel-not-included-items-api
-- description: The Orders API from WeTravel — 7 operation(s) for orders.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Orders API from WeTravel — 7 operation(s) for orders.
   name: WeTravel Orders API
   slug: wetravel-orders-api
-- description: The Packages API from WeTravel — 2 operation(s) for packages.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Packages API from WeTravel — 2 operation(s) for packages.
   name: WeTravel Packages API
   slug: wetravel-packages-api
-- description: The Paragraphs API from WeTravel — 2 operation(s) for paragraphs.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Paragraphs API from WeTravel — 2 operation(s) for paragraphs.
   name: WeTravel Paragraphs API
   slug: wetravel-paragraphs-api
-- description: The Participant Information API from WeTravel — 2 operation(s) for participant information.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Participant Information API from WeTravel — 2 operation(s) for participant information.
   name: WeTravel Participant Information API
   slug: wetravel-participant-information-api
-- description: The Payment Links API from WeTravel — 3 operation(s) for payment links.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Payment Links API from WeTravel — 3 operation(s) for payment links.
   name: WeTravel Payment Links API
   slug: wetravel-payment-links-api
-- description: The Payment Plans API from WeTravel — 2 operation(s) for payment plans.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Payment Plans API from WeTravel — 2 operation(s) for payment plans.
   name: WeTravel Payment Plans API
   slug: wetravel-payment-plans-api
-- description: The Suppliers API from WeTravel — 2 operation(s) for suppliers.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Suppliers API from WeTravel — 2 operation(s) for suppliers.
   name: WeTravel Suppliers API
   slug: wetravel-suppliers-api
-- description: The Transactions API from WeTravel — 2 operation(s) for transactions.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Transactions API from WeTravel — 2 operation(s) for transactions.
   name: WeTravel Transactions API
   slug: wetravel-transactions-api
-- description: The Trip Overview API from WeTravel — 2 operation(s) for trip overview.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Trip Overview API from WeTravel — 2 operation(s) for trip overview.
   name: WeTravel Trip Overview API
   slug: wetravel-trip-overview-api
-- description: The Trips API from WeTravel — 3 operation(s) for trips.
+- baseURL: https://api.wetravel.com/v2
+  baseurl_source: declared
+  description: The Trips API from WeTravel — 3 operation(s) for trips.
   name: WeTravel Trips API
   slug: wetravel-trips-api
 artifact_total: 42
@@ -300,7 +334,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -310,7 +344,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 77.6
-  previous_composite: 43.4
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -328,7 +362,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/screenshots/wetravel-2026-08-17T082914.png
 security:

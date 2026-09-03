@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -47,37 +47,57 @@ apis:
 - description: Instacart Shopping Widgets are front-end web components that retailers can embed into their websites to add e-commerce functionalities powered by Instacart without interacting with any API directly. T
   name: Instacart Shopping Widgets
   slug: shopping-widgets
-- description: Endpoints for obtaining and managing OAuth 2.0 access tokens used to authenticate API requests.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for obtaining and managing OAuth 2.0 access tokens used to authenticate API requests.
   name: instacart Authentication API
   slug: instacart-authentication-api
-- description: Endpoints for shopper-customer communication including sending and retrieving chat messages.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for shopper-customer communication including sending and retrieving chat messages.
   name: instacart Chat API
   slug: instacart-chat-api
-- description: Endpoints for finding delivery stores, previewing time slots, reserving time slots, and creating delivery orders.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for finding delivery stores, previewing time slots, reserving time slots, and creating delivery orders.
   name: instacart Delivery API
   slug: instacart-delivery-api
-- description: Endpoints for updating item-level attributes such as pricing and availability at specific store locations. Items contain information that can vary from one store to another.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for updating item-level attributes such as pricing and availability at specific store locations. Items contain information that can vary from one store to another.
   name: instacart Items API
   slug: instacart-items-api
-- description: Endpoints for last mile delivery where items are pre-packed and only require delivery from the store to the customer.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for last mile delivery where items are pre-packed and only require delivery from the store to the customer.
   name: instacart Last Mile Delivery API
   slug: instacart-last-mile-delivery-api
-- description: Endpoints for retrieving order status, handling details, and item information after checkout.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for retrieving order status, handling details, and item information after checkout.
   name: instacart Orders API
   slug: instacart-orders-api
-- description: Endpoints for finding pickup stores, previewing time slots, reserving time slots, and creating pickup orders.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for finding pickup stores, previewing time slots, reserving time slots, and creating pickup orders.
   name: instacart Pickup API
   slug: instacart-pickup-api
-- description: Endpoints for creating and updating products in the retailer's catalog on Instacart. Products are the same across all of a retailer's stores.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for creating and updating products in the retailer's catalog on Instacart. Products are the same across all of a retailer's stores.
   name: instacart Products API
   slug: instacart-products-api
-- description: Endpoints for managing item replacements suggested by shoppers during order fulfillment.
+- baseURL: https://connect.instacart.com
+  baseurl_source: declared
+  description: Endpoints for managing item replacements suggested by shoppers during order fulfillment.
   name: instacart Replacements API
   slug: instacart-replacements-api
 - description: Instacart's first-party remote Model Context Protocol server. Production endpoint https://mcp.instacart.com/mcp over Streamable HTTP, authenticated with a Developer Platform API key as an Authorizatio
   name: Instacart Developer Platform MCP Server
   slug: instacart-mcp-server
-- description: The Rest API from instacart — 1 operation(s) for rest.
+- baseURL: https://dboktu48tbzl9.cloudfront.net/{retailer-name}/evergreen
+  baseurl_source: declared
+  description: The Rest API from instacart — 1 operation(s) for rest.
   name: instacart Rest API
   slug: instacart-rest-api
 artifact_total: 76
@@ -478,16 +498,16 @@ mcp_servers:
   name: Instacart Developer Platform MCP Server
   slug: instacart-developer-platform-mcp-server
 modified: '2026-08-27'
-name: instacart
+name: Instacart
 nav: Providers
 network: true
-overview: 'instacart publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Chat API, Delivery API, and 7 more. Tagged areas include Grocery, E-Commerce, Marketplace, Retail, and Logistics.
+overview: 'Instacart publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Chat API, Delivery API, and 7 more. Tagged areas include Grocery, E-Commerce, Marketplace, Retail, and Logistics.
 
 
-  The instacart catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Instacart catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  instacart''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 47 more developer resources.'
+  Instacart''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 47 more developer resources.'
 plans:
 - name: Instacart Plans Pricing
   plan_count: 3
@@ -501,7 +521,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: instacart API Rules
+  name: Instacart API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -511,7 +531,7 @@ rules:
   slug: instacart-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: instacart API Rules
+  name: Instacart API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -532,7 +552,7 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.9
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -542,7 +562,7 @@ score:
     discoverability: 81.5
     governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 65.0
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -554,7 +574,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:

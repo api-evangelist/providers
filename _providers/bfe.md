@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 3
 apis:
-- description: Go pprof debugging and profiling endpoints
+- baseURL: http://localhost:8421
+  baseurl_source: declared
+  description: Go pprof debugging and profiling endpoints
   name: BFE Debug API
   slug: bfe-debug-api
-- description: Monitor metrics and categories for observability
+- baseURL: http://localhost:8421
+  baseurl_source: declared
+  description: Monitor metrics and categories for observability
   name: BFE Monitor API
   slug: bfe-monitor-api
-- description: Configuration reload operations
+- baseURL: http://localhost:8421
+  baseurl_source: declared
+  description: Configuration reload operations
   name: BFE Reload API
   slug: bfe-reload-api
 artifact_total: 47
@@ -282,7 +288,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/screenshots/bfe-2026-06-20T173215.png
 security:

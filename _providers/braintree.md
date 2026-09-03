@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -56,34 +56,54 @@ apis:
 - description: The Braintree Android SDK provides a native library for integrating payment acceptance into Android applications. It supports Java and Kotlin and includes modules for card payments, PayPal, Venmo, Goo
   name: Braintree Android SDK
   slug: android-sdk
-- description: Braintree Webhooks deliver automated HTTP POST notifications to your server when specific events occur within the payment gateway. Supported event types include subscription status changes, transactio
+- baseURL: https://api.example.com
+  baseurl_source: declared
+  description: Braintree Webhooks deliver automated HTTP POST notifications to your server when specific events occur within the payment gateway. Supported event types include subscription status changes, transactio
   name: Braintree Webhooks
   slug: webhooks
-- description: Operations for retrieving add-on definitions that can be applied to subscriptions to increase their price.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for retrieving add-on definitions that can be applied to subscriptions to increase their price.
   name: braintree Add-Ons API
   slug: braintree-add-ons-api
-- description: Operations for generating client tokens used to initialize Braintree client SDKs on web and mobile.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for generating client tokens used to initialize Braintree client SDKs on web and mobile.
   name: braintree Client Tokens API
   slug: braintree-client-tokens-api
-- description: Operations for creating, retrieving, updating, and deleting customer records in the Braintree Vault.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting customer records in the Braintree Vault.
   name: braintree Customers API
   slug: braintree-customers-api
-- description: Operations for retrieving discount definitions that can be applied to subscriptions to reduce their price.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for retrieving discount definitions that can be applied to subscriptions to reduce their price.
   name: braintree Discounts API
   slug: braintree-discounts-api
-- description: Operations for retrieving and managing payment disputes and chargebacks.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for retrieving and managing payment disputes and chargebacks.
   name: braintree Disputes API
   slug: braintree-disputes-api
-- description: Operations for creating, retrieving, updating, and deleting vaulted payment methods associated with customers.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, and deleting vaulted payment methods associated with customers.
   name: braintree Payment Methods API
   slug: braintree-payment-methods-api
-- description: Operations for retrieving billing plan definitions configured in the Braintree Control Panel.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for retrieving billing plan definitions configured in the Braintree Control Panel.
   name: braintree Plans API
   slug: braintree-plans-api
-- description: Operations for creating, retrieving, updating, canceling, and retrying customer subscriptions to recurring billing plans.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for creating, retrieving, updating, canceling, and retrying customer subscriptions to recurring billing plans.
   name: braintree Subscriptions API
   slug: braintree-subscriptions-api
-- description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
+- baseURL: https://api.braintreegateway.com
+  baseurl_source: declared
+  description: Operations for creating, capturing, voiding, refunding, and retrieving payment transactions.
   name: braintree Transactions API
   slug: braintree-transactions-api
 artifact_total: 64
@@ -292,16 +312,16 @@ jsonld:
   slug: braintree-context
 layout: provider
 modified: '2026-05-19'
-name: braintree
+name: Braintree
 nav: Providers
 network: true
-overview: 'braintree publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 7 more.
+overview: 'Braintree publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Add-Ons API, Client Tokens API, and 7 more.
 
 
-  The braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Braintree catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  braintree''s developer surface includes sandbox, changelog, authentication, and 15 more developer resources.'
+  Braintree''s developer surface includes sandbox, changelog, authentication, and 15 more developer resources.'
 plans:
 - name: Braintree Plans Pricing
   plan_count: 6
@@ -315,7 +335,7 @@ rules:
 - effective_rule_count: 33
   extends:
   - spectral:asyncapi
-  name: braintree API Rules
+  name: Braintree API Rules
   rule_count: 6
   severity_counts:
     error: 1
@@ -325,7 +345,7 @@ rules:
   slug: braintree-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: braintree API Rules
+  name: Braintree API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -346,7 +366,7 @@ score:
     catalog_gap: 72.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -356,7 +376,7 @@ score:
     discoverability: 44.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -366,10 +386,10 @@ score:
       total: 9
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:

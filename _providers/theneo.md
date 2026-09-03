@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 11 operations · 6 acting
 api_count: 1
 apis:
-- description: Import API specifications into projects.
+- baseURL: https://api.theneo.io
+  baseurl_source: declared
+  description: Import API specifications into projects.
   name: Theneo Import API
   slug: theneo-import-api
-- description: Manage API documentation projects.
+- baseURL: https://api.theneo.io
+  baseurl_source: declared
+  description: Manage API documentation projects.
   name: Theneo Projects API
   slug: theneo-projects-api
-- description: Publish and preview documentation.
+- baseURL: https://api.theneo.io
+  baseurl_source: declared
+  description: Publish and preview documentation.
   name: Theneo Publishing API
   slug: theneo-publishing-api
-- description: Manage user access to projects.
+- baseURL: https://api.theneo.io
+  baseurl_source: declared
+  description: Manage user access to projects.
   name: Theneo Users API
   slug: theneo-users-api
-- description: Manage workspaces.
+- baseURL: https://api.theneo.io
+  baseurl_source: declared
+  description: Manage workspaces.
   name: Theneo Workspaces API
   slug: theneo-workspaces-api
 artifact_total: 36
@@ -278,7 +288,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:

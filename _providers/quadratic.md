@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: List and inspect team agent connections (third-party REST API bindings).
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: List and inspect team agent connections (third-party REST API bindings).
   name: Quadratic Agent Connections API
   slug: quadratic-agent-connections-api
-- description: Identity for the calling token.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Identity for the calling token.
   name: Quadratic Auth API
   slug: quadratic-auth-api
-- description: Read and write cell values, code, formulas, formats, borders, and merges.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Read and write cell values, code, formulas, formats, borders, and merges.
   name: Quadratic Cells API
   slug: quadratic-cells-api
-- description: Insert, delete, and resize columns and rows.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Insert, delete, and resize columns and rows.
   name: Quadratic Columns and rows API
   slug: quadratic-columns-and-rows-api
-- description: Manage conditional-format rules.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Manage conditional-format rules.
   name: Quadratic Conditional formats API
   slug: quadratic-conditional-formats-api
-- description: Fetch schemas from registered DB connections.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Fetch schemas from registered DB connections.
   name: Quadratic Connections API
   slug: quadratic-connections-api
-- description: Read-only exploration of file structure and contents.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Read-only exploration of file structure and contents.
   name: Quadratic Context, outline, search API
   slug: quadratic-context-outline-search-api
-- description: OpenAPI spec and Scalar viewer.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: OpenAPI spec and Scalar viewer.
   name: Quadratic Documentation API
   slug: quadratic-documentation-api
-- description: Create, list, fetch, and import files.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Create, list, fetch, and import files.
   name: Quadratic Files API
   slug: quadratic-files-api
-- description: Liveness probes.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Liveness probes.
   name: Quadratic Health API
   slug: quadratic-health-api
-- description: Undo, redo, and atomic batches of actions.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Undo, redo, and atomic batches of actions.
   name: Quadratic History API
   slug: quadratic-history-api
-- description: Add, rename, delete, reorder, and recolor sheets.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Add, rename, delete, reorder, and recolor sheets.
   name: Quadratic Sheets API
   slug: quadratic-sheets-api
-- description: Create, configure, and manage data tables.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Create, configure, and manage data tables.
   name: Quadratic Tables API
   slug: quadratic-tables-api
-- description: Manage cell validation rules.
+- baseURL: https://developer-api.quadratichq.com
+  baseurl_source: declared
+  description: Manage cell validation rules.
   name: Quadratic Validations API
   slug: quadratic-validations-api
 artifact_total: 33
@@ -280,7 +308,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadratic/refs/heads/main/screenshots/quadratic-2026-08-17T081429.png
 security:

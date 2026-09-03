@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -44,43 +44,69 @@ agentic_access:
   summary_line: 79 operations · 47 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Custom attribute management for datasets, checks, and columns
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Custom attribute management for datasets, checks, and columns
   name: Soda Attributes API
   slug: soda-co-attributes-api
-- description: Data quality check results and management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Data quality check results and management
   name: Soda Checks API
   slug: soda-co-checks-api
-- description: Data contract definition, publishing, and verification
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Data contract definition, publishing, and verification
   name: Soda Contracts API
   slug: soda-co-contracts-api
-- description: Dataset management, monitoring, and configuration
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Dataset management, monitoring, and configuration
   name: Soda Datasets API
   slug: soda-co-datasets-api
-- description: Data source connection and configuration management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Data source connection and configuration management
   name: Soda Datasources API
   slug: soda-co-datasources-api
-- description: Datasets discovered but not yet onboarded
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Datasets discovered but not yet onboarded
   name: Soda Discovered Datasets API
   slug: soda-co-discovered-datasets-api
-- description: Data quality incident tracking and management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Data quality incident tracking and management
   name: Soda Incidents API
   slug: soda-co-incidents-api
-- description: Alert and notification rule management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Alert and notification rule management
   name: Soda Notification Rules API
   slug: soda-co-notification-rules-api
-- description: Scan runner agent management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Scan runner agent management
   name: Soda Runners API
   slug: soda-co-runners-api
-- description: Data quality scan execution and monitoring
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Data quality scan execution and monitoring
   name: Soda Scans API
   slug: soda-co-scans-api
-- description: Encrypted secret storage for datasource credentials
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: Encrypted secret storage for datasource credentials
   name: Soda Secrets API
   slug: soda-co-secrets-api
-- description: User and user group management
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: User and user group management
   name: Soda Users API
   slug: soda-co-users-api
-- description: API connectivity and authentication testing
+- baseURL: https://cloud.soda.io
+  baseurl_source: declared
+  description: API connectivity and authentication testing
   name: Soda Utility API
   slug: soda-co-utility-api
 artifact_total: 43
@@ -282,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soda-co/refs/heads/main/screenshots/soda-co-2026-06-20T194129.png
 security:

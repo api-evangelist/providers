@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 12 operations · 6 acting
 api_count: 1
 apis:
-- description: Trigger actions on connected third-party services
+- baseURL: https://api.terapi.dev
+  baseurl_source: spec
+  description: Trigger actions on connected third-party services
   name: Terapi Actions API
   slug: terapi-actions-api
-- description: Manage authentication and token refresh for integrations
+- baseURL: https://api.terapi.dev
+  baseurl_source: spec
+  description: Manage authentication and token refresh for integrations
   name: Terapi Authentication API
   slug: terapi-authentication-api
-- description: Manage end-user connections to third-party integrations
+- baseURL: https://api.terapi.dev
+  baseurl_source: spec
+  description: Manage end-user connections to third-party integrations
   name: Terapi Connections API
   slug: terapi-connections-api
-- description: Manage available integration configurations
+- baseURL: https://api.terapi.dev
+  baseurl_source: spec
+  description: Manage available integration configurations
   name: Terapi Integrations API
   slug: terapi-integrations-api
-- description: Trigger and manage data synchronization between services
+- baseURL: https://api.terapi.dev
+  baseurl_source: spec
+  description: Trigger and manage data synchronization between services
   name: Terapi Sync API
   slug: terapi-sync-api
 artifact_total: 25
@@ -212,7 +222,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

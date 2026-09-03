@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 21 operations
 api_count: 1
 apis:
-- description: The Addresses API from Shovels — 4 operation(s) for addresses.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Addresses API from Shovels — 4 operation(s) for addresses.
   name: Shovels Addresses API
   slug: shovels-addresses-api
-- description: The Contractors API from Shovels — 5 operation(s) for contractors.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Contractors API from Shovels — 5 operation(s) for contractors.
   name: Shovels Contractors API
   slug: shovels-contractors-api
-- description: The Geography API from Shovels — 7 operation(s) for geography.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Geography API from Shovels — 7 operation(s) for geography.
   name: Shovels Geography API
   slug: shovels-geography-api
-- description: The Lists API from Shovels — 1 operation(s) for lists.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Lists API from Shovels — 1 operation(s) for lists.
   name: Shovels Lists API
   slug: shovels-lists-api
-- description: The Meta API from Shovels — 2 operation(s) for meta.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Meta API from Shovels — 2 operation(s) for meta.
   name: Shovels Meta API
   slug: shovels-meta-api
-- description: The Permits API from Shovels — 2 operation(s) for permits.
+- baseURL: https://api.shovels.ai/v2
+  baseurl_source: declared
+  description: The Permits API from Shovels — 2 operation(s) for permits.
   name: Shovels Permits API
   slug: shovels-permits-api
 artifact_total: 29
@@ -217,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/screenshots/shovels-2026-06-20T193844.png
 security:

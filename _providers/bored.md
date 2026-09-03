@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,19 +42,29 @@ agentic_access:
   summary_line: 14 operations · 1 acting
 api_count: 2
 apis:
-- description: Random and filtered activity suggestions.
+- baseURL: https://www.boredapi.com
+  baseurl_source: declared
+  description: Random and filtered activity suggestions.
   name: Bored API Activities API
   slug: bored-activities-api
-- description: Random or keyed factual snippets (v2 only).
+- baseURL: https://www.boredapi.com
+  baseurl_source: declared
+  description: Random or keyed factual snippets (v2 only).
   name: Bored API Facts API
   slug: bored-facts-api
-- description: Random or keyed riddles with difficulty filter (v2 only).
+- baseURL: https://www.boredapi.com
+  baseurl_source: declared
+  description: Random or keyed riddles with difficulty filter (v2 only).
   name: Bored API Riddles API
   slug: bored-riddles-api
-- description: Community-submitted content suggestions for review (v2 only).
+- baseURL: https://www.boredapi.com
+  baseurl_source: declared
+  description: Community-submitted content suggestions for review (v2 only).
   name: Bored API Suggestions API
   slug: bored-suggestions-api
-- description: Random or keyed website recommendations (v2 only).
+- baseURL: https://www.boredapi.com
+  baseurl_source: declared
+  description: Random or keyed website recommendations (v2 only).
   name: Bored API Websites API
   slug: bored-websites-api
 artifact_total: 53
@@ -287,7 +297,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -297,7 +307,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 31.8
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -312,7 +322,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bored/refs/heads/main/screenshots/bored-2026-06-20T173607.png
 security:

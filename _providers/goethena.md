@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Learner training campaign information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner training campaign information and operations.
   name: Goethena Learner Training Campaigns API
   slug: goethena-learner-training-campaigns-api
-- description: Learner training module information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner training module information and operations.
   name: Goethena Learner Training Modules API
   slug: goethena-learner-training-modules-api
-- description: Learner information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Learner information and operations.
   name: Goethena Learners API
   slug: goethena-learners-api
-- description: Training campaign information and operations.
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Training campaign information and operations.
   name: Goethena Training Campaigns API
   slug: goethena-training-campaigns-api
-- description: Webhooks are not enabled by default, please work with your sales representative to have them enabled if you need them. Once you have access, webhooks can be managed through the API. Currently, only th
+- baseURL: https://api.goethena.com
+  baseurl_source: declared
+  description: Webhooks are not enabled by default, please work with your sales representative to have them enabled if you need them. Once you have access, webhooks can be managed through the API. Currently, only th
   name: Goethena Webhooks API
   slug: goethena-webhooks-api
 artifact_total: 16
@@ -220,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -230,7 +240,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.7
+  previous_composite: 48.4
   provenance:
     conformance: derived
     contracts:
@@ -247,7 +257,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/screenshots/goethena-2026-07-25T220018.png
 security:

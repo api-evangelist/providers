@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 80 operations · 15 acting
 api_count: 1
 apis:
-- description: Legacy event ingestion (deprecated, use /track)
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Legacy event ingestion (deprecated, use /track)
   name: OpenPanel Event API
   slug: openpanel-event-api
-- description: Export data
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Export data
   name: OpenPanel Export API
   slug: openpanel-export-api
-- description: Import historical data
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Import historical data
   name: OpenPanel Import API
   slug: openpanel-import-api
-- description: Query analytics data
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Query analytics data
   name: OpenPanel Insights API
   slug: openpanel-insights-api
-- description: Manage projects and clients
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Manage projects and clients
   name: OpenPanel Manage API
   slug: openpanel-manage-api
-- description: Identify and update user profiles
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Identify and update user profiles
   name: OpenPanel Profile API
   slug: openpanel-profile-api
-- description: Track events and sessions
+- baseURL: https://api.openpanel.dev
+  baseurl_source: declared
+  description: Track events and sessions
   name: OpenPanel Track API
   slug: openpanel-track-api
 artifact_total: 22
@@ -194,7 +208,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpanel/refs/heads/main/screenshots/openpanel-2026-06-20T191030.png
 security:

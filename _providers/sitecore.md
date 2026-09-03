@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: The Sitecore XM Cloud Authoring and Management GraphQL API provides a single GraphQL endpoint and schema for managing Sitecore content programmatically. It supports creating, updating, and querying co
   name: Sitecore XM Cloud Authoring and Management GraphQL API
   slug: xm-cloud-authoring-management-graphql-api
-- description: The Sitecore CDP Stream API enables applications to send real-time behavioral and transactional events about users to the Sitecore Customer Data Platform. It is designed for high-throughput event inge
+- baseURL: https://api-engage-us.sitecorecloud.io
+  baseurl_source: declared
+  description: The Sitecore CDP Stream API enables applications to send real-time behavioral and transactional events about users to the Sitecore Customer Data Platform. It is designed for high-throughput event inge
   name: Sitecore CDP Stream API
   slug: cdp-stream-api
 - description: The Sitecore CDP Batch API supports uploading large volumes of guest data and offline order records into Sitecore Customer Data Platform. It is intended for bulk data migration, historical data ingest
@@ -59,88 +61,144 @@ apis:
 - description: The Sitecore Content Hub Admin API is a GraphQL API that provides access to administrative functions within a Content Hub tenant, accessible at the path /api/graphql/admin/v1 relative to the Content H
   name: Sitecore Content Hub Admin API
   slug: content-hub-admin-api
-- description: Endpoints for retrieving and querying audit log entries that track changes to entities and configuration within the Content Hub instance.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for retrieving and querying audit log entries that track changes to entities and configuration within the Content Hub instance.
   name: sitecore Audit API
   slug: sitecore-audit-api
-- description: Endpoints for obtaining access tokens used to authenticate API requests to Sitecore Discover.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for obtaining access tokens used to authenticate API requests to Sitecore Discover.
   name: sitecore Authentication API
   slug: sitecore-authentication-api
-- description: Endpoints for managing buyer organizations and their associated users, user groups, addresses, credit cards, spending accounts, cost centers, and approval rules.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing buyer organizations and their associated users, user groups, addresses, credit cards, spending accounts, cost centers, and approval rules.
   name: sitecore Buyers API
   slug: sitecore-buyers-api
-- description: Endpoints for creating, retrieving, updating, and deleting site collections within an XM Cloud tenant. Collections group related sites that share resources and organizational context.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting site collections within an XM Cloud tenant. Collections group related sites that share resources and organizational context.
   name: sitecore Collections API
   slug: sitecore-collections-api
-- description: Endpoints for creating, retrieving, updating, and testing connections to external systems used in personalization flows and decision models. Connections define authentication credentials and URL confi
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and testing connections to external systems used in personalization flows and decision models. Connections define authentication credentials and URL confi
   name: sitecore Connections API
   slug: sitecore-connections-api
-- description: Endpoints for managing decision models that power programmatic targeting and offer selection logic within Sitecore Personalize. Decision models contain variant configurations and deployment settings.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing decision models that power programmatic targeting and offer selection logic within Sitecore Personalize. Decision models contain variant configurations and deployment settings.
   name: sitecore Decision Models API
   slug: sitecore-decision-models-api
-- description: Endpoints for creating and managing download orders that package assets for delivery, supporting both single and batch asset downloads.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating and managing download orders that package assets for delivery, supporting both single and batch asset downloads.
   name: sitecore Download Orders API
   slug: sitecore-download-orders-api
-- description: Endpoints for performing CRUD operations on Content Hub entities including assets, taxonomy nodes, content items, and all other entity types managed within the platform.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for performing CRUD operations on Content Hub entities including assets, taxonomy nodes, content items, and all other entity types managed within the platform.
   name: sitecore Entities API
   slug: sitecore-entities-api
-- description: Endpoints for sending behavioral and interaction events from storefronts to Sitecore Discover. Events include clicks, purchases, and page views that improve recommendation relevance over time.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for sending behavioral and interaction events from storefronts to Sitecore Discover. Events include clicks, purchases, and page views that improve recommendation relevance over time.
   name: sitecore Events API
   slug: sitecore-events-api
-- description: Endpoints for creating, retrieving, and updating flow definitions that represent experiments, experiences, and personalization flows in Sitecore Personalize. Flows can be web-based, full-stack, or tri
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, and updating flow definitions that represent experiments, experiences, and personalization flows in Sitecore Personalize. Flows can be web-based, full-stack, or tri
   name: sitecore Flow Definitions API
   slug: sitecore-flow-definitions-api
-- description: Endpoints for managing custom key-value data extensions attached to guest profiles. Data extensions allow organizations to store additional structured information beyond the standard guest fields.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing custom key-value data extensions attached to guest profiles. Data extensions allow organizations to store additional structured information beyond the standard guest fields.
   name: sitecore Guest Data Extensions API
   slug: sitecore-guest-data-extensions-api
-- description: Endpoints for creating, retrieving, updating, and deleting guest profiles in Sitecore CDP. Guests represent the core customer entity storing personal, behavioral, and transactional data.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting guest profiles in Sitecore CDP. Guests represent the core customer entity storing personal, behavioral, and transactional data.
   name: sitecore Guests API
   slug: sitecore-guests-api
-- description: Endpoints for pushing real-time product catalog updates to Sitecore Discover without requiring a full feed re-index. Supports adding, updating, and removing products incrementally.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for pushing real-time product catalog updates to Sitecore Discover without requiring a full feed re-index. Supports adding, updating, and removing products incrementally.
   name: sitecore Incremental Feed API
   slug: sitecore-incremental-feed-api
-- description: Endpoints for managing background job targets including retrieval, creation, update, and deletion of job configurations.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing background job targets including retrieval, creation, update, and deletion of job configurations.
   name: sitecore Jobs API
   slug: sitecore-jobs-api
-- description: Endpoints for managing language availability at the tenant and site levels, including listing supported languages and adding or removing language options.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing language availability at the tenant and site levels, including listing supported languages and adding or removing language options.
   name: sitecore Languages API
   slug: sitecore-languages-api
-- description: Endpoints for managing individual line items within guest orders, including product references, quantities, and pricing information.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing individual line items within guest orders, including product references, quantities, and pricing information.
   name: sitecore Order Items API
   slug: sitecore-order-items-api
-- description: Endpoints for creating, retrieving, updating, and deleting order records associated with guests. Orders capture purchase transactions including line items, payments, and fulfillment data.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting order records associated with guests. Orders capture purchase transactions including line items, payments, and fulfillment data.
   name: sitecore Orders API
   slug: sitecore-orders-api
-- description: Endpoints for managing site pages including full CRUD operations, versioning, variant management, layout editing, field value updates, and publishing state verification.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing site pages including full CRUD operations, versioning, variant management, layout editing, field value updates, and publishing state verification.
   name: sitecore Pages API
   slug: sitecore-pages-api
-- description: Endpoints for creating, retrieving, updating, and deleting products within the OrderCloud catalog. Products support extended properties, variants, specs, and inventory tracking.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, retrieving, updating, and deleting products within the OrderCloud catalog. Products support extended properties, variants, specs, and inventory tracking.
   name: sitecore Products API
   slug: sitecore-products-api
-- description: Endpoints for creating and managing discount promotions and coupon codes that can be applied to orders at checkout.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating and managing discount promotions and coupon codes that can be applied to orders at checkout.
   name: sitecore Promotions API
   slug: sitecore-promotions-api
-- description: Endpoints for creating, monitoring, and managing publishing jobs that push content from XM Cloud authoring to the Experience Edge delivery layer.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for creating, monitoring, and managing publishing jobs that push content from XM Cloud authoring to the Experience Edge delivery layer.
   name: sitecore Publishing Jobs API
   slug: sitecore-publishing-jobs-api
-- description: Endpoints for fetching entities that match specific criteria using structured query expressions against entity properties and relations.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for fetching entities that match specific criteria using structured query expressions against entity properties and relations.
   name: sitecore Querying API
   slug: sitecore-querying-api
-- description: Endpoints for performing product and content search queries, retrieving ranked results, applying faceted filters, and fetching personalized product recommendations based on behavioral data.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for performing product and content search queries, retrieving ranked results, applying faceted filters, and fetching personalized product recommendations based on behavioral data.
   name: sitecore Search and Recommendations API
   slug: sitecore-search-and-recommendations-api
-- description: Endpoints for executing search queries against the Content Hub entity index, retrieving facet values, and managing search filters.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for executing search queries against the Content Hub entity index, retrieving facet values, and managing search filters.
   name: sitecore Search API
   slug: sitecore-search-api
-- description: Endpoints for managing entity selections across selection pools, allowing grouping of entities for bulk operations or editorial workflows.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing entity selections across selection pools, allowing grouping of entities for bulk operations or editorial workflows.
   name: sitecore Selections API
   slug: sitecore-selections-api
-- description: Endpoints for managing sites within site collections, including creation, duplication, renaming, deletion, sorting, and retrieving site hierarchies and rendering hosts.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing sites within site collections, including creation, duplication, renaming, deletion, sorting, and retrieving site hierarchies and rendering hosts.
   name: sitecore Sites API
   slug: sitecore-sites-api
-- description: Endpoints for managing web and decision templates used to define the visual and logic components of personalization experiences within flows.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for managing web and decision templates used to define the visual and logic components of personalization experiences within flows.
   name: sitecore Templates API
   slug: sitecore-templates-api
-- description: Endpoints for uploading digital assets into Content Hub, including creating upload requests, uploading binary content, and completing asset ingest.
+- baseURL: https://edge.sitecorecloud.io/api/graphql
+  baseurl_source: declared
+  description: Endpoints for uploading digital assets into Content Hub, including creating upload requests, uploading binary content, and completing asset ingest.
   name: sitecore Upload API
   slug: sitecore-upload-api
 artifact_total: 87
@@ -336,16 +394,16 @@ jsonld:
   slug: sitecore-context
 layout: provider
 modified: '2026-05-19'
-name: sitecore
+name: Sitecore
 nav: Providers
 network: true
-overview: 'sitecore publishes 29 APIs on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 26 more.
+overview: 'Sitecore publishes 29 APIs on the [APIs.io](https://apis.io/) network, including CDP Stream API, Audit API, Authentication API, and 26 more.
 
 
-  The sitecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Sitecore catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  sitecore''s developer surface includes authentication and 9 more developer resources.'
+  Sitecore''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Sitecore Plans Pricing
   plan_count: 1
@@ -359,7 +417,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: sitecore API Rules
+  name: Sitecore API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -369,7 +427,7 @@ rules:
   slug: sitecore-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: sitecore API Rules
+  name: Sitecore API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -380,7 +438,7 @@ rules:
 - effective_rule_count: 55
   extends:
   - spectral:oas
-  name: sitecore API Rules
+  name: Sitecore API Rules
   rule_count: 14
   severity_counts:
     error: 4
@@ -396,7 +454,7 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -406,7 +464,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -416,10 +474,10 @@ score:
       total: 28
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png
 security:

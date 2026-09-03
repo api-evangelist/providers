@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 6 acting
 api_count: 1
 apis:
-- description: List avatars/presenters and create custom Instant avatars.
+- baseURL: https://app.colossyan.com/api/v1
+  baseurl_source: declared
+  description: List avatars/presenters and create custom Instant avatars.
   name: Colossyan Avatars API
   slug: colossyan-avatars-api
-- description: Non-versioned, experimental endpoints subject to change.
+- baseURL: https://app.colossyan.com/api/v1
+  baseurl_source: declared
+  description: Non-versioned, experimental endpoints subject to change.
   name: Colossyan Experimental API
   slug: colossyan-experimental-api
-- description: Retrieve and delete completed videos.
+- baseURL: https://app.colossyan.com/api/v1
+  baseurl_source: declared
+  description: Retrieve and delete completed videos.
   name: Colossyan Generated Videos API
   slug: colossyan-generated-videos-api
-- description: Create and manage asynchronous video-generation jobs.
+- baseURL: https://app.colossyan.com/api/v1
+  baseurl_source: declared
+  description: Create and manage asynchronous video-generation jobs.
   name: Colossyan Video Generation API
   slug: colossyan-video-generation-api
-- description: List available AI voices.
+- baseURL: https://app.colossyan.com/api/v1
+  baseurl_source: declared
+  description: List available AI voices.
   name: Colossyan Voices API
   slug: colossyan-voices-api
 artifact_total: 19
@@ -183,7 +193,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/screenshots/colossyan-2026-07-25T210058.png
 security:

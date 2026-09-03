@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,58 +43,94 @@ agentic_access:
   summary_line: 59 operations
 api_count: 18
 apis:
-- description: Public, unauthenticated read access to the EnergyX blog and article archive at energyx.com/blog/ via the WordPress core REST API. Verified live at 69 published posts, filterable by category, author, d
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the EnergyX blog and article archive at energyx.com/blog/ via the WordPress core REST API. Verified live at 69 published posts, filterable by category, author, d
   name: EnergyX Posts API
   slug: energyx-posts-api
-- description: Public, unauthenticated read access to the static marketing, product, investor and policy pages of energyx.com — Technology, Lithium, Battery, Nuclear, Membranes, Projects, Sustainability, Careers, In
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the static marketing, product, investor and policy pages of energyx.com — Technology, Lithium, Battery, Nuclear, Membranes, Projects, Sustainability, Careers, In
   name: EnergyX Pages API
   slug: energyx-pages-api
-- description: Public, unauthenticated read access to the EnergyX leadership roster — executives, board members and advisors behind energyx.com/company/ — classified by the site-specific leadership-type taxonomy. Ve
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the EnergyX leadership roster — executives, board members and advisors behind energyx.com/company/ — classified by the site-specific leadership-type taxonomy. Ve
   name: EnergyX Leadership API
   slug: energyx-leadership-api
-- description: Public, unauthenticated read access to the EnergyX partner roster — the operators, institutions and research bodies EnergyX names as partners — classified by the site-specific partner-type taxonomy. V
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the EnergyX partner roster — the operators, institutions and research bodies EnergyX names as partners — classified by the site-specific partner-type taxonomy. V
   name: EnergyX Partners API
   slug: energyx-partners-api
-- description: Public, unauthenticated read access to the EnergyX video library behind energyx.com/videos/ — technology explainers, facility tours, investor updates and media appearances. Verified live at 61 publish
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the EnergyX video library behind energyx.com/videos/ — technology explainers, facility tours, investor updates and media appearances. Verified live at 61 publish
   name: EnergyX Videos API
   slug: energyx-videos-api
-- description: Public, unauthenticated read access to the EnergyX resource guides behind energyx.com/resources/ — long-form explainers on direct lithium extraction, brine chemistry, battery materials and the lithium
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the EnergyX resource guides behind energyx.com/resources/ — long-form explainers on direct lithium extraction, brine chemistry, battery materials and the lithium
   name: EnergyX Resource Guides API
   slug: energyx-resource-guides-api
-- description: Public, unauthenticated read access to the media library behind energyx.com — facility and laboratory photography, technology diagrams, leadership headshots and press assets, each with its generated s
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated read access to the media library behind energyx.com — facility and laboratory photography, technology diagrams, leadership headshots and press assets, each with its generated s
   name: EnergyX Media API
   slug: energyx-media-api
-- description: 'Public, unauthenticated read access to the eleven classification vocabularies behind energyx.com: post categories and tags, the site-specific leadership-type, position-area, position-location, partner'
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the eleven classification vocabularies behind energyx.com: post categories and tags, the site-specific leadership-type, position-area, position-location, partner'
   name: EnergyX Taxonomy API
   slug: energyx-taxonomy-api
-- description: Public, unauthenticated cross-content search over energyx.com — posts, pages, press releases, in-the-news coverage, leadership, job positions, partners, videos, resource guides and products — returnin
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated cross-content search over energyx.com — posts, pages, press releases, in-the-news coverage, leadership, job positions, partners, videos, resource guides and products — returnin
   name: EnergyX Search API
   slug: energyx-search-api
-- description: Public, unauthenticated discovery metadata for energyx.com — the self-describing route index (1,233 routes across 36 namespaces at capture), the 26 registered content types, the 13 registered taxonomi
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public, unauthenticated discovery metadata for energyx.com — the self-describing route index (1,233 routes across 36 namespaces at capture), the 26 registered content types, the 13 registered taxonomi
   name: EnergyX Discovery API
   slug: energyx-discovery-api
-- description: 'Public, unauthenticated read access to the EnergyX merchandise catalog behind energyx.com/shop/, exposed twice: through the WooCommerce Store API (wc/store/v1), which is the anonymous storefront contr'
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: 'Public, unauthenticated read access to the EnergyX merchandise catalog behind energyx.com/shop/, exposed twice: through the WooCommerce Store API (wc/store/v1), which is the anonymous storefront contr'
   name: EnergyX Store API
   slug: energyx-store-api
-- description: Public oEmbed 1.0 provider endpoint for energyx.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page, press release, video or product on the sit
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public oEmbed 1.0 provider endpoint for energyx.com URLs, returning embeddable rich metadata — title, author, thumbnail and iframe HTML — for any post, page, press release, video or product on the sit
   name: EnergyX oEmbed API
   slug: energyx-oembed-api
-- description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any energyx.com URL — a structured-data view of every page without scraping the HTML.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any energyx.com URL — a structured-data view of every page without scraping the HTML.
   name: EnergyX SEO Metadata API
   slug: energyx-seo-api
-- description: Third-party media coverage of EnergyX.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Third-party media coverage of EnergyX.
   name: EnergyX In The News API
   slug: energyx-in-the-news-api
-- description: Curated lithium and energy-transition industry news.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Curated lithium and energy-transition industry news.
   name: EnergyX Industry News API
   slug: energyx-industry-news-api
-- description: Open EnergyX roles, by function and location.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: Open EnergyX roles, by function and location.
   name: EnergyX Job Positions API
   slug: energyx-job-positions-api
-- description: First-party EnergyX press releases.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: First-party EnergyX press releases.
   name: EnergyX Press Releases API
   slug: energyx-press-releases-api
-- description: The product catalog as WordPress core content records.
+- baseURL: https://energyx.com/wp-json
+  baseurl_source: declared
+  description: The product catalog as WordPress core content records.
   name: EnergyX Products API
   slug: energyx-products-api
 artifact_total: 38
@@ -331,11 +367,11 @@ score:
   band: emerging
   composite: 19.5
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.4
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -345,7 +381,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 19.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -363,8 +399,9 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/energyx/refs/heads/main/screenshots/energyx-2026-09-02T145402.png
 security:
 - kind: authentication
   name: Energyx Authentication

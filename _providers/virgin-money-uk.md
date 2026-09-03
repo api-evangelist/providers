@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,22 +76,34 @@ apis:
 - description: OBIE Read/Write Account & Transaction Information (AIS) API for the Standalone brand family (personal credit cards and sort-code-08 current and savings accounts), documented at OBIE v3.1.1. FAPI OAuth
   name: Virgin Money UK Standalone Account and Transaction API (AIS)
   slug: standalone-account-transaction-api
-- description: Endpoint for getting ATM data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting ATM data
   name: Virgin Money UK ATM API
   slug: virgin-money-uk-atm-api
-- description: Endpoint for getting Business Current Account data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting Business Current Account data
   name: Virgin Money UK BCA API
   slug: virgin-money-uk-bca-api
-- description: Endpoint for getting Branch data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting Branch data
   name: Virgin Money UK Branch API
   slug: virgin-money-uk-branch-api
-- description: Endpoint for getting Commercial Credit Card data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting Commercial Credit Card data
   name: Virgin Money UK CCC API
   slug: virgin-money-uk-ccc-api
-- description: Endpoint for getting Personal Current Account data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting Personal Current Account data
   name: Virgin Money UK PCA API
   slug: virgin-money-uk-pca-api
-- description: Endpoint for getting Unsecured SME Loan data
+- baseURL: https://api-ib.cybservices.co.uk/ibapi/v2/banks/CB/open-banking
+  baseurl_source: declared
+  description: Endpoint for getting Unsecured SME Loan data
   name: Virgin Money UK SME API
   slug: virgin-money-uk-sme-api
 artifact_total: 23
@@ -227,7 +239,7 @@ score:
   band: developing
   composite: 47.8
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 17
     catalog_gap: 63.0
     catalog_max: 100.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -264,8 +276,9 @@ score:
     regime_id: banking_open_finance
     score: 78.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/virgin-money-uk/refs/heads/main/screenshots/virgin-money-uk-2026-09-02T170000.png
 security:
 - kind: authentication
   name: Virgin Money Uk Authentication

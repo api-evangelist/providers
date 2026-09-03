@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 93 operations · 40 acting
 api_count: 8
 apis:
-- description: Gross-to-net payroll adjustments — bonuses, deductions, one-time payments
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Gross-to-net payroll adjustments — bonuses, deductions, one-time payments
   name: Deel Adjustments API
   slug: deel-com-adjustments-api
-- description: Application lifecycle and pipeline stages
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Application lifecycle and pipeline stages
   name: Deel Applications API
   slug: deel-com-applications-api
-- description: Candidate records and resume attachments
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Candidate records and resume attachments
   name: Deel Candidates API
   slug: deel-com-candidates-api
-- description: Amend active contractor contracts
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Amend active contractor contracts
   name: Deel Contractor Amendments API
   slug: deel-com-contractor-amendments-api
-- description: Create and onboard IC, PAYG, milestone, and COR contracts
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Create and onboard IC, PAYG, milestone, and COR contracts
   name: Deel Contractor Hiring API
   slug: deel-com-contractor-hiring-api
-- description: IC and EOR contract list and detail
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: IC and EOR contract list and detail
   name: Deel Contracts API
   slug: deel-com-contracts-api
-- description: Custom fields on contracts and people
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Custom fields on contracts and people
   name: Deel Custom Fields API
   slug: deel-com-custom-fields-api
-- description: Device provisioning and equipment lifecycle
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Device provisioning and equipment lifecycle
   name: Deel Deel IT API
   slug: deel-com-deel-it-api
-- description: Amend active EOR contracts with structured approval flow
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Amend active EOR contracts with structured approval flow
   name: Deel EOR Amendments API
   slug: deel-com-eor-amendments-api
-- description: Country-specific benefit plans and worker enrollment
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Country-specific benefit plans and worker enrollment
   name: Deel EOR Benefits API
   slug: deel-com-eor-benefits-api
-- description: Employment cost calculator including salary, benefits, and Deel fees
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Employment cost calculator including salary, benefits, and Deel fees
   name: Deel EOR Cost Calculator API
   slug: deel-com-eor-cost-calculator-api
-- description: Hiring guides, contract creation, three-party quote signing
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Hiring guides, contract creation, three-party quote signing
   name: Deel EOR Hiring API
   slug: deel-com-eor-hiring-api
-- description: Terminate EOR contracts with cause and offboarding workflow
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Terminate EOR contracts with cause and offboarding workflow
   name: Deel EOR Terminations API
   slug: deel-com-eor-terminations-api
-- description: Worker-side accounts, banks, documents, payslips, compliance
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Worker-side accounts, banks, documents, payslips, compliance
   name: Deel EOR Worker Information API
   slug: deel-com-eor-worker-information-api
-- description: Payroll cycles and events for Global Payroll legal entities
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Payroll cycles and events for Global Payroll legal entities
   name: Deel Global Payroll API
   slug: deel-com-global-payroll-api
-- description: Global Payroll employee hiring
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Global Payroll employee hiring
   name: Deel GP Hiring API
   slug: deel-com-gp-hiring-api
-- description: Contractor invoicing and tax handling
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Contractor invoicing and tax handling
   name: Deel IC Invoicing Taxes API
   slug: deel-com-ic-invoicing-taxes-api
-- description: Visas, work permits, immigration case management
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Visas, work permits, immigration case management
   name: Deel Immigration API
   slug: deel-com-immigration-api
-- description: Add, update, delete, and review invoice line items
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Add, update, delete, and review invoice line items
   name: Deel Invoice Adjustments API
   slug: deel-com-invoice-adjustments-api
-- description: Job and job-posting management
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Job and job-posting management
   name: Deel Jobs API
   slug: deel-com-jobs-api
-- description: Client legal entities, industries
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Client legal entities, industries
   name: Deel Legal Entities API
   slug: deel-com-legal-entities-api
-- description: Countries, currencies, job titles, seniority levels, time-off types
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Countries, currencies, job titles, seniority levels, time-off types
   name: Deel Lookups API
   slug: deel-com-lookups-api
-- description: Generate single-use deep links into the Deel app
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Generate single-use deep links into the Deel app
   name: Deel Magic Link API
   slug: deel-com-magic-link-api
-- description: Manager directory for the organization
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Manager directory for the organization
   name: Deel Managers API
   slug: deel-com-managers-api
-- description: Milestone-based contract deliverables
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Milestone-based contract deliverables
   name: Deel Milestones API
   slug: deel-com-milestones-api
-- description: One-off payments outside the normal cycle
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: One-off payments outside the normal cycle
   name: Deel Off Cycle API
   slug: deel-com-off-cycle-api
-- description: Offer creation and acceptance
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Offer creation and acceptance
   name: Deel Offers API
   slug: deel-com-offers-api
-- description: Organization profile, child organizations, structure, departments, groups
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Organization profile, child organizations, structure, departments, groups
   name: Deel Organizations API
   slug: deel-com-organizations-api
-- description: Employee payslips
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Employee payslips
   name: Deel Payslips API
   slug: deel-com-payslips-api
-- description: US paystubs
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: US paystubs
   name: Deel Paystubs API
   slug: deel-com-paystubs-api
-- description: Unified directory across IC, EOR, and direct employees
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Unified directory across IC, EOR, and direct employees
   name: Deel People API
   slug: deel-com-people-api
-- description: Departments, locations, employment types, sources, tags, reasons
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Departments, locations, employment types, sources, tags, reasons
   name: Deel Reference Data API
   slug: deel-com-reference-data-api
-- description: SCIM 2.0 user provisioning per RFC 7643/7644
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: SCIM 2.0 user provisioning per RFC 7643/7644
   name: Deel SCIM API
   slug: deel-com-scim-api
-- description: KYC and AML background screenings
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: KYC and AML background screenings
   name: Deel Screenings API
   slug: deel-com-screenings-api
-- description: Time-off policies, requests, entitlements, events, work schedules
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Time-off policies, requests, entitlements, events, work schedules
   name: Deel Time Off API
   slug: deel-com-time-off-api
-- description: Time tracking shifts for Global Payroll employees
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Time tracking shifts for Global Payroll employees
   name: Deel Time Tracking API
   slug: deel-com-time-tracking-api
-- description: Submit, approve, and manage contractor timesheets
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Submit, approve, and manage contractor timesheets
   name: Deel Timesheets API
   slug: deel-com-timesheets-api
-- description: Discover available webhook event types
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Discover available webhook event types
   name: Deel Webhook Events API
   slug: deel-com-webhook-events-api
-- description: Create, list, update, and delete webhook subscriptions
+- baseURL: https://api.letsdeel.com/rest/v2
+  baseurl_source: declared
+  description: Create, list, update, and delete webhook subscriptions
   name: Deel Webhooks API
   slug: deel-com-webhooks-api
 artifact_total: 126
@@ -542,7 +620,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -552,7 +630,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 55.0
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     contracts:
@@ -561,7 +639,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

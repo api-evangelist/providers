@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,10 +49,14 @@ apis:
 - description: 'CISA publishes Cybersecurity Advisories (CSAs), Industrial Control Systems Advisories (ICSAs), and Common Security Advisory Framework (CSAF) JSON documents describing tactics, techniques, indicators, '
   name: CISA Cybersecurity Advisories
   slug: advisories
-- description: Known Exploited Vulnerabilities catalog feed
+- baseURL: https://www.cisa.gov
+  baseurl_source: declared
+  description: Known Exploited Vulnerabilities catalog feed
   name: Cybersecurity and Infrastructure Security Agency KEV API
   slug: cybersecurity-and-infrastructure-security-agency-kev-api
-- description: JSON Schema for the KEV catalog
+- baseURL: https://www.cisa.gov
+  baseurl_source: declared
+  description: JSON Schema for the KEV catalog
   name: Cybersecurity and Infrastructure Security Agency Schema API
   slug: cybersecurity-and-infrastructure-security-agency-schema-api
 artifact_total: 18
@@ -242,7 +246,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:

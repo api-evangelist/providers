@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,109 +44,179 @@ agentic_access:
   summary_line: 70 operations · 27 acting
 api_count: 1
 apis:
-- description: Transfer accounts between entities.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Transfer accounts between entities.
   name: Upvest Account Transfers API
   slug: upvest-account-transfers-api
-- description: Investment accounts that hold positions and track balances for users.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Investment accounts that hold positions and track balances for users.
   name: Upvest Accounts API
   slug: upvest-accounts-api
-- description: OAuth 2.0 token management for API access using client credentials flow.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: OAuth 2.0 token management for API access using client credentials flow.
   name: Upvest Authentication API
   slug: upvest-authentication-api
-- description: View cash balance information for accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: View cash balance information for accounts.
   name: Upvest Cash Balances API
   slug: upvest-cash-balances-api
-- description: View and manage corporate action events on held securities.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: View and manage corporate action events on held securities.
   name: Upvest Corporate Actions API
   slug: upvest-corporate-actions-api
-- description: Manage direct debit funding operations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage direct debit funding operations.
   name: Upvest Direct Debits API
   slug: upvest-direct-debits-api
-- description: Track order execution details and fills.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Track order execution details and fills.
   name: Upvest Executions API
   slug: upvest-executions-api
-- description: Configure fee structures and schedules.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Configure fee structures and schedules.
   name: Upvest Fee Configurations API
   slug: upvest-fee-configurations-api
-- description: Track and manage fee charges on accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Track and manage fee charges on accounts.
   name: Upvest Fees API
   slug: upvest-fees-api
-- description: Access and download generated files such as reports and statements.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Access and download generated files such as reports and statements.
   name: Upvest Files API
   slug: upvest-files-api
-- description: Retrieve real-time and historical price data for instruments.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Retrieve real-time and historical price data for instruments.
   name: Upvest Instrument Prices API
   slug: upvest-instrument-prices-api
-- description: Query available financial instruments and their metadata.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Query available financial instruments and their metadata.
   name: Upvest Instruments API
   slug: upvest-instruments-api
-- description: Manage full or partial account liquidations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage full or partial account liquidations.
   name: Upvest Liquidations API
   slug: upvest-liquidations-api
-- description: Manage direct debit mandates for accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage direct debit mandates for accounts.
   name: Upvest Mandates API
   slug: upvest-mandates-api
-- description: Cancel pending orders before execution.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Cancel pending orders before execution.
   name: Upvest Order Cancellations API
   slug: upvest-order-cancellations-api
-- description: Place, manage, and track buy and sell orders for instruments.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Place, manage, and track buy and sell orders for instruments.
   name: Upvest Orders API
   slug: upvest-orders-api
-- description: Define and update target allocations within portfolios.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Define and update target allocations within portfolios.
   name: Upvest Portfolio Allocations API
   slug: upvest-portfolio-allocations-api
-- description: Place orders against portfolio allocations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Place orders against portfolio allocations.
   name: Upvest Portfolio Orders API
   slug: upvest-portfolio-orders-api
-- description: Create and manage portfolios with custom asset allocations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Create and manage portfolios with custom asset allocations.
   name: Upvest Portfolios API
   slug: upvest-portfolios-api
-- description: Trigger and track portfolio rebalancing operations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Trigger and track portfolio rebalancing operations.
   name: Upvest Portfolios Rebalancing API
   slug: upvest-portfolios-rebalancing-api
-- description: View current holdings and position details for accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: View current holdings and position details for accounts.
   name: Upvest Positions API
   slug: upvest-positions-api
-- description: Manage reference bank accounts linked to investment accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage reference bank accounts linked to investment accounts.
   name: Upvest Reference Accounts API
   slug: upvest-reference-accounts-api
-- description: Generate and retrieve user-facing investment reports and statements.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Generate and retrieve user-facing investment reports and statements.
   name: Upvest Reports API
   slug: upvest-reports-api
-- description: Calculate account-level investment returns.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Calculate account-level investment returns.
   name: Upvest Returns API
   slug: upvest-returns-api
-- description: Configure automated recurring investments into portfolios or instruments.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Configure automated recurring investments into portfolios or instruments.
   name: Upvest Savings Plans API
   slug: upvest-savings-plans-api
-- description: Transfer securities between accounts or providers.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Transfer securities between accounts or providers.
   name: Upvest Securities Transfers API
   slug: upvest-securities-transfers-api
-- description: Manage tax residency information for users.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage tax residency information for users.
   name: Upvest Tax Residencies API
   slug: upvest-tax-residencies-api
-- description: View transaction history for accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: View transaction history for accounts.
   name: Upvest Transactions API
   slug: upvest-transactions-api
-- description: Access treasury-level reporting for institutional oversight.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Access treasury-level reporting for institutional oversight.
   name: Upvest Treasury Reports API
   slug: upvest-treasury-reports-api
-- description: Compliance and verification checks on users.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Compliance and verification checks on users.
   name: Upvest User Checks API
   slug: upvest-user-checks-api
-- description: Manage external identifiers associated with users.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage external identifiers associated with users.
   name: Upvest User Identifiers API
   slug: upvest-user-identifiers-api
-- description: Manage end users including onboarding, identity verification, and profile management.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Manage end users including onboarding, identity verification, and profile management.
   name: Upvest Users API
   slug: upvest-users-api
-- description: Retrieve account and position valuations.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Retrieve account and position valuations.
   name: Upvest Valuations API
   slug: upvest-valuations-api
-- description: Register, update, and manage webhook subscriptions for event notifications.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Register, update, and manage webhook subscriptions for event notifications.
   name: Upvest Webhook Subscriptions API
   slug: upvest-webhook-subscriptions-api
-- description: Process cash withdrawals from investment accounts.
+- baseURL: https://api.upvest.co
+  baseurl_source: declared
+  description: Process cash withdrawals from investment accounts.
   name: Upvest Withdrawals API
   slug: upvest-withdrawals-api
 artifact_total: 313
@@ -1114,7 +1184,7 @@ score:
     catalog_gap: 41.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -1127,7 +1197,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 57.0
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1142,7 +1212,7 @@ score:
     regime_id: securities_market_data
     score: 70.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

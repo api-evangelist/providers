@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -44,67 +44,109 @@ agentic_access:
   summary_line: 68 operations · 35 acting
 api_count: 6
 apis:
-- description: Speech recognition, audio classification, and text-to-speech tasks
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Speech recognition, audio classification, and text-to-speech tasks
   name: Hugging Face Audio API
   slug: hugging-face-audio-api
-- description: OpenAI-compatible chat completion endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion endpoints
   name: Hugging Face Chat API
   slug: hugging-face-chat-api
-- description: OpenAI-compatible chat completion endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: OpenAI-compatible chat completion endpoints
   name: Hugging Face Chat Completions API
   slug: hugging-face-chat-completions-api
-- description: Image classification, object detection, and segmentation tasks
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Image classification, object detection, and segmentation tasks
   name: Hugging Face Computer Vision API
   slug: hugging-face-computer-vision-api
-- description: Row-level data access and preview endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Row-level data access and preview endpoints
   name: Hugging Face Data Access API
   slug: hugging-face-data-access-api
-- description: Dataset validity and structure endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Dataset validity and structure endpoints
   name: Hugging Face Dataset Info API
   slug: hugging-face-dataset-info-api
-- description: Operations for managing and querying datasets on the Hub
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Operations for managing and querying datasets on the Hub
   name: Hugging Face Datasets API
   slug: hugging-face-datasets-api
-- description: Text embedding endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Text embedding endpoints
   name: Hugging Face Embeddings API
   slug: hugging-face-embeddings-api
-- description: Manage dedicated inference endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Manage dedicated inference endpoints
   name: Hugging Face Endpoints API
   slug: hugging-face-endpoints-api
-- description: Parquet files, size, statistics, and metadata
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Parquet files, size, statistics, and metadata
   name: Hugging Face Files & Metadata API
   slug: hugging-face-files-metadata-api
-- description: Text-to-image generation
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Text-to-image generation
   name: Hugging Face Image Generation API
   slug: hugging-face-image-generation-api
-- description: Server and model information
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Server and model information
   name: Hugging Face Info API
   slug: hugging-face-info-api
-- description: Operations for managing and querying models on the Hub
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Operations for managing and querying models on the Hub
   name: Hugging Face Models API
   slug: hugging-face-models-api
-- description: Tasks involving multiple modalities
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Tasks involving multiple modalities
   name: Hugging Face Multimodal API
   slug: hugging-face-multimodal-api
-- description: NLP tasks including text generation, classification, and translation
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: NLP tasks including text generation, classification, and translation
   name: Hugging Face Natural Language Processing API
   slug: hugging-face-natural-language-processing-api
-- description: Available cloud providers and hardware
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Available cloud providers and hardware
   name: Hugging Face Providers API
   slug: hugging-face-providers-api
-- description: General repository management operations
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: General repository management operations
   name: Hugging Face Repos API
   slug: hugging-face-repos-api
-- description: Search and filter dataset contents
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Search and filter dataset contents
   name: Hugging Face Search & Filter API
   slug: hugging-face-search-filter-api
-- description: Operations for managing and querying Spaces on the Hub
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Operations for managing and querying Spaces on the Hub
   name: Hugging Face Spaces API
   slug: hugging-face-spaces-api
-- description: Text generation endpoints
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: Text generation endpoints
   name: Hugging Face Text Generation API
   slug: hugging-face-text-generation-api
-- description: User account and organization management
+- baseURL: https://api-inference.huggingface.co
+  baseurl_source: declared
+  description: User account and organization management
   name: Hugging Face Users API
   slug: hugging-face-users-api
 arazzos:
@@ -1644,10 +1686,10 @@ score:
       total: 21
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:

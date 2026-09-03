@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: The Processes API from Google Apps Script — 1 operation(s) for processes.
+- baseURL: https://script.googleapis.com
+  baseurl_source: declared
+  description: The Processes API from Google Apps Script — 1 operation(s) for processes.
   name: Google Apps Script Processes API
   slug: google-apps-script-processes-api
-- description: The processes:listScriptProcesses API from Google Apps Script — 1 operation(s) for processes:listscriptprocesses.
+- baseURL: https://script.googleapis.com
+  baseurl_source: declared
+  description: The processes:listScriptProcesses API from Google Apps Script — 1 operation(s) for processes:listscriptprocesses.
   name: Google Apps Script processes:listScriptProcesses API
   slug: google-apps-script-processes-listscriptprocesses-api
-- description: The Projects API from Google Apps Script — 8 operation(s) for projects.
+- baseURL: https://script.googleapis.com
+  baseurl_source: declared
+  description: The Projects API from Google Apps Script — 8 operation(s) for projects.
   name: Google Apps Script Projects API
   slug: google-apps-script-projects-api
-- description: The Scripts API from Google Apps Script — 1 operation(s) for scripts.
+- baseURL: https://script.googleapis.com
+  baseurl_source: declared
+  description: The Scripts API from Google Apps Script — 1 operation(s) for scripts.
   name: Google Apps Script Scripts API
   slug: google-apps-script-scripts-api
 artifact_total: 80
@@ -364,7 +372,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,19 +58,29 @@ apis:
 - description: The Heap Add Account Properties API allows developers to attach custom properties to account-level profiles from server-side applications. This is used for B2B analytics scenarios where users belong t
   name: Heap Add Account Properties API
   slug: add-account-properties-api
-- description: The Add Account Properties API from Heap — 1 operation(s) for add account properties.
+- baseURL: https://heapanalytics.com
+  baseurl_source: spec
+  description: The Add Account Properties API from Heap — 1 operation(s) for add account properties.
   name: Heap Add Account Properties API
   slug: heap-add-account-properties-api
-- description: The Add User Properties API from Heap — 1 operation(s) for add user properties.
+- baseURL: https://heapanalytics.com
+  baseurl_source: spec
+  description: The Add User Properties API from Heap — 1 operation(s) for add user properties.
   name: Heap Add User Properties API
   slug: heap-add-user-properties-api
-- description: The Identify API from Heap — 1 operation(s) for identify.
+- baseURL: https://heapanalytics.com
+  baseurl_source: spec
+  description: The Identify API from Heap — 1 operation(s) for identify.
   name: Heap Identify API
   slug: heap-identify-api
-- description: The Track API from Heap — 1 operation(s) for track.
+- baseURL: https://heapanalytics.com
+  baseurl_source: spec
+  description: The Track API from Heap — 1 operation(s) for track.
   name: Heap Track API
   slug: heap-track-api
-- description: 'Partner-registered webhook endpoints invoked by Heap. The only documented action type is `segment.users.sync`, which delivers delta adds/removes for a Heap behavioral segment. Signature verification: '
+- baseURL: https://partner.example.com
+  baseurl_source: spec
+  description: 'Partner-registered webhook endpoints invoked by Heap. The only documented action type is `segment.users.sync`, which delivers delta adds/removes for a Heap behavioral segment. Signature verification: '
   name: Heap Webhooks API
   slug: heap-webhooks-api
 artifact_total: 40
@@ -222,7 +232,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -232,7 +242,7 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -241,7 +251,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/screenshots/heap-2026-06-20T182602.png
 security:

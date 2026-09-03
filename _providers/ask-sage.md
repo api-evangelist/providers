@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 6
@@ -43,100 +43,164 @@ agentic_access:
   summary_line: 219 operations · 188 acting · 6 human-in-the-loop
 api_count: 2
 apis:
-- description: Admin operations for organization management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Admin operations for organization management
   name: Ask Sage Admin API
   slug: ask-sage-admin-api
-- description: Agent builder workflow and agent management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Agent builder workflow and agent management
   name: Ask Sage Agent Builder API
   slug: ask-sage-agent-builder-api
-- description: Token allocation and distribution policies
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Token allocation and distribution policies
   name: Ask Sage Allocation API
   slug: ask-sage-allocation-api
-- description: API key operations
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: API key operations
   name: Ask Sage API Key Management API
   slug: ask-sage-api-key-management-api
-- description: Audio processing (TTS/STT)
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Audio processing (TTS/STT)
   name: Ask Sage Audio API
   slug: ask-sage-audio-api
-- description: User authentication and authorization
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: User authentication and authorization
   name: Ask Sage Authentication API
   slug: ask-sage-authentication-api
-- description: Chat session operations
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Chat session operations
   name: Ask Sage Chat Management API
   slug: ask-sage-chat-management-api
-- description: Text generation and completions
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Text generation and completions
   name: Ask Sage Completions API
   slug: ask-sage-completions-api
-- description: System configuration endpoints
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: System configuration endpoints
   name: Ask Sage Configuration API
   slug: ask-sage-configuration-api
-- description: Dataset operations and permissions
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Dataset operations and permissions
   name: Ask Sage Dataset Management API
   slug: ask-sage-dataset-management-api
-- description: Knowledge dataset management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Knowledge dataset management
   name: Ask Sage Datasets API
   slug: ask-sage-datasets-api
-- description: Deep agent operations
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Deep agent operations
   name: Ask Sage Deep Agent API
   slug: ask-sage-deep-agent-api
-- description: The Execute Agent API from Ask Sage — 1 operation(s) for execute agent.
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: The Execute Agent API from Ask Sage — 1 operation(s) for execute agent.
   name: Ask Sage Execute Agent API
   slug: ask-sage-execute-agent-api
-- description: User feedback operations
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: User feedback operations
   name: Ask Sage Feedback API
   slug: ask-sage-feedback-api
-- description: File processing and analysis
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: File processing and analysis
   name: Ask Sage Files API
   slug: ask-sage-files-api
-- description: The List Agents API from Ask Sage — 1 operation(s) for list agents.
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: The List Agents API from Ask Sage — 1 operation(s) for list agents.
   name: Ask Sage List Agents API
   slug: ask-sage-list-agents-api
-- description: Model Context Protocol server management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Model Context Protocol server management
   name: Ask Sage MCP Servers API
   slug: ask-sage-mcp-servers-api
-- description: Memo management within workbooks
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Memo management within workbooks
   name: Ask Sage Memos API
   slug: ask-sage-memos-api
-- description: AI model management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: AI model management
   name: Ask Sage Models API
   slug: ask-sage-models-api
-- description: Plugin execution and management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Plugin execution and management
   name: Ask Sage Plugins API
   slug: ask-sage-plugins-api
-- description: Source management within workbooks
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Source management within workbooks
   name: Ask Sage Sources API
   slug: ask-sage-sources-api
-- description: Superadmin system operations
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Superadmin system operations
   name: Ask Sage Superadmin API
   slug: ask-sage-superadmin-api
-- description: System utilities and health checks
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: System utilities and health checks
   name: Ask Sage System API
   slug: ask-sage-system-api
-- description: Tabular data ingestion and querying
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Tabular data ingestion and querying
   name: Ask Sage Tabular Data API
   slug: ask-sage-tabular-data-api
-- description: Token request and approval workflow
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Token request and approval workflow
   name: Ask Sage Token Requests API
   slug: ask-sage-token-requests-api
-- description: Model training and content ingestion
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Model training and content ingestion
   name: Ask Sage Training API
   slug: ask-sage-training-api
-- description: Token usage tracking
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Token usage tracking
   name: Ask Sage Usage API
   slug: ask-sage-usage-api
-- description: User data and logs
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: User data and logs
   name: Ask Sage User Information API
   slug: ask-sage-user-information-api
-- description: User profile and settings management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: User profile and settings management
   name: Ask Sage User Management API
   slug: ask-sage-user-management-api
-- description: Utility endpoints
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Utility endpoints
   name: Ask Sage Utilities API
   slug: ask-sage-utilities-api
-- description: Widget/bot management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Widget/bot management
   name: Ask Sage Widgets API
   slug: ask-sage-widgets-api
-- description: Workbook management
+- baseURL: https://api.asksage.ai/server
+  baseurl_source: declared
+  description: Workbook management
   name: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
 artifact_total: 70
@@ -418,7 +482,7 @@ score:
     regime_id: government
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/screenshots/ask-sage-2026-07-25T201421.png
 security:

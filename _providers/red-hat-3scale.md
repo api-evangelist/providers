@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -50,43 +50,69 @@ apis:
 - description: The 3scale Toolbox is a command-line interface for automating 3scale configuration tasks. It wraps the 3scale Admin REST API to support copying APIs between tenants, promoting configurations between s
   name: Red Hat 3scale Toolbox CLI
   slug: toolbox-cli
-- description: Manage developer accounts in the 3scale developer portal
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Manage developer accounts in the 3scale developer portal
   name: Red Hat 3scale Accounts API
   slug: red-hat-3scale-accounts-api
-- description: Manage applications and their API keys and credentials
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Manage applications and their API keys and credentials
   name: Red Hat 3scale Applications API
   slug: red-hat-3scale-applications-api
-- description: Authorize API calls and check access permissions
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Authorize API calls and check access permissions
   name: Red Hat 3scale Authorization API
   slug: red-hat-3scale-authorization-api
-- description: Retrieve and update APIcast gateway configuration
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Retrieve and update APIcast gateway configuration
   name: Red Hat 3scale Configuration API
   slug: red-hat-3scale-configuration-api
-- description: Inspect and manage DNS cache state
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Inspect and manage DNS cache state
   name: Red Hat 3scale DNS API
   slug: red-hat-3scale-dns-api
-- description: Health check and liveness/readiness probes
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Health check and liveness/readiness probes
   name: Red Hat 3scale Health API
   slug: red-hat-3scale-health-api
-- description: Bootstrap and initialization endpoints
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Bootstrap and initialization endpoints
   name: Red Hat 3scale Initialization API
   slug: red-hat-3scale-initialization-api
-- description: Manage billing invoices for developer accounts
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Manage billing invoices for developer accounts
   name: Red Hat 3scale Invoices API
   slug: red-hat-3scale-invoices-api
-- description: OAuth 2.0 token authorization endpoints
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: OAuth 2.0 token authorization endpoints
   name: Red Hat 3scale OAuth API
   slug: red-hat-3scale-oauth-api
-- description: View payment transactions associated with invoices
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: View payment transactions associated with invoices
   name: Red Hat 3scale Payment Transactions API
   slug: red-hat-3scale-payment-transactions-api
-- description: Manage application plans and their features and limits
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Manage application plans and their features and limits
   name: Red Hat 3scale Plans API
   slug: red-hat-3scale-plans-api
-- description: Report API usage back to 3scale for analytics and rate limiting
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Report API usage back to 3scale for analytics and rate limiting
   name: Red Hat 3scale Reporting API
   slug: red-hat-3scale-reporting-api
-- description: Manage API services and their settings
+- baseURL: https://su1.3scale.net
+  baseurl_source: declared
+  description: Manage API services and their settings
   name: Red Hat 3scale Services API
   slug: red-hat-3scale-services-api
 artifact_total: 94
@@ -514,7 +540,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -527,7 +553,7 @@ score:
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 51.0
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -536,7 +562,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 7 acting
 api_count: 3
 apis:
-- description: Real-time inventory availability checks
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Real-time inventory availability checks
   name: ScanSource Availability API
   slug: scansource-availability-api
-- description: Invoice retrieval and management operations
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Invoice retrieval and management operations
   name: ScanSource Invoices API
   slug: scansource-invoices-api
-- description: Sales order creation and management
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Sales order creation and management
   name: ScanSource Orders API
   slug: scansource-orders-api
-- description: Real-time pricing lookups for partner customers
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Real-time pricing lookups for partner customers
   name: ScanSource Pricing API
   slug: scansource-pricing-api
-- description: Product information, search, and catalog operations
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Product information, search, and catalog operations
   name: ScanSource Products API
   slug: scansource-products-api
-- description: Shipping quotes and logistics
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Shipping quotes and logistics
   name: ScanSource Shipping API
   slug: scansource-shipping-api
-- description: Order tracking and delivery information
+- baseURL: https://services.scansource.com/api
+  baseurl_source: declared
+  description: Order tracking and delivery information
   name: ScanSource Tracking API
   slug: scansource-tracking-api
 artifact_total: 32
@@ -268,7 +282,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:

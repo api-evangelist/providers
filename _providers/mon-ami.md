@@ -33,58 +33,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Care Plans API from Mon Ami — 4 operation(s) for care plans.
   name: Mon Ami Care Plans API
   slug: mon-ami-care-plans-api
-- description: The Client Calls API from Mon Ami — 2 operation(s) for client calls.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Client Calls API from Mon Ami — 2 operation(s) for client calls.
   name: Mon Ami Client Calls API
   slug: mon-ami-client-calls-api
-- description: The Clients API from Mon Ami — 4 operation(s) for clients.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Clients API from Mon Ami — 4 operation(s) for clients.
   name: Mon Ami Clients API
   slug: mon-ami-clients-api
-- description: The Copays API from Mon Ami — 2 operation(s) for copays.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Copays API from Mon Ami — 2 operation(s) for copays.
   name: Mon Ami Copays API
   slug: mon-ami-copays-api
-- description: The Documents API from Mon Ami — 2 operation(s) for documents.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Documents API from Mon Ami — 2 operation(s) for documents.
   name: Mon Ami Documents API
   slug: mon-ami-documents-api
-- description: The Funding Sources API from Mon Ami — 2 operation(s) for funding sources.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Funding Sources API from Mon Ami — 2 operation(s) for funding sources.
   name: Mon Ami Funding Sources API
   slug: mon-ami-funding-sources-api
-- description: The Languages API from Mon Ami — 2 operation(s) for languages.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Languages API from Mon Ami — 2 operation(s) for languages.
   name: Mon Ami Languages API
   slug: mon-ami-languages-api
-- description: The People API from Mon Ami — 2 operation(s) for people.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The People API from Mon Ami — 2 operation(s) for people.
   name: Mon Ami People API
   slug: mon-ami-people-api
-- description: The Programs API from Mon Ami — 4 operation(s) for programs.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Programs API from Mon Ami — 4 operation(s) for programs.
   name: Mon Ami Programs API
   slug: mon-ami-programs-api
-- description: The Provider Referrals API from Mon Ami — 2 operation(s) for provider referrals.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Provider Referrals API from Mon Ami — 2 operation(s) for provider referrals.
   name: Mon Ami Provider Referrals API
   slug: mon-ami-provider-referrals-api
-- description: The Providers API from Mon Ami — 2 operation(s) for providers.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Providers API from Mon Ami — 2 operation(s) for providers.
   name: Mon Ami Providers API
   slug: mon-ami-providers-api
-- description: The Services API from Mon Ami — 6 operation(s) for services.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Services API from Mon Ami — 6 operation(s) for services.
   name: Mon Ami Services API
   slug: mon-ami-services-api
-- description: The Sites API from Mon Ami — 1 operation(s) for sites.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Sites API from Mon Ami — 1 operation(s) for sites.
   name: Mon Ami Sites API
   slug: mon-ami-sites-api
-- description: The Tasks API from Mon Ami — 3 operation(s) for tasks.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Tasks API from Mon Ami — 3 operation(s) for tasks.
   name: Mon Ami Tasks API
   slug: mon-ami-tasks-api
-- description: The Visits API from Mon Ami — 2 operation(s) for visits.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Visits API from Mon Ami — 2 operation(s) for visits.
   name: Mon Ami Visits API
   slug: mon-ami-visits-api
-- description: The Volunteers API from Mon Ami — 2 operation(s) for volunteers.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Volunteers API from Mon Ami — 2 operation(s) for volunteers.
   name: Mon Ami Volunteers API
   slug: mon-ami-volunteers-api
-- description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
+- baseURL: https://app.monami.io/api
+  baseurl_source: declared
+  description: The Webhooks API from Mon Ami — 2 operation(s) for webhooks.
   name: Mon Ami Webhooks API
   slug: mon-ami-webhooks-api
 artifact_total: 40
@@ -244,7 +278,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -254,7 +288,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 44.3
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     contracts:
@@ -275,7 +309,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mon-ami/refs/heads/main/screenshots/mon-ami-2026-08-07T184127.png
 security:

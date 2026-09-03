@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Samsung Wallet API allows developers to add digital passes, tickets, boarding passes, loyalty cards, coupons, and payment cards to the Samsung Wallet app on Galaxy devices.
   name: Samsung Wallet API
   slug: samsung-wallet
-- description: SmartApp registration and management.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: SmartApp registration and management.
   name: Samsung Apps API
   slug: samsung-apps-api
-- description: Connected device management and control.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Connected device management and control.
   name: Samsung Devices API
   slug: samsung-devices-api
-- description: Location and room management.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Location and room management.
   name: Samsung Locations API
   slug: samsung-locations-api
-- description: Automation rule management.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Automation rule management.
   name: Samsung Rules API
   slug: samsung-rules-api
-- description: Scene activation and management.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Scene activation and management.
   name: Samsung Scenes API
   slug: samsung-scenes-api
-- description: Device event subscriptions.
+- baseURL: https://api.smartthings.com/v1
+  baseurl_source: declared
+  description: Device event subscriptions.
   name: Samsung Subscriptions API
   slug: samsung-subscriptions-api
 artifact_total: 49
@@ -324,7 +336,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:

@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Contracts API from Opereit — 3 operation(s) for contracts.
+- baseURL: https://api.opereit.com
+  baseurl_source: declared
+  description: The Contracts API from Opereit — 3 operation(s) for contracts.
   name: Opereit Contracts API
   slug: opereit-contracts-api
-- description: The Invoice Audits API from Opereit — 3 operation(s) for invoice audits.
+- baseURL: https://api.opereit.com
+  baseurl_source: declared
+  description: The Invoice Audits API from Opereit — 3 operation(s) for invoice audits.
   name: Opereit Invoice Audits API
   slug: opereit-invoice-audits-api
 arazzos:
@@ -160,7 +164,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opereit/refs/heads/main/screenshots/opereit-2026-08-07T190714.png
 security:

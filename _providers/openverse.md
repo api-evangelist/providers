@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 17 operations · 4 acting
 api_count: 1
 apis:
-- description: These are endpoints pertaining to audio files.
+- baseURL: https://api.openverse.org/v1
+  baseurl_source: declared
+  description: These are endpoints pertaining to audio files.
   name: Openverse audio API
   slug: openverse-audio-api
-- description: Openverse provides free and open access to the Openverse API to anonymous and registered users. [Refer to the API documentation site for information on how to register](https://api.openverse.org/v1/#t
+- baseURL: https://api.openverse.org/v1
+  baseurl_source: declared
+  description: Openverse provides free and open access to the Openverse API to anonymous and registered users. [Refer to the API documentation site for information on how to register](https://api.openverse.org/v1/#t
   name: Openverse auth API
   slug: openverse-auth-api
-- description: These are endpoints pertaining to images.
+- baseURL: https://api.openverse.org/v1
+  baseurl_source: declared
+  description: These are endpoints pertaining to images.
   name: Openverse images API
   slug: openverse-images-api
 artifact_total: 92
@@ -422,7 +428,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
 security:

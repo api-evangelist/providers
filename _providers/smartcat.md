@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 8
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 352 operations · 198 acting · 8 human-in-the-loop
 api_count: 2
 apis:
-- description: The Account API from Smartcat — 2 operation(s) for account.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Account API from Smartcat — 2 operation(s) for account.
   name: Smartcat Account API
   slug: smartcat-account-api
-- description: The AssignmentTemplates API from Smartcat — 2 operation(s) for assignmenttemplates.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The AssignmentTemplates API from Smartcat — 2 operation(s) for assignmenttemplates.
   name: Smartcat AssignmentTemplates API
   slug: smartcat-assignmenttemplates-api
-- description: The Audit API from Smartcat — 1 operation(s) for audit.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Audit API from Smartcat — 1 operation(s) for audit.
   name: Smartcat Audit API
   slug: smartcat-audit-api
-- description: The Callback API from Smartcat — 2 operation(s) for callback.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Callback API from Smartcat — 2 operation(s) for callback.
   name: Smartcat Callback API
   slug: smartcat-callback-api
-- description: The Client API from Smartcat — 5 operation(s) for client.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Client API from Smartcat — 5 operation(s) for client.
   name: Smartcat Client API
   slug: smartcat-client-api
-- description: The ClientIndustry API from Smartcat — 3 operation(s) for clientindustry.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The ClientIndustry API from Smartcat — 3 operation(s) for clientindustry.
   name: Smartcat ClientIndustry API
   slug: smartcat-clientindustry-api
-- description: The CustomFields API from Smartcat — 1 operation(s) for customfields.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The CustomFields API from Smartcat — 1 operation(s) for customfields.
   name: Smartcat CustomFields API
   slug: smartcat-customfields-api
-- description: The Directories API from Smartcat — 2 operation(s) for directories.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Directories API from Smartcat — 2 operation(s) for directories.
   name: Smartcat Directories API
   slug: smartcat-directories-api
-- description: The Document API from Smartcat — 16 operation(s) for document.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Document API from Smartcat — 16 operation(s) for document.
   name: Smartcat Document API
   slug: smartcat-document-api
-- description: The DocumentExport API from Smartcat — 2 operation(s) for documentexport.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The DocumentExport API from Smartcat — 2 operation(s) for documentexport.
   name: Smartcat DocumentExport API
   slug: smartcat-documentexport-api
-- description: The FileDisassemblingAlgorithmPresets API from Smartcat — 2 operation(s) for filedisassemblingalgorithmpresets.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The FileDisassemblingAlgorithmPresets API from Smartcat — 2 operation(s) for filedisassemblingalgorithmpresets.
   name: Smartcat FileDisassemblingAlgorithmPresets API
   slug: smartcat-filedisassemblingalgorithmpresets-api
-- description: The FileManagement API from Smartcat — 4 operation(s) for filemanagement.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The FileManagement API from Smartcat — 4 operation(s) for filemanagement.
   name: Smartcat FileManagement API
   slug: smartcat-filemanagement-api
-- description: The Glossary API from Smartcat — 7 operation(s) for glossary.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Glossary API from Smartcat — 7 operation(s) for glossary.
   name: Smartcat Glossary API
   slug: smartcat-glossary-api
-- description: The Invoice API from Smartcat — 9 operation(s) for invoice.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Invoice API from Smartcat — 9 operation(s) for invoice.
   name: Smartcat Invoice API
   slug: smartcat-invoice-api
-- description: The Job API from Smartcat — 2 operation(s) for job.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Job API from Smartcat — 2 operation(s) for job.
   name: Smartcat Job API
   slug: smartcat-job-api
-- description: The LspPrices API from Smartcat — 4 operation(s) for lspprices.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The LspPrices API from Smartcat — 4 operation(s) for lspprices.
   name: Smartcat LspPrices API
   slug: smartcat-lspprices-api
-- description: The LspService API from Smartcat — 4 operation(s) for lspservice.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The LspService API from Smartcat — 4 operation(s) for lspservice.
   name: Smartcat LspService API
   slug: smartcat-lspservice-api
-- description: The MyTeam API from Smartcat — 6 operation(s) for myteam.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The MyTeam API from Smartcat — 6 operation(s) for myteam.
   name: Smartcat MyTeam API
   slug: smartcat-myteam-api
-- description: The PlaceholderFormatApi API from Smartcat — 2 operation(s) for placeholderformatapi.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The PlaceholderFormatApi API from Smartcat — 2 operation(s) for placeholderformatapi.
   name: Smartcat PlaceholderFormatApi API
   slug: smartcat-placeholderformatapi-api
-- description: The Project API from Smartcat — 32 operation(s) for project.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Project API from Smartcat — 32 operation(s) for project.
   name: Smartcat Project API
   slug: smartcat-project-api
-- description: The ProjectTask API from Smartcat — 11 operation(s) for projecttask.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The ProjectTask API from Smartcat — 11 operation(s) for projecttask.
   name: Smartcat ProjectTask API
   slug: smartcat-projecttask-api
-- description: The Quote API from Smartcat — 9 operation(s) for quote.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Quote API from Smartcat — 9 operation(s) for quote.
   name: Smartcat Quote API
   slug: smartcat-quote-api
-- description: The SegmentConfirmationStatistics API from Smartcat — 2 operation(s) for segmentconfirmationstatistics.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The SegmentConfirmationStatistics API from Smartcat — 2 operation(s) for segmentconfirmationstatistics.
   name: Smartcat SegmentConfirmationStatistics API
   slug: smartcat-segmentconfirmationstatistics-api
-- description: The SmartTranslation API from Smartcat — 1 operation(s) for smarttranslation.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The SmartTranslation API from Smartcat — 1 operation(s) for smarttranslation.
   name: Smartcat SmartTranslation API
   slug: smartcat-smarttranslation-api
-- description: The Smartwords API from Smartcat — 1 operation(s) for smartwords.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Smartwords API from Smartcat — 1 operation(s) for smartwords.
   name: Smartcat Smartwords API
   slug: smartcat-smartwords-api
-- description: The Template API from Smartcat — 1 operation(s) for template.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Template API from Smartcat — 1 operation(s) for template.
   name: Smartcat Template API
   slug: smartcat-template-api
-- description: The TranslationMemories API from Smartcat — 7 operation(s) for translationmemories.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The TranslationMemories API from Smartcat — 7 operation(s) for translationmemories.
   name: Smartcat TranslationMemories API
   slug: smartcat-translationmemories-api
-- description: The UserDeletionRequests API from Smartcat — 2 operation(s) for userdeletionrequests.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The UserDeletionRequests API from Smartcat — 2 operation(s) for userdeletionrequests.
   name: Smartcat UserDeletionRequests API
   slug: smartcat-userdeletionrequests-api
-- description: The Vendor API from Smartcat — 2 operation(s) for vendor.
+- baseURL: https://smartcat.com/api/integration/v1
+  baseurl_source: declared
+  description: The Vendor API from Smartcat — 2 operation(s) for vendor.
   name: Smartcat Vendor API
   slug: smartcat-vendor-api
 artifact_total: 65
@@ -375,7 +433,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -385,7 +443,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 52.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,7 +455,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/screenshots/smartcat-2026-08-17T081929.png
 security:

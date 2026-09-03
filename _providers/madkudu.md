@@ -34,43 +34,67 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Accounts API from MadKudu — 3 operation(s) for accounts.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Accounts API from MadKudu — 3 operation(s) for accounts.
   name: MadKudu Accounts API
   slug: madkudu-accounts-api
-- description: The AI API from MadKudu — 1 operation(s) for ai.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The AI API from MadKudu — 1 operation(s) for ai.
   name: MadKudu AI API
   slug: madkudu-ai-api
-- description: The Companies API from MadKudu — 1 operation(s) for companies.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Companies API from MadKudu — 1 operation(s) for companies.
   name: MadKudu Companies API
   slug: madkudu-companies-api
-- description: The Enrichment API from MadKudu — 1 operation(s) for enrichment.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Enrichment API from MadKudu — 1 operation(s) for enrichment.
   name: MadKudu Enrichment API
   slug: madkudu-enrichment-api
-- description: The Ingestion API from MadKudu — 3 operation(s) for ingestion.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Ingestion API from MadKudu — 3 operation(s) for ingestion.
   name: MadKudu Ingestion API
   slug: madkudu-ingestion-api
-- description: The Job Changes API from MadKudu — 1 operation(s) for job changes.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Job Changes API from MadKudu — 1 operation(s) for job changes.
   name: MadKudu Job Changes API
   slug: madkudu-job-changes-api
-- description: The Lookup API from MadKudu — 2 operation(s) for lookup.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Lookup API from MadKudu — 2 operation(s) for lookup.
   name: MadKudu Lookup API
   slug: madkudu-lookup-api
-- description: The Organisation API from MadKudu — 2 operation(s) for organisation.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Organisation API from MadKudu — 2 operation(s) for organisation.
   name: MadKudu Organisation API
   slug: madkudu-organisation-api
-- description: The Persons API from MadKudu — 3 operation(s) for persons.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Persons API from MadKudu — 3 operation(s) for persons.
   name: MadKudu Persons API
   slug: madkudu-persons-api
-- description: The Search API from MadKudu — 2 operation(s) for search.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Search API from MadKudu — 2 operation(s) for search.
   name: MadKudu Search API
   slug: madkudu-search-api
-- description: The Sourcing API from MadKudu — 3 operation(s) for sourcing.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Sourcing API from MadKudu — 3 operation(s) for sourcing.
   name: MadKudu Sourcing API
   slug: madkudu-sourcing-api
-- description: The Utilities API from MadKudu — 1 operation(s) for utilities.
+- baseURL: https://madapi.madkudu.com
+  baseurl_source: declared
+  description: The Utilities API from MadKudu — 1 operation(s) for utilities.
   name: MadKudu Utilities API
   slug: madkudu-utilities-api
 artifact_total: 18
@@ -265,7 +289,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:

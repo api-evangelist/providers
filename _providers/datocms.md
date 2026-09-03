@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The DatoCMS Content Delivery API is a CDN-fronted GraphQL endpoint optimized for low-latency reads of published content from client applications such as Jamstack and SSR sites.
   name: DatoCMS Content Delivery API
   slug: datocms-content-delivery-api
-- description: The Environments API from DatoCMS — 1 operation(s) for environments.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Environments API from DatoCMS — 1 operation(s) for environments.
   name: DatoCMS Environments API
   slug: datocms-environments-api
-- description: The Fields API from DatoCMS — 1 operation(s) for fields.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Fields API from DatoCMS — 1 operation(s) for fields.
   name: DatoCMS Fields API
   slug: datocms-fields-api
-- description: The Item Types API from DatoCMS — 1 operation(s) for item types.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Item Types API from DatoCMS — 1 operation(s) for item types.
   name: DatoCMS Item Types API
   slug: datocms-item-types-api
-- description: The Items API from DatoCMS — 3 operation(s) for items.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Items API from DatoCMS — 3 operation(s) for items.
   name: DatoCMS Items API
   slug: datocms-items-api
-- description: The Site API from DatoCMS — 1 operation(s) for site.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Site API from DatoCMS — 1 operation(s) for site.
   name: DatoCMS Site API
   slug: datocms-site-api
-- description: The Uploads API from DatoCMS — 1 operation(s) for uploads.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Uploads API from DatoCMS — 1 operation(s) for uploads.
   name: DatoCMS Uploads API
   slug: datocms-uploads-api
-- description: The Webhooks API from DatoCMS — 1 operation(s) for webhooks.
+- baseURL: https://site-api.datocms.com
+  baseurl_source: declared
+  description: The Webhooks API from DatoCMS — 1 operation(s) for webhooks.
   name: DatoCMS Webhooks API
   slug: datocms-webhooks-api
 artifact_total: 48
@@ -285,7 +299,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

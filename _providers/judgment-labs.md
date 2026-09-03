@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The backend platform API behind Judgeval — ingests agent traces/spans, runs evaluations and judges, and serves traces, sessions, behaviors, datasets, and automations. Consumed through the Judgeval SDK
@@ -178,7 +178,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/judgment-labs/refs/heads/main/screenshots/judgment-labs-2026-07-25T223257.png
 security:

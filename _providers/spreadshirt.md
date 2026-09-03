@@ -33,31 +33,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Spreadshirt Public Shop API — REST API for building custom e-commerce storefronts against the Spreadshirt EU (spreadshirt.net) and North American (spreadshirt.com) marketplaces, using SprdAuth API-key
   name: Spreadshirt Public Shop API
   slug: spreadshirt-public-shop-api
-- description: The Articles API from Spreadshirt — 2 operation(s) for articles.
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: The Articles API from Spreadshirt — 2 operation(s) for articles.
   name: Spreadshirt Articles API
   slug: spreadshirt-articles-api
-- description: The Spreadconnect API allows you to connect to the Spreadconnect system and lets you manage your products, submit orders and get them fulfilled via requests. To make sure that the requests send to the
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: The Spreadconnect API allows you to connect to the Spreadconnect system and lets you manage your products, submit orders and get them fulfilled via requests. To make sure that the requests send to the
   name: Spreadshirt Authentication API
   slug: spreadshirt-authentication-api
-- description: The Designs API from Spreadshirt — 1 operation(s) for designs.
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: The Designs API from Spreadshirt — 1 operation(s) for designs.
   name: Spreadshirt Designs API
   slug: spreadshirt-designs-api
-- description: There are different ways to place an order in Spreadconnect REST API. You can choose a simple way, where you have to send just one request or you can use a more complex way, with more control over the
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: There are different ways to place an order in Spreadconnect REST API. You can choose a simple way, where you have to send just one request or you can use a more complex way, with more control over the
   name: Spreadshirt Orders API
   slug: spreadshirt-orders-api
-- description: Product types represent our available base products that can be used for customisation. This information can also be found in the User Interface of the Spreadconnect application when creating a produc
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: Product types represent our available base products that can be used for customisation. This information can also be found in the User Interface of the Spreadconnect application when creating a produc
   name: Spreadshirt Product Types API
   slug: spreadshirt-product-types-api
-- description: Get the available stock on the variants of the created articles.
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: Get the available stock on the variants of the created articles.
   name: Spreadshirt Stocks API
   slug: spreadshirt-stocks-api
-- description: 'This api offers you webhook subscriptions that will notify you about changes with your order via a POST request. ### Acknowledge notifications Notifications are following the at *least once principal*'
+- baseURL: https://api.spreadconnect.app
+  baseurl_source: declared
+  description: 'This api offers you webhook subscriptions that will notify you about changes with your order via a POST request. ### Acknowledge notifications Notifications are following the at *least once principal*'
   name: Spreadshirt Subscriptions API
   slug: spreadshirt-subscriptions-api
 artifact_total: 22
@@ -235,7 +249,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -245,7 +259,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 42.0
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -256,7 +270,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreadshirt/refs/heads/main/screenshots/spreadshirt-2026-08-17T082038.png
 security:

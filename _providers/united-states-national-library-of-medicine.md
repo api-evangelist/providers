@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 17 operations · 1 acting
 api_count: 4
 apis:
-- description: BLAST sequence search submission and retrieval
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: BLAST sequence search submission and retrieval
   name: United States National Library of Medicine BLAST API
   slug: united-states-national-library-of-medicine-blast-api
-- description: Retrieve records from Entrez databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Retrieve records from Entrez databases
   name: United States National Library of Medicine Fetch API
   slug: united-states-national-library-of-medicine-fetch-api
-- description: Gene records and sequence data
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Gene records and sequence data
   name: United States National Library of Medicine Gene API
   slug: united-states-national-library-of-medicine-gene-api
-- description: Genome assembly data and metadata
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Genome assembly data and metadata
   name: United States National Library of Medicine Genome API
   slug: united-states-national-library-of-medicine-genome-api
-- description: Database information and statistics
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Database information and statistics
   name: United States National Library of Medicine Info API
   slug: united-states-national-library-of-medicine-info-api
-- description: Find linked records across databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Find linked records across databases
   name: United States National Library of Medicine Link API
   slug: united-states-national-library-of-medicine-link-api
-- description: API metadata and field definitions
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: API metadata and field definitions
   name: United States National Library of Medicine Metadata API
   slug: united-states-national-library-of-medicine-metadata-api
-- description: Search Entrez databases
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Search Entrez databases
   name: United States National Library of Medicine Search API
   slug: united-states-national-library-of-medicine-search-api
-- description: Clinical trial study search and retrieval
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: Clinical trial study search and retrieval
   name: United States National Library of Medicine Studies API
   slug: united-states-national-library-of-medicine-studies-api
-- description: NCBI taxonomy information
+- baseURL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils
+  baseurl_source: declared
+  description: NCBI taxonomy information
   name: United States National Library of Medicine Taxonomy API
   slug: united-states-national-library-of-medicine-taxonomy-api
 artifact_total: 40
@@ -269,7 +289,7 @@ score:
     regime_id: health
     score: 21.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png
 security:

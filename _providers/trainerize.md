@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 19 acting
 api_count: 1
 apis:
-- description: Retrieve and modify client goals, habits, body stats, nutrition, and appointments.
+- baseURL: https://api.trainerize.com/v03
+  baseurl_source: declared
+  description: Retrieve and modify client goals, habits, body stats, nutrition, and appointments.
   name: ABC Trainerize Client Data API
   slug: trainerize-client-data-api
-- description: Create, update, find, and manage clients, trainer assignment, tags, and groups.
+- baseURL: https://api.trainerize.com/v03
+  baseurl_source: declared
+  description: Create, update, find, and manage clients, trainer assignment, tags, and groups.
   name: ABC Trainerize Clients API
   slug: trainerize-clients-api
-- description: Send in-app messages and upload attachments / meal-plan PDFs to clients.
+- baseURL: https://api.trainerize.com/v03
+  baseurl_source: declared
+  description: Send in-app messages and upload attachments / meal-plan PDFs to clients.
   name: ABC Trainerize Messaging API
   slug: trainerize-messaging-api
-- description: Assign programs and workouts to clients - copy master programs, subscribe to main/add-on programs, and add training phases.
+- baseURL: https://api.trainerize.com/v03
+  baseurl_source: declared
+  description: Assign programs and workouts to clients - copy master programs, subscribe to main/add-on programs, and add training phases.
   name: ABC Trainerize Training API
   slug: trainerize-training-api
-- description: Register and manage webhook subscriptions for ABC Trainerize business events.
+- baseURL: https://api.trainerize.com/v03
+  baseurl_source: declared
+  description: Register and manage webhook subscriptions for ABC Trainerize business events.
   name: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
 artifact_total: 18
@@ -148,7 +158,7 @@ score:
   band: thin
   composite: 35.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -171,8 +181,9 @@ score:
       marker_coverage: 20.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/screenshots/trainerize-2026-09-02T164110.png
 security:
 - kind: authentication
   name: Trainerize Authentication

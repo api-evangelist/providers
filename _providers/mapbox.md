@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -70,13 +70,19 @@ apis:
 - description: 'The Mapbox Fonts API accepts fonts as raw binary data, allows those fonts to be deleted, and generates encoded letters for map renderers. Two types of fonts are supported: TrueType fonts (.ttf) and Op'
   name: Mapbox Fonts API
   slug: mapbox-fonts-api
-- description: The Activity API from Mapbox — 1 operation(s) for activity.
+- baseURL: https://api.mapbox.com
+  baseurl_source: declared
+  description: The Activity API from Mapbox — 1 operation(s) for activity.
   name: Mapbox Activity API
   slug: mapbox-activity-api
-- description: The Mapbox Tiling Service API API from Mapbox — 1 operation(s) for mapbox tiling service api.
+- baseURL: https://api.mapbox.com
+  baseurl_source: declared
+  description: The Mapbox Tiling Service API API from Mapbox — 1 operation(s) for mapbox tiling service api.
   name: Mapbox Mapbox Tiling Service API API
   slug: mapbox-mapbox-tiling-service-api-api
-- description: The Tilesets API from Mapbox — 13 operation(s) for tilesets.
+- baseURL: https://api.mapbox.com
+  baseurl_source: declared
+  description: The Tilesets API from Mapbox — 13 operation(s) for tilesets.
   name: Mapbox Tilesets API
   slug: mapbox-tilesets-api
 artifact_total: 38
@@ -269,7 +275,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/screenshots/mapbox-2026-06-20T184931.png
 security:

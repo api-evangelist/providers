@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: End-to-end platform used by central banks and market operators to build, manage, and maintain national or regional open finance trust frameworks. Covers participant onboarding, directory services, cer
   name: Konsentus Open Trust Platform
   slug: konsentus-open-trust-platform
-- description: Third-Party Provider identity and regulatory validation
+- baseURL: https://api.konsentus.com
+  baseurl_source: declared
+  description: Third-Party Provider identity and regulatory validation
   name: Konsentus PSP Checking Service API
   slug: konsentus-psp-checking-service-api
 artifact_total: 22
@@ -232,7 +234,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
 security:

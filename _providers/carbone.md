@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -53,13 +53,19 @@ apis:
 - description: Open-source Node.js library that powers the rendering engine. Embed directly in your application; render templates with JSON data without hitting the cloud API.
   name: Carbone Render Engine (Open Source)
   slug: js
-- description: The Render API from Carbone — 3 operation(s) for render.
+- baseURL: https://api.carbone.io
+  baseurl_source: declared
+  description: The Render API from Carbone — 3 operation(s) for render.
   name: Carbone Render API
   slug: carbone-render-api
-- description: The Status API from Carbone — 1 operation(s) for status.
+- baseURL: https://api.carbone.io
+  baseurl_source: declared
+  description: The Status API from Carbone — 1 operation(s) for status.
   name: Carbone Status API
   slug: carbone-status-api
-- description: The Template API from Carbone — 2 operation(s) for template.
+- baseURL: https://api.carbone.io
+  baseurl_source: declared
+  description: The Template API from Carbone — 2 operation(s) for template.
   name: Carbone Template API
   slug: carbone-template-api
 artifact_total: 17
@@ -191,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbone/refs/heads/main/screenshots/carbone-2026-06-20T173951.png
 security:

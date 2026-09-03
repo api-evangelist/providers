@@ -33,22 +33,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
-- description: Devices, calibration, and query history.
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: Devices, calibration, and query history.
   name: Hivemapper Account API
   slug: hivemapper-account-api
-- description: AI-detected driving event videos with synchronized sensor data.
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: AI-detected driving event videos with synchronized sensor data.
   name: Hivemapper AI Events API
   slug: hivemapper-ai-events-api
-- description: On-demand incentivized mapping requests.
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: On-demand incentivized mapping requests.
   name: Hivemapper Bursts API
   slug: hivemapper-bursts-api
-- description: Street-level dashcam imagery queries.
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: Street-level dashcam imagery queries.
   name: Hivemapper Imagery API
   slug: hivemapper-imagery-api
-- description: ML-detected road objects and features.
+- baseURL: https://beemaps.com/api/developer
+  baseurl_source: declared
+  description: ML-detected road objects and features.
   name: Hivemapper Map Features API
   slug: hivemapper-map-features-api
 artifact_total: 14
@@ -197,7 +207,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.6
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -207,7 +217,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 48.2
+  previous_composite: 37.6
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +228,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:
 - kind: authentication

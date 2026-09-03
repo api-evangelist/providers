@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: LogRocket GraphQL API for querying session, event, error, and analytics data with flexible field selection.
+- baseURL: https://api.logrocket.com
+  baseurl_source: declared
+  description: LogRocket GraphQL API for querying session, event, error, and analytics data with flexible field selection.
   name: LogRocket GraphQL API
   slug: logrocket-graphql-api
-- description: Retrieve exported session data files from storage buckets.
+- baseURL: https://api.logrocket.com/v1
+  baseurl_source: declared
+  description: Retrieve exported session data files from storage buckets.
   name: LogRocket Data Export API
   slug: logrocket-data-export-api
-- description: Access Galileo AI-generated session highlights and summaries.
+- baseURL: https://api.logrocket.com/v1
+  baseurl_source: declared
+  description: Access Galileo AI-generated session highlights and summaries.
   name: LogRocket Highlights API
   slug: logrocket-highlights-api
-- description: Manage user identification and traits for session context.
+- baseURL: https://api.logrocket.com/v1
+  baseurl_source: declared
+  description: Manage user identification and traits for session context.
   name: LogRocket Users API
   slug: logrocket-users-api
 artifact_total: 36
@@ -244,7 +252,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -254,7 +262,7 @@ score:
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -263,7 +271,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/screenshots/logrocket-2026-06-20T184701.png
 security:

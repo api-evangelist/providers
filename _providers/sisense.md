@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -50,22 +50,34 @@ apis:
 - description: The Sisense User and Role Management API (RBAC) enables administrators to manage users, roles, and permissions programmatically. Available on select plans through contact with Customer Success Manager
   name: Sisense User and Role Management API
   slug: user-role-management-api
-- description: Login and token management
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Login and token management
   name: Sisense Authentication API
   slug: sisense-authentication-api
-- description: Create, read, update, and manage dashboards
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Create, read, update, and manage dashboards
   name: Sisense Dashboards API
   slug: sisense-dashboards-api
-- description: Configure row-level data security rules
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Configure row-level data security rules
   name: Sisense Data Security API
   slug: sisense-data-security-api
-- description: Manage Elasticube data models and builds
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Manage Elasticube data models and builds
   name: Sisense Elasticubes API
   slug: sisense-elasticubes-api
-- description: Manage user groups for access control
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Manage user groups for access control
   name: Sisense Groups API
   slug: sisense-groups-api
-- description: Manage Sisense users and user settings
+- baseURL: https://your-sisense-host/api/v1
+  baseurl_source: declared
+  description: Manage Sisense users and user settings
   name: Sisense Users API
   slug: sisense-users-api
 artifact_total: 37
@@ -280,7 +292,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
 security:

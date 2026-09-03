@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Self-serve signup
+  onboarding: self-serve
+  pricing: freemium
+  public: false
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,13 +45,19 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: Agent registration and API key issuance.
+- baseURL: https://api.buywhere.ai/v1
+  baseurl_source: declared
+  description: Agent registration and API key issuance.
   name: BuyWhere Authentication API
   slug: buywhere-authentication-api
-- description: Product taxonomy and category browsing.
+- baseURL: https://api.buywhere.ai/v1
+  baseurl_source: declared
+  description: Product taxonomy and category browsing.
   name: BuyWhere Categories API
   slug: buywhere-categories-api
-- description: Product search, lookup, comparison, deals, and price history.
+- baseURL: https://api.buywhere.ai/v1
+  baseurl_source: declared
+  description: Product search, lookup, comparison, deals, and price history.
   name: BuyWhere Products API
   slug: buywhere-products-api
 artifact_total: 32
@@ -266,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:

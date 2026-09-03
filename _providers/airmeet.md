@@ -33,25 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Exchange access/secret keys for an access token.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: Exchange access/secret keys for an access token.
   name: Airmeet Authentication API
   slug: airmeet-authentication-api
-- description: Read events, participants, sessions, engagement and attendance data.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: Read events, participants, sessions, engagement and attendance data.
   name: Airmeet Event Details API
   slug: airmeet-event-details-api
-- description: Create and manage events, speakers, sessions, booths and landing pages.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: Create and manage events, speakers, sessions, booths and landing pages.
   name: Airmeet Manage Event API
   slug: airmeet-manage-event-api
-- description: List event series and the events within a series.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: List event series and the events within a series.
   name: Airmeet Manage Event Series API
   slug: airmeet-manage-event-series-api
-- description: Add authorized attendees and block or unblock them.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: Add authorized attendees and block or unblock them.
   name: Airmeet Manage Registrations API
   slug: airmeet-manage-registrations-api
-- description: Register webhook subscriptions for Airmeet event triggers.
+- baseURL: https://api-gateway.airmeet.com/prod
+  baseurl_source: declared
+  description: Register webhook subscriptions for Airmeet event triggers.
   name: Airmeet Webhooks API
   slug: airmeet-webhooks-api
 artifact_total: 25
@@ -252,7 +264,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -262,7 +274,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 50.6
+  previous_composite: 50.4
   provenance:
     conformance: first-party
     contracts:
@@ -273,7 +285,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/screenshots/airmeet-2026-07-25T195432.png
 security:

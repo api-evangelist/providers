@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Operations for converting time between timezones
+- baseURL: https://api.timezonedb.com/v2.1
+  baseurl_source: declared
+  description: Operations for converting time between timezones
   name: TimezoneDB Conversion API
   slug: timezonedb-conversion-api
-- description: Operations for listing and retrieving timezone information
+- baseURL: https://api.timezonedb.com/v2.1
+  baseurl_source: declared
+  description: Operations for listing and retrieving timezone information
   name: TimezoneDB Timezones API
   slug: timezonedb-timezones-api
 artifact_total: 19
@@ -197,7 +201,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timezonedb/refs/heads/main/screenshots/timezonedb-2026-06-20T195402.png
 security:

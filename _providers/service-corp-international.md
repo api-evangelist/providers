@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,10 +48,10 @@ description: Service Corporation International is North America's leading provid
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/service-corp-international.png
 layout: provider
 modified: '2026-03-24'
-name: service-corp-international
+name: Service Corp International
 nav: Providers
 network: true
-overview: service-corp-international is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: Service Corp International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 press:
 - date: '2026-05-25'
   title: SERVICE CORP INTERNATIONAL SEC 10-K Report
@@ -95,7 +95,7 @@ score:
       reason: never_enriched
   previous_composite: 2.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 slug: service-corp-international
 tags:

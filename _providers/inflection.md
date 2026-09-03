@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 8 operations · 6 acting
 api_count: 1
 apis:
-- description: The Chat API from Inflection AI — 2 operation(s) for chat.
+- baseURL: https://layercake.pubwestus3.inf7ks8.com
+  baseurl_source: declared
+  description: The Chat API from Inflection AI — 2 operation(s) for chat.
   name: Inflection AI Chat API
   slug: inflection-chat-api
-- description: The Discovery API from Inflection AI — 1 operation(s) for discovery.
+- baseURL: https://layercake.pubwestus3.inf7ks8.com
+  baseurl_source: declared
+  description: The Discovery API from Inflection AI — 1 operation(s) for discovery.
   name: Inflection AI Discovery API
   slug: inflection-discovery-api
-- description: The Embeddings API from Inflection AI — 1 operation(s) for embeddings.
+- baseURL: https://layercake.pubwestus3.inf7ks8.com
+  baseurl_source: declared
+  description: The Embeddings API from Inflection AI — 1 operation(s) for embeddings.
   name: Inflection AI Embeddings API
   slug: inflection-embeddings-api
-- description: The External API from Inflection AI — 3 operation(s) for external.
+- baseURL: https://layercake.pubwestus3.inf7ks8.com
+  baseurl_source: declared
+  description: The External API from Inflection AI — 3 operation(s) for external.
   name: Inflection AI External API
   slug: inflection-external-api
-- description: The Status API from Inflection AI — 1 operation(s) for status.
+- baseURL: https://layercake.pubwestus3.inf7ks8.com
+  baseurl_source: declared
+  description: The Status API from Inflection AI — 1 operation(s) for status.
   name: Inflection AI Status API
   slug: inflection-status-api
 artifact_total: 19
@@ -184,7 +194,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/screenshots/inflection-2026-06-20T183333.png
 security:

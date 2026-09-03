@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -46,10 +46,14 @@ apis:
 - description: Maven artifact for Apache HttpComponents HttpClient 5.x providing full HTTP client functionality including fluent API, async client, and reactive streams support.
   name: Apache HttpComponents Java SDK
   slug: apache-http-java-sdk
-- description: Client configuration operations
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: Client configuration operations
   name: Apache HttpComponents Configuration API
   slug: apache-http-configuration-api
-- description: HTTP request execution operations
+- baseURL: https://api.example.com
+  baseurl_source: spec
+  description: HTTP request execution operations
   name: Apache HttpComponents Requests API
   slug: apache-http-requests-api
 artifact_total: 45
@@ -269,7 +273,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-http/refs/heads/main/screenshots/apache-http-2026-06-20T172105.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,10 +38,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The public read surface of thepicklr.com, served by WordPress core and the site's plugins. Anonymous GET returns the franchise's own published content — 157 club location records, 53 pages, 23 blog po
+- baseURL: https://thepicklr.com/wp-json
+  baseurl_source: declared
+  description: The public read surface of thepicklr.com, served by WordPress core and the site's plugins. Anonymous GET returns the franchise's own published content — 157 club location records, 53 pages, 23 blog po
   name: The Picklr WordPress REST API
   slug: the-picklr-wordpress-rest-api
 - description: 'Three Model Context Protocol endpoints registered under the mcp REST namespace on thepicklr.com, exposed by the Novamira WordPress plugin (v1.11.4). The canonical one, /wp-json/mcp/novamira-oauth, is '
@@ -154,11 +170,11 @@ score:
   band: thin
   composite: 30.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.5
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -168,7 +184,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 41.0
+  previous_composite: 30.5
   provenance:
     conformance: first-party
     contracts:
@@ -185,8 +201,9 @@ score:
     regime_id: health
     score: 47.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/the-picklr/refs/heads/main/screenshots/the-picklr-2026-09-02T163406.png
 security:
 - kind: authentication
   name: The Picklr Authentication

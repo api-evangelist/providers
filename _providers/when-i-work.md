@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 119 operations · 71 acting
 api_count: 1
 apis:
-- description: 'Accounts (aka Workplaces) are objects that define a business account with When I Work. Each user is associated with an account enabling them to access Shifts or other data. For more information about '
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'Accounts (aka Workplaces) are objects that define a business account with When I Work. Each user is associated with an account enabling them to access Shifts or other data. For more information about '
   name: When I Work Accounts API
   slug: when-i-work-accounts-api
-- description: 'Annotations convey important information to all staff for the given schedules (locations) and date range. Any or none of the following tags may apply to an Annotation: * Time Off Not Allowed * Busines'
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'Annotations convey important information to all staff for the given schedules (locations) and date range. Any or none of the following tags may apply to an Annotation: * Time Off Not Allowed * Busines'
   name: When I Work Annotations API
   slug: when-i-work-annotations-api
-- description: Set your availability preferences to let your employer know when you prefer to work and when you prefer not to work. For more information about using Availabilities, visit the [Help Center](https://he
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Set your availability preferences to let your employer know when you prefer to work and when you prefer not to work. For more information about using Availabilities, visit the [Help Center](https://he
   name: When I Work Availabilities API
   slug: when-i-work-availabilities-api
-- description: 'The import API is used to import a variety of When I Work resources from user-provided CSV or Excel files. ### Import Types All available import types and their columns are listed here. Where possible'
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'The import API is used to import a variety of When I Work resources from user-provided CSV or Excel files. ### Import Types All available import types and their columns are listed here. Where possible'
   name: When I Work Import API
   slug: when-i-work-import-api
-- description: Shift Bidding, also called “OpenShift Requests”, is an option within an OpenShift that allows employees to express interest in the shift. Management can then view who has requested to pick up the Open
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Shift Bidding, also called “OpenShift Requests”, is an option within an OpenShift that allows employees to express interest in the shift. Management can then view who has requested to pick up the Open
   name: When I Work OpenShift Requests API
   slug: when-i-work-openshift-requests-api
-- description: 'Payrolls allows you to select a pay period date range and hours worked within that range. Default range if not supplied is today + 3 days. > Please note that payrolls cannot be created or deleted via '
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'Payrolls allows you to select a pay period date range and hours worked within that range. Default range if not supplied is today + 3 days. > Please note that payrolls cannot be created or deleted via '
   name: When I Work Payrolls API
   slug: when-i-work-payrolls-api
-- description: Positions (aka, job or duty) are used to define labor allocation. Users can be tagged (associated) with one or more Positions. When I Work uses this association for shift eligibility, Alert notificati
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Positions (aka, job or duty) are used to define labor allocation. Users can be tagged (associated) with one or more Positions. When I Work uses this association for shift eligibility, Alert notificati
   name: When I Work Positions API
   slug: when-i-work-positions-api
-- description: A punch is an event where a user clocks in or clocks out. Punches can be managed to restrict where an employee can clock in/out and from what devices. If a user forgets to clock out, they will be allo
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: A punch is an event where a user clocks in or clocks out. Punches can be managed to restrict where an employee can clock in/out and from what devices. If a user forgets to clock out, they will be allo
   name: When I Work Punch API
   slug: when-i-work-punch-api
-- description: Types of time off that can be selected when submitting a time off request. For more information about using Time Off Requests, visit the [Help Center](https://help.wheniwork.com/articles/requesting-ti
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Types of time off that can be selected when submitting a time off request. For more information about using Time Off Requests, visit the [Help Center](https://help.wheniwork.com/articles/requesting-ti
   name: When I Work Request Type API
   slug: when-i-work-request-type-api
-- description: Schedule templates allow you to create a daily or weekly schedule that is reusable. If your schedules are very similar from day to day or week to week, use a template to save time and avoid creating s
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Schedule templates allow you to create a daily or weekly schedule that is reusable. If your schedules are very similar from day to day or week to week, use a template to save time and avoid creating s
   name: When I Work Schedule Templates API
   slug: when-i-work-schedule-templates-api
-- description: Schedules are logical groupings of users that are working together. Schedules can be physical offices with addresses or logical groups like departments. Users can be tagged (associated) to one or more
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Schedules are logical groupings of users that are working together. Schedules can be physical offices with addresses or logical groups like departments. Users can be tagged (associated) to one or more
   name: When I Work Schedules (Locations) API
   slug: when-i-work-schedules-locations-api
-- description: 'When the Attendance setting is enabled to Ask Employees About Paid Rest Breaks the feedback on whether or not breaks were taken is provided here. Note: This endpoint requires the request header for w-'
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'When the Attendance setting is enabled to Ask Employees About Paid Rest Breaks the feedback on whether or not breaks were taken is provided here. Note: This endpoint requires the request header for w-'
   name: When I Work Shift Break - Paid Rest API
   slug: when-i-work-shift-break-paid-rest-api
-- description: Two types of breaks are provided. First; Scheduled Shift Breaks are break records associated with scheduled shifts. Second; Shift Breaks are break records associated with time worked. For Shift Breaks
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Two types of breaks are provided. First; Scheduled Shift Breaks are break records associated with scheduled shifts. Second; Shift Breaks are break records associated with time worked. For Shift Breaks
   name: When I Work Shift Breaks API
   slug: when-i-work-shift-breaks-api
-- description: 'If you’re unable to work one of your shifts, you can give it to one of your coworkers (drop the shift) or trade shifts with one of your coworkers (swap shifts). For more information about using Shift '
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'If you’re unable to work one of your shifts, you can give it to one of your coworkers (drop the shift) or trade shifts with one of your coworkers (swap shifts). For more information about using Shift '
   name: When I Work Shift Requests API
   slug: when-i-work-shift-requests-api
-- description: 'Shift templates save you time when you need to schedule shifts that have a consistent start and end time. Instead of manually entering in custom shift details one-by-one, shift templates allow you to '
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'Shift templates save you time when you need to schedule shifts that have a consistent start and end time. Instead of manually entering in custom shift details one-by-one, shift templates allow you to '
   name: When I Work Shift Templates (Blocks) API
   slug: when-i-work-shift-templates-blocks-api
-- description: Shifts provide the basis for scheduling. Many other objects, including Schedules (aka Locations), Positions, Sites, Users, Tasks, and Tags all link through Shifts. For more information about how to us
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Shifts provide the basis for scheduling. Many other objects, including Schedules (aka Locations), Positions, Sites, Users, Tasks, and Tags all link through Shifts. For more information about how to us
   name: When I Work Shifts API
   slug: when-i-work-shifts-api
-- description: 'Sites communicate additional information about a given shift to the recipient. Typical usage is when you schedule employees for shifts that are at different physical sites (addresses) compared to the '
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: 'Sites communicate additional information about a given shift to the recipient. Typical usage is when you schedule employees for shifts that are at different physical sites (addresses) compared to the '
   name: When I Work Sites API
   slug: when-i-work-sites-api
-- description: The Swaps API from When I Work — 1 operation(s) for swaps.
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: The Swaps API from When I Work — 1 operation(s) for swaps.
   name: When I Work Swaps API
   slug: when-i-work-swaps-api
-- description: When you need to take time off from work, use When I Work to send the request to your manager for approval. Time off can be submitted as unpaid, paid (PTO), sick, or holiday. For more information abou
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: When you need to take time off from work, use When I Work to send the request to your manager for approval. Time off can be submitted as unpaid, paid (PTO), sick, or holiday. For more information abou
   name: When I Work Time Off Requests API
   slug: when-i-work-time-off-requests-api
-- description: Time records are a listing of the worked hours and can be select by date range. Records are sourced from timeclock terminal, web clock In/Out, mobile clock In/Out, timesheet edits, and API record crea
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Time records are a listing of the worked hours and can be select by date range. Records are sourced from timeclock terminal, web clock In/Out, mobile clock In/Out, timesheet edits, and API record crea
   name: When I Work Times API
   slug: when-i-work-times-api
-- description: Timezones for When I work workplaces including Olson ID
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: Timezones for When I work workplaces including Olson ID
   name: When I Work Timezones API
   slug: when-i-work-timezones-api
-- description: A person on the When I Work platform is associated with a two tier record. The persons email/password is associated to a person_id. For each Workplace the person belongs to a user_id record exists. Th
+- baseURL: https://api.wheniwork.com/2
+  baseurl_source: declared
+  description: A person on the When I Work platform is associated with a two tier record. The persons email/password is associated to a person_id. For each Workplace the person belongs to a user_id record exists. Th
   name: When I Work Users API
   slug: when-i-work-users-api
 artifact_total: 63
@@ -342,7 +386,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png
 security:

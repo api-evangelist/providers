@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 114 operations · 57 acting
 api_count: 1
 apis:
-- description: The accounts API from Fixie — 9 operation(s) for accounts.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The accounts API from Fixie — 9 operation(s) for accounts.
   name: Fixie accounts API
   slug: fixie-accounts-api
-- description: The agents API from Fixie — 9 operation(s) for agents.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The agents API from Fixie — 9 operation(s) for agents.
   name: Fixie agents API
   slug: fixie-agents-api
-- description: The api_keys API from Fixie — 2 operation(s) for api_keys.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The api_keys API from Fixie — 2 operation(s) for api_keys.
   name: Fixie api_keys API
   slug: fixie-api-keys-api
-- description: The call_throttles API from Fixie — 2 operation(s) for call_throttles.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The call_throttles API from Fixie — 2 operation(s) for call_throttles.
   name: Fixie call_throttles API
   slug: fixie-call-throttles-api
-- description: The calls API from Fixie — 13 operation(s) for calls.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The calls API from Fixie — 13 operation(s) for calls.
   name: Fixie calls API
   slug: fixie-calls-api
-- description: The corpora API from Fixie — 8 operation(s) for corpora.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The corpora API from Fixie — 8 operation(s) for corpora.
   name: Fixie corpora API
   slug: fixie-corpora-api
-- description: The deleted_calls API from Fixie — 2 operation(s) for deleted_calls.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The deleted_calls API from Fixie — 2 operation(s) for deleted_calls.
   name: Fixie deleted_calls API
   slug: fixie-deleted-calls-api
-- description: The models API from Fixie — 1 operation(s) for models.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The models API from Fixie — 1 operation(s) for models.
   name: Fixie models API
   slug: fixie-models-api
-- description: The schema API from Fixie — 1 operation(s) for schema.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The schema API from Fixie — 1 operation(s) for schema.
   name: Fixie schema API
   slug: fixie-schema-api
-- description: The sip API from Fixie — 3 operation(s) for sip.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The sip API from Fixie — 3 operation(s) for sip.
   name: Fixie sip API
   slug: fixie-sip-api
-- description: The telephony_configs API from Fixie — 3 operation(s) for telephony_configs.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The telephony_configs API from Fixie — 3 operation(s) for telephony_configs.
   name: Fixie telephony_configs API
   slug: fixie-telephony-configs-api
-- description: The tools API from Fixie — 4 operation(s) for tools.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The tools API from Fixie — 4 operation(s) for tools.
   name: Fixie tools API
   slug: fixie-tools-api
-- description: The voices API from Fixie — 4 operation(s) for voices.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The voices API from Fixie — 4 operation(s) for voices.
   name: Fixie voices API
   slug: fixie-voices-api
-- description: The webhooks API from Fixie — 2 operation(s) for webhooks.
+- baseURL: https://api.ultravox.ai/api
+  baseurl_source: declared
+  description: The webhooks API from Fixie — 2 operation(s) for webhooks.
   name: Fixie webhooks API
   slug: fixie-webhooks-api
 artifact_total: 35
@@ -269,7 +297,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -279,7 +307,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 50.1
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,7 +319,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 8 operations · 4 acting
 api_count: 1
 apis:
-- description: The Admin API from MollyBox — 1 operation(s) for admin.
+- baseURL: http://www.mollybox.cn
+  baseurl_source: declared
+  description: The Admin API from MollyBox — 1 operation(s) for admin.
   name: MollyBox Admin API
   slug: mollybox-admin-api
-- description: The Health API from MollyBox — 1 operation(s) for health.
+- baseURL: http://www.mollybox.cn
+  baseurl_source: declared
+  description: The Health API from MollyBox — 1 operation(s) for health.
   name: MollyBox Health API
   slug: mollybox-health-api
-- description: The Me API from MollyBox — 1 operation(s) for me.
+- baseURL: http://www.mollybox.cn
+  baseurl_source: declared
+  description: The Me API from MollyBox — 1 operation(s) for me.
   name: MollyBox Me API
   slug: mollybox-me-api
-- description: The Resources API from MollyBox — 4 operation(s) for resources.
+- baseURL: http://www.mollybox.cn
+  baseurl_source: declared
+  description: The Resources API from MollyBox — 4 operation(s) for resources.
   name: MollyBox Resources API
   slug: mollybox-resources-api
 artifact_total: 13
@@ -168,7 +176,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

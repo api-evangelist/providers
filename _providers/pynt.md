@@ -33,103 +33,167 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The Alive API from Pynt — 1 operation(s) for alive.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The Alive API from Pynt — 1 operation(s) for alive.
   name: Pynt Alive API
   slug: pynt-alive-api
-- description: The api-key API from Pynt — 2 operation(s) for api-key.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The api-key API from Pynt — 2 operation(s) for api-key.
   name: Pynt API Key API
   slug: pynt-api-key-api
-- description: The application API from Pynt — 21 operation(s) for application.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The application API from Pynt — 21 operation(s) for application.
   name: Pynt Application API
   slug: pynt-application-api
-- description: The artifacts API from Pynt — 2 operation(s) for artifacts.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The artifacts API from Pynt — 2 operation(s) for artifacts.
   name: Pynt Artifacts API
   slug: pynt-artifacts-api
-- description: The auth API from Pynt — 4 operation(s) for auth.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The auth API from Pynt — 4 operation(s) for auth.
   name: Pynt Auth API
   slug: pynt-auth-api
-- description: The aws-marketplace API from Pynt — 2 operation(s) for aws-marketplace.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The aws-marketplace API from Pynt — 2 operation(s) for aws-marketplace.
   name: Pynt Aws Marketplace API
   slug: pynt-aws-marketplace-api
-- description: The config API from Pynt — 1 operation(s) for config.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The config API from Pynt — 1 operation(s) for config.
   name: Pynt Config API
   slug: pynt-config-api
-- description: The endpoint-group API from Pynt — 4 operation(s) for endpoint-group.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The endpoint-group API from Pynt — 4 operation(s) for endpoint-group.
   name: Pynt Endpoint Group API
   slug: pynt-endpoint-group-api
-- description: The endpoint-llm-analysis API from Pynt — 1 operation(s) for endpoint-llm-analysis.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The endpoint-llm-analysis API from Pynt — 1 operation(s) for endpoint-llm-analysis.
   name: Pynt Endpoint Llm Analysis API
   slug: pynt-endpoint-llm-analysis-api
-- description: The event-logs API from Pynt — 1 operation(s) for event-logs.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The event-logs API from Pynt — 1 operation(s) for event-logs.
   name: Pynt Event Logs API
   slug: pynt-event-logs-api
-- description: The evidence API from Pynt — 1 operation(s) for evidence.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The evidence API from Pynt — 1 operation(s) for evidence.
   name: Pynt Evidence API
   slug: pynt-evidence-api
-- description: The integrations API from Pynt — 1 operation(s) for integrations.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The integrations API from Pynt — 1 operation(s) for integrations.
   name: Pynt Integrations API
   slug: pynt-integrations-api
-- description: The invite API from Pynt — 4 operation(s) for invite.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The invite API from Pynt — 4 operation(s) for invite.
   name: Pynt Invite API
   slug: pynt-invite-api
-- description: The jobs API from Pynt — 1 operation(s) for jobs.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The jobs API from Pynt — 1 operation(s) for jobs.
   name: Pynt Jobs API
   slug: pynt-jobs-api
-- description: The legacy API from Pynt — 3 operation(s) for legacy.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The legacy API from Pynt — 3 operation(s) for legacy.
   name: Pynt Legacy API
   slug: pynt-legacy-api
-- description: The llm-prompt API from Pynt — 2 operation(s) for llm-prompt.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The llm-prompt API from Pynt — 2 operation(s) for llm-prompt.
   name: Pynt Llm Prompt API
   slug: pynt-llm-prompt-api
-- description: The nats API from Pynt — 3 operation(s) for nats.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The nats API from Pynt — 3 operation(s) for nats.
   name: Pynt Nats API
   slug: pynt-nats-api
-- description: The notification-rules API from Pynt — 2 operation(s) for notification-rules.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The notification-rules API from Pynt — 2 operation(s) for notification-rules.
   name: Pynt Notification Rules API
   slug: pynt-notification-rules-api
-- description: The organization API from Pynt — 4 operation(s) for organization.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The organization API from Pynt — 4 operation(s) for organization.
   name: Pynt Organization API
   slug: pynt-organization-api
-- description: The postman API from Pynt — 2 operation(s) for postman.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The postman API from Pynt — 2 operation(s) for postman.
   name: Pynt Postman API
   slug: pynt-postman-api
-- description: The postman-proxy API from Pynt — 1 operation(s) for postman-proxy.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The postman-proxy API from Pynt — 1 operation(s) for postman-proxy.
   name: Pynt Postman Proxy API
   slug: pynt-postman-proxy-api
-- description: The scan API from Pynt — 26 operation(s) for scan.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The scan API from Pynt — 26 operation(s) for scan.
   name: Pynt Scan API
   slug: pynt-scan-api
-- description: The scan-business-impact-analysis API from Pynt — 2 operation(s) for scan-business-impact-analysis.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The scan-business-impact-analysis API from Pynt — 2 operation(s) for scan-business-impact-analysis.
   name: Pynt Scan Business Impact Analysis API
   slug: pynt-scan-business-impact-analysis-api
-- description: The scan-false-positive-analysis API from Pynt — 2 operation(s) for scan-false-positive-analysis.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The scan-false-positive-analysis API from Pynt — 2 operation(s) for scan-false-positive-analysis.
   name: Pynt Scan False Positive Analysis API
   slug: pynt-scan-false-positive-analysis-api
-- description: The scan-profile API from Pynt — 1 operation(s) for scan-profile.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The scan-profile API from Pynt — 1 operation(s) for scan-profile.
   name: Pynt Scan Profile API
   slug: pynt-scan-profile-api
-- description: The scan-schedule API from Pynt — 4 operation(s) for scan-schedule.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The scan-schedule API from Pynt — 4 operation(s) for scan-schedule.
   name: Pynt Scan Schedule API
   slug: pynt-scan-schedule-api
-- description: The tag API from Pynt — 1 operation(s) for tag.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The tag API from Pynt — 1 operation(s) for tag.
   name: Pynt Tag API
   slug: pynt-tag-api
-- description: The ticketing API from Pynt — 3 operation(s) for ticketing.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The ticketing API from Pynt — 3 operation(s) for ticketing.
   name: Pynt Ticketing API
   slug: pynt-ticketing-api
-- description: The traffic-collector API from Pynt — 2 operation(s) for traffic-collector.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The traffic-collector API from Pynt — 2 operation(s) for traffic-collector.
   name: Pynt Traffic Collector API
   slug: pynt-traffic-collector-api
-- description: The traffic-filter API from Pynt — 1 operation(s) for traffic-filter.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The traffic-filter API from Pynt — 1 operation(s) for traffic-filter.
   name: Pynt Traffic Filter API
   slug: pynt-traffic-filter-api
-- description: The user API from Pynt — 3 operation(s) for user.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The user API from Pynt — 3 operation(s) for user.
   name: Pynt User API
   slug: pynt-user-api
-- description: The vulnerability-instance API from Pynt — 5 operation(s) for vulnerability-instance.
+- baseURL: https://api.pynt.io
+  baseurl_source: declared
+  description: The vulnerability-instance API from Pynt — 5 operation(s) for vulnerability-instance.
   name: Pynt Vulnerability Instance API
   slug: pynt-vulnerability-instance-api
 artifact_total: 40
@@ -300,23 +364,23 @@ rate_limits:
   slug: pynt-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 50.5
   coverage:
     artifact_dirs: 22
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.0
+  delta: 0.1
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 4.5
-    contract_quality: 58.8
+    contract_quality: 59.3
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 52.4
+  previous_composite: 50.4
   provenance:
     conformance: derived
     contracts:
@@ -327,7 +391,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pynt/refs/heads/main/screenshots/pynt-2026-06-20T192329.png
 security:

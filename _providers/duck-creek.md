@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -47,28 +47,42 @@ apis:
 - description: 'Duck Creek Policy Administration API enables product configuration, premium calculation, policy lifecycle management, and policy issuance for P&C and specialty insurance carriers. Supports end-to-end '
   name: Duck Creek Policy Administration API
   slug: duck-creek-policy-api
-- description: Duck Creek Billing API provides billing operations for insurance carriers including invoice generation, payment processing, installment plans, and billing account management.
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Duck Creek Billing API provides billing operations for insurance carriers including invoice generation, payment processing, installment plans, and billing account management.
   name: Duck Creek Billing API
   slug: duck-creek-billing-api
-- description: Duck Creek Claims API supports claims intake, adjudication workflow, reserve management, and payment processing for P&C insurance carriers. Enables integration with third-party claims services and dat
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Duck Creek Claims API supports claims intake, adjudication workflow, reserve management, and payment processing for P&C insurance carriers. Enables integration with third-party claims services and dat
   name: Duck Creek Claims API
   slug: duck-creek-claims-api
 - description: Duck Creek Payments Orchestrator API enables insurance carriers to orchestrate payment workflows including premium collection and claims disbursements. Provides reference documentation and how-to guid
   name: Duck Creek Payments Orchestrator API
   slug: duck-creek-payments-api
-- description: Billing account and invoice management
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Billing account and invoice management
   name: duck-creek Billing API
   slug: duck-creek-billing-api
-- description: Claims intake and management
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Claims intake and management
   name: duck-creek Claims API
   slug: duck-creek-claims-api
-- description: Insurance policy lifecycle management
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Insurance policy lifecycle management
   name: duck-creek Policies API
   slug: duck-creek-policies-api
-- description: Insurance product definitions and configuration
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Insurance product definitions and configuration
   name: duck-creek Products API
   slug: duck-creek-products-api
-- description: Policy quoting and rating
+- baseURL: https://api.duckcreek.com
+  baseurl_source: declared
+  description: Policy quoting and rating
   name: duck-creek Quotes API
   slug: duck-creek-quotes-api
 artifact_total: 52
@@ -265,16 +279,16 @@ jsonld:
   slug: duck-creek-context
 layout: provider
 modified: '2026-05-19'
-name: duck-creek
+name: Duck Creek
 nav: Providers
 network: true
-overview: 'duck-creek publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Duck Creek Billing API, Duck Creek Claims API, Billing API, and 4 more.
+overview: 'Duck Creek publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Claims API, duck-creek Billing API, and 4 more.
 
 
-  The duck-creek catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Duck Creek catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  duck-creek''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
+  Duck Creek''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Duck Creek Plans Pricing
   plan_count: 1
@@ -287,7 +301,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: duck-creek API Rules
+  name: Duck Creek API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -328,10 +342,10 @@ score:
       total: 5
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png
 security:

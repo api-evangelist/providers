@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: The Activity API from Teamwork.com — 1 operation(s) for activity.
+- baseURL: https://{site}.teamwork.com/projects/api/v3
+  baseurl_source: declared
+  description: The Activity API from Teamwork.com — 1 operation(s) for activity.
   name: Teamwork.com Activity API
   slug: teamwork-activity-api
-- description: The Projects API from Teamwork.com — 1 operation(s) for projects.
+- baseURL: https://{site}.teamwork.com/projects/api/v3
+  baseurl_source: declared
+  description: The Projects API from Teamwork.com — 1 operation(s) for projects.
   name: Teamwork.com Projects API
   slug: teamwork-projects-api
-- description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
+- baseURL: https://{site}.teamwork.com/projects/api/v3
+  baseurl_source: declared
+  description: The Tasks API from Teamwork.com — 1 operation(s) for tasks.
   name: Teamwork.com Tasks API
   slug: teamwork-tasks-api
 artifact_total: 11
@@ -152,7 +169,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamwork/refs/heads/main/screenshots/teamwork-2026-06-20T195100.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: The CFTC publishes monthly Bank Participation reports and other aggregate large trader reports that complement the weekly COT data. These reports are released as PDFs and HTML tables on cftc.gov.
   name: CFTC Bank Participation and Large Trader Reports
   slug: cftc-large-trader-reporting
-- description: Commitments of Traders datasets
+- baseURL: https://publicreporting.cftc.gov/resource
+  baseurl_source: declared
+  description: Commitments of Traders datasets
   name: Commodity Futures Trading Commission COT API
   slug: commodity-futures-trading-commission-cot-api
 artifact_total: 19
@@ -212,7 +214,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

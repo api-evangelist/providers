@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 26 operations · 15 acting
 api_count: 1
 apis:
-- description: Generate, store, and retrieve documents.
+- baseURL: https://us1.pdfgeneratorapi.com/api/v4
+  baseurl_source: declared
+  description: Generate, store, and retrieve documents.
   name: PDF Generator API Documents API
   slug: pdfgeneratorapi-documents-api
-- description: Manage reusable document templates and the template editor.
+- baseURL: https://us1.pdfgeneratorapi.com/api/v4
+  baseurl_source: declared
+  description: Manage reusable document templates and the template editor.
   name: PDF Generator API Templates API
   slug: pdfgeneratorapi-templates-api
-- description: Manage multi-tenant workspaces within the organization.
+- baseURL: https://us1.pdfgeneratorapi.com/api/v4
+  baseurl_source: declared
+  description: Manage multi-tenant workspaces within the organization.
   name: PDF Generator API Workspaces API
   slug: pdfgeneratorapi-workspaces-api
 artifact_total: 14
@@ -167,7 +173,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdfgeneratorapi/refs/heads/main/screenshots/pdfgeneratorapi-2026-08-07T191716.png
 security:

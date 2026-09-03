@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,13 +47,19 @@ apis:
 - description: REST API for scheduling and publishing social posts across Instagram, Facebook, TikTok, Pinterest, X (Twitter), and YouTube. Multi-network, multi-account, single key.
   name: dopost Social Media Scheduler API
   slug: dopost-social-media-scheduler-api
-- description: Upload, list, and delete media assets used in posts.
+- baseURL: https://dopost.co
+  baseurl_source: declared
+  description: Upload, list, and delete media assets used in posts.
   name: dopost Media API
   slug: dopost-co-media-api
-- description: Schedule, retrieve, reschedule, and delete posts across connected networks.
+- baseURL: https://dopost.co
+  baseurl_source: declared
+  description: Schedule, retrieve, reschedule, and delete posts across connected networks.
   name: dopost Posts API
   slug: dopost-co-posts-api
-- description: Inspect connected social accounts and per-network posting limits.
+- baseURL: https://dopost.co
+  baseurl_source: declared
+  description: Inspect connected social accounts and per-network posting limits.
   name: dopost Social Accounts API
   slug: dopost-co-social-accounts-api
 artifact_total: 24
@@ -228,7 +234,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopost-co/refs/heads/main/screenshots/dopost-co-2026-06-20T180157.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 5 operations
 api_count: 1
 apis:
-- description: Quality-checked climate data at multiple aggregation levels.
+- baseURL: https://opendataapi.dmi.dk/v2
+  baseurl_source: declared
+  description: Quality-checked climate data at multiple aggregation levels.
   name: Danish Meteorological Institutes climateData API
   slug: danish-meteorological-institutes-climatedata-api
-- description: Lightning strike observations.
+- baseURL: https://opendataapi.dmi.dk/v2
+  baseurl_source: declared
+  description: Lightning strike observations.
   name: Danish Meteorological Institutes lightningData API
   slug: danish-meteorological-institutes-lightningdata-api
-- description: Raw weather observations from Danish and Greenlandic stations.
+- baseURL: https://opendataapi.dmi.dk/v2
+  baseurl_source: declared
+  description: Raw weather observations from Danish and Greenlandic stations.
   name: Danish Meteorological Institutes metObs API
   slug: danish-meteorological-institutes-metobs-api
-- description: Sea-level and water-temperature observations.
+- baseURL: https://opendataapi.dmi.dk/v2
+  baseurl_source: declared
+  description: Sea-level and water-temperature observations.
   name: Danish Meteorological Institutes oceanObs API
   slug: danish-meteorological-institutes-oceanobs-api
 artifact_total: 22
@@ -220,7 +228,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danish-meteorological-institutes/refs/heads/main/screenshots/danish-meteorological-institutes-2026-06-20T175450.png
 security:

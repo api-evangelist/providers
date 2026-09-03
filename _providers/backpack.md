@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -46,46 +46,74 @@ apis:
 - description: Backpack Wallet is a self-custodial multichain wallet for Solana, Ethereum, and Bitcoin, originally built around the xNFT (executable NFT) protocol that lets dApps run as plugins inside the wallet. Av
   name: Backpack Wallet
   slug: backpack-wallet
-- description: Account settings and limits.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Account settings and limits.
   name: Backpack Account API
   slug: backpack-account-api
-- description: Assets and collateral data.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Assets and collateral data.
   name: Backpack Assets API
   slug: backpack-assets-api
-- description: Borrowing and lending.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Borrowing and lending.
   name: Backpack Borrow Lend API
   slug: backpack-borrow-lend-api
-- description: Borrowing and lending.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Borrowing and lending.
   name: Backpack Borrow Lend Markets API
   slug: backpack-borrow-lend-markets-api
-- description: Capital management.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Capital management.
   name: Backpack Capital API
   slug: backpack-capital-api
-- description: Public market data.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Public market data.
   name: Backpack Markets API
   slug: backpack-markets-api
-- description: Order management.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Order management.
   name: Backpack Order API
   slug: backpack-order-api
-- description: Positions and futures data.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Positions and futures data.
   name: Backpack Position API
   slug: backpack-position-api
-- description: RFQ (Request For Quote) - Maker.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: RFQ (Request For Quote) - Maker.
   name: Backpack RFQ API
   slug: backpack-rfq-api
-- description: Strategies.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Strategies.
   name: Backpack Strategy API
   slug: backpack-strategy-api
-- description: Exchange system status.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Exchange system status.
   name: Backpack System API
   slug: backpack-system-api
-- description: Public trade data.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Public trade data.
   name: Backpack Trades API
   slug: backpack-trades-api
-- description: Vault data.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Vault data.
   name: Backpack Vaults API
   slug: backpack-vaults-api
-- description: Withdrawal delays.
+- baseURL: https://api.backpack.exchange
+  baseurl_source: declared
+  description: Withdrawal delays.
   name: Backpack Withdrawal Delays API
   slug: backpack-withdrawal-delays-api
 arazzos:
@@ -482,7 +510,7 @@ score:
     catalog_gap: 25.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -495,7 +523,7 @@ score:
   open_source:
     applies: true
     score: 60.0
-  previous_composite: 55.6
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -510,7 +538,7 @@ score:
     regime_id: payments
     score: 32.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:

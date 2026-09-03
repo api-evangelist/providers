@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Create and manage locations (stores, franchises, offices) inside the Benevity ecosystem - address data, contact information, and tags - so multi-location organizations can attribute giving and volunte
   name: Benevity Location Services API
   slug: benevity-location-services-api
-- description: The Authorization API from Benevity — 1 operation(s) for authorization.
+- baseURL: https://skyline.benevity.org
+  baseurl_source: declared
+  description: The Authorization API from Benevity — 1 operation(s) for authorization.
   name: Benevity Authorization API
   slug: benevity-authorization-api
-- description: The Causes API from Benevity — 1 operation(s) for causes.
+- baseURL: https://skyline.benevity.org
+  baseurl_source: declared
+  description: The Causes API from Benevity — 1 operation(s) for causes.
   name: Benevity Causes API
   slug: benevity-causes-api
-- description: The Giving API from Benevity — 2 operation(s) for giving.
+- baseURL: https://skyline.benevity.org
+  baseurl_source: declared
+  description: The Giving API from Benevity — 2 operation(s) for giving.
   name: Benevity Giving API
   slug: benevity-giving-api
-- description: The Receipts API from Benevity — 2 operation(s) for receipts.
+- baseURL: https://skyline.benevity.org
+  baseurl_source: declared
+  description: The Receipts API from Benevity — 2 operation(s) for receipts.
   name: Benevity Receipts API
   slug: benevity-receipts-api
-- description: The Spark API from Benevity — 2 operation(s) for spark.
+- baseURL: https://skyline.benevity.org
+  baseurl_source: declared
+  description: The Spark API from Benevity — 2 operation(s) for spark.
   name: Benevity Spark API
   slug: benevity-spark-api
 artifact_total: 21
@@ -182,7 +192,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benevity/refs/heads/main/screenshots/benevity-2026-07-25T202731.png
 security:

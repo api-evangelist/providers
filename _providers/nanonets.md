@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,34 +44,54 @@ agentic_access:
   summary_line: 20 operations · 16 acting
 api_count: 3
 apis:
-- description: List external integrations connected to a Nanonets account (Postgres, MySQL, MSSQL, MongoDB, and other databases) and execute generic SQL queries against them in the context of a Nanonets workflow. Us
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: List external integrations connected to a Nanonets account (Postgres, MySQL, MSSQL, MongoDB, and other databases) and execute generic SQL queries against them in the context of a Nanonets workflow. Us
   name: Nanonets External Integrations API
   slug: nanonets-external-integrations-api
-- description: Assign files to reviewers.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Assign files to reviewers.
   name: Nanonets File Assignment API
   slug: nanonets-file-assignment-api
-- description: Delete a processed file.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Delete a processed file.
   name: Nanonets File Delete API
   slug: nanonets-file-delete-api
-- description: Retry exports to configured downstream destinations.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Retry exports to configured downstream destinations.
   name: Nanonets File Export API
   slug: nanonets-file-export-api
-- description: Approve and unapprove files post-extraction.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Approve and unapprove files post-extraction.
   name: Nanonets File Review API
   slug: nanonets-file-review-api
-- description: Update or add extracted field values on a file.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Update or add extracted field values on a file.
   name: Nanonets File Update API
   slug: nanonets-file-update-api
-- description: Predict on uploaded images or image URLs against a classification model.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Predict on uploaded images or image URLs against a classification model.
   name: Nanonets Image Classification Predict API
   slug: nanonets-image-classification-predict-api
-- description: Predict on uploaded files or file URLs against a Nanonets OCR model.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Predict on uploaded files or file URLs against a Nanonets OCR model.
   name: Nanonets OCR Predict API
   slug: nanonets-ocr-predict-api
-- description: Retrieve prediction results for a file, page, or batch.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Retrieve prediction results for a file, page, or batch.
   name: Nanonets OCR Retrieve API
   slug: nanonets-ocr-retrieve-api
-- description: Upload training images and train or retrain an OCR model.
+- baseURL: https://app.nanonets.com
+  baseurl_source: spec
+  description: Upload training images and train or retrain an OCR model.
   name: Nanonets OCR Train API
   slug: nanonets-ocr-train-api
 arazzos:
@@ -571,7 +591,7 @@ score:
     catalog_gap: 32.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -581,7 +601,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 60.3
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -590,7 +610,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
 security:

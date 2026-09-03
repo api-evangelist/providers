@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Geo-radius search for Blink charging station locations.
+- baseURL: https://api.blinknetwork.com/map/v1
+  baseurl_source: declared
+  description: Geo-radius search for Blink charging station locations.
   name: Blink Charging Locations API
   slug: blink-locations-api
-- description: Name-based search for Blink charging station locations.
+- baseURL: https://api.blinknetwork.com/map/v1
+  baseurl_source: declared
+  description: Name-based search for Blink charging station locations.
   name: Blink Charging Search API
   slug: blink-search-api
-- description: Live status lookup for a single Blink charging location.
+- baseURL: https://api.blinknetwork.com/map/v1
+  baseurl_source: declared
+  description: Live status lookup for a single Blink charging location.
   name: Blink Charging Status API
   slug: blink-status-api
 artifact_total: 10
@@ -149,7 +155,7 @@ score:
     regime_id: telecommunications
     score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/screenshots/blink-2026-07-25T203318.png
 security:

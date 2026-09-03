@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,9 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Generate one or more synthetic user records.
+- baseURL: https://randomuser.me/api
+  baseurl_source: declared
+  description: Generate one or more synthetic user records.
   name: Random User Generator Users API
   slug: randomuser-users-api
 artifact_total: 40
@@ -252,7 +254,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/randomuser/refs/heads/main/screenshots/randomuser-2026-06-20T192554.png
 security:

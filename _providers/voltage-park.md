@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 7
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 48 operations · 23 acting · 7 human-in-the-loop
 api_count: 1
 apis:
-- description: Provision and manage multi-node bare-metal GPU rentals and clusters.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Provision and manage multi-node bare-metal GPU rentals and clusters.
   name: Voltage Park Bare Metal API
   slug: voltage-park-bare-metal-api
-- description: Hourly rates and historical billing transactions.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Hourly rates and historical billing transactions.
   name: Voltage Park Billing API
   slug: voltage-park-billing-api
-- description: Locations, host nodes, and instant-deploy presets.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Locations, host nodes, and instant-deploy presets.
   name: Voltage Park Locations API
   slug: voltage-park-locations-api
-- description: Organization details, address, and SSH keys.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Organization details, address, and SSH keys.
   name: Voltage Park Organization API
   slug: voltage-park-organization-api
-- description: Shared storage volumes attachable to bare-metal rentals.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Shared storage volumes attachable to bare-metal rentals.
   name: Voltage Park Storage API
   slug: voltage-park-storage-api
-- description: Validate cloud-init scripts before deployment.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Validate cloud-init scripts before deployment.
   name: Voltage Park Validation API
   slug: voltage-park-validation-api
-- description: Deploy and manage on-demand GPU virtual machines and instant VMs.
+- baseURL: https://cloud-api.voltagepark.com/api/v1
+  baseurl_source: declared
+  description: Deploy and manage on-demand GPU virtual machines and instant VMs.
   name: Voltage Park Virtual Machines API
   slug: voltage-park-virtual-machines-api
 artifact_total: 23
@@ -172,7 +186,7 @@ score:
   band: thin
   composite: 35.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -195,8 +209,9 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/screenshots/voltage-park-2026-09-02T170221.png
 security:
 - kind: authentication
   name: Voltage Park Authentication

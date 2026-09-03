@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -47,61 +47,99 @@ apis:
 - description: Provides developer-level access to a library's information in the WorldCat Knowledge Base, combining data about a library's e-content with access through linking features. Supports OpenURL requests fo
   name: WorldCat Knowledge Base API
   slug: worldcat-knowledge-base-api
-- description: The Bibliographic Resources API from WorldCat — 6 operation(s) for bibliographic resources.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Bibliographic Resources API from WorldCat — 6 operation(s) for bibliographic resources.
   name: WorldCat Bibliographic Resources API
   slug: worldcat-bibliographic-resources-api
-- description: The Local Bib Resources API from WorldCat — 2 operation(s) for local bib resources.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Local Bib Resources API from WorldCat — 2 operation(s) for local bib resources.
   name: WorldCat Local Bib Resources API
   slug: worldcat-local-bib-resources-api
-- description: The Local Holdings Resources API from WorldCat — 3 operation(s) for local holdings resources.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Local Holdings Resources API from WorldCat — 3 operation(s) for local holdings resources.
   name: WorldCat Local Holdings Resources API
   slug: worldcat-local-holdings-resources-api
-- description: The Manage Bibliographic Records API from WorldCat — 5 operation(s) for manage bibliographic records.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Manage Bibliographic Records API from WorldCat — 5 operation(s) for manage bibliographic records.
   name: WorldCat Manage Bibliographic Records API
   slug: worldcat-manage-bibliographic-records-api
-- description: The Manage Institution API from WorldCat — 9 operation(s) for manage institution.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Manage Institution API from WorldCat — 9 operation(s) for manage institution.
   name: WorldCat Manage Institution API
   slug: worldcat-manage-institution-api
-- description: The Manage Local Bibliographic Data API from WorldCat — 2 operation(s) for manage local bibliographic data.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Manage Local Bibliographic Data API from WorldCat — 2 operation(s) for manage local bibliographic data.
   name: WorldCat Manage Local Bibliographic Data API
   slug: worldcat-manage-local-bibliographic-data-api
-- description: The Manage Local Holdings Records API from WorldCat — 2 operation(s) for manage local holdings records.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Manage Local Holdings Records API from WorldCat — 2 operation(s) for manage local holdings records.
   name: WorldCat Manage Local Holdings Records API
   slug: worldcat-manage-local-holdings-records-api
-- description: The Member Enabled Collections API from WorldCat — 2 operation(s) for member enabled collections.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Enabled Collections API from WorldCat — 2 operation(s) for member enabled collections.
   name: WorldCat Member Enabled Collections API
   slug: worldcat-member-enabled-collections-api
-- description: The Member Enabled Providers API from WorldCat — 2 operation(s) for member enabled providers.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Enabled Providers API from WorldCat — 2 operation(s) for member enabled providers.
   name: WorldCat Member Enabled Providers API
   slug: worldcat-member-enabled-providers-api
-- description: The Member Enabled Title by OpenURL API from WorldCat — 1 operation(s) for member enabled title by openurl.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Enabled Title by OpenURL API from WorldCat — 1 operation(s) for member enabled title by openurl.
   name: WorldCat Member Enabled Title by OpenURL API
   slug: worldcat-member-enabled-title-by-openurl-api
-- description: The Member Enabled Titles API from WorldCat — 2 operation(s) for member enabled titles.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Enabled Titles API from WorldCat — 2 operation(s) for member enabled titles.
   name: WorldCat Member Enabled Titles API
   slug: worldcat-member-enabled-titles-api
-- description: The Member Enabled Titles by OpenURL API from WorldCat — 1 operation(s) for member enabled titles by openurl.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Enabled Titles by OpenURL API from WorldCat — 1 operation(s) for member enabled titles by openurl.
   name: WorldCat Member Enabled Titles by OpenURL API
   slug: worldcat-member-enabled-titles-by-openurl-api
-- description: The Member General Holdings API from WorldCat — 3 operation(s) for member general holdings.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member General Holdings API from WorldCat — 3 operation(s) for member general holdings.
   name: WorldCat Member General Holdings API
   slug: worldcat-member-general-holdings-api
-- description: The Member Shared Print Holdings API from WorldCat — 1 operation(s) for member shared print holdings.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Member Shared Print Holdings API from WorldCat — 1 operation(s) for member shared print holdings.
   name: WorldCat Member Shared Print Holdings API
   slug: worldcat-member-shared-print-holdings-api
-- description: The Retrieve entity API from WorldCat — 1 operation(s) for retrieve entity.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Retrieve entity API from WorldCat — 1 operation(s) for retrieve entity.
   name: WorldCat Retrieve entity API
   slug: worldcat-retrieve-entity-api
-- description: The Search Bibliographic Resources API from WorldCat — 4 operation(s) for search bibliographic resources.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Search Bibliographic Resources API from WorldCat — 4 operation(s) for search bibliographic resources.
   name: WorldCat Search Bibliographic Resources API
   slug: worldcat-search-bibliographic-resources-api
-- description: The Search Local Holdings Resources API from WorldCat — 4 operation(s) for search local holdings resources.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Search Local Holdings Resources API from WorldCat — 4 operation(s) for search local holdings resources.
   name: WorldCat Search Local Holdings Resources API
   slug: worldcat-search-local-holdings-resources-api
-- description: The Search Member General Holdings API from WorldCat — 2 operation(s) for search member general holdings.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Search Member General Holdings API from WorldCat — 2 operation(s) for search member general holdings.
   name: WorldCat Search Member General Holdings API
   slug: worldcat-search-member-general-holdings-api
-- description: The Search Member Shared Print Holdings API from WorldCat — 1 operation(s) for search member shared print holdings.
+- baseURL: https://americas.discovery.api.oclc.org/worldcat/search/v2
+  baseurl_source: declared
+  description: The Search Member Shared Print Holdings API from WorldCat — 1 operation(s) for search member shared print holdings.
   name: WorldCat Search Member Shared Print Holdings API
   slug: worldcat-search-member-shared-print-holdings-api
 artifact_total: 53
@@ -320,7 +358,7 @@ score:
       marker_coverage: 0.0
       total: 19
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png
 security:

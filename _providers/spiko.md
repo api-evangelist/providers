@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 107 operations · 36 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: The Account transactions API from Spiko — 2 operation(s) for account transactions.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Account transactions API from Spiko — 2 operation(s) for account transactions.
   name: Spiko Account transactions API
   slug: spiko-account-transactions-api
-- description: The Accounting positions API from Spiko — 5 operation(s) for accounting positions.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Accounting positions API from Spiko — 5 operation(s) for accounting positions.
   name: Spiko Accounting positions API
   slug: spiko-accounting-positions-api
-- description: The Accounts API from Spiko — 7 operation(s) for accounts.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Accounts API from Spiko — 7 operation(s) for accounts.
   name: Spiko Accounts API
   slug: spiko-accounts-api
-- description: The Bank accounts API from Spiko — 5 operation(s) for bank accounts.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Bank accounts API from Spiko — 5 operation(s) for bank accounts.
   name: Spiko Bank accounts API
   slug: spiko-bank-accounts-api
-- description: The Deposit orders API from Spiko — 8 operation(s) for deposit orders.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Deposit orders API from Spiko — 8 operation(s) for deposit orders.
   name: Spiko Deposit orders API
   slug: spiko-deposit-orders-api
-- description: The Distributor investor contracts API from Spiko — 4 operation(s) for distributor investor contracts.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Distributor investor contracts API from Spiko — 4 operation(s) for distributor investor contracts.
   name: Spiko Distributor investor contracts API
   slug: spiko-distributor-investor-contracts-api
-- description: The Distributors API from Spiko — 2 operation(s) for distributors.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Distributors API from Spiko — 2 operation(s) for distributors.
   name: Spiko Distributors API
   slug: spiko-distributors-api
-- description: The Exchange Rates API from Spiko — 2 operation(s) for exchange rates.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Exchange Rates API from Spiko — 2 operation(s) for exchange rates.
   name: Spiko Exchange Rates API
   slug: spiko-exchange-rates-api
-- description: The Fund Assets API from Spiko — 1 operation(s) for fund assets.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Fund Assets API from Spiko — 1 operation(s) for fund assets.
   name: Spiko Fund Assets API
   slug: spiko-fund-assets-api
-- description: The Funds API from Spiko — 2 operation(s) for funds.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Funds API from Spiko — 2 operation(s) for funds.
   name: Spiko Funds API
   slug: spiko-funds-api
-- description: The Index Values API from Spiko — 2 operation(s) for index values.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Index Values API from Spiko — 2 operation(s) for index values.
   name: Spiko Index Values API
   slug: spiko-index-values-api
-- description: The Investor Documents API from Spiko — 2 operation(s) for investor documents.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Investor Documents API from Spiko — 2 operation(s) for investor documents.
   name: Spiko Investor Documents API
   slug: spiko-investor-documents-api
-- description: The Investor tokens API from Spiko — 1 operation(s) for investor tokens.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Investor tokens API from Spiko — 1 operation(s) for investor tokens.
   name: Spiko Investor tokens API
   slug: spiko-investor-tokens-api
-- description: The Investors API from Spiko — 5 operation(s) for investors.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Investors API from Spiko — 5 operation(s) for investors.
   name: Spiko Investors API
   slug: spiko-investors-api
-- description: The Net Asset Values API from Spiko — 3 operation(s) for net asset values.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Net Asset Values API from Spiko — 3 operation(s) for net asset values.
   name: Spiko Net Asset Values API
   slug: spiko-net-asset-values-api
-- description: The Portfolio API from Spiko — 2 operation(s) for portfolio.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Portfolio API from Spiko — 2 operation(s) for portfolio.
   name: Spiko Portfolio API
   slug: spiko-portfolio-api
-- description: The Portfolios API from Spiko — 1 operation(s) for portfolios.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Portfolios API from Spiko — 1 operation(s) for portfolios.
   name: Spiko Portfolios API
   slug: spiko-portfolios-api
-- description: The Redemption Orders (deprecated) API from Spiko — 3 operation(s) for redemption orders (deprecated).
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Redemption Orders (deprecated) API from Spiko — 3 operation(s) for redemption orders (deprecated).
   name: Spiko Redemption Orders (deprecated) API
   slug: spiko-redemption-orders-deprecated-api
-- description: The Share Classes API from Spiko — 5 operation(s) for share classes.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Share Classes API from Spiko — 5 operation(s) for share classes.
   name: Spiko Share Classes API
   slug: spiko-share-classes-api
-- description: The Subscription Orders (deprecated) API from Spiko — 3 operation(s) for subscription orders (deprecated).
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Subscription Orders (deprecated) API from Spiko — 3 operation(s) for subscription orders (deprecated).
   name: Spiko Subscription Orders (deprecated) API
   slug: spiko-subscription-orders-deprecated-api
-- description: The Transfer Orders API from Spiko — 2 operation(s) for transfer orders.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Transfer Orders API from Spiko — 2 operation(s) for transfer orders.
   name: Spiko Transfer Orders API
   slug: spiko-transfer-orders-api
-- description: The Users API from Spiko — 6 operation(s) for users.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Users API from Spiko — 6 operation(s) for users.
   name: Spiko Users API
   slug: spiko-users-api
-- description: The Wallets API from Spiko — 1 operation(s) for wallets.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Wallets API from Spiko — 1 operation(s) for wallets.
   name: Spiko Wallets API
   slug: spiko-wallets-api
-- description: The Webhook Configurations API from Spiko — 5 operation(s) for webhook configurations.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Webhook Configurations API from Spiko — 5 operation(s) for webhook configurations.
   name: Spiko Webhook Configurations API
   slug: spiko-webhook-configurations-api
-- description: The Webhook Events API from Spiko — 1 operation(s) for webhook events.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Webhook Events API from Spiko — 1 operation(s) for webhook events.
   name: Spiko Webhook Events API
   slug: spiko-webhook-events-api
-- description: The Withdrawal orders API from Spiko — 7 operation(s) for withdrawal orders.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Withdrawal orders API from Spiko — 7 operation(s) for withdrawal orders.
   name: Spiko Withdrawal orders API
   slug: spiko-withdrawal-orders-api
-- description: The Yields API from Spiko — 3 operation(s) for yields.
+- baseURL: https://public-api.spiko.io/v0
+  baseurl_source: declared
+  description: The Yields API from Spiko — 3 operation(s) for yields.
   name: Spiko Yields API
   slug: spiko-yields-api
 artifact_total: 61
@@ -388,7 +442,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
@@ -398,7 +452,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 55.0
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -420,7 +474,7 @@ score:
     regime_id: payments
     score: 62.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiko/refs/heads/main/screenshots/spiko-2026-08-17T082026.png
 security:

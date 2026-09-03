@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,46 +36,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
   name: Elemental Machines Website MCP Server
   slug: elemental-machines-website-mcp-server
-- description: The Alert Logs API from Elemental Machines — 1 operation(s) for alert logs.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Alert Logs API from Elemental Machines — 1 operation(s) for alert logs.
   name: Elemental Machines Alert Logs API
   slug: elemental-machines-alert-logs-api
-- description: The Alert Rules API from Elemental Machines — 1 operation(s) for alert rules.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Alert Rules API from Elemental Machines — 1 operation(s) for alert rules.
   name: Elemental Machines Alert Rules API
   slug: elemental-machines-alert-rules-api
-- description: The Authentication API from Elemental Machines — 1 operation(s) for authentication.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Authentication API from Elemental Machines — 1 operation(s) for authentication.
   name: Elemental Machines Authentication API
   slug: elemental-machines-authentication-api
-- description: The Groups API from Elemental Machines — 2 operation(s) for groups.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Groups API from Elemental Machines — 2 operation(s) for groups.
   name: Elemental Machines Groups API
   slug: elemental-machines-groups-api
-- description: The Machines API from Elemental Machines — 2 operation(s) for machines.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Machines API from Elemental Machines — 2 operation(s) for machines.
   name: Elemental Machines Machines API
   slug: elemental-machines-machines-api
-- description: The Machines Sample Stats API from Elemental Machines — 1 operation(s) for machines sample stats.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Machines Sample Stats API from Elemental Machines — 1 operation(s) for machines sample stats.
   name: Elemental Machines Machines Sample Stats API
   slug: elemental-machines-machines-sample-stats-api
-- description: The Machines Samples API from Elemental Machines — 1 operation(s) for machines samples.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Machines Samples API from Elemental Machines — 1 operation(s) for machines samples.
   name: Elemental Machines Machines Samples API
   slug: elemental-machines-machines-samples-api
-- description: The Machines Usage API from Elemental Machines — 3 operation(s) for machines usage.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Machines Usage API from Elemental Machines — 3 operation(s) for machines usage.
   name: Elemental Machines Machines Usage API
   slug: elemental-machines-machines-usage-api
-- description: The Release Notes API from Elemental Machines — 1 operation(s) for release notes.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Release Notes API from Elemental Machines — 1 operation(s) for release notes.
   name: Elemental Machines Release Notes API
   slug: elemental-machines-release-notes-api
-- description: The Status API from Elemental Machines — 1 operation(s) for status.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Status API from Elemental Machines — 1 operation(s) for status.
   name: Elemental Machines Status API
   slug: elemental-machines-status-api
-- description: The User Activities API from Elemental Machines — 1 operation(s) for user activities.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The User Activities API from Elemental Machines — 1 operation(s) for user activities.
   name: Elemental Machines User Activities API
   slug: elemental-machines-user-activities-api
-- description: The Users API from Elemental Machines — 2 operation(s) for users.
+- baseURL: https://api.elementalmachines.io
+  baseurl_source: declared
+  description: The Users API from Elemental Machines — 2 operation(s) for users.
   name: Elemental Machines Users API
   slug: elemental-machines-users-api
 artifact_total: 21
@@ -248,7 +285,7 @@ score:
     regime_id: health
     score: 65.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:

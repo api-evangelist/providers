@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 21 operations · 11 acting
 api_count: 1
 apis:
-- description: The Authentication API from Preset — 1 operation(s) for authentication.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Authentication API from Preset — 1 operation(s) for authentication.
   name: Preset Authentication API
   slug: preset-authentication-api
-- description: The Charts API from Preset — 3 operation(s) for charts.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Charts API from Preset — 3 operation(s) for charts.
   name: Preset Charts API
   slug: preset-charts-api
-- description: The Dashboards API from Preset — 2 operation(s) for dashboards.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Dashboards API from Preset — 2 operation(s) for dashboards.
   name: Preset Dashboards API
   slug: preset-dashboards-api
-- description: The Databases API from Preset — 2 operation(s) for databases.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Databases API from Preset — 2 operation(s) for databases.
   name: Preset Databases API
   slug: preset-databases-api
-- description: The Datasets API from Preset — 2 operation(s) for datasets.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Datasets API from Preset — 2 operation(s) for datasets.
   name: Preset Datasets API
   slug: preset-datasets-api
-- description: The SQL Lab API from Preset — 1 operation(s) for sql lab.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The SQL Lab API from Preset — 1 operation(s) for sql lab.
   name: Preset SQL Lab API
   slug: preset-sql-lab-api
-- description: The Teams API from Preset — 1 operation(s) for teams.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Teams API from Preset — 1 operation(s) for teams.
   name: Preset Teams API
   slug: preset-teams-api
-- description: The Workspaces API from Preset — 2 operation(s) for workspaces.
+- baseURL: https://api.app.preset.io/v1
+  baseurl_source: declared
+  description: The Workspaces API from Preset — 2 operation(s) for workspaces.
   name: Preset Workspaces API
   slug: preset-workspaces-api
 artifact_total: 24
@@ -193,7 +209,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/screenshots/preset-2026-06-20T192138.png
 security:

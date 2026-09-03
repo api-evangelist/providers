@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: MOVE Bank Banking Account Balances API
   slug: move-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: MOVE Bank Banking Account Direct Debits API
   slug: move-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: MOVE Bank Banking Account Scheduled Payments API
   slug: move-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: MOVE Bank Banking Account Transactions API
   slug: move-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: MOVE Bank Banking Accounts API
   slug: move-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: MOVE Bank Banking Payees API
   slug: move-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://openbanking.movebank.com.au/OpenBanking/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: MOVE Bank Banking Products API
   slug: move-bank-banking-products-api
 arazzos:
@@ -257,7 +271,7 @@ score:
     regime_id: banking_open_finance
     score: 50.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

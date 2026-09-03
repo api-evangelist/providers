@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 1
 apis:
-- description: The Accounts API from Zoho Sign — 1 operation(s) for accounts.
+- baseURL: https://sign.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Accounts API from Zoho Sign — 1 operation(s) for accounts.
   name: Zoho Sign Accounts API
   slug: zoho-sign-accounts-api
-- description: The Requests API from Zoho Sign — 2 operation(s) for requests.
+- baseURL: https://sign.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Requests API from Zoho Sign — 2 operation(s) for requests.
   name: Zoho Sign Requests API
   slug: zoho-sign-requests-api
-- description: The Templates API from Zoho Sign — 2 operation(s) for templates.
+- baseURL: https://sign.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Templates API from Zoho Sign — 2 operation(s) for templates.
   name: Zoho Sign Templates API
   slug: zoho-sign-templates-api
-- description: The Users API from Zoho Sign — 1 operation(s) for users.
+- baseURL: https://sign.zoho.com/api/v1
+  baseurl_source: declared
+  description: The Users API from Zoho Sign — 1 operation(s) for users.
   name: Zoho Sign Users API
   slug: zoho-sign-users-api
 artifact_total: 23
@@ -228,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: REST API for document extraction (sync/async, single-document or portfolio), classification, fill, generation and configuration management. Bearer-token auth.
   name: Sensible REST API
   slug: rest
-- description: Account-related resources
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Account-related resources
   name: Sensible Account API
   slug: sensible-io-account-api
-- description: Document type classification
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Document type classification
   name: Sensible Classify API
   slug: sensible-io-classify-api
-- description: Manage document type configs (SenseML)
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Manage document type configs (SenseML)
   name: Sensible Configs API
   slug: sensible-io-configs-api
-- description: Manage document types
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Manage document types
   name: Sensible Document Types API
   slug: sensible-io-document-types-api
-- description: Retrieve documents and extractions
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Retrieve documents and extractions
   name: Sensible Documents API
   slug: sensible-io-documents-api
-- description: Document data extraction
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Document data extraction
   name: Sensible Extract API
   slug: sensible-io-extract-api
-- description: Manage reference documents per type
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Manage reference documents per type
   name: Sensible Reference Documents API
   slug: sensible-io-reference-documents-api
-- description: Generate upload URLs for documents
+- baseURL: https://api.sensible.so/v0
+  baseurl_source: declared
+  description: Generate upload URLs for documents
   name: Sensible Upload API
   slug: sensible-io-upload-api
 artifact_total: 27
@@ -216,7 +232,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/screenshots/sensible-io-2026-06-20T193703.png
 security:

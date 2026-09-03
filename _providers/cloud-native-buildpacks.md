@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: The Buildpack API is the contract between a buildpack and the lifecycle. It defines the detect and build executables, layers, build-plan provisions and requirements, and image extension lifecycle that
@@ -159,7 +159,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-native-buildpacks/refs/heads/main/screenshots/cloud-native-buildpacks-2026-06-20T174537.png
 security:

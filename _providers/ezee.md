@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: The Inventory and Rates API from eZee Technosys — 1 operation(s) for inventory and rates.
+- baseURL: https://live.ipms247.com/pmsinterface/
+  baseurl_source: declared
+  description: The Inventory and Rates API from eZee Technosys — 1 operation(s) for inventory and rates.
   name: eZee Technosys Inventory and Rates API
   slug: ezee-inventory-and-rates-api
-- description: The PMS Connectivity API from eZee Technosys — 1 operation(s) for pms connectivity.
+- baseURL: https://live.ipms247.com/pmsinterface/
+  baseurl_source: declared
+  description: The PMS Connectivity API from eZee Technosys — 1 operation(s) for pms connectivity.
   name: eZee Technosys PMS Connectivity API
   slug: ezee-pms-connectivity-api
 artifact_total: 13
@@ -157,7 +161,7 @@ score:
       marker_coverage: 100.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezee/refs/heads/main/screenshots/ezee-2026-07-25T214046.png
 security:

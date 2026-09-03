@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -44,73 +44,119 @@ agentic_access:
   summary_line: 83 operations · 41 acting
 api_count: 1
 apis:
-- description: The Thinkific Webhooks API (v2) provides real-time event-driven notifications for site events including user creation, enrollment changes, order processing, product updates, lead captures, payment eve
+- baseURL: https://api.thinkific.com/api/v2
+  baseurl_source: declared
+  description: The Thinkific Webhooks API (v2) provides real-time event-driven notifications for site events including user creation, enrollment changes, order processing, product updates, lead captures, payment eve
   name: Thinkific Webhooks API
   slug: webhooks-api
-- description: Bundle operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Bundle operations
   name: Thinkific Bundles API
   slug: thinkific-bundles-api
-- description: Categories operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Categories operations
   name: Thinkific Categories API
   slug: thinkific-categories-api
-- description: Category Memberships operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Category Memberships operations
   name: Thinkific Category Memberships API
   slug: thinkific-category-memberships-api
-- description: Chapters operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Chapters operations
   name: Thinkific Chapters API
   slug: thinkific-chapters-api
-- description: Contents operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Contents operations
   name: Thinkific Contents API
   slug: thinkific-contents-api
-- description: Coupons operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Coupons operations
   name: Thinkific Coupons API
   slug: thinkific-coupons-api
-- description: Course Reviews operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Course Reviews operations
   name: Thinkific Course Reviews API
   slug: thinkific-course-reviews-api
-- description: Courses operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Courses operations
   name: Thinkific Courses API
   slug: thinkific-courses-api
-- description: Custom Profile Field Definitions
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Custom Profile Field Definitions
   name: Thinkific Custom Profile Field Definitions API
   slug: thinkific-custom-profile-field-definitions-api
-- description: Enrollments operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Enrollments operations
   name: Thinkific Enrollments API
   slug: thinkific-enrollments-api
-- description: Events operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Events operations
   name: Thinkific Events API
   slug: thinkific-events-api
-- description: Please note that any External Orders created through the API do not appear on the orders report or dashboard in your Thinkific site. Using the External Orders endpoints will simply store the informati
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Please note that any External Orders created through the API do not appear on the orders report or dashboard in your Thinkific site. Using the External Orders endpoints will simply store the informati
   name: Thinkific External Orders API
   slug: thinkific-external-orders-api
-- description: Group Analyst operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Group Analyst operations
   name: Thinkific Group Analysts API
   slug: thinkific-group-analysts-api
-- description: Group Users operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Group Users operations
   name: Thinkific Group Users API
   slug: thinkific-group-users-api
-- description: Groups operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Groups operations
   name: Thinkific Groups API
   slug: thinkific-groups-api
-- description: Instructors operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Instructors operations
   name: Thinkific Instructors API
   slug: thinkific-instructors-api
-- description: Orders operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Orders operations
   name: Thinkific Orders API
   slug: thinkific-orders-api
-- description: Product Publish Request operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Product Publish Request operations
   name: Thinkific Product Publish Request API
   slug: thinkific-product-publish-request-api
-- description: Products operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Products operations
   name: Thinkific Products API
   slug: thinkific-products-api
-- description: Promotions operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Promotions operations
   name: Thinkific Promotions API
   slug: thinkific-promotions-api
-- description: Site Scripts operations [Scope Required](https://developers.thinkific.com/building-apps/site-scripts/#oauth-scope)
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Site Scripts operations [Scope Required](https://developers.thinkific.com/building-apps/site-scripts/#oauth-scope)
   name: Thinkific Site Scripts API
   slug: thinkific-site-scripts-api
-- description: Users operations
+- baseURL: https://api.thinkific.com/api/public/v1
+  baseurl_source: declared
+  description: Users operations
   name: Thinkific Users API
   slug: thinkific-users-api
 artifact_total: 89
@@ -449,7 +495,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thinkific/refs/heads/main/screenshots/thinkific-2026-06-20T195305.png
 security:

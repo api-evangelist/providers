@@ -23,19 +23,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Public ASN directory. No key, no credit.
+- baseURL: https://api.lookip.io
+  baseurl_source: declared
+  description: Public ASN directory. No key, no credit.
   name: Lookip ASN API
   slug: lookip-asn-api
-- description: Up to 100 addresses per call.
+- baseURL: https://api.lookip.io
+  baseurl_source: declared
+  description: Up to 100 addresses per call.
   name: Lookip Batch API
   slug: lookip-batch-api
-- description: Single-address lookups.
+- baseURL: https://api.lookip.io
+  baseurl_source: declared
+  description: Single-address lookups.
   name: Lookip Lookup API
   slug: lookip-lookup-api
-- description: Service index, liveness and this document.
+- baseURL: https://api.lookip.io
+  baseurl_source: declared
+  description: Service index, liveness and this document.
   name: Lookip Service API
   slug: lookip-service-api
 artifact_total: 4
@@ -84,7 +92,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_gap: 85.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -106,8 +114,9 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lookip/refs/heads/main/screenshots/lookip-2026-09-02T150318.png
 slug: lookip
 tags:
 - IP Lookup

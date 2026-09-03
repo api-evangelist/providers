@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 1
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 221 operations · 119 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: An object containing the details of an Agent. <SchemaDefinition schemaRef="#/components/schemas/Agent" />
+- baseURL: https://api.humanitec.io
+  baseurl_source: declared
+  description: An object containing the details of an Agent. <SchemaDefinition schemaRef="#/components/schemas/Agent" />
   name: Humanitec Agents API
   slug: humanitec-agents-api
-- description: The public API from Humanitec — 141 operation(s) for public.
+- baseURL: https://api.humanitec.io
+  baseurl_source: declared
+  description: The public API from Humanitec — 141 operation(s) for public.
   name: Humanitec public API
   slug: humanitec-public-api
-- description: Holds the mapping of role for a subject on a particular object. <SchemaDefinition schemaRef="#/components/schemas/UserRoleRequest" />
+- baseURL: https://api.humanitec.io
+  baseurl_source: declared
+  description: Holds the mapping of role for a subject on a particular object. <SchemaDefinition schemaRef="#/components/schemas/UserRoleRequest" />
   name: Humanitec UserRole API
   slug: humanitec-userrole-api
 artifact_total: 55
@@ -292,7 +298,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/screenshots/humanitec-2026-06-20T182935.png
 security:

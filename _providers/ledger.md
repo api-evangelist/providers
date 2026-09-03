@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
 - description: Bi-directional JSON-RPC 2.0 interface between a Live App (dApp) and a wallet implementing the Wallet API Server, such as Ledger Wallet. Currency-agnostic modules for accounts, currencies, transactions
@@ -32,124 +45,204 @@ apis:
 - description: TypeScript SDK for discovering, connecting to and driving Ledger hardware signers over WebHID, Bluetooth, USB and Speculos — sessions, device state, app management, APDU exchange and chain-specific si
   name: Ledger Device Management Kit
   slug: ledger-device-management-kit
-- description: The 4337 API from Ledger — 5 operation(s) for 4337.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The 4337 API from Ledger — 5 operation(s) for 4337.
   name: Ledger 4337 API
   slug: ledger-4337-api
-- description: The Accounts API from Ledger — 17 operation(s) for accounts.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Accounts API from Ledger — 17 operation(s) for accounts.
   name: Ledger Accounts API
   slug: ledger-accounts-api
-- description: The Authentication API from Ledger — 2 operation(s) for authentication.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Authentication API from Ledger — 2 operation(s) for authentication.
   name: Ledger Authentication API
   slug: ledger-authentication-api
-- description: The Buy Redirect API from Ledger — 1 operation(s) for buy redirect.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Buy Redirect API from Ledger — 1 operation(s) for buy redirect.
   name: Ledger Buy Redirect API
   slug: ledger-buy-redirect-api
-- description: The Capabilities API from Ledger — 1 operation(s) for capabilities.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Capabilities API from Ledger — 1 operation(s) for capabilities.
   name: Ledger Capabilities API
   slug: ledger-capabilities-api
-- description: The Cardano API from Ledger — 4 operation(s) for cardano.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Cardano API from Ledger — 4 operation(s) for cardano.
   name: Ledger Cardano API
   slug: ledger-cardano-api
-- description: The Compliance API from Ledger — 2 operation(s) for compliance.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Compliance API from Ledger — 2 operation(s) for compliance.
   name: Ledger Compliance API
   slug: ledger-compliance-api
-- description: The Crypto Currencies API from Ledger — 1 operation(s) for crypto currencies.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Crypto Currencies API from Ledger — 1 operation(s) for crypto currencies.
   name: Ledger Crypto Currencies API
   slug: ledger-crypto-currencies-api
-- description: The Currencies API from Ledger — 5 operation(s) for currencies.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Currencies API from Ledger — 5 operation(s) for currencies.
   name: Ledger Currencies API
   slug: ledger-currencies-api
-- description: The delegates API from Ledger — 2 operation(s) for delegates.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The delegates API from Ledger — 2 operation(s) for delegates.
   name: Ledger Delegates API
   slug: ledger-delegates-api
-- description: The Digests API from Ledger — 3 operation(s) for digests.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Digests API from Ledger — 3 operation(s) for digests.
   name: Ledger Digests API
   slug: ledger-digests-api
-- description: The Entities API from Ledger — 4 operation(s) for entities.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Entities API from Ledger — 4 operation(s) for entities.
   name: Ledger Entities API
   slug: ledger-entities-api
-- description: The Ethereum API from Ledger — 3 operation(s) for ethereum.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Ethereum API from Ledger — 3 operation(s) for ethereum.
   name: Ledger Ethereum API
   slug: ledger-ethereum-api
-- description: The Groups API from Ledger — 3 operation(s) for groups.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Groups API from Ledger — 3 operation(s) for groups.
   name: Ledger Groups API
   slug: ledger-groups-api
-- description: The Grow API from Ledger — 1 operation(s) for grow.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Grow API from Ledger — 1 operation(s) for grow.
   name: Ledger Grow API
   slug: ledger-grow-api
-- description: The Labels API from Ledger — 2 operation(s) for labels.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Labels API from Ledger — 2 operation(s) for labels.
   name: Ledger Labels API
   slug: ledger-labels-api
-- description: The Messages API from Ledger — 3 operation(s) for messages.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Messages API from Ledger — 3 operation(s) for messages.
   name: Ledger Messages API
   slug: ledger-messages-api
-- description: The modules API from Ledger — 1 operation(s) for modules.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The modules API from Ledger — 1 operation(s) for modules.
   name: Ledger Modules API
   slug: ledger-modules-api
-- description: The notification feature allows you to be notified when an API user receives an important event. To receive a webhook notification, you must first register your target endpoint via `PUT /notifications
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The notification feature allows you to be notified when an API user receives an important event. To receive a webhook notification, you must first register your target endpoint via `PUT /notifications
   name: Ledger Notifications API
   slug: ledger-notifications-api
-- description: The Organizations API from Ledger — 1 operation(s) for organizations.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Organizations API from Ledger — 1 operation(s) for organizations.
   name: Ledger Organizations API
   slug: ledger-organizations-api
-- description: The owners API from Ledger — 1 operation(s) for owners.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The owners API from Ledger — 1 operation(s) for owners.
   name: Ledger Owners API
   slug: ledger-owners-api
-- description: The Pairs API from Ledger — 1 operation(s) for pairs.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Pairs API from Ledger — 1 operation(s) for pairs.
   name: Ledger Pairs API
   slug: ledger-pairs-api
-- description: The PKI API from Ledger — 1 operation(s) for pki.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The PKI API from Ledger — 1 operation(s) for pki.
   name: Ledger PKI API
   slug: ledger-pki-api
-- description: The Pledges API from Ledger — 2 operation(s) for pledges.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Pledges API from Ledger — 2 operation(s) for pledges.
   name: Ledger Pledges API
   slug: ledger-pledges-api
-- description: The Quote API from Ledger — 1 operation(s) for quote.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Quote API from Ledger — 1 operation(s) for quote.
   name: Ledger Quote API
   slug: ledger-quote-api
-- description: 'A Request represents the intent of creating or changing an object in the system. For example, when you create a transaction, a *Create transaction* request is created. You can observe all the changes '
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: 'A Request represents the intent of creating or changing an object in the system. For example, when you create a transaction, a *Create transaction* request is created. You can observe all the changes '
   name: Ledger Requests API
   slug: ledger-requests-api
-- description: The safes API from Ledger — 6 operation(s) for safes.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The safes API from Ledger — 6 operation(s) for safes.
   name: Ledger Safes API
   slug: ledger-safes-api
-- description: The Sell API from Ledger — 1 operation(s) for sell.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Sell API from Ledger — 1 operation(s) for sell.
   name: Ledger Sell API
   slug: ledger-sell-api
-- description: The Sell Redirect API from Ledger — 1 operation(s) for sell redirect.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Sell Redirect API from Ledger — 1 operation(s) for sell redirect.
   name: Ledger Sell Redirect API
   slug: ledger-sell-redirect-api
-- description: The Settlements API from Ledger — 4 operation(s) for settlements.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Settlements API from Ledger — 4 operation(s) for settlements.
   name: Ledger Settlements API
   slug: ledger-settlements-api
-- description: The Solana API from Ledger — 4 operation(s) for solana.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Solana API from Ledger — 4 operation(s) for solana.
   name: Ledger Solana API
   slug: ledger-solana-api
-- description: The Stakes API from Ledger — 1 operation(s) for stakes.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Stakes API from Ledger — 1 operation(s) for stakes.
   name: Ledger Stakes API
   slug: ledger-stakes-api
-- description: The Status API from Ledger — 1 operation(s) for status.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Status API from Ledger — 1 operation(s) for status.
   name: Ledger Status API
   slug: ledger-status-api
-- description: The Swap API from Ledger — 2 operation(s) for swap.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Swap API from Ledger — 2 operation(s) for swap.
   name: Ledger Swap API
   slug: ledger-swap-api
-- description: The Tezos API from Ledger — 2 operation(s) for tezos.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Tezos API from Ledger — 2 operation(s) for tezos.
   name: Ledger Tezos API
   slug: ledger-tezos-api
-- description: The Transaction API from Ledger — 1 operation(s) for transaction.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Transaction API from Ledger — 1 operation(s) for transaction.
   name: Ledger Transaction API
   slug: ledger-transaction-api
-- description: The transactions API from Ledger — 10 operation(s) for transactions.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The transactions API from Ledger — 10 operation(s) for transactions.
   name: Ledger Transactions API
   slug: ledger-transactions-api
-- description: The Users API from Ledger — 3 operation(s) for users.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Users API from Ledger — 3 operation(s) for users.
   name: Ledger Users API
   slug: ledger-users-api
-- description: The Webhook API from Ledger — 1 operation(s) for webhook.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Webhook API from Ledger — 1 operation(s) for webhook.
   name: Ledger Webhook API
   slug: ledger-webhook-api
-- description: The Whitelists API from Ledger — 3 operation(s) for whitelists.
+- baseURL: https://api.vault.ledger.com
+  baseurl_source: declared
+  description: The Whitelists API from Ledger — 3 operation(s) for whitelists.
   name: Ledger Whitelists API
   slug: ledger-whitelists-api
 artifact_total: 49
@@ -359,11 +452,11 @@ score:
   band: strong
   composite: 60.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_gap: 80.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -373,7 +466,7 @@ score:
     discoverability: 57.4
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 60.5
+  previous_composite: 60.6
   provenance:
     conformance: derived
     contracts:
@@ -390,8 +483,9 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ledger/refs/heads/main/screenshots/ledger-2026-09-02T150235.png
 security:
 - kind: authentication
   name: Ledger Authentication

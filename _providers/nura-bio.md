@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,28 +35,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: Public author projection for users who have published content.
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: Public author projection for users who have published content.
   name: Nura Bio Directory API
   slug: nura-bio-directory-api
-- description: Route, type, taxonomy, status and oEmbed discovery endpoints that describe the deployment itself.
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: Route, type, taxonomy, status and oEmbed discovery endpoints that describe the deployment itself.
   name: Nura Bio Discovery API
   slug: nura-bio-discovery-api
-- description: 'The media library: logo assets, team headshots, scientific figures and press-release documents.'
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: 'The media library: logo assets, team headshots, scientific figures and press-release documents.'
   name: Nura Bio Media API
   slug: nura-bio-media-api
-- description: 'The six evergreen site pages: Home, About Us, Our Science, News & Literature, Join Us, Contact.'
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: 'The six evergreen site pages: Home, About Us, Our Science, News & Literature, Join Us, Contact.'
   name: Nura Bio Pages API
   slug: nura-bio-pages-api
-- description: The people directory — leadership, board of directors, and founders and advisors — carried on the Avada theme `portfolio` custom post type and its `portfolio_entries` taxonomy.
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: The people directory — leadership, board of directors, and founders and advisors — carried on the Avada theme `portfolio` custom post type and its `portfolio_entries` taxonomy.
   name: Nura Bio Portfolio API
   slug: nura-bio-portfolio-api
-- description: The company news archive — press releases and financing, clinical and publication announcements.
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: The company news archive — press releases and financing, clinical and publication announcements.
   name: Nura Bio Posts API
   slug: nura-bio-posts-api
-- description: Category and tag terms applied to the news archive.
+- baseURL: https://nurabio.com/wp-json
+  baseurl_source: declared
+  description: Category and tag terms applied to the news archive.
   name: Nura Bio Taxonomy API
   slug: nura-bio-taxonomy-api
 artifact_total: 11
@@ -159,7 +185,7 @@ score:
   band: thin
   composite: 27.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -190,8 +216,9 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/screenshots/nura-bio-2026-09-02T150816.png
 security:
 - kind: authentication
   name: Nura Bio Authentication

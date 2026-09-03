@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: Bearer-token authenticated REST API exposed by every Drone server. Endpoints under /api/ for repos, builds, cron, secrets, users, templates, logs and queue status. Default port 8080.
   name: Drone Server REST API
   slug: rest
-- description: The Builds API from Drone — 9 operation(s) for builds.
+- baseURL: http://<drone-server>:8080/api
+  baseurl_source: declared
+  description: The Builds API from Drone — 9 operation(s) for builds.
   name: Drone Builds API
   slug: drone-ci-builds-api
-- description: The Cron API from Drone — 1 operation(s) for cron.
+- baseURL: http://<drone-server>:8080/api
+  baseurl_source: declared
+  description: The Cron API from Drone — 1 operation(s) for cron.
   name: Drone Cron API
   slug: drone-ci-cron-api
-- description: The Secrets API from Drone — 1 operation(s) for secrets.
+- baseURL: http://<drone-server>:8080/api
+  baseurl_source: declared
+  description: The Secrets API from Drone — 1 operation(s) for secrets.
   name: Drone Secrets API
   slug: drone-ci-secrets-api
-- description: The Templates API from Drone — 1 operation(s) for templates.
+- baseURL: http://<drone-server>:8080/api
+  baseurl_source: declared
+  description: The Templates API from Drone — 1 operation(s) for templates.
   name: Drone Templates API
   slug: drone-ci-templates-api
-- description: The User API from Drone — 1 operation(s) for user.
+- baseURL: http://<drone-server>:8080/api
+  baseurl_source: declared
+  description: The User API from Drone — 1 operation(s) for user.
   name: Drone User API
   slug: drone-ci-user-api
 artifact_total: 19
@@ -186,7 +196,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone-ci/refs/heads/main/screenshots/drone-ci-2026-06-20T180242.png
 security:

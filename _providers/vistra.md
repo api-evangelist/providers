@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 5 operations · 3 acting
 api_count: 1
 apis:
-- description: Document upload URL generation and completion notification
+- baseURL: https://api.vistra.com
+  baseurl_source: declared
+  description: Document upload URL generation and completion notification
   name: Vistra Documents API
   slug: vistra-documents-api
-- description: Company incorporation request submission and management
+- baseURL: https://api.vistra.com
+  baseurl_source: declared
+  description: Company incorporation request submission and management
   name: Vistra Incorporations API
   slug: vistra-incorporations-api
 artifact_total: 21
@@ -234,7 +238,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png
 security:

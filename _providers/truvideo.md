@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Authentication API from TruVideo — 2 operation(s) for authentication.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Authentication API from TruVideo — 2 operation(s) for authentication.
   name: TruVideo Authentication API
   slug: truvideo-authentication-api
-- description: The Chat API from TruVideo — 4 operation(s) for chat.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Chat API from TruVideo — 4 operation(s) for chat.
   name: TruVideo Chat API
   slug: truvideo-chat-api
-- description: The Customers API from TruVideo — 1 operation(s) for customers.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Customers API from TruVideo — 1 operation(s) for customers.
   name: TruVideo Customers API
   slug: truvideo-customers-api
-- description: The Dealers API from TruVideo — 1 operation(s) for dealers.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Dealers API from TruVideo — 1 operation(s) for dealers.
   name: TruVideo Dealers API
   slug: truvideo-dealers-api
-- description: The Files API from TruVideo — 4 operation(s) for files.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Files API from TruVideo — 4 operation(s) for files.
   name: TruVideo Files API
   slug: truvideo-files-api
-- description: The Messages API from TruVideo — 3 operation(s) for messages.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Messages API from TruVideo — 3 operation(s) for messages.
   name: TruVideo Messages API
   slug: truvideo-messages-api
-- description: The Repair Orders API from TruVideo — 5 operation(s) for repair orders.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Repair Orders API from TruVideo — 5 operation(s) for repair orders.
   name: TruVideo Repair Orders API
   slug: truvideo-repair-orders-api
-- description: The Reports API from TruVideo — 2 operation(s) for reports.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Reports API from TruVideo — 2 operation(s) for reports.
   name: TruVideo Reports API
   slug: truvideo-reports-api
-- description: The Support API from TruVideo — 1 operation(s) for support.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Support API from TruVideo — 1 operation(s) for support.
   name: TruVideo Support API
   slug: truvideo-support-api
-- description: The Users API from TruVideo — 1 operation(s) for users.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Users API from TruVideo — 1 operation(s) for users.
   name: TruVideo Users API
   slug: truvideo-users-api
-- description: The Videos API from TruVideo — 3 operation(s) for videos.
+- baseURL: https://app.truvideo.com
+  baseurl_source: declared
+  description: The Videos API from TruVideo — 3 operation(s) for videos.
   name: TruVideo Videos API
   slug: truvideo-videos-api
 artifact_total: 26
@@ -221,7 +243,7 @@ score:
   band: thin
   composite: 28.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -246,8 +268,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/truvideo/refs/heads/main/screenshots/truvideo-2026-09-02T164435.png
 security:
 - kind: authentication
   name: Truvideo Authentication

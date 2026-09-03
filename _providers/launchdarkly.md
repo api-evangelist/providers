@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -45,94 +45,152 @@ agentic_access:
   summary_line: 58 operations · 25 acting
 api_count: 3
 apis:
-- description: The LaunchDarkly Webhooks API allows developers to build custom integrations that subscribe to activity events within LaunchDarkly. When actions occur such as flag changes, project creation, or enviro
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: The LaunchDarkly Webhooks API allows developers to build custom integrations that subscribe to activity events within LaunchDarkly. When actions occur such as flag changes, project creation, or enviro
   name: LaunchDarkly Webhooks API
   slug: webhooks-api
-- description: Create and manage personal and service access tokens used to authenticate API requests.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create and manage personal and service access tokens used to authenticate API requests.
   name: launchdarkly Access Tokens API
   slug: launchdarkly-access-tokens-api
-- description: Manage team members, invitations, and member roles within a LaunchDarkly account.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage team members, invitations, and member roles within a LaunchDarkly account.
   name: launchdarkly Account Members API
   slug: launchdarkly-account-members-api
-- description: Manage approval requests and workflows for flag changes that require review before deployment.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage approval requests and workflows for flag changes that require review before deployment.
   name: launchdarkly Approvals API
   slug: launchdarkly-approvals-api
-- description: Access the change history of all modifications made to resources in the LaunchDarkly account.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Access the change history of all modifications made to resources in the LaunchDarkly account.
   name: launchdarkly Audit Log API
   slug: launchdarkly-audit-log-api
-- description: Flag evaluation endpoints for client-side and mobile SDKs using environment IDs or mobile keys for authentication.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Flag evaluation endpoints for client-side and mobile SDKs using environment IDs or mobile keys for authentication.
   name: launchdarkly Client-Side Evaluation API
   slug: launchdarkly-client-side-evaluation-api
-- description: Server-Sent Events streaming endpoints for client-side and mobile SDKs to receive real-time flag updates.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Server-Sent Events streaming endpoints for client-side and mobile SDKs to receive real-time flag updates.
   name: launchdarkly Client-Side Streaming API
   slug: launchdarkly-client-side-streaming-api
-- description: View code references that show where feature flags are used in your codebase.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: View code references that show where feature flags are used in your codebase.
   name: launchdarkly Code References API
   slug: launchdarkly-code-references-api
-- description: Define custom roles with fine-grained permissions using resource specifiers and actions.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Define custom roles with fine-grained permissions using resource specifiers and actions.
   name: launchdarkly Custom Roles API
   slug: launchdarkly-custom-roles-api
-- description: Manage environments within projects such as production, staging, and development.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage environments within projects such as production, staging, and development.
   name: launchdarkly Environments API
   slug: launchdarkly-environments-api
-- description: Create and manage experiments to measure the impact of feature flag variations on metrics.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create and manage experiments to measure the impact of feature flag variations on metrics.
   name: launchdarkly Experiments API
   slug: launchdarkly-experiments-api
-- description: Create, update, and manage feature flags and their targeting rules across projects and environments.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create, update, and manage feature flags and their targeting rules across projects and environments.
   name: launchdarkly Feature Flags API
   slug: launchdarkly-feature-flags-api
-- description: Create triggers that allow external services to toggle feature flags via unique webhook URLs.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create triggers that allow external services to toggle feature flags via unique webhook URLs.
   name: launchdarkly Flag Triggers API
   slug: launchdarkly-flag-triggers-api
-- description: Manage integrations that subscribe to audit log events and forward them to external tools.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage integrations that subscribe to audit log events and forward them to external tools.
   name: launchdarkly Integration Audit Log Subscriptions API
   slug: launchdarkly-integration-audit-log-subscriptions-api
-- description: Define and manage metrics used to measure experiment outcomes and feature flag impact.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Define and manage metrics used to measure experiment outcomes and feature flag impact.
   name: launchdarkly Metrics API
   slug: launchdarkly-metrics-api
-- description: Polling endpoints for PHP server-side SDKs which do not support streaming mode.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Polling endpoints for PHP server-side SDKs which do not support streaming mode.
   name: launchdarkly PHP Polling API
   slug: launchdarkly-php-polling-api
-- description: Manage projects that organize feature flags and other resources.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage projects that organize feature flags and other resources.
   name: launchdarkly Projects API
   slug: launchdarkly-projects-api
-- description: Manage automatic configuration entries for LaunchDarkly Relay Proxy instances.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage automatic configuration entries for LaunchDarkly Relay Proxy instances.
   name: launchdarkly Relay Proxy Configurations API
   slug: launchdarkly-relay-proxy-configurations-api
-- description: Manage release pipelines for coordinating feature flag rollouts across environments.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Manage release pipelines for coordinating feature flag rollouts across environments.
   name: launchdarkly Releases API
   slug: launchdarkly-releases-api
-- description: Create and manage user segments for targeting groups of contexts with feature flags.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create and manage user segments for targeting groups of contexts with feature flags.
   name: launchdarkly Segments API
   slug: launchdarkly-segments-api
-- description: Flag evaluation endpoints for server-side SDKs using SDK keys for authentication.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Flag evaluation endpoints for server-side SDKs using SDK keys for authentication.
   name: launchdarkly Server-Side Evaluation API
   slug: launchdarkly-server-side-evaluation-api
-- description: Server-Sent Events streaming endpoints for server-side SDKs to receive real-time flag updates.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Server-Sent Events streaming endpoints for server-side SDKs to receive real-time flag updates.
   name: launchdarkly Server-Side Streaming API
   slug: launchdarkly-server-side-streaming-api
-- description: Health and status monitoring endpoints for the Relay Proxy. No authentication is required for these endpoints.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Health and status monitoring endpoints for the Relay Proxy. No authentication is required for these endpoints.
   name: launchdarkly Status API
   slug: launchdarkly-status-api
-- description: The Tags API from launchdarkly — 1 operation(s) for tags.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: The Tags API from launchdarkly — 1 operation(s) for tags.
   name: launchdarkly Tags API
   slug: launchdarkly-tags-api
-- description: Organize account members into teams for collaborative flag management and permissions.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Organize account members into teams for collaborative flag management and permissions.
   name: launchdarkly Teams API
   slug: launchdarkly-teams-api
-- description: Configure webhooks to receive HTTP POST notifications when changes occur in LaunchDarkly.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Configure webhooks to receive HTTP POST notifications when changes occur in LaunchDarkly.
   name: launchdarkly Webhooks API
   slug: launchdarkly-webhooks-api
-- description: Create and manage automated workflows for scheduling and orchestrating flag changes.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: Create and manage automated workflows for scheduling and orchestrating flag changes.
   name: launchdarkly Workflows API
   slug: launchdarkly-workflows-api
 - description: LaunchDarkly operates a first-party hosted Model Context Protocol server at https://mcp.launchdarkly.com/mcp/launchdarkly, reachable by any MCP client over streamable HTTP and authorized with OAuth 2.
   name: LaunchDarkly MCP Server
   slug: launchdarkly-mcp-server
-- description: The Backup API from LaunchDarkly — 1 operation(s) for backup.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: The Backup API from LaunchDarkly — 1 operation(s) for backup.
   name: LaunchDarkly Backup API
   slug: launchdarkly-backup-api
-- description: The Debug Sessions API from LaunchDarkly — 3 operation(s) for debug sessions.
+- baseURL: https://app.launchdarkly.com/api/v2
+  baseurl_source: declared
+  description: The Debug Sessions API from LaunchDarkly — 3 operation(s) for debug sessions.
   name: LaunchDarkly Debug Sessions API
   slug: launchdarkly-debug-sessions-api
 artifact_total: 161
@@ -723,23 +781,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 78.0
+  composite: 77.9
   coverage:
     artifact_dirs: 33
     catalog_gap: 35.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 7.0
+  delta: -0.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 31.8
-    contract_quality: 72.0
+    contract_quality: 71.7
     developer_ergonomics: 80.4
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 92.1
-  previous_composite: 71.0
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -751,8 +809,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:
 - kind: authentication

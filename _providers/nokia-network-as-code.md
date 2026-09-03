@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -34,97 +46,159 @@ agentic_access:
   summary_line: 148 operations · 97 acting
 api_count: 2
 apis:
-- description: The Call Forwarding Signal v0.3.0 API from Nokia Network as Code — 2 operation(s) for call forwarding signal v0.3.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Call Forwarding Signal v0.3.0 API from Nokia Network as Code — 2 operation(s) for call forwarding signal v0.3.0.
   name: Nokia Network as Code Call Forwarding Signal v0.3.0 API
   slug: nokia-network-as-code-call-forwarding-signal-v0-3-0-api
-- description: The Congestion Insights v1.0.0 API from Nokia Network as Code — 3 operation(s) for congestion insights v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Congestion Insights v1.0.0 API from Nokia Network as Code — 3 operation(s) for congestion insights v1.0.0.
   name: Nokia Network as Code Congestion Insights v1.0.0 API
   slug: nokia-network-as-code-congestion-insights-v1-0-0-api
-- description: The Consent Info v0.1.0 API from Nokia Network as Code — 1 operation(s) for consent info v0.1.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Consent Info v0.1.0 API from Nokia Network as Code — 1 operation(s) for consent info v0.1.0.
   name: Nokia Network as Code Consent Info v0.1.0 API
   slug: nokia-network-as-code-consent-info-v0-1-0-api
-- description: The Device Reachability Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.1.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Reachability Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.1.0.
   name: Nokia Network as Code Device Reachability Status Retrieve v1.1.0 API
   slug: nokia-network-as-code-device-reachability-status-retrieve-v1-1-0-api
-- description: The Device Reachability Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Reachability Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.
   name: Nokia Network as Code Device Reachability Status Retrieve v1 API
   slug: nokia-network-as-code-device-reachability-status-retrieve-v1-api
-- description: The Device Reachability Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.7.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Reachability Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.7.
   name: Nokia Network as Code Device Reachability Status Subscriptions v0.7 API
   slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-7-api
-- description: The Device Reachability Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.8.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Reachability Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.8.
   name: Nokia Network as Code Device Reachability Status Subscriptions v0.8 API
   slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-8-api
-- description: The Device Roaming Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.1.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Roaming Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.1.0.
   name: Nokia Network as Code Device Roaming Status Retrieve v1.1.0 API
   slug: nokia-network-as-code-device-roaming-status-retrieve-v1-1-0-api
-- description: The Device Roaming Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Roaming Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.
   name: Nokia Network as Code Device Roaming Status Retrieve v1 API
   slug: nokia-network-as-code-device-roaming-status-retrieve-v1-api
-- description: The Device Roaming Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.7.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Roaming Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.7.
   name: Nokia Network as Code Device Roaming Status Subscriptions v0.7 API
   slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-7-api
-- description: The Device Roaming Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.8.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Roaming Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.8.
   name: Nokia Network as Code Device Roaming Status Subscriptions v0.8 API
   slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-8-api
-- description: The Device Status v0.5.1 API from Nokia Network as Code — 4 operation(s) for device status v0.5.1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Status v0.5.1 API from Nokia Network as Code — 4 operation(s) for device status v0.5.1.
   name: Nokia Network as Code Device Status v0.5.1 API
   slug: nokia-network-as-code-device-status-v0-5-1-api
-- description: The Device Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for device swap v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Device Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for device swap v1.0.0.
   name: Nokia Network as Code Device Swap v1.0.0 API
   slug: nokia-network-as-code-device-swap-v1-0-0-api
-- description: The Geofencing v0.3.0 API from Nokia Network as Code — 2 operation(s) for geofencing v0.3.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Geofencing v0.3.0 API from Nokia Network as Code — 2 operation(s) for geofencing v0.3.0.
   name: Nokia Network as Code Geofencing v0.3.0 API
   slug: nokia-network-as-code-geofencing-v0-3-0-api
-- description: The KYC Age Verification v0.1 API from Nokia Network as Code — 1 operation(s) for kyc age verification v0.1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The KYC Age Verification v0.1 API from Nokia Network as Code — 1 operation(s) for kyc age verification v0.1.
   name: Nokia Network as Code KYC Age Verification v0.1 API
   slug: nokia-network-as-code-kyc-age-verification-v0-1-api
-- description: The KYC FIll In v0.4 API from Nokia Network as Code — 1 operation(s) for kyc fill in v0.4.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The KYC FIll In v0.4 API from Nokia Network as Code — 1 operation(s) for kyc fill in v0.4.
   name: Nokia Network as Code KYC FIll In v0.4 API
   slug: nokia-network-as-code-kyc-fill-in-v0-4-api
-- description: The KYC Match v0.3 API from Nokia Network as Code — 1 operation(s) for kyc match v0.3.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The KYC Match v0.3 API from Nokia Network as Code — 1 operation(s) for kyc match v0.3.
   name: Nokia Network as Code KYC Match v0.3 API
   slug: nokia-network-as-code-kyc-match-v0-3-api
-- description: The KYC Tenure v0.1 API from Nokia Network as Code — 1 operation(s) for kyc tenure v0.1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The KYC Tenure v0.1 API from Nokia Network as Code — 1 operation(s) for kyc tenure v0.1.
   name: Nokia Network as Code KYC Tenure v0.1 API
   slug: nokia-network-as-code-kyc-tenure-v0-1-api
-- description: The Location Retrieval v0.2.0 API from Nokia Network as Code — 1 operation(s) for location retrieval v0.2.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Location Retrieval v0.2.0 API from Nokia Network as Code — 1 operation(s) for location retrieval v0.2.0.
   name: Nokia Network as Code Location Retrieval v0.2.0 API
   slug: nokia-network-as-code-location-retrieval-v0-2-0-api
-- description: The Location Verification v0.2.0 API from Nokia Network as Code — 1 operation(s) for location verification v0.2.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Location Verification v0.2.0 API from Nokia Network as Code — 1 operation(s) for location verification v0.2.0.
   name: Nokia Network as Code Location Verification v0.2.0 API
   slug: nokia-network-as-code-location-verification-v0-2-0-api
-- description: The Location Verification v1.0.0 API from Nokia Network as Code — 1 operation(s) for location verification v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Location Verification v1.0.0 API from Nokia Network as Code — 1 operation(s) for location verification v1.0.0.
   name: Nokia Network as Code Location Verification v1.0.0 API
   slug: nokia-network-as-code-location-verification-v1-0-0-api
-- description: The NaC Authorization Server API from Nokia Network as Code — 2 operation(s) for nac authorization server.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The NaC Authorization Server API from Nokia Network as Code — 2 operation(s) for nac authorization server.
   name: Nokia Network as Code NaC Authorization Server API
   slug: nokia-network-as-code-nac-authorization-server-api
-- description: The Network Slicing v1.0.0 API from Nokia Network as Code — 4 operation(s) for network slicing v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Network Slicing v1.0.0 API from Nokia Network as Code — 4 operation(s) for network slicing v1.0.0.
   name: Nokia Network as Code Network Slicing v1.0.0 API
   slug: nokia-network-as-code-network-slicing-v1-0-0-api
-- description: The Number Recycling v0.2 API from Nokia Network as Code — 1 operation(s) for number recycling v0.2.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Number Recycling v0.2 API from Nokia Network as Code — 1 operation(s) for number recycling v0.2.
   name: Nokia Network as Code Number Recycling v0.2 API
   slug: nokia-network-as-code-number-recycling-v0-2-api
-- description: The Number Verification v1.0.0 API from Nokia Network as Code — 2 operation(s) for number verification v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Number Verification v1.0.0 API from Nokia Network as Code — 2 operation(s) for number verification v1.0.0.
   name: Nokia Network as Code Number Verification v1.0.0 API
   slug: nokia-network-as-code-number-verification-v1-0-0-api
-- description: The Number Verification v2.1 API from Nokia Network as Code — 2 operation(s) for number verification v2.1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Number Verification v2.1 API from Nokia Network as Code — 2 operation(s) for number verification v2.1.
   name: Nokia Network as Code Number Verification v2.1 API
   slug: nokia-network-as-code-number-verification-v2-1-api
-- description: The Quality-of-Service on Demand v0.10.1 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v0.10.1.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Quality-of-Service on Demand v0.10.1 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v0.10.1.
   name: Nokia Network as Code Quality-of-Service on Demand v0.10.1 API
   slug: nokia-network-as-code-quality-of-service-on-demand-v0-10-1-api
-- description: The Quality-of-Service on Demand v1.0.0 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Quality-of-Service on Demand v1.0.0 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v1.0.0.
   name: Nokia Network as Code Quality-of-Service on Demand v1.0.0 API
   slug: nokia-network-as-code-quality-of-service-on-demand-v1-0-0-api
-- description: The SIM Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for sim swap v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The SIM Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for sim swap v1.0.0.
   name: Nokia Network as Code SIM Swap v1.0.0 API
   slug: nokia-network-as-code-sim-swap-v1-0-0-api
-- description: The Slice Device Attach v1.0.0 API from Nokia Network as Code — 3 operation(s) for slice device attach v1.0.0.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Slice Device Attach v1.0.0 API from Nokia Network as Code — 3 operation(s) for slice device attach v1.0.0.
   name: Nokia Network as Code Slice Device Attach v1.0.0 API
   slug: nokia-network-as-code-slice-device-attach-v1-0-0-api
-- description: The Well Known Metadata API from Nokia Network as Code — 3 operation(s) for well known metadata.
+- baseURL: https://network-as-code.p-eu.rapidapi.com
+  baseurl_source: declared
+  description: The Well Known Metadata API from Nokia Network as Code — 3 operation(s) for well known metadata.
   name: Nokia Network as Code Well Known Metadata API
   slug: nokia-network-as-code-well-known-metadata-api
 artifact_total: 41
@@ -365,26 +439,26 @@ scopes:
   summary_line: 65 scopes
 score:
   band: strong
-  composite: 59.0
+  composite: 57.3
   coverage:
     artifact_dirs: 23
-    catalog_gap: 81.0
+    catalog_gap: 91.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: -1.7
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
     contract_quality: 63.7
     developer_ergonomics: 73.2
-    discoverability: 63.0
+    discoverability: 44.4
     governance: 4.5
     operational_transparency: 36.8
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 58.9
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,7 +480,7 @@ score:
     regime_id: telecommunications
     score: 93.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:

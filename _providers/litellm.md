@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -100,46 +100,74 @@ apis:
 - description: Provides /videos endpoints for video generation and handling through supported providers like RunwayML via the LiteLLM proxy.
   name: LiteLLM Videos API
   slug: videos-api
-- description: The Assistants API from LiteLLM — 1 operation(s) for assistants.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Assistants API from LiteLLM — 1 operation(s) for assistants.
   name: LiteLLM Assistants API
   slug: litellm-assistants-api
-- description: The Audio API from LiteLLM — 2 operation(s) for audio.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Audio API from LiteLLM — 2 operation(s) for audio.
   name: LiteLLM Audio API
   slug: litellm-audio-api
-- description: The Batches API from LiteLLM — 1 operation(s) for batches.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Batches API from LiteLLM — 1 operation(s) for batches.
   name: LiteLLM Batches API
   slug: litellm-batches-api
-- description: The Chat API from LiteLLM — 1 operation(s) for chat.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Chat API from LiteLLM — 1 operation(s) for chat.
   name: LiteLLM Chat API
   slug: litellm-chat-api
-- description: The Completions API from LiteLLM — 1 operation(s) for completions.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Completions API from LiteLLM — 1 operation(s) for completions.
   name: LiteLLM Completions API
   slug: litellm-completions-api
-- description: The Embeddings API from LiteLLM — 1 operation(s) for embeddings.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Embeddings API from LiteLLM — 1 operation(s) for embeddings.
   name: LiteLLM Embeddings API
   slug: litellm-embeddings-api
-- description: The Fine Tuning API from LiteLLM — 1 operation(s) for fine tuning.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Fine Tuning API from LiteLLM — 1 operation(s) for fine tuning.
   name: LiteLLM Fine Tuning API
   slug: litellm-fine-tuning-api
-- description: The Images API from LiteLLM — 3 operation(s) for images.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Images API from LiteLLM — 3 operation(s) for images.
   name: LiteLLM Images API
   slug: litellm-images-api
-- description: The Messages API from LiteLLM — 2 operation(s) for messages.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Messages API from LiteLLM — 2 operation(s) for messages.
   name: LiteLLM Messages API
   slug: litellm-messages-api
-- description: The Moderations API from LiteLLM — 1 operation(s) for moderations.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Moderations API from LiteLLM — 1 operation(s) for moderations.
   name: LiteLLM Moderations API
   slug: litellm-moderations-api
-- description: The Ocr API from LiteLLM — 1 operation(s) for ocr.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Ocr API from LiteLLM — 1 operation(s) for ocr.
   name: LiteLLM Ocr API
   slug: litellm-ocr-api
-- description: The Rag API from LiteLLM — 2 operation(s) for rag.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Rag API from LiteLLM — 2 operation(s) for rag.
   name: LiteLLM Rag API
   slug: litellm-rag-api
-- description: The Rerank API from LiteLLM — 1 operation(s) for rerank.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Rerank API from LiteLLM — 1 operation(s) for rerank.
   name: LiteLLM Rerank API
   slug: litellm-rerank-api
-- description: The Vector Stores API from LiteLLM — 2 operation(s) for vector stores.
+- baseURL: http://localhost:4000
+  baseurl_source: spec
+  description: The Vector Stores API from LiteLLM — 2 operation(s) for vector stores.
   name: LiteLLM Vector Stores API
   slug: litellm-vector-stores-api
 artifact_total: 54
@@ -349,7 +377,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/screenshots/litellm-2026-06-20T184603.png
 security:

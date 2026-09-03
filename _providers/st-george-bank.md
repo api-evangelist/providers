@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 19 operations · 3 acting
 api_count: 1
 apis:
-- description: Banking Account Balance endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Balance endpoints
   name: St.George Bank Banking Account Balances API
   slug: st-george-bank-banking-account-balances-api
-- description: Banking Account Direct Debit endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Direct Debit endpoints
   name: St.George Bank Banking Account Direct Debits API
   slug: st-george-bank-banking-account-direct-debits-api
-- description: Banking Account Scheduled Payment endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Scheduled Payment endpoints
   name: St.George Bank Banking Account Scheduled Payments API
   slug: st-george-bank-banking-account-scheduled-payments-api
-- description: Banking Account Transaction endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account Transaction endpoints
   name: St.George Bank Banking Account Transactions API
   slug: st-george-bank-banking-account-transactions-api
-- description: Banking Account endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Account endpoints
   name: St.George Bank Banking Accounts API
   slug: st-george-bank-banking-accounts-api
-- description: Banking Payee endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Payee endpoints
   name: St.George Bank Banking Payees API
   slug: st-george-bank-banking-payees-api
-- description: Banking Product endpoints
+- baseURL: https://digital-api.stgeorge.com.au/cds-au/v1/banking/products
+  baseurl_source: declared
+  description: Banking Product endpoints
   name: St.George Bank Banking Products API
   slug: st-george-bank-banking-products-api
 artifact_total: 21
@@ -249,7 +263,7 @@ score:
     regime_id: banking_open_finance
     score: 84.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 51 operations · 35 acting
 api_count: 1
 apis:
-- description: The Accounts API from Monaco — 3 operation(s) for accounts.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Accounts API from Monaco — 3 operation(s) for accounts.
   name: Monaco Accounts API
   slug: monaco-accounts-api
-- description: The Audiences API from Monaco — 6 operation(s) for building and maintaining named sets of contacts, seeded from an explicit id list or from a filter query over the contact field schemas.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Audiences API from Monaco — 6 operation(s) for building and maintaining named sets of contacts, seeded from an explicit id list or from a filter query over the contact field schemas.
   name: Monaco Audiences API
   slug: monaco-audiences-api
-- description: The Auth API from Monaco — 1 operation(s) for auth.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Auth API from Monaco — 1 operation(s) for auth.
   name: Monaco Auth API
   slug: monaco-auth-api
-- description: The Campaigns API from Monaco — 7 operation(s) for creating campaigns that enroll the contacts of one or more audiences onto a sequence template, and for attaching, detaching, and enrolling into them.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Campaigns API from Monaco — 7 operation(s) for creating campaigns that enroll the contacts of one or more audiences onto a sequence template, and for attaching, detaching, and enrolling into them.
   name: Monaco Campaigns API
   slug: monaco-campaigns-api
-- description: The Contacts API from Monaco — 3 operation(s) for contacts.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Contacts API from Monaco — 3 operation(s) for contacts.
   name: Monaco Contacts API
   slug: monaco-contacts-api
-- description: The Meetings API from Monaco — 2 operation(s) for meetings.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Meetings API from Monaco — 2 operation(s) for meetings.
   name: Monaco Meetings API
   slug: monaco-meetings-api
-- description: The Opportunities API from Monaco — 3 operation(s) for opportunities.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Opportunities API from Monaco — 3 operation(s) for opportunities.
   name: Monaco Opportunities API
   slug: monaco-opportunities-api
-- description: The Schemas API from Monaco — 1 operation(s) for schemas.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Schemas API from Monaco — 1 operation(s) for schemas.
   name: Monaco Schemas API
   slug: monaco-schemas-api
-- description: The Sequence Templates API from Monaco — 2 operation(s) for sequence templates.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Sequence Templates API from Monaco — 2 operation(s) for sequence templates.
   name: Monaco Sequence Templates API
   slug: monaco-sequence-templates-api
-- description: The Sequences API from Monaco — 2 operation(s) for sequences.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Sequences API from Monaco — 2 operation(s) for sequences.
   name: Monaco Sequences API
   slug: monaco-sequences-api
-- description: The Tags API from Monaco — 2 operation(s) for tags.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Tags API from Monaco — 2 operation(s) for tags.
   name: Monaco Tags API
   slug: monaco-tags-api
-- description: The Tasks API from Monaco — 3 operation(s) for tasks.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Tasks API from Monaco — 3 operation(s) for tasks.
   name: Monaco Tasks API
   slug: monaco-tasks-api
-- description: The Users API from Monaco — 1 operation(s) for users.
+- baseURL: https://api.monaco.com
+  baseurl_source: declared
+  description: The Users API from Monaco — 1 operation(s) for users.
   name: Monaco Users API
   slug: monaco-users-api
 artifact_total: 36
@@ -299,7 +325,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monaco/refs/heads/main/screenshots/monaco-2026-08-07T184130.png
 security:

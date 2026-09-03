@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -62,16 +62,24 @@ apis:
 - description: API enabling merchants to initiate Splitit installment payment flows via SMS, email, and QR codes as part of the Splitit Go product. Allows sending payment links to shoppers through non-traditional ch
   name: Splitit Text-to-Pay API
   slug: splitit-text-to-pay-api
-- description: Obtain access tokens
+- baseURL: https://webapi.production.splitit.com
+  baseurl_source: declared
+  description: Obtain access tokens
   name: Splitit Authentication API
   slug: splitit-authentication-api
-- description: Check shopper eligibility for installment plans
+- baseURL: https://webapi.production.splitit.com
+  baseurl_source: declared
+  description: Check shopper eligibility for installment plans
   name: Splitit Eligibility API
   slug: splitit-eligibility-api
-- description: Create, initiate, fetch, update, refund, and cancel installment plans
+- baseURL: https://webapi.production.splitit.com
+  baseurl_source: declared
+  description: Create, initiate, fetch, update, refund, and cancel installment plans
   name: Splitit Installment Plans API
   slug: splitit-installment-plans-api
-- description: Onboard and manage merchant partners
+- baseURL: https://webapi.production.splitit.com
+  baseurl_source: declared
+  description: Onboard and manage merchant partners
   name: Splitit Merchant Management API
   slug: splitit-merchant-management-api
 artifact_total: 32
@@ -269,7 +277,7 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -279,7 +287,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 56.9
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -294,7 +302,7 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png
 security:

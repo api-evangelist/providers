@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -50,19 +50,29 @@ apis:
 - description: On-demand patient record location and retrieval across national networks - Kno2's private network, Carequality, eHealth Exchange, and TEFCA (Kno2 is a designated QHIN). Find a patient, query participa
   name: Kno2 Patient Record Query API
   slug: kno2-record-query-api
-- description: Upload, retrieve, and mark clinical document attachments.
+- baseURL: https://{subscription}.kno2fy.com
+  baseurl_source: declared
+  description: Upload, retrieve, and mark clinical document attachments.
   name: Kno2 Attachments API
   slug: kno2-attachments-api
-- description: OAuth2 client-credentials token issuance.
+- baseURL: https://{subscription}.kno2fy.com
+  baseurl_source: declared
+  description: OAuth2 client-credentials token issuance.
   name: Kno2 Authentication API
   slug: kno2-authentication-api
-- description: Validate Direct addresses and list document types.
+- baseURL: https://{subscription}.kno2fy.com
+  baseurl_source: declared
+  description: Validate Direct addresses and list document types.
   name: Kno2 Directory API
   slug: kno2-directory-api
-- description: RECEIVE surface - search, retrieve, and process inbound messages.
+- baseURL: https://{subscription}.kno2fy.com
+  baseurl_source: declared
+  description: RECEIVE surface - search, retrieve, and process inbound messages.
   name: Kno2 Intake API
   slug: kno2-intake-api
-- description: SEND surface - draft, populate, attach, and send messages.
+- baseURL: https://{subscription}.kno2fy.com
+  baseurl_source: declared
+  description: SEND surface - draft, populate, attach, and send messages.
   name: Kno2 Messaging API
   slug: kno2-messaging-api
 artifact_total: 21
@@ -302,7 +312,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,7 +49,9 @@ apis:
 - description: The api.video Analytics API provides viewer engagement metrics, playback statistics, and performance data for both video on demand and live streaming content.
   name: api.video Analytics API
   slug: analytics
-- description: The Videos API from API.Video — 8 operation(s) for videos.
+- baseURL: https://ws.api.video
+  baseurl_source: spec
+  description: The Videos API from API.Video — 8 operation(s) for videos.
   name: API.Video Videos API
   slug: api-video-videos-api
 artifact_total: 27
@@ -184,7 +186,7 @@ score:
       marker_coverage: 0.0
       total: 2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/screenshots/api-video-2026-06-20T172221.png
 security:

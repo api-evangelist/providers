@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 5
@@ -47,73 +47,119 @@ apis:
 - description: Jetstream is a simplified JSON event stream for the AT Protocol that converts CBOR-encoded MST blocks from the firehose into JSON objects over WebSocket connections, making it easier to consume real-t
   name: Bluesky Jetstream
   slug: bluesky-jetstream
-- description: Operations for managing user profiles, preferences, and actor information.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing user profiles, preferences, and actor information.
   name: Bluesky Actor Profiles API
   slug: bluesky-actor-profiles-api
-- description: Administrative operations for managing accounts and invites.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Administrative operations for managing accounts and invites.
   name: Bluesky Administration API
   slug: bluesky-administration-api
-- description: Operations for managing chat actor settings and declarations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing chat actor settings and declarations.
   name: Bluesky Chat Actors API
   slug: bluesky-chat-actors-api
-- description: Operations for moderating chat content.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for moderating chat content.
   name: Bluesky Chat Moderation API
   slug: bluesky-chat-moderation-api
-- description: Operations for managing content labelers and label subscriptions.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing content labelers and label subscriptions.
   name: Bluesky Content Labels API
   slug: bluesky-content-labels-api
-- description: Operations for managing direct message conversations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing direct message conversations.
   name: Bluesky Conversations API
   slug: bluesky-conversations-api
-- description: Operations for managing feeds, posts, likes, and reposts.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing feeds, posts, likes, and reposts.
   name: Bluesky Feeds API
   slug: bluesky-feeds-api
-- description: Operations for identity management and DID resolution.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for identity management and DID resolution.
   name: Bluesky Identity API
   slug: bluesky-identity-api
-- description: Operations for content labeling and moderation.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for content labeling and moderation.
   name: Bluesky Labels API
   slug: bluesky-labels-api
-- description: Operations for content moderation reporting.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for content moderation reporting.
   name: Bluesky Moderation API
   slug: bluesky-moderation-api
-- description: Operations for managing user notifications.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing user notifications.
   name: Bluesky Notifications API
   slug: bluesky-notifications-api
-- description: Ozone moderation tool communication operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone moderation tool communication operations.
   name: Bluesky Ozone Communication API
   slug: bluesky-ozone-communication-api
-- description: Ozone moderation tool operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone moderation tool operations.
   name: Bluesky Ozone Moderation API
   slug: bluesky-ozone-moderation-api
-- description: Ozone server configuration operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone server configuration operations.
   name: Bluesky Ozone Server API
   slug: bluesky-ozone-server-api
-- description: Ozone set management operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone set management operations.
   name: Bluesky Ozone Sets API
   slug: bluesky-ozone-sets-api
-- description: Ozone settings management operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone settings management operations.
   name: Bluesky Ozone Settings API
   slug: bluesky-ozone-settings-api
-- description: Ozone signature and threat analysis operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone signature and threat analysis operations.
   name: Bluesky Ozone Signatures API
   slug: bluesky-ozone-signatures-api
-- description: Ozone team member management operations.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Ozone team member management operations.
   name: Bluesky Ozone Team API
   slug: bluesky-ozone-team-api
-- description: Operations for managing AT Protocol repositories.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing AT Protocol repositories.
   name: Bluesky Repository API
   slug: bluesky-repository-api
-- description: Operations for server management and authentication.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for server management and authentication.
   name: Bluesky Server API
   slug: bluesky-server-api
-- description: Operations for managing follows, followers, blocks, mutes, and lists.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for managing follows, followers, blocks, mutes, and lists.
   name: Bluesky Social Graph API
   slug: bluesky-social-graph-api
-- description: Operations for repository synchronization.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for repository synchronization.
   name: Bluesky Sync API
   slug: bluesky-sync-api
-- description: Operations for video upload and processing.
+- baseURL: https://bsky.social/xrpc
+  baseurl_source: spec
+  description: Operations for video upload and processing.
   name: Bluesky Video API
   slug: bluesky-video-api
 artifact_total: 59
@@ -369,7 +415,7 @@ score:
     catalog_gap: 78.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -379,7 +425,7 @@ score:
     discoverability: 44.4
     governance: 11.4
     operational_transparency: 13.2
-  previous_composite: 43.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -388,7 +434,7 @@ score:
       marker_coverage: 0.0
       total: 23
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/screenshots/bluesky-2026-06-20T173536.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 31 operations · 14 acting
 api_count: 9
 apis:
-- description: The Accounts API from Vitally — 3 operation(s) for accounts.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Accounts API from Vitally — 3 operation(s) for accounts.
   name: Vitally Accounts API
   slug: vitally-accounts-api
-- description: The Admins API from Vitally — 1 operation(s) for admins.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Admins API from Vitally — 1 operation(s) for admins.
   name: Vitally Admins API
   slug: vitally-admins-api
-- description: The Conversations API from Vitally — 1 operation(s) for conversations.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Conversations API from Vitally — 1 operation(s) for conversations.
   name: Vitally Conversations API
   slug: vitally-conversations-api
-- description: The Custom Objects API from Vitally — 1 operation(s) for custom objects.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Custom Objects API from Vitally — 1 operation(s) for custom objects.
   name: Vitally Custom Objects API
   slug: vitally-custom-objects-api
-- description: The Notes API from Vitally — 2 operation(s) for notes.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Notes API from Vitally — 2 operation(s) for notes.
   name: Vitally Notes API
   slug: vitally-notes-api
-- description: The NPS Responses API from Vitally — 2 operation(s) for nps responses.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The NPS Responses API from Vitally — 2 operation(s) for nps responses.
   name: Vitally NPS Responses API
   slug: vitally-nps-responses-api
-- description: The Organizations API from Vitally — 2 operation(s) for organizations.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Organizations API from Vitally — 2 operation(s) for organizations.
   name: Vitally Organizations API
   slug: vitally-organizations-api
-- description: The Tasks API from Vitally — 2 operation(s) for tasks.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Tasks API from Vitally — 2 operation(s) for tasks.
   name: Vitally Tasks API
   slug: vitally-tasks-api
-- description: The Users API from Vitally — 3 operation(s) for users.
+- baseURL: https://rest.vitally.io/resources
+  baseurl_source: declared
+  description: The Users API from Vitally — 3 operation(s) for users.
   name: Vitally Users API
   slug: vitally-users-api
 artifact_total: 27
@@ -276,7 +294,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.3
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -286,7 +304,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 71.1
-  previous_composite: 59.4
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,8 +316,8 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/screenshots/vitally-2026-08-17T082804.png
 security:
 - kind: authentication

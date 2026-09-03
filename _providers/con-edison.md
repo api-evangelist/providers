@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -47,46 +47,74 @@ apis:
 - description: Con Edison's distribution-grid open data, published as anonymously readable Esri ArcGIS REST feature services behind the public Hosting Capacity Map. Con Edison's own documentation states that "REST A
   name: Con Edison Hosting Capacity Map REST API
   slug: con-edison-hosting-capacity-map-rest-api
-- description: The ApplicationInformation API from Con Edison — 1 operation(s) for applicationinformation.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ApplicationInformation API from Con Edison — 1 operation(s) for applicationinformation.
   name: Con Edison Application Information API
   slug: con-edison-applicationinformation-api
-- description: The Authorization API from Con Edison — 3 operation(s) for authorization.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The Authorization API from Con Edison — 3 operation(s) for authorization.
   name: Con Edison Authorization API
   slug: con-edison-authorization-api
-- description: The Batch API from Con Edison — 4 operation(s) for batch.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The Batch API from Con Edison — 4 operation(s) for batch.
   name: Con Edison Batch API
   slug: con-edison-batch-api
-- description: The ElectricPowerUsageSummary API from Con Edison — 2 operation(s) for electricpowerusagesummary.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ElectricPowerUsageSummary API from Con Edison — 2 operation(s) for electricpowerusagesummary.
   name: Con Edison Electric Power Usage Summary API
   slug: con-edison-electricpowerusagesummary-api
-- description: The IntervalBlock API from Con Edison — 2 operation(s) for intervalblock.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The IntervalBlock API from Con Edison — 2 operation(s) for intervalblock.
   name: Con Edison Interval Block API
   slug: con-edison-intervalblock-api
-- description: The LocalTimeParameters API from Con Edison — 2 operation(s) for localtimeparameters.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The LocalTimeParameters API from Con Edison — 2 operation(s) for localtimeparameters.
   name: Con Edison Local Time Parameters API
   slug: con-edison-localtimeparameters-api
-- description: The MeterReading API from Con Edison — 2 operation(s) for meterreading.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The MeterReading API from Con Edison — 2 operation(s) for meterreading.
   name: Con Edison Meter Reading API
   slug: con-edison-meterreading-api
-- description: The ReadingType API from Con Edison — 2 operation(s) for readingtype.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ReadingType API from Con Edison — 2 operation(s) for readingtype.
   name: Con Edison Reading Type API
   slug: con-edison-readingtype-api
-- description: The RealTimeBatch API from Con Edison — 3 operation(s) for realtimebatch.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeBatch API from Con Edison — 3 operation(s) for realtimebatch.
   name: Con Edison Real Time Batch API
   slug: con-edison-realtimebatch-api
-- description: The RealTimeIntervalBlock API from Con Edison — 2 operation(s) for realtimeintervalblock.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeIntervalBlock API from Con Edison — 2 operation(s) for realtimeintervalblock.
   name: Con Edison Real Time Interval Block API
   slug: con-edison-realtimeintervalblock-api
-- description: The RealTimeReadingType API from Con Edison — 2 operation(s) for realtimereadingtype.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RealTimeReadingType API from Con Edison — 2 operation(s) for realtimereadingtype.
   name: Con Edison Real Time Reading Type API
   slug: con-edison-realtimereadingtype-api
-- description: The RetailCustomer API from Con Edison — 9 operation(s) for retailcustomer.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The RetailCustomer API from Con Edison — 9 operation(s) for retailcustomer.
   name: Con Edison Retail Customer API
   slug: con-edison-retailcustomer-api
-- description: The ServiceStatus API from Con Edison — 1 operation(s) for servicestatus.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The ServiceStatus API from Con Edison — 1 operation(s) for servicestatus.
   name: Con Edison Service Status API
   slug: con-edison-servicestatus-api
-- description: The UsagePoint API from Con Edison — 2 operation(s) for usagepoint.
+- baseURL: https://api.coned.com/gbc/espi/1_1
+  baseurl_source: declared
+  description: The UsagePoint API from Con Edison — 2 operation(s) for usagepoint.
   name: Con Edison Usage Point API
   slug: con-edison-usagepoint-api
 artifact_total: 23
@@ -237,7 +265,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -247,7 +275,7 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 48.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -265,7 +293,7 @@ score:
     regime_id: energy_utilities
     score: 56.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png
 security:

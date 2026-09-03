@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -49,64 +49,104 @@ apis:
 - description: Free, unauthenticated, k-anonymity-based API to check whether a password hash appears in the 800+ million record Pwned Passwords dataset. Clients submit the first five characters of a SHA-1 hash and r
   name: Pwned Passwords API
   slug: pwned-passwords
-- description: The Breach API from Have I Been Pwned — 1 operation(s) for breach.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Breach API from Have I Been Pwned — 1 operation(s) for breach.
   name: Have I Been Pwned Breach API
   slug: have-i-been-pwned-breach-api
-- description: The Breachedaccount API from Have I Been Pwned — 2 operation(s) for breachedaccount.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Breachedaccount API from Have I Been Pwned — 2 operation(s) for breachedaccount.
   name: Have I Been Pwned Breachedaccount API
   slug: have-i-been-pwned-breachedaccount-api
-- description: The Breacheddomain API from Have I Been Pwned — 1 operation(s) for breacheddomain.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Breacheddomain API from Have I Been Pwned — 1 operation(s) for breacheddomain.
   name: Have I Been Pwned Breacheddomain API
   slug: have-i-been-pwned-breacheddomain-api
-- description: The Breaches API from Have I Been Pwned — 1 operation(s) for breaches.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Breaches API from Have I Been Pwned — 1 operation(s) for breaches.
   name: Have I Been Pwned Breaches API
   slug: have-i-been-pwned-breaches-api
-- description: The Dataclasses API from Have I Been Pwned — 1 operation(s) for dataclasses.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Dataclasses API from Have I Been Pwned — 1 operation(s) for dataclasses.
   name: Have I Been Pwned Dataclasses API
   slug: have-i-been-pwned-dataclasses-api
-- description: The Domainverification API from Have I Been Pwned — 3 operation(s) for domainverification.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Domainverification API from Have I Been Pwned — 3 operation(s) for domainverification.
   name: Have I Been Pwned Domainverification API
   slug: have-i-been-pwned-domainverification-api
-- description: The Latestbreach API from Have I Been Pwned — 1 operation(s) for latestbreach.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Latestbreach API from Have I Been Pwned — 1 operation(s) for latestbreach.
   name: Have I Been Pwned Latestbreach API
   slug: have-i-been-pwned-latestbreach-api
-- description: The Pasteaccount API from Have I Been Pwned — 1 operation(s) for pasteaccount.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Pasteaccount API from Have I Been Pwned — 1 operation(s) for pasteaccount.
   name: Have I Been Pwned Pasteaccount API
   slug: have-i-been-pwned-pasteaccount-api
-- description: The Range API from Have I Been Pwned — 1 operation(s) for range.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Range API from Have I Been Pwned — 1 operation(s) for range.
   name: Have I Been Pwned Range API
   slug: have-i-been-pwned-range-api
-- description: The Stealerlogsbyemail API from Have I Been Pwned — 1 operation(s) for stealerlogsbyemail.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Stealerlogsbyemail API from Have I Been Pwned — 1 operation(s) for stealerlogsbyemail.
   name: Have I Been Pwned Stealerlogsbyemail API
   slug: have-i-been-pwned-stealerlogsbyemail-api
-- description: The Stealerlogsbyemaildomain API from Have I Been Pwned — 1 operation(s) for stealerlogsbyemaildomain.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Stealerlogsbyemaildomain API from Have I Been Pwned — 1 operation(s) for stealerlogsbyemaildomain.
   name: Have I Been Pwned Stealerlogsbyemaildomain API
   slug: have-i-been-pwned-stealerlogsbyemaildomain-api
-- description: The Stealerlogsbywebsitedomain API from Have I Been Pwned — 1 operation(s) for stealerlogsbywebsitedomain.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Stealerlogsbywebsitedomain API from Have I Been Pwned — 1 operation(s) for stealerlogsbywebsitedomain.
   name: Have I Been Pwned Stealerlogsbywebsitedomain API
   slug: have-i-been-pwned-stealerlogsbywebsitedomain-api
-- description: The Subscribeddomains API from Have I Been Pwned — 1 operation(s) for subscribeddomains.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Subscribeddomains API from Have I Been Pwned — 1 operation(s) for subscribeddomains.
   name: Have I Been Pwned Subscribeddomains API
   slug: have-i-been-pwned-subscribeddomains-api
-- description: The Subscription API from Have I Been Pwned — 1 operation(s) for subscription.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: The Subscription API from Have I Been Pwned — 1 operation(s) for subscription.
   name: Have I Been Pwned Subscription API
   slug: have-i-been-pwned-subscription-api
-- description: Lookup breaches affecting an email address.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: Lookup breaches affecting an email address.
   name: Have I Been Pwned Breached Accounts API
   slug: have-i-been-pwned-breached-accounts-api
-- description: Enumerate classes of data exposed across breaches.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: Enumerate classes of data exposed across breaches.
   name: Have I Been Pwned Data Classes API
   slug: have-i-been-pwned-data-classes-api
-- description: Verify and search domains you control.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: Verify and search domains you control.
   name: Have I Been Pwned Domain Search API
   slug: have-i-been-pwned-domain-search-api
-- description: Lookup pastes referencing an email address.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: Lookup pastes referencing an email address.
   name: Have I Been Pwned Pastes API
   slug: have-i-been-pwned-pastes-api
-- description: K-anonymity range search for password hashes.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: K-anonymity range search for password hashes.
   name: Have I Been Pwned Range Search API
   slug: have-i-been-pwned-range-search-api
-- description: Search infostealer malware corpora by email or domain.
+- baseURL: https://haveibeenpwned.com/api/v3
+  baseurl_source: declared
+  description: Search infostealer malware corpora by email or domain.
   name: Have I Been Pwned Stealer Logs API
   slug: have-i-been-pwned-stealer-logs-api
 artifact_total: 112
@@ -501,7 +541,7 @@ score:
       marker_coverage: 0.0
       total: 20
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/screenshots/have-i-been-pwned-2026-06-20T182538.png
 security:

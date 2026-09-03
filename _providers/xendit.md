@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 20 operations · 10 acting
 api_count: 1
 apis:
-- description: Retrieve account balances by type and currency.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Retrieve account balances by type and currency.
   name: Xendit Balance API
   slug: xendit-balance-api
-- description: Create and manage customer records.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Create and manage customer records.
   name: Xendit Customers API
   slug: xendit-customers-api
-- description: Xendit-hosted invoices / payment links.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Xendit-hosted invoices / payment links.
   name: Xendit Invoices API
   slug: xendit-invoices-api
-- description: Unified Payments API - charge end users across all channels.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Unified Payments API - charge end users across all channels.
   name: Xendit Payment Requests API
   slug: xendit-payment-requests-api
-- description: Save reusable payment methods for future and recurring charges.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Save reusable payment methods for future and recurring charges.
   name: Xendit Payment Tokens API
   slug: xendit-payment-tokens-api
-- description: Disburse funds to bank accounts and e-wallets.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Disburse funds to bank accounts and e-wallets.
   name: Xendit Payouts API
   slug: xendit-payouts-api
-- description: Refund successful payment requests.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: Refund successful payment requests.
   name: Xendit Refunds API
   slug: xendit-refunds-api
-- description: List and retrieve money-movement transactions.
+- baseURL: https://api.xendit.co
+  baseurl_source: declared
+  description: List and retrieve money-movement transactions.
   name: Xendit Transactions API
   slug: xendit-transactions-api
 artifact_total: 24
@@ -174,7 +190,7 @@ score:
   band: thin
   composite: 35.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 55.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +219,9 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/screenshots/xendit-2026-09-02T171119.png
 security:
 - kind: authentication
   name: Xendit Authentication

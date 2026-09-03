@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 66 operations · 33 acting
 api_count: 1
 apis:
-- description: The Collection API from BigOven — 3 operation(s) for collection.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Collection API from BigOven — 3 operation(s) for collection.
   name: BigOven Collection API
   slug: bigoven-collection-api
-- description: The GroceryList API from BigOven — 8 operation(s) for grocerylist.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The GroceryList API from BigOven — 8 operation(s) for grocerylist.
   name: BigOven GroceryList API
   slug: bigoven-grocerylist-api
-- description: The Images API from BigOven — 6 operation(s) for images.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Images API from BigOven — 6 operation(s) for images.
   name: BigOven Images API
   slug: bigoven-images-api
-- description: The Me API from BigOven — 6 operation(s) for me.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Me API from BigOven — 6 operation(s) for me.
   name: BigOven Me API
   slug: bigoven-me-api
-- description: The Note API from BigOven — 3 operation(s) for note.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Note API from BigOven — 3 operation(s) for note.
   name: BigOven Note API
   slug: bigoven-note-api
-- description: The Recipe API from BigOven — 21 operation(s) for recipe.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Recipe API from BigOven — 21 operation(s) for recipe.
   name: BigOven Recipe API
   slug: bigoven-recipe-api
-- description: The Review API from BigOven — 6 operation(s) for review.
+- baseURL: https://api2.bigoven.com
+  baseurl_source: declared
+  description: The Review API from BigOven — 6 operation(s) for review.
   name: BigOven Review API
   slug: bigoven-review-api
 artifact_total: 144
@@ -580,7 +594,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/screenshots/bigoven-2026-06-20T173235.png
 security:

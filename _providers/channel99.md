@@ -34,61 +34,95 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: First-party remote Model Context Protocol server that exposes Channel99 marketing intelligence - visits, pixel impressions, vendor and channel scores, audiences, account identity and pipeline influenc
   name: Channel99 MCP Server
   slug: channel99-mcp-server
-- description: Ad account dimension records — `GET /dimensions/ad-accounts`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad account dimension records — `GET /dimensions/ad-accounts`
   name: Channel99 Ad Accounts API
   slug: channel99-ad-accounts-api
-- description: Ad campaign group dimension records — `GET /dimensions/ad-campaign-groups`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad campaign group dimension records — `GET /dimensions/ad-campaign-groups`
   name: Channel99 Ad Campaign Groups API
   slug: channel99-ad-campaign-groups-api
-- description: Ad campaign dimension records — `GET /dimensions/ad-campaigns`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad campaign dimension records — `GET /dimensions/ad-campaigns`
   name: Channel99 Ad Campaigns API
   slug: channel99-ad-campaigns-api
-- description: Ad group dimension records — `GET /dimensions/ad-groups`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad group dimension records — `GET /dimensions/ad-groups`
   name: Channel99 Ad Groups API
   slug: channel99-ad-groups-api
-- description: Ad unit dimension records — `GET /dimensions/ad-units`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad unit dimension records — `GET /dimensions/ad-units`
   name: Channel99 Ad Units API
   slug: channel99-ad-units-api
-- description: Ad dimension records — `GET /dimensions/ads`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad dimension records — `GET /dimensions/ads`
   name: Channel99 Ads API
   slug: channel99-ads-api
-- description: Audience dimension records — `GET /dimensions/audiences`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Audience dimension records — `GET /dimensions/audiences`
   name: Channel99 Audiences API
   slug: channel99-audiences-api
-- description: Token issuance — `POST /auth/token`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Token issuance — `POST /auth/token`
   name: Channel99 Auth API
   slug: channel99-auth-api
-- description: Channel dimension records — `GET /dimensions/channels`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Channel dimension records — `GET /dimensions/channels`
   name: Channel99 Channels API
   slug: channel99-channels-api
-- description: Company dimension records — `GET /dimensions/companies`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Company dimension records — `GET /dimensions/companies`
   name: Channel99 Companies API
   slug: channel99-companies-api
-- description: Service health check
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Service health check
   name: Channel99 Health API
   slug: channel99-health-api
-- description: Ad impression events — `GET /events/impressions`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Ad impression events — `GET /events/impressions`
   name: Channel99 Impressions API
   slug: channel99-impressions-api
-- description: Buyer intent signal events — `GET /events/intents`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Buyer intent signal events — `GET /events/intents`
   name: Channel99 Intents API
   slug: channel99-intents-api
-- description: Company information lookup by IP address — `GET /ip/{ipAddress}`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Company information lookup by IP address — `GET /ip/{ipAddress}`
   name: Channel99 IP Lookup API
   slug: channel99-ip-lookup-api
-- description: Website pageview events — `GET /events/pageviews`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Website pageview events — `GET /events/pageviews`
   name: Channel99 Pageviews API
   slug: channel99-pageviews-api
-- description: Vendor dimension records — `GET /dimensions/vendors`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Vendor dimension records — `GET /dimensions/vendors`
   name: Channel99 Vendors API
   slug: channel99-vendors-api
-- description: Website visit events — `GET /events/visits`
+- baseURL: https://pulsar.channel99.com
+  baseurl_source: declared
+  description: Website visit events — `GET /events/visits`
   name: Channel99 Visits API
   slug: channel99-visits-api
 artifact_total: 25
@@ -277,7 +311,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/channel99/refs/heads/main/screenshots/channel99-2026-07-25T205041.png
 security:

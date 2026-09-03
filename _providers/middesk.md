@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -44,88 +44,144 @@ agentic_access:
   summary_line: 70 operations · 27 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The subpackage_actions API from Middesk — 2 operation(s) for subpackage_actions.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_actions API from Middesk — 2 operation(s) for subpackage_actions.
   name: Middesk subpackage_actions API
   slug: middesk-subpackage-actions-api
-- description: The subpackage_agents API from Middesk — 2 operation(s) for subpackage_agents.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_agents API from Middesk — 2 operation(s) for subpackage_agents.
   name: Middesk subpackage_agents API
   slug: middesk-subpackage-agents-api
-- description: The subpackage_applications API from Middesk — 1 operation(s) for subpackage_applications.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_applications API from Middesk — 1 operation(s) for subpackage_applications.
   name: Middesk subpackage_applications API
   slug: middesk-subpackage-applications-api
-- description: The subpackage_businessBatches API from Middesk — 3 operation(s) for subpackage_businessbatches.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_businessBatches API from Middesk — 3 operation(s) for subpackage_businessbatches.
   name: Middesk subpackage_businessBatches API
   slug: middesk-subpackage-businessbatches-api
-- description: The subpackage_businesses API from Middesk — 3 operation(s) for subpackage_businesses.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_businesses API from Middesk — 3 operation(s) for subpackage_businesses.
   name: Middesk subpackage_businesses API
   slug: middesk-subpackage-businesses-api
-- description: The subpackage_companies API from Middesk — 1 operation(s) for subpackage_companies.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_companies API from Middesk — 1 operation(s) for subpackage_companies.
   name: Middesk subpackage_companies API
   slug: middesk-subpackage-companies-api
-- description: The subpackage_connections API from Middesk — 1 operation(s) for subpackage_connections.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_connections API from Middesk — 1 operation(s) for subpackage_connections.
   name: Middesk subpackage_connections API
   slug: middesk-subpackage-connections-api
-- description: The subpackage_documents API from Middesk — 3 operation(s) for subpackage_documents.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_documents API from Middesk — 3 operation(s) for subpackage_documents.
   name: Middesk subpackage_documents API
   slug: middesk-subpackage-documents-api
-- description: The subpackage_identities API from Middesk — 1 operation(s) for subpackage_identities.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_identities API from Middesk — 1 operation(s) for subpackage_identities.
   name: Middesk subpackage_identities API
   slug: middesk-subpackage-identities-api
-- description: The subpackage_informationRequests API from Middesk — 1 operation(s) for subpackage_informationrequests.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_informationRequests API from Middesk — 1 operation(s) for subpackage_informationrequests.
   name: Middesk subpackage_informationRequests API
   slug: middesk-subpackage-informationrequests-api
-- description: The subpackage_jurisdictions API from Middesk — 2 operation(s) for subpackage_jurisdictions.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_jurisdictions API from Middesk — 2 operation(s) for subpackage_jurisdictions.
   name: Middesk subpackage_jurisdictions API
   slug: middesk-subpackage-jurisdictions-api
-- description: The subpackage_liens API from Middesk — 2 operation(s) for subpackage_liens.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_liens API from Middesk — 2 operation(s) for subpackage_liens.
   name: Middesk subpackage_liens API
   slug: middesk-subpackage-liens-api
-- description: The subpackage_lienTerminations API from Middesk — 1 operation(s) for subpackage_lienterminations.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_lienTerminations API from Middesk — 1 operation(s) for subpackage_lienterminations.
   name: Middesk subpackage_lienTerminations API
   slug: middesk-subpackage-lienterminations-api
-- description: The subpackage_mail API from Middesk — 2 operation(s) for subpackage_mail.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_mail API from Middesk — 2 operation(s) for subpackage_mail.
   name: Middesk subpackage_mail API
   slug: middesk-subpackage-mail-api
-- description: The subpackage_monitoring API from Middesk — 2 operation(s) for subpackage_monitoring.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_monitoring API from Middesk — 2 operation(s) for subpackage_monitoring.
   name: Middesk subpackage_monitoring API
   slug: middesk-subpackage-monitoring-api
-- description: The subpackage_orders API from Middesk — 3 operation(s) for subpackage_orders.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_orders API from Middesk — 3 operation(s) for subpackage_orders.
   name: Middesk subpackage_orders API
   slug: middesk-subpackage-orders-api
-- description: The subpackage_policyResults API from Middesk — 1 operation(s) for subpackage_policyresults.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_policyResults API from Middesk — 1 operation(s) for subpackage_policyresults.
   name: Middesk subpackage_policyResults API
   slug: middesk-subpackage-policyresults-api
-- description: The subpackage_prefill API from Middesk — 1 operation(s) for subpackage_prefill.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_prefill API from Middesk — 1 operation(s) for subpackage_prefill.
   name: Middesk subpackage_prefill API
   slug: middesk-subpackage-prefill-api
-- description: The subpackage_questions API from Middesk — 1 operation(s) for subpackage_questions.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_questions API from Middesk — 1 operation(s) for subpackage_questions.
   name: Middesk subpackage_questions API
   slug: middesk-subpackage-questions-api
-- description: The subpackage_registrationRequests API from Middesk — 3 operation(s) for subpackage_registrationrequests.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_registrationRequests API from Middesk — 3 operation(s) for subpackage_registrationrequests.
   name: Middesk subpackage_registrationRequests API
   slug: middesk-subpackage-registrationrequests-api
-- description: The subpackage_reviews API from Middesk — 1 operation(s) for subpackage_reviews.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_reviews API from Middesk — 1 operation(s) for subpackage_reviews.
   name: Middesk subpackage_reviews API
   slug: middesk-subpackage-reviews-api
-- description: The subpackage_runs API from Middesk — 4 operation(s) for subpackage_runs.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_runs API from Middesk — 4 operation(s) for subpackage_runs.
   name: Middesk subpackage_runs API
   slug: middesk-subpackage-runs-api
-- description: The subpackage_signals API from Middesk — 2 operation(s) for subpackage_signals.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_signals API from Middesk — 2 operation(s) for subpackage_signals.
   name: Middesk subpackage_signals API
   slug: middesk-subpackage-signals-api
-- description: The subpackage_threads API from Middesk — 2 operation(s) for subpackage_threads.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_threads API from Middesk — 2 operation(s) for subpackage_threads.
   name: Middesk subpackage_threads API
   slug: middesk-subpackage-threads-api
-- description: The subpackage_timeline API from Middesk — 1 operation(s) for subpackage_timeline.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_timeline API from Middesk — 1 operation(s) for subpackage_timeline.
   name: Middesk subpackage_timeline API
   slug: middesk-subpackage-timeline-api
-- description: The subpackage_tinMatch API from Middesk — 1 operation(s) for subpackage_tinmatch.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_tinMatch API from Middesk — 1 operation(s) for subpackage_tinmatch.
   name: Middesk subpackage_tinMatch API
   slug: middesk-subpackage-tinmatch-api
-- description: The subpackage_webhooks API from Middesk — 3 operation(s) for subpackage_webhooks.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_webhooks API from Middesk — 3 operation(s) for subpackage_webhooks.
   name: Middesk subpackage_webhooks API
   slug: middesk-subpackage-webhooks-api
-- description: The subpackage_websites API from Middesk — 1 operation(s) for subpackage_websites.
+- baseURL: https://api.middesk.com/v1/
+  baseurl_source: declared
+  description: The subpackage_websites API from Middesk — 1 operation(s) for subpackage_websites.
   name: Middesk subpackage_websites API
   slug: middesk-subpackage-websites-api
 artifact_total: 88
@@ -415,7 +471,7 @@ score:
       marker_coverage: 0.0
       total: 28
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/middesk/refs/heads/main/screenshots/middesk-2026-06-20T185620.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -45,46 +45,74 @@ agentic_access:
   summary_line: 70 operations · 40 acting · 6 human-in-the-loop
 api_count: 3
 apis:
-- description: WebSocket-based messaging protocol for communication between Jupyter clients and computational kernels. Supports code execution, introspection, completion, and rich output over shell, IOPub, stdin, an
+- baseURL: ws://localhost:8888
+  baseurl_source: declared
+  description: WebSocket-based messaging protocol for communication between Jupyter clients and computational kernels. Supports code execution, introspection, completion, and rich output over shell, IOPub, stdin, an
   name: Jupyter Kernel Messaging Protocol
   slug: jupyter-kernel-messaging
-- description: Token verification and authorization checks.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Token verification and authorization checks.
   name: Jupyter Notebook Authorization API
   slug: jupyter-notebook-authorization-api
-- description: Server configuration section management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Server configuration section management.
   name: Jupyter Notebook Config API
   slug: jupyter-notebook-config-api
-- description: File and directory management including notebooks, files, directories, and checkpoints.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: File and directory management including notebooks, files, directories, and checkpoints.
   name: Jupyter Notebook Contents API
   slug: jupyter-notebook-contents-api
-- description: General gateway information.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: General gateway information.
   name: Jupyter Notebook General API
   slug: jupyter-notebook-general-api
-- description: Group management for organizing users.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Group management for organizing users.
   name: Jupyter Notebook Groups API
   slug: jupyter-notebook-groups-api
-- description: Hub lifecycle management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Hub lifecycle management.
   name: Jupyter Notebook Hub API
   slug: jupyter-notebook-hub-api
-- description: Kernel lifecycle management on the gateway. The gateway may enforce kernel limits and seed kernels.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Kernel lifecycle management on the gateway. The gateway may enforce kernel limits and seed kernels.
   name: Jupyter Notebook Kernels API
   slug: jupyter-notebook-kernels-api
-- description: Kernel specification listing and retrieval.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Kernel specification listing and retrieval.
   name: Jupyter Notebook Kernelspecs API
   slug: jupyter-notebook-kernelspecs-api
-- description: Configurable HTTP proxy routing table management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Configurable HTTP proxy routing table management.
   name: Jupyter Notebook Proxy API
   slug: jupyter-notebook-proxy-api
-- description: The Services API from Jupyter Notebook — 2 operation(s) for services.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: The Services API from Jupyter Notebook — 2 operation(s) for services.
   name: Jupyter Notebook Services API
   slug: jupyter-notebook-services-api
-- description: Session management for associating notebooks with running kernels.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Session management for associating notebooks with running kernels.
   name: Jupyter Notebook Sessions API
   slug: jupyter-notebook-sessions-api
-- description: Terminal session management on the server.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: Terminal session management on the server.
   name: Jupyter Notebook Terminals API
   slug: jupyter-notebook-terminals-api
-- description: User management including creation, deletion, server management, and token management.
+- baseURL: http://localhost:8888/api
+  baseurl_source: declared
+  description: User management including creation, deletion, server management, and token management.
   name: Jupyter Notebook Users API
   slug: jupyter-notebook-users-api
 artifact_total: 46
@@ -309,7 +337,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -322,7 +350,7 @@ score:
   open_source:
     applies: true
     score: 65.0
-  previous_composite: 43.2
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -331,7 +359,7 @@ score:
       marker_coverage: 0.0
       total: 13
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

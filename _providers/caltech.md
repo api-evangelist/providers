@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for CaltechDATA. Verified live 2026-08-19 via the Identify verb (repositoryName CaltechDATA, protocolVersion 2.0) and via ListMetadataFormats, which advertises
@@ -63,16 +63,24 @@ apis:
 - description: Caltech Library's OpenURL link resolver is an EBSCO tenancy — instance `l7ubco` on the shared host resolver.ebsco.com — referenced from Caltech's own library pages. Recorded as a relationship only — n
   name: EBSCO Link Resolver (Caltech instance)
   slug: ebsco-resolver
-- description: Time-series waveform retrieval (fdsnws-dataselect).
+- baseURL: https://data.caltech.edu/api/records
+  baseurl_source: declared
+  description: Time-series waveform retrieval (fdsnws-dataselect).
   name: California Institute of Technology Data Select API
   slug: caltech-dataselect-api
-- description: Earthquake event catalog queries (fdsnws-event).
+- baseURL: https://data.caltech.edu/api/records
+  baseurl_source: declared
+  description: Earthquake event catalog queries (fdsnws-event).
   name: California Institute of Technology Event API
   slug: caltech-event-api
-- description: Published research data records, their metadata, files and DOIs.
+- baseURL: https://data.caltech.edu/api/records
+  baseurl_source: declared
+  description: Published research data records, their metadata, files and DOIs.
   name: California Institute of Technology Records API
   slug: caltech-records-api
-- description: Station and channel metadata queries (fdsnws-station).
+- baseURL: https://data.caltech.edu/api/records
+  baseurl_source: declared
+  description: Station and channel metadata queries (fdsnws-station).
   name: California Institute of Technology Station API
   slug: caltech-station-api
 artifact_total: 23
@@ -265,7 +273,7 @@ score:
     catalog_gap: 45.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.4
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -275,7 +283,7 @@ score:
     discoverability: 64.8
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 31.7
+  previous_composite: 32.1
   provenance:
     conformance: first-party
     contracts:
@@ -290,7 +298,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/screenshots/caltech-2026-06-20T173852.png
 security:

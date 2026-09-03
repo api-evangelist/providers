@@ -16,11 +16,11 @@
      "slug": "leaflink",
      "description": "LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments and net terms (LeafLink Financial), logistics and transportation, inventory management, seed-to-sale traceability integration, compliance and licensing, advertising and market insights into one system of record for regulated cannabis wholesale. LeafLink publishes a public REST API at api.leaflink.com — the current dated version 2022-10-31, authenticated with JWT bearer tokens, spanning 182 paths and 269 operations across products, orders, customers, inventory, payments, logistics, traceability, compliance, taxes and messaging — alongside a legacy Marketplace V2 API at app.leaflink.com/api/v2 with 66 paths and 111 operations. Both are documented with OpenAPI on the LeafLink Developer Hub, and the platform supports HMAC-signed webhooks for order and product events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png",
-     "score": 55.2,
+     "score": 57.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 51.9,
+      "discoverability": 70.4,
       "contract_quality": 64.1,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -29,7 +29,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -92,7 +92,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.0,
      "agent_band": "agent-aware",
@@ -120,67 +120,16 @@
      "rank": 2
     },
     {
-     "name": "Treez",
-     "slug": "treez",
-     "description": "Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its public API surface is a partner-gated REST programme documented at code.treez.io and split into two families: per-dispensary Dispensary APIs at api-prod.treez.io/dispensary/v3 covering customers, tickets/orders, inventory packages, lab results, invoices, distributors and METRC state track-and-trace package sync; and organization-level Service APIs at api-prod.treez.io/service covering the central product catalog, collections, discounts, tags and JWT validation. A legacy SellTreez v2.0 Product API remains published at api.treez.io. Treez serves an RFC 9727 API Catalog naming all seven of its OpenAPI definitions, an llms.txt documentation index, and a live anonymous MCP endpoint over those definitions. Authentication is a self-signed RSA JWT with a 30-second TTL; access requires a partner application, an MNDA and API Usage Agreement, sandbox development and certification before a mutual customer can request a production key.",
-     "score": 45.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.6,
-      "contract_quality": 44.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 51.8,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 46.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 33.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Green Check Verified",
      "slug": "green-check-verified",
      "description": "Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit unions use it to onboard cannabis-related businesses (CRBs), collect and review due-diligence documentation, validate that deposits trace to legally licensed sales, monitor licenses and negative news, and produce the BSA/AML oversight reporting examiners require. Its public developer product, Green Check Access, is a REST API suite that normalizes compliance, company and transactional data across more than twenty point-of-sale and seed-to-sale systems — Dutchie, Treez, Flowhub, Biotrack, Metrc, Cova, Canix, Greenbits and others — so service providers such as payroll companies, CRMs, lenders and fintechs can programmatically create and onboard CRBs and read their sales, products, inventory, customer and document data through one contract instead of one integration per POS.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/screenshots/green-check-verified-2026-09-02T145630.png",
-     "score": 45.1,
+     "score": 45.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 52.9,
+      "contract_quality": 56.3,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
@@ -188,7 +137,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -220,6 +169,58 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 3
+    },
+    {
+     "name": "Treez",
+     "slug": "treez",
+     "description": "Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its public API surface is a partner-gated REST programme documented at code.treez.io and split into two families: per-dispensary Dispensary APIs at api-prod.treez.io/dispensary/v3 covering customers, tickets/orders, inventory packages, lab results, invoices, distributors and METRC state track-and-trace package sync; and organization-level Service APIs at api-prod.treez.io/service covering the central product catalog, collections, discounts, tags and JWT validation. A legacy SellTreez v2.0 Product API remains published at api.treez.io. Treez serves an RFC 9727 API Catalog naming all seven of its OpenAPI definitions, an llms.txt documentation index, and a live anonymous MCP endpoint over those definitions. Authentication is a self-signed RSA JWT with a 30-second TTL; access requires a partner application, an MNDA and API Usage Agreement, sandbox development and certification before a mutual customer can request a production key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/screenshots/treez-2026-09-02T164204.png",
+     "score": 45.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.6,
+      "contract_quality": 45.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 51.8,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 4
     },
     {
@@ -240,7 +241,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -292,7 +293,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -348,7 +349,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -380,12 +381,12 @@
      "slug": "happy-cabbage-analytics",
      "description": "Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, replenishment and purchase-order workflows on top of data pulled from their point-of-sale system. The platform reads live sell-through from POS integrations (Dutchie, Flowhub, Blaze, Treez, Meadow) and wholesale menus (Distru, Apex Trading), then scores inventory health by store, category and brand, predicts days-on-hand, groups SKUs into product lines, and drafts vendor orders with invoices attached. Happy Cabbage sold its Happy Marketers text-marketing suite to Alpine IQ in June 2025 and now focuses on Happy Buyers. A public Happy Buyers External API entered beta in June 2026 and is documented with a Swagger UI, exposing organization metadata, inventory health, product/product-line inventory, packages, daily sales metadata and full order management to API-key holders — the same API the company's own published AI-agent workflows are built on.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/screenshots/happy-cabbage-analytics-2026-09-02T145659.png",
-     "score": 35.8,
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 55.2,
+      "contract_quality": 58.6,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
@@ -393,7 +394,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -438,7 +439,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -482,7 +483,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 20.8,
      "agent_band": "agent-aware",
@@ -536,7 +537,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -574,6 +575,7 @@
      "name": "Weedmaps",
      "slug": "weedmaps",
      "description": "Weedmaps is a cannabis discovery and ordering marketplace connecting consumers with dispensaries, delivery services, and brands. For its business customers it publishes a partner integration API suite - a Menu API for keeping a retailer's product menu, pricing, and availability in sync with their point-of-sale, a Brand Catalog API for mapping and enriching menu items against the Weedmaps brand and product taxonomy, a Taxonomy API for categories, cannabinoids, strains, terpenes, and discovery tags, and an Orders API for receiving and updating online orders in a partner POS. The developer documentation is public, but production access is partner-gated - integrators apply by email, receive OAuth2 client-credentials credentials and a test listing, and a Listing Owner must grant access. New integrations are noted as not currently being onboarded, so the endpoints below are documented but modeled from the public reference rather than exercised against a live account.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/weedmaps/refs/heads/main/screenshots/weedmaps-2026-09-02T170553.png",
      "score": 23.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -587,7 +589,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -631,7 +633,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -676,7 +678,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -721,7 +723,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -783,7 +785,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -835,7 +837,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -880,7 +882,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -925,7 +927,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -970,7 +972,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1022,7 +1024,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1067,7 +1069,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1112,7 +1114,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1164,7 +1166,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1209,7 +1211,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

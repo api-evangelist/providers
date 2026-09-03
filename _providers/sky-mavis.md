@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
 - description: REST Web3 data API on the Ronin blockchain — query accounts, NFTs, tokens, collections, blocks, smart contracts and transactions. Authenticated with an X-API-KEY issued from the Ronin Developer Consol
@@ -173,7 +173,7 @@ score:
   band: thin
   composite: 35.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -199,8 +199,9 @@ score:
     regime_id: payments
     score: 54.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sky-mavis/refs/heads/main/screenshots/sky-mavis-2026-09-02T155750.png
 security:
 - kind: authentication
   name: Sky Mavis Authentication

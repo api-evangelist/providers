@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: The Trust3 API server is the public AI Governance API edge of the Trust3 control plane. AI Assets Collectors running in the customer data plane authenticate every request with a Trust3 API key (AI_GOV
@@ -150,7 +150,7 @@ score:
   band: thin
   composite: 30.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -169,8 +169,9 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trust3-ai/refs/heads/main/screenshots/trust3-ai-2026-09-02T164416.png
 security:
 - kind: authentication
   name: Trust3 Ai Authentication

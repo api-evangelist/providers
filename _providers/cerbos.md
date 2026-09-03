@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -48,7 +48,9 @@ apis:
 - description: The Cerbos PDP gRPC API exposes the cerbos.svc.v1.CerbosService and related management services on port 3593, with server reflection enabled. The gRPC interface is the highest-performance way to embed
   name: Cerbos PDP gRPC API
   slug: cerbos-pdp-grpc-api
-- description: Cerbos implements the OpenID AuthZEN authorization API specification, exposing standards-compliant single-evaluation, batch-evaluations, and well-known metadata endpoints so that any AuthZEN-conforman
+- baseURL: http://localhost:3592
+  baseurl_source: spec
+  description: Cerbos implements the OpenID AuthZEN authorization API specification, exposing standards-compliant single-evaluation, batch-evaluations, and well-known metadata endpoints so that any AuthZEN-conforman
   name: Cerbos AuthZEN API
   slug: cerbos-authzen-api
 - description: The Cerbos Admin API provides management capabilities such as policy add/get/list, schema management, and audit log access on the running PDP. It is intended for administrative use and is gated by HTT
@@ -60,28 +62,44 @@ apis:
 - description: Cerbos Synapse is the enrichment and orchestration component that fetches identity, resource, and relationship attributes from external systems and translates infrastructure protocols (HTTP, gRPC, Gra
   name: Cerbos Synapse
   slug: cerbos-synapse
-- description: Audit and decision log access (Admin API).
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: Audit and decision log access (Admin API).
   name: Cerbos Admin Audit API
   slug: cerbos-admin-audit-api
-- description: Policy management (Admin API).
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: Policy management (Admin API).
   name: Cerbos Admin Policies API
   slug: cerbos-admin-policies-api
-- description: JSON schema management (Admin API).
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: JSON schema management (Admin API).
   name: Cerbos Admin Schemas API
   slug: cerbos-admin-schemas-api
-- description: Policy store administration (Admin API).
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: Policy store administration (Admin API).
   name: Cerbos Admin Store API
   slug: cerbos-admin-store-api
-- description: OpenID AuthZEN standards-compliant evaluation endpoints.
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: OpenID AuthZEN standards-compliant evaluation endpoints.
   name: Cerbos AuthZEN API
   slug: cerbos-authzen-api
-- description: Evaluate authorization decisions.
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: Evaluate authorization decisions.
   name: Cerbos Check API
   slug: cerbos-check-api
-- description: Generate query plans for resource filtering.
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: Generate query plans for resource filtering.
   name: Cerbos Plan API
   slug: cerbos-plan-api
-- description: PDP server metadata.
+- baseURL: http://localhost:3592
+  baseurl_source: declared
+  description: PDP server metadata.
   name: Cerbos Server API
   slug: cerbos-server-api
 artifact_total: 60
@@ -334,7 +352,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/screenshots/cerbos-2026-06-20T174139.png
 security:

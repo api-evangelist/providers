@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -44,49 +44,79 @@ agentic_access:
   summary_line: 47 operations · 22 acting
 api_count: 16
 apis:
-- description: The Contact Fields API from Spruce Health — 1 operation(s) for contact fields.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Contact Fields API from Spruce Health — 1 operation(s) for contact fields.
   name: Spruce Health Contact Fields API
   slug: spruce-health-contact-fields-api
-- description: The Contact Tags API from Spruce Health — 1 operation(s) for contact tags.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Contact Tags API from Spruce Health — 1 operation(s) for contact tags.
   name: Spruce Health Contact Tags API
   slug: spruce-health-contact-tags-api
-- description: The Contacts API from Spruce Health — 6 operation(s) for contacts.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Contacts API from Spruce Health — 6 operation(s) for contacts.
   name: Spruce Health Contacts API
   slug: spruce-health-contacts-api
-- description: The Conversation Item API from Spruce Health — 1 operation(s) for conversation item.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Conversation Item API from Spruce Health — 1 operation(s) for conversation item.
   name: Spruce Health Conversation Item API
   slug: spruce-health-conversation-item-api
-- description: The Conversation Tags API from Spruce Health — 1 operation(s) for conversation tags.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Conversation Tags API from Spruce Health — 1 operation(s) for conversation tags.
   name: Spruce Health Conversation Tags API
   slug: spruce-health-conversation-tags-api
-- description: The Conversations API from Spruce Health — 4 operation(s) for conversations.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Conversations API from Spruce Health — 4 operation(s) for conversations.
   name: Spruce Health Conversations API
   slug: spruce-health-conversations-api
-- description: The Internal Endpoints API from Spruce Health — 3 operation(s) for internal endpoints.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Internal Endpoints API from Spruce Health — 3 operation(s) for internal endpoints.
   name: Spruce Health Internal Endpoints API
   slug: spruce-health-internal-endpoints-api
-- description: The Media API from Spruce Health — 1 operation(s) for media.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Media API from Spruce Health — 1 operation(s) for media.
   name: Spruce Health Media API
   slug: spruce-health-media-api
-- description: The Organization API from Spruce Health — 3 operation(s) for organization.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Organization API from Spruce Health — 3 operation(s) for organization.
   name: Spruce Health Organization API
   slug: spruce-health-organization-api
-- description: The Phone Lines API from Spruce Health — 2 operation(s) for phone lines.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Phone Lines API from Spruce Health — 2 operation(s) for phone lines.
   name: Spruce Health Phone Lines API
   slug: spruce-health-phone-lines-api
-- description: The Saved Messages API from Spruce Health — 1 operation(s) for saved messages.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Saved Messages API from Spruce Health — 1 operation(s) for saved messages.
   name: Spruce Health Saved Messages API
   slug: spruce-health-saved-messages-api
-- description: The Scheduled Messages API from Spruce Health — 3 operation(s) for scheduled messages.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Scheduled Messages API from Spruce Health — 3 operation(s) for scheduled messages.
   name: Spruce Health Scheduled Messages API
   slug: spruce-health-scheduled-messages-api
-- description: The Teams API from Spruce Health — 1 operation(s) for teams.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Teams API from Spruce Health — 1 operation(s) for teams.
   name: Spruce Health Teams API
   slug: spruce-health-teams-api
-- description: The Transcription API from Spruce Health — 1 operation(s) for transcription.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Transcription API from Spruce Health — 1 operation(s) for transcription.
   name: Spruce Health Transcription API
   slug: spruce-health-transcription-api
-- description: The Webhooks API from Spruce Health — 4 operation(s) for webhooks.
+- baseURL: https://api.sprucehealth.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Spruce Health — 4 operation(s) for webhooks.
   name: Spruce Health Webhooks API
   slug: spruce-health-webhooks-api
 artifact_total: 39
@@ -393,7 +423,7 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -403,7 +433,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 63.8
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,7 +451,7 @@ score:
     regime_id: health
     score: 45.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/screenshots/spruce-health-2026-08-17T082049.png
 security:

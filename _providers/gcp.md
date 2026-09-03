@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -44,25 +44,39 @@ agentic_access:
   summary_line: 18 operations · 9 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Persistent disks
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Persistent disks
   name: Google Cloud Platform APIs Disks API
   slug: gcp-disks-api
-- description: Firewall rules
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Firewall rules
   name: Google Cloud Platform APIs Firewalls API
   slug: gcp-firewalls-api
-- description: VM images
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: VM images
   name: Google Cloud Platform APIs Images API
   slug: gcp-images-api
-- description: Virtual machine instances
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Virtual machine instances
   name: Google Cloud Platform APIs Instances API
   slug: gcp-instances-api
-- description: Machine type catalog
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Machine type catalog
   name: Google Cloud Platform APIs MachineTypes API
   slug: gcp-machinetypes-api
-- description: VPC networks
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: VPC networks
   name: Google Cloud Platform APIs Networks API
   slug: gcp-networks-api
-- description: Disk snapshots
+- baseURL: https://compute.googleapis.com
+  baseurl_source: declared
+  description: Disk snapshots
   name: Google Cloud Platform APIs Snapshots API
   slug: gcp-snapshots-api
 artifact_total: 24
@@ -212,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp/refs/heads/main/screenshots/gcp-2026-06-20T181700.png
 security:

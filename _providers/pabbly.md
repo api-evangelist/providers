@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: REST API for Pabbly Subscription Billing — 95 documented operations across customers, subscriptions, products, plans, multiplans, coupons, invoices, payment methods, transactions and refunds, add-ons,
@@ -268,7 +268,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -278,7 +278,7 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 57.3
+  previous_composite: 57.0
   provenance:
     conformance: derived
     mcp: first-party
@@ -290,7 +290,7 @@ score:
     regime_id: payments
     score: 56.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pabbly/refs/heads/main/screenshots/pabbly-2026-06-20T191303.png
 security:

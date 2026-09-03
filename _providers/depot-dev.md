@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -50,13 +50,19 @@ apis:
 - description: Depot Cache is a remote build cache backend that plugs into tools supporting remote caching (GitHub Actions, Bazel, Go, Turborepo, Gradle, Pants, sccache). It is consumed through each tool's native re
   name: Depot Cache
   slug: depot-dev-cache
-- description: Acquire a low-level BuildKit machine connection (depot.buildkit.v1.BuildKitService).
+- baseURL: https://api.depot.dev
+  baseurl_source: declared
+  description: Acquire a low-level BuildKit machine connection (depot.buildkit.v1.BuildKitService).
   name: Depot BuildKitService API
   slug: depot-dev-buildkitservice-api
-- description: Register, finish, get, and list builds (depot.build.v1.BuildService).
+- baseURL: https://api.depot.dev
+  baseurl_source: declared
+  description: Register, finish, get, and list builds (depot.build.v1.BuildService).
   name: Depot BuildService API
   slug: depot-dev-buildservice-api
-- description: Manage Depot projects and project tokens (depot.core.v1.ProjectService).
+- baseURL: https://api.depot.dev
+  baseurl_source: declared
+  description: Manage Depot projects and project tokens (depot.core.v1.ProjectService).
   name: Depot ProjectService API
   slug: depot-dev-projectservice-api
 artifact_total: 16
@@ -173,7 +179,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/screenshots/depot-dev-2026-06-20T175928.png
 security:

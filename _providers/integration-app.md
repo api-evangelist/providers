@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -47,49 +47,79 @@ apis:
 - description: The Membrane platform (formerly Integration.app) provides a unified surface for building embedded and agentic integrations across 100,000+ apps with managed OAuth, observability, MCP server support, a
   name: Membrane (formerly Integration.app) Platform
   slug: platform
-- description: The Actions API from Integration.app (Membrane) — 2 operation(s) for actions.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Actions API from Integration.app (Membrane) — 2 operation(s) for actions.
   name: Integration.app (Membrane) Actions API
   slug: integration-app-actions-api
-- description: The App Event Subscriptions API from Integration.app (Membrane) — 2 operation(s) for app event subscriptions.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The App Event Subscriptions API from Integration.app (Membrane) — 2 operation(s) for app event subscriptions.
   name: Integration.app (Membrane) App Event Subscriptions API
   slug: integration-app-app-event-subscriptions-api
-- description: The Connections API from Integration.app (Membrane) — 7 operation(s) for connections.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Connections API from Integration.app (Membrane) — 7 operation(s) for connections.
   name: Integration.app (Membrane) Connections API
   slug: integration-app-connections-api
-- description: The Connectors API from Integration.app (Membrane) — 3 operation(s) for connectors.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Connectors API from Integration.app (Membrane) — 3 operation(s) for connectors.
   name: Integration.app (Membrane) Connectors API
   slug: integration-app-connectors-api
-- description: The Customers API from Integration.app (Membrane) — 2 operation(s) for customers.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Customers API from Integration.app (Membrane) — 2 operation(s) for customers.
   name: Integration.app (Membrane) Customers API
   slug: integration-app-customers-api
-- description: The Data Collections API from Integration.app (Membrane) — 2 operation(s) for data collections.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Data Collections API from Integration.app (Membrane) — 2 operation(s) for data collections.
   name: Integration.app (Membrane) Data Collections API
   slug: integration-app-data-collections-api
-- description: The External Event Subscriptions API from Integration.app (Membrane) — 2 operation(s) for external event subscriptions.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The External Event Subscriptions API from Integration.app (Membrane) — 2 operation(s) for external event subscriptions.
   name: Integration.app (Membrane) External Event Subscriptions API
   slug: integration-app-external-event-subscriptions-api
-- description: The Field Mappings API from Integration.app (Membrane) — 2 operation(s) for field mappings.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Field Mappings API from Integration.app (Membrane) — 2 operation(s) for field mappings.
   name: Integration.app (Membrane) Field Mappings API
   slug: integration-app-field-mappings-api
-- description: The Flow Runs API from Integration.app (Membrane) — 5 operation(s) for flow runs.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Flow Runs API from Integration.app (Membrane) — 5 operation(s) for flow runs.
   name: Integration.app (Membrane) Flow Runs API
   slug: integration-app-flow-runs-api
-- description: The Flows API from Integration.app (Membrane) — 2 operation(s) for flows.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Flows API from Integration.app (Membrane) — 2 operation(s) for flows.
   name: Integration.app (Membrane) Flows API
   slug: integration-app-flows-api
-- description: The Integrations API from Integration.app (Membrane) — 2 operation(s) for integrations.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Integrations API from Integration.app (Membrane) — 2 operation(s) for integrations.
   name: Integration.app (Membrane) Integrations API
   slug: integration-app-integrations-api
-- description: The Logs API from Integration.app (Membrane) — 3 operation(s) for logs.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Logs API from Integration.app (Membrane) — 3 operation(s) for logs.
   name: Integration.app (Membrane) Logs API
   slug: integration-app-logs-api
-- description: The Public API from Integration.app (Membrane) — 3 operation(s) for public.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Public API from Integration.app (Membrane) — 3 operation(s) for public.
   name: Integration.app (Membrane) Public API
   slug: integration-app-public-api
-- description: The Search API from Integration.app (Membrane) — 2 operation(s) for search.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Search API from Integration.app (Membrane) — 2 operation(s) for search.
   name: Integration.app (Membrane) Search API
   slug: integration-app-search-api
-- description: The Sessions API from Integration.app (Membrane) — 4 operation(s) for sessions.
+- baseURL: https://api.getmembrane.com
+  baseurl_source: declared
+  description: The Sessions API from Integration.app (Membrane) — 4 operation(s) for sessions.
   name: Integration.app (Membrane) Sessions API
   slug: integration-app-sessions-api
 artifact_total: 41
@@ -296,7 +326,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/screenshots/integration-app-2026-06-20T183430.png
 security:

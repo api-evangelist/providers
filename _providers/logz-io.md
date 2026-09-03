@@ -33,64 +33,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 19
 apis:
-- description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
+- baseURL: https://api.logz.io/v1/search
+  baseurl_source: declared
+  description: 'Query indexed logs against the Logz.io managed Elasticsearch / OpenSearch cluster using a request body that mirrors the upstream Elasticsearch Search API. Includes `/v1/search` for ad-hoc queries and '
   name: Logz.io Search Logs API
   slug: logz-io-search-logs-api
-- description: Configure long-term archive destinations (S3, ADLS, Google Cloud Storage), test connectivity, list and delete archive settings, then restore archived logs back into Logz.io for replay or compliance re
+- baseURL: https://api.logz.io/v2/archive
+  baseurl_source: declared
+  description: Configure long-term archive destinations (S3, ADLS, Google Cloud Storage), test connectivity, list and delete archive settings, then restore archived logs back into Logz.io for replay or compliance re
   name: Logz.io Archive and Restore API
   slug: logz-io-archive-restore-api
-- description: Create, list, activate, deactivate, and delete drop filters that discard matching events before they enter Logz.io's hot index. The primary tool for trimming ingest volume and managing observability c
+- baseURL: https://api.logz.io/v1/drop
+  baseurl_source: declared
+  description: Create, list, activate, deactivate, and delete drop filters that discard matching events before they enter Logz.io's hot index. The primary tool for trimming ingest volume and managing observability c
   name: Logz.io Drop Filters API
   slug: logz-io-drop-filters-api
-- description: Manage Logz.io alert rules — create, retrieve, update, enable, disable, and delete log-based and multi-account alerts via `/v2/alerts`, list currently triggered alerts via `/v1/alerts/triggered-alerts
+- baseURL: https://api.logz.io/v2/alerts
+  baseurl_source: declared
+  description: Manage Logz.io alert rules — create, retrieve, update, enable, disable, and delete log-based and multi-account alerts via `/v2/alerts`, list currently triggered alerts via `/v1/alerts/triggered-alerts
   name: Logz.io Alerts API
   slug: logz-io-alerts-api
-- description: Manage downstream notification destinations attached to alerts. Supports Slack, PagerDuty, Microsoft Teams, BigPanda, OpsGenie, ServiceNow, VictorOps, custom HTTPS webhooks, and email endpoints. Endpo
+- baseURL: https://api.logz.io/v1/endpoints
+  baseurl_source: declared
+  description: Manage downstream notification destinations attached to alerts. Supports Slack, PagerDuty, Microsoft Teams, BigPanda, OpsGenie, ServiceNow, VictorOps, custom HTTPS webhooks, and email endpoints. Endpo
   name: Logz.io Notification Endpoints API
   slug: logz-io-notification-endpoints-api
-- description: List, create, update, suspend, and delete users in the main account and across all associated sub-accounts. Includes authentication groups (SSO group-to-role mappings), the `whoami` introspection endp
+- baseURL: https://api.logz.io/v1/user-management
+  baseurl_source: declared
+  description: List, create, update, suspend, and delete users in the main account and across all associated sub-accounts. Includes authentication groups (SSO group-to-role mappings), the `whoami` introspection endp
   name: Logz.io Users API
   slug: logz-io-users-api
-- description: 'Manage the three Logz.io credential types — API tokens (account control plane), log-shipping tokens (ingest authentication for shippers like Filebeat, Fluentd, OpenTelemetry, and the Logz.io agents), '
+- baseURL: https://api.logz.io/v1
+  baseurl_source: declared
+  description: 'Manage the three Logz.io credential types — API tokens (account control plane), log-shipping tokens (ingest authentication for shippers like Filebeat, Fluentd, OpenTelemetry, and the Logz.io agents), '
   name: Logz.io Tokens API
   slug: logz-io-tokens-api
-- description: Provision and resize time-based log sub-accounts and metrics accounts. Lets owners split daily ingest quotas across environments, teams, or customers and reshape retention without re-shipping data. In
+- baseURL: https://api.logz.io/v1/account-management
+  baseurl_source: declared
+  description: Provision and resize time-based log sub-accounts and metrics accounts. Lets owners split daily ingest quotas across environments, teams, or customers and reshape retention without re-shipping data. In
   name: Logz.io Accounts API
   slug: logz-io-accounts-api
-- description: 'Prometheus-compatible read path against the Logz.io Infrastructure Monitoring backend. Implements `query`, `query_range`, `series`, `labels`, and `label/{name}/values` exactly as upstream Prometheus, '
+- baseURL: https://api.logz.io/v1/metrics/prometheus/api/v1
+  baseurl_source: declared
+  description: 'Prometheus-compatible read path against the Logz.io Infrastructure Monitoring backend. Implements `query`, `query_range`, `series`, `labels`, and `label/{name}/values` exactly as upstream Prometheus, '
   name: Logz.io Metrics Prometheus API
   slug: logz-io-metrics-prometheus-api
-- description: Pass-through API to the Logz.io fork of Grafana plus a subset of upstream Grafana endpoints. Covers dashboards (`/api/dashboards`), folders, alert rules and silences (`/api/v1/provisioning/alert-rules
+- baseURL: https://api.logz.io/v1/grafana/api
+  baseurl_source: declared
+  description: Pass-through API to the Logz.io fork of Grafana plus a subset of upstream Grafana endpoints. Covers dashboards (`/api/dashboards`), folders, alert rules and silences (`/api/v1/provisioning/alert-rules
   name: Logz.io Grafana API
   slug: logz-io-grafana-api
-- description: Logz.io's Perses-compatible dashboard API (Perses is the CNCF observability dashboard project Logz.io helps maintain). Manages projects, dashboards, global datasources, and the Perses-flavored dashboa
+- baseURL: https://api.logz.io/perses-public/api/v1
+  baseurl_source: declared
+  description: Logz.io's Perses-compatible dashboard API (Perses is the CNCF observability dashboard project Logz.io helps maintain). Manages projects, dashboards, global datasources, and the Perses-flavored dashboa
   name: Logz.io Perses API
   slug: logz-io-perses-api
-- description: Logz.io Cloud SIEM control plane — manage detection rules (correlation and threshold), retrieve raised security events, and administer the SIEM sub-account. Backs the detect → triage → respond workflo
+- baseURL: https://api.logz.io/v2/security
+  baseurl_source: declared
+  description: Logz.io Cloud SIEM control plane — manage detection rules (correlation and threshold), retrieve raised security events, and administer the SIEM sub-account. Backs the detect → triage → respond workflo
   name: Logz.io Cloud SIEM API
   slug: logz-io-cloud-siem-api
-- description: Provision the Logz.io managed pull-side log shippers. Connect AWS CloudTrail streams and S3 buckets (with IAM assume-role) directly from the API so customers can stand up log collection without deploy
+- baseURL: https://api.logz.io/v1/log-shipping
+  baseurl_source: declared
+  description: Provision the Logz.io managed pull-side log shippers. Connect AWS CloudTrail streams and S3 buckets (with IAM assume-role) directly from the API so customers can stand up log collection without deploy
   name: Logz.io Log Shipping API
   slug: logz-io-log-shipping-api
-- description: Manage Sawmill log-type pipelines and external mapping uploads. Sawmill is Logz.io's open-source JSON transformation engine; this API lets customers attach declarative parsing pipelines per log-type a
+- baseURL: https://api.logz.io/v1/sawmill
+  baseurl_source: declared
+  description: Manage Sawmill log-type pipelines and external mapping uploads. Sawmill is Logz.io's open-source JSON transformation engine; this API lets customers attach declarative parsing pipelines per log-type a
   name: Logz.io Parsing Pipelines API
   slug: logz-io-parsing-pipelines-api
-- description: 'CRUD for reference data used to enrich and filter logs and alerts. Customers upload lookup lists of IPs, hostnames, user IDs, or business identifiers and reference them by name in alerts and queries, '
+- baseURL: https://api.logz.io/v1/lookups
+  baseurl_source: declared
+  description: 'CRUD for reference data used to enrich and filter logs and alerts. Customers upload lookup lists of IPs, hostnames, user IDs, or business identifiers and reference them by name in alerts and queries, '
   name: Logz.io Lookup Lists API
   slug: logz-io-lookup-lists-api
-- description: Retrieve the cognitive-insights and anomaly findings surfaced by Logz.io's AI observability layer. Returns ranked operational insights — Exceptions, Slow Transactions, Critical Events — for downstream
+- baseURL: https://api.logz.io/v1/insights
+  baseurl_source: declared
+  description: Retrieve the cognitive-insights and anomaly findings surfaced by Logz.io's AI observability layer. Returns ranked operational insights — Exceptions, Slow Transactions, Critical Events — for downstream
   name: Logz.io Insights API
   slug: logz-io-insights-api
-- description: Post deployment events into Logz.io as markers so they overlay on dashboards and contextual searches. The mechanism release pipelines use to correlate spikes in error logs or latency with the deployme
+- baseURL: https://api.logz.io/v2/markers
+  baseurl_source: declared
+  description: Post deployment events into Logz.io as markers so they overlay on dashboards and contextual searches. The mechanism release pipelines use to correlate spikes in error logs or latency with the deployme
   name: Logz.io Deployment Markers API
   slug: logz-io-deployments-api
-- description: Drive the OpenSearch / Kibana saved-object snapshot lifecycle inside Logz.io — import and export visualizations, searches, and dashboard objects programmatically. The promotion-path used to ship Kiban
+- baseURL: https://api.logz.io
+  baseurl_source: declared
+  description: Drive the OpenSearch / Kibana saved-object snapshot lifecycle inside Logz.io — import and export visualizations, searches, and dashboard objects programmatically. The promotion-path used to ship Kiban
   name: Logz.io OpenSearch Snapshots API
   slug: logz-io-snapshots-api
-- description: Query the Logz.io account-level audit trail and list the event types it emits. Customers wire this into their own SIEM or governance pipelines for ISO 27001 / SOC 2-style activity tracking over Logz.i
+- baseURL: https://api.logz.io/v1/audit-trail
+  baseurl_source: declared
+  description: Query the Logz.io account-level audit trail and list the event types it emits. Customers wire this into their own SIEM or governance pipelines for ISO 27001 / SOC 2-style activity tracking over Logz.i
   name: Logz.io Audit Trail API
   slug: logz-io-audit-trail-api
 arazzos:
@@ -538,7 +576,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logz-io/refs/heads/main/screenshots/logz-io-2026-06-20T184702.png
 security:

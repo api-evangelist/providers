@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 19 operations · 10 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: The Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API from Amazon Signer — 1 operation(s) for revocations#signaturetimestamp&platformid&profileversionarn&jobarn&
+- baseURL: https://signer.amazonaws.com
+  baseurl_source: declared
+  description: The Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API from Amazon Signer — 1 operation(s) for revocations#signaturetimestamp&platformid&profileversionarn&jobarn&
   name: Amazon Signer Revocations#signatureTimestamp&platformId&profileVersionArn&jobArn&certificateHashes API
   slug: amazon-signer-revocations-signaturetimestamp-platformid-profileversionarn-jobarn-certificatehashes-api
-- description: The Signing Jobs API from Amazon Signer — 4 operation(s) for signing jobs.
+- baseURL: https://signer.amazonaws.com
+  baseurl_source: declared
+  description: The Signing Jobs API from Amazon Signer — 4 operation(s) for signing jobs.
   name: Amazon Signer Signing Jobs API
   slug: amazon-signer-signing-jobs-api
-- description: The Signing Platforms API from Amazon Signer — 2 operation(s) for signing platforms.
+- baseURL: https://signer.amazonaws.com
+  baseurl_source: declared
+  description: The Signing Platforms API from Amazon Signer — 2 operation(s) for signing platforms.
   name: Amazon Signer Signing Platforms API
   slug: amazon-signer-signing-platforms-api
-- description: The Signing Profiles API from Amazon Signer — 5 operation(s) for signing profiles.
+- baseURL: https://signer.amazonaws.com
+  baseurl_source: declared
+  description: The Signing Profiles API from Amazon Signer — 5 operation(s) for signing profiles.
   name: Amazon Signer Signing Profiles API
   slug: amazon-signer-signing-profiles-api
-- description: The Tags API from Amazon Signer — 2 operation(s) for tags.
+- baseURL: https://signer.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Signer — 2 operation(s) for tags.
   name: Amazon Signer Tags API
   slug: amazon-signer-tags-api
 artifact_total: 225
@@ -837,7 +847,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/screenshots/amazon-signer-2026-06-20T171827.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -77,16 +77,24 @@ apis:
 - description: Pre-collected, ready-to-deliver web datasets for e-commerce (Amazon, Google Shopping, Best Buy, Walmart, eBay), job postings (Indeed, Glassdoor, LinkedIn), product reviews, company intelligence, commu
   name: Oxylabs Datasets
   slug: oxylabs-datasets
-- description: The Login API from Oxylabs — 1 operation(s) for login.
+- baseURL: https://realtime.oxylabs.io/v1
+  baseurl_source: declared
+  description: The Login API from Oxylabs — 1 operation(s) for login.
   name: Oxylabs Login API
   slug: oxylabs-login-api
-- description: The Queries API from Oxylabs — 1 operation(s) for queries.
+- baseURL: https://realtime.oxylabs.io/v1
+  baseurl_source: declared
+  description: The Queries API from Oxylabs — 1 operation(s) for queries.
   name: Oxylabs Queries API
   slug: oxylabs-queries-api
-- description: The Stats API from Oxylabs — 2 operation(s) for stats.
+- baseURL: https://realtime.oxylabs.io/v1
+  baseurl_source: declared
+  description: The Stats API from Oxylabs — 2 operation(s) for stats.
   name: Oxylabs Stats API
   slug: oxylabs-stats-api
-- description: The Users API from Oxylabs — 4 operation(s) for users.
+- baseURL: https://realtime.oxylabs.io/v1
+  baseurl_source: declared
+  description: The Users API from Oxylabs — 4 operation(s) for users.
   name: Oxylabs Users API
   slug: oxylabs-users-api
 arazzos:
@@ -509,7 +517,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
 security:

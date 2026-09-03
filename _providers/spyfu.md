@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 48 operations · 1 acting
 api_count: 10
 apis:
-- description: The Account API API from SpyFu — 3 operation(s) for account api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Account API API from SpyFu — 3 operation(s) for account api.
   name: SpyFu Account API API
   slug: spyfu-account-api-api
-- description: The Ad History Research API API from SpyFu — 3 operation(s) for ad history research api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Ad History Research API API from SpyFu — 3 operation(s) for ad history research api.
   name: SpyFu Ad History Research API API
   slug: spyfu-ad-history-research-api-api
-- description: The Competitors API API from SpyFu — 3 operation(s) for competitors api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Competitors API API from SpyFu — 3 operation(s) for competitors api.
   name: SpyFu Competitors API API
   slug: spyfu-competitors-api-api
-- description: The Domain Stats API API from SpyFu — 6 operation(s) for domain stats api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Domain Stats API API from SpyFu — 6 operation(s) for domain stats api.
   name: SpyFu Domain Stats API API
   slug: spyfu-domain-stats-api-api
-- description: The Keyword Research API API from SpyFu — 7 operation(s) for keyword research api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Keyword Research API API from SpyFu — 7 operation(s) for keyword research api.
   name: SpyFu Keyword Research API API
   slug: spyfu-keyword-research-api-api
-- description: The Kombat API API from SpyFu — 2 operation(s) for kombat api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Kombat API API from SpyFu — 2 operation(s) for kombat api.
   name: SpyFu Kombat API API
   slug: spyfu-kombat-api-api
-- description: The PPC Research API API from SpyFu — 3 operation(s) for ppc research api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The PPC Research API API from SpyFu — 3 operation(s) for ppc research api.
   name: SpyFu PPC Research API API
   slug: spyfu-ppc-research-api-api
-- description: The Ranking History API API from SpyFu — 3 operation(s) for ranking history api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The Ranking History API API from SpyFu — 3 operation(s) for ranking history api.
   name: SpyFu Ranking History API API
   slug: spyfu-ranking-history-api-api
-- description: The SEO Research API API from SpyFu — 17 operation(s) for seo research api.
+- baseURL: https://api.spyfu.com
+  baseurl_source: declared
+  description: The SEO Research API API from SpyFu — 17 operation(s) for seo research api.
   name: SpyFu SEO Research API API
   slug: spyfu-seo-research-api-api
 artifact_total: 47
@@ -389,7 +407,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spyfu/refs/heads/main/screenshots/spyfu-2026-06-20T194429.png
 security:

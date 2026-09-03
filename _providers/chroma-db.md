@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 24 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Named vector stores holding embeddings and metadata.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Named vector stores holding embeddings and metadata.
   name: Chroma Collections API
   slug: chroma-db-collections-api
-- description: Logical grouping of collections within a tenant.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Logical grouping of collections within a tenant.
   name: Chroma Databases API
   slug: chroma-db-databases-api
-- description: Nearest-neighbor vector similarity search over a collection.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Nearest-neighbor vector similarity search over a collection.
   name: Chroma Query API
   slug: chroma-db-query-api
-- description: Embeddings (with documents, metadata, URIs) inside a collection.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Embeddings (with documents, metadata, URIs) inside a collection.
   name: Chroma Records API
   slug: chroma-db-records-api
-- description: Server health, version, and pre-flight operational endpoints.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Server health, version, and pre-flight operational endpoints.
   name: Chroma System API
   slug: chroma-db-system-api
-- description: Top-level isolation boundary that owns databases.
+- baseURL: https://api.trychroma.com
+  baseurl_source: declared
+  description: Top-level isolation boundary that owns databases.
   name: Chroma Tenants API
   slug: chroma-db-tenants-api
 artifact_total: 20
@@ -185,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/screenshots/chroma-db-2026-07-25T205258.png
 security:

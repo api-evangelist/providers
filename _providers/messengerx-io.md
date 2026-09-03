@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: A FREE API for developers to build and monetize personalized ML based chat apps
@@ -86,7 +86,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messengerx-io/refs/heads/main/screenshots/messengerx-io-2026-06-20T185236.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -43,88 +43,144 @@ agentic_access:
   summary_line: 183 operations · 120 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authorization API from Light — 2 operation(s) for authorization.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The Authorization API from Light — 2 operation(s) for authorization.
   name: Light Authorization API
   slug: light-authorization-api
-- description: The v1 - Accounting Documents API from Light — 1 operation(s) for v1 - accounting documents.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Accounting Documents API from Light — 1 operation(s) for v1 - accounting documents.
   name: Light v1 - Accounting Documents API
   slug: light-v1-accounting-documents-api
-- description: The v1 - Attachments API from Light — 4 operation(s) for v1 - attachments.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Attachments API from Light — 4 operation(s) for v1 - attachments.
   name: Light v1 - Attachments API
   slug: light-v1-attachments-api
-- description: The v1 - Bank Accounts API from Light — 4 operation(s) for v1 - bank accounts.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Bank Accounts API from Light — 4 operation(s) for v1 - bank accounts.
   name: Light v1 - Bank Accounts API
   slug: light-v1-bank-accounts-api
-- description: The v1 - Card Balance Accounts API from Light — 4 operation(s) for v1 - card balance accounts.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Card Balance Accounts API from Light — 4 operation(s) for v1 - card balance accounts.
   name: Light v1 - Card Balance Accounts API
   slug: light-v1-card-balance-accounts-api
-- description: The v1 - Card Customers API from Light — 1 operation(s) for v1 - card customers.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Card Customers API from Light — 1 operation(s) for v1 - card customers.
   name: Light v1 - Card Customers API
   slug: light-v1-card-customers-api
-- description: The v1 - Card Transactions API from Light — 9 operation(s) for v1 - card transactions.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Card Transactions API from Light — 9 operation(s) for v1 - card transactions.
   name: Light v1 - Card Transactions API
   slug: light-v1-card-transactions-api
-- description: The v1 - Cards API from Light — 4 operation(s) for v1 - cards.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Cards API from Light — 4 operation(s) for v1 - cards.
   name: Light v1 - Cards API
   slug: light-v1-cards-api
-- description: The v1 - Companies API from Light — 1 operation(s) for v1 - companies.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Companies API from Light — 1 operation(s) for v1 - companies.
   name: Light v1 - Companies API
   slug: light-v1-companies-api
-- description: The v1 - Contracts API from Light — 10 operation(s) for v1 - contracts.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Contracts API from Light — 10 operation(s) for v1 - contracts.
   name: Light v1 - Contracts API
   slug: light-v1-contracts-api
-- description: The v1 - Credit Notes API from Light — 10 operation(s) for v1 - credit notes.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Credit Notes API from Light — 10 operation(s) for v1 - credit notes.
   name: Light v1 - Credit Notes API
   slug: light-v1-credit-notes-api
-- description: The v1 - Custom Properties API from Light — 4 operation(s) for v1 - custom properties.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Custom Properties API from Light — 4 operation(s) for v1 - custom properties.
   name: Light v1 - Custom Properties API
   slug: light-v1-custom-properties-api
-- description: The v1 - Customer Credits API from Light — 12 operation(s) for v1 - customer credits.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Customer Credits API from Light — 12 operation(s) for v1 - customer credits.
   name: Light v1 - Customer Credits API
   slug: light-v1-customer-credits-api
-- description: The v1 - Customers API from Light — 4 operation(s) for v1 - customers.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Customers API from Light — 4 operation(s) for v1 - customers.
   name: Light v1 - Customers API
   slug: light-v1-customers-api
-- description: The v1 - Entities API from Light — 1 operation(s) for v1 - entities.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Entities API from Light — 1 operation(s) for v1 - entities.
   name: Light v1 - Entities API
   slug: light-v1-entities-api
-- description: The v1 - Exchange API from Light — 2 operation(s) for v1 - exchange.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Exchange API from Light — 2 operation(s) for v1 - exchange.
   name: Light v1 - Exchange API
   slug: light-v1-exchange-api
-- description: The v1 - Expenses API from Light — 8 operation(s) for v1 - expenses.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Expenses API from Light — 8 operation(s) for v1 - expenses.
   name: Light v1 - Expenses API
   slug: light-v1-expenses-api
-- description: The v1 - Invoice Approvals API from Light — 1 operation(s) for v1 - invoice approvals.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Invoice Approvals API from Light — 1 operation(s) for v1 - invoice approvals.
   name: Light v1 - Invoice Approvals API
   slug: light-v1-invoice-approvals-api
-- description: The v1 - Invoice Payables API from Light — 17 operation(s) for v1 - invoice payables.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Invoice Payables API from Light — 17 operation(s) for v1 - invoice payables.
   name: Light v1 - Invoice Payables API
   slug: light-v1-invoice-payables-api
-- description: The v1 - Invoice Receivables API from Light — 11 operation(s) for v1 - invoice receivables.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Invoice Receivables API from Light — 11 operation(s) for v1 - invoice receivables.
   name: Light v1 - Invoice Receivables API
   slug: light-v1-invoice-receivables-api
-- description: The v1 - Journal Entries API from Light — 3 operation(s) for v1 - journal entries.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Journal Entries API from Light — 3 operation(s) for v1 - journal entries.
   name: Light v1 - Journal Entries API
   slug: light-v1-journal-entries-api
-- description: The v1 - Ledger accounts API from Light — 1 operation(s) for v1 - ledger accounts.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Ledger accounts API from Light — 1 operation(s) for v1 - ledger accounts.
   name: Light v1 - Ledger accounts API
   slug: light-v1-ledger-accounts-api
-- description: The v1 - Ledger Transactions API from Light — 1 operation(s) for v1 - ledger transactions.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Ledger Transactions API from Light — 1 operation(s) for v1 - ledger transactions.
   name: Light v1 - Ledger Transactions API
   slug: light-v1-ledger-transactions-api
-- description: The v1 - Products API from Light — 3 operation(s) for v1 - products.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Products API from Light — 3 operation(s) for v1 - products.
   name: Light v1 - Products API
   slug: light-v1-products-api
-- description: The v1 - Purchase Orders API from Light — 9 operation(s) for v1 - purchase orders.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Purchase Orders API from Light — 9 operation(s) for v1 - purchase orders.
   name: Light v1 - Purchase Orders API
   slug: light-v1-purchase-orders-api
-- description: The v1 - User Comments API from Light — 2 operation(s) for v1 - user comments.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - User Comments API from Light — 2 operation(s) for v1 - user comments.
   name: Light v1 - User Comments API
   slug: light-v1-user-comments-api
-- description: The v1 - Users API from Light — 5 operation(s) for v1 - users.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Users API from Light — 5 operation(s) for v1 - users.
   name: Light v1 - Users API
   slug: light-v1-users-api
-- description: The v1 - Vendors API from Light — 2 operation(s) for v1 - vendors.
+- baseURL: https://api.light.inc
+  baseurl_source: declared
+  description: The v1 - Vendors API from Light — 2 operation(s) for v1 - vendors.
   name: Light v1 - Vendors API
   slug: light-v1-vendors-api
 artifact_total: 63
@@ -383,7 +439,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

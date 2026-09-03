@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +44,14 @@ agentic_access:
   summary_line: 23 operations · 1 acting
 api_count: 1
 apis:
-- description: The one API National Tsing Hua University operates itself. An OAuth 2.0 authorization-code service run by the Computer and Communication Center on NTHU's own host, letting a reviewed external applicat
+- baseURL: https://oauth.ccxp.nthu.edu.tw/v1.1
+  baseurl_source: declared
+  description: The one API National Tsing Hua University operates itself. An OAuth 2.0 authorization-code service run by the Computer and Communication Center on NTHU's own host, letting a reviewed external applicat
   name: NTHU Academic Information System OAuth 2.0 Service
   slug: nthu-oauth-api
-- description: A live, keyless, MIT-licensed FastAPI service publishing 22 paths over NTHU campus data — announcements by unit, campus bus routes and schedules, the course catalog and course search, department direc
+- baseURL: https://api.nthusa.tw
+  baseurl_source: declared
+  description: A live, keyless, MIT-licensed FastAPI service publishing 22 paths over NTHU campus data — announcements by unit, campus bus routes and schedules, the course catalog and course search, department direc
   name: NTHU Data API
   slug: nthu-data-api
 - description: NTHU's institutional research repository and researcher-profile portal, running on Ex Libris Esploro. The former institutional repository host nthur.lib.nthu.edu.tw now redirects here. An OAI-PMH serv
@@ -321,7 +325,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.9
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -331,7 +335,7 @@ score:
     discoverability: 68.5
     governance: 29.5
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +351,8 @@ score:
     regime_id: education
     score: 57.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:
 - kind: authentication

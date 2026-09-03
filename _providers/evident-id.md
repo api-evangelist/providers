@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations · 2 acting
 api_count: 1
 apis:
-- description: The Results API from Evident — 1 operation(s) for results.
+- baseURL: https://verify.api.evidentid.com/api/v1
+  baseurl_source: declared
+  description: The Results API from Evident — 1 operation(s) for results.
   name: Evident Results API
   slug: evident-id-results-api
-- description: The Submission API from Evident — 1 operation(s) for submission.
+- baseURL: https://verify.api.evidentid.com/api/v1
+  baseurl_source: declared
+  description: The Submission API from Evident — 1 operation(s) for submission.
   name: Evident Submission API
   slug: evident-id-submission-api
-- description: The Verification Requests API from Evident — 2 operation(s) for verification requests.
+- baseURL: https://verify.api.evidentid.com/api/v1
+  baseurl_source: declared
+  description: The Verification Requests API from Evident — 2 operation(s) for verification requests.
   name: Evident Verification Requests API
   slug: evident-id-verification-requests-api
 artifact_total: 14
@@ -169,7 +175,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evident-id/refs/heads/main/screenshots/evident-id-2026-07-25T213758.png
 security:

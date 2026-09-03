@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 6
 apis:
 - description: SNU's federated identity provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered by the Korea Access Federation (registrationAuthority http://kafe.kreonet.net, registrationInstant 20
@@ -42,10 +42,14 @@ apis:
 - description: Seoul National University Library runs library management and discovery on Ex Libris Alma and Primo, institution code 82SNU / 82SNU_INST, on the institution-specific host snu-primo.hosted.exlibrisgrou
   name: SNU Library Discovery (Ex Libris Primo / Alma) — tenancy
   slug: library-discovery-primo
-- description: Open Archives Initiative Protocol for Metadata Harvesting 2.0 verbs.
+- baseURL: https://s-space.snu.ac.kr/oai/request
+  baseurl_source: declared
+  description: Open Archives Initiative Protocol for Metadata Harvesting 2.0 verbs.
   name: Seoul National University OAI PMH API
   slug: snu-oai-pmh-api
-- description: OpenSearch 1.1 description and query endpoints.
+- baseURL: https://s-space.snu.ac.kr/oai/request
+  baseurl_source: declared
+  description: OpenSearch 1.1 description and query endpoints.
   name: Seoul National University Open Search API
   slug: snu-opensearch-api
 artifact_total: 14
@@ -237,7 +241,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png
 security:

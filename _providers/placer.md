@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 33 operations · 28 acting
 api_count: 1
 apis:
-- description: The Account Info API from Placer — 1 operation(s) for account info.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Account Info API from Placer — 1 operation(s) for account info.
   name: Placer Account Info API
   slug: placer-account-info-api
-- description: The Loyalty Reports API from Placer — 1 operation(s) for loyalty reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Loyalty Reports API from Placer — 1 operation(s) for loyalty reports.
   name: Placer Loyalty Reports API
   slug: placer-loyalty-reports-api
-- description: The Manage POIs API from Placer — 6 operation(s) for manage pois.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Manage POIs API from Placer — 6 operation(s) for manage pois.
   name: Placer Manage POIs API
   slug: placer-manage-pois-api
-- description: The Ranking Reports API from Placer — 4 operation(s) for ranking reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Ranking Reports API from Placer — 4 operation(s) for ranking reports.
   name: Placer Ranking Reports API
   slug: placer-ranking-reports-api
-- description: The Retail Sales Reports API from Placer — 5 operation(s) for retail sales reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Retail Sales Reports API from Placer — 5 operation(s) for retail sales reports.
   name: Placer Retail Sales Reports API
   slug: placer-retail-sales-reports-api
-- description: The Trade Area Reports API from Placer — 3 operation(s) for trade area reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Trade Area Reports API from Placer — 3 operation(s) for trade area reports.
   name: Placer Trade Area Reports API
   slug: placer-trade-area-reports-api
-- description: The Visitor Journey Reports API from Placer — 2 operation(s) for visitor journey reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Visitor Journey Reports API from Placer — 2 operation(s) for visitor journey reports.
   name: Placer Visitor Journey Reports API
   slug: placer-visitor-journey-reports-api
-- description: The Visits Reports API from Placer — 7 operation(s) for visits reports.
+- baseURL: https://papi.placer.ai
+  baseurl_source: declared
+  description: The Visits Reports API from Placer — 7 operation(s) for visits reports.
   name: Placer Visits Reports API
   slug: placer-visits-reports-api
 artifact_total: 22
@@ -256,7 +272,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/placer/refs/heads/main/screenshots/placer-2026-08-17T081250.png
 security:

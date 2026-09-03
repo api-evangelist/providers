@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 29 operations
 api_count: 1
 apis:
-- description: Club profiles, members, and team matches
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Club profiles, members, and team matches
   name: Chess.com Clubs API
   slug: chess-com-clubs-api
-- description: Country profiles, players, and clubs
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Country profiles, players, and clubs
   name: Chess.com Countries API
   slug: chess-com-countries-api
-- description: Daily, live, and archived games (JSON and PGN)
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Daily, live, and archived games (JSON and PGN)
   name: Chess.com Games API
   slug: chess-com-games-api
-- description: Live leaderboards across time controls and variants
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Live leaderboards across time controls and variants
   name: Chess.com Leaderboards API
   slug: chess-com-leaderboards-api
-- description: Daily and live team match details
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Daily and live team match details
   name: Chess.com Matches API
   slug: chess-com-matches-api
-- description: Profiles, stats, online state, archives, clubs, matches, tournaments
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Profiles, stats, online state, archives, clubs, matches, tournaments
   name: Chess.com Players API
   slug: chess-com-players-api
-- description: Daily and random puzzles
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Daily and random puzzles
   name: Chess.com Puzzles API
   slug: chess-com-puzzles-api
-- description: Chess.com streamers
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Chess.com streamers
   name: Chess.com Streamers API
   slug: chess-com-streamers-api
-- description: Lists of titled players by FIDE title
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Lists of titled players by FIDE title
   name: Chess.com Titled Players API
   slug: chess-com-titled-players-api
-- description: Tournament details, rounds, and groups
+- baseURL: https://api.chess.com/pub/
+  baseurl_source: declared
+  description: Tournament details, rounds, and groups
   name: Chess.com Tournaments API
   slug: chess-com-tournaments-api
 artifact_total: 38
@@ -347,7 +367,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:

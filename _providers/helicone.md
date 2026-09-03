@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -44,103 +44,169 @@ agentic_access:
   summary_line: 267 operations · 201 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Agent API from Helicone — 8 operation(s) for agent.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Agent API from Helicone — 8 operation(s) for agent.
   name: Helicone Agent API
   slug: helicone-agent-api
-- description: The API Key API from Helicone — 6 operation(s) for api key.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The API Key API from Helicone — 6 operation(s) for api key.
   name: Helicone API Key API
   slug: helicone-api-key-api
-- description: The Comparison API from Helicone — 1 operation(s) for comparison.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Comparison API from Helicone — 1 operation(s) for comparison.
   name: Helicone Comparison API
   slug: helicone-comparison-api
-- description: The Credits API from Helicone — 6 operation(s) for credits.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Credits API from Helicone — 6 operation(s) for credits.
   name: Helicone Credits API
   slug: helicone-credits-api
-- description: The Customer API from Helicone — 2 operation(s) for customer.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Customer API from Helicone — 2 operation(s) for customer.
   name: Helicone Customer API
   slug: helicone-customer-api
-- description: The Dashboard API from Helicone — 1 operation(s) for dashboard.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Dashboard API from Helicone — 1 operation(s) for dashboard.
   name: Helicone Dashboard API
   slug: helicone-dashboard-api
-- description: The Dataset API from Helicone — 14 operation(s) for dataset.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Dataset API from Helicone — 14 operation(s) for dataset.
   name: Helicone Dataset API
   slug: helicone-dataset-api
-- description: The Evals API from Helicone — 4 operation(s) for evals.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Evals API from Helicone — 4 operation(s) for evals.
   name: Helicone Evals API
   slug: helicone-evals-api
-- description: The Evaluator API from Helicone — 10 operation(s) for evaluator.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Evaluator API from Helicone — 10 operation(s) for evaluator.
   name: Helicone Evaluator API
   slug: helicone-evaluator-api
-- description: The Experiment API from Helicone — 40 operation(s) for experiment.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Experiment API from Helicone — 40 operation(s) for experiment.
   name: Helicone Experiment API
   slug: helicone-experiment-api
-- description: The HeliconeSql API from Helicone — 7 operation(s) for heliconesql.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The HeliconeSql API from Helicone — 7 operation(s) for heliconesql.
   name: Helicone HeliconeSql API
   slug: helicone-heliconesql-api
-- description: The Integration API from Helicone — 6 operation(s) for integration.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Integration API from Helicone — 6 operation(s) for integration.
   name: Helicone Integration API
   slug: helicone-integration-api
-- description: The Metrics API from Helicone — 20 operation(s) for metrics.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Metrics API from Helicone — 20 operation(s) for metrics.
   name: Helicone Metrics API
   slug: helicone-metrics-api
-- description: The Model Registry API from Helicone — 1 operation(s) for model registry.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Model Registry API from Helicone — 1 operation(s) for model registry.
   name: Helicone Model Registry API
   slug: helicone-model-registry-api
-- description: The Models API from Helicone — 2 operation(s) for models.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Models API from Helicone — 2 operation(s) for models.
   name: Helicone Models API
   slug: helicone-models-api
-- description: The PI API from Helicone — 6 operation(s) for pi.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The PI API from Helicone — 6 operation(s) for pi.
   name: Helicone PI API
   slug: helicone-pi-api
-- description: The Playground API from Helicone — 2 operation(s) for playground.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Playground API from Helicone — 2 operation(s) for playground.
   name: Helicone Playground API
   slug: helicone-playground-api
-- description: The Prompt API from Helicone — 17 operation(s) for prompt.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Prompt API from Helicone — 17 operation(s) for prompt.
   name: Helicone Prompt API
   slug: helicone-prompt-api
-- description: The Prompt2025 API from Helicone — 20 operation(s) for prompt2025.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Prompt2025 API from Helicone — 20 operation(s) for prompt2025.
   name: Helicone Prompt2025 API
   slug: helicone-prompt2025-api
-- description: The Prompt2025V2 API from Helicone — 3 operation(s) for prompt2025v2.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Prompt2025V2 API from Helicone — 3 operation(s) for prompt2025v2.
   name: Helicone Prompt2025V2 API
   slug: helicone-prompt2025v2-api
-- description: The Property API from Helicone — 8 operation(s) for property.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Property API from Helicone — 8 operation(s) for property.
   name: Helicone Property API
   slug: helicone-property-api
-- description: The Providers API from Helicone — 1 operation(s) for providers.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Providers API from Helicone — 1 operation(s) for providers.
   name: Helicone Providers API
   slug: helicone-providers-api
-- description: The Request API from Helicone — 10 operation(s) for request.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Request API from Helicone — 10 operation(s) for request.
   name: Helicone Request API
   slug: helicone-request-api
-- description: The Security API from Helicone — 1 operation(s) for security.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Security API from Helicone — 1 operation(s) for security.
   name: Helicone Security API
   slug: helicone-security-api
-- description: The Session API from Helicone — 6 operation(s) for session.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Session API from Helicone — 6 operation(s) for session.
   name: Helicone Session API
   slug: helicone-session-api
-- description: The Status API from Helicone — 2 operation(s) for status.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Status API from Helicone — 2 operation(s) for status.
   name: Helicone Status API
   slug: helicone-status-api
-- description: The Stripe API from Helicone — 22 operation(s) for stripe.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Stripe API from Helicone — 22 operation(s) for stripe.
   name: Helicone Stripe API
   slug: helicone-stripe-api
-- description: The Test API from Helicone — 1 operation(s) for test.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Test API from Helicone — 1 operation(s) for test.
   name: Helicone Test API
   slug: helicone-test-api
-- description: The Trace API from Helicone — 5 operation(s) for trace.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Trace API from Helicone — 5 operation(s) for trace.
   name: Helicone Trace API
   slug: helicone-trace-api
-- description: The User API from Helicone — 3 operation(s) for user.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The User API from Helicone — 3 operation(s) for user.
   name: Helicone User API
   slug: helicone-user-api
-- description: The Vault API from Helicone — 4 operation(s) for vault.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Vault API from Helicone — 4 operation(s) for vault.
   name: Helicone Vault API
   slug: helicone-vault-api
-- description: The Webhooks API from Helicone — 3 operation(s) for webhooks.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Webhooks API from Helicone — 3 operation(s) for webhooks.
   name: Helicone Webhooks API
   slug: helicone-webhooks-api
-- description: The Wrapped API from Helicone — 2 operation(s) for wrapped.
+- baseURL: https://ai-gateway.helicone.ai
+  baseurl_source: declared
+  description: The Wrapped API from Helicone — 2 operation(s) for wrapped.
   name: Helicone Wrapped API
   slug: helicone-wrapped-api
 artifact_total: 657
@@ -2170,7 +2236,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The Configure8 REST API gives platform teams programmatic access to the service catalog, scorecards, self-service actions, environments, and cost data. It is used to ingest services and resources from
   name: Configure8 REST API
   slug: idp-rest-api
-- description: The Catalog Entities API from Configure8 — 7 operation(s) for catalog entities.
+- baseURL: https://app.configure8.io/api
+  baseurl_source: declared
+  description: The Catalog Entities API from Configure8 — 7 operation(s) for catalog entities.
   name: Configure8 Catalog Entities API
   slug: configure8-catalog-entities-api
-- description: The Catalog Relations API from Configure8 — 2 operation(s) for catalog relations.
+- baseURL: https://app.configure8.io/api
+  baseurl_source: declared
+  description: The Catalog Relations API from Configure8 — 2 operation(s) for catalog relations.
   name: Configure8 Catalog Relations API
   slug: configure8-catalog-relations-api
-- description: The Deployments API from Configure8 — 1 operation(s) for deployments.
+- baseURL: https://app.configure8.io/api
+  baseurl_source: declared
+  description: The Deployments API from Configure8 — 1 operation(s) for deployments.
   name: Configure8 Deployments API
   slug: configure8-deployments-api
-- description: The Scorecards API from Configure8 — 2 operation(s) for scorecards.
+- baseURL: https://app.configure8.io/api
+  baseurl_source: declared
+  description: The Scorecards API from Configure8 — 2 operation(s) for scorecards.
   name: Configure8 Scorecards API
   slug: configure8-scorecards-api
-- description: The Users API from Configure8 — 2 operation(s) for users.
+- baseURL: https://app.configure8.io/api
+  baseurl_source: declared
+  description: The Users API from Configure8 — 2 operation(s) for users.
   name: Configure8 Users API
   slug: configure8-users-api
 artifact_total: 20
@@ -190,7 +200,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/screenshots/configure8-2026-06-20T174854.png
 security:

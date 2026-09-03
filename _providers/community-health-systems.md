@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,16 +47,24 @@ apis:
 - description: FHIR R4 read API exposing provider and pharmacy directory data in compliance with CMS interoperability requirements. Third-party applications can search Practitioner, Organization, and Location resour
   name: Community Health Systems Provider Directory API
   slug: provider-directory-api
-- description: Adjudicated claims and encounter data
+- baseURL: https://api.chs.net/fhir/r4
+  baseurl_source: declared
+  description: Adjudicated claims and encounter data
   name: Community Health Systems Claims API
   slug: community-health-systems-claims-api
-- description: Formulary and medication data
+- baseURL: https://api.chs.net/fhir/r4
+  baseurl_source: declared
+  description: Formulary and medication data
   name: Community Health Systems Formulary API
   slug: community-health-systems-formulary-api
-- description: Patient demographic and clinical data
+- baseURL: https://api.chs.net/fhir/r4
+  baseurl_source: declared
+  description: Patient demographic and clinical data
   name: Community Health Systems Patient API
   slug: community-health-systems-patient-api
-- description: Provider information
+- baseURL: https://api.chs.net/fhir/r4
+  baseurl_source: declared
+  description: Provider information
   name: Community Health Systems Practitioner API
   slug: community-health-systems-practitioner-api
 artifact_total: 22
@@ -253,7 +261,7 @@ score:
     regime_id: health
     score: 42.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/screenshots/community-health-systems-2026-06-20T174823.png
 security:

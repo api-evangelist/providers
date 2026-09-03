@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: The Chat API from Proompty — 1 operation(s) for chat.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Chat API from Proompty — 1 operation(s) for chat.
   name: Proompty Chat API
   slug: proompty-chat-api
-- description: The Documents API from Proompty — 2 operation(s) for documents.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Documents API from Proompty — 2 operation(s) for documents.
   name: Proompty Documents API
   slug: proompty-documents-api
-- description: The Me API from Proompty — 1 operation(s) for me.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Me API from Proompty — 1 operation(s) for me.
   name: Proompty Me API
   slug: proompty-me-api
-- description: The Prompt API from Proompty — 2 operation(s) for prompt.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Prompt API from Proompty — 2 operation(s) for prompt.
   name: Proompty Prompt API
   slug: proompty-prompt-api
-- description: The Prompts API from Proompty — 3 operation(s) for prompts.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Prompts API from Proompty — 3 operation(s) for prompts.
   name: Proompty Prompts API
   slug: proompty-prompts-api
-- description: The Topic API from Proompty — 6 operation(s) for topic.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Topic API from Proompty — 6 operation(s) for topic.
   name: Proompty Topic API
   slug: proompty-topic-api
-- description: The Topics API from Proompty — 7 operation(s) for topics.
+- baseURL: https://app.proompty.com/api/
+  baseurl_source: declared
+  description: The Topics API from Proompty — 7 operation(s) for topics.
   name: Proompty Topics API
   slug: proompty-topics-api
 artifact_total: 22
@@ -161,7 +175,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/screenshots/proompty-2026-06-20T192204.png
 security:

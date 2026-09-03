@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -43,85 +43,139 @@ agentic_access:
   summary_line: 111 operations · 55 acting
 api_count: 2
 apis:
-- description: The Account Usage API from Currencycloud — 1 operation(s) for account usage.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Account Usage API from Currencycloud — 1 operation(s) for account usage.
   name: Currencycloud Account Usage API
   slug: currencycloud-account-usage-api
-- description: Create, search and update your Currencycloud account and any associated sub-accounts. Also provides you with the ability to use your own reference IDs for easy reconciliation with your internal system
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Create, search and update your Currencycloud account and any associated sub-accounts. Also provides you with the ability to use your own reference IDs for easy reconciliation with your internal system
   name: Currencycloud Accounts API
   slug: currencycloud-accounts-api
-- description: Authenticate to gain access to the API. Log in to your Currencycloud account using your API Key and log out to terminate your session.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Authenticate to gain access to the API. Log in to your Currencycloud account using your API Key and log out to terminate your session.
   name: Currencycloud Authenticate API
   slug: currencycloud-authenticate-api
-- description: Provides access to view balance information. View the balances that you currently hold in different currencies on your Currencycloud account.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Provides access to view balance information. View the balances that you currently hold in different currencies on your Currencycloud account.
   name: Currencycloud Balances API
   slug: currencycloud-balances-api
-- description: Create, search and manage the list of individuals or companies that you send payments to.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Create, search and manage the list of individuals or companies that you send payments to.
   name: Currencycloud Beneficiaries API
   slug: currencycloud-beneficiaries-api
-- description: The Business Information API from Currencycloud — 1 operation(s) for business information.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Business Information API from Currencycloud — 1 operation(s) for business information.
   name: Currencycloud Business Information API
   slug: currencycloud-business-information-api
-- description: Create, search and manage the list of users that have access in your Currencycloud account or associated sub-accounts.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Create, search and manage the list of users that have access in your Currencycloud account or associated sub-accounts.
   name: Currencycloud Contacts API
   slug: currencycloud-contacts-api
-- description: Find, retrieve and create a live currency conversion. You can also create and manage the live conversion of funds between two currencies.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Find, retrieve and create a live currency conversion. You can also create and manage the live conversion of funds between two currencies.
   name: Currencycloud Conversions API
   slug: currencycloud-conversions-api
-- description: The Country API from Currencycloud — 2 operation(s) for country.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Country API from Currencycloud — 2 operation(s) for country.
   name: Currencycloud Country API
   slug: currencycloud-country-api
-- description: The Currency API from Currencycloud — 1 operation(s) for currency.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Currency API from Currencycloud — 1 operation(s) for currency.
   name: Currencycloud Currency API
   slug: currencycloud-currency-api
-- description: Requests that are only available in the Demo environment.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Requests that are only available in the Demo environment.
   name: Currencycloud Demo API
   slug: currencycloud-demo-api
-- description: The Document Images API from Currencycloud — 2 operation(s) for document images.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Document Images API from Currencycloud — 2 operation(s) for document images.
   name: Currencycloud Document Images API
   slug: currencycloud-document-images-api
-- description: The Documents API from Currencycloud — 2 operation(s) for documents.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Documents API from Currencycloud — 2 operation(s) for documents.
   name: Currencycloud Documents API
   slug: currencycloud-documents-api
-- description: The Form API from Currencycloud — 3 operation(s) for form.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Form API from Currencycloud — 3 operation(s) for form.
   name: Currencycloud Form API
   slug: currencycloud-form-api
-- description: Find funding accounts that can be used to settle and collect funds in each available currency.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Find funding accounts that can be used to settle and collect funds in each available currency.
   name: Currencycloud Funding API
   slug: currencycloud-funding-api
-- description: View information relating to the 'payer' for a payment that has been initiated through the platform.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: View information relating to the 'payer' for a payment that has been initiated through the platform.
   name: Currencycloud Payers API
   slug: currencycloud-payers-api
-- description: Create, search, manage and action all of your domestic and international payments through this API.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Create, search, manage and action all of your domestic and international payments through this API.
   name: Currencycloud Payments API
   slug: currencycloud-payments-api
-- description: The People API from Currencycloud — 2 operation(s) for people.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The People API from Currencycloud — 2 operation(s) for people.
   name: Currencycloud People API
   slug: currencycloud-people-api
-- description: Create new quotes to use for held rates conversions.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Create new quotes to use for held rates conversions.
   name: Currencycloud Quotes API
   slug: currencycloud-quotes-api
-- description: Super fast real-time access to live foreign exchange rates through the Currencycloud platform.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Super fast real-time access to live foreign exchange rates through the Currencycloud platform.
   name: Currencycloud Rates API
   slug: currencycloud-rates-api
-- description: Easy access to view important data relevant to your Currencycloud account including beneficiary details, conversion dates, available currencies, payer required details, payment dates and settlement de
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Easy access to view important data relevant to your Currencycloud account including beneficiary details, conversion dates, available currencies, payer required details, payment dates and settlement de
   name: Currencycloud Reference API
   slug: currencycloud-reference-api
-- description: Ability to create and retrieve reports.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Ability to create and retrieve reports.
   name: Currencycloud Reporting API
   slug: currencycloud-reporting-api
-- description: Sender of funds.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Sender of funds.
   name: Currencycloud Sender API
   slug: currencycloud-sender-api
-- description: The Transaction Approval API from Currencycloud — 1 operation(s) for transaction approval.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: The Transaction Approval API from Currencycloud — 1 operation(s) for transaction approval.
   name: Currencycloud Transaction Approval API
   slug: currencycloud-transaction-approval-api
-- description: View balances and all pending and completed transactions in your Currencycloud account, as well as associated sub-account balances and transactions.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: View balances and all pending and completed transactions in your Currencycloud account, as well as associated sub-account balances and transactions.
   name: Currencycloud Transactions API
   slug: currencycloud-transactions-api
-- description: Search, retrieve and create a transfer of funds between your Currencycloud account and associated sub-accounts.
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Search, retrieve and create a transfer of funds between your Currencycloud account and associated sub-accounts.
   name: Currencycloud Transfers API
   slug: currencycloud-transfers-api
-- description: Manage withdrawal accounts
+- baseURL: https://api.currencycloud.com/v2
+  baseurl_source: declared
+  description: Manage withdrawal accounts
   name: Currencycloud Withdrawal Accounts API
   slug: currencycloud-withdrawal-accounts-api
 artifact_total: 89
@@ -476,7 +530,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -486,7 +540,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 59.7
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -508,7 +562,7 @@ score:
     regime_id: banking_open_finance
     score: 38.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:

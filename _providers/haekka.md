@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,13 +43,19 @@ agentic_access:
   summary_line: 8 operations · 2 acting
 api_count: 1
 apis:
-- description: Per-employee training assignments and completion state.
+- baseURL: https://app.haekka.com/api/public
+  baseurl_source: declared
+  description: Per-employee training assignments and completion state.
   name: Haekka Employee Trainings API
   slug: haekka-employee-trainings-api
-- description: Company employees enrolled in Haekka.
+- baseURL: https://app.haekka.com/api/public
+  baseurl_source: declared
+  description: Company employees enrolled in Haekka.
   name: Haekka Employees API
   slug: haekka-employees-api
-- description: Training courses configured for the company.
+- baseURL: https://app.haekka.com/api/public
+  baseurl_source: declared
+  description: Training courses configured for the company.
   name: Haekka Trainings API
   slug: haekka-trainings-api
 arazzos:
@@ -245,7 +251,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haekka/refs/heads/main/screenshots/haekka-2026-07-25T220528.png
 security:

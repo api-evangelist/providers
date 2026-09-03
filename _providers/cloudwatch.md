@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -50,22 +50,34 @@ apis:
 - description: API for active network monitoring to identify network issues within AWS or company networks using synthetic probes.
   name: Amazon CloudWatch Network Monitor API
   slug: amazon-cloudwatch-network-monitor-api
-- description: Operations for creating, managing, and querying CloudWatch alarms
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating, managing, and querying CloudWatch alarms
   name: AWS CloudWatch Alarms API
   slug: cloudwatch-alarms-api
-- description: Operations for CloudWatch anomaly detection models
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for CloudWatch anomaly detection models
   name: AWS CloudWatch Anomaly Detection API
   slug: cloudwatch-anomaly-detection-api
-- description: Operations for composite alarms that aggregate multiple alarm states
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for composite alarms that aggregate multiple alarm states
   name: AWS CloudWatch Composite Alarms API
   slug: cloudwatch-composite-alarms-api
-- description: Operations for creating and managing CloudWatch dashboards
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for creating and managing CloudWatch dashboards
   name: AWS CloudWatch Dashboards API
   slug: cloudwatch-dashboards-api
-- description: Operations for managing metric streams
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing metric streams
   name: AWS CloudWatch Metric Streams API
   slug: cloudwatch-metric-streams-api
-- description: Operations for working with CloudWatch metrics and metric data
+- baseURL: https://monitoring.amazonaws.com
+  baseurl_source: declared
+  description: Operations for working with CloudWatch metrics and metric data
   name: AWS CloudWatch Metrics API
   slug: cloudwatch-metrics-api
 artifact_total: 348
@@ -1188,7 +1200,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:

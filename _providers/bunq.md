@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 28 operations · 11 acting
 api_count: 1
 apis:
-- description: Upload and retrieve attachment content.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Upload and retrieve attachment content.
   name: bunq Attachment API
   slug: bunq-attachment-api
-- description: Debit and credit cards linked to monetary accounts.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Debit and credit cards linked to monetary accounts.
   name: bunq Card API
   slug: bunq-card-api
-- description: Generate and download account statement exports (CSV, MT940, PDF).
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Generate and download account statement exports (CSV, MT940, PDF).
   name: bunq Customer Statement API
   slug: bunq-customer-statement-api
-- description: Installation, device registration, and session bootstrap. Establishes the RSA-signed API context.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Installation, device registration, and session bootstrap. Establishes the RSA-signed API context.
   name: bunq Handshake API
   slug: bunq-handshake-api
-- description: Bank, savings, and joint accounts holding money.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Bank, savings, and joint accounts holding money.
   name: bunq Monetary Account API
   slug: bunq-monetary-account-api
-- description: Manage URL (webhook) and push notification callbacks for account events.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Manage URL (webhook) and push notification callbacks for account events.
   name: bunq Notification Filter API
   slug: bunq-notification-filter-api
-- description: Execute and read payments (including SEPA) for a monetary account.
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Execute and read payments (including SEPA) for a monetary account.
   name: bunq Payment API
   slug: bunq-payment-api
-- description: Create and read payment requests (money you ask another party to pay).
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: Create and read payment requests (money you ask another party to pay).
   name: bunq Request Inquiry API
   slug: bunq-request-inquiry-api
-- description: The authenticated user (person, company, or payment service provider).
+- baseURL: https://api.bunq.com/v1
+  baseurl_source: declared
+  description: The authenticated user (person, company, or payment service provider).
   name: bunq User API
   slug: bunq-user-api
 artifact_total: 27
@@ -241,7 +259,7 @@ score:
     regime_id: banking_open_finance
     score: 27.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png
 security:

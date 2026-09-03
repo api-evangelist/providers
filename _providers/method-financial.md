@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-native
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -33,130 +46,214 @@ agentic_access:
   summary_line: 128 operations · 55 acting
 api_count: 1
 apis:
-- description: Attribute data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Attribute data for accounts
   name: Method Financial Account Attributes API
   slug: method-financial-account-attributes-api
-- description: Balance data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Balance data for accounts
   name: Method Financial Account Balances API
   slug: method-financial-account-balances-api
-- description: Card brand information for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Card brand information for accounts
   name: Method Financial Account Card Brands API
   slug: method-financial-account-card-brands-api
-- description: Consent management for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Consent management for accounts
   name: Method Financial Account Consent API
   slug: method-financial-account-consent-api
-- description: Payment instruments for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Payment instruments for accounts
   name: Method Financial Account Payment Instruments API
   slug: method-financial-account-payment-instruments-api
-- description: Payoff data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Payoff data for accounts
   name: Method Financial Account Payoffs API
   slug: method-financial-account-payoffs-api
-- description: Products associated with accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Products associated with accounts
   name: Method Financial Account Products API
   slug: method-financial-account-products-api
-- description: Sensitive data for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sensitive data for accounts
   name: Method Financial Account Sensitive API
   slug: method-financial-account-sensitive-api
-- description: Subscriptions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Subscriptions for accounts
   name: Method Financial Account Subscriptions API
   slug: method-financial-account-subscriptions-api
-- description: Transactions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Transactions for accounts
   name: Method Financial Account Transactions API
   slug: method-financial-account-transactions-api
-- description: Update records for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Update records for accounts
   name: Method Financial Account Updates API
   slug: method-financial-account-updates-api
-- description: Verification sessions for accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Verification sessions for accounts
   name: Method Financial Account Verification Sessions API
   slug: method-financial-account-verification-sessions-api
-- description: Financial accounts (ACH, liability, clearing, debit card)
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Financial accounts (ACH, liability, clearing, debit card)
   name: Method Financial Accounts API
   slug: method-financial-accounts-api
-- description: Card product definitions
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Card product definitions
   name: Method Financial Card Products API
   slug: method-financial-card-products-api
-- description: Client-side Element endpoints
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Client-side Element endpoints
   name: Method Financial Elements API
   slug: method-financial-elements-api
-- description: Individuals, corporations, and receive-only entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Individuals, corporations, and receive-only entities
   name: Method Financial Entities API
   slug: method-financial-entities-api
-- description: Attribute data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Attribute data for entities
   name: Method Financial Entity Attributes API
   slug: method-financial-entity-attributes-api
-- description: Account connection sessions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Account connection sessions for entities
   name: Method Financial Entity Connects API
   slug: method-financial-entity-connects-api
-- description: Consent management for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Consent management for entities
   name: Method Financial Entity Consent API
   slug: method-financial-entity-consent-api
-- description: Credit score data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Credit score data for entities
   name: Method Financial Entity Credit Scores API
   slug: method-financial-entity-credit-scores-api
-- description: Identity verification data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Identity verification data for entities
   name: Method Financial Entity Identities API
   slug: method-financial-entity-identities-api
-- description: Products associated with entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Products associated with entities
   name: Method Financial Entity Products API
   slug: method-financial-entity-products-api
-- description: Subscriptions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Subscriptions for entities
   name: Method Financial Entity Subscriptions API
   slug: method-financial-entity-subscriptions-api
-- description: Vehicle data for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Vehicle data for entities
   name: Method Financial Entity Vehicles API
   slug: method-financial-entity-vehicles-api
-- description: Verification sessions for entities
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Verification sessions for entities
   name: Method Financial Entity Verification Sessions API
   slug: method-financial-entity-verification-sessions-api
-- description: Webhook event log
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Webhook event log
   name: Method Financial Events API
   slug: method-financial-events-api
-- description: Request forwarding with sensitive data injection
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Request forwarding with sensitive data injection
   name: Method Financial Forwarding Requests API
   slug: method-financial-forwarding-requests-api
-- description: Method-managed accounts
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Method-managed accounts
   name: Method Financial Managed Accounts API
   slug: method-financial-managed-accounts-api
-- description: Merchant directory
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Merchant directory
   name: Method Financial Merchants API
   slug: method-financial-merchants-api
-- description: Opal client-side session and token management
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Opal client-side session and token management
   name: Method Financial Opal API
   slug: method-financial-opal-api
-- description: Reversals for payments
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Reversals for payments
   name: Method Financial Payment Reversals API
   slug: method-financial-payment-reversals-api
-- description: ACH and clearing payments
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: ACH and clearing payments
   name: Method Financial Payments API
   slug: method-financial-payments-api
-- description: Health check endpoint
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Health check endpoint
   name: Method Financial Ping API
   slug: method-financial-ping-api
-- description: Public key discovery endpoints for Message-Level Encryption.
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Public key discovery endpoints for Message-Level Encryption.
   name: Method Financial Public Keys API
   slug: method-financial-public-keys-api
-- description: Downloadable reports
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Downloadable reports
   name: Method Financial Reports API
   slug: method-financial-reports-api
-- description: Secure secret storage
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Secure secret storage
   name: Method Financial Secrets API
   slug: method-financial-secrets-api
-- description: Sandbox account simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox account simulation
   name: Method Financial Simulate Accounts API
   slug: method-financial-simulate-accounts-api
-- description: Sandbox entity simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox entity simulation
   name: Method Financial Simulate Entities API
   slug: method-financial-simulate-entities-api
-- description: Sandbox event simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox event simulation
   name: Method Financial Simulate Events API
   slug: method-financial-simulate-events-api
-- description: Sandbox payment simulation
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Sandbox payment simulation
   name: Method Financial Simulate Payments API
   slug: method-financial-simulate-payments-api
-- description: Team and API key management
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Team and API key management
   name: Method Financial Teams API
   slug: method-financial-teams-api
-- description: Webhook subscriptions
+- baseURL: https://production.methodfi.com
+  baseurl_source: declared
+  description: Webhook subscriptions
   name: Method Financial Webhooks API
   slug: method-financial-webhooks-api
 artifact_total: 93
@@ -507,7 +604,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -517,7 +614,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 63.6
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -535,7 +632,7 @@ score:
     regime_id: banking_open_finance
     score: 55.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:

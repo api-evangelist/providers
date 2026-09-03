@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -46,46 +46,74 @@ apis:
 - description: Apollo Client provides libraries and integrations for connecting to Apollo.io's sales platform from external applications and CRM systems.
   name: Apollo Client
   slug: apollo-client
-- description: The Accounts API from Apollo — 3 operation(s) for accounts.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Accounts API from Apollo — 3 operation(s) for accounts.
   name: Apollo Accounts API
   slug: apollo-accounts-api
-- description: The Contacts API from Apollo — 3 operation(s) for contacts.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Contacts API from Apollo — 3 operation(s) for contacts.
   name: Apollo Contacts API
   slug: apollo-contacts-api
-- description: The Email Accounts API from Apollo — 1 operation(s) for email accounts.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Email Accounts API from Apollo — 1 operation(s) for email accounts.
   name: Apollo Email Accounts API
   slug: apollo-email-accounts-api
-- description: The Emailer Campaigns API from Apollo — 3 operation(s) for emailer campaigns.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Emailer Campaigns API from Apollo — 3 operation(s) for emailer campaigns.
   name: Apollo Emailer Campaigns API
   slug: apollo-emailer-campaigns-api
-- description: The Mixed Companies API from Apollo — 1 operation(s) for mixed companies.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Mixed Companies API from Apollo — 1 operation(s) for mixed companies.
   name: Apollo Mixed Companies API
   slug: apollo-mixed-companies-api
-- description: The Mixed People API from Apollo — 1 operation(s) for mixed people.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Mixed People API from Apollo — 1 operation(s) for mixed people.
   name: Apollo Mixed People API
   slug: apollo-mixed-people-api
-- description: The Opportunities API from Apollo — 3 operation(s) for opportunities.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Opportunities API from Apollo — 3 operation(s) for opportunities.
   name: Apollo Opportunities API
   slug: apollo-opportunities-api
-- description: The Organizations API from Apollo — 2 operation(s) for organizations.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Organizations API from Apollo — 2 operation(s) for organizations.
   name: Apollo Organizations API
   slug: apollo-organizations-api
-- description: The People API from Apollo — 2 operation(s) for people.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The People API from Apollo — 2 operation(s) for people.
   name: Apollo People API
   slug: apollo-people-api
-- description: The Phone Calls API from Apollo — 3 operation(s) for phone calls.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Phone Calls API from Apollo — 3 operation(s) for phone calls.
   name: Apollo Phone Calls API
   slug: apollo-phone-calls-api
-- description: The Sync Report API from Apollo — 1 operation(s) for sync report.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Sync Report API from Apollo — 1 operation(s) for sync report.
   name: Apollo Sync Report API
   slug: apollo-sync-report-api
-- description: The Tasks API from Apollo — 3 operation(s) for tasks.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Tasks API from Apollo — 3 operation(s) for tasks.
   name: Apollo Tasks API
   slug: apollo-tasks-api
-- description: The Usage Stats API from Apollo — 1 operation(s) for usage stats.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Usage Stats API from Apollo — 1 operation(s) for usage stats.
   name: Apollo Usage Stats API
   slug: apollo-usage-stats-api
-- description: The Users API from Apollo — 1 operation(s) for users.
+- baseURL: https://api.apollo.io/v1
+  baseurl_source: spec
+  description: The Users API from Apollo — 1 operation(s) for users.
   name: Apollo Users API
   slug: apollo-users-api
 artifact_total: 60
@@ -287,7 +315,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo/refs/heads/main/screenshots/apollo-2026-06-20T172305.png
 security:

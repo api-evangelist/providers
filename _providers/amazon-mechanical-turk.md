@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -44,121 +44,199 @@ agentic_access:
   summary_line: 39 operations · 39 acting
 api_count: 1
 apis:
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.acceptqualificationrequest'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.acceptqualificationrequest'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AcceptQualificationRequest API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-acceptqualificationrequest-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.approveassignment.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.approveassignment.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ApproveAssignment API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-approveassignment-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.associatequalificati'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.associatequalificati'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.AssociateQualificationWithWorker API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-associatequalificationwithworker-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateAdditionalAssignmentsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createadditionalass'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateAdditionalAssignmentsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createadditionalass'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateAdditionalAssignmentsForHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createadditionalassignmentsforhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHITType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhittype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHITType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhittype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateHITType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhittype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHITWithHITType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhitwithhittype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateHITWithHITType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createhitwithhittype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateHITWithHITType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createhitwithhittype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createqualificationtype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createqualificationtype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createqualificationtype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateWorkerBlock API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createworkerblock.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.CreateWorkerBlock API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.createworkerblock.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.CreateWorkerBlock API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-createworkerblock-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deletehit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deletehit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.DeleteHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deletehit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deletequalificationtype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deletequalificationtype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.DeleteQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deletequalificationtype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteWorkerBlock API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deleteworkerblock.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DeleteWorkerBlock API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.deleteworkerblock.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.DeleteWorkerBlock API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-deleteworkerblock-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DisassociateQualificationFromWorker API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.disassociatequali'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.DisassociateQualificationFromWorker API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.disassociatequali'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.DisassociateQualificationFromWorker API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-disassociatequalificationfromworker-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetAccountBalance API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getaccountbalance.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetAccountBalance API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getaccountbalance.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetAccountBalance API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getaccountbalance-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getassignment.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getassignment.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetAssignment API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getassignment-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetFileUploadURL API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getfileuploadurl.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetFileUploadURL API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getfileuploadurl.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetFileUploadURL API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getfileuploadurl-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.gethit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.gethit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-gethit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationScore API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getqualificationscore.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationScore API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getqualificationscore.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationScore API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getqualificationscore-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getqualificationtype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.getqualificationtype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.GetQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-getqualificationtype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListAssignmentsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listassignmentsforhit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListAssignmentsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listassignmentsforhit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListAssignmentsForHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listassignmentsforhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListBonusPayments API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listbonuspayments.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListBonusPayments API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listbonuspayments.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListBonusPayments API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listbonuspayments-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListHITs API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listhits.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListHITs API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listhits.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListHITs API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listhits-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListHITsForQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listhitsforqualification'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListHITsForQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listhitsforqualification'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListHITsForQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listhitsforqualificationtype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationRequests API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listqualificationrequests.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationRequests API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listqualificationrequests.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationRequests API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listqualificationrequests-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationTypes API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listqualificationtypes.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationTypes API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listqualificationtypes.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListQualificationTypes API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listqualificationtypes-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListReviewableHITs API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listreviewablehits.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListReviewableHITs API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listreviewablehits.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListReviewableHITs API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listreviewablehits-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListReviewPolicyResultsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listreviewpolicyresults'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListReviewPolicyResultsForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listreviewpolicyresults'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListReviewPolicyResultsForHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listreviewpolicyresultsforhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListWorkerBlocks API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listworkerblocks.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListWorkerBlocks API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listworkerblocks.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListWorkerBlocks API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listworkerblocks-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListWorkersWithQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listworkerswithquali'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.ListWorkersWithQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.listworkerswithquali'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.ListWorkersWithQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-listworkerswithqualificationtype-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.NotifyWorkers API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.notifyworkers.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.NotifyWorkers API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.notifyworkers.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.NotifyWorkers API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-notifyworkers-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.RejectAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.rejectassignment.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.RejectAssignment API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.rejectassignment.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.RejectAssignment API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-rejectassignment-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.RejectQualificationRequest API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.rejectqualificationrequest'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.RejectQualificationRequest API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.rejectqualificationrequest'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.RejectQualificationRequest API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-rejectqualificationrequest-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.SendBonus API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.sendbonus.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.SendBonus API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.sendbonus.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.SendBonus API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-sendbonus-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.SendTestEventNotification API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.sendtesteventnotification.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.SendTestEventNotification API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.sendtesteventnotification.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.SendTestEventNotification API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-sendtesteventnotification-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateExpirationForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updateexpirationforhit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateExpirationForHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updateexpirationforhit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateExpirationForHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updateexpirationforhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITReviewStatus API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatehitreviewstatus.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITReviewStatus API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatehitreviewstatus.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITReviewStatus API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatehitreviewstatus-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITTypeOfHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatehittypeofhit.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITTypeOfHIT API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatehittypeofhit.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateHITTypeOfHIT API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatehittypeofhit-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateNotificationSettings API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatenotificationsettings'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateNotificationSettings API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatenotificationsettings'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateNotificationSettings API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatenotificationsettings-api
-- description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatequalificationtype.'
+- baseURL: https://mturk-requester.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API from Amazon Mechanical Turk — 1 operation(s) for #x amz target=mturkrequesterservicev20170117.updatequalificationtype.'
   name: 'Amazon Mechanical Turk #X Amz Target=MTurkRequesterServiceV20170117.UpdateQualificationType API'
   slug: amazon-mechanical-turk-x-amz-target-mturkrequesterservicev20170117-updatequalificationtype-api
 artifact_total: 574
@@ -1867,7 +1945,7 @@ score:
       marker_coverage: 0.0
       total: 39
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/screenshots/amazon-mechanical-turk-2026-06-20T171734.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,9 @@ apis:
 - description: Farm Machinery and Equipment API is a vast repository of farm machinery data, technical details, specifications, usage guidelines, operating manuals, maintenance recommendations and more for Agricultu
   name: Farm Machinery and Equipment API
   slug: farm-machinery-and-equipment-api
-- description: The Farm Machinery API from Farm Machinery and Equipment API — 1 operation(s) for farm machinery.
+- baseURL: https://apifarmer.com/
+  baseurl_source: declared
+  description: The Farm Machinery API from Farm Machinery and Equipment API — 1 operation(s) for farm machinery.
   name: Farm Machinery and Equipment API Farm Machinery API
   slug: farm-machinery-and-equipment-api-farm-machinery-api
 artifact_total: 11
@@ -126,7 +128,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/screenshots/farm-machinery-and-equipment-api-2026-06-20T181042.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 2
@@ -43,40 +43,64 @@ agentic_access:
   summary_line: 71 operations · 40 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Billing and payment related endpoints
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Billing and payment related endpoints
   name: Fluence Billing API
   slug: fluence-billing-api
-- description: Hardware API endpoints
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Hardware API endpoints
   name: Fluence Hardware API
   slug: fluence-hardware-api
-- description: Endpoints to get prices for different resources and cost estimation
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to get prices for different resources and cost estimation
   name: Fluence Prices API
   slug: fluence-prices-api
-- description: The PublicIP API from Fluence — 3 operation(s) for publicip.
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: The PublicIP API from Fluence — 3 operation(s) for publicip.
   name: Fluence PublicIP API
   slug: fluence-publicip-api
-- description: Endpoints to create, view, update and delete security groups
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to create, view, update and delete security groups
   name: Fluence SecurityGroup API
   slug: fluence-securitygroup-api
-- description: The Service API from Fluence — 1 operation(s) for service.
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: The Service API from Fluence — 1 operation(s) for service.
   name: Fluence Service API
   slug: fluence-service-api
-- description: Endpoints to manage SSH keys
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to manage SSH keys
   name: Fluence SSH keys API
   slug: fluence-ssh-keys-api
-- description: Endpoints to create, view, update and delete storage resources
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to create, view, update and delete storage resources
   name: Fluence Storage API
   slug: fluence-storage-api
-- description: Endpoints to create, view, update and delete subnets
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to create, view, update and delete subnets
   name: Fluence Subnets API
   slug: fluence-subnets-api
-- description: Users API endpoints
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Users API endpoints
   name: Fluence Users API
   slug: fluence-users-api
-- description: Endpoints to create, view, update and delete VMs
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to create, view, update and delete VMs
   name: Fluence VMs API
   slug: fluence-vms-api
-- description: Endpoints to create, view, update and delete VPCs
+- baseURL: https://api.fluence.dev
+  baseurl_source: declared
+  description: Endpoints to create, view, update and delete VPCs
   name: Fluence VPCs API
   slug: fluence-vpcs-api
 artifact_total: 30
@@ -277,7 +301,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/screenshots/fluence-2026-07-25T214842.png
 security:

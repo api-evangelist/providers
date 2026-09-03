@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 27 operations · 27 acting
 api_count: 1
 apis:
-- description: Linked bank accounts.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Linked bank accounts.
   name: Okra Accounts API
   slug: okra-ng-accounts-api
-- description: Account authentication records and Link.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Account authentication records and Link.
   name: Okra Auth API
   slug: okra-ng-auth-api
-- description: Account balances.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Account balances.
   name: Okra Balance API
   slug: okra-ng-balance-api
-- description: KYC identity on file with the bank.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: KYC identity on file with the bank.
   name: Okra Identity API
   slug: okra-ng-identity-api
-- description: Income verification.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Income verification.
   name: Okra Income API
   slug: okra-ng-income-api
-- description: Bank-to-bank payments.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Bank-to-bank payments.
   name: Okra Payments API
   slug: okra-ng-payments-api
-- description: Transaction history and spending patterns.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Transaction history and spending patterns.
   name: Okra Transactions API
   slug: okra-ng-transactions-api
-- description: Callback management.
+- baseURL: https://api.okra.ng/v2
+  baseurl_source: declared
+  description: Callback management.
   name: Okra Webhooks API
   slug: okra-ng-webhooks-api
 artifact_total: 24
@@ -203,7 +219,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 security:
 - kind: authentication

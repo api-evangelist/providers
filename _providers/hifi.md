@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -43,49 +43,79 @@ agentic_access:
   summary_line: 87 operations · 42 acting
 api_count: 1
 apis:
-- description: Account endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Account endpoints
   name: Hifi Account API
   slug: hifi-account-api
-- description: Common endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Common endpoints
   name: Hifi Common API
   slug: hifi-common-api
-- description: Cross-Chain Bridge endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Cross-Chain Bridge endpoints
   name: Hifi Cross-Chain Bridge API
   slug: hifi-cross-chain-bridge-api
-- description: Crypto Transfer endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Crypto Transfer endpoints
   name: Hifi Crypto Transfer API
   slug: hifi-crypto-transfer-api
-- description: File endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: File endpoints
   name: Hifi File API
   slug: hifi-file-api
-- description: Kyc endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Kyc endpoints
   name: Hifi Kyc API
   slug: hifi-kyc-api
-- description: Offramp endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Offramp endpoints
   name: Hifi Offramp API
   slug: hifi-offramp-api
-- description: Onramp endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Onramp endpoints
   name: Hifi Onramp API
   slug: hifi-onramp-api
-- description: Reporting and metrics endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Reporting and metrics endpoints
   name: Hifi Reporting API
   slug: hifi-reporting-api
-- description: The Settlement Rules API from Hifi — 5 operation(s) for settlement rules.
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: The Settlement Rules API from Hifi — 5 operation(s) for settlement rules.
   name: Hifi Settlement Rules API
   slug: hifi-settlement-rules-api
-- description: Token Swap endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Token Swap endpoints
   name: Hifi Token Swap API
   slug: hifi-token-swap-api
-- description: Transfer approval workflow and admin actions
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Transfer approval workflow and admin actions
   name: Hifi Transfer Approvals API
   slug: hifi-transfer-approvals-api
-- description: User endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: User endpoints
   name: Hifi User API
   slug: hifi-user-api
-- description: Virtual Account endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Virtual Account endpoints
   name: Hifi Virtual Account API
   slug: hifi-virtual-account-api
-- description: Wallet endpoints
+- baseURL: https://production.hifibridge.com
+  baseurl_source: declared
+  description: Wallet endpoints
   name: Hifi Wallet API
   slug: hifi-wallet-api
 artifact_total: 36
@@ -287,7 +317,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -297,7 +327,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.3
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,7 +345,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hifi/refs/heads/main/screenshots/hifi-2026-07-25T221141.png
 security:

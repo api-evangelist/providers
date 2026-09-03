@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 3 operations
 api_count: 1
 apis:
-- description: Access machine location and tracking data.
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: Access machine location and tracking data.
   name: agco Locations API
   slug: agco-locations-api
-- description: Access machine information and status.
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: Access machine information and status.
   name: agco Machines API
   slug: agco-machines-api
-- description: Retrieve machine telemetry and sensor data.
+- baseURL: https://api.agcocorp.com
+  baseurl_source: declared
+  description: Retrieve machine telemetry and sensor data.
   name: agco Telemetry API
   slug: agco-telemetry-api
 artifact_total: 38
@@ -218,16 +224,16 @@ jsonld:
   slug: agco-telematics-context
 layout: provider
 modified: '2026-04-19'
-name: agco
+name: Agco
 nav: Providers
 network: true
-overview: 'agco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Machines API, and Telemetry API. Tagged areas include Fortune 500.
+overview: 'Agco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Machines API, and Telemetry API. Tagged areas include Fortune 500.
 
 
-  The agco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Agco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  agco''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, code examples, and 17 more developer resources.'
+  Agco''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, code examples, and 17 more developer resources.'
 plans:
 - name: Agco Plans Pricing
   plan_count: 1
@@ -256,7 +262,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: agco API Rules
+  name: Agco API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -267,7 +273,7 @@ rules:
 - effective_rule_count: 66
   extends:
   - spectral:oas
-  name: agco API Rules
+  name: Agco API Rules
   rule_count: 25
   severity_counts:
     error: 14
@@ -302,7 +308,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png
 security:

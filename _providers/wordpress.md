@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -53,46 +53,74 @@ apis:
 - description: WordPress AI API provides a provider-agnostic interface for integrating generative AI capabilities into WordPress plugins and themes. It supports multiple AI providers (OpenAI, Google, Anthropic) thro
   name: WordPress AI API
   slug: ai-api
-- description: Query registered block types
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Query registered block types
   name: WordPress Block Types API
   slug: wordpress-block-types-api
-- description: Manage reusable blocks
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage reusable blocks
   name: WordPress Blocks API
   slug: wordpress-blocks-api
-- description: Manage post categories
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage post categories
   name: WordPress Categories API
   slug: wordpress-categories-api
-- description: Manage WordPress comments
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress comments
   name: WordPress Comments API
   slug: wordpress-comments-api
-- description: Manage WordPress media library
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress media library
   name: WordPress Media API
   slug: wordpress-media-api
-- description: Manage WordPress pages
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress pages
   name: WordPress Pages API
   slug: wordpress-pages-api
-- description: Manage WordPress plugins
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress plugins
   name: WordPress Plugins API
   slug: wordpress-plugins-api
-- description: Query registered post types
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Query registered post types
   name: WordPress Post Types API
   slug: wordpress-post-types-api
-- description: Manage WordPress posts
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress posts
   name: WordPress Posts API
   slug: wordpress-posts-api
-- description: Search across WordPress content
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Search across WordPress content
   name: WordPress Search API
   slug: wordpress-search-api
-- description: Manage site settings
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage site settings
   name: WordPress Settings API
   slug: wordpress-settings-api
-- description: Manage post tags
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage post tags
   name: WordPress Tags API
   slug: wordpress-tags-api
-- description: Manage WordPress themes
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress themes
   name: WordPress Themes API
   slug: wordpress-themes-api
-- description: Manage WordPress users
+- baseURL: https://{site}/wp-json
+  baseurl_source: declared
+  description: Manage WordPress users
   name: WordPress Users API
   slug: wordpress-users-api
 arazzos:
@@ -616,7 +644,7 @@ score:
       marker_coverage: 100.0
       total: 15
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:

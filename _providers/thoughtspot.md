@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -43,91 +43,149 @@ agentic_access:
   summary_line: 191 operations · 179 acting · 13 human-in-the-loop
 api_count: 1
 apis:
-- description: The AI API from ThoughtSpot — 26 operation(s) for ai.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The AI API from ThoughtSpot — 26 operation(s) for ai.
   name: ThoughtSpot AI API
   slug: thoughtspot-ai-api
-- description: The Authentication API from ThoughtSpot — 11 operation(s) for authentication.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Authentication API from ThoughtSpot — 11 operation(s) for authentication.
   name: ThoughtSpot Authentication API
   slug: thoughtspot-authentication-api
-- description: The Collections API from ThoughtSpot — 4 operation(s) for collections.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Collections API from ThoughtSpot — 4 operation(s) for collections.
   name: ThoughtSpot Collections API
   slug: thoughtspot-collections-api
-- description: The Connection Configurations API from ThoughtSpot — 4 operation(s) for connection configurations.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Connection Configurations API from ThoughtSpot — 4 operation(s) for connection configurations.
   name: ThoughtSpot Connection Configurations API
   slug: thoughtspot-connection-configurations-api
-- description: The Connections API from ThoughtSpot — 11 operation(s) for connections.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Connections API from ThoughtSpot — 11 operation(s) for connections.
   name: ThoughtSpot Connections API
   slug: thoughtspot-connections-api
-- description: The Custom Action API from ThoughtSpot — 4 operation(s) for custom action.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Custom Action API from ThoughtSpot — 4 operation(s) for custom action.
   name: ThoughtSpot Custom Action API
   slug: thoughtspot-custom-action-api
-- description: The Custom Calendars API from ThoughtSpot — 5 operation(s) for custom calendars.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Custom Calendars API from ThoughtSpot — 5 operation(s) for custom calendars.
   name: ThoughtSpot Custom Calendars API
   slug: thoughtspot-custom-calendars-api
-- description: The Data API from ThoughtSpot — 3 operation(s) for data.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Data API from ThoughtSpot — 3 operation(s) for data.
   name: ThoughtSpot Data API
   slug: thoughtspot-data-api
-- description: The DBT API from ThoughtSpot — 6 operation(s) for dbt.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The DBT API from ThoughtSpot — 6 operation(s) for dbt.
   name: ThoughtSpot DBT API
   slug: thoughtspot-dbt-api
-- description: The Email Customization API from ThoughtSpot — 6 operation(s) for email customization.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Email Customization API from ThoughtSpot — 6 operation(s) for email customization.
   name: ThoughtSpot Email Customization API
   slug: thoughtspot-email-customization-api
-- description: The Groups API from ThoughtSpot — 5 operation(s) for groups.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Groups API from ThoughtSpot — 5 operation(s) for groups.
   name: ThoughtSpot Groups API
   slug: thoughtspot-groups-api
-- description: The Input Tables API from ThoughtSpot — 3 operation(s) for input tables.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Input Tables API from ThoughtSpot — 3 operation(s) for input tables.
   name: ThoughtSpot Input Tables API
   slug: thoughtspot-input-tables-api
-- description: The Jobs API from ThoughtSpot — 1 operation(s) for jobs.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Jobs API from ThoughtSpot — 1 operation(s) for jobs.
   name: ThoughtSpot Jobs API
   slug: thoughtspot-jobs-api
-- description: The Log API from ThoughtSpot — 1 operation(s) for log.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Log API from ThoughtSpot — 1 operation(s) for log.
   name: ThoughtSpot Log API
   slug: thoughtspot-log-api
-- description: The Manual Translation API from ThoughtSpot — 4 operation(s) for manual translation.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Manual Translation API from ThoughtSpot — 4 operation(s) for manual translation.
   name: ThoughtSpot Manual Translation API
   slug: thoughtspot-manual-translation-api
-- description: The Metadata API from ThoughtSpot — 16 operation(s) for metadata.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Metadata API from ThoughtSpot — 16 operation(s) for metadata.
   name: ThoughtSpot Metadata API
   slug: thoughtspot-metadata-api
-- description: The Orgs API from ThoughtSpot — 4 operation(s) for orgs.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Orgs API from ThoughtSpot — 4 operation(s) for orgs.
   name: ThoughtSpot Orgs API
   slug: thoughtspot-orgs-api
-- description: The Reports API from ThoughtSpot — 2 operation(s) for reports.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Reports API from ThoughtSpot — 2 operation(s) for reports.
   name: ThoughtSpot Reports API
   slug: thoughtspot-reports-api
-- description: The Roles API from ThoughtSpot — 4 operation(s) for roles.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Roles API from ThoughtSpot — 4 operation(s) for roles.
   name: ThoughtSpot Roles API
   slug: thoughtspot-roles-api
-- description: The Schedules API from ThoughtSpot — 4 operation(s) for schedules.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Schedules API from ThoughtSpot — 4 operation(s) for schedules.
   name: ThoughtSpot Schedules API
   slug: thoughtspot-schedules-api
-- description: The Security API from ThoughtSpot — 10 operation(s) for security.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Security API from ThoughtSpot — 10 operation(s) for security.
   name: ThoughtSpot Security API
   slug: thoughtspot-security-api
-- description: The Semantic Integrations API from ThoughtSpot — 4 operation(s) for semantic integrations.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Semantic Integrations API from ThoughtSpot — 4 operation(s) for semantic integrations.
   name: ThoughtSpot Semantic Integrations API
   slug: thoughtspot-semantic-integrations-api
-- description: The Style Customization API from ThoughtSpot — 7 operation(s) for style customization.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Style Customization API from ThoughtSpot — 7 operation(s) for style customization.
   name: ThoughtSpot Style Customization API
   slug: thoughtspot-style-customization-api
-- description: The System API from ThoughtSpot — 9 operation(s) for system.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The System API from ThoughtSpot — 9 operation(s) for system.
   name: ThoughtSpot System API
   slug: thoughtspot-system-api
-- description: The Tags API from ThoughtSpot — 6 operation(s) for tags.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Tags API from ThoughtSpot — 6 operation(s) for tags.
   name: ThoughtSpot Tags API
   slug: thoughtspot-tags-api
-- description: The Users API from ThoughtSpot — 10 operation(s) for users.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Users API from ThoughtSpot — 10 operation(s) for users.
   name: ThoughtSpot Users API
   slug: thoughtspot-users-api
-- description: The Variable API from ThoughtSpot — 7 operation(s) for variable.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Variable API from ThoughtSpot — 7 operation(s) for variable.
   name: ThoughtSpot Variable API
   slug: thoughtspot-variable-api
-- description: The Version Control API from ThoughtSpot — 9 operation(s) for version control.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Version Control API from ThoughtSpot — 9 operation(s) for version control.
   name: ThoughtSpot Version Control API
   slug: thoughtspot-version-control-api
-- description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
+- baseURL: https://my.thoughtspot.cloud/api/rest/2.0
+  baseurl_source: declared
+  description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
 artifact_total: 150
@@ -642,7 +700,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -652,7 +710,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.1
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -664,7 +722,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/screenshots/thoughtspot-2026-08-17T082344.png
 security:

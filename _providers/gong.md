@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -45,82 +45,132 @@ agentic_access:
   summary_line: 57 operations · 33 acting · 1 human-in-the-loop
 api_count: 12
 apis:
-- description: List calls, retrieve metadata, transcripts, recordings and trackers.
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: List calls, retrieve metadata, transcripts, recordings and trackers.
   name: Gong Calls API
   slug: gong-calls-api
-- description: Read user, manager and team data.
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Read user, manager and team data.
   name: Gong Users API
   slug: gong-users-api
-- description: Push CRM-style account, contact, deal and engagement data into Gong.
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Push CRM-style account, contact, deal and engagement data into Gong.
   name: Gong CRM Integration API
   slug: gong-crm-integration-api
 - description: Read activity, scorecards, trackers, and library content.
   name: Gong Engagement Data API
   slug: gong-engagement-data-api
-- description: Access and organize library folders and shared call collections.
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Access and organize library folders and shared call collections.
   name: Gong Library API
   slug: gong-library-api
-- description: Operations for retrieving audit log data
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for retrieving audit log data
   name: Gong Audit Logs API
   slug: gong-audit-logs-api
-- description: Operations for managing and retrieving call data
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing and retrieving call data
   name: Gong Calls API
   slug: gong-calls-api
-- description: Operations for uploading and retrieving CRM data
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for uploading and retrieving CRM data
   name: Gong CRM Data API
   slug: gong-crm-data-api
-- description: Operations for registering and managing CRM integrations
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for registering and managing CRM integrations
   name: Gong CRM Integration API
   slug: gong-crm-integration-api
-- description: Operations for managing CRM object schemas
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing CRM object schemas
   name: Gong CRM Schema API
   slug: gong-crm-schema-api
-- description: Operations for data privacy management and compliance
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for data privacy management and compliance
   name: Gong Data Privacy API
   slug: gong-data-privacy-api
-- description: Operations for posting digital interaction data
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for posting digital interaction data
   name: Gong Digital Interactions API
   slug: gong-digital-interactions-api
-- description: Operations for reporting customer engagement events
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for reporting customer engagement events
   name: Gong Engagement Events API
   slug: gong-engagement-events-api
-- description: Operations for managing Engage flows
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing Engage flows
   name: Gong Flows API
   slug: gong-flows-api
-- description: Operations for managing flow folders
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing flow folders
   name: Gong Folders API
   slug: gong-folders-api
-- description: Operations for browsing and retrieving library content
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for browsing and retrieving library content
   name: Gong Library API
   slug: gong-library-api
-- description: Operations for managing meetings
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing meetings
   name: Gong Meetings API
   slug: gong-meetings-api
-- description: Operations for managing permission profiles
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing permission profiles
   name: Gong Permission Profiles API
   slug: gong-permission-profiles-api
-- description: Operations for managing prospects in Engage flows
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing prospects in Engage flows
   name: Gong Prospects API
   slug: gong-prospects-api
-- description: Operations for managing call recordings and media
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing call recordings and media
   name: Gong Recordings API
   slug: gong-recordings-api
-- description: Operations for retrieving scorecard configurations
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for retrieving scorecard configurations
   name: Gong Scorecards API
   slug: gong-scorecards-api
-- description: Operations for retrieving activity and performance statistics
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for retrieving activity and performance statistics
   name: Gong Statistics API
   slug: gong-statistics-api
-- description: Operations for retrieving tracker configurations
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for retrieving tracker configurations
   name: Gong Trackers API
   slug: gong-trackers-api
-- description: Operations for retrieving call transcripts
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for retrieving call transcripts
   name: Gong Transcripts API
   slug: gong-transcripts-api
-- description: Operations for managing and retrieving user data
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing and retrieving user data
   name: Gong Users API
   slug: gong-users-api
-- description: Operations for managing workspaces
+- baseURL: https://api.gong.io/v2
+  baseurl_source: declared
+  description: Operations for managing workspaces
   name: Gong Workspaces API
   slug: gong-workspaces-api
 artifact_total: 171
@@ -781,7 +831,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -791,7 +841,7 @@ score:
     discoverability: 81.5
     governance: 28.0
     operational_transparency: 81.6
-  previous_composite: 63.8
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -803,7 +853,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 5
 apis:
-- description: Listing availability and pricing
+- baseURL: https://open-api.guesty.com
+  baseurl_source: declared
+  description: Listing availability and pricing
   name: Guesty Calendars API
   slug: guesty-calendars-api
-- description: Guest communication threads
+- baseURL: https://open-api.guesty.com
+  baseurl_source: declared
+  description: Guest communication threads
   name: Guesty Conversations API
   slug: guesty-conversations-api
-- description: Guest profiles
+- baseURL: https://open-api.guesty.com
+  baseurl_source: declared
+  description: Guest profiles
   name: Guesty Guests API
   slug: guesty-guests-api
-- description: Property listings
+- baseURL: https://open-api.guesty.com
+  baseurl_source: declared
+  description: Property listings
   name: Guesty Listings API
   slug: guesty-listings-api
-- description: Bookings and reservations
+- baseURL: https://open-api.guesty.com
+  baseurl_source: declared
+  description: Bookings and reservations
   name: Guesty Reservations API
   slug: guesty-reservations-api
 artifact_total: 18
@@ -187,7 +197,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guesty/refs/heads/main/screenshots/guesty-2026-06-20T182431.png
 security:

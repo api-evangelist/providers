@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Free · Open access
+  onboarding: open
+  pricing: free
+  public: true
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -54,97 +68,159 @@ apis:
 - description: Market Portal API for retrieving meter data and settlement statements, documented in a 1MB PDF on MISO's CDN. Sits alongside the File Download API in the settlements area of the estate.
   name: MISO Market Portal Meter Data and Settlement Statements API
   slug: miso-meter-data-and-settlement-statements-api
-- description: The Ace API from MISO — 1 operation(s) for ace.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Ace API from MISO — 1 operation(s) for ace.
   name: MISO Ace API
   slug: miso-ace-api
-- description: The Admin API from MISO — 6 operation(s) for admin.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Admin API from MISO — 6 operation(s) for admin.
   name: MISO Admin API
   slug: miso-admin-api
-- description: The Aggregated Pnode API from MISO — 1 operation(s) for aggregated pnode.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Aggregated Pnode API from MISO — 1 operation(s) for aggregated pnode.
   name: MISO Aggregated Pnode API
   slug: miso-aggregated-pnode-api
-- description: The Bidding API from MISO — 2 operation(s) for bidding.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Bidding API from MISO — 2 operation(s) for bidding.
   name: MISO Bidding API
   slug: miso-bidding-api
-- description: The BindingConstraints API from MISO — 3 operation(s) for bindingconstraints.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The BindingConstraints API from MISO — 3 operation(s) for bindingconstraints.
   name: MISO Binding Constraints API
   slug: miso-bindingconstraints-api
-- description: The Contracts API from MISO — 4 operation(s) for contracts.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Contracts API from MISO — 4 operation(s) for contracts.
   name: MISO Contracts API
   slug: miso-contracts-api
-- description: The CoordinatedTransactionScheduling API from MISO — 1 operation(s) for coordinatedtransactionscheduling.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The CoordinatedTransactionScheduling API from MISO — 1 operation(s) for coordinatedtransactionscheduling.
   name: MISO Coordinated Transaction Scheduling API
   slug: miso-coordinatedtransactionscheduling-api
-- description: The CsatNextDayShortTermReserveRequirement API from MISO — 1 operation(s) for csatnextdayshorttermreserverequirement.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The CsatNextDayShortTermReserveRequirement API from MISO — 1 operation(s) for csatnextdayshorttermreserverequirement.
   name: MISO Csat Next Day Short Term Reserve Requirement API
   slug: miso-csatnextdayshorttermreserverequirement-api
-- description: The CsatSupplyDemand API from MISO — 1 operation(s) for csatsupplydemand.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The CsatSupplyDemand API from MISO — 1 operation(s) for csatsupplydemand.
   name: MISO Csat Supply Demand API
   slug: miso-csatsupplydemand-api
-- description: The Day Ahead API from MISO — 11 operation(s) for day ahead.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Day Ahead API from MISO — 11 operation(s) for day ahead.
   name: MISO Day Ahead API
   slug: miso-day-ahead-api
-- description: The Forecast API from MISO — 6 operation(s) for forecast.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Forecast API from MISO — 6 operation(s) for forecast.
   name: MISO Forecast API
   slug: miso-forecast-api
-- description: The FuelMix API from MISO — 3 operation(s) for fuelmix.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The FuelMix API from MISO — 3 operation(s) for fuelmix.
   name: MISO Fuel Mix API
   slug: miso-fuelmix-api
-- description: The GenerationOutages API from MISO — 1 operation(s) for generationoutages.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The GenerationOutages API from MISO — 1 operation(s) for generationoutages.
   name: MISO Generation Outages API
   slug: miso-generationoutages-api
-- description: The Historical API from MISO — 1 operation(s) for historical.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Historical API from MISO — 1 operation(s) for historical.
   name: MISO Historical API
   slug: miso-historical-api
-- description: The IMM API from MISO — 1 operation(s) for imm.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The IMM API from MISO — 1 operation(s) for imm.
   name: MISO IMM API
   slug: miso-imm-api
-- description: The Interchange API from MISO — 9 operation(s) for interchange.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Interchange API from MISO — 9 operation(s) for interchange.
   name: MISO Interchange API
   slug: miso-interchange-api
-- description: The MarketPricing API from MISO — 6 operation(s) for marketpricing.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The MarketPricing API from MISO — 6 operation(s) for marketpricing.
   name: MISO Market Pricing API
   slug: miso-marketpricing-api
-- description: The Model API from MISO — 1 operation(s) for model.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Model API from MISO — 1 operation(s) for model.
   name: MISO Model API
   slug: miso-model-api
-- description: The Notifications API from MISO — 6 operation(s) for notifications.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Notifications API from MISO — 6 operation(s) for notifications.
   name: MISO Notifications API
   slug: miso-notifications-api
-- description: The Notifications Format API from MISO — 7 operation(s) for notifications format.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Notifications Format API from MISO — 7 operation(s) for notifications format.
   name: MISO Notifications Format API
   slug: miso-notifications-format-api
-- description: The Offer API from MISO — 7 operation(s) for offer.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Offer API from MISO — 7 operation(s) for offer.
   name: MISO Offer API
   slug: miso-offer-api
-- description: The Real Time API from MISO — 17 operation(s) for real time.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Real Time API from MISO — 17 operation(s) for real time.
   name: MISO Real Time API
   slug: miso-real-time-api
-- description: The RealTimeRSGCommitments API from MISO — 1 operation(s) for realtimersgcommitments.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The RealTimeRSGCommitments API from MISO — 1 operation(s) for realtimersgcommitments.
   name: MISO Real Time RSG Commitments API
   slug: miso-realtimersgcommitments-api
-- description: The RealTimeTotalLoad API from MISO — 1 operation(s) for realtimetotalload.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The RealTimeTotalLoad API from MISO — 1 operation(s) for realtimetotalload.
   name: MISO Real Time Total Load API
   slug: miso-realtimetotalload-api
-- description: The RegionalDirectionalTransfer API from MISO — 1 operation(s) for regionaldirectionaltransfer.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The RegionalDirectionalTransfer API from MISO — 1 operation(s) for regionaldirectionaltransfer.
   name: MISO Regional Directional Transfer API
   slug: miso-regionaldirectionaltransfer-api
-- description: The Reports API from MISO — 14 operation(s) for reports.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Reports API from MISO — 14 operation(s) for reports.
   name: MISO Reports API
   slug: miso-reports-api
-- description: The Reserves API from MISO — 6 operation(s) for reserves.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Reserves API from MISO — 6 operation(s) for reserves.
   name: MISO Reserves API
   slug: miso-reserves-api
-- description: The Snapshot API from MISO — 1 operation(s) for snapshot.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Snapshot API from MISO — 1 operation(s) for snapshot.
   name: MISO Snapshot API
   slug: miso-snapshot-api
-- description: The Transactions API from MISO — 5 operation(s) for transactions.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Transactions API from MISO — 5 operation(s) for transactions.
   name: MISO Transactions API
   slug: miso-transactions-api
-- description: The Weather API from MISO — 1 operation(s) for weather.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The Weather API from MISO — 1 operation(s) for weather.
   name: MISO Weather API
   slug: miso-weather-api
-- description: The WindSolar API from MISO — 7 operation(s) for windsolar.
+- baseURL: https://public-api.misoenergy.org
+  baseurl_source: declared
+  description: The WindSolar API from MISO — 7 operation(s) for windsolar.
   name: MISO Wind Solar API
   slug: miso-windsolar-api
 artifact_total: 140
@@ -637,7 +713,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miso/refs/heads/main/screenshots/miso-2026-08-07T183744.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 17 operations · 6 acting
 api_count: 1
 apis:
-- description: Lab inventory items and their physical instances.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: Lab inventory items and their physical instances.
   name: Quartzy Inventory Items API
   slug: quartzy-inventory-items-api
-- description: Labs within an organization; the scope for inventory and ordering.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: Labs within an organization; the scope for inventory and ordering.
   name: Quartzy Labs API
   slug: quartzy-labs-api
-- description: Procurement requests moving through Quartzy's ordering workflow.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: Procurement requests moving through Quartzy's ordering workflow.
   name: Quartzy Order Requests API
   slug: quartzy-order-requests-api
-- description: Item type categories used to classify inventory and requests.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: Item type categories used to classify inventory and requests.
   name: Quartzy Types API
   slug: quartzy-types-api
-- description: The authenticated user and service health.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: The authenticated user and service health.
   name: Quartzy User API
   slug: quartzy-user-api
-- description: Event subscriptions for inventory and order-request changes.
+- baseURL: https://api.quartzy.com
+  baseurl_source: declared
+  description: Event subscriptions for inventory and order-request changes.
   name: Quartzy Webhooks API
   slug: quartzy-webhooks-api
 artifact_total: 22
@@ -179,7 +191,7 @@ score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -208,8 +220,9 @@ score:
     regime_id: health
     score: 43.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/quartzy/refs/heads/main/screenshots/quartzy-2026-09-02T152632.png
 security:
 - kind: authentication
   name: Quartzy Authentication

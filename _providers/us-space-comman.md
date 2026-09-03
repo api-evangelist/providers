@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 1
 apis:
-- description: Session-based authentication
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Session-based authentication
   name: US Space Command Authentication API
   slug: us-space-comman-authentication-api
-- description: Conjunction data messages (collision warnings)
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Conjunction data messages (collision warnings)
   name: US Space Command Conjunction Data API
   slug: us-space-comman-conjunction-data-api
-- description: Satellite decay data and tracking impact predictions
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Satellite decay data and tracking impact predictions
   name: US Space Command Decay and Reentry API
   slug: us-space-comman-decay-and-reentry-api
-- description: Current orbital element sets for tracked space objects
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Current orbital element sets for tracked space objects
   name: US Space Command General Perturbations API
   slug: us-space-comman-general-perturbations-api
-- description: Satellite catalog metadata
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Satellite catalog metadata
   name: US Space Command Satellite Catalog API
   slug: us-space-comman-satellite-catalog-api
-- description: Historical orbital ephemerides
+- baseURL: https://www.space-track.org
+  baseurl_source: spec
+  description: Historical orbital ephemerides
   name: US Space Command Space Object History API
   slug: us-space-comman-space-object-history-api
 artifact_total: 27
@@ -208,7 +220,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/screenshots/us-space-comman-2026-06-20T200629.png
 security:

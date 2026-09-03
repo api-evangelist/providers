@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -43,109 +43,179 @@ agentic_access:
   summary_line: 146 operations · 79 acting
 api_count: 3
 apis:
-- description: The Ab Test API from Depict.AI — 2 operation(s) for ab test.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Ab Test API from Depict.AI — 2 operation(s) for ab test.
   name: Depict.AI Ab Test API
   slug: depictai-ab-test-api
-- description: The Analytics API from Depict.AI — 1 operation(s) for analytics.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Analytics API from Depict.AI — 1 operation(s) for analytics.
   name: Depict.AI Analytics API
   slug: depictai-analytics-api
-- description: The Boost Bury API from Depict.AI — 3 operation(s) for boost bury.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Boost Bury API from Depict.AI — 3 operation(s) for boost bury.
   name: Depict.AI Boost Bury API
   slug: depictai-boost-bury-api
-- description: The Brand Features API from Depict.AI — 3 operation(s) for brand features.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Brand Features API from Depict.AI — 3 operation(s) for brand features.
   name: Depict.AI Brand Features API
   slug: depictai-brand-features-api
-- description: The Catalog Push API (v0) API from Depict.AI — 6 operation(s) for catalog push api (v0).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Catalog Push API (v0) API from Depict.AI — 6 operation(s) for catalog push api (v0).
   name: Depict.AI Catalog Push API (v0) API
   slug: depictai-catalog-push-api-v0-api
-- description: The Collections API from Depict.AI — 25 operation(s) for collections.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Collections API from Depict.AI — 25 operation(s) for collections.
   name: Depict.AI Collections API
   slug: depictai-collections-api
-- description: The Dashboard API from Depict.AI — 2 operation(s) for dashboard.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Dashboard API from Depict.AI — 2 operation(s) for dashboard.
   name: Depict.AI Dashboard API
   slug: depictai-dashboard-api
-- description: The Events (v2) API from Depict.AI — 3 operation(s) for events (v2).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Events (v2) API from Depict.AI — 3 operation(s) for events (v2).
   name: Depict.AI Events (v2) API
   slug: depictai-events-v2-api
-- description: The Instagram API from Depict.AI — 4 operation(s) for instagram.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Instagram API from Depict.AI — 4 operation(s) for instagram.
   name: Depict.AI Instagram API
   slug: depictai-instagram-api
-- description: The Listing (v2) API from Depict.AI — 1 operation(s) for listing (v2).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Listing (v2) API from Depict.AI — 1 operation(s) for listing (v2).
   name: Depict.AI Listing (v2) API
   slug: depictai-listing-v2-api
-- description: The Listing (v3) API from Depict.AI — 5 operation(s) for listing (v3).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Listing (v3) API from Depict.AI — 5 operation(s) for listing (v3).
   name: Depict.AI Listing (v3) API
   slug: depictai-listing-v3-api
-- description: The Media API from Depict.AI — 2 operation(s) for media.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Media API from Depict.AI — 2 operation(s) for media.
   name: Depict.AI Media API
   slug: depictai-media-api
-- description: The merchant API from Depict.AI — 6 operation(s) for merchant.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The merchant API from Depict.AI — 6 operation(s) for merchant.
   name: Depict.AI merchant API
   slug: depictai-merchant-api
-- description: The merchant-create API from Depict.AI — 1 operation(s) for merchant-create.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The merchant-create API from Depict.AI — 1 operation(s) for merchant-create.
   name: Depict.AI merchant-create API
   slug: depictai-merchant-create-api
-- description: The Merchants API from Depict.AI — 2 operation(s) for merchants.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Merchants API from Depict.AI — 2 operation(s) for merchants.
   name: Depict.AI Merchants API
   slug: depictai-merchants-api
-- description: The multi-store API from Depict.AI — 7 operation(s) for multi-store.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The multi-store API from Depict.AI — 7 operation(s) for multi-store.
   name: Depict.AI multi-store API
   slug: depictai-multi-store-api
-- description: The Onboarding API from Depict.AI — 3 operation(s) for onboarding.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Onboarding API from Depict.AI — 3 operation(s) for onboarding.
   name: Depict.AI Onboarding API
   slug: depictai-onboarding-api
-- description: The Other (v3) API from Depict.AI — 3 operation(s) for other (v3).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Other (v3) API from Depict.AI — 3 operation(s) for other (v3).
   name: Depict.AI Other (v3) API
   slug: depictai-other-v3-api
-- description: The Product Funnel Metrics API from Depict.AI — 1 operation(s) for product funnel metrics.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Product Funnel Metrics API from Depict.AI — 1 operation(s) for product funnel metrics.
   name: Depict.AI Product Funnel Metrics API
   slug: depictai-product-funnel-metrics-api
-- description: The Product Images API from Depict.AI — 2 operation(s) for product images.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Product Images API from Depict.AI — 2 operation(s) for product images.
   name: Depict.AI Product Images API
   slug: depictai-product-images-api
-- description: The Product Metrics API from Depict.AI — 4 operation(s) for product metrics.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Product Metrics API from Depict.AI — 4 operation(s) for product metrics.
   name: Depict.AI Product Metrics API
   slug: depictai-product-metrics-api
-- description: The Products API from Depict.AI — 6 operation(s) for products.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Products API from Depict.AI — 6 operation(s) for products.
   name: Depict.AI Products API
   slug: depictai-products-api
-- description: The Published Collections API from Depict.AI — 3 operation(s) for published collections.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Published Collections API from Depict.AI — 3 operation(s) for published collections.
   name: Depict.AI Published Collections API
   slug: depictai-published-collections-api
-- description: The Recommendations (v2) API from Depict.AI — 4 operation(s) for recommendations (v2).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Recommendations (v2) API from Depict.AI — 4 operation(s) for recommendations (v2).
   name: Depict.AI Recommendations (v2) API
   slug: depictai-recommendations-v2-api
-- description: The Recommendations (v3) API from Depict.AI — 1 operation(s) for recommendations (v3).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Recommendations (v3) API from Depict.AI — 1 operation(s) for recommendations (v3).
   name: Depict.AI Recommendations (v3) API
   slug: depictai-recommendations-v3-api
-- description: The Search Metrics API from Depict.AI — 1 operation(s) for search metrics.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Search Metrics API from Depict.AI — 1 operation(s) for search metrics.
   name: Depict.AI Search Metrics API
   slug: depictai-search-metrics-api
-- description: The Search (v2) API from Depict.AI — 4 operation(s) for search (v2).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Search (v2) API from Depict.AI — 4 operation(s) for search (v2).
   name: Depict.AI Search (v2) API
   slug: depictai-search-v2-api
-- description: The Search (v3) API from Depict.AI — 3 operation(s) for search (v3).
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Search (v3) API from Depict.AI — 3 operation(s) for search (v3).
   name: Depict.AI Search (v3) API
   slug: depictai-search-v3-api
-- description: The Settings API from Depict.AI — 12 operation(s) for settings.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Settings API from Depict.AI — 12 operation(s) for settings.
   name: Depict.AI Settings API
   slug: depictai-settings-api
-- description: The Shopify API from Depict.AI — 3 operation(s) for shopify.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Shopify API from Depict.AI — 3 operation(s) for shopify.
   name: Depict.AI Shopify API
   slug: depictai-shopify-api
-- description: The Shopify Collection Template API from Depict.AI — 4 operation(s) for shopify collection template.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Shopify Collection Template API from Depict.AI — 4 operation(s) for shopify collection template.
   name: Depict.AI Shopify Collection Template API
   slug: depictai-shopify-collection-template-api
-- description: The tracking API from Depict.AI — 2 operation(s) for tracking.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The tracking API from Depict.AI — 2 operation(s) for tracking.
   name: Depict.AI tracking API
   slug: depictai-tracking-api
-- description: The translations API from Depict.AI — 1 operation(s) for translations.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The translations API from Depict.AI — 1 operation(s) for translations.
   name: Depict.AI translations API
   slug: depictai-translations-api
-- description: The Users API from Depict.AI — 1 operation(s) for users.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Users API from Depict.AI — 1 operation(s) for users.
   name: Depict.AI Users API
   slug: depictai-users-api
-- description: The Vitals API from Depict.AI — 1 operation(s) for vitals.
+- baseURL: https://api.depict.ai
+  baseurl_source: declared
+  description: The Vitals API from Depict.AI — 1 operation(s) for vitals.
   name: Depict.AI Vitals API
   slug: depictai-vitals-api
 artifact_total: 77
@@ -451,7 +521,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:

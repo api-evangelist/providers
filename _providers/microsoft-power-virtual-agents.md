@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,10 +50,14 @@ apis:
 - description: The Copilot Studio management capabilities enable programmatic configuration and deployment of conversational AI agents. Developers can manage topics, entities, authentication settings, and channel co
   name: Copilot Studio Bot Management API
   slug: bot-management-api
-- description: The Conversations API from Microsoft Power Virtual Agents — 3 operation(s) for conversations.
+- baseURL: https://directline.botframework.com/
+  baseurl_source: declared
+  description: The Conversations API from Microsoft Power Virtual Agents — 3 operation(s) for conversations.
   name: Microsoft Power Virtual Agents Conversations API
   slug: microsoft-power-virtual-agents-conversations-api
-- description: The Tokens API from Microsoft Power Virtual Agents — 2 operation(s) for tokens.
+- baseURL: https://directline.botframework.com/
+  baseurl_source: declared
+  description: The Tokens API from Microsoft Power Virtual Agents — 2 operation(s) for tokens.
   name: Microsoft Power Virtual Agents Tokens API
   slug: microsoft-power-virtual-agents-tokens-api
 artifact_total: 15
@@ -179,7 +183,7 @@ score:
       marker_coverage: 0.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/screenshots/microsoft-power-virtual-agents-2026-06-20T185526.png
 security:

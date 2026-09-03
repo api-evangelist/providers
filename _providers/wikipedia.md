@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -44,61 +44,99 @@ agentic_access:
   summary_line: 125 operations · 49 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: On-demand API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: On-demand API
   name: Wikipedia / MediaWiki articles API
   slug: wikipedia-articles-api
-- description: Realtime Batch API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Realtime Batch API
   name: Wikipedia / MediaWiki batches API
   slug: wikipedia-batches-api
-- description: generation of citation data
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: generation of citation data
   name: Wikipedia / MediaWiki Citation API
   slug: wikipedia-citation-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikipedia / MediaWiki codes API
   slug: wikipedia-codes-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikipedia / MediaWiki languages API
   slug: wikipedia-languages-api
-- description: formula rendering
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: formula rendering
   name: Wikipedia / MediaWiki Math API
   slug: wikipedia-math-api
-- description: The Mobile API from Wikipedia / MediaWiki — 3 operation(s) for mobile.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The Mobile API from Wikipedia / MediaWiki — 3 operation(s) for mobile.
   name: Wikipedia / MediaWiki Mobile API
   slug: wikipedia-mobile-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikipedia / MediaWiki namespaces API
   slug: wikipedia-namespaces-api
-- description: The offline API from Wikipedia / MediaWiki — 2 operation(s) for offline.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The offline API from Wikipedia / MediaWiki — 2 operation(s) for offline.
   name: Wikipedia / MediaWiki offline API
   slug: wikipedia-offline-api
-- description: page content in different formats
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: page content in different formats
   name: Wikipedia / MediaWiki Page content API
   slug: wikipedia-page-content-api
-- description: Metadata
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Metadata
   name: Wikipedia / MediaWiki projects API
   slug: wikipedia-projects-api
-- description: Private lists of selected pages
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Private lists of selected pages
   name: Wikipedia / MediaWiki Reading lists API
   slug: wikipedia-reading-lists-api
-- description: contribution recommendations
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: contribution recommendations
   name: Wikipedia / MediaWiki Recommendation API
   slug: wikipedia-recommendation-api
-- description: Snapshot API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Snapshot API
   name: Wikipedia / MediaWiki snapshots API
   slug: wikipedia-snapshots-api
-- description: (Beta) Structured Contents On-demand API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: (Beta) Structured Contents On-demand API
   name: Wikipedia / MediaWiki structured-contents API
   slug: wikipedia-structured-contents-api
-- description: (BETA) Structured Contents Snapshot API
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: (BETA) Structured Contents Snapshot API
   name: Wikipedia / MediaWiki structured-snapshots API
   slug: wikipedia-structured-snapshots-api
-- description: The Talk pages API from Wikipedia / MediaWiki — 2 operation(s) for talk pages.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The Talk pages API from Wikipedia / MediaWiki — 2 operation(s) for talk pages.
   name: Wikipedia / MediaWiki Talk pages API
   slug: wikipedia-talk-pages-api
-- description: Wikitext <-> HTML transformation
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: Wikitext <-> HTML transformation
   name: Wikipedia / MediaWiki Transforms API
   slug: wikipedia-transforms-api
-- description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
+- baseURL: https://en.wikipedia.org/w/api.php
+  baseurl_source: declared
+  description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
   name: Wikipedia / MediaWiki wikidata API
   slug: wikipedia-wikidata-api
 artifact_total: 309
@@ -1167,7 +1205,7 @@ score:
     catalog_gap: 33.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 4.0
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -1177,7 +1215,7 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 42.9
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1192,7 +1230,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:

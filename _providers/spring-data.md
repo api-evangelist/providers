@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: Spring Data module for Elasticsearch search engine. Provides ElasticsearchTemplate, repository abstraction, index management, full-text search queries, and reactive Elasticsearch client support.
   name: Spring Data Elasticsearch
   slug: spring-data-elasticsearch
-- description: The Association API from Spring Data — 1 operation(s) for association.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Association API from Spring Data — 1 operation(s) for association.
   name: Spring Data Association API
   slug: spring-data-association-api
-- description: The Collection API from Spring Data — 1 operation(s) for collection.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Collection API from Spring Data — 1 operation(s) for collection.
   name: Spring Data Collection API
   slug: spring-data-collection-api
-- description: The Discovery API from Spring Data — 1 operation(s) for discovery.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Discovery API from Spring Data — 1 operation(s) for discovery.
   name: Spring Data Discovery API
   slug: spring-data-discovery-api
-- description: The Item API from Spring Data — 1 operation(s) for item.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Item API from Spring Data — 1 operation(s) for item.
   name: Spring Data Item API
   slug: spring-data-item-api
-- description: The Profile API from Spring Data — 2 operation(s) for profile.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Profile API from Spring Data — 2 operation(s) for profile.
   name: Spring Data Profile API
   slug: spring-data-profile-api
-- description: The Search API from Spring Data — 2 operation(s) for search.
+- baseURL: http://localhost:8080
+  baseurl_source: declared
+  description: The Search API from Spring Data — 2 operation(s) for search.
   name: Spring Data Search API
   slug: spring-data-search-api
 artifact_total: 32
@@ -272,7 +284,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-data/refs/heads/main/screenshots/spring-data-2026-06-20T194412.png
 security:

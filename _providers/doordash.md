@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 42 operations · 30 acting
 api_count: 5
 apis:
-- description: Get address auto-completion suggestions based on partial input.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Get address auto-completion suggestions based on partial input.
   name: doordash Addresses API
   slug: doordash-addresses-api
-- description: Manage business entities that represent legal entities or owners.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage business entities that represent legal entities or owners.
   name: doordash Businesses API
   slug: doordash-businesses-api
-- description: Manage the item catalog including adding new items and updating existing item information such as names, descriptions, images, and attributes.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage the item catalog including adding new items and updating existing item information such as names, descriptions, images, and attributes.
   name: doordash Catalog API
   slug: doordash-catalog-api
-- description: Create, retrieve, update, cancel, and estimate deliveries using the classic API endpoints.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Create, retrieve, update, cancel, and estimate deliveries using the classic API endpoints.
   name: doordash Deliveries API
   slug: doordash-deliveries-api
-- description: Manage store-level inventory, pricing, and other in-store attributes for items on the DoorDash platform.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage store-level inventory, pricing, and other in-store attributes for items on the DoorDash platform.
   name: doordash Inventory API
   slug: doordash-inventory-api
-- description: Manage item availability and 86ing (marking items as unavailable) in real time.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage item availability and 86ing (marking items as unavailable) in real time.
   name: doordash Items API
   slug: doordash-items-api
-- description: Create, update, and manage menus for stores on the DoorDash marketplace.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Create, update, and manage menus for stores on the DoorDash marketplace.
   name: doordash Menus API
   slug: doordash-menus-api
-- description: Receive, confirm, update, and manage orders placed through the DoorDash marketplace.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Receive, confirm, update, and manage orders placed through the DoorDash marketplace.
   name: doordash Orders API
   slug: doordash-orders-api
-- description: Manage item-level promotions at the store level, including adding and updating promotional pricing.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage item-level promotions at the store level, including adding and updating promotional pricing.
   name: doordash Promotions API
   slug: doordash-promotions-api
-- description: Validate delivery serviceability and get pricing quotes before creating a delivery.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Validate delivery serviceability and get pricing quotes before creating a delivery.
   name: doordash Quotes API
   slug: doordash-quotes-api
-- description: Create report requests and retrieve report download links for financial, operations, menu, and feedback data.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Create report requests and retrieve report download links for financial, operations, menu, and feedback data.
   name: doordash Reports API
   slug: doordash-reports-api
-- description: Manage store locations associated with businesses.
+- baseURL: https://openapi.doordash.com/drive/v2
+  baseurl_source: declared
+  description: Manage store locations associated with businesses.
   name: doordash Stores API
   slug: doordash-stores-api
 artifact_total: 234
@@ -858,16 +882,16 @@ jsonld:
   slug: doordash-reporting-webhooks-context
 layout: provider
 modified: '2026-06-02'
-name: doordash
+name: Doordash
 nav: Providers
 network: true
-overview: 'doordash publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Businesses API, Catalog API, and 9 more.
+overview: 'Doordash publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Businesses API, Catalog API, and 9 more.
 
 
-  The doordash catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 9 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The Doordash catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 9 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  doordash''s developer surface includes authentication, documentation, engineering blog, support, tooling, and 24 more developer resources.'
+  Doordash''s developer surface includes authentication, documentation, engineering blog, support, tooling, and 24 more developer resources.'
 plans:
 - name: Doordash Plans Pricing
   plan_count: 3
@@ -881,7 +905,7 @@ rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: doordash API Rules
+  name: Doordash API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -891,7 +915,7 @@ rules:
   slug: doordash-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: doordash API Rules
+  name: Doordash API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -902,7 +926,7 @@ rules:
 - effective_rule_count: 83
   extends:
   - spectral:oas
-  name: doordash API Rules
+  name: Doordash API Rules
   rule_count: 42
   severity_counts:
     error: 7
@@ -918,7 +942,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -928,7 +952,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 51.7
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -938,10 +962,10 @@ score:
       total: 12
   regulatory:
     applies: false
-    note: provider carries no tags; regime could not be determined
+    note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png
 security:

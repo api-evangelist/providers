@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -47,37 +47,59 @@ apis:
 - description: env0 is an infrastructure-as-code automation platform providing cost estimation, policy enforcement, and self-service environments. The public REST API is available at https://api.env0.com/ and uses H
   name: Env0
   slug: env0
-- description: The Agents API from Env0 — 1 operation(s) for agents.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Agents API from Env0 — 1 operation(s) for agents.
   name: Env0 Agents API
   slug: env0-agents-api
-- description: The ApprovalPolicies API from Env0 — 1 operation(s) for approvalpolicies.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The ApprovalPolicies API from Env0 — 1 operation(s) for approvalpolicies.
   name: Env0 ApprovalPolicies API
   slug: env0-approvalpolicies-api
-- description: The Configuration API from Env0 — 1 operation(s) for configuration.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Configuration API from Env0 — 1 operation(s) for configuration.
   name: Env0 Configuration API
   slug: env0-configuration-api
-- description: The Deployments API from Env0 — 2 operation(s) for deployments.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Deployments API from Env0 — 2 operation(s) for deployments.
   name: Env0 Deployments API
   slug: env0-deployments-api
-- description: The Environments API from Env0 — 2 operation(s) for environments.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Environments API from Env0 — 2 operation(s) for environments.
   name: Env0 Environments API
   slug: env0-environments-api
-- description: The Modules API from Env0 — 1 operation(s) for modules.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Modules API from Env0 — 1 operation(s) for modules.
   name: Env0 Modules API
   slug: env0-modules-api
-- description: The Organizations API from Env0 — 1 operation(s) for organizations.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Organizations API from Env0 — 1 operation(s) for organizations.
   name: Env0 Organizations API
   slug: env0-organizations-api
-- description: The Projects API from Env0 — 2 operation(s) for projects.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Projects API from Env0 — 2 operation(s) for projects.
   name: Env0 Projects API
   slug: env0-projects-api
-- description: The Templates API from Env0 — 1 operation(s) for templates.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Templates API from Env0 — 1 operation(s) for templates.
   name: Env0 Templates API
   slug: env0-templates-api
-- description: The Users API from Env0 — 1 operation(s) for users.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Users API from Env0 — 1 operation(s) for users.
   name: Env0 Users API
   slug: env0-users-api
-- description: The Webhooks API from Env0 — 1 operation(s) for webhooks.
+- baseURL: https://api.env0.com/
+  baseurl_source: declared
+  description: The Webhooks API from Env0 — 1 operation(s) for webhooks.
   name: Env0 Webhooks API
   slug: env0-webhooks-api
 artifact_total: 31
@@ -214,7 +236,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/screenshots/env0-2026-06-20T180838.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -44,43 +44,67 @@ agentic_access:
   summary_line: 30 operations · 17 acting
 api_count: 2
 apis:
-- description: The Squarespace Orders API provides access to order history for a Squarespace merchant site, supporting both one-time purchases and subscription orders. Developers can retrieve, create, and manage ord
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Squarespace Orders API provides access to order history for a Squarespace merchant site, supporting both one-time purchases and subscription orders. Developers can retrieve, create, and manage ord
   name: Squarespace Orders API
   slug: squarespace-orders-api
-- description: The Squarespace Products API allows developers to manage the product catalog of a Squarespace merchant site. It supports physical products, service products, gift cards, and digital downloads, along w
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Squarespace Products API allows developers to manage the product catalog of a Squarespace merchant site. It supports physical products, service products, gift cards, and digital downloads, along w
   name: Squarespace Products API
   slug: squarespace-products-api
-- description: The Squarespace Inventory API enables developers to retrieve and update inventory quantities for product variants on a Squarespace merchant site. It supports bulk inventory queries and individual vari
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Squarespace Inventory API enables developers to retrieve and update inventory quantities for product variants on a Squarespace merchant site. It supports bulk inventory queries and individual vari
   name: Squarespace Inventory API
   slug: squarespace-inventory-api
-- description: The Squarespace Profiles API allows reading customer profiles, mailing list subscribers, and donors for a Squarespace site. It supports filtering by profile type and retrieving individual profile deta
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Squarespace Profiles API allows reading customer profiles, mailing list subscribers, and donors for a Squarespace site. It supports filtering by profile type and retrieving individual profile deta
   name: Squarespace Profiles API
   slug: squarespace-profiles-api
-- description: The Squarespace Transactions API provides access to financial transaction records for a Squarespace merchant site. Developers can retrieve transaction history, including payment amounts, fees, and ass
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Squarespace Transactions API provides access to financial transaction records for a Squarespace merchant site. Developers can retrieve transaction history, including payment amounts, fees, and ass
   name: Squarespace Transactions API
   slug: squarespace-transactions-api
-- description: The Squarespace Webhook Subscriptions API allows developers to manage webhook endpoint subscriptions for a merchant site. It supports creating, listing, updating, and deleting subscriptions that trigg
+- baseURL: https://api.squarespace.com/1.0
+  baseurl_source: spec
+  description: The Squarespace Webhook Subscriptions API allows developers to manage webhook endpoint subscriptions for a merchant site. It supports creating, listing, updating, and deleting subscriptions that trigg
   name: Squarespace Webhook Subscriptions API
   slug: squarespace-webhook-subscriptions-api
-- description: Basic site information and metadata
+- baseURL: https://api.squarespace.com/1.0
+  baseurl_source: spec
+  description: Basic site information and metadata
   name: Squarespace Site API
   slug: squarespace-site-api
 - description: Squarespace operates a first-party remote MCP server at https://mcp.squarespace.com/mcp. It answers an unauthenticated JSON-RPC tools/list with HTTP 200 and exposes two tools with full JSON Schema inp
   name: Squarespace MCP Server
   slug: squarespace-mcp
-- description: Query analytics for a website
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: Query analytics for a website
   name: Squarespace Analytics API
   slug: squarespace-analytics-api
-- description: 'Manage customer contacts and address book entries for a website: create, read, update, delete, and query contacts; maintain addresses for shipping and fulfillment.'
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: 'Manage customer contacts and address book entries for a website: create, read, update, delete, and query contacts; maintain addresses for shipping and fulfillment.'
   name: Squarespace Contacts API
   slug: squarespace-contacts-api
-- description: Manage discounts for a website.
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: Manage discounts for a website.
   name: Squarespace Discounts API
   slug: squarespace-discounts-api
-- description: The WebhookSubscriptions API from Squarespace — 4 operation(s) for webhooksubscriptions.
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The WebhookSubscriptions API from Squarespace — 4 operation(s) for webhooksubscriptions.
   name: Squarespace Webhook Subscriptions API
   slug: squarespace-webhooksubscriptions-api
-- description: The Websites API from Squarespace — 3 operation(s) for websites.
+- baseURL: https://api.squarespace.com
+  baseurl_source: spec
+  description: The Websites API from Squarespace — 3 operation(s) for websites.
   name: Squarespace Websites API
   slug: squarespace-websites-api
 artifact_total: 44
@@ -416,7 +440,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -426,7 +450,7 @@ score:
     discoverability: 59.3
     governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 74.9
+  previous_composite: 74.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -444,7 +468,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

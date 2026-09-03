@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
@@ -33,73 +46,119 @@ apis:
 - description: Anonymous, read-only Model Context Protocol server published by Uphold at developer.uphold.com/mcp over streamable HTTP. Exposes three tools (documentation search, a virtualized read-only docs filesys
   name: Uphold Documentation MCP Server
   slug: uphold-documentation-mcp-server
-- description: Accounts.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Accounts.
   name: Uphold Accounts API
   slug: uphold-accounts-api
-- description: Assets, networks and rails.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Assets, networks and rails.
   name: Uphold Assets API
   slug: uphold-assets-api
-- description: Authentication.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Authentication.
   name: Uphold Authentication API
   slug: uphold-authentication-api
-- description: User capabilities.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: User capabilities.
   name: Uphold Capabilities API
   slug: uphold-capabilities-api
-- description: Countries.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Countries.
   name: Uphold Countries API
   slug: uphold-countries-api
-- description: External accounts.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: External accounts.
   name: Uphold External accounts API
   slug: uphold-external-accounts-api
-- description: Files.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Files.
   name: Uphold Files API
   slug: uphold-files-api
-- description: General.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: General.
   name: Uphold General API
   slug: uphold-general-api
-- description: The Ingestions API from Uphold — 0 operation(s) for ingestions.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: The Ingestions API from Uphold — 0 operation(s) for ingestions.
   name: Uphold Ingestions API
   slug: uphold-ingestions-api
-- description: Business User's KYB.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Business User's KYB.
   name: Uphold KYB API
   slug: uphold-kyb-api
-- description: Individual User's KYC.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Individual User's KYC.
   name: Uphold KYC API
   slug: uphold-kyc-api
-- description: KYC sharing.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: KYC sharing.
   name: Uphold KYC sharing API
   slug: uphold-kyc-sharing-api
-- description: Metadata.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Metadata.
   name: Uphold Metadata API
   slug: uphold-metadata-api
-- description: Payment.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Payment.
   name: Uphold Payment API
   slug: uphold-payment-api
-- description: Portfolio.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Portfolio.
   name: Uphold Portfolio API
   slug: uphold-portfolio-api
-- description: Statements.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Statements.
   name: Uphold Statements API
   slug: uphold-statements-api
-- description: Sumsub KYC Connector.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Sumsub KYC Connector.
   name: Uphold Sumsub API
   slug: uphold-sumsub-api
-- description: User terms of service.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: User terms of service.
   name: Uphold Terms of service API
   slug: uphold-terms-of-service-api
-- description: Transactions.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Transactions.
   name: Uphold Transactions API
   slug: uphold-transactions-api
-- description: Travel rule.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Travel rule.
   name: Uphold Travel rule API
   slug: uphold-travel-rule-api
-- description: Users.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Users.
   name: Uphold Users API
   slug: uphold-users-api
-- description: Veriff KYC Connector.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Veriff KYC Connector.
   name: Uphold Veriff API
   slug: uphold-veriff-api
-- description: Webhooks.
+- baseURL: https://api.enterprise.uphold.com
+  baseurl_source: declared
+  description: Webhooks.
   name: Uphold Webhooks API
   slug: uphold-webhooks-api
 artifact_total: 56
@@ -402,7 +461,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -415,7 +474,7 @@ score:
   open_source:
     applies: true
     score: 25.0
-  previous_composite: 64.7
+  previous_composite: 64.5
   provenance:
     conformance: first-party
     contracts:
@@ -432,7 +491,7 @@ score:
     regime_id: securities_market_data
     score: 76.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:

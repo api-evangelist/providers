@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -44,13 +44,19 @@ agentic_access:
   summary_line: 12 operations · 7 acting
 api_count: 3
 apis:
-- description: The ProjectAdmins API from Amazon Monitron — 2 operation(s) for projectadmins.
+- baseURL: https://monitron.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The ProjectAdmins API from Amazon Monitron — 2 operation(s) for projectadmins.
   name: Amazon Monitron ProjectAdmins API
   slug: amazon-monitron-projectadmins-api
-- description: The Projects API from Amazon Monitron — 2 operation(s) for projects.
+- baseURL: https://monitron.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Projects API from Amazon Monitron — 2 operation(s) for projects.
   name: Amazon Monitron Projects API
   slug: amazon-monitron-projects-api
-- description: The Tags API from Amazon Monitron — 1 operation(s) for tags.
+- baseURL: https://monitron.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Monitron — 1 operation(s) for tags.
   name: Amazon Monitron Tags API
   slug: amazon-monitron-tags-api
 artifact_total: 46
@@ -294,7 +300,7 @@ score:
       marker_coverage: 100.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/screenshots/amazon-monitron-2026-06-20T171745.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
-- description: Create, update, and retrieve funeral cases (obituaries) for an account.
+- baseURL: https://api.funeralone.com
+  baseurl_source: declared
+  description: Create, update, and retrieve funeral cases (obituaries) for an account.
   name: funeralOne Cases API
   slug: funeralone-cases-api
 artifact_total: 9
@@ -148,7 +150,7 @@ score:
       marker_coverage: 100.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/screenshots/funeralone-2026-07-25T215318.png
 security:

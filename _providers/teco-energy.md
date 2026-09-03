@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Tampa Electric provides a developer portal powered by Azure API Management at developer.tecoenergy.com. The portal enables developers to discover APIs, review documentation, try APIs interactively, an
   name: Tampa Electric API Management
   slug: developer-api
-- description: The Accounts API from TECO Energy — 1 operation(s) for accounts.
+- baseURL: https://developer.tecoenergy.com
+  baseurl_source: declared
+  description: The Accounts API from TECO Energy — 1 operation(s) for accounts.
   name: TECO Energy Accounts API
   slug: teco-energy-accounts-api
-- description: The Billing API from TECO Energy — 3 operation(s) for billing.
+- baseURL: https://developer.tecoenergy.com
+  baseurl_source: declared
+  description: The Billing API from TECO Energy — 3 operation(s) for billing.
   name: TECO Energy Billing API
   slug: teco-energy-billing-api
-- description: The Energy Usage API from TECO Energy — 1 operation(s) for energy usage.
+- baseURL: https://developer.tecoenergy.com
+  baseurl_source: declared
+  description: The Energy Usage API from TECO Energy — 1 operation(s) for energy usage.
   name: TECO Energy Energy Usage API
   slug: teco-energy-energy-usage-api
-- description: The Outages API from TECO Energy — 4 operation(s) for outages.
+- baseURL: https://developer.tecoenergy.com
+  baseurl_source: declared
+  description: The Outages API from TECO Energy — 4 operation(s) for outages.
   name: TECO Energy Outages API
   slug: teco-energy-outages-api
-- description: The Service Requests API from TECO Energy — 1 operation(s) for service requests.
+- baseURL: https://developer.tecoenergy.com
+  baseurl_source: declared
+  description: The Service Requests API from TECO Energy — 1 operation(s) for service requests.
   name: TECO Energy Service Requests API
   slug: teco-energy-service-requests-api
 artifact_total: 28
@@ -247,7 +257,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teco-energy/refs/heads/main/screenshots/teco-energy-2026-06-20T195017.png
 security:

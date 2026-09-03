@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 60 operations · 36 acting
 api_count: 3
 apis:
-- description: The Istio Telemetry API (telemetry.istio.io) provides configuration resources for managing observability within an Istio service mesh. The Telemetry resource enables flexible configuration of metrics,
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: The Istio Telemetry API (telemetry.istio.io) provides configuration resources for managing observability within an Istio service mesh. The Telemetry resource enables flexible configuration of metrics,
   name: Istio Telemetry API
   slug: telemetry-api
 - description: The Istio Mesh Config API (istio.mesh.v1alpha1) provides global configuration for the Istio service mesh control plane and data plane proxy behavior. It includes MeshConfig for mesh-wide settings such
@@ -53,37 +55,59 @@ apis:
 - description: The Istio Operator API (istio.operator.v1alpha1) defines the IstioOperator custom resource used to install, configure, and upgrade Istio on Kubernetes clusters. It provides a declarative interface for
   name: Istio Operator API
   slug: operator-api
-- description: Fine-grained access control policies for workloads
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Fine-grained access control policies for workloads
   name: Istio AuthorizationPolicy API
   slug: istio-authorizationpolicy-api
-- description: Policies applied to traffic after routing (load balancing, connection pool, outlier detection)
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Policies applied to traffic after routing (load balancing, connection pool, outlier detection)
   name: Istio DestinationRule API
   slug: istio-destinationrule-api
-- description: Load balancer configuration at the edge of the mesh
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Load balancer configuration at the edge of the mesh
   name: Istio Gateway API
   slug: istio-gateway-api
-- description: Mutual TLS configuration for peer-to-peer communication
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Mutual TLS configuration for peer-to-peer communication
   name: Istio PeerAuthentication API
   slug: istio-peerauthentication-api
-- description: JWT-based request authentication policies
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: JWT-based request authentication policies
   name: Istio RequestAuthentication API
   slug: istio-requestauthentication-api
-- description: External service entries added to the mesh service registry
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: External service entries added to the mesh service registry
   name: Istio ServiceEntry API
   slug: istio-serviceentry-api
-- description: Sidecar proxy configuration for inbound and outbound traffic
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Sidecar proxy configuration for inbound and outbound traffic
   name: Istio Sidecar API
   slug: istio-sidecar-api
-- description: HTTP/TCP routing rules for traffic management
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: HTTP/TCP routing rules for traffic management
   name: Istio VirtualService API
   slug: istio-virtualservice-api
-- description: WebAssembly plugin configuration for Envoy proxy extensions
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: WebAssembly plugin configuration for Envoy proxy extensions
   name: Istio WasmPlugin API
   slug: istio-wasmplugin-api
-- description: Non-Kubernetes workload (VM/bare metal) endpoint properties
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Non-Kubernetes workload (VM/bare metal) endpoint properties
   name: Istio WorkloadEntry API
   slug: istio-workloadentry-api
-- description: Collection of workload instances sharing common properties
+- baseURL_template: https://{cluster}/apis/extensions.istio.io/v1alpha1
+  baseurl_source: spec_template
+  description: Collection of workload instances sharing common properties
   name: Istio WorkloadGroup API
   slug: istio-workloadgroup-api
 artifact_total: 49
@@ -338,7 +362,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -45,76 +45,124 @@ agentic_access:
   summary_line: 111 operations · 51 acting
 api_count: 10
 apis:
-- description: The aggregate API from Magic Moment — 2 operation(s) for aggregate.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The aggregate API from Magic Moment — 2 operation(s) for aggregate.
   name: Magic Moment Aggregate API
   slug: magic-moment-aggregate-api
-- description: The calendars API from Magic Moment — 4 operation(s) for calendars.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The calendars API from Magic Moment — 4 operation(s) for calendars.
   name: Magic Moment Calendars API
   slug: magic-moment-calendars-api
-- description: The call-log API from Magic Moment — 2 operation(s) for call-log.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The call-log API from Magic Moment — 2 operation(s) for call-log.
   name: Magic Moment Call Log API
   slug: magic-moment-call-log-api
-- description: The capability API from Magic Moment — 1 operation(s) for capability.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The capability API from Magic Moment — 1 operation(s) for capability.
   name: Magic Moment Capability API
   slug: magic-moment-capability-api
-- description: The conference API from Magic Moment — 3 operation(s) for conference.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The conference API from Magic Moment — 3 operation(s) for conference.
   name: Magic Moment Conference API
   slug: magic-moment-conference-api
-- description: The engagement_sync_settings API from Magic Moment — 2 operation(s) for engagement_sync_settings.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The engagement_sync_settings API from Magic Moment — 2 operation(s) for engagement_sync_settings.
   name: Magic Moment Engagement Sync Settings API
   slug: magic-moment-engagement-sync-settings-api
-- description: The fetch_hubspot API from Magic Moment — 3 operation(s) for fetch_hubspot.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The fetch_hubspot API from Magic Moment — 3 operation(s) for fetch_hubspot.
   name: Magic Moment Fetch Hubspot API
   slug: magic-moment-fetch-hubspot-api
-- description: The fetch_sfdc API from Magic Moment — 3 operation(s) for fetch_sfdc.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The fetch_sfdc API from Magic Moment — 3 operation(s) for fetch_sfdc.
   name: Magic Moment Fetch Sfdc API
   slug: magic-moment-fetch-sfdc-api
-- description: The healthcheck API from Magic Moment — 1 operation(s) for healthcheck.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The healthcheck API from Magic Moment — 1 operation(s) for healthcheck.
   name: Magic Moment Healthcheck API
   slug: magic-moment-healthcheck-api
-- description: The mail API from Magic Moment — 5 operation(s) for mail.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The mail API from Magic Moment — 5 operation(s) for mail.
   name: Magic Moment Mail API
   slug: magic-moment-mail-api
-- description: The mappings API from Magic Moment — 2 operation(s) for mappings.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The mappings API from Magic Moment — 2 operation(s) for mappings.
   name: Magic Moment Mappings API
   slug: magic-moment-mappings-api
-- description: The microsoft365 API from Magic Moment — 2 operation(s) for microsoft365.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The microsoft365 API from Magic Moment — 2 operation(s) for microsoft365.
   name: Magic Moment Microsoft365 API
   slug: magic-moment-microsoft365-api
-- description: The oauth2 API from Magic Moment — 7 operation(s) for oauth2.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The oauth2 API from Magic Moment — 7 operation(s) for oauth2.
   name: Magic Moment Oauth2 API
   slug: magic-moment-oauth2-api
-- description: The performance API from Magic Moment — 9 operation(s) for performance.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The performance API from Magic Moment — 9 operation(s) for performance.
   name: Magic Moment Performance API
   slug: magic-moment-performance-api
-- description: The performance-target API from Magic Moment — 2 operation(s) for performance-target.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The performance-target API from Magic Moment — 2 operation(s) for performance-target.
   name: Magic Moment Performance Target API
   slug: magic-moment-performance-target-api
-- description: The playbook-phase API from Magic Moment — 4 operation(s) for playbook-phase.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The playbook-phase API from Magic Moment — 4 operation(s) for playbook-phase.
   name: Magic Moment Playbook Phase API
   slug: magic-moment-playbook-phase-api
-- description: The profiles API from Magic Moment — 1 operation(s) for profiles.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The profiles API from Magic Moment — 1 operation(s) for profiles.
   name: Magic Moment Profiles API
   slug: magic-moment-profiles-api
-- description: The sales API from Magic Moment — 2 operation(s) for sales.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The sales API from Magic Moment — 2 operation(s) for sales.
   name: Magic Moment Sales API
   slug: magic-moment-sales-api
-- description: The settings API from Magic Moment — 8 operation(s) for settings.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The settings API from Magic Moment — 8 operation(s) for settings.
   name: Magic Moment Settings API
   slug: magic-moment-settings-api
-- description: The sync_hubspot API from Magic Moment — 2 operation(s) for sync_hubspot.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The sync_hubspot API from Magic Moment — 2 operation(s) for sync_hubspot.
   name: Magic Moment Sync Hubspot API
   slug: magic-moment-sync-hubspot-api
-- description: The sync_sfdc API from Magic Moment — 2 operation(s) for sync_sfdc.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The sync_sfdc API from Magic Moment — 2 operation(s) for sync_sfdc.
   name: Magic Moment Sync Sfdc API
   slug: magic-moment-sync-sfdc-api
-- description: The utils API from Magic Moment — 1 operation(s) for utils.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The utils API from Magic Moment — 1 operation(s) for utils.
   name: Magic Moment Utils API
   slug: magic-moment-utils-api
-- description: The value API from Magic Moment — 1 operation(s) for value.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The value API from Magic Moment — 1 operation(s) for value.
   name: Magic Moment Value API
   slug: magic-moment-value-api
-- description: The zoom API from Magic Moment — 6 operation(s) for zoom.
+- baseURL: https://sfdc.magicmoment.co.jp/
+  baseurl_source: declared
+  description: The zoom API from Magic Moment — 6 operation(s) for zoom.
   name: Magic Moment Zoom API
   slug: magic-moment-zoom-api
 artifact_total: 30
@@ -274,7 +322,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png
 security:

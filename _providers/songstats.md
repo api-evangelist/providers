@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 41 operations · 10 acting
 api_count: 1
 apis:
-- description: The Artists API from Songstats — 12 operation(s) for artists.
+- baseURL: https://api.songstats.com/enterprise/v1
+  baseurl_source: declared
+  description: The Artists API from Songstats — 12 operation(s) for artists.
   name: Songstats Artists API
   slug: songstats-artists-api
-- description: The Collaborators API from Songstats — 5 operation(s) for collaborators.
+- baseURL: https://api.songstats.com/enterprise/v1
+  baseurl_source: declared
+  description: The Collaborators API from Songstats — 5 operation(s) for collaborators.
   name: Songstats Collaborators API
   slug: songstats-collaborators-api
-- description: The Info API from Songstats — 3 operation(s) for info.
+- baseURL: https://api.songstats.com/enterprise/v1
+  baseurl_source: declared
+  description: The Info API from Songstats — 3 operation(s) for info.
   name: Songstats Info API
   slug: songstats-info-api
-- description: The Labels API from Songstats — 9 operation(s) for labels.
+- baseURL: https://api.songstats.com/enterprise/v1
+  baseurl_source: declared
+  description: The Labels API from Songstats — 9 operation(s) for labels.
   name: Songstats Labels API
   slug: songstats-labels-api
-- description: The Tracks API from Songstats — 7 operation(s) for tracks.
+- baseURL: https://api.songstats.com/enterprise/v1
+  baseurl_source: declared
+  description: The Tracks API from Songstats — 7 operation(s) for tracks.
   name: Songstats Tracks API
   slug: songstats-tracks-api
 artifact_total: 26
@@ -223,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/screenshots/songstats-2026-06-20T194203.png
 security:

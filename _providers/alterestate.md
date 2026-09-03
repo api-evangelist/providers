@@ -34,22 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Company agents
+- baseURL: https://secure.alterestate.com/api/v1
+  baseurl_source: declared
+  description: Company agents
   name: AlterEstate Agents API
   slug: alterestate-agents-api
-- description: Real-estate projects, their buildings and units
+- baseURL: https://secure.alterestate.com/api/v1
+  baseurl_source: declared
+  description: Real-estate projects, their buildings and units
   name: AlterEstate Developments API
   slug: alterestate-developments-api
-- description: Inbound lead submission into the CRM
+- baseURL: https://secure.alterestate.com/api/v1
+  baseurl_source: declared
+  description: Inbound lead submission into the CRM
   name: AlterEstate Leads API
   slug: alterestate-leads-api
-- description: Cities, sectors and provinces
+- baseURL: https://secure.alterestate.com/api/v1
+  baseurl_source: declared
+  description: Cities, sectors and provinces
   name: AlterEstate Locations API
   slug: alterestate-locations-api
-- description: Property listings and detail views
+- baseURL: https://secure.alterestate.com/api/v1
+  baseurl_source: declared
+  description: Property listings and detail views
   name: AlterEstate Properties API
   slug: alterestate-properties-api
 artifact_total: 15
@@ -224,7 +234,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/screenshots/alterestate-2026-07-25T195823.png
 security:

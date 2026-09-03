@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,58 +34,92 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 17
 apis:
-- description: The Categories API from Inflammatix — 2 operation(s) for categories.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Categories API from Inflammatix — 2 operation(s) for categories.
   name: Inflammatix Categories API
   slug: inflammatix-categories-api
-- description: The Comments API from Inflammatix — 2 operation(s) for comments.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Comments API from Inflammatix — 2 operation(s) for comments.
   name: Inflammatix Comments API
   slug: inflammatix-comments-api
-- description: The CourseCategories API from Inflammatix — 2 operation(s) for coursecategories.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The CourseCategories API from Inflammatix — 2 operation(s) for coursecategories.
   name: Inflammatix Course Categories API
   slug: inflammatix-coursecategories-api
-- description: The Courses API from Inflammatix — 2 operation(s) for courses.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Courses API from Inflammatix — 2 operation(s) for courses.
   name: Inflammatix Courses API
   slug: inflammatix-courses-api
-- description: The CourseTags API from Inflammatix — 2 operation(s) for coursetags.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The CourseTags API from Inflammatix — 2 operation(s) for coursetags.
   name: Inflammatix Course Tags API
   slug: inflammatix-coursetags-api
-- description: The Lessons API from Inflammatix — 2 operation(s) for lessons.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Lessons API from Inflammatix — 2 operation(s) for lessons.
   name: Inflammatix Lessons API
   slug: inflammatix-lessons-api
-- description: The Media API from Inflammatix — 2 operation(s) for media.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Media API from Inflammatix — 2 operation(s) for media.
   name: Inflammatix Media API
   slug: inflammatix-media-api
-- description: The Pages API from Inflammatix — 2 operation(s) for pages.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Pages API from Inflammatix — 2 operation(s) for pages.
   name: Inflammatix Pages API
   slug: inflammatix-pages-api
-- description: The Posts API from Inflammatix — 2 operation(s) for posts.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Posts API from Inflammatix — 2 operation(s) for posts.
   name: Inflammatix Posts API
   slug: inflammatix-posts-api
-- description: The PublicationCategories API from Inflammatix — 2 operation(s) for publicationcategories.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The PublicationCategories API from Inflammatix — 2 operation(s) for publicationcategories.
   name: Inflammatix Publication Categories API
   slug: inflammatix-publicationcategories-api
-- description: The Publications API from Inflammatix — 2 operation(s) for publications.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Publications API from Inflammatix — 2 operation(s) for publications.
   name: Inflammatix Publications API
   slug: inflammatix-publications-api
-- description: The Quizzes API from Inflammatix — 2 operation(s) for quizzes.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Quizzes API from Inflammatix — 2 operation(s) for quizzes.
   name: Inflammatix Quizzes API
   slug: inflammatix-quizzes-api
-- description: The Search API from Inflammatix — 1 operation(s) for search.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Search API from Inflammatix — 1 operation(s) for search.
   name: Inflammatix Search API
   slug: inflammatix-search-api
-- description: The Statuses API from Inflammatix — 1 operation(s) for statuses.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Statuses API from Inflammatix — 1 operation(s) for statuses.
   name: Inflammatix Statuses API
   slug: inflammatix-statuses-api
-- description: The Tags API from Inflammatix — 2 operation(s) for tags.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Tags API from Inflammatix — 2 operation(s) for tags.
   name: Inflammatix Tags API
   slug: inflammatix-tags-api
-- description: The Taxonomies API from Inflammatix — 1 operation(s) for taxonomies.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Taxonomies API from Inflammatix — 1 operation(s) for taxonomies.
   name: Inflammatix Taxonomies API
   slug: inflammatix-taxonomies-api
-- description: The Types API from Inflammatix — 1 operation(s) for types.
+- baseURL: https://inflammatix.com/wp-json/wp/v2
+  baseurl_source: declared
+  description: The Types API from Inflammatix — 1 operation(s) for types.
   name: Inflammatix Types API
   slug: inflammatix-types-api
 artifact_total: 22
@@ -224,7 +269,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -10.1
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -234,7 +279,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 39.3
+  previous_composite: 29.2
   provenance:
     conformance: first-party
     contracts:
@@ -251,8 +296,8 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:
 - kind: authentication

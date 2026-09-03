@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 6 operations
 api_count: 4
 apis:
-- description: Nonprofit agencies participating in the AbilityOne program
+- baseURL: https://plims.abilityone.gov
+  baseurl_source: declared
+  description: Nonprofit agencies participating in the AbilityOne program
   name: US AbilityOne Commission Agencies API
   slug: us-abilityone-commission-agencies-api
-- description: AbilityOne Procurement List products identified by NSN
+- baseURL: https://plims.abilityone.gov
+  baseurl_source: declared
+  description: AbilityOne Procurement List products identified by NSN
   name: US AbilityOne Commission Products API
   slug: us-abilityone-commission-products-api
-- description: Procurement list reports and data downloads
+- baseURL: https://plims.abilityone.gov
+  baseurl_source: declared
+  description: Procurement list reports and data downloads
   name: US AbilityOne Commission Reports API
   slug: us-abilityone-commission-reports-api
-- description: AbilityOne Procurement List services
+- baseURL: https://plims.abilityone.gov
+  baseurl_source: declared
+  description: AbilityOne Procurement List services
   name: US AbilityOne Commission Services API
   slug: us-abilityone-commission-services-api
 artifact_total: 53
@@ -292,7 +300,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/screenshots/us-abilityone-commission-2026-06-20T200541.png
 security:

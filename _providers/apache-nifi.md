@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 3
@@ -50,16 +50,24 @@ apis:
 - description: MiNiFi is a lightweight agent for edge data collection that is a subproject of NiFi. MiNiFi C++ (nifi-minifi-cpp) provides a small-footprint agent for IoT edge data collection with local processing an
   name: Apache MiNiFi
   slug: apache-minifi
-- description: Authentication and access token management
+- baseURL_template: http://{host}:{port}/nifi-api
+  baseurl_source: spec_template
+  description: Authentication and access token management
   name: Apache NiFi Access API
   slug: apache-nifi-access-api
-- description: Manage connections between processors
+- baseURL_template: http://{host}:{port}/nifi-api
+  baseurl_source: spec_template
+  description: Manage connections between processors
   name: Apache NiFi Connections API
   slug: apache-nifi-connections-api
-- description: Manage shared controller services
+- baseURL_template: http://{host}:{port}/nifi-api
+  baseurl_source: spec_template
+  description: Manage shared controller services
   name: Apache NiFi Controller Services API
   slug: apache-nifi-controller-services-api
-- description: Read overall flow status and process group hierarchy
+- baseURL_template: http://{host}:{port}/nifi-api
+  baseurl_source: spec_template
+  description: Read overall flow status and process group hierarchy
   name: Apache NiFi Flow API
   slug: apache-nifi-flow-api
 artifact_total: 43
@@ -256,7 +264,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-nifi/refs/heads/main/screenshots/apache-nifi-2026-06-20T172124.png
 security:

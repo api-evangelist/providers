@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -47,22 +47,34 @@ apis:
 - description: Main API for managing cloud accounts, security policies, compliance policies, and security groups across multiple cloud platforms.
   name: Dome9 API
   slug: dome9-api
-- description: The AWSAccounts API from Dome9 — 2 operation(s) for awsaccounts.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The AWSAccounts API from Dome9 — 2 operation(s) for awsaccounts.
   name: Dome9 AWSAccounts API
   slug: dome9-awsaccounts-api
-- description: The AzureAccounts API from Dome9 — 2 operation(s) for azureaccounts.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The AzureAccounts API from Dome9 — 2 operation(s) for azureaccounts.
   name: Dome9 AzureAccounts API
   slug: dome9-azureaccounts-api
-- description: The Compliance API from Dome9 — 1 operation(s) for compliance.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The Compliance API from Dome9 — 1 operation(s) for compliance.
   name: Dome9 Compliance API
   slug: dome9-compliance-api
-- description: The GoogleAccounts API from Dome9 — 1 operation(s) for googleaccounts.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The GoogleAccounts API from Dome9 — 1 operation(s) for googleaccounts.
   name: Dome9 GoogleAccounts API
   slug: dome9-googleaccounts-api
-- description: The Roles API from Dome9 — 2 operation(s) for roles.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The Roles API from Dome9 — 2 operation(s) for roles.
   name: Dome9 Roles API
   slug: dome9-roles-api
-- description: The Users API from Dome9 — 1 operation(s) for users.
+- baseURL: https://api.dome9.com/v2
+  baseurl_source: declared
+  description: The Users API from Dome9 — 1 operation(s) for users.
   name: Dome9 Users API
   slug: dome9-users-api
 artifact_total: 21
@@ -180,7 +192,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/screenshots/dome9-2026-07-25T212245.png
 security:

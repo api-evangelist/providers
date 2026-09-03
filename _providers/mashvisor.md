@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 28 operations
 api_count: 1
 apis:
-- description: ROI, investment breakdowns, and rental performance
+- baseURL: https://api.mashvisor.com/v1.1
+  baseurl_source: declared
+  description: ROI, investment breakdowns, and rental performance
   name: Mashvisor Investment Analysis API
   slug: mashvisor-investment-analysis-api
-- description: Property records, images, taxing, transactions, estimates
+- baseURL: https://api.mashvisor.com/v1.1
+  baseurl_source: declared
+  description: Property records, images, taxing, transactions, estimates
   name: Mashvisor Property Info API
   slug: mashvisor-property-info-api
-- description: Traditional and Airbnb rental-rate estimates
+- baseURL: https://api.mashvisor.com/v1.1
+  baseurl_source: declared
+  description: Traditional and Airbnb rental-rate estimates
   name: Mashvisor Rental Rates API
   slug: mashvisor-rental-rates-api
-- description: City, neighborhood, and listing search
+- baseURL: https://api.mashvisor.com/v1.1
+  baseurl_source: declared
+  description: City, neighborhood, and listing search
   name: Mashvisor Search API
   slug: mashvisor-search-api
-- description: Market trends and heatmaps
+- baseURL: https://api.mashvisor.com/v1.1
+  baseurl_source: declared
+  description: Market trends and heatmaps
   name: Mashvisor Trends API
   slug: mashvisor-trends-api
 artifact_total: 15
@@ -218,7 +228,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashvisor/refs/heads/main/screenshots/mashvisor-2026-07-25T230328.png
 security:

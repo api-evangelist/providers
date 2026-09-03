@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -44,70 +44,114 @@ agentic_access:
   summary_line: 85 operations · 50 acting
 api_count: 13
 apis:
-- description: API Keys have various scopes permissions and belong to a specific Team or Environment. Any valid Honeycomb ingest or configuration API Key will work with this endpoint. Learn more about [API keys](htt
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: API Keys have various scopes permissions and belong to a specific Team or Environment. Any valid Honeycomb ingest or configuration API Key will work with this endpoint. Learn more about [API keys](htt
   name: Honeycomb Auth API
   slug: honeycomb-io-auth-api
-- description: 'Boards are a place to pin and save useful queries/graphs, SLO panels, text panels, and views you want to retain for later reuse and reference. Boards can contain multiple panel types: - **Query panels'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Boards are a place to pin and save useful queries/graphs, SLO panels, text panels, and views you want to retain for later reuse and reference. Boards can contain multiple panel types: - **Query panels'
   name: Honeycomb Boards API
   slug: honeycomb-io-boards-api
-- description: This feature is available as part of the [Honeycomb Pro and Enterprise plans](https://www.honeycomb.io/pricing/). Burn Alerts notify you when issues impact your SLO budget. Learn more about [Burn Aler
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: This feature is available as part of the [Honeycomb Pro and Enterprise plans](https://www.honeycomb.io/pricing/). Burn Alerts notify you when issues impact your SLO budget. Learn more about [Burn Aler
   name: Honeycomb Burn Alerts API
   slug: honeycomb-io-burn-alerts-api
-- description: Calculated Fields (also called Derived Columns) allow you to run queries based on the value of an expression that is calculated from the fields in an event. This API allows you to list, create, update
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: Calculated Fields (also called Derived Columns) allow you to run queries based on the value of an expression that is calculated from the fields in an event. This API allows you to list, create, update
   name: Honeycomb Calculated Fields API
   slug: honeycomb-io-calculated-fields-api
-- description: 'Columns are fields in the events you send to Honeycomb. This API allows you to list, create, update, and delete columns in a dataset. ## Authorization The API key must have the **Manage Queries and Co'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Columns are fields in the events you send to Honeycomb. This API allows you to list, create, update, and delete columns in a dataset. ## Authorization The API key must have the **Manage Queries and Co'
   name: Honeycomb Columns API
   slug: honeycomb-io-columns-api
-- description: Dataset definitions describe the fields with special meaning in the Dataset. Refer to the [Dataset Definitions](https://docs.honeycomb.io/configure/datasets/definitions/) documentation for more inform
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: Dataset definitions describe the fields with special meaning in the Dataset. Refer to the [Dataset Definitions](https://docs.honeycomb.io/configure/datasets/definitions/) documentation for more inform
   name: Honeycomb Dataset Definitions API
   slug: honeycomb-io-dataset-definitions-api
-- description: 'A Dataset represents a collection of related events that come from the same source, or are related to the same source. This API allows you to list, create, and update datasets. ## Authorization The AP'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'A Dataset represents a collection of related events that come from the same source, or are related to the same source. This API allows you to list, create, and update datasets. ## Authorization The AP'
   name: Honeycomb Datasets API
   slug: honeycomb-io-datasets-api
-- description: 'This API allows you to list, create, and update, and delete Environments. ## Authorization This API requires a Management Key passed via the HTTP Authorization header. Join the key ID and secret with '
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'This API allows you to list, create, and update, and delete Environments. ## Authorization This API requires a Management Key passed via the HTTP Authorization header. Join the key ID and secret with '
   name: Honeycomb Environments API
   slug: honeycomb-io-environments-api
-- description: 'The Events API endpoints are the lowest-level way to send Events to Honeycomb. **This should be your last resort!** If unsure where to start when instrumenting an application, read about how to [Send '
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'The Events API endpoints are the lowest-level way to send Events to Honeycomb. **This should be your last resort!** If unsure where to start when instrumenting an application, read about how to [Send '
   name: Honeycomb Events API
   slug: honeycomb-io-events-api
-- description: 'This API allows you to list, create, update, and delete API Keys for a Team. Learn more about [API keys here](https://docs.honeycomb.io/configure/environments/manage-api-keys/). ## Authorization This '
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'This API allows you to list, create, update, and delete API Keys for a Team. Learn more about [API keys here](https://docs.honeycomb.io/configure/environments/manage-api-keys/). ## Authorization This '
   name: Honeycomb Key Management API
   slug: honeycomb-io-key-management-api
-- description: The Kinesis Events API endpoints allow Honeycomb to process streaming events from Amazon Kinesis. Refer to the [Honeycomb AWS integrations](https://docs.honeycomb.io/integrations/aws/how-aws-integrati
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: The Kinesis Events API endpoints allow Honeycomb to process streaming events from Amazon Kinesis. Refer to the [Honeycomb AWS integrations](https://docs.honeycomb.io/integrations/aws/how-aws-integrati
   name: Honeycomb Kinesis Events API
   slug: honeycomb-io-kinesis-events-api
-- description: 'Marker Settings apply to groups of similar Markers. For example, "deploys" markers appear with the same color on a graph. This API allows you to list, create, update, and delete Marker Settings. ## Au'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Marker Settings apply to groups of similar Markers. For example, "deploys" markers appear with the same color on a graph. This API allows you to list, create, update, and delete Marker Settings. ## Au'
   name: Honeycomb Marker Settings API
   slug: honeycomb-io-marker-settings-api
-- description: 'Markers indicate points in time on graphs where interesting things happen, such as deploys or outages. This API allows you to list, create, update, and delete Markers. ## Authorization The API key mus'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Markers indicate points in time on graphs where interesting things happen, such as deploys or outages. This API allows you to list, create, update, and delete Markers. ## Authorization The API key mus'
   name: Honeycomb Markers API
   slug: honeycomb-io-markers-api
-- description: 'Queries in Honeycomb are specifications for queries, and are used to identify queries in other parts of the API - in particular: boards, triggers, and query annotations. This API allows you to create '
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Queries in Honeycomb are specifications for queries, and are used to identify queries in other parts of the API - in particular: boards, triggers, and query annotations. This API allows you to create '
   name: Honeycomb Queries API
   slug: honeycomb-io-queries-api
-- description: Query Annotations in Honeycomb allow you to associate names and descriptions to queries to add additional information in collaboration features. This API allows you to list, create, update, and delete
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: Query Annotations in Honeycomb allow you to associate names and descriptions to queries to add additional information in collaboration features. This API allows you to list, create, update, and delete
   name: Honeycomb Query Annotations API
   slug: honeycomb-io-query-annotations-api
-- description: This feature is available as part of the [Honeycomb Enterprise plan](https://www.honeycomb.io/pricing/). Query Results are the aggregated data from a Query, similar to what is displayed in graphs or h
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: This feature is available as part of the [Honeycomb Enterprise plan](https://www.honeycomb.io/pricing/). Query Results are the aggregated data from a Query, similar to what is displayed in graphs or h
   name: Honeycomb Query Data API
   slug: honeycomb-io-query-data-api
-- description: 'Honeycomb Recipients allow you to define and manage the Recipients that will get notified by a Trigger or Burn Alert. The types of Recipients supported are: PagerDuty, Email, Webhook, Microsoft Teams,'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Honeycomb Recipients allow you to define and manage the Recipients that will get notified by a Trigger or Burn Alert. The types of Recipients supported are: PagerDuty, Email, Webhook, Microsoft Teams,'
   name: Honeycomb Recipients API
   slug: honeycomb-io-recipients-api
-- description: 'The Reporting API provides access to historical performance data. ## Authorization The API key must have the **Manage SLOs** permission. Learn more about [API keys here](https://docs.honeycomb.io/conf'
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'The Reporting API provides access to historical performance data. ## Authorization The API key must have the **Manage SLOs** permission. Learn more about [API keys here](https://docs.honeycomb.io/conf'
   name: Honeycomb Reporting API
   slug: honeycomb-io-reporting-api
-- description: The Service Maps API endpoints allow you to visualize the relationships between your services in Honeycomb. This API allows you to create and retrieve service Dependency Requests, which are used to ge
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: The Service Maps API endpoints allow you to visualize the relationships between your services in Honeycomb. This API allows you to create and retrieve service Dependency Requests, which are used to ge
   name: Honeycomb Service Maps API
   slug: honeycomb-io-service-maps-api
-- description: This feature is available as part of the [Honeycomb Pro and Enterprise plans](https://www.honeycomb.io/pricing). Honeycomb SLOs allow you to define and monitor Service Level Objectives (SLOs) for your
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: This feature is available as part of the [Honeycomb Pro and Enterprise plans](https://www.honeycomb.io/pricing). Honeycomb SLOs allow you to define and monitor Service Level Objectives (SLOs) for your
   name: Honeycomb SLOs API
   slug: honeycomb-io-slos-api
-- description: 'Triggers let you receive notifications when your data in Honeycomb crosses the thresholds that you configure. The graph on which to alert is as flexible as a Honeycomb query, which helps reduce false '
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: 'Triggers let you receive notifications when your data in Honeycomb crosses the thresholds that you configure. The graph on which to alert is as flexible as a Honeycomb query, which helps reduce false '
   name: Honeycomb Triggers API
   slug: honeycomb-io-triggers-api
-- description: The Anomaly Detection API exposes Honeycomb Signals - the anomaly detection profiles Honeycomb maintains per service - and their historical anomalies. List and retrieve Signals, update a Signal's conf
+- baseURL: https://api.honeycomb.io
+  baseurl_source: declared
+  description: The Anomaly Detection API exposes Honeycomb Signals - the anomaly detection profiles Honeycomb maintains per service - and their historical anomalies. List and retrieve Signals, update a Signal's conf
   name: Honeycomb Anomaly Detection API
   slug: honeycomb-io-anomaly-detection-api
 artifact_total: 102
@@ -708,7 +752,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -718,7 +762,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 94.7
-  previous_composite: 82.3
+  previous_composite: 82.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -730,7 +774,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:

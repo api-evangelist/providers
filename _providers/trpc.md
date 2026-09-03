@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,7 +45,9 @@ agentic_access:
   summary_line: 4 operations · 2 acting
 api_count: 1
 apis:
-- description: tRPC procedures exposed as REST endpoints
+- baseURL: https://your-server.example.com/api/trpc
+  baseurl_source: declared
+  description: tRPC procedures exposed as REST endpoints
   name: tRPC Procedures API
   slug: trpc-procedures-api
 artifact_total: 18
@@ -231,7 +233,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trpc/refs/heads/main/screenshots/trpc-2026-06-20T195747.png
 security:

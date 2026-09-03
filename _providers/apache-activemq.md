@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -51,10 +51,14 @@ apis:
 - description: The ActiveMQ Classic broker provides high-performance asynchronous messaging through multiple protocol interfaces including OpenWire, AMQP, STOMP, and MQTT. It includes a web-based management console,
   name: Apache ActiveMQ Broker
   slug: apache-activemq-broker
-- description: Jolokia JMX-HTTP bridge for broker monitoring and management.
+- baseURL: http://localhost:8161/api/message
+  baseurl_source: declared
+  description: Jolokia JMX-HTTP bridge for broker monitoring and management.
   name: Apache ActiveMQ Management API
   slug: apache-activemq-management-api
-- description: Operations for producing and consuming messages from queues and topics.
+- baseURL: http://localhost:8161/api/message
+  baseurl_source: declared
+  description: Operations for producing and consuming messages from queues and topics.
   name: Apache ActiveMQ Messages API
   slug: apache-activemq-messages-api
 artifact_total: 46
@@ -303,7 +307,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/screenshots/apache-activemq-2026-06-20T172037.png
 security:

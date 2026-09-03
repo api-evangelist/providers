@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 5
 apis:
 - description: Persistent URLs into the Stanford Digital Repository. GET /{druid} returns HTML, /{druid}.xml returns the cocina publicObject document, /{druid}.mods returns MODS 3.7. Open, no credential. Verified li
@@ -67,52 +67,84 @@ apis:
 - description: API over the Community Academic Profiles directory (18,000+ faculty, students, postdocs and staff). The interactive console at cap.stanford.edu/cap-api/console redirects to authentication; credentials
   name: CAP / Stanford Profiles API
   slug: cap-profiles
-- description: The About API from Stanford University — 1 operation(s) for about.
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: The About API from Stanford University — 1 operation(s) for about.
   name: Stanford University About API
   slug: stanford-about-api
-- description: Authenticate the user
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Authenticate the user
   name: Stanford University Authentication API
   slug: stanford-authentication-api
-- description: Add and update Moabs in the catalog
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Add and update Moabs in the catalog
   name: Stanford University Catalog API
   slug: stanford-catalog-api
-- description: Operations about events
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations about events
   name: Stanford University Events API
   slug: stanford-events-api
-- description: upload binary files
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: upload binary files
   name: Stanford University Files API
   slug: stanford-files-api
-- description: Identifier operations
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Identifier operations
   name: Stanford University Identifiers API
   slug: stanford-identifiers-api
-- description: Integrations with other Systems
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Integrations with other Systems
   name: Stanford University Integrations API
   slug: stanford-integrations-api
-- description: Operations involving background jobs
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations involving background jobs
   name: Stanford University Jobs API
   slug: stanford-jobs-api
-- description: Legacy endpoints
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Legacy endpoints
   name: Stanford University Legacy API
   slug: stanford-legacy-api
-- description: Digital Repository Objects
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Digital Repository Objects
   name: Stanford University Metadata API
   slug: stanford-metadata-api
-- description: Digital Repository Objects
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Digital Repository Objects
   name: Stanford University Objects API
   slug: stanford-objects-api
-- description: Operations about release tags
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations about release tags
   name: Stanford University Release Tags API
   slug: stanford-release-tags-api
-- description: Tags
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Tags
   name: Stanford University Tags API
   slug: stanford-tags-api
-- description: Operations about object versions
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations about object versions
   name: Stanford University Versions API
   slug: stanford-versions-api
-- description: Operations about workflows
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations about workflows
   name: Stanford University Workflows API
   slug: stanford-workflows-api
-- description: Operations about workspaces
+- baseURL: https://purl.stanford.edu
+  baseurl_source: declared
+  description: Operations about workspaces
   name: Stanford University Workspaces API
   slug: stanford-workspaces-api
 artifact_total: 43
@@ -343,23 +375,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.2
+  composite: 57.4
   coverage:
     artifact_dirs: 17
     catalog_gap: 44.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.3
+  delta: 0.2
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 3.8
-    contract_quality: 67.2
+    contract_quality: 68.0
     developer_ergonomics: 48.8
     discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 56.9
+  previous_composite: 57.2
   provenance:
     conformance: first-party
     contracts:
@@ -374,7 +406,7 @@ score:
     regime_id: education
     score: 74.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -44,64 +44,104 @@ agentic_access:
   summary_line: 51 operations · 11 acting
 api_count: 20
 apis:
-- description: Per-project commits enriched with coding time.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Per-project commits enriched with coding time.
   name: WakaTime Commits API
   slug: wakatime-commits-api
-- description: User and organization custom-rule definitions for time attribution.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: User and organization custom-rule definitions for time attribution.
   name: WakaTime Custom Rules API
   slug: wakatime-custom-rules-api
-- description: Full data exports.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Full data exports.
   name: WakaTime Data Dumps API
   slug: wakatime-data-dumps-api
-- description: Continuous time-on-task spans derived from heartbeats.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Continuous time-on-task spans derived from heartbeats.
   name: WakaTime Durations API
   slug: wakatime-durations-api
-- description: Available editor plugins and versions.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Available editor plugins and versions.
   name: WakaTime Editors API
   slug: wakatime-editors-api
-- description: Non-IDE activity durations created via the API.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Non-IDE activity durations created via the API.
   name: WakaTime External Durations API
   slug: wakatime-external-durations-api
-- description: User coding goals and their progress.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: User coding goals and their progress.
   name: WakaTime Goals API
   slug: wakatime-goals-api
-- description: Coding-activity pings sent by editor plugins.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Coding-activity pings sent by editor plugins.
   name: WakaTime Heartbeats API
   slug: wakatime-heartbeats-api
-- description: Curated analytics views (weekdays, days, projects, languages, editors, machines, operating systems, AI days, best day, daily average).
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Curated analytics views (weekdays, days, projects, languages, editors, machines, operating systems, AI days, best day, daily average).
   name: WakaTime Insights API
   slug: wakatime-insights-api
-- description: Programming languages.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Programming languages.
   name: WakaTime Languages API
   slug: wakatime-languages-api
-- description: Public and private leaderboard rankings.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Public and private leaderboard rankings.
   name: WakaTime Leaderboards API
   slug: wakatime-leaderboards-api
-- description: Devices that have sent heartbeats.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Devices that have sent heartbeats.
   name: WakaTime Machines API
   slug: wakatime-machines-api
-- description: WakaTime infrastructure metadata.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: WakaTime infrastructure metadata.
   name: WakaTime Meta API
   slug: wakatime-meta-api
-- description: Team/organization dashboards and member analytics.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Team/organization dashboards and member analytics.
   name: WakaTime Organizations API
   slug: wakatime-organizations-api
-- description: Projects the authenticated user has logged time against.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Projects the authenticated user has logged time against.
   name: WakaTime Projects API
   slug: wakatime-projects-api
-- description: User-wide statistics over preset and custom ranges.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: User-wide statistics over preset and custom ranges.
   name: WakaTime Stats API
   slug: wakatime-stats-api
-- description: Cached today-only stats for status-bar displays.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Cached today-only stats for status-bar displays.
   name: WakaTime Status Bar API
   slug: wakatime-status-bar-api
-- description: Daily aggregations of coding activity by project, language, editor, OS, machine, branch, and category.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Daily aggregations of coding activity by project, language, editor, OS, machine, branch, and category.
   name: WakaTime Summaries API
   slug: wakatime-summaries-api
-- description: Editor + OS user-agent inventory.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Editor + OS user-agent inventory.
   name: WakaTime User Agents API
   slug: wakatime-user-agents-api
-- description: Authenticated user profile and public user lookups.
+- baseURL: https://wakatime.com/api/v1/
+  baseurl_source: declared
+  description: Authenticated user profile and public user lookups.
   name: WakaTime Users API
   slug: wakatime-users-api
 arazzos:
@@ -766,7 +806,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
@@ -776,7 +816,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 49.9
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -785,7 +825,7 @@ score:
       marker_coverage: 100.0
       total: 21
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

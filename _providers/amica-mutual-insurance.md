@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Amica Mutual Insurance provides a full range of personal insurance products including auto, home, life, condo, renters, marine, motorcycle, umbrella, and flood insurance. The company does not currentl
@@ -41,34 +41,82 @@ apis:
   slug: website
 artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amica.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/amica-mutual-insurance-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amica-mutual-insurance-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amica-mutual-insurance-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/amica-mutual-insurance-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/amica-mutual-insurance-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/amica-mutual-insurance-plans-pricing.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.amica.com/en/about-us/media-center.html
+- group: start
+  title: ''
+  type: Login
+  url: https://www.amica.com/customers/login
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.amica.com/en/quote.html
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/amicamutual
-- group: start
-  title: ''
-  type: Portal
-  url: https://www.amica.com
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.amica.com/en/footer/privacy-policy.html
+  url: https://www.amica.com/en/privacy-security/website-privacy-policy.html
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.amica.com/en/footer/terms-of-use.html
+  url: https://www.amica.com/en/terms-conditions.html
 - group: operate
   title: ''
   type: Support
-  url: https://www.amica.com/en/contact-us.html
+  url: https://www.amica.com/en/customer-service/contact-us.html
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/amica-mutual-insurance-company
+coverage:
+  checked: '2026-09-02'
+  detail: Amica's own site map enumerates the entire public site — products, claims, billing, legal, careers — and contains no developer, API, integration or partner page; the only programmatic surface is the authenticated consumer portal at /customers, which robots.txt disallows and which ships no published contract.
+  evidence:
+  - status: 200
+    url: https://www.amica.com/en/sitemap.html
+  - status: 404
+    url: https://www.amica.com/openapi.json
+  - status: 404
+    url: https://www.amica.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.amica.com/llms.txt
+  - status: 200
+    url: https://github.com/amicamutual
+  reason: no-developer-program
+  state: none
 created: '2024-01-01'
 description: Amica Mutual Insurance, founded in 1907, is a mutual insurance company providing automobile, homeowners, condo, renters, life, marine, motorcycle, umbrella liability, flood, and small business insurance to customers across the United States. As a mutual company, Amica is owned by its policyholders and known for award-winning customer service and competitive pricing through bundling discounts.
 features:
@@ -103,17 +151,17 @@ integrations:
 - description: 24/7 roadside assistance service integration for towing, battery jump-starts, flat tire changes, and fuel delivery.
   name: Roadside Assistance Network
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-02'
 name: Amica Mutual Insurance
 nav: Providers
 network: true
 overview: 'Amica Mutual Insurance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Auto Insurance, Home Insurance, Life Insurance, and Mutual Insurance.
 
 
-  Amica Mutual Insurance''s developer surface includes developer portal, support, and 5 more developer resources.'
+  Amica Mutual Insurance''s developer surface includes engineering blog, pricing, support, and 12 more developer resources.'
 plans:
 - name: Amica Mutual Insurance Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: amica-mutual-insurance-plans-pricing
 press:
 - date: '2026-05-25'
@@ -133,36 +181,38 @@ press:
   url: https://www.prnewswire.com/news-releases/amica-mutual-insurance-expands-partnership-with-zestyai-to-enhance-property-risk-assessment-in-the-face-of-increasing-climate-risks-302208765.html
 random_paper: 3
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Amica Mutual Insurance Rate Limits
   slug: amica-mutual-insurance-rate-limits
 score:
-  band: minimal
-  composite: 9.7
+  band: emerging
+  composite: 12.4
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 71.0
+    artifact_dirs: 12
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+  delta: 2.7
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 31.6
+    commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 2.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 2.6
   previous_composite: 9.7
+  provenance:
+    conformance: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 9.1
+    score: 16.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amica-mutual-insurance/refs/heads/main/screenshots/amica-mutual-insurance-2026-06-20T171928.png
 security:
@@ -192,5 +242,5 @@ use_cases:
   name: Liability Protection
 - description: File, track, and manage insurance claims 24/7 through online portal, mobile app, or dedicated claims representatives.
   name: Claims Management
-website: https://www.amica.com
+website: https://www.amica.com/
 ---

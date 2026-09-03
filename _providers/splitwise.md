@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The comments API from Splitwise — 3 operation(s) for comments.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: The comments API from Splitwise — 3 operation(s) for comments.
   name: Splitwise comments API
   slug: splitwise-comments-api
-- description: The expenses API from Splitwise — 6 operation(s) for expenses.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: The expenses API from Splitwise — 6 operation(s) for expenses.
   name: Splitwise expenses API
   slug: splitwise-expenses-api
-- description: The friends API from Splitwise — 5 operation(s) for friends.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: The friends API from Splitwise — 5 operation(s) for friends.
   name: Splitwise friends API
   slug: splitwise-friends-api
-- description: 'A Group represents a collection of users who share expenses together. For example, some users use a Group to aggregate expenses related to a home. Others use it to represent a trip. Expenses assigned '
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: 'A Group represents a collection of users who share expenses together. For example, some users use a Group to aggregate expenses related to a home. Others use it to represent a trip. Expenses assigned '
   name: Splitwise groups API
   slug: splitwise-groups-api
-- description: The notifications API from Splitwise — 1 operation(s) for notifications.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: The notifications API from Splitwise — 1 operation(s) for notifications.
   name: Splitwise notifications API
   slug: splitwise-notifications-api
-- description: The other API from Splitwise — 2 operation(s) for other.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: The other API from Splitwise — 2 operation(s) for other.
   name: Splitwise other API
   slug: splitwise-other-api
-- description: Resources to access and modify user information.
+- baseURL: https://secure.splitwise.com/api/v3.0
+  baseurl_source: declared
+  description: Resources to access and modify user information.
   name: Splitwise users API
   slug: splitwise-users-api
 artifact_total: 20
@@ -245,7 +259,7 @@ score:
     regime_id: payments
     score: 64.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/screenshots/splitwise-2026-08-17T082029.png
 security:

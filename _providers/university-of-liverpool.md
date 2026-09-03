@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 14
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the University of Liverpool Repository, an EPrints 3.4.5 open-access archive of research outputs (journal articles, conference papers, theses, reports and
@@ -235,7 +235,7 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 19.7
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -245,7 +245,7 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 19.5
+  previous_composite: 39.2
   provenance:
     conformance: first-party
   regulatory:
@@ -255,8 +255,8 @@ score:
     regime_id: education
     score: 79.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-liverpool/refs/heads/main/screenshots/university-of-liverpool-2026-06-20T200201.png
 security:
 - kind: authentication

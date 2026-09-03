@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: The International Port Community Systems Association (IPCSA) represents Port Community System operators and Maritime Single Window operators worldwide. Member PCS platforms provide APIs for customs de
   name: IPCSA Port Community Systems API
   slug: ipcsa
-- description: Cargo manifest declarations
+- baseURL: https://api.portbase.com/v1
+  baseurl_source: spec
+  description: Cargo manifest declarations
   name: Port Community Systems CargoManifests API
   slug: port-community-systems-cargomanifests-api
-- description: Container tracking and inspection
+- baseURL: https://api.portbase.com/v1
+  baseurl_source: spec
+  description: Container tracking and inspection
   name: Port Community Systems Containers API
   slug: port-community-systems-containers-api
-- description: Import and export customs filings
+- baseURL: https://api.portbase.com/v1
+  baseurl_source: spec
+  description: Import and export customs filings
   name: Port Community Systems CustomsDeclarations API
   slug: port-community-systems-customsdeclarations-api
-- description: Dangerous goods declarations
+- baseURL: https://api.portbase.com/v1
+  baseurl_source: spec
+  description: Dangerous goods declarations
   name: Port Community Systems HazardousCargo API
   slug: port-community-systems-hazardouscargo-api
-- description: Vessel arrival and departure notifications
+- baseURL: https://api.portbase.com/v1
+  baseurl_source: spec
+  description: Vessel arrival and departure notifications
   name: Port Community Systems VesselCalls API
   slug: port-community-systems-vesselcalls-api
 artifact_total: 25
@@ -198,7 +208,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -208,7 +218,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 37.2
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -217,7 +227,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/screenshots/port-community-systems-2026-06-20T191927.png
 security:

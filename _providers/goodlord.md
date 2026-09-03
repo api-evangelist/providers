@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - scopes
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -33,49 +46,79 @@ agentic_access:
   summary_line: 65 operations · 36 acting
 api_count: 3
 apis:
-- description: Resource 'Agent' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'Agent' operations.
   name: Goodlord Agent API
   slug: goodlord-agent-api
-- description: An application contains rental information and all of the applicants/guarantors which are applying for a tenancy.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: An application contains rental information and all of the applicants/guarantors which are applying for a tenancy.
   name: Goodlord Application API
   slug: goodlord-application-api
-- description: Authentication operations
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Authentication operations
   name: Goodlord Authentication API
   slug: goodlord-authentication-api
-- description: Resource 'Company' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'Company' operations.
   name: Goodlord Company API
   slug: goodlord-company-api
-- description: Resource 'File' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'File' operations.
   name: Goodlord File API
   slug: goodlord-file-api
-- description: Resource 'InsuranceClaim' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'InsuranceClaim' operations.
   name: Goodlord Insurance Claim API
   slug: goodlord-insuranceclaim-api
-- description: Operations which are concerned around retrieving files
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Operations which are concerned around retrieving files
   name: Goodlord Media API
   slug: goodlord-media-api
-- description: Resource 'Payment' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'Payment' operations.
   name: Goodlord Payment API
   slug: goodlord-payment-api
-- description: Resource 'RentSchedule' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'RentSchedule' operations.
   name: Goodlord Rent Schedule API
   slug: goodlord-rentschedule-api
-- description: Resource 'RentScheduleRow' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'RentScheduleRow' operations.
   name: Goodlord Rent Schedule Row API
   slug: goodlord-rentschedulerow-api
-- description: Resource 'RentScheduleRowPostDto' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'RentScheduleRowPostDto' operations.
   name: Goodlord Rent Schedule Row Post Dto API
   slug: goodlord-rentschedulerowpostdto-api
-- description: Resource 'RentScheduleRowUpdate' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'RentScheduleRowUpdate' operations.
   name: Goodlord Rent Schedule Row Update API
   slug: goodlord-rentschedulerowupdate-api
-- description: Resource 'Role' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'Role' operations.
   name: Goodlord Role API
   slug: goodlord-role-api
-- description: Resource 'RoleGroup' operations.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: Resource 'RoleGroup' operations.
   name: Goodlord Role Group API
   slug: goodlord-rolegroup-api
-- description: A person who exists on an application.
+- baseURL: https://api.goodoverlord.com
+  baseurl_source: declared
+  description: A person who exists on an application.
   name: Goodlord Subject API
   slug: goodlord-subject-api
 artifact_total: 25
@@ -288,7 +331,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -298,7 +341,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 58.4
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -320,7 +363,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:

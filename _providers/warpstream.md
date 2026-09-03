@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 15 operations · 12 acting
 api_count: 1
 apis:
-- description: Manage Kafka ACL rules for access control
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage Kafka ACL rules for access control
   name: WarpStream ACLs API
   slug: warpstream-acls-api
-- description: Manage API keys and access grants
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage API keys and access grants
   name: WarpStream API Keys API
   slug: warpstream-api-keys-api
-- description: Monitor consumer groups and cluster health
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Monitor consumer groups and cluster health
   name: WarpStream Monitoring API
   slug: warpstream-monitoring-api
-- description: Manage data pipelines (Bento, Orbit, Schema Linking)
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage data pipelines (Bento, Orbit, Schema Linking)
   name: WarpStream Pipelines API
   slug: warpstream-pipelines-api
-- description: Manage Kafka topics within virtual clusters
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage Kafka topics within virtual clusters
   name: WarpStream Topics API
   slug: warpstream-topics-api
-- description: Manage SASL/SCRAM credentials for virtual cluster access
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage SASL/SCRAM credentials for virtual cluster access
   name: WarpStream Virtual Cluster Credentials API
   slug: warpstream-virtual-cluster-credentials-api
-- description: Manage Kafka-compatible virtual clusters
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage Kafka-compatible virtual clusters
   name: WarpStream Virtual Clusters API
   slug: warpstream-virtual-clusters-api
-- description: Manage WarpStream workspaces (account-level)
+- baseURL: https://api.warpstream.com
+  baseurl_source: declared
+  description: Manage WarpStream workspaces (account-level)
   name: WarpStream Workspaces API
   slug: warpstream-workspaces-api
 artifact_total: 31
@@ -258,7 +274,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/screenshots/warpstream-2026-06-20T201333.png
 security:

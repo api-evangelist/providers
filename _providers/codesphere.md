@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -43,34 +43,54 @@ agentic_access:
   summary_line: 80 operations · 50 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The clusters API from Codesphere — 2 operation(s) for clusters.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The clusters API from Codesphere — 2 operation(s) for clusters.
   name: Codesphere clusters API
   slug: codesphere-clusters-api
-- description: The domains API from Codesphere — 4 operation(s) for domains.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The domains API from Codesphere — 4 operation(s) for domains.
   name: Codesphere domains API
   slug: codesphere-domains-api
-- description: The managed-services API from Codesphere — 5 operation(s) for managed-services.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The managed-services API from Codesphere — 5 operation(s) for managed-services.
   name: Codesphere managed-services API
   slug: codesphere-managed-services-api
-- description: The metadata API from Codesphere — 3 operation(s) for metadata.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The metadata API from Codesphere — 3 operation(s) for metadata.
   name: Codesphere metadata API
   slug: codesphere-metadata-api
-- description: The organizations API from Codesphere — 5 operation(s) for organizations.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The organizations API from Codesphere — 5 operation(s) for organizations.
   name: Codesphere organizations API
   slug: codesphere-organizations-api
-- description: The ssh API from Codesphere — 1 operation(s) for ssh.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The ssh API from Codesphere — 1 operation(s) for ssh.
   name: Codesphere ssh API
   slug: codesphere-ssh-api
-- description: The teams API from Codesphere — 6 operation(s) for teams.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The teams API from Codesphere — 6 operation(s) for teams.
   name: Codesphere teams API
   slug: codesphere-teams-api
-- description: The usage API from Codesphere — 2 operation(s) for usage.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The usage API from Codesphere — 2 operation(s) for usage.
   name: Codesphere usage API
   slug: codesphere-usage-api
-- description: The vault API from Codesphere — 8 operation(s) for vault.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The vault API from Codesphere — 8 operation(s) for vault.
   name: Codesphere vault API
   slug: codesphere-vault-api
-- description: The workspaces API from Codesphere — 21 operation(s) for workspaces.
+- baseURL: https://cloud.codesphere.com/api
+  baseurl_source: declared
+  description: The workspaces API from Codesphere — 21 operation(s) for workspaces.
   name: Codesphere workspaces API
   slug: codesphere-workspaces-api
 arazzos:
@@ -307,7 +327,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/screenshots/codesphere-2026-07-25T205930.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
 - description: The EZR 开放平台 integration surface — 236 documented interfaces across 11 business domains (base data, member master data, loyalty points, coupons, sales data, WeChat mall, external mall distribution, me
@@ -174,7 +174,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -184,13 +184,13 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 40.3
+  previous_composite: 40.0
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezr/refs/heads/main/screenshots/ezr-2026-07-25T214058.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -53,34 +53,54 @@ apis:
 - description: AWS Copilot is an open source command line interface that simplifies building, releasing, and operating production-ready containerized applications on Amazon ECS and AWS Fargate, providing common clou
   name: AWS Copilot CLI
   slug: aws-copilot-cli
-- description: Operations for managing capacity providers
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing capacity providers
   name: Amazon ECS Capacity Providers API
   slug: amazon-ecs-capacity-providers-api
-- description: Operations for managing ECS clusters
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing ECS clusters
   name: Amazon ECS Clusters API
   slug: amazon-ecs-clusters-api
-- description: Operations for managing container instances
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing container instances
   name: Amazon ECS Container Instances API
   slug: amazon-ecs-container-instances-api
-- description: Operations for managing ECS task definitions
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for managing ECS task definitions
   name: Amazon ECS Task Definitions API
   slug: amazon-ecs-task-definitions-api
-- description: Operations for running and managing ECS tasks
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: Operations for running and managing ECS tasks
   name: Amazon ECS Tasks API
   slug: amazon-ecs-tasks-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.createservice.'
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.createservice.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-createservice-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.deleteservice.'
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.deleteservice.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-deleteservice-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.describeservices.'
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.describeservices.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-describeservices-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.listservices.'
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.listservices.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-listservices-api
-- description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
+- baseURL: https://ecs.amazonaws.com
+  baseurl_source: declared
+  description: 'The #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API from Amazon ECS — 1 operation(s) for #x amz target=amazonec2containerservicev20141113.updateservice.'
   name: 'Amazon ECS #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: amazon-ecs-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 artifact_total: 197
@@ -811,7 +831,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:

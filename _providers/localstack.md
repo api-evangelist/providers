@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 27 operations · 8 acting
 api_count: 1
 apis:
-- description: The Aws API from LocalStack — 11 operation(s) for aws.
+- baseURL: http://localhost.localstack.cloud:4566
+  baseurl_source: declared
+  description: The Aws API from LocalStack — 11 operation(s) for aws.
   name: LocalStack Aws API
   slug: localstack-aws-api
-- description: The localstack API from LocalStack — 8 operation(s) for localstack.
+- baseURL: http://localhost.localstack.cloud:4566
+  baseurl_source: declared
+  description: The localstack API from LocalStack — 8 operation(s) for localstack.
   name: LocalStack localstack API
   slug: localstack-localstack-api
 artifact_total: 9
@@ -232,7 +236,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localstack/refs/heads/main/screenshots/localstack-2026-07-25T225424.png
 security:

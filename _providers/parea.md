@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 20 operations · 16 acting
 api_count: 1
 apis:
-- description: The Parea API from Parea AI — 19 operation(s) for parea.
+- baseURL: https://parea-ai-backend-us-9ac16cdbc7a7b006.onporter.run
+  baseurl_source: declared
+  description: The Parea API from Parea AI — 19 operation(s) for parea.
   name: Parea AI Parea API
   slug: parea-parea-api
 artifact_total: 22
@@ -227,7 +229,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parea/refs/heads/main/screenshots/parea-2026-06-20T191406.png
 security:

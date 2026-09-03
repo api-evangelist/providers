@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +53,9 @@ apis:
 - description: The Integrated Postsecondary Education Data System (IPEDS) gathers data annually from every college, university, and technical and vocational institution that participates in the federal student finan
   name: IPEDS Data
   slug: ipeds-data
-- description: The Schools API from Department of Education — 1 operation(s) for schools.
+- baseURL: https://api.data.gov/ed/collegescorecard/v1
+  baseurl_source: declared
+  description: The Schools API from Department of Education — 1 operation(s) for schools.
   name: Department of Education Schools API
   slug: department-of-education-schools-api
 artifact_total: 14
@@ -210,7 +212,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/screenshots/department-of-education-2026-06-20T175915.png
 security:

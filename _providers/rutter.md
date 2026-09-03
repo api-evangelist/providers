@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -53,22 +53,34 @@ apis:
 - description: The Rutter Payments API provides a unified interface to read and write data to all major payment platforms through a single REST API.
   name: Rutter Payments API
   slug: payments-api
-- description: Accounting data across platforms
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Accounting data across platforms
   name: Rutter Accounting API
   slug: rutter-accounting-api
-- description: Advertising platform data
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Advertising platform data
   name: Rutter Ads API
   slug: rutter-ads-api
-- description: Banking and financial account data
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Banking and financial account data
   name: Rutter Banking API
   slug: rutter-banking-api
-- description: Commerce and e-commerce data
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Commerce and e-commerce data
   name: Rutter Commerce API
   slug: rutter-commerce-api
-- description: Manage platform connections and authentication
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Manage platform connections and authentication
   name: Rutter Connections API
   slug: rutter-connections-api
-- description: Webhook configuration and management
+- baseURL: https://production.rutterapi.com/versioned
+  baseurl_source: declared
+  description: Webhook configuration and management
   name: Rutter Webhooks API
   slug: rutter-webhooks-api
 artifact_total: 35
@@ -292,7 +304,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

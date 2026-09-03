@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -50,25 +50,39 @@ apis:
 - description: JavaScript SDK for embedding and customizing the Tidio chat widget on websites. Supports user tracking, custom bot triggers, and behavioral customization. Available to all plan tiers.
   name: Tidio Widget SDK
   slug: tidio-widget-sdk
-- description: Manage contacts (website visitors identified by name, email, or phone)
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Manage contacts (website visitors identified by name, email, or phone)
   name: Tidio Contacts API
   slug: tidio-contacts-api
-- description: Retrieve department information
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Retrieve department information
   name: Tidio Departments API
   slug: tidio-departments-api
-- description: Lyro AI data sources and ticket answering
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Lyro AI data sources and ticket answering
   name: Tidio Lyro API
   slug: tidio-lyro-api
-- description: Retrieve operator (chat agent) information
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Retrieve operator (chat agent) information
   name: Tidio Operators API
   slug: tidio-operators-api
-- description: Product catalog for Lyro AI recommendations
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Product catalog for Lyro AI recommendations
   name: Tidio Products API
   slug: tidio-products-api
-- description: Retrieve project information
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Retrieve project information
   name: Tidio Project API
   slug: tidio-project-api
-- description: Manage email tickets and replies
+- baseURL: https://api.tidio.co
+  baseurl_source: declared
+  description: Manage email tickets and replies
   name: Tidio Tickets API
   slug: tidio-tickets-api
 artifact_total: 30
@@ -251,7 +265,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/screenshots/tidio-2026-06-20T195338.png
 security:

@@ -1,4 +1,18 @@
 ---
+access_model:
+  confidence: high
+  label: Paid (free trial) · Self-serve signup
+  onboarding: self-serve
+  pricing: paid
+  public: false
+  source:
+  - plans
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: true
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,13 +47,19 @@ agentic_access:
   summary_line: 7 operations · 1 acting
 api_count: 1
 apis:
-- description: Events, Event Sessions (Dates) and registration.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Events, Event Sessions (Dates) and registration.
   name: Demio Events API
   slug: demio-events-api
-- description: Authorization checks.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Authorization checks.
   name: Demio Intro API
   slug: demio-intro-api
-- description: Participation and attendance reporting.
+- baseURL: https://my.demio.com/api/v1
+  baseurl_source: declared
+  description: Participation and attendance reporting.
   name: Demio Reports API
   slug: demio-reports-api
 artifact_total: 10
@@ -255,7 +275,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/screenshots/demio-2026-08-17T080854.png
 security:

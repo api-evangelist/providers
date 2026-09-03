@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -44,79 +44,129 @@ agentic_access:
   summary_line: 151 operations · 86 acting
 api_count: 20
 apis:
-- description: CRUD operations for AI agent configurations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for AI agent configurations
   name: Coval Agents API
   slug: coval-agents-api
-- description: Manage API keys for your organization
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Manage API keys for your organization
   name: Coval API Keys API
   slug: coval-api-keys-api
-- description: Upload audio for evaluation and access conversation audio files
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Upload audio for evaluation and access conversation audio files
   name: Coval Audio API
   slug: coval-audio-api
-- description: Submit and manage real-world conversation monitoring evaluations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Submit and manage real-world conversation monitoring evaluations
   name: Coval Conversations API
   slug: coval-conversations-api
-- description: Dashboard CRUD operations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Dashboard CRUD operations
   name: Coval Dashboards API
   slug: coval-dashboards-api
-- description: Retrieve metric computation results for simulations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Retrieve metric computation results for simulations
   name: Coval Metric Outputs API
   slug: coval-metric-outputs-api
-- description: CRUD operations for custom evaluation metrics
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for custom evaluation metrics
   name: Coval Metrics API
   slug: coval-metrics-api
-- description: Monitor evaluation event history
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Monitor evaluation event history
   name: Coval Monitor Events API
   slug: coval-monitor-events-api
-- description: CRUD operations for monitor definitions
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for monitor definitions
   name: Coval Monitors API
   slug: coval-monitors-api
-- description: CRUD operations for agent configuration mutations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for agent configuration mutations
   name: Coval Mutations API
   slug: coval-mutations-api
-- description: Organization-level configuration for conversation metrics — the default and conditional metrics run on conversations.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Organization-level configuration for conversation metrics — the default and conditional metrics run on conversations.
   name: Coval Organization Conversations Config API
   slug: coval-organization-conversations-config-api
-- description: Persona CRUD operations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Persona CRUD operations
   name: Coval Personas API
   slug: coval-personas-api
-- description: CRUD operations for saved multi-run reports
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for saved multi-run reports
   name: Coval Reports API
   slug: coval-reports-api
-- description: Annotation CRUD operations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Annotation CRUD operations
   name: Coval Review Annotations API
   slug: coval-review-annotations-api
-- description: Project CRUD operations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Project CRUD operations
   name: Coval Review Projects API
   slug: coval-review-projects-api
-- description: CRUD operations for reusable run configurations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for reusable run configurations
   name: Coval Run Templates API
   slug: coval-run-templates-api
-- description: Launch and manage simulation runs
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Launch and manage simulation runs
   name: Coval Runs API
   slug: coval-runs-api
-- description: CRUD operations for scheduled evaluations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for scheduled evaluations
   name: Coval Scheduled Runs API
   slug: coval-scheduled-runs-api
-- description: Launch and manage individual simulation executions
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Launch and manage individual simulation executions
   name: Coval Simulations API
   slug: coval-simulations-api
-- description: CRUD operations for resource tags
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for resource tags
   name: Coval Tags API
   slug: coval-tags-api
-- description: Operations for managing test cases
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Operations for managing test cases
   name: Coval Test Cases API
   slug: coval-test-cases-api
-- description: Operations for managing test sets
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Operations for managing test sets
   name: Coval Test Sets API
   slug: coval-test-sets-api
-- description: OTLP trace ingestion for simulations and monitoring conversations.
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: OTLP trace ingestion for simulations and monitoring conversations.
   name: Coval Traces API
   slug: coval-traces-api
-- description: CRUD operations for event webhooks
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: CRUD operations for event webhooks
   name: Coval Webhooks API
   slug: coval-webhooks-api
-- description: Dashboard widget CRUD operations
+- baseURL: https://api.coval.dev/v1
+  baseurl_source: declared
+  description: Dashboard widget CRUD operations
   name: Coval Widgets API
   slug: coval-widgets-api
 artifact_total: 80
@@ -433,7 +483,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.3
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -443,7 +493,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 53.9
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -455,7 +505,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:

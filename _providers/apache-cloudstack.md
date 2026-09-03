@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,16 +45,24 @@ agentic_access:
   summary_line: 8 operations · 1 acting
 api_count: 4
 apis:
-- description: Network and IP address management operations.
+- baseURL: http://localhost:8080/client/api
+  baseurl_source: declared
+  description: Network and IP address management operations.
   name: Apache CloudStack Networks API
   slug: apache-cloudstack-networks-api
-- description: Virtual machine lifecycle management operations.
+- baseURL: http://localhost:8080/client/api
+  baseurl_source: declared
+  description: Virtual machine lifecycle management operations.
   name: Apache CloudStack Virtual Machines API
   slug: apache-cloudstack-virtual-machines-api
-- description: Volume and snapshot storage management operations.
+- baseURL: http://localhost:8080/client/api
+  baseurl_source: declared
+  description: Volume and snapshot storage management operations.
   name: Apache CloudStack Volumes API
   slug: apache-cloudstack-volumes-api
-- description: Zone and availability zone management operations.
+- baseURL: http://localhost:8080/client/api
+  baseurl_source: declared
+  description: Zone and availability zone management operations.
   name: Apache CloudStack Zones API
   slug: apache-cloudstack-zones-api
 artifact_total: 58
@@ -330,7 +338,7 @@ score:
       marker_coverage: 100.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/screenshots/apache-cloudstack-2026-06-20T172047.png
 security:

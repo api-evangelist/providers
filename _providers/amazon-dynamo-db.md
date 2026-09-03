@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -46,7 +46,9 @@ apis:
 - description: Low-level HTTPS JSON API for Amazon DynamoDB that supports table management, item-level CRUD, queries, scans, transactions, global tables, streams, and backup and restore operations. Requests are POST
   name: Amazon DynamoDB API
   slug: api
-- description: The Amazon DynamoDB API API from Amazon DynamoDB — 1 operation(s) for amazon dynamodb api.
+- baseURL: https://dynamodb.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon DynamoDB API API from Amazon DynamoDB — 1 operation(s) for amazon dynamodb api.
   name: Amazon DynamoDB Amazon DynamoDB API API
   slug: amazon-dynamo-db-amazon-dynamodb-api-api
 artifact_total: 10
@@ -137,7 +139,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamo-db/refs/heads/main/screenshots/amazon-dynamo-db-2026-06-20T171631.png
 security:

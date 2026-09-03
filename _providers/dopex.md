@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,28 +49,44 @@ apis:
 - description: REST API for querying xSYK (escrowed SYK) staking and vesting positions for a given account address. Returns details of vested and staked xSYK allocations including total allocation amounts and pendin
   name: Dopex xSYK Staking Positions API
   slug: xsyk-staking-api
-- description: The deposit API from Dopex — 3 operation(s) for deposit.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The deposit API from Dopex — 3 operation(s) for deposit.
   name: Dopex deposit API
   slug: dopex-deposit-api
-- description: The exercise API from Dopex — 2 operation(s) for exercise.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The exercise API from Dopex — 2 operation(s) for exercise.
   name: Dopex exercise API
   slug: dopex-exercise-api
-- description: The option-markets API from Dopex — 2 operation(s) for option-markets.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The option-markets API from Dopex — 2 operation(s) for option-markets.
   name: Dopex option-markets API
   slug: dopex-option-markets-api
-- description: The purchase API from Dopex — 3 operation(s) for purchase.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The purchase API from Dopex — 3 operation(s) for purchase.
   name: Dopex purchase API
   slug: dopex-purchase-api
-- description: The stats API from Dopex — 7 operation(s) for stats.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The stats API from Dopex — 7 operation(s) for stats.
   name: Dopex stats API
   slug: dopex-stats-api
-- description: The strikes-chain API from Dopex — 1 operation(s) for strikes-chain.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The strikes-chain API from Dopex — 1 operation(s) for strikes-chain.
   name: Dopex strikes-chain API
   slug: dopex-strikes-chain-api
-- description: The withdraw API from Dopex — 1 operation(s) for withdraw.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The withdraw API from Dopex — 1 operation(s) for withdraw.
   name: Dopex withdraw API
   slug: dopex-withdraw-api
-- description: The xSYK API from Dopex — 1 operation(s) for xsyk.
+- baseURL: https://api.stryke.xyz
+  baseurl_source: declared
+  description: The xSYK API from Dopex — 1 operation(s) for xsyk.
   name: Dopex xSYK API
   slug: dopex-xsyk-api
 artifact_total: 34
@@ -262,7 +278,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/screenshots/dopex-2026-06-20T180154.png
 security:

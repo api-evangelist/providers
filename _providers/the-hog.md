@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -44,28 +44,44 @@ agentic_access:
   summary_line: 52 operations · 44 acting
 api_count: 1
 apis:
-- description: The Company Search API from The Hog — 1 operation(s) for company search.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Company Search API from The Hog — 1 operation(s) for company search.
   name: The Hog Company Search API
   slug: the-hog-company-search-api
-- description: The Deep Research API from The Hog — 1 operation(s) for deep research.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Deep Research API from The Hog — 1 operation(s) for deep research.
   name: The Hog Deep Research API
   slug: the-hog-deep-research-api
-- description: The Enrichments API from The Hog — 2 operation(s) for enrichments.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Enrichments API from The Hog — 2 operation(s) for enrichments.
   name: The Hog Enrichments API
   slug: the-hog-enrichments-api
-- description: The Monitors API from The Hog — 4 operation(s) for monitors.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Monitors API from The Hog — 4 operation(s) for monitors.
   name: The Hog Monitors API
   slug: the-hog-monitors-api
-- description: The Operations API from The Hog — 2 operation(s) for operations.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Operations API from The Hog — 2 operation(s) for operations.
   name: The Hog Operations API
   slug: the-hog-operations-api
-- description: The People Search API from The Hog — 2 operation(s) for people search.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The People Search API from The Hog — 2 operation(s) for people search.
   name: The Hog People Search API
   slug: the-hog-people-search-api
-- description: The Scrapers API from The Hog — 34 operation(s) for scrapers.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Scrapers API from The Hog — 34 operation(s) for scrapers.
   name: The Hog Scrapers API
   slug: the-hog-scrapers-api
-- description: The Search API from The Hog — 2 operation(s) for search.
+- baseURL: https://developer.thehog.ai
+  baseurl_source: declared
+  description: The Search API from The Hog — 2 operation(s) for search.
   name: The Hog Search API
   slug: the-hog-search-api
 artifact_total: 24
@@ -286,7 +302,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/screenshots/the-hog-2026-08-17T082336.png
 security:

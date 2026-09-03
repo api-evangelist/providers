@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -43,55 +43,89 @@ agentic_access:
   summary_line: 162 operations · 81 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Authentication API from SEDNA — 1 operation(s) for authentication.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Authentication API from SEDNA — 1 operation(s) for authentication.
   name: SEDNA Authentication API
   slug: sedna-authentication-api
-- description: The Category Tag API API from SEDNA — 7 operation(s) for category tag api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Category Tag API API from SEDNA — 7 operation(s) for category tag api.
   name: SEDNA Category Tag API API
   slug: sedna-category-tag-api-api
-- description: The Comment API API from SEDNA — 1 operation(s) for comment api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Comment API API from SEDNA — 1 operation(s) for comment api.
   name: SEDNA Comment API API
   slug: sedna-comment-api-api
-- description: The Company API API from SEDNA — 1 operation(s) for company api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Company API API from SEDNA — 1 operation(s) for company api.
   name: SEDNA Company API API
   slug: sedna-company-api-api
-- description: The Contact API API from SEDNA — 8 operation(s) for contact api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Contact API API from SEDNA — 8 operation(s) for contact api.
   name: SEDNA Contact API API
   slug: sedna-contact-api-api
-- description: The Document API API from SEDNA — 1 operation(s) for document api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Document API API from SEDNA — 1 operation(s) for document api.
   name: SEDNA Document API API
   slug: sedna-document-api-api
-- description: The Download API API from SEDNA — 4 operation(s) for download api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Download API API from SEDNA — 4 operation(s) for download api.
   name: SEDNA Download API API
   slug: sedna-download-api-api
-- description: The Event API API from SEDNA — 9 operation(s) for event api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Event API API from SEDNA — 9 operation(s) for event api.
   name: SEDNA Event API API
   slug: sedna-event-api-api
-- description: The Job Reference API API from SEDNA — 7 operation(s) for job reference api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Job Reference API API from SEDNA — 7 operation(s) for job reference api.
   name: SEDNA Job Reference API API
   slug: sedna-job-reference-api-api
-- description: The Keyword API API from SEDNA — 3 operation(s) for keyword api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Keyword API API from SEDNA — 3 operation(s) for keyword api.
   name: SEDNA Keyword API API
   slug: sedna-keyword-api-api
-- description: The Message API API from SEDNA — 19 operation(s) for message api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Message API API from SEDNA — 19 operation(s) for message api.
   name: SEDNA Message API API
   slug: sedna-message-api-api
-- description: The Saved Search API API from SEDNA — 2 operation(s) for saved search api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Saved Search API API from SEDNA — 2 operation(s) for saved search api.
   name: SEDNA Saved Search API API
   slug: sedna-saved-search-api-api
-- description: The Team API API from SEDNA — 9 operation(s) for team api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Team API API from SEDNA — 9 operation(s) for team api.
   name: SEDNA Team API API
   slug: sedna-team-api-api
-- description: The Template API API from SEDNA — 2 operation(s) for template api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Template API API from SEDNA — 2 operation(s) for template api.
   name: SEDNA Template API API
   slug: sedna-template-api-api
-- description: The User API API from SEDNA — 16 operation(s) for user api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The User API API from SEDNA — 16 operation(s) for user api.
   name: SEDNA User API API
   slug: sedna-user-api-api
-- description: The Vessel API API from SEDNA — 1 operation(s) for vessel api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Vessel API API from SEDNA — 1 operation(s) for vessel api.
   name: SEDNA Vessel API API
   slug: sedna-vessel-api-api
-- description: The Workflow API API from SEDNA — 2 operation(s) for workflow api.
+- baseURL: https://example.sednanetwork.com/platform
+  baseurl_source: declared
+  description: The Workflow API API from SEDNA — 2 operation(s) for workflow api.
   name: SEDNA Workflow API API
   slug: sedna-workflow-api-api
 artifact_total: 40
@@ -277,7 +311,7 @@ score:
   band: thin
   composite: 37.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -303,8 +337,9 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/screenshots/sedna-2026-09-02T154729.png
 security:
 - kind: authentication
   name: Sedna Authentication

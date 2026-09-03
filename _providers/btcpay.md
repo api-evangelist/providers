@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -44,97 +44,159 @@ agentic_access:
   summary_line: 195 operations · 102 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: API Key operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: API Key operations
   name: BTCPay Server API Keys API
   slug: btcpay-api-keys-api
-- description: App operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: App operations
   name: BTCPay Server Apps API
   slug: btcpay-apps-api
-- description: Authorization operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Authorization operations
   name: BTCPay Server Authorization API
   slug: btcpay-authorization-api
-- description: Crowdfund operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Crowdfund operations
   name: BTCPay Server Crowdfund API
   slug: btcpay-crowdfund-api
-- description: File operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: File operations
   name: BTCPay Server Files API
   slug: btcpay-files-api
-- description: Health operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Health operations
   name: BTCPay Server Health API
   slug: btcpay-health-api
-- description: Invoice operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Invoice operations
   name: BTCPay Server Invoices API
   slug: btcpay-invoices-api
-- description: Lightning address configuration
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Lightning address configuration
   name: BTCPay Server Lightning address API
   slug: btcpay-lightning-address-api
-- description: Lightning (Internal Node) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Lightning (Internal Node) operations
   name: BTCPay Server Lightning (Internal Node) API
   slug: btcpay-lightning-internal-node-api
-- description: Lightning (Store) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Lightning (Store) operations
   name: BTCPay Server Lightning (Store) API
   slug: btcpay-lightning-store-api
-- description: Miscelleneous operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Miscelleneous operations
   name: BTCPay Server Miscelleneous API
   slug: btcpay-miscelleneous-api
-- description: Notifications operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Notifications operations
   name: BTCPay Server Notifications (Current User) API
   slug: btcpay-notifications-current-user-api
-- description: Payment Requests operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Payment Requests operations
   name: BTCPay Server Payment Requests API
   slug: btcpay-payment-requests-api
-- description: Payout Processors operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Payout Processors operations
   name: BTCPay Server Payout Processors API
   slug: btcpay-payout-processors-api
-- description: Point of Sale operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Point of Sale operations
   name: BTCPay Server Point of Sale API
   slug: btcpay-point-of-sale-api
-- description: Pull payments (Management) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Pull payments (Management) operations
   name: BTCPay Server Pull payments (Management) API
   slug: btcpay-pull-payments-management-api
-- description: Pull payments payout (Public) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Pull payments payout (Public) operations
   name: BTCPay Server Pull payments payout (Public) API
   slug: btcpay-pull-payments-payout-public-api
-- description: Pull payments (Public) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Pull payments (Public) operations
   name: BTCPay Server Pull payments (Public) API
   slug: btcpay-pull-payments-public-api
-- description: Server Email Settings operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Server Email Settings operations
   name: BTCPay Server ServerEmail API
   slug: btcpay-serveremail-api
-- description: Server Info operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Server Info operations
   name: BTCPay Server ServerInfo API
   slug: btcpay-serverinfo-api
-- description: Store Payment Methods operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store Payment Methods operations
   name: BTCPay Server Store (Payment Methods) API
   slug: btcpay-store-payment-methods-api
-- description: Store Wallet (On Chain) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store Wallet (On Chain) operations
   name: BTCPay Server Store Wallet (On Chain) API
   slug: btcpay-store-wallet-on-chain-api
-- description: Store operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store operations
   name: BTCPay Server Stores API
   slug: btcpay-stores-api
-- description: Store Emails operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store Emails operations
   name: BTCPay Server Stores (Email) API
   slug: btcpay-stores-email-api
-- description: Stores (Payout Processors) operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Stores (Payout Processors) operations
   name: BTCPay Server Stores (Payout Processors) API
   slug: btcpay-stores-payout-processors-api
-- description: Store pull payment payout operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store pull payment payout operations
   name: BTCPay Server Stores (Payouts) API
   slug: btcpay-stores-payouts-api
-- description: Stores rate information and configuration
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Stores rate information and configuration
   name: BTCPay Server Stores (Rates) API
   slug: btcpay-stores-rates-api
-- description: Store Users operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Store Users operations
   name: BTCPay Server Stores (Users) API
   slug: btcpay-stores-users-api
-- description: Subscription operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Subscription operations
   name: BTCPay Server Subscriptions API
   slug: btcpay-subscriptions-api
-- description: User operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: User operations
   name: BTCPay Server Users API
   slug: btcpay-users-api
-- description: Webhook operations
+- baseURL: https://{btcpay-host}/api/v1
+  baseurl_source: declared
+  description: Webhook operations
   name: BTCPay Server Webhooks API
   slug: btcpay-webhooks-api
 artifact_total: 69
@@ -345,7 +407,7 @@ score:
     catalog_gap: 65.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -358,7 +420,7 @@ score:
   open_source:
     applies: true
     score: 60.0
-  previous_composite: 39.5
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -373,7 +435,7 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

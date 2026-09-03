@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,10 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The production REST API behind the SponsorUnited platform. Its OpenAPI 3.0 description is publicly served at https://api.sponsorunited.com/docs and describes 547 operations across 422 paths and 561 sc
+- baseURL: https://api.sponsorunited.com
+  baseurl_source: declared
+  description: The production REST API behind the SponsorUnited platform. Its OpenAPI 3.0 description is publicly served at https://api.sponsorunited.com/docs and describes 547 operations across 422 paths and 561 sc
   name: SponsorUnited API
   slug: sponsorunited-api
 artifact_total: 8
@@ -146,23 +159,23 @@ rate_limits:
   slug: sponsorunited-rate-limits
 score:
   band: developing
-  composite: 45.6
+  composite: 46.4
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -1.2
+  delta: 0.8
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 57.6
+    contract_quality: 60.9
     developer_ergonomics: 28.0
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 46.8
+  previous_composite: 45.6
   provenance:
     conformance: first-party
     contracts:
@@ -173,8 +186,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/sponsorunited/refs/heads/main/screenshots/sponsorunited-2026-09-02T160541.png
 security:
 - kind: authentication
   name: Sponsorunited Authentication

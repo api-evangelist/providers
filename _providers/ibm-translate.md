@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,16 +44,24 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: Operations for translating documents
+- baseURL: https://api.us-south.language-translator.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Operations for translating documents
   name: IBM Language Translator Documents API
   slug: ibm-translate-documents-api
-- description: Operations for listing supported and identifiable languages
+- baseURL: https://api.us-south.language-translator.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Operations for listing supported and identifiable languages
   name: IBM Language Translator Languages API
   slug: ibm-translate-languages-api
-- description: Operations for managing translation models
+- baseURL: https://api.us-south.language-translator.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Operations for managing translation models
   name: IBM Language Translator Models API
   slug: ibm-translate-models-api
-- description: Operations for translating text
+- baseURL: https://api.us-south.language-translator.watson.cloud.ibm.com
+  baseurl_source: declared
+  description: Operations for translating text
   name: IBM Language Translator Translation API
   slug: ibm-translate-translation-api
 artifact_total: 25
@@ -255,7 +263,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/screenshots/ibm-translate-2026-06-20T183233.png
 security:

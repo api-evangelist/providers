@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 2
@@ -43,64 +43,104 @@ agentic_access:
   summary_line: 189 operations · 121 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: Define groups of network infrastructure elements or packet header values
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Define groups of network infrastructure elements or packet header values
   name: Forward Networks Aliases API
   slug: forward-networks-aliases-api
-- description: Enable or define automated checks that verify network policy and behavior
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Enable or define automated checks that verify network policy and behavior
   name: Forward Networks Checks API
   slug: forward-networks-checks-api
-- description: Specify the network devices to collect from and model
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Specify the network devices to collect from and model
   name: Forward Networks Classic Devices API
   slug: forward-networks-classic-devices-api
-- description: Provide network device credentials needed for network collection
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Provide network device credentials needed for network collection
   name: Forward Networks Credentials API
   slug: forward-networks-credentials-api
-- description: Get current API version information
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Get current API version information
   name: Forward Networks Current Version API
   slug: forward-networks-current-version-api
-- description: List or manage tags associated with network devices and endpoints
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: List or manage tags associated with network devices and endpoints
   name: Forward Networks Device Tags API
   slug: forward-networks-device-tags-api
-- description: Configure jump servers to assist in reaching network devices
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Configure jump servers to assist in reaching network devices
   name: Forward Networks Jump Servers API
   slug: forward-networks-jump-servers-api
-- description: Configure configuration and state collection from network devices
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Configure configuration and state collection from network devices
   name: Forward Networks Network Collection API
   slug: forward-networks-network-collection-api
-- description: List the modeled network devices
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: List the modeled network devices
   name: Forward Networks Network Devices API
   slug: forward-networks-network-devices-api
-- description: Configure network endpoint profiles and specify the network endpoints to collect from
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Configure network endpoint profiles and specify the network endpoints to collect from
   name: Forward Networks Network Endpoints API
   slug: forward-networks-network-endpoints-api
-- description: Get, create, update, or delete a network's user-defined locations
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Get, create, update, or delete a network's user-defined locations
   name: Forward Networks Network Locations API
   slug: forward-networks-network-locations-api
-- description: List or manage the network Snapshots collected from network devices
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: List or manage the network Snapshots collected from network devices
   name: Forward Networks Network Snapshots API
   slug: forward-networks-network-snapshots-api
-- description: List the links inferred between network devices and override them if necessary
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: List the links inferred between network devices and override them if necessary
   name: Forward Networks Network Topology API
   slug: forward-networks-network-topology-api
-- description: Create, list, rename, or delete model networks
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Create, list, rename, or delete model networks
   name: Forward Networks Networks API
   slug: forward-networks-networks-api
-- description: Ask the Network Query Engine for structured, vendor-agnostic network information
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Ask the Network Query Engine for structured, vendor-agnostic network information
   name: Forward Networks NQE API
   slug: forward-networks-nqe-api
-- description: Trace packets through the network model
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Trace packets through the network model
   name: Forward Networks Path Search API
   slug: forward-networks-path-search-api
-- description: Model a network’s internet connections, intranets, L2VPNs, L3VPNs, WAN circuits, and encryptors
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Model a network’s internet connections, intranets, L2VPNs, L3VPNs, WAN circuits, and encryptors
   name: Forward Networks Synthetic Devices API
   slug: forward-networks-synthetic-devices-api
-- description: Administer the system, including database backups
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Administer the system, including database backups
   name: Forward Networks System Administration API
   slug: forward-networks-system-administration-api
-- description: Manage user accounts
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Manage user accounts
   name: Forward Networks User Accounts API
   slug: forward-networks-user-accounts-api
-- description: Identify network devices potentially impacted by CVEs
+- baseURL: https://fwd.app/api
+  baseurl_source: declared
+  description: Identify network devices potentially impacted by CVEs
   name: Forward Networks Vulnerability Analysis API
   slug: forward-networks-vulnerability-analysis-api
 artifact_total: 47
@@ -332,7 +372,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forward-networks/refs/heads/main/screenshots/forward-networks-2026-07-25T215024.png
 security:

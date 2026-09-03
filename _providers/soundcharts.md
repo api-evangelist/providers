@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 32 operations · 1 acting
 api_count: 1
 apis:
-- description: The Album API from Soundcharts — 4 operation(s) for album.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Album API from Soundcharts — 4 operation(s) for album.
   name: Soundcharts Album API
   slug: soundcharts-album-api
-- description: The Artist API from Soundcharts — 7 operation(s) for artist.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Artist API from Soundcharts — 7 operation(s) for artist.
   name: Soundcharts Artist API
   slug: soundcharts-artist-api
-- description: The Chart API from Soundcharts — 5 operation(s) for chart.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Chart API from Soundcharts — 5 operation(s) for chart.
   name: Soundcharts Chart API
   slug: soundcharts-chart-api
-- description: The Metrics API from Soundcharts — 4 operation(s) for metrics.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Metrics API from Soundcharts — 4 operation(s) for metrics.
   name: Soundcharts Metrics API
   slug: soundcharts-metrics-api
-- description: The Playlist API from Soundcharts — 3 operation(s) for playlist.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Playlist API from Soundcharts — 3 operation(s) for playlist.
   name: Soundcharts Playlist API
   slug: soundcharts-playlist-api
-- description: The Radio API from Soundcharts — 3 operation(s) for radio.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Radio API from Soundcharts — 3 operation(s) for radio.
   name: Soundcharts Radio API
   slug: soundcharts-radio-api
-- description: The Referential API from Soundcharts — 1 operation(s) for referential.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Referential API from Soundcharts — 1 operation(s) for referential.
   name: Soundcharts Referential API
   slug: soundcharts-referential-api
-- description: The Search API from Soundcharts — 1 operation(s) for search.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Search API from Soundcharts — 1 operation(s) for search.
   name: Soundcharts Search API
   slug: soundcharts-search-api
-- description: The Song API from Soundcharts — 4 operation(s) for song.
+- baseURL: https://customer.api.soundcharts.com
+  baseurl_source: declared
+  description: The Song API from Soundcharts — 4 operation(s) for song.
   name: Soundcharts Song API
   slug: soundcharts-song-api
 artifact_total: 26
@@ -180,7 +198,7 @@ score:
   band: developing
   composite: 39.6
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -203,8 +221,9 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/soundcharts/refs/heads/main/screenshots/soundcharts-2026-09-02T160241.png
 security:
 - kind: authentication
   name: Soundcharts Authentication

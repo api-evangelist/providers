@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,28 +43,44 @@ agentic_access:
   summary_line: 13 operations · 6 acting
 api_count: 1
 apis:
-- description: The AccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for accountconfiguration.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The AccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for accountconfiguration.
   name: Amazon CodeGuru Security AccountConfiguration API
   slug: amazon-codeguru-security-accountconfiguration-api
-- description: The BatchGetFindings API from Amazon CodeGuru Security — 1 operation(s) for batchgetfindings.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The BatchGetFindings API from Amazon CodeGuru Security — 1 operation(s) for batchgetfindings.
   name: Amazon CodeGuru Security BatchGetFindings API
   slug: amazon-codeguru-security-batchgetfindings-api
-- description: The Findings API from Amazon CodeGuru Security — 1 operation(s) for findings.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Findings API from Amazon CodeGuru Security — 1 operation(s) for findings.
   name: Amazon CodeGuru Security Findings API
   slug: amazon-codeguru-security-findings-api
-- description: The Metrics API from Amazon CodeGuru Security — 2 operation(s) for metrics.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Metrics API from Amazon CodeGuru Security — 2 operation(s) for metrics.
   name: Amazon CodeGuru Security Metrics API
   slug: amazon-codeguru-security-metrics-api
-- description: The Scans API from Amazon CodeGuru Security — 2 operation(s) for scans.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Scans API from Amazon CodeGuru Security — 2 operation(s) for scans.
   name: Amazon CodeGuru Security Scans API
   slug: amazon-codeguru-security-scans-api
-- description: The Tags API from Amazon CodeGuru Security — 2 operation(s) for tags.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon CodeGuru Security — 2 operation(s) for tags.
   name: Amazon CodeGuru Security Tags API
   slug: amazon-codeguru-security-tags-api
-- description: The UpdateAccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for updateaccountconfiguration.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The UpdateAccountConfiguration API from Amazon CodeGuru Security — 1 operation(s) for updateaccountconfiguration.
   name: Amazon CodeGuru Security UpdateAccountConfiguration API
   slug: amazon-codeguru-security-updateaccountconfiguration-api
-- description: The UploadUrl API from Amazon CodeGuru Security — 1 operation(s) for uploadurl.
+- baseURL: https://codeguru-security.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The UploadUrl API from Amazon CodeGuru Security — 1 operation(s) for uploadurl.
   name: Amazon CodeGuru Security UploadUrl API
   slug: amazon-codeguru-security-uploadurl-api
 artifact_total: 262
@@ -976,7 +992,7 @@ score:
       total: 8
     mcp: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/screenshots/amazon-codeguru-security-2026-07-25T200005.png
 security:

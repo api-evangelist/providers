@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: Numetric's authentication-gated REST API, served from api.numetric.com. The base host responds with a Numetric API banner and requires credentials on every path.
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numetric/refs/heads/main/screenshots/numetric-2026-08-07T185739.png
 security:

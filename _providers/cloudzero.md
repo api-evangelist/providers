@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -62,22 +62,34 @@ apis:
 - description: AnyCost ingests cost data from any source using the AnyCost Stream Adaptor and Common Bill Format (CBF). Endpoints under /v2/connections/billing/anycost/{connection_id}/billing_drops accept uploads of
   name: CloudZero AnyCost API
   slug: anycost
-- description: Send, edit, and delete allocation telemetry data for splitting cloud cost data through custom allocation dimensions.
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Send, edit, and delete allocation telemetry data for splitting cloud cost data through custom allocation dimensions.
   name: CloudZero Allocation Telemetry API
   slug: cloudzero-allocation-telemetry-api
-- description: Ingest cost data from any source using the AnyCost Stream Adaptor and Common Bill Format (CBF).
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Ingest cost data from any source using the AnyCost Stream Adaptor and Common Bill Format (CBF).
   name: CloudZero AnyCost API
   slug: cloudzero-anycost-api
-- description: Retrieve cost and dimension data for billing analysis.
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Retrieve cost and dimension data for billing analysis.
   name: CloudZero Billing API
   slug: cloudzero-billing-api
-- description: Create, read, update, and delete budgets for cost tracking.
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Create, read, update, and delete budgets for cost tracking.
   name: CloudZero Budgets API
   slug: cloudzero-budgets-api
-- description: Create, read, update, and delete cost insights.
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Create, read, update, and delete cost insights.
   name: CloudZero Insights API
   slug: cloudzero-insights-api
-- description: Send, edit, and delete unit metric telemetry data related to your system operations.
+- baseURL: https://api.cloudzero.com
+  baseurl_source: declared
+  description: Send, edit, and delete unit metric telemetry data related to your system operations.
   name: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
 artifact_total: 50
@@ -315,7 +327,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/screenshots/cloudzero-2026-06-20T174620.png
 security:

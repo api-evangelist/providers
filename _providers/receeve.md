@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -43,46 +43,74 @@ agentic_access:
   summary_line: 46 operations · 34 acting · 2 human-in-the-loop
 api_count: 1
 apis:
-- description: A formal business arrangement providing for regular dealings or services (such as banking, advertising, or store credit) and involving the establishment and maintenance of an account
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: A formal business arrangement providing for regular dealings or services (such as banking, advertising, or store credit) and involving the establishment and maintenance of an account
   name: Receeve Account API
   slug: receeve-account-api
-- description: The AccountMandate API from Receeve — 3 operation(s) for accountmandate.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The AccountMandate API from Receeve — 3 operation(s) for accountmandate.
   name: Receeve AccountMandate API
   slug: receeve-accountmandate-api
-- description: A claim is an outstanding payment that is owed. You can always update this balance if multiple payments are missed and you want to aggregate the amounts.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: A claim is an outstanding payment that is owed. You can always update this balance if multiple payments are missed and you want to aggregate the amounts.
   name: Receeve Claim API
   slug: receeve-claim-api
-- description: The CustomTriggers API from Receeve — 1 operation(s) for customtriggers.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The CustomTriggers API from Receeve — 1 operation(s) for customtriggers.
   name: Receeve CustomTriggers API
   slug: receeve-customtriggers-api
-- description: The Debtor API from Receeve — 1 operation(s) for debtor.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Debtor API from Receeve — 1 operation(s) for debtor.
   name: Receeve Debtor API
   slug: receeve-debtor-api
-- description: Event that happened in Receive systems, for example, claim created or email delivered.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: Event that happened in Receive systems, for example, claim created or email delivered.
   name: Receeve Event API
   slug: receeve-event-api
-- description: The Files API from Receeve — 1 operation(s) for files.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Files API from Receeve — 1 operation(s) for files.
   name: Receeve Files API
   slug: receeve-files-api
-- description: The Finance Instalments V2 API from Receeve — 5 operation(s) for finance instalments v2.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Finance Instalments V2 API from Receeve — 5 operation(s) for finance instalments v2.
   name: Receeve Finance Instalments V2 API
   slug: receeve-finance-instalments-v2-api
-- description: The Finance Settlements API from Receeve — 5 operation(s) for finance settlements.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Finance Settlements API from Receeve — 5 operation(s) for finance settlements.
   name: Receeve Finance Settlements API
   slug: receeve-finance-settlements-api
-- description: This is the overall strategy to resolve the outstanding payment or debt.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: This is the overall strategy to resolve the outstanding payment or debt.
   name: Receeve Journey API
   slug: receeve-journey-api
-- description: The Landing Page of the Debtor, used to display, pay the Claims (or other use cases).
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Landing Page of the Debtor, used to display, pay the Claims (or other use cases).
   name: Receeve LandingPage API
   slug: receeve-landingpage-api
-- description: Communication message in .eml format that was sent to Debtor.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: Communication message in .eml format that was sent to Debtor.
   name: Receeve Message API
   slug: receeve-message-api
-- description: The PromiseToPay API from Receeve — 1 operation(s) for promisetopay.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The PromiseToPay API from Receeve — 1 operation(s) for promisetopay.
   name: Receeve PromiseToPay API
   slug: receeve-promisetopay-api
-- description: The Security API from Receeve — 1 operation(s) for security.
+- baseURL: https://api.receive-demo.com
+  baseurl_source: declared
+  description: The Security API from Receeve — 1 operation(s) for security.
   name: Receeve Security API
   slug: receeve-security-api
 artifact_total: 34
@@ -253,11 +281,11 @@ score:
   band: thin
   composite: 32.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -267,7 +295,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 32.8
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +313,9 @@ score:
     regime_id: payments
     score: 34.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/receeve/refs/heads/main/screenshots/receeve-2026-09-02T153040.png
 security:
 - kind: authentication
   name: Receeve Authentication

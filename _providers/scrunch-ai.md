@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -43,43 +43,69 @@ agentic_access:
   summary_line: 39 operations · 18 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The agent-traffic API from Scrunch AI — 1 operation(s) for agent-traffic.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The agent-traffic API from Scrunch AI — 1 operation(s) for agent-traffic.
   name: Scrunch AI agent-traffic API
   slug: scrunch-ai-agent-traffic-api
-- description: The ai-referrals API from Scrunch AI — 3 operation(s) for ai-referrals.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The ai-referrals API from Scrunch AI — 3 operation(s) for ai-referrals.
   name: Scrunch AI ai-referrals API
   slug: scrunch-ai-ai-referrals-api
-- description: The axp-render API from Scrunch AI — 1 operation(s) for axp-render.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The axp-render API from Scrunch AI — 1 operation(s) for axp-render.
   name: Scrunch AI axp-render API
   slug: scrunch-ai-axp-render-api
-- description: The Brands API from Scrunch AI — 6 operation(s) for brands.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Brands API from Scrunch AI — 6 operation(s) for brands.
   name: Scrunch AI Brands API
   slug: scrunch-ai-brands-api
-- description: The orchestration API from Scrunch AI — 2 operation(s) for orchestration.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The orchestration API from Scrunch AI — 2 operation(s) for orchestration.
   name: Scrunch AI orchestration API
   slug: scrunch-ai-orchestration-api
-- description: The Page Audits API from Scrunch AI — 2 operation(s) for page audits.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Page Audits API from Scrunch AI — 2 operation(s) for page audits.
   name: Scrunch AI Page Audits API
   slug: scrunch-ai-page-audits-api
-- description: The Prompts API from Scrunch AI — 2 operation(s) for prompts.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Prompts API from Scrunch AI — 2 operation(s) for prompts.
   name: Scrunch AI Prompts API
   slug: scrunch-ai-prompts-api
-- description: The Query API from Scrunch AI — 1 operation(s) for query.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Query API from Scrunch AI — 1 operation(s) for query.
   name: Scrunch AI Query API
   slug: scrunch-ai-query-api
-- description: The Responses API from Scrunch AI — 1 operation(s) for responses.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Responses API from Scrunch AI — 1 operation(s) for responses.
   name: Scrunch AI Responses API
   slug: scrunch-ai-responses-api
-- description: The sitemap API from Scrunch AI — 4 operation(s) for sitemap.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The sitemap API from Scrunch AI — 4 operation(s) for sitemap.
   name: Scrunch AI sitemap API
   slug: scrunch-ai-sitemap-api
-- description: The Signals API from Scrunch AI — 6 operation(s) exposing Scrunch's nightly detection sweep as a queryable feed of statistically-tested level changes and trends in AI visibility metrics (presence_rate
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Signals API from Scrunch AI — 6 operation(s) exposing Scrunch's nightly detection sweep as a queryable feed of statistically-tested level changes and trends in AI visibility metrics (presence_rate
   name: Scrunch AI Signals API
   slug: scrunch-ai-signals-api
-- description: The Collections API from Scrunch AI — 1 operation(s) for collections.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Collections API from Scrunch AI — 1 operation(s) for collections.
   name: Scrunch AI Collections API
   slug: scrunch-ai-collections-api
-- description: The Scrunch Data API API from Scrunch AI — 1 operation(s) for scrunch data api.
+- baseURL: https://api.scrunchai.com/v1
+  baseurl_source: declared
+  description: The Scrunch Data API API from Scrunch AI — 1 operation(s) for scrunch data api.
   name: Scrunch AI Scrunch Data API
   slug: scrunch-ai-scrunch-data-api-api
 arazzos:
@@ -327,23 +353,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 58.4
+  composite: 59.2
   coverage:
     artifact_dirs: 26
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.4
+  delta: 0.8
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 18.2
-    contract_quality: 65.4
+    contract_quality: 68.7
     developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 58.8
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,7 +381,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrunch-ai/refs/heads/main/screenshots/scrunch-ai-2026-08-17T081741.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
 - description: IIT Madras's own SAML 2.0 identity provider, entityID https://idp.iitm.ac.in/idp/shibboleth, registered by INFED (the INFLIBNET Access Management Federation) and published into eduGAIN as entity 67269
@@ -243,7 +243,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 13.0
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -253,7 +253,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.8
+  previous_composite: 28.8
   provenance:
     conformance: first-party
   regulatory:
@@ -263,8 +263,8 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-madras/refs/heads/main/screenshots/iit-madras-2026-06-20T183233.png
 security:
 - kind: domain-security

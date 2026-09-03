@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -44,118 +44,194 @@ agentic_access:
   summary_line: 122 operations · 49 acting
 api_count: 7
 apis:
-- description: Request and approve access to resources
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Request and approve access to resources
   name: ForgeRock Access Requests API
   slug: forgerock-access-requests-api
-- description: Conduct and manage access review items
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Conduct and manage access review items
   name: ForgeRock Access Reviews API
   slug: forgerock-access-reviews-api
-- description: Analytics pipeline status and results
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Analytics pipeline status and results
   name: ForgeRock Analytics API
   slug: forgerock-analytics-api
-- description: Query onboarded application data
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Query onboarded application data
   name: ForgeRock Applications API
   slug: forgerock-applications-api
-- description: Access audit log records
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Access audit log records
   name: ForgeRock Audit API
   slug: forgerock-audit-api
-- description: Authenticate users via authentication trees and modules
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Authenticate users via authentication trees and modules
   name: ForgeRock Authentication API
   slug: forgerock-authentication-api
-- description: Manage access certification campaigns
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage access certification campaigns
   name: ForgeRock Certifications API
   slug: forgerock-certifications-api
-- description: Company-wide analytics and dashboards
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Company-wide analytics and dashboards
   name: ForgeRock Company View API
   slug: forgerock-company-view-api
-- description: Read and update IDM configuration
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Read and update IDM configuration
   name: ForgeRock Configuration API
   slug: forgerock-configuration-api
-- description: Query entitlements and confidence scores
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Query entitlements and confidence scores
   name: ForgeRock Entitlements API
   slug: forgerock-entitlements-api
-- description: Generic LDAP entry operations via HDAP
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Generic LDAP entry operations via HDAP
   name: ForgeRock Entries API
   slug: forgerock-entries-api
-- description: Manage group entries in the directory
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage group entries in the directory
   name: ForgeRock Groups API
   slug: forgerock-groups-api
-- description: Health and status monitoring
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Health and status monitoring
   name: ForgeRock Health API
   slug: forgerock-health-api
-- description: CRUD operations on managed identity objects
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: CRUD operations on managed identity objects
   name: ForgeRock Managed Objects API
   slug: forgerock-managed-objects-api
-- description: CRUD operations on managed role objects
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: CRUD operations on managed role objects
   name: ForgeRock Managed Roles API
   slug: forgerock-managed-roles-api
-- description: CRUD operations on managed user objects
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: CRUD operations on managed user objects
   name: ForgeRock Managed Users API
   slug: forgerock-managed-users-api
-- description: Health check and monitoring endpoints
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Health check and monitoring endpoints
   name: ForgeRock Monitoring API
   slug: forgerock-monitoring-api
-- description: OAuth 2.0 token and authorization endpoints
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: OAuth 2.0 token and authorization endpoints
   name: ForgeRock OAuth2 API
   slug: forgerock-oauth2-api
-- description: Manage OAuth 2.0 client registrations
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage OAuth 2.0 client registrations
   name: ForgeRock OAuth2 Clients API
   slug: forgerock-oauth2-clients-api
-- description: Inspect live IG configuration objects
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Inspect live IG configuration objects
   name: ForgeRock Objects API
   slug: forgerock-objects-api
-- description: OpenID Connect discovery and userinfo
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: OpenID Connect discovery and userinfo
   name: ForgeRock OpenID Connect API
   slug: forgerock-openid-connect-api
-- description: Manage authorization policies
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage authorization policies
   name: ForgeRock Policies API
   slug: forgerock-policies-api
-- description: Manage AM realms
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage AM realms
   name: ForgeRock Realms API
   slug: forgerock-realms-api
-- description: Trigger and manage reconciliation operations
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Trigger and manage reconciliation operations
   name: ForgeRock Reconciliation API
   slug: forgerock-reconciliation-api
-- description: Manage resource types for authorization
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage resource types for authorization
   name: ForgeRock Resource Types API
   slug: forgerock-resource-types-api
-- description: Manage identity governance roles
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage identity governance roles
   name: ForgeRock Roles API
   slug: forgerock-roles-api
-- description: Manage IG route configurations
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage IG route configurations
   name: ForgeRock Routes API
   slug: forgerock-routes-api
-- description: Access entitlement assignment rules and justifications
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Access entitlement assignment rules and justifications
   name: ForgeRock Rules API
   slug: forgerock-rules-api
-- description: Manage scheduled tasks and jobs
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage scheduled tasks and jobs
   name: ForgeRock Scheduler API
   slug: forgerock-scheduler-api
-- description: Manage AM scripts
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage AM scripts
   name: ForgeRock Scripts API
   slug: forgerock-scripts-api
-- description: Retrieve server information and configuration
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Retrieve server information and configuration
   name: ForgeRock Server Info API
   slug: forgerock-server-info-api
-- description: Query, validate, and manage authenticated sessions
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Query, validate, and manage authenticated sessions
   name: ForgeRock Sessions API
   slug: forgerock-sessions-api
-- description: IG Studio route design endpoints
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: IG Studio route design endpoints
   name: ForgeRock Studio API
   slug: forgerock-studio-api
-- description: Trigger on-demand synchronization
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Trigger on-demand synchronization
   name: ForgeRock Synchronization API
   slug: forgerock-synchronization-api
-- description: Access objects in connected remote systems
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Access objects in connected remote systems
   name: ForgeRock System Objects API
   slug: forgerock-system-objects-api
-- description: Query user entitlement data and recommendations
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Query user entitlement data and recommendations
   name: ForgeRock Users API
   slug: forgerock-users-api
-- description: Manage policy violations and segregation of duties
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage policy violations and segregation of duties
   name: ForgeRock Violations API
   slug: forgerock-violations-api
-- description: Manage BPMN workflow processes and tasks
+- baseURL: https://{tenant}.forgeblocks.com
+  baseurl_source: declared
+  description: Manage BPMN workflow processes and tasks
   name: ForgeRock Workflow API
   slug: forgerock-workflow-api
 artifact_total: 213
@@ -833,7 +909,7 @@ score:
     catalog_gap: 73.8
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.2
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
@@ -843,7 +919,7 @@ score:
     discoverability: 48.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 47.9
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     contracts:
@@ -852,7 +928,7 @@ score:
       marker_coverage: 0.0
       total: 38
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png
 security:

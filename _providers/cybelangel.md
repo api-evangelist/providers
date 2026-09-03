@@ -1,4 +1,17 @@
 ---
+access_model:
+  confidence: medium
+  label: Self-serve signup
+  onboarding: self-serve
+  pricing: unknown
+  public: false
+  source:
+  - authentication
+  - rate-limits
+  - security
+  - sandbox
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
@@ -24,46 +37,72 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 7
 apis:
-- description: Manipulate ADM inventory assets and threats.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Manipulate ADM inventory assets and threats.
   name: CybelAngel ADM Inventory API
   slug: cybelangel-adm-inventory-api
-- description: Alerts
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Alerts
   name: CybelAngel Alerts API
   slug: cybelangel-alerts-api
-- description: Accessing the application assets
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Accessing the application assets
   name: CybelAngel Asset API
   slug: cybelangel-asset-api
-- description: Audit Logs Public API
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Audit Logs Public API
   name: CybelAngel audit logs API
   slug: cybelangel-audit-logs-api
-- description: Credentials incident reports and credentials
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Credentials incident reports and credentials
   name: CybelAngel Credential watchlist API
   slug: cybelangel-credential-watchlist-api
-- description: Domain Protection
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Domain Protection
   name: CybelAngel Domain watchlist API
   slug: cybelangel-domain-watchlist-api
-- description: Manipulate incident reports.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Manipulate incident reports.
   name: CybelAngel Incident reports API
   slug: cybelangel-incident-reports-api
-- description: Manipulate keywords.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Manipulate keywords.
   name: CybelAngel Keywords API
   slug: cybelangel-keywords-api
-- description: The Reports API from CybelAngel — 1 operation(s) for reports.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: The Reports API from CybelAngel — 1 operation(s) for reports.
   name: CybelAngel Reports API
   slug: cybelangel-reports-api
-- description: Statistics on the reports, keywords, etc.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Statistics on the reports, keywords, etc.
   name: CybelAngel Stats API
   slug: cybelangel-stats-api
-- description: Alerts - Stix
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Alerts - Stix
   name: CybelAngel Stix API
   slug: cybelangel-stix-api
-- description: Fetch threat intelligence data from the CybelAngel platform.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: Fetch threat intelligence data from the CybelAngel platform.
   name: CybelAngel Threat Intelligence API
   slug: cybelangel-threat-intelligence-api
-- description: List workspaces.
+- baseURL: https://platform.cybelangel.com/api
+  baseurl_source: declared
+  description: List workspaces.
   name: CybelAngel Workspaces API
   slug: cybelangel-workspaces-api
 artifact_total: 19
@@ -269,23 +308,23 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.3
+  composite: 51.5
   coverage:
-    artifact_dirs: 20
-    catalog_gap: 66.0
+    artifact_dirs: 21
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.1
+  delta: -1.8
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 62.0
     developer_ergonomics: 62.5
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 53.2
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -296,8 +335,9 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cybelangel/refs/heads/main/screenshots/cybelangel-2026-09-02T145211.png
 security:
 - kind: authentication
   name: Cybelangel Authentication

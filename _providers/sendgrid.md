@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -45,193 +45,319 @@ agentic_access:
   summary_line: 389 operations · 209 acting · 5 human-in-the-loop
 api_count: 44
 apis:
-- description: Twilio SendGrid Account Provisioning API account operations.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Account Provisioning API account operations.
   name: SendGrid Account API
   slug: sendgrid-account-api
-- description: Twilio SendGrid Account Provisioning API account state operations.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Account Provisioning API account state operations.
   name: SendGrid Account State API
   slug: sendgrid-account-state-api
-- description: Twilio SendGrid Alerts API.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Alerts API.
   name: SendGrid Alerts API
   slug: sendgrid-alerts-api
-- description: Twilio SendGrid API Keys API.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid API Keys API.
   name: SendGrid API Keys API
   slug: sendgrid-api-keys-api
-- description: 'Twilio SendGrid Suppressions API: Blocks operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Blocks operations'
   name: SendGrid Blocks API
   slug: sendgrid-blocks-api
-- description: 'Twilio SendGrid Suppressions API: Bounces operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Bounces operations'
   name: SendGrid Bounces API
   slug: sendgrid-bounces-api
-- description: The Twilio SendGrid Bulk Email Address Validation API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: The Twilio SendGrid Bulk Email Address Validation API
   name: SendGrid Bulk Email Address Validation API
   slug: sendgrid-bulk-email-address-validation-api
-- description: 'Legacy Marketing Campaigns: Campaigns API'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Legacy Marketing Campaigns: Campaigns API'
   name: SendGrid Campaigns API API
   slug: sendgrid-campaigns-api-api
-- description: Twilio SendGrid Category Stats API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Category Stats API
   name: SendGrid Categories API
   slug: sendgrid-categories-api
-- description: Twilio SendGrid Marketing Campaigns Contacts API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Contacts API
   name: SendGrid Contacts API
   slug: sendgrid-contacts-api
-- description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Custom Fields API'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Custom Fields API'
   name: SendGrid Custom Fields API
   slug: sendgrid-custom-fields-api
-- description: Twilio SendGrid Marketing Campaigns Designs API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Designs API
   name: SendGrid Designs API
   slug: sendgrid-designs-api
-- description: Twilio SendGrid Domain Authentication API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Domain Authentication API
   name: SendGrid Domain Authentication API
   slug: sendgrid-domain-authentication-api
-- description: Twilio SendGrid Email Activity API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Email Activity API
   name: SendGrid Email Activity API
   slug: sendgrid-email-activity-api
-- description: The Twilio SendGrid Email Address Validation API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: The Twilio SendGrid Email Address Validation API
   name: SendGrid Email Address Validation API
   slug: sendgrid-email-address-validation-api
-- description: The Twilio SendGrid Enforced TLS API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: The Twilio SendGrid Enforced TLS API
   name: SendGrid Enforced TLS API
   slug: sendgrid-enforced-tls-api
-- description: Twilio SendGrid Engagement Quality API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Engagement Quality API
   name: SendGrid Engagement Quality API
   slug: sendgrid-engagement-quality-api
-- description: Twilio SendGrid Event Webhook API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Event Webhook API
   name: SendGrid Event Webhook API
   slug: sendgrid-event-webhook-api
-- description: Third-Party Integrations for SendGrid Event Export
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Third-Party Integrations for SendGrid Event Export
   name: SendGrid External Integration Endpoints API
   slug: sendgrid-external-integration-endpoints-api
-- description: 'Twilio SendGrid Suppressions API: Global Suppressions operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Global Suppressions operations'
   name: SendGrid Global Suppressions API
   slug: sendgrid-global-suppressions-api
-- description: 'Twilio SendGrid Suppressions API: Invalid Emails operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Invalid Emails operations'
   name: SendGrid Invalid Emails API
   slug: sendgrid-invalid-emails-api
-- description: Twilio SendGrid IP Access Management API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid IP Access Management API
   name: SendGrid IP Access Management API
   slug: sendgrid-ip-access-management-api
-- description: Twilio SendGrid IP Address Management API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid IP Address Management API
   name: SendGrid IP Address Management API
   slug: sendgrid-ip-address-management-api
-- description: Twilio SendGrid IP Address API Operations
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid IP Address API Operations
   name: SendGrid IP Addresses API
   slug: sendgrid-ip-addresses-api
-- description: Twilio SendGrid IP Address Pool API Operations
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid IP Address Pool API Operations
   name: SendGrid IP Pools API
   slug: sendgrid-ip-pools-api
-- description: Twilio SendGrid IP Warmup API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid IP Warmup API
   name: SendGrid IP Warmup API
   slug: sendgrid-ip-warmup-api
-- description: Twilio SendGrid Link Branding API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Link Branding API
   name: SendGrid Link Branding API
   slug: sendgrid-link-branding-api
-- description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Lists API'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Lists API'
   name: SendGrid Lists API
   slug: sendgrid-lists-api
-- description: Assign batch IDs to a send.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Assign batch IDs to a send.
   name: SendGrid Mail Batch API
   slug: sendgrid-mail-batch-api
-- description: Twilio Mail Send API.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio Mail Send API.
   name: SendGrid Mail Send API
   slug: sendgrid-mail-send-api
-- description: Twilio SendGrid Mail Settings API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Mail Settings API
   name: SendGrid Mail Settings API
   slug: sendgrid-mail-settings-api
-- description: Twilio SendGrid Account Provisioning API offerings operations.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Account Provisioning API offerings operations.
   name: SendGrid Offering API
   slug: sendgrid-offering-api
-- description: Twilio SendGrid Parse Webhook API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Parse Webhook API
   name: SendGrid Parse Webhook API
   slug: sendgrid-parse-webhook-api
-- description: Twilio SendGrid Partner Settings API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Partner Settings API
   name: SendGrid Partner Settings API
   slug: sendgrid-partner-settings-api
-- description: Twilio SendGrid Recipients' Data Erasure API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Recipients' Data Erasure API
   name: SendGrid Point Delete System API
   slug: sendgrid-point-delete-system-api
-- description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Recipients API'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Recipients API'
   name: SendGrid Recipients API
   slug: sendgrid-recipients-api
-- description: Twilio SendGrid Reverse DNS API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Reverse DNS API
   name: SendGrid Reverse DNS API
   slug: sendgrid-reverse-dns-api
-- description: Twilio SendGrid Scheduled Sends API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Scheduled Sends API
   name: SendGrid Scheduled Sends API
   slug: sendgrid-scheduled-sends-api
-- description: Twilio SendGrid Scopes API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Scopes API
   name: SendGrid Scopes API
   slug: sendgrid-scopes-api
-- description: Twilio SendGrid Marketing Campaigns Segments API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Segments API
   name: SendGrid Segmenting Contacts API
   slug: sendgrid-segmenting-contacts-api
-- description: Twilio SendGrid Marketing Campaigns Segments API V2
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Segments API V2
   name: SendGrid Segmenting Contacts V2 API
   slug: sendgrid-segmenting-contacts-v2-api
-- description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Segments API'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Legacy Marketing Campaigns Contacts: Segments API'
   name: SendGrid Segments API
   slug: sendgrid-segments-api
-- description: Twilio SendGrid Marketing Campaigns Send Test Email API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Send Test Email API
   name: SendGrid Send Test Email API
   slug: sendgrid-send-test-email-api
-- description: Twilio SendGrid Legacy Marketing Campaigns Sender Identities API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Legacy Marketing Campaigns Sender Identities API
   name: SendGrid Sender Identities API
   slug: sendgrid-sender-identities-api
-- description: Twilio SendGrid Sender Verification API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Sender Verification API
   name: SendGrid Sender Verification API
   slug: sendgrid-sender-verification-api
-- description: Twilio SendGrid Marketing Campaigns Senders API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Senders API
   name: SendGrid Senders API
   slug: sendgrid-senders-api
-- description: Twilio SendGrid Marketing Campaigns Single Sends API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Single Sends API
   name: SendGrid Single Sends API
   slug: sendgrid-single-sends-api
-- description: 'Twilio SendGrid Suppressions API: Spam Reports operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Spam Reports operations'
   name: SendGrid Spam Reports API
   slug: sendgrid-spam-reports-api
-- description: Twilio SendGrid Single Sign-On Certificate Operations
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Single Sign-On Certificate Operations
   name: SendGrid SSO Certificates API
   slug: sendgrid-sso-certificates-api
-- description: Twilio SendGrid Single Sign-On Settings Operations
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Single Sign-On Settings Operations
   name: SendGrid SSO Settings API
   slug: sendgrid-sso-settings-api
-- description: Twilio SendGrid Single Sign-On Teammates Operations
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Single Sign-On Teammates Operations
   name: SendGrid SSO Teammates API
   slug: sendgrid-sso-teammates-api
-- description: Twilio SendGrid Marketing Campaigns Stats API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Marketing Campaigns Stats API
   name: SendGrid Stats API
   slug: sendgrid-stats-api
-- description: 'Twilio SendGrid Subusers API: Statistics Operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Subusers API: Statistics Operations'
   name: SendGrid Subuser Statistics API
   slug: sendgrid-subuser-statistics-api
-- description: The Subuser Website Access API from SendGrid — 1 operation(s) for subuser website access.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: The Subuser Website Access API from SendGrid — 1 operation(s) for subuser website access.
   name: SendGrid Subuser Website Access API
   slug: sendgrid-subuser-website-access-api
-- description: Twilio SendGrid Subusers API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Subusers API
   name: SendGrid Subusers API
   slug: sendgrid-subusers-api
-- description: Twilio SendGrid Suppressions API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Suppressions API
   name: SendGrid Suppressions API
   slug: sendgrid-suppressions-api
-- description: Twilio SendGrid Teammates API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Teammates API
   name: SendGrid Teammates API
   slug: sendgrid-teammates-api
-- description: Twilio SendGrid Templates API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Templates API
   name: SendGrid Templates API
   slug: sendgrid-templates-api
-- description: 'Twilio SendGrid Templates API: Versions operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Templates API: Versions operations'
   name: SendGrid Templates Versions API
   slug: sendgrid-templates-versions-api
-- description: Twilio SendGrid Tracking Settings API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Tracking Settings API
   name: SendGrid Tracking API
   slug: sendgrid-tracking-api
-- description: 'Twilio SendGrid Suppressions API: Unsubscribe Group operations'
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: 'Twilio SendGrid Suppressions API: Unsubscribe Group operations'
   name: SendGrid Unsubscribe Groups API
   slug: sendgrid-unsubscribe-groups-api
-- description: Twilio SendGrid Users API.
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Users API.
   name: SendGrid Users API API
   slug: sendgrid-users-api-api
-- description: Twilio SendGrid Webhook Security API
+- baseURL: https://api.sendgrid.com
+  baseurl_source: declared
+  description: Twilio SendGrid Webhook Security API
   name: SendGrid Webhook Security API
   slug: sendgrid-webhook-security-api
 arazzos:
@@ -1087,7 +1213,7 @@ score:
     catalog_gap: 59.3
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -1097,7 +1223,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 60.5
-  previous_composite: 75.5
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1109,7 +1235,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

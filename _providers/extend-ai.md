@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,31 +44,49 @@ agentic_access:
   summary_line: 41 operations · 25 acting
 api_count: 1
 apis:
-- description: The Batch API from Extend — 5 operation(s) for batch.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Batch API from Extend — 5 operation(s) for batch.
   name: Extend Batch API
   slug: extend-ai-batch-api
-- description: The Classify API from Extend — 4 operation(s) for classify.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Classify API from Extend — 4 operation(s) for classify.
   name: Extend Classify API
   slug: extend-ai-classify-api
-- description: The Evaluations API from Extend — 4 operation(s) for evaluations.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Evaluations API from Extend — 4 operation(s) for evaluations.
   name: Extend Evaluations API
   slug: extend-ai-evaluations-api
-- description: The Extract API from Extend — 6 operation(s) for extract.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Extract API from Extend — 6 operation(s) for extract.
   name: Extend Extract API
   slug: extend-ai-extract-api
-- description: The Files API from Extend — 3 operation(s) for files.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Files API from Extend — 3 operation(s) for files.
   name: Extend Files API
   slug: extend-ai-files-api
-- description: The Parse API from Extend — 3 operation(s) for parse.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Parse API from Extend — 3 operation(s) for parse.
   name: Extend Parse API
   slug: extend-ai-parse-api
-- description: The Split API from Extend — 3 operation(s) for split.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Split API from Extend — 3 operation(s) for split.
   name: Extend Split API
   slug: extend-ai-split-api
-- description: The Workflow Runs API from Extend — 3 operation(s) for workflow runs.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Workflow Runs API from Extend — 3 operation(s) for workflow runs.
   name: Extend Workflow Runs API
   slug: extend-ai-workflow-runs-api
-- description: The Workflows API from Extend — 2 operation(s) for workflows.
+- baseURL: https://api.extend.ai
+  baseurl_source: declared
+  description: The Workflows API from Extend — 2 operation(s) for workflows.
   name: Extend Workflows API
   slug: extend-ai-workflows-api
 artifact_total: 27
@@ -199,7 +217,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend-ai/refs/heads/main/screenshots/extend-ai-2026-06-20T180945.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Vercel Webhooks deliver platform events to a subscriber-configured HTTPS endpoint via HTTP POST with a JSON body. Subscriptions are created as Account Webhooks (Team Settings) or through Vercel Integr
   name: Vercel Webhooks
   slug: vercel-webhooks
-- description: Chat completions (OpenAI-compatible)
+- baseURL: https://ai-gateway.vercel.sh
+  baseurl_source: spec
+  description: Chat completions (OpenAI-compatible)
   name: Vercel Chat API
   slug: vercel-chat-api
-- description: AI-powered app generation via chat sessions
+- baseURL: https://v0.dev/api
+  baseurl_source: spec
+  description: AI-powered app generation via chat sessions
   name: Vercel Chats API
   slug: vercel-chats-api
-- description: Text embeddings
+- baseURL: https://ai-gateway.vercel.sh
+  baseurl_source: spec
+  description: Text embeddings
   name: Vercel Embeddings API
   slug: vercel-embeddings-api
-- description: List available AI models
+- baseURL: https://ai-gateway.vercel.sh
+  baseurl_source: spec
+  description: List available AI models
   name: Vercel Models API
   slug: vercel-models-api
 arazzos:
@@ -433,7 +441,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -443,7 +451,7 @@ score:
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 57.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -452,7 +460,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,10 +43,14 @@ agentic_access:
   summary_line: 13 operations · 10 acting
 api_count: 1
 apis:
-- description: The health API from Nace Ai — 1 operation(s) for health.
+- baseURL: https://ndi-api.nace.ai/api/v1
+  baseurl_source: declared
+  description: The health API from Nace Ai — 1 operation(s) for health.
   name: Nace Ai health API
   slug: nace-ai-health-api
-- description: The public-api API from Nace Ai — 12 operation(s) for public-api.
+- baseURL: https://ndi-api.nace.ai/api/v1
+  baseurl_source: declared
+  description: The public-api API from Nace Ai — 12 operation(s) for public-api.
   name: Nace Ai public-api API
   slug: nace-ai-public-api-api
 artifact_total: 10
@@ -188,7 +192,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nace-ai/refs/heads/main/screenshots/nace-ai-2026-08-07T184600.png
 security:

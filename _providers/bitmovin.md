@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 4
@@ -50,52 +50,84 @@ apis:
 - description: REST API for querying player and streaming quality-of-experience metrics including buffering, startup time, error rates, and audience segmentation for video observability.
   name: Bitmovin Analytics API
   slug: analytics-api
-- description: The Config API from Bitmovin — 2 operation(s) for config.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Config API from Bitmovin — 2 operation(s) for config.
   name: Bitmovin Config API
   slug: bitmovin-config-api
-- description: The Configurations API from Bitmovin — 27 operation(s) for configurations.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Configurations API from Bitmovin — 27 operation(s) for configurations.
   name: Bitmovin Configurations API
   slug: bitmovin-configurations-api
-- description: The Emails API from Bitmovin — 6 operation(s) for emails.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Emails API from Bitmovin — 6 operation(s) for emails.
   name: Bitmovin Emails API
   slug: bitmovin-emails-api
-- description: The Encodings API from Bitmovin — 80 operation(s) for encodings.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Encodings API from Bitmovin — 80 operation(s) for encodings.
   name: Bitmovin Encodings API
   slug: bitmovin-encodings-api
-- description: The Filters API from Bitmovin — 16 operation(s) for filters.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Filters API from Bitmovin — 16 operation(s) for filters.
   name: Bitmovin Filters API
   slug: bitmovin-filters-api
-- description: The Infrastructure API from Bitmovin — 13 operation(s) for infrastructure.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Infrastructure API from Bitmovin — 13 operation(s) for infrastructure.
   name: Bitmovin Infrastructure API
   slug: bitmovin-infrastructure-api
-- description: The Inputs API from Bitmovin — 22 operation(s) for inputs.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Inputs API from Bitmovin — 22 operation(s) for inputs.
   name: Bitmovin Inputs API
   slug: bitmovin-inputs-api
-- description: The Live API from Bitmovin — 13 operation(s) for live.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Live API from Bitmovin — 13 operation(s) for live.
   name: Bitmovin Live API
   slug: bitmovin-live-api
-- description: The Manifests API from Bitmovin — 81 operation(s) for manifests.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Manifests API from Bitmovin — 81 operation(s) for manifests.
   name: Bitmovin Manifests API
   slug: bitmovin-manifests-api
-- description: The Notifications API from Bitmovin — 2 operation(s) for notifications.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Notifications API from Bitmovin — 2 operation(s) for notifications.
   name: Bitmovin Notifications API
   slug: bitmovin-notifications-api
-- description: The Outputs API from Bitmovin — 20 operation(s) for outputs.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Outputs API from Bitmovin — 20 operation(s) for outputs.
   name: Bitmovin Outputs API
   slug: bitmovin-outputs-api
-- description: The Search API from Bitmovin — 1 operation(s) for search.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Search API from Bitmovin — 1 operation(s) for search.
   name: Bitmovin Search API
   slug: bitmovin-search-api
-- description: The Signing-keys API from Bitmovin — 2 operation(s) for signing-keys.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Signing-keys API from Bitmovin — 2 operation(s) for signing-keys.
   name: Bitmovin Signing-keys API
   slug: bitmovin-signing-keys-api
-- description: The Templates API from Bitmovin — 2 operation(s) for templates.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Templates API from Bitmovin — 2 operation(s) for templates.
   name: Bitmovin Templates API
   slug: bitmovin-templates-api
-- description: The Video API from Bitmovin — 2 operation(s) for video.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Video API from Bitmovin — 2 operation(s) for video.
   name: Bitmovin Video API
   slug: bitmovin-video-api
-- description: The Webhooks API from Bitmovin — 21 operation(s) for webhooks.
+- baseURL: https://api.bitmovin.com/v1
+  baseurl_source: declared
+  description: The Webhooks API from Bitmovin — 21 operation(s) for webhooks.
   name: Bitmovin Webhooks API
   slug: bitmovin-webhooks-api
 artifact_total: 42
@@ -280,7 +312,7 @@ score:
       marker_coverage: 0.0
       total: 16
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmovin/refs/heads/main/screenshots/bitmovin-2026-06-20T173317.png
 security:

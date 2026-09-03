@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,16 +43,24 @@ agentic_access:
   summary_line: 9 operations · 4 acting
 api_count: 1
 apis:
-- description: AISP endpoints - read Holvi customer payment accounts and payments.
+- baseURL: https://api.psd2.holvi.com
+  baseurl_source: declared
+  description: AISP endpoints - read Holvi customer payment accounts and payments.
   name: Holvi Account Information API
   slug: holvi-account-information-api
-- description: PSU authentication and consent token exchange.
+- baseURL: https://api.psd2.holvi.com
+  baseurl_source: declared
+  description: PSU authentication and consent token exchange.
   name: Holvi Consent API
   slug: holvi-consent-api
-- description: PISP endpoints - initiate and confirm SEPA / SEPA Instant / SWIFT payments.
+- baseURL: https://api.psd2.holvi.com
+  baseurl_source: declared
+  description: PISP endpoints - initiate and confirm SEPA / SEPA Instant / SWIFT payments.
   name: Holvi Payment Initiation API
   slug: holvi-payment-initiation-api
-- description: TPP certificate lifecycle.
+- baseURL: https://api.psd2.holvi.com
+  baseurl_source: declared
+  description: TPP certificate lifecycle.
   name: Holvi Third Party Provider API
   slug: holvi-third-party-provider-api
 artifact_total: 13
@@ -242,7 +250,7 @@ score:
     regime_id: banking_open_finance
     score: 36.7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 3
@@ -55,19 +55,29 @@ apis:
 - description: Morphir is a universal language for business and technology that captures business logic in a portable, technology-agnostic intermediate representation that can be compiled to multiple target language
   name: Morphir
   slug: morphir
-- description: The Admin API from FINOS — 3 operation(s) for admin.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Admin API from FINOS — 3 operation(s) for admin.
   name: FINOS Admin API
   slug: finos-admin-api
-- description: The AppEntitlement API from FINOS — 2 operation(s) for appentitlement.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The AppEntitlement API from FINOS — 2 operation(s) for appentitlement.
   name: FINOS AppEntitlement API
   slug: finos-appentitlement-api
-- description: The Application API from FINOS — 4 operation(s) for application.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Application API from FINOS — 4 operation(s) for application.
   name: FINOS Application API
   slug: finos-application-api
-- description: The Attachments API from FINOS — 1 operation(s) for attachments.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Attachments API from FINOS — 1 operation(s) for attachments.
   name: FINOS Attachments API
   slug: finos-attachments-api
-- description: The AuditTrail API from FINOS — 1 operation(s) for audittrail.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The AuditTrail API from FINOS — 1 operation(s) for audittrail.
   name: FINOS AuditTrail API
   slug: finos-audittrail-api
 - description: The CertificateAuthentication API from FINOS — 2 operation(s) for certificateauthentication.
@@ -76,73 +86,119 @@ apis:
 - description: The CertificatePod API from FINOS — 1 operation(s) for certificatepod.
   name: FINOS CertificatePod API
   slug: finos-certificatepod-api
-- description: The Connection API from FINOS — 6 operation(s) for connection.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Connection API from FINOS — 6 operation(s) for connection.
   name: FINOS Connection API
   slug: finos-connection-api
-- description: The Datafeed API from FINOS — 3 operation(s) for datafeed.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Datafeed API from FINOS — 3 operation(s) for datafeed.
   name: FINOS Datafeed API
   slug: finos-datafeed-api
-- description: The Datahose API from FINOS — 1 operation(s) for datahose.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Datahose API from FINOS — 1 operation(s) for datahose.
   name: FINOS Datahose API
   slug: finos-datahose-api
-- description: The Disclaimer API from FINOS — 3 operation(s) for disclaimer.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Disclaimer API from FINOS — 3 operation(s) for disclaimer.
   name: FINOS Disclaimer API
   slug: finos-disclaimer-api
-- description: The DLP Policies and Dictionary Management API from FINOS — 14 operation(s) for dlp policies and dictionary management.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The DLP Policies and Dictionary Management API from FINOS — 14 operation(s) for dlp policies and dictionary management.
   name: FINOS DLP Policies and Dictionary Management API
   slug: finos-dlp-policies-and-dictionary-management-api
-- description: The File Ext API from FINOS — 2 operation(s) for file ext.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The File Ext API from FINOS — 2 operation(s) for file ext.
   name: FINOS File Ext API
   slug: finos-file-ext-api
-- description: The InfoBarriers API from FINOS — 5 operation(s) for infobarriers.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The InfoBarriers API from FINOS — 5 operation(s) for infobarriers.
   name: FINOS InfoBarriers API
   slug: finos-infobarriers-api
-- description: The Message API from FINOS — 1 operation(s) for message.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Message API from FINOS — 1 operation(s) for message.
   name: FINOS Message API
   slug: finos-message-api
-- description: The Messages API from FINOS — 7 operation(s) for messages.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Messages API from FINOS — 7 operation(s) for messages.
   name: FINOS Messages API
   slug: finos-messages-api
-- description: The MessageSuppression API from FINOS — 1 operation(s) for messagesuppression.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The MessageSuppression API from FINOS — 1 operation(s) for messagesuppression.
   name: FINOS MessageSuppression API
   slug: finos-messagesuppression-api
-- description: The Pod API from FINOS — 3 operation(s) for pod.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Pod API from FINOS — 3 operation(s) for pod.
   name: FINOS Pod API
   slug: finos-pod-api
-- description: The Presence API from FINOS — 8 operation(s) for presence.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Presence API from FINOS — 8 operation(s) for presence.
   name: FINOS Presence API
   slug: finos-presence-api
-- description: The Room Membership API from FINOS — 8 operation(s) for room membership.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Room Membership API from FINOS — 8 operation(s) for room membership.
   name: FINOS Room Membership API
   slug: finos-room-membership-api
-- description: The Security API from FINOS — 8 operation(s) for security.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Security API from FINOS — 8 operation(s) for security.
   name: FINOS Security API
   slug: finos-security-api
-- description: The Session API from FINOS — 1 operation(s) for session.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Session API from FINOS — 1 operation(s) for session.
   name: FINOS Session API
   slug: finos-session-api
-- description: The Share API from FINOS — 1 operation(s) for share.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Share API from FINOS — 1 operation(s) for share.
   name: FINOS Share API
   slug: finos-share-api
-- description: The Signals API from FINOS — 9 operation(s) for signals.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Signals API from FINOS — 9 operation(s) for signals.
   name: FINOS Signals API
   slug: finos-signals-api
-- description: The Streams API from FINOS — 16 operation(s) for streams.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Streams API from FINOS — 16 operation(s) for streams.
   name: FINOS Streams API
   slug: finos-streams-api
-- description: The System API from FINOS — 7 operation(s) for system.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The System API from FINOS — 7 operation(s) for system.
   name: FINOS System API
   slug: finos-system-api
-- description: The User API from FINOS — 24 operation(s) for user.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The User API from FINOS — 24 operation(s) for user.
   name: FINOS User API
   slug: finos-user-api
-- description: The Users API from FINOS — 6 operation(s) for users.
+- baseURL: https://yourpodURL.symphony.com/pod
+  baseurl_source: spec
+  description: The Users API from FINOS — 6 operation(s) for users.
   name: FINOS Users API
   slug: finos-users-api
-- description: The Util API from FINOS — 1 operation(s) for util.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Util API from FINOS — 1 operation(s) for util.
   name: FINOS Util API
   slug: finos-util-api
-- description: The Violations API from FINOS — 7 operation(s) for violations.
+- baseURL: youragentURL.symphony.com/agent
+  baseurl_source: spec
+  description: The Violations API from FINOS — 7 operation(s) for violations.
   name: FINOS Violations API
   slug: finos-violations-api
 artifact_total: 73
@@ -365,7 +421,7 @@ score:
       marker_coverage: 0.0
       total: 30
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/screenshots/finos-2026-06-20T181222.png
 security:

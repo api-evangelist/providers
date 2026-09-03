@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 14 operations · 8 acting
 api_count: 1
 apis:
-- description: The customEmojis API from Google Chat — 1 operation(s) for customemojis.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The customEmojis API from Google Chat — 1 operation(s) for customemojis.
   name: Google Chat customEmojis API
   slug: google-chat-customemojis-api
-- description: The Google Chat API API from Google Chat — 1 operation(s) for google chat api.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Google Chat API API from Google Chat — 1 operation(s) for google chat api.
   name: Google Chat Google Chat API API
   slug: google-chat-google-chat-api-api
-- description: The Members API from Google Chat — 1 operation(s) for members.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Members API from Google Chat — 1 operation(s) for members.
   name: Google Chat Members API
   slug: google-chat-members-api
-- description: The Messages API from Google Chat — 1 operation(s) for messages.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Messages API from Google Chat — 1 operation(s) for messages.
   name: Google Chat Messages API
   slug: google-chat-messages-api
-- description: The Reactions API from Google Chat — 1 operation(s) for reactions.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Reactions API from Google Chat — 1 operation(s) for reactions.
   name: Google Chat Reactions API
   slug: google-chat-reactions-api
-- description: The Spaces API from Google Chat — 1 operation(s) for spaces.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Spaces API from Google Chat — 1 operation(s) for spaces.
   name: Google Chat Spaces API
   slug: google-chat-spaces-api
-- description: The Spaces:setup API from Google Chat — 1 operation(s) for spaces:setup.
+- baseURL: https://chat.googleapis.com
+  baseurl_source: declared
+  description: The Spaces:setup API from Google Chat — 1 operation(s) for spaces:setup.
   name: Google Chat Spaces:setup API
   slug: google-chat-spaces-setup-api
 artifact_total: 31
@@ -246,7 +260,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/screenshots/google-chat-2026-06-20T182033.png
 security:

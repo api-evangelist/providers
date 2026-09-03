@@ -33,40 +33,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
   name: Ubble Address document verifications (Coming soon) API
   slug: ubble-address-document-verifications-coming-soon-api
-- description: AML verification endpoints documentation.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: AML verification endpoints documentation.
   name: Ubble AML verifications API
   slug: ubble-aml-verifications-api
-- description: The Applicants API from Ubble — 3 operation(s) for applicants.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Applicants API from Ubble — 3 operation(s) for applicants.
   name: Ubble Applicants API
   slug: ubble-applicants-api
-- description: The Bank document verifications (Coming soon) API from Ubble — 8 operation(s) for bank document verifications (coming soon).
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Bank document verifications (Coming soon) API from Ubble — 8 operation(s) for bank document verifications (coming soon).
   name: Ubble Bank document verifications (Coming soon) API
   slug: ubble-bank-document-verifications-coming-soon-api
-- description: The Business applicants API from Ubble — 2 operation(s) for business applicants.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Business applicants API from Ubble — 2 operation(s) for business applicants.
   name: Ubble Business applicants API
   slug: ubble-business-applicants-api
-- description: The Company document verifications (Coming soon) API from Ubble — 8 operation(s) for company document verifications (coming soon).
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Company document verifications (Coming soon) API from Ubble — 8 operation(s) for company document verifications (coming soon).
   name: Ubble Company document verifications (Coming soon) API
   slug: ubble-company-document-verifications-coming-soon-api
-- description: The Face authentications API from Ubble — 7 operation(s) for face authentications.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Face authentications API from Ubble — 7 operation(s) for face authentications.
   name: Ubble Face authentications API
   slug: ubble-face-authentications-api
-- description: API for ID document verification
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: API for ID document verification
   name: Ubble ID document verifications API
   slug: ubble-id-document-verifications-api
-- description: The Identity verifications API from Ubble — 9 operation(s) for identity verifications.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Identity verifications API from Ubble — 9 operation(s) for identity verifications.
   name: Ubble Identity verifications API
   slug: ubble-identity-verifications-api
-- description: The Service status API from Ubble — 1 operation(s) for service status.
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Service status API from Ubble — 1 operation(s) for service status.
   name: Ubble Service status API
   slug: ubble-service-status-api
-- description: The Website verifications (Coming soon) API from Ubble — 4 operation(s) for website verifications (coming soon).
+- baseURL: https://api.ubble.ai
+  baseurl_source: declared
+  description: The Website verifications (Coming soon) API from Ubble — 4 operation(s) for website verifications (coming soon).
   name: Ubble Website verifications (Coming soon) API
   slug: ubble-website-verifications-coming-soon-api
 artifact_total: 28
@@ -260,7 +282,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -270,7 +292,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 41.5
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -281,7 +303,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubble/refs/heads/main/screenshots/ubble-2026-08-17T082623.png
 security:

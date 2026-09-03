@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -47,19 +47,29 @@ apis:
 - description: Official Python SDK for the WattTime API providing simplified access to real-time, forecast, and historical emissions data.
   name: WattTime Python Client
   slug: watttime-python-client
-- description: Account information and access management.
+- baseURL: https://api.watttime.org/v3
+  baseurl_source: declared
+  description: Account information and access management.
   name: WattTime Account API
   slug: watttime-account-api
-- description: Register for an account and obtain access tokens.
+- baseURL: https://api.watttime.org/v3
+  baseurl_source: declared
+  description: Register for an account and obtain access tokens.
   name: WattTime Authentication API
   slug: watttime-authentication-api
-- description: Access real-time, historical, and forecast marginal emissions signals for electric grids.
+- baseURL: https://api.watttime.org/v3
+  baseurl_source: declared
+  description: Access real-time, historical, and forecast marginal emissions signals for electric grids.
   name: WattTime Emissions Data API
   slug: watttime-emissions-data-api
-- description: Retrieve emissions forecasts and historical forecast data.
+- baseURL: https://api.watttime.org/v3
+  baseurl_source: declared
+  description: Retrieve emissions forecasts and historical forecast data.
   name: WattTime Forecasts API
   slug: watttime-forecasts-api
-- description: Discover and query grid balancing authorities and regions.
+- baseURL: https://api.watttime.org/v3
+  baseurl_source: declared
+  description: Discover and query grid balancing authorities and regions.
   name: WattTime Grid Regions API
   slug: watttime-grid-regions-api
 artifact_total: 81
@@ -391,7 +401,7 @@ score:
     regime_id: energy_utilities
     score: 23.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -43,94 +43,154 @@ agentic_access:
   summary_line: 150 operations · 74 acting
 api_count: 5
 apis:
-- description: APIs for managing user account balances
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing user account balances
   name: Cadana Balances API
   slug: cadana-balances-api
-- description: APIs for managing user beneficiaries
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing user beneficiaries
   name: Cadana Beneficiaries API
   slug: cadana-beneficiaries-api
-- description: APIs for interacting with Business
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with Business
   name: Cadana Businesses API
   slug: cadana-businesses-api
-- description: APIs for interacting with contracts
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with contracts
   name: Cadana Contracts API
   slug: cadana-contracts-api
-- description: APIs for interacting with Custom Authentication
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with Custom Authentication
   name: Cadana Custom Auth API
   slug: cadana-custom-auth-api
-- description: APIs for managing legal sub-entities (subsidiaries, branches) under a parent business
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing legal sub-entities (subsidiaries, branches) under a parent business
   name: Cadana Entities API
   slug: cadana-entities-api
-- description: Immutable audit trail
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Immutable audit trail
   name: Cadana Events API
   slug: cadana-events-api
-- description: APIs for interacting with file uploads
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with file uploads
   name: Cadana Files API
   slug: cadana-files-api
-- description: Create, submit, and track statutory returns — from upcoming obligations through acceptance
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Create, submit, and track statutory returns — from upcoming obligations through acceptance
   name: Cadana Filings API
   slug: cadana-filings-api
-- description: APIs for managing foreign exchange rates
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing foreign exchange rates
   name: Cadana FX API
   slug: cadana-fx-api
-- description: APIs for interacting with Instant Pay functionality
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with Instant Pay functionality
   name: Cadana Instant Pay API
   slug: cadana-instant-pay-api
-- description: APIs for interacting with invoices
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with invoices
   name: Cadana Invoices API
   slug: cadana-invoices-api
-- description: Discover supported countries, required fields, and filing types
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Discover supported countries, required fields, and filing types
   name: Cadana Jurisdictions API
   slug: cadana-jurisdictions-api
-- description: APIs for business verification
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for business verification
   name: Cadana KYB API
   slug: cadana-kyb-api
-- description: APIs for milestone-based contractor pay
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for milestone-based contractor pay
   name: Cadana Milestones API
   slug: cadana-milestones-api
-- description: APIs for managing payouts
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing payouts
   name: Cadana Payouts API
   slug: cadana-payouts-api
-- description: APIs for interacting with Payroll
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with Payroll
   name: Cadana Payrolls API
   slug: cadana-payrolls-api
-- description: APIs for interacting with the HR module
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with the HR module
   name: Cadana Persons API
   slug: cadana-persons-api
-- description: Platform APIs for interacting with businesses
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Platform APIs for interacting with businesses
   name: Cadana Platform API
   slug: cadana-platform-api
-- description: APIs for interacting with reimbursements
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with reimbursements
   name: Cadana Reimbursements API
   slug: cadana-reimbursements-api
-- description: Government payments linked to filings
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Government payments linked to filings
   name: Cadana Remittances API
   slug: cadana-remittances-api
-- description: Prerequisites that must be satisfied before filing
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Prerequisites that must be satisfied before filing
   name: Cadana Requirements API
   slug: cadana-requirements-api
-- description: Resource APIs to access and manage foundational data
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Resource APIs to access and manage foundational data
   name: Cadana Resources API
   slug: cadana-resources-api
-- description: APIs for relevant sandbox simulations
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for relevant sandbox simulations
   name: Cadana Sandbox API
   slug: cadana-sandbox-api
-- description: Submit and read entity-level statutory filing data
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: Submit and read entity-level statutory filing data
   name: Cadana Statutory Fields API
   slug: cadana-statutory-fields-api
-- description: APIs for tax calculations
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for tax calculations
   name: Cadana Tax Calculator API
   slug: cadana-tax-calculator-api
-- description: APIs for managing user transactions
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing user transactions
   name: Cadana Transactions API
   slug: cadana-transactions-api
-- description: APIs for business balances, funding, and withdrawals
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for business balances, funding, and withdrawals
   name: Cadana Treasury API
   slug: cadana-treasury-api
-- description: APIs for interacting with employee/contractor Cadana accounts
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for interacting with employee/contractor Cadana accounts
   name: Cadana Users API
   slug: cadana-users-api
-- description: APIs for managing virtual accounts
+- baseURL: https://api.cadanapay.com
+  baseurl_source: declared
+  description: APIs for managing virtual accounts
   name: Cadana Virtual Accounts API
   slug: cadana-virtual-accounts-api
 arazzos:
@@ -396,7 +456,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -406,7 +466,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -424,7 +484,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadana/refs/heads/main/screenshots/cadana-2026-07-25T204209.png
 security:

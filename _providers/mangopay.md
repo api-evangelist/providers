@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -44,76 +44,124 @@ agentic_access:
   summary_line: 215 operations · 116 acting
 api_count: 1
 apis:
-- description: The Bank Accounts API from Mangopay — 7 operation(s) for bank accounts.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Bank Accounts API from Mangopay — 7 operation(s) for bank accounts.
   name: Mangopay Bank Accounts API
   slug: mangopay-bank-accounts-api
-- description: The Client (Platform) API from Mangopay — 2 operation(s) for client (platform).
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Client (Platform) API from Mangopay — 2 operation(s) for client (platform).
   name: Mangopay Client (Platform) API
   slug: mangopay-client-platform-api
-- description: The Client Wallets API from Mangopay — 4 operation(s) for client wallets.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Client Wallets API from Mangopay — 4 operation(s) for client wallets.
   name: Mangopay Client Wallets API
   slug: mangopay-client-wallets-api
-- description: The Conversions (FX) API from Mangopay — 6 operation(s) for conversions (fx).
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Conversions (FX) API from Mangopay — 6 operation(s) for conversions (fx).
   name: Mangopay Conversions (FX) API
   slug: mangopay-conversions-fx-api
-- description: The Country authorizations API from Mangopay — 2 operation(s) for country authorizations.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Country authorizations API from Mangopay — 2 operation(s) for country authorizations.
   name: Mangopay Country authorizations API
   slug: mangopay-country-authorizations-api
-- description: The Disputes API from Mangopay — 16 operation(s) for disputes.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Disputes API from Mangopay — 16 operation(s) for disputes.
   name: Mangopay Disputes API
   slug: mangopay-disputes-api
-- description: The Echo API from Mangopay — 17 operation(s) for echo.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Echo API from Mangopay — 17 operation(s) for echo.
   name: Mangopay Echo API
   slug: mangopay-echo-api
-- description: The IDV Sessions (hosted KYC API from Mangopay — 2 operation(s) for idv sessions (hosted kyc.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The IDV Sessions (hosted KYC API from Mangopay — 2 operation(s) for idv sessions (hosted kyc.
   name: Mangopay IDV Sessions (hosted KYC API
   slug: mangopay-idv-sessions-hosted-kyc-api
-- description: The KYC Documents API from Mangopay — 5 operation(s) for kyc documents.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The KYC Documents API from Mangopay — 5 operation(s) for kyc documents.
   name: Mangopay KYC Documents API
   slug: mangopay-kyc-documents-api
-- description: The Notifications API from Mangopay — 3 operation(s) for notifications.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Notifications API from Mangopay — 3 operation(s) for notifications.
   name: Mangopay Notifications API
   slug: mangopay-notifications-api
-- description: The Payment methods API from Mangopay — 61 operation(s) for payment methods.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Payment methods API from Mangopay — 61 operation(s) for payment methods.
   name: Mangopay Payment methods API
   slug: mangopay-payment-methods-api
-- description: The Payouts API from Mangopay — 4 operation(s) for payouts.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Payouts API from Mangopay — 4 operation(s) for payouts.
   name: Mangopay Payouts API
   slug: mangopay-payouts-api
-- description: The Recipients API from Mangopay — 5 operation(s) for recipients.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Recipients API from Mangopay — 5 operation(s) for recipients.
   name: Mangopay Recipients API
   slug: mangopay-recipients-api
-- description: The Refunds API from Mangopay — 5 operation(s) for refunds.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Refunds API from Mangopay — 5 operation(s) for refunds.
   name: Mangopay Refunds API
   slug: mangopay-refunds-api
-- description: The Reporting API from Mangopay — 6 operation(s) for reporting.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Reporting API from Mangopay — 6 operation(s) for reporting.
   name: Mangopay Reporting API
   slug: mangopay-reporting-api
-- description: The Transactions API from Mangopay — 6 operation(s) for transactions.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Transactions API from Mangopay — 6 operation(s) for transactions.
   name: Mangopay Transactions API
   slug: mangopay-transactions-api
-- description: The Transfers API from Mangopay — 2 operation(s) for transfers.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Transfers API from Mangopay — 2 operation(s) for transfers.
   name: Mangopay Transfers API
   slug: mangopay-transfers-api
-- description: The UBO Declarations API from Mangopay — 5 operation(s) for ubo declarations.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The UBO Declarations API from Mangopay — 5 operation(s) for ubo declarations.
   name: Mangopay UBO Declarations API
   slug: mangopay-ubo-declarations-api
-- description: The User Data Format API from Mangopay — 1 operation(s) for user data format.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The User Data Format API from Mangopay — 1 operation(s) for user data format.
   name: Mangopay User Data Format API
   slug: mangopay-user-data-format-api
-- description: The User EMoney API from Mangopay — 1 operation(s) for user emoney.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The User EMoney API from Mangopay — 1 operation(s) for user emoney.
   name: Mangopay User EMoney API
   slug: mangopay-user-emoney-api
-- description: The User Regulatory Status API from Mangopay — 1 operation(s) for user regulatory status.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The User Regulatory Status API from Mangopay — 1 operation(s) for user regulatory status.
   name: Mangopay User Regulatory Status API
   slug: mangopay-user-regulatory-status-api
-- description: The Users API from Mangopay — 16 operation(s) for users.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Users API from Mangopay — 16 operation(s) for users.
   name: Mangopay Users API
   slug: mangopay-users-api
-- description: The View an API Response API from Mangopay — 1 operation(s) for view an api response.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The View an API Response API from Mangopay — 1 operation(s) for view an api response.
   name: Mangopay View an API Response API
   slug: mangopay-view-an-api-response-api
-- description: The Wallets API from Mangopay — 9 operation(s) for wallets.
+- baseURL: https://api.mangopay.com
+  baseurl_source: declared
+  description: The Wallets API from Mangopay — 9 operation(s) for wallets.
   name: Mangopay Wallets API
   slug: mangopay-wallets-api
 artifact_total: 60
@@ -339,7 +387,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.1
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -349,7 +397,7 @@ score:
     discoverability: 63.0
     governance: 7.6
     operational_transparency: 26.3
-  previous_composite: 44.8
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -364,7 +412,7 @@ score:
     regime_id: payments
     score: 42.2
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
 security:

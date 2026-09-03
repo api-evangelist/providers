@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -69,7 +69,9 @@ apis:
 - description: The RudderStack Event Stream API manages real-time event-stream pipelines — sources, destinations, connections, event filters, and feature toggles — that route events from collection to downstream too
   name: RudderStack Event Stream API
   slug: rudderstack-event-stream-api
-- description: The RudderStack Webhook Source API receives inbound webhooks from third-party SaaS tools and normalizes them into RudderStack events for downstream routing.
+- baseURL: https://{dataPlaneUrl}
+  baseurl_source: declared
+  description: The RudderStack Webhook Source API receives inbound webhooks from third-party SaaS tools and normalizes them into RudderStack events for downstream routing.
   name: RudderStack Webhook Source API
   slug: rudderstack-webhook-source-api
 - description: The RudderStack Warehouse Destination API configures and operates loads into supported warehouses (Snowflake, BigQuery, Redshift, Postgres, Databricks, Trino, S3 Data Lake) with configurable sync inte
@@ -78,10 +80,14 @@ apis:
 - description: The RudderStack Orchestration API integrates with Airflow and Dagster to coordinate Reverse ETL syncs, Profiles model runs, and other RudderStack jobs from external orchestration systems.
   name: RudderStack Orchestration API
   slug: rudderstack-orchestration-api
-- description: The HTTP API API from RudderStack — 7 operation(s) for http api.
+- baseURL: https://{dataPlaneUrl}
+  baseurl_source: declared
+  description: The HTTP API API from RudderStack — 7 operation(s) for http api.
   name: RudderStack HTTP API API
   slug: rudderstack-http-api-api
-- description: The Internal API API from RudderStack — 5 operation(s) for internal api.
+- baseURL: https://{dataPlaneUrl}
+  baseurl_source: declared
+  description: The Internal API API from RudderStack — 5 operation(s) for internal api.
   name: RudderStack Internal API API
   slug: rudderstack-internal-api-api
 artifact_total: 32
@@ -426,7 +432,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
@@ -436,7 +442,7 @@ score:
     discoverability: 66.7
     governance: 31.8
     operational_transparency: 84.2
-  previous_composite: 77.1
+  previous_composite: 76.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -448,7 +454,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:

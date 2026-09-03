@@ -16,12 +16,12 @@
      "slug": "ok-capsule",
      "description": "OK Capsule is an on-demand, private-label supplement manufacturing and fulfillment platform. Health brands, telehealth providers, clinics and retailers use it to launch personalized daily vitamin packs without minimum order quantities, inventory or upfront deposits. The platform exposes its whole supply chain programmatically: a REST Core API V2 (199 operations across clients, consumers, orders, order lines, fulfillments, assemblies, batches, billings, product lines, pack builders and UPC codes) and a production remote MCP server that publishes the same catalog, pack-building, order and fulfillment surface as OAuth 2.1 scoped tools for Claude, ChatGPT, Gemini and other MCP hosts. Supplements are manufactured in cGMP-certified, FDA-registered facilities and lot-tested by ISO 17025 accredited third-party labs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ok-capsule/refs/heads/main/screenshots/ok-capsule-2026-09-02T150831.png",
-     "score": 60.6,
+     "score": 61.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 55.5,
+      "contract_quality": 58.9,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
@@ -29,7 +29,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -116,60 +116,16 @@
      "rank": 2
     },
     {
-     "name": "Spoonacular",
-     "slug": "spoonacular",
-     "description": "The Spoonacular Recipe and Food API provides programmatic access to thousands of recipes, thousands of ingredients, 800,000+ food products, and 100,000+ menu items, plus nutrition analysis, meal planning, wine pairing, and food classification. Authentication is via an API key sent in the x-api-key header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png",
-     "score": 56.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 75.5,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 81.0,
-      "commercial_clarity": 63.2,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 24.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Tandoor Recipes",
      "slug": "tandoor",
      "description": "Tandoor Recipes is an open-source, self-hostable recipe management, meal planning and shopping-list application built on Django and django-rest-framework, developed in Falkensee, Germany and offered both as freely self-hosted software (Docker, Kubernetes, Unraid, Synology, TrueNAS) and as a paid hosted service at app.tandoor.dev. Every feature of the product is driven by one REST API — recipes, steps, ingredients, foods, units, unit conversions, properties and nutrition, keywords, meal plans, meal types, shopping lists and shopping-list entries, supermarkets and supermarket category ordering, pantry inventory, recipe books, cook/view logs, spaces and households, user preferences, invite and share links, storage backends and external recipe sync, import/export of a dozen recipe formats, URL/image/PDF recipe scraping, an AI import and property-extraction pipeline routed through LiteLLM, and the Open Data food/unit/store reference database. The API is described by a live drf-spectacular OpenAPI 3.0.3 document served without authentication at /openapi/ on every instance, covering 244 paths and 462 operations across 244 component schemas, and it is the same contract the official Vue 3 frontend is generated against.",
-     "score": 56.2,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tandoor/refs/heads/main/screenshots/tandoor-2026-09-02T162516.png",
+     "score": 57.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 37.8,
+      "contract_quality": 41.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 76.3,
@@ -177,7 +133,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -200,6 +156,51 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Spoonacular",
+     "slug": "spoonacular",
+     "description": "The Spoonacular Recipe and Food API provides programmatic access to thousands of recipes, thousands of ingredients, 800,000+ food products, and 100,000+ menu items, plus nutrition analysis, meal planning, wine pairing, and food classification. Authentication is via an API key sent in the x-api-key header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png",
+     "score": 56.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 75.5,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 81.0,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -240,7 +241,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -272,12 +273,12 @@
      "slug": "wger",
      "description": "wger (wger Workout Manager) is a self-hosted, free and open source (AGPL-3.0) fitness, workout, nutrition and body-weight tracker written in Django. Its REST API is served under /api/v2/ on any wger instance — including the project's own hosted instance at wger.de — and publishes a complete OpenAPI 3.0.3 schema generated from the code at /api/v2/schema, covering 129 paths and 254 operations across routines, days, slots and per-iteration progression configs, workout logs and sessions, the community exercise database (exercises, translations, images, videos, muscles, equipment, categories), the ingredient and nutrition-plan catalog with an incremental ingredient-sync feed, body weight, body measurements, galleries and gamification trophies. System-wide reference data (exercises, ingredients, units) is readable without authentication; user-owned data takes a personal API token, a JWT issued via allauth-headless, an OAuth2/OIDC access token, or the session cookie. The project also ships a first-party Python API client, a first-party MCP server exposing 85 tools over the same API, React components, Flutter and Android apps, and Docker/Helm deployment stacks.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/wger/refs/heads/main/screenshots/wger-2026-06-20T201416.png",
-     "score": 46.1,
+     "score": 46.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 51.9,
-      "contract_quality": 47.0,
+      "contract_quality": 50.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 68.4,
@@ -285,7 +286,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -337,7 +338,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -396,7 +397,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -448,7 +449,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -500,7 +501,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -545,7 +546,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -583,6 +584,7 @@
      "name": "Tastewise",
      "slug": "tastewise",
      "description": "Tastewise is a food and beverage consumer-intelligence platform that reads live demand across social posts, recipes, restaurant menus and retail data, and exposes it to product-innovation, marketing, foodservice and retail-sales teams at CPG brands. The platform is built on menus from 1.4M+ restaurants, 12K+ retail brands, social signals from 90M+ consumers and a proprietary consumer panel. Tastewise sells a commercial REST API — documented publicly at docs.tastewise.io and served from api.tastewise.io — covering recipes, ingredients, dishes, restaurants, menus, consumer motivations, content discovery, trend validation and trend performance, plus an embedded widgets surface and bulk product-list operations with webhook callbacks. Access is per-customer: a bearer API key plus an X-Customer-Id header, with per-route permissions granted per contract. Customers include Nestle and Mars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tastewise/refs/heads/main/screenshots/tastewise-2026-09-02T162604.png",
      "score": 42.3,
      "band": "developing",
      "band_label": "Developing",
@@ -596,7 +598,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -627,6 +629,7 @@
      "name": "Swiss Food Composition Database",
      "slug": "swiss-food-composition-database",
      "description": "The Swiss Food Composition Database is the official reference dataset on the nutrient composition of foods available in Switzerland, published by the Federal Food Safety and Veterinary Office (FSVO / BLV). Version 7.1 (1 July 2026) covers 1,246 mostly generic foods across 19 main categories and 106 subcategories, with macronutrients, water, alcohol and energy for nearly every food, plus vitamins, minerals, fatty acid groups and individual fatty acids for most. The data is published free of charge in German, French, Italian and English, for commercial as well as scientific use, subject to acknowledgement of the source. Alongside the Excel export and the public search application, the FSVO operates a documented, entirely unauthenticated JSON REST API on the FoodCASE platform, described by a served OpenAPI 3.0.1 document with 21 read-only operations covering food search, single-food retrieval, nutrient values and their sources, ingredients, LanguaL codes, the category tree, component/unit reference data and the current database version.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/screenshots/swiss-food-composition-database-2026-09-02T161420.png",
      "score": 41.9,
      "band": "developing",
      "band_label": "Developing",
@@ -640,7 +643,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -692,7 +695,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -744,7 +747,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -796,7 +799,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -841,7 +844,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -876,8 +879,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 30,
-   "shown": 30,
+   "count": 31,
+   "shown": 31,
    "providers": [
     {
      "name": "Food Info",
@@ -896,7 +899,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -948,7 +951,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -993,7 +996,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1045,7 +1048,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1089,7 +1092,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1141,7 +1144,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1193,7 +1196,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1245,7 +1248,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1273,6 +1276,51 @@
      "rank": 25
     },
     {
+     "name": "Mealie",
+     "slug": "mealie",
+     "description": "Mealie is an open-source (AGPL-3.0), self-hosted recipe manager, meal planner and shopping-list application built on a FastAPI REST backend and a Vue frontend. Every feature in the UI is driven by the same public REST API: recipe CRUD and import-by-URL scraping, AI-assisted recipe creation, cookbooks, meal plans and mealplan rules, shopping lists and list items with cross-application \"extras\" key/value pairs, households and groups with multi-purpose labels, food/unit/tool organizers, a public \"Explore\" surface for unauthenticated browsing of shared content, scheduled webhooks, Apprise-backed event notifications, and admin backup/maintenance operations. The instance publishes its own OpenAPI 3.1 document and interactive Swagger UI at /openapi.json and /docs, authenticates with long-lived bearer API tokens (plus OIDC and LDAP for user login), and shares a uniform pagination, filtering and ordering grammar across nearly every collection endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mealie/refs/heads/main/screenshots/mealie-2026-09-02T150450.png",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 53.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "agent_score": 25.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
+    },
+    {
      "name": "United States Department of Agriculture",
      "slug": "united-states-department-of-agriculture",
      "description": "The United States Department of Agriculture (USDA) is a federal agency responsible for developing and executing policies related to farming, agriculture, forestry, and food. The USDA works to ensure the sustainability and safety of America's food supply, while also supporting rural development and promoting economic growth in rural communities. USDA provides multiple public APIs including FoodData Central for nutrient data, NASS Quick Stats for agricultural statistics, ERS ARMS for farm economics, and NRCS AWDB for water and climate monitoring data.",
@@ -1290,7 +1338,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1322,51 +1370,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
-    },
-    {
-     "name": "Mealie",
-     "slug": "mealie",
-     "description": "Mealie is an open-source (AGPL-3.0), self-hosted recipe manager, meal planner and shopping-list application built on a FastAPI REST backend and a Vue frontend. Every feature in the UI is driven by the same public REST API: recipe CRUD and import-by-URL scraping, AI-assisted recipe creation, cookbooks, meal plans and mealplan rules, shopping lists and list items with cross-application \"extras\" key/value pairs, households and groups with multi-purpose labels, food/unit/tool organizers, a public \"Explore\" surface for unauthenticated browsing of shared content, scheduled webhooks, Apprise-backed event notifications, and admin backup/maintenance operations. The instance publishes its own OpenAPI 3.1 document and interactive Swagger UI at /openapi.json and /docs, authenticates with long-lived bearer API tokens (plus OIDC and LDAP for user login), and shares a uniform pagination, filtering and ordering grammar across nearly every collection endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mealie/refs/heads/main/screenshots/mealie-2026-09-02T150450.png",
-     "score": 36.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 50.1,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "agent_score": 25.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 27
     },
     {
@@ -1387,7 +1390,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1439,7 +1442,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1491,7 +1494,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1536,7 +1539,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1581,7 +1584,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1633,7 +1636,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1685,7 +1688,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1737,7 +1740,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -1782,7 +1785,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1827,7 +1830,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1872,7 +1875,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1924,7 +1927,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -1976,7 +1979,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2028,7 +2031,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2080,7 +2083,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2132,7 +2135,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2184,7 +2187,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2222,12 +2225,13 @@
      "name": "SparkyFitness",
      "slug": "sparkyfitness",
      "description": "SparkyFitness is a self-hosted, open-source health and fitness tracker for food, exercise, water, sleep, mood, body measurements and medications, built for families and designed around an AI assistant. It ships a full Express 5 + PostgreSQL REST API (423 operations across 328 paths, described by an OpenAPI 3.0 document the server generates and serves at /api/api-docs/json) and — unusually for a project this size — a first-party Model Context Protocol server running in-process at POST /mcp, exposing 56 tools for logging and reading a user's own health data under PostgreSQL row-level security. It synchronises with Garmin, Fitbit, Withings, Strava, Polar, Oura, Hevy, Apple HealthKit and Google Health Connect, and looks food up against OpenFoodFacts, USDA, FatSecret and Nutritionix. Because it is self-hosted, there is no vendor API host, no pricing and no signup: you run the containers and the API is yours. Distributed under a source-available non-commercial licence.",
-     "score": 30.7,
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sparkyfitness/refs/heads/main/screenshots/sparkyfitness-2026-09-02T160339.png",
+     "score": 31.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 11.5,
+      "contract_quality": 14.4,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 39.5,
@@ -2235,7 +2239,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2287,7 +2291,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2339,7 +2343,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2365,6 +2369,58 @@
       "agentic_commerce": false
      },
      "rank": 47
+    },
+    {
+     "name": "Scimar",
+     "slug": "scimar",
+     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
+     "score": 26.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 16.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 20.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-02",
+     "schema_version": "0.18.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 52.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 48
     }
    ]
   },
@@ -2373,8 +2429,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 79,
-   "shown": 79,
+   "count": 78,
+   "shown": 78,
    "providers": [
     {
      "name": "SideChef",
@@ -2394,7 +2450,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
@@ -2419,7 +2475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Create Wellness",
@@ -2439,7 +2495,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2471,7 +2527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Archer Daniels Midland",
@@ -2491,7 +2547,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -2516,7 +2572,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Lark",
@@ -2536,7 +2592,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2583,58 +2639,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
-    },
-    {
-     "name": "Scimar",
-     "slug": "scimar",
-     "description": "Scimar (Scimar Ltd., formerly styled SciMar) is a privately held Canadian life-sciences company founded in 2009 with its head office in Dauphin, Manitoba and research laboratories in Winnipeg. It commercializes the work of co-founder and Chief Scientific Officer Dr. W. Wayne Lautt, who in 1996 identified hepatalin — known in the literature as hepatic insulin-sensitizing substance, or HISS — a liver hormone Scimar describes as the missing link in nutrient partitioning, prediabetes and type 2 diabetes. Its pipeline pairs diagnostics with therapeutics: SciMar NuPa Test, a diagnostic test meal that measures hepatalin production and is in Phase 2 clinical trials in Canada; SciMar NuPa Renew, a pre-meal pharmaceutical preparing for Phase 2B; SciMar NuPa Daily, an antioxidant supplement intended to protect hepatalin production; and Hepatalin-S, a synthetic hepatalin for advanced-stage disease. Alongside the science the company runs the Wellness Transformation Network, a community outreach program with nonprofits, Indigenous communities and Manitoba businesses, and produces the Webby-nominated science podcast Inside the Breakthrough hosted by Dan Riskin. Scimar publishes no product or developer API and operates no developer program. The machine-readable surface on scimar.ca is CMS-provided: a served llms.txt generated by All in One SEO, the anonymously readable WordPress REST API (wp/v2) that returns news stories, pages, team profiles, media and site search as JSON, and a WordPress MCP Adapter that advertises two Model Context Protocol endpoints plus RFC 8414 and RFC 9728 OAuth discovery documents — all of which are authentication-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scimar/refs/heads/main/screenshots/scimar-2026-09-02T154535.png",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 13.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 20.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-01",
-     "schema_version": "0.18.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 52.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 52
     },
     {
@@ -2655,7 +2659,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -2700,7 +2704,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2752,7 +2756,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2804,7 +2808,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
@@ -2849,7 +2853,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.0,
      "agent_band": "agent-aware",
@@ -2894,7 +2898,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -2946,7 +2950,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3009,7 +3013,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3061,7 +3065,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -3106,7 +3110,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3144,6 +3148,7 @@
      "name": "Soylent",
      "slug": "soylent",
      "description": "Soylent is a nutrition company known for its plant-based, complete-nutrition meal-replacement drinks, powders, and bars, sold direct-to-consumer through its Shopify-powered online store at soylent.com. It reached the API Evangelist network as a portfolio company of a16z and GV. Soylent publishes no traditional developer program, but its storefront is agent-native: it implements the Universal Commerce Protocol (UCP) with a live MCP endpoint for agent-driven catalog search, cart, and buyer-approved checkout; publishes /llms.txt and /agents.md agent instructions; and exposes Shopify Customer Account OAuth 2.0 / OpenID Connect authentication with a discoverable authorization server. This profile captures that agent-commerce and authentication surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/soylent/refs/heads/main/screenshots/soylent-2026-09-02T160303.png",
      "score": 22.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3157,7 +3162,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -3202,7 +3207,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 32.6,
      "agent_band": "agent-ready",
@@ -3233,6 +3238,7 @@
      "name": "Vivoo",
      "slug": "vivoo",
      "description": "Vivoo is a wellness technology company offering science-backed, at-home urine test strips paired with a mobile app that turns results into personalized nutrition and lifestyle recommendations. Its lineup includes the 8-parameter Vivoo Wellness Test, an at-home UTI test, fertility/ovulation and vaginal pH tests, and a connected Smart Toilet. The direct-to-consumer store runs on Shopify and exposes a native agent-commerce surface: a published llms.txt/agents.md, a Universal Commerce Protocol (UCP) merchant profile at /.well-known/ucp, and a hosted UCP shopping MCP server for agent-driven catalog search, cart, and buyer-approved checkout. Backed by 500 Global and Techstars.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vivoo/refs/heads/main/screenshots/vivoo-2026-09-02T170145.png",
      "score": 21.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3246,7 +3252,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3284,6 +3290,7 @@
      "name": "Yummly",
      "slug": "yummly",
      "description": "Yummly is a recipe and food discovery platform (yummly.com) offering semantic and visual recipe search, personalized recommendations, shopping lists, and guided cooking. Founded in 2009 (Redwood City, CA), Yummly was acquired by Whirlpool Corporation in May 2017 and operated as a wholly owned subsidiary tied to Whirlpool's smart-kitchen strategy. Yummly historically ran a well-known public Recipe API (developer.yummly.com) exposing recipe search, recipe details, and metadata endpoints. That developer program was DEPRECATED - it stopped accepting new signups and was wound down (commonly cited end date of September 30, 2019), and the developer.yummly.com developer portal and api.yummly.com endpoints are no longer available. There is no public Yummly developer API accepting new registrations as of this cataloging (2026-07-03); the APIs below are documented as historical / modeled for archival and migration reference only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yummly/refs/heads/main/screenshots/yummly-2026-09-02T171405.png",
      "score": 20.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3297,7 +3304,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3342,7 +3349,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -3387,7 +3394,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3425,6 +3432,7 @@
      "name": "TrueCoach",
      "slug": "truecoach",
      "description": "TrueCoach is a personal-training and remote-coaching platform for strength coaches, personal trainers, and physical therapists to deliver workouts online and train clients remotely. Started as Fitbot out of Techstars Boulder and now an Xplor Technologies brand, it offers a web app plus iOS and Android client apps with program and workout builders, a video exercise library, nutrition tracking, wearables data, Stripe-powered payments, a MyFitnessPal integration, and a Zapier connector — but publishes no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/truecoach/refs/heads/main/screenshots/truecoach-2026-09-02T164342.png",
      "score": 19.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3438,7 +3446,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3490,7 +3498,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 18.7,
      "agent_band": "agent-aware",
@@ -3535,7 +3543,7 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3587,12 +3595,12 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": false,
       "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -3623,6 +3631,7 @@
      "name": "Sworkit",
      "slug": "sworkit",
      "description": "Sworkit Health is a digital wellbeing platform combining on-demand fitness, mindfulness, mobility and recovery, nutrition, and wellness challenges to help organizations improve employee engagement and workforce health. Rather than a public REST API, Sworkit exposes its workout content to developers through the Sworkit Workout Player Platform — an embeddable web player and a React Native mobile SDK component, both published on npm under the @sworkit org. Its security and compliance posture covers SOC 2 Type 2, HIPAA, and GDPR.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sworkit/refs/heads/main/screenshots/sworkit-2026-09-02T161428.png",
      "score": 18.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3636,7 +3645,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3688,7 +3697,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3740,7 +3749,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3792,7 +3801,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3837,7 +3846,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3875,6 +3884,7 @@
      "name": "Virta Health",
      "slug": "virta-health",
      "description": "Virta Health is a virtual, nutrition-first healthcare company delivering sustainable weight loss and type 2 diabetes reversal. Its program combines personalized nutrition plans, continuous expert health coaching, physician-led medication management, and connected devices, delivered through a consumer mobile app and sold to employers, health plans, and healthcare providers. Virta is HITRUST- and SOC 2 Type II-certified and operates as a HIPAA-covered clinical service. As of this enrichment pass Virta publishes no public developer API, developer portal, or machine-readable specification surface; this profile captures its public identity, security posture, and compliance certifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/virta-health/refs/heads/main/screenshots/virta-health-2026-09-02T170015.png",
      "score": 16.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -3888,7 +3898,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -3940,7 +3950,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -3985,7 +3995,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4037,7 +4047,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4082,7 +4092,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4127,7 +4137,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4179,7 +4189,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4231,7 +4241,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4283,7 +4293,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4321,6 +4331,7 @@
      "name": "Viome",
      "slug": "viome",
      "description": "Viome (Viome Life Sciences) is a health technology company founded in 2016 by Naveen Jain that uses metatranscriptomic RNA sequencing — a technique originally developed for biodefense at Los Alamos National Laboratory — combined with artificial intelligence to measure active gene expression across the gut microbiome, oral microbiome, and human cells. From at-home stool, saliva, and finger-prick blood samples the company produces over 50 health scores across eight categories (BioAge, Gut Health, Oral Health, Energy, Inflammaging, Mood/Memory/Focus, Immunity, and Heart and Metabolic Health), personalized food recommendations across more than 370 foods, and custom-blended precision supplements and biotics. Products include the Full Body Intelligence, Gut Intelligence, and Oral Health Intelligence tests plus the CancerDetect saliva screening test for oral and throat cancer. Viome operates in over 100 countries, publishes peer-reviewed research in NPJ Genomic Medicine, iScience, and Microbiome, and runs a Life Sciences research division. Viome publishes no public developer API or machine-readable API contract; its consumer app at my.viome.com is served by an undocumented private backend, and the only agent-facing artifact the company publishes is a curated llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viome/refs/heads/main/screenshots/viome-2026-09-02T165943.png",
      "score": 15.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4334,7 +4345,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4386,7 +4397,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4431,7 +4442,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4476,7 +4487,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4528,7 +4539,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4566,6 +4577,7 @@
      "name": "Womaness",
      "slug": "womaness",
      "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/womaness/refs/heads/main/screenshots/womaness-2026-09-02T170905.png",
      "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
@@ -4579,7 +4591,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4631,7 +4643,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4683,7 +4695,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4735,7 +4747,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4787,7 +4799,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4832,7 +4844,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4884,7 +4896,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4936,7 +4948,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -4988,7 +5000,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5040,7 +5052,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5071,6 +5083,7 @@
      "name": "YAZIO",
      "slug": "yazio",
      "description": "YAZIO GmbH is an Erfurt, Germany based digital health company whose nutrition app pairs calorie and macro tracking with barcode scanning, AI photo food logging, an intermittent-fasting timer, a 3,000-recipe library and body-metric tracking across iOS, Android and the web. The company describes itself as remote-first, cites more than 100 million downloads across over 150 countries, and sells a freemium product: a free tier plus a \"YAZIO PRO\" subscription transacted through the Apple App Store and Google Play rather than through a pricing page on yazio.com. YAZIO publishes no developer program of any kind — no developer portal, no API reference, no OpenAPI, AsyncAPI or GraphQL contract, no SDKs, no CLI, no MCP server, no changelog, no status page and no security.txt. Its apps talk to a private backend at https://yzapi.yazio.com, which is live but answers 401 with an empty body to anonymous requests and issues OAuth client credentials through no public process. Every YAZIO OpenAPI description, client library and MCP server in circulation is third-party reverse-engineering that states in its own README that it is unofficial and unaffiliated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yazio/refs/heads/main/screenshots/yazio-2026-09-02T171238.png",
      "score": 13.0,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5084,7 +5097,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5136,7 +5149,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5188,7 +5201,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5233,7 +5246,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5278,7 +5291,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5330,7 +5343,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5382,7 +5395,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5420,6 +5433,7 @@
      "name": "Weekend Health (Found)",
      "slug": "weekend-health-found",
      "description": "Weekend Health, Inc. (operating as Found / Found Health) is a consumer telehealth company offering personalized, science-based weight-loss care, including GLP-1 and other obesity medications, clinician oversight, coaching, and habit-change support delivered direct-to-consumer and through employer and health-plan channels. It was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network. No public developer API, documentation, or developer portal is published as of this enrichment pass; the profile carries the company identity plus a probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/weekend-health-found/refs/heads/main/screenshots/weekend-health-found-2026-09-02T170551.png",
      "score": 12.6,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5433,7 +5447,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5484,7 +5498,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5522,6 +5536,7 @@
      "name": "SuppCo",
      "slug": "suppco",
      "description": "SuppCo is a consumer supplement tracking and optimization platform, describing itself as the world's first real supplement tracker and optimizer. Its iOS and Android app lets people log their supplement stack and get a personalized StackScore across quality, dosing, goal coverage, and nutrient levels, plus a TrustScore that rates products on 29 attributes. It is backed by a database of 160,000+ products, 20,000+ research studies, and 80+ expert protocols from functional-medicine practitioners. SuppCo is in open beta (free, with an optional Pro tier) and was acquired by Function Health. No public developer API, OpenAPI, or developer portal is currently published; this profile captures its public web, security, and legal surface. Surfaced as a portfolio company of Union Square Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suppco/refs/heads/main/screenshots/suppco-2026-09-02T161300.png",
      "score": 12.5,
      "band": "emerging",
      "band_label": "Emerging",
@@ -5535,7 +5550,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5587,7 +5602,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5639,7 +5654,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5691,7 +5706,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -5736,7 +5751,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5781,7 +5796,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5833,7 +5848,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5885,7 +5900,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5937,7 +5952,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -5989,7 +6004,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6034,7 +6049,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6079,7 +6094,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6124,7 +6139,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6176,7 +6191,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6228,7 +6243,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6266,6 +6281,7 @@
      "name": "truBrain",
      "slug": "trubrain",
      "description": "truBrain is a Santa Monica, California nootropics and functional-beverage brand that makes \"natural superfuels for performance\" — drinkable nootropic shots (2,000mg of natural nootropics per 1oz bottle for focus and motivation), drinkable ketones (Ketone XL, 11g of pure ketones per shot for athletic energy and recovery), plus gummies, functional-mushroom blends, capsules, NAD+, hydration, and sleep supplements, packaged in recycled paper bottles. Founded by a team of neuroscientists and backed by 500 Global, the company sells direct-to-consumer through a Shopify storefront and has run a Regulation A+ public equity offering. This profile was surfaced from the 500 Global portfolio and added to the API Evangelist network. truBrain is a consumer packaged-goods company: it publishes no first-party developer API, documentation, or SDKs. The only machine-readable surface at its domain is Shopify's Customer Accounts OpenID Connect / OAuth 2.0 discovery metadata.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trubrain/refs/heads/main/screenshots/trubrain-2026-09-02T164328.png",
      "score": 11.1,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6279,7 +6295,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6341,7 +6357,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6393,7 +6409,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6445,7 +6461,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6490,7 +6506,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6535,7 +6551,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6580,7 +6596,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6632,7 +6648,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6684,7 +6700,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6736,7 +6752,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6774,6 +6790,7 @@
      "name": "The Feed",
      "slug": "the-feed",
      "description": "The Feed is an online sports nutrition store for endurance athletes, stocking products from more than 300 brands across fuel, hydration, supplements, and recovery. Founded by Matt Johnson while managing a Tour de France cycling team, it sells gels, chews, and drink mixes as single servings so athletes can test products without committing to full boxes, offers AutoShip subscriptions and a Feed First membership, and is the official nutrition partner of USA Triathlon. The company builds personalized fueling plans around before/during/after-workout nutrition, tested with input from over 200,000 athletes. It is a consumer e-commerce brand (Shopify storefront) with no public developer API; its machine-readable surfaces are a published llms.txt and a Google Merchant product feed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-feed/refs/heads/main/screenshots/the-feed-2026-09-02T163346.png",
      "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6787,7 +6804,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6832,7 +6849,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6884,7 +6901,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6929,7 +6946,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -6981,7 +6998,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7033,7 +7050,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7071,6 +7088,7 @@
      "name": "The Fit Body Co",
      "slug": "the-fit-body-co",
      "description": "The Fit Body Co (Fitbody) is a Mexican direct-to-consumer sports nutrition and dietary supplements brand selling isolated and hydrolyzed protein powders, creatine, vitamins, and wellness products, along with digital recipe guides, through a Shopify-based online storefront at fitbody.mx. It is a portfolio company of 500 Global. As an e-commerce retail brand it publishes no public developer API, developer portal, SDK, or API documentation; this API Evangelist profile captures its company identity and domain-security posture rather than an API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/the-fit-body-co/refs/heads/main/screenshots/the-fit-body-co-2026-09-02T163357.png",
      "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -7084,7 +7102,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7136,7 +7154,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7181,7 +7199,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7226,7 +7244,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7278,7 +7296,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7323,7 +7341,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7375,7 +7393,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7420,7 +7438,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7465,7 +7483,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7517,7 +7535,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7569,7 +7587,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7621,7 +7639,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7673,7 +7691,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7725,7 +7743,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -7770,7 +7788,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7815,7 +7833,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7860,7 +7878,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -7912,7 +7930,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7957,7 +7975,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8002,7 +8020,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8047,7 +8065,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8092,7 +8110,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8123,6 +8141,7 @@
      "name": "THG",
      "slug": "thg",
      "description": "THG plc (formerly The Hut Group) is a UK-based consumer brands group founded in 2004 in Manchester and listed on the London Stock Exchange. Following the 2025 demerger of its Ingenuity technology and fulfilment division, THG is a pure-play consumer brands business operating two divisions: THG Beauty (home to Lookfantastic, Cult Beauty, Dermstore and prestige brand partners) and THG Nutrition (led by Myprotein, one of the world's largest online sports-nutrition brands). THG designs, manufactures and sells beauty and nutrition products direct-to-consumer across global markets. It was surfaced in the API Evangelist network as a portfolio company of Balderton Capital, an early investor. THG operates corporate, investor-relations and careers web properties but publishes no public developer API, developer portal, or API documentation; this profile captures its identity and a live domain-security probe.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thg/refs/heads/main/screenshots/thg-2026-09-02T163526.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8136,7 +8155,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8181,7 +8200,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8233,7 +8252,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8285,7 +8304,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8330,7 +8349,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8361,6 +8380,7 @@
      "name": "Sun Basket",
      "slug": "sun-basket",
      "description": "Sun Basket is a San Francisco-based meal-kit and prepared-meal delivery service offering organic, chef-designed recipes and ingredients shipped as weekly subscription boxes, with menus spanning dietary programs such as paleo, keto, vegetarian, gluten-free, and diabetes-friendly options. Surfaced as a portfolio company of sapphire-ventures and added to the API Evangelist network for enrichment, Sun Basket operates a consumer e-commerce and subscription-delivery product; no public developer API surface was found during enrichment probing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sun-basket/refs/heads/main/screenshots/sun-basket-2026-09-02T161127.png",
      "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -8374,7 +8394,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8419,7 +8439,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -8464,7 +8484,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8516,7 +8536,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8567,7 +8587,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8612,7 +8632,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8656,7 +8676,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -8708,7 +8728,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8752,7 +8772,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8797,7 +8817,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8842,7 +8862,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8886,7 +8906,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8930,7 +8950,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8974,7 +8994,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9019,7 +9039,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9063,7 +9083,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9107,7 +9127,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9151,7 +9171,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9196,7 +9216,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9248,7 +9268,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9300,7 +9320,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9345,7 +9365,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9390,7 +9410,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9441,7 +9461,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9493,7 +9513,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9544,7 +9564,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9596,7 +9616,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9647,7 +9667,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9699,7 +9719,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9737,6 +9757,7 @@
      "name": "Yacob",
      "slug": "yacob",
      "description": "Yacob was a Dubai-based Intelligent Nutrition platform and 500 Global portfolio company that combined cashless school-meal payments with nutrition monitoring. Pupils paid for school meals with a stored-value card while parents topped up accounts online, tracked transactions in real time, set spend and food limits, flagged allergies, and reviewed the nutritional value of their children's meals. The company appears dormant, with yacob.com no longer resolving as of 2026, and no public API surface was ever found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yacob/refs/heads/main/screenshots/yacob-2026-09-02T171216.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9750,7 +9771,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9802,7 +9823,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9853,7 +9874,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9904,7 +9925,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9956,7 +9977,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -9994,6 +10015,7 @@
      "name": "Wecare Probiotics",
      "slug": "wecare-bio",
      "description": "Wecare Probiotics (微康益生菌) is a Chinese biotechnology company specializing in probiotic strain research, intelligent manufacturing, and application solutions for the food, nutrition, and agriculture industries. It operates three research institutes and five intelligent manufacturing facilities across Suzhou, Luohe, and Wuhan, producing product lines including WecLac probiotics, WecPro formula, and WecCul. Its BLa80 strain became the first probiotic strain approved for infant food in mainland China. The company presents a corporate information website only; no public developer portal, API, or technical documentation is published, so this profile carries company identity rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wecare-bio/refs/heads/main/screenshots/wecare-bio-2026-09-02T170548.png",
      "score": 2.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10007,7 +10029,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10058,7 +10080,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10109,7 +10131,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,
@@ -10160,7 +10182,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-01",
+     "scored_at": "2026-09-02",
      "schema_version": "0.18.0",
      "regulatory": {
       "applies": true,

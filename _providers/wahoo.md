@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -50,28 +50,44 @@ apis:
 - description: Native Android SDK for interacting with Wahoo devices over BLE/ANT+ and integrating with the Wahoo Cloud. Documented at the Wahoo developer portal under the Android product. Access is gated by the Wah
   name: Wahoo Android API
   slug: wahoo-android-api
-- description: Revoke OAuth app access.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Revoke OAuth app access.
   name: Wahoo Fitness Permissions API
   slug: wahoo-permissions-api
-- description: Structured workout plans.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Structured workout plans.
   name: Wahoo Fitness Plans API
   slug: wahoo-plans-api
-- description: Cycling power training zones.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Cycling power training zones.
   name: Wahoo Fitness Power Zones API
   slug: wahoo-power-zones-api
-- description: Navigation / course data backed by FIT files.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Navigation / course data backed by FIT files.
   name: Wahoo Fitness Routes API
   slug: wahoo-routes-api
-- description: Authenticated user profile.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Authenticated user profile.
   name: Wahoo Fitness Users API
   slug: wahoo-users-api
-- description: Asynchronous FIT-file ingestion.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Asynchronous FIT-file ingestion.
   name: Wahoo Fitness Workout File Uploads API
   slug: wahoo-workout-file-uploads-api
-- description: Aggregate results for a completed workout.
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Aggregate results for a completed workout.
   name: Wahoo Fitness Workout Summaries API
   slug: wahoo-workout-summaries-api
-- description: Workout records (CRUD + listing).
+- baseURL: https://api.wahooligan.com
+  baseurl_source: declared
+  description: Workout records (CRUD + listing).
   name: Wahoo Fitness Workouts API
   slug: wahoo-workouts-api
 artifact_total: 34
@@ -258,7 +274,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -268,7 +284,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 40.8
-  previous_composite: 54.8
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -283,7 +299,7 @@ score:
     regime_id: energy_utilities
     score: 51.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

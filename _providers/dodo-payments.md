@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 49 operations · 25 acting
 api_count: 1
 apis:
-- description: The Checkout Sessions API from Dodo Payments — 2 operation(s) for checkout sessions.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Checkout Sessions API from Dodo Payments — 2 operation(s) for checkout sessions.
   name: Dodo Payments Checkout Sessions API
   slug: dodo-payments-checkout-sessions-api
-- description: The Customers API from Dodo Payments — 3 operation(s) for customers.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Customers API from Dodo Payments — 3 operation(s) for customers.
   name: Dodo Payments Customers API
   slug: dodo-payments-customers-api
-- description: The Discounts API from Dodo Payments — 2 operation(s) for discounts.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Discounts API from Dodo Payments — 2 operation(s) for discounts.
   name: Dodo Payments Discounts API
   slug: dodo-payments-discounts-api
-- description: The Disputes API from Dodo Payments — 2 operation(s) for disputes.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Disputes API from Dodo Payments — 2 operation(s) for disputes.
   name: Dodo Payments Disputes API
   slug: dodo-payments-disputes-api
-- description: The License Keys API from Dodo Payments — 2 operation(s) for license keys.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The License Keys API from Dodo Payments — 2 operation(s) for license keys.
   name: Dodo Payments License Keys API
   slug: dodo-payments-license-keys-api
-- description: The Licenses API from Dodo Payments — 3 operation(s) for licenses.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Licenses API from Dodo Payments — 3 operation(s) for licenses.
   name: Dodo Payments Licenses API
   slug: dodo-payments-licenses-api
-- description: The Payments API from Dodo Payments — 4 operation(s) for payments.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Payments API from Dodo Payments — 4 operation(s) for payments.
   name: Dodo Payments Payments API
   slug: dodo-payments-payments-api
-- description: The Payouts API from Dodo Payments — 1 operation(s) for payouts.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Payouts API from Dodo Payments — 1 operation(s) for payouts.
   name: Dodo Payments Payouts API
   slug: dodo-payments-payouts-api
-- description: The Products API from Dodo Payments — 4 operation(s) for products.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Products API from Dodo Payments — 4 operation(s) for products.
   name: Dodo Payments Products API
   slug: dodo-payments-products-api
-- description: The Refunds API from Dodo Payments — 2 operation(s) for refunds.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Refunds API from Dodo Payments — 2 operation(s) for refunds.
   name: Dodo Payments Refunds API
   slug: dodo-payments-refunds-api
-- description: The Subscriptions API from Dodo Payments — 4 operation(s) for subscriptions.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Subscriptions API from Dodo Payments — 4 operation(s) for subscriptions.
   name: Dodo Payments Subscriptions API
   slug: dodo-payments-subscriptions-api
-- description: The Webhooks API from Dodo Payments — 4 operation(s) for webhooks.
+- baseURL: https://live.dodopayments.com
+  baseurl_source: declared
+  description: The Webhooks API from Dodo Payments — 4 operation(s) for webhooks.
   name: Dodo Payments Webhooks API
   slug: dodo-payments-webhooks-api
 artifact_total: 33
@@ -231,7 +255,7 @@ score:
     regime_id: payments
     score: 28.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/screenshots/dodo-payments-2026-07-25T212230.png
 security:

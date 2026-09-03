@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -44,19 +44,29 @@ agentic_access:
   summary_line: 27 operations · 18 acting
 api_count: 1
 apis:
-- description: Group documents under a shared parse/extraction configuration.
+- baseURL: https://api.tensorlake.ai
+  baseurl_source: declared
+  description: Group documents under a shared parse/extraction configuration.
   name: Tensorlake Datasets API
   slug: tensorlake-datasets-api
-- description: Upload and manage files referenced by parse and extraction jobs.
+- baseURL: https://api.tensorlake.ai
+  baseurl_source: declared
+  description: Upload and manage files referenced by parse and extraction jobs.
   name: Tensorlake Files API
   slug: tensorlake-files-api
-- description: Asynchronous document parsing jobs.
+- baseURL: https://api.tensorlake.ai
+  baseurl_source: declared
+  description: Asynchronous document parsing jobs.
   name: Tensorlake Parse API
   slug: tensorlake-parse-api
-- description: MicroVM sandboxes for serverless workflows and agent code.
+- baseURL: https://api.tensorlake.ai
+  baseurl_source: declared
+  description: MicroVM sandboxes for serverless workflows and agent code.
   name: Tensorlake Sandboxes API
   slug: tensorlake-sandboxes-api
-- description: Schema-guided extraction, classification, read/OCR, and edit.
+- baseURL: https://api.tensorlake.ai
+  baseurl_source: declared
+  description: Schema-guided extraction, classification, read/OCR, and edit.
   name: Tensorlake Structured Extraction API
   slug: tensorlake-structured-extraction-api
 artifact_total: 18
@@ -156,7 +166,7 @@ score:
   band: developing
   composite: 41.7
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_gap: 51.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -179,8 +189,9 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/tensorlake/refs/heads/main/screenshots/tensorlake-2026-09-02T163114.png
 security:
 - kind: authentication
   name: Tensorlake Authentication

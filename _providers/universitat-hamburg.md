@@ -33,10 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Read API of the ZFDM Repository (Forschungsdatenrepositorium), operated by Universität Hamburg's Zentrum für nachhaltiges Forschungsdatenmanagement on the institution's own host. Returns records, comm
+- baseURL: https://www.fdr.uni-hamburg.de/api
+  baseurl_source: declared
+  description: Read API of the ZFDM Repository (Forschungsdatenrepositorium), operated by Universität Hamburg's Zentrum für nachhaltiges Forschungsdatenmanagement on the institution's own host. Returns records, comm
   name: ZFDM Research Data Repository API
   slug: zfdm-repository-api
 - description: 'OAI-PMH 2.0 harvesting interface of the ZFDM Research Data Repository. Verified live 2026-09-01: repositoryName "ZFDM Repository", adminEmail repository.fdm@uni-hamburg.de, earliest datestamp 2019-04-'
@@ -211,7 +213,7 @@ score:
     catalog_gap: 56.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 12.5
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -221,7 +223,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.7
+  previous_composite: 35.2
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +238,8 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: rising
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/screenshots/universitat-hamburg-2026-06-20T200115.png
 security:
 - kind: authentication

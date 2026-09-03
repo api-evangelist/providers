@@ -33,13 +33,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: Track events within agent sessions.
+- baseURL: https://api.sentrial.com
+  baseurl_source: declared
+  description: Track events within agent sessions.
   name: Sentrial Events API
   slug: sentrial-events-api
-- description: Create and manage agent sessions.
+- baseURL: https://api.sentrial.com
+  baseurl_source: declared
+  description: Create and manage agent sessions.
   name: Sentrial Sessions API
   slug: sentrial-sessions-api
 artifact_total: 8
@@ -192,7 +196,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentrial/refs/heads/main/screenshots/sentrial-2026-08-17T081809.png
 security:

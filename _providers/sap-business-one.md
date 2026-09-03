@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -49,31 +49,49 @@ apis:
 - description: COM-based Data Interface API for the SQL Server edition of SAP Business One providing programmatic access to business objects, master data, and transactional documents. The companion DI Server exposes
   name: SAP Business One DI API
   slug: di-api
-- description: The BusinessPartners API from SAP Business One — 1 operation(s) for businesspartners.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The BusinessPartners API from SAP Business One — 1 operation(s) for businesspartners.
   name: SAP Business One BusinessPartners API
   slug: sap-business-one-businesspartners-api
-- description: The BusinessPartners('{CardCode}') API from SAP Business One — 1 operation(s) for businesspartners('{cardcode}').
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The BusinessPartners('{CardCode}') API from SAP Business One — 1 operation(s) for businesspartners('{cardcode}').
   name: SAP Business One BusinessPartners('{CardCode}') API
   slug: sap-business-one-businesspartners-cardcode-api
-- description: The CompanyService GetCompanyInfo API from SAP Business One — 1 operation(s) for companyservice getcompanyinfo.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The CompanyService GetCompanyInfo API from SAP Business One — 1 operation(s) for companyservice getcompanyinfo.
   name: SAP Business One CompanyService GetCompanyInfo API
   slug: sap-business-one-companyservice-getcompanyinfo-api
-- description: The Invoices API from SAP Business One — 1 operation(s) for invoices.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Invoices API from SAP Business One — 1 operation(s) for invoices.
   name: SAP Business One Invoices API
   slug: sap-business-one-invoices-api
-- description: The Items API from SAP Business One — 1 operation(s) for items.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Items API from SAP Business One — 1 operation(s) for items.
   name: SAP Business One Items API
   slug: sap-business-one-items-api
-- description: The Login API from SAP Business One — 1 operation(s) for login.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Login API from SAP Business One — 1 operation(s) for login.
   name: SAP Business One Login API
   slug: sap-business-one-login-api
-- description: The Logout API from SAP Business One — 1 operation(s) for logout.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Logout API from SAP Business One — 1 operation(s) for logout.
   name: SAP Business One Logout API
   slug: sap-business-one-logout-api
-- description: The Orders API from SAP Business One — 1 operation(s) for orders.
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Orders API from SAP Business One — 1 operation(s) for orders.
   name: SAP Business One Orders API
   slug: sap-business-one-orders-api
-- description: The Orders({DocEntry}) API from SAP Business One — 1 operation(s) for orders({docentry}).
+- baseURL: https://<load-balancer>:50000/b1s/v2
+  baseurl_source: declared
+  description: The Orders({DocEntry}) API from SAP Business One — 1 operation(s) for orders({docentry}).
   name: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
 artifact_total: 26
@@ -212,7 +230,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/screenshots/sap-business-one-2026-06-20T193419.png
 security:

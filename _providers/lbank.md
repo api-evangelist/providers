@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -50,16 +50,24 @@ apis:
 - description: Authenticated WebSocket API for receiving real-time account balance and order status updates from LBank. Clients can subscribe to asset balance change notifications and live order execution updates in
   name: LBank WebSocket Account and Order API
   slug: websocket-account-order-api
-- description: Account balance and transaction history
+- baseURL: https://api.lbkex.com
+  baseurl_source: declared
+  description: Account balance and transaction history
   name: LBank Account API
   slug: lbank-account-api
-- description: Public market data endpoints for ticker, depth, trades, and K-line data
+- baseURL: https://api.lbkex.com
+  baseurl_source: declared
+  description: Public market data endpoints for ticker, depth, trades, and K-line data
   name: LBank Market Data API
   slug: lbank-market-data-api
-- description: Order placement, cancellation, and query
+- baseURL: https://api.lbkex.com
+  baseurl_source: declared
+  description: Order placement, cancellation, and query
   name: LBank Orders API
   slug: lbank-orders-api
-- description: Deposit and withdrawal management endpoints
+- baseURL: https://api.lbkex.com
+  baseurl_source: declared
+  description: Deposit and withdrawal management endpoints
   name: LBank Wallet API
   slug: lbank-wallet-api
 artifact_total: 38
@@ -250,7 +258,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lbank/refs/heads/main/screenshots/lbank-2026-06-20T184341.png
 security:

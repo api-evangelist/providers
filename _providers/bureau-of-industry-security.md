@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,9 @@ apis:
 - description: SNAP-R (Simplified Network Application Process Redesign) is the BIS online system for applying for export licenses, classifications, and authorizations under the Export Administration Regulations (EAR
   name: SNAP-R Export License Application System
   slug: snap-r
-- description: Search the Consolidated Screening List
+- baseURL: https://api.trade.gov/gateway/v1/consolidated_screening_list
+  baseurl_source: declared
+  description: Search the Consolidated Screening List
   name: Bureau of Industry Security Search API
   slug: bureau-of-industry-security-search-api
 artifact_total: 12
@@ -159,7 +161,7 @@ score:
     regime_id: government
     score: 29.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-security/refs/heads/main/screenshots/bureau-of-industry-security-2026-06-20T173808.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -44,40 +44,64 @@ agentic_access:
   summary_line: 55 operations · 31 acting
 api_count: 1
 apis:
-- description: Billing and shipping addresses.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Billing and shipping addresses.
   name: Commerce Layer Addresses API
   slug: commercelayer-addresses-api
-- description: Customer accounts.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Customer accounts.
   name: Commerce Layer Customers API
   slug: commercelayer-customers-api
-- description: Line items belonging to an order.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Line items belonging to an order.
   name: Commerce Layer Line Items API
   slug: commercelayer-line-items-api
-- description: Markets binding price list, inventory model, and merchant.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Markets binding price list, inventory model, and merchant.
   name: Commerce Layer Markets API
   slug: commercelayer-markets-api
-- description: Shopping carts and orders and their checkout lifecycle.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Shopping carts and orders and their checkout lifecycle.
   name: Commerce Layer Orders API
   slug: commercelayer-orders-api
-- description: Payment methods available for orders.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Payment methods available for orders.
   name: Commerce Layer Payment Methods API
   slug: commercelayer-payment-methods-api
-- description: Prices belonging to price lists, associated with SKUs.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Prices belonging to price lists, associated with SKUs.
   name: Commerce Layer Prices API
   slug: commercelayer-prices-api
-- description: Discounts, free shipping, free gifts, and other promotions.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Discounts, free shipping, free gifts, and other promotions.
   name: Commerce Layer Promotions API
   slug: commercelayer-promotions-api
-- description: Order shipments and fulfillment.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Order shipments and fulfillment.
   name: Commerce Layer Shipments API
   slug: commercelayer-shipments-api
-- description: Stock keeping units describing the product variations being sold.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Stock keeping units describing the product variations being sold.
   name: Commerce Layer SKUs API
   slug: commercelayer-skus-api
-- description: Stock quantities for a SKU at a given stock location.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Stock quantities for a SKU at a given stock location.
   name: Commerce Layer Stock Items API
   slug: commercelayer-stock-items-api
-- description: Event subscriptions delivering signed callbacks.
+- baseURL: https://yourdomain.commercelayer.io/api
+  baseurl_source: declared
+  description: Event subscriptions delivering signed callbacks.
   name: Commerce Layer Webhooks API
   slug: commercelayer-webhooks-api
 artifact_total: 33
@@ -225,7 +249,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commercelayer/refs/heads/main/screenshots/commercelayer-2026-07-25T210126.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,52 +44,84 @@ agentic_access:
   summary_line: 67 operations · 26 acting
 api_count: 1
 apis:
-- description: Manage image assets
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Manage image assets
   name: Reputation Asset Library API
   slug: reputation-asset-library-api
-- description: Authorization management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Authorization management
   name: Reputation Authorize API
   slug: reputation-authorize-api
-- description: Business listing categories
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Business listing categories
   name: Reputation Categories API
   slug: reputation-categories-api
-- description: OAuth credential management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: OAuth credential management
   name: Reputation Credentials API
   slug: reputation-credentials-api
-- description: Audit business listings across sources
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Audit business listings across sources
   name: Reputation Listing Audits API
   slug: reputation-listing-audits-api
-- description: Manage business locations
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Manage business locations
   name: Reputation Locations API
   slug: reputation-locations-api
-- description: Reputation metrics and insights
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Reputation metrics and insights
   name: Reputation Metrics API
   slug: reputation-metrics-api
-- description: Report generation and export
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Report generation and export
   name: Reputation Reports API
   slug: reputation-reports-api
-- description: Review request management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Review request management
   name: Reputation Requests API
   slug: reputation-requests-api
-- description: Review management and responses
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Review management and responses
   name: Reputation Reviews API
   slug: reputation-reviews-api
-- description: FAQs, menus, and product content
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: FAQs, menus, and product content
   name: Reputation Rich Content API
   slug: reputation-rich-content-api
-- description: Reputation summary data
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Reputation summary data
   name: Reputation Summary API
   slug: reputation-summary-api
-- description: Survey management and results
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Survey management and results
   name: Reputation Surveys API
   slug: reputation-surveys-api
-- description: Tenant/account management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Tenant/account management
   name: Reputation Tenants API
   slug: reputation-tenants-api
-- description: Customer service ticket management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: Customer service ticket management
   name: Reputation Tickets API
   slug: reputation-tickets-api
-- description: User management
+- baseURL: https://api.reputation.com
+  baseurl_source: declared
+  description: User management
   name: Reputation Users API
   slug: reputation-users-api
 artifact_total: 50
@@ -398,7 +430,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:

@@ -33,49 +33,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Activity API from Velaris — 4 operation(s) for activity.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Activity API from Velaris — 4 operation(s) for activity.
   name: Velaris Activity API
   slug: velaris-activity-api
-- description: The Attribute Change Log API from Velaris — 1 operation(s) for attribute change log.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Attribute Change Log API from Velaris — 1 operation(s) for attribute change log.
   name: Velaris Attribute Change Log API
   slug: velaris-attribute-change-log-api
-- description: The Currencies API from Velaris — 3 operation(s) for currencies.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Currencies API from Velaris — 3 operation(s) for currencies.
   name: Velaris Currencies API
   slug: velaris-currencies-api
-- description: The Custom Objects API from Velaris — 15 operation(s) for custom objects.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Custom Objects API from Velaris — 15 operation(s) for custom objects.
   name: Velaris Custom Objects API
   slug: velaris-custom-objects-api
-- description: The Entity Management V1 API from Velaris — 24 operation(s) for entity management v1.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Entity Management V1 API from Velaris — 24 operation(s) for entity management v1.
   name: Velaris Entity Management V1 API
   slug: velaris-entity-management-v1-api
-- description: The Entity Management V2 API from Velaris — 11 operation(s) for entity management v2.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Entity Management V2 API from Velaris — 11 operation(s) for entity management v2.
   name: Velaris Entity Management V2 API
   slug: velaris-entity-management-v2-api
-- description: The Field Definitions API from Velaris — 2 operation(s) for field definitions.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Field Definitions API from Velaris — 2 operation(s) for field definitions.
   name: Velaris Field Definitions API
   slug: velaris-field-definitions-api
-- description: The Integrations API from Velaris — 1 operation(s) for integrations.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Integrations API from Velaris — 1 operation(s) for integrations.
   name: Velaris Integrations API
   slug: velaris-integrations-api
-- description: The Lifecycles API from Velaris — 1 operation(s) for lifecycles.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Lifecycles API from Velaris — 1 operation(s) for lifecycles.
   name: Velaris Lifecycles API
   slug: velaris-lifecycles-api
-- description: The Notes API from Velaris — 2 operation(s) for notes.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Notes API from Velaris — 2 operation(s) for notes.
   name: Velaris Notes API
   slug: velaris-notes-api
-- description: The Surveys API from Velaris — 1 operation(s) for surveys.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Surveys API from Velaris — 1 operation(s) for surveys.
   name: Velaris Surveys API
   slug: velaris-surveys-api
-- description: The Tasks API from Velaris — 3 operation(s) for tasks.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Tasks API from Velaris — 3 operation(s) for tasks.
   name: Velaris Tasks API
   slug: velaris-tasks-api
-- description: The Ticketing API from Velaris — 6 operation(s) for ticketing.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Ticketing API from Velaris — 6 operation(s) for ticketing.
   name: Velaris Ticketing API
   slug: velaris-ticketing-api
-- description: The Users API from Velaris — 2 operation(s) for users.
+- baseURL: https://api.euw1.velaris.io
+  baseurl_source: declared
+  description: The Users API from Velaris — 2 operation(s) for users.
   name: Velaris Users API
   slug: velaris-users-api
 artifact_total: 34
@@ -280,7 +308,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velaris/refs/heads/main/screenshots/velaris-2026-08-17T082724.png
 security:

@@ -1,4 +1,16 @@
 ---
+access_model:
+  confidence: medium
+  label: Freemium · Open access
+  onboarding: open
+  pricing: freemium
+  public: true
+  source:
+  - plans
+  - authentication
+  - security
+  trial: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -23,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -36,10 +48,14 @@ apis:
 - description: Hosted streamable-HTTP MCP server exposing eleven tools across scanning, offers, Solana Pay ordering, settlement verification, and aggregate commerce telemetry. tools/list responds 200 anonymously wit
   name: AVORA Agent Forge MCP Server
   slug: avora-agent-forge-mcp-server
-- description: The Agent API from AVORA Agent Forge — 5 operation(s) for agent.
+- baseURL: https://avora-agent-forge.netlify.app
+  baseurl_source: declared
+  description: The Agent API from AVORA Agent Forge — 5 operation(s) for agent.
   name: AVORA Agent Forge Agent API
   slug: avora-agent-forge-agent-api
-- description: Public-data token evidence with mandatory human-review controls.
+- baseURL: https://avora-agent-forge.netlify.app
+  baseurl_source: declared
+  description: Public-data token evidence with mandatory human-review controls.
   name: AVORA Agent Forge Public Evidence API
   slug: avora-agent-forge-public-evidence-api
 artifact_total: 12
@@ -183,7 +199,7 @@ score:
   band: thin
   composite: 38.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_gap: 64.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
@@ -215,8 +231,9 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/avora-agent-forge/refs/heads/main/screenshots/avora-agent-forge-2026-09-02T144924.png
 security:
 - kind: authentication
   name: Avora Agent Forge Authentication

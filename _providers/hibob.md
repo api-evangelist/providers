@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -49,28 +49,44 @@ apis:
 - description: Webhooks for receiving real-time notifications of employee lifecycle and data change events from HiBob to drive downstream automation.
   name: Bob Webhooks
   slug: webhooks
-- description: The Attendance API from HiBob — 4 operation(s) for attendance.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Attendance API from HiBob — 4 operation(s) for attendance.
   name: HiBob Attendance API
   slug: hibob-attendance-api
-- description: The Documents API from HiBob — 3 operation(s) for documents.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Documents API from HiBob — 3 operation(s) for documents.
   name: HiBob Documents API
   slug: hibob-documents-api
-- description: The Employee Tables API from HiBob — 4 operation(s) for employee tables.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Employee Tables API from HiBob — 4 operation(s) for employee tables.
   name: HiBob Employee Tables API
   slug: hibob-employee-tables-api
-- description: The Goals API from HiBob — 3 operation(s) for goals.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Goals API from HiBob — 3 operation(s) for goals.
   name: HiBob Goals API
   slug: hibob-goals-api
-- description: The Hiring API from HiBob — 4 operation(s) for hiring.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Hiring API from HiBob — 4 operation(s) for hiring.
   name: HiBob Hiring API
   slug: hibob-hiring-api
-- description: The Learning API from HiBob — 2 operation(s) for learning.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Learning API from HiBob — 2 operation(s) for learning.
   name: HiBob Learning API
   slug: hibob-learning-api
-- description: The People API from HiBob — 4 operation(s) for people.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The People API from HiBob — 4 operation(s) for people.
   name: HiBob People API
   slug: hibob-people-api
-- description: The Projects API from HiBob — 3 operation(s) for projects.
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Projects API from HiBob — 3 operation(s) for projects.
   name: HiBob Projects API
   slug: hibob-projects-api
 artifact_total: 23
@@ -186,7 +202,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hibob/refs/heads/main/screenshots/hibob-2026-06-20T182725.png
 security:

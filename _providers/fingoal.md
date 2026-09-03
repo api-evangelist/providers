@@ -33,28 +33,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 3
 apis:
-- description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
   name: FinGoal Enrichment API
   slug: fingoal-enrichment-api
-- description: markdown/tagging.md
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: markdown/tagging.md
   name: FinGoal User Tagging API
   slug: fingoal-user-tagging-api
-- description: Manage webhook callback URLs for your client. Supports default and tenant-specific configurations per webhook type.
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: Manage webhook callback URLs for your client. Supports default and tenant-specific configurations per webhook type.
   name: FinGoal Webhook Configurations API
   slug: fingoal-webhook-configurations-api
-- description: 'There are three kinds of people who interact with Link Money: - **Users** are the people who use the Link Money application. They are the people who log in, view their accounts, and make transactions.'
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: 'There are three kinds of people who interact with Link Money: - **Users** are the people who use the Link Money application. They are the people who log in, view their accounts, and make transactions.'
   name: FinGoal Client Management API
   slug: fingoal-client-management-api
-- description: The Link Money API permits end users to link and get data from their bank accounts. But of course, that requires a front-end interface. That's where the Fastlink comes in. The Fastlink is an example o
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: The Link Money API permits end users to link and get data from their bank accounts. But of course, that requires a front-end interface. That's where the Fastlink comes in. The Fastlink is an example o
   name: FinGoal Fastlink API
   slug: fingoal-fastlink-api
-- description: The Oauth API from FinGoal — 1 operation(s) for oauth.
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: The Oauth API from FinGoal — 1 operation(s) for oauth.
   name: FinGoal OAUTH API
   slug: fingoal-oauth-api
-- description: 'Webhook payload schemas for all webhook types. Configure which webhooks you receive using the Webhook Configurations endpoints. **Available Webhook Types:** - `ENRICHMENT_DATA`: Data-rich Transaction '
+- baseURL: https://findmoney.fingoal.com/v3
+  baseurl_source: declared
+  description: 'Webhook payload schemas for all webhook types. Configure which webhooks you receive using the Webhook Configurations endpoints. **Available Webhook Types:** - `ENRICHMENT_DATA`: Data-rich Transaction '
   name: FinGoal Webhooks API
   slug: fingoal-webhooks-api
 artifact_total: 20
@@ -244,7 +258,7 @@ score:
     catalog_gap: 63.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -254,7 +268,7 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 55.6
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     contracts:
@@ -275,7 +289,7 @@ score:
     regime_id: banking_open_finance
     score: 69.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:

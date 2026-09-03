@@ -33,25 +33,35 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: REST API for managing cross-channel advertising campaigns including advertisers, insertion orders, line items, packages, creatives, and ads across programmatic channels. Authentication uses OAuth2 cli
   name: Amobee Campaign API
   slug: amobee-campaign-api
-- description: The env-vars-test-controller API from Amobee — 1 operation(s) for env-vars-test-controller.
+- baseURL: https://services.amobee.com/campaign/v3/api
+  baseurl_source: declared
+  description: The env-vars-test-controller API from Amobee — 1 operation(s) for env-vars-test-controller.
   name: Amobee Env Vars Test Controller API
   slug: amobee-env-vars-test-controller-api
-- description: The gateway-swagger-controller API from Amobee — 2 operation(s) for gateway-swagger-controller.
+- baseURL: https://services.amobee.com/campaign/v3/api
+  baseurl_source: declared
+  description: The gateway-swagger-controller API from Amobee — 2 operation(s) for gateway-swagger-controller.
   name: Amobee Gateway Swagger Controller API
   slug: amobee-gateway-swagger-controller-api
-- description: The health-check API from Amobee — 1 operation(s) for health-check.
+- baseURL: https://services.amobee.com/campaign/v3/api
+  baseurl_source: declared
+  description: The health-check API from Amobee — 1 operation(s) for health-check.
   name: Amobee Health Check API
   slug: amobee-health-check-api
-- description: The ip-controller API from Amobee — 1 operation(s) for ip-controller.
+- baseURL: https://services.amobee.com/campaign/v3/api
+  baseurl_source: declared
+  description: The ip-controller API from Amobee — 1 operation(s) for ip-controller.
   name: Amobee Ip Controller API
   slug: amobee-ip-controller-api
-- description: The tcf-disclosure-controller API from Amobee — 2 operation(s) for tcf-disclosure-controller.
+- baseURL: https://services.amobee.com/campaign/v3/api
+  baseurl_source: declared
+  description: The tcf-disclosure-controller API from Amobee — 2 operation(s) for tcf-disclosure-controller.
   name: Amobee Tcf Disclosure Controller API
   slug: amobee-tcf-disclosure-controller-api
 artifact_total: 13
@@ -197,7 +207,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
@@ -207,7 +217,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 35.8
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     contracts:
@@ -216,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/screenshots/amobee-2026-06-20T171938.png
 security:

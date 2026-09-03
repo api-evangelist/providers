@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -44,55 +44,89 @@ agentic_access:
   summary_line: 55 operations · 24 acting
 api_count: 1
 apis:
-- description: The account-codes API from Procurify — 2 operation(s) for account-codes.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The account-codes API from Procurify — 2 operation(s) for account-codes.
   name: Procurify account-codes API
   slug: procurify-account-codes-api
-- description: The accounts API from Procurify — 1 operation(s) for accounts.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The accounts API from Procurify — 1 operation(s) for accounts.
   name: Procurify accounts API
   slug: procurify-accounts-api
-- description: The ap API from Procurify — 8 operation(s) for ap.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The ap API from Procurify — 8 operation(s) for ap.
   name: Procurify ap API
   slug: procurify-ap-api
-- description: The catalog API from Procurify — 3 operation(s) for catalog.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The catalog API from Procurify — 3 operation(s) for catalog.
   name: Procurify catalog API
   slug: procurify-catalog-api
-- description: The currencies API from Procurify — 1 operation(s) for currencies.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The currencies API from Procurify — 1 operation(s) for currencies.
   name: Procurify currencies API
   slug: procurify-currencies-api
-- description: The custom-fields API from Procurify — 2 operation(s) for custom-fields.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The custom-fields API from Procurify — 2 operation(s) for custom-fields.
   name: Procurify custom-fields API
   slug: procurify-custom-fields-api
-- description: The departments API from Procurify — 2 operation(s) for departments.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The departments API from Procurify — 2 operation(s) for departments.
   name: Procurify departments API
   slug: procurify-departments-api
-- description: The locations API from Procurify — 2 operation(s) for locations.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The locations API from Procurify — 2 operation(s) for locations.
   name: Procurify locations API
   slug: procurify-locations-api
-- description: The oauth API from Procurify — 1 operation(s) for oauth.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The oauth API from Procurify — 1 operation(s) for oauth.
   name: Procurify oauth API
   slug: procurify-oauth-api
-- description: The order-items API from Procurify — 1 operation(s) for order-items.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The order-items API from Procurify — 1 operation(s) for order-items.
   name: Procurify order-items API
   slug: procurify-order-items-api
-- description: The permissions API from Procurify — 2 operation(s) for permissions.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The permissions API from Procurify — 2 operation(s) for permissions.
   name: Procurify permissions API
   slug: procurify-permissions-api
-- description: The public API from Procurify — 2 operation(s) for public.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The public API from Procurify — 2 operation(s) for public.
   name: Procurify public API
   slug: procurify-public-api
-- description: The purchase-orders API from Procurify — 7 operation(s) for purchase-orders.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The purchase-orders API from Procurify — 7 operation(s) for purchase-orders.
   name: Procurify purchase-orders API
   slug: procurify-purchase-orders-api
-- description: The receipt API from Procurify — 1 operation(s) for receipt.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The receipt API from Procurify — 1 operation(s) for receipt.
   name: Procurify receipt API
   slug: procurify-receipt-api
-- description: The requisitions API from Procurify — 3 operation(s) for requisitions.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The requisitions API from Procurify — 3 operation(s) for requisitions.
   name: Procurify requisitions API
   slug: procurify-requisitions-api
-- description: The users API from Procurify — 3 operation(s) for users.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The users API from Procurify — 3 operation(s) for users.
   name: Procurify users API
   slug: procurify-users-api
-- description: The vendors API from Procurify — 2 operation(s) for vendors.
+- baseURL: https://api.procurify.com/
+  baseurl_source: declared
+  description: The vendors API from Procurify — 2 operation(s) for vendors.
   name: Procurify vendors API
   slug: procurify-vendors-api
 artifact_total: 385
@@ -1329,7 +1363,7 @@ score:
       marker_coverage: 0.0
       total: 17
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/procurify/refs/heads/main/screenshots/procurify-2026-06-20T192129.png
 security:

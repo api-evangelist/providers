@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -47,19 +47,29 @@ apis:
 - description: The Consumers Energy Green Button Connect My Data API exposes customer-authorized electric and natural-gas usage data to registered third parties using the NAESB ESPI / Green Button standard. Authoriz
   name: Consumers Energy Green Button Connect My Data API
   slug: consumers-green-button-api
-- description: The Authorizations API from CMS Energy — 2 operation(s) for authorizations.
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: spec
+  description: The Authorizations API from CMS Energy — 2 operation(s) for authorizations.
   name: CMS Energy Authorizations API
   slug: cms-energy-authorizations-api
-- description: The Bills API from CMS Energy — 1 operation(s) for bills.
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: spec
+  description: The Bills API from CMS Energy — 1 operation(s) for bills.
   name: CMS Energy Bills API
   slug: cms-energy-bills-api
-- description: The GreenButton API from CMS Energy — 1 operation(s) for greenbutton.
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: spec
+  description: The GreenButton API from CMS Energy — 1 operation(s) for greenbutton.
   name: CMS Energy GreenButton API
   slug: cms-energy-greenbutton-api
-- description: The Intervals API from CMS Energy — 1 operation(s) for intervals.
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: spec
+  description: The Intervals API from CMS Energy — 1 operation(s) for intervals.
   name: CMS Energy Intervals API
   slug: cms-energy-intervals-api
-- description: The Meters API from CMS Energy — 2 operation(s) for meters.
+- baseURL: https://utilityapi.com/api/v2
+  baseurl_source: spec
+  description: The Meters API from CMS Energy — 2 operation(s) for meters.
   name: CMS Energy Meters API
   slug: cms-energy-meters-api
 artifact_total: 20
@@ -213,7 +223,7 @@ score:
     regime_id: energy_utilities
     score: 44.6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png
 security:

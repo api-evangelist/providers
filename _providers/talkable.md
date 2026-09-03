@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -44,82 +44,134 @@ agentic_access:
   summary_line: 64 operations · 36 acting
 api_count: 2
 apis:
-- description: The Advocate Offers API from Talkable — 4 operation(s) for advocate offers.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Advocate Offers API from Talkable — 4 operation(s) for advocate offers.
   name: Talkable Advocate Offers API
   slug: talkable-advocate-offers-api
-- description: The Advocate Signup API from Talkable — 1 operation(s) for advocate signup.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Advocate Signup API from Talkable — 1 operation(s) for advocate signup.
   name: Talkable Advocate Signup API
   slug: talkable-advocate-signup-api
-- description: The Assets API from Talkable — 2 operation(s) for assets.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Assets API from Talkable — 2 operation(s) for assets.
   name: Talkable Assets API
   slug: talkable-assets-api
-- description: The Campaigns API from Talkable — 1 operation(s) for campaigns.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Campaigns API from Talkable — 1 operation(s) for campaigns.
   name: Talkable Campaigns API
   slug: talkable-campaigns-api
-- description: The Check Unsubscribe API from Talkable — 1 operation(s) for check unsubscribe.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Check Unsubscribe API from Talkable — 1 operation(s) for check unsubscribe.
   name: Talkable Check Unsubscribe API
   slug: talkable-check-unsubscribe-api
-- description: The Claim Links API from Talkable — 1 operation(s) for claim links.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Claim Links API from Talkable — 1 operation(s) for claim links.
   name: Talkable Claim Links API
   slug: talkable-claim-links-api
-- description: The Coupons API from Talkable — 2 operation(s) for coupons.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Coupons API from Talkable — 2 operation(s) for coupons.
   name: Talkable Coupons API
   slug: talkable-coupons-api
-- description: The Create Coupon API from Talkable — 1 operation(s) for create coupon.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Create Coupon API from Talkable — 1 operation(s) for create coupon.
   name: Talkable Create Coupon API
   slug: talkable-create-coupon-api
-- description: The Event API from Talkable — 1 operation(s) for event.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Event API from Talkable — 1 operation(s) for event.
   name: Talkable Event API
   slug: talkable-event-api
-- description: The Friend Email Gating API from Talkable — 1 operation(s) for friend email gating.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Friend Email Gating API from Talkable — 1 operation(s) for friend email gating.
   name: Talkable Friend Email Gating API
   slug: talkable-friend-email-gating-api
-- description: The Friend Offers API from Talkable — 1 operation(s) for friend offers.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Friend Offers API from Talkable — 1 operation(s) for friend offers.
   name: Talkable Friend Offers API
   slug: talkable-friend-offers-api
-- description: The Loyalty API from Talkable — 5 operation(s) for loyalty.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Loyalty API from Talkable — 5 operation(s) for loyalty.
   name: Talkable Loyalty API
   slug: talkable-loyalty-api
-- description: The Metrics API from Talkable — 2 operation(s) for metrics.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Metrics API from Talkable — 2 operation(s) for metrics.
   name: Talkable Metrics API
   slug: talkable-metrics-api
-- description: The Offer Claims API from Talkable — 1 operation(s) for offer claims.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Offer Claims API from Talkable — 1 operation(s) for offer claims.
   name: Talkable Offer Claims API
   slug: talkable-offer-claims-api
-- description: The Origins API from Talkable — 8 operation(s) for origins.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Origins API from Talkable — 8 operation(s) for origins.
   name: Talkable Origins API
   slug: talkable-origins-api
-- description: The People API from Talkable — 9 operation(s) for people.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The People API from Talkable — 9 operation(s) for people.
   name: Talkable People API
   slug: talkable-people-api
-- description: The Post Share API from Talkable — 1 operation(s) for post share.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Post Share API from Talkable — 1 operation(s) for post share.
   name: Talkable Post Share API
   slug: talkable-post-share-api
-- description: The Referral API from Talkable — 1 operation(s) for referral.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Referral API from Talkable — 1 operation(s) for referral.
   name: Talkable Referral API
   slug: talkable-referral-api
-- description: The Referrals API from Talkable — 3 operation(s) for referrals.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Referrals API from Talkable — 3 operation(s) for referrals.
   name: Talkable Referrals API
   slug: talkable-referrals-api
-- description: The Refunds API from Talkable — 1 operation(s) for refunds.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Refunds API from Talkable — 1 operation(s) for refunds.
   name: Talkable Refunds API
   slug: talkable-refunds-api
-- description: The Reward API from Talkable — 1 operation(s) for reward.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Reward API from Talkable — 1 operation(s) for reward.
   name: Talkable Reward API
   slug: talkable-reward-api
-- description: The Rewards API from Talkable — 3 operation(s) for rewards.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Rewards API from Talkable — 3 operation(s) for rewards.
   name: Talkable Rewards API
   slug: talkable-rewards-api
-- description: The Shares API from Talkable — 4 operation(s) for shares.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Shares API from Talkable — 4 operation(s) for shares.
   name: Talkable Shares API
   slug: talkable-shares-api
-- description: The Traffic Sources API from Talkable — 1 operation(s) for traffic sources.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Traffic Sources API from Talkable — 1 operation(s) for traffic sources.
   name: Talkable Traffic Sources API
   slug: talkable-traffic-sources-api
-- description: The Unsubscribe API from Talkable — 1 operation(s) for unsubscribe.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Unsubscribe API from Talkable — 1 operation(s) for unsubscribe.
   name: Talkable Unsubscribe API
   slug: talkable-unsubscribe-api
-- description: The Visitors API from Talkable — 1 operation(s) for visitors.
+- baseURL: https://www.talkable.com/api/v2
+  baseurl_source: declared
+  description: The Visitors API from Talkable — 1 operation(s) for visitors.
   name: Talkable Visitors API
   slug: talkable-visitors-api
 artifact_total: 61
@@ -399,7 +451,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -409,7 +461,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 58.1
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -421,7 +473,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/screenshots/talkable-2026-08-17T082242.png
 security:

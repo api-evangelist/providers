@@ -33,43 +33,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The commit_tags API from Vers — 2 operation(s) for commit_tags.
   name: Vers commit_tags API
   slug: vers-commit-tags-api
-- description: The commits API from Vers — 4 operation(s) for commits.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The commits API from Vers — 4 operation(s) for commits.
   name: Vers commits API
   slug: vers-commits-api
-- description: The deploy API from Vers — 1 operation(s) for deploy.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The deploy API from Vers — 1 operation(s) for deploy.
   name: Vers deploy API
   slug: vers-deploy-api
-- description: The domains API from Vers — 2 operation(s) for domains.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The domains API from Vers — 2 operation(s) for domains.
   name: Vers domains API
   slug: vers-domains-api
-- description: The env_vars API from Vers — 2 operation(s) for env_vars.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The env_vars API from Vers — 2 operation(s) for env_vars.
   name: Vers env_vars API
   slug: vers-env-vars-api
-- description: The images API from Vers — 5 operation(s) for images.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The images API from Vers — 5 operation(s) for images.
   name: Vers images API
   slug: vers-images-api
-- description: The keys API from Vers — 1 operation(s) for keys.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The keys API from Vers — 1 operation(s) for keys.
   name: Vers keys API
   slug: vers-keys-api
-- description: The public_repositories API from Vers — 4 operation(s) for public_repositories.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The public_repositories API from Vers — 4 operation(s) for public_repositories.
   name: Vers public_repositories API
   slug: vers-public-repositories-api
-- description: The repositories API from Vers — 6 operation(s) for repositories.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The repositories API from Vers — 6 operation(s) for repositories.
   name: Vers repositories API
   slug: vers-repositories-api
-- description: The System API from Vers — 1 operation(s) for system.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The System API from Vers — 1 operation(s) for system.
   name: Vers System API
   slug: vers-system-api
-- description: The vm API from Vers — 20 operation(s) for vm.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The vm API from Vers — 20 operation(s) for vm.
   name: Vers vm API
   slug: vers-vm-api
-- description: The vms API from Vers — 2 operation(s) for vms.
+- baseURL: https://api.vers.sh
+  baseurl_source: declared
+  description: The vms API from Vers — 2 operation(s) for vms.
   name: Vers vms API
   slug: vers-vms-api
 artifact_total: 28
@@ -264,7 +288,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vers/refs/heads/main/screenshots/vers-2026-08-17T082735.png
 security:

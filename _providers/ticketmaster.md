@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,25 +47,39 @@ apis:
 - description: The Ticketmaster Partner API is a restricted API for authorized distribution partners that enables reserving, purchasing, and retrieving ticket and event information programmatically. Authentication u
   name: Ticketmaster Partner API
   slug: ticketmaster-partner-api
-- description: Check ticket availability for events
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Check ticket availability for events
   name: Ticketmaster Availability API
   slug: ticketmaster-availability-api
-- description: Retrieve ticket offerings and pricing
+- baseURL: https://app.ticketmaster.com/discovery/v2
+  baseurl_source: declared
+  description: Retrieve ticket offerings and pricing
   name: Ticketmaster Offerings API
   slug: ticketmaster-offerings-api
-- description: Search artists, sports teams, and other attractions
+- baseURL: https://app.ticketmaster.com/partners/v1
+  baseurl_source: declared
+  description: Search artists, sports teams, and other attractions
   name: Ticketmaster Attractions API
   slug: ticketmaster-attractions-api
-- description: Browse event segments, genres, and sub-genres
+- baseURL: https://app.ticketmaster.com/partners/v1
+  baseurl_source: declared
+  description: Browse event segments, genres, and sub-genres
   name: Ticketmaster Classifications API
   slug: ticketmaster-classifications-api
-- description: Search and retrieve live event information
+- baseURL: https://app.ticketmaster.com/partners/v1
+  baseurl_source: declared
+  description: Search and retrieve live event information
   name: Ticketmaster Events API
   slug: ticketmaster-events-api
-- description: Search suggestions and autocomplete
+- baseURL: https://app.ticketmaster.com/partners/v1
+  baseurl_source: declared
+  description: Search suggestions and autocomplete
   name: Ticketmaster Suggestions API
   slug: ticketmaster-suggestions-api
-- description: Search and retrieve venue information
+- baseURL: https://app.ticketmaster.com/partners/v1
+  baseurl_source: declared
+  description: Search and retrieve venue information
   name: Ticketmaster Venues API
   slug: ticketmaster-venues-api
 artifact_total: 32
@@ -265,7 +279,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
 security:

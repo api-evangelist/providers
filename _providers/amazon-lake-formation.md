@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -44,7 +44,9 @@ agentic_access:
   summary_line: 7 operations · 4 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: Data lake resource management
+- baseURL: https://lakeformation.amazonaws.com
+  baseurl_source: declared
+  description: Data lake resource management
   name: Amazon Lake Formation Resources API
   slug: amazon-lake-formation-resources-api
 arazzos:
@@ -315,7 +317,7 @@ score:
       marker_coverage: 0.0
       total: 1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/screenshots/amazon-lake-formation-2026-06-20T171721.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -43,19 +43,29 @@ agentic_access:
   summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The Enrollment Sessions API from HealthSherpa — 1 operation(s) for enrollment sessions.
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Enrollment Sessions API from HealthSherpa — 1 operation(s) for enrollment sessions.
   name: HealthSherpa Enrollment Sessions API
   slug: healthsherpa-enrollment-sessions-api
-- description: The Enrollments API from HealthSherpa — 7 operation(s) for enrollments.
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Enrollments API from HealthSherpa — 7 operation(s) for enrollments.
   name: HealthSherpa Enrollments API
   slug: healthsherpa-enrollments-api
-- description: The Quotes API from HealthSherpa — 1 operation(s) for quotes.
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Quotes API from HealthSherpa — 1 operation(s) for quotes.
   name: HealthSherpa Quotes API
   slug: healthsherpa-quotes-api
-- description: The Reference API from HealthSherpa — 3 operation(s) for reference.
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Reference API from HealthSherpa — 3 operation(s) for reference.
   name: HealthSherpa Reference API
   slug: healthsherpa-reference-api
-- description: The Utility API from HealthSherpa — 1 operation(s) for utility.
+- baseURL: https://api.one.healthsherpa.com
+  baseurl_source: declared
+  description: The Utility API from HealthSherpa — 1 operation(s) for utility.
   name: HealthSherpa Utility API
   slug: healthsherpa-utility-api
 artifact_total: 17
@@ -211,7 +221,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -221,7 +231,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.2
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,7 +249,7 @@ score:
     regime_id: insurance
     score: 33.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:

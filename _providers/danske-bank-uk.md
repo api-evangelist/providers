@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,106 +44,174 @@ agentic_access:
   summary_line: 81 operations · 26 acting
 api_count: 11
 apis:
-- description: The Account Access API from Danske Bank (UK) — 2 operation(s) for account access.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Account Access API from Danske Bank (UK) — 2 operation(s) for account access.
   name: Danske Bank (UK) Account Access API
   slug: danske-bank-uk-account-access-api
-- description: 'Provides access to account-related data services including: * Transaction history for a specified account with booking status ''booked'', including balances when available. * A list of addressable accou'
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: 'Provides access to account-related data services including: * Transaction history for a specified account with booking status ''booked'', including balances when available. * A list of addressable accou'
   name: Danske Bank (UK) Account Information Service (AIS) API
   slug: danske-bank-uk-account-information-service-ais-api
-- description: The Accounts API from Danske Bank (UK) — 2 operation(s) for accounts.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Accounts API from Danske Bank (UK) — 2 operation(s) for accounts.
   name: Danske Bank (UK) Accounts API
   slug: danske-bank-uk-accounts-api
-- description: The ATM API from Danske Bank (UK) — 1 operation(s) for atm.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The ATM API from Danske Bank (UK) — 1 operation(s) for atm.
   name: Danske Bank (UK) ATM API
   slug: danske-bank-uk-atm-api
-- description: The Balances API from Danske Bank (UK) — 1 operation(s) for balances.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Balances API from Danske Bank (UK) — 1 operation(s) for balances.
   name: Danske Bank (UK) Balances API
   slug: danske-bank-uk-balances-api
-- description: The BCA API from Danske Bank (UK) — 1 operation(s) for bca.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The BCA API from Danske Bank (UK) — 1 operation(s) for bca.
   name: Danske Bank (UK) BCA API
   slug: danske-bank-uk-bca-api
-- description: The Beneficiaries API from Danske Bank (UK) — 1 operation(s) for beneficiaries.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Beneficiaries API from Danske Bank (UK) — 1 operation(s) for beneficiaries.
   name: Danske Bank (UK) Beneficiaries API
   slug: danske-bank-uk-beneficiaries-api
-- description: The Branch API from Danske Bank (UK) — 1 operation(s) for branch.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Branch API from Danske Bank (UK) — 1 operation(s) for branch.
   name: Danske Bank (UK) Branch API
   slug: danske-bank-uk-branch-api
-- description: The CCC API from Danske Bank (UK) — 1 operation(s) for ccc.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The CCC API from Danske Bank (UK) — 1 operation(s) for ccc.
   name: Danske Bank (UK) CCC API
   slug: danske-bank-uk-ccc-api
-- description: The Direct Debits API from Danske Bank (UK) — 1 operation(s) for direct debits.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Direct Debits API from Danske Bank (UK) — 1 operation(s) for direct debits.
   name: Danske Bank (UK) Direct Debits API
   slug: danske-bank-uk-direct-debits-api
-- description: The Documents API from Danske Bank (UK) — 5 operation(s) for documents.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Documents API from Danske Bank (UK) — 5 operation(s) for documents.
   name: Danske Bank (UK) Documents API
   slug: danske-bank-uk-documents-api
-- description: The Domestic Payments API from Danske Bank (UK) — 5 operation(s) for domestic payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Domestic Payments API from Danske Bank (UK) — 5 operation(s) for domestic payments.
   name: Danske Bank (UK) Domestic Payments API
   slug: danske-bank-uk-domestic-payments-api
-- description: The Domestic Scheduled Payments API from Danske Bank (UK) — 4 operation(s) for domestic scheduled payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Domestic Scheduled Payments API from Danske Bank (UK) — 4 operation(s) for domestic scheduled payments.
   name: Danske Bank (UK) Domestic Scheduled Payments API
   slug: danske-bank-uk-domestic-scheduled-payments-api
-- description: Danske Bank only supports GBP standing orders for one fixed amount on a specified frequency for a defined period or open-ended. Standing Orders can only be requested on GBP current accounts and are on
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: Danske Bank only supports GBP standing orders for one fixed amount on a specified frequency for a defined period or open-ended. Standing Orders can only be requested on GBP current accounts and are on
   name: Danske Bank (UK) Domestic Standing Orders API
   slug: danske-bank-uk-domestic-standing-orders-api
-- description: The Domestic VRP Consents API from Danske Bank (UK) — 3 operation(s) for domestic vrp consents.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Domestic VRP Consents API from Danske Bank (UK) — 3 operation(s) for domestic vrp consents.
   name: Danske Bank (UK) Domestic VRP Consents API
   slug: danske-bank-uk-domestic-vrp-consents-api
-- description: The Domestic VRPs API from Danske Bank (UK) — 2 operation(s) for domestic vrps.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Domestic VRPs API from Danske Bank (UK) — 2 operation(s) for domestic vrps.
   name: Danske Bank (UK) Domestic VRPs API
   slug: danske-bank-uk-domestic-vrps-api
-- description: The Events API from Danske Bank (UK) — 1 operation(s) for events.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Events API from Danske Bank (UK) — 1 operation(s) for events.
   name: Danske Bank (UK) Events API
   slug: danske-bank-uk-events-api
-- description: The File Payments API from Danske Bank (UK) — 6 operation(s) for file payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The File Payments API from Danske Bank (UK) — 6 operation(s) for file payments.
   name: Danske Bank (UK) File Payments API
   slug: danske-bank-uk-file-payments-api
-- description: The Funds Confirmations API from Danske Bank (UK) — 3 operation(s) for funds confirmations.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Funds Confirmations API from Danske Bank (UK) — 3 operation(s) for funds confirmations.
   name: Danske Bank (UK) Funds Confirmations API
   slug: danske-bank-uk-funds-confirmations-api
-- description: Trade Report for Premium API users
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: Trade Report for Premium API users
   name: Danske Bank (UK) FX Trade Report API
   slug: danske-bank-uk-fx-trade-report-api
-- description: The International Payments API from Danske Bank (UK) — 5 operation(s) for international payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The International Payments API from Danske Bank (UK) — 5 operation(s) for international payments.
   name: Danske Bank (UK) International Payments API
   slug: danske-bank-uk-international-payments-api
-- description: The International Scheduled Payments API from Danske Bank (UK) — 5 operation(s) for international scheduled payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The International Scheduled Payments API from Danske Bank (UK) — 5 operation(s) for international scheduled payments.
   name: Danske Bank (UK) International Scheduled Payments API
   slug: danske-bank-uk-international-scheduled-payments-api
-- description: The Parties API from Danske Bank (UK) — 1 operation(s) for parties.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Parties API from Danske Bank (UK) — 1 operation(s) for parties.
   name: Danske Bank (UK) Parties API
   slug: danske-bank-uk-parties-api
-- description: The PCA API from Danske Bank (UK) — 1 operation(s) for pca.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The PCA API from Danske Bank (UK) — 1 operation(s) for pca.
   name: Danske Bank (UK) PCA API
   slug: danske-bank-uk-pca-api
-- description: The Ping API from Danske Bank (UK) — 1 operation(s) for ping.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Ping API from Danske Bank (UK) — 1 operation(s) for ping.
   name: Danske Bank (UK) Ping API
   slug: danske-bank-uk-ping-api
-- description: The Premium Payment Initiation API API from Danske Bank (UK) — 1 operation(s) for premium payment initiation api.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Premium Payment Initiation API API from Danske Bank (UK) — 1 operation(s) for premium payment initiation api.
   name: Danske Bank (UK) Premium Payment Initiation API
   slug: danske-bank-uk-premium-payment-initiation-api-api
-- description: The Products API from Danske Bank (UK) — 1 operation(s) for products.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Products API from Danske Bank (UK) — 1 operation(s) for products.
   name: Danske Bank (UK) Products API
   slug: danske-bank-uk-products-api
-- description: The Scheduled Payments API from Danske Bank (UK) — 1 operation(s) for scheduled payments.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Scheduled Payments API from Danske Bank (UK) — 1 operation(s) for scheduled payments.
   name: Danske Bank (UK) Scheduled Payments API
   slug: danske-bank-uk-scheduled-payments-api
-- description: The SME API from Danske Bank (UK) — 1 operation(s) for sme.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The SME API from Danske Bank (UK) — 1 operation(s) for sme.
   name: Danske Bank (UK) SME API
   slug: danske-bank-uk-sme-api
-- description: The Standing Orders API from Danske Bank (UK) — 1 operation(s) for standing orders.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Standing Orders API from Danske Bank (UK) — 1 operation(s) for standing orders.
   name: Danske Bank (UK) Standing Orders API
   slug: danske-bank-uk-standing-orders-api
-- description: The State API from Danske Bank (UK) — 1 operation(s) for state.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The State API from Danske Bank (UK) — 1 operation(s) for state.
   name: Danske Bank (UK) State API
   slug: danske-bank-uk-state-api
-- description: The Test API from Danske Bank (UK) — 1 operation(s) for test.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Test API from Danske Bank (UK) — 1 operation(s) for test.
   name: Danske Bank (UK) Test API
   slug: danske-bank-uk-test-api
-- description: The Trade execution API from Danske Bank (UK) — 1 operation(s) for trade execution.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Trade execution API from Danske Bank (UK) — 1 operation(s) for trade execution.
   name: Danske Bank (UK) Trade execution API
   slug: danske-bank-uk-trade-execution-api
-- description: The Transactions API from Danske Bank (UK) — 1 operation(s) for transactions.
+- baseURL: https://obp-data.danskebank.com/v2.2
+  baseurl_source: declared
+  description: The Transactions API from Danske Bank (UK) — 1 operation(s) for transactions.
   name: Danske Bank (UK) Transactions API
   slug: danske-bank-uk-transactions-api
 artifact_total: 51
@@ -336,7 +404,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 2.2
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -346,7 +414,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 44.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -368,7 +436,7 @@ score:
     regime_id: banking_open_finance
     score: 82.3
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

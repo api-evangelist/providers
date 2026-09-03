@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -44,22 +44,34 @@ agentic_access:
   summary_line: 34 operations · 15 acting
 api_count: 1
 apis:
-- description: The Application Instances API from Amazon Panorama — 6 operation(s) for application instances.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Application Instances API from Amazon Panorama — 6 operation(s) for application instances.
   name: Amazon Panorama Application Instances API
   slug: amazon-panorama-application-instances-api
-- description: The Devices API from Amazon Panorama — 2 operation(s) for devices.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Devices API from Amazon Panorama — 2 operation(s) for devices.
   name: Amazon Panorama Devices API
   slug: amazon-panorama-devices-api
-- description: The Jobs API from Amazon Panorama — 2 operation(s) for jobs.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Jobs API from Amazon Panorama — 2 operation(s) for jobs.
   name: Amazon Panorama Jobs API
   slug: amazon-panorama-jobs-api
-- description: The Nodes API from Amazon Panorama — 2 operation(s) for nodes.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Nodes API from Amazon Panorama — 2 operation(s) for nodes.
   name: Amazon Panorama Nodes API
   slug: amazon-panorama-nodes-api
-- description: The Packages API from Amazon Panorama — 9 operation(s) for packages.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Packages API from Amazon Panorama — 9 operation(s) for packages.
   name: Amazon Panorama Packages API
   slug: amazon-panorama-packages-api
-- description: The Tags API from Amazon Panorama — 2 operation(s) for tags.
+- baseURL: https://panorama.amazonaws.com
+  baseurl_source: declared
+  description: The Tags API from Amazon Panorama — 2 operation(s) for tags.
   name: Amazon Panorama Tags API
   slug: amazon-panorama-tags-api
 artifact_total: 694
@@ -2289,7 +2301,7 @@ score:
       marker_coverage: 0.0
       total: 6
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/screenshots/amazon-panorama-2026-06-20T171756.png
 security:

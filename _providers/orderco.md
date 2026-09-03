@@ -1,4 +1,15 @@
 ---
+access_model:
+  confidence: low
+  label: Open access
+  onboarding: open
+  pricing: unknown
+  public: true
+  source:
+  - authentication
+  - security
+  trial: false
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -23,49 +34,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 2
 apis:
-- description: The individual services Order.co reports health for.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: The individual services Order.co reports health for.
   name: Order.co Components API
   slug: orderco-components-api
-- description: Posts, pages and media.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Posts, pages and media.
   name: Order.co Content API
   slug: orderco-content-api
-- description: Published Order.co customer case studies.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Published Order.co customer case studies.
   name: Order.co Customer Stories API
   slug: orderco-customer-stories-api
-- description: Self-describing route, type and taxonomy introspection.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Self-describing route, type and taxonomy introspection.
   name: Order.co Discovery API
   slug: orderco-discovery-api
-- description: Question-and-answer entries used across the site.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Question-and-answer entries used across the site.
   name: Order.co FA Qs API
   slug: orderco-faqs-api
-- description: Open and historical incidents with their dated updates.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Open and historical incidents with their dated updates.
   name: Order.co Incidents API
   slug: orderco-incidents-api
-- description: Scheduled maintenance windows.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Scheduled maintenance windows.
   name: Order.co Maintenance API
   slug: orderco-maintenance-api
-- description: First-party cn/v1 theme namespace.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: First-party cn/v1 theme namespace.
   name: Order.co Newsroom API
   slug: orderco-newsroom-api
-- description: Ebooks, webinars, tools and spend insights.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Ebooks, webinars, tools and spend insights.
   name: Order.co Resources API
   slug: orderco-resources-api
-- description: Cross-type search.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Cross-type search.
   name: Order.co Search API
   slug: orderco-search-api
-- description: The rollup status indicator for the whole page.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: The rollup status indicator for the whole page.
   name: Order.co Status API
   slug: orderco-status-api
-- description: Categories, tags, industries and use cases.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Categories, tags, industries and use cases.
   name: Order.co Taxonomies API
   slug: orderco-taxonomies-api
-- description: Customer quotes.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Customer quotes.
   name: Order.co Testimonials API
   slug: orderco-testimonials-api
-- description: Published Order.co vendor/supplier case studies.
+- baseURL: https://status.order.co/api/v2
+  baseurl_source: declared
+  description: Published Order.co vendor/supplier case studies.
   name: Order.co Vendor Stories API
   slug: orderco-vendor-stories-api
 artifact_total: 42
@@ -294,7 +333,7 @@ score:
     regime_id: payments
     score: 39.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderco/refs/heads/main/screenshots/orderco-2026-08-07T190910.png
 security:

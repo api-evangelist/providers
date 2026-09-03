@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,28 +52,44 @@ apis:
 - description: The Internal Revenue Service exposes select public datasets and tools through download endpoints, including Tax-Exempt Organization Search.
   name: IRS Public APIs
   slug: irs-public-apis
-- description: Treasury securities auctions data
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Treasury securities auctions data
   name: Department of the Treasury Auctions API
   slug: department-of-the-treasury-auctions-api
-- description: Federal debt-related datasets
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Federal debt-related datasets
   name: Department of the Treasury Debt API
   slug: department-of-the-treasury-debt-api
-- description: Foreign currency exchange rates
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Foreign currency exchange rates
   name: Department of the Treasury Exchange Rates API
   slug: department-of-the-treasury-exchange-rates-api
-- description: Average interest rates and yield curves
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Average interest rates and yield curves
   name: Department of the Treasury Interest Rates API
   slug: department-of-the-treasury-interest-rates-api
-- description: SDN and Consolidated Sanctions list downloads
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: SDN and Consolidated Sanctions list downloads
   name: Department of the Treasury Sanctions Lists API
   slug: department-of-the-treasury-sanctions-lists-api
-- description: Structured search across the SDN and Consolidated lists
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Structured search across the SDN and Consolidated lists
   name: Department of the Treasury Search API
   slug: department-of-the-treasury-search-api
-- description: Federal spending datasets
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Federal spending datasets
   name: Department of the Treasury Spending API
   slug: department-of-the-treasury-spending-api
-- description: Daily and monthly Treasury statements
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Daily and monthly Treasury statements
   name: Department of the Treasury Treasury Operations API
   slug: department-of-the-treasury-treasury-operations-api
 artifact_total: 34
@@ -249,7 +265,7 @@ score:
     regime_id: government
     score: 20.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:

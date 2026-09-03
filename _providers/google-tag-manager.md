@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -47,28 +47,44 @@ apis:
 - description: The Server-side Tagging API provides APIs for building custom tags, clients, and variables that run in a server-side container, enabling server-to-server data collection and processing.
   name: Google Tag Manager Server-side Tagging API
   slug: google-tag-manager-server-side-tagging-api
-- description: Operations for managing Google Tag Manager accounts.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing Google Tag Manager accounts.
   name: Google Tag Manager Accounts API
   slug: google-tag-manager-accounts-api
-- description: Operations for managing containers within a Google Tag Manager account.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing containers within a Google Tag Manager account.
   name: Google Tag Manager Containers API
   slug: google-tag-manager-containers-api
-- description: The Tagmanager API from Google Tag Manager — 3 operation(s) for tagmanager.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: The Tagmanager API from Google Tag Manager — 3 operation(s) for tagmanager.
   name: Google Tag Manager Tagmanager API
   slug: google-tag-manager-tagmanager-api
-- description: Operations for managing triggers within a workspace that control when tags fire.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing triggers within a workspace that control when tags fire.
   name: Google Tag Manager Triggers API
   slug: google-tag-manager-triggers-api
-- description: Operations for managing user permissions on Google Tag Manager accounts.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing user permissions on Google Tag Manager accounts.
   name: Google Tag Manager User Permissions API
   slug: google-tag-manager-user-permissions-api
-- description: Operations for managing variables within a workspace that provide dynamic values to tags and triggers.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing variables within a workspace that provide dynamic values to tags and triggers.
   name: Google Tag Manager Variables API
   slug: google-tag-manager-variables-api
-- description: Operations for managing container versions, including publishing and rollback.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing container versions, including publishing and rollback.
   name: Google Tag Manager Versions API
   slug: google-tag-manager-versions-api
-- description: Operations for managing workspaces within a container, including version creation and conflict resolution.
+- baseURL: https://tagmanager.googleapis.com
+  baseurl_source: declared
+  description: Operations for managing workspaces within a container, including version creation and conflict resolution.
   name: Google Tag Manager Workspaces API
   slug: google-tag-manager-workspaces-api
 arazzos:
@@ -886,7 +902,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -43,148 +43,244 @@ agentic_access:
   summary_line: 227 operations · 141 acting · 25 human-in-the-loop
 api_count: 1
 apis:
-- description: The Calendars API from KISI — 1 operation(s) for calendars.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Calendars API from KISI — 1 operation(s) for calendars.
   name: KISI Calendars API
   slug: kisi-calendars-api
-- description: The Cameras API from KISI — 3 operation(s) for cameras.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Cameras API from KISI — 3 operation(s) for cameras.
   name: KISI Cameras API
   slug: kisi-cameras-api
-- description: The Card assignments API from KISI — 5 operation(s) for card assignments.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Card assignments API from KISI — 5 operation(s) for card assignments.
   name: KISI Card assignments API
   slug: kisi-card-assignments-api
-- description: The Cards API from KISI — 7 operation(s) for cards.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Cards API from KISI — 7 operation(s) for cards.
   name: KISI Cards API
   slug: kisi-cards-api
-- description: The Controller Input Connections API from KISI — 2 operation(s) for controller input connections.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Input Connections API from KISI — 2 operation(s) for controller input connections.
   name: KISI Controller Input Connections API
   slug: kisi-controller-input-connections-api
-- description: The Controller Inputs API from KISI — 1 operation(s) for controller inputs.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Inputs API from KISI — 1 operation(s) for controller inputs.
   name: KISI Controller Inputs API
   slug: kisi-controller-inputs-api
-- description: The Controller Relay Connections API from KISI — 2 operation(s) for controller relay connections.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Relay Connections API from KISI — 2 operation(s) for controller relay connections.
   name: KISI Controller Relay Connections API
   slug: kisi-controller-relay-connections-api
-- description: The Controller Relays API from KISI — 1 operation(s) for controller relays.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Relays API from KISI — 1 operation(s) for controller relays.
   name: KISI Controller Relays API
   slug: kisi-controller-relays-api
-- description: The Controller Wiegand Connections API from KISI — 2 operation(s) for controller wiegand connections.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Wiegand Connections API from KISI — 2 operation(s) for controller wiegand connections.
   name: KISI Controller Wiegand Connections API
   slug: kisi-controller-wiegand-connections-api
-- description: The Controller Wiegands API from KISI — 1 operation(s) for controller wiegands.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controller Wiegands API from KISI — 1 operation(s) for controller wiegands.
   name: KISI Controller Wiegands API
   slug: kisi-controller-wiegands-api
-- description: The Controllers API from KISI — 5 operation(s) for controllers.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Controllers API from KISI — 5 operation(s) for controllers.
   name: KISI Controllers API
   slug: kisi-controllers-api
-- description: The CSV card imports API from KISI — 2 operation(s) for csv card imports.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The CSV card imports API from KISI — 2 operation(s) for csv card imports.
   name: KISI CSV card imports API
   slug: kisi-csv-card-imports-api
-- description: The CSV user imports API from KISI — 2 operation(s) for csv user imports.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The CSV user imports API from KISI — 2 operation(s) for csv user imports.
   name: KISI CSV user imports API
   slug: kisi-csv-user-imports-api
-- description: The Elevator stops API from KISI — 4 operation(s) for elevator stops.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Elevator stops API from KISI — 4 operation(s) for elevator stops.
   name: KISI Elevator stops API
   slug: kisi-elevator-stops-api
-- description: The Elevators API from KISI — 2 operation(s) for elevators.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Elevators API from KISI — 2 operation(s) for elevators.
   name: KISI Elevators API
   slug: kisi-elevators-api
-- description: The Event sets API from KISI — 2 operation(s) for event sets.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Event sets API from KISI — 2 operation(s) for event sets.
   name: KISI Event sets API
   slug: kisi-event-sets-api
-- description: The Events API from KISI — 2 operation(s) for events.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Events API from KISI — 2 operation(s) for events.
   name: KISI Events API
   slug: kisi-events-api
-- description: The Floors API from KISI — 2 operation(s) for floors.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Floors API from KISI — 2 operation(s) for floors.
   name: KISI Floors API
   slug: kisi-floors-api
-- description: The Group elevator stops API from KISI — 2 operation(s) for group elevator stops.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Group elevator stops API from KISI — 2 operation(s) for group elevator stops.
   name: KISI Group elevator stops API
   slug: kisi-group-elevator-stops-api
-- description: The Group links API from KISI — 2 operation(s) for group links.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Group links API from KISI — 2 operation(s) for group links.
   name: KISI Group links API
   slug: kisi-group-links-api
-- description: The Group locks API from KISI — 2 operation(s) for group locks.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Group locks API from KISI — 2 operation(s) for group locks.
   name: KISI Group locks API
   slug: kisi-group-locks-api
-- description: The Group terminals API from KISI — 2 operation(s) for group terminals.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Group terminals API from KISI — 2 operation(s) for group terminals.
   name: KISI Group terminals API
   slug: kisi-group-terminals-api
-- description: The Group zones API from KISI — 2 operation(s) for group zones.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Group zones API from KISI — 2 operation(s) for group zones.
   name: KISI Group zones API
   slug: kisi-group-zones-api
-- description: The Groups API from KISI — 2 operation(s) for groups.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Groups API from KISI — 2 operation(s) for groups.
   name: KISI Groups API
   slug: kisi-groups-api
-- description: The Guests API from KISI — 2 operation(s) for guests.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Guests API from KISI — 2 operation(s) for guests.
   name: KISI Guests API
   slug: kisi-guests-api
-- description: The Holiday calendars API from KISI — 2 operation(s) for holiday calendars.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Holiday calendars API from KISI — 2 operation(s) for holiday calendars.
   name: KISI Holiday calendars API
   slug: kisi-holiday-calendars-api
-- description: The Integrations API from KISI — 2 operation(s) for integrations.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Integrations API from KISI — 2 operation(s) for integrations.
   name: KISI Integrations API
   slug: kisi-integrations-api
-- description: The Invites API from KISI — 1 operation(s) for invites.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Invites API from KISI — 1 operation(s) for invites.
   name: KISI Invites API
   slug: kisi-invites-api
-- description: The Locks API from KISI — 9 operation(s) for locks.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Locks API from KISI — 9 operation(s) for locks.
   name: KISI Locks API
   slug: kisi-locks-api
-- description: The Logins API from KISI — 7 operation(s) for logins.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Logins API from KISI — 7 operation(s) for logins.
   name: KISI Logins API
   slug: kisi-logins-api
-- description: The Members API from KISI — 2 operation(s) for members.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Members API from KISI — 2 operation(s) for members.
   name: KISI Members API
   slug: kisi-members-api
-- description: The Organizations API from KISI — 13 operation(s) for organizations.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Organizations API from KISI — 13 operation(s) for organizations.
   name: KISI Organizations API
   slug: kisi-organizations-api
-- description: The Places API from KISI — 6 operation(s) for places.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Places API from KISI — 6 operation(s) for places.
   name: KISI Places API
   slug: kisi-places-api
-- description: The Presences API from KISI — 1 operation(s) for presences.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Presences API from KISI — 1 operation(s) for presences.
   name: KISI Presences API
   slug: kisi-presences-api
-- description: The Readers API from KISI — 6 operation(s) for readers.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Readers API from KISI — 6 operation(s) for readers.
   name: KISI Readers API
   slug: kisi-readers-api
-- description: The Reports API from KISI — 3 operation(s) for reports.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Reports API from KISI — 3 operation(s) for reports.
   name: KISI Reports API
   slug: kisi-reports-api
-- description: The Role assignments API from KISI — 2 operation(s) for role assignments.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Role assignments API from KISI — 2 operation(s) for role assignments.
   name: KISI Role assignments API
   slug: kisi-role-assignments-api
-- description: The Roles API from KISI — 2 operation(s) for roles.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Roles API from KISI — 2 operation(s) for roles.
   name: KISI Roles API
   slug: kisi-roles-api
-- description: The Scheduled reports API from KISI — 2 operation(s) for scheduled reports.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Scheduled reports API from KISI — 2 operation(s) for scheduled reports.
   name: KISI Scheduled reports API
   slug: kisi-scheduled-reports-api
-- description: The Schedules API from KISI — 2 operation(s) for schedules.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Schedules API from KISI — 2 operation(s) for schedules.
   name: KISI Schedules API
   slug: kisi-schedules-api
-- description: The SCRAM API from KISI — 1 operation(s) for scram.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The SCRAM API from KISI — 1 operation(s) for scram.
   name: KISI SCRAM API
   slug: kisi-scram-api
-- description: The Shares API from KISI — 2 operation(s) for shares.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Shares API from KISI — 2 operation(s) for shares.
   name: KISI Shares API
   slug: kisi-shares-api
-- description: The Signed upload URLs API from KISI — 1 operation(s) for signed upload urls.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Signed upload URLs API from KISI — 1 operation(s) for signed upload urls.
   name: KISI Signed upload URLs API
   slug: kisi-signed-upload-urls-api
-- description: The Team memberships API from KISI — 2 operation(s) for team memberships.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Team memberships API from KISI — 2 operation(s) for team memberships.
   name: KISI Team memberships API
   slug: kisi-team-memberships-api
-- description: The Teams API from KISI — 2 operation(s) for teams.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Teams API from KISI — 2 operation(s) for teams.
   name: KISI Teams API
   slug: kisi-teams-api
-- description: The Terminals API from KISI — 3 operation(s) for terminals.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Terminals API from KISI — 3 operation(s) for terminals.
   name: KISI Terminals API
   slug: kisi-terminals-api
-- description: The Users API from KISI — 9 operation(s) for users.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Users API from KISI — 9 operation(s) for users.
   name: KISI Users API
   slug: kisi-users-api
-- description: The Wireless locks API from KISI — 1 operation(s) for wireless locks.
+- baseURL: https://api.kisi.io
+  baseurl_source: declared
+  description: The Wireless locks API from KISI — 1 operation(s) for wireless locks.
   name: KISI Wireless locks API
   slug: kisi-wireless-locks-api
 artifact_total: 104
@@ -517,7 +613,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
 security:

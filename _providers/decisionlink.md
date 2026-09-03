@@ -33,193 +33,317 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 8
 apis:
-- description: The account_factors API from DecisionLink — 1 operation(s) for account_factors.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The account_factors API from DecisionLink — 1 operation(s) for account_factors.
   name: DecisionLink Account Factors API
   slug: decisionlink-account-factors-api
-- description: The account_mappings API from DecisionLink — 2 operation(s) for account_mappings.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The account_mappings API from DecisionLink — 2 operation(s) for account_mappings.
   name: DecisionLink Account Mappings API
   slug: decisionlink-account-mappings-api
-- description: The accrual_types API from DecisionLink — 2 operation(s) for accrual_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The accrual_types API from DecisionLink — 2 operation(s) for accrual_types.
   name: DecisionLink Accrual Types API
   slug: decisionlink-accrual-types-api
-- description: The advanced API from DecisionLink — 1 operation(s) for advanced.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The advanced API from DecisionLink — 1 operation(s) for advanced.
   name: DecisionLink Advanced API
   slug: decisionlink-advanced-api
-- description: The area_types API from DecisionLink — 1 operation(s) for area_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The area_types API from DecisionLink — 1 operation(s) for area_types.
   name: DecisionLink Area Types API
   slug: decisionlink-area-types-api
-- description: The asset_languages API from DecisionLink — 1 operation(s) for asset_languages.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The asset_languages API from DecisionLink — 1 operation(s) for asset_languages.
   name: DecisionLink Asset Languages API
   slug: decisionlink-asset-languages-api
-- description: The assets API from DecisionLink — 2 operation(s) for assets.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The assets API from DecisionLink — 2 operation(s) for assets.
   name: DecisionLink Assets API
   slug: decisionlink-assets-api
-- description: The attributions API from DecisionLink — 1 operation(s) for attributions.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The attributions API from DecisionLink — 1 operation(s) for attributions.
   name: DecisionLink Attributions API
   slug: decisionlink-attributions-api
-- description: The available_terms API from DecisionLink — 1 operation(s) for available_terms.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The available_terms API from DecisionLink — 1 operation(s) for available_terms.
   name: DecisionLink Available Terms API
   slug: decisionlink-available-terms-api
-- description: The baseline_types API from DecisionLink — 1 operation(s) for baseline_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The baseline_types API from DecisionLink — 1 operation(s) for baseline_types.
   name: DecisionLink Baseline Types API
   slug: decisionlink-baseline-types-api
-- description: The benefits API from DecisionLink — 7 operation(s) for benefits.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The benefits API from DecisionLink — 7 operation(s) for benefits.
   name: DecisionLink Benefits API
   slug: decisionlink-benefits-api
-- description: The benefits-calculate API from DecisionLink — 1 operation(s) for benefits-calculate.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The benefits-calculate API from DecisionLink — 1 operation(s) for benefits-calculate.
   name: DecisionLink Benefits Calculate API
   slug: decisionlink-benefits-calculate-api
-- description: The benefits-one-time API from DecisionLink — 2 operation(s) for benefits-one-time.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The benefits-one-time API from DecisionLink — 2 operation(s) for benefits-one-time.
   name: DecisionLink Benefits One Time API
   slug: decisionlink-benefits-one-time-api
-- description: The case_study_improvement_types API from DecisionLink — 1 operation(s) for case_study_improvement_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The case_study_improvement_types API from DecisionLink — 1 operation(s) for case_study_improvement_types.
   name: DecisionLink Case Study Improvement Types API
   slug: decisionlink-case-study-improvement-types-api
-- description: The charts API from DecisionLink — 2 operation(s) for charts.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The charts API from DecisionLink — 2 operation(s) for charts.
   name: DecisionLink Charts API
   slug: decisionlink-charts-api
-- description: The chat API from DecisionLink — 10 operation(s) for chat.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The chat API from DecisionLink — 10 operation(s) for chat.
   name: DecisionLink Chat API
   slug: decisionlink-chat-api
-- description: The collaboration API from DecisionLink — 1 operation(s) for collaboration.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The collaboration API from DecisionLink — 1 operation(s) for collaboration.
   name: DecisionLink Collaboration API
   slug: decisionlink-collaboration-api
-- description: The collaborations API from DecisionLink — 2 operation(s) for collaborations.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The collaborations API from DecisionLink — 2 operation(s) for collaborations.
   name: DecisionLink Collaborations API
   slug: decisionlink-collaborations-api
-- description: The collateral API from DecisionLink — 2 operation(s) for collateral.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The collateral API from DecisionLink — 2 operation(s) for collateral.
   name: DecisionLink Collateral API
   slug: decisionlink-collateral-api
-- description: The companies API from DecisionLink — 4 operation(s) for companies.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The companies API from DecisionLink — 4 operation(s) for companies.
   name: DecisionLink Companies API
   slug: decisionlink-companies-api
-- description: The cost_categories API from DecisionLink — 2 operation(s) for cost_categories.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The cost_categories API from DecisionLink — 2 operation(s) for cost_categories.
   name: DecisionLink Cost Categories API
   slug: decisionlink-cost-categories-api
-- description: The costs API from DecisionLink — 4 operation(s) for costs.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The costs API from DecisionLink — 4 operation(s) for costs.
   name: DecisionLink Costs API
   slug: decisionlink-costs-api
-- description: The discovery_questions API from DecisionLink — 2 operation(s) for discovery_questions.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The discovery_questions API from DecisionLink — 2 operation(s) for discovery_questions.
   name: DecisionLink Discovery Questions API
   slug: decisionlink-discovery-questions-api
-- description: The done API from DecisionLink — 1 operation(s) for done.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The done API from DecisionLink — 1 operation(s) for done.
   name: DecisionLink Done API
   slug: decisionlink-done-api
-- description: The dynamic_discovery API from DecisionLink — 4 operation(s) for dynamic_discovery.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The dynamic_discovery API from DecisionLink — 4 operation(s) for dynamic_discovery.
   name: DecisionLink Dynamic Discovery API
   slug: decisionlink-dynamic-discovery-api
-- description: The expense_types API from DecisionLink — 2 operation(s) for expense_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The expense_types API from DecisionLink — 2 operation(s) for expense_types.
   name: DecisionLink Expense Types API
   slug: decisionlink-expense-types-api
-- description: The factors API from DecisionLink — 6 operation(s) for factors.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The factors API from DecisionLink — 6 operation(s) for factors.
   name: DecisionLink Factors API
   slug: decisionlink-factors-api
-- description: The features API from DecisionLink — 1 operation(s) for features.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The features API from DecisionLink — 1 operation(s) for features.
   name: DecisionLink Features API
   slug: decisionlink-features-api
-- description: The format_types API from DecisionLink — 2 operation(s) for format_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The format_types API from DecisionLink — 2 operation(s) for format_types.
   name: DecisionLink Format Types API
   slug: decisionlink-format-types-api
-- description: The generate-value-model API from DecisionLink — 2 operation(s) for generate-value-model.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The generate-value-model API from DecisionLink — 2 operation(s) for generate-value-model.
   name: DecisionLink Generate Value Model API
   slug: decisionlink-generate-value-model-api
-- description: The generate-vp API from DecisionLink — 2 operation(s) for generate-vp.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The generate-vp API from DecisionLink — 2 operation(s) for generate-vp.
   name: DecisionLink Generate Vp API
   slug: decisionlink-generate-vp-api
-- description: The goals API from DecisionLink — 2 operation(s) for goals.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The goals API from DecisionLink — 2 operation(s) for goals.
   name: DecisionLink Goals API
   slug: decisionlink-goals-api
-- description: The grouping_override API from DecisionLink — 1 operation(s) for grouping_override.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The grouping_override API from DecisionLink — 1 operation(s) for grouping_override.
   name: DecisionLink Grouping Override API
   slug: decisionlink-grouping-override-api
-- description: The groups API from DecisionLink — 1 operation(s) for groups.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The groups API from DecisionLink — 1 operation(s) for groups.
   name: DecisionLink Groups API
   slug: decisionlink-groups-api
-- description: The health API from DecisionLink — 1 operation(s) for health.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The health API from DecisionLink — 1 operation(s) for health.
   name: DecisionLink Health API
   slug: decisionlink-health-api
-- description: The healthcheck API from DecisionLink — 1 operation(s) for healthcheck.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The healthcheck API from DecisionLink — 1 operation(s) for healthcheck.
   name: DecisionLink Healthcheck API
   slug: decisionlink-healthcheck-api
-- description: The impact_types API from DecisionLink — 1 operation(s) for impact_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The impact_types API from DecisionLink — 1 operation(s) for impact_types.
   name: DecisionLink Impact Types API
   slug: decisionlink-impact-types-api
-- description: The list API from DecisionLink — 1 operation(s) for list.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The list API from DecisionLink — 1 operation(s) for list.
   name: DecisionLink List API
   slug: decisionlink-list-api
-- description: The login API from DecisionLink — 1 operation(s) for login.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The login API from DecisionLink — 1 operation(s) for login.
   name: DecisionLink Login API
   slug: decisionlink-login-api
-- description: The logs API from DecisionLink — 1 operation(s) for logs.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The logs API from DecisionLink — 1 operation(s) for logs.
   name: DecisionLink Logs API
   slug: decisionlink-logs-api
-- description: The phasing API from DecisionLink — 1 operation(s) for phasing.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The phasing API from DecisionLink — 1 operation(s) for phasing.
   name: DecisionLink Phasing API
   slug: decisionlink-phasing-api
-- description: The privileges API from DecisionLink — 1 operation(s) for privileges.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The privileges API from DecisionLink — 1 operation(s) for privileges.
   name: DecisionLink Privileges API
   slug: decisionlink-privileges-api
-- description: The products API from DecisionLink — 1 operation(s) for products.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The products API from DecisionLink — 1 operation(s) for products.
   name: DecisionLink Products API
   slug: decisionlink-products-api
-- description: The refresh API from DecisionLink — 4 operation(s) for refresh.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The refresh API from DecisionLink — 4 operation(s) for refresh.
   name: DecisionLink Refresh API
   slug: decisionlink-refresh-api
-- description: The release_types API from DecisionLink — 1 operation(s) for release_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The release_types API from DecisionLink — 1 operation(s) for release_types.
   name: DecisionLink Release Types API
   slug: decisionlink-release-types-api
-- description: The roi API from DecisionLink — 1 operation(s) for roi.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The roi API from DecisionLink — 1 operation(s) for roi.
   name: DecisionLink Roi API
   slug: decisionlink-roi-api
-- description: The salesforce API from DecisionLink — 3 operation(s) for salesforce.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The salesforce API from DecisionLink — 3 operation(s) for salesforce.
   name: DecisionLink Salesforce API
   slug: decisionlink-salesforce-api
-- description: The scorecard API from DecisionLink — 1 operation(s) for scorecard.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The scorecard API from DecisionLink — 1 operation(s) for scorecard.
   name: DecisionLink Scorecard API
   slug: decisionlink-scorecard-api
-- description: The scratchpads API from DecisionLink — 2 operation(s) for scratchpads.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The scratchpads API from DecisionLink — 2 operation(s) for scratchpads.
   name: DecisionLink Scratchpads API
   slug: decisionlink-scratchpads-api
-- description: The search API from DecisionLink — 1 operation(s) for search.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The search API from DecisionLink — 1 operation(s) for search.
   name: DecisionLink Search API
   slug: decisionlink-search-api
-- description: The shares API from DecisionLink — 2 operation(s) for shares.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The shares API from DecisionLink — 2 operation(s) for shares.
   name: DecisionLink Shares API
   slug: decisionlink-shares-api
-- description: The situations API from DecisionLink — 1 operation(s) for situations.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The situations API from DecisionLink — 1 operation(s) for situations.
   name: DecisionLink Situations API
   slug: decisionlink-situations-api
-- description: The solutions API from DecisionLink — 3 operation(s) for solutions.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The solutions API from DecisionLink — 3 operation(s) for solutions.
   name: DecisionLink Solutions API
   slug: decisionlink-solutions-api
-- description: The source_types API from DecisionLink — 2 operation(s) for source_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The source_types API from DecisionLink — 2 operation(s) for source_types.
   name: DecisionLink Source Types API
   slug: decisionlink-source-types-api
-- description: The threshold_types API from DecisionLink — 1 operation(s) for threshold_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The threshold_types API from DecisionLink — 1 operation(s) for threshold_types.
   name: DecisionLink Threshold Types API
   slug: decisionlink-threshold-types-api
-- description: The translations API from DecisionLink — 7 operation(s) for translations.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The translations API from DecisionLink — 7 operation(s) for translations.
   name: DecisionLink Translations API
   slug: decisionlink-translations-api
-- description: The unique_types API from DecisionLink — 1 operation(s) for unique_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The unique_types API from DecisionLink — 1 operation(s) for unique_types.
   name: DecisionLink Unique Types API
   slug: decisionlink-unique-types-api
-- description: The unit_types API from DecisionLink — 1 operation(s) for unit_types.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The unit_types API from DecisionLink — 1 operation(s) for unit_types.
   name: DecisionLink Unit Types API
   slug: decisionlink-unit-types-api
-- description: The users API from DecisionLink — 2 operation(s) for users.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The users API from DecisionLink — 2 operation(s) for users.
   name: DecisionLink Users API
   slug: decisionlink-users-api
-- description: The value API from DecisionLink — 2 operation(s) for value.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The value API from DecisionLink — 2 operation(s) for value.
   name: DecisionLink Value API
   slug: decisionlink-value-api
-- description: The value_props API from DecisionLink — 6 operation(s) for value_props.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The value_props API from DecisionLink — 6 operation(s) for value_props.
   name: DecisionLink Value Props API
   slug: decisionlink-value-props-api
-- description: The workflows API from DecisionLink — 1 operation(s) for workflows.
+- baseURL: https://api.xfactor.io
+  baseurl_source: declared
+  description: The workflows API from DecisionLink — 1 operation(s) for workflows.
   name: DecisionLink Workflows API
   slug: decisionlink-workflows-api
 artifact_total: 71
@@ -388,7 +512,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisionlink/refs/heads/main/screenshots/decisionlink-2026-07-25T211527.png
 security:

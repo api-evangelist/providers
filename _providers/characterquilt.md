@@ -32,13 +32,17 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
-- description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
+- baseURL: https://www.characterquilt.com
+  baseurl_source: declared
+  description: The Branding API from CharacterQuilt — 2 operation(s) for branding.
   name: CharacterQuilt Branding API
   slug: characterquilt-branding-api
-- description: The Discovery API from CharacterQuilt — 1 operation(s) for discovery.
+- baseURL: https://www.characterquilt.com
+  baseurl_source: declared
+  description: The Discovery API from CharacterQuilt — 1 operation(s) for discovery.
   name: CharacterQuilt Discovery API
   slug: characterquilt-discovery-api
 - description: 'CharacterQuilt''s hosted Model Context Protocol server, the agent-facing surface of its marketing agent runtime. Live and OAuth-protected at https://mcp.characterquilt.com/api/mcp: an anonymous request'
@@ -211,7 +215,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/characterquilt/refs/heads/main/screenshots/characterquilt-2026-07-25T205053.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 102 operations · 30 acting · 22 human-in-the-loop
 api_count: 2
 apis:
-- description: Account creation enables users to invest on Bamboo. Ensure KYC has been completed and each user’s identity verified before creating a brokerage account. **Best Practice:** To avoid maintenance fees on
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: Account creation enables users to invest on Bamboo. Ensure KYC has been completed and each user’s identity verified before creating a brokerage account. **Best Practice:** To avoid maintenance fees on
   name: Bamboo Invest Account Management API
   slug: bamboo-account-management-api
-- description: Before you start making requests, you’ll need to generate an access token. Every request to the API must be authenticated using access tokens and user context headers — this ensures secure and authori
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: Before you start making requests, you’ll need to generate an access token. Every request to the API must be authenticated using access tokens and user context headers — this ensures secure and authori
   name: Bamboo Invest Authentication API
   slug: bamboo-authentication-api
-- description: Deposits fund user brokerage accounts for stock purchases. All deposits require verification through your webhook endpoint before funds are credited. On the <a href="#tag/US-Stock-Portfolio/operation/
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: Deposits fund user brokerage accounts for stock purchases. All deposits require verification through your webhook endpoint before funds are credited. On the <a href="#tag/US-Stock-Portfolio/operation/
   name: Bamboo Invest Deposits API
   slug: bamboo-deposits-api
-- description: The exchange rate section provides you with an endpoint that fetches real-time exchange rates effortlessly, enabling accurate currency conversions and financial calculations.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The exchange rate section provides you with an endpoint that fetches real-time exchange rates effortlessly, enabling accurate currency conversions and financial calculations.
   name: Bamboo Invest Exchange Rate API
   slug: bamboo-exchange-rate-api
-- description: 'Stocks are grouped into various categories which help users explore and filter stocks based on common themes, sectors, or other criteria. The endpoints in this section allow you to retrieve a list of '
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'Stocks are grouped into various categories which help users explore and filter stocks based on common themes, sectors, or other criteria. The endpoints in this section allow you to retrieve a list of '
   name: Bamboo Invest Featured Themes API
   slug: bamboo-featured-themes-api
-- description: 'Access various financial documents required for user account management, tax reporting, and regulatory compliance through secure document retrieval endpoints. ##### Document Types and Generation The s'
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'Access various financial documents required for user account management, tax reporting, and regulatory compliance through secure document retrieval endpoints. ##### Document Types and Generation The s'
   name: Bamboo Invest Financial Documents API
   slug: bamboo-financial-documents-api
-- description: 'The Https: API from Bamboo Invest — 1 operation(s) for https:.'
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'The Https: API from Bamboo Invest — 1 operation(s) for https:.'
   name: 'Bamboo Invest Https: API'
   slug: bamboo-https-api
-- description: The Lsx API from Bamboo Invest — 1 operation(s) for lsx.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The Lsx API from Bamboo Invest — 1 operation(s) for lsx.
   name: Bamboo Invest Lsx API
   slug: bamboo-lsx-api
-- description: 'The market activity section provides you with endpoints that return the opening and closing times for markets we support, allowing you to check when market is open/closed. This endpoint supports **US '
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'The market activity section provides you with endpoints that return the opening and closing times for markets we support, allowing you to check when market is open/closed. This endpoint supports **US '
   name: Bamboo Invest Market Activity API
   slug: bamboo-market-activity-api
-- description: The NG Deposits API from Bamboo Invest — 2 operation(s) for ng deposits.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The NG Deposits API from Bamboo Invest — 2 operation(s) for ng deposits.
   name: Bamboo Invest NG Deposits API
   slug: bamboo-ng-deposits-api
-- description: The section provides us endpoints that allows a client to fetch all the information pertaining to the NG stocks available on Bamboo.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The section provides us endpoints that allows a client to fetch all the information pertaining to the NG stocks available on Bamboo.
   name: Bamboo Invest NG Securities API
   slug: bamboo-ng-securities-api
-- description: This section provides all the information a tenant needs to know about a user's investment portfolio values and general user performance.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: This section provides all the information a tenant needs to know about a user's investment portfolio values and general user performance.
   name: Bamboo Invest NG Stock Portfolio API
   slug: bamboo-ng-stock-portfolio-api
-- description: The stock trading section details all the endpoints needed to calculate and make trade orders for all NG stock available on Bamboo. Please note that trade charges are applicable and should be agreed u
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The stock trading section details all the endpoints needed to calculate and make trade orders for all NG stock available on Bamboo. Please note that trade charges are applicable and should be agreed u
   name: Bamboo Invest NG Stock Trading API
   slug: bamboo-ng-stock-trading-api
-- description: The NG Withdrawals API from Bamboo Invest — 2 operation(s) for ng withdrawals.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The NG Withdrawals API from Bamboo Invest — 2 operation(s) for ng withdrawals.
   name: Bamboo Invest NG Withdrawals API
   slug: bamboo-ng-withdrawals-api
-- description: The One Step Registration API from Bamboo Invest — 1 operation(s) for one step registration.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The One Step Registration API from Bamboo Invest — 1 operation(s) for one step registration.
   name: Bamboo Invest One Step Registration API
   slug: bamboo-one-step-registration-api
-- description: The user's portfolio provides comprehensive views of investment performance, cash positions, and account status. Understanding the different cash types and portfolio calculations is essential for pres
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The user's portfolio provides comprehensive views of investment performance, cash positions, and account status. Understanding the different cash types and portfolio calculations is essential for pres
   name: Bamboo Invest Portfolio Reporting API
   slug: bamboo-portfolio-reporting-api
-- description: The Stock Trading API from Bamboo Invest — 1 operation(s) for stock trading.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The Stock Trading API from Bamboo Invest — 1 operation(s) for stock trading.
   name: Bamboo Invest Stock Trading API
   slug: bamboo-stock-trading-api
-- description: The Tenant API from Bamboo Invest — 1 operation(s) for tenant.
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: The Tenant API from Bamboo Invest — 1 operation(s) for tenant.
   name: Bamboo Invest Tenant API
   slug: bamboo-tenant-api
-- description: 'The section provides comprehensive information about available US stocks, including real-time pricing, company details, and market data. Stock themes also help users discover investment opportunities '
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'The section provides comprehensive information about available US stocks, including real-time pricing, company details, and market data. Stock themes also help users discover investment opportunities '
   name: Bamboo Invest US Securities API
   slug: bamboo-us-securities-api
-- description: 'Users can buy and sell US securities, with support for multiple order types and fractional shares. Understanding order calculations, execution timing, and fees is crucial for integration. ### Trading '
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'Users can buy and sell US securities, with support for multiple order types and fractional shares. Understanding order calculations, execution timing, and fees is crucial for integration. ### Trading '
   name: Bamboo Invest US Stock Trading API
   slug: bamboo-us-stock-trading-api
-- description: 'Withdrawals allow users to extract funds from their brokerage accounts after successful trades. Understanding the settlement timeline is essential. #### Settlement Timeline - Stock sale proceeds settl'
+- baseURL: https://api.investbamboo.com
+  baseurl_source: declared
+  description: 'Withdrawals allow users to extract funds from their brokerage accounts after successful trades. Understanding the settlement timeline is essential. #### Settlement Timeline - Stock sale proceeds settl'
   name: Bamboo Invest Withdrawals API
   slug: bamboo-withdrawals-api
 artifact_total: 113
@@ -493,7 +535,7 @@ score:
     regime_id: securities_market_data
     score: 20.0
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:

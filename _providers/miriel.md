@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -43,25 +43,39 @@ agentic_access:
   summary_line: 21 operations · 21 acting
 api_count: 7
 apis:
-- description: The Documents API from Miriel — 8 operation(s) for documents.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Documents API from Miriel — 8 operation(s) for documents.
   name: Miriel Documents API
   slug: miriel-documents-api
-- description: The Learn API from Miriel — 1 operation(s) for learn.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Learn API from Miriel — 1 operation(s) for learn.
   name: Miriel Learn API
   slug: miriel-learn-api
-- description: The Monitoring API from Miriel — 2 operation(s) for monitoring.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Monitoring API from Miriel — 2 operation(s) for monitoring.
   name: Miriel Monitoring API
   slug: miriel-monitoring-api
-- description: The Policies API from Miriel — 3 operation(s) for policies.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Policies API from Miriel — 3 operation(s) for policies.
   name: Miriel Policies API
   slug: miriel-policies-api
-- description: The Projects API from Miriel — 3 operation(s) for projects.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Projects API from Miriel — 3 operation(s) for projects.
   name: Miriel Projects API
   slug: miriel-projects-api
-- description: The Query API from Miriel — 1 operation(s) for query.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Query API from Miriel — 1 operation(s) for query.
   name: Miriel Query API
   slug: miriel-query-api
-- description: The Users API from Miriel — 3 operation(s) for users.
+- baseURL: https://api.prod.miriel.ai
+  baseurl_source: declared
+  description: The Users API from Miriel — 3 operation(s) for users.
   name: Miriel Users API
   slug: miriel-users-api
 artifact_total: 19
@@ -212,7 +226,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -9.6
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -222,7 +236,7 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +248,8 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
-  trend: falling
+  scored_at: '2026-09-02'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:
 - kind: authentication

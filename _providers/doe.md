@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -62,52 +62,84 @@ apis:
 - description: The DOE Data Explorer API allows querying the Department of Energy's repository of research datasets resulting from DOE research funding. Built on REST architecture providing predictable URLs and HTTP
   name: DOE Data Explorer API
   slug: doe-data-explorer-api
-- description: Access to Annual Energy Outlook Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Annual Energy Outlook Data
   name: Department of Energy AEO API
   slug: doe-aeo-api
-- description: Access to Coal Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Coal Data
   name: Department of Energy COAL API
   slug: doe-coal-api
-- description: Access to Crude Oil Imports Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Crude Oil Imports Data
   name: Department of Energy CRUD_IMPORTS API
   slug: doe-crud-imports-api
-- description: Access to Densified Biomass Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Densified Biomass Data
   name: Department of Energy DBF API
   slug: doe-dbf-api
-- description: Access to Electricity Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Electricity Data
   name: Department of Energy ELEC API
   slug: doe-elec-api
-- description: Access to CO2 Emissions Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to CO2 Emissions Data
   name: Department of Energy EMISS API
   slug: doe-emiss-api
-- description: Access to International Energy Outlook Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to International Energy Outlook Data
   name: Department of Energy IEO API
   slug: doe-ieo-api
-- description: Access to International Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to International Data
   name: Department of Energy INTL API
   slug: doe-intl-api
-- description: Access to Natural Gas Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Natural Gas Data
   name: Department of Energy NG API
   slug: doe-ng-api
-- description: Access to Nuclear Outages Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Nuclear Outages Data
   name: Department of Energy NUC_STATUS API
   slug: doe-nuc-status-api
-- description: Available EIA API Datasets
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Available EIA API Datasets
   name: Department of Energy Root API
   slug: doe-root-api
-- description: Access to Daily Electricity Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Daily Electricity Data
   name: Department of Energy RTO API
   slug: doe-rto-api
-- description: Access to State Energy Data Systems (SEDS) Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to State Energy Data Systems (SEDS) Data
   name: Department of Energy SEDS API
   slug: doe-seds-api
-- description: Access to State Electricity Profiles
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to State Electricity Profiles
   name: Department of Energy SEP API
   slug: doe-sep-api
-- description: Access to Short Term Energy Outlook Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Short Term Energy Outlook Data
   name: Department of Energy STEO API
   slug: doe-steo-api
-- description: Access to Total Energy Data
+- baseURL: https://api.eia.gov/v2/
+  baseurl_source: declared
+  description: Access to Total Energy Data
   name: Department of Energy TOTAL API
   slug: doe-total-api
 artifact_total: 68
@@ -362,7 +394,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/screenshots/doe-2026-06-20T180122.png
 security:

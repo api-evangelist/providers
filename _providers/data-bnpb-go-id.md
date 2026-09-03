@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 api_count: 1
 apis:
 - description: CKAN Action API for Satu Data Bencana Indonesia (BNPB), a consistent JSON-over-HTTP interface over a catalog of 2,830 datasets. Standard actions include package_search, package_show, package_list, org
@@ -120,7 +120,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-bnpb-go-id/refs/heads/main/screenshots/data-bnpb-go-id-2026-06-20T175522.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 0
@@ -43,67 +43,109 @@ agentic_access:
   summary_line: 88 operations · 56 acting
 api_count: 2
 apis:
-- description: Application Agent Credential management
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Application Agent Credential management
   name: Indykite Application Agent Credentials API
   slug: indykite-application-agent-credentials-api
-- description: Application Agent CRUD operations
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Application Agent CRUD operations
   name: Indykite Application Agents API
   slug: indykite-application-agents-api
-- description: Application and agent management
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Application and agent management
   name: Indykite Applications API
   slug: indykite-applications-api
-- description: KBAC and ContX IQ Policies CRUD operations
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: KBAC and ContX IQ Policies CRUD operations
   name: Indykite Authorization Policies API
   slug: indykite-authorization-policies-api
-- description: Authorization API implemented according to [AuthZEN specification](https://openid.net/wg/authzen/specifications/).
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Authorization API implemented according to [AuthZEN specification](https://openid.net/wg/authzen/specifications/).
   name: Indykite AuthZEN API
   slug: indykite-authzen-api
-- description: Capture REST API represents the service interface for data capture.
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Capture REST API represents the service interface for data capture.
   name: Indykite Capture API
   slug: indykite-capture-api
-- description: ContX IQ API supports CRUD operations on IKG which cooperates with authorization engine.
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: ContX IQ API supports CRUD operations on IKG which cooperates with authorization engine.
   name: Indykite ContX IQ API
   slug: indykite-contx-iq-api
-- description: DataSchema enables customers to define their own data models within the Identity Knowledge Graph (IKG)
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: DataSchema enables customers to define their own data models within the Identity Knowledge Graph (IKG)
   name: Indykite DataSchema API
   slug: indykite-dataschema-api
-- description: The Deprecated API from Indykite — 2 operation(s) for deprecated.
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: The Deprecated API from Indykite — 2 operation(s) for deprecated.
   name: Indykite Deprecated API
   slug: indykite-deprecated-api
-- description: Entity Matching Pipeline configuration
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Entity Matching Pipeline configuration
   name: Indykite Entity Matching API
   slug: indykite-entity-matching-api
-- description: The EntityMatching API from Indykite — 3 operation(s) for entitymatching.
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: The EntityMatching API from Indykite — 3 operation(s) for entitymatching.
   name: Indykite EntityMatching API
   slug: indykite-entitymatching-api
-- description: Event Sink configuration
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Event Sink configuration
   name: Indykite Event Sinks API
   slug: indykite-event-sinks-api
-- description: External Data Resolver configuration
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: External Data Resolver configuration
   name: Indykite External Data Resolver API
   slug: indykite-external-data-resolver-api
-- description: Knowledge Query management
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Knowledge Query management
   name: Indykite Knowledge Queries API
   slug: indykite-knowledge-queries-api
-- description: MCP Servers configuration
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: MCP Servers configuration
   name: Indykite MCP Servers API
   slug: indykite-mcp-servers-api
-- description: Organization operations
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Organization operations
   name: Indykite Organizations API
   slug: indykite-organizations-api
-- description: Project CRUD operations
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Project CRUD operations
   name: Indykite Projects API
   slug: indykite-projects-api
-- description: Service Account Credential management
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Service Account Credential management
   name: Indykite Service Account Credentials API
   slug: indykite-service-account-credentials-api
-- description: Service Account CRUD operations
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Service Account CRUD operations
   name: Indykite Service Accounts API
   slug: indykite-service-accounts-api
-- description: Token introspection configuration
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Token introspection configuration
   name: Indykite Token Introspect API
   slug: indykite-token-introspect-api
-- description: Trust Score Profile management
+- baseURL: https://us.api.indykite.com
+  baseurl_source: declared
+  description: Trust Score Profile management
   name: Indykite Trust Score API
   slug: indykite-trust-score-api
 arazzos:
@@ -347,7 +389,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -0.2
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -357,7 +399,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 47.2
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -369,7 +411,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.0
-  scored_at: '2026-09-01'
+  scored_at: '2026-09-02'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indykite/refs/heads/main/screenshots/indykite-2026-07-25T222343.png
 security:
